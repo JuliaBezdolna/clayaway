@@ -201,6 +201,41 @@ td:first-child{font-weight:500}
 .pill.ok{background:var(--field-soft);color:var(--field)}
 .pill.warn{background:var(--clay-soft);color:var(--clay)}
 .pill.info{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
+.tp{padding:16px;display:grid;gap:16px}
+.tp-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:90px 90px;gap:6px}
+.ph{background:var(--field-soft);border-radius:6px;display:flex;align-items:flex-end;padding:8px;font-size:12px;color:var(--field);min-width:0}
+.ph.big{grid-row:span 2;background:linear-gradient(160deg,var(--field-soft),var(--clay-soft))}
+@media (max-width:520px){.tp-gallery{grid-template-columns:1fr 1fr;grid-template-rows:120px 70px 70px}.ph.big{grid-column:span 2;grid-row:auto}.ph:last-child{display:none}}
+.tp-grid{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:16px;align-items:start}
+@media (max-width:720px){.tp-grid{grid-template-columns:1fr}}
+.tp-main{display:grid;gap:10px;min-width:0}
+.tp-title{font-family:var(--display);font-size:24px;line-height:1.15}
+.tp-desc{margin:0;font-size:14.5px}
+.tp-blocks{display:flex;flex-wrap:wrap;gap:6px}
+.tp-blocks span{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;background:var(--surface);color:var(--muted)}
+.qa{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:12px}
+.qa-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.qa-h b{font-family:var(--display);font-size:17px}
+.qa-h span{font-size:12.5px;color:var(--muted)}
+.qa-ask{display:flex;gap:8px;flex-wrap:wrap}
+.qa-input{flex:1 1 200px;border:1px solid var(--line);border-radius:6px;padding:7px 10px;font-size:13.5px;color:var(--muted);background:var(--paper)}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;font-size:13px}
+.seg span{padding:7px 12px;color:var(--muted)}
+.seg span.on{background:var(--field);color:var(--surface);font-weight:600}
+.qa-item{display:grid;gap:6px;font-size:14px;border-top:1px solid var(--line);padding-top:10px}
+.qa-item .q,.qa-item .a{display:grid;gap:2px}
+.qa-item .a{margin-left:16px;padding-left:12px;border-left:2px solid var(--field)}
+.qa-item b{font-size:13px}
+.tp-buy{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:8px}
+.tp-buy > b{font-family:var(--display);font-size:30px;line-height:1}
+.tp-buy small,.tp-buy > span{font-size:12.5px;color:var(--muted)}
+.tp-buy ul{list-style:none;padding:0;margin:4px 0;display:grid;gap:4px;font-size:13px}
+.tp-buy li{margin:0;display:flex;justify-content:space-between;gap:8px}
+.tp-buy li span:last-child{font-variant-numeric:tabular-nums;color:var(--muted)}
+.tp-buy .places{justify-self:start}
+.btn{text-align:center;border:1px solid var(--line);border-radius:8px;padding:9px;font-size:14px;font-weight:600}
+.btn.primary{background:var(--clay);border-color:var(--clay);color:#fff}
+.muted{color:var(--muted)}
 footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
 a{color:var(--field)}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
@@ -215,6 +250,7 @@ html{scroll-behavior:smooth}
     <li><a href="#idea">Идея</a></li>
     <li><a href="#focus">Три мотивации</a></li>
     <li><a href="#card">Карточка тура</a></li>
+    <li><a href="#tourpage">Страница тура</a></li>
     <li><a href="#examples">Два примера</a></li>
     <li><a href="#place">Место в ClayArena</a></li>
     <li><a href="#model">Модель данных</a></li>
@@ -285,6 +321,105 @@ html{scroll-behavior:smooth}
   </div>
   <p style="font-size:14px;color:var(--muted)">Пример. Цена и данные условные.</p>
 </section>
+
+<section id="tourpage">
+  <h2>Страница тура: контент и вопросы</h2>
+  <p>Страницу каждого тура организатор наполняет сам: описание, фото, видео, цены и всё остальное. Там же, прямо на странице, любой посетитель задаёт вопрос организатору и выбирает, как получить ответ: <b>публично</b> (ответ видят все) или <b>лично</b> (личное сообщение).</p>
+
+  <div class="mock" role="img" aria-label="Макет публичной страницы тура Dornsberg Training Days с блоком вопросов">
+    <div class="mock-bar"><span class="clay-dot" aria-hidden="true"></span><b>clayarena.com/en/tours/…-dornsberg-training-days/</b></div>
+    <div class="tp">
+      <div class="tp-gallery">
+        <div class="ph big"><span>Обложка: линия C на Dornsberg</span></div>
+        <div class="ph"><span>Фото: Compak</span></div>
+        <div class="ph"><span>▶ Видео от Markus Leibinger</span></div>
+        <div class="ph"><span>Фото: отель у озера</span></div>
+        <div class="ph"><span>+ 14 фото</span></div>
+      </div>
+      <div class="tp-grid">
+        <div class="tp-main">
+          <div class="eyebrow">ClayAway · Germany · Sporting, Compak</div>
+          <b class="tp-title">Dornsberg Training Days with Markus Leibinger</b>
+          <div class="facts"><span><b>5</b> days</span><span><b>6</b> shooters</span><span><b>~150</b> targets/day</span><span>Focus: <b>Training</b></span><span>EN · ES · DE</span></div>
+          <p class="tp-desc">Five days on one of Germany's most demanding FITASC layouts above Lake Constance. Markus Leibinger works with each shooter on lines A–E and the Compak layouts; Lena Weigele interprets every session into English and Spanish…</p>
+          <div class="tp-blocks"><span>Описание</span><span>Программа по дням</span><span>Тренер</span><span>Организатор</span><span>Стенд</span><span>Отель</span><span>Что входит</span><span>Цены</span><span>Условия отмены</span><span>FAQ</span><span>Вопросы · 7</span><span>Отзывы</span></div>
+          <div class="qa">
+            <div class="qa-h"><b>Вопросы о туре</b><span>7 публичных ответов</span></div>
+            <div class="qa-ask">
+              <div class="qa-input">Задайте вопрос организатору…</div>
+              <div class="seg"><span class="on">Публично</span><span>Лично</span></div>
+            </div>
+            <div class="qa-item">
+              <div class="q"><b>Pablo · ES</b><span>Можно ли купить стальные патроны на месте или везти свои?</span></div>
+              <div class="a"><b>Lena Weigele <span class="pill ok">организатор</span></b><span>На стенде есть Profi-Shop со стальными патронами до 28 г. Если выберете опцию «патроны в пакете», 750 патронов будут ждать вас на стенде.</span></div>
+            </div>
+            <div class="qa-item">
+              <div class="q"><b>Emma · UK</b><span>Подойдёт ли тур, если я стреляю всего два сезона?</span></div>
+              <div class="a"><b>Markus Leibinger <span class="pill ok">тренер</span></b><span>Да. Группа до 6 человек, нагрузку и площадки я подбираю под каждого. <i>(перевод: Lena)</i></span></div>
+            </div>
+          </div>
+        </div>
+        <aside class="tp-buy">
+          <small>от</small><b>€1 950</b><span>за стрелка</span>
+          <ul>
+            <li><span>Одноместный номер</span><span>+ €280</span></li>
+            <li><span>Патроны в пакете (750)</span><span>+ €310</span></li>
+            <li><span>Сопровождающий</span><span>€890</span></li>
+          </ul>
+          <div class="places">1 место из 6</div>
+          <div class="btn primary">Забронировать</div>
+          <div class="btn">Написать организатору лично</div>
+          <small class="muted">Оплата через ClayArena. Депозит 30%.</small>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <p class="ex-note">Макет. Тексты вопросов, цены и опции условные.</p>
+
+  <h3>Что организатор добавляет в тур</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Блок</th><th>Содержимое</th><th>Откуда</th></tr></thead>
+    <tbody>
+      <tr><td>Обложка и галерея</td><td>фото стенда, площадок, отеля, прошлых туров; порядок перетаскиванием, подписи</td><td>загружает организатор</td></tr>
+      <tr><td>Видео</td><td>загрузка или ссылка; видео тренера; видео стрелков с ClayArena</td><td>организатор, профили ClayArena</td></tr>
+      <tr><td>Описание</td><td>форматированный текст; язык по умолчанию английский, можно добавить переводы</td><td>организатор</td></tr>
+      <tr><td>Программа</td><td>дни и пункты из редактора программы; публично только обзор</td><td>редактор программы</td></tr>
+      <tr><td>Тренер, организатор, переводчик</td><td>карточки с фото, языками, дисциплинами, результатами</td><td>автоматически из профилей</td></tr>
+      <tr><td>Стенд</td><td>карточка, карта, площадки, правила (дни работы, патроны)</td><td>автоматически из профиля стенда</td></tr>
+      <tr><td>Отель, трансферы, активности</td><td>описание и фото; точный адрес только для группы</td><td>организатор</td></tr>
+      <tr><td>Что входит / не входит</td><td>список с иконками</td><td>организатор</td></tr>
+      <tr><td>Цены и опции</td><td>базовая цена, доплаты, тариф сопровождающего, депозит, валюта</td><td>организатор</td></tr>
+      <tr><td>Даты и места</td><td>даты, дедлайн записи, мест всего и свободно</td><td>организатор + брони</td></tr>
+      <tr><td>Условия отмены</td><td>шаблон ClayArena или свои правила</td><td>организатор</td></tr>
+      <tr><td>FAQ</td><td>свои пункты + закреплённые ответы из вопросов</td><td>организатор</td></tr>
+      <tr><td>Отзывы</td><td>отзывы участников прошлых туров этого организатора и тренера</td><td>после тура</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Правила редактора</h3>
+  <ul>
+    <li>Редактор блоками: черновик, предпросмотр «как увидит стрелок», публикация.</li>
+    <li>Первая публикация проходит модерацию ClayArena. Правки текста и фото после публикации — сразу; изменение цены, дат или программы — снова на модерацию и с уведомлением участникам.</li>
+    <li>Новая цена не меняет уже оплаченные брони.</li>
+    <li>Фото и видео проходят автоматическую проверку и модерацию по жалобам.</li>
+    <li>Права на редактирование: Organizer и Co-organizer — всё; Coach — тренировочные пункты программы и своё видео; Interpreter — переводы описания.</li>
+  </ul>
+
+  <h3>Вопрос: публично или лично</h3>
+  <div class="tbl"><table>
+    <thead><tr><th></th><th>Публично</th><th>Лично</th></tr></thead>
+    <tbody>
+      <tr><td>Кто видит вопрос и ответ</td><td>все посетители страницы</td><td>только автор и организатор (и его команда)</td></tr>
+      <tr><td>Кто отвечает</td><td>организатор, тренер, переводчик; ответ с меткой роли</td><td>организатор или Co-organizer</td></tr>
+      <tr><td>Где идёт переписка</td><td>лента «Вопросы о туре» на странице</td><td>личные сообщения ClayArena с привязкой к туру</td></tr>
+      <tr><td>Уведомление автору</td><td>да, когда пришёл ответ</td><td>да, как обычное сообщение</td></tr>
+      <tr><td>Дальше</td><td>организатор может закрепить ответ в FAQ</td><td>организатор может сделать вопрос публичным с согласия автора (без имени)</td></tr>
+      <tr><td>Нужен вход</td><td>да, чтобы спросить; читать можно без входа</td><td>да</td></tr>
+    </tbody>
+  </table></div>
+  <p>В кабинете организатора все вопросы, публичные и личные, собраны в одном списке «Вопросы» с метками «новый», «отвечен», «в FAQ». Время ответа организатора показывается на странице тура («обычно отвечает в течение дня»).</p>
+</section>
+
 
 <section id="examples">
   <h2>Два примера</h2>
