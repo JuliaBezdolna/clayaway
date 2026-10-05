@@ -163,6 +163,44 @@ td:first-child{font-weight:500}
 .money-row small{display:block;font-size:12.5px;color:var(--muted)}
 .money-row b{font-family:var(--display);font-size:24px;font-variant-numeric:tabular-nums}
 .ex-note{font-size:13.5px;color:var(--muted);margin:0}
+.zones{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:16px 0}
+.zone{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.zone.open{border-top:4px solid var(--field)}
+.zone.closed{border-top:4px solid var(--clay)}
+.zone-h{display:grid;gap:4px}
+.zone-h h3{margin:0}
+.zone p{margin:6px 0;color:var(--muted);font-size:14.5px}
+.zone ul{font-size:14.5px}
+.badge{justify-self:start;font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:4px;background:var(--field-soft);color:var(--field)}
+.zone.closed .badge{background:var(--clay-soft);color:var(--clay)}
+.mock{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper);margin:16px 0;box-shadow:0 8px 24px rgba(22,33,28,.07)}
+.mock-bar{display:flex;align-items:center;gap:10px;padding:10px 16px;background:var(--surface);border-bottom:1px solid var(--line);font-size:14px}
+.mock-bar .who{margin-left:auto;color:var(--muted)}
+.mock-body{display:grid;grid-template-columns:170px minmax(0,1fr)}
+@media (max-width:640px){.mock-body{grid-template-columns:1fr}.mock-nav{display:flex!important;flex-wrap:wrap;gap:4px!important;border-right:0!important;border-bottom:1px solid var(--line)}}
+.mock-nav{list-style:none;margin:0;padding:12px 8px;display:grid;gap:2px;align-content:start;border-right:1px solid var(--line);background:var(--surface);font-size:13.5px}
+.mock-nav li{margin:0;padding:5px 10px;border-radius:6px;color:var(--muted)}
+.mock-nav li.on{background:var(--field-soft);color:var(--field);font-weight:600}
+.mock-main{padding:16px;display:grid;gap:14px;min-width:0}
+.mock-title{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.mock-title b{font-family:var(--display);font-size:19px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.kpis div{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:grid;gap:1px}
+.kpis small{color:var(--muted);font-size:12px}
+.kpis b{font-family:var(--display);font-size:22px;font-variant-numeric:tabular-nums}
+.kpis span{font-size:12px;color:var(--muted)}
+.mock-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.mock-card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.mock-card h4{margin:0 0 8px;font-family:var(--display);font-size:15px}
+.todo{list-style:none;padding:0;margin:0;display:grid;gap:6px;font-size:13.5px}
+.todo li{margin:0}
+.mini{font-size:13.5px}
+.mini td{padding:5px 4px;border-bottom:1px solid var(--line)}
+.mini td:last-child{text-align:right}
+.pill{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;margin-right:6px;white-space:nowrap}
+.pill.ok{background:var(--field-soft);color:var(--field)}
+.pill.warn{background:var(--clay-soft);color:var(--clay)}
+.pill.info{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
 footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
 a{color:var(--field)}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
@@ -185,6 +223,7 @@ html{scroll-behavior:smooth}
     <li><a href="#access">Видимость</a></li>
     <li><a href="#group">Пространство группы</a></li>
     <li><a href="#program">Программа</a></li>
+    <li><a href="#talk">Общение</a></li>
     <li><a href="#admin">Админка</a></li>
     <li><a href="#money">Деньги</a></li>
     <li><a href="#pages">Страницы</a></li>
@@ -249,158 +288,174 @@ html{scroll-behavior:smooth}
 
 <section id="examples">
   <h2>Два примера</h2>
-  <p>Две типичные схемы: тренер сам организует тур, и организатор отдельно от тренера. Имена, стенды и цены вымышленные; комиссия ClayArena взята условно 10%.</p>
+  <p>Оба примера собраны из реальных профилей ClayArena. В обоих организатор — сама спортсменка и одновременно переводчик со знанием спортивной терминологии. Значит, у одного человека в туре может быть <b>несколько ролей</b>: Organizer + Interpreter. Программа и цены — пример; комиссия ClayArena условно 10%.</p>
 
   <article class="ex" aria-labelledby="exA">
     <div class="ex-head">
-      <div class="eyebrow">Пример A · тренер = организатор · фокус Training</div>
-      <h3 id="exA">Marco Bellini Training Week · Italy</h3>
-      <p>5 дней · 8 стрелков · 1 стенд · Sporting · ~220 мишеней в день. Тренер говорит по-итальянски, группа англоязычная.</p>
+      <div class="eyebrow">Пример 1 · Германия · Боденское озеро · фокус Training</div>
+      <h3 id="exA">Dornsberg Training Days with Markus Leibinger</h3>
+      <p>5 дней · 6 стрелков · Sporting и Compak · ~150 мишеней в день. Тренер говорит только по-немецки, группа англо- и испаноязычная, переводит организатор.</p>
     </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Роль</th><th>Кто</th><th>Что важно для тура</th></tr></thead>
+      <tbody>
+        <tr><td>Organizer + Interpreter</td><td><a href="https://clayarena.com/en/shooters/9655/">Lena Weigele</a></td><td>Германия, D.S.B., категория Ladies, Sporting и Compak. Языки: немецкий, английский, испанский. Сама спортсменка, Dornsberg — её домашний стенд.</td></tr>
+        <tr><td>Coach</td><td><a href="https://clayarena.com/en/coaches/markus-leibinger-15/">Markus Leibinger</a></td><td>Германия, Deutscher Schützenbund. Sporting, Compak-Sporting, Compak InLine. Язык тренировок: немецкий. Ставка в профиле: 120 €/час.</td></tr>
+        <tr><td>Стенд</td><td><a href="https://clayarena.com/en/stands/66-dornsberg-shooting-ground/">Dornsberg Shooting Ground</a></td><td>Eigeltingen. 23 площадки на линиях A–E, около 200 машинок, 4 площадки Compak, ресторан на 200 гостей. Работает со среды по субботу, перерыв 12:30–13:30. <b>Только стальная дробь до 2,5 мм и навеска до 28 г.</b></td></tr>
+      </tbody>
+    </table></div>
     <div class="diagram">
-      <svg viewBox="0 0 720 320" role="img" aria-label="Схема примера A: тренер Marco Bellini сам организует тур на стенде Valle Verde, группа из 8 стрелков платит через ClayArena">
+      <svg viewBox="0 0 720 320" role="img" aria-label="Схема примера 1: Lena Weigele организует тур и переводит, Markus Leibinger тренирует на стенде Dornsberg, 6 стрелков платят через ClayArena">
         <defs>
           <marker id="aA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="aAm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow money" d="M0,0 L10,5 L0,10 z"/></marker>
         </defs>
-        <!-- money path -->
         <path class="ln money" d="M95,135 L95,88" marker-end="url(#aAm)"/>
         <text class="lbl money" x="102" y="116">платят</text>
         <path class="ln money" d="M170,58 L528,58" marker-end="url(#aAm)"/>
-        <text class="lbl money" x="300" y="50">выплата − 10% комиссии</text>
-        <!-- structure lines -->
+        <text class="lbl money" x="290" y="50">выплата − 10% комиссии</text>
+        <path class="ln off" d="M640,94 L640,131" marker-end="url(#aA)"/>
+        <text class="lbl" x="648" y="117">120 €/ч</text>
         <path class="ln" d="M170,165 L273,165" marker-end="url(#aA)"/>
         <text class="lbl" x="182" y="157">бронируют</text>
-        <path class="ln" d="M528,78 L445,140" marker-start="url(#aA)"/>
-        <text class="lbl" x="470" y="100">создаёт и ведёт</text>
-        <path class="ln" d="M445,165 L528,165" marker-end="url(#aA)"/>
-        <text class="lbl" x="452" y="157">тренировки</text>
-        <path class="ln" d="M445,190 L528,256" marker-end="url(#aA)"/>
-        <text class="lbl" x="452" y="236">переводит</text>
+        <path class="ln" d="M528,80 L445,140" marker-start="url(#aA)"/>
+        <text class="lbl" x="452" y="100">ведёт, переводит</text>
+        <path class="ln" d="M445,168 L528,168" marker-end="url(#aA)"/>
+        <text class="lbl" x="452" y="160">тренирует</text>
+        <path class="ln" d="M445,192 L528,262" marker-end="url(#aA)"/>
+        <text class="lbl" x="452" y="240">тренировки</text>
         <path class="ln" d="M360,205 L360,248" marker-end="url(#aA)"/>
-        <text class="lbl" x="368" y="232">5 ночей</text>
-        <!-- nodes -->
+        <text class="lbl" x="368" y="232">4 ночи</text>
         <rect class="box" x="20" y="30" width="150" height="56" rx="8"/>
         <text class="t1" x="34" y="54">ClayArena</text><text class="t2" x="34" y="72">приём оплаты, комиссия</text>
         <rect class="box" x="20" y="135" width="150" height="60" rx="8"/>
-        <text class="t1" x="34" y="160">8 стрелков</text><text class="t2" x="34" y="178">UK · USA · Sweden</text>
+        <text class="t1" x="34" y="160">6 стрелков</text><text class="t2" x="34" y="178">группа EN / ES</text>
         <rect class="box tour" x="275" y="125" width="170" height="80" rx="10"/>
-        <text class="t1" x="289" y="152">Tour</text><text class="t2" x="289" y="170">Marco Bellini</text><text class="t2" x="289" y="186">Training Week</text>
+        <text class="t1" x="289" y="152">Tour</text><text class="t2" x="289" y="170">Dornsberg</text><text class="t2" x="289" y="186">Training Days</text>
         <rect class="box org" x="530" y="30" width="170" height="64" rx="8"/>
-        <text class="t1" x="544" y="55">Marco Bellini</text><text class="t2" x="544" y="74">Organizer + Coach</text>
+        <text class="t1" x="544" y="55">Lena Weigele</text><text class="t2" x="544" y="74">Organizer + DE → EN / ES</text>
         <rect class="box" x="530" y="133" width="170" height="64" rx="8"/>
-        <text class="t1" x="544" y="158">Valle Verde SG</text><text class="t2" x="544" y="177">стенд ClayArena · Lombardy</text>
+        <text class="t1" x="544" y="158">Markus Leibinger</text><text class="t2" x="544" y="177">Coach · только DE</text>
         <rect class="box" x="530" y="236" width="170" height="64" rx="8"/>
-        <text class="t1" x="544" y="261">Giulia R.</text><text class="t2" x="544" y="280">Interpreter · IT → EN</text>
+        <text class="t1" x="544" y="261">Dornsberg SG</text><text class="t2" x="544" y="280">23 площадки · steel only</text>
         <rect class="box" x="275" y="250" width="170" height="56" rx="8"/>
-        <text class="t1" x="289" y="274">Hotel</text><text class="t2" x="289" y="292">4★ у стенда</text>
+        <text class="t1" x="289" y="274">Hotel</text><text class="t2" x="289" y="292">Radolfzell, у озера</text>
       </svg>
     </div>
-    <div class="legend"><span>связь в туре</span><span class="m">деньги через ClayArena</span></div>
-    <div class="days" aria-label="Программа примера A">
-      <div class="day"><b>День 1<small>прилёт</small></b><ul>
-        <li><time>13:00–15:00</time><span><span class="tag tf">трансфер</span>аэропорт Bergamo → отель</span></li>
-        <li><time>17:00–18:30</time><span><span class="tag tr">тренировка</span>знакомство, пристрелка, видео стойки</span></li>
-        <li><time>20:00</time><span><span class="tag ml">ужин</span>welcome dinner в отеле</span></li></ul></div>
-      <div class="day"><b>Дни 2–4<small>основная часть</small></b><ul>
-        <li><time>08:30–12:30</time><span><span class="tag tr">тренировка</span>Valle Verde, ~120 мишеней, работа по стрелкам</span></li>
-        <li><time>14:00–16:30</time><span><span class="tag tr">тренировка</span>~100 мишеней, сложные дорожки</span></li>
-        <li><time>17:00–18:00</time><span><span class="tag tr">разбор</span>видеоразбор в отеле, перевод IT → EN</span></li>
-        <li><time>18:30</time><span><span class="tag tm">команда</span>брифинг тренера и переводчика — видно только команде</span></li></ul></div>
-      <div class="day"><b>День 5<small>отъезд</small></b><ul>
-        <li><time>08:30–11:00</time><span><span class="tag tr">тренировка</span>контрольный раунд 100 мишеней, итоговые заметки</span></li>
-        <li><time>12:30</time><span><span class="tag tf">трансфер</span>отель → аэропорт Bergamo</span></li></ul></div>
+    <div class="legend"><span>связь в туре</span><span class="m">деньги через ClayArena</span><span class="o">расчёт вне ClayArena</span></div>
+    <div class="days" aria-label="Программа примера 1">
+      <div class="day"><b>Вторник<small>прилёт</small></b><ul>
+        <li><time>14:00–16:00</time><span><span class="tag tf">трансфер</span>аэропорт Zürich → отель в Radolfzell</span></li>
+        <li><time>19:30</time><span><span class="tag ml">ужин</span>welcome dinner; Lena рассказывает программу и правила стенда на EN / ES</span></li></ul></div>
+      <div class="day"><b>Среда<small>Sporting</small></b><ul>
+        <li><time>10:00–12:30</time><span><span class="tag tr">тренировка</span>линии A–B, постановка, разбор ошибок по каждому стрелку</span></li>
+        <li><time>12:30–13:30</time><span><span class="tag ml">обед</span>ресторан Dornsberg</span></li>
+        <li><time>13:30–17:30</time><span><span class="tag tr">тренировка</span>линии C–E, кролики и сложные траектории</span></li></ul></div>
+      <div class="day"><b>Четверг<small>Compak</small></b><ul>
+        <li><time>10:00–12:30</time><span><span class="tag tr">тренировка</span>Compak, 4 площадки</span></li>
+        <li><time>13:30–16:30</time><span><span class="tag tr">разбор</span>видеоразбор с Markus, перевод DE → EN / ES</span></li>
+        <li><time>18:30</time><span><span class="tag ac">активность</span>остров Reichenau: вино и ужин у озера</span></li></ul></div>
+      <div class="day"><b>Пятница<small>Sporting</small></b><ul>
+        <li><time>10:00–12:30</time><span><span class="tag tr">тренировка</span>работа над слабыми местами каждого</span></li>
+        <li><time>15:00–21:00</time><span><span class="tag ac">активность</span>Konstanz, прогулка по Bodensee, ужин группы</span></li></ul></div>
+      <div class="day"><b>Суббота<small>отъезд</small></b><ul>
+        <li><time>09:00–12:30</time><span><span class="tag tr">тренировка</span>контрольный раунд 100 мишеней, итоговые заметки тренера</span></li>
+        <li><time>13:30</time><span><span class="tag tf">трансфер</span>Dornsberg → аэропорт Zürich</span></li></ul></div>
     </div>
+    <div class="note"><b>Чек-лист для этого стенда:</b> на Dornsberg свинец запрещён: только стальная дробь до 2,5 мм и навеска до 28 г. Если патроны входят в пакет, их закупает организатор. Своё ружьё ввозят с European Firearms Pass. Стенд работает со среды по субботу, поэтому тур начинается во вторник вечером.</div>
     <div class="money-row">
-      <div><small>Оплатили 8 × €2 900</small><b>€23 200</b></div>
-      <div><small>Комиссия ClayArena 10%</small><b>€2 320</b></div>
-      <div><small>Выплата Marco Bellini</small><b>€20 880</b></div>
+      <div><small>Оплатили 6 × €1 950</small><b>€11 700</b></div>
+      <div><small>Комиссия ClayArena 10%</small><b>€1 170</b></div>
+      <div><small>Выплата Lena Weigele</small><b>€10 530</b></div>
     </div>
-    <p class="ex-note">Одна выплата одному человеку: Marco сам платит за стенд, отель, трансферы и переводчика. Комиссия платёжного провайдера в расчёт не включена.</p>
+    <p class="ex-note">Из выплаты Lena платит Markus Leibinger по его ставке 120 €/час (около 20 часов ≈ €2 400), а также стенд, отель и трансферы — всё вне ClayArena. Переводчика нанимать не нужно: переводит сама Lena.</p>
   </article>
 
   <article class="ex" aria-labelledby="exB">
     <div class="ex-head">
-      <div class="eyebrow">Пример B · организатор ≠ тренер · фокус Social &amp; Travel</div>
-      <h3 id="exB">Cyprus Shooting &amp; Food Week</h3>
-      <p>6 дней · 10 стрелков + 4 сопровождающих · 2 стенда · Sporting и Compak · ~100 мишеней в день. Тур продаёт агентство, тренер — немец, группа англоязычная.</p>
+      <div class="eyebrow">Пример 2 · Франция · Солонь · фокус Balanced</div>
+      <h3 id="exB">Sologne Week with Charles Bardou</h3>
+      <p>5 дней · 8 стрелков + 2 сопровождающих · Hunting Course (Sporting) и Compak · ~120 мишеней в день. Тренер говорит только по-французски, группа украино- и русскоязычная, переводит организатор.</p>
     </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Роль</th><th>Кто</th><th>Что важно для тура</th></tr></thead>
+      <tbody>
+        <tr><td>Organizer + Interpreter</td><td><a href="https://clayarena.com/en/shooters/1763048485011/">Anna Karpulianskaia</a></td><td>Франция, категория Ladies, Compak и Sporting. Языки: французский, украинский, русский.</td></tr>
+        <tr><td>Coach</td><td><a href="https://clayarena.com/en/shooters/1789724605508300304/">Charles Bardou</a></td><td>Франция, F.F.B.T., 101 соревнование в профиле, средняя точность в Sporting 92,1%. Язык: французский. Профиля тренера на ClayArena пока нет, только профиль стрелка.</td></tr>
+        <tr><td>Стенд</td><td><a href="https://clayarena.com/en/stands/15-sologne-shooting-club/">Sologne Shooting Club</a></td><td>Chaumont-sur-Tharonne, Domaine de Courgenou. 27 площадок Hunting Course, 210 машинок, Compak. Домашний стенд Charles Bardou, здесь проходит Euro Shooting Cash.</td></tr>
+      </tbody>
+    </table></div>
     <div class="diagram">
-      <svg viewBox="0 0 720 320" role="img" aria-label="Схема примера B: агентство Clay Travel Club организует тур на Кипре, приглашает тренера Jonas Weber и переводчика, тренировки на двух стендах">
+      <svg viewBox="0 0 720 320" role="img" aria-label="Схема примера 2: Anna Karpulianskaia организует тур и переводит, Charles Bardou тренирует на своём стенде Sologne Shooting Club">
         <defs>
           <marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow" d="M0,0 L10,5 L0,10 z"/></marker>
           <marker id="aBm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow money" d="M0,0 L10,5 L0,10 z"/></marker>
         </defs>
-        <!-- money -->
-        <path class="ln money" d="M95,135 L95,78" marker-end="url(#aBm)"/>
-        <text class="lbl money" x="102" y="112">платят</text>
-        <path class="ln money" d="M170,48 L273,48" marker-end="url(#aBm)"/>
-        <text class="lbl money" x="176" y="40">выплата − 10%</text>
-        <path class="ln off" d="M445,48 L528,48" marker-end="url(#aB)"/>
-        <text class="lbl" x="450" y="40">гонорар вне CA</text>
-        <!-- structure -->
-        <path class="ln" d="M360,78 L360,128" marker-end="url(#aB)"/>
-        <text class="lbl" x="368" y="108">создаёт и ведёт</text>
+        <path class="ln money" d="M95,135 L95,88" marker-end="url(#aBm)"/>
+        <text class="lbl money" x="102" y="116">платят</text>
+        <path class="ln money" d="M170,58 L528,58" marker-end="url(#aBm)"/>
+        <text class="lbl money" x="290" y="50">выплата − 10% комиссии</text>
+        <path class="ln off" d="M640,94 L640,131" marker-end="url(#aB)"/>
+        <text class="lbl" x="648" y="117">гонорар</text>
+        <path class="ln off" d="M640,197 L640,234" marker-start="url(#aB)" marker-end="url(#aB)"/>
+        <text class="lbl" x="648" y="220">домашний стенд</text>
         <path class="ln" d="M170,165 L273,165" marker-end="url(#aB)"/>
         <text class="lbl" x="182" y="157">бронируют</text>
-        <path class="ln" d="M445,142 L528,72" marker-end="url(#aB)"/>
-        <text class="lbl" x="458" y="96">приглашён</text>
-        <path class="ln" d="M445,158 L528,124" marker-end="url(#aB)"/>
-        <path class="ln" d="M445,174 L528,186" marker-end="url(#aB)"/>
-        <text class="lbl" x="474" y="166">тренировки</text>
+        <path class="ln" d="M528,80 L445,140" marker-start="url(#aB)"/>
+        <text class="lbl" x="452" y="100">ведёт, переводит</text>
+        <path class="ln" d="M445,168 L528,168" marker-end="url(#aB)"/>
+        <text class="lbl" x="452" y="160">тренирует</text>
         <path class="ln" d="M445,192 L528,262" marker-end="url(#aB)"/>
-        <text class="lbl" x="452" y="240">DE → EN</text>
-        <path class="ln" d="M360,208 L360,248" marker-end="url(#aB)"/>
-        <text class="lbl" x="368" y="232">6 ночей</text>
-        <!-- nodes -->
-        <rect class="box" x="20" y="20" width="150" height="56" rx="8"/>
-        <text class="t1" x="34" y="44">ClayArena</text><text class="t2" x="34" y="62">приём оплаты, комиссия</text>
-        <rect class="box org" x="275" y="20" width="170" height="56" rx="8"/>
-        <text class="t1" x="289" y="44">Clay Travel Club</text><text class="t2" x="289" y="62">Organizer · агентство</text>
+        <text class="lbl" x="452" y="240">тренировки</text>
+        <path class="ln" d="M360,205 L360,248" marker-end="url(#aB)"/>
+        <text class="lbl" x="368" y="232">4 ночи</text>
+        <rect class="box" x="20" y="30" width="150" height="56" rx="8"/>
+        <text class="t1" x="34" y="54">ClayArena</text><text class="t2" x="34" y="72">приём оплаты, комиссия</text>
         <rect class="box" x="20" y="135" width="150" height="60" rx="8"/>
-        <text class="t1" x="34" y="160">10 стрелков + 4</text><text class="t2" x="34" y="178">сопровождающих</text>
-        <rect class="box tour" x="275" y="128" width="170" height="80" rx="10"/>
-        <text class="t1" x="289" y="155">Tour</text><text class="t2" x="289" y="173">Cyprus Shooting</text><text class="t2" x="289" y="189">&amp; Food Week</text>
-        <rect class="box" x="530" y="20" width="170" height="52" rx="8"/>
-        <text class="t1" x="544" y="42">Jonas Weber</text><text class="t2" x="544" y="60">Coach · Germany</text>
-        <rect class="box" x="530" y="98" width="170" height="52" rx="8"/>
-        <text class="t1" x="544" y="120">Limassol Clay Park</text><text class="t2" x="544" y="138">стенд ClayArena</text>
-        <rect class="box" x="530" y="164" width="170" height="52" rx="8"/>
-        <text class="t1" x="544" y="186">Paphos SG</text><text class="t2" x="544" y="204">стенд ClayArena</text>
-        <rect class="box" x="530" y="240" width="170" height="52" rx="8"/>
-        <text class="t1" x="544" y="262">Anna K.</text><text class="t2" x="544" y="280">Interpreter · DE → EN</text>
+        <text class="t1" x="34" y="160">8 стрелков + 2</text><text class="t2" x="34" y="178">группа UA / RU</text>
+        <rect class="box tour" x="275" y="125" width="170" height="80" rx="10"/>
+        <text class="t1" x="289" y="152">Tour</text><text class="t2" x="289" y="170">Sologne Week</text><text class="t2" x="289" y="186">with Charles Bardou</text>
+        <rect class="box org" x="530" y="30" width="170" height="64" rx="8"/>
+        <text class="t1" x="544" y="55">A. Karpulianskaia</text><text class="t2" x="544" y="74">Organizer + FR → UA / RU</text>
+        <rect class="box" x="530" y="133" width="170" height="64" rx="8"/>
+        <text class="t1" x="544" y="158">Charles Bardou</text><text class="t2" x="544" y="177">Coach · только FR</text>
+        <rect class="box" x="530" y="236" width="170" height="64" rx="8"/>
+        <text class="t1" x="544" y="261">Sologne SC</text><text class="t2" x="544" y="280">27 площадок · 210 машинок</text>
         <rect class="box" x="275" y="250" width="170" height="56" rx="8"/>
-        <text class="t1" x="289" y="274">Hotel</text><text class="t2" x="289" y="292">5★ Limassol</text>
+        <text class="t1" x="289" y="274">Hotel</text><text class="t2" x="289" y="292">шато в Солони</text>
       </svg>
     </div>
-    <div class="legend"><span>связь в туре</span><span class="m">деньги через ClayArena</span><span class="o">расчёт вне ClayArena</span></div>
-    <div class="days" aria-label="Программа примера B">
+    <div class="legend"><span>связь в туре</span><span class="m">деньги через ClayArena</span><span class="o">вне ClayArena</span></div>
+    <div class="days" aria-label="Программа примера 2">
       <div class="day"><b>День 1<small>прилёт</small></b><ul>
-        <li><time>в течение дня</time><span><span class="tag tf">трансфер</span>Larnaca → отель по рейсам каждого</span></li>
-        <li><time>20:00</time><span><span class="tag ml">ужин</span>welcome dinner на набережной</span></li></ul></div>
-      <div class="day"><b>День 2<small>группа A / B</small></b><ul>
-        <li><time>09:00–12:00</time><span><span class="tag tr">тренировка</span>A — Sporting в Limassol Clay Park; B — Compak там же</span></li>
-        <li><time>15:00–19:00</time><span><span class="tag ac">активность</span>винный тур в горах Троодос — с сопровождающими</span></li></ul></div>
-      <div class="day"><b>День 3<small>второй стенд</small></b><ul>
-        <li><time>08:30–09:30</time><span><span class="tag tf">трансфер</span>отель → Paphos SG</span></li>
-        <li><time>10:00–13:00</time><span><span class="tag tr">тренировка</span>Paphos SG, ~100 мишеней, перевод DE → EN</span></li>
-        <li><time>20:00</time><span><span class="tag ml">ужин</span>мезе в деревенской таверне</span></li></ul></div>
-      <div class="day"><b>День 4<small>отдых</small></b><ul>
-        <li><time>10:00–17:00</time><span><span class="tag ac">активность</span>яхта, купание — по желанию</span></li></ul></div>
-      <div class="day"><b>День 5<small>финал</small></b><ul>
-        <li><time>09:00–12:30</time><span><span class="tag tr">тренировка</span>мини-турнир группы, 50 мишеней, награждение</span></li>
-        <li><time>20:00</time><span><span class="tag ml">ужин</span>прощальный ужин</span></li></ul></div>
-      <div class="day"><b>День 6<small>отъезд</small></b><ul>
-        <li><time>по рейсам</time><span><span class="tag tf">трансфер</span>отель → Larnaca</span></li></ul></div>
+        <li><time>12:00–15:00</time><span><span class="tag tf">трансфер</span>Paris CDG → отель в Солони</span></li>
+        <li><time>19:30</time><span><span class="tag ml">ужин</span>кухня Солони: дичь и луарские вина; Anna рассказывает программу</span></li></ul></div>
+      <div class="day"><b>День 2<small>Hunting Course</small></b><ul>
+        <li><time>09:00–12:30</time><span><span class="tag tr">тренировка</span>Charles Bardou, разбор техники; перевод FR → UA / RU</span></li>
+        <li><time>14:00–17:00</time><span><span class="tag tr">тренировка</span>площадки Hunting Course</span></li>
+        <li><time>14:00–17:00</time><span><span class="tag ac">активность</span>для сопровождающих: прогулка по Domaine de Courgenou</span></li></ul></div>
+      <div class="day"><b>День 3<small>Compak + замки</small></b><ul>
+        <li><time>09:00–12:30</time><span><span class="tag tr">тренировка</span>Compak</span></li>
+        <li><time>14:30–18:30</time><span><span class="tag ac">активность</span>замок Chambord, вся группа</span></li>
+        <li><time>20:00</time><span><span class="tag ml">ужин</span>дегустация вин Луары</span></li></ul></div>
+      <div class="day"><b>День 4<small>трасса Euro Cash</small></b><ul>
+        <li><time>09:00–13:00</time><span><span class="tag tr">тренировка</span>траектории Euro Shooting Cash — самые сложные на стенде</span></li>
+        <li><time>15:00–16:00</time><span><span class="tag tr">разбор</span>итоговые заметки Charles по каждому стрелку</span></li>
+        <li><time>20:00</time><span><span class="tag ml">ужин</span>прощальный ужин с тренером</span></li></ul></div>
+      <div class="day"><b>День 5<small>отъезд</small></b><ul>
+        <li><time>10:00–13:00</time><span><span class="tag tf">трансфер</span>отель → Paris CDG</span></li></ul></div>
     </div>
     <div class="money-row">
-      <div><small>10 × €3 400 + 4 × €1 600</small><b>€40 400</b></div>
-      <div><small>Комиссия ClayArena 10%</small><b>€4 040</b></div>
-      <div><small>Выплата Clay Travel Club</small><b>€36 360</b></div>
+      <div><small>8 × €2 600 + 2 × €1 100</small><b>€23 000</b></div>
+      <div><small>Комиссия ClayArena 10%</small><b>€2 300</b></div>
+      <div><small>Выплата Anna Karpulianskaia</small><b>€20 700</b></div>
     </div>
-    <p class="ex-note">Деньги получает агентство-организатор. Тренеру и переводчику оно платит само, вне ClayArena. У сопровождающих свой тариф и нет доступа к тренировочным данным.</p>
+    <p class="ex-note">Тренер и стенд связаны: Sologne Shooting Club — домашний стенд Charles Bardou. Возможно, организатор договаривается с ними одним пакетом. Сопровождающие платят свой тариф и видят программу без тренировочных данных.</p>
   </article>
+
+  <div class="note"><b>Что показали примеры.</b> 1) Организатор часто совмещает роли: Organizer + Interpreter, а иногда и спортсмен-участник; модель должна позволять несколько ролей у одного человека в туре. 2) Языки берём из профилей: тренер говорит на одном языке, группа на другом, и нужда в переводчике видна автоматически. 3) Правила стенда (дни работы, ограничения по патронам) должны подтягиваться из профиля стенда в программу и чек-лист. 4) У тренера может не быть профиля тренера, только профиль стрелка; его всё равно можно пригласить в тур.</div>
 </section>
+
 
 <section id="place">
   <h2>Место в ClayArena</h2>
@@ -477,6 +532,8 @@ html{scroll-behavior:smooth}
   <div class="tbl"><table class="matrix">
     <thead><tr><th>Информация</th><th>Visitor</th><th>Applicant</th><th>Participant</th><th>Companion</th><th>Coach</th><th>Staff</th><th>Organizer</th></tr></thead>
     <tbody>
+      <tr><td>Вопросы о туре (открытая зона): читать / писать</td><td class="p">читать</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
+      <tr><td>Группа тура (закрытая зона): чат, объявления</td><td class="n">—</td><td class="n">—</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
       <tr><td>Описание, цена, что входит</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
       <tr><td>Программа: обзор по дням</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
       <tr><td>Программа: точное время, места встреч, изменения</td><td class="n">—</td><td class="n">—</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td></tr>
@@ -501,7 +558,7 @@ html{scroll-behavior:smooth}
   <ul>
     <li><b>Программа</b> — главный экран.</li>
     <li><b>Объявления</b> — пишут только Organizer и Coach, участникам приходят уведомления.</li>
-    <li><b>Чат группы</b> — на инструментах общения ClayArena. Отдельно: чат команды тура и личный чат Organizer ↔ участник.</li>
+    <li><b>Чат группы</b> — закрытая зона общения (см. <a href="#talk">Общение</a>): общий чат, чат команды тура, личный чат Organizer ↔ участник.</li>
     <li><b>Участники</b> — кто едет: профили ClayArena, дисциплины, уровень.</li>
     <li><b>Логистика</b> — прилёт и вылет каждого, трансферы, расселение.</li>
     <li><b>Документы</b> — общие (памятка, правила стендов) и личные (ваучер, страховка, European Firearms Pass, разрешения на ввоз оружия и патронов).</li>
@@ -525,28 +582,131 @@ html{scroll-behavior:smooth}
   </ul>
 </section>
 
+<section id="talk">
+  <h2>Общение: две зоны</h2>
+  <p>Общение у тура разделено на две части. Открытая зона нужна, чтобы продать тур: в ней задают вопросы до покупки. Закрытая зона — для тех, кто уже купил тур. Обе зоны строятся на инструментах общения ClayArena.</p>
+  <div class="zones">
+    <div class="zone open">
+      <div class="zone-h"><span class="badge">Открыто всем</span><h3>Вопросы о туре</h3></div>
+      <p>Лента на странице тура.</p>
+      <ul>
+        <li><b>Читают</b> все посетители, в том числе без входа на сайт: ответы работают как FAQ и индексируются поисковиками.</li>
+        <li><b>Пишут</b> пользователи, вошедшие в ClayArena.</li>
+        <li><b>Отвечают</b> организатор, тренер, переводчик; их ответы помечены как официальные.</li>
+        <li>Организатор закрепляет лучшие ответы в блок FAQ тура.</li>
+        <li>Кнопка «Написать организатору лично» открывает личный чат, если вопрос не для всех.</li>
+        <li>Телефоны, email и ссылки на оплату мимо ClayArena скрываются автоматически, чтобы сделку не увели с платформы.</li>
+        <li>Модерация: скрыть, пожаловаться, заблокировать автора в этом туре.</li>
+      </ul>
+    </div>
+    <div class="zone closed">
+      <div class="zone-h"><span class="badge">Только купившим</span><h3>Группа тура</h3></div>
+      <p>Закрытое пространство группы.</p>
+      <ul>
+        <li><b>Доступ</b> открывается автоматически, когда бронь подтверждена и оплачена. При отмене или возврате доступ закрывается.</li>
+        <li>Заявки без оплаты и лист ожидания в группу <b>не попадают</b>.</li>
+        <li><b>Каналы:</b> объявления (пишут только организатор и тренер), общий чат группы, личные чаты с организатором, отдельный чат команды тура (организатор, тренер, переводчик, staff).</li>
+        <li>Сопровождающие видят общий чат и объявления, но не тренировочные заметки.</li>
+        <li>Рядом с чатом программа, документы, чек-лист, логистика и альбом.</li>
+        <li>После тура группа остаётся (alumni), через N дней — только чтение; организатор может пригласить её в следующий тур.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="flow" aria-label="Путь пользователя между зонами"><span>Visitor читает вопросы</span><i>→</i><span>входит и задаёт вопрос</span><i>→</i><span>бронирует и платит</span><i>→</i><span class="end">попадает в группу тура</span><i>→</i><span>alumni</span></div>
+</section>
+
 <section id="admin">
   <h2>Админка</h2>
+  <p>Две админки: <b>кабинет организатора</b> для каждого тура и <b>админка ClayArena</b> для команды платформы. Ниже — как это выглядит на примере 1.</p>
+
   <h3>Кабинет организатора</h3>
-  <ul>
-    <li>конструктор тура по шагам: основное → тренеры и стенды → программа → отель и трансферы → цена и места → публикация;</li>
-    <li>редактор программы: дни, пункты, подгруппы, видимость, перетаскивание;</li>
-    <li>брони: заявки, лист ожидания, статусы оплаты, ручное подтверждение;</li>
-    <li>команда: приглашение Co-organizer, Coach и Staff;</li>
-    <li>логистика: рейсы, трансферы, расселение;</li>
-    <li>объявления и рассылки группе;</li>
-    <li>финансы: оплачено, комиссия ClayArena, к выплате, выплачено;</li>
-    <li>экспорт: участники, расселение, трансферы (CSV или PDF).</li>
-  </ul>
+  <div class="mock" role="img" aria-label="Макет кабинета организатора тура Dornsberg Training Days">
+    <div class="mock-bar"><span class="clay-dot" aria-hidden="true"></span><b>ClayAway · Кабинет организатора</b><span class="who">Lena Weigele</span></div>
+    <div class="mock-body">
+      <ul class="mock-nav">
+        <li class="on">Обзор</li><li>Программа</li><li>Брони · 5</li><li>Участники</li><li>Логистика</li><li>Документы</li><li>Вопросы · 2 новых</li><li>Группа</li><li>Команда</li><li>Финансы</li><li>Настройки</li>
+      </ul>
+      <div class="mock-main">
+        <div class="mock-title"><b>Dornsberg Training Days with Markus Leibinger</b><span class="pill ok">Опубликован · подтверждён</span></div>
+        <div class="kpis">
+          <div><small>Места</small><b>5 / 6</b><span>минимум 4 набран</span></div>
+          <div><small>Оплачено</small><b>€8 775</b><span>из €9 750</span></div>
+          <div><small>К выплате</small><b>€7 898</b><span>после 10% комиссии</span></div>
+          <div><small>До старта</small><b>23 дня</b><span>дедлайн записи через 9</span></div>
+        </div>
+        <div class="mock-cols">
+          <div class="mock-card">
+            <h4>Требует внимания</h4>
+            <ul class="todo">
+              <li><span class="pill warn">документы</span>2 участника не загрузили European Firearms Pass</li>
+              <li><span class="pill warn">оплата</span>1 бронь: остаток €975 до 15.10</li>
+              <li><span class="pill info">вопросы</span>2 новых вопроса в открытой зоне</li>
+              <li><span class="pill info">логистика</span>рейс одного участника не указан</li>
+            </ul>
+          </div>
+          <div class="mock-card">
+            <h4>Брони</h4>
+            <table class="mini">
+              <tr><td>J. Miller · UK</td><td><span class="pill ok">оплачено</span></td></tr>
+              <tr><td>C. Ruiz · ES</td><td><span class="pill ok">оплачено</span></td></tr>
+              <tr><td>P. Novak · CZ</td><td><span class="pill warn">депозит</span></td></tr>
+              <tr><td>A. Berg · SE</td><td><span class="pill ok">оплачено</span></td></tr>
+              <tr><td>M. López · AR</td><td><span class="pill ok">оплачено</span></td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="ex-note">Имена участников в макете вымышленные.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Раздел</th><th>Что делает организатор</th></tr></thead>
+    <tbody>
+      <tr><td>Обзор</td><td>места, деньги, сроки, список «требует внимания»</td></tr>
+      <tr><td>Конструктор / Программа</td><td>пошаговое создание тура; дни и пункты, подгруппы, видимость пункта, перетаскивание; правила стенда подтягиваются из его профиля</td></tr>
+      <tr><td>Брони</td><td>заявки, оплаты, депозит и остаток, лист ожидания, ручное подтверждение, отмена с возвратом по правилам</td></tr>
+      <tr><td>Участники</td><td>профили ClayArena, дисциплины, уровень, сопровождающие, видимость имени</td></tr>
+      <tr><td>Логистика</td><td>рейсы, трансферы, расселение по номерам</td></tr>
+      <tr><td>Документы</td><td>общие и личные документы, статус загрузки по каждому участнику</td></tr>
+      <tr><td>Вопросы</td><td>открытая зона: ответы, закрепление в FAQ, модерация</td></tr>
+      <tr><td>Группа</td><td>закрытая зона: объявления, чаты, рассылки</td></tr>
+      <tr><td>Команда</td><td>приглашение Co-organizer, Coach, Interpreter, Staff; несколько ролей у одного человека</td></tr>
+      <tr><td>Финансы</td><td>оплачено, комиссия ClayArena, к выплате, выплачено, возвраты, выгрузка для бухгалтерии</td></tr>
+      <tr><td>Настройки</td><td>правила отмены, дедлайны, языки, валюта, реквизиты для выплат</td></tr>
+    </tbody>
+  </table></div>
+
   <h3>Админка ClayArena</h3>
-  <ul>
-    <li>верификация организаторов и тренеров;</li>
-    <li>очередь модерации туров;</li>
-    <li>брони и платежи, возвраты, споры; настройка комиссии;</li>
-    <li>модерация чатов и жалобы;</li>
-    <li>журнал действий: кто что изменил в туре, программе и бронях.</li>
-  </ul>
+  <div class="tbl"><table>
+    <thead><tr><th>Раздел</th><th>Что делает команда ClayArena</th></tr></thead>
+    <tbody>
+      <tr><td>Модерация туров</td><td>очередь новых и изменённых туров, чек-лист проверки, одобрить или вернуть с комментарием</td></tr>
+      <tr><td>Организаторы</td><td>верификация личности и реквизитов, статус, рейтинг, блокировка</td></tr>
+      <tr><td>Платежи и выплаты</td><td>все оплаты, расписание выплат, ручная задержка выплаты при споре</td></tr>
+      <tr><td>Комиссии</td><td>процент по умолчанию, свой процент для организатора или тура, отчёт по доходу ClayArena</td></tr>
+      <tr><td>Споры и возвраты</td><td>обращения участников, решения, частичные и полные возвраты</td></tr>
+      <tr><td>Модерация общения</td><td>жалобы из открытой и закрытой зон, скрытие сообщений, блокировки</td></tr>
+      <tr><td>Справочники</td><td>стенды, языки, типы пунктов программы, документы, фокусы туров</td></tr>
+      <tr><td>Журнал действий</td><td>кто, что и когда изменил: тур, программа, брони, деньги, роли</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Роли внутри команды ClayArena</h3>
+  <div class="tbl"><table class="matrix">
+    <thead><tr><th>Раздел</th><th>Super admin</th><th>Moderator</th><th>Finance</th><th>Support</th></tr></thead>
+    <tbody>
+      <tr><td>Модерация туров</td><td class="y">✓</td><td class="y">✓</td><td class="n">—</td><td class="p">просмотр</td></tr>
+      <tr><td>Верификация организаторов</td><td class="y">✓</td><td class="y">✓</td><td class="p">реквизиты</td><td class="n">—</td></tr>
+      <tr><td>Платежи, выплаты, возвраты</td><td class="y">✓</td><td class="n">—</td><td class="y">✓</td><td class="p">просмотр</td></tr>
+      <tr><td>Комиссии</td><td class="y">✓</td><td class="n">—</td><td class="y">✓</td><td class="n">—</td></tr>
+      <tr><td>Модерация общения</td><td class="y">✓</td><td class="y">✓</td><td class="n">—</td><td class="y">✓</td></tr>
+      <tr><td>Споры</td><td class="y">✓</td><td class="p">просмотр</td><td class="y">✓</td><td class="y">✓</td></tr>
+      <tr><td>Справочники и настройки</td><td class="y">✓</td><td class="n">—</td><td class="n">—</td><td class="n">—</td></tr>
+      <tr><td>Журнал действий</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="p">просмотр</td></tr>
+    </tbody>
+  </table></div>
+  <p>Каждое действие в обеих админках пишется в журнал. Деньги, роли и удаление требуют подтверждения; удалённое не стирается, а архивируется.</p>
 </section>
+
 
 <section id="money">
   <h2>Деньги и комиссия ClayArena</h2>
