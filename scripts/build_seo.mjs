@@ -7,7 +7,7 @@
 // with canonical + hreflang, Open Graph, JSON-LD (WebPage, BreadcrumbList, FAQPage), and writes docs/sitemap.xml.
 // Indexing policy (CLAUDE.md): rules pages and the trainer are indexable; specs (concept, rules-spec)
 // and the demo tours stay noindex. Links to FITASC are always rel="nofollow noopener noreferrer".
-import { mkdirSync, writeFileSync, readFileSync } from "fs";
+import { readdirSync, mkdirSync, writeFileSync, readFileSync } from "fs";
 
 const BASE = "https://fenix-112323.github.io/clayaway/";
 const TODAY = new Date().toISOString().slice(0, 10);
@@ -365,6 +365,14 @@ urls.push(...buildEnglish());
 // Glossary in DE/FR/IT/ES (when translations exist) + English Academy landing (scripts/build_seo_i18n.mjs).
 const { buildI18n } = await import("./build_seo_i18n.mjs");
 urls.push(...(await buildI18n()));
+// FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
+// until FITASC gives written permission (see CLAUDE.md and rules-spec, "Легальність контенту"). Set to true once permitted.
+const FITASC_INDEX = false;
+if (!FITASC_INDEX) {
+  const walk = d => readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? (e.name === "data" ? [] : walk(`${d}/${e.name}`)) : e.name === "index.html" ? [`${d}/${e.name}`] : []);
+  for (const f of walk("docs/rules")) writeFileSync(f, readFileSync(f, "utf8").replace(/<meta name="robots" content="[^"]*">/, '<meta name="robots" content="noindex, follow">'));
+  urls.splice(0, urls.length, ...urls.filter(u => !u.startsWith(BASE + "rules/")));
+}
 writeFileSync("docs/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${u}</loc><lastmod>${TODAY}</lastmod></url>`).join("\n")}

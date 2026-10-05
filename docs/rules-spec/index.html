@@ -319,12 +319,12 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 
 <section id="seo">
   <h2>SEO та індексація</h2>
-  <p>Мета — органічний трафік на правила, тренажер і глосарій, не відкриваючи внутрішніх документів.</p>
+  <p>Мета — органічний трафік на глосарій і Академію (а після дозволу FITASC — і на правила та тренажер), не відкриваючи внутрішніх документів.</p>
   <div class="tbl"><table>
     <thead><tr><th>Сторінка</th><th>Індексація</th><th>Чому</th></tr></thead>
     <tbody>
-      <tr><td>Статичні сторінки правил <code>/rules/sporting/</code>, <code>/rules/compak/</code>, <code>/rules/en/…</code></td><td><b>index, follow</b></td><td>головне джерело трафіку: повний текст переказу в HTML, FAQ</td></tr>
-      <tr><td>Інтерактивний довідник <code>/rules/</code> і тренажер <code>/rules/trainer/</code></td><td><b>index, follow</b></td><td>пошук «питання — відповідь», тест</td></tr>
+      <tr><td>Статичні сторінки правил <code>/rules/sporting/</code>, <code>/rules/compak/</code>, <code>/rules/en/…</code></td><td><b>noindex, follow</b> (поки немає дозволу FITASC)</td><td>головне джерело трафіку: повний текст переказу в HTML, FAQ; після письмового дозволу FITASC — <b>index</b>: перемикач <code>FITASC_INDEX</code> у <code>scripts/build_seo.mjs</code> (зараз <code>false</code>: noindex на всіх сторінках <code>/rules/</code>, включно з категоріями й тренажером, і вони не потрапляють у sitemap)</td></tr>
+      <tr><td>Інтерактивний довідник <code>/rules/</code> і тренажер <code>/rules/trainer/</code></td><td><b>noindex, follow</b> (поки немає дозволу FITASC)</td><td>пошук «питання — відповідь», тест</td></tr>
       <tr><td>Академія ClayArena <code>/learn/</code> і уроки <code>/learn/&lt;id&gt;/</code></td><td><b>index, follow</b></td><td>навчальний контент для початківців, трафік за запитами «що таке чок», «як обрати патрони»</td></tr>
       <tr><td>Глосарій ClayArena <code>/glossary/</code>, <code>/glossary/&lt;term&gt;/</code></td><td><b>index, follow</b></td><td>свій контент, сторінка на кожен термін, посилання на пункти правил</td></tr>
       <tr><td>Головна проєкту</td><td>noindex, follow</td><td>роздоріжжя з посиланнями на внутрішні ТЗ</td></tr>
