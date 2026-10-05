@@ -136,6 +136,14 @@ try {
   ALIAS = JSON.parse(readFileSync("docs/glossary/data/aliases.json", "utf8"));
 } catch (e) { console.log("glossary data not found yet — skipping glossary pages"); }
 const GBY = GLOSS ? Object.fromEntries(GLOSS.terms.map(t => [t.id, t])) : {};
+// Ukrainian pages are Ukrainian only: English text lives on /en/... (linked via the "English" button + hreflang).
+// Glossary category names in Ukrainian (data keeps the English key `cat`).
+const CAT_UK = { "Appeals": "Протести", "Discipline": "Дисципліна", "Equipment": "Спорядження", "Ground & layout": "Майданчик і стенди",
+  "Organisation": "Організація", "Penalties": "Покарання", "Refereeing": "Суддівство", "Results": "Результати", "Safety & conduct": "Безпека і поведінка",
+  "Scoring": "Зарахування", "Sequences & doubles": "Послідовності й дуплети", "Shooting rules": "Правила стрільби", "Targets": "Мішені", "Academy": "Академія" };
+// Rule reference in Ukrainian: "Розділ 18 · <item title_uk>" (r.ref in the data is the English PDF heading).
+const refUk = r => { const b = BOOKS[r.book]; const sec = b && b.sections.find(s => s.items.some(x => x.id === r.id)); const it = sec && sec.items.find(x => x.id === r.id);
+  return it ? `Розділ ${sec.chapter} · ${it.title_uk}` : r.ref.replace(/^Chapter (\d+)/, "Розділ $1"); };
 // termLinks(item, lang): HTML links from a rule item to its glossary terms (deduplicated through aliases).
 globalThis.termLinks = (it, lang) => {
   if (!GLOSS) return "";
@@ -176,28 +184,29 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const url = `${BASE}glossary/${t.id}/`;
     const title = `${t.term} — термін стендової стрільби | Глосарій ClayArena`;
     const desc = `${t.term}: ${t.short_uk}`.slice(0, 300);
-    const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(r.ref)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF ${r.page}</a></li>`).join("");
-    const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p>${t.disciplines_en && t.disciplines_en[k] ? `<p lang="en">${esc(t.disciplines_en[k])}</p>` : ""}</div>`).join("");
+    const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
+    const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p></div>`).join("");
     const rel = (t.related || []).filter(r => GBY[r]).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${esc(GBY[r].term)}</a>`).join(" ");
-    const body = `<div class="src">${esc(t.cat)}</div><h1>${esc(t.term)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
-<h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p><p lang="en">${esc(t.short_en)}</p>
-${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p><p lang="en">${esc(t.long_en)}</p>` : ""}
+    const body = `<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${esc(t.term)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
+<h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p>
+${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
 ${disc ? `<h2>У Sporting і Compak</h2>${disc}` : ""}
 ${t.uk_usage && t.uk_usage !== "—" ? `<h2>Як кажуть українською</h2><p>${esc(t.uk_usage)}</p>` : ""}
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
 ${(t.learn || []).filter(id => LESSON[id]).length ? `<h2>Де вивчити</h2><ul>${t.learn.filter(id => LESSON[id]).slice(0, 6).map(id => `<li><a href="${BASE}learn/${id}/">${esc(LESSON[id].title_uk)}</a> · ${esc(LESSON[id].module.title_uk)}</li>`).join("")}</ul>` : ""}
-${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
-    const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: t.aka || [], description: `${t.short_uk} / ${t.short_en}`, termCode: t.id, url, inDefinedTermSet: SET, inLanguage: ["uk", "en"] },
+${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}
+<p class="ref"><a href="${BASE}en/glossary/${t.id}/" hreflang="en" lang="en">English version</a></p>`;
+    const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: t.aka || [], description: t.short_uk, termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name: t.term, item: url }] }];
     mkdirSync(`docs/glossary/${t.id}`, { recursive: true });
     writeFileSync(`docs/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body));
     out.push(url);
   }
   const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
-  const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting і Compak Sporting англійською — з поясненнями українською та англійською і посиланнями на пункти правил FITASC.</p>
-${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${esc(t.term)}</a>`).join("")}</div>`).join("\n")}`;
-  writeFileSync("docs/glossary/index.html", shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting і Compak Sporting англійською з поясненнями українською та англійською і посиланнями на правила FITASC.`, BASE + "glossary/",
+  const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting і Compak Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
+${cats.map(c => `<h2>${esc(CAT_UK[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${esc(t.term)}</a>`).join("")}</div>`).join("\n")}`;
+  writeFileSync("docs/glossary/index.html", shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting і Compak Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
     [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: t.term, url: `${BASE}glossary/${t.id}/` })) }], listBody));
   return [BASE + "glossary/", ...out];
 }
@@ -249,7 +258,7 @@ function lessonPages() {
         { "@type": "ListItem", position: 2, name: m.title_uk, item: `${BASE}learn/#${m.module}` },
         { "@type": "ListItem", position: 3, name: l.title_uk, item: url }] }];
     const terms = (l.terms || []).filter(id => GBY[id]).map(id => `<a href="${BASE}glossary/${id}/">${esc(GBY[id].term)}</a>`).join(" · ");
-    const refs = (l.rule_refs || []).map(r => { const b = BOOKS[r.book]; const it = b && b.sections.flatMap(s => s.items).find(x => x.id === r.id); return it ? `<li><a href="${BASE}rules/${r.book}/#${it.id}">${esc(it.ref)}</a> · ${NAMES[r.book]}</li>` : ""; }).join("");
+    const refs = (l.rule_refs || []).map(r => { const b = BOOKS[r.book]; const it = b && b.sections.flatMap(s => s.items).find(x => x.id === r.id); return it ? `<li><a href="${BASE}rules/${r.book}/#${it.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]}</li>` : ""; }).join("");
     const html = `<!doctype html>
 <html lang="uk">
 <head>
@@ -280,8 +289,7 @@ ${terms ? `<h2>Терміни</h2><p>${terms}</p>` : ""}
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${l.law_tables ? `<h2>Закони країн</h2>` + globalThis.lawTablesHtml(l.law_tables, "uk", esc, NF) : ""}
 ${(l.sources || []).length ? `<h2>Джерела і закони</h2><ul>${l.sources.map(x => `<li><a href="${esc(x.url)}" ${NF}>${esc(x.title)} ↗</a></li>`).join("")}</ul><p class="ref">Станом на дату уроку; не є юридичною консультацією — перевіряйте актуальну редакцію законів.</p>` : ""}
-<h2 lang="en">${esc(l.title_en)}</h2>
-${(l.body_en || []).map(p => `<p lang="en">${esc(p)}</p>`).join("\n")}
+<p class="ref"><a href="${BASE}en/learn/${l.id}/" hreflang="en" lang="en">English version</a></p>
 <div class="cta"><a class="btn primary" href="${BASE}learn/#${l.id}">Перевірити себе: 3 питання</a>${next ? `<a class="btn" href="${BASE}learn/${next.id}/">Далі: ${esc(next.title_uk)}</a>` : ""}</div>
 </article>
 <div class="disc">Академія ClayArena. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC. Правила FITASC — у нашому переказі; чинним є лише офіційний текст FITASC. Закони про зброю й набої в кожній країні різні.</div>

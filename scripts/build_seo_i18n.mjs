@@ -16,6 +16,15 @@ const UI = {
 
 export async function buildI18n() {
   const { BASE, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, CSS, NF, esc } = globalThis.SEO;
+  // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
+  // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
+  const CAT = {
+    de: { "Appeals": "Proteste", "Discipline": "Disziplin", "Equipment": "Ausrüstung", "Ground & layout": "Gelände und Stände", "Organisation": "Organisation", "Penalties": "Strafen", "Refereeing": "Schiedsrichter", "Results": "Ergebnisse", "Safety & conduct": "Sicherheit und Verhalten", "Scoring": "Wertung", "Sequences & doubles": "Abfolgen und Doubletten", "Shooting rules": "Schießregeln", "Targets": "Wurfscheiben" },
+    fr: { "Appeals": "Réclamations", "Discipline": "Discipline", "Equipment": "Équipement", "Ground & layout": "Terrain et postes", "Organisation": "Organisation", "Penalties": "Sanctions", "Refereeing": "Arbitrage", "Results": "Résultats", "Safety & conduct": "Sécurité et comportement", "Scoring": "Décompte", "Sequences & doubles": "Séquences et doublés", "Shooting rules": "Règles de tir", "Targets": "Plateaux" },
+    it: { "Appeals": "Reclami", "Discipline": "Disciplina", "Equipment": "Attrezzatura", "Ground & layout": "Campo e pedane", "Organisation": "Organizzazione", "Penalties": "Sanzioni", "Refereeing": "Arbitraggio", "Results": "Risultati", "Safety & conduct": "Sicurezza e comportamento", "Scoring": "Punteggio", "Sequences & doubles": "Sequenze e doppietti", "Shooting rules": "Regole di tiro", "Targets": "Piattelli" },
+    es: { "Appeals": "Reclamaciones", "Discipline": "Disciplina", "Equipment": "Equipo", "Ground & layout": "Campo y puestos", "Organisation": "Organización", "Penalties": "Sanciones", "Refereeing": "Arbitraje", "Results": "Resultados", "Safety & conduct": "Seguridad y conducta", "Scoring": "Puntuación", "Sequences & doubles": "Secuencias y dobles", "Shooting rules": "Reglas de tiro", "Targets": "Platos" } };
+  const CHW = { de: "Kapitel", fr: "Chapitre", it: "Capitolo", es: "Capítulo" }, PG = { de: "S.", fr: "p.", it: "p.", es: "p." };
+  const chapOf = r => { const b = BOOKS[r.book]; const sec = b && b.sections.find(x => x.items.some(i => i.id === r.id)); return sec ? sec.chapter : (r.ref.match(/\d+/) || [""])[0]; };
   const out = [];
   const langs = [];
   for (const lang of Object.keys(UI)) { try { await import(`../docs/glossary/data/i18n/${lang}.js`); if (window.GLOSSARY_I18N?.[lang]) langs.push(lang); } catch (e) { /* not translated yet */ } }
@@ -33,10 +42,10 @@ export async function buildI18n() {
       for (const t of GLOSS.terms) {
         const x = D[t.id]; if (!x) continue;
         const url = termUrl(lang, t.id);
-        const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/#${r.id}">${esc(r.ref)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF ${r.page}</a></li>`).join("");
+        const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/#${r.id}">${CHW[lang]} ${chapOf(r)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, ${PG[lang]} ${r.page}</a></li>`).join("");
         const disc = Object.entries(x.disciplines || {}).filter(([, v]) => v).map(([k, v]) => `<div class="box"><b>${NAMES[k] || k}</b><p>${esc(v)}</p></div>`).join("");
         const rel = (t.related || []).filter(r => GBY[r] && D[r]).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${termUrl(lang, r)}">${esc(GBY[r].term)}</a>`).join(" ");
-        const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 4).map(id => `<li><a href="${BASE}en/learn/${id}/">${esc(LESSON[id].title_en)}</a></li>`).join("");
+        const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 4).map(id => `<li lang="en"><a href="${BASE}en/learn/${id}/" hreflang="en">${esc(LESSON[id].title_en)}</a></li>`).join("");
         const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: x.term_local && x.term_local !== t.term ? [x.term_local] : [], description: x.short, termCode: t.id, url, inDefinedTermSet: SET, inLanguage: lang }];
         const html = `<!doctype html>
 <html lang="${lang}">
@@ -60,7 +69,7 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 <body>
 <header><div class="in"><a class="logo" href="${listUrl(lang)}"><b>ClayArena</b></a><nav class="crumbs"><a href="${listUrl(lang)}">${U.gl}</a></nav><span style="flex:1"></span>${["uk", "en", ...langs].filter(l => l !== lang).map(l => `<a class="btn" style="padding:3px 9px;font-size:12px" hreflang="${l}" href="${termUrl(l, t.id)}">${l.toUpperCase()}</a>`).join(" ")}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
-<div class="src">${esc(t.cat)}</div><h1>${esc(t.term)}</h1>${x.term_local && x.term_local !== t.term ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}
+<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${esc(t.term)}</h1>${x.term_local && x.term_local !== t.term ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}
 <h2>${U.what}</h2><p><b>${esc(x.short)}</b></p>
 ${x.long ? `<h2>${U.detail}</h2><p>${esc(x.long)}</p>` : ""}
 ${disc ? `<h2>${U.disc}</h2>${disc}` : ""}
@@ -84,7 +93,7 @@ ${alts(listUrl)}
 <style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}</style></head>
 <body><header><div class="in"><a class="logo" href="${listUrl(lang)}"><b>ClayArena</b></a><nav class="crumbs">${U.gl}</nav></div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><h1>${esc(U.list(GLOSS.terms.length))}</h1><p>${esc(U.intro(GLOSS.terms.length))}</p>
-${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c && D[t.id]).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${termUrl(lang, t.id)}">${esc(t.term)}</a>`).join("")}</div>`).join("\n")}
+${cats.map(c => `<h2>${esc((CAT[lang] || {})[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c && D[t.id]).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${termUrl(lang, t.id)}">${esc(t.term)}</a>`).join("")}</div>`).join("\n")}
 <div class="disc">${U.tm}</div></main></body></html>`);
       out.push(listUrl(lang));
     }
