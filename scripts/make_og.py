@@ -20,13 +20,15 @@ PAGES = [
     ("concept/index.html", "concept", "uk_UA", "ТЕХНІЧНЕ ЗАВДАННЯ", ["ТЗ ClayAway"], ["Тури з тренером у ClayArena:", "ролі, доступи, спілкування, адмінка, гроші"],
      "ТЗ ClayAway — концепція і технічне завдання", "Тури з тренером у ClayArena: ролі й доступи, відкрите та закрите спілкування, адмінка, комісія, сутності, етапи."),
     ("dornsberg/index.html", "dornsberg", "en_GB", "CLAYAWAY TOUR · GERMANY", ["Dornsberg", "Training Days"], ["with Markus Leibinger · Lake Constance", "Tue 13 – Sat 17 April 2027 · 6 shooters"],
-     "Dornsberg Training Days with Markus Leibinger", "Five days of Sporting and Compak at Dornsberg above Lake Constance. Organizer and interpreter Lena Weigele. ClayAway by ClayArena."),
+     "Dornsberg Training Days with Markus Leibinger", "Five days of Sporting™ and Compak® Sporting at Dornsberg above Lake Constance. Organizer and interpreter Lena Weigele. ClayAway by ClayArena."),
     ("sologne/index.html", "sologne", "en_GB", "CLAYAWAY TOUR · FRANCE", ["Sologne Week"], ["with Charles Bardou · Loire Valley", "Mon 10 – Fri 14 May 2027 · Château de Chambord"],
-     "Sologne Week with Charles Bardou", "Train with Charles Bardou at the Sologne Shooting Club: hunting course, Compak, Loire wines and a Chambord excursion. ClayAway by ClayArena."),
-    ("rules/index.html", "rules", "uk_UA", "FITASC · SPORTING · COMPAK", ["Правила FITASC", "простими словами"], ["Запитайте або читайте за розділами", "з посиланням на сторінку офіційного PDF"],
-     "Правила FITASC простими словами — ClayAway", "Sporting і Compak Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC."),
-    ("rules/trainer/index.html", "trainer", "uk_UA", "FITASC · ТРЕНАЖЕР", ["Тренажер", "правил FITASC"], ["Рішення судді, цифри, правда чи ні", "Sporting і Compak Sporting · 160 питань"],
-     "Тренажер правил FITASC — ClayAway", "Перевірте знання правил Sporting і Compak Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF."),
+     "Sologne Week with Charles Bardou", "Train with Charles Bardou at the Sologne Shooting Club: Parcours de Chasse – Sporting™, Compak® Sporting, Loire wines and a Chambord excursion. ClayAway by ClayArena."),
+    ("rules/index.html", "rules", "uk_UA", "FITASC · SPORTING™ · COMPAK®", ["Правила FITASC", "простими словами"], ["Запитайте або читайте за розділами", "з посиланням на сторінку офіційного PDF"],
+     "Правила FITASC простими словами — ClayAway", "Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC."),
+    ("rules/trainer/index.html", "trainer", "uk_UA", "FITASC · ТРЕНАЖЕР", ["Тренажер", "правил FITASC"], ["Рішення судді, цифри, правда чи ні", "Sporting™ і Compak® Sporting · 160 питань"],
+     "Тренажер правил FITASC — ClayAway", "Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF."),
+    ("glossary/index.html", "glossary", "uk_UA", "CLAYARENA · ГЛОСАРІЙ", ["Глосарій", "стендової стрільби"], ["Sporting™ і Compak® Sporting англійською", "з поясненнями й посиланнями на правила"],
+     "Глосарій стендової стрільби — ClayArena", "Терміни Parcours de Chasse – Sporting™ і Compak® Sporting англійською з поясненнями українською та англійською і посиланнями на правила FITASC."),
     ("rules-spec/index.html", "rules-spec", "uk_UA", "ТЕХНІЧНЕ ЗАВДАННЯ", ["ТЗ: правила FITASC", "і глосарій"], ["Логіка, дані, пошук, ШІ-відповіді,", "оновлення регламентів"],
      "ТЗ: довідник правил FITASC і глосарій", "Як працює довідник правил FITASC у ClayArena: джерела, структура даних, пошук, ШІ-відповіді, щотижнева перевірка оновлень."),
 ]
@@ -116,5 +118,6 @@ if __name__ == "__main__":
     icons()
     for path, name, locale, eyebrow, title, sub, ogt, ogd in PAGES:
         card(name, eyebrow, title, sub)
-        inject(path, name, locale, ogt, ogd)
+        if (DOCS / path).exists():  # generated pages (e.g. glossary) may not exist yet
+            inject(path, name, locale, ogt, ogd)
         print("ok", path)

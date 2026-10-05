@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Тренажер правил FITASC · ClayAway</title>
 <!-- share-preview -->
-<meta name="description" content="Перевірте знання правил Sporting і Compak Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
+<meta name="description" content="Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ClayAway · ClayArena">
 <meta property="og:title" content="Тренажер правил FITASC — ClayAway">
-<meta property="og:description" content="Перевірте знання правил Sporting і Compak Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
+<meta property="og:description" content="Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
 <meta property="og:url" content="https://fenix-112323.github.io/clayaway/rules/trainer/">
 <meta property="og:image" content="https://fenix-112323.github.io/clayaway/og/trainer.png">
 <meta property="og:image:secure_url" content="https://fenix-112323.github.io/clayaway/og/trainer.png">
@@ -20,7 +20,7 @@
 <meta property="og:locale" content="uk_UA">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Тренажер правил FITASC — ClayAway">
-<meta name="twitter:description" content="Перевірте знання правил Sporting і Compak Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
+<meta name="twitter:description" content="Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
 <meta name="twitter:image" content="https://fenix-112323.github.io/clayaway/og/trainer.png">
 <meta name="theme-color" content="#030712">
 <link rel="icon" type="image/png" href="../../og/favicon.png">
@@ -115,7 +115,7 @@ p{margin:0 0 10px;max-width:70ch}
   <a class="logo" href="../../"><b>ClayArena</b></a>
   <span class="svc" id="svc"></span>
   <span class="spacer"></span>
-  <div class="seg disc" role="group" aria-label="Discipline"><button data-disc="sporting">Sporting</button><button data-disc="compak">Compak Sporting</button></div>
+  <div class="seg disc" role="group" aria-label="Discipline"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
   <div class="seg" role="group" aria-label="Language"><button data-lang="uk">UA</button><button data-lang="en">EN</button></div>
 </div></header>
 <main id="app"></main>
@@ -139,14 +139,14 @@ const T={
    decision:"Рішення судді",number:"Цифри",truefalse:"Правда чи ні",choice:"Вибір",open:"Пункт у довіднику",pdf:"PDF, стор.",
    res:"Результат",pass:"Іспит складено",fail:"Ще трохи — і складете",again:"Ще раз",home:"До вибору режиму",review:"Розбір відповідей",
    sAns:"Відповідей",sAcc:"Точність",sBest:"Найкращий іспит",sMist:"Помилок для повторення",none:"Питань для цієї дисципліни ще немає.",noMist:"Помилок немає — чудово!",
-   back:"← Довідник правил",disc:"Тренажер побудований на нашому переказі регламенту FITASC. Чинним є лише офіційний текст FITASC.",count:"питань у банку"},
+   back:"← Довідник правил",disc:"Тренажер побудований на нашому переказі регламенту FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",count:"питань у банку"},
  en:{svc:"Rules trainer",svcS:"ClayAway · FITASC",title:"{d} rules trainer",lead:"Test your knowledge of the rules: situations on the stand, numbers and limits, true or false. After every answer you get an explanation and a link to the rule in the guide and to the official PDF page.",
    quick:"Quick test",quickS:"10 random questions, explanation straight away",exam:"Exam",examS:"30 questions, result at the end, pass mark 80%",mist:"My mistakes",mistS:"questions you answered wrong",
    level:"Level",all:"all",l1:"basic",l2:"organizer",l3:"referee",q:"Question",of:"of",next:"Next",finish:"Finish",right:"Correct!",wrong:"Wrong.",
    decision:"Referee's decision",number:"Numbers",truefalse:"True or false",choice:"Choice",open:"Rule in the guide",pdf:"PDF, p.",
    res:"Result",pass:"Exam passed",fail:"Almost there",again:"Try again",home:"Back to modes",review:"Answer review",
    sAns:"Answers",sAcc:"Accuracy",sBest:"Best exam",sMist:"Mistakes to repeat",none:"No questions for this discipline yet.",noMist:"No mistakes — well done!",
-   back:"← Rules guide",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies.",count:"questions in the bank"}
+   back:"← Rules guide",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",count:"questions in the bank"}
 };
 const store={get(){try{return JSON.parse(localStorage.getItem("clayaway-trainer")||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem("clayaway-trainer",JSON.stringify(v))}catch(e){}}};
 let P=Object.assign({lang:"uk",disc:"sporting",stats:{}},store.get());
@@ -173,7 +173,7 @@ function qCard(q,picked,reveal,idx,total){
     ${reveal?`<div class="explain ${picked===q.answer?"":"bad"}"><b>${picked===q.answer?t("right"):t("wrong")}</b> ${esc(tx(q,"explain"))}${refsHTML(q)}</div>`:""}</div>`;
 }
 function homeView(){
-  const d=P.disc==="sporting"?"Sporting":"Compak Sporting", qs=QUIZ[P.disc]||[], s=st();
+  const d=P.disc==="sporting"?"Sporting™":"Compak® Sporting", qs=QUIZ[P.disc]||[], s=st();
   if(!qs.length) return `<h1>${t("title").replace("{d}",d)}</h1><div class="empty">${t("none")}</div>`;
   const acc=s.ans?Math.round(s.ok/s.ans*100):0;
   return `<a class="small" href="../#${P.disc}">${t("back")}</a><div class="eyebrow" style="margin-top:12px">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>

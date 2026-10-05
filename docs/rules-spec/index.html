@@ -5,10 +5,6 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ТЗ: Правила FITASC і глосарій</title>
-<!-- seo -->
-<link rel="canonical" href="https://fenix-112323.github.io/clayaway/rules-spec/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ: довідник правил FITASC і глосарій", "inLanguage": "uk", "url": "https://fenix-112323.github.io/clayaway/rules-spec/", "author": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "publisher": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "isPartOf": {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}, "about": "Довідник правил FITASC, тренажер, глосарій, SEO, оновлення регламентів"}</script>
-<!-- /seo -->
 <!-- share-preview -->
 <meta name="description" content="Як працює довідник правил FITASC у ClayArena: джерела, структура даних, пошук, ШІ-відповіді, щотижнева перевірка оновлень.">
 <meta property="og:type" content="website">
@@ -30,6 +26,10 @@
 <link rel="icon" type="image/png" href="../og/favicon.png">
 <link rel="apple-touch-icon" href="../og/apple-touch-icon.png">
 <!-- /share-preview -->
+<!-- seo -->
+<link rel="canonical" href="https://fenix-112323.github.io/clayaway/rules-spec/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ: довідник правил FITASC і глосарій", "inLanguage": "uk", "url": "https://fenix-112323.github.io/clayaway/rules-spec/", "author": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "publisher": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "isPartOf": {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}, "about": "Довідник правил FITASC, тренажер, глосарій, SEO, оновлення регламентів"}</script>
+<!-- /seo -->
 <style>
 :root{
   color-scheme:dark;
@@ -125,7 +125,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 <main>
   <div class="eyebrow">ClayArena · ClayAway · технічне завдання</div>
   <h1>Довідник правил FITASC і глосарій</h1>
-  <p class="lede">Два пов'язані інструменти для спортсменів, організаторів і перекладачів: правила Sporting і Compak Sporting простими словами з відповідями на питання і єдиний глосарій термінів ClayArena.</p>
+  <p class="lede">Два пов'язані інструменти для спортсменів, організаторів і перекладачів: правила Parcours de Chasse – Sporting™ і Compak® Sporting простими словами з відповідями на питання і єдиний глосарій термінів ClayArena.</p>
   <div class="meta"><span>Версія від 05.10.2026</span><span>Статус: проєкт для обговорення; далі — інтеграція в ClayArena і доопрацювання програмістами</span><span>Мова інтерфейсу: UA / EN, терміни англійською</span></div>
   <div class="links">
     <a href="../rules/"><b>Довідник правил</b><span>Sporting і Compak Sporting, пошук і FAQ</span></a>
@@ -253,7 +253,9 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
     <li><b>Джерело термінів</b> — пункти правил: у кожного пункту є <code>terms[]</code> (англійські id, наприклад <code>gun-position</code>, <code>no-bird</code>, <code>report-pair</code>). З усіх пунктів обох регламентів збирається список термінів.</li>
     <li><b>Запис терміна</b>: англійська назва (завжди англійською), синоніми, коротке і детальне пояснення UA/EN, як кажуть українською, приклад фрази на стенді, пов'язані терміни і посилання на пункти правил, де термін визначено.</li>
     <li><b>Правило — джерело істини.</b> Якщо термін має цифри чи ліміти (відстані, кількість відмов, положення рушниці), пояснення посилається на пункт правил, а не повторює цифри окремо — так при новій редакції FITASC термін оновлюється разом із правилом.</li>
-    <li><b>Окремі навчальні проєкти</b> (наприклад, навчальні курси для організаторів і перекладачів) можуть використовувати цей глосарій як джерело, але не є частиною цього ТЗ.</li>
+    <li><b>Глосарій — частина ClayArena</b> і будується лише з довідника правил: дані <code>docs/glossary/data/glossary.js</code> (канонічні терміни) і <code>aliases.json</code> (усі id термінів із пунктів правил → канонічний id; синоніми на кшталт <code>countback</code> / <code>count-back</code>, <code>scorecard</code> / <code>score-sheet</code> зливаються). Сторінки генерує <code>scripts/build_seo.mjs</code>.</li>
+    <li><b>Відмінності дисциплін</b> — у терміні окремо «як у Sporting» і «як у Compak» (наприклад, правило «низької рушниці» і мітка на жилеті є тільки в Sporting).</li>
+    <li><b>Навчальні проєкти</b> (наприклад, окрема Академія для організаторів і перекладачів) — самостійні; вони не входять у ClayArena і не є джерелом глосарію.</li>
     <li><b>Індексація.</b> Сторінки глосарію — наш власний контент, тому вони <b>індексуються</b> пошуковиками: <code>/en/glossary/</code>, <code>/en/glossary/{term}/</code> та мовні версії, з <code>hreflang</code>, schema.org <code>DefinedTerm</code> / <code>DefinedTermSet</code> і посиланням на пункти правил ClayArena. Посилання з глосарію на сайт і PDF FITASC — завжди <code>nofollow</code>. Сторінки довідника правил (переказ регламентів) лишаються <code>noindex</code>, доки немає дозволу FITASC.</li>
     <li>Терміни з'єднують розділи ClayArena: у правилі — посилання на термін, у терміні — на правило, у турі ClayAway і на сторінках змагань — підказки до термінів.</li>
   </ul>
@@ -284,7 +286,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
     <tbody>
       <tr><td>Статичні сторінки правил <code>/rules/sporting/</code>, <code>/rules/compak/</code>, <code>/rules/en/…</code></td><td><b>index, follow</b></td><td>головне джерело трафіку: повний текст переказу в HTML, FAQ</td></tr>
       <tr><td>Інтерактивний довідник <code>/rules/</code> і тренажер <code>/rules/trainer/</code></td><td><b>index, follow</b></td><td>пошук «питання — відповідь», тест</td></tr>
-      <tr><td>Глосарій і Академія (окремий проєкт)</td><td><b>index, follow</b></td><td>свій контент, сторінка на кожен термін</td></tr>
+      <tr><td>Глосарій ClayArena <code>/glossary/</code>, <code>/glossary/&lt;term&gt;/</code></td><td><b>index, follow</b></td><td>свій контент, сторінка на кожен термін, посилання на пункти правил</td></tr>
       <tr><td>Головна проєкту</td><td>noindex, follow</td><td>роздоріжжя з посиланнями на внутрішні ТЗ</td></tr>
       <tr><td>ТЗ (<code>/concept/</code>, <code>/rules-spec/</code>)</td><td>noindex, nofollow</td><td>внутрішні плани ClayArena (комісія, логіка, адмінка)</td></tr>
       <tr><td>Приклади турів (<code>/dornsberg/</code>, <code>/sologne/</code>)</td><td>noindex, nofollow</td><td>реальні люди з умовними датами й цінами, фото з сайтів стендів — не можна видавати за реальний продаж</td></tr>
@@ -436,7 +438,7 @@ rules/sources.json               зафіксовані версії PDF (URL, �
 rules/pdf/                       локальні PDF і текст (не в git)</div>
 </section>
 
-<footer>ClayArena · ClayAway · ТЗ «Довідник правил FITASC і глосарій» · 05.10.2026. Правила належать FITASC; чинним є лише офіційний текст.</footer>
+<footer>ClayArena · ClayAway · ТЗ «Довідник правил FITASC і глосарій» · 05.10.2026. Правила належать FITASC; чинним є лише офіційний текст. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</footer>
 </main>
 </div>
 </body>

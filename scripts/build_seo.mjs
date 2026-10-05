@@ -17,7 +17,7 @@ await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
 
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const NAMES = { sporting: "Sporting", compak: "Compak Sporting" };
+const NAMES = { sporting: "Sporting™", compak: "Compak® Sporting" };
 const TXT = {
   uk: {
     title: d => `Правила ${d} FITASC простими словами — ClayAway`,
@@ -26,7 +26,7 @@ const TXT = {
     lead: "Наш переказ офіційного регламенту FITASC простими словами: розділ за розділом, з номером пункту і посиланням на сторінку PDF. Терміни англійською, як їх кажуть на стенді.",
     ask: "Запитати про правила", trainer: "Перевірити себе в тренажері", other: "Інша мова", faq: "Часті питання", toc: "Зміст", part: "Частина", ch: "Розділ",
     src: "Джерело", ed: "Редакція", off: "Офіційний PDF FITASC", pdf: "PDF, стор.",
-    disc: "Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC.",
+    disc: "Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",
     crumbs: ["ClayAway", "Правила FITASC"], updated: "Оновлено"
   },
   en: {
@@ -36,7 +36,7 @@ const TXT = {
     lead: "Our plain-language summary of the official FITASC rulebook, chapter by chapter, with the rule reference and a link to the PDF page.",
     ask: "Ask about the rules", trainer: "Test yourself in the trainer", other: "Інша мова", faq: "Common questions", toc: "Contents", part: "Part", ch: "Chapter",
     src: "Source", ed: "Edition", off: "Official FITASC PDF", pdf: "PDF, p.",
-    disc: "This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies.",
+    disc: "This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",
     crumbs: ["ClayAway", "FITASC rules"], updated: "Updated"
   }
 };
@@ -111,7 +111,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <div class="cta"><a class="btn primary" href="${BASE}rules/#${key}">${T.ask}</a><a class="btn" href="${BASE}rules/trainer/#${key}">${T.trainer}</a></div>
 ${b.sections.map(s => `<section id="${s.id}"><h2><small>${T.part} ${esc(s.part)}${s.chapter ? " · " + T.ch + " " + s.chapter : ""}</small>${esc(tx(s, "title"))}</h2>
 ${s.items.map(it => `<article class="item" id="${it.id}"><h3>${esc(tx(it, "title"))}</h3><div class="ref">${esc(it.ref || "")} · <a href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page}</a></div>
-<p>${esc(tx(it, "summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</article>`).join("\n")}
+<p>${esc(tx(it, "summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`).join("\n")}
 </section>`).join("\n")}
 <section id="faq" class="faq"><h2>${T.faq}</h2>${b.faq.map(f => `<details><summary>${esc(tx(f, "q"))}</summary><p>${esc(tx(f, "a"))}</p></details>`).join("\n")}</section>
 <div class="disc">${T.disc}</div>
@@ -124,8 +124,85 @@ ${s.items.map(it => `<article class="item" id="${it.id}"><h3>${esc(tx(it, "title
   return url;
 }
 
+// ---------------------------------------------------------------------------------------------------
+// ClayArena glossary (part of ClayArena, built from the rules guide only — NOT from the separate Academy).
+// Data: docs/glossary/data/glossary.js (window.GLOSSARY.terms) + aliases.json (rule-item term id → canonical id).
+// Output: docs/glossary/index.html and docs/glossary/<id>/index.html (Ukrainian with English, DefinedTerm),
+// and term links under every rule item on the static rules pages (see termLinks()).
+let GLOSS = null, ALIAS = {};
+try {
+  await import("../docs/glossary/data/glossary.js");
+  GLOSS = window.GLOSSARY;
+  ALIAS = JSON.parse(readFileSync("docs/glossary/data/aliases.json", "utf8"));
+} catch (e) { console.log("glossary data not found yet — skipping glossary pages"); }
+const GBY = GLOSS ? Object.fromEntries(GLOSS.terms.map(t => [t.id, t])) : {};
+// termLinks(item, lang): HTML links from a rule item to its glossary terms (deduplicated through aliases).
+globalThis.termLinks = (it, lang) => {
+  if (!GLOSS) return "";
+  const ids = [...new Set((it.terms || []).map(t => ALIAS[t] || t).filter(id => GBY[id]))];
+  if (!ids.length) return "";
+  return `<div class="ref">${lang === "uk" ? "Терміни" : "Terms"}: ${ids.map(id => `<a href="${BASE}glossary/${id}/">${esc(GBY[id].term)}</a>`).join(" · ")}</div>`;
+};
+
+function glossaryPages() {
+  if (!GLOSS) return [];
+  const out = [];
+  const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}`;
+  const shell = (title, desc, url, ld, body) => `<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="ClayAway · ClayArena">
+<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}og/glossary.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png">
+<meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/glossary.png">
+<meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
+${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
+<style>${css}</style>
+</head>
+<body>
+<header><div class="in"><a class="logo" href="${BASE}glossary/"><b>ClayArena</b></a><nav class="crumbs"><a href="${BASE}glossary/">Глосарій</a></nav><span style="flex:1"></span><a class="btn" href="${BASE}rules/">Правила FITASC</a></div></header>
+<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">${body}
+<div class="disc">Глосарій ClayArena побудовано на нашому переказі регламентів FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div></main>
+</body></html>`;
+  const SET = { "@type": "DefinedTermSet", name: "ClayArena clay shooting glossary", url: BASE + "glossary/" };
+  for (const t of GLOSS.terms) {
+    const url = `${BASE}glossary/${t.id}/`;
+    const title = `${t.term} — термін стендової стрільби | Глосарій ClayArena`;
+    const desc = `${t.term}: ${t.short_uk}`.slice(0, 300);
+    const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(r.ref)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF ${r.page}</a></li>`).join("");
+    const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p>${t.disciplines_en && t.disciplines_en[k] ? `<p lang="en">${esc(t.disciplines_en[k])}</p>` : ""}</div>`).join("");
+    const rel = (t.related || []).filter(r => GBY[r]).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${esc(GBY[r].term)}</a>`).join(" ");
+    const body = `<div class="src">${esc(t.cat)}</div><h1>${esc(t.term)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
+<h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p><p lang="en">${esc(t.short_en)}</p>
+<h2>Детально</h2><p>${esc(t.long_uk)}</p><p lang="en">${esc(t.long_en)}</p>
+${disc ? `<h2>У Sporting і Compak</h2>${disc}` : ""}
+${t.uk_usage && t.uk_usage !== "—" ? `<h2>Як кажуть українською</h2><p>${esc(t.uk_usage)}</p>` : ""}
+${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
+    const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: t.aka || [], description: `${t.short_uk} / ${t.short_en}`, termCode: t.id, url, inDefinedTermSet: SET, inLanguage: ["uk", "en"] },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name: t.term, item: url }] }];
+    mkdirSync(`docs/glossary/${t.id}`, { recursive: true });
+    writeFileSync(`docs/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body));
+    out.push(url);
+  }
+  const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
+  const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting і Compak Sporting англійською — з поясненнями українською та англійською і посиланнями на пункти правил FITASC.</p>
+${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${esc(t.term)}</a>`).join("")}</div>`).join("\n")}`;
+  writeFileSync("docs/glossary/index.html", shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting і Compak Sporting англійською з поясненнями українською та англійською і посиланнями на правила FITASC.`, BASE + "glossary/",
+    [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: t.term, url: `${BASE}glossary/${t.id}/` })) }], listBody));
+  return [BASE + "glossary/", ...out];
+}
+
 const urls = [BASE + "rules/", BASE + "rules/trainer/"];
 for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
+urls.push(...glossaryPages());
 writeFileSync("docs/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${u}</loc><lastmod>${TODAY}</lastmod></url>`).join("\n")}
