@@ -118,6 +118,6 @@ if __name__ == "__main__":
     icons()
     for path, name, locale, eyebrow, title, sub, ogt, ogd in PAGES:
         card(name, eyebrow, title, sub)
-        if (DOCS / path).exists():  # generated pages (e.g. glossary) may not exist yet
+        if (DOCS / path).exists() and name != "glossary":  # glossary pages carry their own tags (build_seo.mjs)
             inject(path, name, locale, ogt, ogd)
         print("ok", path)
