@@ -100,6 +100,7 @@ article.lesson p{font-size:17px;color:var(--soft);line-height:1.75}
 .btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:9px 16px;font-weight:600;font-size:14px;text-decoration:none;color:var(--ink);display:inline-block}
 .btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
 .pop{background:var(--surface2);border:1px solid rgba(52,211,153,.4);border-radius:12px;padding:10px 14px;margin:8px 0;font-size:14.5px;color:var(--soft)}
+.src-list{padding-left:20px;color:var(--soft);font-size:14.5px}.src-list li{margin:4px 0}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#fff;color:#030712;font-weight:700;padding:8px 16px;border-radius:999px;z-index:40}
 footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:12px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -196,6 +197,7 @@ function lessonView(m,l){
    ${tx(l,"did_you_know")?`<div class="dyk"><b>${t("dyk")}</b> ${esc(tx(l,"did_you_know"))}</div>`:""}
    ${(l.terms||[]).length?`<h2>${t("terms")}</h2><div class="chips">${l.terms.map(id=>termChip(l,id)).join("")}</div>${pop?`<div class="pop"><b>${esc(pop.term)}</b> — ${esc(pop["short_"+L()]||pop.short_en)}</div>`:""}`:""}
    ${refs.length?`<h2>${t("rules")}</h2><div class="chips">${refs.map(it=>`<a href="../rules/${it.book}/#${it.id}">${esc(it.ref)}</a>`).join("")}</div>`:""}
+   ${(l.sources||[]).length?`<h2>${L()==="uk"?"Джерела і закони":"Sources and laws"}</h2><ul class="src-list">${l.sources.map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="nofollow noopener noreferrer">${esc(L()==="uk"?x.title:(x.title_en||x.title))} ↗</a></li>`).join("")}</ul><p class="small muted">${L()==="uk"?"Інформація станом на дату уроку, не є юридичною консультацією. Закони змінюються — перевіряйте актуальну редакцію.":"Information as of the lesson date, not legal advice. Laws change — check the current version."}</p>`:""}
    ${quiz?`<h2>${t("check")}</h2>${quiz}`:""}
    <div class="nav">${P.done[l.id]!=null?`<span class="badge on">✓ ${t("done")}</span>`:"<span></span>"}${next?`<button class="btn primary" data-les="${next.id}">${t("next")} →</button>`:""}</div></article>`;
 }

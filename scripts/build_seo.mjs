@@ -265,6 +265,7 @@ ${(l.body_uk || []).map(p => `<p>${esc(p)}</p>`).join("\n")}
 ${l.did_you_know_uk ? `<p><b>Чи знали ви?</b> ${esc(l.did_you_know_uk)}</p>` : ""}
 ${terms ? `<h2>Терміни</h2><p>${terms}</p>` : ""}
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+${(l.sources || []).length ? `<h2>Джерела і закони</h2><ul>${l.sources.map(x => `<li><a href="${esc(x.url)}" ${NF}>${esc(x.title)} ↗</a></li>`).join("")}</ul><p class="ref">Станом на дату уроку; не є юридичною консультацією — перевіряйте актуальну редакцію законів.</p>` : ""}
 <h2 lang="en">${esc(l.title_en)}</h2>
 ${(l.body_en || []).map(p => `<p lang="en">${esc(p)}</p>`).join("\n")}
 <div class="cta"><a class="btn primary" href="${BASE}learn/#${l.id}">Перевірити себе: 3 питання</a>${next ? `<a class="btn" href="${BASE}learn/${next.id}/">Далі: ${esc(next.title_uk)}</a>` : ""}</div>

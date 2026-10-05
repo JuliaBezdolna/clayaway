@@ -617,7 +617,7 @@ window.LEARN.push({
    "id": "cartridges-lead-and-steel",
    "title_uk": "Свинець, сталь і м’яке залізо",
    "title_en": "Lead, steel and soft iron",
-   "minutes": 5,
+   "minutes": 6,
    "summary_uk": "Чим свинцевий дріб відрізняється від сталевого й залізного, чому деякі стенди вимагають безсвинцевий дріб і які обмеження діють.",
    "summary_en": "How lead shot differs from steel and soft iron, why some grounds require lead-free shot, and what limits apply.",
    "body_uk": [
@@ -626,7 +626,14 @@ window.LEARN.push({
     "Сталевий дріб (steel shot) — найпоширеніша безсвинцева заміна. Сталь приблизно на третину легша за свинець за однакового об’єму й набагато твердіша. Тому сталева дробина швидше втрачає швидкість, а від твердих поверхонь сильніше рикошетить.",
     "Через рикошети стенди, що дозволяють сталь, часто обмежують її розмір, наприклад не більше 2,5 мм, а іноді й швидкість патрона. Ці межі встановлює кожен стенд сам: читайте правила, вивішені в клубі, або запитайте організатора.",
     "Дріб із м’якого заліза (soft iron) — різновид безсвинцевого дробу, м’якший за звичайну сталь. Його роблять, щоб він був лагіднішим до стволів і чоків. Існують і дорожчі варіанти — вісмутовий (bismuth) та з вольфрамовими сплавами (tungsten): вони важчі за сталь і ближчі до свинцю за поведінкою.",
-    "Сталевим дробинам потрібен захисний пластиковий або спеціальний пиж, щоб тверда сталь не дряпала ствол. Деякі виробники пропонують сталеві спортивні патрони з біорозкладними чи фібровими пижами — перевіряйте, що дозволяє ваш стенд. Про те, які чоки придатні для сталі, йдеться в модулі «Чоки»."
+    "Сталевим дробинам потрібен захисний пластиковий або спеціальний пиж, щоб тверда сталь не дряпала ствол. Деякі виробники пропонують сталеві спортивні патрони з біорозкладними чи фібровими пижами — перевіряйте, що дозволяє ваш стенд. Про те, які чоки придатні для сталі, йдеться в модулі «Чоки».",
+    "Де свинцевий дріб уже заборонений або обмежений (станом на жовтень 2026 року; закони змінюються, тож перевіряйте актуальну редакцію):",
+    "• Європейський Союз — Регламент Комісії (ЄС) 2021/57: з 15 лютого 2023 року заборонено стріляти дробом, що містить 1% свинцю й більше, а також мати його при собі під час стрільби у водно-болотних угіддях і в межах 100 м від них. Ширше обмеження свинцю в дробі за регламентом REACH схвалив комітет ЄС у червні 2026 року з перехідним періодом сім років; на момент написання воно ще проходить перевірку Європарламентом і Радою.",
+    "• Велика Британія (Англія, Вельс, Шотландія) — обмеження UK REACH: з 1 квітня 2029 року заборонено продавати й використовувати свинцевий дріб і для полювання, і для стрільби по мішенях, зокрема на стендах; виняток передбачено лише для елітних спортсменів за умовами закону.",
+    "• Данія — з 1996 року повна заборона використання, продажу й володіння свинцевим дробом, зокрема для стендової стрільби.",
+    "• Нідерланди — свинцевий дріб заборонений для полювання з 1993 року, для стендової стрільби — з 2004 року (з винятком для олімпійських спортсменів на спеціальних стрільбищах).",
+    "• США — з 1991 року для полювання на водоплавну птицю дозволений лише нетоксичний дріб (федеральні правила 50 CFR 20.21(j)); окремі штати мають ширші обмеження.",
+    "Крім законів, багато стендів самі дозволяють лише сталевий дріб (наприклад, через охорону природи навколо стенду) — це правило стенду, і воно діє навіть там, де закон свинець дозволяє. Перед поїздкою завжди перевіряйте закон країни і правила конкретного стенду."
    ],
    "body_en": [
     "Traditional shot is lead. Lead is heavy and soft, so a pellet keeps its speed well and cartridges give an even pattern. The FITASC rules for Parcours de Chasse – Sporting™ and Compak® Sporting are written for lead shot: up to 28 g, 2.0–2.5 mm in diameter.",
@@ -634,21 +641,30 @@ window.LEARN.push({
     "Steel shot is the most common lead-free replacement. Steel is about a third lighter than lead for the same volume and much harder. So a steel pellet loses speed sooner and ricochets more from hard surfaces.",
     "Because of ricochets, grounds that allow steel often limit its size, for example to no more than 2.5 mm, and sometimes the cartridge velocity too. Each ground sets its own limits: read the rules posted at the club or ask the organiser.",
     "Soft iron shot is a type of lead-free shot that is softer than ordinary steel. It is made to be kinder to barrels and chokes. There are also more expensive options, bismuth and tungsten alloys: they are heavier than steel and behave more like lead.",
-    "Steel pellets need a protective plastic or special wad so that the hard steel does not scratch the barrel. Some makers offer steel clay loads with biodegradable or fibre wads; check what your ground allows. Which chokes are safe with steel is covered in the Chokes module."
+    "Steel pellets need a protective plastic or special wad so that the hard steel does not scratch the barrel. Some makers offer steel clay loads with biodegradable or fibre wads; check what your ground allows. Which chokes are safe with steel is covered in the Chokes module.",
+    "Where lead shot is already banned or restricted (as of October 2026; laws change, so check the current version):",
+    "• European Union — Commission Regulation (EU) 2021/57: since 15 February 2023 it is forbidden to fire gunshot containing 1% lead or more, or to carry it while shooting, in or within 100 m of wetlands. A wider REACH restriction on lead in gunshot was approved by the EU committee in June 2026 with a seven-year transition; at the time of writing it is still under scrutiny by the European Parliament and the Council.",
+    "• Great Britain (England, Wales, Scotland) — UK REACH restriction: from 1 April 2029 the sale and use of lead shot is banned for both live quarry and target shooting, including clay grounds; only elite athletes are exempt under conditions set by the law.",
+    "• Denmark — since 1996 a total ban on the use, sale and possession of lead shot, including for clay shooting.",
+    "• Netherlands — lead shot banned for hunting since 1993 and for clay target shooting since 2004 (with an exception for Olympic athletes on special ranges).",
+    "• USA — since 1991 only nontoxic shot is allowed for waterfowl hunting (federal rule 50 CFR 20.21(j)); some states go further.",
+    "Besides laws, many grounds allow steel shot only (for example to protect nature around the ground) — that is the ground's own rule and applies even where the law allows lead. Before travelling, always check the country's law and the ground's rules."
    ],
    "key_points_uk": [
     "Правила FITASC написано для свинцевого дробу",
     "У ЄС з 2023 року свинцевий дріб заборонено на водно-болотних угіддях і за 100 м від них",
     "Сталь легша й твердіша за свинець, сильніше рикошетить",
     "Стенди часто обмежують розмір сталевого дробу, наприклад до 2,5 мм",
-    "М’яке залізо лагідніше до стволів; вісмут і вольфрам — дорожчі альтернативи"
+    "М’яке залізо лагідніше до стволів; вісмут і вольфрам — дорожчі альтернативи",
+    "Свинцевий дріб уже заборонений у Данії й Нідерландах, у Великій Британії — з 1 квітня 2029 року; у ЄС — біля водно-болотних угідь (Регламент 2021/57)."
    ],
    "key_points_en": [
     "The FITASC rules are written for lead shot",
     "In the EU, since 2023 lead shot is banned in wetlands and within 100 m of them",
     "Steel is lighter and harder than lead, and ricochets more",
     "Grounds often limit steel shot size, for example to 2.5 mm",
-    "Soft iron is kinder to barrels; bismuth and tungsten are costlier alternatives"
+    "Soft iron is kinder to barrels; bismuth and tungsten are costlier alternatives",
+    "Lead shot is already banned in Denmark and the Netherlands, in Great Britain from 1 April 2029; in the EU near wetlands (Regulation 2021/57)."
    ],
    "terms": [
     "lead-shot",
@@ -761,7 +777,39 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Густина свинцю — близько 11,3 г/см³, а сталі — близько 7,8–7,9 г/см³. Тому сталева дробина того самого діаметра приблизно на 30 % легша за свинцеву.",
-   "did_you_know_en": "Lead has a density of about 11.3 g/cm³, steel about 7.8–7.9 g/cm³. So a steel pellet of the same diameter is roughly 30% lighter than a lead one."
+   "did_you_know_en": "Lead has a density of about 11.3 g/cm³, steel about 7.8–7.9 g/cm³. So a steel pellet of the same diameter is roughly 30% lighter than a lead one.",
+   "sources": [
+    {
+     "title": "ЄС: Регламент Комісії (ЄС) 2021/57 — свинцевий дріб у водно-болотних угіддях (EUR-Lex)",
+     "title_en": "EU: Commission Regulation (EU) 2021/57 — lead gunshot in wetlands (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/eli/reg/2021/57/oj/eng"
+    },
+    {
+     "title": "ЄС: ширше обмеження свинцю в дробі за REACH — статус процедури (FACE, 2026)",
+     "title_en": "EU: wider REACH restriction on lead gunshot — procedure status (FACE, 2026)",
+     "url": "https://www.face.eu/2026/07/europes-lead-gunshot-restriction-enters-final-eu-scrutiny-phase/"
+    },
+    {
+     "title": "Велика Британія: UK REACH — обмеження свинцю в боєприпасах, з 1 квітня 2029 (GOV.UK)",
+     "title_en": "Great Britain: UK REACH restriction on lead in ammunition, from 1 April 2029 (GOV.UK)",
+     "url": "https://www.gov.uk/government/news/toxic-lead-ammunition-banned-to-protect-britains-countryside"
+    },
+    {
+     "title": "Данія: повна заборона свинцевого дробу з 1996 року (огляд, PMC)",
+     "title_en": "Denmark: total lead shot ban since 1996 (review, PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6675819/"
+    },
+    {
+     "title": "Нідерланди та інші країни Європи: заборони свинцевого дробу (огляд, PMC)",
+     "title_en": "Netherlands and other European countries: lead shot regulations (review, PMC)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6675918/"
+    },
+    {
+     "title": "США: нетоксичний дріб для полювання на водоплавну птицю, 50 CFR 20.21(j) (U.S. Fish & Wildlife Service)",
+     "title_en": "USA: nontoxic shot for waterfowl hunting, 50 CFR 20.21(j) (U.S. Fish & Wildlife Service)",
+     "url": "https://www.fws.gov/story/2022-04/nontoxic-shot-regulations-hunting-waterfowl-and-coots-us"
+    }
+   ]
   },
   {
    "id": "cartridges-choosing-and-storage",
