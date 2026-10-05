@@ -208,7 +208,7 @@ ${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t
 // Lesson new_terms that are not in the rules glossary become extra glossary entries (source "academy")
 // so every term chip has a page; they link back to the lesson that explains them.
 window.LEARN = [];
-for (const m of ["intro", "safety", "gun", "chokes", "cartridges", "targets", "technique", "competitions", "rules", "culture", "clayarena", "gear", "training", "juniors", "travel"]) {
+for (const m of ["intro", "safety", "gun", "chokes", "cartridges", "targets", "technique", "competitions", "rules", "culture", "clayarena", "gear", "training", "juniors", "travel", "mind", "health", "women", "budget", "history", "watching", "nextstep"]) {
   try { await import(`../docs/learn/data/${m}.js`); } catch (e) { /* module not written yet */ }
 }
 try { await import("../docs/learn/data/laws-de.js"); } catch (e) {}
@@ -353,6 +353,9 @@ urls.push(...glossaryPages());
 globalThis.SEO = { BASE, TODAY, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, CSS, NF, esc };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
+// Glossary in DE/FR/IT/ES (when translations exist) + English Academy landing (scripts/build_seo_i18n.mjs).
+const { buildI18n } = await import("./build_seo_i18n.mjs");
+urls.push(...(await buildI18n()));
 writeFileSync("docs/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${u}</loc><lastmod>${TODAY}</lastmod></url>`).join("\n")}

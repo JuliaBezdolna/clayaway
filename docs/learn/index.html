@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://fenix-112323.github.io/clayaway/learn/">
+<link rel="alternate" hreflang="uk" href="https://fenix-112323.github.io/clayaway/learn/">
+<link rel="alternate" hreflang="en" href="https://fenix-112323.github.io/clayaway/en/learn/">
+<link rel="alternate" hreflang="x-default" href="https://fenix-112323.github.io/clayaway/en/learn/">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Академія ClayArena — стендова стрільба з нуля</title>
 <!-- share-preview -->
@@ -134,6 +138,13 @@ footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 <script src="data/training.js"></script>
 <script src="data/juniors.js"></script>
 <script src="data/travel.js"></script>
+<script src="data/mind.js"></script>
+<script src="data/health.js"></script>
+<script src="data/women.js"></script>
+<script src="data/budget.js"></script>
+<script src="data/history.js"></script>
+<script src="data/watching.js"></script>
+<script src="data/nextstep.js"></script>
 <script>
 /* =====================================================================================================
    ClayArena Academy — clay shooting from zero (part of ClayArena; project, to be rebuilt by the dev team).
@@ -145,7 +156,7 @@ footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid 
    Progress: localStorage "clayarena-learn" {done:{lessonId:quizScore}, lang}; in ClayArena → user profile + badges.
    ===================================================================================================== */
 const MODS=(window.LEARN||[]).slice().sort((a,b)=>a.order-b.order);
-const PLAN=[["intro",1,"Знайомство зі спортом","Meet the sport"],["safety",2,"Безпека і етикет","Safety and etiquette"],["gun",3,"Рушниця","The shotgun"],["chokes",4,"Чоки","Chokes"],["cartridges",5,"Патрони і дріб","Cartridges and shot"],["targets",6,"Мішені і траєкторії","Targets and trajectories"],["technique",7,"Перші кроки в техніці","First steps in technique"],["competitions",8,"Змагання","Competitions"],["rules",9,"Правила простими словами","Rules in plain words"],["culture",10,"Культура спорту","Culture of the sport"],["clayarena",11,"ClayArena для стрільця","ClayArena for shooters"],["gear",12,"Спорядження стрільця","Shooter's gear"],["training",13,"Як тренуватися","How to train"],["juniors",14,"Юніори і батьки","Juniors and parents"],["travel",15,"Подорожі на змагання","Travelling to competitions"]];
+const PLAN=[["intro",1,"Знайомство зі спортом","Meet the sport"],["safety",2,"Безпека і етикет","Safety and etiquette"],["gun",3,"Рушниця","The shotgun"],["chokes",4,"Чоки","Chokes"],["cartridges",5,"Патрони і дріб","Cartridges and shot"],["targets",6,"Мішені і траєкторії","Targets and trajectories"],["technique",7,"Перші кроки в техніці","First steps in technique"],["competitions",8,"Змагання","Competitions"],["rules",9,"Правила простими словами","Rules in plain words"],["culture",10,"Культура спорту","Culture of the sport"],["clayarena",11,"ClayArena для стрільця","ClayArena for shooters"],["gear",12,"Спорядження стрільця","Shooter's gear"],["training",13,"Як тренуватися","How to train"],["juniors",14,"Юніори і батьки","Juniors and parents"],["travel",15,"Подорожі на змагання","Travelling to competitions"],["mind",16,"Голова і тіло","Mind and body"],["health",17,"Здоровʼя стрільця","Shooter's health"],["women",18,"Жінки у стрільбі","Women in shooting"],["budget",19,"Скільки коштує почати","What it costs to start"],["history",20,"Історія спорту","History of the sport"],["watching",21,"Як дивитися стрільбу","How to watch clay shooting"],["nextstep",22,"Наступний крок","The next step"]];
 const GL=Object.fromEntries(((window.GLOSSARY||{}).terms||[]).map(t=>[t.id,t]));
 const RULEITEM={}; (window.RULES||[]).forEach(b=>b.sections.forEach(s=>s.items.forEach(it=>RULEITEM[b.key+":"+it.id]=Object.assign({book:b.key,url:b.source.url},it))));
 /* Badges: earned by finishing modules (all lessons with the quiz done). */
