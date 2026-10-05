@@ -150,7 +150,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Жилети часто мають наплічники з обох боків саме тому, що серед стрільців чимало лівшів і тих, хто стріляє з лівого плеча через провідне око.",
-   "did_you_know_en": "Vests often have pads on both shoulders because many shooters are left-handed or shoot from the left shoulder because of their dominant eye."
+   "did_you_know_en": "Vests often have pads on both shoulders because many shooters are left-handed or shoot from the left shoulder because of their dominant eye.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "gear-shooting-glasses",
@@ -285,7 +292,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Найкращий колір лінзи залежить і від ваших очей: двоє стрільців на тому самому стенді можуть обрати різні лінзи, і обидва матимуть рацію.",
-   "did_you_know_en": "The best lens colour also depends on your own eyes: two shooters on the same stand may pick different lenses and both be right."
+   "did_you_know_en": "The best lens colour also depends on your own eyes: two shooters on the same stand may pick different lenses and both be right.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "gear-ear-protection",
@@ -295,20 +309,20 @@ window.LEARN.push({
    "summary_uk": "Які бувають беруші й навушники, чим пасивні відрізняються від електронних і чому на гучних стендах краще вдягати обидва.",
    "summary_en": "Which plugs and muffs exist, how passive differs from electronic, and why on loud ranges it is better to wear both.",
    "body_uk": [
-    "Захист слуху (hearing protection) обов’язковий для всіх біля стрілецького місця: стрільців, суддів, персоналу й глядачів. Стрільця без нього на стрілецькому місці вважають відсутнім. Пошкодження слуху від гучних пострілів накопичується поступово й часто не минає, тому захищатися треба з першого пострілу.",
+    "Захист слуху (hearing protection) обов’язковий для всіх біля стрілецького місця: стрільців, суддів, персоналу й глядачів. Стрільця без нього на стрілецькому місці вважають відсутнім. Постріл із рушниці біля вуха стрільця досягає приблизно 150–170 дБ пікового рівня, а загальноприйнята межа для імпульсного шуму — 140 дБ для дорослих (її радить, зокрема, американський інститут NIOSH). Тобто кожен постріл без захисту перевищує межу. Втрата слуху від шуму накопичується поступово й не минає, а зашкодити може навіть один постріл, тому захищатися треба з першого пострілу.",
     "Беруші (earplugs) — найпростіший варіант. Пінні беруші дешеві: їх скручують, вставляють у вухо й чекають, поки вони розширяться. Є багаторазові силіконові та індивідуальні беруші, виліплені за зліпком вуха (custom-moulded). Правильно вставлені беруші захищають добре, неправильно — майже ніяк, тому попросіть тренера показати.",
     "Пасивні навушники (passive ear muffs) просто закривають вуха щільними чашками. Їх легко вдягати й знімати, але крізь них гірше чути голоси. Для стрільби з рушниці обирайте навушники з тонкими чашками: товсті можуть зачіпати приклад, коли ви його вкладаєте.",
     "Електронні навушники (electronic ear muffs) мають мікрофони й динаміки. Вони підсилюють тихі звуки — голос судді, команди, розмову, — а в момент пострілу миттєво приглушують гучний звук. Це зручно для безпеки й спілкування, але вони дорожчі й потребують батарейок або заряджання.",
-    "Ступінь захисту позначають числом: у Європі це SNR, у США — NRR. Чим більше число, тим сильніше заглушення. На гучних стендах — під навісом, біля стін, на полігонах, де багато стрільців стріляють одночасно, — розумно вдягати беруші й навушники разом. Так захист сильніший, ніж від кожного засобу окремо.",
-    "Для дітей і юніорів захист слуху ще важливіший: їхній слух чутливіший. Глядачі теж мають бути в навушниках або берушах. Вдягайте захист до того, як підійдете до стенда, і не знімайте його, поки поруч стріляють."
+    "Ступінь захисту позначають числом: у Європі це SNR, у США — NRR. Чим більше число, тим сильніше заглушення. На гучних стендах — під навісом, біля стін, на полігонах, де багато стрільців стріляють одночасно, — розумно вдягати беруші й навушники разом. Так захист сильніший, ніж від кожного засобу окремо; саме такий подвійний захист на стрільбищах радить NIOSH.",
+    "Для дітей і юніорів захист слуху ще важливіший: їхні вуха вразливіші, і для дітей рекомендують нижчу межу імпульсного шуму — близько 120 дБ. Глядачі теж мають бути в навушниках або берушах. Вдягайте захист до того, як підійдете до стенда, і не знімайте його, поки поруч стріляють."
    ],
    "body_en": [
-    "Hearing protection is compulsory for everyone near the stand: shooters, referees, staff and spectators. A shooter on the stand without it is treated as absent. Hearing damage from loud shots builds up gradually and often does not go away, so protect yourself from the very first shot.",
+    "Hearing protection is compulsory for everyone near the stand: shooters, referees, staff and spectators. A shooter on the stand without it is treated as absent. A shotgun shot reaches roughly 150–170 dB peak at the shooter's ear, while the generally accepted limit for impulse noise is 140 dB for adults (recommended, among others, by the US institute NIOSH). So every unprotected shot is over the limit. Noise-induced hearing loss builds up gradually and does not go away, and even a single shot can cause harm, so protect yourself from the very first shot.",
     "Earplugs are the simplest option. Foam plugs are cheap: you roll them, insert them into the ear and wait for them to expand. There are reusable silicone plugs and custom-moulded plugs made from an impression of your ear. Properly fitted plugs protect well, badly fitted ones hardly at all, so ask your coach to show you.",
     "Passive ear muffs simply cover the ears with tight cups. They are easy to put on and take off, but voices are harder to hear through them. For shotgun shooting choose muffs with slim cups: thick ones can hit the stock as you mount it.",
     "Electronic ear muffs have microphones and speakers. They amplify quiet sounds, such as the referee's voice, commands and conversation, and instantly cut a loud sound at the moment of the shot. This helps safety and communication, but they cost more and need batteries or charging.",
-    "Protection is rated with a number: SNR in Europe, NRR in the USA. The higher the number, the stronger the reduction. On loud ranges, such as under a roof, near walls or where many shooters fire at once, it makes sense to wear plugs and muffs together. That gives stronger protection than either one alone.",
-    "For children and juniors hearing protection matters even more, because their hearing is more sensitive. Spectators must wear muffs or plugs too. Put protection on before you walk up to the stand and keep it on while anyone nearby is shooting."
+    "Protection is rated with a number: SNR in Europe, NRR in the USA. The higher the number, the stronger the reduction. On loud ranges, such as under a roof, near walls or where many shooters fire at once, it makes sense to wear plugs and muffs together. That gives stronger protection than either one alone; NIOSH recommends exactly this double protection at shooting ranges.",
+    "For children and juniors hearing protection matters even more: their ears are more vulnerable, and a lower impulse-noise limit of about 120 dB is recommended for children. Spectators must wear muffs or plugs too. Put protection on before you walk up to the stand and keep it on while anyone nearby is shooting."
    ],
    "key_points_uk": [
     "Захист слуху обов’язковий для всіх біля стенда",
@@ -427,7 +441,29 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Пінні беруші розраховані на одне чи кілька використань: зношені й брудні вони гірше прилягають і захищають слабше.",
-   "did_you_know_en": "Foam earplugs are meant for one or a few uses: worn and dirty plugs seal less well and protect less."
+   "did_you_know_en": "Foam earplugs are meant for one or a few uses: worn and dirty plugs seal less well and protect less.",
+   "sources": [
+    {
+     "title": "NIOSH (США) — зниження впливу свинцю й шуму на відкритих стрільбищах: межа 140 дБ, подвійний захист слуху",
+     "title_en": "NIOSH (USA) — Reducing exposure to lead and noise at outdoor firing ranges: 140 dB limit, double hearing protection",
+     "url": "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf"
+    },
+    {
+     "title": "NHCA — позиція щодо шуму від спортивної та мисливської зброї (2017): рушниці 160–170 дБ, межа 140 дБ для дорослих і 120 дБ для дітей",
+     "title_en": "NHCA — position statement on recreational firearm noise (2017): shotguns 160–170 dB, limit 140 dB for adults and 120 dB for children",
+     "url": "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf"
+    },
+    {
+     "title": "ВООЗ — глухота і втрата слуху: втрата слуху від шуму незворотна, але її можна запобігти",
+     "title_en": "WHO — Deafness and hearing loss: noise-induced hearing loss is permanent but preventable",
+     "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+    },
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "gear-clothing-and-shoes",
@@ -552,7 +588,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Багато стрільців возять запасну пару шкарпеток і футболку: після мокрого маршруту суха зміна помітно додає сил на останні раунди.",
-   "did_you_know_en": "Many shooters carry spare socks and a T-shirt: after a wet course a dry change gives a real lift for the last rounds."
+   "did_you_know_en": "Many shooters carry spare socks and a T-shirt: after a wet course a dry change gives a real lift for the last rounds.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "gear-bags-cases-accessories",
@@ -707,7 +750,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Кілька коробок набоїв у сумці важать кілька кілограмів, тому досвідчені стрільці на маршруті беруть лише стільки, скільки потрібно до наступної точки поповнення.",
-   "did_you_know_en": "A few boxes of cartridges in a bag weigh several kilograms, so experienced shooters on a course carry only what they need until the next refill point."
+   "did_you_know_en": "A few boxes of cartridges in a bag weigh several kilograms, so experienced shooters on a course carry only what they need until the next refill point.",
+   "sources": [
+    {
+     "title": "IATA: Правила перевезення небезпечних вантажів, таблиця 2.3.A — боєприпаси (1.4S) лише в зареєстрованому багажі, до 5 кг брутто на особу, з дозволу перевізника",
+     "title_en": "IATA Dangerous Goods Regulations, Table 2.3.A — ammunition (1.4S) in checked baggage only, up to 5 kg gross per person, with operator approval",
+     "url": "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/dgr-65-en-2.3.a.pdf"
+    }
+   ]
   },
   {
    "id": "gear-what-to-buy-first",
@@ -829,7 +879,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Багато стендів дають рушниці напрокат, тож новачок може спробувати кілька моделей, перш ніж обрати свою.",
-   "did_you_know_en": "Many grounds rent out guns, so a beginner can try several models before choosing their own."
+   "did_you_know_en": "Many grounds rent out guns, so a beginner can try several models before choosing their own.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   }
  ]
 });

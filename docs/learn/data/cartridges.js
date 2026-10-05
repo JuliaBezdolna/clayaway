@@ -183,7 +183,19 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Пластиковий пиж після пострілу летить ще кілька десятків метрів за стрілецьке місце. Саме тому на полях біля старих стендів можна знайти тисячі пижів, а фібра поступово розкладається.",
-   "did_you_know_en": "After the shot a plastic wad flies on for several tens of metres beyond the stand. That is why the fields around old grounds can be full of wads, whereas fibre gradually breaks down."
+   "did_you_know_en": "After the shot a plastic wad flies on for several tens of metres beyond the stand. That is why the fields around old grounds can be full of wads, whereas fibre gradually breaks down.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    },
+    {
+     "title": "C.I.P. — таблиці розмірів патронів і патронників (TDCC), зокрема дробові патрони",
+     "title_en": "C.I.P. — tables of dimensions of cartridges and chambers (TDCC), including shot cartridges",
+     "url": "https://www.cip-bobp.org/en/tdcc"
+    }
+   ]
   },
   {
    "id": "cartridges-load-weight",
@@ -196,7 +208,7 @@ window.LEARN.push({
     "Навіска (load) — це маса дробу в патроні, у грамах. На коробці її пишуть великими цифрами, наприклад «24 g» або «28 g». У США й Великій Британії її іноді вказують в унціях: 1 унція — це приблизно 28 г.",
     "У Parcours de Chasse – Sporting™ і Compak® Sporting правила FITASC дозволяють навіску не більше 28 г свинцевого дробу з допуском +2 %, тобто приблизно до 28,6 г. Ця межа однакова для всіх калібрів.",
     "Патрони 28 г — стандарт для змагань у Sporting™: більше дробин, щільніший осип, особливо на далеких мішенях. Зворотний бік — сильніша віддача. За день із 100–200 мішенями це відчутно.",
-    "Патрони 24 г легші, м’якше віддають і зазвичай трохи дешевші. Їх часто обирають для тренувань, юніори та стрільці, яким важко з віддачею. В олімпійських дисциплінах ISSF, наприклад у трапі, межа навіски саме 24 г. Існують і ще легші патрони, 21 г, — передусім для 20 калібру або для навчання.",
+    "Патрони 24 г легші, м’якше віддають і зазвичай трохи дешевші. Їх часто обирають для тренувань, юніори та стрільці, яким важко з віддачею. В олімпійських дисциплінах ISSF, наприклад у трапі, межа навіски — 24 г із допуском +0,5 г. Існують і ще легші патрони, 21 г, — передусім для 20 калібру або для навчання.",
     "Суддя у Sporting™ може перед стрільбою на стрілецькому місці попросити два ваші патрони для перевірки: один із правої кишені жилета, другий — з лівої. Постріли з патронами, що не відповідають правилам, зараховують як промахи.",
     "Порада для новачка: почніть із 24 г. Менша віддача — менше втоми і менше звички «здригатися» перед пострілом. Перейти на 28 г можна пізніше, коли техніка стане стабільною."
    ],
@@ -204,7 +216,7 @@ window.LEARN.push({
     "The load is the weight of shot in a cartridge, in grams. The box shows it in large figures, for example '24 g' or '28 g'. In the USA and the UK it is sometimes given in ounces: 1 ounce is about 28 g.",
     "In Parcours de Chasse – Sporting™ and Compak® Sporting the FITASC rules allow a load of no more than 28 g of lead shot, with a +2% tolerance, so up to about 28.6 g. The limit is the same for every gauge.",
     "28 g cartridges are the competition standard in Sporting™: more pellets and a denser pattern, especially on far targets. The downside is heavier recoil. Over a day of 100–200 targets you feel it.",
-    "24 g cartridges are lighter, kick less and are usually a little cheaper. They are often chosen for practice, by juniors and by shooters who struggle with recoil. In the ISSF Olympic disciplines, trap for example, the load limit is exactly 24 g. Even lighter 21 g loads exist, mostly for 20 gauge or for teaching.",
+    "24 g cartridges are lighter, kick less and are usually a little cheaper. They are often chosen for practice, by juniors and by shooters who struggle with recoil. In the ISSF Olympic disciplines, trap for example, the load limit is 24 g with a +0.5 g tolerance. Even lighter 21 g loads exist, mostly for 20 gauge or for teaching.",
     "In Sporting™ the referee may, before you start at a stand, ask for two of your cartridges to check: one from the right vest pocket and one from the left. Shots fired with cartridges that break the rules are scored as misses.",
     "Advice for beginners: start with 24 g. Less recoil means less fatigue and less of the habit of flinching before the shot. You can move up to 28 g later, once your technique is consistent."
    ],
@@ -331,7 +343,19 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "1 унція — це 28,35 г, тож класичний британський патрон «1 oz» майже точно відповідає межі FITASC у 28 г.",
-   "did_you_know_en": "1 ounce is 28.35 g, so the classic British '1 oz' cartridge almost exactly matches the FITASC 28 g limit."
+   "did_you_know_en": "1 ounce is 28.35 g, so the classic British '1 oz' cartridge almost exactly matches the FITASC 28 g limit.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    },
+    {
+     "title": "ISSF — посібник з контролю спорядження для стендової стрільби (2026): навіска до 24,0 г (+0,5 г)",
+     "title_en": "ISSF — Shotgun Equipment Control Guide (2026): shot charge up to 24.0 g (+0.5 g)",
+     "url": "https://backoffice.issf-sports.org/getfile.aspx?mod=docf&pane=1&inst=31&iist=28&file=Shotgun-Equipment-Control-Guide-Edition-2026.pdf"
+    }
+   ]
   },
   {
    "id": "cartridges-shot-size",
@@ -342,17 +366,17 @@ window.LEARN.push({
    "summary_en": "What shot numbers 7, 7½, 8 and 9 mean, why numbering systems differ between countries, and which diameter the FITASC rules allow.",
    "body_uk": [
     "Дріб буває різного розміру, і його позначають номером. Головне правило: що більший номер, то дрібніша дробина. № 9 дрібніший за № 7.",
-    "Приблизні діаметри: № 9 — близько 2,0 мм; № 8 — близько 2,2–2,3 мм; № 7½ — близько 2,3–2,4 мм; № 7 — близько 2,4–2,5 мм. Чому «близько»? Бо системи нумерації в різних країнах і в різних виробників не збігаються: британський, американський, італійський чи французький «№ 7» можуть різнитися на десяту міліметра. Тому завжди дивіться діаметр у міліметрах на коробці.",
+    "Приблизні діаметри: № 9 — близько 2,0 мм; № 8 — близько 2,2–2,3 мм; № 7½ — близько 2,3–2,4 мм; № 7 — близько 2,4–2,5 мм. Чому «близько»? Бо системи нумерації в різних країнах і в різних виробників не збігаються. У традиційній британській шкалі № 7½ — це 2,3 мм, а № 8 — 2,2 мм; багато європейських спортивних патронів (наприклад, спортивна лінійка Gamebore) називають № 7½ дріб 2,4 мм, а № 8 — 2,3 мм; американський № 7½ — 0,095 дюйма, тобто близько 2,41 мм. Різниця в тому самому номері сягає десятої міліметра. Тому завжди дивіться діаметр у міліметрах на коробці.",
     "Правила FITASC для Sporting™ і Compak® Sporting вимагають круглий свинцевий дріб діаметром від 2,0 до 2,5 мм з допуском ±0,1 мм. На практиці це № 9, 8, 7½, а також № 7, якщо його діаметр не виходить за межу. № 6 (приблизно 2,6–2,8 мм) уже не дозволено. Змішувати в одному патроні дріб різних розмірів заборонено.",
-    "Дрібніший дріб дає більше дробин у тій самій навісці: у 28 г приблизно 350 дробин № 7½ і майже 600 дробин № 9. Тобто осип густіший, але кожна дробина легша й швидше втрачає енергію.",
+    "Дрібніший дріб дає більше дробин у тій самій навісці: у 28 г приблизно 350–400 дробин № 7½ (залежно від точного діаметра) і близько 580 дробин № 9. Тобто осип густіший, але кожна дробина легша й швидше втрачає енергію.",
     "Тому для близьких мішеней часто беруть № 9: густий осип легко «накриває» мішень. Для середніх і далеких — № 8 або № 7½: дробини важчі й краще розбивають мішень на відстані. № 7½ також люблять для міцних мішеней «кролик» (rabbit) і для мішені battue, коли вона летить ребром.",
     "Багато стрільців у Sporting™ обирають один універсальний патрон, наприклад 28 г № 7½ або № 8, і не ускладнюють. Деякі заряджають № 9 у перший ствол для близької мішені, а № 7½ — у другий."
    ],
    "body_en": [
     "Shot comes in different sizes, marked with a number. The key rule: the bigger the number, the smaller the pellet. No. 9 is smaller than No. 7.",
-    "Approximate diameters: No. 9 about 2.0 mm; No. 8 about 2.2–2.3 mm; No. 7½ about 2.3–2.4 mm; No. 7 about 2.4–2.5 mm. Why 'about'? Because numbering systems differ between countries and makers: a British, American, Italian or French 'No. 7' can differ by a tenth of a millimetre. So always check the diameter in millimetres on the box.",
+    "Approximate diameters: No. 9 about 2.0 mm; No. 8 about 2.2–2.3 mm; No. 7½ about 2.3–2.4 mm; No. 7 about 2.4–2.5 mm. Why 'about'? Because numbering systems differ between countries and makers. In the traditional British scale No. 7½ is 2.3 mm and No. 8 is 2.2 mm; many European clay cartridges (Gamebore's clay range, for example) call 2.4 mm shot No. 7½ and 2.3 mm No. 8; the American No. 7½ is 0.095 in, about 2.41 mm. The same number can differ by a tenth of a millimetre. So always check the diameter in millimetres on the box.",
     "The FITASC rules for Sporting™ and Compak® Sporting require round lead shot between 2.0 and 2.5 mm in diameter, with a ±0.1 mm tolerance. In practice that means No. 9, 8, 7½, and No. 7 if its diameter stays within the limit. No. 6 (about 2.6–2.8 mm) is no longer allowed. Mixing shot of different sizes in one cartridge is forbidden.",
-    "Smaller shot gives more pellets for the same load: 28 g holds about 350 pellets of No. 7½ and almost 600 of No. 9. So the pattern is denser, but each pellet is lighter and loses energy sooner.",
+    "Smaller shot gives more pellets for the same load: 28 g holds about 350–400 pellets of No. 7½ (depending on its exact diameter) and about 580 of No. 9. So the pattern is denser, but each pellet is lighter and loses energy sooner.",
     "That is why No. 9 is often used for close targets: its dense pattern easily covers the target. For medium and far targets, No. 8 or No. 7½: heavier pellets break the target better at range. No. 7½ is also popular for tough rabbit targets and for a battue flying edge-on.",
     "Many Sporting™ shooters pick one all-round cartridge, for example 28 g No. 7½ or No. 8, and keep things simple. Some load No. 9 in the first barrel for a close target and No. 7½ in the second."
    ],
@@ -471,7 +495,29 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Дріб для спортивних патронів роблять зі свинцю з домішкою сурми: вона робить дробини твердішими, вони менше деформуються в стволі й дають рівніший осип. Деякий дріб ще й покривають нікелем.",
-   "did_you_know_en": "Shot for clay cartridges is made of lead with some antimony added: it makes the pellets harder, so they deform less in the barrel and give a more even pattern. Some shot is also nickel-plated."
+   "did_you_know_en": "Shot for clay cartridges is made of lead with some antimony added: it makes the pellets harder, so they deform less in the barrel and give a more even pattern. Some shot is also nickel-plated.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    },
+    {
+     "title": "Federal Premium — довідник дробу: американські номери в дюймах і мм, середня кількість дробин на унцію",
+     "title_en": "Federal Premium — shotshell guide: US shot sizes in inches and mm, average pellet count per ounce",
+     "url": "https://www.federalpremium.com/on/demandware.static/-/Library-Sites-VistaFederalSharedLibrary/default/ve1ee04a44271d744373155c0b4d7e4c993afc242/contentDocuments/catalog/2019/Federal2019-Shotshell.pdf"
+    },
+    {
+     "title": "Gamebore White Gold 28 г: № 7½ = 2,4 мм, № 8 = 2,3 мм, швидкість до 422 м/с",
+     "title_en": "Gamebore White Gold 28 g: No. 7½ = 2.4 mm, No. 8 = 2.3 mm, velocity up to 422 m/s",
+     "url": "https://gamebore.com/cartridge/clay/12g-white-gold"
+    },
+    {
+     "title": "Shooting UK — як порівнювати номери дробу: італійські й іспанські номери на пів розміру більші за британські",
+     "title_en": "Shooting UK — how shot sizes compare: Italian and Spanish sizes run half a size larger than British ones",
+     "url": "https://shootinguk.co.uk/guns/ammunition/shot-size-for-game-115121"
+    }
+   ]
   },
   {
    "id": "cartridges-velocity-recoil",
@@ -481,30 +527,30 @@ window.LEARN.push({
    "summary_uk": "Що означає швидкість на коробці патронів, чому швидше не завжди краще і від чого залежить віддача.",
    "summary_en": "What the velocity on a cartridge box means, why faster is not always better, and what recoil depends on.",
    "body_uk": [
-    "На коробці часто вказують швидкість дробу (velocity) — у метрах за секунду або у футах за секунду (fps). Для спортивних патронів вона зазвичай становить приблизно 370–450 м/с.",
-    "Порівнюйте швидкості обережно: виробники вимірюють їх по-різному. Європейські часто вказують швидкість на відстані 1 м або 2,5 м від дула (позначки V1, V2,5), американські — у футах за секунду на відстані близько 1 м. Однакові цифри не завжди означають однакові патрони.",
+    "На коробці часто вказують швидкість дробу (velocity) — у метрах за секунду або у футах за секунду (fps). Для спортивних патронів вона зазвичай становить приблизно 360–430 м/с (близько 1200–1400 fps).",
+    "Порівнюйте швидкості обережно: виробники вимірюють їх по-різному. За правилами C.I.P., яких дотримуються європейські виробники, швидкість дробу вимірюють на відстані 2,5 м від дула (v2,5); на деяких коробках вказують V1 — на відстані 1 м, і позначки не завжди послідовні (наприклад, RC позначає свою цифру як V1, але зазначає, що її виміряно на 2,5 м). Американські виробники подають швидкість у футах за секунду на відстані близько 3 футів (0,9 м) від дула, а британські коробки часом вказують розрахункову дульну швидкість. Однакові цифри не завжди означають однакові патрони.",
     "Швидший патрон трохи скорочує час польоту дробу до мішені, але дає сильнішу віддачу, а осип у нього не обов’язково кращий. Більшість тренерів радять не ганятися за швидкістю, а обрати патрон, з яким ви стріляєте рівно й не втомлюєтеся.",
     "Віддача (recoil) — це поштовх рушниці в плече під час пострілу. Вона тим сильніша, що важча навіска і вища швидкість, і тим слабша, що важча рушниця. Самозарядна рушниця з газовою автоматикою «розтягує» поштовх у часі, тому відчувається м’якше.",
     "Ще більше важить підгонка рушниці й правильне вскидання. Рушниця, яка щільно притиснута до плеча і пасує вам, б’є значно м’якше, ніж та, що лежить на руці чи на кістці. Допомагають і хороший затильник, і правильна стійка.",
     "За день стрільби у Sporting™ чи Compak® Sporting ви можете зробити 100–200 пострілів. Сильна віддача втомлює й поступово привчає здригатися перед пострілом. Тому легший патрон (наприклад, 24 г) на тренуванні — не слабкість, а розумний вибір."
    ],
    "body_en": [
-    "The box often shows the shot velocity, in metres per second or feet per second (fps). For clay cartridges it is usually about 370–450 m/s.",
-    "Compare velocities with care: makers measure them differently. European makers often quote the speed 1 m or 2.5 m from the muzzle (marked V1, V2.5), American makers in feet per second at about 1 m. The same figures do not always mean the same cartridge.",
+    "The box often shows the shot velocity, in metres per second or feet per second (fps). For clay cartridges it is usually about 360–430 m/s (roughly 1,200–1,400 fps).",
+    "Compare velocities with care: makers measure them differently. Under the C.I.P. rules followed by European makers, shot velocity is measured 2.5 m from the muzzle (v2.5); some boxes quote V1, at 1 m, and labels are not always consistent (RC, for example, marks its figure V1 but states that it is measured at 2.5 m). American makers give feet per second measured about 3 ft (0.9 m) from the muzzle, and British boxes sometimes quote an estimated muzzle velocity. The same figures do not always mean the same cartridge.",
     "A faster cartridge slightly shortens the time the shot takes to reach the target, but it kicks harder, and its pattern is not necessarily better. Most coaches advise not to chase speed but to choose a cartridge you shoot consistently with and that does not tire you.",
     "Recoil is the push of the gun into the shoulder when it fires. It is stronger with a heavier load and higher velocity, and weaker with a heavier gun. A gas-operated semi-automatic spreads the push out over time, so it feels softer.",
     "Gun fit and a correct gun mount matter even more. A gun that fits you and sits firmly in the shoulder kicks far less than one resting on the arm or on bone. A good butt pad and a correct stance help too.",
     "In a day of Sporting™ or Compak® Sporting you may fire 100–200 shots. Heavy recoil tires you and gradually teaches you to flinch before the shot. So a lighter cartridge in practice (24 g, for example) is not a weakness but a sensible choice."
    ],
    "key_points_uk": [
-    "Типова швидкість спортивних патронів — приблизно 370–450 м/с",
+    "Типова швидкість спортивних патронів — приблизно 360–430 м/с",
     "Виробники вимірюють швидкість по-різному (V1, V2,5, fps)",
     "Швидше — сильніша віддача, але не обов’язково кращий результат",
     "Віддача зростає з навіскою й швидкістю і зменшується з вагою рушниці",
     "Підгонка й правильне вскидання зменшують відчутну віддачу"
    ],
    "key_points_en": [
-    "Typical clay cartridge velocity is about 370–450 m/s",
+    "Typical clay cartridge velocity is about 360–430 m/s",
     "Makers measure velocity differently (V1, V2.5, fps)",
     "Faster means more recoil, but not necessarily better results",
     "Recoil grows with load and velocity and falls with gun weight",
@@ -593,8 +639,8 @@ window.LEARN.push({
        "en": "About 100 m/s"
       },
       {
-       "uk": "Приблизно 370–450 м/с",
-       "en": "About 370–450 m/s"
+       "uk": "Приблизно 360–430 м/с",
+       "en": "About 360–430 m/s"
       },
       {
        "uk": "Близько 900 м/с",
@@ -606,12 +652,29 @@ window.LEARN.push({
       }
      ],
      "answer": 1,
-     "explain_uk": "Більшість спортивних патронів мають швидкість приблизно 370–450 м/с.",
-     "explain_en": "Most clay cartridges are about 370–450 m/s."
+     "explain_uk": "Більшість спортивних патронів мають швидкість приблизно 360–430 м/с.",
+     "explain_en": "Most clay cartridges are about 360–430 m/s."
     }
    ],
    "did_you_know_uk": "Дріб долітає до мішені на 30 м приблизно за десяту частку секунди — але за цей час мішень, що летить поперек, встигає зміститися на метр-два. Саме тому по мішенях стріляють з випередженням.",
-   "did_you_know_en": "Shot reaches a target at 30 m in roughly a tenth of a second, yet in that time a crossing target can move a metre or two. That is why shooters give a crossing target lead."
+   "did_you_know_en": "Shot reaches a target at 30 m in roughly a tenth of a second, yet in that time a crossing target can move a metre or two. That is why shooters give a crossing target lead.",
+   "sources": [
+    {
+     "title": "RC Cartridges — RC4 Champion Sporting 28 г: 406 м/с, вимір на 2,5 м від дула за правилами C.I.P.",
+     "title_en": "RC Cartridges — RC4 Champion Sporting 28 g: 406 m/s, measured 2.5 m from the muzzle under C.I.P. rules",
+     "url": "https://rc-cartridges.com/en/prodotto/rc-4-champion-sporting-fibre/"
+    },
+    {
+     "title": "Eley Hawk — випробування зброї та C.I.P.: тиски, сталеві патрони «high performance» лише для рушниць із клеймом лілії / «Steel Shot»",
+     "title_en": "Eley Hawk — Proof and C.I.P.: pressures; high performance steel only in guns marked with the fleur-de-lis / 'Steel Shot'",
+     "url": "https://www.eleyhawkltd.com/insight/proof-and-cip"
+    },
+    {
+     "title": "Gamebore White Gold 28 г: № 7½ = 2,4 мм, № 8 = 2,3 мм, швидкість до 422 м/с",
+     "title_en": "Gamebore White Gold 28 g: No. 7½ = 2.4 mm, No. 8 = 2.3 mm, velocity up to 422 m/s",
+     "url": "https://gamebore.com/cartridge/clay/12g-white-gold"
+    }
+   ]
   },
   {
    "id": "cartridges-lead-and-steel",
@@ -840,9 +903,40 @@ window.LEARN.push({
      "title": "Приклад стенду: Dornsberg Shooting Ground — правила щодо м’якозалізного (сталевого) дробу",
      "title_en": "Ground example: Dornsberg Shooting Ground — soft-iron (steel) shot rules",
      "url": "https://www.dornsberg-schuetzen.de/weicheisenmunition/"
+    },
+    {
+     "title": "Королівське хімічне товариство (RSC) — свинець: густина близько 11,3 г/см³",
+     "title_en": "Royal Society of Chemistry — lead: density about 11.3 g/cm³",
+     "url": "https://www.rsc.org/periodic-table/element/82/lead"
+    },
+    {
+     "title": "Королівське хімічне товариство (RSC) — залізо: густина близько 7,87 г/см³",
+     "title_en": "Royal Society of Chemistry — iron: density about 7.87 g/cm³",
+     "url": "https://www.rsc.org/periodic-table/element/26/iron"
     }
    ],
-   "law_table": "de"
+   "law_tables": [
+    {
+     "code": "de",
+     "part": "states"
+    },
+    {
+     "code": "fr",
+     "part": "lead"
+    },
+    {
+     "code": "it",
+     "part": "lead"
+    },
+    {
+     "code": "es",
+     "part": "lead"
+    },
+    {
+     "code": "cz",
+     "part": "lead"
+    }
+   ]
   },
   {
    "id": "cartridges-choosing-and-storage",
@@ -857,7 +951,7 @@ window.LEARN.push({
     "Для тренувань чудово підходять 24 г: дешевше, м’якше, менше втоми. Головне — стабільність: стріляйте патронами однієї марки й моделі, щоб відчувати однакову віддачу й осип. Перед змаганням потренуйтеся саме тими патронами, якими стрілятимете.",
     "Перед поїздкою запитайте організатора, які патрони дозволено на стенді: часто вимагають фіброві пижі, а іноді — лише сталевий дріб з обмеженням розміру. Найпростіше рішення в турі — купити патрони на місці, у клубі. І візьміть із запасом: правила вимагають, щоб ви прийшли на стрілецьке місце з достатньою кількістю патронів на всю серію.",
     "Зберігайте патрони в сухому прохолодному місці, подалі від тепла, сонця й відкритого вогню, в оригінальних коробках, під замком і недоступно для дітей. У багатьох країнах закон вимагає зберігати патрони окремо від рушниці й обмежує їхню кількість удома — перевірте правила своєї країни.",
-    "Автомобілем патрони везуть в оригінальних коробках, у багатьох країнах — окремо від рушниці. Літаком — лише зареєстрованим багажем, в оригінальній упаковці, з дозволу авіакомпанії. Міжнародні правила дозволяють до 5 кг брутто на людину, але багато авіакомпаній мають менший ліміт або не беруть патронів узагалі. Ніколи не кладіть патрони в ручну поклажу чи в кишені."
+    "Автомобілем патрони везуть в оригінальних коробках, у багатьох країнах — окремо від рушниці. Літаком — лише зареєстрованим багажем, у надійній упаковці (зазвичай в оригінальних коробках) і з дозволу авіакомпанії. Правила IATA дозволяють до 5 кг брутто на людину для власного використання, і ліміти кількох пасажирів не можна об’єднувати в одну упаковку, але багато авіакомпаній мають менший ліміт або не беруть патронів узагалі. Ніколи не кладіть патрони в ручну поклажу чи в кишені."
    ],
    "body_en": [
     "For Sporting™ the most common choice is 28 g with No. 7½ or No. 8 shot: such a cartridge handles both close and far targets. Some shooters also keep No. 9 cartridges in the vest for close targets.",
@@ -865,21 +959,21 @@ window.LEARN.push({
     "For practice 24 g is ideal: cheaper, softer, less tiring. The key is consistency: shoot cartridges of one brand and model so the recoil and pattern feel the same. Before a competition, practise with exactly the cartridges you will compete with.",
     "Before a trip, ask the organiser which cartridges are allowed at the ground: fibre wads are often required, and sometimes only steel shot with a size limit. On a tour the simplest solution is to buy cartridges on site, at the club. And bring plenty: the rules require you to come to the stand with enough cartridges for the whole round.",
     "Store cartridges in a dry, cool place away from heat, sun and open flame, in their original boxes, locked up and out of reach of children. In many countries the law requires cartridges to be stored separately from the gun and limits how many you may keep at home; check your own country's rules.",
-    "By car, cartridges travel in their original boxes, in many countries separately from the gun. By plane, only in checked baggage, in original packaging, with the airline's approval. International rules allow up to 5 kg gross per person, but many airlines have a lower limit or do not accept ammunition at all. Never put cartridges in hand luggage or in your pockets."
+    "By car, cartridges travel in their original boxes, in many countries separately from the gun. By plane, only in checked baggage, securely packed (usually in the original boxes) and with the airline's approval. The IATA rules allow up to 5 kg gross per person for your own use, and several passengers' allowances may not be combined in one package, but many airlines have a lower limit or do not accept ammunition at all. Never put cartridges in hand luggage or in your pockets."
    ],
    "key_points_uk": [
     "Sporting™: найчастіше 28 г № 7½ або № 8; Compak® Sporting: 24–28 г № 8 або № 7½",
     "Тренування: 24 г і одна марка патронів",
     "Заздалегідь з’ясуйте правила стенду: фіброві пижі, сталь, розмір дробу",
     "Зберігайте сухо, прохолодно, під замком, недоступно для дітей",
-    "Літак: до 5 кг брутто за міжнародними правилами, але авіакомпанії можуть мати суворіші"
+    "Літак: до 5 кг брутто за правилами IATA, але авіакомпанії можуть мати суворіші"
    ],
    "key_points_en": [
     "Sporting™: most often 28 g No. 7½ or No. 8; Compak® Sporting: 24–28 g No. 8 or No. 7½",
     "Practice: 24 g and one brand of cartridge",
     "Check the ground's rules in advance: fibre wads, steel, shot size",
     "Store dry, cool, locked up, out of reach of children",
-    "Flying: up to 5 kg gross under international rules, but airlines may be stricter"
+    "Flying: up to 5 kg gross under the IATA rules, but airlines may be stricter"
    ],
    "terms": [
     "cartridge",
@@ -983,7 +1077,19 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "У турі часто найпростіше купити патрони в клубі на місці: вони точно відповідають правилам стенду, і їх не треба везти літаком.",
-   "did_you_know_en": "On a tour it is often simplest to buy cartridges at the club on site: they are sure to meet the ground's rules, and you do not have to fly with them."
+   "did_you_know_en": "On a tour it is often simplest to buy cartridges at the club on site: they are sure to meet the ground's rules, and you do not have to fly with them.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    },
+    {
+     "title": "IATA: Правила перевезення небезпечних вантажів, таблиця 2.3.A — боєприпаси (1.4S) лише в зареєстрованому багажі, до 5 кг брутто на особу, з дозволу перевізника",
+     "title_en": "IATA Dangerous Goods Regulations, Table 2.3.A — ammunition (1.4S) in checked baggage only, up to 5 kg gross per person, with operator approval",
+     "url": "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/dgr-65-en-2.3.a.pdf"
+    }
+   ]
   }
  ]
 });

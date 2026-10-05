@@ -192,6 +192,11 @@ window.LEARN.push({
      "title": "Німеччина: Німецький мисливський союз (DJV) — безсвинцеві боєприпаси, правила ЄС і земель",
      "title_en": "Germany: German Hunting Association (DJV) — lead-free ammunition, EU and state rules",
      "url": "https://www.jagdverband.de/bleifreie-munition"
+    },
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
     }
    ]
   },
@@ -384,7 +389,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Селективні ежектори викидають лише стріляну гільзу. Якщо ви вистрілили з одного ствола, другий, нестріляний патрон тільки трохи висунеться, і його можна спокійно вийняти рукою.",
-   "did_you_know_en": "Selective ejectors throw out only a fired case. If you fired one barrel, the unfired cartridge in the other is only lifted a little, so you can take it out calmly by hand."
+   "did_you_know_en": "Selective ejectors throw out only a fired case. If you fired one barrel, the unfired cartridge in the other is only lifted a little, so you can take it out calmly by hand.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "gun-gauge-and-barrels",
@@ -397,7 +409,7 @@ window.LEARN.push({
     "Калібр (gauge) гладкоствольної рушниці вимірюють по-старому: число показує, скільки свинцевих куль діаметром із канал ствола важать разом один англійський фунт (близько 454 г). Звідси парадокс: що менше число, то ширший ствол. 12 калібр має канал приблизно 18,4–18,5 мм, 20 калібр — приблизно 15,6 мм.",
     "У Sporting™ і Compak® Sporting правила FITASC дозволяють калібр не більший за 12. Отже, 20 чи 28 калібр теж можна, але обмеження навіски — не більше 28 г дробу (з допуском +2 %) — однакове для всіх рушниць. Переважна більшість стрільців обирає 12 калібр: він дає повну навіску й щільний осип.",
     "20 калібр легший і часто зручніший для юніорів та стрільців невеликої статури. Під нього зазвичай беруть легші патрони, наприклад 21–24 г. Але пам’ятайте: легка рушниця сильніше «штовхає» плече, тож 20 калібр не завжди м’якший за важку рушницю 12 калібру.",
-    "Довжину патронника позначено на стволі, найчастіше 70 мм (2¾ дюйма) або 76 мм (3 дюйми, «магнум»). Спортивні патрони зазвичай 65–70 мм. Головне правило: ніколи не стріляйте патронами, довшими за позначку на патроннику, і завжди перевіряйте, що калібр патрона збігається з калібром рушниці.",
+    "Довжину патронника позначено на стволі, найчастіше 70 мм (2¾ дюйма) або 76 мм (3 дюйми, «магнум»); у багатьох сучасних спортивних рушниць патронники 76 мм. Спортивні патрони зазвичай 65–70 мм; на коробці вказано довжину стріляної, розкритої гільзи, а коротший патрон у довшому патроннику — це нормально. Головне правило: ніколи не стріляйте патронами, довшими за позначку на патроннику, і завжди перевіряйте, що калібр патрона збігається з калібром рушниці.",
     "Довжина стволів, за правилами FITASC, — щонайменше 66 см (26 дюймів). На практиці спортивні вертикалки мають 28 дюймів (71 см), 30 дюймів (76 см) або 32 дюйми (81 см). Найпоширеніші у Sporting™ — 30 і 32 дюйми.",
     "Довші стволи дають довшу лінію для ока й рівніший, стабільніший рух рушниці, але потребують трохи більше сили та часу на старті. Коротші — легші й швидші, проте їх легше «смикнути». Довжина стволів майже не впливає на силу пострілу; вона змінює передусім те, як рушниця рухається у ваших руках.",
     "Немає однієї правильної довжини: вона залежить від вашого зросту, сили й стилю. Найкраще спробувати кілька варіантів разом із тренером."
@@ -406,7 +418,7 @@ window.LEARN.push({
     "The gauge of a shotgun is measured the old way: the number tells you how many lead balls the size of the bore together weigh one English pound (about 454 g). Hence the paradox: the smaller the number, the wider the bore. A 12 gauge has a bore of about 18.4–18.5 mm, a 20 gauge about 15.6 mm.",
     "In Sporting™ and Compak® Sporting the FITASC rules allow guns no larger than 12 gauge. So a 20 or 28 gauge is fine too, but the load limit of no more than 28 g of shot (with a +2% tolerance) is the same for every gun. The great majority of shooters use 12 gauge: it handles the full load and gives a dense pattern.",
     "A 20 gauge is lighter and often suits juniors and smaller shooters. It is usually fed lighter cartridges, for example 21–24 g. But remember: a light gun kicks harder, so a 20 gauge is not always softer than a heavy 12 gauge.",
-    "The chamber length is marked on the barrel, most often 70 mm (2¾ in) or 76 mm (3 in, 'magnum'). Clay cartridges are usually 65–70 mm. The key rule: never fire cartridges longer than the chamber marking, and always check that the cartridge gauge matches the gun.",
+    "The chamber length is marked on the barrel, most often 70 mm (2¾ in) or 76 mm (3 in, 'magnum'); many modern competition guns have 76 mm chambers. Clay cartridges are usually 65–70 mm; the length on the box is that of the fired, opened case, and a shorter cartridge is fine in a longer chamber. The key rule: never fire cartridges longer than the chamber marking, and always check that the cartridge gauge matches the gun.",
     "Under the FITASC rules barrels must be at least 66 cm (26 in) long. In practice competition O/Us have 28 in (71 cm), 30 in (76 cm) or 32 in (81 cm) barrels. The most common in Sporting™ are 30 and 32 inches.",
     "Longer barrels give a longer line for the eye and a smoother, steadier swing, but need a little more strength and time to get moving. Shorter ones are lighter and quicker, but easier to jerk. Barrel length makes little difference to the power of the shot; it mainly changes how the gun moves in your hands.",
     "There is no single right length: it depends on your height, strength and style. The best way is to try several with a coach."
@@ -532,7 +544,24 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "«12 калібр» означає, що 12 свинцевих куль діаметром із канал ствола разом важать фунт. Кожна така куля важила б близько 38 г — більше ніж уся дозволена навіска дробу в патроні для Sporting™.",
-   "did_you_know_en": "'12 gauge' means that 12 lead balls the size of the bore weigh a pound together. Each ball would weigh about 38 g, more than the whole shot load allowed in a Sporting™ cartridge."
+   "did_you_know_en": "'12 gauge' means that 12 lead balls the size of the bore weigh a pound together. Each ball would weigh about 38 g, more than the whole shot load allowed in a Sporting™ cartridge.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    },
+    {
+     "title": "C.I.P. — таблиці розмірів патронів і патронників (TDCC), зокрема дробові патрони",
+     "title_en": "C.I.P. — tables of dimensions of cartridges and chambers (TDCC), including shot cartridges",
+     "url": "https://www.cip-bobp.org/en/tdcc"
+    },
+    {
+     "title": "Browning Citori 725 Sporting — характеристики: довжина приклада 14¾ дюйма, патронники 3 дюйми, стволи 28, 30, 32 дюйми",
+     "title_en": "Browning Citori 725 Sporting — specifications: length of pull 14¾ in, 3-in chambers, 28, 30 and 32-in barrels",
+     "url": "https://www.browning.com/products/firearms/shotguns/citori-725/citori-725-sporting.html"
+    }
+   ]
   },
   {
    "id": "gun-first-gun",
@@ -680,7 +709,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Добра рушниця служить десятиліттями: спортивні вертикалки відомих виробників часто розраховані на сотні тисяч пострілів за належного догляду й регулярного сервісу.",
-   "did_you_know_en": "A good gun lasts for decades: competition O/Us from well-known makers are often built for hundreds of thousands of shots with proper care and regular servicing."
+   "did_you_know_en": "A good gun lasts for decades: competition O/Us from well-known makers are often built for hundreds of thousands of shots with proper care and regular servicing.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "gun-fit",
@@ -691,7 +727,7 @@ window.LEARN.push({
    "summary_en": "Length of pull, comb height and cast: why a gun has to fit the shooter and how it is checked.",
    "body_uk": [
     "У стендовій стрільбі рушницю не прицілюють, як гвинтівку, а наводять: ви дивитеся на мішень, рушниця підходить до щоки, і постріл звучить майже одразу. Ваше око тут працює як задній приціл. Якщо приклад не пасує, око опиняється не над планкою, і дріб летить туди, куди дивиться рушниця, а не туди, куди дивитеся ви.",
-    "Довжина приклада (length of pull) — відстань від спускового гачка до середини затильника. У дорослих вона часто становить приблизно 36–38 см, але це лише орієнтир. Задовгий приклад чіпляється за одяг, коли ви вскидаєте рушницю; закороткий — і великий палець правої руки б’є по носі від віддачі.",
+    "Довжина приклада (length of pull) — відстань від спускового гачка до середини затильника. У дорослих вона часто становить приблизно 36–38 см (14¼–15 дюймів); у багатьох заводських спортивних рушниць — близько 37,5 см (14¾ дюйма), як-от у Browning Citori 725 Sporting. Але це лише орієнтир. Задовгий приклад чіпляється за одяг, коли ви вскидаєте рушницю; закороткий — і великий палець правої руки б’є по носі від віддачі.",
     "Висота гребеня (comb), або «падіння» приклада (drop), визначає, наскільки високо око над планкою. Більшість стрільців у Sporting™ і Compak® Sporting бачать трохи планки над мушкою. Високий гребінь зміщує влучання вгору, низький — униз. Тому багато спортивних рушниць мають регульований гребінь.",
     "Відведення (cast) — легкий вигин приклада вбік, щоб око опинилося точно над планкою. Для праворукого стрільця приклад відводять вправо (cast off), для ліворукого — вліво (cast on). Ідеться про кілька міліметрів, але без них рушниця може системно бити вбік.",
     "Ще важливіше — провідне око (eye dominance). Простий тест: витягніть руки, складіть пальці у віконце, подивіться крізь нього на віддалений предмет обома очима, а потім закрийте по черзі кожне око. Око, яке «бачить» предмет у віконці, — провідне. Якщо провідне око не з того боку, з якого ви стріляєте, тренер підкаже, що робити.",
@@ -700,7 +736,7 @@ window.LEARN.push({
    ],
    "body_en": [
     "In clay shooting you do not aim a shotgun like a rifle, you point it: you look at the target, the gun comes up to the cheek and the shot follows almost at once. Your eye works as the rear sight. If the stock does not fit, the eye is not over the rib, and the shot goes where the gun points, not where you are looking.",
-    "Length of pull is the distance from the trigger to the middle of the butt pad. For adults it is often about 36–38 cm, but that is only a guide. A stock that is too long catches on your clothes as you mount the gun; one that is too short lets the thumb of the trigger hand hit your nose under recoil.",
+    "Length of pull is the distance from the trigger to the middle of the butt pad. For adults it is often about 36–38 cm (14¼–15 in); many factory competition guns come at about 37.5 cm (14¾ in), for example the Browning Citori 725 Sporting. But that is only a guide. A stock that is too long catches on your clothes as you mount the gun; one that is too short lets the thumb of the trigger hand hit your nose under recoil.",
     "Comb height, or drop, decides how high the eye sits above the rib. Most Sporting™ and Compak® Sporting shooters see a little of the rib above the bead. A high comb moves the point of impact up, a low one down. That is why many competition guns have an adjustable comb.",
     "Cast is a slight sideways bend in the stock so that the eye sits exactly over the rib. For a right-handed shooter the stock is bent to the right (cast off), for a left-hander to the left (cast on). It is a matter of a few millimetres, but without it a gun may shoot consistently to one side.",
     "Even more important is your dominant eye. A simple test: stretch out your arms, make a small window with your hands, look through it at a distant object with both eyes, then close each eye in turn. The eye that still 'sees' the object in the window is dominant. If it is not on the side you shoot from, your coach will tell you what to do.",
@@ -842,7 +878,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "«Пробна» рушниця (try gun) має приклад на шарнірах і повзунах, тож підгонщик може змінювати довжину, висоту й відведення просто на стенді, між пострілами.",
-   "did_you_know_en": "A try gun has a stock on hinges and sliders, so a fitter can change its length, height and cast right on the ground, between shots."
+   "did_you_know_en": "A try gun has a stock on hinges and sliders, so a fitter can change its length, height and cast right on the ground, between shots.",
+   "sources": [
+    {
+     "title": "Browning Citori 725 Sporting — характеристики: довжина приклада 14¾ дюйма, патронники 3 дюйми, стволи 28, 30, 32 дюйми",
+     "title_en": "Browning Citori 725 Sporting — specifications: length of pull 14¾ in, 3-in chambers, 28, 30 and 32-in barrels",
+     "url": "https://www.browning.com/products/firearms/shotguns/citori-725/citori-725-sporting.html"
+    }
+   ]
   },
   {
    "id": "gun-care",
@@ -994,7 +1037,7 @@ window.LEARN.push({
     "Поза стендом діють закони країни. Майже скрізь для рушниці потрібен дозвіл або ліцензія, а правила перевезення й зберігання різняться навіть між сусідніми країнами. Перед кожною поїздкою перевіряйте вимоги країни призначення і країн транзиту, і зробіть це заздалегідь, за кілька тижнів.",
     "Європейський вогнепальний паспорт (European Firearms Pass, EFP) видає країна ЄС, де ви проживаєте, людям, які законно володіють зброєю. У паспорті перелічено ваші рушниці. Він діє до п’яти років. Спортсмен-стрілець із EFP і підтвердженням мети поїздки (наприклад, запрошенням на змагання) зазвичай може перевезти свою рушницю до іншої країни ЄС без окремого дозволу, але деякі країни мають винятки, про які зазначають у паспорті.",
     "Якщо ви живете поза ЄС, EFP вам не видадуть. Тоді зазвичай потрібен тимчасовий дозвіл на ввезення від країни призначення; його оформлюють заздалегідь, часто з допомогою організатора змагання чи туру. Ще один варіант — узяти рушницю напрокат на місці.",
-    "Літаком рушниця летить лише зареєстрованим багажем, розряджена, розібрана, у жорсткому кейсі (hard case) із замками. Авіакомпанію треба попередити заздалегідь, бо вона може відмовити або взяти окрему плату. Патрони перевозять в оригінальних коробках і в межах ліміту; міжнародні правила дозволяють до 5 кг брутто на людину, але багато авіакомпаній мають суворіші правила або не беруть патронів зовсім.",
+    "Літаком рушниця летить лише зареєстрованим багажем, розряджена, розібрана, у жорсткому кейсі (hard case) із замками. Авіакомпанію треба попередити заздалегідь, бо вона може відмовити або взяти окрему плату. Патрони перевозять у надійній упаковці (зазвичай в оригінальних коробках), лише в зареєстрованому багажі й у межах ліміту: правила IATA дозволяють до 5 кг брутто на людину, але багато авіакомпаній мають суворіші правила або не беруть патронів зовсім.",
     "Автомобілем рушницю везуть розрядженою, у кейсі, бажано не на видноті, а в багатьох країнах — окремо від патронів. Не залишайте рушницю в машині без нагляду.",
     "Документи тримайте разом і під рукою: дозвіл або ліцензію, EFP чи тимчасовий дозвіл, запрошення на змагання, квитанції авіакомпанії. На кордоні та в аеропорту відповідайте спокійно й точно."
    ],
@@ -1003,7 +1046,7 @@ window.LEARN.push({
     "Away from the ground, the law of the country applies. Almost everywhere you need a licence or permit for a shotgun, and the rules for transport and storage differ even between neighbouring countries. Before every trip check the requirements of the destination and of any transit countries, and do it early, several weeks in advance.",
     "The European Firearms Pass (EFP) is issued by the EU country where you live to people who lawfully own firearms. It lists your guns and is valid for up to five years. A sport shooter with an EFP and proof of the reason for the trip (for example an invitation to a competition) can usually take their gun to another EU country without a separate permit, but some countries have exceptions, which are noted in the pass.",
     "If you live outside the EU, you cannot get an EFP. You will usually need a temporary import permit from the destination country, arranged in advance, often with help from the competition or tour organiser. Another option is to hire a gun on site.",
-    "By plane, a gun travels only as checked baggage, unloaded, taken apart, in a locked hard case. Tell the airline in advance: it may refuse or charge a fee. Cartridges travel in their original boxes and within a limit; international rules allow up to 5 kg gross per person, but many airlines are stricter or do not accept ammunition at all.",
+    "By plane, a gun travels only as checked baggage, unloaded, taken apart, in a locked hard case. Tell the airline in advance: it may refuse or charge a fee. Cartridges travel securely packed (usually in their original boxes), only in checked baggage and within a limit: the IATA rules allow up to 5 kg gross per person, but many airlines are stricter or do not accept ammunition at all.",
     "By car, the gun travels unloaded, in a case, preferably out of sight, and in many countries separately from the cartridges. Do not leave a gun in a car unattended.",
     "Keep your documents together and at hand: licence or permit, EFP or temporary permit, the competition invitation, airline confirmations. At the border and at the airport answer calmly and precisely."
    ],
@@ -1126,12 +1169,29 @@ window.LEARN.push({
       }
      ],
      "answer": 0,
-     "explain_uk": "Міжнародні правила допускають до 5 кг брутто на людину в оригінальній упаковці, але авіакомпанії можуть мати суворіші правила.",
-     "explain_en": "International rules allow up to 5 kg gross per person in original packaging, but airlines may be stricter."
+     "explain_uk": "Правила IATA допускають до 5 кг брутто на людину в надійній упаковці й лише з дозволу авіакомпанії, а самі авіакомпанії можуть мати суворіші правила.",
+     "explain_en": "The IATA rules allow up to 5 kg gross per person, securely packed and only with the airline's approval, and airlines may be stricter."
     }
    ],
    "did_you_know_uk": "EFP діє не лише в країнах ЄС, а й у кількох асоційованих країнах Шенгенської зони, наприклад у Швейцарії та Норвегії. Однак правила ввезення зброї там свої, тож перевіряйте їх окремо.",
-   "did_you_know_en": "The EFP is used not only in EU countries but also in several associated Schengen countries, such as Switzerland and Norway. Their rules for bringing in guns are their own, though, so check them separately."
+   "did_you_know_en": "The EFP is used not only in EU countries but also in several associated Schengen countries, such as Switzerland and Norway. Their rules for bringing in guns are their own, though, so check them separately.",
+   "sources": [
+    {
+     "title": "ЄС: Директива (ЄС) 2021/555 про контроль за придбанням і зберіганням зброї — Європейський вогнепальний паспорт, до 5 років (EUR-Lex)",
+     "title_en": "EU: Directive (EU) 2021/555 on control of the acquisition and possession of weapons — European firearms pass, up to 5 years (EUR-Lex)",
+     "url": "https://eur-lex.europa.eu/eli/dir/2021/555/oj/eng"
+    },
+    {
+     "title": "IATA: Правила перевезення небезпечних вантажів, таблиця 2.3.A — боєприпаси (1.4S) лише в зареєстрованому багажі, до 5 кг брутто на особу, з дозволу перевізника",
+     "title_en": "IATA Dangerous Goods Regulations, Table 2.3.A — ammunition (1.4S) in checked baggage only, up to 5 kg gross per person, with operator approval",
+     "url": "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/dgr-65-en-2.3.a.pdf"
+    },
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   }
  ]
 });

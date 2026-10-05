@@ -272,7 +272,25 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Європейський вогнепальний паспорт з’явився завдяки директиві ЄС про зброю 1991 року.",
-   "did_you_know_en": "The European Firearms Pass came about through the EU firearms directive of 1991."
+   "did_you_know_en": "The European Firearms Pass came about through the EU firearms directive of 1991.",
+   "law_tables": [
+    {
+     "code": "fr",
+     "part": "travel"
+    },
+    {
+     "code": "it",
+     "part": "travel"
+    },
+    {
+     "code": "es",
+     "part": "travel"
+    },
+    {
+     "code": "cz",
+     "part": "travel"
+    }
+   ]
   },
   {
    "id": "travel-gun-outside-eu",
@@ -396,6 +414,24 @@ window.LEARN.push({
      "answer": 2,
      "explain_uk": "Везти зброю без дозволів не можна; оренда на стенді — законний вихід.",
      "explain_en": "Taking a gun without permits is not allowed; hiring one at the ground is the lawful option."
+    }
+   ],
+   "law_tables": [
+    {
+     "code": "fr",
+     "part": "travel"
+    },
+    {
+     "code": "it",
+     "part": "travel"
+    },
+    {
+     "code": "es",
+     "part": "travel"
+    },
+    {
+     "code": "cz",
+     "part": "travel"
     }
    ]
   },

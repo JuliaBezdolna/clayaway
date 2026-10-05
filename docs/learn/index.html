@@ -123,6 +123,11 @@ footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 <script src="../rules/data/sporting.js"></script>
 <script src="../rules/data/compak.js"></script>
 <script src="data/laws-de.js"></script>
+<script src="data/laws-fr.js"></script>
+<script src="data/laws-it.js"></script>
+<script src="data/laws-es.js"></script>
+<script src="data/laws-cz.js"></script>
+<script src="data/law-tables.js"></script>
 <script src="data/intro.js"></script>
 <script src="data/safety.js"></script>
 <script src="data/gun.js"></script>
@@ -212,7 +217,7 @@ function lessonView(m,l){
    ${tx(l,"did_you_know")?`<div class="dyk"><b>${t("dyk")}</b> ${esc(tx(l,"did_you_know"))}</div>`:""}
    ${(l.terms||[]).length?`<h2>${t("terms")}</h2><div class="chips">${l.terms.map(id=>termChip(l,id)).join("")}</div>${pop?`<div class="pop"><b>${esc(pop.term)}</b> — ${esc(pop["short_"+L()]||pop.short_en)}</div>`:""}`:""}
    ${refs.length?`<h2>${t("rules")}</h2><div class="chips">${refs.map(it=>`<a href="../rules/${it.book}/#${it.id}">${esc(it.ref)}</a>`).join("")}</div>`:""}
-   ${l.law_table?lawTable(l.law_table):""}
+   ${l.law_tables?`<h2>${L()==="uk"?"Закони країн":"Country laws"}</h2>`+lawTablesHtml(l.law_tables,L(),esc,'target="_blank" rel="nofollow noopener noreferrer"'):""}
    ${(l.sources||[]).length?`<h2>${L()==="uk"?"Джерела і закони":"Sources and laws"}</h2><ul class="src-list">${l.sources.map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="nofollow noopener noreferrer">${esc(L()==="uk"?x.title:(x.title_en||x.title))} ↗</a></li>`).join("")}</ul><p class="small muted">${L()==="uk"?"Інформація станом на дату уроку, не є юридичною консультацією. Закони змінюються — перевіряйте актуальну редакцію.":"Information as of the lesson date, not legal advice. Laws change — check the current version."}</p>`:""}
    ${quiz?`<h2>${t("check")}</h2>${quiz}`:""}
    <div class="nav">${P.done[l.id]!=null?`<span class="badge on">✓ ${t("done")}</span>`:"<span></span>"}${next?`<button class="btn primary" data-les="${next.id}">${t("next")} →</button>`:""}</div></article>`;

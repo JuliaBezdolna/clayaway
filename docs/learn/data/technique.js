@@ -139,7 +139,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Стрілецьке місце у Sporting і на Compak — лише 1 м завширшки, тому зайві кроки неможливі: усе робить поворот корпусу.",
-   "did_you_know_en": "A shooting stand in Sporting and on a Compak is only 1 m across, so there is no room for extra steps: the body turn does the work."
+   "did_you_know_en": "A shooting stand in Sporting and on a Compak is only 1 m across, so there is no room for extra steps: the body turn does the work.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "technique-gun-mount",
@@ -289,7 +296,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Лінію на жилеті в Sporting наносять контрастним кольором, щоб суддя здалеку бачив, чи приклад нижче неї.",
-   "did_you_know_en": "The Sporting vest line is drawn in a contrasting colour so that the referee can see from a distance whether the stock is below it."
+   "did_you_know_en": "The Sporting vest line is drawn in a contrasting colour so that the referee can see from a distance whether the stock is below it.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "technique-master-eye",
@@ -549,7 +563,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Якщо дивитися надто близько до машинки, мішень здається смугою: око ще не встигло «схопити» її. Тому pick-up point трохи далі від машинки.",
-   "did_you_know_en": "If you look too close to the trap, the target looks like a streak because the eye has not yet locked on. That is why the pick-up point is a little away from the trap."
+   "did_you_know_en": "If you look too close to the trap, the target looks like a streak because the eye has not yet locked on. That is why the pick-up point is a little away from the trap.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   },
   {
    "id": "technique-lead-methods",
@@ -977,7 +998,14 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Зазвичай мішень кличуть словом «pull» або «ready» — саме ці слова згадують правила Sporting. Головне — вимовляти команду щоразу однаково, особливо коли мішені випускає sonopull на голос.",
-   "did_you_know_en": "Shooters usually call “pull” or “ready”, the words the Sporting rules mention. What matters is saying the call the same way every time, especially when a sonopull releases the targets by voice."
+   "did_you_know_en": "Shooters usually call “pull” or “ready”, the words the Sporting rules mention. What matters is saying the call the same way every time, especially when a sonopull releases the targets by voice.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    }
+   ]
   }
  ]
 });

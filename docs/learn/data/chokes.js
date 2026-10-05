@@ -147,8 +147,20 @@ window.LEARN.push({
      "explain_en": "A wide pattern thins out at long range, and the target can slip between the pellets."
     }
    ],
-   "did_you_know_uk": "Звуження чоків дуже мале: навіть «повний» чок звужує ствол 12 калібру лише приблизно на 1 мм — менше за товщину кредитної картки.",
-   "did_you_know_en": "Choke constrictions are tiny: even a 'full' choke narrows a 12-gauge barrel by only about 1 mm, less than the thickness of a credit card."
+   "did_you_know_uk": "Звуження чоків дуже мале: навіть «повний» чок зменшує діаметр каналу ствола 12 калібру лише приблизно на 1 мм, тобто приблизно на 0,5 мм з кожного боку, — менше за товщину банківської картки (0,76 мм).",
+   "did_you_know_en": "Choke constrictions are tiny: even a 'full' choke narrows the bore of a 12-gauge barrel by only about 1 mm in diameter, that is about 0.5 mm on each side, less than the thickness of a bank card (0.76 mm).",
+   "sources": [
+    {
+     "title": "Briley — як працюють чоки: таблиця звужень для 12 калібру (у дюймах)",
+     "title_en": "Briley — Understanding Chokes: 12-gauge constriction chart (inches)",
+     "url": "https://www.briley.com/c-456-understanding-chokes.aspx"
+    },
+    {
+     "title": "Trulock Chokes — звуження чоків і відсоток дробу в колі 30 дюймів на 40 ярдах (свинець)",
+     "title_en": "Trulock Chokes — choke constrictions and lead pattern percentages in a 30-inch circle at 40 yards",
+     "url": "https://trulockchokes.com/basic_choke_information.html"
+    }
+   ]
   },
   {
    "id": "chokes-fixed-and-multichoke",
@@ -312,7 +324,19 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Деякі стрільці у Sporting™ узагалі не міняють чоків протягом змагання й покладаються на одну пару, наприклад 1/4 і 1/2. Так вони менше думають про спорядження й більше — про мішені.",
-   "did_you_know_en": "Some Sporting™ shooters never change chokes during a competition and rely on one pair, for example 1/4 and 1/2. That way they think less about equipment and more about the targets."
+   "did_you_know_en": "Some Sporting™ shooters never change chokes during a competition and rely on one pair, for example 1/4 and 1/2. That way they think less about equipment and more about the targets.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    },
+    {
+     "title": "Beretta — як розпізнати чок: зірочки, насічки, літерні коди",
+     "title_en": "Beretta — choke tube identification: stars, notches and alpha codes",
+     "url": "https://estore.beretta.com/en-gb/utility/choke-tubes-identification"
+    }
+   ]
   },
   {
    "id": "chokes-names-and-marks",
@@ -327,7 +351,7 @@ window.LEARN.push({
     "Light modified (LM) — приблизно 0,35–0,4 мм (близько 15 thou), іноді позначають 3/8. Modified (M) — приблизно 0,5 мм (близько 20 thou), «1/2», пів чока. Improved modified (IM) — приблизно 0,65–0,75 мм (25–30 thou), «3/4».",
     "Full (повний чок) — приблизно 0,9–1 мм (35–40 thou), «1/1» або просто «Full». Існують і ще щільніші чоки (extra full), але для стендової стрільби вони потрібні рідко.",
     "Дроби 1/4, 1/2, 3/4 і 1/1 — це європейська звичка називати чок часткою від повного. Вони зручні в розмові, але це не точні міліметри: «1/2» одного виробника може трохи відрізнятися від «1/2» іншого.",
-    "Італійські виробники, зокрема Beretta, позначають чоки зірочками: ***** — cylinder, **** — improved cylinder (1/4), *** — modified (1/2), ** — improved modified (3/4), * — full. Запам’ятайте: що більше зірочок, то відкритіший чок. Інші виробники вирізають на краю чока насічки, наносять кольорові смужки або пишуть назву (IC, M, LM).",
+    "Італійські виробники, зокрема Beretta, позначають чоки зірочками: ***** — cylinder, **** — improved cylinder (1/4), *** — modified (1/2), ** — improved modified (3/4), * — full; чоки skeet зірочок не мають. Запам’ятайте: що більше зірочок, то відкритіший чок. Інші виробники вирізають на краю чока насічки, наносять кольорові смужки або пишуть назву (IC, M, LM).",
     "Найнадійніше — прочитати напис на самому чоку або в інструкції до рушниці. Якщо сумніваєтеся, зброяр виміряє звуження спеціальним калібром за хвилину."
    ],
    "body_en": [
@@ -336,7 +360,7 @@ window.LEARN.push({
     "Light modified (LM): about 0.35–0.4 mm (around 15 thou), sometimes marked 3/8. Modified (M): about 0.5 mm (around 20 thou), '1/2', half choke. Improved modified (IM): about 0.65–0.75 mm (25–30 thou), '3/4'.",
     "Full: about 0.9–1 mm (35–40 thou), '1/1' or simply 'Full'. There are even tighter chokes (extra full), but clay shooting rarely needs them.",
     "The fractions 1/4, 1/2, 3/4 and 1/1 are a European habit of naming a choke as a share of full. They are handy in conversation but are not exact millimetres: one maker's '1/2' may differ slightly from another's.",
-    "Italian makers, Beretta in particular, mark chokes with stars: ***** cylinder, **** improved cylinder (1/4), *** modified (1/2), ** improved modified (3/4), * full. Remember: the more stars, the more open the choke. Other makers cut notches on the rim of the tube, use coloured bands or print the name (IC, M, LM).",
+    "Italian makers, Beretta in particular, mark chokes with stars: ***** cylinder, **** improved cylinder (1/4), *** modified (1/2), ** improved modified (3/4), * full; skeet chokes carry no stars. Remember: the more stars, the more open the choke. Other makers cut notches on the rim of the tube, use coloured bands or print the name (IC, M, LM).",
     "The most reliable source is the marking on the choke itself or the gun's manual. If in doubt, a gunsmith can measure the constriction with a gauge in a minute."
    ],
    "key_points_uk": [
@@ -488,7 +512,29 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Сучасні спортивні стволи часто мають трохи розширений канал (overbore). Тому той самий чок з однаковою назвою в різних рушницях може давати трохи різне звуження: важить різниця між каналом і чоком, а не лише діаметр чока.",
-   "did_you_know_en": "Modern competition barrels are often slightly overbored. So the same choke with the same name can give slightly different constriction in different guns: what counts is the difference between bore and choke, not just the choke's diameter."
+   "did_you_know_en": "Modern competition barrels are often slightly overbored. So the same choke with the same name can give slightly different constriction in different guns: what counts is the difference between bore and choke, not just the choke's diameter.",
+   "sources": [
+    {
+     "title": "Briley — як працюють чоки: таблиця звужень для 12 калібру (у дюймах)",
+     "title_en": "Briley — Understanding Chokes: 12-gauge constriction chart (inches)",
+     "url": "https://www.briley.com/c-456-understanding-chokes.aspx"
+    },
+    {
+     "title": "Trulock Chokes — звуження чоків і відсоток дробу в колі 30 дюймів на 40 ярдах (свинець)",
+     "title_en": "Trulock Chokes — choke constrictions and lead pattern percentages in a 30-inch circle at 40 yards",
+     "url": "https://trulockchokes.com/basic_choke_information.html"
+    },
+    {
+     "title": "Teague Chokes — FAQ: назви звужень і чоки для сталевого дробу (стандартна сталь — до 1/2, high performance — до 1/4)",
+     "title_en": "Teague Chokes — FAQ: constriction names and chokes for steel shot (standard steel up to 1/2, high performance up to 1/4)",
+     "url": "https://www.teaguechokes.com/faq"
+    },
+    {
+     "title": "Beretta — як розпізнати чок: зірочки, насічки, літерні коди",
+     "title_en": "Beretta — choke tube identification: stars, notches and alpha codes",
+     "url": "https://estore.beretta.com/en-gb/utility/choke-tubes-identification"
+    }
+   ]
   },
   {
    "id": "chokes-choosing-for-distance",
@@ -636,7 +682,24 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Чимало найкращих стрільців світу у Sporting™ користуються досить відкритими чоками й розбивають навіть далекі мішені завдяки точному наведенню, а не щільному осипу.",
-   "did_you_know_en": "Many of the world's best Sporting™ shooters use fairly open chokes and break even far targets thanks to precise pointing rather than a tight pattern."
+   "did_you_know_en": "Many of the world's best Sporting™ shooters use fairly open chokes and break even far targets thanks to precise pointing rather than a tight pattern.",
+   "sources": [
+    {
+     "title": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting",
+     "title_en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+     "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    },
+    {
+     "title": "Briley — як працюють чоки: таблиця звужень для 12 калібру (у дюймах)",
+     "title_en": "Briley — Understanding Chokes: 12-gauge constriction chart (inches)",
+     "url": "https://www.briley.com/c-456-understanding-chokes.aspx"
+    },
+    {
+     "title": "Trulock Chokes — звуження чоків і відсоток дробу в колі 30 дюймів на 40 ярдах (свинець)",
+     "title_en": "Trulock Chokes — choke constrictions and lead pattern percentages in a 30-inch circle at 40 yards",
+     "url": "https://trulockchokes.com/basic_choke_information.html"
+    }
+   ]
   },
   {
    "id": "chokes-steel-shot",
@@ -648,17 +711,17 @@ window.LEARN.push({
    "body_uk": [
     "Деякі стенди, особливо біля води чи в природоохоронних зонах, дозволяють лише безсвинцевий дріб — найчастіше сталевий (steel shot) або з м’якого заліза (soft iron). Детальніше про сам дріб ідеться в модулі «Патрони і дріб». Тут — що він означає для чоків.",
     "Свинцева дробина м’яка: проходячи крізь чок, вона трохи деформується. Сталева — тверда й не стискається. Через це той самий чок зі сталевим дробом дає помітно щільніший осип, ніж зі свинцевим. Тому зі сталлю часто ставлять чок на одну позицію відкритіший: замість 1/2 — 1/4.",
-    "Тверда сталь сильніше тисне на чок. Багато виробників рекомендують зі сталевим дробом чоки не щільніші за modified (1/2), а деякі допускають і improved modified (3/4) для стандартних патронів з дрібним дробом. Повний чок (full) зі сталлю здебільшого не радять. Точна межа залежить від рушниці, тож читайте інструкцію виробника.",
+    "Тверда сталь сильніше тисне на чок. Багато виробників і дистриб’юторів (наприклад, Teague і GMK, дистриб’ютор Beretta у Великій Британії) радять зі стандартними сталевими патронами чоки не щільніші за modified (1/2), а для сталевих патронів «high performance» деякі рекомендують щонайбільше 1/4. Повний чок (full) зі сталлю здебільшого не радять. Окремі сучасні рушниці й чоки допущені до щільніших звужень, але точна межа залежить від рушниці, тож читайте інструкцію виробника.",
     "Чоки, придатні для сталі, часто мають напис «Steel» або «Steel OK», а деякі — позначку «Lead only» (лише свинець). Якщо на чоку нічого не написано й інструкції немає, запитайте зброяра.",
-    "Окремо — про старі рушниці. Тонкостінні стволи, особливо з вточеним повним чоком, можуть пошкодитися від сталевого дробу: з’являється здуття кільцем біля дула. Для потужних «high performance» сталевих патронів потрібна рушниця, перевірена на сталь, — така має спеціальне клеймо випробувальної станції у вигляді лілії. Стандартні спортивні сталеві патрони з дрібним дробом зазвичай безпечні в сучасних рушницях, але перевіряйте документацію.",
+    "Окремо — про старі рушниці. Тонкостінні стволи, особливо з вточеним повним чоком, можуть пошкодитися від сталевого дробу: з’являється здуття кільцем біля дула. За правилами C.I.P. сталеві патрони бувають двох класів. Стандартні (standard steel: дробини до 3,25 мм, нижчі тиск і швидкість) можна стріляти з рушниці в доброму стані зі звичайним нітроклеймом; у Великій Британії виробники зазначають клейма від 1954 року. Потужні «high performance» — лише з рушниці, що пройшла посилене випробування на сталевий дріб: на її стволах стоїть клеймо випробувальної станції у вигляді лілії, часто з написом «Steel Shot». Спортивні сталеві патрони майже завжди стандартні, але перевіряйте коробку й документацію рушниці.",
     "Порада: якщо їдете на стенд, де вимагають сталь, з’ясуйте заздалегідь, які патрони дозволено, і візьміть чоки, придатні для сталі. А перед змаганням постріляйте цими патронами на тренуванні, щоб побачити, як змінився осип."
    ],
    "body_en": [
     "Some grounds, especially near water or in protected areas, allow only lead-free shot, most often steel or soft iron. The shot itself is covered in the Cartridges and shot module. Here we look at what it means for chokes.",
     "A lead pellet is soft: as it passes through the choke, it deforms slightly. A steel pellet is hard and does not squeeze. As a result the same choke gives a noticeably tighter pattern with steel than with lead. So with steel people often fit a choke one step more open: 1/4 instead of 1/2.",
-    "Hard steel puts more stress on the choke. Many makers recommend chokes no tighter than modified (1/2) with steel, and some allow improved modified (3/4) with standard small-shot loads. Full choke with steel is mostly not advised. The exact limit depends on the gun, so read the maker's manual.",
+    "Hard steel puts more stress on the choke. Many makers and distributors (Teague and GMK, Beretta's UK distributor, for example) advise chokes no tighter than modified (1/2) with standard steel loads, and for high performance steel some recommend 1/4 at most. Full choke with steel is mostly not advised. A few modern guns and chokes are approved for tighter constrictions, but the exact limit depends on the gun, so read the maker's manual.",
     "Steel-safe chokes are often marked 'Steel' or 'Steel OK', and some carry 'Lead only'. If a choke has no marking and you have no manual, ask a gunsmith.",
-    "A word about older guns. Thin-walled barrels, especially with a fixed full choke, can be damaged by steel shot: a ring bulge appears near the muzzle. Powerful 'high performance' steel loads need a gun proofed for steel, which carries a special proof-house mark in the shape of a fleur-de-lis. Standard small-shot steel clay loads are usually safe in modern guns, but check the documentation.",
+    "A word about older guns. Thin-walled barrels, especially with a fixed full choke, can be damaged by steel shot: a ring bulge appears near the muzzle. Under the C.I.P. rules steel cartridges come in two classes. Standard steel (pellets up to 3.25 mm, lower pressure and velocity) may be fired in a gun in good condition with ordinary nitro proof; in Great Britain makers specify proof marks from 1954 onwards. Powerful 'high performance' steel may be fired only in a gun that has passed the stronger steel-shot proof: its barrels carry a proof-house mark in the shape of a fleur-de-lis, often with the words 'Steel Shot'. Steel clay loads are almost always standard steel, but check the box and your gun's documentation.",
     "Tip: if you are going to a ground that requires steel, find out in advance which cartridges are allowed and bring steel-safe chokes. And before the competition, shoot those cartridges in practice to see how your pattern changes."
    ],
    "key_points_uk": [
@@ -773,7 +836,49 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Сталь приблизно на третину легша за свинець за однакового об’єму, тому сталева дробина того самого розміру швидше втрачає швидкість. Через це зі сталлю часто беруть трохи більший дріб, якщо правила стенду дозволяють.",
-   "did_you_know_en": "Steel is about a third lighter than lead for the same volume, so a steel pellet of the same size loses speed sooner. That is why steel users often choose slightly larger shot, if the ground's rules allow."
+   "did_you_know_en": "Steel is about a third lighter than lead for the same volume, so a steel pellet of the same size loses speed sooner. That is why steel users often choose slightly larger shot, if the ground's rules allow.",
+   "sources": [
+    {
+     "title": "C.I.P. — чинні клейма випробування зброї, зокрема клеймо випробування на сталевий дріб",
+     "title_en": "C.I.P. — proof marks in force, including the steel shot proof mark",
+     "url": "https://www.cip-bobp.org/en/proof-marks-in-force"
+    },
+    {
+     "title": "Eley Hawk — випробування зброї та C.I.P.: тиски, сталеві патрони «high performance» лише для рушниць із клеймом лілії / «Steel Shot»",
+     "title_en": "Eley Hawk — Proof and C.I.P.: pressures; high performance steel only in guns marked with the fleur-de-lis / 'Steel Shot'",
+     "url": "https://www.eleyhawkltd.com/insight/proof-and-cip"
+    },
+    {
+     "title": "GMK (дистриб’ютор Beretta у Великій Британії) — поради щодо сталевого дробу: випробування 930 і 1320 бар, лілія, чоки до 1/2",
+     "title_en": "GMK (Beretta's UK distributor) — advice on steel shot: 930 vs 1,320 bar proof, fleur-de-lis, chokes up to 1/2",
+     "url": "https://www.gmk.co.uk/news/gmk-advice-on-steel-shot"
+    },
+    {
+     "title": "Teague Chokes — FAQ: назви звужень і чоки для сталевого дробу (стандартна сталь — до 1/2, high performance — до 1/4)",
+     "title_en": "Teague Chokes — FAQ: constriction names and chokes for steel shot (standard steel up to 1/2, high performance up to 1/4)",
+     "url": "https://www.teaguechokes.com/faq"
+    },
+    {
+     "title": "William Powell — сталевий дріб і альтернативи свинцю: стандартна сталь (дробини до 3,25 мм) і «high performance»",
+     "title_en": "William Powell — Steel shot and the alternatives to lead: standard steel (pellets up to 3.25 mm) vs high performance",
+     "url": "https://www.williampowellsporting.co.uk/wp-content/uploads/2021/07/Steel-Shot-Lead-Alternatives-Document-Low.pdf"
+    },
+    {
+     "title": "Gamebore Velocity Steel Target — стандартний сталевий спортивний патрон для рушниць із нітроклеймом від 1954 року",
+     "title_en": "Gamebore Velocity Steel Target — standard steel clay load for guns with nitro proof from 1954 onwards",
+     "url": "https://gamebore.com/cartridge/clay/12g-velocity-steel-competition"
+    },
+    {
+     "title": "Королівське хімічне товариство (RSC) — свинець: густина близько 11,3 г/см³",
+     "title_en": "Royal Society of Chemistry — lead: density about 11.3 g/cm³",
+     "url": "https://www.rsc.org/periodic-table/element/82/lead"
+    },
+    {
+     "title": "Королівське хімічне товариство (RSC) — залізо: густина близько 7,87 г/см³",
+     "title_en": "Royal Society of Chemistry — iron: density about 7.87 g/cm³",
+     "url": "https://www.rsc.org/periodic-table/element/26/iron"
+    }
+   ]
   },
   {
    "id": "chokes-pattern-testing-and-care",
@@ -917,7 +1022,19 @@ window.LEARN.push({
     }
    ],
    "did_you_know_uk": "Плиту для осипу після кожного пострілу знову фарбують або змащують — валиком чи щіткою, — щоб наступні сліди не змішалися з попередніми.",
-   "did_you_know_en": "After each shot the pattern plate is painted or greased again, with a roller or brush, so that the next marks do not mix with the previous ones."
+   "did_you_know_en": "After each shot the pattern plate is painted or greased again, with a roller or brush, so that the next marks do not mix with the previous ones.",
+   "sources": [
+    {
+     "title": "Trulock Chokes — звуження чоків і відсоток дробу в колі 30 дюймів на 40 ярдах (свинець)",
+     "title_en": "Trulock Chokes — choke constrictions and lead pattern percentages in a 30-inch circle at 40 yards",
+     "url": "https://trulockchokes.com/basic_choke_information.html"
+    },
+    {
+     "title": "Briley — як працюють чоки: таблиця звужень для 12 калібру (у дюймах)",
+     "title_en": "Briley — Understanding Chokes: 12-gauge constriction chart (inches)",
+     "url": "https://www.briley.com/c-456-understanding-chokes.aspx"
+    }
+   ]
   }
  ]
 });
