@@ -236,6 +236,15 @@ td:first-child{font-weight:500}
 .btn{text-align:center;border:1px solid var(--line);border-radius:8px;padding:9px;font-size:14px;font-weight:600}
 .btn.primary{background:var(--clay);border-color:var(--clay);color:#fff}
 .muted{color:var(--muted)}
+.langs{margin-left:auto;display:flex;gap:2px;font-size:12px}
+.langs span{padding:2px 7px;border-radius:4px;color:var(--muted);border:1px solid var(--line)}
+.langs span.on{background:var(--field);border-color:var(--field);color:var(--surface);font-weight:600}
+.mock-bar .langs + .who{margin-left:12px}
+.seats{display:flex;align-items:center;flex-wrap:wrap;gap:4px}
+.seats span{width:12px;height:12px;border-radius:50%;border:2px solid var(--clay);background:transparent}
+.seats span.t{background:var(--line);border-color:var(--line)}
+.seats b{margin-left:6px;color:var(--clay);font-size:14px}
+.seats small{margin-left:8px;color:var(--muted);font-size:12.5px}
 footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
 a{color:var(--field)}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
@@ -327,54 +336,71 @@ html{scroll-behavior:smooth}
   <p>Страницу каждого тура организатор наполняет сам: описание, фото, видео, цены и всё остальное. Там же, прямо на странице, любой посетитель задаёт вопрос организатору и выбирает, как получить ответ: <b>публично</b> (ответ видят все) или <b>лично</b> (личное сообщение).</p>
 
   <div class="mock" role="img" aria-label="Макет публичной страницы тура Dornsberg Training Days с блоком вопросов">
-    <div class="mock-bar"><span class="clay-dot" aria-hidden="true"></span><b>clayarena.com/en/tours/…-dornsberg-training-days/</b></div>
+    <div class="mock-bar"><span class="clay-dot" aria-hidden="true"></span><b>clayarena.com/en/tours/…-dornsberg-training-days/</b><span class="langs"><span class="on">EN</span><span>DE</span><span>ES</span></span></div>
     <div class="tp">
       <div class="tp-gallery">
-        <div class="ph big"><span>Обложка: линия C на Dornsberg</span></div>
-        <div class="ph"><span>Фото: Compak</span></div>
-        <div class="ph"><span>▶ Видео от Markus Leibinger</span></div>
-        <div class="ph"><span>Фото: отель у озера</span></div>
-        <div class="ph"><span>+ 14 фото</span></div>
+        <div class="ph big"><span>Cover: Line C at Dornsberg</span></div>
+        <div class="ph"><span>Photo: Compak layout</span></div>
+        <div class="ph"><span>▶ Video from Markus Leibinger</span></div>
+        <div class="ph"><span>Photo: lakeside hotel</span></div>
+        <div class="ph"><span>+ 14 photos</span></div>
       </div>
       <div class="tp-grid">
         <div class="tp-main">
           <div class="eyebrow">ClayAway · Germany · Sporting, Compak</div>
           <b class="tp-title">Dornsberg Training Days with Markus Leibinger</b>
           <div class="facts"><span><b>5</b> days</span><span><b>6</b> shooters</span><span><b>~150</b> targets/day</span><span>Focus: <b>Training</b></span><span>EN · ES · DE</span></div>
+          <div class="seats inline"><span class="t"></span><span class="t"></span><span class="t"></span><span class="t"></span><span class="t"></span><span></span><b>Only 1 place left</b><small>booking closes Oct 14</small></div>
           <p class="tp-desc">Five days on one of Germany's most demanding FITASC layouts above Lake Constance. Markus Leibinger works with each shooter on lines A–E and the Compak layouts; Lena Weigele interprets every session into English and Spanish…</p>
-          <div class="tp-blocks"><span>Описание</span><span>Программа по дням</span><span>Тренер</span><span>Организатор</span><span>Стенд</span><span>Отель</span><span>Что входит</span><span>Цены</span><span>Условия отмены</span><span>FAQ</span><span>Вопросы · 7</span><span>Отзывы</span></div>
+          <div class="tp-blocks"><span>About</span><span>Day-by-day program</span><span>Coach</span><span>Organizer</span><span>Shooting ground</span><span>Hotel</span><span>What's included</span><span>Prices</span><span>Cancellation</span><span>FAQ</span><span>Questions · 7</span><span>Reviews</span></div>
           <div class="qa">
-            <div class="qa-h"><b>Вопросы о туре</b><span>7 публичных ответов</span></div>
+            <div class="qa-h"><b>Questions about this tour</b><span>7 public answers</span></div>
             <div class="qa-ask">
-              <div class="qa-input">Задайте вопрос организатору…</div>
-              <div class="seg"><span class="on">Публично</span><span>Лично</span></div>
+              <div class="qa-input">Ask the organizer a question…</div>
+              <div class="seg"><span class="on">Public</span><span>Private</span></div>
             </div>
             <div class="qa-item">
-              <div class="q"><b>Pablo · ES</b><span>Можно ли купить стальные патроны на месте или везти свои?</span></div>
-              <div class="a"><b>Lena Weigele <span class="pill ok">организатор</span></b><span>На стенде есть Profi-Shop со стальными патронами до 28 г. Если выберете опцию «патроны в пакете», 750 патронов будут ждать вас на стенде.</span></div>
+              <div class="q"><b>Pablo · ES</b><span>Can I buy steel cartridges at the ground, or should I bring my own?</span></div>
+              <div class="a"><b>Lena Weigele <span class="pill ok">Organizer</span></b><span>The ground has a pro shop with steel loads up to 28 g. Choose the “Cartridges included” option and 750 cartridges will be waiting for you at the ground.</span></div>
             </div>
             <div class="qa-item">
-              <div class="q"><b>Emma · UK</b><span>Подойдёт ли тур, если я стреляю всего два сезона?</span></div>
-              <div class="a"><b>Markus Leibinger <span class="pill ok">тренер</span></b><span>Да. Группа до 6 человек, нагрузку и площадки я подбираю под каждого. <i>(перевод: Lena)</i></span></div>
+              <div class="q"><b>Emma · UK</b><span>Is this tour right for me if I have only been shooting for two seasons?</span></div>
+              <div class="a"><b>Markus Leibinger <span class="pill ok">Coach</span></b><span>Yes. The group is six shooters at most, and I set the pace and the stands for each person. <i>(translated by Lena)</i></span></div>
             </div>
           </div>
         </div>
         <aside class="tp-buy">
-          <small>от</small><b>€1 950</b><span>за стрелка</span>
+          <small>from</small><b>€1,950</b><span>per shooter</span>
           <ul>
-            <li><span>Одноместный номер</span><span>+ €280</span></li>
-            <li><span>Патроны в пакете (750)</span><span>+ €310</span></li>
-            <li><span>Сопровождающий</span><span>€890</span></li>
+            <li><span>Single room</span><span>+ €280</span></li>
+            <li><span>Cartridges included (750)</span><span>+ €310</span></li>
+            <li><span>Non-shooting guest</span><span>€890</span></li>
           </ul>
-          <div class="places">1 место из 6</div>
-          <div class="btn primary">Забронировать</div>
-          <div class="btn">Написать организатору лично</div>
-          <small class="muted">Оплата через ClayArena. Депозит 30%.</small>
+          <div class="seats" aria-label="1 of 6 places left"><span class="t"></span><span class="t"></span><span class="t"></span><span class="t"></span><span class="t"></span><span></span><b>1 of 6 places left</b></div>
+          <div class="btn primary">Book a place</div>
+          <div class="btn">Message the organizer</div>
+          <small class="muted">Secure payment via ClayArena. 30% deposit.</small>
         </aside>
       </div>
     </div>
   </div>
-  <p class="ex-note">Макет. Тексты вопросов, цены и опции условные.</p>
+  <p class="ex-note">Макет на английском; на сайте страница будет на каждом языке, включённом в туре (здесь EN · DE · ES). Тексты вопросов, цены и опции условные.</p>
+
+  <h3>Оставшиеся места</h3>
+  <p>Количество свободных мест видно всегда и везде, где показывается тур:</p>
+  <ul>
+    <li><b>каталог</b> — на карточке тура («3 places left»);</li>
+    <li><b>страница тура</b> — в шапке рядом с названием и в блоке бронирования: шкала из точек (занято / свободно) и надпись;</li>
+    <li><b>профили</b> тренера, организатора и стенда — в блоке их туров;</li>
+    <li><b>кабинет организатора</b> — места, брони, депозиты и лист ожидания.</li>
+  </ul>
+  <ul>
+    <li>Число обновляется сразу после оплаты или отмены брони.</li>
+    <li>Когда мест осталось 2 и меньше, надпись выделяется цветом: «Only 1 place left».</li>
+    <li>Во время оплаты место держится за стрелком 15 минут, чтобы два человека не купили последнее место одновременно.</li>
+    <li>Мест нет — «Fully booked» и кнопка «Join the waitlist» вместо «Book a place»; виден размер листа ожидания.</li>
+    <li>Если минимум для старта ещё не набран, рядом показывается «2 more shooters needed to confirm this tour».</li>
+  </ul>
 
   <h3>Что организатор добавляет в тур</h3>
   <div class="tbl"><table>
@@ -382,7 +408,7 @@ html{scroll-behavior:smooth}
     <tbody>
       <tr><td>Обложка и галерея</td><td>фото стенда, площадок, отеля, прошлых туров; порядок перетаскиванием, подписи</td><td>загружает организатор</td></tr>
       <tr><td>Видео</td><td>загрузка или ссылка; видео тренера; видео стрелков с ClayArena</td><td>организатор, профили ClayArena</td></tr>
-      <tr><td>Описание</td><td>форматированный текст; язык по умолчанию английский, можно добавить переводы</td><td>организатор</td></tr>
+      <tr><td>Описание</td><td>форматированный текст на каждом языке тура</td><td>организатор, переводчик</td></tr>
       <tr><td>Программа</td><td>дни и пункты из редактора программы; публично только обзор</td><td>редактор программы</td></tr>
       <tr><td>Тренер, организатор, переводчик</td><td>карточки с фото, языками, дисциплинами, результатами</td><td>автоматически из профилей</td></tr>
       <tr><td>Стенд</td><td>карточка, карта, площадки, правила (дни работы, патроны)</td><td>автоматически из профиля стенда</td></tr>
@@ -395,6 +421,16 @@ html{scroll-behavior:smooth}
       <tr><td>Отзывы</td><td>отзывы участников прошлых туров этого организатора и тренера</td><td>после тура</td></tr>
     </tbody>
   </table></div>
+
+  <h3>Языки тура</h3>
+  <ul>
+    <li>Организатор включает языки тура (например, EN · DE · ES). Английский обязателен; страница тура, программа, FAQ и письма выходят на каждом включённом языке.</li>
+    <li>Каждый текстовый блок (описание, программа, что входит, условия, FAQ, подписи к фото) хранится отдельно на каждом языке. Можно взять черновик машинного перевода и вычитать; вычитывает организатор или переводчик тура.</li>
+    <li>Пока перевод не готов, на этом языке показывается английский текст с пометкой. Опубликовать язык можно, только когда переведены обязательные блоки.</li>
+    <li>Посетитель видит тур на языке сайта, если он включён в туре, иначе на английском; переключатель языков тура — в шапке страницы.</li>
+    <li>Вопросы и чаты пишутся на любом языке; под сообщением кнопка «Перевести». Ответ организатора можно опубликовать сразу в нескольких языковых версиях.</li>
+    <li>URL: <code>/en/tours/{id}-{slug}/</code>, <code>/de/tours/…</code>, <code>/es/tours/…</code> с <code>hreflang</code> между версиями.</li>
+  </ul>
 
   <h3>Правила редактора</h3>
   <ul>
@@ -756,44 +792,44 @@ html{scroll-behavior:smooth}
 
   <h3>Кабинет организатора</h3>
   <div class="mock" role="img" aria-label="Макет кабинета организатора тура Dornsberg Training Days">
-    <div class="mock-bar"><span class="clay-dot" aria-hidden="true"></span><b>ClayAway · Кабинет организатора</b><span class="who">Lena Weigele</span></div>
+    <div class="mock-bar"><span class="clay-dot" aria-hidden="true"></span><b>ClayAway · Organizer dashboard</b><span class="langs"><span class="on">EN</span><span>DE</span><span>ES</span></span><span class="who">Lena Weigele</span></div>
     <div class="mock-body">
       <ul class="mock-nav">
-        <li class="on">Обзор</li><li>Программа</li><li>Брони · 5</li><li>Участники</li><li>Логистика</li><li>Документы</li><li>Вопросы · 2 новых</li><li>Группа</li><li>Команда</li><li>Финансы</li><li>Настройки</li>
+        <li class="on">Overview</li><li>Tour page</li><li>Program</li><li>Bookings · 5</li><li>Participants</li><li>Logistics</li><li>Documents</li><li>Questions · 2 new</li><li>Group</li><li>Team</li><li>Payouts</li><li>Settings</li>
       </ul>
       <div class="mock-main">
-        <div class="mock-title"><b>Dornsberg Training Days with Markus Leibinger</b><span class="pill ok">Опубликован · подтверждён</span></div>
+        <div class="mock-title"><b>Dornsberg Training Days with Markus Leibinger</b><span class="pill ok">Published · Confirmed</span></div>
         <div class="kpis">
-          <div><small>Места</small><b>5 / 6</b><span>минимум 4 набран</span></div>
-          <div><small>Оплачено</small><b>€8 775</b><span>из €9 750</span></div>
-          <div><small>К выплате</small><b>€7 898</b><span>после 10% комиссии</span></div>
-          <div><small>До старта</small><b>23 дня</b><span>дедлайн записи через 9</span></div>
+          <div><small>Places</small><b>5 / 6</b><span>minimum of 4 reached</span></div>
+          <div><small>Paid</small><b>€8,775</b><span>of €9,750</span></div>
+          <div><small>Your payout</small><b>€7,898</b><span>after 10% ClayArena fee</span></div>
+          <div><small>Starts in</small><b>23 days</b><span>booking closes in 9</span></div>
         </div>
         <div class="mock-cols">
           <div class="mock-card">
-            <h4>Требует внимания</h4>
+            <h4>Needs attention</h4>
             <ul class="todo">
-              <li><span class="pill warn">документы</span>2 участника не загрузили European Firearms Pass</li>
-              <li><span class="pill warn">оплата</span>1 бронь: остаток €975 до 15.10</li>
-              <li><span class="pill info">вопросы</span>2 новых вопроса в открытой зоне</li>
-              <li><span class="pill info">логистика</span>рейс одного участника не указан</li>
+              <li><span class="pill warn">Documents</span>2 shooters haven't uploaded their European Firearms Pass</li>
+              <li><span class="pill warn">Payment</span>1 booking: €975 balance due Oct 15</li>
+              <li><span class="pill info">Questions</span>2 new public questions</li>
+              <li><span class="pill info">Logistics</span>1 shooter hasn't added a flight</li>
             </ul>
           </div>
           <div class="mock-card">
-            <h4>Брони</h4>
+            <h4>Bookings</h4>
             <table class="mini">
-              <tr><td>J. Miller · UK</td><td><span class="pill ok">оплачено</span></td></tr>
-              <tr><td>C. Ruiz · ES</td><td><span class="pill ok">оплачено</span></td></tr>
-              <tr><td>P. Novak · CZ</td><td><span class="pill warn">депозит</span></td></tr>
-              <tr><td>A. Berg · SE</td><td><span class="pill ok">оплачено</span></td></tr>
-              <tr><td>M. López · AR</td><td><span class="pill ok">оплачено</span></td></tr>
+              <tr><td>J. Miller · UK</td><td><span class="pill ok">Paid</span></td></tr>
+              <tr><td>C. Ruiz · ES</td><td><span class="pill ok">Paid</span></td></tr>
+              <tr><td>P. Novak · CZ</td><td><span class="pill warn">Deposit</span></td></tr>
+              <tr><td>A. Berg · SE</td><td><span class="pill ok">Paid</span></td></tr>
+              <tr><td>M. López · AR</td><td><span class="pill ok">Paid</span></td></tr>
             </table>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <p class="ex-note">Имена участников в макете вымышленные.</p>
+  <p class="ex-note">Макет на английском; интерфейс кабинета переводится на языки ClayArena. Имена участников вымышленные.</p>
   <div class="tbl"><table>
     <thead><tr><th>Раздел</th><th>Что делает организатор</th></tr></thead>
     <tbody>
