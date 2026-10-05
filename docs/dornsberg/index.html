@@ -366,12 +366,11 @@ const TOURS = {
     places: 8, booked: 5, min: 6, guestsMax: 4, guests: 2,
     price: 2600, deposit: 30, currency: "€",
     options: [["single","Single room",390],["carts","Cartridges included (600)",260],["guest","Non-shooting guest",1100]],
-    langs: ["EN","FR","UA","RU"],
+    langs: ["EN","FR","UA"],
     about: {
       EN: "Train with Charles Bardou on his home ground, the Sologne Shooting Club: 27 hunting course layouts and 210 traps, where Euro Shooting Cash is shot. Mornings on the stands, afternoons for châteaux of the Loire, game cuisine and Loire wines. Anna Karpulianskaia, a Compak and Sporting shooter, interprets every session from French.",
       FR: "Entraînez-vous avec Charles Bardou sur son terrain, le Sologne Shooting Club : 27 parcours de chasse et 210 machines, là où se tire l'Euro Shooting Cash. Le matin au stand, l'après-midi châteaux de la Loire, gibier et vins de Loire. Anna Karpulianskaia, tireuse de Compak et de Sporting, traduit chaque séance.",
-      UA: "Тренування з Charles Bardou на його домашньому стенді Sologne Shooting Club: 27 мисливських площадок і 210 машинок, тут стріляють Euro Shooting Cash. Зранку стенд, після обіду замки Луари, кухня з дичини та луарські вина. Anna Karpulianskaia, спортсменка з Compak і Sporting, перекладає кожне заняття з французької.",
-      RU: "Тренировки с Charles Bardou на его домашнем стенде Sologne Shooting Club: 27 охотничьих площадок и 210 машинок, здесь стреляют Euro Shooting Cash. Утром стенд, после обеда замки Луары, кухня из дичи и луарские вина. Anna Karpulianskaia, спортсменка по Compak и Sporting, переводит каждое занятие с французского."
+      UA: "Тренування з Charles Bardou на його домашньому стенді Sologne Shooting Club: 27 мисливських площадок і 210 машинок, тут стріляють Euro Shooting Cash. Зранку стенд, після обіду замки Луари, кухня з дичини та луарські вина. Anna Karpulianskaia, спортсменка з Compak і Sporting, перекладає кожне заняття з французької."
     },
     gallery: ["Hunting course, Sologne Shooting Club","Compak layout","Video: Charles Bardou, Euro Shooting Cash","Château hotel in Sologne","Château de Chambord"],
     chips: ["About","Program","Coach","Organizer","Shooting ground","For guests","What's included","Prices","Cancellation","FAQ","Questions"],
@@ -379,22 +378,22 @@ const TOURS = {
       {role:"Coach", name:"Charles Bardou", init:"CB", url:"https://clayarena.com/en/shooters/1789724605508300304/",
        lines:["France · F.F.B.T.","101 competitions on ClayArena","Sporting average accuracy 92.1%, 52 perfect rounds","Coaching language: French"]},
       {role:"Organizer + Interpreter", name:"Anna Karpulianskaia", init:"AK", url:"https://clayarena.com/en/shooters/1763048485011/",
-       lines:["France · Ladies","Compak and Sporting shooter","Speaks French, Ukrainian, Russian","Interprets every session from French"]},
+       lines:["France · Ladies","Compak and Sporting shooter","Speaks French and Ukrainian","Interprets every session from French"]},
       {role:"Shooting ground", name:"Sologne Shooting Club", init:"SSC", url:"https://clayarena.com/en/stands/15-sologne-shooting-club/",
        lines:["Chaumont-sur-Tharonne, Domaine de Courgenou","27 hunting course layouts, 210 traps","Home ground of Charles Bardou","Hosts Euro Shooting Cash and the Grand Prix of France"]}
     ],
     groundNote: "<b>For guests:</b> two afternoons and the château visit are planned with non-shooting guests in mind. Guests see the program and the group chat, but not the coach's training notes.",
     program: [
       {d:"Mon 10 May", s:"Arrival", items:[["12:00–15:00","transfer","Paris CDG → château hotel in Sologne"],["19:30","meal","Sologne game dinner and Loire wines. Anna walks through the week"]]},
-      {d:"Tue 11 May", s:"Hunting course", items:[["09:00–12:30","training","Charles Bardou: technique review. Interpreted FR → UA / RU"],["14:00–17:00","training","Hunting course layouts"],["14:00–17:00","activity","Guests: walk on the Domaine de Courgenou"]]},
+      {d:"Tue 11 May", s:"Hunting course", items:[["09:00–12:30","training","Charles Bardou: technique review. Interpreted FR → UA"],["14:00–17:00","training","Hunting course layouts"],["14:00–17:00","activity","Guests: walk on the Domaine de Courgenou"]]},
       {d:"Wed 12 May", s:"Compak + châteaux", items:[["09:00–12:30","training","Compak Sporting"],["14:30–18:30","activity","Château de Chambord, whole group"],["20:00","meal","Loire wine tasting"]]},
       {d:"Thu 13 May", s:"Euro Cash layouts", items:[["09:00–13:00","training","Euro Shooting Cash trajectories, the hardest on the ground"],["15:00–16:00","training","Final notes from Charles for each shooter"],["20:00","meal","Farewell dinner with the coach"]]},
       {d:"Fri 14 May", s:"Departure", items:[["10:00–13:00","transfer","Hotel → Paris CDG"]]}
     ],
-    included: ["4 nights in a château hotel","All breakfasts, lunches and dinners (4 dinners incl. Loire wine tasting)","3.5 training days with Charles Bardou","About 480 targets","Interpreting French → Ukrainian / Russian","Château de Chambord visit","Airport and daily transfers"],
+    included: ["4 nights in a château hotel","All breakfasts, lunches and dinners (4 dinners incl. Loire wine tasting)","3.5 training days with Charles Bardou","About 480 targets","Interpreting French → Ukrainian","Château de Chambord visit","Airport and daily transfers"],
     excluded: ["Flights","Cartridges (option: 600, +€260)","Travel and gun insurance"],
     cancel: "More than 60 days before the start: full refund minus the 30% deposit. 60 to 30 days: 50% refund. Less than 30 days: no refund unless your place is resold. If the tour is not confirmed by 12 April, everyone gets a full refund.",
-    faq: [["Can a non-shooting partner come?","Yes, as a guest (€1,100). Guests join dinners, the château and the afternoon programme."],["Which language is the coaching in?","Charles coaches in French. Anna interprets into Ukrainian and Russian; English on request."],["Is the tour confirmed?","It needs 6 shooters to be confirmed. You pay a 30% deposit, refunded in full if the minimum is not reached."]],
+    faq: [["Can a non-shooting partner come?","Yes, as a guest (€1,100). Guests join dinners, the château and the afternoon programme."],["Which language is the coaching in?","Charles coaches in French. Anna interprets into Ukrainian; English on request."],["Is the tour confirmed?","It needs 6 shooters to be confirmed. You pay a 30% deposit, refunded in full if the minimum is not reached."]],
     qa: [
       {who:"Oksana",from:"UA",q:"Чи можна приїхати з чоловіком, який не стріляє?",tq:"Translated: Can I come with my husband, who doesn't shoot?",by:"Anna Karpulianskaia",byRole:"Organizer",a:"Так, як гість за €1,100. Він буде з нами на вечерях, у Шамбор і на післяобідній програмі.",ta:"Translated: Yes, as a guest for €1,100. He joins the dinners, Chambord and the afternoon programme."},
       {who:"Marc",from:"FR",q:"Le tour est-il ouvert aux tireurs de niveau intermédiaire ?",tq:"Translated: Is the tour open to intermediate shooters?",by:"Charles Bardou",byRole:"Coach",a:"Oui. Je travaille avec chacun selon son niveau.",ta:"Translated: Yes. I work with each shooter at their own level."}

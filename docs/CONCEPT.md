@@ -362,7 +362,7 @@ ClayArena берёт **процент с суммы, которую получа
    (https://clayarena.com/en/coaches/markus-leibinger-15/; только DE, 120 €/ч). Стенд: Dornsberg Shooting Ground
    (https://clayarena.com/en/stands/66-dornsberg-shooting-ground/; работает ср–сб, только стальная дробь ≤ 2,5 мм, ≤ 28 г).
 2. **Sologne Week with Charles Bardou** (Франция). Organizer + Interpreter: Anna Karpulianskaia
-   (https://clayarena.com/en/shooters/1763048485011/; FR / UA / RU). Coach: Charles Bardou
+   (https://clayarena.com/en/shooters/1763048485011/; FR / UA). Coach: Charles Bardou
    (https://clayarena.com/en/shooters/1789724605508300304/; только FR; профиля тренера нет). Стенд: Sologne Shooting Club
    (https://clayarena.com/en/stands/15-sologne-shooting-club/; домашний стенд тренера).
 
