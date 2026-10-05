@@ -75,6 +75,7 @@ p{margin:0 0 10px;max-width:70ch}
 .ph.video span::before{content:"▶ ";color:var(--clay)}
 @media (max-width:640px){.gallery{grid-template-columns:1fr 1fr;grid-template-rows:150px 90px 90px}.ph.big{grid-column:span 2;grid-row:auto}.ph.extra{display:none}}
 /* layout */
+.page>*{min-width:0}
 .page{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start}
 @media (max-width:900px){.page{grid-template-columns:1fr}}
 .facts{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--muted);margin-bottom:10px}
@@ -320,7 +321,7 @@ section.blk{scroll-margin-top:130px}
     <a class="logo" href="https://clayarena.com/en/" aria-label="ClayArena home"><span><b>ClayArena</b></span></a>
     <nav class="sitenav" aria-label="ClayArena sections"><span>Competitions</span><span>Recap</span><span>Calendar</span><span>Videos</span><span>Shooting Grounds</span><span>Coaches</span><span>Shooters</span><span class="on">ClayAway</span></nav>
     <span class="spacer"></span>
-    <span class="proto">Prototype · sample data</span>
+    <span class="proto">Project · sample data</span>
   </div>
 </div>
 <div class="sub">
@@ -342,6 +343,20 @@ section.blk{scroll-margin-top:130px}
 <main id="app"></main>
 
 <script>
+/* =====================================================================================================
+   ClayAway · tour page project (static demo, to be rebuilt inside ClayArena by the dev team)
+   One file = page + group space + organizer dashboard for ONE tour. Data is hard-coded below; in ClayArena
+   every constant here comes from the API (see DEVELOPERS.md §3 for the entity mapping).
+   Screens (top switcher): "page" = public tour page, "group" = closed group space (only confirmed, paid
+   bookings — must be enforced on the server), "dash" = organizer dashboard (role Organizer/Co-organizer).
+   NOTE: all names of real people link to their ClayArena profiles; dates, prices, participants and
+   messages are SAMPLE DATA. Keep the page noindex until a real tour with consent replaces it.
+   ===================================================================================================== */
+
+/* TOURS: one object per demo tour (both tours live in both files; the file picks one in `state.tour`).
+   Production mapping: Tour (+ translations per tour language), PriceOption[], ItineraryDay/Item[],
+   TourMember[] (people), public Q&A (qa), group announcements/chat (ClayArena messaging),
+   Booking/Payment (participants), organizer tasks (todo), questions inbox (inbox). */
 const TOURS = {
   t1: {
     slug: "dornsberg-training-days",
@@ -447,6 +462,12 @@ const TOURS = {
   }
 };
 
+/* MEDIA: gallery + video section + avatar photos.
+   - type "video": ClayArena CDN mp4 + poster (cdn.clayarena.com) — ClayArena's own content.
+   - type "img": photo URL (ClayArena storage, Wikimedia Commons with credits, or a ground's website — the
+     latter only for the internal demo; replace or get written permission before public launch).
+   - type "insta": tile that scrolls to an official Instagram embed in the Videos section.
+   Production: tour media table (uploaded by the organizer, moderated) + links to ClayArena videos. */
 const MEDIA = {
   t1: {
     gallery: [
@@ -479,13 +500,26 @@ const MEDIA = {
     photos: {"Anna Karpulianskaia":"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/users/1763048485011/1787592320953-xyuy2k5n-IMG_8494.webp","Sologne Shooting Club":"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1763558490086-ayhesfz2-Le_Sologne_Shooting_Club.webp"}
   }
 };
+/* GLANCE: the five "at a glance" cards — Sport, Transfer, National cuisine, Within 50 km, Hotel.
+   Each card: k (label), t (title), d (text), m (meta line), img / img2 {src, credit, page} — credits are
+   rendered at the bottom of the page ("Photo credits"); every third-party photo MUST keep its credit. */
 const GLANCE = {"t1": [{"k": "Sport", "t": "Dornsberg Shooting Ground", "d": "23 stands on lines A–E, about 200 traps and 4 Compak layouts. About 150 targets a day with Markus Leibinger. Steel shot only.", "m": "In the program every day", "img": {"src": "https://www.dornsberg-schuetzen.de/wp-content/uploads/elementor/thumbs/Herbst_20232-qxo5lovjzydy4qapzv6vdmlyi38gg3kq1ai5pjkars.jpg", "credit": "dornsberg-schuetzen.de", "page": "https://www.dornsberg-schuetzen.de/"}, "img2": {"src": "https://cdn.clayarena.com/filesclayarena/posters/1784819633732/4222/1788693824768.webp", "credit": "ClayArena", "page": "https://clayarena.com/en/videos/4222/"}}, {"k": "Transfer", "t": "Zürich airport → Radolfzell", "d": "Private minibus from Zürich airport, about 80 km and 1 h 15. Every training day: hotel → Dornsberg, 15 km and 20 minutes.", "m": "Included", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Minibus_Mercedes-Benz_Sprinter%2C_Jan_%C5%BDipek.jpg/1280px-Minibus_Mercedes-Benz_Sprinter%2C_Jan_%C5%BDipek.jpg", "credit": "ŠJů (cs:ŠJů) · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Minibus_Mercedes-Benz_Sprinter,_Jan_%C5%BDipek.jpg"}}, {"k": "National cuisine", "t": "Lake Constance and Swabian kitchen", "d": "Felchen whitefish from the lake, Käsespätzle, and Reichenau wines: Müller-Thurgau and Gutedel, tasted on the island.", "m": "3 group dinners + wine evening", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Kaesspaetzle_mit_Zwiebeln.jpg/1280px-Kaesspaetzle_mit_Zwiebeln.jpg", "credit": "Stefan-Xp · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Kaesspaetzle_mit_Zwiebeln.jpg"}, "img2": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Insel_Reichenau_Roter_Gutedel_Wein.jpg/1280px-Insel_Reichenau_Roter_Gutedel_Wein.jpg", "credit": "Christoph Wagener · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Insel_Reichenau_Roter_Gutedel_Wein.jpg"}}, {"k": "Within 50 km", "t": "Reichenau island and Konstanz", "d": "Reichenau, the UNESCO World Heritage monastic island, 20 km from the ground. Konstanz old town and harbour, 30 km.", "m": "Thursday and Friday evenings", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Gnadensee_Reichenau_Allensbach.jpg/1280px-Gnadensee_Reichenau_Allensbach.jpg", "credit": "Corradox · CC BY 4.0", "page": "https://commons.wikimedia.org/wiki/File:Gnadensee_Reichenau_Allensbach.jpg"}, "img2": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Konstanz_Bodensee_Hafen_02.jpg/1280px-Konstanz_Bodensee_Hafen_02.jpg", "credit": "SimonWaldherr · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Konstanz_Bodensee_Hafen_02.jpg"}}, {"k": "Hotel", "t": "Lakeside hotel in Radolfzell", "d": "4 nights, the whole group in one hotel on Lake Constance, 15 minutes from the ground. Breakfast every day.", "m": "Example: AquaTurm Hotel, Radolfzell", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/AquaTurm_Hotel_in_Radolfzell_%282020%29.jpg/1280px-AquaTurm_Hotel_in_Radolfzell_%282020%29.jpg", "credit": "JoachimKohler-HB · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:AquaTurm_Hotel_in_Radolfzell_(2020).jpg"}, "img2": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Radolfzell-18-Bodensee-Abendstimmung-2006-gje.jpg/1280px-Radolfzell-18-Bodensee-Abendstimmung-2006-gje.jpg", "credit": "Gerd Eichmann · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Radolfzell-18-Bodensee-Abendstimmung-2006-gje.jpg"}}], "t2": [{"k": "Sport", "t": "Sologne Shooting Club", "d": "27 hunting course layouts and 210 traps, home of Euro Shooting Cash. Hunting course and Compak with Charles Bardou, about 120 targets a day.", "m": "Mornings, 4 days", "img": {"src": "https://cdn.clayarena.com/filesclayarena/posters/1763736318855/1977/1786288302570.webp", "credit": "ClayArena", "page": "https://clayarena.com/en/videos/1977/"}}, {"k": "Transfer", "t": "Paris CDG → Sologne", "d": "Private minibus from Paris Charles de Gaulle, about 170 km and 2 h. Or train Paris → Lamotte-Beuvron in 1 h 30, then 15 minutes to the club.", "m": "Included", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Minibus_Mercedes-Benz_Sprinter%2C_Jan_%C5%BDipek.jpg/1280px-Minibus_Mercedes-Benz_Sprinter%2C_Jan_%C5%BDipek.jpg", "credit": "ŠJů (cs:ŠJů) · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Minibus_Mercedes-Benz_Sprinter,_Jan_%C5%BDipek.jpg"}}, {"k": "National cuisine", "t": "Sologne game, tarte Tatin, Loire wines", "d": "Civet de chevreuil and other Sologne game. Tarte Tatin was born in Lamotte-Beuvron, 12 km from the club. Wines of Cheverny and the Loire.", "m": "4 dinners + wine tasting", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Civet_de_chevreuil_aux_asperges_et_aux_champignons.jpg/1280px-Civet_de_chevreuil_aux_asperges_et_aux_champignons.jpg", "credit": "Flyinace2000 · CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Civet_de_chevreuil_aux_asperges_et_aux_champignons.jpg"}, "img2": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Closeup_of_tarte_tatin_%2813513714244%29.jpg/1280px-Closeup_of_tarte_tatin_%2813513714244%29.jpg", "credit": "Franck Chicot from Nantes, France · CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Closeup_of_tarte_tatin_(13513714244).jpg"}}, {"k": "Within 50 km", "t": "Château de Chambord", "d": "The largest château of the Loire, about 40 km from the club. On the way: Sologne ponds and forests.", "m": "Wednesday afternoon", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ch%C3%A2teau_de_Chambord_at_dawn.jpg/1280px-Ch%C3%A2teau_de_Chambord_at_dawn.jpg", "credit": "Clément Bardot · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chambord_at_dawn.jpg"}, "img2": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Etang_de_Montrieux-en-Sologne.jpg/1280px-Etang_de_Montrieux-en-Sologne.jpg", "credit": "Chbo91 · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Etang_de_Montrieux-en-Sologne.jpg"}}, {"k": "Hotel", "t": "Château stay in Sologne", "d": "4 nights for the group and guests in a château hotel near the club. Breakfast every day.", "m": "Illustrative photo: Château de la Ferté-Saint-Aubin, 20 km", "img": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/La_Fert%C3%A9-Saint-Aubin_ch%C3%A2teau_1.jpg/1280px-La_Fert%C3%A9-Saint-Aubin_ch%C3%A2teau_1.jpg", "credit": "Croquant · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:La_Fert%C3%A9-Saint-Aubin_ch%C3%A2teau_1.jpg"}, "img2": {"src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Chaumont-sur-Tharonne-Vue_IMG_9983.jpg/1280px-Chaumont-sur-Tharonne-Vue_IMG_9983.jpg", "credit": "Poudou99 · CC BY 3.0", "page": "https://commons.wikimedia.org/wiki/File:Chaumont-sur-Tharonne-Vue_IMG_9983.jpg"}}]};
+/* MEALPHOTOS: three food/venue photos above the meals table (same credit rules as GLANCE). */
 const MEALPHOTOS = {"t1": [{"cap": "Dornsberg restaurant: lunch every training day", "src": "https://www.dornsberg-schuetzen.de/wp-content/uploads/2024/06/A_Restaurant_2023.jpg", "credit": "dornsberg-schuetzen.de", "page": "https://www.dornsberg-schuetzen.de/"}, {"cap": "Käsespätzle", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Kaesspaetzle_mit_Zwiebeln.jpg/1280px-Kaesspaetzle_mit_Zwiebeln.jpg", "credit": "Stefan-Xp · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Kaesspaetzle_mit_Zwiebeln.jpg"}, {"cap": "Reichenau wine evening", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Insel_Reichenau_Roter_Gutedel_Wein.jpg/1280px-Insel_Reichenau_Roter_Gutedel_Wein.jpg", "credit": "Christoph Wagener · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Insel_Reichenau_Roter_Gutedel_Wein.jpg"}], "t2": [{"cap": "Sologne game: civet de chevreuil", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Civet_de_chevreuil_aux_asperges_et_aux_champignons.jpg/1280px-Civet_de_chevreuil_aux_asperges_et_aux_champignons.jpg", "credit": "Flyinace2000 · CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Civet_de_chevreuil_aux_asperges_et_aux_champignons.jpg"}, {"cap": "Tarte Tatin, born 12 km away", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Closeup_of_tarte_tatin_%2813513714244%29.jpg/1280px-Closeup_of_tarte_tatin_%2813513714244%29.jpg", "credit": "Franck Chicot from Nantes, France · CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Closeup_of_tarte_tatin_(13513714244).jpg"}, {"cap": "Loire wine tasting dinner", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Saumur_vineyards_late_Feb.jpg/1280px-Saumur_vineyards_late_Feb.jpg", "credit": "A3X · CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:Saumur_vineyards_late_Feb.jpg"}]};
+/* MEALS: breakfast / lunch / dinner per day. Each cell: {inc: included?, tog: whole group together?,
+   where: venue + time, what: dish with national character} or null (no meal that day).
+   Production: ItineraryItem(type=meal, meal_kind, included, together, venue, cuisine_note); Booking.dietary_requirements. */
 const MEALS = {"t1": {"summary": ["Breakfast 4 of 4", "Lunch 4 of 4", "Dinner 4 of 5", "All together"], "rows": [{"d": "Tue 13 Apr", "b": null, "l": null, "dn": {"inc": true, "tog": true, "where": "Hotel restaurant, Radolfzell", "what": "Welcome dinner: Felchen whitefish from the lake, Swabian Maultaschen"}}, {"d": "Wed 14 Apr", "b": {"inc": true, "tog": true, "where": "Hotel, 07:30", "what": "Sports breakfast: eggs, oats, fruit, coffee"}, "l": {"inc": true, "tog": true, "where": "Dornsberg restaurant, 12:30", "what": "Panorama terrace over the Hegau: light lunch between sessions"}, "dn": {"inc": false, "tog": false, "where": "Free evening", "what": "Lena's list: three places in Radolfzell old town"}}, {"d": "Thu 15 Apr", "b": {"inc": true, "tog": true, "where": "Hotel, 07:30", "what": "Sports breakfast"}, "l": {"inc": true, "tog": true, "where": "Dornsberg restaurant, 12:30", "what": "Käsespätzle, salad"}, "dn": {"inc": true, "tog": true, "where": "Reichenau island, 19:30", "what": "Wine estate dinner: Müller-Thurgau and Gutedel, lake fish"}}, {"d": "Fri 16 Apr", "b": {"inc": true, "tog": true, "where": "Hotel, 07:30", "what": "Sports breakfast"}, "l": {"inc": true, "tog": true, "where": "Dornsberg restaurant, 12:30", "what": "Light lunch"}, "dn": {"inc": true, "tog": true, "where": "Konstanz old town, 19:00", "what": "Group dinner in a Baden-style Gasthaus"}}, {"d": "Sat 17 Apr", "b": {"inc": true, "tog": true, "where": "Hotel, 07:00", "what": "Early breakfast before the control round"}, "l": {"inc": true, "tog": true, "where": "Dornsberg restaurant, 12:30", "what": "Farewell lunch with Markus before the transfer"}, "dn": null}], "notes": ["Breakfast is served early so you reach the ground fresh: training starts at 10:00.", "Wine and beer only after training, never before shooting.", "Water, fruit and snacks on the stands all day.", "Tell us your dietary needs when you book: vegetarian, gluten-free, allergies. Lena passes them to every restaurant."]}, "t2": {"summary": ["Breakfast 4 of 4", "Lunch 3 of 3", "Dinner 4 of 4", "All together"], "rows": [{"d": "Mon 10 May", "b": null, "l": null, "dn": {"inc": true, "tog": true, "where": "Château hotel, 19:30", "what": "Welcome dinner: terrine de gibier, civet de chevreuil, Cheverny wines"}}, {"d": "Tue 11 May", "b": {"inc": true, "tog": true, "where": "Château hotel, 07:30", "what": "Sports breakfast: eggs, viennoiseries, fruit"}, "l": {"inc": true, "tog": true, "where": "Near the club, 12:30", "what": "Bistro in Chaumont-sur-Tharonne: plat du jour"}, "dn": {"inc": true, "tog": true, "where": "Château hotel, 20:00", "what": "Selles-sur-Cher goat cheese, Loire river fish"}}, {"d": "Wed 12 May", "b": {"inc": true, "tog": true, "where": "Château hotel, 07:30", "what": "Sports breakfast"}, "l": {"inc": true, "tog": true, "where": "At the club, 12:30", "what": "Light lunch before Chambord"}, "dn": {"inc": true, "tog": true, "where": "Wine cellar, 20:00", "what": "Loire wine tasting dinner: Sancerre, Cheverny, Vouvray"}}, {"d": "Thu 13 May", "b": {"inc": true, "tog": true, "where": "Château hotel, 07:00", "what": "Early breakfast before the Euro Cash layouts"}, "l": {"inc": true, "tog": true, "where": "At the club, 13:00", "what": "Lunch with Charles Bardou"}, "dn": {"inc": true, "tog": true, "where": "Lamotte-Beuvron, 20:00", "what": "Farewell dinner where tarte Tatin was born"}}, {"d": "Fri 14 May", "b": {"inc": true, "tog": true, "where": "Château hotel, 08:00", "what": "Breakfast before departure"}, "l": null, "dn": null}], "notes": ["Breakfast is early so training starts on time at 09:00.", "Wine tastings are in the evening only, after shooting.", "Water and snacks at the club all day.", "Guests join every breakfast and dinner, and lunch on request.", "Tell us your dietary needs when you book; Anna passes them on in French."]}};
+/* Number formatting for prices (en-US: 1,950). In production format by the viewer's locale and tour currency. */
 const fmt = n => n.toLocaleString("en-US");
+/* UI state (client only): selected tour/screen/language, chosen price options, the 15-minute place hold,
+   flash message and locally added questions. In production the hold and questions are server-side. */
 let state = {tour:"t1", view:"page", lang:"EN", opts:{}, held:null, flash:"", extraQ:{t1:[],t2:[]}, mode:"public"};
 let timer = null;
 
+/* Remaining places: dots (taken / held / free) + label ("3 of 8 places left", "Only 1 place left",
+   "Fully booked") + confirmation line ("N more shooters needed" until min is reached).
+   Production: places = max_participants − confirmed bookings − active holds, pushed live after each payment/cancel. */
 function seatsHTML(t, extraHeld){
   const taken = t.booked + (extraHeld?1:0);
   const left = t.places - taken;
@@ -495,6 +529,9 @@ function seatsHTML(t, extraHeld){
   const need = t.booked < t.min ? `<small>${t.min - t.booked} more shooter${t.min-t.booked>1?'s':''} needed to confirm</small>` : `<small>Tour confirmed · booking closes ${t.closes}</small>`;
   return `<div class="seats" aria-label="${label}">${dots}<b class="${left>2?'ok':''}">${label}</b>${need}</div>`;
 }
+/* Day-by-day program. mode "public": exact times are replaced by Morning/Afternoon/Evening and
+   team-only items are hidden (visibility levels from the spec); mode "group": full times + team items +
+   "now" highlight. Production: the server filters items by the viewer's role before sending them. */
 function programHTML(t, mode){
   return `<div class="days">${t.program.map((d,di)=>`<div class="day"><div><b>${d.d}</b><small>${d.s}</small></div><ul>${
     d.items.filter(it=> mode==="public" ? it[1]!=="team" : true).map((it,ii)=>{
@@ -504,6 +541,9 @@ function programHTML(t, mode){
       return `<li class="${it[1]==='team'?'team':''} ${isNow?'now':''}"><time>${time}</time><span><span class="tag ${it[1]}">${label}</span>${it[2]}</span></li>`;
     }).join("")}</ul></div>`).join("")}</div>`;
 }
+/* PUBLIC TOUR PAGE: gallery → title, facts, places, languages → section tabs → About → At a glance →
+   Meals → Who runs it → Program → Videos → Included → Cancellation → FAQ → Questions (public/private) +
+   sticky booking box (options, total, deposit, 15-min hold, waitlist when full). */
 function pageView(t){
   const extra = state.extraQ[state.tour];
   const optTotal = t.options.reduce((s,o)=> s + (state.opts[o[0]]?o[2]:0),0);
@@ -593,6 +633,9 @@ function pageView(t){
     </aside>
   </div>`;
 }
+/* CLOSED GROUP SPACE (only confirmed paid bookings + tour team): "Now & next", full program,
+   announcements (organizer/coach only), group chat with "Translated" lines, my documents, participants.
+   Production: built on ClayArena messaging; access checked on the server for every request. */
 function groupView(t){
   return `
   <div class="ghead"><div><div class="eyebrow">ClayAway · Group space · ${t.dates}</div><h1>${t.title}</h1></div><span class="lock">Only for confirmed bookings</span></div>
@@ -610,6 +653,9 @@ function groupView(t){
     </div>
   </div>`;
 }
+/* ORGANIZER DASHBOARD: KPIs (places, paid, ClayArena fee, payout, booking deadline), needs attention,
+   bookings, questions inbox (public + private), team, tour page status. Fee here is a sample 10%;
+   in production the % comes from admin settings (global / per organizer / per tour). */
 function dashView(t){
   const paid = t.participants.reduce((s,p)=>s+p[4],0);
   const fee = Math.round(paid*0.10);
@@ -635,6 +681,8 @@ function dashView(t){
   </div>`;
 }
 
+/* Section tabs under the title: [label, element id]. Coach/Organizer/Shooting ground point to the
+   person cards (#person-0..2), Prices to the booking box (#buy). Keep in the same order as the page. */
 function navItems(t){
   const items=[["About","about"],["At a glance","glance"],["Meals","meals"],["Coach","person-0"],["Organizer","person-1"],["Shooting ground","person-2"]];
   if(t.chips.includes("For guests")) items.push(["For guests","guests"]);
@@ -668,6 +716,8 @@ document.addEventListener("click",e=>{
   setActiveTab(a.dataset.jump);
   el.classList.remove("flashme"); void el.offsetWidth; el.classList.add("flashme");
 });
+/* Re-renders the whole screen from `state` (simple and fine for a demo; in ClayArena use the site's
+   front-end framework and components). Keeps the question draft and re-inits the tab observer. */
 function render(){
   const t = TOURS[state.tour];
   if(!t.langs.includes(state.lang)) state.lang = "EN";
@@ -676,7 +726,7 @@ function render(){
   const app = document.getElementById("app");
   const q = document.getElementById("qtext"); const draft = q ? q.value : "";
   app.innerHTML = (state.view==="page"?pageView(t):state.view==="group"?groupView(t):dashView(t))
-    + (state.view==="page"?`<div class="credits"><b>Photo credits.</b> ${(()=>{const seen=new Set();return GLANCE[state.tour].flatMap(c=>[[c.t,c.img],c.img2?[c.t,c.img2]:null]).concat(MEALPHOTOS[state.tour].map(p=>[p.cap,p])).filter(Boolean).filter(([t,i])=>!seen.has(i.src)&&seen.add(i.src)).map(([t,i])=>`<a href="${i.page}">${t}</a> — ${i.credit}`).join(" · ")})()}. Photos from Wikimedia Commons are used under their licences; photos from the grounds\u2019 websites are shown for this internal prototype only.</div>`:"") + `<footer>Prototype for the ClayAway concept. Coach, organizer and ground data come from their ClayArena profiles; dates, prices, participants and messages are sample data.</footer>`;
+    + (state.view==="page"?`<div class="credits"><b>Photo credits.</b> ${(()=>{const seen=new Set();return GLANCE[state.tour].flatMap(c=>[[c.t,c.img],c.img2?[c.t,c.img2]:null]).concat(MEALPHOTOS[state.tour].map(p=>[p.cap,p])).filter(Boolean).filter(([t,i])=>!seen.has(i.src)&&seen.add(i.src)).map(([t,i])=>`<a href="${i.page}">${t}</a> — ${i.credit}`).join(" · ")})()}. Photos from Wikimedia Commons are used under their licences; photos from the grounds\u2019 websites are shown for this internal project demo only.</div>`:"") + `<footer>ClayAway project (to be integrated into ClayArena). Coach, organizer and ground data come from their ClayArena profiles; dates, prices, participants and messages are sample data.</footer>`;
   const q2 = document.getElementById("qtext"); if(q2 && draft) q2.value = draft;
   if(state.view==="page") initTabs();
 }
@@ -688,7 +738,7 @@ document.addEventListener("click", e=>{
   else if(b.dataset.mode){ state.mode=b.dataset.mode; render(); }
   else if(b.dataset.act==="book"){ state.held={tour:state.tour, until:Date.now()+15*60*1000}; clearInterval(timer); timer=setInterval(()=>{ if(!state.held||Date.now()>state.held.until){state.held=null;clearInterval(timer);} if(state.view==="page") render(); },1000); render(); }
   else if(b.dataset.act==="release"){ state.held=null; clearInterval(timer); render(); }
-  else if(b.dataset.act==="pay"){ state.flash=""; b.textContent="Payment step is not part of this prototype"; b.disabled=true; }
+  else if(b.dataset.act==="pay"){ state.flash=""; b.textContent="Payment step is not part of this project demo"; b.disabled=true; }
   else if(b.dataset.act==="private"){ state.mode="private"; render(); document.getElementById("qa").scrollIntoView(); document.getElementById("qtext").focus(); }
 });
 document.addEventListener("change", e=>{ if(e.target.dataset.opt){ state.opts[e.target.dataset.opt]=e.target.checked; render(); } });
