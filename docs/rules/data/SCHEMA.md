@@ -25,7 +25,7 @@ window.RULES.push({
           title_en: "...", title_uk: "...",
           summary_en: "...", summary_uk: "...",   // OUR OWN plain-language explanation, 2-6 sentences. Keep exact numbers.
           points_en: ["..."], points_uk: ["..."], // 2-6 short key points (numbers, limits, who decides, penalties)
-          terms: ["gun-position", "referee"],      // English term ids (ClayAway Academy glossary style, kebab-case)
+          terms: ["gun-position", "referee"],      // English term ids (glossary ids, English, kebab-case)
           keywords: ["low gun", "vest", "marker", "mount", "ready position"], // EN + UA words people would type
           quick_guide: false                        // true if the referees' quick guide covers this
         }

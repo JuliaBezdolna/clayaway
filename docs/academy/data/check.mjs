@@ -13,5 +13,4 @@ console.log("total unique terms", Object.keys(ids).length);
 console.log("DUPLICATES", dups);
 console.log("MISSING", Object.fromEntries(Object.entries(missing).map(([k,v])=>[k,[...v].join(",")])));
 const all = JSON.stringify(M);
-console.log("ru letters", (all.match(/[ыэъё]/gi)||[]).length, "flags", (all.match(/Росі|Росси|Russia|русизм|русськ|російськ/gi)||[]));
-console.log("ID LIST", Object.keys(ids).join(" "));
+console.log("ru letters", (all.match(/[ыэъё]/gi)||[]).length, "Росі/Russia", (all.match(/Росі|Росси|Russia|русизм|русськ|російськ/gi)||[]));

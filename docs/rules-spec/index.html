@@ -82,7 +82,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
     <li><a href="#answers">Як працюють відповіді</a></li>
     <li><a href="#ai">ШІ-відповіді (етап 2)</a></li>
     <li><a href="#updates">Оновлення правил</a></li>
-    <li><a href="#glossary">Академія і глосарій</a></li>
+    <li><a href="#glossary">Глосарій</a></li>
     <li><a href="#integration">Інтеграція в ClayArena</a></li>
     <li><a href="#roles">Ролі та адмінка</a></li>
     <li><a href="#quality">Якість і перевірка</a></li>
@@ -93,12 +93,11 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 </nav>
 <main>
   <div class="eyebrow">ClayArena · ClayAway · технічне завдання</div>
-  <h1>Довідник правил FITASC, Академія і глосарій</h1>
-  <p class="lede">Три пов'язані інструменти для спортсменів, організаторів і перекладачів: правила Sporting і Compak Sporting простими словами з відповідями на питання, навчальна Академія термінів і єдиний глосарій ClayArena.</p>
+  <h1>Довідник правил FITASC і глосарій</h1>
+  <p class="lede">Два пов'язані інструменти для спортсменів, організаторів і перекладачів: правила Sporting і Compak Sporting простими словами з відповідями на питання і єдиний глосарій термінів ClayArena.</p>
   <div class="meta"><span>Версія від 05.10.2026</span><span>Статус: прототип для обговорення</span><span>Мова інтерфейсу: UA / EN, терміни англійською</span></div>
   <div class="links">
     <a href="../rules/"><b>Довідник правил</b><span>Sporting і Compak Sporting, пошук і FAQ</span></a>
-    <a href="../academy/"><b>Академія Віки</b><span>5 місій, 394 терміни, квізи</span></a>
     <a href="../concept/"><b>ТЗ ClayAway (тури)</b><span>основний сервіс турів</span></a>
   </div>
 
@@ -106,7 +105,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
   <h2>Мета</h2>
   <ul>
     <li><b>Спортсмен</b> за хвилину знаходить відповідь на питання про правила (положення рушниці, no bird, відмови машинки, протест, перестрілка) і бачить, на якій статті й сторінці офіційного регламенту вона ґрунтується.</li>
-    <li><b>Організатор і перекладач</b> туру ClayAway вивчає терміни й правила, щоб правильно пояснювати і перекладати на стенді.</li>
+    <li><b>Організатор і перекладач</b> туру ClayAway швидко перевіряє правило чи термін, щоб правильно пояснювати і перекладати на стенді.</li>
     <li><b>ClayArena</b> отримує єдину базу термінів і правил, яку використовують усі розділи: змагання, стенди, тури, відео, рекапи.</li>
   </ul>
 </section>
@@ -117,7 +116,6 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
     <thead><tr><th>Модуль</th><th>Для кого</th><th>Що робить</th></tr></thead>
     <tbody>
       <tr><td>Довідник правил</td><td>спортсмени, судді-початківці, організатори</td><td>правила Sporting і Compak Sporting за розділами, нашим переказом; поле «Запитайте»; FAQ; посилання на сторінку PDF FITASC</td></tr>
-      <tr><td>Академія</td><td>організатори турів, перекладачі, новачки</td><td>сюжетні місії, картки термінів, квізи, вправа «Переклади тренера», рівні та XP</td></tr>
       <tr><td>Глосарій</td><td>усі сервіси ClayArena</td><td>єдиний словник термінів (англійський термін + пояснення UA/EN), експорт у JSON, основа для підказок на всьому сайті</td></tr>
       <tr><td>Перевірка оновлень</td><td>команда ClayArena</td><td>щотижня перевіряє сайт FITASC; якщо вийшла нова редакція — створює задачу в репозиторії</td></tr>
     </tbody>
@@ -172,7 +170,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
  └─ faq[]         q_en/uk, a_en/uk, refs[] (id пунктів)</div>
   <ul>
     <li><code>items.page</code> — сторінка PDF; посилання <code>url#page=N</code> відкриває саме її.</li>
-    <li><code>items.terms</code> зв'язує правило з терміном Академії/глосарію (наприклад <code>gun-position</code>, <code>no-bird</code>).</li>
+    <li><code>items.terms</code> зв'язує правило з терміном глосарію (наприклад <code>gun-position</code>, <code>no-bird</code>).</li>
     <li><code>faq.refs</code> — відповідь завжди посилається на пункти правил.</li>
     <li>У продукті ClayArena ці файли стають таблицями: <code>rule_books</code>, <code>rule_sections</code>, <code>rule_items</code>, <code>rule_faq</code>, <code>glossary_terms</code>, з полем <code>edition</code> для версій.</li>
   </ul>
@@ -218,13 +216,13 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 </section>
 
 <section id="glossary">
-  <h2>Академія і глосарій</h2>
+  <h2>Глосарій</h2>
   <ul>
-    <li><b>Академія Віки</b> — 5 місій (Sporting, Compak, рушниці й набої, техніка й мова тренера, організатор і стенд), 394 унікальні терміни, сюжет, квізи, вправи перекладу. Дані: <code>docs/academy/data/*.js</code>.</li>
-    <li><b>Глосарій</b> генерується з Академії: <code>docs/academy/glossary.json</code> (скрипт <code>docs/academy/data/export.mjs</code>). У кожного терміна: англійська назва, синоніми, пояснення UA/EN, як кажуть українською, фраза тренера з перекладом, порада перекладачу, пов'язані терміни.</li>
-    <li><b>Позначка «⚑ перевірити»</b> (136 термінів) — цифри й правила, які треба звірити з регламентом. Тепер це робиться автоматично: пункти довідника правил стають джерелом істини, і термін посилається на пункт правил.</li>
-    <li><b>Дублікати</b> (15 термінів у двох модулях) зливаються в один запис перед запуском глосарію ClayArena.</li>
-    <li>Терміни з'єднують усе: у правилі — посилання на термін, у терміні — на правило, у турі ClayAway — підказки до термінів.</li>
+    <li><b>Джерело термінів</b> — пункти правил: у кожного пункту є <code>terms[]</code> (англійські id, наприклад <code>gun-position</code>, <code>no-bird</code>, <code>report-pair</code>). З усіх пунктів обох регламентів збирається список термінів.</li>
+    <li><b>Запис терміна</b>: англійська назва (завжди англійською), синоніми, коротке і детальне пояснення UA/EN, як кажуть українською, приклад фрази на стенді, пов'язані терміни і посилання на пункти правил, де термін визначено.</li>
+    <li><b>Правило — джерело істини.</b> Якщо термін має цифри чи ліміти (відстані, кількість відмов, положення рушниці), пояснення посилається на пункт правил, а не повторює цифри окремо — так при новій редакції FITASC термін оновлюється разом із правилом.</li>
+    <li><b>Окремі навчальні проєкти</b> (наприклад, навчальні курси для організаторів і перекладачів) можуть використовувати цей глосарій як джерело, але не є частиною цього ТЗ.</li>
+    <li>Терміни з'єднують розділи ClayArena: у правилі — посилання на термін, у терміні — на правило, у турі ClayAway і на сторінках змагань — підказки до термінів.</li>
   </ul>
 </section>
 
@@ -234,11 +232,10 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
     <thead><tr><th>Місце</th><th>Що з'являється</th></tr></thead>
     <tbody>
       <tr><td><code>/en/rules/sporting/</code>, <code>/en/rules/compak/</code></td><td>довідник правил з пошуком (і <code>/uk/…</code>, інші мови)</td></tr>
-      <tr><td><code>/en/glossary/</code>, <code>/en/glossary/{term}/</code></td><td>сторінка кожного терміна (SEO), з посиланням на правила й Академію</td></tr>
+      <tr><td><code>/en/glossary/</code>, <code>/en/glossary/{term}/</code></td><td>сторінка кожного терміна (SEO), з посиланням на пункти правил</td></tr>
       <tr><td>Сторінка змагання</td><td>блок «Правила дисципліни» і «Часті питання»</td></tr>
-      <tr><td>Тур ClayAway</td><td>підказки до термінів у програмі; для організатора й перекладача — доступ до Академії</td></tr>
+      <tr><td>Тур ClayAway</td><td>підказки до термінів у програмі туру; для організатора й перекладача — швидкий доступ до правил</td></tr>
       <tr><td>Відео і рекапи</td><td>терміни в описах стають посиланнями на глосарій</td></tr>
-      <tr><td>Профіль організатора/перекладача</td><td>бейдж «Пройшов Академію» (рівень)</td></tr>
     </tbody>
   </table></div>
 </section>
@@ -270,7 +267,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 <section id="phases">
   <h2>Етапи</h2>
   <div class="phases">
-    <div class="now"><h3>Етап 1 · прототип (зараз)</h3><ul><li>довідник Sporting і Compak з пошуком і FAQ</li><li>Академія і глосарій JSON</li><li>щотижнева перевірка FITASC</li></ul></div>
+    <div class="now"><h3>Етап 1 · прототип (зараз)</h3><ul><li>довідник Sporting і Compak з пошуком і FAQ</li><li>глосарій термінів з правил (JSON)</li><li>щотижнева перевірка FITASC</li></ul></div>
     <div><h3>Етап 2 · ClayArena</h3><ul><li>таблиці правил і глосарію в БД</li><li>сторінки /rules і /glossary</li><li>ШІ-відповіді через Claude API</li><li>адмінка редактора й рецензента</li></ul></div>
     <div><h3>Етап 3 · розвиток</h3><ul><li>інші дисципліни FITASC</li><li>більше мов</li><li>«Що змінилося в редакції»</li><li>підказки термінів по всьому сайту</li></ul></div>
   </div>
@@ -293,15 +290,14 @@ docs/rules/data/SCHEMA.md        формат даних правил
 docs/rules/data/sporting.js      Sporting: розділи, пункти, FAQ
 docs/rules/data/compak.js        Compak Sporting: розділи, пункти, FAQ
 docs/rules-spec/index.html       це ТЗ
-docs/academy/                    Академія Віки (UI + data/*.js)
-docs/academy/glossary.json       чернетка глосарію ClayArena
+docs/rules/data/glossary.json    глосарій термінів, зібраний з правил (етап 1)
 scripts/fitasc_check.py          перевірка/завантаження нових редакцій FITASC
 .github/workflows/fitasc-check.yml   щотижневий запуск перевірки
 rules/sources.json               зафіксовані версії PDF (URL, дата, розмір, SHA-256)
 rules/pdf/                       локальні PDF і текст (не в git)</div>
 </section>
 
-<footer>ClayArena · ClayAway · ТЗ «Довідник правил FITASC, Академія і глосарій» · 05.10.2026. Правила належать FITASC; чинним є лише офіційний текст.</footer>
+<footer>ClayArena · ClayAway · ТЗ «Довідник правил FITASC і глосарій» · 05.10.2026. Правила належать FITASC; чинним є лише офіційний текст.</footer>
 </main>
 </div>
 </body>
