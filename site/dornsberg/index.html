@@ -235,6 +235,10 @@ h1,h2,h3{letter-spacing:-.01em}
 .vids video{width:100%;aspect-ratio:9/16;max-height:420px;object-fit:cover;background:#000;border-radius:10px;border:1px solid var(--line)}
 .vids figcaption{font-size:12.5px;color:var(--muted)}
 img.avatar{object-fit:cover;padding:0}
+.vids figure.ig{grid-column:span 1}
+.vids iframe{width:100%;height:560px;border:1px solid var(--line);border-radius:10px;background:#fff}
+a.ph.insta{text-decoration:none;align-items:center;justify-content:center}
+a.ph.insta:hover{background:rgba(52,211,153,.12)}
 </style>
 </head>
 <body>
@@ -379,7 +383,7 @@ const MEDIA = {
       {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1784820457224-jel0vmer-Perazzi-cup-2026.webp", cap:"Perazzi Cup 2026 at Dornsberg", fit:"contain"},
       {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/users/1784003237662/1784323183293-d7r2afz6-IMG_5664.webp", cap:"Coach Markus Leibinger"},
       {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1772037164146-u17fqtij-cropped-Dornsberg-Schuetzen-logo-kontur-300x253.webp", cap:"Dornsberg Shooting Ground", fit:"contain"},
-      {type:"todo", cap:"Video: Lena introduces the ground — organizer upload"}
+      {type:"insta", cap:"▶ Lena introduces Dornsberg — watch"}
     ],
     videos: [
       {poster:"https://cdn.clayarena.com/filesclayarena/posters/1784819633732/4323/1788773608897.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1784819633732/4323/1788777655631.mp4", cap:"Lena Weigele · Perazzi Cup 2026, Dornsberg · 7 Sep", link:"https://clayarena.com/en/videos/4323/"},
@@ -439,6 +443,8 @@ function pageView(t){
     ? `<div class="ph media ${i===0?'big':''}"><video controls preload="none" playsinline poster="${g.poster}"><source src="${g.src}" type="video/mp4"></video><span class="cap">▶ ${g.cap}</span></div>`
     : g.type==="img"
     ? `<div class="ph media ${i===0?'big':''} ${i===4?'extra':''} ${g.fit==='contain'?'contain':''}"><img src="${g.src}" alt="${g.cap}" loading="lazy" onerror="this.remove()"><span class="cap">${g.cap}</span></div>`
+    : g.type==="insta"
+    ? `<a class="ph todo insta ${i===4?'extra':''}" href="#videos"><span class="cap">${g.cap}</span></a>`
     : `<div class="ph todo ${i===4?'extra':''}"><span class="cap">${g.cap}</span></div>`).join("");
   return `
   <div class="gallery" aria-label="Photo and video gallery">${ph}</div>
@@ -461,8 +467,8 @@ function pageView(t){
 
       <section class="blk"><h2>Program</h2><p class="small muted">Overview. Exact times and meeting points open in the group space after booking. Times in ${t.tz}.</p>${programHTML(t,"public")}</section>
 
-      <section class="blk"><h2>Videos</h2><p class="small muted">From ClayArena: the coach and the organizer on these grounds. The organizer can add their own videos.</p>
-        <div class="vids">${MEDIA[state.tour].videos.map(v=>`<figure><video controls preload="none" playsinline poster="${v.poster}"><source src="${v.src}" type="video/mp4"></video><figcaption>${v.cap} · <a href="${v.link}">on ClayArena ↗</a></figcaption></figure>`).join("")}</div></section>
+      <section class="blk" id="videos"><h2>Videos</h2><p class="small muted">From ClayArena: the coach and the organizer on these grounds. The organizer can add their own videos.</p>
+        <div class="vids">${state.tour==="t1"?`<figure class="ig"><iframe src="https://www.instagram.com/p/DcBipJtt_lG/embed/" title="Lena Weigele introduces Dornsberg Shooting Ground" loading="lazy" allowfullscreen></iframe><figcaption>Lena Weigele introduces Dornsberg Shooting Ground · <a href="https://www.instagram.com/p/DcBipJtt_lG/">ClayArena on Instagram ↗</a></figcaption></figure>`:""}${MEDIA[state.tour].videos.map(v=>`<figure><video controls preload="none" playsinline poster="${v.poster}"><source src="${v.src}" type="video/mp4"></video><figcaption>${v.cap} · <a href="${v.link}">on ClayArena ↗</a></figcaption></figure>`).join("")}</div></section>
 
       <section class="blk"><h2>What's included</h2><div class="cols2"><div class="box"><h3>Included</h3><ul class="check">${t.included.map(i=>`<li>${i}</li>`).join("")}</ul></div><div class="box"><h3>Not included</h3><ul class="check no">${t.excluded.map(i=>`<li>${i}</li>`).join("")}</ul></div></div></section>
 
