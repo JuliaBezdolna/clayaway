@@ -273,6 +273,19 @@ td.mna{color:var(--muted)}
 .mphotos img{width:100%;height:100%;object-fit:cover;display:block}
 .mphotos figcaption{position:absolute;left:6px;bottom:6px;right:6px;font-size:11.5px;background:rgba(0,0,0,.65);color:#fff;padding:2px 7px;border-radius:4px}
 @media (max-width:560px){.mphotos{grid-template-columns:1fr 1fr}.mphotos figure:last-child{display:none}}
+
+.chips{position:sticky;top:calc(env(safe-area-inset-top,0px) + 54px);z-index:4;background:rgba(3,7,18,.92);backdrop-filter:blur(6px);padding:8px 0;margin:8px 0 18px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line)}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;font-size:13px;border:1px solid var(--line);border-radius:999px;padding:4px 12px;background:rgba(255,255,255,.04);color:#D1D5DB;text-decoration:none;white-space:nowrap;transition:background .15s,color .15s,border-color .15s}
+.chips a:hover{border-color:rgba(52,211,153,.5);color:#fff}
+.chips a.on{background:var(--primary);border-color:var(--primary);color:#fff;font-weight:600}
+.chips a:focus-visible{outline:2px solid var(--field);outline-offset:2px}
+@media (min-width:901px){.chips{flex-wrap:wrap}}
+.flashme{animation:flashme 1.2s ease-out}
+@keyframes flashme{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}100%{box-shadow:0 0 0 14px rgba(52,211,153,0)}}
+@media (prefers-reduced-motion:reduce){.flashme{animation:none}.chips a{transition:none}}
+.person,.note,.buy{scroll-margin-top:130px}
+section.blk{scroll-margin-top:130px}
 </style>
 </head>
 <body>
@@ -493,7 +506,7 @@ function pageView(t){
       <div class="langbar">Tour languages
         <div class="seg" role="group" aria-label="Tour language">${t.langs.map(l=>`<button data-lang="${l}" aria-pressed="${state.lang===l}">${l}</button>`).join("")}</div>
       </div>
-      <div class="chips"><span>At a glance</span><span>Meals</span>${t.chips.map(c=>`<span>${c}</span>`).join("")}</div>
+      <nav class="chips" id="tabs" aria-label="Sections of this tour">${navItems(t).map(([label,id])=>`<a href="#${id}" data-jump="${id}">${label}</a>`).join("")}</nav>
 
       <section class="blk" id="about"><h2>About this tour</h2><p>${t.about[state.lang]||t.about.EN}</p>
         ${state.lang!=="EN"?`<p class="small muted">Shown in ${state.lang}. Other blocks have their own ${state.lang} version, written or checked by the organizer.</p>`:""}</section>
@@ -509,19 +522,19 @@ function pageView(t){
         <ul class="mnotes">${MEALS[state.tour].notes.map(n=>`<li>${n}</li>`).join("")}</ul>
       </section>
 
-      <section class="blk"><h2>Who runs it</h2><div class="people">${t.people.map(p=>`<div class="person"><div class="hd">${MEDIA[state.tour].photos[p.name]?`<img class="avatar" src="${MEDIA[state.tour].photos[p.name]}" alt="" onerror="this.outerHTML='<div class=avatar>${p.init}</div>'">`:`<div class="avatar">${p.init}</div>`}<div><div class="role">${p.role}</div><h3>${p.name}</h3></div></div><ul>${p.lines.map(l=>`<li>${l}</li>`).join("")}</ul><a href="${p.url}" class="small">Profile on ClayArena ↗</a></div>`).join("")}</div>
-        <div class="note">${t.groundNote}</div></section>
+      <section class="blk" id="people"><h2>Who runs it</h2><div class="people">${t.people.map((p,pi)=>`<div class="person" id="person-${pi}"><div class="hd">${MEDIA[state.tour].photos[p.name]?`<img class="avatar" src="${MEDIA[state.tour].photos[p.name]}" alt="" onerror="this.outerHTML='<div class=avatar>${p.init}</div>'">`:`<div class="avatar">${p.init}</div>`}<div><div class="role">${p.role}</div><h3>${p.name}</h3></div></div><ul>${p.lines.map(l=>`<li>${l}</li>`).join("")}</ul><a href="${p.url}" class="small">Profile on ClayArena ↗</a></div>`).join("")}</div>
+        <div class="note" id="guests">${t.groundNote}</div></section>
 
-      <section class="blk"><h2>Program</h2><p class="small muted">Overview. Exact times and meeting points open in the group space after booking. Times in ${t.tz}.</p>${programHTML(t,"public")}</section>
+      <section class="blk" id="program"><h2>Program</h2><p class="small muted">Overview. Exact times and meeting points open in the group space after booking. Times in ${t.tz}.</p>${programHTML(t,"public")}</section>
 
       <section class="blk" id="videos"><h2>Videos</h2><p class="small muted">From ClayArena: the coach and the organizer on these grounds. The organizer can add their own videos.</p>
         <div class="vids">${`<figure class="ig"><iframe src="https://www.instagram.com/p/DZCLG-TIJaQ/embed/" title="Château de Chambord — ClayArena at the European Championship Compak Sporting" loading="lazy" allowfullscreen></iframe><figcaption>Château de Chambord, 40 km from the club: ClayArena at the European Championship Compak Sporting · <a href="https://www.instagram.com/p/DZCLG-TIJaQ/">ClayArena on Instagram ↗</a></figcaption></figure>`}${MEDIA[state.tour].videos.map(v=>`<figure><video controls preload="none" playsinline poster="${v.poster}"><source src="${v.src}" type="video/mp4"></video><figcaption>${v.cap} · <a href="${v.link}">on ClayArena ↗</a></figcaption></figure>`).join("")}</div></section>
 
-      <section class="blk"><h2>What's included</h2><div class="cols2"><div class="box"><h3>Included</h3><ul class="check">${t.included.map(i=>`<li>${i}</li>`).join("")}</ul></div><div class="box"><h3>Not included</h3><ul class="check no">${t.excluded.map(i=>`<li>${i}</li>`).join("")}</ul></div></div></section>
+      <section class="blk" id="included"><h2>What's included</h2><div class="cols2"><div class="box"><h3>Included</h3><ul class="check">${t.included.map(i=>`<li>${i}</li>`).join("")}</ul></div><div class="box"><h3>Not included</h3><ul class="check no">${t.excluded.map(i=>`<li>${i}</li>`).join("")}</ul></div></div></section>
 
-      <section class="blk"><h2>Cancellation</h2><p>${t.cancel}</p></section>
+      <section class="blk" id="cancel"><h2>Cancellation</h2><p>${t.cancel}</p></section>
 
-      <section class="blk"><h2>FAQ</h2>${t.faq.map(f=>`<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join("")}</section>
+      <section class="blk" id="faq"><h2>FAQ</h2>${t.faq.map(f=>`<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join("")}</section>
 
       <section class="blk" id="qa"><h2>Questions about this tour</h2>
         <div class="qa">
@@ -542,7 +555,7 @@ function pageView(t){
       </section>
     </div>
 
-    <aside class="buy" aria-label="Booking">
+    <aside class="buy" id="buy" aria-label="Booking">
       <div class="price"><span class="muted small">from</span><b>${t.currency}${fmt(t.price)}</b><span class="muted small">per shooter</span></div>
       ${seatsHTML(t, held)}
       <div class="opts">${t.options.map(o=>`<label><input type="checkbox" data-opt="${o[0]}" ${state.opts[o[0]]?'checked':''}><span>${o[1]}</span><span>+${t.currency}${fmt(o[2])}</span></label>`).join("")}</div>
@@ -596,6 +609,40 @@ function dashView(t){
     </div>
   </div>`;
 }
+
+function navItems(t){
+  const items=[["About","about"],["At a glance","glance"],["Meals","meals"],["Coach","person-0"],["Organizer","person-1"],["Shooting ground","person-2"]];
+  if(t.chips.includes("For guests")) items.push(["For guests","guests"]);
+  items.push(["Program","program"],["Videos","videos"],["What's included","included"],["Prices","buy"],["Cancellation","cancel"],["FAQ","faq"],["Questions","qa"]);
+  return items;
+}
+let tabObserver=null;
+function setActiveTab(id){
+  document.querySelectorAll("#tabs a").forEach(a=>{ const on=a.dataset.jump===id; a.classList.toggle("on",on); if(on) a.setAttribute("aria-current","true"); else a.removeAttribute("aria-current"); });
+  const act=document.querySelector("#tabs a.on"); const bar=document.getElementById("tabs");
+  if(act&&bar&&bar.scrollWidth>bar.clientWidth){ bar.scrollTo({left:act.offsetLeft-bar.clientWidth/2+act.offsetWidth/2,behavior:"smooth"}); }
+}
+function initTabs(){
+  if(tabObserver){ tabObserver.disconnect(); tabObserver=null; }
+  const bar=document.getElementById("tabs"); if(!bar) return;
+  const ids=[...new Set([...bar.querySelectorAll("a")].map(a=>a.dataset.jump))].filter(id=>id!=="buy");
+  const els=ids.map(id=>document.getElementById(id)).filter(Boolean);
+  const visible=new Map();
+  tabObserver=new IntersectionObserver(entries=>{
+    entries.forEach(e=>visible.set(e.target.id,e.isIntersecting?e.boundingClientRect.top:null));
+    let best=null,bt=Infinity; visible.forEach((top,id)=>{ if(top!==null && Math.abs(top-140)<bt){bt=Math.abs(top-140);best=id;} });
+    if(best) setActiveTab(best);
+  },{rootMargin:"-130px 0px -55% 0px",threshold:0});
+  els.forEach(el=>tabObserver.observe(el));
+}
+document.addEventListener("click",e=>{
+  const a=e.target.closest("a[data-jump]"); if(!a) return;
+  e.preventDefault(); const el=document.getElementById(a.dataset.jump); if(!el) return;
+  const y=el.getBoundingClientRect().top+window.scrollY-130;
+  window.scrollTo({top:y,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  setActiveTab(a.dataset.jump);
+  el.classList.remove("flashme"); void el.offsetWidth; el.classList.add("flashme");
+});
 function render(){
   const t = TOURS[state.tour];
   if(!t.langs.includes(state.lang)) state.lang = "EN";
@@ -606,6 +653,7 @@ function render(){
   app.innerHTML = (state.view==="page"?pageView(t):state.view==="group"?groupView(t):dashView(t))
     + (state.view==="page"?`<div class="credits"><b>Photo credits.</b> ${(()=>{const seen=new Set();return GLANCE[state.tour].flatMap(c=>[[c.t,c.img],c.img2?[c.t,c.img2]:null]).concat(MEALPHOTOS[state.tour].map(p=>[p.cap,p])).filter(Boolean).filter(([t,i])=>!seen.has(i.src)&&seen.add(i.src)).map(([t,i])=>`<a href="${i.page}">${t}</a> — ${i.credit}`).join(" · ")})()}. Photos from Wikimedia Commons are used under their licences; photos from the grounds\u2019 websites are shown for this internal prototype only.</div>`:"") + `<footer>Prototype for the ClayAway concept. Coach, organizer and ground data come from their ClayArena profiles; dates, prices, participants and messages are sample data.</footer>`;
   const q2 = document.getElementById("qtext"); if(q2 && draft) q2.value = draft;
+  if(state.view==="page") initTabs();
 }
 document.addEventListener("click", e=>{
   const b = e.target.closest("button"); if(!b) return;
