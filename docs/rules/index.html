@@ -148,7 +148,7 @@ function search(book,q){
   const faq=scored.filter(x=>x.d.type==="faq").slice(0,3), items=scored.filter(x=>x.d.type==="item").slice(0,5);
   return {faq,items,qt};
 }
-function pdfLink(book,page){ return `<a class="pdf" href="${esc(book.source.url)}#page=${page}" target="_blank" rel="noopener">${t("open")} ${page} ↗</a>`; }
+function pdfLink(book,page){ return `<a class="pdf" href="${esc(book.source.url)}#page=${page}" target="_blank" rel="nofollow noopener noreferrer">${t("open")} ${page} ↗</a>`; }
 function itemHTML(book,it,open){ return `<details class="item" id="it-${it.id}" ${open?"open":""}><summary><b>${esc(tx(it,"title"))}</b><span class="ref">${esc(it.ref||"")}</span></summary><div class="body"><p>${esc(tx(it,"summary"))}</p>${(it["points_"+L()]||[]).length?`<ul>${it["points_"+L()].map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}${pdfLink(book,it.page)}${it.quick_guide?`<span class="tag">${t("qg")}</span>`:""}</div></details>`; }
 /* Show the FAQ answer only when it is at least 55% as relevant as the best rule item,
    otherwise lead with the rule items themselves (the item is the source of truth). */
@@ -157,7 +157,7 @@ function answerHTML(book){
   if(!r.faq.length&&!r.items.length) return `<div class="answer"><div class="empty">${t("none")}</div></div>`;
   const I=idx(book); let h=`<div class="answer">`;
   const top=r.faq[0], topItem=r.items[0];
-  if(top && (!topItem || top.sc>=topItem.sc*0.55)){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?`<button data-jump="${id}">${esc(I.byId[id].ref||tx(I.byId[id],"title"))}</button>`:"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="noopener">PDF ${it.page} ↗</a>`).join("")}</div></div>`;
+  if(top && (!topItem || top.sc>=topItem.sc*0.55)){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?`<button data-jump="${id}">${esc(I.byId[id].ref||tx(I.byId[id],"title"))}</button>`:"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">PDF ${it.page} ↗</a>`).join("")}</div></div>`;
     if(r.faq.length>1) h+=`<div class="also">${L()==="uk"?"Схожі питання":"Similar questions"}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:12.5px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
   if(r.items.length){ h+=`<h3 style="margin-top:6px">${t("rel")}</h3>`+r.items.slice(0,4).map((x,i)=>itemHTML(book,x.d.it,i===0&&!(top&&(!topItem||top.sc>=topItem.sc*0.55)))).join(""); }
   return h+`</div>`;
@@ -173,7 +173,7 @@ function render(){
   const ex=(book.faq||[]).slice(0,8);
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
   app.innerHTML=`<div class="eyebrow">FITASC · ${esc(dname)}</div><h1>${t("title").replace("{d}",esc(dname))}</h1><p class="muted">${t("lead")}</p>
-   <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="noopener">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="noopener">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span></div>
+   <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span></div>
    <form class="ask" id="askf"><label for="q" class="eyebrow" style="display:block;margin-bottom:8px">${L()==="uk"?"Запитайте про правила":"Ask about the rules"}</label><div class="askrow"><input id="q" type="search" autocomplete="off" placeholder="${esc(t("ph"))}" value="${esc(S.q)}"><button class="btn primary" type="submit">${t("ask")}</button></div>
      <div class="chips">${ex.map(f=>`<button type="button" data-q="${esc(tx(f,"q"))}">${esc(tx(f,"q"))}</button>`).join("")}</div></form>
    <div id="ans">${answerHTML(book)}</div>
