@@ -3464,7 +3464,7 @@ window.RULES.push({
      "title_en": "Who sits on the jury",
      "title_uk": "Склад журі",
      "summary_en": "The jury of an international event consists of the FITASC sporting commission members present and one representative of each nation entering a senior team. It is chaired by the representative of the organising FITASC member. Members of the FITASC Management Committee are automatically on the jury, except those on the appeal jury.",
-     "summary_uk": "Журі міжнародного змагання складається з присутніх членів спортивної комісії FITASC і по одному представнику від кожної країни, що заявила дорослу (senior) команду. Головує представник члена FITASC, який організує змагання. Члени Management Committee FITASC автоматично входять до журі, крім тих, хто входить до апеляційного журі.",
+     "summary_uk": "Журі міжнародного змагання складається з присутніх членів спортивної комісії FITASC і по одному представнику від кожної країни, що заявила команду senior (так у тексті правил). Головує представник члена FITASC, який організує змагання. Члени Management Committee FITASC автоматично входять до журі, крім тих, хто входить до апеляційного журі.",
      "points_en": [
       "FITASC sporting commission members present",
       "One representative per nation with a senior team",
@@ -4957,8 +4957,8 @@ window.RULES.push({
   {
    "q_en": "Does the rulebook define age or gender categories (Lady, Junior, Veteran)?",
    "q_uk": "Чи визначають ці правила категорії (жінки, юніори, ветерани)?",
-   "a_en": "No. This Sporting rulebook covers the shooting, refereeing and organisation rules but does not list categories; they come from FITASC's general regulations and the competition programme. It only mentions senior teams when describing the jury.",
-   "a_uk": "Ні. Ці правила Sporting описують стрільбу, суддівство й організацію, але категорій не містять — їх визначають загальні регламенти FITASC і програма змагання. Тут лише згадано senior-команди в описі складу журі.",
+   "a_en": "No. This Sporting rulebook covers the shooting, refereeing and organisation rules but does not list categories. FITASC publishes them in a separate table on its website (Competitions, Categories); from 1 January 2027: Junior 13–20, Lady from 13, Men (Homme) 21–55, Senior 56–65, Veteran 66–72, Master from 73, counted by year of birth. National events may use their own categories, as stated in the programme. The rulebook only mentions senior teams when describing the jury.",
+   "a_uk": "Ні. Ці правила Sporting описують стрільбу, суддівство й організацію, але категорій не містять. FITASC публікує їх в окремій таблиці на своєму сайті (Competitions, Categories); з 1 січня 2027 року: Junior 13–20, Lady з 13, Men (Homme) 21–55, Senior 56–65, Veteran 66–72, Master з 73, за роком народження. Національні змагання можуть мати власні категорії — їх указує програма. Тут лише згадано senior-команди в описі складу журі.",
    "refs": [
     "ch16-format",
     "ch15-jury-composition"

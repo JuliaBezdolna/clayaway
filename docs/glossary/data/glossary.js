@@ -5336,8 +5336,8 @@ window.GLOSSARY = {
    "cat": "Results",
    "short_uk": "Національна команда, результати членів якої додають для командного заліку.",
    "short_en": "A national team whose members' scores are added for the team ranking.",
-   "long_uk": "Командний результат — сума результатів членів команди. Рівність розв'язують за сумою команди на 8-му layout чи Compak, далі на 7-му і так до 1-го; командних перестрілок немає. Членів однієї збірної по можливості розподіляють по різних групах. На параді відкриття члени команди одягають форму збірної або класичні штани з блейзером.",
-   "long_en": "Team results are the combined scores of the team members. Ties are broken by the team total on the 8th layout or Compak, then on the 7th and so on down to the 1st; there is no team shoot-off. Members of the same national team are spread over different squads as far as possible. At the opening parade team members wear the national team outfit or smart trousers with a blazer.",
+   "long_uk": "Командний результат — сума результатів членів команди. Рівність розв'язують за сумою команди на 8-му layout чи Compak, далі на 7-му і так до 1-го; командних перестрілок немає. Членів однієї збірної по можливості розподіляють по різних групах. На параді відкриття члени команди одягають форму збірної або класичні штани з блейзером. Команди формують і за категоріями: Junior, Lady, Men, Senior, Veteran і Master — по 3 стрільці, лише команда Men у Sporting має 4.",
+   "long_en": "Team results are the combined scores of the team members. Ties are broken by the team total on the 8th layout or Compak, then on the 7th and so on down to the 1st; there is no team shoot-off. Members of the same national team are spread over different squads as far as possible. At the opening parade team members wear the national team outfit or smart trousers with a blazer. Teams are also formed by category: Junior, Lady, Men, Senior, Veteran and Master, with 3 shooters each; only the Men team in Sporting has 4.",
    "uk_usage": "«команда», «збірна»",
    "rule_refs": [
     {
@@ -5368,27 +5368,31 @@ window.GLOSSARY = {
    "related": [
     "countback",
     "squad",
-    "dress-code"
+    "dress-code",
+    "category"
    ]
   },
   {
    "id": "category",
    "term": "Category",
    "aka": [
-    "Class (age/gender)"
+    "Age category",
+    "Catégorie"
    ],
    "aliases": [
     "category"
    ],
    "cat": "Results",
-   "short_uk": "Окремий залік у межах змагань поряд з абсолютним.",
-   "short_en": "A separate ranking group within a competition, alongside the open ranking.",
-   "long_uk": "У Compak рівність за перші три місця в абсолютному заліку і в кожній категорії розв'язують перестрілкою. Якщо стрільці в перестрілці абсолютного заліку належать до однієї категорії, її результат зараховують і в категорії. Електронна роздруківка Compak in line має стовпець категорії. Самі категорії в переказі правил не перелічено — їх визначає програма змагань.",
-   "long_en": "In Compak ties for the first three places of the open ranking and of each category are decided by shoot-off. When shooters in an open-ranking shoot-off belong to the same category, the result also counts for their category ranking. The electronic print-out for Compak in line has a category column. The rulebook summaries do not list the categories themselves; they are set by the competition programme.",
+   "short_uk": "Окремий залік за віком і статтю поряд із загальним; у FITASC з 2027 року це Junior, Lady, Men, Senior, Veteran і Master.",
+   "short_en": "A separate age and gender ranking alongside the open ranking; from 2027 FITASC uses Junior, Lady, Men, Senior, Veteran and Master.",
+   "long_uk": "З 1 січня 2027 року FITASC встановлює для Compak® Sporting, Parcours de Chasse – Sporting™ та інших своїх дисциплін шість категорій: Junior (13–20 років), Lady (з 13 років), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) і Master (з 73 років, чоловіки й жінки). Вік рахують за роком народження: нова категорія діє з 1 січня року, у якому стрільцеві виповнюється потрібний вік, незалежно від дня народження. Senior — не основна доросла категорія, а вікова група 56–65; основна доросла — Men. Командні заліки категорій мають по 3 стрільці (команда Men у Sporting — 4), а стрілець, включений до команди іншої категорії, мусить виступати в ній і особисто. У Compak рівність за перші три місця в кожній категорії розв'язують перестрілкою; якщо в перестрілці абсолютного заліку зійшлися стрільці однієї категорії, її результат зараховують і в категорії. Національні та клубні змагання можуть мати власні категорії — їх указує програма.",
+   "long_en": "From 1 January 2027 FITASC sets six categories for Compak® Sporting, Parcours de Chasse – Sporting™ and its other disciplines: Junior (13–20), Lady (from 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) and Master (from 73, men or women). Age counts by year of birth: a new category applies from 1 January of the year in which the shooter reaches the age, whatever the birthday. Senior is not the main adult category but the 56–65 age group; the main adult category is Men. Category teams have 3 shooters (the Men team in Sporting has 4), and a shooter selected for a team of another category must also enter that category individually. In Compak ties for the first three places in each category are decided by shoot-off; when shooters in an open-ranking shoot-off belong to the same category, the result also counts for that category. National and club events may use their own categories, as stated in the programme.",
    "disciplines": {
+    "sporting": "Команда Men — 4 стрільці, команди інших категорій — по 3.",
     "compak": "Окремі перестрілки за призові місця в кожній категорії."
    },
    "disciplines_en": {
+    "sporting": "The Men team has 4 shooters; teams of other categories have 3.",
     "compak": "Separate shoot-offs for the podium in each category."
    },
    "uk_usage": "«категорія»",
@@ -5407,7 +5411,178 @@ window.GLOSSARY = {
     }
    ],
    "related": [
+    "junior",
+    "lady",
+    "men-category",
+    "senior",
+    "veteran",
+    "master-category",
     "shoot-off",
+    "team"
+   ],
+   "source_url": "https://www.fitasc.com/competitions/categories"
+  },
+  {
+   "id": "junior",
+   "term": "Junior",
+   "aka": [
+    "Junior category"
+   ],
+   "aliases": [
+    "junior"
+   ],
+   "cat": "Results",
+   "short_uk": "Категорія FITASC для хлопців і дівчат від 13 до 20 років (за роком народження).",
+   "short_en": "The FITASC category for boys and girls aged 13 to 20 (by year of birth).",
+   "long_uk": "Junior — юні стрільці обох статей. Юніором стають з 1 січня року, у якому виповнюється 13, незалежно від дня народження (FITASC може дозволити виняток — derogation), і лишаються ним до кінця року, у якому виповнюється 20. Для 2027 року це народжені з 1 січня 2007 по 31 грудня 2014 року. Команда Junior — 3 стрільці, хлопці й дівчата разом. Юніора можуть включити до команди Men, а юніорку — до команди Lady; тоді вони виступають у цій категорії й особисто. Таблиця діє з 2027 року; національні змагання можуть мати власні межі.",
+   "long_en": "Juniors are young shooters of both sexes. A shooter becomes a junior on 1 January of the year they turn 13, whatever their birthday (FITASC may grant a derogation), and stays one until the end of the year they turn 20. For 2027 that means born 1 January 2007 to 31 December 2014. A Junior team has 3 shooters, boys and girls together. A junior boy may be selected for the Men team and a junior girl for the Lady team; they then also enter that category individually. The table applies from 2027; national events may use their own limits.",
+   "uk_usage": "«юніори», «юніор», «юніорка»",
+   "rule_refs": [],
+   "source_url": "https://www.fitasc.com/competitions/categories",
+   "related": [
+    "category",
+    "lady",
+    "men-category",
+    "senior",
+    "veteran",
+    "master-category",
+    "team"
+   ]
+  },
+  {
+   "id": "lady",
+   "term": "Lady",
+   "aka": [
+    "Dame",
+    "Ladies"
+   ],
+   "aliases": [
+    "lady"
+   ],
+   "cat": "Results",
+   "short_uk": "Жіноча категорія FITASC — з 1 січня року, у якому виповнюється 13 років.",
+   "short_en": "The FITASC women's category, from 1 January of the year a shooter turns 13.",
+   "long_uk": "До категорії Lady (фр. Dame) належать жінки й дівчата з 1 січня року, у якому їм виповнюється 13 (крім дозволеного винятку — derogation); верхньої вікової межі таблиця FITASC не встановлює. Для 2027 року це народжені не пізніше 31 грудня 2014 року. Команда Lady — 3 стрільчині: жінки або юніорки. Юніорка, включена до команди Lady, виступає в категорії Lady і в особистому заліку. Таблиця діє з 2027 року; національні змагання можуть мати власні правила.",
+   "long_en": "The Lady category (French: Dame) covers women and girls from 1 January of the year they turn 13 (unless a derogation is granted); the FITASC table sets no upper age limit. For 2027 that means born on or before 31 December 2014. A Lady team has 3 shooters: ladies or junior girls. A junior girl selected for the Lady team also enters the Lady category individually. The table applies from 2027; national events may have their own rules.",
+   "uk_usage": "«жінки», «леді»",
+   "rule_refs": [],
+   "source_url": "https://www.fitasc.com/competitions/categories",
+   "related": [
+    "category",
+    "junior",
+    "men-category",
+    "senior",
+    "veteran",
+    "master-category",
+    "team"
+   ]
+  },
+  {
+   "id": "men-category",
+   "term": "Men (Homme)",
+   "aka": [
+    "Homme",
+    "Men"
+   ],
+   "aliases": [
+    "men-category"
+   ],
+   "cat": "Results",
+   "short_uk": "Основна доросла категорія FITASC: від 21 до 55 років.",
+   "short_en": "The main adult FITASC category: ages 21 to 55.",
+   "long_uk": "Men (фр. Homme) — основна доросла категорія: з 1 січня року, у якому стрільцеві виповнюється 21, до кінця року, у якому виповнюється 55. Для 2027 року це народжені з 1 січня 1972 по 31 грудня 2006 року. До команди Men можуть входити чоловіки, юніори-хлопці, а також Senior, Veteran і Master; у ній 3 стрільці, а в Parcours de Chasse – Sporting™ — 4. Саме Men, а не Senior, — головна доросла категорія в результатах FITASC.",
+   "long_en": "Men (French: Homme) is the main adult category: from 1 January of the year a shooter turns 21 until the end of the year they turn 55. For 2027 that means born 1 January 1972 to 31 December 2006. The Men team may include men, junior boys, and Senior, Veteran and Master shooters; it has 3 shooters, or 4 in Parcours de Chasse – Sporting™. In FITASC results the main adult category is Men, not Senior.",
+   "uk_usage": "«чоловіки»",
+   "rule_refs": [],
+   "source_url": "https://www.fitasc.com/competitions/categories",
+   "related": [
+    "category",
+    "junior",
+    "lady",
+    "senior",
+    "veteran",
+    "master-category",
+    "team"
+   ]
+  },
+  {
+   "id": "senior",
+   "term": "Senior",
+   "aka": [
+    "Senior category"
+   ],
+   "aliases": [
+    "senior"
+   ],
+   "cat": "Results",
+   "short_uk": "Вікова категорія FITASC від 56 до 65 років — не основна доросла.",
+   "short_en": "The FITASC age category from 56 to 65, not the main adult category.",
+   "long_uk": "Senior — з 1 січня року, у якому стрільцеві виповнюється 56, до кінця року, у якому виповнюється 65; для 2027 року це народжені з 1962 по 1971 рік. Це пастка для перекладача: Senior у FITASC — не «дорослі взагалі», а вікова група 56–65, тоді як основна доросла категорія — Men. Команда Senior — 3 стрільці категорій Senior, Veteran або Master. В інших видах спорту, у старих протоколах і в деяких національних програмах senior може означати дорослих загалом, тож дивіться таблицю конкретних змагань.",
+   "long_en": "Senior runs from 1 January of the year a shooter turns 56 until the end of the year they turn 65; for 2027 that means born 1962 to 1971. It is a trap for interpreters: in FITASC Senior does not mean adults in general but the 56–65 age group, while the main adult category is Men. A Senior team has 3 shooters from the Senior, Veteran or Master categories. In other sports, in older results and in some national programmes senior may mean adults in general, so check the table of the specific event.",
+   "uk_usage": "«сеньйори»",
+   "rule_refs": [],
+   "source_url": "https://www.fitasc.com/competitions/categories",
+   "related": [
+    "category",
+    "junior",
+    "lady",
+    "men-category",
+    "veteran",
+    "master-category",
+    "team"
+   ]
+  },
+  {
+   "id": "veteran",
+   "term": "Veteran",
+   "aka": [
+    "Vétéran"
+   ],
+   "aliases": [
+    "veteran"
+   ],
+   "cat": "Results",
+   "short_uk": "Вікова категорія FITASC від 66 до 72 років.",
+   "short_en": "The FITASC age category from 66 to 72.",
+   "long_uk": "Veteran (фр. Vétéran) — з 1 січня року, у якому стрільцеві виповнюється 66, до кінця року, у якому виповнюється 72; для 2027 року це народжені з 1955 по 1961 рік. Команда Veteran — 3 стрільці категорій Veteran або Master. Ветерани можуть також входити до команд Senior і Men; тоді вони виступають у цій категорії й особисто. Національні змагання можуть мати власні вікові межі.",
+   "long_en": "Veteran (French: Vétéran) runs from 1 January of the year a shooter turns 66 until the end of the year they turn 72; for 2027 that means born 1955 to 1961. A Veteran team has 3 shooters from the Veteran or Master categories. Veterans may also be selected for Senior and Men teams, and then also enter that category individually. National events may use their own age limits.",
+   "uk_usage": "«ветерани»",
+   "rule_refs": [],
+   "source_url": "https://www.fitasc.com/competitions/categories",
+   "related": [
+    "category",
+    "junior",
+    "lady",
+    "men-category",
+    "senior",
+    "master-category",
+    "team"
+   ]
+  },
+  {
+   "id": "master-category",
+   "term": "Master",
+   "aka": [
+    "Master category"
+   ],
+   "aliases": [
+    "master-category"
+   ],
+   "cat": "Results",
+   "short_uk": "Найстарша вікова категорія FITASC — з 73 років, для чоловіків і жінок.",
+   "short_en": "The oldest FITASC age category, from 73, for men and women.",
+   "long_uk": "Master — чоловіки й жінки з 1 січня року, у якому їм виповнюється 73; для 2027 року це народжені до 1 січня 1955 року. Команда Master — 3 стрільці цієї категорії; стрільці Master можуть також входити до команд Veteran, Senior і Men. Не плутайте вікову категорію Master FITASC із класом Master в американській системі NSCA, який залежить від результатів, і з головним оком (master eye) у техніці.",
+   "long_en": "Master covers men and women from 1 January of the year they turn 73; for 2027 that means born before 1 January 1955. A Master team has 3 shooters of this category; Master shooters may also be selected for Veteran, Senior and Men teams. Do not confuse the FITASC Master age category with the Master class of the American NSCA system, which depends on results, or with the master eye in technique.",
+   "uk_usage": "«Master»",
+   "rule_refs": [],
+   "source_url": "https://www.fitasc.com/competitions/categories",
+   "related": [
+    "category",
+    "junior",
+    "lady",
+    "men-category",
+    "senior",
+    "veteran",
     "team"
    ]
   }

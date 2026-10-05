@@ -571,32 +571,36 @@ window.LEARN.push({
    "summary_en": "Clay shooting is open to all ages: juniors, women, veterans and whole families shoot together. Here is what categories are.",
    "body_uk": [
     "Стендова стрільба — один із небагатьох видів спорту, де на одному майданчику поруч можуть стріляти підліток, його мама і дідусь. Тут важать точність, увага й самоконтроль, а не сила чи зріст.",
-    "Щоб змагання були чесними, у них є категорії (category). Окрім загального (абсолютного) заліку, нагороди зазвичай вручають у категоріях за віком і статтю, наприклад для юніорів, жінок, ветеранів. Які саме категорії й вікові межі діють, визначає програма конкретного змагання, тож перевіряйте її перед реєстрацією.",
+    "Щоб змагання були чесними, у них є категорії (category). Окрім загального (абсолютного) заліку, нагороди вручають у категоріях за віком і статтю. На міжнародних змаганнях FITASC з 1 січня 2027 року це Junior (13–20 років), Lady (з 13), Men (21–55), Senior (56–65), Veteran (66–72) і Master (з 73). Вік рахують за роком народження, а не за днем народження. Національні та клубні змагання можуть мати власні категорії, тож перевіряйте програму перед реєстрацією.",
     "Діти можуть починати стріляти лише під наглядом дорослих і тренера, а мінімальний вік і правила для неповнолітніх залежать від законів країни та правил стенду. Для юних стрільців часто добирають легшу рушницю меншого калібру з м’якшою віддачею.",
     "На змаганнях стріляють групами до шести людей (squad). Склад груп визначає жеребкування, тож можна опинитися поруч із чемпіоном. Це чудова нагода повчитися, просто спостерігаючи.",
     "Багато хто стріляє заради відпочинку й спілкування, без участі в змаганнях. Стенд — це також місце, де знайомляться, діляться досвідом і проводять вихідні родиною."
    ],
    "body_en": [
     "Clay shooting is one of the few sports where a teenager, their mother and their grandfather can shoot side by side on the same field. What counts is accuracy, focus and self-control, not strength or height.",
-    "To keep competitions fair, there are categories. Besides the overall (open) ranking, awards are usually given in age and gender categories, for example for juniors, ladies and veterans. Which categories and age limits apply is set by each competition's programme, so check it before you enter.",
+    "To keep competitions fair, there are categories. Besides the overall (open) ranking, awards are given in age and gender categories. At international FITASC competitions from 1 January 2027 these are Junior (13–20), Lady (from 13), Men (21–55), Senior (56–65), Veteran (66–72) and Master (from 73). Age counts by year of birth, not by birthday. National and club events may use their own categories, so check the programme before you enter.",
     "Children may only start shooting under the supervision of adults and a coach, and the minimum age and rules for minors depend on national law and on the ground's rules. Young shooters are often given a lighter, smaller-gauge gun with softer recoil.",
     "In competitions people shoot in squads of up to six. Squads are drawn, so you may end up shooting next to a champion. It is a great chance to learn just by watching.",
     "Many people shoot for relaxation and company, without ever competing. A shooting ground is also a place to meet people, share experience and spend weekends as a family."
    ],
    "key_points_uk": [
     "Вік, стать і фізична сила не є перешкодою",
-    "Є загальний залік і категорії; їх визначає програма змагання",
+    "Є загальний залік і категорії: у FITASC з 2027 року — Junior, Lady, Men, Senior, Veteran, Master; на національних змаганнях — за програмою",
     "Діти стріляють лише під наглядом; закони різних країн відрізняються",
     "На змаганнях стріляють групами до шести людей"
    ],
    "key_points_en": [
     "Age, gender and strength are no barrier",
-    "There is an open ranking plus categories, set by the competition programme",
+    "There is an open ranking plus categories: in FITASC from 2027 Junior, Lady, Men, Senior, Veteran, Master; national events follow their programme",
     "Children shoot only under supervision; laws differ between countries",
     "In competitions people shoot in squads of up to six"
    ],
    "terms": [
     "category",
+    "junior",
+    "lady",
+    "senior",
+    "veteran",
     "squad",
     "gauge",
     "coaching"
@@ -621,8 +625,8 @@ window.LEARN.push({
      "q_en": "Who decides which categories apply at a competition?",
      "options": [
       {
-       "uk": "Програма конкретного змагання",
-       "en": "The programme of that competition"
+       "uk": "На міжнародних змаганнях — таблиця FITASC, на національних — федерація і програма змагань",
+       "en": "At international events the FITASC table; at national events the federation and the programme"
       },
       {
        "uk": "Кожен стрілець сам",
@@ -634,8 +638,8 @@ window.LEARN.push({
       }
      ],
      "answer": 0,
-     "explain_uk": "Категорії та вікові межі вказані в програмі змагання.",
-     "explain_en": "Categories and age limits are given in the competition programme."
+     "explain_uk": "На міжнародних змаганнях діє таблиця категорій FITASC (нова — з 1 січня 2027 року), а національні й клубні змагання можуть мати власні; програма змагання завжди їх указує.",
+     "explain_en": "International events use the FITASC category table (the new one from 1 January 2027), while national and club events may have their own; the programme always states them."
     },
     {
      "q_uk": "Скільки людей щонайбільше стріляє в одній групі (squad)?",

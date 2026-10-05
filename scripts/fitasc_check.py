@@ -2,19 +2,22 @@
 
 Reads the FITASC "Règlements sportifs" page, finds the current English rulebooks and referees'
 quick guides for Sporting (pc) and Compak Sporting (cs), and compares them with rules/sources.json.
+Also fetches the FITASC age-categories page and compares the SHA-256 of the visible text of its
+category and national-team tables (key "categories_page"; source of docs/rules/data/categories.js).
 
 Usage:
   python scripts/fitasc_check.py              # report only; exit code 10 if anything changed
   python scripts/fitasc_check.py --download   # also download changed PDFs to rules/pdf/ and extract text
   python scripts/fitasc_check.py --accept     # after rebuilding the guide: write the new state to rules/sources.json
 """
-import hashlib, json, re, subprocess, sys, urllib.request
+import datetime, hashlib, html as htmllib, json, re, subprocess, sys, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "rules" / "sources.json"
 PDF_DIR = ROOT / "rules" / "pdf"
 PAGE = "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+CATEGORIES_PAGE = "https://www.fitasc.com/competitions/categories"
 UA = {"User-Agent": "Mozilla/5.0 (ClayArena rules check)"}
 PATTERNS = {
     "sporting_rules": r"https://api\.fitasc\.com/media/[^\"']*rglt-pc-eng[^\"']*\.pdf",
@@ -45,6 +48,24 @@ def current():
     return found
 
 
+def categories_page():
+    """Visible text of the age-category and national-team tables (the tables for the combined hunting
+    discipline further down the page are left out), tags stripped and spaces normalised."""
+    try:
+        page = get(CATEGORIES_PAGE).read().decode("utf-8", "replace")
+    except Exception as e:
+        return {"error": f"categories page not reachable: {e}"}
+    first = page.lower().find("<table")
+    stop = re.compile(r"COMBIN(?:É|&Eacute;|&#201;|E)\s+DE\s+CHASSE", re.I).search(page, max(first, 0))
+    end = stop.start() if stop else len(page)  # the hunting-combined section starts after the first tables
+    tables = [m.group(0) for m in re.finditer(r"<table\b.*?</table>", page[:end], re.S | re.I)]
+    if not tables:
+        return {"error": "categories table not found on the FITASC page"}
+    text = " ".join(re.sub(r"\s+", " ", htmllib.unescape(re.sub(r"<[^>]+>", " ", t))).strip() for t in tables)
+    return {"url": CATEGORIES_PAGE, "sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+            "checked": datetime.date.today().isoformat()}
+
+
 def download(key, info):
     PDF_DIR.mkdir(parents=True, exist_ok=True)
     path = PDF_DIR / info["file"]
@@ -62,7 +83,19 @@ def main():
     old = json.loads(SOURCES.read_text(encoding="utf-8")) if SOURCES.exists() else {}
     new = current()
     changed = []
+    cat = categories_page()
+    prev_cat = old.get("categories_page", {})
+    if "error" in cat:
+        changed.append(f"- **categories_page**: {cat['error']}")
+        new["categories_page"] = prev_cat or cat  # keep the stored baseline
+    else:
+        if cat["sha256"] != prev_cat.get("sha256"):
+            changed.append(f"- **categories_page**: the text of the age-category tables changed "
+                           f"({prev_cat.get('sha256', '-')[:12]} -> {cat['sha256'][:12]})\n  {cat['url']}")
+        new["categories_page"] = cat
     for key, info in new.items():
+        if key == "categories_page":
+            continue
         prev = old.get(key, {})
         if "error" in info:
             changed.append(f"- **{key}**: {info['error']}")
@@ -79,14 +112,16 @@ def main():
         text = ("# Оновився регламент FITASC\n\nЗмінилися документи:\n\n" + "\n".join(changed) +
                 "\n\nЩо зробити: завантажити нові PDF (`python scripts/fitasc_check.py --download`), "
                 "оновити `docs/rules/data/*.js` за новим текстом (номери сторінок, цифри, нові статті), "
-                "потім `python scripts/fitasc_check.py --accept`.\n")
+                "потім `python scripts/fitasc_check.py --accept`.\n"
+                "Якщо змінилася таблиця категорій (categories_page): звірити сторінку FITASC і оновити "
+                "`docs/rules/data/categories.js`, терміни категорій у глосарії та уроки Академії, потім `--accept`.\n")
         report.write_text(text, encoding="utf-8")
         print(text)
     else:
-        print("FITASC rulebooks: no changes")
+        print("FITASC rulebooks and categories page: no changes")
     if "--accept" in sys.argv:
         for key, info in new.items():
-            if "error" not in info and not info.get("sha256"):
+            if key != "categories_page" and "error" not in info and not info.get("sha256"):
                 p = PDF_DIR / info["file"]
                 if p.exists():
                     info["sha256"] = hashlib.sha256(p.read_bytes()).hexdigest()

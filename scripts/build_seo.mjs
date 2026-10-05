@@ -185,6 +185,7 @@ ${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p><p lang="en">${e
 ${disc ? `<h2>У Sporting і Compak</h2>${disc}` : ""}
 ${t.uk_usage && t.uk_usage !== "—" ? `<h2>Як кажуть українською</h2><p>${esc(t.uk_usage)}</p>` : ""}
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
 ${(t.learn || []).filter(id => LESSON[id]).length ? `<h2>Де вивчити</h2><ul>${t.learn.filter(id => LESSON[id]).slice(0, 6).map(id => `<li><a href="${BASE}learn/${id}/">${esc(LESSON[id].title_uk)}</a> · ${esc(LESSON[id].module.title_uk)}</li>`).join("")}</ul>` : ""}
 ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: t.aka || [], description: `${t.short_uk} / ${t.short_en}`, termCode: t.id, url, inDefinedTermSet: SET, inLanguage: ["uk", "en"] },
@@ -207,7 +208,7 @@ ${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t
 // Lesson new_terms that are not in the rules glossary become extra glossary entries (source "academy")
 // so every term chip has a page; they link back to the lesson that explains them.
 window.LEARN = [];
-for (const m of ["intro", "safety", "gun", "chokes", "cartridges", "targets", "technique", "competitions", "rules", "culture", "clayarena"]) {
+for (const m of ["intro", "safety", "gun", "chokes", "cartridges", "targets", "technique", "competitions", "rules", "culture", "clayarena", "gear", "training", "juniors", "travel"]) {
   try { await import(`../docs/learn/data/${m}.js`); } catch (e) { /* module not written yet */ }
 }
 const LEARN = window.LEARN.sort((a, b) => a.order - b.order);
@@ -277,7 +278,60 @@ ${(l.body_en || []).map(p => `<p lang="en">${esc(p)}</p>`).join("\n")}
   return LEARN.length ? [BASE + "learn/", ...out] : [];
 }
 
+// ---------------------------------------------------------------------------------------------------
+// FITASC age categories (not in the discipline rulebooks; source: fitasc.com/competitions/categories).
+// Data: docs/rules/data/categories.js (window.FITASC_CATEGORIES). Output: docs/rules/categories/index.html.
+// The weekly checker (scripts/fitasc_check.py) watches the source page for changes.
+function categoriesPage() {
+  try { /* loaded below */ } catch (e) {}
+  const C = window.FITASC_CATEGORIES; if (!C) return [];
+  const url = BASE + "rules/categories/";
+  const title = "Категорії FITASC: Junior, Lady, Men, Senior, Veteran, Master — вік | ClayArena";
+  const desc = `Хто такий Junior, Lady, Senior, Veteran і Master у Sporting™ і Compak® Sporting: вікові межі FITASC з ${C.valid_from.split("-").reverse().join(".")}, правила національних команд.`;
+  const rows = C.categories.map(c => `<tr><td><b>${esc(c.name_en)}</b> <span class="ref">(${esc(c.name_fr)} · ${esc(c.name_uk)})</span></td><td>${c.to_age ? `${c.from_age}–${c.to_age}` : `${c.from_age}+`}</td><td>${esc(c.rule_uk)}</td></tr>`).join("");
+  const teams = (C.teams || []).map(t => `<tr><td><b>${esc(t.team)}</b></td><td>${esc(t.eligible_uk)}</td><td>${esc(String(t.size || ""))}</td><td>${esc(t.note_uk || "")}</td></tr>`).join("");
+  const faq = C.categories.map(c => ({ "@type": "Question", name: `Хто такий ${c.name_en} у стендовій стрільбі (FITASC)?`, acceptedAnswer: { "@type": "Answer", text: c.rule_uk } }));
+  const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, url, inLanguage: "uk", isBasedOn: { "@type": "WebPage", name: "FITASC — Catégories, limites d'âge", url: C.source_url } },
+    { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq }];
+  const html = `<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="ClayAway · ClayArena">
+<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}og/rules.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/rules.png">
+<meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
+${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
+<style>${CSS}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}th{color:var(--muted);font-size:12px;text-transform:uppercase}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}</style>
+</head>
+<body>
+<header><div class="in"><a class="logo" href="${BASE}rules/"><b>ClayArena</b></a><nav class="crumbs"><a href="${BASE}rules/">Правила FITASC</a> › Категорії</nav></div></header>
+<main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
+<div class="src">FITASC · Sporting™ · Compak® Sporting</div>
+<h1>Категорії FITASC: хто такий Junior, Lady, Senior, Veteran, Master</h1>
+<p>Вікові категорії однакові для Parcours de Chasse – Sporting™, Compak® Sporting та інших дисциплін FITASC. Діють з ${C.valid_from.split("-").reverse().join(".")}. Значення має лише <b>рік</b> народження, а не день і місяць. Національні й клубні змагання можуть мати власні категорії — дивіться програму змагань.</p>
+<h2>Категорії і вік</h2><div class="tw"><table><thead><tr><th>Категорія</th><th>Вік</th><th>Правило</th></tr></thead><tbody>${rows}</tbody></table></div>
+${teams ? `<h2>Національні команди</h2><div class="tw"><table><thead><tr><th>Команда</th><th>Хто може</th><th>Склад</th><th>Примітка</th></tr></thead><tbody>${teams}</tbody></table></div>` : ""}
+${(C.notes_uk || []).length ? `<ul>${C.notes_uk.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
+<p class="src">Джерело: <a href="${esc(C.source_url)}" ${NF}>FITASC — Catégories, limites d'âge ↗</a> · ${TODAY}</p>
+<div class="cta"><a class="btn primary" href="${BASE}rules/">Довідник правил</a><a class="btn" href="${BASE}glossary/">Глосарій</a><a class="btn" href="${BASE}learn/">Академія ClayArena</a></div>
+<div class="disc">Наш переказ офіційних категорій FITASC. Чинним є лише текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>
+</main></body></html>`;
+  mkdirSync("docs/rules/categories", { recursive: true });
+  writeFileSync("docs/rules/categories/index.html", html);
+  return [url];
+}
+try { await import("../docs/rules/data/categories.js"); } catch (e) { console.log("categories data not found yet"); }
+
 const urls = [BASE + "rules/", BASE + "rules/trainer/"];
+urls.push(...categoriesPage());
 urls.push(...lessonPages());
 for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
 urls.push(...glossaryPages());

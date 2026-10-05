@@ -714,32 +714,34 @@ window.LEARN.push({
    "id": "competitions-categories-and-shoot-offs",
    "title_uk": "Категорії, класи і перестрілки",
    "title_en": "Categories, classes and shoot-offs",
-   "minutes": 5,
-   "summary_uk": "Загальний залік і категорії, класи в деяких країнах, а також як визначають переможців, коли результати рівні: перестрілка, sudden death і countback.",
-   "summary_en": "The open ranking and categories, classes in some countries, and how winners are decided when scores are tied: shoot-off, sudden death and countback.",
+   "minutes": 6,
+   "summary_uk": "Загальний залік і категорії FITASC (з 2027 року), класи в деяких країнах, а також як визначають переможців, коли результати рівні: перестрілка, sudden death і countback.",
+   "summary_en": "The open ranking and the FITASC categories (from 2027), classes in some countries, and how winners are decided when scores are tied: shoot-off, sudden death and countback.",
    "body_uk": [
-    "На змаганнях із Parcours de Chasse – Sporting™ і Compak® Sporting є загальний залік (open), де всі стрільці змагаються разом, і окремі заліки за категоріями (category). Зазвичай це вікові й гендерні групи, наприклад Lady, Junior, Senior, Veteran, Super Veteran. Точний перелік і вікові межі визначають регламенти FITASC і національних федерацій та програма змагань, тож перевіряйте їх там. Один і той самий результат може принести медаль і в загальному заліку, і в категорії.",
+    "На змаганнях із Parcours de Chasse – Sporting™ і Compak® Sporting є загальний залік (open), де всі стрільці змагаються разом, і окремі заліки за категоріями (category) — за віком і статтю. З 1 січня 2027 року міжнародні правила FITASC встановлюють шість категорій: Junior (13–20 років), Lady (з 13 років), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) і Master (з 73 років, чоловіки й жінки). Вік рахують за роком народження: нова категорія починається 1 січня того року, коли вам виповнюється потрібний вік, а не в день народження. Зверніть увагу: Senior — це не основна доросла категорія, а стрільці 56–65 років; основна доросла — Men. Один і той самий результат може принести медаль і в загальному заліку, і в категорії.",
+    "Це правила FITASC для міжнародних змагань. Національні федерації й клуби можуть мати власні категорії та вікові межі, тож перед реєстрацією завжди дивіться програму змагань. Командні заліки категорій мають по 3 стрільці (команда Men у Sporting — 4). До команди Men можуть входити також юніори, Senior, Veteran і Master, а стрілець, включений до команди іншої категорії, мусить виступати в ній і в особистому заліку.",
     "Класи (class) — це інше: у деяких країнах стрільців ділять на класи (наприклад AA, A, B, C) за середніми результатами, щоб люди змагалися з рівними за рівнем. Категорія залежить від віку чи статі, клас — від результатів. Міжнародні правила FITASC класів не встановлюють; це національні системи.",
     "Якщо після всіх мішеней у кількох стрільців однаковий результат за перші три місця, проводять перестрілку (shoot-off). Це раунд із 25 мішеней. Якщо рівність лишається, стріляють далі за системою sudden death: хто першим промахнувся, вибуває, за умови що всі зробили однакову кількість пострілів. У Compak перестрілки проводять за перші три місця і в загальному заліку, і в кожній категорії, на Compak з однією поодинокою мішенню і двома одночасними дуплетами на кожному місці.",
     "На перестрілку треба прийти швидко. Якщо час заздалегідь не призначено, будьте на зв’язку з журі: стріляти доведеться протягом 15 хвилин після виклику. Хто не з’явився, вибуває. Порожні місця в групі на перестрілці не заповнюють.",
     "Нижче третього місця перестрілок немає. Стрільці з однаковим результатом ділять місце, а в протоколі їх розставляють за countback: порівнюють результат на 8-му layout (чи 8-му Compak), потім на 7-му і так далі до 1-го. Команди з однаковим результатом теж розводять за сумою на 8-му layout, потім 7-му і далі; командних перестрілок немає."
    ],
    "body_en": [
-    "Parcours de Chasse – Sporting™ and Compak® Sporting competitions have an open ranking, where all shooters compete together, and separate category rankings. These are usually age and gender groups such as Lady, Junior, Senior, Veteran and Super Veteran. The exact list and age limits are set by FITASC and national federation regulations and by the competition programme, so check them there. The same score can earn a medal both in the open ranking and in a category.",
+    "Parcours de Chasse – Sporting™ and Compak® Sporting competitions have an open ranking, where all shooters compete together, and separate category rankings by age and sex. From 1 January 2027 the international FITASC rules set six categories: Junior (13–20), Lady (from 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) and Master (from 73, men or women). Age counts by year of birth: a new category starts on 1 January of the year in which you reach the age, not on your birthday. Note that Senior is not the main adult category but shooters aged 56–65; the main adult category is Men. The same score can earn a medal both in the open ranking and in a category.",
+    "These are FITASC rules for international competitions. National federations and clubs may use their own categories and age limits, so always check the programme before you enter. Category teams have 3 shooters (the Men team in Sporting has 4). The Men team may also include juniors, Senior, Veteran and Master shooters, and a shooter selected for a team of another category must also enter that category individually.",
     "Classes are different: in some countries shooters are divided into classes (for example AA, A, B, C) by their averages, so that people compete against others of a similar level. A category depends on age or sex, a class on results. The international FITASC rules do not set classes; these are national systems.",
     "If after all targets several shooters are tied for the top three places, there is a shoot-off. It is a round of 25 targets. If they are still tied, shooting continues as sudden death: the first to miss is out, provided all have shot the same number of targets. In Compak shoot-offs decide the top three places both in the open ranking and in each category, on a Compak with one single and two simultaneous doubles per station.",
     "Be quick to arrive for a shoot-off. If no time was set in advance, stay in contact with the jury: you will have to shoot within 15 minutes of being called. Anyone who does not appear is out. Empty places in a shoot-off squad are not filled.",
     "Below third place there are no shoot-offs. Tied shooters share the place and are listed by countback: their scores on the 8th layout (or 8th Compak) are compared, then on the 7th, and so on back to the 1st. Tied teams are also separated by their total on the 8th layout, then the 7th and so on; there is no team shoot-off."
    ],
    "key_points_uk": [
-    "Загальний залік (open) + категорії за віком і статтю; перелік — у програмі.",
+    "Open + категорії FITASC з 2027 року: Junior 13–20, Lady з 13, Men 21–55, Senior 56–65, Veteran 66–72, Master з 73; на національних змаганнях — за програмою.",
     "Класи (AA, A, B, C…) — національні системи за середнім результатом.",
     "Рівність за 1–3 місця: перестрілка 25 мішеней, далі sudden death.",
     "На перестрілку — протягом 15 хвилин після виклику.",
     "Нижче 3-го місця — countback від 8-го layout до 1-го; командних перестрілок немає."
    ],
    "key_points_en": [
-    "Open ranking plus age and gender categories; the list is in the programme.",
+    "Open plus FITASC categories from 2027: Junior 13–20, Lady 13+, Men 21–55, Senior 56–65, Veteran 66–72, Master 73+; national events follow their programme.",
     "Classes (AA, A, B, C…) are national systems based on averages.",
     "Ties for 1st–3rd: a 25-target shoot-off, then sudden death.",
     "Be ready to shoot within 15 minutes of the call.",
@@ -748,6 +750,12 @@ window.LEARN.push({
    "terms": [
     "open-ranking",
     "category",
+    "junior",
+    "lady",
+    "men-category",
+    "senior",
+    "veteran",
+    "master-category",
     "shooter-class",
     "shoot-off",
     "sudden-death",
@@ -826,8 +834,8 @@ window.LEARN.push({
       }
      ],
      "answer": 0,
-     "explain_uk": "Lady, Junior, Veteran — категорії; AA, A, B, C — класи за середнім результатом.",
-     "explain_en": "Lady, Junior, Veteran are categories; AA, A, B, C are classes by average."
+     "explain_uk": "Junior, Lady, Senior, Veteran — категорії за віком чи статтю; AA, A, B, C — класи за середнім результатом.",
+     "explain_en": "Junior, Lady, Senior and Veteran are categories by age or sex; AA, A, B, C are classes by average."
     },
     {
      "q_uk": "Скільки мішеней у першому раунді перестрілки?",
