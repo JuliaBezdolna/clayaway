@@ -5,28 +5,14 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ClayAway — концепція і ТЗ</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
-  --paper:#F4F6F3; --surface:#FFFFFF; --ink:#16211C; --muted:#5B6862; --line:#D8DFDA;
-  --clay:#D9501C; --clay-soft:#FBE7DE; --field:#2E5B48; --field-soft:#E3EDE7;
-  --display:"Roboto Condensed","Arial Narrow",Arial,sans-serif;
-  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    color-scheme:dark;
-    --paper:#111814; --surface:#18211C; --ink:#E6ECE8; --muted:#9AA8A1; --line:#2C3832;
-    --clay:#F07745; --clay-soft:#3A231A; --field:#7FBF9F; --field-soft:#1F3229;
-  }
-}
-:root[data-theme="dark"]{
   color-scheme:dark;
-  --paper:#111814; --surface:#18211C; --ink:#E6ECE8; --muted:#9AA8A1; --line:#2C3832;
-  --clay:#F07745; --clay-soft:#3A231A; --field:#7FBF9F; --field-soft:#1F3229;
+  --paper:#030712; --surface:#0B1120; --ink:#F3F4F6; --muted:#9CA3AF; --line:rgba(255,255,255,.1);
+  --clay:#FB923C; --clay-soft:rgba(251,146,60,.14); --field:#34D399; --field-soft:rgba(16,185,129,.15);
+  --display:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SFMono-Regular",Consolas,monospace;
 }
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
@@ -255,13 +241,21 @@ footer{margin-top:64px;color:var(--muted);font-size:13px;border-top:1px solid va
 a{color:var(--field)}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
 html{scroll-behavior:smooth}
+
+.ca-logo{display:inline-block;background:#000;border-radius:7px;padding:1px 9px;font-size:14px;box-shadow:0 0 14px rgba(52,211,153,.25)}
+.ca-logo b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
+.card,.package div,.tbl,.tree,.story,.phase,.zone,.mock,.ex,.qa,.tp-buy,.kpis div,.mock-card,.mock-bar,.mock-nav{background:rgba(255,255,255,.04)!important}
+.card-top{background:linear-gradient(135deg,#064E3B,#0B1120)!important;color:#fff!important}
+th{background:rgba(255,255,255,.03)!important}
+h1,h2,h3{letter-spacing:-.01em}
+.btn.primary{background:#059669;border-color:#059669}
 </style>
 </head>
 <body>
 
 <div class="wrap">
 <nav class="toc" aria-label="Зміст">
-  <div class="brand"><span class="clay-dot" aria-hidden="true"></span>ClayAway</div>
+  <div class="brand"><span class="ca-logo"><b>ClayArena</b></span><span>ClayAway</span></div>
   <div class="part">Продукт</div>
   <ol>
     <li><a href="#idea">Ідея</a></li>
