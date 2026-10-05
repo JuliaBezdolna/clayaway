@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClayAway</title>
+<style>
+:root{color-scheme:dark;--bg:#030712;--card:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--ink:#F3F4F6;--muted:#9CA3AF;--accent:#34D399}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding-inline:16px;padding-block:56px}
+.logo{display:inline-block;background:#000;border-radius:8px;padding:3px 12px;font-weight:700;font-size:20px;box-shadow:0 0 18px rgba(52,211,153,.25)}
+.logo b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1{font-size:clamp(32px,6vw,48px);margin:18px 0 6px;letter-spacing:-.01em}
+p{color:var(--muted);margin:0 0 28px;max-width:62ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+a.card{display:grid;gap:6px;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+a.card:hover,a.card:focus-visible{border-color:rgba(52,211,153,.5);outline:none}
+.k{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.card b{font-size:18px}
+.card span{font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="logo"><b>ClayArena</b></span>
+  <h1>ClayAway</h1>
+  <p>Новое направление ClayArena: организованные туры с тренером. Здесь ТЗ для разработчиков и два примера туров в дизайне ClayArena.</p>
+  <div class="grid">
+    <a class="card" href="concept/"><span class="k">ТЗ</span><b>Концепция и техническое задание</b><span>роли, доступы, общение, админка, деньги, сущности, этапы</span></a>
+    <a class="card" href="dornsberg/"><span class="k">Пример 1</span><b>Dornsberg Training Days</b><span>Markus Leibinger · Lena Weigele · Dornsberg Shooting Ground</span></a>
+    <a class="card" href="sologne/"><span class="k">Пример 2</span><b>Sologne Week</b><span>Charles Bardou · Anna Karpulianskaia · Sologne Shooting Club</span></a>
+  </div>
+</div>
+</body>
+</html>

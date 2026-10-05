@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sologne Week · ClayAway</title>
+<style>
+html,body{margin:0}
+
+:root{
+  color-scheme:dark;
+  --paper:#030712; --surface:#0B1120; --surface2:#111827; --ink:#F3F4F6; --muted:#9CA3AF; --line:rgba(255,255,255,.1);
+  --field:#34D399; --field-soft:rgba(16,185,129,.15); --on-accent:#022C22; --primary:#059669;
+  --clay:#FB923C; --clay-soft:rgba(251,146,60,.14); --cyan:#22D3EE;
+  --display:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SFMono-Regular",Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0}
+a{color:var(--field)}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--clay);outline-offset:2px}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.top-in{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:10px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px}
+.brand{display:flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;font-size:19px}
+.brand small{font-family:var(--body);font-weight:400;font-size:12.5px;color:var(--muted)}
+.dot{width:13px;height:13px;border-radius:50%;background:var(--clay);box-shadow:inset 0 0 0 3px var(--surface),0 0 0 2px var(--clay);flex:none}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--paper)}
+.seg button{border:0;background:transparent;padding:6px 12px;font-size:13.5px;color:var(--muted);white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--field);color:var(--on-accent);font-weight:600}
+.seg.tours button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.top .spacer{flex:1}
+.proto{font-size:12px;color:var(--muted)}
+main{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 64px}
+.eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.09em;font-size:12.5px;color:var(--clay);font-weight:700}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,5vw,46px);line-height:1.05;margin:4px 0 8px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:700;font-size:24px;margin:0 0 12px}
+h3{font-family:var(--display);font-weight:700;font-size:18px;margin:0 0 6px}
+p{margin:0 0 10px;max-width:70ch}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+/* gallery */
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:130px 130px;gap:8px;margin-bottom:18px}
+.ph{border-radius:10px;display:flex;align-items:flex-end;padding:10px 12px;font-size:12.5px;color:var(--ink);min-width:0;position:relative;overflow:hidden;background:var(--field-soft)}
+.ph::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,transparent 0 14px,rgba(46,91,72,.06) 14px 15px)}
+.ph span{position:relative;background:var(--surface);padding:2px 8px;border-radius:4px}
+.ph.big{grid-row:span 2;background:linear-gradient(160deg,var(--field-soft),var(--clay-soft))}
+.ph.video span::before{content:"▶ ";color:var(--clay)}
+@media (max-width:640px){.gallery{grid-template-columns:1fr 1fr;grid-template-rows:150px 90px 90px}.ph.big{grid-column:span 2;grid-row:auto}.ph.extra{display:none}}
+/* layout */
+.page{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start}
+@media (max-width:900px){.page{grid-template-columns:1fr}}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--muted);margin-bottom:10px}
+.facts b{color:var(--ink);font-variant-numeric:tabular-nums}
+.langbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:6px 0 14px;font-size:13px;color:var(--muted)}
+.langbar .seg button{padding:3px 9px;font-size:12.5px}
+.seats{display:flex;align-items:center;flex-wrap:wrap;gap:4px;margin:8px 0}
+.seats i{width:13px;height:13px;border-radius:50%;border:2px solid var(--clay)}
+.seats i.t{background:var(--line);border-color:var(--line)}
+.seats i.h{background:var(--clay)}
+.seats b{margin-left:6px;color:var(--clay);font-size:14px}
+.seats b.ok{color:var(--field)}
+.seats small{margin-left:8px;color:var(--muted);font-size:12.5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 18px}
+.chips span{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;background:var(--surface);color:var(--muted)}
+section.blk{margin-top:30px;scroll-margin-top:80px}
+.people{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.person{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:6px;align-content:start}
+.person .role{font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--clay)}
+.person h3{margin:0;font-size:19px}
+.person ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--muted)}
+.person li{margin:2px 0}
+.avatar{width:44px;height:44px;border-radius:50%;background:var(--field-soft);color:var(--field);display:grid;place-items:center;font-family:var(--display);font-weight:700;font-size:16px}
+.person .hd{display:flex;gap:12px;align-items:center}
+.days{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface)}
+.day{display:grid;grid-template-columns:120px 1fr;border-bottom:1px solid var(--line)}
+.day:last-child{border-bottom:0}
+.day > div:first-child{padding:10px 12px;background:var(--paper);border-right:1px solid var(--line)}
+.day > div:first-child b{font-family:var(--display);font-size:15px;display:block}
+.day > div:first-child small{font-size:12px;color:var(--muted)}
+.day ul{list-style:none;margin:0;padding:8px 12px;display:grid;gap:4px;font-size:14px}
+.day li{display:grid;grid-template-columns:100px 1fr;gap:8px}
+.day li time{font-family:var(--mono);font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:1px}
+.day li.team{opacity:.8}
+.day li.now{background:var(--clay-soft);margin:0 -8px;padding:3px 8px;border-radius:6px}
+@media (max-width:560px){.day{grid-template-columns:1fr}.day > div:first-child{border-right:0;border-bottom:1px solid var(--line)}.day li{grid-template-columns:86px 1fr}}
+.tag{display:inline-block;font-size:10.5px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:0 6px;border-radius:4px;margin-right:6px;vertical-align:1px}
+.tag.training{background:var(--clay-soft);color:var(--clay)}
+.tag.transfer{background:var(--field-soft);color:var(--field)}
+.tag.meal{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
+.tag.activity{background:var(--field);color:var(--on-accent)}
+.tag.team{background:transparent;color:var(--muted);border:1px dashed var(--muted)}
+.tag.free{background:transparent;color:var(--field);border:1px solid var(--field)}
+.cols2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.check{list-style:none;padding:0;margin:0;display:grid;gap:5px;font-size:14px}
+.check li::before{content:"✓";color:var(--field);font-weight:700;margin-right:8px}
+.check.no li::before{content:"–";color:var(--muted)}
+.note{background:var(--clay-soft);border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0}
+.note b{color:var(--clay)}
+details{border-top:1px solid var(--line);padding:10px 0}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-weight:600}
+details p{margin:8px 0 0;color:var(--muted)}
+/* Q&A */
+.qa{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:12px}
+.ask{display:grid;gap:8px}
+.ask textarea{width:100%;min-height:62px;resize:vertical;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font:inherit;font-size:14px;background:var(--paper);color:var(--ink)}
+.ask-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ask-row .hint{font-size:12.5px;color:var(--muted);flex:1 1 200px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:8px 14px;font-weight:600;font-size:14px}
+.btn.primary{background:var(--clay);border-color:var(--clay);color:#fff}
+.btn.full{width:100%}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.qitem{border-top:1px solid var(--line);padding-top:10px;display:grid;gap:6px;font-size:14px}
+.qitem .who{font-size:12.5px;font-weight:600}
+.qitem .who span{font-weight:400;color:var(--muted)}
+.qitem .ans{margin-left:14px;padding-left:12px;border-left:2px solid var(--field)}
+.pill{display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:999px;margin-left:4px;white-space:nowrap;vertical-align:1px}
+.pill.ok{background:var(--field-soft);color:var(--field)}
+.pill.warn{background:var(--clay-soft);color:var(--clay)}
+.pill.info{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
+.flash{background:var(--field-soft);color:var(--field);border-radius:8px;padding:8px 12px;font-size:13.5px}
+/* buy box */
+.buy{position:sticky;top:calc(env(safe-area-inset-top,0px) + 70px);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:10px;box-shadow:0 8px 24px rgba(22,33,28,.07)}
+@media (max-width:900px){.buy{position:static}}
+.price{display:flex;align-items:baseline;gap:6px}
+.price b{font-family:var(--display);font-size:34px;line-height:1;font-variant-numeric:tabular-nums}
+.opts{display:grid;gap:6px;font-size:13.5px}
+.opts label{display:flex;gap:8px;align-items:center;cursor:pointer}
+.opts label span:last-child{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
+.opts input{accent-color:var(--clay)}
+.total{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:8px;font-size:14px}
+.total b{font-variant-numeric:tabular-nums}
+.held{background:var(--clay-soft);border-radius:8px;padding:8px 10px;font-size:13.5px}
+.held b{font-family:var(--mono);color:var(--clay)}
+/* group & dashboard */
+.ghead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px;margin-bottom:18px}
+.lock{font-size:12.5px;background:var(--clay-soft);color:var(--clay);padding:3px 10px;border-radius:999px;font-weight:600}
+.grid3{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;align-items:start}
+@media (max-width:900px){.grid3{grid-template-columns:1fr}}
+.now{background:var(--surface);border:2px solid var(--clay);border-radius:12px;padding:14px 16px;display:grid;gap:8px}
+.now .lbl{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--clay)}
+.now .item{font-size:16px;font-weight:600}
+.now .next{font-size:14px;color:var(--muted)}
+.chat{display:grid;gap:8px}
+.msg{background:var(--paper);border-radius:10px;padding:8px 12px;font-size:14px;max-width:92%}
+.msg.mine{justify-self:end;background:var(--field-soft)}
+.msg .who{font-size:12px;font-weight:600}
+.msg .tr{font-size:12px;color:var(--field);margin-top:2px}
+.ann{border-left:3px solid var(--clay);padding:4px 0 4px 12px;font-size:14px;margin-bottom:10px}
+.ann small{display:block;color:var(--muted);font-size:12px}
+.tabs-in{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.tabs-in span{font-size:12.5px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.tabs-in span.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.docs{list-style:none;padding:0;margin:0;display:grid;gap:6px;font-size:14px}
+.docs li{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.docs li > .pill{flex:none}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:16px}
+.kpis div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:2px}
+.kpis small{color:var(--muted);font-size:12.5px}
+.kpis b{font-family:var(--display);font-size:26px;font-variant-numeric:tabular-nums;line-height:1.1}
+.kpis span{font-size:12.5px;color:var(--muted)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+th{font-family:var(--display);font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:var(--paper)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.todo{list-style:none;padding:0;margin:0;display:grid;gap:8px;font-size:14px}
+.todo .pill{margin:0 8px 0 0}
+footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:12px}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+
+body{background:var(--paper)}
+.top{background:rgba(3,7,18,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.logo{position:relative;display:inline-flex;text-decoration:none}
+.logo::before{content:"";position:absolute;inset:-4px;border-radius:10px;background:linear-gradient(90deg,#34D399,#22D3EE);opacity:.25;filter:blur(6px)}
+.logo span{position:relative;background:#000;border-radius:8px;padding:3px 12px;font-weight:700;font-size:19px;background-clip:padding-box}
+.logo span b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
+.byca{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.sitenav{display:flex;gap:2px;flex-wrap:wrap;font-size:13.5px}
+.sitenav span{padding:5px 9px;border-radius:8px;color:rgba(255,255,255,.7)}
+.sitenav span.on{background:var(--field-soft);color:var(--field);font-weight:600}
+@media (max-width:1100px){.sitenav{display:none}}
+.sub{border-bottom:1px solid var(--line);background:linear-gradient(180deg,rgba(6,78,59,.55),rgba(3,7,18,0))}
+.sub-in{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:10px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.svc{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px}
+.svc i{font-style:normal;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:linear-gradient(90deg,#34D399,#22D3EE);color:#022C22;padding:2px 8px;border-radius:999px}
+.seg{background:rgba(255,255,255,.04);border-color:var(--line)}
+.seg button[aria-pressed="true"]{background:var(--primary);color:#fff}
+.seg.tours button[aria-pressed="true"]{background:#fff;color:#030712}
+.eyebrow{color:var(--field);letter-spacing:.06em}
+h1,h2,h3{letter-spacing:-.01em}
+.box,.person,.qa,.days,.tbl,.kpis div,.chips span{background:rgba(255,255,255,.04);border-color:var(--line)}
+.day > div:first-child,th{background:rgba(255,255,255,.03)}
+.buy{background:var(--surface2);border-color:rgba(52,211,153,.25);box-shadow:0 0 0 1px rgba(52,211,153,.05),0 20px 40px rgba(0,0,0,.4)}
+.btn{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.15);border-radius:8px}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.btn.primary:hover{background:#10B981}
+.ph{background:linear-gradient(160deg,#0F2A22,#0B1120)}
+.ph.big{background:linear-gradient(160deg,#064E3B,#0B1120 70%)}
+.ph::before{background:repeating-linear-gradient(135deg,transparent 0 14px,rgba(52,211,153,.05) 14px 15px)}
+.ph span{background:rgba(0,0,0,.6);color:#fff}
+.ph.video span::before{color:var(--field)}
+.avatar{background:linear-gradient(135deg,rgba(52,211,153,.25),rgba(34,211,238,.2));color:#fff}
+.person .role{color:var(--field)}
+.ask textarea{background:rgba(0,0,0,.35)}
+.msg{background:rgba(255,255,255,.05)}
+.msg.mine{background:rgba(16,185,129,.15)}
+.tag.activity{background:rgba(34,211,238,.15);color:var(--cyan)}
+.tag.meal{background:rgba(255,255,255,.06);color:#D1D5DB;border-color:var(--line)}
+.tabs-in span.on{background:#fff;color:#030712;border-color:#fff}
+.lock{background:var(--clay-soft);color:var(--clay)}
+.now{background:rgba(251,146,60,.06)}
+.seats i.t{background:rgba(255,255,255,.18);border-color:transparent}
+.flash{background:var(--field-soft);color:var(--field)}
+.note{background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.2)}
+.note b{color:var(--field)}
+.held{background:var(--clay-soft)}
+.tourlink{padding:6px 12px;font-size:13.5px;color:var(--muted);text-decoration:none;white-space:nowrap}
+.tourlink[aria-current="page"]{background:#fff;color:#030712;font-weight:600}
+
+.ph.media{padding:0;background:#000}
+.ph.media img,.ph.media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.ph.media.contain img{object-fit:contain;padding:10px;background:#0B1120}
+.ph.media::before{display:none}
+.ph .cap{position:absolute;left:8px;bottom:8px;right:auto;max-width:calc(100% - 16px);background:rgba(0,0,0,.65);color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;pointer-events:none}
+.ph.media video + .cap{bottom:auto;top:8px}
+.ph.todo{border:1px dashed rgba(52,211,153,.4);background:rgba(52,211,153,.05)}
+.ph.todo .cap{background:transparent;color:var(--field);position:relative;left:0;bottom:0}
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.vids figure{margin:0;display:grid;gap:6px}
+.vids video{width:100%;aspect-ratio:9/16;max-height:420px;object-fit:cover;background:#000;border-radius:10px;border:1px solid var(--line)}
+.vids figcaption{font-size:12.5px;color:var(--muted)}
+img.avatar{object-fit:cover;padding:0}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="top-in">
+    <a class="logo" href="https://clayarena.com/en/" aria-label="ClayArena home"><span><b>ClayArena</b></span></a>
+    <nav class="sitenav" aria-label="ClayArena sections"><span>Competitions</span><span>Recap</span><span>Calendar</span><span>Videos</span><span>Shooting Grounds</span><span>Coaches</span><span>Shooters</span><span class="on">ClayAway</span></nav>
+    <span class="spacer"></span>
+    <span class="proto">Prototype · sample data</span>
+  </div>
+</div>
+<div class="sub">
+  <div class="sub-in">
+    <span class="svc">ClayAway <i>Tours</i></span>
+    <span class="byca">Clay shooting trips with top coaches</span>
+    <span class="spacer" style="flex:1"></span>
+    <div class="seg tours" role="group" aria-label="Example tour">
+      <a class="tourlink" href="../dornsberg/" aria-current="false">1 · Dornsberg</a>
+      <a class="tourlink" href="../sologne/" aria-current="page">2 · Sologne</a>
+    </div>
+    <div class="seg" role="group" aria-label="Screen">
+      <button data-view="page" aria-pressed="true">Tour page</button>
+      <button data-view="group" aria-pressed="false">Group space</button>
+      <button data-view="dash" aria-pressed="false">Organizer</button>
+    </div>
+  </div>
+</div>
+<main id="app"></main>
+
+<script>
+const TOURS = {
+  t1: {
+    slug: "dornsberg-training-days",
+    title: "Dornsberg Training Days with Markus Leibinger",
+    where: "Germany · Lake Constance",
+    focus: "Training", disciplines: "Sporting · Compak Sporting",
+    dates: "Tue 13 – Sat 17 April 2027", days: 5, nights: 4, targets: "~150 targets a day",
+    tz: "Europe/Berlin (CEST)", closes: "16 March 2027",
+    places: 6, booked: 5, min: 4, guestsMax: 2, guests: 0,
+    price: 1950, deposit: 30, currency: "€",
+    options: [["single","Single room",280],["carts","Cartridges included (750 steel)",310],["guest","Non-shooting guest",890]],
+    langs: ["EN","DE","ES"],
+    about: {
+      EN: "Five days on one of Germany's most demanding FITASC layouts, above Lake Constance. Markus Leibinger works with each shooter on lines A–E and the Compak layouts. Lena Weigele, a Sporting shooter herself and Dornsberg regular, interprets every session into English and Spanish, so nothing gets lost between coach and shooter.",
+      DE: "Fünf Tage auf einem der anspruchsvollsten FITASC-Parcours Deutschlands, oberhalb des Bodensees. Markus Leibinger arbeitet mit jedem Schützen auf den Linien A–E und den Compak-Ständen. Lena Weigele, selbst Sporting-Schützin und auf dem Dornsberg zu Hause, übersetzt jede Einheit ins Englische und Spanische.",
+      ES: "Cinco días en uno de los recorridos FITASC más exigentes de Alemania, sobre el lago de Constanza. Markus Leibinger trabaja con cada tirador en las líneas A–E y en los campos de Compak. Lena Weigele, tiradora de Sporting y habitual de Dornsberg, traduce cada sesión al inglés y al español."
+    },
+    gallery: ["Line C, Dornsberg","Compak layout","Video: Markus Leibinger on rabbits","Lakeside hotel, Radolfzell","Reichenau island"],
+    chips: ["About","Program","Coach","Organizer","Shooting ground","What's included","Prices","Cancellation","FAQ","Questions"],
+    people: [
+      {role:"Coach", name:"Markus Leibinger", init:"ML", url:"https://clayarena.com/en/coaches/markus-leibinger-15/",
+       lines:["Germany · Deutscher Schützenbund","Sporting, Compak Sporting, Compak InLine","Coaching language: German","Regions: International, Germany"]},
+      {role:"Organizer + Interpreter", name:"Lena Weigele", init:"LW", url:"https://clayarena.com/en/shooters/9655/",
+       lines:["Germany · D.S.B. · Ladies","Sporting and Compak shooter, 13 competitions","Home ground: Dornsberg","Speaks German, English, Spanish"]},
+      {role:"Shooting ground", name:"Dornsberg Shooting Ground", init:"DB", url:"https://clayarena.com/en/stands/66-dornsberg-shooting-ground/",
+       lines:["Eigeltingen, Germany","23 stands on lines A–E, ~200 traps","4 Compak layouts, restaurant, pro shop","Open Wednesday to Saturday"]}
+    ],
+    groundNote: "<b>Dornsberg rules:</b> lead is banned. Steel shot only, up to 2.5 mm and 28 g. The ground opens Wednesday to Saturday, so the tour starts on Tuesday evening.",
+    program: [
+      {d:"Tue 13 Apr", s:"Arrival", items:[["14:00–16:00","transfer","Zürich airport → hotel in Radolfzell"],["19:30","meal","Welcome dinner. Lena walks through the week and the ground rules"],["21:00","team","Coach and interpreter briefing"]]},
+      {d:"Wed 14 Apr", s:"Sporting", items:[["09:15","transfer","Hotel → Dornsberg"],["10:00–12:30","training","Lines A–B: stance, mount, reading targets"],["12:30–13:30","meal","Lunch at the Dornsberg restaurant"],["13:30–17:30","training","Lines C–E: rabbits and long crossers"]]},
+      {d:"Thu 15 Apr", s:"Compak", items:[["10:00–12:30","training","Compak, all 4 layouts"],["13:30–16:30","training","Video review with Markus, interpreted into EN / ES"],["18:30","activity","Reichenau island: wine tasting and dinner by the lake"]]},
+      {d:"Fri 16 Apr", s:"Sporting", items:[["10:00–12:30","training","Personal weak points, one by one"],["15:00–21:00","activity","Konstanz old town and group dinner"]]},
+      {d:"Sat 17 Apr", s:"Departure", items:[["09:00–12:30","training","Control round, 100 targets. Final notes from Markus"],["13:30","transfer","Dornsberg → Zürich airport"]]}
+    ],
+    included: ["4 nights in a 4★ lakeside hotel, breakfast","3 group dinners and the Reichenau evening","4 training days with Markus Leibinger (~20 h)","About 600 targets","Interpreting German → English / Spanish","Airport and daily transfers"],
+    excluded: ["Flights","Cartridges (option: 750 steel, +€310)","Lunches","Travel and gun insurance"],
+    cancel: "More than 60 days before the start: full refund minus the 30% deposit. 60 to 30 days: 50% refund. Less than 30 days: no refund unless your place is resold.",
+    faq: [["Can I rent a gun?","Yes, Dornsberg rents guns. Tell us your preferences when you book."],["Do I need a European Firearms Pass?","Yes, if you bring your own gun from another EU country. Upload it in the group space before the trip."],["What level do I need?","Any level from two seasons up. The group is six shooters at most."]],
+    qa: [
+      {who:"Pablo",from:"ES",q:"Can I buy steel cartridges at the ground, or should I bring my own?",by:"Lena Weigele",byRole:"Organizer",a:"The pro shop sells steel loads up to 28 g. Choose “Cartridges included” and 750 will be waiting for you at the ground."},
+      {who:"Emma",from:"UK",q:"Is this tour right for me if I have only shot for two seasons?",by:"Markus Leibinger",byRole:"Coach",a:"Yes. With six shooters at most, I set the pace and the stands for each person.",tr:"Translated from German by Lena"}
+    ],
+    organizer: "Lena",
+    now: {day:"Wed 14 Apr · 10:40", item:"Lines A–B with Markus: stance, mount, reading targets", where:"Dornsberg, line A · meeting point at the pro shop", next:"12:30 Lunch at the Dornsberg restaurant"},
+    announcements: [["Lena · today 08:05","Bus leaves the hotel at 09:15. Bring ear protection, the shop opens at 10:00."],["Markus · yesterday","Tomorrow we start on line A. Please arrive with your gun assembled."]],
+    chat: [["Carmen · ES","¿Alguien comparte taxi desde Zúrich el martes?","Translated: Anyone sharing a taxi from Zürich on Tuesday?",false],["James · UK","I land 13:20, happy to share.",null,false],["Lena · Organizer","No taxi needed, the transfer is included. I will meet you at arrivals.",null,true]],
+    docs: [["Voucher and hotel address","Ready","ok"],["European Firearms Pass","Uploaded","ok"],["Travel insurance","Missing","warn"],["Ground rules (steel only)","Read","ok"]],
+    participants: [["James M.","UK","Paid","ok",1950],["Carmen R.","ES","Paid","ok",2260],["Petr N.","CZ","Deposit","warn",585],["Anders B.","SE","Paid","ok",1950],["Martín L.","AR","Paid","ok",2230]],
+    todo: [["warn","Documents","2 shooters haven't uploaded their European Firearms Pass"],["warn","Payment","Petr N.: €1,365 balance due 16 March"],["info","Questions","1 new public question, 1 private message"],["info","Logistics","Martín L. hasn't added his flight"]],
+    inbox: [["Public","Anna · PL","Is there parking at the hotel?","New"],["Private","Tom · UK","Can I bring my wife for the dinners only?","New"],["Public","Pablo · ES","Steel cartridges at the ground?","In FAQ"]]
+  },
+  t2: {
+    slug: "sologne-week-charles-bardou",
+    title: "Sologne Week with Charles Bardou",
+    where: "France · Sologne, Loire Valley",
+    focus: "Balanced", disciplines: "Sporting (Hunting Course) · Compak Sporting",
+    dates: "Mon 10 – Fri 14 May 2027", days: 5, nights: 4, targets: "~120 targets a day",
+    tz: "Europe/Paris (CEST)", closes: "12 April 2027",
+    places: 8, booked: 5, min: 6, guestsMax: 4, guests: 2,
+    price: 2600, deposit: 30, currency: "€",
+    options: [["single","Single room",390],["carts","Cartridges included (600)",260],["guest","Non-shooting guest",1100]],
+    langs: ["EN","FR","UA","RU"],
+    about: {
+      EN: "Train with Charles Bardou on his home ground, the Sologne Shooting Club: 27 hunting course layouts and 210 traps, where Euro Shooting Cash is shot. Mornings on the stands, afternoons for châteaux of the Loire, game cuisine and Loire wines. Anna Karpulianskaia, a Compak and Sporting shooter, interprets every session from French.",
+      FR: "Entraînez-vous avec Charles Bardou sur son terrain, le Sologne Shooting Club : 27 parcours de chasse et 210 machines, là où se tire l'Euro Shooting Cash. Le matin au stand, l'après-midi châteaux de la Loire, gibier et vins de Loire. Anna Karpulianskaia, tireuse de Compak et de Sporting, traduit chaque séance.",
+      UA: "Тренування з Charles Bardou на його домашньому стенді Sologne Shooting Club: 27 мисливських площадок і 210 машинок, тут стріляють Euro Shooting Cash. Зранку стенд, після обіду замки Луари, кухня з дичини та луарські вина. Anna Karpulianskaia, спортсменка з Compak і Sporting, перекладає кожне заняття з французької.",
+      RU: "Тренировки с Charles Bardou на его домашнем стенде Sologne Shooting Club: 27 охотничьих площадок и 210 машинок, здесь стреляют Euro Shooting Cash. Утром стенд, после обеда замки Луары, кухня из дичи и луарские вина. Anna Karpulianskaia, спортсменка по Compak и Sporting, переводит каждое занятие с французского."
+    },
+    gallery: ["Hunting course, Sologne Shooting Club","Compak layout","Video: Charles Bardou, Euro Shooting Cash","Château hotel in Sologne","Château de Chambord"],
+    chips: ["About","Program","Coach","Organizer","Shooting ground","For guests","What's included","Prices","Cancellation","FAQ","Questions"],
+    people: [
+      {role:"Coach", name:"Charles Bardou", init:"CB", url:"https://clayarena.com/en/shooters/1789724605508300304/",
+       lines:["France · F.F.B.T.","101 competitions on ClayArena","Sporting average accuracy 92.1%, 52 perfect rounds","Coaching language: French"]},
+      {role:"Organizer + Interpreter", name:"Anna Karpulianskaia", init:"AK", url:"https://clayarena.com/en/shooters/1763048485011/",
+       lines:["France · Ladies","Compak and Sporting shooter","Speaks French, Ukrainian, Russian","Interprets every session from French"]},
+      {role:"Shooting ground", name:"Sologne Shooting Club", init:"SSC", url:"https://clayarena.com/en/stands/15-sologne-shooting-club/",
+       lines:["Chaumont-sur-Tharonne, Domaine de Courgenou","27 hunting course layouts, 210 traps","Home ground of Charles Bardou","Hosts Euro Shooting Cash and the Grand Prix of France"]}
+    ],
+    groundNote: "<b>For guests:</b> two afternoons and the château visit are planned with non-shooting guests in mind. Guests see the program and the group chat, but not the coach's training notes.",
+    program: [
+      {d:"Mon 10 May", s:"Arrival", items:[["12:00–15:00","transfer","Paris CDG → château hotel in Sologne"],["19:30","meal","Sologne game dinner and Loire wines. Anna walks through the week"]]},
+      {d:"Tue 11 May", s:"Hunting course", items:[["09:00–12:30","training","Charles Bardou: technique review. Interpreted FR → UA / RU"],["14:00–17:00","training","Hunting course layouts"],["14:00–17:00","activity","Guests: walk on the Domaine de Courgenou"]]},
+      {d:"Wed 12 May", s:"Compak + châteaux", items:[["09:00–12:30","training","Compak Sporting"],["14:30–18:30","activity","Château de Chambord, whole group"],["20:00","meal","Loire wine tasting"]]},
+      {d:"Thu 13 May", s:"Euro Cash layouts", items:[["09:00–13:00","training","Euro Shooting Cash trajectories, the hardest on the ground"],["15:00–16:00","training","Final notes from Charles for each shooter"],["20:00","meal","Farewell dinner with the coach"]]},
+      {d:"Fri 14 May", s:"Departure", items:[["10:00–13:00","transfer","Hotel → Paris CDG"]]}
+    ],
+    included: ["4 nights in a château hotel, breakfast","4 dinners, Loire wine tasting","3.5 training days with Charles Bardou","About 480 targets","Interpreting French → Ukrainian / Russian","Château de Chambord visit","Airport and daily transfers"],
+    excluded: ["Flights","Cartridges (option: 600, +€260)","Lunches","Travel and gun insurance"],
+    cancel: "More than 60 days before the start: full refund minus the 30% deposit. 60 to 30 days: 50% refund. Less than 30 days: no refund unless your place is resold. If the tour is not confirmed by 12 April, everyone gets a full refund.",
+    faq: [["Can a non-shooting partner come?","Yes, as a guest (€1,100). Guests join dinners, the château and the afternoon programme."],["Which language is the coaching in?","Charles coaches in French. Anna interprets into Ukrainian and Russian; English on request."],["Is the tour confirmed?","It needs 6 shooters to be confirmed. You pay a 30% deposit, refunded in full if the minimum is not reached."]],
+    qa: [
+      {who:"Oksana",from:"UA",q:"Чи можна приїхати з чоловіком, який не стріляє?",tq:"Translated: Can I come with my husband, who doesn't shoot?",by:"Anna Karpulianskaia",byRole:"Organizer",a:"Так, як гість за €1,100. Він буде з нами на вечерях, у Шамбор і на післяобідній програмі.",ta:"Translated: Yes, as a guest for €1,100. He joins the dinners, Chambord and the afternoon programme."},
+      {who:"Marc",from:"FR",q:"Le tour est-il ouvert aux tireurs de niveau intermédiaire ?",tq:"Translated: Is the tour open to intermediate shooters?",by:"Charles Bardou",byRole:"Coach",a:"Oui. Je travaille avec chacun selon son niveau.",ta:"Translated: Yes. I work with each shooter at their own level."}
+    ],
+    organizer: "Anna",
+    now: {day:"Tue 11 May · 10:15", item:"Charles Bardou: technique review on the hunting course", where:"Sologne Shooting Club, layout 4 · meeting point at the clubhouse", next:"12:30 Lunch at the club"},
+    announcements: [["Anna · today 07:50","Bus at 08:30. Guests: the walk on the Domaine starts at 14:00 from the hotel lobby."],["Charles · yesterday","Demain on commence par le parcours 4. Arrivez 15 min avant.","Translated: Tomorrow we start on layout 4. Arrive 15 minutes early."]],
+    chat: [["Dmytro · UA","Хто бере свої набої, а хто опцію?","Translated: Who brings their own cartridges and who takes the option?",false],["Iryna · UA","Я беру опцію, простіше.","Translated: I'm taking the option, it's easier.",false],["Anna · Organizer","Opція — 600 набоїв, будуть на стенді в понеділок.","Translated: The option is 600 cartridges, they'll be at the ground on Monday.",true]],
+    docs: [["Voucher and hotel address","Ready","ok"],["European Firearms Pass","Uploaded","ok"],["Travel insurance","Uploaded","ok"],["Guest programme","Read","ok"]],
+    participants: [["Dmytro K.","UA","Paid","ok",2860],["Iryna S.","UA","Deposit","warn",780],["Andrii P.","UA","Paid","ok",2600],["Oksana M. + guest","UA","Paid","ok",3700],["Taras V.","PL","Deposit","warn",780]],
+    todo: [["warn","Minimum","1 more shooter needed to confirm the tour (6 of 8)"],["warn","Payment","2 deposits: balances due 12 April"],["info","Questions","2 new public questions"],["info","Guests","2 of 4 guest places booked"]],
+    inbox: [["Public","Marc · FR","Intermediate shooters welcome?","Answered"],["Public","Olena · UA","Is there a shuttle from Orléans station?","New"],["Private","Serhii · UA","Can I pay the balance in two parts?","New"]]
+  }
+};
+
+const MEDIA = {
+  t1: {
+    gallery: [
+      {type:"video", poster:"https://cdn.clayarena.com/filesclayarena/posters/1784819633732/4323/1788773608897.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1784819633732/4323/1788777655631.mp4", cap:"Lena Weigele at Dornsberg · Perazzi Cup 2026", link:"https://clayarena.com/en/videos/4323/"},
+      {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1784820457224-jel0vmer-Perazzi-cup-2026.webp", cap:"Perazzi Cup 2026 at Dornsberg", fit:"contain"},
+      {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/users/1784003237662/1784323183293-d7r2afz6-IMG_5664.webp", cap:"Coach Markus Leibinger"},
+      {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1772037164146-u17fqtij-cropped-Dornsberg-Schuetzen-logo-kontur-300x253.webp", cap:"Dornsberg Shooting Ground", fit:"contain"},
+      {type:"todo", cap:"Video: Lena introduces the ground — organizer upload"}
+    ],
+    videos: [
+      {poster:"https://cdn.clayarena.com/filesclayarena/posters/1784819633732/4323/1788773608897.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1784819633732/4323/1788777655631.mp4", cap:"Lena Weigele · Perazzi Cup 2026, Dornsberg · 7 Sep", link:"https://clayarena.com/en/videos/4323/"},
+      {poster:"https://cdn.clayarena.com/filesclayarena/posters/1784819633732/4222/1788693824768.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1784819633732/4222/1788695112334.mp4", cap:"Lena Weigele · Perazzi Cup 2026, Dornsberg · 6 Sep", link:"https://clayarena.com/en/videos/4222/"},
+      {poster:"https://cdn.clayarena.com/filesclayarena/posters/1784819633732/4019/1788641183426.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1784819633732/4019/1788641212415.mp4", cap:"Lena Weigele · Perazzi Cup 2026, Dornsberg · 5 Sep", link:"https://clayarena.com/en/videos/4019/"}
+    ],
+    photos: {"Markus Leibinger":"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/users/1784003237662/1784323183293-d7r2afz6-IMG_5664.webp","Dornsberg Shooting Ground":"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1772037164146-u17fqtij-cropped-Dornsberg-Schuetzen-logo-kontur-300x253.webp"}
+  },
+  t2: {
+    gallery: [
+      {type:"video", poster:"https://cdn.clayarena.com/filesclayarena/posters/1763562710531/6178/1790700156089.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1763562710531/6178/1790700311165.mp4", cap:"Charles Bardou at Sologne · European Championship Compak 2026", link:"https://clayarena.com/en/videos/6178/"},
+      {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1763558490086-ayhesfz2-Le_Sologne_Shooting_Club.webp", cap:"Sologne Shooting Club", fit:"contain"},
+      {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/users/1763048485011/1787592320953-xyuy2k5n-IMG_8494.webp", cap:"Organizer Anna Karpulianskaia"},
+      {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1781184782735-f35ffxs2-2026-06-11_16-32.webp", cap:"Charles Bardou on ClayArena"},
+      {type:"img", src:"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1790780467165-90dnnics-upload.webp", cap:"Next at the club: Halloween GP 2026", fit:"contain"}
+    ],
+    videos: [
+      {poster:"https://cdn.clayarena.com/filesclayarena/posters/1763562710531/6178/1790700156089.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1763562710531/6178/1790700311165.mp4", cap:"Charles Bardou · European Championship Compak 2026, Sologne", link:"https://clayarena.com/en/videos/6178/"},
+      {poster:"https://cdn.clayarena.com/filesclayarena/posters/1763736318855/1977/1786288302570.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1763736318855/1977/1786288289427.mp4", cap:"Anna Karpulianskaia · Euro Shooting Cash 2026, Sologne", link:"https://clayarena.com/en/videos/1977/"},
+      {poster:"https://cdn.clayarena.com/filesclayarena/posters/1763562710531/56/1786308176713.webp", src:"https://cdn.clayarena.com/filesclayarena/videos/1763562710531/56/1786308175624.mp4", cap:"Anna Karpulianskaia · European Championship Compak 2026, Sologne", link:"https://clayarena.com/en/videos/56/"}
+    ],
+    photos: {"Anna Karpulianskaia":"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/users/1763048485011/1787592320953-xyuy2k5n-IMG_8494.webp","Sologne Shooting Club":"https://fqw5u0cnbizyxjoa.public.blob.vercel-storage.com/clayarena/competitions/1763558490086-ayhesfz2-Le_Sologne_Shooting_Club.webp"}
+  }
+};
+const fmt = n => n.toLocaleString("en-US");
+let state = {tour:"t2", view:"page", lang:"EN", opts:{}, held:null, flash:"", extraQ:{t1:[],t2:[]}, mode:"public"};
+let timer = null;
+
+function seatsHTML(t, extraHeld){
+  const taken = t.booked + (extraHeld?1:0);
+  const left = t.places - taken;
+  let dots = "";
+  for(let i=0;i<t.places;i++){ dots += `<i class="${i<t.booked?'t':(i<taken?'h':'')}"></i>`; }
+  const label = left<=0 ? "Fully booked" : (left<=2 ? `Only ${left} place${left>1?'s':''} left` : `${left} of ${t.places} places left`);
+  const need = t.booked < t.min ? `<small>${t.min - t.booked} more shooter${t.min-t.booked>1?'s':''} needed to confirm</small>` : `<small>Tour confirmed · booking closes ${t.closes}</small>`;
+  return `<div class="seats" aria-label="${label}">${dots}<b class="${left>2?'ok':''}">${label}</b>${need}</div>`;
+}
+function programHTML(t, mode){
+  return `<div class="days">${t.program.map((d,di)=>`<div class="day"><div><b>${d.d}</b><small>${d.s}</small></div><ul>${
+    d.items.filter(it=> mode==="public" ? it[1]!=="team" : true).map((it,ii)=>{
+      const isNow = mode==="group" && ((t===TOURS.t1 && di===1 && ii===1) || (t===TOURS.t2 && di===1 && ii===0));
+      const time = mode==="public" ? it[0].split("–")[0].replace(/\d\d:\d\d/, m=> m.slice(0,2)<"12"?"Morning":(m.slice(0,2)<"17"?"Afternoon":"Evening")) : it[0];
+      const label = it[1]==="team" ? "team only" : it[1];
+      return `<li class="${it[1]==='team'?'team':''} ${isNow?'now':''}"><time>${time}</time><span><span class="tag ${it[1]}">${label}</span>${it[2]}</span></li>`;
+    }).join("")}</ul></div>`).join("")}</div>`;
+}
+function pageView(t){
+  const extra = state.extraQ[state.tour];
+  const optTotal = t.options.reduce((s,o)=> s + (state.opts[o[0]]?o[2]:0),0);
+  const total = t.price + optTotal;
+  const left = t.places - t.booked;
+  const held = state.held && state.held.tour===state.tour;
+  let remain = "";
+  if(held){ const s = Math.max(0, Math.round((state.held.until - Date.now())/1000)); remain = `${String(Math.floor(s/60)).padStart(2,"0")}:${String(s%60).padStart(2,"0")}`; }
+  const M = MEDIA[state.tour];
+  const ph = M.gallery.map((g,i)=> g.type==="video"
+    ? `<div class="ph media ${i===0?'big':''}"><video controls preload="none" playsinline poster="${g.poster}"><source src="${g.src}" type="video/mp4"></video><span class="cap">▶ ${g.cap}</span></div>`
+    : g.type==="img"
+    ? `<div class="ph media ${i===0?'big':''} ${i===4?'extra':''} ${g.fit==='contain'?'contain':''}"><img src="${g.src}" alt="${g.cap}" loading="lazy" onerror="this.remove()"><span class="cap">${g.cap}</span></div>`
+    : `<div class="ph todo ${i===4?'extra':''}"><span class="cap">${g.cap}</span></div>`).join("");
+  return `
+  <div class="gallery" aria-label="Photo and video gallery">${ph}</div>
+  <div class="page">
+    <div>
+      <div class="eyebrow">ClayAway tour · ${t.where} · ${t.disciplines}</div>
+      <h1>${t.title}</h1>
+      <div class="facts"><span>${t.dates}</span><span><b>${t.days}</b> days</span><span><b>${t.places}</b> shooters max</span><span>${t.targets}</span><span>Focus: <b>${t.focus}</b></span></div>
+      ${seatsHTML(t, held)}
+      <div class="langbar">Tour languages
+        <div class="seg" role="group" aria-label="Tour language">${t.langs.map(l=>`<button data-lang="${l}" aria-pressed="${state.lang===l}">${l}</button>`).join("")}</div>
+      </div>
+      <div class="chips">${t.chips.map(c=>`<span>${c}</span>`).join("")}</div>
+
+      <section class="blk" id="about"><h2>About this tour</h2><p>${t.about[state.lang]||t.about.EN}</p>
+        ${state.lang!=="EN"?`<p class="small muted">Shown in ${state.lang}. Other blocks have their own ${state.lang} version, written or checked by the organizer.</p>`:""}</section>
+
+      <section class="blk"><h2>Who runs it</h2><div class="people">${t.people.map(p=>`<div class="person"><div class="hd">${MEDIA[state.tour].photos[p.name]?`<img class="avatar" src="${MEDIA[state.tour].photos[p.name]}" alt="" onerror="this.outerHTML='<div class=avatar>${p.init}</div>'">`:`<div class="avatar">${p.init}</div>`}<div><div class="role">${p.role}</div><h3>${p.name}</h3></div></div><ul>${p.lines.map(l=>`<li>${l}</li>`).join("")}</ul><a href="${p.url}" class="small">Profile on ClayArena ↗</a></div>`).join("")}</div>
+        <div class="note">${t.groundNote}</div></section>
+
+      <section class="blk"><h2>Program</h2><p class="small muted">Overview. Exact times and meeting points open in the group space after booking. Times in ${t.tz}.</p>${programHTML(t,"public")}</section>
+
+      <section class="blk"><h2>Videos</h2><p class="small muted">From ClayArena: the coach and the organizer on these grounds. The organizer can add their own videos.</p>
+        <div class="vids">${MEDIA[state.tour].videos.map(v=>`<figure><video controls preload="none" playsinline poster="${v.poster}"><source src="${v.src}" type="video/mp4"></video><figcaption>${v.cap} · <a href="${v.link}">on ClayArena ↗</a></figcaption></figure>`).join("")}</div></section>
+
+      <section class="blk"><h2>What's included</h2><div class="cols2"><div class="box"><h3>Included</h3><ul class="check">${t.included.map(i=>`<li>${i}</li>`).join("")}</ul></div><div class="box"><h3>Not included</h3><ul class="check no">${t.excluded.map(i=>`<li>${i}</li>`).join("")}</ul></div></div></section>
+
+      <section class="blk"><h2>Cancellation</h2><p>${t.cancel}</p></section>
+
+      <section class="blk"><h2>FAQ</h2>${t.faq.map(f=>`<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join("")}</section>
+
+      <section class="blk" id="qa"><h2>Questions about this tour</h2>
+        <div class="qa">
+          <form class="ask" id="askForm">
+            <label for="qtext" class="small muted">Ask ${t.organizer} and the team. Any language is fine.</label>
+            <textarea id="qtext" placeholder="Type your question…"></textarea>
+            <div class="ask-row">
+              <div class="seg" role="group" aria-label="Who sees it"><button type="button" data-mode="public" aria-pressed="${state.mode==='public'}">Public</button><button type="button" data-mode="private" aria-pressed="${state.mode==='private'}">Private</button></div>
+              <span class="hint">${state.mode==='public'?'Everyone sees the question and the answer.':'Only you and the organizer see it. The reply comes to your ClayArena messages.'}</span>
+              <button class="btn primary" type="submit">Send</button>
+            </div>
+            ${state.flash?`<div class="flash">${state.flash}</div>`:""}
+          </form>
+          ${extra.map(q=>`<div class="qitem"><div class="who">You <span>· just now</span><span class="pill info">Waiting for an answer</span></div><div>${q}</div></div>`).join("")}
+          ${t.qa.map(q=>`<div class="qitem"><div class="who">${q.who} <span>· ${q.from}</span></div><div>${q.q}${q.tq?`<div class="small muted">${q.tq}</div>`:""}</div>
+            <div class="ans"><div class="who">${q.by}<span class="pill ok">${q.byRole}</span></div><div>${q.a}${q.ta?`<div class="small muted">${q.ta}</div>`:""}${q.tr?`<div class="small muted">${q.tr}</div>`:""}</div></div></div>`).join("")}
+        </div>
+      </section>
+    </div>
+
+    <aside class="buy" aria-label="Booking">
+      <div class="price"><span class="muted small">from</span><b>${t.currency}${fmt(t.price)}</b><span class="muted small">per shooter</span></div>
+      ${seatsHTML(t, held)}
+      <div class="opts">${t.options.map(o=>`<label><input type="checkbox" data-opt="${o[0]}" ${state.opts[o[0]]?'checked':''}><span>${o[1]}</span><span>+${t.currency}${fmt(o[2])}</span></label>`).join("")}</div>
+      <div class="total"><span>Total</span><b>${t.currency}${fmt(total)}</b></div>
+      <div class="total" style="border:0;padding:0"><span class="muted">Deposit today (${t.deposit}%)</span><b>${t.currency}${fmt(Math.round(total*t.deposit/100))}</b></div>
+      ${held?`<div class="held">Place held for you: <b>${remain}</b>. Continue to payment to keep it.</div><button class="btn primary full" data-act="pay">Continue to payment</button><button class="btn full" data-act="release">Release the place</button>`
+        : left>0 ? `<button class="btn primary full" data-act="book">Book a place</button>` : `<button class="btn primary full">Join the waitlist</button>`}
+      <button class="btn full" data-act="private">Message ${t.organizer} privately</button>
+      <p class="small muted" style="margin:0">Secure payment via ClayArena. Places update live.</p>
+    </aside>
+  </div>`;
+}
+function groupView(t){
+  return `
+  <div class="ghead"><div><div class="eyebrow">ClayAway · Group space · ${t.dates}</div><h1>${t.title}</h1></div><span class="lock">Only for confirmed bookings</span></div>
+  <div class="tabs-in"><span class="on">Today</span><span>Program</span><span>Announcements</span><span>Group chat</span><span>Participants</span><span>Travel</span><span>Documents</span><span>Checklist</span><span>Photos</span><span>My training</span></div>
+  <div class="grid3">
+    <div style="display:grid;gap:16px">
+      <div class="now"><div class="lbl">Now · ${t.now.day}</div><div class="item">${t.now.item}</div><div class="small">${t.now.where}</div><div class="next">Next: ${t.now.next}</div><div><button class="btn">Directions</button></div></div>
+      <div><h2>Program</h2><p class="small muted">Full times and meeting points. Times in ${t.tz}. Dashed items are visible to the team only.</p>${programHTML(t,"group")}</div>
+    </div>
+    <div style="display:grid;gap:16px">
+      <div class="box"><h3>Announcements</h3>${t.announcements.map(a=>`<div class="ann"><small>${a[0]}</small>${a[1]}${a[2]?`<div class="small muted">${a[2]}</div>`:""}</div>`).join("")}</div>
+      <div class="box"><h3>Group chat</h3><div class="chat">${t.chat.map(m=>`<div class="msg ${m[3]?'mine':''}"><div class="who">${m[0]}</div>${m[1]}${m[2]?`<div class="tr">${m[2]}</div>`:""}</div>`).join("")}</div></div>
+      <div class="box"><h3>My documents</h3><ul class="docs">${t.docs.map(d=>`<li><span>${d[0]}</span><span class="pill ${d[2]}">${d[1]}</span></li>`).join("")}</ul></div>
+      <div class="box"><h3>Participants</h3><p class="small muted" style="margin:0 0 6px">${t.participants.length} shooters${t.guests?` + ${t.guests} guests`:""}</p><ul class="docs">${t.participants.map(p=>`<li><span>${p[0]}</span><span class="muted small">${p[1]}</span></li>`).join("")}</ul></div>
+    </div>
+  </div>`;
+}
+function dashView(t){
+  const paid = t.participants.reduce((s,p)=>s+p[4],0);
+  const fee = Math.round(paid*0.10);
+  return `
+  <div class="ghead"><div><div class="eyebrow">ClayAway · Organizer dashboard · ${t.organizer}</div><h1>${t.title}</h1></div><span class="pill ${t.booked>=t.min?'ok':'warn'}" style="font-size:12.5px;padding:4px 12px">${t.booked>=t.min?'Published · Confirmed':'Published · Waiting for minimum'}</span></div>
+  <div class="kpis">
+    <div><small>Places</small><b>${t.booked} / ${t.places}</b><span>minimum ${t.min}${t.guestsMax?` · guests ${t.guests}/${t.guestsMax}`:""}</span></div>
+    <div><small>Paid so far</small><b>${t.currency}${fmt(paid)}</b><span>${(n=>n+' deposit'+(n===1?'':'s')+' open')(t.participants.filter(p=>p[3]==='warn').length)}</span></div>
+    <div><small>ClayArena fee 10%</small><b>${t.currency}${fmt(fee)}</b><span>sample rate</span></div>
+    <div><small>Your payout so far</small><b>${t.currency}${fmt(paid-fee)}</b><span>paid out after the tour starts</span></div>
+    <div><small>Booking closes</small><b>${t.closes.split(" ").slice(0,2).join(" ")}</b><span>${t.closes.split(" ")[2]}</span></div>
+  </div>
+  <div class="grid3">
+    <div style="display:grid;gap:16px">
+      <div class="box"><h3>Needs attention</h3><ul class="todo">${t.todo.map(x=>`<li><span class="pill ${x[0]}">${x[1]}</span>${x[2]}</li>`).join("")}</ul></div>
+      <div><h3>Bookings</h3><div class="tbl"><table><thead><tr><th>Shooter</th><th>From</th><th>Status</th><th style="text-align:right">Paid</th></tr></thead><tbody>${t.participants.map(p=>`<tr><td>${p[0]}</td><td>${p[1]}</td><td><span class="pill ${p[3]}">${p[2]}</span></td><td class="num">${t.currency}${fmt(p[4])}</td></tr>`).join("")}</tbody></table></div></div>
+    </div>
+    <div style="display:grid;gap:16px">
+      <div class="box"><h3>Questions</h3><p class="small muted" style="margin:0 0 6px">Public and private questions in one inbox</p><ul class="docs">${t.inbox.map(q=>`<li><span><span class="pill ${q[0]==='Private'?'warn':'info'}" style="margin:0 6px 0 0">${q[0]}</span>${q[2]}<br><span class="small muted">${q[1]}</span></span><span class="pill ${q[3]==='New'?'warn':'ok'}">${q[3]}</span></li>`).join("")}</ul></div>
+      <div class="box"><h3>Team</h3><ul class="docs">${t.people.filter(p=>p.role!=="Shooting ground").map(p=>`<li><span>${p.name}</span><span class="small muted">${p.role}</span></li>`).join("")}</ul></div>
+      <div class="box"><h3>Tour page</h3><ul class="docs"><li><span>Languages</span><span class="small">${t.langs.join(" · ")}</span></li><li><span>Photos and videos</span><span class="small">${t.gallery.length + 14}</span></li><li><span>Last change</span><span class="small muted">Program, 2 days ago</span></li></ul></div>
+    </div>
+  </div>`;
+}
+function render(){
+  const t = TOURS[state.tour];
+  if(!t.langs.includes(state.lang)) state.lang = "EN";
+  document.querySelectorAll("[data-tour]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.tour===state.tour));
+  document.querySelectorAll(".top [data-view]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.view===state.view));
+  const app = document.getElementById("app");
+  const q = document.getElementById("qtext"); const draft = q ? q.value : "";
+  app.innerHTML = (state.view==="page"?pageView(t):state.view==="group"?groupView(t):dashView(t))
+    + `<footer>Prototype for the ClayAway concept. Coach, organizer and ground data come from their ClayArena profiles; dates, prices, participants and messages are sample data.</footer>`;
+  const q2 = document.getElementById("qtext"); if(q2 && draft) q2.value = draft;
+}
+document.addEventListener("click", e=>{
+  const b = e.target.closest("button"); if(!b) return;
+  if(b.dataset.tour){ state.tour=b.dataset.tour; state.opts={}; state.flash=""; try{history.replaceState(null,"","#"+state.tour)}catch(_){}; render(); window.scrollTo({top:0}); }
+  else if(b.dataset.view){ state.view=b.dataset.view; render(); window.scrollTo({top:0}); }
+  else if(b.dataset.lang){ state.lang=b.dataset.lang; render(); }
+  else if(b.dataset.mode){ state.mode=b.dataset.mode; render(); }
+  else if(b.dataset.act==="book"){ state.held={tour:state.tour, until:Date.now()+15*60*1000}; clearInterval(timer); timer=setInterval(()=>{ if(!state.held||Date.now()>state.held.until){state.held=null;clearInterval(timer);} if(state.view==="page") render(); },1000); render(); }
+  else if(b.dataset.act==="release"){ state.held=null; clearInterval(timer); render(); }
+  else if(b.dataset.act==="pay"){ state.flash=""; b.textContent="Payment step is not part of this prototype"; b.disabled=true; }
+  else if(b.dataset.act==="private"){ state.mode="private"; render(); document.getElementById("qa").scrollIntoView(); document.getElementById("qtext").focus(); }
+});
+document.addEventListener("change", e=>{ if(e.target.dataset.opt){ state.opts[e.target.dataset.opt]=e.target.checked; render(); } });
+document.addEventListener("submit", e=>{
+  if(e.target.id!=="askForm") return; e.preventDefault();
+  const v = document.getElementById("qtext").value.trim(); const t = TOURS[state.tour];
+  if(!v){ state.flash="Type a question first."; render(); return; }
+  if(state.mode==="public"){ state.extraQ[state.tour].unshift(v.replace(/[<>&]/g,c=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]))); state.flash=`Posted publicly. ${t.organizer} gets a notification and the answer will appear here.`; }
+  else { state.flash=`Sent privately to ${t.organizer}. The reply will come to your ClayArena messages.`; }
+  document.getElementById("qtext").value=""; render();
+});
+render();
+</script>
+</body>
+</html>
