@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Академія Віки · ClayAway</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&display=swap">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#030712; --surface:rgba(255,255,255,.04); --surface2:#0B1120; --line:rgba(255,255,255,.1);
+  --ink:#F3F4F6; --soft:#D1D5DB; --muted:#9CA3AF;
+  --em:#34D399; --em-soft:rgba(16,185,129,.15); --primary:#059669; --cyan:#22D3EE;
+  --clay:#FB923C; --clay-soft:rgba(251,146,60,.14);
+  --display:"Unbounded",ui-sans-serif,system-ui,sans-serif;
+  --body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15.5px/1.6 var(--body)}
+a{color:var(--em)}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--em);outline-offset:2px}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(3,7,18,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:8px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);background:none;border:0;padding:0}
+.brand b{font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:-.01em}
+.brand small{display:block;font-size:11.5px;color:var(--muted);font-weight:400}
+.yu{width:38px;height:38px;flex:none}
+.spacer{flex:1}
+.xp{display:flex;align-items:center;gap:10px;font-size:12.5px;color:var(--muted)}
+.xp .bar{width:120px;height:6px;border-radius:3px;background:rgba(255,255,255,.1);overflow:hidden}
+.xp .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--em),var(--cyan));width:0;transition:width .4s}
+.xp b{color:var(--ink);font-variant-numeric:tabular-nums}
+@media (max-width:640px){.xp .bar{width:70px}.brand small{display:none}}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:transparent;padding:5px 10px;font-size:13px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--primary);color:#fff;font-weight:600}
+.nav{display:flex;gap:4px;flex-wrap:wrap}
+.nav button{border:0;background:transparent;color:rgba(255,255,255,.7);padding:6px 10px;border-radius:8px;font-size:13.5px}
+.nav button[aria-current="page"]{background:var(--em-soft);color:var(--em);font-weight:600}
+main{max-width:1120px;margin:0 auto;padding-inline:16px;padding-block:24px 80px}
+h1,h2,h3{font-family:var(--display);letter-spacing:-.01em;text-wrap:balance}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:0 0 10px}
+h2{font-size:22px;margin:0 0 12px}
+h3{font-size:16px;margin:0 0 6px}
+p{margin:0 0 10px;max-width:70ch}
+.muted{color:var(--muted)} .small{font-size:13px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--em)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:28px;align-items:center;margin-bottom:28px;padding:24px;border-radius:16px;background:radial-gradient(120% 140% at 0% 0%,rgba(6,78,59,.55),transparent 60%),var(--surface2);border:1px solid var(--line)}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.hero .big-yu{display:none}}
+.big-yu{width:100%;max-width:240px;justify-self:center}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.stats span{font-size:12.5px;padding:3px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--soft)}
+.stats b{color:var(--ink)}
+.missions{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.mission{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:8px;align-content:start;transition:border-color .15s,transform .15s}
+.mission:hover{border-color:rgba(52,211,153,.5);transform:translateY(-2px)}
+.mission .num{font-family:var(--display);font-size:13px;color:var(--clay)}
+.mission h3{font-size:17px;margin:0}
+.mission p{font-size:13.5px;color:var(--soft);margin:0}
+.prog{height:6px;border-radius:3px;background:rgba(255,255,255,.08);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--em)}
+.mission .meta{font-size:12px;color:var(--muted)}
+.mission.empty{opacity:.55}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 18px}
+.tabs button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 14px;font-size:13.5px;color:var(--soft)}
+.tabs button[aria-pressed="true"]{background:#fff;color:#030712;border-color:#fff;font-weight:600}
+.scene{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:12px}
+.scene .sn{font-family:var(--display);font-size:12px;color:var(--clay);margin-bottom:4px}
+.scene p{font-size:16px;line-height:1.75;color:var(--soft);max-width:72ch}
+.scene .done{font-size:12.5px;color:var(--em)}
+button.t{background:none;border:0;padding:0 2px;margin:0 -2px;color:var(--em);font-weight:600;border-bottom:1.5px dashed rgba(52,211,153,.6);border-radius:2px;line-height:inherit}
+button.t:hover{background:var(--em-soft)}
+span.t0{border-bottom:1px dotted var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:6px;align-content:start;text-align:left}
+.card .cat{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.card .term{font-family:var(--display);font-size:16px;color:var(--ink)}
+.card .aka{font-size:12px;color:var(--muted)}
+.card p{font-size:13.5px;color:var(--soft);margin:0}
+.card .row{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:8px;padding:6px 12px;font-size:13px;font-weight:600}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.btn.ok{background:var(--em-soft);border-color:rgba(52,211,153,.4);color:var(--em)}
+.pill{display:inline-block;font-size:10.5px;font-weight:700;padding:1px 8px;border-radius:999px;letter-spacing:.03em}
+.pill.known{background:var(--em-soft);color:var(--em)}
+.pill.verify{background:var(--clay-soft);color:var(--clay)}
+.flip{perspective:900px}
+.quiz{max-width:720px}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.qcard .qn{font-size:12.5px;color:var(--muted);margin-bottom:6px}
+.qcard h3{font-family:var(--body);font-size:18px;font-weight:600;line-height:1.4;margin:0 0 14px}
+.opts{display:grid;gap:8px}
+.opts button{text-align:left;border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:10px;padding:10px 14px;font-size:14.5px}
+.opts button:hover:not([disabled]){border-color:rgba(52,211,153,.5)}
+.opts button.right{border-color:var(--em);background:var(--em-soft)}
+.opts button.wrong{border-color:var(--clay);background:var(--clay-soft)}
+.opts button[disabled]{cursor:default}
+.explain{margin-top:12px;font-size:14px;color:var(--soft);border-left:3px solid var(--em);padding-left:12px}
+.qfoot{display:flex;justify-content:space-between;align-items:center;margin-top:14px;gap:10px;flex-wrap:wrap}
+.practice{display:grid;gap:10px;max-width:760px}
+.pitem{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:8px}
+.pitem .en{font-size:16px;font-weight:600}
+.pitem .en::before{content:"Coach: ";color:var(--muted);font-weight:400;font-size:13px}
+.pitem .uk{color:var(--em);font-size:15px}
+.pitem .note{font-size:13px;color:var(--muted)}
+.gl-tools{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.gl-tools input{flex:1 1 240px;background:var(--surface2);border:1px solid var(--line);border-radius:10px;padding:9px 12px;color:var(--ink);font:inherit}
+.gl-tools select{background:var(--surface2);border:1px solid var(--line);border-radius:10px;padding:9px 10px;color:var(--ink);font:inherit}
+.gl-list{display:grid;gap:6px}
+.gl-row{display:grid;grid-template-columns:220px minmax(0,1fr) auto;gap:14px;align-items:baseline;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.gl-row b{font-family:var(--display);font-size:14px}
+.gl-row span{font-size:13.5px;color:var(--soft)}
+.gl-row small{font-size:11.5px;color:var(--muted);white-space:nowrap}
+@media (max-width:640px){.gl-row{grid-template-columns:1fr}}
+/* term panel */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:30}
+.panel{position:fixed;top:0;right:0;bottom:0;width:min(520px,100%);background:#0B1120;border-left:1px solid var(--line);z-index:31;overflow:auto;padding:20px 22px calc(28px + env(safe-area-inset-bottom,0px));box-shadow:-20px 0 40px rgba(0,0,0,.5)}
+.panel .close{position:sticky;top:0;float:right;border:1px solid var(--line);background:var(--surface2);border-radius:8px;padding:4px 10px}
+.panel h2{font-size:24px;margin:6px 0 2px;color:var(--ink)}
+.panel .aka{color:var(--muted);font-size:13px;margin-bottom:10px}
+.panel .short{font-size:16px;color:var(--ink);font-weight:500}
+.panel .long{color:var(--soft)}
+.panel .blk{border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
+.panel .lbl{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.panel .coach{background:var(--surface);border-radius:10px;padding:10px 12px}
+.panel .coach .e{font-weight:600}
+.panel .coach .u{color:var(--em);margin-top:4px}
+.panel .tip{background:var(--clay-soft);border-radius:10px;padding:10px 12px;color:#FED7AA}
+.rel{display:flex;gap:6px;flex-wrap:wrap}
+.rel button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:3px 10px;font-size:12.5px;color:var(--em)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#fff;color:#030712;font-weight:700;padding:8px 16px;border-radius:999px;z-index:40;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.levelup{position:fixed;inset:0;display:grid;place-items:center;z-index:45;background:rgba(3,7,18,.75)}
+.levelup div{background:var(--surface2);border:1px solid rgba(52,211,153,.5);border-radius:18px;padding:28px 32px;text-align:center;max-width:360px}
+.levelup h2{margin:10px 0 6px}
+footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:12px}
+.empty-state{padding:40px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="yu" viewBox="0 0 64 64">
+      <rect x="6" y="8" width="9" height="48" rx="3" fill="#34D399"/>
+      <rect x="15" y="28" width="12" height="8" rx="2" fill="#34D399"/>
+      <circle cx="42" cy="32" r="17" fill="#FB923C"/>
+      <circle cx="42" cy="32" r="11.5" fill="none" stroke="#030712" stroke-width="2.5" opacity=".55"/>
+      <circle cx="42" cy="32" r="5" fill="#030712" opacity=".35"/>
+    </symbol>
+  </defs>
+</svg>
+<header class="top">
+  <div class="top-in">
+    <button class="brand" data-go="home" aria-label="Home"><svg class="yu"><use href="#yu"/></svg><span><b id="brandTitle">Академія Віки</b><small>ClayAway Academy · ClayArena</small></span></button>
+    <nav class="nav" aria-label="Sections"><button data-go="home" id="navHome"></button><button data-go="glossary" id="navGloss"></button></nav>
+    <span class="spacer"></span>
+    <div class="xp" title="XP"><span id="lvlName"></span><div class="bar"><i id="xpBar"></i></div><b id="xpNum">0 XP</b></div>
+    <div class="seg" role="group" aria-label="Language"><button data-lang="uk">UA</button><button data-lang="en">EN</button></div>
+  </div>
+</header>
+<main id="app"></main>
+<div id="layer"></div>
+
+<script src="data/sporting.js"></script>
+<script src="data/compak.js"></script>
+<script src="data/guns.js"></script>
+<script src="data/technique.js"></script>
+<script src="data/organizer.js"></script>
+<script>
+const MODS = (window.ACADEMY||[]).slice().sort((a,b)=>a.order-b.order);
+const PLAN = [
+  {module:"sporting", order:1, title_en:"Sporting", title_uk:"Sporting"},
+  {module:"compak", order:2, title_en:"Compak Sporting", title_uk:"Compak Sporting"},
+  {module:"guns", order:3, title_en:"Guns & ammunition", title_uk:"Рушниці та набої"},
+  {module:"technique", order:4, title_en:"Technique & coaching", title_uk:"Техніка і мова тренера"},
+  {module:"organizer", order:5, title_en:"Organizer & range", title_uk:"Організатор і стенд"}
+];
+const T = {
+  uk:{home:"Мапа", gloss:"Глосарій", hi:"Привіт, Віко!", heroP:"Це твоя академія перед турами ClayAway. Тут п'ять місій: два види спорту, рушниці, техніка й мова тренера, а також усе, що треба знати організаторці на стенді. Терміни завжди англійською — так їх кажуть тренери в усьому світі. Пояснення — українською і англійською.",
+      start:"Почати місію", cont:"Продовжити", story:"Історія", terms:"Терміни", quiz:"Квіз", practice:"Переклади тренера",
+      scenes:"сцен", termsN:"термінів", quizN:"питань", read:"Прочитано", markRead:"Прочитала ✓", know:"Знаю", learnt:"Вивчила", open:"Детальніше",
+      next:"Далі", restart:"Ще раз", correct:"Правильно!", wrong:"Не зовсім.", result:"Результат", show:"Показати переклад", gotIt:"Зарахувати", done:"Зараховано",
+      search:"Пошук терміна англійською або українською…", allMods:"Усі місії", export:"Завантажити JSON глосарію", count:"термінів у глосарії",
+      what:"Що це", detail:"Детально", usage:"Як кажуть українською", coachSays:"Як це звучить на стенді", tip:"Порада перекладачці", related:"Пов'язані терміни", verify:"перевірити за правилами", close:"Закрити",
+      notReady:"Ця місія ще готується.", levelUp:"Новий рівень!", backHome:"← До мапи", progress:"Прогрес", foot:"Академія Віки · ClayAway by ClayArena. Терміни англійською, пояснення українською та англійською. Матеріал стане основою глосарію ClayArena."},
+  en:{home:"Map", gloss:"Glossary", hi:"Hi, Vika!", heroP:"This is your academy before the ClayAway tours. Five missions: two disciplines, guns, technique and the coach's language, and everything an organizer needs on the ground. Terms are always in English — that's how coaches say them everywhere. Explanations are in Ukrainian and English.",
+      start:"Start mission", cont:"Continue", story:"Story", terms:"Terms", quiz:"Quiz", practice:"Translate the coach",
+      scenes:"scenes", termsN:"terms", quizN:"questions", read:"Read", markRead:"Done reading ✓", know:"I know it", learnt:"Learnt", open:"Details",
+      next:"Next", restart:"Again", correct:"Correct!", wrong:"Not quite.", result:"Result", show:"Show translation", gotIt:"Count it", done:"Counted",
+      search:"Search a term in English or Ukrainian…", allMods:"All missions", export:"Download glossary JSON", count:"terms in the glossary",
+      what:"What it is", detail:"In detail", usage:"How Ukrainian shooters say it", coachSays:"How it sounds on the stand", tip:"Tip for the interpreter", related:"Related terms", verify:"check against the rules", close:"Close",
+      notReady:"This mission is still being prepared.", levelUp:"Level up!", backHome:"← Back to the map", progress:"Progress", foot:"Vika's Academy · ClayAway by ClayArena. Terms in English, explanations in Ukrainian and English. This content will become the ClayArena glossary."}
+};
+const LEVELS=[[0,"Rookie"],[150,"Squad Member"],[400,"Stand Ready"],[800,"Coach's Voice"],[1300,"Interpreter Pro"],[2000,"ClayAway Master"]];
+const store={ get(){ try{return JSON.parse(localStorage.getItem("vika-academy")||"{}")}catch(e){return {}} }, set(v){ try{localStorage.setItem("vika-academy",JSON.stringify(v))}catch(e){} } };
+let P = Object.assign({xp:0, scenes:{}, terms:{}, quiz:{}, practice:{}, lang:"uk"}, store.get());
+let S = {view:"home", mod:null, tab:"story", qi:0, qAns:null, qScore:0, q:"", f:"", term:null, reveal:{}};
+const L=()=>P.lang, t=k=>T[L()][k], tx=(o,k)=>o[k+"_"+L()]||o[k+"_en"]||o[k+"_uk"]||"";
+const TERMS={}; MODS.forEach(m=>(m.terms||[]).forEach(x=>{ if(!TERMS[x.id]) TERMS[x.id]=Object.assign({module:m.module},x); }));
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function level(){ let l=LEVELS[0],n=null; for(let i=0;i<LEVELS.length;i++){ if(P.xp>=LEVELS[i][0]){l=LEVELS[i];n=LEVELS[i+1]||null;} } return {l,n}; }
+function addXP(n){ const before=level().l[1]; P.xp+=n; store.set(P); toast("+"+n+" XP"); const after=level().l[1]; if(after!==before) levelUp(after); hdr(); }
+function toast(m){ const d=document.createElement("div"); d.className="toast"; d.textContent=m; document.body.appendChild(d); setTimeout(()=>d.remove(),1400); }
+function levelUp(name){ const d=document.createElement("div"); d.className="levelup"; d.innerHTML=`<div><svg class="yu" style="width:64px;height:64px"><use href="#yu"/></svg><h2>${t("levelUp")}</h2><p class="muted">${esc(name)}</p><button class="btn primary" onclick="this.closest('.levelup').remove()">OK</button></div>`; document.body.appendChild(d); }
+function hdr(){
+  document.documentElement.lang = L()==="uk"?"uk":"en";
+  document.getElementById("brandTitle").textContent = L()==="uk"?"Академія Віки":"Vika's Academy";
+  document.getElementById("navHome").textContent=t("home"); document.getElementById("navGloss").textContent=t("gloss");
+  document.getElementById("navHome").setAttribute("aria-current", S.view!=="glossary"?"page":"false");
+  document.getElementById("navGloss").setAttribute("aria-current", S.view==="glossary"?"page":"false");
+  document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed", b.dataset.lang===L()));
+  const {l,n}=level(); document.getElementById("lvlName").textContent=l[1];
+  document.getElementById("xpNum").textContent=P.xp+" XP";
+  document.getElementById("xpBar").style.width = n ? Math.min(100,((P.xp-l[0])/(n[0]-l[0]))*100)+"%" : "100%";
+}
+function modProg(m){ const tot=(m.story||[]).length+(m.terms||[]).length+(m.quiz||[]).length+(m.practice||[]).length; if(!tot) return 0;
+  const k=m.module; let d=0; (m.story||[]).forEach(s=>{if(P.scenes[k+":"+s.id])d++}); (m.terms||[]).forEach(x=>{if(P.terms[x.id])d++}); d+=Math.min((m.quiz||[]).length,(P.quiz[k]||0)); (m.practice||[]).forEach((x,i)=>{if(P.practice[k+":"+i])d++});
+  return Math.round(d/tot*100); }
+function richText(s){ return esc(s).replace(/\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/gi,(_,id,shown)=>{ const tm=TERMS[id]; const label=shown||(tm?tm.term:id.replace(/-/g," ")); return tm?`<button class="t" data-term="${id}">${label}</button>`:`<span class="t0">${label}</span>`; }); }
+function homeView(){
+  const totT=Object.keys(TERMS).length, known=Object.keys(P.terms).filter(k=>!k.startsWith("seen:")&&P.terms[k]).length;
+  return `<section class="hero"><div><div class="eyebrow">ClayAway Academy</div><h1>${t("hi")}</h1><p class="small" style="color:var(--soft);font-size:15px">${t("heroP")}</p>
+    <div class="stats"><span><b>${MODS.length}</b> / 5 ${L()==="uk"?"місій готово":"missions ready"}</span><span><b>${totT}</b> ${t("termsN")}</span><span><b>${known}</b> ${t("learnt").toLowerCase()}</span><span>${t("progress")}: <b>${level().l[1]}</b></span></div></div>
+    <svg class="big-yu" viewBox="0 0 64 64"><use href="#yu"/></svg></section>
+    <div class="missions">${PLAN.map(pl=>{ const m=MODS.find(x=>x.module===pl.module); if(!m) return `<div class="mission empty"><span class="num">${L()==="uk"?"Місія":"Mission"} ${pl.order}</span><h3>${esc(pl["title_"+L()])}</h3><p>${t("notReady")}</p></div>`;
+      const pr=modProg(m); return `<button class="mission" data-mod="${m.module}"><span class="num">${L()==="uk"?"Місія":"Mission"} ${m.order}</span><h3>${esc(tx(m,"title"))}</h3><p>${esc(tx(m,"intro"))}</p><div class="prog"><i style="width:${pr}%"></i></div><span class="meta">${(m.story||[]).length} ${t("scenes")} · ${(m.terms||[]).length} ${t("termsN")} · ${(m.quiz||[]).length} ${t("quizN")} · ${pr}%</span></button>`; }).join("")}</div>`;
+}
+function modView(m){
+  const tabs=[["story",t("story")],["terms",t("terms")],["quiz",t("quiz")],["practice",t("practice")]];
+  let body="";
+  if(S.tab==="story"){ body=(m.story||[]).map((s,i)=>{ const k=m.module+":"+s.id, done=P.scenes[k]; return `<article class="scene"><div class="sn">${L()==="uk"?"Сцена":"Scene"} ${i+1}</div><h3>${esc(tx(s,"title"))}</h3>${tx(s,"text").split(/\n+/).map(p=>`<p>${richText(p)}</p>`).join("")}
+      ${done?`<span class="done">✓ ${t("read")}</span>`:`<button class="btn ok" data-scene="${k}">${t("markRead")} +10 XP</button>`}</article>`; }).join(""); }
+  if(S.tab==="terms"){ const cats=[...new Set((m.terms||[]).map(x=>x.cat))]; body=cats.map(c=>`<h3 style="margin:18px 0 10px;color:var(--muted);font-family:var(--body);font-size:13px;letter-spacing:.06em;text-transform:uppercase">${esc(c)}</h3><div class="cards">${m.terms.filter(x=>x.cat===c).map(card).join("")}</div>`).join(""); }
+  if(S.tab==="quiz"){ body=quizView(m); }
+  if(S.tab==="practice"){ body=`<div class="practice">${(m.practice||[]).map((p,i)=>{ const k=m.module+":"+i, shown=S.reveal[k]||P.practice[k]; return `<div class="pitem"><div class="en">${esc(p.en)}</div>${shown?`<div class="uk">${esc(p.uk)}</div>${p.note_uk?`<div class="note">${esc(p.note_uk)}</div>`:""}${P.practice[k]?`<span class="pill known">${t("done")}</span>`:`<div><button class="btn ok" data-prac="${k}">${t("gotIt")} +10 XP</button></div>`}`:`<div><button class="btn" data-reveal="${k}">${t("show")}</button></div>`}</div>`; }).join("")}</div>`; }
+  return `<button class="btn" data-go="home">${t("backHome")}</button>
+    <div style="margin-top:14px"><div class="eyebrow">${L()==="uk"?"Місія":"Mission"} ${m.order} · ${modProg(m)}%</div><h1>${esc(tx(m,"title"))}</h1><p class="muted">${esc(tx(m,"intro"))}</p></div>
+    <div class="tabs" role="group">${tabs.map(([k,v])=>`<button data-tab="${k}" aria-pressed="${S.tab===k}">${v}</button>`).join("")}</div>${body}`;
+}
+function card(x){ const k=P.terms[x.id]; return `<div class="card"><span class="cat">${esc(x.cat)}</span><span class="term">${esc(x.term)}</span>${x.aka&&x.aka.length?`<span class="aka">${esc(x.aka.join(" · "))}</span>`:""}<p>${esc(tx(x,"short"))}</p>
+  <div class="row"><button class="btn" data-term="${x.id}">${t("open")}</button>${k?`<span class="pill known">✓ ${t("learnt")}</span>`:`<button class="btn ok" data-know="${x.id}">${t("know")} +5</button>`}${x.verify?`<span class="pill verify">${t("verify")}</span>`:""}</div></div>`; }
+function quizView(m){
+  const qs=m.quiz||[]; if(!qs.length) return `<div class="empty-state">—</div>`;
+  if(S.qi>=qs.length){ return `<div class="qcard quiz"><h3>${t("result")}: ${S.qScore} / ${qs.length}</h3><p class="muted">+${S.qScore*15} XP</p><button class="btn primary" data-qrestart="1">${t("restart")}</button></div>`; }
+  const q=qs[S.qi], a=S.qAns;
+  return `<div class="quiz"><div class="qcard"><div class="qn">${S.qi+1} / ${qs.length}</div><h3>${esc(tx(q,"q"))}</h3><div class="opts">${q.options.map((o,i)=>{ let c=""; if(a!==null){ if(i===q.answer)c="right"; else if(i===a)c="wrong"; } return `<button ${a!==null?"disabled":""} class="${c}" data-opt="${i}">${esc(o[L()]||o.en)}</button>`; }).join("")}</div>
+    ${a!==null?`<div class="explain"><b>${a===q.answer?t("correct"):t("wrong")}</b> ${esc(tx(q,"explain"))}</div><div class="qfoot"><span class="muted small">${S.qScore} ✓</span><button class="btn primary" data-qnext="1">${t("next")}</button></div>`:""}</div></div>`;
+}
+function glossView(){
+  const q=S.q.trim().toLowerCase();
+  let list=Object.values(TERMS).filter(x=>!S.f||x.module===S.f).filter(x=>!q||[x.term,(x.aka||[]).join(" "),x.short_en,x.short_uk,x.uk_usage].join(" ").toLowerCase().includes(q)).sort((a,b)=>a.term.localeCompare(b.term));
+  return `<div class="eyebrow">ClayArena glossary · draft</div><h1>${t("gloss")}</h1><p class="muted">${Object.keys(TERMS).length} ${t("count")}</p>
+    <div class="gl-tools"><input id="gq" type="search" placeholder="${t("search")}" value="${esc(S.q)}"><select id="gf"><option value="">${t("allMods")}</option>${MODS.map(m=>`<option value="${m.module}" ${S.f===m.module?"selected":""}>${esc(tx(m,"title"))}</option>`).join("")}</select><button class="btn" id="gexp">${t("export")}</button></div>
+    <div class="gl-list">${list.map(x=>`<button class="gl-row" data-term="${x.id}"><b>${esc(x.term)}</b><span>${esc(tx(x,"short"))}</span><small>${esc((MODS.find(m=>m.module===x.module)||{})["title_"+L()]||"")}${x.verify?" · ⚑":""}</small></button>`).join("")}</div>`;
+}
+function panel(id){
+  const x=TERMS[id]; if(!x) return;
+  if(!P.terms["seen:"+id]){ P.terms["seen:"+id]=1; store.set(P); }
+  const oth=L()==="uk"?"en":"uk";
+  document.getElementById("layer").innerHTML=`<div class="scrim" data-close="1"></div><aside class="panel" role="dialog" aria-label="${esc(x.term)}"><button class="close" data-close="1">${t("close")} ✕</button>
+    <div class="eyebrow">${esc(x.cat)} · ${esc((MODS.find(m=>m.module===x.module)||{})["title_"+L()]||"")}</div><h2>${esc(x.term)}</h2>${x.aka&&x.aka.length?`<div class="aka">${esc(x.aka.join(" · "))}</div>`:""}
+    ${x.verify?`<span class="pill verify">⚑ ${t("verify")}</span>`:""}
+    <div class="blk"><div class="lbl">${t("what")}</div><div class="short">${esc(x["short_"+L()])}</div><div class="small muted" style="margin-top:4px">${esc(x["short_"+oth])}</div></div>
+    <div class="blk"><div class="lbl">${t("detail")}</div><p class="long">${esc(x["long_"+L()])}</p></div>
+    ${x.uk_usage&&x.uk_usage!=="—"?`<div class="blk"><div class="lbl">${t("usage")}</div><p>${esc(x.uk_usage)}</p></div>`:""}
+    ${x.coach_en?`<div class="blk"><div class="lbl">${t("coachSays")}</div><div class="coach"><div class="e">“${esc(x.coach_en)}”</div><div class="u">${esc(x.coach_uk)}</div></div></div>`:""}
+    ${x.tip_uk?`<div class="blk"><div class="lbl">${t("tip")}</div><div class="tip">${esc(x.tip_uk)}</div></div>`:""}
+    ${x.related&&x.related.length?`<div class="blk"><div class="lbl">${t("related")}</div><div class="rel">${x.related.map(r=>TERMS[r]?`<button data-term="${r}">${esc(TERMS[r].term)}</button>`:"").join("")}</div></div>`:""}
+    ${P.terms[id]?`<div class="blk"><span class="pill known">✓ ${t("learnt")}</span></div>`:`<div class="blk"><button class="btn ok" data-know="${id}">${t("know")} +5 XP</button></div>`}
+  </aside>`;
+  document.querySelector(".panel .close").focus();
+}
+function closePanel(){ document.getElementById("layer").innerHTML=""; }
+function render(){
+  hdr(); const app=document.getElementById("app"); const focusQ=document.activeElement&&document.activeElement.id==="gq";
+  const m=S.mod&&MODS.find(x=>x.module===S.mod);
+  app.innerHTML=(S.view==="glossary"?glossView():S.view==="mod"&&m?modView(m):homeView())+`<footer>${t("foot")}</footer>`;
+  if(focusQ){ const g=document.getElementById("gq"); g.focus(); g.setSelectionRange(g.value.length,g.value.length); }
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button,[data-close]"); if(!b) return; const d=b.dataset;
+  if(d.close){ closePanel(); return; }
+  if(d.lang){ P.lang=d.lang; store.set(P); render(); const pa=document.querySelector(".panel h2"); if(pa){ const id=Object.keys(TERMS).find(k=>TERMS[k].term===pa.textContent); if(id) panel(id);} return; }
+  if(d.go){ S.view=d.go; S.mod=null; closePanel(); render(); scrollTo(0,0); return; }
+  if(d.mod){ S.view="mod"; S.mod=d.mod; S.tab="story"; S.qi=0; S.qAns=null; S.qScore=0; render(); scrollTo(0,0); return; }
+  if(d.tab){ S.tab=d.tab; if(d.tab==="quiz"){S.qi=0;S.qAns=null;S.qScore=0;} render(); return; }
+  if(d.term){ panel(d.term); return; }
+  if(d.know){ if(!P.terms[d.know]){ P.terms[d.know]=1; addXP(5); } if(document.querySelector(".panel")) panel(d.know); render(); return; }
+  if(d.scene){ if(!P.scenes[d.scene]){ P.scenes[d.scene]=1; addXP(10); } render(); return; }
+  if(d.reveal){ S.reveal[d.reveal]=1; render(); return; }
+  if(d.prac){ if(!P.practice[d.prac]){ P.practice[d.prac]=1; addXP(10); } render(); return; }
+  if(d.opt!==undefined && S.qAns===null){ const m=MODS.find(x=>x.module===S.mod); const q=m.quiz[S.qi]; S.qAns=+d.opt; if(S.qAns===q.answer){ S.qScore++; addXP(15);} render(); return; }
+  if(d.qnext){ S.qi++; S.qAns=null; if(S.qi>=MODS.find(x=>x.module===S.mod).quiz.length){ P.quiz[S.mod]=Math.max(P.quiz[S.mod]||0,S.qScore); store.set(P);} render(); return; }
+  if(d.qrestart){ S.qi=0; S.qAns=null; S.qScore=0; render(); return; }
+  if(b.id==="gexp"){ const data={source:"ClayAway Academy",generated:new Date().toISOString(),terms:Object.values(TERMS)}; const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,1)],{type:"application/json"})); a.download="clayarena-glossary-draft.json"; a.click(); return; }
+});
+document.addEventListener("input",e=>{ if(e.target.id==="gq"){ S.q=e.target.value; render(); } });
+document.addEventListener("change",e=>{ if(e.target.id==="gf"){ S.f=e.target.value; render(); } });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closePanel(); });
+render();
+</script>
+</body>
+</html>
