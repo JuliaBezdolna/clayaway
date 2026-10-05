@@ -355,7 +355,7 @@ ClayArena берёт **процент с суммы, которую получа
 
 ## Примеры
 
-Подробно, со схемами, программой и расчётом денег — в [concept.html](concept.html).
+Подробно, со схемами, программой и расчётом денег — в [concept/](concept/index.html).
 
 1. **Dornsberg Training Days with Markus Leibinger** (Германия). Organizer + Interpreter: Lena Weigele
    (https://clayarena.com/en/shooters/9655/; DE / EN / ES, сама спортсменка). Coach: Markus Leibinger
