@@ -20,6 +20,8 @@
 | `docs/rules/sporting/`, `compak/`, `en/…` | статичні SEO-сторінки правил (генеруються) | генерується `scripts/build_seo.mjs` |
 | `docs/rules/trainer/` | тренажер правил (160 питань) | працює на статичних даних |
 | `docs/rules/data/*.js` | дані правил і питань (формати: `SCHEMA.md`, `QUIZ_SCHEMA.md`) | джерело для БД |
+| `docs/learn/` + `docs/learn/data/*.js` | Академія ClayArena для початківців: 11 модулів, уроки з тестами, значки; статичні сторінки уроків генерує `build_seo.mjs` | працює на статичних даних |
+| `docs/glossary/` + `docs/glossary/data/` | глосарій ClayArena: терміни правил (`glossary.js`, `aliases.json`) + терміни уроків (`new_terms`) | генерується `build_seo.mjs` |
 | `docs/rules-spec/` | ТЗ правил / тренажера / глосарію | специфікація |
 | `docs/og/` | картинки превʼю 1200×630 та іконки | генерується `scripts/make_og.py` |
 | `docs/sitemap.xml`, `docs/robots.txt` | карта сайту | генерується `scripts/build_seo.mjs` |

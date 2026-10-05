@@ -181,10 +181,11 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     const rel = (t.related || []).filter(r => GBY[r]).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${esc(GBY[r].term)}</a>`).join(" ");
     const body = `<div class="src">${esc(t.cat)}</div><h1>${esc(t.term)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
 <h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p><p lang="en">${esc(t.short_en)}</p>
-<h2>Детально</h2><p>${esc(t.long_uk)}</p><p lang="en">${esc(t.long_en)}</p>
+${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p><p lang="en">${esc(t.long_en)}</p>` : ""}
 ${disc ? `<h2>У Sporting і Compak</h2>${disc}` : ""}
 ${t.uk_usage && t.uk_usage !== "—" ? `<h2>Як кажуть українською</h2><p>${esc(t.uk_usage)}</p>` : ""}
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+${(t.learn || []).filter(id => LESSON[id]).length ? `<h2>Де вивчити</h2><ul>${t.learn.filter(id => LESSON[id]).slice(0, 6).map(id => `<li><a href="${BASE}learn/${id}/">${esc(LESSON[id].title_uk)}</a> · ${esc(LESSON[id].module.title_uk)}</li>`).join("")}</ul>` : ""}
 ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: t.aka || [], description: `${t.short_uk} / ${t.short_en}`, termCode: t.id, url, inDefinedTermSet: SET, inLanguage: ["uk", "en"] },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name: t.term, item: url }] }];
@@ -200,7 +201,84 @@ ${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t
   return [BASE + "glossary/", ...out];
 }
 
+// ---------------------------------------------------------------------------------------------------
+// ClayArena Academy (beginners) — docs/learn/data/<module>.js → static lesson pages docs/learn/<lesson-id>/
+// (LearningResource + BreadcrumbList JSON-LD). The interactive app is docs/learn/index.html (#<lesson-id>).
+// Lesson new_terms that are not in the rules glossary become extra glossary entries (source "academy")
+// so every term chip has a page; they link back to the lesson that explains them.
+window.LEARN = [];
+for (const m of ["intro", "safety", "gun", "chokes", "cartridges", "targets", "technique", "competitions", "rules", "culture", "clayarena"]) {
+  try { await import(`../docs/learn/data/${m}.js`); } catch (e) { /* module not written yet */ }
+}
+const LEARN = window.LEARN.sort((a, b) => a.order - b.order);
+if (GLOSS) {
+  const have = new Set(GLOSS.terms.map(t => t.id));
+  for (const m of LEARN) for (const l of m.lessons) for (const n of (l.new_terms || [])) {
+    if (have.has(n.id)) { const t = GBY[n.id]; if (t.learn && !t.learn.includes(l.id)) t.learn.push(l.id); continue; }
+    const t = { id: n.id, term: n.term, aka: [], cat: "Academy", short_uk: n.short_uk, short_en: n.short_en, long_uk: "", long_en: "", related: [], rule_refs: [], learn: [l.id], source: "academy" };
+    GLOSS.terms.push(t); GBY[n.id] = t; have.add(n.id);
+  }
+  for (const m of LEARN) for (const l of m.lessons) for (const id of (l.terms || [])) { const t = GBY[id]; if (t) { t.learn ||= []; if (!t.learn.includes(l.id)) t.learn.push(l.id); } }
+}
+const LESSON = Object.fromEntries(LEARN.flatMap(m => m.lessons.map(l => [l.id, { ...l, module: m }])));
+
+function lessonPages() {
+  const out = [];
+  for (const m of LEARN) m.lessons.forEach((l, i) => {
+    const url = `${BASE}learn/${l.id}/`, next = m.lessons[i + 1];
+    const title = `${l.title_uk} — Академія ClayArena`;
+    const ld = [{ "@context": "https://schema.org", "@type": "LearningResource", name: l.title_uk, alternateName: l.title_en, description: l.summary_uk, url, inLanguage: ["uk", "en"],
+      learningResourceType: "Lesson", educationalLevel: "Beginner", timeRequired: `PT${l.minutes || 4}M`, isAccessibleForFree: true,
+      isPartOf: { "@type": "Course", name: "Академія ClayArena — стендова стрільба з нуля", url: BASE + "learn/" }, provider: { "@type": "Organization", name: "ClayArena", url: "https://clayarena.com/" } },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Академія ClayArena", item: BASE + "learn/" },
+        { "@type": "ListItem", position: 2, name: m.title_uk, item: `${BASE}learn/#${m.module}` },
+        { "@type": "ListItem", position: 3, name: l.title_uk, item: url }] }];
+    const terms = (l.terms || []).filter(id => GBY[id]).map(id => `<a href="${BASE}glossary/${id}/">${esc(GBY[id].term)}</a>`).join(" · ");
+    const refs = (l.rule_refs || []).map(r => { const b = BOOKS[r.book]; const it = b && b.sections.flatMap(s => s.items).find(x => x.id === r.id); return it ? `<li><a href="${BASE}rules/${r.book}/#${it.id}">${esc(it.ref)}</a> · ${NAMES[r.book]}</li>` : ""; }).join("");
+    const html = `<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(l.summary_uk)}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="${url}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="ClayArena">
+<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(l.summary_uk)}">
+<meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}og/learn.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png">
+<meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/learn.png">
+<meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
+${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
+<style>${CSS}.kp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:14px 0}article p{font-size:17px;line-height:1.75}</style>
+</head>
+<body>
+<header><div class="in"><a class="logo" href="${BASE}learn/"><b>ClayArena</b></a><nav class="crumbs"><a href="${BASE}learn/">Академія</a> › <a href="${BASE}learn/#${m.module}">${esc(m.title_uk)}</a></nav><span style="flex:1"></span><a class="btn primary" href="${BASE}learn/#${l.id}">Пройти урок з тестом</a></div></header>
+<main style="max-width:780px;margin:0 auto;padding:20px 16px 72px"><article>
+<div class="src">${esc(m.title_uk)} · ${i + 1}/${m.lessons.length} · ${l.minutes || 4} хв</div>
+<h1>${esc(l.title_uk)}</h1>
+${(l.body_uk || []).map(p => `<p>${esc(p)}</p>`).join("\n")}
+<div class="kp"><b>Головне</b><ul>${(l.key_points_uk || []).map(k => `<li>${esc(k)}</li>`).join("")}</ul></div>
+${l.did_you_know_uk ? `<p><b>Чи знали ви?</b> ${esc(l.did_you_know_uk)}</p>` : ""}
+${terms ? `<h2>Терміни</h2><p>${terms}</p>` : ""}
+${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+<h2 lang="en">${esc(l.title_en)}</h2>
+${(l.body_en || []).map(p => `<p lang="en">${esc(p)}</p>`).join("\n")}
+<div class="cta"><a class="btn primary" href="${BASE}learn/#${l.id}">Перевірити себе: 3 питання</a>${next ? `<a class="btn" href="${BASE}learn/${next.id}/">Далі: ${esc(next.title_uk)}</a>` : ""}</div>
+</article>
+<div class="disc">Академія ClayArena. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC. Правила FITASC — у нашому переказі; чинним є лише офіційний текст FITASC. Закони про зброю й набої в кожній країні різні.</div>
+</main></body></html>`;
+    mkdirSync(`docs/learn/${l.id}`, { recursive: true });
+    writeFileSync(`docs/learn/${l.id}/index.html`, html);
+    out.push(url);
+  });
+  return LEARN.length ? [BASE + "learn/", ...out] : [];
+}
+
 const urls = [BASE + "rules/", BASE + "rules/trainer/"];
+urls.push(...lessonPages());
 for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
 urls.push(...glossaryPages());
 writeFileSync("docs/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
