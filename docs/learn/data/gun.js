@@ -22,7 +22,7 @@ window.LEARN.push({
     "Правила FITASC дозволяють самозарядні рушниці, але заряджати їх можна не більше ніж двома патронами, а носити — тільки з відкритим затвором. У Compak® Sporting рушниця ще й мусить мати уловлювач гільз, щоб гільзи не летіли на сусіда. Помпові рушниці (pump-action), де перезаряджають рухом цівки, заборонено в обох дисциплінах, а в Compak® Sporting — також дриллінги, тобто комбіновані рушниці з нарізним стволом.",
     "Чому ж на стенді майже всі стріляють із вертикалок? По-перше, безпека: відкриту вертикалку видно здалеку, і кожен бачить, що вона порожня. По-друге, два стволи — це два різні чоки: у дуплеті перша мішень може бути близькою, а друга далекою. По-третє, надійність: вертикалка не «заїдає» на легких патронах, а гільзи не розлітаються навколо. І нарешті, вузька планка над стволами дає оку чітку лінію.",
     "Самозарядна рушниця — цілком гідний вибір для початку або для стрільця, якого турбує віддача. Але якщо ви плануєте серйозно займатися Sporting і Compak, найчастіше вибір падає на спортивну вертикалку (sporter) з 12 калібру.",
-    "Важливо для вибору рушниці: у деяких країнах і на багатьох стендах дозволений лише сталевий (безсвинцевий) дріб — наприклад, у Данії й Нідерландах уже давно, у Великій Британії з 1 квітня 2029 року, а в ЄС діє заборона свинцю біля водно-болотних угідь і готується ширше обмеження. Тому, купуючи рушницю, перевірте, чи має вона клеймо випробування для сталевого дробу і які чоки дозволяє виробник. Докладніше, із посиланнями на закони, — в уроці «Свинець, сталь і м’яке залізо» модуля «Патрони і дріб»."
+    "Важливо для вибору рушниці: у деяких країнах і на багатьох стендах дозволений лише сталевий (безсвинцевий) дріб — наприклад, у Данії й Нідерландах уже давно, у Німеччині — на частині стендів і біля водно-болотних угідь, у Великій Британії з 1 квітня 2029 року, а в ЄС діє заборона свинцю біля водно-болотних угідь і готується ширше обмеження. Тому, купуючи рушницю, перевірте, чи має вона клеймо випробування для сталевого дробу і які чоки дозволяє виробник. Докладніше, із посиланнями на закони, — в уроці «Свинець, сталь і м’яке залізо» модуля «Патрони і дріб»."
    ],
    "body_en": [
     "Clay shooting uses a smoothbore gun, the shotgun. Its bore is smooth, without rifling, and it fires not a bullet but a charge of small lead balls called shot. In Parcours de Chasse – Sporting™ and Compak® Sporting you will meet three main types of gun.",
@@ -32,7 +32,7 @@ window.LEARN.push({
     "The FITASC rules allow semi-automatics, but they may be loaded with no more than two cartridges and carried only with the breech open. In Compak® Sporting the gun must also have a shell catcher so that the cases do not fly at the neighbouring shooter. Pump-action guns, reloaded by sliding the fore-end, are banned in both disciplines, and Compak® Sporting also bans drillings, combination guns with a rifled barrel.",
     "So why does almost everyone on the stand shoot an over-and-under? First, safety: an open O/U can be seen from far away, and everyone knows it is empty. Second, two barrels mean two different chokes: in a double the first target may be close and the second far. Third, reliability: an O/U does not jam on light loads, and the cases do not fly around. Finally, the narrow rib over the barrels gives the eye a clean line.",
     "A semi-automatic is a perfectly good choice for a beginner or for someone who is bothered by recoil. But if you plan to take Sporting and Compak seriously, most people end up with a 12-gauge competition over-and-under, a 'sporter'.",
-    "Important when choosing a gun: in some countries and at many grounds only steel (lead-free) shot is allowed — for example in Denmark and the Netherlands for years, in Great Britain from 1 April 2029, and in the EU lead is banned near wetlands with a wider restriction in preparation. So when buying a gun, check whether it carries a steel-shot proof mark and which chokes the maker allows. More, with links to the laws, in the lesson “Lead, steel and soft iron” of the “Cartridges and shot” module."
+    "Important when choosing a gun: in some countries and at many grounds only steel (lead-free) shot is allowed — for example in Denmark and the Netherlands for years, in Germany at some grounds and near wetlands, in Great Britain from 1 April 2029, and in the EU lead is banned near wetlands with a wider restriction in preparation. So when buying a gun, check whether it carries a steel-shot proof mark and which chokes the maker allows. More, with links to the laws, in the lesson “Lead, steel and soft iron” of the “Cartridges and shot” module."
    ],
    "key_points_uk": [
     "Три основні типи: вертикалка (O/U), горизонталка (SxS) і самозарядна рушниця",
@@ -187,6 +187,11 @@ window.LEARN.push({
      "title": "Нідерланди: Besluit activiteiten leefomgeving (Bal), ст. 11.79 — свинцевий дріб на полюванні (wetten.overheid.nl)",
      "title_en": "Netherlands: Besluit activiteiten leefomgeving (Bal), art. 11.79 — lead shot in hunting (wetten.overheid.nl)",
      "url": "https://wetten.overheid.nl/BWBR0041330/"
+    },
+    {
+     "title": "Німеччина: Німецький мисливський союз (DJV) — безсвинцеві боєприпаси, правила ЄС і земель",
+     "title_en": "Germany: German Hunting Association (DJV) — lead-free ammunition, EU and state rules",
+     "url": "https://www.jagdverband.de/bleifreie-munition"
     }
    ]
   },
