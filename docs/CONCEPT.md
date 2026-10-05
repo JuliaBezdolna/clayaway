@@ -431,3 +431,12 @@ Support (спілкування, спори, перегляд решти). Ус�
 - У моделі: `ItineraryItem(type=meal)` + поля `meal_kind (breakfast|lunch|dinner)`, `included`, `together`, `venue`, `cuisine_note`;
   у `Booking` — `dietary_requirements`.
 - У картках «Tour at a glance» тур показує п'ять акцентів: спорт, трансфер, національна кухня, місце в радіусі 50 км, готель.
+
+## SEO, разметка и превью
+
+- Опубликованный тур индексируется; черновики, модерация, отменённые туры, закрытая группа и кабинет — `noindex`. Демо в прототипе — `noindex`.
+- Мета-теги из данных тура: title, description, canonical, hreflang по языкам тура.
+- schema.org: `Event` (даты, статус, место-стенд, тренер = performer, организатор, дни программы) + `Offer` по тарифам с ценой и остатком мест; `BreadcrumbList`.
+- Open Graph-превью 1200×630 генерируется из обложки тура (название, даты, тренер, «N мест осталось»).
+- Внешние ссылки — `nofollow`; чужие фото в публичных турах — только с разрешения.
+- Прототип: `scripts/make_og.py`, `scripts/seo_meta.py`; правила FITASC — `scripts/build_seo.mjs` (статические страницы, FAQPage, sitemap).

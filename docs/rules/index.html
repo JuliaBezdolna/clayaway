@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
 <meta charset="utf-8">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Правила FITASC · ClayAway</title>
 <!-- share-preview -->
@@ -26,6 +26,10 @@
 <link rel="icon" type="image/png" href="../og/favicon.png">
 <link rel="apple-touch-icon" href="../og/apple-touch-icon.png">
 <!-- /share-preview -->
+<!-- seo -->
+<link rel="canonical" href="https://fenix-112323.github.io/clayaway/rules/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Правила FITASC простими словами — ClayAway", "url": "https://fenix-112323.github.io/clayaway/rules/", "applicationCategory": "ReferenceApplication", "operatingSystem": "Any", "inLanguage": ["uk", "en"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "isPartOf": {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}}</script>
+<!-- /seo -->
 <style>
 :root{
   color-scheme:dark;
@@ -99,7 +103,7 @@ p{margin:0 0 10px;max-width:72ch}
 @keyframes fl{0%{box-shadow:0 0 0 0 rgba(52,211,153,.6)}100%{box-shadow:0 0 0 14px rgba(52,211,153,0)}}
 .pdf{font-size:13px}
 .tag{display:inline-block;font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:999px;background:var(--clay-soft);color:var(--clay);margin-left:6px;vertical-align:1px}
-.source{margin-top:10px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 16px}
+.source{margin-top:10px;font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center}
 .disclaimer{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--muted)}
 .faqlist details{border-top:1px solid var(--line);padding:9px 0}
 .faqlist summary{cursor:pointer;font-weight:600}
@@ -117,7 +121,8 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
   <div class="seg disc" role="group" aria-label="Discipline"><button data-disc="sporting">Sporting</button><button data-disc="compak">Compak Sporting</button></div>
   <div class="seg" role="group" aria-label="Language"><button data-lang="uk">UA</button><button data-lang="en">EN</button></div>
 </div></header>
-<main id="app"></main>
+<main id="app"><noscript><p><a href="sporting/">Правила Sporting</a> · <a href="compak/">Правила Compak Sporting</a> · <a href="en/sporting/">Sporting rules (EN)</a> · <a href="en/compak/">Compak Sporting rules (EN)</a></p></noscript></main>
+<nav aria-label="Static pages" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting</a> · <a href="compak/">Compak Sporting</a> · English: <a href="en/sporting/">Sporting</a> · <a href="en/compak/">Compak Sporting</a> · <a href="trainer/">Тренажер</a></nav>
 <script src="data/sporting.js"></script>
 <script src="data/compak.js"></script>
 <script>
@@ -221,7 +226,7 @@ function render(){
   const ex=(book.faq||[]).slice(0,8);
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
   app.innerHTML=`<div class="eyebrow">FITASC · ${esc(dname)}</div><h1>${t("title").replace("{d}",esc(dname))}</h1><p class="muted">${t("lead")}</p>
-   <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span></div>
+   <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span><a class="btn primary" style="padding:4px 12px;font-size:13px;text-decoration:none" href="trainer/#${S.disc}">${L()==="uk"?"Тренажер правил →":"Rules trainer →"}</a></div>
    <form class="ask" id="askf"><label for="q" class="eyebrow" style="display:block;margin-bottom:8px">${L()==="uk"?"Запитайте про правила":"Ask about the rules"}</label><div class="askrow"><input id="q" type="search" autocomplete="off" placeholder="${esc(t("ph"))}" value="${esc(S.q)}"><button class="btn primary" type="submit">${t("ask")}</button></div>
      <div class="chips">${ex.map(f=>`<button type="button" data-q="${esc(tx(f,"q"))}">${esc(tx(f,"q"))}</button>`).join("")}</div></form>
    <div id="ans">${answerHTML(book)}</div>
@@ -242,6 +247,8 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("submit",e=>{ if(e.target.id==="askf"){ e.preventDefault(); ask(document.getElementById("q").value); } });
 render();
+/* Deep link from the trainer: ?item=<id>#<discipline> opens and highlights that rule item. */
+try{ const it=new URLSearchParams(location.search).get("item"); if(it) setTimeout(()=>jump("it-"+it),150); }catch(_){}
 </script>
 </body>
 </html>

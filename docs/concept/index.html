@@ -5,6 +5,10 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ClayAway — концепція і ТЗ</title>
+<!-- seo -->
+<link rel="canonical" href="https://fenix-112323.github.io/clayaway/concept/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ ClayAway — концепція і технічне завдання", "inLanguage": "uk", "url": "https://fenix-112323.github.io/clayaway/concept/", "author": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "publisher": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "isPartOf": {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}, "about": "Організовані тури з тренером у ClayArena: ролі, доступи, спілкування, адмінка, комісія"}</script>
+<!-- /seo -->
 <!-- share-preview -->
 <meta name="description" content="Тури з тренером у ClayArena: ролі й доступи, відкрите та закрите спілкування, адмінка, комісія, сутності, етапи.">
 <meta property="og:type" content="website">
@@ -294,6 +298,7 @@ h1,h2,h3{letter-spacing:-.01em}
     <li><a href="#talk">Спілкування</a></li>
     <li><a href="#admin">Адмінка</a></li>
     <li><a href="#money">Гроші</a></li>
+    <li><a href="#seo">SEO і превʼю</a></li>
     <li><a href="#pages">Сторінки</a></li>
   </ol>
   <div class="part">Для розробників</div>
@@ -913,6 +918,21 @@ h1,h2,h3{letter-spacing:-.01em}
     <li>Виплата організатору — після старту, після завершення або частинами авансом; правило задає адмінка.</li>
     <li>Повернення — за правилами скасування туру; комісія перераховується.</li>
     <li>Техніка: маркетплейс зі спліт-платежами (наприклад, Stripe Connect). Організатор підключає свій рахунок, комісія утримується автоматично.</li>
+  </ul>
+</section>
+
+<section id="seo">
+  <h2>SEO, розмітка і превʼю сторінок турів</h2>
+  <p>Кожен опублікований тур має приводити трафік із пошуку та гарно виглядати, коли посиланням діляться у Viber, Telegram, WhatsApp, Facebook.</p>
+  <ul>
+    <li><b>Індексація.</b> Опублікований тур (<code>published</code>, <code>confirmed</code>, <code>full</code>) — <code>index, follow</code>; чернетка, модерація, скасований тур і пройдені тури без рекапу — <code>noindex</code>. Закрита зона групи і кабінет організатора — <code>noindex, nofollow</code> і за авторизацією. Демо-приклади в прототипі — <code>noindex</code> (умовні дати й ціни від імені реальних людей).</li>
+    <li><b>Мета-теги</b> генеруються з даних туру: <code>title</code> «Назва туру — місце, дати | ClayAway», <code>description</code> з фокусу, тренера, стенду, «входить у вартість» і кількості вільних місць; <code>canonical</code> на мовну версію; <code>hreflang</code> для кожної мови туру (EN обовʼязкова) і <code>x-default</code>.</li>
+    <li><b>schema.org (JSON-LD):</b> <code>Event</code> (<code>startDate</code>, <code>endDate</code>, <code>eventStatus</code>, <code>eventAttendanceMode</code>, <code>location</code> = стенд з адресою, <code>performer</code> = тренер, <code>organizer</code> = організатор, <code>subEvent</code> = дні програми, <code>inLanguage</code>), <code>Offer</code> для кожного тарифу (стрілець, супровідник) з <code>price</code>, <code>priceCurrency</code>, <code>availability</code> (<code>InStock</code> / <code>LimitedAvailability</code> / <code>SoldOut</code>) і залишком місць; <code>BreadcrumbList</code>; за потреби <code>TouristTrip</code>. Скасування — <code>EventCancelled</code>, перенесення — <code>EventRescheduled</code>.</li>
+    <li><b>Превʼю для месенджерів:</b> Open Graph і Twitter-розмітка; картинка 1200×630 генерується автоматично з обкладинки туру (назва, дати, тренер, «N місць залишилось», логотип ClayArena). Оновлюється при зміні дат, ціни або місць.</li>
+    <li><b>Каталог і сторінки повʼязаних сутностей</b> (тренер, стенд, організатор, перекладач) отримують блоки турів з тією ж розміткою — внутрішні посилання для пошуковиків.</li>
+    <li><b>sitemap</b> турів з <code>lastmod</code>; при зміні дат / цін / місць — оновлення <code>lastmod</code>.</li>
+    <li><b>Посилання на сторонні сайти</b> (FITASC, сайти стендів, Instagram) — <code>rel="nofollow noopener noreferrer"</code>; фото зі сторонніх сайтів у публічних турах — лише з дозволу власника.</li>
+    <li>У прототипі це реалізовано скриптами <code>scripts/make_og.py</code> (превʼю) і <code>scripts/seo_meta.py</code> (canonical + <code>Event</code>/<code>Offer</code> JSON-LD для обох прикладів).</li>
   </ul>
 </section>
 

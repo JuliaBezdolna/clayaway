@@ -25,6 +25,8 @@ PAGES = [
      "Sologne Week with Charles Bardou", "Train with Charles Bardou at the Sologne Shooting Club: hunting course, Compak, Loire wines and a Chambord excursion. ClayAway by ClayArena."),
     ("rules/index.html", "rules", "uk_UA", "FITASC · SPORTING · COMPAK", ["Правила FITASC", "простими словами"], ["Запитайте або читайте за розділами", "з посиланням на сторінку офіційного PDF"],
      "Правила FITASC простими словами — ClayAway", "Sporting і Compak Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC."),
+    ("rules/trainer/index.html", "trainer", "uk_UA", "FITASC · ТРЕНАЖЕР", ["Тренажер", "правил FITASC"], ["Рішення судді, цифри, правда чи ні", "Sporting і Compak Sporting · 160 питань"],
+     "Тренажер правил FITASC — ClayAway", "Перевірте знання правил Sporting і Compak Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF."),
     ("rules-spec/index.html", "rules-spec", "uk_UA", "ТЕХНІЧНЕ ЗАВДАННЯ", ["ТЗ: правила FITASC", "і глосарій"], ["Логіка, дані, пошук, ШІ-відповіді,", "оновлення регламентів"],
      "ТЗ: довідник правил FITASC і глосарій", "Як працює довідник правил FITASC у ClayArena: джерела, структура даних, пошук, ШІ-відповіді, щотижнева перевірка оновлень."),
 ]

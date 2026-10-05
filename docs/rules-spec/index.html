@@ -5,6 +5,10 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ТЗ: Правила FITASC і глосарій</title>
+<!-- seo -->
+<link rel="canonical" href="https://fenix-112323.github.io/clayaway/rules-spec/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ: довідник правил FITASC і глосарій", "inLanguage": "uk", "url": "https://fenix-112323.github.io/clayaway/rules-spec/", "author": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "publisher": {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}, "isPartOf": {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}, "about": "Довідник правил FITASC, тренажер, глосарій, SEO, оновлення регламентів"}</script>
+<!-- /seo -->
 <!-- share-preview -->
 <meta name="description" content="Як працює довідник правил FITASC у ClayArena: джерела, структура даних, пошук, ШІ-відповіді, щотижнева перевірка оновлень.">
 <meta property="og:type" content="website">
@@ -105,6 +109,10 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
     <li><a href="#ai">ШІ-відповіді (етап 2)</a></li>
     <li><a href="#updates">Оновлення правил</a></li>
     <li><a href="#glossary">Глосарій</a></li>
+    <li><a href="#trainer">Тренажер правил</a></li>
+    <li><a href="#seo">SEO та індексація</a></li>
+    <li><a href="#preview">Превʼю для месенджерів</a></li>
+    <li><a href="#hosting">Хостинг і Search Console</a></li>
     <li><a href="#integration">Інтеграція в ClayArena</a></li>
     <li><a href="#roles">Ролі та адмінка</a></li>
     <li><a href="#quality">Якість і перевірка</a></li>
@@ -139,6 +147,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
     <tbody>
       <tr><td>Довідник правил</td><td>спортсмени, судді-початківці, організатори</td><td>правила Sporting і Compak Sporting за розділами, нашим переказом; поле «Запитайте»; FAQ; посилання на сторінку PDF FITASC</td></tr>
       <tr><td>Глосарій</td><td>усі сервіси ClayArena</td><td>єдиний словник термінів (англійський термін + пояснення UA/EN), експорт у JSON, основа для підказок на всьому сайті</td></tr>
+      <tr><td>Тренажер правил</td><td>спортсмени, організатори, перекладачі, майбутні судді</td><td>160 питань (Sporting і Compak): «Рішення судді», цифри, правда чи ні; режими «Швидкий тест», «Іспит», «Мої помилки»; кожне пояснення — з посиланням на пункт правил і сторінку PDF</td></tr>
       <tr><td>Перевірка оновлень</td><td>команда ClayArena</td><td>щотижня перевіряє сайт FITASC; якщо вийшла нова редакція — створює задачу в репозиторії</td></tr>
     </tbody>
   </table></div>
@@ -249,6 +258,72 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
   </ul>
 </section>
 
+<section id="trainer">
+  <h2>Тренажер правил</h2>
+  <p>Довідник відповідає, коли людина питає сама; тренажер закріплює правила до виходу на стенд. Сторінка: <code>/rules/trainer/</code>.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Що</th><th>Як працює</th></tr></thead>
+    <tbody>
+      <tr><td>Банк питань</td><td><code>docs/rules/data/quiz-sporting.js</code> (80) і <code>quiz-compak.js</code> (80), формат <code>QUIZ_SCHEMA.md</code>. Кожне питання має <code>refs</code> — id пунктів правил, на яких воно ґрунтується; питання тільки з даних довідника, без вигадок; спірні місця регламенту в питання не беруться.</td></tr>
+      <tr><td>Типи</td><td><b>decision</b> (~40%) — ситуація на стенді й «Яке рішення судді?» (Dead / Lost / No Bird / повтор / Zero-Zero / попередження); <b>number</b> (~25%) — ліміти, секунди, кількості, застави; <b>truefalse</b> (~15%); <b>choice</b> (~20%). Неправильні варіанти — типові помилки, а не абсурд.</td></tr>
+      <tr><td>Рівні</td><td>1 — базовий (кожен стрілець), 2 — організатор / перекладач, 3 — рівень судді. Фільтр рівня на старті.</td></tr>
+      <tr><td>Режими</td><td>«Швидкий тест» — 10 випадкових питань, пояснення одразу; «Іспит» — 30 питань, результат і розбір у кінці, прохідний бал 80%; «Мої помилки» — питання, на які відповіли неправильно (правильна відповідь прибирає питання зі списку).</td></tr>
+      <tr><td>Пояснення</td><td>після відповіді: чому так, точна цифра, кнопки «Пункт у довіднику» (відкриває й підсвічує пункт: <code>/rules/?item=&lt;id&gt;#&lt;дисципліна&gt;</code>) і «PDF, стор. N».</td></tr>
+      <tr><td>Прогрес</td><td>у браузері (<code>localStorage</code> «clayaway-trainer»): кількість відповідей, точність, найкращий іспит, список помилок — окремо для Sporting і Compak. На етапі 2 — у профілі ClayArena, з бейджем «Знає правила FITASC» і статистикою найважчих питань для редактора.</td></tr>
+      <tr><td>Оновлення</td><td>при новій редакції FITASC питання з <code>refs</code> на змінені пункти позначаються на перевірку; скрипт перевірки — биті <code>refs</code>, індекс відповіді, унікальні id, мова.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="seo">
+  <h2>SEO та індексація</h2>
+  <p>Мета — органічний трафік на правила, тренажер і глосарій, не відкриваючи внутрішніх документів.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Сторінка</th><th>Індексація</th><th>Чому</th></tr></thead>
+    <tbody>
+      <tr><td>Статичні сторінки правил <code>/rules/sporting/</code>, <code>/rules/compak/</code>, <code>/rules/en/…</code></td><td><b>index, follow</b></td><td>головне джерело трафіку: повний текст переказу в HTML, FAQ</td></tr>
+      <tr><td>Інтерактивний довідник <code>/rules/</code> і тренажер <code>/rules/trainer/</code></td><td><b>index, follow</b></td><td>пошук «питання — відповідь», тест</td></tr>
+      <tr><td>Глосарій і Академія (окремий проєкт)</td><td><b>index, follow</b></td><td>свій контент, сторінка на кожен термін</td></tr>
+      <tr><td>Головна прототипу</td><td>noindex, follow</td><td>роздоріжжя з посиланнями на внутрішні ТЗ</td></tr>
+      <tr><td>ТЗ (<code>/concept/</code>, <code>/rules-spec/</code>)</td><td>noindex, nofollow</td><td>внутрішні плани ClayArena (комісія, логіка, адмінка)</td></tr>
+      <tr><td>Приклади турів (<code>/dornsberg/</code>, <code>/sologne/</code>)</td><td>noindex, nofollow</td><td>реальні люди з умовними датами й цінами, фото з сайтів стендів — не можна видавати за реальний продаж</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Що є на індексованих сторінках</h3>
+  <ul>
+    <li><b>Статичний HTML.</b> Скрипт <code>scripts/build_seo.mjs</code> (Bun) з <code>docs/rules/data/*.js</code> генерує сторінки правил українською й англійською: розділи (h2), пункти (h3), ключові пункти, номер пункту, посилання на сторінку PDF, FAQ. Пошуковики бачать весь текст без виконання JavaScript.</li>
+    <li><b>Унікальні title і description</b> на кожну сторінку (дисципліна, кількість пунктів і відповідей, ключові теми).</li>
+    <li><b>canonical</b> на себе; <b>hreflang</b> uk / en / x-default між мовними версіями.</li>
+    <li><b>schema.org (JSON-LD):</b> <code>WebPage</code> з <code>isBasedOn</code> → регламент FITASC; <code>BreadcrumbList</code>; <code>FAQPage</code> з усіма питаннями й відповідями; для довідника — <code>WebApplication</code>; для тренажера — <code>Quiz</code>; для глосарію — <code>DefinedTermSet</code> / <code>DefinedTerm</code>; для Академії — <code>Course</code>.</li>
+    <li><b>sitemap.xml</b> з датою оновлення; <code>robots.txt</code> з посиланням на sitemap.</li>
+    <li><b>Внутрішні посилання</b>: довідник ↔ статичні сторінки ↔ тренажер; <code>&lt;noscript&gt;</code> зі списком статичних сторінок.</li>
+    <li><b>Посилання на FITASC</b> — завжди <code>rel="nofollow noopener noreferrer"</code>; PDF і дослівний текст не публікуємо.</li>
+    <li>Після перенесення на clayarena.com: canonical і sitemap — на домен ClayArena, з 301-редиректом із прототипу.</li>
+  </ul>
+  <div class="note"><b>Ризик.</b> Індексований переказ регламенту стає помітнішим для FITASC. Рекомендація залишається: отримати письмовий дозвіл FITASC або партнерство; до того — лише власні формулювання, точні цифри й посилання на офіційний PDF.</div>
+</section>
+
+<section id="preview">
+  <h2>Превʼю для месенджерів (Viber, Telegram, WhatsApp, Facebook)</h2>
+  <ul>
+    <li>У кожної публічної сторінки — Open Graph і Twitter-розмітка: <code>og:title</code>, <code>og:description</code>, <code>og:url</code>, <code>og:image</code> (абсолютний https, PNG 1200×630, <code>og:image:width/height/type</code>), <code>og:locale</code>, <code>twitter:card=summary_large_image</code>; іконки <code>favicon</code> і <code>apple-touch-icon</code>.</li>
+    <li>Картинки генерує <code>scripts/make_og.py</code> (Pillow) у фірмовому стилі ClayArena: темне тло, смарагдовий акцент, логотип ClayArena, назва сторінки, помаранчева тарілочка. Нова сторінка — новий рядок у <code>PAGES</code>, скрипт сам вставляє теги в <code>&lt;head&gt;</code>.</li>
+    <li>SVG як <code>og:image</code> не використовуємо (месенджери його не показують).</li>
+    <li>Месенджери кешують превʼю: після зміни картинки для перевірки додаємо до посилання <code>?v=2</code>.</li>
+    <li>Правило діє для всіх проєктів ClayArena / ClayAway (зокрема Академії).</li>
+  </ul>
+</section>
+
+<section id="hosting">
+  <h2>Хостинг прототипу і Search Console</h2>
+  <ul>
+    <li>Прототип: GitHub Pages з приватного репозиторію (план GitHub Pro). Сайт публічний за посиланням навіть при приватному репозиторії; закрити доступ до сайту можна лише через GitHub Enterprise або інший хостинг з авторизацією.</li>
+    <li>ClayAway: <code>https://fenix-112323.github.io/clayaway/</code> (репозиторій <code>fenix-112323/clayaway</code>, Pages з <code>main /docs</code>). Академія: <code>https://fenix-112323.github.io/vika-academy/</code> (окремий репозиторій, Pages з <code>main / (root)</code>).</li>
+    <li>Щоб сторінки потрапили в Google: Google Search Console → ресурс «Префікс URL» з адресою сайту → підтвердження HTML-тегом → надіслати <code>sitemap.xml</code>. Те саме — Bing Webmaster Tools.</li>
+    <li>Для робочого запуску — домен ClayArena, а не github.io: трафік і авторитет мають накопичуватися на основному сайті.</li>
+  </ul>
+</section>
+
 <section id="integration">
   <h2>Інтеграція в ClayArena</h2>
   <div class="tbl"><table>
@@ -290,7 +365,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 <section id="phases">
   <h2>Етапи</h2>
   <div class="phases">
-    <div class="now"><h3>Етап 1 · прототип (зараз)</h3><ul><li>довідник Sporting і Compak з пошуком і FAQ</li><li>глосарій термінів з правил (JSON)</li><li>щотижнева перевірка FITASC</li></ul></div>
+    <div class="now"><h3>Етап 1 · прототип (зараз)</h3><ul><li>довідник Sporting і Compak з пошуком і FAQ</li><li>глосарій термінів з правил (JSON)</li><li>щотижнева перевірка FITASC</li><li>тренажер правил (160 питань)</li><li>статичні SEO-сторінки, sitemap, schema.org, превʼю для месенджерів</li></ul></div>
     <div><h3>Етап 2 · ClayArena</h3><ul><li>таблиці правил і глосарію в БД</li><li>сторінки /rules і /glossary</li><li>ШІ-відповіді через Claude API</li><li>адмінка редактора й рецензента</li></ul></div>
     <div><h3>Етап 3 · розвиток</h3><ul><li>інші дисципліни FITASC</li><li>більше мов</li><li>«Що змінилося в редакції»</li><li>підказки термінів по всьому сайту</li></ul></div>
   </div>
@@ -312,6 +387,15 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 docs/rules/data/SCHEMA.md        формат даних правил
 docs/rules/data/sporting.js      Sporting: розділи, пункти, FAQ
 docs/rules/data/compak.js        Compak Sporting: розділи, пункти, FAQ
+docs/rules/sporting/, compak/     статичні SEO-сторінки правил (uk)
+docs/rules/en/sporting/, compak/  статичні SEO-сторінки правил (en)
+docs/rules/trainer/index.html    тренажер правил
+docs/rules/data/quiz-*.js        банк питань тренажера; формат QUIZ_SCHEMA.md
+docs/sitemap.xml, docs/robots.txt  карта сайту для пошуковиків
+docs/og/                         картинки превʼю 1200×630 та іконки
+scripts/build_seo.mjs            статичні сторінки, sitemap, schema.org
+scripts/make_og.py               картинки превʼю й Open Graph теги
+scripts/seo_meta.py              canonical + JSON-LD для головної, ТЗ і турів
 docs/rules-spec/index.html       це ТЗ
 docs/rules/data/glossary.json    глосарій термінів, зібраний з правил (етап 1)
 scripts/fitasc_check.py          перевірка/завантаження нових редакцій FITASC
