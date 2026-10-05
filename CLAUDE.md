@@ -34,8 +34,8 @@
 
 ## Структура репозитория
 - `docs/CONCEPT.md` — концепция и ТЗ в Markdown.
-- `site/` — статический сайт для GitHub Pages:
-  `site/index.html` (оглавление), `site/concept/` (ТЗ), `site/dornsberg/` (пример 1), `site/sologne/` (пример 2).
+- `docs/` — статический сайт для GitHub Pages (Settings → Pages → main /docs):
+  `docs/index.html` (оглавление), `docs/concept/` (ТЗ), `docs/dornsberg/` (пример 1), `docs/sologne/` (пример 2).
   Примеры туров — в дизайне ClayArena (тёмная тема, изумрудный акцент), с подписью сервиса **ClayAway**;
   фото и видео подключены по ссылкам с ClayArena (cdn.clayarena.com, хранилище ClayArena), не копируются.
-- Локальный просмотр: `python -m http.server 8791 --bind 127.0.0.1 --directory site`.
+- Локальный просмотр: `python -m http.server 8791 --bind 127.0.0.1 --directory docs`.
