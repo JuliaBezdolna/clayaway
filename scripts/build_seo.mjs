@@ -221,6 +221,14 @@ if (GLOSS) {
   }
   for (const m of LEARN) for (const l of m.lessons) for (const id of (l.terms || [])) { const t = GBY[id]; if (t) { t.learn ||= []; if (!t.learn.includes(l.id)) t.learn.push(l.id); } }
 }
+// Full entries for the lesson terms (docs/glossary/data/learn_terms.js, window.GLOSSARY_LEARN) replace the thin
+// one-line academy entries created above, keeping the computed `learn` links.
+try { await import("../docs/glossary/data/learn_terms.js"); } catch (e) { /* not written yet */ }
+if (GLOSS && window.GLOSSARY_LEARN) for (const full of window.GLOSSARY_LEARN.terms) {
+  const t = GBY[full.id]; if (!t) continue;
+  const learn = [...new Set([...(t.learn || []), ...(full.learn || [])])];
+  Object.assign(t, full, { learn, source: "academy" });
+}
 const LESSON = Object.fromEntries(LEARN.flatMap(m => m.lessons.map(l => [l.id, { ...l, module: m }])));
 
 function lessonPages() {
@@ -336,6 +344,10 @@ urls.push(...categoriesPage());
 urls.push(...lessonPages());
 for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
 urls.push(...glossaryPages());
+// English versions of lessons, glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
+globalThis.SEO = { BASE, TODAY, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, CSS, NF, esc };
+const { buildEnglish } = await import("./build_seo_en.mjs");
+urls.push(...buildEnglish());
 writeFileSync("docs/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${u}</loc><lastmod>${TODAY}</lastmod></url>`).join("\n")}

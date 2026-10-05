@@ -179,9 +179,14 @@ window.LEARN.push({
      "url": "https://www.gov.uk/government/news/toxic-lead-ammunition-banned-to-protect-britains-countryside"
     },
     {
-     "title": "Данія: повна заборона свинцевого дробу з 1996 року (огляд, PMC)",
-     "title_en": "Denmark: total lead shot ban since 1996 (review, PMC)",
-     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6675819/"
+     "title": "Данія: BEK nr. 1479 від 05.12.2023 «Bekendtgørelse om våben og ammunition der må anvendes til jagt m.v.», § 2, ч. 4 (Retsinformation)",
+     "title_en": "Denmark: BEK no. 1479 of 05/12/2023, Executive Order on weapons and ammunition for hunting, § 2(4) (Retsinformation)",
+     "url": "https://www.retsinformation.dk/eli/lta/2023/1479"
+    },
+    {
+     "title": "Нідерланди: Besluit activiteiten leefomgeving (Bal), ст. 11.79 — свинцевий дріб на полюванні (wetten.overheid.nl)",
+     "title_en": "Netherlands: Besluit activiteiten leefomgeving (Bal), art. 11.79 — lead shot in hunting (wetten.overheid.nl)",
+     "url": "https://wetten.overheid.nl/BWBR0041330/"
     }
    ]
   },

@@ -630,8 +630,8 @@ window.LEARN.push({
     "Де свинцевий дріб уже заборонений або обмежений (станом на жовтень 2026 року; закони змінюються, тож перевіряйте актуальну редакцію):",
     "• Європейський Союз — Регламент Комісії (ЄС) 2021/57: з 15 лютого 2023 року заборонено стріляти дробом, що містить 1% свинцю й більше, а також мати його при собі під час стрільби у водно-болотних угіддях і в межах 100 м від них. Ширше обмеження свинцю в дробі за регламентом REACH схвалив комітет ЄС у червні 2026 року з перехідним періодом сім років; на момент написання воно ще проходить перевірку Європарламентом і Радою.",
     "• Велика Британія (Англія, Вельс, Шотландія) — обмеження UK REACH: з 1 квітня 2029 року заборонено продавати й використовувати свинцевий дріб і для полювання, і для стрільби по мішенях, зокрема на стендах; виняток передбачено лише для елітних спортсменів за умовами закону.",
-    "• Данія — з 1996 року повна заборона використання, продажу й володіння свинцевим дробом, зокрема для стендової стрільби.",
-    "• Нідерланди — свинцевий дріб заборонений для полювання з 1993 року, для стендової стрільби — з 2004 року (з винятком для олімпійських спортсменів на спеціальних стрільбищах).",
+    "• Данія — свинцевий дріб заборонений повністю з 1996 року. Чинна норма: BEK nr. 1479 від 05.12.2023, § 2, ч. 4 — патрони зі свинцевим дробом не можна продавати, мати при собі чи використовувати на полюванні, а також мати при собі чи використовувати для стендової стрільби (flugtskydning), зокрема на стрільбищах. Продаж і імпорт продуктів зі свинцем окремо обмежує BEK nr. 856 від 05.09.2009.",
+    "• Нідерланди — на полюванні свинцевий дріб заборонений з 1993 року; зараз це ст. 11.79 Besluit activiteiten leefomgeving (у системі Omgevingswet). Для стендової стрільби Besluit kleiduivenschieten milieubeheer з 2004 року заборонив свинцевий і цинковий дріб (з винятком для елітних спортсменів на погоджених стрільбищах); з 2017 року екологічні правила стендів перенесено до загальних актів, і Королівська асоціація мисливців KNJV зазначає, що свинцевий і цинковий дріб на стендах і далі заборонений. Уточнюйте на конкретному стенді.",
     "• США — з 1991 року для полювання на водоплавну птицю дозволений лише нетоксичний дріб (федеральні правила 50 CFR 20.21(j)); окремі штати мають ширші обмеження.",
     "Крім законів, багато стендів самі дозволяють лише сталевий дріб (наприклад, через охорону природи навколо стенду) — це правило стенду, і воно діє навіть там, де закон свинець дозволяє. Перед поїздкою завжди перевіряйте закон країни і правила конкретного стенду."
    ],
@@ -645,8 +645,8 @@ window.LEARN.push({
     "Where lead shot is already banned or restricted (as of October 2026; laws change, so check the current version):",
     "• European Union — Commission Regulation (EU) 2021/57: since 15 February 2023 it is forbidden to fire gunshot containing 1% lead or more, or to carry it while shooting, in or within 100 m of wetlands. A wider REACH restriction on lead in gunshot was approved by the EU committee in June 2026 with a seven-year transition; at the time of writing it is still under scrutiny by the European Parliament and the Council.",
     "• Great Britain (England, Wales, Scotland) — UK REACH restriction: from 1 April 2029 the sale and use of lead shot is banned for both live quarry and target shooting, including clay grounds; only elite athletes are exempt under conditions set by the law.",
-    "• Denmark — since 1996 a total ban on the use, sale and possession of lead shot, including for clay shooting.",
-    "• Netherlands — lead shot banned for hunting since 1993 and for clay target shooting since 2004 (with an exception for Olympic athletes on special ranges).",
+    "• Denmark — lead shot has been fully banned since 1996. Current rule: BEK no. 1479 of 05/12/2023, § 2(4) — cartridges with lead shot may not be sold, carried or used for hunting, nor carried or used for clay shooting (flugtskydning), including at shooting ranges. Import and sale of lead-containing products is also restricted by BEK no. 856 of 05/09/2009.",
+    "• Netherlands — lead shot has been banned for hunting since 1993; today this is art. 11.79 of the Besluit activiteiten leefomgeving (under the Omgevingswet). For clay shooting, the Besluit kleiduivenschieten milieubeheer of 2004 banned lead and zinc shot (with an exemption for elite athletes on approved ranges); since 2017 clay-range environmental rules moved into general acts, and the Royal Dutch Hunters' Association (KNJV) states that lead and zinc shot remain banned at clay ranges. Check with the ground.",
     "• USA — since 1991 only nontoxic shot is allowed for waterfowl hunting (federal rule 50 CFR 20.21(j)); some states go further.",
     "Besides laws, many grounds allow steel shot only (for example to protect nature around the ground) — that is the ground's own rule and applies even where the law allows lead. Before travelling, always check the country's law and the ground's rules."
    ],
@@ -795,14 +795,29 @@ window.LEARN.push({
      "url": "https://www.gov.uk/government/news/toxic-lead-ammunition-banned-to-protect-britains-countryside"
     },
     {
-     "title": "Данія: повна заборона свинцевого дробу з 1996 року (огляд, PMC)",
-     "title_en": "Denmark: total lead shot ban since 1996 (review, PMC)",
-     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6675819/"
+     "title": "Данія: BEK nr. 1479 від 05.12.2023 «Bekendtgørelse om våben og ammunition der må anvendes til jagt m.v.», § 2, ч. 4 (Retsinformation)",
+     "title_en": "Denmark: BEK no. 1479 of 05/12/2023, Executive Order on weapons and ammunition for hunting, § 2(4) (Retsinformation)",
+     "url": "https://www.retsinformation.dk/eli/lta/2023/1479"
     },
     {
-     "title": "Нідерланди та інші країни Європи: заборони свинцевого дробу (огляд, PMC)",
-     "title_en": "Netherlands and other European countries: lead shot regulations (review, PMC)",
-     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6675918/"
+     "title": "Данія: BEK nr. 856 від 05.09.2009 — заборона імпорту й продажу продуктів зі свинцем (Retsinformation)",
+     "title_en": "Denmark: BEK no. 856 of 05/09/2009 — ban on import and sale of products containing lead (Retsinformation)",
+     "url": "https://www.retsinformation.dk/eli/lta/2009/856"
+    },
+    {
+     "title": "Нідерланди: Besluit activiteiten leefomgeving (Bal), ст. 11.79 — свинцевий дріб на полюванні (wetten.overheid.nl)",
+     "title_en": "Netherlands: Besluit activiteiten leefomgeving (Bal), art. 11.79 — lead shot in hunting (wetten.overheid.nl)",
+     "url": "https://wetten.overheid.nl/BWBR0041330/"
+    },
+    {
+     "title": "Нідерланди: Besluit kleiduivenschieten milieubeheer (2004) — свинцевий і цинковий дріб на стендах (wetten.overheid.nl)",
+     "title_en": "Netherlands: Besluit kleiduivenschieten milieubeheer (2004) — lead and zinc shot at clay ranges (wetten.overheid.nl)",
+     "url": "https://wetten.overheid.nl/jci1.3:c:BWBR0016755&g=2020-02-01&z=2020-02-01"
+    },
+    {
+     "title": "Нідерланди: роз'яснення Королівської асоціації мисливців KNJV щодо свинцевого й цинкового дробу",
+     "title_en": "Netherlands: Royal Dutch Hunters' Association (KNJV) explanation on lead and zinc shot",
+     "url": "https://www.jagersvereniging.nl/faq/is-het-bezit-en-gebruik-van-lood-en-zinkhagel-in-nederland-toegestaan/"
     },
     {
      "title": "США: нетоксичний дріб для полювання на водоплавну птицю, 50 CFR 20.21(j) (U.S. Fish & Wildlife Service)",
