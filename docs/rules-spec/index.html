@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ТЗ: Правила FITASC і глосарій</title>
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#030712; --surface:rgba(255,255,255,.04); --surface2:#0B1120; --line:rgba(255,255,255,.1);
+  --ink:#F3F4F6; --soft:#D1D5DB; --muted:#9CA3AF;
+  --em:#34D399; --em-soft:rgba(16,185,129,.15); --primary:#059669; --cyan:#22D3EE;
+  --clay:#FB923C; --clay-soft:rgba(251,146,60,.14);
+  --body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SFMono-Regular",Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15.5px/1.65 var(--body)}
+a{color:var(--em)}
+.wrap{max-width:1140px;margin:0 auto;padding-inline:16px;padding-block:32px 80px;display:grid;grid-template-columns:230px minmax(0,1fr);gap:48px}
+@media (max-width:880px){.wrap{grid-template-columns:1fr;gap:20px}.toc{display:none}}
+.toc{position:sticky;top:24px;align-self:start;font-size:13.5px}
+.toc ol{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.toc a{display:block;color:var(--muted);text-decoration:none;padding:4px 0 4px 10px;border-left:2px solid var(--line)}
+.toc a:hover{color:#fff;border-left-color:var(--em)}
+.logo{display:inline-block;background:#000;border-radius:8px;padding:2px 11px;font-weight:700;font-size:16px;box-shadow:0 0 16px rgba(52,211,153,.25);margin-bottom:14px;text-decoration:none}
+.logo b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1,h2,h3{letter-spacing:-.01em;text-wrap:balance}
+h1{font-size:clamp(30px,5vw,46px);line-height:1.08;margin:6px 0 10px}
+h2{font-size:24px;margin:0 0 12px}
+h3{font-size:17px;margin:22px 0 6px}
+p,li{max-width:72ch}
+p{margin:0 0 10px;color:var(--soft)}
+ul,ol{color:var(--soft)}
+li{margin:4px 0} li::marker{color:var(--em)}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--em)}
+.lede{font-size:18px;color:var(--ink)}
+.meta{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 18px}
+section{margin-top:52px;scroll-margin-top:20px}
+code{font-family:var(--mono);font-size:.88em;background:var(--em-soft);color:#A7F3D0;padding:1px 5px;border-radius:4px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface);margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:rgba(255,255,255,.03);white-space:nowrap}
+td:first-child{font-weight:600;color:var(--ink)}
+.note{background:var(--clay-soft);border-radius:10px;padding:12px 16px;margin:14px 0;color:#FED7AA;font-size:14.5px}
+.note b{color:var(--clay)}
+.ok{background:var(--em-soft);border-radius:10px;padding:12px 16px;margin:14px 0;color:#A7F3D0;font-size:14.5px}
+.pipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:16px 0;counter-reset:st}
+.pipe div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;position:relative;counter-increment:st}
+.pipe div::before{content:counter(st);position:absolute;top:10px;right:12px;font-weight:700;color:var(--clay);font-size:13px}
+.pipe b{display:block;font-size:14px;margin-bottom:2px;color:var(--ink)}
+.pipe span{font-size:12.5px;color:var(--muted)}
+.pipe div.ai{border-style:dashed;border-color:rgba(34,211,238,.45)}
+.pipe div.ai b{color:var(--cyan)}
+.code{background:#000;border:1px solid var(--line);border-radius:10px;padding:14px 16px;overflow-x:auto;font-family:var(--mono);font-size:12.5px;line-height:1.6;color:#D1D5DB;white-space:pre;margin:12px 0}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin:14px 0}
+.links a{display:grid;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.links a:hover{border-color:rgba(52,211,153,.5)}
+.links span{font-size:13px;color:var(--muted)}
+.phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.phases div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.phases div.now{border-color:rgba(52,211,153,.5);box-shadow:inset 0 3px 0 var(--em)}
+.phases h3{margin:0 0 6px}
+.phases ul{padding-left:18px;font-size:14px;margin:0}
+footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="toc" aria-label="Зміст">
+  <a class="logo" href="../"><b>ClayArena</b></a>
+  <ol>
+    <li><a href="#goal">Мета</a></li>
+    <li><a href="#parts">Що входить</a></li>
+    <li><a href="#sources">Джерела і права</a></li>
+    <li><a href="#logic">Логіка роботи</a></li>
+    <li><a href="#data">Структура даних</a></li>
+    <li><a href="#answers">Як працюють відповіді</a></li>
+    <li><a href="#ai">ШІ-відповіді (етап 2)</a></li>
+    <li><a href="#updates">Оновлення правил</a></li>
+    <li><a href="#glossary">Академія і глосарій</a></li>
+    <li><a href="#integration">Інтеграція в ClayArena</a></li>
+    <li><a href="#roles">Ролі та адмінка</a></li>
+    <li><a href="#quality">Якість і перевірка</a></li>
+    <li><a href="#phases">Етапи</a></li>
+    <li><a href="#open">Відкриті питання</a></li>
+    <li><a href="#files">Файли в репозиторії</a></li>
+  </ol>
+</nav>
+<main>
+  <div class="eyebrow">ClayArena · ClayAway · технічне завдання</div>
+  <h1>Довідник правил FITASC, Академія і глосарій</h1>
+  <p class="lede">Три пов'язані інструменти для спортсменів, організаторів і перекладачів: правила Sporting і Compak Sporting простими словами з відповідями на питання, навчальна Академія термінів і єдиний глосарій ClayArena.</p>
+  <div class="meta"><span>Версія від 05.10.2026</span><span>Статус: прототип для обговорення</span><span>Мова інтерфейсу: UA / EN, терміни англійською</span></div>
+  <div class="links">
+    <a href="../rules/"><b>Довідник правил</b><span>Sporting і Compak Sporting, пошук і FAQ</span></a>
+    <a href="../academy/"><b>Академія Віки</b><span>5 місій, 394 терміни, квізи</span></a>
+    <a href="../concept/"><b>ТЗ ClayAway (тури)</b><span>основний сервіс турів</span></a>
+  </div>
+
+<section id="goal">
+  <h2>Мета</h2>
+  <ul>
+    <li><b>Спортсмен</b> за хвилину знаходить відповідь на питання про правила (положення рушниці, no bird, відмови машинки, протест, перестрілка) і бачить, на якій статті й сторінці офіційного регламенту вона ґрунтується.</li>
+    <li><b>Організатор і перекладач</b> туру ClayAway вивчає терміни й правила, щоб правильно пояснювати і перекладати на стенді.</li>
+    <li><b>ClayArena</b> отримує єдину базу термінів і правил, яку використовують усі розділи: змагання, стенди, тури, відео, рекапи.</li>
+  </ul>
+</section>
+
+<section id="parts">
+  <h2>Що входить</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Модуль</th><th>Для кого</th><th>Що робить</th></tr></thead>
+    <tbody>
+      <tr><td>Довідник правил</td><td>спортсмени, судді-початківці, організатори</td><td>правила Sporting і Compak Sporting за розділами, нашим переказом; поле «Запитайте»; FAQ; посилання на сторінку PDF FITASC</td></tr>
+      <tr><td>Академія</td><td>організатори турів, перекладачі, новачки</td><td>сюжетні місії, картки термінів, квізи, вправа «Переклади тренера», рівні та XP</td></tr>
+      <tr><td>Глосарій</td><td>усі сервіси ClayArena</td><td>єдиний словник термінів (англійський термін + пояснення UA/EN), експорт у JSON, основа для підказок на всьому сайті</td></tr>
+      <tr><td>Перевірка оновлень</td><td>команда ClayArena</td><td>щотижня перевіряє сайт FITASC; якщо вийшла нова редакція — створює задачу в репозиторії</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="sources">
+  <h2>Джерела і права</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Документ</th><th>Редакція</th><th>Посилання</th></tr></thead>
+    <tbody>
+      <tr><td>International Rules Parcours de Chasse – Sporting (EN)</td><td>01/01/2025, файл від 29.03.2026</td><td><a href="https://api.fitasc.com/media/20260203-rglt-pc-eng-69c6aa08dfdfc995043715.pdf">PDF ↗</a></td></tr>
+      <tr><td>Compak Sporting Rules (EN)</td><td>2025, файл від 02.02.2026</td><td><a href="https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf">PDF ↗</a></td></tr>
+      <tr><td>Quick reference guide для суддів, Sporting</td><td>08.06.2026</td><td><a href="https://api.fitasc.com/userfiles/files/rglts_sportifs/pc/20260608_pc_quick_ref_quide.pdf">PDF ↗</a></td></tr>
+      <tr><td>Quick reference guide для суддів, Compak Sporting</td><td>02.01.2026</td><td><a href="https://www.fitasc.com/upload/images/reglements/20260102_cs_quick_ref_quide.pdf">PDF ↗</a></td></tr>
+    </tbody>
+  </table></div>
+  <p>Сторінка всіх регламентів: <a href="https://www.fitasc.com/disciplines-sportives/reglements-sportifs">fitasc.com → Règlements sportifs ↗</a></p>
+  <div class="note"><b>Авторське право.</b> У кожному регламенті зазначено, що правила належать FITASC і не можуть відтворюватися повністю чи частково без письмового дозволу. Тому: (1) PDF не публікуємо і не зберігаємо в репозиторії (папка <code>rules/pdf/</code> у <code>.gitignore</code>); (2) на сайті — лише наш переказ, цифри й ліміти без змін, короткі цитати до 15 слів; (3) кожен пункт посилається на сторінку офіційного PDF; (4) на кожній сторінці — дисклеймер: «чинним є лише офіційний текст FITASC». <b>Рекомендація:</b> до публічного запуску отримати письмовий дозвіл FITASC або статус партнера.</div>
+</section>
+
+<section id="logic">
+  <h2>Логіка роботи</h2>
+  <p>Ланцюжок від PDF до відповіді спортсмену. Кроки 1–6 працюють уже зараз у прототипі; крок 7 — етап 2.</p>
+  <div class="pipe">
+    <div><b>FITASC</b><span>сторінка регламентів, актуальні PDF англійською</span></div>
+    <div><b>Перевірка</b><span>щопонеділка: посилання, дата, розмір файлів проти <code>rules/sources.json</code></span></div>
+    <div><b>Завантаження</b><span>PDF у <code>rules/pdf/</code> (локально), текст через pdftotext, сторінки збережені</span></div>
+    <div><b>Розбір</b><span>частини → розділи → пункти; наш переказ UA/EN, ключові пункти, сторінка, ключові слова, FAQ</span></div>
+    <div><b>Перевірка людиною</b><span>суддя або експерт звіряє цифри з PDF і погоджує</span></div>
+    <div><b>Публікація</b><span><code>docs/rules/data/*.js</code> → довідник; терміни → глосарій</span></div>
+    <div class="ai"><b>ШІ-відповідь</b><span>етап 2: Claude відповідає своїми словами лише на основі знайдених пунктів, з посиланнями</span></div>
+  </div>
+  <h3>Чому так</h3>
+  <ul>
+    <li><b>Структуровані дані, а не «сирий» PDF.</b> Пункт правил — окрема одиниця з номером розділу і сторінкою. Тому відповідь завжди можна перевірити, а при новій редакції видно, що саме змінилося.</li>
+    <li><b>Пошук спершу, ШІ потім.</b> Пошук працює безкоштовно і миттєво навіть на GitHub Pages. ШІ додає людську відповідь, але тільки поверх знайдених пунктів — так він не вигадує правил.</li>
+    <li><b>Людина в контурі.</b> Регламент — це документ, за яким знімають очки й дискваліфікують. Кожна зміна даних погоджується суддею/експертом.</li>
+  </ul>
+</section>
+
+<section id="data">
+  <h2>Структура даних</h2>
+  <p>Один файл на регламент: <code>docs/rules/data/sporting.js</code>, <code>docs/rules/data/compak.js</code>. Формат описаний у <code>docs/rules/data/SCHEMA.md</code>.</p>
+<div class="code">RulesBook
+ ├─ key, title_en, title_uk
+ ├─ source        publisher, doc_title, edition, file, url, last_modified, quick_guide_url
+ ├─ sections[]    part (I, II…), chapter, title_en/uk
+ │   └─ items[]   id, ref («Chapter 3, Gun position»), page,
+ │                title_en/uk, summary_en/uk, points_en/uk[],
+ │                terms[] (id з глосарію), keywords[] (EN + UA), quick_guide
+ └─ faq[]         q_en/uk, a_en/uk, refs[] (id пунктів)</div>
+  <ul>
+    <li><code>items.page</code> — сторінка PDF; посилання <code>url#page=N</code> відкриває саме її.</li>
+    <li><code>items.terms</code> зв'язує правило з терміном Академії/глосарію (наприклад <code>gun-position</code>, <code>no-bird</code>).</li>
+    <li><code>faq.refs</code> — відповідь завжди посилається на пункти правил.</li>
+    <li>У продукті ClayArena ці файли стають таблицями: <code>rule_books</code>, <code>rule_sections</code>, <code>rule_items</code>, <code>rule_faq</code>, <code>glossary_terms</code>, з полем <code>edition</code> для версій.</li>
+  </ul>
+</section>
+
+<section id="answers">
+  <h2>Як працюють відповіді (етап 1, прототип)</h2>
+  <ol>
+    <li><b>Питання → слова.</b> Текст приводиться до нижнього регістру, прибираються розділові знаки й службові слова (UA і EN: «що», «як», «скільки», «the», «how»…), довгі слова скорочуються до основи — так «відмови», «відмов», «malfunctions» знаходять одне й те саме.</li>
+    <li><b>Пошук.</b> Кожен пункт правил і кожне питання FAQ мають «поля» з вагами: заголовок ×3, ключові слова й терміни ×3, ключові пункти ×1,3, переказ ×1; у FAQ питання ×3,2, відповідь ×1. Рідкісні слова важать більше (як у класичному TF-IDF).</li>
+    <li><b>Відповідь.</b> Якщо найкраще FAQ досить близьке до найкращого пункту — показуємо його як «Відповідь» з кнопками на статті й PDF. Нижче — 3–4 пункти правил за темою. Якщо нічого не знайдено — чесно кажемо і пропонуємо розділи.</li>
+    <li><b>Мова.</b> Ключові слова й FAQ написані UA та EN, тому питання можна ставити будь-якою з двох мов незалежно від мови інтерфейсу.</li>
+  </ol>
+  <div class="ok">Обмеження етапу 1: пошук не «розуміє» складних питань із кількома умовами і не відповідає на питання, яких немає в FAQ, — він показує найближчі правила. Це закриває етап 2.</div>
+</section>
+
+<section id="ai">
+  <h2>ШІ-відповіді (етап 2)</h2>
+  <ol>
+    <li>Фронтенд надсилає питання на сервер ClayArena: <code>POST /api/rules/ask {question, discipline, lang}</code>.</li>
+    <li>Сервер знаходить 5–8 найближчих пунктів правил (той самий пошук або векторний пошук за ембеддингами).</li>
+    <li>Сервер викликає Claude API (модель <code>claude-sonnet-5</code> або <code>claude-haiku-4-5</code> для дешевших відповідей) з інструкцією: відповідати <b>лише</b> на основі наданих пунктів, мовою питання, коротко, і вказати <code>ref</code> та сторінки; якщо відповіді в пунктах немає — так і сказати й порадити звернутися до судді.</li>
+    <li>Відповідь показується з посиланнями на пункти й PDF; кнопки «Корисно / Не корисно».</li>
+    <li>Питання без хорошої відповіді збираються в адмінці — з них редактор робить нові FAQ.</li>
+  </ol>
+  <ul>
+    <li><b>Ключ API</b> тільки на сервері (змінна середовища), ніколи у фронтенді.</li>
+    <li><b>Кеш</b> однакових питань; ліміт запитів на користувача; кешування системного промпту.</li>
+    <li><b>Мови</b>: ШІ може відповідати й іншими мовами ClayArena (DE, FR, IT, ES…), посилаючись на ті самі пункти.</li>
+  </ul>
+</section>
+
+<section id="updates">
+  <h2>Оновлення правил</h2>
+  <ol>
+    <li><b>Щопонеділка</b> GitHub Action <code>.github/workflows/fitasc-check.yml</code> запускає <code>scripts/fitasc_check.py</code>.</li>
+    <li>Скрипт читає сторінку регламентів FITASC, знаходить актуальні англійські PDF (Sporting, Compak, пам'ятки суддів) і порівнює посилання, дату <code>Last-Modified</code> і розмір з <code>rules/sources.json</code>.</li>
+    <li>Якщо щось змінилося — створюється задача «Оновився регламент FITASC» зі списком файлів.</li>
+    <li>Редактор запускає <code>python scripts/fitasc_check.py --download</code> (завантажує й витягає текст), оновлює <code>docs/rules/data/*.js</code>: нові/змінені пункти, сторінки, цифри, FAQ. Це можна доручити Claude з наступною перевіркою людиною.</li>
+    <li>Суддя/експерт погоджує, потім <code>python scripts/fitasc_check.py --accept</code> фіксує нову версію (дата, розмір, SHA-256).</li>
+    <li>На сторінці довідника оновлюється «Редакція»; у майбутньому — блок «Що змінилося в редакції».</li>
+  </ol>
+</section>
+
+<section id="glossary">
+  <h2>Академія і глосарій</h2>
+  <ul>
+    <li><b>Академія Віки</b> — 5 місій (Sporting, Compak, рушниці й набої, техніка й мова тренера, організатор і стенд), 394 унікальні терміни, сюжет, квізи, вправи перекладу. Дані: <code>docs/academy/data/*.js</code>.</li>
+    <li><b>Глосарій</b> генерується з Академії: <code>docs/academy/glossary.json</code> (скрипт <code>docs/academy/data/export.mjs</code>). У кожного терміна: англійська назва, синоніми, пояснення UA/EN, як кажуть українською, фраза тренера з перекладом, порада перекладачу, пов'язані терміни.</li>
+    <li><b>Позначка «⚑ перевірити»</b> (136 термінів) — цифри й правила, які треба звірити з регламентом. Тепер це робиться автоматично: пункти довідника правил стають джерелом істини, і термін посилається на пункт правил.</li>
+    <li><b>Дублікати</b> (15 термінів у двох модулях) зливаються в один запис перед запуском глосарію ClayArena.</li>
+    <li>Терміни з'єднують усе: у правилі — посилання на термін, у терміні — на правило, у турі ClayAway — підказки до термінів.</li>
+  </ul>
+</section>
+
+<section id="integration">
+  <h2>Інтеграція в ClayArena</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Місце</th><th>Що з'являється</th></tr></thead>
+    <tbody>
+      <tr><td><code>/en/rules/sporting/</code>, <code>/en/rules/compak/</code></td><td>довідник правил з пошуком (і <code>/uk/…</code>, інші мови)</td></tr>
+      <tr><td><code>/en/glossary/</code>, <code>/en/glossary/{term}/</code></td><td>сторінка кожного терміна (SEO), з посиланням на правила й Академію</td></tr>
+      <tr><td>Сторінка змагання</td><td>блок «Правила дисципліни» і «Часті питання»</td></tr>
+      <tr><td>Тур ClayAway</td><td>підказки до термінів у програмі; для організатора й перекладача — доступ до Академії</td></tr>
+      <tr><td>Відео і рекапи</td><td>терміни в описах стають посиланнями на глосарій</td></tr>
+      <tr><td>Профіль організатора/перекладача</td><td>бейдж «Пройшов Академію» (рівень)</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="roles">
+  <h2>Ролі та адмінка</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Роль</th><th>Права</th></tr></thead>
+    <tbody>
+      <tr><td>Rules editor</td><td>редагує пункти, FAQ, ключові слова; готує нову редакцію</td></tr>
+      <tr><td>Rules reviewer (суддя/експерт)</td><td>погоджує зміни; без погодження зміна не публікується</td></tr>
+      <tr><td>Glossary editor</td><td>терміни, злиття дублікатів, переклади</td></tr>
+      <tr><td>Super admin</td><td>усе + налаштування ШІ (модель, ліміти), перегляд питань без відповіді</td></tr>
+    </tbody>
+  </table></div>
+  <p>Адмінка: список редакцій регламентів, порівняння «було/стало» за пунктами, черга питань без відповіді, статистика найчастіших питань, журнал змін.</p>
+</section>
+
+<section id="quality">
+  <h2>Якість і перевірка</h2>
+  <ul>
+    <li>Скрипти перевірки даних: унікальні id, усі <code>faq.refs</code> існують, сторінки в межах PDF, немає мішаних кирилиця/латиниця, немає заборонених слів.</li>
+    <li>Набір контрольних питань (30–50) з очікуваними пунктами — прогон після кожного оновлення.</li>
+    <li>Мови: літературна українська, терміни англійською; російської мови немає.</li>
+    <li>Безпека: ключі тільки на сервері; дані користувачів у питаннях не зберігаємо без потреби.</li>
+  </ul>
+</section>
+
+<section id="phases">
+  <h2>Етапи</h2>
+  <div class="phases">
+    <div class="now"><h3>Етап 1 · прототип (зараз)</h3><ul><li>довідник Sporting і Compak з пошуком і FAQ</li><li>Академія і глосарій JSON</li><li>щотижнева перевірка FITASC</li></ul></div>
+    <div><h3>Етап 2 · ClayArena</h3><ul><li>таблиці правил і глосарію в БД</li><li>сторінки /rules і /glossary</li><li>ШІ-відповіді через Claude API</li><li>адмінка редактора й рецензента</li></ul></div>
+    <div><h3>Етап 3 · розвиток</h3><ul><li>інші дисципліни FITASC</li><li>більше мов</li><li>«Що змінилося в редакції»</li><li>підказки термінів по всьому сайту</li></ul></div>
+  </div>
+</section>
+
+<section id="open">
+  <h2>Відкриті питання</h2>
+  <ul>
+    <li>Дозвіл FITASC на використання змісту регламентів (переказ, цитати, логотип).</li>
+    <li>Хто з суддів/експертів стає рецензентом правил.</li>
+    <li>Чи підключаємо ШІ-відповіді одразу на етапі 2 і з яким лімітом/бюджетом.</li>
+    <li>Які мови, крім UA/EN, потрібні першими.</li>
+  </ul>
+</section>
+
+<section id="files">
+  <h2>Файли в репозиторії</h2>
+<div class="code">docs/rules/index.html            довідник правил (UI, пошук)
+docs/rules/data/SCHEMA.md        формат даних правил
+docs/rules/data/sporting.js      Sporting: розділи, пункти, FAQ
+docs/rules/data/compak.js        Compak Sporting: розділи, пункти, FAQ
+docs/rules-spec/index.html       це ТЗ
+docs/academy/                    Академія Віки (UI + data/*.js)
+docs/academy/glossary.json       чернетка глосарію ClayArena
+scripts/fitasc_check.py          перевірка/завантаження нових редакцій FITASC
+.github/workflows/fitasc-check.yml   щотижневий запуск перевірки
+rules/sources.json               зафіксовані версії PDF (URL, дата, розмір, SHA-256)
+rules/pdf/                       локальні PDF і текст (не в git)</div>
+</section>
+
+<footer>ClayArena · ClayAway · ТЗ «Довідник правил FITASC, Академія і глосарій» · 05.10.2026. Правила належать FITASC; чинним є лише офіційний текст.</footer>
+</main>
+</div>
+</body>
+</html>

@@ -99,6 +99,12 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
 <script src="data/sporting.js"></script>
 <script src="data/compak.js"></script>
 <script>
+/* ClayAway · FITASC rules guide (stage 1, static).
+   Data: docs/rules/data/<key>.js push one "book" each into window.RULES (format: data/SCHEMA.md).
+   Flow: question -> toks() -> search() over rule items + FAQ -> answerHTML() shows the best FAQ answer
+   (if it scores close to the best rule item) plus the most relevant rule items with PDF page links.
+   Stage 2 replaces search() with POST /api/rules/ask on the ClayArena server (retrieval + Claude API),
+   keeping the same item ids/refs for citations. See docs/rules-spec/. */
 const BOOKS=Object.fromEntries((window.RULES||[]).map(b=>[b.key,b]));
 const T={
  uk:{svc:"Правила FITASC",svcS:"ClayAway · довідник спортсмена",title:"Правила {d} простими словами",lead:"Читайте правила розділ за розділом або просто запитайте. Відповіді — нашим переказом офіційного регламенту FITASC, з номером розділу і посиланням на сторінку PDF.",
@@ -115,10 +121,15 @@ let S=Object.assign({lang:"uk",disc:"sporting"},store.get(),{q:"",res:null});
 if(location.hash==="#compak") S.disc="compak"; if(location.hash==="#sporting") S.disc="sporting";
 const L=()=>S.lang,t=k=>T[L()][k],tx=(o,k)=>o[k+"_"+L()]||o[k+"_en"]||"";
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+/* Text normalisation: lower case, keep Latin + Ukrainian letters and digits. */
 const norm=s=>String(s||"").toLowerCase().replace(/[’'`]/g,"'").replace(/[^a-zа-щьюяєіїґ0-9' ]+/gi," ");
+/* Stop words (UA + EN) that carry no meaning for search. */
 const STOP=new Set("the a an is are of to in on and or for what how many much can i my do does it be at with by from if when who which що як чи це у в на з і й та до за від при для скільки який яка які мені можна треба має є а не".split(" "));
+/* Naive stemming: cut word endings so «відмови/відмов», «malfunction/malfunctions» match. */
 const stem=w=>w.length>5?w.slice(0,Math.max(5,w.length-2)):w;
 const toks=s=>norm(s).split(/\s+/).filter(w=>w&&!STOP.has(w)&&w.length>1).map(stem);
+/* Build (once per book) the search index: every rule item and FAQ entry becomes a document
+   with weighted fields; df = document frequency per word for IDF weighting. */
 function idx(book){
   if(book._idx) return book._idx;
   const items=[]; book.sections.forEach(sec=>sec.items.forEach(it=>items.push(Object.assign({sec},it))));
@@ -129,6 +140,8 @@ function idx(book){
   const df={}; docs.forEach(d=>{new Set(d.tok.flatMap(([ts])=>ts)).forEach(w=>df[w]=(df[w]||0)+1);});
   book._idx={items,docs,df,N:docs.length,byId:Object.fromEntries(items.map(i=>[i.id,i]))}; return book._idx;
 }
+/* Score = sum over query words of field weight x IDF x (1 + log(matches)); prefix matches count 0.6.
+   Returns the top FAQ entries and top rule items separately. */
 function search(book,q){
   const I=idx(book), qt=[...new Set(toks(q))]; if(!qt.length) return null;
   const scored=I.docs.map(d=>{ let sc=0; qt.forEach(w=>{ const idf=Math.log(1+I.N/(1+(I.df[w]||0))); d.tok.forEach(([ts,wt])=>{ let c=0; ts.forEach(x=>{ if(x===w) c+=1; else if(w.length>=4&&(x.startsWith(w)||w.startsWith(x))) c+=.6; }); if(c) sc+=wt*idf*(1+Math.log(c)); }); }); return {d,sc}; }).filter(x=>x.sc>0).sort((a,b)=>b.sc-a.sc);
@@ -137,6 +150,8 @@ function search(book,q){
 }
 function pdfLink(book,page){ return `<a class="pdf" href="${esc(book.source.url)}#page=${page}" target="_blank" rel="noopener">${t("open")} ${page} ↗</a>`; }
 function itemHTML(book,it,open){ return `<details class="item" id="it-${it.id}" ${open?"open":""}><summary><b>${esc(tx(it,"title"))}</b><span class="ref">${esc(it.ref||"")}</span></summary><div class="body"><p>${esc(tx(it,"summary"))}</p>${(it["points_"+L()]||[]).length?`<ul>${it["points_"+L()].map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}${pdfLink(book,it.page)}${it.quick_guide?`<span class="tag">${t("qg")}</span>`:""}</div></details>`; }
+/* Show the FAQ answer only when it is at least 55% as relevant as the best rule item,
+   otherwise lead with the rule items themselves (the item is the source of truth). */
 function answerHTML(book){
   const r=S.res; if(!r) return "";
   if(!r.faq.length&&!r.items.length) return `<div class="answer"><div class="empty">${t("none")}</div></div>`;

@@ -172,6 +172,11 @@ footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 <script src="data/technique.js"></script>
 <script src="data/organizer.js"></script>
 <script>
+/* Vika's Academy (ClayAway). Content: docs/academy/data/<module>.js push modules into window.ACADEMY
+   (format: data/SCHEMA.md). Terms from all modules are merged into TERMS by id (first module wins;
+   duplicates are listed in glossary.json "also_in"). Story text marks terms as [[id]] / [[id|label]].
+   Progress (XP, read scenes, learnt terms, quiz best score, practice) is stored per browser in
+   localStorage "vika-academy". XP: scene 10, term 5, correct answer 15, practice item 10. */
 const MODS = (window.ACADEMY||[]).slice().sort((a,b)=>a.order-b.order);
 const PLAN = [
   {module:"sporting", order:1, title_en:"Sporting", title_uk:"Sporting"},
