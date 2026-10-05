@@ -211,6 +211,10 @@ window.LEARN = [];
 for (const m of ["intro", "safety", "gun", "chokes", "cartridges", "targets", "technique", "competitions", "rules", "culture", "clayarena", "gear", "training", "juniors", "travel"]) {
   try { await import(`../docs/learn/data/${m}.js`); } catch (e) { /* module not written yet */ }
 }
+try { await import("../docs/learn/data/laws-de.js"); } catch (e) {}
+// lawTableHtml(code, lang): static version of the country law table used by lessons with `law_table`.
+globalThis.lawTableHtml = (code, lang) => { const D = (window.LAWS || {})[code]; if (!D) return ""; const u = lang === "uk";
+  return `<h2>${u ? "Німеччина по землях: свинцевий дріб" : "Germany by state: lead shot"}</h2><p class="ref">${esc(u ? D.note_uk : D.note_en)} (${esc(D.as_of)})</p><div class="tw" style="overflow-x:auto;border:1px solid var(--line);border-radius:12px"><table style="border-collapse:collapse;width:100%;font-size:14px"><thead><tr>${(u ? ["Земля", "Норма", "Що заборонено", "З"] : ["State", "Rule", "What is banned", "Since"]).map(h => `<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)">${h}</th>`).join("")}</tr></thead><tbody>${D.states.map(x => `<tr><td style="padding:8px 10px;border-bottom:1px solid var(--line)"><b>${esc(u ? x.state_uk : x.state_en)}</b> (${esc(x.state_de)})</td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${x.url ? `<a href="${esc(x.url)}" ${NF}>${esc(x.law)}${x.article ? ", " + esc(x.article) : ""}</a>` : esc(x.law)}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${esc(u ? x.rule_uk : x.rule_en)}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${esc(x.since || "—")}</td></tr>`).join("")}</tbody></table></div>`; };
 const LEARN = window.LEARN.sort((a, b) => a.order - b.order);
 if (GLOSS) {
   const have = new Set(GLOSS.terms.map(t => t.id));
@@ -273,6 +277,7 @@ ${(l.body_uk || []).map(p => `<p>${esc(p)}</p>`).join("\n")}
 ${l.did_you_know_uk ? `<p><b>Чи знали ви?</b> ${esc(l.did_you_know_uk)}</p>` : ""}
 ${terms ? `<h2>Терміни</h2><p>${terms}</p>` : ""}
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
+${l.law_table ? globalThis.lawTableHtml(l.law_table, "uk") : ""}
 ${(l.sources || []).length ? `<h2>Джерела і закони</h2><ul>${l.sources.map(x => `<li><a href="${esc(x.url)}" ${NF}>${esc(x.title)} ↗</a></li>`).join("")}</ul><p class="ref">Станом на дату уроку; не є юридичною консультацією — перевіряйте актуальну редакцію законів.</p>` : ""}
 <h2 lang="en">${esc(l.title_en)}</h2>
 ${(l.body_en || []).map(p => `<p lang="en">${esc(p)}</p>`).join("\n")}

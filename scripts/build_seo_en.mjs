@@ -62,6 +62,7 @@ ${(l.body_en || []).map(p => `<p>${esc(p)}</p>`).join("\n")}
 ${l.did_you_know_en ? `<p><b>Did you know?</b> ${esc(l.did_you_know_en)}</p>` : ""}
 ${terms ? `<h2>Terms</h2><p>${terms}</p>` : ""}
 ${refs ? `<h2>Where this is in the rules</h2><ul>${refs}</ul>` : ""}
+${l.law_table && globalThis.lawTableHtml ? globalThis.lawTableHtml(l.law_table, "en") : ""}
 ${src ? `<h2>Sources and laws</h2><ul>${src}</ul><p class="ref">As of the lesson date; not legal advice — check the current version of the law.</p>` : ""}
 <div class="cta"><a class="btn primary" href="${BASE}learn/#${l.id}">Check yourself: 3 questions</a>${next ? `<a class="btn" href="${BASE}en/learn/${next.id}/">Next: ${esc(next.title_en)}</a>` : ""}</div>
 </article><div class="disc">ClayArena Academy. ${TM} FITASC rules are our summary; only the official FITASC text applies. Gun and ammunition laws differ by country.</div></main></body></html>`;

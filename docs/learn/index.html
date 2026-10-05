@@ -118,6 +118,7 @@ footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 <script src="../glossary/data/glossary.js"></script>
 <script src="../rules/data/sporting.js"></script>
 <script src="../rules/data/compak.js"></script>
+<script src="data/laws-de.js"></script>
 <script src="data/intro.js"></script>
 <script src="data/safety.js"></script>
 <script src="data/gun.js"></script>
@@ -185,6 +186,9 @@ function modView(m){
 }
 /* Term chip: glossary page if the canonical term exists, otherwise a small inline popup from new_terms. */
 function termChip(l,id){ if(GL[id]) return `<a href="../glossary/${id}/">${esc(GL[id].term)}</a>`; const n=(l.new_terms||[]).find(x=>x.id===id); return n?`<a href="../glossary/${id}/">${esc(n.term)}</a>`:""; }  /* academy terms also get glossary pages (build_seo.mjs) */
+/* Country law table (e.g. German federal states' lead-shot rules): data docs/learn/data/laws-<code>.js → window.LAWS[code]. */
+function lawTable(code){ const D=(window.LAWS||{})[code]; if(!D) return ""; const u=L()==="uk";
+  return `<h2>${u?"Німеччина по землях: свинцевий дріб":"Germany by state: lead shot"}</h2><p class="small muted">${esc(u?D.note_uk:D.note_en)} (${esc(D.as_of)})</p><div style="overflow-x:auto;border:1px solid var(--line);border-radius:12px"><table style="border-collapse:collapse;width:100%;font-size:14px"><thead><tr>${(u?["Земля","Норма","Що заборонено","З"]:["State","Rule","What is banned","Since"]).map(h=>`<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted);font-size:12px">${h}</th>`).join("")}</tr></thead><tbody>${D.states.map(x=>`<tr><td style="padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap"><b>${esc(u?x.state_uk:x.state_en)}</b><br><span class="small muted">${esc(x.state_de)}</span></td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${x.url?`<a href="${esc(x.url)}" target="_blank" rel="nofollow noopener noreferrer">${esc(x.law)}${x.article?", "+esc(x.article):""} ↗</a>`:esc(x.law)}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${esc(u?x.rule_uk:x.rule_en)}${x.verified===false?` <span class="small" style="color:var(--clay)">${u?"(не підтверджено)":"(unverified)"}</span>`:""}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap">${esc(x.since||"—")}</td></tr>`).join("")}</tbody></table></div>`; }
 function lessonView(m,l){
   const i=m.lessons.findIndex(x=>x.id===l.id), next=m.lessons[i+1]||(MODS[MODS.indexOf(m)+1]||{lessons:[]}).lessons[0];
   const pop=S.pop&&S.pop.les===l.id?(l.new_terms||[]).find(x=>x.id===S.pop.id):null;
@@ -197,6 +201,7 @@ function lessonView(m,l){
    ${tx(l,"did_you_know")?`<div class="dyk"><b>${t("dyk")}</b> ${esc(tx(l,"did_you_know"))}</div>`:""}
    ${(l.terms||[]).length?`<h2>${t("terms")}</h2><div class="chips">${l.terms.map(id=>termChip(l,id)).join("")}</div>${pop?`<div class="pop"><b>${esc(pop.term)}</b> — ${esc(pop["short_"+L()]||pop.short_en)}</div>`:""}`:""}
    ${refs.length?`<h2>${t("rules")}</h2><div class="chips">${refs.map(it=>`<a href="../rules/${it.book}/#${it.id}">${esc(it.ref)}</a>`).join("")}</div>`:""}
+   ${l.law_table?lawTable(l.law_table):""}
    ${(l.sources||[]).length?`<h2>${L()==="uk"?"Джерела і закони":"Sources and laws"}</h2><ul class="src-list">${l.sources.map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="nofollow noopener noreferrer">${esc(L()==="uk"?x.title:(x.title_en||x.title))} ↗</a></li>`).join("")}</ul><p class="small muted">${L()==="uk"?"Інформація станом на дату уроку, не є юридичною консультацією. Закони змінюються — перевіряйте актуальну редакцію.":"Information as of the lesson date, not legal advice. Laws change — check the current version."}</p>`:""}
    ${quiz?`<h2>${t("check")}</h2>${quiz}`:""}
    <div class="nav">${P.done[l.id]!=null?`<span class="badge on">✓ ${t("done")}</span>`:"<span></span>"}${next?`<button class="btn primary" data-les="${next.id}">${t("next")} →</button>`:""}</div></article>`;
