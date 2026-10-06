@@ -281,7 +281,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Якщо обидві мішені simultaneous double розбито одним пострілом, дубль оголошують NO BIRD і стріляють знову; так само і вдруге. Лише втретє ставлять Zero-Zero.",
    "refs": [
     "ch3-two-with-one-simultaneous"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q010",
@@ -313,7 +317,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Перший і другий раз — NO BIRD із повтором дубля; утретє дубль оцінюють як Zero-Zero.",
    "refs": [
     "ch3-two-with-one-simultaneous"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q011",
@@ -346,7 +354,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch3-two-with-one-report",
     "ch20-target-no-bird-actions"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "cs-q012",
@@ -378,7 +390,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "У дублі по кожній мішені можна вистрілити лише один патрон; стріляти двічі по першій заборонено, і довідка для суддів оцінює навмисні два постріли по одній мішені як Zero-Zero.",
    "refs": [
     "ch3-one-cartridge-per-target"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q013",
@@ -411,7 +427,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch3-compulsory-trajectories",
     "ch2-terrain"
-   ]
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "going-away"
+   }
   },
   {
    "id": "cs-q014",
@@ -443,7 +463,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Simultaneous double — дві мішені, випущені одночасно з двох різних машинок, і стрілець може стріляти їх у будь-якому порядку.",
    "refs": [
     "ch3-simultaneous-double"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q015",
@@ -1222,7 +1246,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Неправда. На одному Compak тип дубля має бути однаковим на всіх 5 номерах; натомість різні таблиці на різних Compak рекомендовані.",
    "refs": [
     "ch17-round-combinations"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q041",
@@ -1788,7 +1816,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Якщо на double on report відмовляє другий патрон (перший випадок), результат першої мішені залишається, а дубль повторюють для другої мішені.",
    "refs": [
     "ch20-gun-failure-second-shot"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "cs-q059",
@@ -1852,7 +1884,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Rabbit, промахнутий першим пострілом, який розбився до другого, — NO BIRD; його кидають знову, і зарахувати можна лише другим пострілом, тож перший має бути навмисним промахом.",
    "refs": [
     "ch20-rabbit"
-   ]
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "rabbit"
+   }
   },
   {
    "id": "cs-q061",
@@ -1885,7 +1921,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch20-target-no-bird-cases",
     "ch20-target-no-bird-actions"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q062",
@@ -2015,7 +2055,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch21-refusal",
     "ch19-referee-powers"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q066",
@@ -2114,7 +2158,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch21-firing-time",
     "ch21-penalty-table"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "cs-q069",
@@ -2212,7 +2260,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch21-penalty-table",
     "ch21-malfunction"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "cs-q072",

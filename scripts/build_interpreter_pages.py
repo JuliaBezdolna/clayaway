@@ -1,0 +1,127 @@
+"""Static, indexable pages of the ClayArena Interpreter Academy (called by scripts/build_interpreter.py).
+
+Why: the course app (docs/interpreter/index.html) is JavaScript; search engines and AI assistants read static HTML best.
+Output, for every ClayArena language L (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt):
+  docs/interpreter/L/index.html          course overview: missions and lessons (schema.org Course + ItemList)
+  docs/interpreter/L/<lesson>/index.html lesson text, key points, coach phrases with meanings, quiz (LearningResource + Quiz + BreadcrumbList)
+Every page: canonical, hreflang for all 11 languages + x-default (en), Open Graph / Twitter, link to the interactive lesson.
+The project bar (docs/shared/nav.js) is added by scripts/build_seo.mjs; animations come from docs/shared/sims.js.
+In production these become server-rendered lesson pages of clayarena.com with the same markup.
+"""
+import json, html
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+D = ROOT / "docs" / "interpreter"
+BASE = "https://fenix-112323.github.io/clayaway/"
+LOCALE = {"en": "en_GB", "uk": "uk_UA", "de": "de_DE", "fr": "fr_FR", "it": "it_IT", "cs": "cs_CZ", "pl": "pl_PL", "pt": "pt_PT", "hu": "hu_HU", "fi": "fi_FI", "lt": "lt_LT"}
+NAMES = {"en": "English", "uk": "Українська", "de": "Deutsch", "fr": "Français", "it": "Italiano", "cs": "Čeština", "pl": "Polski", "pt": "Português", "hu": "Magyar", "fi": "Suomi", "lt": "Lietuvių"}
+e = lambda s: html.escape(str(s or ""), quote=True)
+NF = 'target="_blank" rel="nofollow noopener noreferrer"'
+
+CSS = """:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#030712;color:#F3F4F6;font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:#34D399}main{max-width:780px;margin:0 auto;padding:20px 16px 72px}h1{font-size:clamp(26px,5vw,38px);line-height:1.15;margin:6px 0 12px}h2{font-size:20px;margin:26px 0 10px}
+.src{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#34D399}.kp{background:rgba(16,185,129,.15);border:1px solid rgba(52,211,153,.35);border-radius:12px;padding:12px 16px;margin:16px 0}
+.say{border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:10px 14px;margin:8px 0;background:#0B1120}.say b{color:#FB923C}.btn{display:inline-flex;gap:6px;align-items:center;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#F3F4F6;border-radius:10px;padding:7px 13px;text-decoration:none;font:inherit;font-size:14px;cursor:pointer}
+.btn.primary{background:#059669;border-color:#059669;font-weight:600}.ref{font-size:13px;color:#9CA3AF}.q{border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:12px 14px;margin:10px 0}
+details summary{cursor:pointer;color:#34D399}.list a{display:block;padding:6px 0}.disc{margin-top:28px;font-size:12.5px;color:#9CA3AF;border-top:1px solid rgba(255,255,255,.1);padding-top:12px}
+.langs{font-size:13px;color:#9CA3AF}.langs a{margin-right:8px}"""
+
+
+def head(l, title, desc, url, alts, ld, depth):
+    rel = "../" * depth
+    return f"""<!doctype html>
+<html lang="{l}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{e(title)}</title>
+<meta name="description" content="{e(desc)}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="{url}">
+{alts}
+<meta property="og:type" content="article"><meta property="og:site_name" content="ClayArena"><meta property="og:locale" content="{LOCALE[l]}">
+<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:url" content="{url}">
+<meta property="og:image" content="{BASE}og/interpreter.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{BASE}og/interpreter.png">
+<meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="{rel}og/favicon.png">
+{"".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld)}
+<style>{CSS}</style>
+</head>
+<body>
+"""
+
+
+def build(per_lang, terms, langs):
+    """per_lang: {lang: {"ui": {...}, "missions": [...]}} (the same data as data/<lang>.js)."""
+    TB = {t["id"]: t for t in terms["terms"]}
+    urls = []
+    gl = lambda l, tid: f"{BASE}{'' if l == 'uk' else l + '/'}glossary/{tid}/"
+    rules = lambda l, r: f"{BASE}rules/{'' if l == 'uk' else 'en/'}{'categories/#' + r['id'] if r['book'] == 'categories' else r['book'] + '/#' + r['id']}"
+    course_url = lambda l: f"{BASE}interpreter/{l}/"
+    lesson_url = lambda l, lid: f"{BASE}interpreter/{l}/{lid}/"
+    alts_of = lambda fn: "\n".join(f'<link rel="alternate" hreflang="{x}" href="{fn(x)}">' for x in langs) + f'\n<link rel="alternate" hreflang="x-default" href="{fn("en")}">'
+    langs_line = lambda fn, l: '<p class="langs">' + " ".join(f'<a href="{fn(x)}" hreflang="{x}" lang="{x}">{NAMES[x]}</a>' for x in langs if x != l) + "</p>"
+    provider = {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}
+    for l in langs:
+        U, ms = per_lang[l]["ui"], per_lang[l]["missions"]
+        app = U["app_title"]
+        course = {"@type": "Course", "name": app, "url": course_url(l), "inLanguage": l, "provider": provider, "isAccessibleForFree": True,
+                  "description": U["hero_p"], "educationalLevel": "Beginner", "teaches": "Clay shooting terminology, target flights, lead and technique, FITASC rules of Parcours de Chasse – Sporting™ and Compak® Sporting, referee calls, etiquette"}
+        # course overview page
+        body = f'<main><div class="src">ClayArena · FITASC Sporting™ · Compak® Sporting</div><h1>{e(app)}</h1><p>{e(U["hero_p"])}</p>' \
+               f'<p><a class="btn primary" href="../?lang={l}">{e(U["start"])} →</a></p>{langs_line(course_url, l)}'
+        items = []
+        for i, m in enumerate(ms):
+            body += f'<h2>{i + 1}. {e(m["title"])}</h2><p class="ref">{e(m["intro"])}</p><div class="list">' + "".join(
+                f'<a href="{lesson_url(l, x["id"])}">{e(x["title"])}</a>' for x in m["lessons"]) + "</div>"
+            items += [lesson_url(l, x["id"]) for x in m["lessons"]]
+        body += f'<div class="disc">{e(U["disclaimer"])}</div></main></body></html>'
+        ld = [dict({"@context": "https://schema.org"}, **course, hasPart=[{"@type": "LearningResource", "url": u} for u in items]),
+              {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": k + 1, "url": u} for k, u in enumerate(items)]}]
+        out = D / l; out.mkdir(parents=True, exist_ok=True)
+        (out / "index.html").write_text(head(l, f"{app} — {U['tagline']}", U["hero_p"][:300], course_url(l), alts_of(course_url), ld, 2) + body, encoding="utf-8")
+        urls.append(course_url(l))
+        # lesson pages
+        flat = [(m, x) for m in ms for x in m["lessons"]]
+        for k, (m, x) in enumerate(flat):
+            url = lesson_url(l, x["id"]); nxt = flat[k + 1][1] if k + 1 < len(flat) else None
+            desc = (x["body"][0] if x["body"] else x["title"])[:300]
+            tl = []
+            for tid in x.get("terms", []):
+                t = TB.get(tid)
+                if not t: continue
+                loc = (t.get("tr", {}).get(l) or {}).get("term") if l != "en" else ""
+                tl.append(f'<a href="{gl(l, tid)}">{e(t["en"])}{" · " + e(loc) if loc and loc != t["en"] else ""}</a>')
+            says = "".join(f'<div class="say"><b>“{e(c["en"])}”</b> <button class="btn" type="button" onclick="ClaySpeak({e(json.dumps(c["en"]))})">🔊</button>'
+                           f'<br>{e(c["meaning"])}{("<br><i>" + e(c["say"]) + "</i>") if c.get("say") else ""}</div>' for c in x.get("coach_says", []))
+            quiz = "".join(f'<div class="q"><b>{e(q["q"])}</b><ol type="a">' + "".join(f"<li>{e(o)}</li>" for o in q["options"]) +
+                           f'</ol><details><summary>{e(U["correct"])}</summary><p>{e(q["options"][q["answer"]])} — {e(q["why"])}</p></details></div>' for q in x.get("quiz", []))
+            body = f'<main><div class="src">{e(app)} · {e(m["title"])} · {x.get("minutes", 5)} {e(U["min"])}</div><h1>{e(x["title"])}</h1>' + \
+                   "".join(f"<p>{e(p)}</p>" for p in x["body"]) + \
+                   (f'<div data-clay-sim=\'{e(json.dumps(x["sim"]))}\'></div>' if x.get("sim") and x["sim"].get("type") in ("flight", "lead", "pair") else "") + \
+                   (f'<div class="kp"><b>{e(U["key_points"])}</b><ul>' + "".join(f"<li>{e(k2)}</li>" for k2 in x["key_points"]) + "</ul></div>" if x.get("key_points") else "") + \
+                   (f'<h2>{e(U["coach_says"])}</h2>{says}' if says else "") + \
+                   (f'<h2>{e(U["terms"])}</h2><p>{" · ".join(tl)}</p>' if tl else "") + \
+                   (f'<h2>{e(U["rules_refs"])}</h2><ul>' + "".join(f'<li><a href="{rules(l, r)}">{e(r.get("label", r["id"]))}</a></li>' for r in x["rule_refs"]) + "</ul>" if x.get("rule_refs") else "") + \
+                   (f'<h2>{e(U["quiz"])}</h2>{quiz}' if quiz else "") + \
+                   (f'<h2>{e(U["sources"])}</h2><ul class="ref">' + "".join(f'<li><a href="{e(s["url"])}" {NF}>{e(s["title"])} ↗</a></li>' for s in x["sources"]) + "</ul>" if x.get("sources") else "") + \
+                   f'<p><a class="btn primary" href="../../?lang={l}#l/{x["id"]}">{e(U["quiz"])} · XP →</a> ' + \
+                   (f'<a class="btn" href="{lesson_url(l, nxt["id"])}">{e(U["next_lesson"])}: {e(nxt["title"])}</a>' if nxt else "") + "</p>" + \
+                   langs_line(lambda z: lesson_url(z, x["id"]), l) + f'<div class="disc">{e(U["disclaimer"])}</div></main>' + \
+                   '<script src="../../../shared/sims-text.js"></script><script src="../../../shared/sims.js"></script><script>ClaySims.auto()</script></body></html>'
+            ld = [{"@context": "https://schema.org", "@type": "LearningResource", "name": x["title"], "description": desc, "url": url, "inLanguage": l,
+                   "learningResourceType": "Lesson", "educationalLevel": "Beginner", "timeRequired": f"PT{x.get('minutes', 5)}M", "isAccessibleForFree": True,
+                   "provider": provider, "isPartOf": {"@type": "Course", "name": app, "url": course_url(l)},
+                   "teaches": [TB[t]["en"] for t in x.get("terms", []) if t in TB],
+                   "hasPart": {"@type": "Quiz", "hasPart": [{"@type": "Question", "name": q["q"], "eduQuestionType": "Multiple choice",
+                                                            "acceptedAnswer": {"@type": "Answer", "text": q["options"][q["answer"]]}} for q in x.get("quiz", [])]}},
+                  {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                      {"@type": "ListItem", "position": 1, "name": app, "item": course_url(l)},
+                      {"@type": "ListItem", "position": 2, "name": m["title"], "item": course_url(l)},
+                      {"@type": "ListItem", "position": 3, "name": x["title"], "item": url}]}]
+            o = D / l / x["id"]; o.mkdir(parents=True, exist_ok=True)
+            (o / "index.html").write_text(head(l, f'{x["title"]} — {app}', desc, url, alts_of(lambda z: lesson_url(z, x["id"])), ld, 3) + body, encoding="utf-8")
+            urls.append(url)
+    (D / "data" / "urls.json").write_text(json.dumps(urls, indent=0), encoding="utf-8")  # read by build_seo.mjs for the sitemap
+    return urls

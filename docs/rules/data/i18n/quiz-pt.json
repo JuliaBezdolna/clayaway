@@ -1,0 +1,1569 @@
+{
+ "ui": {
+  "svc": "Treinador de regras",
+  "svcS": "ClayAway · FITASC",
+  "title": "Treinador de regras {d}",
+  "lead": "Teste o seu conhecimento das regras: situações no posto, números e limites, verdadeiro ou falso. Depois de cada resposta recebe uma explicação e uma ligação para a regra no guia e para a página do PDF oficial.",
+  "quick": "Teste rápido",
+  "quickS": "10 perguntas aleatórias, explicação de imediato",
+  "exam": "Exame",
+  "examS": "30 perguntas, resultado no fim, aprovação com 80%",
+  "mist": "Os meus erros",
+  "mistS": "perguntas a que respondeu mal",
+  "level": "Nível",
+  "all": "todos",
+  "l1": "básico",
+  "l2": "organizador",
+  "l3": "árbitro",
+  "q": "Pergunta",
+  "of": "de",
+  "next": "Seguinte",
+  "finish": "Terminar",
+  "right": "Correto!",
+  "wrong": "Errado.",
+  "decision": "Decisão do árbitro",
+  "number": "Números",
+  "truefalse": "Verdadeiro ou falso",
+  "choice": "Escolha",
+  "open": "Regra no guia",
+  "pdf": "PDF, p.",
+  "res": "Resultado",
+  "pass": "Exame aprovado",
+  "fail": "Quase lá",
+  "again": "Tentar de novo",
+  "home": "Voltar aos modos",
+  "review": "Revisão das respostas",
+  "sAns": "Respostas",
+  "sAcc": "Precisão",
+  "sBest": "Melhor exame",
+  "sMist": "Erros a repetir",
+  "none": "Ainda não há perguntas para esta disciplina.",
+  "noMist": "Sem erros — muito bem!",
+  "back": "← Guia das regras",
+  "disc": "O treinador baseia-se no nosso resumo do regulamento da FITASC. Só o texto oficial da FITASC é válido. Parcours de Chasse – Sporting™ e Compak® Sporting são marcas da FITASC.",
+  "count": "perguntas no banco"
+ },
+ "questions": {
+  "sp-q001": {
+   "q": "Prato simples. O atirador dispara e o árbitro vê apenas uma nuvem de pó a sair do prato; nenhum pedaço se solta. Qual é a decisão do árbitro?",
+   "options": [
+    "One (partido)",
+    "No Bird, o prato é repetido",
+    "Zero (falhado)"
+   ],
+   "explain": "Pó ou fumo não contam. Um prato só é 'one' quando se solta pelo menos um pedaço visível ou quando é destruído total ou parcialmente."
+  },
+  "sp-q002": {
+   "q": "Prato simples. Depois do tiro solta-se do prato um pedaço pequeno mas bem visível, e o resto continua a voar. Qual é a decisão do árbitro?",
+   "options": [
+    "One (partido)",
+    "No Bird, o prato é repetido",
+    "Zero (falhado)"
+   ],
+   "explain": "Basta um pedaço visível: um prato lançado corretamente e atirado de uma posição correta é 'one' quando se solta dele pelo menos um pedaço visível."
+  },
+  "sp-q003": {
+   "q": "O atirador pede o prato. O árbitro transmite o sinal, mas o prato só aparece cerca de cinco segundos depois. O atirador dispara e falha. Qual é a decisão do árbitro?",
+   "options": [
+    "Zero (falhado)",
+    "Repetição só se o atirador tiver protestado antes de disparar",
+    "No Bird, o prato é repetido"
+   ],
+   "explain": "O prato tem de sair no máximo 3 segundos após o sinal do árbitro. Um prato lançado mais tarde é No Bird, seja qual for o resultado do tiro."
+  },
+  "sp-q004": {
+   "q": "O atirador pede o prato, sai um prato correto na trajetória certa, mas o atirador não dispara e diz que não gostou da forma como saiu. Qual é a decisão do árbitro?",
+   "options": [
+    "No Bird, o prato é repetido",
+    "Zero (falhado)",
+    "Advertência e depois o prato é repetido"
+   ],
+   "explain": "Um prato pedido não pode ser recusado. Só o árbitro julga se a trajetória está correta; um prato correto a que o atirador não disparou é zero."
+  },
+  "sp-q005": {
+   "q": "O atirador ainda se está a colocar na posição de partida e não pediu o prato quando o pulleur solta um prato. O atirador não dispara. Qual é a decisão do árbitro?",
+   "options": [
+    "Zero, porque o atirador tem de estar sempre pronto",
+    "Zero (falhado)",
+    "No Bird, o prato é repetido"
+   ],
+   "explain": "Um prato que não foi pedido pode ser recusado e é No Bird. Recusar só é permitido neste caso."
+  },
+  "sp-q006": {
+   "q": "Num prato simples, o prato sai da máquina já partido em dois pedaços. O atirador dispara ao pedaço maior e acerta-lhe. Qual é a decisão do árbitro?",
+   "options": [
+    "No Bird, o prato é repetido",
+    "One (partido)",
+    "Zero (falhado)"
+   ],
+   "explain": "Um prato lançado partido pela máquina é No Bird e o prato simples é repetido; acertar num pedaço não conta."
+  },
+  "sp-q007": {
+   "q": "Prato simples da máquina B. No momento em que o atirador dispara, o telemóvel de um espectador toca alto mesmo atrás do posto; o atirador estremece claramente e falha. Qual é a decisão do árbitro?",
+   "options": [
+    "Zero (falhado)",
+    "Zero, o ruído exterior nunca é motivo",
+    "No Bird, o prato é repetido"
+   ],
+   "explain": "Se o atirador foi claramente perturbado, o árbitro declara No Bird e o prato é repetido. É o árbitro quem julga se a perturbação foi evidente."
+  },
+  "sp-q008": {
+   "q": "O árbitro ficou momentaneamente encandeado pelo sol baixo e não consegue, honestamente, dizer se o prato simples foi partido. Qual é a decisão do árbitro?",
+   "options": [
+    "Perguntar à esquadra e decidir por maioria",
+    "One (partido)",
+    "No Bird, o prato é repetido",
+    "Zero (falhado)"
+   ],
+   "explain": "Quando o árbitro não consegue decidir se o prato foi partido, é No Bird e o prato é repetido. A esquadra só pode dar opinião se o árbitro lha pedir, e nunca vota."
+  },
+  "sp-q009": {
+   "q": "Double simultâneo. O atirador dispara uma só vez e esse tiro parte os dois pratos. Qual é a decisão do árbitro?",
+   "options": [
+    "One e zero",
+    "One e one",
+    "No Bird, o double é repetido"
+   ],
+   "explain": "Em qualquer tipo de double, se um só tiro partir os dois pratos, contam ambos: one e one."
+  },
+  "sp-q010": {
+   "q": "Double rafale. Os dois pratos saem corretamente, mas o atirador baixa a arma e não dispara a nenhum, sem motivo válido. Qual é a decisão do árbitro?",
+   "options": [
+    "No Bird, o double é repetido",
+    "Zero e zero",
+    "Zero no primeiro prato, o segundo é repetido"
+   ],
+   "explain": "Não disparar a um prato correto sem motivo válido é zero; num double rafale ou simultâneo isso significa zero e zero."
+  },
+  "sp-q011": {
+   "q": "Double ao tiro. O primeiro prato sai numa trajetória claramente errada, irregular. O atirador dispara-lhe mesmo assim e falha. Qual é a decisão do árbitro?",
+   "options": [
+    "No Bird só no primeiro prato",
+    "Zero no primeiro prato, o segundo tiro é normal",
+    "No Bird, todo o double é repetido"
+   ],
+   "explain": "Num double ao tiro, um primeiro prato irregular significa que o double é repetido."
+  },
+  "sp-q012": {
+   "q": "Double ao tiro. O atirador parte o primeiro prato e um dos pedaços parte o segundo prato antes de o atirador conseguir dar o segundo tiro. Qual é a decisão do árbitro?",
+   "options": [
+    "Double repetido, nada é mantido",
+    "One e zero",
+    "One e one",
+    "Double repetido, mantém-se o 'one' do primeiro prato"
+   ],
+   "explain": "Se o primeiro prato ou os seus pedaços partirem o segundo antes do segundo tiro, o double é repetido e o resultado do primeiro prato mantém-se."
+  },
+  "sp-q013": {
+   "q": "Double simultâneo. Um dos dois pratos sai numa trajetória irregular; o atirador parte o outro. Qual é a decisão do árbitro?",
+   "options": [
+    "Double repetido sem registar resultado",
+    "One e zero",
+    "One para o prato regular, o irregular é repetido"
+   ],
+   "explain": "Nos doubles simultâneo e rafale, um prato irregular significa que o double é repetido e não se regista resultado."
+  },
+  "sp-q014": {
+   "q": "Prato coelho como simples. O primeiro tiro falha e depois o coelho bate numa pedra e parte-se antes de o atirador disparar o segundo cano. Qual é a decisão do árbitro?",
+   "options": [
+    "Zero (falhado)",
+    "No Bird; na repetição só conta o prato partido com o segundo tiro",
+    "One (partido)"
+   ],
+   "explain": "É No Bird e o coelho é repetido, mas na repetição só conta partir o prato com o segundo tiro; parti-lo com o primeiro tiro dá zero."
+  },
+  "sp-q015": {
+   "q": "Primeiro problema de arma na série: num prato simples o primeiro cartucho falha. O atirador fica imóvel, com a arma apontada para a zona de tiro, e não dispara o segundo cano. O árbitro verifica a arma. Qual é a decisão do árbitro?",
+   "options": [
+    "No Bird com advertência; o prato é repetido",
+    "Zero (falhado)",
+    "Zero, mas sem advertência"
+   ],
+   "explain": "O primeiro incidente de arma ou munição numa série dá advertência e No Bird, e o prato simples é repetido. Os incidentes seguintes nessa série contam zero."
+  },
+  "sp-q016": {
+   "q": "Mais tarde na mesma série, o mesmo atirador tem uma segunda falha do cartucho no primeiro tiro de um prato simples. Espera corretamente pela verificação do árbitro. Qual é a decisão do árbitro?",
+   "options": [
+    "No Bird, o prato é repetido",
+    "Zero (falhado)",
+    "No Bird, mas desta vez com cartão amarelo"
+   ],
+   "explain": "A partir do segundo incidente de arma ou munição na mesma série o prato já não é repetido: conta zero."
+  },
+  "sp-q017": {
+   "q": "O cartucho falha. Irritado, o atirador abre logo a arma para ver o fulminante antes de o árbitro se aproximar. Qual é a decisão do árbitro?",
+   "options": [
+    "Zero (falhado)",
+    "No Bird, o prato é repetido",
+    "No Bird, se for o primeiro incidente da série"
+   ],
+   "explain": "Depois de uma avaria, o atirador tem de ficar no lugar com a arma apontada para a zona de tiro, sem a abrir nem mexer na patilha de segurança, até o árbitro a verificar. Caso contrário, o prato é zero."
+  },
+  "sp-q018": {
+   "q": "Prato simples, primeiro incidente da série. O primeiro cano falha, mas o atirador consegue disparar o segundo cano e falha. Qual é a decisão do árbitro?",
+   "options": [
+    "No Bird, o prato é repetido",
+    "No Bird, porque o primeiro tiro falhou",
+    "Zero (falhado)"
+   ],
+   "explain": "Uma falha no primeiro tiro é normalmente No Bird, mas se o atirador ainda disparar o segundo tiro, esse tiro conta e o prato é marcado conforme o resultado: aqui, zero."
+  },
+  "sp-q019": {
+   "q": "Prato simples. O primeiro tiro falha e o segundo cartucho não dispara (primeiro incidente da série), por isso o prato é repetido. Na repetição o atirador parte o prato com o primeiro tiro. Qual é a decisão do árbitro?",
+   "options": [
+    "Zero (falhado)",
+    "One (partido)",
+    "No Bird, repete outra vez"
+   ],
+   "explain": "Depois de uma avaria no segundo tiro num prato simples, na repetição o prato só pode ser partido com o segundo tiro. Partir com o primeiro tiro dá zero, por isso o atirador tem de falhar o primeiro de propósito."
+  },
+  "sp-q020": {
+   "q": "Double rafale, primeiro incidente da série: os dois canos disparam ao mesmo tempo no primeiro prato. Qual é a decisão do árbitro?",
+   "options": [
+    "O primeiro prato é marcado, o segundo é repetido",
+    "Zero e zero",
+    "Todo o double é repetido, nada é registado"
+   ],
+   "explain": "No primeiro prato de um double ao tiro, e nos doubles simultâneo e rafale, um disparo duplo significa que todo o double é repetido sem registar resultado."
+  },
+  "sp-q021": {
+   "q": "Double simultâneo. O atirador já teve uma avaria antes nesta série. Agora o primeiro tiro volta a falhar e ele não dispara. Qual é a decisão do árbitro?",
+   "options": [
+    "Zero e zero",
+    "Zero num prato, o outro é repetido",
+    "Double repetido"
+   ],
+   "explain": "A partir do segundo incidente numa série não há repetição. Num double simultâneo ou rafale, uma segunda falha no primeiro tiro dá zero e zero."
+  },
+  "sp-q022": {
+   "q": "No primeiro posto de um percurso, o atirador pede o prato já com a arma à cara, antes de o prato aparecer. É a primeira infração neste percurso. Qual é a decisão do árbitro?",
+   "options": [
+    "Nada; no Sporting a posição da arma é livre",
+    "Advertência verbal com cartão amarelo",
+    "Cartão vermelho e zero"
+   ],
+   "explain": "Pôr a arma à cara antes de o prato aparecer, ou não adotar a posição de partida do artigo 3.1, dá da primeira vez uma advertência verbal acompanhada de cartão amarelo."
+  },
+  "sp-q023": {
+   "q": "No mesmo percurso, dois postos depois: o mesmo atirador volta a pedir um prato simples com a coronha acima da linha do colete. Qual é a decisão do árbitro?",
+   "options": [
+    "Cartão vermelho; o prato é repetido",
+    "Cartão vermelho; o prato conta zero",
+    "Novo cartão amarelo"
+   ],
+   "explain": "Depois da primeira advertência, qualquer nova infração no mesmo percurso leva cartão vermelho e, num prato simples, o prato é zero."
+  },
+  "sp-q024": {
+   "q": "Um atirador que já tem cartão amarelo por posição da arma neste percurso começa um double ao tiro com a arma à cara antes de o primeiro prato aparecer. Qual é a decisão do árbitro?",
+   "options": [
+    "Cartão vermelho: zero no primeiro prato, o segundo conta conforme o tiro",
+    "Cartão vermelho: zero e No Bird",
+    "Zero e zero"
+   ],
+   "explain": "A reincidência no mesmo percurso é punida com cartão vermelho: zero num prato simples, zero e No Bird num double ao tiro, zero e zero nos doubles simultâneo e rafale."
+  },
+  "sp-q025": {
+   "q": "O árbitro anuncia 'No Bird' num prato simples, mas o atirador dispara ao prato na mesma. É a primeira vez que o faz. Qual é a decisão do árbitro?",
+   "options": [
+    "Advertência; o prato é repetido",
+    "One se o partir",
+    "Zero de imediato"
+   ],
+   "explain": "Nunca se dispara a um No Bird declarado. Da primeira vez o atirador recebe uma advertência; só depois de uma advertência se aplicam as penalizações de zero do artigo 12.2."
+  },
+  "sp-q026": {
+   "q": "Já advertido uma vez por disparar a um No Bird, o atirador volta a disparar depois de o árbitro anunciar 'No Bird' num double simultâneo. Qual é a decisão do árbitro?",
+   "options": [
+    "Segunda advertência; o double é repetido",
+    "Zero e No Bird",
+    "Zero e zero"
+   ],
+   "explain": "Depois de uma advertência, disparar a um No Bird declarado é punido como no artigo 12.2: nos doubles simultâneo e rafale isso é zero e zero."
+  },
+  "sp-q027": {
+   "q": "Entre dois pratos simples o atirador ajeita o colete, limpa os óculos e demora cerca de 25 segundos a pedir o prato. É a primeira vez hoje. Qual é a decisão do árbitro?",
+   "options": [
+    "Nada; não há limite de tempo",
+    "Zero no prato seguinte",
+    "Advertência"
+   ],
+   "explain": "O limite é de 15 segundos entre pratos simples ou entre doubles. Ultrapassá-lo dá primeiro uma advertência; depois aplicam-se as penalizações do artigo 12.2."
+  },
+  "sp-q028": {
+   "q": "Quando é chamado, um atirador entra no posto sem óculos de proteção e diz que os esqueceu no carro. Qual é a decisão do árbitro?",
+   "options": [
+    "Expulsão imediata",
+    "Pode atirar neste posto e depois ir buscá-los",
+    "É considerado ausente e aplica-se a regra dos atrasados/ausentes (16.7)"
+   ],
+   "explain": "Os óculos de proteção são obrigatórios, sem exceções. Um atirador no posto sem eles é considerado ausente e aplica-se o artigo 16.7."
+  },
+  "sp-q029": {
+   "q": "O árbitro marca zero num prato. Outro membro da esquadra diz em voz alta, sem que lhe perguntem: 'Foi claramente partido, eu vi um pedaço!' Qual é a decisão do árbitro?",
+   "options": [
+    "O árbitro tem de mudar a decisão para one",
+    "A decisão mantém-se; os membros da esquadra não podem intervir, e a crítica aberta conta como tentativa de influenciar o árbitro",
+    "O prato passa a No Bird"
+   ],
+   "explain": "O árbitro decide sozinho; os membros da esquadra não têm direito a comentar. Criticar abertamente uma decisão sem autorização é uma tentativa de influenciar o árbitro (penalizações do capítulo 13)."
+  },
+  "sp-q030": {
+   "q": "Um atirador acha que o último prato foi partido, mas não diz nada, pede o prato seguinte e só então protesta quanto ao anterior. Qual é a decisão do árbitro?",
+   "options": [
+    "O protesto vai para o júri",
+    "O protesto é ouvido e o árbitro reconsidera",
+    "Tarde demais: ao pedir o prato seguinte aceitou a decisão"
+   ],
+   "explain": "Ao pedir o prato seguinte, o atirador aceita a decisão do árbitro sobre o anterior; qualquer objeção tem de ser feita antes disso."
+  },
+  "sp-q031": {
+   "q": "Um prato transversal é partido logo atrás de uma árvore. O árbitro decide que foi atirado atrás de um obstáculo natural e marca zero. O atirador quer recorrer. Qual é a decisão do árbitro?",
+   "options": [
+    "O prato é repetido como No Bird",
+    "Não é possível recorrer desta decisão",
+    "Recurso escrito ao júri com caução de 40%"
+   ],
+   "explain": "Cabe ao atirador partir os pratos onde o árbitro os possa ver. Não se pode recorrer de uma decisão de que um prato foi atirado atrás de um obstáculo ou para lá de um limite."
+  },
+  "sp-q032": {
+   "q": "Um atirador chega ao percurso quando a sua esquadra ainda está a atirar os pratos simples do posto 1, antes de chegar a sua vez. Qual é a decisão do árbitro?",
+   "options": [
+    "Os seus pratos simples do posto 1 contam zero",
+    "Tem de atirar o percurso noutra esquadra",
+    "Junta-se sem penalização"
+   ],
+   "explain": "Um atirador atrasado que chega antes de perder a sua vez nos pratos simples do primeiro posto junta-se à esquadra sem penalização."
+  },
+  "sp-q033": {
+   "q": "O árbitro chamou três vezes, no espaço de um minuto, o nome e o número de um atirador. Ele chega quando a esquadra passa para o posto 2. Qual é a decisão do árbitro?",
+   "options": [
+    "Pode voltar a atirar todo o percurso noutra esquadra",
+    "Atira o posto 1 depois dos outros e continua",
+    "Continua a partir do posto 2; todos os pratos do posto 1 são zero"
+   ],
+   "explain": "Quem se junta num posto posterior tem zero em todos os pratos não atirados nos postos anteriores, e um percurso com postos perdidos nunca pode ser atirado noutra esquadra."
+  },
+  "sp-q034": {
+   "q": "Quantos pratos tem um percurso de Sporting e como se dividem?",
+   "options": [
+    "25: 15 simples e 5 doubles",
+    "25: 10 simples e 5 doubles, mais 5 coelhos",
+    "20: 10 simples e 5 doubles",
+    "30: 20 simples e 5 doubles"
+   ],
+   "explain": "Todos os tipos de percurso têm 25 pratos: 15 simples e 5 doubles (15 + 10 = 25)."
+  },
+  "sp-q035": {
+   "q": "A que distância abaixo do eixo dos ombros é traçada a linha de referência no colete do atirador?",
+   "options": [
+    "15 cm",
+    "20 cm",
+    "25 cm",
+    "30 cm"
+   ],
+   "explain": "A linha fica 25 cm (9,85 polegadas) abaixo do eixo dos ombros, paralela a ele e numa cor contrastante."
+  },
+  "sp-q036": {
+   "q": "Em quantos segundos após o sinal do árbitro tem de ser lançado o prato?",
+   "options": [
+    "1 segundo",
+    "3 segundos",
+    "5 segundos",
+    "10 segundos"
+   ],
+   "explain": "O prato tem de ser lançado no máximo três segundos após o sinal sonoro do árbitro; um prato mais tardio é No Bird."
+  },
+  "sp-q037": {
+   "q": "Num double ao tiro, quando é lançado o segundo prato?",
+   "options": [
+    "Exatamente ao mesmo tempo que o primeiro",
+    "Entre 0 e 3 segundos após o tiro ao primeiro",
+    "Entre 3 e 5 segundos após o lançamento do primeiro prato",
+    "Quando o atirador pede uma segunda vez"
+   ],
+   "explain": "O segundo prato de um double ao tiro é lançado 0 a 3 segundos depois de o atirador disparar ao primeiro; é o tiro que o aciona."
+  },
+  "sp-q038": {
+   "q": "Qual é o tempo máximo permitido entre pratos simples ou entre doubles?",
+   "options": [
+    "10 segundos",
+    "15 segundos",
+    "30 segundos",
+    "1 minuto"
+   ],
+   "explain": "O atirador tem no máximo 15 segundos; da primeira vez que ultrapassa o limite recebe uma advertência, depois aplicam-se as penalizações do artigo 12.2."
+  },
+  "sp-q039": {
+   "q": "Depois da decisão final do árbitro sobre um protesto, em quantos segundos tem o atirador de retomar o tiro?",
+   "options": [
+    "5 segundos",
+    "15 segundos",
+    "30 segundos",
+    "60 segundos"
+   ],
+   "explain": "O atirador tem de retomar o tiro em 15 segundos; caso contrário, conta como recusa em obedecer e aplicam-se as penalizações do capítulo 13."
+  },
+  "sp-q040": {
+   "q": "Qual é a carga máxima de chumbo de um cartucho de Sporting?",
+   "options": [
+    "24 g",
+    "28 g (tolerância +2%)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "A carga não pode exceder 28 g de chumbo, com uma tolerância máxima de +2%."
+  },
+  "sp-q041": {
+   "q": "Que gama de diâmetros de chumbo é permitida?",
+   "options": [
+    "1,5 a 2,0 mm",
+    "2,0 a 2,5 mm (±0,1 mm)",
+    "2,5 a 3,0 mm",
+    "Qualquer tamanho até 3,5 mm"
+   ],
+   "explain": "Os chumbos têm de ser esféricos, com 2,0 a 2,5 mm de diâmetro e uma tolerância de ±0,1 mm."
+  },
+  "sp-q042": {
+   "q": "Qual é o comprimento mínimo dos canos e o maior calibre permitido?",
+   "options": [
+    "60 cm, calibre 10",
+    "66 cm, calibre 12",
+    "71 cm, calibre 12",
+    "76 cm, calibre 20"
+   ],
+   "explain": "Os canos têm de ter pelo menos 66 cm de comprimento e o calibre não pode ser superior ao 12."
+  },
+  "sp-q043": {
+   "q": "Quantos cartuchos pode ter uma semi-automática no posto?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "Tantos quantos o carregador levar"
+   ],
+   "explain": "Uma semi-automática não pode ter mais de dois cartuchos, carregados só no posto e com autorização do árbitro."
+  },
+  "sp-q044": {
+   "q": "Que caução tem de acompanhar um recurso escrito ao júri?",
+   "options": [
+    "20% da taxa de inscrição",
+    "40% da taxa de inscrição",
+    "50% da taxa de inscrição",
+    "A taxa de inscrição completa"
+   ],
+   "explain": "O recurso ao júri é apresentado por escrito com uma caução igual a 40% da taxa de inscrição."
+  },
+  "sp-q045": {
+   "q": "Qual é o número máximo de atiradores numa esquadra?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Uma esquadra tem no máximo seis atiradores, formada por sorteio."
+  },
+  "sp-q046": {
+   "q": "Quantos pratos tem uma competição internacional de Sporting?",
+   "options": [
+    "100",
+    "150",
+    "200",
+    "250"
+   ],
+   "explain": "Uma competição internacional tem 200 pratos, atirados em séries de 25; só o júri pode alterar isto em casos excecionais."
+  },
+  "sp-q047": {
+   "q": "Depois de uma interrupção de quanto tempo tem o árbitro de voltar a mostrar os pratos do posto aos atiradores?",
+   "options": [
+    "Mais de 5 minutos",
+    "Mais de 10 minutos",
+    "Mais de 15 minutos",
+    "Mais de 30 minutos"
+   ],
+   "explain": "Se uma máquina avariar ou o tiro parar durante mais de 10 minutos, os pratos desse posto são mostrados de novo."
+  },
+  "sp-q048": {
+   "q": "Como chama o árbitro um atirador que não está presente no posto?",
+   "options": [
+    "Diz o nome uma vez e depois o atirador fica ausente",
+    "Nome e número 3 vezes no espaço de 1 minuto",
+    "Nome e número 3 vezes no espaço de 3 minutos",
+    "Pelo altifalante, esperando 5 minutos"
+   ],
+   "explain": "O árbitro chama o nome e o número do atirador três vezes no espaço de um minuto."
+  },
+  "sp-q049": {
+   "q": "Na mostra de pratos, quantas vezes pode o atirador que está no posto pedir para voltar a ver um prato?",
+   "options": [
+    "Uma vez por posto",
+    "Até 2 pratos por cada prato do menu",
+    "Até 3 pratos por máquina",
+    "Tantas vezes quantas forem precisas"
+   ],
+   "explain": "A pedido, o árbitro repete a mostra, até um máximo de dois pratos por cada prato da sequência do menu."
+  },
+  "sp-q050": {
+   "q": "Num desempate não programado, em quanto tempo após serem chamados têm os atiradores de estar prontos?",
+   "options": [
+    "5 minutos",
+    "15 minutos",
+    "30 minutos",
+    "1 hora"
+   ],
+   "explain": "Os atiradores têm de se manter contactáveis pelo júri para poderem atirar até 15 minutos depois de serem chamados; quem estiver ausente é desclassificado."
+  },
+  "sp-q051": {
+   "q": "Uma federação quer organizar um campeonato internacional num campo de tiro ainda não aprovado. Com que antecedência tem de apresentar o campo à FITASC?",
+   "options": [
+    "Pelo menos 3 meses",
+    "Pelo menos 6 meses",
+    "Pelo menos 8 meses",
+    "Pelo menos 12 meses"
+   ],
+   "explain": "O campo de tiro e o plano de organização têm de ser apresentados a um representante da FITASC pelo menos oito meses antes da prova."
+  },
+  "sp-q052": {
+   "q": "Que percentagem de pratos tem de partir um atirador médio para que uma trajetória seja de classe B?",
+   "options": [
+    "Mais de 80%",
+    "60% a 80%",
+    "40% a 60%",
+    "Menos de 40%"
+   ],
+   "explain": "Classe A é mais de 80%, classe B 60% a 80%, classe C 40% a 60%. A combinação recomendada por posto é uma A, duas B e uma C."
+  },
+  "sp-q053": {
+   "q": "Durante quanto tempo a FITASC mantém registada uma expulsão, e em que prazo uma segunda expulsão pode levar a uma suspensão definitiva?",
+   "options": [
+    "Registo 3 anos; segunda em 1 ano",
+    "Registo 5 anos; segunda em 3 anos",
+    "Registo 10 anos; segunda em 5 anos",
+    "Registo vitalício; qualquer segunda expulsão"
+   ],
+   "explain": "O registo mantém-se durante cinco anos; uma segunda expulsão no espaço de três anos pode levar a uma suspensão definitiva, decidida apenas pelo Comité Diretivo da FITASC."
+  },
+  "sp-q054": {
+   "q": "Como o Sporting imita a caça, uma prova de Sporting pode incluir tiro a animais vivos.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. O Sporting atira-se a pratos artificiais, e o tiro a animais vivos não é permitido nesta disciplina."
+  },
+  "sp-q055": {
+   "q": "Uma espingarda de bomba é permitida no Sporting, desde que seja de calibre 12 ou inferior.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Pode usar-se qualquer espingarda de caça, incluindo semi-automáticas, mas as armas de bomba (pump) não são permitidas."
+  },
+  "sp-q056": {
+   "q": "Entre o primeiro e o segundo prato de um double, o atirador pode ter a arma em qualquer posição.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Verdadeiro, nos doubles ao tiro, simultâneos e rafale. A posição livre só se aplica entre os dois pratos; antes do primeiro continua a ser obrigatória a posição de partida."
+  },
+  "sp-q057": {
+   "q": "Um prato coelho pode ser atirado à anca, porque rola pelo chão.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Todos os pratos, incluindo os coelhos, têm de ser atirados com a arma ao ombro."
+  },
+  "sp-q058": {
+   "q": "Na mostra de pratos, os doubles ao tiro são mostrados ao primeiro atirador da esquadra.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Os doubles ao tiro não são mostrados; só se mostram os doubles simultâneos e rafale, com até duas repetições a pedido."
+  },
+  "sp-q059": {
+   "q": "Um atirador pode dar um tiro de ensaio no primeiro posto para verificar se uma arma acabada de reparar funciona.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Nunca se pode ensaiar uma arma num posto de tiro; usa-se o posto de ensaio próprio junto à sede do clube, antes de ir para o percurso."
+  },
+  "sp-q060": {
+   "q": "Durante uma série, o atirador pode trocar um choke entre os pratos simples e os doubles, desde que isso não cause atraso.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Verdadeiro. A arma, um choke amovível ou um cano podem ser trocados entre postos ou entre os simples e os doubles, sem atraso, mas nunca quando o atirador já está no posto."
+  },
+  "sp-q061": {
+   "q": "Numa competição oficial, dois atiradores da mesma esquadra podem partilhar uma arma se ambos concordarem.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Dois atiradores da mesma esquadra não podem usar nem partilhar a mesma arma numa competição oficial. Pedir uma arma emprestada só é exceção depois de uma avaria, para terminar a série."
+  },
+  "sp-q062": {
+   "q": "As proteções auditivas são obrigatórias não só para os atiradores, mas também para árbitros, pessoal e espectadores no percurso ou perto dele.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Verdadeiro. Todos os que estão no percurso ou perto dele têm de usar proteções auditivas; um atirador sem elas é considerado ausente (16.7)."
+  },
+  "sp-q063": {
+   "q": "A um atirador expulso de uma competição é devolvida a taxa de inscrição correspondente aos pratos não atirados.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Um atirador expulso não recebe qualquer reembolso nem compensação financeira de nenhum tipo."
+  },
+  "sp-q064": {
+   "q": "Num desempate por morte súbita, num double ao tiro 'one-zero' e 'zero-one' contam o mesmo.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Verdadeiro. Só na morte súbita, um double ao tiro conta como um par de dois pratos, seja qual for o prato falhado."
+  },
+  "sp-q065": {
+   "q": "Quando duas equipas empatam, fazem um desempate por equipas num novo percurso.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Não há desempate por equipas: as equipas são ordenadas pela soma dos resultados no 8.º percurso e depois por countback do 7.º ao 1.º."
+  },
+  "sp-q066": {
+   "q": "Qual destas decisões do árbitro PODE ser objeto de recurso ao júri?",
+   "options": [
+    "Se um prato foi 'one' ou 'zero'",
+    "Se um prato foi No Bird",
+    "Se uma trajetória estava correta",
+    "Um cartão vermelho por posição da arma"
+   ],
+   "explain": "As decisões sobre trajetória, No Bird e one/zero não podem ir ao júri. Qualquer outra decisão do árbitro pode ser objeto de recurso escrito com caução de 40%."
+  },
+  "sp-q067": {
+   "q": "O júri rejeita o recurso de um atirador. O que acontece à caução?",
+   "options": [
+    "Vai para o clube organizador",
+    "Vai para uma instituição de caridade escolhida pelo Presidente da FITASC",
+    "É devolvida na mesma",
+    "É somada aos prémios"
+   ],
+   "explain": "Se o recurso for aceite, a caução é devolvida; se não, vai para uma instituição de caridade escolhida pelo Presidente da FITASC."
+  },
+  "sp-q068": {
+   "q": "Como protesta corretamente um atirador contra uma decisão no posto?",
+   "options": [
+    "Vai buscar o prato para o mostrar ao árbitro",
+    "Termina o posto e depois fala com o árbitro",
+    "Levanta logo a mão e diz 'recurso' ou 'protesto'",
+    "Pede à esquadra que vote"
+   ],
+   "explain": "O protesto tem de ser feito de imediato no posto, levantando a mão e dizendo 'recurso' ou 'protesto'. Os atiradores nunca podem sair do seu lugar nem ir buscar um prato."
+  },
+  "sp-q069": {
+   "q": "Um árbitro tem dúvidas sobre uma decisão. A quem pode consultar, e com que efeito?",
+   "options": [
+    "Outro árbitro, o pulleur ou os atiradores da esquadra, só para opinião; depois a sua decisão é final",
+    "Só o júri; a sua opinião é vinculativa",
+    "Ninguém; tem de declarar No Bird",
+    "O treinador do atirador, cuja opinião decide"
+   ],
+   "explain": "O árbitro pode pedir a opinião de outro árbitro, do pulleur ou dos atiradores da esquadra apenas a título consultivo, não fica vinculado a ela, e a sua decisão é então final."
+  },
+  "sp-q070": {
+   "q": "Como se identificam as máquinas de um posto?",
+   "options": [
+    "Pela cor dos pratos",
+    "Letras da direita para a esquerda, vistas pelo pulleur",
+    "Letras A, B, C, D da esquerda para a direita, vistas do posto",
+    "Números de 1 a 4 pela ordem de tiro"
+   ],
+   "explain": "As máquinas identificam-se pelas letras A, B, C e D, lidas da esquerda para a direita vistas do posto de tiro; o menu e a folha de marcação usam-nas."
+  },
+  "sp-q071": {
+   "q": "Um posto tem 3 máquinas e 2 doubles. Que combinação NÃO é permitida?",
+   "options": [
+    "Dois doubles simultâneos",
+    "Dois doubles rafale",
+    "Um double simultâneo e um rafale",
+    "Dois doubles ao tiro"
+   ],
+   "explain": "Num posto assim os doubles podem ser simultâneos, rafale ou ambos, mas dois doubles ao tiro não são permitidos."
+  },
+  "sp-q072": {
+   "q": "Que regra se aplica à construção dos doubles num posto?",
+   "options": [
+    "Uma trajetória de classe C só pode aparecer uma vez nos doubles, de preferência com um prato de classe A",
+    "Os doubles têm de ser sempre ao tiro",
+    "Os doubles podem usar trajetórias novas não mostradas como simples",
+    "Dois pratos de classe C fazem o melhor double"
+   ],
+   "explain": "Os doubles só usam pratos já mostrados como simples nesse posto; a classe C só pode aparecer uma vez, de preferência emparelhada com uma A. B + B e B + A são permitidos."
+  },
+  "sp-q073": {
+   "q": "Qual destas NÃO é uma das penalizações do júri por reincidência, recusa em obedecer ou tentativa de influenciar um árbitro?",
+   "options": [
+    "Expulsão da competição",
+    "Perda de um prato",
+    "Perda de uma série de 25 pratos",
+    "Uma multa em dinheiro"
+   ],
+   "explain": "A escala do júri é a perda de um prato, a perda de uma série de 25 pratos ou a expulsão. A multa em dinheiro não faz parte dela."
+  },
+  "sp-q074": {
+   "q": "Durante uma série, um treinador atrás do posto está sempre a dizer ao seu atirador onde pôr a arma em espera. O que faz o árbitro?",
+   "options": [
+    "Cartão amarelo para o atirador, e o treinador é mandado sair da zona de tiro",
+    "Expulsão imediata do atirador",
+    "Zero no prato seguinte do atirador",
+    "Nada; dar instruções entre pratos é permitido"
+   ],
+   "explain": "Dar instruções durante a competição é proibido: o atirador recebe cartão amarelo (as reincidências seguem para o capítulo 13) e o treinador é afastado da zona de tiro."
+  },
+  "sp-q075": {
+   "q": "A arma de um atirador avaria no posto 2 e não pode ser reparada rapidamente. O que pode ele fazer?",
+   "options": [
+    "Usar a arma do pulleur sem pedir",
+    "Saltar o posto e ter os pratos marcados como No Bird",
+    "Voltar a atirar todo o percurso mais tarde numa nova esquadra à sua escolha",
+    "Com o acordo do árbitro, continuar de imediato com outra arma, por exemplo emprestada com o consentimento do dono"
+   ],
+   "explain": "Se a arma não puder ser reparada, o atirador pode continuar com a esquadra, com o acordo do árbitro, arranjando de imediato outra arma; caso contrário, termina num lugar livre de outra esquadra, apenas com autorização do júri."
+  },
+  "sp-q076": {
+   "q": "Um atirador com gatilho de libertação tem o primeiro prato declarado No Bird. O que deve fazer?",
+   "options": [
+    "Soltar logo o gatilho e abrir a arma",
+    "Manter o gatilho premido e pedir um novo prato, abrir a arma ainda a segurá-lo, ou disparar numa direção segura indicada pelo árbitro",
+    "Entregar a arma ao árbitro",
+    "Disparar para o chão à frente do posto"
+   ],
+   "explain": "Tem de manter o gatilho premido e escolher uma de três opções seguras: pedir um novo prato, abrir a arma mantendo o gatilho premido, ou disparar numa direção segura indicada pelo árbitro."
+  },
+  "sp-q077": {
+   "q": "O que tem o árbitro de fazer com a folha de marcação antes de a esquadra passar ao posto seguinte?",
+   "options": [
+    "Enviá-la ao quadro de resultados por um estafeta",
+    "Mandar todos os atiradores assiná-la",
+    "Entregá-la ao júri",
+    "Fotografá-la e marcar um asterisco antes do nome do atirador que a leva"
+   ],
+   "explain": "O árbitro fotografa a folha e marca um asterisco antes do nome do atirador a quem ela é confiada; usa-se um lápis de cor diferente em cada posto."
+  },
+  "sp-q078": {
+   "q": "Que vestuário é aceitável para um atirador?",
+   "options": [
+    "Bermudas, t-shirt e sandálias",
+    "Calções de corrida curtos e t-shirt",
+    "Um colete de skeet sem nada por baixo",
+    "Bermudas compridas que terminam 4 cm acima do joelho, polo de manga curta, sapatos fechados"
+   ],
+   "explain": "Só se aceitam bermudas compridas que terminem no máximo 5 cm acima do joelho; as camisas precisam de, pelo menos, manga curta e gola ou decote redondo; nada de colete sobre a pele nua; nada de sandálias."
+  },
+  "sp-q079": {
+   "q": "Dois atiradores empatam no 5.º lugar. Como se decide a ordem entre eles?",
+   "options": [
+    "Desempate por morte súbita",
+    "Pelo sorteio",
+    "Desempate de 25 pratos",
+    "Partilham o lugar e são ordenados por countback do percurso 8 ao percurso 1"
+   ],
+   "explain": "Só há desempate para os três primeiros lugares. Abaixo do terceiro, os atiradores empatados partilham o lugar e são ordenados por countback do 8.º percurso ao 1.º."
+  },
+  "sp-q080": {
+   "q": "O árbitro de um posto acha que uma trajetória é demasiado fácil. Pode alterá-la?",
+   "options": [
+    "Não; só pode reacertar uma trajetória com defeito depois de uma avaria da máquina ou de condições meteorológicas excecionais, se o prato não aparecer ou for perigoso",
+    "Sim, depois de informar o árbitro principal",
+    "Sim, se a esquadra concordar",
+    "Sim, entre séries"
+   ],
+   "explain": "As trajetórias definidas pelo júri e pelos traçadores do percurso são fixas. O árbitro só pode reacertar uma trajetória com defeito depois de uma avaria da máquina ou de condições meteorológicas excecionais; um traçador do percurso ou um membro do júri deve verificá-la."
+  },
+  "cs-q001": {
+   "q": "Com lançamento manual, o prato sai da máquina cerca de 4 segundos depois de o atirador o pedir. O atirador dispara e falha. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "NO BIRD — é lançado um novo prato",
+    "ZERO e advertência por tiro lento",
+    "O atirador pode escolher manter o resultado"
+   ],
+   "explain": "Com lançamento manual, o prato tem de sair 0 a 3 segundos depois do pedido; um prato lançado mais de 3 segundos depois é NO BIRD."
+  },
+  "cs-q002": {
+   "q": "Qual é a largura do retângulo obrigatório (ABCD) sobre o qual os pratos do Compak têm de voar?",
+   "options": [
+    "25 a 30 m",
+    "35 a 40 m",
+    "40 a 50 m",
+    "exatamente 30 m"
+   ],
+   "explain": "O retângulo tem no mínimo 35 m e no máximo 40 m de largura e 25 m de profundidade, com quatro estacas de marcação nos cantos."
+  },
+  "cs-q003": {
+   "q": "Que distância é permitida entre os centros de postos de tiro vizinhos?",
+   "options": [
+    "1 a 2 m",
+    "2 a 5 m",
+    "5 a 8 m",
+    "pelo menos 6 m"
+   ],
+   "explain": "Há cinco postos de 1 m x 1 m, com 2 a 5 m entre os centros de postos vizinhos."
+  },
+  "cs-q004": {
+   "q": "A que distância atrás do lado AD do retângulo tem de ficar a linha da frente dos postos de tiro?",
+   "options": [
+    "2 a 5 m",
+    "4 a 8 m",
+    "8 a 12 m",
+    "exatamente 10 m"
+   ],
+   "explain": "A linha da frente dos postos é paralela ao lado AD e fica 4 a 8 m atrás dele, com o posto n.º 3 centrado em relação a AD."
+  },
+  "cs-q005": {
+   "q": "Uma máquina colocada atrás dos postos de tiro tem de estar pelo menos a que altura acima do nível dos postos?",
+   "options": [
+    "2 m",
+    "3 m",
+    "4 m",
+    "6 m"
+   ],
+   "explain": "Uma máquina atrás dos postos tem de estar pelo menos 4 m acima dos postos, ou seja, numa torre."
+  },
+  "cs-q006": {
+   "q": "Qual é o atraso fixo de um sistema de lançamento phono-pull (sonopull)?",
+   "options": [
+    "0,2 segundos",
+    "0,5 segundos",
+    "1 segundo",
+    "regulável de 0 a 3 segundos"
+   ],
+   "explain": "Uma caixa phono-pull tem de aplicar um atraso fixo de 0,5 segundos, que não pode ser alterado; o lançamento manual tem de ser feito em 0 a 3 segundos."
+  },
+  "cs-q007": {
+   "q": "Quantas máquinas usa um Compak® Sporting?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Um Compak tem seis máquinas, identificadas de A a F da esquerda para a direita, e cinco postos de tiro."
+  },
+  "cs-q008": {
+   "q": "A nível internacional, o Compak em linha usa apenas lançamento phono-pull com arbitragem e marcação eletrónicas aprovadas pela FITASC.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Verdadeiro. Nas competições internacionais em linha usa-se apenas o lançamento phono-pull, juntamente com arbitragem e gestão de resultados eletrónicas aprovadas pela FITASC."
+  },
+  "cs-q009": {
+   "q": "Num double simultâneo o atirador parte os dois pratos com o primeiro cartucho. É a primeira vez que isto lhe acontece neste Compak. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE-ONE: contam os dois pratos",
+    "ONE no primeiro prato, ZERO no segundo",
+    "NO BIRD: nada é marcado e o double é repetido",
+    "ZERO-ZERO"
+   ],
+   "explain": "Quando os dois pratos de um double simultâneo se partem com um só tiro, o double é NO BIRD e volta a ser atirado; o mesmo acontece da segunda vez. Só à terceira é marcado Zero-Zero."
+  },
+  "cs-q010": {
+   "q": "Pela terceira vez no mesmo Compak, um atirador parte os dois pratos de um double simultâneo com um só cartucho. Qual é a decisão do árbitro?",
+   "options": [
+    "NO BIRD — é lançado um novo prato",
+    "ONE-ONE",
+    "ZERO-ZERO",
+    "ONE-ZERO"
+   ],
+   "explain": "Da primeira e da segunda vez é NO BIRD e o double é repetido; à terceira vez o double é marcado Zero-Zero."
+  },
+  "cs-q011": {
+   "q": "Num double ao tiro, o primeiro tiro parte o primeiro prato e um pedaço dele parte também o segundo prato no ar. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE-ONE: contam os dois pratos",
+    "O ONE do primeiro prato mantém-se; o double é repetido para marcar o segundo",
+    "Todo o double é NO BIRD; nada é marcado",
+    "ONE-ZERO"
+   ],
+   "explain": "Se o primeiro prato ou os seus pedaços partirem o segundo antes do segundo tiro, o primeiro resultado mantém-se e o double volta a ser atirado para marcar o segundo prato."
+  },
+  "cs-q012": {
+   "q": "Num double simultâneo, um atirador dispara deliberadamente os dois cartuchos ao primeiro prato, para ter a certeza de o partir. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE no primeiro prato, o segundo é repetido",
+    "NO BIRD: o double é repetido",
+    "ZERO-ZERO",
+    "Só advertência, o resultado mantém-se"
+   ],
+   "explain": "Só se pode disparar um cartucho a cada prato de um double; dobrar o tiro ao primeiro é proibido, e o guia rápido dos árbitros marca Zero-Zero a um tiro duplo deliberado a um só prato."
+  },
+  "cs-q013": {
+   "q": "Que lado do retângulo tem de atravessar o prato de saída obrigatório?",
+   "options": [
+    "AB",
+    "BC",
+    "CD",
+    "DA"
+   ],
+   "explain": "As três trajetórias obrigatórias são da esquerda para a direita (AB e depois CD), da direita para a esquerda (CD e depois AB) e de saída através de BC; DA é o lado virado para os atiradores."
+  },
+  "cs-q014": {
+   "q": "Por que ordem pode o atirador atirar aos dois pratos de um double simultâneo?",
+   "options": [
+    "Sempre primeiro o prato da esquerda",
+    "Pela ordem indicada no menu",
+    "Por qualquer ordem",
+    "Primeiro o da máquina com a letra mais baixa"
+   ],
+   "explain": "Um double simultâneo são dois pratos lançados ao mesmo tempo por duas máquinas diferentes, e o atirador pode atirar-lhes por qualquer ordem."
+  },
+  "cs-q015": {
+   "q": "Quantos membros do júri têm de estar sempre presentes na prova?",
+   "options": [
+    "pelo menos 1",
+    "pelo menos 2",
+    "pelo menos 3",
+    "um quarto do júri"
+   ],
+   "explain": "Todos os membros do júri usam crachá, e pelo menos dois membros do júri têm de estar sempre presentes. Um quarto dos membros (mais o Presidente) é o quórum para deliberar, não a regra de presença."
+  },
+  "cs-q016": {
+   "q": "Um atirador que tem a certeza de ter partido um prato marcado ZERO pode apresentar uma reclamação escrita ao júri para o alterar.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Se um prato foi partido ou falhado, defeituoso ou fora da trajetória, decide só o árbitro e não há recurso; as outras decisões do árbitro podem ser contestadas perante o júri."
+  },
+  "cs-q017": {
+   "q": "Quem faz parte do júri de recurso numa competição internacional de Compak?",
+   "options": [
+    "O Árbitro Principal e dois membros do júri",
+    "O Presidente da FITASC, o Presidente da Comissão Técnica e o Presidente da federação organizadora (ou os seus representantes)",
+    "Um representante de cada equipa nacional",
+    "A comissão disciplinar da FITASC"
+   ],
+   "explain": "O júri de recurso tem três membros: o Presidente da FITASC, o Presidente da Comissão Técnica e o Presidente da federação organizadora, ou os seus representantes; nenhum membro do júri pode fazer parte dele."
+  },
+  "cs-q018": {
+   "q": "Quantos Compaks de 25 pratos compõem uma competição internacional?",
+   "options": [
+    "4 (100 pratos)",
+    "6 (150 pratos)",
+    "8 (200 pratos)",
+    "10 (250 pratos)"
+   ],
+   "explain": "Os quatro tipos de Compak previstos para as provas internacionais somam oito Compaks de 25 pratos, ou seja, 200 pratos."
+  },
+  "cs-q019": {
+   "q": "Quantas máquinas novas são obrigatórias nos campeonatos continentais e mundiais de Compak® Sporting?",
+   "options": [
+    "24",
+    "36",
+    "48",
+    "60"
+   ],
+   "explain": "Por uma questão de equidade, as máquinas habituais do clube anfitrião não podem ser usadas: são obrigatórias 48 máquinas novas, instaladas e reguladas apenas para o campeonato."
+  },
+  "cs-q020": {
+   "q": "Quando podem ser alterados as trajetórias, as máquinas ou os menus da competição?",
+   "options": [
+    "A qualquer momento, por decisão do júri",
+    "Só depois de todos os atiradores terem atirado uma volta completa",
+    "Todas as manhãs antes da primeira esquadra",
+    "Só a pedido do árbitro"
+   ],
+   "explain": "As alterações só são permitidas depois de uma volta completa atirada por todos: 50 pratos com 2 instalações ou 100 pratos com 4 instalações."
+  },
+  "cs-q021": {
+   "q": "Num campeonato mundial ou continental de Compak, quando podem os atiradores treinar pela primeira vez nas máquinas e trajetórias do campeonato?",
+   "options": [
+    "A qualquer momento na semana anterior",
+    "A partir do treino oficial no sábado anterior ao campeonato",
+    "Só na manhã do primeiro dia de competição",
+    "Nunca: o treino é só noutras instalações"
+   ],
+   "explain": "O treino oficial abre no sábado anterior ao campeonato, e ninguém pode treinar nas máquinas e trajetórias do campeonato antes desse dia. As grelhas de treino também têm de ser diferentes das da competição."
+  },
+  "cs-q022": {
+   "q": "Um atirador chega ao posto com o dorsal preso na frente do colete em vez de nas costas. Qual é a decisão do árbitro?",
+   "options": [
+    "Não pode atirar esta série",
+    "ADVERTÊNCIA; outras sanções se não corrigir",
+    "Desconto de um prato",
+    "Nada: a posição do dorsal é livre"
+   ],
+   "explain": "O dorsal tem de estar nas costas, entre os ombros e a cintura, totalmente visível. Uma primeira infração dá ADVERTÊNCIA; se não for corrigida, seguem-se outras sanções, até à exclusão pelo júri."
+  },
+  "cs-q023": {
+   "q": "As sandálias são toleradas no treino, mas não em competição.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Por razões de segurança, as sandálias são proibidas tanto no treino como em competição."
+  },
+  "cs-q024": {
+   "q": "Quem é responsável por o atirador estar a horas no seu Compak e pronto, com munições suficientes para a série?",
+   "options": [
+    "O árbitro, que chama os atiradores em falta",
+    "O secretariado do organizador",
+    "O próprio atirador",
+    "O chefe de esquadra"
+   ],
+   "explain": "Cumprir os horários de tiro publicados é responsabilidade do atirador: tem de se apresentar ao árbitro, estar pronto a atirar de imediato com equipamento e munições para uma série inteira e acompanhar as alterações de horário. O árbitro não vai procurar atiradores em falta."
+  },
+  "cs-q025": {
+   "q": "No tiro por esquadras, um atirador chega ao Compak logo depois de o primeiro atirador da sua esquadra ter pedido o primeiro prato da série. Qual é a decisão do árbitro?",
+   "options": [
+    "Junta-se e atira na sua vez",
+    "Tem 25 zeros nessa série",
+    "Perde só os pratos já atirados",
+    "Cartão amarelo e depois atira"
+   ],
+   "explain": "O limite é o primeiro pedido do primeiro atirador da esquadra; um atirador que chegue depois disso tem 25 zeros na série (pode recorrer por escrito ao júri no mesmo dia)."
+  },
+  "cs-q026": {
+   "q": "Um atirador falta a todo o primeiro dia da competição. O que acontece?",
+   "options": [
+    "Atira as séries em falta no segundo dia",
+    "É retirado da lista a partir do segundo dia; para atirar tem de recorrer ao júri",
+    "Tem 25 zeros por série e continua",
+    "É suspenso das competições da FITASC"
+   ],
+   "explain": "Um atirador ausente no primeiro dia é retirado da lista a partir do segundo dia; se aparecer e quiser atirar, tem de recorrer ao júri como descrito no capítulo 9."
+  },
+  "cs-q027": {
+   "q": "Um atirador pode dar um tiro de ensaio no posto de competição antes de começar a sua série.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. As armas só podem ser ensaiadas num posto preparado para isso perto da armaria, nunca no posto de competição antes da série."
+  },
+  "cs-q028": {
+   "q": "Depois de uma avaria, um atirador pode terminar a série com a arma de um membro da sua própria esquadra, se o dono concordar.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Só se pode pedir emprestada uma arma a um atirador que não seja do mesmo grupo ou esquadra, com o acordo do dono e do árbitro; os atiradores de um mesmo grupo não podem partilhar uma arma."
+  },
+  "cs-q029": {
+   "q": "Quando não há hora marcada para um desempate, em quantos minutos após serem chamados têm os atiradores de estar prontos?",
+   "options": [
+    "menos de 5 minutos",
+    "menos de 15 minutos",
+    "menos de 30 minutos",
+    "1 hora"
+   ],
+   "explain": "Os atiradores envolvidos têm de se manter em contacto com o júri e estar prontos menos de 15 minutos depois da chamada; um atirador ausente é considerado desistente."
+  },
+  "cs-q030": {
+   "q": "Um empate no 5.º lugar da classificação individual é decidido por desempate.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Só há desempate para os três primeiros lugares; abaixo do terceiro, os atiradores empatados ficam ex aequo e são ordenados por countback do Compak 8 ao Compak 1."
+  },
+  "cs-q031": {
+   "q": "Em que tipo de Compak se atiram os desempates?",
+   "options": [
+    "5 simples por posto",
+    "3 simples e 1 double ao tiro por posto",
+    "1 simples e 2 doubles simultâneos por posto",
+    "O último Compak da competição, sem alterações"
+   ],
+   "explain": "Os membros presentes da Comissão Técnica (ou, na sua falta, o júri) escolhem o Compak e as grelhas; os desempates usam um simples e dois doubles simultâneos por posto."
+  },
+  "cs-q032": {
+   "q": "Duas equipas nacionais terminam empatadas no total. Como se desfaz o empate?",
+   "options": [
+    "Com um desempate por equipas de 25 pratos",
+    "Pela soma dos resultados dos membros no 8.º Compak, depois no 7.º e assim por diante",
+    "Pelo melhor resultado individual de cada equipa",
+    "Pelo 1.º Compak, depois o 2.º e assim por diante"
+   ],
+   "explain": "As equipas empatadas são separadas pela soma dos resultados dos seus membros no 8.º Compak, depois no 7.º, 6.º e assim sucessivamente até ao 1.º."
+  },
+  "cs-q033": {
+   "q": "Um atirador que se recuse a assinar a folha de marcação no fim da série perde o direito a qualquer reclamação.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Verdadeiro. O atirador tem de assinar a folha de marcação no fim de cada série; recusar-se a assinar torna inadmissível qualquer reclamação."
+  },
+  "cs-q034": {
+   "q": "Como se marcam os pratos partidos e falhados numa folha de marcação de Compak?",
+   "options": [
+    "Partido X, falhado O",
+    "Partido O, falhado X",
+    "Partido 1, falhado 0",
+    "Partido /, falhado -"
+   ],
+   "explain": "Um prato partido (ONE) marca-se com X e um falhado com O; o árbitro anuncia cada ZERO em voz alta ou com um sinal sonoro."
+  },
+  "cs-q035": {
+   "q": "Qual é o número máximo de atiradores numa esquadra de Compak?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Uma esquadra tem no máximo 6 atiradores, que atiram a mesma série ao mesmo tempo na mesma instalação."
+  },
+  "cs-q036": {
+   "q": "Quanto tempo tem o atirador para pedir o seu prato depois de ter sido atirado o prato do posto anterior?",
+   "options": [
+    "5 segundos",
+    "10 segundos",
+    "15 segundos",
+    "30 segundos"
+   ],
+   "explain": "O máximo é de 10 segundos; a primeira infração é uma advertência anotada na folha de marcação, e a reincidência na mesma série custa pratos."
+  },
+  "cs-q037": {
+   "q": "Depois de uma interrupção de mais de quantos minutos são mostrados de novo os 6 pratos simples?",
+   "options": [
+    "5 minutos",
+    "10 minutos",
+    "15 minutos",
+    "30 minutos"
+   ],
+   "explain": "Depois de uma interrupção de mais de 10 minutos, o árbitro volta a mostrar os 6 simples, tanto no tiro por esquadras como em linha."
+  },
+  "cs-q038": {
+   "q": "Quantas grelhas de regulação de trajetórias pré-estabelecidas contém o Anexo 3?",
+   "options": [
+    "8",
+    "20",
+    "40",
+    "48"
+   ],
+   "explain": "O Anexo 3 tem 40 menus já prontos, oito para cada uma das cinco combinações por posto (por exemplo, as grelhas 17-24: 3 simples e 1 double simultâneo)."
+  },
+  "cs-q039": {
+   "q": "No Compak® Sporting, o atirador tem de pedir o prato com a arma em baixo, com a coronha visível abaixo de uma marca no colete.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. No Compak a posição da arma no pedido é livre (à cara ou não); o regulamento não prevê partida com a arma em baixo nem marca no colete. Depois, todos os pratos têm de ser atirados com a arma ao ombro."
+  },
+  "cs-q040": {
+   "q": "Num mesmo Compak, o posto 2 pode ter um double ao tiro e o posto 4 um double simultâneo.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. Num mesmo Compak o tipo de double tem de ser o mesmo nos 5 postos; recomenda-se usar grelhas diferentes de um Compak para o seguinte."
+  },
+  "cs-q041": {
+   "q": "Que prato é sempre o primeiro prato de um double num posto?",
+   "options": [
+    "O prato da máquina A",
+    "O último prato atirado no posto anterior",
+    "O prato de saída",
+    "Qualquer prato à escolha do atirador"
+   ],
+   "explain": "O primeiro prato de cada double é o último prato atirado no posto anterior (por exemplo A-F, F-C, C-E...), e é por isso que o árbitro o mostra ao atirador seguinte."
+  },
+  "cs-q042": {
+   "q": "No tiro por esquadras, onde fica o sexto atirador (o que espera), e o que acontece quando o posto 5 termina?",
+   "options": [
+    "Atrás do posto 5; depois ocupa o posto 5",
+    "Atrás do posto 1; todos avançam um posto para a direita e ele entra no posto 1",
+    "Junto ao árbitro; junta-se à esquadra seguinte",
+    "Atrás do posto 3; ocupa o posto vazio"
+   ],
+   "explain": "O atirador em espera fica atrás do posto 1. Quando o posto 5 termina o seu menu, esse atirador vai esperar, todos os outros avançam um posto para a direita e o atirador em espera entra no posto 1. Ao mudar de posto, as armas vão abertas e descarregadas."
+  },
+  "cs-q043": {
+   "q": "Um atirador entra no seu posto e o árbitro repara que ele não traz proteções auditivas. Qual é a decisão do árbitro?",
+   "options": [
+    "Cartão amarelo e depois pode atirar",
+    "É considerado ausente e não pode atirar",
+    "Pode atirar se assinar uma declaração de responsabilidade",
+    "Perde um prato"
+   ],
+   "explain": "As proteções auditivas são obrigatórias; um atirador que chegue ao posto sem elas é considerado ausente e não pode atirar. O mesmo se aplica aos óculos de proteção."
+  },
+  "cs-q044": {
+   "q": "Qual é o comprimento mínimo dos canos de uma arma de Compak® Sporting?",
+   "options": [
+    "61 cm (24 pol.)",
+    "66 cm (26 pol.)",
+    "71 cm (28 pol.)",
+    "76 cm (30 pol.)"
+   ],
+   "explain": "É permitida qualquer arma de cano liso de calibre 12 ou inferior, desde que o cano tenha pelo menos 66 cm (26 polegadas)."
+  },
+  "cs-q045": {
+   "q": "Qual é a carga máxima de chumbo de um cartucho de Compak® Sporting?",
+   "options": [
+    "24 g",
+    "28 g (tolerância +2%)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "A carga de chumbo não pode exceder 28 gramas, com uma tolerância de +2%."
+  },
+  "cs-q046": {
+   "q": "Uma espingarda de bomba é permitida no Compak® Sporting se o cano tiver pelo menos 66 cm.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. As espingardas de bomba (pump) e as drillings são proibidas, seja qual for o comprimento do cano; bandoleiras, câmaras montadas na arma e dispositivos de pontaria também são proibidos."
+  },
+  "cs-q047": {
+   "q": "Um atirador pode trocar os seus chokes intermutáveis entre duas séries.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Verdadeiro. Trocar de arma, de chokes ou de canos é proibido durante uma série, mas permitido entre séries; uma avaria é a única exceção durante a série."
+  },
+  "cs-q048": {
+   "q": "Como tem de ser identificada uma arma com gatilho de libertação?",
+   "options": [
+    "Uma fita vermelha no cano",
+    "Um 'R' grande sobre fundo fluorescente no lado de fora da coronha",
+    "Apenas uma nota na folha de marcação",
+    "Não é preciso marca se o árbitro for avisado"
+   ],
+   "explain": "O dono tem de colar uma etiqueta com um 'R' grande sobre fundo fluorescente no lado exterior da coronha, como aviso."
+  },
+  "cs-q049": {
+   "q": "Um atirador acha que o seu prato foi partido, mas não diz nada. Só depois de o atirador seguinte ter pedido e atirado é que levanta o braço e diz 'PROTESTO'. Qual é a decisão do árbitro?",
+   "options": [
+    "O árbitro tem de reconsiderar e pode mudar para ONE",
+    "O protesto é tardio; o ZERO mantém-se",
+    "O prato é repetido como NO BIRD",
+    "O protesto vai ao júri para decisão"
+   ],
+   "explain": "Um protesto tem de ser feito de imediato, no posto, antes de o atirador seguinte pedir o prato. De qualquer modo, partido ou falhado é decidido só pelo árbitro e não admite recurso."
+  },
+  "cs-q050": {
+   "q": "Um árbitro com dúvidas pode pedir informações antes de decidir. Qual destas pessoas NÃO consta entre as que pode consultar?",
+   "options": [
+    "Outro árbitro presente",
+    "O pulleur",
+    "Os atiradores da esquadra",
+    "O treinador do atirador atrás do posto"
+   ],
+   "explain": "Pode consultar outro árbitro, o pulleur, os atiradores da esquadra ou quem faz a folha de marcação; não fica vinculado à opinião deles, e a sua decisão é final."
+  },
+  "cs-q051": {
+   "q": "O menu diz que o prato simples sai da máquina C, mas o prato sai da máquina E. O atirador parte-o. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE",
+    "NO BIRD — é lançado um novo prato",
+    "ZERO",
+    "ONE, e o pulleur é advertido"
+   ],
+   "explain": "Um prato lançado por outra máquina é irregular, por isso é NO BIRD, e num prato simples é lançado outro prato, seja qual for o resultado."
+  },
+  "cs-q052": {
+   "q": "Depois do tiro o prato continua a voar inteiro, mas vê-se sair dele uma pequena nuvem de pó. Nenhum pedaço se solta. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — é lançado um novo prato",
+    "O árbitro pergunta ao pulleur e depois decide ONE"
+   ],
+   "explain": "Um prato é ZERO quando não se solta dele nenhum pedaço visível; só pó (um prato 'a fumegar') não conta como partido."
+  },
+  "cs-q053": {
+   "q": "Um prato regular, atirado regularmente: solta-se dele um único pedaço pequeno mas bem visível, e o resto continua a voar. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — é lançado um novo prato",
+    "ZERO, porque o prato não se partiu em dois"
+   ],
+   "explain": "Um prato é ONE quando se solta dele pelo menos um pedaço visível, ou quando é pulverizado total ou parcialmente."
+  },
+  "cs-q054": {
+   "q": "Enquanto o atirador faz o swing, um prato do Compak vizinho atravessa-lhe o campo de visão. Ele falha o seu prato simples. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "NO BIRD — é lançado um novo prato",
+    "NO BIRD só se o atirador protestar",
+    "ZERO, e o Compak vizinho é parado"
+   ],
+   "explain": "Um prato ou pedaços vindos de outro Compak nunca justificam um NO BIRD; só um prato perdido de uma máquina do mesmo Compak o justifica. O falhanço mantém-se."
+  },
+  "cs-q055": {
+   "q": "Uma rajada de vento repentina empurra bruscamente para baixo um prato simples regular no momento em que o atirador dispara, e ele falha. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "NO BIRD — é lançado um novo prato",
+    "NO BIRD se o árbitro concordar que o vento foi excecional",
+    "O atirador pode pedir uma repetição uma vez por série"
+   ],
+   "explain": "O mau tempo nunca justifica um NO BIRD: todo o prato falhado é ZERO e todo o prato partido é ONE, sejam quais forem as condições."
+  },
+  "cs-q056": {
+   "q": "Num prato simples o primeiro cartucho não dispara. É o primeiro incidente deste tipo do atirador na série. Ele fica no lugar com a arma apontada para a zona de tiro até o árbitro a verificar. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "NO BIRD, um novo prato e uma primeira advertência (cartão amarelo)",
+    "NO BIRD sem advertência",
+    "ZERO e cartão vermelho"
+   ],
+   "explain": "No primeiro incidente numa série de 25 pratos, uma falha do primeiro cartucho num prato simples dá NO BIRD e um novo prato; esse primeiro incidente implica uma primeira advertência (cartão amarelo)."
+  },
+  "cs-q057": {
+   "q": "Mais tarde na mesma série, o mesmo atirador tem uma segunda falha do cartucho do mesmo tipo. Qual é a decisão do árbitro?",
+   "options": [
+    "NO BIRD outra vez, com segundo cartão amarelo",
+    "Todos os pratos não atirados contam ZERO (cartão vermelho)",
+    "O atirador é excluído da competição",
+    "Tem 2 minutos para reparar a arma e o prato é repetido"
+   ],
+   "explain": "A tabela de NO BIRD para avarias da arma ou do cartucho só abrange o primeiro incidente numa série; num segundo incidente do mesmo tipo, os pratos não atirados contam ZERO (cartão vermelho)."
+  },
+  "cs-q058": {
+   "q": "Double ao tiro: o atirador parte o primeiro prato e depois o segundo cartucho falha. Primeiro incidente deste tipo na série. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE-ZERO",
+    "Todo o double é NO BIRD e nada se mantém",
+    "O ONE do primeiro prato mantém-se; o double é repetido para marcar o segundo",
+    "ONE no primeiro, e o segundo prato é lançado sozinho"
+   ],
+   "explain": "Quando o segundo cartucho falha num double ao tiro (primeiro incidente), o resultado do primeiro prato mantém-se e o double é repetido para o segundo prato."
+  },
+  "cs-q059": {
+   "q": "Num prato simples o atirador falha com o primeiro tiro e o segundo cartucho não dispara. Primeiro incidente na série. É lançado um novo prato. Como deve ser marcado? Qual é a decisão do árbitro?",
+   "options": [
+    "Normalmente: qualquer dos tiros o pode partir",
+    "Só pode ser marcado com o segundo tiro; o primeiro tem de ser falhado de propósito",
+    "Já é ZERO; o novo prato é só para treino",
+    "Só conta o primeiro tiro"
+   ],
+   "explain": "Depois de uma falha do segundo cartucho num prato simples, é lançado outro prato, que só pode ser partido com o segundo tiro, por isso o atirador falha de propósito com o primeiro."
+  },
+  "cs-q060": {
+   "q": "Um coelho é falhado com o primeiro tiro e depois parte-se numa saliência do terreno antes de ser dado o segundo tiro. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "ONE",
+    "NO BIRD: o coelho é lançado de novo e só pode ser marcado com o segundo tiro",
+    "NO BIRD: o coelho é lançado de novo e marcado normalmente"
+   ],
+   "explain": "Um coelho falhado com o primeiro tiro que se parta antes do segundo é NO BIRD; é lançado de novo e só pode ser marcado com o segundo tiro, por isso o primeiro tem de ser falhado de propósito."
+  },
+  "cs-q061": {
+   "q": "Num double simultâneo, um dos dois pratos parte-se ao sair da máquina. O atirador parte o outro. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE no prato que partiu; o partido à saída é repetido sozinho",
+    "Todo o double é lançado de novo",
+    "ONE-ZERO",
+    "ONE-ONE"
+   ],
+   "explain": "Um prato partido à saída é um caso de NO BIRD, e qualquer prato irregular num double simultâneo significa que todo o double é lançado de novo."
+  },
+  "cs-q062": {
+   "q": "No momento em que o atirador pede o prato, um anúncio no altifalante ressoa atrás do posto; o árbitro vê claramente o atirador estremecer e baixar a arma. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "NO BIRD — é lançado um novo prato",
+    "ZERO, por recusa do prato",
+    "Advertência por atrasar o tiro"
+   ],
+   "explain": "É dado NO BIRD quando o árbitro vê que o atirador foi visivelmente perturbado."
+  },
+  "cs-q063": {
+   "q": "O pulleur solta um prato antes de o atirador o ter pedido. O atirador, surpreendido, dispara e falha. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "NO BIRD — é lançado um novo prato",
+    "ZERO, porque decidiu disparar",
+    "ZERO e cartão amarelo"
+   ],
+   "explain": "Um prato que o atirador não pediu é um caso de NO BIRD; é também o único prato que o atirador pode recusar."
+  },
+  "cs-q064": {
+   "q": "Um atirador pede um prato simples, acha-o demasiado baixo e não dispara. O árbitro considera o prato regular. Qual é a decisão do árbitro?",
+   "options": [
+    "NO BIRD — é lançado um novo prato",
+    "ZERO",
+    "Só advertência; o prato é repetido",
+    "O atirador pode protestar e recebe automaticamente um novo prato"
+   ],
+   "explain": "O atirador só pode recusar um prato que não pediu. Recusar um prato que o árbitro considera regular é penalizado: num prato simples, ZERO."
+  },
+  "cs-q065": {
+   "q": "Num double simultâneo, o atirador baixa a arma sem disparar ao primeiro prato, dizendo que estava fora da trajetória. O árbitro considera os dois pratos regulares. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO no primeiro, o segundo é lançado de novo",
+    "ZERO-ZERO",
+    "NO BIRD",
+    "ZERO no primeiro, NO BIRD no segundo"
+   ],
+   "explain": "Decidir se um prato saiu da trajetória cabe ao árbitro. Não disparar ao primeiro prato de um double simultâneo que o árbitro considera regular dá ZERO-ZERO."
+  },
+  "cs-q066": {
+   "q": "Antes, neste Compak, o atirador foi advertido por demorar mais de 10 segundos a pedir o prato. Agora, num prato simples, o árbitro anuncia claramente NO BIRD, mas o atirador dispara na mesma e parte o prato. Qual é a decisão do árbitro?",
+   "options": [
+    "ONE",
+    "NO BIRD: o prato é repetido",
+    "ZERO (cartão vermelho)",
+    "Segundo cartão amarelo; o prato é repetido"
+   ],
+   "explain": "Nunca se dispara a um NO BIRD declarado. Depois de uma primeira advertência, qualquer nova infração no mesmo Compak leva cartão vermelho e, num prato simples, o prato conta ZERO."
+  },
+  "cs-q067": {
+   "q": "Pela primeira vez na série, um atirador demora cerca de 15 segundos a pedir o prato depois de ter sido atirado o prato do posto anterior. Depois parte o prato simples. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO",
+    "ONE, com advertência anotada na folha de marcação",
+    "NO BIRD e cartão amarelo",
+    "ONE sem consequências"
+   ],
+   "explain": "O limite para pedir o prato é de 10 segundos. Da primeira vez que é ultrapassado, o atirador recebe uma advertência anotada na folha de marcação; só a reincidência na mesma série custa pratos."
+  },
+  "cs-q068": {
+   "q": "Já advertido nesta série por ultrapassar os 10 segundos, o atirador volta a atrasar-se a pedir o prato, desta vez num double ao tiro. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "Só uma segunda advertência",
+    "NO BIRD / NO BIRD"
+   ],
+   "explain": "A reincidência na mesma série é marcada segundo a tabela do artigo 21.5: prato simples ZERO, double ao tiro ZERO / NO BIRD, double simultâneo ZERO / ZERO."
+  },
+  "cs-q069": {
+   "q": "Entre postos, um treinador atrás do Compak está sempre a dizer a um atirador onde pôr a arma em espera para o prato seguinte. Qual é a decisão do árbitro?",
+   "options": [
+    "Nada: os conselhos entre pratos são permitidos",
+    "Cartão amarelo para o atirador; o treinador é afastado da zona de tiro",
+    "O atirador perde uma série de 25 pratos",
+    "Só o treinador é advertido"
+   ],
+   "explain": "Dar instruções durante a competição não é permitido: o atirador recebe cartão amarelo (as reincidências levam às sanções do capítulo 23) e o árbitro afasta o treinador da zona de tiro."
+  },
+  "cs-q070": {
+   "q": "A arma do atirador avaria; o árbitro verifica-a (primeiro incidente). Passam dois minutos, a arma não está reparada e não há outra arma disponível. Qual é a decisão do árbitro?",
+   "options": [
+    "Pode esperar pelo fim da esquadra e terminar nessa altura",
+    "Os pratos não atirados contam zero",
+    "A série é anulada e repetida mais tarde",
+    "Tem mais 2 minutos"
+   ],
+   "explain": "Depois de uma avaria, o atirador tem dois minutos para reparar ou substituir a arma; com o acordo do árbitro pode continuar com outra arma, caso contrário os pratos não atirados contam zero."
+  },
+  "cs-q071": {
+   "q": "Primeiro prato de um double simultâneo: o atirador, já advertido neste Compak, tem uma avaria que não é o seu primeiro incidente e não consegue disparar ao primeiro prato. Qual é a decisão do árbitro?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "NO BIRD, novo double",
+    "Mantém-se o primeiro resultado, segundo ZERO"
+   ],
+   "explain": "Numa avaria depois da primeira advertência, a tabela do artigo 21.5 dá ZERO / ZERO no primeiro prato de um double simultâneo (ZERO / NO BIRD num double ao tiro)."
+  },
+  "cs-q072": {
+   "q": "Depois de uma avaria, quanto tempo tem o atirador para reparar ou substituir a arma?",
+   "options": [
+    "1 minuto",
+    "2 minutos",
+    "3 minutos",
+    "5 minutos"
+   ],
+   "explain": "Tem dois minutos; com o acordo do árbitro pode continuar com outra arma, caso contrário os pratos não atirados contam zero."
+  },
+  "cs-q073": {
+   "q": "Depois de o árbitro dar a sua decisão final, em quantos segundos tem o atirador de retomar o tiro?",
+   "options": [
+    "5 segundos",
+    "10 segundos",
+    "30 segundos",
+    "60 segundos"
+   ],
+   "explain": "O atirador tem de retomar o tiro em 10 segundos; caso contrário, é uma recusa em obedecer, que pode ser sancionada nos termos do capítulo 23."
+  },
+  "cs-q074": {
+   "q": "O árbitro confirma um ZERO depois de um protesto e o tiro recomeça. O atirador continua a abanar a cabeça e a dizer alto à esquadra que o prato foi partido, e dois espectadores atrás do posto juntam-se a criticar a decisão. Qual é a decisão do árbitro?",
+   "options": [
+    "Nada: depois de o tiro recomeçar, as opiniões são livres",
+    "O árbitro muda a decisão para evitar uma discussão",
+    "É uma tentativa de influenciar; o árbitro comunica-a e o júri pode sancionar, até à exclusão",
+    "O prato é repetido como NO BIRD"
+   ],
+   "explain": "Continuar a contestar uma decisão final depois de o tiro recomeçar, discutir de forma ostensiva, ou atiradores ou espectadores criticarem abertamente uma decisão são tentativas de influenciar, que o júri pode sancionar até à exclusão."
+  },
+  "cs-q075": {
+   "q": "Durante quantos anos a FITASC mantém registada uma exclusão?",
+   "options": [
+    "1 ano",
+    "3 anos",
+    "5 anos",
+    "10 anos"
+   ],
+   "explain": "Cada exclusão fica registada na sede da FITASC durante cinco anos; uma segunda exclusão no espaço de três anos pode levar a uma suspensão definitiva."
+  },
+  "cs-q076": {
+   "q": "Em caso de reincidência, que sanção pode o júri aplicar?",
+   "options": [
+    "Uma multa em dinheiro paga ao organizador",
+    "Perda de uma série de 25 pratos",
+    "Repetir a série com outra esquadra",
+    "Passar o atirador para a última esquadra"
+   ],
+   "explain": "Por reincidência ou tentativas de influenciar, o júri pode aplicar a perda de um prato, a perda de uma série de 25 pratos ou a exclusão da competição."
+  },
+  "cs-q077": {
+   "q": "A arma do atirador não dispara. Antes de o árbitro a poder ver, ele abre a arma para verificar o cartucho. Qual é a decisão do árbitro?",
+   "options": [
+    "NO BIRD — é lançado um novo prato",
+    "ZERO no prato em causa",
+    "NO BIRD e cartão amarelo",
+    "O árbitro verifica a arma agora e decide NO BIRD se tiver defeito"
+   ],
+   "explain": "Depois de uma falha, o atirador tem de ficar no lugar sem abrir a arma nem mexer na patilha de segurança até o árbitro a verificar; se o fizer, o prato ou os pratos em causa contam ZERO."
+  },
+  "cs-q078": {
+   "q": "Pôr a arma à cara e fazer o swing (simulacro de tiro) atrás dos postos enquanto se espera é permitido se a arma estiver aberta.",
+   "options": [
+    "Verdadeiro",
+    "Falso"
+   ],
+   "explain": "Falso. O simulacro de tiro não é permitido fora dos postos de tiro, nem enquanto um membro da esquadra está a atirar."
+  },
+  "cs-q079": {
+   "q": "Como deve ser transportada uma espingarda semi-automática entre postos?",
+   "options": [
+    "Fechada, com a segurança engatada, boca do cano para a frente",
+    "Culatra aberta, boca do cano apontada para cima ou para baixo",
+    "Carregada com um cartucho, culatra aberta",
+    "De qualquer forma, desde que esteja descarregada"
+   ],
+   "explain": "As armas transportam-se abertas e descarregadas; as semi-automáticas com a culatra aberta e a boca do cano apontada diretamente para cima ou para baixo."
+  },
+  "cs-q080": {
+   "q": "Um atirador com gatilho de libertação no primeiro tiro está a mantê-lo premido quando o primeiro prato é declarado NO BIRD. Que ação é permitida?",
+   "options": [
+    "Soltar o gatilho, apontando para o chão, sem avisar ninguém",
+    "Manter o gatilho premido e pedir um novo prato",
+    "Entregar a arma fechada ao árbitro",
+    "Virar-se para mostrar a arma ao árbitro"
+   ],
+   "explain": "Pode manter o gatilho premido e pedir um novo prato, mantê-lo premido e abrir a arma, ou avisar o árbitro e disparar em segurança para onde o árbitro indicar."
+  }
+ }
+}

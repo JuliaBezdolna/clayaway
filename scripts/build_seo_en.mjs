@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, CSS, NF, esc } = globalThis.SEO;
+  const { BASE, TODAY, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, INTERP = {}, CSS, NF, esc } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -82,7 +82,8 @@ ${src ? `<h2>Sources and laws</h2><ul>${src}</ul><p class="ref">As of the lesson
       const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/#${r.id}">${esc(r.ref)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF ${r.page}</a></li>`).join("");
       const disc = ["sporting", "compak"].filter(k => t.disciplines_en && t.disciplines_en[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines_en[k])}</p></div>`).join("");
       const rel = (t.related || []).filter(r => GBY[r]).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}en/glossary/${r}/">${esc(GBY[r].term)}</a>`).join(" ");
-      const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 6).map(id => `<li><a href="${BASE}en/learn/${id}/">${esc(LESSON[id].title_en)}</a> · ${esc(LESSON[id].module.title_en)}</li>`).join("");
+      const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 6).map(id => `<li><a href="${BASE}en/learn/${id}/">${esc(LESSON[id].title_en)}</a> · ${esc(LESSON[id].module.title_en)}</li>`).join("")
+        + (t.interp || []).filter(id => INTERP[id]).slice(0, 4).map(id => `<li><a href="${BASE}interpreter/?lang=en#l/${id}">${esc(INTERP[id].title_en)}</a> · Interpreter Academy</li>`).join("");
       const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: t.aka || [], description: t.short_en, termCode: t.id, url: en, inDefinedTermSet: SET, inLanguage: "en" }];
       const html = head({ title, desc, url: en, uk, en, ld, img: "glossary" }) + bar(`${BASE}en/glossary/`, `<a href="${BASE}en/glossary/">Glossary</a>`, uk) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">

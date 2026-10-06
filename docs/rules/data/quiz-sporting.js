@@ -262,7 +262,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "У будь-якому дублі, якщо один постріл розбиває обидві мішені, зараховують обидві: one та one.",
    "refs": [
     "ch6-two-with-one-shot"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "sp-q010",
@@ -290,7 +294,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Якщо без поважної причини не стріляти по правильній мішені, це zero; для rafale чи simultaneous double — zero та zero.",
    "refs": [
     "ch6-target-zero"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "rafale"
+   }
   },
   {
    "id": "sp-q011",
@@ -318,7 +326,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "У double on report нерегулярна перша мішень означає, що весь дубль повторюють.",
    "refs": [
     "ch6-nobird-target-doubles"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "sp-q012",
@@ -350,7 +362,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Якщо перша мішень або її уламки розбили другу до другого пострілу, дубль повторюють, а результат першої мішені зберігають.",
    "refs": [
     "ch6-nobird-target-doubles"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "sp-q013",
@@ -378,7 +394,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "У simultaneous і rafale double нерегулярна мішень означає повтор дубля без фіксації результату.",
    "refs": [
     "ch6-nobird-target-doubles"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "sp-q014",
@@ -406,7 +426,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Це No Bird, «кролика» повторюють, але на повторі зараховується лише розбиття другим пострілом; розбиття першим — zero.",
    "refs": [
     "ch6-nobird-target-single-rabbit"
-   ]
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "rabbit"
+   }
   },
   {
    "id": "sp-q015",
@@ -577,7 +601,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "На першій мішені double on report, а також у simultaneous і rafale double одночасний постріл означає повтор усього дубля без запису результату.",
    "refs": [
     "ch6-double-discharge"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "rafale"
+   }
   },
   {
    "id": "sp-q021",
@@ -605,7 +633,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "З другої несправності в раунді повторів немає. У simultaneous чи rafale double повторна відмова першого пострілу дає zero та zero.",
    "refs": [
     "ch6-second-malfunction"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "sp-q022",
@@ -692,7 +724,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Повторне порушення на тому самому layout карається червоною карткою: zero на одиночній, zero та No Bird на double on report, zero та zero на simultaneous і rafale double.",
    "refs": [
     "ch12-red-card"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "sp-q025",
@@ -750,7 +786,11 @@ window.RULES_QUIZ.push({
    "refs": [
     "ch12-shooting-nobird",
     "ch12-red-card"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "simultaneous"
+   }
   },
   {
    "id": "sp-q027",
@@ -893,7 +933,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Розбивати мішені там, де їх бачить суддя, — обов'язок стрільця. Рішення про постріл за перешкодою чи за межею оскарженню не підлягає.",
    "refs": [
     "ch9-visible-break"
-   ]
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "crosser-lr"
+   }
   },
   {
    "id": "sp-q032",
@@ -1077,7 +1121,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Друга мішень у double on report вилітає через 0–3 секунди після пострілу по першій — її запускає саме постріл.",
    "refs": [
     "ch4-double-on-report"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "sp-q038",
@@ -1688,7 +1736,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Неправда. Усі мішені, зокрема «кролика», стріляють лише з рушницею, прикладеною до плеча.",
    "refs": [
     "ch3-mounting"
-   ]
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "rabbit"
+   }
   },
   {
    "id": "sp-q058",
@@ -1712,7 +1764,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Неправда. Double on report не показують; демонструють лише simultaneous і rafale double, на прохання — до двох повторів.",
    "refs": [
     "ch16-presentation-doubles"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "sp-q059",
@@ -1858,7 +1914,11 @@ window.RULES_QUIZ.push({
    "explain_uk": "Правда. Лише в sudden death double on report рахують як пару з двох мішеней, незалежно від того, яку з них пропущено.",
    "refs": [
     "ch18-sudden-death"
-   ]
+   ],
+   "sim": {
+    "type": "pair",
+    "kind": "report"
+   }
   },
   {
    "id": "sp-q065",

@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="robots" content="noindex, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Тренажер правил FITASC · ClayAway</title>
+<title>Тренажер правил FITASC · ClayArena</title>
 <!-- share-preview -->
 <meta name="description" content="Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="ClayAway · ClayArena">
-<meta property="og:title" content="Тренажер правил FITASC — ClayAway">
+<meta property="og:site_name" content="ClayArena">
+<meta property="og:title" content="Тренажер правил FITASC — ClayArena">
 <meta property="og:description" content="Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
 <meta property="og:url" content="https://fenix-112323.github.io/clayaway/rules/trainer/">
 <meta property="og:image" content="https://fenix-112323.github.io/clayaway/og/trainer.png">
@@ -19,7 +19,7 @@
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="uk_UA">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Тренажер правил FITASC — ClayAway">
+<meta name="twitter:title" content="Тренажер правил FITASC — ClayArena">
 <meta name="twitter:description" content="Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF.">
 <meta name="twitter:image" content="https://fenix-112323.github.io/clayaway/og/trainer.png">
 <meta name="theme-color" content="#030712">
@@ -109,6 +109,7 @@ p{margin:0 0 10px;max-width:70ch}
 .disclaimer{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
+<script src="../../shared/nav.js" defer></script>
 </head>
 <body>
 <header class="top"><div class="top-in">
@@ -116,31 +117,40 @@ p{margin:0 0 10px;max-width:70ch}
   <span class="svc" id="svc"></span>
   <span class="spacer"></span>
   <div class="seg disc" role="group" aria-label="Discipline"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
-  <div class="seg" role="group" aria-label="Language"><button data-lang="uk">UA</button><button data-lang="en">EN</button></div>
+  <select id="tlang" aria-label="Language" style="background:var(--surface2,#0B1120);color:var(--ink,#F3F4F6);border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:13.5px"></select>
 </div></header>
 <main id="app"></main>
 <script src="../data/sporting.js"></script>
 <script src="../data/compak.js"></script>
 <script src="../data/quiz-sporting.js"></script>
 <script src="../data/quiz-compak.js"></script>
+<script src="../../shared/sims-text.js"></script>
+<script src="../../shared/sims.js"></script>
 <script>
-/* ClayAway · FITASC rules trainer.
+/* ClayArena · FITASC rules trainer.
    Questions: docs/rules/data/quiz-<key>.js (format QUIZ_SCHEMA.md); every question cites rule item ids (refs)
    from docs/rules/data/<key>.js, so each explanation links to the item in the rules guide and to the FITASC PDF page.
    Modes: quick (10 random), exam (30 random, results only at the end, pass mark 80%), mistakes (questions answered
-   wrong before). Progress is stored per browser in localStorage "clayaway-trainer". */
+   wrong before). Progress is stored per browser in localStorage "clayaway-trainer".
+   Languages: all ClayArena site languages. uk/en live in the question files; the others come from
+   docs/rules/data/i18n/quiz-<lang>.json ({ui, questions: {id: {q, options[], explain}}}), fetched on demand, English fallback per field.
+   Animations: a question may carry "sim" ({type:"pair", kind} | {type:"flight", preset}) — drawn by the shared module
+   docs/shared/sims.js (the same one the Interpreter Academy and the glossary use). */
+const LANGS=["en","uk","de","fr","it","cs","pl","pt","hu","fi","lt"];
+const LANG_NAMES={en:"English",uk:"Українська",de:"Deutsch",fr:"Français",it:"Italiano",cs:"Čeština",pl:"Polski",pt:"Português",hu:"Magyar",fi:"Suomi",lt:"Lietuvių"};
+let OV={ui:{},questions:{}};
 const BOOKS=Object.fromEntries((window.RULES||[]).map(b=>[b.key,b]));
 const QUIZ=Object.fromEntries((window.RULES_QUIZ||[]).map(q=>[q.key,q.questions]));
 const PASS=0.8;
 const T={
- uk:{svc:"Тренажер правил",svcS:"ClayAway · FITASC",title:"Тренажер правил {d}",lead:"Перевірте, як ви знаєте правила: ситуації на стенді, цифри й ліміти, «правда чи ні». Після кожної відповіді — пояснення і посилання на пункт довідника та сторінку офіційного PDF.",
+ uk:{svc:"Тренажер правил",svcS:"ClayArena · FITASC",title:"Тренажер правил {d}",lead:"Перевірте, як ви знаєте правила: ситуації на стенді, цифри й ліміти, «правда чи ні». Після кожної відповіді — пояснення і посилання на пункт довідника та сторінку офіційного PDF.",
    quick:"Швидкий тест",quickS:"10 випадкових питань, пояснення одразу",exam:"Іспит",examS:"30 питань, результат у кінці, прохідний бал 80%",mist:"Мої помилки",mistS:"питання, на які ви відповіли неправильно",
    level:"Рівень",all:"усі",l1:"базовий",l2:"організатор",l3:"суддя",q:"Питання",of:"з",next:"Далі",finish:"Завершити",right:"Правильно!",wrong:"Неправильно.",
    decision:"Рішення судді",number:"Цифри",truefalse:"Правда чи ні",choice:"Вибір",open:"Пункт у довіднику",pdf:"PDF, стор.",
    res:"Результат",pass:"Іспит складено",fail:"Ще трохи — і складете",again:"Ще раз",home:"До вибору режиму",review:"Розбір відповідей",
    sAns:"Відповідей",sAcc:"Точність",sBest:"Найкращий іспит",sMist:"Помилок для повторення",none:"Питань для цієї дисципліни ще немає.",noMist:"Помилок немає — чудово!",
    back:"← Довідник правил",disc:"Тренажер побудований на нашому переказі регламенту FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",count:"питань у банку"},
- en:{svc:"Rules trainer",svcS:"ClayAway · FITASC",title:"{d} rules trainer",lead:"Test your knowledge of the rules: situations on the stand, numbers and limits, true or false. After every answer you get an explanation and a link to the rule in the guide and to the official PDF page.",
+ en:{svc:"Rules trainer",svcS:"ClayArena · FITASC",title:"{d} rules trainer",lead:"Test your knowledge of the rules: situations on the stand, numbers and limits, true or false. After every answer you get an explanation and a link to the rule in the guide and to the official PDF page.",
    quick:"Quick test",quickS:"10 random questions, explanation straight away",exam:"Exam",examS:"30 questions, result at the end, pass mark 80%",mist:"My mistakes",mistS:"questions you answered wrong",
    level:"Level",all:"all",l1:"basic",l2:"organizer",l3:"referee",q:"Question",of:"of",next:"Next",finish:"Finish",right:"Correct!",wrong:"Wrong.",
    decision:"Referee's decision",number:"Numbers",truefalse:"True or false",choice:"Choice",open:"Rule in the guide",pdf:"PDF, p.",
@@ -149,10 +159,22 @@ const T={
    back:"← Rules guide",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",count:"questions in the bank"}
 };
 const store={get(){try{return JSON.parse(localStorage.getItem("clayaway-trainer")||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem("clayaway-trainer",JSON.stringify(v))}catch(e){}}};
-let P=Object.assign({lang:"uk",disc:"sporting",stats:{}},store.get());
+let P=Object.assign({lang:(()=>{const q=new URLSearchParams(location.search).get("lang");if(LANGS.includes(q))return q;const n=(navigator.language||"en").slice(0,2);return LANGS.includes(n)?n:"en";})(),disc:"sporting",stats:{}},store.get());
+{const q=new URLSearchParams(location.search).get("lang");if(LANGS.includes(q))P.lang=q;}
 let S={view:"home",level:0,run:null};
+/* A test in progress survives leaving the page (saved per browser for 24 h) and the project bar offers the way back. */
+const RUNKEY="clayaway-trainer-run";
+try{ const sv=JSON.parse(localStorage.getItem(RUNKEY)||"null"); if(sv&&Date.now()-sv.ts<864e5&&sv.disc){ P.disc=sv.disc; const byId=Object.fromEntries((QUIZ[sv.disc]||[]).map(q=>[q.id,q])); const qs=sv.ids.map(id=>byId[id]).filter(Boolean); if(qs.length===sv.ids.length){ S={view:"run",level:sv.level||0,run:{mode:sv.mode,qs,i:sv.i,ans:sv.ans,picked:sv.picked}}; } } }catch(e){}
+function saveRun(){ try{ if(S.view==="run"&&S.run){ const r=S.run; localStorage.setItem(RUNKEY,JSON.stringify({ts:Date.now(),disc:P.disc,level:S.level,mode:r.mode,ids:r.qs.map(q=>q.id),i:r.i,ans:r.ans,picked:r.picked}));
+    window.ClayNav&&ClayNav.setResume({section:"trainer",label:`${t("svc")} ${P.disc==="sporting"?"Sporting™":"Compak® Sporting"} · ${t("q")} ${r.i+1} ${t("of")} ${r.qs.length}`,url:location.href.replace(/#.*$/,"")+"#"+P.disc}); }
+  else { localStorage.removeItem(RUNKEY); window.ClayNav&&ClayNav.clearResume("trainer"); } }catch(e){} }
 if(location.hash==="#compak")P.disc="compak"; if(location.hash==="#sporting")P.disc="sporting";
-const L=()=>P.lang,t=k=>T[L()][k],tx=(o,k)=>o[k+"_"+L()]||o[k+"_en"]||"";
+const L=()=>P.lang;
+const t=k=>(T[L()]&&T[L()][k])||(OV.ui&&OV.ui[k])||T.en[k];
+/* tx(obj, field): question text / explanation / rule title in the current language (overlay for languages beyond uk/en) */
+const tx=(o,k)=>{ if(o[k+"_"+L()]) return o[k+"_"+L()]; const v=o.id&&OV.questions[o.id]; if(v){ if(k==="q"&&v.q) return v.q; if(k==="explain"&&v.explain) return v.explain; } return o[k+"_en"]||""; };
+const optText=(q,o,i)=>o[L()]||((OV.questions[q.id]||{}).options||[])[i]||o.en;
+async function loadLang(l){ OV={ui:{},questions:{}}; if(l==="uk"||l==="en") return; try{ const r=await fetch(`../data/i18n/quiz-${l}.json`); if(r.ok) OV=await r.json(); }catch(e){} }
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const st=()=>{ const s=P.stats[P.disc]=P.stats[P.disc]||{ans:0,ok:0,best:0,wrong:[]}; return s; };
 const shuffle=a=>{ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
@@ -169,7 +191,7 @@ function refsHTML(q){
 }
 function qCard(q,picked,reveal,idx,total){
   return `<div class="qcard"><div class="qhead"><span class="type ${q.type}">${t(q.type)||q.type}</span><span>${idx!=null?`${t("q")} ${idx+1} ${t("of")} ${total}`:""} · ${esc(q.topic||"")} · ${t("l"+q.level)||""}</span></div>
-    <h2>${esc(tx(q,"q"))}</h2><div class="opts">${q.options.map((o,i)=>{ let c=""; if(reveal){ if(i===q.answer)c="right"; else if(i===picked)c="wrong"; } else if(i===picked)c="chosen"; return `<button ${reveal||picked!=null?"disabled":""} class="${c}" data-opt="${i}">${esc(o[L()]||o.en)}</button>`; }).join("")}</div>
+    ${q.sim?`<div class="qsim" data-clay-sim='${JSON.stringify(q.sim)}'></div>`:""}<h2>${esc(tx(q,"q"))}</h2><div class="opts">${q.options.map((o,i)=>{ let c=""; if(reveal){ if(i===q.answer)c="right"; else if(i===picked)c="wrong"; } else if(i===picked)c="chosen"; return `<button ${reveal||picked!=null?"disabled":""} class="${c}" data-opt="${i}">${esc(optText(q,o,i))}</button>`; }).join("")}</div>
     ${reveal?`<div class="explain ${picked===q.answer?"":"bad"}"><b>${picked===q.answer?t("right"):t("wrong")}</b> ${esc(tx(q,"explain"))}${refsHTML(q)}</div>`:""}</div>`;
 }
 function homeView(){
@@ -194,15 +216,18 @@ function resultView(){
     ${exam||r.ans.some((a,i)=>a!==r.qs[i].answer)?`<h2 style="margin-top:24px">${t("review")}</h2><div class="review">${r.qs.map((q,i)=>exam||r.ans[i]!==q.answer?qCard(q,r.ans[i],true,i,r.qs.length):"").join("")}</div>`:""}`;
 }
 function render(){
-  document.documentElement.lang=L()==="uk"?"uk":"en";
-  document.getElementById("svc").innerHTML=`${t("svc")}<small>${t("svcS")}</small>`;
-  document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===L()));
+  document.documentElement.lang=L();
+  document.getElementById("svc").innerHTML=`${t("svc")}<small>ClayArena · FITASC</small>`; document.title=`${t("svc")} FITASC · ClayArena`;
+  const sel=document.getElementById("tlang"); if(!sel.options.length) sel.innerHTML=LANGS.map(l=>`<option value="${l}">${LANG_NAMES[l]}</option>`).join(""); sel.value=L();
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===P.disc));
+  ClaySims.stopSims();
   document.getElementById("app").innerHTML = S.view==="run"?runView():S.view==="result"?resultView():homeView();
+  if(S.view==="run") ClaySims.auto();
+  saveRun();
 }
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b||b.disabled) return; const d=b.dataset;
-  if(d.lang){ P.lang=d.lang; store.set(P); render(); return; }
+
   if(d.disc){ P.disc=d.disc; S={view:"home",level:0,run:null}; store.set(P); try{history.replaceState(null,"","#"+P.disc)}catch(_){} render(); return; }
   if(d.level!==undefined){ S.level=+d.level; render(); return; }
   if(d.start){ start(d.start); return; }
@@ -213,7 +238,8 @@ document.addEventListener("click",e=>{
     store.set(P); render(); return; }
   if(d.next){ const r=S.run; r.i++; r.picked=null; if(r.i>=r.qs.length){ const ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length; if(r.mode==="exam"){ st().best=Math.max(st().best,Math.round(ok/r.qs.length*100)); store.set(P);} S.view="result"; } render(); scrollTo(0,0); return; }
 });
-render();
+document.getElementById("tlang").addEventListener("change",async e=>{ P.lang=e.target.value; store.set(P); await loadLang(P.lang); render(); });
+loadLang(P.lang).then(render);
 </script>
 </body>
 </html>

@@ -1,0 +1,1569 @@
+{
+ "ui": {
+  "svc": "Taisyklių treniruoklis",
+  "svcS": "ClayAway · FITASC",
+  "title": "{d} taisyklių treniruoklis",
+  "lead": "Pasitikrinkite, kaip išmanote taisykles: situacijos šaudymo vietoje, skaičiai ir ribos, „tiesa ar netiesa“. Po kiekvieno atsakymo – paaiškinimas ir nuoroda į taisyklės punktą vadove bei į oficialaus PDF puslapį.",
+  "quick": "Greitas testas",
+  "quickS": "10 atsitiktinių klausimų, paaiškinimas iš karto",
+  "exam": "Egzaminas",
+  "examS": "30 klausimų, rezultatas pabaigoje, išlaikymo riba 80 %",
+  "mist": "Mano klaidos",
+  "mistS": "klausimai, į kuriuos atsakėte neteisingai",
+  "level": "Lygis",
+  "all": "visi",
+  "l1": "pradinis",
+  "l2": "organizatorius",
+  "l3": "teisėjas",
+  "q": "Klausimas",
+  "of": "iš",
+  "next": "Toliau",
+  "finish": "Baigti",
+  "right": "Teisingai!",
+  "wrong": "Neteisingai.",
+  "decision": "Teisėjo sprendimas",
+  "number": "Skaičiai",
+  "truefalse": "Tiesa ar netiesa",
+  "choice": "Pasirinkimas",
+  "open": "Taisyklė vadove",
+  "pdf": "PDF, p.",
+  "res": "Rezultatas",
+  "pass": "Egzaminas išlaikytas",
+  "fail": "Beveik pavyko",
+  "again": "Bandyti dar kartą",
+  "home": "Grįžti prie režimų",
+  "review": "Atsakymų peržiūra",
+  "sAns": "Atsakymai",
+  "sAcc": "Tikslumas",
+  "sBest": "Geriausias egzaminas",
+  "sMist": "Klaidos kartojimui",
+  "none": "Šiai disciplinai klausimų dar nėra.",
+  "noMist": "Klaidų nėra – puiku!",
+  "back": "← Taisyklių vadovas",
+  "disc": "Treniruoklis paremtas mūsų FITASC taisyklių santrauka. Galioja tik oficialus FITASC tekstas. Parcours de Chasse – Sporting™ ir Compak® Sporting yra FITASC prekių ženklai.",
+  "count": "klausimų banke"
+ },
+ "questions": {
+  "sp-q001": {
+   "q": "Pavienis taikinys. Šaulys iššauna, o teisėjas mato tik nuo lėkštelės pakilusį dulkių debesėlį; nė vienas gabalėlis neatskyla. Koks teisėjo sprendimas?",
+   "options": [
+    "Pataikyta (One)",
+    "No Bird – taikinys kartojamas",
+    "Nulis (Zero)"
+   ],
+   "explain": "Vien dulkės ar dūmai neužskaitomi. Taikinys pataikytas tik tada, kai nuo jo atskyla bent vienas matomas gabalėlis arba jis visiškai ar iš dalies sudaužomas."
+  },
+  "sp-q002": {
+   "q": "Pavienis taikinys. Po šūvio nuo lėkštelės atskyla vienas mažas, bet aiškiai matomas gabalėlis, o likusi dalis skrenda toliau. Koks teisėjo sprendimas?",
+   "options": [
+    "Pataikyta (One)",
+    "No Bird – taikinys kartojamas",
+    "Nulis (Zero)"
+   ],
+   "explain": "Užtenka vieno matomo gabalėlio: taisyklingai išmestas ir iš taisyklingos padėties šautas taikinys yra pataikytas, kai nuo jo matomai atskyla bent vienas gabalėlis."
+  },
+  "sp-q003": {
+   "q": "Šaulys paprašo taikinio. Teisėjas perduoda signalą, bet taikinys pasirodo tik po maždaug penkių sekundžių. Šaulys iššauna ir nepataiko. Koks teisėjo sprendimas?",
+   "options": [
+    "Nulis (Zero)",
+    "Kartojama tik tada, jei šaulys protestavo prieš šaudamas",
+    "No Bird – taikinys kartojamas"
+   ],
+   "explain": "Taikinys turi būti išmestas per 3 sekundes po teisėjo signalo. Vėliau išmestas taikinys yra No Bird, kad ir koks būtų šūvio rezultatas."
+  },
+  "sp-q004": {
+   "q": "Šaulys paprašo taikinio, taisyklingas taikinys išmetamas teisinga trajektorija, bet šaulys nešauna ir sako, kad jam nepatiko, kaip taikinys išskrido. Koks teisėjo sprendimas?",
+   "options": [
+    "No Bird – taikinys kartojamas",
+    "Nulis (Zero)",
+    "Įspėjimas, tada taikinys kartojamas"
+   ],
+   "explain": "Paprašyto taikinio atsisakyti negalima. Ar trajektorija taisyklinga, sprendžia tik teisėjas; taisyklingas taikinys, į kurį šaulys nešovė, yra nulis."
+  },
+  "sp-q005": {
+   "q": "Šaulys dar tik stoja į parengties poziciją ir taikinio neprašė, o traperis jau išmeta taikinį. Šaulys nešauna. Koks teisėjo sprendimas?",
+   "options": [
+    "Nulis, nes šaulys visada turi būti pasirengęs",
+    "Nulis (Zero)",
+    "No Bird – taikinys kartojamas"
+   ],
+   "explain": "Nepaprašyto taikinio galima atsisakyti, ir jis yra No Bird. Atsisakyti taikinio leidžiama tik šiuo atveju."
+  },
+  "sp-q006": {
+   "q": "Pavienio taikinio metu lėkštelė iš mašinėlės išskrenda jau perskilusi į dvi dalis. Šaulys šauna į didesnę dalį ir ją pataiko. Koks teisėjo sprendimas?",
+   "options": [
+    "No Bird – taikinys kartojamas",
+    "Pataikyta (One)",
+    "Nulis (Zero)"
+   ],
+   "explain": "Mašinėlės išmestas sudužęs taikinys yra No Bird, ir pavienis taikinys kartojamas; pataikymas į gabalą neužskaitomas."
+  },
+  "sp-q007": {
+   "q": "Pavienis taikinys iš mašinėlės B. Tą akimirką, kai šaulys šauna, tiesiai už šaudymo vietos garsiai suskamba žiūrovo telefonas; šaulys aiškiai krūpteli ir nepataiko. Koks teisėjo sprendimas?",
+   "options": [
+    "Nulis (Zero)",
+    "Nulis – pašalinis triukšmas niekada nėra priežastis",
+    "No Bird – taikinys kartojamas"
+   ],
+   "explain": "Jei šauliui buvo aiškiai sutrukdyta, teisėjas skelbia No Bird ir taikinys kartojamas. Ar trukdymas buvo aiškus, sprendžia teisėjas."
+  },
+  "sp-q008": {
+   "q": "Teisėją trumpam apakino žema saulė, ir jis sąžiningai negali pasakyti, ar pavienis taikinys buvo pataikytas. Koks teisėjo sprendimas?",
+   "options": [
+    "Paklausti grupės ir spręsti balsų dauguma",
+    "Pataikyta (One)",
+    "No Bird – taikinys kartojamas",
+    "Nulis (Zero)"
+   ],
+   "explain": "Kai teisėjas negali nuspręsti, ar taikinys pataikytas, skelbiamas No Bird ir taikinys kartojamas. Grupės nariai gali patarti tik teisėjui paprašius ir niekada nebalsuoja."
+  },
+  "sp-q009": {
+   "q": "Vienalaikis dubletas. Šaulys iššauna vieną kartą, ir tas vienas šūvis sudaužo abi lėkšteles. Koks teisėjo sprendimas?",
+   "options": [
+    "Pataikyta ir nulis",
+    "Pataikyta ir pataikyta",
+    "No Bird – dubletas kartojamas"
+   ],
+   "explain": "Bet kurio tipo dublete, jei vienas šūvis sudaužo abu taikinius, užskaitomi abu: pataikyta ir pataikyta."
+  },
+  "sp-q010": {
+   "q": "Savaiminis (rafale) dubletas. Abi lėkštelės išskrenda taisyklingai, bet šaulys nuleidžia šautuvą ir be pagrįstos priežasties nešauna nė į vieną. Koks teisėjo sprendimas?",
+   "options": [
+    "No Bird – dubletas kartojamas",
+    "Nulis ir nulis",
+    "Pirmas taikinys – nulis, antras kartojamas"
+   ],
+   "explain": "Nešauti į taisyklingą taikinį be pagrįstos priežasties – nulis; savaiminiame (rafale) ar vienalaikiame dublete tai reiškia nulis ir nulis."
+  },
+  "sp-q011": {
+   "q": "Dubletas pagal šūvio garsą. Pirmas taikinys išskrenda akivaizdžiai neteisinga, netaisyklinga trajektorija. Šaulys vis tiek į jį šauna ir nepataiko. Koks teisėjo sprendimas?",
+   "options": [
+    "No Bird tik pirmam taikiniui",
+    "Pirmas taikinys – nulis, antras šūvis įprastai",
+    "No Bird – kartojamas visas dubletas"
+   ],
+   "explain": "Dublete pagal šūvio garsą netaisyklingas pirmas taikinys reiškia, kad dubletas kartojamas."
+  },
+  "sp-q012": {
+   "q": "Dubletas pagal šūvio garsą. Šaulys sudaužo pirmą lėkštelę, o vienas jos gabalas sudaužo antrą lėkštelę, kol šaulys dar nespėjo iššauti antrą kartą. Koks teisėjo sprendimas?",
+   "options": [
+    "Dubletas kartojamas, nieko neužskaitoma",
+    "Pataikyta ir nulis",
+    "Pataikyta ir pataikyta",
+    "Dubletas kartojamas, pirmo taikinio „pataikyta“ paliekama"
+   ],
+   "explain": "Jei pirmas taikinys ar jo gabalai sudaužo antrą dar prieš antrą šūvį, dubletas kartojamas, o pirmo taikinio rezultatas paliekamas."
+  },
+  "sp-q013": {
+   "q": "Vienalaikis dubletas. Viena iš dviejų lėkštelių išskrenda netaisyklinga trajektorija; šaulys sudaužo kitą. Koks teisėjo sprendimas?",
+   "options": [
+    "Dubletas kartojamas, rezultatas neužrašomas",
+    "Pataikyta ir nulis",
+    "Taisyklingam taikiniui – pataikyta, netaisyklingas kartojamas"
+   ],
+   "explain": "Vienalaikiame ir savaiminiame (rafale) dublete netaisyklingas taikinys reiškia, kad dubletas kartojamas ir rezultatas nefiksuojamas."
+  },
+  "sp-q014": {
+   "q": "Triušis kaip pavienis taikinys. Pirmas šūvis nepataiko, o paskui triušis atsitrenkia į akmenį ir sudūžta, kol šaulys dar neiššovė iš antro vamzdžio. Koks teisėjo sprendimas?",
+   "options": [
+    "Nulis (Zero)",
+    "No Bird; kartojant užskaitomas tik antru šūviu sudaužytas taikinys",
+    "Pataikyta (One)"
+   ],
+   "explain": "Tai No Bird ir triušis kartojamas, bet kartojant užskaitomas tik antru šūviu sudaužytas taikinys; sudaužius jį pirmu šūviu – nulis."
+  },
+  "sp-q015": {
+   "q": "Pirmas ginklo sutrikimas serijoje: pavieniam taikiniui pirmas šovinys neiššauna. Šaulys stovi nejudėdamas, šautuvas nukreiptas į šaudymo zoną, ir iš antro vamzdžio nešauna. Teisėjas patikrina ginklą. Koks teisėjo sprendimas?",
+   "options": [
+    "No Bird su įspėjimu; taikinys kartojamas",
+    "Nulis (Zero)",
+    "Nulis, bet be įspėjimo"
+   ],
+   "explain": "Už pirmą ginklo ar šovinio sutrikimą serijoje skiriamas įspėjimas ir No Bird, o pavienis taikinys kartojamas. Kiti sutrikimai toje serijoje vertinami nuliu."
+  },
+  "sp-q016": {
+   "q": "Vėliau toje pačioje serijoje tam pačiam šauliui pavieniam taikiniui antrą kartą neiššauna pirmas šovinys. Jis taisyklingai laukia, kol teisėjas patikrins ginklą. Koks teisėjo sprendimas?",
+   "options": [
+    "No Bird – taikinys kartojamas",
+    "Nulis (Zero)",
+    "No Bird, bet šįkart su geltonąja kortele"
+   ],
+   "explain": "Nuo antro ginklo ar šovinio sutrikimo toje pačioje serijoje taikinys nebekartojamas: jis vertinamas nuliu."
+  },
+  "sp-q017": {
+   "q": "Šovinys neiššauna. Susierzinęs šaulys iškart atlaužia šautuvą ir apžiūri kapsulę, dar teisėjui nepriėjus. Koks teisėjo sprendimas?",
+   "options": [
+    "Nulis (Zero)",
+    "No Bird – taikinys kartojamas",
+    "No Bird, jei tai pirmas sutrikimas serijoje"
+   ],
+   "explain": "Po sutrikimo šaulys turi likti vietoje, šautuvą laikyti nukreiptą į šaudymo zoną, jo neatidaryti ir neliesti saugiklio, kol teisėjas patikrins. Kitaip taikinys – nulis."
+  },
+  "sp-q018": {
+   "q": "Pavienis taikinys, pirmas sutrikimas serijoje. Pirmas vamzdis neiššauna, bet šauliui pavyksta iššauti iš antro vamzdžio, ir jis nepataiko. Koks teisėjo sprendimas?",
+   "options": [
+    "No Bird – taikinys kartojamas",
+    "No Bird, nes pirmas šūvis neįvyko",
+    "Nulis (Zero)"
+   ],
+   "explain": "Pirmo šūvio sutrikimas paprastai yra No Bird, bet jei šaulys vis tiek iššauna antrą kartą, šis šūvis užskaitomas ir taikinys vertinamas pagal rezultatą: šiuo atveju nulis."
+  },
+  "sp-q019": {
+   "q": "Pavienis taikinys. Pirmas šūvis nepataiko, o antras šovinys neiššauna (pirmas sutrikimas serijoje), todėl taikinys kartojamas. Kartojant šaulys sudaužo lėkštelę pirmu šūviu. Koks teisėjo sprendimas?",
+   "options": [
+    "Nulis (Zero)",
+    "Pataikyta (One)",
+    "No Bird, kartoti dar kartą"
+   ],
+   "explain": "Kai pavieniam taikiniui sutrinka antras šūvis, kartojamą taikinį galima sudaužyti tik antru šūviu. Sudaužius pirmu šūviu – nulis, todėl pirmą kartą šaulys turi sąmoningai prašauti."
+  },
+  "sp-q020": {
+   "q": "Savaiminis (rafale) dubletas, pirmas sutrikimas serijoje: į pirmą lėkštelę abu vamzdžiai iššauna kartu. Koks teisėjo sprendimas?",
+   "options": [
+    "Pirmas taikinys užskaitomas, antras kartojamas",
+    "Nulis ir nulis",
+    "Kartojamas visas dubletas, nieko neužrašoma"
+   ],
+   "explain": "Dublete pagal šūvio garsą (į pirmą taikinį), vienalaikiame ir savaiminiame (rafale) dublete dvigubas paleidimas reiškia, kad kartojamas visas dubletas ir rezultatas neužrašomas."
+  },
+  "sp-q021": {
+   "q": "Vienalaikis dubletas. Šioje serijoje šauliui jau buvo vienas sutrikimas. Dabar vėl neiššauna pirmas šovinys, ir jis nešauna. Koks teisėjo sprendimas?",
+   "options": [
+    "Nulis ir nulis",
+    "Vienam taikiniui nulis, kitas kartojamas",
+    "Dubletas kartojamas"
+   ],
+   "explain": "Nuo antro sutrikimo serijoje nieko nekartojama. Vienalaikiame ar savaiminiame (rafale) dublete antras pirmo šūvio sutrikimas reiškia nulis ir nulis."
+  },
+  "sp-q022": {
+   "q": "Pirmoje aikštelės šaudymo vietoje šaulys prašo taikinio, jau prisidėjęs šautuvą prie peties, dar prieš pasirodant taikiniui. Šioje aikštelėje tai jo pirmas pažeidimas. Koks teisėjo sprendimas?",
+   "options": [
+    "Nieko; sportinge šautuvo padėtis laisva",
+    "Žodinis įspėjimas su geltonąja kortele",
+    "Raudonoji kortelė ir nulis"
+   ],
+   "explain": "Už prisidėjimą prie peties prieš pasirodant taikiniui arba 3.1 punkto parengties pozicijos nesilaikymą pirmą kartą skiriamas žodinis įspėjimas su geltonąja kortele."
+  },
+  "sp-q023": {
+   "q": "Toje pačioje aikštelėje, po dviejų šaudymo vietų, tas pats šaulys vėl prašo pavienio taikinio, laikydamas buožę aukščiau linijos ant liemenės. Koks teisėjo sprendimas?",
+   "options": [
+    "Raudonoji kortelė; taikinys kartojamas",
+    "Raudonoji kortelė; taikinys vertinamas nuliu",
+    "Dar viena geltonoji kortelė"
+   ],
+   "explain": "Po pirmo įspėjimo už kiekvieną kitą pažeidimą toje pačioje aikštelėje skiriama raudonoji kortelė, o pavienis taikinys vertinamas nuliu."
+  },
+  "sp-q024": {
+   "q": "Šaulys, šioje aikštelėje jau gavęs geltonąją kortelę už šautuvo padėtį, pradeda dubletą pagal šūvio garsą, prisidėjęs šautuvą prieš pasirodant pirmam taikiniui. Koks teisėjo sprendimas?",
+   "options": [
+    "Raudonoji kortelė: pirmas taikinys – nulis, antras vertinamas pagal šūvį",
+    "Raudonoji kortelė: nulis ir No Bird",
+    "Nulis ir nulis"
+   ],
+   "explain": "Pakartotinis pažeidimas toje pačioje aikštelėje baudžiamas raudonąja kortele: pavieniam taikiniui – nulis, dubletui pagal šūvio garsą – nulis ir No Bird, vienalaikiam ir savaiminiam (rafale) dubletui – nulis ir nulis."
+  },
+  "sp-q025": {
+   "q": "Teisėjas pavieniam taikiniui paskelbia „No Bird“, bet šaulys vis tiek šauna į taikinį. Taip jis pasielgė pirmą kartą. Koks teisėjo sprendimas?",
+   "options": [
+    "Įspėjimas; taikinys kartojamas",
+    "Pataikyta, jei pataikė",
+    "Iškart nulis"
+   ],
+   "explain": "Į paskelbtą No Bird šauti niekada negalima. Pirmą kartą šaulys gauna įspėjimą; tik po įspėjimo taikomos 12.2 punkto nulio nuobaudos."
+  },
+  "sp-q026": {
+   "q": "Jau vieną kartą įspėtas už šūvį į No Bird, šaulys vėl šauna, teisėjui paskelbus „No Bird“ vienalaikiam dubletui. Koks teisėjo sprendimas?",
+   "options": [
+    "Antras įspėjimas; dubletas kartojamas",
+    "Nulis ir No Bird",
+    "Nulis ir nulis"
+   ],
+   "explain": "Po įspėjimo šūvis į paskelbtą No Bird baudžiamas pagal 12.2 punktą: vienalaikiam ir savaiminiam (rafale) dubletui tai nulis ir nulis."
+  },
+  "sp-q027": {
+   "q": "Tarp dviejų pavienių taikinių šaulys taisosi liemenę, valosi akinius ir taikinio paprašo tik po maždaug 25 sekundžių. Šiandien tai pirmas kartas. Koks teisėjo sprendimas?",
+   "options": [
+    "Nieko; laiko ribos nėra",
+    "Kitam taikiniui – nulis",
+    "Įspėjimas"
+   ],
+   "explain": "Riba – 15 sekundžių tarp pavienių taikinių arba tarp dubletų. Pirmą kartą ją viršijus skiriamas įspėjimas; vėliau taikomos 12.2 punkto nuobaudos."
+  },
+  "sp-q028": {
+   "q": "Iškviestas šaulys užlipa į šaudymo vietą be saugos akinių ir sako, kad paliko juos automobilyje. Koks teisėjo sprendimas?",
+   "options": [
+    "Pašalinimas iš karto",
+    "Jis gali šaudyti šioje vietoje, o paskui atsinešti akinius",
+    "Jis laikomas nedalyvaujančiu, taikoma pavėlavimo ir neatvykimo taisyklė (16.7)"
+   ],
+   "explain": "Saugos akiniai privalomi be išimčių. Šaulys be jų šaudymo vietoje laikomas nedalyvaujančiu, ir taikomas 16.7 straipsnis."
+  },
+  "sp-q029": {
+   "q": "Teisėjas taikinį įvertina nuliu. Kitas grupės narys neprašytas garsiai sako: „Aiškiai pataikyta, mačiau gabalėlį!“ Koks teisėjo sprendimas?",
+   "options": [
+    "Teisėjas privalo pakeisti sprendimą į „pataikyta“",
+    "Sprendimas lieka; grupės nariai negali kištis, o atvira kritika laikoma bandymu paveikti teisėją",
+    "Taikinys tampa No Bird"
+   ],
+   "explain": "Teisėjas sprendžia vienas; grupės nariai neturi teisės komentuoti. Kai kiti be leidimo atvirai kritikuoja sprendimą, tai bandymas paveikti teisėją (13 skyriaus nuobaudos)."
+  },
+  "sp-q030": {
+   "q": "Šaulys mano, kad paskutinis jo taikinys buvo pataikytas, bet nieko nesako, paprašo kito taikinio ir tik tada protestuoja dėl ankstesnio. Koks teisėjo sprendimas?",
+   "options": [
+    "Protestas perduodamas žiuri",
+    "Protestas išklausomas ir teisėjas sprendimą persvarsto",
+    "Per vėlu: paprašęs kito taikinio jis sutiko su sprendimu"
+   ],
+   "explain": "Paprašęs kito taikinio šaulys sutinka su teisėjo sprendimu dėl ankstesnio; bet koks prieštaravimas turi būti pareikštas iki tol."
+  },
+  "sp-q031": {
+   "q": "Kertantis taikinys sudaužomas tiesiai už medžio. Teisėjas nusprendžia, kad į jį šauta už natūralios kliūties, ir skiria nulį. Šaulys nori teikti apeliaciją. Koks teisėjo sprendimas?",
+   "options": [
+    "Taikinys kartojamas kaip No Bird",
+    "Šio sprendimo apskųsti negalima",
+    "Rašytinė apeliacija žiuri su 40 % užstatu"
+   ],
+   "explain": "Šaulys pats atsako už tai, kad taikinius daužytų ten, kur teisėjas juos mato. Sprendimo, kad į taikinį šauta už kliūties ar už ribos, apskųsti negalima."
+  },
+  "sp-q032": {
+   "q": "Šaulys atvyksta prie aikštelės, kai jo grupė dar šaudo pavienius taikinius 1-oje šaudymo vietoje, o jo eilė dar neatėjo. Koks teisėjo sprendimas?",
+   "options": [
+    "Jo pavieniai taikiniai 1-oje vietoje vertinami nuliu",
+    "Šią aikštelę jis turi šaudyti su kita grupe",
+    "Jis prisijungia be nuobaudos"
+   ],
+   "explain": "Pavėlavęs šaulys, atvykęs dar nepraleidęs savo eilės šaudyti pavienius taikinius pirmoje šaudymo vietoje, prisijungia prie grupės be nuobaudos."
+  },
+  "sp-q033": {
+   "q": "Teisėjas per minutę tris kartus pašaukė šaulio pavardę ir numerį. Jis atvyksta, kai grupė jau eina į 2-ą šaudymo vietą. Koks teisėjo sprendimas?",
+   "options": [
+    "Jis gali iš naujo šaudyti visą aikštelę su kita grupe",
+    "1-oje vietoje jis šaudo po kitų, tada tęsia",
+    "Jis tęsia nuo 2-os vietos; visi 1-os vietos taikiniai – nuliai"
+   ],
+   "explain": "Prisijungus vėlesnėje šaudymo vietoje, visi ankstesnėse vietose nešauti taikiniai yra nuliai, o aikštelės su praleistomis vietomis niekada negalima šaudyti su kita grupe."
+  },
+  "sp-q034": {
+   "q": "Kiek taikinių yra vienoje sportingo aikštelėje ir kaip jie paskirstyti?",
+   "options": [
+    "25: 15 pavienių ir 5 dubletai",
+    "25: 10 pavienių ir 5 dubletai, plius 5 triušiai",
+    "20: 10 pavienių ir 5 dubletai",
+    "30: 20 pavienių ir 5 dubletai"
+   ],
+   "explain": "Bet kurio tipo aikštelėje – 25 taikiniai: 15 pavienių ir 5 dubletai (15 + 10 = 25)."
+  },
+  "sp-q035": {
+   "q": "Kiek žemiau pečių linijos ant šaulio liemenės brėžiama kontrolinė linija?",
+   "options": [
+    "15 cm",
+    "20 cm",
+    "25 cm",
+    "30 cm"
+   ],
+   "explain": "Linija brėžiama 25 cm (9,85 colio) žemiau pečių linijos, lygiagrečiai jai, kontrastinga spalva."
+  },
+  "sp-q036": {
+   "q": "Per kiek sekundžių po teisėjo signalo turi būti išmestas taikinys?",
+   "options": [
+    "1 sekundę",
+    "3 sekundes",
+    "5 sekundes",
+    "10 sekundžių"
+   ],
+   "explain": "Taikinys turi būti išmestas per tris sekundes po teisėjo garso signalo; vėliau išmestas taikinys yra No Bird."
+  },
+  "sp-q037": {
+   "q": "Kada dublete pagal šūvio garsą išmetamas antras taikinys?",
+   "options": [
+    "Lygiai tuo pačiu metu kaip pirmas",
+    "Per 0–3 sekundes po šūvio į pirmą taikinį",
+    "Per 3–5 sekundes po pirmo taikinio išmetimo",
+    "Kai šaulys paprašo antrą kartą"
+   ],
+   "explain": "Antras dubleto pagal šūvio garsą taikinys išmetamas per 0–3 sekundes po to, kai šaulys šauna į pirmą; išmetimą sukelia šūvis."
+  },
+  "sp-q038": {
+   "q": "Koks didžiausias leidžiamas laiko tarpas tarp pavienių taikinių arba tarp dubletų?",
+   "options": [
+    "10 sekundžių",
+    "15 sekundžių",
+    "30 sekundžių",
+    "1 minutė"
+   ],
+   "explain": "Šaulys turi ne daugiau kaip 15 sekundžių; pirmą kartą viršijus ribą skiriamas įspėjimas, vėliau taikomos 12.2 punkto nuobaudos."
+  },
+  "sp-q039": {
+   "q": "Per kiek sekundžių po galutinio teisėjo sprendimo dėl protesto šaulys turi vėl pradėti šaudyti?",
+   "options": [
+    "5 sekundes",
+    "15 sekundžių",
+    "30 sekundžių",
+    "60 sekundžių"
+   ],
+   "explain": "Šaulys turi tęsti per 15 sekundžių; kitaip tai laikoma atsisakymu paklusti ir taikomos 13 skyriaus nuobaudos."
+  },
+  "sp-q040": {
+   "q": "Koks didžiausias sportingo šovinio šratų užtaisas?",
+   "options": [
+    "24 g",
+    "28 g (leidžiamas nuokrypis +2 %)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Užtaisas negali viršyti 28 g švino, didžiausias leidžiamas nuokrypis +2 %."
+  },
+  "sp-q041": {
+   "q": "Koks šratų skersmuo leidžiamas?",
+   "options": [
+    "Nuo 1,5 iki 2,0 mm",
+    "Nuo 2,0 iki 2,5 mm (±0,1 mm)",
+    "Nuo 2,5 iki 3,0 mm",
+    "Bet koks iki 3,5 mm"
+   ],
+   "explain": "Šratai turi būti sferiniai, 2,0–2,5 mm skersmens, leidžiamas nuokrypis ±0,1 mm."
+  },
+  "sp-q042": {
+   "q": "Koks mažiausias vamzdžio ilgis ir didžiausias leidžiamas kalibras?",
+   "options": [
+    "60 cm, 10 kalibras",
+    "66 cm, 12 kalibras",
+    "71 cm, 12 kalibras",
+    "76 cm, 20 kalibras"
+   ],
+   "explain": "Vamzdžiai turi būti ne trumpesni kaip 66 cm, o kalibras negali būti didesnis kaip 12."
+  },
+  "sp-q043": {
+   "q": "Kiek šovinių šaudymo vietoje gali būti pusiau automatiniame šautuve?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "Tiek, kiek telpa dėtuvėje"
+   ],
+   "explain": "Pusiau automatiniame šautuve gali būti ne daugiau kaip du šoviniai, užtaisomi tik šaudymo vietoje, teisėjui leidus."
+  },
+  "sp-q044": {
+   "q": "Koks užstatas turi būti pridėtas prie rašytinės apeliacijos žiuri?",
+   "options": [
+    "20 % dalyvio mokesčio",
+    "40 % dalyvio mokesčio",
+    "50 % dalyvio mokesčio",
+    "Visas dalyvio mokestis"
+   ],
+   "explain": "Apeliacija žiuri teikiama raštu su užstatu, lygiu 40 % dalyvio mokesčio."
+  },
+  "sp-q045": {
+   "q": "Kiek daugiausia šaulių gali būti grupėje?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Grupėje – ne daugiau kaip šeši šauliai; grupės sudaromos burtų keliu."
+  },
+  "sp-q046": {
+   "q": "Iš kiek taikinių susideda tarptautinės sportingo varžybos?",
+   "options": [
+    "100",
+    "150",
+    "200",
+    "250"
+   ],
+   "explain": "Tarptautinės varžybos – 200 taikinių, šaudomų 25 taikinių serijomis; išimtiniais atvejais tai pakeisti gali tik žiuri."
+  },
+  "sp-q047": {
+   "q": "Po kiek ilgos pertraukos teisėjas turi vėl parodyti šauliams šaudymo vietos taikinius?",
+   "options": [
+    "Ilgesnės nei 5 minutės",
+    "Ilgesnės nei 10 minučių",
+    "Ilgesnės nei 15 minučių",
+    "Ilgesnės nei 30 minučių"
+   ],
+   "explain": "Jei mašinėlė sugenda arba šaudymas sustabdomas ilgiau nei 10 minučių, tos šaudymo vietos taikiniai parodomi iš naujo."
+  },
+  "sp-q048": {
+   "q": "Kaip teisėjas šaukia šaulį, kurio nėra šaudymo vietoje?",
+   "options": [
+    "Vieną kartą pavarde, tada šaulys laikomas nedalyvaujančiu",
+    "Pavarde ir numeriu 3 kartus per 1 minutę",
+    "Pavarde ir numeriu 3 kartus per 3 minutes",
+    "Per garsiakalbį, laukiant 5 minutes"
+   ],
+   "explain": "Teisėjas tris kartus per vieną minutę pašaukia šaulio pavardę ir numerį."
+  },
+  "sp-q049": {
+   "q": "Kiek kartų taikinių pristatymo metu šaudymo vietoje esantis šaulys gali paprašyti dar kartą parodyti taikinį?",
+   "options": [
+    "Vieną kartą kiekvienoje šaudymo vietoje",
+    "Iki 2 taikinių kiekvienam aprašo taikiniui",
+    "Iki 3 taikinių kiekvienai mašinėlei",
+    "Tiek, kiek reikia"
+   ],
+   "explain": "Paprašius teisėjas pakartoja pristatymą, bet ne daugiau kaip du taikinius kiekvienam taikinių aprašo sekos taikiniui."
+  },
+  "sp-q050": {
+   "q": "Per kiek laiko po iškvietimo šauliai turi būti pasirengę neplanuotoms atkrintamosioms varžyboms?",
+   "options": [
+    "Per 5 minutes",
+    "Per 15 minučių",
+    "Per 30 minučių",
+    "Per 1 valandą"
+   ],
+   "explain": "Šauliai turi palaikyti ryšį su žiuri, kad galėtų šaudyti per 15 minučių po iškvietimo; neatvykęs šaulys diskvalifikuojamas."
+  },
+  "sp-q051": {
+   "q": "Federacija nori surengti tarptautinį čempionatą dar nepatvirtintoje šaudykloje. Prieš kiek laiko ji turi pristatyti šaudyklą FITASC?",
+   "options": [
+    "Ne vėliau kaip prieš 3 mėnesius",
+    "Ne vėliau kaip prieš 6 mėnesius",
+    "Ne vėliau kaip prieš 8 mėnesius",
+    "Ne vėliau kaip prieš 12 mėnesių"
+   ],
+   "explain": "Šaudykla ir organizavimo planas turi būti pristatyti FITASC atstovui ne vėliau kaip aštuoni mėnesiai iki renginio."
+  },
+  "sp-q052": {
+   "q": "Kokią dalį taikinių turi sudaužyti vidutinis šaulys, kad trajektorija būtų B klasės?",
+   "options": [
+    "Daugiau nei 80 %",
+    "Nuo 60 % iki 80 %",
+    "Nuo 40 % iki 60 %",
+    "Mažiau nei 40 %"
+   ],
+   "explain": "A klasė – daugiau nei 80 %, B klasė – 60–80 %, C klasė – 40–60 %. Rekomenduojamas šaudymo vietos derinys: vienas A, du B ir vienas C."
+  },
+  "sp-q053": {
+   "q": "Kiek laiko FITASC saugo įrašą apie pašalinimą ir per kokį laikotarpį antras pašalinimas gali lemti draudimą visam laikui?",
+   "options": [
+    "Saugoma 3 metus; antras – per 1 metus",
+    "Saugoma 5 metus; antras – per 3 metus",
+    "Saugoma 10 metų; antras – per 5 metus",
+    "Saugoma visą gyvenimą; bet koks antras pašalinimas"
+   ],
+   "explain": "Įrašas saugomas penkerius metus; antras pašalinimas per trejus metus gali lemti draudimą visam laikui, kurį skirti gali tik FITASC valdymo komitetas."
+  },
+  "sp-q054": {
+   "q": "Kadangi sportingas imituoja medžioklę, į sportingo varžybas gali būti įtrauktas šaudymas į gyvus gyvūnus.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Sportinge šaudoma į dirbtinius taikinius (lėkšteles), o šaudyti į gyvus gyvūnus šioje disciplinoje draudžiama."
+  },
+  "sp-q055": {
+   "q": "Sportinge leidžiama naudoti pompinį šautuvą, jei jo kalibras ne didesnis kaip 12.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Galima naudoti bet kurį medžioklinį lygiavamzdį šautuvą, taip pat pusiau automatinį, bet pompiniai šautuvai draudžiami."
+  },
+  "sp-q056": {
+   "q": "Tarp pirmo ir antro dubleto taikinio šaulys gali laikyti šautuvą bet kokia padėtimi.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Tiesa – dubletams pagal šūvio garsą, vienalaikiams ir savaiminiams (rafale). Laisva padėtis galioja tik tarp dviejų taikinių; prieš pirmą taikinį vis tiek privaloma parengties pozicija."
+  },
+  "sp-q057": {
+   "q": "Į triušį galima šauti nuo klubo, nes jis rieda žeme.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Į kiekvieną taikinį, taip pat ir triušį, reikia šauti šautuvą prisidėjus prie peties."
+  },
+  "sp-q058": {
+   "q": "Taikinių pristatymo metu dubletai pagal šūvio garsą parodomi pirmam grupės šauliui.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Dubletai pagal šūvio garsą neparodomi; pristatomi tik vienalaikiai ir savaiminiai (rafale) dubletai, paprašius – iki dviejų pakartojimų."
+  },
+  "sp-q059": {
+   "q": "Šaulys gali iššauti vieną bandomąjį šūvį pirmoje šaudymo vietoje, kad patikrintų, ar ką tik suremontuotas šautuvas veikia.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Šautuvų niekada negalima bandyti šaudymo vietoje; tam skirta speciali bandymų vieta prie klubo pastato, ja reikia pasinaudoti prieš einant į aikštelę."
+  },
+  "sp-q060": {
+   "q": "Serijos metu šaulys gali pakeisti čoką tarp pavienių taikinių ir dubletų, jei dėl to nesusidaro delsimas.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Tiesa. Šautuvą, keičiamą čoką ar vamzdį galima pakeisti tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų be delsimo, bet niekada – šauliui jau esant šaudymo vietoje."
+  },
+  "sp-q061": {
+   "q": "Oficialiose varžybose du tos pačios grupės šauliai gali naudotis vienu šautuvu, jei abu sutinka.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Oficialiose varžybose du tos pačios grupės šauliai negali naudoti to paties šautuvo ar juo dalytis. Pasiskolinti galima tik išimties tvarka po gedimo, kad būtų baigta serija."
+  },
+  "sp-q062": {
+   "q": "Klausos apsauga privaloma ne tik šauliams, bet ir teisėjams, personalui bei žiūrovams aikštelėje ar šalia jos.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Tiesa. Visi, esantys aikštelėje ar šalia jos, privalo dėvėti klausos apsaugą; šaulys be jos laikomas nedalyvaujančiu (16.7)."
+  },
+  "sp-q063": {
+   "q": "Iš varžybų pašalintam šauliui grąžinamas dalyvio mokestis už nešautus taikinius.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Pašalintam šauliui nieko negrąžinama ir jokia finansinė kompensacija nemokama."
+  },
+  "sp-q064": {
+   "q": "Atkrintamosiose varžybose iki pirmos klaidos dublete pagal šūvio garsą „pataikyta–nulis“ ir „nulis–pataikyta“ vertinami vienodai.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Tiesa. Tik šaudant iki pirmos klaidos dubletas pagal šūvio garsą vertinamas kaip dviejų taikinių pora, nesvarbu, kuris buvo prašautas."
+  },
+  "sp-q065": {
+   "q": "Kai dvi komandos surenka po lygiai, jos šaudo komandines atkrintamąsias varžybas naujoje aikštelėje.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Komandinių atkrintamųjų varžybų nėra: komandos rikiuojamos pagal bendrą rezultatą 8-oje aikštelėje, toliau – skaičiuojant atbuline tvarka nuo 7-os iki 1-os."
+  },
+  "sp-q066": {
+   "q": "Kurį iš šių teisėjo sprendimų GALIMA apskųsti žiuri?",
+   "options": [
+    "Ar taikinys buvo pataikytas, ar nulis",
+    "Ar taikinys buvo No Bird",
+    "Ar trajektorija buvo taisyklinga",
+    "Raudonąją kortelę už šautuvo padėtį"
+   ],
+   "explain": "Sprendimų dėl trajektorijos, No Bird ir „pataikyta/nulis“ žiuri neperžiūri. Bet kurį kitą teisėjo sprendimą galima apskųsti raštu su 40 % užstatu."
+  },
+  "sp-q067": {
+   "q": "Žiuri atmeta šaulio apeliaciją. Kas nutinka užstatui?",
+   "options": [
+    "Jis atitenka organizuojančiam klubui",
+    "Jis atitenka FITASC prezidento pasirinktai labdaros organizacijai",
+    "Jis vis tiek grąžinamas",
+    "Jis pridedamas prie prizų fondo"
+   ],
+   "explain": "Jei apeliacija patenkinama, užstatas grąžinamas; jei ne – jis atitenka FITASC prezidento pasirinktai labdaros organizacijai."
+  },
+  "sp-q068": {
+   "q": "Kaip šaulys šaudymo vietoje teisingai protestuoja dėl sprendimo?",
+   "options": [
+    "Nueina paimti taikinio ir parodo jį teisėjui",
+    "Baigia šaudyti šioje vietoje, tada kalbasi su teisėju",
+    "Iškart pakelia ranką ir sako „apeliacija“ arba „protestas“",
+    "Paprašo grupės balsuoti"
+   ],
+   "explain": "Protestuoti reikia iškart šaudymo vietoje, pakėlus ranką ir pasakius „apeliacija“ arba „protestas“. Šauliai niekada negali palikti savo vietos ar paimti taikinio."
+  },
+  "sp-q069": {
+   "q": "Teisėjas abejoja dėl sprendimo. Su kuo jis gali pasitarti ir kokia to reikšmė?",
+   "options": [
+    "Su kitu teisėju, traperiu ar grupės šauliais, tik patarimo; tada jo sprendimas galutinis",
+    "Tik su žiuri; jos nuomonė privaloma",
+    "Su niekuo; jis turi skelbti No Bird",
+    "Su šaulio treneriu, kurio nuomonė lemia sprendimą"
+   ],
+   "explain": "Teisėjas gali paklausti kito teisėjo, traperio ar grupės šaulių vien patarimo, jų nuomonė jo nesaisto, o jo sprendimas tada yra galutinis."
+  },
+  "sp-q070": {
+   "q": "Kaip žymimos šaudymo vietos mašinėlės?",
+   "options": [
+    "Pagal taikinių spalvą",
+    "Raidėmis iš dešinės į kairę, žiūrint iš traperio pusės",
+    "Raidėmis A, B, C, D iš kairės į dešinę, žiūrint iš šaudymo vietos",
+    "Skaičiais 1–4 šaudymo eilės tvarka"
+   ],
+   "explain": "Mašinėlės žymimos raidėmis A, B, C ir D iš kairės į dešinę, žiūrint iš šaudymo vietos; jas naudoja taikinių aprašas ir rezultatų kortelė."
+  },
+  "sp-q071": {
+   "q": "Pozicijoje yra 3 mašinėlės ir 2 dubletai. Kuris derinys NELEIDŽIAMAS?",
+   "options": [
+    "Du vienalaikiai dubletai",
+    "Du savaiminiai (rafale) dubletai",
+    "Vienas vienalaikis ir vienas savaiminis (rafale) dubletas",
+    "Du dubletai pagal šūvio garsą"
+   ],
+   "explain": "Tokioje pozicijoje dubletai gali būti vienalaikiai, savaiminiai (rafale) arba abiejų rūšių, bet du dubletai pagal šūvio garsą neleidžiami."
+  },
+  "sp-q072": {
+   "q": "Kuri taisyklė taikoma sudarant dubletus šaudymo vietoje?",
+   "options": [
+    "C klasės trajektorija dubletuose gali būti tik vieną kartą, geriausia su A klasės taikiniu",
+    "Dubletai visada turi būti pagal šūvio garsą",
+    "Dubletuose gali būti naujų, pavieniais neparodytų trajektorijų",
+    "Du C klasės taikiniai sudaro geriausią dubletą"
+   ],
+   "explain": "Dubletuose naudojami tik tie taikiniai, kurie iš tos pozicijos jau buvo parodyti kaip pavieniai; C klasė gali būti tik vieną kartą, geriausia poroje su A. B + B ir B + A leidžiami."
+  },
+  "sp-q073": {
+   "q": "Kuri iš šių NĖRA žiuri nuobauda už pakartotinį pažeidimą, atsisakymą paklusti ar bandymą paveikti teisėją?",
+   "options": [
+    "Pašalinimas iš varžybų",
+    "Vieno taikinio atėmimas",
+    "25 taikinių serijos atėmimas",
+    "Piniginė bauda"
+   ],
+   "explain": "Žiuri nuobaudų skalė: vieno taikinio atėmimas, 25 taikinių serijos atėmimas arba pašalinimas. Piniginės baudos joje nėra."
+  },
+  "sp-q074": {
+   "q": "Serijos metu treneris, stovintis už šaudymo vietos, nuolat sako savo šauliui, kur laikyti šautuvą. Ką daro teisėjas?",
+   "options": [
+    "Geltonoji kortelė dalyviui, o treneris išprašomas iš šaudymo zonos",
+    "Šaulys iškart pašalinamas",
+    "Kitam šaulio taikiniui – nulis",
+    "Nieko; treniruoti tarp taikinių leidžiama"
+   ],
+   "explain": "Treniruoti varžybų metu draudžiama: dalyvis gauna geltonąją kortelę (pakartotiniai pažeidimai – pagal 13 skyrių), o treneris išprašomas iš šaudymo zonos."
+  },
+  "sp-q075": {
+   "q": "2-oje šaudymo vietoje šaulio šautuvas sugenda ir greitai jo sutaisyti neįmanoma. Ką jis gali daryti?",
+   "options": [
+    "Neklausęs naudoti traperio šautuvą",
+    "Praleisti šią vietą, o jos taikinius įvertinti kaip No Bird",
+    "Vėliau iš naujo šaudyti visą aikštelę su savo pasirinkta nauja grupe",
+    "Teisėjui sutikus, iškart tęsti kitu šautuvu, pvz., pasiskolintu su savininko sutikimu"
+   ],
+   "explain": "Jei šautuvo sutaisyti neįmanoma, šaulys, teisėjui sutikus, gali tęsti su grupe, iškart gavęs kitą šautuvą; kitaip baigti seriją laisvoje vietoje kitoje grupėje jis gali tik žiuri leidimu."
+  },
+  "sp-q076": {
+   "q": "Šauliui, kurio šautuvas su atleidžiamuoju nuleistuku, pirmas taikinys paskelbiamas No Bird. Ką jis turi daryti?",
+   "options": [
+    "Iškart atleisti nuleistuką ir atidaryti šautuvą",
+    "Laikyti nuleistuką nuspaustą ir prašyti naujo taikinio, atidaryti šautuvą vis dar laikant nuleistuką arba iššauti teisėjo nurodyta saugia kryptimi",
+    "Atiduoti šautuvą teisėjui",
+    "Iššauti į žemę priešais šaudymo vietą"
+   ],
+   "explain": "Jis turi laikyti nuleistuką nuspaustą ir pasirinkti vieną iš trijų saugių būdų: paprašyti naujo taikinio, atidaryti šautuvą laikant nuleistuką arba iššauti teisėjo nurodyta saugia kryptimi."
+  },
+  "sp-q077": {
+   "q": "Ką teisėjas turi padaryti su rezultatų kortele, prieš grupei einant į kitą poziciją?",
+   "options": [
+    "Nusiųsti ją į rezultatų lentą per pasiuntinį",
+    "Duoti ją pasirašyti kiekvienam šauliui",
+    "Perduoti ją žiuri",
+    "Ją nufotografuoti ir pažymėti žvaigždute prieš pavardę šaulio, kuris ją neš"
+   ],
+   "explain": "Teisėjas nufotografuoja kortelę ir pažymi žvaigždute prieš pavardę dalyvio, kuriam ji patikima; kiekvienoje šaudymo vietoje naudojamas kitos spalvos pieštukas."
+  },
+  "sp-q078": {
+   "q": "Kokia apranga dalyviui priimtina?",
+   "options": [
+    "Bermudų šortai, marškinėliai ir sandalai",
+    "Trumpi bėgimo šortai ir marškinėliai",
+    "Skeet liemenė ant nuogo kūno",
+    "Ilgi bermudų šortai, baigiantys 4 cm virš kelio, polo marškinėliai trumpomis rankovėmis, uždari batai"
+   ],
+   "explain": "Leidžiami tik ilgi bermudų šortai, baigiantys ne daugiau kaip 5 cm virš kelio; marškiniai – bent trumpomis rankovėmis ir su apykakle ar apvalia iškirpte; liemenės ant nuogo kūno negalima; sandalai draudžiami."
+  },
+  "sp-q079": {
+   "q": "Du šauliai surenka po lygiai ir dalijasi 5-ąja vieta. Kaip nustatoma jų tvarka?",
+   "options": [
+    "Atkrintamosiomis varžybomis iki pirmos klaidos",
+    "Burtų keliu",
+    "25 taikinių atkrintamosiomis varžybomis",
+    "Jie dalijasi vieta ir surašomi skaičiuojant atbuline tvarka nuo 8-os iki 1-os aikštelės"
+   ],
+   "explain": "Atkrintamosios varžybos rengiamos tik dėl pirmų trijų vietų. Žemiau trečios vietos po lygiai surinkę šauliai dalijasi vieta ir surašomi skaičiuojant atbuline tvarka nuo 8-os iki 1-os aikštelės."
+  },
+  "sp-q080": {
+   "q": "Šaudymo vietos teisėjas mano, kad viena trajektorija per lengva. Ar jis gali ją pakeisti?",
+   "options": [
+    "Ne; jis gali tik atstatyti sugedusią trajektoriją po mašinėlės gedimo ar išskirtinių oro sąlygų, jei taikinys nepasirodo arba yra pavojingas",
+    "Taip, pranešęs vyriausiajam teisėjui",
+    "Taip, jei grupė sutinka",
+    "Taip, tarp serijų"
+   ],
+   "explain": "Žiuri ir trasų projektuotojų nustatytos trajektorijos nekeičiamos. Teisėjas gali tik atstatyti sugedusią trajektoriją po mašinėlės gedimo ar išskirtinių oro sąlygų; ją turėtų patikrinti trasų projektuotojas arba žiuri narys."
+  },
+  "cs-q001": {
+   "q": "Taikinius išmetant rankiniu būdu, taikinys iš mašinėlės išskrenda praėjus maždaug 4 sekundėms po šaulio komandos. Šaulys iššauna ir nepataiko. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "ZERO ir įspėjimas už lėtą šaudymą",
+    "Šaulys gali pasirinkti palikti rezultatą"
+   ],
+   "explain": "Išmetant rankiniu būdu, taikinys turi išskristi per 0–3 sekundes po komandos; vėliau nei po 3 sekundžių išmestas taikinys yra NO BIRD."
+  },
+  "cs-q002": {
+   "q": "Kokio pločio yra privalomas stačiakampis (ABCD), virš kurio turi skristi Compak taikiniai?",
+   "options": [
+    "Nuo 25 iki 30 m",
+    "Nuo 35 iki 40 m",
+    "Nuo 40 iki 50 m",
+    "Lygiai 30 m"
+   ],
+   "explain": "Stačiakampis yra ne mažiau kaip 35 m ir ne daugiau kaip 40 m pločio ir 25 m gylio, jo kampuose – keturi žymekliai (kuoliukai)."
+  },
+  "cs-q003": {
+   "q": "Koks atstumas leidžiamas tarp gretimų šaudymo vietų centrų?",
+   "options": [
+    "Nuo 1 iki 2 m",
+    "Nuo 2 iki 5 m",
+    "Nuo 5 iki 8 m",
+    "Ne mažiau kaip 6 m"
+   ],
+   "explain": "Yra penkios 1 m × 1 m šaudymo vietos, atstumas tarp gretimų vietų centrų – nuo 2 iki 5 m."
+  },
+  "cs-q004": {
+   "q": "Kiek už stačiakampio kraštinės AD turi būti priekinė šaudymo vietų linija?",
+   "options": [
+    "Nuo 2 iki 5 m",
+    "Nuo 4 iki 8 m",
+    "Nuo 8 iki 12 m",
+    "Lygiai 10 m"
+   ],
+   "explain": "Priekinė šaudymo vietų linija lygiagreti kraštinei AD ir yra 4–8 m už jos, o 3-ioji šaudymo vieta – kraštinės AD viduryje."
+  },
+  "cs-q005": {
+   "q": "Bent kiek aukščiau už šaudymo vietų lygį turi būti pakelta už šaudymo vietų pastatyta mašinėlė?",
+   "options": [
+    "2 m",
+    "3 m",
+    "4 m",
+    "6 m"
+   ],
+   "explain": "Už šaudymo vietų esanti mašinėlė turi būti bent 4 m aukščiau už šaudymo vietas, t. y. ant bokšto."
+  },
+  "cs-q006": {
+   "q": "Koks yra fiksuotas sonopull (balso reagavimo sistemos) delsos laikas?",
+   "options": [
+    "0,2 sekundės",
+    "0,5 sekundės",
+    "1 sekundė",
+    "Reguliuojamas nuo 0 iki 3 sekundžių"
+   ],
+   "explain": "Sonopull įrenginys turi taikyti fiksuotą, nekeičiamą 0,5 sekundės delsą; išmetant rankiniu būdu – per 0–3 sekundes."
+  },
+  "cs-q007": {
+   "q": "Kiek mašinėlių naudojama Compak® Sporting aikštelėje?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Compak aikštelėje yra šešios mašinėlės, pažymėtos raidėmis nuo A iki F iš kairės į dešinę, ir penkios šaudymo vietos."
+  },
+  "cs-q008": {
+   "q": "Tarptautiniu lygiu Compak šaudant linija (in line) naudojama tik sonopull sistema su FITASC patvirtintu elektroniniu teisėjavimu ir rezultatų skaičiavimu.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Tiesa. Tarptautinėse varžybose šaudant linija naudojama tik sonopull sistema kartu su FITASC patvirtintu elektroniniu teisėjavimu ir rezultatų valdymu."
+  },
+  "cs-q009": {
+   "q": "Vienalaikiame dublete šaulys pirmu šoviniu sudaužo abu taikinius. Šioje Compak aikštelėje jam taip nutinka pirmą kartą. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE-ONE: užskaitomi abu taikiniai",
+    "Pirmam taikiniui ONE, antram ZERO",
+    "NO BIRD: nieko neužskaitoma, dubletas kartojamas",
+    "ZERO-ZERO"
+   ],
+   "explain": "Kai abu vienalaikio dubleto taikiniai sudaužomi vienu šūviu, dubletas yra NO BIRD ir šaudomas iš naujo; taip pat ir antrą kartą. Tik trečią kartą vertinama ZERO-ZERO."
+  },
+  "cs-q010": {
+   "q": "Toje pačioje Compak aikštelėje šaulys jau trečią kartą vienu šoviniu sudaužo abu vienalaikio dubleto taikinius. Koks teisėjo sprendimas?",
+   "options": [
+    "NO BIRD – išmetamas naujas taikinys",
+    "ONE-ONE",
+    "ZERO-ZERO",
+    "ONE-ZERO"
+   ],
+   "explain": "Pirmą ir antrą kartą tai NO BIRD ir dubletas kartojamas; trečią kartą dubletas vertinamas ZERO-ZERO."
+  },
+  "cs-q011": {
+   "q": "Dublete pagal šūvio garsą pirmas šūvis sudaužo pirmą taikinį, o jo gabalas ore sudaužo ir antrą taikinį. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE-ONE: užskaitomi abu taikiniai",
+    "Pirmo taikinio ONE lieka; dubletas kartojamas antram taikiniui įvertinti",
+    "Visas dubletas NO BIRD; nieko neužskaitoma",
+    "ONE-ZERO"
+   ],
+   "explain": "Jei pirmas taikinys ar jo gabalai sudaužo antrą dar prieš antrą šūvį, pirmo rezultatas paliekamas, o dubletas šaudomas iš naujo antram taikiniui įvertinti."
+  },
+  "cs-q012": {
+   "q": "Vienalaikiame dublete šaulys sąmoningai iššauna abu šovinius į pirmą taikinį, norėdamas jį tikrai sudaužyti. Koks teisėjo sprendimas?",
+   "options": [
+    "Pirmam taikiniui ONE, antras kartojamas",
+    "NO BIRD: dubletas kartojamas",
+    "ZERO-ZERO",
+    "Tik įspėjimas, rezultatas lieka"
+   ],
+   "explain": "Į kiekvieną dubleto taikinį galima šauti tik vienu šoviniu; dvigubas šūvis į pirmą draudžiamas, o pagal teisėjų atmintinę sąmoningas dvigubas šūvis į vieną taikinį vertinamas ZERO-ZERO."
+  },
+  "cs-q013": {
+   "q": "Kurią stačiakampio kraštinę turi kirsti privalomas tolstantis taikinys?",
+   "options": [
+    "AB",
+    "BC",
+    "CD",
+    "DA"
+   ],
+   "explain": "Trys privalomos trajektorijos: iš kairės į dešinę (AB, tada CD), iš dešinės į kairę (CD, tada AB) ir tolstanti per BC; DA – kraštinė šaulių pusėje."
+  },
+  "cs-q014": {
+   "q": "Kokia tvarka šaulys gali šauti į du vienalaikio dubleto taikinius?",
+   "options": [
+    "Visada pirmiau į kairįjį taikinį",
+    "Taikinių apraše nurodyta tvarka",
+    "Bet kuria tvarka",
+    "Pirmiau į taikinį iš mašinėlės su ankstesne raide"
+   ],
+   "explain": "Vienalaikis dubletas – du kartu iš dviejų skirtingų mašinėlių išmesti taikiniai, ir šaulys gali šauti į juos bet kuria tvarka."
+  },
+  "cs-q015": {
+   "q": "Kiek žiuri narių visą laiką turi būti renginyje?",
+   "options": [
+    "Bent 1",
+    "Bent 2",
+    "Bent 3",
+    "Ketvirtadalis žiuri"
+   ],
+   "explain": "Kiekvienas žiuri narys nešioja ženklelį, ir visą laiką renginyje turi būti bent du žiuri nariai. Ketvirtadalis narių (ir pirmininkas) yra kvorumas sprendimams priimti, o ne buvimo taisyklė."
+  },
+  "cs-q016": {
+   "q": "Šaulys, įsitikinęs, kad pataikė į ZERO įvertintą taikinį, gali pateikti žiuri rašytinį skundą, kad sprendimas būtų pakeistas.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Ar taikinys pataikytas ar prašautas, brokuotas ar nukrypęs nuo trajektorijos, sprendžia tik teisėjas, ir tai neapskundžiama; kitus teisėjo sprendimus galima ginčyti žiuri."
+  },
+  "cs-q017": {
+   "q": "Kas sudaro apeliacinę žiuri tarptautinėse Compak varžybose?",
+   "options": [
+    "Vyriausiasis teisėjas ir du žiuri nariai",
+    "FITASC prezidentas, Techninio komiteto pirmininkas ir organizuojančios federacijos pirmininkas (arba jų atstovai)",
+    "Po vieną kiekvienos nacionalinės komandos atstovą",
+    "FITASC drausmės komitetas"
+   ],
+   "explain": "Apeliacinę žiuri sudaro trys nariai: FITASC prezidentas, Techninio komiteto pirmininkas ir organizuojančios federacijos pirmininkas arba jų atstovai; žiuri narys joje būti negali."
+  },
+  "cs-q018": {
+   "q": "Kiek 25 taikinių Compak aikštelių (serijų) sudaro tarptautines varžybas?",
+   "options": [
+    "4 (100 taikinių)",
+    "6 (150 taikinių)",
+    "8 (200 taikinių)",
+    "10 (250 taikinių)"
+   ],
+   "explain": "Keturios tarptautinėms varžyboms numatytos Compak rūšys iš viso sudaro aštuonias 25 taikinių Compak serijas, t. y. 200 taikinių."
+  },
+  "cs-q019": {
+   "q": "Kiek naujų mašinėlių privaloma žemyno ir pasaulio Compak® Sporting čempionatuose?",
+   "options": [
+    "24",
+    "36",
+    "48",
+    "60"
+   ],
+   "explain": "Dėl sąžiningumo negalima naudoti įprastų klubo šeimininko mašinėlių: privalomos 48 naujos mašinėlės, sumontuotos ir nustatytos tik čempionatui."
+  },
+  "cs-q020": {
+   "q": "Kada galima keisti varžybų trajektorijas, mašinėles ar taikinių aprašus?",
+   "options": [
+    "Bet kada, žiuri nuožiūra",
+    "Tik visiems šauliams sušaudžius pilną ratą",
+    "Kiekvieną rytą prieš pirmą grupę",
+    "Tik teisėjo prašymu"
+   ],
+   "explain": "Keisti leidžiama tik visiems sušaudžius pilną ratą: 50 taikinių, kai yra 2 aikštelės, arba 100 taikinių, kai yra 4 aikštelės."
+  },
+  "cs-q021": {
+   "q": "Kada pasaulio ar žemyno Compak čempionate šauliai pirmą kartą gali treniruotis su čempionato mašinėlėmis ir trajektorijomis?",
+   "options": [
+    "Bet kada savaitę prieš čempionatą",
+    "Nuo oficialios treniruotės šeštadienį prieš čempionatą",
+    "Tik pirmos varžybų dienos rytą",
+    "Niekada: treniruojamasi tik kitose aikštelėse"
+   ],
+   "explain": "Oficiali treniruotė prasideda šeštadienį prieš čempionatą, ir iki tos dienos niekas negali treniruotis su čempionato mašinėlėmis ir trajektorijomis. Treniruočių lentelės taip pat turi skirtis nuo varžybų lentelių."
+  },
+  "cs-q022": {
+   "q": "Šaulys ateina į šaudymo vietą su varžybų numeriu, prisegtu liemenės priekyje, o ne ant nugaros. Koks teisėjo sprendimas?",
+   "options": [
+    "Šioje serijoje jis šaudyti negali",
+    "WARNING (įspėjimas); jei neištaisys – tolesnės sankcijos",
+    "Atimamas vienas taikinys",
+    "Nieko: numerio vieta laisva"
+   ],
+   "explain": "Numeris turi būti ant nugaros, tarp pečių ir juosmens, gerai matomas. Už pirmą pažeidimą skiriamas įspėjimas; jei neištaisoma, taikomos tolesnės sankcijos, iki žiuri sprendimu pašalinimo."
+  },
+  "cs-q023": {
+   "q": "Sandalai toleruojami treniruotėse, bet ne varžybose.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Dėl saugumo sandalai draudžiami ir treniruotėse, ir varžybose."
+  },
+  "cs-q024": {
+   "q": "Kas atsako už tai, kad šaulys laiku būtų savo Compak aikštelėje ir pasirengęs su pakankamu šovinių kiekiu visai serijai?",
+   "options": [
+    "Teisėjas, kuris šaukia trūkstamus šaulius",
+    "Organizatoriaus sekretoriatas",
+    "Pats šaulys",
+    "Grupės vadovas"
+   ],
+   "explain": "Laikytis paskelbto šaudymo laiko – šaulio atsakomybė: jis turi prisistatyti teisėjui, būti pasirengęs iškart šaudyti su įranga ir šoviniais visai serijai ir sekti tvarkaraščio pakeitimus. Teisėjas trūkstamų šaulių neieško."
+  },
+  "cs-q025": {
+   "q": "Šaudant grupėmis, šaulys atvyksta į Compak aikštelę iškart po to, kai pirmas jo grupės šaulys paprašė pirmo serijos taikinio. Koks teisėjo sprendimas?",
+   "options": [
+    "Jis prisijungia ir šaudo savo eilės metu",
+    "Jam už tą seriją skiriami 25 nuliai",
+    "Jis praranda tik jau sušaudytus taikinius",
+    "Geltonoji kortelė, tada jis šaudo"
+   ],
+   "explain": "Riba – pirmo grupės šaulio pirmoji komanda; po jos atvykusiam šauliui už seriją skiriami 25 nuliai (tą pačią dieną jis gali raštu kreiptis į žiuri)."
+  },
+  "cs-q026": {
+   "q": "Šaulys praleidžia visą pirmą varžybų dieną. Kas nutinka?",
+   "options": [
+    "Praleistas serijas jis šaudo antrą dieną",
+    "Nuo antros dienos jis išbraukiamas iš sąrašo; norėdamas šaudyti, turi kreiptis į žiuri",
+    "Jam skiriami 25 nuliai už kiekvieną seriją ir jis tęsia",
+    "Jam uždraudžiama dalyvauti FITASC varžybose"
+   ],
+   "explain": "Pirmą dieną neatvykęs šaulys nuo antros dienos išbraukiamas iš sąrašo; jei jis atvyksta ir nori šaudyti, turi kreiptis į žiuri, kaip nurodyta 9 skyriuje."
+  },
+  "cs-q027": {
+   "q": "Šaulys gali iššauti vieną bandomąjį šūvį varžybų šaudymo vietoje prieš prasidedant jo serijai.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Šautuvus bandyti galima tik tam įrengtoje vietoje prie ginklų patalpos, niekada – varžybų šaudymo vietoje prieš seriją."
+  },
+  "cs-q028": {
+   "q": "Po gedimo šaulys gali baigti seriją savo grupės nario šautuvu, jei savininkas sutinka.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Šautuvą galima pasiskolinti tik iš šaulio, kuris nėra toje pačioje grupėje, savininkui ir teisėjui sutikus; vienos grupės šauliai negali dalytis šautuvu."
+  },
+  "cs-q029": {
+   "q": "Kai atkrintamųjų varžybų laikas nenustatytas, per kiek minučių po iškvietimo šauliai turi būti pasirengę?",
+   "options": [
+    "Per mažiau nei 5 minutes",
+    "Per mažiau nei 15 minučių",
+    "Per mažiau nei 30 minučių",
+    "Per 1 valandą"
+   ],
+   "explain": "Susiję šauliai turi palaikyti ryšį su žiuri ir būti pasirengę per mažiau nei 15 minučių po iškvietimo; neatvykęs šaulys laikomas pasitraukusiu."
+  },
+  "cs-q030": {
+   "q": "Lygybė dėl 5-osios vietos individualioje įskaitoje sprendžiama atkrintamosiomis varžybomis.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Atkrintamosios varžybos rengiamos tik dėl pirmų trijų vietų; žemiau trečios vietos po lygiai surinkę šauliai užima vienodą vietą ir surašomi skaičiuojant atbuline tvarka nuo 8-os iki 1-os Compak serijos."
+  },
+  "cs-q031": {
+   "q": "Kokioje Compak aikštelėje šaudomos atkrintamosios varžybos?",
+   "options": [
+    "5 pavieniai taikiniai kiekvienoje šaudymo vietoje",
+    "3 pavieniai ir 1 dubletas pagal šūvio garsą kiekvienoje šaudymo vietoje",
+    "1 pavienis ir 2 vienalaikiai dubletai kiekvienoje šaudymo vietoje",
+    "Paskutinėje varžybų Compak aikštelėje, nieko nekeičiant"
+   ],
+   "explain": "Dalyvaujantys Techninės komisijos nariai (o jei jų nėra – žiuri) parenka Compak aikštelę ir išdėstymą; atkrintamosiose varžybose kiekvienoje šaudymo vietoje šaudomas vienas pavienis taikinys ir du vienalaikiai dubletai."
+  },
+  "cs-q032": {
+   "q": "Dvi nacionalinės komandos surenka vienodą bendrą rezultatą. Kaip nustatoma nugalėtoja?",
+   "options": [
+    "25 taikinių komandinėmis atkrintamosiomis varžybomis",
+    "Pagal narių bendrą rezultatą 8-oje Compak serijoje, tada 7-oje ir t. t.",
+    "Pagal geriausią individualų rezultatą kiekvienoje komandoje",
+    "Pagal 1-ą Compak seriją, tada 2-ą ir t. t."
+   ],
+   "explain": "Lygios komandos išskiriamos pagal jų narių bendrą rezultatą 8-oje Compak serijoje, tada 7-oje, 6-oje ir t. t. iki 1-os."
+  },
+  "cs-q033": {
+   "q": "Šaulys, atsisakęs serijos pabaigoje pasirašyti rezultatų kortelę, netenka teisės teikti bet kokį skundą.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Tiesa. Šaulys turi pasirašyti rezultatų kortelę kiekvienos serijos pabaigoje; atsisakius pasirašyti, bet koks skundas nepriimamas."
+  },
+  "cs-q034": {
+   "q": "Kaip Compak rezultatų kortelėje žymimi pataikymai ir prašovimai?",
+   "options": [
+    "Pataikymas X, prašovimas O",
+    "Pataikymas O, prašovimas X",
+    "Pataikymas 1, prašovimas 0",
+    "Pataikymas /, prašovimas -"
+   ],
+   "explain": "Pataikymas (ONE) žymimas X, prašovimas – O; teisėjas kiekvieną ZERO paskelbia garsiai arba garso signalu."
+  },
+  "cs-q035": {
+   "q": "Kiek daugiausia šaulių gali būti Compak grupėje?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Grupėje – ne daugiau kaip 6 šauliai, kurie tą pačią seriją šaudo tuo pačiu metu toje pačioje aikštelėje."
+  },
+  "cs-q036": {
+   "q": "Per kiek laiko šaulys turi paprašyti savo taikinio, kai į ankstesnės šaudymo vietos taikinį jau iššauta?",
+   "options": [
+    "5 sekundes",
+    "10 sekundžių",
+    "15 sekundžių",
+    "30 sekundžių"
+   ],
+   "explain": "Daugiausia 10 sekundžių; už pirmą pažeidimą skiriamas įspėjimas, įrašomas į rezultatų kortelę, o pakartojus toje pačioje serijoje atimami taikiniai."
+  },
+  "cs-q037": {
+   "q": "Po ilgesnės nei kiek minučių pertraukos iš naujo parodomi 6 pavieniai taikiniai?",
+   "options": [
+    "5 minučių",
+    "10 minučių",
+    "15 minučių",
+    "30 minučių"
+   ],
+   "explain": "Po ilgesnės nei 10 minučių pertraukos teisėjas iš naujo parodo 6 pavienius taikinius – ir šaudant grupėmis, ir šaudant linija."
+  },
+  "cs-q038": {
+   "q": "Kiek iš anksto parengtų trajektorijų nustatymo lentelių yra 3 priede?",
+   "options": [
+    "8",
+    "20",
+    "40",
+    "48"
+   ],
+   "explain": "3 priede yra 40 paruoštų taikinių aprašų – po aštuonis kiekvienam iš penkių šaudymo vietos derinių (pavyzdžiui, 17–24 lentelės: 3 pavieniai ir 1 vienalaikis dubletas)."
+  },
+  "cs-q039": {
+   "q": "Compak® Sporting šaulys turi prašyti taikinio laikydamas šautuvą nuleistą, o buožė turi matytis žemiau žymos ant liemenės.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Compak šautuvo padėtis prašant taikinio laisva (prisidėtas ar ne); taisyklėse nėra nei nuleisto šautuvo starto, nei žymos ant liemenės. Tačiau į kiekvieną taikinį reikia šauti šautuvą prisidėjus prie peties."
+  },
+  "cs-q040": {
+   "q": "Vienoje Compak aikštelėje 2-oje šaudymo vietoje gali būti dubletas pagal šūvio garsą, o 4-oje – vienalaikis dubletas.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Vienoje Compak aikštelėje dubleto tipas visose 5 šaudymo vietose turi būti vienodas; rekomenduojama skirtingoms Compak aikštelėms naudoti skirtingas lenteles."
+  },
+  "cs-q041": {
+   "q": "Kuris taikinys šaudymo vietoje visada yra pirmas dubleto taikinys?",
+   "options": [
+    "Taikinys iš mašinėlės A",
+    "Paskutinis ankstesnėje šaudymo vietoje šautas taikinys",
+    "Tolstantis taikinys",
+    "Bet kuris šaulio pasirinktas taikinys"
+   ],
+   "explain": "Pirmas kiekvieno dubleto taikinys yra paskutinis ankstesnėje šaudymo vietoje šautas taikinys (pvz., A-F, F-C, C-E...), todėl teisėjas jį parodo kitam šauliui."
+  },
+  "cs-q042": {
+   "q": "Šaudant grupėmis, kur stovi šeštasis (laukiantis) šaulys ir kas vyksta, kai 5-oji šaudymo vieta baigia?",
+   "options": [
+    "Už 5-osios vietos; tada jis užima 5-ąją vietą",
+    "Už 1-osios vietos; visi pasislenka per vieną vietą į dešinę, o jis stoja į 1-ąją vietą",
+    "Šalia teisėjo; jis prisijungia prie kitos grupės",
+    "Už 3-iosios vietos; jis užima tuščią vietą"
+   ],
+   "explain": "Laukiantis šaulys stovi už 1-osios šaudymo vietos. Kai 5-oji vieta baigia savo taikinių aprašą, tas šaulys eina laukti, visi kiti pasislenka per vieną vietą į dešinę, o laukęs šaulys stoja į 1-ąją vietą. Keičiant vietas šautuvai atlaužti ir neužtaisyti."
+  },
+  "cs-q043": {
+   "q": "Šaulys užeina į savo šaudymo vietą, ir teisėjas pastebi, kad jis neturi klausos apsaugos. Koks teisėjo sprendimas?",
+   "options": [
+    "Geltonoji kortelė, tada jis gali šaudyti",
+    "Jis laikomas nedalyvaujančiu ir šaudyti negali",
+    "Jis gali šaudyti, jei pasirašo atsakomybės atsisakymą",
+    "Jis praranda vieną taikinį"
+   ],
+   "explain": "Klausos apsauga privaloma; dalyvis, atvykęs į šaudymo vietą be jos, laikomas nedalyvaujančiu ir šaudyti negali. Tas pats taikoma apsauginiams akiniams."
+  },
+  "cs-q044": {
+   "q": "Koks mažiausias Compak® Sporting šautuvo vamzdžio ilgis?",
+   "options": [
+    "61 cm (24 col.)",
+    "66 cm (26 col.)",
+    "71 cm (28 col.)",
+    "76 cm (30 col.)"
+   ],
+   "explain": "Leidžiamas bet kuris ne didesnio kaip 12 kalibro lygiavamzdis šautuvas, jei vamzdis ne trumpesnis kaip 66 cm (26 coliai)."
+  },
+  "cs-q045": {
+   "q": "Koks didžiausias Compak® Sporting šovinio šratų užtaisas?",
+   "options": [
+    "24 g",
+    "28 g (leidžiamas nuokrypis +2 %)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Šratų užtaisas negali viršyti 28 gramų švino, leidžiamas nuokrypis +2 %."
+  },
+  "cs-q046": {
+   "q": "Compak® Sporting leidžiama naudoti pompinį šautuvą, jei jo vamzdis ne trumpesnis kaip 66 cm.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Pompiniai šautuvai ir trivamzdžiai (drilingai) draudžiami, kad ir koks būtų vamzdžio ilgis; draudžiami ir diržai, ant ginklo tvirtinamos kameros bei taikymo prietaisai."
+  },
+  "cs-q047": {
+   "q": "Šaulys gali pakeisti keičiamus čokus tarp dviejų serijų.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Tiesa. Keisti šautuvą, čokus ar vamzdžius serijos metu draudžiama, bet tarp serijų leidžiama; serijos metu vienintelė išimtis – gedimas."
+  },
+  "cs-q048": {
+   "q": "Kaip turi būti pažymėtas šautuvas su atleidžiamuoju nuleistuku?",
+   "options": [
+    "Raudonu kaspinu ant vamzdžio",
+    "Didele raide „R“ ant fluorescencinio fono išorinėje buožės pusėje",
+    "Tik pastaba rezultatų kortelėje",
+    "Žymėti nereikia, jei pranešta teisėjui"
+   ],
+   "explain": "Savininkas, įspėdamas kitus, turi užklijuoti lipduką su didele raide „R“ ant fluorescencinio fono išorinėje buožės pusėje."
+  },
+  "cs-q049": {
+   "q": "Šaulys mano, kad pataikė į taikinį, bet nieko nesako. Tik kitam šauliui paprašius taikinio ir iššovus, jis pakelia ranką ir sako „PROTEST“. Koks teisėjo sprendimas?",
+   "options": [
+    "Teisėjas turi persvarstyti ir gali pakeisti į ONE",
+    "Protestas pavėluotas; ZERO lieka",
+    "Taikinys kartojamas kaip NO BIRD",
+    "Protestas perduodamas spręsti žiuri"
+   ],
+   "explain": "Protestuoti reikia iškart, šaudymo vietoje, kol kitas šaulys dar nepaprašė taikinio. Bet kuriuo atveju pataikymą ar prašovimą sprendžia tik teisėjas, ir tai neapskundžiama."
+  },
+  "cs-q050": {
+   "q": "Abejojantis teisėjas prieš priimdamas sprendimą gali pasiteirauti. Kuris iš šių asmenų NENURODYTAS tarp tų, su kuriais jis gali pasitarti?",
+   "options": [
+    "Kitas vietoje esantis teisėjas",
+    "Traperis",
+    "Grupės šauliai",
+    "Šaulio treneris už šaudymo vietos"
+   ],
+   "explain": "Jis gali pasitarti su kitu teisėju, traperiu, grupės šauliais ar rezultatų kortelę pildančiais asmenimis; jų nuomonė jo nesaisto, o jo sprendimas galutinis."
+  },
+  "cs-q051": {
+   "q": "Taikinių apraše nurodyta, kad pavienis taikinys išmetamas iš mašinėlės C, bet taikinys išskrenda iš mašinėlės E. Šaulys jį sudaužo. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE (pataikyta)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "ZERO (nulis)",
+    "ONE, o traperis įspėjamas"
+   ],
+   "explain": "Iš kitos mašinėlės išmestas taikinys yra netaisyklingas, todėl tai NO BIRD, ir pavieniam taikiniui išmetamas kitas taikinys, kad ir koks būtų rezultatas."
+  },
+  "cs-q052": {
+   "q": "Po šūvio taikinys skrenda toliau sveikas, bet matyti, kaip nuo jo pakyla mažas dulkių debesėlis. Joks gabalėlis neatskyla. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE (pataikyta)",
+    "ZERO (nulis)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "Teisėjas paklausia traperio ir tada skiria ONE"
+   ],
+   "explain": "Taikinys yra ZERO, kai nuo jo neatskyla joks matomas gabalėlis; vien dulkės („rūkstantis“ taikinys) pataikymu nelaikomos."
+  },
+  "cs-q053": {
+   "q": "Taisyklingas taikinys, į kurį šauta taisyklingai: nuo jo atskyla vienas mažas, bet aiškiai matomas gabalėlis, o likusi dalis skrenda toliau. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE (pataikyta)",
+    "ZERO (nulis)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "ZERO, nes taikinys neperskilo pusiau"
+   ],
+   "explain": "Taikinys yra ONE, kai nuo jo atskyla bent vienas matomas gabalėlis arba jis visiškai ar iš dalies sutrupinamas."
+  },
+  "cs-q054": {
+   "q": "Šauliui vedant šautuvą, per jo regėjimo lauką praskrenda taikinys iš gretimos Compak aikštelės. Jis prašauna savo pavienį taikinį. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "NO BIRD tik tada, jei šaulys protestuoja",
+    "ZERO, o gretima Compak aikštelė sustabdoma"
+   ],
+   "explain": "Taikinys ar gabalai iš kitos Compak aikštelės niekada nėra NO BIRD pagrindas; juo gali būti tik pašalinis taikinys iš tos pačios Compak aikštelės mašinėlės. Prašovimas lieka."
+  },
+  "cs-q055": {
+   "q": "Staigus vėjo gūsis tą akimirką, kai šaulys šauna, smarkiai nustumia taisyklingą pavienį taikinį žemyn, ir šaulys prašauna. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "NO BIRD, jei teisėjas sutinka, kad vėjas buvo išskirtinis",
+    "Šaulys gali paprašyti pakartoti vieną kartą per seriją"
+   ],
+   "explain": "Blogas oras niekada nėra NO BIRD pagrindas: kiekvienas prašautas taikinys yra ZERO, o kiekvienas sudaužytas – ONE, kad ir kokios būtų sąlygos."
+  },
+  "cs-q056": {
+   "q": "Pavieniam taikiniui neiššauna pirmas šovinys. Tai pirmas tokio tipo šaulio sutrikimas serijoje. Jis lieka vietoje, šautuvą laikydamas nukreiptą į šaudymo zoną, kol teisėjas jį apžiūri. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "NO BIRD, naujas taikinys ir pirmas įspėjimas (geltonoji kortelė)",
+    "NO BIRD be įspėjimo",
+    "ZERO ir raudonoji kortelė"
+   ],
+   "explain": "Esant pirmam sutrikimui 25 taikinių serijoje, pavieniam taikiniui neiššovus pirmam šoviniui skiriamas NO BIRD ir naujas taikinys; už šį pirmą sutrikimą skiriamas pirmas įspėjimas (geltonoji kortelė)."
+  },
+  "cs-q057": {
+   "q": "Vėliau toje pačioje serijoje tam pačiam šauliui antrą kartą sutrinka tokio paties tipo šovinys. Koks teisėjo sprendimas?",
+   "options": [
+    "Vėl NO BIRD su antra geltonąja kortele",
+    "Visi taikiniai, į kuriuos nešauta, vertinami ZERO (raudonoji kortelė)",
+    "Šaulys pašalinamas iš varžybų",
+    "Jis gauna 2 minutes šautuvui sutaisyti, ir taikinys kartojamas"
+   ],
+   "explain": "Ginklo ar šovinio sutrikimų NO BIRD lentelė taikoma tik pirmam sutrikimui serijoje; esant antram tokio paties tipo sutrikimui, taikiniai, į kuriuos nešauta, vertinami ZERO (raudonoji kortelė)."
+  },
+  "cs-q058": {
+   "q": "Dubletas pagal šūvio garsą: šaulys sudaužo pirmą taikinį, tada sutrinka jo antras šovinys. Tai pirmas tokio tipo sutrikimas serijoje. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE-ZERO",
+    "Visas dubletas NO BIRD, nieko nepaliekama",
+    "Pirmo taikinio ONE paliekamas; dubletas kartojamas antram taikiniui įvertinti",
+    "Pirmam ONE, o antras taikinys išmetamas vienas"
+   ],
+   "explain": "Kai dublete pagal šūvio garsą sutrinka antras šovinys (pirmas sutrikimas), pirmo taikinio rezultatas lieka, o dubletas kartojamas antram taikiniui."
+  },
+  "cs-q059": {
+   "q": "Pavieniam taikiniui šaulys pirmu šūviu prašauna, o jo antras šovinys sutrinka. Tai pirmas sutrikimas serijoje. Išmetamas naujas taikinys. Kaip jis turi būti vertinamas? Koks teisėjo sprendimas?",
+   "options": [
+    "Įprastai: sudaužyti galima bet kuriuo šūviu",
+    "Jis užskaitomas tik sudaužius antru šūviu; pirmu reikia sąmoningai prašauti",
+    "Jau ZERO; naujas taikinys tik treniruotei",
+    "Užskaitomas tik pirmas šūvis"
+   ],
+   "explain": "Pavieniam taikiniui sutrikus antram šoviniui, išmetamas kitas taikinys, kurį galima sudaužyti tik antru šūviu, todėl pirmu šūviu šaulys sąmoningai prašauna."
+  },
+  "cs-q060": {
+   "q": "Pirmu šūviu prašautas triušis, dar prieš antrą šūvį atsitrenkęs į žemės nelygumą, sudūžta. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "ONE (pataikyta)",
+    "NO BIRD: triušis išmetamas iš naujo ir gali būti užskaitytas tik antru šūviu",
+    "NO BIRD: triušis išmetamas iš naujo ir vertinamas įprastai"
+   ],
+   "explain": "Pirmu šūviu prašautas triušis, sudužęs prieš antrą šūvį, yra NO BIRD; jis išmetamas iš naujo ir gali būti užskaitytas tik antru šūviu, todėl pirmu reikia sąmoningai prašauti."
+  },
+  "cs-q061": {
+   "q": "Vienalaikiame dublete vienas iš dviejų taikinių sudūžta išskrisdamas iš mašinėlės. Šaulys sudaužo kitą. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE už sudaužytą taikinį; sudužęs kartojamas vienas",
+    "Visas dubletas išmetamas iš naujo",
+    "ONE-ZERO",
+    "ONE-ONE"
+   ],
+   "explain": "Išmetant sudužęs taikinys yra NO BIRD atvejis, o bet koks netaisyklingas taikinys vienalaikiame dublete reiškia, kad visas dubletas išmetamas iš naujo."
+  },
+  "cs-q062": {
+   "q": "Tą akimirką, kai šaulys prašo taikinio, už šaudymo vietos garsiai nuaidi pranešimas per garsiakalbį; teisėjas aiškiai mato, kaip šaulys krūpteli ir nuleidžia šautuvą. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "ZERO – taikinio atsisakymas",
+    "Įspėjimas už šaudymo vilkinimą"
+   ],
+   "explain": "NO BIRD skiriamas, kai teisėjas mato, kad šauliui buvo akivaizdžiai sutrukdyta."
+  },
+  "cs-q063": {
+   "q": "Traperis išmeta taikinį dar šauliui jo nepaprašius. Nustebęs šaulys iššauna ir nepataiko. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "NO BIRD – išmetamas naujas taikinys",
+    "ZERO, nes jis pats nusprendė šauti",
+    "ZERO ir geltonoji kortelė"
+   ],
+   "explain": "Šaulio nepaprašytas taikinys yra NO BIRD atvejis; tai ir vienintelis taikinys, kurio šaulys gali atsisakyti."
+  },
+  "cs-q064": {
+   "q": "Šaulys paprašo pavienio taikinio, nusprendžia, kad jis per žemas, ir nešauna. Teisėjas taikinį laiko taisyklingu. Koks teisėjo sprendimas?",
+   "options": [
+    "NO BIRD – išmetamas naujas taikinys",
+    "ZERO (nulis)",
+    "Tik įspėjimas; taikinys kartojamas",
+    "Šaulys gali protestuoti ir automatiškai gauti naują taikinį"
+   ],
+   "explain": "Šaulys gali atsisakyti tik to taikinio, kurio neprašė. Atsisakymas taikinio, kurį teisėjas laiko taisyklingu, baudžiamas: pavieniam taikiniui – ZERO."
+  },
+  "cs-q065": {
+   "q": "Vienalaikiame dublete šaulys nuleidžia šautuvą ir nešauna į pirmą taikinį, sakydamas, kad jis nukrypo nuo trajektorijos. Teisėjas abu taikinius laiko taisyklingais. Koks teisėjo sprendimas?",
+   "options": [
+    "Pirmam ZERO, antras išmetamas iš naujo",
+    "ZERO-ZERO",
+    "NO BIRD",
+    "Pirmam ZERO, antram NO BIRD"
+   ],
+   "explain": "Ar taikinys nukrypo nuo trajektorijos, sprendžia teisėjas. Nešovus į pirmą vienalaikio dubleto taikinį, kurį teisėjas laiko taisyklingu, vertinama ZERO-ZERO."
+  },
+  "cs-q066": {
+   "q": "Anksčiau šioje Compak aikštelėje šaulys buvo įspėtas, kad taikinio prašė ilgiau nei per 10 sekundžių. Dabar pavieniam taikiniui teisėjas aiškiai paskelbia NO BIRD, bet šaulys vis tiek šauna ir sudaužo taikinį. Koks teisėjo sprendimas?",
+   "options": [
+    "ONE (pataikyta)",
+    "NO BIRD: taikinys kartojamas",
+    "ZERO (raudonoji kortelė)",
+    "Antra geltonoji kortelė; taikinys kartojamas"
+   ],
+   "explain": "Į paskelbtą NO BIRD šauti niekada negalima. Po pirmo įspėjimo už kiekvieną kitą pažeidimą toje pačioje Compak aikštelėje skiriama raudonoji kortelė, o pavienis taikinys vertinamas ZERO."
+  },
+  "cs-q067": {
+   "q": "Pirmą kartą serijoje šaulys taikinio paprašo tik po maždaug 15 sekundžių po to, kai buvo iššauta į ankstesnės šaudymo vietos taikinį. Tada jis sudaužo pavienį taikinį. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO (nulis)",
+    "ONE, įspėjimas įrašomas į rezultatų kortelę",
+    "NO BIRD ir geltonoji kortelė",
+    "ONE be jokių pasekmių"
+   ],
+   "explain": "Taikinio reikia paprašyti per 10 sekundžių. Pirmą kartą viršijus šią ribą, šauliui skiriamas įspėjimas, įrašomas į rezultatų kortelę; taikiniai atimami tik pakartojus toje pačioje serijoje."
+  },
+  "cs-q068": {
+   "q": "Šioje serijoje jau įspėtas už 10 sekundžių viršijimą, šaulys vėl pavėluoja paprašyti taikinio, šįkart dublete pagal šūvio garsą. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "Tik antras įspėjimas",
+    "NO BIRD / NO BIRD"
+   ],
+   "explain": "Pakartojus toje pačioje serijoje vertinama pagal 21.5 lentelę: pavieniam taikiniui ZERO, dubletui pagal šūvio garsą ZERO / NO BIRD, vienalaikiam dubletui ZERO / ZERO."
+  },
+  "cs-q069": {
+   "q": "Tarp šaudymo vietų už Compak aikštelės stovintis treneris nuolat sako dalyviui, kur laikyti šautuvą kitam taikiniui. Koks teisėjo sprendimas?",
+   "options": [
+    "Nieko: patarimai tarp taikinių leidžiami",
+    "Geltonoji kortelė dalyviui; treneris išprašomas iš šaudymo zonos",
+    "Dalyvis praranda 25 taikinių seriją",
+    "Įspėjamas tik treneris"
+   ],
+   "explain": "Treniruoti varžybų metu neleidžiama: dalyvis gauna geltonąją kortelę (pakartojus – 23 skyriaus sankcijos), o teisėjas išprašo trenerį iš šaudymo zonos."
+  },
+  "cs-q070": {
+   "q": "Šaulio šautuvas sugenda; teisėjas jį apžiūri (pirmas sutrikimas). Praeina dvi minutės, šautuvas nesutaisytas, o kito šautuvo nėra. Koks teisėjo sprendimas?",
+   "options": [
+    "Jis gali palaukti iki grupės pabaigos ir tada baigti",
+    "Nešauti taikiniai vertinami nuliu",
+    "Serija anuliuojama ir šaudoma vėliau",
+    "Jis gauna dar 2 minutes"
+   ],
+   "explain": "Po gedimo šaulys turi dvi minutes šautuvui sutaisyti ar pakeisti; teisėjui sutikus jis gali tęsti kitu šautuvu, kitaip nešauti taikiniai vertinami nuliu."
+  },
+  "cs-q071": {
+   "q": "Pirmas vienalaikio dubleto taikinys: šioje Compak aikštelėje jau įspėtam šauliui įvyksta sutrikimas, kuris nėra pirmasis, ir jis negali šauti į pirmą taikinį. Koks teisėjo sprendimas?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "NO BIRD, naujas dubletas",
+    "Pirmas rezultatas paliekamas, antras ZERO"
+   ],
+   "explain": "Esant sutrikimui po pirmo įspėjimo, pagal 21.5 lentelę pirmam vienalaikio dubleto taikiniui skiriama ZERO / ZERO (dubletui pagal šūvio garsą – ZERO / NO BIRD)."
+  },
+  "cs-q072": {
+   "q": "Kiek laiko po gedimo šaulys turi šautuvui sutaisyti ar pakeisti?",
+   "options": [
+    "1 minutę",
+    "2 minutes",
+    "3 minutes",
+    "5 minutes"
+   ],
+   "explain": "Jis turi dvi minutes; teisėjui sutikus jis gali tęsti kitu šautuvu, kitaip nešauti taikiniai vertinami nuliu."
+  },
+  "cs-q073": {
+   "q": "Per kiek sekundžių po galutinio teisėjo sprendimo šaulys turi vėl pradėti šaudyti?",
+   "options": [
+    "5 sekundes",
+    "10 sekundžių",
+    "30 sekundžių",
+    "60 sekundžių"
+   ],
+   "explain": "Šaulys turi tęsti per 10 sekundžių; kitaip tai atsisakymas paklusti, už kurį gali būti taikomos 23 skyriaus sankcijos."
+  },
+  "cs-q074": {
+   "q": "Po protesto teisėjas patvirtina ZERO, ir šaudymas tęsiamas. Šaulys vis purto galvą ir garsiai sako grupei, kad taikinys buvo sudaužytas, o du žiūrovai už šaudymo vietos prisideda kritikuodami sprendimą. Koks teisėjo sprendimas?",
+   "options": [
+    "Nieko: šaudymui atsinaujinus nuomonės laisvos",
+    "Teisėjas pakeičia sprendimą, kad išvengtų ginčo",
+    "Tai bandymas paveikti; teisėjas apie tai praneša, o žiuri gali skirti sankciją iki pašalinimo",
+    "Taikinys kartojamas kaip NO BIRD"
+   ],
+   "explain": "Toliau ginčyti galutinį sprendimą po šaudymo atnaujinimo, demonstratyviai prieštarauti ar šauliams bei žiūrovams atvirai kritikuoti sprendimą – tai bandymai paveikti, už kuriuos žiuri gali skirti sankciją iki pašalinimo."
+  },
+  "cs-q075": {
+   "q": "Kiek metų FITASC saugo įrašą apie pašalinimą?",
+   "options": [
+    "1 metus",
+    "3 metus",
+    "5 metus",
+    "10 metų"
+   ],
+   "explain": "Kiekvienas pašalinimas penkerius metus saugomas FITASC būstinės įrašuose; antras pašalinimas per trejus metus gali lemti draudimą visam laikui."
+  },
+  "cs-q076": {
+   "q": "Kokią sankciją žiuri gali skirti už pakartotinį pažeidimą?",
+   "options": [
+    "Piniginę baudą, mokamą organizatoriui",
+    "25 taikinių serijos atėmimą",
+    "Serijos pakartojimą su kita grupe",
+    "Šaulio perkėlimą į paskutinę grupę"
+   ],
+   "explain": "Už pakartotinius pažeidimus ar bandymus paveikti žiuri gali skirti vieno taikinio atėmimą, 25 taikinių serijos atėmimą arba pašalinimą iš varžybų."
+  },
+  "cs-q077": {
+   "q": "Šaulio šautuvas neiššauna. Dar teisėjui neapžiūrėjus, jis atlaužia šautuvą patikrinti šovinio. Koks teisėjo sprendimas?",
+   "options": [
+    "NO BIRD – išmetamas naujas taikinys",
+    "ZERO tam taikiniui",
+    "NO BIRD ir geltonoji kortelė",
+    "Teisėjas apžiūri šautuvą dabar ir, jei jis sugedęs, skiria NO BIRD"
+   ],
+   "explain": "Po sutrikimo šaulys turi likti vietoje, neatidaryti šautuvo ir neliesti saugiklio, kol teisėjas jį apžiūrės; jei taip pasielgia, atitinkamas taikinys ar taikiniai vertinami ZERO."
+  },
+  "cs-q078": {
+   "q": "Laukiant už šaudymo vietų, prisidėti šautuvą ir jį vesti (šaudymo imitavimas) leidžiama, jei šautuvas atlaužtas.",
+   "options": [
+    "Tiesa",
+    "Netiesa"
+   ],
+   "explain": "Netiesa. Šaudymo imitavimas neleidžiamas už šaudymo vietų ribų, taip pat tada, kai šaudo grupės narys."
+  },
+  "cs-q079": {
+   "q": "Kaip tarp šaudymo vietų turi būti nešamas pusiau automatinis šautuvas?",
+   "options": [
+    "Uždarytas, su įjungtu saugikliu, vamzdžiu į priekį",
+    "Atidaryta spyna, vamzdis nukreiptas tiesiai aukštyn arba žemyn",
+    "Užtaisytas vienu šoviniu, spyna atidaryta",
+    "Bet kaip, jei neužtaisytas"
+   ],
+   "explain": "Šautuvai nešami atlaužti ir neužtaisyti; pusiau automatiniai – atidaryta spyna, vamzdžiu tiesiai aukštyn arba žemyn."
+  },
+  "cs-q080": {
+   "q": "Šaulys, kurio šautuvo pirmas nuleistukas atleidžiamasis, laiko jį nuspaustą, kai pirmas taikinys paskelbiamas NO BIRD. Kuris veiksmas leidžiamas?",
+   "options": [
+    "Atleisti nuleistuką, nukreipus į žemę, niekam nepranešus",
+    "Laikyti nuleistuką nuspaustą ir paprašyti naujo taikinio",
+    "Atiduoti uždarytą šautuvą teisėjui",
+    "Apsisukti ir parodyti šautuvą teisėjui"
+   ],
+   "explain": "Jis gali laikyti nuleistuką nuspaustą ir paprašyti naujo taikinio, laikyti jį nuspaustą ir atidaryti šautuvą arba pranešti teisėjui ir saugiai iššauti teisėjo nurodyta kryptimi."
+  }
+ }
+}

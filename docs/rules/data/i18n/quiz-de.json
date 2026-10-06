@@ -1,0 +1,1569 @@
+{
+ "ui": {
+  "svc": "Regeltrainer",
+  "svcS": "ClayAway · FITASC",
+  "title": "Regeltrainer {d}",
+  "lead": "Testen Sie Ihr Regelwissen: Situationen auf dem Stand, Zahlen und Grenzwerte, richtig oder falsch. Nach jeder Antwort erhalten Sie eine Erklärung und einen Link zur Regel im Leitfaden und zur Seite im offiziellen PDF.",
+  "quick": "Schnelltest",
+  "quickS": "10 zufällige Fragen, Erklärung sofort",
+  "exam": "Prüfung",
+  "examS": "30 Fragen, Ergebnis am Ende, Bestehensgrenze 80 %",
+  "mist": "Meine Fehler",
+  "mistS": "Fragen, die Sie falsch beantwortet haben",
+  "level": "Niveau",
+  "all": "alle",
+  "l1": "Grundlagen",
+  "l2": "Veranstalter",
+  "l3": "Schiedsrichter",
+  "q": "Frage",
+  "of": "von",
+  "next": "Weiter",
+  "finish": "Beenden",
+  "right": "Richtig!",
+  "wrong": "Falsch.",
+  "decision": "Entscheidung des Schiedsrichters",
+  "number": "Zahlen",
+  "truefalse": "Richtig oder falsch",
+  "choice": "Auswahl",
+  "open": "Regel im Leitfaden",
+  "pdf": "PDF, S.",
+  "res": "Ergebnis",
+  "pass": "Prüfung bestanden",
+  "fail": "Fast geschafft",
+  "again": "Noch einmal",
+  "home": "Zurück zur Modusauswahl",
+  "review": "Auswertung der Antworten",
+  "sAns": "Antworten",
+  "sAcc": "Trefferquote",
+  "sBest": "Beste Prüfung",
+  "sMist": "Fehler zum Wiederholen",
+  "none": "Für diese Disziplin gibt es noch keine Fragen.",
+  "noMist": "Keine Fehler — sehr gut!",
+  "back": "← Regelleitfaden",
+  "disc": "Der Trainer beruht auf unserer Zusammenfassung des FITASC-Regelwerks. Verbindlich ist nur der offizielle Text der FITASC. Parcours de Chasse – Sporting™ und Compak® Sporting sind Marken der FITASC.",
+  "count": "Fragen in der Datenbank"
+ },
+ "questions": {
+  "sp-q001": {
+   "q": "Einzelscheibe. Der Schütze schießt, und der Schiedsrichter sieht nur ein Staubwölkchen von der Scheibe aufsteigen; kein Stück bricht ab. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "One (Treffer)",
+    "No Bird, die Scheibe wird wiederholt",
+    "Zero (Null)"
+   ],
+   "explain": "Nur Staub oder Rauch zählt nicht. Eine Scheibe ist nur dann ein Treffer (one), wenn mindestens ein sichtbares Stück abbricht oder sie ganz oder teilweise zerstört wird."
+  },
+  "sp-q002": {
+   "q": "Einzelscheibe. Nach dem Schuss bricht ein kleines, aber deutlich sichtbares Stück von der Scheibe ab, der Rest fliegt weiter. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "One (Treffer)",
+    "No Bird, die Scheibe wird wiederholt",
+    "Zero (Null)"
+   ],
+   "explain": "Ein sichtbares Stück genügt: Eine regulär geworfene Scheibe, die aus korrekter Haltung beschossen wird, ist ein Treffer, wenn mindestens ein Stück sichtbar abbricht."
+  },
+  "sp-q003": {
+   "q": "Der Schütze ruft „Pull“. Der Schiedsrichter gibt das Signal weiter, doch die Scheibe erscheint erst etwa fünf Sekunden später. Der Schütze schießt und fehlt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Zero (Null)",
+    "Wiederholung nur, wenn der Schütze vor dem Schuss protestiert hat",
+    "No Bird, die Scheibe wird wiederholt"
+   ],
+   "explain": "Die Scheibe muss innerhalb von 3 Sekunden nach dem Signal des Schiedsrichters geworfen werden. Eine später geworfene Scheibe ist No Bird, unabhängig vom Ergebnis des Schusses."
+  },
+  "sp-q004": {
+   "q": "Der Schütze ruft ab, eine regelgerechte Scheibe kommt auf der richtigen Flugbahn, doch der Schütze schießt nicht und sagt, ihm habe der Abwurf nicht gefallen. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "No Bird, die Scheibe wird wiederholt",
+    "Zero (Null)",
+    "Verwarnung, dann wird die Scheibe wiederholt"
+   ],
+   "explain": "Eine abgerufene Scheibe darf nicht verweigert werden. Nur der Schiedsrichter beurteilt, ob die Flugbahn korrekt ist; eine regelgerechte Scheibe, auf die der Schütze nicht geschossen hat, ist Null."
+  },
+  "sp-q005": {
+   "q": "Der Schütze nimmt noch seine Bereitschaftsstellung ein und hat nicht abgerufen, da löst der Puller eine Scheibe aus. Der Schütze schießt nicht. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Null, denn der Schütze muss immer bereit sein",
+    "Zero (Null)",
+    "No Bird, die Scheibe wird wiederholt"
+   ],
+   "explain": "Eine nicht abgerufene Scheibe darf verweigert werden und ist No Bird. Nur in diesem Fall ist eine Verweigerung erlaubt."
+  },
+  "sp-q006": {
+   "q": "Bei einer Einzelscheibe verlässt die Scheibe die Maschine bereits in zwei Stücken. Der Schütze schießt auf das größere Stück und trifft es. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "No Bird, die Scheibe wird wiederholt",
+    "One (Treffer)",
+    "Zero (Null)"
+   ],
+   "explain": "Eine von der Maschine zerbrochen geworfene Scheibe ist No Bird, die Einzelscheibe wird wiederholt; das Treffen eines Stücks zählt nicht."
+  },
+  "sp-q007": {
+   "q": "Einzelscheibe von Maschine B. Genau beim Schuss klingelt direkt hinter dem Stand laut das Handy eines Zuschauers; der Schütze zuckt sichtbar zusammen und fehlt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Zero (Null)",
+    "Null, Lärm von außen ist nie ein Grund",
+    "No Bird, die Scheibe wird wiederholt"
+   ],
+   "explain": "Wurde der Schütze offensichtlich gestört, erklärt der Schiedsrichter No Bird und die Scheibe wird wiederholt. Ob die Störung offensichtlich war, beurteilt der Schiedsrichter."
+  },
+  "sp-q008": {
+   "q": "Der Schiedsrichter wurde kurz von tief stehender Sonne geblendet und kann ehrlich nicht sagen, ob die Einzelscheibe getroffen wurde. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Die Rotte fragen und nach Mehrheit werten",
+    "One (Treffer)",
+    "No Bird, die Scheibe wird wiederholt",
+    "Zero (Null)"
+   ],
+   "explain": "Kann der Schiedsrichter nicht entscheiden, ob eine Scheibe getroffen wurde, ist sie No Bird und wird wiederholt. Die Rotte darf nur auf Nachfrage des Schiedsrichters Auskunft geben und stimmt nie ab."
+  },
+  "sp-q009": {
+   "q": "Simultandoublette. Der Schütze schießt einmal, und dieser eine Schuss zerbricht beide Scheiben. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Treffer und Null",
+    "Treffer und Treffer",
+    "No Bird, die Doublette wird wiederholt"
+   ],
+   "explain": "Bei jeder Art von Doublette gilt: Zerbricht ein Schuss beide Scheiben, werden beide gewertet: Treffer und Treffer."
+  },
+  "sp-q010": {
+   "q": "Rafaledoublette. Beide Scheiben kommen regelgerecht, doch der Schütze senkt die Flinte und schießt ohne triftigen Grund auf keine von beiden. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "No Bird, die Doublette wird wiederholt",
+    "Null und Null",
+    "Null für die erste Scheibe, die zweite wird wiederholt"
+   ],
+   "explain": "Wird ohne triftigen Grund nicht auf eine regelgerechte Scheibe geschossen, ist sie Null; bei einer Rafale- oder Simultandoublette bedeutet das Null und Null."
+  },
+  "sp-q011": {
+   "q": "Doublette auf Schuss. Die erste Scheibe kommt auf einer offensichtlich falschen, irregulären Flugbahn. Der Schütze schießt trotzdem darauf und fehlt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "No Bird nur für die erste Scheibe",
+    "Null für die erste Scheibe, zweiter Schuss normal",
+    "No Bird, die ganze Doublette wird wiederholt"
+   ],
+   "explain": "Bei einer Doublette auf Schuss bedeutet eine irreguläre erste Scheibe, dass die Doublette wiederholt wird."
+  },
+  "sp-q012": {
+   "q": "Doublette auf Schuss. Der Schütze trifft die erste Scheibe, und eines ihrer Stücke zerschlägt die zweite Scheibe, bevor der Schütze den zweiten Schuss abgeben kann. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Doublette wird wiederholt, nichts bleibt bestehen",
+    "Treffer und Null",
+    "Treffer und Treffer",
+    "Doublette wird wiederholt, der Treffer auf die erste Scheibe bleibt bestehen"
+   ],
+   "explain": "Zerbricht die erste Scheibe oder ein Stück von ihr die zweite vor dem zweiten Schuss, wird die Doublette wiederholt und das Ergebnis der ersten Scheibe bleibt bestehen."
+  },
+  "sp-q013": {
+   "q": "Simultandoublette. Eine der beiden Scheiben kommt auf einer irregulären Flugbahn; der Schütze trifft die andere. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Doublette wird wiederholt, kein Ergebnis wird notiert",
+    "Treffer und Null",
+    "Treffer für die reguläre Scheibe, die irreguläre wird wiederholt"
+   ],
+   "explain": "Bei Simultan- und Rafaledoubletten bedeutet eine irreguläre Scheibe, dass die Doublette wiederholt und kein Ergebnis festgestellt wird."
+  },
+  "sp-q014": {
+   "q": "Rollhase als Einzelscheibe. Der erste Schuss geht vorbei, dann prallt der Hase gegen einen Stein und zerbricht, bevor der Schütze den zweiten Lauf abfeuert. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Zero (Null)",
+    "No Bird; bei der Wiederholung zählt nur ein Treffer mit dem zweiten Schuss",
+    "One (Treffer)"
+   ],
+   "explain": "Das ist No Bird und der Hase wird wiederholt, doch bei der Wiederholung zählt nur ein Treffer mit dem zweiten Schuss; ein Treffer mit dem ersten Schuss wird als Null gewertet."
+  },
+  "sp-q015": {
+   "q": "Erste Waffenstörung der Runde: Bei einer Einzelscheibe zündet die erste Patrone nicht. Der Schütze bleibt ruhig stehen, die Flinte zeigt in Schussrichtung, und er feuert den zweiten Lauf nicht ab. Der Schiedsrichter prüft die Flinte. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "No Bird mit Verwarnung; die Scheibe wird wiederholt",
+    "Zero (Null)",
+    "Null, aber ohne Verwarnung"
+   ],
+   "explain": "Die erste Waffen- oder Munitionsstörung einer Runde führt zu einer Verwarnung und No Bird, die Einzelscheibe wird wiederholt. Weitere Störungen in dieser Runde werden als Null gewertet."
+  },
+  "sp-q016": {
+   "q": "Später in derselben Runde hat derselbe Schütze beim ersten Schuss auf eine Einzelscheibe einen zweiten Versager. Er wartet korrekt auf die Prüfung durch den Schiedsrichter. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "No Bird, die Scheibe wird wiederholt",
+    "Zero (Null)",
+    "No Bird, diesmal aber mit Gelber Karte"
+   ],
+   "explain": "Ab der zweiten Waffen- oder Munitionsstörung in derselben Runde wird die Scheibe nicht mehr wiederholt: Sie wird als Null gewertet."
+  },
+  "sp-q017": {
+   "q": "Die Patrone zündet nicht. Verärgert öffnet der Schütze sofort die Flinte, um sich das Zündhütchen anzusehen, bevor der Schiedsrichter kommt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Zero (Null)",
+    "No Bird, die Scheibe wird wiederholt",
+    "No Bird, wenn es die erste Störung der Runde ist"
+   ],
+   "explain": "Nach einer Störung muss der Schütze mit der Flinte in Schussrichtung an seinem Platz bleiben und darf sie weder öffnen noch die Sicherung berühren, bis der Schiedsrichter sie geprüft hat. Sonst ist die Scheibe Null."
+  },
+  "sp-q018": {
+   "q": "Einzelscheibe, erste Störung der Runde. Der erste Lauf versagt, doch der Schütze kann den zweiten Lauf abfeuern und fehlt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "No Bird, die Scheibe wird wiederholt",
+    "No Bird, weil der erste Schuss versagt hat",
+    "Zero (Null)"
+   ],
+   "explain": "Ein Versagen beim ersten Schuss ist normalerweise No Bird; gibt der Schütze aber dennoch den zweiten Schuss ab, zählt dieser Schuss, und die Scheibe wird so gewertet, wie sie fällt: hier Null."
+  },
+  "sp-q019": {
+   "q": "Einzelscheibe. Der erste Schuss geht vorbei und die zweite Patrone versagt (erste Störung der Runde), also wird die Scheibe wiederholt. Bei der Wiederholung trifft der Schütze die Scheibe mit dem ersten Schuss. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Zero (Null)",
+    "One (Treffer)",
+    "No Bird, erneute Wiederholung"
+   ],
+   "explain": "Nach einer Störung beim zweiten Schuss auf eine Einzelscheibe darf die wiederholte Scheibe nur mit dem zweiten Schuss getroffen werden. Ein Treffer mit dem ersten Schuss ist Null, daher muss der Schütze zuerst absichtlich vorbeischießen."
+  },
+  "sp-q020": {
+   "q": "Rafaledoublette, erste Störung der Runde: Auf die erste Scheibe gehen beide Läufe gleichzeitig los. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Erste Scheibe wird gewertet, die zweite wiederholt",
+    "Null und Null",
+    "Die ganze Doublette wird wiederholt, nichts wird notiert"
+   ],
+   "explain": "Bei der ersten Scheibe einer Doublette auf Schuss sowie bei Simultan- und Rafaledoubletten führt ein Doppeln dazu, dass die ganze Doublette ohne notiertes Ergebnis wiederholt wird."
+  },
+  "sp-q021": {
+   "q": "Simultandoublette. Der Schütze hatte in dieser Runde bereits eine Störung. Jetzt versagt der erste Schuss erneut und er schießt nicht. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Null und Null",
+    "Null für eine Scheibe, die andere wird wiederholt",
+    "Doublette wird wiederholt"
+   ],
+   "explain": "Ab der zweiten Störung in einer Runde gibt es keine Wiederholung. Bei einer Simultan- oder Rafaledoublette ergibt ein zweites Versagen beim ersten Schuss Null und Null."
+  },
+  "sp-q022": {
+   "q": "Am ersten Stand eines Layouts ruft der Schütze ab, während die Flinte schon an der Schulter liegt, bevor die Scheibe erscheint. Es ist sein erster Verstoß auf diesem Layout. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Nichts; die Flintenhaltung ist im Sporting frei",
+    "Mündliche Verwarnung mit Gelber Karte",
+    "Rote Karte und Null"
+   ],
+   "explain": "Wer anschlägt, bevor die Scheibe erscheint, oder die Bereitschaftsstellung nach 3.1 nicht einnimmt, erhält beim ersten Mal eine mündliche Verwarnung, bestätigt durch eine Gelbe Karte."
+  },
+  "sp-q023": {
+   "q": "Dasselbe Layout, zwei Stände später: Derselbe Schütze ruft eine Einzelscheibe wieder mit dem Schaft oberhalb der Markierung an seiner Weste ab. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Rote Karte; die Scheibe wird wiederholt",
+    "Rote Karte; die Scheibe wird als Null gewertet",
+    "Noch eine Gelbe Karte"
+   ],
+   "explain": "Nach der ersten Verwarnung führt jeder weitere Verstoß auf demselben Layout zur Roten Karte, und bei einer Einzelscheibe ist die Scheibe Null."
+  },
+  "sp-q024": {
+   "q": "Ein Schütze, der auf diesem Layout bereits eine Gelbe Karte für die Flintenhaltung hat, beginnt eine Doublette auf Schuss mit angeschlagener Flinte, bevor die erste Scheibe erscheint. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Rote Karte: Null für die erste Scheibe, die zweite wird nach Schuss gewertet",
+    "Rote Karte: Null und No Bird",
+    "Null und Null"
+   ],
+   "explain": "Ein wiederholter Verstoß auf demselben Layout wird mit der Roten Karte bestraft: Null bei einer Einzelscheibe, Null und No Bird bei einer Doublette auf Schuss, Null und Null bei Simultan- und Rafaledoubletten."
+  },
+  "sp-q025": {
+   "q": "Der Schiedsrichter ruft bei einer Einzelscheibe „No Bird“, der Schütze schießt aber trotzdem auf die Scheibe. Er tut das zum ersten Mal. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Verwarnung; die Scheibe wird wiederholt",
+    "Treffer, wenn er sie trifft",
+    "Sofort Null"
+   ],
+   "explain": "Auf ein erklärtes No Bird darf nie geschossen werden. Beim ersten Mal erhält der Schütze eine Verwarnung; erst nach einer Verwarnung gelten die Null-Strafen nach 12.2."
+  },
+  "sp-q026": {
+   "q": "Der Schütze wurde schon einmal verwarnt, weil er auf ein No Bird geschossen hat, und schießt erneut, nachdem der Schiedsrichter bei einer Simultandoublette „No Bird“ gerufen hat. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Zweite Verwarnung; die Doublette wird wiederholt",
+    "Null und No Bird",
+    "Null und Null"
+   ],
+   "explain": "Nach einer Verwarnung wird das Schießen auf ein erklärtes No Bird nach 12.2 bestraft: bei Simultan- und Rafaledoubletten Null und Null."
+  },
+  "sp-q027": {
+   "q": "Zwischen zwei Einzelscheiben richtet der Schütze seine Weste, putzt die Brille und braucht etwa 25 Sekunden bis zum Abruf. Es ist heute das erste Mal. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Nichts; es gibt kein Zeitlimit",
+    "Null für die nächste Scheibe",
+    "Verwarnung"
+   ],
+   "explain": "Das Limit beträgt 15 Sekunden zwischen Einzelscheiben bzw. zwischen Doubletten. Die erste Überschreitung bringt eine Verwarnung; danach gelten die Strafen nach 12.2."
+  },
+  "sp-q028": {
+   "q": "Als sein Name aufgerufen wird, betritt ein Schütze den Stand ohne Schutzbrille und sagt, er habe sie im Auto vergessen. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Sofortiger Ausschluss",
+    "Er darf diesen Stand schießen und sie dann holen",
+    "Er gilt als abwesend, und die Regel für Verspätung/Abwesenheit (16.7) wird angewendet"
+   ],
+   "explain": "Eine Schutzbrille ist ausnahmslos Pflicht. Ein Schütze ohne Brille auf dem Stand gilt als abwesend, und Artikel 16.7 wird angewendet."
+  },
+  "sp-q029": {
+   "q": "Der Schiedsrichter wertet eine Scheibe als Null. Ein anderes Mitglied der Rotte sagt ungefragt laut: „Die war klar getroffen, ich habe ein Stück gesehen!“ Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Der Schiedsrichter muss die Entscheidung in Treffer ändern",
+    "Die Entscheidung bleibt; Rottenmitglieder dürfen sich nicht einmischen, und offene Kritik gilt als Beeinflussungsversuch",
+    "Die Scheibe wird No Bird"
+   ],
+   "explain": "Der Schiedsrichter entscheidet allein; Rottenmitglieder haben kein Recht auf Kommentare. Kritisieren andere eine Entscheidung offen und unerlaubt, ist das ein Versuch, den Schiedsrichter zu beeinflussen (Strafen nach Kapitel 13)."
+  },
+  "sp-q030": {
+   "q": "Ein Schütze glaubt, seine letzte Scheibe sei getroffen, sagt aber nichts, ruft die nächste Scheibe ab und protestiert erst dann wegen der vorherigen. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Der Protest geht an die Jury",
+    "Der Protest wird angehört und der Schiedsrichter überdenkt die Entscheidung",
+    "Zu spät: Mit dem Abruf der nächsten Scheibe hat er die Entscheidung angenommen"
+   ],
+   "explain": "Mit dem Abruf der nächsten Scheibe akzeptiert der Schütze die Entscheidung des Schiedsrichters über die vorherige; jeder Einwand muss vorher erhoben werden."
+  },
+  "sp-q031": {
+   "q": "Eine kreuzende Scheibe wird knapp hinter einem Baum getroffen. Der Schiedsrichter entscheidet, sie sei hinter einem natürlichen Hindernis beschossen worden, und wertet Null. Der Schütze will Berufung einlegen. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Die Scheibe wird als No Bird wiederholt",
+    "Gegen diese Entscheidung ist keine Berufung möglich",
+    "Schriftliche Berufung an die Jury mit 40 % Kaution"
+   ],
+   "explain": "Der Schütze muss die Scheiben dort treffen, wo der Schiedsrichter sie sehen kann. Gegen die Entscheidung, eine Scheibe sei hinter einem Hindernis oder jenseits einer Grenze beschossen worden, ist keine Berufung möglich."
+  },
+  "sp-q032": {
+   "q": "Ein Schütze kommt am Layout an, während seine Rotte noch die Einzelscheiben an Stand 1 schießt und er noch nicht an der Reihe war. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Seine Einzelscheiben an Stand 1 werden als Null gewertet",
+    "Er muss das Layout in einer anderen Rotte schießen",
+    "Er steigt ohne Strafe ein"
+   ],
+   "explain": "Ein verspäteter Schütze, der eintrifft, bevor er seinen Einsatz bei den Einzelscheiben am ersten Stand verpasst hat, schließt sich ohne Strafe der Rotte an."
+  },
+  "sp-q033": {
+   "q": "Der Schiedsrichter hat Namen und Nummer eines Schützen innerhalb einer Minute dreimal aufgerufen. Er kommt, als die Rotte zu Stand 2 weitergeht. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Er darf das ganze Layout in einer anderen Rotte nachschießen",
+    "Er schießt Stand 1 nach den anderen und macht dann weiter",
+    "Er macht ab Stand 2 weiter; alle Scheiben von Stand 1 sind Null"
+   ],
+   "explain": "Wer erst an einem späteren Stand einsteigt, erhält für alle nicht geschossenen Scheiben der vorherigen Stände Null, und ein Layout mit verpassten Ständen darf nie in einer anderen Rotte geschossen werden."
+  },
+  "sp-q034": {
+   "q": "Wie viele Scheiben ergibt ein Sporting-Layout, und wie sind sie aufgeteilt?",
+   "options": [
+    "25: 15 Einzelscheiben und 5 Doubletten",
+    "25: 10 Einzelscheiben und 5 Doubletten, dazu 5 Hasen",
+    "20: 10 Einzelscheiben und 5 Doubletten",
+    "30: 20 Einzelscheiben und 5 Doubletten"
+   ],
+   "explain": "Jeder Layout-Typ ergibt 25 Scheiben: 15 Einzelscheiben und 5 Doubletten (15 + 10 = 25)."
+  },
+  "sp-q035": {
+   "q": "Wie weit unterhalb der Schulterachse wird die Markierungslinie an der Weste des Schützen angebracht?",
+   "options": [
+    "15 cm",
+    "20 cm",
+    "25 cm",
+    "30 cm"
+   ],
+   "explain": "Die Linie liegt 25 cm (9,85 Zoll) unterhalb der Schulterachse, parallel zu ihr und in einer Kontrastfarbe."
+  },
+  "sp-q036": {
+   "q": "Innerhalb wie vieler Sekunden nach dem Signal des Schiedsrichters muss die Scheibe geworfen werden?",
+   "options": [
+    "1 Sekunde",
+    "3 Sekunden",
+    "5 Sekunden",
+    "10 Sekunden"
+   ],
+   "explain": "Die Scheibe muss innerhalb von drei Sekunden nach dem akustischen Signal des Schiedsrichters geworfen werden; eine spätere Scheibe ist No Bird."
+  },
+  "sp-q037": {
+   "q": "Wann wird bei einer Doublette auf Schuss die zweite Scheibe geworfen?",
+   "options": [
+    "Genau gleichzeitig mit der ersten",
+    "0 bis 3 Sekunden nach dem Schuss auf die erste",
+    "3 bis 5 Sekunden nach dem Abwurf der ersten Scheibe",
+    "Wenn der Schütze ein zweites Mal abruft"
+   ],
+   "explain": "Die zweite Scheibe einer Doublette auf Schuss wird 0 bis 3 Sekunden nach dem Schuss auf die erste geworfen; der Schuss löst sie aus."
+  },
+  "sp-q038": {
+   "q": "Wie viel Zeit ist zwischen Einzelscheiben bzw. zwischen Doubletten höchstens erlaubt?",
+   "options": [
+    "10 Sekunden",
+    "15 Sekunden",
+    "30 Sekunden",
+    "1 Minute"
+   ],
+   "explain": "Ein Schütze hat höchstens 15 Sekunden; die erste Überschreitung bringt eine Verwarnung, danach gelten die Strafen nach 12.2."
+  },
+  "sp-q039": {
+   "q": "Innerhalb wie vieler Sekunden nach der endgültigen Entscheidung des Schiedsrichters über einen Protest muss der Schütze weiterschießen?",
+   "options": [
+    "5 Sekunden",
+    "15 Sekunden",
+    "30 Sekunden",
+    "60 Sekunden"
+   ],
+   "explain": "Der Schütze muss innerhalb von 15 Sekunden weiterschießen; sonst gilt das als Weigerung, der Anweisung zu folgen, und es gelten die Strafen nach Kapitel 13."
+  },
+  "sp-q040": {
+   "q": "Wie hoch ist die maximale Schrotvorlage einer Sporting-Patrone?",
+   "options": [
+    "24 g",
+    "28 g (Toleranz +2 %)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Die Vorlage darf 28 g Blei nicht überschreiten, mit einer maximalen Toleranz von +2 %."
+  },
+  "sp-q041": {
+   "q": "Welcher Schrotdurchmesser ist zulässig?",
+   "options": [
+    "1,5 bis 2,0 mm",
+    "2,0 bis 2,5 mm (±0,1 mm)",
+    "2,5 bis 3,0 mm",
+    "Jede Größe bis 3,5 mm"
+   ],
+   "explain": "Die Schrotkörner müssen kugelförmig sein, mit 2,0 bis 2,5 mm Durchmesser und einer Toleranz von ±0,1 mm."
+  },
+  "sp-q042": {
+   "q": "Wie groß ist die Mindestlauflänge und welches Kaliber ist höchstens erlaubt?",
+   "options": [
+    "60 cm, Kaliber 10",
+    "66 cm, Kaliber 12",
+    "71 cm, Kaliber 12",
+    "76 cm, Kaliber 20"
+   ],
+   "explain": "Die Läufe müssen mindestens 66 cm lang sein, und das Kaliber darf 12 nicht überschreiten."
+  },
+  "sp-q043": {
+   "q": "Wie viele Patronen darf eine Selbstladeflinte auf dem Stand enthalten?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "So viele, wie das Magazin fasst"
+   ],
+   "explain": "Eine Selbstladeflinte darf höchstens zwei Patronen enthalten und wird nur auf dem Stand mit Erlaubnis des Schiedsrichters geladen."
+  },
+  "sp-q044": {
+   "q": "Welche Kaution muss einer schriftlichen Berufung an die Jury beiliegen?",
+   "options": [
+    "20 % des Startgelds",
+    "40 % des Startgelds",
+    "50 % des Startgelds",
+    "Das volle Startgeld"
+   ],
+   "explain": "Eine Berufung an die Jury wird schriftlich eingelegt, mit einer Kaution in Höhe von 40 % des Startgelds."
+  },
+  "sp-q045": {
+   "q": "Wie viele Schützen darf eine Rotte höchstens haben?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Eine Rotte hat höchstens sechs Schützen und wird ausgelost."
+  },
+  "sp-q046": {
+   "q": "Wie viele Scheiben umfasst ein internationaler Sporting-Wettkampf?",
+   "options": [
+    "100",
+    "150",
+    "200",
+    "250"
+   ],
+   "explain": "Ein internationaler Wettkampf umfasst 200 Scheiben, geschossen in Runden zu 25; nur die Jury darf das in Ausnahmefällen ändern."
+  },
+  "sp-q047": {
+   "q": "Nach einer wie langen Unterbrechung muss der Schiedsrichter den Schützen die Scheiben des Stands erneut vorwerfen?",
+   "options": [
+    "Mehr als 5 Minuten",
+    "Mehr als 10 Minuten",
+    "Mehr als 15 Minuten",
+    "Mehr als 30 Minuten"
+   ],
+   "explain": "Fällt eine Maschine aus oder ruht das Schießen länger als 10 Minuten, werden die Scheiben dieses Stands erneut vorgeworfen."
+  },
+  "sp-q048": {
+   "q": "Wie ruft der Schiedsrichter einen Schützen auf, der nicht am Stand ist?",
+   "options": [
+    "Einmal mit Namen, dann gilt der Schütze als abwesend",
+    "Name und Nummer dreimal innerhalb von 1 Minute",
+    "Name und Nummer dreimal innerhalb von 3 Minuten",
+    "Per Lautsprecher, dann 5 Minuten warten"
+   ],
+   "explain": "Der Schiedsrichter ruft Namen und Nummer des Schützen dreimal innerhalb einer Minute auf."
+  },
+  "sp-q049": {
+   "q": "Wie oft darf der Schütze auf dem Stand beim Vorwerfen verlangen, eine Scheibe noch einmal zu sehen?",
+   "options": [
+    "Einmal pro Stand",
+    "Bis zu 2 Scheiben für jede Scheibe im Wurfschema",
+    "Bis zu 3 Scheiben pro Maschine",
+    "So oft wie nötig"
+   ],
+   "explain": "Auf Wunsch wiederholt der Schiedsrichter das Vorwerfen, höchstens zwei Scheiben für jede Scheibe in der Reihenfolge des Wurfschemas."
+  },
+  "sp-q050": {
+   "q": "Innerhalb welcher Zeit nach dem Aufruf müssen die Schützen bei einem nicht angesetzten Stechen bereit sein?",
+   "options": [
+    "5 Minuten",
+    "15 Minuten",
+    "30 Minuten",
+    "1 Stunde"
+   ],
+   "explain": "Die Schützen müssen mit der Jury in Kontakt bleiben, damit sie innerhalb von 15 Minuten nach dem Aufruf schießen können; wer fehlt, wird disqualifiziert."
+  },
+  "sp-q051": {
+   "q": "Ein Verband will eine internationale Meisterschaft auf einem noch nicht abgenommenen Schießstand ausrichten. Wie lange im Voraus muss er den Stand der FITASC vorstellen?",
+   "options": [
+    "Mindestens 3 Monate",
+    "Mindestens 6 Monate",
+    "Mindestens 8 Monate",
+    "Mindestens 12 Monate"
+   ],
+   "explain": "Der Schießstand und der Organisationsplan müssen einem Vertreter der FITASC mindestens acht Monate vor der Veranstaltung vorgestellt werden."
+  },
+  "sp-q052": {
+   "q": "Welchen Anteil der Scheiben muss ein durchschnittlicher Schütze treffen, damit eine Flugbahn zur Klasse B gehört?",
+   "options": [
+    "Mehr als 80 %",
+    "60 % bis 80 %",
+    "40 % bis 60 %",
+    "Weniger als 40 %"
+   ],
+   "explain": "Klasse A sind mehr als 80 %, Klasse B 60 % bis 80 %, Klasse C 40 % bis 60 %. Empfohlen ist pro Stand eine A-, zwei B- und eine C-Flugbahn."
+  },
+  "sp-q053": {
+   "q": "Wie lange wird ein Ausschluss bei der FITASC vermerkt, und innerhalb welcher Frist kann ein zweiter Ausschluss zu einer lebenslangen Sperre führen?",
+   "options": [
+    "3 Jahre vermerkt; zweiter innerhalb 1 Jahres",
+    "5 Jahre vermerkt; zweiter innerhalb 3 Jahren",
+    "10 Jahre vermerkt; zweiter innerhalb 5 Jahren",
+    "Lebenslang vermerkt; jeder zweite Ausschluss"
+   ],
+   "explain": "Der Vermerk wird fünf Jahre lang geführt; ein zweiter Ausschluss innerhalb von drei Jahren kann zu einer lebenslangen Sperre führen, über die nur das FITASC Management Committee entscheidet."
+  },
+  "sp-q054": {
+   "q": "Weil Sporting die Jagd nachahmt, darf bei einer Sporting-Veranstaltung auch auf lebende Tiere geschossen werden.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Sporting wird auf künstliche Wurfscheiben geschossen; das Schießen auf lebende Tiere ist in dieser Disziplin nicht erlaubt."
+  },
+  "sp-q055": {
+   "q": "Eine Vorderschaftrepetierflinte (Pump Action) ist im Sporting erlaubt, solange sie Kaliber 12 oder kleiner hat.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Jede Jagdflinte, auch eine Selbstladeflinte, darf verwendet werden, Vorderschaftrepetierer jedoch nicht."
+  },
+  "sp-q056": {
+   "q": "Zwischen der ersten und der zweiten Scheibe einer Doublette darf der Schütze die Flinte in beliebiger Haltung führen.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Richtig, bei Doubletten auf Schuss, Simultan- und Rafaledoubletten. Die freie Haltung gilt nur zwischen den beiden Scheiben; vor der ersten ist weiterhin die Bereitschaftsstellung vorgeschrieben."
+  },
+  "sp-q057": {
+   "q": "Auf einen Rollhasen darf aus der Hüfte geschossen werden, weil er über den Boden läuft.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Auf jede Scheibe, auch auf Hasen, muss mit an der Schulter angeschlagener Flinte geschossen werden."
+  },
+  "sp-q058": {
+   "q": "Beim Vorwerfen werden dem ersten Schützen der Rotte die Doubletten auf Schuss gezeigt.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Doubletten auf Schuss werden nicht vorgeworfen; nur Simultan- und Rafaledoubletten werden gezeigt, auf Wunsch bis zu zweimal wiederholt."
+  },
+  "sp-q059": {
+   "q": "Ein Schütze darf am ersten Stand einen Probeschuss abgeben, um zu prüfen, ob eine frisch reparierte Flinte funktioniert.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Flinten dürfen nie auf einem Schützenstand getestet werden; dafür gibt es den speziellen Probeschussstand beim Clubhaus, bevor man auf das Layout geht."
+  },
+  "sp-q060": {
+   "q": "Während einer Runde darf ein Schütze zwischen den Einzelscheiben und den Doubletten einen Choke wechseln, sofern es keine Verzögerung verursacht.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Richtig. Flinte, Wechselchoke oder Lauf dürfen zwischen den Ständen oder zwischen Einzelscheiben und Doubletten ohne Verzögerung gewechselt werden, aber nie, wenn der Schütze bereits auf dem Stand ist."
+  },
+  "sp-q061": {
+   "q": "In einem offiziellen Wettkampf dürfen zwei Schützen derselben Rotte eine Flinte gemeinsam benutzen, wenn beide einverstanden sind.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Zwei Schützen derselben Rotte dürfen in einem offiziellen Wettkampf nicht dieselbe Flinte benutzen oder teilen. Ausleihen ist nur ausnahmsweise nach einem Defekt erlaubt, um die Runde zu beenden."
+  },
+  "sp-q062": {
+   "q": "Gehörschutz ist nicht nur für Schützen Pflicht, sondern auch für Schiedsrichter, Personal und Zuschauer auf oder nahe einem Layout.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Richtig. Alle auf oder nahe einem Layout müssen Gehörschutz tragen; ein Schütze ohne Gehörschutz gilt als abwesend (16.7)."
+  },
+  "sp-q063": {
+   "q": "Ein aus dem Wettkampf ausgeschlossener Schütze bekommt das Startgeld für die nicht geschossenen Scheiben erstattet.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Ein ausgeschlossener Schütze erhält keine Erstattung und keinerlei finanzielle Entschädigung."
+  },
+  "sp-q064": {
+   "q": "Im Sudden-Death-Stechen zählen bei einer Doublette auf Schuss „Treffer–Null“ und „Null–Treffer“ gleich.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Richtig. Nur im Sudden Death zählt eine Doublette auf Schuss als Paar aus zwei Scheiben, egal welche gefehlt wurde."
+  },
+  "sp-q065": {
+   "q": "Bei Gleichstand zweier Mannschaften schießen sie ein Mannschaftsstechen auf einem neuen Layout.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Ein Mannschaftsstechen gibt es nicht: Die Mannschaften werden nach ihrem gemeinsamen Ergebnis auf dem 8. Layout gereiht, danach durch Rückwärtszählung vom 7. bis zum 1."
+  },
+  "sp-q066": {
+   "q": "Gegen welche dieser Entscheidungen des Schiedsrichters KANN man bei der Jury Berufung einlegen?",
+   "options": [
+    "Ob eine Scheibe Treffer oder Null war",
+    "Ob eine Scheibe No Bird war",
+    "Ob eine Flugbahn korrekt war",
+    "Eine Rote Karte wegen der Flintenhaltung"
+   ],
+   "explain": "Entscheidungen über Flugbahn, No Bird sowie Treffer/Null gehen nicht an die Jury. Gegen jede andere Entscheidung des Schiedsrichters kann schriftlich mit 40 % Kaution Berufung eingelegt werden."
+  },
+  "sp-q067": {
+   "q": "Die Jury weist die Berufung eines Schützen ab. Was geschieht mit der Kaution?",
+   "options": [
+    "Sie geht an den ausrichtenden Verein",
+    "Sie geht an eine vom FITASC-Präsidenten gewählte gemeinnützige Organisation",
+    "Sie wird trotzdem zurückgezahlt",
+    "Sie kommt zum Preisgeld"
+   ],
+   "explain": "Wird der Berufung stattgegeben, wird die Kaution erstattet; andernfalls geht sie an eine vom FITASC-Präsidenten gewählte gemeinnützige Organisation."
+  },
+  "sp-q068": {
+   "q": "Wie protestiert ein Schütze korrekt gegen eine Entscheidung auf dem Stand?",
+   "options": [
+    "Er geht hinaus, hebt die Scheibe auf und zeigt sie dem Schiedsrichter",
+    "Er schießt den Stand zu Ende und spricht dann mit dem Schiedsrichter",
+    "Er hebt sofort die Hand und sagt „Appeal“ oder „Protest“",
+    "Er lässt die Rotte abstimmen"
+   ],
+   "explain": "Der Protest muss sofort auf dem Stand erfolgen: Hand heben und „Appeal“ oder „Protest“ sagen. Schützen dürfen nie ihren Platz verlassen oder eine Scheibe aufheben."
+  },
+  "sp-q069": {
+   "q": "Ein Schiedsrichter ist sich bei einer Entscheidung unsicher. Wen darf er befragen, und mit welcher Wirkung?",
+   "options": [
+    "Einen anderen Schiedsrichter, den Puller oder die Schützen der Rotte, nur zur Beratung; danach ist seine Entscheidung endgültig",
+    "Nur die Jury; ihre Meinung ist bindend",
+    "Niemanden; er muss No Bird erklären",
+    "Den Trainer des Schützen, dessen Meinung entscheidet"
+   ],
+   "explain": "Der Schiedsrichter darf einen anderen Schiedsrichter, den Puller oder die Schützen der Rotte rein beratend befragen, ist an ihre Meinung nicht gebunden, und seine Entscheidung ist danach endgültig."
+  },
+  "sp-q070": {
+   "q": "Wie werden die Maschinen eines Stands bezeichnet?",
+   "options": [
+    "Nach Scheibenfarbe",
+    "Mit Buchstaben von rechts nach links, vom Puller aus gesehen",
+    "Mit den Buchstaben A, B, C, D von links nach rechts, vom Stand aus gesehen",
+    "Mit den Zahlen 1–4 in Schießreihenfolge"
+   ],
+   "explain": "Die Maschinen werden mit den Buchstaben A, B, C und D bezeichnet, von links nach rechts vom Schützenstand aus gesehen; Wurfschema und Ergebniskarte verwenden sie."
+  },
+  "sp-q071": {
+   "q": "An einer Position gibt es 3 Maschinen und 2 Doubletten. Welche Kombination ist NICHT erlaubt?",
+   "options": [
+    "Zwei Simultandoubletten",
+    "Zwei Rafaledoubletten",
+    "Eine Simultan- und eine Rafaledoublette",
+    "Zwei Doubletten auf Schuss"
+   ],
+   "explain": "An einer solchen Position können die Doubletten simultan, Rafale oder beides sein, zwei Doubletten auf Schuss sind jedoch nicht erlaubt."
+  },
+  "sp-q072": {
+   "q": "Welche Regel gilt für die Zusammenstellung der Doubletten an einem Stand?",
+   "options": [
+    "Eine Flugbahn der Klasse C darf in den Doubletten nur einmal vorkommen, am besten mit einer Scheibe der Klasse A",
+    "Doubletten müssen immer auf Schuss sein",
+    "Doubletten dürfen neue Flugbahnen enthalten, die nicht als Einzelscheiben gezeigt wurden",
+    "Zwei Scheiben der Klasse C ergeben die beste Doublette"
+   ],
+   "explain": "Doubletten bestehen nur aus Scheiben, die von dieser Position bereits als Einzelscheiben geworfen wurden; Klasse C darf nur einmal vorkommen, am besten zusammen mit einer A. B + B und B + A sind erlaubt."
+  },
+  "sp-q073": {
+   "q": "Welche dieser Maßnahmen gehört NICHT zu den Strafen der Jury bei Wiederholungsverstoß, Weigerung, der Anweisung zu folgen, oder Beeinflussung eines Schiedsrichters?",
+   "options": [
+    "Ausschluss vom Wettkampf",
+    "Abzug einer Scheibe",
+    "Verlust einer Runde zu 25 Scheiben",
+    "Eine Geldstrafe"
+   ],
+   "explain": "Die Strafen der Jury sind: Abzug einer Scheibe, Verlust einer Runde zu 25 Scheiben oder Ausschluss. Eine Geldstrafe gehört nicht dazu."
+  },
+  "sp-q074": {
+   "q": "Während einer Runde sagt ein Trainer hinter dem Stand seinem Schützen ständig, wo er die Flinte halten soll. Was tut der Schiedsrichter?",
+   "options": [
+    "Gelbe Karte für den Teilnehmer, und der Trainer wird aus dem Schießbereich verwiesen",
+    "Sofortiger Ausschluss des Schützen",
+    "Null für die nächste Scheibe des Schützen",
+    "Nichts; Coaching zwischen den Scheiben ist erlaubt"
+   ],
+   "explain": "Coaching während des Wettkampfs ist verboten: Der Teilnehmer erhält eine Gelbe Karte (Wiederholungen fallen unter Kapitel 13), und der Trainer wird aus dem Schießbereich entfernt."
+  },
+  "sp-q075": {
+   "q": "Die Flinte eines Schützen geht an Stand 2 kaputt und lässt sich nicht schnell reparieren. Was darf er tun?",
+   "options": [
+    "Ungefragt die Flinte des Pullers benutzen",
+    "Den Stand auslassen und dessen Scheiben als No Bird werten lassen",
+    "Das ganze Layout später in einer Rotte seiner Wahl nachschießen",
+    "Mit Zustimmung des Schiedsrichters sofort mit einer anderen Flinte weitermachen, z. B. mit Einverständnis des Besitzers geliehen"
+   ],
+   "explain": "Lässt sich die Flinte nicht reparieren, darf der Schütze mit Zustimmung des Schiedsrichters in der Rotte weiterschießen, wenn er sofort eine andere Flinte bekommt; andernfalls beendet er die Runde auf einem freien Platz in einer anderen Rotte, nur mit Genehmigung der Jury."
+  },
+  "sp-q076": {
+   "q": "Bei einem Schützen mit Release-Abzug wird die erste Scheibe als No Bird erklärt. Was muss er tun?",
+   "options": [
+    "Den Abzug sofort loslassen und die Flinte öffnen",
+    "Den Abzug gedrückt halten und eine neue Scheibe abrufen, die Flinte bei gehaltenem Abzug öffnen oder in eine vom Schiedsrichter gezeigte sichere Richtung schießen",
+    "Die Flinte dem Schiedsrichter übergeben",
+    "Vor dem Stand in den Boden schießen"
+   ],
+   "explain": "Er muss den Abzug gedrückt halten und eine von drei sicheren Möglichkeiten wählen: eine neue Scheibe abrufen, die Flinte bei gehaltenem Abzug öffnen oder in eine sichere Richtung schießen, die der Schiedsrichter zeigt."
+  },
+  "sp-q077": {
+   "q": "Was muss der Schiedsrichter mit der Ergebniskarte tun, bevor die Rotte zur nächsten Position weitergeht?",
+   "options": [
+    "Sie per Läufer an die Anzeigetafel schicken",
+    "Sie von jedem Schützen unterschreiben lassen",
+    "Sie der Jury übergeben",
+    "Sie fotografieren und vor dem Namen des Schützen, der sie trägt, ein Sternchen setzen"
+   ],
+   "explain": "Der Schiedsrichter fotografiert die Karte und setzt ein Sternchen vor den Namen des Teilnehmers, dem sie anvertraut wird; für jeden Stand wird ein Stift in einer anderen Farbe verwendet."
+  },
+  "sp-q078": {
+   "q": "Welche Kleidung ist für einen Teilnehmer zulässig?",
+   "options": [
+    "Bermudashorts, T-Shirt und Sandalen",
+    "Kurze Laufshorts und ein T-Shirt",
+    "Eine Skeetweste ohne etwas darunter",
+    "Lange Bermudashorts, die 4 cm über dem Knie enden, kurzärmeliges Polohemd, geschlossene Schuhe"
+   ],
+   "explain": "Zulässig sind nur lange Bermudashorts, die höchstens 5 cm über dem Knie enden; Oberteile brauchen mindestens kurze Ärmel und einen Kragen oder Rundhalsausschnitt; keine Weste auf nackter Haut; keine Sandalen."
+  },
+  "sp-q079": {
+   "q": "Zwei Schützen sind punktgleich auf Platz 5. Wie wird die Reihenfolge zwischen ihnen bestimmt?",
+   "options": [
+    "Sudden-Death-Stechen",
+    "Nach der Auslosung",
+    "Ein Stechen über 25 Scheiben",
+    "Sie teilen sich den Platz und werden durch Rückwärtszählung von Layout 8 bis Layout 1 gereiht"
+   ],
+   "explain": "Stechen gibt es nur um die ersten drei Plätze. Ab Platz vier teilen sich punktgleiche Schützen den Platz und werden durch Rückwärtszählung vom 8. bis zum 1. Layout gereiht."
+  },
+  "sp-q080": {
+   "q": "Ein Standschiedsrichter findet eine Flugbahn zu leicht. Darf er sie ändern?",
+   "options": [
+    "Nein; er darf eine fehlerhafte Flugbahn nur nach einem Maschinendefekt oder außergewöhnlichem Wetter neu einstellen, wenn die Scheibe nicht erscheint oder gefährlich ist",
+    "Ja, nachdem er den Oberschiedsrichter informiert hat",
+    "Ja, wenn die Rotte zustimmt",
+    "Ja, zwischen den Runden"
+   ],
+   "explain": "Die von Jury und Parcoursbauern eingestellten Flugbahnen sind fest. Der Schiedsrichter darf eine fehlerhafte nur nach einer Maschinenstörung oder außergewöhnlichem Wetter neu einstellen; ein Parcoursbauer oder ein Jurymitglied sollte sie prüfen."
+  },
+  "cs-q001": {
+   "q": "Bei manueller Auslösung verlässt die Scheibe die Maschine etwa 4 Sekunden nach dem Abruf des Schützen. Der Schütze schießt und fehlt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ZERO und eine Verwarnung wegen zu langsamen Schießens",
+    "Der Schütze darf wählen, ob das Ergebnis bestehen bleibt"
+   ],
+   "explain": "Bei manueller Auslösung muss die Scheibe innerhalb von 0 bis 3 Sekunden nach dem Abruf kommen; eine mehr als 3 Sekunden später geworfene Scheibe ist NO BIRD."
+  },
+  "cs-q002": {
+   "q": "Wie breit ist das vorgeschriebene Rechteck (ABCD), über das die Compak-Scheiben fliegen müssen?",
+   "options": [
+    "25 bis 30 m",
+    "35 bis 40 m",
+    "40 bis 50 m",
+    "genau 30 m"
+   ],
+   "explain": "Das Rechteck ist mindestens 35 m und höchstens 40 m breit und 25 m tief, mit vier Markierungspfählen an den Ecken."
+  },
+  "cs-q003": {
+   "q": "Welcher Abstand zwischen den Mittelpunkten benachbarter Schießpositionen ist erlaubt?",
+   "options": [
+    "1 bis 2 m",
+    "2 bis 5 m",
+    "5 bis 8 m",
+    "mindestens 6 m"
+   ],
+   "explain": "Es gibt fünf Positionen von 1 m x 1 m mit 2 bis 5 m zwischen den Mittelpunkten benachbarter Positionen."
+  },
+  "cs-q004": {
+   "q": "Wie weit hinter der Seite AD des Rechtecks muss die vordere Linie der Schießpositionen liegen?",
+   "options": [
+    "2 bis 5 m",
+    "4 bis 8 m",
+    "8 bis 12 m",
+    "genau 10 m"
+   ],
+   "explain": "Die vordere Linie der Positionen verläuft parallel zur Seite AD und 4 bis 8 m dahinter, wobei Position Nr. 3 mittig zu AD liegt."
+  },
+  "cs-q005": {
+   "q": "Wie hoch muss eine Maschine, die hinter den Schießpositionen steht, mindestens über dem Niveau der Positionen stehen?",
+   "options": [
+    "2 m",
+    "3 m",
+    "4 m",
+    "6 m"
+   ],
+   "explain": "Eine Maschine hinter den Positionen muss mindestens 4 m höher stehen als die Positionen, also auf einem Turm."
+  },
+  "cs-q006": {
+   "q": "Welche feste Verzögerung hat eine Sonopull-Auslöseanlage?",
+   "options": [
+    "0,2 Sekunden",
+    "0,5 Sekunden",
+    "1 Sekunde",
+    "einstellbar von 0 bis 3 Sekunden"
+   ],
+   "explain": "Eine Sonopull-Anlage muss eine feste, nicht veränderbare Verzögerung von 0,5 Sekunden haben; bei manueller Auslösung gelten 0 bis 3 Sekunden."
+  },
+  "cs-q007": {
+   "q": "Wie viele Wurfmaschinen hat ein Compak-Sporting-Layout?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Ein Compak hat sechs Maschinen mit den Buchstaben A bis F von links nach rechts und fünf Schießpositionen."
+  },
+  "cs-q008": {
+   "q": "Auf internationaler Ebene wird beim Compak in Linie nur mit Sonopull ausgelöst, zusammen mit von der FITASC zugelassener elektronischer Schiedsrichter- und Ergebniserfassung.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Richtig. Bei internationalen Wettkämpfen in Linie wird nur mit Sonopull ausgelöst, zusammen mit elektronischer Schiedsrichter- und Ergebniserfassung, die von der FITASC zugelassen ist."
+  },
+  "cs-q009": {
+   "q": "Bei einer Simultandoublette zerbricht der Schütze beide Scheiben mit seiner ersten Patrone. Es passiert ihm auf diesem Compak zum ersten Mal. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE-ONE: beide Scheiben werden gewertet",
+    "ONE für die erste Scheibe, ZERO für die zweite",
+    "NO BIRD: nichts wird gewertet und die Doublette wird wiederholt",
+    "ZERO-ZERO"
+   ],
+   "explain": "Zerbrechen beide Scheiben einer Simultandoublette mit einem Schuss, ist die Doublette NO BIRD und wird neu geschossen; beim zweiten Mal gilt dasselbe. Erst beim dritten Mal wird Zero-Zero gewertet."
+  },
+  "cs-q010": {
+   "q": "Zum dritten Mal auf demselben Compak zerbricht ein Schütze beide Scheiben einer Simultandoublette mit einer einzigen Patrone. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ONE-ONE",
+    "ZERO-ZERO",
+    "ONE-ZERO"
+   ],
+   "explain": "Beim ersten und zweiten Mal ist es NO BIRD und die Doublette wird wiederholt; beim dritten Mal wird die Doublette als Zero-Zero gewertet."
+  },
+  "cs-q011": {
+   "q": "Bei einer Doublette auf Schuss trifft der erste Schuss die erste Scheibe, und ein Stück davon zerbricht auch die zweite Scheibe in der Luft. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE-ONE: beide Scheiben zählen",
+    "Das ONE der ersten Scheibe bleibt bestehen; die Doublette wird wiederholt, um die zweite zu werten",
+    "Die ganze Doublette ist NO BIRD; nichts wird gewertet",
+    "ONE-ZERO"
+   ],
+   "explain": "Zerbricht die erste Scheibe oder ein Stück von ihr die zweite vor dem zweiten Schuss, bleibt das erste Ergebnis bestehen, und die Doublette wird neu geschossen, um die zweite Scheibe zu werten."
+  },
+  "cs-q012": {
+   "q": "Bei einer Simultandoublette feuert ein Schütze absichtlich beide Patronen auf die erste Scheibe, um sie sicher zu treffen. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE für die erste Scheibe, die zweite wird wiederholt",
+    "NO BIRD: die Doublette wird wiederholt",
+    "ZERO-ZERO",
+    "Nur Verwarnung, das Ergebnis bleibt"
+   ],
+   "explain": "Auf jede Scheibe einer Doublette darf nur eine Patrone abgegeben werden; zwei Schüsse auf die erste sind verboten, und der Kurzleitfaden für Schiedsrichter wertet absichtliche zwei Schüsse auf eine Scheibe als Zero-Zero."
+  },
+  "cs-q013": {
+   "q": "Welche Seite des Rechtecks muss die vorgeschriebene gehende (wegfliegende) Scheibe überqueren?",
+   "options": [
+    "AB",
+    "BC",
+    "CD",
+    "DA"
+   ],
+   "explain": "Die drei vorgeschriebenen Flugbahnen sind von links nach rechts (AB, dann CD), von rechts nach links (CD, dann AB) und gehend über BC; DA ist die Seite zu den Schützen hin."
+  },
+  "cs-q014": {
+   "q": "In welcher Reihenfolge darf ein Schütze die beiden Scheiben einer Simultandoublette beschießen?",
+   "options": [
+    "Immer zuerst die linke Scheibe",
+    "In der Reihenfolge des Wurfschemas",
+    "In beliebiger Reihenfolge",
+    "Zuerst die von der Maschine mit dem früheren Buchstaben"
+   ],
+   "explain": "Eine Simultandoublette besteht aus zwei Scheiben, die gleichzeitig aus zwei verschiedenen Maschinen geworfen werden, und der Schütze darf sie in beliebiger Reihenfolge beschießen."
+  },
+  "cs-q015": {
+   "q": "Wie viele Jurymitglieder müssen während der Veranstaltung jederzeit anwesend sein?",
+   "options": [
+    "mindestens 1",
+    "mindestens 2",
+    "mindestens 3",
+    "ein Viertel der Jury"
+   ],
+   "explain": "Jedes Jurymitglied trägt ein Abzeichen, und mindestens zwei Jurymitglieder müssen jederzeit anwesend sein. Ein Viertel der Mitglieder (plus der Präsident) ist das Quorum für Beratungen, nicht die Anwesenheitsregel."
+  },
+  "cs-q016": {
+   "q": "Ein Schütze, der sicher ist, eine als ZERO gewertete Scheibe getroffen zu haben, kann bei der Jury schriftlich Beschwerde einlegen, damit die Wertung geändert wird.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Ob eine Scheibe getroffen oder gefehlt, defekt oder außerhalb der Flugbahn war, entscheidet allein der Schiedsrichter, und dagegen gibt es keine Berufung; andere Entscheidungen des Schiedsrichters können vor der Jury angefochten werden."
+  },
+  "cs-q017": {
+   "q": "Wer gehört bei einem internationalen Compak-Wettkampf der Berufungsjury an?",
+   "options": [
+    "Der Oberschiedsrichter und zwei Jurymitglieder",
+    "Der FITASC-Präsident, der Vorsitzende des Technischen Komitees und der Präsident des ausrichtenden Verbands (oder Vertreter)",
+    "Ein Vertreter je Nationalmannschaft",
+    "Die Disziplinarkommission der FITASC"
+   ],
+   "explain": "Die Berufungsjury hat drei Mitglieder: den FITASC-Präsidenten, den Vorsitzenden des Technischen Komitees und den Präsidenten des ausrichtenden Verbands bzw. deren Vertreter; kein Jurymitglied darf ihr angehören."
+  },
+  "cs-q018": {
+   "q": "Wie viele Compaks zu 25 Scheiben umfasst ein internationaler Wettkampf?",
+   "options": [
+    "4 (100 Scheiben)",
+    "6 (150 Scheiben)",
+    "8 (200 Scheiben)",
+    "10 (250 Scheiben)"
+   ],
+   "explain": "Die vier für internationale Veranstaltungen aufgeführten Compak-Arten ergeben zusammen acht Compaks zu 25 Scheiben, also 200 Scheiben."
+  },
+  "cs-q019": {
+   "q": "Wie viele neue Maschinen sind bei Kontinental- und Weltmeisterschaften im Compak Sporting vorgeschrieben?",
+   "options": [
+    "24",
+    "36",
+    "48",
+    "60"
+   ],
+   "explain": "Aus Gründen der Fairness dürfen die üblichen Maschinen des ausrichtenden Vereins nicht verwendet werden: Vorgeschrieben sind 48 neue Maschinen, die nur für die Meisterschaft aufgestellt und eingestellt werden."
+  },
+  "cs-q020": {
+   "q": "Wann dürfen Flugbahnen, Maschinen oder Wurfschemata des Wettkampfs geändert werden?",
+   "options": [
+    "Jederzeit nach Ermessen der Jury",
+    "Erst nachdem alle Schützen eine vollständige Runde geschossen haben",
+    "Jeden Morgen vor der ersten Rotte",
+    "Nur auf Antrag des Schiedsrichters"
+   ],
+   "explain": "Änderungen sind nur erlaubt, nachdem alle eine vollständige Runde geschossen haben: 50 Scheiben bei 2 Anlagen oder 100 Scheiben bei 4 Anlagen."
+  },
+  "cs-q021": {
+   "q": "Ab wann dürfen Schützen bei einer Welt- oder Kontinentalmeisterschaft im Compak erstmals auf den Meisterschaftsmaschinen und -flugbahnen trainieren?",
+   "options": [
+    "Jederzeit in der Woche davor",
+    "Ab dem offiziellen Training am Samstag vor der Meisterschaft",
+    "Nur am Morgen des ersten Wettkampftags",
+    "Nie: Training gibt es nur auf anderen Anlagen"
+   ],
+   "explain": "Das offizielle Training beginnt am Samstag vor der Meisterschaft, und vor diesem Tag darf niemand auf den Meisterschaftsmaschinen und -flugbahnen trainieren. Die Trainingstabellen müssen sich außerdem von den Wettkampftabellen unterscheiden."
+  },
+  "cs-q022": {
+   "q": "Ein Schütze kommt zum Stand mit der Startnummer vorn an der Weste statt auf dem Rücken. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Er darf diese Runde nicht schießen",
+    "VERWARNUNG; weitere Sanktionen, wenn er es nicht korrigiert",
+    "Abzug einer Scheibe",
+    "Nichts: die Position der Nummer ist frei"
+   ],
+   "explain": "Die Nummer muss auf dem Rücken getragen werden, zwischen Schultern und Taille, vollständig sichtbar. Ein erster Verstoß bringt eine VERWARNUNG; wird er nicht behoben, folgen weitere Sanktionen bis zum Ausschluss durch die Jury."
+  },
+  "cs-q023": {
+   "q": "Sandalen werden im Training geduldet, im Wettkampf aber nicht.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Aus Sicherheitsgründen sind Sandalen sowohl im Training als auch im Wettkampf verboten."
+  },
+  "cs-q024": {
+   "q": "Wer ist dafür verantwortlich, dass ein Schütze pünktlich an seinem Compak ist und mit genug Munition für die Runde bereitsteht?",
+   "options": [
+    "Der Schiedsrichter, der fehlende Schützen aufruft",
+    "Das Sekretariat des Veranstalters",
+    "Der Schütze selbst",
+    "Der Rottenführer"
+   ],
+   "explain": "Die Einhaltung der veröffentlichten Schießzeiten liegt in der Verantwortung des Schützen: Er muss sich beim Schiedsrichter melden, mit Ausrüstung und Munition für eine ganze Runde sofort schießbereit sein und Änderungen im Zeitplan beachten. Der Schiedsrichter sucht keine fehlenden Schützen."
+  },
+  "cs-q025": {
+   "q": "Beim Rottenschießen kommt ein Schütze am Compak an, kurz nachdem der erste Schütze seiner Rotte die erste Scheibe der Runde abgerufen hat. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Er steigt ein und schießt, wenn er an der Reihe ist",
+    "Er erhält 25 Nullen für diese Runde",
+    "Er verliert nur die bereits geschossenen Scheiben",
+    "Gelbe Karte, dann schießt er"
+   ],
+   "explain": "Stichzeitpunkt ist der erste Abruf des ersten Schützen der Rotte; wer danach kommt, erhält 25 Nullen für die Runde (er kann am selben Tag schriftlich Berufung bei der Jury einlegen)."
+  },
+  "cs-q026": {
+   "q": "Ein Schütze verpasst den gesamten ersten Wettkampftag. Was geschieht?",
+   "options": [
+    "Er schießt seine fehlenden Runden am zweiten Tag",
+    "Er wird ab dem zweiten Tag von der Liste gestrichen; um zu schießen, muss er Berufung bei der Jury einlegen",
+    "Er erhält 25 Nullen pro Runde und macht weiter",
+    "Er wird für FITASC-Wettkämpfe gesperrt"
+   ],
+   "explain": "Ein Schütze, der am ersten Tag fehlt, wird ab dem zweiten Tag von der Liste gestrichen; erscheint er und möchte schießen, muss er nach Kapitel 9 Berufung bei der Jury einlegen."
+  },
+  "cs-q027": {
+   "q": "Ein Schütze darf vor Beginn seiner Runde einen Probeschuss auf dem Wettkampfstand abgeben.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Flinten dürfen nur auf einem dafür eingerichteten Stand nahe dem Waffenraum getestet werden, nie vor der Runde auf dem Wettkampfstand."
+  },
+  "cs-q028": {
+   "q": "Nach einem Defekt darf ein Schütze die Runde mit der Flinte eines Mitglieds seiner eigenen Rotte beenden, wenn der Besitzer einverstanden ist.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Eine Flinte darf nur von einem Schützen geliehen werden, der nicht derselben Gruppe oder Rotte angehört, mit Zustimmung des Besitzers und des Schiedsrichters; Schützen einer Gruppe dürfen keine Flinte gemeinsam benutzen."
+  },
+  "cs-q029": {
+   "q": "Wenn für ein Stechen keine Zeit festgelegt ist: Innerhalb wie vieler Minuten nach dem Aufruf müssen die Schützen bereit sein?",
+   "options": [
+    "weniger als 5 Minuten",
+    "weniger als 15 Minuten",
+    "weniger als 30 Minuten",
+    "1 Stunde"
+   ],
+   "explain": "Die betroffenen Schützen müssen mit der Jury in Kontakt bleiben und weniger als 15 Minuten nach dem Aufruf bereit sein; ein abwesender Schütze gilt als zurückgetreten."
+  },
+  "cs-q030": {
+   "q": "Ein Gleichstand um Platz 5 in der Einzelwertung wird durch ein Stechen entschieden.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Stechen gibt es nur um die ersten drei Plätze; ab Platz vier werden punktgleiche Schützen gleich platziert und durch Rückwärtszählung von Compak 8 bis Compak 1 gereiht."
+  },
+  "cs-q031": {
+   "q": "Auf was für einem Compak werden Stechen geschossen?",
+   "options": [
+    "5 Einzelscheiben pro Position",
+    "3 Einzelscheiben und 1 Doublette auf Schuss pro Position",
+    "1 Einzelscheibe und 2 Simultandoubletten pro Position",
+    "Der letzte Compak des Wettkampfs, unverändert"
+   ],
+   "explain": "Die anwesenden Mitglieder der Technischen Kommission (sonst die Jury) wählen den Compak und die Wurfschemata; im Stechen gibt es pro Position eine Einzelscheibe und zwei Simultandoubletten."
+  },
+  "cs-q032": {
+   "q": "Zwei Nationalmannschaften liegen im Gesamtergebnis gleichauf. Wie wird der Gleichstand aufgelöst?",
+   "options": [
+    "Durch ein Mannschaftsstechen über 25 Scheiben",
+    "Durch das gemeinsame Ergebnis der Mitglieder auf dem 8. Compak, dann dem 7. und so weiter",
+    "Durch das beste Einzelergebnis jeder Mannschaft",
+    "Durch den 1. Compak, dann den 2. und so weiter"
+   ],
+   "explain": "Punktgleiche Mannschaften werden nach dem gemeinsamen Ergebnis ihrer Mitglieder auf dem 8. Compak getrennt, dann dem 7., 6. und so weiter zurück bis zum 1."
+  },
+  "cs-q033": {
+   "q": "Ein Schütze, der sich am Ende der Runde weigert, die Ergebnisliste zu unterschreiben, verliert das Recht auf jede Beschwerde.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Richtig. Der Schütze muss die Ergebnisliste am Ende jeder Runde unterschreiben; wer die Unterschrift verweigert, kann keine Beschwerde mehr einlegen."
+  },
+  "cs-q034": {
+   "q": "Wie werden Treffer und Fehler auf einer Compak-Ergebnisliste markiert?",
+   "options": [
+    "Treffer X, Fehler O",
+    "Treffer O, Fehler X",
+    "Treffer 1, Fehler 0",
+    "Treffer /, Fehler -"
+   ],
+   "explain": "Ein Treffer (ONE) wird mit X markiert, ein Fehler mit O; der Schiedsrichter sagt jede ZERO laut oder per Tonsignal an."
+  },
+  "cs-q035": {
+   "q": "Wie viele Schützen darf eine Compak-Rotte höchstens haben?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Eine Rotte hat höchstens 6 Schützen, die dieselbe Runde gleichzeitig auf derselben Anlage schießen."
+  },
+  "cs-q036": {
+   "q": "Wie viel Zeit hat ein Schütze, seine Scheibe abzurufen, nachdem die Scheibe der vorherigen Position geschossen wurde?",
+   "options": [
+    "5 Sekunden",
+    "10 Sekunden",
+    "15 Sekunden",
+    "30 Sekunden"
+   ],
+   "explain": "Das Maximum sind 10 Sekunden; der erste Verstoß ist eine Verwarnung, die auf der Ergebnisliste vermerkt wird, eine Wiederholung in derselben Runde kostet Scheiben."
+  },
+  "cs-q037": {
+   "q": "Nach einer Unterbrechung von mehr als wie vielen Minuten werden die 6 Einzelscheiben erneut vorgeworfen?",
+   "options": [
+    "5 Minuten",
+    "10 Minuten",
+    "15 Minuten",
+    "30 Minuten"
+   ],
+   "explain": "Nach einer Unterbrechung von mehr als 10 Minuten zeigt der Schiedsrichter die 6 Einzelscheiben erneut, sowohl in der Rotte als auch in Linie."
+  },
+  "cs-q038": {
+   "q": "Wie viele vorgefertigte Tabellen für die Flugbahneinstellung enthält Anhang 3?",
+   "options": [
+    "8",
+    "20",
+    "40",
+    "48"
+   ],
+   "explain": "Anhang 3 enthält 40 fertige Wurfschemata, je acht für jede der fünf Positionskombinationen (z. B. Tabellen 17–24: 3 Einzelscheiben und 1 Simultandoublette)."
+  },
+  "cs-q039": {
+   "q": "Im Compak Sporting muss der Schütze mit gesenkter Flinte abrufen, der Schaft sichtbar unterhalb einer Markierung an der Weste.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Im Compak ist die Flintenhaltung beim Abruf frei (angeschlagen oder nicht); das Regelwerk kennt keinen Start mit tiefer Flinte und keine Westenmarkierung. Geschossen wird jede Scheibe dann mit der Flinte an der Schulter."
+  },
+  "cs-q040": {
+   "q": "Auf einem Compak darf Position 2 eine Doublette auf Schuss haben, während Position 4 eine Simultandoublette hat.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Auf einem Compak muss die Art der Doublette an allen 5 Positionen gleich sein; unterschiedliche Tabellen von einem Compak zum nächsten werden empfohlen."
+  },
+  "cs-q041": {
+   "q": "Welche Scheibe ist an einer Position immer die erste Scheibe einer Doublette?",
+   "options": [
+    "Die Scheibe von Maschine A",
+    "Die letzte Scheibe, die an der vorherigen Position geschossen wurde",
+    "Die gehende Scheibe",
+    "Eine beliebige Scheibe nach Wahl des Schützen"
+   ],
+   "explain": "Die erste Scheibe jeder Doublette ist die letzte Scheibe, die an der vorherigen Position geschossen wurde (z. B. A-F, F-C, C-E …); deshalb zeigt der Schiedsrichter sie dem nächsten Schützen."
+  },
+  "cs-q042": {
+   "q": "Wo steht beim Rottenschießen der sechste (wartende) Schütze, und was geschieht, wenn Position 5 fertig ist?",
+   "options": [
+    "Hinter Position 5; er übernimmt dann Position 5",
+    "Hinter Position 1; alle rücken eine Position nach rechts und er tritt auf Position 1",
+    "Neben dem Schiedsrichter; er schließt sich der nächsten Rotte an",
+    "Hinter Position 3; er nimmt die freie Position"
+   ],
+   "explain": "Der wartende Schütze steht hinter Position 1. Hat Position 5 ihr Wurfschema beendet, geht dieser Schütze in die Warteposition, alle anderen rücken eine Position nach rechts, und der wartende Schütze tritt auf Position 1. Beim Positionswechsel sind die Flinten offen und entladen."
+  },
+  "cs-q043": {
+   "q": "Ein Schütze tritt auf seine Position, und der Schiedsrichter bemerkt, dass er keinen Gehörschutz dabei hat. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Gelbe Karte, dann darf er schießen",
+    "Er gilt als abwesend und darf nicht schießen",
+    "Er darf schießen, wenn er eine Verzichtserklärung unterschreibt",
+    "Er verliert eine Scheibe"
+   ],
+   "explain": "Gehörschutz ist Pflicht; ein Teilnehmer, der ohne ihn an die Position kommt, gilt als abwesend und darf nicht schießen. Dasselbe gilt für die Schutzbrille."
+  },
+  "cs-q044": {
+   "q": "Wie groß ist die Mindestlauflänge einer Flinte im Compak Sporting?",
+   "options": [
+    "61 cm (24 Zoll)",
+    "66 cm (26 Zoll)",
+    "71 cm (28 Zoll)",
+    "76 cm (30 Zoll)"
+   ],
+   "explain": "Erlaubt ist jede Flinte mit glattem Lauf im Kaliber 12 oder kleiner, wenn der Lauf mindestens 66 cm (26 Zoll) lang ist."
+  },
+  "cs-q045": {
+   "q": "Wie hoch ist die maximale Schrotvorlage einer Compak-Sporting-Patrone?",
+   "options": [
+    "24 g",
+    "28 g (Toleranz +2 %)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Die Schrotvorlage darf 28 Gramm Blei nicht überschreiten, mit einer Toleranz von +2 %."
+  },
+  "cs-q046": {
+   "q": "Eine Vorderschaftrepetierflinte (Pump Action) ist im Compak Sporting erlaubt, wenn ihr Lauf mindestens 66 cm lang ist.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Vorderschaftrepetierer und Drillinge sind unabhängig von der Lauflänge verboten; auch Riemen, Waffenkameras und Zielhilfen sind untersagt."
+  },
+  "cs-q047": {
+   "q": "Ein Schütze darf seine Wechselchokes zwischen zwei Runden tauschen.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Richtig. Flinte, Chokes oder Läufe zu wechseln ist innerhalb einer Runde verboten, zwischen den Runden aber erlaubt; die einzige Ausnahme innerhalb einer Runde ist eine Störung."
+  },
+  "cs-q048": {
+   "q": "Wie muss eine Flinte mit Release-Abzug gekennzeichnet sein?",
+   "options": [
+    "Ein rotes Band am Lauf",
+    "Ein großes „R“ auf fluoreszierendem Grund an der Außenseite des Hinterschafts",
+    "Nur ein Vermerk auf der Ergebnisliste",
+    "Keine Kennzeichnung nötig, wenn der Schiedsrichter informiert ist"
+   ],
+   "explain": "Der Besitzer muss als Warnung ein Etikett mit einem großen „R“ auf fluoreszierendem Grund an der Außenseite des Hinterschafts anbringen."
+  },
+  "cs-q049": {
+   "q": "Ein Schütze glaubt, seine Scheibe getroffen zu haben, sagt aber nichts. Erst nachdem der nächste Schütze abgerufen und geschossen hat, hebt er den Arm und sagt „PROTEST“. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Der Schiedsrichter muss die Entscheidung überdenken und darf sie in ONE ändern",
+    "Der Protest kommt zu spät; das ZERO bleibt",
+    "Die Scheibe wird als NO BIRD wiederholt",
+    "Der Protest geht zur Entscheidung an die Jury"
+   ],
+   "explain": "Ein Protest muss sofort auf dem Stand erhoben werden, bevor der nächste Schütze abruft. Über Treffer oder Fehler entscheidet ohnehin allein der Schiedsrichter, und dagegen gibt es keine Berufung."
+  },
+  "cs-q050": {
+   "q": "Ein unsicherer Schiedsrichter darf vor seiner Entscheidung Auskünfte einholen. Wer gehört NICHT zu den Personen, die er befragen darf?",
+   "options": [
+    "Ein anderer Schiedsrichter vor Ort",
+    "Der Puller",
+    "Die Schützen der Rotte",
+    "Der Trainer des Schützen hinter dem Stand"
+   ],
+   "explain": "Er darf einen anderen Schiedsrichter, den Puller, die Schützen der Rotte oder diejenigen befragen, die die Ergebnisliste führen; an ihre Meinung ist er nicht gebunden, und seine Entscheidung ist endgültig."
+  },
+  "cs-q051": {
+   "q": "Laut Wurfschema kommt die Einzelscheibe von Maschine C, sie kommt aber von Maschine E. Der Schütze trifft sie. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ZERO",
+    "ONE, und der Puller wird verwarnt"
+   ],
+   "explain": "Eine Scheibe von einer anderen Maschine ist irregulär, also NO BIRD, und bei einer Einzelscheibe wird unabhängig vom Ergebnis eine neue Scheibe geworfen."
+  },
+  "cs-q052": {
+   "q": "Nach dem Schuss fliegt die Scheibe unversehrt weiter, doch es ist ein kleines Staubwölkchen an ihr zu sehen. Kein Stück fällt ab. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "Der Schiedsrichter fragt den Puller und entscheidet dann ONE"
+   ],
+   "explain": "Eine Scheibe ist ZERO, wenn kein sichtbares Stück abbricht; Staub allein (eine „rauchende“ Scheibe) zählt nicht als Treffer."
+  },
+  "cs-q053": {
+   "q": "Eine reguläre Scheibe, regulär beschossen: Ein einziges kleines, aber deutlich sichtbares Stück bricht ab, der Rest fliegt weiter. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ZERO, weil die Scheibe nicht in zwei Teile zerbrochen ist"
+   ],
+   "explain": "Eine Scheibe ist ONE, wenn mindestens ein sichtbares Stück abbricht oder sie ganz oder teilweise pulverisiert wird."
+  },
+  "cs-q054": {
+   "q": "Während der Schütze schwingt, kreuzt eine Scheibe vom benachbarten Compak sein Blickfeld. Er fehlt seine eigene Einzelscheibe. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "NO BIRD nur, wenn der Schütze protestiert",
+    "ZERO, und der benachbarte Compak wird angehalten"
+   ],
+   "explain": "Eine Scheibe oder Stücke von einem anderen Compak rechtfertigen nie ein NO BIRD; das gilt nur für eine verirrte Scheibe von einer Maschine desselben Compaks. Der Fehler bleibt bestehen."
+  },
+  "cs-q055": {
+   "q": "Eine plötzliche Windböe drückt eine reguläre Einzelscheibe genau beim Schuss stark nach unten, und der Schütze fehlt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "NO BIRD, wenn der Schiedsrichter den Wind für außergewöhnlich hält",
+    "Der Schütze darf einmal pro Runde eine Wiederholung verlangen"
+   ],
+   "explain": "Schlechtes Wetter rechtfertigt nie ein NO BIRD: Jede gefehlte Scheibe ist ZERO und jede getroffene ONE, egal unter welchen Bedingungen."
+  },
+  "cs-q056": {
+   "q": "Bei einer Einzelscheibe zündet die erste Patrone nicht. Es ist die erste Störung dieser Art für den Schützen in der Runde. Er bleibt mit der Flinte in Schussrichtung an seinem Platz, bis der Schiedsrichter sie prüft. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "NO BIRD, eine neue Scheibe und eine erste Verwarnung (Gelbe Karte)",
+    "NO BIRD ohne Verwarnung",
+    "ZERO und Rote Karte"
+   ],
+   "explain": "Bei der ersten Störung in einer Runde zu 25 Scheiben führt eine versagende erste Patrone bei einer Einzelscheibe zu NO BIRD und einer neuen Scheibe; diese erste Störung bringt eine erste Verwarnung (Gelbe Karte)."
+  },
+  "cs-q057": {
+   "q": "Später in derselben Runde hat derselbe Schütze ein zweites Patronenversagen derselben Art. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Wieder NO BIRD, mit einer zweiten Gelben Karte",
+    "Alle nicht beschossenen Scheiben werden als ZERO gewertet (Rote Karte)",
+    "Der Schütze wird vom Wettkampf ausgeschlossen",
+    "Er erhält 2 Minuten, um die Flinte zu reparieren, und die Scheibe wird wiederholt"
+   ],
+   "explain": "Die NO-BIRD-Tabelle für Waffen- oder Patronenstörungen gilt nur für die erste Störung in einer Runde; bei einer zweiten Störung derselben Art werden die nicht beschossenen Scheiben als ZERO gewertet (Rote Karte)."
+  },
+  "cs-q058": {
+   "q": "Doublette auf Schuss: Der Schütze trifft die erste Scheibe, dann versagt seine zweite Patrone. Erste Störung dieser Art in der Runde. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE-ZERO",
+    "Die ganze Doublette ist NO BIRD, nichts bleibt bestehen",
+    "Das ONE der ersten Scheibe bleibt; die Doublette wird wiederholt, um die zweite zu werten",
+    "ONE für die erste, und die zweite Scheibe wird allein geworfen"
+   ],
+   "explain": "Versagt bei einer Doublette auf Schuss die zweite Patrone (erste Störung), bleibt das Ergebnis der ersten Scheibe bestehen, und die Doublette wird für die zweite Scheibe wiederholt."
+  },
+  "cs-q059": {
+   "q": "Bei einer Einzelscheibe fehlt der Schütze mit dem ersten Schuss, und seine zweite Patrone versagt. Erste Störung in der Runde. Eine neue Scheibe wird geworfen. Wie muss sie gewertet werden? Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Normal: jeder Schuss darf sie treffen",
+    "Sie kann nur mit dem zweiten Schuss gewertet werden; der erste muss absichtlich danebengehen",
+    "Sie ist bereits ZERO; die neue Scheibe dient nur zur Übung",
+    "Nur der erste Schuss zählt"
+   ],
+   "explain": "Nach einer versagenden zweiten Patrone bei einer Einzelscheibe wird eine neue Scheibe geworfen, die nur mit dem zweiten Schuss getroffen werden darf; daher schießt der Schütze mit dem ersten absichtlich vorbei."
+  },
+  "cs-q060": {
+   "q": "Ein Hase wird mit dem ersten Schuss gefehlt und zerbricht dann an einer Bodenwelle, bevor der zweite Schuss fällt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "ONE",
+    "NO BIRD: der Hase wird neu geworfen und kann nur mit dem zweiten Schuss gewertet werden",
+    "NO BIRD: der Hase wird neu geworfen und normal gewertet"
+   ],
+   "explain": "Ein mit dem ersten Schuss gefehlter Hase, der vor dem zweiten Schuss zerbricht, ist NO BIRD; er wird neu geworfen und kann nur mit dem zweiten Schuss gewertet werden, der erste muss also absichtlich danebengehen."
+  },
+  "cs-q061": {
+   "q": "Bei einer Simultandoublette zerbricht eine der beiden Scheiben beim Verlassen der Maschine. Der Schütze trifft die andere. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE für die getroffene Scheibe; die zerbrochene wird allein wiederholt",
+    "Die ganze Doublette wird neu geworfen",
+    "ONE-ZERO",
+    "ONE-ONE"
+   ],
+   "explain": "Eine beim Abwurf zerbrochene Scheibe ist ein NO-BIRD-Fall, und jede irreguläre Scheibe in einer Simultandoublette bedeutet, dass die ganze Doublette neu geworfen wird."
+  },
+  "cs-q062": {
+   "q": "Genau beim Abruf dröhnt hinter dem Stand eine Lautsprecherdurchsage; der Schiedsrichter sieht deutlich, wie der Schütze zusammenzuckt und die Flinte senkt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ZERO, Verweigerung einer Scheibe",
+    "Verwarnung wegen Verzögerung"
+   ],
+   "explain": "NO BIRD wird gegeben, wenn der Schiedsrichter sieht, dass der Schütze offensichtlich gestört wurde."
+  },
+  "cs-q063": {
+   "q": "Der Puller löst eine Scheibe aus, bevor der Schütze sie abgerufen hat. Der überraschte Schütze schießt und fehlt. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ZERO, weil er sich zum Schießen entschieden hat",
+    "ZERO und Gelbe Karte"
+   ],
+   "explain": "Eine nicht abgerufene Scheibe ist ein NO-BIRD-Fall; sie ist zugleich die einzige Scheibe, die ein Schütze verweigern darf."
+  },
+  "cs-q064": {
+   "q": "Ein Schütze ruft eine Einzelscheibe ab, hält sie für zu tief und schießt nicht. Der Schiedsrichter hält die Scheibe für regulär. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ZERO",
+    "Nur Verwarnung; die Scheibe wird wiederholt",
+    "Der Schütze darf protestieren und bekommt automatisch eine neue Scheibe"
+   ],
+   "explain": "Ein Schütze darf nur eine nicht abgerufene Scheibe verweigern. Die Verweigerung einer Scheibe, die der Schiedsrichter für regulär hält, wird bestraft: bei einer Einzelscheibe ZERO."
+  },
+  "cs-q065": {
+   "q": "Bei einer Simultandoublette senkt der Schütze die Flinte, ohne auf die erste Scheibe zu schießen, und sagt, sie sei von der Flugbahn abgewichen. Der Schiedsrichter hält beide Scheiben für regulär. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO für die erste, die zweite wird neu geworfen",
+    "ZERO-ZERO",
+    "NO BIRD",
+    "ZERO für die erste, NO BIRD für die zweite"
+   ],
+   "explain": "Ob eine Scheibe ihre Flugbahn verlassen hat, entscheidet der Schiedsrichter. Wird bei einer Simultandoublette nicht auf die erste Scheibe geschossen, die der Schiedsrichter für regulär hält, wird ZERO-ZERO gewertet."
+  },
+  "cs-q066": {
+   "q": "Auf diesem Compak wurde der Schütze bereits verwarnt, weil er mehr als 10 Sekunden für den Abruf brauchte. Jetzt ruft der Schiedsrichter bei einer Einzelscheibe deutlich NO BIRD, doch der Schütze schießt trotzdem und trifft. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ONE",
+    "NO BIRD: die Scheibe wird wiederholt",
+    "ZERO (Rote Karte)",
+    "Eine zweite Gelbe Karte; die Scheibe wird wiederholt"
+   ],
+   "explain": "Auf ein erklärtes NO BIRD darf nie geschossen werden. Nach einer ersten Verwarnung führt jeder weitere Verstoß auf demselben Compak zur Roten Karte, und bei einer Einzelscheibe wird ZERO gewertet."
+  },
+  "cs-q067": {
+   "q": "Zum ersten Mal in der Runde braucht ein Schütze etwa 15 Sekunden für den Abruf, nachdem die Scheibe der vorherigen Position geschossen wurde. Dann trifft er die Einzelscheibe. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO",
+    "ONE, mit einer Verwarnung auf der Ergebnisliste",
+    "NO BIRD und Gelbe Karte",
+    "ONE ohne Folgen"
+   ],
+   "explain": "Das Limit für den Abruf beträgt 10 Sekunden. Bei der ersten Überschreitung erhält der Schütze eine Verwarnung, die auf der Ergebnisliste vermerkt wird; erst eine Wiederholung in derselben Runde kostet Scheiben."
+  },
+  "cs-q068": {
+   "q": "Bereits in dieser Runde wegen Überschreitens der 10 Sekunden verwarnt, ruft der Schütze erneut zu spät ab, diesmal bei einer Doublette auf Schuss. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "Nur eine zweite Verwarnung",
+    "NO BIRD / NO BIRD"
+   ],
+   "explain": "Eine Wiederholung in derselben Runde wird nach der Tabelle 21.5 gewertet: Einzelscheibe ZERO, Doublette auf Schuss ZERO / NO BIRD, Simultandoublette ZERO / ZERO."
+  },
+  "cs-q069": {
+   "q": "Zwischen den Positionen sagt ein Trainer hinter dem Compak einem Teilnehmer ständig, wo er bei der nächsten Scheibe die Flinte halten soll. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Nichts: Ratschläge zwischen den Scheiben sind erlaubt",
+    "Gelbe Karte für den Teilnehmer; der Trainer wird aus dem Schießbereich entfernt",
+    "Der Teilnehmer verliert eine Runde zu 25 Scheiben",
+    "Nur der Trainer wird verwarnt"
+   ],
+   "explain": "Coaching während des Wettkampfs ist nicht erlaubt: Der Teilnehmer erhält eine Gelbe Karte (Wiederholungen führen zu Sanktionen nach Kapitel 23), und der Schiedsrichter entfernt den Trainer aus dem Schießbereich."
+  },
+  "cs-q070": {
+   "q": "Die Flinte des Schützen geht kaputt; der Schiedsrichter prüft sie (erste Störung). Zwei Minuten vergehen, die Flinte ist nicht repariert und keine andere Flinte ist verfügbar. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Er darf bis zum Ende der Rotte warten und dann fertig schießen",
+    "Die nicht geschossenen Scheiben werden als Null gewertet",
+    "Die Runde wird annulliert und später neu geschossen",
+    "Er erhält weitere 2 Minuten"
+   ],
+   "explain": "Nach einer Störung hat der Schütze zwei Minuten, um die Flinte zu reparieren oder zu ersetzen; mit Zustimmung des Schiedsrichters darf er mit einer anderen Flinte weitermachen, andernfalls sind die nicht geschossenen Scheiben Null."
+  },
+  "cs-q071": {
+   "q": "Erste Scheibe einer Simultandoublette: Der auf diesem Compak bereits verwarnte Schütze hat eine Störung, die nicht seine erste ist, und kann nicht auf die erste Scheibe schießen. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "NO BIRD, neue Doublette",
+    "Erstes Ergebnis bleibt, zweites ZERO"
+   ],
+   "explain": "Bei einer Störung nach der ersten Verwarnung ergibt die Tabelle 21.5 ZERO / ZERO bei der ersten Scheibe einer Simultandoublette (ZERO / NO BIRD bei einer Doublette auf Schuss)."
+  },
+  "cs-q072": {
+   "q": "Wie lange hat der Schütze nach einer Störung Zeit, die Flinte zu reparieren oder zu ersetzen?",
+   "options": [
+    "1 Minute",
+    "2 Minuten",
+    "3 Minuten",
+    "5 Minuten"
+   ],
+   "explain": "Er hat zwei Minuten; mit Zustimmung des Schiedsrichters darf er mit einer anderen Flinte weitermachen, andernfalls sind die nicht geschossenen Scheiben Null."
+  },
+  "cs-q073": {
+   "q": "Innerhalb wie vieler Sekunden nach der endgültigen Entscheidung des Schiedsrichters muss der Schütze weiterschießen?",
+   "options": [
+    "5 Sekunden",
+    "10 Sekunden",
+    "30 Sekunden",
+    "60 Sekunden"
+   ],
+   "explain": "Der Schütze muss innerhalb von 10 Sekunden weiterschießen; andernfalls ist das eine Weigerung, der Anweisung zu folgen, die nach Kapitel 23 sanktioniert werden kann."
+  },
+  "cs-q074": {
+   "q": "Der Schiedsrichter bestätigt nach einem Protest ein ZERO, und das Schießen geht weiter. Der Schütze schüttelt weiter den Kopf und erzählt der Rotte laut, die Scheibe sei getroffen gewesen, und zwei Zuschauer hinter dem Stand kritisieren die Entscheidung mit. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "Nichts: Sobald weitergeschossen wird, sind Meinungen frei",
+    "Der Schiedsrichter ändert die Entscheidung, um Streit zu vermeiden",
+    "Das ist ein Beeinflussungsversuch; der Schiedsrichter meldet ihn, und die Jury kann bis zum Ausschluss sanktionieren",
+    "Die Scheibe wird als NO BIRD wiederholt"
+   ],
+   "explain": "Eine endgültige Entscheidung nach Wiederaufnahme des Schießens weiter anzufechten, demonstrativ zu diskutieren oder eine Entscheidung als Schütze oder Zuschauer offen zu kritisieren, sind Beeinflussungsversuche, die die Jury bis zum Ausschluss sanktionieren kann."
+  },
+  "cs-q075": {
+   "q": "Wie viele Jahre lang vermerkt die FITASC einen Ausschluss?",
+   "options": [
+    "1 Jahr",
+    "3 Jahre",
+    "5 Jahre",
+    "10 Jahre"
+   ],
+   "explain": "Jeder Ausschluss wird fünf Jahre lang am Sitz der FITASC vermerkt; ein zweiter Ausschluss innerhalb von drei Jahren kann zu einer lebenslangen Sperre führen."
+  },
+  "cs-q076": {
+   "q": "Welche Sanktion kann die Jury bei einem Wiederholungsverstoß verhängen?",
+   "options": [
+    "Eine an den Veranstalter zu zahlende Geldstrafe",
+    "Verlust einer Runde zu 25 Scheiben",
+    "Die Runde mit einer anderen Rotte neu schießen",
+    "Den Schützen in die letzte Rotte versetzen"
+   ],
+   "explain": "Bei Wiederholungsverstößen oder Beeinflussungsversuchen kann die Jury den Abzug einer Scheibe, den Verlust einer Runde zu 25 Scheiben oder den Ausschluss vom Wettkampf verhängen."
+  },
+  "cs-q077": {
+   "q": "Die Flinte des Schützen versagt. Bevor der Schiedsrichter sie ansehen kann, öffnet er die Flinte, um die Patrone zu prüfen. Wie entscheidet der Schiedsrichter?",
+   "options": [
+    "NO BIRD — eine neue Scheibe wird geworfen",
+    "ZERO für die betreffende Scheibe",
+    "NO BIRD und Gelbe Karte",
+    "Der Schiedsrichter prüft die Flinte jetzt und entscheidet NO BIRD, wenn sie defekt ist"
+   ],
+   "explain": "Nach einem Versagen muss der Schütze an seinem Platz bleiben, ohne die Flinte zu öffnen oder die Sicherung zu berühren, bis der Schiedsrichter sie geprüft hat; tut er es doch, sind die betreffende Scheibe oder Scheiben ZERO."
+  },
+  "cs-q078": {
+   "q": "Anschlagen und Schwingen der Flinte (Zielübungen) hinter den Positionen während der Wartezeit ist erlaubt, wenn die Flinte offen ist.",
+   "options": [
+    "Richtig",
+    "Falsch"
+   ],
+   "explain": "Falsch. Zielübungen sind außerhalb der Schießpositionen nicht erlaubt, ebenso wenig, während ein Mitglied der Rotte schießt."
+  },
+  "cs-q079": {
+   "q": "Wie muss eine Selbstladeflinte zwischen den Ständen getragen werden?",
+   "options": [
+    "Geschlossen, gesichert, Mündung nach vorn",
+    "Verschluss offen, Mündung senkrecht nach oben oder unten",
+    "Mit einer Patrone geladen, Verschluss offen",
+    "Beliebig, wenn sie entladen ist"
+   ],
+   "explain": "Flinten werden offen und entladen getragen; Selbstladeflinten mit offenem Verschluss und der Mündung senkrecht nach oben oder unten."
+  },
+  "cs-q080": {
+   "q": "Ein Schütze mit Release-Abzug für den ersten Schuss hält diesen gedrückt, als die erste Scheibe als NO BIRD erklärt wird. Was ist erlaubt?",
+   "options": [
+    "Den Abzug loslassen, auf den Boden zielend, ohne jemandem Bescheid zu sagen",
+    "Den Abzug gedrückt halten und eine neue Scheibe abrufen",
+    "Die geschlossene Flinte dem Schiedsrichter übergeben",
+    "Sich umdrehen, um dem Schiedsrichter die Flinte zu zeigen"
+   ],
+   "explain": "Er darf den Abzug gedrückt halten und eine neue Scheibe abrufen, ihn gedrückt halten und die Flinte öffnen, oder den Schiedsrichter informieren und sicher dorthin schießen, wo der Schiedsrichter es anzeigt."
+  }
+ }
+}

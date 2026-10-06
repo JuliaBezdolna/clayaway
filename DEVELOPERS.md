@@ -81,6 +81,15 @@ python -m http.server 8792 --bind 127.0.0.1 --directory docs
 - Симуляції (`flightSim`, `leadLab` в `docs/interpreter/index.html`) — canvas без бібліотек; фізика навчальна (див. ТЗ правил, розділ «Академія перекладача»).
 - Озвучення фраз тренера — Web Speech API (`en-GB`), без зовнішніх сервісів; у продакшені можна замінити записами носіїв.
 
+## 4b. Спільні модулі і єдині дані (без дублювання)
+
+- `docs/shared/nav.js` — панель проєктів ClayArena на кожній сторінці (додає `scripts/build_seo.mjs`): назви 11 мовами, підказки,
+  колір і значок розділу, «шлях назад» (`ClayNav.setResume({section, label, url})` / `ClayNav.clearResume(section)`), персональні підказки з `localStorage`.
+- `docs/shared/sims.js` — анімації (траєкторії, дуплети, лабораторія виносу) і `TERM_SIMS` (термін → анімація); `ClaySims.auto()` монтує
+  `[data-clay-sim]` / `[data-clay-term]` на статичних сторінках; `ClaySpeak(text)` — вимова англійською (Web Speech API). Тексти — `docs/shared/sims-text.js`.
+- Терміни — лише в глосарії (`docs/glossary/data/`); курс читає їх під час збірки. Ситуації судді — лише в банку тренажера (`docs/rules/data/quiz-*.js` + `i18n/quiz-<lang>.json`).
+- Повна збірка: `python scripts/build_interpreter.py && bun scripts/build_seo.mjs && python scripts/make_og.py && python scripts/seo_meta.py`.
+
 ## 5. Легальність (коротко; повністю — ТЗ, блок «Легальність контенту і права»)
 
 - Текст і PDF FITASC не публікуємо; лише власний переказ + посилання `rel="nofollow noopener noreferrer"`.

@@ -1,0 +1,1569 @@
+{
+ "ui": {
+  "svc": "Trener przepisów",
+  "svcS": "ClayAway · FITASC",
+  "title": "Trener przepisów {d}",
+  "lead": "Sprawdź, jak znasz przepisy: sytuacje na stanowisku, liczby i limity, prawda czy fałsz. Po każdej odpowiedzi dostajesz wyjaśnienie oraz link do przepisu w przewodniku i do strony oficjalnego PDF.",
+  "quick": "Szybki test",
+  "quickS": "10 losowych pytań, wyjaśnienie od razu",
+  "exam": "Egzamin",
+  "examS": "30 pytań, wynik na końcu, próg zaliczenia 80%",
+  "mist": "Moje błędy",
+  "mistS": "pytania, na które odpowiedziałeś błędnie",
+  "level": "Poziom",
+  "all": "wszystkie",
+  "l1": "podstawowy",
+  "l2": "organizator",
+  "l3": "sędzia",
+  "q": "Pytanie",
+  "of": "z",
+  "next": "Dalej",
+  "finish": "Zakończ",
+  "right": "Dobrze!",
+  "wrong": "Źle.",
+  "decision": "Decyzja sędziego",
+  "number": "Liczby",
+  "truefalse": "Prawda czy fałsz",
+  "choice": "Wybór",
+  "open": "Przepis w przewodniku",
+  "pdf": "PDF, s.",
+  "res": "Wynik",
+  "pass": "Egzamin zdany",
+  "fail": "Jeszcze trochę",
+  "again": "Jeszcze raz",
+  "home": "Wróć do trybów",
+  "review": "Przegląd odpowiedzi",
+  "sAns": "Odpowiedzi",
+  "sAcc": "Trafność",
+  "sBest": "Najlepszy egzamin",
+  "sMist": "Błędy do powtórki",
+  "none": "Dla tej dyscypliny nie ma jeszcze pytań.",
+  "noMist": "Brak błędów — brawo!",
+  "back": "← Przewodnik po przepisach",
+  "disc": "Trener opiera się na naszym streszczeniu regulaminu FITASC. Obowiązuje wyłącznie oficjalny tekst FITASC. Parcours de Chasse – Sporting™ i Compak® Sporting to znaki towarowe FITASC.",
+  "count": "pytań w banku"
+ },
+ "questions": {
+  "sp-q001": {
+   "q": "Rzutek pojedynczy. Zawodnik strzela, a sędzia widzi tylko obłoczek pyłu nad rzutkiem; nie odpada żaden kawałek. Jaka jest decyzja sędziego?",
+   "options": [
+    "One (trafiony)",
+    "No Bird, rzutek powtarza się",
+    "Zero (chybiony)"
+   ],
+   "explain": "Sam pył lub dym się nie liczy. Rzutek jest trafiony („one”) tylko wtedy, gdy odpadnie od niego co najmniej jeden widoczny kawałek albo zostanie całkowicie lub częściowo rozbity."
+  },
+  "sp-q002": {
+   "q": "Rzutek pojedynczy. Po strzale odpada od rzutka jeden mały, ale wyraźnie widoczny kawałek, a reszta leci dalej. Jaka jest decyzja sędziego?",
+   "options": [
+    "One (trafiony)",
+    "No Bird, rzutek powtarza się",
+    "Zero (chybiony)"
+   ],
+   "explain": "Wystarczy jeden widoczny kawałek: prawidłowo wyrzucony rzutek, strzelany z prawidłowej pozycji, jest trafiony („one”), gdy odpadnie od niego co najmniej jeden widoczny kawałek."
+  },
+  "sp-q003": {
+   "q": "Zawodnik woła „pull”. Sędzia przekazuje sygnał, ale rzutek pojawia się dopiero po około pięciu sekundach. Zawodnik strzela i chybia. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zero (chybiony)",
+    "Powtórzenie tylko wtedy, gdy zawodnik zaprotestował przed strzałem",
+    "No Bird, rzutek powtarza się"
+   ],
+   "explain": "Rzutek musi zostać wyrzucony w ciągu 3 sekund od sygnału sędziego. Rzutek wyrzucony później to No Bird, niezależnie od wyniku strzału."
+  },
+  "sp-q004": {
+   "q": "Zawodnik woła, prawidłowy rzutek leci po właściwej trajektorii, ale zawodnik nie strzela i mówi, że nie spodobało mu się, jak rzutek wyleciał. Jaka jest decyzja sędziego?",
+   "options": [
+    "No Bird, rzutek powtarza się",
+    "Zero (chybiony)",
+    "Ostrzeżenie, potem rzutek powtarza się"
+   ],
+   "explain": "Wywołanego rzutka nie można odrzucić. Tylko sędzia ocenia, czy trajektoria jest prawidłowa; prawidłowy rzutek, do którego zawodnik nie strzelił, to zero."
+  },
+  "sp-q005": {
+   "q": "Zawodnik dopiero przyjmuje pozycję gotowości i jeszcze nie wołał, a operator wyrzutni wyrzuca rzutek. Zawodnik nie strzela. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zero, bo zawodnik zawsze musi być gotowy",
+    "Zero (chybiony)",
+    "No Bird, rzutek powtarza się"
+   ],
+   "explain": "Rzutek, którego zawodnik nie wywołał, można odrzucić i jest to No Bird. Odmowa jest dozwolona tylko w tym przypadku."
+  },
+  "sp-q006": {
+   "q": "Przy rzutku pojedynczym rzutek wylatuje z wyrzutni już rozbity na dwa kawałki. Zawodnik strzela do większego kawałka i trafia. Jaka jest decyzja sędziego?",
+   "options": [
+    "No Bird, rzutek powtarza się",
+    "One (trafiony)",
+    "Zero (chybiony)"
+   ],
+   "explain": "Rzutek wyrzucony przez wyrzutnię już rozbity to No Bird i pojedynczy rzutek się powtarza; trafienie kawałka się nie liczy."
+  },
+  "sp-q007": {
+   "q": "Rzutek pojedynczy z wyrzutni B. W chwili strzału tuż za stanowiskiem głośno dzwoni telefon widza; zawodnik wyraźnie się wzdryga i chybia. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zero (chybiony)",
+    "Zero, hałas z zewnątrz nigdy nie jest powodem",
+    "No Bird, rzutek powtarza się"
+   ],
+   "explain": "Jeśli zawodnikowi wyraźnie przeszkodzono, sędzia ogłasza No Bird i rzutek się powtarza. To sędzia ocenia, czy przeszkoda była wyraźna."
+  },
+  "sp-q008": {
+   "q": "Sędziego na chwilę oślepiło nisko stojące słońce i naprawdę nie wie, czy pojedynczy rzutek został trafiony. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zapytać grupę i liczyć według większości",
+    "One (trafiony)",
+    "No Bird, rzutek powtarza się",
+    "Zero (chybiony)"
+   ],
+   "explain": "Gdy sędzia nie może rozstrzygnąć, czy rzutek został trafiony, jest to No Bird i rzutek się powtarza. Grupa może doradzić tylko na prośbę sędziego i nigdy nie głosuje."
+  },
+  "sp-q009": {
+   "q": "Dublet symultaniczny. Zawodnik strzela raz i ten jeden strzał rozbija oba rzutki. Jaka jest decyzja sędziego?",
+   "options": [
+    "One i zero",
+    "One i one",
+    "No Bird, dublet powtarza się"
+   ],
+   "explain": "W każdym rodzaju dubletu, jeśli jeden strzał rozbije oba rzutki, liczą się oba: one i one."
+  },
+  "sp-q010": {
+   "q": "Dublet rafale. Oba rzutki wylatują prawidłowo, ale zawodnik opuszcza broń i bez uzasadnionego powodu nie strzela do żadnego. Jaka jest decyzja sędziego?",
+   "options": [
+    "No Bird, dublet powtarza się",
+    "Zero i zero",
+    "Zero za pierwszy rzutek, drugi powtarza się"
+   ],
+   "explain": "Brak strzału do prawidłowego rzutka bez uzasadnionego powodu to zero; przy dublecie rafale lub symultanicznym oznacza to zero i zero."
+  },
+  "sp-q011": {
+   "q": "Dublet na zawołanie. Pierwszy rzutek leci po oczywiście złej, nieregularnej trajektorii. Zawodnik mimo to strzela do niego i chybia. Jaka jest decyzja sędziego?",
+   "options": [
+    "No Bird tylko za pierwszy rzutek",
+    "Zero za pierwszy rzutek, drugi strzał normalnie",
+    "No Bird, cały dublet powtarza się"
+   ],
+   "explain": "W dublecie na zawołanie nieregularny pierwszy rzutek oznacza powtórzenie dubletu."
+  },
+  "sp-q012": {
+   "q": "Dublet na zawołanie. Zawodnik rozbija pierwszy rzutek, a jeden z jego kawałków rozbija drugi rzutek, zanim zawodnik odda drugi strzał. Jaka jest decyzja sędziego?",
+   "options": [
+    "Dublet powtarza się, nic nie zostaje zachowane",
+    "One i zero",
+    "One i one",
+    "Dublet powtarza się, „one” za pierwszy rzutek zostaje zachowane"
+   ],
+   "explain": "Jeśli pierwszy rzutek lub jego kawałki rozbiją drugi przed drugim strzałem, dublet się powtarza, a wynik pierwszego rzutka zostaje zachowany."
+  },
+  "sp-q013": {
+   "q": "Dublet symultaniczny. Jeden z dwóch rzutków leci po nieregularnej trajektorii; zawodnik rozbija drugi. Jaka jest decyzja sędziego?",
+   "options": [
+    "Dublet powtarza się bez zapisania wyniku",
+    "One i zero",
+    "One za regularny rzutek, nieregularny powtarza się"
+   ],
+   "explain": "W dublecie symultanicznym i rafale nieregularny rzutek oznacza powtórzenie dubletu bez ustalania wyniku."
+  },
+  "sp-q014": {
+   "q": "Rabbit jako rzutek pojedynczy. Pierwszy strzał chybia, a potem rabbit uderza w kamień i rozbija się, zanim zawodnik odda strzał z drugiej lufy. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zero (chybiony)",
+    "No Bird; przy powtórzeniu liczy się tylko rozbicie drugim strzałem",
+    "One (trafiony)"
+   ],
+   "explain": "To No Bird i rabbit się powtarza, ale przy powtórzeniu liczy się tylko rozbicie drugim strzałem; rozbicie pierwszym strzałem to zero."
+  },
+  "sp-q015": {
+   "q": "Pierwsza awaria broni w serii: przy rzutku pojedynczym pierwszy nabój nie wypala. Zawodnik stoi nieruchomo z bronią skierowaną w strefę strzału i nie strzela z drugiej lufy. Sędzia sprawdza broń. Jaka jest decyzja sędziego?",
+   "options": [
+    "No Bird z ostrzeżeniem; rzutek powtarza się",
+    "Zero (chybiony)",
+    "Zero, ale bez ostrzeżenia"
+   ],
+   "explain": "Pierwsza awaria broni lub amunicji w serii oznacza ostrzeżenie i No Bird, a pojedynczy rzutek się powtarza. Kolejne awarie w tej serii liczy się jako zero."
+  },
+  "sp-q016": {
+   "q": "Później w tej samej serii ten sam zawodnik ma drugi niewypał przy pierwszym strzale do rzutka pojedynczego. Prawidłowo czeka na kontrolę sędziego. Jaka jest decyzja sędziego?",
+   "options": [
+    "No Bird, rzutek powtarza się",
+    "Zero (chybiony)",
+    "No Bird, ale tym razem z żółtą kartką"
+   ],
+   "explain": "Od drugiej awarii broni lub amunicji w tej samej serii rzutek nie jest już powtarzany: liczy się jako zero."
+  },
+  "sp-q017": {
+   "q": "Nabój nie wypala. Zirytowany zawodnik od razu łamie broń, żeby obejrzeć spłonkę, zanim podejdzie sędzia. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zero (chybiony)",
+    "No Bird, rzutek powtarza się",
+    "No Bird, jeśli to pierwsza awaria w serii"
+   ],
+   "explain": "Po awarii zawodnik musi zostać na miejscu z bronią skierowaną w strefę strzału i nie może jej otwierać ani dotykać bezpiecznika, dopóki sędzia jej nie sprawdzi. W przeciwnym razie rzutek to zero."
+  },
+  "sp-q018": {
+   "q": "Rzutek pojedynczy, pierwsza awaria w serii. Pierwsza lufa zawodzi, ale zawodnikowi udaje się strzelić z drugiej lufy i chybia. Jaka jest decyzja sędziego?",
+   "options": [
+    "No Bird, rzutek powtarza się",
+    "No Bird, bo pierwszy strzał zawiódł",
+    "Zero (chybiony)"
+   ],
+   "explain": "Awaria pierwszego strzału to zwykle No Bird, ale jeśli zawodnik mimo to odda drugi strzał, ten strzał się liczy i rzutek ocenia się zgodnie z wynikiem: tu zero."
+  },
+  "sp-q019": {
+   "q": "Rzutek pojedynczy. Pierwszy strzał chybia, a drugi nabój nie wypala (pierwsza awaria w serii), więc rzutek się powtarza. Przy powtórzeniu zawodnik rozbija rzutek pierwszym strzałem. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zero (chybiony)",
+    "One (trafiony)",
+    "No Bird, ponowne powtórzenie"
+   ],
+   "explain": "Po awarii drugiego strzału przy rzutku pojedynczym powtórzony rzutek można rozbić tylko drugim strzałem. Rozbicie pierwszym strzałem to zero, więc zawodnik musi najpierw celowo chybić."
+  },
+  "sp-q020": {
+   "q": "Dublet rafale, pierwsza awaria w serii: obie lufy wypalają jednocześnie do pierwszego rzutka. Jaka jest decyzja sędziego?",
+   "options": [
+    "Pierwszy rzutek liczony, drugi powtarza się",
+    "Zero i zero",
+    "Cały dublet powtarza się, nic nie jest zapisane"
+   ],
+   "explain": "Przy pierwszym rzutku dubletu na zawołanie oraz w dubletach symultanicznych i rafale podwójny wystrzał oznacza powtórzenie całego dubletu bez zapisania wyniku."
+  },
+  "sp-q021": {
+   "q": "Dublet symultaniczny. Zawodnik miał już wcześniej w tej serii jedną awarię. Teraz pierwszy strzał znowu nie wypala i zawodnik nie strzela. Jaka jest decyzja sędziego?",
+   "options": [
+    "Zero i zero",
+    "Zero za jeden rzutek, drugi powtarza się",
+    "Dublet powtarza się"
+   ],
+   "explain": "Od drugiej awarii w serii nie ma powtórzenia. W dublecie symultanicznym lub rafale druga awaria pierwszego strzału daje zero i zero."
+  },
+  "sp-q022": {
+   "q": "Na pierwszym stanowisku osi zawodnik woła z bronią już złożoną na ramieniu, zanim pojawi się rzutek. To jego pierwsze przewinienie na tej osi. Jaka jest decyzja sędziego?",
+   "options": [
+    "Nic; w Sporting™ pozycja broni jest dowolna",
+    "Ustne ostrzeżenie z żółtą kartką",
+    "Czerwona kartka i zero"
+   ],
+   "explain": "Złożenie się przed pojawieniem się rzutka albo nieprzyjęcie pozycji gotowości z pkt 3.1 za pierwszym razem oznacza ustne ostrzeżenie, potwierdzone żółtą kartką."
+  },
+  "sp-q023": {
+   "q": "Ta sama oś, dwa stanowiska dalej: ten sam zawodnik znowu woła rzutek pojedynczy z kolbą powyżej linii na kamizelce. Jaka jest decyzja sędziego?",
+   "options": [
+    "Czerwona kartka; rzutek powtarza się",
+    "Czerwona kartka; rzutek liczy się jako zero",
+    "Kolejna żółta kartka"
+   ],
+   "explain": "Po pierwszym ostrzeżeniu każde kolejne przewinienie na tej samej osi oznacza czerwoną kartkę, a przy rzutku pojedynczym rzutek to zero."
+  },
+  "sp-q024": {
+   "q": "Zawodnik, który ma już żółtą kartkę za pozycję broni na tej osi, zaczyna dublet na zawołanie z bronią złożoną przed pojawieniem się pierwszego rzutka. Jaka jest decyzja sędziego?",
+   "options": [
+    "Czerwona kartka: zero za pierwszy rzutek, drugi liczony zgodnie ze strzałem",
+    "Czerwona kartka: zero i No Bird",
+    "Zero i zero"
+   ],
+   "explain": "Powtórne przewinienie na tej samej osi karze się czerwoną kartką: zero przy rzutku pojedynczym, zero i No Bird przy dublecie na zawołanie, zero i zero przy dubletach symultanicznych i rafale."
+  },
+  "sp-q025": {
+   "q": "Sędzia ogłasza „No Bird” przy rzutku pojedynczym, ale zawodnik mimo to strzela do rzutka. Robi to pierwszy raz. Jaka jest decyzja sędziego?",
+   "options": [
+    "Ostrzeżenie; rzutek powtarza się",
+    "One, jeśli trafi",
+    "Od razu zero"
+   ],
+   "explain": "Do ogłoszonego No Bird nigdy nie wolno strzelać. Za pierwszym razem zawodnik dostaje ostrzeżenie; dopiero po ostrzeżeniu stosuje się kary zera z pkt 12.2."
+  },
+  "sp-q026": {
+   "q": "Zawodnik, raz już ostrzeżony za strzał do No Bird, znowu strzela po tym, jak sędzia ogłosił „No Bird” przy dublecie symultanicznym. Jaka jest decyzja sędziego?",
+   "options": [
+    "Drugie ostrzeżenie; dublet powtarza się",
+    "Zero i No Bird",
+    "Zero i zero"
+   ],
+   "explain": "Po ostrzeżeniu strzał do ogłoszonego No Bird karze się jak w pkt 12.2: przy dubletach symultanicznych i rafale to zero i zero."
+  },
+  "sp-q027": {
+   "q": "Między dwoma rzutkami pojedynczymi zawodnik poprawia kamizelkę, czyści okulary i woła dopiero po około 25 sekundach. To pierwszy raz dzisiaj. Jaka jest decyzja sędziego?",
+   "options": [
+    "Nic; nie ma limitu czasu",
+    "Zero za następny rzutek",
+    "Ostrzeżenie"
+   ],
+   "explain": "Limit wynosi 15 sekund między rzutkami pojedynczymi lub między dubletami. Pierwsze przekroczenie oznacza ostrzeżenie, potem stosuje się kary z pkt 12.2."
+  },
+  "sp-q028": {
+   "q": "Wywołany po nazwisku zawodnik wchodzi na stanowisko bez okularów ochronnych i mówi, że zostawił je w samochodzie. Jaka jest decyzja sędziego?",
+   "options": [
+    "Natychmiastowe wykluczenie",
+    "Może strzelać na tym stanowisku, potem po nie pójść",
+    "Jest traktowany jak nieobecny i stosuje się przepis o spóźnieniu/nieobecności (16.7)"
+   ],
+   "explain": "Okulary ochronne są obowiązkowe bez wyjątków. Zawodnik na stanowisku bez nich jest traktowany jak nieobecny i stosuje się art. 16.7."
+  },
+  "sp-q029": {
+   "q": "Sędzia liczy rzutek jako zero. Inny członek grupy, niepytany, mówi głośno: „Był wyraźnie trafiony, widziałem kawałek!”. Jaka jest decyzja sędziego?",
+   "options": [
+    "Sędzia musi zmienić decyzję na one",
+    "Decyzja zostaje; członkowie grupy nie mogą się wtrącać, a otwarta krytyka jest próbą wpływania na sędziego",
+    "Rzutek staje się No Bird"
+   ],
+   "explain": "Sędzia decyduje sam; członkowie grupy nie mają prawa komentować. Otwarta krytyka decyzji przez innych bez pozwolenia to próba wpływania na sędziego (kary z rozdziału 13)."
+  },
+  "sp-q030": {
+   "q": "Zawodnik uważa, że jego ostatni rzutek był trafiony, ale nic nie mówi, woła następny rzutek i dopiero wtedy protestuje w sprawie poprzedniego. Jaka jest decyzja sędziego?",
+   "options": [
+    "Protest trafia do jury",
+    "Protest zostaje wysłuchany i sędzia ponownie rozważa decyzję",
+    "Za późno: wołając następny rzutek, zaakceptował decyzję"
+   ],
+   "explain": "Wołając następny rzutek, zawodnik akceptuje decyzję sędziego w sprawie poprzedniego; każdy sprzeciw trzeba zgłosić wcześniej."
+  },
+  "sp-q031": {
+   "q": "Rzutek poprzeczny zostaje rozbity tuż za drzewem. Sędzia uznaje, że strzelano za naturalną przeszkodą, i liczy zero. Zawodnik chce się odwołać. Jaka jest decyzja sędziego?",
+   "options": [
+    "Rzutek powtarza się jako No Bird",
+    "Od tej decyzji nie ma odwołania",
+    "Pisemne odwołanie do jury z kaucją 40%"
+   ],
+   "explain": "To zawodnik odpowiada za rozbijanie rzutków tam, gdzie sędzia je widzi. Od decyzji, że rzutek strzelono za przeszkodą lub poza granicą strzelania, nie można się odwołać."
+  },
+  "sp-q032": {
+   "q": "Zawodnik przychodzi na oś, gdy jego grupa jeszcze strzela rzutki pojedyncze na stanowisku 1, zanim nadeszła jego kolej. Jaka jest decyzja sędziego?",
+   "options": [
+    "Jego rzutki pojedyncze ze stanowiska 1 liczą się jako zero",
+    "Musi strzelać tę oś w innej grupie",
+    "Dołącza bez kary"
+   ],
+   "explain": "Spóźniony zawodnik, który przyjdzie, zanim minie jego kolej na rzutki pojedyncze na pierwszym stanowisku, dołącza do grupy bez kary."
+  },
+  "sp-q033": {
+   "q": "Sędzia trzy razy w ciągu minuty wywołał nazwisko i numer zawodnika. Zawodnik przychodzi, gdy grupa przechodzi na stanowisko 2. Jaka jest decyzja sędziego?",
+   "options": [
+    "Może strzelać całą oś od nowa w innej grupie",
+    "Strzela stanowisko 1 po innych, potem kontynuuje",
+    "Kontynuuje od stanowiska 2; wszystkie rzutki ze stanowiska 1 to zero"
+   ],
+   "explain": "Przy dołączeniu na późniejszym stanowisku wszystkie niestrzelane rzutki z wcześniejszych stanowisk to zero, a osi z pominiętymi stanowiskami nigdy nie można strzelać w innej grupie."
+  },
+  "sp-q034": {
+   "q": "Ile rzutków daje jedna oś Sporting™ i jak się dzielą?",
+   "options": [
+    "25: 15 pojedynczych i 5 dubletów",
+    "25: 10 pojedynczych i 5 dubletów oraz 5 rabbitów",
+    "20: 10 pojedynczych i 5 dubletów",
+    "30: 20 pojedynczych i 5 dubletów"
+   ],
+   "explain": "Każdy typ osi daje 25 rzutków: 15 pojedynczych i 5 dubletów (15 + 10 = 25)."
+  },
+  "sp-q035": {
+   "q": "Jak nisko pod osią barków przebiega linia kontrolna na kamizelce zawodnika?",
+   "options": [
+    "15 cm",
+    "20 cm",
+    "25 cm",
+    "30 cm"
+   ],
+   "explain": "Linia znajduje się 25 cm (9,85 cala) poniżej osi barków, równolegle do niej i w kontrastowym kolorze."
+  },
+  "sp-q036": {
+   "q": "W ciągu ilu sekund od sygnału sędziego rzutek musi zostać wyrzucony?",
+   "options": [
+    "1 sekundy",
+    "3 sekund",
+    "5 sekund",
+    "10 sekund"
+   ],
+   "explain": "Rzutek musi zostać wyrzucony w ciągu trzech sekund od dźwiękowego sygnału sędziego; późniejszy rzutek to No Bird."
+  },
+  "sp-q037": {
+   "q": "Kiedy w dublecie na zawołanie wyrzucany jest drugi rzutek?",
+   "options": [
+    "Dokładnie w tym samym momencie co pierwszy",
+    "Od 0 do 3 sekund po strzale do pierwszego",
+    "Od 3 do 5 sekund po wyrzuceniu pierwszego rzutka",
+    "Gdy zawodnik zawoła drugi raz"
+   ],
+   "explain": "Drugi rzutek dubletu na zawołanie jest wyrzucany od 0 do 3 sekund po strzale do pierwszego; wyzwala go strzał."
+  },
+  "sp-q038": {
+   "q": "Jaki jest maksymalny czas między rzutkami pojedynczymi lub między dubletami?",
+   "options": [
+    "10 sekund",
+    "15 sekund",
+    "30 sekund",
+    "1 minuta"
+   ],
+   "explain": "Zawodnik ma najwyżej 15 sekund; pierwsze przekroczenie limitu to ostrzeżenie, potem stosuje się kary z pkt 12.2."
+  },
+  "sp-q039": {
+   "q": "Po ostatecznej decyzji sędziego w sprawie protestu: w ciągu ilu sekund zawodnik musi wznowić strzelanie?",
+   "options": [
+    "5 sekund",
+    "15 sekund",
+    "30 sekund",
+    "60 sekund"
+   ],
+   "explain": "Zawodnik musi wznowić strzelanie w ciągu 15 sekund; w przeciwnym razie uznaje się to za odmowę podporządkowania się i stosuje kary z rozdziału 13."
+  },
+  "sp-q040": {
+   "q": "Jaka jest maksymalna naważka śrutu w naboju do Sporting™?",
+   "options": [
+    "24 g",
+    "28 g (tolerancja +2%)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Ładunek nie może przekraczać 28 g ołowiu, z maksymalną tolerancją +2%."
+  },
+  "sp-q041": {
+   "q": "Jaki zakres średnicy śrutu jest dozwolony?",
+   "options": [
+    "Od 1,5 do 2,0 mm",
+    "Od 2,0 do 2,5 mm (±0,1 mm)",
+    "Od 2,5 do 3,0 mm",
+    "Dowolny rozmiar do 3,5 mm"
+   ],
+   "explain": "Śrut musi być kulisty, o średnicy od 2,0 do 2,5 mm, z tolerancją ±0,1 mm."
+  },
+  "sp-q042": {
+   "q": "Jaka jest minimalna długość lufy i największy dozwolony kaliber?",
+   "options": [
+    "60 cm, kaliber 10",
+    "66 cm, kaliber 12",
+    "71 cm, kaliber 12",
+    "76 cm, kaliber 20"
+   ],
+   "explain": "Lufy muszą mieć co najmniej 66 cm długości, a kaliber nie może być większy niż 12."
+  },
+  "sp-q043": {
+   "q": "Ile nabojów może mieć półautomat na stanowisku?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "Tyle, ile mieści magazynek"
+   ],
+   "explain": "Półautomat może mieć najwyżej dwa naboje, ładowane tylko na stanowisku za zgodą sędziego."
+  },
+  "sp-q044": {
+   "q": "Jaką kaucję trzeba dołączyć do pisemnego odwołania do jury?",
+   "options": [
+    "20% wpisowego",
+    "40% wpisowego",
+    "50% wpisowego",
+    "Całe wpisowe"
+   ],
+   "explain": "Odwołanie do jury składa się na piśmie z kaucją równą 40% wpisowego."
+  },
+  "sp-q045": {
+   "q": "Ilu zawodników może liczyć najwyżej jedna grupa?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Grupa liczy najwyżej sześciu zawodników i jest tworzona w drodze losowania."
+  },
+  "sp-q046": {
+   "q": "Z ilu rzutków składają się międzynarodowe zawody Sporting™?",
+   "options": [
+    "100",
+    "150",
+    "200",
+    "250"
+   ],
+   "explain": "Zawody międzynarodowe to 200 rzutków strzelanych w seriach po 25; tylko jury może to zmienić w wyjątkowych przypadkach."
+  },
+  "sp-q047": {
+   "q": "Po jak długiej przerwie sędzia musi ponownie pokazać zawodnikom rzutki ze stanowiska?",
+   "options": [
+    "Ponad 5 minut",
+    "Ponad 10 minut",
+    "Ponad 15 minut",
+    "Ponad 30 minut"
+   ],
+   "explain": "Jeśli wyrzutnia się zepsuje lub strzelanie zostanie przerwane na ponad 10 minut, rzutki z tego stanowiska pokazuje się ponownie."
+  },
+  "sp-q048": {
+   "q": "Jak sędzia wywołuje zawodnika, którego nie ma na stanowisku?",
+   "options": [
+    "Raz po nazwisku, potem zawodnik jest nieobecny",
+    "Nazwisko i numer 3 razy w ciągu 1 minuty",
+    "Nazwisko i numer 3 razy w ciągu 3 minut",
+    "Przez głośnik, z 5-minutowym oczekiwaniem"
+   ],
+   "explain": "Sędzia wywołuje nazwisko i numer zawodnika trzy razy w ciągu jednej minuty."
+  },
+  "sp-q049": {
+   "q": "Ile razy podczas pokazu zawodnik na stanowisku może poprosić o ponowne pokazanie rzutka?",
+   "options": [
+    "Raz na stanowisko",
+    "Do 2 rzutków na każdy rzutek z menu",
+    "Do 3 rzutków na wyrzutnię",
+    "Tyle razy, ile potrzeba"
+   ],
+   "explain": "Na prośbę sędzia powtarza pokaz, najwyżej dwa rzutki na każdy rzutek z sekwencji menu."
+  },
+  "sp-q050": {
+   "q": "W jakim czasie od wywołania zawodnicy muszą być gotowi do nieplanowanej dogrywki?",
+   "options": [
+    "5 minut",
+    "15 minut",
+    "30 minut",
+    "1 godzina"
+   ],
+   "explain": "Zawodnicy muszą być w kontakcie z jury, żeby móc strzelać w ciągu 15 minut od wywołania; nieobecny zostaje zdyskwalifikowany."
+  },
+  "sp-q051": {
+   "q": "Federacja chce zorganizować międzynarodowe mistrzostwa na strzelnicy, która nie jest jeszcze zatwierdzona. Z jakim wyprzedzeniem musi przedstawić strzelnicę FITASC?",
+   "options": [
+    "Co najmniej 3 miesiące",
+    "Co najmniej 6 miesięcy",
+    "Co najmniej 8 miesięcy",
+    "Co najmniej 12 miesięcy"
+   ],
+   "explain": "Strzelnicę i plan organizacji trzeba przedstawić przedstawicielowi FITASC co najmniej osiem miesięcy przed zawodami."
+  },
+  "sp-q052": {
+   "q": "Jaki odsetek rzutków musi rozbić przeciętny zawodnik, żeby trajektoria była w klasie B?",
+   "options": [
+    "Ponad 80%",
+    "Od 60% do 80%",
+    "Od 40% do 60%",
+    "Poniżej 40%"
+   ],
+   "explain": "Klasa A to ponad 80%, klasa B od 60% do 80%, klasa C od 40% do 60%. Zalecany zestaw na stanowisku to jedna A, dwie B i jedna C."
+  },
+  "sp-q053": {
+   "q": "Jak długo FITASC przechowuje zapis o wykluczeniu i w jakim okresie drugie wykluczenie może prowadzić do dożywotniego zakazu?",
+   "options": [
+    "Przechowywany 3 lata; drugie w ciągu 1 roku",
+    "Przechowywany 5 lat; drugie w ciągu 3 lat",
+    "Przechowywany 10 lat; drugie w ciągu 5 lat",
+    "Przechowywany dożywotnio; każde drugie wykluczenie"
+   ],
+   "explain": "Zapis przechowuje się przez pięć lat; drugie wykluczenie w ciągu trzech lat może prowadzić do dożywotniego zakazu, o którym decyduje wyłącznie Komitet Zarządzający FITASC."
+  },
+  "sp-q054": {
+   "q": "Ponieważ Sporting™ naśladuje polowanie, zawody Sporting™ mogą obejmować strzelanie do żywych zwierząt.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. W Sporting™ strzela się do sztucznych rzutków, a strzelanie do żywych zwierząt w tej dyscyplinie jest niedozwolone."
+  },
+  "sp-q055": {
+   "q": "Strzelba typu pump-action (pompka) jest dozwolona w Sporting™, o ile ma kaliber 12 lub mniejszy.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Można używać każdej strzelby myśliwskiej, także półautomatów, ale pompki są niedozwolone."
+  },
+  "sp-q056": {
+   "q": "Między pierwszym a drugim rzutkiem dubletu zawodnik może trzymać broń w dowolnej pozycji.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Prawda, w dubletach na zawołanie, symultanicznych i rafale. Dowolna pozycja obowiązuje tylko między dwoma rzutkami; przed pierwszym nadal wymagana jest pozycja gotowości."
+  },
+  "sp-q057": {
+   "q": "Do rabbita można strzelać z biodra, bo toczy się po ziemi.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Do każdego rzutka, także rabbita, strzela się z bronią złożoną do ramienia."
+  },
+  "sp-q058": {
+   "q": "Podczas pokazu dublety na zawołanie są pokazywane pierwszemu zawodnikowi grupy.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Dubletów na zawołanie się nie pokazuje; pokazuje się tylko dublety symultaniczne i rafale, na prośbę z najwyżej dwoma powtórzeniami."
+  },
+  "sp-q059": {
+   "q": "Zawodnik może oddać jeden strzał próbny na pierwszym stanowisku, żeby sprawdzić, czy świeżo naprawiona broń działa.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Broni nigdy nie wolno sprawdzać na stanowisku strzeleckim; służy do tego specjalne stanowisko próbne przy klubie, przed wejściem na oś."
+  },
+  "sp-q060": {
+   "q": "W trakcie serii zawodnik może zmienić czok między rzutkami pojedynczymi a dubletami, jeśli nie powoduje to opóźnienia.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Prawda. Broń, wymienny czok lub lufę można zmienić między stanowiskami albo między rzutkami pojedynczymi a dubletami bez opóźnienia, ale nigdy, gdy zawodnik jest już na stanowisku."
+  },
+  "sp-q061": {
+   "q": "W oficjalnych zawodach dwóch zawodników z tej samej grupy może dzielić jedną broń, jeśli obaj się zgodzą.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Dwóch zawodników z tej samej grupy nie może w oficjalnych zawodach używać tej samej broni ani się nią dzielić. Pożyczenie broni to wyjątek tylko po awarii, żeby dokończyć serię."
+  },
+  "sp-q062": {
+   "q": "Ochronniki słuchu są obowiązkowe nie tylko dla zawodników, ale też dla sędziów, obsługi i widzów na osi lub w jej pobliżu.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Prawda. Każdy na osi lub w jej pobliżu musi nosić ochronniki słuchu; zawodnik bez nich jest traktowany jak nieobecny (16.7)."
+  },
+  "sp-q063": {
+   "q": "Zawodnik wykluczony z zawodów dostaje zwrot wpisowego za niestrzelane rzutki.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Wykluczony zawodnik nie dostaje żadnego zwrotu ani jakiejkolwiek rekompensaty finansowej."
+  },
+  "sp-q064": {
+   "q": "W dogrywce sudden death w dublecie na zawołanie „one-zero” i „zero-one” liczą się tak samo.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Prawda. Tylko w sudden death dublet na zawołanie liczy się jako para dwóch rzutków, niezależnie od tego, który został chybiony."
+  },
+  "sp-q065": {
+   "q": "Gdy dwie drużyny mają równy wynik, strzelają drużynową dogrywkę na nowej osi.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Nie ma dogrywki drużynowej: o kolejności decyduje łączny wynik drużyny na 8. osi, a potem countback od 7. do 1. osi."
+  },
+  "sp-q066": {
+   "q": "Od której z tych decyzji sędziego MOŻNA odwołać się do jury?",
+   "options": [
+    "Czy rzutek był „one” czy „zero”",
+    "Czy rzutek był No Bird",
+    "Czy trajektoria była prawidłowa",
+    "Czerwona kartka za pozycję broni"
+   ],
+   "explain": "Decyzje o trajektorii, No Bird oraz one/zero nie trafiają do jury. Od każdej innej decyzji sędziego można się odwołać na piśmie z kaucją 40%."
+  },
+  "sp-q067": {
+   "q": "Jury odrzuca odwołanie zawodnika. Co dzieje się z kaucją?",
+   "options": [
+    "Trafia do klubu organizującego",
+    "Trafia na cel charytatywny wybrany przez Prezesa FITASC",
+    "I tak zostaje zwrócona",
+    "Zostaje dodana do puli nagród"
+   ],
+   "explain": "Jeśli odwołanie zostanie uwzględnione, kaucja jest zwracana; jeśli nie, trafia na cel charytatywny wybrany przez Prezesa FITASC."
+  },
+  "sp-q068": {
+   "q": "Jak zawodnik prawidłowo protestuje przeciw decyzji na stanowisku?",
+   "options": [
+    "Idzie podnieść rzutek i pokazać go sędziemu",
+    "Kończy stanowisko, potem rozmawia z sędzią",
+    "Od razu podnosi rękę i mówi „appeal” lub „protest”",
+    "Prosi grupę o głosowanie"
+   ],
+   "explain": "Protest trzeba zgłosić od razu na stanowisku, podnosząc rękę i mówiąc „appeal” lub „protest”. Zawodnikom nigdy nie wolno opuszczać miejsca ani podnosić rzutka."
+  },
+  "sp-q069": {
+   "q": "Sędzia ma wątpliwości co do decyzji. Z kim może się skonsultować i z jakim skutkiem?",
+   "options": [
+    "Z innym sędzią, operatorem wyrzutni lub zawodnikami grupy, tylko po radę; potem jego decyzja jest ostateczna",
+    "Tylko z jury; jego zdanie jest wiążące",
+    "Z nikim; musi ogłosić No Bird",
+    "Z trenerem zawodnika, którego zdanie rozstrzyga"
+   ],
+   "explain": "Sędzia może zapytać innego sędziego, operatora wyrzutni lub zawodników grupy wyłącznie o radę, nie jest związany ich opiniami, a jego decyzja jest potem ostateczna."
+  },
+  "sp-q070": {
+   "q": "Jak oznacza się wyrzutnie na stanowisku?",
+   "options": [
+    "Kolorem rzutków",
+    "Literami od prawej do lewej, patrząc od strony operatora",
+    "Literami A, B, C, D od lewej do prawej, patrząc ze stanowiska",
+    "Numerami 1–4 według kolejności strzelania"
+   ],
+   "explain": "Wyrzutnie oznacza się literami A, B, C i D, od lewej do prawej, patrząc ze stanowiska strzeleckiego; używa się ich w menu i na karcie wyników."
+  },
+  "sp-q071": {
+   "q": "Na stanowisku są 3 wyrzutnie i 2 dublety. Która kombinacja jest NIEDOZWOLONA?",
+   "options": [
+    "Dwa dublety symultaniczne",
+    "Dwa dublety rafale",
+    "Jeden dublet symultaniczny i jeden rafale",
+    "Dwa dublety na zawołanie"
+   ],
+   "explain": "Na takim stanowisku dublety mogą być symultaniczne, rafale albo oba rodzaje, ale dwa dublety na zawołanie są niedozwolone."
+  },
+  "sp-q072": {
+   "q": "Która zasada obowiązuje przy układaniu dubletów na stanowisku?",
+   "options": [
+    "Trajektoria klasy C może wystąpić w dubletach tylko raz, najlepiej z rzutkiem klasy A",
+    "Dublety muszą być zawsze na zawołanie",
+    "Dublety mogą używać nowych trajektorii, niepokazanych jako rzutki pojedyncze",
+    "Dwa rzutki klasy C tworzą najlepszy dublet"
+   ],
+   "explain": "Dublety używają tylko rzutków już pokazanych jako pojedyncze z tego stanowiska; klasa C może wystąpić tylko raz, najlepiej w parze z A. B + B i B + A są dozwolone."
+  },
+  "sp-q073": {
+   "q": "Która z tych kar NIE należy do kar jury za powtórne przewinienie, odmowę podporządkowania się lub wpływanie na sędziego?",
+   "options": [
+    "Wykluczenie z zawodów",
+    "Utrata jednego rzutka",
+    "Utrata serii 25 rzutków",
+    "Kara pieniężna"
+   ],
+   "explain": "Skala kar jury to utrata jednego rzutka, utrata serii 25 rzutków lub wykluczenie. Kary pieniężnej w niej nie ma."
+  },
+  "sp-q074": {
+   "q": "W trakcie serii trener stojący za stanowiskiem ciągle podpowiada zawodnikowi, gdzie trzymać lufę. Co robi sędzia?",
+   "options": [
+    "Żółta kartka dla zawodnika, a trener zostaje usunięty ze strefy strzelania",
+    "Natychmiastowe wykluczenie zawodnika",
+    "Zero za następny rzutek zawodnika",
+    "Nic; podpowiadanie między rzutkami jest dozwolone"
+   ],
+   "explain": "Trenowanie podczas zawodów jest zabronione: zawodnik dostaje żółtą kartkę (powtórne przewinienia podlegają rozdziałowi 13), a trener zostaje usunięty ze strefy strzelania."
+  },
+  "sp-q075": {
+   "q": "Broń zawodnika psuje się na stanowisku 2 i nie da się jej szybko naprawić. Co może zrobić?",
+   "options": [
+    "Bez pytania użyć broni operatora wyrzutni",
+    "Pominąć stanowisko, a jego rzutki liczy się jako No Bird",
+    "Strzelać później całą oś od nowa w wybranej przez siebie grupie",
+    "Za zgodą sędziego od razu kontynuować z inną bronią, np. pożyczoną za zgodą właściciela"
+   ],
+   "explain": "Jeśli broni nie da się naprawić, zawodnik może za zgodą sędziego kontynuować z grupą, od razu zdobywając inną broń; w przeciwnym razie kończy na wolnym miejscu w innej grupie tylko za zgodą jury."
+  },
+  "sp-q076": {
+   "q": "Zawodnik ze spustem zwalnianym (release) ma pierwszy rzutek ogłoszony jako No Bird. Co musi zrobić?",
+   "options": [
+    "Od razu puścić spust i otworzyć broń",
+    "Trzymać spust wciśnięty i zawołać nowy rzutek, otworzyć broń, nadal go trzymając, albo strzelić w bezpiecznym kierunku wskazanym przez sędziego",
+    "Oddać broń sędziemu",
+    "Strzelić w ziemię przed stanowiskiem"
+   ],
+   "explain": "Musi trzymać spust wciśnięty i wybrać jedną z trzech bezpiecznych możliwości: zawołać nowy rzutek, otworzyć broń, trzymając spust, albo strzelić w bezpiecznym kierunku wskazanym przez sędziego."
+  },
+  "sp-q077": {
+   "q": "Co sędzia musi zrobić z kartą wyników, zanim grupa przejdzie na następne stanowisko?",
+   "options": [
+    "Wysłać ją przez gońca na tablicę wyników",
+    "Dać ją do podpisu każdemu zawodnikowi",
+    "Przekazać ją jury",
+    "Sfotografować ją i postawić gwiazdkę przed nazwiskiem zawodnika, który ją niesie"
+   ],
+   "explain": "Sędzia fotografuje kartę i stawia gwiazdkę przed nazwiskiem zawodnika, któremu ją powierza; na każdym stanowisku używa się ołówka w innym kolorze."
+  },
+  "sp-q078": {
+   "q": "Który strój jest dopuszczalny dla zawodnika?",
+   "options": [
+    "Bermudy, T-shirt i sandały",
+    "Krótkie spodenki do biegania i T-shirt",
+    "Kamizelka skeetowa bez niczego pod spodem",
+    "Długie bermudy kończące się 4 cm nad kolanem, polo z krótkim rękawem, pełne buty"
+   ],
+   "explain": "Dopuszcza się tylko długie bermudy kończące się najwyżej 5 cm nad kolanem; koszule muszą mieć co najmniej krótki rękaw i kołnierzyk lub okrągły dekolt; bez kamizelki na gołe ciało; bez sandałów."
+  },
+  "sp-q079": {
+   "q": "Dwóch zawodników ma równy wynik na 5. miejscu. Jak ustala się kolejność między nimi?",
+   "options": [
+    "Dogrywka sudden death",
+    "Według losowania",
+    "Dogrywka na 25 rzutków",
+    "Dzielą miejsce i są wymienieni według countbacku od 8. do 1. osi"
+   ],
+   "explain": "Dogrywki rozgrywa się tylko o pierwsze trzy miejsca. Poniżej trzeciego zawodnicy z równym wynikiem dzielą miejsce i są wymienieni według countbacku od 8. do 1. osi."
+  },
+  "sp-q080": {
+   "q": "Sędzia stanowiska uważa, że jedna trajektoria jest za łatwa. Czy może ją zmienić?",
+   "options": [
+    "Nie; może tylko przywrócić wadliwą trajektorię po awarii wyrzutni lub w wyjątkowej pogodzie, jeśli rzutek się nie pojawia lub jest niebezpieczny",
+    "Tak, po poinformowaniu sędziego głównego",
+    "Tak, jeśli grupa się zgodzi",
+    "Tak, między seriami"
+   ],
+   "explain": "Trajektorie ustawione przez jury i projektantów osi są stałe. Sędzia może tylko przywrócić wadliwą trajektorię po awarii wyrzutni lub w wyjątkowej pogodzie; powinien ją sprawdzić projektant osi lub członek jury."
+  },
+  "cs-q001": {
+   "q": "Przy ręcznym zwalnianiu rzutek wylatuje z wyrzutni około 4 sekundy po zawołaniu zawodnika. Zawodnik strzela i chybia. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ZERO i ostrzeżenie za powolne strzelanie",
+    "Zawodnik może zachować wynik"
+   ],
+   "explain": "Przy ręcznym zwalnianiu rzutek musi wylecieć w ciągu 0–3 sekund po zawołaniu; rzutek wyrzucony później niż po 3 sekundach to NO BIRD."
+  },
+  "cs-q002": {
+   "q": "Jaką szerokość ma obowiązkowy prostokąt (ABCD), nad którym muszą przelatywać rzutki w Compak® Sporting?",
+   "options": [
+    "Od 25 do 30 m",
+    "Od 35 do 40 m",
+    "Od 40 do 50 m",
+    "Dokładnie 30 m"
+   ],
+   "explain": "Prostokąt ma co najmniej 35 m i najwyżej 40 m szerokości oraz 25 m głębokości, z czterema palikami w narożnikach."
+  },
+  "cs-q003": {
+   "q": "Jaka odległość jest dozwolona między środkami sąsiednich stanowisk strzeleckich?",
+   "options": [
+    "Od 1 do 2 m",
+    "Od 2 do 5 m",
+    "Od 5 do 8 m",
+    "Co najmniej 6 m"
+   ],
+   "explain": "Jest pięć stanowisk o wymiarach 1 m x 1 m, a odległość między środkami sąsiednich stanowisk wynosi od 2 do 5 m."
+  },
+  "cs-q004": {
+   "q": "Jak daleko za bokiem AD prostokąta musi przebiegać przednia linia stanowisk strzeleckich?",
+   "options": [
+    "Od 2 do 5 m",
+    "Od 4 do 8 m",
+    "Od 8 do 12 m",
+    "Dokładnie 10 m"
+   ],
+   "explain": "Przednia linia stanowisk jest równoległa do boku AD i leży 4–8 m za nim, a stanowisko nr 3 jest na środku AD."
+  },
+  "cs-q005": {
+   "q": "Na jaką wysokość co najmniej nad poziom stanowisk musi być podniesiona wyrzutnia ustawiona za stanowiskami strzeleckimi?",
+   "options": [
+    "2 m",
+    "3 m",
+    "4 m",
+    "6 m"
+   ],
+   "explain": "Wyrzutnia za stanowiskami musi stać co najmniej 4 m wyżej niż stanowiska, czyli na wieży."
+  },
+  "cs-q006": {
+   "q": "Jakie jest stałe opóźnienie systemu zwalniania sonopull?",
+   "options": [
+    "0,2 sekundy",
+    "0,5 sekundy",
+    "1 sekunda",
+    "Regulowane od 0 do 3 sekund"
+   ],
+   "explain": "Urządzenie sonopull musi mieć stałe opóźnienie 0,5 sekundy, którego nie można zmienić; zwalnianie ręczne musi nastąpić w ciągu 0–3 sekund."
+  },
+  "cs-q007": {
+   "q": "Ile wyrzutni ma oś Compak® Sporting?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Compak ma sześć wyrzutni oznaczonych literami od A do F od lewej do prawej oraz pięć stanowisk strzeleckich."
+  },
+  "cs-q008": {
+   "q": "Na poziomie międzynarodowym w Compak „in line” stosuje się wyłącznie zwalnianie sonopull z zatwierdzonym przez FITASC elektronicznym sędziowaniem i liczeniem wyników.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Prawda. W zawodach międzynarodowych „in line” stosuje się tylko zwalnianie sonopull, razem z zatwierdzonym przez FITASC elektronicznym sędziowaniem i obsługą wyników."
+  },
+  "cs-q009": {
+   "q": "W dublecie symultanicznym zawodnik rozbija oba rzutki pierwszym nabojem. Zdarza mu się to pierwszy raz na tym Compaku. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE-ONE: oba rzutki liczone",
+    "ONE za pierwszy rzutek, ZERO za drugi",
+    "NO BIRD: nic się nie liczy, dublet powtarza się",
+    "ZERO-ZERO"
+   ],
+   "explain": "Gdy oba rzutki dubletu symultanicznego zostaną rozbite jednym strzałem, dublet to NO BIRD i strzela się go ponownie; tak samo za drugim razem. Dopiero za trzecim razem liczy się Zero-Zero."
+  },
+  "cs-q010": {
+   "q": "Po raz trzeci na tym samym Compaku zawodnik rozbija oba rzutki dubletu symultanicznego jednym nabojem. Jaka jest decyzja sędziego?",
+   "options": [
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ONE-ONE",
+    "ZERO-ZERO",
+    "ONE-ZERO"
+   ],
+   "explain": "Za pierwszym i drugim razem to NO BIRD i dublet się powtarza; za trzecim razem dublet liczy się jako Zero-Zero."
+  },
+  "cs-q011": {
+   "q": "W dublecie na zawołanie pierwszy strzał rozbija pierwszy rzutek, a jego kawałek rozbija w powietrzu także drugi rzutek. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE-ONE: oba rzutki się liczą",
+    "ONE za pierwszy rzutek zostaje; dublet powtarza się, by ocenić drugi",
+    "Cały dublet to NO BIRD; nic się nie liczy",
+    "ONE-ZERO"
+   ],
+   "explain": "Jeśli pierwszy rzutek lub jego kawałki rozbiją drugi przed drugim strzałem, pierwszy wynik zostaje zachowany, a dublet strzela się ponownie, żeby ocenić drugi rzutek."
+  },
+  "cs-q012": {
+   "q": "W dublecie symultanicznym zawodnik celowo oddaje oba strzały do pierwszego rzutka, żeby mieć go na pewno. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE za pierwszy rzutek, drugi powtarza się",
+    "NO BIRD: dublet powtarza się",
+    "ZERO-ZERO",
+    "Tylko ostrzeżenie, wynik zostaje"
+   ],
+   "explain": "Do każdego rzutka dubletu można oddać tylko jeden strzał; podwójny strzał do pierwszego jest zabroniony, a skrócony przewodnik dla sędziów ocenia celowy podwójny strzał do jednego rzutka jako Zero-Zero."
+  },
+  "cs-q013": {
+   "q": "Który bok prostokąta musi przeciąć obowiązkowy rzutek odlatujący?",
+   "options": [
+    "AB",
+    "BC",
+    "CD",
+    "DA"
+   ],
+   "explain": "Trzy obowiązkowe trajektorie to: z lewej na prawo (AB, potem CD), z prawej na lewo (CD, potem AB) i odlatująca przez BC; DA to bok zwrócony do zawodników."
+  },
+  "cs-q014": {
+   "q": "W jakiej kolejności zawodnik może strzelać do dwóch rzutków dubletu symultanicznego?",
+   "options": [
+    "Zawsze najpierw lewy rzutek",
+    "W kolejności podanej w menu",
+    "W dowolnej kolejności",
+    "Najpierw ten z wyrzutni o wcześniejszej literze"
+   ],
+   "explain": "Dublet symultaniczny to dwa rzutki wyrzucone jednocześnie z dwóch różnych wyrzutni, a zawodnik może strzelać do nich w dowolnej kolejności."
+  },
+  "cs-q015": {
+   "q": "Ilu członków jury musi być stale obecnych na zawodach?",
+   "options": [
+    "Co najmniej 1",
+    "Co najmniej 2",
+    "Co najmniej 3",
+    "Jedna czwarta jury"
+   ],
+   "explain": "Każdy członek jury nosi identyfikator, a co najmniej dwóch członków jury musi być obecnych przez cały czas. Jedna czwarta członków (plus przewodniczący) to kworum do obrad, a nie zasada obecności."
+  },
+  "cs-q016": {
+   "q": "Zawodnik, który jest pewien, że trafił rzutek oceniony jako ZERO, może złożyć do jury pisemną skargę o zmianę decyzji.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. O tym, czy rzutek był trafiony czy chybiony, wadliwy lub poza trajektorią, decyduje wyłącznie sędzia i od tego nie ma odwołania; inne decyzje sędziego można zaskarżyć do jury."
+  },
+  "cs-q017": {
+   "q": "Kto zasiada w jury odwoławczym na międzynarodowych zawodach Compak® Sporting?",
+   "options": [
+    "Sędzia główny i dwóch członków jury",
+    "Prezes FITASC, przewodniczący Komitetu Technicznego i prezes federacji organizującej (lub ich przedstawiciele)",
+    "Po jednym przedstawicielu każdej reprezentacji narodowej",
+    "Komisja dyscyplinarna FITASC"
+   ],
+   "explain": "Jury odwoławcze ma trzech członków: Prezesa FITASC, przewodniczącego Komitetu Technicznego i prezesa federacji organizującej albo ich przedstawicieli; nie może w nim zasiadać żaden członek jury."
+  },
+  "cs-q018": {
+   "q": "Ile Compaków po 25 rzutków składa się na zawody międzynarodowe?",
+   "options": [
+    "4 (100 rzutków)",
+    "6 (150 rzutków)",
+    "8 (200 rzutków)",
+    "10 (250 rzutków)"
+   ],
+   "explain": "Cztery rodzaje Compaku przewidziane dla zawodów międzynarodowych dają razem osiem Compaków po 25 rzutków, czyli 200 rzutków."
+  },
+  "cs-q019": {
+   "q": "Ile nowych wyrzutni jest obowiązkowych na mistrzostwach kontynentu i świata w Compak® Sporting?",
+   "options": [
+    "24",
+    "36",
+    "48",
+    "60"
+   ],
+   "explain": "Dla zachowania równych szans nie można używać zwykłych wyrzutni klubu gospodarza: obowiązkowe jest 48 nowych wyrzutni, zainstalowanych i ustawionych tylko na mistrzostwa."
+  },
+  "cs-q020": {
+   "q": "Kiedy można zmieniać trajektorie, wyrzutnie lub menu zawodów?",
+   "options": [
+    "W dowolnym momencie, według uznania jury",
+    "Dopiero po pełnej rundzie strzelanej przez wszystkich zawodników",
+    "Każdego ranka przed pierwszą grupą",
+    "Tylko na prośbę sędziego"
+   ],
+   "explain": "Zmiany są dozwolone dopiero po pełnej rundzie strzelanej przez wszystkich: 50 rzutków przy 2 instalacjach lub 100 rzutków przy 4 instalacjach."
+  },
+  "cs-q021": {
+   "q": "Kiedy na mistrzostwach świata lub kontynentu w Compak® Sporting zawodnicy mogą po raz pierwszy trenować na wyrzutniach i trajektoriach mistrzostw?",
+   "options": [
+    "W dowolnym momencie w tygodniu przed",
+    "Od oficjalnego treningu w sobotę przed mistrzostwami",
+    "Tylko rano pierwszego dnia zawodów",
+    "Nigdy: trening odbywa się tylko na innych instalacjach"
+   ],
+   "explain": "Oficjalny trening zaczyna się w sobotę przed mistrzostwami i nikt nie może trenować na wyrzutniach i trajektoriach mistrzostw przed tym dniem. Tabele treningowe muszą też różnić się od tabel zawodów."
+  },
+  "cs-q022": {
+   "q": "Zawodnik przychodzi na stanowisko z numerem startowym przypiętym z przodu kamizelki zamiast na plecach. Jaka jest decyzja sędziego?",
+   "options": [
+    "Nie może strzelać tej rundy",
+    "OSTRZEŻENIE; dalsze sankcje, jeśli tego nie poprawi",
+    "Odjęcie jednego rzutka",
+    "Nic: miejsce numeru jest dowolne"
+   ],
+   "explain": "Numer musi być na plecach, między barkami a pasem, w pełni widoczny. Pierwsze naruszenie to OSTRZEŻENIE; jeśli nie zostanie poprawione, następują dalsze sankcje, aż do wykluczenia przez jury."
+  },
+  "cs-q023": {
+   "q": "Sandały są tolerowane na treningu, ale nie na zawodach.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Ze względów bezpieczeństwa sandały są zabronione zarówno na treningu, jak i na zawodach."
+  },
+  "cs-q024": {
+   "q": "Kto odpowiada za to, żeby zawodnik był na czas przy swoim Compaku, gotowy i z wystarczającą ilością amunicji na rundę?",
+   "options": [
+    "Sędzia, który wywołuje brakujących zawodników",
+    "Sekretariat organizatora",
+    "Sam zawodnik",
+    "Kierownik grupy"
+   ],
+   "explain": "Przestrzeganie opublikowanych godzin strzelania to obowiązek zawodnika: musi zgłosić się do sędziego, być gotowy do natychmiastowego strzelania ze sprzętem i amunicją na całą rundę i śledzić zmiany harmonogramu. Sędzia nie szuka brakujących zawodników."
+  },
+  "cs-q025": {
+   "q": "Przy strzelaniu w grupach zawodnik przychodzi na Compak tuż po tym, jak pierwszy zawodnik jego grupy zawołał pierwszy rzutek rundy. Jaka jest decyzja sędziego?",
+   "options": [
+    "Dołącza i strzela w swojej kolejce",
+    "Dostaje 25 zer za tę rundę",
+    "Traci tylko już strzelane rzutki",
+    "Żółta kartka, potem strzela"
+   ],
+   "explain": "Granicą jest pierwsze zawołanie pierwszego zawodnika w grupie; zawodnik, który przyjdzie później, dostaje 25 zer za rundę (może jeszcze tego samego dnia złożyć pisemne odwołanie do jury)."
+  },
+  "cs-q026": {
+   "q": "Zawodnik opuszcza cały pierwszy dzień zawodów. Co się dzieje?",
+   "options": [
+    "Strzela brakujące rundy drugiego dnia",
+    "Od drugiego dnia zostaje skreślony z listy; aby strzelać, musi odwołać się do jury",
+    "Dostaje 25 zer za każdą rundę i kontynuuje",
+    "Dostaje zakaz startu w zawodach FITASC"
+   ],
+   "explain": "Zawodnik nieobecny pierwszego dnia zostaje skreślony z listy od drugiego dnia; jeśli się pojawi i chce strzelać, musi odwołać się do jury zgodnie z rozdziałem 9."
+  },
+  "cs-q027": {
+   "q": "Zawodnik może oddać jeden strzał próbny na stanowisku zawodów przed rozpoczęciem swojej rundy.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Broń można sprawdzać tylko na przygotowanym do tego stanowisku przy przechowalni broni, nigdy na stanowisku zawodów przed rundą."
+  },
+  "cs-q028": {
+   "q": "Po awarii zawodnik może dokończyć rundę bronią członka własnej grupy, jeśli właściciel się zgodzi.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Broń można pożyczyć tylko od zawodnika spoza tej samej grupy, za zgodą właściciela i sędziego; zawodnicy z jednej grupy nie mogą dzielić się bronią."
+  },
+  "cs-q029": {
+   "q": "Gdy godzina dogrywki nie jest ustalona, w ciągu ilu minut od wywołania zawodnicy muszą być gotowi?",
+   "options": [
+    "Mniej niż 5 minut",
+    "Mniej niż 15 minut",
+    "Mniej niż 30 minut",
+    "1 godzina"
+   ],
+   "explain": "Zainteresowani zawodnicy muszą być w kontakcie z jury i być gotowi w czasie krótszym niż 15 minut od wywołania; nieobecnego traktuje się jak wycofanego."
+  },
+  "cs-q030": {
+   "q": "Remis o 5. miejsce w klasyfikacji indywidualnej rozstrzyga się dogrywką.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Dogrywki są tylko o pierwsze trzy miejsca; poniżej trzeciego zawodnicy z równym wynikiem zajmują to samo miejsce i są wymienieni według countbacku od Compaku 8 do Compaku 1."
+  },
+  "cs-q031": {
+   "q": "Na jakim Compaku strzela się dogrywki?",
+   "options": [
+    "5 rzutków pojedynczych na stanowisko",
+    "3 rzutki pojedyncze i 1 dublet na zawołanie na stanowisko",
+    "1 rzutek pojedynczy i 2 dublety symultaniczne na stanowisko",
+    "Ostatni Compak zawodów, bez zmian"
+   ],
+   "explain": "Obecni członkowie Komisji Technicznej (w przeciwnym razie jury) wybierają Compak i ustawienia; w dogrywkach strzela się jeden rzutek pojedynczy i dwa dublety symultaniczne na stanowisko."
+  },
+  "cs-q032": {
+   "q": "Dwie reprezentacje narodowe mają równy wynik łączny. Jak rozstrzyga się remis?",
+   "options": [
+    "Drużynową dogrywką na 25 rzutków",
+    "Łącznym wynikiem członków na 8. Compaku, potem na 7. i tak dalej",
+    "Najlepszym wynikiem indywidualnym w każdej drużynie",
+    "Wynikiem na 1. Compaku, potem na 2. i tak dalej"
+   ],
+   "explain": "Drużyny z równym wynikiem rozdziela łączny wynik ich członków na 8. Compaku, potem na 7., 6. i tak dalej, aż do 1."
+  },
+  "cs-q033": {
+   "q": "Zawodnik, który odmawia podpisania karty wyników na koniec rundy, traci prawo do złożenia jakiejkolwiek skargi.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Prawda. Zawodnik musi podpisać kartę wyników na koniec każdej rundy; odmowa podpisu sprawia, że każda skarga jest niedopuszczalna."
+  },
+  "cs-q034": {
+   "q": "Jak oznacza się trafienia i chybienia na karcie wyników Compak® Sporting?",
+   "options": [
+    "Trafienie X, chybienie O",
+    "Trafienie O, chybienie X",
+    "Trafienie 1, chybienie 0",
+    "Trafienie /, chybienie -"
+   ],
+   "explain": "Trafienie (ONE) oznacza się X, a chybienie O; sędzia ogłasza każde ZERO głośno lub sygnałem dźwiękowym."
+  },
+  "cs-q035": {
+   "q": "Ilu zawodników może liczyć najwyżej grupa w Compak® Sporting?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Grupa liczy najwyżej 6 zawodników, którzy strzelają tę samą rundę w tym samym czasie na tej samej instalacji."
+  },
+  "cs-q036": {
+   "q": "Ile czasu ma zawodnik na zawołanie rzutka po tym, jak oddano strzały do rzutka z poprzedniego stanowiska?",
+   "options": [
+    "5 sekund",
+    "10 sekund",
+    "15 sekund",
+    "30 sekund"
+   ],
+   "explain": "Maksimum to 10 sekund; pierwsze naruszenie to ostrzeżenie odnotowane na karcie wyników, powtórzenie w tej samej rundzie kosztuje rzutki."
+  },
+  "cs-q037": {
+   "q": "Po przerwie dłuższej niż ile minut pokazuje się ponownie 6 rzutków pojedynczych?",
+   "options": [
+    "5 minut",
+    "10 minut",
+    "15 minut",
+    "30 minut"
+   ],
+   "explain": "Po przerwie dłuższej niż 10 minut sędzia ponownie pokazuje 6 rzutków pojedynczych, zarówno przy strzelaniu w grupach, jak i „in line”."
+  },
+  "cs-q038": {
+   "q": "Ile gotowych tabel ustawień trajektorii zawiera Załącznik 3?",
+   "options": [
+    "8",
+    "20",
+    "40",
+    "48"
+   ],
+   "explain": "Załącznik 3 zawiera 40 gotowych menu, po osiem dla każdej z pięciu kombinacji na stanowisku (np. tabele 17–24: 3 rzutki pojedyncze i 1 dublet symultaniczny)."
+  },
+  "cs-q039": {
+   "q": "W Compak® Sporting zawodnik musi wołać z opuszczoną bronią, z kolbą widoczną poniżej znacznika na kamizelce.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. W Compaku pozycja broni przy zawołaniu jest dowolna (złożona lub nie); regulamin nie przewiduje startu z opuszczoną bronią ani znacznika na kamizelce. Do każdego rzutka trzeba jednak strzelać z bronią przy ramieniu."
+  },
+  "cs-q040": {
+   "q": "Na jednym Compaku stanowisko 2 może mieć dublet na zawołanie, a stanowisko 4 dublet symultaniczny.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Na danym Compaku rodzaj dubletu musi być taki sam na wszystkich 5 stanowiskach; zaleca się różne tabele na kolejnych Compakach."
+  },
+  "cs-q041": {
+   "q": "Który rzutek jest zawsze pierwszym rzutkiem dubletu na stanowisku?",
+   "options": [
+    "Rzutek z wyrzutni A",
+    "Ostatni rzutek strzelany na poprzednim stanowisku",
+    "Rzutek odlatujący",
+    "Dowolny rzutek wybrany przez zawodnika"
+   ],
+   "explain": "Pierwszy rzutek każdego dubletu to ostatni rzutek strzelany na poprzednim stanowisku (np. A-F, F-C, C-E...), dlatego sędzia pokazuje go następnemu zawodnikowi."
+  },
+  "cs-q042": {
+   "q": "Przy strzelaniu w grupach: gdzie stoi szósty (czekający) zawodnik i co się dzieje, gdy stanowisko 5 skończy?",
+   "options": [
+    "Za stanowiskiem 5; potem zajmuje stanowisko 5",
+    "Za stanowiskiem 1; wszyscy przesuwają się o jedno stanowisko w prawo, a on wchodzi na stanowisko 1",
+    "Obok sędziego; dołącza do następnej grupy",
+    "Za stanowiskiem 3; zajmuje wolne stanowisko"
+   ],
+   "explain": "Czekający zawodnik stoi za stanowiskiem 1. Gdy zawodnik ze stanowiska 5 skończy swoje menu, idzie czekać, wszyscy inni przesuwają się o jedno stanowisko w prawo, a czekający wchodzi na stanowisko 1. Przy zmianie stanowisk broń jest otwarta i rozładowana."
+  },
+  "cs-q043": {
+   "q": "Zawodnik wchodzi na swoje stanowisko, a sędzia zauważa, że nie ma przy sobie ochronników słuchu. Jaka jest decyzja sędziego?",
+   "options": [
+    "Żółta kartka, potem może strzelać",
+    "Jest traktowany jak nieobecny i nie może strzelać",
+    "Może strzelać, jeśli podpisze oświadczenie",
+    "Traci jeden rzutek"
+   ],
+   "explain": "Ochronniki słuchu są obowiązkowe; zawodnik, który przychodzi na stanowisko bez nich, jest uznawany za nieobecnego i nie może strzelać. To samo dotyczy okularów ochronnych."
+  },
+  "cs-q044": {
+   "q": "Jaka jest minimalna długość lufy strzelby do Compak® Sporting?",
+   "options": [
+    "61 cm (24 cale)",
+    "66 cm (26 cali)",
+    "71 cm (28 cali)",
+    "76 cm (30 cali)"
+   ],
+   "explain": "Dozwolona jest każda broń gładkolufowa kalibru 12 lub mniejszego, jeśli lufa ma co najmniej 66 cm (26 cali)."
+  },
+  "cs-q045": {
+   "q": "Jaka jest maksymalna naważka śrutu w naboju do Compak® Sporting?",
+   "options": [
+    "24 g",
+    "28 g (tolerancja +2%)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Ładunek śrutu nie może przekraczać 28 gramów ołowiu, z tolerancją +2%."
+  },
+  "cs-q046": {
+   "q": "Strzelba typu pump-action (pompka) jest dozwolona w Compak® Sporting, jeśli jej lufa ma co najmniej 66 cm.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Pompki i dryling są zabronione niezależnie od długości lufy; zakazane są też pasy nośne, kamery na broni i urządzenia celownicze."
+  },
+  "cs-q047": {
+   "q": "Zawodnik może zmienić wymienne czoki między dwiema rundami.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Prawda. Zmiana broni, czoków lub luf jest zabroniona w trakcie rundy, ale dozwolona między rundami; jedynym wyjątkiem w trakcie rundy jest awaria."
+  },
+  "cs-q048": {
+   "q": "Jak musi być oznaczona broń ze spustem zwalnianym (release)?",
+   "options": [
+    "Czerwoną wstążką na lufie",
+    "Dużą literą „R” na fluorescencyjnym tle po zewnętrznej stronie kolby",
+    "Tylko adnotacją na karcie wyników",
+    "Oznaczenie nie jest potrzebne, jeśli sędzia został poinformowany"
+   ],
+   "explain": "Właściciel musi nakleić po zewnętrznej stronie kolby naklejkę z dużą literą „R” na fluorescencyjnym tle jako ostrzeżenie."
+  },
+  "cs-q049": {
+   "q": "Zawodnik uważa, że jego rzutek był trafiony, ale nic nie mówi. Dopiero gdy następny zawodnik zawołał i strzelił, podnosi rękę i mówi „PROTEST”. Jaka jest decyzja sędziego?",
+   "options": [
+    "Sędzia musi ponownie rozważyć decyzję i może ją zmienić na ONE",
+    "Protest jest spóźniony; ZERO zostaje",
+    "Rzutek powtarza się jako NO BIRD",
+    "Protest trafia do jury do rozstrzygnięcia"
+   ],
+   "explain": "Protest trzeba zgłosić od razu, na stanowisku, zanim zawoła następny zawodnik. W każdym razie o trafieniu lub chybieniu decyduje wyłącznie sędzia i od tego nie ma odwołania."
+  },
+  "cs-q050": {
+   "q": "Sędzia, który ma wątpliwości, może przed decyzją zasięgnąć informacji. Której z tych osób NIE ma wśród tych, z którymi może się skonsultować?",
+   "options": [
+    "Inny sędzia na miejscu",
+    "Operator wyrzutni",
+    "Zawodnicy grupy",
+    "Trener zawodnika stojący za stanowiskiem"
+   ],
+   "explain": "Może się skonsultować z innym sędzią, operatorem wyrzutni, zawodnikami grupy lub osobami prowadzącymi kartę wyników; nie jest związany ich opinią, a jego decyzja jest ostateczna."
+  },
+  "cs-q051": {
+   "q": "Według menu rzutek pojedynczy leci z wyrzutni C, ale rzutek wylatuje z wyrzutni E. Zawodnik go rozbija. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ZERO",
+    "ONE, a operator wyrzutni dostaje ostrzeżenie"
+   ],
+   "explain": "Rzutek wyrzucony z innej wyrzutni jest nieregularny, więc to NO BIRD, a przy rzutku pojedynczym wyrzuca się nowy rzutek, niezależnie od wyniku."
+  },
+  "cs-q052": {
+   "q": "Po strzale rzutek leci dalej cały, ale widać, jak unosi się z niego mały obłoczek pyłu. Nie odpada żaden kawałek. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "Sędzia pyta operatora wyrzutni, a potem orzeka ONE"
+   ],
+   "explain": "Rzutek jest ZERO, gdy nie odpada od niego żaden widoczny kawałek; sam pył („dymiący” rzutek) nie liczy się jako trafienie."
+  },
+  "cs-q053": {
+   "q": "Rzutek regularny, prawidłowo strzelany: odpada od niego jeden mały, ale wyraźnie widoczny kawałek, a reszta leci dalej. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ZERO, bo rzutek nie rozpadł się na dwie części"
+   ],
+   "explain": "Rzutek jest ONE, gdy odpadnie od niego co najmniej jeden widoczny kawałek albo gdy zostanie całkowicie lub częściowo rozbity w pył."
+  },
+  "cs-q054": {
+   "q": "Gdy zawodnik prowadzi broń, przez jego pole widzenia przelatuje rzutek z sąsiedniego Compaku. Zawodnik chybia swój rzutek pojedynczy. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "NO BIRD tylko wtedy, gdy zawodnik zaprotestuje",
+    "ZERO, a sąsiedni Compak zostaje zatrzymany"
+   ],
+   "explain": "Rzutek lub kawałki z innego Compaku nigdy nie uzasadniają NO BIRD; uzasadnia go tylko zabłąkany rzutek z wyrzutni tego samego Compaku. Chybienie zostaje."
+  },
+  "cs-q055": {
+   "q": "Nagły podmuch wiatru gwałtownie spycha w dół regularny rzutek pojedynczy w chwili strzału i zawodnik chybia. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "NO BIRD, jeśli sędzia uzna, że wiatr był wyjątkowy",
+    "Zawodnik może raz na rundę poprosić o powtórzenie"
+   ],
+   "explain": "Zła pogoda nigdy nie uzasadnia NO BIRD: każdy chybiony rzutek to ZERO, a każdy rozbity to ONE, niezależnie od warunków."
+  },
+  "cs-q056": {
+   "q": "Przy rzutku pojedynczym pierwszy nabój nie wypala. To pierwsza tego rodzaju awaria zawodnika w rundzie. Zostaje na miejscu z bronią skierowaną w strefę strzału, dopóki sędzia jej nie sprawdzi. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "NO BIRD, nowy rzutek i pierwsze ostrzeżenie (żółta kartka)",
+    "NO BIRD bez ostrzeżenia",
+    "ZERO i czerwona kartka"
+   ],
+   "explain": "Przy pierwszej awarii w rundzie 25 rzutków niewypał pierwszego naboju przy rzutku pojedynczym daje NO BIRD i nowy rzutek; ta pierwsza awaria wiąże się z pierwszym ostrzeżeniem (żółta kartka)."
+  },
+  "cs-q057": {
+   "q": "Później w tej samej rundzie ten sam zawodnik ma drugą awarię naboju tego samego rodzaju. Jaka jest decyzja sędziego?",
+   "options": [
+    "Znowu NO BIRD, z drugą żółtą kartką",
+    "Wszystkie rzutki, do których nie strzelano, liczą się jako ZERO (czerwona kartka)",
+    "Zawodnik zostaje wykluczony z zawodów",
+    "Dostaje 2 minuty na naprawę broni, a rzutek się powtarza"
+   ],
+   "explain": "Tabela NO BIRD dla awarii broni lub naboju obejmuje tylko pierwszą awarię w rundzie; przy drugiej awarii tego samego rodzaju rzutki, do których nie strzelano, liczą się jako ZERO (czerwona kartka)."
+  },
+  "cs-q058": {
+   "q": "Dublet na zawołanie: zawodnik rozbija pierwszy rzutek, a potem zawodzi jego drugi nabój. Pierwsza awaria tego rodzaju w rundzie. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE-ZERO",
+    "Cały dublet to NO BIRD i nic nie zostaje zachowane",
+    "ONE za pierwszy rzutek zostaje; dublet powtarza się, by ocenić drugi",
+    "ONE za pierwszy, a drugi rzutek wyrzuca się osobno"
+   ],
+   "explain": "Gdy w dublecie na zawołanie zawiedzie drugi nabój (pierwsza awaria), wynik pierwszego rzutka zostaje, a dublet powtarza się dla drugiego rzutka."
+  },
+  "cs-q059": {
+   "q": "Przy rzutku pojedynczym zawodnik chybia pierwszym strzałem, a jego drugi nabój zawodzi. Pierwsza awaria w rundzie. Wyrzuca się nowy rzutek. Jak trzeba go ocenić? Jaka jest decyzja sędziego?",
+   "options": [
+    "Normalnie: może go rozbić każdy strzał",
+    "Liczy się tylko drugim strzałem; pierwszy musi być celowo chybiony",
+    "To już ZERO; nowy rzutek jest tylko treningowy",
+    "Liczy się tylko pierwszy strzał"
+   ],
+   "explain": "Po awarii drugiego naboju przy rzutku pojedynczym wyrzuca się nowy rzutek, który można rozbić tylko drugim strzałem, więc zawodnik celowo chybia pierwszym."
+  },
+  "cs-q060": {
+   "q": "Rabbit zostaje chybiony pierwszym strzałem, a potem rozbija się na nierówności terenu, zanim padnie drugi strzał. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "ONE",
+    "NO BIRD: rabbit jest wyrzucany ponownie i liczy się tylko drugim strzałem",
+    "NO BIRD: rabbit jest wyrzucany ponownie i oceniany normalnie"
+   ],
+   "explain": "Rabbit chybiony pierwszym strzałem, który rozbije się przed drugim, to NO BIRD; wyrzuca się go ponownie i liczy się tylko drugim strzałem, więc pierwszy musi być celowo chybiony."
+  },
+  "cs-q061": {
+   "q": "W dublecie symultanicznym jeden z dwóch rzutków rozbija się przy wylocie z wyrzutni. Zawodnik rozbija drugi. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE za rozbity przez niego rzutek; rozbity przy wylocie powtarza się osobno",
+    "Cały dublet wyrzuca się ponownie",
+    "ONE-ZERO",
+    "ONE-ONE"
+   ],
+   "explain": "Rzutek rozbity przy wyrzuceniu to przypadek NO BIRD, a każdy nieregularny rzutek w dublecie symultanicznym oznacza ponowne wyrzucenie całego dubletu."
+  },
+  "cs-q062": {
+   "q": "W chwili, gdy zawodnik woła, za stanowiskiem rozlega się głośny komunikat z głośnika; sędzia wyraźnie widzi, że zawodnik się wzdryga i opuszcza broń. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ZERO, odmowa rzutka",
+    "Ostrzeżenie za opóźnianie strzelania"
+   ],
+   "explain": "NO BIRD orzeka się, gdy sędzia widzi, że zawodnikowi wyraźnie przeszkodzono."
+  },
+  "cs-q063": {
+   "q": "Operator wyrzutni wyrzuca rzutek, zanim zawodnik go zawołał. Zaskoczony zawodnik strzela i chybia. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ZERO, bo zdecydował się strzelić",
+    "ZERO i żółta kartka"
+   ],
+   "explain": "Rzutek, którego zawodnik nie zawołał, to przypadek NO BIRD; to też jedyny rzutek, który zawodnik może odrzucić."
+  },
+  "cs-q064": {
+   "q": "Zawodnik woła rzutek pojedynczy, uznaje, że leci za nisko, i nie strzela. Sędzia uważa rzutek za regularny. Jaka jest decyzja sędziego?",
+   "options": [
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ZERO",
+    "Tylko ostrzeżenie; rzutek powtarza się",
+    "Zawodnik może zaprotestować i automatycznie dostaje nowy rzutek"
+   ],
+   "explain": "Zawodnik może odrzucić tylko rzutek, którego nie zawołał. Odrzucenie rzutka, który sędzia uznaje za regularny, jest karane: przy rzutku pojedynczym ZERO."
+  },
+  "cs-q065": {
+   "q": "W dublecie symultanicznym zawodnik opuszcza broń, nie strzelając do pierwszego rzutka, i mówi, że był poza trajektorią. Sędzia uznaje oba rzutki za regularne. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO za pierwszy, drugi wyrzuca się ponownie",
+    "ZERO-ZERO",
+    "NO BIRD",
+    "ZERO za pierwszy, NO BIRD za drugi"
+   ],
+   "explain": "O tym, czy rzutek zszedł z trajektorii, decyduje sędzia. Brak strzału do pierwszego rzutka dubletu symultanicznego, który sędzia uznaje za regularny, liczy się jako ZERO-ZERO."
+  },
+  "cs-q066": {
+   "q": "Wcześniej na tym Compaku zawodnik dostał ostrzeżenie za wołanie po ponad 10 sekundach. Teraz przy rzutku pojedynczym sędzia wyraźnie ogłasza NO BIRD, ale zawodnik mimo to strzela i rozbija rzutek. Jaka jest decyzja sędziego?",
+   "options": [
+    "ONE",
+    "NO BIRD: rzutek powtarza się",
+    "ZERO (czerwona kartka)",
+    "Druga żółta kartka; rzutek powtarza się"
+   ],
+   "explain": "Do ogłoszonego NO BIRD nigdy nie wolno strzelać. Po pierwszym ostrzeżeniu każde kolejne naruszenie na tym samym Compaku oznacza czerwoną kartkę, a przy rzutku pojedynczym rzutek liczy się jako ZERO."
+  },
+  "cs-q067": {
+   "q": "Po raz pierwszy w rundzie zawodnik woła dopiero po około 15 sekundach od strzału do rzutka z poprzedniego stanowiska. Potem rozbija rzutek pojedynczy. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO",
+    "ONE, z ostrzeżeniem odnotowanym na karcie wyników",
+    "NO BIRD i żółta kartka",
+    "ONE bez konsekwencji"
+   ],
+   "explain": "Na zawołanie jest 10 sekund. Przy pierwszym przekroczeniu zawodnik dostaje ostrzeżenie odnotowane na karcie wyników; dopiero powtórzenie w tej samej rundzie kosztuje rzutki."
+  },
+  "cs-q068": {
+   "q": "Zawodnik, który w tej rundzie dostał już ostrzeżenie za przekroczenie 10 sekund, znowu woła za późno, tym razem przy dublecie na zawołanie. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "Tylko drugie ostrzeżenie",
+    "NO BIRD / NO BIRD"
+   ],
+   "explain": "Powtórzenie w tej samej rundzie ocenia się według tabeli z pkt 21.5: rzutek pojedynczy ZERO, dublet na zawołanie ZERO / NO BIRD, dublet symultaniczny ZERO / ZERO."
+  },
+  "cs-q069": {
+   "q": "Między stanowiskami trener stojący za Compakiem ciągle podpowiada zawodnikowi, gdzie trzymać lufę przy następnym rzutku. Jaka jest decyzja sędziego?",
+   "options": [
+    "Nic: rady między rzutkami są dozwolone",
+    "Żółta kartka dla zawodnika; trener zostaje usunięty ze strefy strzelania",
+    "Zawodnik traci rundę 25 rzutków",
+    "Ostrzeżenie dostaje tylko trener"
+   ],
+   "explain": "Trenowanie podczas zawodów jest niedozwolone: zawodnik dostaje żółtą kartkę (powtórzenia prowadzą do sankcji z rozdziału 23), a sędzia usuwa trenera ze strefy strzelania."
+  },
+  "cs-q070": {
+   "q": "Broń zawodnika się psuje; sędzia ją sprawdza (pierwsza awaria). Mijają dwie minuty, broń nie jest naprawiona i nie ma innej. Jaka jest decyzja sędziego?",
+   "options": [
+    "Może poczekać do końca grupy i wtedy dokończyć",
+    "Niestrzelane rzutki liczą się jako zero",
+    "Runda zostaje anulowana i powtórzona później",
+    "Dostaje kolejne 2 minuty"
+   ],
+   "explain": "Po awarii zawodnik ma dwie minuty na naprawę lub wymianę broni; za zgodą sędziego może kontynuować z inną bronią, w przeciwnym razie niestrzelane rzutki to zero."
+  },
+  "cs-q071": {
+   "q": "Pierwszy rzutek dubletu symultanicznego: zawodnik, już ostrzeżony na tym Compaku, ma awarię, która nie jest jego pierwszą, i nie może strzelić do pierwszego rzutka. Jaka jest decyzja sędziego?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "NO BIRD, nowy dublet",
+    "Pierwszy wynik zachowany, drugi ZERO"
+   ],
+   "explain": "Przy awarii po pierwszym ostrzeżeniu tabela z pkt 21.5 daje ZERO / ZERO za pierwszy rzutek dubletu symultanicznego (ZERO / NO BIRD przy dublecie na zawołanie)."
+  },
+  "cs-q072": {
+   "q": "Ile czasu po awarii ma zawodnik na naprawę lub wymianę broni?",
+   "options": [
+    "1 minuta",
+    "2 minuty",
+    "3 minuty",
+    "5 minut"
+   ],
+   "explain": "Ma dwie minuty; za zgodą sędziego może kontynuować z inną bronią, w przeciwnym razie niestrzelane rzutki to zero."
+  },
+  "cs-q073": {
+   "q": "Po ostatecznej decyzji sędziego: w ciągu ilu sekund zawodnik musi wznowić strzelanie?",
+   "options": [
+    "5 sekund",
+    "10 sekund",
+    "30 sekund",
+    "60 sekund"
+   ],
+   "explain": "Zawodnik musi wznowić strzelanie w ciągu 10 sekund; w przeciwnym razie jest to odmowa podporządkowania się, którą można ukarać zgodnie z rozdziałem 23."
+  },
+  "cs-q074": {
+   "q": "Po proteście sędzia potwierdza ZERO i strzelanie zostaje wznowione. Zawodnik kręci głową i głośno mówi grupie, że rzutek był rozbity, a dwóch widzów za stanowiskiem przyłącza się do krytyki decyzji. Jaka jest decyzja sędziego?",
+   "options": [
+    "Nic: po wznowieniu strzelania opinie są wolne",
+    "Sędzia zmienia decyzję, żeby uniknąć sporu",
+    "To próba wywierania wpływu; sędzia to zgłasza, a jury może nałożyć sankcje, aż do wykluczenia",
+    "Rzutek powtarza się jako NO BIRD"
+   ],
+   "explain": "Dalsze kwestionowanie ostatecznej decyzji po wznowieniu strzelania, ostentacyjne dyskusje albo otwarta krytyka decyzji przez zawodników lub widzów to próby wywierania wpływu, za które jury może karać aż do wykluczenia."
+  },
+  "cs-q075": {
+   "q": "Przez ile lat FITASC przechowuje zapis o wykluczeniu?",
+   "options": [
+    "1 rok",
+    "3 lata",
+    "5 lat",
+    "10 lat"
+   ],
+   "explain": "Każde wykluczenie jest zapisywane w siedzibie FITASC na pięć lat; drugie wykluczenie w ciągu trzech lat może prowadzić do dożywotniego zakazu."
+  },
+  "cs-q076": {
+   "q": "Jaką sankcję może nałożyć jury za powtórne przewinienie?",
+   "options": [
+    "Karę pieniężną płaconą organizatorowi",
+    "Utratę rundy 25 rzutków",
+    "Powtórzenie rundy z inną grupą",
+    "Przeniesienie zawodnika do ostatniej grupy"
+   ],
+   "explain": "Za recydywę lub próby wywierania wpływu jury może nałożyć utratę rzutka, utratę rundy 25 rzutków albo wykluczenie z zawodów."
+  },
+  "cs-q077": {
+   "q": "Broń zawodnika nie wypala. Zanim sędzia zdąży ją obejrzeć, zawodnik otwiera broń, żeby sprawdzić nabój. Jaka jest decyzja sędziego?",
+   "options": [
+    "NO BIRD — wyrzuca się nowy rzutek",
+    "ZERO za dany rzutek",
+    "NO BIRD i żółta kartka",
+    "Sędzia sprawdza broń teraz i orzeka NO BIRD, jeśli jest wadliwa"
+   ],
+   "explain": "Po awarii zawodnik musi zostać na miejscu, nie otwierając broni ani nie dotykając bezpiecznika, dopóki sędzia jej nie sprawdzi; jeśli to zrobi, dany rzutek lub rzutki to ZERO."
+  },
+  "cs-q078": {
+   "q": "Składanie się i prowadzenie broni (strzelanie na sucho) za stanowiskami podczas czekania jest dozwolone, jeśli broń jest otwarta.",
+   "options": [
+    "Prawda",
+    "Fałsz"
+   ],
+   "explain": "Fałsz. Strzelanie na sucho jest niedozwolone poza stanowiskami strzeleckimi, a także wtedy, gdy strzela członek grupy."
+  },
+  "cs-q079": {
+   "q": "Jak trzeba przenosić półautomat między stanowiskami?",
+   "options": [
+    "Zamknięty, z włączonym bezpiecznikiem, wylotem do przodu",
+    "Z otwartym zamkiem, wylotem lufy skierowanym pionowo w górę lub w dół",
+    "Z jednym nabojem, z otwartym zamkiem",
+    "Dowolnie, jeśli jest rozładowany"
+   ],
+   "explain": "Broń przenosi się otwartą i rozładowaną; półautomaty z otwartym zamkiem i wylotem lufy skierowanym pionowo w górę lub w dół."
+  },
+  "cs-q080": {
+   "q": "Zawodnik ze spustem zwalnianym (release) na pierwszy strzał trzyma go wciśnięty, gdy pierwszy rzutek zostaje ogłoszony jako NO BIRD. Które działanie jest dozwolone?",
+   "options": [
+    "Puścić spust, celując w ziemię, nikomu nie mówiąc",
+    "Trzymać spust wciśnięty i zawołać nowy rzutek",
+    "Oddać zamkniętą broń sędziemu",
+    "Odwrócić się, żeby pokazać broń sędziemu"
+   ],
+   "explain": "Może trzymać spust wciśnięty i zawołać nowy rzutek, trzymać go i otworzyć broń albo powiedzieć sędziemu i bezpiecznie strzelić tam, gdzie wskaże sędzia."
+  }
+ }
+}

@@ -12,7 +12,7 @@
 <!-- share-preview -->
 <meta name="description" content="Короткі уроки для початківців: Sporting™ і Compak® Sporting, безпека, рушниці, чоки, патрони, мішені, техніка, змагання, правила FITASC і культура спорту.">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="ClayAway · ClayArena">
+<meta property="og:site_name" content="ClayArena">
 <meta property="og:title" content="Академія ClayArena — стендова стрільба з нуля">
 <meta property="og:description" content="Короткі уроки для початківців: Sporting™ і Compak® Sporting, безпека, рушниці, чоки, патрони, мішені, техніка, змагання, правила FITASC і культура спорту.">
 <meta property="og:url" content="https://fenix-112323.github.io/clayaway/learn/">
@@ -109,6 +109,7 @@ article.lesson p{font-size:17px;color:var(--soft);line-height:1.75}
 footer{margin-top:48px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:12px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
+<script src="../shared/nav.js" defer></script>
 </head>
 <body>
 <header class="top"><div class="top-in">
@@ -227,7 +228,9 @@ function render(){
   const m=S.mod&&MODS.find(x=>x.module===S.mod), l=m&&S.les&&m.lessons.find(x=>x.id===S.les);
   app.innerHTML=(S.view==="lesson"&&l?lessonView(m,l):S.view==="mod"&&m?modView(m):homeView())+`<footer>${t("foot")}</footer>`;
 }
-function openLesson(id){ const l=allLessons().find(x=>x.id===id); if(!l) return; S.view="lesson"; S.mod=l.mod; S.les=id; S.pop=null; try{history.replaceState(null,"","#"+id)}catch(_){} render(); scrollTo(0,0); }
+function openLesson(id){ const l=allLessons().find(x=>x.id===id); if(!l) return; S.view="lesson"; S.mod=l.mod; S.les=id; S.pop=null; try{history.replaceState(null,"","#"+id)}catch(_){} render(); scrollTo(0,0);
+  /* the project bar (docs/shared/nav.js) offers the way back to this lesson from other ClayArena sections */
+  window.ClayNav&&ClayNav.setResume({section:"learn",label:(L()==="uk"?"Академія ClayArena · ":"ClayArena Academy · ")+tx(l,"title"),url:location.href}); }
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b||b.disabled) return; const d=b.dataset;
   if(d.lang){ P.lang=d.lang; store.set(P); render(); return; }

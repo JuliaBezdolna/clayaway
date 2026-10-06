@@ -1,3 +1,4 @@
+/* ClayArena glossary — fr: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.fr = {
  "lang": "fr",
@@ -42,65 +43,112 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "layout": {
-   "term_local": "Parcours",
+   "term_local": "parcours",
    "short": "Ensemble de postes de tir et de lanceurs qui donne une série de 25 plateaux.",
    "long": "En Parcours de Chasse, un parcours est un groupe de postes de tir donnant 25 plateaux : 15 simples et 5 doublés. L'ancien système utilise 5 lanceurs pour 3 postes ; les lignes du nouveau système comptent 4 ou 5 postes. Les parcours des épreuves nationales sont homologués par la fédération nationale, ceux des épreuves internationales par la FITASC ; personne ne peut s'y entraîner avant l'épreuve. En Compak, le mot désigne les réglages des lanceurs et les menus d'un Compak ; trajectoires, lanceurs et menus ne peuvent être modifiés qu'après une série complète tirée par tous.",
    "disciplines": {
     "sporting": "25 plateaux par parcours ; 8 parcours pour une épreuve de 200 plateaux ; aucun entraînement préalable sur ces parcours.",
     "compak": "Réglé avant le départ en présence du responsable du stand ; modifié seulement après une série complète (50 plateaux sur 2 installations ou 100 sur 4)."
-   }
+   },
+   "alt": [
+    "ligne de tir"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "line": {
-   "term_local": "Ligne (nouveau système)",
+   "term_local": "ligne de tir",
    "short": "Type d'aménagement plus récent du Parcours de Chasse où 4 ou 5 postes de tir sont côte à côte et partagent les lanceurs.",
    "long": "Une ligne du nouveau système à 4 postes comprend trois postes à 4 lanceurs et un poste (le numéro 2 ou 3) à 3 lanceurs ; 2 des 5 doublés se tirent au poste à 3 lanceurs. Une ligne à 5 postes compte 3 lanceurs par poste. Les tableaux de capacité comptent 10 à 13 minutes par planche sur une ligne ; avec 4 lignes à 10 minutes, une épreuve peut accueillir 336 tireurs sur deux jours et jusqu'à 816 sur quatre jours. Une ligne de 3 postes à 5 lanceurs chacun n'est autorisée que pour un Grand Prix.",
    "disciplines": {
     "sporting": "Parcours de Chasse uniquement ; en Compak, « en ligne » désigne autre chose, un mode de tir."
-   }
+   },
+   "alt": [
+    "ligne"
+   ],
+   "note": "Nouveau système.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "range": {
-   "term_local": "Stand / champ de tir",
+   "term_local": "stand de tir",
    "short": "L'ensemble des installations sportives du stand de tir.",
-   "long": "Dans le glossaire du Compak, le terme désigne l'ensemble des installations sportives, tandis qu'un Compak Sporting est l'installation propre à cette discipline. Le mot apparaît aussi dans les règles de sécurité : le fusil est chargé et maintenu pointé « vers le champ de tir », c'est-à-dire vers la zone où volent les plateaux. Le port d'une protection auditive est obligatoire pour toute personne présente sur le champ de tir ou à proximité."
+   "long": "Dans le glossaire du Compak, le terme désigne l'ensemble des installations sportives, tandis qu'un Compak Sporting est l'installation propre à cette discipline. Le mot apparaît aussi dans les règles de sécurité : le fusil est chargé et maintenu pointé « vers le champ de tir », c'est-à-dire vers la zone où volent les plateaux. Le port d'une protection auditive est obligatoire pour toute personne présente sur le champ de tir ou à proximité.",
+   "alt": [
+    "terrain",
+    "ball-trap (le club)"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shooting-stand": {
-   "term_local": "Poste de tir / pas de tir",
+   "term_local": "poste de tir",
    "short": "L'emplacement balisé, de 1 m, où le tireur se place pour tirer.",
    "long": "Un poste de Parcours de Chasse est un carré de 1 m de côté ou un cercle de 1 m de diamètre, si possible plat et jamais glissant. Le menu des plateaux est affiché devant lui, et le fusil, le choke ou le canon ne peuvent plus être changés une fois le tireur sur le poste. Un Compak compte 5 pas de tir de 1 m × 1 m chacun, espacés de 2 à 5 m, la ligne avant étant à 4 à 8 m en retrait du côté AD et le pas 3 centré sur celui-ci ; chacun est équipé d'un limiteur d'angle de tir. On ne fait jamais d'essai de tir sur un poste de compétition.",
    "disciplines": {
     "sporting": "Les deux pieds doivent être à l'intérieur du poste en position d'attente ; les plateaux sont présentés au premier tireur de la planche à chaque poste.",
     "compak": "5 pas de tir alignés, chacun avec un limiteur d'angle ; le pas 1 commence toujours la série de cinq plateaux."
-   }
+   },
+   "alt": [
+    "poste",
+    "pas de tir"
+   ],
+   "note": "« Pas de tir » plutôt pour l'aire de tir en général.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "trap": {
-   "term_local": "Lanceur (machine)",
+   "term_local": "lanceur",
    "short": "La machine qui lance les plateaux.",
    "long": "Les lanceurs peuvent être manuels, automatiques ou mixtes (en Compak également semi-automatiques). En Parcours de Chasse, ils sont désignés par les lettres A, B, C, D de gauche à droite vus du poste, et ces lettres figurent sur le menu et la feuille de marque. Un Compak compte 6 lanceurs, de A à F, chacun avec un panneau indiquant sa lettre ; un lanceur placé derrière les pas de tir doit être surélevé d'au moins 4 m. Aux championnats continentaux et du monde de Compak, 48 machines neuves installées uniquement pour l'épreuve sont obligatoires.",
    "disciplines": {
     "sporting": "Lettres A–D ; après une panne de lanceur ou un arrêt de plus de 10 minutes, les plateaux du poste sont présentés à nouveau.",
     "compak": "6 lanceurs A–F ; déclenchement à la main, par télécommande ou par sonopull."
-   }
+   },
+   "alt": [
+    "machine",
+    "appareil lanceur"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "tower": {
-   "term_local": "Tour",
+   "term_local": "tour",
    "short": "Position surélevée de lanceur derrière les pas de tir du Compak, au moins 4 m au-dessus d'eux.",
    "long": "Les lanceurs du Compak peuvent être placés librement à condition qu'aucun plateau, même un No Bird, ne puisse mettre quelqu'un en danger. Un lanceur placé derrière les pas de tir doit être au moins 4 m plus haut que ceux-ci. La trajectoire fuyante obligatoire qui traverse le côté BC peut provenir d'une telle tour ou d'un lanceur placé dans une fosse ou au sol devant les pas de tir.",
    "disciplines": {
     "compak": "La règle des 4 m figure dans le règlement du Compak (2.4)."
-   }
+   },
+   "alt": [
+    "pylône"
+   ],
+   "conf": "high",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "trapper": {
-   "term_local": "Préposé au lancement",
+   "term_local": "pulleur",
    "short": "La personne qui déclenche les plateaux au signal de l'arbitre.",
-   "long": "En Parcours de Chasse, le tireur annonce, l'arbitre transmet l'annonce au préposé par un signal sonore, et le plateau doit partir dans les 3 secondes suivant ce signal ; un plateau plus tardif est un No Bird. En cas de doute sur une décision, l'arbitre peut demander l'avis du préposé, sans être tenu de le suivre. En Compak, l'arbitre peut aussi consulter le préposé en cas de doute."
+   "long": "En Parcours de Chasse, le tireur annonce, l'arbitre transmet l'annonce au préposé par un signal sonore, et le plateau doit partir dans les 3 secondes suivant ce signal ; un plateau plus tardif est un No Bird. En cas de doute sur une décision, l'arbitre peut demander l'avis du préposé, sans être tenu de le suivre. En Compak, l'arbitre peut aussi consulter le préposé en cas de doute.",
+   "alt": [
+    "puller"
+   ],
+   "note": "Terme FITASC ; « lanceur » désigne d'abord la machine.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "sonopull": {
-   "term_local": "Sonopull (déclenchement phonique)",
+   "term_local": "sonopull",
    "short": "Dispositif à commande vocale qui lance le plateau à l'appel du tireur.",
    "long": "En Compak, les lanceurs peuvent être déclenchés à la main, par télécommande ou par sonopull. Un boîtier sonopull doit avoir un délai fixe de 0,5 seconde non réglable, et il est recommandé d'avoir le même délai sur toutes les machines d'un même Compak. Pour le Compak en ligne lors des compétitions internationales, seul le sonopull est utilisé, avec un arbitrage et un comptage électroniques homologués par la FITASC.",
    "disciplines": {
     "compak": "Délai fixe de 0,5 s ; obligatoire pour les épreuves internationales en ligne."
-   }
+   },
+   "alt": [
+    "commande vocale",
+    "déclenchement à la voix"
+   ],
+   "conf": "high",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "fly-over-zone": {
    "term_local": "Zone de survol (rectangle ABCD)",
@@ -127,38 +175,74 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "target": {
-   "term_local": "Plateau",
+   "term_local": "plateau",
    "short": "Le disque d'argile lancé par un lanceur, que le tireur doit casser.",
-   "long": "Les types autorisés sont les plateaux standard, lapin, midi, super mini, battue, flash et ZZ (le Compak cite aussi la rocket et d'autres). La couleur doit se détacher nettement sur le fond ; les plateaux bicolores sont déconseillés. Un plateau qui sort cassé de la machine, qui provient du mauvais lanceur ou qui n'a pas la bonne couleur est un No Bird. Dans les glossaires des deux règlements, un plateau est simplement un pigeon d'argile."
+   "long": "Les types autorisés sont les plateaux standard, lapin, midi, super mini, battue, flash et ZZ (le Compak cite aussi la rocket et d'autres). La couleur doit se détacher nettement sur le fond ; les plateaux bicolores sont déconseillés. Un plateau qui sort cassé de la machine, qui provient du mauvais lanceur ou qui n'a pas la bonne couleur est un No Bird. Dans les glossaires des deux règlements, un plateau est simplement un pigeon d'argile.",
+   "alt": [
+    "cible"
+   ],
+   "note": "« Cible artificielle » dans la définition officielle.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "battue": {
-   "term_local": "Battue",
+   "term_local": "battue",
    "short": "Plateau mince et plat qui vole sur la tranche, pivote et chute rapidement.",
    "long": "La battue est l'un des plateaux spéciaux autorisés en Parcours de Chasse comme en Compak, et elle doit être indiquée sur le menu des plateaux. Son profil mince la rend difficile à lire en vol. Le règlement du Compak déconseille les battues sur des trajectoires très courtes.",
    "disciplines": {
     "sporting": "Doit figurer sur le menu du poste.",
     "compak": "Déconseillée sur des trajectoires très courtes."
-   }
+   },
+   "alt": [
+    "plateau battue"
+   ],
+   "note": "Attention : « en battue » désigne aussi une trajectoire de gibier rabattu.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "midi": {
-   "term_local": "Midi",
+   "term_local": "midi",
    "short": "Plateau plus petit que le standard, de 90 mm de diamètre.",
-   "long": "Le midi est un plateau spécial autorisé dans les deux disciplines. En Parcours de Chasse, le menu affiché devant le poste doit l'indiquer comme plateau de 90 mm, pour que le tireur sache ce qui l'attend. Un plateau de mauvaise taille sorti de la machine est un No Bird."
+   "long": "Le midi est un plateau spécial autorisé dans les deux disciplines. En Parcours de Chasse, le menu affiché devant le poste doit l'indiquer comme plateau de 90 mm, pour que le tireur sache ce qui l'attend. Un plateau de mauvaise taille sorti de la machine est un No Bird.",
+   "alt": [
+    "90 mm",
+    "plateau midi"
+   ],
+   "note": "Le règlement désigne parfois par le diamètre (90 mm).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "mini": {
-   "term_local": "Super mini",
+   "term_local": "mini",
    "short": "Le plus petit plateau spécial, de 60 mm de diamètre.",
-   "long": "Le super mini (60 mm) est autorisé en Parcours de Chasse comme en Compak ; il est très rapide et très petit en vol. En Parcours de Chasse, il doit figurer sur le menu du poste comme plateau spécial. Le menu peut aussi mentionner des plateaux de 70 mm."
+   "long": "Le super mini (60 mm) est autorisé en Parcours de Chasse comme en Compak ; il est très rapide et très petit en vol. En Parcours de Chasse, il doit figurer sur le menu du poste comme plateau spécial. Le menu peut aussi mentionner des plateaux de 70 mm.",
+   "alt": [
+    "super-mini",
+    "60 mm"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "rabbit": {
-   "term_local": "Lapin",
+   "term_local": "rabbit",
    "short": "Plateau épais et résistant qui roule au sol pour imiter un lapin qui court.",
-   "long": "Les lapins sont autorisés dans les deux disciplines et doivent figurer sur le menu du Parcours de Chasse. En Parcours de Chasse, comme tous les plateaux, ils doivent être tirés fusil épaulé ; le tir à la hanche est interdit. Un cas particulier de No Bird s'applique dans les deux règlements : si un lapin est manqué au premier coup puis se casse tout seul avant le second coup, il est relancé, et lors de la reprise seul un plateau cassé au second coup compte ; un plateau cassé au premier coup vaut zéro."
+   "long": "Les lapins sont autorisés dans les deux disciplines et doivent figurer sur le menu du Parcours de Chasse. En Parcours de Chasse, comme tous les plateaux, ils doivent être tirés fusil épaulé ; le tir à la hanche est interdit. Un cas particulier de No Bird s'applique dans les deux règlements : si un lapin est manqué au premier coup puis se casse tout seul avant le second coup, il est relancé, et lors de la reprise seul un plateau cassé au second coup compte ; un plateau cassé au premier coup vaut zéro.",
+   "alt": [
+    "lapin"
+   ],
+   "note": "Anglicisme officiel FITASC ; « lapin » rare.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "flash-target": {
-   "term_local": "Plateau flash",
+   "term_local": "plateau flash",
    "short": "Plateau qui libère un nuage visible de poudre colorée lorsqu'il est touché.",
-   "long": "Les plateaux flash figurent parmi les plateaux autorisés en Parcours de Chasse. La règle du plateau touché est la même que pour tout plateau : il doit avoir été lancé régulièrement, le tireur doit avoir tiré conformément au règlement, et au moins un morceau visible doit s'en détacher ou le plateau doit être détruit en tout ou en partie. Le règlement du Compak applique la même règle aux plateaux flash."
+   "long": "Les plateaux flash figurent parmi les plateaux autorisés en Parcours de Chasse. La règle du plateau touché est la même que pour tout plateau : il doit avoir été lancé régulièrement, le tireur doit avoir tiré conformément au règlement, et au moins un morceau visible doit s'en détacher ou le plateau doit être détruit en tout ou en partie. Le règlement du Compak applique la même règle aux plateaux flash.",
+   "alt": [
+    "flash"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "zz-target": {
    "term_local": "Plateau ZZ (hélice)",
@@ -169,13 +253,19 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "trajectory": {
-   "term_local": "Trajectoire",
+   "term_local": "trajectoire",
    "short": "Le chemin que suit un plateau dans l'air ou au sol.",
    "long": "Les trajectoires du Parcours de Chasse imitent le gibier : venants, fuyants, croisés, en biais, hauts et bas, à découvert ou entre les arbres. Seul l'arbitre décide si une trajectoire est régulière, et cette décision est sans appel. Un arbitre de poste ne peut pas modifier les trajectoires fixées par le jury ou les traceurs de parcours, sauf pour en régler une à nouveau après une panne de lanceur ou des conditions météo exceptionnelles. Chaque Compak doit comporter trois trajectoires obligatoires (de gauche à droite à travers AB et CD, de droite à gauche à travers CD et AB, et un fuyant à travers BC) ; les autres sont libres mais doivent rester courtes.",
    "disciplines": {
     "sporting": "Les trajectoires sont classées en catégories de difficulté A/B/C.",
     "compak": "Trois trajectoires obligatoires ; les autres sont choisies par l'organisateur et ne doivent pas atteindre le Compak voisin."
-   }
+   },
+   "alt": [
+    "tracé"
+   ],
+   "note": "« Tracé » = dessin du parcours par le traceur.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "difficulty-class": {
    "term_local": "Catégorie de difficulté",
@@ -186,94 +276,154 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "single-target": {
-   "term_local": "Plateau simple",
+   "term_local": "plateau simple",
    "short": "Un plateau lancé par un seul lanceur, sur lequel le tireur peut tirer deux cartouches.",
    "long": "Un simple peut être de n'importe quel type de plateau. Chaque simple doit laisser le temps de tirer deux coups, de sorte que si le premier coup manque, le second peut être utilisé. En Parcours de Chasse, chaque parcours compte 15 simples, et à chaque poste la planche tire d'abord les simples puis les doublés, sauf décision contraire du jury. En Compak, un pas de tir peut comporter 5 simples, 3 simples et un doublé, ou 1 simple et deux doublés.",
    "disciplines": {
     "sporting": "15 simples par parcours ; les simples d'abord, puis les doublés.",
     "compak": "Par pas de tir : 5 simples / 3 + un doublé / 1 + deux doublés."
-   }
+   },
+   "alt": [
+    "simple"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "double": {
-   "term_local": "Doublé",
+   "term_local": "doublé",
    "short": "Deux plateaux présentés ensemble ou l'un après l'autre, tirés comme une seule unité.",
    "long": "Il existe trois sortes de doublé : au coup de fusil, simultané et, en Parcours de Chasse uniquement, la rafale. En Parcours de Chasse, le tireur dispose de deux cartouches pour un doublé et peut tirer les deux sur le même plateau ; entre le premier et le second plateau, la position du fusil est libre. En Compak, une seule cartouche peut être tirée sur chaque plateau d'un doublé, et sur un même Compak le type de doublé doit être identique aux 5 pas de tir ; le premier plateau de chaque doublé est le dernier plateau du pas précédent. Si un seul coup casse les deux plateaux, le Parcours de Chasse compte un et un, tandis que le Compak fait rejouer le doublé.",
    "disciplines": {
     "sporting": "5 doublés par parcours, composés uniquement de plateaux déjà tirés en simple depuis ce poste ; les deux cartouches peuvent viser le même plateau.",
     "compak": "Une cartouche par plateau ; tirer volontairement les deux coups sur un même plateau donne Zéro-Zéro."
-   }
+   },
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "double-on-report": {
-   "term_local": "Doublé au coup de fusil",
+   "term_local": "doublé coup de fusil",
    "short": "Doublé dans lequel le second plateau est lancé par le bruit du coup tiré sur le premier.",
    "long": "Les deux plateaux proviennent d'un ou deux lanceurs ; l'appel lance le premier et le coup tiré sur le premier lance le second. En Parcours de Chasse, le second plateau part de 0 à 3 secondes après le premier coup. Les doublés au coup de fusil ne sont pas montrés lors de la présentation en Parcours de Chasse, et un poste à 3 machines avec 2 doublés ne peut pas comporter deux doublés au coup de fusil. En mort subite en Parcours de Chasse, un doublé au coup de fusil compte comme une paire, donc un-zéro équivaut à zéro-un. Les pénalités sur un doublé au coup de fusil sont en général zéro sur le premier plateau et No Bird sur le second.",
    "disciplines": {
     "sporting": "Non montré avant le tir ; en mort subite, un-zéro = zéro-un.",
     "compak": "Si une cartouche casse les deux, le premier résultat est acquis, le second est un No Bird et le doublé est rejoué ; le premier plateau du doublé est montré à chaque nouveau tireur au pas 1."
-   }
+   },
+   "alt": [
+    "doublé au coup de fusil"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "simultaneous-double": {
-   "term_local": "Doublé simultané",
+   "term_local": "doublé simultané",
    "short": "Doublé dans lequel les deux plateaux sont lancés au même instant.",
    "long": "Les deux plateaux partent ensemble sur un seul appel et peuvent être tirés dans n'importe quel ordre. En Parcours de Chasse, ils proviennent d'un ou deux lanceurs ; en Compak, toujours de deux lanceurs différents. Les doublés simultanés sont montrés lors de la présentation. Ne pas tirer sur l'un d'eux sans raison valable, ou une pénalité de carton rouge, donne zéro et zéro. En Compak, si une cartouche casse les deux plateaux, le doublé est un No Bird et il est rejoué la première et la deuxième fois, puis compté Zéro-Zéro la troisième fois.",
    "disciplines": {
     "sporting": "Un ou deux lanceurs ; montré au premier tireur de la planche, jusqu'à 2 nouvelles présentations.",
     "compak": "Toujours deux lanceurs différents ; les barrages se tirent sur un Compak avec 1 simple et 2 doublés simultanés par pas de tir."
-   }
+   },
+   "alt": [
+    "simultané"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "rafale-double": {
-   "term_local": "Doublé en rafale",
+   "term_local": "doublé rafale",
    "short": "Doublé de Parcours de Chasse composé de deux plateaux issus du même lanceur, sur la même trajectoire, l'un après l'autre.",
    "long": "Dans un doublé en rafale, le second plateau suit aussi vite que le bras du lanceur se réarme, et l'un ou l'autre plateau peut être tiré en premier. Il est montré lors de la présentation comme un doublé simultané. Les règles de pénalités et d'incidents le traitent comme un doublé simultané : un plateau irrégulier entraîne la reprise du doublé sans résultat, et une pénalité de carton rouge donne zéro et zéro. À un poste à 3 machines avec 2 doublés, les doublés peuvent être simultanés, en rafale, ou les deux.",
    "disciplines": {
     "sporting": "Parcours de Chasse uniquement ; le règlement du Compak ne prévoit pas de doublé en rafale."
-   }
+   },
+   "alt": [
+    "rafale"
+   ],
+   "note": "Même lanceur, même trajectoire.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "target-menu": {
-   "term_local": "Menu des plateaux",
+   "term_local": "menu",
    "short": "Le panneau placé à un poste qui indique quels lanceurs sont tirés et dans quel ordre.",
-   "long": "En Parcours de Chasse, le menu est placé devant chaque poste, à un endroit où le tireur peut le lire ; il indique les lanceurs dans l'ordre de tir (par exemple A, B, C) et doit signaler les plateaux spéciaux : 90 mm, 70 mm, 60 mm, battue ou lapin. Les arbitres vérifient avant la compétition que les machines sont chargées en conséquence. En Compak, le menu de tir est affiché lisiblement à chaque pas de tir ; les simples peuvent utiliser les machines dans n'importe quel ordre, et le premier plateau de chaque doublé est le dernier plateau du pas précédent. La FITASC conseille les 40 tableaux prédéfinis de l'annexe 3."
+   "long": "En Parcours de Chasse, le menu est placé devant chaque poste, à un endroit où le tireur peut le lire ; il indique les lanceurs dans l'ordre de tir (par exemple A, B, C) et doit signaler les plateaux spéciaux : 90 mm, 70 mm, 60 mm, battue ou lapin. Les arbitres vérifient avant la compétition que les machines sont chargées en conséquence. En Compak, le menu de tir est affiché lisiblement à chaque pas de tir ; les simples peuvent utiliser les machines dans n'importe quel ordre, et le premier plateau de chaque doublé est le dernier plateau du pas précédent. La FITASC conseille les 40 tableaux prédéfinis de l'annexe 3.",
+   "alt": [
+    "menu du poste"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "round": {
-   "term_local": "Série",
+   "term_local": "série",
    "short": "Unité de 25 plateaux tirée sur un parcours, une ligne ou un Compak.",
    "long": "Dans les deux règlements, une série compte 25 plateaux. Une compétition internationale compte 200 plateaux, soit 8 séries. Les incidents de fusil et de munitions sont comptés par série : le premier donne un No Bird, les suivants dans la même série donnent zéro. En Compak, une série correspond à cinq plateaux à chacun des cinq pas de tir ; le fusil, le choke ou le canon ne peuvent pas être changés au cours d'une série, et les trajectoires et menus ne changent qu'après une série complète. Une pénalité du jury peut aller jusqu'à la perte d'une série entière de 25 plateaux.",
    "disciplines": {
     "sporting": "Le fusil, le choke ou le canon peuvent être changés entre deux postes ou entre les simples et les doublés.",
     "compak": "Aucun changement de fusil, de choke ou de canon au cours d'une série (sauf après un incident)."
-   }
+   },
+   "alt": [
+    "série de 25 plateaux"
+   ],
+   "note": "En Compak aussi « tour ».",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "target-presentation": {
-   "term_local": "Présentation des plateaux",
+   "term_local": "présentation des plateaux",
    "short": "Le fait de montrer aux tireurs les plateaux d'un poste ou d'un pas de tir avant qu'ils ne tirent.",
    "long": "En Parcours de Chasse, toutes les trajectoires d'un poste sont montrées au premier tireur de la planche, qui doit se tenir prêt sur le poste ; à sa demande, chaque plateau peut être montré à nouveau jusqu'à 2 fois. Les doublés au coup de fusil ne sont pas montrés ; les doublés simultanés et en rafale le sont, avec jusqu'à 2 nouvelles présentations. En Compak par planche, les plateaux ne sont montrés qu'une fois le matin à la première planche ; en ligne, le premier plateau de chaque doublé est montré à chaque nouveau tireur au pas 1. Pendant toute présentation, les fusils sont ouverts et déchargés, et il est interdit de tirer ou de simuler un tir. Après un arrêt de plus de 10 minutes, les plateaux sont montrés à nouveau.",
    "disciplines": {
     "sporting": "Montrés à chaque poste au premier tireur de la planche ; jusqu'à 2 nouvelles présentations par plateau.",
     "compak": "Par planche : une fois le matin à la première planche (simples A–F, puis doublés simultanés) ; après un arrêt de plus de 10 minutes, les 6 simples sont montrés à nouveau."
-   }
+   },
+   "alt": [
+    "présentation"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "rotation": {
-   "term_local": "Rotation",
+   "term_local": "décalage d'un tireur",
    "short": "L'ordre changeant dans lequel les membres d'une planche tirent à chaque poste ou passent d'un pas de tir à l'autre.",
    "long": "En Parcours de Chasse, les planches de six tireurs sont formées par tirage au sort et l'ordre de tir tourne à chaque poste ainsi que pour les doublés. En Compak par planche, le pas 1 commence toujours la série ; lorsque le tireur du pas 5 a terminé, il va attendre derrière le pas 1, chacun se décale d'un pas vers la droite et le tireur en attente prend place au pas 1. On change de pas de tir fusil ouvert et déchargé, et un tireur dispose de 10 secondes au maximum pour appeler après le plateau du pas précédent.",
    "disciplines": {
     "sporting": "L'ordre tourne à chaque poste et pour les doublés.",
     "compak": "Chacun se décale d'un pas vers la droite ; le tireur en attente se tient derrière le pas 1."
-   }
+   },
+   "alt": [
+    "rotation",
+    "ordre de tir"
+   ],
+   "note": "FITASC : « avec décalage d'un tireur » à chaque poste.",
+   "conf": "medium",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "call": {
-   "term_local": "Appel",
+   "term_local": "« Prêt ! »",
    "short": "Le mot du tireur, comme « pull » ou « prêt », qui demande le plateau.",
-   "long": "En Parcours de Chasse, le tireur annonce « prêt » ou « pull », l'arbitre le transmet au préposé par un signal sonore et le plateau doit partir dans les 3 secondes ; un plateau plus tardif est un No Bird. En Compak avec déclenchement manuel, le plateau doit partir de 0 à 3 secondes après l'appel ; un sonopull ajoute un délai fixe de 0,5 seconde. Un plateau que le tireur n'a pas appelé est un No Bird et c'est le seul plateau qui peut être refusé. Appeler le plateau suivant revient à accepter la décision de l'arbitre sur le précédent."
+   "long": "En Parcours de Chasse, le tireur annonce « prêt » ou « pull », l'arbitre le transmet au préposé par un signal sonore et le plateau doit partir dans les 3 secondes ; un plateau plus tardif est un No Bird. En Compak avec déclenchement manuel, le plateau doit partir de 0 à 3 secondes après l'appel ; un sonopull ajoute un délai fixe de 0,5 seconde. Un plateau que le tireur n'a pas appelé est un No Bird et c'est le seul plateau qui peut être refusé. Appeler le plateau suivant revient à accepter la décision de l'arbitre sur le précédent.",
+   "alt": [
+    "« Pull ! »",
+    "commander le plateau"
+   ],
+   "note": "Le tireur annonce « Prêt » ou « Pull » (FITASC 5.4).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "ready-position": {
-   "term_local": "Position d'attente (fusil bas)",
+   "term_local": "position d'attente",
    "short": "La position de départ du Parcours de Chasse : crosse en contact avec le corps sous la ligne de la veste jusqu'à l'apparition du plateau.",
    "long": "Avant l'appel, le tireur de Parcours de Chasse se tient les deux pieds à l'intérieur du poste, le talon de la crosse en contact avec le corps et l'arrière de la partie la plus haute de la crosse sous la ligne marquée sur la veste. Cela s'applique à tous les types de crosse, y compris les busc réglables. La position est tenue jusqu'à ce que le plateau soit lancé et visible. Un premier manquement entraîne un avertissement avec carton jaune ; un nouveau manquement sur le même parcours entraîne un carton rouge et le plateau est compté. En doublé, le fusil peut être tenu librement entre le premier et le second plateau.",
    "disciplines": {
     "sporting": "Position fusil bas obligatoire (3.1).",
     "compak": "Non utilisée : en Compak, la position du fusil à l'appel est libre."
-   }
+   },
+   "alt": [
+    "fusil bas",
+    "position de départ"
+   ],
+   "note": "Termes du règlement FITASC (talon de crosse sous la ligne du gilet).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "jacket-line": {
    "term_local": "Ligne de veste (marque de repère)",
@@ -294,81 +444,134 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "firing-time": {
-   "term_local": "Temps de tir",
+   "term_local": "temps imparti",
    "short": "Le temps maximal dont dispose un tireur avant d'appeler le plateau suivant.",
    "long": "En Parcours de Chasse, le tireur dispose au maximum de 15 secondes entre deux simples ou entre deux doublés ; tout dépassement entraîne d'abord un avertissement, puis les pénalités de l'article 12.2. Après la décision définitive de l'arbitre sur une contestation, le tir doit reprendre dans les 15 secondes, faute de quoi il s'agit d'un refus d'obtempérer. En Compak, la limite est de 10 secondes pour appeler après le tir du plateau du pas précédent ; le premier manquement est un avertissement noté sur la feuille de marque, et une récidive dans la même série est pénalisée (simple : zéro ; doublé au coup de fusil : zéro / No Bird ; simultané : zéro / zéro). Après une décision définitive, un tireur de Compak doit reprendre dans les 10 secondes.",
    "disciplines": {
     "sporting": "15 secondes entre les plateaux et pour reprendre après une décision.",
     "compak": "10 secondes pour appeler et pour reprendre après une décision."
-   }
+   },
+   "alt": [
+    "délai de tir"
+   ],
+   "note": "15 s entre deux plateaux (PCh).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "mock-shooting": {
-   "term_local": "Tir simulé (tir à blanc)",
+   "term_local": "simulacre de tir",
    "short": "Épauler et suivre avec le fusil comme pour tirer, sans plateau réel en jeu.",
    "long": "En Parcours de Chasse, le tir simulé est interdit sur les parcours comme en dehors : épauler avant l'appel et suivre la ligne imaginaire du plateau, ou un coup parti involontairement, entraîne un avertissement ; ensuite, une récidive est sanctionnée par un zéro sur le prochain plateau touché. Il est également interdit de tirer ou de simuler un tir pendant la présentation des plateaux. En Compak, le tir simulé n'est pas autorisé en dehors des pas de tir ni pendant qu'un autre membre de la planche tire.",
    "disciplines": {
     "sporting": "Avertissement, puis zéro sur le prochain plateau touché.",
     "compak": "Interdit hors des pas de tir et pendant qu'un autre membre de la planche tire."
-   }
+   },
+   "alt": [
+    "simulacres"
+   ],
+   "note": "Ne pas dire « tir à blanc » (= tir sans projectile).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shooting-limit": {
-   "term_local": "Limite de tir",
+   "term_local": "limite de tir",
    "short": "Limite au-delà de laquelle un plateau cassé ne compte pas.",
    "long": "C'est au tireur de casser les plateaux là où l'arbitre peut les voir. Si l'arbitre estime qu'un plateau a été tiré derrière un obstacle naturel ou au-delà d'une limite de tir, cette décision est sans appel. Le résumé du Parcours de Chasse ne précise pas comment les limites sont matérialisées ; cela est fixé pour chaque parcours.",
    "disciplines": {
     "sporting": "Articles 9.1–9.2 du règlement du Parcours de Chasse."
-   }
+   },
+   "alt": [
+    "L.A.T. (Compak)"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "refusal": {
-   "term_local": "Refus de plateau",
+   "term_local": "refus de tirer un plateau",
    "short": "Ne pas tirer sur un plateau appelé et lancé régulièrement.",
-   "long": "Un tireur ne peut refuser qu'un plateau qu'il n'a pas appelé. En Parcours de Chasse, un plateau régulier sur lequel le tireur n'a pas tiré est compté zéro ; sur un doublé simultané ou en rafale, zéro et zéro. En Compak, le refus est sanctionné selon l'article 21.5 : simple, zéro ; premier plateau d'un doublé au coup de fusil, zéro, le doublé étant rejoué pour compter le second ; doublé simultané, zéro-zéro."
+   "long": "Un tireur ne peut refuser qu'un plateau qu'il n'a pas appelé. En Parcours de Chasse, un plateau régulier sur lequel le tireur n'a pas tiré est compté zéro ; sur un doublé simultané ou en rafale, zéro et zéro. En Compak, le refus est sanctionné selon l'article 21.5 : simple, zéro ; premier plateau d'un doublé au coup de fusil, zéro, le doublé étant rejoué pour compter le second ; doublé simultané, zéro-zéro.",
+   "alt": [
+    "refus"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "gun-test": {
-   "term_local": "Essai du fusil",
+   "term_local": "essai de l'arme",
    "short": "Vérifier le fonctionnement d'un fusil en tirant sur un poste d'essai prévu à cet effet, jamais sur un poste de compétition.",
-   "long": "On ne peut jamais faire d'essai de tir sur un poste de tir. Le tireur qui veut vérifier son fusil le fait avant de se rendre au parcours, sur le poste d'essai situé près du club-house (Parcours de Chasse) ou près de l'armurerie (Compak), s'il en existe un. Le jury peut aussi contrôler les fusils, les cartouches et les plateaux avec du matériel technique."
+   "long": "On ne peut jamais faire d'essai de tir sur un poste de tir. Le tireur qui veut vérifier son fusil le fait avant de se rendre au parcours, sur le poste d'essai situé près du club-house (Parcours de Chasse) ou près de l'armurerie (Compak), s'il en existe un. Le jury peut aussi contrôler les fusils, les cartouches et les plateaux avec du matériel technique.",
+   "alt": [
+    "essai des armes"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "referee": {
-   "term_local": "Arbitre",
+   "term_local": "arbitre",
    "short": "L'officiel du poste qui juge chaque plateau et veille au bon ordre.",
    "long": "Lors d'une compétition internationale, chaque arbitre s'engage à appliquer le règlement avec honnêteté et impartialité, à faire abstraction de sa propre nationalité et de sa fédération, à se placer là où il peut le mieux juger, à annoncer ses décisions à voix haute et clairement, et à avoir sur lui le règlement en vigueur dans les langues officielles de la FITASC. L'arbitre décide seul si un plateau est touché ou manqué, si une trajectoire est régulière et si un plateau est un No Bird ; ces décisions ne peuvent pas être portées devant le jury. En cas de doute, l'arbitre peut consulter un autre arbitre, le préposé au lancement ou les tireurs, sans être tenu par leur avis. Chaque arbitre doit posséder un diplôme national valide ; une personne qui n'en a pas ne peut agir que comme arbitre adjoint, avec l'accord préalable du jury.",
    "disciplines": {
     "sporting": "Transmet l'appel au préposé par signal sonore ; tient la feuille de marque ou la fait tenir.",
     "compak": "Doit être agréé au préalable par le jury ; annonce chaque zéro à voix haute ou par signal sonore ; ne va pas chercher un tireur absent."
-   }
+   },
+   "alt": [
+    "arbitre de poste"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "chief-referee": {
-   "term_local": "Arbitre principal",
+   "term_local": "chef arbitre",
    "short": "L'arbitre en chef d'une compétition, titulaire d'une qualification internationale FITASC.",
    "long": "En Parcours de Chasse, l'arbitre principal doit posséder un diplôme international délivré par la FITASC, participe à la validation des parcours avec les membres du jury qui en sont responsables, puis donne ses instructions à chaque arbitre de poste. Le jury tranche les problèmes techniques que l'arbitre principal n'a pas réglés. En Compak, l'arbitre en chef doit détenir une carte internationale et être qualifié comme arbitre en chef par la FITASC ; il peut interrompre le tir en cas d'averse soudaine ou d'orage, et une décision d'urgence du jury prise par deux membres nécessite son accord.",
    "disciplines": {
     "sporting": "Appelé arbitre principal ; valide les parcours avec le jury.",
     "compak": "Appelé arbitre en chef ; arrête le tir en cas d'intempéries."
-   }
+   },
+   "alt": [
+    "arbitre principal"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "no-bird": {
-   "term_local": "No Bird",
+   "term_local": "No bird",
    "short": "La décision de l'arbitre selon laquelle un plateau ou une tentative ne compte pas et doit être rejoué.",
    "long": "Un No Bird est annoncé à cause du plateau (cassé au départ, mauvais lanceur ou mauvaise couleur, trajectoire irrégulière, lancé plus de 3 secondes après l'appel ou le signal, non appelé, tireur manifestement gêné, ou arbitre incapable de décider) ou à cause du premier incident de fusil ou de munitions dans une série. Sur un simple, le plateau est rejoué ; pour les doublés, le règlement précise quand le doublé entier est rejoué et quand le premier résultat est conservé. Seul l'arbitre déclare un No Bird, et cette décision est sans appel. On ne doit jamais tirer sur un No Bird déclaré ; le faire après un avertissement est sanctionné. En Compak, les intempéries et les plateaux venant d'un autre Compak ne justifient jamais un No Bird.",
    "disciplines": {
     "sporting": "Un plateau lancé plus de 3 s après le signal de l'arbitre est un No Bird (5.4, 6.5.2).",
     "compak": "Également No Bird lorsqu'une machine du même Compak lance un plateau intempestif ; jamais pour la météo."
-   }
+   },
+   "alt": [
+    "plateau à remettre"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "malfunction": {
-   "term_local": "Incident de tir (enrayage)",
+   "term_local": "mauvais fonctionnement",
    "short": "Défaillance du fusil ou de la cartouche qui empêche un tir régulier.",
    "long": "Les incidents sont comptés par série de 25 plateaux. Le premier incident de fusil ou de munitions dans une série entraîne un avertissement et un No Bird ; à partir du deuxième dans la même série, les plateaux sont comptés zéro au lieu d'être rejoués. Après une défaillance, le tireur reste en place, fusil pointé vers le champ de tir, sans l'ouvrir ni toucher la sûreté jusqu'à ce que l'arbitre l'ait examiné ; sinon le ou les plateaux sont comptés zéro. En Parcours de Chasse, un fusil irréparable peut être remplacé par un fusil prêté avec l'accord de son propriétaire ; en Compak, le tireur dispose de deux minutes pour le réparer ou le remplacer et ne peut emprunter un fusil qu'à un tireur extérieur à son groupe, avec l'accord du propriétaire et de l'arbitre.",
    "disciplines": {
     "sporting": "Si le fusil est réparé à temps, le tireur peut tirer en dernier à ce poste avec l'autorisation de l'arbitre ; sinon il termine dans une autre planche avec l'accord du jury.",
     "compak": "Premier incident : carton jaune ; deuxième du même type : zéro (carton rouge) ; 2 minutes pour réparer."
-   }
+   },
+   "alt": [
+    "incident de tir",
+    "enrayage"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "double-discharge": {
-   "term_local": "Double départ",
+   "term_local": "double décharge",
    "short": "Défaut du fusil dans lequel les deux canons partent en même temps.",
-   "long": "Si les deux coups partent ensemble sur un simple ou sur le premier plateau d'un doublé, l'arbitre déclare No Bird et rien n'est inscrit. Sur un simple, le plateau est rejoué ; sur le premier plateau d'un doublé au coup de fusil, sur un doublé simultané ou sur un doublé en rafale, le doublé entier est rejoué. Il compte comme un incident de fusil, et n'est donc un No Bird que s'il s'agit du premier incident de la série. Un double départ constituant un deuxième incident sur un doublé simultané ou en rafale donne zéro et zéro."
+   "long": "Si les deux coups partent ensemble sur un simple ou sur le premier plateau d'un doublé, l'arbitre déclare No Bird et rien n'est inscrit. Sur un simple, le plateau est rejoué ; sur le premier plateau d'un doublé au coup de fusil, sur un doublé simultané ou sur un doublé en rafale, le doublé entier est rejoué. Il compte comme un incident de fusil, et n'est donc un No Bird que s'il s'agit du premier incident de la série. Un double départ constituant un deuxième incident sur un doublé simultané ou en rafale donne zéro et zéro.",
+   "alt": [
+    "les deux coups partent en même temps"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "interruption": {
    "term_local": "Interruption",
@@ -384,22 +587,33 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "one": {
-   "term_local": "Un (plateau touché)",
+   "term_local": "BON",
    "short": "Plateau compté comme cassé selon le règlement.",
    "long": "Un plateau vaut « un » lorsqu'il a été lancé régulièrement, que le tireur a tiré conformément au règlement (en Parcours de Chasse, y compris la position d'attente de l'article 3.1) et qu'au moins un morceau visible s'en est détaché ou que le plateau a été détruit en tout ou en partie. Il en va de même pour les plateaux flash. Sur les feuilles de marque, un plateau touché est noté X. Dans tout doublé de Parcours de Chasse, un seul coup qui casse les deux plateaux compte un et un. En Compak, les intempéries ne changent rien : tout plateau cassé vaut un.",
    "disciplines": {
     "sporting": "Un seul coup cassant les deux plateaux d'un doublé : un + un.",
     "compak": "Une cartouche cassant les deux plateaux d'un doublé : doublé rejoué (voir doublé)."
-   }
+   },
+   "alt": [
+    "cassé"
+   ],
+   "note": "L'arbitre annonce « bon » ; pas « un ».",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "zero": {
-   "term_local": "Zéro",
+   "term_local": "ZÉRO",
    "short": "Plateau compté comme manqué ou perdu selon le règlement.",
    "long": "Un plateau vaut zéro lorsqu'aucun morceau visible ne s'en détache, ou que seuls de la poussière ou de la fumée apparaissent. Il vaut aussi zéro lorsque le tireur ne tire pas sur un plateau régulier sans raison valable, ouvre le fusil ou touche la sûreté avant que l'arbitre ait vérifié un incident, ou subit un deuxième incident de fusil ou de munitions dans la même série. Le zéro est aussi le résultat habituel des pénalités pour manquements répétés (carton rouge). Sur les feuilles de marque, un plateau manqué est noté O, et en Compak l'arbitre annonce chaque zéro à voix haute ou par signal sonore pour que le tireur puisse réclamer immédiatement.",
    "disciplines": {
     "sporting": "Un tireur en retard qui a manqué son tour reçoit zéro pour chaque plateau non tiré.",
     "compak": "Arrivée après le premier appel de la planche : 25 zéros pour la série."
-   }
+   },
+   "alt": [
+    "manqué"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "zero-zero": {
    "term_local": "Zéro-Zéro",
@@ -407,91 +621,173 @@ window.GLOSSARY_I18N.fr = {
    "long": "Le Zéro-Zéro est le résultat d'un doublé entier. En Parcours de Chasse, il s'applique à un doublé simultané ou en rafale sur lequel le tireur n'a pas tiré sans raison valable, à une pénalité de carton rouge sur un tel doublé, et à un deuxième incident sur le premier coup. En Compak, c'est la pénalité sur un doublé simultané pour dépassement du temps de tir, refus ou tir sur un No Bird après avertissement, le résultat du tir volontaire des deux coups sur un même plateau dans n'importe quel doublé, et la troisième fois qu'une cartouche casse les deux plateaux d'un doublé simultané. Sur un doublé au coup de fusil, la pénalité correspondante est en général zéro et No Bird."
   },
   "score-sheet": {
-   "term_local": "Feuille de marque",
+   "term_local": "feuille de marque",
    "short": "Le relevé officiel des résultats de chaque tireur dans une série.",
    "long": "En Parcours de Chasse, l'arbitre tient la feuille de marque, ou la fait tenir sous son contrôle, en utilisant un crayon de couleur différente pour chaque poste ; avant que la planche ne passe au poste suivant, l'arbitre photographie la feuille et marque d'un astérisque le nom du tireur qui la porte. Les tireurs vérifient leur score en quittant chaque poste, et tout désaccord doit être signalé immédiatement à l'arbitre. En Compak, l'arbitre tient la feuille lors du tir par planche ou en ligne avec comptage manuel ; avec les systèmes électroniques, les résultats s'affichent sur un écran. Un plateau touché est noté X et un plateau manqué O. Le tireur de Compak doit signer la feuille à la fin de chaque série ; refuser de signer fait perdre le droit de réclamer.",
    "disciplines": {
     "sporting": "Modèle FITASC dans le règlement (p. 19) ; chaque série est affichée sur un tableau central des résultats.",
     "compak": "Modèles en annexe 1 (par planche) et annexe 2 (en ligne) ; signature obligatoire."
-   }
+   },
+   "alt": [
+    "carton"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shotgun": {
-   "term_local": "Fusil de chasse",
+   "term_local": "fusil",
    "short": "Le fusil à canon lisse utilisé en Parcours de Chasse et en Compak.",
    "long": "Tout fusil de chasse peut être utilisé, semi-automatiques compris, d'un calibre ne dépassant pas le 12 et avec des canons d'au moins 66 cm (26 pouces). Les fusils à pompe sont interdits, et le règlement du Compak interdit aussi les drillings. Les bretelles et sangles, les micro-caméras fixées sur le fusil et tout dispositif de visée artificiel sont interdits. Personne ne peut toucher le fusil d'un autre tireur sans sa permission, et deux tireurs d'une même planche ne peuvent pas partager un fusil. Les coups tirés avec un fusil ou des munitions non conformes avant un contrôle comptent zéro.",
    "disciplines": {
     "sporting": "Le fusil, le choke ou le canon peuvent être changés entre deux postes ou entre les simples et les doublés sans retarder le tir ; jamais sur le poste.",
     "compak": "Aucun changement au cours d'une série (sauf après un incident) ; un fusil ne peut être emprunté qu'à un tireur d'un autre groupe."
-   }
+   },
+   "alt": [
+    "fusil de chasse",
+    "fusil à canon lisse",
+    "arme"
+   ],
+   "note": "FITASC parle d'« armes de chasse » ; sur le stand on dit simplement « fusil ».",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "semi-automatic": {
-   "term_local": "Fusil semi-automatique",
+   "term_local": "semi-automatique",
    "short": "Fusil à réarmement automatique, autorisé dans les deux disciplines avec des règles de manipulation particulières.",
    "long": "Les semi-automatiques sont autorisés mais ne peuvent être chargés qu'avec deux cartouches au maximum. Ils sont portés et rangés culasse ouverte, canon pointé tout droit vers le haut ou vers le bas. Leurs utilisateurs doivent ramasser leurs douilles éjectées après avoir quitté le poste et les mettre à la poubelle. En Compak, un semi-automatique doit aussi être équipé d'un dispositif empêchant les douilles éjectées de gêner le tireur voisin. Avec une détente à lâcher, décharger après un No Bird consiste à mettre la sûreté et à tirer deux fois le levier d'armement vers l'arrière.",
    "disciplines": {
     "compak": "Déflecteur ou récupérateur de douilles obligatoire."
-   }
+   },
+   "alt": [
+    "semi-auto",
+    "fusil semi-automatique"
+   ],
+   "note": "Règlement : culasse ouverte, 2 cartouches max.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "gauge": {
-   "term_local": "Calibre",
+   "term_local": "calibre",
    "short": "Le diamètre intérieur du canon d'un fusil ; le maximum autorisé est le calibre 12.",
-   "long": "Les deux règlements limitent les fusils au calibre 12 ou plus petit, avec des canons d'au moins 66 cm. Les petits calibres sont donc autorisés, mais la limite de charge de 28 g de plomb (+2 %) s'applique à tous les fusils."
+   "long": "Les deux règlements limitent les fusils au calibre 12 ou plus petit, avec des canons d'au moins 66 cm. Les petits calibres sont donc autorisés, mais la limite de charge de 28 g de plomb (+2 %) s'applique à tous les fusils.",
+   "alt": [
+    "calibre 12",
+    "calibre 20"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "choke": {
-   "term_local": "Choke",
+   "term_local": "choke",
    "short": "Étranglement amovible à la bouche du canon qui façonne la gerbe de plombs.",
    "long": "En Parcours de Chasse, un choke amovible, comme le fusil ou un canon, peut être changé au cours d'une série entre deux postes ou entre les simples et les doublés, à condition de ne causer aucun retard ; une fois le tireur sur le poste, aucun changement n'est permis. En Compak, changer de fusil, de chokes ou de canons au cours d'une même série est interdit et n'est permis qu'entre les séries, sauf après un incident.",
    "disciplines": {
     "sporting": "Permis entre deux postes ou entre les simples et les doublés.",
     "compak": "Uniquement entre les séries."
-   }
+   },
+   "alt": [
+    "chokes",
+    "forage",
+    "rétreint",
+    "chokage"
+   ],
+   "note": "Anglicisme dominant ; « forage » et « chokage » en langage technique FFBT.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "cartridge": {
-   "term_local": "Cartouche",
+   "term_local": "cartouche",
    "short": "La munition du fusil de chasse ; la FITASC en limite la charge, le plomb et la fabrication.",
    "long": "La charge de plomb ne peut pas dépasser 28 g, avec une tolérance de +2 %. Les plombs doivent être sphériques, de 2,0 à 2,5 mm de diamètre (±0,1 mm). Les cartouches rechargées, les dispersantes ou autres dispositifs de chargement spéciaux, les mélanges de plombs de tailles ou de qualités différentes, la poudre noire et les traceuses sont interdits. En Parcours de Chasse, l'arbitre peut prélever deux cartouches pour contrôle, une dans chaque poche du gilet. Un doublé donne au tireur de Parcours de Chasse deux cartouches au total ; en Compak, une cartouche par plateau.",
    "disciplines": {
     "sporting": "L'arbitre peut contrôler 2 cartouches avant que le tireur ne commence à un poste.",
     "compak": "Les coups tirés avec des munitions non conformes avant un contrôle comptent zéro."
-   }
+   },
+   "alt": [
+    "munition"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shot-size": {
-   "term_local": "Taille des plombs (numéro de plomb)",
+   "term_local": "numéro de plomb",
    "short": "Le diamètre des plombs : 2,0 à 2,5 mm, tolérance ±0,1 mm.",
-   "long": "Les deux règlements exigent des plombs sphériques d'un diamètre régulier compris entre 2,0 et 2,5 mm, avec une tolérance de ±0,1 mm. Il est strictement interdit de mélanger dans une même cartouche des plombs de tailles ou de qualités différentes. La charge totale est limitée à 28 g (+2 %)."
+   "long": "Les deux règlements exigent des plombs sphériques d'un diamètre régulier compris entre 2,0 et 2,5 mm, avec une tolérance de ±0,1 mm. Il est strictement interdit de mélanger dans une même cartouche des plombs de tailles ou de qualités différentes. La charge totale est limitée à 28 g (+2 %).",
+   "alt": [
+    "plomb n° 7,5",
+    "taille des plombs"
+   ],
+   "conf": "high",
+   "src": "https://www.ball-trap-neuvy.fr/disciplines/les-munitions-clic/"
   },
   "release-trigger": {
-   "term_local": "Détente à lâcher",
+   "term_local": "détente à relâche",
    "short": "Détente qui fait partir le coup lorsqu'on la relâche et non lorsqu'on la presse.",
-   "long": "Un fusil équipé d'une détente à lâcher doit porter, sur la face extérieure de la crosse, un autocollant d'avertissement avec un grand « R » sur fond fluorescent. Si la loi du pays organisateur interdit les détentes à lâcher lors d'une compétition internationale, cela doit être indiqué dans le programme. Si un No Bird ou autre chose empêche le tir, le tireur maintient la détente et soit appelle un nouveau plateau, soit ouvre le fusil en la maintenant (semi-automatique : sûreté mise et levier d'armement tiré deux fois vers l'arrière), soit prévient l'arbitre et tire dans une direction sûre indiquée par celui-ci. Si le No Bird concerne le second plateau après le premier coup avec un système lâcher-puis-presser, il suffit d'ouvrir le fusil."
+   "long": "Un fusil équipé d'une détente à lâcher doit porter, sur la face extérieure de la crosse, un autocollant d'avertissement avec un grand « R » sur fond fluorescent. Si la loi du pays organisateur interdit les détentes à lâcher lors d'une compétition internationale, cela doit être indiqué dans le programme. Si un No Bird ou autre chose empêche le tir, le tireur maintient la détente et soit appelle un nouveau plateau, soit ouvre le fusil en la maintenant (semi-automatique : sûreté mise et levier d'armement tiré deux fois vers l'arrière), soit prévient l'arbitre et tire dans une direction sûre indiquée par celui-ci. Si le No Bird concerne le second plateau après le premier coup avec un système lâcher-puis-presser, il suffit d'ouvrir le fusil.",
+   "alt": [
+    "release trigger"
+   ],
+   "note": "Terme officiel FITASC (art. 7.11, autocollant « R »). « Détente à lâcher » n'est pas le terme officiel.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "safety": {
-   "term_local": "Sécurité",
+   "term_local": "sécurité",
    "short": "Les règles qui protègent les tireurs, les officiels, le personnel et les spectateurs sur le stand.",
    "long": "La sécurité passe avant tout, dans la conception des parcours comme dans le tir. Les fusils sont portés ouverts et déchargés et ne sont chargés que sur le poste, pointés vers le champ de tir, après autorisation de l'arbitre ; un semi-automatique contient au maximum deux cartouches. Avant de se retourner ou de quitter le poste, on ouvre le fusil et on retire toutes les cartouches, et pendant les présentations et les interruptions il reste ouvert. Après une défaillance, le tireur reste en place sans ouvrir le fusil jusqu'à ce que l'arbitre le contrôle. Un tireur ne tire qu'à son tour, uniquement sur un plateau lancé, jamais sur le plateau d'un autre tireur et jamais sciemment sur des animaux vivants. Les protections auditives et les lunettes de protection sont obligatoires, et les sandales sont interdites.",
    "disciplines": {
     "compak": "En plus : un limiteur d'angle de tir à chaque pas de tir ; un lanceur placé derrière les pas de tir doit être au moins 4 m plus haut."
-   }
+   },
+   "alt": [
+    "règles de sécurité"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "gun-handling": {
-   "term_local": "Manipulation des armes",
+   "term_local": "fusil ouvert",
    "short": "La façon dont les fusils doivent être portés, rangés et manipulés hors du poste et sur le poste.",
-   "long": "Tout fusil, même déchargé, se manipule avec le plus grand soin. Les fusils sont portés ouverts ; les semi-automatiques culasse ouverte, canon pointé tout droit vers le haut ou vers le bas. Les bretelles et sangles ne sont pas autorisées. Lorsqu'ils ne servent pas, les fusils sont posés verticalement dans un râtelier ou un endroit similaire. Personne ne peut toucher le fusil d'un autre concurrent sans sa permission."
+   "long": "Tout fusil, même déchargé, se manipule avec le plus grand soin. Les fusils sont portés ouverts ; les semi-automatiques culasse ouverte, canon pointé tout droit vers le haut ou vers le bas. Les bretelles et sangles ne sont pas autorisées. Lorsqu'ils ne servent pas, les fusils sont posés verticalement dans un râtelier ou un endroit similaire. Personne ne peut toucher le fusil d'un autre concurrent sans sa permission.",
+   "alt": [
+    "porter le fusil ouvert",
+    "manipulation des armes"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "hearing-protection": {
-   "term_local": "Protection auditive",
+   "term_local": "protections auditives",
    "short": "Protection des oreilles obligatoire pour toute personne présente sur le parcours ou à proximité.",
-   "long": "Les tireurs, arbitres, membres du personnel et spectateurs présents sur un parcours ou un Compak, ou à proximité, doivent porter une protection auditive. Un tireur qui se présente au poste sans protection est considéré comme absent : en Parcours de Chasse, la règle des retards et absences de l'article 16.7 s'applique, et en Compak il ne peut pas tirer. En Parcours de Chasse, les enfants présents sur le stand hors du club-house doivent toujours porter une protection auditive."
+   "long": "Les tireurs, arbitres, membres du personnel et spectateurs présents sur un parcours ou un Compak, ou à proximité, doivent porter une protection auditive. Un tireur qui se présente au poste sans protection est considéré comme absent : en Parcours de Chasse, la règle des retards et absences de l'article 16.7 s'applique, et en Compak il ne peut pas tirer. En Parcours de Chasse, les enfants présents sur le stand hors du club-house doivent toujours porter une protection auditive.",
+   "alt": [
+    "casque anti-bruit",
+    "bouchons"
+   ],
+   "note": "Terme du règlement FITASC.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "safety-glasses": {
-   "term_local": "Lunettes de protection",
+   "term_local": "lunettes de protection",
    "short": "Lunettes de protection obligatoires pour les tireurs, les arbitres et le personnel.",
-   "long": "En Parcours de Chasse, les lunettes de protection doivent être portées sans exception par les tireurs, les arbitres, le personnel et toute personne se trouvant près d'un poste. En Compak, les concurrents, les arbitres et le personnel doivent porter des lunettes de protection. Un tireur qui se présente au poste sans lunettes est considéré comme absent ; en Compak il ne peut pas tirer, et en Parcours de Chasse l'article 16.7 s'applique."
+   "long": "En Parcours de Chasse, les lunettes de protection doivent être portées sans exception par les tireurs, les arbitres, le personnel et toute personne se trouvant près d'un poste. En Compak, les concurrents, les arbitres et le personnel doivent porter des lunettes de protection. Un tireur qui se présente au poste sans lunettes est considéré comme absent ; en Compak il ne peut pas tirer, et en Parcours de Chasse l'article 16.7 s'applique.",
+   "alt": [
+    "lunettes de tir"
+   ],
+   "note": "Obligatoires (FITASC 8.10).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "conduct": {
-   "term_local": "Comportement",
+   "term_local": "comportement",
    "short": "La conduite attendue des tireurs, y compris l'interdiction de perdre le contrôle de soi.",
-   "long": "Un tireur qui perd manifestement le contrôle de lui-même, par exemple en jetant son fusil, en tenant des propos injurieux ou en se montrant violent envers un arbitre ou d'autres concurrents, doit être signalé au jury par l'arbitre le plus rapidement possible. Le jury peut alors l'exclure immédiatement. Les règles de comportement prévoient aussi de ne tirer qu'à son tour, jamais sur le plateau d'un autre tireur et jamais sur des animaux vivants."
+   "long": "Un tireur qui perd manifestement le contrôle de lui-même, par exemple en jetant son fusil, en tenant des propos injurieux ou en se montrant violent envers un arbitre ou d'autres concurrents, doit être signalé au jury par l'arbitre le plus rapidement possible. Le jury peut alors l'exclure immédiatement. Les règles de comportement prévoient aussi de ne tirer qu'à son tour, jamais sur le plateau d'un autre tireur et jamais sur des animaux vivants.",
+   "alt": [
+    "règles de conduite",
+    "attitude antisportive"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "coaching": {
    "term_local": "Coaching",
@@ -499,9 +795,14 @@ window.GLOSSARY_I18N.fr = {
    "long": "Un concurrent ne peut pas être coaché pendant la compétition. Si l'arbitre estime qu'il y a coaching, le concurrent reçoit un carton jaune, et les récidives de même nature entraînent les pénalités du chapitre des sanctions (chapitre 13 du Parcours de Chasse, chapitre 23 du Compak). La personne qui coache est renvoyée de la zone de tir par l'arbitre. La règle est la même dans les deux disciplines."
   },
   "dress-code": {
-   "term_local": "Tenue vestimentaire",
+   "term_local": "tenue vestimentaire",
    "short": "Les règles vestimentaires des concurrents sur le poste et lors des cérémonies.",
-   "long": "Les shorts courts sont interdits ; seuls les bermudas longs s'arrêtant au maximum 5 cm au-dessus du genou sont acceptés. Les hauts doivent avoir au moins des manches courtes et un col ou une encolure ronde, et un gilet de tir porté sans rien dessous n'est pas autorisé. Les sandales sont interdites pour des raisons de sécurité, à l'entraînement comme en compétition. Au défilé d'ouverture et à la remise des prix, les membres des équipes portent la tenue de l'équipe nationale ou un pantalon habillé avec un blazer, et chaque lauréat doit assister à la remise des prix. Un premier manquement entraîne un avertissement ; s'il n'est pas corrigé, d'autres pénalités suivent, jusqu'à l'exclusion par le jury."
+   "long": "Les shorts courts sont interdits ; seuls les bermudas longs s'arrêtant au maximum 5 cm au-dessus du genou sont acceptés. Les hauts doivent avoir au moins des manches courtes et un col ou une encolure ronde, et un gilet de tir porté sans rien dessous n'est pas autorisé. Les sandales sont interdites pour des raisons de sécurité, à l'entraînement comme en compétition. Au défilé d'ouverture et à la remise des prix, les membres des équipes portent la tenue de l'équipe nationale ou un pantalon habillé avec un blazer, et chaque lauréat doit assister à la remise des prix. Un premier manquement entraîne un avertissement ; s'il n'est pas corrigé, d'autres pénalités suivent, jusqu'à l'exclusion par le jury.",
+   "alt": [
+    "tenue"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "warning": {
    "term_local": "Avertissement",
@@ -509,19 +810,31 @@ window.GLOSSARY_I18N.fr = {
    "long": "Pour un premier manquement à n'importe quel article, l'arbitre ou le jury donne un avertissement ; en Compak, il est signifié par un carton jaune, et en Parcours de Chasse un avertissement pour faute de position d'attente s'accompagne aussi d'un carton jaune. Avertissements typiques : premier dépassement du temps de tir, premier incident de fusil ou de munitions dans une série, premier tir simulé ou premier tir sur un No Bird, et manquements à la tenue ou au port du dossard. Après un avertissement, un nouveau manquement sur le même parcours ou le même Compak est sanctionné selon le tableau (carton rouge)."
   },
   "yellow-card": {
-   "term_local": "Carton jaune",
+   "term_local": "carton jaune",
    "short": "Carton montré avec un avertissement pour un premier manquement.",
-   "long": "En Parcours de Chasse, l'arbitre donne un avertissement verbal accompagné d'un carton jaune lorsqu'un tireur ne prend pas la position d'attente requise ou épaule avant l'apparition du plateau ; le coaching et les manquements concernant les douilles vides valent aussi un carton jaune. En Compak, le premier manquement à une règle, le premier incident de fusil ou de munitions dans une série, le coaching et les manquements concernant les douilles vides sont signalés par un carton jaune. Une nouvelle infraction entraîne ensuite un carton rouge."
+   "long": "En Parcours de Chasse, l'arbitre donne un avertissement verbal accompagné d'un carton jaune lorsqu'un tireur ne prend pas la position d'attente requise ou épaule avant l'apparition du plateau ; le coaching et les manquements concernant les douilles vides valent aussi un carton jaune. En Compak, le premier manquement à une règle, le premier incident de fusil ou de munitions dans une série, le coaching et les manquements concernant les douilles vides sont signalés par un carton jaune. Une nouvelle infraction entraîne ensuite un carton rouge.",
+   "alt": [
+    "avertissement"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "red-card": {
-   "term_local": "Carton rouge",
+   "term_local": "carton rouge",
    "short": "Carton sanctionnant un manquement répété après avertissement, le plateau étant compté comme pénalité.",
-   "long": "Après le premier avertissement, toute nouvelle infraction sur le même parcours (Parcours de Chasse) ou le même Compak entraîne un carton rouge. Le plateau est alors compté : zéro sur un simple ; zéro et No Bird sur un doublé au coup de fusil ; zéro et zéro sur un doublé simultané ou en rafale. Pour un incident en Compak sur le second plateau d'un doublé, le premier résultat est conservé et le second vaut zéro. En Compak, un deuxième incident de fusil ou de munitions du même type donne aussi zéro avec un carton rouge."
+   "long": "Après le premier avertissement, toute nouvelle infraction sur le même parcours (Parcours de Chasse) ou le même Compak entraîne un carton rouge. Le plateau est alors compté : zéro sur un simple ; zéro et No Bird sur un doublé au coup de fusil ; zéro et zéro sur un doublé simultané ou en rafale. Pour un incident en Compak sur le second plateau d'un doublé, le premier résultat est conservé et le second vaut zéro. En Compak, un deuxième incident de fusil ou de munitions du même type donne aussi zéro avec un carton rouge.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "penalty": {
-   "term_local": "Pénalité / sanction",
+   "term_local": "pénalité",
    "short": "Sanction pour infraction au règlement, de l'avertissement jusqu'à l'exclusion.",
-   "long": "En s'inscrivant, chaque tireur accepte le règlement de la FITASC et les sanctions prévues en cas d'infraction, de non-respect des ordres des arbitres ou de refus de leurs décisions. L'échelle commence par l'avertissement, puis les pénalités au poste selon le tableau (carton rouge, zéro) ; pour les récidives, le refus d'obtempérer ou les tentatives d'influence, le jury peut infliger la perte d'un plateau, la perte d'une série de 25 plateaux ou l'exclusion. En cas de perte du contrôle de soi, de refus d'obtempérer, de tentative d'influence ou de tir délibéré sur des animaux vivants, le jury peut exclure immédiatement sur rapport d'un arbitre."
+   "long": "En s'inscrivant, chaque tireur accepte le règlement de la FITASC et les sanctions prévues en cas d'infraction, de non-respect des ordres des arbitres ou de refus de leurs décisions. L'échelle commence par l'avertissement, puis les pénalités au poste selon le tableau (carton rouge, zéro) ; pour les récidives, le refus d'obtempérer ou les tentatives d'influence, le jury peut infliger la perte d'un plateau, la perte d'une série de 25 plateaux ou l'exclusion. En cas de perte du contrôle de soi, de refus d'obtempérer, de tentative d'influence ou de tir délibéré sur des animaux vivants, le jury peut exclure immédiatement sur rapport d'un arbitre.",
+   "alt": [
+    "sanction"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "expulsion": {
    "term_local": "Exclusion",
@@ -556,18 +869,31 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "protest": {
-   "term_local": "Réclamation",
+   "term_local": "réclamation",
    "short": "Objection immédiate, sur le poste, à une décision de l'arbitre.",
-   "long": "Le tireur qui n'est pas d'accord doit réagir aussitôt, sur le poste et avant l'appel du plateau suivant (en Compak avant que le tireur suivant n'appelle), en levant la main ou le bras et en disant « réclamation » ou « appel », et il doit en donner la raison. L'arbitre arrête le tir. Si l'arbitre est sûr de lui, la décision est confirmée immédiatement et elle est définitive ; en cas de doute, il peut consulter un autre arbitre, le préposé au lancement ou les tireurs, mais la décision qu'il rend ensuite s'impose. Les décisions portant sur le plateau touché ou manqué, la trajectoire et le No Bird ne peuvent pas être portées devant le jury."
+   "long": "Le tireur qui n'est pas d'accord doit réagir aussitôt, sur le poste et avant l'appel du plateau suivant (en Compak avant que le tireur suivant n'appelle), en levant la main ou le bras et en disant « réclamation » ou « appel », et il doit en donner la raison. L'arbitre arrête le tir. Si l'arbitre est sûr de lui, la décision est confirmée immédiatement et elle est définitive ; en cas de doute, il peut consulter un autre arbitre, le préposé au lancement ou les tireurs, mais la décision qu'il rend ensuite s'impose. Les décisions portant sur le plateau touché ou manqué, la trajectoire et le No Bird ne peuvent pas être portées devant le jury.",
+   "alt": [
+    "« Réclamation ! »"
+   ],
+   "note": "Le tireur lève le bras et dit « Réclamation », « Protest » ou « Appel ».",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "appeal": {
-   "term_local": "Appel",
+   "term_local": "protestation écrite au jury",
    "short": "Contester une décision de l'arbitre, d'abord sur le poste, puis par écrit auprès du jury.",
    "long": "L'appel commence sur le poste, immédiatement, en levant la main et en disant « appel » ou « réclamation ». Les décisions sur le fait qu'un plateau ait été touché, qu'il ait été défectueux ou hors trajectoire, ainsi que sur les No Birds, ne peuvent pas aller devant le jury. Toute autre décision de l'arbitre peut faire l'objet d'un appel écrit auprès du jury, accompagné d'une caution : 40 % du droit d'inscription en Parcours de Chasse, le montant en vigueur le jour même en Compak. En Compak, une réclamation doit porter sur un incident du jour même, et un tireur qui a refusé de signer la feuille de marque ne peut pas réclamer. Si le jury donne raison à l'appelant, il peut modifier la décision, donner des instructions à l'arbitre ou le remplacer, et la caution est restituée.",
    "disciplines": {
     "sporting": "Caution de 40 % du droit d'inscription ; une décision confirmée sur le poste est définitive.",
     "compak": "Appelé réclamation ; incidents du jour même uniquement ; pas de réclamation sans signature de la feuille de marque."
-   }
+   },
+   "alt": [
+    "appel",
+    "faire appel auprès du jury"
+   ],
+   "note": "Attention : « Appel » crié sur le poste = réclamation immédiate ; caution de 40 % de l'engagement.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "appeal-jury": {
    "term_local": "Jury d'appel",
@@ -588,13 +914,18 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "jury": {
-   "term_local": "Jury",
+   "term_local": "jury",
    "short": "L'instance qui dirige une compétition internationale, examine les appels et fixe les pénalités.",
    "long": "Le jury se compose des membres présents de la commission technique (sportive) de la FITASC, d'un représentant de chaque nation engageant une équipe senior ou hommes, et des membres présents du Comité de direction ou du Comité exécutif de la FITASC qui ne siègent pas au jury d'appel ; il est présidé par le représentant de la fédération organisatrice (Compak : le Président ou le représentant de la fédération organisatrice). Il décide à la majorité des membres présents, la voix du président étant prépondérante en cas d'égalité, et délibère valablement en présence du président et d'au moins un quart des membres. En cas d'urgence, deux membres désignés par le président peuvent décider, sous réserve d'une ratification ultérieure. Au moins deux membres du jury doivent toujours être présents sur le stand, et un membre qui constate une irrégularité la signale au jury plutôt qu'à l'arbitre.",
    "disciplines": {
     "sporting": "Contrôle les parcours, fixe les horaires de tir et peut contrôler les fusils, les cartouches et les plateaux.",
     "compak": "Les membres du jury portent un badge ; une décision d'urgence prise par deux membres nécessite l'accord de l'arbitre en chef."
-   }
+   },
+   "alt": [
+    "jury d'appel"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "technical-commission": {
    "term_local": "Commission technique",
@@ -612,13 +943,19 @@ window.GLOSSARY_I18N.fr = {
    "long": "La FITASC peut exiger d'une fédération qu'elle désigne un traceur de parcours chargé de concevoir et de faire fonctionner les parcours. Dans les jours précédant une compétition de Parcours de Chasse, les traceurs présentent les parcours, les trajectoires et les types de plateaux aux membres du jury responsables des parcours et à l'arbitre principal ; les parcours ne deviennent définitifs qu'après validation. Un arbitre de poste ne peut pas modifier les trajectoires fixées par le traceur ; après une panne de lanceur ou des conditions météo exceptionnelles, une trajectoire réglée à nouveau devrait être contrôlée par le traceur ou par un membre du jury. En Compak, le responsable des parcours peut les concevoir lui-même au lieu d'utiliser les tableaux de l'annexe 3."
   },
   "squad": {
-   "term_local": "Planche",
+   "term_local": "planche",
    "short": "Groupe de six tireurs au maximum, tirés au sort, qui tirent ensemble.",
    "long": "Dans les deux règlements, une planche compte au maximum 6 tireurs qui tirent ensemble la même série sur la même installation. En Parcours de Chasse, les planches sont formées par tirage au sort, les membres d'une même équipe nationale sont répartis dans des planches différentes autant que possible, et les horaires et planches sont publiés à l'avance. Les membres de la planche ne peuvent pas intervenir dans les décisions de l'arbitre, même si celui-ci peut leur demander leur avis. Deux tireurs d'une même planche ne peuvent pas partager un fusil. Les places vides d'une planche de barrage ne sont pas complétées.",
    "disciplines": {
     "sporting": "Planches de 6 tirées au sort ; l'ordre tourne à chaque poste.",
     "compak": "Par planche : jusqu'à 6 ; avec moins de tireurs, le dernier plateau d'un pas de tir vide est montré au suivant."
-   }
+   },
+   "alt": [
+    "groupe",
+    "planche de tir"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "group": {
    "term_local": "Groupe (en ligne)",
@@ -634,27 +971,39 @@ window.GLOSSARY_I18N.fr = {
    "long": "Le jury fixe les horaires de tir, en Compak avec le secrétariat de la compétition, et l'organisateur les annonce après la cérémonie d'ouverture. Ils sont publiés par voie d'affichage ou dans un programme imprimé, et il appartient au tireur de les respecter. En Compak, les tireurs doivent se présenter à l'arbitre derrière leur Compak et confirmer leur présence (obligatoire), être prêts sans délai et suivre les retards ou avances au cours de la journée."
   },
   "practice": {
-   "term_local": "Entraînement",
+   "term_local": "entraînement",
    "short": "Le tir avant la compétition, que le règlement encadre.",
    "long": "En Parcours de Chasse, personne ne peut s'entraîner sur les parcours de la compétition avant l'épreuve ; l'entraînement n'est possible que sur d'autres installations. En Compak, les tireurs peuvent s'entraîner sur les trajectoires de la compétition, qui peuvent encore être modifiées ensuite, mais les tableaux de réglage utilisés à l'entraînement doivent être différents de ceux de la compétition. Aux championnats continentaux et du monde de Compak, l'entraînement officiel ouvre le samedi précédent, et personne ne peut s'entraîner sur les machines du championnat avant cette date.",
    "disciplines": {
     "sporting": "Jamais sur les parcours de la compétition avant l'épreuve.",
     "compak": "Permis sur les trajectoires de la compétition avec d'autres tableaux ; aux championnats à partir du samedi précédent."
-   }
+   },
+   "alt": [
+    "plateaux d'entraînement"
+   ],
+   "conf": "high",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "competitor-number": {
-   "term_local": "Dossard",
+   "term_local": "dossard",
    "short": "Le numéro porté dans le dos du tireur pendant la compétition.",
-   "long": "Le dossard doit être porté dans le dos, entre les épaules et la taille, entièrement visible et complet, ni plié ni découpé. Un premier manquement entraîne un avertissement de l'arbitre ; s'il n'est pas corrigé, d'autres pénalités suivent, jusqu'à l'exclusion de la compétition par le jury. En Parcours de Chasse, un tireur absent est appelé par son nom et son numéro trois fois en une minute."
+   "long": "Le dossard doit être porté dans le dos, entre les épaules et la taille, entièrement visible et complet, ni plié ni découpé. Un premier manquement entraîne un avertissement de l'arbitre ; s'il n'est pas corrigé, d'autres pénalités suivent, jusqu'à l'exclusion de la compétition par le jury. En Parcours de Chasse, un tireur absent est appelé par son nom et son numéro trois fois en une minute.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shoot-off": {
-   "term_local": "Barrage",
+   "term_local": "barrage",
    "short": "Série supplémentaire destinée à départager les ex æquo pour les trois premières places.",
    "long": "Seules les égalités pour les trois premières places individuelles (en Compak également dans chaque catégorie) sont départagées par un barrage. Il s'agit d'une série de 25 plateaux ; en cas de nouvelle égalité, une seconde phase se tire en mort subite. Les barrages suivent les règles normales, mais les places vides d'une planche ne sont pas complétées. Si aucun horaire n'a été fixé à l'avance, les tireurs doivent rester en contact avec le jury et être prêts dans les 15 minutes suivant leur appel ; tout absent est disqualifié ou considéré comme forfait. Le jury peut le reporter au lendemain pour des raisons exceptionnelles. Il n'y a jamais de barrage par équipes.",
    "disciplines": {
     "sporting": "Sur un nouveau parcours fixé par le jury si le temps le permet.",
     "compak": "Sur un Compak avec 1 simple et 2 doublés simultanés par pas de tir, choisi par la Commission technique ou le jury."
-   }
+   },
+   "alt": [
+    "mort subite"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "sudden-death": {
    "term_local": "Mort subite",
@@ -666,23 +1015,38 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "countback": {
-   "term_local": "Départage au dernier parcours (countback)",
+   "term_local": "départage",
    "short": "Classer les scores à égalité en comparant les résultats du dernier parcours ou Compak, puis de l'avant-dernier, et ainsi de suite.",
-   "long": "Au-delà de la troisième place, il n'y a pas de barrage : les tireurs à égalité sont classés ex æquo et ordonnés en remontant leurs scores du 8e parcours (Compak) jusqu'au 1er. Les équipes à égalité sont classées selon le score cumulé de leurs membres sur le 8e parcours ou Compak ; en cas de nouvelle égalité, sur le 7e, le 6e et ainsi de suite jusqu'au 1er. Il n'y a pas de barrage par équipes."
+   "long": "Au-delà de la troisième place, il n'y a pas de barrage : les tireurs à égalité sont classés ex æquo et ordonnés en remontant leurs scores du 8e parcours (Compak) jusqu'au 1er. Les équipes à égalité sont classées selon le score cumulé de leurs membres sur le 8e parcours ou Compak ; en cas de nouvelle égalité, sur le 7e, le 6e et ainsi de suite jusqu'au 1er. Il n'y a pas de barrage par équipes.",
+   "alt": [
+    "en remontant les parcours (du 8e au 1er)"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "team": {
-   "term_local": "Équipe",
+   "term_local": "équipe",
    "short": "Équipe nationale dont les scores des membres sont additionnés pour le classement par équipes.",
-   "long": "Le résultat d'une équipe est la somme des scores de ses membres. Les égalités sont départagées par le total de l'équipe sur le 8e parcours ou Compak, puis sur le 7e et ainsi de suite jusqu'au 1er ; il n'y a pas de barrage par équipes. Les membres d'une même équipe nationale sont répartis autant que possible dans des planches différentes. Au défilé d'ouverture, les membres de l'équipe portent la tenue de l'équipe nationale ou un pantalon habillé avec un blazer. Des équipes sont aussi formées par catégorie : Junior, Dame, Homme, Senior, Vétéran et Master, de 3 tireurs chacune ; seule l'équipe Homme du Parcours de Chasse en compte 4."
+   "long": "Le résultat d'une équipe est la somme des scores de ses membres. Les égalités sont départagées par le total de l'équipe sur le 8e parcours ou Compak, puis sur le 7e et ainsi de suite jusqu'au 1er ; il n'y a pas de barrage par équipes. Les membres d'une même équipe nationale sont répartis autant que possible dans des planches différentes. Au défilé d'ouverture, les membres de l'équipe portent la tenue de l'équipe nationale ou un pantalon habillé avec un blazer. Des équipes sont aussi formées par catégorie : Junior, Dame, Homme, Senior, Vétéran et Master, de 3 tireurs chacune ; seule l'équipe Homme du Parcours de Chasse en compte 4.",
+   "alt": [
+    "équipe nationale"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "category": {
-   "term_local": "Catégorie",
+   "term_local": "catégorie",
    "short": "Classement séparé par âge et par sexe, à côté du classement général ; à partir de 2027, la FITASC utilise Junior, Dame, Homme, Senior, Vétéran et Master.",
    "long": "À partir du 1er janvier 2027, la FITASC fixe six catégories pour le Compak® Sporting, le Parcours de Chasse – Sporting™ et ses autres disciplines : Junior (13–20 ans), Dame (à partir de 13 ans), Homme (Men, 21–55 ans), Senior (56–65 ans), Vétéran (66–72 ans) et Master (à partir de 73 ans, hommes ou femmes). L'âge se compte par année de naissance : une nouvelle catégorie s'applique à partir du 1er janvier de l'année où le tireur atteint l'âge requis, quelle que soit sa date d'anniversaire. Senior n'est pas la principale catégorie adulte mais la tranche d'âge 56–65 ans ; la principale catégorie adulte est Homme. Les équipes de catégorie comptent 3 tireurs (l'équipe Homme du Parcours de Chasse en compte 4), et un tireur sélectionné dans l'équipe d'une autre catégorie doit aussi s'inscrire individuellement dans cette catégorie. En Compak, les égalités pour les trois premières places de chaque catégorie sont départagées par barrage ; lorsque des tireurs d'un barrage du classement général appartiennent à la même catégorie, le résultat vaut aussi pour cette catégorie. Les épreuves nationales et de club peuvent utiliser leurs propres catégories, telles qu'indiquées dans le programme.",
    "disciplines": {
     "sporting": "L'équipe Homme compte 4 tireurs ; les équipes des autres catégories en comptent 3.",
     "compak": "Barrages séparés pour le podium de chaque catégorie."
-   }
+   },
+   "alt": [
+    "classement par catégories"
+   ],
+   "conf": "high",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "junior": {
    "term_local": "Junior",
@@ -705,9 +1069,13 @@ window.GLOSSARY_I18N.fr = {
    "long": "La catégorie Senior va du 1er janvier de l'année des 56 ans du tireur jusqu'à la fin de l'année de ses 65 ans ; pour 2027, cela correspond aux personnes nées entre 1962 et 1971. C'est un piège pour les traducteurs : à la FITASC, Senior ne désigne pas les adultes en général mais la tranche d'âge 56–65 ans, la principale catégorie adulte étant Homme. Une équipe Senior compte 3 tireurs des catégories Senior, Vétéran ou Master. Dans d'autres sports, dans des résultats plus anciens et dans certains programmes nationaux, senior peut désigner les adultes en général ; vérifiez donc le tableau de l'épreuve concernée."
   },
   "veteran": {
-   "term_local": "Vétéran",
+   "term_local": "vétéran",
    "short": "La catégorie d'âge FITASC de 66 à 72 ans.",
-   "long": "La catégorie Vétéran (en anglais Veteran) va du 1er janvier de l'année des 66 ans du tireur jusqu'à la fin de l'année de ses 72 ans ; pour 2027, cela correspond aux personnes nées entre 1955 et 1961. Une équipe Vétéran compte 3 tireurs des catégories Vétéran ou Master. Les vétérans peuvent aussi être sélectionnés dans les équipes Senior et Homme, et s'inscrivent alors aussi individuellement dans cette catégorie. Les épreuves nationales peuvent utiliser leurs propres limites d'âge."
+   "long": "La catégorie Vétéran (en anglais Veteran) va du 1er janvier de l'année des 66 ans du tireur jusqu'à la fin de l'année de ses 72 ans ; pour 2027, cela correspond aux personnes nées entre 1955 et 1961. Une équipe Vétéran compte 3 tireurs des catégories Vétéran ou Master. Les vétérans peuvent aussi être sélectionnés dans les équipes Senior et Homme, et s'inscrivent alors aussi individuellement dans cette catégorie. Les épreuves nationales peuvent utiliser leurs propres limites d'âge.",
+   "alt": [
+    "super-vétéran"
+   ],
+   "conf": "medium"
   },
   "master-category": {
    "term_local": "Master",
@@ -715,29 +1083,56 @@ window.GLOSSARY_I18N.fr = {
    "long": "La catégorie Master regroupe les hommes et les femmes à partir du 1er janvier de l'année de leurs 73 ans ; pour 2027, cela correspond aux personnes nées avant le 1er janvier 1955. Une équipe Master compte 3 tireurs de cette catégorie ; les tireurs Master peuvent aussi être sélectionnés dans les équipes Vétéran, Senior et Homme. Ne confondez pas la catégorie d'âge Master de la FITASC avec la classe Master du système américain NSCA, qui dépend des résultats, ni avec l'œil directeur (master eye) en technique."
   },
   "hull": {
-   "term_local": "Douille (étui)",
+   "term_local": "douille",
    "short": "L'étui de la cartouche : un tube en plastique ou en carton avec un culot métallique qui contient tous les éléments de la cartouche.",
-   "long": "La douille est le corps de la cartouche. Le tube est généralement en plastique, plus rarement en carton ; à sa base, il est fermé par un culot métallique qui porte l'amorce. À l'intérieur se trouvent, dans l'ordre, la poudre, la bourre et les plombs, et le haut est fermé par le sertissage. La longueur de la douille doit correspondre à la chambre du fusil : pour les cartouches de ball-trap en calibre 12, elle est le plus souvent de 70 mm. Après le tir, les douilles vides vont dans les poubelles prévues sur le stand et ne restent pas dans l'herbe."
+   "long": "La douille est le corps de la cartouche. Le tube est généralement en plastique, plus rarement en carton ; à sa base, il est fermé par un culot métallique qui porte l'amorce. À l'intérieur se trouvent, dans l'ordre, la poudre, la bourre et les plombs, et le haut est fermé par le sertissage. La longueur de la douille doit correspondre à la chambre du fusil : pour les cartouches de ball-trap en calibre 12, elle est le plus souvent de 70 mm. Après le tir, les douilles vides vont dans les poubelles prévues sur le stand et ne restent pas dans l'herbe.",
+   "alt": [
+    "étui",
+    "tube"
+   ],
+   "note": "« Douilles vides » dans le règlement Compak ; culot = base métallique.",
+   "conf": "high",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "primer": {
-   "term_local": "Amorce",
+   "term_local": "amorce",
    "short": "Petite capsule logée dans le culot de la douille qui produit une étincelle sous le choc du percuteur et enflamme la poudre.",
-   "long": "L'amorce se trouve au centre du culot métallique de la douille. Lorsque le percuteur du fusil la frappe, la composition d'amorçage s'enflamme et la flamme allume la charge de poudre. Une amorce faible ou lente peut provoquer un raté ou un long feu. C'est pourquoi, après une défaillance, on n'ouvre pas le fusil tout de suite : il reste pointé dans une direction sûre jusqu'à ce que l'arbitre l'ait contrôlé. Une amorce marquée sans départ du coup est le signe typique d'une cartouche défectueuse ou d'une frappe trop faible du percuteur."
+   "long": "L'amorce se trouve au centre du culot métallique de la douille. Lorsque le percuteur du fusil la frappe, la composition d'amorçage s'enflamme et la flamme allume la charge de poudre. Une amorce faible ou lente peut provoquer un raté ou un long feu. C'est pourquoi, après une défaillance, on n'ouvre pas le fusil tout de suite : il reste pointé dans une direction sûre jusqu'à ce que l'arbitre l'ait contrôlé. Une amorce marquée sans départ du coup est le signe typique d'une cartouche défectueuse ou d'une frappe trop faible du percuteur.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "powder": {
-   "term_local": "Poudre",
+   "term_local": "poudre",
    "short": "Le propulseur qui brûle rapidement et produit le gaz qui pousse les plombs ; la poudre noire est interdite aux épreuves FITASC.",
-   "long": "Les cartouches modernes utilisent de la poudre sans fumée. Elle brûle en une fraction de seconde, et le gaz qu'elle produit propulse la bourre et les plombs dans le canon. La quantité et le type de poudre influent sur la vitesse des plombs et, en partie, sur le recul ; c'est le fabricant de la cartouche qui les choisit. Le règlement FITASC du Sporting™ et du Compak® Sporting interdit la poudre noire, les cartouches traçantes et les cartouches rechargées. Conservez les cartouches au sec et à l'abri de la chaleur : l'humidité et les températures élevées dégradent le comportement de la poudre."
+   "long": "Les cartouches modernes utilisent de la poudre sans fumée. Elle brûle en une fraction de seconde, et le gaz qu'elle produit propulse la bourre et les plombs dans le canon. La quantité et le type de poudre influent sur la vitesse des plombs et, en partie, sur le recul ; c'est le fabricant de la cartouche qui les choisit. Le règlement FITASC du Sporting™ et du Compak® Sporting interdit la poudre noire, les cartouches traçantes et les cartouches rechargées. Conservez les cartouches au sec et à l'abri de la chaleur : l'humidité et les températures élevées dégradent le comportement de la poudre.",
+   "note": "La poudre noire est interdite (FITASC).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "wad": {
-   "term_local": "Bourre",
+   "term_local": "bourre",
    "short": "L'élément placé entre la poudre et les plombs qui assure l'étanchéité aux gaz et guide les plombs dans le canon ; en plastique ou en fibre.",
-   "long": "La bourre se trouve entre la charge de poudre et les plombs. Elle empêche les gaz de traverser la charge de plombs et pousse celle-ci uniformément dans le canon. Une bourre en plastique est souvent une jupe (godet) qui enveloppe les plombs et protège l'âme du frottement ; avec des plombs d'acier, ce godet est indispensable. Une bourre en fibre ou en feutre se dégrade dans la nature, c'est pourquoi de nombreux stands l'imposent. Après le coup, la bourre vole quelques dizaines de mètres et retombe au sol : le choix de la bourre est donc une question de balistique, mais aussi de propreté du terrain."
+   "long": "La bourre se trouve entre la charge de poudre et les plombs. Elle empêche les gaz de traverser la charge de plombs et pousse celle-ci uniformément dans le canon. Une bourre en plastique est souvent une jupe (godet) qui enveloppe les plombs et protège l'âme du frottement ; avec des plombs d'acier, ce godet est indispensable. Une bourre en fibre ou en feutre se dégrade dans la nature, c'est pourquoi de nombreux stands l'imposent. Après le coup, la bourre vole quelques dizaines de mètres et retombe au sol : le choix de la bourre est donc une question de balistique, mais aussi de propreté du terrain.",
+   "alt": [
+    "bourre à jupe",
+    "bourre grasse",
+    "godet"
+   ],
+   "conf": "high",
+   "src": "https://www.ball-trap-neuvy.fr/disciplines/les-munitions-clic/"
   },
   "fibre-wad": {
-   "term_local": "Bourre grasse / bourre fibre",
+   "term_local": "bourre grasse",
    "short": "Bourre en fibre ou en feutre qui se dégrade dans la nature ; de nombreux stands l'imposent.",
-   "long": "Une bourre fibre est faite de fibres comprimées, de carton ou de feutre. Contrairement à une bourre plastique, elle se décompose avec le temps ; c'est pourquoi les stands situés près de champs, de bois ou de plans d'eau n'autorisent souvent que ce type de cartouches. Une bourre fibre fonctionne bien avec le plomb ; avec l'acier, il faut des cartouches spéciales que le fabricant homologue expressément avec cette bourre. Les cartouches à bourre fibre peuvent donner une gerbe un peu différente, essayez-les donc à l'entraînement avant une compétition. Les exigences du stand figurent généralement dans son règlement intérieur ou dans le programme de la compétition."
+   "long": "Une bourre fibre est faite de fibres comprimées, de carton ou de feutre. Contrairement à une bourre plastique, elle se décompose avec le temps ; c'est pourquoi les stands situés près de champs, de bois ou de plans d'eau n'autorisent souvent que ce type de cartouches. Une bourre fibre fonctionne bien avec le plomb ; avec l'acier, il faut des cartouches spéciales que le fabricant homologue expressément avec cette bourre. Les cartouches à bourre fibre peuvent donner une gerbe un peu différente, essayez-les donc à l'entraînement avant une compétition. Les exigences du stand figurent généralement dans son règlement intérieur ou dans le programme de la compétition.",
+   "alt": [
+    "bourre fibre",
+    "bourre feutre",
+    "bourre biodégradable"
+   ],
+   "note": "« Bourre grasse » = bourre fibre/liège sans jupe ; sur les stands écologiques on dit aussi « bourre biodégradable ».",
+   "conf": "medium",
+   "src": "https://www.ball-trap-neuvy.fr/disciplines/les-munitions-clic/"
   },
   "crimp": {
    "term_local": "Sertissage",
@@ -745,9 +1140,16 @@ window.GLOSSARY_I18N.fr = {
    "long": "Le sertissage maintient les plombs dans la douille jusqu'au tir. Sur les douilles plastique modernes, c'est une étoile : le bord du tube est replié vers le centre en 6 ou 8 plis. Les cartouches anciennes ou en carton ont parfois un sertissage rond avec un opercule en carton par-dessus. Au départ du coup, les plis s'ouvrent et la charge passe dans le canon. Un sertissage abîmé ou ouvert est une raison de mettre la cartouche de côté : les plombs peuvent s'échapper et le coup peut être faible."
   },
   "load-weight": {
-   "term_local": "Charge de plomb (grammage)",
+   "term_local": "charge",
    "short": "Le poids de plombs d'une cartouche ; la FITASC autorise jusqu'à 28 g de plomb, avec une tolérance de +2 %.",
-   "long": "La charge est imprimée sur la boîte en grammes, et au Royaume-Uni et aux États-Unis souvent en onces (1 oz correspond à environ 28 g). Le règlement FITASC du Sporting™ et du Compak® Sporting limite la charge à 28 g de plomb avec une tolérance de +2 %. Les charges les plus courantes au ball-trap sont 24 et 28 g ; 21–24 g sont appréciés pour l'entraînement, les juniors et les débutants. Une charge plus lourde met davantage de plombs dans la gerbe mais recule aussi plus fort, ce qui fatigue sur une journée de 100 à 200 coups. L'arbitre peut contrôler les cartouches d'un tireur, et les coups tirés avec des munitions non conformes comptent comme manqués."
+   "long": "La charge est imprimée sur la boîte en grammes, et au Royaume-Uni et aux États-Unis souvent en onces (1 oz correspond à environ 28 g). Le règlement FITASC du Sporting™ et du Compak® Sporting limite la charge à 28 g de plomb avec une tolérance de +2 %. Les charges les plus courantes au ball-trap sont 24 et 28 g ; 21–24 g sont appréciés pour l'entraînement, les juniors et les débutants. Une charge plus lourde met davantage de plombs dans la gerbe mais recule aussi plus fort, ce qui fatigue sur une journée de 100 à 200 coups. L'arbitre peut contrôler les cartouches d'un tireur, et les coups tirés avec des munitions non conformes comptent comme manqués.",
+   "alt": [
+    "grammage",
+    "charge de plomb (24 g, 28 g)"
+   ],
+   "note": "FITASC : charge limitée à 28 g de plomb.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "velocity": {
    "term_local": "Vitesse (V0)",
@@ -755,14 +1157,24 @@ window.GLOSSARY_I18N.fr = {
    "long": "Pour les cartouches de ball-trap, la vitesse est généralement d'environ 370 à 450 m/s. Les fabricants européens l'indiquent souvent à 1 m ou à 2,5 m de la bouche (notée V1, V2,5), les fabricants américains en pieds par seconde à environ 1 m ; un même chiffre ne désigne donc pas toujours la même cartouche. Une cartouche plus rapide raccourcit légèrement le temps de vol des plombs, mais elle recule plus fort et sa gerbe n'est pas forcément meilleure. La plupart des entraîneurs conseillent de ne pas rechercher la vitesse, mais de choisir une cartouche avec laquelle on tire de façon régulière et sans fatigue. Certains stands, surtout pour l'acier, limitent la vitesse des cartouches."
   },
   "recoil": {
-   "term_local": "Recul",
+   "term_local": "recul",
    "short": "La poussée du fusil dans l'épaule au départ du coup ; elle dépend de la charge, de la vitesse, du poids du fusil et de sa conformation.",
-   "long": "Le recul est plus fort avec une charge plus lourde et une vitesse de plombs plus élevée, et plus faible avec un fusil plus lourd. Un semi-automatique à emprunt de gaz étale la poussée dans le temps, il paraît donc plus doux. La conformation du fusil et un épaulé correct comptent tout autant : un fusil bien calé dans le creux de l'épaule recule beaucoup moins qu'un fusil posé sur le bras ou sur l'os. Un fort recul fatigue et apprend peu à peu à donner un coup d'épaule (flinch) avant le tir. Des cartouches plus légères à l'entraînement, une bonne plaque de couche et une épaulière sur le gilet sont donc un choix raisonnable, pas une faiblesse."
+   "long": "Le recul est plus fort avec une charge plus lourde et une vitesse de plombs plus élevée, et plus faible avec un fusil plus lourd. Un semi-automatique à emprunt de gaz étale la poussée dans le temps, il paraît donc plus doux. La conformation du fusil et un épaulé correct comptent tout autant : un fusil bien calé dans le creux de l'épaule recule beaucoup moins qu'un fusil posé sur le bras ou sur l'os. Un fort recul fatigue et apprend peu à peu à donner un coup d'épaule (flinch) avant le tir. Des cartouches plus légères à l'entraînement, une bonne plaque de couche et une épaulière sur le gilet sont donc un choix raisonnable, pas une faiblesse.",
+   "alt": [
+    "relèvement (du canon)"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "lead-shot": {
-   "term_local": "Plomb",
+   "term_local": "plombs",
    "short": "Grenaille traditionnelle, lourde et tendre ; le règlement FITASC est écrit pour elle, mais de nombreux pays et stands la restreignent.",
-   "long": "Le plomb est lourd : un plomb conserve bien sa vitesse et les cartouches donnent une gerbe régulière. Le règlement FITASC du Sporting™ et du Compak® Sporting décrit des plombs en plomb : une charge de 28 g au maximum (+2 %), des plombs sphériques de 2,0 à 2,5 mm. Le plomb est cependant toxique pour l'environnement, en particulier pour l'eau et les oiseaux d'eau. Dans l'UE, il est interdit depuis 2023 de tirer des plombs en plomb dans les zones humides et à moins de 100 m de celles-ci, et certains pays et stands ont des règles plus strictes. Les lois évoluent : avant de voyager, vérifiez la législation locale et le règlement du stand."
+   "long": "Le plomb est lourd : un plomb conserve bien sa vitesse et les cartouches donnent une gerbe régulière. Le règlement FITASC du Sporting™ et du Compak® Sporting décrit des plombs en plomb : une charge de 28 g au maximum (+2 %), des plombs sphériques de 2,0 à 2,5 mm. Le plomb est cependant toxique pour l'environnement, en particulier pour l'eau et les oiseaux d'eau. Dans l'UE, il est interdit depuis 2023 de tirer des plombs en plomb dans les zones humides et à moins de 100 m de celles-ci, et certains pays et stands ont des règles plus strictes. Les lois évoluent : avant de voyager, vérifiez la législation locale et le règlement du stand.",
+   "alt": [
+    "grenaille de plomb"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "soft-iron-shot": {
    "term_local": "Plomb en fer doux",
@@ -770,9 +1182,16 @@ window.GLOSSARY_I18N.fr = {
    "long": "Le fer doux est un type de grenaille sans plomb que les fabricants proposent comme compromis entre le plomb et l'acier. Les plombs sont plus tendres que l'acier ordinaire, ils ménagent donc mieux les canons et les chokes, mais leur poids est plus proche de celui de l'acier que de celui du plomb. Les dénominations et caractéristiques dépendent du fabricant, et toutes ces cartouches ne conviennent pas à tous les fusils ni à tous les chokes. Avant utilisation, vérifiez le marquage de la boîte, les notices du fusil et des chokes, ainsi que le règlement du stand sur la grenaille sans plomb."
   },
   "steel-shot": {
-   "term_local": "Plomb acier (billes d'acier)",
+   "term_local": "billes d'acier",
    "short": "Grenaille sans plomb, plus légère et plus dure que le plomb ; certains stands et certaines lois l'imposent.",
-   "long": "L'acier est environ un tiers plus léger que le plomb à volume égal et beaucoup plus dur. Un plomb d'acier perd donc plus vite sa vitesse, donne une gerbe plus serrée et ricoche davantage sur les surfaces dures ; c'est pourquoi les stands limitent souvent la taille des plombs d'acier et parfois la vitesse des cartouches. L'acier exige une bourre plastique protectrice ou une bourre spéciale pour ne pas rayer l'âme. Tous les chokes et tous les fusils ne sont pas prévus pour l'acier : vérifiez le marquage des chokes et la notice, et en cas de doute demandez à un armurier. L'acier est obligatoire là où la loi ou le stand restreint le plomb, par exemple près de l'eau ; renseignez-vous sur les règles locales."
+   "long": "L'acier est environ un tiers plus léger que le plomb à volume égal et beaucoup plus dur. Un plomb d'acier perd donc plus vite sa vitesse, donne une gerbe plus serrée et ricoche davantage sur les surfaces dures ; c'est pourquoi les stands limitent souvent la taille des plombs d'acier et parfois la vitesse des cartouches. L'acier exige une bourre plastique protectrice ou une bourre spéciale pour ne pas rayer l'âme. Tous les chokes et tous les fusils ne sont pas prévus pour l'acier : vérifiez le marquage des chokes et la notice, et en cas de doute demandez à un armurier. L'acier est obligatoire là où la loi ou le stand restreint le plomb, par exemple près de l'eau ; renseignez-vous sur les règles locales.",
+   "alt": [
+    "acier",
+    "grenaille d'acier",
+    "plomb acier (familier)"
+   ],
+   "note": "« Plomb acier » est courant mais impropre.",
+   "conf": "medium"
   },
   "low-recoil-cartridge": {
    "term_local": "Cartouche à faible recul",
@@ -780,9 +1199,15 @@ window.GLOSSARY_I18N.fr = {
    "long": "Ces cartouches ont une charge plus légère (souvent 21–24 g en calibre 12) et une vitesse modérée, elles poussent donc nettement moins fort dans l'épaule. Pour un jeune tireur ou un débutant, c'est important : un fort recul le fatigue vite, et la peur du recul installe l'habitude de donner un coup d'épaule avant le tir. Sur les plateaux proches et moyens, une charge légère casse les plateaux de façon tout à fait fiable. Le bon fonctionnement d'un semi-automatique avec des charges légères dépend du modèle, testez-le donc à l'entraînement. Le mieux est de choisir la charge avec un entraîneur."
   },
   "pattern": {
-   "term_local": "Gerbe",
+   "term_local": "gerbe",
    "short": "La trace que laisse la gerbe de plombs sur une cible ou une plaque ; sa largeur et sa régularité comptent.",
-   "long": "En sortant de la bouche, les plombs s'étalent en une gerbe qui s'élargit et s'allonge avec la distance. La gerbe, c'est l'image que ce nuage laisse sur une surface plane : sa largeur et la présence ou non de trous par lesquels un plateau pourrait passer. La largeur de la gerbe dépend surtout du choke : plus le choke est ouvert, plus la gerbe est large à une distance donnée. La cartouche, la taille et le type de plombs jouent aussi un rôle. Traditionnellement, la densité de la gerbe s'évalue par la proportion de plombs dans un cercle d'une taille donnée à une distance fixe, mais les méthodes varient selon les pays et les fabricants."
+   "long": "En sortant de la bouche, les plombs s'étalent en une gerbe qui s'élargit et s'allonge avec la distance. La gerbe, c'est l'image que ce nuage laisse sur une surface plane : sa largeur et la présence ou non de trous par lesquels un plateau pourrait passer. La largeur de la gerbe dépend surtout du choke : plus le choke est ouvert, plus la gerbe est large à une distance donnée. La cartouche, la taille et le type de plombs jouent aussi un rôle. Traditionnellement, la densité de la gerbe s'évalue par la proportion de plombs dans un cercle d'une taille donnée à une distance fixe, mais les méthodes varient selon les pays et les fabricants.",
+   "alt": [
+    "groupement",
+    "gerbe de plombs"
+   ],
+   "conf": "medium",
+   "src": "https://chasse-en-camargue.fr/tableau-de-correspondance-des-chokes/"
   },
   "constriction": {
    "term_local": "Étranglement (constriction)",
@@ -790,43 +1215,93 @@ window.GLOSSARY_I18N.fr = {
    "long": "L'étranglement indique dans quelle mesure le choke resserre la gerbe à la sortie du canon. Il s'exprime en millimètres ou en thou, millièmes de pouce (1 thou vaut environ 0,025 mm). Par exemple, le quart de choke fait environ 0,25 mm (10 thou), le demi-choke environ 0,5 mm (20 thou), le full environ 0,9 à 1 mm. Ce sont des valeurs typiques du calibre 12 : les chiffres réels dépendent du fabricant et même du diamètre de l'âme du canon concerné. Un armurier peut mesurer l'étranglement avec précision à l'aide d'une jauge."
   },
   "cylinder": {
-   "term_local": "Cylindrique",
+   "term_local": "lisse",
    "short": "Canon ou choke sans étranglement ; donne la gerbe la plus large.",
-   "long": "Cylindrique signifie un étranglement nul : l'âme à la bouche a le même diamètre que dans le canon. La gerbe s'étale le plus vite ; elle est donc large à courte distance et devient clairsemée plus loin. On le choisit pour les plateaux très proches, comme certains lapins ou les plateaux qui jaillissent près du tireur. Sur les chokes Beretta, il est marqué de cinq étoiles. Pour la plupart des plateaux en Sporting™ et en Compak® Sporting, les tireurs choisissent des chokes un peu plus serrés."
+   "long": "Cylindrique signifie un étranglement nul : l'âme à la bouche a le même diamètre que dans le canon. La gerbe s'étale le plus vite ; elle est donc large à courte distance et devient clairsemée plus loin. On le choisit pour les plateaux très proches, comme certains lapins ou les plateaux qui jaillissent près du tireur. Sur les chokes Beretta, il est marqué de cinq étoiles. Pour la plupart des plateaux en Sporting™ et en Compak® Sporting, les tireurs choisissent des chokes un peu plus serrés.",
+   "alt": [
+    "cylindrique",
+    "choke lisse",
+    "CYL"
+   ],
+   "note": "FFBT : forage « lisse » ; 5 étoiles.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "fixed-choke": {
-   "term_local": "Choke fixe",
+   "term_local": "choke fixe",
    "short": "Choke usiné dans le canon en usine ; seul un armurier peut le modifier.",
-   "long": "Sur un fusil à chokes fixes, l'étranglement est usiné directement à l'extrémité des canons, et chaque canon a le sien, par exemple 1/4 et 1/2. On trouve ces fusils parmi les modèles anciens et parmi les fusils destinés à certaines disciplines. Leur avantage est la simplicité : rien ne peut se desserrer ni se perdre. L'inconvénient est que l'étranglement ne peut pas être adapté aux différents plateaux. Un armurier peut ouvrir un choke fixe ou fileter les canons pour des chokes interchangeables, mais c'est une opération irréversible à discuter au préalable."
+   "long": "Sur un fusil à chokes fixes, l'étranglement est usiné directement à l'extrémité des canons, et chaque canon a le sien, par exemple 1/4 et 1/2. On trouve ces fusils parmi les modèles anciens et parmi les fusils destinés à certaines disciplines. Leur avantage est la simplicité : rien ne peut se desserrer ni se perdre. L'inconvénient est que l'étranglement ne peut pas être adapté aux différents plateaux. Un armurier peut ouvrir un choke fixe ou fileter les canons pour des chokes interchangeables, mais c'est une opération irréversible à discuter au préalable.",
+   "alt": [
+    "forage fixe",
+    "chokes fixes"
+   ],
+   "conf": "medium",
+   "src": "https://chasse-en-camargue.fr/tableau-de-correspondance-des-chokes/"
   },
   "multichoke": {
-   "term_local": "Multichoke (chokes interchangeables)",
+   "term_local": "chokes interchangeables",
    "short": "Système de chokes filetés qui se vissent dans la bouche du canon.",
    "long": "Sur un fusil multichoke, l'extrémité de chaque canon est filetée, et le fusil est livré avec plusieurs chokes d'étranglements différents. Un même fusil convient ainsi aux plateaux proches comme aux plateaux lointains. Les systèmes des différents fabricants ont des filetages et des longueurs différents, et les chokes d'une marque ne vont généralement pas sur une autre. Ne tirez jamais avec un filetage vide, sans choke monté : cela peut endommager le canon. Les règles de changement diffèrent : en Sporting™, un choke peut être changé entre deux postes ou entre les simples et les doublés s'il ne cause aucun retard, tandis qu'en Compak® Sporting seulement entre les séries.",
    "disciplines": {
     "sporting": "Changements permis entre deux postes ou entre les simples et les doublés, pas sur le poste.",
     "compak": "Aucun changement de choke au cours d'une série ; seulement entre les séries (sauf après un incident)."
-   }
+   },
+   "alt": [
+    "multichoke",
+    "mobile choke",
+    "chokes amovibles"
+   ],
+   "note": "FITASC écrit « MOBILE CHOKE ».",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "choke-key": {
-   "term_local": "Clé à choke",
+   "term_local": "clé à choke",
    "short": "Outil servant à visser et dévisser les chokes interchangeables.",
-   "long": "Une clé à choke est généralement fournie avec le fusil et ne convient qu'aux chokes de son propre système. Utilisez-la pour serrer le choke fermement, mais sans forcer : un choke trop serré est difficile à retirer, et un choke desserré peut se dévisser pendant le tir. Vérifiez le serrage des chokes avant chaque séance et après quelques séries. Les chokes extérieurs peuvent souvent être serrés à la main, mais il vaut quand même la peine d'avoir la clé sur soi. Rangez-la dans votre sac avec la graisse à chokes."
+   "long": "Une clé à choke est généralement fournie avec le fusil et ne convient qu'aux chokes de son propre système. Utilisez-la pour serrer le choke fermement, mais sans forcer : un choke trop serré est difficile à retirer, et un choke desserré peut se dévisser pendant le tir. Vérifiez le serrage des chokes avant chaque séance et après quelques séries. Les chokes extérieurs peuvent souvent être serrés à la main, mais il vaut quand même la peine d'avoir la clé sur soi. Rangez-la dans votre sac avec la graisse à chokes.",
+   "alt": [
+    "clé de choke",
+    "clé à chokes"
+   ],
+   "conf": "medium"
   },
   "extended-choke": {
    "term_local": "Choke extérieur (dépassant)",
    "short": "Choke interchangeable qui dépasse de la bouche du canon, avec un marquage visible.",
-   "long": "Un choke extérieur est plus long qu'un choke affleurant et dépasse de quelques centimètres de la bouche du canon. Son étranglement est généralement marqué sur la partie qui dépasse, et un moletage permet de le visser et dévisser à la main. De nombreux tireurs de Sporting™ et de Compak® Sporting les préfèrent, car ils voient d'un coup d'œil ce qui est monté. Les fabricants affirment qu'un choke plus long forme la gerbe plus progressivement, mais la différence dépend du modèle. Les chokes extérieurs doivent correspondre au système multichoke de votre fusil."
+   "long": "Un choke extérieur est plus long qu'un choke affleurant et dépasse de quelques centimètres de la bouche du canon. Son étranglement est généralement marqué sur la partie qui dépasse, et un moletage permet de le visser et dévisser à la main. De nombreux tireurs de Sporting™ et de Compak® Sporting les préfèrent, car ils voient d'un coup d'œil ce qui est monté. Les fabricants affirment qu'un choke plus long forme la gerbe plus progressivement, mais la différence dépend du modèle. Les chokes extérieurs doivent correspondre au système multichoke de votre fusil.",
+   "alt": [
+    "choke long",
+    "choke dépassant",
+    "extended"
+   ],
+   "note": "Usage variable selon les marques.",
+   "conf": "low"
   },
   "skeet-choke": {
-   "term_local": "Skeet (choke)",
+   "term_local": "skeet",
    "short": "Étranglement très léger, d'environ 0,1 à 0,15 mm (4 à 6 thou), pour les plateaux les plus proches.",
-   "long": "Le choke skeet doit son nom à la discipline dans laquelle les plateaux volent très près. Il est à peine plus serré que le cylindrique : environ 0,1 à 0,15 mm d'étranglement (4 à 6 thou), parfois appelé 1/8 dans l'usage européen. La gerbe est large à courte distance et pardonne les petites erreurs. En Sporting™ et en Compak® Sporting, on l'utilise pour les plateaux proches, les lapins et les plateaux qui jaillissent tout près. Les valeurs exactes dépendent du fabricant."
+   "long": "Le choke skeet doit son nom à la discipline dans laquelle les plateaux volent très près. Il est à peine plus serré que le cylindrique : environ 0,1 à 0,15 mm d'étranglement (4 à 6 thou), parfois appelé 1/8 dans l'usage européen. La gerbe est large à courte distance et pardonne les petites erreurs. En Sporting™ et en Compak® Sporting, on l'utilise pour les plateaux proches, les lapins et les plateaux qui jaillissent tout près. Les valeurs exactes dépendent du fabricant.",
+   "alt": [
+    "lisse amélioré",
+    "choke skeet"
+   ],
+   "note": "FFBT range « lisse amélioré » (1-2/10) ; dans le commerce « Skeet ».",
+   "conf": "medium",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "improved-cylinder": {
-   "term_local": "Quart de choke (1/4)",
+   "term_local": "quart de choke",
    "short": "Étranglement léger, d'environ 0,25 mm (10 thou) ; en Europe « 1/4 », quatre étoiles.",
-   "long": "L'improved cylinder (IC) est l'un des chokes les plus polyvalents en ball-trap. Un étranglement d'environ 0,25 mm (environ 10 thou) donne une gerbe large, déjà plus dense que celle du cylindrique. On l'utilise pour les plateaux proches et moyens ; de nombreux tireurs de Sporting™ et de Compak® Sporting gardent l'IC dans le canon inférieur par défaut. En Europe, on l'appelle « 1/4 » (quart de choke), et sur les chokes Beretta il est marqué de quatre étoiles. Les valeurs en millimètres dépendent du fabricant."
+   "long": "L'improved cylinder (IC) est l'un des chokes les plus polyvalents en ball-trap. Un étranglement d'environ 0,25 mm (environ 10 thou) donne une gerbe large, déjà plus dense que celle du cylindrique. On l'utilise pour les plateaux proches et moyens ; de nombreux tireurs de Sporting™ et de Compak® Sporting gardent l'IC dans le canon inférieur par défaut. En Europe, on l'appelle « 1/4 » (quart de choke), et sur les chokes Beretta il est marqué de quatre étoiles. Les valeurs en millimètres dépendent du fabricant.",
+   "alt": [
+    "1/4",
+    "quart",
+    "IC",
+    "****"
+   ],
+   "note": "4 étoiles.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "light-modified": {
    "term_local": "3/8 de choke",
@@ -834,19 +1309,43 @@ window.GLOSSARY_I18N.fr = {
    "long": "Le light modified (LM) se situe entre le quart et le demi-choke. Un étranglement d'environ 0,35 à 0,4 mm (environ 15 thou) donne une gerbe nettement plus dense que l'IC, mais encore assez large pour les distances moyennes. On le choisit pour les plateaux un peu trop lointains pour l'IC mais trop proches pour le M. Il est parfois marqué 3/8, et certains fabricants ne le proposent pas du tout. Vérifiez le marquage sur le choke lui-même."
   },
   "modified": {
-   "term_local": "Demi-choke (1/2)",
+   "term_local": "demi-choke",
    "short": "Étranglement moyen, d'environ 0,5 mm (20 thou) ; « 1/2 », trois étoiles.",
-   "long": "Le modified (M) est un choke moyen. Un étranglement d'environ 0,5 mm (environ 20 thou) maintient une gerbe dense sur les plateaux moyens et assez lointains. En Europe, on l'appelle « 1/2 » (demi-choke), et sur les chokes Beretta il est marqué de trois étoiles. De nombreux tireurs mettent un M dans le canon supérieur pour le second coup, plus long. Avec l'acier, les fabricants conseillent souvent de ne pas dépasser le demi-choke ; suivez la notice de votre fusil et de vos chokes."
+   "long": "Le modified (M) est un choke moyen. Un étranglement d'environ 0,5 mm (environ 20 thou) maintient une gerbe dense sur les plateaux moyens et assez lointains. En Europe, on l'appelle « 1/2 » (demi-choke), et sur les chokes Beretta il est marqué de trois étoiles. De nombreux tireurs mettent un M dans le canon supérieur pour le second coup, plus long. Avec l'acier, les fabricants conseillent souvent de ne pas dépasser le demi-choke ; suivez la notice de votre fusil et de vos chokes.",
+   "alt": [
+    "1/2",
+    "demi",
+    "***"
+   ],
+   "note": "3 étoiles.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "improved-modified": {
-   "term_local": "Trois-quarts de choke (3/4)",
+   "term_local": "trois-quarts de choke",
    "short": "Étranglement serré, d'environ 0,65 à 0,75 mm (25 à 30 thou) ; « 3/4 », deux étoiles.",
-   "long": "L'improved modified (IM) donne une gerbe dense pour les plateaux lointains. Son étranglement est d'environ 0,65 à 0,75 mm (25 à 30 thou) ; en Europe, on l'appelle « 3/4 », et Beretta le marque de deux étoiles. Sur les plateaux proches, la gerbe est étroite et ne pardonne pas ; l'IM se choisit donc délibérément pour une trajectoire lointaine précise. Avec l'acier, de nombreux fabricants déconseillent les chokes serrés comme l'IM, sauf si le choke porte un marquage spécial pour l'acier. Les valeurs exactes dépendent du fabricant."
+   "long": "L'improved modified (IM) donne une gerbe dense pour les plateaux lointains. Son étranglement est d'environ 0,65 à 0,75 mm (25 à 30 thou) ; en Europe, on l'appelle « 3/4 », et Beretta le marque de deux étoiles. Sur les plateaux proches, la gerbe est étroite et ne pardonne pas ; l'IM se choisit donc délibérément pour une trajectoire lointaine précise. Avec l'acier, de nombreux fabricants déconseillent les chokes serrés comme l'IM, sauf si le choke porte un marquage spécial pour l'acier. Les valeurs exactes dépendent du fabricant.",
+   "alt": [
+    "3/4",
+    "trois-quarts",
+    "**"
+   ],
+   "note": "2 étoiles.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "full-choke": {
-   "term_local": "Full choke (1/1)",
+   "term_local": "full choke",
    "short": "Choke plein, d'environ 0,9 à 1 mm (35 à 40 thou) ; « 1/1 », une étoile.",
-   "long": "Le full est le plus serré des chokes courants de ball-trap. Un étranglement d'environ 0,9 à 1 mm (35 à 40 thou) maintient la gerbe groupée à longue distance. En Europe, il est marqué « 1/1 », et sur les chokes Beretta d'une étoile. En Sporting™ et en Compak® Sporting, le full est rarement nécessaire : seulement pour les plateaux très lointains, et sur les plateaux proches il donne une gerbe trop étroite. Il existe des chokes encore plus serrés (extra-full), mais le ball-trap n'en a presque jamais besoin. Avec l'acier, on n'utilise généralement pas de full sans l'accord du fabricant."
+   "long": "Le full est le plus serré des chokes courants de ball-trap. Un étranglement d'environ 0,9 à 1 mm (35 à 40 thou) maintient la gerbe groupée à longue distance. En Europe, il est marqué « 1/1 », et sur les chokes Beretta d'une étoile. En Sporting™ et en Compak® Sporting, le full est rarement nécessaire : seulement pour les plateaux très lointains, et sur les plateaux proches il donne une gerbe trop étroite. Il existe des chokes encore plus serrés (extra-full), mais le ball-trap n'en a presque jamais besoin. Avec l'acier, on n'utilise généralement pas de full sans l'accord du fabricant.",
+   "alt": [
+    "choke",
+    "full",
+    "*"
+   ],
+   "note": "FFBT distingue « choke » (9-10/10) et « full choke » (11/10) ; 1 étoile.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "star-marks": {
    "term_local": "Marquage par étoiles",
@@ -864,89 +1363,195 @@ window.GLOSSARY_I18N.fr = {
    "long": "Pendant le tir, les résidus de combustion et le plastique des bourres s'infiltrent dans le filetage des chokes, et l'humidité provoque de la rouille. Un choke laissé longtemps en place peut ainsi gripper dans le canon. Une fine couche de graisse spéciale sur le filetage l'empêche et facilite les changements. Avant le montage, essuyez le filetage du choke et du canon, appliquez un peu de graisse et serrez le choke avec la clé. Démontez régulièrement les chokes pour les nettoyer, même si vous ne les changez pas."
   },
   "over-and-under": {
-   "term_local": "Fusil superposé",
+   "term_local": "superposé",
    "short": "Fusil à deux canons placés l'un au-dessus de l'autre ; le type le plus répandu en Sporting™ et en Compak® Sporting.",
-   "long": "Un superposé possède deux canons l'un au-dessus de l'autre, une ouverture par basculement et généralement une détente unique avec sélecteur de canon. Un plan de visée étroit le long de la bande, un bon équilibre et une grande fiabilité en ont fait la référence en Sporting™ et en Compak® Sporting. Les deux canons peuvent recevoir des chokes différents, de sorte que le premier et le second coup s'adaptent à des distances différentes. Un superposé ouvert montre immédiatement à tous qu'il est sûr, ce qui est pratique sur le poste. C'est le choix de premier fusil le plus courant pour un débutant."
+   "long": "Un superposé possède deux canons l'un au-dessus de l'autre, une ouverture par basculement et généralement une détente unique avec sélecteur de canon. Un plan de visée étroit le long de la bande, un bon équilibre et une grande fiabilité en ont fait la référence en Sporting™ et en Compak® Sporting. Les deux canons peuvent recevoir des chokes différents, de sorte que le premier et le second coup s'adaptent à des distances différentes. Un superposé ouvert montre immédiatement à tous qu'il est sûr, ce qui est pratique sur le poste. C'est le choix de premier fusil le plus courant pour un débutant.",
+   "alt": [
+    "fusil superposé"
+   ],
+   "note": "Type d'arme le plus utilisé sur les stands (FFBT).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "side-by-side": {
-   "term_local": "Fusil juxtaposé",
+   "term_local": "juxtaposé",
    "short": "Fusil à deux canons placés côte à côte ; le fusil de chasse classique.",
-   "long": "Sur un juxtaposé, les canons sont placés côte à côte, le plan de visée est donc plus large que sur un superposé. C'est le fusil de chasse classique, souvent léger et élégant, fréquemment à deux détentes. Le règlement FITASC autorise tout fusil de chasse sauf les fusils à pompe, un juxtaposé peut donc être utilisé en compétition. Dans le Sporting™ et le Compak® Sporting modernes, il est toutefois rare : la plupart des tireurs choisissent un superposé ou un semi-automatique. Certains tirent au juxtaposé par tradition ou dans des classes spéciales lors des concours de club."
+   "long": "Sur un juxtaposé, les canons sont placés côte à côte, le plan de visée est donc plus large que sur un superposé. C'est le fusil de chasse classique, souvent léger et élégant, fréquemment à deux détentes. Le règlement FITASC autorise tout fusil de chasse sauf les fusils à pompe, un juxtaposé peut donc être utilisé en compétition. Dans le Sporting™ et le Compak® Sporting modernes, il est toutefois rare : la plupart des tireurs choisissent un superposé ou un semi-automatique. Certains tirent au juxtaposé par tradition ou dans des classes spéciales lors des concours de club.",
+   "alt": [
+    "fusil juxtaposé"
+   ],
+   "note": "Rare en ball-trap.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "pump-action": {
-   "term_local": "Fusil à pompe",
+   "term_local": "fusil à pompe",
    "short": "Fusil que l'on réarme en faisant coulisser le devant d'avant en arrière ; interdit par le règlement FITASC.",
-   "long": "Avec un fusil à pompe, le tireur éjecte la douille et introduit une nouvelle cartouche en faisant coulisser le devant vers l'arrière puis vers l'avant après chaque coup. Ces fusils sont courants à la chasse et dans certains autres sports de tir, mais le règlement FITASC du Sporting™ et du Compak® Sporting les interdit expressément. Les superposés, juxtaposés et semi-automatiques de calibre 12 ou plus petit sont autorisés. Si vous comptez faire de la compétition, n'achetez pas un fusil à pompe comme premier fusil. Le règlement de certains concours de club peut différer, vérifiez donc le programme."
+   "long": "Avec un fusil à pompe, le tireur éjecte la douille et introduit une nouvelle cartouche en faisant coulisser le devant vers l'arrière puis vers l'avant après chaque coup. Ces fusils sont courants à la chasse et dans certains autres sports de tir, mais le règlement FITASC du Sporting™ et du Compak® Sporting les interdit expressément. Les superposés, juxtaposés et semi-automatiques de calibre 12 ou plus petit sont autorisés. Si vous comptez faire de la compétition, n'achetez pas un fusil à pompe comme premier fusil. Le règlement de certains concours de club peut différer, vérifiez donc le programme.",
+   "alt": [
+    "pompe"
+   ],
+   "note": "Interdit en Parcours de Chasse / Compak.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "stock": {
-   "term_local": "Crosse",
+   "term_local": "crosse",
    "short": "La partie du fusil qui se cale dans l'épaule et sert d'appui à la joue.",
-   "long": "La crosse est généralement en bois, parfois en matériau synthétique. Son bord supérieur est le busc, sur lequel repose la joue, et son extrémité arrière porte la plaque de couche qui se cale dans l'épaule. Les dimensions de la crosse (longueur, hauteur du busc, avantage) déterminent la position de l'œil par rapport à la bande et si le fusil tire là où l'on regarde. La crosse est donc l'objet principal de la conformation du fusil. Selon le règlement FITASC, un fusil équipé d'une détente à lâcher doit porter un autocollant avec un grand « R » sur la face extérieure de la crosse."
+   "long": "La crosse est généralement en bois, parfois en matériau synthétique. Son bord supérieur est le busc, sur lequel repose la joue, et son extrémité arrière porte la plaque de couche qui se cale dans l'épaule. Les dimensions de la crosse (longueur, hauteur du busc, avantage) déterminent la position de l'œil par rapport à la bande et si le fusil tire là où l'on regarde. La crosse est donc l'objet principal de la conformation du fusil. Selon le règlement FITASC, un fusil équipé d'une détente à lâcher doit porter un autocollant avec un grand « R » sur la face extérieure de la crosse.",
+   "alt": [
+    "crosse pistolet",
+    "crosse Monte-Carlo"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "comb": {
-   "term_local": "Busc",
+   "term_local": "busc",
    "short": "Le bord supérieur de la crosse où repose la joue ; sa hauteur détermine la position de l'œil au-dessus de la bande.",
-   "long": "Le busc fait office de hausse du fusil : l'œil se retrouve là où la joue le place. Un busc trop haut fait tirer le fusil haut, un busc trop bas le fait tirer bas et le tireur voit moins de bande. De nombreux fusils de parcours ont un busc réglable que l'on peut monter, baisser ou décaler latéralement. En Sporting™, la règle de la position d'attente se réfère à la partie la plus haute de la crosse : avant l'appel, son extrémité arrière doit rester sous la ligne du gilet jusqu'à l'apparition du plateau. Le réglage du busc se fait de préférence avec un entraîneur ou un spécialiste de la conformation."
+   "long": "Le busc fait office de hausse du fusil : l'œil se retrouve là où la joue le place. Un busc trop haut fait tirer le fusil haut, un busc trop bas le fait tirer bas et le tireur voit moins de bande. De nombreux fusils de parcours ont un busc réglable que l'on peut monter, baisser ou décaler latéralement. En Sporting™, la règle de la position d'attente se réfère à la partie la plus haute de la crosse : avant l'appel, son extrémité arrière doit rester sous la ligne du gilet jusqu'à l'apparition du plateau. Le réglage du busc se fait de préférence avec un entraîneur ou un spécialiste de la conformation.",
+   "alt": [
+    "dessus de crosse"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "receiver": {
-   "term_local": "Bascule",
+   "term_local": "bascule",
    "short": "Le bloc métallique du fusil qui contient le mécanisme de percussion, la clé d'ouverture et la sûreté.",
-   "long": "La bascule relie les canons, la crosse et le devant. Elle renferme le mécanisme de percussion, et sur le dessus se trouvent la clé d'ouverture, qui permet d'ouvrir un fusil à basculement, et la sûreté, souvent combinée au sélecteur de canon. En dessous se trouve la détente dans son pontet. La bascule porte généralement le numéro de série et les poinçons d'épreuve nécessaires pour les documents et les voyages. Ne démontez pas la bascule vous-même : l'entretien du mécanisme est l'affaire d'un armurier."
+   "long": "La bascule relie les canons, la crosse et le devant. Elle renferme le mécanisme de percussion, et sur le dessus se trouvent la clé d'ouverture, qui permet d'ouvrir un fusil à basculement, et la sûreté, souvent combinée au sélecteur de canon. En dessous se trouve la détente dans son pontet. La bascule porte généralement le numéro de série et les poinçons d'épreuve nécessaires pour les documents et les voyages. Ne démontez pas la bascule vous-même : l'entretien du mécanisme est l'affaire d'un armurier.",
+   "alt": [
+    "boîtier (semi-auto)"
+   ],
+   "note": "Pour un semi-automatique on parle plutôt de boîtier/carcasse et de culasse.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "barrel-selector": {
-   "term_local": "Sélecteur de canon",
+   "term_local": "sélecteur",
    "short": "Commande, souvent combinée à la sûreté, qui choisit le canon qui part en premier.",
-   "long": "La plupart des superposés ont une détente unique et un sélecteur qui fixe l'ordre de tir : canon inférieur d'abord puis supérieur, ou l'inverse. Le plus souvent, le sélecteur se trouve sur le bouton de sûreté derrière la clé d'ouverture, mais sur certains modèles il est sur la détente elle-même. L'ordre se choisit en fonction des chokes : en général, le canon au choke le plus ouvert part en premier, sur le plateau le plus proche. Vérifiez le sélecteur avant chaque poste : un sélecteur déplacé par mégarde est une cause fréquente de manqué inattendu."
+   "long": "La plupart des superposés ont une détente unique et un sélecteur qui fixe l'ordre de tir : canon inférieur d'abord puis supérieur, ou l'inverse. Le plus souvent, le sélecteur se trouve sur le bouton de sûreté derrière la clé d'ouverture, mais sur certains modèles il est sur la détente elle-même. L'ordre se choisit en fonction des chokes : en général, le canon au choke le plus ouvert part en premier, sur le plateau le plus proche. Vérifiez le sélecteur avant chaque poste : un sélecteur déplacé par mégarde est une cause fréquente de manqué inattendu.",
+   "alt": [
+    "inverseur de canon",
+    "inverseur",
+    "mono-détente sélective"
+   ],
+   "note": "FFBT : « inverseur de canon » ; en armurerie « sélecteur ».",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "fore-end": {
-   "term_local": "Devant (longuesse)",
+   "term_local": "devant",
    "short": "La pièce placée sous les canons et tenue par la main avant ; elle maintient aussi les canons sur la bascule.",
-   "long": "Le devant est une pièce en bois ou en synthétique placée sous les canons. La main avant le tient et conduit le fusil le long du plateau ; sa forme influe donc sur la prise en main. Sur les fusils à basculement, il verrouille aussi les canons sur la bascule : pour démonter le fusil en vue du transport, on retire d'abord le devant. Lors du nettoyage, essuyez le métal sous le devant, là où l'humidité s'accumule. Certains tireurs portent des gants pour protéger la main des canons chauds."
+   "long": "Le devant est une pièce en bois ou en synthétique placée sous les canons. La main avant le tient et conduit le fusil le long du plateau ; sa forme influe donc sur la prise en main. Sur les fusils à basculement, il verrouille aussi les canons sur la bascule : pour démonter le fusil en vue du transport, on retire d'abord le devant. Lors du nettoyage, essuyez le métal sous le devant, là où l'humidité s'accumule. Certains tireurs portent des gants pour protéger la main des canons chauds.",
+   "alt": [
+    "longuesse",
+    "devant bois",
+    "fût"
+   ],
+   "note": "« Longuesse » plutôt pour mono-canon / semi-auto.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "chamber": {
-   "term_local": "Chambre",
+   "term_local": "chambre",
    "short": "La partie arrière du canon où se loge la cartouche ; sa longueur est marquée.",
-   "long": "La chambre est légèrement plus large que l'âme pour que la cartouche puisse s'y loger. Sa longueur est poinçonnée sur le canon, par exemple 70 mm ou 76 mm. La longueur indiquée sur une boîte de cartouches correspond à la douille ouverte après le tir ; elle ne doit donc pas dépasser la longueur de la chambre : tirer des cartouches plus longues est dangereux. Le ball-trap utilise le plus souvent des cartouches 12/70. Avant un entraînement à sec ou un transport, vérifiez toujours que les chambres sont vides."
+   "long": "La chambre est légèrement plus large que l'âme pour que la cartouche puisse s'y loger. Sa longueur est poinçonnée sur le canon, par exemple 70 mm ou 76 mm. La longueur indiquée sur une boîte de cartouches correspond à la douille ouverte après le tir ; elle ne doit donc pas dépasser la longueur de la chambre : tirer des cartouches plus longues est dangereux. Le ball-trap utilise le plus souvent des cartouches 12/70. Avant un entraînement à sec ou un transport, vérifiez toujours que les chambres sont vides.",
+   "alt": [
+    "chambrage (70 / 76 mm)"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "rib": {
-   "term_local": "Bande",
+   "term_local": "bande de visée",
    "short": "La bande de visée sur le dessus des canons, généralement ventilée, avec un guidon à son extrémité.",
-   "long": "La bande est une bande de métal le long du canon supérieur. Une bande ventilée comporte des ouvertures pour que l'air chaud au-dessus des canons déforme moins la vision. À l'extrémité de la bande se trouve un guidon, parfois complété d'un guidon intermédiaire. En ball-trap, on ne vise pas le long de la bande comme avec une carabine : on regarde le plateau et on perçoit la bande en vision périphérique. La quantité de bande que l'on voit fusil épaulé dépend de la hauteur du busc et constitue un élément important de la conformation du fusil."
+   "long": "La bande est une bande de métal le long du canon supérieur. Une bande ventilée comporte des ouvertures pour que l'air chaud au-dessus des canons déforme moins la vision. À l'extrémité de la bande se trouve un guidon, parfois complété d'un guidon intermédiaire. En ball-trap, on ne vise pas le long de la bande comme avec une carabine : on regarde le plateau et on perçoit la bande en vision périphérique. La quantité de bande que l'on voit fusil épaulé dépend de la hauteur du busc et constitue un élément important de la conformation du fusil.",
+   "alt": [
+    "bande",
+    "bande ventilée",
+    "bande pleine"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "ejector": {
-   "term_local": "Éjecteur",
+   "term_local": "éjecteurs",
    "short": "Mécanisme qui projette les douilles tirées à l'ouverture du fusil.",
-   "long": "Lorsqu'on ouvre après le tir un fusil à basculement équipé d'éjecteurs, les douilles tirées sont projetées toutes seules. Les cartouches non tirées sont seulement soulevées un peu pour pouvoir être retirées à la main. Les fusils plus simples n'ont qu'un extracteur, qui soulève toutes les douilles sans les projeter. Ramassez les douilles vides et mettez-les dans les poubelles du stand. En ouvrant le fusil, gardez une main au-dessus des chambres pour que les douilles ne volent pas vers vos voisins."
+   "long": "Lorsqu'on ouvre après le tir un fusil à basculement équipé d'éjecteurs, les douilles tirées sont projetées toutes seules. Les cartouches non tirées sont seulement soulevées un peu pour pouvoir être retirées à la main. Les fusils plus simples n'ont qu'un extracteur, qui soulève toutes les douilles sans les projeter. Ramassez les douilles vides et mettez-les dans les poubelles du stand. En ouvrant le fusil, gardez une main au-dessus des chambres pour que les douilles ne volent pas vers vos voisins.",
+   "alt": [
+    "éjecteurs automatiques",
+    "extracteurs (si sans éjection)"
+   ],
+   "note": "Distinguer éjecteur (rejette la douille) et extracteur (la soulève seulement).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "barrel-length": {
-   "term_local": "Longueur des canons",
+   "term_local": "longueur des canons",
    "short": "La longueur des canons ; la FITASC exige au moins 66 cm (26 pouces), les fusils de compétition ont généralement 28, 30 ou 32 pouces.",
-   "long": "Le règlement FITASC du Sporting™ et du Compak® Sporting exige des canons d'au moins 66 cm (26 pouces). Les fusils de parcours ont le plus souvent des canons de 28, 30 ou 32 pouces (environ 71, 76 et 81 cm). Des canons plus longs donnent un swing plus coulé et tiennent mieux la ligne ; des canons plus courts sont plus vifs et plus légers. Pour un débutant adulte, on conseille souvent 30 pouces, et pour un tireur jeune ou de petite taille des canons plus courts. Faites le choix final avec un entraîneur, car l'équilibre général du fusil compte aussi."
+   "long": "Le règlement FITASC du Sporting™ et du Compak® Sporting exige des canons d'au moins 66 cm (26 pouces). Les fusils de parcours ont le plus souvent des canons de 28, 30 ou 32 pouces (environ 71, 76 et 81 cm). Des canons plus longs donnent un swing plus coulé et tiennent mieux la ligne ; des canons plus courts sont plus vifs et plus légers. Pour un débutant adulte, on conseille souvent 30 pouces, et pour un tireur jeune ou de petite taille des canons plus courts. Faites le choix final avec un entraîneur, car l'équilibre général du fusil compte aussi.",
+   "alt": [
+    "longueur de canon"
+   ],
+   "note": "Exprimée en cm (70, 76, 81 cm).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "gunsmith": {
-   "term_local": "Armurier",
+   "term_local": "armurier",
    "short": "Artisan qui contrôle, répare et règle les armes.",
-   "long": "Un armurier entretient le mécanisme du fusil, répare les pannes, contrôle les canons et peut mesurer l'étranglement des chokes. Il peut aussi vous dire si un fusil et ses chokes conviennent à l'acier, et si un fusil d'occasion est sûr avant que vous l'achetiez. La mise à dimension de la crosse est souvent confiée à un spécialiste distinct, le conformateur, même si de nombreux armuriers la pratiquent aussi. Ne démontez pas le mécanisme vous-même et ne tirez pas avec un fusil qui se comporte bizarrement. Les grandes compétitions ont souvent un armurier sur place."
+   "long": "Un armurier entretient le mécanisme du fusil, répare les pannes, contrôle les canons et peut mesurer l'étranglement des chokes. Il peut aussi vous dire si un fusil et ses chokes conviennent à l'acier, et si un fusil d'occasion est sûr avant que vous l'achetiez. La mise à dimension de la crosse est souvent confiée à un spécialiste distinct, le conformateur, même si de nombreux armuriers la pratiquent aussi. Ne démontez pas le mécanisme vous-même et ne tirez pas avec un fusil qui se comporte bizarrement. Les grandes compétitions ont souvent un armurier sur place.",
+   "alt": [
+    "crossier (pour la crosse)"
+   ],
+   "note": "Armurier = aussi le commerçant d'armes.",
+   "conf": "medium"
   },
   "gun-fit": {
-   "term_local": "Conformation du fusil",
+   "term_local": "conformation",
    "short": "Adapter un fusil au tireur (longueur de crosse, hauteur du busc, avantage) pour qu'il tire là où l'œil regarde.",
-   "long": "En ball-trap, l'œil fait office d'organe de visée ; le fusil doit donc s'épauler de façon que l'œil se retrouve chaque fois au même endroit au-dessus de la bande. La conformation porte sur la longueur de crosse, la hauteur du busc, l'avantage et d'autres dimensions. Un fusil bien conformé tire plus juste, frappe moins l'épaule et la joue et permet de se concentrer sur le plateau. La conformation se contrôle sur une plaque de gerbe et en tirant avec un entraîneur ou un conformateur. Les enfants grandissent : la conformation des jeunes tireurs doit être revue régulièrement."
+   "long": "En ball-trap, l'œil fait office d'organe de visée ; le fusil doit donc s'épauler de façon que l'œil se retrouve chaque fois au même endroit au-dessus de la bande. La conformation porte sur la longueur de crosse, la hauteur du busc, l'avantage et d'autres dimensions. Un fusil bien conformé tire plus juste, frappe moins l'épaule et la joue et permet de se concentrer sur le plateau. La conformation se contrôle sur une plaque de gerbe et en tirant avec un entraîneur ou un conformateur. Les enfants grandissent : la conformation des jeunes tireurs doit être revue régulièrement.",
+   "alt": [
+    "raccord",
+    "crosse conformée",
+    "adaptation du fusil"
+   ],
+   "note": "FFBT : crosse « conformée » ; « raccord » usuel chez les armuriers.",
+   "conf": "high",
+   "src": "https://www.lemontagnard-outdoor.fr/actualites/tir-sportif/limportance-du-raccord-adapter-son-fusil-a-sa-morphologie"
   },
   "length-of-pull": {
-   "term_local": "Longueur de crosse",
+   "term_local": "longueur de crosse",
    "short": "La distance entre la détente et le milieu de la plaque de couche.",
-   "long": "La longueur de crosse se mesure de la détente au milieu de la plaque de couche. Si la crosse est trop longue, elle accroche les vêtements pendant l'épaulé et le fusil paraît lourd de l'avant ; si elle est trop courte, le pouce de la main de détente peut heurter le nez et le recul paraît plus fort. On la modifie en changeant de plaque de couche, avec des entretoises ou en raccourcissant la crosse. Les enfants et les adolescents ont besoin d'une longueur plus courte que les adultes, à revoir au fil de leur croissance. La dimension exacte est fixée par un entraîneur ou un conformateur."
+   "long": "La longueur de crosse se mesure de la détente au milieu de la plaque de couche. Si la crosse est trop longue, elle accroche les vêtements pendant l'épaulé et le fusil paraît lourd de l'avant ; si elle est trop courte, le pouce de la main de détente peut heurter le nez et le recul paraît plus fort. On la modifie en changeant de plaque de couche, avec des entretoises ou en raccourcissant la crosse. Les enfants et les adolescents ont besoin d'une longueur plus courte que les adultes, à revoir au fil de leur croissance. La dimension exacte est fixée par un entraîneur ou un conformateur.",
+   "alt": [
+    "longueur de tirage"
+   ],
+   "conf": "high",
+   "src": "https://www.chassepassion.net/fiche-chasse/armes-et-munitions/les-elements-dun-fusil/la-crosse//"
   },
   "cast": {
-   "term_local": "Avantage (déport de crosse)",
+   "term_local": "avantage",
    "short": "Déport latéral de la crosse : avantage à droite pour les droitiers, contre-avantage (à gauche) pour les gauchers.",
-   "long": "L'avantage est une légère courbure ou un léger déport latéral de la crosse, afin que l'œil directeur se place exactement au-dessus de la bande lorsque la joue repose sur le busc. Pour un tireur droitier, la crosse est déportée vers la droite (avantage), pour un gaucher vers la gauche (contre-avantage). Il ne s'agit généralement que de quelques millimètres, et la valeur peut différer au talon et au bec de la crosse. Les crosses réglables permettent de le modifier sans artisan. L'avantage nécessaire dépend de la forme du visage et de l'œil directeur ; il se règle donc lors de la conformation."
+   "long": "L'avantage est une légère courbure ou un léger déport latéral de la crosse, afin que l'œil directeur se place exactement au-dessus de la bande lorsque la joue repose sur le busc. Pour un tireur droitier, la crosse est déportée vers la droite (avantage), pour un gaucher vers la gauche (contre-avantage). Il ne s'agit généralement que de quelques millimètres, et la valeur peut différer au talon et au bec de la crosse. Les crosses réglables permettent de le modifier sans artisan. L'avantage nécessaire dépend de la forme du visage et de l'œil directeur ; il se règle donc lors de la conformation.",
+   "alt": [
+    "déport",
+    "cast"
+   ],
+   "note": "Les pentes au busc / au talon = drop (autre réglage).",
+   "conf": "high",
+   "src": "https://www.chassepassion.net/fiche-chasse/armes-et-munitions/les-elements-dun-fusil/la-crosse//"
   },
   "eye-dominance": {
-   "term_local": "Œil directeur (dominance oculaire)",
+   "term_local": "œil directeur",
    "short": "L'œil qui commande lorsqu'on regarde avec les deux yeux ; il influe sur la façon de tirer et sur la conformation du fusil.",
-   "long": "Lorsque nous regardons avec les deux yeux, le cerveau privilégie l'un d'eux, l'œil directeur. En ball-trap, c'est lui qui doit regarder le long de la bande ; la dominance oculaire détermine donc l'épaule sur laquelle on épaule et l'avantage nécessaire à la crosse. Le test le plus simple : tendez les bras, formez une petite ouverture entre vos mains, regardez un objet lointain à travers avec les deux yeux, puis fermez chaque œil tour à tour. L'œil qui voit encore l'objet est votre œil directeur. La dominance peut être partielle et évoluer avec l'âge ; refaites donc le test avec un entraîneur."
+   "long": "Lorsque nous regardons avec les deux yeux, le cerveau privilégie l'un d'eux, l'œil directeur. En ball-trap, c'est lui qui doit regarder le long de la bande ; la dominance oculaire détermine donc l'épaule sur laquelle on épaule et l'avantage nécessaire à la crosse. Le test le plus simple : tendez les bras, formez une petite ouverture entre vos mains, regardez un objet lointain à travers avec les deux yeux, puis fermez chaque œil tour à tour. L'œil qui voit encore l'objet est votre œil directeur. La dominance peut être partielle et évoluer avec l'âge ; refaites donc le test avec un entraîneur.",
+   "alt": [
+    "dominance oculaire"
+   ],
+   "conf": "medium",
+   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
   "gun-fitter": {
    "term_local": "Conformateur",
@@ -959,156 +1564,314 @@ window.GLOSSARY_I18N.fr = {
    "long": "Un fusil de calibre 12 de taille adulte est difficile à manier pour un enfant ou un adolescent : il est lourd, la crosse est trop longue et le recul est fort. Les fusils juniors sont plus légers, ont une crosse plus courte et souvent un calibre plus petit, comme le 20. Le règlement FITASC autorise jusqu'au calibre 12, un calibre 20 peut donc aussi être utilisé en compétition. Certains modèles ont une crosse que l'on peut rallonger à mesure que l'enfant grandit. Avant d'acheter, laissez l'enfant essayer plusieurs fusils sous la surveillance d'un entraîneur, et respectez la législation locale sur les mineurs et les armes."
   },
   "muzzle": {
-   "term_local": "Bouche du canon",
+   "term_local": "bouche du canon",
    "short": "L'ouverture avant du canon par laquelle sortent les plombs. Elle doit toujours être dirigée dans une direction sûre.",
-   "long": "La bouche est l'extrémité avant du canon ; sur un fusil multichoke, c'est là que se visse le choke. Première règle de sécurité : la bouche est toujours dirigée dans une direction sûre, même si vous êtes certain que le fusil est déchargé. Le règlement FITASC exige que les fusils soient portés ouverts, les semi-automatiques culasse ouverte, canon pointé tout droit vers le haut ou vers le bas. Sur le poste, on ne charge que bouche dirigée vers le champ de tir. Ne dirigez jamais la bouche vers des personnes et ne regardez jamais dedans."
+   "long": "La bouche est l'extrémité avant du canon ; sur un fusil multichoke, c'est là que se visse le choke. Première règle de sécurité : la bouche est toujours dirigée dans une direction sûre, même si vous êtes certain que le fusil est déchargé. Le règlement FITASC exige que les fusils soient portés ouverts, les semi-automatiques culasse ouverte, canon pointé tout droit vers le haut ou vers le bas. Sur le poste, on ne charge que bouche dirigée vers le champ de tir. Ne dirigez jamais la bouche vers des personnes et ne regardez jamais dedans.",
+   "alt": [
+    "bouche"
+   ],
+   "note": "« la bouche dirigée vers le haut ou le bas » (FITASC).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "standard-target": {
-   "term_local": "Plateau standard",
+   "term_local": "plateau normal",
    "short": "Le plateau ordinaire en forme de dôme, d'environ 110 mm de diamètre, le plus courant.",
-   "long": "Le plateau standard est un disque en forme de dôme d'environ 110 mm de diamètre. Il est relativement lourd, il conserve donc longtemps sa vitesse et sa ligne, et son comportement est le plus facile à prévoir. Les débutants commencent généralement avec lui. En Sporting™ et en Compak® Sporting, le standard est mélangé aux plateaux spéciaux : midi, mini, battue, lapin, rocket et autres. Si un lanceur projette un plateau d'une taille ou d'un type différent de celui du menu, l'arbitre annonce No Bird."
+   "long": "Le plateau standard est un disque en forme de dôme d'environ 110 mm de diamètre. Il est relativement lourd, il conserve donc longtemps sa vitesse et sa ligne, et son comportement est le plus facile à prévoir. Les débutants commencent généralement avec lui. En Sporting™ et en Compak® Sporting, le standard est mélangé aux plateaux spéciaux : midi, mini, battue, lapin, rocket et autres. Si un lanceur projette un plateau d'une taille ou d'un type différent de celui du menu, l'arbitre annonce No Bird.",
+   "alt": [
+    "plateau standard",
+    "standard"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "rocket-target": {
-   "term_local": "Rocket",
+   "term_local": "rocket",
    "short": "Plateau au profil particulier qui conserve plus longtemps sa vitesse et sa ligne qu'un standard.",
    "long": "Un rocket ressemble à un plateau standard mais possède un profil différent, plus aérodynamique. Il ralentit donc plus progressivement dans l'air et vole plus longtemps en ligne droite ; sur la partie lointaine de la trajectoire, il va plus vite que l'œil ne s'y attend. Les débutants tirent souvent derrière lui, en le jugeant comme un plateau ordinaire. Le règlement du Compak® Sporting cite le rocket parmi les plateaux autorisés, tandis que la liste du Sporting™ ne le mentionne pas séparément. En pratique, sa forme et son nom dépendent du fabricant de plateaux.",
    "disciplines": {
     "sporting": "Non cité séparément dans la liste des plateaux du Sporting.",
     "compak": "Expressément autorisé parmi les plateaux spéciaux."
-   }
+   },
+   "alt": [
+    "plateau rocket"
+   ],
+   "conf": "high",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "crosser": {
-   "term_local": "Croisé (travers)",
+   "term_local": "traversard",
    "short": "Plateau qui passe d'un côté à l'autre devant le tireur.",
-   "long": "Un croisé traverse le champ de vision de gauche à droite ou de droite à gauche. C'est lui qui montre le plus clairement pourquoi l'avance est nécessaire : si l'on tire droit sur le plateau, la gerbe passe derrière. Plus le plateau est rapide et lointain, plus il faut d'avance. L'essentiel est un mouvement de fusil fluide le long de la ligne de vol et une continuité du mouvement après le coup. En Compak® Sporting, deux trajectoires croisées, de gauche à droite et de droite à gauche, font partie des trois trajectoires obligatoires de chaque installation."
+   "long": "Un croisé traverse le champ de vision de gauche à droite ou de droite à gauche. C'est lui qui montre le plus clairement pourquoi l'avance est nécessaire : si l'on tire droit sur le plateau, la gerbe passe derrière. Plus le plateau est rapide et lointain, plus il faut d'avance. L'essentiel est un mouvement de fusil fluide le long de la ligne de vol et une continuité du mouvement après le coup. En Compak® Sporting, deux trajectoires croisées, de gauche à droite et de droite à gauche, font partie des trois trajectoires obligatoires de chaque installation.",
+   "alt": [
+    "traversant",
+    "traversier",
+    "croisé"
+   ],
+   "note": "FITASC écrit « traversiers » ; au stand « traversard ».",
+   "conf": "high",
+   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
   },
   "quartering-away": {
    "term_local": "Fuyant en biais (sortant)",
    "short": "Plateau qui s'éloigne du tireur en biais.",
-   "long": "Un fuyant en biais ne part pas tout droit mais s'éloigne en s'écartant sur le côté. À l'œil, il paraît plus lent qu'il ne l'est réellement ; les débutants tirent donc souvent derrière ou au-dessus. Il demande moins d'avance qu'un croisé, mais il en demande, et le fusil doit se déplacer le long de la ligne de vol. Ces plateaux plongent souvent, il est donc important de ne pas arrêter le fusil. Le règlement du Sporting™ exige qu'un parcours mêle différentes trajectoires, y compris en biais."
+   "long": "Un fuyant en biais ne part pas tout droit mais s'éloigne en s'écartant sur le côté. À l'œil, il paraît plus lent qu'il ne l'est réellement ; les débutants tirent donc souvent derrière ou au-dessus. Il demande moins d'avance qu'un croisé, mais il en demande, et le fusil doit se déplacer le long de la ligne de vol. Ces plateaux plongent souvent, il est donc important de ne pas arrêter le fusil. Le règlement du Sporting™ exige qu'un parcours mêle différentes trajectoires, y compris en biais.",
+   "alt": [
+    "demi-traversier",
+    "fuyant oblique"
+   ],
+   "conf": "low"
   },
   "quartering-towards": {
    "term_local": "Venant en biais (rentrant)",
    "short": "Plateau qui vient vers le tireur en biais et passe sur un côté.",
-   "long": "Un venant en biais apparaît devant et sur un côté, se rapproche et passe à côté de vous. Tant qu'il est loin, l'avance est faible, mais plus il se rapproche, plus il se déplace vite latéralement et plus il faut d'avance. Choisissez donc votre point de casse avant l'appel et n'attendez pas que le plateau soit trop près. Pendant le swing, veillez à ce que le corps tourne avec le fusil, et pas seulement les bras. Le secteur de tir sûr du poste limite jusqu'où l'on peut suivre un tel plateau sur le côté."
+   "long": "Un venant en biais apparaît devant et sur un côté, se rapproche et passe à côté de vous. Tant qu'il est loin, l'avance est faible, mais plus il se rapproche, plus il se déplace vite latéralement et plus il faut d'avance. Choisissez donc votre point de casse avant l'appel et n'attendez pas que le plateau soit trop près. Pendant le swing, veillez à ce que le corps tourne avec le fusil, et pas seulement les bras. Le secteur de tir sûr du poste limite jusqu'où l'on peut suivre un tel plateau sur le côté.",
+   "alt": [
+    "demi-traversier rentrant",
+    "venant oblique"
+   ],
+   "conf": "low"
   },
   "incomer": {
-   "term_local": "Venant",
+   "term_local": "rentrant",
    "short": "Plateau qui vole vers le tireur.",
-   "long": "Un venant apparaît devant et vole vers vous, souvent en descendant. Il paraît simple mais se perd facilement : les canons couvrent le plateau et le tireur ne le voit plus. On conseille donc souvent de le prendre tôt, tant qu'il est encore loin, et de déplacer les canons exactement le long de sa ligne. Si le plateau passe au-dessus de la tête, il devient un plateau « à la tête » (driven). Le règlement du Sporting™ exige qu'un parcours comporte aussi des plateaux venants."
+   "long": "Un venant apparaît devant et vole vers vous, souvent en descendant. Il paraît simple mais se perd facilement : les canons couvrent le plateau et le tireur ne le voit plus. On conseille donc souvent de le prendre tôt, tant qu'il est encore loin, et de déplacer les canons exactement le long de sa ligne. Si le plateau passe au-dessus de la tête, il devient un plateau « à la tête » (driven). Le règlement du Sporting™ exige qu'un parcours comporte aussi des plateaux venants.",
+   "alt": [
+    "venant",
+    "plateau qui rentre"
+   ],
+   "conf": "high",
+   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
   },
   "going-away": {
-   "term_local": "Fuyant (sortant)",
+   "term_local": "fuyant",
    "short": "Plateau qui s'éloigne du tireur.",
-   "long": "Un fuyant apparaît sur le côté, au-dessus ou derrière et s'éloigne, souvent en montant ou en descendant légèrement. Pour un débutant, c'est l'un des plateaux les plus faciles, c'est pourquoi l'entraînement commence souvent par lui. Il s'éloigne et rapetisse toutefois rapidement ; le second coup est donc déjà long, et le choke du second canon doit en tenir compte. En Compak® Sporting, un fuyant qui traverse le côté BC du rectangle est l'une des trois trajectoires obligatoires. L'erreur la plus fréquente est de tirer au-dessus d'un plateau qui plonge déjà."
+   "long": "Un fuyant apparaît sur le côté, au-dessus ou derrière et s'éloigne, souvent en montant ou en descendant légèrement. Pour un débutant, c'est l'un des plateaux les plus faciles, c'est pourquoi l'entraînement commence souvent par lui. Il s'éloigne et rapetisse toutefois rapidement ; le second coup est donc déjà long, et le choke du second canon doit en tenir compte. En Compak® Sporting, un fuyant qui traverse le côté BC du rectangle est l'une des trois trajectoires obligatoires. L'erreur la plus fréquente est de tirer au-dessus d'un plateau qui plonge déjà.",
+   "alt": [
+    "sortant"
+   ],
+   "conf": "high",
+   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
   },
   "driven-target": {
    "term_local": "Plateau à la tête (type faisan)",
    "short": "Plateau haut qui vient vers le tireur et passe au-dessus de sa tête, comme un faisan en battue.",
-   "long": "Le nom vient de la chasse en battue, où les oiseaux sont poussés au-dessus d'une ligne de fusils. Le plateau arrive vers vous en hauteur et passe au-dessus de la tête. Pour le casser, les canons montent par-dessous à travers le plateau, et le coup part lorsque le plateau est masqué par les canons et que le fusil le dépasse vers l'avant. Il faut pour cela une position avec le poids sur le pied avant et une liberté de mouvement du haut du corps vers l'arrière. Ne vous penchez pas trop en arrière : la perte d'équilibre est une cause typique de manqués sur ces plateaux."
+   "long": "Le nom vient de la chasse en battue, où les oiseaux sont poussés au-dessus d'une ligne de fusils. Le plateau arrive vers vous en hauteur et passe au-dessus de la tête. Pour le casser, les canons montent par-dessous à travers le plateau, et le coup part lorsque le plateau est masqué par les canons et que le fusil le dépasse vers l'avant. Il faut pour cela une position avec le poids sur le pied avant et une liberté de mouvement du haut du corps vers l'arrière. Ne vous penchez pas trop en arrière : la perte d'équilibre est une cause typique de manqués sur ces plateaux.",
+   "alt": [
+    "passant au-dessus de la tête",
+    "plateau de tête"
+   ],
+   "note": "Calque du tir de chasse « en battue » ; ne pas confondre avec le plateau battue.",
+   "conf": "low"
   },
   "teal": {
-   "term_local": "Sarcelle",
+   "term_local": "chandelle",
    "short": "Plateau qui jaillit presque à la verticale, comme une sarcelle qui décolle de l'eau.",
-   "long": "Une sarcelle jaillit presque à la verticale, marque un temps d'arrêt au sommet et retombe. Le nom vient de la sarcelle, un canard qui s'élève à pic au-dessus de l'eau. Elle est plus facile à casser près du sommet, où elle s'arrête presque, mais il est facile de manquer le moment où elle commence à tomber. Si vous la tirez en montée, déplacez le fusil vers le haut et tirez au-dessus ; en descente, tirez en dessous. Avant l'appel, décidez toujours dans quelle partie de la trajectoire vous allez la casser."
+   "long": "Une sarcelle jaillit presque à la verticale, marque un temps d'arrêt au sommet et retombe. Le nom vient de la sarcelle, un canard qui s'élève à pic au-dessus de l'eau. Elle est plus facile à casser près du sommet, où elle s'arrête presque, mais il est facile de manquer le moment où elle commence à tomber. Si vous la tirez en montée, déplacez le fusil vers le haut et tirez au-dessus ; en descente, tirez en dessous. Avant l'appel, décidez toujours dans quelle partie de la trajectoire vous allez la casser.",
+   "alt": [
+    "montant vertical",
+    "sarcelle (rare)"
+   ],
+   "note": "En français « chandelle » = plateau qui monte à la verticale ; « sarcelle » quasi inusité.",
+   "conf": "medium",
+   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
   },
   "springing-target": {
-   "term_local": "Plateau montant (levée)",
+   "term_local": "montant",
    "short": "Plateau qui s'élève fortement en biais, comme un oiseau qui s'envole du sol.",
-   "long": "Un plateau montant s'élève du sol en biais, comme un oiseau levé dans l'herbe. Il perd vite sa vitesse puis commence à tomber ; son comportement change donc beaucoup le long de sa trajectoire. En montée, on déplace le fusil vers le haut et on tire au-dessus, près du sommet il ne demande presque pas d'avance, et en descente on tire en dessous. Décidez à l'avance où le casser, en regardant la présentation des plateaux. Le règlement du Compak® Sporting cite les plateaux montants parmi les exemples de trajectoires variées."
+   "long": "Un plateau montant s'élève du sol en biais, comme un oiseau levé dans l'herbe. Il perd vite sa vitesse puis commence à tomber ; son comportement change donc beaucoup le long de sa trajectoire. En montée, on déplace le fusil vers le haut et on tire au-dessus, près du sommet il ne demande presque pas d'avance, et en descente on tire en dessous. Décidez à l'avance où le casser, en regardant la présentation des plateaux. Le règlement du Compak® Sporting cite les plateaux montants parmi les exemples de trajectoires variées.",
+   "alt": [
+    "plateau montant"
+   ],
+   "conf": "medium",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "looper": {
-   "term_local": "Chandelle",
+   "term_local": "looper",
    "short": "Plateau qui décrit un arc dans l'air et change de direction.",
-   "long": "Une chandelle (looper en anglais) vole en arc : elle monte, bascule au sommet et retombe tout en se déplaçant latéralement. On utilise souvent des battues pour ces trajectoires ; elles pivotent en vol, montrant d'abord la tranche puis la face. La principale difficulté est le changement constant de direction et de vitesse : les canons doivent suivre exactement la courbe plutôt que de la couper. De nombreux tireurs prennent la chandelle près du sommet, là où elle va le moins vite. Regardez attentivement la présentation et choisissez un seul point de casse."
+   "long": "Une chandelle (looper en anglais) vole en arc : elle monte, bascule au sommet et retombe tout en se déplaçant latéralement. On utilise souvent des battues pour ces trajectoires ; elles pivotent en vol, montrant d'abord la tranche puis la face. La principale difficulté est le changement constant de direction et de vitesse : les canons doivent suivre exactement la courbe plutôt que de la couper. De nombreux tireurs prennent la chandelle près du sommet, là où elle va le moins vite. Regardez attentivement la présentation et choisissez un seul point de casse.",
+   "alt": [
+    "parabole",
+    "plateau en cloche"
+   ],
+   "note": "Ne pas traduire par « chandelle » (= vertical en français).",
+   "conf": "medium",
+   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
   "biodegradable-target": {
-   "term_local": "Plateau biodégradable",
+   "term_local": "plateau biodégradable",
    "short": "Plateau sans brai qui se dégrade plus facilement dans la nature.",
-   "long": "Les plateaux classiques sont faits de calcaire ou d'une autre charge mélangée à un liant, traditionnellement du brai ; leurs fragments restent donc longtemps au sol. Les plateaux biodégradables sont fabriqués sans brai, avec d'autres liants, et leurs fragments se décomposent avec le temps. De nombreux stands les adoptent pour protéger le sol, l'eau et les terrains alentour. Ils peuvent voler et se casser un peu différemment ; sur un stand inconnu, regardez donc bien la présentation. La composition et les propriétés dépendent du fabricant."
+   "long": "Les plateaux classiques sont faits de calcaire ou d'une autre charge mélangée à un liant, traditionnellement du brai ; leurs fragments restent donc longtemps au sol. Les plateaux biodégradables sont fabriqués sans brai, avec d'autres liants, et leurs fragments se décomposent avec le temps. De nombreux stands les adoptent pour protéger le sol, l'eau et les terrains alentour. Ils peuvent voler et se casser un peu différemment ; sur un stand inconnu, regardez donc bien la présentation. La composition et les propriétés dépendent du fabricant.",
+   "alt": [
+    "plateau écologique"
+   ],
+   "conf": "medium"
   },
   "lead": {
-   "term_local": "Avance (anticipation)",
+   "term_local": "avance",
    "short": "La distance dont le tireur se place devant un plateau pour que la gerbe le rencontre.",
-   "long": "Pendant que les plombs se dirigent vers le plateau, celui-ci continue d'avancer ; au moment du tir, le fusil doit donc être devant lui. Cette distance, c'est l'avance. Elle dépend de la vitesse du plateau, de sa distance et de l'angle sous lequel il vole : les croisés lointains demandent le plus d'avance, tandis que les fuyants droits n'en demandent presque pas. La perception de l'avance est subjective, chacun la décrit donc différemment. Il existe plusieurs méthodes d'avance, l'avance maintenue, le pull-away et le swing-through, et un entraîneur vous aidera à choisir la vôtre."
+   "long": "Pendant que les plombs se dirigent vers le plateau, celui-ci continue d'avancer ; au moment du tir, le fusil doit donc être devant lui. Cette distance, c'est l'avance. Elle dépend de la vitesse du plateau, de sa distance et de l'angle sous lequel il vole : les croisés lointains demandent le plus d'avance, tandis que les fuyants droits n'en demandent presque pas. La perception de l'avance est subjective, chacun la décrit donc différemment. Il existe plusieurs méthodes d'avance, l'avance maintenue, le pull-away et le swing-through, et un entraîneur vous aidera à choisir la vôtre.",
+   "alt": [
+    "anticipation"
+   ],
+   "conf": "high",
+   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
   "pick-up-point": {
    "term_local": "Point de prise (d'acquisition)",
    "short": "L'endroit où le tireur voit nettement le plateau pour la première fois et commence à le suivre des yeux.",
-   "long": "Un plateau apparaît généralement comme une traînée floue près du lanceur, et ce n'est qu'un instant plus tard que l'œil le voit nettement. Ce point de la trajectoire est le point de prise. Avant l'appel, regardez à cet endroit plutôt que vers le lanceur, pour ne pas sursauter au premier mouvement. Le tireur choisit ensemble le point de prise, le point d'attente des canons et le point de casse en regardant la présentation. Choisir ces trois points de façon systématique est la base d'une routine de pré-tir."
+   "long": "Un plateau apparaît généralement comme une traînée floue près du lanceur, et ce n'est qu'un instant plus tard que l'œil le voit nettement. Ce point de la trajectoire est le point de prise. Avant l'appel, regardez à cet endroit plutôt que vers le lanceur, pour ne pas sursauter au premier mouvement. Le tireur choisit ensemble le point de prise, le point d'attente des canons et le point de casse en regardant la présentation. Choisir ces trois points de façon systématique est la base d'une routine de pré-tir.",
+   "alt": [
+    "point de vision",
+    "prise du plateau"
+   ],
+   "conf": "low"
   },
   "break-point": {
-   "term_local": "Point de casse",
+   "term_local": "point de casse",
    "short": "L'endroit de la trajectoire où le tireur prévoit de casser le plateau.",
-   "long": "Les tireurs expérimentés décident où ils vont casser un plateau avant l'appel. C'est généralement la partie de la trajectoire où le plateau vole de la façon la plus stable et la plus prévisible, à l'écart des obstacles et à l'intérieur du secteur sûr. Le point de casse détermine la position : les pieds sont placés pour que le corps soit détendu précisément à ce point. Le plateau doit être cassé là où l'arbitre peut le voir ; un plateau cassé derrière un arbre ou au-delà d'une limite de tir ne compte pas. Si un plateau vous résiste, changer de point de casse aide souvent."
+   "long": "Les tireurs expérimentés décident où ils vont casser un plateau avant l'appel. C'est généralement la partie de la trajectoire où le plateau vole de la façon la plus stable et la plus prévisible, à l'écart des obstacles et à l'intérieur du secteur sûr. Le point de casse détermine la position : les pieds sont placés pour que le corps soit détendu précisément à ce point. Le plateau doit être cassé là où l'arbitre peut le voir ; un plateau cassé derrière un arbre ou au-delà d'une limite de tir ne compte pas. Si un plateau vous résiste, changer de point de casse aide souvent.",
+   "alt": [
+    "zone de casse"
+   ],
+   "conf": "medium",
+   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
   "stance": {
-   "term_local": "Position (placement des pieds)",
+   "term_local": "position",
    "short": "La position des pieds et du corps du tireur avant le coup.",
-   "long": "La position est la base de chaque coup. Les pieds sont généralement écartés d'environ la largeur des épaules, le pied avant légèrement en avant et supportant davantage de poids. Le corps doit être détendu et pivoter à partir des hanches, pour que le fusil se déplace avec le corps et pas seulement avec les bras. Placez vos pieds pour qu'au point de casse votre corps soit dans sa position la plus confortable et la plus neutre, puis revenez en torsion vers le point d'attente. En Sporting™, les deux pieds doivent être à l'intérieur du carré du poste, et en Compak® Sporting le tireur est limité par le cadre du limiteur d'angle de tir."
+   "long": "La position est la base de chaque coup. Les pieds sont généralement écartés d'environ la largeur des épaules, le pied avant légèrement en avant et supportant davantage de poids. Le corps doit être détendu et pivoter à partir des hanches, pour que le fusil se déplace avec le corps et pas seulement avec les bras. Placez vos pieds pour qu'au point de casse votre corps soit dans sa position la plus confortable et la plus neutre, puis revenez en torsion vers le point d'attente. En Sporting™, les deux pieds doivent être à l'intérieur du carré du poste, et en Compak® Sporting le tireur est limité par le cadre du limiteur d'angle de tir.",
+   "alt": [
+    "placement des pieds",
+    "posture"
+   ],
+   "conf": "medium",
+   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
   },
   "gun-mount": {
-   "term_local": "Épaulé (mise en joue)",
+   "term_local": "épaulé",
    "short": "Le mouvement qui amène le fusil à la joue et à l'épaule du tireur.",
    "long": "Pendant l'épaulé, le fusil monte vers le visage, la joue se pose sur le busc et la crosse se cale dans le creux de l'épaule. Règle essentielle : amenez le fusil à la joue, ne baissez pas la tête vers le fusil. L'épaulé doit être identique à chaque fois, car il détermine la position de l'œil par rapport à la bande. En Sporting™, le tireur appelle fusil bas et n'épaule qu'à l'apparition du plateau ; le mouvement doit donc être rapide et précis. En Compak® Sporting, on peut appeler fusil déjà épaulé. L'épaulé se travaille aussi sans tirer, avec un fusil déchargé, là où c'est autorisé.",
    "disciplines": {
     "sporting": "Fusil bas avant l'appel : l'extrémité arrière de la partie la plus haute de la crosse sous la ligne du gilet ; épauler seulement à l'apparition du plateau.",
     "compak": "Position du fusil libre à l'appel : on peut appeler fusil déjà épaulé."
-   }
+   },
+   "alt": [
+    "épauler",
+    "mise en joue"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "master-eye": {
-   "term_local": "Œil directeur",
+   "term_local": "œil directeur",
    "short": "L'œil dominant, qui doit regarder le long de la bande du fusil.",
-   "long": "En ball-trap, on tire généralement les deux yeux ouverts, et l'œil directeur remplace l'organe de visée. Si l'œil directeur correspond à l'épaule sur laquelle on épaule (œil droit, épaule droite), tout est simple. Sinon, le cerveau bascule sur l'autre œil et le fusil tire sur le côté. C'est pourquoi un entraîneur vérifie l'œil directeur dès la première leçon. Des lunettes avec un petit point sur le verre, ou la fermeture d'un œil, aident lorsque la dominance est partielle ou croisée."
+   "long": "En ball-trap, on tire généralement les deux yeux ouverts, et l'œil directeur remplace l'organe de visée. Si l'œil directeur correspond à l'épaule sur laquelle on épaule (œil droit, épaule droite), tout est simple. Sinon, le cerveau bascule sur l'autre œil et le fusil tire sur le côté. C'est pourquoi un entraîneur vérifie l'œil directeur dès la première leçon. Des lunettes avec un petit point sur le verre, ou la fermeture d'un œil, aident lorsque la dominance est partielle ou croisée.",
+   "alt": [
+    "œil dominant"
+   ],
+   "conf": "medium",
+   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
   "cross-dominance": {
    "term_local": "Dominance croisée",
    "short": "Lorsque l'œil directeur est du côté opposé à l'épaule sur laquelle le tireur épaule.",
-   "long": "Par exemple, un tireur droitier dont l'œil gauche est directeur a une dominance croisée. En tirant les deux yeux ouverts, l'œil gauche prend le contrôle de l'image et les coups partent sur le côté. Il existe plusieurs solutions : tirer de l'autre épaule, masquer ou plisser l'œil non directeur au moment du tir, coller un petit point sur le verre des lunettes de tir, et parfois utiliser un fusil avec un avantage croisé spécial. Le choix dépend de l'âge, du degré de dominance et des habitudes ; décidez-en donc avec un entraîneur. On conseille souvent aux enfants de changer d'épaule tant que leurs habitudes sont encore en formation."
+   "long": "Par exemple, un tireur droitier dont l'œil gauche est directeur a une dominance croisée. En tirant les deux yeux ouverts, l'œil gauche prend le contrôle de l'image et les coups partent sur le côté. Il existe plusieurs solutions : tirer de l'autre épaule, masquer ou plisser l'œil non directeur au moment du tir, coller un petit point sur le verre des lunettes de tir, et parfois utiliser un fusil avec un avantage croisé spécial. Le choix dépend de l'âge, du degré de dominance et des habitudes ; décidez-en donc avec un entraîneur. On conseille souvent aux enfants de changer d'épaule tant que leurs habitudes sont encore en formation.",
+   "alt": [
+    "latéralité croisée",
+    "dominance croisée"
+   ],
+   "conf": "low"
   },
   "hold-point": {
-   "term_local": "Point d'attente (des canons)",
+   "term_local": "point d'attente des canons",
    "short": "L'endroit où le tireur tient les canons au moment où il appelle le plateau.",
    "long": "Le point d'attente se choisit sur la trajectoire entre le lanceur et le point de casse, généralement un peu sous la ligne de vol. Si les canons sont trop près du lanceur, le plateau les dépasse ; s'ils sont trop loin, le fusil doit attendre le plateau et le mouvement devient saccadé. Un bon point d'attente permet de démarrer avec le plateau et de venir dessus en douceur. En Sporting™, le fusil est bas à l'appel, tandis qu'en Compak® Sporting le tireur peut le tenir déjà épaulé, mais l'endroit où pointent les canons compte dans les deux disciplines.",
    "disciplines": {
     "sporting": "Fusil bas avant l'appel : l'extrémité arrière de la partie la plus haute de la crosse sous la ligne du gilet ; épauler seulement à l'apparition du plateau.",
     "compak": "Position du fusil libre à l'appel : on peut appeler fusil déjà épaulé."
-   }
+   },
+   "alt": [
+    "position des canons",
+    "point de départ"
+   ],
+   "conf": "medium",
+   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
   "maintained-lead": {
-   "term_local": "Avance maintenue",
+   "term_local": "avance maintenue",
    "short": "Méthode d'avance dans laquelle les canons se déplacent devant le plateau, à sa vitesse, du début à la fin.",
-   "long": "Avec l'avance maintenue, le tireur place d'emblée les canons devant le plateau et les déplace à la même vitesse en conservant l'avance nécessaire, puis il tire. Elle fonctionne bien sur les plateaux longs et prévisibles, car elle laisse le temps de lire l'avance. La difficulté est que l'œil doit rester sur le plateau et non sur les canons, sinon le mouvement s'arrête. Les débutants la trouvent parfois simple, mais elle exige une bonne perception de la vitesse. Un entraîneur vous indiquera sur quels plateaux elle vous convient."
+   "long": "Avec l'avance maintenue, le tireur place d'emblée les canons devant le plateau et les déplace à la même vitesse en conservant l'avance nécessaire, puis il tire. Elle fonctionne bien sur les plateaux longs et prévisibles, car elle laisse le temps de lire l'avance. La difficulté est que l'œil doit rester sur le plateau et non sur les canons, sinon le mouvement s'arrête. Les débutants la trouvent parfois simple, mais elle exige une bonne perception de la vitesse. Un entraîneur vous indiquera sur quels plateaux elle vous convient.",
+   "conf": "medium",
+   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
   "pull-away": {
    "term_local": "Pull-away (départ sur le plateau)",
    "short": "Méthode d'avance : les canons rejoignent le plateau, se déplacent avec lui, puis le dépassent avant le coup.",
-   "long": "Avec le pull-away, les canons rejoignent le plateau, l'accompagnent un instant, puis le tireur accélère, porte les canons devant jusqu'à l'avance nécessaire et tire sans s'arrêter. La méthode est appréciée en Sporting™ et en Compak® Sporting, car elle donne une perception précise de la vitesse du plateau. Le risque est de suivre le plateau trop longtemps et de commencer à vérifier l'avance, ce qui ralentit le fusil. Tout doit se faire en un seul mouvement fluide."
+   "long": "Avec le pull-away, les canons rejoignent le plateau, l'accompagnent un instant, puis le tireur accélère, porte les canons devant jusqu'à l'avance nécessaire et tire sans s'arrêter. La méthode est appréciée en Sporting™ et en Compak® Sporting, car elle donne une perception précise de la vitesse du plateau. Le risque est de suivre le plateau trop longtemps et de commencer à vérifier l'avance, ce qui ralentit le fusil. Tout doit se faire en un seul mouvement fluide.",
+   "alt": [
+    "partir du plateau",
+    "sortir du plateau"
+   ],
+   "note": "Anglicisme ; pas de terme français fixé.",
+   "conf": "low"
   },
   "swing-through": {
-   "term_local": "Swing-through (rattrapage)",
+   "term_local": "swing",
    "short": "Méthode d'avance : les canons partent derrière le plateau, le traversent et le coup part dès qu'ils le dépassent.",
-   "long": "Avec le swing-through, les canons partent derrière le plateau, le rattrapent plus vite qu'il ne se déplace, le traversent et le coup part dès qu'ils sortent devant. Comme le fusil va plus vite, l'avance paraît plus faible à l'œil. La méthode est naturelle pour les plateaux qui passent au-dessus de la tête et pour les trajectoires rapides et proches. Son risque est un excès de vitesse et un manqué devant si le mouvement n'est pas maîtrisé. Comme pour les autres méthodes, le fusil doit continuer son mouvement après le coup."
+   "long": "Avec le swing-through, les canons partent derrière le plateau, le rattrapent plus vite qu'il ne se déplace, le traversent et le coup part dès qu'ils sortent devant. Comme le fusil va plus vite, l'avance paraît plus faible à l'œil. La méthode est naturelle pour les plateaux qui passent au-dessus de la tête et pour les trajectoires rapides et proches. Son risque est un excès de vitesse et un manqué devant si le mouvement n'est pas maîtrisé. Comme pour les autres méthodes, le fusil doit continuer son mouvement après le coup.",
+   "alt": [
+    "méthode Churchill",
+    "swing-through",
+    "rattrapage"
+   ],
+   "note": "« Swing » / « Churchill » chez les moniteurs français.",
+   "conf": "medium",
+   "src": "https://www.lemontagnard-outdoor.fr/actualites/tir-sportif/techniques-et-entrainement-au-ball-trap-maitrisez-lart-de-casser-plus-de-plateaux"
   },
   "follow-through": {
-   "term_local": "Accompagnement (continuité du mouvement)",
+   "term_local": "accompagnement",
    "short": "Continuer à déplacer le fusil le long de la ligne du plateau après le coup.",
-   "long": "Le coup n'est pas la fin du mouvement. Si le fusil s'arrête au moment où l'on presse la détente, la gerbe passe derrière le plateau même si l'avance est bonne. Les canons continuent donc à se déplacer un instant le long de la ligne du plateau après le coup, et la joue reste sur la crosse. Un bon accompagnement aide aussi à réussir le second coup. Les entraîneurs demandent souvent de regarder voler les morceaux sans lever la joue : c'est le signe que le mouvement n'a pas été interrompu."
+   "long": "Le coup n'est pas la fin du mouvement. Si le fusil s'arrête au moment où l'on presse la détente, la gerbe passe derrière le plateau même si l'avance est bonne. Les canons continuent donc à se déplacer un instant le long de la ligne du plateau après le coup, et la joue reste sur la crosse. Un bon accompagnement aide aussi à réussir le second coup. Les entraîneurs demandent souvent de regarder voler les morceaux sans lever la joue : c'est le signe que le mouvement n'a pas été interrompu.",
+   "alt": [
+    "continuer le swing",
+    "suivi"
+   ],
+   "conf": "medium",
+   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
   },
   "stopping-the-gun": {
-   "term_local": "Arrêt du fusil",
+   "term_local": "arrêter le fusil",
    "short": "Erreur dans laquelle les canons s'arrêtent au moment du coup et la gerbe passe derrière le plateau.",
-   "long": "L'arrêt du fusil est l'une des causes les plus fréquentes de manqués derrière. Il survient souvent lorsque le tireur se met à regarder les canons ou à vérifier l'avance au lieu du plateau, ou lorsqu'il suit le plateau trop longtemps. Vu de l'extérieur, les canons semblent freiner brusquement avant le coup. Le remède : se concentrer sur le plateau, adopter une position libre qui permet au corps de pivoter et accompagner délibérément le mouvement après le coup. Un entraîneur placé derrière vous repère généralement cette erreur tout de suite."
+   "long": "L'arrêt du fusil est l'une des causes les plus fréquentes de manqués derrière. Il survient souvent lorsque le tireur se met à regarder les canons ou à vérifier l'avance au lieu du plateau, ou lorsqu'il suit le plateau trop longtemps. Vu de l'extérieur, les canons semblent freiner brusquement avant le coup. Le remède : se concentrer sur le plateau, adopter une position libre qui permet au corps de pivoter et accompagner délibérément le mouvement après le coup. Un entraîneur placé derrière vous repère généralement cette erreur tout de suite.",
+   "alt": [
+    "arrêt du swing",
+    "arrêter le mouvement"
+   ],
+   "conf": "medium",
+   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
   },
   "head-lift": {
-   "term_local": "Lever la tête",
+   "term_local": "lever la tête",
    "short": "Erreur dans laquelle le tireur décolle la joue de la crosse et tire au-dessus du plateau.",
-   "long": "Lorsque la joue quitte le busc, l'œil se retrouve plus haut au-dessus de la bande qu'il ne le devrait et le fusil tire au-dessus du plateau. Le plus souvent, la tête se lève parce que le tireur veut mieux voir le plateau ou le résultat. La fatigue, un fusil mal conformé ou la peur du recul peuvent aussi en être la cause. Il est utile de garder délibérément la joue sur la crosse jusqu'à la fin de l'accompagnement et de vérifier la conformation du fusil. Cette erreur apparaît souvent en fin de longue journée ; la condition physique compte donc aussi."
+   "long": "Lorsque la joue quitte le busc, l'œil se retrouve plus haut au-dessus de la bande qu'il ne le devrait et le fusil tire au-dessus du plateau. Le plus souvent, la tête se lève parce que le tireur veut mieux voir le plateau ou le résultat. La fatigue, un fusil mal conformé ou la peur du recul peuvent aussi en être la cause. Il est utile de garder délibérément la joue sur la crosse jusqu'à la fin de l'accompagnement et de vérifier la conformation du fusil. Cette erreur apparaît souvent en fin de longue journée ; la condition physique compte donc aussi.",
+   "alt": [
+    "décoller la joue",
+    "décrocher la joue"
+   ],
+   "conf": "medium",
+   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
   },
   "flinch": {
-   "term_local": "Coup d'épaule (flinch)",
+   "term_local": "coup de doigt",
    "short": "Sursaut involontaire du corps ou du doigt avant le coup, souvent par anticipation du recul.",
-   "long": "Le flinch apparaît lorsque le corps anticipe le recul ou le bruit et se crispe à l'avance. Parfois, le tireur n'arrive même plus à presser la détente au bon moment, ou il donne un coup de fusil sur le côté. Les causes les plus fréquentes sont un fort recul, une mauvaise conformation du fusil, des charges lourdes, la fatigue et un trop grand nombre de coups d'affilée. Des cartouches plus légères, un épaulé correct, une bonne protection auditive, des séances plus courtes et des pauses aident. Si le problème persiste, parlez-en à un entraîneur : on propose parfois un autre type de détente, mais c'est une question de spécialiste."
+   "long": "Le flinch apparaît lorsque le corps anticipe le recul ou le bruit et se crispe à l'avance. Parfois, le tireur n'arrive même plus à presser la détente au bon moment, ou il donne un coup de fusil sur le côté. Les causes les plus fréquentes sont un fort recul, une mauvaise conformation du fusil, des charges lourdes, la fatigue et un trop grand nombre de coups d'affilée. Des cartouches plus légères, un épaulé correct, une bonne protection auditive, des séances plus courtes et des pauses aident. Si le problème persiste, parlez-en à un entraîneur : on propose parfois un autre type de détente, mais c'est une question de spécialiste.",
+   "alt": [
+    "blocage"
+   ],
+   "note": "Terme FFBT pour le flinch (blocage du doigt / à-coup) ; « flinch » aussi connu.",
+   "conf": "high",
+   "src": "https://www.ffbt.asso.fr/pages/federation-de-ball-trap/medical/le-coup-de-doigt-une-hantise-pour-certains-tireurs.html"
   },
   "pre-shot-routine": {
    "term_local": "Routine de pré-tir",
@@ -1117,7 +1880,12 @@ window.GLOSSARY_I18N.fr = {
    "disciplines": {
     "sporting": "Au maximum 15 secondes entre deux simples ou entre deux doublés.",
     "compak": "Au maximum 10 secondes pour appeler après le tir du plateau du pas précédent."
-   }
+   },
+   "alt": [
+    "routine pré-tir",
+    "rituel"
+   ],
+   "conf": "low"
   },
   "warm-up": {
    "term_local": "Échauffement",
@@ -1125,13 +1893,19 @@ window.GLOSSARY_I18N.fr = {
    "long": "L'échauffement prépare le corps et les yeux au tir. Quelques minutes de mobilisation du cou, des épaules, du dos et des hanches réduisent le risque de blessure et rendent le mouvement du fusil plus fluide. Si le stand le permet, commencez la séance par quelques plateaux faciles pour trouver le rythme et la confiance avant de passer aux plus difficiles. Avant une compétition, l'entraînement sur les trajectoires de l'épreuve n'est pas autorisé ; échauffez-vous donc sur des postes d'entraînement séparés. Ne faites d'épaulés à sec que là où c'est autorisé, avec un fusil déchargé et vérifié."
   },
   "dry-mounting": {
-   "term_local": "Épaulés à sec",
+   "term_local": "épaulés à vide",
    "short": "Travailler l'épaulé sans tirer, avec un fusil déchargé et vérifié, là où la loi le permet.",
    "long": "Les épaulés à sec sont l'une des façons les plus utiles de s'entraîner chez soi : quelques minutes par jour rendent le mouvement régulier. Avant de commencer, assurez-vous que le fusil est déchargé et qu'il n'y a aucune cartouche dans la pièce, et gardez la bouche dirigée dans une direction sûre. De nombreux tireurs utilisent des douilles amortisseurs (snap caps) pour protéger le mécanisme lors des percussions à vide. Sur le stand, les règles sont plus strictes : le tir simulé hors du poste de tir est interdit, et en Sporting™ épauler et suivre la ligne imaginaire d'un plateau avant l'appel vaut un avertissement. Renseignez-vous sur la législation locale concernant la manipulation des armes à domicile.",
    "disciplines": {
     "sporting": "Le tir simulé est interdit sur les parcours comme en dehors ; avertissement avant l'appel, récidives sanctionnées.",
     "compak": "Le tir simulé est interdit hors des pas de tir et pendant qu'un membre de la planche tire."
-   }
+   },
+   "alt": [
+    "épauler à vide",
+    "exercices à vide"
+   ],
+   "conf": "medium",
+   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
   },
   "training-diary": {
    "term_local": "Carnet d'entraînement",
@@ -1139,9 +1913,16 @@ window.GLOSSARY_I18N.fr = {
    "long": "Un carnet aide à voir ce que l'on oublie vite : quels plateaux réussissent et lesquels non, quels chokes et quelles cartouches ont été utilisés, ce que l'entraîneur a conseillé et comment on s'est senti. Écrivez brièvement juste après une séance ou une compétition, tant que les impressions sont fraîches. Au bout de quelques mois, les notes font apparaître des tendances : par exemple, que vous manquez souvent derrière sur les croisés lointains. Comparez-vous à vous-même : les résultats de votre profil ClayArena complètent bien vos propres notes. Il est aussi utile de montrer le carnet à votre entraîneur avant une leçon."
   },
   "coach": {
-   "term_local": "Entraîneur (moniteur)",
+   "term_local": "moniteur",
    "short": "Formateur qui enseigne au tireur la technique, la sécurité et la préparation à la compétition.",
-   "long": "Un entraîneur installe des habitudes sûres dès la première leçon, vérifie l'œil directeur, met en place la position et l'épaulé, aide à choisir un fusil et des cartouches et planifie l'entraînement. Les erreurs se voient beaucoup plus facilement de l'extérieur ; même les tireurs expérimentés travaillent donc avec un entraîneur. Dans les compétitions FITASC, coacher un concurrent pendant le tir est interdit : le concurrent reçoit un carton jaune, et l'arbitre renvoie la personne qui coache de la zone de tir. L'annuaire des entraîneurs de ClayArena permet de trouver un entraîneur par discipline, et les tours ClayAway permettent de s'entraîner avec un entraîneur en voyage. Vérifiez les qualifications et les références d'un entraîneur."
+   "long": "Un entraîneur installe des habitudes sûres dès la première leçon, vérifie l'œil directeur, met en place la position et l'épaulé, aide à choisir un fusil et des cartouches et planifie l'entraînement. Les erreurs se voient beaucoup plus facilement de l'extérieur ; même les tireurs expérimentés travaillent donc avec un entraîneur. Dans les compétitions FITASC, coacher un concurrent pendant le tir est interdit : le concurrent reçoit un carton jaune, et l'arbitre renvoie la personne qui coache de la zone de tir. L'annuaire des entraîneurs de ClayArena permet de trouver un entraîneur par discipline, et les tours ClayAway permettent de s'entraîner avec un entraîneur en voyage. Vérifiez les qualifications et les références d'un entraîneur.",
+   "alt": [
+    "entraîneur",
+    "coach",
+    "initiateur"
+   ],
+   "note": "Diplômes FFBT : initiateur, moniteur, entraîneur.",
+   "conf": "medium"
   },
   "process-goal": {
    "term_local": "Objectif de processus",
@@ -1151,36 +1932,73 @@ window.GLOSSARY_I18N.fr = {
   "cease-fire": {
    "term_local": "Cessez-le-feu",
    "short": "Ordre d'arrêter immédiatement le tir : les fusils sont ouverts et déchargés.",
-   "long": "Un cessez-le-feu peut être ordonné par l'arbitre, un moniteur ou toute personne qui voit un danger : une personne ou un animal dans le secteur, un lanceur défectueux, un orage soudain. En l'entendant, arrêtez-vous immédiatement, ouvrez le fusil, retirez les cartouches et attendez l'autorisation de reprendre. Selon le règlement FITASC, pendant toute interruption, les fusils doivent être ouverts et déchargés et ne peuvent être refermés qu'avec l'autorisation de l'arbitre. Apprenez cet ordre dès la première leçon, surtout aux enfants. Les mots et signaux exacts peuvent varier d'un stand à l'autre ; apprenez-les lors de la consigne de sécurité."
+   "long": "Un cessez-le-feu peut être ordonné par l'arbitre, un moniteur ou toute personne qui voit un danger : une personne ou un animal dans le secteur, un lanceur défectueux, un orage soudain. En l'entendant, arrêtez-vous immédiatement, ouvrez le fusil, retirez les cartouches et attendez l'autorisation de reprendre. Selon le règlement FITASC, pendant toute interruption, les fusils doivent être ouverts et déchargés et ne peuvent être refermés qu'avec l'autorisation de l'arbitre. Apprenez cet ordre dès la première leçon, surtout aux enfants. Les mots et signaux exacts peuvent varier d'un stand à l'autre ; apprenez-les lors de la consigne de sécurité.",
+   "alt": [
+    "arrêt du tir",
+    "cessez-le-feu",
+    "interrompre le tir"
+   ],
+   "note": "Commande non normée ; le règlement parle d'interruption du tir.",
+   "conf": "low"
   },
   "gun-rack": {
-   "term_local": "Râtelier",
+   "term_local": "râtelier",
    "short": "Support dans lequel on pose les fusils verticalement lorsqu'ils ne servent pas.",
-   "long": "Les stands disposent de râteliers près des postes et du club-house. Selon le règlement FITASC, un fusil qui ne sert pas est posé verticalement dans un râtelier ou dans un autre endroit prévu, les semi-automatiques culasse ouverte. Posez le fusil ouvert et déchargé, et ne le laissez jamais appuyé contre un mur ou une voiture d'où il pourrait tomber. Ne prenez pas le fusil de quelqu'un d'autre dans le râtelier sans l'autorisation de son propriétaire. Avant de prendre le vôtre, assurez-vous que c'est bien votre fusil."
+   "long": "Les stands disposent de râteliers près des postes et du club-house. Selon le règlement FITASC, un fusil qui ne sert pas est posé verticalement dans un râtelier ou dans un autre endroit prévu, les semi-automatiques culasse ouverte. Posez le fusil ouvert et déchargé, et ne le laissez jamais appuyé contre un mur ou une voiture d'où il pourrait tomber. Ne prenez pas le fusil de quelqu'un d'autre dans le râtelier sans l'autorisation de son propriétaire. Avant de prendre le vôtre, assurez-vous que c'est bien votre fusil.",
+   "alt": [
+    "râtelier à fusils"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "gun-slip": {
-   "term_local": "Fourreau",
+   "term_local": "fourreau",
    "short": "Housse souple pour transporter un fusil entre la voiture et le stand.",
-   "long": "Un fourreau est généralement en tissu ou en cuir avec un rembourrage souple, et le fusil s'y range monté. Il protège des rayures, de la pluie et de la poussière et permet de porter proprement le fusil jusqu'au poste. Sur le stand, le fusil est porté ouvert et déchargé et ne sort du fourreau que dans un endroit sûr, canon vers le haut ou vers le bas. Pour l'avion, un fourreau souple n'est généralement pas accepté : les compagnies aériennes exigent une mallette rigide verrouillable. Les règles de transport des armes en voiture relèvent de la législation locale."
+   "long": "Un fourreau est généralement en tissu ou en cuir avec un rembourrage souple, et le fusil s'y range monté. Il protège des rayures, de la pluie et de la poussière et permet de porter proprement le fusil jusqu'au poste. Sur le stand, le fusil est porté ouvert et déchargé et ne sort du fourreau que dans un endroit sûr, canon vers le haut ou vers le bas. Pour l'avion, un fourreau souple n'est généralement pas accepté : les compagnies aériennes exigent une mallette rigide verrouillable. Les règles de transport des armes en voiture relèvent de la législation locale.",
+   "alt": [
+    "housse"
+   ],
+   "conf": "medium",
+   "src": "https://www.chassemarket.com/tir-sportif/accessoires-tir-sportif.html"
   },
   "hang-fire": {
-   "term_local": "Long feu",
+   "term_local": "raté",
    "short": "Coup retardé : la cartouche part un certain temps après la pression sur la détente. C'est pourquoi on n'ouvre pas tout de suite un fusil qui a fait long feu.",
-   "long": "Le long feu est rare mais dangereux : rien ne se passe à la pression sur la détente, puis un instant plus tard la cartouche part quand même. Si vous ouvrez le fusil à ce moment-là, la douille peut éclater près de votre visage et de vos mains. Après toute défaillance, gardez donc le fusil à l'épaule, ou au moins dirigé dans une direction sûre, et attendez ; de nombreux moniteurs conseillent d'attendre environ 30 secondes. Dans les compétitions FITASC, après une défaillance, on n'ouvre pas le fusil et on ne touche pas à la sûreté avant que l'arbitre l'ait examiné, sinon le plateau est compté perdu. Ici, les règles de sécurité et d'arbitrage se rejoignent."
+   "long": "Le long feu est rare mais dangereux : rien ne se passe à la pression sur la détente, puis un instant plus tard la cartouche part quand même. Si vous ouvrez le fusil à ce moment-là, la douille peut éclater près de votre visage et de vos mains. Après toute défaillance, gardez donc le fusil à l'épaule, ou au moins dirigé dans une direction sûre, et attendez ; de nombreux moniteurs conseillent d'attendre environ 30 secondes. Dans les compétitions FITASC, après une défaillance, on n'ouvre pas le fusil et on ne touche pas à la sûreté avant que l'arbitre l'ait examiné, sinon le plateau est compté perdu. Ici, les règles de sécurité et d'arbitrage se rejoignent.",
+   "alt": [
+    "long feu",
+    "raté du premier / deuxième coup"
+   ],
+   "note": "FITASC emploie « raté » ; « long feu » = départ retardé.",
+   "conf": "medium",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "hard-case": {
-   "term_local": "Mallette rigide",
+   "term_local": "mallette",
    "short": "Mallette rigide verrouillable pour transporter un fusil démonté, notamment en avion.",
-   "long": "Une mallette rigide est en aluminium, en plastique ABS ou en bois, avec des compartiments rembourrés pour les canons, la bascule et la crosse, le devant et les chokes. Le fusil y voyage démonté, et la mallette se ferme à clé ou par combinaison. Pour l'avion, la plupart des compagnies aériennes exigent précisément ce type de mallette, et les règles sur les serrures et sur qui garde les clés diffèrent selon les pays. Même dans votre propre voiture, une mallette protège le fusil et aide à respecter les règles locales de transport. Ne rangez pas les cartouches avec le fusil si la compagnie aérienne exige qu'elles soient emballées séparément."
+   "long": "Une mallette rigide est en aluminium, en plastique ABS ou en bois, avec des compartiments rembourrés pour les canons, la bascule et la crosse, le devant et les chokes. Le fusil y voyage démonté, et la mallette se ferme à clé ou par combinaison. Pour l'avion, la plupart des compagnies aériennes exigent précisément ce type de mallette, et les règles sur les serrures et sur qui garde les clés diffèrent selon les pays. Même dans votre propre voiture, une mallette protège le fusil et aide à respecter les règles locales de transport. Ne rangez pas les cartouches avec le fusil si la compagnie aérienne exige qu'elles soient emballées séparément.",
+   "alt": [
+    "valise rigide",
+    "mallette de transport"
+   ],
+   "conf": "medium",
+   "src": "https://www.chassemarket.com/tir-sportif/accessoires-tir-sportif.html"
   },
   "shooting-vest": {
-   "term_local": "Gilet de tir",
+   "term_local": "gilet de tir",
    "short": "Gilet du tireur avec des poches à cartouches et une épaulière pour la crosse du fusil.",
    "long": "Le gilet est le premier équipement à acheter après les protections oculaires et auditives. Il comporte deux grandes poches à cartouches, des poches pour les douilles vides et les chokes, et une épaulière lisse où se cale la crosse. Un bon gilet ne gêne pas l'épaulé et ne limite pas les mouvements. En Sporting™, le gilet ou la veste doit porter une ligne contrastée 25 cm sous l'axe de l'épaule pour le contrôle de la position d'attente. Le règlement FITASC interdit de porter un gilet sans rien dessous, et l'arbitre peut prélever une cartouche dans chacune des poches droite et gauche pour contrôle.",
    "disciplines": {
     "sporting": "Une ligne contrastée 25 cm sous l'axe de l'épaule est obligatoire.",
     "compak": "Le règlement du Compak n'exige pas de ligne sur le gilet."
-   }
+   },
+   "alt": [
+    "gilet de ball-trap",
+    "veste de tir"
+   ],
+   "note": "FITASC : ligne tracée sur le gilet ; « veste de tir » aussi dans le texte.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shoulder-pad": {
    "term_local": "Épaulière",
@@ -1198,9 +2016,15 @@ window.GLOSSARY_I18N.fr = {
    "long": "Si vous portez des lunettes de vue, les lunettes de tir peuvent recevoir un insert intérieur à verres correcteurs. Le verre principal résistant aux impacts reste devant et protège les yeux, tandis que l'insert assure une vision nette. Autre solution : commander des verres de tir correcteurs chez un opticien qui travaille avec des tireurs. Les lunettes de tous les jours ne conviennent que si leurs verres sont certifiés résistants aux impacts. Avant d'acheter, parlez-en à un ophtalmologiste et à votre entraîneur, car en tir on utilise la partie supérieure du verre."
   },
   "earplugs": {
-   "term_local": "Bouchons d'oreilles",
+   "term_local": "bouchons d'oreilles",
    "short": "Embouts placés dans le conduit auditif pour réduire le bruit du coup.",
-   "long": "Les bouchons d'oreilles sont la protection auditive la plus simple et la moins chère. Les bouchons jetables en mousse doivent être roulés puis enfoncés profondément dans le conduit auditif, sinon ils protègent mal. Il existe aussi des bouchons réutilisables en silicone et des bouchons sur mesure réalisés à partir d'une empreinte de l'oreille ; certains ont des filtres qui laissent passer la parole. La protection auditive est obligatoire aux compétitions FITASC pour toute personne se trouvant près des postes, et un tireur qui n'en porte pas est considéré comme absent. De nombreux tireurs combinent bouchons et casque pour une double protection."
+   "long": "Les bouchons d'oreilles sont la protection auditive la plus simple et la moins chère. Les bouchons jetables en mousse doivent être roulés puis enfoncés profondément dans le conduit auditif, sinon ils protègent mal. Il existe aussi des bouchons réutilisables en silicone et des bouchons sur mesure réalisés à partir d'une empreinte de l'oreille ; certains ont des filtres qui laissent passer la parole. La protection auditive est obligatoire aux compétitions FITASC pour toute personne se trouvant près des postes, et un tireur qui n'en porte pas est considéré comme absent. De nombreux tireurs combinent bouchons et casque pour une double protection.",
+   "alt": [
+    "bouchons anti-bruit",
+    "bouchons moulés"
+   ],
+   "conf": "high",
+   "src": "https://www.decathlon.fr/tous-les-sports/tir-sportif/casques-bouchons-d-oreilles"
   },
   "passive-ear-muffs": {
    "term_local": "Casque antibruit passif",
@@ -1208,19 +2032,36 @@ window.GLOSSARY_I18N.fr = {
    "long": "Un casque passif a des coquilles garnies d'un rembourrage insonorisant et des coussinets souples qui épousent la tête. Il est simple, fiable et ne demande pas de piles, mais il étouffe aussi la parole, ce qui rend plus difficile d'entendre l'arbitre sur le poste. Le niveau de protection est indiqué sur l'emballage ; en Europe, il est généralement exprimé par une valeur SNR, mais les systèmes de mesure dépendent du pays. Pour le tir, choisissez des modèles à coquilles basses ou échancrées afin que la crosse ne les accroche pas pendant l'épaulé. Des lunettes à branches épaisses peuvent nuire à l'étanchéité."
   },
   "electronic-ear-muffs": {
-   "term_local": "Casque antibruit électronique",
+   "term_local": "casque anti-bruit électronique",
    "short": "Casque qui amplifie les sons faibles et coupe instantanément le bruit du coup.",
-   "long": "Un casque électronique est équipé de microphones et de haut-parleurs : il laisse passer et même amplifie les sons faibles, comme la voix de l'arbitre ou un ordre, tout en réduisant instantanément la forte détonation du coup. On peut donc parler sur le poste sans retirer sa protection. Il coûte plus cher qu'un casque passif et fonctionne avec des piles ; prévoyez-en de rechange. Il existe aussi des bouchons électroniques qui fonctionnent de la même façon. Même électronique éteinte, les bons modèles protègent encore de façon passive, mais vérifiez la notice."
+   "long": "Un casque électronique est équipé de microphones et de haut-parleurs : il laisse passer et même amplifie les sons faibles, comme la voix de l'arbitre ou un ordre, tout en réduisant instantanément la forte détonation du coup. On peut donc parler sur le poste sans retirer sa protection. Il coûte plus cher qu'un casque passif et fonctionne avec des piles ; prévoyez-en de rechange. Il existe aussi des bouchons électroniques qui fonctionnent de la même façon. Même électronique éteinte, les bons modèles protègent encore de façon passive, mais vérifiez la notice.",
+   "alt": [
+    "casque électronique",
+    "casque actif"
+   ],
+   "conf": "high",
+   "src": "https://www.armurerie-lavaux.com/armes-categorie-b/protections-vetements-accessoires-tireur/casques-anti-bruit-electroniques/"
   },
   "cartridge-bag": {
-   "term_local": "Sac à cartouches",
+   "term_local": "sac à cartouches",
    "short": "Sac robuste porté à l'épaule pour la provision de cartouches de la journée.",
-   "long": "Un sac à cartouches contient plusieurs boîtes, de quoi tirer une ou plusieurs séries. On le porte à l'épaule entre les postes, et l'on transfère les cartouches dans les poches du gilet ou dans une cartouchière avant chaque poste. Un bon sac a un fond solide, une large bandoulière et se ferme contre la pluie. N'oubliez pas que 100 cartouches de calibre 12 pèsent plusieurs kilos ; n'emportez donc pas plus que nécessaire. En compétition, le tireur doit être prêt avec suffisamment de cartouches pour toute la série."
+   "long": "Un sac à cartouches contient plusieurs boîtes, de quoi tirer une ou plusieurs séries. On le porte à l'épaule entre les postes, et l'on transfère les cartouches dans les poches du gilet ou dans une cartouchière avant chaque poste. Un bon sac a un fond solide, une large bandoulière et se ferme contre la pluie. N'oubliez pas que 100 cartouches de calibre 12 pèsent plusieurs kilos ; n'emportez donc pas plus que nécessaire. En compétition, le tireur doit être prêt avec suffisamment de cartouches pour toute la série.",
+   "alt": [
+    "sac de tir"
+   ],
+   "conf": "medium",
+   "src": "https://www.chassemarket.com/tir-sportif/accessoires-tir-sportif.html"
   },
   "cartridge-pouch": {
-   "term_local": "Cartouchière (pochette de ceinture)",
+   "term_local": "cartouchière",
    "short": "Petite pochette de ceinture pour les cartouches d'une série.",
-   "long": "Une pochette se porte à la ceinture et contient les cartouches d'une série, 25 ou quelques-unes de plus. Elle a souvent un compartiment séparé pour les douilles vides, afin qu'elles ne restent pas au sol. Une pochette est pratique lorsque l'on tire sans gilet ou que les poches du gilet sont pleines. Veillez à ce qu'elle ne gêne pas l'épaulé et ne fasse pas de bruit quand vous bougez. Ensuite, mettez les douilles vides dans les poubelles du stand."
+   "long": "Une pochette se porte à la ceinture et contient les cartouches d'une série, 25 ou quelques-unes de plus. Elle a souvent un compartiment séparé pour les douilles vides, afin qu'elles ne restent pas au sol. Une pochette est pratique lorsque l'on tire sans gilet ou que les poches du gilet sont pleines. Veillez à ce qu'elle ne gêne pas l'épaulé et ne fasse pas de bruit quand vous bougez. Ensuite, mettez les douilles vides dans les poubelles du stand.",
+   "alt": [
+    "poche à cartouches",
+    "pochette de ceinture"
+   ],
+   "conf": "medium",
+   "src": "https://www.cote-chasse.com/equipement-du-chasseur/tir-sportif/ball-trap.html"
   },
   "shooting-gloves": {
    "term_local": "Gants de tir",
@@ -1247,18 +2088,30 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "entry": {
-   "term_local": "Inscription",
+   "term_local": "inscription",
    "short": "L'enregistrement d'un tireur à une compétition.",
-   "long": "Pour participer à une compétition, vous déposez une inscription avant la date limite et payez le droit d'inscription. L'inscription indique généralement la discipline, la catégorie, le club ou le pays, et pour les grandes épreuves le numéro de licence fédérale. Après les inscriptions, l'organisateur forme les planches par tirage au sort et publie les horaires de tir de chaque planche ; il appartient au tireur de suivre l'horaire. Si votre fusil est équipé d'une détente à lâcher, vérifiez les exigences du programme. Un tireur absent le premier jour d'un Compak® Sporting en ligne est retiré de la liste dès le deuxième jour ; informez donc l'organisateur de tout changement."
+   "long": "Pour participer à une compétition, vous déposez une inscription avant la date limite et payez le droit d'inscription. L'inscription indique généralement la discipline, la catégorie, le club ou le pays, et pour les grandes épreuves le numéro de licence fédérale. Après les inscriptions, l'organisateur forme les planches par tirage au sort et publie les horaires de tir de chaque planche ; il appartient au tireur de suivre l'horaire. Si votre fusil est équipé d'une détente à lâcher, vérifiez les exigences du programme. Un tireur absent le premier jour d'un Compak® Sporting en ligne est retiré de la liste dès le deuxième jour ; informez donc l'organisateur de tout changement.",
+   "alt": [
+    "engagement"
+   ],
+   "conf": "medium",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "entry-fee": {
-   "term_local": "Droit d'inscription (engagement)",
+   "term_local": "engagement",
    "short": "La somme payée pour participer à une compétition.",
    "long": "Le droit d'inscription couvre les plateaux, les arbitres et l'organisation, et parfois le déjeuner ou d'autres services. Son montant dépend du niveau de l'épreuve et du nombre de plateaux ; des réductions sont souvent proposées aux juniors et aux débutants. Les cartouches ne sont généralement pas comprises. En Sporting™, le droit d'inscription détermine aussi la caution d'une réclamation écrite auprès du jury : elle s'élève à 40 % du droit. Un tireur exclu d'une compétition n'est pas remboursé.",
    "disciplines": {
     "sporting": "La caution d'une réclamation auprès du jury est de 40 % du droit d'inscription.",
     "compak": "La caution correspond au montant en vigueur le jour de la compétition."
-   }
+   },
+   "alt": [
+    "droit d'engagement",
+    "prix d'inscription"
+   ],
+   "note": "FITASC : « montant de l'engagement ».",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "open-ranking": {
    "term_local": "Classement scratch (général)",
@@ -1271,9 +2124,14 @@ window.GLOSSARY_I18N.fr = {
    "long": "Les classes existent pour que chacun affronte des tireurs de niveau comparable : un débutant n'a pas à se mesurer à un champion. La classe est attribuée d'après la moyenne des scores sur une période donnée, et le tireur monte de classe à mesure que ses résultats progressent. Les noms et les seuils des classes dépendent du pays ou du club : AA, A, B, C n'est qu'un exemple. Une classe n'est pas une catégorie : la catégorie dépend de l'âge ou du sexe, la classe des résultats. Le règlement international de la FITASC ne prévoit pas de classes ; ce sont des systèmes nationaux."
   },
   "prize-giving": {
-   "term_local": "Remise des prix",
+   "term_local": "remise des prix",
    "short": "La cérémonie de récompense en fin de compétition ; aux épreuves internationales, les lauréats doivent y assister.",
-   "long": "Après la dernière série et les barrages, l'organisateur annonce les résultats et remet médailles, trophées ou prix pour les classements scratch, par catégorie et par équipes. Selon le règlement FITASC, tous les lauréats des épreuves internationales doivent assister à la remise des prix lors de la cérémonie de clôture. La tenue de cérémonie est la tenue de l'équipe nationale ou un pantalon habillé avec un blazer. Même lors des concours de club, rester pour la remise des prix est une belle tradition et une marque de respect envers les organisateurs et les adversaires. Si vous devez partir plus tôt, prévenez l'organisateur."
+   "long": "Après la dernière série et les barrages, l'organisateur annonce les résultats et remet médailles, trophées ou prix pour les classements scratch, par catégorie et par équipes. Selon le règlement FITASC, tous les lauréats des épreuves internationales doivent assister à la remise des prix lors de la cérémonie de clôture. La tenue de cérémonie est la tenue de l'équipe nationale ou un pantalon habillé avec un blazer. Même lors des concours de club, rester pour la remise des prix est une belle tradition et une marque de respect envers les organisateurs et les adversaires. Si vous devez partir plus tôt, prévenez l'organisateur.",
+   "alt": [
+    "cérémonie de clôture"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shooter-profile": {
    "term_local": "Profil du tireur",
@@ -1359,6 +2217,398 @@ window.GLOSSARY_I18N.fr = {
    "term_local": "IATA",
    "short": "L'Association du transport aérien international ; ses règles sur les marchandises dangereuses fixent la façon dont les passagers peuvent transporter des cartouches.",
    "long": "Les cartouches sont considérées comme des marchandises dangereuses pour le transport aérien. Selon les règles de l'IATA, un passager est généralement autorisé à transporter jusqu'à 5 kg bruts de cartouches de sport pour son usage personnel, uniquement en bagage enregistré et solidement emballées, de préférence dans les boîtes du fabricant. Une boîte de 25 cartouches de calibre 12 pèse environ un kilo ; 5 kg ne représentent donc qu'environ cinq boîtes. De nombreuses compagnies aériennes sont plus strictes : limite plus basse, emballage séparé du fusil, voire interdiction totale. Vérifiez les exigences de votre compagnie avant chaque vol ; il est souvent plus simple d'acheter les cartouches d'une compétition sur place."
+  },
+  "barrel": {
+   "term_local": "canon",
+   "alt": [
+    "canons",
+    "canon supérieur / inférieur"
+   ],
+   "note": "Au pluriel pour un superposé (« les canons »).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
+   "short": "Le tube dans lequel circulent les plombs."
+  },
+  "adjustable-comb": {
+   "term_local": "busc réglable",
+   "alt": [
+    "busc amovible"
+   ],
+   "note": "Termes du règlement FITASC (position d'attente).",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
+   "short": "Busc dont la hauteur et l'avantage peuvent être réglés."
+  },
+  "grip": {
+   "term_local": "poignée",
+   "alt": [
+    "poignée de crosse",
+    "crosse pistolet / demi-pistolet"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
+   "short": "La partie de la crosse tenue par la main de la détente."
+  },
+  "trigger": {
+   "term_local": "détente",
+   "alt": [
+    "queue de détente",
+    "mono-détente sélective",
+    "doubles détentes"
+   ],
+   "note": "« Queue de détente » = la lame que touche le doigt.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
+   "short": "La pièce que l'on presse pour faire partir le coup."
+  },
+  "safety-catch": {
+   "term_local": "sûreté",
+   "alt": [
+    "cran de sûreté",
+    "sécurité"
+   ],
+   "note": "« Cran de sûreté » dans le règlement FITASC.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
+   "short": "Le curseur du fusil qui bloque la détente."
+  },
+  "recoil-pad": {
+   "term_local": "plaque de couche",
+   "alt": [
+    "talon amortisseur",
+    "sabot"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
+   "short": "Le tampon en caoutchouc au bout de la crosse qui amortit le recul."
+  },
+  "chandelle": {
+   "term_local": "chandelle (sens anglais)",
+   "note": "Faux ami : en français « chandelle » désigne un plateau vertical (teal anglais). La « chandelle » anglaise monte en courbe puis retombe.",
+   "conf": "medium",
+   "short": "Plateau qui monte fortement en courbe puis retombe. À ne pas confondre avec la « chandelle » française, qui désigne une sarcelle verticale."
+  },
+  "dropping-target": {
+   "term_local": "descendant",
+   "alt": [
+    "plateau tombant",
+    "plongeant"
+   ],
+   "conf": "medium",
+   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf",
+   "short": "Plateau tiré pendant sa descente."
+  },
+  "visible-piece": {
+   "term_local": "morceau visible",
+   "alt": [
+    "éclat visible"
+   ],
+   "note": "Plateau fumant / épousseté = zéro.",
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
+   "short": "Un plateau est compté touché si au moins un morceau visible s'en détache."
+  },
+  "loading": {
+   "term_local": "charger / décharger",
+   "alt": [
+    "chargement"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
+   "short": "On ne met les cartouches dans le fusil qu'au poste, et on les retire ensuite."
+  },
+  "quiet-on-stand": {
+   "term_local": "silence sur le poste",
+   "alt": [
+    "ne pas gêner le tireur"
+   ],
+   "conf": "low",
+   "short": "Ne pas parler à un tireur en train de tirer ni le distraire."
+  },
+  "empties": {
+   "term_local": "cartouches vides",
+   "alt": [
+    "douilles vides",
+    "étuis"
+   ],
+   "conf": "high",
+   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
+   "short": "Les douilles tirées, que l'on ramasse au lieu de les laisser par terre."
+  },
+  "move-mount-shoot": {
+   "term_local": "bouger, épauler, tirer",
+   "conf": "low",
+   "short": "Séquence d'entraînement : les canons partent avec le plateau, le fusil s'épaule pendant le mouvement et le coup part à la fin de l'épaulé."
+  },
+  "insertion-point": {
+   "term_local": "point d'insertion",
+   "conf": "low",
+   "short": "L'endroit où les canons rejoignent la ligne du plateau par rapport à celui-ci : derrière, dessus ou devant."
+  },
+  "central-vision": {
+   "term_local": "vision centrale",
+   "conf": "low",
+   "short": "Aucun œil n'est nettement directeur, si bien que le fusil peut pointer de façon imprévisible."
+  },
+  "soft-focus": {
+   "term_local": "regard large",
+   "conf": "low",
+   "short": "Un regard détendu et large en attendant au point de prise."
+  },
+  "hard-focus": {
+   "term_local": "regard focalisé",
+   "conf": "low",
+   "short": "Une concentration nette et intense sur le plateau lui-même, idéalement sur son bord avant."
+  },
+  "leading-edge": {
+   "term_local": "bord avant du plateau",
+   "conf": "low",
+   "short": "Le bord avant du plateau en mouvement, souvent utilisé comme point précis de focalisation."
+  },
+  "gun-speed": {
+   "term_local": "vitesse des canons",
+   "conf": "low",
+   "short": "La vitesse des canons par rapport à celle du plateau ; elle définit la méthode d'avance."
+  },
+  "tempo": {
+   "term_local": "tempo",
+   "conf": "low",
+   "short": "La vitesse d'exécution de tout le tir, adaptée au plateau ; le rythme en est la régularité."
+  },
+  "fly-over-rectangle": {
+   "term_local": "rectangle de survol",
+   "conf": "low",
+   "short": "La zone obligatoire du Compak® Sporting, de 35 à 40 m de large et 25 m de profondeur, balisée par des piquets aux angles, que chaque plateau doit survoler."
+  },
+  "waiting-position": {
+   "term_local": "position d'attente",
+   "conf": "low",
+   "short": "En Compak® tiré en planche, l'emplacement derrière le pas de tir 1 où le sixième tireur attend son tour."
+  },
+  "show-clear": {
+   "term_local": "montrer le fusil ouvert",
+   "conf": "low",
+   "short": "Ouvrir le fusil pour que les autres voient que les chambres sont vides."
+  },
+  "cage": {
+   "term_local": "cage de tir",
+   "conf": "low",
+   "short": "Un cadre autour d'un emplacement de tir qui empêche physiquement le fusil de pivoter vers une direction dangereuse."
+  },
+  "miss-behind": {
+   "term_local": "derrière",
+   "conf": "low",
+   "short": "Manqué où la gerbe passe derrière un plateau en mouvement : pas assez d'avance ou fusil qui ralentit."
+  },
+  "miss-in-front": {
+   "term_local": "devant",
+   "conf": "low",
+   "short": "Manqué où la gerbe passe devant un plateau en mouvement : trop d'avance."
+  },
+  "miss-over": {
+   "term_local": "dessus",
+   "conf": "low",
+   "short": "Manqué où la gerbe passe au-dessus du plateau, souvent après un lever de tête ou sur un plateau descendant."
+  },
+  "miss-under": {
+   "term_local": "dessous",
+   "conf": "low",
+   "short": "Manqué où la gerbe passe sous le plateau, typique des plateaux encore en montée au moment du tir."
+  },
+  "chip": {
+   "term_local": "éclat",
+   "conf": "low",
+   "short": "Plateau touché dont seul un petit morceau se détache ; il compte quand même si le morceau est visible."
+  },
+  "smoke-ball": {
+   "term_local": "pulvérisé",
+   "conf": "low",
+   "short": "Expression d'entraîneur pour un tir parfaitement centré qui réduit le plateau en poussière ; à ne pas confondre avec « seulement de la poussière ou de la fumée » du règlement, qui est un manqué."
+  },
+  "checking": {
+   "term_local": "freinage du swing",
+   "conf": "low",
+   "short": "Une brève hésitation du mouvement juste avant le coup, forme atténuée de l'arrêt du fusil."
+  },
+  "riding-the-target": {
+   "term_local": "suivre trop longtemps",
+   "conf": "low",
+   "short": "Accompagner un plateau trop longtemps avant de tirer, si bien qu'il ralentit, tombe ou s'écarte."
+  },
+  "poking": {
+   "term_local": "viser",
+   "conf": "low",
+   "short": "Pointer le fusil lentement et de façon appliquée comme une carabine, les yeux sur le guidon au lieu du plateau."
+  },
+  "canting": {
+   "term_local": "fusil penché",
+   "conf": "low",
+   "short": "Incliner le fusil sur le côté au moment du tir, ce qui écarte la gerbe de la ligne du plateau."
+  },
+  "late-mount": {
+   "term_local": "épaulé tardif",
+   "conf": "low",
+   "short": "Un épaulé terminé après le moment où le coup aurait dû partir, ce qui entraîne un tir précipité."
+  },
+  "transition": {
+   "term_local": "transition",
+   "conf": "low",
+   "short": "Passer des yeux, puis du fusil, du premier plateau d'un doublé au second."
+  },
+  "recovery": {
+   "term_local": "reprise",
+   "conf": "low",
+   "short": "Reprendre le contrôle du fusil et de la tête après le premier coup, prêt pour le second."
+  },
+  "hand-signal": {
+   "term_local": "signe de la main",
+   "conf": "low",
+   "short": "Un geste qu'un entraîneur utilise au poste à la place des mots, par exemple les mains écartées pour plus d'avance."
+  },
+  "target-line": {
+   "term_local": "ligne",
+   "conf": "low",
+   "short": "La trajectoire du plateau dans l'air telle que le tireur la voit ; le fusil doit la suivre."
+  },
+  "overhead": {
+   "term_local": "plateau au-dessus de la tête",
+   "conf": "low",
+   "short": "Plateau qui passe juste au-dessus de la tête du tireur, venant de derrière ou de devant."
+  },
+  "bolting-rabbit": {
+   "term_local": "lapin qui déboule",
+   "conf": "low",
+   "short": "Lapin qui jaillit brusquement d'un couvert et roule vite au sol."
+  },
+  "fur-and-feather": {
+   "term_local": "fur and feather (poil et plume)",
+   "conf": "low",
+   "short": "Expression du Sporting anglais pour un doublé composé d'un lapin et d'un plateau aérien."
+  },
+  "true-pair": {
+   "term_local": "true pair (doublé simultané)",
+   "conf": "low",
+   "short": "Nom anglais du doublé simultané en Sporting : les deux plateaux partent au même instant."
+  },
+  "shell-catcher": {
+   "term_local": "récupérateur de douilles",
+   "conf": "low",
+   "short": "Dispositif d'un semi-automatique qui empêche les douilles éjectées de heurter le tireur voisin ; obligatoire en Compak® Sporting."
+  },
+  "top-lever": {
+   "term_local": "clé d'ouverture",
+   "conf": "low",
+   "short": "Le levier sur le dessus de la bascule que l'on pousse sur le côté pour ouvrir (casser) le fusil."
+  },
+  "bead": {
+   "term_local": "guidon",
+   "conf": "low",
+   "short": "Le petit point au bout de la bande, côté bouche ; un repère pour l'œil, pas un organe de visée."
+  },
+  "interpreter": {
+   "term_local": "interprète",
+   "conf": "high",
+   "short": "Personne qui traduit les propos entre l'entraîneur, l'arbitre et les tireurs pendant un tour ; elle connaît la terminologie du tir."
+  },
+  "chuchotage": {
+   "term_local": "chuchotage",
+   "conf": "high",
+   "short": "Interprétation simultanée chuchotée à l'oreille de l'auditeur."
+  },
+  "consecutive-interpreting": {
+   "term_local": "interprétation consécutive",
+   "conf": "high",
+   "short": "Interprétation à tour de rôle : l'orateur fait une pause, puis l'interprète parle."
+  },
+  "hand-signals": {
+   "term_local": "signes de la main",
+   "conf": "low",
+   "short": "Gestes qu'un entraîneur utilise pour donner des consignes en silence au poste."
+  },
+  "false-friend": {
+   "term_local": "faux ami",
+   "conf": "high",
+   "short": "Un mot qui semble familier mais qui a un autre sens en tir, par exemple « stand », « broken gun », « lost »."
+  },
+  "smoked-it": {
+   "term_local": "pulvérisé",
+   "conf": "low",
+   "short": "Expression d'entraîneur pour un tir parfait ; à ne pas confondre avec « seulement de la poussière ou de la fumée » du règlement, qui vaut zéro."
+  },
+  "peg": {
+   "term_local": "peg (emplacement de tir)",
+   "conf": "low",
+   "short": "Mot britannique pour l'emplacement de tir marqué sur un poste."
+  },
+  "gun-up": {
+   "term_local": "fusil épaulé au départ",
+   "conf": "low",
+   "short": "Partir avec le fusil déjà épaulé avant l'appel ; autorisé en English Sporting, NSCA et Compak®, pas en Sporting™ FITASC."
+  },
+  "english-sporting": {
+   "term_local": "English Sporting",
+   "conf": "low",
+   "short": "La forme britannique du sporting selon les règles de la CPSA, généralement avec des doublés et le départ fusil épaulé autorisé."
+  },
+  "cpsa": {
+   "term_local": "CPSA",
+   "conf": "high",
+   "short": "Clay Pigeon Shooting Association, l'instance dirigeante du tir aux plateaux en Angleterre."
+  },
+  "nsca": {
+   "term_local": "NSCA",
+   "conf": "high",
+   "short": "National Sporting Clays Association, qui régit le Sporting Clays aux États-Unis."
+  },
+  "hoa": {
+   "term_local": "HOA (scratch)",
+   "conf": "low",
+   "short": "Le vainqueur général d'une épreuve, toutes catégories et classes confondues."
+  },
+  "clock-face": {
+   "term_local": "cadran de l'horloge",
+   "conf": "low",
+   "short": "Indiquer les directions comme les heures d'une horloge, midi étant droit devant le tireur."
+  },
+  "perceived-lead": {
+   "term_local": "avance perçue",
+   "conf": "low",
+   "short": "L'écart que le tireur voit entre la bouche du canon et le plateau au moment du tir, bien plus petit que l'avance réelle dans l'air."
+  },
+  "ambush": {
+   "term_local": "tir en embuscade",
+   "conf": "low",
+   "short": "Méthode où les canons attendent en un point devant le plateau et où le coup part à son arrivée, avec peu ou pas de mouvement."
+  },
+  "instinctive-shooting": {
+   "term_local": "tir instinctif",
+   "conf": "low",
+   "short": "Tirer en fixant intensément le plateau sans avance consciente, l'épaulé et le mouvement se faisant ensemble (école Churchill)."
+  },
+  "national-federation": {
+   "term_local": "fédération nationale",
+   "conf": "low",
+   "short": "L'instance dirigeante du sport dans un pays ; membre de la FITASC, elle homologue les installations nationales et certifie les arbitres."
+  },
+  "super-mini": {
+   "term_local": "super mini",
+   "conf": "low",
+   "short": "Nom employé dans la liste des plateaux autorisés en Sporting™ FITASC pour le plus petit plateau ; la règle du menu cite des tailles de 70 mm et 60 mm, et les fabricants emploient « mini » et « super mini » différemment, d'où l'intérêt de se fier aux millimètres."
+  },
+  "blazed-target": {
+   "term_local": "plateau à dôme fluo",
+   "conf": "low",
+   "short": "Plateau dont le dôme est peint en orange vif pour être plus visible."
+  },
+  "background": {
+   "term_local": "fond",
+   "conf": "low",
+   "short": "Ce qui se trouve derrière le plateau tel que le tireur le voit (ciel, lisière, sol) ; il détermine la visibilité d'une couleur de plateau."
+  },
+  "manual-release": {
+   "term_local": "lancement manuel",
+   "conf": "low",
+   "short": "Lancement d'un plateau par une personne (pulleur ou arbitre) qui appuie sur un bouton à l'appel du tireur."
   }
  }
 };

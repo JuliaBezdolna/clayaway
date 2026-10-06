@@ -24,9 +24,9 @@ PAGES = [
     ("sologne/index.html", "sologne", "en_GB", "CLAYAWAY TOUR · FRANCE", ["Sologne Week"], ["with Charles Bardou · Loire Valley", "Mon 10 – Fri 14 May 2027 · Château de Chambord"],
      "Sologne Week with Charles Bardou", "Train with Charles Bardou at the Sologne Shooting Club: Parcours de Chasse – Sporting™, Compak® Sporting, Loire wines and a Chambord excursion. ClayAway by ClayArena."),
     ("rules/index.html", "rules", "uk_UA", "FITASC · SPORTING™ · COMPAK®", ["Правила FITASC", "простими словами"], ["Запитайте або читайте за розділами", "з посиланням на сторінку офіційного PDF"],
-     "Правила FITASC простими словами — ClayAway", "Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC."),
+     "Правила FITASC простими словами — ClayArena", "Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC."),
     ("rules/trainer/index.html", "trainer", "uk_UA", "FITASC · ТРЕНАЖЕР", ["Тренажер", "правил FITASC"], ["Рішення судді, цифри, правда чи ні", "Sporting™ і Compak® Sporting · 160 питань"],
-     "Тренажер правил FITASC — ClayAway", "Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF."),
+     "Тренажер правил FITASC — ClayArena", "Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF."),
     ("learn/index.html", "learn", "uk_UA", "CLAYARENA ACADEMY", ["Стендова стрільба", "з нуля"], ["Безпека, рушниці, чоки, патрони, мішені,", "техніка, змагання, правила й культура"],
      "Академія ClayArena — стендова стрільба з нуля", "Короткі уроки для початківців: Sporting™ і Compak® Sporting, безпека, рушниці, чоки, патрони, мішені, техніка, змагання, правила FITASC і культура спорту."),
     ("interpreter/index.html", "interpreter", "en_GB", "CLAYARENA · INTERPRETER ACADEMY", ["Clay shooting", "for interpreters"], ["Terms, target flights, lead, FITASC rules,", "referee calls and etiquette · 11 languages"],
@@ -92,11 +92,13 @@ def inject(path, name, locale, og_title, og_desc):
     img = f"{BASE}og/{name}.png"
     depth = path.count("/")
     rel = "../" * depth
+    # ClayAway is the tours service; rules, trainer, glossary and academies are ClayArena tools
+    site = "ClayAway · ClayArena" if path.split("/")[0] in ("index.html", "concept", "dornsberg", "sologne") else "ClayArena"
     block = f'''
 <!-- share-preview -->
 <meta name="description" content="{og_desc}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="ClayAway · ClayArena">
+<meta property="og:site_name" content="{site}">
 <meta property="og:title" content="{og_title}">
 <meta property="og:description" content="{og_desc}">
 <meta property="og:url" content="{url}">

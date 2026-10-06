@@ -1,0 +1,1569 @@
+{
+ "ui": {
+  "svc": "Sääntövalmentaja",
+  "svcS": "ClayAway · FITASC",
+  "title": "{d} – sääntövalmentaja",
+  "lead": "Testaa sääntötietosi: tilanteita ampumapaikalla, lukuja ja rajoja, tosi vai epätosi. Jokaisen vastauksen jälkeen saat selityksen ja linkin sääntöoppaan kohtaan sekä virallisen PDF:n sivulle.",
+  "quick": "Pikatesti",
+  "quickS": "10 satunnaista kysymystä, selitys heti",
+  "exam": "Koe",
+  "examS": "30 kysymystä, tulos lopussa, hyväksymisraja 80 %",
+  "mist": "Omat virheet",
+  "mistS": "kysymykset, joihin vastasit väärin",
+  "level": "Taso",
+  "all": "kaikki",
+  "l1": "perus",
+  "l2": "järjestäjä",
+  "l3": "tuomari",
+  "q": "Kysymys",
+  "of": "/",
+  "next": "Seuraava",
+  "finish": "Lopeta",
+  "right": "Oikein!",
+  "wrong": "Väärin.",
+  "decision": "Tuomarin ratkaisu",
+  "number": "Luvut",
+  "truefalse": "Tosi vai epätosi",
+  "choice": "Valinta",
+  "open": "Sääntö oppaassa",
+  "pdf": "PDF, s.",
+  "res": "Tulos",
+  "pass": "Koe hyväksytty",
+  "fail": "Melkein",
+  "again": "Yritä uudelleen",
+  "home": "Takaisin tiloihin",
+  "review": "Vastausten läpikäynti",
+  "sAns": "Vastauksia",
+  "sAcc": "Tarkkuus",
+  "sBest": "Paras koe",
+  "sMist": "Toistettavat virheet",
+  "none": "Tälle lajille ei ole vielä kysymyksiä.",
+  "noMist": "Ei virheitä – hienoa!",
+  "back": "← Sääntöopas",
+  "disc": "Valmentaja perustuu omaan tiivistelmäämme FITASCin sääntökirjasta. Vain FITASCin virallinen teksti on pätevä. Parcours de Chasse – Sporting™ ja Compak® Sporting ovat FITASCin tavaramerkkejä.",
+  "count": "kysymystä pankissa"
+ },
+ "questions": {
+  "sp-q001": {
+   "q": "Yksittäiskiekko. Ampuja laukaisee, ja tuomari näkee vain pölypilven kiekon kohdalla; yhtään palaa ei irtoa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "One (osuma)",
+    "No Bird, kiekko heitetään uudelleen",
+    "Zero (ohi)"
+   ],
+   "explain": "Pelkkä pöly tai savu ei riitä. Kiekko on osuma (one) vain, kun siitä irtoaa vähintään yksi näkyvä pala tai se hajoaa kokonaan tai osittain."
+  },
+  "sp-q002": {
+   "q": "Yksittäiskiekko. Laukauksen jälkeen kiekosta irtoaa yksi pieni mutta selvästi näkyvä pala, ja loput lentävät eteenpäin. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "One (osuma)",
+    "No Bird, kiekko heitetään uudelleen",
+    "Zero (ohi)"
+   ],
+   "explain": "Yksi näkyvä pala riittää: oikein heitetty ja oikeasta asennosta ammuttu kiekko on osuma, kun siitä irtoaa näkyvästi vähintään yksi pala."
+  },
+  "sp-q003": {
+   "q": "Ampuja pyytää kiekkoa ('pull'). Tuomari välittää merkin, mutta kiekko tulee vasta noin viiden sekunnin päästä. Ampuja laukaisee ja ampuu ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Zero (ohi)",
+    "Uusinta vain, jos ampuja protestoi ennen laukausta",
+    "No Bird, kiekko heitetään uudelleen"
+   ],
+   "explain": "Kiekko on heitettävä 3 sekunnin kuluessa tuomarin merkistä. Myöhemmin heitetty kiekko on No Bird laukauksen tuloksesta riippumatta."
+  },
+  "sp-q004": {
+   "q": "Ampuja pyytää kiekkoa, oikea kiekko lähtee oikealla lentoradalla, mutta ampuja ei laukaise ja sanoo, ettei pitänyt kiekon lähdöstä. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "No Bird, kiekko heitetään uudelleen",
+    "Zero (ohi)",
+    "Varoitus, sitten kiekko heitetään uudelleen"
+   ],
+   "explain": "Pyydetystä kiekosta ei voi kieltäytyä. Vain tuomari arvioi, onko lentorata oikea; oikea kiekko, jota ampuja ei ampunut, on ohi (zero)."
+  },
+  "sp-q005": {
+   "q": "Ampuja asettuu vielä valmiusasentoon eikä ole pyytänyt kiekkoa, kun heitinten operaattori laukaisee kiekon. Ampuja ei ammu. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Zero, koska ampujan on aina oltava valmiina",
+    "Zero (ohi)",
+    "No Bird, kiekko heitetään uudelleen"
+   ],
+   "explain": "Kiekosta, jota ei ole pyydetty, saa kieltäytyä, ja se on No Bird. Kieltäytyminen on sallittu vain tässä tapauksessa."
+  },
+  "sp-q006": {
+   "q": "Yksittäiskiekko lähtee heittimestä jo kahtena palana. Ampuja ampuu isompaa palaa ja osuu siihen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "No Bird, kiekko heitetään uudelleen",
+    "One (osuma)",
+    "Zero (ohi)"
+   ],
+   "explain": "Heittimestä rikkinäisenä lähtenyt kiekko on No Bird, ja yksittäiskiekko heitetään uudelleen; palaan osuminen ei ratkaise."
+  },
+  "sp-q007": {
+   "q": "Yksittäiskiekko heittimestä B. Juuri kun ampuja laukaisee, katsojan puhelin soi kovaa aivan ampumapaikan takana, ja ampuja säpsähtää selvästi ja ampuu ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Zero (ohi)",
+    "Zero, ulkopuolinen ääni ei ole koskaan peruste",
+    "No Bird, kiekko heitetään uudelleen"
+   ],
+   "explain": "Jos ampujaa on selvästi häiritty, tuomari julistaa No Birdin ja kiekko heitetään uudelleen. Tuomari arvioi, oliko häiriö selvä."
+  },
+  "sp-q008": {
+   "q": "Matala aurinko sokaisi tuomarin hetkeksi, eikä hän rehellisesti tiedä, osuttiinko yksittäiskiekkoon. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Kysytään erältä ja ratkaistaan enemmistöllä",
+    "One (osuma)",
+    "No Bird, kiekko heitetään uudelleen",
+    "Zero (ohi)"
+   ],
+   "explain": "Kun tuomari ei pysty ratkaisemaan, osuttiinko kiekkoon, se on No Bird ja kiekko heitetään uudelleen. Erän jäsenet voivat neuvoa vain tuomarin pyynnöstä, eivätkä he koskaan äänestä."
+  },
+  "sp-q009": {
+   "q": "Yhtäaikainen kaksoiskiekko. Ampuja ampuu kerran, ja tämä yksi laukaus rikkoo molemmat kiekot. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "One ja zero",
+    "One ja one",
+    "No Bird, kaksoiskiekko heitetään uudelleen"
+   ],
+   "explain": "Kaikissa kaksoiskiekoissa, jos yksi laukaus rikkoo molemmat kiekot, molemmat lasketaan osumiksi: one ja one."
+  },
+  "sp-q010": {
+   "q": "Peräkkäinen kaksoiskiekko (rafale). Kiekot lähtevät oikein, mutta ampuja laskee aseen eikä ammu kumpaakaan, eikä hänellä ole pätevää syytä. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "No Bird, kaksoiskiekko heitetään uudelleen",
+    "Zero ja zero",
+    "Zero ensimmäisestä kiekosta, toinen heitetään uudelleen"
+   ],
+   "explain": "Oikean kiekon ampumatta jättäminen ilman pätevää syytä on ohi (zero); peräkkäisessä tai yhtäaikaisessa kaksoiskiekossa se tarkoittaa zero ja zero."
+  },
+  "sp-q011": {
+   "q": "Laukauksesta lähtevä kaksoiskiekko. Ensimmäinen kiekko lähtee selvästi väärällä, epäsäännöllisellä lentoradalla. Ampuja ampuu sitä silti ja ampuu ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "No Bird vain ensimmäisestä kiekosta",
+    "Zero ensimmäisestä kiekosta, toinen laukaus normaalisti",
+    "No Bird, koko kaksoiskiekko heitetään uudelleen"
+   ],
+   "explain": "Laukauksesta lähtevässä kaksoiskiekossa epäsäännöllinen ensimmäinen kiekko tarkoittaa, että kaksoiskiekko heitetään uudelleen."
+  },
+  "sp-q012": {
+   "q": "Laukauksesta lähtevä kaksoiskiekko. Ampuja rikkoo ensimmäisen kiekon, ja yksi sen paloista rikkoo toisen kiekon ennen kuin ampuja ehtii ampua toisen laukauksen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Kaksoiskiekko heitetään uudelleen, mitään ei jää voimaan",
+    "One ja zero",
+    "One ja one",
+    "Kaksoiskiekko heitetään uudelleen, ensimmäisen kiekon osuma (one) jää voimaan"
+   ],
+   "explain": "Jos ensimmäinen kiekko tai sen palat rikkovat toisen ennen toista laukausta, kaksoiskiekko heitetään uudelleen ja ensimmäisen kiekon tulos jää voimaan."
+  },
+  "sp-q013": {
+   "q": "Yhtäaikainen kaksoiskiekko. Toinen kiekoista lähtee epäsäännöllisellä lentoradalla; ampuja rikkoo toisen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Kaksoiskiekko heitetään uudelleen, tulosta ei kirjata",
+    "One ja zero",
+    "One säännöllisestä kiekosta, epäsäännöllinen heitetään uudelleen"
+   ],
+   "explain": "Yhtäaikaisessa ja peräkkäisessä kaksoiskiekossa epäsäännöllinen kiekko tarkoittaa, että kaksoiskiekko heitetään uudelleen eikä tulosta kirjata."
+  },
+  "sp-q014": {
+   "q": "Jäniskiekko yksittäisenä. Ensimmäinen laukaus menee ohi, ja sitten jänis osuu kiveen ja hajoaa ennen kuin ampuja laukaisee toisen piipun. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Zero (ohi)",
+    "No Bird; uusinnassa lasketaan vain toisella laukauksella rikottu kiekko",
+    "One (osuma)"
+   ],
+   "explain": "Tämä on No Bird ja jänis heitetään uudelleen, mutta uusinnassa lasketaan vain toisella laukauksella rikottu kiekko; ensimmäisellä laukauksella rikottu on ohi (zero)."
+  },
+  "sp-q015": {
+   "q": "Kierroksen ensimmäinen asehäiriö: yksittäiskiekossa ensimmäinen patruuna ei laukea. Ampuja pysyy paikallaan ase kohti ampuma-aluetta eikä laukaise toista piippua. Tuomari tarkastaa aseen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "No Bird ja varoitus; kiekko heitetään uudelleen",
+    "Zero (ohi)",
+    "Zero, mutta ei varoitusta"
+   ],
+   "explain": "Kierroksen ensimmäisestä ase- tai patruunahäiriöstä annetaan varoitus ja No Bird, ja yksittäiskiekko heitetään uudelleen. Saman kierroksen seuraavat häiriöt ovat ohi (zero)."
+  },
+  "sp-q016": {
+   "q": "Myöhemmin samalla kierroksella samalla ampujalla jää jälleen ensimmäinen patruuna laukeamatta yksittäiskiekossa. Hän odottaa oikein tuomarin tarkastusta. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "No Bird, kiekko heitetään uudelleen",
+    "Zero (ohi)",
+    "No Bird, mutta tällä kertaa keltaisen kortin kera"
+   ],
+   "explain": "Saman kierroksen toisesta ase- tai patruunahäiriöstä alkaen kiekkoa ei enää heitetä uudelleen: se on ohi (zero)."
+  },
+  "sp-q017": {
+   "q": "Patruuna ei laukea. Ärtynyt ampuja avaa aseen heti katsoakseen nallia ennen kuin tuomari ehtii paikalle. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Zero (ohi)",
+    "No Bird, kiekko heitetään uudelleen",
+    "No Bird, jos kyseessä on kierroksen ensimmäinen häiriö"
+   ],
+   "explain": "Asehäiriön jälkeen ampujan on pysyttävä paikallaan ase kohti ampuma-aluetta, eikä hän saa avata asetta tai koskea varmistimeen ennen kuin tuomari on tarkastanut sen. Muuten kiekko on ohi (zero)."
+  },
+  "sp-q018": {
+   "q": "Yksittäiskiekko, kierroksen ensimmäinen häiriö. Ensimmäinen piippu ei laukea, mutta ampuja saa ammuttua toisella piipulla ja ampuu ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "No Bird, kiekko heitetään uudelleen",
+    "No Bird, koska ensimmäinen laukaus epäonnistui",
+    "Zero (ohi)"
+   ],
+   "explain": "Ensimmäisen laukauksen häiriö on yleensä No Bird, mutta jos ampuja ampuu silti toisen laukauksen, se lasketaan ja kiekko kirjataan tuloksen mukaan: tässä ohi (zero)."
+  },
+  "sp-q019": {
+   "q": "Yksittäiskiekko. Ensimmäinen laukaus menee ohi ja toinen patruuna ei laukea (kierroksen ensimmäinen häiriö), joten kiekko heitetään uudelleen. Uusinnassa ampuja rikkoo kiekon ensimmäisellä laukauksella. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Zero (ohi)",
+    "One (osuma)",
+    "No Bird, heitetään vielä uudelleen"
+   ],
+   "explain": "Kun yksittäiskiekossa toinen laukaus on häiriytynyt, uusinnan kiekon saa rikkoa vain toisella laukauksella. Ensimmäisellä laukauksella rikottu on ohi (zero), joten ampujan on ensin tarkoituksella ammuttava ohi."
+  },
+  "sp-q020": {
+   "q": "Peräkkäinen kaksoiskiekko, kierroksen ensimmäinen häiriö: molemmat piiput laukeavat samanaikaisesti ensimmäiseen kiekkoon. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Ensimmäinen kiekko kirjataan, toinen heitetään uudelleen",
+    "Zero ja zero",
+    "Koko kaksoiskiekko heitetään uudelleen, mitään ei kirjata"
+   ],
+   "explain": "Laukauksesta lähtevän kaksoiskiekon ensimmäisessä kiekossa sekä yhtäaikaisessa ja peräkkäisessä kaksoiskiekossa samanaikainen laukeaminen tarkoittaa, että koko kaksoiskiekko heitetään uudelleen eikä tulosta kirjata."
+  },
+  "sp-q021": {
+   "q": "Yhtäaikainen kaksoiskiekko. Ampujalla on jo ollut yksi asehäiriö aiemmin tällä kierroksella. Nyt ensimmäinen patruuna ei taas laukea, eikä hän ammu. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Zero ja zero",
+    "Zero toisesta kiekosta, toinen heitetään uudelleen",
+    "Kaksoiskiekko heitetään uudelleen"
+   ],
+   "explain": "Kierroksen toisesta häiriöstä alkaen uusintaa ei ole. Yhtäaikaisessa tai peräkkäisessä kaksoiskiekossa toinen häiriö ensimmäisessä laukauksessa antaa zero ja zero."
+  },
+  "sp-q022": {
+   "q": "Rataosuuden ensimmäisellä ampumapaikalla ampuja pyytää kiekkoa ase jo olkapäällä ennen kiekon ilmestymistä. Se on hänen ensimmäinen rikkeensä tällä rataosuudella. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Ei toimenpiteitä; aseen asento on sportingissa vapaa",
+    "Suullinen varoitus ja keltainen kortti",
+    "Punainen kortti ja zero"
+   ],
+   "explain": "Aseen nostaminen ennen kiekon ilmestymistä tai sääntöjen kohdan 3.1 valmiusasennon laiminlyönti tuo ensimmäisellä kerralla suullisen varoituksen ja keltaisen kortin."
+  },
+  "sp-q023": {
+   "q": "Sama rataosuus, kaksi ampumapaikkaa myöhemmin: sama ampuja pyytää taas yksittäiskiekkoa tukki liivin merkkiviivan yläpuolella. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Punainen kortti; kiekko heitetään uudelleen",
+    "Punainen kortti; kiekko on ohi (zero)",
+    "Uusi keltainen kortti"
+   ],
+   "explain": "Ensimmäisen varoituksen jälkeen jokaisesta uudesta rikkeestä samalla rataosuudella seuraa punainen kortti, ja yksittäiskiekossa kiekko on ohi (zero)."
+  },
+  "sp-q024": {
+   "q": "Ampuja, jolla on jo keltainen kortti aseen asennosta tällä rataosuudella, aloittaa laukauksesta lähtevän kaksoiskiekon ase nostettuna ennen ensimmäisen kiekon ilmestymistä. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Punainen kortti: zero ensimmäisestä, toinen kirjataan tuloksen mukaan",
+    "Punainen kortti: zero ja No Bird",
+    "Zero ja zero"
+   ],
+   "explain": "Toistuvasta rikkeestä samalla rataosuudella annetaan punainen kortti: yksittäiskiekossa zero, laukauksesta lähtevässä kaksoiskiekossa zero ja No Bird, yhtäaikaisessa ja peräkkäisessä kaksoiskiekossa zero ja zero."
+  },
+  "sp-q025": {
+   "q": "Tuomari huutaa 'No Bird' yksittäiskiekossa, mutta ampuja ampuu kiekkoa silti. Hän tekee niin ensimmäistä kertaa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Varoitus; kiekko heitetään uudelleen",
+    "One, jos hän osuu",
+    "Heti zero"
+   ],
+   "explain": "Julistettua No Birdia ei saa koskaan ampua. Ensimmäisellä kerralla ampuja saa varoituksen; vasta varoituksen jälkeen sovelletaan kohdan 12.2 zero-rangaistuksia."
+  },
+  "sp-q026": {
+   "q": "Ampuja, joka on jo kerran saanut varoituksen No Birdin ampumisesta, ampuu taas tuomarin huudettua 'No Bird' yhtäaikaisessa kaksoiskiekossa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Toinen varoitus; kaksoiskiekko heitetään uudelleen",
+    "Zero ja No Bird",
+    "Zero ja zero"
+   ],
+   "explain": "Varoituksen jälkeen julistetun No Birdin ampuminen rangaistaan kohdan 12.2 mukaan: yhtäaikaisessa ja peräkkäisessä kaksoiskiekossa se on zero ja zero."
+  },
+  "sp-q027": {
+   "q": "Kahden yksittäiskiekon välissä ampuja korjaa liiviään, puhdistaa lasejaan ja käyttää noin 25 sekuntia ennen kiekon pyytämistä. Tänään se tapahtuu ensimmäistä kertaa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Ei mitään; aikarajaa ei ole",
+    "Zero seuraavasta kiekosta",
+    "Varoitus"
+   ],
+   "explain": "Raja on 15 sekuntia yksittäiskiekkojen tai kaksoiskiekkojen välillä. Ensimmäisestä ylityksestä seuraa varoitus; sen jälkeen sovelletaan kohdan 12.2 rangaistuksia."
+  },
+  "sp-q028": {
+   "q": "Kun ampujan nimi huudetaan, hän astuu ampumapaikalle ilman ampumalaseja ja sanoo unohtaneensa ne autoon. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Välitön kilpailusta sulkeminen",
+    "Hän saa ampua tämän ampumapaikan ja hakea ne sitten",
+    "Hänet katsotaan poissaolevaksi, ja myöhästymistä/poissaoloa koskeva sääntö (16.7) pätee"
+   ],
+   "explain": "Ampumalasit ovat pakolliset ilman poikkeuksia. Ilman niitä ampumapaikalle tullut ampuja katsotaan poissaolevaksi, ja sovelletaan kohtaa 16.7."
+  },
+  "sp-q029": {
+   "q": "Tuomari kirjaa kiekon ohi (zero). Toinen erän jäsen sanoo kysymättä kovaan ääneen: 'Selvä osuma, näin palan!' Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Tuomarin on muutettava ratkaisu osumaksi (one)",
+    "Ratkaisu pysyy; erän jäsenet eivät saa puuttua, ja avoin arvostelu katsotaan tuomariin vaikuttamiseksi",
+    "Kiekosta tulee No Bird"
+   ],
+   "explain": "Tuomari ratkaisee yksin; erän jäsenillä ei ole oikeutta kommentoida. Muiden avoin arvostelu ilman lupaa on yritys vaikuttaa tuomariin (luvun 13 rangaistukset)."
+  },
+  "sp-q030": {
+   "q": "Ampuja uskoo, että hänen viimeinen kiekkonsa oli osuma, mutta ei sano mitään, pyytää seuraavaa kiekkoa ja vasta sitten protestoi edellisestä. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Protesti menee jurylle",
+    "Protesti käsitellään ja tuomari harkitsee uudelleen",
+    "Liian myöhään: pyytämällä seuraavaa kiekkoa hän hyväksyi ratkaisun"
+   ],
+   "explain": "Pyytämällä seuraavaa kiekkoa ampuja hyväksyy tuomarin ratkaisun edellisestä; vastalause on esitettävä ennen sitä."
+  },
+  "sp-q031": {
+   "q": "Sivukiekko rikkoutuu juuri puun takana. Tuomari katsoo, että se ammuttiin luonnollisen esteen takana, ja kirjaa sen ohi (zero). Ampuja haluaa valittaa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Kiekko heitetään uudelleen No Birdina",
+    "Tästä ratkaisusta ei voi valittaa",
+    "Kirjallinen vetoomus jurylle 40 %:n vakuudella"
+   ],
+   "explain": "Ampujan vastuulla on rikkoa kiekot siellä, missä tuomari näkee ne. Ratkaisusta, jonka mukaan kiekko ammuttiin esteen takana tai rajan ulkopuolella, ei voi valittaa."
+  },
+  "sp-q032": {
+   "q": "Ampuja saapuu rataosuudelle, kun hänen eränsä ampuu vielä ampumapaikan 1 yksittäiskiekkoja, eikä hänen vuoronsa ole vielä tullut. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Hänen ampumapaikan 1 yksittäiskiekkonsa ovat ohi (zero)",
+    "Hänen on ammuttava rataosuus toisessa erässä",
+    "Hän liittyy erään ilman rangaistusta"
+   ],
+   "explain": "Myöhästynyt ampuja, joka saapuu ennen kuin hänen vuoronsa ensimmäisen ampumapaikan yksittäiskiekoissa on mennyt ohi, liittyy erään ilman rangaistusta."
+  },
+  "sp-q033": {
+   "q": "Tuomari huusi ampujan nimen ja numeron kolme kertaa minuutin aikana. Hän saapuu, kun erä siirtyy ampumapaikalle 2. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Hän saa ampua koko rataosuuden uudelleen toisessa erässä",
+    "Hän ampuu ampumapaikan 1 muiden jälkeen ja jatkaa sitten",
+    "Hän jatkaa ampumapaikalta 2; kaikki ampumapaikan 1 kiekot ovat ohi (zero)"
+   ],
+   "explain": "Myöhemmällä ampumapaikalla liittyvältä kaikki aiempien ampumapaikkojen ampumatta jääneet kiekot ovat ohi (zero), eikä rataosuutta, jolta on jäänyt ampumapaikkoja väliin, voi koskaan ampua toisessa erässä."
+  },
+  "sp-q034": {
+   "q": "Montako kiekkoa yksi sporting-rataosuus antaa, ja miten ne jakautuvat?",
+   "options": [
+    "25: 15 yksittäiskiekkoa ja 5 kaksoiskiekkoa",
+    "25: 10 yksittäiskiekkoa ja 5 kaksoiskiekkoa sekä 5 jänistä",
+    "20: 10 yksittäiskiekkoa ja 5 kaksoiskiekkoa",
+    "30: 20 yksittäiskiekkoa ja 5 kaksoiskiekkoa"
+   ],
+   "explain": "Jokainen rataosuustyyppi antaa 25 kiekkoa: 15 yksittäiskiekkoa ja 5 kaksoiskiekkoa (15 + 10 = 25)."
+  },
+  "sp-q035": {
+   "q": "Kuinka paljon olkalinjan alapuolelle ampujan liivin merkkiviiva piirretään?",
+   "options": [
+    "15 cm",
+    "20 cm",
+    "25 cm",
+    "30 cm"
+   ],
+   "explain": "Viiva on 25 cm (9,85 tuumaa) olkalinjan alapuolella, sen suuntainen ja kontrastivärinen."
+  },
+  "sp-q036": {
+   "q": "Kuinka monen sekunnin kuluessa tuomarin merkistä kiekko on heitettävä?",
+   "options": [
+    "1 sekunnin",
+    "3 sekunnin",
+    "5 sekunnin",
+    "10 sekunnin"
+   ],
+   "explain": "Kiekko on heitettävä kolmen sekunnin kuluessa tuomarin äänimerkistä; myöhemmin tullut kiekko on No Bird."
+  },
+  "sp-q037": {
+   "q": "Milloin laukauksesta lähtevän kaksoiskiekon toinen kiekko heitetään?",
+   "options": [
+    "Täsmälleen samaan aikaan kuin ensimmäinen",
+    "0–3 sekuntia ensimmäiseen kiekkoon ammutun laukauksen jälkeen",
+    "3–5 sekuntia ensimmäisen kiekon heittämisen jälkeen",
+    "Kun ampuja pyytää toisen kerran"
+   ],
+   "explain": "Laukauksesta lähtevän kaksoiskiekon toinen kiekko heitetään 0–3 sekuntia sen jälkeen, kun ampuja on ampunut ensimmäistä; laukaus laukaisee sen."
+  },
+  "sp-q038": {
+   "q": "Mikä on suurin sallittu aika yksittäiskiekkojen tai kaksoiskiekkojen välillä?",
+   "options": [
+    "10 sekuntia",
+    "15 sekuntia",
+    "30 sekuntia",
+    "1 minuutti"
+   ],
+   "explain": "Ampujalla on enintään 15 sekuntia; ensimmäisestä ylityksestä seuraa varoitus, sitten sovelletaan kohdan 12.2 rangaistuksia."
+  },
+  "sp-q039": {
+   "q": "Kuinka monen sekunnin kuluessa tuomarin lopullisesta protestiratkaisusta ampujan on jatkettava ampumista?",
+   "options": [
+    "5 sekunnin",
+    "15 sekunnin",
+    "30 sekunnin",
+    "60 sekunnin"
+   ],
+   "explain": "Ampujan on jatkettava 15 sekunnin kuluessa; muuten se katsotaan kieltäytymiseksi noudattaa ohjeita, ja sovelletaan luvun 13 rangaistuksia."
+  },
+  "sp-q040": {
+   "q": "Mikä on sporting-patruunan suurin haulilataus?",
+   "options": [
+    "24 g",
+    "28 g (toleranssi +2 %)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Lataus saa olla enintään 28 g lyijyä, ja suurin toleranssi on +2 %."
+  },
+  "sp-q041": {
+   "q": "Mikä haulien halkaisija on sallittu?",
+   "options": [
+    "1,5–2,0 mm",
+    "2,0–2,5 mm (±0,1 mm)",
+    "2,5–3,0 mm",
+    "Mikä tahansa koko 3,5 mm:iin asti"
+   ],
+   "explain": "Haulien on oltava pallomaisia, halkaisijaltaan 2,0–2,5 mm, toleranssi ±0,1 mm."
+  },
+  "sp-q042": {
+   "q": "Mikä on piippujen vähimmäispituus ja suurin sallittu kaliiperi?",
+   "options": [
+    "60 cm, kaliiperi 10",
+    "66 cm, kaliiperi 12",
+    "71 cm, kaliiperi 12",
+    "76 cm, kaliiperi 20"
+   ],
+   "explain": "Piippujen on oltava vähintään 66 cm pitkät, eikä kaliiperi saa olla suurempi kuin 12."
+  },
+  "sp-q043": {
+   "q": "Montako patruunaa puoliautomaattihaulikossa saa olla ampumapaikalla?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "Niin monta kuin lippaaseen mahtuu"
+   ],
+   "explain": "Puoliautomaattihaulikossa saa olla enintään kaksi patruunaa, ja se ladataan vain ampumapaikalla tuomarin luvalla."
+  },
+  "sp-q044": {
+   "q": "Mikä vakuus on liitettävä kirjalliseen vetoomukseen jurylle?",
+   "options": [
+    "20 % osallistumismaksusta",
+    "40 % osallistumismaksusta",
+    "50 % osallistumismaksusta",
+    "Koko osallistumismaksu"
+   ],
+   "explain": "Vetoomus jurylle tehdään kirjallisesti, ja sen mukana maksetaan vakuus, joka on 40 % osallistumismaksusta."
+  },
+  "sp-q045": {
+   "q": "Montako ampujaa erässä on enintään?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Erässä on enintään kuusi ampujaa, ja erät muodostetaan arvalla."
+  },
+  "sp-q046": {
+   "q": "Montako kiekkoa kansainvälisessä sporting-kilpailussa ammutaan?",
+   "options": [
+    "100",
+    "150",
+    "200",
+    "250"
+   ],
+   "explain": "Kansainvälinen kilpailu on 200 kiekkoa, jotka ammutaan 25 kiekon kierroksina; vain jury voi muuttaa tätä poikkeustapauksissa."
+  },
+  "sp-q047": {
+   "q": "Kuinka pitkän keskeytyksen jälkeen tuomarin on näytettävä ampumapaikan kiekot ampujille uudelleen?",
+   "options": [
+    "Yli 5 minuutin",
+    "Yli 10 minuutin",
+    "Yli 15 minuutin",
+    "Yli 30 minuutin"
+   ],
+   "explain": "Jos heitin rikkoutuu tai ammunta keskeytyy yli 10 minuutiksi, kyseisen ampumapaikan kiekot näytetään uudelleen."
+  },
+  "sp-q048": {
+   "q": "Miten tuomari kutsuu ampujaa, joka ei ole ampumapaikalla?",
+   "options": [
+    "Nimellä kerran, sitten ampuja on poissa",
+    "Nimellä ja numerolla 3 kertaa 1 minuutin aikana",
+    "Nimellä ja numerolla 3 kertaa 3 minuutin aikana",
+    "Kaiuttimella, ja odotetaan 5 minuuttia"
+   ],
+   "explain": "Tuomari huutaa ampujan nimen ja numeron kolme kertaa yhden minuutin aikana."
+  },
+  "sp-q049": {
+   "q": "Montako kertaa ampumapaikalla oleva ampuja voi näytön aikana pyytää näkemään kiekon uudelleen?",
+   "options": [
+    "Kerran ampumapaikkaa kohden",
+    "Enintään 2 kiekkoa kutakin kiekkoluettelon kiekkoa kohden",
+    "Enintään 3 kiekkoa heitintä kohden",
+    "Niin usein kuin tarvitaan"
+   ],
+   "explain": "Pyynnöstä tuomari toistaa näytön, enintään kaksi kiekkoa kutakin kiekkoluettelon kiekkoa kohden."
+  },
+  "sp-q050": {
+   "q": "Kuinka nopeasti kutsumisen jälkeen ampujien on oltava valmiina ennalta aikatauluttamattomaan uusintakierrokseen?",
+   "options": [
+    "5 minuutissa",
+    "15 minuutissa",
+    "30 minuutissa",
+    "1 tunnissa"
+   ],
+   "explain": "Ampujien on pidettävä yhteyttä juryyn, jotta he voivat ampua 15 minuutin kuluessa kutsusta; poissaoleva hylätään."
+  },
+  "sp-q051": {
+   "q": "Liitto haluaa järjestää kansainvälisen mestaruuskilpailun radalla, jota ei ole vielä hyväksytty. Kuinka paljon etukäteen rata on esiteltävä FITASCille?",
+   "options": [
+    "Vähintään 3 kuukautta",
+    "Vähintään 6 kuukautta",
+    "Vähintään 8 kuukautta",
+    "Vähintään 12 kuukautta"
+   ],
+   "explain": "Rata ja järjestelysuunnitelma on esiteltävä FITASCin edustajalle vähintään kahdeksan kuukautta ennen kilpailua."
+  },
+  "sp-q052": {
+   "q": "Kuinka suuri osuus kiekoista keskivertoampujan on rikottava, jotta lentorata on luokkaa B?",
+   "options": [
+    "Yli 80 %",
+    "60–80 %",
+    "40–60 %",
+    "Alle 40 %"
+   ],
+   "explain": "Luokka A on yli 80 %, luokka B 60–80 % ja luokka C 40–60 %. Suositeltu yhdistelmä ampumapaikalle on yksi A, kaksi B ja yksi C."
+  },
+  "sp-q053": {
+   "q": "Kuinka kauan FITASC säilyttää tiedon kilpailusta sulkemisesta, ja minkä ajan kuluessa toinen sulkeminen voi johtaa pysyvään kilpailukieltoon?",
+   "options": [
+    "Säilytetään 3 vuotta; toinen 1 vuoden kuluessa",
+    "Säilytetään 5 vuotta; toinen 3 vuoden kuluessa",
+    "Säilytetään 10 vuotta; toinen 5 vuoden kuluessa",
+    "Säilytetään pysyvästi; mikä tahansa toinen sulkeminen"
+   ],
+   "explain": "Tieto säilytetään viisi vuotta; toinen sulkeminen kolmen vuoden kuluessa voi johtaa pysyvään kilpailukieltoon, josta päättää vain FITASCin johtokunta."
+  },
+  "sp-q054": {
+   "q": "Koska sporting jäljittelee metsästystä, sporting-kilpailuun voi sisältyä ammuntaa eläviin eläimiin.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Sportingissa ammutaan keinotekoisia kiekkoja, eikä eläviin eläimiin ampuminen ole sallittua tässä lajissa."
+  },
+  "sp-q055": {
+   "q": "Pumppuhaulikko on sallittu sportingissa, kunhan sen kaliiperi on 12 tai pienempi.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Mitä tahansa metsästyshaulikkoa, myös puoliautomaattia, saa käyttää, mutta pumppuhaulikot eivät ole sallittuja."
+  },
+  "sp-q056": {
+   "q": "Kaksoiskiekon ensimmäisen ja toisen kiekon välillä ampuja saa pitää asetta missä asennossa tahansa.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Tosi laukauksesta lähtevissä, yhtäaikaisissa ja peräkkäisissä kaksoiskiekoissa. Vapaa asento koskee vain kahden kiekon väliä; ennen ensimmäistä kiekkoa valmiusasento vaaditaan edelleen."
+  },
+  "sp-q057": {
+   "q": "Jäniskiekkoa saa ampua lantiolta, koska se kulkee maata pitkin.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Jokainen kiekko, myös jänis, on ammuttava ase olkapäälle nostettuna."
+  },
+  "sp-q058": {
+   "q": "Näytön aikana laukauksesta lähtevät kaksoiskiekot näytetään erän ensimmäiselle ampujalle.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Laukauksesta lähteviä kaksoiskiekkoja ei näytetä; vain yhtäaikaiset ja peräkkäiset kaksoiskiekot näytetään, ja pyynnöstä enintään kaksi kertaa uudelleen."
+  },
+  "sp-q059": {
+   "q": "Ampuja saa ampua ensimmäisellä ampumapaikalla yhden koelaukauksen tarkistaakseen, toimiiko juuri korjattu ase.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Aseita ei saa koskaan koeampua ampumapaikalla; käytä klubitalon lähellä olevaa koeampumapaikkaa ennen rataosuudelle menoa."
+  },
+  "sp-q060": {
+   "q": "Kierroksen aikana ampuja saa vaihtaa supistajan yksittäiskiekkojen ja kaksoiskiekkojen välillä, kunhan siitä ei aiheudu viivettä.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Tosi. Aseen, irrotettavan supistajan tai piipun saa vaihtaa ampumapaikkojen välillä tai yksittäis- ja kaksoiskiekkojen välillä viivyttelemättä, mutta ei koskaan silloin, kun ampuja on ampumapaikalla."
+  },
+  "sp-q061": {
+   "q": "Virallisessa kilpailussa kaksi saman erän ampujaa saa käyttää yhteistä asetta, jos molemmat suostuvat.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Kaksi saman erän ampujaa ei saa käyttää samaa asetta virallisessa kilpailussa. Lainaaminen on poikkeus vain aserikon jälkeen kierroksen loppuun ampumiseksi."
+  },
+  "sp-q062": {
+   "q": "Kuulosuojaimet ovat pakolliset paitsi ampujille myös tuomareille, henkilökunnalle ja katsojille rataosuudella tai sen lähellä.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Tosi. Kaikkien rataosuudella tai sen lähellä olevien on käytettävä kuulosuojaimia; ilman niitä oleva ampuja katsotaan poissaolevaksi (16.7)."
+  },
+  "sp-q063": {
+   "q": "Kilpailusta suljetulle ampujalle palautetaan ampumatta jääneiden kiekkojen osallistumismaksu.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Suljettu ampuja ei saa palautusta eikä minkäänlaista taloudellista korvausta."
+  },
+  "sp-q064": {
+   "q": "Sudden death -uusintakierroksella laukauksesta lähtevässä kaksoiskiekossa 'one-zero' ja 'zero-one' ovat samanarvoiset.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Tosi. Vain sudden deathissa laukauksesta lähtevä kaksoiskiekko lasketaan kahden kiekon parina riippumatta siitä, kumpi meni ohi."
+  },
+  "sp-q065": {
+   "q": "Kun kaksi joukkuetta on tasoissa, ne ampuvat joukkueuusinnan uudella rataosuudella.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Joukkueuusintaa ei ole: joukkueet järjestetään 8. rataosuuden yhteistuloksen mukaan, sitten Count Back -säännöllä 7. rataosuudesta 1. rataosuuteen."
+  },
+  "sp-q066": {
+   "q": "Mistä näistä tuomarin ratkaisuista VOI tehdä vetoomuksen jurylle?",
+   "options": [
+    "Oliko kiekko 'one' vai 'zero'",
+    "Oliko kiekko No Bird",
+    "Oliko lentorata oikea",
+    "Punaisesta kortista aseen asennon vuoksi"
+   ],
+   "explain": "Lentorataa, No Birdia ja one/zero-ratkaisuja ei voi viedä jurylle. Muista tuomarin ratkaisuista voi tehdä kirjallisen vetoomuksen 40 %:n vakuudella."
+  },
+  "sp-q067": {
+   "q": "Jury hylkää ampujan vetoomuksen. Mitä vakuudelle tapahtuu?",
+   "options": [
+    "Se menee järjestävälle seuralle",
+    "Se menee FITASCin puheenjohtajan valitsemalle hyväntekeväisyyskohteelle",
+    "Se palautetaan joka tapauksessa",
+    "Se lisätään palkintorahastoon"
+   ],
+   "explain": "Jos vetoomus hyväksytään, vakuus palautetaan; jos ei, se menee FITASCin puheenjohtajan valitsemalle hyväntekeväisyyskohteelle."
+  },
+  "sp-q068": {
+   "q": "Miten ampuja protestoi oikein ratkaisusta ampumapaikalla?",
+   "options": [
+    "Kävelee hakemaan kiekon ja näyttää sen tuomarille",
+    "Ampuu ampumapaikan loppuun ja puhuu sitten tuomarille",
+    "Nostaa heti käden ja sanoo 'appeal' tai 'protest'",
+    "Pyytää erää äänestämään"
+   ],
+   "explain": "Protesti on tehtävä heti ampumapaikalla nostamalla käsi ja sanomalla 'appeal' tai 'protest'. Ampujat eivät saa koskaan poistua paikaltaan tai hakea kiekkoa."
+  },
+  "sp-q069": {
+   "q": "Tuomari on epävarma ratkaisusta. Keneltä hän voi kysyä, ja mikä on sen vaikutus?",
+   "options": [
+    "Toiselta tuomarilta, heitinten operaattorilta tai erän ampujilta, vain neuvoksi; sen jälkeen hänen ratkaisunsa on lopullinen",
+    "Vain juryltä; sen kanta on sitova",
+    "Ei keneltäkään; hänen on julistettava No Bird",
+    "Ampujan valmentajalta, jonka kanta ratkaisee"
+   ],
+   "explain": "Tuomari voi kysyä neuvoa toiselta tuomarilta, heitinten operaattorilta tai erän ampujilta, mutta heidän mielipiteensä eivät sido häntä, ja hänen ratkaisunsa on sen jälkeen lopullinen."
+  },
+  "sp-q070": {
+   "q": "Miten ampumapaikan heittimet merkitään?",
+   "options": [
+    "Kiekon värin mukaan",
+    "Kirjaimin oikealta vasemmalle heitinten operaattorin suunnasta katsottuna",
+    "Kirjaimin A, B, C, D vasemmalta oikealle ampumapaikalta katsottuna",
+    "Numeroin 1–4 ampumajärjestyksessä"
+   ],
+   "explain": "Heittimet merkitään kirjaimilla A, B, C ja D vasemmalta oikealle ampumapaikalta katsottuna; kiekkoluettelo ja tuloskortti käyttävät niitä."
+  },
+  "sp-q071": {
+   "q": "Ampumapaikalla on 3 heitintä ja 2 kaksoiskiekkoa. Mikä yhdistelmä EI ole sallittu?",
+   "options": [
+    "Kaksi yhtäaikaista kaksoiskiekkoa",
+    "Kaksi peräkkäistä kaksoiskiekkoa",
+    "Yksi yhtäaikainen ja yksi peräkkäinen kaksoiskiekko",
+    "Kaksi laukauksesta lähtevää kaksoiskiekkoa"
+   ],
+   "explain": "Tällaisella ampumapaikalla kaksoiskiekot voivat olla yhtäaikaisia, peräkkäisiä tai molempia, mutta kaksi laukauksesta lähtevää kaksoiskiekkoa ei ole sallittu."
+  },
+  "sp-q072": {
+   "q": "Mikä sääntö koskee kaksoiskiekkojen kokoamista ampumapaikalla?",
+   "options": [
+    "C-luokan lentorata saa esiintyä kaksoiskiekoissa vain kerran, mieluiten A-luokan kiekon parina",
+    "Kaksoiskiekkojen on aina oltava laukauksesta lähteviä",
+    "Kaksoiskiekoissa saa käyttää uusia lentoratoja, joita ei näytetty yksittäiskiekkoina",
+    "Kaksi C-luokan kiekkoa on paras kaksoiskiekko"
+   ],
+   "explain": "Kaksoiskiekoissa käytetään vain kiekkoja, jotka on jo ammuttu yksittäiskiekkoina samalta ampumapaikalta; C-luokka saa esiintyä vain kerran, mieluiten A:n parina. B + B ja B + A ovat sallittuja."
+  },
+  "sp-q073": {
+   "q": "Mikä näistä EI ole juryn rangaistus toistuvasta rikkeestä, ohjeiden noudattamatta jättämisestä tai tuomariin vaikuttamisesta?",
+   "options": [
+    "Kilpailusta sulkeminen",
+    "Yhden kiekon menetys",
+    "25 kiekon kierroksen menetys",
+    "Rahasakko"
+   ],
+   "explain": "Juryn asteikko on yhden kiekon menetys, 25 kiekon kierroksen menetys tai kilpailusta sulkeminen. Rahasakkoa siinä ei ole."
+  },
+  "sp-q074": {
+   "q": "Kierroksen aikana valmentaja ampumapaikan takana neuvoo jatkuvasti ampujaansa, mihin aloittaa. Mitä tuomari tekee?",
+   "options": [
+    "Keltainen kortti kilpailijalle, ja valmentaja poistetaan ampuma-alueelta",
+    "Ampuja suljetaan heti kilpailusta",
+    "Zero ampujan seuraavasta kiekosta",
+    "Ei mitään; valmentaminen on sallittu kiekkojen välillä"
+   ],
+   "explain": "Valmentaminen kilpailun aikana on kielletty: kilpailija saa keltaisen kortin (toistuvat rikkeet käsitellään luvun 13 mukaan), ja valmentaja poistetaan ampuma-alueelta."
+  },
+  "sp-q075": {
+   "q": "Ampujan ase rikkoutuu ampumapaikalla 2, eikä sitä saa nopeasti korjattua. Mitä hän saa tehdä?",
+   "options": [
+    "Käyttää heitinten operaattorin asetta kysymättä",
+    "Jättää ampumapaikan väliin ja kirjauttaa sen kiekot No Birdeiksi",
+    "Ampua koko rataosuuden myöhemmin uudelleen valitsemassaan erässä",
+    "Tuomarin suostumuksella jatkaa heti toisella aseella, esim. omistajan luvalla lainatulla"
+   ],
+   "explain": "Jos asetta ei saa korjattua, ampuja voi tuomarin suostumuksella jatkaa erän mukana hankkimalla heti toisen aseen; muuten hän ampuu loppuun vapaalla paikalla toisessa erässä vain juryn luvalla."
+  },
+  "sp-q076": {
+   "q": "Päästöliipaisinta käyttävän ampujan ensimmäinen kiekko julistetaan No Birdiksi. Mitä hänen on tehtävä?",
+   "options": [
+    "Päästettävä liipaisin heti ja avattava ase",
+    "Pidettävä liipaisin painettuna ja pyydettävä uusi kiekko, avattava ase liipaisinta yhä pitäen tai ammuttava tuomarin osoittamaan turvalliseen suuntaan",
+    "Annettava ase tuomarille",
+    "Ammuttava maahan ampumapaikan eteen"
+   ],
+   "explain": "Hänen on pidettävä liipaisin painettuna ja valittava yksi kolmesta turvallisesta vaihtoehdosta: pyytää uusi kiekko, avata ase liipaisinta pitäen tai ampua tuomarin osoittamaan turvalliseen suuntaan."
+  },
+  "sp-q077": {
+   "q": "Mitä tuomarin on tehtävä tuloskortille ennen kuin erä siirtyy seuraavalle ampumapaikalle?",
+   "options": [
+    "Lähetettävä se lähetin mukana tulostaululle",
+    "Allekirjoitutettava se jokaisella ampujalla",
+    "Annettava se jurylle",
+    "Valokuvattava se ja merkittävä tähti sen kantavan ampujan nimen eteen"
+   ],
+   "explain": "Tuomari valokuvaa kortin ja merkitsee tähden sen kilpailijan nimen eteen, jolle kortti uskotaan; jokaisella ampumapaikalla käytetään eriväristä kynää."
+  },
+  "sp-q078": {
+   "q": "Mikä asu on kilpailijalle hyväksyttävä?",
+   "options": [
+    "Bermudashortsit, T-paita ja sandaalit",
+    "Lyhyet juoksushortsit ja T-paita",
+    "Skeet-liivi ilman mitään sen alla",
+    "Pitkät bermudashortsit, jotka päättyvät 4 cm polven yläpuolelle, lyhythihainen pikeepaita ja umpinaiset kengät"
+   ],
+   "explain": "Vain pitkät bermudashortsit, jotka päättyvät enintään 5 cm polven yläpuolelle, hyväksytään; paidoissa on oltava vähintään lyhyet hihat ja kaulus tai pyöreä pääntie; liiviä ei saa käyttää paljaalla iholla; ei sandaaleja."
+  },
+  "sp-q079": {
+   "q": "Kaksi ampujaa on tasoissa 5. sijasta. Miten heidän järjestyksensä ratkaistaan?",
+   "options": [
+    "Sudden death -uusintakierroksella",
+    "Arvonnalla",
+    "25 kiekon uusintakierroksella",
+    "He jakavat sijan ja heidät listataan Count Back -säännöllä rataosuudesta 8 rataosuuteen 1"
+   ],
+   "explain": "Uusintakierrokset ammutaan vain kolmesta ensimmäisestä sijasta. Kolmannen sijan jälkeen tasoissa olevat jakavat sijan ja heidät listataan Count Back -säännöllä 8. rataosuudesta 1. rataosuuteen."
+  },
+  "sp-q080": {
+   "q": "Ampumapaikan tuomarin mielestä yksi lentorata on liian helppo. Voiko hän muuttaa sitä?",
+   "options": [
+    "Ei; hän saa vain palauttaa virheellisen lentoradan heitinhäiriön tai poikkeuksellisen sään jälkeen, jos kiekko ei näy tai on vaarallinen",
+    "Kyllä, ilmoitettuaan päätuomarille",
+    "Kyllä, jos erä suostuu",
+    "Kyllä, kierrosten välillä"
+   ],
+   "explain": "Juryn ja ratasuunnittelijoiden asettamat lentoradat ovat kiinteät. Tuomari saa palauttaa virheellisen lentoradan vain heitinhäiriön tai poikkeuksellisen sään jälkeen; ratasuunnittelijan tai juryn jäsenen tulisi tarkastaa se."
+  },
+  "cs-q001": {
+   "q": "Käsilaukaisussa kiekko lähtee heittimestä noin 4 sekuntia ampujan pyynnön jälkeen. Ampuja laukaisee ja ampuu ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "NO BIRD — heitetään uusi kiekko",
+    "ZERO ja varoitus hitaasta ampumisesta",
+    "Ampuja voi halutessaan pitää tuloksen"
+   ],
+   "explain": "Käsilaukaisussa kiekon on lähdettävä 0–3 sekunnin kuluessa pyynnöstä; yli 3 sekuntia myöhemmin lähtenyt kiekko on NO BIRD."
+  },
+  "cs-q002": {
+   "q": "Kuinka leveä on pakollinen suorakulmio (ABCD), jonka yli Compak-kiekkojen on lennettävä?",
+   "options": [
+    "25–30 m",
+    "35–40 m",
+    "40–50 m",
+    "tasan 30 m"
+   ],
+   "explain": "Suorakulmio on vähintään 35 m ja enintään 40 m leveä ja 25 m syvä, ja sen kulmissa on neljä merkkipaalua."
+  },
+  "cs-q003": {
+   "q": "Mikä etäisyys on sallittu vierekkäisten ampumapaikkojen keskipisteiden välillä?",
+   "options": [
+    "1–2 m",
+    "2–5 m",
+    "5–8 m",
+    "vähintään 6 m"
+   ],
+   "explain": "Ampumapaikkoja on viisi, kooltaan 1 m x 1 m, ja vierekkäisten paikkojen keskipisteiden väli on 2–5 m."
+  },
+  "cs-q004": {
+   "q": "Kuinka kaukana suorakulmion sivun AD takana ampumapaikkojen etulinjan on oltava?",
+   "options": [
+    "2–5 m",
+    "4–8 m",
+    "8–12 m",
+    "tasan 10 m"
+   ],
+   "explain": "Ampumapaikkojen etulinja on sivun AD suuntainen ja 4–8 m sen takana, ja ampumapaikka nro 3 on keskitetty sivulle AD."
+  },
+  "cs-q005": {
+   "q": "Kuinka paljon ampumapaikkojen takana olevan heittimen on vähintään oltava ampumapaikkojen tason yläpuolella?",
+   "options": [
+    "2 m",
+    "3 m",
+    "4 m",
+    "6 m"
+   ],
+   "explain": "Ampumapaikkojen takana olevan heittimen on oltava vähintään 4 m ampumapaikkoja korkeammalla eli tornissa."
+  },
+  "cs-q006": {
+   "q": "Mikä on mikrofonilähdön (sonopull) kiinteä viive?",
+   "options": [
+    "0,2 sekuntia",
+    "0,5 sekuntia",
+    "1 sekunti",
+    "säädettävissä 0–3 sekuntia"
+   ],
+   "explain": "Mikrofonilähdön on käytettävä kiinteää, muuttamatonta 0,5 sekunnin viivettä; käsilaukaisun on tapahduttava 0–3 sekunnin kuluessa."
+  },
+  "cs-q007": {
+   "q": "Montako heitintä Compak® Sporting -rataosuudella käytetään?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Compakissa on kuusi heitintä, jotka on merkitty kirjaimin A–F vasemmalta oikealle, ja viisi ampumapaikkaa."
+  },
+  "cs-q008": {
+   "q": "Kansainvälisellä tasolla linjassa ammuttavassa Compakissa käytetään vain mikrofonilähtöä (sonopull) sekä FITASCin hyväksymää elektronista tuomarointia ja tulospalvelua.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Tosi. Linjassa ammuttavissa kansainvälisissä kilpailuissa käytetään vain mikrofonilähtöä yhdessä FITASCin hyväksymän elektronisen tuomaroinnin ja tulospalvelun kanssa."
+  },
+  "cs-q009": {
+   "q": "Yhtäaikaisessa kaksoiskiekossa ampuja rikkoo molemmat kiekot ensimmäisellä patruunallaan. Hänelle käy näin ensimmäistä kertaa tässä Compakissa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE-ONE: molemmat kiekot lasketaan",
+    "ONE ensimmäisestä kiekosta, ZERO toisesta",
+    "NO BIRD: mitään ei kirjata ja kaksoiskiekko heitetään uudelleen",
+    "ZERO-ZERO"
+   ],
+   "explain": "Kun yhtäaikaisen kaksoiskiekon molemmat kiekot rikkoutuvat yhdellä laukauksella, kaksoiskiekko on NO BIRD ja ammutaan uudelleen; sama pätee toisella kerralla. Vasta kolmannella kerralla se kirjataan Zero-Zero."
+  },
+  "cs-q010": {
+   "q": "Ampuja rikkoo samassa Compakissa jo kolmannen kerran yhtäaikaisen kaksoiskiekon molemmat kiekot yhdellä patruunalla. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "NO BIRD — heitetään uusi kiekko",
+    "ONE-ONE",
+    "ZERO-ZERO",
+    "ONE-ZERO"
+   ],
+   "explain": "Ensimmäisellä ja toisella kerralla se on NO BIRD ja kaksoiskiekko heitetään uudelleen; kolmannella kerralla kaksoiskiekko kirjataan Zero-Zero."
+  },
+  "cs-q011": {
+   "q": "Laukauksesta lähtevässä kaksoiskiekossa ensimmäinen laukaus rikkoo ensimmäisen kiekon, ja sen pala rikkoo myös toisen kiekon ilmassa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE-ONE: molemmat kiekot lasketaan",
+    "Ensimmäisen kiekon ONE jää voimaan; kaksoiskiekko heitetään uudelleen toisen kiekon tuloksen ratkaisemiseksi",
+    "Koko kaksoiskiekko on NO BIRD; mitään ei kirjata",
+    "ONE-ZERO"
+   ],
+   "explain": "Jos ensimmäinen kiekko tai sen palat rikkovat toisen ennen toista laukausta, ensimmäisen tulos jää voimaan ja kaksoiskiekko ammutaan uudelleen toisen kiekon tuloksen ratkaisemiseksi."
+  },
+  "cs-q012": {
+   "q": "Yhtäaikaisessa kaksoiskiekossa ampuja ampuu tarkoituksella molemmat patruunat ensimmäiseen kiekkoon varmistaakseen osuman. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE ensimmäisestä kiekosta, toinen heitetään uudelleen",
+    "NO BIRD: kaksoiskiekko heitetään uudelleen",
+    "ZERO-ZERO",
+    "Vain varoitus, tulos jää voimaan"
+   ],
+   "explain": "Kaksoiskiekon kumpaankin kiekkoon saa ampua vain yhden patruunan; ensimmäisen kiekon ampuminen kahdesti on kielletty, ja tuomarien pikaoppaan mukaan tahallinen kaksi laukausta yhteen kiekkoon kirjataan Zero-Zero."
+  },
+  "cs-q013": {
+   "q": "Minkä suorakulmion sivun yli pakollisen peräkiekon (poispäin lentävän kiekon) on lennettävä?",
+   "options": [
+    "AB",
+    "BC",
+    "CD",
+    "DA"
+   ],
+   "explain": "Kolme pakollista lentorataa ovat vasemmalta oikealle (AB, sitten CD), oikealta vasemmalle (CD, sitten AB) ja poispäin sivun BC yli; DA on ampujia kohti oleva sivu."
+  },
+  "cs-q014": {
+   "q": "Missä järjestyksessä ampuja saa ampua yhtäaikaisen kaksoiskiekon kaksi kiekkoa?",
+   "options": [
+    "Aina ensin vasemman kiekon",
+    "Kiekkoluettelossa näkyvässä järjestyksessä",
+    "Kummassa järjestyksessä tahansa",
+    "Ensin aakkosissa aiemman heittimen kiekon"
+   ],
+   "explain": "Yhtäaikainen kaksoiskiekko on kaksi samanaikaisesti kahdesta eri heittimestä heitettyä kiekkoa, ja ampuja saa ampua ne kummassa järjestyksessä tahansa."
+  },
+  "cs-q015": {
+   "q": "Montako juryn jäsentä on oltava paikalla kilpailussa koko ajan?",
+   "options": [
+    "vähintään 1",
+    "vähintään 2",
+    "vähintään 3",
+    "neljäsosa jurysta"
+   ],
+   "explain": "Jokaisella juryn jäsenellä on tunnus, ja vähintään kahden juryn jäsenen on oltava paikalla koko ajan. Neljäsosa jäsenistä (sekä puheenjohtaja) on päätösvaltaisuuden raja, ei läsnäolosääntö."
+  },
+  "cs-q016": {
+   "q": "Ampuja, joka on varma osuneensa ZERO-kirjattuun kiekkoon, voi tehdä jurylle kirjallisen valituksen sen muuttamiseksi.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Sen, osuttiinko kiekkoon vai ei tai oliko kiekko viallinen tai väärällä lentoradalla, ratkaisee yksin tuomari, eikä siitä voi valittaa; muista tuomarin ratkaisuista voi valittaa jurylle."
+  },
+  "cs-q017": {
+   "q": "Ketkä kuuluvat vetoomusjuryyn kansainvälisessä Compak-kilpailussa?",
+   "options": [
+    "Ylituomari ja kaksi juryn jäsentä",
+    "FITASCin puheenjohtaja, teknisen komitean puheenjohtaja ja järjestävän liiton puheenjohtaja (tai heidän edustajansa)",
+    "Yksi edustaja kustakin maajoukkueesta",
+    "FITASCin kurinpitovaliokunta"
+   ],
+   "explain": "Vetoomusjuryssa on kolme jäsentä: FITASCin puheenjohtaja, teknisen komitean puheenjohtaja ja järjestävän liiton puheenjohtaja tai heidän edustajansa; juryn jäsen ei voi kuulua siihen."
+  },
+  "cs-q018": {
+   "q": "Montako 25 kiekon Compakia kansainvälisessä kilpailussa ammutaan?",
+   "options": [
+    "4 (100 kiekkoa)",
+    "6 (150 kiekkoa)",
+    "8 (200 kiekkoa)",
+    "10 (250 kiekkoa)"
+   ],
+   "explain": "Kansainvälisiin kilpailuihin määritellyt neljä Compak-tyyppiä muodostavat yhteensä kahdeksan 25 kiekon Compakia eli 200 kiekkoa."
+  },
+  "cs-q019": {
+   "q": "Montako uutta heitintä on pakollinen Compak® Sporting -maanosa- ja maailmanmestaruuskilpailuissa?",
+   "options": [
+    "24",
+    "36",
+    "48",
+    "60"
+   ],
+   "explain": "Tasapuolisuuden vuoksi isäntäseuran tavallisia heittimiä ei saa käyttää: 48 uutta heitintä, jotka asennetaan ja säädetään vain mestaruuskilpailua varten, on pakollinen."
+  },
+  "cs-q020": {
+   "q": "Milloin kilpailun lentoratoja, heittimiä tai kiekkoluetteloita saa muuttaa?",
+   "options": [
+    "Milloin tahansa juryn harkinnan mukaan",
+    "Vasta kun kaikki ampujat ovat ampuneet kokonaisen kierroksen",
+    "Joka aamu ennen ensimmäistä erää",
+    "Vain tuomarin pyynnöstä"
+   ],
+   "explain": "Muutokset ovat sallittuja vasta, kun kaikki ovat ampuneet kokonaisen kierroksen: 50 kiekkoa kahdella radalla tai 100 kiekkoa neljällä radalla."
+  },
+  "cs-q021": {
+   "q": "Milloin ampujat saavat Compak-maailman- tai maanosamestaruuskilpailussa ensimmäisen kerran harjoitella mestaruuskilpailun heittimillä ja lentoradoilla?",
+   "options": [
+    "Milloin tahansa edeltävällä viikolla",
+    "Virallisesta harjoituksesta alkaen mestaruuskilpailua edeltävänä lauantaina",
+    "Vasta ensimmäisen kilpailupäivän aamuna",
+    "Ei koskaan: harjoitellaan vain muilla radoilla"
+   ],
+   "explain": "Virallinen harjoitus alkaa mestaruuskilpailua edeltävänä lauantaina, eikä kukaan saa harjoitella mestaruuskilpailun heittimillä ja lentoradoilla ennen sitä. Harjoitustaulukoiden on myös erottava kilpailutaulukoista."
+  },
+  "cs-q022": {
+   "q": "Ampuja tulee ampumapaikalle kilpailunumero kiinnitettynä liivin etupuolelle selän sijaan. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Hän ei saa ampua tätä kierrosta",
+    "VAROITUS; lisäseuraamuksia, jos hän ei korjaa asiaa",
+    "Yksi kiekko vähennetään",
+    "Ei mitään: numeron paikka on vapaa"
+   ],
+   "explain": "Numeron on oltava selässä, hartioiden ja vyötärön välissä, kokonaan näkyvissä. Ensimmäisestä rikkeestä seuraa VAROITUS; jos asiaa ei korjata, seuraa lisäseuraamuksia aina juryn päättämään kilpailusta sulkemiseen asti."
+  },
+  "cs-q023": {
+   "q": "Sandaalit sallitaan harjoituksissa mutta ei kilpailussa.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Turvallisuussyistä sandaalit ovat kiellettyjä sekä harjoituksissa että kilpailussa."
+  },
+  "cs-q024": {
+   "q": "Kuka vastaa siitä, että ampuja on ajoissa Compakillaan ja valmiina riittävän patruunamäärän kanssa koko kierrosta varten?",
+   "options": [
+    "Tuomari, joka kutsuu puuttuvat ampujat",
+    "Järjestäjän kanslia",
+    "Ampuja itse",
+    "Erän johtaja"
+   ],
+   "explain": "Julkaistujen ampuma-aikojen noudattaminen on ampujan vastuulla: hänen on ilmoittauduttava tuomarille, oltava heti valmis ampumaan koko kierroksen varusteiden ja patruunoiden kanssa ja seurattava aikataulumuutoksia. Tuomari ei etsi puuttuvia ampujia."
+  },
+  "cs-q025": {
+   "q": "Erämuotoisessa ammunnassa ampuja saapuu Compakille juuri sen jälkeen, kun hänen eränsä ensimmäinen ampuja on pyytänyt kierroksen ensimmäistä kiekkoa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Hän liittyy mukaan ja ampuu vuoronsa",
+    "Hän saa kierroksesta 25 nollaa",
+    "Hän menettää vain jo ammutut kiekot",
+    "Keltainen kortti, sitten hän ampuu"
+   ],
+   "explain": "Takaraja on erän ensimmäisen ampujan ensimmäinen kiekon pyyntö; sen jälkeen saapuvalle kirjataan kierroksesta 25 nollaa (hän voi tehdä jurylle kirjallisen vetoomuksen samana päivänä)."
+  },
+  "cs-q026": {
+   "q": "Ampuja on poissa kilpailun koko ensimmäisen päivän. Mitä tapahtuu?",
+   "options": [
+    "Hän ampuu puuttuvat kierroksensa toisena päivänä",
+    "Hänet poistetaan listalta toisesta päivästä alkaen; ampuakseen hänen on tehtävä vetoomus jurylle",
+    "Hänelle kirjataan 25 nollaa kierrosta kohden ja hän jatkaa",
+    "Hän saa kilpailukiellon FITASCin kilpailuihin"
+   ],
+   "explain": "Ensimmäisenä päivänä poissa ollut ampuja poistetaan listalta toisesta päivästä alkaen; jos hän saapuu ja haluaa ampua, hänen on tehtävä vetoomus jurylle luvun 9 mukaisesti."
+  },
+  "cs-q027": {
+   "q": "Ampuja saa ampua yhden koelaukauksen kilpailun ampumapaikalla ennen kierroksensa alkua.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Aseita saa koeampua vain asevaraston lähelle tätä varten järjestetyllä paikalla, ei koskaan kilpailun ampumapaikalla ennen kierrosta."
+  },
+  "cs-q028": {
+   "q": "Aserikon jälkeen ampuja saa ampua kierroksen loppuun oman eränsä jäsenen aseella, jos omistaja suostuu.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Aseen saa lainata vain ampujalta, joka ei ole samassa ryhmässä tai erässä, omistajan ja tuomarin suostumuksella; saman ryhmän ampujat eivät saa käyttää yhteistä asetta."
+  },
+  "cs-q029": {
+   "q": "Kun uusintakierrokselle ei ole määrätty aikaa, kuinka monen minuutin kuluessa kutsusta ampujien on oltava valmiina?",
+   "options": [
+    "alle 5 minuutin",
+    "alle 15 minuutin",
+    "alle 30 minuutin",
+    "1 tunnin"
+   ],
+   "explain": "Asianomaisten ampujien on pidettävä yhteyttä juryyn ja oltava valmiina alle 15 minuutin kuluttua kutsusta; poissaolevan katsotaan luopuneen."
+  },
+  "cs-q030": {
+   "q": "Henkilökohtaisen kilpailun tasatilanne 5. sijasta ratkaistaan uusintakierroksella.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Uusintakierrokset ammutaan vain kolmesta ensimmäisestä sijasta; kolmannen sijan jälkeen tasoissa olevat sijoitetaan samalle sijalle ja listataan Count Back -säännöllä Compakista 8 Compakiin 1."
+  },
+  "cs-q031": {
+   "q": "Millaisessa Compakissa uusintakierrokset ammutaan?",
+   "options": [
+    "5 yksittäiskiekkoa ampumapaikkaa kohden",
+    "3 yksittäiskiekkoa ja 1 laukauksesta lähtevä kaksoiskiekko ampumapaikkaa kohden",
+    "1 yksittäiskiekko ja 2 yhtäaikaista kaksoiskiekkoa ampumapaikkaa kohden",
+    "Kilpailun viimeinen Compak muuttamattomana"
+   ],
+   "explain": "Paikalla olevat teknisen komission jäsenet (muuten jury) valitsevat Compakin ja kiekkojen asettelun; uusintakierroksilla ammutaan yksi yksittäiskiekko ja kaksi yhtäaikaista kaksoiskiekkoa ampumapaikkaa kohden."
+  },
+  "cs-q032": {
+   "q": "Kaksi maajoukkuetta päätyy samaan kokonaistulokseen. Miten tasatilanne ratkaistaan?",
+   "options": [
+    "25 kiekon joukkueuusinnalla",
+    "Jäsenten yhteistuloksella 8. Compakissa, sitten 7. ja niin edelleen",
+    "Kunkin joukkueen parhaalla henkilökohtaisella tuloksella",
+    "1. Compakilla, sitten 2. ja niin edelleen"
+   ],
+   "explain": "Tasoissa olevat joukkueet erotetaan jäsenten yhteistuloksella 8. Compakissa, sitten 7., 6. ja niin edelleen 1. Compakiin asti."
+  },
+  "cs-q033": {
+   "q": "Ampuja, joka kieltäytyy allekirjoittamasta tulospöytäkirjaa kierroksen lopussa, menettää oikeuden tehdä mitään valitusta.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Tosi. Ampujan on allekirjoitettava tulospöytäkirja jokaisen kierroksen lopussa; allekirjoituksesta kieltäytyminen tekee kaikista valituksista tutkimattomia."
+  },
+  "cs-q034": {
+   "q": "Miten osumat ja ohilaukaukset merkitään Compak-tulospöytäkirjaan?",
+   "options": [
+    "Osuma X, ohi O",
+    "Osuma O, ohi X",
+    "Osuma 1, ohi 0",
+    "Osuma /, ohi -"
+   ],
+   "explain": "Osuma (ONE) merkitään X ja ohilaukaus O; tuomari ilmoittaa jokaisen ZERO-tuloksen kovaa tai äänimerkillä."
+  },
+  "cs-q035": {
+   "q": "Montako ampujaa Compak-erässä on enintään?",
+   "options": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "explain": "Erässä on enintään 6 ampujaa, jotka ampuvat samaa kierrosta samaan aikaan samalla radalla."
+  },
+  "cs-q036": {
+   "q": "Kuinka kauan ampujalla on aikaa pyytää kiekkoaan sen jälkeen, kun edellisen ampumapaikan kiekko on ammuttu?",
+   "options": [
+    "5 sekuntia",
+    "10 sekuntia",
+    "15 sekuntia",
+    "30 sekuntia"
+   ],
+   "explain": "Enimmäisaika on 10 sekuntia; ensimmäisestä rikkeestä annetaan varoitus, joka merkitään tulospöytäkirjaan, ja toistuminen samalla kierroksella maksaa kiekkoja."
+  },
+  "cs-q037": {
+   "q": "Kuinka monta minuuttia pidemmän keskeytyksen jälkeen 6 yksittäiskiekkoa näytetään uudelleen?",
+   "options": [
+    "5 minuuttia",
+    "10 minuuttia",
+    "15 minuuttia",
+    "30 minuuttia"
+   ],
+   "explain": "Yli 10 minuutin keskeytyksen jälkeen tuomari näyttää 6 yksittäiskiekkoa uudelleen sekä erä- että linja-ammunnassa."
+  },
+  "cs-q038": {
+   "q": "Montako valmista lentoratojen asetustaulukkoa liitteessä 3 on?",
+   "options": [
+    "8",
+    "20",
+    "40",
+    "48"
+   ],
+   "explain": "Liitteessä 3 on 40 valmista kiekkoluetteloa, kahdeksan kutakin viittä ampumapaikkayhdistelmää kohden (esimerkiksi taulukot 17–24: 3 yksittäiskiekkoa ja 1 yhtäaikainen kaksoiskiekko)."
+  },
+  "cs-q039": {
+   "q": "Compak® Sportingissa ampujan on pyydettävä kiekkoa ase alhaalla, perä näkyvissä liivin merkin alapuolella.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Compakissa aseen asento kiekkoa pyydettäessä on vapaa (nostettuna tai ei); säännöissä ei ole matala-asentoista aloitusta eikä liivin merkkiä. Jokainen kiekko on sitten ammuttava ase olkapäällä."
+  },
+  "cs-q040": {
+   "q": "Samassa Compakissa ampumapaikalla 2 voi olla laukauksesta lähtevä kaksoiskiekko ja ampumapaikalla 4 yhtäaikainen kaksoiskiekko.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Yhdessä Compakissa kaksoiskiekon tyypin on oltava sama kaikilla 5 ampumapaikalla; eri Compakeissa suositellaan eri taulukoita."
+  },
+  "cs-q041": {
+   "q": "Mikä kiekko on ampumapaikalla aina kaksoiskiekon ensimmäinen kiekko?",
+   "options": [
+    "Heittimen A kiekko",
+    "Edellisellä ampumapaikalla viimeksi ammuttu kiekko",
+    "Peräkiekko",
+    "Mikä tahansa ampujan valitsema kiekko"
+   ],
+   "explain": "Jokaisen kaksoiskiekon ensimmäinen kiekko on edellisellä ampumapaikalla viimeksi ammuttu kiekko (esim. A-F, F-C, C-E...), minkä vuoksi tuomari näyttää sen seuraavalle ampujalle."
+  },
+  "cs-q042": {
+   "q": "Missä erämuotoisessa ammunnassa kuudes (odottava) ampuja seisoo, ja mitä tapahtuu, kun ampumapaikka 5 on valmis?",
+   "options": [
+    "Ampumapaikan 5 takana; hän siirtyy sitten ampumapaikalle 5",
+    "Ampumapaikan 1 takana; kaikki siirtyvät yhden paikan oikealle, ja hän astuu ampumapaikalle 1",
+    "Tuomarin vieressä; hän liittyy seuraavaan erään",
+    "Ampumapaikan 3 takana; hän ottaa tyhjän paikan"
+   ],
+   "explain": "Odottava ampuja seisoo ampumapaikan 1 takana. Kun ampumapaikan 5 ampuja on ampunut kiekkoluettelonsa, hän siirtyy odottamaan, kaikki muut siirtyvät yhden paikan oikealle ja odottava ampuja astuu ampumapaikalle 1. Paikkaa vaihdettaessa aseet ovat avattuina ja lataamattomina."
+  },
+  "cs-q043": {
+   "q": "Ampuja astuu ampumapaikalleen, ja tuomari huomaa, ettei hänellä ole kuulosuojaimia. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Keltainen kortti, sitten hän saa ampua",
+    "Hänet katsotaan poissaolevaksi eikä hän saa ampua",
+    "Hän saa ampua, jos allekirjoittaa vastuuvapauslausekkeen",
+    "Hän menettää yhden kiekon"
+   ],
+   "explain": "Kuulosuojaimet ovat pakolliset; ilman niitä ampumapaikalle saapuva kilpailija katsotaan poissaolevaksi eikä saa ampua. Sama koskee ampumalaseja."
+  },
+  "cs-q044": {
+   "q": "Mikä on Compak® Sporting -aseen piipun vähimmäispituus?",
+   "options": [
+    "61 cm (24 tuumaa)",
+    "66 cm (26 tuumaa)",
+    "71 cm (28 tuumaa)",
+    "76 cm (30 tuumaa)"
+   ],
+   "explain": "Mikä tahansa sileäpiippuinen ase, jonka kaliiperi on 12 tai pienempi, on sallittu, jos piippu on vähintään 66 cm (26 tuumaa) pitkä."
+  },
+  "cs-q045": {
+   "q": "Mikä on Compak® Sporting -patruunan suurin haulilataus?",
+   "options": [
+    "24 g",
+    "28 g (toleranssi +2 %)",
+    "32 g",
+    "36 g"
+   ],
+   "explain": "Haulilataus saa olla enintään 28 grammaa lyijyä, toleranssi +2 %."
+  },
+  "cs-q046": {
+   "q": "Pumppuhaulikko on sallittu Compak® Sportingissa, jos sen piippu on vähintään 66 cm pitkä.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Pumppuhaulikot ja kolmipiippuiset (drillingit) ovat kiellettyjä piipun pituudesta riippumatta; myös kantohihnat, asekamerat ja tähtäinlaitteet on kielletty."
+  },
+  "cs-q047": {
+   "q": "Ampuja saa vaihtaa vaihtosupistajansa kahden kierroksen välillä.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Tosi. Aseen, supistajien tai piippujen vaihtaminen on kielletty kierroksen aikana, mutta sallittu kierrosten välillä; asehäiriö on ainoa poikkeus kierroksen aikana."
+  },
+  "cs-q048": {
+   "q": "Miten päästöliipaisimella varustettu ase on merkittävä?",
+   "options": [
+    "Punaisella nauhalla piipussa",
+    "Suurella R-kirjaimella fluoresoivalla pohjalla tukin ulkopinnassa",
+    "Vain merkinnällä tulospöytäkirjaan",
+    "Merkintää ei tarvita, jos tuomarille kerrotaan"
+   ],
+   "explain": "Omistajan on kiinnitettävä tukin ulkopintaan varoitukseksi tarra, jossa on suuri R-kirjain fluoresoivalla pohjalla."
+  },
+  "cs-q049": {
+   "q": "Ampuja uskoo kiekkonsa olleen osuma, mutta ei sano mitään. Vasta kun seuraava ampuja on pyytänyt kiekkoa ja ampunut, hän nostaa kätensä ja sanoo 'PROTEST'. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Tuomarin on harkittava uudelleen ja hän voi muuttaa sen ONE-tulokseksi",
+    "Protesti on myöhässä; ZERO jää voimaan",
+    "Kiekko heitetään uudelleen NO BIRDina",
+    "Protesti menee jurylle ratkaistavaksi"
+   ],
+   "explain": "Protesti on tehtävä heti ampumapaikalla ennen kuin seuraava ampuja pyytää kiekkoa. Joka tapauksessa osuman tai ohilaukauksen ratkaisee yksin tuomari, eikä siitä voi valittaa."
+  },
+  "cs-q050": {
+   "q": "Epävarma tuomari voi pyytää tietoa ennen ratkaisuaan. Kuka näistä EI ole niiden joukossa, joilta hän saa kysyä?",
+   "options": [
+    "Toinen paikalla oleva tuomari",
+    "Heitinten operaattori",
+    "Erän ampujat",
+    "Ampujan valmentaja ampumapaikan takana"
+   ],
+   "explain": "Hän voi kysyä toiselta tuomarilta, heitinten operaattorilta, erän ampujilta tai tulospöytäkirjaa pitäviltä; heidän mielipiteensä ei sido häntä, ja hänen ratkaisunsa on lopullinen."
+  },
+  "cs-q051": {
+   "q": "Kiekkoluettelon mukaan yksittäiskiekko tulee heittimestä C, mutta kiekko tulee heittimestä E. Ampuja rikkoo sen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE",
+    "NO BIRD — heitetään uusi kiekko",
+    "ZERO",
+    "ONE, ja heitinten operaattori saa varoituksen"
+   ],
+   "explain": "Toisesta heittimestä heitetty kiekko on epäsäännöllinen, joten se on NO BIRD, ja yksittäiskiekossa heitetään uusi kiekko tuloksesta riippumatta."
+  },
+  "cs-q052": {
+   "q": "Laukauksen jälkeen kiekko lentää ehjänä eteenpäin, mutta siitä näkyy pieni pölypilvi. Yhtään palaa ei irtoa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — heitetään uusi kiekko",
+    "Tuomari kysyy heitinten operaattorilta ja ratkaisee sitten ONE"
+   ],
+   "explain": "Kiekko on ZERO, kun siitä ei irtoa näkyvää palaa; pelkkä pöly ('savuava' kiekko) ei ole osuma."
+  },
+  "cs-q053": {
+   "q": "Säännöllinen kiekko, säännöllisesti ammuttu: siitä irtoaa yksi pieni mutta selvästi näkyvä pala, ja loput lentävät eteenpäin. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE",
+    "ZERO",
+    "NO BIRD — heitetään uusi kiekko",
+    "ZERO, koska kiekko ei haljennut kahtia"
+   ],
+   "explain": "Kiekko on ONE, kun siitä irtoaa vähintään yksi näkyvä pala tai kun se jauhautuu kokonaan tai osittain."
+  },
+  "cs-q054": {
+   "q": "Ampujan heilauttaessa asetta naapuri-Compakin kiekko lentää hänen näkökenttänsä poikki. Hän ampuu oman yksittäiskiekkonsa ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "NO BIRD — heitetään uusi kiekko",
+    "NO BIRD vain, jos ampuja protestoi",
+    "ZERO, ja naapuri-Compak pysäytetään"
+   ],
+   "explain": "Toisesta Compakista tuleva kiekko tai sen palat eivät koskaan oikeuta NO BIRDiin; vain saman Compakin heittimestä tullut harhakiekko oikeuttaa. Ohilaukaus jää voimaan."
+  },
+  "cs-q055": {
+   "q": "Äkillinen tuulenpuuska painaa säännöllistä yksittäiskiekkoa jyrkästi alas juuri kun ampuja laukaisee, ja hän ampuu ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "NO BIRD — heitetään uusi kiekko",
+    "NO BIRD, jos tuomari on samaa mieltä tuulen poikkeuksellisuudesta",
+    "Ampuja voi pyytää uusintaa kerran kierroksessa"
+   ],
+   "explain": "Huono sää ei koskaan oikeuta NO BIRDiin: jokainen ohi ammuttu kiekko on ZERO ja jokainen rikottu ONE olosuhteista riippumatta."
+  },
+  "cs-q056": {
+   "q": "Yksittäiskiekossa ensimmäinen patruuna ei laukea. Se on ampujan ensimmäinen tämäntyyppinen häiriö kierroksella. Hän pysyy paikallaan ase kohti ampuma-aluetta, kunnes tuomari tarkastaa sen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "NO BIRD, uusi kiekko ja ensimmäinen varoitus (keltainen kortti)",
+    "NO BIRD ilman varoitusta",
+    "ZERO ja punainen kortti"
+   ],
+   "explain": "25 kiekon kierroksen ensimmäisessä häiriössä laukeamaton ensimmäinen patruuna yksittäiskiekossa antaa NO BIRDin ja uuden kiekon; tähän ensimmäiseen häiriöön liittyy ensimmäinen varoitus (keltainen kortti)."
+  },
+  "cs-q057": {
+   "q": "Myöhemmin samalla kierroksella samalla ampujalla on toinen samantyyppinen patruunahäiriö. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Taas NO BIRD ja toinen keltainen kortti",
+    "Kaikki ampumatta jääneet kiekot kirjataan ZERO (punainen kortti)",
+    "Ampuja suljetaan kilpailusta",
+    "Hän saa 2 minuuttia aseen korjaamiseen, ja kiekko heitetään uudelleen"
+   ],
+   "explain": "Ase- tai patruunahäiriöiden NO BIRD -taulukko koskee vain kierroksen ensimmäistä häiriötä; toisessa samantyyppisessä häiriössä ampumatta jääneet kiekot kirjataan ZERO (punainen kortti)."
+  },
+  "cs-q058": {
+   "q": "Laukauksesta lähtevä kaksoiskiekko: ampuja rikkoo ensimmäisen kiekon, sitten hänen toinen patruunansa ei laukea. Kierroksen ensimmäinen tämäntyyppinen häiriö. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE-ZERO",
+    "Koko kaksoiskiekko on NO BIRD, eikä mitään jää voimaan",
+    "Ensimmäisen kiekon ONE jää voimaan; kaksoiskiekko heitetään uudelleen toisen kiekon tuloksen ratkaisemiseksi",
+    "ONE ensimmäisestä, ja toinen kiekko heitetään yksinään"
+   ],
+   "explain": "Kun toinen patruuna ei laukea laukauksesta lähtevässä kaksoiskiekossa (ensimmäinen häiriö), ensimmäisen kiekon tulos jää voimaan ja kaksoiskiekko heitetään uudelleen toista kiekkoa varten."
+  },
+  "cs-q059": {
+   "q": "Yksittäiskiekossa ampuja ampuu ensimmäisellä laukauksella ohi, eikä toinen patruuna laukea. Kierroksen ensimmäinen häiriö. Uusi kiekko heitetään. Miten se on kirjattava? Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Normaalisti: kumpi tahansa laukaus voi rikkoa sen",
+    "Sen voi kirjata vain toisella laukauksella; ensimmäisen on oltava tahallinen ohilaukaus",
+    "Se on jo ZERO; uusi kiekko on vain harjoitusta varten",
+    "Vain ensimmäinen laukaus lasketaan"
+   ],
+   "explain": "Kun yksittäiskiekossa toinen patruuna ei laukea, heitetään uusi kiekko, jonka saa rikkoa vain toisella laukauksella, joten ampuja ampuu ensimmäisellä tarkoituksella ohi."
+  },
+  "cs-q060": {
+   "q": "Jänis menee ohi ensimmäisellä laukauksella ja hajoaa sitten maan kumpareeseen ennen toista laukausta. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "ONE",
+    "NO BIRD: jänis heitetään uudelleen ja sen voi kirjata vain toisella laukauksella",
+    "NO BIRD: jänis heitetään uudelleen ja kirjataan normaalisti"
+   ],
+   "explain": "Ensimmäisellä laukauksella ohi mennyt jänis, joka hajoaa ennen toista laukausta, on NO BIRD; se heitetään uudelleen ja sen voi kirjata vain toisella laukauksella, joten ensimmäisen on oltava tahallinen ohilaukaus."
+  },
+  "cs-q061": {
+   "q": "Yhtäaikaisessa kaksoiskiekossa toinen kiekoista hajoaa lähtiessään heittimestä. Ampuja rikkoo toisen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE rikotusta kiekosta; hajonnut heitetään uudelleen yksinään",
+    "Koko kaksoiskiekko heitetään uudelleen",
+    "ONE-ZERO",
+    "ONE-ONE"
+   ],
+   "explain": "Lähdössä hajonnut kiekko on NO BIRD -tapaus, ja mikä tahansa epäsäännöllinen kiekko yhtäaikaisessa kaksoiskiekossa tarkoittaa, että koko kaksoiskiekko heitetään uudelleen."
+  },
+  "cs-q062": {
+   "q": "Juuri kun ampuja pyytää kiekkoa, kaiutinkuulutus jysähtää ampumapaikan takana; tuomari näkee selvästi ampujan säpsähtävän ja laskevan aseen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "NO BIRD — heitetään uusi kiekko",
+    "ZERO, kiekosta kieltäytyminen",
+    "Varoitus ammunnan viivyttämisestä"
+   ],
+   "explain": "NO BIRD annetaan, kun tuomari näkee, että ampujaa on näkyvästi häiritty."
+  },
+  "cs-q063": {
+   "q": "Heitinten operaattori laukaisee kiekon ennen kuin ampuja on pyytänyt sitä. Yllättynyt ampuja laukaisee ja ampuu ohi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "NO BIRD — heitetään uusi kiekko",
+    "ZERO, koska hän päätti ampua",
+    "ZERO ja keltainen kortti"
+   ],
+   "explain": "Kiekko, jota ampuja ei pyytänyt, on NO BIRD -tapaus; se on myös ainoa kiekko, josta ampuja saa kieltäytyä."
+  },
+  "cs-q064": {
+   "q": "Ampuja pyytää yksittäiskiekkoa, pitää sitä liian matalana eikä ammu. Tuomarin mielestä kiekko on säännöllinen. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "NO BIRD — heitetään uusi kiekko",
+    "ZERO",
+    "Vain varoitus; kiekko heitetään uudelleen",
+    "Ampuja voi protestoida ja saa uuden kiekon automaattisesti"
+   ],
+   "explain": "Ampuja saa kieltäytyä vain kiekosta, jota hän ei pyytänyt. Tuomarin säännölliseksi katsomasta kiekosta kieltäytyminen rangaistaan: yksittäiskiekossa ZERO."
+  },
+  "cs-q065": {
+   "q": "Yhtäaikaisessa kaksoiskiekossa ampuja laskee aseen ampumatta ensimmäistä kiekkoa ja sanoo sen olleen väärällä lentoradalla. Tuomari katsoo molemmat kiekot säännöllisiksi. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO ensimmäisestä, toinen heitetään uudelleen",
+    "ZERO-ZERO",
+    "NO BIRD",
+    "ZERO ensimmäisestä, NO BIRD toisesta"
+   ],
+   "explain": "Sen, poikkesiko kiekko lentoradaltaan, ratkaisee tuomari. Jos ampuja ei ammu tuomarin säännölliseksi katsomaa yhtäaikaisen kaksoiskiekon ensimmäistä kiekkoa, tulos on ZERO-ZERO."
+  },
+  "cs-q066": {
+   "q": "Aiemmin tässä Compakissa ampuja sai varoituksen siitä, että hän käytti yli 10 sekuntia kiekon pyytämiseen. Nyt yksittäiskiekossa tuomari huutaa selvästi NO BIRD, mutta ampuja ampuu silti ja rikkoo kiekon. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ONE",
+    "NO BIRD: kiekko heitetään uudelleen",
+    "ZERO (punainen kortti)",
+    "Toinen keltainen kortti; kiekko heitetään uudelleen"
+   ],
+   "explain": "Julistettua NO BIRDia ei saa koskaan ampua. Ensimmäisen varoituksen jälkeen jokaisesta uudesta rikkeestä samassa Compakissa seuraa punainen kortti, ja yksittäiskiekko kirjataan ZERO."
+  },
+  "cs-q067": {
+   "q": "Ensimmäistä kertaa kierroksella ampuja käyttää noin 15 sekuntia kiekon pyytämiseen sen jälkeen, kun edellisen ampumapaikan kiekko on ammuttu. Sitten hän rikkoo yksittäiskiekon. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO",
+    "ONE ja tulospöytäkirjaan merkitty varoitus",
+    "NO BIRD ja keltainen kortti",
+    "ONE ilman seuraamuksia"
+   ],
+   "explain": "Kiekon pyytämisen raja on 10 sekuntia. Ensimmäisellä ylityksellä ampuja saa tulospöytäkirjaan merkittävän varoituksen; vasta toistuminen samalla kierroksella maksaa kiekkoja."
+  },
+  "cs-q068": {
+   "q": "Ampuja, joka on jo saanut tällä kierroksella varoituksen 10 sekunnin ylittämisestä, pyytää taas kiekkoa myöhässä, tällä kertaa laukauksesta lähtevässä kaksoiskiekossa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "Vain toinen varoitus",
+    "NO BIRD / NO BIRD"
+   ],
+   "explain": "Toistuminen samalla kierroksella kirjataan kohdan 21.5 taulukon mukaan: yksittäiskiekko ZERO, laukauksesta lähtevä kaksoiskiekko ZERO / NO BIRD, yhtäaikainen kaksoiskiekko ZERO / ZERO."
+  },
+  "cs-q069": {
+   "q": "Ampumapaikkojen välillä Compakin takana seisova valmentaja neuvoo jatkuvasti kilpailijaa, mihin aloittaa seuraavassa kiekossa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Ei mitään: neuvominen kiekkojen välillä on sallittua",
+    "Keltainen kortti kilpailijalle; valmentaja poistetaan ampuma-alueelta",
+    "Kilpailija menettää 25 kiekon kierroksen",
+    "Vain valmentaja saa varoituksen"
+   ],
+   "explain": "Valmentaminen kilpailun aikana ei ole sallittua: kilpailija saa keltaisen kortin (toistuminen johtaa luvun 23 seuraamuksiin), ja tuomari poistaa valmentajan ampuma-alueelta."
+  },
+  "cs-q070": {
+   "q": "Ampujan ase rikkoutuu; tuomari tarkastaa sen (ensimmäinen häiriö). Kaksi minuuttia kuluu, asetta ei ole korjattu eikä toista asetta ole saatavilla. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Hän voi odottaa erän loppuun ja ampua silloin loppuun",
+    "Ampumatta jääneet kiekot kirjataan nolliksi",
+    "Kierros perutaan ja ammutaan myöhemmin uudelleen",
+    "Hän saa toiset 2 minuuttia"
+   ],
+   "explain": "Asehäiriön jälkeen ampujalla on kaksi minuuttia aikaa korjata tai vaihtaa ase; tuomarin suostumuksella hän voi jatkaa toisella aseella, muuten ampumatta jääneet kiekot ovat nollia."
+  },
+  "cs-q071": {
+   "q": "Yhtäaikaisen kaksoiskiekon ensimmäinen kiekko: tässä Compakissa jo varoituksen saaneella ampujalla on asehäiriö, joka ei ole hänen ensimmäisensä, eikä hän voi ampua ensimmäistä kiekkoa. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "ZERO / NO BIRD",
+    "ZERO / ZERO",
+    "NO BIRD, uusi kaksoiskiekko",
+    "Ensimmäinen tulos jää voimaan, toinen ZERO"
+   ],
+   "explain": "Ensimmäisen varoituksen jälkeisestä asehäiriöstä kohdan 21.5 taulukko antaa yhtäaikaisen kaksoiskiekon ensimmäisessä kiekossa ZERO / ZERO (laukauksesta lähtevässä kaksoiskiekossa ZERO / NO BIRD)."
+  },
+  "cs-q072": {
+   "q": "Kuinka kauan ampujalla on asehäiriön jälkeen aikaa korjata tai vaihtaa ase?",
+   "options": [
+    "1 minuutti",
+    "2 minuuttia",
+    "3 minuuttia",
+    "5 minuuttia"
+   ],
+   "explain": "Hänellä on kaksi minuuttia; tuomarin suostumuksella hän voi jatkaa toisella aseella, muuten ampumatta jääneet kiekot ovat nollia."
+  },
+  "cs-q073": {
+   "q": "Kun tuomari on antanut lopullisen ratkaisunsa, kuinka monen sekunnin kuluessa ampujan on jatkettava ampumista?",
+   "options": [
+    "5 sekunnin",
+    "10 sekunnin",
+    "30 sekunnin",
+    "60 sekunnin"
+   ],
+   "explain": "Ampujan on jatkettava 10 sekunnin kuluessa; muuten kyseessä on kieltäytyminen noudattaa ohjeita, mistä voidaan rangaista luvun 23 mukaan."
+  },
+  "cs-q074": {
+   "q": "Tuomari vahvistaa protestin jälkeen ZERO-tuloksen, ja ammunta jatkuu. Ampuja pudistelee päätään ja kertoo erälle kovaan ääneen, että kiekko rikkoutui, ja kaksi katsojaa ampumapaikan takana yhtyy arvostelemaan ratkaisua. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "Ei mitään: kun ammunta on jatkunut, mielipiteet ovat vapaita",
+    "Tuomari muuttaa ratkaisua riidan välttämiseksi",
+    "Tämä on yritys vaikuttaa; tuomari raportoi siitä, ja jury voi rangaista aina kilpailusta sulkemiseen asti",
+    "Kiekko heitetään uudelleen NO BIRDina"
+   ],
+   "explain": "Lopullisen ratkaisun kiistäminen ammunnan jatkuttua, näyttävä väittely tai ampujien tai katsojien avoin ratkaisun arvostelu ovat yrityksiä vaikuttaa, joista jury voi rangaista aina kilpailusta sulkemiseen asti."
+  },
+  "cs-q075": {
+   "q": "Kuinka monta vuotta FITASC säilyttää tiedon kilpailusta sulkemisesta?",
+   "options": [
+    "1 vuoden",
+    "3 vuotta",
+    "5 vuotta",
+    "10 vuotta"
+   ],
+   "explain": "Jokainen kilpailusta sulkeminen kirjataan FITASCin päämajaan viideksi vuodeksi; toinen sulkeminen kolmen vuoden kuluessa voi johtaa pysyvään kilpailukieltoon."
+  },
+  "cs-q076": {
+   "q": "Minkä seuraamuksen jury voi määrätä toistuvasta rikkeestä?",
+   "options": [
+    "Järjestäjälle maksettavan rahasakon",
+    "25 kiekon kierroksen menetyksen",
+    "Kierroksen uudelleen ampumisen toisessa erässä",
+    "Ampujan siirron viimeiseen erään"
+   ],
+   "explain": "Toistuvasta rikkeestä tai vaikuttamisyrityksistä jury voi määrätä kiekon menetyksen, 25 kiekon kierroksen menetyksen tai kilpailusta sulkemisen."
+  },
+  "cs-q077": {
+   "q": "Ampujan ase ei laukea. Ennen kuin tuomari ehtii katsoa sitä, hän avaa aseen tarkistaakseen patruunan. Mikä on tuomarin ratkaisu?",
+   "options": [
+    "NO BIRD — heitetään uusi kiekko",
+    "ZERO kyseisestä kiekosta",
+    "NO BIRD ja keltainen kortti",
+    "Tuomari tarkastaa aseen nyt ja ratkaisee NO BIRD, jos se on viallinen"
+   ],
+   "explain": "Häiriön jälkeen ampujan on pysyttävä paikallaan avaamatta asetta tai koskematta varmistimeen, kunnes tuomari on tarkastanut sen; jos hän tekee niin, kyseinen kiekko tai kiekot ovat ZERO."
+  },
+  "cs-q078": {
+   "q": "Aseen nostaminen ja heilauttaminen (tähtäysharjoittelu) ampumapaikkojen takana odottaessa on sallittua, jos ase on avattuna.",
+   "options": [
+    "Tosi",
+    "Epätosi"
+   ],
+   "explain": "Epätosi. Tähtäysharjoittelu ei ole sallittua ampumapaikkojen ulkopuolella, eikä silloin, kun erän jäsen ampuu."
+  },
+  "cs-q079": {
+   "q": "Miten puoliautomaattihaulikkoa on kannettava ampumapaikkojen välillä?",
+   "options": [
+    "Suljettuna, varmistettuna, piippu eteenpäin",
+    "Lukko avattuna, piippu suoraan ylös tai alas",
+    "Ladattuna yhdellä patruunalla, lukko avattuna",
+    "Miten tahansa, jos se on lataamaton"
+   ],
+   "explain": "Aseita kannetaan avattuina ja lataamattomina; puoliautomaatteja lukko avattuna ja piippu suoraan ylös tai alas."
+  },
+  "cs-q080": {
+   "q": "Ampuja, jonka ensimmäinen liipaisin on päästöliipaisin, pitää sitä painettuna, kun ensimmäinen kiekko julistetaan NO BIRDiksi. Mikä toiminta on sallittu?",
+   "options": [
+    "Päästää liipaisin ase maata kohti kertomatta kenellekään",
+    "Pitää liipaisin painettuna ja pyytää uusi kiekko",
+    "Antaa suljettu ase tuomarille",
+    "Kääntyä näyttämään asetta tuomarille"
+   ],
+   "explain": "Hän voi pitää liipaisimen painettuna ja pyytää uuden kiekon, pitää sen painettuna ja avata aseen tai kertoa tuomarille ja ampua turvallisesti tuomarin osoittamaan suuntaan."
+  }
+ }
+}

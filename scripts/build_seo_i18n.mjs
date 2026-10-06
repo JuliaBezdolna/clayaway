@@ -3,7 +3,8 @@
 // Data: docs/glossary/data/i18n/<lang>.js → window.GLOSSARY_I18N[lang].terms[id] = {term_local, short, long, disciplines}
 // Output per language: docs/<lang>/glossary/ and docs/<lang>/glossary/<id>/ (DefinedTerm), headword stays English
 // (that's how terms are said on the stand), the local usage is shown under it.
-// hreflang: every glossary term page (uk, en, de, fr, it) lists all available languages; x-default = en.
+// hreflang: every glossary term page lists all available languages (uk, en + every ClayArena language with a translation); x-default = en.
+// Interface strings: de/fr/it below; cs, pl, pt, hu, fi, lt from docs/glossary/data/i18n/ui-<lang>.json ({t}/{n} placeholders, "cat", "ch", "pg").
 // Also writes docs/en/learn/index.html — a static English landing of ClayArena Academy (modules + lessons).
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 
@@ -13,8 +14,14 @@ const UI = {
   it: { gl: "Glossario", title: t => `${t} — termine del tiro a volo | Glossario ClayArena`, what: "Che cos'è", detail: "In dettaglio", disc: "In Sporting™ e Compak® Sporting", rules: "Nel regolamento", learn: "Impara (inglese)", rel: "Termini correlati", local: "Uso", list: n => `Glossario del tiro a volo — ${n} termini`, intro: n => `${n} termini di Sporting™ e Compak® Sporting spiegati in modo semplice, con link al regolamento FITASC.`, tm: "Parcours de Chasse – Sporting™ e Compak® Sporting sono marchi FITASC. Fa fede solo il testo ufficiale FITASC.", locale: "it_IT" },
 };
 
+// More ClayArena languages: interface strings from ui-<lang>.json (written by translators; no code needed for a new language).
+for (const l of ["cs", "pl", "pt", "hu", "fi", "lt"]) {
+  const f = `docs/glossary/data/i18n/ui-${l}.json`; if (!existsSync(f)) continue;
+  const j = JSON.parse(readFileSync(f, "utf8"));
+  UI[l] = { ...j, title: t => j.title.replace("{t}", t), list: n => j.list.replace("{n}", n), intro: n => j.intro.replace("{n}", n) };
+}
 export async function buildI18n() {
-  const { BASE, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, CSS, NF, esc } = globalThis.SEO;
+  const { BASE, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, INTERP = {}, CSS, NF, esc } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -22,6 +29,9 @@ export async function buildI18n() {
     fr: { "Appeals": "Réclamations", "Discipline": "Discipline", "Equipment": "Équipement", "Ground & layout": "Terrain et postes", "Organisation": "Organisation", "Penalties": "Sanctions", "Refereeing": "Arbitrage", "Results": "Résultats", "Safety & conduct": "Sécurité et comportement", "Scoring": "Décompte", "Sequences & doubles": "Séquences et doublés", "Shooting rules": "Règles de tir", "Targets": "Plateaux" },
     it: { "Appeals": "Reclami", "Discipline": "Disciplina", "Equipment": "Attrezzatura", "Ground & layout": "Campo e pedane", "Organisation": "Organizzazione", "Penalties": "Sanzioni", "Refereeing": "Arbitraggio", "Results": "Risultati", "Safety & conduct": "Sicurezza e comportamento", "Scoring": "Punteggio", "Sequences & doubles": "Sequenze e doppietti", "Shooting rules": "Regole di tiro", "Targets": "Piattelli" } };
   const CHW = { de: "Kapitel", fr: "Chapitre", it: "Capitolo" }, PG = { de: "S.", fr: "p.", it: "p." };
+  for (const l of Object.keys(UI)) { // categories / chapter words from ui-<lang>.json extend the built-in ones
+    const f = `docs/glossary/data/i18n/ui-${l}.json`; if (!existsSync(f)) continue; const j = JSON.parse(readFileSync(f, "utf8"));
+    CAT[l] = { ...(CAT[l] || {}), ...(j.cat || {}) }; if (j.ch) CHW[l] = j.ch; if (j.pg) PG[l] = j.pg; }
   const chapOf = r => { const b = BOOKS[r.book]; const sec = b && b.sections.find(x => x.items.some(i => i.id === r.id)); return sec ? sec.chapter : (r.ref.match(/\d+/) || [""])[0]; };
   const out = [];
   const langs = []; // only ClayArena site languages (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt) — no Spanish
@@ -35,7 +45,7 @@ export async function buildI18n() {
 
   if (GLOSS && langs.length) {
     for (const lang of langs) {
-      const U = UI[lang], D = window.GLOSSARY_I18N[lang].terms;
+      const U = UI[lang], D = Object.fromEntries(Object.entries(window.GLOSSARY_I18N[lang].terms).filter(([, x]) => x.short)); // a page needs a translated definition
       const SET = { "@type": "DefinedTermSet", name: `ClayArena ${U.gl}`, url: listUrl(lang) };
       for (const t of GLOSS.terms) {
         const x = D[t.id]; if (!x) continue;
@@ -43,7 +53,8 @@ export async function buildI18n() {
         const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/#${r.id}">${CHW[lang]} ${chapOf(r)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, ${PG[lang]} ${r.page}</a></li>`).join("");
         const disc = Object.entries(x.disciplines || {}).filter(([, v]) => v).map(([k, v]) => `<div class="box"><b>${NAMES[k] || k}</b><p>${esc(v)}</p></div>`).join("");
         const rel = (t.related || []).filter(r => GBY[r] && D[r]).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${termUrl(lang, r)}">${esc(GBY[r].term)}</a>`).join(" ");
-        const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 4).map(id => `<li lang="en"><a href="${BASE}en/learn/${id}/" hreflang="en">${esc(LESSON[id].title_en)}</a></li>`).join("");
+        const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 4).map(id => `<li lang="en"><a href="${BASE}en/learn/${id}/" hreflang="en">${esc(LESSON[id].title_en)}</a></li>`).join("")
+          + (t.interp || []).filter(id => INTERP[id]).slice(0, 3).map(id => `<li><a href="${BASE}interpreter/?lang=${lang}#l/${id}">ClayArena Interpreter Academy</a></li>`).join("");
         const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name: t.term, alternateName: x.term_local && x.term_local !== t.term ? [x.term_local] : [], description: x.short, termCode: t.id, url, inDefinedTermSet: SET, inLanguage: lang }];
         const html = `<!doctype html>
 <html lang="${lang}">

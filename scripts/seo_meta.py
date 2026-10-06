@@ -1,4 +1,4 @@
-"""Canonical links + schema.org JSON-LD for the hand-made pages of the ClayAway site.
+"""Canonical links + schema.org JSON-LD for the hand-made pages of the ClayArena projects site (ClayAway tours, rules, academies).
 
 Run from the project root (after make_og.py): python scripts/seo_meta.py
 The rules pages get their markup from scripts/build_seo.mjs; this script covers home, specs and tours.
@@ -9,7 +9,7 @@ from pathlib import Path
 
 DOCS = Path(__file__).resolve().parent.parent / "docs"
 B = "https://fenix-112323.github.io/clayaway/"
-SITE = {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": B}
+SITE = {"@type": "WebSite", "name": "ClayArena", "url": B}  # one site of ClayArena projects; ClayAway = the tours service inside it
 CLAYARENA = {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}
 
 
@@ -38,11 +38,12 @@ def tour(name, slug, desc, start, end, place, address, country, coach, coach_url
 
 
 PAGES = {
-    "index.html": [{"@context": "https://schema.org", **SITE, "description": "ClayAway — новий напрям ClayArena: тури з тренером, правила FITASC, тренажер.",
+    "index.html": [{"@context": "https://schema.org", **SITE, "description": "Проєкти ClayArena: тури ClayAway, правила FITASC, тренажер правил, глосарій, Академія ClayArena і Академія перекладача.",
                     "publisher": CLAYARENA},
                    {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
                        {"@type": "ListItem", "position": i + 1, "url": B + u, "name": n} for i, (u, n) in enumerate([
                            ("rules/", "Правила FITASC простими словами"), ("rules/trainer/", "Тренажер правил FITASC"),
+                           ("glossary/", "Глосарій ClayArena"), ("learn/", "Академія ClayArena"), ("interpreter/", "Академія перекладача ClayArena"),
                            ("dornsberg/", "Dornsberg Training Days"), ("sologne/", "Sologne Week"),
                            ("concept/", "ТЗ ClayAway"), ("rules-spec/", "ТЗ: правила FITASC і глосарій")])]}],
     "concept/index.html": [{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ ClayAway — концепція і технічне завдання",
