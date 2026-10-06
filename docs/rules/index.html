@@ -28,7 +28,7 @@
 <!-- /share-preview -->
 <!-- seo -->
 <link rel="canonical" href="https://fenix-112323.github.io/clayaway/rules/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Правила FITASC простими словами — ClayArena", "url": "https://fenix-112323.github.io/clayaway/rules/", "applicationCategory": "ReferenceApplication", "operatingSystem": "Any", "inLanguage": ["uk", "en"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "isPartOf": {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Правила FITASC простими словами — ClayArena", "url": "https://fenix-112323.github.io/clayaway/rules/", "applicationCategory": "ReferenceApplication", "operatingSystem": "Any", "inLanguage": ["uk", "en"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "isPartOf": {"@type": "WebSite", "name": "ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}}</script>
 <!-- /seo -->
 <style>
 :root{
@@ -122,7 +122,7 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
   <div class="seg disc" role="group" aria-label="Discipline"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
   <div class="seg" role="group" aria-label="Language"><button data-lang="uk">UA</button><button data-lang="en">EN</button></div>
 </div></header>
-<main id="app"><noscript><p><a href="sporting/">Правила Sporting</a> · <a href="compak/">Правила Compak Sporting</a> · <a href="en/sporting/">Sporting rules (EN)</a> · <a href="en/compak/">Compak Sporting rules (EN)</a></p></noscript></main>
+<main id="app"><noscript><p><a href="sporting/">Правила Parcours de Chasse – Sporting™</a> · <a href="compak/">Правила Compak® Sporting</a> · <a href="en/sporting/">Parcours de Chasse – Sporting™ rules (EN)</a> · <a href="en/compak/">Compak® Sporting rules (EN)</a></p></noscript></main>
 <nav aria-label="Static pages" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · English: <a href="en/sporting/">Sporting™</a> · <a href="en/compak/">Compak® Sporting</a> · <a href="trainer/">Тренажер</a></nav>
 <script src="data/sporting.js"></script>
 <script src="data/compak.js"></script>
@@ -144,8 +144,15 @@ const T={
    read:"Read the rules",faq:"All questions and answers",src:"Source",ed:"Edition",checked:"Update check: weekly",off:"Official PDF",guide:"Referees' quick guide",qg:"in the referees' quick guide",
    disc:"This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",notReady:"The guide for this discipline is still being prepared.",part:"Part"}
 };
-const store={get(){try{return JSON.parse(localStorage.getItem("clayaway-rules")||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem("clayaway-rules",JSON.stringify(v))}catch(e){}}};
+/* Per-browser preferences (language, discipline) in localStorage "clayarena-rules"; until 10.2026 the key was
+   "clayaway-rules" (ClayAway is only the tours service), moved over once here. In production: the ClayArena user profile. */
+const KEY="clayarena-rules";
+try{ const o=localStorage.getItem("clayaway-rules"); if(o!=null){ if(localStorage.getItem(KEY)==null) localStorage.setItem(KEY,o); localStorage.removeItem("clayaway-rules"); } }catch(e){}
+const store={get(){try{return JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem(KEY,JSON.stringify(v))}catch(e){}}};
 let S=Object.assign({lang:"uk",disc:"sporting"},store.get(),{q:"",res:null});
+/* ?lang= from the ClayArena project bar or a link: the guide exists in uk and en; every other ClayArena language opens in English. */
+try{ const ql=new URLSearchParams(location.search).get("lang"); if(ql) S.lang = ql==="uk" ? "uk" : "en"; }catch(e){}
+if(S.lang!=="uk"&&S.lang!=="en") S.lang="en";
 if(location.hash==="#compak") S.disc="compak"; if(location.hash==="#sporting") S.disc="sporting";
 const L=()=>S.lang,t=k=>T[L()][k],tx=(o,k)=>o[k+"_"+L()]||o[k+"_en"]||"";
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -164,9 +171,10 @@ const SYN=[
  [["рушниц","зброя","зброї","ствол"],"gun shotgun weapon barrel"],
  [["патрон","набій","набо","дріб"],"cartridge ammunition shot lead"],
  [["суддя","судді","рефері","арбітр"],"referee judge"],
- [["дуплет","дубль","пара","пари"],"double pair report simultaneous"],
- [["положен","позиці","плеч","приклад"],"position shoulder mount ready"],
+ [["дуплет","дублет","дубль","пара","пари"],"double pair report simultaneous"],
+ [["положен","позиці","плеч","приклад","вкладк","вклада","вкидк","вскид"],"position shoulder mount ready"],
  [["перестріл","шут"],"shoot-off shoot off tie"],
+ [["squad","склад","груп"],"squad group"],
  [["протест","апеляц","скарг"],"appeal protest jury deposit"],
  [["одяг","вбранн","шорт","футбол"],"dress clothing shorts"],
  [["запізн","спізн","пропуст"],"late lateness absent absence"],

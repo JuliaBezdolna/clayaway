@@ -1,7 +1,7 @@
 {
  "ui": {
   "svc": "Trenažér pravidel",
-  "svcS": "ClayAway · FITASC",
+  "svcS": "ClayArena · FITASC",
   "title": "Trenažér pravidel {d}",
   "lead": "Otestujte, jak znáte pravidla: situace na stanovišti, čísla a limity, pravda, nebo nepravda. Po každé odpovědi dostanete vysvětlení a odkaz na pravidlo v průvodci a na stránku oficiálního PDF.",
   "quick": "Rychlý test",
@@ -66,8 +66,8 @@
    "q": "Střelec zavolá 'pull'. Rozhodčí předá signál, ale terč se objeví až asi po pěti sekundách. Střelec vystřelí a mine. Jak rozhodne rozhodčí?",
    "options": [
     "Nula (terč ztracen)",
-    "Opakuje se, jen pokud střelec protestoval před výstřelem",
-    "No Bird (nový terč), terč se opakuje"
+    "No Bird (nový terč), terč se opakuje",
+    "Opakuje se, jen pokud střelec protestoval před výstřelem"
    ],
    "explain": "Terč musí být vypuštěn do 3 sekund od signálu rozhodčího. Terč vypuštěný později je No Bird bez ohledu na výsledek výstřelu."
   },
@@ -83,7 +83,7 @@
   "sp-q005": {
    "q": "Střelec teprve zaujímá pohotovostní postoj a nezavolal, když obsluha vrhačky vypustí terč. Střelec nevystřelí. Jak rozhodne rozhodčí?",
    "options": [
-    "Nula, protože střelec musí být vždy připraven",
+    "Žlutá karta, pak se terč opakuje",
     "Nula (terč ztracen)",
     "No Bird (nový terč), terč se opakuje"
    ],
@@ -102,7 +102,7 @@
    "q": "Jednotlivý terč z vrhačky B. Právě ve chvíli výstřelu hlasitě zazvoní divákovi telefon přímo za stanovištěm, střelec zjevně cukne a mine. Jak rozhodne rozhodčí?",
    "options": [
     "Nula (terč ztracen)",
-    "Nula, vnější hluk nikdy není důvodem",
+    "Opakuje se jen se souhlasem jury",
     "No Bird (nový terč), terč se opakuje"
    ],
    "explain": "Pokud byl střelec zjevně vyrušen, rozhodčí vyhlásí No Bird a terč se opakuje. Zda bylo vyrušení zjevné, posuzuje rozhodčí."
@@ -124,13 +124,13 @@
     "Zásah a zásah",
     "No Bird, dvojstřel se opakuje"
    ],
-   "explain": "U všech druhů dvojstřelu platí: rozbije-li jeden výstřel oba terče, započítají se oba – zásah a zásah."
+   "explain": "Zde oba terče rozbil samotný výstřel, takže u každého druhu dvojstřelu se počítají oba: zásah a zásah. Jinak je tomu, když úlomek prvního terče rozbije druhý před druhým výstřelem (dvojstřel na hlášenou): pak se dvojstřel opakuje a první výsledek zůstává."
   },
   "sp-q010": {
    "q": "Následný dvojstřel (rafale). Oba terče vyletí správně, ale střelec skloní zbraň a bez platného důvodu nevystřelí ani na jeden. Jak rozhodne rozhodčí?",
    "options": [
-    "No Bird, dvojstřel se opakuje",
     "Nula a nula",
+    "No Bird, dvojstřel se opakuje",
     "Nula na první terč, druhý se opakuje"
    ],
    "explain": "Nevystřelit na správný terč bez platného důvodu znamená nulu; u následného nebo současného dvojstřelu tedy nula a nula."
@@ -147,12 +147,12 @@
   "sp-q012": {
    "q": "Dvojstřel na hlášenou. Střelec rozbije první terč a jeden z jeho úlomků rozbije druhý terč dřív, než střelec stihne vystřelit podruhé. Jak rozhodne rozhodčí?",
    "options": [
-    "Dvojstřel se opakuje, nic se nezapočítá",
-    "Zásah a nula",
-    "Zásah a zásah",
-    "Dvojstřel se opakuje, zásah na první terč zůstává"
+    "Opakuje se; nic nezůstává",
+    "Zásah a nula, dvojstřel platí",
+    "Zásah a zásah, dvojstřel platí",
+    "Opakuje se; zásah na první terč zůstává"
    ],
-   "explain": "Pokud první terč nebo jeho úlomky rozbijí druhý terč před druhým výstřelem, dvojstřel se opakuje a výsledek prvního terče zůstává."
+   "explain": "Zde druhý terč rozbil úlomek prvního, ne výstřel, a stalo se to před druhým výstřelem. Nejde tedy o „zásah a zásah“: dvojstřel se opakuje a výsledek prvního terče zůstává. Jinak je tomu, když jeden výstřel rozbije oba terče: pak je to zásah a zásah."
   },
   "sp-q013": {
    "q": "Současný dvojstřel. Jeden z terčů vyletí po nepravidelné dráze; druhý střelec rozbije. Jak rozhodne rozhodčí?",
@@ -166,9 +166,9 @@
   "sp-q014": {
    "q": "Zajíc jako jednotlivý terč. První výstřel mine, zajíc pak narazí na kámen a rozbije se dřív, než střelec vystřelí z druhé hlavně. Jak rozhodne rozhodčí?",
    "options": [
-    "Nula (terč ztracen)",
-    "No Bird; při opakování platí jen zásah druhým výstřelem",
-    "Zásah – one (terč sestřelen)"
+    "Nula: první výstřel už minul",
+    "No Bird; při opakování platí jen druhý výstřel",
+    "Zásah: zajíc se rozbil, takže platí"
    ],
    "explain": "Je to No Bird a zajíc se opakuje, ale při opakování platí jen rozbití druhým výstřelem; rozbití prvním výstřelem je nula."
   },
@@ -176,13 +176,13 @@
    "q": "První problém se zbraní v položce: u jednotlivého terče selže první náboj. Střelec zůstane stát se zbraní mířící do prostoru střelby a z druhé hlavně nevystřelí. Rozhodčí zbraň zkontroluje. Jak rozhodne rozhodčí?",
    "options": [
     "No Bird s napomenutím; terč se opakuje",
-    "Nula (terč ztracen)",
-    "Nula, ale bez napomenutí"
+    "Nula a napomenutí za selhání",
+    "No Bird bez napomenutí; terč se opakuje"
    ],
    "explain": "První porucha zbraně nebo munice v položce znamená napomenutí a No Bird; jednotlivý terč se opakuje. Další poruchy v téže položce jsou nula."
   },
   "sp-q016": {
-   "q": "Později v téže položce selže tomu samému střelci podruhé první náboj u jednotlivého terče. Správně počká na kontrolu rozhodčího. Jak rozhodne rozhodčí?",
+   "q": "Dříve v této položce měl střelec už jedno selhání prvního výstřelu (první porucha, napomenutí). Nyní u jednotlivého terče první výstřel selže znovu a střelec správně čeká na kontrolu rozhodčího. Jak rozhodne rozhodčí?",
    "options": [
     "No Bird (nový terč), terč se opakuje",
     "Nula (terč ztracen)",
@@ -193,9 +193,9 @@
   "sp-q017": {
    "q": "Náboj selže. Rozčilený střelec okamžitě zlomí zbraň, aby se podíval na zápalku, dřív než přijde rozhodčí. Jak rozhodne rozhodčí?",
    "options": [
-    "Nula (terč ztracen)",
     "No Bird (nový terč), terč se opakuje",
-    "No Bird, jde-li o první poruchu v položce"
+    "No Bird, jde-li o první poruchu v položce",
+    "Nula (terč ztracen)"
    ],
    "explain": "Po poruše musí střelec zůstat na místě se zbraní mířící do prostoru střelby, nesmí ji otevřít ani sáhnout na pojistku, dokud ji rozhodčí nezkontroluje. Jinak je terč nula."
   },
@@ -203,7 +203,7 @@
    "q": "Jednotlivý terč, první porucha v položce. První hlaveň selže, ale střelci se podaří vystřelit z druhé hlavně a mine. Jak rozhodne rozhodčí?",
    "options": [
     "No Bird (nový terč), terč se opakuje",
-    "No Bird, protože první výstřel selhal",
+    "Terč se opakuje s jedním nábojem",
     "Nula (terč ztracen)"
    ],
    "explain": "Selhání prvního výstřelu je obvykle No Bird, ale pokud střelec přesto vystřelí druhou ránu, ta platí a terč se hodnotí podle výsledku: zde nula."
@@ -221,8 +221,8 @@
    "q": "Následný dvojstřel, první porucha v položce: u prvního terče vyšlehnou obě rány současně. Jak rozhodne rozhodčí?",
    "options": [
     "První terč se započítá, druhý se opakuje",
-    "Nula a nula",
-    "Opakuje se celý dvojstřel, nic se nezapisuje"
+    "Opakuje se celý dvojstřel, nic se nezapisuje",
+    "Nula a nula"
    ],
    "explain": "U prvního terče dvojstřelu na hlášenou a u současného a následného dvojstřelu znamená současný výstřel z obou hlavní opakování celého dvojstřelu bez zápisu výsledku."
   },
@@ -245,11 +245,11 @@
    "explain": "Zalícení před objevením terče nebo nezaujetí pohotovostního postoje podle bodu 3.1 znamená poprvé ústní napomenutí doplněné žlutou kartou."
   },
   "sp-q023": {
-   "q": "Totéž střeliště, o dvě stanoviště dál: tentýž střelec znovu volá jednotlivý terč s pažbou nad čárou na vestě. Jak rozhodne rozhodčí?",
+   "q": "Dříve na tomto parkuru dostal střelec žlutou kartu za polohu zbraně. O dvě stanoviště dál opět volá jednotlivý terč s pažbou nad značkou na vestě. Jak rozhodne rozhodčí?",
    "options": [
     "Červená karta; terč se opakuje",
-    "Červená karta; terč je nula",
-    "Další žlutá karta"
+    "Další žlutá karta",
+    "Červená karta; terč je nula"
    ],
    "explain": "Po prvním napomenutí dostane střelec za každý další přestupek na stejném střelišti červenou kartu a u jednotlivého terče je terč nula."
   },
@@ -266,8 +266,8 @@
    "q": "Rozhodčí vyhlásí u jednotlivého terče 'No Bird', ale střelec na terč přesto vystřelí. Udělal to poprvé. Jak rozhodne rozhodčí?",
    "options": [
     "Napomenutí; terč se opakuje",
-    "Zásah, pokud terč trefí",
-    "Okamžitě nula"
+    "Zásah, pokud ho střelec trefí",
+    "Hned nula, bez napomenutí"
    ],
    "explain": "Na vyhlášený No Bird se nikdy nestřílí. Poprvé dostane střelec napomenutí; teprve po napomenutí platí nulové sankce podle bodu 12.2."
   },
@@ -292,9 +292,9 @@
   "sp-q028": {
    "q": "Když je střelec vyvolán, vstoupí na stanoviště bez ochranných brýlí a řekne, že je zapomněl v autě. Jak rozhodne rozhodčí?",
    "options": [
-    "Okamžité vyloučení",
-    "Smí odstřílet toto stanoviště a pak si pro ně dojít",
-    "Považuje se za nepřítomného a platí pravidlo o pozdním příchodu a nepřítomnosti (16.7)"
+    "Považuje se za nepřítomného: platí pravidlo 16.7",
+    "Okamžité vyloučení ze závodu",
+    "Smí odstřílet toto stanoviště a pak si je přinést"
    ],
    "explain": "Ochranné brýle jsou povinné bez výjimky. Střelec na stanovišti bez nich se považuje za nepřítomného a uplatní se článek 16.7."
   },
@@ -302,10 +302,10 @@
    "q": "Rozhodčí vyhodnotí terč jako nulu. Jiný člen skupiny bez vyzvání nahlas řekne: 'Ten byl jasně zasažený, viděl jsem úlomek!' Jak rozhodne rozhodčí?",
    "options": [
     "Rozhodčí musí rozhodnutí změnit na zásah",
-    "Rozhodnutí platí; členové skupiny nesmí zasahovat a otevřená kritika se považuje za ovlivňování rozhodčího",
-    "Terč se stává No Bird"
+    "Rozhodnutí platí; otevřená kritika je ovlivňování",
+    "Terč se stává No Bird a opakuje se"
    ],
-   "explain": "Rozhodčí rozhoduje sám; členové skupiny nemají právo rozhodnutí komentovat. Otevřená kritika rozhodnutí ostatními bez svolení je pokus o ovlivnění rozhodčího (sankce podle kapitoly 13)."
+   "explain": "Rozhodčí rozhoduje sám. Členové skupiny nemají právo zasahovat a otevřená kritika rozhodnutí bez vyzvání se považuje za pokus ovlivnit rozhodčího (sankce podle kapitoly 13)."
   },
   "sp-q030": {
    "q": "Střelec si myslí, že jeho poslední terč byl zasažen, ale nic neřekne, zavolá další terč a teprve pak protestuje proti předchozímu. Jak rozhodne rozhodčí?",
@@ -314,7 +314,7 @@
     "Protest se projedná a rozhodčí rozhodnutí přezkoumá",
     "Pozdě: zavoláním dalšího terče rozhodnutí přijal"
    ],
-   "explain": "Zavoláním dalšího terče střelec přijímá rozhodnutí rozhodčího o předchozím terči; námitku musí vznést dříve."
+   "explain": "Nové zavolání znamená, že střelec přijímá hodnocení předchozího terče. Kdo nesouhlasí, musí to říct dřív, než zavolá znovu."
   },
   "sp-q031": {
    "q": "Přeletový terč je rozbit těsně za stromem. Rozhodčí rozhodne, že se střílelo za přirozenou překážkou, a dá nulu. Střelec se chce odvolat. Jak rozhodne rozhodčí?",
@@ -328,9 +328,9 @@
   "sp-q032": {
    "q": "Střelec přijde na střeliště, když jeho skupina ještě střílí jednotlivé terče na stanovišti 1 a on ještě nebyl na řadě. Jak rozhodne rozhodčí?",
    "options": [
+    "Připojí se bez sankce",
     "Jeho jednotlivé terče na stanovišti 1 jsou nula",
-    "Musí střílet střeliště s jinou skupinou",
-    "Připojí se bez sankce"
+    "Musí střílet střeliště s jinou skupinou"
    ],
    "explain": "Opozdilý střelec, který přijde dřív, než propásne svou řadu na jednotlivých terčích prvního stanoviště, se připojí ke skupině bez sankce."
   },
@@ -381,7 +381,7 @@
     "3 až 5 sekund po vypuštění prvního terče",
     "Když střelec zavolá podruhé"
    ],
-   "explain": "Druhý terč dvojstřelu na hlášenou vyletí 0 až 3 sekundy poté, co střelec vystřelí na první; spouští ho výstřel."
+   "explain": "U dvojstřelu na hlášenou spustí druhý terč výstřel na první terč: vyletí 0 až 3 sekundy po tomto výstřelu."
   },
   "sp-q038": {
    "q": "Jaký je nejdelší povolený čas mezi jednotlivými terči nebo mezi dvojstřely?",
@@ -407,11 +407,11 @@
    "q": "Jaká je nejvyšší broková náplň náboje pro Sporting™?",
    "options": [
     "24 g",
-    "28 g (tolerance +2 %)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "Náplň nesmí překročit 28 g olova, s tolerancí nejvýše +2 %."
+   "explain": "Náboj smí obsahovat nejvýše 28 g olověných broků; přijímá se tolerance až +2 %."
   },
   "sp-q041": {
    "q": "Jaký rozsah průměru broků je povolen?",
@@ -497,11 +497,11 @@
    "q": "Kolikrát může střelec na stanovišti při předvedení požádat o opětovné ukázání terče?",
    "options": [
     "Jednou za stanoviště",
-    "Nejvýše 2 terče za každý terč v menu",
-    "Nejvýše 3 terče za vrhačku",
+    "Až 2 na každý terč menu",
+    "Až 3 na vrhačku",
     "Kolikrát je potřeba"
    ],
-   "explain": "Na požádání rozhodčí předvedení zopakuje, nejvýše dva terče za každý terč v pořadí menu."
+   "explain": "Když o to střelec na stanovišti požádá, rozhodčí ukáže dráhy znovu, ale nejvýše dva terče na každý terč menu."
   },
   "sp-q050": {
    "q": "Do jaké doby od vyvolání musí být střelci připraveni k nenaplánovanému rozstřelu?",
@@ -521,7 +521,7 @@
     "Nejméně 8 měsíců",
     "Nejméně 12 měsíců"
    ],
-   "explain": "Střelnice a plán organizace musí být představeny zástupci FITASC nejméně osm měsíců před akcí."
+   "explain": "Zástupce FITASC musí střelnici a organizační plán vidět nejpozději osm měsíců před závodem."
   },
   "sp-q052": {
    "q": "Jaký podíl terčů musí průměrný střelec rozbít, aby dráha patřila do třídy B?",
@@ -568,12 +568,12 @@
    "explain": "Pravda, u dvojstřelu na hlášenou, současného i následného. Volná poloha platí jen mezi oběma terči; před prvním terčem je pohotovostní postoj stále povinný."
   },
   "sp-q057": {
-   "q": "Na zajíce se smí střílet od boku, protože běží po zemi.",
+   "q": "Na zajíce se střílí se zbraní u ramene stejně jako na každý jiný terč.",
    "options": [
     "Pravda",
     "Nepravda"
    ],
-   "explain": "Nepravda. Na každý terč, včetně zajíců, se musí střílet se zbraní zalícenou do ramene."
+   "explain": "Pravda. Na každý terč včetně zajíce se střílí se zbraní přiloženou k rameni; střelba od boku není dovolena."
   },
   "sp-q058": {
    "q": "Při předvedení se dvojstřely na hlášenou ukazují prvnímu střelci skupiny.",
@@ -616,12 +616,12 @@
    "explain": "Pravda. Každý na střelišti nebo v jeho blízkosti musí nosit ochranu sluchu; střelec bez ní se považuje za nepřítomného (16.7)."
   },
   "sp-q063": {
-   "q": "Střelci vyloučenému ze závodu se vrátí startovné za neodstřílené terče.",
+   "q": "Střelec vyloučený ze závodu nedostane zpět peníze ani náhradu za nevystřelené terče.",
    "options": [
     "Pravda",
     "Nepravda"
    ],
-   "explain": "Nepravda. Vyloučený střelec nedostane žádnou náhradu ani jakoukoli finanční kompenzaci."
+   "explain": "Pravda. Vyloučený střelec nedostane zpět žádné peníze ani žádnou finanční náhradu."
   },
   "sp-q064": {
    "q": "V rozstřelu systémem sudden death se u dvojstřelu na hlášenou 'zásah-nula' a 'nula-zásah' počítají stejně.",
@@ -643,18 +643,18 @@
    "q": "Proti kterému z těchto rozhodnutí rozhodčího SE LZE odvolat k jury?",
    "options": [
     "Zda byl terč 'one' nebo 'zero'",
+    "Červená karta za postoj se zbraní",
     "Zda šlo o No Bird",
-    "Zda byla dráha správná",
-    "Červená karta za postoj se zbraní"
+    "Zda byla dráha správná"
    ],
    "explain": "Rozhodnutí o dráze, No Bird a zásahu/nule k jury jít nemohou. Proti jakémukoli jinému rozhodnutí rozhodčího se lze písemně odvolat se zálohou 40 %."
   },
   "sp-q067": {
    "q": "Jury odvolání střelce zamítne. Co se stane se zálohou?",
    "options": [
+    "Na charitu, kterou vybere prezident FITASC",
     "Připadne pořádajícímu klubu",
-    "Připadne na charitu, kterou zvolí předseda FITASC",
-    "Vrátí se tak jako tak",
+    "Střelci se stejně vrátí",
     "Přidá se do cenového fondu"
    ],
    "explain": "Je-li odvolání uznáno, záloha se vrací; pokud ne, připadne na charitu, kterou zvolí předseda FITASC."
@@ -672,9 +672,9 @@
   "sp-q069": {
    "q": "Rozhodčí si není jistý rozhodnutím. S kým se smí poradit a s jakým účinkem?",
    "options": [
-    "S jiným rozhodčím, obsluhou vrhačky nebo střelci skupiny, jen pro radu; jeho rozhodnutí je pak konečné",
+    "Jiný rozhodčí, obsluha vrhaček nebo skupina; jen rada",
     "Jen s jury; její názor je závazný",
-    "S nikým; musí vyhlásit No Bird",
+    "S nikým; sporný terč je vždy No Bird",
     "S trenérem střelce, jehož názor rozhoduje"
    ],
    "explain": "Rozhodčí se smí zeptat jiného rozhodčího, obsluhy vrhačky nebo střelců skupiny čistě pro radu, jejich názory ho nezavazují a jeho rozhodnutí je pak konečné."
@@ -684,47 +684,47 @@
    "options": [
     "Podle barvy terče",
     "Písmeny zprava doleva z pohledu obsluhy vrhačky",
-    "Písmeny A, B, C, D zleva doprava z pohledu ze stanoviště",
-    "Čísly 1–4 v pořadí střelby"
+    "Čísly 1–4 v pořadí střelby",
+    "Písmeny A, B, C, D zleva doprava z pohledu ze stanoviště"
    ],
    "explain": "Vrhačky se označují písmeny A, B, C a D zleva doprava z pohledu ze střeleckého stanoviště; používá je menu i výsledkový list."
   },
   "sp-q071": {
-   "q": "Pozice má 3 vrhačky a 2 dvojstřely. Která kombinace NENÍ dovolena?",
+   "q": "Střelecká pozice má 3 vrhačky a 2 dvojstřely. Která kombinace NENÍ dovolena?",
    "options": [
-    "Dva současné dvojstřely",
-    "Dva následné dvojstřely",
-    "Jeden současný a jeden následný dvojstřel",
-    "Dva dvojstřely na hlášenou"
+    "Jeden současný a jeden na hlášenou",
+    "Dva dvojstřely na hlášenou",
+    "Jeden následný a jeden na hlášenou",
+    "Jeden současný a jeden následný"
    ],
-   "explain": "Na takové pozici mohou být dvojstřely současné, následné nebo obojí, ale dva dvojstřely na hlášenou dovoleny nejsou."
+   "explain": "Na takové pozici musí být alespoň jeden ze dvou dvojstřelů současný nebo následný. Dva dvojstřely na hlášenou dovoleny nejsou."
   },
   "sp-q072": {
    "q": "Které pravidlo platí pro sestavování dvojstřelů na stanovišti?",
    "options": [
-    "Dráha třídy C se ve dvojstřelech smí objevit jen jednou, nejlépe s terčem třídy A",
+    "Třída C se ve dvojstřelech objeví nejvýše jednou",
     "Dvojstřely musí být vždy na hlášenou",
-    "Dvojstřely mohou použít nové dráhy, které nebyly ukázány jako jednotlivé terče",
-    "Dva terče třídy C tvoří nejlepší dvojstřel"
+    "Dvojstřely smějí použít dráhy, které nebyly ukázány jako jednotlivé",
+    "Dva terče třídy C tvoří doporučený dvojstřel"
    ],
-   "explain": "Dvojstřely používají jen terče, které už byly z dané pozice ukázány jako jednotlivé; třída C se smí objevit jen jednou, nejlépe ve dvojici s A. B + B a B + A jsou dovoleny."
+   "explain": "Dvojstřely používají jen terče, které už byly z dané pozice ukázány jako jednotlivé; třída C se smí objevit jen jednou, přednostně ve dvojici s A. B + B a B + A jsou dovoleny."
   },
   "sp-q073": {
-   "q": "Která z těchto možností NENÍ sankcí jury za opakovaný přestupek, odmítnutí uposlechnout nebo ovlivňování rozhodčího?",
+   "q": "Střelec opakuje přestupek, odmítá uposlechnout nebo se snaží ovlivnit rozhodčího. Co z toho jury NEMŮŽE uložit?",
    "options": [
     "Vyloučení ze závodu",
     "Ztráta jednoho terče",
     "Ztráta položky 25 terčů",
     "Peněžitá pokuta"
    ],
-   "explain": "Stupnice jury je: ztráta jednoho terče, ztráta položky 25 terčů nebo vyloučení. Peněžitá pokuta mezi nimi není."
+   "explain": "Jury má tři možnosti: odebrat jeden terč, odebrat položku 25 terčů nebo střelce vyloučit ze závodu. Peněžitá pokuta mezi ně nepatří."
   },
   "sp-q074": {
    "q": "Během položky trenér za stanovištěm neustále radí svému střelci, kde držet zbraň. Co udělá rozhodčí?",
    "options": [
-    "Žlutá karta pro závodníka a trenér je vykázán z prostoru střelby",
     "Okamžité vyloučení střelce",
-    "Nula na další terč střelce",
+    "Žlutá karta střelci; trenér je vykázán",
+    "Nula na příští terč střelce, bez karty",
     "Nic; trénování mezi terči je dovoleno"
    ],
    "explain": "Koučování během závodu je zakázáno: závodník dostane žlutou kartu (opakované přestupky podle kapitoly 13) a trenér je vykázán z prostoru střelby."
@@ -732,19 +732,19 @@
   "sp-q075": {
    "q": "Střelci se na stanovišti 2 porouchá zbraň a nelze ji rychle opravit. Co smí udělat?",
    "options": [
-    "Bez dotazu použít zbraň obsluhy vrhačky",
+    "Vzít bez ptaní jakoukoli zbraň na stanovišti",
     "Vynechat stanoviště a nechat jeho terče zapsat jako No Bird",
-    "Odstřílet celé střeliště později s novou skupinou podle svého výběru",
-    "Se souhlasem rozhodčího ihned pokračovat s jinou zbraní, např. zapůjčenou se svolením majitele"
+    "Se souhlasem rozhodčího hned pokračovat s jinou zbraní",
+    "Později přestřílet celý parkur se skupinou podle výběru"
    ],
-   "explain": "Nelze-li zbraň opravit, střelec smí se souhlasem rozhodčího pokračovat se skupinou, pokud si ihned obstará jinou zbraň; jinak dokončí na volném místě v jiné skupině, jen se svolením jury."
+   "explain": "Pokud zbraň nejde opravit, střelec smí se souhlasem rozhodčího zůstat ve skupině, když hned přejde na jinou zbraň (například půjčenou se souhlasem majitele). Jinak lze zbývající terče dostřílet jen na volném místě v jiné skupině, se svolením jury."
   },
   "sp-q076": {
    "q": "Střelci s release spouští je u prvního terče vyhlášen No Bird. Co musí udělat?",
    "options": [
     "Okamžitě spoušť uvolnit a zbraň otevřít",
-    "Držet spoušť stisknutou a zavolat nový terč, otevřít zbraň se stále drženou spouští, nebo vystřelit bezpečným směrem, který ukáže rozhodčí",
-    "Předat zbraň rozhodčímu",
+    "Držet spoušť; nový terč, otevřít zbraň nebo bezpečný výstřel",
+    "Předat zbraň rozhodčímu, aniž by ji otevřel",
     "Vystřelit do země před stanovištěm"
    ],
    "explain": "Musí držet spoušť stisknutou a zvolit jednu ze tří bezpečných možností: zavolat nový terč, otevřít zbraň s drženou spouští, nebo vystřelit bezpečným směrem, který ukáže rozhodčí."
@@ -753,39 +753,39 @@
    "q": "Co musí rozhodčí udělat s výsledkovým listem, než skupina přejde na další pozici?",
    "options": [
     "Poslat ho po poslíčkovi k výsledkové tabuli",
-    "Nechat ho podepsat všemi střelci",
-    "Předat ho jury",
-    "Vyfotit ho a označit hvězdičkou jméno střelce, který ho ponese"
+    "Dát ji podepsat všem střelcům skupiny",
+    "Předat ji rovnou jury",
+    "Vyfotit ji a označit hvězdičkou toho, kdo ji nese"
    ],
-   "explain": "Rozhodčí list vyfotí a před jméno závodníka, kterému je svěřen, napíše hvězdičku; na každém stanovišti se používá tužka jiné barvy."
+   "explain": "Než skupina přejde dál, rozhodčí kartu vyfotí a udělá hvězdičku před jménem střelce, který ji nese. Každé stanoviště má vlastní barvu tužky."
   },
   "sp-q078": {
    "q": "Které oblečení je pro závodníka přijatelné?",
    "options": [
     "Bermudy, tričko a sandály",
     "Krátké běžecké šortky a tričko",
-    "Skeetová vesta na holém těle",
-    "Dlouhé bermudy končící 4 cm nad kolenem, polokošile s krátkým rukávem, uzavřená obuv"
+    "Bermudy 4 cm nad kolenem, polokošile, uzavřené boty",
+    "Skeetová vesta na holém těle"
    ],
-   "explain": "Přijímají se jen dlouhé bermudy končící nejvýše 5 cm nad kolenem; košile alespoň s krátkým rukávem a s límečkem nebo kulatým výstřihem; žádná vesta na holém těle; žádné sandály."
+   "explain": "Bermudy jsou v pořádku, pokud končí nejvýše 5 cm nad kolenem; košile musí mít rukávy (stačí krátké) a límec nebo kulatý výstřih; žádná vesta na holé tělo a žádné sandály."
   },
   "sp-q079": {
    "q": "Dva střelci se dělí o 5. místo. Jak se rozhodne o pořadí mezi nimi?",
    "options": [
-    "Rozstřel sudden death",
-    "Losem",
-    "Rozstřel na 25 terčů",
-    "Dělí se o místo a seřadí se zpětnou kalkulací od 8. do 1. střeliště"
+    "Sdílené místo; pořadí zpětnou kalkulací od 8. střeliště",
+    "Rozstřel sudden death mezi nimi",
+    "Losem po skončení závodu",
+    "Rozstřel na 25 terčů"
    ],
    "explain": "Rozstřel se koná jen o první tři místa. Od čtvrtého místa níže se střelci se shodným výsledkem dělí o místo a seřadí se zpětnou kalkulací od 8. do 1. střeliště."
   },
   "sp-q080": {
    "q": "Rozhodčí na stanovišti si myslí, že jedna dráha je příliš snadná. Smí ji změnit?",
    "options": [
-    "Ne; vadnou dráhu smí znovu nastavit jen po poruše vrhačky nebo za výjimečného počasí, pokud se terč neobjevuje nebo je nebezpečný",
+    "Ne; jen vadnou dráhu lze v určených případech opravit",
     "Ano, po informování hlavního rozhodčího",
-    "Ano, pokud skupina souhlasí",
-    "Ano, mezi položkami"
+    "Ano, pokud souhlasí celá skupina",
+    "Ano, ale jen mezi dvěma položkami"
    ],
    "explain": "Dráhy nastavené jury a staviteli střelišť jsou pevné. Rozhodčí smí znovu nastavit jen vadnou dráhu po poruše vrhačky nebo za výjimečného počasí; kontrolovat by ji měl stavitel střeliště nebo člen jury."
   },
@@ -868,32 +868,32 @@
    "explain": "Pravda. Na mezinárodních závodech v řadě se používá jen fonické vypouštění spolu s elektronickým rozhodováním a správou výsledků schválenými FITASC."
   },
   "cs-q009": {
-   "q": "U současného dvojstřelu rozbije střelec oba terče prvním nábojem. Na tomto Compaku se mu to stalo poprvé. Jak rozhodne rozhodčí?",
+   "q": "U současného dvojstřelu střelec rozbije oba terče prvním nábojem. Tomuto střelci se to stalo poprvé. Jak rozhodne rozhodčí?",
    "options": [
     "ONE-ONE: započítají se oba terče",
     "ONE na první terč, ZERO na druhý",
     "NO BIRD: nic se nezapočítá a dvojstřel se opakuje",
     "ZERO-ZERO"
    ],
-   "explain": "Když se oba terče současného dvojstřelu rozbijí jedním výstřelem, je dvojstřel NO BIRD a střílí se znovu; stejně i podruhé. Teprve potřetí se zapíše ZERO-ZERO."
+   "explain": "Když jeden výstřel rozbije oba terče současného dvojstřelu, dvojstřel je NO BIRD a střílí se znovu; podruhé stejně. Teprve potřetí se zapíše ZERO-ZERO."
   },
   "cs-q010": {
-   "q": "Střelec potřetí na stejném Compaku rozbije oba terče současného dvojstřelu jediným nábojem. Jak rozhodne rozhodčí?",
+   "q": "Potřetí střelec rozbije oba terče současného dvojstřelu jediným nábojem. Jak rozhodne rozhodčí?",
    "options": [
+    "ZERO-ZERO",
     "NO BIRD – vypustí se nový terč",
     "ONE-ONE",
-    "ZERO-ZERO",
     "ONE-ZERO"
    ],
-   "explain": "Poprvé a podruhé je to NO BIRD a dvojstřel se opakuje; potřetí se dvojstřel zapíše jako ZERO-ZERO."
+   "explain": "Poprvé a podruhé je to NO BIRD a dvojstřel se opakuje; potřetí se dvojstřel zapíše jako ZERO-ZERO. Za jaké období se tyto případy počítají, pravidla neříkají."
   },
   "cs-q011": {
    "q": "U dvojstřelu na hlášenou rozbije první výstřel první terč a jeho úlomek ve vzduchu rozbije i druhý terč. Jak rozhodne rozhodčí?",
    "options": [
     "ONE-ONE: platí oba terče",
-    "ONE na první terč zůstává; dvojstřel se opakuje kvůli hodnocení druhého",
     "Celý dvojstřel je NO BIRD; nic se nezapočítá",
-    "ONE-ZERO"
+    "ONE-ZERO",
+    "ONE na první terč zůstává; dvojstřel se opakuje kvůli hodnocení druhého"
    ],
    "explain": "Pokud první terč nebo jeho úlomky rozbijí druhý terč před druhým výstřelem, výsledek prvního zůstává a dvojstřel se střílí znovu kvůli hodnocení druhého terče."
   },
@@ -920,9 +920,9 @@
   "cs-q014": {
    "q": "V jakém pořadí smí střelec střílet dva terče současného dvojstřelu?",
    "options": [
+    "V libovolném pořadí",
     "Vždy nejdřív levý terč",
     "V pořadí uvedeném v menu",
-    "V libovolném pořadí",
     "Nejdřív terč z vrhačky s nižším písmenem"
    ],
    "explain": "Současný dvojstřel jsou dva terče vypuštěné zároveň ze dvou různých vrhaček a střelec je smí střílet v libovolném pořadí."
@@ -949,9 +949,9 @@
    "q": "Kdo zasedá v odvolací jury na mezinárodním závodě Compak® Sporting?",
    "options": [
     "Hlavní rozhodčí a dva členové jury",
-    "Prezident FITASC, předseda technické komise a předseda pořádajícího svazu (nebo jejich zástupci)",
     "Jeden zástupce každého národního týmu",
-    "Disciplinární komise FITASC"
+    "Celá disciplinární komise FITASC",
+    "Prezident FITASC, předseda technické komise, předseda pořádajícího svazu"
    ],
    "explain": "Odvolací jury má tři členy: prezidenta FITASC, předsedu technické komise a předsedu pořádajícího svazu, nebo jejich zástupce; žádný člen jury v ní zasedat nesmí."
   },
@@ -979,7 +979,7 @@
    "q": "Kdy se smí měnit dráhy, vrhačky nebo menu závodu?",
    "options": [
     "Kdykoli, podle uvážení jury",
-    "Až poté, co všichni střelci odstřílí celé kolo",
+    "Až když všichni střelci odstříleli celou položku",
     "Každé ráno před první skupinou",
     "Jen na žádost rozhodčího"
    ],
@@ -989,8 +989,8 @@
    "q": "Kdy smí střelci na mistrovství světa nebo kontinentu v Compak® Sporting poprvé trénovat na vrhačkách a drahách mistrovství?",
    "options": [
     "Kdykoli během předchozího týdne",
-    "Od oficiálního tréninku v sobotu před mistrovstvím",
     "Jen ráno prvního závodního dne",
+    "Od oficiálního tréninku v sobotu před mistrovstvím",
     "Nikdy: trénink je jen na jiných instalacích"
    ],
    "explain": "Oficiální trénink začíná v sobotu před mistrovstvím a před tímto dnem nesmí nikdo trénovat na vrhačkách a drahách mistrovství. Tréninkové tabulky se navíc musí lišit od závodních."
@@ -999,26 +999,26 @@
    "q": "Střelec přijde na stanoviště se startovním číslem připnutým na přední straně vesty místo na zádech. Jak rozhodne rozhodčí?",
    "options": [
     "V této položce nesmí střílet",
-    "NAPOMENUTÍ; další sankce, pokud to neopraví",
     "Odečte se jeden terč",
-    "Nic: umístění čísla je volné"
+    "Nic: umístění čísla je volné",
+    "NAPOMENUTÍ; další sankce, pokud to neopraví"
    ],
    "explain": "Číslo musí být na zádech, mezi rameny a pasem, celé viditelné. První porušení znamená NAPOMENUTÍ; pokud se neopraví, následují další sankce až po vyloučení rozhodnutím jury."
   },
   "cs-q023": {
-   "q": "Sandály se tolerují při tréninku, ale ne v závodě.",
+   "q": "Sandály jsou v Compaku zakázané při tréninku i v závodě.",
    "options": [
     "Pravda",
     "Nepravda"
    ],
-   "explain": "Nepravda. Z bezpečnostních důvodů jsou sandály zakázány při tréninku i v závodě."
+   "explain": "Pravda. Z bezpečnostních důvodů nejsou sandály dovoleny ani při tréninku, ani v závodě."
   },
   "cs-q024": {
    "q": "Kdo odpovídá za to, že je střelec včas na svém Compaku a připraven s dostatkem munice na položku?",
    "options": [
+    "Střelec sám",
     "Rozhodčí, který chybějící střelce vyvolává",
     "Sekretariát pořadatele",
-    "Střelec sám",
     "Vedoucí skupiny"
    ],
    "explain": "Dodržet zveřejněné časy střelby je povinností střelce: musí se hlásit rozhodčímu, být připraven ihned střílet s výstrojí a municí na celou položku a sledovat změny harmonogramu. Rozhodčí chybějící střelce nehledá."
@@ -1031,17 +1031,17 @@
     "Ztratí jen už odstřílené terče",
     "Žlutá karta, pak střílí"
    ],
-   "explain": "Rozhodující okamžik je první zavolání prvního střelce skupiny; střelec, který přijde později, dostane za položku 25 nul (může se ještě týž den písemně odvolat k jury)."
+   "explain": "Hranicí je okamžik, kdy první střelec skupiny zavolá první terč. Kdo přijde později, dostane za položku 25 nul; písemné odvolání k jury je ještě možné týž den."
   },
   "cs-q026": {
    "q": "Střelec zmešká celý první den závodu. Co se stane?",
    "options": [
-    "Chybějící položky odstřílí druhý den",
-    "Od druhého dne je vyškrtnut ze seznamu; aby mohl střílet, musí se odvolat k jury",
-    "Dostane 25 nul za každou položku a pokračuje",
-    "Dostane zákaz závodů FITASC"
+    "Od 2. dne mimo seznam; ke střelbě odvolání k jury",
+    "Dostřílí zmeškané položky druhý den",
+    "25 nul za položku a střelec pokračuje",
+    "Zákaz všech závodů FITASC"
    ],
-   "explain": "Střelec, který chyběl první den, je od druhého dne vyškrtnut ze seznamu; pokud přijde a chce střílet, musí se odvolat k jury podle kapitoly 9."
+   "explain": "Od druhého dne už střelec, který zmeškal první den, není na seznamu. Aby přesto mohl střílet, musí se odvolat k jury (kapitola 9)."
   },
   "cs-q027": {
    "q": "Střelec smí před začátkem své položky vypálit na závodním stanovišti jeden zkušební výstřel.",
@@ -1070,12 +1070,12 @@
    "explain": "Dotčení střelci musí zůstat v kontaktu s jury a být připraveni méně než 15 minut po vyvolání; nepřítomný střelec se považuje za odstoupivšího."
   },
   "cs-q030": {
-   "q": "Shoda na 5. místě v pořadí jednotlivců se rozhoduje rozstřelem.",
+   "q": "V Compaku se rozstřel koná jen o první tři místa (absolutní pořadí a kategorie).",
    "options": [
     "Pravda",
     "Nepravda"
    ],
-   "explain": "Nepravda. Rozstřel se koná jen o první tři místa; od čtvrtého místa níže jsou střelci se shodným výsledkem hodnoceni stejně a seřadí se zpětnou kalkulací od Compaku 8 po Compak 1."
+   "explain": "Pravda. Od čtvrtého místa níž se střelci se stejným výsledkem dělí o pořadí a seřadí se zpětnou kalkulací od Compaku 8 po Compak 1."
   },
   "cs-q031": {
    "q": "Na jakém Compaku se střílí rozstřel?",
@@ -1085,25 +1085,25 @@
     "1 jednotlivý terč a 2 současné dvojstřely na stanoviště",
     "Poslední Compak závodu, beze změny"
    ],
-   "explain": "Přítomní členové technické komise (jinak jury) vyberou Compak a sestavy; rozstřel používá jeden jednotlivý terč a dva současné dvojstřely na stanoviště."
+   "explain": "Rozstřel se vždy střílí na menu Compaku s jedním jednotlivým terčem a dvěma současnými dvojstřely na stanoviště. Přítomní členové technické komise vyberou Compak a jeho schémata; když nikdo z nich není přítomen, udělá to jury."
   },
   "cs-q032": {
    "q": "Dvě národní družstva mají shodný celkový výsledek. Jak se o pořadí rozhodne?",
    "options": [
     "Rozstřelem družstev na 25 terčů",
-    "Součtem výsledků členů na 8. Compaku, pak na 7. atd.",
     "Nejlepším individuálním výsledkem v každém družstvu",
-    "Podle 1. Compaku, pak 2. atd."
+    "Podle 1. Compaku, pak 2. atd.",
+    "Součet týmu na 8. Compaku, pak na 7. a tak dále"
    ],
    "explain": "Družstva se shodným výsledkem se rozliší součtem výsledků jejich členů na 8. Compaku, pak na 7., 6. a tak dále až k 1."
   },
   "cs-q033": {
-   "q": "Střelec, který odmítne na konci položky podepsat výsledkový list, ztrácí právo podat jakoukoli stížnost.",
+   "q": "Pokud střelec po položce nepodepíše výsledkový list, nemůže už být přijat žádný jeho protest.",
    "options": [
     "Pravda",
     "Nepravda"
    ],
-   "explain": "Pravda. Střelec musí na konci každé položky podepsat výsledkový list; odmítnutí podpisu činí jakoukoli stížnost nepřípustnou."
+   "explain": "Pravda. Každá položka končí podpisem střelce na výsledkovém listu. Kdo nepodepíše, tomu už nelze přijmout žádný protest."
   },
   "cs-q034": {
    "q": "Jak se na výsledkovém listu Compaku označují zásahy a chyby?",
@@ -1123,7 +1123,7 @@
     "6",
     "8"
    ],
-   "explain": "Skupina má nejvýše 6 střelců, kteří střílí stejnou položku ve stejnou dobu na stejné instalaci."
+   "explain": "Jednu skupinu tvoří až 6 střelců: společně střílejí stejnou položku na stejném zařízení."
   },
   "cs-q036": {
    "q": "Kolik času má střelec na zavolání svého terče poté, co byl odstřílen terč předchozího stanoviště?",
@@ -1164,30 +1164,30 @@
    "explain": "Nepravda. V Compaku je poloha zbraně při zavolání volná (zalícená i nezalícená); pravidla neznají start se sklopenou zbraní ani značku na vestě. Na každý terč se pak musí střílet se zbraní v rameni."
   },
   "cs-q040": {
-   "q": "Na jednom Compaku může mít stanoviště 2 dvojstřel na hlášenou a stanoviště 4 současný dvojstřel.",
+   "q": "Na jednom Compaku musí všech pět stanovišť používat stejný druh dvojstřelu.",
    "options": [
     "Pravda",
     "Nepravda"
    ],
-   "explain": "Nepravda. Na jednom Compaku musí být druh dvojstřelu stejný na všech 5 stanovištích; doporučuje se, aby se tabulky lišily od jednoho Compaku k dalšímu."
+   "explain": "Pravda. Na jednom Compaku jsou dvojstřely na každém stanovišti buď všechny současné, nebo všechny na hlášenou. Doporučuje se používat na různých Compacích různé tabulky."
   },
   "cs-q041": {
-   "q": "Který terč je vždy prvním terčem dvojstřelu na stanovišti?",
+   "q": "Který terč v menu Compaku otevírá každý dvojstřel na stanovišti?",
    "options": [
-    "Terč z vrhačky A",
-    "Poslední terč střílený na předchozím stanovišti",
-    "Vzdalující se terč",
-    "Kterýkoli terč podle volby střelce"
+    "Vždy terč z vrhačky A",
+    "Terč, kterým skončilo předchozí stanoviště",
+    "Vždy vzdalující se terč menu",
+    "Jakýkoli terč, o který střelec požádá"
    ],
-   "explain": "Prvním terčem každého dvojstřelu je poslední terč střílený na předchozím stanovišti (např. A-F, F-C, C-E...), proto ho rozhodčí ukazuje dalšímu střelci."
+   "explain": "Dvojstřel vždy začíná terčem, kterým skončilo předchozí stanoviště (příklad řetězce A-F, F-C, C-E…). Rozhodčí tak může tento terč ukázat dalšímu střelci."
   },
   "cs-q042": {
    "q": "Kde při střelbě ve skupině stojí šestý (čekající) střelec a co se stane, když stanoviště 5 dostřílí?",
    "options": [
     "Za stanovištěm 5; pak zaujme stanoviště 5",
-    "Za stanovištěm 1; všichni se posunou o jedno stanoviště doprava a on vstoupí na stanoviště 1",
-    "Vedle rozhodčího; připojí se k další skupině",
-    "Za stanovištěm 3; zaujme prázdné stanoviště"
+    "Vedle rozhodčího; přejde do další skupiny",
+    "Za stanovištěm 3; zaujme volné stanoviště",
+    "Za stanovištěm 1; všichni se posunou o stanoviště doprava"
    ],
    "explain": "Čekající střelec stojí za stanovištěm 1. Když stanoviště 5 dostřílí své menu, odchází čekat, všichni ostatní se posunou o jedno stanoviště doprava a čekající střelec vstoupí na stanoviště 1. Při přechodu mezi stanovišti jsou zbraně otevřené a vybité."
   },
@@ -1195,8 +1195,8 @@
    "q": "Střelec vstoupí na stanoviště a rozhodčí si všimne, že nemá ochranu sluchu. Jak rozhodne rozhodčí?",
    "options": [
     "Žlutá karta, pak smí střílet",
-    "Považuje se za nepřítomného a nesmí střílet",
     "Smí střílet, pokud podepíše prohlášení",
+    "Považuje se za nepřítomného a nesmí střílet",
     "Ztratí jeden terč"
    ],
    "explain": "Ochrana sluchu je povinná; závodník, který přijde na stanoviště bez ní, se považuje za nepřítomného a nesmí střílet. Totéž platí pro ochranné brýle."
@@ -1215,11 +1215,11 @@
    "q": "Jaká je nejvyšší broková náplň náboje pro Compak® Sporting?",
    "options": [
     "24 g",
-    "28 g (tolerance +2 %)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "Broková náplň nesmí překročit 28 gramů olova, s tolerancí +2 %."
+   "explain": "Náboj smí obsahovat nejvýše 28 g olověných broků; přijímá se až +2 %."
   },
   "cs-q046": {
    "q": "Opakovací brokovnice s posuvným předpažbím (pumpa) je v Compak® Sporting povolena, pokud má hlaveň dlouhou nejméně 66 cm.",
@@ -1240,19 +1240,19 @@
   "cs-q048": {
    "q": "Jak musí být označena zbraň s release spouští?",
    "options": [
-    "Červenou stužkou na hlavni",
-    "Velkým 'R' na fluorescenčním podkladu na vnější straně pažby",
+    "Červená stužka uvázaná kolem hlavně",
+    "Nálepka s velkým „R“ na vnější straně pažby",
     "Jen poznámkou ve výsledkovém listu",
     "Označení není nutné, pokud je rozhodčí informován"
    ],
-   "explain": "Majitel musí na vnější stranu pažby nalepit štítek s velkým 'R' na fluorescenčním podkladu jako varování."
+   "explain": "Majitel označí zbraň fluorescenční nálepkou s velkým „R“ na vnější straně pažby, aby to všichni viděli."
   },
   "cs-q049": {
    "q": "Střelec si myslí, že terč zasáhl, ale nic neřekne. Teprve poté, co další střelec zavolá a vystřelí, zvedne ruku a řekne 'PROTEST'. Jak rozhodne rozhodčí?",
    "options": [
     "Rozhodčí musí rozhodnutí přezkoumat a může ho změnit na ONE",
-    "Protest je pozdě; ZERO platí",
     "Terč se opakuje jako NO BIRD",
+    "Protest je pozdě; ZERO platí",
     "Protest jde k jury k rozhodnutí"
    ],
    "explain": "Protest se musí podat okamžitě, na stanovišti, dřív než zavolá další střelec. O zásahu nebo chybě v každém případě rozhoduje jen rozhodčí a odvolat se proti tomu nelze."
@@ -1270,8 +1270,8 @@
   "cs-q051": {
    "q": "Podle menu má jednotlivý terč vyletět z vrhačky C, ale vyletí z vrhačky E. Střelec ho rozbije. Jak rozhodne rozhodčí?",
    "options": [
-    "ONE",
     "NO BIRD – vypustí se nový terč",
+    "ONE",
     "ZERO",
     "ONE a obsluha vrhačky je napomenuta"
    ],
@@ -1300,9 +1300,9 @@
   "cs-q054": {
    "q": "Během švihu přeletí střelci zorným polem terč ze sousedního Compaku. Svůj jednotlivý terč mine. Jak rozhodne rozhodčí?",
    "options": [
-    "ZERO",
     "NO BIRD – vypustí se nový terč",
     "NO BIRD, jen pokud střelec protestuje",
+    "ZERO",
     "ZERO a sousední Compak se zastaví"
    ],
    "explain": "Terč nebo úlomky z jiného Compaku nikdy neopravňují k NO BIRD; opravňuje k němu jen zbloudilý terč z vrhačky téhož Compaku. Chyba platí."
@@ -1310,32 +1310,32 @@
   "cs-q055": {
    "q": "Náhlý poryv větru prudce stlačí pravidelný jednotlivý terč dolů právě ve chvíli výstřelu a střelec mine. Jak rozhodne rozhodčí?",
    "options": [
-    "ZERO",
     "NO BIRD – vypustí se nový terč",
     "NO BIRD, pokud rozhodčí uzná, že vítr byl výjimečný",
-    "Střelec smí jednou za položku požádat o opakování"
+    "Střelec smí jednou za položku požádat o opakování",
+    "ZERO"
    ],
    "explain": "Špatné počasí nikdy neopravňuje k NO BIRD: každý minutý terč je ZERO a každý rozbitý terč je ONE, bez ohledu na podmínky."
   },
   "cs-q056": {
    "q": "U jednotlivého terče první náboj nevystřelí. Je to první porucha tohoto druhu v položce. Střelec zůstane na místě se zbraní mířící do prostoru střelby, dokud ji rozhodčí nezkontroluje. Jak rozhodne rozhodčí?",
    "options": [
-    "ZERO",
-    "NO BIRD, nový terč a první napomenutí (žlutá karta)",
+    "ZERO, terč je ztracen",
+    "NO BIRD, nový terč, žlutá karta",
     "NO BIRD bez napomenutí",
     "ZERO a červená karta"
    ],
    "explain": "Při první poruše v položce 25 terčů dává selhání prvního náboje u jednotlivého terče NO BIRD a nový terč; tato první porucha je spojena s prvním napomenutím (žlutá karta)."
   },
   "cs-q057": {
-   "q": "Později v téže položce má tentýž střelec druhé selhání náboje stejného druhu. Jak rozhodne rozhodčí?",
+   "q": "Dříve v této položce měl střelec už jedno selhání náboje (první porucha, žlutá karta). Nyní u jednotlivého terče náboj selže znovu stejným způsobem. Jak rozhodne rozhodčí?",
    "options": [
     "Znovu NO BIRD, s druhou žlutou kartou",
-    "Všechny terče, na které se nestřílelo, se zapíšou jako ZERO (červená karta)",
     "Střelec je vyloučen ze závodu",
-    "Dostane 2 minuty na opravu zbraně a terč se opakuje"
+    "Dostane 2 minuty na opravu zbraně a terč se opakuje",
+    "Všechny terče, na které se nestřílelo, se zapíšou jako ZERO (červená karta)"
    ],
-   "explain": "Tabulka NO BIRD pro poruchy zbraně nebo náboje platí jen pro první poruchu v položce; při druhé poruše stejného druhu se terče, na které se nestřílelo, zapíšou jako ZERO (červená karta)."
+   "explain": "Tabulka NO BIRD platí jen pro první poruchu v položce. Když se stejný druh poruchy stane podruhé, každý dosud nevystřelený terč této položky je ZERO (červená karta)."
   },
   "cs-q058": {
    "q": "Dvojstřel na hlášenou: střelec rozbije první terč, pak selže jeho druhý náboj. První porucha tohoto druhu v položce. Jak rozhodne rozhodčí?",
@@ -1348,14 +1348,14 @@
    "explain": "Když u dvojstřelu na hlášenou selže druhý náboj (první porucha), výsledek prvního terče platí a dvojstřel se opakuje kvůli druhému terči."
   },
   "cs-q059": {
-   "q": "U jednotlivého terče střelec prvním výstřelem mine a jeho druhý náboj selže. První porucha v položce. Vypustí se nový terč. Jak se musí hodnotit? Jak rozhodne rozhodčí?",
+   "q": "U jednotlivého terče střelec prvním výstřelem mine a druhý náboj selže. Je to první porucha v položce a vyhodí se nový terč. Jak může být nový terč hodnocen?",
    "options": [
+    "Jen druhým výstřelem; první je záměrně mimo",
     "Normálně: rozbít ho může kterýkoli výstřel",
-    "Lze ho započítat jen druhým výstřelem; první musí být úmyslně mimo",
-    "Už je ZERO; nový terč je jen na trénink",
-    "Platí jen první výstřel"
+    "Vůbec ne: je to ZERO, nový je jen na zkoušku",
+    "Jen prvním výstřelem; druhý se nepoužije"
    ],
-   "explain": "Po selhání druhého náboje u jednotlivého terče se vypustí další terč a ten lze rozbít jen druhým výstřelem, takže střelec prvním výstřelem úmyslně mine."
+   "explain": "Selhání druhého náboje dá střelci nový terč, ale rozbít ho smí jen druhý výstřel. První výstřel se proto záměrně vystřelí mimo."
   },
   "cs-q060": {
    "q": "Zajíc je prvním výstřelem minut a pak se rozbije o nerovnost terénu dřív, než padne druhý výstřel. Jak rozhodne rozhodčí?",
@@ -1380,8 +1380,8 @@
   "cs-q062": {
    "q": "Právě když střelec volá, zazní za stanovištěm hlasité hlášení z reproduktoru; rozhodčí jasně vidí, že střelec cukl a sklonil zbraň. Jak rozhodne rozhodčí?",
    "options": [
-    "ZERO",
     "NO BIRD – vypustí se nový terč",
+    "ZERO",
     "ZERO, odmítnutí terče",
     "Napomenutí za zdržování střelby"
    ],
@@ -1391,9 +1391,9 @@
    "q": "Obsluha vrhačky vypustí terč dřív, než si ho střelec zavolal. Překvapený střelec vystřelí a mine. Jak rozhodne rozhodčí?",
    "options": [
     "ZERO",
-    "NO BIRD – vypustí se nový terč",
     "ZERO, protože se rozhodl vystřelit",
-    "ZERO a žlutá karta"
+    "ZERO a žlutá karta",
+    "NO BIRD – vypustí se nový terč"
    ],
    "explain": "Terč, který střelec nezavolal, je důvodem pro NO BIRD; je to také jediný terč, který smí střelec odmítnout."
   },
@@ -1410,8 +1410,8 @@
   "cs-q065": {
    "q": "U současného dvojstřelu střelec skloní zbraň a na první terč nevystřelí s tím, že byl mimo dráhu. Rozhodčí považuje oba terče za pravidelné. Jak rozhodne rozhodčí?",
    "options": [
-    "ZERO na první, druhý se vypustí znovu",
     "ZERO-ZERO",
+    "ZERO na první, druhý se vypustí znovu",
     "NO BIRD",
     "ZERO na první, NO BIRD na druhý"
    ],
@@ -1430,10 +1430,10 @@
   "cs-q067": {
    "q": "Střelec poprvé v položce zavolá asi až 15 sekund poté, co byl odstřílen terč předchozího stanoviště. Pak jednotlivý terč rozbije. Jak rozhodne rozhodčí?",
    "options": [
-    "ZERO",
-    "ONE s napomenutím zapsaným do výsledkového listu",
+    "ZERO za pomalost",
     "NO BIRD a žlutá karta",
-    "ONE bez následků"
+    "ONE bez následků",
+    "ONE a k tomu napomenutí v listu"
    ],
    "explain": "Limit na zavolání je 10 sekund. Při prvním překročení dostane střelec napomenutí zapsané do výsledkového listu; terče stojí až opakování v téže položce."
   },
@@ -1451,9 +1451,9 @@
    "q": "Mezi stanovišti trenér stojící za Compakem neustále radí závodníkovi, kde držet zbraň na další terč. Jak rozhodne rozhodčí?",
    "options": [
     "Nic: rady mezi terči jsou dovoleny",
-    "Žlutá karta pro závodníka; trenér je vykázán z prostoru střelby",
+    "Žlutá karta střelci; trenér je vykázán",
     "Závodník ztratí položku 25 terčů",
-    "Napomenut je jen trenér"
+    "Napomenutí dostane jen trenér"
    ],
    "explain": "Koučování během závodu není dovoleno: závodník dostane žlutou kartu (opakování vede k sankcím podle kapitoly 23) a rozhodčí vykáže trenéra z prostoru střelby."
   },
@@ -1461,8 +1461,8 @@
    "q": "Střelci se porouchá zbraň; rozhodčí ji zkontroluje (první porucha). Uplynou dvě minuty, zbraň není opravena a jiná zbraň není k dispozici. Jak rozhodne rozhodčí?",
    "options": [
     "Smí počkat do konce skupiny a pak dostřílet",
-    "Neodstřílené terče se zapíšou jako nula",
     "Položka se zruší a odstřílí později",
+    "Neodstřílené terče se zapíšou jako nula",
     "Dostane další 2 minuty"
    ],
    "explain": "Po poruše má střelec dvě minuty na opravu nebo výměnu zbraně; se souhlasem rozhodčího smí pokračovat s jinou zbraní, jinak jsou neodstřílené terče nula."
@@ -1471,9 +1471,9 @@
    "q": "První terč současného dvojstřelu: střelec, který už byl na tomto Compaku napomenut, má poruchu, která není jeho první, a na první terč nemůže vystřelit. Jak rozhodne rozhodčí?",
    "options": [
     "ZERO / NO BIRD",
-    "ZERO / ZERO",
     "NO BIRD, nový dvojstřel",
-    "První výsledek se ponechá, druhý ZERO"
+    "První výsledek se ponechá, druhý ZERO",
+    "ZERO / ZERO"
    ],
    "explain": "Při poruše po prvním napomenutí dává tabulka 21.5 u prvního terče současného dvojstřelu ZERO / ZERO (u dvojstřelu na hlášenou ZERO / NO BIRD)."
   },
@@ -1502,10 +1502,10 @@
    "options": [
     "Nic: po obnovení střelby jsou názory volné",
     "Rozhodčí rozhodnutí změní, aby předešel sporu",
-    "Jde o pokus o ovlivnění; rozhodčí to nahlásí a jury může trestat až vyloučením",
+    "Pokus o ovlivnění: nahlásí se, jury může potrestat",
     "Terč se opakuje jako NO BIRD"
    ],
-   "explain": "Pokračování ve sporu o konečném rozhodnutí po obnovení střelby, okázalé dohadování nebo otevřená kritika rozhodnutí ze strany střelců či diváků jsou pokusy o ovlivnění, které jury může trestat až vyloučením."
+   "explain": "Jsou to pokusy o ovlivnění: zpochybňovat konečné rozhodnutí poté, co střelba pokračuje, okázale se o něm přít, nebo střelci a diváci, kteří rozhodnutí otevřeně kritizují. Jury je může potrestat, až vyloučením."
   },
   "cs-q075": {
    "q": "Kolik let vede FITASC záznam o vyloučení?",
@@ -1531,9 +1531,9 @@
    "q": "Zbraň střelce nevystřelí. Dřív, než se na ni rozhodčí stihne podívat, střelec zbraň otevře, aby zkontroloval náboj. Jak rozhodne rozhodčí?",
    "options": [
     "NO BIRD – vypustí se nový terč",
-    "ZERO na dotčený terč",
     "NO BIRD a žlutá karta",
-    "Rozhodčí zbraň zkontroluje teď a rozhodne NO BIRD, pokud je vadná"
+    "Rozhodčí zbraň zkontroluje teď a rozhodne NO BIRD, pokud je vadná",
+    "ZERO na dotčený terč"
    ],
    "explain": "Po selhání musí střelec zůstat na místě, nesmí zbraň otevřít ani sáhnout na pojistku, dokud ji rozhodčí nezkontroluje; pokud to udělá, dotčený terč nebo terče jsou ZERO."
   },
@@ -1548,8 +1548,8 @@
   "cs-q079": {
    "q": "Jak se musí mezi stanovišti nosit samonabíjecí brokovnice?",
    "options": [
-    "Zavřená, zajištěná, ústím dopředu",
     "S otevřeným závěrem, ústím kolmo nahoru nebo dolů",
+    "Zavřená, zajištěná, ústím dopředu",
     "Nabitá jedním nábojem, s otevřeným závěrem",
     "Jakkoli, pokud je vybitá"
    ],

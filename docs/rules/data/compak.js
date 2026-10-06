@@ -1,8 +1,8 @@
 window.RULES = window.RULES || [];
 window.RULES.push({
  "key": "compak",
- "title_en": "Compak Sporting",
- "title_uk": "Compak Sporting",
+ "title_en": "Compak® Sporting",
+ "title_uk": "Compak® Sporting",
  "source": {
   "publisher": "FITASC",
   "doc_title": "International Regulations for Compak Sporting",
@@ -24,8 +24,8 @@ window.RULES.push({
      "id": "ch1-discipline",
      "ref": "Chapter 1, General Information",
      "page": 5,
-     "title_en": "What Compak Sporting is",
-     "title_uk": "Що таке Compak Sporting",
+     "title_en": "What Compak® Sporting is",
+     "title_uk": "Що таке Compak® Sporting",
      "summary_en": "Compak Sporting is a clay target discipline governed by FITASC. The name and the rules are a trade mark registered and protected by FITASC; the cover page adds that the discipline was created in 1989 and adopted by FITASC in 1991. This guide follows the edition dated 01/01/2025, approved by the FITASC General Assembly of 18 July 2024.",
      "summary_uk": "Compak Sporting — дисципліна стендової стрільби по тарілочках, якою опікується FITASC. Назва і правила є зареєстрованою та захищеною торговою маркою FITASC; на титульній сторінці зазначено, що дисципліну створено 1989 року, а FITASC ухвалила її 1991 року. Цей довідник відповідає редакції від 01/01/2025, затвердженій Генеральною асамблеєю FITASC 18 липня 2024 року.",
      "points_en": [
@@ -156,13 +156,13 @@ window.RULES.push({
      "page": 6,
      "title_en": "Firing Angle Limiters (F.A.L.)",
      "title_uk": "Обмежувачі кута стрільби (F.A.L.)",
-     "summary_en": "Each shooting position must have a Firing Angle Limiter for general safety. It has to restrict the swing to the sides, restrict the vertical angle, and stop the shooter from leaning or stepping forward out of the position. The rulebook recommends a frame of coloured PVC tubes of 50 mm diameter with elbows, its base weighted with water or sand or fixed to the ground.",
-     "summary_uk": "На кожному стрілецькому місці для загальної безпеки має стояти обмежувач кута стрільби (F.A.L.). Він повинен обмежувати поворот рушниці в боки, вертикальний кут і не давати стрільцеві висунутися тілом уперед за межі місця. Правила радять раму з кольорових ПВХ-труб діаметром 50 мм із колінами; нижню частину заповнюють водою чи піском або кріплять до землі.",
+     "summary_en": "For everyone's safety each shooting position has a Firing Angle Limiter (F.A.L.). It must limit how far the gun can swing to the sides and how high or low it can point, and it must keep the shooter from leaning or stepping forward out of the position. The model the rulebook advises is a frame of coloured 50 mm PVC tubes joined with elbows; the bottom part is weighed down with water or sand, or anchored to the ground.",
+     "summary_uk": "Для безпеки всіх на кожному стрілецькому місці стоїть обмежувач кута стрільби (F.A.L.). Він має обмежувати, наскільки рушниця повертається в боки й наскільки високо чи низько її можна спрямувати, а також не давати стрільцеві нахилитися чи ступити вперед за межі місця. Модель, яку радять правила, — рама з кольорових ПВХ-труб 50 мм, з’єднаних колінами; нижню частину обтяжують водою чи піском або кріплять до землі.",
      "points_en": [
-      "Compulsory at every position.",
-      "Limits side angle and vertical angle.",
+      "Required at every position.",
+      "Limits the side angle and the vertical angle.",
       "Keeps the shooter's body inside the position.",
-      "Advised model: 50 mm coloured PVC tubes, base filled with water/sand or fixed."
+      "Advised model: coloured 50 mm PVC tubes, base weighed down with water/sand or anchored."
      ],
      "points_uk": [
       "Обов’язковий на кожному місці.",
@@ -274,18 +274,18 @@ window.RULES.push({
      "page": 7,
      "title_en": "Six traps, A to F",
      "title_uk": "Шість машинок, від A до F",
-     "summary_en": "A Compak uses six traps, which may be manual, semi-automatic or automatic. They are named A, B, C, D, E and F from left to right, and each has a panel with its letter showing where it is. The layout also has 5 shooting stations.",
-     "summary_uk": "Compak використовує шість машинок — ручних, напівавтоматичних або автоматичних. Їх позначають літерами A, B, C, D, E, F зліва направо, і біля кожної стоїть табличка з її літерою, що показує її розташування. До установки також належать 5 стрілецьких місць.",
+     "summary_en": "Every Compak has six traps; manual, semi-automatic and automatic machines are all allowed. Looking from left to right they carry the letters A to F, and a sign with the letter stands at each trap so everyone knows which is which. The layout also has 5 shooting stations.",
+     "summary_uk": "Кожен Compak має шість машинок; дозволені ручні, напівавтоматичні й автоматичні. Зліва направо вони мають літери від A до F, і біля кожної стоїть табличка з літерою, щоб усі знали, яка де. До установки також належать 5 стрілецьких місць.",
      "points_en": [
-      "6 traps per Compak.",
-      "Lettered A-F from left to right, each with a sign.",
-      "Manual, semi-automatic or automatic traps are allowed.",
+      "6 traps on each Compak.",
+      "Letters A-F from left to right, a sign at each trap.",
+      "Manual, semi-automatic or automatic machines.",
       "5 shooting stations."
      ],
      "points_uk": [
-      "6 машинок на один Compak.",
+      "6 машинок на кожному Compak.",
       "Літери A–F зліва направо, біля кожної табличка.",
-      "Дозволені ручні, напівавтоматичні й автоматичні машинки.",
+      "Ручні, напівавтоматичні або автоматичні машинки.",
       "5 стрілецьких місць."
      ],
      "terms": [
@@ -421,7 +421,7 @@ window.RULES.push({
       "receding",
       "going away",
       "trench",
-      "обов'язкові траєкторії",
+      "обов’язкові траєкторії",
       "перетин",
       "віддаляльна",
       "окоп",
@@ -463,17 +463,17 @@ window.RULES.push({
      "page": 8,
      "title_en": "Target types and colour",
      "title_uk": "Типи і колір мішеней",
-     "summary_en": "Any target type may be used, standard or special: battue, 60 mm, 90 mm, rabbit, rocket and others. The colour should give the best visibility against the local background. Two-coloured targets are not advised, and battue targets are not advised on very short trajectories.",
-     "summary_uk": "Можна використовувати будь-які мішені — стандартні чи спеціальні: battue, 60 мм, 90 мм, rabbit, rocket тощо. Колір добирають так, щоб мішень було якнайкраще видно на місцевому тлі. Двоколірні мішені не рекомендовані, а battue не радять ставити на дуже короткі траєкторії.",
+     "summary_en": "Any target type may be used, standard or special: battue, 60 mm, 90 mm, rabbit, rocket and others. The colour should stand out well against the local background. Two-coloured targets are not advised, and battue targets are not advised on very short trajectories.",
+     "summary_uk": "Можна використовувати будь-які мішені — стандартні чи спеціальні: battue, 60 мм, 90 мм, rabbit, rocket тощо. Колір добирають так, щоб мішень було добре видно на місцевому тлі. Двоколірні мішені не рекомендовані, а battue не радять ставити на дуже короткі траєкторії.",
      "points_en": [
       "All standard and special targets allowed.",
-      "Colour chosen for best visibility.",
+      "Colour chosen to stand out well.",
       "Bicolour targets not advised.",
       "Battue not advised on very short trajectories."
      ],
      "points_uk": [
       "Дозволені всі стандартні та спеціальні мішені.",
-      "Колір — для найкращої видимості.",
+      "Колір — щоб мішень добре було видно.",
       "Двоколірні мішені не рекомендовані.",
       "Battue не радять на дуже коротких траєкторіях."
      ],
@@ -574,12 +574,12 @@ window.RULES.push({
      "page": 8,
      "title_en": "Doubles: one cartridge per target, no doubling the first",
      "title_uk": "Дуплети: один патрон на мішень, не можна стріляти двічі по першій",
-     "summary_en": "In any double the shooter may fire only one cartridge at each target; firing both shots at the first target is prohibited. The referees' quick guide adds that deliberately firing both shots at the same target in any type of double is scored Zero-Zero.",
+     "summary_en": "In any double the shooter may fire only one cartridge at each target; firing both shots at the first target is prohibited. The referees' quick guide adds that deliberately firing both shots at the same target in any type of double is scored ZERO-ZERO.",
      "summary_uk": "У будь-якому дуплеті по кожній мішені можна вистрілити лише одним патроном; стріляти обома пострілами по першій мішені заборонено. Короткий довідник суддів додає: якщо в будь-якому дуплеті стрілець навмисно випустить обидва постріли в одну мішень, записують «нуль — нуль».",
      "points_en": [
       "One cartridge per target.",
       "Doubling the first target is prohibited.",
-      "Quick guide: both shots deliberately at one target = Zero-Zero."
+      "Quick guide: both shots deliberately at one target = ZERO-ZERO."
      ],
      "points_uk": [
       "Один патрон на мішень.",
@@ -609,7 +609,7 @@ window.RULES.push({
      "page": 8,
      "title_en": "Double on report: both targets broken with one shot",
      "title_uk": "Дуплет на постріл: обидві мішені розбито одним пострілом",
-     "summary_en": "If both targets of a double on report break with a single cartridge, the result on the first target stands and the second target is a NO BIRD, so the double is shot again. The lines about a second and third occurrence (the third being Zero-Zero) follow the simultaneous-double paragraph, and the text does not say clearly whether they also cover doubles on report; ask the referee or jury if it matters.",
+     "summary_en": "If both targets of a double on report break with a single cartridge, the result on the first target stands and the second target is a NO BIRD, so the double is shot again. The lines about a second and third occurrence (the third being ZERO-ZERO) follow the simultaneous-double paragraph, and the text does not say clearly whether they also cover doubles on report; ask the referee or jury if it matters.",
      "summary_uk": "Якщо в дуплеті на постріл обидві мішені розбито одним патроном, результат по першій мішені зараховують, а друга мішень — NO BIRD, тож дуплет повторюють. Положення про другий і третій випадок (утретє — «нуль — нуль») стоять після абзацу про одночасний дуплет, і з тексту не зрозуміло напевно, чи стосуються вони також дуплета на постріл; якщо це важливо, уточніть у судді або журі.",
      "points_en": [
       "Result on target 1 is recorded.",
@@ -642,17 +642,19 @@ window.RULES.push({
      "page": 8,
      "title_en": "Simultaneous double: both targets broken with one shot",
      "title_uk": "Одночасний дуплет: обидві мішені розбито одним пострілом",
-     "summary_en": "If both targets of a simultaneous double break with one cartridge, the double is a NO BIRD, nothing is scored and it is shot again. The same applies the second time it happens. On the third occasion the double is scored Zero-Zero.",
-     "summary_uk": "Якщо в одночасному дуплеті обидві мішені розбито одним патроном, дуплет оголошують NO BIRD, нічого не зараховують і його перестрілюють. Так само діють і вдруге. Утретє дуплет записують як «нуль — нуль».",
+     "summary_en": "If one cartridge breaks both targets of a simultaneous double, the double is a NO BIRD: nothing is scored and it is shot again. The same happens the second time. The third time, the double is scored ZERO-ZERO. The rulebook does not say over what period these times are counted (per double, round or competition).",
+     "summary_uk": "Якщо один патрон розбив обидві мішені одночасного дуплета, дуплет оголошують NO BIRD: нічого не зараховують і його стріляють знову. Удруге — так само. Утретє дуплет оцінюють як ZERO-ZERO. За який період рахують ці випадки (дуплет, серія чи змагання), правила не кажуть.",
      "points_en": [
-      "1st time: NO BIRD, nothing scored, repeat.",
-      "2nd time: NO BIRD, nothing scored, repeat.",
-      "3rd time: Zero-Zero."
+      "1st time: NO BIRD, nothing scored, shot again.",
+      "2nd time: the same.",
+      "3rd time: ZERO-ZERO.",
+      "Counting period: not stated in the rulebook."
      ],
      "points_uk": [
-      "Перший раз: NO BIRD, нічого не зараховують, повтор.",
-      "Другий раз: NO BIRD, нічого не зараховують, повтор.",
-      "Третій раз: «нуль — нуль»."
+      "1-й раз: NO BIRD, нічого не зараховують, повтор.",
+      "2-й раз: так само.",
+      "3-й раз: ZERO-ZERO.",
+      "Період підрахунку: у правилах не вказано."
      ],
      "terms": [
       "simultaneous-double",
@@ -687,18 +689,18 @@ window.RULES.push({
      "page": 10,
      "title_en": "Who sits on the jury",
      "title_uk": "Склад журі",
-     "summary_en": "International events are run by a jury made up of the Technical Commission members present, one representative of each country entering a men's national team, and the FITASC Executive Committee members present, except those who sit on the appeal jury. It is chaired by the President or by a representative of the organising federation.",
-     "summary_uk": "Міжнародні змагання проводить журі, до якого входять присутні члени Технічної комісії, по одному представнику від кожної країни, що виставила чоловічу національну команду, і присутні члени Виконавчого комітету FITASC, крім тих, хто входить до апеляційного журі. Головує Президент або представник федерації-організатора.",
+     "summary_en": "An international event is run by a jury with three groups of members: the Technical Commission members who are present, one representative from every country that enters a men's national team, and the FITASC Executive Committee members who are present (but not those already on the appeal jury). The chair is the President or a representative of the federation organising the event.",
+     "summary_uk": "Міжнародне змагання проводить журі, у якому три групи членів: присутні члени Технічної комісії, по одному представнику від кожної країни, що заявила чоловічу національну команду, і присутні члени Виконавчого комітету FITASC (крім тих, хто вже входить до апеляційного журі). Головує Президент або представник федерації, що організує змагання.",
      "points_en": [
-      "Technical Commission members present.",
+      "Technical Commission members who are present.",
       "One representative per country with a men's national team.",
-      "FITASC Executive Committee members present (not appeal-jury members).",
-      "Chaired by the President or the organising federation's representative."
+      "FITASC Executive Committee members who are present, except appeal-jury members.",
+      "Chair: the President or the organising federation's representative."
      ],
      "points_uk": [
       "Присутні члени Технічної комісії.",
       "По одному представнику від країни з чоловічою командою.",
-      "Присутні члени Виконкому FITASC (крім членів апеляційного журі).",
+      "Присутні члени Виконкому FITASC, крім членів апеляційного журі.",
       "Голова — Президент або представник федерації-організатора."
      ],
      "terms": [
@@ -992,19 +994,19 @@ window.RULES.push({
      "page": 11,
      "title_en": "Who sets and checks the layouts",
      "title_uk": "Хто встановлює і перевіряє схеми",
-     "summary_en": "Layouts are fixed before the competition in the presence of the person in charge of the ground. Either the jury or a designated person picks pre-established trajectory setting tables (Annex 3), or the person in charge of layouts designs them. In both cases the FITASC Technical Committee members present check them and may change them for safety, variety and balance; if none is present, the jury takes on this task.",
-     "summary_uk": "Схеми визначають до початку змагань у присутності відповідального за майданчик. Або журі чи призначена особа обирає готові таблиці налаштування траєкторій (Додаток 3), або схеми складає відповідальний за layouts. В обох випадках присутні члени Технічного комітету FITASC перевіряють їх і за потреби змінюють заради безпеки, різноманітності та збалансованості траєкторій; якщо їх немає, це робить журі.",
+     "summary_en": "The layouts are settled before the competition starts, with the person in charge of the ground present. There are two ways: the jury or a person it names picks ready-made trajectory setting tables (Annex 3), or the person in charge of the layouts draws them up. Either way, the FITASC Technical Committee members who are present check the result and may change it so the trajectories are safe, varied and balanced. If none of them is present, the jury does this check.",
+     "summary_uk": "Схеми визначають до старту змагань за присутності відповідального за майданчик. Є два шляхи: журі або призначена ним особа обирає готові таблиці налаштування траєкторій (Додаток 3), або схеми складає відповідальний за layouts. У будь-якому разі присутні члени Технічного комітету FITASC перевіряють результат і можуть змінити його, щоб траєкторії були безпечними, різноманітними й збалансованими. Якщо нікого з них немає, цю перевірку робить журі.",
      "points_en": [
-      "Set before the start, with the ground manager present.",
-      "Option 1: pre-established trajectory setting tables (Annex 3).",
-      "Option 2: layouts designed by the person in charge.",
-      "Checked by the Technical Committee, otherwise by the jury."
+      "Settled before the start, with the ground manager present.",
+      "Way 1: ready-made trajectory setting tables (Annex 3).",
+      "Way 2: layouts drawn up by the person in charge.",
+      "Checked by the Technical Committee members present, otherwise by the jury."
      ],
      "points_uk": [
       "Визначають до старту за присутності відповідального за майданчик.",
-      "Варіант 1: готові таблиці налаштування траєкторій (Додаток 3).",
-      "Варіант 2: схеми складає відповідальна особа.",
-      "Перевіряє Технічний комітет, а за його відсутності — журі."
+      "Шлях 1: готові таблиці налаштування траєкторій (Додаток 3).",
+      "Шлях 2: схеми складає відповідальна особа.",
+      "Перевіряють присутні члени Технічного комітету, а за їхньої відсутності — журі."
      ],
      "terms": [
       "layout",
@@ -1065,17 +1067,17 @@ window.RULES.push({
      "page": 11,
      "title_en": "Championships: 48 new machines",
      "title_uk": "Чемпіонати: 48 нових машинок",
-     "summary_en": "At continental and world Compak Sporting championships, for fairness, the host club's usual machines may not be used. It is compulsory to use 48 new machines installed and adjusted only for the championship.",
-     "summary_uk": "На континентальних і світових чемпіонатах з Compak Sporting, задля рівних умов, не можна використовувати звичні машинки клубу-організатора. Обов’язково встановлюють 48 нових машинок, змонтованих і налаштованих лише для чемпіонату.",
+     "summary_en": "Continental and world Compak Sporting championships must be fair to everyone, so the host club may not use the machines it normally shoots on. Instead, 48 new machines are required, set up and adjusted for that championship alone.",
+     "summary_uk": "Континентальні й світові чемпіонати з Compak Sporting мають бути чесними для всіх, тому клуб-господар не може використовувати машинки, на яких зазвичай стріляє. Натомість потрібні 48 нових машинок, встановлених і налаштованих лише для цього чемпіонату.",
      "points_en": [
-      "Host club's usual machines are banned.",
-      "48 new machines are compulsory.",
-      "Installed and set only for the championship."
+      "The host club's everyday machines may not be used.",
+      "48 new machines are required.",
+      "Set up and adjusted for that championship alone."
      ],
      "points_uk": [
-      "Звичні машинки клубу заборонені.",
-      "Обов’язкові 48 нових машинок.",
-      "Монтують і налаштовують лише для чемпіонату."
+      "Звичні машинки клубу використовувати не можна.",
+      "Потрібні 48 нових машинок.",
+      "Встановлюють і налаштовують лише для цього чемпіонату."
      ],
      "terms": [
       "trap",
@@ -1220,11 +1222,11 @@ window.RULES.push({
      "page": 12,
      "title_en": "Dress for opening and closing ceremonies",
      "title_uk": "Одяг на церемонії відкриття і закриття",
-     "summary_en": "In the parade of national teams at the opening ceremony, team members wear either the national team outfit or smart trousers with a blazer-type jacket. At the closing ceremony every prize winner must attend the prize giving in the national team outfit or in smart trousers and a blazer-type jacket.",
-     "summary_uk": "Під час параду національних команд на церемонії відкриття учасники вдягають або форму збірної, або охайні штани з піджаком типу блейзер. На церемонії закриття всі призери мають прийти на нагородження у формі збірної або в охайних штанях і блейзері.",
+     "summary_en": "Ceremonies have their own dress rule. When national teams parade at the opening, their members wear the team uniform or smart trousers and a blazer. At the closing, every prize winner comes to the prize giving dressed the same way: team uniform, or smart trousers and a blazer.",
+     "summary_uk": "Для церемоній є окреме правило щодо одягу. Коли національні команди проходять парадом на відкритті, їхні члени вдягають форму збірної або охайні штани й блейзер. На закритті кожен призер приходить на нагородження так само: у формі збірної або в охайних штанях і блейзері.",
      "points_en": [
-      "Opening parade: team outfit or smart trousers + blazer.",
-      "Prize giving: winners in team outfit or smart trousers + blazer."
+      "Opening parade: team uniform, or smart trousers + blazer.",
+      "Prize giving: winners in team uniform, or smart trousers + blazer."
      ],
      "points_uk": [
       "Парад на відкритті: форма збірної або штани + блейзер.",
@@ -1372,16 +1374,16 @@ window.RULES.push({
      "ref": "Chapter 9, Lateness of a Shooter (squad)",
      "page": 13,
      "title_en": "Late in squad shooting: 25 zeros",
-     "title_uk": "Запізнення в стрільбі складом: 25 нулів",
+     "title_uk": "Запізнення в стрільбі squad: 25 нулів",
      "summary_en": "In squad shooting, if a shooter arrives after the first shooter of the squad has called for the first target, the late shooter is scored 25 zeros for that round.",
-     "summary_uk": "У стрільбі складом, якщо стрілець прибуває після того, як перший стрілець його складу вже подав команду на першу мішень, запізнілому записують 25 нулів за цей раунд.",
+     "summary_uk": "У стрільбі squad, якщо стрілець прибуває після того, як перший стрілець його squad уже подав команду на першу мішень, запізнілому записують 25 нулів за цей раунд.",
      "points_en": [
       "Deadline: first call of the first shooter in the squad.",
       "Penalty: 25 zeros.",
       "Appeal possible (see procedure)."
      ],
      "points_uk": [
-      "Межа: перша команда першого стрільця складу.",
+      "Межа: перша команда першого стрільця squad.",
       "Наслідок: 25 нулів.",
       "Можна звернутися до журі (див. процедуру)."
      ],
@@ -1406,12 +1408,12 @@ window.RULES.push({
      "page": 13,
      "title_en": "Late in Compak in line: 25 zeros",
      "title_uk": "Запізнення в Compak in line: 25 нулів",
-     "summary_en": "In in-line shooting, if the late shooter's number has already been cancelled in the computer system and the next shooter is already on station 1, the late shooter gets 25 zeros.",
-     "summary_uk": "У стрільбі in line, якщо номер запізнілого стрільця вже скасовано в комп’ютерній системі, а наступний стрілець уже стоїть на місці № 1, запізнілому записують 25 нулів.",
+     "summary_en": "In Compak in line a shooter counts as late once two things have happened: their competition number is already cancelled in the computer system, and the next shooter is standing on station 1. The late shooter is then scored 25 zeros.",
+     "summary_uk": "У Compak in line стрілець вважається запізнілим, коли сталися дві речі: його номер учасника вже скасовано в комп’ютерній системі, а наступний стрілець стоїть на місці № 1. Тоді запізнілому записують 25 нулів.",
      "points_en": [
       "Number already cancelled in the system.",
-      "Next shooter already at station 1.",
-      "Penalty: 25 zeros."
+      "Next shooter already on station 1.",
+      "Result: 25 zeros."
      ],
      "points_uk": [
       "Номер уже скасовано в системі.",
@@ -1483,15 +1485,15 @@ window.RULES.push({
      "page": 13,
      "title_en": "Absent on day one",
      "title_uk": "Відсутність у перший день",
-     "summary_en": "A shooter absent on the first day of the competition is taken off the list of shooters from the second day onward. If they turn up on the second or a later day and want to shoot, they must appeal to the jury in the way described in chapter 9.",
-     "summary_uk": "Стрільця, відсутнього в перший день змагань, вилучають зі списку учасників починаючи з другого дня. Якщо він з’явиться на другий чи наступний день і захоче стріляти, він має звернутися до журі в порядку, описаному в розділі 9.",
+     "summary_en": "Missing the first day of the competition has a cost: from day two on, the shooter's name is taken off the list. A shooter who appears on day two or later and still wants to shoot has to appeal to the jury, following the procedure in chapter 9.",
+     "summary_uk": "Пропуск першого дня змагань має наслідки: з другого дня ім’я стрільця знімають зі списку. Якщо стрілець з’являється на другий чи пізніший день і все ж хоче стріляти, він має подати апеляцію до журі за порядком із розділу 9.",
      "points_en": [
-      "Absent on day 1: removed from day 2 onward.",
-      "To shoot later: appeal to the jury as in chapter 9."
+      "Missed day 1: off the list from day 2.",
+      "Wants to shoot later: appeal to the jury as in chapter 9."
      ],
      "points_uk": [
-      "Відсутній у день 1: вилучається з дня 2.",
-      "Щоб стріляти згодом: апеляція до журі за розділом 9."
+      "Пропустив день 1: не в списку з дня 2.",
+      "Хоче стріляти згодом: апеляція до журі за розділом 9."
      ],
      "terms": [
       "compak-in-line",
@@ -1503,7 +1505,7 @@ window.RULES.push({
       "first day",
       "removed from list",
       "відсутність",
-      "не з'явився",
+      "не з’явився",
       "перший день",
       "вилучення зі списку"
      ],
@@ -1564,7 +1566,7 @@ window.RULES.push({
      "title_en": "Borrowing a gun after a breakdown",
      "title_uk": "Позичити рушницю після поломки",
      "summary_en": "Only when a gun breaks down may a shooter, as an exception, borrow the gun of another shooter who is not in their group or squad to finish the round. Both the owner and the referee must agree.",
-     "summary_uk": "Лише коли рушниця зламалася, стрілець як виняток може позичити рушницю іншого стрільця, який не входить до його групи чи складу, щоб закінчити раунд. Потрібна згода і власника, і судді.",
+     "summary_uk": "Лише коли рушниця зламалася, стрілець як виняток може позичити рушницю іншого стрільця, який не входить до його групи чи squad, щоб закінчити раунд. Потрібна згода і власника, і судді.",
      "points_en": [
       "Only for a malfunctioning gun.",
       "Lender must not be in the same group/squad.",
@@ -1573,7 +1575,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Лише в разі несправності рушниці.",
-      "Позикодавець не з того самого складу/групи.",
+      "Позикодавець не з того самого squad чи групи.",
       "Потрібна згода власника і судді.",
       "Ліміт 2 хвилини на ремонт — див. 21.4."
      ],
@@ -1614,7 +1616,7 @@ window.RULES.push({
       "Exceptional borrowing is only from outside the group (chapter 12)."
      ],
      "points_uk": [
-      "Одну рушницю не можна ділити в межах групи чи складу.",
+      "Одну рушницю не можна ділити в межах групи чи squad.",
       "Винятково позичати можна лише в того, хто не з групи (розділ 12)."
      ],
      "terms": [
@@ -1677,21 +1679,21 @@ window.RULES.push({
      "page": 14,
      "title_en": "Shoot-offs for the top three: 25 targets, then sudden death",
      "title_uk": "Перестрілка за перші три місця: 25 мішеней, потім до першого нуля",
-     "summary_en": "Ties for the first three places of the open ranking and of each category are decided by a round of 25 targets. If still tied, a second stage is shot as sudden death, the first zero eliminating, with each shooter shooting the same number of targets on the same stand (Annex 5). When shooters in an open-ranking shoot-off belong to the same category, the result also counts for their category ranking. Empty places in a shoot-off squad are not filled.",
-     "summary_uk": "Нічию за перші три місця в абсолютному заліку та в кожній категорії вирішує раунд із 25 мішеней. Якщо рівність зберігається, другий етап стріляють до першого нуля (sudden death): кожен стріляє однакову кількість мішеней на тому самому майданчику (Додаток 5). Якщо учасники перестрілки за абсолютний залік належать до однієї категорії, її результат зараховують і для заліку категорії. Вільні місця у складі на перестрілці не заповнюють.",
+     "summary_en": "A tie for a top-three place, in the open ranking or in a category, is settled by shooting 25 more targets. If the shooters are still level, they go on to sudden death: the first zero is out, and everyone shoots the same number of targets from the same stand (Annex 5). If shooters in an open-ranking shoot-off are in the same category, its result also decides their category places. Free places in a shoot-off squad stay empty.",
+     "summary_uk": "Рівність за місце в першій трійці — в абсолютному заліку чи в категорії — розв’язують ще 25 мішенями. Якщо стрільці знову рівні, далі йде sudden death: перший нуль вибуває, і всі стріляють однакову кількість мішеней з того самого місця (Додаток 5). Якщо учасники перестрілки за абсолютний залік належать до однієї категорії, її результат вирішує і їхні місця в категорії. Вільні місця в squad на перестрілці лишаються порожніми.",
      "points_en": [
-      "Top 3 (open and categories): 25-target round.",
-      "Still tied: sudden death, first zero eliminates.",
-      "Same number of targets for everyone, same stand.",
-      "Open shoot-off also decides the shared category.",
-      "Empty squad places are not filled."
+      "Top 3 (open and categories): 25 more targets.",
+      "Still level: sudden death, the first zero is out.",
+      "Same number of targets for all, same stand.",
+      "Open shoot-off also settles a shared category.",
+      "Free squad places stay empty."
      ],
      "points_uk": [
-      "Перші 3 місця (абсолют і категорії): раунд 25 мішеней.",
-      "Знову нічия: до першого нуля.",
-      "Однакова кількість мішеней для всіх, той самий майданчик.",
+      "Перша трійка (абсолют і категорії): ще 25 мішеней.",
+      "Знову рівність: sudden death, перший нуль вибуває.",
+      "Однакова кількість мішеней для всіх, те саме місце.",
       "Перестрілка за абсолют вирішує і спільну категорію.",
-      "Вільні місця у складі не заповнюють."
+      "Вільні місця в squad лишаються порожніми."
      ],
      "terms": [
       "shoot-off",
@@ -1896,14 +1898,14 @@ window.RULES.push({
      "title_en": "Who keeps the score sheet",
      "title_uk": "Хто веде протокол",
      "summary_en": "In squad shooting the referee keeps the score sheet (example in Annex 1). In line with manual scoring the referee also keeps it (example in Annex 2). In line with an electronic system the results appear on a screen.",
-     "summary_uk": "У стрільбі складом протокол веде суддя (зразок у Додатку 1). In line з ручним записом його також веде суддя (зразок у Додатку 2). In line з електронною системою результати показуються на екрані.",
+     "summary_uk": "У стрільбі squad протокол веде суддя (зразок у Додатку 1). In line з ручним записом його також веде суддя (зразок у Додатку 2). In line з електронною системою результати показуються на екрані.",
      "points_en": [
       "Squad: referee keeps the sheet (Annex 1).",
       "In line manual: referee keeps the sheet (Annex 2).",
       "In line electronic: results on screen."
      ],
      "points_uk": [
-      "Склад: протокол веде суддя (Додаток 1).",
+      "Squad: протокол веде суддя (Додаток 1).",
       "In line вручну: протокол веде суддя (Додаток 2).",
       "In line електронно: результати на екрані."
      ],
@@ -1969,15 +1971,15 @@ window.RULES.push({
      "page": 15,
      "title_en": "Signing the score sheet",
      "title_uk": "Підпис протоколу",
-     "summary_en": "In every case the shooter must sign the score sheet at the end of the round. A shooter who refuses to sign loses the right to make any complaint.",
-     "summary_uk": "У будь-якому разі стрілець має підписати протокол наприкінці раунду. Якщо він відмовляється підписати, жодні його скарги не приймаються.",
+     "summary_en": "Whatever happened in the round, the shooter signs the score sheet when it ends. If the shooter will not sign, none of their complaints can be accepted afterwards.",
+     "summary_uk": "Хай що сталося в серії, після неї стрілець підписує протокол. Якщо стрілець не підписує, жодну його скаргу потім не приймуть.",
      "points_en": [
-      "Sign at the end of every round.",
-      "Refusal to sign: no complaint admissible."
+      "Sign when every round ends.",
+      "No signature: no complaint can be accepted."
      ],
      "points_uk": [
-      "Підпис наприкінці кожного раунду.",
-      "Відмова підписати: скарги не приймаються."
+      "Підпис після кожної серії.",
+      "Немає підпису — скарги не приймають."
      ],
      "terms": [
       "score-sheet",
@@ -1998,16 +2000,16 @@ window.RULES.push({
      "ref": "Annex 1, Score sheet - by squad",
      "page": 29,
      "title_en": "Squad score sheet layout (Annex 1)",
-     "title_uk": "Протокол для стрільби складом (Додаток 1)",
+     "title_uk": "Протокол для стрільби squad (Додаток 1)",
      "summary_en": "Annex 1 shows a squad score sheet with squad number, round number and referee, and for each shooter a row of 25 target boxes grouped by station, a total and a signature. Each of the six shooters starts at a different station (or at the waiting position), so the boxes are laid out in the order that shooter actually shoots the stations.",
-     "summary_uk": "У Додатку 1 наведено протокол для стрільби складом: номер складу, номер раунду, суддя, а для кожного стрільця — 25 клітинок, згрупованих за місцями, підсумок і підпис. Кожен із шести стрільців починає з іншого місця (або з місця очікування), тому клітинки розташовано в тому порядку, у якому стрілець справді проходить місця.",
+     "summary_uk": "У Додатку 1 наведено протокол для стрільби squad: номер squad, номер раунду, суддя, а для кожного стрільця — 25 клітинок, згрупованих за місцями, підсумок і підпис. Кожен із шести стрільців починає з іншого місця (або з місця очікування), тому клітинки розташовано в тому порядку, у якому стрілець справді проходить місця.",
      "points_en": [
       "Header: squad No., round No., referee.",
       "25 boxes per shooter grouped by station, total, signature.",
       "Rows follow each shooter's starting station, including 'Wait'."
      ],
      "points_uk": [
-      "Шапка: № складу, № раунду, суддя.",
+      "Шапка: № squad, № раунду, суддя.",
       "25 клітинок на стрільця за місцями, підсумок, підпис.",
       "Рядки відповідають стартовому місцю кожного стрільця, зокрема «Wait»."
      ],
@@ -2073,17 +2075,17 @@ window.RULES.push({
      "ref": "Chapter 16, Glossary (Squad, Group)",
      "page": 15,
      "title_en": "Squad and group",
-     "title_uk": "Склад (squad) і група (group)",
-     "summary_en": "A squad (Compak by squad) is a group of at most 6 shooters shooting the same round at the same time on the same installation. A group (in line) is the total number of competitors divided by the number of Compaks; every shooter in it starts on station 1 and finishes on station 5.",
-     "summary_uk": "Склад (squad, Compak by squad) — група з не більше ніж 6 стрільців, які одночасно стріляють той самий раунд на тій самій установці. Група (group, in line) — загальна кількість учасників, поділена на кількість Compak; кожен стрілець у ній починає з місця № 1 і завершує на місці № 5.",
+     "title_uk": "Squad і група (group)",
+     "summary_en": "The rulebook's glossary uses two different words. A squad (Compak by squad) means up to 6 shooters who shoot one round together, at the same time, on one installation. A group (Compak in line) is worked out by dividing the number of competitors by the number of Compaks; each shooter in a group begins on station 1 and ends on station 5.",
+     "summary_uk": "Глосарій правил розрізняє два слова. Squad (Compak by squad) — це до 6 стрільців, які разом і одночасно стріляють одну серію на одній установці. Група (group, Compak in line) — це кількість учасників, поділена на кількість Compak; кожен стрілець групи починає на місці № 1 і закінчує на місці № 5.",
      "points_en": [
-      "Squad: max 6 shooters, same round, same time.",
-      "Group (in line): total shooters / number of Compaks.",
+      "Squad: up to 6 shooters, one round, together.",
+      "Group (in line): number of competitors ÷ number of Compaks.",
       "In line everyone goes from station 1 to station 5."
      ],
      "points_uk": [
-      "Склад: до 6 стрільців, той самий раунд одночасно.",
-      "Група (in line): усі стрільці / кількість Compak.",
+      "Squad: до 6 стрільців, одна серія, разом.",
+      "Група (in line): кількість учасників ÷ кількість Compak.",
       "In line кожен іде від місця 1 до місця 5."
      ],
      "terms": [
@@ -2235,14 +2237,14 @@ window.RULES.push({
      "page": 17,
      "title_en": "Each double starts with the last target of the previous station",
      "title_uk": "Кожен дуплет починається з останньої мішені попереднього місця",
-     "summary_en": "The first target of each double must be the last target shot at the previous station. In the rulebook's example the doubles run A-F, F-C, C-E, E-B, B-D across stations 1 to 5, so each double begins with the target that ended the station before. This is why the referee shows the first target of the double to the next shooter.",
-     "summary_uk": "Перша мішень кожного дуплета має бути останньою мішенню, відстріляною на попередньому місці. У прикладі з правил дуплети на місцях 1–5 такі: A-F, F-C, C-E, E-B, B-D — кожен починається з мішені, якою завершилося попереднє місце. Саме тому суддя показує наступному стрільцеві першу мішень дуплета.",
+     "summary_en": "In a Compak menu every double opens with the target that closed the station before it. The sample menu in the rulebook gives stations 1 to 5 the doubles A-F, F-C, C-E, E-B and B-D: each one starts with the letter the previous station finished on. That is why the referee can show the next shooter the first target of their double.",
+     "summary_uk": "У меню Compak кожен дуплет відкривається тією мішенню, якою закінчилося попереднє місце. У прикладі меню з правил місця 1–5 мають дуплети A-F, F-C, C-E, E-B і B-D: кожен починається з літери, на якій завершилося попереднє місце. Тому суддя й може показати наступному стрільцеві першу мішень його дуплета.",
      "points_en": [
-      "First target of a double = last target of the previous station.",
-      "Example chain: A-F, F-C, C-E, E-B, B-D."
+      "A double opens with the target that closed the station before.",
+      "Sample chain: A-F, F-C, C-E, E-B, B-D."
      ],
      "points_uk": [
-      "Перша мішень дуплета = остання мішень попереднього місця.",
+      "Дуплет відкривається мішенню, якою закінчилося попереднє місце.",
       "Приклад ланцюжка: A-F, F-C, C-E, E-B, B-D."
      ],
      "terms": [
@@ -2265,16 +2267,16 @@ window.RULES.push({
      "ref": "Chapter 17, 17.2 Menu (squad with fewer than six)",
      "page": 17,
      "title_en": "Squad of fewer than six: empty station",
-     "title_uk": "Склад менше шести: порожнє місце",
-     "summary_en": "When a squad has fewer than six shooters, the last target of the empty station must be shown to the next shooter, so that he sees the target his double starts with.",
-     "summary_uk": "Якщо у складі менше шести стрільців, останню мішень порожнього місця потрібно показати наступному стрільцеві, щоб він побачив мішень, з якої починається його дуплет.",
+     "title_uk": "Squad менше шести: порожнє місце",
+     "summary_en": "A squad of fewer than six leaves a station empty. The next shooter would then miss the target their double opens with, so the last target of the empty station is shown to them.",
+     "summary_uk": "Якщо в squad менше шести стрільців, одне місце лишається порожнім. Тоді наступний стрілець не побачив би мішені, з якої відкривається його дуплет, тож йому показують останню мішень порожнього місця.",
      "points_en": [
-      "Fewer than 6 in the squad: empty stations occur.",
-      "Last target of the empty station is shown to the next shooter."
+      "Fewer than 6 in the squad: a station stays empty.",
+      "Its last target is shown to the next shooter."
      ],
      "points_uk": [
-      "Менше 6 у складі: з’являються порожні місця.",
-      "Останню мішень порожнього місця показують наступному стрільцеві."
+      "Менше 6 у squad: місце лишається порожнім.",
+      "Його останню мішень показують наступному стрільцеві."
      ],
      "terms": [
       "squad",
@@ -2335,15 +2337,15 @@ window.RULES.push({
      "ref": "Chapter 17, 17.3 Squads and groups of shooters",
      "page": 17,
      "title_en": "Size of squads and groups",
-     "title_uk": "Розмір складів і груп",
+     "title_uk": "Розмір squad і груп",
      "summary_en": "In squad Compak a squad has at most 6 shooters. In in-line Compak the size of a group is the total number of shooters divided by the number of Compaks in use.",
-     "summary_uk": "У Compak складом склад налічує не більше ніж 6 стрільців. У Compak in line розмір групи — це загальна кількість стрільців, поділена на кількість задіяних Compak.",
+     "summary_uk": "У Compak by squad один squad налічує не більше ніж 6 стрільців. У Compak in line розмір групи — це загальна кількість стрільців, поділена на кількість задіяних Compak.",
      "points_en": [
       "Squad: max 6.",
       "In line group: total shooters / number of Compaks."
      ],
      "points_uk": [
-      "Склад: до 6.",
+      "Squad: до 6.",
       "Група in line: усі стрільці / кількість Compak."
      ],
      "terms": [
@@ -2366,19 +2368,19 @@ window.RULES.push({
      "ref": "Chapter 17, 17.4 Shooting sequence for Compak by Squad (showing targets)",
      "page": 17,
      "title_en": "Squad: showing the targets",
-     "title_uk": "Склад: показ мішеней",
-     "summary_en": "Shooters take the stations in the order on the score sheet. Only once in the morning, for the first squad, the targets are shown: the shooter on position 1 calls each single from A to F (the text says a maximum of 2 targets), then the referee shows all simultaneous doubles for positions 1 to 5. The referee then calls 'start' or 'competition' to the first shooter. After an interruption of more than 10 minutes the referee shows the 6 singles again.",
-     "summary_uk": "Стрільці займають місця в порядку, зазначеному в протоколі. Лише раз уранці, для першого складу, показують мішені: стрілець на місці № 1 викликає кожну одиночну від A до F (у тексті — щонайбільше 2 мішені), після чого суддя показує всі одночасні дуплети для місць 1–5. Потім суддя оголошує першому стрільцеві «start» або «competition». Якщо стрільбу перервано більш ніж на 10 хвилин, суддя знову показує 6 одиночних мішеней.",
+     "title_uk": "Squad: показ мішеней",
+     "summary_en": "Shooters go to their positions in the order printed on the score sheet. The demonstration happens just once, in the morning, for the first squad of the day: the shooter on position 1 calls the singles A to F (the rulebook adds 'maximum of 2 targets'), and the referee then shows every simultaneous double for positions 1 to 5. After that the referee tells the first shooter 'start' or 'competition'. If shooting stops for more than 10 minutes, the six singles are shown again.",
+     "summary_uk": "Стрільці стають на місця в порядку, надрукованому в протоколі. Демонстрація буває лише раз — уранці, для першого squad дня: стрілець на місці № 1 викликає одиночні A–F (у правилах додано «щонайбільше 2 мішені»), а потім суддя показує всі одночасні дуплети для місць 1–5. Після цього суддя каже першому стрільцеві «start» або «competition». Якщо стрільбу зупинили більш ніж на 10 хвилин, шість одиночних показують знову.",
      "points_en": [
-      "Order of stations from the score sheet.",
-      "Show once in the morning, to the first squad only.",
-      "Singles A-F (max 2 each, as the text implies), then all simultaneous doubles.",
-      "Interruption over 10 minutes: 6 singles shown again."
+      "Positions follow the score sheet.",
+      "Demonstration: once in the morning, first squad only.",
+      "Singles A-F first (rulebook: 'maximum of 2 targets'), then all simultaneous doubles.",
+      "Break of more than 10 minutes: the 6 singles are shown again."
      ],
      "points_uk": [
-      "Порядок місць — за протоколом.",
-      "Показ раз уранці, лише першому складу.",
-      "Одиночні A–F (за текстом, щонайбільше 2), потім усі одночасні дуплети.",
+      "Місця — у порядку протоколу.",
+      "Демонстрація: раз уранці, лише для першого squad.",
+      "Спершу одиночні A–F (у правилах: «щонайбільше 2 мішені»), потім усі одночасні дуплети.",
       "Перерва понад 10 хвилин: 6 одиночних показують знову."
      ],
      "terms": [
@@ -2442,7 +2444,7 @@ window.RULES.push({
      "ref": "Chapter 17, 17.4 Shooting sequence for Compak by Squad (rotation)",
      "page": 18,
      "title_en": "Squad rotation through the stations",
-     "title_uk": "Перехід складу між місцями",
+     "title_uk": "Перехід squad між місцями",
      "summary_en": "Shooters shoot in turn, each taking the singles and doubles in menu order, and station 1 always starts the series of five targets. The waiting shooter stands behind station 1. When the shooter on station 5 has finished his menu, he goes to wait behind station 1, everyone else moves one station to the right, and the waiting shooter steps onto station 1. After shooting, a competitor waits for the next shooter to finish before moving, without disturbing him. The referee tells the shooter on station 1 when to start.",
      "summary_uk": "Стрільці стріляють по черзі, кожен — одиночні й дуплети в порядку меню, і серію з п’яти мішеней завжди починає місце № 1. Стрілець в очікуванні стоїть позаду місця № 1. Коли стрілець на місці № 5 завершив своє меню, він іде чекати позаду місця № 1, решта переходить на одне місце праворуч, а той, хто чекав, стає на місце № 1. Відстрілявши, учасник чекає, поки наступний завершить, і лише тоді переходить, не заважаючи йому. Суддя повідомляє стрільцеві на місці № 1, коли починати.",
      "points_en": [
@@ -2514,16 +2516,16 @@ window.RULES.push({
      "ref": "Annex 4, Old system position the shooter for the progression of a round",
      "page": 37,
      "title_en": "Old squad progression charts (Annex 4)",
-     "title_uk": "Старі схеми просування складу (Додаток 4)",
+     "title_uk": "Старі схеми просування squad (Додаток 4)",
      "summary_en": "Annex 4 shows, for squads of 6, 5, 4, 3 and 2 shooters, where each shooter stands in each of the six turns of a round, including the waiting position and empty stations. It is labelled as the old system, so it is useful as a visual aid for the rotation but the current sequence is the one described in 17.4.",
-     "summary_uk": "Додаток 4 показує для складів із 6, 5, 4, 3 і 2 стрільців, де стоїть кожен стрілець на кожному з шести етапів раунду, з місцем очікування та порожніми місцями. Його позначено як стару систему, тож він корисний як наочна ілюстрація ротації, а чинну послідовність описано в 17.4.",
+     "summary_uk": "Додаток 4 показує для squad із 6, 5, 4, 3 і 2 стрільців, де стоїть кожен стрілець на кожному з шести етапів раунду, з місцем очікування та порожніми місцями. Його позначено як стару систему, тож він корисний як наочна ілюстрація ротації, а чинну послідовність описано в 17.4.",
      "points_en": [
       "Charts for squads of 6, 5, 4, 3, 2.",
       "Shows waiting position and empty stations.",
       "Marked 'old system'; current rules in 17.4."
      ],
      "points_uk": [
-      "Схеми для складів із 6, 5, 4, 3, 2 стрільців.",
+      "Схеми для squad із 6, 5, 4, 3, 2 стрільців.",
       "Показано місце очікування та порожні місця.",
       "Позначено як «стара система»; чинні правила — 17.4."
      ],
@@ -2549,19 +2551,19 @@ window.RULES.push({
      "page": 18,
      "title_en": "In line with doubles on report",
      "title_uk": "In line з дуплетами на постріл",
-     "summary_en": "Shooter 1 enters station 1, shooter 2 waits, and the referee stands to the left of station 1 without getting in the way. At shooter 1's request the referee shows the singles A to F, at most 2 times, then calls 'start' or 'competition'. Shooter 1 shoots all singles in menu order; the referee shows him the first target of the report double and he shoots the double, repeating for a second double. This continues as the line fills, the first target of the double(s) being shown to each new shooter on station 1, until someone is on station 5.",
-     "summary_uk": "Стрілець 1 займає місце № 1, стрілець 2 чекає, а суддя стоїть ліворуч від місця № 1, не заважаючи. На прохання стрільця 1 суддя показує одиночні від A до F, щонайбільше 2 рази, і оголошує «start» або «competition». Стрілець 1 відстрілює всі одиночні в порядку меню, суддя показує йому першу мішень дуплета на постріл, і стрілець стріляє дуплет; так само з другим дуплетом. Далі, поки лінія заповнюється, кожному новому стрільцеві на місці № 1 показують першу мішень дуплета (дуплетів), доки хтось не стане на місце № 5.",
+     "summary_en": "The line starts with shooter 1 on station 1 and shooter 2 waiting; the referee stands left of station 1, out of the shooter's way. If shooter 1 asks, the referee demonstrates the singles A to F (no more than twice) and then says 'start' or 'competition'. Shooter 1 shoots all the singles in menu order. Before each report double the referee shows its first target, and the shooter then shoots the double (the same again for a second double). Each new shooter who steps onto station 1 is shown the first target of their double(s), and this goes on until a shooter reaches station 5.",
+     "summary_uk": "Лінія починається так: стрілець 1 на місці № 1, стрілець 2 чекає; суддя стоїть ліворуч від місця № 1 і не заважає стрільцеві. Якщо стрілець 1 попросить, суддя демонструє одиночні від A до F (не більше двох разів) і каже «start» або «competition». Стрілець 1 стріляє всі одиночні в порядку меню. Перед кожним дуплетом на постріл суддя показує його першу мішень, а тоді стрілець стріляє дуплет (так само з другим дуплетом). Кожному новому стрільцеві на місці № 1 показують першу мішень його дуплета (дуплетів), і так триває, доки хтось не дійде до місця № 5.",
      "points_en": [
-      "Referee to the left of station 1.",
-      "Singles A-F shown max 2 times on shooter 1's request.",
-      "First target of each report double shown before shooting it.",
-      "Repeated until a shooter reaches station 5."
+      "Referee left of station 1.",
+      "Singles A-F demonstrated at most twice if shooter 1 asks.",
+      "Before each report double its first target is shown.",
+      "Goes on until a shooter reaches station 5."
      ],
      "points_uk": [
       "Суддя ліворуч від місця № 1.",
-      "Одиночні A–F показують щонайбільше 2 рази на прохання стрільця 1.",
-      "Перед дуплетом на постріл показують його першу мішень.",
-      "Повторюється, доки стрілець не дійде до місця № 5."
+      "Одиночні A–F демонструють не більше двох разів, якщо попросить стрілець 1.",
+      "Перед кожним дуплетом на постріл показують його першу мішень.",
+      "Триває, доки стрілець не дійде до місця № 5."
      ],
      "terms": [
       "compak-in-line",
@@ -2586,17 +2588,17 @@ window.RULES.push({
      "page": 18,
      "title_en": "In line with simultaneous doubles",
      "title_uk": "In line з одночасними дуплетами",
-     "summary_en": "For the first shooter the referee shows the singles A to F, the simultaneous double(s) of station 1 and all the doubles of every station up to 5, then calls 'start' or 'competition'. From the second shooter on, the referee shows the first target of the simultaneous double to the shooter on station 1, until a shooter is on station 5, repeating for a second double; the same applies to the last shooter. After an interruption of more than 10 minutes the 6 singles are shown again.",
-     "summary_uk": "Першому стрільцеві суддя показує одиночні від A до F, одночасний дуплет (дуплети) місця № 1 і всі дуплети кожного місця до № 5, після чого оголошує «start» або «competition». Починаючи з другого стрільця, суддя показує стрільцеві на місці № 1 першу мішень одночасного дуплета, доки хтось не стане на місце № 5; так само з другим дуплетом і для останнього стрільця. Після перерви понад 10 хвилин 6 одиночних показують знову.",
+     "summary_en": "The start is the same as with report doubles. The first shooter is shown the singles A to F, the simultaneous double(s) of station 1 and every double of the other stations up to 5; then the referee says 'start' or 'competition'. From the second shooter on, whoever stands on station 1 is shown the first target of the simultaneous double, until a shooter is on station 5 (the same for a second double). The last shooter is treated the same way. If shooting stops for more than 10 minutes, the six singles are shown again.",
+     "summary_uk": "Початок такий самий, як із дуплетами на постріл. Першому стрільцеві показують одиночні від A до F, одночасний дуплет (дуплети) місця № 1 і всі дуплети інших місць до № 5; тоді суддя каже «start» або «competition». Починаючи з другого стрільця, тому, хто стоїть на місці № 1, показують першу мішень одночасного дуплета, доки хтось не стане на місце № 5 (так само з другим дуплетом). З останнім стрільцем роблять так само. Якщо стрільбу зупинили більш ніж на 10 хвилин, шість одиночних показують знову.",
      "points_en": [
-      "First shooter sees singles A-F and all simultaneous doubles.",
-      "Later shooters on station 1: first target of the double is shown.",
-      "Interruption over 10 minutes: 6 singles shown again."
+      "First shooter: singles A-F and all simultaneous doubles.",
+      "From shooter 2: the first target of the double is shown on station 1.",
+      "Break of more than 10 minutes: the 6 singles again."
      ],
      "points_uk": [
-      "Перший стрілець бачить одиночні A–F і всі одночасні дуплети.",
-      "Наступним на місці № 1 показують першу мішень дуплета.",
-      "Перерва понад 10 хвилин: 6 одиночних показують знову."
+      "Перший стрілець: одиночні A–F і всі одночасні дуплети.",
+      "Від стрільця 2: на місці № 1 показують першу мішень дуплета.",
+      "Перерва понад 10 хвилин: 6 одиночних знову."
      ],
      "terms": [
       "compak-in-line",
@@ -2620,17 +2622,17 @@ window.RULES.push({
      "page": 19,
      "title_en": "Closing the line",
      "title_uk": "Закриття лінії",
-     "summary_en": "When the last shooter of the line moves to station 2, the referee moves to station 1. At each station, after the singles, the referee shows that shooter the first target of his double in menu order before he shoots the double(s). This is repeated at every station until the last shooter completes the round.",
-     "summary_uk": "Коли останній стрілець лінії переходить на місце № 2, суддя переходить на місце № 1. На кожному місці після одиночних суддя показує цьому стрільцеві першу мішень його дуплета в порядку меню, перш ніж той стріляє дуплет(и). Так повторюють на кожному місці, доки останній стрілець не завершить раунд.",
+     "summary_en": "As the line empties, the referee follows it: when the last shooter steps onto station 2, the referee moves to station 1. At each station, once the singles are done, the referee shows the shooter the opening target of each of their doubles, following the menu, before the double is shot. This continues station by station until the last shooter has finished the round.",
+     "summary_uk": "Коли лінія спорожнюється, суддя йде за нею: щойно останній стрілець стає на місце № 2, суддя переходить на місце № 1. На кожному місці, коли одиночні відстріляно, суддя показує стрільцеві першу мішень його дуплета (у порядку меню), і лише тоді стріляють дуплет. Так триває від місця до місця, доки останній стрілець не закінчить серію.",
      "points_en": [
-      "Last shooter at station 2: referee moves to station 1.",
-      "First target of the double shown before the double(s).",
-      "Repeated until the round is complete."
+      "Last shooter on station 2: the referee moves to station 1.",
+      "After the singles, the double's first target is shown.",
+      "Station by station until the round is over."
      ],
      "points_uk": [
       "Останній стрілець на місці № 2: суддя переходить на місце № 1.",
-      "Перед дуплетом показують його першу мішень.",
-      "Повторюється до завершення раунду."
+      "Після одиночних показують першу мішень дуплета.",
+      "Від місця до місця, доки серія не закінчиться."
      ],
      "terms": [
       "compak-in-line",
@@ -2775,17 +2777,17 @@ window.RULES.push({
      "page": 19,
      "title_en": "Release trigger: the 'R' sticker",
      "title_uk": "Release trigger: наліпка «R»",
-     "summary_en": "The owner of a gun with a release trigger must stick, on the outside of the buttstock, a label with a large 'R' on a fluorescent background as a warning. If the law of the host country of an international competition bans release triggers, this must be stated in the competition programme.",
-     "summary_uk": "Власник рушниці зі спуском на відпускання (release trigger) має наклеїти на зовнішній бік приклада наліпку з великою літерою «R» на флуоресцентному тлі як попередження. Якщо закон країни-господарки міжнародних змагань забороняє release trigger, це треба вказати в програмі змагань.",
+     "summary_en": "A gun with a release trigger has to be marked so others can see it: its owner sticks a fluorescent label with a large letter 'R' on the outside of the stock. Some host countries forbid release triggers by law; in that case the programme of the international competition must say so.",
+     "summary_uk": "Рушницю зі спуском на відпускання (release trigger) треба позначити, щоб це бачили інші: власник клеїть флуоресцентну наліпку з великою літерою «R» на зовнішній бік приклада. У деяких країнах закон забороняє release trigger; тоді це має бути сказано в програмі міжнародного змагання.",
      "points_en": [
-      "Large 'R' on a fluorescent background.",
-      "On the outer side of the buttstock.",
-      "Host-country ban must appear in the competition programme."
+      "Fluorescent label with a large 'R'.",
+      "On the outside of the stock.",
+      "A legal ban in the host country is announced in the programme."
      ],
      "points_uk": [
-      "Велика «R» на флуоресцентному тлі.",
+      "Флуоресцентна наліпка з великою «R».",
       "На зовнішньому боці приклада.",
-      "Заборону країни-господарки вказують у програмі змагань."
+      "Заборону за законом країни-господарки оголошують у програмі."
      ],
      "terms": [
       "release-trigger",
@@ -2808,15 +2810,15 @@ window.RULES.push({
      "page": 19,
      "title_en": "Cartridges: 28 g lead, shot 2-2.5 mm",
      "title_uk": "Патрони: 28 г свинцю, дріб 2–2,5 мм",
-     "summary_en": "The shot load may not exceed 28 grams of lead, with a +2% tolerance. The lead shot must be spherical and of a regular diameter between 2 and 2.5 mm, with a tolerance of +/-0.1 mm.",
-     "summary_uk": "Маса дробового заряду — не більше 28 грамів свинцю з допуском +2%. Дробини мають бути кулястими й однакового діаметра від 2 до 2,5 мм, з допуском ±0,1 мм.",
+     "summary_en": "Each cartridge may hold at most 28 g of lead shot; a tolerance of +2% is accepted. The pellets must be round and all of the same size, 2 to 2.5 mm across, with ±0.1 mm accepted.",
+     "summary_uk": "Кожен патрон може містити щонайбільше 28 г свинцевого дробу; допускається +2%. Дробини мають бути круглими й однакового розміру — від 2 до 2,5 мм у діаметрі, з допуском ±0,1 мм.",
      "points_en": [
-      "Max 28 g lead, +2% tolerance.",
-      "Spherical shot, 2 to 2.5 mm, +/-0.1 mm."
+      "Shot load: 28 g of lead at most, +2% accepted.",
+      "Round pellets of one size, 2 to 2.5 mm, ±0.1 mm."
      ],
      "points_uk": [
-      "Щонайбільше 28 г свинцю, допуск +2%.",
-      "Кулястий дріб 2–2,5 мм, ±0,1 мм."
+      "Навіска: щонайбільше 28 г свинцю, допуск +2%.",
+      "Круглі дробини одного розміру, 2–2,5 мм, ±0,1 мм."
      ],
      "terms": [
       "cartridge",
@@ -2992,8 +2994,8 @@ window.RULES.push({
      "page": 22,
      "title_en": "The referee's commitments",
      "title_uk": "Зобов’язання судді",
-     "summary_en": "Referees at international competitions promise on their honour to apply the rules, to judge with integrity and independence, to ignore their own nationality and federation, to stand where they can judge best, to announce decisions loudly and clearly, to receive shooters' objections respectfully without being swayed, and to carry the current Compak Sporting rules in at least the FITASC official languages.",
-     "summary_uk": "Судді міжнародних змагань дають слово честі дотримуватися правил і вимагати їх виконання, судити чесно й незалежно, не зважати на власне громадянство і федерацію, стояти там, звідки найкраще видно, оголошувати рішення голосно й чітко, шанобливо вислуховувати заперечення стрільців, не піддаючись тиску, і мати при собі чинні правила Compak Sporting принаймні офіційними мовами FITASC.",
+     "summary_en": "Referees at international competitions promise on their honour to apply the rules, to judge with integrity and independence, to ignore their own nationality and federation, to stand where they can judge well, to announce decisions loudly and clearly, to receive shooters' objections respectfully without being swayed, and to carry the current Compak Sporting rules in at least the FITASC official languages.",
+     "summary_uk": "Судді міжнародних змагань дають слово честі дотримуватися правил і вимагати їх виконання, судити чесно й незалежно, не зважати на власне громадянство і федерацію, стояти там, звідки добре видно, оголошувати рішення голосно й чітко, шанобливо вислуховувати заперечення стрільців, не піддаючись тиску, і мати при собі чинні правила Compak Sporting принаймні офіційними мовами FITASC.",
      "points_en": [
       "Integrity and independence; nationality ignored.",
       "Good judging position.",
@@ -3014,7 +3016,7 @@ window.RULES.push({
       "referee duties",
       "neutrality",
       "суддя",
-      "обов'язки судді",
+      "обов’язки судді",
       "незалежність",
       "нейтральність"
      ],
@@ -3026,18 +3028,18 @@ window.RULES.push({
      "page": 22,
      "title_en": "Referee approval and qualifications",
      "title_uk": "Затвердження і кваліфікація суддів",
-     "summary_en": "Referees must be approved by the jury before the competition and hold a valid refereeing card from their national federation. A referee without enough international experience must be checked by international referees. The Head Referee must hold an international card and be qualified as Head Referee by FITASC.",
-     "summary_uk": "Суддів має затвердити журі до початку змагань, і кожен повинен мати чинне суддівське посвідчення своєї національної федерації. Суддю без достатнього міжнародного досвіду мають перевірити міжнародні судді. Головний суддя повинен мати міжнародне посвідчення і кваліфікацію Головного судді FITASC.",
+     "summary_en": "Before the competition starts, the jury approves every referee. Each one needs a valid referee card from their own national federation. A referee with little international experience is checked by international referees. The Head Referee needs an international card and the FITASC qualification for that role.",
+     "summary_uk": "До початку змагання журі затверджує кожного суддю. Кожен має мати чинне суддівське посвідчення своєї національної федерації. Суддю з малим міжнародним досвідом перевіряють міжнародні судді. Головному судді потрібні міжнародне посвідчення й кваліфікація FITASC для цієї ролі.",
      "points_en": [
-      "Approved by the jury beforehand.",
-      "Valid national referee card.",
-      "Less experienced referees checked by international referees.",
-      "Head Referee: international card + FITASC Head Referee qualification."
+      "The jury approves referees before the start.",
+      "Valid card from the national federation.",
+      "Little international experience: checked by international referees.",
+      "Head Referee: international card + FITASC qualification for the role."
      ],
      "points_uk": [
-      "Затверджує журі заздалегідь.",
-      "Чинне національне посвідчення.",
-      "Менш досвідчених перевіряють міжнародні судді.",
+      "Журі затверджує суддів до старту.",
+      "Чинне посвідчення національної федерації.",
+      "Малий міжнародний досвід: перевіряють міжнародні судді.",
       "Головний суддя: міжнародне посвідчення + кваліфікація FITASC."
      ],
      "terms": [
@@ -3136,14 +3138,14 @@ window.RULES.push({
      "title_en": "Referee in doubt: who may be consulted",
      "title_uk": "Суддя має сумнів: з ким можна порадитися",
      "summary_en": "If in doubt, the referee may ask for information from another referee on site, the trapper, the shooters of the squad or the shooters keeping the score sheet before deciding. He does not have to follow their opinions. The decision he then announces cannot be contested and is imposed on the shooter.",
-     "summary_uk": "Якщо суддя має сумнів, перед остаточним рішенням він може розпитати іншого суддю, присутнього на місці, оператора машинок (trapper), стрільців складу або стрільців, які ведуть протокол. Дотримуватися їхньої думки він не зобов’язаний. Рішення, яке він після цього оголосить, оскаржити не можна, і стрілець мусить його прийняти.",
+     "summary_uk": "Якщо суддя має сумнів, перед остаточним рішенням він може розпитати іншого суддю, присутнього на місці, оператора машинок (trapper), стрільців squad або стрільців, які ведуть протокол. Дотримуватися їхньої думки він не зобов’язаний. Рішення, яке він після цього оголосить, оскаржити не можна, і стрілець мусить його прийняти.",
      "points_en": [
       "May consult: another referee, the trapper, squad shooters, score-keepers.",
       "Not bound by their opinions.",
       "Final decision cannot be contested."
      ],
      "points_uk": [
-      "Може порадитися: з іншим суддею, оператором машинок, стрільцями складу, тими, хто веде протокол.",
+      "Може порадитися: з іншим суддею, оператором машинок, стрільцями squad, тими, хто веде протокол.",
       "Не зобов’язаний зважати на їхню думку.",
       "Остаточне рішення оскарженню не підлягає."
      ],
@@ -3215,17 +3217,17 @@ window.RULES.push({
      "page": 23,
      "title_en": "When a target is a hit (ONE)",
      "title_uk": "Коли мішень зараховано (ONE)",
-     "summary_en": "A target is scored ONE when it was properly thrown, the shooter fired according to the rules, and at least one visible piece came off it or it was totally or partly pulverised. The same applies to flash targets.",
-     "summary_uk": "Мішень зараховують як ONE, якщо її правильно подано, стрілець вистрілив за правилами і від неї відлетів принаймні один видимий уламок або її повністю чи частково розбито на порох. Те саме стосується мішеней flash.",
+     "summary_en": "Three things make a target ONE: it was thrown properly, the shot followed the rules, and the target visibly lost at least one piece or was turned to dust, fully or partly. Flash targets are judged the same way.",
+     "summary_uk": "Мішень зараховують як ONE за трьох умов: її правильно запущено, постріл був за правилами, і від неї видимо відлетів хоча б один уламок або її повністю чи частково розбито на пил. Мішені flash оцінюють так само.",
      "points_en": [
-      "Regular target, regular shot.",
-      "At least one visible piece, or total/partial pulverisation.",
-      "Also valid for flash targets."
+      "Proper target, shot within the rules.",
+      "At least one visible piece, or fully/partly turned to dust.",
+      "Flash targets: same rule."
      ],
      "points_uk": [
-      "Правильна мішень, правильний постріл.",
-      "Хоча б один видимий уламок або повне/часткове розпорошення.",
-      "Діє і для мішеней flash."
+      "Правильна мішень, постріл за правилами.",
+      "Хоча б один видимий уламок або мішень повністю чи частково розбита на пил.",
+      "Мішені flash: те саме правило."
      ],
      "terms": [
       "one",
@@ -3286,17 +3288,17 @@ window.RULES.push({
      "page": 23,
      "title_en": "Gun or cartridge failures: first and second incident",
      "title_uk": "Відмови рушниці чи патрона: перший і другий випадок",
-     "summary_en": "The NO BIRD table for gun or ammunition failures applies to the first incident in a given round of 25 targets on a Compak; that first incident brings a first warning (yellow card). For a second incident of the same type, all targets not shot at are scored ZERO (red card).",
-     "summary_uk": "Таблиця NO BIRD для відмов рушниці чи набоїв діє при першому випадку в межах одного раунду з 25 мішеней на Compak; цей перший випадок тягне перше попередження (жовта картка). За другий випадок того самого типу всі мішені, по яких не стріляли, зараховують як ZERO (червона картка).",
+     "summary_en": "Failures are counted within one round of 25 targets on a Compak. The first time a gun or cartridge fails in that round, the NO BIRD table is used and the shooter gets a first warning (yellow card). If the same kind of failure happens again in that round, every target not yet shot at is scored ZERO (red card).",
+     "summary_uk": "Відмови рахують у межах однієї серії з 25 мішеней на Compak. Коли рушниця чи патрон відмовляє в цій серії вперше, діє таблиця NO BIRD, а стрілець отримує перше попередження (жовта картка). Якщо така сама відмова повториться в тій самій серії, усі мішені, по яких ще не стріляли, зараховують як ZERO (червона картка).",
      "points_en": [
-      "Counted per round of 25 targets.",
-      "1st incident: NO BIRD + yellow card.",
-      "2nd incident of the same type: targets not shot = ZERO (red card)."
+      "Counted within one round of 25 targets.",
+      "First failure: NO BIRD table + yellow card.",
+      "Same kind of failure again: remaining targets = ZERO (red card)."
      ],
      "points_uk": [
-      "Рахується в межах раунду з 25 мішеней.",
-      "1-й випадок: NO BIRD + жовта картка.",
-      "2-й випадок того самого типу: невідстріляні мішені = ZERO (червона картка)."
+      "Рахують у межах однієї серії з 25 мішеней.",
+      "Перша відмова: таблиця NO BIRD + жовта картка.",
+      "Така сама відмова вдруге: решта мішеней = ZERO (червона картка)."
      ],
      "terms": [
       "malfunction",
@@ -3326,8 +3328,8 @@ window.RULES.push({
      "page": 23,
      "title_en": "Both barrels fire together or the first cartridge fails",
      "title_uk": "Обидва стволи вистрілили разом або відмовив перший патрон",
-     "summary_en": "If both shots go off at the same time, or the first cartridge fails, on a first incident: on a single target another target is thrown; on the first target of a double on report another double is thrown; on a simultaneous double another double is thrown. Nothing is established from the failed attempt.",
-     "summary_uk": "Якщо обидва постріли пролунали одночасно або відмовив перший патрон, то при першому випадку: на одиночній мішені подають іншу мішень; на першій мішені дуплета на постріл подають інший дуплет; на одночасному дуплеті подають інший дуплет. Результат невдалої спроби не враховують.",
+     "summary_en": "On a first incident where both barrels go off together, or the first cartridge fails, the shooter simply gets the target or double again. Single: a new target. First target of a double on report: a new double. Simultaneous double: a new double. The failed attempt does not count for anything.",
+     "summary_uk": "Якщо при першому випадку обидва стволи вистрілили разом або відмовив перший патрон, стрілець просто отримує мішень чи дуплет знову. Одиночна: нова мішень. Перша мішень дуплета на постріл: новий дуплет. Одночасний дуплет: новий дуплет. Невдала спроба нічого не важить.",
      "points_en": [
       "Single: NO BIRD, new target.",
       "First target of a report double: NO BIRD, new double.",
@@ -3365,19 +3367,19 @@ window.RULES.push({
      "page": 23,
      "title_en": "The second cartridge fails",
      "title_uk": "Відмовив другий патрон",
-     "summary_en": "If the second cartridge fails on a first incident: on a single target another target is thrown and it can only be broken by the second shot, so the first shot must be a deliberate miss; on a double on report the result of the first target stands and the double is repeated for the second; on a simultaneous double another double is thrown. The quick guide confirms that on a second occurrence with a simultaneous double the first result is kept and the second target is zero.",
-     "summary_uk": "Якщо при першому випадку відмовив другий патрон: на одиночній мішені подають іншу мішень, і зарахувати її можна лише другим пострілом, тож перший постріл має бути навмисним промахом; у дуплеті на постріл результат першої мішені зберігається, а дуплет повторюють заради другої; на одночасному дуплеті подають інший дуплет. Короткий довідник уточнює: при повторному випадку на одночасному дуплеті перший результат зберігається, а друга мішень — нуль.",
+     "summary_en": "When the second cartridge fails on a first incident, the outcome depends on the target. Single: a new target is thrown, and only the second shot may break it, so the shooter has to miss on purpose with the first. Double on report: the first target's result stands and the double is thrown again to score the second. Simultaneous double: a new double is thrown. The quick guide adds that on a second occurrence with a simultaneous double the first result is kept and the second target is zero.",
+     "summary_uk": "Коли при першому випадку відмовляє другий патрон, наслідок залежить від мішені. Одиночна: подають нову мішень, і розбити її можна лише другим пострілом, тож першим стрілець має навмисно промахнутися. Дуплет на постріл: результат першої мішені зберігають, а дуплет подають знову, щоб оцінити другу. Одночасний дуплет: подають новий дуплет. Короткий довідник додає: при повторному випадку на одночасному дуплеті перший результат зберігають, а друга мішень — нуль.",
      "points_en": [
-      "Single: new target, only the second shot counts.",
-      "Report double: first result kept, double repeated.",
-      "Simultaneous: new double (1st incident).",
-      "2nd occurrence on simultaneous: 1st result kept, 2nd = ZERO (quick guide)."
+      "Single: new target, only the second shot may break it.",
+      "Report double: first result kept, the double again.",
+      "Simultaneous: a new double (first incident).",
+      "Second occurrence on a simultaneous double: first result kept, second = ZERO (quick guide)."
      ],
      "points_uk": [
-      "Одиночна: нова мішень, зараховується лише другий постріл.",
-      "Дуплет на постріл: перший результат зберігається, дуплет повторюють.",
-      "Одночасний: новий дуплет (1-й випадок).",
-      "Повторний випадок на одночасному: 1-й результат зберігається, 2-га = ZERO (довідник)."
+      "Одиночна: нова мішень, розбити її можна лише другим пострілом.",
+      "Дуплет на постріл: перший результат зберігають, дуплет знову.",
+      "Одночасний: новий дуплет (перший випадок).",
+      "Повторний випадок на одночасному: перший результат зберігають, друга = ZERO (довідник)."
      ],
      "terms": [
       "malfunction",
@@ -3443,19 +3445,19 @@ window.RULES.push({
      "page": 24,
      "title_en": "What happens after a target NO BIRD",
      "title_uk": "Що буває після NO BIRD через мішень",
-     "summary_en": "On a single target another target is thrown. On the first target of a double on report another double is thrown. If the second target of a report double is irregular, or the first target or its pieces break the second before the second shot, the first result stands and the double is repeated to score the second. Any irregular target in a simultaneous double means the whole double is thrown again.",
-     "summary_uk": "На одиночній мішені подають іншу мішень. На першій мішені дуплета на постріл подають інший дуплет. Якщо неправильною була друга мішень дуплета на постріл або перша мішень чи її уламки розбили другу ще до другого пострілу, результат першої зберігається, а дуплет повторюють, щоб оцінити другу. Будь-яка неправильна мішень в одночасному дуплеті означає, що весь дуплет подають знову.",
+     "summary_en": "What follows a target NO BIRD depends on where it happened. Single: a new target is thrown. First target of a double on report: the whole double is thrown again. Second target of a report double irregular, or the first target (or a piece of it) breaks the second before the second shot: the result of the first is kept and the double is thrown again to score the second. Simultaneous double with any irregular target: the double is thrown again.",
+     "summary_uk": "Що буде після NO BIRD через мішень, залежить від того, де це сталося. Одиночна: подають нову мішень. Перша мішень дуплета на постріл: увесь дуплет подають знову. Неправильна друга мішень дуплета на постріл або перша мішень (чи її уламок) розбила другу до другого пострілу: результат першої зберігають, а дуплет подають знову, щоб оцінити другу. Одночасний дуплет із будь-якою неправильною мішенню: дуплет подають знову.",
      "points_en": [
-      "Single: new target.",
-      "Report double, 1st target: new double, nothing established.",
-      "Report double, 2nd target (or 1st breaks 2nd): 1st result kept, double repeated.",
-      "Simultaneous double: new double."
+      "Single: a new target.",
+      "Report double, first target: the double again, nothing scored.",
+      "Report double, second target (or the first breaks the second): first result kept, double again.",
+      "Simultaneous double: the double again."
      ],
      "points_uk": [
       "Одиночна: нова мішень.",
-      "Дуплет на постріл, 1-ша мішень: новий дуплет, нічого не враховано.",
-      "Дуплет на постріл, 2-га мішень (або 1-ша розбила 2-гу): 1-й результат зберігається, дуплет повторюють.",
-      "Одночасний дуплет: новий дуплет."
+      "Дуплет на постріл, перша мішень: дуплет знову, нічого не зараховано.",
+      "Дуплет на постріл, друга мішень (або перша розбила другу): перший результат зберігають, дуплет знову.",
+      "Одночасний дуплет: дуплет знову."
      ],
      "terms": [
       "no-bird",
@@ -3512,15 +3514,15 @@ window.RULES.push({
      "page": 24,
      "title_en": "Targets from a neighbouring Compak",
      "title_uk": "Мішені з сусіднього Compak",
-     "summary_en": "There is no NO BIRD when the shooter can see a target, or pieces of a target, coming from another Compak. Only a stray target from a machine of the same Compak justifies a NO BIRD.",
-     "summary_uk": "NO BIRD не оголошують, коли стрілець бачить мішень або уламки мішені з іншого Compak. Лише випадкова мішень з машинки того самого Compak дає підставу для NO BIRD.",
+     "summary_en": "A target, or bits of one, flying over from a neighbouring Compak does not give the shooter a NO BIRD, even if they can see it. A NO BIRD for a stray target applies only when it comes from a machine of the shooter's own Compak.",
+     "summary_uk": "Мішень або її уламки, що прилетіли із сусіднього Compak, не дають стрільцеві NO BIRD, навіть якщо він їх бачить. NO BIRD за випадкову мішень буває лише тоді, коли її кинула машинка того самого Compak, де стріляє стрілець.",
      "points_en": [
-      "Target or debris from another Compak: no NO BIRD.",
-      "Stray target from the same Compak: NO BIRD."
+      "Target or pieces from a neighbouring Compak: no NO BIRD.",
+      "Stray target from the own Compak: NO BIRD."
      ],
      "points_uk": [
-      "Мішень чи уламки з іншого Compak: NO BIRD немає.",
-      "Випадкова мішень з того самого Compak: NO BIRD."
+      "Мішень чи уламки із сусіднього Compak: NO BIRD немає.",
+      "Випадкова мішень із власного Compak: NO BIRD."
      ],
      "terms": [
       "no-bird"
@@ -3956,18 +3958,18 @@ window.RULES.push({
      "page": 26,
      "title_en": "What counts as an attempt to influence",
      "title_uk": "Що вважають спробою впливу",
-     "summary_en": "It is an attempt to influence when a shooter keeps challenging the referee's final decision by words or gestures after shooting has resumed, when he argues ostentatiously about the decision, or when shooters or spectators openly show their opinion or criticism of a decision without the referee's permission. Attempts to influence can lead to jury sanctions, including exclusion (chapter 23).",
-     "summary_uk": "Спробою впливу вважають ситуацію, коли стрілець після відновлення стрільби й далі словами чи жестами оскаржує остаточне рішення судді, демонстративно сперечається з рішенням, а також коли стрільці або глядачі відкрито висловлюють свою думку чи критику щодо рішення без дозволу судді. Спроби впливу можуть призвести до санкцій журі аж до виключення (розділ 23).",
+     "summary_en": "The rulebook names three kinds of attempt to influence: a shooter who goes on disputing the referee's final decision, in words or by gestures, after shooting has started again; a shooter who argues about a decision for show; and shooters or spectators who openly voice their opinion of a decision, or criticise it, without the referee's permission. Any of these can bring jury sanctions, up to exclusion (chapter 23).",
+     "summary_uk": "Правила називають три види спроби впливу: стрілець після відновлення стрільби й далі словами чи жестами оскаржує остаточне рішення судді; стрілець демонстративно сперечається через рішення; стрільці чи глядачі без дозволу судді відкрито висловлюють думку про рішення або критикують його. Кожне з цього може призвести до санкцій журі аж до виключення (розділ 23).",
      "points_en": [
-      "Continuing to dispute after shooting resumes.",
-      "Ostentatious argument with the referee.",
-      "Public or shooters openly criticising a decision.",
+      "Still disputing after shooting has started again.",
+      "Arguing about a decision for show.",
+      "Shooters or spectators openly criticising a decision.",
       "Sanctions up to exclusion (chapter 23)."
      ],
      "points_uk": [
-      "Продовжувати суперечку після відновлення стрільби.",
-      "Демонстративна суперечка із суддею.",
-      "Публіка чи стрільці відкрито критикують рішення.",
+      "Сперечатися далі, коли стрільба вже відновилася.",
+      "Демонстративна суперечка через рішення.",
+      "Стрільці чи глядачі відкрито критикують рішення.",
       "Санкції аж до виключення (розділ 23)."
      ],
      "terms": [
@@ -4072,17 +4074,17 @@ window.RULES.push({
      "page": 27,
      "title_en": "Exclusions: record, repeat, no refund",
      "title_uk": "Виключення: облік, повторність, без повернення коштів",
-     "summary_en": "Every exclusion is reported to the shooter's federation and to FITASC headquarters, which keeps it on record for five years. A second exclusion within three years may lead the FITASC Executive Committee to ban the offender permanently from all FITASC competitions. Exclusion never gives a right to reimbursement or compensation.",
-     "summary_uk": "Про кожне виключення повідомляють федерацію стрільця і штаб-квартиру FITASC, де інформацію зберігають п’ять років. Друге виключення протягом трьох років може стати підставою для рішення Виконкому FITASC про довічне відсторонення порушника від усіх змагань під егідою FITASC. Виключення ніколи не дає права на повернення коштів чи компенсацію.",
+     "summary_en": "Each exclusion is reported to the shooter's own federation and to FITASC headquarters, where it stays on file for five years. If the same shooter is excluded again within three years, the FITASC Executive Committee alone may decide to bar them for good from every FITASC competition. Being excluded never entitles anyone to money back or compensation.",
+     "summary_uk": "Про кожне виключення повідомляють федерацію стрільця і штаб-квартиру FITASC, де запис зберігається п’ять років. Якщо того самого стрільця виключать знову протягом трьох років, Виконком FITASC одноосібно може вирішити назавжди відсторонити його від усіх змагань FITASC. Виключення ніколи не дає права на повернення грошей чи компенсацію.",
      "points_en": [
-      "Recorded at FITASC for 5 years.",
-      "2nd exclusion within 3 years: possible permanent ban (Executive Committee).",
-      "No refund or compensation."
+      "Kept on file at FITASC for 5 years.",
+      "Excluded again within 3 years: a permanent ban is possible (Executive Committee).",
+      "No money back, no compensation."
      ],
      "points_uk": [
-      "Запис у FITASC на 5 років.",
-      "2-ге виключення за 3 роки: можливе довічне відсторонення (Виконком).",
-      "Без повернення коштів і компенсації."
+      "Запис у FITASC зберігається 5 років.",
+      "Повторне виключення за 3 роки: можливе довічне відсторонення (Виконком).",
+      "Без повернення грошей і компенсації."
      ],
      "terms": [
       "exclusion",
@@ -4189,7 +4191,7 @@ window.RULES.push({
      "title_en": "No simulated shooting off the stand; no shooting animals",
      "title_uk": "Без імітації пострілів поза місцем; не стріляти в тварин",
      "summary_en": "Simulated shooting (mounting and swinging) is not allowed outside the shooting positions, nor while a squad member is shooting. Aiming at or deliberately shooting living animals is forbidden.",
-     "summary_uk": "Імітувати стрільбу (вскидати й вести рушницю) заборонено поза стрілецькими місцями, а також тоді, коли стріляє хтось зі складу. Цілитися в живих тварин чи навмисно стріляти в них заборонено.",
+     "summary_uk": "Імітувати стрільбу (вкладати й вести рушницю) заборонено поза стрілецькими місцями, а також тоді, коли стріляє хтось зі squad. Цілитися в живих тварин чи навмисно стріляти в них заборонено.",
      "points_en": [
       "No simulated shooting outside the positions.",
       "No simulated shooting while another squad member shoots.",
@@ -4197,7 +4199,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Без імітації пострілів поза місцями.",
-      "Без імітації, коли стріляє інший учасник складу.",
+      "Без імітації, коли стріляє інший учасник squad.",
       "Не цілитися і не стріляти в тварин."
      ],
      "terms": [
@@ -4210,7 +4212,7 @@ window.RULES.push({
       "simulated shooting",
       "animals",
       "імітація",
-      "вскидання",
+      "вкладка",
       "холостий",
       "тварини"
      ],
@@ -4259,15 +4261,15 @@ window.RULES.push({
      "page": 27,
      "title_en": "Malfunction: opening before inspection costs the target",
      "title_uk": "Несправність: відкрив до огляду — мішень втрачено",
-     "summary_en": "When a gun or cartridge fails, the shooter must stay in place until the referee has inspected the gun. If he opens it or touches the safety catch before the inspection, the target or targets concerned are scored ZERO.",
-     "summary_uk": "Коли рушниця чи патрон відмовили, стрілець має стояти на місці, доки суддя не огляне рушницю. Якщо він відкриє її або торкнеться запобіжника до огляду, відповідну мішень (мішені) зараховують як ZERO.",
+     "summary_en": "If the gun or a cartridge fails, the shooter stays on the spot and waits for the referee to check the gun. Opening the gun or touching the safety catch before that check costs the target or targets involved: they are scored ZERO.",
+     "summary_uk": "Якщо відмовила рушниця чи патрон, стрілець лишається на місці й чекає, поки суддя перевірить рушницю. Хто відкриє рушницю або торкнеться запобіжника до цієї перевірки, втрачає відповідну мішень чи мішені: їх зараховують як ZERO.",
      "points_en": [
-      "Stay in place until the referee inspects.",
-      "Opening the gun or touching the safety first = ZERO."
+      "Wait on the spot for the referee's check.",
+      "Gun opened or safety touched before the check = ZERO."
      ],
      "points_uk": [
-      "Стояти на місці до огляду судді.",
-      "Відкрив рушницю чи торкнувся запобіжника раніше = ZERO."
+      "Чекати на місці, поки суддя перевірить рушницю.",
+      "Відкрив рушницю чи торкнувся запобіжника до перевірки = ZERO."
      ],
      "terms": [
       "malfunction",
@@ -4493,7 +4495,7 @@ window.RULES.push({
    "q_en": "Can I borrow a friend's gun if mine breaks?",
    "q_uk": "Чи можна позичити рушницю друга, якщо моя зламалася?",
    "a_en": "Yes, exceptionally and only after a malfunction, if the friend is not in your group or squad and both he and the referee agree. Sharing one gun within the same group is forbidden.",
-   "a_uk": "Так, як виняток і лише після поломки, якщо друг не з вашої групи чи складу і погодяться і він, і суддя. Користуватися однією рушницею в межах однієї групи заборонено.",
+   "a_uk": "Так, як виняток і лише після поломки, якщо друг не з вашої групи чи squad і погодяться і він, і суддя. Користуватися однією рушницею в межах однієї групи заборонено.",
    "refs": [
     "ch12-borrowing",
     "ch13-shared-gun"
@@ -4501,7 +4503,7 @@ window.RULES.push({
   },
   {
    "q_en": "Can my partner and I share one gun in the same squad?",
-   "q_uk": "Чи можемо ми з партнером стріляти з однієї рушниці в одному складі?",
+   "q_uk": "Чи можемо ми з партнером стріляти з однієї рушниці в одному squad?",
    "a_en": "No. The same shotgun may not be used by several shooters in the same group.",
    "a_uk": "Ні. Однією рушницею не можуть користуватися кілька стрільців однієї групи.",
    "refs": [
@@ -4655,9 +4657,9 @@ window.RULES.push({
   },
   {
    "q_en": "I arrived late and my squad had started. What happens?",
-   "q_uk": "Я запізнився, а мій склад уже почав. Що буде?",
-   "a_en": "If the first shooter of your squad has already called for the first target, you are scored 25 zeros. If you had a valid reason, appeal to the jury in writing the same day with the fee; if accepted you may shoot with another group without penalty.",
-   "a_uk": "Якщо перший стрілець вашого складу вже подав команду на першу мішень, вам записують 25 нулів. Якщо причина поважна, того самого дня письмово зверніться до журі, сплативши внесок; якщо її визнають, можна відстріляти з іншою групою без штрафу.",
+   "q_uk": "Я запізнився, а мій squad уже почав. Що буде?",
+   "a_en": "If the first shooter of your squad has already called for the first target, your round is scored as 25 zeros. Had a good reason? Write to the jury on the same day and pay the appeal fee. If the jury accepts the reason, you may shoot the round with another squad or group, without a penalty.",
+   "a_uk": "Якщо перший стрілець вашого squad уже подав команду на першу мішень, вашу серію записують як 25 нулів. Була поважна причина? Того самого дня напишіть журі й сплатіть внесок за апеляцію. Якщо журі визнає причину, ви зможете відстріляти серію з іншим squad або групою без штрафу.",
    "refs": [
     "ch9-late-squad",
     "ch9-late-appeal"
@@ -4666,8 +4668,8 @@ window.RULES.push({
   {
    "q_en": "When am I considered late in Compak in line?",
    "q_uk": "Коли вважається запізненням у Compak in line?",
-   "a_en": "When your number has already been cancelled in the computer system and the next shooter is on station 1. You then get 25 zeros, subject to an appeal to the jury.",
-   "a_uk": "Коли ваш номер уже скасовано в комп’ютерній системі, а наступний стрілець стоїть на місці № 1. Тоді вам записують 25 нулів, але можна звернутися до журі.",
+   "a_en": "Once your competition number is cancelled in the computer system and the next shooter is already on station 1. Your round is then scored 25 zeros, though you can still appeal to the jury.",
+   "a_uk": "Коли ваш номер учасника вже скасовано в комп’ютерній системі, а наступний стрілець уже стоїть на місці № 1. Тоді вашу серію записують як 25 нулів, але ви ще можете звернутися до журі.",
    "refs": [
     "ch9-late-inline",
     "ch9-late-appeal"
@@ -4733,7 +4735,7 @@ window.RULES.push({
   {
    "q_en": "What happens if I break both targets of a simultaneous double with one shot?",
    "q_uk": "Що буде, якщо я розбив обидві мішені одночасного дуплета одним пострілом?",
-   "a_en": "The double is a NO BIRD and is shot again, with nothing scored; the same happens the second time. The third time it is scored Zero-Zero.",
+   "a_en": "The double is a NO BIRD and is shot again, with nothing scored; the same happens the second time. The third time it is scored ZERO-ZERO.",
    "a_uk": "Дуплет оголошують NO BIRD і перестрілюють, нічого не зараховуючи; так само й удруге. Утретє записують «нуль — нуль».",
    "refs": [
     "ch3-two-with-one-simultaneous"
@@ -4751,7 +4753,7 @@ window.RULES.push({
   {
    "q_en": "Can I fire both barrels at the first target of a double?",
    "q_uk": "Чи можна вистрілити обидва рази по першій мішені дуплета?",
-   "a_en": "No. Only one cartridge per target is allowed in a double. According to the referees' quick guide, deliberately firing both shots at one target in any double scores Zero-Zero.",
+   "a_en": "No. Only one cartridge per target is allowed in a double. According to the referees' quick guide, deliberately firing both shots at one target in any double scores ZERO-ZERO.",
    "a_uk": "Ні. У дуплеті — один патрон на мішень. За коротким довідником суддів, якщо в будь-якому дуплеті навмисно вистрілити обидва рази в одну мішень, записують «нуль — нуль».",
    "refs": [
     "ch3-one-cartridge-per-target"
@@ -4868,8 +4870,8 @@ window.RULES.push({
   {
    "q_en": "What happens after an exclusion?",
    "q_uk": "Що буває після виключення?",
-   "a_en": "It is reported to your federation and FITASC and kept on record for five years. A second exclusion within three years may lead to a permanent ban. There is no refund.",
-   "a_uk": "Про нього повідомляють вашу федерацію і FITASC, запис зберігається п’ять років. Друге виключення протягом трьох років може призвести до довічного відсторонення. Кошти не повертають.",
+   "a_en": "Your federation and FITASC are told, and FITASC keeps the record for five years. Being excluded again within three years can mean a permanent ban. No money is paid back.",
+   "a_uk": "Про це повідомляють вашу федерацію і FITASC, а FITASC зберігає запис п’ять років. Повторне виключення протягом трьох років може означати довічне відсторонення. Гроші не повертають.",
    "refs": [
     "ch23-exclusion-record"
    ]
@@ -4885,7 +4887,7 @@ window.RULES.push({
   },
   {
    "q_en": "How do we move between stations in a squad?",
-   "q_uk": "Як склад переходить між місцями?",
+   "q_uk": "Як squad переходить між місцями?",
    "a_en": "Station 1 always starts. When the shooter on station 5 has finished, he goes to wait behind station 1, everybody else moves one station to the right, and the waiting shooter takes station 1. Always move with the gun open and unloaded.",
    "a_uk": "Завжди починає місце № 1. Коли стрілець на місці № 5 завершив, він іде чекати позаду місця № 1, решта переходить на одне місце праворуч, а той, хто чекав, стає на місце № 1. Переходьте лише з відкритою й розрядженою рушницею.",
    "refs": [
@@ -4896,8 +4898,8 @@ window.RULES.push({
   {
    "q_en": "Will I see the targets before shooting?",
    "q_uk": "Чи покажуть мені мішені перед стрільбою?",
-   "a_en": "In squad shooting the singles A to F and the simultaneous doubles are shown once in the morning to the first squad, and again after an interruption of more than 10 minutes. In line, the first shooter sees the singles (max 2 times) and later shooters are shown the first target of their doubles.",
-   "a_uk": "У стрільбі складом одиночні A–F та одночасні дуплети показують раз уранці першому складу і повторно після перерви понад 10 хвилин. In line першому стрільцеві показують одиночні (щонайбільше 2 рази), а наступним — першу мішень їхніх дуплетів.",
+   "a_en": "Shooting by squad: the six singles (A to F) and the simultaneous doubles are demonstrated only once a day, in the morning, for the first squad, and again after a break of more than 10 minutes. Shooting in line: the first shooter is shown the singles (at most twice), and each later shooter is shown the first target of their doubles.",
+   "a_uk": "Стрільба squad: шість одиночних (A–F) та одночасні дуплети демонструють лише раз на день — уранці, для першого squad, — і ще раз після перерви, довшої за 10 хвилин. Стрільба in line: першому стрільцеві показують одиночні (не більше двох разів), а кожному наступному — першу мішень його дуплетів.",
    "refs": [
     "ch17-squad-show-targets",
     "ch17-inline-report",
@@ -4906,9 +4908,9 @@ window.RULES.push({
   },
   {
    "q_en": "What is the difference between Compak by squad and Compak in line?",
-   "q_uk": "Чим Compak складом відрізняється від Compak in line?",
+   "q_uk": "Чим Compak by squad відрізняється від Compak in line?",
    "a_en": "By squad, up to 6 shooters rotate through the five stations together. In line, each shooter goes from station 1 to station 5 in a continuous line, the group size being the total number of shooters divided by the number of Compaks; international in-line events use sonopull and FITASC-approved electronic scoring.",
-   "a_uk": "У стрільбі складом до 6 стрільців разом обходять п’ять місць по колу. In line кожен стрілець іде від місця № 1 до № 5 безперервною лінією, а розмір групи — це загальна кількість стрільців, поділена на кількість Compak; на міжнародних змаганнях in line використовують sonopull і схвалене FITASC електронне суддівство.",
+   "a_uk": "У стрільбі squad до 6 стрільців разом обходять п’ять місць по колу. In line кожен стрілець іде від місця № 1 до № 5 безперервною лінією, а розмір групи — це загальна кількість стрільців, поділена на кількість Compak; на міжнародних змаганнях in line використовують sonopull і схвалене FITASC електронне суддівство.",
    "refs": [
     "ch16-squad-group",
     "ch17-squads-groups",
@@ -4918,8 +4920,8 @@ window.RULES.push({
   {
    "q_en": "Why does each double start with the target I just shot?",
    "q_uk": "Чому кожен дуплет починається з мішені, яку я щойно стріляв?",
-   "a_en": "That is the menu rule: the first target of each double is the last target shot at the previous station, e.g. A-F, F-C, C-E, E-B, B-D.",
-   "a_uk": "Таке правило меню: перша мішень кожного дуплета — це остання мішень, відстріляна на попередньому місці, наприклад A-F, F-C, C-E, E-B, B-D.",
+   "a_en": "It is how a Compak menu is built: a double always opens with the target that closed the station before, for example A-F, F-C, C-E, E-B, B-D.",
+   "a_uk": "Так будують меню Compak: дуплет завжди відкривається мішенню, якою закінчилося попереднє місце, наприклад A-F, F-C, C-E, E-B, B-D.",
    "refs": [
     "ch17-double-chain"
    ]
@@ -5025,8 +5027,8 @@ window.RULES.push({
   {
    "q_en": "Organiser: which target types and colours are recommended?",
    "q_uk": "Організатору: які мішені та кольори рекомендовані?",
-   "a_en": "Any standard or special target may be used. Pick the colour for best visibility; bicolour targets are not advised, nor battues on very short trajectories.",
-   "a_uk": "Можна будь-які стандартні чи спеціальні мішені. Колір добирайте для найкращої видимості; двоколірні мішені не рекомендовані, як і battue на дуже коротких траєкторіях.",
+   "a_en": "Any standard or special target may be used. Pick a colour that stands out well; bicolour targets are not advised, nor battues on very short trajectories.",
+   "a_uk": "Можна будь-які стандартні чи спеціальні мішені. Колір добирайте так, щоб мішень добре було видно; двоколірні мішені не рекомендовані, як і battue на дуже коротких траєкторіях.",
    "refs": [
     "ch3-targets"
    ]

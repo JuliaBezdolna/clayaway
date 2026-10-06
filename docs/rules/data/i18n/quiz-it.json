@@ -1,15 +1,15 @@
 {
  "ui": {
   "svc": "Allenatore delle regole",
-  "svcS": "ClayAway · FITASC",
+  "svcS": "ClayArena · FITASC",
   "title": "Allenatore delle regole {d}",
-  "lead": "Mettete alla prova la vostra conoscenza delle regole: situazioni in pedana, numeri e limiti, vero o falso. Dopo ogni risposta trovate una spiegazione e un link alla regola nella guida e alla pagina del PDF ufficiale.",
+  "lead": "Mettiti alla prova sulle regole: situazioni in pedana, numeri e limiti, vero o falso. Dopo ogni risposta trovi una spiegazione e un link alla regola nella guida e alla pagina del PDF ufficiale.",
   "quick": "Test rapido",
   "quickS": "10 domande a caso, spiegazione subito",
   "exam": "Esame",
   "examS": "30 domande, risultato alla fine, soglia di superamento 80%",
   "mist": "I miei errori",
-  "mistS": "domande a cui avete risposto in modo sbagliato",
+  "mistS": "domande a cui hai risposto in modo sbagliato",
   "level": "Livello",
   "all": "tutti",
   "l1": "base",
@@ -29,7 +29,7 @@
   "pdf": "PDF, p.",
   "res": "Risultato",
   "pass": "Esame superato",
-  "fail": "Ci siete quasi",
+  "fail": "Ci sei quasi",
   "again": "Riprova",
   "home": "Torna alle modalità",
   "review": "Revisione delle risposte",
@@ -66,8 +66,8 @@
    "q": "Il tiratore chiama «pull». L'arbitro trasmette il segnale, ma il piattello esce solo dopo circa cinque secondi. Il tiratore spara e manca. Qual è la decisione dell'arbitro?",
    "options": [
     "Zero (perso)",
-    "Si ripete solo se il tiratore ha protestato prima di sparare",
-    "No Bird, il piattello si ripete"
+    "No Bird, il piattello si ripete",
+    "Si ripete solo se il tiratore ha protestato prima di sparare"
    ],
    "explain": "Il piattello deve partire entro 3 secondi dal segnale dell'arbitro. Un piattello lanciato più tardi è No Bird, qualunque sia l'esito del colpo."
   },
@@ -83,7 +83,7 @@
   "sp-q005": {
    "q": "Mentre il tiratore sta ancora assumendo la posizione di attesa e non ha chiamato, il puller lancia un piattello. Il tiratore non spara. Qual è la decisione dell'arbitro?",
    "options": [
-    "Zero, perché il tiratore deve essere sempre pronto",
+    "Cartellino giallo, poi il piattello si ripete",
     "Zero (perso)",
     "No Bird, il piattello si ripete"
    ],
@@ -102,7 +102,7 @@
    "q": "Piattello singolo dalla macchina B. Proprio mentre il tiratore spara, il telefono di uno spettatore squilla forte subito dietro la pedana; il tiratore ha un evidente sussulto e manca. Qual è la decisione dell'arbitro?",
    "options": [
     "Zero (perso)",
-    "Zero, un rumore esterno non è mai un motivo",
+    "Si ripete solo se la giuria è d'accordo",
     "No Bird, il piattello si ripete"
    ],
    "explain": "Se il tiratore è stato chiaramente disturbato, l'arbitro dichiara No Bird e il piattello si ripete. È l'arbitro a giudicare se il disturbo è stato evidente."
@@ -124,13 +124,13 @@
     "Buono e buono",
     "No Bird, il doppio si ripete"
    ],
-   "explain": "In qualsiasi tipo di doppio, se un solo colpo rompe entrambi i piattelli, vengono contati tutti e due: buono e buono."
+   "explain": "Qui è stato il colpo stesso a rompere entrambi i piattelli, quindi in ogni tipo di doppio contano tutti e due: buono e buono. È diverso quando un pezzo del primo piattello rompe il secondo prima del secondo colpo (doppio allo sparo): allora il doppio si ripete e il primo risultato resta acquisito."
   },
   "sp-q010": {
    "q": "Doppio a raffica. I due piattelli escono regolari, ma il tiratore abbassa il fucile e non spara a nessuno dei due, senza un motivo valido. Qual è la decisione dell'arbitro?",
    "options": [
-    "No Bird, il doppio si ripete",
     "Zero e zero",
+    "No Bird, il doppio si ripete",
     "Zero sul primo piattello, il secondo si ripete"
    ],
    "explain": "Non sparare a un piattello regolare senza un motivo valido è zero; nel doppio a raffica o simultaneo significa zero e zero."
@@ -147,12 +147,12 @@
   "sp-q012": {
    "q": "Doppio allo sparo. Il tiratore rompe il primo piattello e uno dei suoi pezzi frantuma il secondo prima che il tiratore possa sparare il secondo colpo. Qual è la decisione dell'arbitro?",
    "options": [
-    "Il doppio si ripete, non si conserva nulla",
-    "Buono e zero",
-    "Buono e buono",
-    "Il doppio si ripete, il «buono» del primo piattello resta valido"
+    "Si ripete; non resta nulla",
+    "Buono e zero, il doppio resta valido",
+    "Buono e buono, il doppio resta valido",
+    "Si ripete; il «buono» del primo piattello resta"
    ],
-   "explain": "Se il primo piattello o i suoi pezzi rompono il secondo prima del secondo colpo, il doppio si ripete e il risultato del primo piattello resta acquisito."
+   "explain": "Qui il secondo piattello è stato rotto da un pezzo del primo, non da un colpo, prima che partisse il secondo colpo. Quindi non è «buono e buono»: il doppio si ripete e il risultato del primo piattello resta acquisito. È diverso quando un solo colpo rompe entrambi i piattelli: allora è buono e buono."
   },
   "sp-q013": {
    "q": "Doppio simultaneo. Uno dei due piattelli esce su una traiettoria irregolare; il tiratore rompe l'altro. Qual è la decisione dell'arbitro?",
@@ -166,9 +166,9 @@
   "sp-q014": {
    "q": "Lepre come singolo. Il primo colpo manca, poi la lepre urta un sasso e si rompe prima che il tiratore spari con la seconda canna. Qual è la decisione dell'arbitro?",
    "options": [
-    "Zero (perso)",
-    "No Bird; nella ripetizione conta solo la rottura con il secondo colpo",
-    "Buono (colpito)"
+    "Zero: il primo colpo era già un errore",
+    "No Bird; nella ripetizione conta solo il secondo colpo",
+    "Buono: la lepre si è rotta, quindi vale"
    ],
    "explain": "È No Bird e la lepre si ripete, ma nella ripetizione conta solo la rottura con il secondo colpo; romperla con il primo colpo vale zero."
   },
@@ -176,13 +176,13 @@
    "q": "Primo problema all'arma nella serie: su un singolo la prima cartuccia fa cilecca. Il tiratore resta fermo, con il fucile puntato verso la zona di tiro, e non spara con la seconda canna. L'arbitro controlla il fucile. Qual è la decisione dell'arbitro?",
    "options": [
     "No Bird con avvertimento; il piattello si ripete",
-    "Zero (perso)",
-    "Zero, ma senza avvertimento"
+    "Zero, e un avvertimento per la cilecca",
+    "No Bird senza avvertimento; il piattello si ripete"
    ],
    "explain": "Il primo inconveniente di arma o munizione in una serie comporta un avvertimento e un No Bird, e il singolo si ripete. Gli inconvenienti successivi nella stessa serie valgono zero."
   },
   "sp-q016": {
-   "q": "Più avanti nella stessa serie, lo stesso tiratore ha una seconda cilecca sul primo colpo di un singolo. Attende correttamente il controllo dell'arbitro. Qual è la decisione dell'arbitro?",
+   "q": "In precedenza in questa serie il tiratore ha già avuto una cilecca al primo colpo (primo inconveniente, avvertimento). Ora su un singolo il primo colpo fa di nuovo cilecca, e il tiratore aspetta correttamente il controllo dell'arbitro. Qual è la decisione dell'arbitro?",
    "options": [
     "No Bird, il piattello si ripete",
     "Zero (perso)",
@@ -193,9 +193,9 @@
   "sp-q017": {
    "q": "La cartuccia fa cilecca. Irritato, il tiratore apre subito il fucile per guardare l'innesco prima che arrivi l'arbitro. Qual è la decisione dell'arbitro?",
    "options": [
-    "Zero (perso)",
     "No Bird, il piattello si ripete",
-    "No Bird, se è il primo inconveniente della serie"
+    "No Bird, se è il primo inconveniente della serie",
+    "Zero (perso)"
    ],
    "explain": "Dopo un malfunzionamento il tiratore deve restare al suo posto con il fucile puntato verso la zona di tiro, senza aprirlo né toccare la sicura finché l'arbitro non lo ha controllato. Altrimenti il piattello è zero."
   },
@@ -203,7 +203,7 @@
    "q": "Piattello singolo, primo inconveniente della serie. La prima canna non spara, ma il tiratore riesce a sparare con la seconda e manca. Qual è la decisione dell'arbitro?",
    "options": [
     "No Bird, il piattello si ripete",
-    "No Bird, perché il primo colpo non è partito",
+    "Il piattello si ripete con una sola cartuccia",
     "Zero (perso)"
    ],
    "explain": "Un primo colpo non partito è di norma No Bird, ma se il tiratore spara comunque il secondo colpo, quel colpo conta e il piattello si giudica per come va: qui zero."
@@ -221,8 +221,8 @@
    "q": "Doppio a raffica, primo inconveniente della serie: sul primo piattello partono insieme entrambe le canne. Qual è la decisione dell'arbitro?",
    "options": [
     "Il primo piattello è contato, il secondo si ripete",
-    "Zero e zero",
-    "Si ripete tutto il doppio, senza registrare nulla"
+    "Si ripete tutto il doppio, senza registrare nulla",
+    "Zero e zero"
    ],
    "explain": "Sul primo piattello di un doppio allo sparo, e nei doppi simultanei e a raffica, una doppia scarica comporta la ripetizione dell'intero doppio senza registrare alcun risultato."
   },
@@ -245,11 +245,11 @@
    "explain": "Imbracciare prima che esca il piattello o non assumere la posizione di attesa del punto 3.1 comporta, la prima volta, un avvertimento verbale accompagnato dal cartellino giallo."
   },
   "sp-q023": {
-   "q": "Stesso percorso, due pedane dopo: lo stesso tiratore chiama di nuovo un singolo con il calcio sopra la linea sul giubbotto. Qual è la decisione dell'arbitro?",
+   "q": "In precedenza su questo percorso il tiratore ha ricevuto un cartellino giallo per la posizione del fucile. Due pedane dopo chiama di nuovo un singolo con il calcio sopra il segno sul gilet. Qual è la decisione dell'arbitro?",
    "options": [
     "Cartellino rosso; il piattello si ripete",
-    "Cartellino rosso; il piattello vale zero",
-    "Un altro cartellino giallo"
+    "Un altro cartellino giallo",
+    "Cartellino rosso; il piattello vale zero"
    ],
    "explain": "Dopo il primo avvertimento, ogni ulteriore infrazione sullo stesso percorso comporta il cartellino rosso, e su un singolo il piattello è zero."
   },
@@ -266,8 +266,8 @@
    "q": "L'arbitro dichiara «No Bird» su un singolo, ma il tiratore spara comunque al piattello. È la prima volta che lo fa. Qual è la decisione dell'arbitro?",
    "options": [
     "Avvertimento; il piattello si ripete",
-    "Buono se lo colpisce",
-    "Zero immediato"
+    "Buono se il tiratore lo colpisce",
+    "Zero subito, senza avvertimento"
    ],
    "explain": "Non si deve mai sparare a un No Bird dichiarato. La prima volta il tiratore riceve un avvertimento; solo dopo l'avvertimento si applicano le penalità di zero del punto 12.2."
   },
@@ -292,9 +292,9 @@
   "sp-q028": {
    "q": "Quando viene chiamato il suo nome, un tiratore sale in pedana senza occhiali di protezione e dice di averli dimenticati in macchina. Qual è la decisione dell'arbitro?",
    "options": [
-    "Espulsione immediata",
-    "Può tirare questa pedana e poi andare a prenderli",
-    "È considerato assente e si applica la regola su ritardo/assenza (16.7)"
+    "È considerato assente: si applica la regola 16.7",
+    "Esclusione immediata dalla gara",
+    "Può tirare questa pedana e poi andarli a prendere"
    ],
    "explain": "Gli occhiali di protezione sono obbligatori senza eccezioni. Un tiratore in pedana senza occhiali è considerato assente e si applica l'articolo 16.7."
   },
@@ -302,10 +302,10 @@
    "q": "L'arbitro dà zero a un piattello. Un altro componente della batteria, senza che nessuno glielo chieda, dice ad alta voce: «Era chiaramente colpito, ho visto un pezzo!». Qual è la decisione dell'arbitro?",
    "options": [
     "L'arbitro deve cambiare la decisione in buono",
-    "La decisione resta; i componenti della batteria non possono intervenire e la critica aperta è un tentativo di influenzare l'arbitro",
-    "Il piattello diventa No Bird"
+    "La decisione resta; la critica aperta vale come tentativo di influenza",
+    "Il piattello diventa No Bird e si ripete"
    ],
-   "explain": "L'arbitro decide da solo; i componenti della batteria non hanno diritto di commentare. Criticare apertamente una decisione senza permesso è un tentativo di influenzare l'arbitro (penalità del capitolo 13)."
+   "explain": "L'arbitro decide da solo. I componenti della batteria non hanno diritto di intervenire, e criticare apertamente una decisione senza che sia richiesto vale come tentativo di influenzare l'arbitro (penalità del capitolo 13)."
   },
   "sp-q030": {
    "q": "Un tiratore pensa che il suo ultimo piattello sia stato colpito, ma non dice niente, chiama il piattello successivo e solo dopo protesta per quello precedente. Qual è la decisione dell'arbitro?",
@@ -314,7 +314,7 @@
     "Il reclamo viene ascoltato e l'arbitro riconsidera",
     "Troppo tardi: chiamando il piattello successivo ha accettato la decisione"
    ],
-   "explain": "Chiamando il piattello successivo il tiratore accetta la decisione dell'arbitro su quello precedente; qualsiasi obiezione va sollevata prima."
+   "explain": "Una nuova chiamata significa che il tiratore accetta come è stato giudicato il piattello precedente. Chi non è d'accordo deve dirlo prima di chiamare di nuovo."
   },
   "sp-q031": {
    "q": "Un traversone viene rotto appena dietro un albero. L'arbitro decide che è stato tirato dietro un ostacolo naturale e dà zero. Il tiratore vuole fare ricorso. Qual è la decisione dell'arbitro?",
@@ -328,9 +328,9 @@
   "sp-q032": {
    "q": "Un tiratore arriva al percorso mentre la sua batteria sta ancora tirando i singoli in pedana 1, prima che sia arrivato il suo turno. Qual è la decisione dell'arbitro?",
    "options": [
+    "Si unisce alla batteria senza penalità",
     "I suoi singoli della pedana 1 valgono zero",
-    "Deve tirare il percorso con un'altra batteria",
-    "Si unisce alla batteria senza penalità"
+    "Deve tirare il percorso con un'altra batteria"
    ],
    "explain": "Un tiratore in ritardo che arriva prima di aver perso il suo turno sui singoli della prima pedana si unisce alla batteria senza penalità."
   },
@@ -381,7 +381,7 @@
     "Tra 3 e 5 secondi dopo il lancio del primo piattello",
     "Quando il tiratore chiama una seconda volta"
    ],
-   "explain": "Il secondo piattello del doppio allo sparo parte da 0 a 3 secondi dopo che il tiratore ha sparato al primo; è il colpo a farlo partire."
+   "explain": "Nel doppio allo sparo è il colpo sul primo piattello a far partire il secondo: esce da 0 a 3 secondi dopo quel colpo."
   },
   "sp-q038": {
    "q": "Qual è il tempo massimo consentito tra un piattello singolo e l'altro o tra un doppio e l'altro?",
@@ -407,11 +407,11 @@
    "q": "Qual è la carica massima di piombo di una cartuccia da Sporting?",
    "options": [
     "24 g",
-    "28 g (tolleranza +2%)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "La carica non può superare 28 g di piombo, con una tolleranza massima del +2%."
+   "explain": "Una cartuccia può contenere al massimo 28 g di pallini di piombo; si accetta una tolleranza fino a +2%."
   },
   "sp-q041": {
    "q": "Quale gamma di diametro dei pallini è ammessa?",
@@ -497,11 +497,11 @@
    "q": "Alla presentazione, quante volte il tiratore in pedana può chiedere di rivedere un piattello?",
    "options": [
     "Una volta per pedana",
-    "Fino a 2 piattelli per ogni piattello del menu",
-    "Fino a 3 piattelli per macchina",
+    "Fino a 2 per piattello del menu",
+    "Fino a 3 per macchina",
     "Tutte le volte che serve"
    ],
-   "explain": "Su richiesta l'arbitro ripete la presentazione, fino a un massimo di due piattelli per ogni piattello della sequenza del menu."
+   "explain": "Se il tiratore in pedana lo chiede, l'arbitro mostra di nuovo le traiettorie, ma non più di due piattelli per ogni piattello del menu."
   },
   "sp-q050": {
    "q": "Per uno spareggio non programmato, entro quanto tempo dalla chiamata i tiratori devono essere pronti?",
@@ -521,7 +521,7 @@
     "Almeno 8 mesi",
     "Almeno 12 mesi"
    ],
-   "explain": "Il campo e il piano organizzativo devono essere presentati a un rappresentante FITASC almeno otto mesi prima della manifestazione."
+   "explain": "Un rappresentante della FITASC deve vedere il campo e il piano organizzativo non oltre otto mesi prima della gara."
   },
   "sp-q052": {
    "q": "Quale percentuale di piattelli deve rompere un tiratore medio perché una traiettoria sia di classe B?",
@@ -568,12 +568,12 @@
    "explain": "Vero, per i doppi allo sparo, simultanei e a raffica. La posizione libera vale solo tra i due piattelli; prima del primo resta obbligatoria la posizione di attesa."
   },
   "sp-q057": {
-   "q": "La lepre si può tirare con il fucile all'anca, perché corre sul terreno.",
+   "q": "La lepre si tira con il fucile alla spalla, come qualsiasi altro piattello.",
    "options": [
     "Vero",
     "Falso"
    ],
-   "explain": "Falso. Ogni piattello, lepri comprese, va tirato con il fucile imbracciato alla spalla."
+   "explain": "Vero. Ogni piattello, lepre compresa, si tira con il fucile imbracciato alla spalla; sparare dall'anca non è permesso."
   },
   "sp-q058": {
    "q": "Alla presentazione, i doppi allo sparo vengono mostrati al primo tiratore della batteria.",
@@ -616,12 +616,12 @@
    "explain": "Vero. Chiunque si trovi sul percorso o nelle vicinanze deve indossare protezioni auditive; un tiratore senza protezioni è considerato assente (16.7)."
   },
   "sp-q063": {
-   "q": "A un tiratore espulso da una gara viene rimborsata la quota d'iscrizione per i piattelli non tirati.",
+   "q": "Un tiratore escluso da una gara non ottiene né rimborso né compenso per i piattelli non tirati.",
    "options": [
     "Vero",
     "Falso"
    ],
-   "explain": "Falso. Un tiratore espulso non riceve alcun rimborso né compenso economico di alcun tipo."
+   "explain": "Vero. Un tiratore escluso non riceve indietro alcuna somma e nessun compenso economico di alcun tipo."
   },
   "sp-q064": {
    "q": "In uno spareggio a morte improvvisa, nel doppio allo sparo «buono-zero» e «zero-buono» valgono uguale.",
@@ -643,18 +643,18 @@
    "q": "Quale di queste decisioni dell'arbitro PUÒ essere oggetto di ricorso alla giuria?",
    "options": [
     "Se un piattello era «buono» o «zero»",
+    "Un cartellino rosso per la posizione del fucile",
     "Se un piattello era No Bird",
-    "Se una traiettoria era regolare",
-    "Un cartellino rosso per la posizione del fucile"
+    "Se una traiettoria era regolare"
    ],
    "explain": "Le decisioni su traiettoria, No Bird e buono/zero non possono andare alla giuria. Ogni altra decisione dell'arbitro è appellabile per iscritto con una cauzione del 40%."
   },
   "sp-q067": {
    "q": "La giuria respinge il ricorso di un tiratore. Che fine fa la cauzione?",
    "options": [
+    "A un ente benefico scelto dal Presidente della FITASC",
     "Va al club organizzatore",
-    "Va a un ente benefico scelto dal Presidente della FITASC",
-    "Viene comunque restituita",
+    "Viene comunque restituita al tiratore",
     "Si aggiunge al montepremi"
    ],
    "explain": "Se il ricorso è accolto la cauzione viene restituita; altrimenti va a un ente benefico scelto dal Presidente della FITASC."
@@ -672,9 +672,9 @@
   "sp-q069": {
    "q": "Un arbitro ha un dubbio su una decisione. Chi può consultare e con quale effetto?",
    "options": [
-    "Un altro arbitro, il puller o i tiratori della batteria, solo per un parere; poi la sua decisione è definitiva",
+    "Altro arbitro, puller o batteria; solo un parere",
     "Solo la giuria; il suo parere è vincolante",
-    "Nessuno; deve dichiarare No Bird",
+    "Nessuno; un piattello dubbio è sempre No Bird",
     "L'istruttore del tiratore, il cui parere è decisivo"
    ],
    "explain": "L'arbitro può chiedere un parere a un altro arbitro, al puller o ai tiratori della batteria, non è vincolato dalle loro opinioni e la sua decisione è poi definitiva."
@@ -684,47 +684,47 @@
    "options": [
     "Con il colore del piattello",
     "Con lettere da destra a sinistra, viste dal puller",
-    "Con le lettere A, B, C, D da sinistra a destra, viste dalla pedana",
-    "Con i numeri 1–4 nell'ordine di tiro"
+    "Con i numeri 1–4 nell'ordine di tiro",
+    "Con le lettere A, B, C, D da sinistra a destra, viste dalla pedana"
    ],
    "explain": "Le macchine si identificano con le lettere A, B, C e D, lette da sinistra a destra viste dalla pedana di tiro; menu e statino usano queste lettere."
   },
   "sp-q071": {
-   "q": "Una postazione ha 3 macchine e 2 doppi. Quale combinazione NON è ammessa?",
+   "q": "Una postazione di tiro ha 3 macchine e 2 doppi. Quale combinazione NON è ammessa?",
    "options": [
-    "Due doppi simultanei",
-    "Due doppi a raffica",
-    "Un doppio simultaneo e uno a raffica",
-    "Due doppi allo sparo"
+    "Un doppio simultaneo e uno allo sparo",
+    "Due doppi allo sparo",
+    "Un doppio a raffica e uno allo sparo",
+    "Un doppio simultaneo e uno a raffica"
    ],
-   "explain": "In una postazione così i doppi possono essere simultanei, a raffica o di entrambi i tipi, ma due doppi allo sparo non sono ammessi."
+   "explain": "In una postazione così almeno uno dei due doppi deve essere simultaneo o a raffica. Due doppi allo sparo non sono ammessi."
   },
   "sp-q072": {
    "q": "Quale regola vale per comporre i doppi su una pedana?",
    "options": [
-    "Una traiettoria di classe C può comparire una sola volta nei doppi, meglio se insieme a un piattello di classe A",
+    "La classe C compare al massimo una volta nei doppi",
     "I doppi devono essere sempre allo sparo",
-    "I doppi possono usare traiettorie nuove non mostrate come singoli",
-    "Due piattelli di classe C formano il doppio migliore"
+    "I doppi possono usare traiettorie non mostrate come singoli",
+    "Due piattelli di classe C formano il doppio consigliato"
    ],
-   "explain": "I doppi usano solo piattelli già mostrati come singoli da quella postazione; la classe C può comparire una sola volta, meglio abbinata a una A. Sono ammessi B + B e B + A."
+   "explain": "I doppi usano solo piattelli già mostrati come singoli da quella postazione; la classe C può comparire una sola volta, preferibilmente abbinata a una A. Sono ammessi B + B e B + A."
   },
   "sp-q073": {
-   "q": "Quale di queste NON è una delle penalità della giuria per recidiva, rifiuto di obbedire o tentativo di influenzare l'arbitro?",
+   "q": "Un tiratore ripete un'infrazione, si rifiuta di obbedire o cerca di influenzare un arbitro. Quale di queste sanzioni la giuria NON può dare?",
    "options": [
     "Espulsione dalla gara",
     "Perdita di un piattello",
     "Perdita di una serie da 25 piattelli",
     "Una multa in denaro"
    ],
-   "explain": "La scala della giuria prevede la perdita di un piattello, la perdita di una serie da 25 piattelli o l'espulsione. La multa in denaro non è prevista."
+   "explain": "La giuria ha tre possibilità: togliere un piattello, togliere una serie di 25 piattelli o escludere il tiratore dalla gara. Una multa in denaro non è tra queste."
   },
   "sp-q074": {
    "q": "Durante una serie un istruttore dietro la pedana continua a dire al suo tiratore dove tenere le canne. Che cosa fa l'arbitro?",
    "options": [
-    "Cartellino giallo al concorrente, e l'istruttore viene allontanato dalla zona di tiro",
     "Espulsione immediata del tiratore",
-    "Zero sul piattello successivo del tiratore",
+    "Cartellino giallo al tiratore; l'allenatore viene allontanato",
+    "Zero sul piattello successivo del tiratore, senza cartellino",
     "Niente; il coaching è ammesso tra un piattello e l'altro"
    ],
    "explain": "L'assistenza tecnica durante la gara è vietata: il concorrente riceve un cartellino giallo (le recidive passano al capitolo 13) e l'istruttore viene allontanato dalla zona di tiro."
@@ -732,19 +732,19 @@
   "sp-q075": {
    "q": "Il fucile di un tiratore si rompe in pedana 2 e non si può riparare rapidamente. Che cosa può fare?",
    "options": [
-    "Usare il fucile del puller senza chiedere",
+    "Prendere un fucile qualsiasi in pedana senza chiedere",
     "Saltare la pedana e far registrare i suoi piattelli come No Bird",
-    "Ritirare più tardi l'intero percorso con una nuova batteria a sua scelta",
-    "Con il consenso dell'arbitro, proseguire subito con un altro fucile, per esempio prestato con il consenso del proprietario"
+    "Con il consenso dell'arbitro, proseguire subito con un altro fucile",
+    "Ritirare più tardi l'intero percorso con una batteria a scelta"
    ],
-   "explain": "Se il fucile non si può riparare, il tiratore può proseguire con la batteria, con il consenso dell'arbitro, procurandosi subito un altro fucile; altrimenti finisce in un posto libero di un'altra batteria solo con l'autorizzazione della giuria."
+   "explain": "Se il fucile non si può riparare, il tiratore può restare con la batteria, con il consenso dell'arbitro, passando subito a un altro fucile (per esempio prestato con il consenso del proprietario). Altrimenti i piattelli rimanenti si possono tirare solo in un posto libero di un'altra batteria, con l'autorizzazione della giuria."
   },
   "sp-q076": {
    "q": "Un tiratore con scatto a rilascio si vede dichiarare No Bird il primo piattello. Che cosa deve fare?",
    "options": [
     "Rilasciare subito il grilletto e aprire il fucile",
-    "Tenere premuto il grilletto e chiamare un nuovo piattello, aprire il fucile tenendolo premuto, oppure sparare in una direzione sicura indicata dall'arbitro",
-    "Consegnare il fucile all'arbitro",
+    "Tenere premuto il grilletto; nuovo piattello, aprire il fucile o tiro sicuro",
+    "Consegnare il fucile all'arbitro senza aprirlo",
     "Sparare a terra davanti alla pedana"
    ],
    "explain": "Deve tenere premuto il grilletto e scegliere una delle tre opzioni sicure: chiamare un nuovo piattello, aprire il fucile tenendo premuto il grilletto, oppure sparare nella direzione sicura indicata dall'arbitro."
@@ -753,39 +753,39 @@
    "q": "Che cosa deve fare l'arbitro con lo statino prima che la batteria passi alla postazione successiva?",
    "options": [
     "Mandarlo al tabellone tramite un addetto",
-    "Farlo firmare a ogni tiratore",
-    "Consegnarlo alla giuria",
-    "Fotografarlo e segnare un asterisco davanti al nome del tiratore che lo porta"
+    "Farla firmare a tutti i tiratori della batteria",
+    "Consegnarla subito alla giuria",
+    "Fotografarla e segnare con un asterisco chi la porta"
    ],
-   "explain": "L'arbitro fotografa lo statino e segna un asterisco davanti al nome del concorrente a cui viene affidato; per ogni pedana si usa una matita di colore diverso."
+   "explain": "Prima che la batteria si sposti, l'arbitro fotografa la scheda e mette un asterisco davanti al nome del tiratore che la porta. Ogni pedana ha il suo colore di matita."
   },
   "sp-q078": {
    "q": "Quale abbigliamento è accettabile per un concorrente?",
    "options": [
     "Bermuda, maglietta e sandali",
     "Pantaloncini da corsa corti e maglietta",
-    "Un gilet da skeet senza niente sotto",
-    "Bermuda lunghi che finiscono 4 cm sopra il ginocchio, polo a maniche corte, scarpe chiuse"
+    "Bermuda 4 cm sopra il ginocchio, polo, scarpe chiuse",
+    "Un gilet da skeet senza niente sotto"
    ],
-   "explain": "Sono ammessi solo bermuda lunghi che finiscono non più di 5 cm sopra il ginocchio; le magliette devono avere almeno le maniche corte e il colletto o il girocollo; niente gilet sulla pelle nuda; niente sandali."
+   "explain": "Le bermuda vanno bene se finiscono al massimo 5 cm sopra il ginocchio; la camicia deve avere le maniche (bastano corte) e un colletto o uno scollo rotondo; niente gilet sulla pelle nuda e niente sandali."
   },
   "sp-q079": {
    "q": "Due tiratori sono a pari merito al 5° posto. Come si decide l'ordine tra loro?",
    "options": [
-    "Spareggio a morte improvvisa",
-    "Per sorteggio",
-    "Uno spareggio da 25 piattelli",
-    "Condividono il posto e sono elencati risalendo dal percorso 8 al percorso 1"
+    "Posto condiviso; ordine risalendo dal percorso 8",
+    "Uno spareggio a morte improvvisa tra loro",
+    "Per sorteggio dopo la gara",
+    "Uno spareggio su 25 piattelli"
    ],
    "explain": "Gli spareggi si tirano solo per i primi tre posti. Dal quarto in giù i tiratori a pari merito condividono il posto e sono elencati risalendo dall'8° percorso al 1°."
   },
   "sp-q080": {
    "q": "Un arbitro di pedana pensa che una traiettoria sia troppo facile. Può cambiarla?",
    "options": [
-    "No; può solo ripristinare una traiettoria difettosa dopo un guasto della macchina o in condizioni meteo eccezionali, se il piattello non compare o è pericoloso",
+    "No; solo una traiettoria difettosa si può correggere, in casi precisi",
     "Sì, dopo aver informato il giudice arbitro",
-    "Sì, se la batteria è d'accordo",
-    "Sì, tra una serie e l'altra"
+    "Sì, se tutta la batteria è d'accordo",
+    "Sì, ma solo tra due serie"
    ],
    "explain": "Le traiettorie impostate dalla giuria e dai tracciatori sono fisse. L'arbitro può solo ripristinare una traiettoria difettosa dopo un malfunzionamento della macchina o in condizioni meteo eccezionali; un tracciatore o un membro della giuria dovrebbe controllarla."
   },
@@ -868,32 +868,32 @@
    "explain": "Vero. Nelle gare internazionali in linea si usa solo il lancio con phonopull, insieme ad arbitraggio e gestione dei punteggi elettronici approvati dalla FITASC."
   },
   "cs-q009": {
-   "q": "Su un doppio simultaneo il tiratore rompe entrambi i piattelli con la prima cartuccia. È la prima volta che gli succede su questo Compak. Qual è la decisione dell'arbitro?",
+   "q": "Su un doppio simultaneo il tiratore rompe entrambi i piattelli con la prima cartuccia. È la prima volta che succede a questo tiratore. Qual è la decisione dell'arbitro?",
    "options": [
     "BUONO-BUONO: contano entrambi i piattelli",
     "BUONO per il primo piattello, ZERO per il secondo",
     "NO BIRD: non si registra nulla e il doppio si ripete",
     "ZERO-ZERO"
    ],
-   "explain": "Quando entrambi i piattelli di un doppio simultaneo si rompono con un solo colpo, il doppio è NO BIRD e si ritira; lo stesso vale la seconda volta. Solo la terza volta si registra Zero-Zero."
+   "explain": "Quando un solo colpo rompe entrambi i piattelli di un doppio simultaneo, il doppio è NO BIRD e si tira di nuovo; lo stesso vale la seconda volta. Solo la terza volta si registra ZERO-ZERO."
   },
   "cs-q010": {
-   "q": "Per la terza volta sullo stesso Compak un tiratore rompe entrambi i piattelli di un doppio simultaneo con una sola cartuccia. Qual è la decisione dell'arbitro?",
+   "q": "Per la terza volta un tiratore rompe entrambi i piattelli di un doppio simultaneo con una sola cartuccia. Qual è la decisione dell'arbitro?",
    "options": [
+    "ZERO-ZERO",
     "NO BIRD — si lancia un nuovo piattello",
     "BUONO-BUONO",
-    "ZERO-ZERO",
     "BUONO-ZERO"
    ],
-   "explain": "La prima e la seconda volta è NO BIRD e il doppio si ripete; la terza volta il doppio si registra Zero-Zero."
+   "explain": "La prima e la seconda volta è NO BIRD e il doppio si ripete; la terza volta il doppio vale ZERO-ZERO. Il regolamento non dice in quale periodo si contano le volte."
   },
   "cs-q011": {
    "q": "Su un doppio allo sparo il primo colpo rompe il primo piattello e un suo pezzo rompe in aria anche il secondo. Qual è la decisione dell'arbitro?",
    "options": [
     "BUONO-BUONO: contano entrambi i piattelli",
-    "Il BUONO del primo piattello resta; il doppio si ripete per giudicare il secondo",
     "Tutto il doppio è NO BIRD; non si registra nulla",
-    "BUONO-ZERO"
+    "BUONO-ZERO",
+    "Il BUONO del primo piattello resta; il doppio si ripete per giudicare il secondo"
    ],
    "explain": "Se il primo piattello o i suoi pezzi rompono il secondo prima del secondo colpo, il primo risultato resta acquisito e il doppio si ritira per giudicare il secondo piattello."
   },
@@ -905,7 +905,7 @@
     "ZERO-ZERO",
     "Solo un avvertimento, il risultato resta"
    ],
-   "explain": "Su ogni piattello di un doppio si può sparare una sola cartuccia; raddoppiare sul primo è vietato, e la guida rapida per gli arbitri registra Zero-Zero per un doppio colpo volontario su un solo piattello."
+   "explain": "Su ogni piattello di un doppio si può sparare una sola cartuccia; raddoppiare sul primo è vietato, e la guida rapida per gli arbitri registra ZERO-ZERO per un doppio colpo volontario su un solo piattello."
   },
   "cs-q013": {
    "q": "Quale lato del rettangolo deve attraversare il piattello obbligatorio in allontanamento (fuggente)?",
@@ -920,9 +920,9 @@
   "cs-q014": {
    "q": "In quale ordine il tiratore può tirare i due piattelli di un doppio simultaneo?",
    "options": [
+    "In qualsiasi ordine",
     "Sempre prima il piattello di sinistra",
     "Nell'ordine indicato nel menu",
-    "In qualsiasi ordine",
     "Prima quello della macchina con la lettera più bassa"
    ],
    "explain": "Il doppio simultaneo è formato da due piattelli lanciati insieme da due macchine diverse, e il tiratore può tirarli in qualsiasi ordine."
@@ -949,9 +949,9 @@
    "q": "Chi fa parte della giuria d'appello in una gara internazionale di Compak?",
    "options": [
     "Il Direttore di tiro e due membri della giuria",
-    "Il Presidente della FITASC, il Presidente della Commissione Tecnica e il Presidente della federazione organizzatrice (o i loro rappresentanti)",
     "Un rappresentante per ogni squadra nazionale",
-    "La commissione disciplinare della FITASC"
+    "L'intera commissione disciplinare della FITASC",
+    "Presidente FITASC, presidente della Commissione Tecnica, presidente della federazione ospitante"
    ],
    "explain": "La giuria d'appello ha tre membri: il Presidente della FITASC, il Presidente della Commissione Tecnica e il Presidente della federazione organizzatrice, o i loro rappresentanti; nessun membro della giuria può farne parte."
   },
@@ -979,8 +979,8 @@
    "q": "Quando si possono cambiare traiettorie, macchine o menu della gara?",
    "options": [
     "In qualsiasi momento, a discrezione della giuria",
-    "Solo dopo che tutti i tiratori hanno completato un giro",
-    "Ogni mattina prima della prima batteria",
+    "Solo quando tutti i tiratori hanno tirato una serie completa",
+    "Ogni mattina prima della prima squadra di tiro",
     "Solo su richiesta dell'arbitro"
    ],
    "explain": "I cambiamenti sono ammessi solo dopo un giro completo tirato da tutti: 50 piattelli con 2 impianti o 100 piattelli con 4 impianti."
@@ -989,8 +989,8 @@
    "q": "A un campionato mondiale o continentale di Compak, da quando i tiratori possono allenarsi per la prima volta sulle macchine e sulle traiettorie del campionato?",
    "options": [
     "In qualsiasi momento nella settimana precedente",
-    "Dall'allenamento ufficiale del sabato prima del campionato",
     "Solo la mattina del primo giorno di gara",
+    "Dall'allenamento ufficiale del sabato prima del campionato",
     "Mai: l'allenamento si fa solo su altri impianti"
    ],
    "explain": "L'allenamento ufficiale apre il sabato prima del campionato, e nessuno può allenarsi sulle macchine e sulle traiettorie del campionato prima di quel giorno. Anche le tabelle di allenamento devono essere diverse da quelle di gara."
@@ -999,49 +999,49 @@
    "q": "Un tiratore si presenta in pedana con il pettorale appuntato sul davanti del gilet invece che sulla schiena. Qual è la decisione dell'arbitro?",
    "options": [
     "Non può tirare questa serie",
-    "AVVERTIMENTO; ulteriori sanzioni se non corregge",
     "Un piattello in meno",
-    "Niente: la posizione del numero è libera"
+    "Niente: la posizione del numero è libera",
+    "AVVERTIMENTO; ulteriori sanzioni se non corregge"
    ],
    "explain": "Il numero va portato sulla schiena, tra le spalle e la vita, ben visibile. La prima infrazione comporta un AVVERTIMENTO; se non corregge, seguono ulteriori sanzioni fino all'esclusione da parte della giuria."
   },
   "cs-q023": {
-   "q": "I sandali sono tollerati in allenamento, ma non in gara.",
+   "q": "Nel Compak i sandali sono vietati, sia in allenamento sia in gara.",
    "options": [
     "Vero",
     "Falso"
    ],
-   "explain": "Falso. Per motivi di sicurezza i sandali sono vietati sia in allenamento sia in gara."
+   "explain": "Vero. Per sicurezza i sandali non sono ammessi né in allenamento né in gara."
   },
   "cs-q024": {
    "q": "Chi è responsabile che un tiratore si trovi al suo Compak in orario e pronto con munizioni sufficienti per la serie?",
    "options": [
+    "Il tiratore stesso",
     "L'arbitro, che chiama i tiratori mancanti",
     "La segreteria dell'organizzatore",
-    "Il tiratore stesso",
-    "Il capo batteria"
+    "Il capo squadra"
    ],
    "explain": "Rispettare gli orari di tiro pubblicati è responsabilità del tiratore: deve presentarsi all'arbitro, essere pronto a tirare subito con attrezzatura e munizioni per un'intera serie e seguire eventuali cambi di programma. L'arbitro non va a cercare i tiratori mancanti."
   },
   "cs-q025": {
-   "q": "Nel tiro a batteria un tiratore arriva al Compak subito dopo che il primo tiratore della sua batteria ha chiamato il primo piattello della serie. Qual è la decisione dell'arbitro?",
+   "q": "Nel tiro a squadre un tiratore arriva al Compak subito dopo che il primo tiratore della sua squadra di tiro ha chiamato il primo piattello della serie. Qual è la decisione dell'arbitro?",
    "options": [
     "Entra e tira il suo turno",
     "Riceve 25 zeri per quella serie",
     "Perde solo i piattelli già tirati",
     "Cartellino giallo, poi tira"
    ],
-   "explain": "Il termine è la prima chiamata del primo tiratore della batteria; chi arriva dopo riceve 25 zeri per la serie (può presentare ricorso scritto alla giuria lo stesso giorno)."
+   "explain": "Il limite è il momento in cui il primo tiratore della squadra di tiro chiama il primo piattello. Chi arriva dopo riceve 25 zeri per la serie; un ricorso scritto alla giuria è ancora possibile in giornata."
   },
   "cs-q026": {
    "q": "Un tiratore salta l'intero primo giorno di gara. Che cosa succede?",
    "options": [
-    "Tira le serie mancanti il secondo giorno",
-    "Viene tolto dalla lista dal secondo giorno; per tirare deve fare ricorso alla giuria",
-    "Riceve 25 zeri per ogni serie e prosegue",
-    "Viene escluso dalle gare FITASC"
+    "Fuori lista dal giorno 2; per tirare, ricorso alla giuria",
+    "Tira le serie perse il secondo giorno",
+    "25 zeri per serie, e il tiratore continua",
+    "Escluso da tutte le gare FITASC"
    ],
-   "explain": "Un tiratore assente il primo giorno viene tolto dalla lista dal secondo giorno in poi; se si presenta e vuole tirare, deve fare ricorso alla giuria come previsto al capitolo 9."
+   "explain": "Dal secondo giorno un tiratore che ha saltato il primo giorno non è più nella lista. Per tirare comunque, deve fare ricorso alla giuria (capitolo 9)."
   },
   "cs-q027": {
    "q": "Un tiratore può sparare un colpo di prova sulla pedana di gara prima che inizi la sua serie.",
@@ -1052,12 +1052,12 @@
    "explain": "Falso. I fucili si possono provare solo su una postazione predisposta a questo scopo vicino all'armeria, mai sulla pedana di gara prima della serie."
   },
   "cs-q028": {
-   "q": "Dopo un guasto, un tiratore può finire la serie con il fucile di un componente della sua batteria, se il proprietario è d'accordo.",
+   "q": "Dopo un guasto, un tiratore può finire la serie con il fucile di un componente della sua squadra di tiro, se il proprietario è d'accordo.",
    "options": [
     "Vero",
     "Falso"
    ],
-   "explain": "Falso. Si può prendere in prestito un fucile solo da un tiratore che non è nello stesso gruppo o nella stessa batteria, con il consenso del proprietario e dell'arbitro; i tiratori di uno stesso gruppo non possono condividere un fucile."
+   "explain": "Falso. Si può prendere in prestito un fucile solo da un tiratore che non è nello stesso gruppo o nella stessa squadra di tiro, con il consenso del proprietario e dell'arbitro; i tiratori di uno stesso gruppo non possono condividere un fucile."
   },
   "cs-q029": {
    "q": "Quando per uno spareggio non è fissato un orario, entro quanti minuti dalla chiamata i tiratori devono essere pronti?",
@@ -1070,12 +1070,12 @@
    "explain": "I tiratori interessati devono restare in contatto con la giuria ed essere pronti meno di 15 minuti dopo la chiamata; un tiratore assente è considerato ritirato."
   },
   "cs-q030": {
-   "q": "Un pari merito per il 5° posto nella classifica individuale si decide con uno spareggio.",
+   "q": "Nel Compak gli spareggi si tirano solo per i primi tre posti (classifica assoluta e categorie).",
    "options": [
     "Vero",
     "Falso"
    ],
-   "explain": "Falso. Gli spareggi si tirano solo per i primi tre posti; dal quarto in giù i tiratori a pari merito sono classificati alla pari ed elencati risalendo dal Compak 8 al Compak 1."
+   "explain": "Vero. Dal quarto posto in giù i tiratori a pari punteggio condividono la posizione e sono elencati risalendo dal Compak 8 al Compak 1."
   },
   "cs-q031": {
    "q": "Su quale tipo di Compak si tirano gli spareggi?",
@@ -1085,25 +1085,25 @@
     "1 singolo e 2 doppi simultanei per pedana",
     "L'ultimo Compak della gara, senza modifiche"
    ],
-   "explain": "I membri presenti della Commissione Tecnica (altrimenti la giuria) scelgono il Compak e le impostazioni; negli spareggi si tirano un singolo e due doppi simultanei per pedana."
+   "explain": "Gli spareggi si tirano sempre su un menu di Compak con un singolo e due doppi simultanei per pedana. I membri presenti della Commissione Tecnica scelgono il Compak e gli schemi; se non ce n'è nessuno, lo fa la giuria."
   },
   "cs-q032": {
    "q": "Due squadre nazionali finiscono a pari punteggio totale. Come si decide lo spareggio?",
    "options": [
     "Con uno spareggio a squadre da 25 piattelli",
-    "Con il punteggio complessivo dei componenti sull'8° Compak, poi sul 7° e così via",
     "Con il miglior punteggio individuale di ogni squadra",
-    "Con il 1° Compak, poi il 2° e così via"
+    "Con il 1° Compak, poi il 2° e così via",
+    "Totale della squadra sull'8° Compak, poi sul 7° e così via"
    ],
    "explain": "Le squadre a pari merito si separano in base al punteggio complessivo dei componenti sull'8° Compak, poi sul 7°, sul 6° e così via fino al 1°."
   },
   "cs-q033": {
-   "q": "Un tiratore che si rifiuta di firmare lo statino a fine serie perde il diritto di presentare qualsiasi reclamo.",
+   "q": "Se un tiratore non firma il foglio di tiro dopo una serie, nessuno dei suoi reclami può più essere accettato.",
    "options": [
     "Vero",
     "Falso"
    ],
-   "explain": "Vero. Il tiratore deve firmare lo statino alla fine di ogni serie; il rifiuto di firmare rende inammissibile qualsiasi reclamo."
+   "explain": "Vero. Ogni serie si chiude con la firma del tiratore sul foglio di tiro. Chi non firma non può più vedere accettato alcun reclamo."
   },
   "cs-q034": {
    "q": "Come si segnano piattelli colpiti e mancati sullo statino del Compak?",
@@ -1116,14 +1116,14 @@
    "explain": "Un piattello colpito (BUONO) si segna con X e uno mancato con O; l'arbitro annuncia ogni ZERO a voce alta o con un segnale acustico."
   },
   "cs-q035": {
-   "q": "Qual è il numero massimo di tiratori in una batteria di Compak?",
+   "q": "Qual è il numero massimo di tiratori in una squadra di tiro di Compak?",
    "options": [
     "4",
     "5",
     "6",
     "8"
    ],
-   "explain": "Una batteria ha al massimo 6 tiratori, che tirano la stessa serie nello stesso momento sullo stesso impianto."
+   "explain": "Una squadra di tiro è formata al massimo da 6 tiratori, che tirano insieme la stessa serie sulla stessa installazione."
   },
   "cs-q036": {
    "q": "Quanto tempo ha un tiratore per chiamare il suo piattello dopo che è stato tirato il piattello della pedana precedente?",
@@ -1143,7 +1143,7 @@
     "15 minuti",
     "30 minuti"
    ],
-   "explain": "Dopo un'interruzione di più di 10 minuti l'arbitro mostra di nuovo i 6 singoli, sia nel tiro a batteria sia in linea."
+   "explain": "Dopo un'interruzione di più di 10 minuti l'arbitro mostra di nuovo i 6 singoli, sia nel tiro a squadre sia in linea."
   },
   "cs-q038": {
    "q": "Quante tabelle di impostazione delle traiettorie predefinite contiene l'Allegato 3?",
@@ -1164,30 +1164,30 @@
    "explain": "Falso. Nel Compak la posizione del fucile alla chiamata è libera (imbracciato o no); il regolamento non prevede partenza a fucile basso né segno sul gilet. Ogni piattello va poi tirato con il fucile alla spalla."
   },
   "cs-q040": {
-   "q": "Su uno stesso Compak la pedana 2 può avere un doppio allo sparo mentre la pedana 4 ha un doppio simultaneo.",
+   "q": "Su uno stesso Compak tutte e cinque le pedane devono usare lo stesso tipo di doppio.",
    "options": [
     "Vero",
     "Falso"
    ],
-   "explain": "Falso. Su uno stesso Compak il tipo di doppio deve essere lo stesso su tutte e 5 le pedane; si consiglia di usare tabelle diverse da un Compak all'altro."
+   "explain": "Vero. Su uno stesso Compak i doppi sono tutti simultanei o tutti allo sparo, su ogni pedana. Si consiglia di usare tabelle diverse da un Compak all'altro."
   },
   "cs-q041": {
-   "q": "Quale piattello è sempre il primo piattello del doppio in una pedana?",
+   "q": "In un menu di Compak, quale piattello apre ogni doppio su una pedana?",
    "options": [
-    "Il piattello della macchina A",
-    "L'ultimo piattello tirato nella pedana precedente",
-    "Il piattello in allontanamento",
-    "Un piattello qualsiasi scelto dal tiratore"
+    "Sempre il piattello della macchina A",
+    "Il piattello che ha chiuso la pedana precedente",
+    "Sempre il piattello in allontanamento del menu",
+    "Qualsiasi piattello chiesto dal tiratore"
    ],
-   "explain": "Il primo piattello di ogni doppio è l'ultimo piattello tirato nella pedana precedente (per esempio A-F, F-C, C-E...), ed è per questo che l'arbitro lo mostra al tiratore successivo."
+   "explain": "Un doppio comincia sempre con il piattello con cui ha finito la pedana precedente (esempio di catena A-F, F-C, C-E…). Così l'arbitro può mostrare quel piattello al tiratore successivo."
   },
   "cs-q042": {
-   "q": "Nel tiro a batteria, dove si trova il sesto tiratore (in attesa) e che cosa succede quando la pedana 5 ha finito?",
+   "q": "Nel tiro a squadre, dove si trova il sesto tiratore (in attesa) e che cosa succede quando la pedana 5 ha finito?",
    "options": [
     "Dietro la pedana 5; poi prende la pedana 5",
-    "Dietro la pedana 1; tutti si spostano di una pedana a destra e lui sale sulla pedana 1",
-    "Accanto all'arbitro; si unisce alla batteria successiva",
-    "Dietro la pedana 3; prende la pedana libera"
+    "Accanto all'arbitro; passa alla squadra di tiro successiva",
+    "Dietro la pedana 3; prende la pedana libera",
+    "Dietro la pedana 1; tutti si spostano di una pedana a destra"
    ],
    "explain": "Il tiratore in attesa sta dietro la pedana 1. Quando la pedana 5 finisce il suo menu, quel tiratore va in attesa, tutti gli altri si spostano di una pedana a destra e il tiratore in attesa sale sulla pedana 1. Nel cambio di pedana i fucili sono aperti e scarichi."
   },
@@ -1195,8 +1195,8 @@
    "q": "Un tiratore sale sulla sua pedana e l'arbitro nota che non ha con sé le protezioni auditive. Qual è la decisione dell'arbitro?",
    "options": [
     "Cartellino giallo, poi può tirare",
-    "È considerato assente e non può tirare",
     "Può tirare se firma una liberatoria",
+    "È considerato assente e non può tirare",
     "Perde un piattello"
    ],
    "explain": "Le protezioni auditive sono obbligatorie; un concorrente che arriva in pedana senza di esse è considerato assente e non può tirare. Lo stesso vale per gli occhiali di protezione."
@@ -1215,11 +1215,11 @@
    "q": "Qual è la carica massima di piombo di una cartuccia da Compak Sporting?",
    "options": [
     "24 g",
-    "28 g (tolleranza +2%)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "La carica non può superare 28 grammi di piombo, con una tolleranza del +2%."
+   "explain": "La cartuccia può contenere al massimo 28 g di pallini di piombo; si accetta fino a +2%."
   },
   "cs-q046": {
    "q": "Nel Compak Sporting il fucile a pompa è ammesso se la canna è lunga almeno 66 cm.",
@@ -1240,19 +1240,19 @@
   "cs-q048": {
    "q": "Come deve essere segnalato un fucile con scatto a rilascio?",
    "options": [
-    "Un nastro rosso sulla canna",
-    "Una grande «R» su fondo fluorescente sul lato esterno del calcio",
+    "Un nastro rosso legato alla canna",
+    "Un adesivo con una grande «R» sul lato esterno del calcio",
     "Solo un'annotazione sullo statino",
     "Non serve alcun segno se l'arbitro è informato"
    ],
-   "explain": "Il proprietario deve applicare sul lato esterno del calcio un'etichetta con una grande «R» su fondo fluorescente, come avvertimento."
+   "explain": "Il proprietario segna il fucile con un adesivo fluorescente con una grande «R», sul lato esterno del calcio, perché tutti lo vedano."
   },
   "cs-q049": {
    "q": "Un tiratore pensa che il suo piattello fosse colpito, ma non dice niente. Solo dopo che il tiratore successivo ha chiamato e sparato alza il braccio e dice «RECLAMO». Qual è la decisione dell'arbitro?",
    "options": [
     "L'arbitro deve riconsiderare e può cambiare in BUONO",
-    "Il reclamo è tardivo; lo ZERO resta",
     "Il piattello si ripete come NO BIRD",
+    "Il reclamo è tardivo; lo ZERO resta",
     "Il reclamo passa alla giuria per la decisione"
    ],
    "explain": "Il reclamo va fatto subito, in pedana, prima che chiami il tiratore successivo. In ogni caso colpito o mancato lo decide solo l'arbitro e non è appellabile."
@@ -1262,16 +1262,16 @@
    "options": [
     "Un altro arbitro presente",
     "Il puller",
-    "I tiratori della batteria",
+    "I tiratori della squadra di tiro",
     "L'istruttore del tiratore dietro la pedana"
    ],
-   "explain": "Può consultare un altro arbitro, il puller, i tiratori della batteria o chi tiene lo statino; non è vincolato dal loro parere e la sua decisione è definitiva."
+   "explain": "Può consultare un altro arbitro, il puller, i tiratori della squadra di tiro o chi tiene lo statino; non è vincolato dal loro parere e la sua decisione è definitiva."
   },
   "cs-q051": {
    "q": "Il menu indica che il singolo viene dalla macchina C, ma il piattello esce dalla macchina E. Il tiratore lo rompe. Qual è la decisione dell'arbitro?",
    "options": [
-    "BUONO",
     "NO BIRD — si lancia un nuovo piattello",
+    "BUONO",
     "ZERO",
     "BUONO, e il puller viene richiamato"
    ],
@@ -1300,9 +1300,9 @@
   "cs-q054": {
    "q": "Mentre il tiratore segue il piattello, un piattello del Compak vicino gli attraversa il campo visivo. Manca il suo singolo. Qual è la decisione dell'arbitro?",
    "options": [
-    "ZERO",
     "NO BIRD — si lancia un nuovo piattello",
     "NO BIRD solo se il tiratore protesta",
+    "ZERO",
     "ZERO, e il Compak vicino viene fermato"
    ],
    "explain": "Un piattello o dei pezzi provenienti da un altro Compak non giustificano mai un NO BIRD; lo giustifica solo un piattello vagante da una macchina dello stesso Compak. Il piattello mancato resta zero."
@@ -1310,32 +1310,32 @@
   "cs-q055": {
    "q": "Un'improvvisa raffica di vento spinge bruscamente in basso un singolo regolare proprio mentre il tiratore spara, e lui manca. Qual è la decisione dell'arbitro?",
    "options": [
-    "ZERO",
     "NO BIRD — si lancia un nuovo piattello",
     "NO BIRD se l'arbitro ritiene che il vento fosse eccezionale",
-    "Il tiratore può chiedere una ripetizione una volta per serie"
+    "Il tiratore può chiedere una ripetizione una volta per serie",
+    "ZERO"
    ],
    "explain": "Il maltempo non giustifica mai un NO BIRD: ogni piattello mancato è ZERO e ogni piattello rotto è BUONO, qualunque siano le condizioni."
   },
   "cs-q056": {
    "q": "Su un singolo la prima cartuccia non spara. È il primo inconveniente di questo tipo per il tiratore nella serie. Resta al suo posto con il fucile puntato verso la zona di tiro finché l'arbitro non lo controlla. Qual è la decisione dell'arbitro?",
    "options": [
-    "ZERO",
-    "NO BIRD, nuovo piattello e primo avvertimento (cartellino giallo)",
+    "ZERO, il piattello è perso",
+    "NO BIRD, nuovo piattello, cartellino giallo",
     "NO BIRD senza avvertimento",
     "ZERO e cartellino rosso"
    ],
    "explain": "Al primo inconveniente in una serie di 25 piattelli, una prima cartuccia che non spara su un singolo dà NO BIRD e un nuovo piattello; questo primo inconveniente comporta un primo avvertimento (cartellino giallo)."
   },
   "cs-q057": {
-   "q": "Più avanti nella stessa serie, lo stesso tiratore ha un secondo inconveniente della cartuccia dello stesso tipo. Qual è la decisione dell'arbitro?",
+   "q": "In precedenza in questa serie il tiratore ha già avuto un inconveniente della cartuccia (primo inconveniente, cartellino giallo). Ora, su un singolo, una cartuccia non funziona di nuovo allo stesso modo. Qual è la decisione dell'arbitro?",
    "options": [
     "Di nuovo NO BIRD, con un secondo cartellino giallo",
-    "Tutti i piattelli non tirati valgono ZERO (cartellino rosso)",
     "Il tiratore viene escluso dalla gara",
-    "Ha 2 minuti per sistemare il fucile e il piattello si ripete"
+    "Ha 2 minuti per sistemare il fucile e il piattello si ripete",
+    "Tutti i piattelli non tirati valgono ZERO (cartellino rosso)"
    ],
-   "explain": "La tabella dei NO BIRD per inconvenienti di arma o cartuccia vale solo per il primo inconveniente della serie; per un secondo inconveniente dello stesso tipo i piattelli non tirati valgono ZERO (cartellino rosso)."
+   "explain": "La tabella dei NO BIRD vale solo per il primo inconveniente della serie. Quando lo stesso tipo di inconveniente si ripete, tutti i piattelli della serie non ancora tirati valgono ZERO (cartellino rosso)."
   },
   "cs-q058": {
    "q": "Doppio allo sparo: il tiratore rompe il primo piattello, poi la seconda cartuccia non spara. Primo inconveniente di questo tipo nella serie. Qual è la decisione dell'arbitro?",
@@ -1348,14 +1348,14 @@
    "explain": "Quando la seconda cartuccia non spara in un doppio allo sparo (primo inconveniente), il risultato del primo piattello resta e il doppio si ripete per il secondo piattello."
   },
   "cs-q059": {
-   "q": "Su un singolo il tiratore manca con il primo colpo e la seconda cartuccia non spara. Primo inconveniente della serie. Si lancia un nuovo piattello. Come va giudicato? Qual è la decisione dell'arbitro?",
+   "q": "Su un singolo il tiratore sbaglia con il primo colpo e la seconda cartuccia non spara. È il primo inconveniente della serie, e viene lanciato un nuovo piattello. Come può essere registrato il nuovo piattello?",
    "options": [
+    "Solo con il secondo colpo; il primo è un errore voluto",
     "Normalmente: può romperlo l'uno o l'altro colpo",
-    "Può essere contato solo con il secondo colpo; il primo deve essere mancato di proposito",
-    "È già ZERO; il nuovo piattello è solo di prova",
-    "Conta solo il primo colpo"
+    "In nessun modo: è ZERO, il nuovo è solo prova",
+    "Solo con il primo colpo; il secondo non si usa"
    ],
-   "explain": "Dopo una seconda cartuccia che non spara su un singolo, si lancia un altro piattello che può essere rotto solo con il secondo colpo, quindi il tiratore manca di proposito con il primo."
+   "explain": "La seconda cartuccia che non spara dà al tiratore un nuovo piattello, ma solo il secondo colpo può romperlo. Per questo il primo colpo si spara a vuoto di proposito."
   },
   "cs-q060": {
    "q": "Una lepre viene mancata con il primo colpo e poi si rompe su una gobba del terreno prima che venga sparato il secondo colpo. Qual è la decisione dell'arbitro?",
@@ -1380,8 +1380,8 @@
   "cs-q062": {
    "q": "Proprio mentre il tiratore chiama, un annuncio all'altoparlante rimbomba dietro la pedana; l'arbitro vede chiaramente il tiratore sussultare e abbassare il fucile. Qual è la decisione dell'arbitro?",
    "options": [
-    "ZERO",
     "NO BIRD — si lancia un nuovo piattello",
+    "ZERO",
     "ZERO, rifiuto del piattello",
     "Avvertimento per aver ritardato il tiro"
    ],
@@ -1391,9 +1391,9 @@
    "q": "Il puller lancia un piattello prima che il tiratore lo abbia chiamato. Il tiratore, sorpreso, spara e manca. Qual è la decisione dell'arbitro?",
    "options": [
     "ZERO",
-    "NO BIRD — si lancia un nuovo piattello",
     "ZERO, perché ha scelto di sparare",
-    "ZERO e cartellino giallo"
+    "ZERO e cartellino giallo",
+    "NO BIRD — si lancia un nuovo piattello"
    ],
    "explain": "Un piattello non chiamato dal tiratore è un caso di NO BIRD; è anche l'unico piattello che un tiratore può rifiutare."
   },
@@ -1410,8 +1410,8 @@
   "cs-q065": {
    "q": "Su un doppio simultaneo il tiratore abbassa il fucile senza sparare al primo piattello, dicendo che era fuori traiettoria. L'arbitro giudica regolari entrambi i piattelli. Qual è la decisione dell'arbitro?",
    "options": [
-    "ZERO per il primo, il secondo si rilancia",
     "ZERO-ZERO",
+    "ZERO per il primo, il secondo si rilancia",
     "NO BIRD",
     "ZERO per il primo, NO BIRD per il secondo"
    ],
@@ -1430,10 +1430,10 @@
   "cs-q067": {
    "q": "Per la prima volta nella serie un tiratore impiega circa 15 secondi a chiamare dopo che è stato tirato il piattello della pedana precedente. Poi rompe il singolo. Qual è la decisione dell'arbitro?",
    "options": [
-    "ZERO",
-    "BUONO, con un avvertimento annotato sullo statino",
+    "ZERO per lentezza",
     "NO BIRD e cartellino giallo",
-    "BUONO senza conseguenze"
+    "BUONO senza conseguenze",
+    "BUONO, più un avvertimento sul foglio"
    ],
    "explain": "Il limite per chiamare è di 10 secondi. La prima volta che viene superato il tiratore riceve un avvertimento annotato sullo statino; solo una recidiva nella stessa serie costa piattelli."
   },
@@ -1451,18 +1451,18 @@
    "q": "Tra una pedana e l'altra, un istruttore in piedi dietro il Compak continua a dire a un concorrente dove tenere le canne sul piattello successivo. Qual è la decisione dell'arbitro?",
    "options": [
     "Niente: i consigli tra un piattello e l'altro sono ammessi",
-    "Cartellino giallo al concorrente; l'istruttore viene allontanato dalla zona di tiro",
+    "Cartellino giallo al tiratore; l'allenatore viene allontanato",
     "Il concorrente perde una serie da 25 piattelli",
-    "Viene avvertito solo l'istruttore"
+    "Solo l'allenatore riceve un avvertimento"
    ],
    "explain": "L'assistenza tecnica durante la gara non è ammessa: il concorrente riceve un cartellino giallo (le recidive portano alle sanzioni del capitolo 23) e l'arbitro allontana l'istruttore dalla zona di tiro."
   },
   "cs-q070": {
    "q": "Il fucile del tiratore si guasta; l'arbitro lo controlla (primo inconveniente). Passano due minuti, il fucile non è riparato e non c'è un altro fucile disponibile. Qual è la decisione dell'arbitro?",
    "options": [
-    "Può aspettare la fine della batteria e finire allora",
-    "I piattelli non tirati valgono zero",
+    "Può aspettare la fine della squadra di tiro e finire allora",
     "La serie viene annullata e ritirata più tardi",
+    "I piattelli non tirati valgono zero",
     "Ha altri 2 minuti"
    ],
    "explain": "Dopo un malfunzionamento il tiratore ha due minuti per riparare o sostituire il fucile; con il consenso dell'arbitro può proseguire con un altro fucile, altrimenti i piattelli non tirati valgono zero."
@@ -1471,9 +1471,9 @@
    "q": "Primo piattello di un doppio simultaneo: il tiratore, già avvertito su questo Compak, ha un malfunzionamento che non è il suo primo inconveniente e non può sparare al primo piattello. Qual è la decisione dell'arbitro?",
    "options": [
     "ZERO / NO BIRD",
-    "ZERO / ZERO",
     "NO BIRD, nuovo doppio",
-    "Il primo risultato resta, secondo ZERO"
+    "Il primo risultato resta, secondo ZERO",
+    "ZERO / ZERO"
    ],
    "explain": "Per un malfunzionamento dopo il primo avvertimento, la tabella del punto 21.5 dà ZERO / ZERO sul primo piattello di un doppio simultaneo (ZERO / NO BIRD su un doppio allo sparo)."
   },
@@ -1498,14 +1498,14 @@
    "explain": "Il tiratore deve riprendere entro 10 secondi; altrimenti è un rifiuto di obbedire, che può essere sanzionato secondo il capitolo 23."
   },
   "cs-q074": {
-   "q": "Dopo un reclamo l'arbitro conferma uno ZERO e il tiro riprende. Il tiratore continua a scuotere la testa e a dire ad alta voce alla batteria che il piattello era rotto, e due spettatori dietro la pedana si uniscono criticando la decisione. Qual è la decisione dell'arbitro?",
+   "q": "Dopo un reclamo l'arbitro conferma uno ZERO e il tiro riprende. Il tiratore continua a scuotere la testa e a dire ad alta voce alla squadra di tiro che il piattello era rotto, e due spettatori dietro la pedana si uniscono criticando la decisione. Qual è la decisione dell'arbitro?",
    "options": [
     "Niente: una volta ripreso il tiro, le opinioni sono libere",
     "L'arbitro cambia la decisione per evitare una disputa",
-    "È un tentativo di influenzare; l'arbitro lo segnala e la giuria può sanzionare, fino all'esclusione",
+    "Tentativo di influenza: segnalato, la giuria può sanzionare",
     "Il piattello si ripete come NO BIRD"
    ],
-   "explain": "Continuare a contestare una decisione definitiva dopo la ripresa del tiro, protestare in modo plateale, o tiratori e spettatori che criticano apertamente una decisione sono tentativi di influenzare, che la giuria può sanzionare fino all'esclusione."
+   "explain": "Sono tentativi di influenza: contestare una decisione definitiva dopo che il tiro è ripreso, discuterne in modo plateale, oppure tiratori e spettatori che criticano apertamente la decisione. La giuria può sanzionarli, fino all'esclusione."
   },
   "cs-q075": {
    "q": "Per quanti anni la FITASC conserva agli atti un'esclusione?",
@@ -1522,8 +1522,8 @@
    "options": [
     "Una multa in denaro da pagare all'organizzatore",
     "La perdita di una serie da 25 piattelli",
-    "Ritirare la serie con un'altra batteria",
-    "Spostare il tiratore nell'ultima batteria"
+    "Ritirare la serie con un'altra squadra di tiro",
+    "Spostare il tiratore nell'ultima squadra di tiro"
    ],
    "explain": "Per recidiva o tentativi di influenzare, la giuria può infliggere la perdita di un piattello, la perdita di una serie da 25 piattelli o l'esclusione dalla gara."
   },
@@ -1531,9 +1531,9 @@
    "q": "Il fucile del tiratore non spara. Prima che l'arbitro possa controllarlo, il tiratore apre il fucile per guardare la cartuccia. Qual è la decisione dell'arbitro?",
    "options": [
     "NO BIRD — si lancia un nuovo piattello",
-    "ZERO per il piattello interessato",
     "NO BIRD e cartellino giallo",
-    "L'arbitro controlla ora il fucile e decide NO BIRD se è difettoso"
+    "L'arbitro controlla ora il fucile e decide NO BIRD se è difettoso",
+    "ZERO per il piattello interessato"
    ],
    "explain": "Dopo un inconveniente il tiratore deve restare al suo posto senza aprire il fucile né toccare la sicura finché l'arbitro non lo ha controllato; se lo fa, il piattello o i piattelli interessati valgono ZERO."
   },
@@ -1543,13 +1543,13 @@
     "Vero",
     "Falso"
    ],
-   "explain": "Falso. La simulazione di tiro non è ammessa fuori dalle pedane di tiro, né mentre un componente della batteria sta tirando."
+   "explain": "Falso. La simulazione di tiro non è ammessa fuori dalle pedane di tiro, né mentre un componente della squadra di tiro sta tirando."
   },
   "cs-q079": {
    "q": "Come si deve portare un fucile semiautomatico tra una pedana e l'altra?",
    "options": [
-    "Chiuso, sicura inserita, volata in avanti",
     "Otturatore aperto, volata rivolta verso l'alto o verso il basso",
+    "Chiuso, sicura inserita, volata in avanti",
     "Carico con una cartuccia, otturatore aperto",
     "In qualsiasi modo, se è scarico"
    ],

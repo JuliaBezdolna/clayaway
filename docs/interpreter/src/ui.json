@@ -8,7 +8,7 @@
   "uk": "Стендова стрільба для перекладачів — з нуля"
  },
  "hero_p": {
-  "en": "Twelve missions to learn the language of Parcours de Chasse – Sporting™ and Compak® Sporting: targets and how they fly, the gun, lead and shooting technique, the FITASC rules, the referee's calls and the etiquette of the sport. Then practise like on a real stand: translate the coach, recognise the target, find the lead and make the referee's call.",
+  "en": "Twelve missions to learn the language of Parcours de Chasse – Sporting™ and Compak® Sporting: targets and how they fly, the gun, lead and shooting technique, the FITASC rules, the referee's calls and the etiquette of the sport. Then practise as you would on a real stand: translate the coach, recognise the target, find the lead and make the referee's call.",
   "uk": "Дванадцять місій, щоб опанувати мову Parcours de Chasse – Sporting™ і Compak® Sporting: мішені та як вони летять, рушниця, винос і техніка стрільби, правила FITASC, команди судді й етикет спорту. А потім — практика, як на справжньому стенді: перекладіть тренера, впізнайте мішень, знайдіть винос і ухваліть рішення судді."
  },
  "missions": {
@@ -233,7 +233,7 @@
  },
  "m_ambush": {
   "en": "Ambush",
-  "uk": "Засідка (ambush)"
+  "uk": "Стрільба в точку (ambush)"
  },
  "speed": {
   "en": "Target speed",
@@ -276,8 +276,8 @@
   "uk": "Фактичний винос у момент пострілу"
  },
  "lab_note": {
-  "en": "Slow motion, simplified physics for teaching: about 330 m/s average shot speed and 0.15 s from decision to shot. Real lead also depends on the shooter, the cartridge and the angle.",
-  "uk": "Уповільнено, спрощена фізика для навчання: середня швидкість дробу близько 330 м/с і 0,15 с від рішення до пострілу. Справжній винос залежить ще й від стрільця, набою та кута."
+  "en": "Slow motion, simplified physics for teaching: about 330 m/s average shot speed, 0.15 s from decision to shot, a pattern radius of about 10 cm plus 1.5 cm per metre of distance, the muzzle about 1 m from the eye. The actual lead depends on target speed, distance, angle and cartridge; the lead you see also depends on the method and the shooter.",
+  "uk": "Уповільнено, спрощена фізика для навчання: середня швидкість дробу близько 330 м/с, 0,15 с від рішення до пострілу, радіус осипу приблизно 10 см + 1,5 см на кожен метр відстані, дульний зріз приблизно за 1 м від ока. Фактичний винос залежить від швидкості мішені, відстані, кута й набою; видимий винос — ще й від методу та стрільця."
  },
  "exam_pass": {
   "en": "Passed! You can now get your certificate.",
@@ -388,7 +388,51 @@
   "uk": "Одночасний дуплет: обидві мішені вилітають разом"
  },
  "pair_rafale": {
-  "en": "Rafale (following pair): the 2nd target from the same trap right after the 1st",
-  "uk": "Рафаль (following pair): друга мішень з тієї ж машинки одразу після першої"
+  "en": "Rafale (following pair): the 2nd target from the same trap, as soon as the trap has reloaded",
+  "uk": "Рафаль (following pair): друга мішень з тієї ж машинки, щойно машинка перезарядиться"
+ },
+ "no_shot": {
+  "en": "No shot fired.",
+  "uk": "Пострілу не було."
+ },
+ "at_muzzle": {
+  "en": "seen at the muzzle",
+  "uk": "біля дульного зрізу"
+ },
+ "compare": {
+  "en": "Same target, four methods: the actual lead is the same, the lead you see is not",
+  "uk": "Та сама мішень, чотири методи: фактичний винос однаковий, видимий — різний"
+ },
+ "how_maintained": {
+  "en": "The muzzles wait in front and the target closes the gap. Press Shoot when the gap looks right: the gun then moves at the target's speed and holds that lead.",
+  "uk": "Стволи чекають попереду, і мішень наближається до них. Натисніть «Постріл», коли винос виглядає правильним: далі рушниця йде зі швидкістю мішені й тримає цей винос."
+ },
+ "how_swing": {
+  "en": "The muzzles start behind the target and move faster than it. Press Shoot as the muzzles pass the front of the target: the gun keeps gaining during the delay, so the actual lead is bigger.",
+  "uk": "Стволи стартують позаду мішені й рухаються швидше за неї. Натисніть «Постріл», коли стволи проходять передній край мішені: за час затримки рушниця ще випереджає мішень, тому фактичний винос більший."
+ },
+ "how_pullaway": {
+  "en": "The muzzles move with the target first, then accelerate ahead. Press Shoot while the gun is still accelerating: the lead you see is smaller than the actual lead.",
+  "uk": "Стволи спершу йдуть разом із мішенню, потім прискорюються вперед. Натисніть «Постріл», поки рушниця ще прискорюється: видимий винос менший за фактичний."
+ },
+ "how_ambush": {
+  "en": "The muzzles wait still at a point ahead. Press Shoot before the target reaches that point: the shot needs time, so a shot fired as the target arrives goes behind.",
+  "uk": "Стволи нерухомо чекають у точці попереду. Натисніть «Постріл» раніше, ніж мішень дійде до цієї точки: дробу потрібен час, тому постріл у мить, коли мішень уже в точці, іде позаду."
+ },
+ "stop_gun": {
+  "en": "Stop the gun at the trigger (a fault)",
+  "uk": "Зупинити рушницю на спуску (помилка)"
+ },
+ "clay_widths": {
+  "en": "target widths",
+  "uk": "ширин мішені"
+ },
+ "unit_cm": {
+  "en": "cm",
+  "uk": "см"
+ },
+ "unit_in": {
+  "en": "in",
+  "uk": "дюйм."
  }
 }

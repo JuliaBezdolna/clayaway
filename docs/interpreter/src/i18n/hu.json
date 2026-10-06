@@ -72,7 +72,7 @@
   "ahead": "Előtte – a sörét a korong előtt ment el",
   "perceived": "A döntéskor látott elétartás",
   "actual": "Valós elétartás a lövés pillanatában",
-  "lab_note": "Lassítás, a tanításhoz egyszerűsített fizika: kb. 330 m/s átlagos sörétsebesség és 0,15 s a döntéstől a lövésig. A valós elétartás a lövésztől, a tölténytől és a szögtől is függ.",
+  "lab_note": "Lassítás, a tanításhoz egyszerűsített fizika: kb. 330 m/s átlagos sörétsebesség, 0,15 s a döntéstől a lövésig, a sörétkép sugara kb. 10 cm + távolságméterenként 1,5 cm, a csőtorkolat kb. 1 m-re a szemtől. A valós elétartás a sebességtől, a távolságtól, a szögtől és a tölténytől függ; a látott elétartás a módszertől és a lövésztől is.",
   "exam_pass": "Sikerült! Most megkaphatod a tanúsítványodat.",
   "exam_fail": "Még nem – 80% kell. Nézd át a küldetéseket, és próbáld újra.",
   "cert_name": "A neved a tanúsítványra",
@@ -100,7 +100,18 @@
   "glossary_page": "Szójegyzék-oldal",
   "pair_report": "Vadászdublé (on report): a 2. korong az 1. lövés hangjára indul",
   "pair_sim": "Szimultán dublé: mindkét korong egyszerre indul",
-  "pair_rafale": "Rafale (egymást követő dublé): a 2. korong ugyanabból a gépből, közvetlenül az 1. után"
+  "pair_rafale": "Rafale (egymást követő dublé): a 2. korong ugyanabból a gépből, amint a gép újratöltött",
+  "no_shot": "Nem volt lövés.",
+  "at_muzzle": "a csőtorkolatnál nézve",
+  "compare": "Ugyanaz a korong, négy módszer: a valós elétartás ugyanaz, a látott nem",
+  "how_maintained": "A csövek a korong előtt várnak, a korong közeledik hozzájuk. Nyomd meg a „Lövés” gombot, amikor a távolság jónak látszik: ekkor a puska a korong sebességével halad, és tartja ezt az elétartást.",
+  "how_swing": "A csövek a korong mögül indulnak, és gyorsabbak nála. Nyomd meg a „Lövés” gombot, amikor a csövek elhagyják a korong elejét: a késleltetés alatt a puska tovább előz, ezért a valós elétartás nagyobb.",
+  "how_pullaway": "A csövek előbb a koronggal együtt mennek, aztán előre gyorsulnak. Nyomd meg a „Lövés” gombot, amíg a puska még gyorsul: a látott elétartás kisebb a valósnál.",
+  "how_ambush": "A csövek mozdulatlanul várnak egy ponton a korong előtt. Nyomd meg a „Lövés” gombot, mielőtt a korong odaér: a sörétnek idő kell, így ha akkor lősz, amikor a korong már ott van, a lövés mögé megy.",
+  "stop_gun": "A puska megállítása lövéskor (hiba)",
+  "clay_widths": "korongszélesség",
+  "unit_cm": "cm",
+  "unit_in": "hüvelyk"
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Ezek a bemutatások inkább a magasságról és az ívről szólnak, mint a szögről. A nevük pályaépítői szó, nem szabálykönyvi kifejezés: a szabályok korongtípusokat sorolnak fel, a Compak® Sporting szabályai pedig változatos röppályákat kérnek, például emelkedő, eső és magasra dobott korongokat.",
       "A teal (springing vagy rising teal, a kis récefajról elnevezve) szinte függőlegesen felfelé repül, lelassul, a tetőponton megáll, és visszaesik. Vagy felfelé menet lövik, alulról lendítve át rajta, vagy a tetőponton, amíg megáll. A klasszikus hiba a tetején való célzás (poking). Egyes pályaépítők a „springing” szót olyan korongra használják, amely nem egyenesen felfelé, hanem szögben emelkedik, mint egy felrebbenő madár.",
       "A chandelle (franciául „gyertya”) enyhe ívben, meredeken emelkedik, átfordul, és szinte függőlegesen esik. Felfelé menet a legkönnyebb; az átfordulásnál az elétartás oldalra és lefelé kerül.",
-      "Az íves korong (looper) széles ívet ír le az égen, mint egy szivárvány, gyakran egy megdöntött dobógépből dobott battue: emelkedik, a lapját mutatja, és esik. A fegyver követi az ívet, elé és alá.",
+      "Az íves korong (looper) széles ívet ír le az égen, mint egy szivárvány: emelkedik, átbillen a csúcson, és esik. Általában standard korong; egyes pályaépítők ilyen vonalon battue-t is dobnak, amely fordulás közben a lapját mutatja. A fegyver követi az ívet, elé és alá.",
       "Eső korong (dropping) minden olyan korong, amely a röppályája eső szakaszában van. Az elétartás részben függőleges: alá és elé, mozgó fegyverrel.",
       "Vigyázat: a nevek országonként eltérnek. Sok francia anyanyelvű a „chandelle” szót olyan korongra használja, amely szinte egyenesen felfelé megy – ezt egy angol edző tealnek hívja –, a magyar lövészek pedig az íves korongot is nevezhetik chandelle-nek. Amikor chandelle-t, candle-t vagy „gyertyát” hallasz, kérdezz rá: egyenesen fel, vagy átívelve?"
      ],
      "key_points": [
       "Teal: szinte függőlegesen fel, megáll, esik; lődd emelkedőben vagy a tetőponton.",
       "Chandelle: meredek, íves emelkedés, átfordul, szinte függőlegesen esik.",
-      "Íves: széles, szivárványszerű ív, gyakran battue, amely átfordul és esik.",
+      "Íves: széles, szivárványszerű ív, általában standard korong, amely átbillen a csúcson, és esik.",
       "Eső: elétartás alá és elé, soha ne állítsd meg a fegyvert.",
       "A nevek eltérnek: a franciák a tealt gyakran „chandelle”-nek hívják; a magyar „chandelle” is kétértelmű lehet, ezért tisztázd."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Egy teljes edzés, lépésről lépésre",
      "body": [
       "Az edzés előtt találkozz öt percre az edzővel. Egyezzetek meg egy szünetjelben, kérdezd meg, melyik módszert tanítja, és milyen szavakat használ az elétartásra, és tanuld meg a kézjeleit. Aztán a csoport összegyűlik a biztonsági eligazításra: tolmácsold konszekutívan, mondatról mondatra, határozottan és teljesen.",
-      "Az első lőálláson az edző általában töltények nélkül kezd: szemdominancia-ellenőrzés, aztán beállás és készenléti testhelyzet. FITASC-környezetben a fegyver lentről indul, a mellényen lévő vonal alól. Súgd hátulról a javításait, miközben a lábakat és a kezeket igazítja.",
+      "Az első lőálláson az edző általában töltények nélkül kezd: szemdominancia-ellenőrzés, aztán beállás és készenléti testhelyzet. A Parcours de Chasse – Sporting™ versenyszámban a fegyver lentről indul, a mellényen lévő vonal alól; a Compak® Sporting versenyszámban a fegyver helyzete a korong kérésekor szabad. Súgd hátulról a javításait, miközben a lábakat és a kezeket igazítja.",
       "Ezután jön a korong kiolvasása. Az edző megmutatja, megkérdezi, hol látja először tisztán a lövész, és kijelöli a korongfelvételi pontot, a fegyvertartási pontot és a lövési pontot. Ezt a három kifejezést egész nap egységesen használd – „korongfelvételi pont”, „fegyvertartási pont”, „lövési pont” –, hogy a vendég megtanulja őket.",
       "Most a lövészet. A korongok között az edző két-öt szavas jelzéseket ad; te ugyanolyan hosszan, ugyanabban a sorrendben tükrözöd őket, amíg a fegyver nyitva van. Amikor az edző hibát diagnosztizál – „behind” (mögé), „over the top” (fölé), „you stopped” (megállt a cső) –, a diagnózist és a javítást együtt fordítsd. A dicséretet ugyanakkora energiával fordítsd.",
       "Aztán a dublék: melyik korong előbb, „eyes first, then the gun” (előbb a szem, aztán a fegyver), a második lövés. Végül a záró megbeszélés, ismét konszekutívan, ahol az edző két-három pontban összegez. Írd le őket mindkét nyelven, és add oda a jegyzetet a vendégnek. Lent egy valós mondatlánc látható abban a sorrendben, ahogyan hallani fogod."
@@ -2559,7 +2570,7 @@
        "say": "Az elülső láb a lövési pontra mutat, súly előre."
       },
       {
-       "meaning": "FITASC készenléti testhelyzet: a fegyver csak a korong megjelenése után jön fel.",
+       "meaning": "Készenléti testhelyzet a Sporting™ versenyszámban: a fegyver csak a korong megjelenése után jön fel; a Compak® Sporting versenyszámban a fegyver helyzete a korong kérésekor szabad.",
        "say": "Fegyver lent, a tus a vonal alatt. Csak akkor vedd vállba, amikor látod."
       },
       {
@@ -2656,14 +2667,14 @@
       "A sörétnek a másodperc törtrészére van szüksége, hogy elérje a korongot, és ezalatt a korong továbbhalad. Az egyenesen a keresztezőre irányított fegyver ezért mögé lő. A fegyvernek elé kell mutatnia, hogy a sörét és a korong találkozzon. Ez a távolság az elétartás (lead), brit angolul „forward allowance” is.",
       "Az elétartás a korong sebességével, távolságával és szögével nő. A teljes keresztezőhöz kell a legtöbb; az egyenesen a lövész felé vagy tőle elrepülő koronghoz szinte semmilyen oldalirányú elétartás nem kell, bár az emelkedő és eső korongokhoz függőleges elétartás kell (fölé vagy alá).",
       "A valós számok meglepők. Egy lövészeti weboldal szerint egy kb. 21–25 yardos (kb. 20 m-es) keresztezőnél a valós elétartás kb. 3–4 láb, nagyjából egy méter. Sok lövész szerint nagyjából a távolsággal arányosan nő, így ugyanaz a kis távolság a csőtorkolatnál egy messzi korongnál sokkal több valós elétartást jelent.",
-      "A valós elétartás (actual lead) a korong előtti tényleges távolság a levegőben. Az érzékelt elétartás (perceived lead, más néven „lead picture” vagy „sight picture”) az a távolság, amelyet a lövész a csőtorkolat és a korong között lát. Egy méter 20 m-en néhány centiméternek látszik a torkolatnál. A módszer megváltoztatja a képet: az elévezetéssel lövő látja a legnagyobb távolságot, az áthúzással lövő keveset vagy semennyit, mert a fegyver sebessége hozzáad az elétartáshoz.",
+      "A valós elétartás (actual lead) a korong előtti tényleges távolság a levegőben. Az érzékelt elétartás (perceived lead, más néven „lead picture” vagy „sight picture”) az a távolság, amelyet a lövész a csőtorkolat és a korong között lát. Egy méter 20 m-en néhány centiméternek látszik a torkolatnál. A módszer megváltoztatja a képet: a mozgó fegyverrel dolgozó módszerek közül az elévezetés mutatja a legnagyobb távolságot, az áthúzás keveset vagy semennyit, mert a fegyver sebessége hozzáad az elétartáshoz. Lesből lövésnél a fegyver áll, ezért a lövésznek még nagyobb távolságot kell látnia: a korong a reakcióidő alatt is halad.",
       "Egy amerikai oktató megjegyzi, hogy a jobbkezes lövész gyakran úgy érzi, a balról jobbra keresztezőhöz több elétartás kell, mint a jobbról balrához; a valós elétartás ugyanakkora, csak az érzékelés más. Az edző „four feet”-je tehát a saját képét írja le, nem mérést."
      ],
      "key_points": [
       "Az elétartás azért létezik, mert a korong mozog, amíg a sörét halad.",
       "Nagyobb sebesség, távolság és szög = több elétartás.",
-      "A valós elétartás (a levegőben) sokkal nagyobb, mint az érzékelt (a torkolatnál).",
-      "A módszer megváltoztatja a képet: elévezetésnél a legtöbbet, áthúzásnál a legkevesebbet látod.",
+      "A valós elétartás méterekben mérhető a levegőben, a korongnál; a torkolatnál a kép csak néhány centiméter, mert a torkolat közel van a szemhez.",
+      "A módszer megváltoztatja a képet: mozgó fegyvernél elévezetésnél látod a legtöbbet, áthúzásnál a legkevesebbet; lesből lövésnél (álló fegyver) a távolság még nagyobb.",
       "Az edző száma kép, nem mérés."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "Lesből lövés és ösztönös lövés",
      "body": [
-      "A lesből lövés (ambush, spot shooting – magyarul körülírva „pontra lövés”, „elébe várás”) a lendítés ellentéte. 1) A csöveket a korong elé, a vonalára, a lövési pont közelébe helyezik. 2) Kevés mozgással vagy mozdulatlanul várnak. 3) Az elsütés akkor történik, amikor a korong odaér arra a pontra.",
+      "A lesből lövés (ambush, spot shooting – magyarul körülírva „pontra lövés”, „elébe várás”) a lendítés ellentéte. 1) A csöveket a korong elé, a vonalára, a lövési pont közelébe helyezik. 2) Kevés mozgással vagy mozdulatlanul várnak. 3) Az elsütés még azelőtt történik, hogy a korong arra a pontra érne: a lövész reakciója és a sörét repülése is időbe telik, így a korong berepül a lövésbe. Ha csak akkor lő, amikor a korong már odaért, a sörét mögötte megy el.",
       "Általános szokásként – ami a képzetlen lövészekre jellemző – megbízhatatlan: a fegyver áll, és az időzítésnek tökéletesnek kell lennie. A szándékos lesből lövés viszont néha a helyes választás: olyan korongnál, amelyet nagyon gyorsan kell lelőni, vagy olyan nyúlnál, amely csak egy rövid résben látszik a bokrok között. Ehhez rokon mozdulat a röppályájuk tetején élükkel látszó battue korongoknál a „collapse” (ráesés): nagyon közel a lövési ponthoz tartani, és minimális mozdulatot tenni. A korongot ilyenkor is ott kell eltalálni, ahol a bíró látja.",
       "Az ösztönös lövés (instinctive shooting) azt jelenti, hogy nincs tudatos elétartás. A lövész élesen a korongra fókuszál, és hagyja, hogy a kezei kövessék; a lendítés és a vállba vétel egyszerre történik, a lövés pedig akkor jön, amikor a fegyver az archoz ér. A klasszikus iskola az angol fegyverkészítő Robert Churchill nevéhez kötődik, és a vadászlövészetben népszerű.",
       "Sok élvonalbeli Parcours de Chasse – Sporting™ lövész keveri a módszereket, korongonként választva. A „Which method for this one?” (melyik módszer erre?) teljesen szokásos edzői kérdés."
      ],
      "key_points": [
-      "Lesből lövés: a csövek mozdulatlanul várnak egy ponton elöl; lövés, amikor a korong odaér.",
+      "Lesből lövés: a csövek mozdulatlanul várnak egy ponton elöl; lövés még azelőtt, hogy a korong odaér, így berepül a lövésbe.",
       "Szokásként megbízhatatlan, szándékosan hasznos (nagyon gyors korongok, rövid rések).",
       "„Collapse”: minimális mozdulat a lövési pont közelében, élükkel látszó battue korongoknál.",
       "Ösztönös: nincs tudatos elétartás, éles fókusz, vállba vétel és lendítés együtt (Churchill-iskola).",
@@ -2935,7 +2946,7 @@
        "say": "Lesből lövöd – tartsd mozgásban a fegyvert a koronggal."
       },
       {
-       "meaning": "Szándékosan várj a nyílásnál, és lőj, amikor a korong átér rajta.",
+       "meaning": "Szándékosan várj a nyílásnál, és lőj közvetlenül azelőtt, hogy a korong a pontodhoz ér, hogy berepüljön a lövésbe.",
        "say": "Ezt a résben lődd, lesből."
       },
       {
@@ -3813,7 +3824,7 @@
       "A vonalat a mellényen vagy a kabáton, 25 cm-rel a vállak tengelye alatt, azzal párhuzamosan jelölik, a mellénytől elütő színnel, hogy a bíró láthassa. A szabály minden tustípusra vonatkozik, az állítható pofadékosakra is.",
       "A fegyvert csak akkor szabad felemelni, amikor a korong megjelenik. Minden korongot, a nyulat is, vállból kell lőni; csípőből lőni tilos. Bármely dublé első és második korongja között a fegyver helyzete szabad, de az első korong előtt a készenléti testhelyzet érvényes.",
       "Büntetések: amikor a lövész első alkalommal szabálytalan helyzetben kéri a korongot, vagy a korong megjelenése előtt vállba veszi a fegyvert, a bíró szóbeli figyelmeztetést ad sárga lappal. Minden további szabálysértés ugyanazon a lőpályán piros lappal jár, és a korong értékelése: szóló korongnál nulla, vadászdublénál nulla és „No bird”, szimultán vagy rafale dublénál nulla és nulla.",
-      "A korong kérése előtt vállba venni a fegyvert és végiglendíteni egy elképzelt vonalon (lövés imitálása) szintén tilos: először figyelmeztetés, aztán nulla. Ha egy edző FITASC-verseny előtt vállból indított kezdést gyakoroltat, a „drill” (gyakorlat) szót is fordítsd le."
+      "A korong kérése előtt vállba venni a fegyvert és végiglendíteni egy elképzelt vonalon (lövés imitálása) szintén tilos: először figyelmeztetés, aztán nulla. Ha egy edző Parcours de Chasse – Sporting™ verseny előtt vállból indított kezdést gyakoroltat, a „drill” (gyakorlat) szót is fordítsd le."
      ],
      "key_points": [
       "A korong kérése előtt: mindkét láb a lőálláson belül, a tus érinti a testet, a tus teteje a mellényvonal alatt.",
@@ -4345,7 +4356,7 @@
       "A Parcours de Chasse – Sporting™ versenyszámban a kotta lövési sorrendben sorolja fel a dobógépeket, és fel kell tüntetnie a különleges korongokat: 90 mm, 70 mm, 60 mm, battue vagy nyúl. A bírók előre ellenőrzik, hogy a gépek megfelelnek-e a kottának. Egy lőpálya 15 szóló korongot és 5 dublét ad, a dublékhoz pedig csak olyan korongokat lehet használni, amelyeket ugyanabból a lőállásból már szóló korongként bemutattak. A rotte előbb a szóló korongokat lövi, aztán a dublékat.",
       "A dublét a típusával jelölik: vadászdublé (on report – a második korong az első lövés hangjára indul), szimultán (mindkettő egyszerre) vagy rafale (kettő ugyanabból a gépből, egymás után; csak Sporting™). A kották lőterenként másként néznek ki, ezért a szavakat olvasd, ne csak a betűket. Példa egy háromgépes lőállásra: szóló korongok A, B, C; dublék A + B szimultán és C + C rafale (egy ilyen lőálláson két vadászdublé nem megengedett).",
       "A Compak® Sporting versenyszámban mind az öt lőálláson ki van függesztve egy kotta. Minden lőálláson öt korong van: öt szóló, három szóló és egy dublé, vagy egy szóló és két dublé. A dublé típusa egy Compak pálya mind az öt lőállásán ugyanaz, és minden dublé első korongja az előző lőállás utolsó korongja. A FITASC 40 kész kottát kínál a versenyekhez.",
-      "Mielőtt a lövészed fellép, olvasd fel neki a kottát a saját nyelvén, betűről betűre: „A, aztán F, aztán a C és E vadászdublé.”"
+      "Mielőtt a lövészed fellép, olvasd fel neki a kottát a saját nyelvén, betűről betűre: „A, aztán F, aztán B, aztán a C és E vadászdublé.”"
      ],
      "key_points": [
       "Magyarul „kotta” (angolul menu).",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "A korongok sorrendje a 3-as lőálláson, vadászdublével a végén.",
-       "say": "Olvasd el a kottát: a hármas lőálláson A, aztán F, aztán a C és E vadászdublé."
+       "meaning": "3-as lőállás: három szóló korong, aztán egy vadászdublé; összesen öt korong.",
+       "say": "Olvasd el a kottát: a hármas lőálláson A, aztán F, aztán B, aztán a C és E vadászdublé."
       },
       {
        "meaning": "A sorrend megváltozott a legutóbbi kör óta.",

@@ -2,7 +2,10 @@
 
 Run from the project root (after make_og.py): python scripts/seo_meta.py
 The rules pages get their markup from scripts/build_seo.mjs; this script covers home, specs and tours.
-Tour data below mirrors docs/dornsberg and docs/sologne (sample tours: dates, prices, places are examples).
+Tour EXAMPLES (docs/dornsberg, docs/sologne) show real ClayArena people with made-up dates, prices and messages
+(owner decision 06.10.2026): they get a plain WebPage with the sample label and no Event/Offer/price markup, so that
+search engines, LLM crawlers and link previews cannot read them as a real sale. Real published tours get Event + Offer
+from tour data in production (tour spec, section «SEO, розмітка і превʼю»).
 """
 import json, re
 from pathlib import Path
@@ -13,27 +16,16 @@ SITE = {"@type": "WebSite", "name": "ClayArena", "url": B}  # one site of ClayAr
 CLAYARENA = {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}
 
 
-def tour(name, slug, desc, start, end, place, address, country, coach, coach_url, org, org_url, price, guest, left, langs, days, image):
+SAMPLE_LABEL = "Приклад: дати, ціни й повідомлення умовні."
+
+
+def sample_tour(name, slug, desc):
+    """Tour example page: WebPage only (no Event, no Offer, no price, no availability)."""
     return {
-        "@context": "https://schema.org", "@type": "Event", "name": name, "description": desc,
-        "url": f"{B}{slug}/", "image": [f"{B}og/{slug}.png"],
-        "startDate": start, "endDate": end,
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-        "inLanguage": langs,
-        "location": {"@type": "Place", "name": place,
-                     "address": {"@type": "PostalAddress", "streetAddress": address, "addressCountry": country}},
-        "performer": {"@type": "Person", "name": coach, "url": coach_url, "jobTitle": "Coach"},
-        "organizer": {"@type": "Person", "name": org, "url": org_url},
-        "offers": [
-            {"@type": "Offer", "name": "Shooter", "price": str(price), "priceCurrency": "EUR",
-             "availability": "https://schema.org/LimitedAvailability", "url": f"{B}{slug}/",
-             "inventoryLevel": {"@type": "QuantitativeValue", "value": left}},
-            {"@type": "Offer", "name": "Non-shooting guest", "price": str(guest), "priceCurrency": "EUR", "url": f"{B}{slug}/"}],
-        "subEvent": [{"@type": "Event", "name": d, "startDate": s} for s, d in days],
-        "isAccessibleForFree": False,
-        "provider": CLAYARENA,
-        "keywords": "clay shooting, sporting clays, compak sporting, shooting tour, coaching, ClayAway",
+        "@context": "https://schema.org", "@type": "WebPage", "name": f"Sample tour page: {name}",
+        "description": f"{SAMPLE_LABEL} Sample ClayAway tour page, not a real offer. {desc}",
+        "url": f"{B}{slug}/", "inLanguage": "en", "image": [f"{B}og/{slug}.png"],
+        "isPartOf": SITE, "publisher": CLAYARENA,
     }
 
 
@@ -44,7 +36,7 @@ PAGES = {
                        {"@type": "ListItem", "position": i + 1, "url": B + u, "name": n} for i, (u, n) in enumerate([
                            ("rules/", "Правила FITASC простими словами"), ("rules/trainer/", "Тренажер правил FITASC"),
                            ("glossary/", "Глосарій ClayArena"), ("learn/", "Академія ClayArena"), ("interpreter/", "Академія перекладача ClayArena"),
-                           ("dornsberg/", "Dornsberg Training Days"), ("sologne/", "Sologne Week"),
+                           ("dornsberg/", "Приклад туру: Dornsberg Training Days (умовні дані)"), ("sologne/", "Приклад туру: Sologne Week (умовні дані)"),
                            ("concept/", "ТЗ ClayAway"), ("rules-spec/", "ТЗ: правила FITASC і глосарій")])]}],
     "concept/index.html": [{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ ClayAway — концепція і технічне завдання",
                             "inLanguage": "uk", "url": B + "concept/", "author": CLAYARENA, "publisher": CLAYARENA, "isPartOf": SITE,
@@ -52,24 +44,12 @@ PAGES = {
     "rules-spec/index.html": [{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ: довідник правил FITASC і глосарій",
                                "inLanguage": "uk", "url": B + "rules-spec/", "author": CLAYARENA, "publisher": CLAYARENA, "isPartOf": SITE,
                                "about": "Довідник правил FITASC, тренажер, глосарій, SEO, оновлення регламентів"}],
-    "dornsberg/index.html": [tour(
+    "dornsberg/index.html": [sample_tour(
         "Dornsberg Training Days with Markus Leibinger", "dornsberg",
-        "Five days of Sporting and Compak at Dornsberg Shooting Ground above Lake Constance with coach Markus Leibinger; organizer and interpreter Lena Weigele. Hotel, transfers, meals, Reichenau and Konstanz.",
-        "2027-04-13", "2027-04-17", "Dornsberg Shooting Ground", "Oberer Dornsberg 1, 78253 Eigeltingen", "DE",
-        "Markus Leibinger", "https://clayarena.com/en/coaches/markus-leibinger-15/", "Lena Weigele", "https://clayarena.com/en/shooters/9655/",
-        1950, 890, 1, ["en", "de", "es"],
-        [("2027-04-13", "Arrival, transfer from Zürich, welcome dinner"), ("2027-04-14", "Sporting, lines A–E"),
-         ("2027-04-15", "Compak and video review, Reichenau wine evening"), ("2027-04-16", "Sporting, Konstanz evening"),
-         ("2027-04-17", "Control round, departure")], "dornsberg")],
-    "sologne/index.html": [tour(
+        "How a ClayAway tour page could look: Sporting™ and Compak® Sporting at Dornsberg Shooting Ground above Lake Constance, coach Markus Leibinger, organizer and interpreter Lena Weigele.")],
+    "sologne/index.html": [sample_tour(
         "Sologne Week with Charles Bardou", "sologne",
-        "Train with Charles Bardou at the Sologne Shooting Club: hunting course and Compak, Loire wines, Sologne game cuisine and a guided excursion to Château de Chambord. Organizer and interpreter Anna Karpulianskaia.",
-        "2027-05-10", "2027-05-14", "Sologne Shooting Club", "Domaine de Courgenou, 4313 Route de Lamotte, 41600 Chaumont-sur-Tharonne", "FR",
-        "Charles Bardou", "https://clayarena.com/en/shooters/1789724605508300304/", "Anna Karpulianskaia", "https://clayarena.com/en/shooters/1763048485011/",
-        2600, 1100, 3, ["en", "fr", "uk"],
-        [("2027-05-10", "Arrival, transfer from Paris CDG, game dinner"), ("2027-05-11", "Hunting course with Charles Bardou"),
-         ("2027-05-12", "Compak, Château de Chambord excursion, Loire wine tasting"), ("2027-05-13", "Euro Shooting Cash layouts, farewell dinner"),
-         ("2027-05-14", "Departure")], "sologne")],
+        "How a ClayAway tour page could look: Parcours de Chasse – Sporting™ and Compak® Sporting at the Sologne Shooting Club with Charles Bardou, organizer and interpreter Anna Karpulianskaia, and a Chambord excursion.")],
 }
 
 for path, blocks in PAGES.items():

@@ -205,8 +205,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Ammunition",
    "short_uk": "Навіска: маса дробу в патроні; FITASC дозволяє до 28 г свинцю з допуском +2 %.",
    "short_en": "The weight of shot in a cartridge; FITASC allows up to 28 g of lead, with a +2% tolerance.",
-   "long_uk": "Навіску вказують на коробці в грамах, а в Британії та США часто в унціях (1 унція — приблизно 28 г). Правила FITASC для Sporting™ і Compak® Sporting обмежують навіску 28 г свинцевого дробу з допуском +2 %. Найпоширеніші стендові навіски — 24 і 28 г; для тренувань, юніорів і новачків часто беруть 21–24 г. Важча навіска дає більше дробин у хмарі, але й сильнішу віддачу, яка за день із 100–200 пострілами помітно втомлює. Суддя може перевірити набої стрільця, а постріли невідповідними набоями зараховують як промахи.",
-   "long_en": "The load is printed on the box in grams, and in Britain and the USA often in ounces (1 oz is about 28 g). The FITASC rules for Sporting™ and Compak® Sporting limit the load to 28 g of lead shot with a +2% tolerance. The most common clay loads are 24 and 28 g; 21–24 g is popular for practice, juniors and beginners. A heavier load puts more pellets in the cloud but also kicks harder, which over a day of 100–200 shots is tiring. The referee may check a shooter's cartridges, and shots fired with non-compliant ammunition count as misses.",
+   "long_uk": "Навіску вказують на коробці в грамах, а в Британії та США часто в унціях (1 унція — приблизно 28 г). Правила FITASC для Sporting™ і Compak® Sporting обмежують навіску 28 г свинцевого дробу з допуском +2 %. Найпоширеніші стендові навіски — 24 і 28 г; для тренувань, юніорів і новачків часто беруть 21–24 г. Важча навіска дає більше дробин у хмарі, але й сильнішу віддачу, яка за день із 100–200 пострілами помітно втомлює. Суддя може перевірити набої стрільця; у Compak® Sporting постріли невідповідними набоями до перевірки зараховують як zero.",
+   "long_en": "The load is printed on the box in grams, and in Britain and the USA often in ounces (1 oz is about 28 g). The FITASC rules for Sporting™ and Compak® Sporting limit the load to 28 g of lead shot with a +2% tolerance. The most common clay loads are 24 and 28 g; 21–24 g is popular for practice, juniors and beginners. A heavier load puts more pellets in the cloud but also kicks harder, which over a day of 100–200 shots is tiring. The referee may check a shooter's cartridges; in Compak® Sporting, shots fired with non-compliant cartridges before the check count as zero.",
    "uk_usage": "«навіска», «24-ка», «28-ка»",
    "rule_refs": [
     {
@@ -262,8 +262,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Ammunition",
    "short_uk": "Швидкість дробу, яку вказують на коробці (м/с або fps); виробники вимірюють її на різних відстанях від дула.",
    "short_en": "The speed of the shot shown on the box (m/s or fps); makers measure it at different distances from the muzzle.",
-   "long_uk": "Для стендових набоїв швидкість зазвичай становить приблизно 370–450 м/с. Європейські виробники часто вказують її на відстані 1 м або 2,5 м від дула (позначки V1, V2.5), американські — у футах за секунду приблизно на 1 м, тож однакові цифри не завжди означають однаковий набій. Швидший набій трохи скорочує час польоту дробу, але сильніше б’є в плече, і осип від цього не обов’язково кращий. Більшість тренерів радять не гнатися за швидкістю, а обрати набій, яким ви стріляєте стабільно й без утоми. Деякі стенди, особливо для сталевого дробу, обмежують швидкість набоїв.",
-   "long_en": "For clay cartridges velocity is usually about 370–450 m/s. European makers often quote it 1 m or 2.5 m from the muzzle (marked V1, V2.5), American makers in feet per second at about 1 m, so the same figure does not always mean the same cartridge. A faster cartridge slightly shortens the shot's flight time, but kicks harder, and its pattern is not necessarily better. Most coaches advise not to chase speed but to pick a cartridge you shoot consistently and without fatigue. Some grounds, especially for steel shot, limit cartridge velocity.",
+   "long_uk": "Для стендових набоїв швидкість зазвичай становить приблизно 360–430 м/с (близько 1200–1400 fps). Виробники вимірюють її по-різному: за правилами C.I.P., яких дотримуються європейські виробники, її вимірюють на відстані 2,5 м від дула (V2,5); на деяких коробках вказують V1 — на відстані 1 м, а американські виробники подають фути за секунду, виміряні приблизно за 3 фути (0,9 м) від дула. Тож однакові цифри не завжди означають однаковий набій. Швидший набій трохи скорочує час польоту дробу, але сильніше б’є в плече, і осип від цього не обов’язково кращий. Багато тренерів радять не гнатися за швидкістю, а обрати набій, яким ви стріляєте стабільно й без утоми. Деякі стенди, особливо для сталевого дробу, обмежують швидкість набоїв.",
+   "long_en": "For clay cartridges velocity is usually about 360–430 m/s (roughly 1,200–1,400 fps). Makers measure it differently: under the C.I.P. rules followed by European makers it is measured 2.5 m from the muzzle (V2.5), some boxes quote V1 at 1 m, and American makers give feet per second measured about 3 ft (0.9 m) from the muzzle. So the same figure does not always mean the same cartridge. A faster cartridge slightly shortens the shot's flight time, but kicks harder, and its pattern is not necessarily better. Many coaches advise not to chase speed but to pick a cartridge you shoot consistently and without fatigue. Some grounds, especially for steel shot, limit cartridge velocity.",
    "uk_usage": "«швидкість», «швидкий набій»",
    "rule_refs": [],
    "related": [
@@ -409,7 +409,7 @@ window.GLOSSARY_LEARN = {
    "short_uk": "Набій із легшою навіскою і м’якшою віддачею; добре підходить дітям і новачкам.",
    "short_en": "A cartridge with a lighter load and softer recoil; well suited to children and beginners.",
    "long_uk": "Такі набої мають меншу навіску (часто 21–24 г для 12 калібру) і помірну швидкість, тому штовхають у плече помітно м’якше. Для юного стрільця чи новачка це важливо: сильна віддача швидко втомлює, а страх перед нею формує звичку смикатися перед пострілом. На близьких і середніх мішенях легкий набій розбиває їх цілком надійно. Чи зможе напівавтомат стабільно перезаряджатися слабким набоєм, залежить від моделі, тож це варто перевірити на тренуванні. Обирати навіску краще разом із тренером.",
-   "long_en": "These cartridges have a lighter load (often 21–24 g in 12 gauge) and moderate velocity, so they push into the shoulder noticeably more softly. For a young shooter or a beginner this matters: heavy recoil quickly tires them, and fear of it builds a habit of flinching before the shot. On close and medium targets a light load breaks clays quite reliably. Whether a semi-automatic cycles reliably with light loads depends on the model, so test it in practice. It is best to choose the load together with a coach.",
+   "long_en": "These cartridges have a lighter load (often 21–24 g in 12 gauge) and moderate velocity, so they push into the shoulder noticeably more softly. For a young shooter or a beginner this matters: heavy recoil quickly tires them, and fear of it builds a habit of flinching before the shot. On close and medium targets a light load breaks clays quite reliably. Whether a semi-automatic cycles reliably with light loads depends on the model, so test it in practice. Choose the load together with a coach.",
    "uk_usage": "«легкі набої», «слабкі набої»",
    "rule_refs": [],
    "related": [
@@ -845,8 +845,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Equipment",
    "short_uk": "Плита для осипу: металевий лист, на якому видно сліди дробин; на ній перевіряють чоки й підгонку рушниці.",
    "short_en": "A steel sheet that shows where pellets hit; used to check chokes and gun fit.",
-   "long_uk": "Плиту для осипу фарбують або змащують, і після пострілу на ній добре видно сліди кожної дробини. За картиною осипу оцінюють, наскільки широкий і рівний він на певній відстані з конкретним чоком і набоєм. Ще важливіше — побачити, куди б’є рушниця відносно точки прицілювання: так перевіряють підгонку рушниці. Таку перевірку найкраще робити з тренером або майстром-підгонщиком, бо один постріл мало що каже. Плиту мають не всі стенди, тож запитайте заздалегідь.",
-   "long_en": "A pattern plate is painted or greased, and after a shot the mark of every pellet is clearly visible. The picture shows how wide and even the pattern is at a given distance with a particular choke and cartridge. Even more important, it shows where the gun shoots relative to the aiming point: this is how gun fit is checked. It is best done with a coach or a gun fitter, because one shot says little. Not every ground has a plate, so ask in advance.",
+   "long_uk": "Плиту для осипу фарбують або змащують, і після пострілу на ній добре видно сліди кожної дробини. За картиною осипу оцінюють, наскільки широкий і рівний він на певній відстані з конкретним чоком і набоєм. Ще важливіше — побачити, куди б’є рушниця відносно точки прицілювання: так перевіряють підгонку рушниці. Таку перевірку краще робити з тренером або майстром-підгонщиком, бо один постріл мало що каже. Плиту мають не всі стенди, тож запитайте заздалегідь.",
+   "long_en": "A pattern plate is painted or greased, and after a shot the mark of every pellet is clearly visible. The picture shows how wide and even the pattern is at a given distance with a particular choke and cartridge. Even more important, it shows where the gun shoots relative to the aiming point: this is how gun fit is checked. It is easier to do with a coach or a gun fitter, because one shot says little. Not every ground has a plate, so ask in advance.",
    "uk_usage": "«плита», «пристрілювальна плита»",
    "rule_refs": [],
    "related": [
@@ -1055,8 +1055,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Gun",
    "short_uk": "Гребінь приклада — верхній край, на який лягає щока; від його висоти залежить, де опиниться око над планкою.",
    "short_en": "The top edge of the stock where the cheek rests; its height decides where the eye sits above the rib.",
-   "long_uk": "Гребінь приклада працює як «задній приціл» рушниці: око опиняється там, куди його ставить щока. Якщо гребінь зависокий, рушниця б’є вище, якщо занизький — нижче, і стрілець бачить менше планки. Багато спортивних рушниць мають регульований гребінь, який можна підняти, опустити чи змістити вбік. У Sporting™ правило вихідного положення стосується саме найвищої частини приклада: перед викликом мішені її задній кінець має залишатися нижче лінії на жилеті, доки мішень не з’явиться. Налаштовувати гребінь найкраще з тренером або майстром-підгонщиком.",
-   "long_en": "The comb works as the gun's rear sight: the eye ends up wherever the cheek puts it. A comb that is too high makes the gun shoot high, one that is too low makes it shoot low and the shooter sees less rib. Many sporting guns have an adjustable comb that can be raised, lowered or moved sideways. In Sporting™ the ready-position rule refers to the highest part of the stock: before calling, its rear end must stay below the line on the vest until the target appears. Adjusting the comb is best done with a coach or gun fitter.",
+   "long_uk": "Гребінь приклада працює як «задній приціл» рушниці: око опиняється там, куди його ставить щока. Якщо гребінь зависокий, рушниця б’є вище, якщо занизький — нижче, і стрілець бачить менше планки. Багато спортивних рушниць мають регульований гребінь, який можна підняти, опустити чи змістити вбік. У Sporting™ правило вихідного положення стосується саме найвищої частини приклада: перед викликом мішені її задній кінець має залишатися нижче лінії на жилеті, доки мішень не з’явиться. Налаштовуйте гребінь разом із тренером або майстром-підгонщиком.",
+   "long_en": "The comb works as the gun's rear sight: the eye ends up wherever the cheek puts it. A comb that is too high makes the gun shoot high, one that is too low makes it shoot low and the shooter sees less rib. Many sporting guns have an adjustable comb that can be raised, lowered or moved sideways. In Sporting™ the ready-position rule refers to the highest part of the stock: before calling, its rear end must stay below the line on the vest until the target appears. Adjust the comb together with a coach or gun fitter.",
    "uk_usage": "«гребінь», «щока приклада», «регульована щока»",
    "rule_refs": [
     {
@@ -1692,7 +1692,7 @@ window.GLOSSARY_LEARN = {
    "cat": "Targets",
    "short_uk": "Коса мішень, що наближається до стрільця під кутом і проходить збоку.",
    "short_en": "A target coming towards the shooter at an angle and passing to one side.",
-   "long_uk": "Коса мішень на стрільця вилітає попереду й збоку, наближається і проходить повз вас. Поки вона далеко, винос невеликий, але що ближче вона підлітає, то швидше рухається поперек і то більшого виносу потребує. Тому важливо обрати точку розбиття ще до виклику мішені й не чекати, поки мішень підійде занадто близько. Під час руху рушниці стежте, щоб корпус обертався разом із нею, а не лише руки. Безпечний сектор стрільби на стенді обмежує, наскільки далеко вбік можна вести таку мішень.",
+   "long_uk": "Коса мішень на стрільця вилітає попереду й збоку, наближається і проходить повз вас. Поки вона далеко, винос невеликий, але що ближче вона підлітає, то швидше рухається поперек і то більшого виносу потребує. Тому важливо обрати точку пострілу ще до виклику мішені й не чекати, поки мішень підійде занадто близько. Під час руху рушниці стежте, щоб корпус обертався разом із нею, а не лише руки. Безпечний сектор стрільби на стенді обмежує, наскільки далеко вбік можна вести таку мішень.",
    "long_en": "A quartering-towards target appears in front and to one side, comes closer and passes by you. While it is far away the lead is small, but the closer it comes, the faster it moves across and the more lead it needs. So choose your break point before calling and do not wait until the target is too close. As you swing, make sure your body turns with the gun, not just your arms. The safe shooting sector of the stand limits how far to the side you can follow such a target.",
    "uk_usage": "«коса на себе»",
    "rule_refs": [
@@ -1909,15 +1909,14 @@ window.GLOSSARY_LEARN = {
    "id": "looper",
    "term": "Looper",
    "aka": [
-    "Chandelle",
     "Looping target"
    ],
    "cat": "Targets",
    "short_uk": "Мішень, що описує в повітрі дугу і змінює напрям польоту.",
    "short_en": "A target that flies an arc through the air and changes direction.",
-   "long_uk": "Looper (у французькій традиції chandelle) летить дугою: піднімається, перевалює через верхню точку й падає, водночас рухаючись убік. Часто для таких траєкторій використовують battue, яка в польоті розвертається і показує то ребро, то площину. Головна складність — постійна зміна напрямку й швидкості, тому стволи мають іти точно по кривій, а не навпростець. Багато стрільців розбивають looper біля верхньої точки, де мішень рухається найповільніше. Уважно подивіться показ і виберіть одну точку розбиття.",
-   "long_en": "A looper (chandelle in French usage) flies in an arc: it rises, rolls over the top and falls while moving sideways. Battue targets are often used for such trajectories, turning in flight to show first the edge and then the face. The main difficulty is the constant change of direction and speed, so the barrels must follow the curve exactly rather than cut across it. Many shooters take a looper near the top, where it moves slowest. Watch the presentation carefully and choose one break point.",
-   "uk_usage": "«дуга», «шандель»",
+   "long_uk": "Looper летить широкою дугою: піднімається, перевалює через верхню точку й падає, водночас рухаючись убік. Часто для таких траєкторій використовують battue, яка в польоті розвертається і показує то ребро, то площину. Головна складність — постійна зміна напрямку й швидкості, тому стволи мають іти по кривій, а не навпростець. Багато стрільців розбивають looper біля верхньої точки, де мішень рухається найповільніше. Назви в різних країнах різні: chandelle — інша, крутіша траєкторія, а французи часто називають «chandelle» мішень, що летить майже вертикально вгору (teal). Уважно подивіться показ і виберіть одну точку пострілу.",
+   "long_en": "A looper flies a wide arc: it rises, rolls over the top and falls while moving sideways. Battue targets are often used for such trajectories, turning in flight to show first the edge and then the face. The main difficulty is the constant change of direction and speed, so the barrels must follow the curve rather than cut across it. Many shooters take a looper near the top, where it moves slowest. Names vary between countries: a chandelle is a different, steeper climb, and French speakers often say 'chandelle' for a target that goes almost straight up (a teal). Watch the presentation carefully and choose one break point.",
+   "uk_usage": "«дуга»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -2007,9 +2006,9 @@ window.GLOSSARY_LEARN = {
    "cat": "Technique",
    "short_uk": "Місце, де стрілець уперше чітко бачить мішень і починає стежити за нею очима.",
    "short_en": "The place where the shooter first sees the target clearly and starts following it with the eyes.",
-   "long_uk": "Мішень зазвичай з’являється розмитою смугою біля машинки, і лише трохи згодом око бачить її чітко. Цю точку на траєкторії називають точкою зустрічі мішені очима. Перед викликом погляд спрямовують саме туди, а не на машинку, щоб не «смикатися» за першим рухом. Точку зустрічі, точку утримання стволів і точку розбиття стрілець обирає разом, поки дивиться показ. Стабільний вибір цих трьох точок — основа передпострілової рутини.",
+   "long_uk": "Мішень зазвичай з’являється розмитою смугою біля машинки, і лише трохи згодом око бачить її чітко. Цю точку на траєкторії називають точкою підхоплення (pick-up point). Перед викликом погляд спрямовують саме туди, а не на машинку, щоб не «смикатися» за першим рухом. Точку підхоплення, точку утримання стволів і точку пострілу стрілець обирає разом, поки дивиться показ. Стабільний вибір цих трьох точок — основа передпострілового ритуалу.",
    "long_en": "A target usually appears as a blur near the trap, and only a moment later does the eye see it clearly. This point on the trajectory is the pick-up point. Before calling, look there rather than at the trap, so that you do not jerk at the first movement. The shooter chooses the pick-up point, the hold point and the break point together while watching the presentation. Choosing these three points consistently is the basis of a pre-shot routine.",
-   "uk_usage": "«точка зустрічі», «де бачу мішень»",
+   "uk_usage": "«точка підхоплення», «де бачу мішень»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -2040,9 +2039,9 @@ window.GLOSSARY_LEARN = {
    "cat": "Technique",
    "short_uk": "Місце на траєкторії, де стрілець планує розбити мішень.",
    "short_en": "The place on the trajectory where the shooter plans to break the target.",
-   "long_uk": "Досвідчені стрільці вирішують, де розбиватимуть мішень, ще до виклику. Зазвичай це ділянка, де мішень летить найрівніше й найпередбачуваніше, далеко від перешкод і в межах безпечного сектора. Від точки розбиття залежить стійка: ноги ставлять так, щоб тіло було розслаблене саме в цій точці. Мішень має бути розбита там, де її бачить суддя; уламки за деревом чи за межею стрільби не зараховують. Якщо після кількох спроб мішень не вдається, часто допомагає змінити точку розбиття.",
+   "long_uk": "Досвідчені стрільці вирішують, де розбиватимуть мішень, ще до виклику. Зазвичай це ділянка, де мішень летить найрівніше й найпередбачуваніше, далеко від перешкод і в межах безпечного сектора. Від точки пострілу залежить стійка: ноги ставлять так, щоб тіло було розслаблене саме в цій точці. Мішень має бути розбита там, де її бачить суддя; уламки за деревом чи за межею стрільби не зараховують. Якщо після кількох спроб мішень не вдається, часто допомагає змінити точку пострілу.",
    "long_en": "Experienced shooters decide where they will break a target before calling. Usually it is the part of the trajectory where the target flies most steadily and predictably, away from obstacles and inside the safe sector. The break point decides the stance: the feet are placed so that the body is relaxed at that very point. The target must be broken where the referee can see it; a break behind a tree or beyond a shooting limit does not count. If a target keeps beating you, changing the break point often helps.",
-   "uk_usage": "«точка розбиття»",
+   "uk_usage": "«точка пострілу»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -2075,7 +2074,7 @@ window.GLOSSARY_LEARN = {
    "cat": "Technique",
    "short_uk": "Положення ніг і тіла стрільця перед пострілом.",
    "short_en": "The position of the shooter's feet and body before the shot.",
-   "long_uk": "Стійка — основа кожного пострілу. Ноги зазвичай ставлять приблизно на ширину плечей, передню ногу трохи вперед, а вагу переносять більше на неї. Корпус має бути розслабленим і повертатися від стегон, щоб рушниця рухалася разом із тілом, а не лише руками. Ноги розташовують так, щоб у точці розбиття тіло було в найзручнішому, нейтральному положенні, а потім «закручуються» назад до точки утримання. У Sporting™ обидві ноги мають бути в межах квадрата стрілецького місця, а в Compak® Sporting стрільця обмежує рамка firing angle limiter.",
+   "long_uk": "Стійка — основа кожного пострілу. Ноги зазвичай ставлять приблизно на ширину плечей, передню ногу трохи вперед, а вагу переносять більше на неї. Корпус має бути розслабленим і повертатися від стегон, щоб рушниця рухалася разом із тілом, а не лише руками. Ноги розташовують так, щоб у точці пострілу тіло було в найзручнішому, нейтральному положенні, а потім «закручуються» назад до точки утримання. У Sporting™ обидві ноги мають бути в межах квадрата стрілецького місця, а в Compak® Sporting стрільця обмежує рамка firing angle limiter.",
    "long_en": "The stance is the foundation of every shot. The feet are usually about shoulder-width apart, the front foot slightly forward, with more weight on it. The body should be relaxed and turn from the hips, so the gun moves with the body rather than the arms alone. Place your feet so that at the break point your body is in its most comfortable, neutral position, then wind back to the hold point. In Sporting™ both feet must be inside the stand square, and in Compak® Sporting the shooter is restricted by the firing angle limiter frame.",
    "uk_usage": "«стійка», «постановка ніг»",
    "rule_refs": [
@@ -2124,7 +2123,7 @@ window.GLOSSARY_LEARN = {
    "short_en": "The movement that brings the gun to the shooter's cheek and shoulder.",
    "long_uk": "Під час вкладки рушниця піднімається до обличчя, щока лягає на гребінь, а приклад — у «кишеню» плеча. Головне правило: рушницю несуть до щоки, а не голову опускають до рушниці. Вкладка має бути однаковою щоразу, бо від неї залежить, куди дивиться око відносно планки. У Sporting™ стрілець викликає мішень із низькою рушницею і вкладається лише після її появи, тож рух має бути швидким і точним. У Compak® Sporting викликати мішень можна з уже вкладеною рушницею. Вкладку відпрацьовують і без пострілів, з розрядженою рушницею там, де це дозволено.",
    "long_en": "During the mount the gun rises to the face, the cheek settles on the comb and the stock goes into the pocket of the shoulder. The key rule: bring the gun to the cheek, do not drop the head to the gun. The mount must be the same every time, because it decides where the eye sits relative to the rib. In Sporting™ the shooter calls with a low gun and mounts only once the target appears, so the movement must be quick and precise. In Compak® Sporting you may call with the gun already mounted. The mount is also practised without firing, with an unloaded gun, where this is allowed.",
-   "uk_usage": "«вкладка», «вскидка»",
+   "uk_usage": "«вкладка», «вкладати рушницю»",
    "disciplines": {
     "sporting": "Перед викликом рушниця внизу: задній кінець найвищої частини приклада нижче лінії на жилеті; вкладаються лише після появи мішені.",
     "compak": "Положення рушниці під час виклику вільне: можна викликати мішень із рушницею вже в плечі."
@@ -2229,8 +2228,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Technique",
    "short_uk": "Місце, де стрілець тримає дульні зрізи стволів у момент, коли кличе мішень.",
    "short_en": "Where the shooter holds the muzzles at the moment of calling for the target.",
-   "long_uk": "Точку утримання обирають на траєкторії між машинкою і точкою розбиття, зазвичай трохи нижче лінії польоту. Якщо стволи стоять надто близько до машинки, мішень обганяє їх; якщо надто далеко, рушниці доводиться чекати мішень і рух стає різким. Добра точка утримання дає змогу почати рух разом із мішенню й плавно вийти на неї. У Sporting™ рушниця під час виклику низько, а в Compak® Sporting стрілець може тримати її вже вкладеною, але сама точка, куди дивляться стволи, важлива в обох дисциплінах.",
-   "long_en": "The hold point is chosen on the trajectory between the trap and the break point, usually slightly below the flight line. If the muzzles are too close to the trap, the target outruns them; if too far, the gun has to wait for the target and the movement becomes abrupt. A good hold point lets you start moving with the target and come onto it smoothly. In Sporting™ the gun is low at the call, while in Compak® Sporting the shooter may hold it already mounted, but where the muzzles point matters in both disciplines.",
+   "long_uk": "Точку утримання зазвичай обирають між точкою підхоплення і точкою пострілу, на лінії польоту мішені або трохи нижче. Якщо стволи стоять надто близько до машинки, мішень обганяє їх і рушниці доводиться її наздоганяти; якщо надто далеко, для руху разом із мішенню лишається мало місця, і стрілець схильний «тицяти» або зупиняти рушницю. Добра точка утримання дає змогу почати рух разом із мішенню й плавно вийти на неї. Точне місце залежить від мішені й методу виносу, тож порадьтеся з тренером. У Sporting™ рушниця під час виклику низько, а в Compak® Sporting стрілець може тримати її вже вкладеною, але сама точка, куди дивляться стволи, важлива в обох дисциплінах.",
+   "long_en": "The hold point is usually chosen between the pick-up point and the break point, on the target's line or slightly below it. If the muzzles are too close to the trap, the target outruns them and the gun has to chase it; if they are too far out, there is little room to move with the target, and the shooter tends to poke or stop the gun. A good hold point lets you start moving with the target and come onto it smoothly. The exact place depends on the target and on your lead method, so ask your coach. In Sporting™ the gun is low at the call, while in Compak® Sporting the shooter may hold it already mounted, but where the muzzles point matters in both disciplines.",
    "uk_usage": "«точка утримання», «де тримаю стволи»",
    "disciplines": {
     "sporting": "Перед викликом рушниця внизу: задній кінець найвищої частини приклада нижче лінії на жилеті; вкладаються лише після появи мішені.",
@@ -2447,9 +2446,9 @@ window.GLOSSARY_LEARN = {
    "cat": "Technique",
    "short_uk": "Однакова послідовність дій, яку стрілець повторює перед кожною мішенню.",
    "short_en": "The same sequence of actions a shooter repeats before every target.",
-   "long_uk": "Рутина зазвичай охоплює стійку, вибір точки зустрічі, утримання й розбиття, положення рушниці, вдих і виклик мішені. Коли ці кроки щоразу однакові, рішення ухвалюються заздалегідь, а під час пострілу голова вільна для мішені. Рутина також допомагає під тиском змагань і після промаху: замість думати про результат, стрілець просто виконує свої кроки. Важливо вкладатися в час: у Sporting™ між мішенями є не більше 15 секунд, а в Compak® Sporting — 10 секунд, щоб викликати мішень. Рутину напрацьовують на тренуваннях разом із тренером.",
+   "long_uk": "Ритуал зазвичай охоплює стійку, вибір точок підхоплення, утримання й пострілу, положення рушниці, вдих і виклик мішені. Коли ці кроки щоразу однакові, рішення ухвалюються заздалегідь, а під час пострілу голова вільна для мішені. Ритуал також допомагає під тиском змагань і після промаху: замість думати про результат, стрілець просто виконує свої кроки. Важливо вкладатися в час: у Sporting™ між мішенями є не більше 15 секунд, а в Compak® Sporting — 10 секунд, щоб викликати мішень. Ритуал напрацьовують на тренуваннях разом із тренером.",
    "long_en": "A routine usually covers the stance, choosing the pick-up, hold and break points, the gun position, a breath and the call. When these steps are the same every time, decisions are made in advance and during the shot the mind is free for the target. A routine also helps under competition pressure and after a miss: instead of thinking about the score, the shooter just works through the steps. Keep to the time limits: in Sporting™ you have at most 15 seconds between targets, and in Compak® Sporting 10 seconds to call. A routine is built in training together with a coach.",
-   "uk_usage": "«рутина», «підготовка до пострілу»",
+   "uk_usage": "«передпостріловий ритуал», «ритуал», «підготовка до пострілу»",
    "disciplines": {
     "sporting": "Не більше 15 секунд між одиночними мішенями чи між дуплетами.",
     "compak": "Не більше 10 секунд, щоб викликати мішень після пострілу на попередньому місці."
@@ -2502,8 +2501,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Training",
    "short_uk": "Розминка перед стрільбою: рух і кілька простих мішеней.",
    "short_en": "Preparation before shooting: movement and a few easy targets.",
-   "long_uk": "Розминка готує тіло й очі до стрільби. Кілька хвилин руху для шиї, плечей, спини й стегон зменшують ризик травми й роблять рух рушниці плавнішим. Якщо дозволяє стенд, починайте тренування з кількох простих мішеней, щоб відчути ритм і впевненість, і лише потім переходьте до складних. Перед змаганнями тренуватися на змагальних траєкторіях заборонено, тож розминаються на окремих тренувальних місцях. Вкладки без пострілу роблять лише там, де це дозволено, з розрядженою перевіреною рушницею.",
-   "long_en": "A warm-up prepares the body and eyes for shooting. A few minutes of movement for the neck, shoulders, back and hips lower the risk of injury and make the gun movement smoother. If the ground allows, start a session with a few easy targets to find rhythm and confidence before moving on to hard ones. Before a competition, practice on the competition trajectories is not allowed, so warm up on separate practice stands. Do dry mounts only where this is allowed, with an unloaded, checked gun.",
+   "long_uk": "Розминка готує тіло й очі до стрільби. Кілька хвилин руху для шиї, плечей, спини й стегон зменшують ризик травми й роблять рух рушниці плавнішим. Якщо дозволяє стенд, починайте тренування з кількох простих мішеней, щоб відчути ритм і впевненість, і лише потім переходьте до складних. Перед змаганнями правила залежать від дисципліни. У Sporting™ тренуватися на змагальних layout заборонено, тож розминаються на інших майданчиках. У Compak® Sporting тренуватися на змагальних траєкторіях можна, але з іншими таблицями налаштування; на чемпіонатах континенту й світу офіційне тренування відкривається лише в суботу перед стартом. Вкладки без пострілу роблять лише там, де це дозволено, з розрядженою перевіреною рушницею.",
+   "long_en": "A warm-up prepares the body and eyes for shooting. A few minutes of movement for the neck, shoulders, back and hips lower the risk of injury and make the gun movement smoother. If the ground allows, start a session with a few easy targets to find rhythm and confidence before moving on to hard ones. Before an event the rules depend on the discipline. In Sporting™ nobody may practise on the competition layouts, so warm up on other ranges. In Compak® Sporting practice on the competition trajectories is allowed, but with different trajectory setting tables; at continental and world championships official practice opens only on the Saturday before. Do dry mounts only where this is allowed, with an unloaded, checked gun.",
    "uk_usage": "«розминка»",
    "rule_refs": [
     {
@@ -2516,6 +2515,12 @@ window.GLOSSARY_LEARN = {
      "book": "compak",
      "id": "ch6-practice",
      "ref": "Chapter 6, Practice",
+     "page": 12
+    },
+    {
+     "book": "compak",
+     "id": "ch6-championship-practice",
+     "ref": "Chapter 6, Practice (championships)",
      "page": 12
     }
    ],
@@ -2540,7 +2545,7 @@ window.GLOSSARY_LEARN = {
    "short_en": "Practising the mount without firing, with an unloaded, checked gun, where the law allows.",
    "long_uk": "Вкладка без пострілу — один із найкорисніших способів тренуватися вдома: кілька хвилин щодня роблять рух стабільним. Перед початком переконайтеся, що рушниця розряджена, а набоїв у кімнаті немає, і тримайте дуло в безпечному напрямку. Багато стрільців використовують навчальні набої-заглушки (snap caps), щоб берегти механізм під час клацання спуском. На стрільбищі правила суворіші: імітація стрільби поза стрілецьким місцем заборонена, а в Sporting™ вкладка з проведенням по уявній лінії мішені перед викликом карається попередженням. Перевірте місцевий закон щодо поводження зі зброєю вдома.",
    "long_en": "Dry mounting is one of the most useful ways to train at home: a few minutes a day make the movement consistent. Before starting, make sure the gun is unloaded and there are no cartridges in the room, and keep the muzzle pointed in a safe direction. Many shooters use snap caps to protect the mechanism when dry firing. On the range the rules are stricter: mock shooting away from the shooting position is forbidden, and in Sporting™ mounting and swinging along the imagined line of a target before calling earns a warning. Check local law on handling guns at home.",
-   "uk_usage": "«вкладки вдома», «холості вкладки»",
+   "uk_usage": "«вкладка без пострілу», «холості вкладки»",
    "disciplines": {
     "sporting": "Імітація стрільби заборонена на стрільбищі й поза ним; перед викликом — попередження, повтор карається.",
     "compak": "Імітація стрільби заборонена поза стрілецькими місцями й під час стрільби іншого учасника групи."
@@ -2608,8 +2613,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Training",
    "short_uk": "Тренер, який навчає стрільця техніки, безпеки й підготовки до змагань.",
    "short_en": "A trainer who teaches a shooter technique, safety and competition preparation.",
-   "long_uk": "Тренер ставить безпечні звички з першого заняття, перевіряє головне око, ставить стійку й вкладку, допомагає з вибором рушниці й набоїв і будує план тренувань. Бачити помилки збоку набагато легше, тому навіть досвідчені стрільці працюють із тренером. На змаганнях FITASC тренувати учасника під час стрільби заборонено: за це учасник отримує жовту картку, а того, хто підказує, суддя видаляє із зони стрільби. Довідник тренерів на ClayArena допомагає знайти тренера за дисципліною, а тури ClayAway дають змогу тренуватися з тренером у поїздці. Перевіряйте кваліфікацію й рекомендації тренера.",
-   "long_en": "A coach builds safe habits from the first lesson, checks the master eye, sets up the stance and mount, helps choose a gun and cartridges, and plans the training. Mistakes are much easier to see from outside, so even experienced shooters work with a coach. In FITASC competitions coaching a competitor during the shooting is forbidden: the competitor gets a yellow card, and the referee sends the person coaching out of the shooting area. The ClayArena coach directory helps you find a coach by discipline, and ClayAway tours let you train with a coach while travelling. Check a coach's qualifications and references.",
+   "long_uk": "Тренер ставить безпечні звички з першого заняття, перевіряє головне око, ставить стійку й вкладку, допомагає з вибором рушниці й набоїв і будує план тренувань. Бачити помилки збоку набагато легше, тому навіть досвідчені стрільці працюють із тренером. На змаганнях FITASC тренувати учасника під час стрільби заборонено: за це учасник отримує жовту картку, а того, хто підказує, суддя видаляє із зони стрільби. Довідник тренерів на ClayArena допомагає знайти тренера за дисципліною, а тури ClayAway (готуються до запуску) дадуть змогу тренуватися з тренером у поїздці. Перевіряйте кваліфікацію й рекомендації тренера.",
+   "long_en": "A coach builds safe habits from the first lesson, checks the master eye, sets up the stance and mount, helps choose a gun and cartridges, and plans the training. Mistakes are much easier to see from outside, so even experienced shooters work with a coach. In FITASC competitions coaching a competitor during the shooting is forbidden: the competitor gets a yellow card, and the referee sends the person coaching out of the shooting area. The ClayArena coach directory helps you find a coach by discipline, and ClayAway tours (in preparation) will let you train with a coach while travelling. Check a coach's qualifications and references.",
    "uk_usage": "«тренер», «інструктор»",
    "rule_refs": [
     {
@@ -2645,11 +2650,11 @@ window.GLOSSARY_LEARN = {
    "term": "Process goal",
    "aka": [],
    "cat": "Training",
-   "short_uk": "Ціль, що стосується дії, а не результату: наприклад, виконувати рутину на кожній мішені.",
+   "short_uk": "Ціль, що стосується дії, а не результату: наприклад, виконувати свій ритуал на кожній мішені.",
    "short_en": "A goal about the action rather than the result: for example, doing your routine on every target.",
-   "long_uk": "Ціль-процес описує те, що стрілець повністю контролює: тримати щоку на прикладі, щоразу виконувати рутину, обирати точку розбиття до виклику. Цілі-результати, як-от «розбити 90 із 100» чи «потрапити в трійку», залежать і від суперників, погоди та складності маршруту. Зосередженість на процесі зменшує тиск, особливо в юних стрільців, і після промаху допомагає повернутися до наступної мішені. Батькам і тренерам радять хвалити за виконані дії, а не лише за рахунок. Результат з’являється як наслідок добре виконаного процесу.",
-   "long_en": "A process goal describes something the shooter fully controls: keeping the cheek on the stock, doing the routine every time, choosing the break point before calling. Outcome goals, such as 'break 90 out of 100' or 'make the top three', also depend on rivals, the weather and the course. Focusing on process lowers pressure, especially for young shooters, and helps you return to the next target after a miss. Parents and coaches are advised to praise the actions, not only the score. The result follows from a process done well.",
-   "uk_usage": "«ціль на процес»",
+   "long_uk": "Ціль процесу описує те, що стрілець повністю контролює: тримати щоку на прикладі, щоразу виконувати свій ритуал, обирати точку пострілу до виклику. Цілі результату, як-от «розбити 90 із 100» чи «потрапити в трійку», залежать і від суперників, погоди та складності маршруту. Зосередженість на процесі зменшує тиск, особливо в юних стрільців, і після промаху допомагає повернутися до наступної мішені. Батькам і тренерам радять хвалити за виконані дії, а не лише за рахунок. Добрий результат часто з’являється як наслідок добре виконаного процесу.",
+   "long_en": "A process goal describes something the shooter fully controls: keeping the cheek on the stock, doing the routine every time, choosing the break point before calling. Outcome goals, such as 'break 90 out of 100' or 'make the top three', also depend on rivals, the weather and the course. Focusing on process lowers pressure, especially for young shooters, and helps you return to the next target after a miss. Parents and coaches are advised to praise the actions, not only the score. A good result often follows from a process done well.",
+   "uk_usage": "«ціль процесу»",
    "rule_refs": [],
    "related": [
     "pre-shot-routine",
@@ -3187,7 +3192,7 @@ window.GLOSSARY_LEARN = {
    "short_uk": "Кепка з козирком, що затіняє очі й захищає окуляри від дощу.",
    "short_en": "A peaked cap that shades the eyes and keeps rain off the glasses.",
    "long_uk": "Кепка з козирком затіняє очі від сонця й зменшує відблиски на лінзах, а в дощ не дає краплям потрапляти на окуляри. Козирок не має бути надто довгим, щоб не закривати мішені, які летять високо. Кепка також трохи захищає від уламків мішеней і від гарячого сонця під час довгого дня на стенді. Під навушники краще підходить кепка без високих бічних швів. Правила FITASC щодо одягу кепок окремо не регулюють, але одяг має бути охайним і доречним.",
-   "long_en": "A peaked cap shades the eyes from the sun and reduces glare on the lenses, and in rain it keeps drops off the glasses. The peak should not be too long, or it will hide high targets. A cap also gives a little protection from target fragments and from strong sun over a long day on the ground. Under ear muffs a cap without high side seams fits best. The FITASC rules do not regulate caps as such, but clothing must be tidy and suitable.",
+   "long_en": "A peaked cap shades the eyes from the sun and reduces glare on the lenses, and in rain it keeps drops off the glasses. The peak should not be too long, or it will hide high targets. A cap also gives a little protection from target fragments and from strong sun over a long day on the ground. Under ear muffs a cap without high side seams fits better. The FITASC rules do not regulate caps as such, but clothing must be tidy and suitable.",
    "uk_usage": "«кепка»",
    "rule_refs": [],
    "related": [
@@ -3209,8 +3214,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Competition",
    "short_uk": "Змагання, які проводить стрілецький клуб чи стенд; формат і кількість мішеней визначає організатор.",
    "short_en": "A competition held by a shooting club or ground; the organiser sets the format and number of targets.",
-   "long_uk": "Клубні змагання — найкраще місце для першого старту. Їх часто проводять у вихідні, мішеней зазвичай менше, ніж на великих турнірах (наприклад 50 або 100), а атмосфера спокійніша. Організатор сам визначає формат, кількість мішеней, категорії й частину правил, тож уважно прочитайте програму. Часто правила близькі до FITASC, але можуть бути спрощення для новачків або власні класи. Тут легко звикнути до розкладу, групи й судді без зайвого стресу.",
-   "long_en": "A club shoot is the best place for a first competition. They are often held at weekends, usually with fewer targets than big events (50 or 100, for example), and the atmosphere is calmer. The organiser decides the format, number of targets, categories and some of the rules, so read the programme carefully. The rules are often close to FITASC, but there may be simplifications for beginners or local classes. It is an easy way to get used to the schedule, the squad and the referee without too much stress.",
+   "long_uk": "Клубні змагання — хороше місце для першого старту. Їх часто проводять у вихідні, мішеней зазвичай менше, ніж на великих турнірах (наприклад 50 або 100), а атмосфера спокійніша. Організатор сам визначає формат, кількість мішеней, категорії й частину правил, тож уважно прочитайте програму. Часто правила близькі до FITASC, але можуть бути спрощення для новачків або власні класи. Тут легко звикнути до розкладу, групи й судді без зайвого стресу.",
+   "long_en": "A club shoot is a good place for a first competition. They are often held at weekends, usually with fewer targets than big events (50 or 100, for example), and the atmosphere is calmer. The organiser decides the format, number of targets, categories and some of the rules, so read the programme carefully. The rules are often close to FITASC, but there may be simplifications for beginners or local classes. It is an easy way to get used to the schedule, the squad and the referee without too much stress.",
    "uk_usage": "«клубні змагання», «клубний старт»",
    "rule_refs": [],
    "related": [
@@ -3499,8 +3504,8 @@ window.GLOSSARY_LEARN = {
    "cat": "ClayArena",
    "short_uk": "Сторінка стрільця на ClayArena з його виступами та основними показниками.",
    "short_en": "A shooter's page on ClayArena with their competitions and key figures.",
-   "long_uk": "Профіль стрільця збирає змагання Sporting™ і Compak® Sporting, результати яких є на ClayArena, і показує основні цифри, як-от влучність і найкращий результат. До профілю можна перейти з таблиці результатів змагання або знайти його пошуком за ім’ям. Імена на сайті написані латиницею так, як у документах змагань, тож якщо прізвище транслітерують по-різному, спробуйте кілька варіантів. Дані надходять із протоколів змагань, тому найважливіша перевірка відбувається на стенді. Найкраще використовувати профіль, щоб порівнювати себе із собою протягом сезону.",
-   "long_en": "A shooter profile brings together the Sporting™ and Compak® Sporting competitions whose results are on ClayArena and shows key figures such as accuracy and best score. You can reach it from a competition's results table or find it by searching for the name. Names on the site are written in Latin letters as in the competition documents, so if a surname can be transliterated in different ways, try several spellings. The data come from competition score sheets, so the most important check happens on the ground. The best use of a profile is to compare yourself with yourself over a season.",
+   "long_uk": "Профіль стрільця збирає змагання Sporting™ і Compak® Sporting, результати яких є на ClayArena, і показує основні цифри, як-от влучність і найкращий результат. До профілю можна перейти з таблиці результатів змагання або знайти його пошуком за ім’ям. Імена на сайті написані латиницею так, як у документах змагань, тож якщо прізвище транслітерують по-різному, спробуйте кілька варіантів. Дані надходять із протоколів змагань, тому перевіряйте свій протокол ще на стенді: у профілі буде те, що записав суддя. Профіль зручно використовувати, щоб порівнювати себе із собою протягом сезону.",
+   "long_en": "A shooter profile brings together the Sporting™ and Compak® Sporting competitions whose results are on ClayArena and shows key figures such as accuracy and best score. You can reach it from a competition's results table or find it by searching for the name. Names on the site are written in Latin letters as in the competition documents, so if a surname can be transliterated in different ways, try several spellings. The data come from competition score sheets, so check your score sheet while you are still on the ground: the profile will show what the referee wrote. A profile is useful for comparing yourself with yourself over a season.",
    "uk_usage": "«профіль», «профіль стрільця»",
    "rule_refs": [
     {
@@ -3536,10 +3541,10 @@ window.GLOSSARY_LEARN = {
    "term": "ClayAway",
    "aka": [],
    "cat": "ClayArena",
-   "short_uk": "Напрям ClayArena для організованих тренувальних турів із тренером.",
-   "short_en": "ClayArena's service for organised training tours with a coach.",
-   "long_uk": "ClayAway — напрям ClayArena, у якому тренер чи організатор збирає групу стрільців у тренувальний тур, а стрілець купує один пакет. До пакета можуть входити тренування на стендах, проживання, трансфери, спільна програма і, за потреби, перекладач. Організатором може бути сам тренер, а також клуб, стенд чи агенція. Тури називають за тренером або місцем і форматом, наприклад «<ім’я тренера> Training Week». Час у програмі туру вказують за часовим поясом місця проведення з позначкою поясу, а правила ввезення рушниці й набоїв у країну туру треба перевіряти заздалегідь.",
-   "long_en": "ClayAway is the part of ClayArena in which a coach or organiser gathers a group of shooters for a training tour, and the shooter buys one package. The package can include training at shooting grounds, accommodation, transfers, a shared programme and, where needed, an interpreter. The organiser may be the coach, but also a club, a ground or an agency. Tours are named after the coach or the place plus the format, for example '<coach name> Training Week'. Times in a tour programme are given in the venue's time zone with the zone shown, and the rules for bringing a gun and cartridges into the tour country must be checked in advance.",
+   "short_uk": "Напрям ClayArena для організованих тренувальних турів із тренером (готується до запуску).",
+   "short_en": "ClayArena's planned service (in preparation) for organised training tours with a coach.",
+   "long_uk": "ClayAway — напрям ClayArena, який зараз готується: тренер чи організатор збирає групу стрільців у тренувальний тур, а стрілець купує один пакет. До пакета можуть входити тренування на стендах, проживання, трансфери, спільна програма і, за потреби, перекладач. Організатором може бути сам тренер, а також клуб, стенд чи агенція. Тури називають за тренером або місцем і форматом, наприклад «<ім’я тренера> Training Week». Час у програмі туру вказують за часовим поясом місця проведення з позначкою поясу, а правила ввезення рушниці й набоїв у країну туру треба перевіряти заздалегідь.",
+   "long_en": "ClayAway is a part of ClayArena that is being prepared: a coach or organiser gathers a group of shooters for a training tour, and the shooter buys one package. The package can include training at shooting grounds, accommodation, transfers, a shared programme and, where needed, an interpreter. The organiser may be the coach, but also a club, a ground or an agency. Tours are named after the coach or the place plus the format, for example '<coach name> Training Week'. Times in a tour programme are given in the venue's time zone with the zone shown, and the rules for bringing a gun and cartridges into the tour country must be checked in advance.",
    "uk_usage": "«ClayAway», «тур», «тренувальний тур»",
    "rule_refs": [
     {
@@ -3813,8 +3818,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Travel",
    "short_uk": "Збій режиму сну і бадьорості після перельоту через кілька часових поясів; зазвичай минає за кілька днів.",
    "short_en": "Disrupted sleep and alertness after flying across several time zones; it usually passes in a few days.",
-   "long_uk": "Після перельоту через кілька часових поясів внутрішній годинник тіла не збігається з місцевим часом: удень хочеться спати, вночі важко заснути, реакція й зосередженість гірші. Для стрільби це важливо, бо точність і концентрація страждають першими. Тому на далекі змагання радять прилітати на кілька днів раніше, одразу жити за місцевим часом, більше бути на денному світлі й пити воду. У програмі туру ClayAway час подають за часовим поясом місця проведення з позначкою поясу, щоб не переплутати розклад. Рекомендації щодо сну й ліків обговорюйте з лікарем.",
-   "long_en": "After flying across several time zones the body clock does not match local time: you feel sleepy by day, find it hard to sleep at night, and reactions and focus suffer. This matters for shooting, because accuracy and concentration are the first to go. So for distant competitions it is advised to arrive a few days early, switch to local time at once, spend time in daylight and drink water. A ClayAway tour programme gives times in the venue's time zone with the zone shown, so you do not mix up the schedule. Discuss sleep aids or medication with a doctor.",
+   "long_uk": "Після перельоту через кілька часових поясів внутрішній годинник тіла не збігається з місцевим часом: удень хочеться спати, вночі важко заснути, реакція й зосередженість гірші. Для стрільби це важливо, бо точність і концентрація страждають першими. Тому на далекі змагання радять прилітати на кілька днів раніше, одразу жити за місцевим часом, більше бути на денному світлі й пити воду. У програмі туру ClayAway (готується до запуску) час подаватимуть за часовим поясом місця проведення з позначкою поясу, щоб не переплутати розклад. Рекомендації щодо сну й ліків обговорюйте з лікарем.",
+   "long_en": "After flying across several time zones the body clock does not match local time: you feel sleepy by day, find it hard to sleep at night, and reactions and focus suffer. This matters for shooting, because accuracy and concentration are the first to go. So for distant competitions it is advised to arrive a few days early, switch to local time at once, spend time in daylight and drink water. A ClayAway tour programme (in preparation) will give times in the venue's time zone with the zone shown, so you do not mix up the schedule. Discuss sleep aids or medication with a doctor.",
    "uk_usage": "«джетлаг», «зміна часових поясів»",
    "rule_refs": [],
    "related": [
@@ -3835,8 +3840,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Travel",
    "short_uk": "Лист від організатора змагань чи стенду з вашим ім’ям, назвою події, місцем і датами; підтверджує мету поїздки з рушницею.",
    "short_en": "A letter from the competition organiser or ground with your name, the event, place and dates; it proves the reason for travelling with a gun.",
-   "long_uk": "Лист-запрошення — найпоширеніший документ, що підтверджує мету поїздки зі зброєю. У ньому вказують ваше ім’я, назву змагання чи туру, місце й дати, а іноді й дані рушниці. У ЄС його показують разом із європейським вогнепальним паспортом, а поза ЄС він часто потрібен для дозволу на тимчасове ввезення. Лист нерідко просять на кордоні чи в аеропорту, тож запросіть його заздалегідь і майте роздруковану копію разом з іншими документами. Організатори турів ClayAway і міжнародних змагань зазвичай знають, який саме лист потрібен.",
-   "long_en": "An invitation letter is the most common document proving the reason for travelling with a gun. It gives your name, the name of the competition or tour, the place and dates, and sometimes the gun's details. In the EU it is shown together with the European Firearms Pass, and outside the EU it is often needed for a temporary import permit. It is frequently requested at the border or the airport, so ask for it in advance and keep a printed copy with your other documents. Organisers of ClayAway tours and international competitions usually know exactly which letter is needed.",
+   "long_uk": "Лист-запрошення — найпоширеніший документ, що підтверджує мету поїздки зі зброєю. У ньому вказують ваше ім’я, назву змагання чи туру, місце й дати, а іноді й дані рушниці. У ЄС його показують разом із європейським вогнепальним паспортом, а поза ЄС він часто потрібен для дозволу на тимчасове ввезення. Лист нерідко просять на кордоні чи в аеропорту, тож запросіть його заздалегідь і майте роздруковану копію разом з іншими документами. Організатори міжнародних змагань зазвичай знають, який саме лист потрібен.",
+   "long_en": "An invitation letter is the most common document proving the reason for travelling with a gun. It gives your name, the name of the competition or tour, the place and dates, and sometimes the gun's details. In the EU it is shown together with the European Firearms Pass, and outside the EU it is often needed for a temporary import permit. It is frequently requested at the border or the airport, so ask for it in advance and keep a printed copy with your other documents. Organisers of international competitions usually know which letter is needed.",
    "uk_usage": "«запрошення», «лист-запрошення»",
    "rule_refs": [],
    "related": [
@@ -3906,8 +3911,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Travel",
    "short_uk": "Міжнародна асоціація повітряного транспорту; її правила для небезпечних вантажів визначають, як пасажири можуть перевозити набої.",
    "short_en": "The International Air Transport Association; its dangerous goods rules set how passengers may carry cartridges.",
-   "long_uk": "Набої для авіаперевезення вважаються небезпечним вантажем. За правилами IATA пасажир зазвичай може перевезти до 5 кг брутто спортивних набоїв для власного використання лише в багажі, що здається, у надійній упаковці, найкраще в коробках виробника. Коробка з 25 набоїв 12 калібру важить приблизно кілограм, тож 5 кг — це лише близько п’яти коробок. Багато авіакомпаній мають суворіші правила: менший ліміт, окреме пакування від рушниці або повну заборону. Перевіряйте вимоги своєї авіакомпанії перед кожним перельотом, а набої для змагань часто простіше купити на місці.",
-   "long_en": "Cartridges count as dangerous goods for air travel. Under the IATA rules a passenger is usually allowed up to 5 kg gross of sporting cartridges for their own use, only in checked baggage and securely packed, ideally in the maker's boxes. A box of 25 12-gauge cartridges weighs roughly a kilogram, so 5 kg is only about five boxes. Many airlines are stricter: a lower limit, separate packing from the gun, or a total ban. Check your airline's requirements before every flight; cartridges for a competition are often easier to buy at the destination.",
+   "long_uk": "Набої для авіаперевезення вважаються небезпечним вантажем. За правилами IATA пасажир зазвичай може перевезти до 5 кг брутто спортивних набоїв для власного використання лише в багажі, що здається, у надійній упаковці, бажано в коробках виробника. Коробка з 25 набоїв 12 калібру важить приблизно кілограм, тож 5 кг — це лише близько п’яти коробок. Багато авіакомпаній мають суворіші правила: менший ліміт, окреме пакування від рушниці або повну заборону. Перевіряйте вимоги своєї авіакомпанії перед кожним перельотом, а набої для змагань часто простіше купити на місці.",
+   "long_en": "Cartridges count as dangerous goods for air travel. Under the IATA rules a passenger is usually allowed up to 5 kg gross of sporting cartridges for their own use, only in checked baggage and securely packed, preferably in the maker's boxes. A box of 25 12-gauge cartridges weighs roughly a kilogram, so 5 kg is only about five boxes. Many airlines are stricter: a lower limit, separate packing from the gun, or a total ban. Check your airline's requirements before every flight; cartridges for a competition are often easier to buy at the destination.",
    "uk_usage": "«IATA», «правила IATA»",
    "rule_refs": [],
    "related": [
@@ -4010,7 +4015,10 @@ window.GLOSSARY_LEARN = {
    "short_en": "Target that climbs steeply in a curve and then drops away. Not the French \"chandelle\", which means a vertical teal.",
    "long_uk": "",
    "long_en": "",
-   "related": [],
+   "related": [
+    "looper",
+    "teal"
+   ],
    "rule_refs": [],
    "uk_usage": "«chandelle»"
   },
@@ -4086,7 +4094,7 @@ window.GLOSSARY_LEARN = {
    "term": "Move, mount, shoot",
    "aka": [],
    "cat": "Technique",
-   "short_uk": "Тренерська послідовність: стволи рушають за мішенню, вкидка відбувається в русі, а постріл — щойно вкидку завершено.",
+   "short_uk": "Тренерська послідовність: стволи рушають за мішенню, рушницю вкладають у русі, а постріл — щойно вкладку завершено.",
    "short_en": "Coaching sequence: the muzzles start moving with the target, the gun is mounted during the move, and the shot follows as the mount completes.",
    "long_uk": "",
    "long_en": "",
@@ -4138,8 +4146,8 @@ window.GLOSSARY_LEARN = {
    "term": "Hard focus",
    "aka": [],
    "cat": "Technique",
-   "short_uk": "Чіткий, зосереджений фокус на самій мішені, найкраще на її передньому краї.",
-   "short_en": "Sharp, intense focus on the target itself, ideally on its leading edge.",
+   "short_uk": "Чіткий, зосереджений фокус на самій мішені, часто — на її передньому краї.",
+   "short_en": "Sharp, intense focus on the target itself, often on its leading edge.",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -4186,31 +4194,33 @@ window.GLOSSARY_LEARN = {
    "uk_usage": ""
   },
   {
-   "id": "fly-over-rectangle",
-   "term": "Fly-over rectangle",
-   "aka": [
-    "ABCD"
-   ],
-   "cat": "Shooting rules",
-   "short_uk": "Обов’язкова зона Compak® Sporting завширшки 35–40 м і завглибшки 25 м, позначена кутовими стовпчиками, над якою має пролітати кожна мішень.",
-   "short_en": "The compulsory Compak® Sporting zone, 35–40 m wide and 25 m deep, marked by corner stakes, over which every target must fly.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
    "id": "waiting-position",
    "term": "Waiting position",
    "aka": [],
    "cat": "Shooting rules",
-   "short_uk": "У груповій стрільбі Compak® — місце позаду стрілецького місця № 1, де шостий стрілець чекає своєї черги.",
-   "short_en": "In Compak® squad shooting, the place behind station 1 where the sixth shooter waits for his turn.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
+   "short_uk": "Місце, де стрілець чекає своєї черги: у Sporting™ — місце для групи біля стрілецького місця; у груповій стрільбі Compak® — місце позаду місця № 1 для шостого стрільця.",
+   "short_en": "The place where a shooter waits for their turn: in Sporting™ the squad's waiting area near the stand; in Compak® squad shooting the place behind station 1 for the sixth shooter.",
+   "long_uk": "У Parcours de Chasse – Sporting™ місця очікування — це місця, де решта групи стоїть, поки стріляє один учасник: якомога ближче до стрілецького місця, але так, щоб не заважати стрільцю й не порушувати правил безпеки. У Compak® Sporting під час стрільби групою шостий стрілець чекає позаду місця № 1. Коли стрілець на місці 5 закінчує меню, він іде чекати позаду місця № 1, усі інші переходять на одне місце праворуч, а той, хто чекав, стає на місце 1.",
+   "long_en": "In Parcours de Chasse – Sporting™ the waiting positions are where the rest of the squad stands while one member shoots: as close to the shooting stand as possible, without distracting the shooter and within the safety rules. In Compak® Sporting shot by squad, the sixth shooter waits behind station 1. When the shooter on station 5 has finished the menu, he goes to wait behind station 1, everyone else moves one station to the right, and the waiting shooter steps onto station 1.",
+   "related": [
+    "squad",
+    "rotation",
+    "shooting-stand"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-waiting-positions",
+     "ref": "Chapter 2, 2.4 Shooting stands",
+     "page": 4
+    },
+    {
+     "book": "compak",
+     "id": "ch17-squad-rotation",
+     "ref": "Chapter 17, 17.4 Shooting sequence for Compak by Squad (rotation)",
+     "page": 18
+    }
+   ],
    "uk_usage": ""
   },
   {
@@ -4312,21 +4322,6 @@ window.GLOSSARY_LEARN = {
    "uk_usage": ""
   },
   {
-   "id": "smoke-ball",
-   "term": "Smoked it",
-   "aka": [
-    "smoke ball"
-   ],
-   "cat": "Technique",
-   "short_uk": "Тренерський сленг: ідеальне влучання, мішень розлітається в пил; не плутати з «лише пил чи дим» у правилах, що є промахом.",
-   "short_en": "Coach slang for a perfect centred hit that turns the clay to dust; not the same as 'dust or smoke only' in the rules, which is a miss.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
    "id": "checking",
    "term": "Checking",
    "aka": [],
@@ -4385,7 +4380,7 @@ window.GLOSSARY_LEARN = {
    "term": "Late mount",
    "aka": [],
    "cat": "Technique",
-   "short_uk": "Вкидка, завершена тоді, коли вже мав пролунати постріл; веде до поспішного пострілу.",
+   "short_uk": "Вкладка, завершена тоді, коли вже мав пролунати постріл; веде до поспішного пострілу.",
    "short_en": "A gun mount completed after the moment the shot should be fired, leading to a rushed shot.",
    "long_uk": "",
    "long_en": "",
@@ -4422,7 +4417,9 @@ window.GLOSSARY_LEARN = {
   {
    "id": "hand-signal",
    "term": "Hand signal",
-   "aka": [],
+   "aka": [
+    "Hand signals"
+   ],
    "cat": "Technique",
    "short_uk": "Жест, яким тренер на місці замінює слова, наприклад розведені руки — більше виносу.",
    "short_en": "A gesture a coach uses on the stand instead of words, for example hands apart for more lead.",
@@ -4578,19 +4575,6 @@ window.GLOSSARY_LEARN = {
    "uk_usage": ""
   },
   {
-   "id": "hand-signals",
-   "term": "Hand signals",
-   "aka": [],
-   "cat": "Interpreting",
-   "short_uk": "Жести, якими тренер мовчки дає вказівки на позиції.",
-   "short_en": "Gestures a coach uses to give instructions silently on the stand.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
    "id": "false-friend",
    "term": "False friend",
    "aka": [],
@@ -4606,10 +4590,12 @@ window.GLOSSARY_LEARN = {
   {
    "id": "smoked-it",
    "term": "Smoked it",
-   "aka": [],
-   "cat": "Interpreting",
-   "short_uk": "Сленг тренерів: ідеальне влучання; не плутати з «лише пил чи дим» у правилах, що є нулем.",
-   "short_en": "Coach slang for a perfect hit; not the rules’ “dust or smoke only”, which is a zero.",
+   "aka": [
+    "Smoke ball"
+   ],
+   "cat": "Technique",
+   "short_uk": "Тренерський сленг: дуже точне влучання, мішень розлітається в пил; не плутати з «лише пил чи дим» у правилах — це промах (zero).",
+   "short_en": "Coach slang for a clean, centred hit that turns the clay to dust; not the rules' 'dust or smoke only', which is scored as a miss (zero).",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -4745,8 +4731,8 @@ window.GLOSSARY_LEARN = {
    "term": "Instinctive shooting",
    "aka": [],
    "cat": "Technique",
-   "short_uk": "Стрільба з жорстким фокусом на мішені без свідомого виносу, вкидка і проводка разом (школа Черчилля).",
-   "short_en": "Shooting with hard focus on the target and no conscious lead, the mount and swing done together (Churchill school).",
+   "short_uk": "Стрільба з жорстким фокусом на мішені без свідомого виносу; вкладка й проводка відбуваються разом.",
+   "short_en": "Shooting with hard focus on the target and no conscious lead; the mount and swing happen together.",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -4760,19 +4746,6 @@ window.GLOSSARY_LEARN = {
    "cat": "Discipline",
    "short_uk": "Керівний орган спорту в країні; член FITASC, затверджує національні майданчики й атестує суддів.",
    "short_en": "A country's governing body for the sport; member of FITASC, approves national layouts and certifies referees.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
-   "id": "super-mini",
-   "term": "Super mini",
-   "aka": [],
-   "cat": "Targets",
-   "short_uk": "Назва найменшої мішені в переліку FITASC для спортингу; правило про меню згадує розміри 70 мм і 60 мм, а виробники вживають «mini» й «super mini» по-різному, тож орієнтуйтеся на міліметри.",
-   "short_en": "Name used in the FITASC Sporting™ list of permitted targets for the smallest clay; the menu rule names 70 mm and 60 mm sizes, and makers use 'mini' and 'super mini' differently, so go by the millimetres.",
    "long_uk": "",
    "long_en": "",
    "related": [],

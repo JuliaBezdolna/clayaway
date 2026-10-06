@@ -65,22 +65,22 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "No Bird",
    "q_en": "The shooter calls 'pull'. The referee relays the signal, but the target only appears about five seconds later. The shooter fires and misses. What is the referee's decision?",
-   "q_uk": "Стрілець командує «pull». Суддя передає сигнал, але мішень з'являється лише приблизно через п'ять секунд. Стрілець стріляє й промахується. Яке рішення судді?",
+   "q_uk": "Стрілець командує «pull». Суддя передає сигнал, але мішень з’являється лише приблизно через п’ять секунд. Стрілець стріляє й промахується. Яке рішення судді?",
    "options": [
     {
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     },
     {
-     "en": "Repeat only if the shooter protested before firing",
-     "uk": "Повтор, лише якщо стрілець запротестував до пострілу"
-    },
-    {
      "en": "No Bird, the target is repeated",
      "uk": "No Bird — мішень повторюють"
+    },
+    {
+     "en": "Repeat only if the shooter protested before firing",
+     "uk": "Повтор, лише якщо стрілець запротестував до пострілу"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "explain_en": "The target must be released within 3 seconds of the referee's signal. A target thrown later is a No Bird, whatever the result of the shot.",
    "explain_uk": "Мішень має вилетіти протягом 3 секунд після сигналу судді. Пізніша мішень — No Bird, незалежно від результату пострілу.",
    "refs": [
@@ -126,8 +126,8 @@ window.RULES_QUIZ.push({
    "q_uk": "Стрілець ще стає в готову позицію й нічого не командував, а трапер уже випускає мішень. Стрілець не стріляє. Яке рішення судді?",
    "options": [
     {
-     "en": "Zero, because the shooter must always be ready",
-     "uk": "Zero, бо стрілець завжди має бути готовим"
+     "en": "Yellow card, then the target is repeated",
+     "uk": "Жовта картка, потім мішень повторюють"
     },
     {
      "en": "Zero (lost)",
@@ -188,8 +188,8 @@ window.RULES_QUIZ.push({
      "uk": "Zero — мішень не зарахована"
     },
     {
-     "en": "Zero, outside noise is never a reason",
-     "uk": "Zero, сторонній шум ніколи не є причиною"
+     "en": "Repeated only if the jury agrees",
+     "uk": "Повтор лише за згодою журі"
     },
     {
      "en": "No Bird, the target is repeated",
@@ -213,7 +213,7 @@ window.RULES_QUIZ.push({
    "options": [
     {
      "en": "Ask the squad and score by majority",
-     "uk": "Запитати групу й зарахувати за більшістю голосів"
+     "uk": "Запитати squad і зарахувати за більшістю голосів"
     },
     {
      "en": "One (hit)",
@@ -230,7 +230,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 2,
    "explain_en": "When the referee cannot decide whether a target was hit, it is a No Bird and the target is repeated. The squad may advise only if the referee asks, and never votes.",
-   "explain_uk": "Коли суддя не може вирішити, чи була мішень уражена, це No Bird і мішень повторюють. Група може лише порадити, якщо суддя сам запитає, і ніколи не голосує.",
+   "explain_uk": "Коли суддя не може вирішити, чи була мішень уражена, це No Bird і мішень повторюють. Squad може лише порадити, якщо суддя сам запитає, і ніколи не голосує.",
    "refs": [
     "ch6-nobird-target-cases",
     "ch9-consultation"
@@ -254,12 +254,12 @@ window.RULES_QUIZ.push({
     },
     {
      "en": "No Bird, double repeated",
-     "uk": "No Bird, дубль повторюють"
+     "uk": "No Bird, дуплет повторюють"
     }
    ],
    "answer": 1,
-   "explain_en": "In any type of double, if one shot breaks both targets, both are scored: one and one.",
-   "explain_uk": "У будь-якому дублі, якщо один постріл розбиває обидві мішені, зараховують обидві: one та one.",
+   "explain_en": "Here the shot itself broke both clays, so in any type of double both count: one and one. It is different when a piece of the first clay breaks the second before the second shot (double on report): then the double is repeated and the first result is kept.",
+   "explain_uk": "Тут обидві тарілки розбив сам постріл, тож у будь-якому дуплеті зараховують обидві: one та one. Інша річ, коли уламок першої тарілки розбиває другу до другого пострілу (double on report): тоді дуплет повторюють, а результат першої зберігають.",
    "refs": [
     "ch6-two-with-one-shot"
    ],
@@ -277,19 +277,19 @@ window.RULES_QUIZ.push({
    "q_uk": "Rafale double. Обидві тарілки вилітають правильно, але стрілець опускає рушницю й не стріляє жодного разу, без поважної причини. Яке рішення судді?",
    "options": [
     {
-     "en": "No Bird, double repeated",
-     "uk": "No Bird, дубль повторюють"
-    },
-    {
      "en": "Zero and zero",
      "uk": "Zero та zero"
+    },
+    {
+     "en": "No Bird, double repeated",
+     "uk": "No Bird, дуплет повторюють"
     },
     {
      "en": "Zero on the first target, second repeated",
      "uk": "Zero на першій, другу повторюють"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "explain_en": "Not firing at a correct target without a valid reason is zero; for a rafale or simultaneous double that means zero and zero.",
    "explain_uk": "Якщо без поважної причини не стріляти по правильній мішені, це zero; для rafale чи simultaneous double — zero та zero.",
    "refs": [
@@ -318,12 +318,12 @@ window.RULES_QUIZ.push({
     },
     {
      "en": "No Bird, the whole double is repeated",
-     "uk": "No Bird — весь дубль повторюють"
+     "uk": "No Bird — весь дуплет повторюють"
     }
    ],
    "answer": 2,
    "explain_en": "On a double on report, an irregular first target means the double is repeated.",
-   "explain_uk": "У double on report нерегулярна перша мішень означає, що весь дубль повторюють.",
+   "explain_uk": "У double on report нерегулярна перша мішень означає, що весь дуплет повторюють.",
    "refs": [
     "ch6-nobird-target-doubles"
    ],
@@ -341,25 +341,25 @@ window.RULES_QUIZ.push({
    "q_uk": "Double on report. Стрілець розбиває першу тарілку, і її уламок розбиває другу ще до другого пострілу. Яке рішення судді?",
    "options": [
     {
-     "en": "Double repeated, nothing kept",
-     "uk": "Дубль повторюють, нічого не зберігається"
+     "en": "Repeat; nothing kept",
+     "uk": "Повтор; нічого не зберігають"
     },
     {
-     "en": "One and zero",
-     "uk": "One та zero"
+     "en": "One and zero, the double stands",
+     "uk": "One та zero, дуплет не повторюють"
     },
     {
-     "en": "One and one",
-     "uk": "One та one"
+     "en": "One and one, the double stands",
+     "uk": "One та one, дуплет не повторюють"
     },
     {
-     "en": "Double repeated, the first target's 'one' is kept",
-     "uk": "Дубль повторюють, але «one» за першу мішень зберігається"
+     "en": "Repeat; the first target's 'one' is kept",
+     "uk": "Повтор; «one» за першу мішень зберігають"
     }
    ],
    "answer": 3,
-   "explain_en": "If the first target or its pieces break the second before the second shot, the double is repeated and the result of the first target is kept.",
-   "explain_uk": "Якщо перша мішень або її уламки розбили другу до другого пострілу, дубль повторюють, а результат першої мішені зберігають.",
+   "explain_en": "Here the second clay was broken by a piece of the first, not by a shot, before the second shot was fired. So it is not 'one and one': the double is repeated and the first target's result is kept. It is different when one shot breaks both clays: then it is one and one.",
+   "explain_uk": "Тут другу тарілку розбив уламок першої, а не постріл, і сталося це до другого пострілу. Тому це не «one та one»: дуплет повторюють, а результат першої мішені зберігають. Інша річ, коли один постріл розбиває обидві тарілки: тоді one та one.",
    "refs": [
     "ch6-nobird-target-doubles"
    ],
@@ -378,7 +378,7 @@ window.RULES_QUIZ.push({
    "options": [
     {
      "en": "Double repeated with no score recorded",
-     "uk": "Дубль повторюють, результат не записують"
+     "uk": "Дуплет повторюють, результат не записують"
     },
     {
      "en": "One and zero",
@@ -391,7 +391,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 0,
    "explain_en": "On simultaneous and rafale doubles an irregular target means the double is repeated and no score is established.",
-   "explain_uk": "У simultaneous і rafale double нерегулярна мішень означає повтор дубля без фіксації результату.",
+   "explain_uk": "У simultaneous і rafale double нерегулярна мішень означає повтор дуплета без фіксації результату.",
    "refs": [
     "ch6-nobird-target-doubles"
    ],
@@ -409,16 +409,16 @@ window.RULES_QUIZ.push({
    "q_uk": "Rabbit як одиночна мішень. Перший постріл — промах, потім «кролик» ударяється об камінь і розбивається ще до другого пострілу. Яке рішення судді?",
    "options": [
     {
-     "en": "Zero (lost)",
-     "uk": "Zero — мішень не зарахована"
+     "en": "Zero: the first shot already missed",
+     "uk": "Zero: перший постріл уже був промахом"
     },
     {
-     "en": "No Bird; on the repeat only a second-shot break counts",
-     "uk": "No Bird; на повторі зараховують лише розбиття другим пострілом"
+     "en": "No Bird; on the repeat only the second shot counts",
+     "uk": "No Bird; на повторі зараховують лише другий постріл"
     },
     {
-     "en": "One (hit)",
-     "uk": "One — мішень зарахована"
+     "en": "One: the rabbit broke, so it counts",
+     "uk": "One: кролик розбився, тож зараховують"
     }
    ],
    "answer": 1,
@@ -445,12 +445,12 @@ window.RULES_QUIZ.push({
      "uk": "No Bird із попередженням; мішень повторюють"
     },
     {
-     "en": "Zero (lost)",
-     "uk": "Zero — мішень не зарахована"
+     "en": "Zero, and a warning for the misfire",
+     "uk": "Zero і попередження за осічку"
     },
     {
-     "en": "Zero, but no warning",
-     "uk": "Zero, без попередження"
+     "en": "No Bird, no warning; the target is repeated",
+     "uk": "No Bird без попередження; мішень повторюють"
     }
    ],
    "answer": 0,
@@ -466,8 +466,8 @@ window.RULES_QUIZ.push({
    "type": "decision",
    "level": 2,
    "topic": "Malfunctions",
-   "q_en": "Later in the same round, the same shooter has a second misfire on the first shot of a single. He waits correctly for the referee's check. What is the referee's decision?",
-   "q_uk": "Пізніше в тому самому раунді в цього стрільця вдруге осічка першого пострілу на одиночній мішені. Він правильно чекає огляду судді. Яке рішення судді?",
+   "q_en": "Earlier in this round the shooter already had one misfire on the first shot (first incident, warning). Now the first shot misfires again on a single, and the shooter waits correctly for the referee's check. What is the referee's decision?",
+   "q_uk": "Раніше в цій серії стрілець уже мав одну осічку першого пострілу (перший випадок, попередження). Тепер на одиночній мішені перший постріл знову дає осічку, і стрілець правильно чекає огляду судді. Яке рішення судді?",
    "options": [
     {
      "en": "No Bird, the target is repeated",
@@ -499,19 +499,19 @@ window.RULES_QUIZ.push({
    "q_uk": "Патрон дає осічку. Роздратований стрілець одразу відкриває рушницю, щоб подивитися на капсуль, ще до того як підійшов суддя. Яке рішення судді?",
    "options": [
     {
-     "en": "Zero (lost)",
-     "uk": "Zero — мішень не зарахована"
-    },
-    {
      "en": "No Bird, the target is repeated",
      "uk": "No Bird — мішень повторюють"
     },
     {
      "en": "No Bird, if it is the first incident of the round",
      "uk": "No Bird, якщо це перша несправність у раунді"
+    },
+    {
+     "en": "Zero (lost)",
+     "uk": "Zero — мішень не зарахована"
     }
    ],
-   "answer": 0,
+   "answer": 2,
    "explain_en": "After a malfunction the shooter must stay in place with the gun pointing down range and not open it or touch the safety until the referee has checked it. Otherwise the target is zero.",
    "explain_uk": "Після несправності стрілець має стояти на місці, рушниця в бік поля, не відкривати її й не торкатися запобіжника до огляду судді. Інакше мішень — zero.",
    "refs": [
@@ -532,8 +532,8 @@ window.RULES_QUIZ.push({
      "uk": "No Bird — мішень повторюють"
     },
     {
-     "en": "No Bird, because the first shot failed",
-     "uk": "No Bird, бо перший постріл не відбувся"
+     "en": "The target is repeated with one cartridge",
+     "uk": "Мішень повторюють з одним патроном"
     },
     {
      "en": "Zero (lost)",
@@ -588,17 +588,17 @@ window.RULES_QUIZ.push({
      "uk": "Першу мішень зараховують, другу повторюють"
     },
     {
-     "en": "Zero and zero",
-     "uk": "Zero та zero"
+     "en": "The whole double is repeated, nothing recorded",
+     "uk": "Весь дуплет повторюють, нічого не записують"
     },
     {
-     "en": "The whole double is repeated, nothing recorded",
-     "uk": "Весь дубль повторюють, нічого не записують"
+     "en": "Zero and zero",
+     "uk": "Zero та zero"
     }
    ],
-   "answer": 2,
+   "answer": 1,
    "explain_en": "On the first target of a double on report, and on simultaneous and rafale doubles, a double discharge means the whole double is repeated with no result recorded.",
-   "explain_uk": "На першій мішені double on report, а також у simultaneous і rafale double одночасний постріл означає повтор усього дубля без запису результату.",
+   "explain_uk": "На першій мішені double on report, а також у simultaneous і rafale double одночасний постріл означає повтор усього дуплета без запису результату.",
    "refs": [
     "ch6-double-discharge"
    ],
@@ -625,7 +625,7 @@ window.RULES_QUIZ.push({
     },
     {
      "en": "Double repeated",
-     "uk": "Дубль повторюють"
+     "uk": "Дуплет повторюють"
     }
    ],
    "answer": 0,
@@ -674,23 +674,23 @@ window.RULES_QUIZ.push({
    "type": "decision",
    "level": 2,
    "topic": "Gun position",
-   "q_en": "Same layout, two stands later: the same shooter again calls for a single with the stock above the line on his vest. What is the referee's decision?",
-   "q_uk": "Той самий layout, через два стенди: цей стрілець знову викликає одиночну мішень, тримаючи приклад вище лінії на жилеті. Яке рішення судді?",
+   "q_en": "Earlier on this layout the shooter got a yellow card for gun position. Two stands later the shooter again calls for a single with the stock above the line on the vest. What is the referee's decision?",
+   "q_uk": "Раніше на цьому layout стрілець отримав жовту картку за положення рушниці. Через два стенди він знову викликає одиночну мішень, тримаючи приклад вище лінії на жилеті. Яке рішення судді?",
    "options": [
     {
      "en": "Red card; the target is repeated",
      "uk": "Червона картка; мішень повторюють"
     },
     {
-     "en": "Red card; the target is scored zero",
-     "uk": "Червона картка; мішень — zero"
-    },
-    {
      "en": "Another yellow card",
      "uk": "Ще одна жовта картка"
+    },
+    {
+     "en": "Red card; the target is scored zero",
+     "uk": "Червона картка; мішень — zero"
     }
    ],
-   "answer": 1,
+   "answer": 2,
    "explain_en": "After the first warning, any further offence on the same layout gets a red card, and on a single the target is zero.",
    "explain_uk": "Після першого попередження кожне наступне порушення на тому самому layout — червона картка, на одиночній мішені — zero.",
    "refs": [
@@ -743,12 +743,12 @@ window.RULES_QUIZ.push({
      "uk": "Попередження; мішень повторюють"
     },
     {
-     "en": "One if he hits it",
-     "uk": "One, якщо влучив"
+     "en": "One if the shooter hits it",
+     "uk": "One, якщо стрілець влучив"
     },
     {
-     "en": "Zero immediately",
-     "uk": "Одразу zero"
+     "en": "Zero straight away, no warning",
+     "uk": "Одразу zero, без попередження"
     }
    ],
    "answer": 0,
@@ -769,7 +769,7 @@ window.RULES_QUIZ.push({
    "options": [
     {
      "en": "Second warning; double repeated",
-     "uk": "Друге попередження; дубль повторюють"
+     "uk": "Друге попередження; дуплет повторюють"
     },
     {
      "en": "Zero and No Bird",
@@ -815,7 +815,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 2,
    "explain_en": "The limit is 15 seconds between singles or between doubles. Exceeding it first earns a warning; after that the penalties of 12.2 apply.",
-   "explain_uk": "Між одиночними мішенями чи дублями — не більше 15 секунд. Перше перевищення — попередження, далі застосовують штрафи за 12.2.",
+   "explain_uk": "Між одиночними мішенями чи дуплетами — не більше 15 секунд. Перше перевищення — попередження, далі застосовують штрафи за 12.2.",
    "refs": [
     "ch7-fifteen-seconds"
    ]
@@ -826,24 +826,24 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Safety",
    "q_en": "When his name is called, a shooter steps onto the stand without safety glasses and says he forgot them in the car. What is the referee's decision?",
-   "q_uk": "Коли викликають його ім'я, стрілець виходить на стенд без захисних окулярів і каже, що забув їх в авто. Яке рішення судді?",
+   "q_uk": "Коли викликають його ім’я, стрілець виходить на стенд без захисних окулярів і каже, що забув їх в авто. Яке рішення судді?",
    "options": [
     {
-     "en": "Immediate expulsion",
-     "uk": "Негайне виключення"
+     "en": "Treated as absent: rule 16.7 applies",
+     "uk": "Вважається відсутнім: діє правило 16.7"
     },
     {
-     "en": "He may shoot this stand, then fetch them",
+     "en": "Immediate expulsion from the competition",
+     "uk": "Негайне виключення зі змагання"
+    },
+    {
+     "en": "May shoot this stand, then fetch them",
      "uk": "Може відстріляти цей стенд, а потім принести їх"
-    },
-    {
-     "en": "He is treated as absent and the late/absent rule (16.7) applies",
-     "uk": "Його вважають відсутнім, діє правило про запізнення/відсутність (16.7)"
     }
    ],
-   "answer": 2,
+   "answer": 0,
    "explain_en": "Safety glasses are compulsory with no exceptions. A shooter on the stand without them is treated as absent, and Article 16.7 applies.",
-   "explain_uk": "Захисні окуляри обов'язкові без винятків. Стрільця на стенді без них вважають відсутнім і застосовують статтю 16.7.",
+   "explain_uk": "Захисні окуляри обов’язкові без винятків. Стрільця на стенді без них вважають відсутнім і застосовують статтю 16.7.",
    "refs": [
     "ch8-safety-glasses",
     "ch16-late-shooter"
@@ -855,24 +855,24 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Influencing the referee",
    "q_en": "The referee scores a target zero. Another member of the squad loudly says 'That was clearly hit, I saw a piece!' without being asked. What is the referee's decision?",
-   "q_uk": "Суддя оцінює мішень як zero. Інший учасник групи без запиту голосно каже: «Було влучання, я бачив уламок!» Яке рішення судді?",
+   "q_uk": "Суддя оцінює мішень як zero. Інший учасник squad без запиту голосно каже: «Було влучання, я бачив уламок!» Яке рішення судді?",
    "options": [
     {
      "en": "The referee must change the ruling to one",
      "uk": "Суддя має змінити рішення на one"
     },
     {
-     "en": "The ruling stands; squad members may not intervene, and open criticism counts as influencing the referee",
-     "uk": "Рішення залишається; учасники групи не мають права втручатися, а відкрита критика — це спроба вплинути на суддю"
+     "en": "The ruling stands; open criticism counts as influencing",
+     "uk": "Рішення залишається; відкрита критика — це спроба впливу"
     },
     {
-     "en": "The target becomes No Bird",
-     "uk": "Мішень стає No Bird"
+     "en": "The target becomes No Bird and is repeated",
+     "uk": "Мішень стає No Bird і її повторюють"
     }
    ],
    "answer": 1,
-   "explain_en": "The referee decides alone; squad members have no right to comment. Others openly criticising a ruling without permission is an attempt to influence the referee (Chapter 13 penalties).",
-   "explain_uk": "Суддя ухвалює рішення одноосібно; учасники групи не мають права коментувати. Відкрита критика рішення без дозволу — спроба вплинути на суддю (штрафи за розділом 13).",
+   "explain_en": "The referee decides alone. Squad members have no right to step in, and openly criticising a decision without being asked counts as trying to influence the referee (penalties in chapter 13).",
+   "explain_uk": "Суддя вирішує одноосібно. Учасники squad не мають права втручатися, а відкрита критика рішення без запиту вважається спробою вплинути на суддю (санкції розділу 13).",
    "refs": [
     "ch6-referee-alone",
     "ch11-influence"
@@ -900,8 +900,8 @@ window.RULES_QUIZ.push({
     }
    ],
    "answer": 2,
-   "explain_en": "By calling for the next target the shooter accepts the referee's decision on the previous one; any objection must be raised before that.",
-   "explain_uk": "Викликаючи наступну мішень, стрілець погоджується з рішенням щодо попередньої; заперечувати треба до цього.",
+   "explain_en": "A new call means the shooter accepts how the previous target was scored. A shooter who disagrees has to say so before calling again.",
+   "explain_uk": "Нова команда означає, що стрілець погоджується з оцінкою попередньої мішені. Хто не згоден, має сказати про це до наступної команди.",
    "refs": [
     "ch9-no-checking-targets",
     "ch9-how-to-appeal"
@@ -930,7 +930,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 1,
    "explain_en": "It is up to the shooter to break targets where the referee can see them. A ruling that a target was shot behind an obstacle or beyond a limit cannot be appealed.",
-   "explain_uk": "Розбивати мішені там, де їх бачить суддя, — обов'язок стрільця. Рішення про постріл за перешкодою чи за межею оскарженню не підлягає.",
+   "explain_uk": "Розбивати мішені там, де їх бачить суддя, — обов’язок стрільця. Рішення про постріл за перешкодою чи за межею оскарженню не підлягає.",
    "refs": [
     "ch9-visible-break"
    ],
@@ -945,22 +945,22 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Late shooter",
    "q_en": "A shooter arrives at the layout while his squad is still shooting the singles on stand 1, before his turn has come. What is the referee's decision?",
-   "q_uk": "Стрілець приходить на layout, коли його група ще стріляє одиночні мішені на стенді 1 і його черга ще не настала. Яке рішення судді?",
+   "q_uk": "Стрілець приходить на layout, коли його squad ще стріляє одиночні мішені на стенді 1 і його черга ще не настала. Яке рішення судді?",
    "options": [
+    {
+     "en": "He joins without penalty",
+     "uk": "Приєднується без штрафу"
+    },
     {
      "en": "His stand 1 singles are scored zero",
      "uk": "Його одиночні мішені на стенді 1 — zero"
     },
     {
      "en": "He must shoot the layout in another squad",
-     "uk": "Має стріляти layout в іншій групі"
-    },
-    {
-     "en": "He joins without penalty",
-     "uk": "Приєднується без штрафу"
+     "uk": "Має стріляти layout в іншому squad"
     }
    ],
-   "answer": 2,
+   "answer": 0,
    "explain_en": "A late shooter who arrives before missing his turn on the singles of the first stand joins the squad without penalty.",
    "explain_uk": "Стрілець, який запізнився, але прийшов до своєї черги на одиночних мішенях першого стенда, приєднується без штрафу.",
    "refs": [
@@ -973,11 +973,11 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Late shooter",
    "q_en": "The referee called a shooter's name and number three times within a minute. He arrives as the squad moves on to stand 2. What is the referee's decision?",
-   "q_uk": "Суддя тричі протягом хвилини викликав ім'я та номер стрільця. Той з'являється, коли група переходить на стенд 2. Яке рішення судді?",
+   "q_uk": "Суддя тричі протягом хвилини викликав ім’я та номер стрільця. Той з’являється, коли squad переходить на стенд 2. Яке рішення судді?",
    "options": [
     {
      "en": "He may re-shoot the whole layout in another squad",
-     "uk": "Може перестріляти весь layout в іншій групі"
+     "uk": "Може перестріляти весь layout в іншому squad"
     },
     {
      "en": "He shoots stand 1 after the others, then continues",
@@ -990,7 +990,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 2,
    "explain_en": "Joining at a later stand, all targets not shot on earlier stands are zero, and a layout with missed stands can never be shot in another squad.",
-   "explain_uk": "Якщо стрілець приєднується на наступному стенді, усі невідстріляні мішені попередніх стендів — zero, а layout із пропущеними стендами в іншій групі стріляти не можна.",
+   "explain_uk": "Якщо стрілець приєднується на наступному стенді, усі невідстріляні мішені попередніх стендів — zero, а layout із пропущеними стендами в іншому squad стріляти не можна.",
    "refs": [
     "ch16-late-shooter"
    ]
@@ -1005,24 +1005,24 @@ window.RULES_QUIZ.push({
    "options": [
     {
      "en": "25: 15 singles and 5 doubles",
-     "uk": "25: 15 одиночних і 5 дублів"
+     "uk": "25: 15 одиночних і 5 дуплетів"
     },
     {
      "en": "25: 10 singles and 5 doubles, plus 5 rabbits",
-     "uk": "25: 10 одиночних, 5 дублів і 5 «кроликів»"
+     "uk": "25: 10 одиночних, 5 дуплетів і 5 «кроликів»"
     },
     {
      "en": "20: 10 singles and 5 doubles",
-     "uk": "20: 10 одиночних і 5 дублів"
+     "uk": "20: 10 одиночних і 5 дуплетів"
     },
     {
      "en": "30: 20 singles and 5 doubles",
-     "uk": "30: 20 одиночних і 5 дублів"
+     "uk": "30: 20 одиночних і 5 дуплетів"
     }
    ],
    "answer": 0,
    "explain_en": "Every layout type gives 25 targets: 15 singles and 5 doubles (15 + 10 = 25).",
-   "explain_uk": "Кожен тип layout дає 25 мішеней: 15 одиночних і 5 дублів (15 + 10 = 25).",
+   "explain_uk": "Кожен тип layout дає 25 мішеней: 15 одиночних і 5 дуплетів (15 + 10 = 25).",
    "refs": [
     "ch2-traps-table"
    ]
@@ -1117,8 +1117,8 @@ window.RULES_QUIZ.push({
     }
    ],
    "answer": 1,
-   "explain_en": "The second target of a double on report is released 0 to 3 seconds after the shooter fires at the first; the shot triggers it.",
-   "explain_uk": "Друга мішень у double on report вилітає через 0–3 секунди після пострілу по першій — її запускає саме постріл.",
+   "explain_en": "In a double on report the shot at the first target sets off the second one: it comes out 0 to 3 seconds after that shot.",
+   "explain_uk": "У double on report другу мішень запускає постріл по першій: вона вилітає через 0–3 секунди після цього пострілу.",
    "refs": [
     "ch4-double-on-report"
    ],
@@ -1133,7 +1133,7 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "Time limits",
    "q_en": "What is the maximum time allowed between single targets or between doubles?",
-   "q_uk": "Який максимальний час дозволений між одиночними мішенями або між дублями?",
+   "q_uk": "Який максимальний час дозволений між одиночними мішенями або між дуплетами?",
    "options": [
     {
      "en": "10 seconds",
@@ -1197,15 +1197,15 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "Ammunition",
    "q_en": "What is the maximum shot load of a Sporting cartridge?",
-   "q_uk": "Яка максимальна вага шроту в набої для Sporting?",
+   "q_uk": "Яка максимальна навіска дробу в патроні для Sporting?",
    "options": [
     {
      "en": "24 g",
      "uk": "24 г"
     },
     {
-     "en": "28 g (tolerance +2%)",
-     "uk": "28 г (допуск +2%)"
+     "en": "28 g",
+     "uk": "28 г"
     },
     {
      "en": "32 g",
@@ -1217,8 +1217,8 @@ window.RULES_QUIZ.push({
     }
    ],
    "answer": 1,
-   "explain_en": "The load may not exceed 28 g of lead, with a maximum tolerance of +2%.",
-   "explain_uk": "Наважка свинцевого шроту — не більше 28 г, з допуском до +2%.",
+   "explain_en": "A cartridge may carry at most 28 g of lead shot; a tolerance of up to +2% is accepted.",
+   "explain_uk": "Патрон може містити щонайбільше 28 г свинцевого дробу; допускається до +2%.",
    "refs": [
     "ch7-cartridges"
    ]
@@ -1357,7 +1357,7 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "Squads",
    "q_en": "What is the maximum number of shooters in a squad?",
-   "q_uk": "Скільки стрільців щонайбільше може бути в групі (squad)?",
+   "q_uk": "Скільки стрільців щонайбільше може бути в одному squad?",
    "options": [
     {
      "en": "4",
@@ -1378,7 +1378,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 2,
    "explain_en": "A squad has at most six shooters, formed by draw.",
-   "explain_uk": "Група налічує щонайбільше шість стрільців, її формують жеребкуванням.",
+   "explain_uk": "Squad налічує щонайбільше шість стрільців, її формують жеребкуванням.",
    "refs": [
     "ch4-glossary",
     "ch16-squads"
@@ -1459,15 +1459,15 @@ window.RULES_QUIZ.push({
    "options": [
     {
      "en": "Name once, then the shooter is absent",
-     "uk": "Ім'я один раз, після чого стрільця вважають відсутнім"
+     "uk": "Ім’я один раз, після чого стрільця вважають відсутнім"
     },
     {
      "en": "Name and number 3 times within 1 minute",
-     "uk": "Ім'я та номер 3 рази протягом 1 хвилини"
+     "uk": "Ім’я та номер 3 рази протягом 1 хвилини"
     },
     {
      "en": "Name and number 3 times within 3 minutes",
-     "uk": "Ім'я та номер 3 рази протягом 3 хвилин"
+     "uk": "Ім’я та номер 3 рази протягом 3 хвилин"
     },
     {
      "en": "Through the loudspeaker, waiting 5 minutes",
@@ -1476,7 +1476,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 1,
    "explain_en": "The referee calls the shooter's name and number three times within one minute.",
-   "explain_uk": "Суддя тричі протягом однієї хвилини називає ім'я та номер стрільця.",
+   "explain_uk": "Суддя тричі протягом однієї хвилини називає ім’я та номер стрільця.",
    "refs": [
     "ch16-late-shooter"
    ]
@@ -1494,12 +1494,12 @@ window.RULES_QUIZ.push({
      "uk": "Один раз на стенд"
     },
     {
-     "en": "Up to 2 targets for each target in the menu",
-     "uk": "До 2 мішеней на кожну мішень меню"
+     "en": "Up to 2 per menu target",
+     "uk": "До 2 разів на мішень меню"
     },
     {
-     "en": "Up to 3 targets per trap",
-     "uk": "До 3 мішеней на машинку"
+     "en": "Up to 3 per trap",
+     "uk": "До 3 разів на машинку"
     },
     {
      "en": "As often as needed",
@@ -1507,8 +1507,8 @@ window.RULES_QUIZ.push({
     }
    ],
    "answer": 1,
-   "explain_en": "On request the referee repeats the presentation, up to a maximum of two targets for each target in the menu sequence.",
-   "explain_uk": "На прохання суддя повторює показ — щонайбільше дві мішені на кожну мішень у послідовності меню.",
+   "explain_en": "If the shooter on the stand asks, the referee shows the trajectories again, but no more than two targets for each target of the menu.",
+   "explain_uk": "Якщо стрілець на стенді попросить, суддя показує траєкторії ще раз, але не більше двох мішеней на кожну мішень меню.",
    "refs": [
     "ch16-presentation"
    ]
@@ -1519,7 +1519,7 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Shoot-offs",
    "q_en": "For an unscheduled shoot-off, within how long of being called must the shooters be ready?",
-   "q_uk": "За який час після виклику учасники незапланованого shoot-off мають бути готові стріляти?",
+   "q_uk": "За який час після виклику учасники незапланованої перестрілки мають бути готові стріляти?",
    "options": [
     {
      "en": "5 minutes",
@@ -1540,7 +1540,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 1,
    "explain_en": "Shooters must stay in touch with the jury so they can shoot within 15 minutes of being called; anyone absent is disqualified.",
-   "explain_uk": "Стрільці мають бути на зв'язку з журі, щоб вийти на стрільбу протягом 15 хвилин після виклику; відсутніх дискваліфікують.",
+   "explain_uk": "Стрільці мають бути на зв’язку з журі, щоб вийти на стрільбу протягом 15 хвилин після виклику; відсутніх дискваліфікують.",
    "refs": [
     "ch18-squad-and-timing"
    ]
@@ -1571,8 +1571,8 @@ window.RULES_QUIZ.push({
     }
    ],
    "answer": 2,
-   "explain_en": "The ground and the organisation plan must be presented to a FITASC representative at least eight months before the event.",
-   "explain_uk": "Стрільбище та план організації треба представити представникові FITASC щонайменше за вісім місяців до змагання.",
+   "explain_en": "A FITASC representative must see the ground and the organisation plan no later than eight months before the competition.",
+   "explain_uk": "Представник FITASC має побачити стрільбище й план організації не пізніше ніж за вісім місяців до змагання.",
    "refs": [
     "ch15-layout-approval"
    ]
@@ -1636,7 +1636,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 1,
    "explain_en": "The record is kept for five years; a second expulsion within three years may lead to a permanent ban, decided only by the FITASC Management Committee.",
-   "explain_uk": "Запис зберігають п'ять років; друге виключення протягом трьох років може спричинити довічну заборону, яку ухвалює лише Management Committee FITASC.",
+   "explain_uk": "Запис зберігають п’ять років; друге виключення протягом трьох років може спричинити довічну заборону, яку ухвалює лише Management Committee FITASC.",
    "refs": [
     "ch13-expulsion-record"
    ]
@@ -1696,7 +1696,7 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "Gun position",
    "q_en": "Between the first and the second target of a double, the shooter may hold the gun in any position.",
-   "q_uk": "Між першою і другою мішенню дубля стрілець може тримати рушницю як завгодно.",
+   "q_uk": "Між першою і другою мішенню дуплета стрілець може тримати рушницю як завгодно.",
    "options": [
     {
      "en": "True",
@@ -1719,8 +1719,8 @@ window.RULES_QUIZ.push({
    "type": "truefalse",
    "level": 1,
    "topic": "Rabbit",
-   "q_en": "A rabbit target may be shot from the hip, because it runs along the ground.",
-   "q_uk": "По «кролику» можна стріляти від стегна, бо він котиться по землі.",
+   "q_en": "A rabbit must be shot with the gun at the shoulder, like any other target.",
+   "q_uk": "По кролику (rabbit) стріляють, приклавши рушницю до плеча, як і по будь-якій іншій мішені.",
    "options": [
     {
      "en": "True",
@@ -1731,9 +1731,9 @@ window.RULES_QUIZ.push({
      "uk": "Неправда"
     }
    ],
-   "answer": 1,
-   "explain_en": "False. Every target, rabbits included, must be shot with the gun mounted to the shoulder.",
-   "explain_uk": "Неправда. Усі мішені, зокрема «кролика», стріляють лише з рушницею, прикладеною до плеча.",
+   "answer": 0,
+   "explain_en": "True. Every target, rabbits included, is shot with the gun mounted to the shoulder; shooting from the hip is not allowed.",
+   "explain_uk": "Правда. По кожній мішені, і по кролику теж, стріляють із рушницею, прикладеною до плеча; стріляти від стегна не можна.",
    "refs": [
     "ch3-mounting"
    ],
@@ -1748,7 +1748,7 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "Presentation",
    "q_en": "At the presentation, doubles on report are shown to the first shooter of the squad.",
-   "q_uk": "Під час показу double on report демонструють першому стрільцю групи.",
+   "q_uk": "Під час показу double on report демонструють першому стрільцю squad.",
    "options": [
     {
      "en": "True",
@@ -1800,7 +1800,7 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Guns",
    "q_en": "During a round, a shooter may change a choke between the singles and the doubles, provided it causes no delay.",
-   "q_uk": "Під час раунду стрілець може замінити чок між одиночними мішенями й дублями, якщо це не спричиняє затримки.",
+   "q_uk": "Під час раунду стрілець може замінити чок між одиночними мішенями й дуплетами, якщо це не спричиняє затримки.",
    "options": [
     {
      "en": "True",
@@ -1813,7 +1813,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 0,
    "explain_en": "True. The gun, a removable choke or a barrel may be changed between stands or between singles and doubles without delay, but never once the shooter is on the stand.",
-   "explain_uk": "Правда. Рушницю, змінний чок чи ствол можна міняти між стендами або між одиночними мішенями й дублями без затримки, але не тоді, коли стрілець уже на стенді.",
+   "explain_uk": "Правда. Рушницю, змінний чок чи ствол можна міняти між стендами або між одиночними мішенями й дуплетами без затримки, але не тоді, коли стрілець уже на стенді.",
    "refs": [
     "ch7-borrow-replace",
     "ch7-no-changes-on-stand"
@@ -1825,7 +1825,7 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Guns",
    "q_en": "In an official competition, two shooters of the same squad may share one gun if both agree.",
-   "q_uk": "На офіційних змаганнях двоє стрільців однієї групи можуть користуватися однією рушницею, якщо обидва згодні.",
+   "q_uk": "На офіційних змаганнях двоє стрільців одного squad можуть користуватися однією рушницею, якщо обидва згодні.",
    "options": [
     {
      "en": "True",
@@ -1838,7 +1838,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 1,
    "explain_en": "False. Two shooters in the same squad may not use or share the same gun in an official competition. Borrowing is only an exception after a breakdown, to finish the round.",
-   "explain_uk": "Неправда. На офіційних змаганнях двоє стрільців однієї групи не можуть користуватися однією рушницею. Позичити рушницю можна лише як виняток після поломки, щоб завершити раунд.",
+   "explain_uk": "Неправда. На офіційних змаганнях двоє стрільців одного squad не можуть користуватися однією рушницею. Позичити рушницю можна лише як виняток після поломки, щоб завершити раунд.",
    "refs": [
     "ch7-touching-sharing",
     "ch7-borrow-replace"
@@ -1850,7 +1850,7 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "Safety",
    "q_en": "Hearing protection is compulsory not only for shooters but also for referees, staff and spectators on or near a layout.",
-   "q_uk": "Засоби захисту слуху обов'язкові не лише для стрільців, а й для суддів, персоналу й глядачів на layout або поруч із ним.",
+   "q_uk": "Засоби захисту слуху обов’язкові не лише для стрільців, а й для суддів, персоналу й глядачів на layout або поруч із ним.",
    "options": [
     {
      "en": "True",
@@ -1873,8 +1873,8 @@ window.RULES_QUIZ.push({
    "type": "truefalse",
    "level": 1,
    "topic": "Penalties",
-   "q_en": "A shooter expelled from a competition gets the entry fee for the unshot targets refunded.",
-   "q_uk": "Стрільцю, виключеному зі змагання, повертають стартовий внесок за невідстріляні мішені.",
+   "q_en": "A shooter expelled from a competition gets no refund and no compensation for the targets not shot.",
+   "q_uk": "Стрілець, якого виключили зі змагання, не отримує ні повернення грошей, ні компенсації за невідстріляні мішені.",
    "options": [
     {
      "en": "True",
@@ -1885,9 +1885,9 @@ window.RULES_QUIZ.push({
      "uk": "Неправда"
     }
    ],
-   "answer": 1,
-   "explain_en": "False. An expelled shooter receives no refund and no financial compensation of any kind.",
-   "explain_uk": "Неправда. Виключений стрілець не отримує ані повернення коштів, ані будь-якої компенсації.",
+   "answer": 0,
+   "explain_en": "True. An expelled shooter gets no money back and no financial compensation of any kind.",
+   "explain_uk": "Правда. Виключений стрілець не отримує назад жодних грошей і жодної фінансової компенсації.",
    "refs": [
     "ch13-no-refund"
    ]
@@ -1898,7 +1898,7 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Shoot-offs",
    "q_en": "In a sudden-death shoot-off, on a double on report 'one-zero' and 'zero-one' count the same.",
-   "q_uk": "У shoot-off за системою sudden death на double on report «one-zero» і «zero-one» рахуються однаково.",
+   "q_uk": "У перестрілці за системою sudden death на double on report «one-zero» і «zero-one» рахуються однаково.",
    "options": [
     {
      "en": "True",
@@ -1926,7 +1926,7 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Shoot-offs",
    "q_en": "When two teams tie, they shoot a team shoot-off on a new layout.",
-   "q_uk": "Коли дві команди набирають однаковий результат, вони стріляють командний shoot-off на новому layout.",
+   "q_uk": "Коли дві команди набирають однаковий результат, вони стріляють командну перестрілку на новому layout.",
    "options": [
     {
      "en": "True",
@@ -1939,7 +1939,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 1,
    "explain_en": "False. There is no team shoot-off: teams are ranked on their combined score on the 8th layout, then by countback from the 7th to the 1st.",
-   "explain_uk": "Неправда. Командного shoot-off немає: команди ранжують за сумою на 8-му layout, далі — у зворотному порядку з 7-го до 1-го.",
+   "explain_uk": "Неправда. Командної перестрілки немає: команди ранжують за сумою на 8-му layout, далі — у зворотному порядку з 7-го до 1-го.",
    "refs": [
     "ch18-team-ties"
    ]
@@ -1957,19 +1957,19 @@ window.RULES_QUIZ.push({
      "uk": "Чи була мішень «one» чи «zero»"
     },
     {
+     "en": "A red card for gun position",
+     "uk": "Червона картка за положення рушниці"
+    },
+    {
      "en": "Whether a target was a No Bird",
      "uk": "Чи була мішень No Bird"
     },
     {
      "en": "Whether a trajectory was correct",
      "uk": "Чи була траєкторія правильною"
-    },
-    {
-     "en": "A red card for gun position",
-     "uk": "Червона картка за положення рушниці"
     }
    ],
-   "answer": 3,
+   "answer": 1,
    "explain_en": "Trajectory, No Bird and one/zero decisions cannot go to the jury. Any other referee decision can be appealed in writing with a 40% deposit.",
    "explain_uk": "Рішення щодо траєкторії, No Bird та one/zero до журі не оскаржують. Будь-яке інше рішення судді можна оскаржити письмово із заставою 40%.",
    "refs": [
@@ -1985,23 +1985,23 @@ window.RULES_QUIZ.push({
    "q_uk": "Журі відхиляє апеляцію стрільця. Що відбувається із заставою?",
    "options": [
     {
+     "en": "To a charity the FITASC Chairman picks",
+     "uk": "На благодійність, яку обирає голова FITASC"
+    },
+    {
      "en": "It goes to the organising club",
      "uk": "Її отримує клуб-організатор"
     },
     {
-     "en": "It goes to a charity chosen by the FITASC Chairman",
-     "uk": "Її передають на благодійність, яку обирає голова FITASC"
-    },
-    {
-     "en": "It is returned anyway",
-     "uk": "Її все одно повертають"
+     "en": "It is returned to the shooter anyway",
+     "uk": "Її все одно повертають стрільцеві"
     },
     {
      "en": "It is added to the prize fund",
      "uk": "Її додають до призового фонду"
     }
    ],
-   "answer": 1,
+   "answer": 0,
    "explain_en": "If the appeal is upheld the deposit is refunded; if not, it goes to a charity chosen by the FITASC Chairman.",
    "explain_uk": "Якщо апеляцію задоволено, заставу повертають; якщо ні — її передають на благодійність, яку обирає голова FITASC.",
    "refs": [
@@ -2030,7 +2030,7 @@ window.RULES_QUIZ.push({
     },
     {
      "en": "Asks the squad to vote",
-     "uk": "Просить групу проголосувати"
+     "uk": "Просить squad проголосувати"
     }
    ],
    "answer": 2,
@@ -2050,16 +2050,16 @@ window.RULES_QUIZ.push({
    "q_uk": "Суддя сумнівається в рішенні. З ким він може порадитися і що з цього випливає?",
    "options": [
     {
-     "en": "Another referee, the trapper or the squad's shooters, for advice only; then his ruling is final",
-     "uk": "З іншим суддею, трапером або стрільцями групи — лише для поради; після цього його рішення остаточне"
+     "en": "Other referee, trapper or squad; advice only",
+     "uk": "Інший суддя, трапер чи squad; лише порада"
     },
     {
      "en": "Only the jury; its view is binding",
-     "uk": "Лише з журі; його думка обов'язкова"
+     "uk": "Лише з журі; його думка обов’язкова"
     },
     {
-     "en": "Nobody; he must declare No Bird",
-     "uk": "Ні з ким; він має оголосити No Bird"
+     "en": "Nobody; a doubtful target is always No Bird",
+     "uk": "Ні з ким; сумнівна мішень — завжди No Bird"
     },
     {
      "en": "The shooter's coach, whose view decides",
@@ -2068,7 +2068,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 0,
    "explain_en": "The referee may ask another referee, the trapper or the squad's shooters purely for advice, is not bound by their opinions, and his ruling is then final.",
-   "explain_uk": "Суддя може запитати поради в іншого судді, трапера чи стрільців групи, але не зобов'язаний їй слідувати; після цього його рішення остаточне.",
+   "explain_uk": "Суддя може запитати поради в іншого судді, трапера чи стрільців squad, але не зобов’язаний слідувати їхній думці; після цього його рішення остаточне.",
    "refs": [
     "ch9-consultation",
     "ch6-referee-alone"
@@ -2091,15 +2091,15 @@ window.RULES_QUIZ.push({
      "uk": "Літерами справа наліво, як бачить трапер"
     },
     {
-     "en": "Letters A, B, C, D from left to right as seen from the stand",
-     "uk": "Літерами A, B, C, D зліва направо, якщо дивитися зі стенда"
-    },
-    {
      "en": "Numbers 1–4 in shooting order",
      "uk": "Цифрами 1–4 у порядку стрільби"
+    },
+    {
+     "en": "Letters A, B, C, D from left to right as seen from the stand",
+     "uk": "Літерами A, B, C, D зліва направо, якщо дивитися зі стенда"
     }
    ],
-   "answer": 2,
+   "answer": 3,
    "explain_en": "Traps are identified by letters A, B, C and D, read from left to right as seen from the shooting stand; the menu and scorecard use them.",
    "explain_uk": "Машинки позначають літерами A, B, C і D зліва направо, якщо дивитися зі стенда; ці літери використовують у меню та картці.",
    "refs": [
@@ -2112,29 +2112,29 @@ window.RULES_QUIZ.push({
    "type": "choice",
    "level": 3,
    "topic": "Layouts",
-   "q_en": "A position has 3 machines and 2 doubles. Which combination is NOT allowed?",
-   "q_uk": "На позиції 3 машинки і 2 дублі. Яке поєднання НЕ дозволене?",
+   "q_en": "A shooting position has 3 machines and 2 doubles. Which combination is NOT allowed?",
+   "q_uk": "На стрілецькому місці 3 машинки і 2 дуплети. Яке поєднання НЕ дозволене?",
    "options": [
     {
-     "en": "Two simultaneous doubles",
-     "uk": "Два simultaneous double"
-    },
-    {
-     "en": "Two rafale doubles",
-     "uk": "Два rafale double"
-    },
-    {
-     "en": "One simultaneous and one rafale double",
-     "uk": "Один simultaneous і один rafale double"
+     "en": "One simultaneous and one on report",
+     "uk": "Один simultaneous і один on report"
     },
     {
      "en": "Two doubles on report",
-     "uk": "Два double on report"
+     "uk": "Два дуплети on report"
+    },
+    {
+     "en": "One rafale and one on report",
+     "uk": "Один rafale і один on report"
+    },
+    {
+     "en": "One simultaneous and one rafale",
+     "uk": "Один simultaneous і один rafale"
     }
    ],
-   "answer": 3,
-   "explain_en": "At such a position the doubles can be simultaneous, rafale or both, but two doubles on report are not allowed.",
-   "explain_uk": "На такій позиції дублі можуть бути simultaneous, rafale або обох видів, але два double on report не дозволені.",
+   "answer": 1,
+   "explain_en": "At such a position at least one of the two doubles must be simultaneous or rafale. Two doubles on report are not allowed.",
+   "explain_uk": "На такому місці хоча б один із двох дуплетів має бути simultaneous або rafale. Два дуплети on report не дозволені.",
    "refs": [
     "ch2-doubles-three-traps"
    ]
@@ -2145,28 +2145,28 @@ window.RULES_QUIZ.push({
    "level": 3,
    "topic": "Layouts",
    "q_en": "Which rule applies to building doubles on a stand?",
-   "q_uk": "Яке правило діє при складанні дублів на стенді?",
+   "q_uk": "Яке правило діє при складанні дуплетів на стенді?",
    "options": [
     {
-     "en": "A class C trajectory may appear only once in the doubles, ideally with a class A target",
-     "uk": "Траєкторія класу C може трапитися в дублях лише раз, найкраще в парі з мішенню класу A"
+     "en": "Class C appears at most once in the doubles",
+     "uk": "Клас C трапляється в дуплетах щонайбільше раз"
     },
     {
      "en": "Doubles must always be on report",
-     "uk": "Дублі завжди мають бути on report"
+     "uk": "Дуплети завжди мають бути on report"
     },
     {
-     "en": "Doubles may use new trajectories not shown as singles",
-     "uk": "Дублі можуть мати нові траєкторії, яких не було серед одиночних"
+     "en": "Doubles may use trajectories not shown as singles",
+     "uk": "Дуплети можуть мати траєкторії, яких не було серед одиночних"
     },
     {
-     "en": "Two class C targets make the best double",
-     "uk": "Дві мішені класу C — найкращий дубль"
+     "en": "Two class C targets form the recommended double",
+     "uk": "Дві мішені класу C — рекомендований дуплет"
     }
    ],
    "answer": 0,
-   "explain_en": "Doubles only use targets already shown as singles from that position; class C may appear only once, best paired with an A. B + B and B + A are allowed.",
-   "explain_uk": "Дублі складають лише з мішеней, уже показаних як одиночні з цієї позиції; клас C — лише раз, найкраще з A. Дозволено B + B і B + A.",
+   "explain_en": "Doubles only use targets already shown as singles from that position; class C may appear only once, preferably paired with an A. B + B and B + A are allowed.",
+   "explain_uk": "Дуплети складають лише з мішеней, уже показаних як одиночні з цієї позиції; клас C — лише раз, бажано з A. Дозволено B + B і B + A.",
    "refs": [
     "ch2-doubles-composition"
    ]
@@ -2176,8 +2176,8 @@ window.RULES_QUIZ.push({
    "type": "choice",
    "level": 2,
    "topic": "Penalties",
-   "q_en": "Which of these is NOT one of the jury's penalties for a repeat offence, refusal to comply or influencing a referee?",
-   "q_uk": "Що з переліченого НЕ входить до штрафів журі за повторне порушення, відмову виконувати рішення чи вплив на суддю?",
+   "q_en": "A shooter repeats an offence, refuses to comply or tries to influence a referee. Which of these can the jury NOT impose?",
+   "q_uk": "Стрілець повторно порушив правила, відмовився виконувати вимоги або намагався вплинути на суддю. Чого з переліченого журі НЕ може призначити?",
    "options": [
     {
      "en": "Expulsion from the competition",
@@ -2197,8 +2197,8 @@ window.RULES_QUIZ.push({
     }
    ],
    "answer": 3,
-   "explain_en": "The jury scale is loss of one target, loss of a 25-target round, or expulsion. A money fine is not on it.",
-   "explain_uk": "Шкала штрафів журі: втрата однієї мішені, втрата раунду з 25 мішеней або виключення. Грошового штрафу в ній немає.",
+   "explain_en": "The jury has three options: take off one target, take off a 25-target round, or remove the shooter from the competition. A money fine is not one of them.",
+   "explain_uk": "Журі має три варіанти: зняти одну мішень, зняти серію з 25 мішеней або виключити стрільця зі змагання. Грошового штрафу серед них немає.",
    "refs": [
     "ch13-jury-penalties"
    ]
@@ -2212,23 +2212,23 @@ window.RULES_QUIZ.push({
    "q_uk": "Під час раунду тренер за стендом постійно підказує своєму стрільцю, де тримати рушницю. Що робить суддя?",
    "options": [
     {
-     "en": "Yellow card for the competitor, and the coach is sent out of the shooting area",
-     "uk": "Жовта картка стрільцю, а тренера видаляють із зони стрільби"
-    },
-    {
      "en": "Immediate expulsion of the shooter",
      "uk": "Негайне виключення стрільця"
     },
     {
-     "en": "Zero on the shooter's next target",
-     "uk": "Zero на наступній мішені стрільця"
+     "en": "Yellow card for the shooter; the coach is sent away",
+     "uk": "Жовта картка стрільцю; тренера видаляють"
+    },
+    {
+     "en": "Zero on the shooter's next target, no card",
+     "uk": "Zero на наступній мішені стрільця, без картки"
     },
     {
      "en": "Nothing; coaching is allowed between targets",
      "uk": "Нічого; підказки між мішенями дозволені"
     }
    ],
-   "answer": 0,
+   "answer": 1,
    "explain_en": "Coaching during competition is forbidden: the competitor gets a yellow card (repeat offences go to Chapter 13) and the coach is removed from the shooting area.",
    "explain_uk": "Підказки під час змагання заборонені: стрілець отримує жовту картку (повторні порушення — за розділом 13), а тренера видаляють із зони стрільби.",
    "refs": [
@@ -2244,25 +2244,25 @@ window.RULES_QUIZ.push({
    "q_uk": "На стенді 2 рушниця стрільця ламається, і швидко її не полагодити. Що він може зробити?",
    "options": [
     {
-     "en": "Use the trapper's gun without asking",
-     "uk": "Взяти рушницю трапера без дозволу"
+     "en": "Take any gun on the stand without asking",
+     "uk": "Взяти будь-яку рушницю на стенді без дозволу"
     },
     {
      "en": "Skip the stand and have its targets scored as No Bird",
      "uk": "Пропустити стенд, а його мішені вважати No Bird"
     },
     {
-     "en": "Re-shoot the whole layout later with a new squad of his choice",
-     "uk": "Пізніше перестріляти весь layout із будь-якою групою"
+     "en": "With the referee's agreement, go on at once with another gun",
+     "uk": "За згодою судді одразу продовжити з іншою рушницею"
     },
     {
-     "en": "With the referee's agreement, continue at once with another gun, e.g. borrowed with the owner's consent",
-     "uk": "За згодою судді одразу продовжити з іншою рушницею, наприклад позиченою за згодою власника"
+     "en": "Re-shoot the whole layout later with a squad of choice",
+     "uk": "Пізніше перестріляти весь layout із будь-яким squad"
     }
    ],
-   "answer": 3,
-   "explain_en": "If the gun cannot be fixed, the shooter may continue with the squad, with the referee's agreement, by getting another gun immediately; otherwise he finishes in a free place in another squad only with jury authorisation.",
-   "explain_uk": "Якщо рушницю не полагодити, стрілець за згодою судді може продовжити з групою, одразу взявши іншу рушницю; інакше він дострілює лише на вільному місці в іншій групі з дозволу журі.",
+   "answer": 2,
+   "explain_en": "If the gun cannot be fixed, the shooter may stay with the squad, with the referee's agreement, by switching at once to another gun (for example one borrowed with its owner's consent). Otherwise the remaining targets can be shot only in a free place in another squad, with the jury's authorisation.",
+   "explain_uk": "Якщо рушницю не полагодити, стрілець за згодою судді може лишитися зі своїм squad, одразу взявши іншу рушницю (наприклад, позичену за згодою власника). Інакше решту мішеней можна дострілити лише на вільному місці в іншому squad з дозволу журі.",
    "refs": [
     "ch7-malfunction-procedure",
     "ch7-borrow-replace"
@@ -2281,12 +2281,12 @@ window.RULES_QUIZ.push({
      "uk": "Одразу відпустити спуск і відкрити рушницю"
     },
     {
-     "en": "Keep the trigger held and call a new target, open the gun still holding it, or fire in a safe direction shown by the referee",
-     "uk": "Тримати спуск натиснутим і викликати нову мішень, відкрити рушницю, не відпускаючи спуску, або вистрілити в безпечному напрямку, який покаже суддя"
+     "en": "Keep holding the trigger; new target, open gun or safe shot",
+     "uk": "Тримати спуск; нова мішень, відкрити рушницю або безпечний постріл"
     },
     {
-     "en": "Hand the gun to the referee",
-     "uk": "Передати рушницю судді"
+     "en": "Hand the gun to the referee without opening it",
+     "uk": "Передати рушницю судді, не відкриваючи її"
     },
     {
      "en": "Fire into the ground in front of the stand",
@@ -2307,28 +2307,28 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Scorecards",
    "q_en": "What must the referee do with the scorecard before the squad moves to the next position?",
-   "q_uk": "Що суддя має зробити з карткою результатів, перш ніж група перейде на наступну позицію?",
+   "q_uk": "Що суддя має зробити з карткою результатів, перш ніж squad перейде на наступну позицію?",
    "options": [
     {
      "en": "Send it to the scoreboard by runner",
      "uk": "Передати її на табло через посильного"
     },
     {
-     "en": "Have every shooter sign it",
-     "uk": "Дати підписати всім стрільцям"
+     "en": "Have every shooter of the squad sign it",
+     "uk": "Дати підписати всім стрільцям squad"
     },
     {
-     "en": "Hand it to the jury",
-     "uk": "Передати її журі"
+     "en": "Hand it straight to the jury",
+     "uk": "Одразу передати її журі"
     },
     {
-     "en": "Photograph it and mark an asterisk before the name of the shooter carrying it",
-     "uk": "Сфотографувати її та поставити зірочку перед ім'ям стрільця, якому її довірено"
+     "en": "Photograph it and star the name of whoever carries it",
+     "uk": "Сфотографувати й позначити зірочкою того, хто її несе"
     }
    ],
    "answer": 3,
-   "explain_en": "The referee photographs the card and marks an asterisk before the name of the competitor to whom it is entrusted; a different coloured pencil is used for each stand.",
-   "explain_uk": "Суддя фотографує картку й ставить зірочку перед ім'ям учасника, якому її довірено; для кожного стенда використовують олівець іншого кольору.",
+   "explain_en": "Before the squad moves on, the referee takes a photo of the card and puts an asterisk before the name of the shooter who carries it. Each stand has its own pencil colour.",
+   "explain_uk": "Перш ніж squad піде далі, суддя фотографує картку й ставить зірочку перед прізвищем стрільця, який її несе. Кожне місце має свій колір олівця.",
    "refs": [
     "ch14-who-keeps-score",
     "ch14-model"
@@ -2351,17 +2351,17 @@ window.RULES_QUIZ.push({
      "uk": "Короткі спортивні шорти й футболка"
     },
     {
-     "en": "A skeet vest with nothing underneath",
-     "uk": "Жилет для скіту на голе тіло"
+     "en": "Bermudas 4 cm above the knee, polo, closed shoes",
+     "uk": "Бермуди на 4 см вище коліна, поло, закрите взуття"
     },
     {
-     "en": "Long Bermuda shorts ending 4 cm above the knee, short-sleeved polo, closed shoes",
-     "uk": "Довгі шорти-бермуди на 4 см вище коліна, поло з коротким рукавом, закрите взуття"
+     "en": "A skeet vest with nothing underneath",
+     "uk": "Жилет для скіту на голе тіло"
     }
    ],
-   "answer": 3,
-   "explain_en": "Only long Bermuda shorts ending no more than 5 cm above the knee are accepted; shirts need at least short sleeves and a collar or round neck; no vest on bare skin; no sandals.",
-   "explain_uk": "Допускаються лише довгі бермуди, що закінчуються не вище ніж на 5 см над коліном; сорочка — щонайменше з коротким рукавом і коміром або круглим вирізом; жилет на голе тіло й сандалі заборонені.",
+   "answer": 2,
+   "explain_en": "Bermuda shorts are fine if they end at most 5 cm above the knee; a shirt needs sleeves (short is enough) and a collar or round neck; no vest on bare skin and no sandals.",
+   "explain_uk": "Бермуди можна, якщо вони закінчуються щонайбільше за 5 см над коліном; сорочка має бути з рукавами (досить коротких) і з коміром або круглим вирізом; жилет на голе тіло й сандалі заборонені.",
    "refs": [
     "ch17-dress-code"
    ]
@@ -2375,25 +2375,25 @@ window.RULES_QUIZ.push({
    "q_uk": "Двоє стрільців поділили 5-те місце. Як визначають порядок між ними?",
    "options": [
     {
-     "en": "Sudden-death shoot-off",
-     "uk": "Shoot-off за системою sudden death"
+     "en": "Shared place; listed by countback from layout 8",
+     "uk": "Спільне місце; порядок — зворотним відліком від 8-го layout"
     },
     {
-     "en": "By the draw",
-     "uk": "Жеребкуванням"
+     "en": "A sudden-death shoot-off between them",
+     "uk": "Перестрілка sudden death між ними"
     },
     {
-     "en": "A 25-target shoot-off",
-     "uk": "Shoot-off на 25 мішеней"
+     "en": "By drawing lots after the event",
+     "uk": "Жеребкуванням після змагання"
     },
     {
-     "en": "They share the place and are listed by countback from layout 8 to layout 1",
-     "uk": "Вони ділять місце, а порядок у списку визначають у зворотному порядку з 8-го layout до 1-го"
+     "en": "A shoot-off over 25 targets",
+     "uk": "Перестрілка на 25 мішеней"
     }
    ],
-   "answer": 3,
+   "answer": 0,
    "explain_en": "Shoot-offs are held only for the first three places. Below third, tied shooters share the place and are listed by countback from the 8th layout to the 1st.",
-   "explain_uk": "Shoot-off проводять лише за перші три місця. Нижче третього стрільці ділять місце, а в списку їх розташовують за результатами у зворотному порядку з 8-го layout до 1-го.",
+   "explain_uk": "Перестрілку проводять лише за перші три місця. Нижче третього стрільці ділять місце, а в списку їх розташовують за результатами у зворотному порядку з 8-го layout до 1-го.",
    "refs": [
     "ch18-top-three"
    ]
@@ -2407,20 +2407,20 @@ window.RULES_QUIZ.push({
    "q_uk": "Суддя на стенді вважає одну траєкторію надто легкою. Чи може він її змінити?",
    "options": [
     {
-     "en": "No; he may only reset a faulty trajectory after a trap failure or exceptional weather, if the target does not appear or is dangerous",
-     "uk": "Ні; він може лише відновити зіпсовану траєкторію після поломки машинки чи через виняткову погоду, якщо мішень не з'являється або небезпечна"
+     "en": "No; only a faulty trajectory may be reset, in set cases",
+     "uk": "Ні; лише несправну траєкторію можна виправити, і лише в певних випадках"
     },
     {
      "en": "Yes, after informing the chief referee",
      "uk": "Так, повідомивши головного суддю"
     },
     {
-     "en": "Yes, if the squad agrees",
-     "uk": "Так, якщо група погоджується"
+     "en": "Yes, if the whole squad agrees to it",
+     "uk": "Так, якщо весь squad погоджується"
     },
     {
-     "en": "Yes, between rounds",
-     "uk": "Так, між раундами"
+     "en": "Yes, but only between two rounds",
+     "uk": "Так, але лише між двома серіями"
     }
    ],
    "answer": 0,

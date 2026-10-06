@@ -28,7 +28,7 @@
 <!-- /share-preview -->
 <!-- seo -->
 <link rel="canonical" href="https://fenix-112323.github.io/clayaway/rules/trainer/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Quiz", "name": "Тренажер правил FITASC — Sporting і Compak Sporting", "url": "https://fenix-112323.github.io/clayaway/rules/trainer/", "inLanguage": ["uk", "en"], "educationalLevel": "Beginner to referee", "about": [{"@type": "Thing", "name": "FITASC Sporting rules"}, {"@type": "Thing", "name": "FITASC Compak Sporting rules"}], "isPartOf": {"@type": "WebSite", "name": "ClayAway · ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Quiz", "name": "Тренажер правил FITASC — Sporting™ і Compak® Sporting", "url": "https://fenix-112323.github.io/clayaway/rules/trainer/", "inLanguage": ["uk", "en", "de", "fr", "it", "cs", "pl", "pt", "hu", "fi", "lt"], "educationalLevel": "Beginner to referee", "about": [{"@type": "Thing", "name": "FITASC Parcours de Chasse – Sporting™ rules"}, {"@type": "Thing", "name": "FITASC Compak® Sporting rules"}], "isPartOf": {"@type": "WebSite", "name": "ClayArena", "url": "https://fenix-112323.github.io/clayaway/"}}</script>
 <!-- /seo -->
 <style>
 :root{
@@ -131,7 +131,12 @@ p{margin:0 0 10px;max-width:70ch}
    Questions: docs/rules/data/quiz-<key>.js (format QUIZ_SCHEMA.md); every question cites rule item ids (refs)
    from docs/rules/data/<key>.js, so each explanation links to the item in the rules guide and to the FITASC PDF page.
    Modes: quick (10 random), exam (30 random, results only at the end, pass mark 80%), mistakes (questions answered
-   wrong before). Progress is stored per browser in localStorage "clayaway-trainer".
+   wrong before). Progress is stored per browser in localStorage "clayarena-trainer" (builds before 10.2026 used a
+   legacy key, see OLD and migrate() below: copied over once and still read as a fallback). In production: the ClayArena
+   user profile.
+   Answer order: the options of a question are shuffled for every run (except true/false), so the right answer cannot
+   be guessed by its place. The trainer never reorders the data: it only maps display order -> option index (run.ord),
+   and every comparison uses the data index (q.answer), so the language overlays (same option order as the data) stay valid.
    Languages: all ClayArena site languages. uk/en live in the question files; the others come from
    docs/rules/data/i18n/quiz-<lang>.json ({ui, questions: {id: {q, options[], explain}}}), fetched on demand, English fallback per field.
    Animations: a question may carry "sim" ({type:"pair", kind} | {type:"flight", preset}) — drawn by the shared module
@@ -158,14 +163,25 @@ const T={
    sAns:"Answers",sAcc:"Accuracy",sBest:"Best exam",sMist:"Mistakes to repeat",none:"No questions for this discipline yet.",noMist:"No mistakes — well done!",
    back:"← Rules guide",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",count:"questions in the bank"}
 };
-const store={get(){try{return JSON.parse(localStorage.getItem("clayaway-trainer")||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem("clayaway-trainer",JSON.stringify(v))}catch(e){}}};
+/* Storage keys follow the ClayArena naming: this trainer is a ClayArena tool. OLD = legacy keys of builds before 10.2026.
+   One-time migration: when the new key is still empty, the legacy value is copied over.
+   - progress: the legacy key is kept and read as a fallback (store.get), so nothing is lost if the copy fails;
+     the project bar (docs/shared/nav.js) also reads "clayarena-trainer" first, then the legacy key.
+   - test in progress: copied, then the legacy key is removed (a finished test must not come back from it).
+   In production the progress lives in the ClayArena user profile and none of this is needed. */
+const KEY="clayarena-trainer", RUNKEY="clayarena-trainer-run", OLD={progress:"clayaway-trainer",run:"clayaway-trainer-run"};
+(function migrate(){ try{
+  const p=localStorage.getItem(OLD.progress); if(p!=null&&localStorage.getItem(KEY)==null) localStorage.setItem(KEY,p);
+  const r=localStorage.getItem(OLD.run); if(r!=null){ if(localStorage.getItem(RUNKEY)==null) localStorage.setItem(RUNKEY,r); localStorage.removeItem(OLD.run); }
+}catch(e){} })();
+const store={get(){try{return JSON.parse(localStorage.getItem(KEY)||localStorage.getItem(OLD.progress)||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem(KEY,JSON.stringify(v))}catch(e){}}};
 let P=Object.assign({lang:(()=>{const q=new URLSearchParams(location.search).get("lang");if(LANGS.includes(q))return q;const n=(navigator.language||"en").slice(0,2);return LANGS.includes(n)?n:"en";})(),disc:"sporting",stats:{}},store.get());
 {const q=new URLSearchParams(location.search).get("lang");if(LANGS.includes(q))P.lang=q;}
 let S={view:"home",level:0,run:null};
-/* A test in progress survives leaving the page (saved per browser for 24 h) and the project bar offers the way back. */
-const RUNKEY="clayaway-trainer-run";
-try{ const sv=JSON.parse(localStorage.getItem(RUNKEY)||"null"); if(sv&&Date.now()-sv.ts<864e5&&sv.disc){ P.disc=sv.disc; const byId=Object.fromEntries((QUIZ[sv.disc]||[]).map(q=>[q.id,q])); const qs=sv.ids.map(id=>byId[id]).filter(Boolean); if(qs.length===sv.ids.length){ S={view:"run",level:sv.level||0,run:{mode:sv.mode,qs,i:sv.i,ans:sv.ans,picked:sv.picked}}; } } }catch(e){}
-function saveRun(){ try{ if(S.view==="run"&&S.run){ const r=S.run; localStorage.setItem(RUNKEY,JSON.stringify({ts:Date.now(),disc:P.disc,level:S.level,mode:r.mode,ids:r.qs.map(q=>q.id),i:r.i,ans:r.ans,picked:r.picked}));
+/* A test in progress survives leaving the page (saved per browser for 24 h) and the project bar offers the way back.
+   The saved run keeps the display order of the options (ord); a run saved before option shuffling existed gets a new order. */
+try{ const sv=JSON.parse(localStorage.getItem(RUNKEY)||"null"); if(sv&&Date.now()-sv.ts<864e5&&sv.disc){ P.disc=sv.disc; const byId=Object.fromEntries((QUIZ[sv.disc]||[]).map(q=>[q.id,q])); const qs=sv.ids.map(id=>byId[id]).filter(Boolean); if(qs.length===sv.ids.length){ const ord=qs.map((q,i)=>sv.ord&&validOrd(sv.ord[i],q)?sv.ord[i]:optOrder(q)); S={view:"run",level:sv.level||0,run:{mode:sv.mode,qs,ord,i:sv.i,ans:sv.ans,picked:sv.picked}}; } } }catch(e){}
+function saveRun(){ try{ if(S.view==="run"&&S.run){ const r=S.run; localStorage.setItem(RUNKEY,JSON.stringify({ts:Date.now(),disc:P.disc,level:S.level,mode:r.mode,ids:r.qs.map(q=>q.id),ord:r.ord,i:r.i,ans:r.ans,picked:r.picked}));
     window.ClayNav&&ClayNav.setResume({section:"trainer",label:`${t("svc")} ${P.disc==="sporting"?"Sporting™":"Compak® Sporting"} · ${t("q")} ${r.i+1} ${t("of")} ${r.qs.length}`,url:location.href.replace(/#.*$/,"")+"#"+P.disc}); }
   else { localStorage.removeItem(RUNKEY); window.ClayNav&&ClayNav.clearResume("trainer"); } }catch(e){} }
 if(location.hash==="#compak")P.disc="compak"; if(location.hash==="#sporting")P.disc="sporting";
@@ -180,18 +196,24 @@ const st=()=>{ const s=P.stats[P.disc]=P.stats[P.disc]||{ans:0,ok:0,best:0,wrong
 const shuffle=a=>{ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
 function itemById(id){ const b=BOOKS[P.disc]; if(!b) return null; for(const s of b.sections) for(const it of s.items) if(it.id===id) return it; return null; }
 function pool(){ const qs=QUIZ[P.disc]||[]; return S.level?qs.filter(q=>q.level===S.level):qs; }
+/* Display order of the options: a random permutation of option indices; true/false keeps True, False.
+   (Function declarations, so the saved-run restore above can use them before this point.) */
+function optOrder(q){ const a=q.options.map((_,i)=>i); if(q.type==="truefalse") return a; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+function validOrd(o,q){ return Array.isArray(o)&&o.length===q.options.length&&o.slice().sort((x,y)=>x-y).every((v,i)=>v===i); }
 function start(mode){
   let qs = mode==="mistakes" ? (QUIZ[P.disc]||[]).filter(q=>st().wrong.includes(q.id)) : pool();
   qs = shuffle(qs).slice(0, mode==="exam"?30:mode==="quick"?10:qs.length);
   if(!qs.length) return;
-  S.run={mode,qs,i:0,ans:[],picked:null}; S.view="run"; render(); scrollTo(0,0);
+  S.run={mode,qs,ord:qs.map(optOrder),i:0,ans:[],picked:null}; S.view="run"; render(); scrollTo(0,0);
 }
 function refsHTML(q){
   const b=BOOKS[P.disc]; return `<div class="refs">${(q.refs||[]).map(id=>{ const it=itemById(id); if(!it) return ""; return `<a href="../?item=${encodeURIComponent(id)}#${P.disc}">${esc(it.ref||tx(it,"title"))}</a><a href="${esc(b.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdf")} ${it.page} ↗</a>`; }).join("")}</div>`;
 }
-function qCard(q,picked,reveal,idx,total){
+/* ord = display order (array of option indices); data-opt always carries the ORIGINAL index. */
+function qCard(q,picked,reveal,idx,total,ord){
+  const order=validOrd(ord,q)?ord:q.options.map((_,i)=>i);
   return `<div class="qcard"><div class="qhead"><span class="type ${q.type}">${t(q.type)||q.type}</span><span>${idx!=null?`${t("q")} ${idx+1} ${t("of")} ${total}`:""} · ${esc(q.topic||"")} · ${t("l"+q.level)||""}</span></div>
-    ${q.sim?`<div class="qsim" data-clay-sim='${JSON.stringify(q.sim)}'></div>`:""}<h2>${esc(tx(q,"q"))}</h2><div class="opts">${q.options.map((o,i)=>{ let c=""; if(reveal){ if(i===q.answer)c="right"; else if(i===picked)c="wrong"; } else if(i===picked)c="chosen"; return `<button ${reveal||picked!=null?"disabled":""} class="${c}" data-opt="${i}">${esc(optText(q,o,i))}</button>`; }).join("")}</div>
+    ${q.sim?`<div class="qsim" data-clay-sim='${JSON.stringify(q.sim)}'></div>`:""}<h2>${esc(tx(q,"q"))}</h2><div class="opts">${order.map(i=>{ const o=q.options[i]; let c=""; if(reveal){ if(i===q.answer)c="right"; else if(i===picked)c="wrong"; } else if(i===picked)c="chosen"; return `<button ${reveal||picked!=null?"disabled":""} class="${c}" data-opt="${i}">${esc(optText(q,o,i))}</button>`; }).join("")}</div>
     ${reveal?`<div class="explain ${picked===q.answer?"":"bad"}"><b>${picked===q.answer?t("right"):t("wrong")}</b> ${esc(tx(q,"explain"))}${refsHTML(q)}</div>`:""}</div>`;
 }
 function homeView(){
@@ -206,14 +228,14 @@ function homeView(){
 }
 function runView(){
   const r=S.run, q=r.qs[r.i], exam=r.mode==="exam", answered=r.picked!=null;
-  return `<div class="bar"><i style="width:${(r.i/r.qs.length)*100}%"></i></div>${qCard(q,r.picked,answered&&!exam,r.i,r.qs.length)}
+  return `<div class="bar"><i style="width:${(r.i/r.qs.length)*100}%"></i></div>${qCard(q,r.picked,answered&&!exam,r.i,r.qs.length,(r.ord||[])[r.i])}
     <div class="qfoot"><button class="btn" data-home="1">${t("home")}</button>${answered?`<button class="btn primary" data-next="1">${r.i+1<r.qs.length?t("next"):t("finish")}</button>`:""}</div>`;
 }
 function resultView(){
   const r=S.run, ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length, pct=Math.round(ok/r.qs.length*100), exam=r.mode==="exam";
   return `<div class="result"><div class="eyebrow">${t("res")} · ${t(r.mode==="mistakes"?"mist":r.mode)}</div><div class="score ${!exam||pct>=PASS*100?"pass":"fail"}">${ok} / ${r.qs.length}</div><p class="muted" style="margin:0 auto 14px">${pct}%${exam?" · "+(pct>=PASS*100?t("pass"):t("fail")):""}</p>
     <button class="btn primary" data-start="${r.mode}">${t("again")}</button> <button class="btn" data-home="1">${t("home")}</button></div>
-    ${exam||r.ans.some((a,i)=>a!==r.qs[i].answer)?`<h2 style="margin-top:24px">${t("review")}</h2><div class="review">${r.qs.map((q,i)=>exam||r.ans[i]!==q.answer?qCard(q,r.ans[i],true,i,r.qs.length):"").join("")}</div>`:""}`;
+    ${exam||r.ans.some((a,i)=>a!==r.qs[i].answer)?`<h2 style="margin-top:24px">${t("review")}</h2><div class="review">${r.qs.map((q,i)=>exam||r.ans[i]!==q.answer?qCard(q,r.ans[i],true,i,r.qs.length,(r.ord||[])[i]):"").join("")}</div>`:""}`;
 }
 function render(){
   document.documentElement.lang=L();

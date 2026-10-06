@@ -61,7 +61,7 @@
   "m_maintained": "Maintained lead (pastovus pralenkimas)",
   "m_swing": "Swing-through (pravedimas pro taikinį)",
   "m_pullaway": "Pull-away (atitraukimas nuo taikinio)",
-  "m_ambush": "Ambush (šaudymas perimant)",
+  "m_ambush": "Ambush (šaudymas į tašką)",
   "speed": "Taikinio greitis",
   "distance": "Atstumas",
   "demo": "Žiūrėti metodą",
@@ -72,7 +72,7 @@
   "ahead": "Prieš taikinį — šratai praskriejo priekyje taikinio",
   "perceived": "Pralenkimas, kurį matote sprendimo metu",
   "actual": "Tikrasis pralenkimas šūvio metu",
-  "lab_note": "Sulėtintas vaizdas, mokymui supaprastinta fizika: vidutinis šratų greitis apie 330 m/s ir 0,15 s nuo sprendimo iki šūvio. Tikrasis pralenkimas priklauso ir nuo šaulio, šovinio bei kampo.",
+  "lab_note": "Sulėtintas vaizdas, mokymui supaprastinta fizika: vidutinis šratų greitis apie 330 m/s, 0,15 s nuo sprendimo iki šūvio, šratų pluošto spindulys apie 10 cm + 1,5 cm kiekvienam atstumo metrui, vamzdžio žiotys apie 1 m nuo akies. Tikrasis pralenkimas priklauso nuo greičio, atstumo, kampo ir šovinio; matomas – dar ir nuo metodo bei šaulio.",
   "exam_pass": "Išlaikyta! Dabar galite gauti pažymėjimą.",
   "exam_fail": "Kol kas ne — reikia 80 %. Pakartokite misijas ir bandykite dar kartą.",
   "cert_name": "Jūsų vardas ir pavardė pažymėjimui",
@@ -100,7 +100,18 @@
   "glossary_page": "Žodyno puslapis",
   "pair_report": "Dubletas pagal šūvio garsą (on report): antrasis taikinys išlekia pirmojo šūvio garsu",
   "pair_sim": "Vienalaikis dubletas: abu taikiniai išlekia kartu",
-  "pair_rafale": "Rafale (following pair): antrasis taikinys iš tos pačios mašinėlės iškart po pirmojo"
+  "pair_rafale": "Rafale (following pair): antrasis taikinys iš tos pačios mašinėlės, kai tik ji persikrauna",
+  "no_shot": "Šūvio nebuvo.",
+  "at_muzzle": "matoma prie vamzdžio žiočių",
+  "compare": "Tas pats taikinys, keturi metodai: tikrasis pralenkimas vienodas, matomas – ne",
+  "how_maintained": "Vamzdžiai laukia priešais taikinį, o taikinys artėja prie jų. Spauskite „Šauti“, kai tarpas atrodo tinkamas: tada ginklas juda taikinio greičiu ir išlaiko šį pralenkimą.",
+  "how_swing": "Vamzdžiai pradeda už taikinio ir juda greičiau už jį. Spauskite „Šauti“, kai vamzdžiai praeina priekinį taikinio kraštą: per delsą ginklas dar pasistūmi į priekį, todėl tikrasis pralenkimas didesnis.",
+  "how_pullaway": "Vamzdžiai iš pradžių juda kartu su taikiniu, tada greitėja į priekį. Spauskite „Šauti“, kol ginklas dar greitėja: matomas pralenkimas mažesnis už tikrąjį.",
+  "how_ambush": "Vamzdžiai nejudėdami laukia taške priešais taikinį. Spauskite „Šauti“ anksčiau, nei taikinys pasieks tą tašką: šratams reikia laiko, todėl šūvis tą akimirką, kai taikinys atskrieja, nueina už jo.",
+  "stop_gun": "Sustabdyti ginklą šūvio metu (klaida)",
+  "clay_widths": "taikinio pločių",
+  "unit_cm": "cm",
+  "unit_in": "col."
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Šiuose pristatymuose svarbiausia aukštis ir kreivė, o ne kampas. Jų pavadinimai yra trasų rengėjų žodžiai, o ne taisyklių terminai: taisyklėse išvardyti taikinių tipai, o Compak® Sporting taisyklės reikalauja įvairių trajektorijų, pavyzdžiui, kylančių, besileidžiančių ir aukštai iškeltų.",
       "Teal (springing arba rising teal, vertikaliai kylantis taikinys, pavadintas pagal mažą ančiuką krykliuką) mėtomas beveik tiesiai į viršų, lėtėja, viršuje sustoja ir krenta atgal. Į jį šaunama arba kylantį, vedant šautuvą iš apačios pro jį, arba viršūnėje, kai jis sustoja. Klasikinė klaida — „badymas“ (taikymasis) į jį viršuje. Kai kurie rengėjai „springing“ vadina taikinį, kylantį ne tiesiai, o kampu, kaip pakilęs paukštis.",
       "Chandelle (prancūziškai „žvakė“) staigiai kyla nedidele kreive, persiverčia lanku ir krenta beveik vertikaliai. Lengviausia jį šauti kylantį; ant lanko pralenkimas eina į šoną ir žemyn.",
-      "Looper (lankiniu kreiviu skrendantis taikinys) skrenda plačiu lanku per dangų, kaip vaivorykštė; dažnai tai battue, mėtomas iš pakreiptos mašinėlės: jis kyla, atsuka savo plokštumą ir krenta. Šautuvas seka kreivę, priekyje ir apačioje.",
+      "Looper (lankiniu kreiviu skrendantis taikinys) skrenda plačiu lanku per dangų, kaip vaivorykštė: kyla, persisveria per viršūnę ir krenta. Dažniausiai tai standartinis taikinys; kai kurie trasų rengėjai tokia linija meta ir battue, kuris tada, apsiversdamas, atsuka savo plokštumą. Šautuvas seka kreivę, priekyje ir apačioje.",
       "Dropping (besileidžiantis taikinys) — tai bet koks taikinys krentančioje skrydžio dalyje. Pralenkimas iš dalies vertikalus: po taikiniu ir priekyje, šautuvui judant.",
       "Atsargiai: pavadinimai skirtingose šalyse skiriasi. Daugelis prancūzakalbių „chandelle“ vadina beveik tiesiai į viršų kylantį taikinį, kurį anglų treneris vadina teal, o šauliai kitose kalbose „žvake“ gali vadinti bet kurį iš jų. Kai tik išgirstate chandelle, candle arba „žvakė“, paklauskite: tiesiai į viršų ar lanku?"
      ],
      "key_points": [
       "Teal: beveik vertikaliai į viršų, sustoja, krenta; šaudykite kylantį arba viršūnėje.",
       "Chandelle: staigus kreivas kilimas, persiverčia lanku, krenta beveik vertikaliai.",
-      "Looper: platus vaivorykštės lankas skersai, dažnai battue, kuris apsiverčia ir krenta.",
+      "Looper: platus vaivorykštės lankas skersai, dažniausiai standartinis taikinys, kuris persisveria per viršūnę ir krenta.",
       "Besileidžiantis: pralenkimas po taikiniu ir priekyje, niekada nestabdykite šautuvo.",
       "Pavadinimai skiriasi: prancūzakalbiai teal dažnai vadina „chandelle“; „žvakė“ taip pat dviprasmiška, todėl pasitikslinkite."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Visa treniruotė žingsnis po žingsnio",
      "body": [
       "Prieš treniruotę penkioms minutėms susitikite su treneriu. Susitarkite dėl pauzės ženklo, paklauskite, kokio metodo jis moko ir kokiais žodžiais vadina pralenkimą, ir išmokite jo rankų ženklus. Tada grupė susirenka saugos instruktažui: verskite jį nuosekliai, sakinys po sakinio, tvirtai ir visą.",
-      "Pirmojoje šaudymo vietoje treneris paprastai pradeda be šovinių: akies dominavimo patikra, tada stovėsena ir parengties pozicija. FITASC kontekste šautuvas pradžioje laikomas žemai, žemiau liemenės linijos. Kol jis taiso kojų ir rankų padėtį, šnibždėkite jo pataisymus iš už nugaros.",
+      "Pirmojoje šaudymo vietoje treneris paprastai pradeda be šovinių: akies dominavimo patikra, tada stovėsena ir parengties pozicija. Parcours de Chasse – Sporting™ šautuvas pradžioje laikomas žemai, žemiau liemenės linijos; Compak® Sporting duodant komandą šautuvo padėtis laisva. Kol jis taiso kojų ir rankų padėtį, šnibždėkite jo pataisymus iš už nugaros.",
       "Toliau — taikinio skaitymas. Treneris jį parodo, paklausia, kur šaulys pirmą kartą aiškiai jį pamato, ir nustato taikinio pastebėjimo tašką, ginklo laikymo tašką ir sudaužymo tašką. Visą dieną vartokite tuos pačius tris terminus — „pastebėjimo taškas“, „laikymo taškas“, „sudaužymo taškas“, — kad svečias juos išmoktų.",
       "Dabar šaudymas. Tarp taikinių treneris duoda dviejų–penkių žodžių nurodymus; jūs juos atkartojate — tokio pat ilgio, ta pačia tvarka, — kol šautuvas atidarytas. Kai nustatoma nepataikymo priežastis — „behind“ (už taikinio), „over the top“ (virš), „you stopped“ (sustojote), — išverskite diagnozę ir pataisymą kartu. Pagyrimą verskite su ta pačia energija.",
       "Tada dubletai: į kurį taikinį pirmiausia, „eyes first, then the gun“ (pirmiau akys, tada šautuvas), antrasis šūvis. Galiausiai aptarimas, vėl nuoseklusis vertimas, kai treneris apibendrina du ar tris dalykus. Užsirašykite juos abiem kalbomis ir atiduokite svečiui. Žemiau — tikra frazių grandinė ta tvarka, kuria jas išgirsite."
@@ -2559,7 +2570,7 @@
        "say": "Priekinė koja nukreipta į sudaužymo tašką, svoris į priekį."
       },
       {
-       "meaning": "FITASC parengties pozicija: šautuvas keliamas tik pasirodžius taikiniui.",
+       "meaning": "Sporting™ parengties pozicija: šautuvas keliamas tik pasirodžius taikiniui; Compak® Sporting duodant komandą šautuvo padėtis laisva.",
        "say": "Šautuvas žemai, buožė po linija. Prisidėkite tik tada, kai jį pamatysite."
       },
       {
@@ -2656,14 +2667,14 @@
       "Šratams reikia sekundės dalies, kad pasiektų taikinį, o per tą laiką taikinys nuskrenda toliau. Todėl šautuvas, nukreiptas tiesiai į kertantį taikinį (crosser), šauna už jo. Šautuvas turi būti nukreiptas į priekį, kad šratai ir taikinys susitiktų. Tas tarpas ir yra pralenkimas (lead), britų anglų kalboje dar „forward allowance“.",
       "Pralenkimas didėja kartu su taikinio greičiu, atstumu ir kampu. Visiškai skersai skrendančiam taikiniui jo reikia daugiausia; tiesiai į šaulį arba nuo jo skrendančiam taikiniui šoninio pralenkimo beveik nereikia, tačiau kylantiems ir besileidžiantiems taikiniams reikia vertikalaus pralenkimo (virš arba po taikiniu).",
       "Tikrieji skaičiai stebina. Viena šaudymo svetainė nurodo maždaug 3–4 pėdas, apytiksliai metrą, tikrojo pralenkimo kertančiam taikiniui maždaug 21–25 jardų (apie 20 m) atstumu. Daugelis šaulių sako, kad pralenkimas didėja maždaug proporcingai atstumui, todėl tas pats nedidelis tarpas prie vamzdžio žiočių tolimam taikiniui reiškia daug didesnį tikrąjį pralenkimą.",
-      "Tikrasis pralenkimas yra tikras atstumas ore prieš taikinį. Matomas pralenkimas („lead picture“ arba „sight picture“, vaizdas) yra tarpas, kurį šaulys mato tarp vamzdžio žiočių ir taikinio. Metras 20 m atstumu prie žiočių atrodo kaip keli centimetrai. Metodas keičia vaizdą: maintained lead šaulys mato didžiausią tarpą, swing-through šaulys mažą arba jokio, nes šautuvo greitis prideda pralenkimo.",
+      "Tikrasis pralenkimas yra tikras atstumas ore prieš taikinį. Matomas pralenkimas („lead picture“ arba „sight picture“, vaizdas) yra tarpas, kurį šaulys mato tarp vamzdžio žiočių ir taikinio. Metras 20 m atstumu prie žiočių atrodo kaip keli centimetrai. Metodas keičia vaizdą: iš metodų, kai šautuvas juda, maintained lead rodo didžiausią tarpą, o swing-through mažą arba jokio, nes šautuvo greitis prideda pralenkimo. Taikant ambush šautuvas nejuda, todėl šaulys turi matyti dar didesnį tarpą: taikinys skrenda toliau ir reakcijos metu.",
       "Vienas amerikiečių instruktorius pastebi, kad dešiniarankiui dažnai atrodo, jog iš kairės į dešinę kertančiam taikiniui reikia didesnio pralenkimo nei iš dešinės į kairę; tikrasis pralenkimas vienodas, skiriasi tik suvokimas. Todėl trenerio „four feet“ apibūdina jo vaizdą, o ne matavimą."
      ],
      "key_points": [
       "Pralenkimo reikia, nes taikinys juda, kol skrenda šratai.",
       "Didesnis greitis, atstumas ir kampas reiškia didesnį pralenkimą.",
-      "Tikrasis pralenkimas (ore) yra daug didesnis už matomą (prie vamzdžio žiočių).",
-      "Metodas keičia vaizdą: maintained lead mato daugiausia, swing-through mažiausiai.",
+      "Tikrasis pralenkimas yra metrai ore prie taikinio; prie žiočių vaizdas tėra keli centimetrai, nes žiotys yra arti akies.",
+      "Metodas keičia vaizdą: kai šautuvas juda, daugiausia matoma taikant maintained lead, mažiausiai taikant swing-through; taikant ambush (šautuvas nejuda) tarpas dar didesnis.",
       "Trenerio skaičius yra vaizdas, o ne matavimas."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "Ambush ir instinktyvus šaudymas",
      "body": [
-      "Ambush, arba spot shooting (lietuviškai galima apibūdinti kaip „šaudymas į tašką“ arba „šaudymas perimant“), yra mosto priešingybė. 1) Vamzdžio žiotys nukreipiamos į tašką prieš taikinį, ant jo linijos, netoli sudaužymo taško. 2) Jos laukia beveik nejudėdamos. 3) Gaidukas nuspaudžiamas, kai taikinys atskrenda į tą tašką.",
+      "Ambush, arba spot shooting (lietuviškai galima apibūdinti kaip „šaudymas į tašką“ arba „šaudymas perimant“), yra mosto priešingybė. 1) Vamzdžio žiotys nukreipiamos į tašką prieš taikinį, ant jo linijos, netoli sudaužymo taško. 2) Jos laukia beveik nejudėdamos. 3) Gaidukas nuspaudžiamas dar prieš taikiniui atskrendant į tą tašką: šaulio reakcijai ir šratų skrydžiui reikia laiko, todėl taikinys įskrenda į šūvį. Jei šaunama tik tada, kai taikinys jau taške, šratai praeina už jo.",
       "Kaip bendras įprotis, būdingas neapmokytiems šauliams, šis būdas nepatikimas: šautuvas nejuda, o laikas turi būti tobulas. Tačiau sąmoningas ambush kartais yra teisingas pasirinkimas: taikiniui, kurį reikia šaudyti labai greitai, arba rabbit, matomam tik trumpame tarpe tarp krūmų. Susijęs judesys briauna į šaulį skrendantiems battue jų skrydžio viršūnėje yra „collapse“: laikykite šautuvą labai arti sudaužymo taško ir darykite minimalų judesį. Taikinys vis tiek turi būti sudaužytas ten, kur jį mato teisėjas.",
       "Instinktyvus šaudymas reiškia jokio sąmoningo pralenkimo. Šaulys tvirtai sutelkia žvilgsnį į taikinį ir leidžia rankoms sekti; mostas ir prisidėjimas vyksta kartu, o šūvis nuskamba, kai šautuvas pasiekia veidą. Klasikinė mokykla siejama su anglų ginklų meistru Robertu Churchillu ir populiari medžioklėje.",
       "Daugelis geriausių Parcours de Chasse – Sporting™ šaulių derina metodus, rinkdamiesi kiekvienam taikiniui. „Kurį metodą šitam?“ — įprastas trenerio klausimas."
      ],
      "key_points": [
-      "Ambush: žiotys nejuda taške prieš taikinį; šaunama, kai taikinys atskrenda.",
+      "Ambush: žiotys nejuda taške prieš taikinį; šaunama dar prieš taikiniui ten atskrendant, kad jis įskristų į šūvį.",
       "Kaip įprotis nepatikimas, sąmoningai naudingas (labai greiti taikiniai, trumpi tarpai).",
       "„Collapse“: minimalus judesys prie sudaužymo taško briauna skrendantiems battue.",
       "Instinktyvus: jokio sąmoningo pralenkimo, tvirtas žvilgsnis, prisidėjimas ir mostas kartu (Churchillo mokykla).",
@@ -2935,7 +2946,7 @@
        "say": "Jūs ją tykote — judinkite šautuvą kartu su taikiniu."
       },
       {
-       "meaning": "Sąmoningai laukite ties tarpu ir šaudykite, kai taikinys jį kerta.",
+       "meaning": "Sąmoningai laukite ties tarpu ir šaudykite šiek tiek anksčiau, nei taikinys pasieks jūsų tašką, kad jis įskristų į šūvį.",
        "say": "Šitą tykokite tarpe."
       },
       {
@@ -3813,7 +3824,7 @@
       "Linija pažymima ant liemenės ar striukės 25 cm žemiau pečių ašies, lygiagrečiai jai, su liemene kontrastuojančia spalva, kad teisėjas ją matytų. Taisyklė galioja visų tipų buožėms, įskaitant ir tas, kurių skruostinė atrama reguliuojama.",
       "Šautuvą galima kelti tik pasirodžius taikiniui. Į kiekvieną taikinį, ir į triušį, šaudoma šautuvą prisidėjus prie peties; šaudyti nuo klubo draudžiama. Tarp pirmojo ir antrojo bet kurio dubleto taikinio šautuvo padėtis laisva, bet prieš pirmąjį taikinį privaloma parengties pozicija.",
       "Nuobaudos: pirmą kartą šauliui davus komandą netaisyklingoje pozicijoje arba prisidėjus šautuvą prieš pasirodant taikiniui, teisėjas įspėja žodžiu ir parodo geltonąją kortelę. Bet koks kitas pažeidimas toje pačioje aikštelėje – raudonoji kortelė, o taikinys įskaitomas: pavienio taikinio atveju nulis, dubleto pagal šūvio garsą atveju nulis ir „kartoti“ (No Bird), vienalaikio arba savaiminio dubleto (rafale) atveju nulis ir nulis.",
-      "Prisidėti šautuvą ir vesti jį įsivaizduojama linija prieš duodant komandą (šaudymo imitavimas) taip pat draudžiama: pirmiausia įspėjimas, tada nulis. Jei treneris prieš FITASC varžybas treniruoja pradžią pakeltu šautuvu, išverskite ir žodį „drill“ (pratimas)."
+      "Prisidėti šautuvą ir vesti jį įsivaizduojama linija prieš duodant komandą (šaudymo imitavimas) taip pat draudžiama: pirmiausia įspėjimas, tada nulis. Jei treneris prieš Parcours de Chasse – Sporting™ varžybas treniruoja pradžią pakeltu šautuvu, išverskite ir žodį „drill“ (pratimas)."
      ],
      "key_points": [
       "Prieš komandą: abi kojos šaudymo vietoje, buožė liečia kūną, buožės viršus žemiau liemenės linijos.",
@@ -4345,7 +4356,7 @@
       "Parcours de Chasse – Sporting™ apraše mašinėlės išvardytos šaudymo tvarka, ir jame turi būti nurodyti visi specialūs taikiniai: 90 mm, 70 mm, 60 mm, battue arba rabbit. Teisėjai iš anksto patikrina, ar mašinėlės atitinka aprašą. Aikštelėje šaunama 15 pavienių taikinių ir 5 dubletai, o dubletams galima naudoti tik tuos taikinius, kurie toje pačioje šaudymo vietoje jau buvo parodyti kaip pavieniai. Grupė pirmiausia šaudo pavienius taikinius, paskui dubletus.",
       "Dubletas žymimas pagal tipą: pagal šūvio garsą (antrasis taikinys išlekia pirmojo šūvio garsu), vienalaikis (abu kartu) arba rafale (du iš tos pačios mašinėlės vienas po kito; tik Sporting™). Aprašai skirtingose šaudyklose atrodo skirtingai, todėl skaitykite žodžius, ne tik raides. Pavyzdys šaudymo vietai su trimis mašinėlėmis: pavieniai A, B, C; dubletai A + B vienalaikis ir C + C rafale (tokioje šaudymo vietoje du dubletai pagal šūvio garsą neleidžiami).",
       "Compak® Sporting aprašas rodomas kiekvienoje iš penkių šaudymo vietų. Kiekvienoje šaudymo vietoje — penki taikiniai: penki pavieniai, trys pavieniai ir dubletas arba vienas pavienis ir du dubletai. Dubleto tipas visose penkiose Compak šaudymo vietose tas pats, o pirmasis kiekvieno dubleto taikinys yra paskutinis ankstesnės šaudymo vietos taikinys. FITASC varžyboms siūlo 40 parengtų aprašų.",
-      "Prieš jūsų šauliui įžengiant į šaudymo vietą, garsiai perskaitykite jam aprašą jo kalba, raidė po raidės: „A, tada F, tada dubletas C ir E pagal šūvio garsą.“"
+      "Prieš jūsų šauliui įžengiant į šaudymo vietą, garsiai perskaitykite jam aprašą jo kalba, raidė po raidės: „A, tada F, tada B, tada dubletas C ir E pagal šūvio garsą.“"
      ],
      "key_points": [
       "Žodį „menu“ galima palikti.",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "Taikinių tvarka 3-iojoje šaudymo vietoje, baigiant dubletu pagal šūvio garsą.",
-       "say": "Skaitykite aprašą: trečiojoje vietoje turite A, tada F, tada dubletą C ir E pagal šūvio garsą."
+       "meaning": "3-ioji šaudymo vieta: trys pavieniai taikiniai, tada dubletas pagal šūvio garsą; iš viso penki taikiniai.",
+       "say": "Skaitykite aprašą: trečiojoje vietoje turite A, tada F, tada B, tada dubletą C ir E pagal šūvio garsą."
       },
       {
        "meaning": "Nuo praėjusios serijos tvarka pasikeitė.",

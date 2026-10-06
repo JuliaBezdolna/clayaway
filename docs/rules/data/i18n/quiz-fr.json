@@ -1,7 +1,7 @@
 {
  "ui": {
   "svc": "Entraîneur des règles",
-  "svcS": "ClayAway · FITASC",
+  "svcS": "ClayArena · FITASC",
   "title": "Entraîneur des règles {d}",
   "lead": "Testez vos connaissances du règlement : situations au poste, chiffres et limites, vrai ou faux. Après chaque réponse, vous obtenez une explication, un lien vers la règle dans le guide et vers la page du PDF officiel.",
   "quick": "Test rapide",
@@ -40,7 +40,7 @@
   "none": "Pas encore de questions pour cette discipline.",
   "noMist": "Aucune erreur, bravo !",
   "back": "← Guide des règles",
-  "disc": "L'entraîneur repose sur notre résumé du règlement FITASC. Seul le texte officiel de la FITASC fait foi. Parcours de Chasse – Sporting™ et Compak® Sporting sont des marques de la FITASC.",
+  "disc": "Cet entraîneur des règles repose sur notre résumé du règlement FITASC. Seul le texte officiel de la FITASC fait foi. Parcours de Chasse – Sporting™ et Compak® Sporting sont des marques de la FITASC.",
   "count": "questions dans la banque"
  },
  "questions": {
@@ -51,7 +51,7 @@
     "No Bird, le plateau est rejoué",
     "Zéro (manqué)"
    ],
-   "explain": "La poussière ou la fumée seule ne compte pas. Un plateau est « un » seulement si au moins un morceau visible s'en détache ou s'il est détruit en tout ou en partie."
+   "explain": "Un simple nuage de poussière ou de fumée ne suffit pas. Pour annoncer « un », l'arbitre doit voir un morceau quitter le plateau, ou le plateau partir en éclats, en partie ou entièrement."
   },
   "sp-q002": {
    "q": "Plateau simple. Après le coup, un petit morceau bien visible se détache du plateau et le reste continue sa course. Quelle est la décision de l'arbitre ?",
@@ -66,8 +66,8 @@
    "q": "Le tireur annonce « pull ». L'arbitre transmet le signal, mais le plateau ne sort qu'environ cinq secondes plus tard. Le tireur tire et manque. Quelle est la décision de l'arbitre ?",
    "options": [
     "Zéro (manqué)",
-    "Plateau rejoué seulement si le tireur a protesté avant de tirer",
-    "No Bird, le plateau est rejoué"
+    "No Bird, le plateau est rejoué",
+    "Plateau rejoué seulement si le tireur a protesté avant de tirer"
    ],
    "explain": "Le plateau doit partir dans les 3 secondes qui suivent le signal de l'arbitre. Un plateau lancé plus tard est No Bird, quel que soit le résultat du tir."
   },
@@ -83,7 +83,7 @@
   "sp-q005": {
    "q": "Le tireur est encore en train de se mettre en position de départ et n'a pas appelé quand le pulleur lance un plateau. Le tireur ne tire pas. Quelle est la décision de l'arbitre ?",
    "options": [
-    "Zéro, car le tireur doit toujours être prêt",
+    "Carton jaune, puis le plateau est rejoué",
     "Zéro (manqué)",
     "No Bird, le plateau est rejoué"
    ],
@@ -102,7 +102,7 @@
    "q": "Simple du lanceur B. Au moment où le tireur tire, le téléphone d'un spectateur sonne fort juste derrière le poste ; le tireur sursaute nettement et manque. Quelle est la décision de l'arbitre ?",
    "options": [
     "Zéro (manqué)",
-    "Zéro, un bruit extérieur n'est jamais une raison valable",
+    "Rejoué seulement si le jury est d'accord",
     "No Bird, le plateau est rejoué"
    ],
    "explain": "Si le tireur a été manifestement gêné, l'arbitre annonce No Bird et le plateau est rejoué. C'est l'arbitre qui juge si la gêne était manifeste."
@@ -124,13 +124,13 @@
     "Un et un",
     "No Bird, le doublé est rejoué"
    ],
-   "explain": "Quel que soit le type de doublé, si un seul coup casse les deux plateaux, les deux comptent : un et un."
+   "explain": "Ici, c'est le coup lui-même qui a cassé les deux plateaux : dans tout type de doublé, les deux comptent, un et un. C'est différent quand un morceau du premier plateau casse le second avant le deuxième coup (doublé au coup de fusil) : le doublé est alors rejoué et le premier résultat est conservé."
   },
   "sp-q010": {
    "q": "Doublé en rafale. Les deux plateaux sortent correctement, mais le tireur baisse son fusil et ne tire sur aucun, sans raison valable. Quelle est la décision de l'arbitre ?",
    "options": [
-    "No Bird, le doublé est rejoué",
     "Zéro et zéro",
+    "No Bird, le doublé est rejoué",
     "Zéro sur le premier plateau, le second est rejoué"
    ],
    "explain": "Ne pas tirer sur un plateau régulier sans raison valable donne zéro ; sur un doublé en rafale ou simultané, cela donne zéro et zéro."
@@ -147,12 +147,12 @@
   "sp-q012": {
    "q": "Doublé au coup de fusil. Le tireur casse le premier plateau et l'un de ses morceaux brise le second avant que le tireur ait pu tirer son deuxième coup. Quelle est la décision de l'arbitre ?",
    "options": [
-    "Doublé rejoué, rien n'est conservé",
-    "Un et zéro",
-    "Un et un",
-    "Doublé rejoué, le « un » du premier plateau est conservé"
+    "Rejoué ; rien n'est conservé",
+    "Un et zéro, le doublé est acquis",
+    "Un et un, le doublé est acquis",
+    "Rejoué ; le « un » du premier plateau est conservé"
    ],
-   "explain": "Si le premier plateau ou ses morceaux cassent le second avant le deuxième coup, le doublé est rejoué et le résultat du premier plateau est conservé."
+   "explain": "Ici, le second plateau a été cassé par un morceau du premier, et non par un coup, avant que le deuxième coup soit tiré. Ce n'est donc pas « un et un » : le doublé est rejoué et le résultat du premier plateau est conservé. C'est différent quand un seul coup casse les deux plateaux : c'est alors un et un."
   },
   "sp-q013": {
    "q": "Doublé simultané. L'un des deux plateaux sort sur une trajectoire irrégulière ; le tireur casse l'autre. Quelle est la décision de l'arbitre ?",
@@ -166,9 +166,9 @@
   "sp-q014": {
    "q": "Lapin tiré en simple. Le premier coup manque, puis le lapin heurte une pierre et se casse avant que le tireur ait tiré son second coup. Quelle est la décision de l'arbitre ?",
    "options": [
-    "Zéro (manqué)",
-    "No Bird ; à la répétition, seule une casse au second coup compte",
-    "Un (touché)"
+    "Zéro : le premier coup avait déjà manqué",
+    "No Bird ; à la répétition, seul le second coup compte",
+    "Un : le lapin s'est cassé, donc il compte"
    ],
    "explain": "C'est un No Bird et le lapin est rejoué, mais à la répétition seule une casse au second coup compte ; le casser au premier coup donne zéro."
   },
@@ -176,13 +176,13 @@
    "q": "Premier incident de fusil de la série : sur un simple, la première cartouche fait long feu (raté). Le tireur reste immobile, le fusil pointé vers la zone de tir, et ne tire pas le second coup. L'arbitre contrôle le fusil. Quelle est la décision de l'arbitre ?",
    "options": [
     "No Bird avec avertissement ; le plateau est rejoué",
-    "Zéro (manqué)",
-    "Zéro, mais sans avertissement"
+    "Zéro, et un avertissement pour le raté",
+    "No Bird sans avertissement ; le plateau est rejoué"
    ],
    "explain": "Le premier incident de fusil ou de munition d'une série entraîne un avertissement et un No Bird, et le simple est rejoué. Les incidents suivants de cette série sont comptés zéro."
   },
   "sp-q016": {
-   "q": "Plus tard dans la même série, le même tireur a un deuxième raté au premier coup d'un simple. Il attend correctement le contrôle de l'arbitre. Quelle est la décision de l'arbitre ?",
+   "q": "Plus tôt dans cette série, le tireur a déjà eu un raté au premier coup (premier incident, avertissement). Maintenant, sur un simple, le premier coup rate de nouveau, et le tireur attend correctement le contrôle de l'arbitre. Quelle est la décision de l'arbitre ?",
    "options": [
     "No Bird, le plateau est rejoué",
     "Zéro (manqué)",
@@ -193,17 +193,17 @@
   "sp-q017": {
    "q": "La cartouche fait long feu. Agacé, le tireur ouvre aussitôt son fusil pour regarder l'amorce avant que l'arbitre n'arrive. Quelle est la décision de l'arbitre ?",
    "options": [
-    "Zéro (manqué)",
     "No Bird, le plateau est rejoué",
-    "No Bird, si c'est le premier incident de la série"
+    "No Bird, si c'est le premier incident de la série",
+    "Zéro (manqué)"
    ],
-   "explain": "Après un incident, le tireur doit rester en place, le fusil pointé vers la zone de tir, sans l'ouvrir ni toucher la sûreté tant que l'arbitre ne l'a pas contrôlé. Sinon le plateau est zéro."
+   "explain": "Après un incident, le tireur reste à sa place, canons tournés vers la zone de tir ; il garde le fusil fermé et ne touche pas à la sûreté, car l'arbitre doit d'abord examiner l'arme. S'il ouvre le fusil avant ce contrôle, le plateau est perdu : zéro."
   },
   "sp-q018": {
    "q": "Simple, premier incident de la série. Le premier coup ne part pas, mais le tireur parvient à tirer le second coup et manque. Quelle est la décision de l'arbitre ?",
    "options": [
     "No Bird, le plateau est rejoué",
-    "No Bird, parce que le premier coup n'est pas parti",
+    "Le plateau est rejoué avec une seule cartouche",
     "Zéro (manqué)"
    ],
    "explain": "Un premier coup qui ne part pas donne normalement un No Bird, mais si le tireur tire quand même le second coup, ce coup compte et le plateau est jugé tel quel : ici zéro."
@@ -221,10 +221,10 @@
    "q": "Doublé en rafale, premier incident de la série : les deux coups partent ensemble sur le premier plateau. Quelle est la décision de l'arbitre ?",
    "options": [
     "Le premier plateau est compté, le second rejoué",
-    "Zéro et zéro",
-    "Tout le doublé est rejoué, rien n'est inscrit"
+    "Tout le doublé est rejoué, rien n'est inscrit",
+    "Zéro et zéro"
    ],
-   "explain": "Sur le premier plateau d'un doublé au coup de fusil, ainsi que sur les doublés simultanés et en rafale, un départ simultané des deux coups entraîne la répétition de tout le doublé sans inscrire de résultat."
+   "explain": "Si les deux coups partent ensemble, tout le doublé est rejoué et rien n'est inscrit. Cela vaut pour les doublés simultanés et en rafale, et pour un doublé au coup de fusil quand cela se produit sur son premier plateau."
   },
   "sp-q021": {
    "q": "Doublé simultané. Le tireur a déjà eu un incident plus tôt dans cette série. Cette fois encore, le premier coup ne part pas et il ne tire pas. Quelle est la décision de l'arbitre ?",
@@ -245,11 +245,11 @@
    "explain": "Épauler avant l'apparition du plateau ou ne pas prendre la position de départ prévue en 3.1 entraîne, la première fois, un avertissement verbal accompagné d'un carton jaune."
   },
   "sp-q023": {
-   "q": "Même parcours, deux postes plus loin : le même tireur appelle de nouveau un simple avec la crosse au-dessus du repère de son gilet. Quelle est la décision de l'arbitre ?",
+   "q": "Plus tôt sur ce parcours, le tireur a reçu un carton jaune pour la position du fusil. Deux postes plus loin, il appelle de nouveau un simple avec la crosse au-dessus de la marque du gilet. Quelle est la décision de l'arbitre ?",
    "options": [
     "Carton rouge ; le plateau est rejoué",
-    "Carton rouge ; le plateau est compté zéro",
-    "Un nouveau carton jaune"
+    "Un nouveau carton jaune",
+    "Carton rouge ; le plateau est compté zéro"
    ],
    "explain": "Après le premier avertissement, toute nouvelle faute sur le même parcours est sanctionnée d'un carton rouge ; sur un simple, le plateau est zéro."
   },
@@ -266,8 +266,8 @@
    "q": "L'arbitre annonce « No Bird » sur un simple, mais le tireur tire quand même sur le plateau. C'est la première fois qu'il le fait. Quelle est la décision de l'arbitre ?",
    "options": [
     "Avertissement ; le plateau est rejoué",
-    "Un s'il le touche",
-    "Zéro immédiatement"
+    "Un si le tireur le touche",
+    "Zéro tout de suite, sans avertissement"
    ],
    "explain": "On ne tire jamais sur un No Bird annoncé. La première fois, le tireur reçoit un avertissement ; ce n'est qu'après un avertissement que s'appliquent les zéros prévus en 12.2."
   },
@@ -292,9 +292,9 @@
   "sp-q028": {
    "q": "Appelé par son nom, un tireur monte au poste sans lunettes de protection et dit qu'il les a oubliées dans sa voiture. Quelle est la décision de l'arbitre ?",
    "options": [
-    "Exclusion immédiate",
-    "Il peut tirer ce poste, puis aller les chercher",
-    "Il est considéré comme absent et la règle des retards et absences (16.7) s'applique"
+    "Considéré comme absent : la règle 16.7 s'applique",
+    "Exclusion immédiate de la compétition",
+    "Peut tirer ce poste, puis aller les chercher"
    ],
    "explain": "Les lunettes de protection sont obligatoires, sans exception. Un tireur qui se présente au poste sans elles est considéré comme absent, et l'article 16.7 s'applique."
   },
@@ -302,10 +302,10 @@
    "q": "L'arbitre compte un plateau zéro. Un autre membre de la planche lance à voix haute, sans qu'on lui ait rien demandé : « Il était touché, j'ai vu un morceau ! » Quelle est la décision de l'arbitre ?",
    "options": [
     "L'arbitre doit changer sa décision en « un »",
-    "La décision est maintenue ; les membres de la planche n'ont pas à intervenir, et une critique ouverte compte comme une tentative d'influencer l'arbitre",
-    "Le plateau devient No Bird"
+    "La décision est maintenue ; la critique ouverte compte comme une influence",
+    "Le plateau devient No Bird et il est rejoué"
    ],
-   "explain": "L'arbitre décide seul ; les membres de la planche n'ont aucun droit de commenter. Critiquer ouvertement une décision sans y être invité est une tentative d'influencer l'arbitre (sanctions du chapitre 13)."
+   "explain": "L'arbitre décide seul. Les membres de la planche n'ont pas le droit d'intervenir, et critiquer ouvertement une décision sans y être invité revient à chercher à influencer l'arbitre (sanctions du chapitre 13)."
   },
   "sp-q030": {
    "q": "Un tireur pense que son dernier plateau était touché, mais il ne dit rien, appelle le plateau suivant et ne proteste qu'ensuite au sujet du précédent. Quelle est la décision de l'arbitre ?",
@@ -314,23 +314,23 @@
     "La réclamation est entendue et l'arbitre réexamine sa décision",
     "Trop tard : en appelant le plateau suivant, il a accepté la décision"
    ],
-   "explain": "En appelant le plateau suivant, le tireur accepte la décision de l'arbitre sur le précédent ; toute contestation doit être faite avant."
+   "explain": "Un nouvel appel signifie que le tireur accepte la façon dont le plateau précédent a été jugé. S'il n'est pas d'accord, il doit le dire avant d'appeler de nouveau."
   },
   "sp-q031": {
-   "q": "Un plateau croisé est cassé juste derrière un arbre. L'arbitre juge qu'il a été tiré derrière un obstacle naturel et compte zéro. Le tireur veut faire appel. Quelle est la décision de l'arbitre ?",
+   "q": "Un plateau croisé éclate juste derrière un arbre. Pour l'arbitre, le coup est parti alors que l'arbre cachait le plateau : il annonce zéro. Le tireur veut faire appel. Quelle est la décision de l'arbitre ?",
    "options": [
     "Le plateau est rejoué comme No Bird",
     "Aucun appel n'est possible contre cette décision",
     "Réclamation écrite au jury avec une caution de 40 %"
    ],
-   "explain": "C'est au tireur de casser les plateaux là où l'arbitre peut les voir. Une décision selon laquelle un plateau a été tiré derrière un obstacle ou au-delà d'une limite ne peut pas faire l'objet d'un appel."
+   "explain": "Choisir un point de casse bien visible pour l'arbitre, c'est l'affaire du tireur. Plateau caché par un obstacle ou cassé hors des limites de tir : sur ce point, la décision de l'arbitre est définitive et le jury ne peut pas être saisi."
   },
   "sp-q032": {
    "q": "Un tireur arrive au parcours alors que sa planche tire encore les simples du poste 1 et que son tour n'est pas encore passé. Quelle est la décision de l'arbitre ?",
    "options": [
+    "Il rejoint sa planche sans pénalité",
     "Ses simples du poste 1 sont comptés zéro",
-    "Il doit tirer le parcours dans une autre planche",
-    "Il rejoint sa planche sans pénalité"
+    "Il doit tirer le parcours dans une autre planche"
    ],
    "explain": "Un tireur en retard qui arrive avant d'avoir manqué son tour sur les simples du premier poste rejoint la planche sans pénalité."
   },
@@ -381,7 +381,7 @@
     "Entre 3 et 5 secondes après le lancement du premier plateau",
     "Quand le tireur appelle une seconde fois"
    ],
-   "explain": "Le second plateau d'un doublé au coup de fusil part 0 à 3 secondes après que le tireur a tiré sur le premier : c'est le coup qui le déclenche."
+   "explain": "Dans un doublé au coup de fusil, c'est le tir sur le premier plateau qui déclenche le second : il sort 0 à 3 secondes après ce coup."
   },
   "sp-q038": {
    "q": "Quel est le temps maximal autorisé entre deux simples ou entre deux doublés ?",
@@ -407,11 +407,11 @@
    "q": "Quelle est la charge de plomb maximale d'une cartouche de Sporting™ ?",
    "options": [
     "24 g",
-    "28 g (tolérance +2 %)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "La charge ne peut pas dépasser 28 g de plomb, avec une tolérance maximale de +2 %."
+   "explain": "Une cartouche peut contenir au plus 28 g de plombs ; une marge allant jusqu'à +2 % est acceptée."
   },
   "sp-q041": {
    "q": "Quelle plage de diamètre des plombs est autorisée ?",
@@ -497,11 +497,11 @@
    "q": "Lors de la présentation, combien de fois le tireur au poste peut-il demander à revoir un plateau ?",
    "options": [
     "Une fois par poste",
-    "Jusqu'à 2 plateaux pour chaque plateau du menu",
-    "Jusqu'à 3 plateaux par lanceur",
+    "Jusqu'à 2 par plateau du menu",
+    "Jusqu'à 3 par lanceur",
     "Autant que nécessaire"
    ],
-   "explain": "Sur demande, l'arbitre répète la présentation, au maximum deux plateaux pour chaque plateau de la séquence du menu."
+   "explain": "Si le tireur au poste le demande, l'arbitre montre de nouveau les trajectoires, mais pas plus de deux plateaux par plateau du menu."
   },
   "sp-q050": {
    "q": "Pour un barrage non prévu, dans quel délai après avoir été appelés les tireurs doivent-ils être prêts ?",
@@ -521,7 +521,7 @@
     "Au moins 8 mois",
     "Au moins 12 mois"
    ],
-   "explain": "Le terrain et le plan d'organisation doivent être présentés à un représentant de la FITASC au moins huit mois avant l'épreuve."
+   "explain": "Un représentant de la FITASC doit voir le terrain et le plan d'organisation au plus tard huit mois avant la compétition."
   },
   "sp-q052": {
    "q": "Quelle part des plateaux un tireur moyen doit-il casser pour qu'une trajectoire soit de classe B ?",
@@ -568,12 +568,12 @@
    "explain": "Vrai, pour les doublés au coup de fusil, simultanés et en rafale. La position libre ne vaut qu'entre les deux plateaux ; avant le premier, la position de départ reste obligatoire."
   },
   "sp-q057": {
-   "q": "Un lapin peut être tiré à la hanche, puisqu'il roule au sol.",
+   "q": "Un lapin se tire fusil épaulé, comme n'importe quel autre plateau.",
    "options": [
     "Vrai",
     "Faux"
    ],
-   "explain": "Faux. Tous les plateaux, lapins compris, doivent être tirés fusil épaulé."
+   "explain": "Vrai. Tous les plateaux, lapins compris, se tirent le fusil à l'épaule ; tirer à la hanche n'est pas permis."
   },
   "sp-q058": {
    "q": "Lors de la présentation, les doublés au coup de fusil sont montrés au premier tireur de la planche.",
@@ -616,12 +616,12 @@
    "explain": "Vrai. Toute personne présente sur un parcours ou à proximité doit porter une protection auditive ; un tireur qui n'en a pas est considéré comme absent (16.7)."
   },
   "sp-q063": {
-   "q": "Un tireur exclu d'une compétition se voit rembourser le droit d'inscription des plateaux non tirés.",
+   "q": "Un tireur exclu d'une compétition n'obtient ni remboursement ni compensation pour les plateaux non tirés.",
    "options": [
     "Vrai",
     "Faux"
    ],
-   "explain": "Faux. Un tireur exclu ne reçoit aucun remboursement ni aucune compensation financière, de quelque nature que ce soit."
+   "explain": "Vrai. Un tireur exclu ne récupère aucun argent et ne reçoit aucune compensation financière, quelle qu'elle soit."
   },
   "sp-q064": {
    "q": "En barrage à la mort subite, sur un doublé au coup de fusil, « un-zéro » et « zéro-un » comptent de la même façon.",
@@ -643,18 +643,18 @@
    "q": "Laquelle de ces décisions de l'arbitre PEUT faire l'objet d'une réclamation au jury ?",
    "options": [
     "Si un plateau était « un » ou « zéro »",
+    "Un carton rouge pour la position du fusil",
     "Si un plateau était No Bird",
-    "Si une trajectoire était régulière",
-    "Un carton rouge pour la position du fusil"
+    "Si une trajectoire était régulière"
    ],
    "explain": "Les décisions sur la trajectoire, le No Bird et le « un »/« zéro » ne peuvent pas être portées devant le jury. Toute autre décision de l'arbitre peut faire l'objet d'une réclamation écrite avec une caution de 40 %."
   },
   "sp-q067": {
    "q": "Le jury rejette la réclamation d'un tireur. Que devient la caution ?",
    "options": [
+    "À une œuvre caritative choisie par le Président de la FITASC",
     "Elle revient au club organisateur",
-    "Elle est versée à une œuvre caritative choisie par le Président de la FITASC",
-    "Elle est rendue quand même",
+    "Elle est quand même rendue au tireur",
     "Elle s'ajoute à la dotation des prix"
    ],
    "explain": "Si la réclamation est acceptée, la caution est remboursée ; sinon, elle est versée à une œuvre caritative choisie par le Président de la FITASC."
@@ -672,9 +672,9 @@
   "sp-q069": {
    "q": "Un arbitre a un doute sur une décision. Qui peut-il consulter, et avec quel effet ?",
    "options": [
-    "Un autre arbitre, le pulleur ou les tireurs de la planche, à titre consultatif seulement ; sa décision est ensuite définitive",
+    "Autre arbitre, pulleur ou planche ; simple avis",
     "Seulement le jury, dont l'avis s'impose",
-    "Personne ; il doit annoncer No Bird",
+    "Personne ; un plateau douteux est toujours No Bird",
     "L'entraîneur du tireur, dont l'avis décide"
    ],
    "explain": "L'arbitre peut demander l'avis d'un autre arbitre, du pulleur ou des tireurs de la planche à titre purement consultatif ; il n'est pas lié par ces avis, et sa décision est ensuite définitive."
@@ -684,47 +684,47 @@
    "options": [
     "Par la couleur des plateaux",
     "Par des lettres de droite à gauche, vues par le pulleur",
-    "Par les lettres A, B, C, D de gauche à droite vues du poste",
-    "Par des numéros 1 à 4 dans l'ordre de tir"
+    "Par des numéros 1 à 4 dans l'ordre de tir",
+    "Par les lettres A, B, C, D de gauche à droite vues du poste"
    ],
    "explain": "Les lanceurs sont désignés par les lettres A, B, C et D, de gauche à droite vus du poste de tir ; le menu et la feuille de marque les utilisent."
   },
   "sp-q071": {
-   "q": "Un poste a 3 lanceurs et 2 doublés. Quelle combinaison n'est PAS autorisée ?",
+   "q": "Un poste de tir a 3 lanceurs et 2 doublés. Quelle combinaison n'est PAS autorisée ?",
    "options": [
-    "Deux doublés simultanés",
-    "Deux doublés en rafale",
-    "Un doublé simultané et un doublé en rafale",
-    "Deux doublés au coup de fusil"
+    "Un doublé simultané et un au coup de fusil",
+    "Deux doublés au coup de fusil",
+    "Un doublé en rafale et un au coup de fusil",
+    "Un doublé simultané et un en rafale"
    ],
-   "explain": "Sur un tel poste, les doublés peuvent être simultanés, en rafale ou les deux, mais deux doublés au coup de fusil ne sont pas autorisés."
+   "explain": "Sur un tel poste, au moins l'un des deux doublés doit être simultané ou en rafale. Deux doublés au coup de fusil ne sont pas autorisés."
   },
   "sp-q072": {
    "q": "Quelle règle s'applique à la composition des doublés d'un poste ?",
    "options": [
-    "Une trajectoire de classe C ne peut apparaître qu'une fois dans les doublés, de préférence avec un plateau de classe A",
+    "La classe C figure au plus une fois dans les doublés",
     "Les doublés doivent toujours être au coup de fusil",
-    "Les doublés peuvent utiliser de nouvelles trajectoires non montrées en simple",
-    "Deux plateaux de classe C font le meilleur doublé"
+    "Les doublés peuvent utiliser des trajectoires non montrées en simple",
+    "Deux plateaux de classe C forment le doublé recommandé"
    ],
    "explain": "Les doublés n'utilisent que des plateaux déjà tirés en simple depuis ce poste ; une classe C ne peut apparaître qu'une fois, de préférence associée à un A. B + B et B + A sont autorisés."
   },
   "sp-q073": {
-   "q": "Laquelle de ces sanctions ne fait PAS partie de l'échelle du jury pour une récidive, un refus d'obtempérer ou une tentative d'influencer un arbitre ?",
+   "q": "Un tireur récidive, refuse d'obéir ou tente d'influencer un arbitre. Laquelle de ces sanctions le jury ne peut-il PAS prononcer ?",
    "options": [
     "Exclusion de la compétition",
     "Perte d'un plateau",
     "Perte d'une série de 25 plateaux",
     "Une amende"
    ],
-   "explain": "L'échelle du jury comprend la perte d'un plateau, la perte d'une série de 25 plateaux ou l'exclusion. L'amende n'en fait pas partie."
+   "explain": "Le jury a trois possibilités : retirer un plateau, retirer une série de 25 plateaux ou exclure le tireur de la compétition. Une amende n'en fait pas partie."
   },
   "sp-q074": {
    "q": "Pendant une série, un entraîneur placé derrière le poste ne cesse d'indiquer à son tireur où placer ses canons. Que fait l'arbitre ?",
    "options": [
-    "Carton jaune pour le tireur, et l'entraîneur est renvoyé de la zone de tir",
     "Exclusion immédiate du tireur",
-    "Zéro sur le plateau suivant du tireur",
+    "Carton jaune pour le tireur ; l'entraîneur est renvoyé",
+    "Zéro sur le plateau suivant du tireur, sans carton",
     "Rien ; le coaching est autorisé entre les plateaux"
    ],
    "explain": "Le coaching est interdit pendant la compétition : le tireur reçoit un carton jaune (les récidives relèvent du chapitre 13) et l'entraîneur est éloigné de la zone de tir."
@@ -732,19 +732,19 @@
   "sp-q075": {
    "q": "Le fusil d'un tireur casse au poste 2 et ne peut pas être réparé rapidement. Que peut-il faire ?",
    "options": [
-    "Utiliser le fusil du pulleur sans demander",
+    "Prendre n'importe quel fusil au poste sans demander",
     "Sauter le poste et faire compter ses plateaux comme No Bird",
-    "Retirer plus tard tout le parcours dans une nouvelle planche de son choix",
-    "Avec l'accord de l'arbitre, continuer aussitôt avec un autre fusil, par exemple emprunté avec l'accord de son propriétaire"
+    "Avec l'accord de l'arbitre, continuer aussitôt avec un autre fusil",
+    "Retirer plus tard tout le parcours avec une planche au choix"
    ],
-   "explain": "Si le fusil ne peut pas être réparé, le tireur peut continuer avec sa planche, avec l'accord de l'arbitre, en se procurant immédiatement un autre fusil ; sinon, il ne peut terminer à une place libre dans une autre planche qu'avec l'autorisation du jury."
+   "explain": "Si le fusil ne peut pas être réparé, le tireur peut rester avec sa planche, avec l'accord de l'arbitre, en passant aussitôt à un autre fusil (par exemple emprunté avec l'accord de son propriétaire). Sinon, les plateaux restants ne peuvent être tirés qu'à une place libre dans une autre planche, avec l'autorisation du jury."
   },
   "sp-q076": {
    "q": "Le premier plateau d'un tireur équipé d'une détente à lâcher est déclaré No Bird. Que doit-il faire ?",
    "options": [
     "Relâcher aussitôt la détente et ouvrir le fusil",
-    "Garder la détente enfoncée et appeler un nouveau plateau, ouvrir le fusil en la maintenant, ou tirer dans une direction sûre indiquée par l'arbitre",
-    "Remettre le fusil à l'arbitre",
+    "Garder la détente enfoncée ; nouveau plateau, ouvrir le fusil ou tir sûr",
+    "Remettre le fusil à l'arbitre sans l'ouvrir",
     "Tirer dans le sol devant le poste"
    ],
    "explain": "Il doit garder la détente enfoncée et choisir l'une des trois solutions sûres : appeler un nouveau plateau, ouvrir le fusil en maintenant la détente, ou tirer dans une direction sûre indiquée par l'arbitre."
@@ -753,39 +753,39 @@
    "q": "Que doit faire l'arbitre avec la feuille de marque avant que la planche ne passe au poste suivant ?",
    "options": [
     "L'envoyer au tableau des résultats par un coursier",
-    "La faire signer par chaque tireur",
-    "La remettre au jury",
-    "La photographier et marquer un astérisque devant le nom du tireur qui la porte"
+    "La faire signer par tous les tireurs de la planche",
+    "La remettre directement au jury",
+    "La photographier et marquer d'un astérisque le nom de celui qui la porte"
    ],
-   "explain": "L'arbitre photographie la feuille et marque un astérisque devant le nom du tireur à qui elle est confiée ; on utilise un crayon de couleur différente à chaque poste."
+   "explain": "Avant que la planche ne change de poste, l'arbitre photographie la carte et met un astérisque devant le nom du tireur qui la porte. Chaque poste a sa propre couleur de crayon."
   },
   "sp-q078": {
    "q": "Quelle tenue est acceptable pour un tireur ?",
    "options": [
     "Bermuda, T-shirt et sandales",
     "Short de course court et T-shirt",
-    "Gilet de skeet porté à même la peau",
-    "Bermuda long s'arrêtant 4 cm au-dessus du genou, polo à manches courtes, chaussures fermées"
+    "Bermuda 4 cm au-dessus du genou, polo, chaussures fermées",
+    "Gilet de skeet porté à même la peau"
    ],
-   "explain": "Seuls les bermudas longs s'arrêtant au plus 5 cm au-dessus du genou sont acceptés ; les hauts doivent avoir au moins des manches courtes et un col ou une encolure ronde ; pas de gilet à même la peau ; pas de sandales."
+   "explain": "Le bermuda est accepté s'il s'arrête au plus 5 cm au-dessus du genou ; une chemise doit avoir des manches (courtes suffisent) et un col ou une encolure ronde ; pas de gilet sur la peau nue ni de sandales."
   },
   "sp-q079": {
    "q": "Deux tireurs sont à égalité pour la 5e place. Comment sont-ils départagés ?",
    "options": [
-    "Barrage à la mort subite",
-    "Par le tirage au sort",
-    "Un barrage sur 25 plateaux",
-    "Ils partagent la place et sont classés en remontant du parcours 8 au parcours 1"
+    "Place partagée ; classés en remontant depuis le parcours 8",
+    "Un barrage à la mort subite entre eux",
+    "Par tirage au sort après l'épreuve",
+    "Un barrage sur 25 plateaux"
    ],
    "explain": "Les barrages ne concernent que les trois premières places. Au-delà de la troisième, les tireurs à égalité partagent la place et sont classés en remontant du 8e parcours au 1er."
   },
   "sp-q080": {
    "q": "Un arbitre de poste trouve une trajectoire trop facile. Peut-il la modifier ?",
    "options": [
-    "Non ; il peut seulement rétablir une trajectoire défectueuse après une panne de lanceur ou une météo exceptionnelle, si le plateau n'apparaît pas ou est dangereux",
+    "Non ; seule une trajectoire défectueuse peut être rectifiée, dans des cas précis",
     "Oui, après en avoir informé l'arbitre en chef",
-    "Oui, si la planche est d'accord",
-    "Oui, entre deux séries"
+    "Oui, si toute la planche est d'accord",
+    "Oui, mais seulement entre deux séries"
    ],
    "explain": "Les trajectoires réglées par le jury et les traceurs sont fixes. L'arbitre peut seulement rétablir une trajectoire défectueuse après une panne de lanceur ou une météo exceptionnelle ; un traceur ou un membre du jury doit alors la vérifier."
   },
@@ -868,32 +868,32 @@
    "explain": "Vrai. Pour les compétitions internationales en ligne, on utilise uniquement le lancement sonopull, avec un arbitrage et une gestion des résultats électroniques homologués par la FITASC."
   },
   "cs-q009": {
-   "q": "Sur un doublé simultané, le tireur casse les deux plateaux avec sa première cartouche. C'est la première fois que cela lui arrive sur ce Compak. Quelle est la décision de l'arbitre ?",
+   "q": "Sur un doublé simultané, le tireur casse les deux plateaux avec sa première cartouche. C'est la première fois que cela arrive à ce tireur. Quelle est la décision de l'arbitre ?",
    "options": [
     "UN-UN : les deux plateaux comptent",
     "UN pour le premier plateau, ZÉRO pour le second",
     "NO BIRD : rien n'est compté et le doublé est rejoué",
     "ZÉRO-ZÉRO"
    ],
-   "explain": "Quand les deux plateaux d'un doublé simultané sont cassés d'un seul coup, le doublé est NO BIRD et il est retiré ; il en va de même la deuxième fois. Ce n'est qu'à la troisième fois qu'il est compté ZÉRO-ZÉRO."
+   "explain": "Quand un seul coup casse les deux plateaux d'un doublé simultané, le doublé est NO BIRD et il est retiré ; de même la deuxième fois. Ce n'est qu'à la troisième fois qu'il est compté ZÉRO-ZÉRO."
   },
   "cs-q010": {
-   "q": "Pour la troisième fois sur le même Compak, un tireur casse les deux plateaux d'un doublé simultané avec une seule cartouche. Quelle est la décision de l'arbitre ?",
+   "q": "Pour la troisième fois, un tireur casse les deux plateaux d'un doublé simultané avec une seule cartouche. Quelle est la décision de l'arbitre ?",
    "options": [
+    "ZÉRO-ZÉRO",
     "NO BIRD — un nouveau plateau est lancé",
     "UN-UN",
-    "ZÉRO-ZÉRO",
     "UN-ZÉRO"
    ],
-   "explain": "La première et la deuxième fois, c'est NO BIRD et le doublé est rejoué ; la troisième fois, le doublé est compté ZÉRO-ZÉRO."
+   "explain": "La première et la deuxième fois, c'est NO BIRD et le doublé est rejoué ; la troisième fois, le doublé est compté ZÉRO-ZÉRO. Le règlement ne dit pas sur quelle période ces fois sont comptées."
   },
   "cs-q011": {
    "q": "Sur un doublé au coup de fusil, le premier coup casse le premier plateau, et l'un de ses morceaux casse aussi le second en l'air. Quelle est la décision de l'arbitre ?",
    "options": [
     "UN-UN : les deux plateaux comptent",
-    "Le UN du premier plateau est conservé ; le doublé est rejoué pour juger le second",
     "Tout le doublé est NO BIRD ; rien n'est compté",
-    "UN-ZÉRO"
+    "UN-ZÉRO",
+    "Le UN du premier plateau est conservé ; le doublé est rejoué pour juger le second"
    ],
    "explain": "Si le premier plateau ou ses morceaux cassent le second avant le deuxième coup, le premier résultat est conservé et le doublé est retiré pour juger le second plateau."
   },
@@ -920,9 +920,9 @@
   "cs-q014": {
    "q": "Dans quel ordre un tireur peut-il tirer les deux plateaux d'un doublé simultané ?",
    "options": [
+    "Dans n'importe quel ordre",
     "Toujours le plateau de gauche d'abord",
     "Dans l'ordre indiqué au menu",
-    "Dans n'importe quel ordre",
     "D'abord celui du lanceur dont la lettre vient en premier"
    ],
    "explain": "Un doublé simultané se compose de deux plateaux lancés en même temps par deux lanceurs différents, et le tireur peut les tirer dans l'ordre de son choix."
@@ -949,9 +949,9 @@
    "q": "Qui compose le jury d'appel d'une compétition internationale de Compak® Sporting ?",
    "options": [
     "L'arbitre principal et deux membres du jury",
-    "Le Président de la FITASC, le président de la Commission technique et le président de la fédération organisatrice (ou leurs représentants)",
     "Un représentant de chaque équipe nationale",
-    "La commission de discipline de la FITASC"
+    "La commission de discipline de la FITASC au complet",
+    "Président FITASC, président de la Commission technique, président de la fédération hôte"
    ],
    "explain": "Le jury d'appel compte trois membres : le Président de la FITASC, le président de la Commission technique et le président de la fédération organisatrice, ou leurs représentants ; aucun membre du jury ne peut y siéger."
   },
@@ -979,7 +979,7 @@
    "q": "Quand les trajectoires, les lanceurs ou les menus de la compétition peuvent-ils être modifiés ?",
    "options": [
     "À tout moment, à la discrétion du jury",
-    "Seulement après une série complète tirée par tous les tireurs",
+    "Seulement quand tous les tireurs ont tiré une série complète",
     "Chaque matin avant la première planche",
     "Seulement à la demande de l'arbitre"
    ],
@@ -989,8 +989,8 @@
    "q": "Lors d'un championnat du monde ou continental de Compak® Sporting, à partir de quand les tireurs peuvent-ils s'entraîner sur les lanceurs et les trajectoires du championnat ?",
    "options": [
     "À tout moment pendant la semaine précédente",
-    "À partir de l'entraînement officiel du samedi précédant le championnat",
     "Seulement le matin du premier jour de compétition",
+    "À partir de l'entraînement officiel du samedi précédant le championnat",
     "Jamais : l'entraînement se fait uniquement sur d'autres installations"
    ],
    "explain": "L'entraînement officiel commence le samedi précédant le championnat, et personne ne peut s'entraîner sur les lanceurs et les trajectoires du championnat avant ce jour-là. Les tableaux d'entraînement doivent en outre être différents de ceux de la compétition."
@@ -999,26 +999,26 @@
    "q": "Un tireur se présente au pas de tir avec son dossard épinglé sur le devant de son gilet au lieu du dos. Quelle est la décision de l'arbitre ?",
    "options": [
     "Il ne peut pas tirer cette série",
-    "AVERTISSEMENT ; d'autres sanctions s'il ne corrige pas",
     "Un plateau retiré",
-    "Rien : la position du dossard est libre"
+    "Rien : la position du dossard est libre",
+    "AVERTISSEMENT ; d'autres sanctions s'il ne corrige pas"
    ],
    "explain": "Le dossard doit être porté dans le dos, entre les épaules et la taille, entièrement visible. Un premier manquement entraîne un AVERTISSEMENT ; s'il n'est pas corrigé, d'autres sanctions suivent, jusqu'à l'exclusion par le jury."
   },
   "cs-q023": {
-   "q": "Les sandales sont tolérées à l'entraînement, mais pas en compétition.",
+   "q": "Les sandales sont interdites en Compak, à l'entraînement comme en compétition.",
    "options": [
     "Vrai",
     "Faux"
    ],
-   "explain": "Faux. Pour des raisons de sécurité, les sandales sont interdites aussi bien à l'entraînement qu'en compétition."
+   "explain": "Vrai. Pour des raisons de sécurité, les sandales ne sont permises ni à l'entraînement ni en compétition."
   },
   "cs-q024": {
    "q": "Qui est responsable de la présence à l'heure d'un tireur à son Compak, prêt et avec assez de munitions pour la série ?",
    "options": [
+    "Le tireur lui-même",
     "L'arbitre, qui appelle les tireurs absents",
     "Le secrétariat de l'organisateur",
-    "Le tireur lui-même",
     "Le chef de planche"
    ],
    "explain": "Respecter les horaires de tir publiés relève de la responsabilité du tireur : il doit se présenter à l'arbitre, être prêt à tirer immédiatement avec son équipement et des munitions pour une série entière, et suivre les changements d'horaire. L'arbitre ne va pas chercher les tireurs absents."
@@ -1031,17 +1031,17 @@
     "Il ne perd que les plateaux déjà tirés",
     "Carton jaune, puis il tire"
    ],
-   "explain": "La limite est le premier appel du premier tireur de la planche ; un tireur qui arrive après se voit compter 25 zéros pour la série (il peut faire appel par écrit auprès du jury le jour même)."
+   "explain": "La limite est le moment où le premier tireur de la planche appelle le premier plateau. Qui arrive après est compté 25 zéros pour la série ; un appel écrit au jury reste possible le jour même."
   },
   "cs-q026": {
    "q": "Un tireur manque toute la première journée de la compétition. Que se passe-t-il ?",
    "options": [
-    "Il tire ses séries manquantes le deuxième jour",
-    "Il est retiré de la liste à partir du deuxième jour ; pour tirer, il doit faire appel au jury",
-    "Il reçoit 25 zéros par série et continue",
-    "Il est suspendu des compétitions FITASC"
+    "Retiré de la liste dès le jour 2 ; pour tirer, appel au jury",
+    "Tire les séries manquées le deuxième jour",
+    "25 zéros par série, et le tireur continue",
+    "Interdit de toutes les compétitions FITASC"
    ],
-   "explain": "Un tireur absent le premier jour est retiré de la liste à partir du deuxième jour ; s'il se présente et veut tirer, il doit faire appel au jury selon le chapitre 9."
+   "explain": "Dès le deuxième jour, un tireur qui a manqué le premier jour ne figure plus sur la liste. Pour tirer malgré tout, il doit faire appel au jury (chapitre 9)."
   },
   "cs-q027": {
    "q": "Un tireur peut tirer un coup d'essai sur le pas de tir de la compétition avant le début de sa série.",
@@ -1067,15 +1067,15 @@
     "moins de 30 minutes",
     "1 heure"
    ],
-   "explain": "Les tireurs concernés doivent rester en contact avec le jury et être prêts moins de 15 minutes après l'appel ; un tireur absent est considéré comme ayant abandonné."
+   "explain": "Pendant la préparation du barrage, les tireurs restent joignables par le jury ; une fois appelés, ils ont moins de 15 minutes pour être prêts. Celui qui manque à l'appel est déclaré forfait."
   },
   "cs-q030": {
-   "q": "Une égalité pour la 5e place du classement individuel se départage par un barrage.",
+   "q": "En Compak, les barrages n'ont lieu que pour les trois premières places (classement général et catégories).",
    "options": [
     "Vrai",
     "Faux"
    ],
-   "explain": "Faux. Les barrages ne concernent que les trois premières places ; au-delà de la troisième, les tireurs à égalité sont classés ex æquo et départagés en remontant du Compak 8 au Compak 1."
+   "explain": "Vrai. Au-delà de la troisième place, les tireurs à égalité partagent le rang et sont classés en remontant du Compak 8 au Compak 1."
   },
   "cs-q031": {
    "q": "Sur quel type de Compak les barrages sont-ils tirés ?",
@@ -1085,25 +1085,25 @@
     "1 simple et 2 doublés simultanés par pas de tir",
     "Le dernier Compak de la compétition, sans changement"
    ],
-   "explain": "Les membres présents de la Commission technique (à défaut, le jury) choisissent le Compak et les réglages ; les barrages se tirent avec un simple et deux doublés simultanés par pas de tir."
+   "explain": "Les barrages se tirent toujours sur un menu de Compak avec un simple et deux doublés simultanés par pas de tir. Les membres présents de la Commission technique choisissent le Compak et ses schémas ; si aucun n'est présent, c'est le jury."
   },
   "cs-q032": {
    "q": "Deux équipes nationales terminent à égalité au total. Comment sont-elles départagées ?",
    "options": [
     "Par un barrage par équipes sur 25 plateaux",
-    "Par le total de leurs membres sur le 8e Compak, puis le 7e, et ainsi de suite",
     "Par le meilleur score individuel de chaque équipe",
-    "Par le 1er Compak, puis le 2e, et ainsi de suite"
+    "Par le 1er Compak, puis le 2e, et ainsi de suite",
+    "Total de l'équipe sur le 8e Compak, puis le 7e, et ainsi de suite"
    ],
    "explain": "Les équipes à égalité sont départagées par le total de leurs membres sur le 8e Compak, puis le 7e, le 6e et ainsi de suite jusqu'au 1er."
   },
   "cs-q033": {
-   "q": "Un tireur qui refuse de signer la feuille de marque à la fin de la série perd le droit de faire toute réclamation.",
+   "q": "Si un tireur ne signe pas la feuille de marque après une série, aucune de ses réclamations ne peut plus être acceptée.",
    "options": [
     "Vrai",
     "Faux"
    ],
-   "explain": "Vrai. Le tireur doit signer la feuille de marque à la fin de chaque série ; un refus de signer rend toute réclamation irrecevable."
+   "explain": "Vrai. Chaque série se termine par la signature du tireur sur la feuille de marque. S'il refuse de signer, aucune réclamation de sa part ne peut plus être acceptée."
   },
   "cs-q034": {
    "q": "Comment les plateaux touchés et manqués sont-ils notés sur une feuille de marque de Compak ?",
@@ -1123,7 +1123,7 @@
     "6",
     "8"
    ],
-   "explain": "Une planche compte au maximum 6 tireurs, qui tirent la même série en même temps sur la même installation."
+   "explain": "Une planche compte jusqu'à 6 tireurs : ils tirent ensemble la même série sur la même installation."
   },
   "cs-q036": {
    "q": "De combien de temps dispose un tireur pour appeler son plateau après que le plateau du pas de tir précédent a été tiré ?",
@@ -1164,30 +1164,30 @@
    "explain": "Faux. En Compak, la position du fusil à l'appel est libre (épaulé ou non) ; le règlement ne prévoit ni départ fusil bas ni repère sur le gilet. Chaque plateau doit ensuite être tiré fusil épaulé."
   },
   "cs-q040": {
-   "q": "Sur un même Compak, le pas de tir 2 peut avoir un doublé au coup de fusil et le pas de tir 4 un doublé simultané.",
+   "q": "Sur un même Compak, les cinq pas de tir doivent utiliser le même type de doublé.",
    "options": [
     "Vrai",
     "Faux"
    ],
-   "explain": "Faux. Sur un même Compak, le type de doublé doit être le même sur les 5 pas de tir ; il est recommandé d'utiliser des tableaux différents d'un Compak à l'autre."
+   "explain": "Vrai. Sur un même Compak, les doublés sont tous simultanés ou tous au coup de fusil, à chaque pas de tir. Il est recommandé d'utiliser des tableaux différents d'un Compak à l'autre."
   },
   "cs-q041": {
-   "q": "Quel plateau est toujours le premier plateau d'un doublé à un pas de tir ?",
+   "q": "Dans un menu de Compak, quel plateau ouvre chaque doublé à un pas de tir ?",
    "options": [
-    "Le plateau du lanceur A",
-    "Le dernier plateau tiré au pas de tir précédent",
-    "Le plateau fuyant",
-    "N'importe quel plateau choisi par le tireur"
+    "Toujours le plateau du lanceur A",
+    "Le plateau qui a clos le pas précédent",
+    "Toujours le plateau qui s'éloigne dans le menu",
+    "N'importe quel plateau demandé par le tireur"
    ],
-   "explain": "Le premier plateau de chaque doublé est le dernier plateau tiré au pas de tir précédent (par exemple A-F, F-C, C-E…) ; c'est pourquoi l'arbitre le montre au tireur suivant."
+   "explain": "Un doublé commence toujours par le plateau sur lequel le pas précédent s'est terminé (exemple de chaîne A-F, F-C, C-E…). L'arbitre peut ainsi montrer ce plateau au tireur suivant."
   },
   "cs-q042": {
    "q": "En tir en planche, où se tient le sixième tireur (en attente), et que se passe-t-il quand le pas de tir 5 a terminé ?",
    "options": [
-    "Derrière le pas 5 ; il prend ensuite le pas 5",
-    "Derrière le pas 1 ; chacun se décale d'un pas vers la droite et il monte au pas 1",
-    "À côté de l'arbitre ; il rejoint la planche suivante",
-    "Derrière le pas 3 ; il prend le pas libre"
+    "Derrière le pas 5 ; prend ensuite le pas 5",
+    "À côté de l'arbitre ; rejoint la planche suivante",
+    "Derrière le pas 3 ; prend le pas libre",
+    "Derrière le pas 1 ; tous se décalent d'un pas à droite"
    ],
    "explain": "Le tireur en attente se tient derrière le pas de tir 1. Quand le pas 5 a terminé son menu, ce tireur va attendre, tous les autres se décalent d'un pas vers la droite et le tireur en attente monte au pas 1. Les fusils sont ouverts et déchargés pendant les changements de pas."
   },
@@ -1195,8 +1195,8 @@
    "q": "Un tireur monte à son pas de tir et l'arbitre remarque qu'il n'a pas de protection auditive. Quelle est la décision de l'arbitre ?",
    "options": [
     "Carton jaune, puis il peut tirer",
-    "Il est considéré comme absent et ne peut pas tirer",
     "Il peut tirer s'il signe une décharge",
+    "Il est considéré comme absent et ne peut pas tirer",
     "Il perd un plateau"
    ],
    "explain": "La protection auditive est obligatoire ; un tireur qui arrive au pas de tir sans elle est considéré comme absent et ne peut pas tirer. Il en va de même pour les lunettes de protection."
@@ -1215,11 +1215,11 @@
    "q": "Quelle est la charge de plomb maximale d'une cartouche de Compak® Sporting ?",
    "options": [
     "24 g",
-    "28 g (tolérance +2 %)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "La charge ne peut pas dépasser 28 grammes de plomb, avec une tolérance de +2 %."
+   "explain": "La cartouche peut contenir au plus 28 g de plombs ; jusqu'à +2 % sont acceptés."
   },
   "cs-q046": {
    "q": "Un fusil à pompe est autorisé en Compak® Sporting si son canon mesure au moins 66 cm.",
@@ -1240,19 +1240,19 @@
   "cs-q048": {
    "q": "Comment doit être signalé un fusil équipé d'une détente à lâcher ?",
    "options": [
-    "Par un ruban rouge sur le canon",
-    "Par un grand « R » sur fond fluorescent sur la face extérieure de la crosse",
+    "Un ruban rouge noué autour du canon",
+    "Un autocollant avec un grand « R » sur l'extérieur de la crosse",
     "Par une simple mention sur la feuille de marque",
     "Aucun signalement n'est nécessaire si l'arbitre est prévenu"
    ],
-   "explain": "Le propriétaire doit coller une étiquette portant un grand « R » sur fond fluorescent sur la face extérieure de la crosse, en guise d'avertissement."
+   "explain": "Le propriétaire marque le fusil d'un autocollant fluorescent portant un grand « R », placé sur l'extérieur de la crosse, pour que tout le monde le voie."
   },
   "cs-q049": {
    "q": "Un tireur pense que son plateau était touché, mais il ne dit rien. Ce n'est qu'après que le tireur suivant a appelé et tiré qu'il lève le bras et dit « RÉCLAMATION ». Quelle est la décision de l'arbitre ?",
    "options": [
     "L'arbitre doit réexaminer et peut changer en UN",
-    "La réclamation est trop tardive ; le ZÉRO est maintenu",
     "Le plateau est rejoué comme NO BIRD",
+    "La réclamation est trop tardive ; le ZÉRO est maintenu",
     "La réclamation est transmise au jury pour décision"
    ],
    "explain": "Une réclamation doit être faite immédiatement, au pas de tir, avant que le tireur suivant n'appelle. De toute façon, touché ou manqué relève de la seule décision de l'arbitre et ne peut faire l'objet d'aucun appel."
@@ -1270,8 +1270,8 @@
   "cs-q051": {
    "q": "Le menu indique que le simple vient du lanceur C, mais le plateau sort du lanceur E. Le tireur le casse. Quelle est la décision de l'arbitre ?",
    "options": [
-    "UN",
     "NO BIRD — un nouveau plateau est lancé",
+    "UN",
     "ZÉRO",
     "UN, et le pulleur reçoit un avertissement"
    ],
@@ -1295,14 +1295,14 @@
     "NO BIRD — un nouveau plateau est lancé",
     "ZÉRO, car le plateau n'a pas été cassé en deux"
    ],
-   "explain": "Un plateau est UN quand au moins un morceau visible s'en détache, ou quand il est pulvérisé en tout ou en partie."
+   "explain": "Il suffit qu'un seul morceau, visible, quitte le plateau pour annoncer UN ; un plateau pulvérisé, même en partie seulement, est aussi UN."
   },
   "cs-q054": {
    "q": "Pendant le mouvement du tireur, un plateau du Compak voisin traverse son champ de vision. Il manque son propre simple. Quelle est la décision de l'arbitre ?",
    "options": [
-    "ZÉRO",
     "NO BIRD — un nouveau plateau est lancé",
     "NO BIRD seulement si le tireur proteste",
+    "ZÉRO",
     "ZÉRO, et le Compak voisin est arrêté"
    ],
    "explain": "Un plateau ou des morceaux provenant d'un autre Compak ne justifient jamais un NO BIRD ; seul un plateau intempestif d'un lanceur du même Compak le justifie. Le manqué est maintenu."
@@ -1310,32 +1310,32 @@
   "cs-q055": {
    "q": "Une rafale de vent soudaine rabat brusquement un simple régulier vers le bas au moment où le tireur tire, et il manque. Quelle est la décision de l'arbitre ?",
    "options": [
-    "ZÉRO",
     "NO BIRD — un nouveau plateau est lancé",
     "NO BIRD si l'arbitre estime que le vent était exceptionnel",
-    "Le tireur peut demander une répétition une fois par série"
+    "Le tireur peut demander une répétition une fois par série",
+    "ZÉRO"
    ],
    "explain": "Les mauvaises conditions météo ne justifient jamais un NO BIRD : tout plateau manqué est ZÉRO et tout plateau cassé est UN, quelles que soient les conditions."
   },
   "cs-q056": {
    "q": "Sur un simple, la première cartouche ne part pas. C'est le premier incident de ce type pour le tireur dans la série. Il reste en place, le fusil pointé vers la zone de tir, jusqu'à ce que l'arbitre l'examine. Quelle est la décision de l'arbitre ?",
    "options": [
-    "ZÉRO",
-    "NO BIRD, un nouveau plateau et un premier avertissement (carton jaune)",
+    "ZÉRO, le plateau est perdu",
+    "NO BIRD, nouveau plateau, carton jaune",
     "NO BIRD sans avertissement",
     "ZÉRO et carton rouge"
    ],
    "explain": "Lors d'un premier incident dans une série de 25 plateaux, une première cartouche qui ne part pas sur un simple donne un NO BIRD et un nouveau plateau ; ce premier incident s'accompagne d'un premier avertissement (carton jaune)."
   },
   "cs-q057": {
-   "q": "Plus tard dans la même série, le même tireur a une deuxième défaillance de cartouche du même type. Quelle est la décision de l'arbitre ?",
+   "q": "Plus tôt dans cette série, le tireur a déjà eu une défaillance de cartouche (premier incident, carton jaune). Maintenant, sur un simple, une cartouche défaille de nouveau de la même façon. Quelle est la décision de l'arbitre ?",
    "options": [
     "De nouveau NO BIRD, avec un deuxième carton jaune",
-    "Tous les plateaux non tirés sont comptés ZÉRO (carton rouge)",
     "Le tireur est exclu de la compétition",
-    "Il a 2 minutes pour réparer le fusil et le plateau est rejoué"
+    "Il a 2 minutes pour réparer le fusil et le plateau est rejoué",
+    "Tous les plateaux non tirés sont comptés ZÉRO (carton rouge)"
    ],
-   "explain": "Le tableau des NO BIRD pour incidents de fusil ou de cartouche ne couvre que le premier incident d'une série ; pour un deuxième incident du même type, les plateaux non tirés sont comptés ZÉRO (carton rouge)."
+   "explain": "Le tableau des NO BIRD ne vaut que pour la première défaillance d'une série. Quand le même type de défaillance se produit une deuxième fois, tous les plateaux de cette série qui n'ont pas encore été tirés sont ZÉRO (carton rouge)."
   },
   "cs-q058": {
    "q": "Doublé au coup de fusil : le tireur casse le premier plateau, puis sa deuxième cartouche ne part pas. Premier incident de ce type dans la série. Quelle est la décision de l'arbitre ?",
@@ -1348,14 +1348,14 @@
    "explain": "Quand la deuxième cartouche ne part pas sur un doublé au coup de fusil (premier incident), le résultat du premier plateau est conservé et le doublé est rejoué pour le second plateau."
   },
   "cs-q059": {
-   "q": "Sur un simple, le tireur manque au premier coup et sa deuxième cartouche ne part pas. Premier incident de la série. Un nouveau plateau est lancé. Comment doit-il être jugé ? Quelle est la décision de l'arbitre ?",
+   "q": "Sur un simple, le tireur manque avec le premier coup et la deuxième cartouche ne part pas. C'est le premier incident de la série, et un nouveau plateau est lancé. Comment le nouveau plateau peut-il être compté ?",
    "options": [
+    "Seulement au deuxième coup ; le premier est un manqué voulu",
     "Normalement : l'un ou l'autre coup peut le casser",
-    "Il ne peut être compté qu'au second coup ; le premier doit être un manqué volontaire",
-    "Il est déjà ZÉRO ; le nouveau plateau ne sert qu'à l'entraînement",
-    "Seul le premier coup compte"
+    "Pas du tout : c'est ZÉRO, le nouveau n'est qu'un essai",
+    "Seulement au premier coup ; le deuxième ne sert pas"
    ],
-   "explain": "Après une deuxième cartouche défaillante sur un simple, un autre plateau est lancé et il ne peut être cassé qu'au second coup : le tireur manque donc volontairement au premier."
+   "explain": "La deuxième cartouche défaillante donne au tireur un nouveau plateau, mais seul le deuxième coup a le droit de le casser. Le premier coup est donc tiré à côté exprès."
   },
   "cs-q060": {
    "q": "Un lapin est manqué au premier coup, puis se casse sur une bosse du terrain avant que le second coup soit tiré. Quelle est la décision de l'arbitre ?",
@@ -1380,8 +1380,8 @@
   "cs-q062": {
    "q": "Au moment précis où le tireur appelle, une annonce au haut-parleur retentit derrière le poste ; l'arbitre voit nettement le tireur sursauter et baisser son fusil. Quelle est la décision de l'arbitre ?",
    "options": [
-    "ZÉRO",
     "NO BIRD — un nouveau plateau est lancé",
+    "ZÉRO",
     "ZÉRO, pour refus de plateau",
     "Avertissement pour retard du tir"
    ],
@@ -1391,9 +1391,9 @@
    "q": "Le pulleur lance un plateau avant que le tireur l'ait appelé. Surpris, le tireur tire et manque. Quelle est la décision de l'arbitre ?",
    "options": [
     "ZÉRO",
-    "NO BIRD — un nouveau plateau est lancé",
     "ZÉRO, parce qu'il a choisi de tirer",
-    "ZÉRO et carton jaune"
+    "ZÉRO et carton jaune",
+    "NO BIRD — un nouveau plateau est lancé"
    ],
    "explain": "Un plateau que le tireur n'a pas appelé est un cas de NO BIRD ; c'est aussi le seul plateau qu'un tireur a le droit de refuser."
   },
@@ -1410,8 +1410,8 @@
   "cs-q065": {
    "q": "Sur un doublé simultané, le tireur baisse son fusil sans tirer sur le premier plateau, en disant qu'il était hors trajectoire. L'arbitre juge les deux plateaux réguliers. Quelle est la décision de l'arbitre ?",
    "options": [
-    "ZÉRO pour le premier, le second est relancé",
     "ZÉRO-ZÉRO",
+    "ZÉRO pour le premier, le second est relancé",
     "NO BIRD",
     "ZÉRO pour le premier, NO BIRD pour le second"
    ],
@@ -1430,10 +1430,10 @@
   "cs-q067": {
    "q": "Pour la première fois dans la série, un tireur met environ 15 secondes à appeler après que le plateau du pas de tir précédent a été tiré. Il casse ensuite le simple. Quelle est la décision de l'arbitre ?",
    "options": [
-    "ZÉRO",
-    "UN, avec un avertissement noté sur la feuille de marque",
+    "ZÉRO pour lenteur",
     "NO BIRD et carton jaune",
-    "UN sans conséquence"
+    "UN sans conséquence",
+    "UN, plus un avertissement sur la feuille"
    ],
    "explain": "La limite pour appeler est de 10 secondes. La première fois qu'elle est dépassée, le tireur reçoit un avertissement noté sur la feuille de marque ; seule une récidive dans la même série coûte des plateaux."
   },
@@ -1451,7 +1451,7 @@
    "q": "Entre deux pas de tir, un entraîneur placé derrière le Compak ne cesse d'indiquer à un tireur où placer ses canons sur le plateau suivant. Quelle est la décision de l'arbitre ?",
    "options": [
     "Rien : les conseils entre les plateaux sont autorisés",
-    "Carton jaune pour le tireur ; l'entraîneur est éloigné de la zone de tir",
+    "Carton jaune pour le tireur ; l'entraîneur est renvoyé",
     "Le tireur perd une série de 25 plateaux",
     "Seul l'entraîneur reçoit un avertissement"
    ],
@@ -1461,8 +1461,8 @@
    "q": "Le fusil du tireur tombe en panne ; l'arbitre l'examine (premier incident). Deux minutes passent, le fusil n'est pas réparé et aucun autre fusil n'est disponible. Quelle est la décision de l'arbitre ?",
    "options": [
     "Il peut attendre la fin de la planche et terminer ensuite",
-    "Les plateaux non tirés sont comptés zéro",
     "La série est annulée et retirée plus tard",
+    "Les plateaux non tirés sont comptés zéro",
     "Il obtient 2 minutes de plus"
    ],
    "explain": "Après un incident de fonctionnement, le tireur dispose de deux minutes pour réparer ou remplacer son fusil ; avec l'accord de l'arbitre, il peut continuer avec un autre fusil, sinon les plateaux non tirés sont zéro."
@@ -1471,9 +1471,9 @@
    "q": "Premier plateau d'un doublé simultané : le tireur, déjà averti sur ce Compak, a un incident de fonctionnement qui n'est pas son premier et ne peut pas tirer sur le premier plateau. Quelle est la décision de l'arbitre ?",
    "options": [
     "ZÉRO / NO BIRD",
-    "ZÉRO / ZÉRO",
     "NO BIRD, nouveau doublé",
-    "Premier résultat conservé, second ZÉRO"
+    "Premier résultat conservé, second ZÉRO",
+    "ZÉRO / ZÉRO"
    ],
    "explain": "Pour un incident de fonctionnement après le premier avertissement, le tableau du 21.5 donne ZÉRO / ZÉRO sur le premier plateau d'un doublé simultané (ZÉRO / NO BIRD sur un doublé au coup de fusil)."
   },
@@ -1502,10 +1502,10 @@
    "options": [
     "Rien : une fois le tir repris, chacun peut donner son avis",
     "L'arbitre change sa décision pour éviter un conflit",
-    "C'est une tentative d'influence ; l'arbitre la signale et le jury peut sanctionner, jusqu'à l'exclusion",
+    "Tentative d'influence : signalée, le jury peut sanctionner",
     "Le plateau est rejoué comme NO BIRD"
    ],
-   "explain": "Continuer à contester une décision définitive après la reprise du tir, protester de manière ostentatoire, ou le fait que des tireurs ou des spectateurs critiquent ouvertement une décision sont des tentatives d'influence que le jury peut sanctionner jusqu'à l'exclusion."
+   "explain": "Ce sont des tentatives d'influence : contester une décision définitive après la reprise du tir, en discuter de façon ostentatoire, ou tireurs et spectateurs qui critiquent ouvertement la décision. Le jury peut les sanctionner, jusqu'à l'exclusion."
   },
   "cs-q075": {
    "q": "Pendant combien d'années la FITASC conserve-t-elle la trace d'une exclusion ?",
@@ -1531,9 +1531,9 @@
    "q": "Le coup ne part pas. Avant que l'arbitre ait pu examiner le fusil, le tireur l'ouvre pour vérifier la cartouche. Quelle est la décision de l'arbitre ?",
    "options": [
     "NO BIRD — un nouveau plateau est lancé",
-    "ZÉRO pour le plateau concerné",
     "NO BIRD et carton jaune",
-    "L'arbitre examine maintenant le fusil et décide NO BIRD s'il est défectueux"
+    "L'arbitre examine maintenant le fusil et décide NO BIRD s'il est défectueux",
+    "ZÉRO pour le plateau concerné"
    ],
    "explain": "Après un incident, le tireur doit rester en place sans ouvrir le fusil ni toucher la sûreté tant que l'arbitre ne l'a pas examiné ; sinon, le ou les plateaux concernés sont ZÉRO."
   },
@@ -1548,8 +1548,8 @@
   "cs-q079": {
    "q": "Comment un fusil semi-automatique doit-il être porté entre les postes ?",
    "options": [
-    "Fermé, sûreté mise, canon vers l'avant",
     "Culasse ouverte, canon pointé droit vers le haut ou vers le bas",
+    "Fermé, sûreté mise, canon vers l'avant",
     "Chargé d'une cartouche, culasse ouverte",
     "N'importe comment, s'il est déchargé"
    ],

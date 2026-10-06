@@ -2,6 +2,8 @@
 
 Builds docs/og/<page>.png (1200x630) + icons and injects og/twitter meta tags into each page's <head>.
 Run from the project root after changing titles: python scripts/make_og.py
+Tour EXAMPLES (dornsberg, sologne) show real ClayArena people with made-up dates, prices and messages: their preview
+says so in og:title / og:description and on the picture (SAMPLE + «Приклад: дати, ціни й повідомлення умовні»).
 """
 import re
 from pathlib import Path
@@ -16,14 +18,14 @@ FONTS = Path("C:/Windows/Fonts")
 PAGES = [
     # path, og file, locale, eyebrow, title lines, subtitle lines, og:title, og:description
     ("index.html", "home", "uk_UA", "CLAYARENA · НОВИЙ НАПРЯМ", ["ClayAway"], ["Clay shooting trips with top coaches", "ТЗ · приклади турів · правила FITASC"],
-     "ClayAway — тури з тренером у ClayArena", "Новий напрям ClayArena: організовані тури з тренером. ТЗ, два приклади турів і правила FITASC простими словами."),
+     "ClayAway — тури з тренером у ClayArena", "Новий напрям ClayArena, що готується: організовані тури з тренером. ТЗ, два умовні приклади турів і правила FITASC простими словами."),
     ("concept/index.html", "concept", "uk_UA", "ТЕХНІЧНЕ ЗАВДАННЯ", ["ТЗ ClayAway"], ["Тури з тренером у ClayArena:", "ролі, доступи, спілкування, адмінка, гроші"],
      "ТЗ ClayAway — концепція і технічне завдання", "Тури з тренером у ClayArena: ролі й доступи, відкрите та закрите спілкування, адмінка, комісія, сутності, етапи."),
     ("dornsberg/index.html", "dornsberg", "en_GB", "CLAYAWAY TOUR · GERMANY", ["Dornsberg", "Training Days"], ["with Markus Leibinger · Lake Constance", "Tue 13 – Sat 17 April 2027 · 6 shooters"],
-     "Dornsberg Training Days with Markus Leibinger", "Five days of Sporting™ and Compak® Sporting at Dornsberg above Lake Constance. Organizer and interpreter Lena Weigele. ClayAway by ClayArena."),
+     "Sample tour: Dornsberg Training Days with Markus Leibinger", "Приклад: дати, ціни й повідомлення умовні. Sample ClayAway tour page, not a real offer: five days of Sporting™ and Compak® Sporting at Dornsberg above Lake Constance with Markus Leibinger; organizer and interpreter Lena Weigele."),
     ("sologne/index.html", "sologne", "en_GB", "CLAYAWAY TOUR · FRANCE", ["Sologne Week"], ["with Charles Bardou · Loire Valley", "Mon 10 – Fri 14 May 2027 · Château de Chambord"],
-     "Sologne Week with Charles Bardou", "Train with Charles Bardou at the Sologne Shooting Club: Parcours de Chasse – Sporting™, Compak® Sporting, Loire wines and a Chambord excursion. ClayAway by ClayArena."),
-    ("rules/index.html", "rules", "uk_UA", "FITASC · SPORTING™ · COMPAK®", ["Правила FITASC", "простими словами"], ["Запитайте або читайте за розділами", "з посиланням на сторінку офіційного PDF"],
+     "Sample tour: Sologne Week with Charles Bardou", "Приклад: дати, ціни й повідомлення умовні. Sample ClayAway tour page, not a real offer: Parcours de Chasse – Sporting™ and Compak® Sporting with Charles Bardou at the Sologne Shooting Club, Loire wines and a Chambord excursion; organizer and interpreter Anna Karpulianskaia."),
+    ("rules/index.html", "rules", "uk_UA", "FITASC · SPORTING™ · COMPAK® SPORTING", ["Правила FITASC", "простими словами"], ["Запитайте або читайте за розділами", "з посиланням на сторінку офіційного PDF"],
      "Правила FITASC простими словами — ClayArena", "Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC."),
     ("rules/trainer/index.html", "trainer", "uk_UA", "FITASC · ТРЕНАЖЕР", ["Тренажер", "правил FITASC"], ["Рішення судді, цифри, правда чи ні", "Sporting™ і Compak® Sporting · 160 питань"],
      "Тренажер правил FITASC — ClayArena", "Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF."),
@@ -36,6 +38,10 @@ PAGES = [
     ("rules-spec/index.html", "rules-spec", "uk_UA", "ТЕХНІЧНЕ ЗАВДАННЯ", ["ТЗ: правила FITASC", "і глосарій"], ["Логіка, дані, пошук, ШІ-відповіді,", "оновлення регламентів"],
      "ТЗ: довідник правил FITASC і глосарій", "Як працює довідник правил FITASC у ClayArena: джерела, структура даних, пошук, ШІ-відповіді, щотижнева перевірка оновлень."),
 ]
+
+# Pictures that must carry the sample label (tour examples with real people; dates, prices and messages are made up).
+SAMPLE = {"dornsberg", "sologne"}
+SAMPLE_BADGE, SAMPLE_LINE = "SAMPLE · NOT A REAL OFFER", "Приклад: дати, ціни й повідомлення умовні"
 
 
 def font(name, size):
@@ -73,6 +79,12 @@ def card(name, eyebrow, title, sub):
         y += 46
     clay(d, 1010, 470, 92)
     d.ellipse([1010 - 150, 470 - 150, 1010 + 150, 470 + 150], outline=(30, 41, 59), width=2)
+    if name in SAMPLE:  # clearly visible "sample" label: badge top right + Ukrainian line at the bottom
+        bf = font("segoeuib.ttf", 24)
+        bw = int(d.textlength(SAMPLE_BADGE, font=bf))
+        d.rounded_rectangle([W - 80 - bw - 36, 70, W - 80, 116], radius=23, outline=CLAY, width=3, fill=(40, 22, 10))
+        d.text((W - 80 - bw - 18, 78), SAMPLE_BADGE, font=bf, fill=CLAY)
+        d.text((80, 548), SAMPLE_LINE, font=font("segoeuib.ttf", 30), fill=CLAY)
     (DOCS / "og").mkdir(exist_ok=True)
     img.save(DOCS / "og" / f"{name}.png", optimize=True)
 

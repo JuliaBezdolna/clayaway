@@ -72,7 +72,7 @@
   "ahead": "Davor – der Schuss ging vor der Scheibe vorbei",
   "perceived": "Vorhalt, den Sie bei der Entscheidung sehen",
   "actual": "Tatsächlicher Vorhalt beim Schuss",
-  "lab_note": "Zeitlupe und vereinfachte Physik zum Lernen: etwa 330 m/s mittlere Schrotgeschwindigkeit und 0,15 s von der Entscheidung bis zum Schuss. Der echte Vorhalt hängt außerdem vom Schützen, der Patrone und dem Winkel ab.",
+  "lab_note": "Zeitlupe und vereinfachte Physik zum Lernen: etwa 330 m/s mittlere Schrotgeschwindigkeit, 0,15 s von der Entscheidung bis zum Schuss, Radius der Schrotgarbe etwa 10 cm + 1,5 cm je Meter Entfernung, die Mündung etwa 1 m vom Auge. Der tatsächliche Vorhalt hängt von Geschwindigkeit, Entfernung, Winkel und Patrone ab; der sichtbare zusätzlich von Methode und Schütze.",
   "exam_pass": "Bestanden! Sie können jetzt Ihr Zertifikat erhalten.",
   "exam_fail": "Noch nicht – 80 % sind nötig. Wiederholen Sie die Missionen und versuchen Sie es erneut.",
   "cert_name": "Ihr Name für das Zertifikat",
@@ -100,7 +100,18 @@
   "glossary_page": "Glossarseite",
   "pair_report": "Doublette auf Schuss (on report): Die 2. Scheibe wird auf den Knall des 1. Schusses ausgelöst",
   "pair_sim": "Simultandoublette: Beide Scheiben werden gleichzeitig ausgelöst",
-  "pair_rafale": "Rafale (Folgedoublette): Die 2. Scheibe aus derselben Maschine direkt nach der 1."
+  "pair_rafale": "Rafale (Folgedoublette): Die 2. Scheibe aus derselben Maschine, sobald diese nachgeladen hat",
+  "no_shot": "Kein Schuss abgegeben.",
+  "at_muzzle": "an der Mündung gesehen",
+  "compare": "Dieselbe Scheibe, vier Methoden: Der tatsächliche Vorhalt ist gleich, der sichtbare nicht",
+  "how_maintained": "Die Läufe warten vor der Scheibe, die Scheibe kommt näher. Drücken Sie „Schuss“, wenn der Abstand richtig aussieht: Dann bewegt sich die Flinte mit der Geschwindigkeit der Scheibe und hält diesen Vorhalt.",
+  "how_swing": "Die Läufe starten hinter der Scheibe und sind schneller als sie. Drücken Sie „Schuss“, wenn die Läufe die Vorderkante der Scheibe passieren: Während der Verzögerung gewinnt die Flinte weiter, deshalb ist der tatsächliche Vorhalt größer.",
+  "how_pullaway": "Die Läufe gehen zuerst mit der Scheibe mit und beschleunigen dann nach vorn. Drücken Sie „Schuss“, solange die Flinte noch beschleunigt: Der sichtbare Vorhalt ist kleiner als der tatsächliche.",
+  "how_ambush": "Die Läufe warten still an einem Punkt vor der Scheibe. Drücken Sie „Schuss“, bevor die Scheibe diesen Punkt erreicht: Der Schrot braucht Zeit, ein Schuss erst beim Eintreffen der Scheibe geht dahinter.",
+  "stop_gun": "Flinte beim Abziehen anhalten (Fehler)",
+  "clay_widths": "Scheibenbreiten",
+  "unit_cm": "cm",
+  "unit_in": "Zoll"
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Bei diesen Präsentationen geht es eher um Höhe und Kurve als um den Winkel. Ihre Namen sind Wörter der Parcoursbauer, keine Begriffe des Regelwerks: Die Regeln listen Scheibentypen auf, und die Regeln des Compak® Sporting verlangen abwechslungsreiche Flugbahnen, etwa aufsteigende, fallende und hohe.",
       "Ein Teal (springing oder rising teal, nach der kleinen Krickente) wird fast senkrecht nach oben geworfen, wird langsamer, steht am höchsten Punkt still und fällt zurück. Man nimmt ihn entweder im Steigen, indem man von unten durch ihn hindurch nach oben schwingt, oder am höchsten Punkt, während er steht. Am höchsten Punkt nach ihm zu stochern ist der klassische Fehler. Manche Parcoursbauer verwenden „springing“ für eine Scheibe, die schräg statt senkrecht steigt, wie ein aufstehender Vogel.",
       "Eine Chandelle (französisch für „Kerze“) steigt steil auf einer leichten Kurve, beschreibt einen Bogen und fällt fast senkrecht. Am leichtesten ist sie im Steigen; im Bogen geht der Vorhalt zur Seite und nach unten.",
-      "Ein Looper fliegt einen weiten Bogen über den Himmel wie ein Regenbogen, oft eine Battue aus einer geneigten Maschine: Er steigt, dreht seine Fläche und fällt. Die Flinte folgt der Kurve, davor und darunter.",
+      "Ein Looper fliegt einen weiten Bogen über den Himmel wie ein Regenbogen: Er steigt, kippt über den höchsten Punkt und fällt. Meist ist es eine Standardscheibe; manche Parcoursbauer werfen auf so einer Linie auch eine Battue, die dann beim Drehen ihre Fläche zeigt. Die Flinte folgt der Kurve, davor und darunter.",
       "Eine fallende Taube (dropping) ist jede Scheibe im fallenden Teil ihres Flugs. Der Vorhalt ist teils vertikal: darunter und davor, mit der Flinte in Bewegung.",
       "Vorsicht: Die Namen sind von Land zu Land verschieden. Viele Französischsprachige sagen „chandelle“ zu einer Scheibe, die fast senkrecht steigt und die ein englischer Trainer Teal nennt. Wann immer Sie Chandelle oder candle hören, fragen Sie: senkrecht hoch oder im Bogen hinüber?"
      ],
      "key_points": [
       "Teal: fast senkrecht hoch, steht, fällt; im Steigen oder am höchsten Punkt nehmen.",
       "Chandelle: steiler Steigflug in einer Kurve, Bogen, fällt fast senkrecht.",
-      "Looper: weiter Regenbogen quer über den Himmel, oft eine Battue, die dreht und fällt.",
+      "Looper: weiter Regenbogen quer über den Himmel, meist eine Standardscheibe, die über den höchsten Punkt kippt und fällt.",
       "Fallend: Vorhalt darunter und davor, die Flinte nie anhalten.",
       "Die Namen variieren: Französischsprachige sagen oft „chandelle“ zum Teal — im Zweifel nachfragen."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Ein ganzes Training, Schritt für Schritt",
      "body": [
       "Treffen Sie sich vor dem Training fünf Minuten mit dem Trainer. Vereinbaren Sie ein Pausenzeichen, fragen Sie, welche Methode er lehrt und welche Wörter er für den Vorhalt verwendet, und lernen Sie seine Handzeichen. Dann versammelt sich die Gruppe zur Sicherheitseinweisung: Dolmetschen Sie sie konsekutiv, Satz für Satz, bestimmt und vollständig.",
-      "Auf dem ersten Stand beginnt der Trainer meist ohne Patronen: eine Prüfung des Führungsauges, dann Fußstellung und Bereitschaftsstellung. Im FITASC-Kontext beginnt die Flinte tief, unterhalb der Westenmarkierung. Flüstern Sie seine Korrekturen von hinten, während er Füße und Hände zurechtrückt.",
+      "Auf dem ersten Stand beginnt der Trainer meist ohne Patronen: eine Prüfung des Führungsauges, dann Fußstellung und Bereitschaftsstellung. Im Parcours de Chasse – Sporting™ beginnt die Flinte tief, unterhalb der Westenmarkierung; im Compak® Sporting ist die Flintenhaltung beim Abruf frei. Flüstern Sie seine Korrekturen von hinten, während er Füße und Hände zurechtrückt.",
       "Als Nächstes kommt das Lesen der Scheibe. Der Trainer zeigt sie, fragt, wo der Schütze sie zuerst klar sieht, und legt den Augenaufnahmepunkt, den Waffenhaltepunkt und den Treffpunkt fest. Halten Sie diese drei Begriffe den ganzen Tag gleich, „Aufnahmepunkt“, „Haltepunkt“, „Treffpunkt“, damit der Gast sie lernt.",
       "Jetzt wird geschossen. Zwischen den Scheiben gibt der Trainer Hinweise von zwei bis fünf Wörtern; Sie spiegeln sie, gleich lang, in gleicher Reihenfolge, während die Flinte offen ist. Wird ein Fehlschuss diagnostiziert, „behind“, „over the top“, „you stopped“, übersetzen Sie Diagnose und Korrektur zusammen. Lob wird mit derselben Energie übersetzt.",
       "Dann die Doubletten: welche Scheibe zuerst, „eyes first, then the gun“, der zweite Schuss. Zum Schluss die Nachbesprechung, wieder konsekutiv, in der der Trainer zwei oder drei Punkte zusammenfasst. Schreiben Sie sie in beiden Sprachen auf und geben Sie dem Gast die Notiz. Unten finden Sie eine Kette echter Sätze in der Reihenfolge, in der Sie sie hören werden."
@@ -2559,7 +2570,7 @@
        "say": "Vorderer Fuß zeigt auf den Treffpunkt, Gewicht nach vorn."
       },
       {
-       "meaning": "FITASC-Bereitschaftsstellung: Die Flinte kommt erst hoch, wenn die Scheibe erscheint.",
+       "meaning": "Bereitschaftsstellung im Sporting™: Die Flinte kommt erst hoch, wenn die Scheibe erscheint; im Compak® Sporting ist die Flintenhaltung beim Abruf frei.",
        "say": "Flinte unten, Schaft unter der Markierung. Anschlagen erst, wenn Sie sie sehen."
       },
       {
@@ -2656,14 +2667,14 @@
       "Der Schrot braucht einen Sekundenbruchteil, um die Scheibe zu erreichen, und in dieser Zeit fliegt die Scheibe weiter. Eine Flinte, die genau auf einen Crosser zeigt, schießt deshalb dahinter. Die Flinte muss davor zeigen, damit sich Schrot und Scheibe treffen. Dieser Abstand ist der Vorhalt (lead), im britischen Englisch auch „forward allowance“.",
       "Der Vorhalt wächst mit der Geschwindigkeit der Scheibe, ihrer Entfernung und ihrem Winkel. Ein voller Crosser braucht am meisten; eine Scheibe, die gerade auf den Schützen zu oder von ihm weg fliegt, braucht fast keinen seitlichen Vorhalt, steigende und fallende Scheiben brauchen aber vertikalen Vorhalt (darüber oder darunter).",
       "Die echten Zahlen überraschen. Eine Schießsport-Website nennt etwa 3 bis 4 Fuß, rund einen Meter, tatsächlichen Vorhalt für einen Crosser auf etwa 21–25 Yards (rund 20 m). Viele Schützen sagen, dass er ungefähr proportional zur Entfernung wächst, derselbe kleine Abstand an der Mündung bedeutet bei einer weiten Scheibe also viel mehr echten Vorhalt.",
-      "Der tatsächliche Vorhalt ist die echte Strecke vor der Scheibe in der Luft. Der wahrgenommene Vorhalt (das „lead picture“ oder „sight picture“, das Vorhaltebild) ist der Abstand, den der Schütze zwischen Mündung und Scheibe sieht. Ein Meter auf 20 m sieht an der Mündung aus wie ein paar Zentimeter. Die Methode verändert das Bild: Ein Schütze mit Maintained Lead sieht den größten Abstand, ein Schütze mit Swing-Through wenig oder keinen, weil die Flintengeschwindigkeit Vorhalt hinzufügt.",
+      "Der tatsächliche Vorhalt ist die echte Strecke vor der Scheibe in der Luft. Der wahrgenommene Vorhalt (das „lead picture“ oder „sight picture“, das Vorhaltebild) ist der Abstand, den der Schütze zwischen Mündung und Scheibe sieht. Ein Meter auf 20 m sieht an der Mündung aus wie ein paar Zentimeter. Die Methode verändert das Bild: Unter den Methoden mit bewegter Flinte zeigt Maintained Lead den größten Abstand, Swing-Through wenig oder keinen, weil die Flintengeschwindigkeit Vorhalt hinzufügt. Beim Ambush steht die Flinte still, deshalb muss der Schütze einen noch größeren Abstand sehen: Die Scheibe fliegt auch während der Reaktionszeit weiter.",
       "Ein amerikanischer Ausbilder merkt an, dass ein Rechtshänder oft das Gefühl hat, ein Crosser von links nach rechts brauche mehr Vorhalt als einer von rechts nach links; der echte Vorhalt ist gleich, nur die Wahrnehmung unterscheidet sich. Die „vier Fuß“ eines Trainers beschreiben also sein Bild, keine Messung."
      ],
      "key_points": [
       "Vorhalt gibt es, weil sich die Scheibe bewegt, während der Schrot unterwegs ist.",
       "Mehr Geschwindigkeit, Entfernung und Winkel bedeuten mehr Vorhalt.",
-      "Der tatsächliche Vorhalt (in der Luft) ist viel größer als der wahrgenommene (an der Mündung).",
-      "Die Methode verändert das Bild: Maintained sieht am meisten, Swing-Through am wenigsten.",
+      "Der tatsächliche Vorhalt sind Meter in der Luft an der Scheibe; an der Mündung sind es im Bild nur Zentimeter, weil die Mündung nah am Auge ist.",
+      "Die Methode verändert das Bild: Bei bewegter Flinte sieht man mit Maintained am meisten, mit Swing-Through am wenigsten; beim Ambush (Flinte still) ist der Abstand noch größer.",
       "Die Zahl eines Trainers ist ein Bild, keine Messung."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "Ambush und instinktives Schießen",
      "body": [
-      "Ambush oder Spot Shooting (auf Deutsch etwa „Abfangen“ oder „auf einen Punkt schießen“) ist das Gegenteil eines Schwungs. 1) Die Mündungen werden an einen Punkt vor der Scheibe gesetzt, auf ihrer Linie, nahe dem Treffpunkt. 2) Sie warten mit wenig oder keiner Bewegung. 3) Abgezogen wird, wenn die Scheibe an dieser Stelle ankommt.",
+      "Ambush oder Spot Shooting (auf Deutsch etwa „Abfangen“ oder „auf einen Punkt schießen“) ist das Gegenteil eines Schwungs. 1) Die Mündungen werden an einen Punkt vor der Scheibe gesetzt, auf ihrer Linie, nahe dem Treffpunkt. 2) Sie warten mit wenig oder keiner Bewegung. 3) Abgezogen wird, bevor die Scheibe diese Stelle erreicht: Die Reaktion des Schützen und der Flug des Schrots brauchen Zeit, so fliegt die Scheibe in den Schuss. Wer erst abzieht, wenn die Scheibe an der Stelle ankommt, schießt dahinter.",
       "Als allgemeine Gewohnheit, typisch für ungeschulte Schützen, ist das unzuverlässig: Die Flinte steht still, und das Timing muss perfekt sein. Ein bewusster Ambush ist aber manchmal die richtige Wahl: bei einer Scheibe, die sehr schnell genommen werden muss, oder bei einem Rollhasen, der nur in einer kurzen Lücke zwischen Büschen zu sehen ist. Eine verwandte Bewegung bei Battues, die am höchsten Punkt ihres Flugs die Kante zeigen, ist der „collapse“: sehr nah am Treffpunkt halten und eine minimale Bewegung machen. Die Scheibe muss trotzdem dort brechen, wo der Schiedsrichter sie sehen kann.",
       "Instinktives Schießen bedeutet überhaupt keinen bewussten Vorhalt. Der Schütze hält einen scharfen Fokus auf die Scheibe und lässt die Hände folgen; Schwung und Anschlag geschehen zusammen, und der Schuss kommt, wenn die Flinte das Gesicht erreicht. Die klassische Schule ist die, die mit dem englischen Büchsenmacher Robert Churchill verbunden wird und bei der Jagd beliebt ist.",
       "Viele Spitzenschützen in Parcours de Chasse – Sporting™ mischen die Methoden und wählen je nach Scheibe. „Which method for this one?“ – welche Methode für diese? – ist eine ganz normale Frage im Training."
      ],
      "key_points": [
-      "Ambush: Mündungen ruhig an einem Punkt davor; schießen, wenn die Scheibe ankommt.",
+      "Ambush: Mündungen ruhig an einem Punkt davor; abziehen, bevor die Scheibe dort ist, damit sie in den Schuss fliegt.",
       "Als Gewohnheit unzuverlässig, bewusst eingesetzt nützlich (sehr schnelle Scheiben, kurze Lücken).",
       "„Collapse“: minimale Bewegung nahe dem Treffpunkt bei Battues, die die Kante zeigen.",
       "Instinktiv: kein bewusster Vorhalt, scharfer Fokus, Anschlag und Schwung zusammen (Churchill-Schule).",
@@ -2935,7 +2946,7 @@
        "say": "Sie fangen sie ab – bewegen Sie die Flinte mit der Scheibe."
       },
       {
-       "meaning": "Bewusst an der Öffnung warten und schießen, wenn die Scheibe sie durchquert.",
+       "meaning": "Bewusst an der Öffnung warten und abziehen, kurz bevor die Scheibe Ihren Punkt erreicht, damit sie in den Schuss fliegt.",
        "say": "Diese fangen Sie in der Lücke ab."
       },
       {
@@ -3813,7 +3824,7 @@
       "Die Markierung ist auf der Weste oder Jacke 25 cm unter der Schulterachse angebracht, parallel zu ihr, in einer Farbe, die sich von der Weste abhebt, damit der Schiedsrichter sie sehen kann. Die Regel gilt für jede Schaftform, auch für verstellbare Schaftrücken.",
       "Die Flinte darf erst hochkommen, wenn die Scheibe erscheint. Jede Scheibe, auch der Rollhase, wird mit der Flinte in der Schulter beschossen; Schießen aus der Hüfte ist nicht erlaubt. Zwischen der ersten und der zweiten Scheibe jeder Doublette ist die Flintenhaltung frei, vor der ersten Scheibe gilt aber die Bereitschaftsstellung.",
       "Strafen: Ruft ein Schütze zum ersten Mal in falscher Haltung ab oder schlägt er an, bevor die Scheibe erscheint, gibt der Schiedsrichter eine mündliche Verwarnung mit Gelber Karte. Jeder weitere Verstoß auf demselben Layout bringt die Rote Karte, und die Scheibe wird gewertet: Null bei einer Einzelscheibe, Null und No Bird bei einer Doublette auf Schuss, Null und Null bei einer Simultan- oder Rafaledoublette.",
-      "Vor dem Abruf anzuschlagen und entlang der gedachten Linie zu schwenken (Zielübungen) ist ebenfalls verboten: zuerst eine Verwarnung, dann eine Null. Übt ein Trainer vor einer FITASC-Veranstaltung den Beginn mit angeschlagener Flinte, übersetzen Sie auch das Wort „Übung“ (drill)."
+      "Vor dem Abruf anzuschlagen und entlang der gedachten Linie zu schwenken (Zielübungen) ist ebenfalls verboten: zuerst eine Verwarnung, dann eine Null. Übt ein Trainer vor einem Wettkampf im Parcours de Chasse – Sporting™ den Beginn mit angeschlagener Flinte, übersetzen Sie auch das Wort „Übung“ (drill)."
      ],
      "key_points": [
       "Vor dem Abruf: beide Füße im Stand, Schaft berührt den Körper, Oberkante des Schafts unter der Westenmarkierung.",
@@ -4345,7 +4356,7 @@
       "In Parcours de Chasse – Sporting™ listet das Wurfschema die Maschinen in der Schießreihenfolge auf und muss alle Spezialscheiben zeigen: 90 mm, 70 mm, 60 mm, Battue oder Rollhase. Die Schiedsrichter prüfen vorher, ob die Maschinen dem Wurfschema entsprechen. Ein Layout ergibt 15 Einzelscheiben und 5 Doubletten, und die Doubletten dürfen nur Scheiben verwenden, die vom selben Stand bereits als Einzelscheiben gezeigt wurden. Die Rotte schießt zuerst die Einzelscheiben, dann die Doubletten.",
       "Eine Doublette ist mit ihrer Art gekennzeichnet: auf Schuss (die zweite Scheibe startet auf den Knall des ersten Schusses), simultan (beide zusammen) oder Rafale (zwei aus derselben Maschine, eine nach der anderen; nur Sporting™). Wurfschemas sehen von Anlage zu Anlage anders aus, lesen Sie also die Wörter, nicht nur die Buchstaben. Beispiel für einen Stand mit drei Maschinen: Einzelscheiben A, B, C; Doubletten A + B simultan und C + C Rafale (an einem solchen Stand sind zwei Doubletten auf Schuss nicht erlaubt).",
       "Im Compak® Sporting hängt an jeder der fünf Positionen ein Wurfschema. Jede Position hat fünf Scheiben: fünf Einzelscheiben, drei Einzelscheiben und eine Doublette oder eine Einzelscheibe und zwei Doubletten. Die Art der Doublette ist an allen fünf Positionen eines Compak gleich, und die erste Scheibe jeder Doublette ist die letzte Scheibe der vorherigen Position. Die FITASC bietet 40 fertige Wurfschemas für Wettkämpfe an.",
-      "Bevor Ihr Schütze an die Reihe kommt, lesen Sie ihm das Wurfschema in seiner Sprache laut vor, Buchstabe für Buchstabe: „A, dann F, dann die Doublette C und E auf Schuss.“"
+      "Bevor Ihr Schütze an die Reihe kommt, lesen Sie ihm das Wurfschema in seiner Sprache laut vor, Buchstabe für Buchstabe: „A, dann F, dann B, dann die Doublette C und E auf Schuss.“"
      ],
      "key_points": [
       "Das Wort „menu“ ist üblich; auf Deutsch „Wurfschema“.",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "Die Reihenfolge der Scheiben an Position 3, endend mit einer Doublette auf Schuss.",
-       "say": "Lesen Sie das Wurfschema: Auf Position drei haben Sie A, dann F, dann die Doublette C und E auf Schuss."
+       "meaning": "Position 3: drei Einzelscheiben, dann eine Doublette auf Schuss; insgesamt fünf Scheiben.",
+       "say": "Lesen Sie das Wurfschema: Auf Position drei haben Sie A, dann F, dann B, dann die Doublette C und E auf Schuss."
       },
       {
        "meaning": "Die Reihenfolge hat sich seit der letzten Runde geändert.",

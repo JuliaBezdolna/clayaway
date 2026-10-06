@@ -72,7 +72,7 @@
   "ahead": "À frente — o chumbo passou à frente do prato",
   "perceived": "Avanço que vê no momento da decisão",
   "actual": "Avanço real no momento do disparo",
-  "lab_note": "Câmara lenta, física simplificada para fins didácticos: velocidade média do chumbo de cerca de 330 m/s e 0,15 s entre a decisão e o disparo. O avanço real depende também do atirador, do cartucho e do ângulo.",
+  "lab_note": "Câmara lenta e física simplificada para fins didáticos: velocidade média do chumbo de cerca de 330 m/s, 0,15 s entre a decisão e o disparo, raio do padrão de chumbo de cerca de 10 cm + 1,5 cm por metro de distância, boca do cano a cerca de 1 m do olho. O avanço real depende da velocidade, da distância, do ângulo e do cartucho; o que vê depende também do método e do atirador.",
   "exam_pass": "Aprovado! Já pode obter o seu certificado.",
   "exam_fail": "Ainda não — são precisos 80%. Reveja as missões e tente outra vez.",
   "cert_name": "O seu nome para o certificado",
@@ -100,7 +100,18 @@
   "glossary_page": "Página no glossário",
   "pair_report": "Double ao tiro (on report): o 2.º prato é lançado ao som do 1.º tiro",
   "pair_sim": "Double simultâneo: os dois pratos são lançados ao mesmo tempo",
-  "pair_rafale": "Rafale (following pair): o 2.º prato sai da mesma máquina logo a seguir ao 1.º"
+  "pair_rafale": "Rafale (following pair): o 2.º prato sai da mesma máquina logo que esta recarrega",
+  "no_shot": "Nenhum disparo.",
+  "at_muzzle": "visto na boca do cano",
+  "compare": "O mesmo prato, quatro métodos: o avanço real é o mesmo, o que vê não",
+  "how_maintained": "Os canos esperam à frente do prato, que se aproxima. Carregue em «Disparar» quando a distância parecer certa: a arma passa a mover-se à velocidade do prato e mantém esse avanço.",
+  "how_swing": "Os canos partem de trás do prato e movem-se mais depressa do que ele. Carregue em «Disparar» quando os canos passam a frente do prato: durante o atraso, a arma continua a ganhar terreno, por isso o avanço real é maior.",
+  "how_pullaway": "Os canos acompanham primeiro o prato e depois aceleram para a frente. Carregue em «Disparar» enquanto a arma ainda acelera: o avanço que vê é menor do que o real.",
+  "how_ambush": "Os canos esperam parados num ponto à frente do prato. Carregue em «Disparar» antes de o prato chegar a esse ponto: o chumbo precisa de tempo, e um disparo feito quando o prato chega passa atrás.",
+  "stop_gun": "Parar a arma no disparo (erro)",
+  "clay_widths": "larguras de prato",
+  "unit_cm": "cm",
+  "unit_in": "pol."
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Estas mostras têm mais a ver com a altura e a curva do que com o ângulo. Os seus nomes são palavras de quem monta os percursos, não termos dos regulamentos: as regras enumeram tipos de prato, e as regras do Compak® Sporting pedem trajetórias variadas, como ascendentes, descendentes e em balão.",
       "Um teal (springing ou rising teal, do nome de um pequeno pato; em português prato vertical ou ascendente vertical) é lançado quase na vertical, abranda, fica parado no topo e volta a cair. Atira-se-lhe na subida, subindo com a arma por baixo e atravessando-o, ou no ponto mais alto, enquanto está parado. Ir «espetar» o prato no topo, parando para fazer pontaria, é o erro clássico. Alguns montadores usam «springing» para um prato que sobe em ângulo e não na vertical, como uma ave a levantar.",
       "Uma chandelle (em francês, «vela») sobe a pique numa ligeira curva, faz um arco e cai quase na vertical. É mais fácil na subida; na curva, o avanço vai para o lado e para baixo.",
-      "Um looper descreve um grande arco no céu, como um arco-íris, muitas vezes uma batida lançada de uma máquina inclinada: sobe, vira a face e cai. A arma segue a curva, à frente e por baixo.",
+      "Um looper descreve um grande arco no céu, como um arco-íris: sobe, passa pelo ponto mais alto e cai. Normalmente é um prato normal; alguns montadores de percursos lançam também uma batida nesta linha, que então mostra a face ao virar. A arma segue a curva, à frente e por baixo.",
       "Um prato descendente (dropping) é qualquer prato na parte descendente do seu voo. O avanço é em parte vertical: por baixo e à frente, com a arma em movimento.",
       "Atenção: os nomes variam de país para país. Muitos francófonos usam «chandelle» para um prato que sobe quase na vertical, a que um treinador inglês chama teal, e os atiradores portugueses também usam «chandelle», muitas vezes para o prato em arco (looper). Sempre que ouvir chandelle, candle ou «vela», pergunte: sobe a direito ou faz um arco?"
      ],
      "key_points": [
       "Teal: sobe quase na vertical, para, cai; atire-lhe na subida ou no ponto mais alto.",
       "Chandelle: subida a pique em curva, faz um arco, cai quase na vertical.",
-      "Looper: grande arco tipo arco-íris, muitas vezes uma batida que vira e cai.",
+      "Looper: grande arco tipo arco-íris, normalmente um prato normal que passa pelo ponto mais alto e cai.",
       "Descendente: avanço por baixo e à frente, nunca pare a arma.",
       "Os nomes variam: os francófonos dizem muitas vezes «chandelle» para um teal; em português «chandelle» também é ambíguo, por isso esclareça."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Uma sessão de treino completa, passo a passo",
      "body": [
       "Antes da sessão, encontre-se com o treinador durante cinco minutos. Combine um sinal de pausa, pergunte que método ensina e que palavras usa para o avanço, e aprenda os seus sinais com as mãos. Depois o grupo junta-se para o briefing de segurança: interprete-o em consecutiva, frase a frase, com firmeza e por completo.",
-      "No primeiro posto, o treinador começa normalmente sem cartuchos: um teste de dominância ocular, depois a posição dos pés e a posição de partida. Num contexto FITASC, a arma começa em baixo, abaixo da linha do colete. Sussurre as correções dele por trás enquanto ele ajusta pés e mãos.",
+      "No primeiro posto, o treinador começa normalmente sem cartuchos: um teste de dominância ocular, depois a posição dos pés e a posição de partida. No Parcours de Chasse – Sporting™, a arma começa em baixo, abaixo da linha do colete; no Compak® Sporting, a posição da arma no momento do pedido é livre. Sussurre as correções dele por trás enquanto ele ajusta pés e mãos.",
       "Segue-se a leitura do prato. O treinador mostra-o, pergunta onde o atirador o vê nítido pela primeira vez, e define o ponto de visão, o ponto de espera da arma e o ponto de tiro. Mantenha estes três termos iguais durante todo o dia, «ponto de visão», «ponto de espera», «ponto de tiro», para que o convidado os aprenda.",
       "Agora o tiro. Entre pratos, o treinador dá indicações de duas a cinco palavras; reproduza-as, com o mesmo comprimento e pela mesma ordem, enquanto a arma está aberta. Quando uma falha é diagnosticada, «behind», «over the top», «you stopped» (atrás, por cima, parou), traduza o diagnóstico e a correção juntos. O elogio traduz-se com a mesma energia.",
       "Depois os doubles: a que prato atirar primeiro, «eyes first, then the gun» (primeiro os olhos, depois a arma), o segundo tiro. Por fim, a análise final, outra vez em consecutiva, em que o treinador resume dois ou três pontos. Escreva-os nas duas línguas e entregue a nota ao convidado. Abaixo está uma sequência real de frases, pela ordem em que as vai ouvir."
@@ -2559,7 +2570,7 @@
        "say": "Pé da frente a apontar para o ponto de tiro, peso à frente."
       },
       {
-       "meaning": "Posição de partida da FITASC: a arma só sobe depois de o prato aparecer.",
+       "meaning": "Posição de partida do Sporting™: a arma só sobe depois de o prato aparecer; no Compak® Sporting, a posição da arma no momento do pedido é livre.",
        "say": "Arma em baixo, coronha abaixo da linha. Ponha a arma à cara só quando o vir."
       },
       {
@@ -2656,14 +2667,14 @@
       "O chumbo precisa de uma fração de segundo para chegar ao prato, e nesse tempo o prato continua a avançar. Uma arma apontada diretamente a um transversal atira, portanto, atrás dele. A arma tem de apontar à frente, para que o chumbo e o prato se encontrem. Essa distância é o avanço (lead; no inglês britânico também «forward allowance»).",
       "O avanço aumenta com a velocidade do prato, a sua distância e o seu ângulo. Um transversal puro é o que precisa de mais; um prato que vem direito ao atirador ou se afasta dele em linha reta quase não precisa de avanço lateral, embora os pratos que sobem e descem precisem de avanço vertical (por cima ou por baixo).",
       "Os números reais surpreendem. Um site sobre tiro indica cerca de 3 a 4 pés, aproximadamente um metro, de avanço real para um transversal a cerca de 21–25 jardas (por volta de 20 m). Muitos atiradores dizem que o avanço cresce mais ou menos em proporção com a distância, por isso a mesma pequena distância vista na boca do cano significa muito mais avanço real num prato distante.",
-      "O avanço real é a distância verdadeira à frente do prato, no ar. O avanço percebido (a «lead picture» ou «sight picture», a imagem do avanço) é a distância que o atirador vê entre a boca do cano e o prato. Um metro a 20 m parece apenas alguns centímetros na boca do cano. O método muda a imagem: quem usa o avanço mantido vê a maior distância, quem usa o swing-through vê pouca ou nenhuma, porque a velocidade da arma acrescenta avanço.",
+      "O avanço real é a distância verdadeira à frente do prato, no ar. O avanço percebido (a «lead picture» ou «sight picture», a imagem do avanço) é a distância que o atirador vê entre a boca do cano e o prato. Um metro a 20 m parece apenas alguns centímetros na boca do cano. O método muda a imagem: entre os métodos com a arma em movimento, o avanço mantido mostra a maior distância e o swing-through pouca ou nenhuma, porque a velocidade da arma acrescenta avanço. Na emboscada a arma está parada, por isso o atirador tem de ver uma distância ainda maior: o prato continua a avançar durante o tempo de reação.",
       "Um instrutor americano observa que um atirador destro sente muitas vezes que um transversal da esquerda para a direita precisa de mais avanço do que um da direita para a esquerda; o avanço real é o mesmo, só a perceção muda. Por isso, os «four feet» (quatro pés) de um treinador descrevem a imagem que ele vê, não uma medição."
      ],
      "key_points": [
       "O avanço existe porque o prato se move enquanto o chumbo viaja.",
       "Mais velocidade, distância e ângulo significam mais avanço.",
-      "O avanço real (no ar) é muito maior do que o avanço percebido (na boca do cano).",
-      "O método muda a imagem: no avanço mantido vê-se mais, no swing-through menos.",
+      "O avanço real mede-se em metros no ar, junto ao prato; na boca do cano a imagem tem só alguns centímetros, porque o cano está perto do olho.",
+      "O método muda a imagem: com a arma em movimento, vê-se mais no avanço mantido e menos no swing-through; na emboscada (arma parada) a distância é ainda maior.",
       "O número de um treinador é uma imagem, não uma medição."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "Emboscada e tiro instintivo",
      "body": [
-      "A emboscada (ambush), ou tiro ao ponto (spot shooting; em português pode descrever-se como «esperar o prato num ponto» ou «tiro de interceção»), é o contrário de um swing. 1) As bocas dos canos são colocadas num ponto à frente do prato, na sua linha, perto do ponto de tiro. 2) Esperam com pouco ou nenhum movimento. 3) Carrega-se no gatilho quando o prato chega a esse ponto.",
+      "A emboscada (ambush), ou tiro ao ponto (spot shooting; em português pode descrever-se como «esperar o prato num ponto» ou «tiro de interceção»), é o contrário de um swing. 1) As bocas dos canos são colocadas num ponto à frente do prato, na sua linha, perto do ponto de tiro. 2) Esperam com pouco ou nenhum movimento. 3) Carrega-se no gatilho antes de o prato chegar a esse ponto: a reação do atirador e o voo do chumbo levam tempo, e assim o prato entra no tiro. Disparar só quando o prato chega ao ponto manda o chumbo para trás dele.",
       "Como hábito geral, típico de atiradores sem formação, não é fiável: a arma está parada e o tempo tem de ser perfeito. Mas uma emboscada deliberada é por vezes a escolha certa: um prato a que é preciso atirar muito depressa, ou um coelho que só se vê numa curta abertura entre arbustos. Um movimento parecido, nas batidas de cutelo no ponto mais alto do voo, é o «collapse»: esperar muito perto do ponto de tiro e fazer um movimento mínimo. O prato continua a ter de ser partido onde o árbitro o possa ver.",
       "Tiro instintivo significa nenhum avanço consciente. O atirador mantém um foco firme no prato e deixa as mãos seguirem; o movimento e a montagem da arma acontecem em conjunto, e o tiro sai quando a arma chega à cara. A escola clássica é a associada ao armeiro inglês Robert Churchill, popular na caça.",
       "Muitos dos melhores atiradores de Parcours de Chasse – Sporting™ misturam métodos e escolhem consoante o prato. «Which method for this one?» (que método para este?) é uma pergunta normal no treino."
      ],
      "key_points": [
-      "Emboscada: bocas dos canos paradas num ponto à frente; disparo quando o prato chega.",
+      "Emboscada: bocas dos canos paradas num ponto à frente; disparo antes de o prato lá chegar, para que entre no tiro.",
       "Pouco fiável como hábito, útil de forma deliberada (pratos muito rápidos, aberturas curtas).",
       "«Collapse»: movimento mínimo perto do ponto de tiro nas batidas de cutelo.",
       "Instintivo: nenhum avanço consciente, foco firme, montagem e movimento em conjunto (escola de Churchill).",
@@ -2935,7 +2946,7 @@
        "say": "Está a emboscá-lo — mantenha a arma a mexer com o prato."
       },
       {
-       "meaning": "Espere deliberadamente na abertura e dispare quando o prato a atravessar.",
+       "meaning": "Espere deliberadamente na abertura e dispare pouco antes de o prato chegar ao seu ponto, para que entre no tiro.",
        "say": "Este, espere-o na abertura."
       },
       {
@@ -3813,7 +3824,7 @@
       "A linha é marcada no colete ou no casaco 25 cm abaixo do eixo dos ombros, paralela a ele, numa cor que contraste com o colete, para que o árbitro a possa ver. A regra abrange todos os tipos de coronha, incluindo as de crista ajustável.",
       "A arma só pode subir quando o prato aparece. Todos os pratos, coelhos incluídos, se atiram com a arma no ombro; não é permitido disparar à anca. Entre o primeiro e o segundo prato de qualquer double, a posição da arma é livre, mas antes do primeiro prato aplica-se a posição de partida.",
       "Penalizações: na primeira vez que um atirador pede o prato numa posição incorreta ou põe a arma à cara antes de o prato aparecer, o árbitro dá uma advertência verbal com cartão amarelo. Qualquer nova infração no mesmo percurso dá cartão vermelho, e o prato conta zero num simples, zero e NULO num double ao tiro, zero e zero num double simultâneo ou rafale.",
-      "Pôr a arma à cara e movê-la ao longo da linha imaginada antes de pedir o prato (simulacro de tiro) também é proibido: primeiro uma advertência, depois um zero. Se um treinador fizer exercícios de partida com a arma à cara antes de uma prova da FITASC, traduza também a palavra «exercício»."
+      "Pôr a arma à cara e movê-la ao longo da linha imaginada antes de pedir o prato (simulacro de tiro) também é proibido: primeiro uma advertência, depois um zero. Se um treinador fizer exercícios de partida com a arma à cara antes de uma prova de Parcours de Chasse – Sporting™, traduza também a palavra «exercício»."
      ],
      "key_points": [
       "Antes do pedido: os dois pés no posto, coronha a tocar no corpo, parte de cima da coronha abaixo da linha do colete.",
@@ -4345,7 +4356,7 @@
       "No Parcours de Chasse – Sporting™ o menu indica as máquinas pela ordem de tiro e tem de assinalar os pratos especiais: 90 mm, 70 mm, 60 mm, batida ou coelho. Os árbitros verificam antecipadamente se as máquinas correspondem ao menu. Um percurso dá 15 simples e 5 doubles, e os doubles só podem usar pratos já apresentados como simples no mesmo posto. A esquadra atira primeiro os simples e depois os doubles.",
       "Cada double é indicado com o seu tipo: ao tiro (on report: o segundo prato sai ao som do primeiro tiro), simultâneo (os dois ao mesmo tempo) ou rafale (dois da mesma máquina, um a seguir ao outro; só no Sporting™). Os menus têm aspeto diferente de campo para campo, por isso leia as palavras, não apenas as letras. Exemplo para um posto com três máquinas: simples A, B, C; doubles A + B simultâneo e C + C rafale (num posto assim não são permitidos dois doubles ao tiro).",
       "No Compak® Sporting há um menu em cada um dos cinco postos. Cada posto tem cinco pratos: cinco simples, três simples e um double, ou um simples e dois doubles. O tipo de double é o mesmo nos cinco postos de um campo de Compak, e o primeiro prato de cada double é o último prato do posto anterior. A FITASC disponibiliza 40 menus prontos para competições.",
-      "Antes de o seu atirador entrar no posto, leia-lhe o menu em voz alta na língua dele, letra a letra: «A, depois F, depois o double C e E ao tiro.»"
+      "Antes de o seu atirador entrar no posto, leia-lhe o menu em voz alta na língua dele, letra a letra: «A, depois F, depois B, depois o double C e E ao tiro.»"
      ],
      "key_points": [
       "Mantenha a palavra «menu».",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "A ordem dos pratos no posto 3, terminando com um double ao tiro.",
-       "say": "Leia o menu: no posto três tem A, depois F, depois o double C e E ao tiro."
+       "meaning": "Posto 3: três pratos simples e depois um double ao tiro; cinco pratos ao todo.",
+       "say": "Leia o menu: no posto três tem A, depois F, depois B, depois o double C e E ao tiro."
       },
       {
        "meaning": "A ordem mudou desde a última série.",

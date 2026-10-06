@@ -1,4 +1,7 @@
-﻿*.txt
+# local text files (e.g. secrets) stay out of git; only these public site files are published
+*.txt
+!docs/robots.txt
+!docs/llms.txt
 .env
 __pycache__/
 node_modules/
@@ -6,3 +9,6 @@ node_modules/
 
 # FITASC rulebooks: FITASC copyright, keep local only
 rules/pdf/
+
+# stray output of "> nul" from Windows shells
+nul

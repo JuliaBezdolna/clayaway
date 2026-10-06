@@ -72,7 +72,7 @@
   "ahead": "Edessä – laukaus meni kiekon edelle",
   "perceived": "Ennakko, jonka näet päätöshetkellä",
   "actual": "Todellinen ennakko laukaushetkellä",
-  "lab_note": "Hidastettu, opetusta varten yksinkertaistettu fysiikka: haulien keskinopeus noin 330 m/s ja 0,15 s päätöksestä laukaukseen. Todellinen ennakko riippuu myös ampujasta, patruunasta ja kulmasta.",
+  "lab_note": "Hidastettu, opetusta varten yksinkertaistettu fysiikka: haulien keskinopeus noin 330 m/s, 0,15 s päätöksestä laukaukseen, hauliparven säde noin 10 cm + 1,5 cm etäisyyden metriä kohti, piipun suu noin 1 m:n päässä silmästä. Todellinen ennakko riippuu nopeudesta, etäisyydestä, kulmasta ja patruunasta; nähty ennakko lisäksi menetelmästä ja ampujasta.",
   "exam_pass": "Läpäisit! Voit nyt hakea todistuksesi.",
   "exam_fail": "Ei vielä – tarvitaan 80 %. Kertaa tehtävät ja yritä uudelleen.",
   "cert_name": "Nimesi todistukseen",
@@ -100,7 +100,18 @@
   "glossary_page": "Sanastosivu",
   "pair_report": "Laukauksesta lähtevä kaksoiskiekko (on report): 2. kiekko lähtee 1. laukauksen äänestä",
   "pair_sim": "Yhtäaikainen kaksoiskiekko: molemmat kiekot lähtevät yhdessä",
-  "pair_rafale": "Rafale (peräkkäinen kaksoiskiekko): 2. kiekko samasta heittimestä heti 1. jälkeen"
+  "pair_rafale": "Rafale (peräkkäinen kaksoiskiekko): 2. kiekko samasta heittimestä heti, kun heitin on latautunut",
+  "no_shot": "Laukausta ei ammuttu.",
+  "at_muzzle": "piipun suulla nähtynä",
+  "compare": "Sama kiekko, neljä menetelmää: todellinen ennakko on sama, nähty ei",
+  "how_maintained": "Piiput odottavat kiekon edessä, ja kiekko lähestyy niitä. Paina ”Ammu”, kun väli näyttää oikealta: ase liikkuu sen jälkeen kiekon nopeudella ja pitää tämän ennakon.",
+  "how_swing": "Piiput lähtevät kiekon takaa ja liikkuvat sitä nopeammin. Paina ”Ammu”, kun piiput ohittavat kiekon etureunan: viiveen aikana ase etenee yhä, joten todellinen ennakko on suurempi.",
+  "how_pullaway": "Piiput seuraavat ensin kiekkoa ja kiihdyttävät sitten sen eteen. Paina ”Ammu”, kun ase vielä kiihtyy: näkemäsi ennakko on todellista pienempi.",
+  "how_ambush": "Piiput odottavat paikallaan pisteessä kiekon edessä. Paina ”Ammu” ennen kuin kiekko saapuu pisteeseen: haulit tarvitsevat aikaa, joten laukaus kiekon saapuessa menee taakse.",
+  "stop_gun": "Pysäytä ase laukaisussa (virhe)",
+  "clay_widths": "kiekon leveyttä",
+  "unit_cm": "cm",
+  "unit_in": "tuumaa"
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Näissä kiekkotyypeissä on kyse korkeudesta ja kaaresta eikä niinkään kulmasta. Niiden nimet ovat radan rakentajien sanoja, eivät sääntökirjan termejä: säännöt luettelevat kiekkotyyppejä, ja Compak® Sporting -säännöt edellyttävät vaihtelevia lentoratoja, kuten nousevia, laskevia ja korkealle heitettyjä.",
       "Teal (pystykiekko; springing tai rising teal, pienen sorsan mukaan) heitetään lähes suoraan ylös, se hidastuu, pysähtyy lakipisteessä ja putoaa takaisin. Se ammutaan joko nousussa, viemällä ase alhaalta sen läpi ylöspäin, tai lakipisteessä sen pysähtyessä. Tökkääminen siihen lakipisteessä on klassinen virhe. Jotkut radan rakentajat käyttävät sanaa ”springing” kiekosta, joka nousee vinossa kulmassa eikä suoraan ylös, kuin lentoon pyrähtävä lintu.",
       "Chandelle (ranskaa, ”kynttilä”) nousee jyrkästi loivassa kaaressa, kaartuu yli ja putoaa lähes pystysuoraan. Se on helpoin nousussa; kaarteessa ennakko menee sivulle ja alle.",
-      "Looper (kaarikiekko) lentää leveän kaaren taivaan poikki kuin sateenkaari, usein kallistetusta heittimestä heitetty battue-kiekko: se nousee, kääntää pintansa ja putoaa. Ase seuraa kaarta, edellä ja alapuolella.",
+      "Looper (kaarikiekko) lentää leveän kaaren taivaan poikki kuin sateenkaari: se nousee, kääntyy lakipisteen yli ja putoaa. Yleensä se on tavallinen kiekko; jotkut radan rakentajat heittävät tällaiselle linjalle myös battue-kiekon, joka kääntyessään näyttää pintansa. Ase seuraa kaarta, edellä ja alapuolella.",
       "Dropping target (laskeva kiekko) on mikä tahansa kiekko lentonsa laskevassa osassa. Ennakko on osin pystysuuntaista: alle ja eteen, ase liikkeessä.",
       "Varo: nimet vaihtelevat maittain. Monet ranskankieliset käyttävät sanaa ”chandelle” kiekosta, joka nousee lähes suoraan ylös ja jota englantilainen valmentaja kutsuu nimellä teal. Aina kun kuulet sanan chandelle tai candle (kynttilä), kysy: suoraan ylös vai kaarena yli?"
      ],
      "key_points": [
       "Pystykiekko (teal): lähes pystysuoraan ylös, pysähtyy, putoaa; ota se nousussa tai lakipisteessä.",
       "Chandelle: jyrkkä kaartuva nousu, kaartuu yli, putoaa lähes pystysuoraan.",
-      "Kaarikiekko (looper): leveä sateenkaarimainen kaari poikki, usein battue, joka kääntyy ja putoaa.",
+      "Kaarikiekko (looper): leveä sateenkaarimainen kaari poikki, yleensä tavallinen kiekko, joka kääntyy lakipisteen yli ja putoaa.",
       "Laskeva kiekko: ennakko alle ja eteen, älä koskaan pysäytä asetta.",
       "Nimet vaihtelevat: ranskankieliset sanovat usein ”chandelle” pystykiekosta, joten varmista."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Kokonainen harjoitus vaihe vaiheelta",
      "body": [
       "Ennen harjoitusta tapaa valmentaja viideksi minuutiksi. Sovi taukomerkistä, kysy, mitä menetelmää valmentaja opettaa ja mitä sanoja hän käyttää ennakosta, ja opettele hänen käsimerkkinsä. Sitten ryhmä kokoontuu turvallisuusohjeistukseen: tulkkaa se konsekutiivisesti, lause lauseelta, jämäkästi ja kokonaan.",
-      "Ensimmäisellä ampumapaikalla valmentaja aloittaa yleensä ilman patruunoita: silmän hallitsevuuden tarkistus, sitten ampuma-asento ja valmiusasento. FITASCin yhteydessä ase lähtee alhaalta, liivin merkkiviivan alapuolelta. Kuiskaa hänen korjauksensa takaa, kun hän asettelee jalkoja ja käsiä.",
+      "Ensimmäisellä ampumapaikalla valmentaja aloittaa yleensä ilman patruunoita: silmän hallitsevuuden tarkistus, sitten ampuma-asento ja valmiusasento. Parcours de Chasse – Sporting™ -lajissa ase lähtee alhaalta, liivin merkkiviivan alapuolelta; Compak® Sporting -lajissa aseen asento kiekkoa pyydettäessä on vapaa. Kuiskaa hänen korjauksensa takaa, kun hän asettelee jalkoja ja käsiä.",
       "Seuraavaksi luetaan kiekko. Valmentaja näyttää sen, kysyy, missä ampuja näkee sen ensimmäisen kerran selvästi, ja määrittää katsepisteen, aseen aloituskohdan ja osumapisteen. Pidä nämä kolme termiä samoina koko päivän, ”katsepiste”, ”aloituskohta”, ”osumapiste”, jotta vieras oppii ne.",
       "Nyt ammutaan. Kiekkojen välillä valmentaja antaa kahden–viiden sanan vihjeitä; sinä toistat ne, samanpituisina, samassa järjestyksessä, kun ase on auki. Kun ohilaukaus diagnosoidaan, ”behind”, ”over the top”, ”you stopped”, käännä diagnoosi ja korjaus yhdessä. Kehut käännetään samalla innolla.",
       "Sitten kaksoiskiekot: kumpi kiekko ensin, ”eyes first, then the gun”, toinen laukaus. Lopuksi loppukeskustelu, taas konsekutiivisesti, jossa valmentaja tiivistää kaksi tai kolme asiaa. Kirjoita ne muistiin molemmilla kielillä ja anna muistiinpano vieraalle. Alla on todellisen elämän ilmausketju siinä järjestyksessä, jossa kuulet ne."
@@ -2559,7 +2570,7 @@
        "say": "Etujalka osoittaa osumapisteeseen, paino eteen."
       },
       {
-       "meaning": "FITASCin valmiusasento: ase nousee vasta, kun kiekko on ilmestynyt.",
+       "meaning": "Sporting™-lajin valmiusasento: ase nousee vasta, kun kiekko on ilmestynyt; Compak® Sporting -lajissa aseen asento kiekkoa pyydettäessä on vapaa.",
        "say": "Ase alhaalla, tukki viivan alla. Nosta vasta, kun näet sen."
       },
       {
@@ -2656,14 +2667,14 @@
       "Hauleilta kuluu sekunnin murto-osa kiekon luo, ja sinä aikana kiekko liikkuu eteenpäin. Suoraan sivukiekkoon osoittava ase ampuu siksi sen taakse. Aseen on osoitettava edelle, jotta haulit ja kiekko kohtaavat. Tämä väli on ennakko (lead), brittienglanniksi myös ”forward allowance”.",
       "Ennakko kasvaa kiekon nopeuden, etäisyyden ja kulman mukana. Täysi sivukiekko tarvitsee eniten; suoraan ampujaa kohti tai hänestä poispäin lentävä kiekko ei tarvitse juuri lainkaan sivuttaista ennakkoa, mutta nousevat ja laskevat kiekot tarvitsevat pystysuuntaista ennakkoa (yläpuolelle tai alapuolelle).",
       "Todelliset luvut yllättävät. Eräs ammunta-aiheinen verkkosivusto antaa noin 21–25 jaardin (noin 20 m) päässä olevalle sivukiekolle noin 3–4 jalan eli suunnilleen metrin todellisen ennakon. Monet ampujat sanovat sen kasvavan suunnilleen suhteessa etäisyyteen, joten sama pieni väli piipunsuulla tarkoittaa kaukaisessa kiekossa paljon suurempaa todellista ennakkoa.",
-      "Todellinen ennakko (actual lead) on todellinen etäisyys kiekon edessä ilmassa. Havaittu ennakko (perceived lead, ”lead picture” tai ”sight picture”, ennakkokuva) on väli, jonka ampuja näkee piipunsuun ja kiekon välillä. Metri 20 metrin päässä näyttää piipunsuulla muutamalta senttimetriltä. Menetelmä muuttaa kuvaa: pysyvää ennakkoa käyttävä ampuja näkee suurimman välin, läpivetoa käyttävä vähän tai ei lainkaan, koska aseen nopeus lisää ennakkoa.",
+      "Todellinen ennakko (actual lead) on todellinen etäisyys kiekon edessä ilmassa. Havaittu ennakko (perceived lead, ”lead picture” tai ”sight picture”, ennakkokuva) on väli, jonka ampuja näkee piipunsuun ja kiekon välillä. Metri 20 metrin päässä näyttää piipunsuulla muutamalta senttimetriltä. Menetelmä muuttaa kuvaa: liikkuvan aseen menetelmistä pysyvä ennakko näyttää suurimman välin ja läpiveto vähän tai ei lainkaan, koska aseen nopeus lisää ennakkoa. Väijytyksessä ase on paikallaan, joten ampujan on nähtävä vielä suurempi väli: kiekko liikkuu myös reaktioajan aikana.",
       "Eräs amerikkalainen ohjaaja huomauttaa, että oikeakätinen ampuja tuntee usein vasemmalta oikealle lentävän sivukiekon tarvitsevan enemmän ennakkoa kuin oikealta vasemmalle lentävän; todellinen ennakko on sama, vain havainto eroaa. Siksi valmentajan ”four feet” kuvaa hänen näkemäänsä kuvaa, ei mittausta."
      ],
      "key_points": [
       "Ennakkoa tarvitaan, koska kiekko liikkuu haulien lentäessä.",
       "Suurempi nopeus, etäisyys ja kulma tarkoittavat enemmän ennakkoa.",
-      "Todellinen ennakko (ilmassa) on paljon suurempi kuin havaittu ennakko (piipunsuulla).",
-      "Menetelmä muuttaa kuvaa: pysyvässä ennakossa näkyy eniten, läpivedossa vähiten.",
+      "Todellinen ennakko on metrejä ilmassa kiekon kohdalla; piipunsuulla kuva on vain senttejä, koska piipunsuu on lähellä silmää.",
+      "Menetelmä muuttaa kuvaa: liikkuvalla aseella pysyvässä ennakossa näkyy eniten, läpivedossa vähiten; väijytyksessä (ase paikallaan) väli on vielä suurempi.",
       "Valmentajan luku on kuva, ei mittaus."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "Väijytys ja vaistonvarainen ammunta",
      "body": [
-      "Ambush eli spot shooting (väijytys, pisteeseen ampuminen) on aseen heilautuksen vastakohta. 1) Piipunsuut asetetaan kiekon edelle sen linjalle, lähelle osumapistettä. 2) Ne odottavat vähällä liikkeellä tai liikkumatta. 3) Liipaisinta painetaan, kun kiekko saapuu tähän kohtaan.",
+      "Ambush eli spot shooting (väijytys, pisteeseen ampuminen) on aseen heilautuksen vastakohta. 1) Piipunsuut asetetaan kiekon edelle sen linjalle, lähelle osumapistettä. 2) Ne odottavat vähällä liikkeellä tai liikkumatta. 3) Liipaisinta painetaan ennen kuin kiekko saapuu tähän kohtaan: ampujan reaktio ja haulien lento vievät aikaa, joten kiekko lentää laukaukseen. Jos laukaisee vasta, kun kiekko on jo kohdassa, haulit menevät sen taakse.",
       "Yleisenä tapana, tyypillisenä kouluttamattomille ampujille, se on epäluotettava: ase on paikallaan ja ajoituksen on oltava täydellinen. Mutta tietoinen väijytys on joskus oikea valinta: kiekko, joka on ammuttava hyvin nopeasti, tai jäniskiekko, joka näkyy vain lyhyessä aukossa pensaiden välissä. Sukua tälle on syrjällään lentävissä battue-kiekoissa niiden lakipisteessä käytetty ”collapse”: pidä ase hyvin lähellä osumapistettä ja tee minimaalinen liike. Kiekko on silti rikottava paikassa, jossa tuomari näkee sen.",
       "Vaistonvarainen ammunta (instinctive shooting) tarkoittaa, ettei ennakkoa ajatella tietoisesti lainkaan. Ampuja pitää tarkan katseen kiekossa ja antaa käsien seurata; aseen liike ja nosto tapahtuvat yhdessä, ja laukaus lähtee, kun ase saavuttaa kasvot. Klassinen koulukunta liitetään englantilaiseen aseseppä Robert Churchilliin, ja se on suosittu metsästysammunnassa.",
       "Monet Parcours de Chasse – Sporting™ -lajin huippuampujat yhdistelevät menetelmiä ja valitsevat ne kiekkokohtaisesti. ”Which method for this one?” – mikä menetelmä tähän? – on tavallinen valmennuskysymys."
      ],
      "key_points": [
-      "Väijytys: piipunsuut paikallaan edellä olevassa kohdassa; laukaus kiekon saapuessa.",
+      "Väijytys: piipunsuut paikallaan edellä olevassa kohdassa; laukaus ennen kuin kiekko ehtii sinne, jotta se lentää laukaukseen.",
       "Epäluotettava tapana, hyödyllinen tietoisesti (hyvin nopeat kiekot, lyhyet aukot).",
       "”Collapse”: minimaalinen liike osumapisteen lähellä syrjällään lentävissä battue-kiekoissa.",
       "Vaistonvarainen: ei tietoista ennakkoa, tarkka katse, nosto ja liike yhdessä (Churchillin koulukunta).",
@@ -2935,7 +2946,7 @@
        "say": "Väijyt sitä – pidä ase liikkeessä kiekon mukana."
       },
       {
-       "meaning": "Odota tietoisesti aukon kohdalla ja laukaise, kun kiekko ylittää sen.",
+       "meaning": "Odota tietoisesti aukon kohdalla ja laukaise juuri ennen kuin kiekko saapuu kohtaasi, jotta se lentää laukaukseen.",
        "say": "Väijy tämä aukossa."
       },
       {
@@ -3813,7 +3824,7 @@
       "Viiva merkitään liiviin tai takkiin 25 cm olkapäiden linjan alapuolelle, sen suuntaisesti, värillä, joka erottuu liivistä, jotta tuomari näkee sen. Sääntö koskee kaikkia tukkityyppejä, myös säädettäviä poskipakkoja.",
       "Aseen saa nostaa vasta, kun kiekko ilmestyy. Jokainen kiekko, myös jäniskiekko, ammutaan ase olalla; lonkalta ampuminen ei ole sallittua. Minkä tahansa kaksoiskiekon ensimmäisen ja toisen kiekon välillä aseen asento on vapaa, mutta ennen ensimmäistä kiekkoa valmiusasento on voimassa.",
       "Rangaistukset: kun ampuja ensimmäisen kerran pyytää kiekkoa väärässä asennossa tai nostaa aseen ennen kiekon ilmestymistä, tuomari antaa suullisen varoituksen ja keltaisen kortin. Jokaisesta seuraavasta rikkeestä samalla rataosuudella seuraa punainen kortti, ja kiekko merkitään yksittäiskiekossa nollaksi, laukauksesta lähtevässä kaksoiskiekossa nolla ja No Bird, yhtäaikaisessa tai rafale-kaksoiskiekossa nolla ja nolla.",
-      "Aseen nostaminen ja heilauttaminen kuvitellun linjan mukana ennen kiekon pyytämistä (tähtäysharjoittelu, mock shooting) on myös kielletty: ensin varoitus, sitten nolla. Jos valmentaja harjoituttaa ase ylhäällä -aloitusta ennen FITASCin kilpailua, käännä myös sana ”drill” (harjoite)."
+      "Aseen nostaminen ja heilauttaminen kuvitellun linjan mukana ennen kiekon pyytämistä (tähtäysharjoittelu, mock shooting) on myös kielletty: ensin varoitus, sitten nolla. Jos valmentaja harjoituttaa ase ylhäällä -aloitusta ennen Parcours de Chasse – Sporting™ -kilpailua, käännä myös sana ”drill” (harjoite)."
      ],
      "key_points": [
       "Ennen pyyntöä: molemmat jalat ampumapaikalla, tukki koskettaa vartaloa, tukin yläreuna liivin merkkiviivan alapuolella.",
@@ -4345,7 +4356,7 @@
       "Parcours de Chasse – Sporting™ -lajissa kiekkoluettelo luettelee heittimet ampumajärjestyksessä, ja siinä on näytettävä mahdolliset erikoiskiekot: 90 mm, 70 mm, 60 mm, battue tai jäniskiekko. Tuomarit tarkistavat etukäteen, että koneet vastaavat kiekkoluetteloa. Rataosuus antaa 15 yksittäiskiekkoa ja 5 kaksoiskiekkoa, ja kaksoiskiekoissa saa käyttää vain kiekkoja, jotka on jo näytetty yksittäiskiekkoina samalta ampumapaikalta. Erä ampuu ensin yksittäiskiekot ja sitten kaksoiskiekot.",
       "Kaksoiskiekko merkitään sen tyypillä: laukauksesta lähtevä (on report, toinen kiekko lähtee ensimmäisen laukauksen äänestä), yhtäaikainen (simultaneous, molemmat yhdessä) tai rafale (kaksi samasta heittimestä peräkkäin; vain Sporting™). Kiekkoluettelot näyttävät erilaisilta radasta riippuen, joten lue sanat, älä pelkkiä kirjaimia. Esimerkki kolmen heittimen ampumapaikalta: yksittäiskiekot A, B, C; kaksoiskiekot A + B yhtäaikainen ja C + C rafale (tällaisella ampumapaikalla kaksi laukauksesta lähtevää kaksoiskiekkoa ei ole sallittu).",
       "Compak® Sporting -lajissa kiekkoluettelo on nähtävillä jokaisella viidellä ampumapaikalla. Jokaisella ampumapaikalla on viisi kiekkoa: viisi yksittäiskiekkoa, kolme yksittäiskiekkoa ja yksi kaksoiskiekko tai yksi yksittäiskiekko ja kaksi kaksoiskiekkoa. Kaksoiskiekon tyyppi on sama Compak-radan kaikilla viidellä ampumapaikalla, ja jokaisen kaksoiskiekon ensimmäinen kiekko on edellisen ampumapaikan viimeinen kiekko. FITASC tarjoaa kilpailuihin 40 valmista kiekkoluetteloa.",
-      "Ennen kuin ampujasi astuu paikalle, lue kiekkoluettelo hänelle ääneen hänen kielellään, kirjain kirjaimelta: ”A, sitten F, sitten laukauksesta lähtevä pari C ja E.”"
+      "Ennen kuin ampujasi astuu paikalle, lue kiekkoluettelo hänelle ääneen hänen kielellään, kirjain kirjaimelta: ”A, sitten F, sitten B, sitten laukauksesta lähtevä pari C ja E.”"
      ],
      "key_points": [
       "Ampujat sanovat ”menu”; suomeksi kiekkoluettelo.",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "Kiekkojen järjestys ampumapaikalla 3, lopuksi laukauksesta lähtevä kaksoiskiekko.",
-       "say": "Lue kiekkoluettelo: ampumapaikalla kolme sinulla on A, sitten F, sitten laukauksesta lähtevä pari C ja E."
+       "meaning": "Ampumapaikka 3: kolme yksittäiskiekkoa, sitten laukauksesta lähtevä kaksoiskiekko; yhteensä viisi kiekkoa.",
+       "say": "Lue kiekkoluettelo: ampumapaikalla kolme sinulla on A, sitten F, sitten B, sitten laukauksesta lähtevä pari C ja E."
       },
       {
        "meaning": "Järjestys on muuttunut edellisen kierroksen jälkeen.",

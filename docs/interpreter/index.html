@@ -140,7 +140,7 @@ footer div{max-width:1040px;margin:0 auto;padding:16px}
 </head>
 <body>
 <header class="top"><div class="top-in">
-  <a class="logo" href="https://clayarena.com/" rel="noopener"><b>ClayArena</b></a>
+  <!-- no own ClayArena logo here: the project bar (docs/shared/nav.js) shows the one ClayArena mark of the page -->
   <button class="svc" id="svc" onclick="go('#')"><span id="appTitle">Interpreter Academy</span><small id="tagline"></small></button>
   <span class="spacer"></span>
   <div class="xpbox" id="xpbox"></div>
@@ -170,7 +170,7 @@ const icon = m => MICON[m.id] || "•";
 /* ===== State (localStorage; in production -> ClayArena profile on the server) ===== */
 let S = {xp:0, done:{}, quiz:{}, exam:null, name:""};
 try { S = Object.assign(S, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch(e) {}
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e) {} };
+const save = () => { try { if (IA) S.total = allLessons().length; localStorage.setItem(KEY, JSON.stringify(S)); } catch(e) {} }; // S.total: read by docs/shared/nav.js
 const addXP = n => { S.xp += n; save(); renderXP(); toast(`+${n} XP`); };
 
 let LANG = (() => { const q = new URLSearchParams(location.search).get("lang"); if (LANGS.includes(q)) return q;
@@ -238,8 +238,11 @@ function viewHome(){
     return `<button class="card" onclick="go('#m/${m.id}')"><span class="ic">${icon(m)}</span><span class="n">${i + 1}</span><h3>${esc(m.title)}</h3><p>${esc(m.intro)}</p><span class="pb"><i style="width:${d / m.lessons.length * 100}%"></i></span><span class="meta">${d}/${m.lessons.length} · ${m.lessons.reduce((s, l) => s + (l.minutes || 5), 0)} ${esc(U("min"))}</span></button>`; }).join("")}</div>
   <h2>${esc(U("practice"))}</h2>
   <div class="grid">${games.map(([g, ic]) => `<button class="card game" onclick="go('#g/${g}')"><span class="ic">${ic}</span><h3>${esc(U("game_" + g))}</h3><p>${esc(U("game_" + g + "_d"))}</p></button>`).join("")}</div>
-  <p class="small muted" style="margin-top:24px"><button class="btn" onclick="if(confirm(U('reset_confirm'))){localStorage.removeItem(KEY);location.reload()}">${esc(U("reset"))}</button></p>`;
+  <p class="small muted" style="margin-top:24px"><button class="btn" onclick="resetProgress()">${esc(U("reset"))}</button></p>`;
 }
+/* Reset: delete progress on this device; works even if the browser blocks storage (then only this page view is reset). */
+function resetProgress(){ if (!confirm(U("reset_confirm"))) return;
+  try { localStorage.removeItem(KEY); } catch(e) {} finally { window.ClayNav && ClayNav.clearResume("interpreter"); location.reload(); } }
 /* when the whole course is done there is nothing to come back to */
 function courseDone(){ return allLessons().every(l => S.done[l.id]); }
 function resume(){ const l = allLessons().find(x => !S.done[x.id]); go(l ? `#l/${l.id}` : "#g/exam"); }
@@ -284,7 +287,7 @@ function sayCard(c, k){
   <div class="hid"><div class="tag">${esc(U("meaning"))}</div>${esc(c.meaning)}${c.say ? `<div class="tag" style="margin-top:6px">${esc(U("say_it"))}</div>${esc(c.say)}` : ""}</div></div>`;
 }
 /* Coach phrases are spoken in British English (most Sporting coaching vocabulary is British). */
-function speak(t){ try { const u = new SpeechSynthesisUtterance(t); u.lang = "en-GB"; u.rate = .95; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch(e) {} }
+function speak(t){ if (window.ClaySpeak) ClaySpeak(t, {rate: .95}); }
 
 /* Generic quiz: items [{q, options[], answer, why}] -> calls onDone(correctCount) after the last one. */
 function runQuiz(host, items, onDone){
@@ -317,18 +320,20 @@ function termCard(id){
 /* ===== Simulations: shared module docs/shared/sims.js (also used by the rules trainer) ===== */
 const FLIGHTS = ClaySims.FLIGHTS;
 let SIMS = []; // course-side observers (games); shared animations are stopped by ClaySims
-function stopSims(){ ClaySims.stopSims(); SIMS.forEach(x => x.stop && x.stop()); SIMS = []; try { speechSynthesis.cancel(); } catch(e) {} }
+let LAB_XP = {}; // lead-lab methods already rewarded on this view
+function stopSims(){ ClaySims.stopSims(); SIMS.forEach(x => x.stop && x.stop()); SIMS = []; LAB_XP = {}; try { speechSynthesis.cancel(); } catch(e) {} }
 const mountSim = (host, sim) => ClaySims.mount(host, sim);
 const flightSim = (host, preset, opts) => ClaySims.flightSim(host, preset, opts);
-const leadLab = (host, method) => ClaySims.leadLab(host, method);
-function simConfig(){ ClaySims.config({t: k => IA && IA.ui[k], term: id => { const t = termById(id); return t ? {en: t.en, local: LANG === "en" ? "" : termLocal(t)} : null; }, onHit: () => addXP(XP.game)}); }
+const leadLab = (host, method, opts) => ClaySims.leadLab(host, method, opts);
+function simConfig(){ ClaySims.config({t: k => IA && IA.ui[k], term: id => { const t = termById(id); return t ? {en: t.en, local: LANG === "en" ? "" : termLocal(t)} : null; },
+  onHit: info => { const k = (info && info.method) || "lab"; if (!LAB_XP[k]) { LAB_XP[k] = 1; addXP(XP.game); } }}); }
 
 /* ===== Games ===== */
 function viewGame(g){
   const back = `<p><button class="btn" onclick="go('#')">← ${esc(U("home"))}</button></p>`;
   const head = (t, d) => `${back}<div class="eyebrow">${esc(U("practice"))}</div><h1>${esc(t)}</h1><p class="muted">${esc(d)}</p>`;
   const host = () => $("ghost");
-  if (g === "lead") { $("app").innerHTML = head(U("game_lead"), U("game_lead_d")) + `<div id="ghost"></div>`; return leadLab(host(), "maintained"); }
+  if (g === "lead") { $("app").innerHTML = head(U("game_lead"), U("game_lead_d")) + `<div id="ghost"></div>`; return leadLab(host(), "maintained", {focus: "perceived-vs-actual"}); }
   if (g === "coach") { $("app").innerHTML = head(U("game_coach"), U("game_coach_d")) + `<div id="ghost"></div>`; return gameCoach(host()); }
   if (g === "flight") { $("app").innerHTML = head(U("game_flight"), U("game_flight_d")) + `<div id="ghost"></div>`; return gameFlight(host()); }
   if (g === "call") { $("app").innerHTML = head(U("game_call"), U("game_call_d")) + `<div id="ghost"></div>`; return gameCall(host()); }
@@ -368,7 +373,7 @@ function gameCoach(host){
 }
 function gameFlight(host){
   const keys = Object.keys(FLIGHTS); let k = 0, ok = 0; const N = 8, order = shuffle(keys).slice(0, N);
-  const nameOf = key => { const t = termById(FLIGHTS[key].term); return t ? (LANG === "en" ? t.en : `${t.en} · ${termLocal(t)}`) : key; };
+  const nameOf = key => { const t = termById(FLIGHTS[key].term); return t ? (LANG === "en" ? t.en : `${t.en} · ${termLocal(t)}`) : (ClaySims.NAMES || {})[key] || key; };
   const draw = () => { const key = order[k], right = nameOf(key);
     const opts = shuffle([right, ...shuffle(keys.filter(x => nameOf(x) !== right).map(nameOf)).filter((v, i, a) => a.indexOf(v) === i).slice(0, 3)]);
     host.innerHTML = `<div class="meta">${esc(U("question"))} ${k + 1} ${esc(U("of"))} ${N}</div><div id="fs"></div><div class="q"><b>${esc(U("which_flight"))}</b><div class="opts">${opts.map(o => `<button class="opt">${esc(o)}</button>`).join("")}</div><div class="why" id="why"></div></div>`;

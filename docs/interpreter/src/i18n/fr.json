@@ -72,7 +72,7 @@
   "ahead": "Devant : la gerbe est passée devant le plateau",
   "perceived": "Avance perçue au moment de la décision",
   "actual": "Avance réelle au moment du tir",
-  "lab_note": "Ralenti et physique simplifiée pour l'apprentissage : vitesse moyenne des plombs d'environ 330 m/s et 0,15 s entre la décision et le coup de feu. L'avance réelle dépend aussi du tireur, de la cartouche et de l'angle.",
+  "lab_note": "Ralenti et physique simplifiée pour l'apprentissage : vitesse moyenne des plombs d'environ 330 m/s, 0,15 s entre la décision et le coup, rayon de la gerbe d'environ 10 cm + 1,5 cm par mètre de distance, bouche du canon à environ 1 m de l'œil. L'avance réelle dépend de la vitesse, de la distance, de l'angle et de la cartouche ; l'avance perçue dépend aussi de la méthode et du tireur.",
   "exam_pass": "Réussi ! Vous pouvez maintenant obtenir votre certificat.",
   "exam_fail": "Pas encore : il faut 80 %. Revoyez les missions et réessayez.",
   "cert_name": "Votre nom pour le certificat",
@@ -100,7 +100,18 @@
   "glossary_page": "Page du glossaire",
   "pair_report": "Doublé coup de fusil (on report) : le 2e plateau part au bruit du 1er coup",
   "pair_sim": "Doublé simultané : les deux plateaux partent ensemble",
-  "pair_rafale": "Rafale (following pair) : le 2e plateau part du même lanceur juste après le 1er"
+  "pair_rafale": "Rafale (following pair) : le 2e plateau part du même lanceur dès que celui-ci est réarmé",
+  "no_shot": "Aucun tir.",
+  "at_muzzle": "vu à la bouche du canon",
+  "compare": "Même plateau, quatre méthodes : l'avance réelle est la même, l'avance perçue non",
+  "how_maintained": "Les canons attendent devant le plateau, qui se rapproche. Appuyez sur « Tirer » quand l'écart paraît juste : le fusil suit alors à la vitesse du plateau et garde cette avance.",
+  "how_swing": "Les canons partent derrière le plateau et vont plus vite que lui. Appuyez sur « Tirer » quand les canons passent l'avant du plateau : pendant le délai, le fusil gagne encore du terrain, donc l'avance réelle est plus grande.",
+  "how_pullaway": "Les canons suivent d'abord le plateau, puis accélèrent devant lui. Appuyez sur « Tirer » pendant que le fusil accélère encore : l'avance perçue est plus petite que l'avance réelle.",
+  "how_ambush": "Les canons attendent immobiles en un point devant le plateau. Appuyez sur « Tirer » avant que le plateau n'atteigne ce point : les plombs ont besoin de temps, un tir au moment où le plateau arrive passe derrière.",
+  "stop_gun": "Arrêter le fusil au départ du coup (erreur)",
+  "clay_widths": "largeurs de plateau",
+  "unit_cm": "cm",
+  "unit_in": "po"
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Ces présentations concernent la hauteur et la courbe plutôt que l'angle. Leurs noms appartiennent au vocabulaire des traceurs de parcours, pas au règlement : le règlement énumère les types de plateaux, et celui du Compak® Sporting demande des trajectoires variées, comme des plateaux montants, descendants et en cloche.",
       "Un teal (springing ou rising teal, d'après la sarcelle ; en français le plus souvent « chandelle ») est lancé presque à la verticale, ralentit, s'arrête au sommet et retombe. On le prend soit à la montée, en remontant à travers lui par-dessous, soit au sommet pendant qu'il marque l'arrêt. Le viser au sommet (poking) est la faute classique. Certains traceurs disent « springing » pour un plateau qui monte en oblique plutôt qu'à la verticale, comme un oiseau qui s'envole.",
       "Une chandelle au sens anglais (du français « chandelle ») monte fortement sur une légère courbe, bascule et retombe presque à la verticale. Elle est plus facile à la montée ; dans la bascule, l'avance va sur le côté et en dessous.",
-      "Un looper (parabole, plateau en cloche) décrit un grand arc dans le ciel, comme un arc-en-ciel, souvent une battue lancée par un lanceur incliné : il monte, montre sa face et tombe. Le fusil suit la courbe, devant et en dessous.",
+      "Un looper (parabole, plateau en cloche) décrit un grand arc dans le ciel, comme un arc-en-ciel : il monte, bascule au sommet et tombe. C'est le plus souvent un plateau normal ; certains traceurs de parcours lancent aussi une battue sur une telle ligne, qui montre alors sa face en basculant. Le fusil suit la courbe, devant et en dessous.",
       "Un plateau descendant (dropping target) est tout plateau dans la partie descendante de son vol. L'avance est en partie verticale : en dessous et devant, avec le fusil en mouvement.",
       "Attention : les noms varient selon les pays. Beaucoup de francophones disent « chandelle » pour un plateau qui monte presque à la verticale, ce qu'un moniteur anglais appelle un teal, et les tireurs ukrainiens peuvent dire « свічка » pour l'un ou l'autre. Chaque fois que vous entendez chandelle, candle ou « свічка », demandez : à la verticale, ou en courbe qui bascule ?"
      ],
      "key_points": [
       "Teal : monte presque à la verticale, s'arrête, retombe ; à prendre à la montée ou au sommet.",
       "Chandelle (sens anglais) : montée raide en courbe, bascule, retombe presque à la verticale.",
-      "Looper : grand arc en arc-en-ciel, souvent une battue qui bascule et tombe.",
+      "Looper : grand arc en arc-en-ciel, le plus souvent un plateau normal qui bascule au sommet et tombe.",
       "Descendant : avance en dessous et devant, ne jamais arrêter le fusil.",
       "Les noms varient : en français, « chandelle » désigne souvent le teal ; « свічка » est ambigu aussi, il faut donc préciser."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Une séance d'entraînement complète, étape par étape",
      "body": [
       "Avant la séance, rencontrez le moniteur pendant cinq minutes. Convenez d'un signe de pause, demandez quelle méthode il enseigne et quels mots il emploie pour l'avance, et apprenez ses signes de la main. Ensuite, le groupe se réunit pour le briefing de sécurité : interprétez-le en consécutive, phrase par phrase, avec fermeté et intégralement.",
-      "Sur le premier poste, le moniteur commence généralement sans cartouches : un test de l'œil directeur, puis la position et la position d'attente. Dans un contexte FITASC, le fusil part bas, sous la ligne du gilet. Chuchotez ses corrections depuis l'arrière pendant qu'il place les pieds et les mains.",
+      "Sur le premier poste, le moniteur commence généralement sans cartouches : un test de l'œil directeur, puis la position et la position d'attente. En Parcours de Chasse – Sporting™, le fusil part bas, sous la ligne du gilet ; en Compak® Sporting, la position du fusil à l'appel est libre. Chuchotez ses corrections depuis l'arrière pendant qu'il place les pieds et les mains.",
       "Vient ensuite la lecture du plateau. Le moniteur le fait voir, demande où le tireur le voit nettement pour la première fois, et fixe le point de prise, le point d'attente et le point de casse. Gardez ces trois termes identiques toute la journée, « point de prise », « point d'attente », « point de casse », pour que l'invité les retienne.",
       "Place au tir. Entre les plateaux, le moniteur donne des consignes de deux à cinq mots ; vous les reprenez, même longueur, même ordre, pendant que le fusil est ouvert. Quand un manqué est diagnostiqué, « behind », « over the top », « you stopped », traduisez le diagnostic et la correction ensemble. Les compliments se traduisent avec la même énergie.",
       "Puis les doublés : quel plateau en premier, « les yeux d'abord, ensuite le fusil », le second coup. Enfin le débriefing, de nouveau en consécutive, où le moniteur résume deux ou trois points. Notez-les dans les deux langues et remettez la note à l'invité. Ci-dessous, un enchaînement réel de phrases dans l'ordre où vous les entendrez."
@@ -2559,7 +2570,7 @@
        "say": "Le pied avant vers le point de casse, le poids vers l'avant."
       },
       {
-       "meaning": "Position d'attente FITASC : le fusil ne monte qu'après l'apparition du plateau.",
+       "meaning": "Position d'attente du Sporting™ : le fusil ne monte qu'après l'apparition du plateau ; en Compak® Sporting, la position à l'appel est libre.",
        "say": "Fusil bas, crosse sous la ligne. Épaulez seulement quand vous le voyez."
       },
       {
@@ -2656,14 +2667,14 @@
       "La gerbe a besoin d'une fraction de seconde pour atteindre le plateau, et pendant ce temps le plateau continue d'avancer. Un fusil pointé droit sur un traversard tire donc derrière lui. Le fusil doit pointer devant, pour que la gerbe et le plateau se rencontrent. Cet écart, c'est l'avance (lead ; en anglais britannique aussi « forward allowance »).",
       "L'avance augmente avec la vitesse du plateau, sa distance et son angle. Un traversard pur en demande le plus ; un plateau qui vole droit vers le tireur ou s'éloigne de lui ne demande presque aucune avance latérale, mais les plateaux montants et descendants demandent une avance verticale (au-dessus ou en dessous).",
       "Les chiffres réels surprennent. Un site consacré au tir indique environ 3 à 4 pieds, soit à peu près un mètre, d'avance réelle pour un traversard à environ 21–25 yards (une vingtaine de mètres). Beaucoup de tireurs disent qu'elle croît à peu près proportionnellement à la distance : le même petit écart à la bouche du canon représente donc beaucoup plus d'avance réelle sur un plateau lointain.",
-      "L'avance réelle est la distance réelle devant le plateau, dans l'air. L'avance perçue (le « lead picture » ou « sight picture », l'image d'avance) est l'écart que le tireur voit entre la bouche du canon et le plateau. Un mètre à 20 m ressemble à quelques centimètres à la bouche du canon. La méthode change l'image : un tireur en avance maintenue voit le plus grand écart, un tireur en swing peu ou pas d'écart, parce que la vitesse du fusil ajoute de l'avance.",
+      "L'avance réelle est la distance réelle devant le plateau, dans l'air. L'avance perçue (le « lead picture » ou « sight picture », l'image d'avance) est l'écart que le tireur voit entre la bouche du canon et le plateau. Un mètre à 20 m ressemble à quelques centimètres à la bouche du canon. La méthode change l'image : parmi les méthodes où le fusil bouge, l'avance maintenue montre le plus grand écart et le swing peu ou pas d'écart, parce que la vitesse du fusil ajoute de l'avance. En embuscade, le fusil est immobile : le tireur doit donc voir un écart encore plus grand, car le plateau continue d'avancer pendant le temps de réaction.",
       "Un instructeur américain remarque qu'un tireur droitier a souvent l'impression qu'un traversard de gauche à droite demande plus d'avance qu'un traversard de droite à gauche ; l'avance réelle est la même, seule la perception diffère. Les « four feet » d'un moniteur décrivent donc son image, pas une mesure."
      ],
      "key_points": [
       "L'avance existe parce que le plateau se déplace pendant le trajet de la gerbe.",
       "Plus de vitesse, de distance et d'angle = plus d'avance.",
-      "L'avance réelle (dans l'air) est bien plus grande que l'avance perçue (à la bouche du canon).",
-      "La méthode change l'image : l'avance maintenue en voit le plus, le swing le moins.",
+      "L'avance réelle se compte en mètres dans l'air, au plateau ; à la bouche du canon, l'image ne fait que quelques centimètres, car le canon est près de l'œil.",
+      "La méthode change l'image : fusil en mouvement, l'avance maintenue en montre le plus, le swing le moins ; en embuscade (fusil immobile), l'écart est encore plus grand.",
       "Le chiffre d'un moniteur est une image, pas une mesure."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "L'embuscade et le tir instinctif",
      "body": [
-      "L'embuscade (ambush, spot shooting ; en français on peut parler de « tir d'interception » ou dire « attendre le plateau ») est le contraire d'un swing. 1) Les canons sont placés en un point devant le plateau, sur sa ligne, près du point de casse. 2) Ils attendent, avec peu ou pas de mouvement. 3) On appuie sur la détente quand le plateau arrive à cet endroit.",
+      "L'embuscade (ambush, spot shooting ; en français on peut parler de « tir d'interception » ou dire « attendre le plateau ») est le contraire d'un swing. 1) Les canons sont placés en un point devant le plateau, sur sa ligne, près du point de casse. 2) Ils attendent, avec peu ou pas de mouvement. 3) On appuie sur la détente avant que le plateau arrive à cet endroit : la réaction du tireur et le trajet des plombs prennent du temps, et le plateau vole alors dans la gerbe. Tirer seulement quand le plateau arrive à cet endroit envoie la gerbe derrière lui.",
       "Comme habitude générale, typique des tireurs non formés, elle n'est pas fiable : le fusil est immobile et le timing doit être parfait. Mais une embuscade délibérée est parfois le bon choix : un plateau qu'il faut prendre très vite, ou un rabbit visible seulement dans une courte trouée entre des buissons. Un geste voisin, sur les battues vues par la tranche au sommet de leur vol, est le « collapse » : attendre très près du point de casse et faire un mouvement minimal. Le plateau doit toujours être cassé là où l'arbitre peut le voir.",
       "Le tir instinctif signifie aucune avance consciente. Le tireur garde un regard précis sur le plateau et laisse les mains suivre ; le swing et l'épaulé se font ensemble, et le coup part quand le fusil arrive au visage. L'école classique est celle associée à l'armurier anglais Robert Churchill, populaire au tir de chasse.",
       "Beaucoup de grands tireurs de Parcours de Chasse – Sporting™ mélangent les méthodes et choisissent selon le plateau. « Which method for this one? » (quelle méthode pour celui-ci ?) est une question normale à l'entraînement."
      ],
      "key_points": [
-      "Embuscade : canons immobiles en un point devant ; tirer quand le plateau arrive.",
+      "Embuscade : canons immobiles en un point devant ; tirer avant que le plateau y arrive, pour qu'il vole dans la gerbe.",
       "Peu fiable comme habitude, utile délibérément (plateaux très rapides, courtes trouées).",
       "« Collapse » : mouvement minimal près du point de casse sur les battues vues par la tranche.",
       "Instinctif : aucune avance consciente, regard précis, épaulé et swing ensemble (école Churchill).",
@@ -2935,7 +2946,7 @@
        "say": "Vous l'attendez en embuscade : gardez le fusil en mouvement avec le plateau."
       },
       {
-       "meaning": "Attendez délibérément à l'ouverture et tirez quand le plateau la traverse.",
+       "meaning": "Attendez délibérément à l'ouverture et tirez juste avant que le plateau atteigne votre point, pour qu'il vole dans la gerbe.",
        "say": "Celui-ci, attendez-le dans la trouée."
       },
       {
@@ -3813,7 +3824,7 @@
       "La ligne est tracée sur le gilet ou la veste 25 cm sous l'axe des épaules, parallèlement à lui, d'une couleur contrastant avec le gilet pour que l'arbitre puisse la voir. La règle s'applique à tous les types de crosse, busc réglable compris.",
       "Le fusil ne peut monter qu'à l'apparition du plateau. Chaque plateau, rabbits compris, se tire fusil à l'épaule ; tirer à la hanche est interdit. Entre le premier et le second plateau de tout doublé, la position du fusil est libre, mais avant le premier plateau, la position d'attente s'applique.",
       "Pénalités : la première fois qu'un tireur appelle dans une mauvaise position ou épaule avant l'apparition du plateau, l'arbitre donne un avertissement verbal avec carton jaune. Toute nouvelle infraction sur le même parcours entraîne un carton rouge, et le plateau est compté zéro sur un simple, zéro et No bird sur un doublé coup de fusil, zéro et zéro sur un doublé simultané ou une rafale.",
-      "Épauler et suivre la ligne imaginaire avant d'appeler (simulacre de tir) est également interdit : d'abord un avertissement, puis un zéro. Si un moniteur fait travailler un départ fusil épaulé avant une épreuve FITASC, traduisez aussi le mot « exercice »."
+      "Épauler et suivre la ligne imaginaire avant d'appeler (simulacre de tir) est également interdit : d'abord un avertissement, puis un zéro. Si un moniteur fait travailler un départ fusil épaulé avant une épreuve de Parcours de Chasse – Sporting™, traduisez aussi le mot « exercice »."
      ],
      "key_points": [
       "Avant l'appel : les deux pieds dans le poste, crosse au contact du corps, haut de la crosse sous la ligne du gilet.",
@@ -4345,7 +4356,7 @@
       "En Parcours de Chasse – Sporting™, le menu énumère les lanceurs dans l'ordre de tir et doit indiquer les plateaux spéciaux : 90 mm, 70 mm, 60 mm, battue ou rabbit. Les arbitres vérifient au préalable que les machines correspondent au menu. Un parcours donne 15 simples et 5 doublés, et les doublés ne peuvent utiliser que des plateaux déjà présentés en simples depuis le même poste. La planche tire d'abord les simples, puis les doublés.",
       "Un doublé est indiqué avec son type : coup de fusil (le second plateau part au bruit du premier coup), simultané (les deux ensemble) ou rafale (deux plateaux du même lanceur, l'un après l'autre ; uniquement en Sporting™). Les menus diffèrent d'un stand à l'autre : lisez donc les mots, pas seulement les lettres. Exemple pour un poste à trois lanceurs : simples A, B, C ; doublés A + B simultané et C + C rafale (sur un tel poste, deux doublés coup de fusil ne sont pas autorisés).",
       "En Compak® Sporting, un menu est affiché à chacun des cinq pas de tir. Chaque pas de tir compte cinq plateaux : cinq simples, trois simples et un doublé, ou un simple et deux doublés. Le type de doublé est le même aux cinq pas de tir d'un Compak, et le premier plateau de chaque doublé est le dernier plateau du pas de tir précédent. La FITASC propose 40 menus prêts à l'emploi pour les compétitions.",
-      "Avant que votre tireur ne monte, lisez-lui le menu à voix haute dans sa langue, lettre par lettre : « A, puis F, puis le doublé C et E au coup de fusil. »"
+      "Avant que votre tireur ne monte, lisez-lui le menu à voix haute dans sa langue, lettre par lettre : « A, puis F, puis B, puis le doublé C et E au coup de fusil. »"
      ],
      "key_points": [
       "Gardez le mot « menu ».",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "L'ordre des plateaux au pas de tir 3, qui se termine par un doublé coup de fusil.",
-       "say": "Lisez le menu : au pas de tir trois, vous avez A, puis F, puis le doublé C et E au coup de fusil."
+       "meaning": "Pas de tir 3 : trois plateaux simples, puis un doublé au coup de fusil ; cinq plateaux en tout.",
+       "say": "Lisez le menu : au pas de tir trois, vous avez A, puis F, puis B, puis le doublé C et E au coup de fusil."
       },
       {
        "meaning": "L'ordre a changé depuis la dernière série.",

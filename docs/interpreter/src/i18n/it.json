@@ -72,7 +72,7 @@
   "ahead": "Davanti: la rosata è passata davanti al piattello",
   "perceived": "Anticipo che vedi al momento della decisione",
   "actual": "Anticipo reale al momento dello sparo",
-  "lab_note": "Rallentatore e fisica semplificata a scopo didattico: velocità media dei pallini di circa 330 m/s e 0,15 s tra la decisione e lo sparo. L'anticipo reale dipende anche dal tiratore, dalla cartuccia e dall'angolo.",
+  "lab_note": "Rallentatore e fisica semplificata a scopo didattico: velocità media dei pallini di circa 330 m/s, 0,15 s tra la decisione e lo sparo, raggio della rosata di circa 10 cm + 1,5 cm per metro di distanza, volata a circa 1 m dall'occhio. L'anticipo reale dipende da velocità, distanza, angolo e cartuccia; quello che vedi anche dal metodo e dal tiratore.",
   "exam_pass": "Superato! Ora puoi ottenere il tuo attestato.",
   "exam_fail": "Non ancora: serve l'80%. Ripassa le missioni e riprova.",
   "cert_name": "Il tuo nome per l'attestato",
@@ -100,7 +100,18 @@
   "glossary_page": "Pagina del glossario",
   "pair_report": "Doppio allo sparo (on report): il 2º piattello parte al rumore del 1º colpo",
   "pair_sim": "Doppio simultaneo: entrambi i piattelli partono insieme",
-  "pair_rafale": "Doppio a raffica (rafale, following pair): il 2º piattello dalla stessa macchina subito dopo il 1º"
+  "pair_rafale": "Doppio a raffica (rafale, following pair): il 2º piattello dalla stessa macchina, appena si è ricaricata",
+  "no_shot": "Nessun colpo sparato.",
+  "at_muzzle": "visto alla volata",
+  "compare": "Stesso piattello, quattro metodi: l'anticipo reale è uguale, quello che vedi no",
+  "how_maintained": "Le canne aspettano davanti al piattello, che si avvicina. Premi «Spara» quando la distanza sembra giusta: il fucile segue allora alla velocità del piattello e mantiene quell'anticipo.",
+  "how_swing": "Le canne partono dietro il piattello e sono più veloci di lui. Premi «Spara» quando le canne superano il bordo anteriore del piattello: durante il ritardo il fucile guadagna ancora, quindi l'anticipo reale è maggiore.",
+  "how_pullaway": "Le canne prima accompagnano il piattello, poi accelerano in avanti. Premi «Spara» mentre il fucile sta ancora accelerando: l'anticipo che vedi è minore di quello reale.",
+  "how_ambush": "Le canne aspettano ferme in un punto davanti al piattello. Premi «Spara» prima che il piattello arrivi in quel punto: i pallini hanno bisogno di tempo, quindi un colpo sparato quando il piattello arriva passa dietro.",
+  "stop_gun": "Fermare il fucile allo sparo (errore)",
+  "clay_widths": "larghezze di piattello",
+  "unit_cm": "cm",
+  "unit_in": "pollici"
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Queste presentazioni riguardano l'altezza e la curva più che l'angolo. I loro nomi sono parole dei tracciatori, non termini del regolamento: il regolamento elenca i tipi di piattello, e quello del Compak® Sporting chiede traiettorie varie, per esempio in salita, in discesa e a campanile.",
       "Il teal (springing o rising teal, dal nome della piccola anatra alzavola; in italiano «candela») viene lanciato quasi in verticale, rallenta, si ferma in alto e ricade. Si prende o in salita, risalendolo dal basso, o in cima mentre resta sospeso. L'errore classico è «punzecchiarlo» in cima. Alcuni tracciatori usano «springing» (in italiano «frullo») per un piattello che sale ad angolo invece che in verticale, come un uccello che si alza.",
       "La chandelle (in francese «candela») sale ripida con una leggera curva, si incurva in alto e scende quasi in verticale. È più facile in salita; sulla curva l'anticipo va di lato e sotto.",
-      "Il looper (in italiano «parabola») descrive un ampio arco nel cielo, come un arcobaleno, spesso con una battuta lanciata da una macchina inclinata: sale, gira la faccia e cade. Il fucile segue la curva, davanti e sotto.",
+      "Il looper (in italiano «parabola») descrive un ampio arco nel cielo, come un arcobaleno: sale, scavalca il punto più alto e cade. Di solito è un piattello standard; alcuni tracciatori lanciano su questa linea anche una battuta, che girando mostra la faccia. Il fucile segue la curva, davanti e sotto.",
       "Un piattello in discesa (dropping target) è qualsiasi piattello nella parte discendente del suo volo. L'anticipo è in parte verticale: sotto e davanti, con il fucile in movimento.",
       "Attenzione: i nomi cambiano da paese a paese. Molti francofoni usano «chandelle» per un piattello che sale quasi in verticale, quello che un istruttore inglese chiama teal, e in italiano «candela» indica di solito proprio la salita verticale. Ogni volta che senti chandelle, candle o «candela», chiedi: dritto in su o ad arco?"
      ],
      "key_points": [
       "Teal (candela): sale quasi in verticale, si ferma, ricade; prendilo in salita o in cima.",
       "Chandelle: salita ripida e curva, si incurva in alto, scende quasi in verticale.",
-      "Looper (parabola): ampio arco ad arcobaleno, spesso una battuta che gira e cade.",
+      "Looper (parabola): ampio arco ad arcobaleno, di solito un piattello standard che scavalca il punto più alto e cade.",
       "In discesa: anticipo sotto e davanti, non fermare mai il fucile.",
       "I nomi cambiano: i francofoni dicono spesso «chandelle» per il teal; anche «candela» va chiarita."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Un'intera sessione di allenamento, passo per passo",
      "body": [
       "Prima della sessione, incontra l'istruttore per cinque minuti. Concorda un segnale di pausa, chiedi quale metodo insegna e quali parole usa per l'anticipo, e impara i suoi segnali con le mani. Poi il gruppo si riunisce per il briefing sulla sicurezza: interpretalo in consecutiva, frase per frase, con fermezza e per intero.",
-      "Sulla prima pedana l'istruttore di solito comincia senza cartucce: un controllo dell'occhio dominante, poi la posizione e la posizione di attesa. In un contesto FITASC il fucile parte basso, sotto la linea del gilet. Sussurra le sue correzioni da dietro mentre sistema piedi e mani.",
+      "Sulla prima pedana l'istruttore di solito comincia senza cartucce: un controllo dell'occhio dominante, poi la posizione e la posizione di attesa. Nel Parcours de Chasse – Sporting™ il fucile parte basso, sotto la linea del gilet; nel Compak® Sporting la posizione del fucile alla chiamata è libera. Sussurra le sue correzioni da dietro mentre sistema piedi e mani.",
       "Poi si legge il piattello. L'istruttore lo fa vedere, chiede dove il tiratore lo vede nitido per la prima volta e fissa il punto di presa visiva, il punto di attesa e il punto di rottura. Mantieni questi tre termini uguali per tutto il giorno, «punto di presa visiva», «punto di attesa», «punto di rottura», così l'ospite li impara.",
       "Ora si spara. Tra un piattello e l'altro l'istruttore dà spunti da due a cinque parole; tu li rispecchi, stessa lunghezza, stesso ordine, mentre il fucile è aperto. Quando viene diagnosticato un errore, «dietro», «sopra», «ti sei fermato», traduci insieme la diagnosi e la correzione. I complimenti si traducono con la stessa energia.",
       "Poi i doppi: quale piattello per primo, «prima gli occhi, poi il fucile», il secondo colpo. Infine il resoconto, di nuovo in consecutiva, in cui l'istruttore riassume due o tre punti. Scrivili in entrambe le lingue e dai il foglio all'ospite. Qui sotto trovi una catena reale di frasi, nell'ordine in cui le sentirai."
@@ -2559,7 +2570,7 @@
        "say": "Piede avanti verso il punto di rottura, peso in avanti."
       },
       {
-       "meaning": "Posizione di attesa FITASC: il fucile sale solo dopo che compare il piattello.",
+       "meaning": "Posizione di attesa dello Sporting™: il fucile sale solo dopo che compare il piattello; nel Compak® Sporting la posizione alla chiamata è libera.",
        "say": "Fucile basso, calcio sotto la linea. Imbraccia solo quando lo vedi."
       },
       {
@@ -2656,14 +2667,14 @@
       "I pallini impiegano una frazione di secondo per raggiungere il piattello, e in quel tempo il piattello va avanti. Un fucile puntato dritto su un traversone, quindi, spara dietro. Il fucile deve puntare davanti, in modo che rosata e piattello si incontrino. Quella distanza è l'anticipo (lead, in inglese britannico anche «forward allowance»).",
       "L'anticipo cresce con la velocità del piattello, con la sua distanza e con il suo angolo. Un traversone pieno ne richiede più di tutti; un piattello che vola dritto verso il tiratore o lontano da lui non richiede quasi anticipo laterale, anche se i piattelli in salita e in discesa richiedono un anticipo verticale (sopra o sotto).",
       "I numeri reali sorprendono. Un sito di tiro indica circa 3–4 piedi, più o meno un metro, di anticipo reale per un traversone a circa 21–25 iarde (circa 20 m). Molti tiratori dicono che cresce più o meno in proporzione alla distanza, quindi la stessa piccola distanza alla volata significa molto più anticipo reale su un piattello lontano.",
-      "L'anticipo reale è la distanza effettiva davanti al piattello in aria. L'anticipo percepito (il «lead picture» o «sight picture», l'immagine di mira) è la distanza che il tiratore vede tra volata e piattello. Un metro a 20 m sembra pochi centimetri alla volata. Il metodo cambia l'immagine: chi tira con l'anticipo mantenuto vede la distanza più grande, chi tira in swing-through poca o nessuna, perché la velocità del fucile aggiunge anticipo.",
+      "L'anticipo reale è la distanza effettiva davanti al piattello in aria. L'anticipo percepito (il «lead picture» o «sight picture», l'immagine di mira) è la distanza che il tiratore vede tra volata e piattello. Un metro a 20 m sembra pochi centimetri alla volata. Il metodo cambia l'immagine: tra i metodi con il fucile in movimento, l'anticipo mantenuto mostra la distanza più grande e lo swing-through poca o nessuna, perché la velocità del fucile aggiunge anticipo. Nell'ambush il fucile è fermo, quindi il tiratore deve vedere una distanza ancora maggiore: il piattello continua a muoversi durante il tempo di reazione.",
       "Un istruttore americano osserva che un tiratore destrimane spesso ha la sensazione che un traversone da sinistra a destra richieda più anticipo di uno da destra a sinistra; l'anticipo reale è lo stesso, cambia solo la percezione. Quindi i «four feet» di un istruttore descrivono la sua immagine, non una misura."
      ],
      "key_points": [
       "L'anticipo esiste perché il piattello si muove mentre i pallini viaggiano.",
       "Più velocità, distanza e angolo significano più anticipo.",
-      "L'anticipo reale (in aria) è molto più grande dell'anticipo percepito (alla volata).",
-      "Il metodo cambia l'immagine: con l'anticipo mantenuto si vede di più, con lo swing-through di meno.",
+      "L'anticipo reale si misura in metri in aria, al piattello; alla volata l'immagine è di pochi centimetri, perché la volata è vicina all'occhio.",
+      "Il metodo cambia l'immagine: con il fucile in movimento si vede di più con l'anticipo mantenuto, di meno con lo swing-through; nell'ambush (fucile fermo) la distanza è ancora maggiore.",
       "Il numero dell'istruttore è un'immagine, non una misura."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "Ambush e tiro istintivo",
      "body": [
-      "L'ambush, o spot shooting (in italiano si può descrivere come «tiro d'attesa» o «tiro a punto fisso»), è il contrario di uno swing. 1) Le volate si piazzano in un punto davanti al piattello, sulla sua linea, vicino al punto di rottura. 2) Aspettano con poco o nessun movimento. 3) Il grilletto si preme quando il piattello arriva in quel punto.",
+      "L'ambush, o spot shooting (in italiano si può descrivere come «tiro d'attesa» o «tiro a punto fisso»), è il contrario di uno swing. 1) Le volate si piazzano in un punto davanti al piattello, sulla sua linea, vicino al punto di rottura. 2) Aspettano con poco o nessun movimento. 3) Il grilletto si preme prima che il piattello arrivi in quel punto: la reazione del tiratore e il volo dei pallini richiedono tempo, così il piattello vola dentro il colpo. Chi spara solo quando il piattello arriva nel punto manda la rosata dietro.",
       "Come abitudine generale, tipica dei tiratori non allenati, è poco affidabile: il fucile è fermo e il tempo deve essere perfetto. Ma un ambush deliberato a volte è la scelta giusta: un piattello che va preso molto in fretta, o una lepre visibile solo in un breve varco tra i cespugli. Una mossa simile sulle battute di taglio nel punto più alto del volo è il «collapse»: attesa molto vicina al punto di rottura e movimento minimo. Il piattello deve comunque rompersi dove l'arbitro può vederlo.",
       "Il tiro istintivo (instinctive shooting) significa nessun anticipo consapevole. Il tiratore tiene una messa a fuoco netta sul piattello e lascia che le mani seguano; swing e imbracciata avvengono insieme e il colpo parte quando il fucile arriva al viso. La scuola classica è quella associata all'armaiolo inglese Robert Churchill, diffusa nella caccia.",
       "Molti dei migliori tiratori di Parcours de Chasse – Sporting™ combinano i metodi, scegliendo piattello per piattello. «Which method for this one?» (che metodo usi su questo?) è una domanda normale per un istruttore."
      ],
      "key_points": [
-      "Ambush: volate ferme in un punto davanti; si spara quando arriva il piattello.",
+      "Ambush: volate ferme in un punto davanti; si spara prima che arrivi il piattello, così vola dentro il colpo.",
       "Poco affidabile come abitudine, utile se deliberato (piattelli molto veloci, varchi brevi).",
       "«Collapse»: movimento minimo vicino al punto di rottura sulle battute di taglio.",
       "Istintivo: nessun anticipo consapevole, messa a fuoco netta, imbracciata e swing insieme (scuola Churchill).",
@@ -2935,7 +2946,7 @@
        "say": "Lo stai aspettando fermo: tieni il fucile in movimento con il piattello."
       },
       {
-       "meaning": "Aspetta deliberatamente al varco e spara quando il piattello lo attraversa.",
+       "meaning": "Aspetta deliberatamente al varco e spara poco prima che il piattello arrivi al tuo punto, così vola dentro il colpo.",
        "say": "Questo aspettalo nel varco."
       },
       {
@@ -3813,7 +3824,7 @@
       "La linea è segnata sul gilet o sulla giacca 25 cm sotto l'asse delle spalle, parallela a esso, in un colore che contrasta con il gilet in modo che l'arbitro possa vederla. La regola vale per ogni tipo di calcio, compresi quelli con nasello regolabile.",
       "Il fucile può salire solo quando compare il piattello. Ogni piattello, lepri comprese, si tira con il fucile alla spalla; sparare dal fianco non è ammesso. Tra il primo e il secondo piattello di qualsiasi doppio la posizione del fucile è libera, ma prima del primo piattello vale la posizione di attesa.",
       "Penalizzazioni: la prima volta che un tiratore chiama in posizione scorretta o imbraccia prima che compaia il piattello, l'arbitro dà un avvertimento verbale con cartellino giallo. Ogni ulteriore infrazione sullo stesso layout comporta il cartellino rosso, e il piattello viene contato zero su un singolo, zero e No bird su un doppio allo sparo, zero e zero su un doppio simultaneo o a raffica.",
-      "Anche imbracciare e seguire la linea immaginaria prima di chiamare (simulazione di tiro, mock shooting) è vietato: prima un avvertimento, poi uno zero. Se un istruttore fa esercitare una partenza con il fucile imbracciato prima di una gara FITASC, traduci anche la parola «esercizio»."
+      "Anche imbracciare e seguire la linea immaginaria prima di chiamare (simulazione di tiro, mock shooting) è vietato: prima un avvertimento, poi uno zero. Se un istruttore fa esercitare una partenza con il fucile imbracciato prima di una gara di Parcours de Chasse – Sporting™, traduci anche la parola «esercizio»."
      ],
      "key_points": [
       "Prima della chiamata: entrambi i piedi nella pedana, calcio a contatto con il corpo, parte superiore del calcio sotto la linea del gilet.",
@@ -4345,7 +4356,7 @@
       "Nel Parcours de Chasse – Sporting™ il menu elenca le macchine nell'ordine di tiro e deve indicare i piattelli speciali: 90 mm, 70 mm, 60 mm, battuta o lepre. Gli arbitri controllano in anticipo che le macchine corrispondano al menu. Un layout dà 15 singoli e 5 doppi, e i doppi possono usare solo piattelli già presentati come singoli dalla stessa pedana. La batteria tira prima i singoli, poi i doppi.",
       "Un doppio è indicato con il suo tipo: allo sparo (on report: il secondo piattello parte al suono del primo colpo), simultaneo (simultaneous: entrambi insieme) o a raffica (rafale: due dalla stessa macchina, uno dopo l'altro; solo nello Sporting™). I menu cambiano da campo a campo, quindi leggi le parole, non solo le lettere. Esempio per una pedana con tre macchine: singoli A, B, C; doppi A + B simultaneo e C + C a raffica (su una pedana così non sono ammessi due doppi allo sparo).",
       "Nel Compak® Sporting c'è un menu su ciascuna delle cinque pedane. Ogni pedana ha cinque piattelli: cinque singoli, tre singoli e un doppio, oppure un singolo e due doppi. Il tipo di doppio è lo stesso su tutte e cinque le pedane di un Compak, e il primo piattello di ogni doppio è l'ultimo piattello della pedana precedente. La FITASC offre 40 menu già pronti per le gare.",
-      "Prima che il tuo tiratore salga in pedana, leggigli il menu ad alta voce nella sua lingua, lettera per lettera: «A, poi F, poi il doppio C ed E allo sparo»."
+      "Prima che il tuo tiratore salga in pedana, leggigli il menu ad alta voce nella sua lingua, lettera per lettera: «A, poi F, poi B, poi il doppio C ed E allo sparo»."
      ],
      "key_points": [
       "Mantieni la parola «menu».",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "L'ordine dei piattelli alla pedana 3, che finisce con un doppio allo sparo.",
-       "say": "Leggi il menu: alla pedana tre hai A, poi F, poi il doppio C ed E allo sparo."
+       "meaning": "Pedana 3: tre singoli, poi un doppio allo sparo; cinque piattelli in tutto.",
+       "say": "Leggi il menu: alla pedana tre hai A, poi F, poi B, poi il doppio C ed E allo sparo."
       },
       {
        "meaning": "L'ordine è cambiato rispetto alla serie precedente.",

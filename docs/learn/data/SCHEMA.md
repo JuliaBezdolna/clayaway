@@ -1,7 +1,7 @@
 # ClayArena Academy (for beginners): lesson data format
 
-Part of ClayArena (project ClayAway). Audience: complete beginners, parents of juniors, friends of shooters, spectators.
-Separate from "Vika's Academy" (a private organizer/interpreter tool) — do not copy its texts; facts may be checked against it.
+Part of ClayArena (ClayAway is only the tours service). Audience: complete beginners, parents of juniors, friends of shooters, spectators.
+Separate from the ClayArena Interpreter Academy (`docs/interpreter/`): do not copy its texts; facts may be checked against it.
 
 One file per module: `docs/learn/data/<module>.js` (UTF-8 JavaScript):
 
@@ -36,5 +36,10 @@ Rules
 - Beginner tone: explain every term the first time, short sentences, no jargon without explanation. Terms stay in English with Ukrainian explanation (e.g. «чок (choke)», «навіска»).
 - Trademarks: write "Sporting™" / "Parcours de Chasse – Sporting™" and "Compak® Sporting" on first mention in each lesson.
 - Safety first; never advise anything illegal; remind that gun/ammo laws differ by country.
-- Literary Ukrainian, no surzhyk. No Russian language anywhere; never mention Russia.
-- Our own words; do not copy texts from websites or rulebooks.
+- Literary Ukrainian, no surzhyk. Ukrainian terms as in the glossary (`term_local`): for example дуплет (double),
+  вкладка / вкладати рушницю (gun mount; not «вскидання», «вкидка»), перестрілка (shoot-off); apostrophe ’.
+- Languages: only ClayArena languages (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt). The restricted country is never named and
+  its flag is never shown; athletes from it appear only as AIN / Neutral.
+- Plain and cautious wording: no "proven / guaranteed / best / ideal / never" claims; a professional term plus a short plain explanation.
+- People: no real people in lessons (examples use fictional names or none).
+- Our own words; do not copy texts from websites or rulebooks. FITASC rules: paraphrase only, with a link to the rules guide.

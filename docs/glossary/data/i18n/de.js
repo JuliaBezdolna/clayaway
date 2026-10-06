@@ -18,7 +18,7 @@ window.GLOSSARY_I18N.de = {
    "short": "Eine Form des Compak-Ablaufs, bei der die Schützen nacheinander an Position 1 einsteigen und entlang der Reihe bis Position 5 weiterrücken.",
    "long": "Beim Schießen in Linie beginnt jeder Schütze einer Gruppe an Position 1 und endet an Position 5; ein neuer Schütze steigt ein, sobald die Reihe weiterrückt. Die Gruppengröße ergibt sich aus der Gesamtzahl der Schützen geteilt durch die Zahl der genutzten Compaks. Auf internationaler Ebene wird nur mit Sonopull ausgelöst, zusammen mit elektronischer Schiedsrichter- und Ergebniserfassung, die von der FITASC zugelassen ist. Die Scheiben werden in fester Reihenfolge gezeigt, während sich die Linie füllt und wieder schließt. Ein verspäteter Schütze, dessen Startnummer im System bereits gestrichen ist, während der nächste Schütze an Position 1 steht, erhält 25 Nullen.",
    "disciplines": {
-    "compak": "Nur Compak Sporting; die Alternative zum Schießen in der Rotte."
+    "compak": "Nur Compak® Sporting; die Alternative zum Schießen in der Rotte."
    }
   },
   "fitasc": {
@@ -156,8 +156,11 @@ window.GLOSSARY_I18N.de = {
    "short": "Das vorgeschriebene Rechteck, über das jede Compak-Scheibe fliegen muss.",
    "long": "Jedes Compak hat eine rechteckige Zone von 35–40 m Breite und 25 m Tiefe. Ihre Ecken sind mit vier etwa 50 cm hohen Pfosten mit Fahne oder anderer Markierung gekennzeichnet. Im Uhrzeigersinn von links heißen die Seiten AB, BC, CD und DA; DA zeigt zu den Schützen. Bei Windstille muss jede Scheibe an irgendeiner Stelle über das Rechteck fliegen. Die drei Pflichtflugbahnen werden über die Seiten definiert, die sie kreuzen.",
    "disciplines": {
-    "compak": "Nur Compak Sporting."
-   }
+    "compak": "Nur Compak® Sporting."
+   },
+   "alt": [
+    "Rechteck (Überflugrechteck)"
+   ]
   },
   "firing-angle-limiter": {
    "term_local": "Schusswinkelbegrenzer (FAL)",
@@ -172,7 +175,7 @@ window.GLOSSARY_I18N.de = {
    "short": "Einer von 40 vorgefertigten Compak-Wurfplänen, die festlegen, welche Maschinen von jeder Position geschossen werden.",
    "long": "Anhang 3 der Compak-Regeln enthält 40 Tabellen: 1–8 mit 5 Einzelscheiben pro Position, 9–16 mit 3 Einzelscheiben und einer Doublette auf Schuss, 17–24 mit 3 Einzelscheiben und einer Simultandoublette, 25–32 mit 1 Einzelscheibe und 2 Doubletten auf Schuss, 33–40 mit 1 Einzelscheibe und 2 Simultandoubletten. Die FITASC empfiehlt ihre Verwendung im Wettkampf, erlaubt ist aber jede regelkonforme Kombination. Für das Training verwendete Tabellen müssen sich von denen des Wettkampfs unterscheiden.",
    "disciplines": {
-    "compak": "Nur Compak Sporting (Anhang 3)."
+    "compak": "Nur Compak® Sporting (Anhang 3)."
    }
   },
   "target": {
@@ -218,11 +221,12 @@ window.GLOSSARY_I18N.de = {
   },
   "mini": {
    "term_local": "Mini",
-   "short": "Die kleinste Spezialscheibe, 60 mm Durchmesser.",
-   "long": "Super Mini (60 mm) ist im Sporting und im Compak erlaubt und im Flug sehr schnell und klein. Im Sporting muss sie auf dem Wurfplan des Standes als Spezialscheibe aufgeführt sein. Der Wurfplan kann auch 70-mm-Scheiben ausweisen.",
+   "short": "Die kleinsten Spezialscheiben, meist 60 mm Durchmesser; Hersteller verwenden „Mini“ und „Super Mini“ unterschiedlich, daher gelten die Millimeter auf dem Wurfplan.",
+   "long": "Die Sporting™-Regeln nennen „Super Mini“ unter den zugelassenen Scheiben, ohne einen Durchmesser anzugeben, und der Wurfplan jedes Standes muss Spezialgrößen wie 90, 70 und 60 mm ausweisen. Die Compak® Sporting-Regeln erlauben jede Standard- oder Spezialscheibe, auch 60 mm. Im Alltag ist eine Mini meist 60 mm groß, manche Wurfpläne nennen aber auch 70-mm-Scheiben, und Hersteller verwenden die Namen nicht einheitlich. Kleine Scheiben wirken schnell und weit entfernt. Die Größe in Millimetern auf dem Wurfplan lesen und die Vorführung genau beobachten.",
    "alt": [
     "Minischeibe",
-    "Super Mini"
+    "Super Mini",
+    "Super-Mini"
    ],
    "conf": "high",
    "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
@@ -594,7 +598,7 @@ window.GLOSSARY_I18N.de = {
   "interruption": {
    "term_local": "Unterbrechung",
    "short": "Eine Pause im Schießen, etwa wegen eines plötzlichen Gewitters oder eines Maschinenausfalls.",
-   "long": "Im Sporting kann der Schiedsrichter, im Compak der Head Referee, das Schießen ausnahmsweise bei einem plötzlichen heftigen Schauer oder einem schweren Gewitter unterbrechen, das voraussichtlich kurz ist, und muss die Jury informieren, wenn es länger dauern wird. Während jeder Unterbrechung werden die Flinten geöffnet und entladen und nur mit Erlaubnis des Schiedsrichters geschlossen. Fällt eine Maschine aus oder ruht das Schießen mehr als 10 Minuten, werden die Scheiben erneut gezeigt: im Sporting die Scheiben dieses Standes, im Compak die 6 Einzelscheiben."
+   "long": "Im Sporting kann der Schiedsrichter, im Compak der Head Referee, das Schießen ausnahmsweise bei einem plötzlichen heftigen Schauer oder einem schweren Gewitter unterbrechen, das voraussichtlich kurz ist, und muss die Jury informieren, wenn es länger dauern wird. Während jeder Unterbrechung werden die Flinten geöffnet und entladen und nur mit Erlaubnis des Schiedsrichters geschlossen. Danach werden die Scheiben erneut gezeigt: im Sporting die Scheiben dieses Standes, wenn eine Maschine ausgefallen ist oder das Schießen mehr als 10 Minuten geruht hat; im Compak die 6 Einzelscheiben, wenn die Pause mehr als 10 Minuten gedauert hat."
   },
   "electronic-refereeing": {
    "term_local": "Elektronische Schiedsrichter- und Ergebniserfassung",
@@ -658,7 +662,7 @@ window.GLOSSARY_I18N.de = {
   "shotgun": {
    "term_local": "Flinte",
    "short": "Die glattläufige Jagdwaffe, die im Sporting und Compak verwendet wird.",
-   "long": "Jede Jagdflinte darf verwendet werden, auch Selbstlader, mit einem Kaliber von höchstens 12 und Läufen von mindestens 66 cm (26 Zoll) Länge. Vorderschaftrepetierer (Pump-Guns) sind nicht erlaubt, und die Compak-Regeln verbieten auch Drillinge. Riemen und Gurte, an der Flinte befestigte Mikrokameras und jede künstliche Zielhilfe sind verboten. Niemand darf ohne Erlaubnis die Flinte eines anderen Schützen berühren, und zwei Schützen derselben Rotte dürfen sich keine Flinte teilen. Schüsse, die vor einer Kontrolle mit einer nicht regelkonformen Flinte oder Munition abgegeben wurden, zählen als Null.",
+   "long": "Jede Jagdflinte darf verwendet werden, auch Selbstlader, mit einem Kaliber von höchstens 12 und Läufen von mindestens 66 cm (26 Zoll) Länge. Vorderschaftrepetierer (Pump-Guns) sind nicht erlaubt, und die Compak-Regeln verbieten auch Drillinge. Riemen und Gurte, an der Flinte befestigte Mikrokameras und jede künstliche Zielhilfe sind verboten. Niemand darf ohne Erlaubnis die Flinte eines anderen Schützen berühren, und zwei Schützen derselben Rotte dürfen sich keine Flinte teilen. Im Compak® Sporting zählen Schüsse, die vor einer Kontrolle mit einer nicht regelkonformen Flinte oder Munition abgegeben wurden, als Null.",
    "disciplines": {
     "sporting": "Flinte, Choke oder Lauf dürfen zwischen den Ständen oder zwischen Einzelscheiben und Doubletten ohne Verzögerung gewechselt werden; nie auf dem Stand.",
     "compak": "Kein Wechsel innerhalb einer Serie (außer nach einer Störung); eine Flinte darf nur von einem Schützen einer anderen Gruppe geliehen werden."
@@ -1082,7 +1086,7 @@ window.GLOSSARY_I18N.de = {
   "senior": {
    "term_local": "Senior (Senioren)",
    "short": "Die FITASC-Altersklasse von 56 bis 65, nicht die Hauptklasse der Erwachsenen.",
-   "long": "Senior reicht vom 1. Januar des Jahres, in dem ein Schütze 56 wird, bis zum Ende des Jahres, in dem er 65 wird; für 2027 heißt das: geboren 1962 bis 1971. Für Übersetzer ist das eine Falle: Bei der FITASC bedeutet Senior nicht Erwachsene allgemein, sondern die Altersgruppe 56–65, während die Hauptklasse der Erwachsenen Men ist. Eine Senioren-Mannschaft hat 3 Schützen aus den Klassen Senior, Veteran oder Master. In anderen Sportarten, in älteren Ergebnissen und in manchen nationalen Ausschreibungen kann Senior Erwachsene allgemein bedeuten, daher die Tabelle des jeweiligen Wettkampfs prüfen."
+   "long": "Senior reicht vom 1. Januar des Jahres, in dem ein Schütze 56 wird, bis zum Ende des Jahres, in dem er 65 wird; für 2027 heißt das: geboren 1962 bis 1971. Für Neulinge und Übersetzer ist das eine Falle: Bei der FITASC bedeutet Senior nicht Erwachsene allgemein, sondern die Altersgruppe 56–65, während die Hauptklasse der Erwachsenen Men ist. Eine Senioren-Mannschaft hat 3 Schützen aus den Klassen Senior, Veteran oder Master. In anderen Sportarten, in älteren Ergebnissen und in manchen nationalen Ausschreibungen kann Senior Erwachsene allgemein bedeuten, daher die Tabelle des jeweiligen Wettkampfs prüfen."
   },
   "veteran": {
    "term_local": "Veteran",
@@ -1153,7 +1157,7 @@ window.GLOSSARY_I18N.de = {
   "load-weight": {
    "term_local": "Vorlage",
    "short": "Das Schrotgewicht einer Patrone; die FITASC erlaubt bis zu 28 g Blei mit einer Toleranz von +2 %.",
-   "long": "Die Vorlage ist in Gramm auf der Schachtel angegeben, in Großbritannien und den USA oft in Unzen (1 oz sind etwa 28 g). Die FITASC-Regeln für Sporting™ und Compak® Sporting begrenzen die Vorlage auf 28 g Bleischrot mit einer Toleranz von +2 %. Die gängigsten Wurfscheibenvorlagen sind 24 und 28 g; 21–24 g ist beliebt für Training, Junioren und Anfänger. Eine schwerere Vorlage bringt mehr Schrote in die Garbe, schlägt aber auch stärker, was über einen Tag mit 100–200 Schüssen ermüdet. Der Schiedsrichter kann die Patronen eines Schützen prüfen, und Schüsse mit nicht regelkonformer Munition zählen als Fehler.",
+   "long": "Die Vorlage ist in Gramm auf der Schachtel angegeben, in Großbritannien und den USA oft in Unzen (1 oz sind etwa 28 g). Die FITASC-Regeln für Sporting™ und Compak® Sporting begrenzen die Vorlage auf 28 g Bleischrot mit einer Toleranz von +2 %. Die gängigsten Wurfscheibenvorlagen sind 24 und 28 g; 21–24 g ist beliebt für Training, Junioren und Anfänger. Eine schwerere Vorlage bringt mehr Schrote in die Garbe, schlägt aber auch stärker, was über einen Tag mit 100–200 Schüssen ermüdet. Der Schiedsrichter kann die Patronen eines Schützen prüfen; im Compak® Sporting zählen Schüsse mit nicht regelkonformen Patronen vor der Kontrolle als Null.",
    "alt": [
     "Schrotvorlage",
     "Schrotladung"
@@ -1165,7 +1169,7 @@ window.GLOSSARY_I18N.de = {
   "velocity": {
    "term_local": "Geschwindigkeit (Schrotgeschwindigkeit)",
    "short": "Die Schrotgeschwindigkeit auf der Schachtel (m/s oder fps); Hersteller messen sie in unterschiedlichem Abstand von der Mündung.",
-   "long": "Bei Wurfscheibenpatronen liegt die Geschwindigkeit meist bei etwa 370–450 m/s. Europäische Hersteller geben sie oft 1 m oder 2,5 m vor der Mündung an (gekennzeichnet V1, V2,5), amerikanische in Fuß pro Sekunde bei etwa 1 m, daher bedeutet dieselbe Zahl nicht immer dieselbe Patrone. Eine schnellere Patrone verkürzt die Flugzeit des Schrots etwas, schlägt aber stärker, und ihre Deckung ist nicht unbedingt besser. Die meisten Trainer raten, nicht der Geschwindigkeit nachzujagen, sondern eine Patrone zu wählen, die man konstant und ohne Ermüdung schießt. Manche Anlagen, besonders für Stahlschrot, begrenzen die Patronengeschwindigkeit."
+   "long": "Bei Wurfscheibenpatronen liegt die Geschwindigkeit meist bei etwa 360–430 m/s (rund 1.200–1.400 fps). Hersteller messen sie unterschiedlich: Nach den C.I.P.-Regeln, an die sich europäische Hersteller halten, wird sie 2,5 m vor der Mündung gemessen (V2,5), manche Schachteln nennen V1 auf 1 m, und amerikanische Hersteller geben Fuß pro Sekunde an, gemessen etwa 3 Fuß (0,9 m) vor der Mündung. Dieselbe Zahl bedeutet daher nicht immer dieselbe Patrone. Eine schnellere Patrone verkürzt die Flugzeit des Schrots etwas, schlägt aber stärker, und ihre Deckung ist nicht unbedingt besser. Viele Trainer raten, nicht der Geschwindigkeit nachzujagen, sondern eine Patrone zu wählen, die man konstant und ohne Ermüdung schießt. Manche Anlagen, besonders für Stahlschrot, begrenzen die Patronengeschwindigkeit."
   },
   "recoil": {
    "term_local": "Rückstoß",
@@ -1200,7 +1204,7 @@ window.GLOSSARY_I18N.de = {
   "low-recoil-cartridge": {
    "term_local": "Rückstoßarme Patrone (Light-Patrone)",
    "short": "Eine Patrone mit leichterer Vorlage und weicherem Rückstoß; gut geeignet für Kinder und Anfänger.",
-   "long": "Diese Patronen haben eine leichtere Vorlage (im Kaliber 12 oft 21–24 g) und moderate Geschwindigkeit, daher stoßen sie spürbar weicher in die Schulter. Für junge Schützen und Anfänger ist das wichtig: Starker Rückstoß ermüdet sie schnell, und die Angst davor erzeugt die Gewohnheit, vor dem Schuss zu zucken. Auf nahe und mittlere Scheiben bricht eine leichte Vorlage die Scheiben recht zuverlässig. Ob ein Selbstlader mit leichten Ladungen zuverlässig repetiert, hängt vom Modell ab, daher im Training testen. Am besten wählt man die Vorlage gemeinsam mit einem Trainer."
+   "long": "Diese Patronen haben eine leichtere Vorlage (im Kaliber 12 oft 21–24 g) und moderate Geschwindigkeit, daher stoßen sie spürbar weicher in die Schulter. Für junge Schützen und Anfänger ist das wichtig: Starker Rückstoß ermüdet sie schnell, und die Angst davor erzeugt die Gewohnheit, vor dem Schuss zu zucken. Auf nahe und mittlere Scheiben bricht eine leichte Vorlage die Scheiben recht zuverlässig. Ob ein Selbstlader mit leichten Ladungen zuverlässig repetiert, hängt vom Modell ab, daher im Training testen. Die Vorlage wählt man gemeinsam mit einem Trainer."
   },
   "pattern": {
    "term_local": "Deckung",
@@ -1343,7 +1347,7 @@ window.GLOSSARY_I18N.de = {
   "pattern-plate": {
    "term_local": "Anschussplatte (Beschussscheibe)",
    "short": "Eine Stahlplatte, die zeigt, wo die Schrote auftreffen; dient zur Prüfung von Chokes und Schaftpassung.",
-   "long": "Eine Anschussplatte wird gestrichen oder eingefettet, und nach einem Schuss ist der Abdruck jedes Schrotkorns deutlich sichtbar. Das Bild zeigt, wie breit und gleichmäßig die Garbe auf einer bestimmten Entfernung mit einem bestimmten Choke und einer bestimmten Patrone ist. Noch wichtiger: Es zeigt, wohin die Flinte relativ zum Zielpunkt schießt; so wird die Schaftpassung geprüft. Am besten mit einem Trainer oder Schaftmacher, denn ein einzelner Schuss sagt wenig aus. Nicht jede Anlage hat eine Platte, daher vorher nachfragen."
+   "long": "Eine Anschussplatte wird gestrichen oder eingefettet, und nach einem Schuss ist der Abdruck jedes Schrotkorns deutlich sichtbar. Das Bild zeigt, wie breit und gleichmäßig die Garbe auf einer bestimmten Entfernung mit einem bestimmten Choke und einer bestimmten Patrone ist. Noch wichtiger: Es zeigt, wohin die Flinte relativ zum Zielpunkt schießt; so wird die Schaftpassung geprüft. Das geht leichter mit einem Trainer oder Schaftmacher, denn ein einzelner Schuss sagt wenig aus. Nicht jede Anlage hat eine Platte, daher vorher nachfragen."
   },
   "choke-grease": {
    "term_local": "Chokefett",
@@ -1399,7 +1403,7 @@ window.GLOSSARY_I18N.de = {
   "comb": {
    "term_local": "Schaftrücken",
    "short": "Die Oberkante des Schafts, auf der die Wange liegt; ihre Höhe bestimmt, wo das Auge über der Schiene sitzt.",
-   "long": "Der Schaftrücken wirkt wie die Kimme der Flinte: Das Auge landet dort, wo die Wange es hinbringt. Ein zu hoher Schaftrücken lässt die Flinte hoch schießen, ein zu niedriger tief, und der Schütze sieht weniger Schiene. Viele Sportflinten haben einen verstellbaren Schaftrücken, der sich anheben, absenken oder seitlich verschieben lässt. Im Sporting™ bezieht sich die Regel zur Bereitschaftsstellung auf den höchsten Teil des Schafts: Vor dem Abruf muss sein hinteres Ende unter der Linie an der Weste bleiben, bis die Scheibe erscheint. Den Schaftrücken stellt man am besten mit einem Trainer oder Schaftmacher ein.",
+   "long": "Der Schaftrücken wirkt wie die Kimme der Flinte: Das Auge landet dort, wo die Wange es hinbringt. Ein zu hoher Schaftrücken lässt die Flinte hoch schießen, ein zu niedriger tief, und der Schütze sieht weniger Schiene. Viele Sportflinten haben einen verstellbaren Schaftrücken, der sich anheben, absenken oder seitlich verschieben lässt. Im Sporting™ bezieht sich die Regel zur Bereitschaftsstellung auf den höchsten Teil des Schafts: Vor dem Abruf muss sein hinteres Ende unter der Linie an der Weste bleiben, bis die Scheibe erscheint. Den Schaftrücken stellt man gemeinsam mit einem Trainer oder Schaftmacher ein.",
    "alt": [
     "Schaftkamm"
    ],
@@ -1652,7 +1656,7 @@ window.GLOSSARY_I18N.de = {
   "looper": {
    "term_local": "Looper",
    "short": "Eine Scheibe, die einen Bogen durch die Luft fliegt und die Richtung ändert.",
-   "long": "Ein Looper (im französischen Sprachgebrauch Chandelle) fliegt im Bogen: Er steigt, kippt über den Scheitelpunkt und fällt, während er sich seitlich bewegt. Für solche Flugbahnen werden oft Battue-Scheiben verwendet, die sich im Flug drehen und erst die Kante, dann die Fläche zeigen. Die Hauptschwierigkeit ist der ständige Wechsel von Richtung und Geschwindigkeit, daher müssen die Läufe der Kurve genau folgen, statt sie abzuschneiden. Viele Schützen nehmen einen Looper nahe dem Scheitelpunkt, wo er sich am langsamsten bewegt. Die Vorführung genau beobachten und einen Treffpunkt wählen.",
+   "long": "Ein Looper fliegt einen weiten Bogen: Er steigt, kippt über den Scheitelpunkt und fällt, während er sich seitlich bewegt. Für solche Flugbahnen werden oft Battue-Scheiben verwendet, die sich im Flug drehen und erst die Kante, dann die Fläche zeigen. Die Hauptschwierigkeit ist der ständige Wechsel von Richtung und Geschwindigkeit, daher müssen die Läufe der Kurve folgen, statt sie abzuschneiden. Viele Schützen nehmen einen Looper nahe dem Scheitelpunkt, wo er sich am langsamsten bewegt. Die Namen sind von Land zu Land verschieden: Eine Chandelle ist eine andere, steilere Flugbahn, und im Französischen heißt „chandelle“ oft eine fast senkrecht steigende Scheibe (Teal). Die Vorführung genau beobachten und einen Treffpunkt wählen.",
    "alt": [
     "Bogentaube"
    ],
@@ -1751,7 +1755,7 @@ window.GLOSSARY_I18N.de = {
   "hold-point": {
    "term_local": "Waffenhaltepunkt",
    "short": "Wo der Schütze die Mündungen im Moment des Abrufs hält.",
-   "long": "Der Haltepunkt wird auf der Flugbahn zwischen Maschine und Treffpunkt gewählt, meist etwas unterhalb der Fluglinie. Sind die Mündungen zu nah an der Maschine, läuft ihnen die Scheibe davon; sind sie zu weit weg, muss die Flinte auf die Scheibe warten und die Bewegung wird abrupt. Ein guter Haltepunkt erlaubt, die Bewegung mit der Scheibe zu beginnen und flüssig auf sie zu kommen. Im Sporting™ ist die Flinte beim Abruf unten, im Compak® Sporting darf der Schütze sie bereits angeschlagen halten, doch wohin die Mündungen zeigen, ist in beiden Disziplinen wichtig.",
+   "long": "Der Haltepunkt liegt meist zwischen Aufnahmepunkt und Treffpunkt, auf der Fluglinie der Scheibe oder etwas darunter. Sind die Mündungen zu nah an der Maschine, läuft ihnen die Scheibe davon und die Flinte muss ihr hinterherjagen; sind sie zu weit draußen, bleibt kaum Weg für die Bewegung mit der Scheibe, und der Schütze neigt zum Stochern oder Anhalten. Ein guter Haltepunkt erlaubt, die Bewegung mit der Scheibe zu beginnen und flüssig auf sie zu kommen. Die genaue Stelle hängt von der Scheibe und von der Vorhaltemethode ab, daher den Trainer fragen. Im Sporting™ ist die Flinte beim Abruf unten, im Compak® Sporting darf der Schütze sie bereits angeschlagen halten, doch wohin die Mündungen zeigen, ist in beiden Disziplinen wichtig.",
    "disciplines": {
     "sporting": "Flinte unten vor dem Abruf: das hintere Ende des höchsten Schaftteils unterhalb der Westenmarkierung; Anschlag erst, wenn die Scheibe erscheint.",
     "compak": "Die Flintenhaltung beim Abruf ist frei: Man darf mit bereits angeschlagener Flinte abrufen."
@@ -1857,7 +1861,7 @@ window.GLOSSARY_I18N.de = {
   "warm-up": {
    "term_local": "Aufwärmen",
    "short": "Vorbereitung vor dem Schießen: Bewegung und einige leichte Scheiben.",
-   "long": "Das Aufwärmen bereitet Körper und Augen auf das Schießen vor. Einige Minuten Bewegung für Nacken, Schultern, Rücken und Hüften senken das Verletzungsrisiko und machen die Flintenbewegung flüssiger. Wenn die Anlage es erlaubt, eine Einheit mit einigen leichten Scheiben beginnen, um Rhythmus und Selbstvertrauen zu finden, bevor man zu schweren übergeht. Vor einem Wettkampf ist Training auf den Wettkampfflugbahnen nicht erlaubt, daher auf separaten Trainingsständen aufwärmen. Trockenanschläge nur dort, wo das erlaubt ist, mit entladener, geprüfter Flinte."
+   "long": "Das Aufwärmen bereitet Körper und Augen auf das Schießen vor. Einige Minuten Bewegung für Nacken, Schultern, Rücken und Hüften senken das Verletzungsrisiko und machen die Flintenbewegung flüssiger. Wenn die Anlage es erlaubt, eine Einheit mit einigen leichten Scheiben beginnen, um Rhythmus und Selbstvertrauen zu finden, bevor man zu schweren übergeht. Vor einem Wettkampf hängen die Regeln von der Disziplin ab. Im Sporting™ darf niemand auf den Wettkampf-Parcours trainieren, daher auf anderen Ständen aufwärmen. Im Compak® Sporting ist Training auf den Wettkampfflugbahnen erlaubt, aber mit anderen Einstelltabellen; bei Kontinental- und Weltmeisterschaften beginnt das offizielle Training erst am Samstag vor dem Start. Trockenanschläge nur dort, wo das erlaubt ist, mit entladener, geprüfter Flinte."
   },
   "dry-mounting": {
    "term_local": "Trockentraining",
@@ -1882,7 +1886,7 @@ window.GLOSSARY_I18N.de = {
   "coach": {
    "term_local": "Trainer",
    "short": "Ein Trainer, der einem Schützen Technik, Sicherheit und Wettkampfvorbereitung beibringt.",
-   "long": "Ein Trainer baut ab der ersten Stunde sichere Gewohnheiten auf, prüft das Führungsauge, stellt Stand und Anschlag ein, hilft bei der Wahl von Flinte und Patronen und plant das Training. Fehler sind von außen viel leichter zu sehen, daher arbeiten auch erfahrene Schützen mit einem Trainer. Bei FITASC-Wettkämpfen ist Coaching eines Teilnehmers während des Schießens verboten: Der Teilnehmer erhält eine Gelbe Karte, und der Schiedsrichter verweist die coachende Person aus dem Schießbereich. Das Trainerverzeichnis von ClayArena hilft, einen Trainer nach Disziplin zu finden, und ClayAway-Touren ermöglichen Training mit einem Trainer auf Reisen. Qualifikationen und Referenzen eines Trainers prüfen.",
+   "long": "Ein Trainer baut ab der ersten Stunde sichere Gewohnheiten auf, prüft das Führungsauge, stellt Stand und Anschlag ein, hilft bei der Wahl von Flinte und Patronen und plant das Training. Fehler sind von außen viel leichter zu sehen, daher arbeiten auch erfahrene Schützen mit einem Trainer. Bei FITASC-Wettkämpfen ist Coaching eines Teilnehmers während des Schießens verboten: Der Teilnehmer erhält eine Gelbe Karte, und der Schiedsrichter verweist die coachende Person aus dem Schießbereich. Das Trainerverzeichnis von ClayArena hilft, einen Trainer nach Disziplin zu finden, und ClayAway-Touren (in Vorbereitung) sollen Training mit einem Trainer auf Reisen ermöglichen. Qualifikationen und Referenzen eines Trainers prüfen.",
    "alt": [
     "Schießlehrer",
     "Flintentrainer",
@@ -1894,7 +1898,7 @@ window.GLOSSARY_I18N.de = {
   "process-goal": {
    "term_local": "Prozessziel",
    "short": "Ein Ziel, das sich auf die Handlung statt auf das Ergebnis bezieht: etwa die Routine bei jeder Scheibe durchzuführen.",
-   "long": "Ein Prozessziel beschreibt etwas, das der Schütze vollständig kontrolliert: die Wange am Schaft halten, jedes Mal die Routine durchführen, den Treffpunkt vor dem Abruf wählen. Ergebnisziele wie „90 von 100 treffen“ oder „unter die ersten drei kommen“ hängen auch von Konkurrenten, Wetter und Parcours ab. Die Konzentration auf den Prozess senkt den Druck, besonders bei jungen Schützen, und hilft, nach einem Fehler zur nächsten Scheibe zurückzufinden. Eltern und Trainern wird geraten, die Handlungen zu loben, nicht nur das Ergebnis. Das Ergebnis folgt aus einem gut ausgeführten Prozess."
+   "long": "Ein Prozessziel beschreibt etwas, das der Schütze vollständig kontrolliert: die Wange am Schaft halten, jedes Mal die Routine durchführen, den Treffpunkt vor dem Abruf wählen. Ergebnisziele wie „90 von 100 treffen“ oder „unter die ersten drei kommen“ hängen auch von Konkurrenten, Wetter und Parcours ab. Die Konzentration auf den Prozess senkt den Druck, besonders bei jungen Schützen, und hilft, nach einem Fehler zur nächsten Scheibe zurückzufinden. Eltern und Trainern wird geraten, die Handlungen zu loben, nicht nur das Ergebnis. Ein gutes Ergebnis folgt oft aus einem gut ausgeführten Prozess."
   },
   "cease-fire": {
    "term_local": "Feuer einstellen (Stopp)",
@@ -2026,12 +2030,12 @@ window.GLOSSARY_I18N.de = {
   "shooting-cap": {
    "term_local": "Schießkappe (Schirmmütze)",
    "short": "Eine Schirmmütze, die die Augen beschattet und Regen von der Brille fernhält.",
-   "long": "Eine Schirmmütze schützt die Augen vor der Sonne und verringert Blendung auf den Gläsern, und bei Regen hält sie Tropfen von der Brille fern. Der Schirm sollte nicht zu lang sein, sonst verdeckt er hohe Scheiben. Eine Mütze schützt auch etwas vor Scheibensplittern und vor starker Sonne an einem langen Tag auf der Anlage. Unter Kapselgehörschutz passt eine Mütze ohne hohe Seitennähte am besten. Die FITASC-Regeln regeln Mützen als solche nicht, doch die Kleidung muss ordentlich und angemessen sein."
+   "long": "Eine Schirmmütze schützt die Augen vor der Sonne und verringert Blendung auf den Gläsern, und bei Regen hält sie Tropfen von der Brille fern. Der Schirm sollte nicht zu lang sein, sonst verdeckt er hohe Scheiben. Eine Mütze schützt auch etwas vor Scheibensplittern und vor starker Sonne an einem langen Tag auf der Anlage. Unter Kapselgehörschutz passt eine Mütze ohne hohe Seitennähte besser. Die FITASC-Regeln regeln Mützen als solche nicht, doch die Kleidung muss ordentlich und angemessen sein."
   },
   "club-shoot": {
    "term_local": "Vereinsschießen (Clubwettkampf)",
    "short": "Ein Wettkampf, den ein Schützenverein oder eine Anlage ausrichtet; der Veranstalter legt Format und Scheibenzahl fest.",
-   "long": "Ein Vereinsschießen ist der beste Ort für den ersten Wettkampf. Es findet oft am Wochenende statt, meist mit weniger Scheiben als große Wettkämpfe (zum Beispiel 50 oder 100), und die Atmosphäre ist ruhiger. Der Veranstalter bestimmt Format, Scheibenzahl, Klassen und einen Teil der Regeln, daher die Ausschreibung genau lesen. Die Regeln liegen oft nah an der FITASC, es kann aber Vereinfachungen für Anfänger oder lokale Klassen geben. Es ist ein einfacher Weg, sich ohne zu viel Stress an Zeitplan, Rotte und Schiedsrichter zu gewöhnen."
+   "long": "Ein Vereinsschießen ist ein guter Ort für den ersten Wettkampf. Es findet oft am Wochenende statt, meist mit weniger Scheiben als große Wettkämpfe (zum Beispiel 50 oder 100), und die Atmosphäre ist ruhiger. Der Veranstalter bestimmt Format, Scheibenzahl, Klassen und einen Teil der Regeln, daher die Ausschreibung genau lesen. Die Regeln liegen oft nah an der FITASC, es kann aber Vereinfachungen für Anfänger oder lokale Klassen geben. Es ist ein einfacher Weg, sich ohne zu viel Stress an Zeitplan, Rotte und Schiedsrichter zu gewöhnen."
   },
   "championship": {
    "term_local": "Meisterschaft",
@@ -2090,12 +2094,12 @@ window.GLOSSARY_I18N.de = {
   "shooter-profile": {
    "term_local": "Schützenprofil",
    "short": "Die Seite eines Schützen auf ClayArena mit seinen Wettkämpfen und wichtigen Kennzahlen.",
-   "long": "Ein Schützenprofil bündelt die Wettkämpfe im Sporting™ und Compak® Sporting, deren Ergebnisse auf ClayArena stehen, und zeigt wichtige Kennzahlen wie Trefferquote und Bestergebnis. Man erreicht es über die Ergebnistabelle eines Wettkampfs oder findet es über die Namenssuche. Namen auf der Website werden in lateinischen Buchstaben geschrieben, wie in den Wettkampfunterlagen; lässt sich ein Nachname unterschiedlich transliterieren, mehrere Schreibweisen ausprobieren. Die Daten stammen aus den Schießzetteln der Wettkämpfe, daher findet die wichtigste Kontrolle auf der Anlage statt. Am besten nutzt man ein Profil, um sich über eine Saison mit sich selbst zu vergleichen."
+   "long": "Ein Schützenprofil bündelt die Wettkämpfe im Sporting™ und Compak® Sporting, deren Ergebnisse auf ClayArena stehen, und zeigt wichtige Kennzahlen wie Trefferquote und Bestergebnis. Man erreicht es über die Ergebnistabelle eines Wettkampfs oder findet es über die Namenssuche. Namen auf der Website werden in lateinischen Buchstaben geschrieben, wie in den Wettkampfunterlagen; lässt sich ein Nachname unterschiedlich transliterieren, mehrere Schreibweisen ausprobieren. Die Daten stammen aus den Schießzetteln der Wettkämpfe; prüfen Sie Ihren Schießzettel deshalb schon auf der Anlage: Im Profil steht, was der Schiedsrichter notiert hat. Ein Profil eignet sich gut, um sich über eine Saison mit sich selbst zu vergleichen."
   },
   "clayaway": {
    "term_local": "ClayAway",
-   "short": "Der Service von ClayArena für organisierte Trainingstouren mit einem Trainer.",
-   "long": "ClayAway ist der Teil von ClayArena, in dem ein Trainer oder Organisator eine Gruppe von Schützen für eine Trainingstour zusammenstellt und der Schütze ein einziges Paket kauft. Das Paket kann Training auf Schießanlagen, Unterkunft, Transfers, ein gemeinsames Programm und bei Bedarf einen Dolmetscher umfassen. Organisator kann der Trainer sein, aber auch ein Verein, eine Anlage oder eine Agentur. Touren werden nach dem Trainer oder dem Ort plus Format benannt, zum Beispiel „<Name des Trainers> Training Week“. Zeiten im Tourprogramm werden in der Zeitzone des Veranstaltungsortes mit Angabe der Zone genannt, und die Regeln für die Einfuhr von Flinte und Patronen in das Tourland müssen im Voraus geprüft werden."
+   "short": "Der geplante Service von ClayArena für organisierte Trainingstouren mit einem Trainer (in Vorbereitung).",
+   "long": "ClayAway ist ein Teil von ClayArena, der gerade vorbereitet wird: Ein Trainer oder Organisator stellt eine Gruppe von Schützen für eine Trainingstour zusammen, und der Schütze kauft ein einziges Paket. Das Paket kann Training auf Schießanlagen, Unterkunft, Transfers, ein gemeinsames Programm und bei Bedarf einen Dolmetscher umfassen. Organisator kann der Trainer sein, aber auch ein Verein, eine Anlage oder eine Agentur. Touren werden nach dem Trainer oder dem Ort plus Format benannt, zum Beispiel „<Name des Trainers> Training Week“. Zeiten im Tourprogramm werden in der Zeitzone des Veranstaltungsortes mit Angabe der Zone genannt, und die Regeln für die Einfuhr von Flinte und Patronen in das Tourland müssen im Voraus geprüft werden."
   },
   "accuracy": {
    "term_local": "Trefferquote",
@@ -2150,12 +2154,12 @@ window.GLOSSARY_I18N.de = {
   "jet-lag": {
    "term_local": "Jetlag",
    "short": "Gestörter Schlaf und verminderte Wachheit nach einem Flug über mehrere Zeitzonen; vergeht meist in einigen Tagen.",
-   "long": "Nach einem Flug über mehrere Zeitzonen passt die innere Uhr nicht zur Ortszeit: Man ist tagsüber müde, schläft nachts schwer, und Reaktion und Konzentration leiden. Das ist beim Schießen wichtig, denn Präzision und Konzentration lassen als Erstes nach. Daher wird für weit entfernte Wettkämpfe geraten, einige Tage früher anzureisen, sofort auf Ortszeit umzustellen, Zeit bei Tageslicht zu verbringen und Wasser zu trinken. Ein ClayAway-Tourprogramm nennt die Zeiten in der Zeitzone des Veranstaltungsortes mit Angabe der Zone, damit man den Zeitplan nicht verwechselt. Schlafmittel oder Medikamente mit einem Arzt besprechen."
+   "long": "Nach einem Flug über mehrere Zeitzonen passt die innere Uhr nicht zur Ortszeit: Man ist tagsüber müde, schläft nachts schwer, und Reaktion und Konzentration leiden. Das ist beim Schießen wichtig, denn Präzision und Konzentration lassen als Erstes nach. Daher wird für weit entfernte Wettkämpfe geraten, einige Tage früher anzureisen, sofort auf Ortszeit umzustellen, Zeit bei Tageslicht zu verbringen und Wasser zu trinken. Ein ClayAway-Tourprogramm (in Vorbereitung) wird die Zeiten in der Zeitzone des Veranstaltungsortes mit Angabe der Zone nennen, damit man den Zeitplan nicht verwechselt. Schlafmittel oder Medikamente mit einem Arzt besprechen."
   },
   "invitation-letter": {
    "term_local": "Einladungsschreiben",
    "short": "Ein Schreiben des Wettkampfveranstalters oder der Anlage mit Name, Veranstaltung, Ort und Daten; es belegt den Grund für die Reise mit einer Waffe.",
-   "long": "Ein Einladungsschreiben ist das häufigste Dokument, das den Grund einer Reise mit Waffe belegt. Es nennt den Namen, die Bezeichnung des Wettkampfs oder der Tour, Ort und Daten und manchmal die Daten der Flinte. In der EU wird es zusammen mit dem Europäischen Feuerwaffenpass vorgelegt, außerhalb der EU wird es oft für eine vorübergehende Einfuhrgenehmigung benötigt. Es wird häufig an der Grenze oder am Flughafen verlangt, daher rechtzeitig anfordern und eine gedruckte Kopie bei den übrigen Dokumenten aufbewahren. Veranstalter von ClayAway-Touren und internationalen Wettkämpfen wissen meist genau, welches Schreiben nötig ist."
+   "long": "Ein Einladungsschreiben ist das häufigste Dokument, das den Grund einer Reise mit Waffe belegt. Es nennt den Namen, die Bezeichnung des Wettkampfs oder der Tour, Ort und Daten und manchmal die Daten der Flinte. In der EU wird es zusammen mit dem Europäischen Feuerwaffenpass vorgelegt, außerhalb der EU wird es oft für eine vorübergehende Einfuhrgenehmigung benötigt. Es wird häufig an der Grenze oder am Flughafen verlangt, daher rechtzeitig anfordern und eine gedruckte Kopie bei den übrigen Dokumenten aufbewahren. Veranstalter internationaler Wettkämpfe wissen meist, welches Schreiben nötig ist."
   },
   "temporary-import-permit": {
    "term_local": "Vorübergehende Einfuhrgenehmigung",
@@ -2170,7 +2174,7 @@ window.GLOSSARY_I18N.de = {
   "iata": {
    "term_local": "IATA",
    "short": "Die Internationale Luftverkehrs-Vereinigung; ihre Gefahrgutregeln legen fest, wie Passagiere Patronen befördern dürfen.",
-   "long": "Patronen gelten im Luftverkehr als Gefahrgut. Nach den IATA-Regeln sind einem Passagier meist bis zu 5 kg brutto Sportmunition für den Eigenbedarf erlaubt, nur im aufgegebenen Gepäck und sicher verpackt, am besten in den Originalschachteln des Herstellers. Eine Schachtel mit 25 Patronen im Kaliber 12 wiegt rund ein Kilogramm, 5 kg sind also nur etwa fünf Schachteln. Viele Fluggesellschaften sind strenger: ein niedrigeres Limit, getrennte Verpackung von der Waffe oder ein vollständiges Verbot. Vor jedem Flug die Anforderungen der Fluggesellschaft prüfen; Patronen für einen Wettkampf kauft man oft leichter am Zielort."
+   "long": "Patronen gelten im Luftverkehr als Gefahrgut. Nach den IATA-Regeln sind einem Passagier meist bis zu 5 kg brutto Sportmunition für den Eigenbedarf erlaubt, nur im aufgegebenen Gepäck und sicher verpackt, möglichst in den Originalschachteln des Herstellers. Eine Schachtel mit 25 Patronen im Kaliber 12 wiegt rund ein Kilogramm, 5 kg sind also nur etwa fünf Schachteln. Viele Fluggesellschaften sind strenger: ein niedrigeres Limit, getrennte Verpackung von der Waffe oder ein vollständiges Verbot. Vor jedem Flug die Anforderungen der Fluggesellschaft prüfen; Patronen für einen Wettkampf kauft man oft leichter am Zielort."
   },
   "barrel": {
    "term_local": "Lauf",
@@ -2304,7 +2308,7 @@ window.GLOSSARY_I18N.de = {
   "hard-focus": {
    "term_local": "harter Fokus (Hard Focus)",
    "conf": "low",
-   "short": "Scharfer, konzentrierter Blick auf die Scheibe selbst, am besten auf ihre Vorderkante."
+   "short": "Scharfer, konzentrierter Blick auf die Scheibe selbst, oft auf ihre Vorderkante."
   },
   "leading-edge": {
    "term_local": "Vorderkante",
@@ -2321,15 +2325,11 @@ window.GLOSSARY_I18N.de = {
    "conf": "low",
    "short": "Wie schnell der ganze Schuss abläuft, abgestimmt auf die Scheibe; der Rhythmus ist seine Gleichmäßigkeit."
   },
-  "fly-over-rectangle": {
-   "term_local": "Rechteck (Überflugrechteck)",
-   "conf": "low",
-   "short": "Die vorgeschriebene Zone im Compak® Sporting, 35–40 m breit und 25 m tief, durch Eckpfähle markiert; jede Scheibe muss darüber fliegen."
-  },
   "waiting-position": {
    "term_local": "Warteposition",
    "conf": "low",
-   "short": "Beim Rottenschießen im Compak® der Platz hinter Position 1, an dem der sechste Schütze auf seinen Einsatz wartet."
+   "short": "Der Platz, an dem ein Schütze auf seinen Einsatz wartet: im Sporting™ der Warteplatz der Rotte nahe am Stand; beim Rottenschießen im Compak® der Platz hinter Position 1 für den sechsten Schützen.",
+   "long": "Im Parcours de Chasse – Sporting™ sind die Wartepositionen die Plätze, an denen der Rest der Rotte steht, während einer schießt: so nah wie möglich am Stand, ohne den Schützen zu stören und im Rahmen der Sicherheitsregeln. Beim Rottenschießen im Compak® Sporting wartet der sechste Schütze hinter Position 1. Wenn der Schütze auf Position 5 seinen Wurfplan beendet hat, geht er hinter Position 1 warten, alle anderen rücken eine Position nach rechts, und der wartende Schütze tritt auf Position 1."
   },
   "show-clear": {
    "term_local": "Flinte offen zeigen",
@@ -2365,11 +2365,6 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Splitter (Chip)",
    "conf": "low",
    "short": "Ein Treffer, bei dem nur ein kleines Stück von der Scheibe abbricht; er zählt, wenn das Stück sichtbar ist."
-  },
-  "smoke-ball": {
-   "term_local": "pulverisiert (Smoked it)",
-   "conf": "low",
-   "short": "Trainerjargon für einen perfekten, zentralen Treffer, der die Scheibe zu Staub macht; nicht dasselbe wie „nur Staub oder Rauch“ in den Regeln, was ein Fehler ist."
   },
   "checking": {
    "term_local": "Abbremsen (Checking)",
@@ -2466,11 +2461,6 @@ window.GLOSSARY_I18N.de = {
    "conf": "low",
    "short": "Dolmetschen im Wechsel: Der Redner macht eine Pause, dann spricht der Dolmetscher."
   },
-  "hand-signals": {
-   "term_local": "Handzeichen",
-   "conf": "low",
-   "short": "Gesten, mit denen ein Trainer am Stand lautlos Anweisungen gibt."
-  },
   "false-friend": {
    "term_local": "falscher Freund",
    "conf": "low",
@@ -2479,7 +2469,7 @@ window.GLOSSARY_I18N.de = {
   "smoked-it": {
    "term_local": "pulverisiert (Smoked it)",
    "conf": "low",
-   "short": "Trainerjargon für einen perfekten Treffer; nicht dasselbe wie „nur Staub oder Rauch“ in den Regeln, was eine Null ist."
+   "short": "Trainerjargon für einen sauberen, zentralen Treffer, der die Scheibe zu Staub macht; nicht dasselbe wie „nur Staub oder Rauch“ in den Regeln, was als Fehler (Null) gilt."
   },
   "peg": {
    "term_local": "Peg (Schießstelle)",
@@ -2529,17 +2519,12 @@ window.GLOSSARY_I18N.de = {
   "instinctive-shooting": {
    "term_local": "instinktives Schießen",
    "conf": "low",
-   "short": "Schießen mit hartem Fokus auf die Scheibe und ohne bewusstes Vorhalten; Anschlag und Schwung erfolgen zusammen (Churchill-Schule)."
+   "short": "Schießen mit hartem Fokus auf die Scheibe und ohne bewusstes Vorhalten; Anschlag und Schwung erfolgen zusammen."
   },
   "national-federation": {
    "term_local": "nationaler Verband",
    "conf": "low",
    "short": "Der Dachverband eines Landes für diesen Sport; Mitglied der FITASC, genehmigt nationale Parcours und zertifiziert Schiedsrichter."
-  },
-  "super-mini": {
-   "term_local": "Super-Mini",
-   "conf": "low",
-   "short": "Bezeichnung in der FITASC-Sporting™-Liste zugelassener Scheiben für die kleinste Scheibe; die Menü-Regel nennt 70 mm und 60 mm, und Hersteller verwenden „Mini“ und „Super Mini“ unterschiedlich, also gelten die Millimeter."
   },
   "blazed-target": {
    "term_local": "orange Scheibe (Blaze)",

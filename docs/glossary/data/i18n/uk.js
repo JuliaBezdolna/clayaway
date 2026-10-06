@@ -539,7 +539,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "супер-міні"
    ],
-   "note": "Loanword.",
+   "note": "Loanword; go by the millimetres.",
    "conf": "medium"
   },
   "battue": {
@@ -690,9 +690,7 @@ window.GLOSSARY_I18N.uk = {
   },
   "looper": {
    "term_local": "дуга",
-   "alt": [
-    "шандель"
-   ],
+   "note": "Not a chandelle: names vary between countries.",
    "conf": "low"
   },
   "chandelle": {
@@ -799,18 +797,15 @@ window.GLOSSARY_I18N.uk = {
    "conf": "low"
   },
   "pick-up-point": {
-   "term_local": "точка зустрічі з мішенню",
+   "term_local": "точка підхоплення",
    "alt": [
     "де бачу мішень"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "break-point": {
-   "term_local": "точка розбиття",
-   "alt": [
-    "точка пострілу"
-   ],
-   "conf": "low"
+   "term_local": "точка пострілу",
+   "conf": "medium"
   },
   "ready-position": {
    "term_local": "вихідне положення",
@@ -821,12 +816,12 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "gun-mount": {
-   "term_local": "вкидка",
+   "term_local": "вкладка",
    "alt": [
-    "вкладка",
+    "вкладати рушницю",
     "підйом рушниці до плеча"
    ],
-   "note": "Rules: «підняти рушницю до плеча»; «вкладка» also seen.",
+   "note": "Rules: «підняти рушницю до плеча»; verb «вкладати / вкласти рушницю». One term everywhere: «вкладка».",
    "conf": "medium",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
@@ -887,8 +882,9 @@ window.GLOSSARY_I18N.uk = {
    "conf": "low"
   },
   "dry-mounting": {
-   "term_local": "холості вкидки",
+   "term_local": "вкладка без пострілу",
    "alt": [
+    "холості вкладки",
     "холосте тренування"
    ],
    "note": "Rules: «холосте тренування».",
@@ -896,12 +892,12 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "pre-shot-routine": {
-   "term_local": "передпострільна рутина",
+   "term_local": "передпостріловий ритуал",
    "alt": [
-    "рутина",
+    "ритуал",
     "підготовка до пострілу"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "coach": {
    "term_local": "тренер",
@@ -1107,11 +1103,11 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "mock-shooting": {
-   "term_local": "холосте прицілювання",
+   "term_local": "імітація стрільби",
    "alt": [
-    "прицілювання",
-    "холосте тренування"
+    "холосте прицілювання"
    ],
+   "note": "Official Ukrainian rules also say «холосте прицілювання».",
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },

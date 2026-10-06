@@ -381,6 +381,17 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 
 <section id="seo">
   <h2>SEO та індексація</h2>
+<div class="note" id="fitasc-noindex" style="border:2px solid #FBBF24;background:rgba(251,191,36,.08);border-radius:12px;padding:14px 16px;margin:14px 0">
+  <b>⚠ Важливо для команди: правила FITASC і тренажер закриті від пошукових систем (noindex) — свідомо, до окремого рішення.</b>
+  <ul>
+    <li><b>Що закрито:</b> довідник правил <code>/rules/</code> (Sporting™, Compak® Sporting, обидві мови), сторінка категорій, тренажер правил <code>/rules/trainer/</code>. Їх немає в <code>sitemap.xml</code> і в <code>llms.txt</code>. Сайт ними користується як завжди: посилання з академії, глосарію й турів працюють.</li>
+    <li><b>Чому:</b> ми пишемо правила своїми словами й не публікуємо PDF FITASC, але довідник іде за регламентом розділ за розділом; на регламентах FITASC зазначено, що їх не можна відтворювати; назви дисциплін — торговельні марки FITASC. Тому, поки немає письмового дозволу FITASC, обираємо найобережніший варіант.</li>
+    <li><b>Що відкрито:</b> уроки Академії ClayArena (зокрема блок «Правила») і глосарій — це наші навчальні тексти, вони індексуються.</li>
+    <li><b>Хто вирішує:</b> власник проєкту (за потреби — з юристом ClayArena) після відповіді FITASC. Рішення ще не ухвалене.</li>
+    <li><b>Як увімкнути індексацію:</b> у <code>scripts/build_seo.mjs</code> змінити <code>FITASC_INDEX = false</code> на <code>true</code>, перезібрати сайт (<code>bun scripts/build_seo.mjs</code>) і додати ці сторінки в <code>llms.txt</code>. Без рішення власника не вмикати.</li>
+  </ul>
+</div>
+
   <p>Мета — органічний трафік на глосарій і Академію (а після дозволу FITASC — і на правила та тренажер), не відкриваючи внутрішніх документів.</p>
   <div class="tbl"><table>
     <thead><tr><th>Сторінка</th><th>Індексація</th><th>Чому</th></tr></thead>
@@ -432,6 +443,7 @@ footer{margin-top:56px;color:var(--muted);font-size:12.5px;border-top:1px solid 
 
 <section id="legal">
   <h2>Легальність контенту і права</h2>
+  <p><b>Правила FITASC і тренажер — <code>noindex</code> до письмового дозволу FITASC</b> (деталі й причини — у розділі <a href="#fitasc-noindex">SEO та індексація</a>).</p>
   <p>Загальне правило для всіх проєктів ClayArena / ClayAway: публікуємо лише те, на що маємо право, і завжди показуємо джерело. Перед публічним запуском блок перевіряє юрист (це ТЗ, а не юридична консультація).</p>
   <div class="tbl"><table>
     <thead><tr><th>Що</th><th>Правило</th></tr></thead>

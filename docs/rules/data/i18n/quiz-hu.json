@@ -1,7 +1,7 @@
 {
  "ui": {
   "svc": "Szabálytréner",
-  "svcS": "ClayAway · FITASC",
+  "svcS": "ClayArena · FITASC",
   "title": "{d} szabálytréner",
   "lead": "Tesztelje, mennyire ismeri a szabályokat: helyzetek a lőállásban, számok és határértékek, igaz vagy hamis. Minden válasz után magyarázatot kap, valamint hivatkozást a szabályra az útmutatóban és a hivatalos PDF oldalára.",
   "quick": "Gyorsteszt",
@@ -66,8 +66,8 @@
    "q": "A lövő kéri a korongot („pull”). A bíró továbbítja a jelet, de a korong csak kb. öt másodperccel később jelenik meg. A lövő lő és hibáz. Mi a bíró döntése?",
    "options": [
     "Zero – hiba („Nulla”)",
-    "Ismétlés csak akkor, ha a lövő a lövés előtt tiltakozott",
-    "No Bird, a korongot megismétlik"
+    "No Bird, a korongot megismétlik",
+    "Ismétlés csak akkor, ha a lövő a lövés előtt tiltakozott"
    ],
    "explain": "A korongot a bíró jelzésétől számított 3 másodpercen belül ki kell dobni. A később kidobott korong No Bird, bármi is a lövés eredménye."
   },
@@ -83,7 +83,7 @@
   "sp-q005": {
    "q": "Miközben a lövő még a készenléti testhelyzetet veszi fel, és még nem kérte a korongot, a puller kidob egy korongot. A lövő nem lő. Mi a bíró döntése?",
    "options": [
-    "Zero, mert a lövőnek mindig készen kell állnia",
+    "Sárga lap, utána megismétlik a korongot",
     "Zero – hiba („Nulla”)",
     "No Bird, a korongot megismétlik"
    ],
@@ -102,7 +102,7 @@
    "q": "Szóló korong a B dobógépből. Éppen a lövés pillanatában egy néző telefonja hangosan megszólal közvetlenül a lőállás mögött; a lövő láthatóan összerándul és hibáz. Mi a bíró döntése?",
    "options": [
     "Zero – hiba („Nulla”)",
-    "Zero, a külső zaj soha nem ok",
+    "Csak a zsűri beleegyezésével ismétlik",
     "No Bird, a korongot megismétlik"
    ],
    "explain": "Ha a lövőt nyilvánvalóan megzavarták, a bíró No Birdöt hirdet, és a korongot megismétlik. Azt, hogy a zavarás nyilvánvaló volt-e, a bíró ítéli meg."
@@ -124,13 +124,13 @@
     "Egy és egy",
     "No Bird, a dublét megismétlik"
    ],
-   "explain": "Bármilyen dublénál, ha egy lövés mindkét korongot eltalálja, mindkettő számít: egy és egy."
+   "explain": "Itt maga a lövés törte el mindkét korongot, így bármilyen dublénál mindkettő számít: egy és egy. Más a helyzet, ha az első korong egy darabja töri el a másodikat a második lövés előtt (vadászdublé): ekkor a dublét megismétlik, és az első eredmény megmarad."
   },
   "sp-q010": {
    "q": "Rafale dublé. A két korong szabályosan jön ki, de a lövő leengedi a fegyvert, és egyikre sem lő, érvényes ok nélkül. Mi a bíró döntése?",
    "options": [
-    "No Bird, a dublét megismétlik",
     "Nulla és nulla",
+    "No Bird, a dublét megismétlik",
     "Nulla az első korongra, a másodikat megismétlik"
    ],
    "explain": "Ha a lövő érvényes ok nélkül nem lő a szabályos korongra, az hiba; rafale vagy szimultán dublénál ez nulla és nulla."
@@ -147,12 +147,12 @@
   "sp-q012": {
    "q": "Vadászdublé. A lövő eltalálja az első korongot, és annak egyik darabja szétveri a második korongot, mielőtt a lövő leadhatná a második lövést. Mi a bíró döntése?",
    "options": [
-    "A dublét megismétlik, semmi sem marad meg",
-    "Egy és nulla",
-    "Egy és egy",
-    "A dublét megismétlik, az első korong találata megmarad"
+    "Ismétlés; semmi sem marad meg",
+    "Egy és nulla, a dublé érvényes",
+    "Egy és egy, a dublé érvényes",
+    "Ismétlés; az első korong találata megmarad"
    ],
-   "explain": "Ha az első korong vagy annak darabjai a második lövés előtt eltalálják a második korongot, a dublét megismétlik, és az első korong eredménye megmarad."
+   "explain": "Itt a második korongot az első egy darabja törte el, nem lövés, mégpedig a második lövés előtt. Ez tehát nem „egy és egy”: a dublét megismétlik, és az első korong eredménye megmarad. Más a helyzet, ha egyetlen lövés töri el mindkét korongot: akkor egy és egy."
   },
   "sp-q013": {
    "q": "Szimultán dublé. A két korong közül az egyik szabálytalan röppályán jön ki; a lövő a másikat eltalálja. Mi a bíró döntése?",
@@ -166,9 +166,9 @@
   "sp-q014": {
    "q": "Nyúl szóló korongként. Az első lövés hibázik, majd a nyúl egy kőnek ütközik és eltörik, mielőtt a lövő a második csövet elsütné. Mi a bíró döntése?",
    "options": [
-    "Zero – hiba („Nulla”)",
-    "No Bird; az ismétlésnél csak a második lövéssel elért találat számít",
-    "One – találat („Egy”)"
+    "Zero: az első lövés már hibázott",
+    "No Bird; az ismétlésnél csak a második lövés számít",
+    "One: a nyúl eltört, tehát számít"
    ],
    "explain": "Ez No Bird, a nyulat megismétlik, de az ismétlésnél csak a második lövéssel elért találat számít; ha az első lövéssel találja el, az hiba."
   },
@@ -176,13 +176,13 @@
    "q": "A kör első fegyverhibája: szóló korongnál az első töltény csütörtököt mond. A lövő mozdulatlan marad, a csövet a lőtér felé tartja, és a második csövet nem süti el. A bíró ellenőrzi a fegyvert. Mi a bíró döntése?",
    "options": [
     "No Bird figyelmeztetéssel; a korongot megismétlik",
-    "Zero – hiba („Nulla”)",
-    "Zero, de figyelmeztetés nélkül"
+    "Zero és figyelmeztetés a csütörtök miatt",
+    "No Bird figyelmeztetés nélkül; a korongot megismétlik"
    ],
    "explain": "Egy körön belül az első fegyver- vagy lőszerhiba figyelmeztetést és No Birdöt jelent, a szóló korongot megismétlik. Az adott körben a további hibák nullát érnek."
   },
   "sp-q016": {
-   "q": "Ugyanabban a körben később ugyanannál a lövőnél egy szóló korong első lövésénél másodszor is csütörtököt mond a töltény. Szabályosan megvárja a bíró ellenőrzését. Mi a bíró döntése?",
+   "q": "Korábban ebben a körben a lövőnél már egyszer csütörtököt mondott az első lövés (első eset, figyelmeztetés). Most egy szóló korongnál ismét csütörtököt mond az első lövés, és a lövő szabályosan megvárja a bíró ellenőrzését. Mi a bíró döntése?",
    "options": [
     "No Bird, a korongot megismétlik",
     "Zero – hiba („Nulla”)",
@@ -193,9 +193,9 @@
   "sp-q017": {
    "q": "A töltény csütörtököt mond. A lövő bosszúsan azonnal megtöri a fegyvert, hogy megnézze a csappantyút, mielőtt a bíró odaérne. Mi a bíró döntése?",
    "options": [
-    "Zero – hiba („Nulla”)",
     "No Bird, a korongot megismétlik",
-    "No Bird, ha ez a kör első hibája"
+    "No Bird, ha ez a kör első hibája",
+    "Zero – hiba („Nulla”)"
    ],
    "explain": "Hibás működés után a lövőnek a helyén kell maradnia, a csövet a lőtér felé tartva, és nem nyithatja ki a fegyvert, nem nyúlhat a biztosítóhoz, amíg a bíró meg nem vizsgálta. Különben a korong hiba."
   },
@@ -203,7 +203,7 @@
    "q": "Szóló korong, a kör első hibája. Az első cső nem sül el, de a lövőnek sikerül elsütnie a második csövet, és hibáz. Mi a bíró döntése?",
    "options": [
     "No Bird, a korongot megismétlik",
-    "No Bird, mert az első lövés nem sült el",
+    "A korongot egy tölténnyel megismétlik",
     "Zero – hiba („Nulla”)"
    ],
    "explain": "Az első lövés hibája általában No Bird, de ha a lövő mégis leadja a második lövést, az számít, és a korong eredménye úgy marad, ahogy lett: itt nulla."
@@ -221,8 +221,8 @@
    "q": "Rafale dublé, a kör első hibája: az első korongra mindkét cső egyszerre sül el. Mi a bíró döntése?",
    "options": [
     "Az első korong eredménye számít, a másodikat megismétlik",
-    "Nulla és nulla",
-    "Az egész dublét megismétlik, eredményt nem rögzítenek"
+    "Az egész dublét megismétlik, eredményt nem rögzítenek",
+    "Nulla és nulla"
    ],
    "explain": "Vadászdublé első korongjánál, valamint szimultán és rafale dublénál beduplázás esetén az egész dublét megismétlik, eredmény rögzítése nélkül."
   },
@@ -245,11 +245,11 @@
    "explain": "Ha a lövő a korong megjelenése előtt vállba veszi a fegyvert, vagy nem a 3.1 szerinti készenléti testhelyzetben van, először szóbeli figyelmeztetést kap, sárga lappal megerősítve."
   },
   "sp-q023": {
-   "q": "Ugyanazon a lőpályán, két lőállással később ugyanaz a lövő megint úgy kér szóló korongot, hogy a tusa a lőmellényen lévő jelölővonal felett van. Mi a bíró döntése?",
+   "q": "Korábban ezen a pályán a lövő sárga lapot kapott a fegyvertartás miatt. Két lőállással később ismét szóló korongot kér úgy, hogy a tus a mellényen lévő jel fölött van. Mi a bíró döntése?",
    "options": [
     "Piros lap; a korongot megismétlik",
-    "Piros lap; a korong nulla",
-    "Újabb sárga lap"
+    "Újabb sárga lap",
+    "Piros lap; a korong nulla"
    ],
    "explain": "Az első figyelmeztetés után ugyanazon a lőpályán minden további vétség piros lapot ér, szóló korongnál a korong nulla."
   },
@@ -266,8 +266,8 @@
    "q": "A bíró szóló korongnál „No Bird”-öt kiált, a lövő mégis rálő a korongra. Ez az első eset. Mi a bíró döntése?",
    "options": [
     "Figyelmeztetés; a korongot megismétlik",
-    "Egy, ha eltalálja",
-    "Azonnal nulla"
+    "Egy, ha a lövő eltalálja",
+    "Azonnal nulla, figyelmeztetés nélkül"
    ],
    "explain": "A kihirdetett No Birdre soha nem szabad lőni. Első alkalommal a lövő figyelmeztetést kap; csak a figyelmeztetés után alkalmazzák a 12.2 szerinti nullás büntetéseket."
   },
@@ -292,9 +292,9 @@
   "sp-q028": {
    "q": "Amikor a nevét szólítják, egy lövő lövészszemüveg nélkül lép a lőállásba, és azt mondja, a kocsiban felejtette. Mi a bíró döntése?",
    "options": [
-    "Azonnali kizárás",
-    "Ezt a lőállást lelőheti, utána elhozza a szemüveget",
-    "Távollévőnek tekintik, és a késésre/távolmaradásra vonatkozó szabály (16.7) érvényes"
+    "Távollévőnek számít: a 16.7. szabály érvényes",
+    "Azonnali kizárás a versenyből",
+    "Lelőheti ezt a lőállást, aztán elhozza"
    ],
    "explain": "A lövészszemüveg kivétel nélkül kötelező. A lőállásban szemüveg nélkül álló lövőt távollévőnek tekintik, és a 16.7 pont érvényes."
   },
@@ -302,10 +302,10 @@
    "q": "A bíró egy korongot nullának ítél. A rotte egy másik tagja kérés nélkül hangosan mondja: „Ez egyértelműen találat volt, láttam egy darabot!” Mi a bíró döntése?",
    "options": [
     "A bírónak egyre kell módosítania a döntését",
-    "A döntés marad; a rotte tagjai nem avatkozhatnak be, a nyílt kritika a bíró befolyásolásának számít",
-    "A korong No Bird lesz"
+    "A döntés marad; a nyílt kritika befolyásolásnak számít",
+    "A korong No Bird lesz, és megismétlik"
    ],
-   "explain": "A bíró egyedül dönt; a rotte tagjainak nincs joguk megjegyzést tenni. Ha mások engedély nélkül nyíltan bírálják a döntést, az a bíró befolyásolására tett kísérlet (13. fejezet szerinti büntetések)."
+   "explain": "A bíró egyedül dönt. A rotte tagjainak nincs joguk beavatkozni, és ha valaki kérés nélkül nyíltan bírálja a döntést, az a bíró befolyásolására tett kísérletnek számít (13. fejezet szerinti büntetések)."
   },
   "sp-q030": {
    "q": "Egy lövő úgy gondolja, hogy az utolsó korongja találat volt, de nem szól, kéri a következő korongot, és csak ezután tesz óvást az előző miatt. Mi a bíró döntése?",
@@ -314,7 +314,7 @@
     "Az óvást meghallgatják, és a bíró újragondolja",
     "Késő: a következő korong kérésével elfogadta a döntést"
    ],
-   "explain": "A következő korong kérésével a lövő elfogadja a bíró döntését az előzőről; minden kifogást ezelőtt kell jeleznie."
+   "explain": "Az új korongkérés azt jelenti, hogy a lövő elfogadja az előző korong értékelését. Aki nem ért egyet, annak ezt a következő kérés előtt kell jeleznie."
   },
   "sp-q031": {
    "q": "Egy keresztező korongot közvetlenül egy fa mögött talál el a lövő. A bíró úgy ítéli, hogy természetes akadály mögött lőtte, és nullát ad. A lövő fellebbezni akar. Mi a bíró döntése?",
@@ -328,9 +328,9 @@
   "sp-q032": {
    "q": "Egy lövő akkor érkezik a lőpályához, amikor a rottéja még az 1. lőállás szóló korongjait lövi, és ő még nem került sorra. Mi a bíró döntése?",
    "options": [
+    "Büntetés nélkül csatlakozik",
     "Az 1. lőállás szóló korongjai nullák",
-    "A lőpályát egy másik rottéban kell lelőnie",
-    "Büntetés nélkül csatlakozik"
+    "A lőpályát egy másik rottéban kell lelőnie"
    ],
    "explain": "A késő lövő, aki még azelőtt érkezik, hogy az első lőállás szóló korongjainál lekéste volna a sorát, büntetés nélkül csatlakozik a rottéhoz."
   },
@@ -381,7 +381,7 @@
     "Az első korong kidobása után 3–5 másodperccel",
     "Amikor a lövő másodszor is kéri"
    ],
-   "explain": "A vadászdublé második korongját 0–3 másodperccel azután dobják ki, hogy a lövő az elsőre lőtt; a lövés indítja."
+   "explain": "Vadászdublénál az első korongra leadott lövés indítja a másodikat: az a lövés után 0–3 másodperccel jön ki."
   },
   "sp-q038": {
    "q": "Legfeljebb mennyi idő telhet el két szóló korong vagy két dublé között?",
@@ -407,11 +407,11 @@
    "q": "Mekkora egy Sporting töltény legnagyobb töltetsúlya?",
    "options": [
     "24 g",
-    "28 g (tűrés +2%)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "A töltet nem haladhatja meg a 28 g ólmot, legfeljebb +2%-os tűréssel."
+   "explain": "Egy töltény legfeljebb 28 g ólomsörétet tartalmazhat; legfeljebb +2% tűrést fogadnak el."
   },
   "sp-q041": {
    "q": "Milyen sörétátmérő megengedett?",
@@ -497,11 +497,11 @@
    "q": "A bemutatáskor hányszor kérheti a lőállásban álló lövő, hogy egy korongot újra lásson?",
    "options": [
     "Lőállásonként egyszer",
-    "A kotta minden korongjából legfeljebb 2 korongot",
-    "Dobógépenként legfeljebb 3 korongot",
+    "Programkorongonként legfeljebb 2",
+    "Dobógépenként legfeljebb 3",
     "Ahányszor csak szükséges"
    ],
-   "explain": "Kérésre a bíró megismétli a bemutatást, a kotta minden korongjából legfeljebb két korongig."
+   "explain": "Ha a lőállásban álló lövő kéri, a bíró újra megmutatja a röppályákat, de a program minden korongjára legfeljebb két korongot."
   },
   "sp-q050": {
    "q": "Előre nem tervezett szétlövésnél a szólítástól számítva mennyi időn belül kell a lövőknek készen állniuk?",
@@ -521,7 +521,7 @@
     "Legalább 8 hónappal",
     "Legalább 12 hónappal"
    ],
-   "explain": "A lőteret és a szervezési tervet legalább nyolc hónappal a verseny előtt be kell mutatni a FITASC képviselőjének."
+   "explain": "A FITASC képviselőjének legkésőbb nyolc hónappal a verseny előtt látnia kell a pályát és a szervezési tervet."
   },
   "sp-q052": {
    "q": "A korongok mekkora részét kell egy átlagos lövőnek eltalálnia ahhoz, hogy egy röppálya B osztályú legyen?",
@@ -568,12 +568,12 @@
    "explain": "Igaz, vadászdublénál, szimultán és rafale dublénál is. A szabad fegyvertartás csak a két korong között érvényes; az első korong előtt a készenléti testhelyzet továbbra is kötelező."
   },
   "sp-q057": {
-   "q": "A nyúlra csípőből is szabad lőni, mert a talajon fut.",
+   "q": "A nyúlra vállhoz emelt fegyverrel kell lőni, mint bármely más korongra.",
    "options": [
     "Igaz",
     "Hamis"
    ],
-   "explain": "Hamis. Minden korongra, a nyulat is beleértve, vállba vett fegyverrel kell lőni."
+   "explain": "Igaz. Minden korongra, a nyulat is beleértve, vállhoz emelt fegyverrel lőnek; csípőből lőni nem szabad."
   },
   "sp-q058": {
    "q": "A bemutatáskor a vadászdublékat a rotte első lövőjének bemutatják.",
@@ -616,12 +616,12 @@
    "explain": "Igaz. Mindenkinek, aki a lőpályán vagy annak közelében tartózkodik, fülvédőt kell viselnie; a fülvédő nélküli lövőt távollévőnek tekintik (16.7)."
   },
   "sp-q063": {
-   "q": "A versenyből kizárt lövő visszakapja a le nem lőtt korongokra eső nevezési díjat.",
+   "q": "A versenyből kizárt lövő sem visszatérítést, sem kártérítést nem kap a le nem lőtt korongokért.",
    "options": [
     "Igaz",
     "Hamis"
    ],
-   "explain": "Hamis. A kizárt lövő semmilyen visszatérítést vagy anyagi kártérítést nem kap."
+   "explain": "Igaz. A kizárt lövő semmilyen pénzt nem kap vissza, és semmilyen anyagi kártérítést sem kap."
   },
   "sp-q064": {
    "q": "Hirtelen halálos (sudden death) szétlövésben vadászdublénál az „egy-nulla” és a „nulla-egy” ugyanannyit ér.",
@@ -643,18 +643,18 @@
    "q": "A bíró alábbi döntései közül melyik ellen LEHET a zsűrihez fellebbezni?",
    "options": [
     "Hogy a korong találat vagy hiba volt-e",
+    "Piros lap a fegyvertartás miatt",
     "Hogy a korong No Bird volt-e",
-    "Hogy a röppálya szabályos volt-e",
-    "Piros lap a fegyvertartás miatt"
+    "Hogy a röppálya szabályos volt-e"
    ],
    "explain": "A röppályára, a No Birdre és a találat/hiba kérdésére vonatkozó döntés nem vihető a zsűri elé. Minden más bírói döntés ellen írásban, 40%-os letéttel lehet fellebbezni."
   },
   "sp-q067": {
    "q": "A zsűri elutasítja a lövő fellebbezését. Mi lesz a letéttel?",
    "options": [
+    "A FITASC elnöke által választott jótékony célra",
     "A rendező klubé lesz",
-    "A FITASC elnöke által kiválasztott jótékony célra kerül",
-    "Mindenképp visszajár",
+    "Mindenképp visszakapja a lövő",
     "A díjalapba kerül"
    ],
    "explain": "Ha a fellebbezésnek helyt adnak, a letétet visszafizetik; ha nem, a FITASC elnöke által kiválasztott jótékony célra kerül."
@@ -672,9 +672,9 @@
   "sp-q069": {
    "q": "A bíró kétségben van egy döntéssel kapcsolatban. Kivel konzultálhat, és milyen hatással?",
    "options": [
-    "Egy másik bíróval, a pullerrel vagy a rotte lövőivel, csak tanácsként; ezután a döntése végleges",
+    "Másik bíró, korongdobó vagy rotte; csak tanács",
     "Csak a zsűrivel; a véleménye kötelező",
-    "Senkivel; No Birdöt kell hirdetnie",
+    "Senkivel; a kétes korong mindig No Bird",
     "A lövő edzőjével, akinek a véleménye dönt"
    ],
    "explain": "A bíró egy másik bírót, a pullert vagy a rotte lövőit kérdezheti meg, kizárólag tanácsként; a véleményük nem köti, és ezután a döntése végleges."
@@ -684,47 +684,47 @@
    "options": [
     "A korong színével",
     "Betűkkel jobbról balra, a puller felől nézve",
-    "A, B, C, D betűkkel balról jobbra, a lőállásból nézve",
-    "1–4 számokkal, a lövés sorrendjében"
+    "1–4 számokkal, a lövés sorrendjében",
+    "A, B, C, D betűkkel balról jobbra, a lőállásból nézve"
    ],
    "explain": "A dobógépeket A, B, C és D betűvel jelölik, balról jobbra olvasva, a lőállásból nézve; a kotta és az eredménylap is ezt használja."
   },
   "sp-q071": {
    "q": "Egy lőállásnál 3 dobógép és 2 dublé van. Melyik kombináció NEM megengedett?",
    "options": [
-    "Két szimultán dublé",
-    "Két rafale dublé",
-    "Egy szimultán és egy rafale dublé",
-    "Két vadászdublé"
+    "Egy szimultán és egy vadászdublé",
+    "Két vadászdublé",
+    "Egy rafale és egy vadászdublé",
+    "Egy szimultán és egy rafale dublé"
    ],
-   "explain": "Egy ilyen lőállásnál a dublék lehetnek szimultánok, rafale-ok vagy mindkettő, de két vadászdublé nem megengedett."
+   "explain": "Egy ilyen lőállásnál a két dublé közül legalább az egyiknek szimultánnak vagy rafale-nak kell lennie. Két vadászdublé nem megengedett."
   },
   "sp-q072": {
    "q": "Melyik szabály vonatkozik a dublék összeállítására egy lőállásnál?",
    "options": [
-    "C osztályú röppálya a dublékban csak egyszer szerepelhet, ideálisan egy A osztályú koronggal",
+    "A C osztály legfeljebb egyszer szerepel a dublékban",
     "A dubléknak mindig vadászdubléknak kell lenniük",
-    "A dublékban lehetnek új, szóló korongként be nem mutatott röppályák",
-    "Két C osztályú korongból lesz a legjobb dublé"
+    "A dublék használhatnak szólóként nem mutatott röppályát",
+    "Két C osztályú korongból lesz az ajánlott dublé"
    ],
-   "explain": "A dublék csak az adott lőállásból szóló korongként már bemutatott korongokat használnak; C osztály csak egyszer szerepelhet, legjobb A-val párosítva. B + B és B + A megengedett."
+   "explain": "A dublék csak az adott lőállásból szóló korongként már bemutatott korongokat használnak; C osztály csak egyszer szerepelhet, lehetőleg A-val párosítva. B + B és B + A megengedett."
   },
   "sp-q073": {
-   "q": "Az alábbiak közül melyik NEM tartozik a zsűri büntetései közé ismételt vétség, utasítás megtagadása vagy a bíró befolyásolása esetén?",
+   "q": "Egy lövő megismétel egy szabálysértést, megtagadja az engedelmességet, vagy megpróbálja befolyásolni a bírót. Melyik szankciót NEM szabhatja ki a zsűri?",
    "options": [
     "Kizárás a versenyből",
     "Egy korong elvesztése",
     "Egy 25 korongos kör elvesztése",
     "Pénzbírság"
    ],
-   "explain": "A zsűri büntetési fokozatai: egy korong elvesztése, egy 25 korongos kör elvesztése vagy kizárás. Pénzbírság nincs köztük."
+   "explain": "A zsűrinek három lehetősége van: levon egy korongot, levon egy 25 korongos kört, vagy kizárja a lövőt a versenyből. Pénzbírság nincs köztük."
   },
   "sp-q074": {
    "q": "A kör alatt egy edző a lőállás mögül folyamatosan mondja a lövőjének, hová tartsa a fegyvert. Mit tesz a bíró?",
    "options": [
-    "Sárga lap a versenyzőnek, az edzőt pedig kiküldik a lőterületről",
     "A lövő azonnali kizárása",
-    "Nulla a lövő következő korongjára",
+    "Sárga lap a lövőnek; az edzőt elküldik",
+    "Nulla a lövő következő korongjára, lap nélkül",
     "Semmit; a korongok között szabad edzői tanácsot adni"
    ],
    "explain": "Verseny közben az edzői irányítás tilos: a versenyző sárga lapot kap (ismétlés esetén a 13. fejezet érvényes), az edzőt pedig eltávolítják a lőterületről."
@@ -732,19 +732,19 @@
   "sp-q075": {
    "q": "A lövő fegyvere a 2. lőállásnál elromlik, és nem javítható gyorsan. Mit tehet?",
    "options": [
-    "Kérés nélkül használja a puller fegyverét",
+    "Kérés nélkül elvenni bármelyik fegyvert a lőálláson",
     "Kihagyja a lőállást, a korongjait No Birdnek írják",
-    "Később újralövi az egész lőpályát egy általa választott rottéban",
-    "A bíró hozzájárulásával azonnal folytatja egy másik fegyverrel, pl. a tulajdonos beleegyezésével kölcsönkérttel"
+    "A bíró beleegyezésével azonnal folytatni egy másik fegyverrel",
+    "Később a teljes pályát újralőni egy választott rottéval"
    ],
-   "explain": "Ha a fegyver nem javítható, a lövő a bíró hozzájárulásával a rottéval folytathatja, ha azonnal szerez egy másik fegyvert; különben csak a zsűri engedélyével fejezheti be egy másik rotte szabad helyén."
+   "explain": "Ha a fegyver nem javítható, a lövő a bíró beleegyezésével a rottéban maradhat, ha azonnal másik fegyverre vált (például a tulajdonos engedélyével kölcsönkapottra). Különben a hátralévő korongokat csak egy másik rotte szabad helyén lőheti le, a zsűri engedélyével."
   },
   "sp-q076": {
    "q": "Egy fordított sütésű elsütővel lövő versenyzőnél az első korongot No Birdnek nyilvánítják. Mit kell tennie?",
    "options": [
     "Azonnal elengedi az elsütőt, és kinyitja a fegyvert",
-    "Továbbra is behúzva tartja az elsütőt, és új korongot kér, vagy az elsütőt tartva kinyitja a fegyvert, vagy a bíró által mutatott biztonságos irányba lő",
-    "Átadja a fegyvert a bírónak",
+    "Tartja az elsütőt; új korong, fegyvernyitás vagy biztonságos lövés",
+    "Kinyitás nélkül átadja a fegyvert a bírónak",
     "A lőállás előtti talajba lő"
    ],
    "explain": "Az elsütőt behúzva kell tartania, és három biztonságos lehetőség közül választhat: új korongot kér, az elsütőt tartva kinyitja a fegyvert, vagy a bíró által mutatott biztonságos irányba lő."
@@ -753,39 +753,39 @@
    "q": "Mit kell tennie a bírónak az eredménylappal, mielőtt a rotte a következő lőállásra megy?",
    "options": [
     "Futárral elküldi az eredményjelzőhöz",
-    "Minden lövővel aláíratja",
-    "Átadja a zsűrinek",
-    "Lefényképezi, és csillagot tesz annak a lövőnek a neve elé, aki viszi"
+    "Aláíratja a rotte minden lövőjével",
+    "Rögtön átadja a zsűrinek",
+    "Lefényképezi, és csillaggal jelöli, ki viszi"
    ],
-   "explain": "A bíró lefényképezi a lapot, és csillagot tesz annak a versenyzőnek a neve elé, akire rábízza; minden lőálláshoz más színű ceruzát használnak."
+   "explain": "Mielőtt a rotte továbbmegy, a bíró lefényképezi a lapot, és csillagot tesz annak a lövőnek a neve elé, aki viszi. Minden lőállásnak saját ceruzaszíne van."
   },
   "sp-q078": {
    "q": "Melyik öltözet elfogadható egy versenyző számára?",
    "options": [
     "Bermudanadrág, póló és szandál",
     "Rövid futónadrág és póló",
-    "Skeetmellény, alatta semmi",
-    "Térd felett 4 cm-rel végződő hosszú bermudanadrág, rövid ujjú galléros póló, zárt cipő"
+    "Bermuda 4 cm-rel a térd fölött, póló, zárt cipő",
+    "Skeetmellény, alatta semmi"
    ],
-   "explain": "Csak a legfeljebb 5 cm-rel a térd felett végződő hosszú bermudanadrág fogadható el; az ingnek legalább rövid ujjúnak kell lennie, gallérral vagy kerek nyakkal; mellény nem viselhető csupasz bőrön; szandál nem megengedett."
+   "explain": "A bermuda rendben van, ha legfeljebb 5 cm-rel a térd fölött végződik; az ingnek ujja kell (a rövid is elég) és gallérja vagy kerek nyaka; nem lehet mellény csupasz bőrön, és nem lehet szandál."
   },
   "sp-q079": {
    "q": "Két lövő holtversenyben van az 5. helyen. Hogyan döntik el a sorrendjüket?",
    "options": [
-    "Hirtelen halálos szétlövéssel",
-    "Sorsolással",
-    "25 korongos szétlövéssel",
-    "Osztoznak a helyen, és fordított sorrendű összevetéssel szerepelnek a 8. lőpályától az 1.-ig"
+    "Közös hely; sorrend összevetéssel a 8. pályától",
+    "Hirtelen halálos szétlövés köztük",
+    "Sorsolással a verseny után",
+    "Szétlövés 25 koronggal"
    ],
    "explain": "Szétlövést csak az első három helyért tartanak. A harmadik hely alatt a holtversenyben lévők osztoznak a helyen, és fordított sorrendű összevetéssel szerepelnek a 8. lőpályától az 1.-ig."
   },
   "sp-q080": {
    "q": "Egy lőállás bírója szerint az egyik röppálya túl könnyű. Megváltoztathatja?",
    "options": [
-    "Nem; hibás röppályát csak dobógéphiba vagy rendkívüli időjárás után állíthat vissza, ha a korong nem jelenik meg vagy veszélyes",
+    "Nem; csak hibás röppályát lehet kijavítani, meghatározott esetekben",
     "Igen, miután értesítette a főbírót",
-    "Igen, ha a rotte beleegyezik",
-    "Igen, két kör között"
+    "Igen, ha az egész rotte egyetért",
+    "Igen, de csak két kör között"
    ],
    "explain": "A zsűri és a pályaépítők által beállított röppályák rögzítettek. A bíró csak dobógéphiba vagy rendkívüli időjárás után állíthat vissza egy hibás röppályát; ezt pályaépítőnek vagy zsűritagnak célszerű ellenőriznie."
   },
@@ -868,32 +868,32 @@
    "explain": "Igaz. A soros nemzetközi versenyeken csak sonopull indítást használnak, a FITASC által jóváhagyott elektronikus bíráskodással és eredménykezeléssel együtt."
   },
   "cs-q009": {
-   "q": "Szimultán dublénál a lövő az első töltényével mindkét korongot eltalálja. Ezen a Compakon ez először fordul elő vele. Mi a bíró döntése?",
+   "q": "Szimultán dublénál a lövő az első töltényével mindkét korongot eltöri. Ezzel a lövővel ez először fordul elő. Mi a bíró döntése?",
    "options": [
     "ONE-ONE: mindkét korong számít",
     "ONE az első korongra, ZERO a másodikra",
     "NO BIRD: semmit nem írnak be, a dublét megismétlik",
     "ZERO-ZERO"
    ],
-   "explain": "Ha a szimultán dublé mindkét korongja egy lövésre törik, a dublé NO BIRD, és újra lövik; másodszorra ugyanez a helyzet. Csak harmadszorra írják be Zero-Zerónak."
+   "explain": "Ha egyetlen lövés töri el a szimultán dublé mindkét korongját, a dublé NO BIRD, és újra lövik; másodszorra ugyanígy. Csak harmadszorra írnak ZERO-ZERO-t."
   },
   "cs-q010": {
-   "q": "Ugyanazon a Compakon a lövő harmadszor találja el egyetlen tölténnyel a szimultán dublé mindkét korongját. Mi a bíró döntése?",
+   "q": "Egy lövő harmadszor töri el egyetlen tölténnyel a szimultán dublé mindkét korongját. Mi a bíró döntése?",
    "options": [
+    "ZERO-ZERO",
     "NO BIRD — új korongot dobnak",
     "ONE-ONE",
-    "ZERO-ZERO",
     "ONE-ZERO"
    ],
-   "explain": "Első és második alkalommal NO BIRD, a dublét megismétlik; harmadik alkalommal a dublé Zero-Zero."
+   "explain": "Elsőre és másodszorra NO BIRD, és a dublét megismétlik; harmadszorra a dublé ZERO-ZERO. A szabálykönyv nem mondja meg, milyen időszakban számolják az eseteket."
   },
   "cs-q011": {
    "q": "Vadászdublénál az első lövés eltalálja az első korongot, és annak egyik darabja a levegőben a második korongot is eltöri. Mi a bíró döntése?",
    "options": [
     "ONE-ONE: mindkét korong számít",
-    "Az első korong ONE eredménye marad; a dublét a második korong értékeléséért megismétlik",
     "Az egész dublé NO BIRD; semmit nem írnak be",
-    "ONE-ZERO"
+    "ONE-ZERO",
+    "Az első korong ONE eredménye marad; a dublét a második korong értékeléséért megismétlik"
    ],
    "explain": "Ha az első korong vagy darabjai a második lövés előtt eltörik a második korongot, az első eredmény megmarad, és a dublét újra lövik a második korong értékeléséhez."
   },
@@ -905,7 +905,7 @@
     "ZERO-ZERO",
     "Csak figyelmeztetés, az eredmény marad"
    ],
-   "explain": "A dublé minden korongjára csak egy töltényt szabad kilőni; az első korong „duplázása” tilos, és a bírói gyorsútmutató szerint az egy korongra szándékosan leadott két lövés Zero-Zero."
+   "explain": "A dublé minden korongjára csak egy töltényt szabad kilőni; az első korong „duplázása” tilos, és a bírói gyorsútmutató szerint az egy korongra szándékosan leadott két lövés ZERO-ZERO."
   },
   "cs-q013": {
    "q": "A téglalap melyik oldalát kell keresztezni a kötelező elmenő korongnak?",
@@ -920,9 +920,9 @@
   "cs-q014": {
    "q": "Milyen sorrendben lőheti a lövő a szimultán dublé két korongját?",
    "options": [
+    "Bármilyen sorrendben",
     "Mindig először a bal oldalit",
     "A kottában megadott sorrendben",
-    "Bármilyen sorrendben",
     "Először az alacsonyabb betűjelű dobógépből jövőt"
    ],
    "explain": "A szimultán dublé két különböző dobógépből egyszerre kidobott két korong, és a lövő bármilyen sorrendben lőheti őket."
@@ -948,10 +948,10 @@
   "cs-q017": {
    "q": "Kik ülnek a fellebbviteli zsűriben egy nemzetközi Compak versenyen?",
    "options": [
-    "A vezetőbíró és két zsűritag",
-    "A FITASC elnöke, a Technikai Bizottság elnöke és a rendező szövetség elnöke (vagy képviselőik)",
+    "A vezetőbíró és a zsűri két tagja",
     "Minden nemzeti csapat egy-egy képviselője",
-    "A FITASC fegyelmi bizottsága"
+    "A FITASC teljes fegyelmi bizottsága",
+    "A FITASC elnöke, a Technikai Bizottság elnöke, a rendező szövetség elnöke"
    ],
    "explain": "A fellebbviteli zsűrinek három tagja van: a FITASC elnöke, a Technikai Bizottság elnöke és a rendező szövetség elnöke, vagy képviselőik; zsűritag nem lehet tagja."
   },
@@ -979,7 +979,7 @@
    "q": "Mikor lehet a verseny röppályáit, dobógépeit vagy kottáit megváltoztatni?",
    "options": [
     "Bármikor, a zsűri belátása szerint",
-    "Csak azután, hogy minden lövő lelőtt egy teljes fordulót",
+    "Csak ha minden lövő lelőtt egy teljes kört",
     "Minden reggel az első rotte előtt",
     "Csak a bíró kérésére"
    ],
@@ -989,8 +989,8 @@
    "q": "Compak világ- vagy kontinentális bajnokságon mikortól edzhetnek először a lövők a bajnoki gépeken és röppályákon?",
    "options": [
     "Az előző hét bármely napján",
-    "A bajnokság előtti szombati hivatalos edzéstől",
     "Csak az első versenynap reggelén",
+    "A bajnokság előtti szombati hivatalos edzéstől",
     "Soha: edzés csak más pályákon van"
    ],
    "explain": "A hivatalos edzés a bajnokság előtti szombaton kezdődik, és előtte senki sem edzhet a bajnoki gépeken és röppályákon. Az edzés kottáinak is különbözniük kell a verseny kottáitól."
@@ -999,26 +999,26 @@
    "q": "Egy lövő úgy jön a lőállásba, hogy a rajtszáma a mellénye elejére van tűzve, nem a hátára. Mi a bíró döntése?",
    "options": [
     "Ezt a kört nem lőheti",
-    "FIGYELMEZTETÉS; további szankciók, ha nem javítja ki",
     "Egy korong levonása",
-    "Semmi: a rajtszám helye szabad"
+    "Semmi: a rajtszám helye szabad",
+    "FIGYELMEZTETÉS; további szankciók, ha nem javítja ki"
    ],
    "explain": "A rajtszámnak a háton, a váll és a derék között, teljesen láthatóan kell lennie. Az első szabálysértés FIGYELMEZTETÉS; ha nem javítja ki, további szankciók következnek, egészen a zsűri általi kizárásig."
   },
   "cs-q023": {
-   "q": "Edzésen a szandál megtűrt, versenyen viszont nem.",
+   "q": "A szandál a Compakban tilos, edzésen és versenyen egyaránt.",
    "options": [
     "Igaz",
     "Hamis"
    ],
-   "explain": "Hamis. Biztonsági okokból a szandál edzésen és versenyen is tilos."
+   "explain": "Igaz. Biztonsági okból a szandál sem edzésen, sem versenyen nem megengedett."
   },
   "cs-q024": {
    "q": "Ki a felelős azért, hogy a lövő időben a Compakjánál legyen, és elég lőszerrel készen álljon a körre?",
    "options": [
+    "Maga a lövő",
     "A bíró, aki szólítja a hiányzó lövőket",
     "A rendező titkársága",
-    "Maga a lövő",
     "A rotte vezetője"
    ],
    "explain": "A közzétett lövési időpontok betartása a lövő felelőssége: jelentkeznie kell a bírónál, azonnal lőni kész állapotban kell lennie egy teljes körhöz elegendő felszereléssel és lőszerrel, és követnie kell a menetrend változásait. A bíró nem keresi a hiányzó lövőket."
@@ -1031,17 +1031,17 @@
     "Csak a már lelőtt korongokat veszíti el",
     "Sárga lap, aztán lő"
    ],
-   "explain": "A határidő a rotte első lövőjének első korongkérése; az utána érkező lövő arra a körre 25 nullát kap (aznap írásban fellebbezhet a zsűrihez)."
+   "explain": "A határ az a pillanat, amikor a rotte első lövője kéri az első korongot. Aki később érkezik, 25 nullát kap a körre; írásbeli fellebbezést még aznap be lehet nyújtani a zsűrinek."
   },
   "cs-q026": {
    "q": "Egy lövő a verseny teljes első napját kihagyja. Mi történik?",
    "options": [
-    "A hiányzó köreit a második napon lövi",
-    "A második naptól lekerül a listáról; ha lőni akar, a zsűrihez kell fellebbeznie",
-    "Körönként 25 nullát kap, és folytatja",
-    "Eltiltják a FITASC versenyektől"
+    "A 2. naptól nincs a listán; lövéshez fellebbezés a zsűrihez",
+    "A második napon lövi le a kihagyott köröket",
+    "Körönként 25 nulla, és a lövő folytatja",
+    "Eltiltás minden FITASC-versenytől"
    ],
-   "explain": "Az első napon hiányzó lövőt a második naptól levesszük a listáról; ha megjelenik és lőni szeretne, a 9. fejezetben leírt módon a zsűrihez kell fellebbeznie."
+   "explain": "A második naptól az a lövő, aki kihagyta az első napot, már nincs a listán. Ha mégis lőni akar, a zsűrihez kell fellebbeznie (9. fejezet)."
   },
   "cs-q027": {
    "q": "A lövő a köre kezdete előtt leadhat egy próbalövést a versenylőállásban.",
@@ -1070,12 +1070,12 @@
    "explain": "Az érintett lövőknek kapcsolatban kell maradniuk a zsűrivel, és a szólítás után kevesebb mint 15 percen belül készen kell állniuk; a távollévő lövőt visszalépettnek tekintik."
   },
   "cs-q030": {
-   "q": "Az egyéni rangsorban az 5. helyért kialakult holtversenyt szétlövés dönti el.",
+   "q": "Compakban szétlövés csak az első három helyért van (abszolút és kategóriák).",
    "options": [
     "Igaz",
     "Hamis"
    ],
-   "explain": "Hamis. Szétlövés csak az első három helyért van; a harmadik hely alatt a holtversenyben lévők azonos helyezést kapnak, és fordított sorrendű összevetéssel szerepelnek a 8. Compaktól az 1.-ig."
+   "explain": "Igaz. A harmadik hely alatt az azonos eredményű lövők osztoznak a helyen, és összevetéssel szerepelnek a Compak 8-tól a Compak 1-ig."
   },
   "cs-q031": {
    "q": "Milyen Compakon lövik a szétlövést?",
@@ -1085,25 +1085,25 @@
     "Lőállásonként 1 szóló korong és 2 szimultán dublé",
     "A verseny utolsó Compakján, változatlanul"
    ],
-   "explain": "A jelen lévő Technikai Bizottsági tagok (ennek hiányában a zsűri) választják ki a Compakot és a kottákat; a szétlövésben lőállásonként egy szóló korong és két szimultán dublé van."
+   "explain": "A szétlövést mindig olyan Compak-programon lövik, amelyben lőállásonként egy szóló korong és két szimultán dublé van. A jelen lévő Technikai Bizottsági tagok választják ki a Compakot és a sémákat; ha egyikük sincs jelen, a zsűri teszi."
   },
   "cs-q032": {
    "q": "Két nemzeti csapat összesítésben azonos eredménnyel végez. Hogyan döntik el a holtversenyt?",
    "options": [
     "25 korongos csapat-szétlövéssel",
-    "A tagok közös eredményével a 8. Compakon, majd a 7.-en és így tovább",
     "Mindkét csapat legjobb egyéni eredményével",
-    "Az 1. Compakkal, majd a 2.-kal és így tovább"
+    "Az 1. Compakkal, majd a 2.-kal és így tovább",
+    "A csapat összesítése a 8. Compakon, aztán a 7.-en és így tovább"
    ],
    "explain": "Az azonos eredményű csapatokat a tagok 8. Compakon elért közös eredménye, majd a 7., 6. és így tovább, egészen az 1.-ig választja szét."
   },
   "cs-q033": {
-   "q": "Az a lövő, aki a kör végén megtagadja az eredménylap aláírását, elveszíti minden panasz jogát.",
+   "q": "Ha a lövő egy kör után nem írja alá az eredménylapot, egyetlen panaszát sem lehet már elfogadni.",
    "options": [
     "Igaz",
     "Hamis"
    ],
-   "explain": "Igaz. A lövőnek minden kör végén alá kell írnia az eredménylapot; az aláírás megtagadása esetén minden panasz elfogadhatatlan."
+   "explain": "Igaz. Minden kör azzal zárul, hogy a lövő aláírja az eredménylapot. Aki nem írja alá, annak már semmilyen panaszát nem fogadják el."
   },
   "cs-q034": {
    "q": "Hogyan jelölik a találatot és a hibát a Compak eredménylapon?",
@@ -1123,7 +1123,7 @@
     "6",
     "8"
    ],
-   "explain": "Egy rottéban legfeljebb 6 lövő van, akik ugyanazt a kört egy időben, ugyanazon a pályán lövik."
+   "explain": "Egy rotte legfeljebb 6 lövőből áll: együtt lövik ugyanazt a kört ugyanazon a berendezésen."
   },
   "cs-q036": {
    "q": "Mennyi ideje van a lövőnek a korong kérésére azután, hogy az előző lőállás korongját lelőtték?",
@@ -1164,30 +1164,30 @@
    "explain": "Hamis. Compakban a fegyvertartás a kéréskor szabad (vállban vagy nem); a szabályzatban nincs mélytartásos indulás és nincs jelölés a mellényen. Ezután minden korongra vállba vett fegyverrel kell lőni."
   },
   "cs-q040": {
-   "q": "Egy Compakon a 2. lőálláson lehet vadászdublé, miközben a 4. lőálláson szimultán dublé van.",
+   "q": "Egy Compakon mind az öt lőállásnak ugyanazt a dublétípust kell használnia.",
    "options": [
     "Igaz",
     "Hamis"
    ],
-   "explain": "Hamis. Egy Compakon belül mind az 5 lőálláson azonos típusú dublénak kell lennie; Compakonként ajánlott különböző kottákat használni."
+   "explain": "Igaz. Egy Compakon a dublék minden lőállásnál vagy mind szimultánok, vagy mind vadászdublék. Különböző Compakokon különböző táblázatokat ajánlott használni."
   },
   "cs-q041": {
-   "q": "Melyik korong mindig a dublé első korongja egy lőálláson?",
+   "q": "Egy Compak-programban melyik korong nyit minden dublét egy lőállásnál?",
    "options": [
-    "Az A dobógép korongja",
-    "Az előző lőálláson utoljára lőtt korong",
-    "Az elmenő korong",
-    "Bármelyik, amelyet a lövő választ"
+    "Mindig az A dobógép korongja",
+    "Az a korong, amellyel az előző lőállás zárt",
+    "Mindig a program távolodó korongja",
+    "Bármelyik korong, amelyet a lövő kér"
    ],
-   "explain": "Minden dublé első korongja az előző lőálláson utoljára lőtt korong (pl. A-F, F-C, C-E...), ezért a bíró megmutatja a következő lövőnek."
+   "explain": "A dublé mindig azzal a koronggal kezdődik, amellyel az előző lőállás véget ért (példalánc A-F, F-C, C-E…). Így a bíró meg tudja mutatni ezt a korongot a következő lövőnek."
   },
   "cs-q042": {
    "q": "Rottés lövésnél hol áll a hatodik (váró) lövő, és mi történik, amikor az 5. lőállás végzett?",
    "options": [
-    "Az 5. lőállás mögött; ezután ő áll az 5. lőállásra",
-    "Az 1. lőállás mögött; mindenki egy lőállással jobbra lép, ő pedig az 1. lőállásra áll",
-    "A bíró mellett; a következő rottéhoz csatlakozik",
-    "A 3. lőállás mögött; elfoglalja az üres lőállást"
+    "Az 5. lőállás mögött; aztán az 5.-re áll",
+    "A bíró mellett; a következő rottéhoz megy",
+    "A 3. lőállás mögött; elfoglalja az üres helyet",
+    "Az 1. lőállás mögött; mindenki egy lőállással jobbra lép"
    ],
    "explain": "A váró lövő az 1. lőállás mögött áll. Amikor az 5. lőállás befejezte a kottáját, várakozni megy, mindenki más egy lőállással jobbra lép, és a váró lövő az 1. lőállásra áll. Lőállásváltáskor a fegyverek nyitva és üresen vannak."
   },
@@ -1195,8 +1195,8 @@
    "q": "Egy lövő a lőállására lép, és a bíró észreveszi, hogy nincs nála fülvédő. Mi a bíró döntése?",
    "options": [
     "Sárga lap, utána lőhet",
-    "Távollévőnek tekintik, és nem lőhet",
     "Lőhet, ha aláír egy lemondó nyilatkozatot",
+    "Távollévőnek tekintik, és nem lőhet",
     "Egy korongot veszít"
    ],
    "explain": "A fülvédő kötelező; a fülvédő nélkül a lőállásra érkező versenyzőt távollévőnek tekintik, és nem lőhet. Ugyanez vonatkozik a védőszemüvegre."
@@ -1215,11 +1215,11 @@
    "q": "Mekkora egy Compak® Sporting töltény legnagyobb töltetsúlya?",
    "options": [
     "24 g",
-    "28 g (+2% tűrés)",
+    "28 g",
     "32 g",
     "36 g"
    ],
-   "explain": "A töltet nem haladhatja meg a 28 gramm ólmot, +2%-os tűréssel."
+   "explain": "A töltény legfeljebb 28 g ólomsörétet tartalmazhat; legfeljebb +2% megengedett."
   },
   "cs-q046": {
    "q": "Compak® Sportingban a pumpás puska megengedett, ha a csöve legalább 66 cm hosszú.",
@@ -1240,19 +1240,19 @@
   "cs-q048": {
    "q": "Hogyan kell megjelölni a fordított sütésű elsütővel ellátott fegyvert?",
    "options": [
-    "Piros szalaggal a csövön",
-    "Fluoreszkáló alapon nagy „R” betűvel a tusa külső oldalán",
+    "A csőre kötött piros szalag",
+    "Nagy „R” betűs matrica a tus külső oldalán",
     "Csak egy megjegyzéssel az eredménylapon",
     "Nem kell jelölni, ha a bírónak szóltak"
    ],
-   "explain": "A tulajdonosnak figyelmeztetésként fluoreszkáló alapon nagy „R” betűs matricát kell ragasztania a tusa külső oldalára."
+   "explain": "A tulajdonos nagy „R” betűs fluoreszkáló matricával jelöli a fegyvert a tus külső oldalán, hogy mindenki lássa."
   },
   "cs-q049": {
    "q": "Egy lövő úgy gondolja, hogy a korongja találat volt, de nem szól. Csak miután a következő lövő kérte a korongot és lőtt, emeli fel a karját, és mondja: „PROTEST”. Mi a bíró döntése?",
    "options": [
     "A bírónak újra kell gondolnia, és ONE-ra módosíthatja",
-    "Az óvás késő; a ZERO marad",
     "A korongot NO BIRDként megismétlik",
+    "Az óvás késő; a ZERO marad",
     "Az óvás a zsűri elé kerül döntésre"
    ],
    "explain": "Az óvást azonnal, a lőállásban kell megtenni, mielőtt a következő lövő kéri a korongot. Egyébként is a találatról vagy hibáról egyedül a bíró dönt, és ez nem fellebbezhető."
@@ -1270,8 +1270,8 @@
   "cs-q051": {
    "q": "A kotta szerint a szóló korong a C dobógépből jön, de a korong az E dobógépből jön ki. A lövő eltalálja. Mi a bíró döntése?",
    "options": [
-    "ONE",
     "NO BIRD — új korongot dobnak",
+    "ONE",
     "ZERO",
     "ONE, és a pullert figyelmeztetik"
    ],
@@ -1300,9 +1300,9 @@
   "cs-q054": {
    "q": "Miközben a lövő lendíti a fegyvert, a szomszédos Compak egyik korongja keresztezi a látóterét. Hibázza a saját szóló korongját. Mi a bíró döntése?",
    "options": [
-    "ZERO",
     "NO BIRD — új korongot dobnak",
     "NO BIRD csak akkor, ha a lövő óvást tesz",
+    "ZERO",
     "ZERO, és a szomszédos Compakot leállítják"
    ],
    "explain": "Egy másik Compakról érkező korong vagy darab soha nem indokol NO BIRDöt; csak ugyanannak a Compaknak egy gépéből jövő kóbor korong. A hiba marad."
@@ -1310,32 +1310,32 @@
   "cs-q055": {
    "q": "Egy hirtelen széllökés a szabályos szóló korongot élesen lenyomja éppen akkor, amikor a lövő lő, és hibáz. Mi a bíró döntése?",
    "options": [
-    "ZERO",
     "NO BIRD — új korongot dobnak",
     "NO BIRD, ha a bíró egyetért, hogy a szél rendkívüli volt",
-    "A lövő körönként egyszer ismétlést kérhet"
+    "A lövő körönként egyszer ismétlést kérhet",
+    "ZERO"
    ],
    "explain": "A rossz időjárás soha nem indokol NO BIRDöt: minden elhibázott korong ZERO, minden eltalált korong ONE, a körülményektől függetlenül."
   },
   "cs-q056": {
    "q": "Szóló korongnál az első töltény nem sül el. Ez a lövő első ilyen típusú hibája a körben. A helyén marad, a fegyvert a lőtér felé tartja, amíg a bíró meg nem vizsgálja. Mi a bíró döntése?",
    "options": [
-    "ZERO",
-    "NO BIRD, új korong és első figyelmeztetés (sárga lap)",
+    "ZERO, a korong elveszett",
+    "NO BIRD, új korong, sárga lap",
     "NO BIRD figyelmeztetés nélkül",
     "ZERO és piros lap"
    ],
    "explain": "Egy 25 korongos körön belüli első hibánál a szóló korong első töltényének csődje NO BIRDöt és új korongot jelent; ez az első hiba első figyelmeztetéssel (sárga lap) jár."
   },
   "cs-q057": {
-   "q": "Ugyanabban a körben később ugyanannál a lövőnél másodszor is ugyanolyan típusú tölténycsőd történik. Mi a bíró döntése?",
+   "q": "Korábban ebben a körben a lövőnek már volt egy tölténycsődje (első eset, sárga lap). Most egy szóló korongnál ismét ugyanúgy csődöt mond egy töltény. Mi a bíró döntése?",
    "options": [
     "Ismét NO BIRD, második sárga lappal",
-    "Minden korong, amelyre nem lőtt, ZERO (piros lap)",
     "A lövőt kizárják a versenyből",
-    "2 percet kap a fegyver megjavítására, és a korongot megismétlik"
+    "2 percet kap a fegyver megjavítására, és a korongot megismétlik",
+    "Minden korong, amelyre nem lőtt, ZERO (piros lap)"
    ],
-   "explain": "A fegyver- vagy tölténycsődre vonatkozó NO BIRD táblázat csak a körön belüli első hibára vonatkozik; az azonos típusú második hibánál azok a korongok, amelyekre nem lőtt, ZERO-k (piros lap)."
+   "explain": "A NO BIRD táblázat csak a kör első hibájára vonatkozik. Ha ugyanolyan hiba másodszor is előfordul, a kör minden még le nem lőtt korongja ZERO (piros lap)."
   },
   "cs-q058": {
    "q": "Vadászdublé: a lövő eltalálja az első korongot, majd a második töltény nem sül el. Ez az első ilyen hiba a körben. Mi a bíró döntése?",
@@ -1348,14 +1348,14 @@
    "explain": "Ha vadászdublénál a második töltény nem sül el (első hiba), az első korong eredménye marad, és a dublét a második korongért megismétlik."
   },
   "cs-q059": {
-   "q": "Szóló korongnál a lövő az első lövéssel hibáz, a második töltény pedig nem sül el. A kör első hibája. Új korongot dobnak. Hogyan kell értékelni? Mi a bíró döntése?",
+   "q": "Szóló korongnál a lövő az első lövéssel hibáz, a második töltény pedig csődöt mond. Ez a kör első esete, és új korongot dobnak. Hogyan értékelhető az új korong?",
    "options": [
+    "Csak a második lövéssel; az első szándékos hiba",
     "Rendesen: bármelyik lövéssel eltalálhatja",
-    "Csak a második lövéssel szerezhet találatot; az első lövésnek szándékos hibának kell lennie",
-    "Már ZERO; az új korong csak gyakorlásra szolgál",
-    "Csak az első lövés számít"
+    "Sehogy: ZERO, az új csak gyakorlás",
+    "Csak az első lövéssel; a másodikat nem használják"
    ],
-   "explain": "Ha szóló korongnál a második töltény nem sült el, új korongot dobnak, amelyet csak a második lövéssel lehet eltalálni, ezért a lövő az elsővel szándékosan mellé lő."
+   "explain": "A csődöt mondott második töltény miatt a lövő új korongot kap, de azt csak a második lövéssel szabad eltörni. Ezért az első lövést szándékosan mellé lövi."
   },
   "cs-q060": {
    "q": "A nyulat az első lövés elhibázza, majd a második lövés előtt egy talajegyenetlenségen eltörik. Mi a bíró döntése?",
@@ -1380,8 +1380,8 @@
   "cs-q062": {
    "q": "Éppen amikor a lövő kéri a korongot, a lőállás mögött felharsan egy hangosbemondós közlemény; a bíró jól látja, hogy a lövő összerándul és leengedi a fegyvert. Mi a bíró döntése?",
    "options": [
-    "ZERO",
     "NO BIRD — új korongot dobnak",
+    "ZERO",
     "ZERO, korong megtagadása",
     "Figyelmeztetés a lövés késleltetése miatt"
    ],
@@ -1391,9 +1391,9 @@
    "q": "A puller kidob egy korongot, mielőtt a lövő kérte volna. A meglepett lövő lő és hibáz. Mi a bíró döntése?",
    "options": [
     "ZERO",
-    "NO BIRD — új korongot dobnak",
     "ZERO, mert ő döntött úgy, hogy lő",
-    "ZERO és sárga lap"
+    "ZERO és sárga lap",
+    "NO BIRD — új korongot dobnak"
    ],
    "explain": "A lövő által nem kért korong NO BIRD eset; egyben ez az egyetlen korong, amelyet a lövő megtagadhat."
   },
@@ -1410,8 +1410,8 @@
   "cs-q065": {
    "q": "Szimultán dublénál a lövő anélkül engedi le a fegyvert, hogy az első korongra lőne, mondván, hogy letért a röppályáról. A bíró szerint mindkét korong szabályos. Mi a bíró döntése?",
    "options": [
-    "ZERO az elsőre, a másodikat újra kidobják",
     "ZERO-ZERO",
+    "ZERO az elsőre, a másodikat újra kidobják",
     "NO BIRD",
     "ZERO az elsőre, NO BIRD a másodikra"
    ],
@@ -1430,10 +1430,10 @@
   "cs-q067": {
    "q": "A körben először fordul elő, hogy a lövőnek kb. 15 másodpercig tart a korong kérése, miután az előző lőállás korongját lelőtték. Ezután eltalálja a szóló korongot. Mi a bíró döntése?",
    "options": [
-    "ZERO",
-    "ONE, az eredménylapra felírt figyelmeztetéssel",
+    "ZERO a lassúság miatt",
     "NO BIRD és sárga lap",
-    "ONE, következmény nélkül"
+    "ONE, következmény nélkül",
+    "ONE, plusz figyelmeztetés a lapon"
    ],
    "explain": "A korong kérésére 10 másodperc áll rendelkezésre. Az első túllépéskor a lövő az eredménylapra felírt figyelmeztetést kap; csak az ugyanabban a körben elkövetett ismétlés kerül korongokba."
   },
@@ -1451,9 +1451,9 @@
    "q": "Két lőállás között egy, a Compak mögött álló edző folyamatosan mondja a versenyzőnek, hová tartsa a fegyvert a következő korongnál. Mi a bíró döntése?",
    "options": [
     "Semmi: a korongok közötti tanács megengedett",
-    "Sárga lap a versenyzőnek; az edzőt eltávolítják a lőterületről",
+    "Sárga lap a lövőnek; az edzőt elküldik",
     "A versenyző elveszít egy 25 korongos kört",
-    "Csak az edzőt figyelmeztetik"
+    "Csak az edző kap figyelmeztetést"
    ],
    "explain": "Verseny közben az edzői irányítás nem megengedett: a versenyző sárga lapot kap (ismétlés esetén a 23. fejezet szerinti szankciók jönnek), és a bíró eltávolítja az edzőt a lőterületről."
   },
@@ -1461,8 +1461,8 @@
    "q": "A lövő fegyvere elromlik; a bíró megvizsgálja (első hiba). Eltelik két perc, a fegyvert nem javították meg, és másik fegyver sincs. Mi a bíró döntése?",
    "options": [
     "Megvárhatja a rotte végét, és akkor befejezheti",
-    "A le nem lőtt korongok nullák",
     "A kört törlik, és később újralövik",
+    "A le nem lőtt korongok nullák",
     "Újabb 2 percet kap"
    ],
    "explain": "Hibás működés után a lövőnek két perce van a fegyver megjavítására vagy cseréjére; a bíró hozzájárulásával másik fegyverrel folytathatja, különben a le nem lőtt korongok nullák."
@@ -1471,9 +1471,9 @@
    "q": "Szimultán dublé első korongja: az ezen a Compakon már figyelmeztetett lövőnél olyan hibás működés történik, amely nem az első hibája, és nem tud lőni az első korongra. Mi a bíró döntése?",
    "options": [
     "ZERO / NO BIRD",
-    "ZERO / ZERO",
     "NO BIRD, új dublé",
-    "Az első eredmény marad, a második ZERO"
+    "Az első eredmény marad, a második ZERO",
+    "ZERO / ZERO"
    ],
    "explain": "Az első figyelmeztetés utáni hibás működésre a 21.5 táblázat a szimultán dublé első korongjánál ZERO / ZERO-t ad (vadászdublénál ZERO / NO BIRD)."
   },
@@ -1502,10 +1502,10 @@
    "options": [
     "Semmi: a lövés folytatása után a vélemény szabad",
     "A bíró a vita elkerülése érdekében módosítja a döntést",
-    "Ez befolyásolási kísérlet; a bíró jelenti, és a zsűri szankcionálhat, akár kizárásig",
+    "Befolyásolási kísérlet: jelentik, a zsűri büntethet",
     "A korongot NO BIRDként megismétlik"
    ],
-   "explain": "A végső döntés vitatása a lövés folytatása után, a hivalkodó vitatkozás, vagy ha lövők vagy nézők nyíltan bírálják a döntést, befolyásolási kísérletnek számít, amelyet a zsűri akár kizárásig szankcionálhat."
+   "explain": "Ezek befolyásolási kísérletek: a végleges döntés vitatása a lövés folytatása után, látványos vita róla, vagy lövők és nézők, akik nyíltan bírálják a döntést. A zsűri büntetheti őket, akár kizárással."
   },
   "cs-q075": {
    "q": "Hány évig tartja nyilván a FITASC a kizárást?",
@@ -1531,9 +1531,9 @@
    "q": "A lövő fegyvere nem sül el. Mielőtt a bíró megnézhetné, kinyitja a fegyvert, hogy ellenőrizze a töltényt. Mi a bíró döntése?",
    "options": [
     "NO BIRD — új korongot dobnak",
-    "ZERO az érintett korongra",
     "NO BIRD és sárga lap",
-    "A bíró most megvizsgálja a fegyvert, és NO BIRDöt ítél, ha hibás"
+    "A bíró most megvizsgálja a fegyvert, és NO BIRDöt ítél, ha hibás",
+    "ZERO az érintett korongra"
    ],
    "explain": "Csőd után a lövőnek a helyén kell maradnia, nem nyithatja ki a fegyvert, és nem nyúlhat a biztosítóhoz, amíg a bíró meg nem vizsgálta; ha mégis megteszi, az érintett korong vagy korongok ZERO-k."
   },
@@ -1548,8 +1548,8 @@
   "cs-q079": {
    "q": "Hogyan kell a félautomatát lőállások között vinni?",
    "options": [
-    "Zárva, biztosítva, csővel előre",
     "Nyitott zárral, a csőtorkolattal egyenesen felfelé vagy lefelé",
+    "Zárva, biztosítva, csővel előre",
     "Egy tölténnyel töltve, nyitott zárral",
     "Bárhogy, ha üres"
    ],

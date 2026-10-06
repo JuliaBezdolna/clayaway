@@ -72,7 +72,7 @@
   "ahead": "Przed rzutkiem — śrut przeszedł przed rzutkiem",
   "perceived": "Wyprzedzenie widziane w chwili decyzji",
   "actual": "Rzeczywiste wyprzedzenie w chwili strzału",
-  "lab_note": "Zwolnione tempo, uproszczona fizyka do nauki: średnia prędkość śrutu ok. 330 m/s i 0,15 s od decyzji do strzału. Rzeczywiste wyprzedzenie zależy też od strzelca, naboju i kąta.",
+  "lab_note": "Zwolnione tempo, uproszczona fizyka do nauki: średnia prędkość śrutu ok. 330 m/s, 0,15 s od decyzji do strzału, promień snopa śrutu ok. 10 cm + 1,5 cm na każdy metr odległości, wylot lufy ok. 1 m od oka. Rzeczywiste wyprzedzenie zależy od prędkości, odległości, kąta i naboju; widziane – także od metody i strzelca.",
   "exam_pass": "Zdane! Możesz teraz odebrać certyfikat.",
   "exam_fail": "Jeszcze nie — potrzeba 80%. Powtórz misje i spróbuj ponownie.",
   "cert_name": "Twoje imię i nazwisko na certyfikacie",
@@ -100,7 +100,18 @@
   "glossary_page": "Strona słownika",
   "pair_report": "Dublet na zawołanie (on report): drugi rzutek wylatuje na huk pierwszego strzału",
   "pair_sim": "Dublet symultaniczny: oba rzutki wylatują jednocześnie",
-  "pair_rafale": "Rafale (following pair): drugi rzutek z tej samej wyrzutni zaraz po pierwszym"
+  "pair_rafale": "Rafale (following pair): drugi rzutek z tej samej wyrzutni, gdy tylko się przeładuje",
+  "no_shot": "Nie oddano strzału.",
+  "at_muzzle": "widziane u wylotu lufy",
+  "compare": "Ten sam rzutek, cztery metody: rzeczywiste wyprzedzenie jest takie samo, widziane – nie",
+  "how_maintained": "Lufy czekają przed rzutkiem, a rzutek się do nich zbliża. Naciśnij „Strzał”, gdy odstęp wygląda dobrze: broń porusza się wtedy z prędkością rzutka i utrzymuje to wyprzedzenie.",
+  "how_swing": "Lufy startują za rzutkiem i poruszają się szybciej od niego. Naciśnij „Strzał”, gdy lufy mijają przednią krawędź rzutka: w czasie opóźnienia broń dalej zyskuje, więc rzeczywiste wyprzedzenie jest większe.",
+  "how_pullaway": "Lufy najpierw idą razem z rzutkiem, potem przyspieszają do przodu. Naciśnij „Strzał”, póki broń jeszcze przyspiesza: widziane wyprzedzenie jest mniejsze od rzeczywistego.",
+  "how_ambush": "Lufy czekają nieruchomo w punkcie przed rzutkiem. Naciśnij „Strzał”, zanim rzutek dotrze do tego punktu: śrut potrzebuje czasu, więc strzał w chwili, gdy rzutek już tam jest, idzie za rzutkiem.",
+  "stop_gun": "Zatrzymaj broń przy strzale (błąd)",
+  "clay_widths": "szerokości rzutka",
+  "unit_cm": "cm",
+  "unit_in": "cala"
  },
  "missions": {
   "basics": {
@@ -1640,14 +1651,14 @@
       "Te prezentacje dotyczą wysokości i krzywizny, a nie kąta. Ich nazwy pochodzą z języka budowniczych parcoursów, a nie z przepisów: przepisy wymieniają rodzaje rzutków, a przepisy Compak® Sporting wymagają zróżnicowanych torów lotu, np. wznoszących, opadających i wysokich (lofted).",
       "Teal (springing lub rising teal, od nazwy małej kaczki — cyraneczki) wyrzuca się niemal pionowo w górę; zwalnia, zawisa w najwyższym punkcie i spada z powrotem. Bierze się go albo na wznoszeniu, prowadząc broń od dołu w górę przez rzutek, albo w najwyższym punkcie, gdy zawisa. Klasyczny błąd to „dźganie” (celowanie) w niego na szczycie. Niektórzy budowniczowie nazywają „springing” rzutek, który wznosi się pod kątem, a nie pionowo, jak poderwany ptak.",
       "Chandelle (po francusku „świeca”) wznosi się stromo po lekkim łuku, przechyla się i spada niemal pionowo. Najłatwiej go wziąć na wznoszeniu; na zakręcie wyprzedzenie idzie w bok i w dół.",
-      "Looper leci szerokim łukiem przez niebo, jak tęcza, często jako battue z przechylonej wyrzutni: wznosi się, obraca „twarz” i spada. Broń podąża za krzywą, przed rzutkiem i pod nim.",
+      "Looper leci szerokim łukiem przez niebo, jak tęcza: wznosi się, przechodzi przez szczyt łuku i spada. Zwykle jest to rzutek standardowy; niektórzy budowniczowie parcoursów rzucają na takiej linii także battue, które obracając się, pokazuje wtedy „twarz”. Broń podąża za krzywą, przed rzutkiem i pod nim.",
       "Rzutek opadający (dropping) to każdy rzutek w opadającej części lotu. Wyprzedzenie jest częściowo pionowe: pod rzutkiem i przed nim, z bronią w ruchu.",
       "Uwaga: nazwy różnią się między krajami. Wielu francuskojęzycznych strzelców nazywa „chandelle” rzutek lecący prawie pionowo w górę, który angielski trener nazwie teal, a polscy strzelcy mogą na oba mówić „świeca”. Gdy słyszysz chandelle, candle albo „świeca”, zapytaj: prosto w górę czy łukiem?"
      ],
      "key_points": [
       "Teal: prawie pionowo w górę, zawisa, spada; bierz na wznoszeniu lub w szczycie.",
       "Chandelle: stromy wznoszący łuk, przechyla się, spada niemal pionowo.",
-      "Looper: szeroki łuk jak tęcza, często battue, które się obraca i spada.",
+      "Looper: szeroki łuk jak tęcza, zwykle rzutek standardowy, który przechodzi przez szczyt i spada.",
       "Opadający: wyprzedzenie pod i przed rzutkiem, nigdy nie zatrzymuj broni.",
       "Nazwy się różnią: francuskojęzyczni często mówią „chandelle” na teal; „świeca” też jest dwuznaczna, więc dopytaj."
      ],
@@ -2529,7 +2540,7 @@
      "title": "Cały trening krok po kroku",
      "body": [
       "Przed zajęciami spotkaj się z trenerem na pięć minut. Ustalcie znak pauzy, zapytaj, jakiej metody uczy i jakich słów używa na wyprzedzenie, i poznaj jego sygnały rąk. Potem grupa zbiera się na odprawę bezpieczeństwa: tłumacz ją konsekutywnie, zdanie po zdaniu, stanowczo i w całości.",
-      "Na pierwszym stanowisku trener zwykle zaczyna bez nabojów: sprawdzenie oka dominującego, potem postawa i pozycja gotowości. W kontekście FITASC broń zaczyna nisko, poniżej linii na kamizelce. Szepcz jego poprawki zza pleców, gdy ustawia stopy i ręce.",
+      "Na pierwszym stanowisku trener zwykle zaczyna bez nabojów: sprawdzenie oka dominującego, potem postawa i pozycja gotowości. W Parcours de Chasse – Sporting™ broń zaczyna nisko, poniżej linii na kamizelce; w Compak® Sporting pozycja broni przy komendzie jest dowolna. Szepcz jego poprawki zza pleców, gdy ustawia stopy i ręce.",
       "Następnie odczytywanie rzutka. Trener go pokazuje, pyta, gdzie strzelec po raz pierwszy wyraźnie go widzi, i ustala punkt podjęcia rzutka, punkt wyjściowy lufy i punkt strzału. Trzymaj się tych trzech terminów przez cały dzień — „punkt podjęcia”, „punkt wyjściowy”, „punkt strzału” — żeby gość je przyswoił.",
       "Teraz strzelanie. Między rzutkami trener daje wskazówki z dwóch do pięciu słów; ty je powtarzasz, tej samej długości, w tej samej kolejności, gdy broń jest otwarta. Gdy pada diagnoza pudła — „behind”, „over the top”, „you stopped” — tłumacz diagnozę i poprawkę razem. Pochwałę tłumacz z tą samą energią.",
       "Potem dublety: który rzutek pierwszy, „eyes first, then the gun”, drugi strzał. Na koniec podsumowanie, znów konsekutywnie, w którym trener zbiera dwie–trzy najważniejsze rzeczy. Zapisz je w obu językach i daj gościowi notatkę. Poniżej jest prawdziwy ciąg zwrotów w kolejności, w jakiej je usłyszysz."
@@ -2559,7 +2570,7 @@
        "say": "Przednia stopa na punkt strzału, ciężar do przodu."
       },
       {
-       "meaning": "Pozycja gotowości FITASC: broń idzie w górę dopiero po pojawieniu się rzutka.",
+       "meaning": "Pozycja gotowości w Sporting™: broń idzie w górę dopiero po pojawieniu się rzutka; w Compak® Sporting pozycja broni przy komendzie jest dowolna.",
        "say": "Broń w dół, kolba pod linią. Składaj się dopiero, gdy go zobaczysz."
       },
       {
@@ -2656,14 +2667,14 @@
       "Śrut potrzebuje ułamka sekundy, by dolecieć do rzutka, a w tym czasie rzutek leci dalej. Broń wycelowana prosto w rzutek poprzeczny strzela więc za nim. Broń musi wskazywać przed rzutek, żeby śrut i rzutek się spotkały. Ten odstęp to wyprzedzenie (lead), w brytyjskim angielskim także „forward allowance”.",
       "Wyprzedzenie rośnie z prędkością rzutka, jego odległością i kątem. Pełny rzutek poprzeczny wymaga go najwięcej; rzutek lecący prosto na strzelca lub od niego nie wymaga prawie żadnego wyprzedzenia w bok, choć rzutki wznoszące i opadające wymagają wyprzedzenia w pionie (nad lub pod).",
       "Prawdziwe liczby zaskakują. Jeden serwis strzelecki podaje około 3–4 stóp, czyli mniej więcej metr, rzeczywistego wyprzedzenia dla rzutka poprzecznego w odległości ok. 21–25 jardów (około 20 m). Wielu strzelców mówi, że rośnie ono mniej więcej proporcjonalnie do odległości, więc ten sam mały odstęp przy wylocie lufy oznacza dużo większe rzeczywiste wyprzedzenie na dalekim rzutku.",
-      "Rzeczywiste wyprzedzenie (actual lead) to prawdziwa odległość przed rzutkiem w powietrzu. Wyprzedzenie widziane (perceived lead, „lead picture” lub „sight picture”) to odstęp, który strzelec widzi między wylotem lufy a rzutkiem. Metr na 20 m wygląda przy wylocie lufy jak kilka centymetrów. Metoda zmienia obraz: strzelec stosujący stałe wyprzedzenie widzi największy odstęp, a strzelec stosujący przeciągnięcie (swing-through) niewielki lub żaden, bo prędkość broni dodaje wyprzedzenia.",
+      "Rzeczywiste wyprzedzenie (actual lead) to prawdziwa odległość przed rzutkiem w powietrzu. Wyprzedzenie widziane (perceived lead, „lead picture” lub „sight picture”) to odstęp, który strzelec widzi między wylotem lufy a rzutkiem. Metr na 20 m wygląda przy wylocie lufy jak kilka centymetrów. Metoda zmienia obraz: spośród metod z poruszającą się bronią stałe wyprzedzenie pokazuje największy odstęp, a przeciągnięcie (swing-through) niewielki lub żaden, bo prędkość broni dodaje wyprzedzenia. W zasadzce broń stoi, więc strzelec musi widzieć jeszcze większy odstęp: rzutek leci dalej także w czasie reakcji.",
       "Pewien amerykański instruktor zauważa, że praworęczny strzelec często ma wrażenie, iż rzutek poprzeczny z lewej na prawą wymaga większego wyprzedzenia niż z prawej na lewą; rzeczywiste wyprzedzenie jest takie samo, różni się tylko odbiór. Dlatego „cztery stopy” trenera opisują jego obraz, a nie pomiar."
      ],
      "key_points": [
       "Wyprzedzenie istnieje, bo rzutek leci, gdy śrut jest w drodze.",
       "Większa prędkość, odległość i kąt = większe wyprzedzenie.",
-      "Rzeczywiste wyprzedzenie (w powietrzu) jest dużo większe niż widziane (przy wylocie lufy).",
-      "Metoda zmienia obraz: przy stałym wyprzedzeniu widać najwięcej, przy przeciągnięciu najmniej.",
+      "Rzeczywiste wyprzedzenie to metry w powietrzu przy rzutku; przy wylocie lufy obraz ma tylko kilka centymetrów, bo wylot jest blisko oka.",
+      "Metoda zmienia obraz: przy poruszającej się broni najwięcej widać przy stałym wyprzedzeniu, najmniej przy przeciągnięciu; w zasadzce (broń nieruchoma) odstęp jest jeszcze większy.",
       "Liczba podana przez trenera to obraz, a nie pomiar."
      ],
      "coach_says": [
@@ -2917,13 +2928,13 @@
     "lead-ambush-instinctive": {
      "title": "Zasadzka i strzelanie instynktowne",
      "body": [
-      "Zasadzka (ambush), czyli strzał w punkt (spot shooting; po polsku można to opisać jako „strzał w punkt” albo „na przechwyt”), to przeciwieństwo prowadzenia broni. 1) Wyloty luf ustawia się w punkcie przed rzutkiem, na jego linii, blisko punktu strzału. 2) Czekają z niewielkim ruchem albo bez ruchu. 3) Spust naciska się, gdy rzutek dolatuje do tego miejsca.",
+      "Zasadzka (ambush), czyli strzał w punkt (spot shooting; po polsku można to opisać jako „strzał w punkt” albo „na przechwyt”), to przeciwieństwo prowadzenia broni. 1) Wyloty luf ustawia się w punkcie przed rzutkiem, na jego linii, blisko punktu strzału. 2) Czekają z niewielkim ruchem albo bez ruchu. 3) Spust naciska się, zanim rzutek doleci do tego miejsca: reakcja strzelca i lot śrutu wymagają czasu, więc rzutek wlatuje wtedy w strzał. Strzał oddany dopiero wtedy, gdy rzutek jest już w tym miejscu, idzie za nim.",
       "Jako ogólny nawyk, typowy dla niewyszkolonych strzelców, jest zawodna: broń stoi, a wyczucie czasu musi być idealne. Ale celowa zasadzka bywa właściwym wyborem: na rzutek, który trzeba wziąć bardzo szybko, albo na rabbita widocznego tylko w krótkiej luce między krzakami. Pokrewny ruch na battue lecących krawędzią w szczycie lotu to „collapse”: trzymaj broń bardzo blisko punktu strzału i wykonaj minimalny ruch. Rzutek nadal musi pęknąć tam, gdzie sędzia może go widzieć.",
       "Strzelanie instynktowne oznacza brak jakiegokolwiek świadomego wyprzedzenia. Strzelec utrzymuje ostre skupienie na rzutku i pozwala rękom podążać; ruch broni i złożenie dzieją się razem, a strzał pada, gdy broń dochodzi do twarzy. Klasyczna szkoła to ta kojarzona z angielskim rusznikarzem Robertem Churchillem, popularna w łowiectwie.",
       "Wielu czołowych strzelców Parcours de Chasse – Sporting™ łączy metody, wybierając je dla każdego rzutka. „Which method for this one?” (jaka metoda na ten?) to zwykłe pytanie trenerskie."
      ],
      "key_points": [
-      "Zasadzka: wyloty luf nieruchomo w punkcie przed rzutkiem; strzał, gdy rzutek dolatuje.",
+      "Zasadzka: wyloty luf nieruchomo w punkcie przed rzutkiem; strzał, zanim rzutek tam doleci, żeby wleciał w strzał.",
       "Zawodna jako nawyk, przydatna celowo (bardzo szybkie rzutki, krótkie luki).",
       "„Collapse”: minimalny ruch blisko punktu strzału na battue lecących krawędzią.",
       "Instynktowne: bez świadomego wyprzedzenia, ostre skupienie, złożenie i ruch razem (szkoła Churchilla).",
@@ -2935,7 +2946,7 @@
        "say": "Czekasz na niego w zasadzce — prowadź broń z rzutkiem."
       },
       {
-       "meaning": "Celowo czekaj przy prześwicie i strzelaj, gdy rzutek go przecina.",
+       "meaning": "Celowo czekaj przy prześwicie i strzelaj tuż zanim rzutek dotrze do twojego punktu, żeby wleciał w strzał.",
        "say": "Tego weź z zasadzki w luce."
       },
       {
@@ -3813,7 +3824,7 @@
       "Linię zaznacza się na kamizelce lub kurtce 25 cm poniżej osi barków, równolegle do niej, w kolorze kontrastującym z kamizelką, żeby sędzia mógł ją widzieć. Przepis dotyczy każdego rodzaju kolby, także z regulowaną baką.",
       "Broń może pójść w górę dopiero, gdy pojawi się rzutek. Do każdego rzutka, także rabbita, strzela się z bronią przy ramieniu; strzał z biodra jest niedozwolony. Między pierwszym a drugim rzutkiem każdego dubletu pozycja broni jest dowolna, ale przed pierwszym rzutkiem obowiązuje pozycja gotowości.",
       "Kary: za pierwszym razem, gdy strzelec woła rzutek w niewłaściwej pozycji albo składa się, zanim pojawi się rzutek, sędzia udziela ustnego ostrzeżenia z żółtą kartką. Każde kolejne wykroczenie na tej samej osi oznacza czerwoną kartkę, a rzutek liczy się jako zero przy rzutku pojedynczym, zero i No Bird przy dublecie na zawołanie, zero i zero przy dublecie symultanicznym lub rafale.",
-      "Składanie się i prowadzenie broni po wyobrażonej linii przed komendą (mock shooting, ćwiczenia celowania) też jest zabronione: najpierw ostrzeżenie, potem zero. Jeśli trener przed zawodami FITASC ćwiczy start z bronią w górze, przetłumacz także słowo „drill” — ćwiczenie."
+      "Składanie się i prowadzenie broni po wyobrażonej linii przed komendą (mock shooting, ćwiczenia celowania) też jest zabronione: najpierw ostrzeżenie, potem zero. Jeśli trener przed zawodami w Parcours de Chasse – Sporting™ ćwiczy start z bronią w górze, przetłumacz także słowo „drill” — ćwiczenie."
      ],
      "key_points": [
       "Przed komendą: obie stopy na stanowisku, kolba dotyka ciała, góra kolby poniżej linii na kamizelce.",
@@ -4345,7 +4356,7 @@
       "W Parcours de Chasse – Sporting™ menu wymienia wyrzutnie w kolejności strzelania i musi pokazywać rzutki specjalne: 90 mm, 70 mm, 60 mm, battue lub rabbit. Sędziowie sprawdzają wcześniej, czy maszyny zgadzają się z menu. Oś daje 15 rzutków pojedynczych i 5 dubletów, a w dubletach można używać tylko rzutków pokazanych już jako pojedyncze z tego samego stanowiska. Grupa strzela najpierw pojedyncze, potem dublety.",
       "Dublet jest oznaczony rodzajem: na zawołanie (drugi rzutek wylatuje na huk pierwszego strzału), symultaniczny (oba razem) lub rafale (dwa z tej samej wyrzutni, jeden po drugim; tylko Sporting™). Menu wyglądają różnie na różnych strzelnicach, więc czytaj słowa, a nie tylko litery. Przykład dla stanowiska z trzema wyrzutniami: pojedyncze A, B, C; dublety A + B symultaniczny i C + C rafale (na takim stanowisku dwa dublety na zawołanie są niedozwolone).",
       "W Compak® Sporting menu wywiesza się na każdym z pięciu stanowisk. Każde stanowisko ma pięć rzutków: pięć pojedynczych, trzy pojedyncze i dublet albo jeden pojedynczy i dwa dublety. Rodzaj dubletu jest taki sam na wszystkich pięciu stanowiskach Compaku, a pierwszym rzutkiem każdego dubletu jest ostatni rzutek poprzedniego stanowiska. FITASC oferuje 40 gotowych menu na zawody.",
-      "Zanim twój strzelec wejdzie na stanowisko, przeczytaj mu menu na głos w jego języku, litera po literze: „A, potem F, potem dublet C i E na zawołanie”."
+      "Zanim twój strzelec wejdzie na stanowisko, przeczytaj mu menu na głos w jego języku, litera po literze: „A, potem F, potem B, potem dublet C i E na zawołanie”."
      ],
      "key_points": [
       "Zachowaj słowo „menu”.",
@@ -4356,8 +4367,8 @@
      ],
      "coach_says": [
       {
-       "meaning": "Kolejność rzutków na stanowisku 3, zakończona dubletem na zawołanie.",
-       "say": "Przeczytaj menu: na stanowisku trzecim masz A, potem F, potem dublet C i E na zawołanie."
+       "meaning": "Stanowisko 3: trzy pojedyncze, potem dublet na zawołanie; razem pięć rzutków.",
+       "say": "Przeczytaj menu: na stanowisku trzecim masz A, potem F, potem B, potem dublet C i E na zawołanie."
       },
       {
        "meaning": "Kolejność zmieniła się od ostatniej serii.",

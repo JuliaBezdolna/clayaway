@@ -1,10 +1,11 @@
 window.GLOSSARY = {
  "version": "2026-10-05",
- "source": "FITASC rules guide (ClayAway)",
+ "source": "FITASC rules guide (ClayArena)",
  "terms": [
   {
    "id": "sporting",
    "term": "Sporting",
+   "display_term": "Sporting™",
    "aka": [
     "Parcours de Chasse",
     "FITASC Sporting"
@@ -36,9 +37,9 @@ window.GLOSSARY = {
   {
    "id": "compak-sporting",
    "term": "Compak Sporting",
+   "display_term": "Compak® Sporting",
    "aka": [
-    "Compak",
-    "Compak by squad"
+    "Compak"
    ],
    "aliases": [
     "compak-sporting"
@@ -90,13 +91,13 @@ window.GLOSSARY = {
    "cat": "Discipline",
    "short_uk": "Формат Compak, у якому стрільці по одному заходять на місце 1 і рухаються лінією до місця 5.",
    "short_en": "A way of running Compak in which shooters enter at station 1 one after another and move along the line to station 5.",
-   "long_uk": "У лінії кожен стрілець групи починає на місці 1 і закінчує на місці 5, а новий стрілець заходить, коли лінія просувається. Розмір групи — загальна кількість стрільців, поділена на кількість задіяних Compak. На міжнародному рівні використовують лише sonopull разом з електронним суддівством і підрахунком, схваленими FITASC. Мішені показують у визначеному порядку, поки лінія заповнюється і закривається. Стрілець, що запізнився, коли його номер уже скасовано в системі, а наступний стоїть на місці 1, отримує 25 zero.",
-   "long_en": "In line, every shooter of a group starts on station 1 and finishes on station 5, and a new shooter enters as the line moves on. The group size is the total number of shooters divided by the number of Compaks in use. At international level only sonopull release is used, with electronic refereeing and scoring approved by FITASC. Targets are shown in a fixed sequence as the line fills and closes. A late shooter whose number is already cancelled in the system while the next shooter is on station 1 gets 25 zeros.",
+   "long_uk": "У лінії кожен стрілець групи починає на місці 1 і закінчує на місці 5, а новий стрілець заходить, коли лінія просувається. Розмір групи — загальна кількість стрільців, поділена на кількість задіяних Compak. На міжнародному рівні використовують лише sonopull разом з електронним суддівством і підрахунком, схваленими FITASC. Мішені показують у визначеному порядку, поки лінія заповнюється і закривається. Стрілець, що запізнився, отримує 25 zero, коли його номер уже скасовано в системі, а наступний стрілець стоїть на місці 1.",
+   "long_en": "In line, every shooter of a group starts on station 1 and finishes on station 5, and a new shooter enters as the line moves on. The group size is the total number of shooters divided by the number of Compaks in use. At international level only sonopull release is used, with electronic refereeing and scoring approved by FITASC. Targets are shown in a fixed sequence as the line fills and closes. A late shooter gets 25 zeros once the number is cancelled in the system and the next shooter is on station 1.",
    "disciplines": {
-    "compak": "Лише в Compak Sporting; альтернатива стрільбі групою (by squad)."
+    "compak": "Лише в Compak® Sporting; альтернатива стрільбі групою (by squad)."
    },
    "disciplines_en": {
-    "compak": "Compak Sporting only; the alternative to shooting by squad."
+    "compak": "Compak® Sporting only; the alternative to shooting by squad."
    },
    "uk_usage": "«компак у лінію», «лінія»",
    "rule_refs": [
@@ -280,7 +281,7 @@ window.GLOSSARY = {
     "sporting": "25 targets per layout; 8 layouts in a 200-target event; no practice on them beforehand.",
     "compak": "Set before the start with the ground manager present; changed only after a complete round (50 targets on 2 installations or 100 on 4)."
    },
-   "uk_usage": "«лейаут», «площадка»",
+   "uk_usage": "«лейаут», «майданчик»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -718,6 +719,7 @@ window.GLOSSARY = {
    "term": "Fly-over zone (ABCD rectangle)",
    "aka": [
     "ABCD rectangle",
+    "Fly-over rectangle",
     "Compak rectangle"
    ],
    "aliases": [
@@ -729,10 +731,10 @@ window.GLOSSARY = {
    "long_uk": "Кожен Compak має прямокутну зону завширшки 35–40 м і завглибшки 25 м. Її кути позначають чотири кілки заввишки близько 50 см із прапорцем чи іншою міткою. За годинниковою стрілкою зліва сторони звуться AB, BC, CD і DA; DA обернена до стрільців. У безвітряну погоду кожна мішень має в якийсь момент пролетіти над прямокутником. Три обов'язкові траєкторії визначають за сторонами, які вони перетинають.",
    "long_en": "Every Compak has a rectangular zone 35–40 m wide and 25 m deep. Its corners are marked by four stakes about 50 cm high with a flag or other marker. Going clockwise from the left the sides are AB, BC, CD and DA, and DA faces the shooters. In still air every target must pass over the rectangle at some point. The three compulsory trajectories are defined by the sides they cross.",
    "disciplines": {
-    "compak": "Лише в Compak Sporting."
+    "compak": "Лише в Compak® Sporting."
    },
    "disciplines_en": {
-    "compak": "Compak Sporting only."
+    "compak": "Compak® Sporting only."
    },
    "uk_usage": "«прямокутник», «зона прольоту»",
    "rule_refs": [
@@ -814,10 +816,10 @@ window.GLOSSARY = {
    "long_uk": "Додаток 3 правил Compak містить 40 таблиць: 1–8 — по 5 одиночних на місце; 9–16 — 3 одиночні й дуплет on report; 17–24 — 3 одиночні й одночасний дуплет; 25–32 — 1 одиночна й 2 дуплети on report; 33–40 — 1 одиночна й 2 одночасні дуплети. FITASC радить користуватися ними на змаганнях, але дозволена будь-яка комбінація за правилами. Таблиці для тренування мають відрізнятися від змагальних.",
    "long_en": "Annex 3 of the Compak rules gives 40 tables: 1–8 with 5 singles per station, 9–16 with 3 singles and a double on report, 17–24 with 3 singles and a simultaneous double, 25–32 with 1 single and 2 doubles on report, 33–40 with 1 single and 2 simultaneous doubles. FITASC advises using them in competitions, but any combination that respects the rules is allowed. Tables used for practice must differ from those of the competition.",
    "disciplines": {
-    "compak": "Лише в Compak Sporting (Annex 3)."
+    "compak": "Лише в Compak® Sporting (Annex 3)."
    },
    "disciplines_en": {
-    "compak": "Compak Sporting only (Annex 3)."
+    "compak": "Compak® Sporting only (Annex 3)."
    },
    "uk_usage": "«таблиця», «схема»",
    "rule_refs": [
@@ -997,25 +999,33 @@ window.GLOSSARY = {
   },
   {
    "id": "mini",
-   "term": "Super mini",
+   "term": "Mini / super mini",
    "aka": [
     "Mini",
+    "Super mini",
+    "Mini target",
     "60 mm target"
    ],
    "aliases": [
     "mini"
    ],
    "cat": "Targets",
-   "short_uk": "Найменша спеціальна мішень, діаметром 60 мм.",
-   "short_en": "The smallest special target, 60 mm in diameter.",
-   "long_uk": "Super mini (60 мм) дозволена і в Sporting, і в Compak; у польоті вона дуже швидка й маленька. У Sporting її вказують у меню місця як спеціальну мішень. Меню може також містити мішені 70 мм.",
-   "long_en": "Super mini (60 mm) is allowed in both Sporting and Compak and is very fast and small in flight. In Sporting it must be listed on the stand's menu as a special target. The menu may also list 70 mm targets.",
+   "short_uk": "Найменші спеціальні мішені, зазвичай діаметром 60 мм; виробники вживають «mini» і «super mini» по-різному, тож орієнтуйтеся на міліметри в меню.",
+   "short_en": "The smallest special clays, usually 60 mm across; makers use 'mini' and 'super mini' differently, so go by the millimetres on the menu.",
+   "long_uk": "Правила Sporting™ називають «super mini» серед дозволених мішеней, але не вказують діаметра, а меню кожного місця має показувати спеціальні розміри, як-от 90, 70 і 60 мм. Правила Compak® Sporting дозволяють будь-які стандартні чи спеціальні мішені, зокрема 60 мм. У звичній мові міні — зазвичай 60 мм, але в меню трапляються й мішені 70 мм, а виробники вживають ці назви по-різному. Маленькі мішені здаються швидкими й далекими. Дивіться розмір у міліметрах у меню мішеней і уважно стежте за показом.",
+   "long_en": "The Sporting™ rules list 'super mini' among the permitted targets without giving a diameter, and the target menu of each stand must show special sizes such as 90, 70 and 60 mm. The Compak® Sporting rules allow any standard or special target, 60 mm included. In everyday use a mini is usually 60 mm, but some menus also show 70 mm targets, and makers do not use the names the same way. Small targets look fast and far away. Read the size in millimetres on the target menu and watch the presentation.",
    "uk_usage": "«міні», «супер-міні»",
    "rule_refs": [
     {
      "book": "sporting",
      "id": "ch2-targets",
      "ref": "Chapter 2, 2.3 Targets",
+     "page": 4
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-target-menu",
+     "ref": "Chapter 2, 2.4 Shooting stands",
      "page": 4
     },
     {
@@ -1255,8 +1265,8 @@ window.GLOSSARY = {
    "cat": "Targets",
    "short_uk": "Оцінка траєкторії Sporting за тим, скільки мішеней розбиває середній стрілець.",
    "short_en": "The grading of a Sporting trajectory by how many targets an average shooter breaks.",
-   "long_uk": "Клас A — розбивають понад 80% мішеней, клас B — від 60% до 80%, клас C — від 40% до 60%. Рекомендований набір на місце — одна траєкторія A, дві B і одна C; п'ята одиночна може бути лише класу A або B. У дуплетах траєкторія класу C може трапитися лише раз на місці, найкраще в парі з A; дуплет може бути B + B або B + A.",
-   "long_en": "Class A means more than 80% broken, class B from 60% to 80%, class C from 40% to 60%. The recommended mix for a stand is one A, two B and one C trajectory; a fifth single may only be class A or B. In doubles a class C trajectory may appear only once per stand, ideally with an A; a double may be B + B or B + A.",
+   "long_uk": "Клас A — розбивають понад 80% мішеней, клас B — від 60% до 80%, клас C — від 40% до 60%. Рекомендований набір на місце — одна траєкторія A, дві B і одна C; п'ята одиночна може бути лише класу A або B. У дуплетах траєкторія класу C може трапитися лише раз на місці, бажано в парі з A; дуплет може бути B + B або B + A.",
+   "long_en": "Class A means more than 80% broken, class B from 60% to 80%, class C from 40% to 60%. The recommended mix for a stand is one A, two B and one C trajectory; a fifth single may only be class A or B. In doubles a class C trajectory may appear only once per stand, preferably with an A; a double may be B + B or B + A.",
    "disciplines": {
     "sporting": "Лише в Sporting (2.5)."
    },
@@ -2078,10 +2088,7 @@ window.GLOSSARY = {
   {
    "id": "gun-position",
    "term": "Gun position",
-   "aka": [
-    "Gun mount",
-    "Mounting"
-   ],
+   "aka": [],
    "aliases": [
     "gun-position"
    ],
@@ -2098,7 +2105,7 @@ window.GLOSSARY = {
     "sporting": "Low gun until the target appears; free only between the targets of a double.",
     "compak": "Free gun position at the call; no low-gun rule and no vest marker."
    },
-   "uk_usage": "«вскидання», «положення рушниці»",
+   "uk_usage": "«положення рушниці»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -2194,9 +2201,7 @@ window.GLOSSARY = {
    "id": "mock-shooting",
    "term": "Mock shooting",
    "aka": [
-    "Dry mounting",
-    "Simulated shooting",
-    "Swinging through"
+    "Simulated shooting"
    ],
    "aliases": [
     "mock-shooting"
@@ -2214,7 +2219,7 @@ window.GLOSSARY = {
     "sporting": "Warning, then zero on the next target hit.",
     "compak": "Forbidden outside the positions and while another squad member shoots."
    },
-   "uk_usage": "«холості вскидання», «імітація»",
+   "uk_usage": "«імітація стрільби», «холосте прицілювання»",
    "rule_refs": [
     {
      "book": "compak",
@@ -2373,7 +2378,7 @@ window.GLOSSARY = {
    "short_uk": "Суддя на місці, який оцінює кожну мішень і стежить за порядком.",
    "short_en": "The official at the stand who judges every target and keeps order.",
    "long_uk": "На міжнародному змаганні кожен суддя обіцяє застосовувати правила чесно й неупереджено, не зважати на власну країну й федерацію, стояти там, звідки найкраще видно, оголошувати рішення голосно й чітко та мати при собі чинні правила офіційними мовами FITASC. Лише суддя вирішує, влучено чи ні, чи правильна траєкторія і чи мішень є No Bird; до журі ці рішення не подають. Коли має сумнів, суддя може порадитися з іншим суддею, оператором машинки чи стрільцями, але їхня думка не обов'язкова. Кожен суддя має мати чинний національний сертифікат; без нього можна бути лише помічником судді за попередньою згодою журі.",
-   "long_en": "At an international competition every referee promises to apply the rules honestly and impartially, to ignore their own nationality and federation, to stand where they can judge best, to announce decisions loudly and clearly and to carry the current rules in the FITASC official languages. The referee alone decides whether a target was hit or missed, whether a trajectory is correct and whether a target is a No Bird; these decisions cannot be taken to the jury. When in doubt the referee may consult another referee, the trapper or the shooters, but is not bound by their views. Each referee needs a valid national certificate; someone without it may act only as an assistant referee with the jury's prior approval.",
+   "long_en": "At an international competition every referee promises to apply the rules honestly and impartially, to ignore their own nationality and federation, to stand where they can see the targets clearly, to announce decisions loudly and clearly and to carry the current rules in the FITASC official languages. The referee alone decides whether a target was hit or missed, whether a trajectory is correct and whether a target is a No Bird; these decisions cannot be taken to the jury. When in doubt the referee may consult another referee, the trapper or the shooters, but is not bound by their views. Each referee needs a valid national certificate; someone without it may act only as an assistant referee with the jury's prior approval.",
    "disciplines": {
     "sporting": "Передає команду оператору звуковим сигналом; веде або доручає вести scorecard.",
     "compak": "Має бути схвалений журі до змагань; кожен zero оголошує голосно або звуковим сигналом; не шукає стрільця, що запізнюється."
@@ -2730,8 +2735,8 @@ window.GLOSSARY = {
    "cat": "Refereeing",
    "short_uk": "Перерва у стрільбі, наприклад через раптову грозу чи поломку машинки.",
    "short_en": "A pause in shooting, for example for a sudden storm or a trap breakdown.",
-   "long_uk": "У Sporting суддя, а в Compak головний суддя може у виняткових випадках зупинити стрільбу через раптову сильну зливу чи грозу, яка, ймовірно, швидко мине; якщо перерва затягується, треба повідомити журі. Під час будь-якої перерви рушниці відкривають і розряджають, а закривають лише з дозволу судді. Якщо машинка зламалася або стрільба стоїть понад 10 хвилин, мішені показують знову: у Sporting — мішені цього місця, у Compak — 6 одиночних.",
-   "long_en": "In Sporting the referee, and in Compak the Head Referee, may exceptionally stop shooting for a sudden heavy shower or violent storm expected to be short, and must inform the jury if it will last longer. During any interruption guns are opened and unloaded and closed only with the referee's permission. If a trap breaks down or shooting stops for more than 10 minutes, the targets are shown again: in Sporting the targets of that stand, in Compak the 6 singles.",
+   "long_uk": "У Sporting™ суддя, а в Compak® Sporting головний суддя може у виняткових випадках зупинити стрільбу через раптову сильну зливу чи грозу, яка, ймовірно, швидко мине; якщо перерва затягується, треба повідомити журі. Під час будь-якої перерви рушниці відкривають і розряджають, а закривають лише з дозволу судді. Після перерви мішені показують знову: у Sporting™ — мішені цього місця, якщо зламалася машинка або стрільба стояла понад 10 хвилин; у Compak® Sporting — 6 одиночних, якщо перерва тривала понад 10 хвилин.",
+   "long_en": "In Sporting™ the referee, and in Compak® Sporting the Head Referee, may exceptionally stop shooting for a sudden heavy shower or violent storm expected to be short, and must inform the jury if it will last longer. During any interruption guns are opened and unloaded and closed only with the referee's permission. Afterwards the targets are shown again: in Sporting™ the targets of that stand, after a trap breakdown or a stop of more than 10 minutes; in Compak® Sporting the 6 singles, after a break of more than 10 minutes.",
    "uk_usage": "«перерва», «зупинка»",
    "rule_refs": [
     {
@@ -3132,8 +3137,8 @@ window.GLOSSARY = {
    "cat": "Equipment",
    "short_uk": "Гладкоствольна мисливська рушниця для Sporting і Compak.",
    "short_en": "The smooth-bore hunting gun used in Sporting and Compak.",
-   "long_uk": "Дозволена будь-яка мисливська рушниця, зокрема напівавтомат, калібру не більше 12 і зі стволами не коротшими за 66 см (26 дюймів). Помпові рушниці заборонені, а правила Compak забороняють ще й дриллінги. Ремені, мікрокамери на рушниці та будь-які штучні прицільні пристрої заборонені. Чужу рушницю не можна чіпати без дозволу, а двоє стрільців однієї групи не можуть користуватися однією рушницею. Постріли з рушниці чи набоями, що не відповідають правилам, до перевірки зараховують як zero.",
-   "long_en": "Any hunting shotgun may be used, semi-automatics included, with a calibre no larger than 12 and barrels at least 66 cm (26 inches) long. Pump-action guns are not allowed, and the Compak rules also ban drillings. Slings and straps, micro cameras fixed to the gun and any artificial aiming device are forbidden. Nobody may touch another shooter's gun without permission, and two shooters of the same squad may not share one gun. Shots fired with a non-compliant gun or ammunition before an inspection count as zero.",
+   "long_uk": "Дозволена будь-яка мисливська рушниця, зокрема напівавтомат, калібру не більше 12 і зі стволами не коротшими за 66 см (26 дюймів). Помпові рушниці заборонені, а правила Compak забороняють ще й дриллінги. Ремені, мікрокамери на рушниці та будь-які штучні прицільні пристрої заборонені. Чужу рушницю не можна чіпати без дозволу, а двоє стрільців однієї групи не можуть користуватися однією рушницею. У Compak® Sporting постріли з рушниці чи набоями, що не відповідають правилам, до перевірки зараховують як zero.",
+   "long_en": "Any hunting shotgun may be used, semi-automatics included, with a calibre no larger than 12 and barrels at least 66 cm (26 inches) long. Pump-action guns are not allowed, and the Compak rules also ban drillings. Slings and straps, micro cameras fixed to the gun and any artificial aiming device are forbidden. Nobody may touch another shooter's gun without permission, and two shooters of the same squad may not share one gun. In Compak® Sporting, shots fired with a non-compliant gun or ammunition before an inspection count as zero.",
    "disciplines": {
     "sporting": "Заміна рушниці, чока чи ствола — між місцями або між одиночними й дуплетами, без затримки; на місці — заборонено.",
     "compak": "Заміна в межах серії заборонена (крім відмови); позичити можна лише в стрільця з іншої групи."
@@ -3476,8 +3481,8 @@ window.GLOSSARY = {
    "cat": "Equipment",
    "short_uk": "Спуск, що спрацьовує, коли його відпускають, а не натискають.",
    "short_en": "A trigger that fires when it is let go rather than when it is pulled.",
-   "long_uk": "Рушниця з release trigger повинна мати на зовнішньому боці приклада наліпку-попередження з великою літерою «R» на флуоресцентному тлі. Якщо закон країни-господарки забороняє такі спуски на міжнародних змаганнях, це зазначають у програмі. Якщо No Bird чи щось інше завадило пострілу, стрілець тримає спуск і або викликає нову мішень, або, тримаючи спуск, відкриває рушницю (напівавтомат — запобіжник і двічі відвести рукоятку затвора), або повідомляє суддю й стріляє в безпечному напрямку, який той покаже. Якщо при системі «release + звичайний спуск» No Bird стосується другої мішені після першого пострілу, рушницю просто відкривають.",
-   "long_en": "A gun with a release trigger must carry a warning sticker with a large 'R' on a fluorescent background on the outer side of the buttstock. If the host country's law bans release triggers at an international competition, this must be stated in the programme. If a No Bird or anything else stops the shot, the shooter keeps the trigger held and either calls for a new target, opens the gun while holding it (semi-automatic: safety on and cocking handle pulled back twice), or tells the referee and fires in a safe direction the referee shows. If the No Bird concerns the second target after the first shot with a release-then-pull system, the gun is simply opened.",
+   "long_uk": "Рушниці з release trigger позначають: наліпку з великою літерою R на флуоресцентному тлі клеять ззовні на приклад, щоб її бачили судді й інші стрільці. Якщо закон країни-господарки не дозволяє такі спуски на міжнародних змаганнях, це зазначають у програмі. Якщо No Bird чи щось інше завадило пострілу, стрілець далі тримає спуск і має три варіанти. Він може викликати нову мішень. Він може, тримаючи спуск, відкрити рушницю (напівавтомат — запобіжник, потім двічі відвести рукоятку затвора). Або він повідомляє суддю й стріляє в безпечному напрямку, який той покаже. Якщо при системі «release + звичайний спуск» No Bird стосується другої мішені після першого пострілу, рушницю просто відкривають.",
+   "long_en": "Guns with a release trigger are marked: a sticker with a big letter R on a fluorescent colour goes on the outside of the stock, so that referees and other shooters can see it. If the host country's law does not allow release triggers at an international competition, the programme must say so. If a No Bird or anything else stops the shot, the shooter keeps holding the trigger and has three options. He can call for a new target. He can open the gun while still holding the trigger (on a semi-automatic: safety on, then pull the cocking handle back twice). Or he can tell the referee and fire in a safe direction that the referee shows. With a release-then-pull system, if the No Bird concerns the second target after the first shot, the gun is simply opened.",
    "uk_usage": "«релізний спуск», «реліз»",
    "rule_refs": [
     {
@@ -4243,7 +4248,7 @@ window.GLOSSARY = {
     "refusal-to-comply"
    ],
    "cat": "Penalties",
-   "short_uk": "Невідновлення стрільби вчасно після остаточного рішення або навмисне затягування.",
+   "short_uk": "Стрілець після остаточного рішення не продовжує стріляти вчасно або навмисно затягує час.",
    "short_en": "Not resuming shooting in time after a final ruling, or deliberately stalling.",
    "long_uk": "Після остаточного рішення судді стрілець має відновити стрільбу протягом 15 секунд у Sporting або 10 секунд у Compak. Інакше це відмова підкоритися; так само кваліфікують навмисне затягування перед пострілом чи явно нечесну поведінку, на думку судді. Це підпадає під розділ про санкції: журі може призначити втрату мішені, втрату серії або виключення, а в Sporting — і негайне виключення.",
    "long_en": "After the referee's final decision the shooter must resume shooting within 15 seconds in Sporting or within 10 seconds in Compak. Not doing so is a refusal to comply, and so is deliberately stalling before shooting or acting in a clearly unfair way, as judged by the referee. It falls under the sanctions chapter: the jury may impose loss of a target, loss of a round or expulsion, and in Sporting may expel immediately.",
@@ -4344,8 +4349,8 @@ window.GLOSSARY = {
    "cat": "Penalties",
    "short_uk": "Відсутність або неготовність стрільця, коли настала його черга.",
    "short_en": "Not being present and ready when it is the shooter's turn.",
-   "long_uk": "У Sporting, якщо стрільця немає, суддя тричі протягом хвилини називає його ім'я і номер. Хто прийшов, не пропустивши своєї черги на одиночних першого місця, стріляє без покарання; інакше всі невідстріляні мішені — zero, а layout із пропущеними місцями вже не можна відстріляти в іншій групі. У Compak by squad запізнення після першої команди першого стрільця групи коштує 25 zero; у лінії — те саме, якщо номер уже скасовано, а наступний стоїть на місці 1; суддя не шукає відсутніх. Стрілець із поважною причиною подає журі письмову апеляцію (у Compak — того самого дня, з внеском); якщо її приймуть, він стріляє в іншій групі. Стрільця без захисту слуху чи окулярів вважають відсутнім.",
-   "long_en": "In Sporting, if a shooter is missing, the referee calls the name and number three times within one minute. Arriving before missing the turn on the singles of the first stand means no penalty; otherwise all targets not shot are zero, and a layout with missed stands can never be shot in another squad. In Compak by squad, arriving after the squad's first shooter has called for the first target costs 25 zeros; in line, the same applies once the number is cancelled and the next shooter is on station 1; the referee does not look for missing shooters. A shooter with a valid reason must appeal to the jury in writing (Compak: the same day, with the fee); if accepted, he shoots in another squad. A shooter without hearing or eye protection is treated as absent.",
+   "long_uk": "У Sporting™, якщо стрільця немає, суддя тричі протягом хвилини називає його ім'я і номер. Хто прийшов, не пропустивши своєї черги на одиночних першого місця, стріляє без покарання. Інакше всі невідстріляні мішені — zero. Layout із пропущеними місцями вже не можна відстріляти пізніше в іншій групі. У Compak® Sporting під час стрільби групою запізнення після першої команди першого стрільця групи коштує 25 zero. У лінії — те саме, якщо номер уже скасовано в системі, а наступний стрілець стоїть на місці 1. Суддя не шукає відсутніх. Стрілець із поважною причиною подає журі письмову апеляцію (у Compak® Sporting — того самого дня, з внеском). Якщо апеляцію приймуть, він стріляє в іншій групі. Стрільця без захисту слуху чи окулярів вважають відсутнім.",
+   "long_en": "In Sporting™, if a shooter is missing, the referee calls the name and number three times within one minute. A shooter who arrives before missing the turn on the singles of the first stand shoots without penalty. Otherwise all targets not shot are zero. A layout with missed stands cannot be shot later in another squad. In Compak® Sporting by squad, arriving after the squad's first shooter has called for the first target costs 25 zeros. In line, the same applies once the number is cancelled in the system and the next shooter is on station 1. The referee does not look for missing shooters. A shooter with a valid reason appeals to the jury in writing (in Compak® Sporting on the same day, with the fee). If the appeal is accepted, the shooter shoots in another squad. A shooter without hearing or eye protection is treated as absent.",
    "disciplines": {
     "sporting": "Ім'я тричі за 1 хвилину; якщо журі відхилить причину — 25 zero за кожен невідстріляний layout.",
     "compak": "25 zero за серію; відсутній у перший день знімається зі списку з другого дня."
@@ -4660,8 +4665,8 @@ window.GLOSSARY = {
    "cat": "Organisation",
    "short_uk": "Орган, що керує міжнародним змаганням, розглядає апеляції й призначає покарання.",
    "short_en": "The body that runs an international competition, hears appeals and sets penalties.",
-   "long_uk": "Журі складається з присутніх членів технічної (спортивної) комісії FITASC, по одному представнику від кожної країни, що виставила команду дорослих (у Compak — чоловічу), та присутніх членів керівного чи виконавчого комітету FITASC, які не входять до апеляційного журі; головує представник федерації-організатора (у Compak — президент або представник федерації-організатора). Рішення ухвалюють більшістю присутніх, за рівності голосів вирішальний голос має голова; кворум — голова і щонайменше чверть членів. У термінових випадках двоє членів, призначених головою, можуть ухвалити рішення з подальшим затвердженням. Щонайменше двоє членів журі мають бути на стенді постійно, а член журі, який помітив порушення, повідомляє журі, а не суддю.",
-   "long_en": "The jury consists of the FITASC technical (sporting) commission members present, one representative of each nation entering a senior or men's team, and FITASC Management or Executive Committee members present who are not on the appeal jury; it is chaired by the organising federation's representative (Compak: the President or the organising federation's representative). It decides by majority of members present, with the chairman's casting vote in a tie, and is quorate with the chairman and at least a quarter of members. In an emergency two members named by the chairman may decide, subject to later ratification. At least two jury members must always be on the ground, and a member who sees an irregularity reports it to the jury rather than to the referee.",
+   "long_uk": "Журі складається з трьох груп: присутніх членів технічної (спортивної) комісії FITASC; по одному представнику від кожної країни, що виставила команду «senior» (так у правилах Sporting™; у Compak® Sporting — чоловічу національну команду); присутніх членів керівного чи виконавчого комітету FITASC, які не входять до апеляційного журі. Головує представник федерації-організатора (у Compak® Sporting — президент або представник федерації-організатора). Журі ухвалює рішення більшістю присутніх членів. За рівності голосів вирішальний голос має голова. Кворум — голова і щонайменше чверть членів. У термінових випадках двоє членів, призначених головою, можуть ухвалити рішення з подальшим затвердженням. Щонайменше двоє членів журі мають постійно бути на стенді. Член журі, який помітив порушення, повідомляє журі, а не суддю.",
+   "long_en": "The jury is made up of three groups: the members of the FITASC technical (sporting) commission who are present; one representative of each nation entering a senior team (the Sporting™ rulebook's wording; in Compak® Sporting, a men's national team); and the members of the FITASC Management or Executive Committee who are present and are not on the appeal jury. The chair is the organising federation's representative (in Compak® Sporting, the President or the organising federation's representative). The jury decides by a majority of the members present. In a tie the chair has the casting vote. A quorum is the chair and at least a quarter of the members. In an emergency two members named by the chair may decide, subject to later approval. At least two jury members must be on the ground at all times. A member who sees an irregularity reports it to the jury, not to the referee.",
    "disciplines": {
     "sporting": "Перевіряє layout, встановлює час стрільби, може перевіряти рушниці, набої й мішені.",
     "compak": "Члени журі носять бейджі; термінове рішення двох членів потребує згоди Head Referee."
@@ -5517,8 +5522,8 @@ window.GLOSSARY = {
    "cat": "Results",
    "short_uk": "Вікова категорія FITASC від 56 до 65 років — не основна доросла.",
    "short_en": "The FITASC age category from 56 to 65, not the main adult category.",
-   "long_uk": "Senior — з 1 січня року, у якому стрільцеві виповнюється 56, до кінця року, у якому виповнюється 65; для 2027 року це народжені з 1962 по 1971 рік. Це пастка для перекладача: Senior у FITASC — не «дорослі взагалі», а вікова група 56–65, тоді як основна доросла категорія — Men. Команда Senior — 3 стрільці категорій Senior, Veteran або Master. В інших видах спорту, у старих протоколах і в деяких національних програмах senior може означати дорослих загалом, тож дивіться таблицю конкретних змагань.",
-   "long_en": "Senior runs from 1 January of the year a shooter turns 56 until the end of the year they turn 65; for 2027 that means born 1962 to 1971. It is a trap for interpreters: in FITASC Senior does not mean adults in general but the 56–65 age group, while the main adult category is Men. A Senior team has 3 shooters from the Senior, Veteran or Master categories. In other sports, in older results and in some national programmes senior may mean adults in general, so check the table of the specific event.",
+   "long_uk": "Senior — з 1 січня року, у якому стрільцеві виповнюється 56, до кінця року, у якому виповнюється 65; для 2027 року це народжені з 1962 по 1971 рік. Це пастка для новачків і перекладачів: Senior у FITASC — не «дорослі взагалі», а вікова група 56–65, тоді як основна доросла категорія — Men. Команда Senior — 3 стрільці категорій Senior, Veteran або Master. В інших видах спорту, у старих протоколах і в деяких національних програмах senior може означати дорослих загалом, тож дивіться таблицю конкретних змагань.",
+   "long_en": "Senior runs from 1 January of the year a shooter turns 56 until the end of the year they turn 65; for 2027 that means born 1962 to 1971. It is a trap for newcomers and interpreters: in FITASC Senior does not mean adults in general but the 56–65 age group, while the main adult category is Men. A Senior team has 3 shooters from the Senior, Veteran or Master categories. In other sports, in older results and in some national programmes senior may mean adults in general, so check the table of the specific event.",
    "uk_usage": "«сеньйори»",
    "rule_refs": [],
    "source_url": "https://www.fitasc.com/competitions/categories",
