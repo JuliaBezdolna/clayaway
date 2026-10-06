@@ -358,6 +358,7 @@ urls.push(...categoriesPage());
 urls.push(...lessonPages());
 for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
 urls.push(...glossaryPages());
+urls.push(BASE + "interpreter/"); // ClayArena Interpreter Academy (single app page; data from scripts/build_interpreter.py)
 // English versions of lessons, glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
 globalThis.SEO = { BASE, TODAY, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, CSS, NF, esc };
 const { buildEnglish } = await import("./build_seo_en.mjs");

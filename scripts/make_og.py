@@ -29,6 +29,8 @@ PAGES = [
      "Тренажер правил FITASC — ClayAway", "Перевірте знання правил Sporting™ і Compak® Sporting: ситуації на стенді, ліміти й цифри. Пояснення з посиланням на офіційний PDF."),
     ("learn/index.html", "learn", "uk_UA", "CLAYARENA ACADEMY", ["Стендова стрільба", "з нуля"], ["Безпека, рушниці, чоки, патрони, мішені,", "техніка, змагання, правила й культура"],
      "Академія ClayArena — стендова стрільба з нуля", "Короткі уроки для початківців: Sporting™ і Compak® Sporting, безпека, рушниці, чоки, патрони, мішені, техніка, змагання, правила FITASC і культура спорту."),
+    ("interpreter/index.html", "interpreter", "en_GB", "CLAYARENA · INTERPRETER ACADEMY", ["Clay shooting", "for interpreters"], ["Terms, target flights, lead, FITASC rules,", "referee calls and etiquette · 11 languages"],
+     "ClayArena Interpreter Academy", "Gamified course for interpreters: terms, target flights, lead and technique, FITASC rules of Parcours de Chasse – Sporting™ and Compak® Sporting, referee calls and etiquette — in all ClayArena languages."),
     ("glossary/index.html", "glossary", "uk_UA", "CLAYARENA · ГЛОСАРІЙ", ["Глосарій", "стендової стрільби"], ["Sporting™ і Compak® Sporting англійською", "з поясненнями й посиланнями на правила"],
      "Глосарій стендової стрільби — ClayArena", "Терміни Parcours de Chasse – Sporting™ і Compak® Sporting англійською з поясненнями українською та англійською і посиланнями на правила FITASC."),
     ("rules-spec/index.html", "rules-spec", "uk_UA", "ТЕХНІЧНЕ ЗАВДАННЯ", ["ТЗ: правила FITASC", "і глосарій"], ["Логіка, дані, пошук, ШІ-відповіді,", "оновлення регламентів"],

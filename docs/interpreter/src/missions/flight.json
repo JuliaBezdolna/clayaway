@@ -1,0 +1,1319 @@
+{
+ "id": "flight",
+ "order": 4,
+ "icon": "trajectory",
+ "title": {
+  "en": "How targets fly (presentations)",
+  "uk": "Як летять мішені (траєкторії)"
+ },
+ "intro": {
+  "en": "Coaches name every target by how it flies: crosser, incomer, teal, looper, rabbit, report pair. In six short lessons you will learn what each name means, what the shooter has to do with it and which words are easy to mistranslate.",
+  "uk": "Тренери називають кожну мішень за тим, як вона летить: кросер, зустрічна, тіл, лупер, кролик, дуплет за пострілом. За шість коротких уроків ви дізнаєтеся, що означає кожна назва, що з такою мішенню має зробити стрілець і які слова легко перекласти неправильно."
+ },
+ "lessons": [
+  {
+   "id": "flight-crosser",
+   "mission": "flight",
+   "minutes": 5,
+   "title": {
+    "en": "The crosser: a target flying across",
+    "uk": "Кросер: мішень, що летить поперек"
+   },
+   "body": {
+    "en": [
+     "A crosser flies across in front of the shooter, roughly at a right angle to the line of sight: left to right (written L→R) or right to left (R→L). On a Parcours de Chasse – Sporting™ layout the rules ask for a mix of crossing, quartering, incoming and going-away targets. In Compak® Sporting a left-to-right and a right-to-left crosser are two of the three compulsory trajectories, so every Compak has them.",
+     "A crosser shows you its full sideways speed, so it needs the most lead (forward allowance) of all presentations, and the further away it is, the more lead it needs. A “long crosser” means a far one, not one that flies for a long time.",
+     "Read its line and speed: does it fly flat, climb, or already drop at the break point? Does it show its face (the dome or the belly) or only its edge? Does it slow down? A slowing crosser needs less lead than one at full speed.",
+     "Typical plan: feet set to the break point, eyes picking it up early, then pull-away or maintained lead, with the gun still moving at the shot. A very common coach's verdict on a crosser is “behind”: not enough lead, or a gun that stopped.",
+     "Directions are given from the shooter's point of view. If you stand facing the shooter, their “left to right” is your right to left, so never turn the words round."
+    ],
+    "uk": [
+     "Кросер (crosser, поперечна мішень) летить перед стрільцем приблизно під прямим кутом до його погляду, зліва направо (пишуть L→R) або справа наліво (R→L). На майданчику Parcours de Chasse – Sporting™ правила вимагають поєднувати поперечні, косі, зустрічні мішені й мішені від стрільця. У Compak® Sporting кросер зліва направо і кросер справа наліво — дві з трьох обов’язкових траєкторій, тож вони є на кожному полі компаку.",
+     "Кросер показує всю свою швидкість убік, тому потребує найбільшого виносу (упередження) з усіх траєкторій, і що далі мішень, то більший винос. «Long crosser» — це далекий кросер, а не «довгий» за часом польоту.",
+     "Прочитайте лінію і швидкість: мішень летить рівно, набирає висоту чи вже падає в точці пострілу? Показує площину (купол або «черевце») чи лише ребро? Сповільнюється? Кросеру, що сповільнюється, потрібен менший винос, ніж мішені на повній швидкості.",
+     "Типовий план: ноги — під точку пострілу, очі підхоплюють мішень рано, далі pull-away або maintained lead, і рушниця в момент пострілу не зупиняється. Дуже часто тренер після кросера каже «behind», позаду: замалий винос або зупинена рушниця.",
+     "Напрямки називають з погляду стрільця. Якщо ви стоїте обличчям до стрільця, його «зліва направо» для вас — справа наліво, тож ніколи не перевертайте слова."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "A crosser flies across at about 90° to the line of sight: L→R or R→L.",
+     "It needs the most lead; more distance means more lead.",
+     "“Long crosser” = far away, not long-lasting.",
+     "Compak® Sporting always has an L→R and an R→L crosser.",
+     "Left and right are always from the shooter's point of view."
+    ],
+    "uk": [
+     "Кросер летить поперек, приблизно під 90° до погляду: L→R або R→L.",
+     "Він потребує найбільшого виносу; що далі, то більший винос.",
+     "«Long crosser» — далекий, а не «довгий» кросер.",
+     "У Compak® Sporting завжди є кросер L→R і кросер R→L.",
+     "Ліво і право завжди рахують з погляду стрільця."
+    ]
+   },
+   "terms": [
+    "crosser",
+    "lead",
+    "trajectory",
+    "target-line",
+    "break-point",
+    "follow-through"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-layout"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-compulsory-trajectories"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Sporting clays",
+     "url": "https://en.wikipedia.org/wiki/Sporting_clays"
+    },
+    {
+     "title": "NSSA-NSCA — Ask the instructor: leading crossers",
+     "url": "https://nssa-nsca.org/blog/2019/05/10/ask-the-instructor-leading-crossers/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Long crosser, right to left — trust the lead and keep the gun moving.",
+     "meaning": {
+      "en": "The target is far away and flies from the shooter's right to left; give it the planned lead and do not stop the swing.",
+      "uk": "Мішень далеко і летить справа наліво від стрільця; дайте запланований винос і не зупиняйте проводку."
+     },
+     "say": {
+      "uk": "Далекий кросер справа наліво — довіряйте виносу і не зупиняйте рушницю."
+     }
+    },
+    {
+     "en": "You're behind it — give it more.",
+     "meaning": {
+      "en": "The shot passed behind the target: more lead is needed.",
+      "uk": "Дріб пройшов позаду мішені: потрібен більший винос."
+     },
+     "say": {
+      "uk": "Ви позаду мішені — дайте більший винос."
+     }
+    },
+    {
+     "en": "It's dropping at your break point — stay under the line.",
+     "meaning": {
+      "en": "Where the shooter breaks it, the crosser is already falling, so the gun must travel slightly below its path.",
+      "uk": "У точці пострілу кросер уже падає, тож рушниця має йти трохи нижче за його лінію."
+     },
+     "say": {
+      "uk": "У точці пострілу вона вже падає — тримайтеся під лінією."
+     }
+    },
+    {
+     "en": "Pick it up early, it's quick off the trap.",
+     "meaning": {
+      "en": "Look for the target closer to the trap than usual, because it leaves the trap fast.",
+      "uk": "Шукайте мішень ближче до машинки, ніж зазвичай, бо вона швидко вилітає."
+     },
+     "say": {
+      "uk": "Підхоплюйте її раніше, вона швидко вилітає з машинки."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which presentation usually needs the most lead?",
+      "uk": "Якій траєкторії зазвичай потрібен найбільший винос?"
+     },
+     "options": {
+      "en": [
+       "A target going straight away",
+       "An incomer flying straight at the shooter",
+       "A crosser at the same distance",
+       "A rabbit rolling straight away"
+      ],
+      "uk": [
+       "Мішені, що летить прямо від стрільця",
+       "Зустрічній мішені, що летить прямо на стрільця",
+       "Кросеру на тій самій відстані",
+       "Кролику, що котиться прямо від стрільця"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "A crosser shows its full sideways speed, so the gun must be furthest in front; straight-line targets need little sideways lead.",
+      "uk": "Кросер показує всю бічну швидкість, тому стволи мають бути найдалі попереду; мішеням на прямій лінії бічний винос майже не потрібен."
+     }
+    },
+    {
+     "q": {
+      "en": "The coach says “long crosser”. What does “long” mean?",
+      "uk": "Тренер каже «long crosser». Що означає «long»?"
+     },
+     "options": {
+      "en": [
+       "The target is far away",
+       "The target flies for a long time",
+       "The target is a long, oval clay",
+       "The shooter should wait a long time"
+      ],
+      "uk": [
+       "Мішень далеко",
+       "Мішень довго летить",
+       "Мішень довгаста, овальна",
+       "Стрільцеві треба довго чекати"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "In coaching “long” describes distance. A long crosser is a far crosser, which needs more lead.",
+      "uk": "У мові тренерів «long» — про відстань. Long crosser — далекий кросер, і йому потрібен більший винос."
+     }
+    },
+    {
+     "q": {
+      "en": "What is true of crossers in Compak® Sporting?",
+      "uk": "Що правда про кросери в Compak® Sporting?"
+     },
+     "options": {
+      "en": [
+       "Crossers are not allowed on a Compak",
+       "Only right-to-left crossers are allowed",
+       "Crossers may only be thrown as rabbits",
+       "An L→R and an R→L crosser are compulsory"
+      ],
+      "uk": [
+       "Кросери на компаку заборонені",
+       "Дозволені лише кросери справа наліво",
+       "Кросером може бути лише кролик",
+       "Кросер L→R і кросер R→L обов’язкові"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The Compak® Sporting rules make three trajectories compulsory: an L→R crosser, an R→L crosser and a going-away target.",
+      "uk": "Правила Compak® Sporting роблять обов’язковими три траєкторії: кросер L→R, кросер R→L і мішень від стрільця."
+     }
+    }
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "crosser-lr",
+    "also": [
+     "crosser-rl"
+    ]
+   }
+  },
+  {
+   "id": "flight-incomer-going-away",
+   "mission": "flight",
+   "minutes": 5,
+   "title": {
+    "en": "Incomer, going-away, driven and overhead",
+    "uk": "Зустрічна, від стрільця, над головою спереду і ззаду"
+   },
+   "body": {
+    "en": [
+     "An incomer flies towards the shooter, often from a distant trap or a tower, and usually drops as it comes. It can seem to slow down and hang, which tempts shooters to aim. It is normally taken out in front, before it gets overhead, and the barrels may cover (“blot out”) the target at the shot. That is intended, not a fault.",
+     "A going-away target leaves from near or behind the shooter and flies away. It needs little sideways lead, but it shrinks fast and often rises or drops, so the lead is mostly vertical and timing matters: do not wait. In Compak® Sporting a going-away target over side BC is compulsory; it may come from a trench in front or from a tower behind the stations, at least 4 m above them.",
+     "A driven target is an incomer that passes over the shooter's head, like a pheasant pushed by beaters. Pick it up early, move with it, swing up from behind through it, fire as the barrels cover it and keep swinging. Careful: French “en battue” (Italian “in battuta”) means driven game, not the battue target.",
+     "An overhead from behind comes over the shooter's back and goes away. It is seen late, so the shooter looks back for it early, mounts with it, fires as the muzzle touches its front and follows through.",
+     "“Incoming” and “going away” always describe the target relative to the shooter."
+    ],
+    "uk": [
+     "Зустрічна мішень (incomer) летить на стрільця, часто з далекої машинки або вежі, і зазвичай знижується. Може здаватися, що вона сповільнюється і «зависає», тож стрілець спокушається прицілитися. Її звичайно розбивають попереду, поки вона не опинилася над головою, і стволи в мить пострілу можуть закрити мішень («blot it out»). Так і задумано, це не помилка.",
+     "Мішень від стрільця (going away) вилітає біля стрільця або позаду нього й летить геть. Бічного виносу їй треба мало, але вона швидко зменшується і часто підіймається чи падає, тож винос переважно вертикальний, а вирішує час: не чекайте. У Compak® Sporting мішень від стрільця через сторону BC обов’язкова; вона може вилітати з траншеї попереду або з вежі позаду номерів, щонайменше на 4 м вище за них.",
+     "Зустрічна над головою (driven) — мішень, що пролітає над головою стрільця, як фазан, якого женуть загоничі. Підхопіть її рано, рушайте разом із нею, ведіть стволи знизу, з-позаду, крізь неї, стріляйте, коли стволи її закривають, і не зупиняйтеся. Обережно: французьке «en battue» (італійське «in battuta») — це загінне полювання, а не мішень батю.",
+     "Мішень над головою ззаду (overhead) летить через спину стрільця і віддаляється. Її видно пізно, тому стрілець заздалегідь озирається, робить вкидку разом із нею, стріляє, щойно дульний зріз торкнувся її переднього краю, і продовжує рух.",
+     "«Incoming» і «going away» завжди описують мішень щодо стрільця."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Incomer: comes towards the shooter, usually dropping; take it in front.",
+     "Going-away: little sideways lead, mostly vertical; shoot promptly.",
+     "Driven: an incomer over the head; swing through from behind and cover it.",
+     "Overhead from behind: look back early, mount with it, follow through.",
+     "Compak® Sporting always includes a going-away target."
+    ],
+    "uk": [
+     "Зустрічна: летить на стрільця, зазвичай знижуючись; беріть попереду.",
+     "Від стрільця: бічного виносу мало, переважно вертикальний; стріляйте вчасно.",
+     "Зустрічна над головою (driven): ведіть з-позаду крізь неї і закривайте стволами.",
+     "Над головою ззаду: озирніться заздалегідь, вкидка разом із мішенню, продовжуйте рух.",
+     "У Compak® Sporting завжди є мішень від стрільця."
+    ]
+   },
+   "terms": [
+    "incomer",
+    "going-away",
+    "driven-target",
+    "overhead",
+    "tower",
+    "follow-through"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-layout"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-compulsory-trajectories"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-trap-placement"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Sporting clays",
+     "url": "https://en.wikipedia.org/wiki/Sporting_clays"
+    },
+    {
+     "title": "Shooting UK — The overhead clay from behind",
+     "url": "https://www.shootinguk.co.uk/shooting/shotgun/the-less-on-overhead-clay-from-behind/"
+    },
+    {
+     "title": "ShotKam — Master incomers",
+     "url": "https://shotkam.com/blogs/blog-collections/master-incomers"
+    },
+    {
+     "title": "Sporting Gun — How to shoot going-away targets",
+     "url": "https://sporting-gun.com/shooting/how-to-shoot-going-away-targets/"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Take it out in front, before it gets on top of you.",
+     "meaning": {
+      "en": "Break the incomer while it is still in front, not when it is overhead.",
+      "uk": "Розбийте зустрічну, поки вона ще попереду, а не над головою."
+     },
+     "say": {
+      "uk": "Беріть її попереду, поки вона не над вами."
+     }
+    },
+    {
+     "en": "Blot it out and keep swinging.",
+     "meaning": {
+      "en": "Let the barrels cover the target at the shot and do not stop the gun.",
+      "uk": "Нехай стволи в мить пострілу закриють мішень, і не зупиняйте рушницю."
+     },
+     "say": {
+      "uk": "Закрийте її стволами і не зупиняйтеся."
+     }
+    },
+    {
+     "en": "Don't wait on the going-away — it's getting smaller.",
+     "meaning": {
+      "en": "Shoot the going-away target promptly, because it is quickly getting further away.",
+      "uk": "Стріляйте мішень від стрільця вчасно, бо вона швидко віддаляється."
+     },
+     "say": {
+      "uk": "Не чекайте на мішень від стрільця — вона швидко зменшується."
+     }
+    },
+    {
+     "en": "It comes from behind you — look back for it early.",
+     "meaning": {
+      "en": "It is an overhead from behind; turn the eyes towards it before calling.",
+      "uk": "Це мішень над головою ззаду; ще до команди поверніть погляд у її бік."
+     },
+     "say": {
+      "uk": "Вона летить ззаду — заздалегідь подивіться назад, звідки вона з’явиться."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The coach says: “Blot it out.” What should the shooter do?",
+      "uk": "Тренер каже: «Blot it out». Що має зробити стрілець?"
+     },
+     "options": {
+      "en": [
+       "Wipe the lenses of the safety glasses",
+       "Let the barrels cover the target at the shot",
+       "Wait until the target disappears from view",
+       "Shoot only at the falling pieces"
+      ],
+      "uk": [
+       "Протерти лінзи захисних окулярів",
+       "Дати стволам закрити мішень у мить пострілу",
+       "Зачекати, поки мішень зникне з поля зору",
+       "Стріляти лише по уламках, що падають"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "On incomers, driven and rising targets the gun often covers the clay at the moment of the shot; the coach asks for exactly that.",
+      "uk": "На зустрічних мішенях, зустрічних над головою і тих, що злітають, стволи в мить пострілу часто закривають мішень, і тренер просить саме цього."
+     }
+    },
+    {
+     "q": {
+      "en": "Why should a going-away target not be left too long?",
+      "uk": "Чому мішень від стрільця не можна довго чекати?"
+     },
+     "options": {
+      "en": [
+       "It quickly gets further away and smaller",
+       "The rules allow only three seconds",
+       "It always turns into a crosser",
+       "The referee calls No Bird after the peak"
+      ],
+      "uk": [
+       "Вона швидко віддаляється і зменшується",
+       "Правила дають лише три секунди",
+       "Вона завжди стає кросером",
+       "Після вершини суддя оголошує No Bird"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "A going-away target gains distance fast, so the longer you wait, the harder it becomes. Three seconds is the release time, not a shooting limit.",
+      "uk": "Мішень від стрільця швидко набирає відстань, і що довше чекаєш, то важче. Три секунди — це час вильоту мішені, а не межа для пострілу."
+     }
+    },
+    {
+     "q": {
+      "en": "What makes a driven target different from an ordinary incomer?",
+      "uk": "Чим зустрічна над головою (driven) відрізняється від звичайної зустрічної?"
+     },
+     "options": {
+      "en": [
+       "It is always a rabbit",
+       "It comes from behind the shooter",
+       "It passes over the shooter's head",
+       "It is thrown only in Compak® Sporting"
+      ],
+      "uk": [
+       "Це завжди кролик",
+       "Вона летить з-за спини стрільця",
+       "Вона пролітає над головою стрільця",
+       "Її кидають тільки в Compak® Sporting"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Driven means an incomer that comes over the head, like driven game. A target coming from behind is an overhead from behind.",
+      "uk": "Driven — зустрічна мішень, що летить над головою, як дичина на загінному полюванні. Мішень, що летить з-за спини, — це overhead ззаду."
+     }
+    }
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "incomer",
+    "also": [
+     "going-away",
+     "overhead"
+    ]
+   }
+  },
+  {
+   "id": "flight-quartering",
+   "mission": "flight",
+   "minutes": 5,
+   "title": {
+    "en": "Quartering targets: away and towards",
+    "uk": "Косі мішені: від стрільця і на стрільця"
+   },
+   "body": {
+    "en": [
+     "A quartering target flies at an angle: partly crossing, partly going away or coming in. Quartering away moves away from the shooter at an angle, for example out to the front right. Quartering towards (also “quartering in”) comes towards the shooter at an angle and passes to one side or drops in front. The angle is often around 45°, but anything between a straight target and a full crosser is possible.",
+     "The lead depends on the angle: more than for a straight going-away target, less than for a full crosser. A sharp angle needs little lead, an almost crossing one nearly as much as a crosser.",
+     "Quartering away gets smaller and slower quickly, so take it promptly. Pull-away suits it well, because the gun stays on the target's line. Quartering towards grows bigger and looks slow, which tempts the shooter to wait; it can then pass too close or drop out of sight.",
+     "The same trap gives different presentations from different stands: from one stand a target is a crosser, from the next it is quartering. That is why targets must be read from the exact stand the shooter will use.",
+     "In Ukrainian say «коса від стрільця» and «коса на стрільця» (or «навскіс від стрільця / на стрільця»). A literal word built from “quarter” means nothing to a shooter."
+    ],
+    "uk": [
+     "Коса мішень (quartering) летить під кутом: частково поперек, частково від стрільця або на нього. Quartering away віддаляється від стрільця під кутом, наприклад праворуч уперед. Quartering towards (ще кажуть «quartering in») наближається до стрільця під кутом і проходить збоку або падає попереду. Кут часто близько 45°, але можливий будь-який — від прямої мішені до повного кросера.",
+     "Винос залежить від кута: більший, ніж для мішені прямо від стрільця, менший, ніж для повного кросера. Гострий кут потребує малого виносу, майже поперечна мішень — майже такого, як кросер.",
+     "Мішень навскіс від стрільця швидко зменшується і сповільнюється, тож беріть її вчасно. Тут добре працює pull-away, бо стволи лишаються на лінії мішені. Мішень навскіс на стрільця збільшується і здається повільною, тому стрілець спокушається чекати, а тоді вона пролітає надто близько або падає з поля зору.",
+     "Та сама машинка з різних позицій дає різні траєкторії: з однієї позиції мішень — кросер, із сусідньої — коса. Тому мішень треба читати саме з тієї позиції, з якої стрілятимуть.",
+     "Українською кажіть «коса від стрільця» і «коса на стрільця» (або «навскіс від стрільця / на стрільця»). Дослівні вигадки від слова «quarter» стрільцеві нічого не скажуть."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Quartering = flying at an angle, between straight and crossing.",
+     "Quartering away moves off at an angle; quartering towards (in) comes in at an angle.",
+     "Lead grows with the angle: less than a crosser, more than a straight target.",
+     "One trap looks different from each stand: read it from your own stand.",
+     "Ukrainian: «коса від стрільця / на стрільця»."
+    ],
+    "uk": [
+     "Quartering — політ під кутом, між прямою і поперечною траєкторією.",
+     "Quartering away віддаляється під кутом; quartering towards (in) наближається під кутом.",
+     "Винос росте з кутом: менший, ніж у кросера, більший, ніж у прямої мішені.",
+     "Одна машинка з різних позицій виглядає по-різному: читайте мішень зі своєї позиції.",
+     "Українською: «коса від стрільця / на стрільця»."
+    ]
+   },
+   "terms": [
+    "quartering-away",
+    "quartering-towards",
+    "crosser",
+    "going-away",
+    "lead",
+    "pull-away"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-layout"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-trajectory-variety"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Sporting clays",
+     "url": "https://en.wikipedia.org/wiki/Sporting_clays"
+    },
+    {
+     "title": "GAIM — Swing-through, pull-away or maintained lead",
+     "url": "https://www.gaim.com/blog/swing-through-pull-away-or-maintained-lead"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "The first one's quartering away to the left — take it quickly before it gets small.",
+     "meaning": {
+      "en": "The first target moves away at an angle to the shooter's left; break it early.",
+      "uk": "Перша мішень віддаляється під кутом уліво від стрільця; розбийте її рано."
+     },
+     "say": {
+      "uk": "Перша йде навскіс від вас уліво — беріть швидко, поки вона не стала маленькою."
+     }
+    },
+    {
+     "en": "Quartering in from the right — don't let it get too close.",
+     "meaning": {
+      "en": "The target comes towards the shooter at an angle from the right; do not wait for it.",
+      "uk": "Мішень наближається під кутом справа; не чекайте на неї."
+     },
+     "say": {
+      "uk": "Навскіс на вас справа — не підпускайте її надто близько."
+     }
+    },
+    {
+     "en": "Less lead than you think — it's only a slight angle.",
+     "meaning": {
+      "en": "The target is nearly straight, so it needs only a small lead.",
+      "uk": "Мішень летить майже прямо, тож їй потрібен лише малий винос."
+     },
+     "say": {
+      "uk": "Виносу менше, ніж вам здається, — кут зовсім невеликий."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "A target comes towards the shooter at an angle and passes to the side. What is it called?",
+      "uk": "Мішень наближається до стрільця під кутом і проходить збоку. Як вона називається?"
+     },
+     "options": {
+      "en": [
+       "Going-away",
+       "Quartering towards",
+       "Teal",
+       "Rafale"
+      ],
+      "uk": [
+       "Мішень від стрільця",
+       "Quartering towards (коса на стрільця)",
+       "Тіл",
+       "Рафаль"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Quartering towards (or quartering in) is an angled target coming in; quartering away is the angled target moving off.",
+      "uk": "Quartering towards (або quartering in) — коса мішень, що наближається; quartering away — коса мішень, що віддаляється."
+     }
+    },
+    {
+     "q": {
+      "en": "How does the lead on a quartering target compare with a full crosser at the same distance and speed?",
+      "uk": "Як винос на косій мішені співвідноситься з повним кросером на тій самій відстані й швидкості?"
+     },
+     "options": {
+      "en": [
+       "It is the same as the crosser",
+       "It is always zero",
+       "It is larger than the crosser",
+       "It is smaller, depending on the angle"
+      ],
+      "uk": [
+       "Такий самий, як у кросера",
+       "Завжди нульовий",
+       "Більший, ніж у кросера",
+       "Менший, залежно від кута"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Only the sideways part of the movement needs sideways lead, so the sharper the angle, the smaller the lead.",
+      "uk": "Бічного виносу потребує лише бічна частина руху, тож що гостріший кут, то менший винос."
+     }
+    },
+    {
+     "q": {
+      "en": "Why should a target be read from the exact stand you will shoot from?",
+      "uk": "Чому мішень треба читати саме з тієї позиції, з якої стрілятимете?"
+     },
+     "options": {
+      "en": [
+       "One trap can be a crosser from one stand, quartering from another",
+       "The rules forbid watching from any other place",
+       "Targets change colour from one stand to the next",
+       "Only the referee may stand anywhere else"
+      ],
+      "uk": [
+       "Та сама машинка з однієї позиції дає кросер, а з іншої — косу",
+       "Правила забороняють дивитися з будь-якого іншого місця",
+       "Мішені змінюють колір від позиції до позиції",
+       "Лише суддя може стояти деінде"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The angle between the shooter and the target's line changes with the position, so the presentation changes too.",
+      "uk": "Кут між стрільцем і лінією мішені змінюється разом із позицією, тож змінюється і траєкторія, яку бачить стрілець."
+     }
+    }
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "quartering-away",
+    "also": [
+     "quartering-towards"
+    ]
+   }
+  },
+  {
+   "id": "flight-teal-chandelle-looper",
+   "mission": "flight",
+   "minutes": 6,
+   "title": {
+    "en": "Teal, chandelle, looper and dropping targets",
+    "uk": "Тіл, шандель, лупер і мішені на падінні"
+   },
+   "body": {
+    "en": [
+     "These presentations are about height and curve rather than angle. Their names are course-setters' words, not rulebook terms: the rules list target types, and the Compak® Sporting rules ask for varied trajectories, such as rising, dropping and lofted ones.",
+     "A teal (springing or rising teal, after the small duck) is thrown almost straight up, slows, stalls at the top and falls back. It is taken either on the way up, swinging up through it from below, or at the peak while it stalls. Poking at it at the top is the classic fault. Some setters use 'springing' for a target that climbs at an angle rather than straight up, like a flushed bird.",
+     "A chandelle (French for “candle”) rises steeply on a slight curve, arcs over and drops almost vertically. It is easiest on the way up; on the curl the lead goes to the side and below.",
+     "A looper flies a wide arc across the sky, like a rainbow, often a battue thrown from a tilted trap: it climbs, turns its face and falls. The gun follows the curve, in front and underneath.",
+     "A dropping target is any target in the falling part of its flight. The lead is partly vertical: underneath and in front, with the gun moving.",
+     "Careful: names vary between countries. Many French speakers use “chandelle” for a target that goes almost straight up, which an English coach calls a teal, and Ukrainian shooters may say «свічка» for either. Whenever you hear chandelle, candle or «свічка», ask: straight up or arcing over?"
+    ],
+    "uk": [
+     "У цих траєкторіях головне — висота і крива, а не кут. Їхні назви — слова тих, хто ставить мішені, а не терміни правил: правила перелічують типи мішеней, а правила Compak® Sporting вимагають різноманітних траєкторій — на підйомі, на падінні, навісних.",
+     "Тіл (teal, springing або rising teal — від назви качки-чирка) кидають майже вертикально вгору: він сповільнюється, зависає нагорі й падає назад. Його беруть або на підйомі, ведучи стволи знизу крізь мішень, або на вершині, поки вона зависла. Класична помилка — «тицяти» в мішень нагорі, прицілюючись. Дехто з постановників називає springing мішень, що злітає не вертикально, а під кутом, як птах, що зривається з трави.",
+     "Шандель (chandelle, з французької — «свічка») круто злітає ледь вигнутою лінією, перевалює через вершину і падає майже вертикально. Найлегше взяти її на підйомі; на вигині винос іде вбік і вниз.",
+     "Лупер (looper) летить широкою дугою через небо, як веселка; часто це батю з нахиленої машинки: злітає, показує площину й падає. Рушниця йде за кривою — попереду і знизу.",
+     "Мішень на падінні (dropping) — будь-яка мішень у низхідній частині польоту. Винос частково вертикальний: знизу і попереду, рушниця в русі.",
+     "Обережно: назви в різних країнах різняться. Багато франкомовних стрільців називають «chandelle» мішень, що летить майже вертикально вгору, — англійський тренер скаже teal, а українські стрільці можуть сказати «свічка» про обидві. Щойно чуєте chandelle, candle чи «свічка», уточніть: прямо вгору чи дугою?"
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Teal: almost vertical up, stalls, falls; take it rising or at the peak.",
+     "Chandelle: steep curving climb, arcs over, drops almost vertically.",
+     "Looper: wide rainbow arc across, often a battue that turns and falls.",
+     "Dropping: lead underneath and in front, never stop the gun.",
+     "Names vary: French speakers often say “chandelle” for a teal; «свічка» is ambiguous too, so clarify."
+    ],
+    "uk": [
+     "Тіл: майже вертикально вгору, зависає, падає; беріть на підйомі або на вершині.",
+     "Шандель: крутий вигнутий підйом, перевалює через вершину, падає майже вертикально.",
+     "Лупер: широка дуга-веселка впоперек, часто батю, що перевертається і падає.",
+     "На падінні: винос знизу і попереду, рушницю не зупиняти.",
+     "Назви різняться: франкомовні стрільці часто кажуть «chandelle» про teal; «свічка» теж неоднозначна, тож уточнюйте."
+    ]
+   },
+   "terms": [
+    "teal",
+    "springing-target",
+    "chandelle",
+    "looper",
+    "dropping-target",
+    "battue"
+   ],
+   "rule_refs": [
+    {
+     "book": "compak",
+     "id": "ch3-trajectory-variety"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-targets"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-targets"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shooting UK — How to shoot an on-report pair of springing teal",
+     "url": "https://secure.shootinguk.co.uk/shooting/clay-shooting/how-to-shoot-an-on-report-pair-of-springing-teal-90197"
+    },
+    {
+     "title": "Shotgun Life — How to shoot a chandelle target",
+     "url": "https://www.shotgunlife.com/briefs/how-to-shoot-a-chandelle-target.html"
+    },
+    {
+     "title": "ShotgunWorld — Target terminology (forum)",
+     "url": "https://www.shotgunworld.com/threads/target-terminology.477902/"
+    },
+    {
+     "title": "NSSA-NSCA — Ask the instructor: battues",
+     "url": "https://nssa-nsca.org/blog/2017/07/18/ask-the-instructor-battues/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Take the teal on the way up — keep the barrels moving above it.",
+     "meaning": {
+      "en": "Break the rising teal before the peak; the gun keeps rising past it.",
+      "uk": "Розбийте тіл до вершини; стволи продовжують іти вгору повз мішень."
+     },
+     "say": {
+      "uk": "Беріть тіл на підйомі — ведіть стволи вгору понад ним."
+     }
+    },
+    {
+     "en": "Don't poke at it on the top.",
+     "meaning": {
+      "en": "Do not stop and aim at the target while it stalls at the peak.",
+      "uk": "Не зупиняйтеся і не прицілюйтеся, коли мішень зависла на вершині."
+     },
+     "say": {
+      "uk": "Не тицяйте в неї нагорі — не прицілюйтеся."
+     }
+    },
+    {
+     "en": "The looper's turning over — underneath and in front.",
+     "meaning": {
+      "en": "The target is rolling over the top of its arc and starting to fall; the lead goes below and ahead of it.",
+      "uk": "Мішень перевалює через вершину дуги й починає падати; винос — знизу і попереду."
+     },
+     "say": {
+      "uk": "Лупер перевертається — знизу і попереду."
+     }
+    },
+    {
+     "en": "Second bird's dropping — go under it and keep the gun moving.",
+     "meaning": {
+      "en": "The second target of the pair is falling; shoot below it with the gun in motion.",
+      "uk": "Друга мішень дуплета падає; стріляйте під неї, не зупиняючи рушниці."
+     },
+     "say": {
+      "uk": "Друга мішень падає — під неї, і не зупиняйте рушницю."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which target is thrown almost straight up, stalls at the top and falls back?",
+      "uk": "Яку мішень кидають майже вертикально вгору, вона зависає нагорі й падає назад?"
+     },
+     "options": {
+      "en": [
+       "Looper",
+       "Quartering away",
+       "Rabbit",
+       "Teal"
+      ],
+      "uk": [
+       "Лупер",
+       "Навскіс від стрільця",
+       "Кролик",
+       "Тіл"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "That is the teal (springing or rising teal). A looper flies a wide arc across the sky.",
+      "uk": "Це тіл (springing або rising teal). Лупер летить широкою дугою через небо."
+     }
+    },
+    {
+     "q": {
+      "en": "Where does the lead usually go on a dropping target?",
+      "uk": "Куди зазвичай іде винос на мішені, що падає?"
+     },
+     "options": {
+      "en": [
+       "Above and behind",
+       "Underneath and in front",
+       "Straight at the target",
+       "Only to the side, never down"
+      ],
+      "uk": [
+       "Зверху і позаду",
+       "Знизу і попереду",
+       "Прямо в мішень",
+       "Лише вбік, ніколи вниз"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "A falling target moves down as well as along, so part of the lead is vertical: below and ahead.",
+      "uk": "Мішень, що падає, рухається і вниз, і вздовж, тож частина виносу вертикальна: знизу і попереду."
+     }
+    },
+    {
+     "q": {
+      "en": "A French-speaking coach says “chandelle”. What is the safest thing to do?",
+      "uk": "Франкомовний тренер каже «chandelle». Що найбезпечніше зробити?"
+     },
+     "options": {
+      "en": [
+       "Check: straight up, or an arc over the top?",
+       "Always translate it as the English looper",
+       "Always translate it as the English teal",
+       "Ignore it, since it is not a rulebook term"
+      ],
+      "uk": [
+       "Уточнити: прямо вгору чи дугою через вершину?",
+       "Завжди перекладати як англійський looper",
+       "Завжди перекладати як англійський teal",
+       "Пропустити, бо це не термін правил"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "French speakers often mean an almost vertical target (an English teal), while an English setter’s chandelle climbs on a curve and arcs over; a quick check avoids a wrong plan.",
+      "uk": "Франкомовні часто мають на увазі майже вертикальну мішень (англійський teal), а англійська chandelle злітає по кривій і перевалює через вершину; коротке уточнення вбереже від хибного плану."
+     }
+    }
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "teal",
+    "also": [
+     "chandelle",
+     "looper",
+     "dropping"
+    ]
+   }
+  },
+  {
+   "id": "flight-rabbit",
+   "mission": "flight",
+   "minutes": 5,
+   "title": {
+    "en": "The rabbit: rolling, hopping and bolting",
+    "uk": "Кролик: котиться, підстрибує, вискакує"
+   },
+   "body": {
+    "en": [
+     "A rabbit is a 110 mm target with a thick, strong rim, thrown on its edge so that it rolls along the ground like a running hare. It is a special target, so in Parcours de Chasse – Sporting™ it must be shown on the target menu of the stand.",
+     "Coaches describe how it runs: a rolling rabbit runs smoothly; a hopping (bouncing) rabbit jumps on bumps and stones; a bolting rabbit bursts out of cover and runs fast. Rabbits can go across, towards or away from the shooter.",
+     "A rabbit is heavy and slows quickly, so shooters often over-lead it. Coaches ask to keep the muzzle low and shoot the bottom front edge, so that a sudden hop still meets the shot. Often it is visible only in a short gap between bushes, so the break point must be planned exactly.",
+     "Rules: every target, rabbits included, is shot with the gun at the shoulder; firing from the hip is not allowed in either discipline. A special case: if the first shot misses and the rabbit then breaks by itself, for example on a stone, before the second shot, it is a No Bird. On the repeat only a break with the second shot counts.",
+     "“Fur and feather” is English Sporting slang for a pair of a rabbit (“fur”) and an aerial target (“feather”). In Ukrainian you will hear «кролик» or «заєць»; this course uses «кролик»."
+    ],
+    "uk": [
+     "Кролик (rabbit) — мішень діаметром 110 мм із товстим міцним ободом, яку кидають на ребро, тож вона котиться по землі, як заєць, що тікає. Це спеціальна мішень, тому в Parcours de Chasse – Sporting™ її обов’язково вказують у меню мішеней на позиції.",
+     "Тренери описують, як він біжить: rolling — котиться рівно; hopping (bouncing) — підстрибує на горбиках і каменях; bolting — вискакує з укриття і біжить швидко. Кролик може бігти поперек, на стрільця або від нього.",
+     "Кролик важкий і швидко сповільнюється, тому стрільці часто дають йому завеликий винос. Тренери просять тримати стволи низько і стріляти в нижній передній край, щоб раптовий стрибок однаково зустрів дріб. Часто кролика видно лише в короткому проміжку між кущами, тож точку пострілу треба спланувати точно.",
+     "Правила: кожну мішень, зокрема кролика, стріляють тільки з рушницею біля плеча; постріл «від стегна» заборонений в обох дисциплінах. Особливий випадок: якщо перший постріл мимо, а кролик сам розбився, наприклад об камінь, до другого пострілу, це No Bird. На повторі зараховують лише влучання другим пострілом.",
+     "«Fur and feather» («хутро і пір’я») — сленг English Sporting для дуплета з кролика («fur») і повітряної мішені («feather»). Українською кажуть «кролик» або «заєць»; у цьому курсі — «кролик»."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Rabbit: 110 mm, thick rim, rolls on its edge along the ground.",
+     "Rolling, hopping (bouncing), bolting: describe how it runs.",
+     "It slows quickly: do not over-lead; keep the muzzle low.",
+     "Always shot from the shoulder; a rabbit that breaks by itself after a first-shot miss is a No Bird.",
+     "“Fur and feather” = rabbit + aerial target pair."
+    ],
+    "uk": [
+     "Кролик: 110 мм, товстий обід, котиться ребром по землі.",
+     "Rolling, hopping (bouncing), bolting — це про те, як він біжить.",
+     "Він швидко сповільнюється: не перебільшуйте винос; стволи низько.",
+     "Стріляють завжди від плеча; кролик, що сам розбився після промаху першим пострілом, — No Bird.",
+     "«Fur and feather» — дуплет із кролика і повітряної мішені."
+    ]
+   },
+   "terms": [
+    "rabbit",
+    "bolting-rabbit",
+    "fur-and-feather",
+    "target-menu",
+    "no-bird",
+    "break-point"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-targets"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-target-menu"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-mounting"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-single-rabbit"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-gun-position"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-rabbit"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shotgun Life — Mastering the elusive rabbit clay target",
+     "url": "https://www.shotgunlife.com/briefs/mastering-the-elusive-rabbit-clay-target.html"
+    },
+    {
+     "title": "Gun Tests — Rabbit target clay shooting",
+     "url": "https://www.gun-tests.com/recreational/rabbit-target-clay-shooting/"
+    },
+    {
+     "title": "Shooting UK — Clay pigeon sizes",
+     "url": "https://www.shootinguk.co.uk/shooting/shotgun/clay-pigeon-sizes-knowing-what-they-are-will-help-you-to-improve-your-score/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "It hops on that bump — stay under it and keep moving.",
+     "meaning": {
+      "en": "The rabbit jumps at a known spot; keep the gun low and moving.",
+      "uk": "Кролик підстрибує у відомому місці; тримайте стволи низько й у русі."
+     },
+     "say": {
+      "uk": "На тому горбику він підстрибне — тримайтеся під ним і не зупиняйтеся."
+     }
+    },
+    {
+     "en": "Shoot its feet.",
+     "meaning": {
+      "en": "Put the shot on the bottom edge of the rabbit, not over it.",
+      "uk": "Спрямовуйте постріл у нижній край кролика, а не понад ним."
+     },
+     "say": {
+      "uk": "Стріляйте йому «під ноги» — у нижній край."
+     }
+    },
+    {
+     "en": "It slows down a lot — less lead than you think.",
+     "meaning": {
+      "en": "The rabbit loses speed quickly, so it needs a smaller lead.",
+      "uk": "Кролик швидко втрачає швидкість, тож потрібен менший винос."
+     },
+     "say": {
+      "uk": "Він сильно сповільнюється — виносу менше, ніж здається."
+     }
+    },
+    {
+     "en": "Fur and feather: rabbit first, before it reaches the bushes.",
+     "meaning": {
+      "en": "In the rabbit-plus-bird pair, shoot the rabbit first because it disappears into cover.",
+      "uk": "У дуплеті «кролик і повітряна мішень» першим стріляйте кролика, бо він зникне в кущах."
+     },
+     "say": {
+      "uk": "Кролик і повітряна: спершу кролик, поки не добіг до кущів."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The first shot misses a rabbit, then it breaks on a stone before the second shot. What happens?",
+      "uk": "Перший постріл по кролику мимо, а потім він розбивається об камінь до другого пострілу. Що далі?"
+     },
+     "options": {
+      "en": [
+       "It is scored as a hit, since it broke",
+       "It is scored zero for the first miss",
+       "No Bird: repeated, only a second-shot break counts",
+       "The shooter just moves to the next target"
+      ],
+      "uk": [
+       "Зараховують як влучання, бо він розбився",
+       "Зараховують нуль за перший промах",
+       "No Bird: повтор, зараховують лише другий постріл",
+       "Стрілець просто переходить до наступної мішені"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Both rulebooks treat this as a No Bird; on the repeat the shooter must deliberately miss with the first shot.",
+      "uk": "Обидва зводи правил вважають це No Bird; на повторі стрілець має навмисно не влучити першим пострілом."
+     }
+    },
+    {
+     "q": {
+      "en": "Why do coaches warn against too much lead on a rabbit?",
+      "uk": "Чому тренери застерігають від завеликого виносу на кролику?"
+     },
+     "options": {
+      "en": [
+       "The rules limit the lead",
+       "It is heavy and slows quickly",
+       "It always flies upwards",
+       "It is smaller than a mini"
+      ],
+      "uk": [
+       "Правила обмежують винос",
+       "Він важкий і швидко сповільнюється",
+       "Він завжди летить угору",
+       "Він менший за mini"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "A rabbit has a thick rim and rolls on the ground, losing speed fast, so the usual crosser lead puts the shot in front.",
+      "uk": "Кролик має товстий обід і котиться по землі, швидко втрачаючи швидкість, тож звичний для кросера винос кладе дріб попереду."
+     }
+    },
+    {
+     "q": {
+      "en": "What does “fur and feather” mean?",
+      "uk": "Що означає «fur and feather»?"
+     },
+     "options": {
+      "en": [
+       "A pair of a rabbit and an aerial target",
+       "A hunting dress code",
+       "A target with feathers glued on",
+       "A pair of two rabbits"
+      ],
+      "uk": [
+       "Дуплет із кролика і повітряної мішені",
+       "Мисливський дрес-код",
+       "Мішень із приклеєним пір’ям",
+       "Дуплет із двох кроликів"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "In English Sporting slang “fur” is the rabbit and “feather” the flying target.",
+      "uk": "У сленгу English Sporting «fur» — кролик, а «feather» — мішень, що летить."
+     }
+    }
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "rabbit"
+   }
+  },
+  {
+   "id": "flight-pairs",
+   "mission": "flight",
+   "minutes": 6,
+   "title": {
+    "en": "Singles and pairs: report, rafale, simultaneous",
+    "uk": "Одиночні мішені й дуплети: за пострілом, рафаль, одночасний"
+   },
+   "body": {
+    "en": [
+     "A single is one target from one trap. In both disciplines two shots may be fired at it, so a miss can be saved with the second barrel. A pair, or double, is two targets shot as one unit after one call.",
+     "Report pair (double on report): the call releases the first target, and the shot at it releases the second. In Parcours de Chasse – Sporting™ the second comes 0 to 3 seconds after that shot. The order is fixed. “Report” means the sound of the shot, not a written report.",
+     "Following pair, which FITASC calls rafale: two targets from the same trap on the same line, the second as fast as the trap reloads; either may be shot first. It exists only in Sporting™: a Compak® Sporting double is on report or simultaneous.",
+     "Simultaneous pair (“simo”; English Sporting “true pair”): both targets leave at the same moment, from one or two traps (in Compak® Sporting always from two different traps), and may be shot in any order.",
+     "Cartridges: in Sporting™ there are two for the pair and both may go at one target; if one shot breaks both, both count. In Compak® Sporting only one cartridge per target is allowed, and both shots at one target score zero-zero; one shot breaking both targets is not simply scored twice either (the Compak® mission explains it).",
+     "On a Sporting™ stand the squad shoots the singles first, then the doubles. Simultaneous and rafale doubles are shown before shooting; report pairs are not."
+    ],
+    "uk": [
+     "Одиночна мішень (single) — одна мішень з однієї машинки. В обох дисциплінах по ній можна вистрілити двічі, тож промах ще можна виправити другим стволом. Дуплет (pair, double) — дві мішені, які стріляють як одне ціле після однієї команди.",
+     "Дуплет за пострілом (report pair, double on report): команда випускає першу мішень, а постріл по ній — другу. У Parcours de Chasse – Sporting™ друга вилітає через 0–3 секунди після цього пострілу. Порядок фіксований. «Report» тут — звук пострілу, а не «звіт».",
+     "Following pair, яку FITASC називає рафаль (rafale): дві мішені з однієї машинки по одній лінії, друга — щойно машинка перезарядилася; стріляти можна в будь-якому порядку. Рафаль є лише в Sporting™: дуплет у Compak® Sporting буває за пострілом або одночасний.",
+     "Одночасний дуплет (simultaneous, «simo»; в English Sporting — «true pair»): обидві мішені вилітають одночасно, з однієї або двох машинок (у Compak® Sporting — завжди з двох різних), і їх можна стріляти в будь-якому порядку.",
+     "Патрони: у Sporting™ на дуплет два патрони, і обидва можна витратити на одну мішень; якщо один постріл розбив обидві, зараховують обидві. У Compak® Sporting — лише один патрон на мішень, а два постріли в одну мішень — це zero-zero; якщо один постріл розбив обидві, їх теж не просто зараховують (див. місію про компак).",
+     "На позиції в Sporting™ група спершу стріляє одиночні, потім дуплети. Одночасні дуплети й рафаль показують перед стрільбою, дуплети за пострілом — ні."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Single: one target, two shots allowed.",
+     "Report pair: the shot at the first releases the second; order fixed.",
+     "Rafale (following pair): same trap, same line, Sporting™ only.",
+     "Simultaneous (true pair): both at once, any order.",
+     "Sporting™: both cartridges may go at one target; Compak® Sporting: one per target."
+    ],
+    "uk": [
+     "Одиночна: одна мішень, два постріли дозволені.",
+     "За пострілом: постріл по першій випускає другу; порядок фіксований.",
+     "Рафаль (following pair): одна машинка, одна лінія, лише Sporting™.",
+     "Одночасний (true pair): обидві разом, порядок довільний.",
+     "Sporting™: обидва патрони можна в одну мішень; Compak® Sporting: один на мішень."
+    ]
+   },
+   "terms": [
+    "single-target",
+    "double",
+    "double-on-report",
+    "rafale-double",
+    "simultaneous-double",
+    "true-pair",
+    "target-presentation"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch4-single-target"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-doubles-general"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-double-on-report"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-rafale-double"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-simultaneous-double"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-two-with-one-shot"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-singles-then-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-presentation-doubles"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-trajectory-variety"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-double-on-report"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-simultaneous-double"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-one-cartridge-per-target"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-round-combinations"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-two-with-one-simultaneous"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CPSA — English Sporting (search summary; page not directly accessible)",
+     "url": "https://www.cpsa.co.uk/disciplines/esp"
+    },
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "It's on report — finish the first one properly, the second waits for your shot.",
+     "meaning": {
+      "en": "The second target only comes when the shooter fires at the first, so there is no need to rush the first.",
+      "uk": "Друга мішень вилетить лише після пострілу по першій, тож першу не треба квапити."
+     },
+     "say": {
+      "uk": "Це дуплет за пострілом — спокійно розбийте першу, друга чекає на ваш постріл."
+     }
+    },
+    {
+     "en": "Simo: take the rabbit first, the teal will wait for you.",
+     "meaning": {
+      "en": "In the simultaneous pair shoot the rabbit first, because the teal stays in the air longer.",
+      "uk": "В одночасному дуплеті першим стріляйте кролика, бо тіл довше лишається в повітрі."
+     },
+     "say": {
+      "uk": "Одночасний: спершу кролик, тіл вас почекає."
+     }
+    },
+    {
+     "en": "Rafale — after the first, come straight back to the trap for the second.",
+     "meaning": {
+      "en": "Both targets come from the same trap; after the first shot, return eyes and gun towards the trap to pick up the second.",
+      "uk": "Обидві мішені з однієї машинки; після першого пострілу поверніть очі й стволи до машинки, щоб підхопити другу."
+     },
+     "say": {
+      "uk": "Рафаль — після першої одразу назад до машинки по другу."
+     }
+    },
+    {
+     "en": "True pair from the tower, five of them.",
+     "meaning": {
+      "en": "Five simultaneous pairs thrown from the tower (English Sporting wording).",
+      "uk": "П’ять одночасних дуплетів з вежі (термінологія English Sporting)."
+     },
+     "say": {
+      "uk": "П’ять одночасних дуплетів з вежі."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "In a report pair, what releases the second target?",
+      "uk": "Що в дуплеті за пострілом випускає другу мішень?"
+     },
+     "options": {
+      "en": [
+       "A second call",
+       "The referee's signal",
+       "The shot at the first target",
+       "A timer of exactly 5 seconds"
+      ],
+      "uk": [
+       "Друга команда",
+       "Сигнал судді",
+       "Постріл по першій мішені",
+       "Таймер рівно на 5 секунд"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "“On report” means on the sound of the shot: firing at the first target releases the second.",
+      "uk": "«On report» — на звук пострілу: постріл по першій мішені випускає другу."
+     }
+    },
+    {
+     "q": {
+      "en": "A shooter fires both cartridges at the first target of a simultaneous double in Compak® Sporting. Result?",
+      "uk": "У Compak® Sporting стрілець вистрілив обома патронами в першу мішень одночасного дуплета. Результат?"
+     },
+     "options": {
+      "en": [
+       "Allowed, as in Sporting™",
+       "Zero-zero",
+       "No Bird and repeat",
+       "Only the second target is zero"
+      ],
+      "uk": [
+       "Дозволено, як у Sporting™",
+       "Zero-zero",
+       "No Bird і повтор",
+       "Нуль лише за другу мішень"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Compak® Sporting allows one cartridge per target of a double; deliberately firing both at one target is scored zero-zero. In Sporting™ it would be allowed.",
+      "uk": "Compak® Sporting дозволяє один патрон на кожну мішень дуплета; навмисні два постріли в одну мішень — zero-zero. У Sporting™ це було б дозволено."
+     }
+    },
+    {
+     "q": {
+      "en": "A British coach says “true pair”. How do you translate it?",
+      "uk": "Британський тренер каже «true pair». Як перекласти?"
+     },
+     "options": {
+      "en": [
+       "A correct, fair pair",
+       "A pair of real birds",
+       "A rafale",
+       "A simultaneous pair"
+      ],
+      "uk": [
+       "Правильний, чесний дуплет",
+       "Дуплет зі справжніх птахів",
+       "Рафаль",
+       "Одночасний дуплет"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "“True pair” is the English Sporting name for a simultaneous pair; “true” has nothing to do with correctness.",
+      "uk": "«True pair» — назва одночасного дуплета в English Sporting; «true» тут не про правильність."
+     }
+    }
+   ],
+   "sim": {
+    "type": "flight",
+    "preset": "crosser-lr",
+    "also": [
+     "teal"
+    ],
+    "pairs": [
+     "report",
+     "simultaneous",
+     "rafale"
+    ]
+   }
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "target-line",
+   "en": "line (of the target)",
+   "def_en": "The path of the target through the air as the shooter sees it; the gun should travel along it.",
+   "def_uk": "Шлях мішені в повітрі так, як його бачить стрілець; рушниця має рухатися вздовж нього."
+  },
+  {
+   "id": "overhead",
+   "en": "overhead",
+   "def_en": "Target that passes directly over the shooter's head, from behind or from the front.",
+   "def_uk": "Мішень, що пролітає просто над головою стрільця — ззаду або спереду."
+  },
+  {
+   "id": "chandelle",
+   "en": "chandelle",
+   "def_en": "Target that rises steeply on a slight curve, arcs over and drops almost vertically (French for candle).",
+   "def_uk": "Мішень, що круто злітає ледь вигнутою лінією, перевалює через вершину і падає майже вертикально (франц. «свічка»)."
+  },
+  {
+   "id": "bolting-rabbit",
+   "en": "bolting rabbit",
+   "def_en": "Rabbit target that bursts out of cover suddenly and runs fast along the ground.",
+   "def_uk": "Мішень-кролик, що раптово вискакує з укриття і швидко біжить по землі."
+  },
+  {
+   "id": "fur-and-feather",
+   "en": "fur and feather",
+   "def_en": "English Sporting slang for a pair made of a rabbit and an aerial target.",
+   "def_uk": "Сленг English Sporting: дуплет із кролика і повітряної мішені."
+  },
+  {
+   "id": "true-pair",
+   "en": "true pair",
+   "def_en": "English Sporting name for a simultaneous pair: both targets released at the same moment.",
+   "def_uk": "Назва одночасного дуплета в English Sporting: обидві мішені вилітають в одну мить."
+  }
+ ]
+}

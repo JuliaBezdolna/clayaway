@@ -1,0 +1,1151 @@
+{
+ "id": "faults",
+ "order": 7,
+ "icon": "search",
+ "title": {
+  "en": "Faults and how coaches diagnose them",
+  "uk": "Помилки та як тренер їх діагностує"
+ },
+ "intro": {
+  "en": "When a target is missed, the coach names the miss in one or two words and then the cause. This mission teaches the words for misses and faults, what each one really means, and how to pass a coach's diagnosis to the shooter quickly and exactly.",
+  "uk": "Коли мішень не розбито, тренер одним-двома словами називає промах, а потім його причину. У цій місії ви вивчите слова для промахів і помилок, їхнє справжнє значення та навчитеся швидко й точно передавати стрільцеві діагноз тренера."
+ },
+ "lessons": [
+  {
+   "id": "faults-behind-in-front",
+   "mission": "faults",
+   "minutes": 5,
+   "title": {
+    "en": "Behind, in front, over, under, chipped",
+    "uk": "Позаду, попереду, вище, нижче, зачепив"
+   },
+   "body": {
+    "en": [
+     "Every miss has a direction. A coach watching from behind the shooter usually says first where the shot went compared with the clay, and only then why. Pass it on instantly: the shooter is already preparing for the next target.",
+     "Behind means the shot passed behind a moving target: not enough lead, or a gun that slowed down. It is the most common miss on crossers. In front is the opposite: too much lead, often after the shooter over-corrected. Many coaches like a miss in front: it shows the gun kept moving.",
+     "Over (also 'high', 'over the top') and under ('low') describe the vertical miss. Over is common on dropping targets, rabbits and incomers, and is often linked to the head coming off the stock. Under is typical on rising targets that are still climbing at the shot.",
+     "Chipped means only a small piece came off. For the coach it is half praise, half correction: the clay was on the edge of the pattern. For the referee it is a hit, as long as the piece is visible. The trap is dust: under the rules, a clay that gives off only dust or smoke, with no visible piece, is lost. Yet 'smoked it' in coach slang is a perfect, centred hit, and 'dusted it' is heard in both senses, so ask when unsure.",
+     "Keep the coach's order: direction, cause, fix. If the coach says 'behind, you stopped', the cause matters more: a shooter who hears only 'behind' will add lead, which does not cure a stopped gun."
+    ],
+    "uk": [
+     "Кожен промах має напрям. Тренер, який стоїть позаду стрільця, зазвичай спершу каже, куди пішов дріб відносно мішені, і лише потім — чому. Ваше перше завдання — передати цей напрям миттєво й без прикрас: стрілець уже готується до наступної мішені.",
+     "Behind («позаду») — дріб пройшов позаду рухомої мішені: забракло виносу (упередження) або рушниця сповільнилася. Це найчастіший промах на поперечних мішенях. In front («попереду») — навпаки: завеликий винос, часто після того, як стрілець перестарався з виправленням. Багатьох тренерів промах попереду навіть тішить: отже, рушниця не зупинялася.",
+     "Over («вище»; також high, over the top) і under («нижче», low) — промахи по вертикалі. Вище — частий промах на мішенях, що падають, на кролику (rabbit) і на зустрічних мішенях; часто його спричиняє голова, яка відривається від приклада. Нижче — типово на мішенях, які ще набирають висоту в момент пострілу.",
+     "Chipped («зачепив», «скол») — відлетів лише маленький уламок. Для тренера це наполовину похвала, наполовину зауваження: мішень була на краю дробового снопа. Для судді це просто влучання, якщо уламок видно. Протилежна пастка — пил: за правилами мішень, від якої піднявся лише пил чи дим і не відлетів жоден видимий уламок, не зараховують. Проте «smoked it» тренерським сленгом — ідеальне влучання, мішень розбита вщент, а «dusted it» вживають в обох значеннях, тож перепитайте.",
+     "Зберігайте порядок тренера: напрям, причина, виправлення. Якщо тренер каже «behind, you stopped», причина важливіша за напрям: стрілець, який почує лише «позаду», додасть виносу, а це не вилікує зупинену рушницю."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Pass on the direction first: behind, in front, over, under.",
+     "Behind = too little lead or a slowing gun; in front = too much lead.",
+     "A visible chip is a hit for the referee; dust or smoke only is lost.",
+     "'Smoked it' is coach praise, not the 'smoke' of the rules: never mix them up.",
+     "Keep the coach's order: direction, cause, fix."
+    ],
+    "uk": [
+     "Спершу передайте напрям: позаду, попереду, вище, нижче.",
+     "Позаду — замалий винос або рушниця сповільнилася; попереду — завеликий винос.",
+     "Видимий скол для судді — влучання; лише пил чи дим — промах.",
+     "«Smoked it» — похвала тренера, а не «дим» із правил: не плутайте їх.",
+     "Зберігайте порядок тренера: напрям, причина, виправлення."
+    ]
+   },
+   "terms": [
+    "lead",
+    "crosser",
+    "dropping-target",
+    "visible-piece",
+    "one",
+    "zero",
+    "miss-behind",
+    "miss-in-front",
+    "miss-over",
+    "miss-under",
+    "chip",
+    "smoke-ball"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch6-target-one"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-target-zero"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-one"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-zero"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ducks Unlimited — The big five wingshooting mistakes",
+     "url": "https://www.ducks.org/hunting/shooting-tips/the-big-five-wingshooting-mistakes"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Behind, give it more.",
+     "meaning": {
+      "en": "The shot passed behind the clay; increase the lead.",
+      "uk": "Дріб пройшов позаду мішені; треба більший винос."
+     },
+     "say": {
+      "uk": "Позаду — дайте більший винос."
+     }
+    },
+    {
+     "en": "Just over the top, it was already dropping.",
+     "meaning": {
+      "en": "The shot went above because the clay was falling; shoot lower and in front.",
+      "uk": "Дріб пішов вище, бо мішень уже падала; стріляти нижче й попереду."
+     },
+     "say": {
+      "uk": "Трохи вище — вона вже падала."
+     }
+    },
+    {
+     "en": "In front this time, good, now a touch less.",
+     "meaning": {
+      "en": "Too much lead, but the gun was moving; reduce the lead slightly.",
+      "uk": "Завеликий винос, але рушниця рухалася; трохи зменшити винос."
+     },
+     "say": {
+      "uk": "Цього разу попереду — добре, тепер трохи менше."
+     }
+    },
+    {
+     "en": "You just chipped it, a little more in front.",
+     "meaning": {
+      "en": "Hit on the edge of the pattern; a bit more lead centres it.",
+      "uk": "Влучання краєм снопа; трохи більший винос — і буде по центру."
+     },
+     "say": {
+      "uk": "Зачепили краєм — трохи більше вперед."
+     }
+    },
+    {
+     "en": "Smoked it! Same again.",
+     "meaning": {
+      "en": "A perfect centred hit (slang, not the rules' 'smoke'); repeat exactly.",
+      "uk": "Ідеальне влучання по центру (сленг, а не «дим» із правил); повторити так само."
+     },
+     "say": {
+      "uk": "Вщент! Так само ще раз."
+     }
+    },
+    {
+     "en": "Behind, but you stopped, so don't just add lead.",
+     "meaning": {
+      "en": "The cause is a stopped gun; more lead alone will not help.",
+      "uk": "Причина — зупинена рушниця; самим виносом не допомогти."
+     },
+     "say": {
+      "uk": "Позаду, але ви зупинили рушницю — тож не просто додавайте винос."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The coach calls: 'Behind, you stopped!' What is the most important part to translate?",
+      "uk": "Тренер вигукує: «Behind, you stopped!» Що найважливіше перекласти?"
+     },
+     "options": {
+      "en": [
+       "The cause: the gun stopped",
+       "Only the direction 'behind'",
+       "Nothing: the shooter saw the miss",
+       "A request to add a lot more lead"
+      ],
+      "uk": [
+       "Причину: рушниця зупинилася",
+       "Лише напрям «позаду»",
+       "Нічого: стрілець і так бачив промах",
+       "Прохання додати набагато більше виносу"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Adding lead does not cure a stopped gun; the cause is what the shooter has to fix.",
+      "uk": "Додатковий винос не вилікує зупинену рушницю; виправляти треба саме причину."
+     }
+    },
+    {
+     "q": {
+      "en": "A small but clearly visible piece breaks off the clay. The coach says 'just chipped it'. How does the referee score it?",
+      "uk": "Від мішені відлетів маленький, але добре видимий уламок. Тренер каже «just chipped it». Як зарахує суддя?"
+     },
+     "options": {
+      "en": [
+       "Lost, because most of the clay flew on",
+       "No Bird",
+       "Hit (one)",
+       "Hit only if the coach agrees"
+      ],
+      "uk": [
+       "Промах, бо більша частина мішені полетіла далі",
+       "No Bird",
+       "Влучання (one)",
+       "Влучання, лише якщо тренер погодиться"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "At least one visible piece makes the target a hit in both Sporting™ and Compak® Sporting; the referee decides alone.",
+      "uk": "Хоча б один видимий уламок — це влучання і в Sporting™, і в Compak® Sporting; вирішує лише суддя."
+     }
+    },
+    {
+     "q": {
+      "en": "After a hit the coach shouts 'Smoked it!'. What does he mean?",
+      "uk": "Після влучання тренер вигукує «Smoked it!». Що він має на увазі?"
+     },
+     "options": {
+      "en": [
+       "Only dust came off, so it is lost",
+       "A perfect, centred hit",
+       "It was a flash target",
+       "The shooter should change cartridges"
+      ],
+      "uk": [
+       "Піднявся лише пил, тож мішень не зараховано",
+       "Ідеальне влучання по центру",
+       "Це була мішень flash",
+       "Стрільцеві варто змінити патрони"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "In coach slang 'smoked it' is praise for a clay turned to dust; in the rules, dust or smoke without a visible piece is a miss.",
+      "uk": "Тренерським сленгом «smoked it» — похвала за мішень, розбиту в пил; у правилах пил чи дим без видимого уламка — промах."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "faults-head-lift-stopping",
+   "mission": "faults",
+   "minutes": 5,
+   "title": {
+    "en": "Head lift, stopping, riding, poking",
+    "uk": "Підняв голову, зупинив рушницю, довго вів, цілився"
+   },
+   "body": {
+    "en": [
+     "After the direction, the coach names the cause. Four causes come up every training day, each with its own short word. Learn them in pairs: the fault and the cure.",
+     "Head lift: the cheek leaves the stock at or just before the shot, often because the shooter wants to see the clay break. The eye is the rear sight, so lifting it moves the picture, and the shot usually goes over. Cure: 'head down', 'cheek on the stock', 'stay in the gun'.",
+     "Stopping the gun: the muzzles halt at the shot, usually because the shooter checks the lead on the barrel. The shot goes behind. A lighter version is checking: the swing hesitates for a split second. Cure: 'keep the gun moving', 'follow through', 'finish the shot'.",
+     "Riding the target: following the clay too long before firing, so it slows, drops or curls away and the shooter loses the line. Cure: 'take it earlier', 'commit to it'. Poking (also 'aiming', 'measuring'): pointing the shotgun slowly like a rifle, eyes on the bead instead of the clay. It is typical when the break point is too close, or on a teal at the top. Cure: 'eyes on the clay', 'let the gun go'.",
+     "Coaches often name the cause before the shooter has even lowered the gun. Translate it in the same breath and with the same verb: 'you stopped' is not 'you missed'. A word like 'aiming' is almost always a criticism, so never turn it into advice such as 'aim better'."
+    ],
+    "uk": [
+     "Після напряму промаху тренер називає причину. Чотири причини звучать на кожному тренуванні, і для кожної є коротке слово. Вчіть їх парами: помилка — і виправлення, якого попросить тренер.",
+     "Head lift («підняли голову»): щока відривається від приклада в момент пострілу або трохи раніше — часто тому, що стрілець хоче побачити, як мішень розлітається. Око — це задній приціл, тож підняте око зсуває картинку, і дріб зазвичай іде вище. Виправлення: «head down» («голову на приклад»), «cheek on the stock» («щока на прикладі»), «stay in the gun» («не відривайтеся від приклада»).",
+     "Stopping the gun («зупинили рушницю»): стволи завмирають у момент пострілу, здебільшого тому, що стрілець перевіряє винос на стволі. Дріб іде позаду. Легший варіант — checking («пригальмували»): замах вагається на частку секунди. Виправлення: «keep the gun moving» («не зупиняйте рушницю»), «follow through» («ведіть далі»), «finish the shot» («доведіть постріл»).",
+     "Riding the target («надто довго ведете мішень»): стрілець супроводжує мішень задовго до пострілу, вона сповільнюється, падає чи завертає, і лінію втрачено. Виправлення: «take it earlier» («беріть раніше»), «commit to it» («наважуйтеся»). Poking (також aiming, measuring — «цілитеся», «вимірюєте»): повільно наводити рушницю, наче гвинтівку, дивлячись на мушку, а не на мішень. Типово, коли точка пострілу надто близько, або на мішені teal (тіл) у найвищій точці. Виправлення: «eyes on the clay» («очі на мішень»), «let the gun go» («відпустіть рушницю»).",
+     "Тренери часто називають причину ще до того, як стрілець опустив рушницю. Перекладайте на тому самому подиху й тим самим дієсловом: «you stopped» — це не «ви промахнулися». Слово «aiming» у тренера майже завжди критика, тож ніколи не перетворюйте його на пораду на кшталт «цільтеся краще»."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Head lift: shot usually over; cure: head down, stay in the gun.",
+     "Stopping or checking: shot behind; cure: keep the gun moving, follow through.",
+     "Riding: the clay slows or drops away; cure: take it earlier, commit.",
+     "Poking or aiming: slow rifle-like pointing; cure: eyes on the clay.",
+     "Translate the cause at once, with the coach's own verb."
+    ],
+    "uk": [
+     "Підняли голову — дріб зазвичай вище; виправлення: голову на приклад.",
+     "Зупинили чи пригальмували — дріб позаду; виправлення: не зупиняйте рушницю, ведіть далі.",
+     "Довго вели — мішень сповільнилася чи впала; виправлення: беріть раніше, наважуйтеся.",
+     "Цілилися — повільне наведення, як із гвинтівки; виправлення: очі на мішень.",
+     "Перекладайте причину одразу й тим самим дієсловом, що й тренер."
+    ]
+   },
+   "terms": [
+    "head-lift",
+    "stopping-the-gun",
+    "follow-through",
+    "break-point",
+    "teal",
+    "checking",
+    "riding-the-target",
+    "poking"
+   ],
+   "rule_refs": [],
+   "sources": [
+    {
+     "title": "Ducks Unlimited — The big five wingshooting mistakes",
+     "url": "https://www.ducks.org/hunting/shooting-tips/the-big-five-wingshooting-mistakes"
+    },
+    {
+     "title": "Shooting UK — How to hold a shotgun",
+     "url": "https://www.shootinguk.co.uk/news/how-to-hold-a-shotgun/"
+    },
+    {
+     "title": "The Field — Improve your game and clay shooting: 20 top tips",
+     "url": "https://www.thefield.co.uk/shooting/improve-your-game-and-clay-shooting-20-top-tips-45462"
+    },
+    {
+     "title": "Clay Target Nation — 5 major shooting mistakes",
+     "url": "https://www.claytargetnation-digital.com/articles/5-major-shooting-mistakes"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "You lifted your head, that's why it went over.",
+     "meaning": {
+      "en": "The cheek left the stock, so the shot went above the clay.",
+      "uk": "Щока відірвалася від приклада, тому дріб пішов над мішенню."
+     },
+     "say": {
+      "uk": "Ви підняли голову — тому дріб пішов вище."
+     }
+    },
+    {
+     "en": "Keep the gun moving, you stopped on it.",
+     "meaning": {
+      "en": "The swing halted at the shot; continue moving through and after it.",
+      "uk": "Замах зупинився на пострілі; треба рухатися й під час, і після пострілу."
+     },
+     "say": {
+      "uk": "Не зупиняйте рушницю — ви на ній зупинилися."
+     }
+    },
+    {
+     "en": "You checked just before the shot, commit to it.",
+     "meaning": {
+      "en": "A brief hesitation before firing; decide and shoot without slowing.",
+      "uk": "Коротке вагання перед пострілом; вирішити й стріляти, не сповільнюючись."
+     },
+     "say": {
+      "uk": "Ви пригальмували перед пострілом — наважуйтеся."
+     }
+    },
+    {
+     "en": "Stop aiming, look at the bird and let the gun go.",
+     "meaning": {
+      "en": "Criticism: the shooter is pointing like a rifle; focus on the target and swing freely.",
+      "uk": "Критика: стрілець наводить, як із гвинтівки; дивитися на мішень і вільно вести."
+     },
+     "say": {
+      "uk": "Не цільтеся — дивіться на мішень і відпустіть рушницю."
+     }
+    },
+    {
+     "en": "You rode it too long, take it earlier.",
+     "meaning": {
+      "en": "The shooter followed the clay too long; break it sooner.",
+      "uk": "Стрілець надто довго вів мішень; розбивати раніше."
+     },
+     "say": {
+      "uk": "Ви надто довго її вели — беріть раніше."
+     }
+    },
+    {
+     "en": "Stay in the gun.",
+     "meaning": {
+      "en": "Keep the cheek on the stock until after the shot.",
+      "uk": "Тримати щоку на прикладі до кінця пострілу."
+     },
+     "say": {
+      "uk": "Щока на прикладі до кінця пострілу."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The coach says 'You lifted your head'. Where did the shot most likely go?",
+      "uk": "Тренер каже «You lifted your head». Куди найімовірніше пішов дріб?"
+     },
+     "options": {
+      "en": [
+       "Behind",
+       "Over the top",
+       "Under",
+       "In front"
+      ],
+      "uk": [
+       "Позаду",
+       "Вище мішені",
+       "Нижче",
+       "Попереду"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The eye is the rear sight: when the head lifts, the shot usually goes over.",
+      "uk": "Око — це задній приціл: коли голова піднімається, дріб зазвичай іде вище."
+     }
+    },
+    {
+     "q": {
+      "en": "A coach shouts 'Stop aiming!'. What does he want?",
+      "uk": "Тренер вигукує «Stop aiming!». Чого він хоче?"
+     },
+     "options": {
+      "en": [
+       "Don't point like a rifle: look at the target and swing",
+       "Aim more precisely",
+       "Cease fire at once",
+       "Lower the gun"
+      ],
+      "uk": [
+       "Не наводьте, як із гвинтівки: дивіться на мішень і ведіть",
+       "Цільтеся точніше",
+       "Негайно припиніть вогонь",
+       "Опустіть рушницю"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "'Aiming' in a coach's mouth is a fault (poking); the cure is eyes on the clay and a free swing.",
+      "uk": "«Aiming» у тренера — це помилка (poking); виправлення — очі на мішень і вільний замах."
+     }
+    },
+    {
+     "q": {
+      "en": "'You rode it too long' means…",
+      "uk": "«You rode it too long» означає…"
+     },
+     "options": {
+      "en": [
+       "The shooter fired too early",
+       "The trap was too slow",
+       "The shooter started too far behind",
+       "The shooter followed the clay too long before firing"
+      ],
+      "uk": [
+       "Стрілець вистрілив зарано",
+       "Машинка була надто повільна",
+       "Стрілець почав надто далеко позаду",
+       "Стрілець надто довго вів мішень перед пострілом"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Riding the target means following it too long, so it slows or drops and the line is lost.",
+      "uk": "Riding the target — надто довге супроводження: мішень сповільнюється чи падає, і лінію втрачено."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "faults-mount-errors",
+   "mission": "faults",
+   "minutes": 5,
+   "title": {
+    "en": "Mount errors: late, face to the gun, canting",
+    "uk": "Помилки вкидки: запізно, обличчям до рушниці, завал"
+   },
+   "body": {
+    "en": [
+     "Many misses start before the swing, in the gun mount: the movement that brings the gun to cheek and shoulder. The coach's words for it are short and physical.",
+     "Late mount: the gun reaches the shoulder after the moment the shot should have been fired, so the shooter rushes or fires before the cheek is down. The opposite fault is a mount finished too early, after which the gun waits, still and heavy. Cure: 'move, mount, shoot', where the muzzles start with the target and the mount is completed as the shot comes.",
+     "Face to the gun: instead of bringing the stock up to the face, the shooter drops the head to meet it. The eye ends up in a different place every time, and recoil hits the cheek. Coaches say: 'bring the gun to your face, not your face to the gun'. A stock landing on the arm instead of the shoulder pocket hurts too.",
+     "Canting: the gun is tilted sideways at the shot, and the shot drifts off the line. It often comes with a dropped shoulder. Cure: 'keep the gun level', 'turn from the hips'.",
+     "In FITASC Parcours de Chasse – Sporting™ competitions the gun may not be mounted before the target appears, so 'pre-mount this one' is a training drill only. Mounting early in a Sporting™ competition brings a warning and a yellow card. In Compak® Sporting the gun may already be at the shoulder at the call. Translate the drill as a drill and add nothing of your own."
+    ],
+    "uk": [
+     "Багато промахів починаються ще до замаху — у вкидці (gun mount), тобто русі, яким рушницю підводять до щоки й плеча. Слова тренера про неї короткі й «тілесні».",
+     "Late mount («запізня вкидка»): рушниця опиняється на плечі тоді, коли вже мав пролунати постріл, тож стрілець поспішає або стріляє, ще не поклавши щоку на приклад. Протилежна помилка — вкидка, завершена зарано: далі рушниця стоїть нерухома й важка. Виправлення: «move, mount, shoot» («рух, вкидка, постріл»): стволи рушають разом із мішенню, а вкидка завершується разом із пострілом.",
+     "Face to the gun («обличчям до рушниці»): замість підняти приклад до обличчя стрілець опускає голову йому назустріч. Око щоразу опиняється в іншому місці, а віддача б’є в щоку. Тренери кажуть: «bring the gun to your face, not your face to the gun» («рушницю до обличчя, а не обличчя до рушниці»). Боляче й тоді, коли приклад лягає на руку, а не в плечову западину.",
+     "Canting («завал рушниці»): у момент пострілу рушниця нахилена вбік, і дріб зноситься з лінії. Часто це йде разом з опущеним плечем. Виправлення: «keep the gun level» («тримайте рушницю рівно»), «turn from the hips» («повертайтеся стегнами»).",
+     "На змаганнях FITASC Parcours de Chasse – Sporting™ рушницю не можна вкидати до появи мішені, тож «pre-mount this one» («цю — з рушницею на плечі») — лише тренувальна вправа. Рання вкидка на змаганнях Sporting™ означає попередження й жовту картку. У Compak® Sporting під час команди рушниця може вже бути на плечі. Перекладайте вправу саме як вправу й нічого не додавайте від себе."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Late mount: a rushed shot; cure: move, mount, shoot.",
+     "Face to the gun: the eye moves and recoil hurts; bring the gun to the face.",
+     "Canting: the shot drifts off the line; keep the gun level, turn from the hips.",
+     "Pre-mounting is a drill: not allowed before the target appears in a Sporting™ competition, allowed at the call in Compak® Sporting."
+    ],
+    "uk": [
+     "Запізня вкидка — поспішний постріл; виправлення: рух, вкидка, постріл.",
+     "Обличчям до рушниці — око зміщується, віддача болить; рушницю — до обличчя.",
+     "Завал — дріб зноситься з лінії; рушницю рівно, повертайтеся стегнами.",
+     "Рушниця на плечі заздалегідь — вправа: на змаганнях Sporting™ до появи мішені заборонено, у Compak® Sporting під час команди дозволено."
+    ]
+   },
+   "terms": [
+    "gun-mount",
+    "ready-position",
+    "recoil",
+    "comb",
+    "gun-fit",
+    "dry-mounting",
+    "late-mount",
+    "canting"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch3-ready-position"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-mounting"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-yellow-card"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-gun-position"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ducks Unlimited — Shotgunning: the Churchill method",
+     "url": "https://www.ducks.org/hunting/shooting-tips/shotgunning-the-churchill-method"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Bring the gun to your face, not your face to the gun.",
+     "meaning": {
+      "en": "Lift the stock to the cheek; do not lower the head to the stock.",
+      "uk": "Піднімати приклад до щоки, а не опускати голову до приклада."
+     },
+     "say": {
+      "uk": "Рушницю — до обличчя, а не обличчя — до рушниці."
+     }
+    },
+    {
+     "en": "Move, mount, shoot, all in one.",
+     "meaning": {
+      "en": "Start moving with the target, finish the mount as you fire, in one flowing action.",
+      "uk": "Рушати з мішенню й завершувати вкидку разом із пострілом — одним плавним рухом."
+     },
+     "say": {
+      "uk": "Рух, вкидка, постріл — одним рухом."
+     }
+    },
+    {
+     "en": "You canted the gun, keep it level.",
+     "meaning": {
+      "en": "The gun was tilted sideways at the shot.",
+      "uk": "У момент пострілу рушниця була нахилена вбік."
+     },
+     "say": {
+      "uk": "Ви завалили рушницю вбік — тримайте її рівно."
+     }
+    },
+    {
+     "en": "Mount on the line.",
+     "meaning": {
+      "en": "The gun should come up already on the target's path.",
+      "uk": "Рушниця має підніматися одразу на лінію польоту мішені."
+     },
+     "say": {
+      "uk": "Вкидайте одразу на лінію мішені."
+     }
+    },
+    {
+     "en": "Pre-mount this one, just for practice.",
+     "meaning": {
+      "en": "Training drill with the gun already at the shoulder; not allowed in a Sporting™ competition.",
+      "uk": "Тренувальна вправа з рушницею на плечі; на змаганнях Sporting™ так не можна."
+     },
+     "say": {
+      "uk": "Цю мішень — з рушницею на плечі, лише для тренування."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "In training, a coach tells a shooter preparing for a FITASC Sporting™ competition: 'Pre-mount this one.' What is true?",
+      "uk": "На тренуванні тренер каже стрільцеві, який готується до змагань FITASC Sporting™: «Pre-mount this one». Що з цього правда?"
+     },
+     "options": {
+      "en": [
+       "It is allowed in every FITASC competition",
+       "The interpreter should refuse to translate it",
+       "It is a training drill; in a Sporting™ competition the gun may not be mounted before the target appears",
+       "It means mounting after the shot"
+      ],
+      "uk": [
+       "Так можна на всіх змаганнях FITASC",
+       "Перекладач має відмовитися це перекладати",
+       "Це тренувальна вправа; на змаганнях Sporting™ рушницю не можна вкидати до появи мішені",
+       "Це означає вкидати після пострілу"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Sporting™ requires the gun-down ready position until the target appears; a pre-mount in competition earns a warning with a yellow card.",
+      "uk": "Sporting™ вимагає позиції з опущеною рушницею до появи мішені; вкидка заздалегідь на змаганнях — попередження з жовтою карткою."
+     }
+    },
+    {
+     "q": {
+      "en": "'You canted the gun' means…",
+      "uk": "«You canted the gun» означає…"
+     },
+     "options": {
+      "en": [
+       "The gun was tilted sideways at the shot",
+       "The gun was mounted too late",
+       "The gun stopped",
+       "The safety catch was on"
+      ],
+      "uk": [
+       "У момент пострілу рушниця була нахилена вбік",
+       "Рушницю вкинули запізно",
+       "Рушниця зупинилася",
+       "Запобіжник був увімкнений"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Canting is a sideways tilt of the gun, which pulls the shot off the line.",
+      "uk": "Canting — нахил рушниці вбік, через який дріб зноситься з лінії."
+     }
+    },
+    {
+     "q": {
+      "en": "Which instruction cures 'face to the gun'?",
+      "uk": "Яка вказівка виправляє помилку «face to the gun»?"
+     },
+     "options": {
+      "en": [
+       "Push the head down harder",
+       "Bring the gun to your face",
+       "Close one eye",
+       "Hold the gun lower on the arm"
+      ],
+      "uk": [
+       "Сильніше опустіть голову",
+       "Підніміть рушницю до обличчя",
+       "Заплющте одне око",
+       "Тримайте рушницю нижче на руці"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The stock should come up to the face, so the eye is in the same place every time.",
+      "uk": "Приклад має підніматися до обличчя, тоді око щоразу на тому самому місці."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "faults-pairs-transition",
+   "mission": "faults",
+   "minutes": 5,
+   "title": {
+    "en": "Pairs: the second target",
+    "uk": "Дуплети: друга мішень"
+   },
+   "body": {
+    "en": [
+     "On a pair (double) many shooters break the first target and miss the second. The coach then talks about transition, moving from the first target to the second, and recovery, getting gun and head back under control after the first shot.",
+     "The golden rule is 'eyes first, then the gun'. The eyes leave the broken first clay and find the second; the gun follows. A shooter who watches the first clay break, or swings the gun before finding the second, loses time. Coaches say 'eyes to the second' or simply point.",
+     "Recovery: recoil lifts the muzzles and sometimes the head. 'Let the gun recover, then go' means: cheek back down and gun back on line before going after the second target. A good stance with the weight forward makes recovery faster.",
+     "Planning: while reading the pair, the coach decides which target to take first and where to break it so the second is easy to pick up. Typical phrases: 'take the dropping one first', 'break the first early', 'stick to the plan'. A shooter who changes the order on the stand 'went for the wrong one'.",
+     "Rules matter here. In Parcours de Chasse – Sporting™ the gun position is free between the two targets of any double, and the shooter has two cartridges for a double, both of which may go at the same target. In Compak® Sporting only one cartridge per target is allowed in a double. Do not explain penalties yourself: translate the coach and leave rule questions to the referee."
+    ],
+    "uk": [
+     "На дуплеті (double) багато стрільців розбивають першу мішень і промахуються по другій. Тоді тренер говорить про transition («перехід» — перенесення погляду й рушниці з першої мішені на другу) і recovery («відновлення» — повернення рушниці й голови під контроль після першого пострілу).",
+     "Золоте правило: «eyes first, then the gun» — «спершу очі, потім рушниця». Очі залишають розбиту першу мішень і знаходять другу, а рушниця йде за ними. Хто дивиться, як розлітається перша мішень, або рушає рушницею, ще не знайшовши другу, втрачає час. Тренер каже «eyes to the second» («очі — на другу») або просто показує рукою.",
+     "Recovery: віддача підкидає стволи, а інколи й голову. «Let the gun recover, then go» означає: поверніть щоку на приклад і рушницю на лінію, а вже тоді йдіть до другої мішені. Правильна стійка з вагою на передній нозі пришвидшує відновлення.",
+     "План: читаючи дуплет, тренер вирішує, яку мішень брати першою і де її розбити, щоб другу було легко підхопити. Типові фрази: «take the dropping one first» («першою — ту, що падає»), «break the first early» («першу розбивайте рано»), «stick to the plan» («тримайтеся плану»). Хто на місці змінив порядок, той «went for the wrong one» — «почав не з тієї».",
+     "Тут важливі правила. У Parcours de Chasse – Sporting™ між двома мішенями будь-якого дуплета рушницю можна тримати як завгодно, а на дуплет стрілець має два патрони, і обидва можна випустити по одній мішені. У Compak® Sporting на дуплеті дозволено лише один патрон на кожну мішень. Про штрафи від себе не пояснюйте: перекладайте тренера, а питання правил залиште судді."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Eyes first, then the gun.",
+     "Recovery: cheek back on the stock and gun on line before the second target.",
+     "The coach plans the order and the break points of a pair while reading it.",
+     "Sporting™: free gun position between the targets, and both cartridges may go at one target; Compak® Sporting: one cartridge per target."
+    ],
+    "uk": [
+     "Спершу очі, потім рушниця.",
+     "Відновлення: щока на прикладі й рушниця на лінії — і лише тоді друга мішень.",
+     "Порядок і точки пострілу дуплета тренер планує, коли читає мішені.",
+     "Sporting™: між мішенями рушниця в довільному положенні, обидва патрони можна по одній мішені; Compak® Sporting: один патрон на мішень."
+    ]
+   },
+   "terms": [
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "recoil",
+    "stance",
+    "dropping-target",
+    "transition",
+    "recovery"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch3-between-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-doubles-general"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-one-cartridge-per-target"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shooting UK — How to shoot an on-report pair of springing teal",
+     "url": "https://secure.shootinguk.co.uk/shooting/clay-shooting/how-to-shoot-an-on-report-pair-of-springing-teal-90197"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Eyes first to the second bird, then the gun.",
+     "meaning": {
+      "en": "Find the second target with the eyes before moving the gun.",
+      "uk": "Спершу знайти другу мішень очима, а вже потім рушати рушницею."
+     },
+     "say": {
+      "uk": "Спершу очі на другу мішень, потім рушниця."
+     }
+    },
+    {
+     "en": "Let the gun recover, then go to the second.",
+     "meaning": {
+      "en": "After the recoil, settle gun and cheek before the second shot.",
+      "uk": "Після віддачі повернути рушницю й щоку на місце, а тоді другий постріл."
+     },
+     "say": {
+      "uk": "Дайте рушниці відновитися — потім на другу."
+     }
+    },
+    {
+     "en": "Take the dropping one first.",
+     "meaning": {
+      "en": "Shoot first the target that will disappear or fall soonest.",
+      "uk": "Першою стріляти мішень, яка найшвидше впаде чи зникне."
+     },
+     "say": {
+      "uk": "Першою беріть ту, що падає."
+     }
+    },
+    {
+     "en": "Don't watch the first one break.",
+     "meaning": {
+      "en": "Move the eyes on to the second target at once.",
+      "uk": "Одразу переводити погляд на другу мішень."
+     },
+     "say": {
+      "uk": "Не дивіться, як розлітається перша."
+     }
+    },
+    {
+     "en": "You went for the wrong one first, stick to the plan.",
+     "meaning": {
+      "en": "The shooter changed the planned order; a technique remark, not a rule breach.",
+      "uk": "Стрілець змінив запланований порядок; це зауваження щодо техніки, а не порушення правил."
+     },
+     "say": {
+      "uk": "Ви почали не з тієї — тримайтеся плану."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "What does 'eyes first, then the gun' mean on a pair?",
+      "uk": "Що означає «eyes first, then the gun» на дуплеті?"
+     },
+     "options": {
+      "en": [
+       "Close the eyes after the first shot",
+       "Look at the barrel before the second shot",
+       "Mount the gun before calling for the pair",
+       "Find the second target with the eyes before moving the gun to it"
+      ],
+      "uk": [
+       "Заплющити очі після першого пострілу",
+       "Глянути на ствол перед другим пострілом",
+       "Вкинути рушницю до команди на дуплет",
+       "Знайти другу мішень очима, перш ніж вести до неї рушницю"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "In a good transition the eyes lead and the gun follows.",
+      "uk": "У правильному переході ведуть очі, а рушниця йде за ними."
+     }
+    },
+    {
+     "q": {
+      "en": "In a Compak® Sporting double, the shooter misses the first target and wants to fire the second cartridge at it too. Is that allowed?",
+      "uk": "На дуплеті Compak® Sporting стрілець промахнувся по першій мішені й хоче випустити по ній і другий патрон. Чи можна?"
+     },
+     "options": {
+      "en": [
+       "Yes, as in Sporting™",
+       "Yes, but only on a simultaneous double",
+       "No: in a Compak® Sporting double only one cartridge per target is allowed",
+       "Only with the referee's permission"
+      ],
+      "uk": [
+       "Так, як у Sporting™",
+       "Так, але лише на дуплеті simultaneous",
+       "Ні: на дуплеті Compak® Sporting дозволено лише один патрон на мішень",
+       "Лише з дозволу судді"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Compak® Sporting forbids doubling the first target in a double; Sporting™ allows both cartridges at one target.",
+      "uk": "Compak® Sporting забороняє стріляти двічі по першій мішені дуплета; Sporting™ дозволяє обидва патрони по одній мішені."
+     }
+    },
+    {
+     "q": {
+      "en": "In a Sporting™ double, may the shooter lower the gun between the first and the second target?",
+      "uk": "Чи може стрілець у дуплеті Sporting™ опустити рушницю між першою і другою мішенню?"
+     },
+     "options": {
+      "en": [
+       "Yes, the gun position is free between the two targets",
+       "No, the gun must stay mounted",
+       "Only on a double on report",
+       "Only if the referee allows it"
+      ],
+      "uk": [
+       "Так, між двома мішенями положення рушниці довільне",
+       "Ні, рушниця має залишатися на плечі",
+       "Лише на дуплеті on report",
+       "Лише з дозволу судді"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The free position applies between the targets of any double, but not before the first one.",
+      "uk": "Довільне положення діє між мішенями будь-якого дуплета, але не перед першою."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "faults-reading-the-coach",
+   "mission": "faults",
+   "minutes": 5,
+   "title": {
+    "en": "Reading the coach: short commands and signals",
+    "uk": "Як читати тренера: короткі команди й жести"
+   },
+   "body": {
+    "en": [
+     "On the stand a coach speaks in fragments: 'Behind.' 'Head.' 'More.' 'Again.' There are only a few seconds between targets, so short is deliberate. Your translation should be just as short; a long sentence arrives after the next call.",
+     "Many coaches ask before they tell: 'Where did it go?' or 'What did you see?' This is a teaching question, not a test of the interpreter. Translate the question, let the shooter answer, and translate the answer back exactly, even if it sounds wrong. The coach needs to know what the shooter perceived.",
+     "Hand signals carry a lot. Common ones: hands moving apart or together for more or less lead, a flat hand moving down for 'lower', a tap on the cheek for 'head down', a finger tracing the target's line, a thumbs-up for 'same again'. Signals differ between coaches, so agree on them before the session, and do not translate a gesture the shooter has already seen.",
+     "Some words are pure rhythm and encouragement: 'commit', 'trust it', 'smooth', 'good, same again'. Keep the tone. 'Bad luck' after a miss is kindness, not a comment on the referee.",
+     "In competition coaching is forbidden: the referee gives the competitor a yellow card and sends the coach out of the shooting area. The rules do not say whether an interpreter may relay a coach's advice during a competition: it is an open question for FITASC. The safe practice: in competition, interpret only for the referee, the jury and the organiser."
+    ],
+    "uk": [
+     "На стрілецькому місці тренер говорить уривками: «Behind.» «Head.» «More.» «Again.» Між мішенями лише кілька секунд, тож стислість навмисна. Ваш переклад має бути таким самим коротким: довге речення прозвучить уже після наступної команди.",
+     "Багато тренерів спершу запитують, а потім пояснюють: «Where did it go?» («Куди вона пішла?»), «What did you see?» («Що ви бачили?»). Це навчальне запитання, а не перевірка перекладача. Перекладіть його, дайте стрільцеві відповісти й точно перекладіть відповідь назад, навіть якщо вона здається хибною: тренерові важливо знати, що стрілець побачив.",
+     "Жести кажуть дуже багато. Поширені: руки, що розходяться чи сходяться, — більше чи менше виносу; долоня, що опускається, — «нижче»; доторк до щоки — «голову на приклад»; палець, що креслить лінію мішені; великий палець угору — «так само ще раз». У різних тренерів жести різні, тож домовтеся про них до заняття й не перекладайте жест, який стрілець уже бачив.",
+     "Деякі слова — це ритм і підтримка: «commit» («наважуйтеся»), «trust it» («довіртеся»), «smooth» («плавно»), «good, same again» («добре, так само»). Зберігайте тон. «Bad luck» після промаху — це співчуття, а не оцінка рішення судді.",
+     "На змаганнях підказувати заборонено: суддя дає стрільцеві жовту картку й видаляє тренера з території стрільби. Чи може перекладач передавати поради тренера під час змагань, правила не кажуть: це відкрите питання до FITASC. Безпечна практика: на змаганнях перекладайте лише для судді, журі та організатора."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Coaches speak in fragments; translate just as briefly.",
+     "'Where did it go?' is a teaching question: translate the shooter's answer exactly.",
+     "Agree on hand signals before the session.",
+     "No coaching in competition; interpret only for the referee, jury and organiser."
+    ],
+    "uk": [
+     "Тренер говорить уривками — перекладайте так само стисло.",
+     "«Where did it go?» — навчальне запитання: точно перекладіть відповідь стрільця.",
+     "Домовтеся про жести до заняття.",
+     "На змаганнях підказок немає; перекладайте лише для судді, журі та організатора."
+    ]
+   },
+   "terms": [
+    "coach",
+    "referee",
+    "jury",
+    "yellow-card",
+    "hand-signal"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch8-coaching"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-coaching"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Where did it go?",
+     "meaning": {
+      "en": "The coach asks where the shooter thinks the shot went; a teaching question.",
+      "uk": "Тренер питає, куди, на думку стрільця, пішов дріб; це навчальне запитання."
+     },
+     "say": {
+      "uk": "Куди вона пішла?"
+     }
+    },
+    {
+     "en": "What did you see?",
+     "meaning": {
+      "en": "Describe the picture at the moment of the shot.",
+      "uk": "Описати картинку в момент пострілу."
+     },
+     "say": {
+      "uk": "Що ви бачили?"
+     }
+    },
+    {
+     "en": "More.",
+     "meaning": {
+      "en": "In context almost always 'more lead'.",
+      "uk": "У контексті майже завжди «більше виносу»."
+     },
+     "say": {
+      "uk": "Більше."
+     }
+    },
+    {
+     "en": "Good, same again.",
+     "meaning": {
+      "en": "Repeat exactly what you just did.",
+      "uk": "Повторити точно те саме."
+     },
+     "say": {
+      "uk": "Добре, так само ще раз."
+     }
+    },
+    {
+     "en": "Trust it, commit to it.",
+     "meaning": {
+      "en": "Stop hesitating; decide and fire.",
+      "uk": "Не вагатися; вирішити й стріляти."
+     },
+     "say": {
+      "uk": "Довіртеся — і стріляйте рішуче."
+     }
+    },
+    {
+     "en": "Bad luck.",
+     "meaning": {
+      "en": "Sympathy after a miss; not a complaint about the referee.",
+      "uk": "Співчуття після промаху; не скарга на суддю."
+     },
+     "say": {
+      "uk": "Не пощастило."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The coach asks the shooter 'Where did it go?'. What should the interpreter do?",
+      "uk": "Тренер питає стрільця «Where did it go?». Що має зробити перекладач?"
+     },
+     "options": {
+      "en": [
+       "Answer for the shooter",
+       "Translate the question, then the shooter's answer exactly",
+       "Explain the miss in your own words",
+       "Say nothing: it is a rhetorical question"
+      ],
+      "uk": [
+       "Відповісти замість стрільця",
+       "Перекласти запитання, а потім точно — відповідь стрільця",
+       "Пояснити промах своїми словами",
+       "Нічого не казати: це риторичне запитання"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The coach wants the shooter's own perception, so the answer must reach him unchanged.",
+      "uk": "Тренерові потрібне саме сприйняття стрільця, тож відповідь має дійти без змін."
+     }
+    },
+    {
+     "q": {
+      "en": "During a competition the shooter's coach asks you to pass on: 'Give the next one more lead.' What is the safe practice?",
+      "uk": "Під час змагань тренер просить вас передати стрільцеві: «Give the next one more lead». Яка безпечна практика?"
+     },
+     "options": {
+      "en": [
+       "Pass it on quietly",
+       "Pass it on only between stands",
+       "Do not relay coaching in competition; interpret only for the referee, jury and organiser",
+       "Ask the other shooters first"
+      ],
+      "uk": [
+       "Тихо передати",
+       "Передати лише між місцями",
+       "Не передавати підказок на змаганнях; перекладати лише для судді, журі та організатора",
+       "Спершу запитати інших стрільців"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Coaching in competition is forbidden, and the rules do not say whether an interpreter may relay it; staying out of it protects the shooter.",
+      "uk": "Підказки на змаганнях заборонені, а правила не кажуть, чи може їх передавати перекладач; утриматися — значить захистити стрільця."
+     }
+    },
+    {
+     "q": {
+      "en": "What happens under the rules if the referee judges that a competitor is being coached?",
+      "uk": "Що передбачають правила, якщо суддя вирішить, що стрільцеві підказують?"
+     },
+     "options": {
+      "en": [
+       "Yellow card for the competitor; the coach is sent out of the shooting area",
+       "Nothing: coaching is allowed",
+       "The target is repeated",
+       "The whole squad is disqualified"
+      ],
+      "uk": [
+       "Жовта картка стрільцеві; тренера видаляють із території стрільби",
+       "Нічого: підказувати дозволено",
+       "Мішень повторюють",
+       "Усю групу дискваліфікують"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Both rulebooks give the competitor a yellow card, with heavier penalties for repeats, and remove the coach.",
+      "uk": "Обидва правила передбачають жовту картку стрільцеві, суворіші санкції за повтор і видалення тренера."
+     }
+    }
+   ],
+   "sim": null
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "miss-behind",
+   "en": "behind",
+   "def_en": "A miss in which the shot passes behind a moving target: too little lead or a slowing gun.",
+   "def_uk": "Промах, коли дріб проходить позаду рухомої мішені: замалий винос або рушниця сповільнилася."
+  },
+  {
+   "id": "miss-in-front",
+   "en": "in front",
+   "def_en": "A miss in which the shot passes in front of a moving target: too much lead.",
+   "def_uk": "Промах, коли дріб проходить попереду рухомої мішені: завеликий винос."
+  },
+  {
+   "id": "miss-over",
+   "en": "over (over the top, high)",
+   "def_en": "A miss in which the shot passes above the target, often after a head lift or on a dropping target.",
+   "def_uk": "Промах, коли дріб проходить над мішенню; часто через підняту голову або на мішені, що падає."
+  },
+  {
+   "id": "miss-under",
+   "en": "under (low)",
+   "def_en": "A miss in which the shot passes below the target, typical on targets still rising at the shot.",
+   "def_uk": "Промах, коли дріб проходить під мішенню; типово на мішенях, що ще набирають висоту."
+  },
+  {
+   "id": "chip",
+   "en": "chip (chipped it)",
+   "def_en": "A hit where only a small piece breaks off the clay; still a hit if the piece is visible.",
+   "def_uk": "Влучання, коли від мішені відлітає лише маленький уламок; зараховується, якщо уламок видно."
+  },
+  {
+   "id": "smoke-ball",
+   "en": "smoked it (smoke ball)",
+   "def_en": "Coach slang for a perfect centred hit that turns the clay to dust; not the same as 'dust or smoke only' in the rules, which is a miss.",
+   "def_uk": "Тренерський сленг: ідеальне влучання, мішень розлітається в пил; не плутати з «лише пил чи дим» у правилах, що є промахом."
+  },
+  {
+   "id": "checking",
+   "en": "checking",
+   "def_en": "A brief hesitation of the swing just before the shot, a lighter form of stopping the gun.",
+   "def_uk": "Коротке пригальмовування замаху перед пострілом — легша форма зупинки рушниці."
+  },
+  {
+   "id": "riding-the-target",
+   "en": "riding the target",
+   "def_en": "Following a clay too long before firing, so it slows, drops or curls away.",
+   "def_uk": "Надто довге супроводження мішені перед пострілом, через яке вона сповільнюється, падає чи завертає."
+  },
+  {
+   "id": "poking",
+   "en": "poking (aiming)",
+   "def_en": "Pointing a shotgun slowly and deliberately like a rifle, with the eyes on the bead instead of the target.",
+   "def_uk": "Повільне, обережне наведення рушниці, наче гвинтівки, з поглядом на мушку замість мішені."
+  },
+  {
+   "id": "canting",
+   "en": "canting",
+   "def_en": "Tilting the gun sideways at the shot, which pulls the shot off the target's line.",
+   "def_uk": "Нахил рушниці вбік у момент пострілу, через який дріб зноситься з лінії мішені."
+  },
+  {
+   "id": "late-mount",
+   "en": "late mount",
+   "def_en": "A gun mount completed after the moment the shot should be fired, leading to a rushed shot.",
+   "def_uk": "Вкидка, завершена тоді, коли вже мав пролунати постріл; веде до поспішного пострілу."
+  },
+  {
+   "id": "transition",
+   "en": "transition",
+   "def_en": "Moving the eyes and then the gun from the first target of a pair to the second.",
+   "def_uk": "Перенесення погляду, а за ним і рушниці з першої мішені дуплета на другу."
+  },
+  {
+   "id": "recovery",
+   "en": "recovery",
+   "def_en": "Bringing gun and head back under control after the first shot, ready for the second.",
+   "def_uk": "Повернення рушниці й голови під контроль після першого пострілу, щоб підготуватися до другого."
+  },
+  {
+   "id": "hand-signal",
+   "en": "hand signal",
+   "def_en": "A gesture a coach uses on the stand instead of words, for example hands apart for more lead.",
+   "def_uk": "Жест, яким тренер на місці замінює слова, наприклад розведені руки — більше виносу."
+  }
+ ]
+}

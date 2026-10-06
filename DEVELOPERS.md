@@ -20,7 +20,8 @@
 | `docs/rules/sporting/`, `compak/`, `en/…` | статичні SEO-сторінки правил (генеруються) | генерується `scripts/build_seo.mjs` |
 | `docs/rules/trainer/` | тренажер правил (160 питань) | працює на статичних даних |
 | `docs/rules/data/*.js` | дані правил і питань (формати: `SCHEMA.md`, `QUIZ_SCHEMA.md`) | джерело для БД |
-| `docs/learn/` + `docs/learn/data/*.js` | Академія ClayArena для початківців: 11 модулів, уроки з тестами, значки; статичні сторінки уроків генерує `build_seo.mjs` | працює на статичних даних |
+| `docs/learn/` + `docs/learn/data/*.js` | Академія ClayArena для початківців: 22 модулі, уроки з тестами, значки; статичні сторінки уроків генерує `build_seo.mjs` | працює на статичних даних |
+| `docs/interpreter/` (`src/` → `data/`) | Академія перекладача ClayArena: 12 місій, ігри («Перекладіть тренера», «Назвіть політ», «Лабораторія виносу», «Рішення судді», картки термінів, іспит і сертифікат), 11 мов ClayArena; дані збирає `scripts/build_interpreter.py` | працює на статичних даних |
 | `docs/glossary/` + `docs/glossary/data/` | глосарій ClayArena: терміни правил (`glossary.js`, `aliases.json`) + терміни уроків (`new_terms`) | генерується `build_seo.mjs` |
 | `docs/rules-spec/` | ТЗ правил / тренажера / глосарію | специфікація |
 | `docs/og/` | картинки превʼю 1200×630 та іконки | генерується `scripts/make_og.py` |
@@ -71,6 +72,15 @@ python -m http.server 8792 --bind 127.0.0.1 --directory docs
 - Тренажер: прогрес у `localStorage` → у продакшені в профілі користувача (+ бейдж, статистика складних питань).
 - Оновлення FITASC: GitHub Action → задача → оновлення даних → погодження суддею → `fitasc_check.py --accept`.
 
+## 4a. Академія перекладача → ClayArena
+
+- Майстер-контент: `docs/interpreter/src/missions/*.json` (кожне текстове поле `{en, uk}`), `ui.json`, `terms.json` (терміни 11 мовами з `conf` і `src`), переклади `src/i18n/<lang>.json`.
+  Збірка: `python scripts/build_interpreter.py` → `data/<lang>.js` (одна мова на файл, поле за полем запасна англійська) і `data/terms.js`.
+- У БД: `missions`, `lessons` (перекладні поля), `coach_phrases`, `quiz_items`, `terms` + `term_translations` (term, alt, note, confidence, source_url).
+- Прогрес, XP, іспит і сертифікат зараз у `localStorage` (`clayarena-interpreter`) → у продакшені профіль користувача, іспит перевіряє сервер, сертифікат з перевірним ID; позначка в профілі перекладача ClayAway.
+- Симуляції (`flightSim`, `leadLab` в `docs/interpreter/index.html`) — canvas без бібліотек; фізика навчальна (див. ТЗ правил, розділ «Академія перекладача»).
+- Озвучення фраз тренера — Web Speech API (`en-GB`), без зовнішніх сервісів; у продакшені можна замінити записами носіїв.
+
 ## 5. Легальність (коротко; повністю — ТЗ, блок «Легальність контенту і права»)
 
 - Текст і PDF FITASC не публікуємо; лише власний переказ + посилання `rel="nofollow noopener noreferrer"`.
@@ -87,5 +97,6 @@ python -m http.server 8792 --bind 127.0.0.1 --directory docs
 - [ ] Адмінка організатора і адмінка ClayArena (ТЗ, розділ «Адмінка»).
 - [ ] Багатомовні поля туру; автогенерація OG-картинки; Event/Offer JSON-LD; sitemap.
 - [ ] Перенести довідник правил, тренажер, глосарій на домен ClayArena; canonical на clayarena.com; 301 з github.io.
+- [ ] Академія перекладача: CMS для місій/уроків і перекладів, прогрес і сертифікат у профілі, статичні сторінки уроків кожною мовою (hreflang).
 - [ ] Етап 2 правил: серверний пошук + Claude API (ключ лише на сервері).
 - [ ] Політика конфіденційності, cookies, умови використання, контакт для скарг правовласників.

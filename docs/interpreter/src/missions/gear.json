@@ -1,0 +1,1068 @@
+{
+ "id": "gear",
+ "order": 2,
+ "icon": "tool",
+ "title": {
+  "en": "Gun and equipment",
+  "uk": "Рушниця і спорядження"
+ },
+ "intro": {
+  "en": "Coaches talk about the gun all day: 'raise the comb', 'check your selector', 'change chokes', 'nines in the bottom'. This mission gives you the words for the gun, its parts, chokes, cartridges and protective gear, together with the few equipment rules every interpreter must know.",
+  "uk": "Тренери весь день говорять про рушницю: «підніміть гребінь», «перевірте селектор», «змініть чоки», «дев’ятку в нижній». Ця місія дає вам слова для рушниці, її частин, чоків, патронів і захисного спорядження, а також кілька правил щодо обладнання, які має знати кожен перекладач."
+ },
+ "lessons": [
+  {
+   "id": "gear-gun-types",
+   "mission": "gear",
+   "minutes": 5,
+   "title": {
+    "en": "Types of shotgun and what the rules allow",
+    "uk": "Типи рушниць і що дозволяють правила"
+   },
+   "body": {
+    "en": [
+     "Every gun you will see on the stand is a smooth-bore shotgun. On almost every competition stand it is an over-and-under (O/U, in Ukrainian «вертикалка»): two barrels one above the other, opened by 'breaking' the gun on its hinge. Each barrel can carry its own choke, which matters for doubles.",
+     "A side-by-side («горизонталка») has two barrels next to each other. It is the classic game gun and is allowed, but rarely seen in competition. Do not translate over-and-under simply as «двостволка»: that word covers both types.",
+     "A semi-automatic («напівавтомат») has one barrel and reloads itself after each shot, throwing the empty case to the side. FITASC allows it, with conditions: no more than two cartridges in the gun, the breech open whenever it is carried, and in Compak® Sporting a device that stops ejected cases from hitting the neighbour.",
+     "Pump-action guns, reloaded by sliding the fore-end by hand, are not allowed in Parcours de Chasse – Sporting™ or in Compak® Sporting. The rulebooks simply state the ban without giving a reason, so do not invent one when a client asks; just say it is the rule. Compak® Sporting also bans drillings, guns that combine shotgun and rifle barrels.",
+     "Two more limits apply in both disciplines: the gauge may not be larger than 12 (so 20 gauge is fine), and barrels must be at least 66 cm long. Slings, gun-mounted cameras and any artificial aiming device are forbidden."
+    ],
+    "uk": [
+     "Усі рушниці, які ви побачите на позиції, — гладкоствольні. Майже на кожних змаганнях це вертикалка (over-and-under, O/U): два стволи один над одним, рушницю відкривають, «переломлюючи» її на шарнірі. На кожен ствол можна поставити свій чок, що важливо для дуплетів.",
+     "Горизонталка (side-by-side) має два стволи поруч. Це класична мисливська рушниця; її дозволено, але на змаганнях вона трапляється рідко. Не перекладайте over-and-under просто як «двостволка» — це слово означає обидва типи.",
+     "Напівавтомат (semi-automatic) має один ствол і сам перезаряджається після кожного пострілу, викидаючи гільзу вбік. FITASC його дозволяє за умов: не більше двох патронів у рушниці, затвор відкритий щоразу, коли рушницю несуть, а в Compak® Sporting — пристрій, що не дає гільзам летіти в сусіда.",
+     "Помпові рушниці (pump-action), які перезаряджають рухом цівки рукою, заборонені і в Parcours de Chasse – Sporting™, і в Compak® Sporting. Правила просто встановлюють заборону без пояснень, тож не вигадуйте причину, коли клієнт питає: скажіть, що таке правило. У компаку також заборонені комбіновані рушниці (drillings) з дробовими й нарізним стволами.",
+     "В обох дисциплінах діють ще два обмеження: калібр не більший за 12 (тож 20-й калібр підходить), а стволи завдовжки щонайменше 66 см. Ремені, камери на рушниці й будь-які штучні прицільні пристрої заборонені."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Most competitors shoot an over-and-under («вертикалка»).",
+     "Semi-automatics are allowed: at most two cartridges, breech open when carried, shell catcher in Compak® Sporting.",
+     "Pump-action guns are banned in both disciplines; the rules give no reason.",
+     "Gauge no larger than 12, barrels at least 66 cm, no slings or aiming devices."
+    ],
+    "uk": [
+     "Більшість стрільців стріляє з вертикалки.",
+     "Напівавтомати дозволені: щонайбільше два патрони, затвор відкритий під час перенесення, у компаку — уловлювач гільз.",
+     "Помпові рушниці заборонені в обох дисциплінах; правила не пояснюють чому.",
+     "Калібр не більший за 12, стволи від 66 см, без ременів і прицільних пристроїв."
+    ]
+   },
+   "terms": [
+    "shotgun",
+    "over-and-under",
+    "side-by-side",
+    "semi-automatic",
+    "pump-action",
+    "gauge",
+    "barrel-length",
+    "shell-catcher"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch7-permitted-guns"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-gun"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-semi-auto"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-loading"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-gun-handling"
+    },
+    {
+     "book": "compak",
+     "id": "ch24-carrying"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Midvalley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Bring your over-and-under and a spare set of chokes.",
+     "meaning": {
+      "en": "The two-barrel competition gun plus extra choke tubes.",
+      "uk": "Змагальну рушницю з вертикальними стволами й запасні чоки."
+     },
+     "say": {
+      "uk": "Беріть свою вертикалку й запасний комплект чоків."
+     }
+    },
+    {
+     "en": "With a semi-auto, keep the bolt open until you're on the stand.",
+     "meaning": {
+      "en": "Safety rule: a semi-automatic is carried with the breech open.",
+      "uk": "Правило безпеки: напівавтомат носять із відкритим затвором."
+     },
+     "say": {
+      "uk": "З напівавтоматом тримайте затвор відкритим, доки не станете на позицію."
+     }
+    },
+    {
+     "en": "No pumps on this ground.",
+     "meaning": {
+      "en": "Pump-action guns are not accepted.",
+      "uk": "Помпові рушниці тут не допускають."
+     },
+     "say": {
+      "uk": "Помпові рушниці тут заборонені."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which gun is NOT allowed in FITASC Sporting™ and Compak® Sporting?",
+      "uk": "Яка рушниця НЕ дозволена у спортингу й компаку FITASC?"
+     },
+     "options": {
+      "en": [
+       "A 20-gauge over-and-under",
+       "A side-by-side",
+       "A pump-action",
+       "A semi-automatic with two cartridges"
+      ],
+      "uk": [
+       "Вертикалка 20-го калібру",
+       "Горизонталка",
+       "Помпова рушниця",
+       "Напівавтомат із двома патронами"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Pump-action guns are banned; the others are allowed if they meet the gauge and barrel limits.",
+      "uk": "Помпові рушниці заборонені; інші дозволені, якщо відповідають обмеженням калібру й довжини стволів."
+     }
+    },
+    {
+     "q": {
+      "en": "How many cartridges may a semi-automatic hold?",
+      "uk": "Скільки патронів може бути в напівавтоматі?"
+     },
+     "options": {
+      "en": [
+       "One",
+       "Two",
+       "Three",
+       "As many as the magazine takes"
+      ],
+      "uk": [
+       "Один",
+       "Два",
+       "Три",
+       "Скільки вміщує магазин"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Both rulebooks limit a semi-automatic to two cartridges.",
+      "uk": "Обидва регламенти обмежують напівавтомат двома патронами."
+     }
+    },
+    {
+     "q": {
+      "en": "A client asks why pumps are banned. What is the honest answer?",
+      "uk": "Клієнт питає, чому заборонені помпові рушниці. Яка чесна відповідь?"
+     },
+     "options": {
+      "en": [
+       "The rules state the ban without explaining it",
+       "The rulebook says they are too slow for doubles",
+       "The rulebook says they are less safe",
+       "They are in fact allowed in Compak® Sporting"
+      ],
+      "uk": [
+       "Правила встановлюють заборону без пояснень",
+       "Правила кажуть, що вони заповільні для дуплетів",
+       "Правила кажуть, що вони менш безпечні",
+       "Насправді в Compak® Sporting їх дозволено"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The rulebooks give no reason; as an interpreter, report the rule and do not invent explanations.",
+      "uk": "Правила причини не називають; перекладач передає правило й не вигадує пояснень."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "gear-gun-parts",
+   "mission": "gear",
+   "minutes": 5,
+   "title": {
+    "en": "Parts of the gun, from shoulder to muzzle",
+    "uk": "Частини рушниці — від плеча до дула"
+   },
+   "body": {
+    "en": [
+     "Coaches name the parts of the gun all the time, so learn them from back to front. The stock («приклад») goes into the shoulder. Its top edge, where the cheek rests, is the comb («гребінь»); 'raise the comb' or 'drop the comb' is about gun fit. The narrow part held by the trigger hand is the grip («шийка приклада»), and the rubber pad at the end is the recoil pad («затильник»).",
+     "The metal centre of the gun is the receiver or action («колодка»). On top sits the top lever: push it aside and the gun opens. Behind it is the safety catch («запобіжник»), often combined with the barrel selector («перемикач стволів», 'selector'), which decides which barrel fires first. Underneath is the trigger («спусковий гачок») in its guard.",
+     "A release trigger fires when it is let go, not when it is pressed. Such a gun must carry, as a warning, a sticker with a large 'R' on a fluorescent background on the outer side of the stock.",
+     "Under the barrels the other hand holds the fore-end («цівка»). The barrels («стволи») have chambers at the back for the cartridges and muzzles («дула») at the front, where chokes are screwed in. Along the top runs the rib («планка») with a bead («мушка») at the end. The bead is a reference, not a sight: 'look at the target, not the bead'.",
+     "Two false friends: rib is not «ребро», and 'break the gun' means open it, not damage it. And one safety rule linked to the parts: after a misfire or any other gun or cartridge failure the shooter must not open the gun or touch the safety until the referee has looked at it."
+    ],
+    "uk": [
+     "Тренери постійно називають частини рушниці, тож вивчімо їх ззаду наперед. Приклад (stock) упирається в плече. Його верхній край, на якому лежить щока, — гребінь (comb); «raise the comb» чи «drop the comb» стосується підгонки рушниці. Вузька частина, яку тримає рука на спуску, — шийка приклада (grip), а гумова подушка на кінці — затильник (recoil pad).",
+     "Металева середина рушниці — колодка (receiver, action). Зверху — важіль замка (top lever): відведіть його вбік, і рушниця відкриється. За ним — запобіжник (safety catch), часто поєднаний із перемикачем стволів (barrel selector, «селектор»), що визначає, з якого ствола буде перший постріл. Знизу в скобі — спусковий гачок (trigger).",
+     "Спуск на відпускання (release trigger) стріляє тоді, коли гачок відпускають, а не натискають. Рушниця з таким спуском мусить мати на зовнішньому боці приклада наліпку з великою літерою «R» на флуоресцентному тлі як попередження.",
+     "Під стволами друга рука тримає цівку (fore-end). Стволи (barrels) мають ззаду патронники для патронів, а спереду — дула (muzzles), куди вкручують чоки. Згори тягнеться планка (rib) з мушкою (bead) на кінці. Мушка — орієнтир, а не приціл: «дивіться на мішень, а не на мушку».",
+     "Два хибні друзі: rib — це не «ребро», а «break the gun» означає відкрити (переломити) рушницю, а не зламати її. І одне правило безпеки, пов’язане з частинами: після осічки чи іншої несправності рушниці або патрона стрілець не відкриває рушницю й не торкається запобіжника, доки суддя її не огляне."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Stock, comb, grip, recoil pad; receiver with top lever, safety and selector; trigger.",
+     "Fore-end, barrels with chambers and muzzles, rib with bead.",
+     "A release trigger needs an 'R' sticker on the stock.",
+     "Rib ≠ «ребро»; break the gun = open it.",
+     "After a misfire: do not open the gun or touch the safety before the referee checks."
+    ],
+    "uk": [
+     "Приклад, гребінь, шийка, затильник; колодка з важелем, запобіжником і селектором; спусковий гачок.",
+     "Цівка, стволи з патронниками й дулами, планка з мушкою.",
+     "Рушниця зі спуском на відпускання має наліпку «R» на прикладі.",
+     "Rib ≠ «ребро»; break the gun = відкрити рушницю.",
+     "Після осічки не відкривати рушницю й не торкатися запобіжника до огляду судді."
+    ]
+   },
+   "terms": [
+    "stock",
+    "comb",
+    "grip",
+    "recoil-pad",
+    "receiver",
+    "top-lever",
+    "safety-catch",
+    "barrel-selector",
+    "trigger",
+    "release-trigger",
+    "fore-end",
+    "barrel",
+    "chamber",
+    "muzzle",
+    "rib",
+    "bead"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch7-release-trigger-marking"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-release-trigger-marking"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-malfunction-stay-put"
+    },
+    {
+     "book": "compak",
+     "id": "ch24-malfunction-zero"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Midvalley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "You're seeing too much rib — your head is up.",
+     "meaning": {
+      "en": "The eye is too high above the rib, usually because the head lifts off the comb.",
+      "uk": "Око надто високо над планкою, зазвичай бо голова відривається від гребеня."
+     },
+     "say": {
+      "uk": "Ви бачите забагато планки — голова піднята."
+     }
+    },
+    {
+     "en": "Check your selector — you fired the top barrel first.",
+     "meaning": {
+      "en": "The barrel selector is set the wrong way round.",
+      "uk": "Селектор стволів виставлено не в тому порядку."
+     },
+     "say": {
+      "uk": "Перевірте селектор: першим вистрілив верхній ствол."
+     }
+    },
+    {
+     "en": "Break your gun and show me it's clear.",
+     "meaning": {
+      "en": "Open the gun and show empty chambers.",
+      "uk": "Відкрийте рушницю й покажіть порожні патронники."
+     },
+     "say": {
+      "uk": "Переломіть рушницю й покажіть, що вона порожня."
+     }
+    },
+    {
+     "en": "Forget the bead — look at the target.",
+     "meaning": {
+      "en": "Focus on the target, not on the end of the barrel.",
+      "uk": "Дивіться на мішень, а не на кінець ствола."
+     },
+     "say": {
+      "uk": "Забудьте про мушку — дивіться на мішень."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "A coach says 'Raise the comb'. Which part does he mean?",
+      "uk": "Тренер каже «Raise the comb». Про яку частину йдеться?"
+     },
+     "options": {
+      "en": [
+       "The top of the stock, where the cheek rests",
+       "The small bead at the end of the rib",
+       "The guard around the trigger",
+       "The choke tube at the muzzle"
+      ],
+      "uk": [
+       "Верх приклада, на якому лежить щока",
+       "Мушку на кінці планки",
+       "Скобу навколо спускового гачка",
+       "Чок біля дула"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The comb is the top of the stock; raising it lifts the eye above the rib.",
+      "uk": "Гребінь — верх приклада; якщо його підняти, око буде вище над планкою."
+     }
+    },
+    {
+     "q": {
+      "en": "What must a gun with a release trigger carry?",
+      "uk": "Що мусить мати рушниця зі спуском на відпускання?"
+     },
+     "options": {
+      "en": [
+       "A red-painted barrel to warn others",
+       "A large 'R' sticker on the stock",
+       "A second, separate safety catch",
+       "Nothing: no marking is required"
+      ],
+      "uk": [
+       "Червоно пофарбований ствол як попередження",
+       "Наліпку з великою «R» на прикладі",
+       "Другий, окремий запобіжник",
+       "Нічого: маркування не потрібне"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Both rulebooks require the 'R' warning sticker, on a fluorescent background, on the outer side of the buttstock.",
+      "uk": "Обидва регламенти вимагають попереджувальну наліпку «R» на прикладі."
+     }
+    },
+    {
+     "q": {
+      "en": "How do you translate 'Break your gun'?",
+      "uk": "Як перекласти «Break your gun»?"
+     },
+     "options": {
+      "en": [
+       "«Зламайте рушницю»",
+       "«Розберіть рушницю на частини»",
+       "«Відкрийте (переломіть) рушницю»",
+       "«Почистіть стволи рушниці»"
+      ],
+      "uk": [
+       "«Зламайте рушницю»",
+       "«Розберіть рушницю на частини»",
+       "«Відкрийте (переломіть) рушницю»",
+       "«Почистіть стволи рушниці»"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "On a shooting ground 'break' means opening the gun on its hinge so it cannot fire.",
+      "uk": "На стрільбищі break означає відкрити рушницю на шарнірі, щоб вона не могла вистрілити."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "gear-chokes",
+   "mission": "gear",
+   "minutes": 5,
+   "title": {
+    "en": "Chokes: what they do and how coaches talk about them",
+    "uk": "Чоки: що вони роблять і як про них кажуть тренери"
+   },
+   "body": {
+    "en": [
+     "A choke («чок», дульне звуження) is a slight narrowing of the barrel at the muzzle. It controls how quickly the shot spreads. More constriction keeps the shot together longer, giving a tighter pattern for far targets; less constriction spreads it sooner, giving a wider, more forgiving pattern for close targets.",
+     "Most competition guns have interchangeable chokes: short tubes screwed into the muzzle with a choke key. Older guns may have fixed chokes machined into the barrel. Tubes from different makers often do not fit each other, and makers warn never to fire a multichoke gun without its tubes.",
+     "Names come from English, from open to tight: cylinder, skeet, improved cylinder, light modified, modified, improved modified, full. Europeans often say them as fractions: quarter («чверть», improved cylinder), half («пів», modified), three-quarter («три чверті», improved modified) and full («повний»). Many Italian guns mark chokes with stars, and there the rule is upside down: more stars means a more open choke.",
+     "Coaches say things like 'quarter and half', 'open up the bottom barrel', 'go tighter in the top' or 'change chokes for this stand'. Keep the names exactly as the coach says them; do not convert them into millimetres, which differ between makers.",
+     "The rules differ between disciplines. In Parcours de Chasse – Sporting™ chokes may be changed between stands or between the singles and the doubles, if it causes no delay, but never once the shooter has stepped onto the stand. In Compak® Sporting the gun, barrels and chokes may not be changed within a round at all, only between rounds, except after a breakdown."
+    ],
+    "uk": [
+     "Чок (choke) — невелике звуження ствола біля дула. Він визначає, як швидко розлітається дріб. Більше звуження довше тримає дріб купно й дає щільніший сніп для далеких мішеней; менше — розкидає його раніше й дає ширший сніп, який пробачає помилки на близьких мішенях.",
+     "У більшості змагальних рушниць чоки змінні: короткі трубки, які вкручують у дуло спеціальним ключем (choke key). У старіших рушницях чоки бувають фіксовані — виточені в самому стволі. Чоки різних виробників часто не пасують один до одного, а виробники застерігають ніколи не стріляти з рушниці зі змінними чоками без них.",
+     "Назви прийшли з англійської, від відкритого до найщільнішого: cylinder (циліндр), skeet, improved cylinder, light modified, modified, improved modified, full. Європейці часто кажуть частками: quarter — «чверть» (improved cylinder), half — «пів», «півчок» (modified), three-quarter — «три чверті» (improved modified) і full — «повний». На деяких італійських рушницях чоки позначають зірочками, і там логіка навпаки: більше зірочок — відкритіший чок.",
+     "Тренери кажуть, наприклад: «quarter and half», «open up the bottom barrel» (відкрийте нижній ствол), «go tighter in the top» (щільніший у верхній) чи «change chokes for this stand» (змініть чоки на цю позицію). Передавайте назви точно так, як їх сказав тренер; не перераховуйте в міліметри — у різних виробників вони різні.",
+     "Правила в дисциплінах відрізняються. У Parcours de Chasse – Sporting™ чоки можна міняти між позиціями або між одиночними й дуплетами, якщо це не спричиняє затримки, але не тоді, коли стрілець уже став на позицію. У Compak® Sporting рушницю, стволи й чоки взагалі не можна міняти протягом раунду — лише між раундами, крім випадку поломки."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "A choke narrows the muzzle: tighter for far targets, more open for close ones.",
+     "Interchangeable tubes are screwed in with a choke key; makers warn never to fire without them.",
+     "Fractions: quarter = improved cylinder, half = modified, three-quarter = improved modified, full.",
+     "Keep choke names as said; do not convert to millimetres.",
+     "Sporting™: change between stands, never on the stand; Compak®: no change within a round."
+    ],
+    "uk": [
+     "Чок звужує дуло: щільніший для далеких мішеней, відкритіший для близьких.",
+     "Змінні чоки вкручують ключем; виробники застерігають не стріляти без них.",
+     "Частки: чверть = improved cylinder, пів = modified, три чверті = improved modified, повний = full.",
+     "Назви чоків передавайте, як сказано; не перераховуйте в міліметри.",
+     "Спортинг: міняти між позиціями, не на позиції; компак: не міняти протягом раунду."
+    ]
+   },
+   "terms": [
+    "choke",
+    "multichoke",
+    "fixed-choke",
+    "choke-key",
+    "cylinder",
+    "skeet-choke",
+    "improved-cylinder",
+    "modified",
+    "improved-modified",
+    "full-choke",
+    "pattern"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch7-borrow-replace"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-no-changes-on-stand"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-gun-change"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "Beretta — Choke tubes identification",
+     "url": "https://estore.beretta.com/en-gb/utility/choke-tubes-identification"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "What chokes are you using? — Quarter and half.",
+     "meaning": {
+      "en": "Improved cylinder in one barrel, modified in the other.",
+      "uk": "В одному стволі improved cylinder, в іншому modified."
+     },
+     "say": {
+      "uk": "Які у вас чоки? — Чверть і пів."
+     }
+    },
+    {
+     "en": "Put quarter in the bottom and half in the top — the second bird is longer.",
+     "meaning": {
+      "en": "More open choke for the first, closer target; tighter for the second, farther one.",
+      "uk": "Відкритіший чок — на першу, ближчу мішень; щільніший — на другу, дальшу."
+     },
+     "say": {
+      "uk": "Поставте чверть у нижній ствол і пів у верхній — друга мішень далі."
+     }
+    },
+    {
+     "en": "Open up — these are all close.",
+     "meaning": {
+      "en": "Fit more open chokes because the targets are near.",
+      "uk": "Поставте відкритіші чоки, бо мішені близько."
+     },
+     "say": {
+      "uk": "Відкрийте чоки — тут усі мішені близькі."
+     }
+    },
+    {
+     "en": "Check your tubes are tight before the round.",
+     "meaning": {
+      "en": "Make sure the choke tubes have not loosened.",
+      "uk": "Перевірте, чи не розкрутилися чоки."
+     },
+     "say": {
+      "uk": "Перед раундом перевірте, чи щільно закручені чоки."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which choke gives the widest pattern?",
+      "uk": "Який чок дає найширший сніп?"
+     },
+     "options": {
+      "en": [
+       "Full",
+       "Improved modified",
+       "Modified",
+       "Cylinder"
+      ],
+      "uk": [
+       "Full (повний)",
+       "Improved modified (три чверті)",
+       "Modified (пів)",
+       "Cylinder (циліндр)"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Cylinder has no constriction, so the shot spreads soonest.",
+      "uk": "Циліндр не має звуження, тож дріб розлітається найраніше."
+     }
+    },
+    {
+     "q": {
+      "en": "In Sporting™, a shooter already standing on the stand wants to change a choke. Is it allowed?",
+      "uk": "У спортингу стрілець, який уже став на позицію, хоче змінити чок. Чи можна?"
+     },
+     "options": {
+      "en": [
+       "Yes, as long as it causes no delay",
+       "No, not once he is on the stand",
+       "Yes, but only before the doubles",
+       "Only with the jury's permission"
+      ],
+      "uk": [
+       "Так, якщо це не спричиняє затримки",
+       "Ні, не тоді, коли він уже на позиції",
+       "Так, але лише перед дуплетами",
+       "Лише з дозволу журі"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Changes are allowed between stands or between singles and doubles, without delay, but never once the shooter has stepped onto the stand.",
+      "uk": "Міняти можна між позиціями або між одиночними й дуплетами, але не після того, як стрілець став на позицію."
+     }
+    },
+    {
+     "q": {
+      "en": "On an Italian gun, a choke with five stars is…",
+      "uk": "На італійській рушниці чок із п’ятьма зірочками — це…"
+     },
+     "options": {
+      "en": [
+       "the most open",
+       "the tightest",
+       "a broken choke",
+       "a rifle barrel"
+      ],
+      "uk": [
+       "найвідкритіший",
+       "найщільніший",
+       "пошкоджений чок",
+       "нарізний ствол"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "With star markings, more stars mean a more open choke.",
+      "uk": "У маркуванні зірочками більше зірочок — відкритіший чок."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "gear-cartridges",
+   "mission": "gear",
+   "minutes": 5,
+   "title": {
+    "en": "Cartridges: gauge, shot size and the limits",
+    "uk": "Патрони: калібр, номер дробу й обмеження"
+   },
+   "body": {
+    "en": [
+     "A cartridge («патрон») holds everything for one shot: the hull («гільза») with a metal head, the primer («капсуль»), powder («порох»), the wad («пиж») and the shot («дріб»). Shooters also say shell. 'Empties' are fired hulls.",
+     "Gauge («калібр») is counted the old way: the smaller the number, the wider the bore, so 12 gauge is wider than 20. FITASC allows guns no larger than 12 gauge, and most shooters use 12. Never translate '12 gauge' as «12 мм».",
+     "Shot size is also upside down: the bigger the number, the smaller the pellet, so No. 9 is finer than No. 7½. The same number can mean slightly different sizes in Britain, continental Europe and the USA, so say the number as given and check the millimetres on the box. 'Nines' and 'seven-and-a-halfs' are common coach words.",
+     "The rules for Parcours de Chasse – Sporting™ and Compak® Sporting are the same: at most 28 g of lead shot, with a +2% tolerance; round pellets of 2.0 to 2.5 mm (±0.1 mm). Reloaded cartridges, dispersers, mixed shot sizes, black powder and tracers are forbidden. In Sporting™ the referee may take two cartridges to check, one from each vest pocket; in Compak® Sporting, shots fired with non-compliant cartridges before an inspection count as zero.",
+     "Some grounds add their own environmental rules for practice, for example fibre wads only or steel shot only: check the ground's rules before the tour. Empty cases go into the bin on the stand, and shooters with semi-automatics pick up their ejected cases when they leave."
+    ],
+    "uk": [
+     "Патрон (cartridge, shell) містить усе для одного пострілу: гільзу (hull) з металевим дном, капсуль (primer), порох (powder), пиж (wad) і дріб (shot). «Empties» — це стріляні гільзи.",
+     "Калібр (gauge) рахують по-старому: що менше число, то ширший канал ствола, тож 12-й калібр ширший за 20-й. FITASC дозволяє рушниці не більше 12-го калібру, і більшість стріляє саме з 12-го. Ніколи не перекладайте «12 gauge» як «12 мм».",
+     "Номер дробу (shot size) теж «навпаки»: що більший номер, то дрібніша дробина, тож № 9 дрібніший за № 7½. Той самий номер у Британії, континентальній Європі й США може означати трохи різний розмір, тому називайте номер так, як сказано, а міліметри дивіться на коробці. «Nines», «seven-and-a-halfs» — звичні слова тренерів: «дев’ятка», «сімка з половиною».",
+     "Правила Parcours de Chasse – Sporting™ і Compak® Sporting тут однакові: щонайбільше 28 г свинцевого дробу з допуском +2%; круглі дробини діаметром 2,0–2,5 мм (±0,1 мм). Заборонені перезаряджені патрони, розсіювачі, суміш різного дробу, димний порох і трасери. У спортингу суддя може взяти на перевірку два патрони — по одному з кожної кишені жилета; у Compak® Sporting постріли невідповідними патронами до перевірки зараховують як нулі.",
+     "Деякі стрільбища мають власні екологічні правила для тренувань, наприклад лише фіброві пижі чи лише сталевий дріб: перевірте правила стрільбища до туру. Стріляні гільзи кладуть у контейнер на позиції, а стрільці з напівавтоматами, сходячи з позиції, збирають свої викинуті гільзи."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Cartridge = hull, primer, powder, wad, shot.",
+     "Gauge: smaller number, wider bore; FITASC maximum is 12 gauge.",
+     "Shot size: bigger number, smaller pellet; numbering differs by country, check millimetres.",
+     "Limits: 28 g lead (+2%), pellets 2.0–2.5 mm; no reloads, mixed shot, black powder or tracers.",
+     "Empties go in the bin; semi-auto users pick up their cases."
+    ],
+    "uk": [
+     "Патрон = гільза, капсуль, порох, пиж, дріб.",
+     "Калібр: менше число — ширший ствол; максимум у FITASC — 12-й.",
+     "Номер дробу: більший номер — дрібніша дробина; нумерація різниться, дивіться міліметри.",
+     "Обмеження: 28 г свинцю (+2%), дробини 2,0–2,5 мм; без перезаряджених патронів, суміші дробу, димного пороху й трасерів.",
+     "Гільзи — у контейнер; власники напівавтоматів збирають свої гільзи."
+    ]
+   },
+   "terms": [
+    "cartridge",
+    "hull",
+    "primer",
+    "powder",
+    "wad",
+    "shot-size",
+    "load-weight",
+    "gauge",
+    "lead-shot",
+    "steel-shot",
+    "empties"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch7-permitted-guns"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-cartridges"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-cartridge-load"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-cartridge-bans"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-cartridge-check"
+    },
+    {
+     "book": "compak",
+     "id": "ch23-noncompliant-equipment"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-turning-empties"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-empty-cases"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shotgun Life — Mastering the elusive rabbit clay target",
+     "url": "https://www.shotgunlife.com/briefs/mastering-the-elusive-rabbit-clay-target.html"
+    },
+    {
+     "title": "Midvalley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Nines for the close stuff, seven-and-a-halfs for the long crossers.",
+     "meaning": {
+      "en": "Finer No. 9 shot for near targets, larger No. 7½ for far crossing targets.",
+      "uk": "Дрібніший № 9 — на близькі мішені, крупніший № 7½ — на далекі поперечні."
+     },
+     "say": {
+      "uk": "Дев’ятку — на близькі, сімку з половиною — на далекі поперечні."
+     }
+    },
+    {
+     "en": "Maximum twenty-eight grams on this shoot.",
+     "meaning": {
+      "en": "The load limit of the competition, as in the FITASC rules.",
+      "uk": "Обмеження наважки на змаганнях, як у правилах FITASC."
+     },
+     "say": {
+      "uk": "На цих змаганнях — щонайбільше двадцять вісім грамів."
+     }
+    },
+    {
+     "en": "Empties in the bin, please, not on the grass.",
+     "meaning": {
+      "en": "Put fired hulls into the container.",
+      "uk": "Кладіть стріляні гільзи в контейнер."
+     },
+     "say": {
+      "uk": "Гільзи, будь ласка, в контейнер, а не на траву."
+     }
+    },
+    {
+     "en": "Steel only on this ground.",
+     "meaning": {
+      "en": "Lead shot is not allowed on this ground (a local rule, not a FITASC one).",
+      "uk": "Свинцевий дріб на цьому стрільбищі заборонений (місцеве правило, а не FITASC)."
+     },
+     "say": {
+      "uk": "На цьому стрільбищі — лише сталевий дріб."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which is the finer shot?",
+      "uk": "Який дріб дрібніший?"
+     },
+     "options": {
+      "en": [
+       "No. 7",
+       "No. 7½",
+       "No. 8",
+       "No. 9"
+      ],
+      "uk": [
+       "№ 7",
+       "№ 7½",
+       "№ 8",
+       "№ 9"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The bigger the shot number, the smaller the pellet.",
+      "uk": "Що більший номер дробу, то менша дробина."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the maximum shot load under FITASC rules?",
+      "uk": "Яка максимальна наважка дробу за правилами FITASC?"
+     },
+     "options": {
+      "en": [
+       "24 g, with no tolerance",
+       "28 g, with a +2% tolerance",
+       "32 g for long targets only",
+       "No limit, any load is allowed"
+      ],
+      "uk": [
+       "24 г, без допуску",
+       "28 г, з допуском +2%",
+       "32 г лише для далеких мішеней",
+       "Без обмежень, будь-яка наважка"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Both disciplines allow at most 28 g of lead shot, +2%.",
+      "uk": "Обидві дисципліни дозволяють щонайбільше 28 г свинцевого дробу, +2%."
+     }
+    },
+    {
+     "q": {
+      "en": "A client says his gun is '12 gauge'. What does that mean?",
+      "uk": "Клієнт каже, що його рушниця «12 gauge». Що це означає?"
+     },
+     "options": {
+      "en": [
+       "The bore size: wider than 20 gauge",
+       "The bore is 12 millimetres across",
+       "Twelve cartridges fit in the magazine",
+       "The barrels are 12 inches long"
+      ],
+      "uk": [
+       "Розмір каналу ствола: ширший за 20-й калібр",
+       "Канал ствола має 12 мм",
+       "У магазин входить дванадцять патронів",
+       "Стволи завдовжки 12 дюймів"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Gauge is an old unit: the smaller the number, the wider the bore. It is not millimetres.",
+      "uk": "Калібр — стара одиниця: що менше число, то ширший канал. Це не міліметри."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "gear-protection-clothes",
+   "mission": "gear",
+   "minutes": 5,
+   "title": {
+    "en": "Protection, vest and dress code",
+    "uk": "Захист, жилет і правила одягу"
+   },
+   "body": {
+    "en": [
+     "Hearing protection is compulsory for everyone on or near a layout: shooters, referees, staff and spectators, and that includes you. Earplugs («беруші») and ear muffs («навушники») both work; electronic muffs amplify voices and cut the bang, which helps you hear the coach and referee. A shooter who comes to the stand without protection is treated as absent.",
+     "Safety glasses («захисні окуляри») are compulsory too, for shooters, referees and staff, and in Parcours de Chasse – Sporting™ for anyone close to a stand. Lenses come in colours (yellow, orange, purple, smoke) to help see targets in different light.",
+     "The shooting vest («жилет») holds cartridges in two front pockets and has a shoulder pad. For Sporting™ it carries a contrasting horizontal line 25 cm below the shoulder axis: before calling, the top of the stock must stay below it, and the referee checks this. Compak® Sporting has no such line because the gun position at the call is free.",
+     "Dress rules are the same in both disciplines: no short shorts (only long shorts ending no more than 5 cm above the knee), tops with at least short sleeves, no vest over a bare chest, and no sandals, for safety. The competitor number is worn on the back, fully visible. A breach first brings a warning, then further penalties.",
+     "Many shooters also wear a cap with a peak against sun and rain, gloves, and carry a cartridge bag for the day's supply. These are custom, not rules."
+    ],
+    "uk": [
+     "Захист слуху обов’язковий для всіх, хто на майданчику чи поруч: стрільців, суддів, персоналу й глядачів — отже, і для вас. Підходять і беруші (earplugs), і навушники (ear muffs); електронні навушники підсилюють голоси й глушать постріл, тож ви краще чуєте тренера й суддю. Стрільця, який прийшов на позицію без захисту, вважають відсутнім.",
+     "Захисні окуляри (safety glasses) теж обов’язкові — для стрільців, суддів і персоналу, а в Parcours de Chasse – Sporting™ і для всіх, хто поруч із позицією. Лінзи бувають різних кольорів (жовті, помаранчеві, фіолетові, димчасті), щоб краще бачити мішені за різного освітлення.",
+     "Стрілецький жилет (vest) тримає патрони у двох передніх кишенях і має накладку на плечі. Для Sporting™ на ньому є контрастна горизонтальна лінія на 25 см нижче осі плеча: до команди верх приклада має бути нижче неї, і суддя це перевіряє. У Compak® Sporting такої лінії немає, бо положення рушниці під час команди вільне.",
+     "Правила одягу однакові в обох дисциплінах: жодних коротких шортів (лише довгі, що закінчуються не вище ніж на 5 см над коліном), верх щонайменше з короткими рукавами, жилет не на голе тіло, жодних сандалій — з міркувань безпеки. Стартовий номер носять на спині так, щоб його було повністю видно. За порушення спершу попереджають, потім карають суворіше.",
+     "Багато стрільців носять ще кепку з козирком від сонця й дощу, рукавички, а для денного запасу патронів беруть сумку для патронів. Це звичай, а не правило."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Ear protection is compulsory for everyone near a layout, interpreters included.",
+     "Safety glasses are compulsory; without protection a shooter is treated as absent.",
+     "Sporting™ vest: contrasting line 25 cm below the shoulder axis; Compak® has none.",
+     "Dress: shorts no higher than 5 cm above the knee, sleeves, no bare chest under the vest, no sandals.",
+     "Competitor number on the back, fully visible."
+    ],
+    "uk": [
+     "Захист слуху обов’язковий для всіх біля майданчика, і для перекладачів теж.",
+     "Захисні окуляри обов’язкові; без захисту стрільця вважають відсутнім.",
+     "Жилет для спортингу: контрастна лінія на 25 см нижче осі плеча; у компаку її немає.",
+     "Одяг: шорти не вище 5 см над коліном, рукави, не на голе тіло, без сандалій.",
+     "Стартовий номер на спині, повністю видимий."
+    ]
+   },
+   "terms": [
+    "hearing-protection",
+    "earplugs",
+    "electronic-ear-muffs",
+    "safety-glasses",
+    "shooting-vest",
+    "jacket-line",
+    "dress-code",
+    "competitor-number",
+    "cartridge-bag"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch8-hearing-protection"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-safety-glasses"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-hearing"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-eyewear"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-jacket-line"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-ready-position"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-gun-position"
+    },
+    {
+     "book": "sporting",
+     "id": "ch17-dress-code"
+    },
+    {
+     "book": "compak",
+     "id": "ch7-dress-code"
+    },
+    {
+     "book": "sporting",
+     "id": "ch17-competitor-number"
+    },
+    {
+     "book": "sporting",
+     "id": "ch17-dress-penalties"
+    },
+    {
+     "book": "compak",
+     "id": "ch7-competition-numbers"
+    }
+   ],
+   "sources": [],
+   "coach_says": [
+    {
+     "en": "Ears and eyes on before you walk up.",
+     "meaning": {
+      "en": "Put on hearing protection and glasses before approaching the stand.",
+      "uk": "Надягніть захист слуху й окуляри, перш ніж підходити до позиції."
+     },
+     "say": {
+      "uk": "Навушники й окуляри — до того, як підійдете."
+     }
+    },
+    {
+     "en": "Butt under the tape until you see the target.",
+     "meaning": {
+      "en": "Sporting™ gun-down rule: the stock stays below the vest line until the target appears.",
+      "uk": "Правило спортингу: приклад нижче мітки на жилеті, доки не з’явиться мішень."
+     },
+     "say": {
+      "uk": "Приклад нижче мітки, доки не побачите мішень."
+     }
+    },
+    {
+     "en": "No marker needed here — it's Compak.",
+     "meaning": {
+      "en": "Compak® has no vest-line requirement.",
+      "uk": "У компаку лінія на жилеті не вимагається."
+     },
+     "say": {
+      "uk": "Тут мітка не потрібна — це компак."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "You are an interpreter standing near the stand. Must you wear ear protection?",
+      "uk": "Ви перекладач і стоїте біля позиції. Чи мусите мати захист слуху?"
+     },
+     "options": {
+      "en": [
+       "No, only the shooters on the stand",
+       "Only during finals and shoot-offs",
+       "Yes, everyone on or near a layout",
+       "Only if the referee asks you to"
+      ],
+      "uk": [
+       "Ні, лише стрільці на позиції",
+       "Лише у фіналах і перестрілках",
+       "Так, усі на майданчику чи поруч",
+       "Лише якщо суддя попросить"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Hearing protection is compulsory for shooters, referees, staff and spectators.",
+      "uk": "Захист слуху обов’язковий для стрільців, суддів, персоналу й глядачів."
+     }
+    },
+    {
+     "q": {
+      "en": "Where is the vest line in Sporting™?",
+      "uk": "Де лінія на жилеті у спортингу?"
+     },
+     "options": {
+      "en": [
+       "25 cm below the shoulder axis",
+       "At the waist, on the belt line",
+       "On the sleeve of the shooting arm",
+       "There is none in Sporting™"
+      ],
+      "uk": [
+       "На 25 см нижче осі плеча",
+       "На поясі, по лінії ременя",
+       "На рукаві руки, що тримає спуск",
+       "У спортингу її немає"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The contrasting line is 25 cm below and parallel to the shoulder axis; the stock must stay below it before the target appears.",
+      "uk": "Контрастна лінія — на 25 см нижче осі плеча й паралельно їй; до появи мішені приклад має бути нижче."
+     }
+    },
+    {
+     "q": {
+      "en": "Which footwear is banned in both disciplines?",
+      "uk": "Яке взуття заборонене в обох дисциплінах?"
+     },
+     "options": {
+      "en": [
+       "Trail shoes",
+       "Sandals",
+       "Boots",
+       "Trainers"
+      ],
+      "uk": [
+       "Трекінгові кросівки",
+       "Сандалії",
+       "Черевики",
+       "Кросівки"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Sandals are forbidden for safety reasons.",
+      "uk": "Сандалії заборонені з міркувань безпеки."
+     }
+    }
+   ],
+   "sim": null
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "shell-catcher",
+   "en": "shell catcher",
+   "def_en": "Device on a semi-automatic that stops ejected cases from hitting the neighbouring shooter; compulsory in Compak® Sporting.",
+   "def_uk": "Пристрій на напівавтоматі, що не дає викинутим гільзам летіти в сусіда; обов’язковий у Compak® Sporting."
+  },
+  {
+   "id": "top-lever",
+   "en": "top lever",
+   "def_en": "Lever on top of the receiver that is pushed aside to open (break) the gun.",
+   "def_uk": "Важіль зверху колодки, який відводять убік, щоб відкрити (переломити) рушницю."
+  },
+  {
+   "id": "bead",
+   "en": "bead",
+   "def_en": "Small dot at the muzzle end of the rib; a reference for the eye, not a sight.",
+   "def_uk": "Мушка — маленька крапка на кінці планки біля дула; орієнтир для ока, а не приціл."
+  },
+  {
+   "id": "jacket-line",
+   "en": "jacket line (vest marker)",
+   "def_en": "Contrasting horizontal line on the vest 25 cm below the shoulder axis; in Sporting™ the stock must stay below it before the target appears.",
+   "def_uk": "Контрастна горизонтальна лінія на жилеті на 25 см нижче осі плеча; у спортингу приклад має бути нижче неї до появи мішені."
+  }
+ ]
+}

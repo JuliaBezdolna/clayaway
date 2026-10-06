@@ -48,4 +48,5 @@
   `docs/index.html` (оглавление), `docs/concept/` (ТЗ), `docs/dornsberg/` (пример 1), `docs/sologne/` (пример 2).
   Примеры туров — в дизайне ClayArena (тёмная тема, изумрудный акцент), с подписью сервиса **ClayAway**;
   фото и видео подключены по ссылкам с ClayArena (cdn.clayarena.com, хранилище ClayArena), не копируются.
+- `docs/interpreter/` — Академия переводчика ClayArena (игра-курс, 11 языков ClayArena); контент в `docs/interpreter/src/`, сборка `python scripts/build_interpreter.py`.
 - Локальный просмотр: `python -m http.server 8791 --bind 127.0.0.1 --directory docs`.

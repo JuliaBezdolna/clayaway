@@ -1,0 +1,967 @@
+{
+ "id": "etiquette",
+ "order": 11,
+ "icon": "shield",
+ "title": {
+  "en": "Safety and etiquette",
+  "uk": "Безпека й етикет"
+ },
+ "intro": {
+  "en": "On a shooting ground safety comes before any translation, and good manners keep the squad calm and focused. This mission shows how guns are handled, how people behave around the stand and in a squad, and what everyone, including you, must wear.",
+  "uk": "На стрільбищі безпека важливіша за будь-який переклад, а добрі манери тримають групу спокійною й зосередженою. У цій місії — як поводяться з рушницею, як поводяться біля позиції й у групі та що мусять носити всі, зокрема й ви."
+ },
+ "lessons": [
+  {
+   "id": "etiquette-gun-safety",
+   "mission": "etiquette",
+   "minutes": 5,
+   "title": {
+    "en": "Gun safety: open, empty, muzzles safe",
+    "uk": "Безпека зі зброєю: відкрита, розряджена, стволи в безпечний бік"
+   },
+   "body": {
+    "en": [
+     "Every gun is treated as dangerous, even when it is empty. Off the stand it is carried open: an over-and-under broken over the forearm, a semi-automatic with the breech open, muzzles straight up or straight down. Slings are not allowed. When nobody is using it, the gun stands upright in a gun rack. Nobody touches another shooter’s gun without permission.",
+     "Cartridges go into the gun only on the stand, with the muzzles pointing down the range, and only when the referee or instructor allows it. A semi-automatic holds no more than two. Before turning round on the stand, the shooter opens the gun and takes out every cartridge, fired or not. While targets are being shown, and during any stop, guns stay open.",
+     "If the gun fails to fire, the shooter stays in place, gun pointing down the range, and does not open it or touch the safety until the referee has checked it. This is a safety rule and a scoring rule at once: opening early costs the target. Mounting and swinging along an imagined target off the stand, or while someone else is shooting, is not allowed either, and guns are tested only at a test stand, never on the competition stand.",
+     "When anyone shouts “Stop!” or “Cease fire!”, everyone stops at once and opens the gun. Do not translate this into a sentence: repeat “Stop!” loudly in your guests’ language and check that their guns are open. If a guest turns towards you with a gun to ask something, point the muzzles down with a gesture first and translate afterwards."
+    ],
+    "uk": [
+     "Будь-яку рушницю вважають небезпечною, навіть розряджену. Поза позицією її носять відкритою: вертикалку — переламаною на передпліччі, напівавтомат — з відкритим затвором, стволами строго вгору або вниз. Ремені заборонені. Коли рушницею не користуються, вона стоїть вертикально у стійці для рушниць (gun rack). Чужої рушниці без дозволу власника не торкаються.",
+     "Набої заряджають лише на позиції, стволами в бік поля, і лише з дозволу судді чи інструктора. У напівавтоматі — не більше двох. Перш ніж обернутися на позиції, стрілець відкриває рушницю й виймає всі набої — і стріляні, і цілі. Під час показу мішеней і будь-якої перерви рушниці залишаються відкритими.",
+     "Якщо рушниця не вистрілила, стрілець стоїть на місці стволами в бік поля, не відкриває її й не торкається запобіжника, доки суддя не перевірить. Це правило і безпеки, і підрахунку: передчасне відкриття коштує мішені. Також не можна вкидати рушницю й вести її за уявною мішенню поза позицією чи під час стрільби іншого, а перевіряють рушницю лише на пристрілювальній позиції, ніколи на змагальній.",
+     "Коли хтось вигукує «Stop!» або «Cease fire!», усі негайно припиняють стрільбу й відкривають рушниці. Не перекладайте це розгорнутим реченням: голосно повторіть «Стоп!» мовою гостей і переконайтеся, що їхні рушниці відкриті. Якщо гість обертається до вас із рушницею, щоб щось запитати, спершу жестом покажіть стволи вниз, а перекладайте потім."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Off the stand: gun open, empty, muzzles up or down, no slings",
+     "Load only on the stand, pointing down the range, with permission; semi-auto max 2",
+     "Open and unload before turning round; guns open during viewing and stops",
+     "After a misfire: stay put, do not open, wait for the referee",
+     "“Stop!” is repeated, not explained"
+    ],
+    "uk": [
+     "Поза позицією: рушниця відкрита, розряджена, стволи вгору чи вниз, без ременів",
+     "Заряджати лише на позиції, у бік поля, з дозволу; у напівавтоматі максимум 2",
+     "Перш ніж обернутися — відкрити й розрядити; під час показу й перерв рушниці відкриті",
+     "Після осічки: стояти на місці, не відкривати, чекати суддю",
+     "«Стоп!» повторюють, а не пояснюють"
+    ]
+   },
+   "terms": [
+    "safety",
+    "gun-handling",
+    "muzzle",
+    "gun-rack",
+    "loading",
+    "malfunction",
+    "mock-shooting",
+    "gun-test",
+    "cease-fire",
+    "semi-automatic"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch7-gun-handling"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-touching-sharing"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-loading"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-turning-empties"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-presentation-interruption"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-malfunction-stay-put"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-mock-shooting"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-testing-guns"
+    },
+    {
+     "book": "compak",
+     "id": "ch24-carrying"
+    },
+    {
+     "book": "compak",
+     "id": "ch24-on-the-stand"
+    },
+    {
+     "book": "compak",
+     "id": "ch24-dry-mounting"
+    },
+    {
+     "book": "compak",
+     "id": "ch24-malfunction-zero"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-open-gun"
+    },
+    {
+     "book": "compak",
+     "id": "ch11-testing-guns"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    },
+    {
+     "title": "Let’s Go Shooting — Discover Sporting Clays: NSCA beginner’s guide",
+     "url": "https://www.letsgoshooting.org/resources/articles/shotgun/discover-sporting-clays-nsca-beginners-guide/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Guns open and empty between stands, please.",
+     "meaning": {
+      "en": "Walking to the next stand, the gun is broken with no cartridges inside.",
+      "uk": "Дорогою до наступної позиції рушниця переламана, набоїв усередині немає."
+     },
+     "say": {
+      "uk": "Між позиціями рушниці відкриті й розряджені, будь ласка."
+     }
+    },
+    {
+     "en": "Break your gun and show me it’s clear.",
+     "meaning": {
+      "en": "Open the gun (not damage it!) so I can see the chambers are empty.",
+      "uk": "Відкрийте рушницю (а не зламайте!), щоб я побачив, що патронники порожні."
+     },
+     "say": {
+      "uk": "Відкрийте рушницю й покажіть, що вона розряджена."
+     }
+    },
+    {
+     "en": "Don’t load until you’re on the stand and I say so.",
+     "meaning": {
+      "en": "No cartridges in the gun while walking or waiting.",
+      "uk": "Жодних набоїв у рушниці, поки йдете чи чекаєте."
+     },
+     "say": {
+      "uk": "Не заряджайте, поки не станете на позицію і я не скажу."
+     }
+    },
+    {
+     "en": "Muzzles down when you turn round.",
+     "meaning": {
+      "en": "Never let the barrels point at people, even with an open gun.",
+      "uk": "Стволи ніколи не мають дивитися на людей, навіть у відкритої рушниці."
+     },
+     "say": {
+      "uk": "Обертаючись, тримайте стволи донизу."
+     }
+    },
+    {
+     "en": "Stop! Stop! Guns open!",
+     "meaning": {
+      "en": "Emergency stop: stop shooting, open the gun, wait.",
+      "uk": "Аварійна зупинка: припинити стрільбу, відкрити рушницю, чекати."
+     },
+     "say": {
+      "uk": "Стоп! Стоп! Рушниці відкрити!"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "How is a semi-automatic carried between stands?",
+      "uk": "Як носять напівавтомат між позиціями?"
+     },
+     "options": {
+      "en": [
+       "Closed, safety on",
+       "With the breech open, muzzle straight up or down",
+       "On a sling over the shoulder",
+       "Loaded with one cartridge"
+      ],
+      "uk": [
+       "Закритим, на запобіжнику",
+       "З відкритим затвором, стволом строго вгору чи вниз",
+       "На ремені через плече",
+       "З одним набоєм"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Guns are carried open, semi-automatics with the breech open, muzzles straight up or down; slings are not allowed.",
+      "uk": "Рушниці носять відкритими, напівавтомати — з відкритим затвором, стволами вгору чи вниз; ремені заборонені."
+     }
+    },
+    {
+     "q": {
+      "en": "The gun clicks but does not fire. What must the shooter do?",
+      "uk": "Рушниця клацнула, але не вистрілила. Що має зробити стрілець?"
+     },
+     "options": {
+      "en": [
+       "Open it at once and look",
+       "Turn round to show the coach",
+       "Stay in place, gun down the range, not open it or touch the safety until the referee checks",
+       "Put the safety on and call again"
+      ],
+      "uk": [
+       "Одразу відкрити й подивитися",
+       "Обернутися й показати тренерові",
+       "Стояти на місці стволами в бік поля, не відкривати й не чіпати запобіжник, доки не перевірить суддя",
+       "Поставити на запобіжник і знову подати команду"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Both rulebooks require the shooter to stay put until the referee inspects; opening or touching the safety first scores zero.",
+      "uk": "Обидва регламенти вимагають стояти, доки суддя не огляне рушницю; відкриття чи запобіжник до огляду — нуль."
+     }
+    },
+    {
+     "q": {
+      "en": "Someone shouts “Cease fire!”. What is the interpreter’s first job?",
+      "uk": "Хтось вигукує «Cease fire!». Яке перше завдання перекладача?"
+     },
+     "options": {
+      "en": [
+       "Repeat “Stop!” loudly and check that guests open their guns",
+       "Explain why shooting stopped",
+       "Ask the coach what happened",
+       "Wait until the guest asks"
+      ],
+      "uk": [
+       "Голосно повторити «Стоп!» і перевірити, що гості відкрили рушниці",
+       "Пояснити, чому зупинили стрільбу",
+       "Запитати тренера, що сталося",
+       "Чекати, поки гість запитає"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "An emergency stop is repeated at once; explanations come only when every gun is open.",
+      "uk": "Аварійну зупинку повторюють негайно; пояснення — лише тоді, коли всі рушниці відкриті."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "etiquette-on-the-stand",
+   "mission": "etiquette",
+   "minutes": 5,
+   "title": {
+    "en": "Around the stand: silence, distance, stillness",
+    "uk": "Біля позиції: тиша, відстань, нерухомість"
+   },
+   "body": {
+    "en": [
+     "A shooter on the stand needs total concentration, from loading to opening the gun after the last shot. The rules put the waiting places close to the stand but say they must not distract the shooter. In practice that means: quiet voices or none, no sudden movement in the shooter’s field of view, guns open, and phones silent and in a pocket. The rules do not mention phones, but every ground expects this courtesy.",
+     "Stay behind the shooter, never beside or in front of the stand. In Compak® Sporting a Firing Angle Limiter frame limits the swing of each shooter; in Parcours de Chasse – Sporting™ the stands on many grounds have a cage. Everyone else waits behind it, out of any possible line of the barrels. In Compak® the waiting shooter stands behind station 1, and a shooter who has finished waits without disturbing the next one.",
+     "Disturbing a shooter has rule consequences. If the referee sees that a shooter was clearly disturbed, the target is a No Bird and is thrown again. Simulated shooting while a squad member shoots is not allowed. Only the shooter whose turn it is shoots, and only at his or her own target.",
+     "For you this lesson is practical. Stop talking when your guest steps onto the stand, even in the middle of a sentence. Do not answer questions while the gun is closed. Speak again only when the gun is open: between targets, between pairs, or after the stand. A missed piece of advice costs less than a pair spoiled by your voice."
+    ],
+    "uk": [
+     "Стрільцеві на позиції потрібна повна зосередженість — від заряджання до відкриття рушниці після останнього пострілу. Правила розміщують місця очікування поблизу позиції, але вимагають, щоб вони не заважали стрільцеві. На практиці це означає: тихо або мовчки, жодних різких рухів у полі зору стрільця, рушниці відкриті, телефони беззвучні й у кишені. Правила про телефони не згадують, але цієї ввічливості чекають на кожному стрільбищі.",
+     "Стійте позаду стрільця, ніколи не збоку й не попереду позиції. У Compak® Sporting кожну позицію обмежує рама-обмежувач кута стрільби (Firing Angle Limiter), у Parcours de Chasse – Sporting™ на багатьох стрільбищах позиції мають захисну раму (cage). Усі інші чекають позаду неї, поза будь-якою можливою лінією стволів. У Compak® стрілець, що чекає, стоїть позаду позиції 1, а той, хто відстріляв, чекає, не заважаючи наступному.",
+     "Завадити стрільцеві — це наслідки за правилами. Якщо суддя бачить, що стрільцеві явно завадили, мішень оголошують No Bird і запускають знову. Імітувати стрільбу, поки стріляє учасник групи, не можна. Стріляє лише той, чия черга, і лише по своїй мішені.",
+     "Для вас цей урок практичний. Замовкніть, щойно гість ступив на позицію, навіть посеред речення. Не відповідайте на запитання, поки рушниця закрита. Говоріть знову лише тоді, коли рушниця відкрита: між мішенями, між дуплетами або після позиції. Пропущена порада коштує менше, ніж дуплет, зіпсований вашим голосом."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Quiet, still, guns open, phones silent behind the shooter",
+     "Stand behind the stand, cage or F.A.L., never beside or in front",
+     "A clearly disturbed shooter gets a No Bird",
+     "No simulated shooting while someone else shoots",
+     "Interpreter: speak only when the gun is open"
+    ],
+    "uk": [
+     "Позаду стрільця: тиша, нерухомість, рушниці відкриті, телефони беззвучні",
+     "Стійте позаду позиції, рами (cage) чи F.A.L., ніколи не збоку й не попереду",
+     "Явно завадили стрільцеві — No Bird",
+     "Не імітувати стрільбу, поки стріляє інший",
+     "Перекладач говорить лише тоді, коли рушниця відкрита"
+    ]
+   },
+   "terms": [
+    "quiet-on-stand",
+    "shooting-stand",
+    "conduct",
+    "no-bird",
+    "mock-shooting",
+    "rotation"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-waiting-positions"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-cases"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-own-turn-live-animals"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-ready-when-called"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-mock-shooting"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-fal"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-squad-rotation"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-target-no-bird-cases"
+    },
+    {
+     "book": "compak",
+     "id": "ch24-dry-mounting"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-shooting-conduct"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Let’s Go Shooting — Discover Sporting Clays: NSCA beginner’s guide",
+     "url": "https://www.letsgoshooting.org/resources/articles/shotgun/discover-sporting-clays-nsca-beginners-guide/"
+    },
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Quiet behind, please — she’s on.",
+     "meaning": {
+      "en": "The shooter is on the stand; everyone stops talking.",
+      "uk": "Стрілець на позиції; усі замовкають."
+     },
+     "say": {
+      "uk": "Тихо позаду, будь ласка, — вона стріляє."
+     }
+    },
+    {
+     "en": "Wait until he’s opened his gun.",
+     "meaning": {
+      "en": "Nobody talks or moves until the shooter has finished and opened the gun.",
+      "uk": "Ніхто не говорить і не рухається, доки стрілець не закінчить і не відкриє рушницю."
+     },
+     "say": {
+      "uk": "Зачекайте, поки він відкриє рушницю."
+     }
+    },
+    {
+     "en": "Stand right behind me so you can see what I see.",
+     "meaning": {
+      "en": "In training the coach wants you directly behind, out of the swing.",
+      "uk": "На тренуванні тренер хоче, щоб ви стояли просто за ним, поза рухом стволів."
+     },
+     "say": {
+      "uk": "Станьте просто за мною, щоб бачити те саме, що і я."
+     }
+    },
+    {
+     "en": "Keep out of his line, please.",
+     "meaning": {
+      "en": "You are in the shooter’s view or near the barrels’ path; move back.",
+      "uk": "Ви в полі зору стрільця або близько до руху стволів; відійдіть назад."
+     },
+     "say": {
+      "uk": "Відійдіть з його лінії, будь ласка."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Where does the interpreter stand while the guest is shooting?",
+      "uk": "Де стоїть перекладач, коли гість стріляє?"
+     },
+     "options": {
+      "en": [
+       "Beside the shooter, to see his face",
+       "In front of the stand, to see the target",
+       "Behind the stand, out of any line of the barrels",
+       "Wherever the referee cannot see"
+      ],
+      "uk": [
+       "Збоку від стрільця, щоб бачити обличчя",
+       "Перед позицією, щоб бачити мішень",
+       "Позаду позиції, поза будь-якою лінією стволів",
+       "Там, де не бачить суддя"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Everyone waits behind the stand or cage; beside the shooter is the most dangerous place.",
+      "uk": "Усі чекають позаду позиції чи рами (cage); збоку від стрільця — найнебезпечніше місце."
+     }
+    },
+    {
+     "q": {
+      "en": "A loud phone call behind the stand clearly disturbs the shooter at the moment of the shot. What may the referee decide?",
+      "uk": "Гучна телефонна розмова позаду позиції явно завадила стрільцеві в момент пострілу. Що може вирішити суддя?"
+     },
+     "options": {
+      "en": [
+       "No Bird: the target is thrown again",
+       "Zero for the shooter",
+       "Nothing, phones are not in the rules",
+       "Yellow card for the shooter"
+      ],
+      "uk": [
+       "No Bird: мішень запустять знову",
+       "Нуль стрільцеві",
+       "Нічого, телефонів немає в правилах",
+       "Жовта картка стрільцеві"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "If the referee sees the shooter was clearly disturbed, the target is a No Bird.",
+      "uk": "Якщо суддя бачить, що стрільцеві явно завадили, мішень — No Bird."
+     }
+    },
+    {
+     "q": {
+      "en": "When is the right moment to pass on the coach’s comment?",
+      "uk": "Коли слушний момент передати коментар тренера?"
+     },
+     "options": {
+      "en": [
+       "While the shooter is calling",
+       "Between the call and the shot",
+       "Whenever the coach finishes speaking",
+       "When the gun is open: between targets, pairs or after the stand"
+      ],
+      "uk": [
+       "Поки стрілець подає команду",
+       "Між командою та пострілом",
+       "Щойно тренер договорив",
+       "Коли рушниця відкрита: між мішенями, дуплетами чи після позиції"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The shooter’s routine must not be interrupted; speak only once the gun is open.",
+      "uk": "Підготовку стрільця не можна переривати; говоріть лише тоді, коли рушниця відкрита."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "etiquette-squad",
+   "mission": "etiquette",
+   "minutes": 5,
+   "title": {
+    "en": "Manners in a squad",
+    "uk": "Манери в групі"
+   },
+   "body": {
+    "en": [
+     "A squad is up to six shooters drawn by lot who shoot together. Punctuality is the first courtesy and also a rule. In Parcours de Chasse – Sporting™ a missing shooter is called three times within one minute, and targets not shot are scored zero. In Compak® Sporting a shooter who arrives after the first shooter of the squad has called gets 25 zeros for the round, and reporting to the referee beforehand is compulsory.",
+     "Order matters. In Sporting™ the order rotates at each stand and for the doubles; in Compak® shooters move one station to the right after each series. Nobody steps onto the stand until the previous shooter has left it. When called, a shooter is ready at once, with enough cartridges for the whole round.",
+     "The referee decides alone. Squad members do not comment on whether a target was hit unless the referee asks them. Open criticism of a ruling, from shooters or spectators, counts as an attempt to influence the referee. Losing self-control, such as throwing a gun or abusing anyone, goes to the jury and can mean expulsion.",
+     "Beyond the rules there are customs. Shooters usually greet the referee and squad at the start, say “good shot” or “well shot” after a good stand, and “bad luck” after a miss, but never comment on a stranger’s technique. A word of thanks to the trapper and referee at the end, a handshake, and calm when results go up are common on many grounds. Translate these courtesies warmly; they matter."
+    ],
+    "uk": [
+     "Група (squad) — до шести стрільців, визначених жеребом, які стріляють разом. Пунктуальність — перша ввічливість і водночас правило. У Parcours de Chasse – Sporting™ відсутнього стрільця викликають тричі протягом хвилини, а непостріляні мішені зараховують як нулі. У Compak® Sporting стрілець, що прийшов після команди першого стрільця групи, отримує 25 нулів за раунд, а відмітитися в судді перед раундом там обов’язково.",
+     "Порядок важливий. У Sporting™ черговість змінюється на кожній позиції й для дуплетів; у Compak® після кожної серії стрільці переходять на одну позицію праворуч. Ніхто не ступає на позицію, доки попередній стрілець не зійшов. Коли стрільця викликали, він готовий одразу, із запасом набоїв на весь раунд.",
+     "Суддя вирішує сам. Учасники групи не коментують, чи збита мішень, якщо суддя їх не запитав. Відкрита критика рішення — від стрільців чи глядачів — вважається спробою вплинути на суддю. Втрата самоконтролю, як-от кидання рушниці чи образи, передається журі й може закінчитися виключенням.",
+     "Крім правил, є звичаї. Стрільці зазвичай вітаються із суддею та групою на початку, після вдалої позиції кажуть «good shot» або «well shot», після промаху — «bad luck», але ніколи не коментують техніку незнайомих людей. Подяка операторові машинки й судді наприкінці, рукостискання й спокій, коли вивішують результати, — звичні на багатьох стрільбищах. Перекладайте ці ввічливості тепло: вони важать."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Be on time and report to the referee; lateness costs zeros",
+     "Follow the rotation; step up only when the stand is free",
+     "Only the referee rules; no comments on hits",
+     "Losing self-control can mean expulsion",
+     "Customs: greet, “well shot”, thank the trapper and referee"
+    ],
+    "uk": [
+     "Приходьте вчасно й відмічайтеся в судді; запізнення коштує нулів",
+     "Дотримуйтеся черговості; ступайте на позицію, лише коли вона вільна",
+     "Вирішує тільки суддя; жодних коментарів щодо влучань",
+     "Втрата самоконтролю може означати виключення",
+     "Звичаї: привітатися, «well shot», подякувати операторові й судді"
+    ]
+   },
+   "terms": [
+    "squad",
+    "rotation",
+    "referee",
+    "trapper",
+    "conduct",
+    "round"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch16-squads"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-late-shooter"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-ready-when-called"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-referee-alone"
+    },
+    {
+     "book": "sporting",
+     "id": "ch11-influence"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-loss-of-control"
+    },
+    {
+     "book": "compak",
+     "id": "ch8-shooting-times"
+    },
+    {
+     "book": "compak",
+     "id": "ch9-late-squad"
+    },
+    {
+     "book": "compak",
+     "id": "ch9-ready"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-squad-rotation"
+    },
+    {
+     "book": "compak",
+     "id": "ch22-influence"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-loss-of-control"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    },
+    {
+     "title": "Let’s Go Shooting — Discover Sporting Clays: NSCA beginner’s guide",
+     "url": "https://www.letsgoshooting.org/resources/articles/shotgun/discover-sporting-clays-nsca-beginners-guide/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Number twelve — last call!",
+     "meaning": {
+      "en": "The referee is calling a missing shooter; if he does not come, his targets will be zeros.",
+      "uk": "Суддя викликає відсутнього стрільця; якщо той не прийде, його мішені стануть нулями."
+     },
+     "say": {
+      "uk": "Номер дванадцять — останній виклик!"
+     }
+    },
+    {
+     "en": "You’re next — get ready.",
+     "meaning": {
+      "en": "Prepare now: glasses, ears, cartridges, but do not step up until the stand is free.",
+      "uk": "Готуйтеся: окуляри, навушники, набої, але не ступайте на позицію, доки вона не звільниться."
+     },
+     "say": {
+      "uk": "Ви наступні — готуйтеся."
+     }
+    },
+    {
+     "en": "Well shot!",
+     "meaning": {
+      "en": "Sincere praise after a good target or stand.",
+      "uk": "Щира похвала після вдалої мішені чи позиції."
+     },
+     "say": {
+      "uk": "Чудовий постріл!"
+     }
+    },
+    {
+     "en": "Bad luck.",
+     "meaning": {
+      "en": "Friendly sympathy after a miss, not criticism.",
+      "uk": "Дружнє співчуття після промаху, а не критика."
+     },
+     "say": {
+      "uk": "Не пощастило."
+     }
+    },
+    {
+     "en": "Thanks, ref — thanks for pulling.",
+     "meaning": {
+      "en": "Thanking the referee and the trapper at the end of the round.",
+      "uk": "Подяка судді й операторові машинки наприкінці раунду."
+     },
+     "say": {
+      "uk": "Дякуємо судді й операторові машинки!"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Compak® Sporting, squad shooting: your guest arrives after the first shooter of his squad has called for the first target. What happens?",
+      "uk": "Compak® Sporting, стрільба групою: ваш гість прийшов після того, як перший стрілець групи подав команду на першу мішень. Що буде?"
+     },
+     "options": {
+      "en": [
+       "He joins at the next station",
+       "He gets 25 zeros for that round",
+       "He shoots last without penalty",
+       "The round is restarted"
+      ],
+      "uk": [
+       "Приєднується на наступній позиції",
+       "Отримує 25 нулів за цей раунд",
+       "Стріляє останнім без штрафу",
+       "Раунд починають заново"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "In Compak® squad shooting the deadline is the first call of the squad; after it the late shooter scores 25 zeros (an appeal to the jury is possible).",
+      "uk": "У Compak® межа — перша команда групи; після неї запізнілий отримує 25 нулів (можна звернутися до журі)."
+     }
+    },
+    {
+     "q": {
+      "en": "A squad-mate loudly tells the referee he is wrong about a hit. How do the rules see this?",
+      "uk": "Учасник групи голосно каже судді, що той помилився щодо влучання. Як це оцінюють правила?"
+     },
+     "options": {
+      "en": [
+       "As helpful information",
+       "As a formal protest",
+       "As an attempt to influence the referee",
+       "As nothing at all"
+      ],
+      "uk": [
+       "Як корисну інформацію",
+       "Як офіційний протест",
+       "Як спробу вплинути на суддю",
+       "Ніяк"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Others openly criticising a ruling without the referee’s permission count as an attempt to influence; only the shooter concerned may protest.",
+      "uk": "Відкрита критика рішення іншими без дозволу судді — спроба вплинути на суддю; протест може заявити лише сам стрілець."
+     }
+    },
+    {
+     "q": {
+      "en": "In Parcours de Chasse – Sporting™, how does the shooting order work in a squad?",
+      "uk": "Як визначається черговість у групі в Parcours de Chasse – Sporting™?"
+     },
+     "options": {
+      "en": [
+       "It rotates at each stand and for the doubles",
+       "It is fixed for the whole day",
+       "The best shooter always starts",
+       "The referee chooses freely"
+      ],
+      "uk": [
+       "Змінюється на кожній позиції й для дуплетів",
+       "Фіксована на весь день",
+       "Завжди починає найкращий",
+       "Суддя обирає довільно"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Squads of six are drawn, and the order rotates at each stand and also for the doubles.",
+      "uk": "Групи по шість визначають жеребом, а черговість змінюється на кожній позиції й для дуплетів."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "etiquette-protection-and-dress",
+   "mission": "etiquette",
+   "minutes": 5,
+   "title": {
+    "en": "Ears, eyes and dress — yours too",
+    "uk": "Слух, очі й одяг — і ваші теж"
+   },
+   "body": {
+    "en": [
+     "Hearing protection is compulsory for everyone on or near a layout: shooters, referees, staff and spectators. In Parcours de Chasse – Sporting™ safety glasses are compulsory, without exception, for shooters, referees, staff and anyone close to a stand. In Compak® Sporting the eyewear rule names competitors, referees and staff. A shooter who comes onto the stand without either is treated as absent.",
+     "That includes you. Standing behind the stand, you are “near a layout”. Electronic ear muffs are the interpreter’s best tool: they soften the shot but let voices through, so you hear the coach and the referee. Clear or tinted shooting glasses also protect you from falling target fragments; a cap helps too.",
+     "The dress code is about safety and respect. No short shorts: only long Bermuda-type shorts ending no more than 5 cm above the knee. Shirts need at least short sleeves and a collar or a round, T-shirt-style neck; a vest over a bare chest is not allowed. Sandals are banned, and in Compak® this applies in practice as well as in competition. The competitor number is worn on the back, between the shoulders and the waist, fully visible, not folded or cut.",
+     "A first breach of dress or number rules brings a warning; if it is not corrected, penalties follow up to exclusion by the jury. At ceremonies team members wear the national team outfit or smart trousers and a blazer, and all prize winners must attend the prize-giving. Dress like a calm professional: closed shoes, neutral clothes, nothing that flaps or shines in the shooter’s eyes."
+    ],
+    "uk": [
+     "Захист слуху обов’язковий для всіх, хто на майданчику чи поблизу: стрільців, суддів, персоналу й глядачів. У Parcours de Chasse – Sporting™ захисні окуляри обов’язкові без винятків для стрільців, суддів, персоналу й усіх, хто стоїть біля позиції. У Compak® Sporting правило про окуляри називає учасників, суддів і персонал. Стрільця, що вийшов на позицію без того чи іншого, вважають відсутнім.",
+     "Це стосується й вас. Стоячи позаду позиції, ви перебуваєте «поблизу майданчика». Електронні навушники — найкращий інструмент перекладача: вони приглушують постріл, але пропускають голоси, тож ви чуєте і тренера, і суддю. Прозорі чи тоновані стрілецькі окуляри захистять і від уламків мішеней, що падають згори; допоможе й кепка.",
+     "Дрес-код — це безпека й повага. Жодних коротких шортів: лише довгі шорти-бермуди, що закінчуються не вище ніж за 5 см над коліном. Сорочка чи футболка — щонайменше з короткими рукавами й комірцем або круглим вирізом; жилет на голе тіло заборонено. Сандалі заборонені, а в Compak® — і на тренуваннях, і на змаганнях. Стартовий номер носять на спині, між плечима й талією, повністю видимим, не складеним і не обрізаним.",
+     "Перше порушення правил щодо одягу чи номера — попередження; якщо його не виправили, далі покарання аж до виключення рішенням журі. На церемоніях члени команд носять форму збірної або охайні штани й блейзер, а всі призери мусять бути на нагородженні. Вдягайтеся як спокійний професіонал: закрите взуття, нейтральний одяг, нічого, що тріпоче чи відблискує в очі стрільцеві."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Ear protection for everyone near a layout, spectators and interpreters included",
+     "Glasses: Sporting™ — anyone close to a stand; Compak® — competitors, referees, staff",
+     "Without them a shooter is treated as absent",
+     "Bermudas max 5 cm above the knee, sleeves, no bare chest under the vest, no sandals",
+     "Number on the back, fully visible; first breach = warning"
+    ],
+    "uk": [
+     "Захист слуху — для всіх біля майданчика, зокрема глядачів і перекладачів",
+     "Окуляри: Sporting™ — усі біля позиції; Compak® — учасники, судді, персонал",
+     "Без них стрільця вважають відсутнім",
+     "Бермуди не вище 5 см над коліном, рукави, без жилета на голе тіло, без сандалій",
+     "Номер на спині, повністю видимий; перше порушення — попередження"
+    ]
+   },
+   "terms": [
+    "hearing-protection",
+    "electronic-ear-muffs",
+    "earplugs",
+    "safety-glasses",
+    "dress-code",
+    "competitor-number",
+    "shooting-vest",
+    "prize-giving"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch8-hearing-protection"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-safety-glasses"
+    },
+    {
+     "book": "sporting",
+     "id": "ch17-dress-code"
+    },
+    {
+     "book": "sporting",
+     "id": "ch17-competitor-number"
+    },
+    {
+     "book": "sporting",
+     "id": "ch17-dress-penalties"
+    },
+    {
+     "book": "sporting",
+     "id": "ch17-ceremonies"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-hearing"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-eyewear"
+    },
+    {
+     "book": "compak",
+     "id": "ch7-dress-code"
+    },
+    {
+     "book": "compak",
+     "id": "ch7-competition-numbers"
+    },
+    {
+     "book": "compak",
+     "id": "ch7-ceremonies"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Let’s Go Shooting — Discover Sporting Clays: NSCA beginner’s guide",
+     "url": "https://www.letsgoshooting.org/resources/articles/shotgun/discover-sporting-clays-nsca-beginners-guide/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Eyes and ears on before you leave the clubhouse.",
+     "meaning": {
+      "en": "Put on glasses and hearing protection before walking out to the layouts.",
+      "uk": "Вдягніть окуляри й захист слуху ще до виходу на майданчики."
+     },
+     "say": {
+      "uk": "Окуляри й навушники — ще до виходу з клубу."
+     }
+    },
+    {
+     "en": "Where are your ears?",
+     "meaning": {
+      "en": "“Ears” = hearing protection, not the ears themselves.",
+      "uk": "«Ears» — це захист слуху, а не самі вуха."
+     },
+     "say": {
+      "uk": "Де ваші навушники?"
+     }
+    },
+    {
+     "en": "You can’t shoot in sandals here.",
+     "meaning": {
+      "en": "Closed shoes are required for safety.",
+      "uk": "З міркувань безпеки потрібне закрите взуття."
+     },
+     "say": {
+      "uk": "У сандалях тут стріляти не можна."
+     }
+    },
+    {
+     "en": "Your number’s folded — it has to be fully visible.",
+     "meaning": {
+      "en": "The competitor number on the back must be complete and visible; otherwise a warning.",
+      "uk": "Номер на спині має бути цілим і видимим; інакше попередження."
+     },
+     "say": {
+      "uk": "Ваш номер складений — він має бути повністю видимим."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Your shooter walks onto the stand without safety glasses. How do the rules treat him?",
+      "uk": "Ваш стрілець вийшов на позицію без захисних окулярів. Як його розглядають правила?"
+     },
+     "options": {
+      "en": [
+       "He gets a warning and may shoot",
+       "He may shoot if the coach agrees",
+       "He loses one target",
+       "He is treated as absent"
+      ],
+      "uk": [
+       "Отримує попередження й може стріляти",
+       "Може стріляти, якщо погодиться тренер",
+       "Втрачає одну мішень",
+       "Його вважають відсутнім"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "In both disciplines a shooter without eye or ear protection on the stand is treated as absent.",
+      "uk": "В обох дисциплінах стрільця без захисту очей чи слуху на позиції вважають відсутнім."
+     }
+    },
+    {
+     "q": {
+      "en": "Which shorts are allowed?",
+      "uk": "Які шорти дозволено?"
+     },
+     "options": {
+      "en": [
+       "Any sports shorts",
+       "Bermuda-type shorts ending no more than 5 cm above the knee",
+       "Shorts only in Compak®",
+       "No shorts at all"
+      ],
+      "uk": [
+       "Будь-які спортивні шорти",
+       "Бермуди, що закінчуються не вище ніж за 5 см над коліном",
+       "Шорти лише в Compak®",
+       "Жодних шортів узагалі"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Short shorts are banned; long Bermuda-type shorts no higher than 5 cm above the knee are accepted.",
+      "uk": "Короткі шорти заборонені; довгі бермуди не вище 5 см над коліном дозволені."
+     }
+    },
+    {
+     "q": {
+      "en": "Why are electronic ear muffs a good choice for an interpreter?",
+      "uk": "Чому електронні навушники — добрий вибір для перекладача?"
+     },
+     "options": {
+      "en": [
+       "They soften the shot but let voices through",
+       "They are not required for interpreters",
+       "They block all sound completely",
+       "They record the coach"
+      ],
+      "uk": [
+       "Вони приглушують постріл, але пропускають голоси",
+       "Перекладачам вони не потрібні",
+       "Вони повністю блокують звук",
+       "Вони записують тренера"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Hearing protection is compulsory near a layout, and electronic muffs let you hear the coach and referee.",
+      "uk": "Захист слуху обов’язковий біля майданчика, а електронні навушники дають чути тренера й суддю."
+     }
+    }
+   ],
+   "sim": null
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "show-clear",
+   "en": "show clear",
+   "def_en": "To open the gun so others can see the chambers are empty.",
+   "def_uk": "Відкрити рушницю, щоб інші бачили, що патронники порожні."
+  },
+  {
+   "id": "firing-angle-limiter",
+   "en": "Firing Angle Limiter (F.A.L.)",
+   "def_en": "Compulsory frame at each Compak® station that limits the swing to the sides and up and keeps the shooter inside the station.",
+   "def_uk": "Обов’язкова рама на кожній позиції Compak®, що обмежує рух рушниці вбік і вгору й тримає стрільця в межах позиції."
+  },
+  {
+   "id": "cage",
+   "en": "cage",
+   "def_en": "A frame around a shooting spot that physically stops the gun from swinging into an unsafe direction.",
+   "def_uk": "Рама навколо місця стрільця, що фізично не дає рушниці повернутися в небезпечний бік."
+  },
+  {
+   "id": "lateness",
+   "en": "lateness",
+   "def_en": "Not being ready when called; costs zeros (Compak® squad: 25 zeros for the round).",
+   "def_uk": "Неготовність на момент виклику; коштує нулів (Compak®, група: 25 нулів за раунд)."
+  }
+ ]
+}

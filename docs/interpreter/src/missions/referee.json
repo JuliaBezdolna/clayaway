@@ -1,0 +1,1277 @@
+{
+ "id": "referee",
+ "order": 10,
+ "icon": "whistle",
+ "title": {
+  "en": "Referee, scoring and penalties",
+  "uk": "Суддя, підрахунок і покарання"
+ },
+ "intro": {
+  "en": "In a competition the referee is the person whose words you will translate most often and most carefully. This mission gives you the spoken calls, the score card, the cards and penalties, the protest procedure and the age categories, so that every decision reaches your shooter exactly as it was made.",
+  "uk": "На змаганнях саме слова судді ви перекладатимете найчастіше й найуважніше. У цій місії — команди на позиції, картка результатів, картки й покарання, порядок протесту та вікові категорії, щоб кожне рішення доходило до вашого стрільця точно таким, яким його ухвалили."
+ },
+ "lessons": [
+  {
+   "id": "referee-calls",
+   "mission": "referee",
+   "minutes": 5,
+   "title": {
+    "en": "What the referee says on the stand",
+    "uk": "Що каже суддя на позиції"
+   },
+   "body": {
+    "en": [
+     "A stand has its own short language. The shooter gives the call when ready, usually “Pull!” or “Ready!”. In Parcours de Chasse – Sporting™ the referee passes that call to the trapper with a sound signal, and the target must leave within three seconds; a later target is a No Bird. In Compak® Sporting a manual release must also come within three seconds of the call, and a voice release (sonopull) has a fixed half-second delay.",
+     "Before anyone shoots, the referee controls the gun. Loading is allowed only on the stand, gun pointing down the range, once the referee has said shooting may start. While targets are being shown, and whenever shooting stops, guns are open and empty and are closed again only on the referee’s word. In Compak® the referee starts the round with “Start” or “Competition”.",
+     "After each target the rules know three results: “one” (hit), “zero” (lost) and “No Bird” (the target does not count and is thrown again). Around the world you will also hear “dead”, “good”, “lost” or simply silence for a hit. In Compak® the referee must announce every zero aloud or with a sound signal, so a shooter who disagrees can protest at once.",
+     "The shooter has one formal word too: with a raised hand, “Protest!” or “Appeal!”. When you interpret, keep these calls short and identical every time. Agree with your shooter before the round which words you will use, and never add anything of your own between the call and the shot."
+    ],
+    "uk": [
+     "На позиції своя коротка мова. Коли стрілець готовий, він подає команду — зазвичай «Pull!» або «Ready!». У Parcours de Chasse – Sporting™ суддя передає цю команду операторові машинки (trapper) звуковим сигналом, і мішень має вилетіти протягом трьох секунд; пізніша мішень — No Bird. У Compak® Sporting ручний випуск теж має відбутися протягом трьох секунд після команди, а голосовий (sonopull) має фіксовану затримку пів секунди.",
+     "Поки ніхто не стріляє, рушницею керує суддя. Заряджати можна лише на позиції, стволами в бік поля, після того як суддя дозволив почати стрільбу. Під час показу мішеней і при будь-якій перерві рушниці відкриті й розряджені, а закривають їх лише за словом судді. У Compak® суддя починає раунд словами «Start» або «Competition».",
+     "Правила знають три результати мішені: «one» (влучання), «zero» (промах) і «No Bird» (мішень не зараховують і запускають знову). На різних стрільбищах ви почуєте ще «dead», «good», «lost» або просто тишу після влучання. У Compak® суддя мусить оголошувати кожен нуль уголос або звуковим сигналом, щоб незгодний стрілець міг одразу заявити протест.",
+     "Стрілець теж має одне офіційне слово: з піднятою рукою — «Protest!» або «Appeal!». Перекладаючи, тримайте ці команди короткими й щоразу однаковими. Домовтеся зі стрільцем до раунду, якими словами користуєтеся, і нічого не додавайте від себе між командою та пострілом."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "The shooter calls “Pull!” or “Ready!”; the target must come within 3 seconds",
+     "Load only on the stand and only when the referee allows it; guns open during viewing and stops",
+     "Rule words: one = hit, zero = lost, No Bird = thrown again",
+     "Compak®: every zero is announced aloud or by a sound signal",
+     "Protest = raised hand + “Protest!” or “Appeal!”"
+    ],
+    "uk": [
+     "Стрілець подає «Pull!» або «Ready!»; мішень — протягом 3 секунд",
+     "Заряджати лише на позиції й лише з дозволу судді; під час показу й перерв рушниці відкриті",
+     "Слова правил: one — влучання, zero — промах, No Bird — повтор мішені",
+     "Compak®: кожен нуль оголошують уголос або звуковим сигналом",
+     "Протест — піднята рука і «Protest!» або «Appeal!»"
+    ]
+   },
+   "terms": [
+    "call",
+    "referee",
+    "trapper",
+    "sonopull",
+    "one",
+    "zero",
+    "no-bird",
+    "loading",
+    "target-presentation",
+    "protest"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch5-call-and-release"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-glossary"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-loading"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-presentation-interruption"
+    },
+    {
+     "book": "sporting",
+     "id": "ch5-referee-oath"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-how-to-appeal"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-trigger-manual"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-squad-show-targets"
+    },
+    {
+     "book": "compak",
+     "id": "ch15-zero-announce"
+    },
+    {
+     "book": "compak",
+     "id": "ch19-protest"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "You may load.",
+     "meaning": {
+      "en": "The referee allows shooting to start: put cartridges in now, gun pointing down the range.",
+      "uk": "Суддя дозволяє починати: заряджайте зараз, стволи в бік поля."
+     },
+     "say": {
+      "uk": "Можна заряджати."
+     }
+    },
+    {
+     "en": "No bird!",
+     "meaning": {
+      "en": "That target does not count; do not shoot at it. It will be thrown again.",
+      "uk": "Ця мішень не зараховується; по ній не стріляти. Її запустять знову."
+     },
+     "say": {
+      "uk": "No Bird — не стріляйте, мішень повторять."
+     }
+    },
+    {
+     "en": "Lost.",
+     "meaning": {
+      "en": "The referee scored the target as a miss (zero).",
+      "uk": "Суддя зарахував мішень як промах (нуль)."
+     },
+     "say": {
+      "uk": "Промах."
+     }
+    },
+    {
+     "en": "Dead. / Good.",
+     "meaning": {
+      "en": "The target is a hit (one).",
+      "uk": "Мішень збита (зараховано)."
+     },
+     "say": {
+      "uk": "Є. Зараховано."
+     }
+    },
+    {
+     "en": "Guns open, please — we’re showing the targets.",
+     "meaning": {
+      "en": "Everyone opens and unloads; the referee will throw the targets for viewing.",
+      "uk": "Усі відкривають і розряджають рушниці; суддя покаже мішені."
+     },
+     "say": {
+      "uk": "Відкрийте рушниці, будь ласка, — показуємо мішені."
+     }
+    },
+    {
+     "en": "Start. / Competition.",
+     "meaning": {
+      "en": "Compak®: viewing is over, the round counts from now.",
+      "uk": "Compak®: показ закінчено, з цієї миті раунд іде в залік."
+     },
+     "say": {
+      "uk": "Старт. Ідемо в залік."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "In Parcours de Chasse – Sporting™ the target leaves five seconds after the referee’s signal. What is the call?",
+      "uk": "У Parcours de Chasse – Sporting™ мішень вилетіла через п’ять секунд після сигналу судді. Яке рішення?"
+     },
+     "options": {
+      "en": [
+       "It counts as normal",
+       "No Bird",
+       "Zero, because the shooter called too early",
+       "A warning for the trapper only"
+      ],
+      "uk": [
+       "Зараховують як звичайну",
+       "No Bird",
+       "Нуль, бо стрілець рано подав команду",
+       "Лише попередження операторові"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "A target must leave within three seconds of the referee’s signal; a later one is a No Bird and is thrown again.",
+      "uk": "Мішень має вилетіти протягом трьох секунд після сигналу судді; пізніша — No Bird, її запускають знову."
+     }
+    },
+    {
+     "q": {
+      "en": "When may a shooter load the gun?",
+      "uk": "Коли стрілець може зарядити рушницю?"
+     },
+     "options": {
+      "en": [
+       "While walking to the stand",
+       "Behind the stand while waiting",
+       "On the stand, gun pointing down the range, after the referee allows shooting",
+       "Whenever the coach says so"
+      ],
+      "uk": [
+       "Дорогою до позиції",
+       "Позаду позиції під час очікування",
+       "На позиції, стволами в бік поля, після дозволу судді",
+       "Коли скаже тренер"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Loading is allowed only on the stand, pointing down the range, and only once the referee has authorised the start.",
+      "uk": "Заряджати можна лише на позиції, стволами в бік поля, і тільки після того, як суддя дозволив почати."
+     }
+    },
+    {
+     "q": {
+      "en": "Which word starts a formal protest on the stand?",
+      "uk": "Яким словом починають офіційний протест на позиції?"
+     },
+     "options": {
+      "en": [
+       "“Protest!” or “Appeal!” with a raised hand",
+       "“Pull!”",
+       "“No bird!”",
+       "“Referee, look!”"
+      ],
+      "uk": [
+       "«Protest!» або «Appeal!» з піднятою рукою",
+       "«Pull!»",
+       "«No bird!»",
+       "«Суддя, подивіться!»"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Both rulebooks name “protest” or “appeal” with a raised hand; “No bird” belongs to the referee alone.",
+      "uk": "Обидва регламенти називають «protest» або «appeal» з піднятою рукою; «No bird» оголошує тільки суддя."
+     }
+    }
+   ],
+   "sim": {
+    "type": "call"
+   }
+  },
+  {
+   "id": "referee-scoring",
+   "mission": "referee",
+   "minutes": 5,
+   "title": {
+    "en": "Score cards, results and ties",
+    "uk": "Картки результатів, підсумки й рівні результати"
+   },
+   "body": {
+    "en": [
+     "Every target ends up on a score card. In Parcours de Chasse – Sporting™ the referee keeps the card, or someone the referee supervises. The FITASC model shows the trap letter of every target, with X for a hit and O for a miss, a total and a signature column. Before the squad moves on, the referee photographs the card.",
+     "Shooters must check their score when leaving each stand. A disagreement goes to the referee at once; the referee decides, possibly after asking others, and after that there is no appeal. In Compak® Sporting the shooter signs the score sheet at the end of the round, and a shooter who refuses to sign loses the right to complain. Translate “check your card” as an urgent instruction, not a polite remark.",
+     "An international event is 200 targets in rounds of 25. When shooters tie for the first three places, they shoot a shoot-off of 25 targets; if they are still level, sudden death follows, where the first zero eliminates. Below third place there is no shoot-off: tied shooters share the place and are ordered by countback, from the last (eighth) layout or Compak® back to the first. Teams never shoot off.",
+     "Shoot-offs bring one more interpreter trap. If no time was fixed, the shooters must be ready within fifteen minutes of the call. A missing shooter is “disqualified” in the Sporting™ rules and “considered withdrawn” in the Compak® rules. Use the word of the discipline you are at."
+    ],
+    "uk": [
+     "Кожна мішень потрапляє в картку результатів. У Parcours de Chasse – Sporting™ картку веде суддя або людина під його наглядом. Зразок FITASC показує літеру машинки для кожної мішені: X — влучання, O — промах, а також суму й місце для підпису. Перш ніж група перейде далі, суддя фотографує картку.",
+     "Стрілець мусить перевірити свій результат, залишаючи кожну позицію. Незгоду висловлюють судді одразу; суддя вирішує, за потреби порадившись, і після цього оскарження немає. У Compak® Sporting стрілець підписує картку наприкінці раунду, а той, хто відмовився підписати, втрачає право на скаргу. Перекладайте «check your card» як термінову вказівку, а не як ввічливу пораду.",
+     "Міжнародні змагання — це 200 мішеней раундами по 25. Якщо в боротьбі за перші три місця результати рівні, стрільці проходять перестрілку (shoot-off) на 25 мішеней; якщо рівність зберігається — «раптова смерть» (sudden death): перший нуль вибуває. Нижче третього місця перестрілки немає: стрільці ділять місце, а порядок визначає зворотний підрахунок (countback) — від останнього, восьмого майданчика чи Compak® до першого. Команди не перестрілюються ніколи.",
+     "Перестрілка має ще одну пастку для перекладача. Якщо час не призначили заздалегідь, стрільці мусять бути готові за п’ятнадцять хвилин після виклику. Відсутнього у правилах Sporting™ «дискваліфікують», а в правилах Compak® — «вважають таким, що знявся». Вживайте слово тієї дисципліни, на якій працюєте."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "X = hit, O = miss on FITASC score cards",
+     "Sporting™: check your score when leaving each stand; Compak®: sign the sheet or lose the right to complain",
+     "Ties for places 1–3: 25-target shoot-off, then sudden death",
+     "Below 3rd: countback from the 8th layout or Compak®; no team shoot-offs",
+     "Ready within 15 minutes of a shoot-off call"
+    ],
+    "uk": [
+     "У картках FITASC: X — влучання, O — промах",
+     "Sporting™: перевіряйте результат, залишаючи кожну позицію; Compak®: підпишіть картку, інакше втратите право на скаргу",
+     "Рівність за 1–3 місця: перестрілка на 25 мішеней, потім sudden death",
+     "Нижче 3-го місця — countback від 8-го майданчика чи Compak®; команди не перестрілюються",
+     "Готовність за 15 хвилин після виклику на перестрілку"
+    ]
+   },
+   "terms": [
+    "score-sheet",
+    "round",
+    "one",
+    "zero",
+    "shoot-off",
+    "countback",
+    "team",
+    "referee"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch14-who-keeps-score"
+    },
+    {
+     "book": "sporting",
+     "id": "ch14-model"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-results-check"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-format"
+    },
+    {
+     "book": "sporting",
+     "id": "ch18-top-three"
+    },
+    {
+     "book": "sporting",
+     "id": "ch18-sudden-death"
+    },
+    {
+     "book": "sporting",
+     "id": "ch18-squad-and-timing"
+    },
+    {
+     "book": "sporting",
+     "id": "ch18-team-ties"
+    },
+    {
+     "book": "compak",
+     "id": "ch15-who-keeps"
+    },
+    {
+     "book": "compak",
+     "id": "ch15-zero-announce"
+    },
+    {
+     "book": "compak",
+     "id": "ch15-signing"
+    },
+    {
+     "book": "compak",
+     "id": "ch14-shootoff-medals"
+    },
+    {
+     "book": "compak",
+     "id": "ch14-shootoff-availability"
+    },
+    {
+     "book": "compak",
+     "id": "ch14-countback"
+    },
+    {
+     "book": "compak",
+     "id": "ch14-team-ties"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Check your card before you leave the stand.",
+     "meaning": {
+      "en": "Look at your marks now; later objections are not accepted.",
+      "uk": "Перевірте позначки зараз; пізніші заперечення не приймають."
+     },
+     "say": {
+      "uk": "Перевірте картку, поки не зійшли з позиції."
+     }
+    },
+    {
+     "en": "Sign here, please.",
+     "meaning": {
+      "en": "Compak®: signing confirms the score; refusing means losing the right to complain.",
+      "uk": "Compak®: підпис підтверджує результат; відмова означає втрату права на скаргу."
+     },
+     "say": {
+      "uk": "Підпишіть тут, будь ласка."
+     }
+    },
+    {
+     "en": "Twenty-three — you dropped two.",
+     "meaning": {
+      "en": "Score 23 of 25; two targets were lost.",
+      "uk": "Результат 23 з 25; дві мішені — промахи."
+     },
+     "say": {
+      "uk": "Двадцять три — два промахи."
+     }
+    },
+    {
+     "en": "There’s a tie for third — shoot-off in fifteen minutes.",
+     "meaning": {
+      "en": "Be at the named layout and ready to shoot within fifteen minutes.",
+      "uk": "За п’ятнадцять хвилин треба бути на вказаному майданчику й готовим стріляти."
+     },
+     "say": {
+      "uk": "Рівність за третє місце — перестрілка за п’ятнадцять хвилин."
+     }
+    },
+    {
+     "en": "Sudden death: first zero is out.",
+     "meaning": {
+      "en": "After the 25-target shoot-off, the first shooter to miss (with an equal number of targets shot) is eliminated.",
+      "uk": "Після перестрілки на 25 мішеней вибуває перший, хто промахнеться (за однакової кількості пострілених мішеней)."
+     },
+     "say": {
+      "uk": "Раптова смерть: перший нуль вибуває."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "On a FITASC score card, what does O mean?",
+      "uk": "Що означає O в картці результатів FITASC?"
+     },
+     "options": {
+      "en": [
+       "A hit",
+       "A No Bird",
+       "A miss",
+       "An empty stand"
+      ],
+      "uk": [
+       "Влучання",
+       "No Bird",
+       "Промах",
+       "Порожня позиція"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The FITASC model marks a hit with X and a miss with O.",
+      "uk": "У зразку FITASC влучання позначають X, а промах — O."
+     }
+    },
+    {
+     "q": {
+      "en": "Two shooters tie for 7th place. What happens?",
+      "uk": "Двоє стрільців мають однаковий результат за 7-ме місце. Що далі?"
+     },
+     "options": {
+      "en": [
+       "A 25-target shoot-off",
+       "Sudden death at once",
+       "A coin toss by the jury",
+       "They share the place and are ordered by countback"
+      ],
+      "uk": [
+       "Перестрілка на 25 мішеней",
+       "Одразу sudden death",
+       "Жереб журі",
+       "Ділять місце, порядок визначає countback"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Shoot-offs are only for places 1–3; below that, tied shooters are listed by countback from the eighth layout or Compak®.",
+      "uk": "Перестрілки бувають лише за 1–3 місця; нижче порядок визначає countback від восьмого майданчика чи Compak®."
+     }
+    },
+    {
+     "q": {
+      "en": "In Compak® Sporting your shooter refuses to sign the score sheet. What is the consequence?",
+      "uk": "У Compak® Sporting ваш стрілець відмовляється підписати картку. Який наслідок?"
+     },
+     "options": {
+      "en": [
+       "He loses the right to make any complaint",
+       "The round is shot again",
+       "The referee signs and nothing changes",
+       "He gets 25 zeros automatically"
+      ],
+      "uk": [
+       "Він втрачає право на будь-яку скаргу",
+       "Раунд перестрілюють",
+       "Підписує суддя, нічого не змінюється",
+       "Він автоматично отримує 25 нулів"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The Compak® rules say a shooter who refuses to sign loses the right to complain.",
+      "uk": "За правилами Compak® стрілець, що відмовився підписати картку, втрачає право на скаргу."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "referee-cards",
+   "mission": "referee",
+   "minutes": 5,
+   "title": {
+    "en": "Warnings, cards and penalties",
+    "uk": "Попередження, картки й покарання"
+   },
+   "body": {
+    "en": [
+     "FITASC penalties climb a ladder. By entering a competition a shooter accepts the rules and the sanctions. The first breach of a rule normally brings a warning, shown with a yellow card. In Parcours de Chasse – Sporting™ a classic example is the gun position: a stock above the line on the vest, or a gun mounted before the target appears, earns a verbal warning and a yellow card.",
+     "A repeat on the same layout (or the same Compak®) brings a red card, and the target is scored by a table: zero on a single, zero and No Bird on a double on report, zero and zero on a simultaneous or rafale double. The same scale applies to shooting at a declared No Bird and, in Sporting™, to exceeding fifteen seconds between targets. In Compak® Sporting the limit is ten seconds to call.",
+     "Coaching during a competition is penalised too: the shooter gets a yellow card, repeats lead to further sanctions, and the referee sends the person who coached out of the shooting area. For an interpreter this is the most important card in the book.",
+     "For repeat offences, refusal to comply or attempts to influence a referee, the jury can take away one target, a whole round of 25, or expel the shooter. Throwing a gun, abuse or violence, and deliberately shooting at live animals can mean immediate expulsion. An expulsion is recorded by FITASC for five years and brings no refund. Translate “warning”, “yellow card” and “red card” literally, calmly, and at once."
+    ],
+    "uk": [
+     "Покарання FITASC — це сходинки. Заявляючись на змагання, стрілець погоджується з правилами й санкціями. Перше порушення зазвичай означає попередження, яке супроводжує жовта картка. Класичний приклад у Parcours de Chasse – Sporting™ — положення рушниці: приклад вище позначки на жилеті або вкидка до появи мішені дають усне попередження й жовту картку.",
+     "Повторне порушення на тому самому майданчику (або тому самому Compak®) — червона картка, а мішень оцінюють за таблицею: нуль на одиночній, нуль і No Bird на дуплеті за пострілом (on report), нуль і нуль на одночасному дуплеті чи рафалі. Така сама шкала діє за постріл по оголошеному No Bird, а в Sporting™ — і за перевищення п’ятнадцяти секунд між мішенями. У Compak® Sporting на команду дається десять секунд.",
+     "Карають і за підказки тренера під час змагань: стрілець отримує жовту картку, за повтори — подальші санкції, а того, хто підказував, суддя видаляє із зони стрільби. Для перекладача це найважливіша картка в усьому регламенті.",
+     "За повторні порушення, відмову виконувати рішення чи спробу вплинути на суддю журі може зняти одну мішень, цілий раунд із 25 або виключити стрільця. Кидання рушниці, лайка чи насильство, а також навмисна стрільба по живих тваринах можуть означати негайне виключення. FITASC зберігає запис про виключення п’ять років, гроші не повертають. «Warning», «yellow card» і «red card» перекладайте дослівно, спокійно й одразу."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "First breach: warning with a yellow card",
+     "Repeat on the same layout or Compak®: red card + target scored by the table",
+     "Coaching in competition: yellow card for the shooter, coach removed",
+     "Jury scale: one target, one round, or expulsion",
+     "Expulsion: kept on record 5 years, no refund"
+    ],
+    "uk": [
+     "Перше порушення — попередження й жовта картка",
+     "Повтор на тому самому майданчику чи Compak® — червона картка й оцінка мішені за таблицею",
+     "Підказки під час змагань: жовта картка стрільцеві, тренера видаляють",
+     "Шкала журі: одна мішень, один раунд або виключення",
+     "Виключення: запис на 5 років, гроші не повертають"
+    ]
+   },
+   "terms": [
+    "yellow-card",
+    "red-card",
+    "penalty",
+    "ready-position",
+    "firing-time",
+    "jury",
+    "conduct"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch13-acceptance"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-yellow-card"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-red-card"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-shooting-nobird"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-fifteen-seconds"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-coaching"
+    },
+    {
+     "book": "sporting",
+     "id": "ch13-jury-penalties"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-loss-of-control"
+    },
+    {
+     "book": "sporting",
+     "id": "ch13-immediate-expulsion"
+    },
+    {
+     "book": "sporting",
+     "id": "ch13-expulsion-record"
+    },
+    {
+     "book": "sporting",
+     "id": "ch13-no-refund"
+    },
+    {
+     "book": "compak",
+     "id": "ch23-yellow-card"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-firing-time"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-penalty-table"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-coaching"
+    },
+    {
+     "book": "compak",
+     "id": "ch23-jury-sanctions"
+    },
+    {
+     "book": "compak",
+     "id": "ch23-exclusion-record"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Warning — your stock was above the line.",
+     "meaning": {
+      "en": "Sporting™: the gun was too high before the target appeared; next time on this layout it costs the target.",
+      "uk": "Sporting™: до появи мішені рушниця була зависоко; наступного разу на цьому майданчику це коштуватиме мішені."
+     },
+     "say": {
+      "uk": "Попередження — приклад був вище позначки."
+     }
+    },
+    {
+     "en": "That’s a yellow card.",
+     "meaning": {
+      "en": "An official first warning; it is recorded.",
+      "uk": "Офіційне перше попередження; його фіксують."
+     },
+     "say": {
+      "uk": "Це жовта картка."
+     }
+    },
+    {
+     "en": "Red card — the target is zero.",
+     "meaning": {
+      "en": "A repeat offence: the target is scored as lost.",
+      "uk": "Повторне порушення: мішень зараховано як промах."
+     },
+     "say": {
+      "uk": "Червона картка — мішень нуль."
+     }
+    },
+    {
+     "en": "You’re over time.",
+     "meaning": {
+      "en": "The shooter took longer than allowed (15 s in Sporting™, 10 s to call in Compak®).",
+      "uk": "Стрілець перевищив дозволений час (15 с у Sporting™, 10 с на команду в Compak®)."
+     },
+     "say": {
+      "uk": "Ви перевищили час."
+     }
+    },
+    {
+     "en": "Sir, please leave the shooting area.",
+     "meaning": {
+      "en": "The referee is removing someone, for example a person caught coaching.",
+      "uk": "Суддя видаляє когось, наприклад людину, що підказувала."
+     },
+     "say": {
+      "uk": "Прошу вас залишити зону стрільби."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Sporting™: after a yellow card for a mounted gun, the shooter mounts early again on the same layout, on a single. What is the result?",
+      "uk": "Sporting™: після жовтої картки за ранню вкидку стрілець знову рано вкидає рушницю на тому самому майданчику, на одиночній мішені. Результат?"
+     },
+     "options": {
+      "en": [
+       "Another warning",
+       "Red card and the target is zero",
+       "No Bird",
+       "Immediate expulsion"
+      ],
+      "uk": [
+       "Ще одне попередження",
+       "Червона картка й нуль за мішень",
+       "No Bird",
+       "Негайне виключення"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "After the first warning, a further offence on the same layout brings a red card; on a single the target is zero.",
+      "uk": "Після першого попередження наступне порушення на тому самому майданчику — червона картка; одиночна мішень — нуль."
+     }
+    },
+    {
+     "q": {
+      "en": "The referee sees a coach giving advice to a shooter during a competition. What do the rules say?",
+      "uk": "Суддя бачить, як тренер підказує стрільцеві під час змагань. Що кажуть правила?"
+     },
+     "options": {
+      "en": [
+       "Nothing, coaching is allowed between stands",
+       "The coach gets a red card",
+       "The shooter gets a yellow card and the coach is removed from the shooting area",
+       "The round is cancelled"
+      ],
+      "uk": [
+       "Нічого, між позиціями підказувати можна",
+       "Тренер отримує червону картку",
+       "Стрілець отримує жовту картку, тренера видаляють із зони стрільби",
+       "Раунд скасовують"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Both rulebooks give the competitor a yellow card and have the referee send the person coaching out of the shooting area.",
+      "uk": "Обидва регламенти передбачають жовту картку стрільцеві, а людину, що підказувала, суддя видаляє із зони стрільби."
+     }
+    },
+    {
+     "q": {
+      "en": "Which of these can the jury NOT impose under the penalty scale?",
+      "uk": "Що з переліченого журі НЕ може призначити за шкалою покарань?"
+     },
+     "options": {
+      "en": [
+       "Loss of one target",
+       "Loss of a round of 25",
+       "Expulsion",
+       "A cash fine paid to the referee"
+      ],
+      "uk": [
+       "Зняття однієї мішені",
+       "Зняття раунду з 25 мішеней",
+       "Виключення",
+       "Грошовий штраф на користь судді"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The jury’s scale is loss of a target, loss of a round, or expulsion; there is no fine to the referee.",
+      "uk": "Шкала журі — зняття мішені, зняття раунду або виключення; штрафу на користь судді немає."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "referee-appeals",
+   "mission": "referee",
+   "minutes": 5,
+   "title": {
+    "en": "Protests, deposits and the jury",
+    "uk": "Протести, застава і журі"
+   },
+   "body": {
+    "en": [
+     "A protest must happen on the spot. The shooter raises a hand and says “Protest!” or “Appeal!” on the stand, before calling the next target (in Compak® Sporting, before the next shooter calls). The referee stops the shooting and listens to the reason. By calling the next target the shooter accepts the previous ruling, so as an interpreter you must be fast here.",
+     "If the referee is sure, the decision is confirmed and becomes final. If in doubt, the referee may ask another referee, the trapper or the squad’s shooters, purely for advice, and then decides alone. Shooters may never walk out or pick up a target to check it, and a target broken behind a natural obstacle or beyond a shooting limit is the referee’s call.",
+     "Some decisions can never go to the jury: whether a target was one or zero, a No Bird, and whether a trajectory was correct. Other decisions can be appealed to the jury in writing with a deposit: in Parcours de Chasse – Sporting™ it is 40% of the entry fee; in Compak® the amount in force on the day, and only about incidents of the same day. If the appeal succeeds, the deposit is returned.",
+     "After the final ruling the shooter must resume within fifteen seconds in Sporting™ and ten in Compak®; otherwise it is a refusal to comply. Continuing to argue, challenging the referee for show, or other people openly criticising a ruling counts as an attempt to influence the referee. Your job is to translate the protest and the answer accurately, not to argue the case."
+    ],
+    "uk": [
+     "Протест заявляють негайно. Стрілець на позиції піднімає руку й каже «Protest!» або «Appeal!» — до того, як подасть команду на наступну мішень (у Compak® Sporting — до команди наступного стрільця). Суддя зупиняє стрільбу й вислуховує причину. Подавши команду на наступну мішень, стрілець погоджується з попереднім рішенням, тож тут перекладач має бути швидким.",
+     "Якщо суддя впевнений, рішення підтверджують, і воно стає остаточним. Якщо є сумнів, суддя може запитати іншого суддю, оператора машинки або стрільців групи — лише для поради, — і далі вирішує сам. Стрільцям не можна виходити в поле чи піднімати мішень для перевірки, а мішень, збита за природною перешкодою або поза межею стрільби, — на розсуд судді.",
+     "Деякі рішення ніколи не потрапляють до журі: чи мішень «one» чи «zero», No Bird і чи правильна траєкторія. Інші рішення можна оскаржити в журі письмово із заставою: у Parcours de Chasse – Sporting™ — 40% стартового внеску; у Compak® — сума, чинна в день змагань, і тільки щодо подій того самого дня. Якщо скаргу задовольнили, заставу повертають.",
+     "Після остаточного рішення стрілець має продовжити стрільбу протягом п’ятнадцяти секунд у Sporting™ і десяти в Compak®; інакше це відмова виконувати рішення. Подальші суперечки, показне оскарження чи відкрита критика рішення з боку інших вважаються спробою вплинути на суддю. Ваше завдання — точно перекласти протест і відповідь, а не відстоювати позицію."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Protest immediately, on the stand, hand raised: “Protest!” / “Appeal!”",
+     "Calling the next target = accepting the previous ruling",
+     "Never appealable: one/zero, No Bird, correct trajectory",
+     "Written appeal to the jury with a deposit (Sporting™: 40% of the entry fee)",
+     "Resume within 15 s (Sporting™) or 10 s (Compak®); further arguing = influencing the referee"
+    ],
+    "uk": [
+     "Протест — одразу, на позиції, з піднятою рукою: «Protest!» / «Appeal!»",
+     "Команда на наступну мішень — згода з попереднім рішенням",
+     "Ніколи не оскаржують: one/zero, No Bird, правильність траєкторії",
+     "Письмова скарга в журі із заставою (Sporting™: 40% стартового внеску)",
+     "Продовжити за 15 с (Sporting™) або 10 с (Compak®); подальші суперечки — спроба вплинути на суддю"
+    ]
+   },
+   "terms": [
+    "protest",
+    "appeal",
+    "jury",
+    "referee",
+    "entry-fee",
+    "no-bird",
+    "trajectory"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch9-how-to-appeal"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-no-checking-targets"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-visible-break"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-consultation"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-jury-appeal"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-deposit-outcome"
+    },
+    {
+     "book": "sporting",
+     "id": "ch10-resume-15s"
+    },
+    {
+     "book": "sporting",
+     "id": "ch11-influence"
+    },
+    {
+     "book": "sporting",
+     "id": "ch15-appeal-jury"
+    },
+    {
+     "book": "compak",
+     "id": "ch19-protest"
+    },
+    {
+     "book": "compak",
+     "id": "ch19-consultation"
+    },
+    {
+     "book": "compak",
+     "id": "ch4-complaint-limits"
+    },
+    {
+     "book": "compak",
+     "id": "ch4-complaint-procedure"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-refusal-to-comply"
+    },
+    {
+     "book": "compak",
+     "id": "ch22-influence"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines (presentation page)",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Protest! The target was broken before I fired.",
+     "meaning": {
+      "en": "The shooter formally challenges the ruling and gives the reason (here: a broken target was thrown).",
+      "uk": "Стрілець офіційно оскаржує рішення й називає причину (тут: вилетіла вже розбита мішень)."
+     },
+     "say": {
+      "uk": "Протест! Мішень була розбита ще до пострілу."
+     }
+    },
+    {
+     "en": "I’m certain — the decision stands.",
+     "meaning": {
+      "en": "The referee confirms; the ruling is final.",
+      "uk": "Суддя підтверджує; рішення остаточне."
+     },
+     "say": {
+      "uk": "Я впевнений — рішення залишається в силі."
+     }
+    },
+    {
+     "en": "Did anyone see a piece come off?",
+     "meaning": {
+      "en": "The referee is in doubt and asks the squad for advice only; the referee still decides.",
+      "uk": "Суддя сумнівається й питає групу лише для поради; вирішує все одно він."
+     },
+     "say": {
+      "uk": "Хтось бачив, чи відлетів шматок?"
+     }
+    },
+    {
+     "en": "You can take it to the jury in writing, with the deposit.",
+     "meaning": {
+      "en": "This decision is appealable; a written appeal and a deposit are needed.",
+      "uk": "Це рішення можна оскаржити; потрібна письмова скарга й застава."
+     },
+     "say": {
+      "uk": "Можете письмово звернутися до журі, внісши заставу."
+     }
+    },
+    {
+     "en": "Please carry on shooting.",
+     "meaning": {
+      "en": "The ruling is final; resume now or it becomes a refusal to comply.",
+      "uk": "Рішення остаточне; продовжуйте зараз, інакше це буде відмова виконувати рішення."
+     },
+     "say": {
+      "uk": "Продовжуйте стрільбу, будь ласка."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Your shooter thinks a target scored zero was hit, but has already called the next target. Can he still protest that ruling?",
+      "uk": "Ваш стрілець вважає, що мішень, зараховану як нуль, він збив, але вже подав команду на наступну. Чи може він ще оскаржити те рішення?"
+     },
+     "options": {
+      "en": [
+       "Yes, at the end of the round",
+       "Yes, in writing to the jury",
+       "No: calling the next target means accepting the previous ruling",
+       "Yes, if the squad agrees"
+      ],
+      "uk": [
+       "Так, наприкінці раунду",
+       "Так, письмово в журі",
+       "Ні: команда на наступну мішень означає згоду з попереднім рішенням",
+       "Так, якщо група погодиться"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "By calling the next target the shooter accepts the previous ruling, and one/zero decisions never go to the jury anyway.",
+      "uk": "Подавши команду на наступну мішень, стрілець приймає попереднє рішення, а рішення one/zero до журі не подають узагалі."
+     }
+    },
+    {
+     "q": {
+      "en": "Which decision CAN be appealed to the jury?",
+      "uk": "Яке рішення МОЖНА оскаржити в журі?"
+     },
+     "options": {
+      "en": [
+       "Whether a target was one or zero",
+       "A No Bird",
+       "Whether a trajectory was correct",
+       "Another referee decision, such as a lateness penalty"
+      ],
+      "uk": [
+       "Чи мішень one чи zero",
+       "No Bird",
+       "Чи правильна траєкторія",
+       "Інше рішення судді, наприклад штраф за запізнення"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "One/zero, No Bird and trajectory decisions are final; other referee decisions may go to the jury in writing with a deposit.",
+      "uk": "Рішення щодо one/zero, No Bird і траєкторії остаточні; інші рішення судді можна оскаржити в журі письмово із заставою."
+     }
+    },
+    {
+     "q": {
+      "en": "In Parcours de Chasse – Sporting™, how big is the deposit for a written appeal to the jury?",
+      "uk": "Яка застава за письмову скаргу до журі в Parcours de Chasse – Sporting™?"
+     },
+     "options": {
+      "en": [
+       "40% of the entry fee",
+       "The full entry fee",
+       "A fixed 50 euros",
+       "No deposit is needed"
+      ],
+      "uk": [
+       "40% стартового внеску",
+       "Повний стартовий внесок",
+       "Фіксовані 50 євро",
+       "Застава не потрібна"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The Sporting™ rules set the deposit at 40% of the entry fee; it is returned if the jury agrees with the shooter.",
+      "uk": "Правила Sporting™ встановлюють заставу 40% стартового внеску; її повертають, якщо журі погодиться зі стрільцем."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "referee-categories",
+   "mission": "referee",
+   "minutes": 5,
+   "title": {
+    "en": "Categories: Junior, Lady, Men, Senior, Veteran, Master",
+    "uk": "Категорії: Junior, Lady, Men, Senior, Veteran, Master"
+   },
+   "body": {
+    "en": [
+     "Besides the open ranking, where everyone competes together, FITASC events rank shooters in categories by age and sex. From 1 January 2027 the international table for Parcours de Chasse – Sporting™ and Compak® Sporting has six categories: Junior (13–20), Lady (from 13), Men (21–55), Senior (56–65), Veteran (66–72) and Master (from 73, men and women). For events before that date, check the table then in force on the FITASC website.",
+     "What counts is the year of birth, not the birthday. A shooter moves into a new category on 1 January of the year in which he or she reaches the age. For the 2027 season this means: Junior born 2007–2014, Men born 1972–2006, Senior 1962–1971, Veteran 1955–1961, Master born before 1955. The limits move on by one year every season.",
+     "The biggest interpreter trap is “Senior”. In everyday English it sounds like “adult”, but in FITASC Senior means the 56–65 age group; the main adult category is Men. Do not translate it as «дорослі». “Master” is another trap: the FITASC age category from 73 has nothing to do with the NSCA “Master class”, which is a skill level.",
+     "Teams have their own rules: usually three shooters, but the Men team in Sporting™ has four. A junior placed in the Men team, or a junior girl in the Lady team, must also enter that category individually. National federations and clubs may use their own categories, so always check the competition programme, and in shoot-offs remember that categories have their own top three."
+    ],
+    "uk": [
+     "Окрім абсолютного заліку, де змагаються всі разом, на змаганнях FITASC стрільців ранжують у категоріях за віком і статтю. З 1 січня 2027 року міжнародна таблиця для Parcours de Chasse – Sporting™ і Compak® Sporting має шість категорій: Junior (13–20), Lady (від 13), Men (21–55), Senior (56–65), Veteran (66–72) і Master (від 73, чоловіки й жінки). Для змагань до цієї дати перевіряйте чинну тоді таблицю на сайті FITASC.",
+     "Значення має рік народження, а не день народження. Нова категорія діє з 1 січня того року, у якому стрільцеві виповнюється потрібний вік. Для сезону 2027 це означає: Junior — народжені 2007–2014, Men — 1972–2006, Senior — 1962–1971, Veteran — 1955–1961, Master — до 1955 року. Щосезону межі зсуваються на рік.",
+     "Найбільша пастка для перекладача — «Senior». У побутовій англійській це звучить як «дорослий», але у FITASC Senior — це вікова група 56–65; основна доросла категорія — Men. Не перекладайте його як «дорослі». «Master» — ще одна пастка: вікова категорія FITASC від 73 років не має нічого спільного з «Master class» NSCA, тобто рівнем майстерності.",
+     "Для команд свої правила: зазвичай троє стрільців, але команда Men у Sporting™ має чотирьох. Юніор у команді Men або юніорка в команді Lady мусять виступати в цій категорії й в особистому заліку. Національні федерації й клуби можуть мати власні категорії, тож завжди перевіряйте програму змагань, а під час перестрілок пам’ятайте, що в категоріях — своя трійка призерів."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Six FITASC categories from 2027: Junior, Lady, Men, Senior, Veteran, Master",
+     "Year of birth decides; the new category starts on 1 January",
+     "Senior = 56–65, not “adults”; the main adult category is Men",
+     "FITASC Master (73+) ≠ NSCA Master class",
+     "Teams of 3; Men team in Sporting™ = 4; national programmes may differ"
+    ],
+    "uk": [
+     "Шість категорій FITASC з 2027 року: Junior, Lady, Men, Senior, Veteran, Master",
+     "Вирішує рік народження; нова категорія — з 1 січня",
+     "Senior — 56–65, а не «дорослі»; основна доросла категорія — Men",
+     "Master FITASC (73+) ≠ Master class NSCA",
+     "Команди по 3; команда Men у Sporting™ — 4; національні програми можуть відрізнятися"
+    ]
+   },
+   "terms": [
+    "category",
+    "veteran",
+    "team",
+    "shoot-off",
+    "entry"
+   ],
+   "rule_refs": [
+    {
+     "book": "categories",
+     "id": "junior"
+    },
+    {
+     "book": "categories",
+     "id": "lady"
+    },
+    {
+     "book": "categories",
+     "id": "men"
+    },
+    {
+     "book": "categories",
+     "id": "senior"
+    },
+    {
+     "book": "categories",
+     "id": "veteran"
+    },
+    {
+     "book": "categories",
+     "id": "master"
+    },
+    {
+     "book": "compak",
+     "id": "ch14-shootoff-medals"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Categories",
+     "url": "https://www.fitasc.com/competitions/categories"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Which category are you shooting in?",
+     "meaning": {
+      "en": "Asked at registration: Junior, Lady, Men, Senior, Veteran or Master.",
+      "uk": "Питають на реєстрації: Junior, Lady, Men, Senior, Veteran чи Master."
+     },
+     "say": {
+      "uk": "У якій категорії ви виступаєте?"
+     }
+    },
+    {
+     "en": "He’s a Senior now.",
+     "meaning": {
+      "en": "He is in the 56–65 group this season.",
+      "uk": "Цього сезону він у групі 56–65 років."
+     },
+     "say": {
+      "uk": "Тепер він у категорії Senior (56–65)."
+     }
+    },
+    {
+     "en": "She won the Lady category and was fourth overall.",
+     "meaning": {
+      "en": "First among ladies, fourth in the open ranking.",
+      "uk": "Перша серед жінок і четверта в абсолютному заліку."
+     },
+     "say": {
+      "uk": "Вона перемогла в категорії Lady і стала четвертою в абсолютному заліку."
+     }
+    },
+    {
+     "en": "There’s a shoot-off for Veteran bronze.",
+     "meaning": {
+      "en": "Two or more Veterans are tied for third in their category.",
+      "uk": "Двоє чи більше ветеранів мають однаковий результат за третє місце у своїй категорії."
+     },
+     "say": {
+      "uk": "Перестрілка за бронзу в категорії Veteran."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "A shooter born in 1971 enters a FITASC competition in 2027. Which category?",
+      "uk": "Стрілець 1971 року народження заявляється на змагання FITASC у 2027 році. Яка категорія?"
+     },
+     "options": {
+      "en": [
+       "Men",
+       "Senior",
+       "Veteran",
+       "Master"
+      ],
+      "uk": [
+       "Men",
+       "Senior",
+       "Veteran",
+       "Master"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "He turns 56 in 2027, so he is Senior from 1 January, whatever his birthday.",
+      "uk": "У 2027 році йому виповнюється 56, тож із 1 січня він Senior, незалежно від дня народження."
+     }
+    },
+    {
+     "q": {
+      "en": "How should you translate the FITASC category “Senior” for a client?",
+      "uk": "Як перекласти клієнтові категорію FITASC «Senior»?"
+     },
+     "options": {
+      "en": [
+       "“Adults”",
+       "“Experienced shooters”",
+       "“Top class”",
+       "“The 56–65 age group”"
+      ],
+      "uk": [
+       "«Дорослі»",
+       "«Досвідчені стрільці»",
+       "«Найвищий клас»",
+       "«Вікова група 56–65»"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "In FITASC Senior is an age group of 56–65; the main adult category is Men.",
+      "uk": "У FITASC Senior — вікова група 56–65; основна доросла категорія — Men."
+     }
+    },
+    {
+     "q": {
+      "en": "How many shooters are in a Men team in Parcours de Chasse – Sporting™?",
+      "uk": "Скільки стрільців у команді Men у Parcours de Chasse – Sporting™?"
+     },
+     "options": {
+      "en": [
+       "Four",
+       "Three",
+       "Six",
+       "Five"
+      ],
+      "uk": [
+       "Четверо",
+       "Троє",
+       "Шестеро",
+       "П’ятеро"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Teams usually have three shooters, but the Men team in Sporting™ has four.",
+      "uk": "Зазвичай у команді троє, але команда Men у Sporting™ має чотирьох."
+     }
+    }
+   ],
+   "sim": null
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "warning",
+   "en": "warning",
+   "def_en": "The first sanction for breaking a rule, usually shown with a yellow card.",
+   "def_uk": "Перша санкція за порушення правил, зазвичай із жовтою карткою."
+  },
+  {
+   "id": "expulsion",
+   "en": "expulsion",
+   "def_en": "Removal of a shooter from the competition by the jury; recorded by FITASC for five years, no refund.",
+   "def_uk": "Виключення стрільця зі змагань рішенням журі; FITASC зберігає запис п’ять років, гроші не повертають."
+  },
+  {
+   "id": "deposit",
+   "en": "deposit",
+   "def_en": "Money lodged with a written appeal to the jury; returned if the appeal succeeds (Sporting™: 40% of the entry fee).",
+   "def_uk": "Гроші, які вносять разом із письмовою скаргою до журі; повертають, якщо скаргу задоволено (Sporting™: 40% стартового внеску)."
+  },
+  {
+   "id": "attempt-to-influence",
+   "en": "attempt to influence",
+   "def_en": "Continuing to dispute a final ruling, challenging it for show, or others openly criticising it without the referee’s permission.",
+   "def_uk": "Подальше оскарження остаточного рішення, показна суперечка або відкрита критика рішення іншими без дозволу судді."
+  },
+  {
+   "id": "refusal-to-comply",
+   "en": "refusal to comply",
+   "def_en": "Not resuming shooting in time after a final ruling (15 s Sporting™, 10 s Compak®) or deliberate stalling.",
+   "def_uk": "Невчасне відновлення стрільби після остаточного рішення (15 с Sporting™, 10 с Compak®) або навмисне затягування."
+  },
+  {
+   "id": "sudden-death",
+   "en": "sudden death",
+   "def_en": "Second stage of a shoot-off: the first shooter to score a zero, with equal targets shot, is eliminated.",
+   "def_uk": "Другий етап перестрілки: вибуває перший, хто отримає нуль за однакової кількості пострілених мішеней."
+  },
+  {
+   "id": "junior",
+   "en": "Junior",
+   "def_en": "FITASC category from the year a shooter turns 13 to the end of the year they turn 20.",
+   "def_uk": "Категорія FITASC від року, коли стрільцеві виповнюється 13, до кінця року, коли виповнюється 20."
+  },
+  {
+   "id": "lady",
+   "en": "Lady",
+   "def_en": "FITASC category for women and girls from the year they turn 13, with no upper age limit.",
+   "def_uk": "Категорія FITASC для жінок і дівчат від року, коли їм виповнюється 13, без верхньої межі."
+  },
+  {
+   "id": "men-category",
+   "en": "Men",
+   "def_en": "The main adult FITASC category, from the year of the 21st to the year of the 55th birthday.",
+   "def_uk": "Основна доросла категорія FITASC — від року 21-го до року 55-го дня народження."
+  },
+  {
+   "id": "senior",
+   "en": "Senior",
+   "def_en": "FITASC age group 56–65, not the main adult category.",
+   "def_uk": "Вікова група FITASC 56–65 років, а не основна доросла категорія."
+  },
+  {
+   "id": "master-category",
+   "en": "Master",
+   "def_en": "FITASC category for men and women from the year they turn 73; not the NSCA Master class.",
+   "def_uk": "Категорія FITASC для чоловіків і жінок від року, коли їм виповнюється 73; не плутати з Master class NSCA."
+  }
+ ]
+}

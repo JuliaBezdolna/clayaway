@@ -1,0 +1,1076 @@
+{
+ "id": "sport",
+ "order": 1,
+ "icon": "flag",
+ "title": {
+  "en": "The sport in ten minutes",
+  "uk": "Цей спорт за десять хвилин"
+ },
+ "intro": {
+  "en": "Before you translate a single coaching tip, you need the big picture: what people actually shoot at, who writes the rules, what a Parcours de Chasse – Sporting™ course and a Compak® Sporting field look like, and how a competition day runs. Five short lessons give you the map; every later mission fills in the details.",
+  "uk": "Перш ніж перекладати першу пораду тренера, треба побачити загальну картину: у що саме стріляють, хто пише правила, як виглядають майданчик Parcours de Chasse – Sporting™ і поле Compak® Sporting і як минає день змагань. П’ять коротких уроків дають вам мапу, а наступні місії додають подробиці."
+ },
+ "lessons": [
+  {
+   "id": "sport-what-is-clay",
+   "mission": "sport",
+   "minutes": 5,
+   "title": {
+    "en": "Clays, not birds: what this sport is",
+    "uk": "Мішені, а не птахи: що це за спорт"
+   },
+   "body": {
+    "en": [
+     "Clay shooting is a sport in which a shooter breaks small flying discs with a shotgun. The disc is called a target or a clay; shooters often call it a bird, but nobody shoots at live animals. The FITASC rules say plainly that shooting at live animals is not allowed, and safety and care for the environment come first.",
+     "A machine called a trap throws each target. Its path through the air (or along the ground) is the trajectory. The gun is a smooth-bore shotgun: it fires a cartridge full of small pellets called shot, which spread into a small cloud. That is why the shooter points the gun where the target is going, not where it is now.",
+     "This course is about two disciplines of the international federation FITASC. Parcours de Chasse – Sporting™ (Sporting™ for short) imitates hunting: traps are hidden in fields and woods, and targets fly like partridge, duck or pheasant, or roll like a hare. Compak® Sporting is the compact version: the same variety of targets, but on one small field with five stations in a line and six traps.",
+     "You will also hear about Trap and Skeet. They are different disciplines with fixed, repeated trajectories; Olympic Trap and Skeet belong to another federation. Do not mix their rules with Sporting™ or Compak® Sporting.",
+     "A hit is visible at once: the target breaks or at least a visible piece flies off. This clarity is what makes the sport easy to watch and, for you, easy to follow from the very first day."
+    ],
+    "uk": [
+     "Стендова стрільба — це спорт, у якому стрілець розбиває з рушниці невеликі диски, що летять. Диск називають мішенню (target, clay); стрільці часто кажуть bird, «птах», але по живих тваринах ніхто не стріляє. Правила FITASC прямо забороняють стрільбу по живих тваринах, а безпека й турбота про довкілля стоять на першому місці.",
+     "Кожну мішень кидає машинка (trap). Шлях мішені в повітрі або по землі — це траєкторія (trajectory). Рушниця гладкоствольна: вона стріляє патроном із дрібними кульками — дробом (shot), який летить невеликою хмаркою. Тому стрілець спрямовує рушницю туди, куди мішень летить, а не туди, де вона зараз.",
+     "Цей курс присвячений двом дисциплінам міжнародної федерації FITASC. Parcours de Chasse – Sporting™ (коротко — спортинг) відтворює полювання: машинки сховані в полях і лісі, мішені летять, як куріпка, качка чи фазан, або котяться по землі, як заєць. Compak® Sporting — компактний варіант: така сама різноманітність мішеней, але на одному невеликому полі з п’ятьма номерами в лінію й шістьма машинками.",
+     "Ви почуєте й про Trap та Skeet. Це інші дисципліни з фіксованими траєкторіями, що повторюються; олімпійські Trap і Skeet належать іншій федерації. Не переносьте їхні правила на спортинг чи компак.",
+     "Влучання видно одразу: мішень розлітається або від неї відлітає хоча б помітний уламок. Саме ця наочність робить спорт зрозумілим для глядачів, а для вас — зручним уже з першого дня."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "People shoot at clay targets thrown by traps, never at live animals.",
+     "A shotgun fires a cloud of small pellets (shot), so the shooter points ahead of the target.",
+     "Sporting™ imitates hunting over natural ground; Compak® Sporting is its compact version on one field.",
+     "Trap and Skeet are other disciplines with their own rules."
+    ],
+    "uk": [
+     "Стріляють по мішенях, які кидають машинки, і ніколи — по живих тваринах.",
+     "Рушниця стріляє хмаркою дробу, тому стрілець спрямовує її перед мішенню.",
+     "Sporting™ відтворює полювання на природному рельєфі; Compak® Sporting — його компактний варіант на одному полі.",
+     "Trap і Skeet — інші дисципліни з власними правилами."
+    ]
+   },
+   "terms": [
+    "target",
+    "trap",
+    "trajectory",
+    "shotgun",
+    "cartridge",
+    "sporting",
+    "compak-sporting"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch1-definition"
+    },
+    {
+     "book": "sporting",
+     "id": "ch1-safety-environment"
+    },
+    {
+     "book": "compak",
+     "id": "ch1-discipline"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    },
+    {
+     "title": "Wikipedia — Clay pigeon shooting",
+     "url": "https://en.wikipedia.org/wiki/Clay_pigeon_shooting"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Watch this bird off trap B.",
+     "meaning": {
+      "en": "'Bird' is a target, not a real bird; trap B is the machine marked B.",
+      "uk": "Bird — це мішень, а не жива птаха; trap B — машинка з літерою B."
+     },
+     "say": {
+      "uk": "Подивіться цю мішень із машинки B."
+     }
+    },
+    {
+     "en": "Today we walk the Sporting course, tomorrow it's Compak.",
+     "meaning": {
+      "en": "Two different disciplines on two different days.",
+      "uk": "Дві різні дисципліни у два різні дні."
+     },
+     "say": {
+      "uk": "Сьогодні проходимо маршрут спортингу, завтра — компак."
+     }
+    },
+    {
+     "en": "Point it, don't aim it.",
+     "meaning": {
+      "en": "A shotgun is swung and pointed with both eyes on the target, not aimed like a rifle.",
+      "uk": "Рушницю ведуть і спрямовують, дивлячись на мішень, а не прицілюються, як із гвинтівки."
+     },
+     "say": {
+      "uk": "Не цільтеся — спрямовуйте рушницю."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "A coach says 'Watch the next bird.' What will you see?",
+      "uk": "Тренер каже: «Watch the next bird». Що ви побачите?"
+     },
+     "options": {
+      "en": [
+       "A live pigeon released from a box",
+       "A clay target thrown by a trap",
+       "A bird-shaped paper target on a board",
+       "A drone"
+      ],
+      "uk": [
+       "Живого голуба, випущеного з ящика",
+       "Мішень, яку кинула машинка",
+       "Паперову мішень у формі птаха на щиті",
+       "Дрон"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "'Bird' is shooters' slang for a clay target; the FITASC rules forbid shooting at live animals.",
+      "uk": "Bird — стрілецька назва мішені; правила FITASC забороняють стріляти по живих тваринах."
+     }
+    },
+    {
+     "q": {
+      "en": "What does a shotgun fire?",
+      "uk": "Чим стріляє гладкоствольна рушниця?"
+     },
+     "options": {
+      "en": [
+       "One single bullet",
+       "A small arrow-like dart",
+       "A cloud of small pellets (shot)",
+       "A ball filled with paint"
+      ],
+      "uk": [
+       "Однією кулею",
+       "Маленькою стрілкою",
+       "Хмаркою дрібних кульок (дробом)",
+       "Кулькою з фарбою"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The shot leaves the muzzle as a small cloud of pellets, so the shooter points ahead of the moving target.",
+      "uk": "Дріб вилітає з дула хмаркою, тому стрілець спрямовує рушницю перед мішенню, що рухається."
+     }
+    },
+    {
+     "q": {
+      "en": "Which statement about Compak® Sporting is correct?",
+      "uk": "Яке твердження про Compak® Sporting правильне?"
+     },
+     "options": {
+      "en": [
+       "A compact version on one field, stations in a line",
+       "It is the Olympic version of the Skeet discipline",
+       "It is shot only at live game birds in the field",
+       "It uses a single trap and a single station"
+      ],
+      "uk": [
+       "Компактний варіант на одному полі, номери в лінію",
+       "Це олімпійський різновид дисципліни скіт",
+       "У ньому стріляють лише по живій дичині",
+       "У ньому лише одна машинка й один номер"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Compak® Sporting brings Sporting™-style targets onto one small field with five stations and six traps.",
+      "uk": "Compak® Sporting переносить мішені в стилі спортингу на одне невелике поле з п’ятьма номерами й шістьма машинками."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "sport-fitasc",
+   "mission": "sport",
+   "minutes": 5,
+   "title": {
+    "en": "FITASC, federations and ClayArena",
+    "uk": "FITASC, федерації і ClayArena"
+   },
+   "body": {
+    "en": [
+     "FITASC is the international federation for hunting-style clay shooting. It writes and updates the rules of Parcours de Chasse – Sporting™ and Compak® Sporting; the editions we follow are dated 01/01/2025. Compak® Sporting is also a trade mark protected by FITASC, which is why the name is always written with ®.",
+     "The sport is built like a pyramid. Clubs and shooting grounds are at the bottom, national federations above them, and the national federations are members of FITASC. Layouts for national competitions are approved by the national federation, those for international competitions by FITASC. A federation may hand an event to a club, but it stays responsible for applying the rules.",
+     "On the ground the rules are applied by referees. Each referee holds a certificate from a national federation, and the chief referee needs an international FITASC certificate. A jury handles protests, penalties and technical problems at international events. You will translate for all of them, so learn the titles: referee, chief referee, jury.",
+     "Other bodies exist too. In Britain and the USA national associations run their own versions of the sport, such as English Sporting, with different rules and words. A British or American coach may use those words at a FITASC event; later missions show you how to handle that.",
+     "ClayArena is the platform behind this course. It publishes competition calendars, a glossary and a plain-language summary of the FITASC rules, and through ClayAway it runs training tours. Remember: only the official FITASC text is binding; a summary is a guide, not the rule itself."
+    ],
+    "uk": [
+     "FITASC — міжнародна федерація «мисливських» дисциплін стендової стрільби. Вона пише й оновлює правила Parcours de Chasse – Sporting™ і Compak® Sporting; чинні редакції, на які ми спираємося, датовані 01.01.2025. Compak® Sporting — ще й торговельна марка, яку захищає FITASC, тому назву завжди пишуть із ®.",
+     "Спорт побудований як піраміда. Унизу — клуби й стрільбища, над ними — національні федерації, а національні федерації є членами FITASC. Майданчики для національних змагань затверджує національна федерація, для міжнародних — FITASC. Федерація може доручити змагання клубу, але відповідальність за дотримання правил лишається на ній.",
+     "На місці правила застосовують судді (referee). Кожен суддя має посвідчення національної федерації, а головний суддя (chief referee) — міжнародне посвідчення FITASC. Протести, покарання й технічні питання на міжнародних змаганнях розглядає журі (jury). Ви перекладатимете для всіх них, тож запам’ятайте ці посади.",
+     "Є й інші організації. У Британії та США національні асоціації проводять власні різновиди спорту, як-от English Sporting, з іншими правилами й словами. Британський чи американський тренер може вживати ці слова й на змаганнях FITASC; як із цим працювати, покажуть наступні місії.",
+     "ClayArena — платформа, на якій створено цей курс. Вона публікує календарі змагань, глосарій і переказ правил FITASC простою мовою, а через ClayAway проводить тренувальні тури. Пам’ятайте: обов’язковим є лише офіційний текст FITASC; переказ — це путівник, а не саме правило."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "FITASC writes the rules of Sporting™ and Compak® Sporting (editions of 01/01/2025).",
+     "Club, national federation, FITASC: national layouts are approved by the federation, international ones by FITASC.",
+     "Referees hold national certificates; the chief referee holds a FITASC international one; the jury hears protests.",
+     "Only the official FITASC text is binding; ClayArena offers a summary."
+    ],
+    "uk": [
+     "FITASC пише правила Sporting™ і Compak® Sporting (редакції від 01.01.2025).",
+     "Клуб, національна федерація, FITASC: національні майданчики затверджує федерація, міжнародні — FITASC.",
+     "Судді мають національні посвідчення, головний суддя — міжнародне посвідчення FITASC; протести розглядає журі.",
+     "Обов’язковий лише офіційний текст FITASC; ClayArena дає його переказ."
+    ]
+   },
+   "terms": [
+    "fitasc",
+    "national-federation",
+    "referee",
+    "chief-referee",
+    "jury"
+   ],
+   "rule_refs": [
+    {
+     "book": "compak",
+     "id": "ch1-discipline"
+    },
+    {
+     "book": "sporting",
+     "id": "ch15-layout-approval"
+    },
+    {
+     "book": "sporting",
+     "id": "ch15-delegation"
+    },
+    {
+     "book": "sporting",
+     "id": "ch5-referee-certificate"
+    },
+    {
+     "book": "sporting",
+     "id": "ch15-jury-role"
+    },
+    {
+     "book": "compak",
+     "id": "ch19-referee-qualification"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "That's a CPSA term — under FITASC it's a simultaneous double.",
+     "meaning": {
+      "en": "The coach switches from British vocabulary to the FITASC name.",
+      "uk": "Тренер переходить від британської термінології до назви за FITASC."
+     },
+     "say": {
+      "uk": "Це термін британських правил, за FITASC це одночасний дуплет."
+     }
+    },
+    {
+     "en": "Ask the chief referee, not the stand referee.",
+     "meaning": {
+      "en": "The question is for the senior official of the competition.",
+      "uk": "Питання — до старшого судді змагань, а не до судді на позиції."
+     },
+     "say": {
+      "uk": "Запитайте головного суддю, а не суддю на позиції."
+     }
+    },
+    {
+     "en": "The jury will decide this one.",
+     "meaning": {
+      "en": "The matter goes beyond the stand referee, to the competition jury.",
+      "uk": "Питання виходить за межі судді на позиції й переходить до журі."
+     },
+     "say": {
+      "uk": "Це вирішуватиме журі."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Who approves the layouts for an international Sporting™ competition?",
+      "uk": "Хто затверджує майданчики для міжнародних змагань зі спортингу?"
+     },
+     "options": {
+      "en": [
+       "The local club",
+       "The national federation",
+       "The referee on the day",
+       "FITASC"
+      ],
+      "uk": [
+       "Місцевий клуб",
+       "Національна федерація",
+       "Суддя в день змагань",
+       "FITASC"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "National layouts are approved by the national federation, international ones by FITASC.",
+      "uk": "Національні майданчики затверджує національна федерація, міжнародні — FITASC."
+     }
+    },
+    {
+     "q": {
+      "en": "What certificate must the chief referee hold?",
+      "uk": "Яке посвідчення має мати головний суддя?"
+     },
+     "options": {
+      "en": [
+       "An international FITASC certificate",
+       "A club membership card, nothing more",
+       "A national coaching licence from his club",
+       "None: any experienced shooter can do it"
+      ],
+      "uk": [
+       "Міжнародне посвідчення FITASC",
+       "Лише членський квиток клубу",
+       "Тренерську ліцензію свого клубу",
+       "Жодного: це може будь-який досвідчений стрілець"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Stand referees need a national certificate; the chief referee needs an international one from FITASC.",
+      "uk": "Суддям на позиціях потрібне національне посвідчення, головному судді — міжнародне посвідчення FITASC."
+     }
+    },
+    {
+     "q": {
+      "en": "A client shows you ClayArena's rules summary during a dispute. What is its status?",
+      "uk": "Під час суперечки клієнт показує вам переказ правил на ClayArena. Який його статус?"
+     },
+     "options": {
+      "en": [
+       "It overrides the official FITASC text",
+       "A guide only; the FITASC text is binding",
+       "It is binding, but only in Compak® Sporting",
+       "It replaces the referee's decision on the stand"
+      ],
+      "uk": [
+       "Він має перевагу над офіційним текстом FITASC",
+       "Лише путівник; обов’язковий текст FITASC",
+       "Він обов’язковий, але лише в Compak® Sporting",
+       "Він замінює рішення судді на позиції"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "A summary helps you understand the rules, but the referee and jury apply the official FITASC text.",
+      "uk": "Переказ допомагає зрозуміти правила, але суддя й журі застосовують офіційний текст FITASC."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "sport-sporting-layout",
+   "mission": "sport",
+   "minutes": 5,
+   "title": {
+    "en": "A Sporting™ course: layouts, stands and traps",
+    "uk": "Маршрут спортингу: майданчики, позиції й машинки"
+   },
+   "body": {
+    "en": [
+     "In Parcours de Chasse – Sporting™ the ground is divided into layouts (in Ukrainian «майданчик»). A layout is a group of shooting stands that together give 25 targets: 15 singles and 5 doubles. Depending on the system, a layout has three, four or five stands, each with its own traps.",
+     "A shooting stand is where the shooter stands: a 1 m square or a circle 1 m across, level and not slippery. Careful with the Ukrainian word «стенд»: it usually means the whole sport or the shooting ground, so translate stand as «позиція». The rest of the squad waits nearby, close enough to follow but never distracting the shooter.",
+     "Traps are placed to suit the terrain, often partly hidden by bushes or trees, so that targets look like real game: crossing, incoming, going away, quartering, high or low, in the open or through trees. The traps of a stand are marked with letters A, B, C, D, read from left to right as seen from the stand.",
+     "In front of each stand there is a target menu: it lists the traps in shooting order and shows special targets, such as a 90 mm, 70 mm or 60 mm target, a battue or a rabbit. The shooter reads it before stepping onto the stand, and you should too.",
+     "Trajectories are graded by difficulty. Class A is broken by an average shooter more than 80% of the time, class B 60 to 80%, class C 40 to 60%. So a class C target is meant to be hard; a miss there is no disaster."
+    ],
+    "uk": [
+     "У Parcours de Chasse – Sporting™ стрільбище поділене на майданчики (layout). Майданчик — це група стрілецьких позицій, з яких разом стріляють 25 мішеней: 15 одиночних і 5 дуплетів. Залежно від системи на майданчику три, чотири або п’ять позицій, кожна зі своїми машинками.",
+     "Стрілецька позиція (shooting stand) — місце, де стоїть стрілець: квадрат 1 × 1 м або коло діаметром 1 м, рівне й не слизьке. Обережно зі словом «стенд»: українською воно зазвичай означає весь вид спорту або стрільбище, тож stand перекладайте як «позиція». Решта групи чекає поруч — досить близько, щоб стежити, але так, щоб не відволікати стрільця.",
+     "Машинки ставлять відповідно до рельєфу, часто частково ховаючи за кущами чи деревами, щоб мішені нагадували справжню дичину: поперечні, зустрічні, від стрільця, навскісні, високі й низькі, на відкритому місці чи між деревами. Машинки позиції позначені літерами A, B, C, D зліва направо, якщо дивитися з позиції.",
+     "Перед кожною позицією стоїть меню мішеней (target menu): у ньому машинки в порядку стрільби й позначки особливих мішеней — 90 мм, 70 мм чи 60 мм, батю або кролик. Стрілець читає меню, перш ніж стати на позицію, — і вам варто теж.",
+     "Траєкторії мають класи складності. Мішень класу A середній стрілець розбиває частіше ніж у 80% випадків, класу B — у 60–80%, класу C — у 40–60%. Отже, мішень класу C задумана складною, і промах по ній — не трагедія."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "A layout gives 25 targets: 15 singles and 5 doubles.",
+     "A stand is a 1 m square or 1 m circle; translate stand as «позиція», not «стенд».",
+     "Traps are lettered A, B, C, D from left to right as seen from the stand.",
+     "The target menu shows the order of traps and any special targets.",
+     "Difficulty classes: A over 80%, B 60–80%, C 40–60%."
+    ],
+    "uk": [
+     "Майданчик дає 25 мішеней: 15 одиночних і 5 дуплетів.",
+     "Позиція — квадрат 1 × 1 м або коло 1 м; stand перекладаємо «позиція», а не «стенд».",
+     "Машинки позначені A, B, C, D зліва направо, якщо дивитися з позиції.",
+     "Меню мішеней показує порядок машинок і особливі мішені.",
+     "Класи складності: A понад 80%, B 60–80%, C 40–60%."
+    ]
+   },
+   "terms": [
+    "layout",
+    "shooting-stand",
+    "trap",
+    "target-menu",
+    "single-target",
+    "double",
+    "difficulty-class"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-layout"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-traps-table"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-shooting-stands"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-waiting-positions"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-trap-letters"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-target-menu"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-difficulty-classes"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Sporting clays",
+     "url": "https://en.wikipedia.org/wiki/Sporting_clays"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Layout three is the hard one today — lots of minis in the trees.",
+     "meaning": {
+      "en": "On the third layout there are many small targets flying through trees.",
+      "uk": "На третьому майданчику багато маленьких мішеней, що летять між деревами."
+     },
+     "say": {
+      "uk": "Сьогодні найважчий — третій майданчик: багато міні між деревами."
+     }
+    },
+    {
+     "en": "On this stand, read the menu before you step in.",
+     "meaning": {
+      "en": "Check the order of traps and special targets first.",
+      "uk": "Спершу перевірте порядок машинок і особливі мішені."
+     },
+     "say": {
+      "uk": "На цій позиції спершу прочитайте меню, а тоді ставайте."
+     }
+    },
+    {
+     "en": "Stand two is a class C target, don't worry about it.",
+     "meaning": {
+      "en": "The target is graded as hard; a miss is expected.",
+      "uk": "Мішень належить до найскладнішого класу; промах тут очікуваний."
+     },
+     "say": {
+      "uk": "На другій позиції мішень класу C, не переймайтеся."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "How many targets does one Sporting™ layout give?",
+      "uk": "Скільки мішеней дає один майданчик спортингу?"
+     },
+     "options": {
+      "en": [
+       "10",
+       "20",
+       "25",
+       "50"
+      ],
+      "uk": [
+       "10",
+       "20",
+       "25",
+       "50"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Every layout type gives 25 targets: 15 singles and 5 doubles.",
+      "uk": "Кожен тип майданчика дає 25 мішеней: 15 одиночних і 5 дуплетів."
+     }
+    },
+    {
+     "q": {
+      "en": "A coach says 'Go to stand two.' How do you translate 'stand'?",
+      "uk": "Тренер каже: «Go to stand two». Як перекласти stand?"
+     },
+     "options": {
+      "en": [
+       "«стенд» (the shooting ground)",
+       "«позиція»",
+       "«трибуна»",
+       "«стійка для рушниць»"
+      ],
+      "uk": [
+       "«стенд» (стрільбище)",
+       "«позиція»",
+       "«трибуна»",
+       "«стійка для рушниць»"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "In Sporting™ a stand is the 1 m shooting position; «стенд» in Ukrainian usually means the sport or the whole ground.",
+      "uk": "У спортингу stand — це метрова стрілецька позиція; «стенд» українською зазвичай означає спорт або все стрільбище."
+     }
+    },
+    {
+     "q": {
+      "en": "How are the traps of a Sporting™ stand identified?",
+      "uk": "Як позначають машинки на позиції спортингу?"
+     },
+     "options": {
+      "en": [
+       "By numbers 1 to 6, counted from the right",
+       "By colours painted on each machine",
+       "By letters A, B, C, D from left to right",
+       "By the name of the person releasing them"
+      ],
+      "uk": [
+       "Цифрами 1–6, рахуючи справа",
+       "Кольорами, нанесеними на машинки",
+       "Літерами A, B, C, D зліва направо",
+       "Іменем людини, яка запускає мішені"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The letters A, B, C, D are read from left to right as seen from the stand, and the menu and scorecard use them.",
+      "uk": "Літери читають зліва направо з позиції; їх використовують меню й протокол."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "sport-compak-layout",
+   "mission": "sport",
+   "minutes": 5,
+   "title": {
+    "en": "A Compak® Sporting field: five stations, six traps",
+    "uk": "Поле Compak® Sporting: п’ять номерів, шість машинок"
+   },
+   "body": {
+    "en": [
+     "Compak® Sporting fits on one field. In front of the shooters there is a compulsory rectangle, 35 to 40 m wide and 25 m deep, marked by four corner stakes with flags. In still air every target must fly over it at some point.",
+     "Five shooting stations, each a 1 m square, stand in a line with 2 to 5 m between their centres. They are numbered 1 to 5 from left to right («номер» in Ukrainian). Each station has a Firing Angle Limiter, a frame of tubes that stops the gun swinging too far sideways or up and stops the shooter stepping forward.",
+     "Six traps, A to F from left to right, each carry a panel with their letter. They may be in front, at the sides, behind the shooters or on a tower; a trap behind the line must be at least 4 m above it. Every Compak has three compulsory targets: a left-to-right crosser, a right-to-left crosser and a going-away target.",
+     "A round is 25 targets, five at each station. When a squad of six shoots, five shooters stand on the stations and the sixth waits behind station 1. Each shooter shoots the five targets of the station's menu in turn, starting from station 1. When station 5 has finished, that shooter goes to wait behind station 1, everyone else moves one station to the right, and the waiting shooter steps onto station 1.",
+     "Some events shoot Compak® Sporting in line instead: every shooter starts on station 1 and finishes on station 5. Ask the organiser which system is used, because the procedure differs."
+    ],
+    "uk": [
+     "Compak® Sporting вміщається на одному полі. Перед стрільцями розмічено обов’язковий прямокутник 35–40 м завширшки й 25 м завглибшки; його кути позначені чотирма кілочками з прапорцями. У безвітряну погоду кожна мішень має десь пролетіти над ним.",
+     "П’ять стрілецьких номерів, кожен — квадрат 1 × 1 м, стоять у лінію на відстані 2–5 м між центрами. Їх нумерують від 1 до 5 зліва направо; українською кажемо «номер». На кожному номері стоїть обмежувач кута стрільби (Firing Angle Limiter) — рамка з трубок, що не дає повести рушницю надто вбік чи вгору й вийти вперед.",
+     "Шість машинок, від A до F зліва направо, мають таблички з літерами. Вони можуть стояти попереду, збоку, позаду стрільців або на вежі; машинка позаду лінії має бути щонайменше на 4 м вище за номери. На кожному компаку є три обов’язкові мішені: поперечна зліва направо, поперечна справа наліво й мішень від стрільця.",
+     "Раунд (round) — 25 мішеней, по п’ять на кожному номері. Коли стріляє група з шести, п’ятеро стоять на номерах, а шостий чекає за першим номером. Кожен по черзі стріляє п’ять мішеней із меню свого номера, починаючи з першого. Коли п’ятий номер закінчив, цей стрілець іде чекати за перший номер, усі інші переходять на номер праворуч, а той, хто чекав, стає на перший.",
+     "На деяких змаганнях компак стріляють у лінію (in line): кожен стрілець починає на першому номері й закінчує на п’ятому. Уточніть в організатора, яка система діє, бо порядок відрізняється."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "A 35–40 m × 25 m rectangle that every target must cross.",
+     "Five 1 m stations in a line, 2–5 m apart, each with a Firing Angle Limiter.",
+     "Six traps lettered A to F from left to right; a trap behind the line sits on a tower at least 4 m high.",
+     "25 targets per round, five per station; the squad rotates one station to the right.",
+     "Compak® Sporting can be shot by squad or in line."
+    ],
+    "uk": [
+     "Прямокутник 35–40 × 25 м, над яким пролітає кожна мішень.",
+     "П’ять метрових номерів у лінію, 2–5 м між ними, на кожному — обмежувач кута стрільби.",
+     "Шість машинок A–F зліва направо; машинка позаду лінії — на вежі щонайменше 4 м.",
+     "25 мішеней за раунд, по п’ять на номер; група переходить на номер праворуч.",
+     "Компак стріляють групою або в лінію."
+    ]
+   },
+   "terms": [
+    "fly-over-rectangle",
+    "firing-angle-limiter",
+    "shooting-stand",
+    "trap",
+    "tower",
+    "rotation",
+    "waiting-position",
+    "line"
+   ],
+   "rule_refs": [
+    {
+     "book": "compak",
+     "id": "ch2-terrain"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-shooting-positions"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-fal"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-traps"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-trap-placement"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-compulsory-trajectories"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-round-combinations"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-squad-rotation"
+    },
+    {
+     "book": "compak",
+     "id": "ch16-squad-group"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Compak Sporting",
+     "url": "https://en.wikipedia.org/wiki/Compak_Sporting"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Everybody move one to the right. Number five, to the waiting position.",
+     "meaning": {
+      "en": "The squad rotates; the shooter from station 5 goes behind station 1.",
+      "uk": "Група переходить далі; стрілець із п’ятого номера йде чекати за перший."
+     },
+     "say": {
+      "uk": "Усі на один номер праворуч. П’ятий — на позицію очікування."
+     }
+    },
+    {
+     "en": "Trap E is the tower — it comes over your head.",
+     "meaning": {
+      "en": "The target from trap E is thrown from a high tower and passes overhead.",
+      "uk": "Мішень із машинки E кидають із вежі, і вона пролітає над головою."
+     },
+     "say": {
+      "uk": "Машинка E — на вежі, мішень летить над головою."
+     }
+    },
+    {
+     "en": "Mind the frame — don't swing past the post.",
+     "meaning": {
+      "en": "Respect the Firing Angle Limiter; do not swing the gun beyond it.",
+      "uk": "Не виводьте рушницю за межі обмежувача кута стрільби."
+     },
+     "say": {
+      "uk": "Обережно з рамкою — не ведіть рушницю за стійку."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "How many traps and stations does one Compak® Sporting field have?",
+      "uk": "Скільки машинок і номерів на одному полі Compak® Sporting?"
+     },
+     "options": {
+      "en": [
+       "4 traps, 3 stations",
+       "6 traps, 5 stations",
+       "5 traps, 6 stations",
+       "8 traps, 8 stations"
+      ],
+      "uk": [
+       "4 машинки, 3 номери",
+       "6 машинок, 5 номерів",
+       "5 машинок, 6 номерів",
+       "8 машинок, 8 номерів"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Traps A to F and stations 1 to 5.",
+      "uk": "Машинки від A до F і номери від 1 до 5."
+     }
+    },
+    {
+     "q": {
+      "en": "In a squad of six, where is the sixth shooter while the others shoot?",
+      "uk": "Де шостий стрілець групи, поки інші стріляють?"
+     },
+     "options": {
+      "en": [
+       "In the clubhouse",
+       "Next to the referee at station 5",
+       "Behind trap F",
+       "Waiting behind station 1"
+      ],
+      "uk": [
+       "У клубному будинку",
+       "Біля судді на п’ятому номері",
+       "За машинкою F",
+       "Чекає за першим номером"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The waiting shooter stands behind station 1 and steps onto it after each rotation.",
+      "uk": "Той, хто чекає, стоїть за першим номером і стає на нього після кожного переходу."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the Firing Angle Limiter for?",
+      "uk": "Для чого обмежувач кута стрільби?"
+     },
+     "options": {
+      "en": [
+       "It limits the swing and stops stepping forward",
+       "It measures the speed of each target thrown",
+       "It holds the cartridges for the whole round",
+       "It releases the targets on the shooter's call"
+      ],
+      "uk": [
+       "Обмежує рух рушниці й не дає вийти вперед",
+       "Вимірює швидкість кожної мішені",
+       "Тримає патрони на весь раунд",
+       "Запускає мішені на команду стрільця"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "It is a safety frame at each station limiting sideways and vertical swing.",
+      "uk": "Це безпекова рамка на кожному номері, що обмежує рух рушниці вбік і вгору."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "sport-competition-day",
+   "mission": "sport",
+   "minutes": 5,
+   "title": {
+    "en": "A competition day from start to finish",
+    "uk": "День змагань від початку до кінця"
+   },
+   "body": {
+    "en": [
+     "The day starts at registration: the shooter confirms the entry, receives a competitor number and pins it on the upper back, fully visible. Then everyone checks the squad lists and shooting times. Keeping to the timetable is the shooter's own responsibility.",
+     "A squad is a group of up to six shooters, drawn by lot, who shoot together. In ClayAway the word also means a subgroup of a tour, so make clear which one you mean. In Parcours de Chasse – Sporting™ the squad shoots all the singles of a stand first, then the doubles, and the shooting order rotates from stand to stand. The first shooter of the squad sees the targets shown before anyone shoots.",
+     "A round is 25 targets: one layout in Sporting™, one field in Compak® Sporting. An international competition is 200 targets, so eight rounds over several days. The referee marks each target on the score sheet, usually X for a hit and O for a miss. Shooters check their score when leaving a stand in Sporting™ and sign the sheet at the end of a Compak® Sporting round.",
+     "Being late is costly. In Sporting™ the referee calls the name three times within one minute; a shooter who misses his turn gets zeros for the targets not shot. In Compak® Sporting a shooter who arrives after the first shooter of the squad has called gets 25 zeros for the round.",
+     "If shooters tie for the top three places, there is a shoot-off: 25 targets, then sudden death. Lower ties are separated by countback, comparing the last round first. The day ends with the results board and the prize-giving."
+    ],
+    "uk": [
+     "День починається з реєстрації: стрілець підтверджує заявку, отримує стартовий номер і кріпить його на верхній частині спини так, щоб його було повністю видно. Потім усі перевіряють списки груп і час стрільби. Дотримуватися розкладу — обов’язок самого стрільця.",
+     "Група (squad) — до шести стрільців, визначених жеребкуванням, які стріляють разом. У ClayAway цим словом називають ще й підгрупу туру, тож уточнюйте, що саме маєте на увазі. У Parcours de Chasse – Sporting™ група спершу стріляє всі одиночні мішені позиції, потім дуплети, а порядок стрільби змінюється від позиції до позиції. Першому стрільцеві групи показують мішені до початку стрільби.",
+     "Раунд (round) — 25 мішеней: один майданчик у спортингу, одне поле в компаку. Міжнародні змагання — 200 мішеней, тобто вісім раундів за кілька днів. Суддя позначає кожну мішень у протоколі, зазвичай X — влучання, O — промах. У спортингу стрільці перевіряють результат, сходячи з позиції, а в компаку підписують протокол наприкінці раунду.",
+     "Запізнення дорого коштує. У спортингу суддя тричі викликає стрільця протягом хвилини; хто пропустив свою чергу, отримує нулі за невідстріляні мішені. У компаку стрілець, який прийшов після того, як перший у групі дав команду, отримує 25 нулів за раунд.",
+     "Якщо в кількох стрільців рівний результат за перші три місця, проводять перестрілку (shoot-off): 25 мішеней, а далі — до першого промаху. Нижчі місця розподіляють за останніми раундами (countback): спершу порівнюють останній. День завершується таблицею результатів і нагородженням."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Registration, competitor number on the back, squad lists and times.",
+     "A squad is up to six shooters drawn by lot; in Sporting™ singles first, then doubles, with rotating order.",
+     "A round is 25 targets; international events are 200 targets.",
+     "Lateness costs zeros; in Compak® Sporting 25 zeros for the round.",
+     "Top-three ties: shoot-off of 25, then sudden death; lower ties: countback."
+    ],
+    "uk": [
+     "Реєстрація, стартовий номер на спині, списки груп і розклад.",
+     "Група — до шести стрільців за жеребкуванням; у спортингу спершу одиночні, потім дуплети, порядок змінюється.",
+     "Раунд — 25 мішеней; міжнародні змагання — 200 мішеней.",
+     "Запізнення коштує нулів; у компаку — 25 нулів за раунд.",
+     "Рівність за 1–3 місця: перестрілка на 25, потім до першого промаху; нижче — countback."
+    ]
+   },
+   "terms": [
+    "entry",
+    "competitor-number",
+    "squad",
+    "round",
+    "rotation",
+    "score-sheet",
+    "shoot-off",
+    "countback",
+    "prize-giving"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch17-competitor-number"
+    },
+    {
+     "book": "compak",
+     "id": "ch8-shooting-times"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-squads"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-singles-then-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-presentation"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-format"
+    },
+    {
+     "book": "sporting",
+     "id": "ch14-model"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-results-check"
+    },
+    {
+     "book": "compak",
+     "id": "ch15-signing"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-late-shooter"
+    },
+    {
+     "book": "compak",
+     "id": "ch9-late-squad"
+    },
+    {
+     "book": "sporting",
+     "id": "ch18-top-three"
+    },
+    {
+     "book": "sporting",
+     "id": "ch18-sudden-death"
+    },
+    {
+     "book": "compak",
+     "id": "ch14-countback"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Let's Go Shooting — NSCA beginner's guide to sporting clays",
+     "url": "https://www.letsgoshooting.org/resources/articles/shotgun/discover-sporting-clays-nsca-beginners-guide/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "You're in squad twelve, starting on layout five at nine-thirty.",
+     "meaning": {
+      "en": "Squad number, start layout and start time.",
+      "uk": "Номер групи, стартовий майданчик і час старту."
+     },
+     "say": {
+      "uk": "Ви у дванадцятій групі, старт на п’ятому майданчику о дев’ятій тридцять."
+     }
+    },
+    {
+     "en": "Check your card before you leave the stand.",
+     "meaning": {
+      "en": "Make sure the referee recorded your score correctly now; later it is too late.",
+      "uk": "Переконайтеся, що суддя правильно записав результат, — пізніше вже не виправлять."
+     },
+     "say": {
+      "uk": "Перевірте протокол, перш ніж сходити з позиції."
+     }
+    },
+    {
+     "en": "Twenty-two in the first round is fine — seven more to go.",
+     "meaning": {
+      "en": "22 out of 25 in the first round; seven rounds remain in a 200-target event.",
+      "uk": "22 з 25 у першому раунді; на змаганнях на 200 мішеней лишається ще сім раундів."
+     },
+     "say": {
+      "uk": "Двадцять дві в першому раунді — нормально, попереду ще сім."
+     }
+    },
+    {
+     "en": "Stay close — if it's a tie, you shoot within fifteen minutes of the call.",
+     "meaning": {
+      "en": "A shooter who may be in a shoot-off must be ready soon after being called.",
+      "uk": "Стрілець, який може потрапити в перестрілку, має бути готовий невдовзі після виклику."
+     },
+     "say": {
+      "uk": "Будьте поруч: якщо буде нічия, стрілятимете протягом п’ятнадцяти хвилин після виклику."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "How many targets is an international FITASC competition?",
+      "uk": "Скільки мішеней на міжнародних змаганнях FITASC?"
+     },
+     "options": {
+      "en": [
+       "50",
+       "100",
+       "150",
+       "200"
+      ],
+      "uk": [
+       "50",
+       "100",
+       "150",
+       "200"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "200 targets in rounds of 25.",
+      "uk": "200 мішеней раундами по 25."
+     }
+    },
+    {
+     "q": {
+      "en": "In Compak® Sporting by squad, a shooter arrives after the first shooter has called for the first target. What happens?",
+      "uk": "У компаку групою стрілець прийшов після того, як перший дав команду на першу мішень. Що буде?"
+     },
+     "options": {
+      "en": [
+       "Nothing, he joins in",
+       "He gets 25 zeros for that round",
+       "He shoots the round alone later without penalty",
+       "He loses one target"
+      ],
+      "uk": [
+       "Нічого, він приєднується",
+       "Він отримує 25 нулів за цей раунд",
+       "Він пізніше стріляє раунд сам без штрафу",
+       "Він втрачає одну мішень"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "In squad Compak® Sporting a late arrival after the first call is scored 25 zeros; an appeal to the jury is possible for a valid reason.",
+      "uk": "У компаку групою запізнення після першої команди — це 25 нулів; з поважною причиною можна звернутися до журі."
+     }
+    },
+    {
+     "q": {
+      "en": "Two shooters tie for 5th place. How are they separated?",
+      "uk": "Двоє стрільців поділили 5-те місце. Як їх розрізняють?"
+     },
+     "options": {
+      "en": [
+       "By a 25-target shoot-off",
+       "By drawing lots after the event",
+       "By countback from the last round",
+       "By age, the younger first"
+      ],
+      "uk": [
+       "Перестрілкою на 25 мішеней",
+       "Жеребкуванням після змагань",
+       "За countback — від останнього раунду",
+       "За віком: молодший вище"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Shoot-offs are only for the top three; below that, countback compares the 8th round, then the 7th and so on.",
+      "uk": "Перестрілки — лише за перші три місця; нижче порівнюють восьмий раунд, потім сьомий і так далі."
+     }
+    }
+   ],
+   "sim": null
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "sporting",
+   "en": "Parcours de Chasse – Sporting™",
+   "def_en": "FITASC discipline imitating hunting: targets of many types thrown over natural ground from layouts of several stands.",
+   "def_uk": "Дисципліна FITASC, що відтворює полювання: різні мішені летять над природним рельєфом із майданчиків із кількома позиціями."
+  },
+  {
+   "id": "compak-sporting",
+   "en": "Compak® Sporting",
+   "def_en": "Compact FITASC discipline on one field: five stations in a line, six traps A–F, 25 targets per round.",
+   "def_uk": "Компактна дисципліна FITASC на одному полі: п’ять номерів у лінію, шість машинок A–F, 25 мішеней за раунд."
+  },
+  {
+   "id": "fitasc",
+   "en": "FITASC",
+   "def_en": "International federation that writes the rules of Sporting™ and Compak® Sporting and approves international layouts.",
+   "def_uk": "Міжнародна федерація, що пише правила Sporting™ і Compak® Sporting та затверджує міжнародні майданчики."
+  },
+  {
+   "id": "national-federation",
+   "en": "national federation",
+   "def_en": "A country's governing body for the sport; member of FITASC, approves national layouts and certifies referees.",
+   "def_uk": "Керівний орган спорту в країні; член FITASC, затверджує національні майданчики й атестує суддів."
+  },
+  {
+   "id": "difficulty-class",
+   "en": "difficulty class (A, B, C)",
+   "def_en": "Sporting™ grading of a trajectory by how often an average shooter breaks it: A over 80%, B 60–80%, C 40–60%.",
+   "def_uk": "Клас складності траєкторії у спортингу за тим, як часто її розбиває середній стрілець: A понад 80%, B 60–80%, C 40–60%."
+  },
+  {
+   "id": "fly-over-rectangle",
+   "en": "fly-over rectangle (Compak)",
+   "def_en": "Compulsory 35–40 m × 25 m zone in front of a Compak line over which every target must pass.",
+   "def_uk": "Обов’язкова зона 35–40 × 25 м перед лінією компаку, над якою має пролетіти кожна мішень."
+  },
+  {
+   "id": "firing-angle-limiter",
+   "en": "Firing Angle Limiter (F.A.L.)",
+   "def_en": "Safety frame at each Compak station restricting the gun's sideways and vertical swing and stopping the shooter stepping forward.",
+   "def_uk": "Безпекова рамка на кожному номері компаку, що обмежує рух рушниці вбік і вгору та не дає вийти вперед."
+  },
+  {
+   "id": "waiting-position",
+   "en": "waiting position",
+   "def_en": "Place behind station 1 in Compak where the sixth shooter of a squad waits; in Sporting™, the area where the squad waits near the stand.",
+   "def_uk": "Місце за першим номером компаку, де чекає шостий стрілець групи; у спортингу — місце, де група чекає біля позиції."
+  }
+ ]
+}

@@ -1,0 +1,1595 @@
+{
+ "id": "interpreter",
+ "order": 12,
+ "icon": "speech",
+ "title": {
+  "en": "The interpreter at work",
+  "uk": "Перекладач за роботою"
+ },
+ "intro": {
+  "en": "Everything you have learned comes together here: what you may and may not say, where to stand, the words that trick even experienced linguists, numbers and units, British and American vocabulary, and finally a full training session from the first “good morning” to the debrief.",
+  "uk": "Тут сходиться все, що ви вивчили: що можна й чого не можна казати, де стояти, слова, на яких помиляються навіть досвідчені лінгвісти, числа й одиниці, британська та американська лексика і, нарешті, ціле тренування — від першого «доброго ранку» до розбору."
+ },
+ "lessons": [
+  {
+   "id": "interpreter-role",
+   "mission": "interpreter",
+   "minutes": 5,
+   "title": {
+    "en": "Your role: training versus competition",
+    "uk": "Ваша роль: тренування і змагання"
+   },
+   "body": {
+    "en": [
+     "In training you are the coach’s voice. Render every instruction completely, in the coach’s order and tone: firm when it is about safety, warm when it is praise. Do not soften criticism, do not add reasons the coach did not give, and never add technique tips of your own, even when you know the answer. If you did not hear a word, ask before you translate.",
+     "A competition is different. Coaching a competitor during the competition is forbidden in both Parcours de Chasse – Sporting™ and Compak® Sporting: the shooter gets a yellow card, repeats bring further sanctions, and the referee removes the person who was coaching from the shooting area. The referee also decides alone: nobody in the squad comments on hits, and open criticism of a ruling counts as an attempt to influence the referee.",
+     "Here is the honest part. The FITASC rulebooks do not mention interpreters at all. Whether passing on a coach’s advice word for word during a competition counts as coaching, and where an interpreter may stand, the rules do not say. It is an open question for FITASC, and you should not present any answer as official.",
+     "Until FITASC answers, use the safe practice. In competition interpret only communication with the referee, the jury and the organiser: calls, decisions, warnings, protests, times and squads. Before the event, tell the referee or organiser who you are and agree where you will stand. If a coach asks you to pass on advice during the competition, decline politely and explain why. It protects your shooter from a yellow card."
+    ],
+    "uk": [
+     "На тренуванні ви — голос тренера. Передавайте кожну вказівку повністю, у тому самому порядку й тоні: твердо, коли йдеться про безпеку, тепло, коли це похвала. Не пом’якшуйте критику, не додавайте пояснень, яких тренер не давав, і ніколи не додавайте власних технічних порад, навіть якщо знаєте відповідь. Якщо не почули слово — перепитайте до перекладу.",
+     "На змаганнях усе інакше. Підказувати учасникові під час змагань заборонено і в Parcours de Chasse – Sporting™, і в Compak® Sporting: стрілець отримує жовту картку, за повтори — подальші санкції, а того, хто підказував, суддя видаляє із зони стрільби. До того ж суддя вирішує сам: ніхто в групі не коментує влучання, а відкрита критика рішення вважається спробою вплинути на суддю.",
+     "А тепер чесно. Регламенти FITASC узагалі не згадують перекладачів. Чи вважається підказкою дослівна передача поради тренера під час змагань і де може стояти перекладач, правила не кажуть. Це відкрите питання до FITASC, і жодну відповідь не варто подавати як офіційну.",
+     "Поки FITASC не відповіла, дотримуйтеся безпечної практики. На змаганнях перекладайте лише спілкування із суддею, журі та організатором: команди, рішення, попередження, протести, час і групи. До початку скажіть судді чи організаторові, хто ви, і домовтеся, де стоятимете. Якщо тренер просить передати пораду під час змагань, ввічливо відмовтеся й поясніть чому. Так ви вбережете свого стрільця від жовтої картки."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Training: the coach’s voice — complete, same tone, nothing of your own",
+     "Competition: coaching is forbidden (yellow card, coach removed)",
+     "Open FITASC question: rulebooks do not mention interpreters",
+     "Safe practice: interpret only referee, jury and organiser communication in competition",
+     "Introduce yourself to the referee and agree where you stand"
+    ],
+    "uk": [
+     "Тренування: ви — голос тренера, повністю, тим самим тоном, нічого від себе",
+     "Змагання: підказки заборонено (жовта картка, тренера видаляють)",
+     "Відкрите питання для FITASC: регламенти не згадують перекладачів",
+     "Безпечна практика: на змаганнях перекладайте лише суддю, журі й організатора",
+     "Представтеся судді й домовтеся, де стоятимете"
+    ]
+   },
+   "terms": [
+    "coach",
+    "referee",
+    "jury",
+    "yellow-card",
+    "conduct",
+    "interpreter",
+    "coaching"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch8-coaching"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-referee-alone"
+    },
+    {
+     "book": "sporting",
+     "id": "ch11-influence"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-coaching"
+    },
+    {
+     "book": "compak",
+     "id": "ch19-referee-powers"
+    },
+    {
+     "book": "compak",
+     "id": "ch22-influence"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines (presentation page)",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Tell her she’s lifting her head on the second bird.",
+     "meaning": {
+      "en": "Training: pass it on fully when the gun is open.",
+      "uk": "Тренування: передайте повністю, коли рушниця відкрита."
+     },
+     "say": {
+      "uk": "Тренер каже: на другій мішені ви піднімаєте голову."
+     }
+    },
+    {
+     "en": "Quick — tell him to give the crosser more.",
+     "meaning": {
+      "en": "Competition: this is coaching. Decline politely; do not pass it on.",
+      "uk": "Змагання: це підказка. Ввічливо відмовтеся, не передавайте."
+     },
+     "say": {
+      "uk": "(тренерові) Вибачте, під час змагань я не можу передавати поради — стрілець отримає жовту картку."
+     }
+    },
+    {
+     "en": "Who are you with?",
+     "meaning": {
+      "en": "The referee asks why you are near the stand; introduce yourself and your role.",
+      "uk": "Суддя питає, чому ви біля позиції; представтеся й назвіть свою роль."
+     },
+     "say": {
+      "uk": "Я перекладач цього стрільця; перекладаю лише ваші рішення й команди."
+     }
+    },
+    {
+     "en": "Ask the referee if I can still change chokes.",
+     "meaning": {
+      "en": "A procedural question to the referee: you may interpret it.",
+      "uk": "Процедурне запитання до судді: його перекладати можна."
+     },
+     "say": {
+      "uk": "(судді) Стрілець питає, чи може він ще замінити чоки."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "During a competition round the coach asks you to tell the shooter “more lead on the crosser”. What do you do?",
+      "uk": "Під час змагального раунду тренер просить передати стрільцеві «більший винос на поперечній». Що ви робите?"
+     },
+     "options": {
+      "en": [
+       "Whisper it quickly",
+       "Translate it after the next target",
+       "Politely decline: it would be coaching, which is forbidden",
+       "Ask the referee to pass it on"
+      ],
+      "uk": [
+       "Швидко прошепотіти",
+       "Перекласти після наступної мішені",
+       "Ввічливо відмовитися: це була б підказка, а підказки заборонено",
+       "Попросити суддю передати"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Coaching during competition is forbidden and the shooter would get a yellow card; the rules do not say whether relaying advice is allowed, so stay safe.",
+      "uk": "Підказки під час змагань заборонені, стрілець отримав би жовту картку; чи можна передавати поради, правила не кажуть, тож дійте обережно."
+     }
+    },
+    {
+     "q": {
+      "en": "What do the FITASC rulebooks say about interpreters?",
+      "uk": "Що кажуть регламенти FITASC про перекладачів?"
+     },
+     "options": {
+      "en": [
+       "They may stand on the stand",
+       "They need a referee’s licence",
+       "They count as coaches",
+       "Nothing: it is an open question"
+      ],
+      "uk": [
+       "Вони можуть стояти на позиції",
+       "Їм потрібна суддівська ліцензія",
+       "Їх прирівнюють до тренерів",
+       "Нічого: це відкрите питання"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The rulebooks do not mention interpreters, so their exact position in competition is an open question for FITASC.",
+      "uk": "Регламенти не згадують перекладачів, тож їхнє становище на змаганнях — відкрите питання для FITASC."
+     }
+    },
+    {
+     "q": {
+      "en": "In training, the coach says “Not bad, but you stopped the gun.” How do you translate?",
+      "uk": "На тренуванні тренер каже «Not bad, but you stopped the gun». Як перекласти?"
+     },
+     "options": {
+      "en": [
+       "Fully and in the same tone, both parts",
+       "Only the praise, to keep the guest happy",
+       "Only the fault, to save time",
+       "Add your own tip on how to fix it"
+      ],
+      "uk": [
+       "Повністю й тим самим тоном, обидві частини",
+       "Лише похвалу, щоб гість був задоволений",
+       "Лише помилку, щоб зекономити час",
+       "Додати власну пораду, як виправити"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "You neither soften nor inflate: the whole message, in the coach’s tone, with nothing of your own.",
+      "uk": "Не пом’якшуйте й не перебільшуйте: усе повідомлення, тоном тренера, нічого від себе."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "interpreter-position",
+   "mission": "interpreter",
+   "minutes": 5,
+   "title": {
+    "en": "Where to stand and when to speak",
+    "uk": "Де стояти й коли говорити"
+   },
+   "body": {
+    "en": [
+     "In training, stand directly behind the shooter, next to the coach, behind the stand or cage and out of any line of the barrels. From there you see what the coach sees, the target and the muzzles together, and the coach can talk to you quietly. Beside the shooter is the most dangerous place; in front of the stand is out of the question.",
+     "Choose the mode for the moment. Consecutive interpreting (the coach speaks, pauses, you speak) suits the safety briefing, the walk between stands and the debrief. Whispered interpreting, chuchotage, lets the coach keep talking while you whisper into the shooter’s ear from behind; it is tiring, so alternate the two. Agree on a “pause, I’m translating” sign, such as a raised palm.",
+     "Timing is everything. The shooter’s routine runs from closing the gun to the shot. Speak only when the gun is open: between targets, between pairs, after the stand. Between pairs, mirror the coach’s short cues, “more in front”, “head down”, “same again”, and keep the long explanations for later. Remember the clock: in Parcours de Chasse – Sporting™ a shooter has at most 15 seconds between targets or doubles, and in Compak® Sporting 10 seconds to call. Your words use that time too.",
+     "In competition, wait where the squad waits, close to the stand but never distracting the shooter: a clearly disturbed shooter gets a No Bird, and nobody wants to be the cause. Learn the coach’s hand signals at the start and translate them once for your guests; after that they will need you less, and that is a good sign."
+    ],
+    "uk": [
+     "На тренуванні стійте просто за стрільцем, поруч із тренером, позаду позиції чи рами (cage) й поза будь-якою лінією стволів. Звідти ви бачите те саме, що й тренер, — мішень і стволи разом, а тренер може тихо говорити до вас. Збоку від стрільця — найнебезпечніше місце; попереду позиції стояти неприпустимо.",
+     "Обирайте режим під ситуацію. Послідовний переклад (тренер говорить, робить паузу, говорите ви) пасує до інструктажу з безпеки, переходів між позиціями й розбору. Шепітний переклад, шушотаж (chuchotage), дає тренерові говорити без зупинок, а ви шепочете стрільцеві на вухо ззаду; це виснажує, тож чергуйте обидва. Домовтеся про знак «пауза, перекладаю», наприклад підняту долоню.",
+     "Час вирішує все. Підготовка стрільця триває від закриття рушниці до пострілу. Говоріть лише тоді, коли рушниця відкрита: між мішенями, між дуплетами, після позиції. Між дуплетами повторюйте короткі підказки тренера — «більше вперед», «голову на приклад», «так само» — а довгі пояснення залиште на потім. Пам’ятайте про час: у Parcours de Chasse – Sporting™ між мішенями чи дуплетами стрілець має щонайбільше 15 секунд, а в Compak® Sporting — 10 секунд на команду. Ваші слова теж забирають цей час.",
+     "На змаганнях чекайте там, де чекає група, — поблизу позиції, але так, щоб не заважати стрільцеві: якщо стрільцеві явно завадили, суддя дає No Bird, і ніхто не хоче бути причиною. На початку вивчіть жести тренера й один раз перекладіть їх гостям; далі ви їм будете потрібні менше — і це добрий знак."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Training: directly behind the shooter, next to the coach, out of the barrels’ line",
+     "Consecutive for briefings and debriefs; chuchotage on the stand; alternate",
+     "Speak only when the gun is open",
+     "Short cues between pairs; time limits 15 s (Sporting™) and 10 s (Compak®)",
+     "Competition: wait with the squad, never distract"
+    ],
+    "uk": [
+     "Тренування: просто за стрільцем, поруч із тренером, поза лінією стволів",
+     "Послідовний — для інструктажу й розбору; шушотаж — на позиції; чергуйте",
+     "Говоріть лише тоді, коли рушниця відкрита",
+     "Короткі підказки між дуплетами; ліміти 15 с (Sporting™) і 10 с (Compak®)",
+     "Змагання: чекайте з групою, нікому не заважайте"
+    ]
+   },
+   "terms": [
+    "quiet-on-stand",
+    "shooting-stand",
+    "coach",
+    "firing-time",
+    "no-bird",
+    "chuchotage",
+    "consecutive-interpreting",
+    "hand-signals"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-waiting-positions"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-fifteen-seconds"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-cases"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-fal"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-call-time-and-changeover"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-squad-rotation"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-target-no-bird-cases"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Let’s Go Shooting — Discover Sporting Clays: NSCA beginner’s guide",
+     "url": "https://www.letsgoshooting.org/resources/articles/shotgun/discover-sporting-clays-nsca-beginners-guide/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Stand right behind me.",
+     "meaning": {
+      "en": "Behind the coach and the shooter, out of the swing.",
+      "uk": "Позаду тренера й стрільця, поза рухом рушниці."
+     },
+     "say": {
+      "uk": "Станьте просто за мною."
+     }
+    },
+    {
+     "en": "Head on the stock — just whisper it to him, I’ll keep going.",
+     "meaning": {
+      "en": "Switch to chuchotage and pass the cue on quietly; the coach will not pause.",
+      "uk": "Перейдіть на шушотаж і тихо передайте підказку; тренер не робитиме пауз."
+     },
+     "say": {
+      "uk": "(пошепки) Щокою на приклад."
+     }
+    },
+    {
+     "en": "When I do this — hands apart — it means more in front.",
+     "meaning": {
+      "en": "The coach explains a hand signal; translate it once for the group.",
+      "uk": "Тренер пояснює жест; перекладіть його групі один раз."
+     },
+     "say": {
+      "uk": "Коли тренер розводить руки — це означає «більше вперед»."
+     }
+    },
+    {
+     "en": "Wait — let him finish the pair.",
+     "meaning": {
+      "en": "Hold the advice until the gun is open again.",
+      "uk": "Притримайте пораду, доки рушниця знову не буде відкрита."
+     },
+     "say": {
+      "uk": "Зачекайте — нехай дострілить дуплет."
+     }
+    },
+    {
+     "en": "Sorry — did you say “under it” or “on it”?",
+     "meaning": {
+      "en": "Ask back with the two options you heard; faster than “repeat please”.",
+      "uk": "Перепитайте, назвавши два варіанти, які почули; так швидше, ніж «повторіть»."
+     },
+     "say": {
+      "uk": "(тренерові) Вибачте: «під нею» чи «на ній»?"
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Where should you stand during a training session on a Sporting™ stand?",
+      "uk": "Де вам стояти під час тренування на позиції Sporting™?"
+     },
+     "options": {
+      "en": [
+       "Beside the shooter, to see the eyes",
+       "Behind the shooter next to the coach, out of the barrels’ line",
+       "In front of the cage, facing the shooter",
+       "Next to the trap"
+      ],
+      "uk": [
+       "Збоку від стрільця, щоб бачити очі",
+       "Позаду стрільця, поруч із тренером, поза лінією стволів",
+       "Перед рамою (cage), обличчям до стрільця",
+       "Біля машинки"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "From behind you see what the coach sees and stay safe; beside or in front is dangerous.",
+      "uk": "Ззаду ви бачите те саме, що й тренер, і в безпеці; збоку чи попереду — небезпечно."
+     }
+    },
+    {
+     "q": {
+      "en": "What is chuchotage?",
+      "uk": "Що таке шушотаж (chuchotage)?"
+     },
+     "options": {
+      "en": [
+       "Interpreting after the speaker pauses",
+       "Written translation of the rules",
+       "Translating hand signals",
+       "Whispered simultaneous interpreting into the listener’s ear"
+      ],
+      "uk": [
+       "Переклад після паузи мовця",
+       "Письмовий переклад правил",
+       "Переклад жестів",
+       "Шепітний синхронний переклад на вухо слухачеві"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Chuchotage is whispered simultaneous interpreting; consecutive is the pause-and-speak mode.",
+      "uk": "Шушотаж — шепітний синхронний переклад; послідовний — це режим «пауза — переклад»."
+     }
+    },
+    {
+     "q": {
+      "en": "In Compak® Sporting, how long does a shooter have to call after the previous station’s target was shot?",
+      "uk": "Скільки часу в Compak® Sporting має стрілець на команду після того, як відстріляли мішень попередньої позиції?"
+     },
+     "options": {
+      "en": [
+       "10 seconds",
+       "15 seconds",
+       "30 seconds",
+       "No limit"
+      ],
+      "uk": [
+       "10 секунд",
+       "15 секунд",
+       "30 секунд",
+       "Без обмежень"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Compak® gives at most 10 seconds to call; Sporting™ allows 15 seconds between targets or doubles.",
+      "uk": "У Compak® на команду щонайбільше 10 секунд; у Sporting™ — 15 секунд між мішенями чи дуплетами."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "interpreter-false-friends",
+   "mission": "interpreter",
+   "minutes": 6,
+   "title": {
+    "en": "False friends on the shooting ground",
+    "uk": "Хибні друзі на стрільбищі"
+   },
+   "body": {
+    "en": [
+     "The worst trap is smoke. A coach’s “Smoked it!” (or “inked it”, “powdered it”) means a perfect hit: the target vanished in a cloud. But in the rules a target that gives off only dust or smoke, with no visible piece, is a zero. A “chip”, a small visible piece, is a hit. So translate the coach’s “smoked it” as «розбили вщент», and the referee’s “only dust” as «лише пил — нуль».",
+     "Scoring words are not literal. “Dead” and “kill” mean a hit («є», «збита»), never «мертва» or «вбивство». “Lost” is a miss («промах», «нуль»), not «загублена». “Dropped two” means two targets missed. “Straight” in “25 straight” means a perfect run, not «прямо».",
+     "Equipment and place words. A “trap” is the throwing machine («машинка»), not «пастка» (Trap is also an Olympic discipline). A “stand” is one position, not «стенд»; a “peg” is the marked spot, not a stake; a “broken gun” is an open gun. “Pull!” is the call, “pull-away” a lead method, “length of pull” a stock size. A “card” is a score card or a yellow or red card. “On report” means at the sound of the shot. A “squad” is the FITASC group of up to six; in ClayAway it also names a sub-group of a tour.",
+     "Other languages add traps. French “chandelle” is a near-vertical target (an English teal), not the English chandelle. French “en battue” and Italian “in battuta” mean driven game, not the battue target; Portuguese “batida” is the battue target, “de batida” means driven. For a hit a French referee says “Bon”, an Italian “Buono”; the trapper is a “pulleur” or “puller”. Italian rules use different words for a squad: batteria in Parcours de Chasse – Sporting™, squadra di tiro in Compak®."
+    ],
+    "uk": [
+     "Найгірша пастка — дим. Коли тренер вигукує «Smoked it!» (або «inked it», «powdered it»), це ідеальне влучання: мішень зникла в хмарі. Але за правилами мішень, від якої лише пил чи дим без видимого шматка, — нуль. «Chip» — маленький видимий уламок — це влучання. Тож «smoked it» тренера перекладайте «розбили вщент», а «only dust» судді — «лише пил — нуль».",
+     "Слова підрахунку не дослівні. «Dead» і «kill» означають влучання («є», «збита»), а не «мертва» чи «вбивство». «Lost» — промах («промах», «нуль»), а не «загублена». «Dropped two» — дві мішені пропущено. «Straight» у «25 straight» — бездоганна серія, а не «прямо».",
+     "Слова про обладнання й місце. «Trap» — метальна машинка, а не «пастка», хоча Trap — ще й олімпійська дисципліна. «Stand» — одна позиція для стрільби, а не «стенд». «Peg» — позначене місце стрільця, а не дерев’яний кілок. «Broken gun» — відкрита (переламана) рушниця. «Pull!» — команда; «pull-away» — метод виносу; «length of pull» — розмір приклада. «Card» — це і картка результатів, і жовта чи червона картка. «On report» — на звук пострілу, а не «звіт». «Squad» — група FITASC до шести осіб; у ClayAway так само називають підгрупу туру.",
+     "Інші мови мають свої пастки. Французьке «chandelle» — майже вертикальна мішень (англійський teal), а англійська chandelle — інша траєкторія. Французьке «en battue» та італійське «in battuta» означають загінне полювання, а не мішень battue; португальське «batida» — це мішень battue, а «de batida» — загінна. Французький суддя на влучання каже «Bon», італійський — «Buono»; оператора машинки називають «pulleur» або «puller». Італійські правила навіть називають групу по-різному: batteria у Parcours de Chasse – Sporting™ і squadra di tiro у Compak®."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Coach “smoked it” = perfect hit; rules “only dust or smoke” = zero",
+     "Dead / kill = hit; lost / dropped = miss; straight = perfect run",
+     "Trap = machine; stand = one position; peg = the spot; broken gun = open gun",
+     "Pull, card, report and squad each have more than one meaning",
+     "French chandelle and “en battue” differ from the English words"
+    ],
+    "uk": [
+     "«Smoked it» тренера — ідеальне влучання; «only dust or smoke» у правилах — нуль",
+     "Dead / kill — влучання; lost / dropped — промах; straight — бездоганна серія",
+     "Trap — машинка; stand — одна позиція; peg — місце стрільця; broken gun — відкрита рушниця",
+     "Pull, card, report і squad мають більш ніж одне значення",
+     "Французькі chandelle та «en battue» не збігаються з англійськими словами"
+    ]
+   },
+   "terms": [
+    "one",
+    "zero",
+    "visible-piece",
+    "trap",
+    "shooting-stand",
+    "squad",
+    "call",
+    "double-on-report",
+    "pull-away",
+    "length-of-pull",
+    "yellow-card",
+    "score-sheet",
+    "battue",
+    "teal",
+    "false-friend",
+    "peg",
+    "smoked-it"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch6-target-one"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-target-zero"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-glossary"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-double-on-report"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-one"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-zero"
+    },
+    {
+     "book": "compak",
+     "id": "ch16-squad-group"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Smoked it!",
+     "meaning": {
+      "en": "Perfect hit, the target turned to dust. Not the rules’ “smoke only”.",
+      "uk": "Ідеальне влучання, мішень розлетілася на пил. Не плутати з «лише дим» у правилах."
+     },
+     "say": {
+      "uk": "Розбили вщент!"
+     }
+    },
+    {
+     "en": "Only dust — zero.",
+     "meaning": {
+      "en": "Referee: no visible piece came off, so it is a miss.",
+      "uk": "Суддя: видимого шматка не відлетіло, отже промах."
+     },
+     "say": {
+      "uk": "Лише пил — нуль."
+     }
+    },
+    {
+     "en": "Just a chip, but it’s dead.",
+     "meaning": {
+      "en": "A small visible piece broke off: it counts as a hit.",
+      "uk": "Відлетів маленький видимий уламок: це влучання."
+     },
+     "say": {
+      "uk": "Лише уламок, але зараховано."
+     }
+    },
+    {
+     "en": "Break your gun.",
+     "meaning": {
+      "en": "Open the gun. Nothing to do with breaking it.",
+      "uk": "Відкрийте рушницю. Нічого спільного з поломкою."
+     },
+     "say": {
+      "uk": "Відкрийте (переламайте) рушницю."
+     }
+    },
+    {
+     "en": "Step into the peg.",
+     "meaning": {
+      "en": "Stand on the marked shooting spot.",
+      "uk": "Станьте на позначене місце стрільця."
+     },
+     "say": {
+      "uk": "Ставайте на місце стрільця."
+     }
+    },
+    {
+     "en": "The second one’s on report.",
+     "meaning": {
+      "en": "The second target is released by the sound of your first shot.",
+      "uk": "Другу мішень випускають на звук вашого першого пострілу."
+     },
+     "say": {
+      "uk": "Друга — за пострілом."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The coach shouts “Smoked it!” after a shot. What happened?",
+      "uk": "Після пострілу тренер вигукує «Smoked it!». Що сталося?"
+     },
+     "options": {
+      "en": [
+       "Only smoke came off: a zero",
+       "The target was destroyed: a perfect hit",
+       "The cartridge misfired",
+       "The target was a flash target"
+      ],
+      "uk": [
+       "Лише дим: нуль",
+       "Мішень знищено: ідеальне влучання",
+       "Набій дав осічку",
+       "Це була мішень flash"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "In coach slang “smoked it” is a perfect hit; in the rules “only dust or smoke” is a zero — opposite meanings.",
+      "uk": "На сленгу тренерів «smoked it» — ідеальне влучання; у правилах «лише пил чи дим» — нуль. Протилежні значення."
+     }
+    },
+    {
+     "q": {
+      "en": "Best Ukrainian for the referee’s “Lost.”?",
+      "uk": "Найкращий український відповідник для «Lost.» судді?"
+     },
+     "options": {
+      "en": [
+       "«Загублена»",
+       "«Втрачено час»",
+       "«Промах»",
+       "«Мішень зникла»"
+      ],
+      "uk": [
+       "«Загублена»",
+       "«Втрачено час»",
+       "«Промах»",
+       "«Мішень зникла»"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "“Lost” is the scoring word for a miss (zero), not something lost.",
+      "uk": "«Lost» — слово підрахунку для промаху (нуля), а не щось загублене."
+     }
+    },
+    {
+     "q": {
+      "en": "A French guest says he loves shooting “en battue”. What does he mean?",
+      "uk": "Французький гість каже, що любить стріляти «en battue». Що він має на увазі?"
+     },
+     "options": {
+      "en": [
+       "Driven game (birds driven over the guns)",
+       "The flat battue target",
+       "A target thrown in a pair",
+       "A broken target"
+      ],
+      "uk": [
+       "Загінне полювання (птахів женуть на стрільців)",
+       "Пласка мішень battue",
+       "Мішень у дуплеті",
+       "Розбита мішень"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "French “en battue” (Italian “in battuta”) means driven game; the battue target is a separate thing.",
+      "uk": "Французьке «en battue» (італійське «in battuta») — загінне полювання; мішень battue — інше."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "interpreter-numbers-and-units",
+   "mission": "interpreter",
+   "minutes": 5,
+   "title": {
+    "en": "Numbers and units: feet, yards, gauges, shot sizes",
+    "uk": "Числа й одиниці: фути, ярди, калібри, номери дробу"
+   },
+   "body": {
+    "en": [
+     "British and American coaches measure lead in feet: “give it three feet”, “a yard in front”, “half a bird”, “a barrel’s width”. This is a picture, not a measurement. Translate the unit as said, «три фути», and do not convert it in the middle of an instruction: 0.9 m sounds precise and changes the meaning. Explain once, before the session, that coaches’ feet are an impression, and keep “more”, “less”, “double it” exactly as said.",
+     "Distances to targets are another matter. “It’s about thirty yards” can be given in metres with “about” («приблизно 27 метрів»), because a yard is a little less than a metre. Directions often come as a clock face: straight ahead is 12, so “pick it up at eleven o’clock” is slightly left. Keep the clock; do not turn it into degrees.",
+     "Gauge works backwards. A “12-bore” or “12 gauge” is not 12 mm; the smaller the number, the wider the barrel, so a 20 gauge is thinner. Both FITASC rulebooks allow calibre 12 at most, with barrels of at least 66 cm (26 inches). The vest line in Parcours de Chasse – Sporting™ is 25 cm, which British shooters may call just under ten inches.",
+     "Cartridges: FITASC allows at most 28 g of lead, close to the “one-ounce load” British shooters mention, with shot of 2.0 to 2.5 mm. Shot numbers are not the same in every country: a No. 9 is about 2 mm almost everywhere, but other numbers can differ slightly between British, American and continental systems. When it matters, ask for millimetres. Chokes may come as names, fractions or “thou” (thousandths of an inch); translate the system the coach used."
+    ],
+    "uk": [
+     "Британські й американські тренери міряють винос у футах: «give it three feet», «a yard in front», «half a bird», «a barrel’s width». Це картинка, а не вимір. Перекладайте одиницю так, як сказано, — «три фути», — і не перераховуйте посеред вказівки: «0,9 м» звучить точно й змінює зміст. Поясніть один раз, ще до тренування, що фути тренера — це враження, а «more», «less», «double it» передавайте дослівно.",
+     "Відстань до мішені — інша справа. «It’s about thirty yards» можна передати в метрах зі словом «приблизно» («приблизно 27 метрів»), бо ярд трохи менший за метр. Напрямки часто дають за циферблатом: прямо перед стрільцем — 12, тож «pick it up at eleven o’clock» — трохи ліворуч. Залишайте циферблат, не перетворюйте його на градуси.",
+     "Калібр рахують навпаки. «12-bore» чи «12 gauge» — не 12 мм; що менше число, то ширший ствол, тож 20-й калібр тонший. Обидва регламенти FITASC дозволяють щонайбільше 12-й калібр і стволи щонайменше 66 см (26 дюймів). Позначка на жилеті в Parcours de Chasse – Sporting™ — 25 см; британці можуть сказати «трохи менше десяти дюймів».",
+     "Набої: FITASC дозволяє не більше 28 г свинцю — це близько до «one-ounce load», про яке говорять британці, — і дріб 2,0–2,5 мм. Номери дробу в різних країнах не збігаються: № 9 майже всюди близько 2 мм, але інші номери можуть трохи відрізнятися в британській, американській і континентальній системах. Коли це важливо, перепитайте міліметри. Чоки називають назвами, дробами або «thou» (тисячними дюйма); перекладайте в тій системі, якою користувався тренер."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Lead in feet is a picture: keep the unit, never convert mid-instruction",
+     "Target distance: yards may become “about … metres”",
+     "Clock face for directions: 12 = straight ahead",
+     "12 gauge ≠ 12 mm; FITASC max calibre 12, barrels ≥ 66 cm (26 in)",
+     "28 g ≈ one ounce; shot 2.0–2.5 mm; shot numbers differ by country — ask for mm"
+    ],
+    "uk": [
+     "Винос у футах — це картинка: залишайте одиницю, не перераховуйте посеред вказівки",
+     "Відстань до мішені: ярди можна передати як «приблизно … метрів»",
+     "Напрямок за циферблатом: 12 — прямо",
+     "12 gauge ≠ 12 мм; у FITASC максимум 12-й калібр, стволи ≥ 66 см (26 дюймів)",
+     "28 г ≈ одна унція; дріб 2,0–2,5 мм; номери дробу різняться за країнами — перепитуйте мм"
+    ]
+   },
+   "terms": [
+    "lead",
+    "gauge",
+    "barrel-length",
+    "shot-size",
+    "load-weight",
+    "choke",
+    "cartridge",
+    "clock-face"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch7-permitted-guns"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-cartridges"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-jacket-line"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-gun"
+    },
+    {
+     "book": "compak",
+     "id": "ch18-cartridge-load"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shotgun Life — Does barrel length impact target lead?",
+     "url": "https://www.shotgunlife.com/briefs/does-shotgun-barrel-length-impact-target-lead.html"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Give it three feet.",
+     "meaning": {
+      "en": "The lead picture the coach wants; a perceived gap, not a measured distance.",
+      "uk": "Картинка виносу, якої хоче тренер; видимий проміжок, а не виміряна відстань."
+     },
+     "say": {
+      "uk": "Винос — три фути."
+     }
+    },
+    {
+     "en": "Half that.",
+     "meaning": {
+      "en": "Use half of the previous lead.",
+      "uk": "Удвічі менший винос, ніж попередній."
+     },
+     "say": {
+      "uk": "Удвічі менше."
+     }
+    },
+    {
+     "en": "Pick it up at eleven o’clock.",
+     "meaning": {
+      "en": "Look for the target slightly left of straight ahead.",
+      "uk": "Шукайте мішень трохи ліворуч від напрямку прямо."
+     },
+     "say": {
+      "uk": "Зустрічайте її на одинадцятій годині."
+     }
+    },
+    {
+     "en": "It’s about forty yards out.",
+     "meaning": {
+      "en": "The target is roughly 37 metres away.",
+      "uk": "Мішень приблизно за 37 метрів."
+     },
+     "say": {
+      "uk": "Вона приблизно за сорок ярдів — це десь 37 метрів."
+     }
+    },
+    {
+     "en": "Put a nine in the bottom barrel.",
+     "meaning": {
+      "en": "Load a No. 9 shot cartridge (about 2 mm) in the lower barrel, which usually fires first.",
+      "uk": "У нижній ствол, який зазвичай стріляє першим, — набій із дробом № 9 (близько 2 мм)."
+     },
+     "say": {
+      "uk": "У нижній ствол — дев’ятку."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The coach says “Give it four feet.” What is the best interpretation?",
+      "uk": "Тренер каже «Give it four feet». Як найкраще перекласти?"
+     },
+     "options": {
+      "en": [
+       "«Винос — приблизно 1,22 метра»",
+       "«Винос — чотири фути»",
+       "«Стріляйте на чотири метри далі»",
+       "«Чотири мішені вперед»"
+      ],
+      "uk": [
+       "«Винос — приблизно 1,22 метра»",
+       "«Винос — чотири фути»",
+       "«Стріляйте на чотири метри далі»",
+       "«Чотири мішені вперед»"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Lead in feet is a picture; converting it mid-instruction adds false precision and changes the message.",
+      "uk": "Винос у футах — це картинка; перерахунок посеред вказівки додає хибної точності й змінює зміст."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the largest calibre allowed in FITASC Sporting™ and Compak®?",
+      "uk": "Який найбільший калібр дозволено у FITASC Sporting™ і Compak®?"
+     },
+     "options": {
+      "en": [
+       "10",
+       "16",
+       "20",
+       "12"
+      ],
+      "uk": [
+       "10",
+       "16",
+       "20",
+       "12"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Both rulebooks allow calibre 12 at most; a smaller gauge number means a wider bore, so 10 is not allowed.",
+      "uk": "Обидва регламенти дозволяють щонайбільше 12-й калібр; менше число — ширший ствол, тож 10-й не дозволено."
+     }
+    },
+    {
+     "q": {
+      "en": "A British guest asks whether his “one-ounce” cartridges are legal at a FITASC event. What do you know?",
+      "uk": "Британський гість питає, чи легальні його набої «one-ounce» на змаганнях FITASC. Що ви знаєте?"
+     },
+     "options": {
+      "en": [
+       "The FITASC limit is 28 g of lead (+2%), which is about one ounce",
+       "FITASC allows 36 g",
+       "Any load is allowed",
+       "Only 24 g is allowed"
+      ],
+      "uk": [
+       "Ліміт FITASC — 28 г свинцю (+2%), це близько однієї унції",
+       "FITASC дозволяє 36 г",
+       "Дозволено будь-яке спорядження",
+       "Дозволено лише 24 г"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The rules allow up to 28 g of lead with a +2% tolerance; one ounce is about 28 g. Shot size (2.0–2.5 mm) must also fit.",
+      "uk": "Правила дозволяють до 28 г свинцю з допуском +2%; унція — близько 28 г. Дріб (2,0–2,5 мм) теж має відповідати."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "interpreter-english-sporting-vs-fitasc",
+   "mission": "interpreter",
+   "minutes": 5,
+   "title": {
+    "en": "British and American words versus FITASC",
+    "uk": "Британські й американські слова проти FITASC"
+   },
+   "body": {
+    "en": [
+     "Many coaches you will work with grew up with English Sporting, governed in England by the CPSA, or with American Sporting Clays under the NSCA. The words are similar to FITASC, but the rules behind them are not, and the biggest difference is the gun position.",
+     "In English Sporting and NSCA a shooter may start “gun up”, already mounted, before calling. In Parcours de Chasse – Sporting™ that is not allowed: the stock stays below the line on the vest until the target appears, and every target is shot from the shoulder. Compak® Sporting is in between: the gun position at the call is free. So “pre-mount this one” is a drill in training, but a yellow card at a FITASC Sporting™ competition. Translate it, and if the guest is about to compete, ask the coach whether to mention the rule.",
+     "Pairs have different names. A “true pair” (English and American) is a FITASC simultaneous double. A “report pair” is a double on report. A “following pair” is a FITASC rafale. A “show pair” is the viewing of targets before shooting. A “peg” is the shooting stand, a “station” is the American word for a stand, and a “cage” is the frame around it.",
+     "Results talk differs too. “HOA”, High Over All, is the overall winner. Classes such as AA, A, B or C are national skill levels from averages, not FITASC age categories, and not the FITASC difficulty classes A, B and C, which grade trajectories. Even within FITASC, pairs differ: in Sporting™ both cartridges may go at one target of a double, in Compak® only one cartridge per target. Always ask yourself which rulebook the speaker has in mind."
+    ],
+    "uk": [
+     "Багато тренерів, з якими ви працюватимете, виросли на English Sporting, яким в Англії опікується CPSA, або на американському Sporting Clays за правилами NSCA. Слова схожі на слова FITASC, але правила за ними інші, і найбільша різниця — положення рушниці.",
+     "В English Sporting і NSCA стрілець може починати «gun up», тобто з уже вкинутою рушницею, ще до команди. У Parcours de Chasse – Sporting™ так не можна: приклад тримають нижче позначки на жилеті, доки не з’явиться мішень, і кожну мішень стріляють із плеча. Compak® Sporting — посередині: положення рушниці під час команди вільне. Тож «pre-mount this one» — це вправа на тренуванні, але жовта картка на змаганнях FITASC Sporting™. Перекладайте, а якщо гість збирається на змагання, запитайте тренера, чи нагадати про правило.",
+     "Дуплети мають різні назви. «True pair» (британське й американське) — це одночасний дуплет FITASC. «Report pair» — дуплет за пострілом. «Following pair» — рафаль FITASC. «Show pair» — показ мішеней перед стрільбою. «Peg» — місце стрільця, «station» — американське слово для позиції, а «cage» — рама навколо неї.",
+     "Різниться й мова результатів. «HOA», High Over All, — абсолютний переможець. Класи AA, A, B чи C — це національні рівні майстерності за середнім результатом, а не вікові категорії FITASC і не класи складності A, B і C, якими у FITASC оцінюють траєкторії. Навіть у межах FITASC дуплети різні: у Sporting™ обидва набої можна випустити по одній мішені дуплета, у Compak® — лише один набій на мішень. Завжди запитуйте себе, який регламент має на увазі мовець."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Gun up: allowed in English Sporting and NSCA, forbidden in FITASC Sporting™, free in Compak®",
+     "True pair = simultaneous; report pair = on report; following pair = rafale",
+     "Peg = shooting spot; station = stand (US); cage = protective frame",
+     "HOA = overall winner; AA/A/B/C classes are not FITASC categories or difficulty classes",
+     "Sporting™: both shots at one target allowed; Compak®: one per target"
+    ],
+    "uk": [
+     "Gun up: дозволено в English Sporting і NSCA, заборонено у FITASC Sporting™, вільно в Compak®",
+     "True pair — одночасний; report pair — за пострілом; following pair — рафаль",
+     "Peg — місце стрільця; station — позиція (США); cage — захисна рама",
+     "HOA — абсолютний переможець; класи AA/A/B/C — не категорії й не класи складності FITASC",
+     "Sporting™: обидва постріли по одній мішені можна; Compak®: один на мішень"
+    ]
+   },
+   "terms": [
+    "ready-position",
+    "gun-mount",
+    "simultaneous-double",
+    "double-on-report",
+    "rafale-double",
+    "target-presentation",
+    "shooting-stand",
+    "english-sporting",
+    "nsca",
+    "cpsa",
+    "gun-up",
+    "true-pair",
+    "peg",
+    "cage",
+    "hoa",
+    "shooter-class"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch3-ready-position"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-mounting"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-yellow-card"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-gun-position"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-simultaneous-double"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-double-on-report"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-rafale-double"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-presentation"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-shooting-stands"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-difficulty-classes"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-doubles-general"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-one-cartridge-per-target"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "CPSA — English Sporting",
+     "url": "https://www.cpsa.co.uk/disciplines/esp"
+    },
+    {
+     "title": "Wikipedia — Sporting clays",
+     "url": "https://en.wikipedia.org/wiki/Sporting_clays"
+    },
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Pre-mount this one for now.",
+     "meaning": {
+      "en": "Training drill: start with the gun in the shoulder. Not allowed in FITASC Sporting™ competition.",
+      "uk": "Тренувальна вправа: починати з рушницею в плечі. На змаганнях FITASC Sporting™ так не можна."
+     },
+     "say": {
+      "uk": "Поки що цю — з уже вкинутою рушницею."
+     }
+    },
+    {
+     "en": "It’s a true pair.",
+     "meaning": {
+      "en": "Both targets leave at the same time (FITASC: simultaneous double).",
+      "uk": "Обидві мішені вилітають одночасно (FITASC: одночасний дуплет)."
+     },
+     "say": {
+      "uk": "Це одночасний дуплет."
+     }
+    },
+    {
+     "en": "Following pair off the left trap.",
+     "meaning": {
+      "en": "Two targets from the same trap one after the other (FITASC: rafale).",
+      "uk": "Дві мішені з однієї машинки одна за одною (FITASC: рафаль)."
+     },
+     "say": {
+      "uk": "Рафаль з лівої машинки."
+     }
+    },
+    {
+     "en": "Let’s see a show pair.",
+     "meaning": {
+      "en": "Throw the pair once so everyone can watch it before shooting.",
+      "uk": "Запустіть дуплет один раз, щоб усі подивилися перед стрільбою."
+     },
+     "say": {
+      "uk": "Покажіть, будь ласка, дуплет."
+     }
+    },
+    {
+     "en": "He’s AA class and won HOA last year.",
+     "meaning": {
+      "en": "A high national skill class, and overall winner of the event.",
+      "uk": "Високий національний клас майстерності й абсолютний переможець змагань."
+     },
+     "say": {
+      "uk": "У нього клас AA, і торік він виграв абсолютний залік."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "A British coach says “It’s a true pair.” What is the FITASC term?",
+      "uk": "Британський тренер каже «It’s a true pair». Який термін FITASC?"
+     },
+     "options": {
+      "en": [
+       "A double on report",
+       "A rafale double",
+       "A simultaneous double",
+       "A correct double"
+      ],
+      "uk": [
+       "Дуплет за пострілом",
+       "Рафаль",
+       "Одночасний дуплет",
+       "Правильний дуплет"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "“True pair” is the English and American name for two targets released together, a FITASC simultaneous double.",
+      "uk": "«True pair» — британська й американська назва двох мішеней, випущених разом, тобто одночасного дуплета FITASC."
+     }
+    },
+    {
+     "q": {
+      "en": "In which discipline is a “gun up” start NOT allowed?",
+      "uk": "У якій дисципліні старт «gun up» НЕ дозволено?"
+     },
+     "options": {
+      "en": [
+       "Parcours de Chasse – Sporting™ (FITASC)",
+       "Compak® Sporting",
+       "English Sporting (CPSA)",
+       "Sporting Clays (NSCA)"
+      ],
+      "uk": [
+       "Parcours de Chasse – Sporting™ (FITASC)",
+       "Compak® Sporting",
+       "English Sporting (CPSA)",
+       "Sporting Clays (NSCA)"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "FITASC Sporting™ requires the stock below the vest line until the target appears; Compak® leaves the gun position free.",
+      "uk": "FITASC Sporting™ вимагає тримати приклад нижче позначки на жилеті до появи мішені; у Compak® положення вільне."
+     }
+    },
+    {
+     "q": {
+      "en": "A guest reads “Class C” in British results. What is it?",
+      "uk": "Гість бачить «Class C» у британських результатах. Що це?"
+     },
+     "options": {
+      "en": [
+       "A FITASC age category",
+       "A national skill level based on averages",
+       "The hardest FITASC trajectory class",
+       "A type of cartridge"
+      ],
+      "uk": [
+       "Вікова категорія FITASC",
+       "Національний рівень майстерності за середнім результатом",
+       "Найскладніший клас траєкторії FITASC",
+       "Тип набою"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "In British and American results classes are skill levels; FITASC uses A/B/C only for trajectory difficulty and has age categories instead.",
+      "uk": "У британських і американських результатах класи — це рівні майстерності; у FITASC A/B/C — лише складність траєкторій, а для людей — вікові категорії."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "interpreter-session-script",
+   "mission": "interpreter",
+   "minutes": 8,
+   "title": {
+    "en": "A whole training session, step by step",
+    "uk": "Ціле тренування, крок за кроком"
+   },
+   "body": {
+    "en": [
+     "Before the session, meet the coach for five minutes. Agree on a pause sign, ask which method the coach teaches and which words he uses for lead, and learn his hand signals. Then the group gathers for the safety briefing: interpret it consecutively, sentence by sentence, firmly and completely.",
+     "On the first stand the coach usually starts without cartridges: an eye-dominance check, then stance and the ready position. In a FITASC context the gun starts low, below the line on the vest. Whisper his corrections from behind while he moves feet and hands.",
+     "Next comes reading the target. The coach shows it, asks where the shooter first sees it clearly, and sets the pick-up point, the hold point and the break point. Keep these three terms consistent all day, «точка підхоплення», «точка утримання», «точка пострілу», so the guest learns them.",
+     "Now the shooting. Between targets the coach gives two- to five-word cues; you mirror them, same length, same order, while the gun is open. When a miss is diagnosed, “behind”, “over the top”, “you stopped”, translate the diagnosis and the fix together. Praise is translated with the same energy.",
+     "Then the pairs: which target first, “eyes first, then the gun”, the second shot. Finally the debrief, consecutive again, where the coach sums up two or three points. Write them down in both languages and give the guest the note. Below is a real-world chain of phrases in the order you will hear them."
+    ],
+    "uk": [
+     "Перед тренуванням знайдіть п’ять хвилин для тренера. Домовтеся про знак паузи, запитайте, якого методу він навчає і якими словами говорить про винос, вивчіть його жести. Потім група збирається на інструктаж із безпеки: перекладайте його послідовно, речення за реченням, твердо й повністю.",
+     "На першій позиції тренер зазвичай починає без набоїв: перевірка провідного ока, потім стійка й положення готовності. У контексті FITASC рушниця на старті внизу, нижче позначки на жилеті. Шепочіть його виправлення ззаду, поки він ставить ноги й руки.",
+     "Далі — читання мішені. Тренер показує її, питає, де стрілець уперше чітко її бачить, і визначає точку підхоплення (pick-up point), точку утримання (hold point) і точку пострілу (break point). Тримайте ці три терміни однаковими весь день, щоб гість їх запам’ятав.",
+     "Тепер стрільба. Між мішенями тренер дає підказки на два–п’ять слів; ви повторюєте їх тієї самої довжини й у тому самому порядку, поки рушниця відкрита. Коли тренер називає причину промаху — «позаду», «вище», «зупинили», — перекладайте діагноз і виправлення разом. Похвалу передавайте з тією самою енергією.",
+     "Потім дуплети: яку мішень першою, «спершу очі, потім рушниця», другий постріл. Наостанок — розбір, знову послідовно: тренер підсумовує дві-три думки. Запишіть їх обома мовами й віддайте гостеві. Нижче — реальний ланцюжок фраз у тому порядку, в якому ви їх почуєте."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Before: pause sign, method, lead words, hand signals",
+     "Safety briefing: consecutive, firm, complete",
+     "Same three terms all day: pick-up, hold, break point",
+     "Cues between targets: same length, gun open; diagnosis + fix together",
+     "Debrief: write the key points in both languages"
+    ],
+    "uk": [
+     "Заздалегідь: знак паузи, метод, слова про винос, жести",
+     "Інструктаж із безпеки: послідовно, твердо, повністю",
+     "Ті самі три терміни весь день: точка підхоплення, утримання, пострілу",
+     "Підказки між мішенями: тієї самої довжини, рушниця відкрита; діагноз і виправлення разом",
+     "Розбір: запишіть головне обома мовами"
+    ]
+   },
+   "terms": [
+    "coach",
+    "safety",
+    "eye-dominance",
+    "master-eye",
+    "stance",
+    "ready-position",
+    "gun-mount",
+    "pick-up-point",
+    "hold-point",
+    "break-point",
+    "lead",
+    "maintained-lead",
+    "pull-away",
+    "head-lift",
+    "stopping-the-gun",
+    "follow-through",
+    "double-on-report",
+    "crosser",
+    "rabbit",
+    "choke"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch3-ready-position"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-mounting"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-between-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-double-on-report"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-loading"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-gun-handling"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shooting UK — Issues with eye dominance",
+     "url": "https://www.shootinguk.co.uk/shooting/instruction/issues-with-eye-dominance-15475/"
+    },
+    {
+     "title": "NSSA-NSCA — Foot position (Ask the instructor)",
+     "url": "https://nssa-nsca.org/blog/2019/02/18/4037/"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "Ducks Unlimited — The big five wingshooting mistakes",
+     "url": "https://www.ducks.org/hunting/shooting-tips/the-big-five-wingshooting-mistakes"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Morning, everyone. Before we load anything, a quick safety briefing.",
+     "meaning": {
+      "en": "Start of the session; interpret the briefing consecutively and completely.",
+      "uk": "Початок тренування; інструктаж перекладайте послідовно й повністю."
+     },
+     "say": {
+      "uk": "Доброго ранку всім! Перш ніж щось заряджати — короткий інструктаж із безпеки."
+     }
+    },
+    {
+     "en": "Guns stay open until you’re on the stand and I say “load”.",
+     "meaning": {
+      "en": "No closed guns off the stand; loading only on the coach’s word.",
+      "uk": "Поза позицією рушниці не закривати; заряджати лише за словом тренера."
+     },
+     "say": {
+      "uk": "Рушниці відкриті, доки ви не на позиції і я не скажу «заряджай»."
+     }
+    },
+    {
+     "en": "Point at my nose, both eyes open. Now close your left eye.",
+     "meaning": {
+      "en": "Eye-dominance check: if the finger jumps, the right eye is not the master eye.",
+      "uk": "Перевірка провідного ока: якщо палець «стрибнув», праве око не провідне."
+     },
+     "say": {
+      "uk": "Покажіть пальцем на мій ніс, обидва ока відкриті. Тепер заплющте ліве око."
+     }
+    },
+    {
+     "en": "Front foot pointing at the break point, weight forward.",
+     "meaning": {
+      "en": "Stance: set the feet for where the target will be broken; lean slightly forward.",
+      "uk": "Стійка: ноги ставлять туди, де мішень розбиватимуть; вага трохи вперед."
+     },
+     "say": {
+      "uk": "Передню ногу — на точку пострілу, вага вперед."
+     }
+    },
+    {
+     "en": "Gun down, stock under the line. Mount only when you see it.",
+     "meaning": {
+      "en": "FITASC ready position: the gun comes up only after the target appears.",
+      "uk": "Положення готовності FITASC: рушницю вкидають лише після появи мішені."
+     },
+     "say": {
+      "uk": "Рушниця внизу, приклад нижче позначки. Вкидка — лише коли побачите мішень."
+     }
+    },
+    {
+     "en": "Watch this one. Where do you first see it clearly?",
+     "meaning": {
+      "en": "The coach is setting the pick-up point.",
+      "uk": "Тренер визначає точку підхоплення."
+     },
+     "say": {
+      "uk": "Дивіться на цю. Де ви вперше чітко її бачите?"
+     }
+    },
+    {
+     "en": "Hold your muzzles about halfway back, just under the line.",
+     "meaning": {
+      "en": "Hold point between pick-up and break point, slightly below the target’s path.",
+      "uk": "Точка утримання між точкою підхоплення й точкою пострілу, трохи нижче лінії мішені."
+     },
+     "say": {
+      "uk": "Стволи тримайте приблизно посередині, трохи під лінією."
+     }
+    },
+    {
+     "en": "Behind it. Give it more.",
+     "meaning": {
+      "en": "The shot passed behind the target: more lead.",
+      "uk": "Постріл пройшов позаду мішені: потрібен більший винос."
+     },
+     "say": {
+      "uk": "Позаду. Більший винос."
+     }
+    },
+    {
+     "en": "Call it three feet — that’s the picture you want.",
+     "meaning": {
+      "en": "The lead picture to see at the shot; feet as an impression, keep the unit.",
+      "uk": "Картинка виносу в момент пострілу; фути — як враження, одиницю залишайте."
+     },
+     "say": {
+      "uk": "Десь три фути — ось така картинка вам потрібна."
+     }
+    },
+    {
+     "en": "Over the top. You lifted your head — stay in the gun.",
+     "meaning": {
+      "en": "Miss above, caused by the cheek leaving the stock.",
+      "uk": "Промах угорі, бо щока відірвалася від приклада."
+     },
+     "say": {
+      "uk": "Вище мішені. Підняли голову — щокою на приклад."
+     }
+    },
+    {
+     "en": "Smoked it! Same again.",
+     "meaning": {
+      "en": "Perfect hit; repeat exactly what you did.",
+      "uk": "Ідеальне влучання; повторіть те саме."
+     },
+     "say": {
+      "uk": "Вщент! Так само."
+     }
+    },
+    {
+     "en": "You stopped the gun. Keep it moving through the shot.",
+     "meaning": {
+      "en": "Miss behind because the swing stopped; follow through.",
+      "uk": "Промах позаду, бо рушниця зупинилася; продовжуйте рух після пострілу."
+     },
+     "say": {
+      "uk": "Зупинили рушницю. Ведіть далі й після пострілу."
+     }
+    },
+    {
+     "en": "Next is a report pair: crosser first, then the rabbit.",
+     "meaning": {
+      "en": "The rabbit is released by the sound of the shot at the crosser.",
+      "uk": "Кролика випускають на звук пострілу по поперечній."
+     },
+     "say": {
+      "uk": "Далі дуплет за пострілом: спершу поперечна, потім кролик."
+     }
+    },
+    {
+     "en": "Eyes first, then the gun.",
+     "meaning": {
+      "en": "On the second target, find it with the eyes before moving the muzzles.",
+      "uk": "На другій мішені спершу знайдіть її очима, а вже потім руште стволами."
+     },
+     "say": {
+      "uk": "Спершу очі, потім рушниця."
+     }
+    },
+    {
+     "en": "Keep the muzzles under the rabbit.",
+     "meaning": {
+      "en": "Stay low on a rolling target so a hop still meets the shot.",
+      "uk": "Тримайтеся нижче кролика, щоб навіть після підскоку він потрапив у сніп дробу."
+     },
+     "say": {
+      "uk": "Стволи — під кролика."
+     }
+    },
+    {
+     "en": "Change to quarter and half for this stand.",
+     "meaning": {
+      "en": "Fit 1/4 and 1/2 chokes (open, then a little tighter).",
+      "uk": "Поставте чоки 1/4 і 1/2 (відкритий, потім трохи щільніший)."
+     },
+     "say": {
+      "uk": "На цю позицію — чоки чверть і половина."
+     }
+    },
+    {
+     "en": "Let’s call it a day. Three things for tomorrow: feet, head, follow-through.",
+     "meaning": {
+      "en": "End of session; the coach sums up — write these down for the guest.",
+      "uk": "Кінець тренування; тренер підсумовує — запишіть це для гостя."
+     },
+     "say": {
+      "uk": "На сьогодні все. Три речі на завтра: ноги, голова, продовження руху."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "When is the safety briefing interpreted, and how?",
+      "uk": "Коли й як перекладають інструктаж із безпеки?"
+     },
+     "options": {
+      "en": [
+       "Briefly in chuchotage while guests load",
+       "At the start, consecutively, sentence by sentence and completely",
+       "Only if a guest asks",
+       "After the first stand"
+      ],
+      "uk": [
+       "Коротко пошепки, поки гості заряджають",
+       "На початку, послідовно, речення за реченням і повністю",
+       "Лише якщо гість попросить",
+       "Після першої позиції"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Safety comes first and must not be shortened; consecutive mode lets every rule land.",
+      "uk": "Безпека — понад усе, її не скорочують; послідовний переклад дає донести кожне правило."
+     }
+    },
+    {
+     "q": {
+      "en": "The coach says “Behind it. Give it more.” What is the best short rendering between targets?",
+      "uk": "Тренер каже «Behind it. Give it more». Яка найкраща коротка передача між мішенями?"
+     },
+     "options": {
+      "en": [
+       "«Ви трохи запізнилися, спробуйте ще раз, можливо, швидше»",
+       "«Позаду. Більший винос.»",
+       "«Стріляйте раніше»",
+       "«Добре, так само»"
+      ],
+      "uk": [
+       "«Ви трохи запізнилися, спробуйте ще раз, можливо, швидше»",
+       "«Позаду. Більший винос.»",
+       "«Стріляйте раніше»",
+       "«Добре, так само»"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Mirror the coach: same length, same order, diagnosis plus fix, nothing added.",
+      "uk": "Віддзеркалюйте тренера: та сама довжина, той самий порядок, діагноз і виправлення, нічого зайвого."
+     }
+    },
+    {
+     "q": {
+      "en": "Why keep “pick-up point”, “hold point” and “break point” in the same Ukrainian words all day?",
+      "uk": "Навіщо весь день перекладати «pick-up point», «hold point» і «break point» тими самими українськими словами?"
+     },
+     "options": {
+      "en": [
+       "The rules require it",
+       "So the coach can understand Ukrainian",
+       "So the guest learns three stable concepts and does not confuse them",
+       "It does not matter"
+      ],
+      "uk": [
+       "Цього вимагають правила",
+       "Щоб тренер розумів українську",
+       "Щоб гість засвоїв три сталі поняття й не плутав їх",
+       "Це не має значення"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Consistent terms build the guest’s mental map of a stand; changing words makes three concepts look like six.",
+      "uk": "Сталі терміни будують у гостя уявлення про позицію; якщо міняти слова, три поняття виглядають як шість."
+     }
+    }
+   ],
+   "sim": null
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "interpreter",
+   "en": "interpreter",
+   "def_en": "A person who renders speech between the coach, referee and shooters on a tour; knows shooting terminology.",
+   "def_uk": "Людина, що перекладає усне мовлення між тренером, суддею та стрільцями в турі й знає стрілецьку термінологію."
+  },
+  {
+   "id": "coaching",
+   "en": "coaching",
+   "def_en": "Giving a competitor advice during a competition; forbidden by FITASC (yellow card, coach removed).",
+   "def_uk": "Поради учасникові під час змагань; FITASC забороняє (жовта картка, тренера видаляють)."
+  },
+  {
+   "id": "chuchotage",
+   "en": "chuchotage",
+   "def_en": "Whispered simultaneous interpreting into the listener’s ear.",
+   "def_uk": "Шепітний синхронний переклад на вухо слухачеві."
+  },
+  {
+   "id": "consecutive-interpreting",
+   "en": "consecutive interpreting",
+   "def_en": "Interpreting in turns: the speaker pauses, then the interpreter speaks.",
+   "def_uk": "Переклад по черзі: мовець робить паузу, потім говорить перекладач."
+  },
+  {
+   "id": "hand-signals",
+   "en": "hand signals",
+   "def_en": "Gestures a coach uses to give instructions silently on the stand.",
+   "def_uk": "Жести, якими тренер мовчки дає вказівки на позиції."
+  },
+  {
+   "id": "false-friend",
+   "en": "false friend",
+   "def_en": "A word that looks familiar but means something else in shooting, e.g. “stand”, “broken gun”, “lost”.",
+   "def_uk": "Слово, що здається знайомим, але в стрільбі означає інше, як-от «stand», «broken gun», «lost»."
+  },
+  {
+   "id": "smoked-it",
+   "en": "smoked it",
+   "def_en": "Coach slang for a perfect hit; not the rules’ “dust or smoke only”, which is a zero.",
+   "def_uk": "Сленг тренерів: ідеальне влучання; не плутати з «лише пил чи дим» у правилах, що є нулем."
+  },
+  {
+   "id": "peg",
+   "en": "peg",
+   "def_en": "British word for the marked shooting spot on a stand.",
+   "def_uk": "Британське слово для позначеного місця стрільця на позиції."
+  },
+  {
+   "id": "cage",
+   "en": "cage",
+   "def_en": "A frame around a shooting spot that stops the gun swinging into an unsafe direction.",
+   "def_uk": "Рама навколо місця стрільця, що не дає рушниці повернутися в небезпечний бік."
+  },
+  {
+   "id": "true-pair",
+   "en": "true pair",
+   "def_en": "English and American name for a simultaneous double.",
+   "def_uk": "Британська й американська назва одночасного дуплета."
+  },
+  {
+   "id": "gun-up",
+   "en": "gun up",
+   "def_en": "Starting with the gun already mounted before the call; allowed in English Sporting, NSCA and Compak®, not in FITASC Sporting™.",
+   "def_uk": "Старт із уже вкинутою рушницею до команди; дозволено в English Sporting, NSCA і Compak®, але не у FITASC Sporting™."
+  },
+  {
+   "id": "english-sporting",
+   "en": "English Sporting",
+   "def_en": "The British form of sporting clays under CPSA rules, usually with pairs and gun-up allowed.",
+   "def_uk": "Британський різновид спортингу за правилами CPSA, зазвичай із дуплетами й дозволеним gun up."
+  },
+  {
+   "id": "cpsa",
+   "en": "CPSA",
+   "def_en": "Clay Pigeon Shooting Association, the governing body for clay shooting in England.",
+   "def_uk": "Clay Pigeon Shooting Association — керівна організація стендової стрільби в Англії."
+  },
+  {
+   "id": "nsca",
+   "en": "NSCA",
+   "def_en": "National Sporting Clays Association, which governs Sporting Clays in the United States.",
+   "def_uk": "National Sporting Clays Association — організація, що керує Sporting Clays у США."
+  },
+  {
+   "id": "hoa",
+   "en": "HOA (High Over All)",
+   "def_en": "The overall winner of an event, regardless of category or class.",
+   "def_uk": "Абсолютний переможець змагань незалежно від категорії чи класу."
+  },
+  {
+   "id": "shooter-class",
+   "en": "class (AA, A, B, C)",
+   "def_en": "A national skill level based on a shooter’s averages; not a FITASC age category or trajectory class.",
+   "def_uk": "Національний рівень майстерності за середніми результатами; не вікова категорія і не клас траєкторії FITASC."
+  },
+  {
+   "id": "clock-face",
+   "en": "clock face",
+   "def_en": "Giving directions as hours on a clock, with 12 straight ahead of the shooter.",
+   "def_uk": "Вказівка напрямку годинами на циферблаті, де 12 — прямо перед стрільцем."
+  }
+ ]
+}

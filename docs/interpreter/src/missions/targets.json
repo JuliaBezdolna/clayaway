@@ -1,0 +1,1100 @@
+{
+ "id": "targets",
+ "order": 3,
+ "icon": "target",
+ "title": {
+  "en": "Targets",
+  "uk": "Мішені"
+ },
+ "intro": {
+  "en": "A coach who says 'it's a midi off the tower, then a rabbit on report' assumes you can picture it. This mission teaches the target types, how colour and light change what the shooter sees, how traps release targets, how to read a target menu, and the one scoring question that decides everything: hit or lost.",
+  "uk": "Тренер, який каже «міді з вежі, потім кролик за пострілом», розраховує, що ви це уявляєте. Ця місія вчить типів мішеней, того, як колір і світло змінюють те, що бачить стрілець, як машинки запускають мішені, як читати меню і як вирішують головне питання підрахунку: влучання чи промах."
+ },
+ "lessons": [
+  {
+   "id": "targets-types",
+   "mission": "targets",
+   "minutes": 5,
+   "title": {
+    "en": "Target types: standard, midi, mini, battue, rabbit, flash, ZZ",
+    "uk": "Типи мішеней: стандарт, міді, міні, батю, кролик, флеш, ZZ"
+   },
+   "body": {
+    "en": [
+     "The FITASC list for Parcours de Chasse – Sporting™ names seven target types: standard, midi, super mini, battue, rabbit, flash and ZZ. Compak® Sporting allows any standard or special target, and its list also names the rocket. Each type flies differently.",
+     "The standard, the most common target, is a dome about 108–110 mm across. The midi is 90 mm: it keeps its speed well and looks further away than it is. The mini is 60 mm: it leaves the trap fast and slows quickly, so shooters tend to give it too much lead. The Sporting™ list calls the small target 'super mini', and the menu rule names both 70 mm and 60 mm sizes; the names are not used consistently, so always go by the millimetres written on the menu.",
+     "The battue is a flat, thin 110 mm target. It flies edge-on, almost invisible, then turns to show its face and drops quickly. The rabbit is a 110 mm target with a thick, strong rim, rolled on its edge along the ground; it bounces and can hop over bumps. In Ukrainian you will hear «кролик» or «заєць»; this course uses «кролик».",
+     "A flash target is filled with coloured powder that leaves a bright cloud when it is hit; it is scored like any other target. A ZZ target, also called helice, is a plastic propeller with a white centre cap that flies erratically. The rocket is a special target named only in the Compak® Sporting list; we give no specifications for it.",
+     "In Sporting™, a target of the wrong colour, size or type is a No Bird and is repeated."
+    ],
+    "uk": [
+     "Перелік FITASC для Parcours de Chasse – Sporting™ називає сім типів мішеней: standard, midi, super mini, battue, rabbit, flash і ZZ. Compak® Sporting дозволяє будь-які стандартні чи особливі мішені, і в його переліку є ще rocket. Кожен тип летить по-своєму.",
+     "Стандарт (standard) — диск у формі купола близько 108–110 мм завширшки, найпоширеніша мішень. Міді (midi) — 90 мм: добре тримає швидкість і здається далі, ніж є насправді. Міні (mini) — 60 мм: швидко вилітає з машинки й швидко гальмує, тож стрільці часто дають їй завеликий винос. У переліку спортингу малу мішень названо «super mini», а правило про меню згадує розміри і 70 мм, і 60 мм; ці назви вживають непослідовно, тож завжди орієнтуйтеся на міліметри, написані в меню.",
+     "Батю (battue) — пласка тонка мішень 110 мм. Вона летить ребром, майже невидима, потім розвертається площиною й швидко падає. Кролик (rabbit) — мішень 110 мм із товстим міцним ободом, яку котять на ребрі по землі; вона підстрибує на горбиках. Українською кажуть «кролик» або «заєць»; у цьому курсі — «кролик».",
+     "Флеш (flash) наповнена кольоровим порошком, який при влучанні дає яскраву хмарку; рахують її, як будь-яку іншу мішень. Мішень ZZ, або helice, — пластиковий пропелер із білою центральною частиною, що летить непередбачувано. Ракета (rocket) — особлива мішень, згадана лише в переліку компаку; її характеристик ми не наводимо.",
+     "У спортингу мішень не того кольору, розміру чи типу — це no bird, і її повторюють."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Sporting™ list: standard, midi, super mini, battue, rabbit, flash, ZZ; Compak® allows any type, rocket included.",
+     "Standard about 108–110 mm, midi 90 mm, mini 60 mm; the menu may also show 70 mm — go by millimetres.",
+     "Battue: flat, edge-on, turns and drops; rabbit: thick rim, rolls and hops.",
+     "Flash leaves a powder cloud; ZZ is a propeller target.",
+     "Sporting™: wrong colour, size or type = No Bird."
+    ],
+    "uk": [
+     "Перелік спортингу: standard, midi, super mini, battue, rabbit, flash, ZZ; компак дозволяє будь-які, зокрема rocket.",
+     "Стандарт близько 108–110 мм, міді 90 мм, міні 60 мм; у меню може бути й 70 мм — орієнтуйтеся на міліметри.",
+     "Батю: пласка, летить ребром, розвертається й падає; кролик: товстий обід, котиться й підстрибує.",
+     "Флеш лишає хмарку порошку; ZZ — мішень-пропелер.",
+     "Спортинг: не той колір, розмір чи тип — no bird."
+    ]
+   },
+   "terms": [
+    "standard-target",
+    "midi",
+    "mini",
+    "super-mini",
+    "battue",
+    "rabbit",
+    "flash-target",
+    "zz-target",
+    "rocket-target",
+    "no-bird"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-targets"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-target-menu"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-targets"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-target-one"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-cases"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shooting UK — Clay pigeon sizes: knowing what they are will help you improve your score",
+     "url": "https://www.shootinguk.co.uk/shooting/shotgun/clay-pigeon-sizes-knowing-what-they-are-will-help-you-to-improve-your-score/"
+    },
+    {
+     "title": "Let's Go Shooting — Types of clay targets",
+     "url": "https://www.letsgoshooting.org/resources/articles/shotgun/types-of-clay-targets/"
+    },
+    {
+     "title": "GUNS Magazine — Helice",
+     "url": "https://gunsmagazine.com/discover/helice/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "The midi looks far but it isn't — don't give it too much.",
+     "meaning": {
+      "en": "A 90 mm target seems further away than it is, so it needs less lead than the shooter thinks.",
+      "uk": "Мішень 90 мм здається далі, ніж є, тож їй потрібен менший винос, ніж здається."
+     },
+     "say": {
+      "uk": "Міді здається далекою, але це не так, — не давайте завеликий винос."
+     }
+    },
+    {
+     "en": "The battue will turn and drop at the end — take it when it shows its belly.",
+     "meaning": {
+      "en": "Shoot the battue once it turns its flat face towards you.",
+      "uk": "Стріляйте батю, коли вона розвернеться до вас площиною."
+     },
+     "say": {
+      "uk": "Батю наприкінці розвернеться й упаде — бийте, коли покаже площину."
+     }
+    },
+    {
+     "en": "The mini is dying fast — shoot it early.",
+     "meaning": {
+      "en": "The small target loses speed quickly; do not wait.",
+      "uk": "Мала мішень швидко втрачає швидкість; не чекайте."
+     },
+     "say": {
+      "uk": "Міні швидко гальмує — стріляйте рано."
+     }
+    },
+    {
+     "en": "The rabbit will hop on that bump — stay under it.",
+     "meaning": {
+      "en": "Keep the muzzles low on the rolling target so a hop still meets the shot.",
+      "uk": "Тримайте дула низько, щоб навіть після стрибка кролик потрапив у сніп."
+     },
+     "say": {
+      "uk": "Кролик підстрибне на тому горбику — тримайтеся під ним."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which target rolls along the ground?",
+      "uk": "Яка мішень котиться по землі?"
+     },
+     "options": {
+      "en": [
+       "Midi",
+       "Battue",
+       "Rabbit",
+       "Flash"
+      ],
+      "uk": [
+       "Міді",
+       "Батю",
+       "Кролик",
+       "Флеш"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The rabbit has a thick rim and is thrown on its edge along the ground.",
+      "uk": "Кролик має товстий обід, і його кидають на ребрі по землі."
+     }
+    },
+    {
+     "q": {
+      "en": "The menu says '70 mm'. The coach calls it a mini. What should you translate?",
+      "uk": "У меню написано «70 mm». Тренер називає її mini. Що перекладати?"
+     },
+     "options": {
+      "en": [
+       "Correct it to 60 mm, since a mini is 60 mm",
+       "Keep the coach's word and the 70 mm on the menu",
+       "Call it a midi, since it is over 60 mm",
+       "Ask the coach to say 'super mini' instead"
+      ],
+      "uk": [
+       "Виправити на 60 мм, бо міні — це 60 мм",
+       "Зберегти слово тренера і 70 мм із меню",
+       "Назвати її міді, бо вона більша за 60 мм",
+       "Попросити тренера казати «super mini»"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The rules name 70 mm and 60 mm sizes and the name 'super mini'; trust the millimetres on the menu and do not correct the coach.",
+      "uk": "Правила згадують розміри 70 мм і 60 мм та назву «super mini»; довіряйте міліметрам у меню й не виправляйте тренера."
+     }
+    },
+    {
+     "q": {
+      "en": "On a Sporting™ stand, a trap throws a midi instead of the standard shown on the menu. What happens?",
+      "uk": "На позиції спортингу машинка кинула міді замість стандарту, зазначеного в меню. Що буде?"
+     },
+     "options": {
+      "en": [
+       "No Bird, the target is repeated",
+       "It counts as a hit",
+       "The shooter loses the target",
+       "The round is cancelled"
+      ],
+      "uk": [
+       "No bird, мішень повторюють",
+       "Зараховують як влучання",
+       "Стрілець втрачає мішень",
+       "Серію скасовують"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "In Sporting™ a target of the wrong colour, size or type is a No Bird and is repeated.",
+      "uk": "У спортингу мішень не того кольору, розміру чи типу — no bird, її повторюють."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "targets-colours-visibility",
+   "mission": "targets",
+   "minutes": 5,
+   "title": {
+    "en": "Colours, light and visibility",
+    "uk": "Кольори, світло й видимість"
+   },
+   "body": {
+    "en": [
+     "Both rulebooks ask the same thing: a target's colour must stand out clearly against the background. Two-colour targets are not recommended. So the colour is a choice by the course setter, made for each trajectory, not a separate target type.",
+     "You will hear black, orange, white, yellow and pink targets. Many course setters use black against the sky and orange against trees and grass. A 'blazed' target has a bright orange painted dome. Careful: when a coach says 'the orange one', he means a colour, not a size. A black midi and an orange standard can come from the same stand.",
+     "If a target of the wrong colour is thrown, the referee calls No Bird and it is repeated. In Compak® Sporting the rules add that bad weather is never a reason for a No Bird: a broken target counts and a missed one is lost, whatever the conditions. In Parcours de Chasse – Sporting™ the referee may pause shooting for a short, violent storm or downpour.",
+     "Light changes everything. Coaches talk about backlight (the sun behind the target), flat light on grey days, shadows under trees and the background behind the target: sky, tree line or ground. A target can 'disappear' against dark trees and 'pop out' against the sky. This is why shooters change lens colour during the day.",
+     "When you translate, keep colour words and light words exact and short: 'it's coming out of the dark trees', 'you lose it in the sun'. They explain why a shooter missed, so they matter."
+    ],
+    "uk": [
+     "Обидва регламенти вимагають одного: колір мішені має чітко вирізнятися на тлі. Двоколірні мішені не рекомендовані. Отже, колір обирає постановник для кожної траєкторії, а не є окремим типом мішені.",
+     "Ви почуєте про чорні, помаранчеві, білі, жовті й рожеві мішені. Багато постановників беруть чорні мішені на тлі неба, а помаранчеві — на тлі дерев і трави. «Blazed» — мішень із яскраво-помаранчевим пофарбованим куполом. Обережно: коли тренер каже «the orange one», він має на увазі колір, а не розмір. Чорна міді й помаранчевий стандарт можуть летіти з однієї позиції.",
+     "Якщо кинули мішень не того кольору, суддя оголошує no bird, і її повторюють. У Compak® Sporting правила додають, що погана погода ніколи не є підставою для no bird: розбиту мішень зараховують, а пропущену — ні, хоч би якими були умови. У Parcours de Chasse – Sporting™ суддя може призупинити стрільбу під час короткої сильної зливи чи грози.",
+     "Світло змінює все. Тренери говорять про контрове світло (сонце за мішенню, backlight), пласке світло в сірий день (flat light), тіні під деревами й тло за мішенню: небо, лінію дерев чи землю. Мішень може «зникнути» на тлі темних дерев і «вискочити» на тлі неба. Тому стрільці протягом дня міняють колір лінз.",
+     "Перекладаючи, передавайте слова про колір і світло точно й коротко: «вона виходить із темних дерев», «ви губите її в сонці». Вони пояснюють, чому стрілець промахнувся, тож вони важливі."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "A target's colour must stand out against the background; two-colour targets are not recommended.",
+     "Colour is not type: 'the orange one' is a colour, not a size.",
+     "Wrong colour = No Bird.",
+     "Compak®: bad weather never justifies a No Bird; Sporting™ referees may pause for a short storm.",
+     "Backlight, flat light, background: translate light words exactly."
+    ],
+    "uk": [
+     "Колір мішені має вирізнятися на тлі; двоколірні мішені не рекомендовані.",
+     "Колір — не тип: «the orange one» — це колір, а не розмір.",
+     "Не той колір — no bird.",
+     "Компак: погана погода не є підставою для no bird; у спортингу суддя може призупинити стрільбу на коротку грозу.",
+     "Контрове світло, пласке світло, тло: слова про світло перекладайте точно."
+    ]
+   },
+   "terms": [
+    "target",
+    "no-bird",
+    "blazed-target",
+    "background"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-targets"
+    },
+    {
+     "book": "compak",
+     "id": "ch3-targets"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-cases"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-target-no-bird-cases"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-bad-weather"
+    },
+    {
+     "book": "sporting",
+     "id": "ch5-weather-interruption"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "Shotgun Sports USA — How to read sporting clays targets",
+     "url": "https://shotgunsportsusa.com/how-to-read-sporting-clays-targets/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "The black one is the midi, the orange one is the standard — don't mix them up.",
+     "meaning": {
+      "en": "Two targets on the stand differ in colour and size.",
+      "uk": "Дві мішені на позиції різняться кольором і розміром."
+     },
+     "say": {
+      "uk": "Чорна — це міді, помаранчева — стандарт, не переплутайте."
+     }
+    },
+    {
+     "en": "You lose it against the trees — pick it up later, in the sky.",
+     "meaning": {
+      "en": "The target is hard to see in front of trees; start watching where the sky is behind it.",
+      "uk": "На тлі дерев мішень погано видно; починайте стежити там, де за нею небо."
+     },
+     "say": {
+      "uk": "На тлі дерев ви її губите — ловіть поглядом пізніше, на тлі неба."
+     }
+    },
+    {
+     "en": "Flat light today — put the yellow lens in.",
+     "meaning": {
+      "en": "Grey, contrastless light; a yellow lens helps contrast.",
+      "uk": "Сіре світло без контрасту; жовта лінза додає контрасту."
+     },
+     "say": {
+      "uk": "Сьогодні пласке світло — поставте жовту лінзу."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "What do the rules require of a target's colour?",
+      "uk": "Чого правила вимагають від кольору мішені?"
+     },
+     "options": {
+      "en": [
+       "It must always be orange",
+       "It must stand out clearly against the background",
+       "It must be two-coloured",
+       "Any colour: the rules are silent"
+      ],
+      "uk": [
+       "Вона завжди має бути помаранчевою",
+       "Вона має чітко вирізнятися на тлі",
+       "Вона має бути двоколірною",
+       "Будь-яка: правила мовчать"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Visibility against the background is the requirement; two-colour targets are not recommended.",
+      "uk": "Вимога — видимість на тлі; двоколірні мішені не рекомендовані."
+     }
+    },
+    {
+     "q": {
+      "en": "In Compak® Sporting it starts to rain hard and a shooter misses. Can he ask for a No Bird because of the weather?",
+      "uk": "У компаку почалася сильна злива, і стрілець промахнувся. Чи може він вимагати no bird через погоду?"
+     },
+     "options": {
+      "en": [
+       "Yes, weather always justifies one",
+       "Only for the first target of a double",
+       "Only if the jury agrees to it",
+       "No, weather never justifies a No Bird"
+      ],
+      "uk": [
+       "Так, погода завжди є підставою",
+       "Лише на першу мішень дуплета",
+       "Лише якщо на це погодиться журі",
+       "Ні, погода ніколи не є підставою для no bird"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The Compak® Sporting rules state that weather is never a reason for a No Bird.",
+      "uk": "Правила компаку прямо кажуть, що погода не є підставою для no bird."
+     }
+    },
+    {
+     "q": {
+      "en": "A coach says 'Watch the orange one.' What is he describing?",
+      "uk": "Тренер каже «Watch the orange one». Що він описує?"
+     },
+     "options": {
+      "en": [
+       "The colour of a target",
+       "A target size of 90 mm",
+       "A rabbit",
+       "A broken target"
+      ],
+      "uk": [
+       "Колір мішені",
+       "Розмір мішені 90 мм",
+       "Кролика",
+       "Розбиту мішень"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Colour is chosen for visibility and says nothing about size or type.",
+      "uk": "Колір обирають для видимості, він нічого не каже про розмір чи тип."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "targets-traps",
+   "mission": "targets",
+   "minutes": 5,
+   "title": {
+    "en": "Traps, release and the trapper",
+    "uk": "Машинки, запуск мішені й оператор"
+   },
+   "body": {
+    "en": [
+     "A trap («машинка») is the machine that throws targets. Traps can be manual or automatic (the Compak® Sporting rules also name semi-automatic ones). In Parcours de Chasse – Sporting™ the traps of a stand are lettered A, B, C, D from left to right as seen from the stand; in Compak® Sporting the six traps are A to F, each with a letter panel. Keep the Latin letters when you translate: the menu uses them.",
+     "The shooter releases the target with a call: the rules name 'pull' or 'ready', though in practice shooters' call words vary. In Sporting™ the referee passes the command to the trapper (in Ukrainian «оператор машинки», the person who operates the release) with a sound signal, and the target must leave within three seconds. Do not translate the call itself: it is a command for the machine, not a sentence.",
+     "In Compak® Sporting targets may be released by hand, by remote control or by a voice-activated sonopull. With manual release the target leaves 0 to 3 seconds after the call; a sonopull has a fixed delay of 0.5 seconds. International in-line Compak® Sporting uses only sonopull with electronic refereeing.",
+     "A voice release has a microphone at the station. Your own voice can trigger it. On such a stand, never speak aloud while the shooter is ready: whisper between targets or step back.",
+     "Trap mistakes are No Birds: a target released more than three seconds after the call, a target from the wrong trap, a target thrown without a call, two targets from traps of the same stand in Sporting™, or a target thrown by mistake by a machine of the same Compak."
+    ],
+    "uk": [
+     "Машинка (trap) — механізм, що кидає мішені. Машинки бувають ручні й автоматичні (правила Compak® Sporting називають ще й напівавтоматичні). У Parcours de Chasse – Sporting™ машинки позиції позначені літерами A, B, C, D зліва направо, якщо дивитися з позиції; у Compak® Sporting шість машинок — від A до F, кожна з табличкою. Перекладаючи, лишайте латинські літери: їх використовує меню.",
+     "Стрілець запускає мішень командою (call): правила називають «pull» або «ready», хоча на практиці стрільці вживають різні слова. У спортингу суддя передає команду операторові машинки (trapper — людині, яка запускає машинку) звуковим сигналом, і мішень має вилетіти протягом трьох секунд. Саму команду не перекладайте: це сигнал для машинки, а не речення.",
+     "У Compak® Sporting мішені запускають вручну, з пульта або голосовою системою sonopull. За ручного запуску мішень вилітає через 0–3 секунди після команди; sonopull має фіксовану затримку 0,5 секунди. На міжнародних змаганнях із компаку в лінію використовують лише sonopull з електронним суддівством.",
+     "Голосовий запуск має мікрофон на номері. Ваш власний голос теж може запустити мішень. На такій позиції ніколи не говоріть уголос, коли стрілець готовий: шепочіть між мішенями або відійдіть.",
+     "Помилки машинки — це no bird: мішень вилетіла пізніше ніж через три секунди після команди, з іншої машинки, без команди, дві мішені з машинок однієї позиції у спортингу або мішень, яку помилково кинула машинка того самого компаку."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Traps: A–D per Sporting™ stand, A–F on a Compak® field; keep Latin letters.",
+     "The call ('pull', 'ready') releases the target; do not translate it.",
+     "Sporting™: referee signals the trapper; target within 3 seconds.",
+     "Compak®: manual 0–3 s, remote, or sonopull with a fixed 0.5 s delay.",
+     "Late, wrong-trap or uncalled targets are No Birds; a microphone can hear you."
+    ],
+    "uk": [
+     "Машинки: A–D на позиції спортингу, A–F на полі компаку; літери латиною.",
+     "Команда («pull», «ready») запускає мішень; її не перекладають.",
+     "Спортинг: суддя дає сигнал операторові машинки; мішень — протягом 3 секунд.",
+     "Компак: вручну 0–3 с, пульт або sonopull із фіксованою затримкою 0,5 с.",
+     "Запізніла мішень, з іншої машинки чи без команди — no bird; мікрофон чує й вас."
+    ]
+   },
+   "terms": [
+    "trap",
+    "trapper",
+    "call",
+    "sonopull",
+    "manual-release",
+    "tower",
+    "no-bird"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-trap-letters"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-traps"
+    },
+    {
+     "book": "sporting",
+     "id": "ch5-call-and-release"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-trigger-manual"
+    },
+    {
+     "book": "compak",
+     "id": "ch2-trigger-inline"
+    },
+    {
+     "book": "compak",
+     "id": "ch16-terms"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-cases"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-target-no-bird-cases"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Trap B is throwing lower than in the showing — tell the referee.",
+     "meaning": {
+      "en": "The machine's trajectory has changed; the shooter should report it before shooting.",
+      "uk": "Траєкторія машинки змінилася; стрілець має сказати про це судді до пострілу."
+     },
+     "say": {
+      "uk": "Машинка B кидає нижче, ніж на показі, — скажіть судді."
+     }
+    },
+    {
+     "en": "It's voice release here — don't chat on the stand.",
+     "meaning": {
+      "en": "A microphone releases targets; talking can launch one.",
+      "uk": "Мікрофон запускає мішені; розмова може випустити мішень."
+     },
+     "say": {
+      "uk": "Тут голосовий запуск — не розмовляйте на номері."
+     }
+    },
+    {
+     "en": "The trapper was late on that one — that's a no bird.",
+     "meaning": {
+      "en": "The target left more than three seconds after the call.",
+      "uk": "Мішень вилетіла пізніше ніж через три секунди після команди."
+     },
+     "say": {
+      "uk": "Трапер запізнився — це no bird."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "In Sporting™, how long may it take for the target to leave after the referee's signal?",
+      "uk": "Скільки часу у спортингу може минути від сигналу судді до вильоту мішені?"
+     },
+     "options": {
+      "en": [
+       "Up to 1 second",
+       "Up to 3 seconds",
+       "Up to 10 seconds",
+       "Any time"
+      ],
+      "uk": [
+       "До 1 секунди",
+       "До 3 секунд",
+       "До 10 секунд",
+       "Скільки завгодно"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "A target released later than three seconds is a No Bird.",
+      "uk": "Мішень, що вилетіла пізніше ніж через три секунди, — no bird."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the fixed delay of a Compak® sonopull?",
+      "uk": "Яка фіксована затримка sonopull у компаку?"
+     },
+     "options": {
+      "en": [
+       "0 seconds",
+       "3 seconds",
+       "0.5 seconds",
+       "It is set by each shooter"
+      ],
+      "uk": [
+       "0 секунд",
+       "3 секунди",
+       "0,5 секунди",
+       "Її обирає кожен стрілець"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The sonopull must apply a fixed, unchangeable delay of 0.5 seconds.",
+      "uk": "Sonopull має фіксовану незмінну затримку 0,5 секунди."
+     }
+    },
+    {
+     "q": {
+      "en": "You are on a stand with voice release and the shooter is ready. What do you do?",
+      "uk": "Ви на позиції з голосовим запуском, і стрілець готовий. Що робите?"
+     },
+     "options": {
+      "en": [
+       "Translate loudly so that he hears you",
+       "Ask the trapper to wait a moment",
+       "Repeat the call word for him",
+       "Stay silent; whisper only between targets"
+      ],
+      "uk": [
+       "Перекладаєте голосно, щоб він почув",
+       "Просите оператора машинки зачекати",
+       "Повторюєте за нього команду",
+       "Мовчите; шепочете лише між мішенями"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Your voice can trigger the microphone and release a target nobody called.",
+      "uk": "Ваш голос може спрацювати на мікрофон і запустити мішень, якої ніхто не кликав."
+     }
+    }
+   ],
+   "sim": {
+    "type": "call"
+   }
+  },
+  {
+   "id": "targets-menu",
+   "mission": "targets",
+   "minutes": 5,
+   "title": {
+    "en": "Reading the target menu",
+    "uk": "Як читати меню мішеней"
+   },
+   "body": {
+    "en": [
+     "The target menu («меню») is the board at the stand that tells the shooter what is coming. Shooters really say 'menu', so keep the word.",
+     "In Parcours de Chasse – Sporting™ the menu lists the traps in shooting order and must show any special targets: 90 mm, 70 mm, 60 mm, battue or rabbit. Referees check beforehand that the machines match the menu. A layout gives 15 singles and 5 doubles, and the doubles may only use targets already shown as singles from the same stand. The squad shoots the singles first, then the doubles.",
+     "A double is marked with its type: on report (the second target leaves on the sound of the first shot), simultaneous (both together) or rafale (two from the same trap, one after the other; Sporting™ only). Menus look different from ground to ground, so read the words, not just the letters. Example for a stand with three traps: singles A, B, C; doubles A + B simultaneous and C + C rafale (at such a stand two doubles on report are not allowed).",
+     "In Compak® Sporting a menu is shown at each of the five stations. Each station has five targets: five singles, three singles and a double, or one single and two doubles. The type of double is the same at all five stations of a Compak, and the first target of each double is the last target of the previous station. FITASC offers 40 ready-made menus for competitions.",
+     "Before your shooter steps up, read the menu aloud to them in their language, letter by letter: 'A, then F, then the pair C and E on report.'"
+    ],
+    "uk": [
+     "Меню мішеней (target menu) — табличка на позиції, яка каже стрільцеві, що на нього чекає. Стрільці справді кажуть «меню», тож лишайте це слово.",
+     "У Parcours de Chasse – Sporting™ меню перелічує машинки в порядку стрільби й обов’язково показує особливі мішені: 90 мм, 70 мм, 60 мм, батю або кролика. Перед змаганнями судді перевіряють, чи в кожній машинці саме те, що в меню. Майданчик дає 15 одиночних і 5 дуплетів, а дуплети можна складати лише з мішеней, які вже показали як одиночні з тієї самої позиції. Група спершу стріляє одиночні, потім дуплети.",
+     "Дуплет позначають за типом: за пострілом (on report — друга мішень вилітає на звук першого пострілу), одночасний (simultaneous — обидві разом) або рафаль (rafale — дві з однієї машинки одна за одною; лише у спортингу). Вигляд меню на різних стрільбищах різний, тож читайте слова, а не лише літери. Приклад для позиції з трьома машинками: одиночні A, B, C; дуплети A + B одночасний і C + C рафаль (на такій позиції два дуплети за пострілом не дозволені).",
+     "У Compak® Sporting меню є на кожному з п’яти номерів. На кожному номері п’ять мішеней: п’ять одиночних, три одиночні й дуплет або одна одиночна й два дуплети. Тип дуплета однаковий на всіх п’яти номерах одного компаку, а перша мішень кожного дуплета — це остання мішень попереднього номера. FITASC пропонує 40 готових меню для змагань.",
+     "Перш ніж ваш стрілець стане на позицію, прочитайте йому меню вголос його мовою, літера за літерою: «A, потім F, потім дуплет C і E за пострілом»."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Keep the word 'menu'.",
+     "Sporting™ menu: traps in order plus special targets (90, 70, 60 mm, battue, rabbit).",
+     "15 singles + 5 doubles; doubles use targets already shown as singles; singles first.",
+     "Doubles: on report, simultaneous, rafale (Sporting™ only).",
+     "Compak®: five targets per station, same double type on all stations, each double starts with the previous station's last target."
+    ],
+    "uk": [
+     "Слово «меню» лишаємо.",
+     "Меню спортингу: машинки по черзі плюс особливі мішені (90, 70, 60 мм, батю, кролик).",
+     "15 одиночних + 5 дуплетів; дуплети — з уже показаних мішеней; спершу одиночні.",
+     "Дуплети: за пострілом, одночасний, рафаль (лише спортинг).",
+     "Компак: п’ять мішеней на номер, один тип дуплета на всіх номерах, дуплет починається з останньої мішені попереднього номера."
+    ]
+   },
+   "terms": [
+    "target-menu",
+    "single-target",
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch2-target-menu"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-traps-table"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-doubles-composition"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-doubles-three-traps"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-singles-then-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-double-on-report"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-simultaneous-double"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-rafale-double"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-menu"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-round-combinations"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-double-chain"
+    },
+    {
+     "book": "compak",
+     "id": "ch17-annex3-tables"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shotgun Sports USA — How to read sporting clays targets",
+     "url": "https://shotgunsportsusa.com/how-to-read-sporting-clays-targets/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Read the menu: on station three you have A, then F, then the pair C and E on report.",
+     "meaning": {
+      "en": "The order of targets at station 3, ending with a double on report.",
+      "uk": "Порядок мішеней на третьому номері, наприкінці — дуплет за пострілом."
+     },
+     "say": {
+      "uk": "Прочитайте меню: на третьому номері A, потім F, потім дуплет C–E за пострілом."
+     }
+    },
+    {
+     "en": "Same traps, new menu — don't shoot from memory.",
+     "meaning": {
+      "en": "The order has changed since the last round.",
+      "uk": "Порядок змінився з минулого раунду."
+     },
+     "say": {
+      "uk": "Машинки ті самі, меню нове, — не стріляйте з пам’яті."
+     }
+    },
+    {
+     "en": "Three singles, then a simo pair.",
+     "meaning": {
+      "en": "'Simo' is short for a simultaneous double.",
+      "uk": "«Simo» — скорочення від одночасного дуплета."
+     },
+     "say": {
+      "uk": "Три одиночні, потім одночасний дуплет."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which special targets must a Sporting™ menu show?",
+      "uk": "Які особливі мішені обов’язково показує меню спортингу?"
+     },
+     "options": {
+      "en": [
+       "Only the colours of the targets",
+       "90 mm, 70 mm, 60 mm, battue or rabbit",
+       "Only rabbits and battues",
+       "None; the referee announces them"
+      ],
+      "uk": [
+       "Лише кольори мішеней",
+       "90 мм, 70 мм, 60 мм, батю чи кролика",
+       "Лише кроликів і батю",
+       "Жодних, їх оголошує суддя"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The menu must list the traps in order and any special target types.",
+      "uk": "Меню має перелічити машинки по черзі та всі особливі типи мішеней."
+     }
+    },
+    {
+     "q": {
+      "en": "In Compak® Sporting, with which target does each double start?",
+      "uk": "З якої мішені в компаку починається кожен дуплет?"
+     },
+     "options": {
+      "en": [
+       "Always trap A",
+       "A target never seen before",
+       "The last target shot at the previous station",
+       "Any target the shooter chooses"
+      ],
+      "uk": [
+       "Завжди з машинки A",
+       "З мішені, якої ще не бачили",
+       "З останньої мішені попереднього номера",
+       "З будь-якої, яку обере стрілець"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The doubles chain across stations: each begins with the last target of the station before.",
+      "uk": "Дуплети утворюють ланцюжок: кожен починається з останньої мішені попереднього номера."
+     }
+    },
+    {
+     "q": {
+      "en": "Which type of double exists only in Sporting™?",
+      "uk": "Який тип дуплета є лише у спортингу?"
+     },
+     "options": {
+      "en": [
+       "Rafale",
+       "On report",
+       "Simultaneous",
+       "None"
+      ],
+      "uk": [
+       "Рафаль",
+       "За пострілом",
+       "Одночасний",
+       "Жоден"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Compak® doubles are on report or simultaneous; rafale is a Sporting™ double.",
+      "uk": "У компаку дуплети за пострілом або одночасні; рафаль — дуплет спортингу."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "targets-hit-or-lost",
+   "mission": "targets",
+   "minutes": 5,
+   "title": {
+    "en": "Hit or lost: the visible piece and the 'smoke' trap",
+    "uk": "Влучання чи промах: видимий уламок і пастка зі словом smoke"
+   },
+   "body": {
+    "en": [
+     "A target is scored 'one' (a hit, «влучання») when it was properly thrown, the shooter fired by the rules, and at least one piece visibly broke off, or the target was wholly or partly destroyed. Flash targets follow the same rule. A target is 'zero' (lost, «промах») when no visible piece comes off and there is only dust or smoke.",
+     "So the rule turns on one picture: a visible piece. A small chip that flies off counts as a hit. A puff of dust with the target flying on in one piece is lost. On the score sheet a hit is usually marked X and a miss O.",
+     "Only the referee decides. Squad members may not give opinions, and nobody may pick up a target to check it. In Compak® Sporting the referee announces every zero loudly or with a sound signal. In Parcours de Chasse – Sporting™ the shooter must break targets where the referee can see them. By calling the next target the shooter accepts the decision on the previous one, so any objection must come at once.",
+     "Now the trap for interpreters. Coaches praise a perfect hit with 'smoked it', 'inked it' or 'powdered it': the target turned into a black cloud. That is the best possible hit, not a zero. But in the rules, 'only dust or smoke' means lost. 'Dusted it' is risky: it usually means only dust came off, a lost target, but some speakers use it as praise. If you are not sure, ask, because the two meanings are opposite.",
+     "Also: 'dead' means a hit (not «мертва»), 'lost' a miss (not «загублена»)."
+    ],
+    "uk": [
+     "Мішень зараховують як «one» (влучання), якщо її правильно кинули, стрілець стріляв за правилами і від неї помітно відлетів хоча б один уламок або вона повністю чи частково зруйнувалася. Для флеш-мішеней правило те саме. Мішень — «zero» (промах), якщо помітного уламка немає, а є лише пил чи «дим».",
+     "Отже, правило тримається на одній картинці — видимому уламку. Маленький відколок, що відлетів, — це влучання. Хмарка пилу, після якої мішень летить далі ціла, — промах. У картці результатів влучання зазвичай позначають X, промах — O.",
+     "Вирішує лише суддя. Члени групи не мають права висловлювати думку, і ніхто не може піти й підняти мішень, щоб перевірити. У Compak® Sporting суддя оголошує кожен нуль голосно або звуковим сигналом. У Parcours de Chasse – Sporting™ стрілець мусить розбивати мішені там, де їх бачить суддя. Даючи команду на наступну мішень, стрілець погоджується з рішенням щодо попередньої, тож заперечувати треба одразу.",
+     "А тепер пастка для перекладача. Тренери хвалять ідеальне влучання словами «smoked it», «inked it» чи «powdered it»: мішень перетворилася на чорну хмарку. Це найкраще можливе влучання, а не нуль. Але в правилах «лише пил чи дим» означає промах. «Dusted it» — ризиковане: зазвичай це означає, що був лише пил, тобто промах, але дехто вживає його як похвалу. Якщо не впевнені, перепитайте, бо значення протилежні.",
+     "Ще два слова: «dead» у судді означає влучання (не «мертва»), а «lost» — промах (не «загублена»)."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "One = at least one visible piece broke off, or the target was wholly or partly destroyed.",
+     "Zero = no visible piece, only dust or smoke.",
+     "Only the referee decides; no picking up targets; calling the next target accepts the decision.",
+     "Coach slang 'smoked it' = perfect hit; rule wording 'only smoke' = lost.",
+     "'Dead' = hit, 'lost' = miss; ask if 'dusted' is unclear."
+    ],
+    "uk": [
+     "One — помітно відлетів хоча б один уламок або мішень повністю чи частково зруйнована.",
+     "Zero — помітного уламка немає, лише пил чи дим.",
+     "Вирішує лише суддя; мішені не піднімають; команда на наступну означає згоду з рішенням.",
+     "Сленг тренера «smoked it» — ідеальне влучання; у правилах «лише дим» — промах.",
+     "«Dead» — влучання, «lost» — промах; якщо «dusted» незрозуміле — перепитайте."
+    ]
+   },
+   "terms": [
+    "one",
+    "zero",
+    "visible-piece",
+    "referee",
+    "score-sheet",
+    "smoked-it",
+    "chip"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch6-target-one"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-target-zero"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-one"
+    },
+    {
+     "book": "compak",
+     "id": "ch20-zero"
+    },
+    {
+     "book": "sporting",
+     "id": "ch14-model"
+    },
+    {
+     "book": "compak",
+     "id": "ch15-zero-announce"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-referee-alone"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-no-checking-targets"
+    },
+    {
+     "book": "compak",
+     "id": "ch19-referee-powers"
+    },
+    {
+     "book": "sporting",
+     "id": "ch9-visible-break"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Midvalley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Smoked it! That's the picture.",
+     "meaning": {
+      "en": "A perfect hit: the target turned to dust; the shooter should remember that sight picture.",
+      "uk": "Ідеальне влучання: мішень розлетілася на пил; стрілець має запам’ятати цю картинку."
+     },
+     "say": {
+      "uk": "Розбили вщент! Ось так і треба."
+     }
+    },
+    {
+     "en": "Dead — only a chip, but it counts.",
+     "meaning": {
+      "en": "A small visible piece broke off, so it is a hit.",
+      "uk": "Відлетів маленький помітний уламок, тож це влучання."
+     },
+     "say": {
+      "uk": "Є — лише відколок, але зараховано."
+     }
+    },
+    {
+     "en": "Lost — you were just behind it.",
+     "meaning": {
+      "en": "A miss; the shot went behind the target.",
+      "uk": "Промах; сніп пройшов позаду мішені."
+     },
+     "say": {
+      "uk": "Нуль — ви були трохи позаду мішені."
+     }
+    },
+    {
+     "en": "Don't argue with me later — say it now, before you call.",
+     "meaning": {
+      "en": "An objection must be made at once; calling the next target accepts the ruling.",
+      "uk": "Заперечувати треба одразу: команда на наступну мішень означає згоду з рішенням."
+     },
+     "say": {
+      "uk": "Не сперечайтеся потім — кажіть зараз, до команди."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The target flies on whole, but a puff of dust appears. What is the score?",
+      "uk": "Мішень летить далі ціла, але з’явилася хмарка пилу. Який результат?"
+     },
+     "options": {
+      "en": [
+       "Zero (lost)",
+       "One (hit)",
+       "No Bird",
+       "Half a point"
+      ],
+      "uk": [
+       "Zero (промах)",
+       "One (влучання)",
+       "No bird",
+       "Пів бала"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Only dust or smoke, with no visible piece, is lost.",
+      "uk": "Лише пил чи дим без помітного уламка — це промах."
+     }
+    },
+    {
+     "q": {
+      "en": "A coach shouts 'Smoked it!' How do you translate the meaning?",
+      "uk": "Тренер вигукує «Smoked it!». Як передати зміст?"
+     },
+     "options": {
+      "en": [
+       "It only smoked, so the target is lost",
+       "The barrels are overheating",
+       "A perfect hit: the target turned to dust",
+       "The trap machine is on fire"
+      ],
+      "uk": [
+       "Мішень лише задиміла, тож промах",
+       "Стволи перегрілися",
+       "Ідеальне влучання: мішень розлетілася на пил",
+       "Машинка загорілася"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "In coach slang 'smoked it' is praise for a total break; the rule wording 'only smoke' means the opposite.",
+      "uk": "У сленгу тренерів «smoked it» — похвала за повне руйнування; формулювання правил «лише дим» означає протилежне."
+     }
+    },
+    {
+     "q": {
+      "en": "A squad member says the last target was hit. Who decides?",
+      "uk": "Хтось із групи каже, що попередню мішень розбито. Хто вирішує?"
+     },
+     "options": {
+      "en": [
+       "A vote of the squad",
+       "The coach",
+       "The interpreter",
+       "The referee alone"
+      ],
+      "uk": [
+       "Голосування групи",
+       "Тренер",
+       "Перекладач",
+       "Лише суддя"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Target decisions belong to the referee; squad members may not intervene.",
+      "uk": "Рішення щодо мішеней ухвалює суддя; члени групи не мають права втручатися."
+     }
+    }
+   ],
+   "sim": null
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "super-mini",
+   "en": "super mini",
+   "def_en": "Name used in the FITASC Sporting™ list of permitted targets for the smallest clay; the menu rule names 70 mm and 60 mm sizes, and makers use 'mini' and 'super mini' differently, so go by the millimetres.",
+   "def_uk": "Назва найменшої мішені в переліку FITASC для спортингу; правило про меню згадує розміри 70 мм і 60 мм, а виробники вживають «mini» й «super mini» по-різному, тож орієнтуйтеся на міліметри."
+  },
+  {
+   "id": "zz-target",
+   "en": "ZZ target (helice)",
+   "def_en": "Plastic propeller target with a white centre cap that flies erratically; on the FITASC Sporting™ list of permitted targets.",
+   "def_uk": "Пластикова мішень-пропелер із білою центральною частиною, що летить непередбачувано; є в переліку дозволених мішеней спортингу FITASC."
+  },
+  {
+   "id": "blazed-target",
+   "en": "blazed target",
+   "def_en": "Target whose dome is painted bright orange for visibility.",
+   "def_uk": "Мішень, купол якої пофарбовано в яскраво-помаранчевий колір для кращої видимості."
+  },
+  {
+   "id": "background",
+   "en": "background",
+   "def_en": "What is behind the target as the shooter sees it (sky, tree line, ground); it decides how visible a target colour is.",
+   "def_uk": "Тло — те, що за мішенню з погляду стрільця (небо, лінія дерев, земля); від нього залежить, наскільки видно колір мішені."
+  },
+  {
+   "id": "manual-release",
+   "en": "manual release",
+   "def_en": "Release of a target by a person (trapper or referee) pressing a button on the shooter's call.",
+   "def_uk": "Запуск мішені людиною (оператором машинки чи суддею), яка натискає кнопку на команду стрільця."
+  },
+  {
+   "id": "smoked-it",
+   "en": "smoked it (coach slang)",
+   "def_en": "Praise for a target turned into a cloud of dust: a perfect hit. False friend of the rule wording 'only dust or smoke', which means lost.",
+   "def_uk": "Похвала за мішень, що перетворилася на хмарку пилу: ідеальне влучання. Хибний друг формулювання правил «лише пил чи дим», яке означає промах."
+  },
+  {
+   "id": "chip",
+   "en": "chip",
+   "def_en": "A small piece knocked off a target; if it is visible, the target is scored as a hit.",
+   "def_uk": "Відколок — маленький уламок, відбитий від мішені; якщо його видно, мішень зараховують як влучання."
+  }
+ ]
+}

@@ -1,0 +1,1353 @@
+{
+ "id": "sporting",
+ "order": 8,
+ "icon": "flag",
+ "title": {
+  "en": "Parcours de Chasse – Sporting™ rules",
+  "uk": "Правила Parcours de Chasse – Sporting™"
+ },
+ "intro": {
+  "en": "Parcours de Chasse – Sporting™ is the FITASC discipline that imitates hunting over natural ground. This mission walks you through its rules the way a referee applies them: rounds and stands, the gun-down start, singles and doubles, target viewing, malfunctions and time limits. Everything here is a paraphrase; the rule references open ClayArena's rules guide.",
+  "uk": "Parcours de Chasse – Sporting™ — дисципліна FITASC, що імітує полювання на природному рельєфі. У цій місії ви пройдете її правила так, як їх застосовує суддя: раунди й місця, старт з опущеною рушницею, одиночні мішені й дуплети, показ мішеней, несправності та ліміти часу. Усе тут — переказ; посилання на правила відкривають довідник правил ClayArena."
+ },
+ "lessons": [
+  {
+   "id": "sporting-rounds-stands",
+   "mission": "sporting",
+   "minutes": 5,
+   "title": {
+    "en": "Rounds, stands and the order of shooting",
+    "uk": "Раунди, стрілецькі місця й черговість"
+   },
+   "body": {
+    "en": [
+     "A Parcours de Chasse – Sporting™ competition is counted in rounds of 25 targets. An international event is 200 targets, so eight rounds; each round is shot on one layout (a set of shooting stands) or one line.",
+     "Every layout gives 15 singles and 5 doubles. The number of stands and traps depends on the system: the old system uses 5 traps for 3 stands, while new-system lines have 4 or 5 stands with 3 or 4 traps each. Traps are lettered A, B, C, D from left to right as seen from the stand. The target menu in front of the stand lists them in shooting order, together with any special targets: 90, 70 or 60 mm, battue, rabbit.",
+     "The stand itself is a 1 m square or a circle 1 m across. Each trajectory has a difficulty class: A (an average shooter breaks more than 80%), B (60 to 80%) or C (40 to 60%).",
+     "Shooters go round in squads of up to six, formed by draw. At each stand everyone shoots the singles first and then the doubles, and the order of shooting rotates at each stand and again for the doubles. The others wait close by, without distracting the person shooting.",
+     "The referee, or a person the referee supervises, keeps the scorecard, marking each target under its trap letter. When leaving each stand, every shooter checks the score; a disagreement must be raised with the referee at once, and the referee's decision is final."
+    ],
+    "uk": [
+     "Змагання з Parcours de Chasse – Sporting™ рахують раундами по 25 мішеней. Міжнародне змагання — 200 мішеней, тобто вісім раундів; кожен раунд стріляють на одному майданчику (layout — наборі стрілецьких місць) або на одній лінії.",
+     "Кожен майданчик дає 15 одиночних мішеней і 5 дуплетів. Кількість місць і метальних машинок залежить від системи: стара система — 5 машинок на 3 місця, лінії нової системи мають 4 або 5 місць по 3–4 машинки. Машинки позначають літерами A, B, C, D зліва направо, як їх видно зі стрілецького місця. Меню мішеней перед місцем перелічує їх у порядку стрільби разом зі спеціальними мішенями: 90, 70 чи 60 мм, батю, кролик.",
+     "Саме стрілецьке місце — квадрат 1 × 1 м або коло діаметром 1 м. Кожна траєкторія має клас складності: A (середній стрілець розбиває понад 80%), B (60–80%) або C (40–60%).",
+     "Стрільці проходять майданчик групами (squad) до шести осіб, складеними жеребкуванням. На кожному місці всі спершу стріляють одиночні мішені, потім дуплети, а черговість змінюється на кожному місці й ще раз для дуплетів. Решта групи чекає поруч, не відволікаючи того, хто стріляє.",
+     "Протокол веде суддя (або людина під його наглядом), позначаючи кожну мішень під літерою її машинки. Залишаючи кожне місце, стрілець перевіряє свій результат; незгоду треба висловити судді одразу, і його рішення остаточне."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Round = 25 targets on one layout: 15 singles + 5 doubles; international event = 200 targets.",
+     "Traps A, B, C, D from left to right as seen from the stand; the menu gives the order and special targets.",
+     "Squads of up to six; singles first, then doubles; the order rotates.",
+     "Check your score when leaving each stand; the referee decides."
+    ],
+    "uk": [
+     "Раунд — 25 мішеней на одному майданчику: 15 одиночних + 5 дуплетів; міжнародне змагання — 200 мішеней.",
+     "Машинки A, B, C, D зліва направо, як видно з місця; меню показує порядок і спеціальні мішені.",
+     "Групи до шести; спершу одиночні, потім дуплети; черговість змінюється.",
+     "Перевіряйте результат, залишаючи кожне місце; вирішує суддя."
+    ]
+   },
+   "terms": [
+    "round",
+    "layout",
+    "shooting-stand",
+    "trap",
+    "target-menu",
+    "single-target",
+    "double",
+    "squad",
+    "rotation",
+    "score-sheet",
+    "referee",
+    "difficulty-class"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch16-format"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-glossary"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-traps-table"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-trap-letters"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-target-menu"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-shooting-stands"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-difficulty-classes"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-squads"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-singles-then-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-waiting-positions"
+    },
+    {
+     "book": "sporting",
+     "id": "ch14-who-keeps-score"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-results-check"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Singles first, then doubles.",
+     "meaning": {
+      "en": "The standard order at every stand.",
+      "uk": "Стандартний порядок на кожному місці."
+     },
+     "say": {
+      "uk": "Спершу одиночні, потім дуплети."
+     }
+    },
+    {
+     "en": "Read the menu: the traps go A, B, C.",
+     "meaning": {
+      "en": "The menu board lists the traps in the order they will be shot.",
+      "uk": "Меню перелічує машинки в тому порядку, в якому їх стрілятимуть."
+     },
+     "say": {
+      "uk": "Дивіться меню: машинки йдуть A, B, C."
+     }
+    },
+    {
+     "en": "Next shooter.",
+     "meaning": {
+      "en": "The referee calls the next person onto the stand.",
+      "uk": "Суддя викликає на місце наступного стрільця."
+     },
+     "say": {
+      "uk": "Наступний стрілець."
+     }
+    },
+    {
+     "en": "Check your score before you leave the stand.",
+     "meaning": {
+      "en": "Any disagreement must be raised now, not later.",
+      "uk": "Будь-яку незгоду треба висловити зараз, а не пізніше."
+     },
+     "say": {
+      "uk": "Перевірте результат, перш ніж залишити місце."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "How many targets does one Sporting™ layout give, and how are they split?",
+      "uk": "Скільки мішеней дає один майданчик Sporting™ і як вони розподілені?"
+     },
+     "options": {
+      "en": [
+       "20: 10 singles and 5 doubles",
+       "25: all singles",
+       "25: 15 singles and 5 doubles",
+       "50: 25 singles and 25 doubles"
+      ],
+      "uk": [
+       "20: 10 одиночних і 5 дуплетів",
+       "25: лише одиночні",
+       "25: 15 одиночних і 5 дуплетів",
+       "50: 25 одиночних і 25 дуплетів"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Every layout type gives 15 singles plus 5 doubles, which is 25 targets.",
+      "uk": "Будь-який тип майданчика дає 15 одиночних плюс 5 дуплетів, тобто 25 мішеней."
+     }
+    },
+    {
+     "q": {
+      "en": "In what order does a squad shoot at a stand?",
+      "uk": "У якому порядку група стріляє на місці?"
+     },
+     "options": {
+      "en": [
+       "Doubles first, then singles",
+       "Everyone shoots the singles first, then the doubles, and the order rotates",
+       "Each shooter shoots the whole layout in one go",
+       "The shooters choose freely"
+      ],
+      "uk": [
+       "Спершу дуплети, потім одиночні",
+       "Усі спершу стріляють одиночні, потім дуплети, і черговість змінюється",
+       "Кожен стріляє весь майданчик за один захід",
+       "Стрільці обирають порядок довільно"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Singles come first, then doubles, in rotation, unless the jury decides otherwise.",
+      "uk": "Спершу одиночні, потім дуплети, по черзі, якщо журі не вирішить інакше."
+     }
+    },
+    {
+     "q": {
+      "en": "Leaving the stand, a shooter sees that a hit was marked as a miss. What should he do?",
+      "uk": "Залишаючи місце, стрілець бачить, що влучання записали як промах. Що йому робити?"
+     },
+     "options": {
+      "en": [
+       "Wait for the end of the round and appeal to the jury",
+       "Correct the card himself",
+       "Ask the squad to vote",
+       "Tell the referee at once; the referee decides"
+      ],
+      "uk": [
+       "Дочекатися кінця раунду й оскаржити в журі",
+       "Самому виправити протокол",
+       "Попросити групу проголосувати",
+       "Одразу сказати судді; вирішує суддя"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Scores are checked when leaving each stand; the referee alone decides, and there is no appeal afterwards.",
+      "uk": "Результат перевіряють, залишаючи кожне місце; вирішує лише суддя, і оскарження потім немає."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "sporting-gun-position",
+   "mission": "sporting",
+   "minutes": 5,
+   "title": {
+    "en": "The gun-down start",
+    "uk": "Старт з опущеною рушницею"
+   },
+   "body": {
+    "en": [
+     "The most visible rule of Parcours de Chasse – Sporting™ is the gun-down start. Before calling, the shooter stands with both feet inside the stand, the heel of the stock touching the body and the top rear point of the stock below a line on the vest. This ready position is held until the target has been released and can be seen.",
+     "The line is marked on the vest or jacket 25 cm below the shoulder axis, parallel to it, in a colour that contrasts with the vest so the referee can see it. The rule covers every stock type, adjustable combs included.",
+     "The gun may come up only when the target appears. Every target, rabbits included, is shot with the gun at the shoulder; firing from the hip is not allowed. Between the first and second targets of any double the gun position is free, but before the first target the ready position applies.",
+     "Penalties: the first time a shooter calls in a wrong position or mounts before the target appears, the referee gives a verbal warning with a yellow card. Any further offence on the same layout brings a red card, and the target is scored zero on a single, zero and No Bird on a double on report, zero and zero on a simultaneous or rafale double.",
+     "Mounting and swinging along the imagined line before calling (mock shooting) is forbidden too: a warning first, then a zero. If a coach drills a gun-up start before a FITASC event, translate the word 'drill' too."
+    ],
+    "uk": [
+     "Найпомітніше правило Parcours de Chasse – Sporting™ — старт з опущеною рушницею. Перед командою стрілець стоїть обома ногами в межах місця, п’ятка приклада торкається тіла, а задня верхня точка приклада — нижче лінії на жилеті. Цю позицію готовності тримають, доки мішень не вилетить і не стане видимою.",
+     "Лінію наносять на жилет чи куртку на 25 см нижче осі плеча, паралельно до неї, контрастним кольором, щоб суддя її бачив. Правило стосується будь-якого приклада, зокрема з регульованим гребенем.",
+     "Вкидати рушницю можна лише тоді, коли з’явилася мішень. По кожній мішені, і по кролику теж, стріляють із рушницею на плечі; стріляти від стегна заборонено. Між першою і другою мішенню будь-якого дуплета рушницю можна тримати як завгодно, але перед першою мішенню діє позиція готовності.",
+     "Санкції: коли стрілець уперше дає команду в неправильній позиції або вкидає рушницю до появи мішені, суддя робить усне попередження з жовтою карткою. Кожне наступне порушення на тому самому майданчику — червона картка, а мішень зараховують так: одиночна — zero; дуплет on report — zero і No Bird; дуплет simultaneous чи rafale — zero і zero.",
+     "Вкидати рушницю й вести нею уявну лінію мішені перед командою (mock shooting, холосте прицілювання) теж заборонено: спершу попередження, далі zero. Якщо тренер перед змаганнями FITASC дає вправу зі стартом «gun up», подбайте, щоб слово «вправа» теж прозвучало в перекладі."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Before the call: both feet in the stand, stock touching the body, top of the stock below the vest line.",
+     "The vest line is 25 cm below the shoulder axis, in a contrasting colour.",
+     "Mount only when the target appears; always shoot from the shoulder; free position between the targets of a double.",
+     "First offence: warning + yellow card; next on the same layout: red card and the target scored."
+    ],
+    "uk": [
+     "Перед командою: обидві ноги в межах місця, приклад торкається тіла, верх приклада нижче лінії на жилеті.",
+     "Лінія на жилеті — на 25 см нижче осі плеча, контрастного кольору.",
+     "Вкидка лише після появи мішені; стріляють завжди з плеча; між мішенями дуплета — довільне положення.",
+     "Перше порушення — попередження й жовта картка; наступне на тому самому майданчику — червона картка й зарахування мішені."
+    ]
+   },
+   "terms": [
+    "ready-position",
+    "gun-mount",
+    "shooting-stand",
+    "shooting-vest",
+    "adjustable-comb",
+    "mock-shooting",
+    "yellow-card",
+    "red-card",
+    "jacket-line"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch3-ready-position"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-jacket-line"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-mounting"
+    },
+    {
+     "book": "sporting",
+     "id": "ch3-between-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-yellow-card"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-red-card"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-mock-shooting"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Gun down, please.",
+     "meaning": {
+      "en": "Referee: bring the stock below the vest line before calling.",
+      "uk": "Суддя: опустіть приклад нижче лінії на жилеті перед командою."
+     },
+     "say": {
+      "uk": "Рушницю вниз, будь ласка."
+     }
+    },
+    {
+     "en": "Your stock was above the line. This is a warning.",
+     "meaning": {
+      "en": "First gun-position offence: verbal warning with a yellow card.",
+      "uk": "Перше порушення положення рушниці: усне попередження з жовтою карткою."
+     },
+     "say": {
+      "uk": "Приклад був вище лінії. Це попередження."
+     }
+    },
+    {
+     "en": "Don't mount before the target appears.",
+     "meaning": {
+      "en": "The gun may come up only once the target is visible.",
+      "uk": "Піднімати рушницю можна лише тоді, коли мішень уже видно."
+     },
+     "say": {
+      "uk": "Не вкидайте рушницю до появи мішені."
+     }
+    },
+    {
+     "en": "Red card, zero.",
+     "meaning": {
+      "en": "A repeat offence on the same layout; the single is lost.",
+      "uk": "Повторне порушення на тому самому майданчику; одиночну мішень не зараховано."
+     },
+     "say": {
+      "uk": "Червона картка, zero."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "First stand. A shooter calls with the gun already at the shoulder. It is his first offence on this layout. What is the referee's decision?",
+      "uk": "Перше місце. Стрілець дає команду, коли рушниця вже на плечі. Це його перше порушення на цьому майданчику. Яке рішення судді?"
+     },
+     "options": {
+      "en": [
+       "The target is scored zero",
+       "A verbal warning with a yellow card",
+       "No Bird and nothing else",
+       "Expulsion"
+      ],
+      "uk": [
+       "Мішень зараховують як zero",
+       "Усне попередження з жовтою карткою",
+       "No Bird, і більше нічого",
+       "Виключення зі змагань"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The first gun-position offence is a verbal warning backed by a yellow card.",
+      "uk": "Перше порушення положення рушниці — усне попередження з жовтою карткою."
+     }
+    },
+    {
+     "q": {
+      "en": "Same layout, two stands later: the same shooter calls for a single with the stock above the vest line. Decision?",
+      "uk": "Той самий майданчик, двома місцями пізніше: той самий стрілець дає команду на одиночну мішень із прикладом вище лінії. Рішення?"
+     },
+     "options": {
+      "en": [
+       "Another yellow card",
+       "No Bird",
+       "Red card, and the target is repeated",
+       "Red card, and the single is scored zero"
+      ],
+      "uk": [
+       "Ще одна жовта картка",
+       "No Bird",
+       "Червона картка, мішень повторюють",
+       "Червона картка, одиночну мішень зараховують як zero"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "After the warning, a further offence on the same layout is a red card: zero on a single.",
+      "uk": "Після попередження наступне порушення на тому самому майданчику — червона картка: на одиночній мішені zero."
+     }
+    },
+    {
+     "q": {
+      "en": "Double on report. After breaking the first target, the shooter lowers the gun slightly before the second. Decision?",
+      "uk": "Дуплет on report. Розбивши першу мішень, стрілець трохи опускає рушницю перед другою. Рішення?"
+     },
+     "options": {
+      "en": [
+       "Allowed: the gun position is free between the two targets",
+       "Yellow card",
+       "Zero on the second target",
+       "No Bird"
+      ],
+      "uk": [
+       "Дозволено: між двома мішенями положення рушниці довільне",
+       "Жовта картка",
+       "Zero на другій мішені",
+       "No Bird"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The free position applies between the targets of any double; the ready position is required only before the first one.",
+      "uk": "Довільне положення діє між мішенями будь-якого дуплета; позиція готовності потрібна лише перед першою."
+     }
+    }
+   ],
+   "sim": {
+    "type": "call"
+   }
+  },
+  {
+   "id": "sporting-singles-doubles",
+   "mission": "sporting",
+   "minutes": 5,
+   "title": {
+    "en": "Singles and doubles",
+    "uk": "Одиночні мішені й дуплети"
+   },
+   "body": {
+    "en": [
+     "A single is one target from one trap. In Parcours de Chasse – Sporting™ the shooter may fire two cartridges at it, so a first-barrel miss can still be saved with the second. Every single must leave time for two shots.",
+     "A double is two targets, and the shooter has only two cartridges for it; both may go at the same target. There are three kinds. On report: the second target leaves 0 to 3 seconds after the shot at the first, released by that shot. Simultaneous: both leave at the same moment, from one or two traps. Rafale: two targets from the same trap on the same line, the second as fast as the trap reloads. In simultaneous and rafale doubles the targets may be taken in either order. Doubles use only targets already shown as singles from the same stand.",
+     "Decisions the referee often has to make: if one shot breaks both targets of any double, both count, one and one. If the shooter does not fire at a rafale or simultaneous double without a valid reason, it is zero and zero.",
+     "On a double on report, an irregular first target means the double is repeated; if the first target or its pieces break the second before the second shot, or the second is irregular, the double is repeated and the first result is kept. On simultaneous and rafale doubles, an irregular target means a repeat with no score recorded.",
+     "Tip: pass on a double's result as a pair, in the referee's order."
+    ],
+    "uk": [
+     "Одиночна мішень (single) — одна мішень з однієї машинки. У Parcours de Chasse – Sporting™ по ній можна випустити два патрони, тож промах першим стволом ще можна виправити другим. Майданчик має залишати досить часу на два постріли по кожній одиночній мішені.",
+     "Дуплет (double) — дві мішені, і на нього стрілець має лише два патрони; обидва можна випустити по одній мішені. Дуплети бувають трьох видів. За пострілом (on report): друга мішень вилітає через 0–3 секунди після пострілу по першій — її запускає сам постріл. Одночасний (simultaneous): обидві вилітають одночасно з однієї чи двох машинок. Рафаль (rafale): дві мішені з однієї машинки по тій самій траєкторії, друга — щойно машинка перезарядиться. На одночасному дуплеті й рафалі мішені можна брати в будь-якому порядку. Дуплети складають лише з мішеней, які вже летіли як одиночні з цього самого місця.",
+     "Рішення, які суддя ухвалює найчастіше: якщо один постріл розбив обидві мішені будь-якого дуплета, зараховують обидві — one і one. Якщо стрілець без поважної причини не стріляв по дуплету rafale чи simultaneous — zero і zero.",
+     "На дуплеті on report нерегулярна перша мішень означає повтор дуплета; якщо перша мішень чи її уламки розбили другу до другого пострілу або нерегулярна друга, дуплет повторюють, а результат першої зберігають. На simultaneous і rafale нерегулярна мішень означає повтор без зарахування результату.",
+     "Порада: передавайте результат дуплета парою й у тому порядку, в якому його назвав суддя."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Single: two cartridges allowed.",
+     "Double: two cartridges in total, both may go at one target; kinds: on report, simultaneous, rafale.",
+     "One shot breaks both targets: one and one.",
+     "Not firing at a simultaneous or rafale double without reason: zero and zero."
+    ],
+    "uk": [
+     "Одиночна мішень: дозволено два патрони.",
+     "Дуплет: усього два патрони, обидва можна по одній мішені; види: on report, simultaneous, rafale.",
+     "Один постріл розбив обидві мішені — one і one.",
+     "Не стріляв по simultaneous чи rafale без причини — zero і zero."
+    ]
+   },
+   "terms": [
+    "single-target",
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "trap",
+    "trajectory",
+    "no-bird",
+    "one",
+    "zero"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch4-single-target"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-trajectories-ethics"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-doubles-general"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-double-on-report"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-simultaneous-double"
+    },
+    {
+     "book": "sporting",
+     "id": "ch4-rafale-double"
+    },
+    {
+     "book": "sporting",
+     "id": "ch2-doubles-composition"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-two-with-one-shot"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-target-zero"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-doubles"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Report pair: the second comes on your shot.",
+     "meaning": {
+      "en": "Coach: the second target is released by the shot at the first.",
+      "uk": "Тренер: другу мішень запускає постріл по першій."
+     },
+     "say": {
+      "uk": "Дуплет on report: друга вилетить на ваш постріл."
+     }
+    },
+    {
+     "en": "On the rafale, take either one first.",
+     "meaning": {
+      "en": "Order is free in a rafale double.",
+      "uk": "У дуплеті rafale порядок довільний."
+     },
+     "say": {
+      "uk": "На rafale можна брати першою будь-яку."
+     }
+    },
+    {
+     "en": "One and one.",
+     "meaning": {
+      "en": "Referee: both targets of the double are hits.",
+      "uk": "Суддя: обидві мішені дуплета зараховано."
+     },
+     "say": {
+      "uk": "One і one — обидві зараховано."
+     }
+    },
+    {
+     "en": "No Bird, repeat the double.",
+     "meaning": {
+      "en": "Irregular target; the double is thrown again.",
+      "uk": "Нерегулярна мішень; дуплет запускають знову."
+     },
+     "say": {
+      "uk": "No Bird — дуплет повторюють."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Simultaneous double. One shot breaks both targets. What is the referee's decision?",
+      "uk": "Дуплет simultaneous. Один постріл розбив обидві мішені. Яке рішення судді?"
+     },
+     "options": {
+      "en": [
+       "One and one",
+       "One and No Bird",
+       "No Bird, the double is repeated",
+       "One and zero"
+      ],
+      "uk": [
+       "One і one",
+       "One і No Bird",
+       "No Bird, дуплет повторюють",
+       "One і zero"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "In Sporting™, two targets broken with one shot in any double score one and one (Compak® Sporting differs).",
+      "uk": "У Sporting™ дві мішені, розбиті одним пострілом у будь-якому дуплеті, — це one і one (у Compak® Sporting інакше)."
+     }
+    },
+    {
+     "q": {
+      "en": "Double on report. The shooter breaks the first target, and a piece of it smashes the second before the second shot. Decision?",
+      "uk": "Дуплет on report. Стрілець розбив першу мішень, і її уламок розбив другу до другого пострілу. Рішення?"
+     },
+     "options": {
+      "en": [
+       "One and one",
+       "The double is repeated and the first result is kept",
+       "Zero on the second target",
+       "One and zero"
+      ],
+      "uk": [
+       "One і one",
+       "Дуплет повторюють, а результат першої зберігають",
+       "Zero на другій мішені",
+       "One і zero"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "When the first target or its pieces break the second before the second shot, the double is repeated and the first result stands.",
+      "uk": "Якщо перша мішень чи її уламки розбили другу до другого пострілу, дуплет повторюють, а результат першої зберігають."
+     }
+    },
+    {
+     "q": {
+      "en": "Rafale double. Both targets fly correctly, but the shooter lowers the gun and fires at neither, giving no valid reason. Decision?",
+      "uk": "Дуплет rafale. Обидві мішені вилетіли правильно, але стрілець опустив рушницю й не стріляв, не маючи поважної причини. Рішення?"
+     },
+     "options": {
+      "en": [
+       "No Bird",
+       "Zero and No Bird",
+       "A yellow card only",
+       "Zero and zero"
+      ],
+      "uk": [
+       "No Bird",
+       "Zero і No Bird",
+       "Лише жовта картка",
+       "Zero і zero"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "A correct target not fired at without a valid reason is lost; on a rafale or simultaneous double that means zero and zero.",
+      "uk": "Правильну мішень, по якій не стріляли без поважної причини, не зараховують; на rafale чи simultaneous це zero і zero."
+     }
+    }
+   ],
+   "sim": {
+    "type": "call"
+   }
+  },
+  {
+   "id": "sporting-viewing",
+   "mission": "sporting",
+   "minutes": 5,
+   "title": {
+    "en": "Viewing the targets",
+    "uk": "Показ мішеней"
+   },
+   "body": {
+    "en": [
+     "Before a squad shoots a stand, the referee has the targets shown. The presentation is for reading the targets: line, speed, distance and what the clay does. All trajectories are shown to the first shooter of the squad, who must be standing ready on the stand.",
+     "The shooter on the stand may ask the referee to repeat the presentation, up to two targets for each target of the menu sequence.",
+     "Doubles on report are not shown, because the second target only leaves on the sound of the shot. Simultaneous and rafale doubles are shown to the first shooter of each squad and, on request, repeated up to two shown doubles.",
+     "During the presentation guns are open and unloaded, as at every interruption, and they are closed again only when the referee allows it. Shooting or mock shooting during the presentation is forbidden and is penalised like a gun-position offence: a warning first, then a red card.",
+     "If a trap breaks down or shooting stops for more than ten minutes, the referee shows that stand's targets again. Before the event nobody may practise on the competition layouts.",
+     "In training, viewing is the coach's favourite moment: 'watch where it turns'. In competition the presentation is part of the event, so the coaching ban applies here as well: stay quiet unless the referee or the shooter needs a procedural translation."
+    ],
+    "uk": [
+     "Перш ніж група стріляє на місці, суддя організовує показ мішеней. Показ потрібен, щоб «прочитати» мішені: лінію, швидкість, відстань і поведінку в польоті. Усі траєкторії показують першому стрільцеві групи, який має стояти напоготові на стрілецькому місці.",
+     "Стрілець на місці може попросити суддю повторити показ — не більше ніж дві мішені на кожну мішень із послідовності меню.",
+     "Дуплети on report не показують, бо друга мішень вилітає лише на звук пострілу. Дуплети simultaneous і rafale показують першому стрільцеві кожної групи, а на прохання повторюють — не більше двох показаних дуплетів.",
+     "Під час показу рушниці відкриті й розряджені, як і під час будь-якої перерви; закривати їх можна лише з дозволу судді. Стріляти чи холосто прицілюватися під час показу заборонено, і карають за це, як за порушення положення рушниці: спершу попередження, потім червона картка.",
+     "Якщо машинка зламалася або стрільба зупинилася більш ніж на десять хвилин, суддя знову показує мішені цього місця. До змагання ніхто не може тренуватися на змагальних майданчиках.",
+     "На тренуванні показ — улюблена мить тренера: «watch where it turns» («дивіться, де вона повертає»). Але на змаганні показ — частина змагання, тож заборона підказок діє і тут: мовчіть, якщо суддя чи стрілець не потребує перекладу з процедурних питань."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "All trajectories are shown to the first shooter, standing ready on the stand.",
+     "Repeats on request: up to two per target of the menu.",
+     "Doubles on report are never shown; simultaneous and rafale doubles are.",
+     "Guns open during the presentation; no firing or mock shooting.",
+     "Interruption over 10 minutes: targets shown again."
+    ],
+    "uk": [
+     "Усі траєкторії показують першому стрільцеві, який стоїть напоготові на місці.",
+     "Повтор на прохання — до двох на кожну мішень меню.",
+     "Дуплети on report не показують ніколи; simultaneous і rafale — показують.",
+     "Під час показу рушниці відкриті; жодних пострілів і холостого прицілювання.",
+     "Перерва понад 10 хвилин — мішені показують знову."
+    ]
+   },
+   "terms": [
+    "target-presentation",
+    "target-menu",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "mock-shooting",
+    "practice",
+    "red-card"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch16-presentation"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-presentation-doubles"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-presentation-interruption"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-yellow-card"
+    },
+    {
+     "book": "sporting",
+     "id": "ch12-red-card"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-long-interruption"
+    },
+    {
+     "book": "sporting",
+     "id": "ch15-no-practice"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-coaching"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    },
+    {
+     "title": "Mid Valley Clays — Terminology",
+     "url": "https://midvalleyclays.com/terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Show me the targets, please.",
+     "meaning": {
+      "en": "Shooter to referee: start the presentation.",
+      "uk": "Стрілець судді: почніть показ."
+     },
+     "say": {
+      "uk": "Покажіть, будь ласка, мішені."
+     }
+    },
+    {
+     "en": "Again, please, B only.",
+     "meaning": {
+      "en": "Request to repeat one target of the menu.",
+      "uk": "Прохання повторити одну мішень меню."
+     },
+     "say": {
+      "uk": "Ще раз, будь ласка, — лише B."
+     }
+    },
+    {
+     "en": "Guns open during the show.",
+     "meaning": {
+      "en": "Referee: open and unload until he allows closing.",
+      "uk": "Суддя: відкрити й розрядити рушниці, доки він не дозволить закрити."
+     },
+     "say": {
+      "uk": "Під час показу рушниці відкриті."
+     }
+    },
+    {
+     "en": "Watch where it turns.",
+     "meaning": {
+      "en": "Coach in training: notice the point where the clay changes direction or shape.",
+      "uk": "Тренер на тренуванні: зверніть увагу, де мішень змінює напрям чи положення."
+     },
+     "say": {
+      "uk": "Дивіться, де вона повертає."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Which doubles are NOT shown at the presentation?",
+      "uk": "Які дуплети НЕ показують під час показу?"
+     },
+     "options": {
+      "en": [
+       "Simultaneous",
+       "Rafale",
+       "On report",
+       "None: all are shown"
+      ],
+      "uk": [
+       "Simultaneous",
+       "Rafale",
+       "On report",
+       "Жодних: показують усі"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The second target of a report pair leaves only on the shot, so these doubles are not presented.",
+      "uk": "Друга мішень дуплета on report вилітає лише на постріл, тож такі дуплети не показують."
+     }
+    },
+    {
+     "q": {
+      "en": "How many repeats of a target may the shooter on the stand ask for?",
+      "uk": "Скільки повторів мішені може попросити стрілець на місці?"
+     },
+     "options": {
+      "en": [
+       "None",
+       "Up to two for each target of the menu",
+       "As many as needed",
+       "One per stand"
+      ],
+      "uk": [
+       "Жодного",
+       "До двох на кожну мішень меню",
+       "Скільки потрібно",
+       "Один на місце"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "On request the referee repeats the presentation, up to two targets for each target in the menu sequence.",
+      "uk": "На прохання суддя повторює показ — до двох мішеней на кожну мішень послідовності меню."
+     }
+    },
+    {
+     "q": {
+      "en": "During the presentation a shooter closes his gun and swings along a target's line. What applies?",
+      "uk": "Під час показу стрілець закриває рушницю й веде нею по лінії мішені. Що застосовують?"
+     },
+     "options": {
+      "en": [
+       "It is forbidden: the gun-position penalties apply, a warning and then a red card",
+       "Nothing: viewing is free",
+       "The target is shown again",
+       "Only the coach is warned"
+      ],
+      "uk": [
+       "Це заборонено: діють санкції як за положення рушниці — попередження, потім червона картка",
+       "Нічого: під час показу все дозволено",
+       "Мішень показують знову",
+       "Попередження отримує лише тренер"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Guns stay open during the presentation, and firing or mock firing is penalised under the warning and red-card rules.",
+      "uk": "Під час показу рушниці відкриті, а постріли чи холосте прицілювання карають за правилами попередження й червоної картки."
+     }
+    }
+   ],
+   "sim": null
+  },
+  {
+   "id": "sporting-malfunctions",
+   "mission": "sporting",
+   "minutes": 5,
+   "title": {
+    "en": "Gun and cartridge malfunctions",
+    "uk": "Несправності рушниці й патронів"
+   },
+   "body": {
+    "en": [
+     "A malfunction is a failure of gun or cartridge: a misfire, a dead second barrel, or both barrels firing together (double discharge). In Parcours de Chasse – Sporting™ incidents are counted per round of 25 targets.",
+     "First, what the shooter must do: stay in place, gun pointing down the range, without opening it or touching the safety until the referee has examined it. Opening the gun or touching the safety first means the target or targets are scored zero.",
+     "The first incident in a round is a No Bird with a warning, and the target is repeated. From the second incident in the same round, the target is no longer repeated but scored zero.",
+     "Details of a first incident: if the first shot fails, a single or any double is repeated, but if the shooter still fires the second shot, that result stands. If the second shot fails on a single, the target is repeated and may then only be broken with the second shot; a first-shot break scores zero. On a double on report the first result is kept and the double repeated. A double discharge on a single, or on the first target of any double, is a No Bird with nothing recorded.",
+     "If the gun is fixed before the squad finishes the stand, the shooter may shoot last with the referee's permission; otherwise he may continue at once with another gun, or finish in another squad with the jury's approval. Gun, choke or barrel may not be changed once he is on the stand."
+    ],
+    "uk": [
+     "Несправність (malfunction) — збій рушниці чи патрона: осічка, другий ствол, що не стріляє, або одночасний постріл з обох стволів (double discharge). У Parcours de Chasse – Sporting™ несправності рахують у межах раунду з 25 мішеней.",
+     "Спершу — що має зробити стрілець: стояти на місці, рушниця спрямована в бік поля, не відкривати її й не торкатися запобіжника, доки суддя її не огляне. Якщо стрілець відкрив рушницю чи торкнувся запобіжника до огляду, мішень або мішені зараховують як zero.",
+     "Перша несправність у раунді — No Bird із попередженням, мішень повторюють. Починаючи з другої несправності в тому самому раунді, мішень уже не повторюють, а зараховують zero.",
+     "Подробиці першої несправності: якщо не спрацював перший постріл, одиночну мішень чи будь-який дуплет повторюють, але якщо стрілець усе ж зробив другий постріл, його результат зараховують. Якщо на одиночній мішені не спрацював другий постріл, мішень повторюють, і тоді її можна розбити лише другим пострілом; влучання першим — zero. На дуплеті on report результат першої мішені зберігають, а дуплет повторюють. Одночасний постріл з обох стволів на одиночній чи на першій мішені будь-якого дуплета — No Bird, результат не фіксують.",
+     "Якщо рушницю полагодили, поки група не завершила місце, стрілець може стріляти останнім з дозволу судді; інакше він може одразу продовжити з іншою рушницею або дострілятися в іншій групі з дозволу журі. Коли стрілець уже на місці, змінювати рушницю, чок чи стволи не можна."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "After a failure: stay put, gun down range, do not open it or touch the safety.",
+     "First incident in a round: No Bird + warning, target repeated.",
+     "Second incident in the same round: zero, no repeat.",
+     "Second-shot failure on a single: on the repeat only a second-shot break counts."
+    ],
+    "uk": [
+     "Після збою: стояти на місці, рушниця в бік поля, не відкривати й не чіпати запобіжник.",
+     "Перша несправність у раунді: No Bird + попередження, мішень повторюють.",
+     "Друга несправність у тому самому раунді: zero, без повтору.",
+     "Не спрацював другий постріл на одиночній: на повторі зараховують лише влучання другим пострілом."
+    ]
+   },
+   "terms": [
+    "malfunction",
+    "double-discharge",
+    "no-bird",
+    "zero",
+    "safety-catch",
+    "round",
+    "choke",
+    "barrel"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch8-malfunction-stay-put"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-target-zero"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-gun-rules"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-malfunction-first-shot"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-malfunction-second-shot"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-second-malfunction"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-double-discharge"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-double-discharge"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-malfunction-procedure"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-borrow-replace"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-no-changes-on-stand"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Stay there, don't open the gun.",
+     "meaning": {
+      "en": "Referee: wait for the inspection; opening first costs the target.",
+      "uk": "Суддя: чекайте огляду; якщо відкрити раніше, мішень втрачено."
+     },
+     "say": {
+      "uk": "Стійте на місці — не відкривайте рушницю."
+     }
+    },
+    {
+     "en": "Let me see the gun.",
+     "meaning": {
+      "en": "The referee examines the gun or cartridge.",
+      "uk": "Суддя оглядає рушницю чи патрон."
+     },
+     "say": {
+      "uk": "Дайте мені оглянути рушницю."
+     }
+    },
+    {
+     "en": "Malfunction. No Bird, first warning.",
+     "meaning": {
+      "en": "First incident in the round: the target is repeated.",
+      "uk": "Перша несправність у раунді: мішень повторюють."
+     },
+     "say": {
+      "uk": "Несправність. No Bird, перше попередження."
+     }
+    },
+    {
+     "en": "Second malfunction this round. Zero.",
+     "meaning": {
+      "en": "No repeat this time; the target is lost.",
+      "uk": "Цього разу повтору немає; мішень не зараховано."
+     },
+     "say": {
+      "uk": "Друга несправність у цьому раунді. Zero."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "First gun problem of the round: on a single the first cartridge misfires. The shooter waits, gun down range, for the referee. Decision?",
+      "uk": "Перший збій у раунді: на одиночній мішені перший патрон дав осічку. Стрілець чекає суддю, рушниця в бік поля. Рішення?"
+     },
+     "options": {
+      "en": [
+       "Zero",
+       "No Bird with a warning; the target is repeated",
+       "One",
+       "Yellow card and zero"
+      ],
+      "uk": [
+       "Zero",
+       "No Bird із попередженням; мішень повторюють",
+       "One",
+       "Жовта картка й zero"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The first gun or ammunition incident in a round is a No Bird with a warning, and the single is repeated.",
+      "uk": "Перша несправність рушниці чи патрона в раунді — No Bird із попередженням, одиночну мішень повторюють."
+     }
+    },
+    {
+     "q": {
+      "en": "The cartridge misfires, and the annoyed shooter breaks the gun open to look at the primer before the referee arrives. Decision?",
+      "uk": "Патрон дав осічку, і роздратований стрілець відкриває рушницю, щоб глянути на капсуль, до того як підійшов суддя. Рішення?"
+     },
+     "options": {
+      "en": [
+       "No Bird",
+       "The target is repeated after a warning",
+       "Zero",
+       "Red card, and the target is repeated"
+      ],
+      "uk": [
+       "No Bird",
+       "Мішень повторюють після попередження",
+       "Zero",
+       "Червона картка, мішень повторюють"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "Opening the gun or touching the safety before the referee's check means the target is scored zero.",
+      "uk": "Якщо відкрити рушницю чи торкнутися запобіжника до огляду судді, мішень зараховують як zero."
+     }
+    },
+    {
+     "q": {
+      "en": "Single, first incident: the first shot misses and the second cartridge misfires, so the target is repeated. On the repeat the shooter breaks it with the first shot. Decision?",
+      "uk": "Одиночна мішень, перша несправність: перший постріл — промах, другий патрон дав осічку, тож мішень повторюють. На повторі стрілець розбиває її першим пострілом. Рішення?"
+     },
+     "options": {
+      "en": [
+       "One",
+       "No Bird again",
+       "One, with a warning",
+       "Zero: on this repeat only a second-shot break counts"
+      ],
+      "uk": [
+       "One",
+       "Знову No Bird",
+       "One, з попередженням",
+       "Zero: на цьому повторі зараховують лише влучання другим пострілом"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "After a second-shot failure the repeated single may only be broken with the second shot, so the first shot must be a deliberate miss.",
+      "uk": "Після несправності на другому пострілі повторну одиночну мішень можна розбити лише другим пострілом, тож першим треба навмисно промахнутися."
+     }
+    }
+   ],
+   "sim": {
+    "type": "call"
+   }
+  },
+  {
+   "id": "sporting-time-and-lateness",
+   "mission": "sporting",
+   "minutes": 5,
+   "title": {
+    "en": "Time limits and lateness",
+    "uk": "Ліміти часу й запізнення"
+   },
+   "body": {
+    "en": [
+     "Parcours de Chasse – Sporting™ runs on a tight rhythm, and several rules protect it. When the shooter calls 'pull' or 'ready', the referee relays the call to the trapper by an audio signal, and the target must leave within three seconds; a later target is a No Bird.",
+     "Between singles, or between doubles, the shooter has at most 15 seconds. The first time this is exceeded the referee gives a warning; after that the red-card penalties apply. After a final decision on a protest, the shooter must resume within 15 seconds, otherwise it counts as refusal to comply; deliberate stalling is treated the same way.",
+     "Lateness: when a shooter is missing, the referee calls the name and number three times within one minute. Arriving before one's turn on the singles of the first stand costs nothing. After that, every target not shot is zero; joining at a later stand means all targets of earlier stands are zero. A layout with missed stands can never be shot again in another squad.",
+     "A shooter late for reasons outside their control must not rejoin the squad in that round but appeal to the jury in writing. If the jury accepts, the round is shot in another squad; if not, 25 zeros for each layout not shot.",
+     "Stepping onto the stand without hearing protection or safety glasses counts as being absent. For an unscheduled shoot-off, shooters must be ready within 15 minutes of being called.",
+     "For you: never hold the squad up with a long translation. Short now, details after the stand."
+    ],
+    "uk": [
+     "Parcours de Chasse – Sporting™ має щільний ритм, і його захищають кілька правил. Коли стрілець подає команду «pull» чи «ready», суддя передає її операторові машинки (trapper) звуковим сигналом, і мішень має вилетіти протягом трьох секунд; пізніша мішень — No Bird.",
+     "Між одиночними мішенями або між дуплетами стрілець має щонайбільше 15 секунд. За перше перевищення суддя робить попередження, далі діють санкції з червоною карткою. Після остаточного рішення щодо протесту стрілець мусить продовжити стрільбу протягом 15 секунд, інакше це вважають відмовою підкорятися; навмисне затягування оцінюють так само.",
+     "Запізнення: якщо стрільця немає, суддя тричі протягом хвилини викликає його ім’я та номер. Хто прийшов до своєї черги на одиночних мішенях першого місця, приєднується без штрафу. Після цього кожна невистріляна мішень — zero; якщо стрілець приєднався на одному з наступних місць, усі мішені попередніх місць — zero. Майданчик із пропущеними місцями вже ніколи не можна відстріляти в іншій групі.",
+     "Стрілець, який запізнився з незалежних від нього причин, не повертається до групи в цьому раунді, а письмово звертається до журі. Якщо журі погодиться, раунд стріляють в іншій групі; якщо ні — 25 zero за кожен невистріляний майданчик.",
+     "Вийти на місце без захисту слуху чи захисних окулярів — те саме, що бути відсутнім. На незаплановану перестрілку (shoot-off) стрільці мають бути готові протягом 15 хвилин після виклику.",
+     "Вам: ніколи не затримуйте групу довгим перекладом. Зараз — коротко, подробиці — після місця."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Target within 3 seconds of the referee's signal, otherwise No Bird.",
+     "Max 15 seconds between singles or doubles: warning, then red card.",
+     "Resume within 15 seconds after a final ruling, or it is refusal to comply.",
+     "Late: name and number called three times in one minute; missed targets are zero."
+    ],
+    "uk": [
+     "Мішень — протягом 3 секунд після сигналу судді, інакше No Bird.",
+     "Не більше 15 секунд між одиночними чи дуплетами: попередження, потім червона картка.",
+     "Після остаточного рішення — продовжити протягом 15 секунд, інакше це відмова підкорятися.",
+     "Запізнення: ім’я та номер викликають тричі за хвилину; пропущені мішені — zero."
+    ]
+   },
+   "terms": [
+    "call",
+    "trapper",
+    "no-bird",
+    "firing-time",
+    "red-card",
+    "jury",
+    "hearing-protection",
+    "safety-glasses",
+    "shoot-off"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch5-call-and-release"
+    },
+    {
+     "book": "sporting",
+     "id": "ch6-nobird-target-cases"
+    },
+    {
+     "book": "sporting",
+     "id": "ch7-fifteen-seconds"
+    },
+    {
+     "book": "sporting",
+     "id": "ch10-resume-15s"
+    },
+    {
+     "book": "sporting",
+     "id": "ch10-deliberate-delay"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-late-shooter"
+    },
+    {
+     "book": "sporting",
+     "id": "ch16-late-excuse"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-hearing-protection"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-safety-glasses"
+    },
+    {
+     "book": "sporting",
+     "id": "ch18-squad-and-timing"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FITASC — Sports disciplines: presentation",
+     "url": "https://www.fitasc.com/en/sports-disciplines/presentation"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Shooter number twenty-three!",
+     "meaning": {
+      "en": "Referee calling a missing shooter (three times within a minute).",
+      "uk": "Суддя викликає відсутнього стрільця (тричі за хвилину)."
+     },
+     "say": {
+      "uk": "Стрілець номер двадцять три!"
+     }
+    },
+    {
+     "en": "Watch your time.",
+     "meaning": {
+      "en": "Reminder of the 15-second limit between targets.",
+      "uk": "Нагадування про ліміт 15 секунд між мішенями."
+     },
+     "say": {
+      "uk": "Стежте за часом."
+     }
+    },
+    {
+     "en": "Over fifteen seconds. This is a warning.",
+     "meaning": {
+      "en": "First time over the limit: warning; next time a penalty.",
+      "uk": "Перше перевищення: попередження; наступного разу — санкція."
+     },
+     "say": {
+      "uk": "Понад п’ятнадцять секунд. Це попередження."
+     }
+    },
+    {
+     "en": "Glasses on, or you can't shoot.",
+     "meaning": {
+      "en": "Without eye protection the shooter is treated as absent.",
+      "uk": "Без захисту очей стрільця вважають відсутнім."
+     },
+     "say": {
+      "uk": "Вдягніть окуляри, інакше стріляти не можна."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The shooter calls, the referee relays the signal, but the target leaves about five seconds later. The shooter fires and misses. Decision?",
+      "uk": "Стрілець дає команду, суддя передає сигнал, але мішень вилітає приблизно через п’ять секунд. Стрілець стріляє й промахується. Рішення?"
+     },
+     "options": {
+      "en": [
+       "Zero",
+       "No Bird",
+       "One",
+       "A warning for the shooter"
+      ],
+      "uk": [
+       "Zero",
+       "No Bird",
+       "One",
+       "Попередження стрільцеві"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "A target released more than three seconds after the referee's signal is a No Bird.",
+      "uk": "Мішень, що вилетіла пізніше ніж через три секунди після сигналу судді, — No Bird."
+     }
+    },
+    {
+     "q": {
+      "en": "A shooter arrives while his squad is still shooting singles on stand 1, before his turn has come. What happens?",
+      "uk": "Стрілець приходить, коли його група ще стріляє одиночні мішені на першому місці, і його черга ще не настала. Що далі?"
+     },
+     "options": {
+      "en": [
+       "He joins without penalty",
+       "25 zeros",
+       "Zero on all singles of stand 1",
+       "He must shoot with another squad"
+      ],
+      "uk": [
+       "Приєднується без штрафу",
+       "25 zero",
+       "Zero на всіх одиночних першого місця",
+       "Мусить стріляти з іншою групою"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Arriving before missing one's turn on the singles of the first stand carries no penalty.",
+      "uk": "Хто прийшов до своєї черги на одиночних мішенях першого місця, штрафу не отримує."
+     }
+    },
+    {
+     "q": {
+      "en": "Between two singles a shooter takes about 25 seconds, for the first time today. Decision?",
+      "uk": "Між двома одиночними мішенями стрілець витрачає близько 25 секунд — сьогодні вперше. Рішення?"
+     },
+     "options": {
+      "en": [
+       "Zero on the next target",
+       "Red card",
+       "No consequence at all",
+       "A warning from the referee"
+      ],
+      "uk": [
+       "Zero на наступній мішені",
+       "Червона картка",
+       "Жодних наслідків",
+       "Попередження від судді"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "The limit is 15 seconds; the first time it is exceeded the referee warns, and only then do penalties follow.",
+      "uk": "Ліміт — 15 секунд; за перше перевищення суддя попереджає, і лише потім ідуть санкції."
+     }
+    }
+   ],
+   "sim": {
+    "type": "call"
+   }
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "jacket-line",
+   "en": "vest line (jacket marking line)",
+   "def_en": "A contrasting line on the shooter's vest 25 cm below the shoulder axis; in FITASC Sporting™ the top rear of the stock must stay below it until the target appears.",
+   "def_uk": "Контрастна лінія на жилеті стрільця на 25 см нижче осі плеча; у FITASC Sporting™ задня верхня точка приклада має бути нижче неї до появи мішені."
+  },
+  {
+   "id": "difficulty-class",
+   "en": "difficulty class (A, B, C)",
+   "def_en": "FITASC Sporting™ grading of a trajectory by the share of targets an average shooter breaks: A over 80%, B 60–80%, C 40–60%.",
+   "def_uk": "Оцінка траєкторії у FITASC Sporting™ за часткою мішеней, які розбиває середній стрілець: A — понад 80%, B — 60–80%, C — 40–60%."
+  }
+ ]
+}

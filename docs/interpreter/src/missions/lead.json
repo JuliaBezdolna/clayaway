@@ -1,0 +1,1216 @@
+{
+ "id": "lead",
+ "order": 6,
+ "icon": "lead",
+ "title": {
+  "en": "Lead (forward allowance) and shooting methods",
+  "uk": "Винос (упередження) і методи стрільби"
+ },
+ "intro": {
+  "en": "Lead is what coaches talk about most: why the gun must point ahead of a moving target, the four ways of getting it there, and the strange units they use to describe it. This mission shows each method step by step and teaches you to translate “four foot”, “half a bird” or “double it” without changing the meaning.",
+  "uk": "Про винос тренери говорять найбільше: чому рушниця має дивитися попереду мішені, чотири способи вивести її туди і дивні одиниці, якими це описують. Ця місія крок за кроком показує кожен метод і вчить перекладати «four foot», «half a bird» чи «double it», не змінюючи змісту."
+ },
+ "lessons": [
+  {
+   "id": "lead-why",
+   "mission": "lead",
+   "minutes": 6,
+   "title": {
+    "en": "Why lead exists: actual and perceived lead",
+    "uk": "Навіщо винос: справжній і видимий"
+   },
+   "body": {
+    "en": [
+     "The shot needs a fraction of a second to reach the target, and in that time the target moves on. A gun pointed straight at a crosser therefore shoots behind it. The gun has to point ahead, so that shot and target meet. That gap is lead, in British English also “forward allowance”.",
+     "Lead grows with the target's speed, its distance and its angle. A full crosser needs the most; a target flying straight at or away from the shooter needs almost no sideways lead, though rising and falling targets need vertical lead (above or below).",
+     "Real numbers are surprising. One shooting website gives about 3 to 4 feet, roughly a metre, of actual lead for a crosser at about 21–25 yards (around 20 m). Many shooters say it grows roughly in proportion with distance, so the same small gap at the muzzle means much more real lead on a far target.",
+     "Actual lead is the real distance in front of the clay in the air. Perceived lead (the “lead picture” or “sight picture”) is the gap the shooter sees between muzzle and target. A metre at 20 m looks like a few centimetres at the muzzle. The method changes the picture: a maintained-lead shooter sees the biggest gap, a swing-through shooter little or none, because gun speed adds lead.",
+     "An American instructor notes that a right-handed shooter often feels a left-to-right crosser needs more lead than a right-to-left one; the real lead is the same, only perception differs. So a coach's “four feet” describes his picture, not a measurement."
+    ],
+    "uk": [
+     "Дробу потрібна частка секунди, щоб долетіти до мішені, а за цей час мішень зміщується. Тому рушниця, спрямована точно в кросер, стріляє позаду нього. Стволи мають дивитися попереду, щоб дріб і мішень зустрілися. Цей проміжок і є винос (упередження), англійською lead, у британців також «forward allowance».",
+     "Винос зростає зі швидкістю мішені, відстанню до неї і кутом. Найбільший потрібен повному кросеру; мішені, що летить прямо на стрільця або від нього, бічного виносу майже не треба, хоча мішеням на підйомі й на падінні потрібен вертикальний винос (вище чи нижче).",
+     "Справжні числа дивують. Один стрілецький сайт наводить приблизно 3–4 фути, тобто близько метра, справжнього виносу для кросера на відстані 21–25 ярдів (близько 20 м). Багато стрільців кажуть, що з відстанню винос зростає приблизно пропорційно, тож той самий маленький проміжок біля дульного зрізу на далекій мішені означає набагато більший справжній винос.",
+     "Справжній винос (actual lead) — реальна відстань перед мішенню в повітрі. Видимий винос (perceived lead, «lead picture», «sight picture») — проміжок, який стрілець бачить між дульним зрізом і мішенню. Метр на 20 м виглядає біля стволів як кілька сантиметрів. Метод змінює картинку: стрілець із maintained lead бачить найбільший проміжок, зі swing-through — малий або жодного, бо винос додає швидкість стволів.",
+     "Один американський інструктор зауважує, що праворукому стрільцеві часто здається, ніби кросер зліва направо потребує більшого виносу, ніж справа наліво; справжній винос однаковий, різниться лише сприйняття. Тому «four feet» тренера описує його картинку, а не вимір."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Lead exists because the target moves while the shot travels.",
+     "More speed, distance and angle mean more lead.",
+     "Actual lead (in the air) is far bigger than perceived lead (at the muzzle).",
+     "The method changes the picture: maintained sees most, swing-through least.",
+     "A coach's number is a picture, not a measurement."
+    ],
+    "uk": [
+     "Винос потрібен, бо мішень рухається, поки летить дріб.",
+     "Більша швидкість, відстань і кут — більший винос.",
+     "Справжній винос (у повітрі) набагато більший за видимий (біля стволів).",
+     "Метод змінює картинку: у maintained вона найбільша, у swing-through — найменша.",
+     "Число тренера — це картинка, а не вимір."
+    ]
+   },
+   "terms": [
+    "lead",
+    "perceived-lead",
+    "crosser",
+    "gun-speed",
+    "maintained-lead",
+    "swing-through"
+   ],
+   "rule_refs": [],
+   "sources": [
+    {
+     "title": "Shotgun Life — Does shotgun barrel length impact target lead?",
+     "url": "https://www.shotgunlife.com/briefs/does-shotgun-barrel-length-impact-target-lead.html"
+    },
+    {
+     "title": "NRA Women — Swing-through, sustained lead and pull-away",
+     "url": "https://www.nrawomen.com/content/shotgun-shooting-swing-through-sustained-lead-and-pull-away"
+    },
+    {
+     "title": "NSSA-NSCA — Ask the instructor: leading crossers",
+     "url": "https://nssa-nsca.org/blog/2019/05/10/ask-the-instructor-leading-crossers/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Forget the real distance — what matters is your picture.",
+     "meaning": {
+      "en": "Do not think in metres in the air; remember the gap you saw at the muzzle when you hit it.",
+      "uk": "Не думайте про метри в повітрі; запам’ятайте проміжок біля стволів, який ви бачили, коли влучили."
+     },
+     "say": {
+      "uk": "Забудьте про справжню відстань — важить ваша картинка."
+     }
+    },
+    {
+     "en": "That's the picture — remember it.",
+     "meaning": {
+      "en": "The lead was right on that hit; keep the same sight picture.",
+      "uk": "На цьому влучанні винос був правильний; збережіть ту саму картинку."
+     },
+     "say": {
+      "uk": "Оце і є картинка — запам’ятайте її."
+     }
+    },
+    {
+     "en": "Same lead on the right-to-left, it only looks different.",
+     "meaning": {
+      "en": "The real lead is equal in both directions; only perception changes.",
+      "uk": "Справжній винос однаковий в обидва боки; змінюється лише сприйняття."
+     },
+     "say": {
+      "uk": "Справа наліво винос той самий — він лише інакше виглядає."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "What is perceived lead?",
+      "uk": "Що таке видимий винос (perceived lead)?"
+     },
+     "options": {
+      "en": [
+       "The real distance in front of the clay in the air",
+       "The gap the shooter sees between muzzle and target",
+       "The lead written on the target menu",
+       "The distance from the stand to the trap"
+      ],
+      "uk": [
+       "Справжня відстань перед мішенню в повітрі",
+       "Проміжок, який стрілець бачить між дульним зрізом і мішенню",
+       "Винос, указаний у меню мішеней",
+       "Відстань від позиції до машинки"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Perceived lead is the picture at the muzzle; actual lead is the real distance in the air and is much larger.",
+      "uk": "Видимий винос — картинка біля стволів; справжній — реальна відстань у повітрі, і вона набагато більша."
+     }
+    },
+    {
+     "q": {
+      "en": "Which method usually gives the largest perceived lead?",
+      "uk": "Який метод зазвичай дає найбільший видимий винос?"
+     },
+     "options": {
+      "en": [
+       "Swing-through",
+       "Pull-away",
+       "Maintained lead",
+       "All are identical"
+      ],
+      "uk": [
+       "Swing-through",
+       "Pull-away",
+       "Maintained lead",
+       "Усі однакові"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "With maintained lead the gun moves at the target's speed and gun speed adds nothing, so the shooter must see the whole gap.",
+      "uk": "У maintained lead рушниця рухається зі швидкістю мішені, і швидкість стволів нічого не додає, тож стрілець мусить бачити весь проміжок."
+     }
+    },
+    {
+     "q": {
+      "en": "Which target needs almost no sideways lead?",
+      "uk": "Якій мішені майже не потрібен бічний винос?"
+     },
+     "options": {
+      "en": [
+       "A target going straight away",
+       "A long crosser",
+       "A quartering-away target at 45°",
+       "A crosser at 40 m"
+      ],
+      "uk": [
+       "Мішені, що летить прямо від стрільця",
+       "Далекому кросеру",
+       "Мішені навскіс від стрільця під 45°",
+       "Кросеру на 40 м"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "A straight going-away target has no sideways movement; any lead it needs is vertical.",
+      "uk": "Мішень прямо від стрільця не рухається вбік; якщо їй і потрібен винос, то вертикальний."
+     }
+    }
+   ],
+   "sim": {
+    "type": "lead",
+    "method": "maintained",
+    "preset": "crosser-lr",
+    "focus": "perceived-vs-actual"
+   }
+  },
+  {
+   "id": "lead-maintained",
+   "mission": "lead",
+   "minutes": 5,
+   "title": {
+    "en": "Maintained lead: get in front, stay in front",
+    "uk": "Maintained lead: стати попереду і втриматися"
+   },
+   "body": {
+    "en": [
+     "Maintained lead (US: sustained lead; Ukrainian «постійний винос») keeps the muzzles in front of the target from the start to the shot.",
+     "How it looks, step by step on a crosser. 1) Start: the muzzles wait at a hold point well out along the line, ahead of where the target will pass; the eyes look back towards the pick-up point. 2) Insertion: as the target comes, the gun moves and the muzzles join the line in front of it, never behind; this is the insertion point. 3) Tracking: the muzzles move at the target's speed, so the gap stays the same. 4) Shot: the trigger is pulled while the gap is right and the gun is still moving. 5) The gun keeps moving after the shot.",
+     "Strengths: precise, little gun movement, quick between targets, and the lead is easy to adjust. It suits consistent, predictable targets: long crossers, steady high targets.",
+     "Weaknesses: the hardest method to learn; the shooter must know the target's speed and line in advance; and because the gun is not faster than the target, the shooter sees the biggest gap and is tempted to measure it, slow down and stop.",
+     "Coaches say “insert the gun in front”, “stay ahead of it”, “match its speed”."
+    ],
+    "uk": [
+     "Maintained lead (в США — sustained lead; українською «постійний винос») тримає стволи попереду мішені від початку і до пострілу.",
+     "Як це виглядає крок за кроком на кросері. 1) Старт: стволи чекають у точці утримання далеко на лінії, попереду того місця, де пройде мішень; очі дивляться назад, у бік точки підхоплення. 2) Вхід: коли мішень наближається, рушниця рушає, і стволи виходять на лінію перед мішенню, ніколи не позаду; це точка входу (insertion point). 3) Ведення: стволи рухаються зі швидкістю мішені, тож проміжок не змінюється. 4) Постріл: спуск натискають, коли проміжок правильний, а рушниця ще рухається. 5) Після пострілу рушниця не зупиняється.",
+     "Переваги: точність, мало руху рушницею, швидкий перехід між мішенями, винос легко коригувати. Метод пасує стабільним, передбачуваним мішеням: далеким кросерам, рівним високим мішеням.",
+     "Слабкі місця: його найважче опанувати; швидкість і лінію мішені треба знати заздалегідь; а оскільки рушниця не швидша за мішень, стрілець бачить найбільший проміжок і спокушається його «міряти», сповільнюватися і зупинятися.",
+     "Тренери кажуть «insert the gun in front», «stay ahead of it», «match its speed»."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Muzzles start ahead and join the line in front of the target.",
+     "Gun speed = target speed; the gap stays constant.",
+     "Trigger while the gap is right and the gun is moving; then follow through.",
+     "Best on long, predictable targets.",
+     "Main risk: measuring the gap and stopping the gun."
+    ],
+    "uk": [
+     "Стволи стартують попереду і виходять на лінію перед мішенню.",
+     "Швидкість стволів = швидкість мішені; проміжок сталий.",
+     "Спуск — коли проміжок правильний і рушниця в русі; далі продовження руху.",
+     "Найкраще для далеких, передбачуваних мішеней.",
+     "Головний ризик: «міряти» проміжок і зупиняти рушницю."
+    ]
+   },
+   "terms": [
+    "maintained-lead",
+    "insertion-point",
+    "hold-point",
+    "gun-speed",
+    "follow-through",
+    "crosser"
+   ],
+   "rule_refs": [],
+   "sources": [
+    {
+     "title": "GAIM — Swing-through, pull-away or maintained lead",
+     "url": "https://www.gaim.com/blog/swing-through-pull-away-or-maintained-lead"
+    },
+    {
+     "title": "NRA Women — Swing-through, sustained lead and pull-away",
+     "url": "https://www.nrawomen.com/content/shotgun-shooting-swing-through-sustained-lead-and-pull-away"
+    },
+    {
+     "title": "Shotgun Sports USA — How to read sporting clays targets (insertion point)",
+     "url": "https://shotgunsportsusa.com/how-to-read-sporting-clays-targets/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Get in front and stay in front.",
+     "meaning": {
+      "en": "Put the muzzles ahead of the target and keep them there until after the shot.",
+      "uk": "Виведіть стволи перед мішень і тримайте їх там до пострілу й після нього."
+     },
+     "say": {
+      "uk": "Станьте попереду і тримайтеся попереду."
+     }
+    },
+    {
+     "en": "Your insertion point is behind the bird — put the gun in front of it.",
+     "meaning": {
+      "en": "The muzzles joined the line behind the target; they must join ahead of it.",
+      "uk": "Стволи вийшли на лінію позаду мішені; мають виходити попереду."
+     },
+     "say": {
+      "uk": "Стволи входять на лінію позаду мішені — ставте їх попереду."
+     }
+    },
+    {
+     "en": "Match its speed — don't let it catch you.",
+     "meaning": {
+      "en": "Move the gun at the target's speed so the gap does not shrink.",
+      "uk": "Рухайте рушницю зі швидкістю мішені, щоб проміжок не зменшувався."
+     },
+     "say": {
+      "uk": "Тримайте її швидкість — не дайте їй вас наздогнати."
+     }
+    },
+    {
+     "en": "You're measuring it — trust the picture and pull.",
+     "meaning": {
+      "en": "The shooter is slowing down to check the gap; fire as soon as the picture is right.",
+      "uk": "Стрілець сповільнюється, щоб перевірити проміжок; стріляйте, щойно картинка правильна."
+     },
+     "say": {
+      "uk": "Ви міряєте — довіряйте картинці й стріляйте."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "In maintained lead, where do the muzzles join the target's line?",
+      "uk": "Де в maintained lead стволи виходять на лінію мішені?"
+     },
+     "options": {
+      "en": [
+       "Behind the target",
+       "On the target",
+       "In front of the target",
+       "Below the trap"
+      ],
+      "uk": [
+       "Позаду мішені",
+       "На мішені",
+       "Попереду мішені",
+       "Під машинкою"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "The muzzles are inserted ahead of the target and stay ahead; behind is swing-through, on the target is pull-away.",
+      "uk": "Стволи виходять попереду мішені й там лишаються; позаду — це swing-through, на мішені — pull-away."
+     }
+    },
+    {
+     "q": {
+      "en": "What is the typical fault of maintained-lead shooters?",
+      "uk": "Яка типова помилка стрільців, що користуються maintained lead?"
+     },
+     "options": {
+      "en": [
+       "Starting too far behind",
+       "Measuring the gap and stopping the gun",
+       "Mounting from the hip",
+       "Shooting too early at the trap"
+      ],
+      "uk": [
+       "Старт надто далеко позаду",
+       "«Міряти» проміжок і зупиняти рушницю",
+       "Стріляти від стегна",
+       "Стріляти зарано біля машинки"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The gap is large and visible, so shooters are tempted to check it; the gun slows or stops and the shot goes behind.",
+      "uk": "Проміжок великий і помітний, тож хочеться його перевірити; рушниця сповільнюється чи зупиняється, і дріб іде позаду."
+     }
+    },
+    {
+     "q": {
+      "en": "For which target is maintained lead often recommended?",
+      "uk": "Для якої мішені часто радять maintained lead?"
+     },
+     "options": {
+      "en": [
+       "A long, predictable crosser",
+       "A bouncing rabbit in a short gap",
+       "A surprise target from behind",
+       "A ZZ target"
+      ],
+      "uk": [
+       "Далекий, передбачуваний кросер",
+       "Кролик, що підстрибує в короткому проміжку",
+       "Несподівана мішень з-за спини",
+       "Мішень ZZ"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The method needs a known speed and line, which long, steady crossers give; erratic or surprise targets suit other methods.",
+      "uk": "Методу потрібні відомі швидкість і лінія, а їх дають далекі рівні кросери; непередбачуваним чи несподіваним мішеням пасують інші методи."
+     }
+    }
+   ],
+   "sim": {
+    "type": "lead",
+    "method": "maintained",
+    "preset": "crosser-lr",
+    "muzzle_start": "ahead",
+    "gun_speed": "equal",
+    "trigger": "gap-held",
+    "follow_through": true
+   }
+  },
+  {
+   "id": "lead-swing-through",
+   "mission": "lead",
+   "minutes": 5,
+   "title": {
+    "en": "Swing-through: from behind, through the bird",
+    "uk": "Swing-through: з-позаду, крізь мішень"
+   },
+   "body": {
+    "en": [
+     "In swing-through the muzzles start behind the target and overtake it. In Ukrainian you may hear «протяжка» or simply “swing-through”.",
+     "How it looks, step by step. 1) Start: the muzzles join the target's line behind it, on its tail. 2) Overtaking: the gun moves faster than the target, along its line, through its body. 3) Shot: the trigger is pulled as the muzzles pass the front of the target, just ahead of it. Because there is a small delay between decision and shot and the gun is moving faster than the target, the muzzles are already further ahead when the shot leaves: the actual lead at the shot is bigger than the lead the shooter sees, and little or no gap is seen. 4) The swing continues after the shot. The memory aid is “butt, belly, beak, bang”: tail, body, front, fire. In British English you may hear “bum” instead of “butt”; translate it as «хвіст».",
+     "Strengths: natural and fast; good for beginners, for close fast targets, for driven targets and overheads and for erratic or surprise targets.",
+     "Weaknesses: a very short window for the trigger; on long crossers the shooter can run out of time, lose the line or overshoot; slowing down as the muzzles reach the target gives a miss behind.",
+     "Sources disagree on the name “CPSA method”: some describe it as swing-through, while CPSA coaching today is described as teaching pull-away. If a coach says “CPSA method”, ask which one he means."
+    ],
+    "uk": [
+     "У swing-through стволи стартують позаду мішені й обганяють її. Українською можна почути «протяжка» або просто «swing-through».",
+     "Як це виглядає крок за кроком. 1) Старт: стволи виходять на лінію мішені позаду неї, на її «хвіст». 2) Обгін: рушниця рухається швидше за мішень, уздовж її лінії, крізь її «тіло». 3) Постріл: спуск натискають, коли стволи проходять передній край мішені, трохи попереду неї. Між рішенням і пострілом є мала затримка, а рушниця рухається швидше за мішень, тож у мить вильоту дробу стволи вже далі попереду: справжній винос у момент пострілу більший за той, який бачить стрілець, і проміжку майже не видно. 4) Проводка триває й після пострілу. Підказка-запам’ятовування — «butt, belly, beak, bang»: хвіст, тулуб, дзьоб — постріл. У британській англійській можна почути «bum» замість «butt»; перекладайте «хвіст».",
+     "Переваги: природно і швидко; добре для новачків, для близьких швидких мішеней, для зустрічних над головою (driven) і мішеней над головою ззаду, для непередбачуваних і несподіваних мішеней.",
+     "Слабкі місця: дуже коротке «вікно» для спуску; на далеких кросерах стрільцеві може забракнути часу, він губить лінію або проскакує; сповільнення, коли стволи доходять до мішені, дає промах позаду.",
+     "Джерела розходяться щодо назви «CPSA method»: одні описують його як swing-through, а сучасне навчання CPSA описують як pull-away. Якщо тренер каже «CPSA method», уточніть, який саме метод він має на увазі."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Muzzles start behind, on the target's line.",
+     "Gun faster than the target: tail, body, front, bang.",
+     "Trigger as the muzzles pass the front; the actual lead is bigger than the lead seen.",
+     "Good for close, fast, driven and surprise targets; harder on long crossers.",
+     "“CPSA method” is ambiguous: ask which method is meant."
+    ],
+    "uk": [
+     "Стволи стартують позаду, на лінії мішені.",
+     "Рушниця швидша за мішень: хвіст, тулуб, дзьоб — постріл.",
+     "Спуск, коли стволи проходять передній край; справжній винос більший за видимий.",
+     "Добре для близьких, швидких, «над головою» і несподіваних мішеней; важче на далеких кросерах.",
+     "«CPSA method» неоднозначний: уточнюйте, який метод мають на увазі."
+    ]
+   },
+   "terms": [
+    "swing-through",
+    "gun-speed",
+    "perceived-lead",
+    "driven-target",
+    "overhead",
+    "follow-through"
+   ],
+   "rule_refs": [],
+   "sources": [
+    {
+     "title": "Ducks Unlimited — Shotgunning: the Churchill method",
+     "url": "https://www.ducks.org/hunting/shooting-tips/shotgunning-the-churchill-method"
+    },
+    {
+     "title": "NRA Women — Swing-through, sustained lead and pull-away",
+     "url": "https://www.nrawomen.com/content/shotgun-shooting-swing-through-sustained-lead-and-pull-away"
+    },
+    {
+     "title": "Shooting UK — The overhead clay from behind",
+     "url": "https://www.shootinguk.co.uk/shooting/shotgun/the-less-on-overhead-clay-from-behind/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Come from behind, through the bird, and shoot as you see daylight.",
+     "meaning": {
+      "en": "Start behind the target, swing through it and fire as a gap appears in front.",
+      "uk": "Почніть позаду мішені, проведіть крізь неї і стріляйте, щойно попереду з’явиться просвіт."
+     },
+     "say": {
+      "uk": "З-позаду, крізь мішень — і постріл, щойно побачите просвіт."
+     }
+    },
+    {
+     "en": "Butt, belly, beak, bang.",
+     "meaning": {
+      "en": "Memory aid: tail, body, front of the target, then fire.",
+      "uk": "Підказка: хвіст, тулуб, передній край мішені — і постріл."
+     },
+     "say": {
+      "uk": "Хвіст, тулуб, дзьоб — постріл."
+     }
+    },
+    {
+     "en": "You slowed down as you got to it.",
+     "meaning": {
+      "en": "The gun lost speed when it reached the target, so the shot went behind.",
+      "uk": "Рушниця втратила швидкість, коли дійшла до мішені, тож дріб пішов позаду."
+     },
+     "say": {
+      "uk": "Ви пригальмували, коли дійшли до мішені."
+     }
+    },
+    {
+     "en": "Brush it out and keep going.",
+     "meaning": {
+      "en": "Swing through the target as if wiping it out of the sky, without stopping.",
+      "uk": "Проведіть крізь мішень, ніби стираєте її з неба, не зупиняючись."
+     },
+     "say": {
+      "uk": "Проведіть крізь неї і не зупиняйтеся."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "Where do the muzzles start in swing-through?",
+      "uk": "Де стартують стволи у swing-through?"
+     },
+     "options": {
+      "en": [
+       "In front of the target",
+       "On the target's front edge",
+       "At a fixed point at the break point",
+       "Behind the target, on its line"
+      ],
+      "uk": [
+       "Попереду мішені",
+       "На передньому краї мішені",
+       "У нерухомій точці на місці пострілу",
+       "Позаду мішені, на її лінії"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "Swing-through starts behind and overtakes the target; starting in front is maintained lead, a fixed point is ambush.",
+      "uk": "Swing-through стартує позаду й обганяє мішень; старт попереду — maintained lead, нерухома точка — ambush."
+     }
+    },
+    {
+     "q": {
+      "en": "Why does a swing-through shooter see little or no lead?",
+      "uk": "Чому стрілець зі swing-through бачить малий винос або жодного?"
+     },
+     "options": {
+      "en": [
+       "The targets are always slower",
+       "The gun's speed creates the lead",
+       "The rules forbid a visible gap",
+       "The shooter closes both eyes"
+      ],
+      "uk": [
+       "Мішені завжди повільніші",
+       "Винос створює швидкість стволів",
+       "Правила забороняють видимий проміжок",
+       "Стрілець заплющує обидва ока"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The gun moves faster than the target, so between deciding and firing it travels ahead by itself.",
+      "uk": "Рушниця рухається швидше за мішень, тож між рішенням і пострілом сама виходить уперед."
+     }
+    },
+    {
+     "q": {
+      "en": "A coach says “bum, belly, beak, bang”. How should you translate “bum”?",
+      "uk": "Тренер каже «bum, belly, beak, bang». Як перекласти «bum»?"
+     },
+     "options": {
+      "en": [
+       "As «хвіст» (tail)",
+       "With a rude word, literally",
+       "As «бум» (a sound)",
+       "Leave it out completely"
+      ],
+      "uk": [
+       "«Хвіст»",
+       "Грубим словом, дослівно",
+       "«Бум» (звук)",
+       "Зовсім пропустити"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "It means the tail of the target; a neutral «хвіст» keeps the meaning and the rhythm of the aid.",
+      "uk": "Ідеться про хвіст мішені; нейтральне «хвіст» зберігає і зміст, і ритм підказки."
+     }
+    }
+   ],
+   "sim": {
+    "type": "lead",
+    "method": "swing-through",
+    "preset": "crosser-lr",
+    "muzzle_start": "behind",
+    "gun_speed": "faster",
+    "trigger": "passing-front",
+    "follow_through": true
+   }
+  },
+  {
+   "id": "lead-pull-away",
+   "mission": "lead",
+   "minutes": 5,
+   "title": {
+    "en": "Pull-away: on it, with it, pull away, shoot",
+    "uk": "Pull-away: на неї, з нею, відрив, постріл"
+   },
+   "body": {
+    "en": [
+     "In pull-away (in Ukrainian sometimes «вихід з мішені»; the pull itself can be called «відрив») the muzzles first join the target, then pull ahead of it. It is widely taught in modern British coaching and is often called the CPSA method today.",
+     "How it looks, step by step. 1) “On it”: the gun is mounted onto the target or its front edge; the muzzles touch it on its line. 2) “With it”: the muzzles track the target for a moment at its speed, matching line and pace. 3) “Pull away”: the gun accelerates smoothly ahead until the right lead picture appears. 4) “Shoot”: the trigger is pulled while the gun is still accelerating or moving. 5) Follow-through: the gun keeps going after the shot.",
+     "Strengths: tracking the target first lets the shooter judge its speed, distance and line before committing, so the line is good. It suits long targets, quartering targets and rising targets. Because of the acceleration, the perceived lead is smaller than with maintained lead.",
+     "Weaknesses: the amount of acceleration varies from target to target, so it takes practice to feel it; tracking for too long becomes “riding the target”, and stopping the push gives a miss behind.",
+     "Coaches say “touch it and go”, “mount on it and push out”, or the four-beat “on it, with it, pull away, shoot”. Keep the four-beat rhythm when you translate: it matters more than the exact words."
+    ],
+    "uk": [
+     "У pull-away (українською іноді «вихід з мішені»; сам ривок уперед можна назвати «відрив») стволи спершу «приєднуються» до мішені, а потім виходять уперед. Цей метод широко викладають у сучасній британській школі, і сьогодні його часто називають методом CPSA.",
+     "Як це виглядає крок за кроком. 1) «On it» — «на неї»: рушницю вкидають на мішень або на її передній край; стволи торкаються її на лінії. 2) «With it» — «з нею»: стволи мить ведуть мішень з її швидкістю, тримаючи лінію і темп. 3) «Pull away» — «відрив»: рушниця плавно прискорюється вперед, доки не з’явиться правильна картинка виносу. 4) «Shoot» — «постріл»: спуск натискають, поки рушниця ще прискорюється чи рухається. 5) Продовження руху: рушниця йде далі й після пострілу.",
+     "Переваги: ведучи мішень спершу, стрілець оцінює її швидкість, відстань і лінію, перш ніж наважитися, тож лінія виходить точною. Метод пасує далеким, косим мішеням і мішеням на підйомі. Через прискорення видимий винос менший, ніж у maintained lead.",
+     "Слабкі місця: прискорення від мішені до мішені різне, і відчути його можна лише практикою; задовге ведення перетворюється на «riding the target» — «їзду на мішені», а зупинка відриву дає промах позаду.",
+     "Тренери кажуть «touch it and go», «mount on it and push out» або в чотири такти «on it, with it, pull away, shoot». Перекладаючи, зберігайте ритм із чотирьох тактів: він важить більше, ніж точні слова."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Muzzles start on the target (or its front edge).",
+     "Track at its speed, then accelerate ahead.",
+     "Trigger while the gun is still moving forward; then follow through.",
+     "Good line control; suits long, quartering and rising targets.",
+     "Keep the four-beat rhythm when translating."
+    ],
+    "uk": [
+     "Стволи стартують на мішені (або на її передньому краї).",
+     "Ведуть з її швидкістю, потім прискорюються вперед.",
+     "Спуск, поки рушниця ще рухається вперед; далі продовження руху.",
+     "Точна лінія; пасує далеким, косим і мішеням на підйомі.",
+     "Перекладаючи, зберігайте ритм із чотирьох тактів."
+    ]
+   },
+   "terms": [
+    "pull-away",
+    "insertion-point",
+    "gun-speed",
+    "perceived-lead",
+    "quartering-away",
+    "follow-through"
+   ],
+   "rule_refs": [],
+   "sources": [
+    {
+     "title": "CPSA — How to hit series (search summary; page not directly accessible)",
+     "url": "https://www.cpsa.co.uk/how-to-hit-series-3"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    },
+    {
+     "title": "GAIM — Swing-through, pull-away or maintained lead",
+     "url": "https://www.gaim.com/blog/swing-through-pull-away-or-maintained-lead"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "On it, with it, pull away, shoot.",
+     "meaning": {
+      "en": "Join the target, track it, accelerate ahead, fire.",
+      "uk": "Приєднайтеся до мішені, ведіть її, прискортеся вперед, стріляйте."
+     },
+     "say": {
+      "uk": "На неї, з нею, відрив, постріл."
+     }
+    },
+    {
+     "en": "Touch it and go.",
+     "meaning": {
+      "en": "Meet the target with the muzzles and immediately start pulling ahead.",
+      "uk": "Торкніться мішені стволами й одразу починайте відрив."
+     },
+     "say": {
+      "uk": "Торкнулися — і вперед."
+     }
+    },
+    {
+     "en": "You rode it too long.",
+     "meaning": {
+      "en": "The shooter tracked the target for too long before pulling away and lost the line or the moment.",
+      "uk": "Стрілець надто довго вів мішень перед відривом і втратив лінію або момент."
+     },
+     "say": {
+      "uk": "Ви надто довго її вели."
+     }
+    },
+    {
+     "en": "Mount on it and push out a bit more.",
+     "meaning": {
+      "en": "Mount onto the target, then pull a little further ahead before firing.",
+      "uk": "Вкидайте на мішень, потім вийдіть трохи далі вперед перед пострілом."
+     },
+     "say": {
+      "uk": "Вкидка на мішень — і відрив трохи більший."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "In pull-away, what happens just before the trigger is pulled?",
+      "uk": "Що відбувається в pull-away безпосередньо перед натисканням на спуск?"
+     },
+     "options": {
+      "en": [
+       "The gun stops on the target",
+       "The gun accelerates ahead of the target",
+       "The gun drops below the target",
+       "The gun waits at the break point"
+      ],
+      "uk": [
+       "Рушниця зупиняється на мішені",
+       "Рушниця прискорюється попереду мішені",
+       "Рушниця опускається під мішень",
+       "Рушниця чекає в точці пострілу"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "The pull-away itself is the acceleration ahead; the shot is fired while the gun is still moving forward.",
+      "uk": "Сам відрив і є прискоренням уперед; постріл лунає, поки рушниця ще рухається вперед."
+     }
+    },
+    {
+     "q": {
+      "en": "The coach says “You rode it too long”. What went wrong?",
+      "uk": "Тренер каже «You rode it too long». Що пішло не так?"
+     },
+     "options": {
+      "en": [
+       "He stood too long on the stand before calling",
+       "He mounted the gun far too early",
+       "He tracked it too long before pulling away",
+       "The trapper released the target late"
+      ],
+      "uk": [
+       "Надто довго стояв на позиції перед командою",
+       "Зробив вкидку значно зарано",
+       "Надто довго вів мішень перед відривом",
+       "Оператор машинки запізно запустив мішень"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "“Riding the target” means following it too long, so it slows, drops or escapes and the line is lost.",
+      "uk": "«Riding the target» — надто довго йти за мішенню, тож вона сповільнюється, падає чи тікає, і лінію втрачено."
+     }
+    },
+    {
+     "q": {
+      "en": "Compared with maintained lead, the perceived lead in pull-away is usually…",
+      "uk": "Порівняно з maintained lead видимий винос у pull-away зазвичай…"
+     },
+     "options": {
+      "en": [
+       "smaller, because the acceleration adds lead",
+       "larger, because the gun starts on the target",
+       "always exactly double",
+       "zero on every target"
+      ],
+      "uk": [
+       "менший, бо прискорення додає винос",
+       "більший, бо стволи стартують на мішені",
+       "завжди рівно вдвічі більший",
+       "нульовий на кожній мішені"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "The brief acceleration carries the gun forward during the shot delay, so less gap needs to be seen.",
+      "uk": "Коротке прискорення несе рушницю вперед за час затримки пострілу, тож бачити треба менший проміжок."
+     }
+    }
+   ],
+   "sim": {
+    "type": "lead",
+    "method": "pull-away",
+    "preset": "crosser-rl",
+    "muzzle_start": "on-target",
+    "gun_speed": "equal-then-faster",
+    "trigger": "during-acceleration",
+    "follow_through": true
+   }
+  },
+  {
+   "id": "lead-ambush-instinctive",
+   "mission": "lead",
+   "minutes": 5,
+   "title": {
+    "en": "Ambush and instinctive shooting",
+    "uk": "Ambush і інстинктивна стрільба"
+   },
+   "body": {
+    "en": [
+     "Ambush, or spot shooting (in Ukrainian it can be described as «стрільба в точку» or «на перехоплення»), is the opposite of a swing. 1) The muzzles are placed at a point ahead of the target, on its line, close to the break point. 2) They wait with little or no movement. 3) The trigger is pulled as the target arrives at that spot.",
+     "As a general habit, typical of untrained shooters, it is unreliable: the gun is still and the timing must be perfect. But a deliberate ambush is sometimes the right choice: a target that must be taken very fast, or a rabbit visible only in a short gap between bushes. A related move on edge-on battues at the top of their flight is the “collapse”: hold very close to the break point and make a minimal move. The target must still break where the referee can see it.",
+     "Instinctive shooting means no conscious lead at all. The shooter keeps a hard focus on the target and lets the hands follow; the swing and the mount happen together, and the shot comes as the gun reaches the face. The classic school is the one associated with the English gunmaker Robert Churchill, popular in game shooting.",
+     "Many top Parcours de Chasse – Sporting™ shooters mix methods, choosing per target. “Which method for this one?” is a normal coaching question."
+    ],
+    "uk": [
+     "Ambush, або spot shooting (українською можна описати як «стрільба в точку» чи «на перехоплення»), — протилежність проводці. 1) Стволи ставлять у точку попереду мішені, на її лінії, біля точки пострілу. 2) Вони чекають майже або зовсім без руху. 3) Спуск натискають, коли мішень долітає до цієї точки.",
+     "Як постійна звичка, типова для ненавчених стрільців, це ненадійно: рушниця нерухома, а момент має бути ідеальним. Але свідомий ambush іноді правильний вибір: мішень, яку треба взяти дуже швидко, або кролик, якого видно лише в короткому проміжку між кущами. Схожий прийом на батю, що летить ребром у верхній точці, — «collapse»: тримати стволи зовсім близько до точки пострілу й робити мінімальний рух. Розбити мішень однаково треба там, де її бачить суддя.",
+     "Інстинктивна стрільба (instinctive shooting) — взагалі без свідомого виносу. Стрілець тримає жорсткий фокус на мішені й дає рукам іти за поглядом; проводка і вкидка відбуваються разом, а постріл — щойно рушниця дійшла до обличчя. Класична школа пов’язана з англійським зброярем Робертом Черчиллем і популярна на полюванні.",
+     "Багато провідних стрільців Parcours de Chasse – Sporting™ поєднують методи, обираючи під кожну мішень. «Який метод на цю?» — звичайне тренерське питання."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Ambush: muzzles still at a point ahead; fire as the target arrives.",
+     "Unreliable as a habit, useful deliberately (very fast targets, short gaps).",
+     "“Collapse”: minimal move near the break point on edge-on battues.",
+     "Instinctive: no conscious lead, hard focus, mount and swing together (Churchill school).",
+     "Good shooters choose the method per target."
+    ],
+    "uk": [
+     "Ambush: стволи нерухомо в точці попереду; постріл, коли мішень долітає.",
+     "Як звичка — ненадійно, як свідомий вибір — корисно (дуже швидкі мішені, короткі проміжки).",
+     "«Collapse»: мінімальний рух біля точки пострілу на батю ребром.",
+     "Інстинктивна: без свідомого виносу, жорсткий фокус, вкидка і проводка разом (школа Черчилля).",
+     "Добрі стрільці обирають метод під кожну мішень."
+    ]
+   },
+   "terms": [
+    "ambush",
+    "instinctive-shooting",
+    "hard-focus",
+    "break-point",
+    "battue",
+    "rabbit"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch9-visible-break"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wikipedia — Clay pigeon shooting (methods)",
+     "url": "https://en.wikipedia.org/wiki/Clay_pigeon_shooting"
+    },
+    {
+     "title": "NSSA-NSCA — Ask the instructor: battues",
+     "url": "https://nssa-nsca.org/blog/2017/07/18/ask-the-instructor-battues/"
+    },
+    {
+     "title": "Ducks Unlimited — Shotgunning: the Churchill method",
+     "url": "https://www.ducks.org/hunting/shooting-tips/shotgunning-the-churchill-method"
+    },
+    {
+     "title": "Shotgun Life — Wingshooting schools of England",
+     "url": "https://www.shotgunlife.com/travel/places-to-shoot/wingshooting-schools-of-england-3.html"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "You're ambushing it — keep the gun moving with the target.",
+     "meaning": {
+      "en": "The shooter is waiting at a point; the coach wants a moving method here.",
+      "uk": "Стрілець чекає мішень у точці; тренер хоче тут методу з рухом."
+     },
+     "say": {
+      "uk": "Ви чекаєте її в точці — ведіть рушницю разом із мішенню."
+     }
+    },
+    {
+     "en": "Ambush this one in the gap.",
+     "meaning": {
+      "en": "Deliberately wait at the opening and fire as the target crosses it.",
+      "uk": "Свідомо чекайте в просвіті й стріляйте, коли мішень його перетинає."
+     },
+     "say": {
+      "uk": "Цю беріть на перехоплення в просвіті."
+     }
+    },
+    {
+     "en": "Don't think about the lead, just look at the bird and let the gun go to it.",
+     "meaning": {
+      "en": "Shoot instinctively: focus on the target and let the hands follow.",
+      "uk": "Стріляйте інстинктивно: фокус на мішені, руки йдуть за поглядом."
+     },
+     "say": {
+      "uk": "Не думайте про винос — дивіться на мішень, і рушниця сама до неї піде."
+     }
+    },
+    {
+     "en": "Hold right on the break point and just collapse onto it.",
+     "meaning": {
+      "en": "Put the muzzles almost at the break point and make only a tiny move as the battue arrives.",
+      "uk": "Тримайте стволи майже в точці пострілу й зробіть лише мінімальний рух, коли батю долетить."
+     },
+     "say": {
+      "uk": "Тримайте стволи просто в точці пострілу — і мінімальний рух на мішень."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "What characterises ambush (spot shooting)?",
+      "uk": "Що характерне для ambush (стрільби в точку)?"
+     },
+     "options": {
+      "en": [
+       "The gun swings faster than the target",
+       "The gun waits at a point ahead of the target",
+       "The gun tracks the target, then accelerates",
+       "The gun starts behind the target, on its line"
+      ],
+      "uk": [
+       "Рушниця рухається швидше за мішень",
+       "Рушниця чекає в точці попереду мішені",
+       "Рушниця веде мішень, потім прискорюється",
+       "Рушниця стартує позаду мішені, на її лінії"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "Ambush means little or no swing: the muzzles wait on the line and the target flies into the shot.",
+      "uk": "Ambush — це майже без проводки: стволи чекають на лінії, і мішень влітає в постріл."
+     }
+    },
+    {
+     "q": {
+      "en": "When can a deliberate ambush be a good choice?",
+      "uk": "Коли свідомий ambush може бути добрим вибором?"
+     },
+     "options": {
+      "en": [
+       "On every long, steady crosser",
+       "Never: the rules forbid it",
+       "Only in Compak® Sporting, never in Sporting™",
+       "On a rabbit seen only in a short gap"
+      ],
+      "uk": [
+       "На кожному далекому рівному кросері",
+       "Ніколи: правила це забороняють",
+       "Лише в Compak® Sporting, ніколи в Sporting™",
+       "На кролику, якого видно лише в короткому проміжку"
+      ]
+     },
+     "answer": 3,
+     "why": {
+      "en": "When the target is visible only briefly, there is no time for a swing, so waiting at the gap can work. No rule forbids any method.",
+      "uk": "Коли мішень видно лише мить, на проводку немає часу, і чекання в просвіті може спрацювати. Жодне правило не забороняє методів."
+     }
+    },
+    {
+     "q": {
+      "en": "What is instinctive shooting?",
+      "uk": "Що таке інстинктивна стрільба?"
+     },
+     "options": {
+      "en": [
+       "Hard focus on the target, no conscious lead",
+       "Shooting without safety glasses",
+       "Shooting from the hip, without mounting",
+       "Waiting at the trap for every target"
+      ],
+      "uk": [
+       "Жорсткий фокус на мішені, без свідомого виносу",
+       "Стрільба без захисних окулярів",
+       "Стрільба від стегна, без вкидки",
+       "Чекання біля машинки на кожну мішень"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "Instinctive shooting relies on eye–hand coordination; it is still done with the gun at the shoulder, as the rules require.",
+      "uk": "Інстинктивна стрільба спирається на координацію ока й руки; стріляють однаково від плеча, як вимагають правила."
+     }
+    }
+   ],
+   "sim": {
+    "type": "lead",
+    "method": "ambush",
+    "preset": "rabbit",
+    "muzzle_start": "at-break-point",
+    "gun_speed": "none-or-minimal",
+    "trigger": "target-arrives",
+    "follow_through": false
+   }
+  },
+  {
+   "id": "lead-how-coaches-say-it",
+   "mission": "lead",
+   "minutes": 6,
+   "title": {
+    "en": "How coaches say lead, and how to translate it",
+    "uk": "Як тренери говорять про винос і як це перекладати"
+   },
+   "body": {
+    "en": [
+     "Units. British and American coaches talk in feet and yards: “give it four foot” (British for four feet), “two feet in front”. European coaches use metres. One foot is about 30 cm, one yard about 0.9 m. But a lead number is the coach's picture, not a measurement, so keep his number and unit. Never convert in the middle of an instruction; if the shooter asks, explain roughly between targets. Distances to a target (“it's 30 yards”) may be given as “about 27 m”.",
+     "Target widths: “half a bird”, “a bird's width”, “a clay's length”. Bird means target, never a real bird: «пів мішені». Barrel widths: “a barrel's width”, “two barrels” mean the gap seen at the muzzle. Careful: a referee's “two barrels” means both barrels fired together.",
+     "Relative words: “more”, “less”, “a touch more”, “double it”, “half that”, “same lead”. Keep them relative and never invent a number. “Same lead” is vital: the shooter must not add lead.",
+     "Directions: “in front” and “behind” refer to the target's travel; “over” and “high”, “under” and “low” are synonyms. A clock face describes positions: 12 o'clock is up, 3 o'clock right, as the shooter sees it. “You hit it at six” means the bottom edge; “it comes from eleven” gives a direction.",
+     "Method: translate number, unit, reference and direction exactly, short, in the coach's rhythm. If unclear, ask him one word: “Feet?” In competitions coaching is forbidden."
+    ],
+    "uk": [
+     "Одиниці. Британські й американські тренери говорять у футах і ярдах: «give it four foot» (британське «чотири фути»), «two feet in front». Європейські тренери — у метрах. Фут — близько 30 см, ярд — близько 0,9 м. Але число виносу — це картинка тренера, а не вимір, тож зберігайте його число й одиницю. Ніколи не переводьте посеред вказівки; якщо стрілець питає, поясніть приблизно між мішенями. Відстань до мішені («it's 30 yards») можна передати як «близько 27 м».",
+     "Ширина мішені: «half a bird», «a bird's width», «a clay's length». Bird — це мішень, а не птах: «пів мішені». Ширина ствола: «a barrel's width», «two barrels» — проміжок, видимий біля дульного зрізу. Обережно: «two barrels» у судді означає, що обидва стволи вистрілили разом.",
+     "Відносні слова: «more», «less», «a touch more», «double it», «half that», «same lead». Лишайте їх відносними й ніколи не вигадуйте числа. «Same lead» — дуже важливе: стрілець не повинен додавати винос.",
+     "Напрямки: «in front» і «behind» — щодо руху мішені; «over» і «high», «under» і «low» — синоніми. Циферблат описує положення: 12 година — угору, 3 — праворуч, як бачить стрілець. «You hit it at six» — нижній край; «it comes from eleven» — напрямок.",
+     "Спосіб: перекладайте число, одиницю, орієнтир і напрямок точно, коротко, у ритмі тренера. Якщо неясно, спитайте його одним словом: «Feet?» На змаганнях підказувати заборонено."
+    ]
+   },
+   "key_points": {
+    "en": [
+     "Keep the coach's number and unit; never convert lead mid-instruction.",
+     "Bird = target: “half a bird” = «пів мішені».",
+     "Relative words stay relative; “same lead” must be translated.",
+     "Clock face: 12 up, 3 right, as the shooter sees it.",
+     "A referee's “two barrels” is a double discharge, not a lead."
+    ],
+    "uk": [
+     "Зберігайте число й одиницю тренера; не переводьте винос посеред вказівки.",
+     "Bird — мішень: «half a bird» = «пів мішені».",
+     "Відносні слова лишаються відносними; «same lead» перекладати обов’язково.",
+     "Циферблат: 12 — угору, 3 — праворуч, з погляду стрільця.",
+     "«Two barrels» у судді — подвійний постріл, а не винос."
+    ]
+   },
+   "terms": [
+    "lead",
+    "perceived-lead",
+    "clock-face",
+    "double-discharge",
+    "coach"
+   ],
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch6-double-discharge"
+    },
+    {
+     "book": "sporting",
+     "id": "ch8-coaching"
+    },
+    {
+     "book": "compak",
+     "id": "ch21-coaching"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Shotgun Life — Does shotgun barrel length impact target lead?",
+     "url": "https://www.shotgunlife.com/briefs/does-shotgun-barrel-length-impact-target-lead.html"
+    },
+    {
+     "title": "Shooting UK — The overhead clay from behind (clock-face pick-up)",
+     "url": "https://www.shootinguk.co.uk/shooting/shotgun/the-less-on-overhead-clay-from-behind/"
+    },
+    {
+     "title": "The Country Girls UK — Clay shooting terminology",
+     "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/"
+    }
+   ],
+   "coach_says": [
+    {
+     "en": "Give it four foot.",
+     "meaning": {
+      "en": "Give the lead the coach calls “four feet”; it describes his picture, so keep his number and unit.",
+      "uk": "Дайте винос, який тренер називає «чотири фути»; це його картинка, тож зберігайте його число й одиницю."
+     },
+     "say": {
+      "uk": "Дайте чотири фути."
+     }
+    },
+    {
+     "en": "Half a bird more.",
+     "meaning": {
+      "en": "Add half a target's width to the lead picture.",
+      "uk": "Додайте до картинки виносу пів ширини мішені."
+     },
+     "say": {
+      "uk": "Ще на пів мішені більше."
+     }
+    },
+    {
+     "en": "Double it.",
+     "meaning": {
+      "en": "Make the lead picture twice as big as last time.",
+      "uk": "Зробіть картинку виносу вдвічі більшою, ніж минулого разу."
+     },
+     "say": {
+      "uk": "Удвічі більше."
+     }
+    },
+    {
+     "en": "Same lead, just keep it moving.",
+     "meaning": {
+      "en": "The lead was right; the miss came from stopping the gun.",
+      "uk": "Винос був правильний; промах через зупинку рушниці."
+     },
+     "say": {
+      "uk": "Винос той самий, тільки не зупиняйтеся."
+     }
+    },
+    {
+     "en": "You were at two o'clock — a touch low and more in front.",
+     "meaning": {
+      "en": "The pattern was above and to the right of the target on the clock face; shoot slightly lower and give a little more lead.",
+      "uk": "За циферблатом дріб пройшов угорі праворуч від мішені; трохи нижче і трохи більший винос."
+     },
+     "say": {
+      "uk": "Ви були на другій годині — трохи нижче і трохи більше попереду."
+     }
+    },
+    {
+     "en": "A barrel's width in front.",
+     "meaning": {
+      "en": "Keep a gap the width of the barrel, as seen at the muzzle, ahead of the target.",
+      "uk": "Тримайте попереду мішені проміжок завширшки зі ствол, як його видно біля дульного зрізу."
+     },
+     "say": {
+      "uk": "На ширину ствола попереду."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": {
+      "en": "The coach says “Give it four foot” to a shooter who thinks in metres. What do you say?",
+      "uk": "Тренер каже «Give it four foot» стрільцеві, який мислить у метрах. Що ви скажете?"
+     },
+     "options": {
+      "en": [
+       "«Дайте 1,22 метра»",
+       "«Дайте приблизно метр»",
+       "«Дайте чотири фути»",
+       "«Дайте чотири метри»"
+      ],
+      "uk": [
+       "«Дайте 1,22 метра»",
+       "«Дайте приблизно метр»",
+       "«Дайте чотири фути»",
+       "«Дайте чотири метри»"
+      ]
+     },
+     "answer": 2,
+     "why": {
+      "en": "A lead number is the coach's picture; converting it mid-instruction adds false precision or errors, and “four metres” changes the meaning completely. If the shooter asks, explain roughly between targets.",
+      "uk": "Число виносу — картинка тренера; переведення посеред вказівки додає хибну точність або помилки, а «чотири метри» повністю змінює зміст. Якщо стрілець запитає, поясніть приблизно між мішенями."
+     }
+    },
+    {
+     "q": {
+      "en": "What does “half a bird” mean?",
+      "uk": "Що означає «half a bird»?"
+     },
+     "options": {
+      "en": [
+       "Half the width of a target",
+       "A broken target",
+       "A small bird flying near the trap",
+       "Half of the round"
+      ],
+      "uk": [
+       "Пів ширини мішені",
+       "Розбита мішень",
+       "Маленький птах біля машинки",
+       "Половина раунду"
+      ]
+     },
+     "answer": 0,
+     "why": {
+      "en": "In clay shooting “bird” means the target, so the coach asks for half a target's width of lead.",
+      "uk": "У стендовій стрільбі «bird» — це мішень, тож тренер просить винос на пів ширини мішені."
+     }
+    },
+    {
+     "q": {
+      "en": "The coach says “Same lead, keep it moving”. Why must “same lead” be translated?",
+      "uk": "Тренер каже «Same lead, keep it moving». Чому «same lead» треба перекласти обов’язково?"
+     },
+     "options": {
+      "en": [
+       "It is a call the referee uses",
+       "Otherwise the shooter may add lead and miss",
+       "It is a polite greeting between shooters",
+       "It changes the order of the targets"
+      ],
+      "uk": [
+       "Це команда, яку вживає суддя",
+       "Інакше стрілець може додати винос і промахнутися",
+       "Це ввічливе привітання між стрільцями",
+       "Це змінює порядок мішеней"
+      ]
+     },
+     "answer": 1,
+     "why": {
+      "en": "After a miss most shooters add lead by themselves; “same lead” tells them the cause was the stopped gun, not the lead.",
+      "uk": "Після промаху більшість стрільців самі додають винос; «same lead» каже, що причина — зупинена рушниця, а не винос."
+     }
+    }
+   ],
+   "sim": {
+    "type": "lead",
+    "method": "maintained",
+    "preset": "crosser-rl",
+    "focus": "lead-units"
+   }
+  }
+ ],
+ "new_terms": [
+  {
+   "id": "perceived-lead",
+   "en": "perceived lead (lead picture, sight picture)",
+   "def_en": "The gap the shooter sees between muzzle and target at the shot, much smaller than the actual lead in the air.",
+   "def_uk": "Проміжок між дульним зрізом і мішенню, який стрілець бачить у мить пострілу; він набагато менший за справжній винос у повітрі."
+  },
+  {
+   "id": "ambush",
+   "en": "ambush (spot shooting)",
+   "def_en": "Method in which the muzzles wait at a point ahead of the target and the shot is fired as the target arrives, with little or no swing.",
+   "def_uk": "Метод, за якого стволи чекають у точці попереду мішені, а постріл лунає, коли мішень туди долітає, майже без проводки."
+  },
+  {
+   "id": "instinctive-shooting",
+   "en": "instinctive shooting",
+   "def_en": "Shooting with hard focus on the target and no conscious lead, the mount and swing done together (Churchill school).",
+   "def_uk": "Стрільба з жорстким фокусом на мішені без свідомого виносу, вкидка і проводка разом (школа Черчилля)."
+  },
+  {
+   "id": "clock-face",
+   "en": "clock face",
+   "def_en": "Coaching convention describing positions or directions as hours on a clock, 12 being up, as the shooter sees it.",
+   "def_uk": "Тренерський спосіб описувати положення чи напрямки годинами на циферблаті: 12 — угору, з погляду стрільця."
+  }
+ ]
+}
