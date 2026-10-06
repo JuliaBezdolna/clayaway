@@ -3,7 +3,7 @@
 // Data: docs/glossary/data/i18n/<lang>.js → window.GLOSSARY_I18N[lang].terms[id] = {term_local, short, long, disciplines}
 // Output per language: docs/<lang>/glossary/ and docs/<lang>/glossary/<id>/ (DefinedTerm), headword stays English
 // (that's how terms are said on the stand), the local usage is shown under it.
-// hreflang: every glossary term page (uk, en, de, fr, it, es) lists all available languages; x-default = en.
+// hreflang: every glossary term page (uk, en, de, fr, it) lists all available languages; x-default = en.
 // Also writes docs/en/learn/index.html — a static English landing of ClayArena Academy (modules + lessons).
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 
@@ -11,7 +11,6 @@ const UI = {
   de: { gl: "Glossar", title: t => `${t} — Begriff im Wurfscheibenschießen | ClayArena Glossar`, what: "Was es ist", detail: "Ausführlich", disc: "In Sporting™ und Compak® Sporting", rules: "In den Regeln", learn: "Lernen (Englisch)", rel: "Verwandte Begriffe", local: "So sagt man", list: n => `Glossar des Wurfscheibenschießens — ${n} Begriffe`, intro: n => `${n} Begriffe aus Sporting™ und Compak® Sporting, einfach erklärt, mit Links zu den FITASC-Regeln.`, tm: "Parcours de Chasse – Sporting™ und Compak® Sporting sind Marken der FITASC. Nur der offizielle FITASC-Text ist verbindlich.", locale: "de_DE" },
   fr: { gl: "Glossaire", title: t => `${t} — terme de ball-trap | Glossaire ClayArena`, what: "Définition", detail: "En détail", disc: "En Sporting™ et Compak® Sporting", rules: "Dans le règlement", learn: "Apprendre (anglais)", rel: "Termes liés", local: "Usage", list: n => `Glossaire du ball-trap — ${n} termes`, intro: n => `${n} termes du Sporting™ et du Compak® Sporting expliqués simplement, avec des liens vers les règles FITASC.`, tm: "Parcours de Chasse – Sporting™ et Compak® Sporting sont des marques de la FITASC. Seul le texte officiel de la FITASC fait foi.", locale: "fr_FR" },
   it: { gl: "Glossario", title: t => `${t} — termine del tiro a volo | Glossario ClayArena`, what: "Che cos'è", detail: "In dettaglio", disc: "In Sporting™ e Compak® Sporting", rules: "Nel regolamento", learn: "Impara (inglese)", rel: "Termini correlati", local: "Uso", list: n => `Glossario del tiro a volo — ${n} termini`, intro: n => `${n} termini di Sporting™ e Compak® Sporting spiegati in modo semplice, con link al regolamento FITASC.`, tm: "Parcours de Chasse – Sporting™ e Compak® Sporting sono marchi FITASC. Fa fede solo il testo ufficiale FITASC.", locale: "it_IT" },
-  es: { gl: "Glosario", title: t => `${t} — término del tiro al plato | Glosario ClayArena`, what: "Qué es", detail: "En detalle", disc: "En Sporting™ y Compak® Sporting", rules: "En el reglamento", learn: "Aprender (inglés)", rel: "Términos relacionados", local: "Uso", list: n => `Glosario del tiro al plato — ${n} términos`, intro: n => `${n} términos de Sporting™ y Compak® Sporting explicados de forma sencilla, con enlaces al reglamento FITASC.`, tm: "Parcours de Chasse – Sporting™ y Compak® Sporting son marcas de la FITASC. Solo el texto oficial de la FITASC es vinculante.", locale: "es_ES" },
 };
 
 export async function buildI18n() {
@@ -21,12 +20,11 @@ export async function buildI18n() {
   const CAT = {
     de: { "Appeals": "Proteste", "Discipline": "Disziplin", "Equipment": "Ausrüstung", "Ground & layout": "Gelände und Stände", "Organisation": "Organisation", "Penalties": "Strafen", "Refereeing": "Schiedsrichter", "Results": "Ergebnisse", "Safety & conduct": "Sicherheit und Verhalten", "Scoring": "Wertung", "Sequences & doubles": "Abfolgen und Doubletten", "Shooting rules": "Schießregeln", "Targets": "Wurfscheiben" },
     fr: { "Appeals": "Réclamations", "Discipline": "Discipline", "Equipment": "Équipement", "Ground & layout": "Terrain et postes", "Organisation": "Organisation", "Penalties": "Sanctions", "Refereeing": "Arbitrage", "Results": "Résultats", "Safety & conduct": "Sécurité et comportement", "Scoring": "Décompte", "Sequences & doubles": "Séquences et doublés", "Shooting rules": "Règles de tir", "Targets": "Plateaux" },
-    it: { "Appeals": "Reclami", "Discipline": "Disciplina", "Equipment": "Attrezzatura", "Ground & layout": "Campo e pedane", "Organisation": "Organizzazione", "Penalties": "Sanzioni", "Refereeing": "Arbitraggio", "Results": "Risultati", "Safety & conduct": "Sicurezza e comportamento", "Scoring": "Punteggio", "Sequences & doubles": "Sequenze e doppietti", "Shooting rules": "Regole di tiro", "Targets": "Piattelli" },
-    es: { "Appeals": "Reclamaciones", "Discipline": "Disciplina", "Equipment": "Equipo", "Ground & layout": "Campo y puestos", "Organisation": "Organización", "Penalties": "Sanciones", "Refereeing": "Arbitraje", "Results": "Resultados", "Safety & conduct": "Seguridad y conducta", "Scoring": "Puntuación", "Sequences & doubles": "Secuencias y dobles", "Shooting rules": "Reglas de tiro", "Targets": "Platos" } };
-  const CHW = { de: "Kapitel", fr: "Chapitre", it: "Capitolo", es: "Capítulo" }, PG = { de: "S.", fr: "p.", it: "p.", es: "p." };
+    it: { "Appeals": "Reclami", "Discipline": "Disciplina", "Equipment": "Attrezzatura", "Ground & layout": "Campo e pedane", "Organisation": "Organizzazione", "Penalties": "Sanzioni", "Refereeing": "Arbitraggio", "Results": "Risultati", "Safety & conduct": "Sicurezza e comportamento", "Scoring": "Punteggio", "Sequences & doubles": "Sequenze e doppietti", "Shooting rules": "Regole di tiro", "Targets": "Piattelli" } };
+  const CHW = { de: "Kapitel", fr: "Chapitre", it: "Capitolo" }, PG = { de: "S.", fr: "p.", it: "p." };
   const chapOf = r => { const b = BOOKS[r.book]; const sec = b && b.sections.find(x => x.items.some(i => i.id === r.id)); return sec ? sec.chapter : (r.ref.match(/\d+/) || [""])[0]; };
   const out = [];
-  const langs = [];
+  const langs = []; // only ClayArena site languages (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt) — no Spanish
   for (const lang of Object.keys(UI)) { try { await import(`../docs/glossary/data/i18n/${lang}.js`); if (window.GLOSSARY_I18N?.[lang]) langs.push(lang); } catch (e) { /* not translated yet */ } }
   const termUrl = (lang, id) => lang === "uk" ? `${BASE}glossary/${id}/` : `${BASE}${lang}/glossary/${id}/`;
   const listUrl = lang => lang === "uk" ? `${BASE}glossary/` : `${BASE}${lang}/glossary/`;
