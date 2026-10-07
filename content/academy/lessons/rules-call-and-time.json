@@ -365,17 +365,17 @@
       "k": "sporting-time-and-lateness-sim",
       "t": "sim",
       "sim": {
-        "type": "call"
+        "type": "call",
+        "kind": "signal",
+        "also": [
+          "signal-late",
+          "manual",
+          "sonopull"
+        ]
       },
-      "ready": false
-    },
-    {
-      "k": "compak-gun-and-call-sim",
-      "t": "sim",
-      "sim": {
-        "type": "call"
-      },
-      "ready": false
+      "ready": true,
+      "en": "In {{tm:sporting}} the clock runs from the referee's signal, in {{tm:compak}} from your call; a target that comes too late is a No Bird.",
+      "uk": "У {{tm:sporting}} час рахують від сигналу судді, у {{tm:compak}} — від вашої команди; мішень, що вилетіла запізно, — No Bird."
     }
   ],
   "note": [
@@ -856,9 +856,9 @@
   },
   "todo": {
     "tasks": [
-      "Animations sporting-time-and-lateness-sim and compak-gun-and-call-sim stay ready:false until checked against S-01…S-05 and S-09.",
       "Referee: neither rulebook says how a late-released target is scored when the shooter fires at it before the No Bird is called. sporting-time-and-lateness-q1 no longer includes firing, and compak-gun-and-call-q2 now asks about the sonopull delay; add a firing case only after the referee confirms the decision.",
-      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done.",
+      "Overlays, animation caption of 2026-10-07: body.sporting-time-and-lateness-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_call)."
     ]
   }
 }

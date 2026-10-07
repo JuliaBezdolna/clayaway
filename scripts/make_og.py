@@ -1,6 +1,8 @@
 """Share previews (Open Graph) for every page of the ClayAway site.
 
 Builds docs/og/<page>.png (1200x630) + icons and injects og/twitter meta tags into each page's <head>.
+Hand-made pages: the projects home (index.html uk, en/index.html en), the ClayAway start page tours/, the specs, the tour examples,
+the rules guide and trainer, the uk Academy home. docs/404.html has no preview (noindex, served at any missing address).
 Run from the project root after changing titles: python scripts/make_og.py
 
 ClayArena Academy: scripts/build_academy.mjs writes docs/og/og-list.json (22 pictures per language: home, Practice, 13 topics,
@@ -25,8 +27,13 @@ FONTS = Path("C:/Windows/Fonts")
 
 PAGES = [
     # path, og file, locale, eyebrow, title lines, subtitle lines, og:title, og:description
-    ("index.html", "home", "uk_UA", "CLAYARENA · НОВИЙ НАПРЯМ", ["ClayAway"], ["Clay shooting trips with top coaches", "ТЗ · приклади турів · правила FITASC"],
-     "ClayAway — тури з тренером у ClayArena", "Новий напрям ClayArena, що готується: організовані тури з тренером. ТЗ, два умовні приклади турів і правила FITASC простими словами."),
+    # Projects home of ClayArena (owner decision 07.10.2026): "/" (uk) and "/en/" (en); ClayAway has its own start page /tours/
+    ("index.html", "home", "uk_UA", "CLAYARENA · ПРОЄКТИ", ["ClayArena"], ["Академія · правила FITASC", "глосарій · тури ClayAway"],
+     "Проєкти ClayArena: Академія, правила FITASC, глосарій, тури ClayAway", "Проєкти ClayArena для стендової стрільби: Академія ClayArena, правила FITASC простими словами, глосарій 11 мовами і тури ClayAway з тренером, що готуються."),
+    ("en/index.html", "home-en", "en_GB", "CLAYARENA · PROJECTS", ["ClayArena"], ["Academy · FITASC rules", "glossary · ClayAway tours"],
+     "ClayArena projects: Academy, FITASC rules, glossary, ClayAway tours", "ClayArena projects for clay shooting: the ClayArena Academy, FITASC rules in plain words, a glossary in 11 languages and ClayAway coach-led tours in preparation."),
+    ("tours/index.html", "tours", "uk_UA", "CLAYARENA · НОВИЙ НАПРЯМ", ["ClayAway"], ["Clay shooting trips with top coaches", "ТЗ · два приклади турів"],
+     "Тури ClayAway — Clay shooting trips with top coaches", "ClayAway — новий напрям ClayArena, що готується: тури зі стендової стрільби з тренерами. ТЗ і два приклади турів з умовними датами й цінами."),
     ("concept/index.html", "concept", "uk_UA", "ТЕХНІЧНЕ ЗАВДАННЯ", ["ТЗ ClayAway"], ["Тури з тренером у ClayArena:", "ролі, доступи, спілкування, адмінка, гроші"],
      "ТЗ ClayAway — концепція і технічне завдання", "Тури з тренером у ClayArena: ролі й доступи, відкрите та закрите спілкування, адмінка, комісія, сутності, етапи."),
     ("dornsberg/index.html", "dornsberg", "en_GB", "CLAYAWAY TOUR · GERMANY", ["Dornsberg", "Training Days"], ["with Markus Leibinger · Lake Constance", "Tue 13 – Sat 17 April 2027 · 6 shooters"],
@@ -110,6 +117,7 @@ def card(name, eyebrow, title, sub, out=None):
 
 
 def icons():
+    (DOCS / "og").mkdir(parents=True, exist_ok=True)  # a fresh --docs folder has none yet
     for size, name in ((180, "apple-touch-icon.png"), (32, "favicon.png")):
         img = Image.new("RGB", (size, size), BG)
         clay(ImageDraw.Draw(img), size / 2, size / 2, size * .4)
@@ -138,8 +146,9 @@ def inject(path, name, locale, og_title, og_desc):
     img = f"{BASE}og/{name}.png"
     depth = path.count("/")
     rel = "../" * depth
-    # ClayAway is the tours service; rules, trainer, glossary and academies are ClayArena tools
-    site = "ClayAway · ClayArena" if path.split("/")[0] in ("index.html", "concept", "dornsberg", "sologne") else "ClayArena"
+    # ClayAway is the tours service (its start page /tours/, the spec and the examples); the projects home, rules, trainer,
+    # glossary and the Academy are ClayArena
+    site = "ClayAway · ClayArena" if path.split("/")[0] in ("tours", "concept", "dornsberg", "sologne") else "ClayArena"
     block = f'''
 <!-- share-preview -->
 <meta name="description" content="{og_desc}">

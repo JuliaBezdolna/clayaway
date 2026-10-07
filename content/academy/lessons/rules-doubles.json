@@ -335,17 +335,16 @@
       "k": "sporting-singles-doubles-sim",
       "t": "sim",
       "sim": {
-        "type": "call"
+        "type": "pair",
+        "kind": "report",
+        "also": [
+          "simultaneous",
+          "rafale"
+        ]
       },
-      "ready": false
-    },
-    {
-      "k": "compak-singles-doubles-sim",
-      "t": "sim",
-      "sim": {
-        "type": "call"
-      },
-      "ready": false
+      "ready": true,
+      "en": "On report the second target leaves after your shot at the first, a simultaneous double leaves together, and the rafale ({{tm:sporting}} only) follows from the same trap.",
+      "uk": "У дуплеті на постріл друга мішень вилітає після вашого пострілу по першій, в одночасному обидві вилітають разом, а рафаль (лише {{tm:sporting}}) летить із тієї самої машинки."
     }
   ],
   "note": [
@@ -889,10 +888,10 @@
   },
   "todo": {
     "tasks": [
-      "Animations sporting-singles-doubles-sim and compak-singles-doubles-sim stay ready:false until checked against S-01…S-05 and S-09 (S-02: the doubles animation shows no double).",
       "Referee: confirm the wording that separates 'one shot breaks both targets' (one and one: Sporting 6.5.2 note, 7.9) from 'the first target or its pieces break the second before the second shot' (No Bird, first result kept: 6.5.2 table) in rules-doubles-cmp3 (sporting column) and sporting-singles-doubles-p4.",
       "Rules guide: docs/rules/data/sporting.js has no item for the quick guide's report-double refusal (first target zero, double repeated to score the second; Sporting referees' quick guide of 8 June 2026, 5.6 and 6.4). rules-doubles-cmp4 cites the quick guide; when the item is added to sporting.js, point the sporting rule_ref of cmp4 to it.",
-      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done.",
+      "Overlays, animation caption of 2026-10-07: body.sporting-singles-doubles-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_pair)."
     ]
   }
 }

@@ -670,11 +670,7 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: sport-sporting-layout-p1, sport-sporting-layout-p2, sport-sporting-layout-p3, sport-sporting-layout-p4, sport-sporting-layout-p5, sport-sporting-layout-kp5, sport-sporting-layout-q2, sporting-rounds-stands-p2, sporting-rounds-stands-p5, sporting-rounds-stands-kp1, sporting-rounds-stands-q1, sporting-rounds-stands-q2.",
-      "Overlays: remove keys deleted as duplicates or merged in the master: sport-sporting-layout-title, sport-sporting-layout-kp1, sport-sporting-layout-kp2, sport-sporting-layout-kp3, sport-sporting-layout-kp4, sport-sporting-layout-q1, sporting-rounds-stands-title, sporting-rounds-stands-p3.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: sport-sporting-layout-p1, sporting-rounds-stands-p2, sport-sporting-layout-p2, sport-sporting-layout-p3, sporting-rounds-stands-p4, sporting-rounds-stands-p5, sporting-rounds-stands-kp2.",
-      "Moved in from culture-sportsmanship-referee (2026-10-07): exam question etiquette-squad-q3 (Sporting™ shooting order rotates at each stand and for the doubles; sporting:ch16-squads). Copy its 9 overlay entries from i18n/<lang>/culture-sportsmanship-referee.json; the English is unchanged, so the hashes stay valid.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in sporting-rounds-stands-p1, sporting-rounds-stands-q1, sport-sporting-layout-q2, sport-sporting-layout-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-sporting-layout.json: translate the missing items targets-sporting-layout-ready, targets-sporting-layout-compak, sport-sporting-layout-n1, targets-sporting-layout-q-international, etiquette-squad-q3; translate again (or only re-sign the hash where just the form changed) the items whose English changed: sporting-rounds-stands-q1, sporting-rounds-stands-q2, sport-sporting-layout-q2, sport-sporting-layout-q3."
     ]
   }
 }

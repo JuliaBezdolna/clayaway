@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "fs";
 
 export function buildEnglish() {
-  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid } = globalThis.SEO;
+  const { BASE, TODAY, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch } = globalThis.SEO;
   const out = [];
   const TM = "Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.";
 
@@ -41,7 +41,9 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <style>${CSS}.kp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:14px 0}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}article p{font-size:17px;line-height:1.75}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}</style>
 </head>
 <body>`;
-  const bar = (home, crumbs, ukUrl) => `<header><div class="in"><a class="logo" href="${home}"><b>ClayArena</b></a><nav class="crumbs">${crumbs}</nav><span style="flex:1"></span><a class="btn" href="${ukUrl}" hreflang="uk">Українською</a></div></header>`;
+  // Page header: the section as a breadcrumb (no second logo; the ONE ClayArena logo is in the project bar, docs/shared/nav.js)
+  // and the language switcher (glossary pages: between <!-- langs --> markers, build_seo_i18n.mjs fills in every language of the term).
+  const bar = (crumbsHtml, enUrl, ukUrl, marked) => `<header><div class="in">${crumbsHtml}<span style="flex:1"></span>${marked ? "<!-- langs -->" : ""}${langSwitch("en", [{ l: "uk", url: ukUrl }, { l: "en", url: enUrl }])}${marked ? "<!-- /langs -->" : ""}</div></header>`;
 
   // ---- glossary
   if (GLOSS) {
@@ -58,7 +60,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
       // "Learn it": Academy lessons that teach the term (scripts/build_academy.mjs learnLinks)
       const learn = ACADEMY.learnLinks(t.id, "en").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
       const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_en, `en/glossary/${t.id}/`), termCode: t.id, url: en, inDefinedTermSet: SET, inLanguage: "en" }];
-      const html = head({ title, desc, url: en, uk, en, ld, img: "glossary" }) + bar(`${BASE}en/glossary/`, `<a href="${BASE}en/glossary/">Glossary</a>`, uk) + `
+      const html = head({ title, desc, url: en, uk, en, ld, img: "glossary" }) + bar(crumbs("en", "📖", [{ label: "Glossary", url: `${BASE}en/glossary/` }, { label: name }]), en, uk, true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">${esc(t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Also: ${esc(t.aka.join(", "))}</p>` : ""}
 <h2>What it is</h2><p><b>${esc(t.short_en)}</b></p>
@@ -76,7 +78,7 @@ ${rel ? `<h2>Related terms</h2><p>${rel}</p>` : ""}
     }
     const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
     writeFileSync(`${DOCS}/en/glossary/index.html`, head({ title: `Clay shooting glossary — ${GLOSS.terms.length} terms | ClayArena`, desc: "Sporting™ and Compak® Sporting terms explained in plain English, with links to the FITASC rules and to beginner lessons.", url: BASE + "en/glossary/", uk: BASE + "glossary/", en: BASE + "en/glossary/",
-      ld: [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}en/glossary/${t.id}/` })) }], img: "glossary" }) + bar(`${BASE}en/glossary/`, "Glossary", BASE + "glossary/") + `
+      ld: [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}en/glossary/${t.id}/` })) }], img: "glossary" }) + bar(crumbs("en", "📖", [{ label: "Glossary" }]), BASE + "en/glossary/", BASE + "glossary/", true) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>Clay shooting glossary</h1><p>${GLOSS.terms.length} terms of Sporting™ and Compak® Sporting, explained in plain English with links to the FITASC rules and to ClayArena Academy lessons.</p>
 ${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}en/glossary/${t.id}/">${esc(dispTerm(t))}</a>`).join("")}</div>`).join("\n")}
 <div class="disc">${TM}</div>${legal("en")}</main></body></html>`);
@@ -94,7 +96,7 @@ ${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t
     const faq = C.categories.map(c => ({ "@type": "Question", name: `Who is a ${c.name_en} in clay shooting (FITASC)?`, acceptedAnswer: { "@type": "Answer", text: c.rule_en } }));
     const title = "FITASC categories: Junior, Lady, Men, Senior, Veteran, Master — ages | ClayArena";
     const html = head({ title, desc: `Who is a Junior, Lady, Senior, Veteran or Master in Sporting™ and Compak® Sporting: FITASC age limits from ${from} and national team rules.`, url: en, uk, en,
-      ld: [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq }] }) + bar(`${BASE}rules/en/sporting/`, "FITASC rules › Categories", uk) + `
+      ld: [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq }] }) + bar(crumbs("en", "📘", [{ label: "FITASC rules", url: `${BASE}rules/?lang=en`, vl: 1 }, { label: "Categories" }]), en, uk) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div><h1>FITASC categories: who is a Junior, Lady, Senior, Veteran, Master</h1>
 <p>The age categories are the same for Parcours de Chasse – Sporting™, Compak® Sporting and other FITASC disciplines, valid from ${from}. Only the <b>year</b> of birth counts, not the day or month. National and club events may use their own categories — check the competition programme.</p>

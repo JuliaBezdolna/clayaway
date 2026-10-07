@@ -47,6 +47,15 @@
   (в Академии английский — мастер-язык, украинский пишется вместе с ним, 9 остальных языков — оверлеи; страница языка публикуется, только когда перевод готов).
 - **Названия**: ClayAway — только туры; правила, тренажёр, глоссарий и Академия ClayArena — инструменты ClayArena (`og:site_name` «ClayArena»).
   Академия одна: бывшая «Академия переводчика» — теперь маршрут «Перекладач» и блок «Мова стенду» Академии ClayArena.
+  Названия разделов — из одной таблицы `NAMES` в `docs/shared/nav.js` (11 языков); немецкий — «ClayArena Akademie», «← Akademie», «Lernpfad».
+- **Навигация (решение владельца 07.10.2026)**: `/` — главная проектов ClayArena (uk; en — `/en/`; `noindex, follow`), у ClayAway своя
+  стартовая `/tours/`. Один логотип ClayArena — в панели проектов (ведёт на `/` или `/en/`); в шапках разделов вместо второго логотипа —
+  название раздела («📘 Правила FITASC», «📖 Глосарій», «🎓 Академія ClayArena», «✈️ Тури ClayAway»). Панель: 4 пункта в порядке
+  Академія · Правила FITASC · Глосарій · Тури ClayAway; тренажёр правил — не пункт панели, а часть Практики Академии («Тренажер правил»,
+  без ↗) и кнопка в справочнике; на `/rules/trainer/` подсвечена «Академія» и крошки «Академія › Практика › Тренажер правил».
+  На узком экране (< 760 px) — одна кнопка «☰ ClayArena · <раздел>» со списком разделов и описаниями. Один «язык посетителя»
+  (`localStorage` «clayarena-lang»): его пишут все переключатели языка и `?lang`; ссылки в справочник и тренажёр несут `?lang`.
+  Подробно — DEVELOPERS.md §4i и ТЗ правил, раздел «Навігація».
 - Полная пересборка: `bun scripts/build_seo.mjs && python scripts/make_og.py && python scripts/seo_meta.py`.
   `build_seo.mjs` первым делом вызывает `scripts/build_academy.mjs` (Академия из `content/academy/`); ошибки Академии останавливают всю сборку, ничего не записывается.
   Проверка без записи: `bun scripts/build_academy.mjs --check`; пробная сборка — только во временную папку (`--out <папка>`, с черновиками `--draft`), не в `docs/`.
@@ -56,7 +65,8 @@
 ## Структура репозитория
 - `docs/CONCEPT.md` — концепция и ТЗ в Markdown.
 - `docs/` — статический сайт для GitHub Pages (Settings → Pages → main /docs):
-  `docs/index.html` (оглавление), `docs/concept/` (ТЗ), `docs/dornsberg/` (пример 1), `docs/sologne/` (пример 2).
+  `docs/index.html` + `docs/en/index.html` (главная проектов ClayArena, uk/en), `docs/tours/` (стартовая ClayAway), `docs/concept/` (ТЗ),
+  `docs/dornsberg/` (пример 1), `docs/sologne/` (пример 2), `docs/404.html` (не найдено: панель, разделы, новый адрес старых адресов).
   Примеры туров — в дизайне ClayArena (тёмная тема, изумрудный акцент), с подписью сервиса **ClayAway**;
   фото и видео подключены по ссылкам с ClayArena (cdn.clayarena.com, хранилище ClayArena), не копируются.
 - `content/academy/` — **единственный источник** «Академии ClayArena» (вне `docs/`, как есть не публикуется): 142 урока-мастера (en + uk),
@@ -68,3 +78,4 @@
 - `docs/interpreter/` — бывшая Академия переводчика: постоянный переадресатор (noindex) на маршрут «Перекладач»; старые адреса ведут на те же уроки
   на том же языке (`id-map.json`); `src/` и `data/` заморожены до переключения.
 - Локальный просмотр: `python -m http.server 8791 --bind 127.0.0.1 --directory docs`.
+- Own analytics (anonymous, no cookies, no IP, no third-party services): collector + private dashboard in `tools/stats/` (Google Apps Script, outside `docs/`), endpoint `STATS_ENDPOINT` in `docs/shared/stats.js` (empty = off); the dashboard URL is never published anywhere.

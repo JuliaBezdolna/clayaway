@@ -166,7 +166,9 @@
         "type": "flight",
         "preset": "rabbit"
       },
-      "ready": true
+      "ready": true,
+      "en": "The rabbit rolls and bounces along the ground; watch how low it stays and how it hops.",
+      "uk": "Кролик котиться й підстрибує по землі; зверніть увагу, як низько він тримається і як підскакує."
     }
   ],
   "note": [
@@ -426,9 +428,8 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: flight-rabbit-p3, flight-rabbit-p4, flight-rabbit-p5.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: flight-rabbit-p3, flight-rabbit-p4, flight-rabbit-kp3, flight-rabbit-q2.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in flight-rabbit-p1 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/flight-rabbit.json: translate the missing items targets-special-presentations-p6, flight-rabbit-n1, targets-special-presentations-q2; translate again (or only re-sign the hash where just the form changed) the items whose English changed: flight-rabbit-q2.",
+      "Overlays, animation caption of 2026-10-07: body.flight-rabbit-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_flight)."
     ]
   }
 }

@@ -15,7 +15,8 @@
      <p> = "" for Ukrainian (root) and "<lang>/" for en de fr it cs pl pt hu fi lt (design §5.1). URL slugs are English.
    - Progress, XP, levels, badges and certificates: docs/shared/progress.js (ClayProgress), key "clayarena-academy", on this device.
      The old keys clayarena-learn / clayarena-interpreter are moved over once (design §7.8), the rules trainer key is read only.
-   - Animations: docs/shared/sims.js (ClaySims), started only by a button (prefers-reduced-motion is respected; text alternative).
+   - Animations: docs/shared/sims.js (ClaySims). A lesson's animation is shown big right after its first paragraph (simHero):
+     heading, play / replay, slow motion, one line of what to watch; it plays once when on screen, never with prefers-reduced-motion.
    - English stand phrases: ClaySpeak (sims.js) and ONLY with a voice that runs on the device (audit W-08).
    - Project bar: docs/shared/nav.js (ClayNav.setResume / clearResume, section "learn"; the bar's hint reads state.nav).
 
@@ -60,6 +61,10 @@
   const CFG = Object.assign({ dataBase: SITE + "learn/data/" }, window.ACADEMY_CONFIG || {});
   const DATA = new URL(CFG.dataBase, location.href).href; // absolute, ends with "/"
   const RESERVED = ["topics", "routes", "practice", "progress", "app", "data", "assets"];
+  /* Anonymous site statistics (docs/shared/stats.js, loaded by docs/shared/nav.js; tools/stats/README.md): Academy events
+     route · lesson_done · quiz (lesson:score/n) · game_start · game_end (game:ok/n) · exam_pass / exam_fail (route:score %) ·
+     cert (route) · lang · disc. Never throws; does nothing when the statistics are off. Production: ClayArena analytics. */
+  const stat = (name, value) => { try { if (window.ClayStats) window.ClayStats.event(name, value); } catch (e) {} };
   /* clayarena.com locale paths for the footer links (same table as scripts/build_seo.mjs, audit W-03) */
   const CA_PATH = { uk: "uk-ua", de: "de-de" };
   const LEGAL = {
@@ -80,7 +85,7 @@
     "lead-lab": "📐", "name-the-flight": "〰️", "translate-the-coach": "🗣️", "referees-call": "🧑‍⚖️", "term-cards": "🃏", phrasebook: "📒",
     "rules-exam": "📝", routine: "⏱️" };
   const icon = k => ICON[k] || "•";
-  const SIM_TYPES = ["flight", "lead", "pair"]; // what ClaySims.mount can draw (other types, e.g. "call", are skipped)
+  const SIM_TYPES = ["flight", "lead", "pair", "call"]; // what ClaySims.mount can draw ("call" = stand scenes: call and release, gun position, misfire)
 
   /* ================================ 1. Helpers ================================ */
   const $ = id => document.getElementById(id);
@@ -136,7 +141,9 @@
   function save() { if (PERSIST) P.save(S); }
   const trainer = () => (TRAINER = P.readTrainer());
   function refreshProgress() { // certificates and badges that became due; returns {certs, badges} for the toast
-    const certs = P.issueCertificates(S, CAT, trainer()), badges = P.awardBadges(S, CAT, TRAINER); save(); return { certs, badges }; }
+    const certs = P.issueCertificates(S, CAT, trainer()), badges = P.awardBadges(S, CAT, TRAINER); save();
+    for (const id of certs) stat("cert", id); // certificate (or the badge of a badge-only route) issued just now
+    return { certs, badges }; }
   const xp = () => P.computeXP(S, CAT, TRAINER || trainer());
 
   /* ================================ 4. Catalog helpers ================================ */
@@ -182,8 +189,9 @@
   function renderTop() {
     const x = xp(), lv = P.levelOf(x.total, CAT);
     let sk = document.querySelector(".ac-skip"); // outside the sticky header (its backdrop-filter would hold a fixed child)
-    if (!sk) { sk = document.createElement("a"); sk.className = "ac-skip"; sk.href = "#app"; document.body.insertBefore(sk, $("acTop")); }
-    sk.textContent = u("skip_link");
+    // the project bar (docs/shared/nav.js) puts ONE skip link first in <body>; this one is only a fallback without the bar
+    if (!sk && !document.querySelector(".ca-skip")) { sk = document.createElement("a"); sk.className = "ac-skip"; sk.href = "#app"; document.body.insertBefore(sk, $("acTop")); }
+    if (sk) sk.textContent = u("skip_link");
     $("acTop").innerHTML = `<div class="ac-top-in">
       <a class="ac-brand" href="${href("")}" data-nav><span aria-hidden="true">🎓</span> <span>${t("academy_name")}</span></a>
       <span class="ac-spacer"></span>
@@ -191,8 +199,22 @@
         <span class="ac-bar" role="progressbar" aria-label="${t("level")}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${lv.pct}"><i style="width:${lv.pct}%"></i></span>
         <span>${x.total} ${t("xp")}</span></a>
       <label class="ac-langsel"><span class="ac-sr">${t("language")}</span><select id="acLang">${LANGS.map(l => `<option value="${l}" lang="${l}"${l === LANG ? " selected" : ""}>${LANG_NAMES[l]}</option>`).join("")}</select></label>
+      <button type="button" class="ac-btn ac-langgo" data-act="langgo" style="display:none" aria-label="${esc(un("nav_lang_go", u("language")))}" title="${esc(un("nav_lang_go", u("language")))}">→</button>
     </div>`;
   }
+  /* ---- Language select: changes the page only on a confirmed choice (audit ia-code-22). A pick with the mouse or finger is a
+     choice; with the keyboard the arrows only move inside the list: Enter (or the "→" button that appears) opens the page. */
+  function langSelKey(e) { const sel = e.target; if (sel.id !== "acLang") return;
+    if (e.key === "Enter") { e.preventDefault(); goLang(sel.value); return; }
+    if (e.key.length === 1 || /^(Arrow|Page|Home|End)/.test(e.key)) sel.dataset.kbd = "1"; }
+  function langSelChange(sel) { const b = document.querySelector(".ac-langgo"); // shown with style.display (.ac-btn sets display)
+    if (sel.value === LANG) { if (b) b.style.display = "none"; return; }
+    if (sel.dataset.kbd) { if (b) b.style.display = ""; return; }
+    goLang(sel.value); }
+  /* The reader chose a language (header select, footer list, banner): remember it here (S.lang) and as the visitor language of the
+     whole site (docs/shared/nav.js, localStorage "clayarena-lang"), then open the same page in it. */
+  const visitorLang = l => { try { if (window.ClayNav && ClayNav.setLang) ClayNav.setLang(l); else localStorage.setItem("clayarena-lang", JSON.stringify(l)); } catch (e) {} };
+  function goLang(l) { if (!LANGS.includes(l) || l === LANG) return; S.lang = l; save(); stat("lang", l); visitorLang(l); location.href = urlInLang(l); }
   /* Same page in another language. A lesson that is not published there opens its block page there (no 404, never a page in a
      third language posing as that language). */
   function urlInLang(l) { if (LOC.view === "lesson" && !altLangs(L(LOC.id)).includes(l)) { const c = L(LOC.id); return c ? href(`topics/${c.block}/`, l) : href("", l); }
@@ -208,7 +230,10 @@
   /* The language the reader prefers (state, old academies, browser), if it differs from this page: one banner, never a redirect. */
   function langBanner() {
     if (S.lang_hint_off) return "";
-    let pref = S.lang; if (!pref) { const n = (navigator.language || "").slice(0, 2).toLowerCase(); pref = n === "cz" ? "cs" : n; }
+    // preference: the visitor language of the site (nav.js, localStorage "clayarena-lang": the LAST choice made by any language
+    // switcher of the site, the Academy's included) > the Academy's own older choice (S.lang) > the browser
+    let vl = null; try { vl = JSON.parse(localStorage.getItem("clayarena-lang") || "null"); } catch (e) {}
+    let pref = (LANGS.includes(vl) ? vl : null) || S.lang; if (!pref) { const n = (navigator.language || "").slice(0, 2).toLowerCase(); pref = n === "cz" ? "cs" : n; }
     if (!LANGS.includes(pref) || pref === LANG) return "";
     return `<div class="ac-banner" lang="${pref}"><span aria-hidden="true">🌐</span> <a href="${urlInLang(pref)}" hreflang="${pref}">${LANG_NAMES[pref]} →</a>
       <button type="button" class="ac-x" data-act="langoff" aria-label="${t("close")}">✕</button></div>`;
@@ -227,16 +252,18 @@
   const bar = (d, n, label) => `<span class="ac-pbar" role="progressbar" aria-label="${esc(label || "")}" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${d}"><i style="width:${n ? Math.round(d / n * 100) : 0}%"></i></span>`;
   const discChips = ds => (ds || []).map(d => `<span class="ac-chip ac-disc-${d}">${discName(d)}</span>`).join("");
   const updated = id => { const d = S.done[id], c = L(id); return !!(d && c && (d.rev || 0) < (c.rev || 0)); };
+  /* "▶ з анімацією" on a lesson card (topic and route lists, search): the catalog marks lessons that open with an animation (anim). */
+  const animMark = c => c && c.anim ? `<span class="ac-animark">▶ ${t("anim_marker")}</span>` : "";
   /* One lesson in a list. opts.route: the route the list belongs to (a click makes it the current route); opts.n: step number. */
   function lessonRow(id, opts = {}) {
     const c = L(id); if (!c) return "";
     const h = lessonHref(id), d = done(id), num = opts.n != null ? opts.n : "";
-    const meta = [`${c.minutes || 4} ${t("min")}`, c.level === 1 ? `★ ${t("start_here")}` : "", c.review_flag === "pending" ? t("review_pending") : "",
+    const meta = [`${c.minutes || 4} ${t("min")}`, c.level === 1 ? `★ ${t("start_here")}` : "", animMark(c), c.review_flag === "pending" ? t("review_pending") : "",
       updated(id) ? `● ${t("lesson_updated")}` : "", c.status === "preview" ? t("clayaway_coming") : ""].filter(Boolean).join(" · ");
     const inner = `<span class="ac-ck" aria-hidden="true">${d ? "✓" : esc(num)}</span><span class="ac-les-t"><b>${esc(c.title)}</b>${opts.summary && c.summary ? `<span class="ac-les-s">${esc(c.summary)}</span>` : ""}<span class="ac-les-m">${meta}${c.disciplines && c.disciplines.length === 1 ? " · " + discName(c.disciplines[0]) : ""}</span></span>`;
     const sr = d ? `<span class="ac-sr">${t("lesson_done")}</span>` : "";
     if (!h) return `<li><span class="ac-les is-off" aria-disabled="true">${inner}<span class="ac-tag">${t(c.status === "untranslated" ? "untranslated_short" : "draft_soon")}</span></span></li>`;
-    return `<li><a class="ac-les${d ? " is-done" : ""}" href="${h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${opts.route ? ` data-route="${esc(opts.route)}"` : ""}>${inner}${sr}${h.en ? `<span class="ac-tag" lang="en">EN</span>` : ""}</a></li>`;
+    return `<li><a class="ac-les${d ? " is-done" : ""}" href="${opts.route ? withRoute(h.url, opts.route) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${opts.route ? ` data-route="${esc(opts.route)}"` : ""}>${inner}${sr}${h.en ? `<span class="ac-tag" lang="en">EN</span>` : ""}</a></li>`;
   }
   const lessonList = (ids, opts = {}) => `<ol class="ac-lessons">${ids.map((id, i) => lessonRow(id, Object.assign({ n: i + 1 }, opts))).join("")}</ol>`;
   function routeCard(r, big) {
@@ -259,12 +286,15 @@
   /* A page the build did not write in this language (catalog url: null) opens in English, marked "EN" (never a 404, never a
      page of another language posing as this one). */
   const pageLink = (x, path) => x && x.url === null && LANG !== "en" ? { url: href(path, "en"), en: true } : { url: href(path), en: false };
+  /* The rules trainer is part of this Practice (owner decision 07.10.2026): same site, so no "↗"; its name comes from the ONE
+     naming table of the project bar (docs/shared/nav.js, ClayNav.name("trainer"): «Тренажер правил», "Rules trainer" …). */
+  const gameTitle = g => (g.external && window.ClayNav && ClayNav.name && ClayNav.name("trainer", LANG)) || g.title;
   function gameCard(g) {
     const desc = gameDesc(g);
     if (g.later) return `<div class="ac-card ac-game is-off" aria-disabled="true"><span class="ac-ic" aria-hidden="true">${icon(g.id)}</span><h3>${esc(g.title)}</h3><p>${esc(desc)}</p><span class="ac-tag">${t("practice_soon")}</span></div>`;
     const pl = pageLink(g, `practice/${g.id}/`), url = g.external ? extUrl(g) : pl.url, nav = !g.external && !pl.en;
-    return `<a class="ac-card ac-game" href="${esc(url)}"${nav ? " data-nav" : pl.en ? ' hreflang="en"' : ""}><span class="ac-ic" aria-hidden="true">${icon(g.id)}</span><h3>${esc(g.title)}${pl.en && !g.external ? ' <span class="ac-tag" lang="en">EN</span>' : ""}</h3><p>${esc(desc)}</p>
-      ${g.xp === false && (g.known_issues || []).length ? `<span class="ac-meta">${t("practice_known_issue")}</span>` : ""}${g.external ? `<span class="ac-meta">${t("practice_external")} ↗</span>` : ""}</a>`;
+    return `<a class="ac-card ac-game" href="${esc(url)}"${nav ? " data-nav" : pl.en ? ' hreflang="en"' : ""}><span class="ac-ic" aria-hidden="true">${icon(g.id)}</span><h3>${esc(gameTitle(g))}${pl.en && !g.external ? ' <span class="ac-tag" lang="en">EN</span>' : ""}</h3><p>${esc(desc)}</p>
+      ${g.xp === false && (g.known_issues || []).length ? `<span class="ac-meta">${t("practice_known_issue")}</span>` : ""}${g.external ? `<span class="ac-meta">${t("practice_external")}</span>` : ""}</a>`;
   }
   function discSwitch() {
     return `<div class="ac-seg" role="group" aria-label="${t("my_discipline")}"><span class="ac-seg-l">${t("my_discipline")}:</span>${["both", "sporting", "compak"].map(d =>
@@ -272,6 +302,29 @@
   }
   const crumbs = items => `<nav class="ac-crumbs" aria-label="${t("breadcrumbs")}"><ol>${items.map((x, i) => `<li>${x.url && i < items.length - 1 ? `<a href="${x.url}" data-nav>${esc(x.label)}</a>` : `<span${i === items.length - 1 ? ' aria-current="page"' : ""}>${esc(x.label)}</span>`}</li>`).join("")}</ol></nav>`;
   const home = () => ({ label: u("academy_name"), url: href("") });
+  /* ---- Where a lesson was opened from (audit ia-code-07): route pages add ?route=<id> to their lesson links (and the lesson's
+     own route links keep it); then the crumbs (Академія › <route> › Етап n › <lesson>, the levels of the route page crumbs), the
+     step strip, "Далі" and "До маршруту" follow that route. Without it (topic page, search, glossary, a shared link) the crumbs
+     follow the topic path (Академія › <topic> › <section> › <lesson>: the SAME levels as the static lesson pages written by
+     scripts/build_academy.mjs) and the current route of this device is offered only as a chip «Також у маршруті «…»: крок n з m».
+     The canonical URL never carries ?route. Production: the same rule on the server (crumbs by the route parameter). */
+  const withRoute = (url, rid) => { if (!rid || !url) return url; const i = url.indexOf("#"), base = i < 0 ? url : url.slice(0, i), h = i < 0 ? "" : url.slice(i);
+    return base + (base.includes("?") ? "&" : "?") + "route=" + encodeURIComponent(rid) + h; };
+  function lessonCtx(id) {
+    const inR = r => !!r && (required(r).includes(id) || (r.extras || []).includes(id));
+    const q = LOC && LOC.query && LOC.query.get("route"), qr = q ? routeById(q) : null;
+    if (inR(qr)) return { route: qr, also: null };
+    const cur = currentRoute(); return { route: null, also: cur && required(cur).includes(id) ? cur : null };
+  }
+  function lessonCrumbs(c, b, sec, inRoute, so) {
+    if (inRoute) { const ru = pageLink(inRoute, `routes/${inRoute.id}/`).url;
+      return [home(), { label: inRoute.title, url: ru }, so ? { label: `${u("stage")} ${so.index + 1}. ${so.stage.title}`, url: ru + "#stage-" + so.stage.id } : null, { label: c.title }].filter(Boolean); }
+    const bu = b && pageLink(b, `topics/${b.id}/`).url;
+    return [home(), b ? { label: b.title, url: bu } : null, sec ? { label: sec.title, url: bu + "#" + sec.id } : null, { label: c.title }].filter(Boolean);
+  }
+  function alsoRoute(r, id) { const req = required(r), n = req.indexOf(id); if (n < 0) return "";
+    const h = lessonHref(id), url = h && !h.en ? withRoute(h.url, r.id) : pageLink(r, `routes/${r.id}/`).url;
+    return `<p class="ac-meta ac-also"><a class="ac-chip" href="${esc(url)}" data-nav data-route="${esc(r.id)}">${esc(un("nav_also_route", `${r.title} · ${u("step_of", { n: n + 1, t: req.length })}`, { route: r.title, n: n + 1, t: req.length }))}</a></p>`; }
 
   /* ================================ 8. Views ================================ */
   let VIEW = {};       // transient state of the current view (quiz answers, game round…); reset on every navigation
@@ -284,7 +337,7 @@
     let cont = "";
     if (r) { const st = P.routeStatus(S, CAT, r, TRAINER), nx = firstUndone(r);
       if (nx) { const so = stageOf(r, nx), c = L(nx), h = lessonHref(nx);
-        cont = `<a class="ac-continue" href="${h ? h.url : pageLink(r, `routes/${r.id}/`).url}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}"><span class="ac-eyebrow">${t("continue")}</span>
+        cont = `<a class="ac-continue" href="${h ? withRoute(h.url, r.id) : pageLink(r, `routes/${r.id}/`).url}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}"><span class="ac-eyebrow">${t("continue")}</span>
           <b>${t("continue_route", { lesson: c ? c.title : nx, route: r.title, n: so ? so.index + 1 : 1, t: r.stages.length, min: c ? c.minutes : "" })}</b>${bar(st.done, st.total, r.title)}</a>`; }
       else cont = `<a class="ac-continue" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav><span class="ac-eyebrow">${esc(r.title)}</span><b>${t("route_complete_go")}</b></a>`;
     } else if (anyDone && S.last && L(S.last)) { const nx = nextInBlocks(S.last), id = nx && !done(nx) ? nx : S.last, h = lessonHref(id);
@@ -350,7 +403,7 @@
       <p class="ac-lead"><b>${t("route_for")}:</b> ${esc(r.for)}</p>
       <p class="ac-meta">${plural("n_lessons", st.total)} · ~${mins((r.totals && r.totals.minutes) || 0)} · ${bar(st.done, st.total, r.title)} ${st.done}/${st.total}</p>
       ${r.disclaimer ? `<p class="ac-note">${esc(r.disclaimer)}</p>` : ""}
-      <p>${nx ? `<a class="ac-btn primary" href="${h ? h.url : "#"}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}">${st.done ? t("continue") : t("start_stage")} →</a>`
+      <p>${nx ? `<a class="ac-btn primary" href="${h ? withRoute(h.url, r.id) : "#"}"${h && !h.en ? " data-nav" : ""} data-route="${esc(r.id)}">${st.done ? t("continue") : t("start_stage")} →</a>`
         : `<a class="ac-btn primary" href="#certificate">${t("route_done")} →</a>`}
         ${S.routes.current === r.id ? `<span class="ac-chip is-on">${t("route_current")}</span>` : `<button type="button" class="ac-btn" data-act="setroute" data-v="${esc(r.id)}">${t("route_choose")}</button>`}</p></header>
     <ol class="ac-stages">${r.stages.map((s, i) => { const sd = s.lessons.filter(done).length, all = sd === s.lessons.length;
@@ -366,7 +419,7 @@
       <details class="ac-means"><summary>${t("cert_means")}</summary><p>${t("cert_means_p")}</p><p><b>${t("cert_disclaimer")}</b>${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p></details></section>
     ${r.checklist ? `<section aria-labelledby="h-chk"><h2 id="h-chk">📋 ${esc(r.checklist.title)}</h2><p class="ac-muted">${t("checklist_d")}</p><button type="button" class="ac-btn" data-act="checklist" data-v="${esc(r.id)}">🖨 ${t("checklist_print")}</button></section>` : ""}`;
   }
-  function practiceReqText(p) { const g = gameById(p.game), name = g ? g.title : p.game;
+  function practiceReqText(p) { const g = gameById(p.game), name = g ? gameTitle(g) : p.game;
     if (p.game === "rules-exam") return `${name}: ${u(p.mode === "short" && U.req_rules_short != null ? "req_rules_short" : "req_rules_exam", { n: p.n || 10, p: p.min_pct || 80 })}`;
     if (p.require === "hit-with-each-method") return `${name}: ${u("req_four_methods")}`;
     if (p.min_score != null) return `${name}: ${u("req_score", { n: p.min_score, t: p.of || 10 })}`;
@@ -390,22 +443,21 @@
     if (!avail(id)) return viewUntranslated(c);
     const D = VIEW.data; // loaded by render() before this runs
     if (!D) return `<p class="ac-muted" aria-busy="true">${t("loading")}</p>`;
-    const b = blockById(c.block), sec0 = b && b.sections.find(s => s.id === c.section), sec = sec0 && sec0.title !== b.title && b.sections.length > 1 ? sec0 : null, r = currentRoute(), inRoute = r && (required(r).includes(id) || (r.extras || []).includes(id)) ? r : null;
+    const b = blockById(c.block), sec0 = b && b.sections.find(s => s.id === c.section), sec = sec0 && sec0.title !== b.title && b.sections.length > 1 ? sec0 : null, lc = lessonCtx(id), inRoute = lc.route;
     const so = inRoute && stageOf(inRoute, id), req = inRoute ? required(inRoute) : [], step = req.indexOf(id);
     setHead({ title: `${c.title} — ${u("academy_name")}`, desc: c.summary || D.summary || "", index: c.index ? c.index === "index" : c.status === "published" && !c.draft, langs: altLangs(c) });
     const next = inRoute ? nextInRoute(inRoute, id) : nextInBlocks(id), prev = inRoute ? prevInRoute(inRoute, id) : null;
     const notesOpen = !!(inRoute && inRoute.notes_open), standOpen = notesOpen || c.block === "stand-talk";
-    const cr = inRoute ? [home(), { label: inRoute.title, url: pageLink(inRoute, `routes/${inRoute.id}/`).url }, so ? { label: `${u("stage")} ${so.index + 1}. ${so.stage.title}`, url: pageLink(inRoute, `routes/${inRoute.id}/`).url + "#stage-" + so.stage.id } : null, { label: c.title }]
-      : [home(), b ? { label: b.title, url: pageLink(b, `topics/${b.id}/`).url } : null, sec ? { label: sec.title, url: pageLink(b, `topics/${b.id}/`).url + "#" + sec.id } : null, { label: c.title }];
+    const cr = lessonCrumbs(c, b, sec, inRoute, so); // by where the reader came from (?route), else the topic path
     VIEW.phr = D.phrases || [];
     const ev = {}; for (const e of D.evidence || []) (ev[e.for] = ev[e.for] || []).push(e.level);
     for (const x of D.body || []) if (x.t === "evidence" && x.for) (ev[x.for] = ev[x.for] || []).push(x.level);
     const body = (D.body || []).map(x => blockHtml(x, ev, D)).join("");
     const navLink = (lid, cls, label) => { if (!lid) return ""; const h = lessonHref(lid); if (!h) return "";
-      return `<a class="ac-btn ${cls}" href="${h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>${label}: ${esc(L(lid).title)}${h.en ? " (EN)" : ""}</a>`; };
-    return `${langBanner()}${crumbs(cr.filter(Boolean))}
+      return `<a class="ac-btn ${cls}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>${label}: ${esc(L(lid).title)}${h.en ? " (EN)" : ""}</a>`; };
+    return `${langBanner()}${crumbs(cr.filter(Boolean))}${lc.also ? alsoRoute(lc.also, id) : ""}
     ${inRoute && step >= 0 ? `<div class="ac-strip"><span>${esc(inRoute.title)} · ${t("step_of", { n: step + 1, t: req.length })}</span>${bar(req.filter(done).length, req.length, inRoute.title)}
-      <span class="ac-strip-nav">${prev && lessonHref(prev) ? `<a href="${lessonHref(prev).url}" data-nav aria-label="${t("prev_lesson")}">←</a>` : ""}${next && lessonHref(next) ? `<a href="${lessonHref(next).url}" data-nav aria-label="${t("next_lesson")}">→</a>` : ""}</span></div>` : ""}
+      <span class="ac-strip-nav">${prev && lessonHref(prev) ? `<a href="${withRoute(lessonHref(prev).url, inRoute.id)}" data-nav aria-label="${t("prev_lesson")}">←</a>` : ""}${next && lessonHref(next) ? `<a href="${withRoute(lessonHref(next).url, inRoute.id)}" data-nav aria-label="${t("next_lesson")}">→</a>` : ""}</span></div>` : ""}
     <article class="ac-lesson" lang="${LANG}">
     <header class="ac-head"><div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
       <h1 tabindex="-1">${esc(c.title)}</h1>
@@ -457,10 +509,7 @@
       case "law": h = `<div class="ac-law"${id}>${x.html}<p class="ac-muted ac-small">${t("laws_disclaimer")}</p></div>`; break;
       case "fact": h = `<div class="ac-fact"${id}>${x.html}</div>`; break;
       case "evidence": return ""; // attached to the block it is for (see ev)
-      case "sim": { if (!x.sim || !SIM_TYPES.includes(x.sim.type)) return x.html ? `<p${id}>${x.html}</p>` : "";
-        const k = "sim-" + esc(x.k); VIEW.sims = VIEW.sims || {}; VIEW.sims[x.k] = x.sim;
-        h = `<figure class="ac-sim"${id}><div class="ac-sim-host" id="${k}"></div><button type="button" class="ac-btn" data-act="sim" data-v="${esc(x.k)}">▶ ${t("animation_show")}</button>
-          ${x.html ? `<figcaption>${x.html}</figcaption>` : ""}</figure>`; break; }
+      case "sim": h = simHero(x, id); if (!h) return ""; break; // the lesson's animation, big (see simHero)
       case "figure": h = `<figure class="ac-figure"${id}>${x.html}</figure>`; break;
       default: h = x.html && typeof x.html === "string" ? `<p${id}>${x.html}</p>` : ""; // unknown type from a newer build: show its text
     }
@@ -470,6 +519,23 @@
     if (x.t !== "compare" && (x.disc === "sporting" || x.disc === "compak") && S.disc !== "both" && S.disc !== x.disc)
       h = `<details class="ac-other"${x.anchor ? ` data-anchor="${esc(x.anchor)}"` : ""}><summary>${discName(x.disc)}</summary>${h}</details>`;
     return h + evs;
+  }
+  /* The lesson's animation (owner's rule: animations prominent). The build puts it right after the first paragraph
+     (scripts/build_academy.mjs heroOrder/heroOf) and sends hero, kind, heading and html (the one line of "what to watch").
+     Here: the heading "▶ …" (x.heading, else ui anim_h_<kind>), the animation itself and the caption. docs/shared/sims.js gives it
+     a big play / replay button and a slow-motion toggle and plays it once by itself when half of it is on the screen (never when
+     the reader prefers reduced motion). It is mounted after render (AFTER); VIEW.simPlayed keeps a re-render (a quiz answer, the
+     discipline switch) from playing it again, VIEW.simTab keeps the open tab. */
+  function simHero(x, id) {
+    if (!x.sim || !SIM_TYPES.includes(x.sim.type)) return x.html ? `<p${id}>${x.html}</p>` : "";
+    const k = x.k, kind = x.kind || (window.ClaySims && ClaySims.kind ? ClaySims.kind(x.sim) : "flight"), hid = "anim-" + esc(k);
+    VIEW.sims = VIEW.sims || {}; VIEW.sims[k] = x.sim; VIEW.simPlayed = VIEW.simPlayed || {}; VIEW.simTab = VIEW.simTab || {};
+    after(() => { const host = $("sim-" + k); if (!host || !window.ClaySims) return;
+      ClaySims.mount(host, x.sim, { autoplay: VIEW.simPlayed[k] ? false : "view", onAutoplay: () => { VIEW.simPlayed[k] = 1; },
+        tab: VIEW.simTab[k], onTab: tb => { VIEW.simTab[k] = tb; VIEW.simPlayed[k] = 1; } }); });
+    const cap = x.html || (U["anim_w_" + kind] != null ? t("anim_w_" + kind) : "");
+    return `<figure class="ac-anim"${id} aria-labelledby="${hid}"><p class="ac-anim-h" id="${hid}"><span aria-hidden="true">▶</span> ${esc(x.heading || u("anim_h_" + kind))}</p>
+      <div class="ac-sim-host" id="sim-${esc(k)}"></div>${cap ? `<figcaption class="ac-anim-w">${cap}</figcaption>` : ""}</figure>`;
   }
   function phraseHtml(p, i) {
     return `<div class="ac-phrase"><div class="ac-phrase-h"><span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span>
@@ -541,6 +607,7 @@
     const ok = E.qs.filter((q, i) => E.ans[i] === q.correct).length, score = Math.round(ok / E.qs.length * 100), x0 = xp().total;
     const R = S.routes[r.id] = S.routes[r.id] || {};
     if (!R.exam || R.exam.score < score) R.exam = { score, date: today() };
+    stat(score >= cfg.pass_pct ? "exam_pass" : "exam_fail", `${r.id}:${score}`);
     const res = refreshProgress(), gain = xp().total - x0; if (gain > 0) toast(u("xp_gain", { n: gain }));
     celebrate(res); if (score >= cfg.pass_pct && P.routeStatus(S, CAT, r, TRAINER).complete && window.ClayNav) ClayNav.clearResume("learn");
   }
@@ -557,13 +624,13 @@
   }
   function viewGame(id) {
     const g = gameById(id); if (!g) return viewNotFound();
-    setHead({ title: `${g.title} — ${u("practice")} — ${u("academy_name")}`, desc: gameDesc(g) || u("practice_lead"), index: g.index === "always", langs: LANGS });
-    const head = `${crumbs([home(), { label: u("practice"), url: href("practice/") }, { label: g.title }])}<header class="ac-head"><div class="ac-eyebrow"><span aria-hidden="true">${icon(g.id)}</span> ${t("practice")}</div><h1 tabindex="-1">${esc(g.title)}</h1>
+    setHead({ title: `${gameTitle(g)} — ${u("practice")} — ${u("academy_name")}`, desc: gameDesc(g) || u("practice_lead"), index: g.index === "always", langs: LANGS });
+    const head = `${crumbs([home(), { label: u("practice"), url: href("practice/") }, { label: gameTitle(g) }])}<header class="ac-head"><div class="ac-eyebrow"><span aria-hidden="true">${icon(g.id)}</span> ${t("practice")}</div><h1 tabindex="-1">${esc(gameTitle(g))}</h1>
       ${gameDesc(g) ? `<p class="ac-lead">${esc(gameDesc(g))}</p>` : ""}
       ${g.xp === false && (g.known_issues || []).length ? `<p class="ac-note">${t("practice_known_issue")}</p>` : ""}</header>`;
-    if (g.external) return `${head}<p><a class="ac-btn primary" href="${esc(extUrl(g))}">${esc(g.title)} ↗</a></p>${trainerStatus()}`;
+    if (g.external) return `${head}<p><a class="ac-btn primary" href="${esc(extUrl(g))}">🎯 ${esc(gameTitle(g))} →</a></p>${trainerStatus()}`;
     if (g.later) return `${head}<p class="ac-note">${t("practice_soon")}</p>`;
-    after(() => GAMES[id] && GAMES[id]($("acGame"), g));
+    after(() => { if (!GAMES[id]) return; if (!VIEW.statGame) { VIEW.statGame = 1; stat("game_start", id); } gameStart(g); GAMES[id]($("acGame"), g); });
     return `${head}<div id="acGame" class="ac-game-host"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
   }
   function trainerStatus() { const tr = trainer(); if (!tr || !tr.stats) return "";
@@ -616,26 +683,60 @@
   const gameXP = g => g.xp !== false && !g.later;
   const xpCfg = () => (CAT.levels && CAT.levels.xp) || {};
   function answerXP(g, right) { const gain = P.gameAnswer(S, g.id, right, { xp: gameXP(g), per: xpCfg().game_correct || 5, cap: xpCfg().game_day_cap || 50 }); save(); if (gain) { toast(u("xp_gain", { n: gain })); renderTop(); } }
-  function roundEnd(g, ok, n) { P.gameRound(S, g.id, ok, n); const res = refreshProgress(); renderTop(); celebrate(res); }
-  /* Generic multiple-choice round: items [{q (html), options [text], answer index, why (text), before?(host)}] */
+  function roundEnd(g, ok, n) { stat("game_end", n ? `${g.id}:${ok}/${n}` : g.id); P.gameRound(S, g.id, ok, n); const res = refreshProgress(); renderTop(); celebrate(res); }
+  /* ---- A game round survives leaving the page (audit "newbie-practice-no-resume"), like a test of the rules trainer: a reader who
+     follows "Де це в правилах" and comes back continues the same round. Kept per game for 24 h in localStorage
+     "clayarena-academy-round" = {<game id>: {lang, ts, sig, k, ok, picked, view, items}} — only in the language it was played in;
+     sig = the game's filters (discipline, topic, mode: another filter starts a new round), view = those filters to restore,
+     k = current question, ok = right answers so far, picked = the answer to question k (null = not answered yet), items = the
+     questions as built by the game (HTML, options, answer, explanation) with "sd", a descriptor of their animation
+     ({flight: <ClaySims.FLIGHTS key>} | {mount: <sim>}), instead of the function "before". Term cards use the same entry with
+     items = the card ids of the session, k = current card, flip = card turned, own = cards from the reader's lessons. The end of
+     the round and "Ще раз" clear it. From the start of a game the project bar offers the way back (ClayNav.setResume, section "learn").
+     Production: the same JSON in the user profile (or the session), never a server round-trip per answer. */
+  const ROUNDS = "clayarena-academy-round";
+  const rounds = {
+    all() { try { return JSON.parse(localStorage.getItem(ROUNDS) || "{}") || {}; } catch (e) { return {}; } },
+    get(id, sig) { const r = this.all()[id];
+      return r && r.lang === LANG && Date.now() - r.ts < 864e5 && (sig == null || r.sig === sig) && Array.isArray(r.items) && r.k < r.items.length ? r : null; },
+    set(id, v) { if (!PERSIST) return; try { const a = this.all(); a[id] = Object.assign({ lang: LANG, ts: Date.now() }, v); localStorage.setItem(ROUNDS, JSON.stringify(a)); } catch (e) {} },
+    clear(id) { try { const a = this.all(); if (a[id]) { delete a[id]; localStorage.setItem(ROUNDS, JSON.stringify(a)); } } catch (e) {} } };
+  /* interface strings added for the navigation (content/academy/ui/<lang>.json "nav_*"); a build without them shows the fallback */
+  const un = (k, fb, vars) => (U[k] != null ? u(k, vars) : fb);
+  const simBefore = sd => !sd || !window.ClaySims ? null
+    : sd.flight ? box => { box.innerHTML = `<button type="button" class="ac-btn">▶ ${t("animation_show")}</button>`; const go = () => ClaySims.flightSim(box, sd.flight, { hideName: true }); if (reduceMotion()) box.firstChild.onclick = go; else go(); }
+    : sd.mount ? box => { box.innerHTML = `<button type="button" class="ac-btn">▶ ${t("animation_show")}</button>`; box.firstChild.onclick = () => ClaySims.mount(box, sd.mount); } : null;
+  const gameResume = (g, k, n) => { if (window.ClayNav) ClayNav.setResume({ section: "learn", label: `${u("academy_name")} · ${gameTitle(g)}${n ? ` · ${u("question")} ${k + 1}/${n}` : ""}`, url: location.href.replace(/#.*$/, "") }); };
+  /* Start of a game page: restore the filters of a saved round (so the game rebuilds the same round) and set the way back. */
+  function gameStart(g) { const r = rounds.get(g.id); if (r && r.view) Object.assign(VIEW, r.view); gameResume(g, 0, 0); }
+  /* Generic multiple-choice round: items [{q (html), options [text], answer index, why (html), before?(host), sd?}];
+     opts {again, sig, view}: see "rounds" above. */
   function mcRound(host, g, items, opts = {}) {
-    let k = 0, ok = 0;
-    const draw = () => { const it = items[k];
+    const sig = opts.sig == null ? "" : String(opts.sig), sv = rounds.get(g.id, sig);
+    if (sv) { items = sv.items.map(it => Object.assign({}, it, { before: simBefore(it.sd) })); if (sv.k || sv.picked != null) toast(un("nav_round_resumed", `${u("question")} ${sv.k + 1} ${u("of")} ${items.length}`, { n: sv.k + 1, t: items.length })); }
+    let k = sv ? sv.k : 0, ok = sv ? sv.ok : 0, picked = sv && sv.picked != null ? sv.picked : null;
+    delete host.dataset.locked;
+    const keep = () => rounds.set(g.id, { sig, k, ok, picked, view: opts.view || null,
+      items: items.map(it => ({ q: it.q, options: it.options, answer: it.answer, why: it.why || "", sd: it.sd || null })) });
+    /* show the answer j to question k; fresh = given just now (counts, XP, saved), else restored from the saved round */
+    const reveal = (b, j, fresh) => { const it = items[k], right = j === it.answer; host.dataset.locked = "1";
+      if (fresh) { if (right) ok++; answerXP(g, right); picked = j; keep(); }
+      host.querySelectorAll(".ac-opt").forEach(x => { x.setAttribute("aria-disabled", "true"); if (+x.dataset.j === it.answer) x.classList.add("right"); }); if (!right && b) b.classList.add("wrong");
+      host.querySelector(".ac-explain").innerHTML = `<b>${right ? t("correct") : t("wrong")}</b> ${it.why || ""}<p><button type="button" class="ac-btn primary" data-k="next">${k + 1 < items.length ? t("next") : t("game_finish")} →</button></p>`;
+      const nb = host.querySelector('[data-k="next"]'); if (fresh) nb.focus();
+      nb.onclick = () => { delete host.dataset.locked; try { ClaySims.stopSims(); } catch (e) {} k++; picked = null; if (k < items.length) { keep(); draw(); } else end(); }; };
+    const draw = () => { const it = items[k]; gameResume(g, k, items.length);
       host.innerHTML = `${bar(k, items.length, g.title)}<div class="ac-q"><p class="ac-meta">${t("question")} ${k + 1} ${t("of")} ${items.length}</p>${it.before ? '<div class="ac-qsim"></div>' : ""}<p class="ac-qtext">${it.q}</p>
         <div class="ac-opts">${it.options.map((o, j) => `<button type="button" class="ac-opt" data-j="${j}">${esc(o)}</button>`).join("")}</div><div class="ac-explain" aria-live="polite"></div></div>`;
       if (it.before) it.before(host.querySelector(".ac-qsim"));
-      host.querySelectorAll(".ac-opt").forEach(b => b.onclick = () => { if (host.dataset.locked) return; host.dataset.locked = "1";
-        const j = +b.dataset.j, right = j === it.answer; if (right) ok++; answerXP(g, right);
-        host.querySelectorAll(".ac-opt").forEach(x => { x.setAttribute("aria-disabled", "true"); if (+x.dataset.j === it.answer) x.classList.add("right"); }); if (!right) b.classList.add("wrong");
-        host.querySelector(".ac-explain").innerHTML = `<b>${right ? t("correct") : t("wrong")}</b> ${it.why || ""}<p><button type="button" class="ac-btn primary" data-k="next">${k + 1 < items.length ? t("next") : t("game_finish")} →</button></p>`;
-        const nb = host.querySelector('[data-k="next"]'); nb.focus();
-        nb.onclick = () => { delete host.dataset.locked; try { ClaySims.stopSims(); } catch (e) {} k++; if (k < items.length) draw(); else end(); }; });
+      host.querySelectorAll(".ac-opt").forEach(b => b.onclick = () => { if (host.dataset.locked) return; reveal(b, +b.dataset.j, true); });
+      if (picked != null) reveal(host.querySelector(`.ac-opt[data-j="${picked}"]`), picked, false);
     };
-    const end = () => { roundEnd(g, ok, items.length);
+    const end = () => { rounds.clear(g.id); if (window.ClayNav) ClayNav.clearResume("learn"); roundEnd(g, ok, items.length);
       host.innerHTML = `<div class="ac-result ${ok / items.length >= .8 ? "pass" : ""}"><div class="ac-score">${ok} / ${items.length}</div></div><p><button type="button" class="ac-btn primary" data-k="again">${t("play_again")}</button> <a class="ac-btn" href="${href("practice/")}" data-nav>${t("practice")}</a></p>`;
-      host.querySelector('[data-k="again"]').onclick = () => (opts.again || (() => GAMES[g.id](host, g)))(); };
+      host.querySelector('[data-k="again"]').onclick = () => { rounds.clear(g.id); (opts.again || (() => GAMES[g.id](host, g)))(); }; };
     if (!items.length) { host.innerHTML = `<p class="ac-note">${t("game_need_more")}</p>`; return; }
-    draw();
+    keep(); draw();
   }
   function simsConfig(termsList) {
     if (!window.ClaySims) return;
@@ -669,9 +770,9 @@
       const names = [...new Set(keys.map(name))];
       const items = shuffle(keys).slice(0, 10).map(k => { const right = name(k), opts = shuffle([right, ...shuffle(names.filter(n => n !== right)).slice(0, 3)]);
         const x = GLO.ready && GLO.term(F[k].term);
-        return { q: t("which_flight"), options: opts, answer: opts.indexOf(right), why: x ? esc(x.short) : "", before: box => { box.innerHTML = `<button type="button" class="ac-btn" data-k="launch">▶ ${t("animation_show")}</button>`;
+        return { q: t("which_flight"), options: opts, answer: opts.indexOf(right), why: x ? esc(x.short) : "", sd: { flight: k }, before: box => { box.innerHTML = `<button type="button" class="ac-btn" data-k="launch">▶ ${t("animation_show")}</button>`;
           const go = () => { ClaySims.flightSim(box, k, { hideName: true }); }; if (reduceMotion()) box.firstChild.onclick = go; else go(); } }; });
-      mcRound(host, g, items); },
+      mcRound(host, g, items, { sig: "" }); },
     /* Understand / translate the coach: phrases of the lessons of one block; "meaning" (shooter) or "translate" (interpreter). */
     async "translate-the-coach"(host, g) {
       const sel = VIEW.block || "stand-talk", mode = LANG === "en" ? "meaning" : VIEW.mode || (S.routes.current === "interpreter" ? "translate" : "meaning");
@@ -683,13 +784,13 @@
       const items = vals.length < 4 ? [] : shuffle(pool).slice(0, 10).map(p => { const opts = shuffle([p[field], ...shuffle(vals.filter(v => v !== p[field])).slice(0, 3)]);
         return { q: `<span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span> <q lang="en">${esc(p.en)}</q> ${"speechSynthesis" in window ? `<button type="button" class="ac-btn ac-say" data-say="${esc(p.en)}">🔊 ${t("listen")}</button>` : ""}<br>${t(mode === "translate" ? "which_say" : "which_meaning")}`,
           options: opts, answer: opts.indexOf(p[field]), why: esc(mode === "translate" ? p.meaning : p.say || "") }; });
-      mcRound(host.querySelector(".ac-round"), g, items, { again: () => GAMES[g.id](host, g) }); },
+      mcRound(host.querySelector(".ac-round"), g, items, { again: () => GAMES[g.id](host, g), sig: sel + ":" + mode, view: { block: sel, mode } }); },
     /* Referee's call: "decision" questions of the rules trainer bank (one bank for the trainer and the Academy), with its
        translations and animations; discipline filter. Options are shuffled by index (the i18n overlays keep the data order). */
     async "referees-call"(host, g) {
       const disc = VIEW.rdisc || S.disc;
       host.innerHTML = `<div class="ac-filters"><label class="ac-inline">${t("my_discipline")} <select data-k="disc">${["both", "sporting", "compak"].map(d => `<option value="${d}"${d === disc ? " selected" : ""}>${discName(d)}</option>`).join("")}</select></label></div><div class="ac-round"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
-      host.querySelector('[data-k="disc"]').onchange = e => { VIEW.rdisc = e.target.value; GAMES[g.id](host, g); };
+      host.querySelector('[data-k="disc"]').onchange = e => { VIEW.rdisc = e.target.value; stat("disc", e.target.value); GAMES[g.id](host, g); };
       try { await loadScript(SITE + "rules/data/quiz-sporting.js"); await loadScript(SITE + "rules/data/quiz-compak.js"); } catch (e) { host.querySelector(".ac-round").innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
       let ov = { questions: {} }; if (!["uk", "en"].includes(LANG)) { try { ov = await getJSON(`${SITE}rules/data/i18n/quiz-${LANG}.json`); } catch (e) {} }
       const bank = (window.RULES_QUIZ || []).filter(b => disc === "both" || b.key === disc).flatMap(b => b.questions.filter(q => q.type === "decision").map(q => Object.assign({ book: b.key }, q)));
@@ -699,21 +800,30 @@
         const refs = (q.refs || []).map(id => { const ch = /^ch(\d+)/.exec(id); return `<a href="${rulesUrl(q.book, id)}">${discName(q.book)}${ch ? " · " + t("rule_chapter", { n: ch[1] }) : ""}</a>`; }).join(", ");
         return { q: `<span class="ac-chip ac-disc-${q.book}">${discName(q.book)}</span> ${esc(tr(q, "q"))}`, options: ord.map(txt), answer: ord.indexOf(q.answer),
           why: `${esc(tr(q, "explain"))}${refs ? `<br><span class="ac-muted">${t("rules_where")}:</span> ${refs}` : ""}`,
-          before: q.sim && SIM_TYPES.includes(q.sim.type) ? box => { box.innerHTML = `<button type="button" class="ac-btn">▶ ${t("animation_show")}</button>`; box.firstChild.onclick = () => ClaySims.mount(box, q.sim); } : null }; });
-      mcRound(host.querySelector(".ac-round"), g, items, { again: () => GAMES[g.id](host, g) }); },
+          sd: q.sim && SIM_TYPES.includes(q.sim.type) ? { mount: q.sim } : null, before: q.sim && SIM_TYPES.includes(q.sim.type) ? box => { box.innerHTML = `<button type="button" class="ac-btn">▶ ${t("animation_show")}</button>`; box.firstChild.onclick = () => ClaySims.mount(box, q.sim); } : null }; });
+      mcRound(host.querySelector(".ac-round"), g, items, { again: () => GAMES[g.id](host, g), sig: disc, view: { rdisc: disc } }); },
     /* Term cards: Leitner boxes on this device (box 1 = every day … box 5 = every 16 days). Terms of the lessons done
-       (else of all glossary terms); "50 термінів" = 50 cards in box 3 or higher. */
+       (else of all glossary terms); "50 термінів" = 50 cards in box 3 or higher.
+       The session (12 card ids, current card k, card turned or not) is kept in the same "rounds" store as the quiz games
+       (items = the card ids): a reader who opens "Сторінка в глосарії →" of a card and comes back by the project bar continues
+       at the same card. The box/due date of each card is saved separately in S.cards (progress.js), as before. */
     async "term-cards"(host, g) {
       host.innerHTML = `<p class="ac-muted" aria-busy="true">${t("loading")}</p>`;
       try { await GLO.load(); } catch (e) { host.innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
-      const doneIds = Object.keys(S.done).filter(avail).slice(-40), data = await lessonsData(doneIds);
-      let ids = [...new Set(data.flatMap(([, d]) => (d.terms || []).map(x => x.id)))].filter(id => GLO.T[id]), own = ids.length >= 8;
-      if (!own) ids = Object.keys(GLO.T);
-      const day = today(), due = ids.filter(id => S.cards[id] && S.cards[id].due <= day), fresh = shuffle(ids.filter(id => !S.cards[id]));
-      const session = shuffle(due).concat(fresh).slice(0, 12), learnt = Object.values(S.cards).filter(c => c.box >= 3).length;
-      const DAYS = [0, 1, 2, 4, 8, 16];
-      let k = 0; const show = flip => { const id = session[k], x = GLO.term(id), c = S.cards[id];
+      const learnt = Object.values(S.cards).filter(c => c.box >= 3).length, DAYS = [0, 1, 2, 4, 8, 16];
+      const sv = rounds.get(g.id, "");
+      let session, own, k = 0;
+      if (sv) { session = sv.items.filter(id => typeof id === "string"); own = !!sv.own; k = Math.min(sv.k || 0, session.length);
+        if (k || sv.flip) toast(un("nav_round_resumed", `${k + 1}/${session.length}`, { n: k + 1, t: session.length })); }
+      else { const doneIds = Object.keys(S.done).filter(avail).slice(-40), data = await lessonsData(doneIds);
+        let ids = [...new Set(data.flatMap(([, d]) => (d.terms || []).map(x => x.id)))].filter(id => GLO.T[id]); own = ids.length >= 8;
+        if (!own) ids = Object.keys(GLO.T);
+        const day = today(), due = ids.filter(id => S.cards[id] && S.cards[id].due <= day), fresh = shuffle(ids.filter(id => !S.cards[id]));
+        session = shuffle(due).concat(fresh).slice(0, 12); }
+      const keep = flip => rounds.set(g.id, { sig: "", k, flip: !!flip, own, items: session });
+      const show = flip => { const id = session[k], x = GLO.term(id), c = S.cards[id];
         if (!x) { k++; return k < session.length ? show(false) : fin(); }
+        keep(flip); gameResume(g, k, session.length);
         host.innerHTML = `<p class="ac-meta">${t(own ? "cards_source" : "cards_source_all")} · ${t("cards_learnt", { n: learnt })} · ${k + 1}/${session.length}${c ? ` · ${t("cards_box", { n: c.box })}` : ""}</p>
           <div class="ac-flash"><p class="ac-flash-en" lang="en">${esc(x.en)}</p>${"speechSynthesis" in window ? `<button type="button" class="ac-btn ac-say" data-say="${esc(x.en)}">🔊 ${t("listen")}</button>` : ""}
           ${flip ? `<p class="ac-flash-local"><b>${esc(x.local)}</b></p><p>${esc(x.short)}</p><p><a href="${x.url}">${t("glossary_page")} →</a></p>
@@ -724,9 +834,10 @@
         const grade = know => { const cur = S.cards[id] || { box: 0 }, box = know ? Math.min(5, cur.box + 1) : 1, d = new Date(); d.setDate(d.getDate() + (know ? DAYS[box] : 0));
           S.cards[id] = { box, due: P.today(d) }; answerXP(g, know); k++; if (k < session.length) show(false); else fin(); };
         q("know").onclick = () => grade(true); q("again").onclick = () => grade(false); q("know").focus(); };
-      const fin = () => { roundEnd(g, 0, 0); host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p><p><button type="button" class="ac-btn primary" data-k="more">${t("play_again")}</button></p>`; host.querySelector('[data-k="more"]').onclick = () => GAMES[g.id](host, g); };
-      if (!session.length) { host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p>`; return; }
-      show(false); },
+      const fin = () => { rounds.clear(g.id); if (window.ClayNav) ClayNav.clearResume("learn"); roundEnd(g, 0, 0);
+        host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p><p><button type="button" class="ac-btn primary" data-k="more">${t("play_again")}</button></p>`; host.querySelector('[data-k="more"]').onclick = () => { rounds.clear(g.id); GAMES[g.id](host, g); }; };
+      if (!session.length) { rounds.clear(g.id); host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p>`; return; }
+      show(!!(sv && sv.flip)); },
     /* Phrasebook: the phrases of one block as a list to listen to and print. No XP. */
     async phrasebook(host, g) { const sel = VIEW.block || "stand-talk";
       host.innerHTML = `<div class="ac-filters">${blockFilter(sel)} <button type="button" class="ac-btn" data-k="print">🖨 ${t("print")}</button></div><div class="ac-pb"><p class="ac-muted" aria-busy="true">${t("loading")}</p></div>`;
@@ -805,8 +916,8 @@
   /* ================================ 13. Events ================================ */
   document.addEventListener("click", e => {
     const a = e.target.closest("a[href]");
-    if (a && a.dataset.route) { S.routes.current = a.dataset.route; save(); }
-    if (a && a.closest(".ac-langs, .ac-banner") && LANGS.includes(a.getAttribute("hreflang"))) { S.lang = a.getAttribute("hreflang"); save(); } // the reader chose a language
+    if (a && a.dataset.route) { if (S.routes.current !== a.dataset.route) stat("route", a.dataset.route); S.routes.current = a.dataset.route; save(); }
+    if (a && a.closest(".ac-langs, .ac-banner") && LANGS.includes(a.getAttribute("hreflang"))) { S.lang = a.getAttribute("hreflang"); save(); stat("lang", S.lang); visitorLang(S.lang); } // the reader chose a language
     if (a && a.hasAttribute("data-nav") && !e.defaultPrevented && e.button === 0 && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey && !a.target) {
       const url = new URL(a.href, location.href);
       if (url.origin === location.origin && url.href.startsWith(SITE) && parseLoc(url.href).lang === LANG && /\/learn\//.test(url.pathname)) {
@@ -816,9 +927,10 @@
     if (b.dataset.say) { say(b.dataset.say); return; }
     if (b.getAttribute("aria-disabled") === "true") return;
     const act = b.dataset.act, v = b.dataset.v;
-    if (act === "disc") { S.disc = v; save(); rerender(); const nb = document.querySelector(`[data-act="disc"][data-v="${v}"]`); if (nb) nb.focus(); return; }
+    if (act === "disc") { if (S.disc !== v) stat("disc", v); S.disc = v; save(); rerender(); const nb = document.querySelector(`[data-act="disc"][data-v="${v}"]`); if (nb) nb.focus(); return; }
     if (act === "langoff") { S.lang_hint_off = true; save(); b.closest(".ac-banner").remove(); return; }
-    if (act === "setroute") { S.routes.current = v; save(); rerender(); toast(u("route_current")); return; }
+    if (act === "langgo") { const sel = $("acLang"); if (sel) goLang(sel.value); return; }
+    if (act === "setroute") { if (S.routes.current !== v) stat("route", v); S.routes.current = v; save(); rerender(); toast(u("route_current")); return; }
     if (act === "say") { const p = (VIEW.phr || [])[+v]; if (p) say(p.en); return; }
     if (act === "sim") { const sim = VIEW.sims && VIEW.sims[v], host = $("sim-" + v); if (sim && host && window.ClaySims) { b.remove(); ClaySims.mount(host, sim); } return; }
     if (act === "ans") { onAnswer(b.dataset.q, v); return; }
@@ -840,7 +952,10 @@
   });
   document.addEventListener("input", e => { if (e.target.id === "acQ") { VIEW.q = e.target.value; const r = $("acQR"); if (r) r.innerHTML = searchResults(VIEW.q);
       if (!GLO.ready && VIEW.q.trim().length >= 2) GLO.load().then(() => { const r2 = $("acQR"); if (r2) r2.innerHTML = searchResults(VIEW.q); }).catch(() => {}); } });
-  document.addEventListener("change", e => { if (e.target.id === "acLang") { const l = e.target.value; S.lang = l; save(); location.href = urlInLang(l); } });
+  document.addEventListener("change", e => { if (e.target.id === "acLang") langSelChange(e.target); });
+  document.addEventListener("keydown", langSelKey);
+  document.addEventListener("pointerdown", e => { if (e.target.id === "acLang") delete e.target.dataset.kbd; });
+  document.addEventListener("focusin", e => { if (e.target.id === "acLang") delete e.target.dataset.kbd; });
   function onAnswer(qk, ok) {
     VIEW.ans = VIEW.ans || {}; if (VIEW.ans[qk] != null) return; VIEW.ans[qk] = ok;
     const qs = (VIEW.data && VIEW.data.quiz) || [];
@@ -850,7 +965,9 @@
     const fs = btn && btn.closest(".ac-q"); if (fs) { const ex = fs.querySelector(".ac-explain"); if (ex) announce(ex.textContent); }
   }
   function finish(id, score) {
-    const c = L(id), x0 = xp().total, res = P.finishLesson(S, id, score, c.rev);
+    const c = L(id), x0 = xp().total, res = P.finishLesson(S, id, score, c.rev), nq = ((VIEW.data && VIEW.data.quiz) || []).length;
+    if (res.first) stat("lesson_done", id);
+    if (nq) stat("quiz", `${id}:${score}/${nq}`);
     const pr = refreshProgress(), gain = xp().total - x0;
     if (res.first) toast(`${u("lesson_done")} · ${u("quiz_score", { n: score, t: ((VIEW.data && VIEW.data.quiz) || []).length || 0 })}${gain ? " · " + u("xp_gain", { n: gain }) : ""}`);
     else if (gain) toast(u("xp_gain", { n: gain }));

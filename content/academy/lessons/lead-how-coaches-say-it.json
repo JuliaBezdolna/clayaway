@@ -152,7 +152,9 @@
         "preset": "crosser-rl",
         "focus": "lead-units"
       },
-      "ready": false
+      "ready": true,
+      "en": "Take the shot yourself: the result gives the lead in metres, feet and target widths, and how small that gap looks at the muzzle.",
+      "uk": "Спробуйте вистрілити самі: результат покаже винос у метрах, футах і ширинах мішені та те, яким малим цей проміжок виглядає біля дульного зрізу."
     }
   ],
   "note": [],
@@ -441,8 +443,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Animation lead-how-coaches-say-it-sim stays ready:false until the lead lab findings S-01, S-03, S-11 and S-12 are fixed and the preset is checked against the text (crosser right to left, lead in feet).",
-      "Audit I-12 (two o’clock without a direction) is fixed in the master (phrase ph5, tip lead-how-coaches-say-it-clock, exam question q4); update the 9 overlays of ph5."
+      "Overlays, animation caption of 2026-10-07: body.lead-how-coaches-say-it-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_lead)."
     ]
   }
 }

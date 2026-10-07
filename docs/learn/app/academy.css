@@ -176,6 +176,15 @@ details[open]>summary::after{content:"▴"}
 .ac-ev-coaches{color:var(--cp);border-color:rgba(167,139,250,.5)}
 .ac-sim,.ac-figure{margin:16px 0}
 .ac-sim figcaption,.ac-figure figcaption{font-size:13.5px;color:var(--muted);margin-top:6px}
+/* the lesson's animation (academy.js simHero): big, right after the first paragraph; a bit wider than the text on wide screens */
+.ac-anim{margin:20px 0 26px;padding:14px 16px 16px;border:1px solid rgba(52,211,153,.35);border-radius:16px;background:linear-gradient(160deg,rgba(5,150,105,.14),transparent 55%),var(--surface2);min-width:0}
+.ac-anim-h{font-size:19px;font-weight:700;color:var(--em);margin:0 0 2px;max-width:none}
+.ac-anim .cs-sim{margin:10px 0 0}
+.ac-anim .cs-tabs{margin:8px 0 -4px}
+.ac-anim-w{font-size:15px;line-height:1.55;color:var(--soft);margin-top:10px}
+/* only where main#app has a free side margin (1040 px + 2 × 30 px), so the wider box is never cut at the left edge of the window */
+@media (min-width:1100px){.ac-lesson .ac-anim{margin-left:-24px;margin-right:-24px;padding:16px 24px 18px}}
+.ac-animark{color:var(--em);font-weight:600;white-space:nowrap}
 .ac-figure img{border-radius:12px;display:block}
 .ac-kp{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 18px;margin:18px 0}
 .ac-kp h2{margin:0 0 6px;font-size:18px}

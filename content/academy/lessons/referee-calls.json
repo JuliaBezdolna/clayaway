@@ -155,9 +155,17 @@
       "k": "referee-calls-sim",
       "t": "sim",
       "sim": {
-        "type": "call"
+        "type": "call",
+        "kind": "signal",
+        "also": [
+          "signal-late",
+          "manual",
+          "sonopull"
+        ]
       },
-      "ready": false
+      "ready": true,
+      "en": "“Pull!”, the referee's sound signal to the trapper, the clock, and “No Bird” for a target that comes too late.",
+      "uk": "«Pull!», звуковий сигнал судді операторові машинки, годинник і «No Bird» для мішені, що вилетіла запізно."
     }
   ],
   "note": [
@@ -423,10 +431,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Animation referee-calls-sim (type “call”) stays ready:false: sims.js shows nothing for this type yet (build warning sim-no-animation).",
-      "Overlays (9 languages): the interpreter advice of the old referee-calls-p4 is now the note referee-calls-n1; retranslate p4 and add the note.",
-      "Overlays (9 languages), fact clean-up of 2026-10-07 (one number in one place): referee-calls-p1 now use the shared fact tokens of the rules/gear/community blocks instead of duplicate facts or written-out numbers. The meaning is unchanged, so check the wording and re-sign the hash.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in referee-calls-ph6, referee-calls-kp4 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, animation caption of 2026-10-07: body.referee-calls-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_call)."
     ]
   }
 }

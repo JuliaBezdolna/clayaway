@@ -487,7 +487,7 @@
     "tasks": [
       "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the doctor (sports medicine) named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
       "Specialist check of the evidence badges: interventions (light timing p5, shifting sleep before the flight p6, naps, coffee, melatonin p9, easy first days p10, organiser tip) are all \"little\", because the consensus statement (doi 10.1007/s40279-021-01502-0) calls the evidence for jet-lag interventions low quality; descriptions (p1-p3, east harder than west) are \"some\". Confirm or change these levels as one set, not one by one.",
-      "Glossary: the term travel-fatigue is not in the glossary yet (it was not among the ids added on 2026-10-07). When it is added to docs/glossary/data/learn_terms.js (+ i18n), add it to terms and link \"Tiredness from the journey itself\" / «Утома від самої дороги» in travel-jet-lag-p2. Proposed entry: en \"Travel fatigue\" — Tiredness from the journey itself: stiff muscles, lack of sleep, dry air; unlike jet lag, it is not about time zones. uk «Утома від дороги» — Утома від дороги: затерплі м’язи, недосипання, сухе повітря; на відміну від jet lag, не пов’язана з часовими поясами."
+      "Glossary: the term travel-fatigue is in docs/glossary/data/learn_terms.js now: add it to terms and link \"Tiredness from the journey itself\" / «Утома від самої дороги» in travel-jet-lag-p2 (the English changes, so update the 9 overlays of that paragraph)."
     ]
   }
 }

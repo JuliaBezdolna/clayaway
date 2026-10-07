@@ -112,8 +112,8 @@
         "focus": "follow-through"
       },
       "ready": true,
-      "en": "Animation: tick the option that stops the gun at the trigger, and the shot goes behind the target although the lead looked right.",
-      "uk": "Анімація: позначте варіант, за якого рушниця зупиняється на спуску, — і дріб піде позаду мішені, хоча винос виглядав правильно."
+      "en": "Tick the fault that stops the gun at the trigger: the shot goes behind, although the lead looked right.",
+      "uk": "Позначте помилку «зупинити рушницю на спуску»: дріб піде позаду, хоча винос виглядав правильно."
     }
   ],
   "note": [
@@ -425,7 +425,7 @@
     "basics-follow-through-p3": "a9df4a3c",
     "basics-follow-through-p4": "aaad772d",
     "technique-follow-through-and-mistakes-faults": "5ac3097f",
-    "basics-follow-through-sim": "7e2b2469",
+    "basics-follow-through-sim": "c19321c1",
     "basics-follow-through-p5": "101d3b8f",
     "basics-follow-through-kp1": "00ed7c22",
     "basics-follow-through-kp2": "01a5b235",
@@ -449,9 +449,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/technique-follow-through-and-mistakes.json (9 languages): translate again (meaning or audit fix changed): basics-follow-through-p2; moved from body to note, text unchanged: basics-follow-through-p5; no longer used (delete from the overlays): basics-follow-through-kp5, basics-follow-through-title.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-follow-through-and-mistakes.json (9 languages): translate again (meaning or wording changed for readers): summary, technique-follow-through-and-mistakes-q3, basics-follow-through-p4; re-sign the hash only (wording changed, meaning not): basics-follow-through-kp4.",
-      "Glossary (learn_terms.js, not a lesson file): follow-through uk_usage lists «проводка», but the lessons use «проводка» for the swing itself (follow-through = «продовження руху»): remove «проводка» from that uk_usage."
+      "Overlays, animation caption of 2026-10-07: body.basics-follow-through-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_follow)."
     ]
   }
 }

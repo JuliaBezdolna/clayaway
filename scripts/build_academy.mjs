@@ -11,7 +11,8 @@
                                  ui strings (11 languages), facts, laws, id-map, ids.lock, practice, levels, badges
      docs/glossary/data/         the ONE glossary (glossary.js, learn_terms.js, aliases.json, i18n/<lang>.js)
      docs/rules/data/            FITASC rules data (sporting.js, compak.js, categories.js): rule_refs are checked against it
-     docs/shared/sims.js         the animation registry (flight presets, pairs): unknown sim keys are build errors (audit S-09)
+     docs/shared/sims.js         the animation registry (flight presets, pairs, stand scenes, kind()): unknown sim keys are build errors
+                                 (audit S-09); a lesson's animation is shown big right after its first paragraph (heroOrder/heroOf)
      rules/pdf/*.txt             local FITASC text cache (never published): the 10-word verbatim check (audit R-01)
      docs/ (or --docs-root)      only to see which old pages still exist (transition: they stay in the sitemap until replaced)
 
@@ -79,18 +80,20 @@ const DISC_SHORT = { sporting: "Sporting™", compak: "Compak® Sporting" };
 const LANG_NAME = { en: "English", uk: "Українська", de: "Deutsch", fr: "Français", it: "Italiano", cs: "Čeština", pl: "Polski", pt: "Português", hu: "Magyar", fi: "Suomi", lt: "Lietuvių" };
 const CHAPTER = { en: "Chapter", uk: "Розділ", de: "Kapitel", fr: "Chapitre", it: "Capitolo" }; // others: glossary ui-<lang>.json "ch"
 // Texts of docs/shared/sims.js copied into docs/shared/sims-text.js (for pages outside the Academy: glossary, rules trainer).
+// Every ui key that starts with "anim_" is copied too (play / replay / slow motion, hero headings and captions, stand scenes).
 const SIM_KEYS = ["launch", "method", "m_maintained", "m_swing", "m_pullaway", "m_ambush", "speed", "distance", "demo", "try", "shoot", "hit", "behind", "ahead",
   "perceived", "actual", "lab_note", "decision", "shot_moment", "lead_word", "unit_m", "unit_ft", "unit_ms", "pair_report", "pair_sim", "pair_rafale", "listen",
   "no_shot", "at_muzzle", "compare", "how_maintained", "how_swing", "how_pullaway", "how_ambush", "stop_gun", "clay_widths", "unit_cm", "unit_in"];
 // What docs/shared/sims.js understands (S-09). Lead keys muzzle_start, gun_speed, trigger, follow_through only describe the method
-// in words (sims.js header); "call" mounts nothing. Flight presets and pair kinds are read from sims.js itself.
+// in words (sims.js header). Flight presets, pair kinds and stand scenes ("call": the call and the release, the Sporting™ ready
+// position, a misfire) are read from sims.js itself.
 const SIM_SPEC = {
   flight: { keys: ["type", "preset", "also", "pairs", "focus"], focus: ["points", "stance", "eyes"] },
   lead: { keys: ["type", "method", "preset", "focus", "stop", "muzzle_start", "gun_speed", "trigger", "follow_through"],
     method: ["maintained", "swing", "swing-through", "pullaway", "pull-away", "ambush"], preset: ["crosser-lr", "crosser-rl", "rabbit"],
     focus: ["perceived-vs-actual", "lead-units", "follow-through", "mount"] },
-  pair: { keys: ["type", "kind"] },
-  call: { keys: ["type"] }
+  pair: { keys: ["type", "kind", "also"] },
+  call: { keys: ["type", "kind", "also"] }
 };
 const GAME_DESC = { lead: "game_lead_d", flight: "game_flight_d", coach: "game_coach_d", call: "game_call_d", terms: "game_terms_d" }; // ui keys by legacy game id
 const P = l => (l === "uk" ? "" : l + "/");
@@ -250,8 +253,19 @@ export async function buildAcademy(o = {}) {
   for (const b of rw.RULES || []) { RULES[b.key] = new Map(); for (const s of b.sections) for (const it of s.items) RULES[b.key].set(it.id, { chapter: s.chapter, en: it.title_en, uk: it.title_uk }); }
   RULES.categories = new Map(((rw.FITASC_CATEGORIES || {}).categories || []).map(c => [c.id, { chapter: null, en: c.name_en, uk: c.name_uk || c.name_en }]));
   let SIMREG = null;
-  try { const s = runScripts([path.join(DOCS, "shared", "sims.js")]).ClaySims; SIMREG = { FLIGHTS: new Set(Object.keys(s.FLIGHTS)), PAIRS: new Set(Object.keys(s.PAIRS)) }; }
+  try { const s = runScripts([path.join(DOCS, "shared", "sims.js")]).ClaySims;
+    SIMREG = { FLIGHTS: new Set(Object.keys(s.FLIGHTS)), PAIRS: new Set(Object.keys(s.PAIRS)), SCENES: new Set(Object.keys(s.SCENES || {})), CALL: s.CALL || null, kind: s.kind || null }; }
   catch (e) { warn("sims-registry", `docs/shared/sims.js could not be read (${e.message}): animation presets are not checked`); }
+  // What an animation teaches (sims.js kind(): flight, points, eyes, stance, pair, lead, mount, follow, call, gunpos, misfire): it picks
+  // the heading "▶ <ui anim_h_<kind>>" and the generic caption anim_w_<kind> of the lesson's animation (see heroOf below).
+  const simKind = sim => { try { return (SIMREG && SIMREG.kind && SIMREG.kind(sim)) || "flight"; } catch (e) { return "flight"; } };
+  // The stand scenes draw two rule numbers (sims.js CALL); they must say what the facts the lessons use say (one number in one place).
+  if (SIMREG && SIMREG.CALL) {
+    const fx = id => (((facts[id] || {}).text || {}).en || "").trim(), lim = fx("rules.release-within-3s"), sono = fx("rules.sonopull-delay");
+    const sv = ({ "half a second": .5, "one second": 1 })[sono.toLowerCase()] ?? parseFloat(sono);
+    if (!new RegExp(`(^|\\D)${SIMREG.CALL.limit}(\\D|$)`).test(lim)) warn("sim-facts", `docs/shared/sims.js CALL.limit is ${SIMREG.CALL.limit} s, but the fact rules.release-within-3s says "${lim}": change one of them`);
+    if (sv !== SIMREG.CALL.sonopull) warn("sim-facts", `docs/shared/sims.js CALL.sonopull is ${SIMREG.CALL.sonopull} s, but the fact rules.sonopull-delay says "${sono}": change one of them`);
+  }
   const FC = lint.loadFitascCache(ROOT);
   if (!FC) warn("fitasc-cache-missing", "rules/pdf/*.txt not found: the 10-words-in-a-row FITASC check was skipped (keep the local cache; it is never published)");
 
@@ -405,7 +419,8 @@ export async function buildAcademy(o = {}) {
       if (sim.preset && !spec.preset.includes(sim.preset)) return `lead preset "${sim.preset}" is not in sims.js`;
       if (sim.focus && !spec.focus.includes(sim.focus)) return `lead focus "${sim.focus}" is not in sims.js`;
     }
-    if (sim.type === "pair" && SIMREG && !SIMREG.PAIRS.has(sim.kind)) return `pair kind "${sim.kind}" is not in sims.js`;
+    if (sim.type === "pair" && SIMREG) for (const k of [sim.kind, ...(sim.also || [])]) if (!SIMREG.PAIRS.has(k)) return `pair kind "${k}" is not in sims.js`;
+    if (sim.type === "call" && SIMREG) for (const k of [sim.kind || "signal", ...(sim.also || [])]) if (!SIMREG.SCENES.has(k)) return `stand scene "${k}" is not in sims.js (SCENES)`;
     return null;
   };
   const quizStats = { pos: {}, n: 0 };
@@ -467,8 +482,8 @@ export async function buildAcademy(o = {}) {
         if (!b.author || !b.license) E("figure-media", `figure ${b.k}: author and license are required`);
       }
       if (b.sim) { const p = simProblem(b.sim); if (p) E("sim-unknown", `animation ${b.k}: ${p} (audit S-09)`); }
-      if (b.t === "sim" && b.ready && b.sim && b.sim.type === "call") W("sim-no-animation", `animation ${b.k} has type "call", which shows nothing yet`);
     }
+    if ((m.body || []).filter(b => b.t === "sim" && b.ready).length > 1) W("sim-many", "more than one animation: the first is shown big near the top, the others stay where they are (one animation per lesson reads best)");
     const draftItems = [...(m.key_points || []), ...(m.phrases || []), ...(m.note || [])].filter(x => x.draft).length + (m.did_you_know && m.did_you_know.draft ? 1 : 0);
     if (drafts || draftItems) E("draft-block", `${drafts} draft blocks and ${draftItems} items with draft:true are left: merge them (design §3.3)`);
     for (const ev of m.evidence || []) {
@@ -740,6 +755,28 @@ export async function buildAcademy(o = {}) {
     return o.upd ? `<div class="st-upd" lang="en"><p class="st-upd-note" lang="${L}">${esc(S(L, "translation_updating"))}</p>${h}</div>` : h;
   }
 
+  /* ---------- the lesson's animation, shown big near the top (owner's decision, 10.2026) ----------
+     simShown(b): a sim block that is published (ready:true and a type, preset and keys that docs/shared/sims.js knows).
+     heroOrder(m): the body in display order — the first shown animation moves to just after the first paragraph (t:"p"); with no
+     paragraph it opens the lesson. The master keeps the editors' order; the page, the lesson JSON and the app all get this order.
+     Other animations of the same lesson (warning "sim-many") stay where they are.
+     heroOf(m, b, L, R): its heading ("▶ " + ui anim_h_<kind>, kind = sims.js kind()) and its one line of "what to watch": en/uk from the
+     master (b.en / b.uk); the 9 other languages from the overlay body[k] when it was translated from the current English (its hash),
+     else the generic caption of that kind (ui anim_w_<kind>, 11 languages). The page markup: figure.st-anim > p.st-anim-h + div.st-sim
+     (data-clay-sim) + figcaption; the app (academy.js simHero) draws the same from the lesson JSON (hero, kind, heading, html). */
+  const simShown = b => b.t === "sim" && !!b.ready && !simProblem(b.sim);
+  const heroOrder = m => { const body = (m.body || []).slice(), i = body.findIndex(simShown); if (i < 0) return body;
+    const [s] = body.splice(i, 1), p = body.findIndex(x => x.t === "p"); body.splice(p < 0 ? 0 : p + 1, 0, s); return body; };
+  function heroOf(m, b, L, R) {
+    const kind = simKind(b.sim), heading = S(L, "anim_h_" + kind);
+    let cap = L === "en" || L === "uk" ? b[L] : null;
+    if (!nonEmpty(cap) && OVERLAY_LANGS.includes(L)) { const ov = overlays[L].get(m.id), v = ov && (ov.body || {})[b.k]; if (nonEmpty(v) && nonEmpty(b.en) && (ov.h || {})[b.k] === sha8(b.en)) cap = v; }
+    const capHtml = nonEmpty(cap) ? inline(cap, R) : esc(S(L, "anim_w_" + kind)), hid = `anim-${b.k}`;
+    const html = `<figure class="st-anim" aria-labelledby="${esc(hid)}"${b.anchor ? ` id="${esc(b.anchor)}"` : ""}><p class="st-anim-h" id="${esc(hid)}"><span aria-hidden="true">▶</span> ${esc(heading)}</p><div class="st-sim" data-clay-sim="${esc(JSON.stringify(b.sim))}"></div><figcaption>${capHtml}</figcaption></figure>`;
+    return { kind, heading, cap: capHtml, html };
+  }
+  const animMark = L => `<span class="st-badge st-b-anim">▶ ${esc(S(L, "anim_marker"))}</span>`; // lesson cards of topic and route pages
+
   /* ---------- view(m, L): everything a lesson shows in language L (shared by the page and the lesson JSON) ---------- */
   const views = new Map();
   function view(m, L) {
@@ -755,11 +792,11 @@ export async function buildAcademy(o = {}) {
       }
       return { v: r.v };
     };
-    const push = (b, inner, html, t = {}) => { V.body.push({ b, inner, html, text: t.v, lang: t.lang || null, upd: !!t.upd }); if (b.anchor) V.anchors.add(b.anchor); };
+    const push = (b, inner, html, t = {}) => { V.body.push({ b, inner, html, text: t.v, lang: t.lang || null, upd: !!t.upd, hero: t.hero || null }); if (b.anchor) V.anchors.add(b.anchor); };
     const sum = valOf(m, { part: "summary", k: "summary", it: m.summary }, L);
-    for (const b of m.body || []) {
+    for (const b of heroOrder(m)) { // display order: the animation right after the first paragraph
       if (b.t === "draft" && !opt.draft) continue;
-      if (b.t === "sim") { if (b.ready && !simProblem(b.sim) && b.sim.type !== "call") { V.hasSim = true; push(b, "", `<div class="st-sim" data-clay-sim="${esc(JSON.stringify(b.sim))}"></div>`); } continue; }
+      if (b.t === "sim") { if (simShown(b)) { const h = heroOf(m, b, L, R); V.hasSim = true; push(b, h.cap, h.html, { hero: h }); } continue; }
       if (b.t === "law") { if (L === "en" || L === "uk") { const h = lawHtml(b, L); push(b, h, h); } else V.more++; continue; }
       if (b.t === "evidence") { push(b, "", `<p class="st-ev-line">${evBadge(L, b.level)}</p>`); continue; }
       if (b.t === "fact") { const t = factText(b.fact, L); if (t == null) { V.more++; continue; } const h = inline(t, R); push(b, h, `<div class="st-fact"${b.anchor ? ` id="${esc(b.anchor)}"` : ""}><p>${h}</p></div>`); continue; }
@@ -827,6 +864,7 @@ export async function buildAcademy(o = {}) {
 .st-stages>li{margin:18px 0}.st-soon{color:#9CA3AF}
 .st-cta{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.st-btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px;text-decoration:none;color:#F3F4F6}.st-btn.st-primary{background:#059669;border-color:#059669;color:#fff}
 .st figure{margin:16px 0}.st figure img{max-width:100%;height:auto;border-radius:12px}.st figcaption{font-size:12.5px;color:#9CA3AF}.st-more{font-size:14px;color:#9CA3AF!important}
+.st figure.st-anim{margin:22px 0;padding:14px 16px;border:1px solid rgba(52,211,153,.35);border-radius:14px;background:rgba(52,211,153,.05)}.st-anim-h{font-size:19px;font-weight:700;color:#34D399!important;margin:0 0 6px}.st-anim figcaption{font-size:14.5px;color:#D1D5DB}.st-b-anim{border-color:rgba(52,211,153,.55);color:#34D399}
 .st-foot{max-width:1040px;margin:0 auto;padding:14px 16px 56px;border-top:1px solid rgba(255,255,255,.1)}.st-foot p{font-size:12.5px;color:#9CA3AF}.st-foot a{color:#9CA3AF}
 @media print{.st-top,.st-langs,.st-cta{display:none}}`;
   const PAGES = new Map(); // site-relative file → {url, L, kind, html, title, h1, desc, index, alts, lesson, img}
@@ -837,7 +875,7 @@ export async function buildAcademy(o = {}) {
     const alts = pg.alts || [];
     const hreflang = alts.length ? alts.map(a => `<link rel="alternate" hreflang="${a.l}" href="${esc(a.url)}">`).join("\n") + (alts.some(a => a.l === "en") ? `\n<link rel="alternate" hreflang="x-default" href="${esc(alts.find(a => a.l === "en").url)}">` : "") : "";
     const crumbs = (pg.crumbs || []).map((c, i, a) => i < a.length - 1 && c.url ? `<a href="${esc(c.url)}">${esc(c.name)}</a>` : `<span>${esc(c.name)}</span>`).join(" › ");
-    const langs = alts.length > 1 ? `<nav class="st-langs" aria-label="${esc(S(L, "language"))}">${alts.map(a => `<a href="${esc(a.url)}" hreflang="${a.l}" lang="${a.l}"${a.l === L ? ' aria-current="true"' : ""}>${esc(LANG_NAME[a.l])}</a>`).join("")}</nav>` : "";
+    const langs = alts.length > 1 ? `<nav class="st-langs" aria-label="${esc(S(L, "language"))}">${alts.map(a => `<a href="${esc(a.url)}" hreflang="${a.l}" lang="${a.l}" data-setlang="${a.l}"${a.l === L ? ' aria-current="true"' : ""}>${esc(LANG_NAME[a.l])}</a>`).join("")}</nav>` : "";
     const robots = pg.index ? "index, follow, max-image-preview:large" : "noindex, follow";
     const html = `<!doctype html>
 <html lang="${L}">
@@ -862,7 +900,7 @@ ${(pg.ld || []).map(x => `<script type="application/ld+json">${JSON.stringify(x)
 <style>${CSS}</style>
 </head>
 <body data-academy="${esc(JSON.stringify(pg.data || {}))}">
-<header id="acTop"><div class="st-top"><nav class="st-crumbs" aria-label="Breadcrumbs">${crumbs}</nav><span class="st-sp"></span>${langs}</div></header>
+<header id="acTop"><div class="st-top"><nav class="st-crumbs" aria-label="${esc(S(L, "breadcrumbs"))}">${crumbs}</nav><span class="st-sp"></span>${langs}</div></header>
 <main id="app"><div class="st${pg.wide ? " st-wide" : ""}">
 ${pg.body}
 </div></main>
@@ -958,7 +996,7 @@ ${m.disclaimer === "medical" ? `<p class="st-small"><b>${esc(S(L, "not_medical_a
   const mins = (L, n) => n < 60 ? `${n} ${S(L, "min")}` : `${Math.floor(n / 60)} ${S(L, "hours_short")}${n % 60 ? ` ${n % 60} ${S(L, "min")}` : ""}`;
   const sumMin = ids => ids.reduce((n, id) => n + (lessons.get(id).minutes || 5), 0);
   const lessonCard = (L, id, starter) => { const m = lessons.get(id), V = view(m, L);
-    return `<li><a href="${esc(U.lesson(L, id))}">${esc(tm(V.title))}</a><div class="st-meta"><span>${m.minutes || 5} ${esc(S(L, "min"))}</span>${starter ? `<span class="st-badge st-b-star">★ ${esc(S(L, "start_here"))}</span>` : ""}${discBadges(m)}${routesOf(id).filter(r => built.route[r.id][L]).map(r => `<a class="st-badge" href="${esc(U.route(L, r.id))}">${esc(tm(SH.route(L, r, "title")))}</a>`).join("")}</div><p>${esc(tm(V.desc))}</p></li>`; };
+    return `<li><a href="${esc(U.lesson(L, id))}">${esc(tm(V.title))}</a><div class="st-meta"><span>${m.minutes || 5} ${esc(S(L, "min"))}</span>${starter ? `<span class="st-badge st-b-star">★ ${esc(S(L, "start_here"))}</span>` : ""}${V.hasSim ? animMark(L) : ""}${discBadges(m)}${routesOf(id).filter(r => built.route[r.id][L]).map(r => `<a class="st-badge" href="${esc(U.route(L, r.id))}">${esc(tm(SH.route(L, r, "title")))}</a>`).join("")}</div><p>${esc(tm(V.desc))}</p></li>`; };
   for (const b of blocks) for (const L of LANGS) {
     if (!built.block[b.id][L]) continue;
     const url = U.block(L, b.id), t = tm(SH.block(L, b, "title")), purpose = tm(SH.block(L, b, "purpose"));
@@ -966,7 +1004,7 @@ ${m.disclaimer === "medical" ? `<p class="st-small"><b>${esc(S(L, "not_medical_a
     const ids = blockLessons(b).filter(id => lessonBuilt(id, L));
     const sections = b.sections.map(s => { const list = s.lessons.filter(id => lessonBuilt(id, L)); if (!list.length) return ""; const starters = list.filter(id => (b.starters || []).includes(id)), deeper = list.filter(id => !(b.starters || []).includes(id));
       return `<section id="${s.id}"><h2>${esc(tm(SH.section(L, b, s)))}</h2><ol class="st-list">${[...starters, ...deeper].map(id => lessonCard(L, id, starters.includes(id))).join("")}</ol></section>`; }).join("\n");
-    const gm = (b.practice || []).map(g => gameById[g]).filter(g => g && (built.game[g.id][L] || g.external)).map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_exam"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("");
+    const gm = (b.practice || []).map(g => gameById[g]).filter(g => g && (built.game[g.id][L] || g.external)).map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_trainer"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("");
     const crumbs = [homeCrumb(L), { name: t, url }].filter(Boolean);
     const body = `<h1>${esc(t)}</h1><p class="st-lead">${esc(purpose)}</p><p class="st-meta"><span>${esc(nLessons(L, ids.length))}</span><span>≈ ${esc(mins(L, sumMin(ids)))}</span></p>
 ${sections}
@@ -983,13 +1021,13 @@ ${b.glossary_category ? `<p><a href="${esc(BASE + (L === "uk" ? "" : L + "/") + 
     if (!built.route[r.id][L]) continue;
     const url = U.route(L, r.id), t = tm(SH.route(L, r, "title")), forT = tm(SH.route(L, r, "for")), alts = LANGS.filter(l => built.route[r.id][l]).map(l => ({ l, url: U.route(l, r.id) }));
     const req = routeLessons(r), minutes = sumMin(req), disclaimer = SH.route(L, r, "disclaimer");
-    const item = id => lessonBuilt(id, L) ? `<li><a href="${esc(U.lesson(L, id))}">${esc(tm(view(lessons.get(id), L).title))}</a> <span class="st-small">· ${lessons.get(id).minutes || 5} ${esc(S(L, "min"))}</span></li>`
+    const item = id => lessonBuilt(id, L) ? `<li><a href="${esc(U.lesson(L, id))}">${esc(tm(view(lessons.get(id), L).title))}</a> <span class="st-small">· ${lessons.get(id).minutes || 5} ${esc(S(L, "min"))}</span>${view(lessons.get(id), L).hasSim ? " " + animMark(L) : ""}</li>`
       : (() => { const tl = lessonTitle(L, id); return `<li class="st-soon"${tl ? "" : ' lang="en"'}>${esc(tm(tl || lessonTitle("en", id) || id))} <span class="st-badge st-b-soon" lang="${L}">${esc(S(L, "draft_soon"))}</span></li>`; })();
     const stages = r.stages.map((st, i) => `<li id="${st.id}"><h2>${esc(S(L, "stage"))} ${i + 1}. ${esc(tm(SH.stage(L, r, st)))}</h2><p class="st-meta"><span>${esc(nLessons(L, st.lessons.length))}</span><span>≈ ${esc(mins(L, st.minutes || sumMin(st.lessons)))}</span></p><ol>${st.lessons.map(item).join("")}</ol></li>`).join("");
     const extras = (r.extras || []).length ? `<details><summary>${esc(S(L, "go_deeper"))}</summary><ul>${r.extras.map(item).join("")}</ul></details>` : "";
     const ex = (r.certificate || {}).exam || (r.badge_only || {}).quiz;
     // the rules trainer's short test (route "Перші змагання": mode "short", 10 questions, 80 %) opens with &mode=short
-    const pr = (r.practice || []).map(p => { const g = gameById[p.game]; if (!g) return ""; const name = g.external ? S(L, "rules_exam") : SH.game(L, g); const u = g.external ? U.trainer(L) + (p.mode ? `&mode=${encodeURIComponent(p.mode)}` : "") : built.game[g.id][L] ? U.practice(L, g.id) : null;
+    const pr = (r.practice || []).map(p => { const g = gameById[p.game]; if (!g) return ""; const name = g.external ? S(L, "rules_trainer") : SH.game(L, g); const u = g.external ? U.trainer(L) + (p.mode ? `&mode=${encodeURIComponent(p.mode)}` : "") : built.game[g.id][L] ? U.practice(L, g.id) : null;
       const need = g.external && p.mode === "short" ? ` · ${S(L, "req_rules_short", { n: p.n || 10, p: p.min_pct || 80 })}` : p.min_pct ? ` · ${p.min_pct}%` : p.min_score ? ` · ${p.min_score}/${p.of}` : ""; return `<li>${u ? `<a href="${esc(u)}">${esc(tm(name || g.id))}</a>` : esc(tm(name || g.id))}${esc(need)}</li>`; }).join("");
     const certTitle = SH.cert(L, r) || (r.certificate ? S(L, "cert_route", { route: t }) : S(L, "badge_only"));
     const cert = `<section id="certificate" class="st-box"><h2>${esc(tm(certTitle))}</h2>${ex ? `<p>${esc(S(L, "route_exam"))}: ${esc(S(L, "exam_conditions", { n: ex.n, pct: ex.pass_pct }))}</p>` : ""}${pr ? `<ul>${pr}</ul>` : ""}${r.certificate ? `<p class="st-small">${esc(S(L, "cert_disclaimer"))}${disclaimer ? " " + esc(disclaimer) : ""}</p>` : ""}${ex && built.exam[r.id][L] ? `<p><a class="st-btn" href="${esc(U.exam(L, r.id))}">${esc(S(L, "route_exam"))}</a></p>` : ""}</section>`;
@@ -1020,7 +1058,9 @@ ${cl.length && clTitle ? `<section class="st-box" id="checklist"><h2>${esc(tm(cl
     const pu = U.practice(L), pt = S(L, "practice"), alts = LANGS.filter(l => built.practice[l]).map(l => ({ l, url: U.practice(l) }));
     const list = games.filter(g => !g.later && (built.game[g.id][L] || g.external));
     const gameDesc = g => g.legacy && GAME_DESC[g.legacy] ? S(L, GAME_DESC[g.legacy]) : "";
-    const card = g => g.external ? `<a class="st-card" href="${esc(U.trainer(L))}"><b>${esc(S(L, "rules_exam"))}</b><span>${esc(S(L, "rules_trainer_link"))}</span></a>`
+    // the rules trainer is part of this Practice (owner decision 07.10.2026): «Тренажер правил», same name as the project bar
+    // (docs/shared/nav.js NAMES.trainer = ui "rules_trainer"), no "↗"
+    const card = g => g.external ? `<a class="st-card" href="${esc(U.trainer(L))}"><b>${esc(S(L, "rules_trainer"))}</b><span>${esc(S(L, "game_rules_exam_d"))}</span></a>`
       : `<a class="st-card" href="${esc(U.practice(L, g.id))}"><b>${esc(tm(SH.game(L, g)))}</b><span>${esc(tm(gameDesc(g)))}</span></a>`;
     const crumbs = [homeCrumb(L), { name: pt, url: pu }].filter(Boolean);
     const exams = routes.filter(r => built.exam[r.id][L]);
@@ -1058,7 +1098,7 @@ ${gb.length ? `<ul class="st-chips">${gb.map(bid => `<li><a href="${esc(U.block(
     const body = `<h1>${esc(S(L, "home_hero_h1"))}</h1><p class="st-lead">${esc(tm(S(L, "home_hero_lead")))}</p>
 <section id="h-who"><h2>${esc(S(L, "who_are_you"))}</h2><div class="st-cards">${rs.filter(r => r.primary).map(rcard).join("")}</div>${rs.some(r => !r.primary) ? `<h3>${esc(S(L, "more_routes"))}</h3><div class="st-cards">${rs.filter(r => !r.primary).map(rcard).join("")}</div>` : ""}</section>
 <section id="topics"><h2>${esc(S(L, "topics"))}</h2><div class="st-cards">${bs.map(bcard).join("")}</div></section>
-${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">${esc(S(L, "practice"))}</a></h2><ul class="st-chips">${gl.map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_exam"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("")}</ul></section>` : ""}
+${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">${esc(S(L, "practice"))}</a></h2><ul class="st-chips">${gl.map(g => `<li>${g.external ? `<a href="${esc(U.trainer(L))}">${esc(S(L, "rules_trainer"))}</a>` : `<a href="${esc(U.practice(L, g.id))}">${esc(tm(SH.game(L, g)))}</a>`}</li>`).join("")}</ul></section>` : ""}
 <p class="st-small">${esc(S(L, "saved_local"))}</p>`;
     shell({ kind: "home", L, url, title: tm(S(L, "home_title")), h1: S(L, "home_hero_h1"), desc, index: true, alts, ogType: "website", img: ogImg(L, "home"), wide: true,
       ld: [{ "@context": "https://schema.org", "@type": "CollectionPage", name: t, description: desc, url, inLanguage: L, publisher: ld.org,
@@ -1099,6 +1139,7 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
           index: b ? (lessonIndexed(m) ? "index" : "noindex") : null, review_flag: reviewFlag(m), disclaimer: m.disclaimer || null,
           title: b ? tm(view(m, L).title) : (lessonTitle(L, m.id) ? tm(lessonTitle(L, m.id)) : null), summary: b ? tm(view(m, L).desc) : null,
           url: b ? U.lesson(L, m.id) : null, data: b ? `lessons/${m.id}.json` : null, // data: relative to this catalog
+          ...(b && view(m, L).hasSim ? { anim: true } : {}), // the lesson opens with an animation: "▶ з анімацією" on its cards
           alt: LANGS.filter(l => lessonBuilt(m.id, l)) }]; })), // languages with a page (same set as hreflang); URL = /<p>learn/<id>/
       practice: games.map(g => ({ id: g.id, legacy: g.legacy || null, title: SH.game(L, g), description: g.legacy && GAME_DESC[g.legacy] ? S(L, GAME_DESC[g.legacy]) : null,
         url: g.external ? U.trainer(L) : built.game[g.id][L] ? U.practice(L, g.id) : null, index: g.index, xp: !!g.xp, known_issues: g.known_issues || [], blocks: g.blocks || [],
@@ -1117,7 +1158,7 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
       json(`learn/data/${L}/lessons/${m.id}.json`, { id: m.id, rev: m.rev, lang: L, status: lessonStatus(m, L), ...(m.status === "draft" ? { draft: true } : {}), review_flag: reviewFlag(m), disclaimer: m.disclaimer || null,
         title: tm(V.title), summary: tm(V.desc),
         body: V.body.map(x => ({ k: x.b.k, t: x.b.t, html: x.inner, disc: x.b.disc || null, rule_ref: x.b.rule_ref || null, ...(x.b.anchor ? { anchor: x.b.anchor } : {}),
-          ...(x.b.t === "sim" ? { sim: x.b.sim } : {}), ...(x.b.t === "evidence" ? { for: x.b.for, level: x.b.level } : {}), ...(x.b.t === "draft" ? { role: x.b.role || null, from: x.b.from || null } : {}), ...(x.lang ? { lang: x.lang, updating: true } : {}) })),
+          ...(x.b.t === "sim" ? { sim: x.b.sim, ...(x.hero ? { hero: true, kind: x.hero.kind, heading: x.hero.heading } : {}) } : {}), ...(x.b.t === "evidence" ? { for: x.b.for, level: x.b.level } : {}), ...(x.b.t === "draft" ? { role: x.b.role || null, from: x.b.from || null } : {}), ...(x.lang ? { lang: x.lang, updating: true } : {}) })),
         notes: V.notes.map(n => ({ k: n.x.k, for: n.x.for || "interpreter", html: n.html })),
         phrases: V.phrases.map(p => ({ k: p.x.k, speaker: p.x.speaker || null, en: p.x.en, meaning: p.meaningText, say: L === "en" ? null : p.sayText })),
         key_points: V.kps.map(k => ({ k: k.x.k, html: k.html, checklist: !!k.x.checklist })),
@@ -1190,7 +1231,8 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
     generated: opt.today, langs: LANGS, published: LANGS.filter(L => built.home[L]), fallback: built.home.en ? "en" : "uk",
     lessons: Object.fromEntries(LANGS.map(L => [L, [...lessons.keys()].filter(id => lessonBuilt(id, L)).length])) });
   // texts of the shared animations (docs/shared/sims-text.js)
-  { const st = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(SIM_KEYS.filter(k => ui.en[k] != null).map(k => [k, L === "uk" ? ukApos(ui[L][k] || ui.en[k]) : ui[L][k] || ui.en[k]]))]));
+  { const keys = uniq([...SIM_KEYS, ...Object.keys(ui.en).filter(k => k.startsWith("anim_"))]);
+    const st = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(keys.filter(k => ui.en[k] != null).map(k => [k, L === "uk" ? ukApos(ui[L][k] || ui.en[k]) : ui[L][k] || ui.en[k]]))]));
     FILES.set("shared/sims-text.js", `/* ${GEN} from content/academy/ui/<lang>.json — texts of docs/shared/sims.js (all 11 ClayArena languages; English where a translation is missing). Do not edit. */\nwindow.CLAYSIMS_TEXT = ${JSON.stringify(st)};\n`); }
   // share pictures to draw (python scripts/make_og.py)
   json("og/og-list.json", { _note: `${GEN}: the Academy share pictures (1200×630) that scripts/make_og.py draws. Do not edit.`, generated: opt.today, images: [...OG.values()] });

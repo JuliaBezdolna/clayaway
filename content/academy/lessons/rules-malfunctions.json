@@ -310,17 +310,12 @@
       "k": "sporting-malfunctions-sim",
       "t": "sim",
       "sim": {
-        "type": "call"
+        "type": "call",
+        "kind": "misfire"
       },
-      "ready": false
-    },
-    {
-      "k": "compak-malfunctions-sim",
-      "t": "sim",
-      "sim": {
-        "type": "call"
-      },
-      "ready": false
+      "ready": true,
+      "en": "After a misfire, stay where you are with the gun closed and pointing down the range until the referee has examined it.",
+      "uk": "Після осічки стійте на місці, рушниця закрита й спрямована в бік поля, доки суддя її не огляне."
     }
   ],
   "note": [
@@ -950,10 +945,10 @@
   },
   "todo": {
     "tasks": [
-      "Animations sporting-malfunctions-sim and compak-malfunctions-sim stay ready:false until checked against S-01…S-05 and S-09.",
       "Referee: Sporting 6.5.1 scores as zero the targets not shot 'for the same reasons as the first incident', while 6.4 and 7.6 speak of any second malfunction in the round. rules-malfunctions-cmp1 (sporting column), compak-malfunctions-kp1 and sporting-malfunctions-ph4 follow 6.4/7.6 ('from the second incident'); if the referee reads 6.5.1 as 'of the same kind' (as Compak 20.3.1 says), add those words to the Sporting texts.",
       "Referee: confirm case (2) of sporting-malfunctions-p4 (repeat after a second-shot failure on a single: only a hit with the second shot counts, so the first shot is a deliberate miss).",
-      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done.",
+      "Overlays, animation caption of 2026-10-07: body.sporting-malfunctions-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_misfire)."
     ]
   }
 }

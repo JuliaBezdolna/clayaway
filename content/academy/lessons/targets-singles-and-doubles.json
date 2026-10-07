@@ -242,7 +242,9 @@
           "rafale"
         ]
       },
-      "ready": true
+      "ready": true,
+      "en": "One target, then the three doubles: on report, simultaneous and rafale; watch when the second target leaves.",
+      "uk": "Одна мішень, а потім три дуплети: на постріл, одночасний і рафаль; дивіться, коли вилітає друга мішень."
     }
   ],
   "note": [],
@@ -564,10 +566,8 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: flight-pairs-p4, flight-pairs-q2.",
-      "Overlays: remove keys deleted as duplicates or merged in the master: flight-pairs-title, flight-pairs-p5.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: flight-pairs-p1, flight-pairs-p3, targets-singles-and-doubles-cartridges, flight-pairs-p6, targets-singles-and-doubles-p5.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in flight-pairs-p2, flight-pairs-p3, flight-pairs-p6, flight-pairs-kp3, flight-pairs-kp5, flight-pairs-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-singles-and-doubles.json: translate the missing items targets-singles-and-doubles-cartridges, targets-singles-and-doubles-p6, targets-singles-and-doubles-p5, targets-singles-and-doubles-tip1, targets-singles-and-doubles-dyk, targets-singles-and-doubles-q2, targets-singles-and-doubles-q1, targets-singles-and-doubles-q-two-with-one; translate again (or only re-sign the hash where just the form changed) the items whose English changed: flight-pairs-q2.",
+      "Overlays, animation caption of 2026-10-07: body.flight-pairs-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_pair)."
     ]
   }
 }

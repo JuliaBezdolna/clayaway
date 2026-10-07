@@ -115,8 +115,8 @@
         "follow_through": true
       },
       "ready": true,
-      "en": "Animation: the muzzles start behind, overtake the target and fire as they pass its front. The freeze-frame shows that the actual lead is bigger than the gap you saw.",
-      "uk": "Анімація: стволи стартують позаду, обганяють мішень і стріляють, проходячи її передній край. Стоп-кадр показує, що справжній винос більший за проміжок, який ви бачили."
+      "en": "The muzzles come from behind and fire as they pass the front of the target; the freeze-frame shows that the actual lead is bigger than it looked.",
+      "uk": "Стволи наздоганяють мішень ззаду й стріляють, проходячи її передній край; стоп-кадр показує, що справжній винос більший, ніж здавалося."
     }
   ],
   "note": [
@@ -329,7 +329,7 @@
     "lead-swing-through-p3": "5591e8be",
     "lead-swing-through-p4": "56ddd9af",
     "lead-swing-through-p5": "7af5a14c",
-    "lead-swing-through-sim": "d91e6e21",
+    "lead-swing-through-sim": "f3817a86",
     "lead-swing-through-n1": "5b292c5e",
     "lead-swing-through-kp1": "dd1d9624",
     "lead-swing-through-kp2": "c9f0e48f",
@@ -349,8 +349,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/lead-swing-through.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): lead-swing-through-p1, lead-swing-through-p4, lead-swing-through-p5, lead-swing-through-q2; translate again (meaning or audit fix changed): lead-swing-through-p2, lead-swing-through-q3.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/lead-swing-through.json (9 languages): translate again (meaning or wording changed for readers): lead-swing-through-p1, lead-swing-through-p2, lead-swing-through-delay, lead-swing-through-p3, lead-swing-through-p5, lead-swing-through-kp5; lead-swing-through-p2 is now t:\"steps\" (4 steps; the memory aid moved to the end of lead-swing-through-p1): split the overlay value into a list and translate the new sentences of p1; lead-swing-through-p1 (uk): the extra sentence about the name was removed."
+      "Overlays, animation caption of 2026-10-07: body.lead-swing-through-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
     ]
   }
 }

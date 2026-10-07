@@ -1,7 +1,8 @@
 """Canonical links + schema.org JSON-LD for the hand-made pages of the ClayArena projects site (ClayAway tours, rules, academies).
 
 Run from the project root (after make_og.py): python scripts/seo_meta.py
-The rules pages get their markup from scripts/build_seo.mjs; this script covers home, specs and tours.
+The rules pages get their markup from scripts/build_seo.mjs; this script covers the projects home (uk + en), the ClayAway
+start page /tours/, the specs and the tour examples.
 Tour EXAMPLES (docs/dornsberg, docs/sologne) show real ClayArena people with made-up dates, prices and messages
 (owner decision 06.10.2026): they get a plain WebPage with the sample label and no Event/Offer/price markup, so that
 search engines, LLM crawlers and link previews cannot read them as a real sale. Real published tours get Event + Offer
@@ -29,15 +30,26 @@ def sample_tour(name, slug, desc):
     }
 
 
+HOME_ITEMS = {  # cards of the projects home (rules: noindex until FITASC allows it, so not listed here)
+    "uk": [("learn/", "Академія ClayArena"), ("glossary/", "Глосарій"), ("tours/", "Тури ClayAway")],
+    "en": [("en/learn/", "ClayArena Academy"), ("en/glossary/", "Glossary"), ("tours/", "ClayAway tours")],
+}
+
+
+def home(lang, desc):
+    """Projects home of ClayArena (owner decision 07.10.2026): / (uk) and /en/ (en), noindex, follow (a doorway page)."""
+    return [{"@context": "https://schema.org", **SITE, "description": desc, "inLanguage": lang, "publisher": CLAYARENA},
+            {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
+                {"@type": "ListItem", "position": i + 1, "url": B + u, "name": n} for i, (u, n) in enumerate(HOME_ITEMS[lang])]}]
+
+
 PAGES = {
-    "index.html": [{"@context": "https://schema.org", **SITE, "description": "Проєкти ClayArena: тури ClayAway, правила FITASC, тренажер правил, глосарій, Академія ClayArena.",
-                    "publisher": CLAYARENA},
-                   {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
-                       {"@type": "ListItem", "position": i + 1, "url": B + u, "name": n} for i, (u, n) in enumerate([
-                           ("rules/", "Правила FITASC простими словами"), ("rules/trainer/", "Тренажер правил FITASC"),
-                           ("glossary/", "Глосарій ClayArena"), ("learn/", "Академія ClayArena"),
-                           ("dornsberg/", "Приклад туру: Dornsberg Training Days (умовні дані)"), ("sologne/", "Приклад туру: Sologne Week (умовні дані)"),
-                           ("concept/", "ТЗ ClayAway"), ("rules-spec/", "ТЗ: правила FITASC і глосарій")])]}],
+    "index.html": home("uk", "Проєкти ClayArena: Академія ClayArena, правила FITASC простими словами, глосарій стендової стрільби, тури ClayAway."),
+    "en/index.html": home("en", "ClayArena projects: the ClayArena Academy, FITASC rules in plain words, a clay shooting glossary and ClayAway tours."),
+    # ClayAway start page: what ClayAway is, the spec and the two examples (never Event/Offer: nothing is on sale)
+    "tours/index.html": [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Тури ClayAway",
+                          "description": "ClayAway — новий напрям ClayArena, що готується: тури зі стендової стрільби з тренерами. ТЗ і два приклади турів з умовними датами й цінами (не пропозиції).",
+                          "inLanguage": "uk", "url": B + "tours/", "isPartOf": SITE, "publisher": CLAYARENA}],
     "concept/index.html": [{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ ClayAway — концепція і технічне завдання",
                             "inLanguage": "uk", "url": B + "concept/", "author": CLAYARENA, "publisher": CLAYARENA, "isPartOf": SITE,
                             "about": "Організовані тури з тренером у ClayArena: ролі, доступи, спілкування, адмінка, комісія"}],

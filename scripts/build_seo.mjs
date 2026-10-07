@@ -18,7 +18,7 @@
 //   --skip-academy    build the rest of the site although the Academy has blocking errors (its files on disk stay unchanged)
 //   --draft           full-site preview with the Academy draft lessons (only together with --out; never into docs/)
 import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
-import { BASE, esc, tm, legal } from "./site_common.mjs";
+import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
 import { buildAcademy } from "./build_academy.mjs";
 
 // ⚠⚠ FITASC_INDEX — the FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
@@ -90,7 +90,6 @@ const CSS = `:root{color-scheme:dark;--bg:#030712;--surface:rgba(255,255,255,.04
 a{color:var(--em)}.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 72px;display:grid;grid-template-columns:240px minmax(0,1fr);gap:40px}
 @media(max-width:860px){.wrap{grid-template-columns:1fr}.toc{position:static!important;max-height:220px!important;border:1px solid var(--line);border-radius:12px;padding:6px 10px}}
 header{border-bottom:1px solid var(--line)}header .in{max-width:1080px;margin:0 auto;padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
-.logo{background:#000;border-radius:8px;padding:2px 11px;font-weight:700;text-decoration:none}.logo b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
 nav.crumbs{font-size:13px;color:var(--muted)}nav.crumbs a{color:var(--muted)}
 .toc{position:sticky;top:16px;align-self:start;max-height:calc(100vh - 32px);overflow:auto;font-size:13.5px}.toc a{display:block;color:var(--soft);text-decoration:none;padding:3px 0 3px 10px;border-left:2px solid var(--line)}.toc a:hover{border-left-color:var(--em);color:#fff}
 .toc .p{font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin:12px 0 4px}
@@ -99,7 +98,31 @@ h3{font-size:17px;margin:20px 0 4px}.ref{font-size:12.5px;color:var(--muted)}p,l
 .cta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px;text-decoration:none;color:var(--ink)}.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
 .src{font-size:13px;color:var(--muted)}article.item{border-top:1px solid var(--line);padding-top:4px}.faq details{border-top:1px solid var(--line);padding:9px 0}.faq summary{cursor:pointer;font-weight:600}
 .disc{margin-top:40px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;font-size:12.5px;color:var(--muted)}
-.legal{margin:14px 0 0;font-size:12px;color:var(--muted)}.legal a{color:var(--muted)}`;
+.legal{margin:14px 0 0;font-size:12px;color:var(--muted)}.legal a{color:var(--muted)}
+nav.crumbs{font-size:14px;display:flex;flex-wrap:wrap;gap:4px 7px;align-items:center}nav.crumbs a{color:var(--soft);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}nav.crumbs a:hover{color:#fff;text-decoration:underline}nav.crumbs [aria-current]{color:var(--ink);font-weight:600}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--em);outline-offset:2px;border-radius:6px}
+details.langs{position:relative;font-size:13px}details.langs summary{cursor:pointer;list-style:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px;min-height:34px;display:inline-flex;align-items:center;gap:6px;color:var(--soft)}details.langs summary::-webkit-details-marker{display:none}details.langs summary::after{content:"▾";font-size:11px}
+details.langs[open] summary{border-color:var(--em);color:#fff}details.langs nav{position:absolute;right:0;top:calc(100% + 6px);z-index:35;background:#0B1120;border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;min-width:170px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+details.langs nav a{color:var(--soft);text-decoration:none;padding:8px 10px;border-radius:8px;min-height:40px;display:flex;align-items:center}details.langs nav a:hover{background:rgba(255,255,255,.06);color:#fff}details.langs nav a[aria-current]{color:var(--em);font-weight:700}
+@media (pointer:coarse){details.langs nav a,details.langs summary,.btn{min-height:44px}}`;
+// ---------------------------------------------------------------------------------------------------
+// Navigation of the generated pages (owner decision 07.10.2026; one naming table: docs/shared/nav.js, ClayNav):
+// - no second ClayArena logo: the ONE logo is in the project bar (nav.js); the page header starts with the SECTION as a
+//   breadcrumb («📘 Правила FITASC › Sporting™», «📖 Глосарій › <term>»), localised aria-label, aria-current on the last crumb;
+// - ONE language switcher everywhere (langSwitch): native names ("Українська", "English", "Deutsch" …), the current language
+//   with aria-current, links to the same page, data-setlang (nav.js stores the visitor language). Glossary pages list every
+//   language that has the term (the uk/en pages get the full list from build_seo_i18n.mjs, between <!-- langs --> markers);
+// - links into the rules guide and the trainer carry ?lang and data-vl: nav.js puts the visitor language into ?lang.
+// Production: the clayarena.com page template renders the same crumbs and the site's language menu.
+const LANG_NAME = { en: "English", uk: "Українська", de: "Deutsch", fr: "Français", it: "Italiano", cs: "Čeština", pl: "Polski", pt: "Português", hu: "Magyar", fi: "Suomi", lt: "Lietuvių" };
+const BREAD = { en: "Breadcrumbs", uk: "Навігаційний ланцюжок", de: "Navigationspfad", fr: "Fil d'Ariane", it: "Percorso di navigazione", cs: "Drobečková navigace", pl: "Ścieżka nawigacji", pt: "Caminho de navegação", hu: "Morzsamenü", fi: "Murupolku", lt: "Naršymo kelias" };
+const LANGW = { en: "Language", uk: "Мова", de: "Sprache", fr: "Langue", it: "Lingua", cs: "Jazyk", pl: "Język", pt: "Língua", hu: "Nyelv", fi: "Kieli", lt: "Kalba" };
+// crumbs(lang, icon, [{label, url?}]): the last item is the current page (aria-current="page")
+const crumbs = (lang, icon, items) => `<nav class="crumbs" aria-label="${BREAD[lang] || BREAD.en}"><span aria-hidden="true">${icon}</span>${items.map((x, i) => (i ? '<span aria-hidden="true">›</span>' : "")
+  + (i === items.length - 1 ? `<span aria-current="page">${esc(x.label)}</span>` : `<a href="${x.url}"${x.vl ? " data-vl" : ""}>${esc(x.label)}</a>`)).join("")}</nav>`;
+// langSwitch(cur, [{l, url}]): disclosure «🌐 Українська ▾» with the languages in the order of LANGS (works without JS)
+const langSwitch = (cur, items) => { const list = LANGS.map(l => items.find(x => x.l === l)).filter(Boolean);
+  return `<details class="langs"><summary lang="${cur}"><span aria-hidden="true">🌐</span> ${LANG_NAME[cur]}<span class="sr" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> · ${LANGW[cur]}</span></summary><nav aria-label="${LANGW[cur]}">${list.map(x => `<a href="${x.url}" hreflang="${x.l}" lang="${x.l}" data-setlang="${x.l}"${x.l === cur ? ' aria-current="true"' : ""}>${LANG_NAME[x.l]}</a>`).join("")}</nav></details>`; };
 
 function page(key, lang) {
   const b = BOOKS[key], T = TXT[lang], d = NAMES[key], o = lang === "uk" ? "en" : "uk";
@@ -141,9 +164,8 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <style>${CSS}</style>
 </head>
 <body>
-<header><div class="in"><a class="logo" href="${BASE}rules/#${key}"><b>ClayArena</b></a>
-<nav class="crumbs" aria-label="Breadcrumbs"><a href="${BASE}rules/">${T.crumbs[1]}</a> › ${esc(d)}</nav>
-<span style="flex:1"></span><a class="btn" href="${urlOf(o, key)}" hreflang="${o}">${o === "uk" ? "Українською" : "English"}</a></div></header>
+<header><div class="in">${crumbs(lang, "📘", [{ label: T.crumbs[1], url: `${BASE}rules/?lang=${lang}#${key}`, vl: 1 }, { label: d }])}
+<span style="flex:1"></span>${langSwitch(lang, [{ l: lang, url }, { l: o, url: urlOf(o, key) }])}</div></header>
 <div class="wrap">
 <nav class="toc" aria-label="${T.toc}">${parts.map(p => `<div class="p">${T.part} ${esc(p)}</div>` + b.sections.filter(s => s.part === p).map(s => `<a href="#${s.id}">${s.chapter ? s.chapter + ". " : ""}${esc(tx(s, "title"))}</a>`).join("")).join("")}<div class="p">FAQ</div><a href="#faq">${T.faq}</a></nav>
 <main>
@@ -151,7 +173,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <h1>${esc(T.h1(d))}</h1>
 <p>${T.lead}</p>
 <p class="src">${T.src}: <a href="${esc(b.source.url)}" ${NF}>${T.off} ↗</a> · ${T.ed}: ${esc(b.source.edition)} · ${T.updated}: ${TODAY}</p>
-<div class="cta"><a class="btn primary" href="${BASE}rules/#${key}">${T.ask}</a><a class="btn" href="${BASE}rules/trainer/#${key}">${T.trainer}</a></div>
+<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=${lang}#${key}">${T.ask}</a><a class="btn" data-vl href="${BASE}rules/trainer/?lang=${lang}#${key}">🎯 ${T.trainer}</a></div>
 ${b.sections.map(s => `<section id="${s.id}"><h2><small>${T.part} ${esc(s.part)}${s.chapter ? " · " + T.ch + " " + s.chapter : ""}</small>${esc(tx(s, "title"))}</h2>
 ${s.items.map(it => `<article class="item" id="${it.id}"><h3>${esc(tx(it, "title"))}</h3><div class="ref">${esc(it.ref || "")} · <a href="${esc(b.source.url)}#page=${it.page}" ${NF}>${T.pdf} ${it.page}</a></div>
 <p>${esc(tx(it, "summary"))}</p>${(it["points_" + lang] || []).length ? `<ul>${it["points_" + lang].map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}${globalThis.termLinks ? globalThis.termLinks(it, lang) : ""}</article>`).join("\n")}
@@ -205,7 +227,7 @@ function glossaryPages() {
   if (!GLOSS) return [];
   const out = [];
   const css = CSS + `.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}`;
-  const shell = (title, desc, url, ld, body) => `<!doctype html>
+  const shell = (title, desc, url, ld, body, name, enUrl) => `<!doctype html>
 <html lang="uk">
 <head>
 <meta charset="utf-8">
@@ -224,7 +246,8 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <style>${css}</style>
 </head>
 <body>
-<header><div class="in"><a class="logo" href="${BASE}glossary/"><b>ClayArena</b></a><nav class="crumbs"><a href="${BASE}glossary/">Глосарій</a></nav><span style="flex:1"></span><a class="btn" href="${BASE}rules/">Правила FITASC</a></div></header>
+<header><div class="in">${crumbs("uk", "📖", name ? [{ label: "Глосарій", url: `${BASE}glossary/` }, { label: name }] : [{ label: "Глосарій" }])}<span style="flex:1"></span><a class="btn" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a>
+<!-- langs -->${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: enUrl }])}<!-- /langs --></div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">${body}
 <div class="disc">Глосарій ClayArena побудовано на нашому переказі регламентів FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}</main>
 </body></html>`;
@@ -246,19 +269,18 @@ ${ukUsage(t) ? `<h2>Як кажуть українською</h2><p>${esc(ukUsag
 ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
 ${learn ? `<h2>Де вивчити</h2><ul>${learn}</ul>` : ""}
-${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}
-<p class="ref"><a href="${BASE}en/glossary/${t.id}/" hreflang="en" lang="en">English version</a></p>`;
+${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
     const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name, item: url }] }];
     mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
-    writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body));
+    writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body, name, `${BASE}en/glossary/${t.id}/`));
     out.push(url);
   }
   const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
   const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
 ${cats.map(c => `<h2>${esc(CAT_UK[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${esc(dispTerm(t))}</a>`).join("")}</div>`).join("\n")}`;
   writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
-    [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody));
+    [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`));
   return [BASE + "glossary/", ...out];
 }
 
@@ -346,7 +368,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <style>${CSS}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}th{color:var(--muted);font-size:12px;text-transform:uppercase}.tw{overflow-x:auto;border:1px solid var(--line);border-radius:12px}</style>
 </head>
 <body>
-<header><div class="in"><a class="logo" href="${BASE}rules/"><b>ClayArena</b></a><nav class="crumbs"><a href="${BASE}rules/">Правила FITASC</a> › Категорії</nav></div></header>
+<header><div class="in">${crumbs("uk", "📘", [{ label: "Правила FITASC", url: `${BASE}rules/?lang=uk`, vl: 1 }, { label: "Категорії" }])}<span style="flex:1"></span>${langSwitch("uk", [{ l: "uk", url }, { l: "en", url: BASE + "rules/en/categories/" }])}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div>
 <h1>Категорії FITASC: хто такий Junior, Lady, Senior, Veteran, Master</h1>
@@ -355,7 +377,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 ${teams ? `<h2>Національні команди</h2><div class="tw"><table><thead><tr><th>Команда</th><th>Хто може</th><th>Склад</th><th>Примітка</th></tr></thead><tbody>${teams}</tbody></table></div>` : ""}
 ${(C.notes_uk || []).length ? `<ul>${C.notes_uk.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
 <p class="src">Джерело: <a href="${esc(C.source_url)}" ${NF}>FITASC — Catégories, limites d'âge ↗</a> · ${TODAY}</p>
-<div class="cta"><a class="btn primary" href="${BASE}rules/">Довідник правил</a><a class="btn" href="${BASE}glossary/">Глосарій</a><a class="btn" href="${BASE}learn/">Академія ClayArena</a></div>
+<div class="cta"><a class="btn primary" data-vl href="${BASE}rules/?lang=uk">📘 Правила FITASC</a><a class="btn" href="${BASE}glossary/">📖 Глосарій</a><a class="btn" href="${BASE}learn/">🎓 Академія ClayArena</a></div>
 <div class="disc">Наш переказ офіційних категорій FITASC. Чинним є лише текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}
 </main></body></html>`;
   mkdirSync(`${DOCS}/rules/categories`, { recursive: true });
@@ -372,7 +394,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).

@@ -360,10 +360,7 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: targets-colours-visibility-kp5, targets-colours-visibility-q1.",
-      "Overlays: move ov.body[k] to ov.note[k] (paragraph became an interpreter note): targets-colours-visibility-p5.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-colours-visibility-p1, targets-colours-visibility-p3, targets-colours-visibility-p4, targets-colours-visibility-ph3, targets-colours-visibility-kp4, targets-colours-visibility-q2.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in targets-colours-visibility-p3, targets-colours-visibility-kp4, targets-colours-visibility-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-colours-visibility.json: translate the missing items targets-colours-visibility-tip1, targets-colours-visibility-p5; translate again (or only re-sign the hash where just the form changed) the items whose English changed: targets-colours-visibility-q1, targets-colours-visibility-q2; move targets-colours-visibility-p5 from body to note (they are interpreter notes now)."
     ]
   }
 }

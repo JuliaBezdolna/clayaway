@@ -158,8 +158,8 @@
         "focus": "stance"
       },
       "ready": true,
-      "en": "Animation: the dotted lines show the front foot pointing at the break point and the body winding back to the hold point.",
-      "uk": "Анімація: пунктирні лінії показують, як носок передньої ноги дивиться на точку пострілу, а корпус повертається назад до точки утримання."
+      "en": "The front foot points at the break point; the body winds back to the hold point.",
+      "uk": "Носок передньої ноги дивиться на точку пострілу, а корпус повертається назад до точки утримання."
     }
   ],
   "note": [
@@ -469,7 +469,7 @@
     "technique-stance-balance": "9375aeba",
     "technique-stance-safety": "b6090803",
     "technique-stance-p5": "5f2cb1ca",
-    "basics-stance-sim": "63127f72",
+    "basics-stance-sim": "e39b84bb",
     "basics-stance-p5": "6bcb4702",
     "basics-stance-kp4": "d427448c",
     "basics-stance-kp3": "ec040c37",
@@ -493,9 +493,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/technique-stance.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): basics-stance-p2, basics-stance-p4, basics-stance-q3; moved from body to note, text unchanged: basics-stance-p5; no longer used (delete from the overlays): basics-stance-kp5, basics-stance-title.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-stance.json (9 languages): translate again (meaning or wording changed for readers): basics-stance-p3, basics-stance-q1.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in basics-stance-p1, basics-stance-kp1, basics-stance-kp2, basics-stance-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, animation caption of 2026-10-07: body.basics-stance-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_stance)."
     ]
   }
 }

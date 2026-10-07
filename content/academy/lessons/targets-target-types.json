@@ -203,7 +203,9 @@
           "rabbit"
         ]
       },
-      "ready": true
+      "ready": true,
+      "en": "The battue flies edge-on, then turns over and drops; the rabbit rolls along the ground.",
+      "uk": "Батю летить ребром, потім перевертається й падає; кролик котиться по землі."
     }
   ],
   "note": [],
@@ -522,10 +524,8 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: targets-types-p2, targets-types-p3, targets-types-p4, targets-types-kp2.",
-      "Overlays: remove keys deleted as duplicates or merged in the master: targets-types-title.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-types-p2, targets-target-types-p6, targets-types-p5, targets-types-ph1, targets-types-ph4, targets-types-q3.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in targets-types-p1, targets-types-p5, targets-types-kp1, targets-types-kp5, targets-types-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-target-types.json: translate the missing items targets-target-types-p1, targets-target-types-p6, targets-target-types-p7, targets-target-types-dyk, targets-target-types-q1, targets-target-types-q-battue, targets-target-types-q-flash; translate again (or only re-sign the hash where just the form changed) the items whose English changed: targets-types-q3.",
+      "Overlays, animation caption of 2026-10-07: body.targets-target-types-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_flight)."
     ]
   }
 }

@@ -142,8 +142,8 @@
         "focus": "points"
       },
       "ready": true,
-      "en": "Animation: the labels show the pick-up point, the hold point and the break point; the target breaks at the break point.",
-      "uk": "Анімація: підписи показують точку підхоплення, точку утримання і точку пострілу; мішень розбивається в точці пострілу."
+      "en": "The eyes wait at the pick-up point, the muzzles at the hold point, and the target breaks at the break point.",
+      "uk": "Очі чекають у точці підхоплення, стволи — у точці утримання, а мішень розбивається в точці пострілу."
     }
   ],
   "note": [
@@ -450,7 +450,7 @@
     "technique-hold-pickup-break-points-p3": "60fa622f",
     "basics-three-points-p4": "b7db9c25",
     "technique-hold-pickup-break-points-limit": "5586588d",
-    "basics-three-points-sim": "31bc4087",
+    "basics-three-points-sim": "75169292",
     "basics-three-points-p5": "386e6dc9",
     "basics-three-points-kp1": "4ef85b29",
     "basics-three-points-kp2": "99cd94a9",
@@ -474,10 +474,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/technique-hold-pickup-break-points.json (9 languages): translate again (meaning or audit fix changed): basics-three-points-p3, basics-three-points-p4, basics-three-points-q2; moved from body to note, text unchanged: basics-three-points-p5; no longer used (delete from the overlays): basics-three-points-kp5, basics-three-points-title.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-hold-pickup-break-points.json (9 languages): translate again (meaning or wording changed for readers): basics-three-points-p1, basics-three-points-p2, basics-three-points-p3, technique-hold-pickup-break-points-p3, basics-three-points-p4, basics-three-points-kp4, basics-three-points-q3; new keys to translate: technique-hold-pickup-break-points-limit.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in basics-three-points-kp4, basics-three-points-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash.",
-      "Overlays (9 languages), 2026-10-07: basics-three-points-p4 now names the {{tm:compak}} format “by squad” (as the rules lessons do) and uses the fact token for the 10-minute break; check the wording and re-sign the hash."
+      "Overlays, animation caption of 2026-10-07: body.basics-three-points-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_points)."
     ]
   }
 }

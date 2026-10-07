@@ -212,6 +212,17 @@ body{background:var(--paper)}
 .sitenav span.mocklbl{font-size:11px;color:var(--muted);padding-inline:4px}
 .sitenav span.on{background:var(--field-soft);color:var(--field);font-weight:600}
 @media (max-width:1100px){.sitenav{display:none}}
+/* Navigation (owner decision 07.10.2026): ONE ClayArena logo, in the project bar (docs/shared/nav.js). The mockup of the
+   clayarena.com menu shows only on wide screens; below 1100 px the page starts with one compact line: crumbs + switches. */
+@media (max-width:1100px){.top{display:none}}
+.crumbs{display:flex;align-items:center;flex-wrap:wrap;gap:4px 7px;font-weight:600;font-size:14.5px}
+.crumbs a{color:var(--ink);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}
+.crumbs a:hover{text-decoration:underline}
+.crumbs a:focus-visible,.tourlink:focus-visible{outline:2px solid var(--clay);outline-offset:2px;border-radius:6px}
+.crumbs [aria-current]{color:var(--field)}
+.crumbs i{font-style:normal;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:linear-gradient(90deg,#34D399,#22D3EE);color:#022C22;padding:2px 8px;border-radius:999px}
+@media (max-width:759.98px){.byca{display:none}.sub-in{padding-block:8px;gap:8px 10px}}
+@media (pointer:coarse){.seg button,.tourlink{min-height:44px}}
 .sub{border-bottom:1px solid var(--line);background:linear-gradient(180deg,rgba(6,78,59,.55),rgba(3,7,18,0))}
 .sub-in{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:10px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
 .svc{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px}
@@ -330,8 +341,8 @@ section.blk{scroll-margin-top:130px}
 <div class="top">
   <div class="top-in">
     <!-- Mockup of the clayarena.com header (how the tour page sits inside ClayArena). Not clickable on purpose:
-         the working ClayArena link and project menu come from shared/nav.js. In production this is the real site header. -->
-    <span class="logo" role="img" aria-label="ClayArena header (mockup)"><span><b>ClayArena</b></span></span>
+         the working ClayArena link and project menu come from shared/nav.js (the ONE ClayArena logo is there, so this mockup
+         has none). Hidden below 1100 px. In production this is the real site header. -->
     <div class="sitenav" aria-hidden="true" title="Mockup of the clayarena.com menu"><span>Competitions</span><span>Recap</span><span>Calendar</span><span>Videos</span><span>Shooting Grounds</span><span>Coaches</span><span>Shooters</span><span class="on">ClayAway</span><span class="mocklbl">menu mockup</span></div>
     <span class="spacer"></span>
     <span class="proto">Project · sample tour</span>
@@ -339,7 +350,7 @@ section.blk{scroll-margin-top:130px}
 </div>
 <div class="sub">
   <div class="sub-in">
-    <span class="svc">ClayAway <i>Tours</i></span>
+    <nav class="crumbs" aria-label="Навігаційний ланцюжок" lang="uk"><span aria-hidden="true">✈️</span><a href="../tours/">ClayAway</a><span aria-hidden="true">›</span><a href="../tours/#examples">Приклади турів</a><span aria-hidden="true">›</span><span aria-current="page" lang="en">Dornsberg</span> <i>Приклад</i></nav>
     <span class="byca">Clay shooting trips with top coaches</span>
     <span class="spacer" style="flex:1"></span>
     <div class="seg tours" role="group" aria-label="Example tour">
@@ -585,7 +596,13 @@ const MEALS = {"t1": {"summary": ["Breakfast 4 of 4", "Lunch 4 of 4", "Dinner 4 
 const fmt = n => n.toLocaleString("en-US");
 /* UI state (client only): selected tour/screen/language, chosen price options, the 15-minute place hold,
    flash message and locally added questions. In production the hold and questions are server-side. */
+/* Screen in the address (#page, #group, #organizer): Back returns to the previous screen and a screen can be linked.
+   pushState on a switch, read on load and on popstate. In ClayArena: real routes, e.g. /clayaway/<tour>/group/. */
+const VIEW_HASH = {page:"page", group:"group", dash:"organizer"};
+const viewFromHash = () => { const h = location.hash.slice(1); return h==="group" ? "group" : h==="organizer" ? "dash" : h==="page" ? "page" : null; };
 let state = {tour:"t1", view:"page", lang:"en", opts:{}, held:null, flash:"", extraQ:{t1:[],t2:[]}, mode:"public"};
+{ const v = viewFromHash(); if (v) state.view = v; }
+window.addEventListener("popstate", () => { const v = viewFromHash() || "page"; if (v !== state.view) { state.view = v; render(); window.scrollTo({top:0}); } });
 let timer = null;
 
 /* Remaining places: dots (taken / held / free) + label ("3 of 8 places left", "Only 1 place left",
@@ -815,7 +832,7 @@ function render(){
 document.addEventListener("click", e=>{
   const b = e.target.closest("button"); if(!b) return;
   if(b.dataset.tour){ state.tour=b.dataset.tour; state.opts={}; state.flash=""; try{history.replaceState(null,"","#"+state.tour)}catch(_){}; render(); window.scrollTo({top:0}); }
-  else if(b.dataset.view){ state.view=b.dataset.view; render(); window.scrollTo({top:0}); }
+  else if(b.dataset.view){ if(b.dataset.view!==state.view){ state.view=b.dataset.view; try{history.pushState(null,"","#"+VIEW_HASH[state.view])}catch(_){} } render(); window.scrollTo({top:0}); }
   else if(b.dataset.lang){ state.lang=b.dataset.lang; render(); }
   else if(b.dataset.mode){ state.mode=b.dataset.mode; render(); }
   else if(b.dataset.act==="book"){ state.held={tour:state.tour, until:Date.now()+15*60*1000}; clearInterval(timer); timer=setInterval(()=>{ if(!state.held||Date.now()>state.held.until){state.held=null;clearInterval(timer);} if(state.view==="page") render(); },1000); render(); }

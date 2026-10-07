@@ -627,12 +627,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Translation wave: the English of two core paragraphs changed for discipline accuracy (system problem 1). referee-appeals-p2: the rule on targets broken behind an obstacle or beyond a shooting limit is now marked as Parcours de Chasse – Sporting™ only (sporting:ch9-visible-break). referee-appeals-p3: split into short sentences, with the non-appealable decisions given per discipline (sporting:ch9-jury-appeal, compak:ch4-complaint-limits) and the deposit as a fact token. Update these two keys in the 9 overlays i18n/<lang>/competitions-results-and-protests.json.",
-      "Overlay keys no longer in this master: referee-appeals-title (the merged heading; the anchor #referee-appeals is now on referee-appeals-p1). Remove it during the next translation wave.",
-      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/competitions-results-and-protests.json: referee-appeals-p1 (the deadline per discipline; “call” explained; the interpreter advice moved to the note competitions-results-and-protests-n1, which is now core), referee-appeals-p2 (Sporting™: break targets where the referee can see them, and the ruling on a target behind an obstacle or beyond the shooting limit cannot be appealed; trapper and shooting limit explained), referee-appeals-p3 (plain wording: hit or miss, No Bird, deposit; Compak® deposit “the amount that applies on the day”), referee-appeals-p4 (plain wording; “Your job is to translate…” moved to the note n1 — split the old overlay text), referee-appeals-kp2 and referee-appeals-kp3 (now labelled per discipline; no “never”), referee-appeals-q1 and referee-appeals-q2 (now Sporting™ questions; q1 explanation without “never”).",
-      "Core keys whose English changed only in form (trade-mark and fact tokens instead of the literal names and numbers): referee-appeals-kp4, referee-appeals-kp5, referee-appeals-q3. Put the new hash in the overlays; the translations stay valid. competitions-results-and-protests-n1 is now core: translate it into the 9 languages (its last sentences come from the old texts of referee-appeals-p1 and referee-appeals-p4).",
-      "Ukrainian wording of {{term:refusal-to-comply}} is now «відмова виконувати вимоги судді», after the glossary's uk_usage «відмова виконувати вимоги» (glossary.js). The glossary entry itself still says «відмова підкоритися» in long_uk, and its uk_usage for attempt-to-influence is «тиск на суддю» while short_uk and long_uk say «спроба вплинути»: reconcile them in the glossary cleanup and then check this lesson again."
-    ]
+    "tasks": []
   }
 }

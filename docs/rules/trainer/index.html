@@ -47,9 +47,22 @@ button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,a:focus-visible{outline:2px solid var(--em);outline-offset:2px}
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(3,7,18,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .top-in{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:9px;display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap}
-.logo{display:inline-block;background:#000;border-radius:8px;padding:2px 11px;font-weight:700;font-size:17px;box-shadow:0 0 16px rgba(52,211,153,.25);text-decoration:none}
-.logo b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
-.svc{font-weight:700}.svc small{display:block;font-weight:400;font-size:11.5px;color:var(--muted)}
+/* Breadcrumb «🎓 Академія › Практика › Тренажер правил» instead of a second logo: the trainer belongs to the Academy Practice
+   (owner decision 07.10.2026; the ONE ClayArena logo is in the bar, docs/shared/nav.js, which highlights «Академія» here). */
+.crumbs{display:flex;align-items:center;gap:4px 7px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.crumbs a{color:var(--soft);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}
+.crumbs a:hover{color:#fff;text-decoration:underline}
+.crumbs [aria-current]{color:var(--ink);font-weight:700}
+.runtop{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:13.5px;color:var(--muted);margin:0 0 10px}
+.runtop a{color:var(--em);text-decoration:none;font-weight:600;min-height:32px;display:inline-flex;align-items:center}
+.runtop b{color:var(--ink)}
+.runtop .saved{color:var(--em)}
+.confirm,.resume{background:var(--surface2);border:1px solid rgba(52,211,153,.45);border-radius:14px;padding:14px 16px;margin:14px 0;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+.confirm p{margin:0 0 4px;flex-basis:100%}
+.resume b{margin-right:4px}
+/* "→" next to the language select: shown only after a keyboard choice (arrows move in the list, Enter or this button applies it) */
+.langgo{background:var(--surface2,#0B1120);border:1px solid rgba(52,211,153,.45);border-radius:8px;padding:6px 12px;font-size:13.5px;min-height:36px;color:var(--em)}
+@media (pointer:coarse){.btn,.seg button,.chip,.opts button,.langgo{min-height:44px}}
 .spacer{flex:1}
 .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
 .seg button{border:0;background:transparent;padding:6px 12px;font-size:13.5px;color:var(--muted);white-space:nowrap}
@@ -115,11 +128,11 @@ p{margin:0 0 10px;max-width:70ch}
 </head>
 <body>
 <header class="top"><div class="top-in">
-  <a class="logo" href="../../"><b>ClayArena</b></a>
-  <span class="svc" id="svc"></span>
+  <nav class="crumbs" id="crumbs" aria-label="Навігаційний ланцюжок"><span aria-hidden="true">🎓</span><a href="../../learn/">Академія</a><span aria-hidden="true">›</span><a href="../../learn/practice/">Практика</a><span aria-hidden="true">›</span><span aria-current="page">Тренажер правил</span></nav>
   <span class="spacer"></span>
-  <div class="seg disc" role="group" aria-label="Discipline"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
-  <select id="tlang" aria-label="Language" style="background:var(--surface2,#0B1120);color:var(--ink,#F3F4F6);border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:13.5px"></select>
+  <div class="seg disc" role="group" aria-label="Дисципліна" id="discG"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
+  <select id="tlang" aria-label="Мова" style="background:var(--surface2,#0B1120);color:var(--ink,#F3F4F6);border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:13.5px;min-height:36px"></select>
+  <button type="button" id="tlangGo" class="langgo" style="display:none" aria-label="Відкрити обраною мовою" title="Відкрити обраною мовою">→</button>
 </div></header>
 <main id="app"></main>
 <script src="../data/sporting.js"></script>
@@ -141,7 +154,17 @@ p{margin:0 0 10px;max-width:70ch}
    Opened from the Academy (?lang=<l>&from=learn[&mode=short]): a "← Академія" link back (the Academy page the reader came from,
    else the Academy home of the language; docs/shared/nav.js knows which Academy languages are published), the short test is
    offered first, and changing the language keeps ?lang in the address (history.replaceState), so a reload or a shared link
-   stays in that language. ClayArena naming only (audit R-02): no other service name in texts, JSON-LD or storage keys.
+   stays in that language.
+   NAVIGATION (owner decision 07.10.2026, DEVELOPERS.md §4): the trainer is part of the Academy Practice. Header = breadcrumb
+   «🎓 Академія › Практика › Тренажер правил» (names from the ONE naming table of docs/shared/nav.js, ClayNav.link/name).
+   Language: ?lang=<l> > visitor language (localStorage "clayarena-lang", every switcher of the site writes it) > last choice here
+   > browser; the language select writes the visitor language too. A mouse/touch pick applies at once; with the keyboard the arrows
+   only move in the list and Enter or the "→" button (#tlangGo) applies the language (audit ia-code-22, like the Academy select).
+   During a test: a top line «← Академія» (from=learn) or «← Правила FITASC» · mode · discipline · n/N · «прогрес збережено».
+   «Перервати тест» asks «Зберегти й вийти» (the run stays saved for 24 h, the mode screen offers «Продовжити») or «Скинути».
+   A saved run is resumed automatically only when the link asks for nothing else: a different ?mode or #discipline opens the mode
+   screen with the unfinished test and the requested mode side by side (the visitor chooses). ?mode=mistakes (the bar's hint
+   "mistakes to repeat") starts the mistakes test of that discipline. Switching the discipline during a test pauses it. ClayArena naming only (audit R-02): no other service name in texts, JSON-LD or storage keys.
    Answer order: the options of a question are shuffled for every run (except true/false), so the right answer cannot
    be guessed by its place. The trainer never reorders the data: it only maps display order -> option index (run.ord),
    and every comparison uses the data index (q.answer), so the language overlays (same option order as the data) stay valid.
@@ -162,28 +185,48 @@ const T={
    decision:"Рішення судді",number:"Цифри",truefalse:"Правда чи ні",choice:"Вибір",open:"Пункт у довіднику",pdf:"PDF, стор.",
    res:"Результат",pass:"Іспит складено",fail:"Ще трохи — і складете",again:"Ще раз",home:"До вибору режиму",review:"Розбір відповідей",
    sAns:"Відповідей",sAcc:"Точність",sBest:"Найкращий іспит",sMist:"Помилок для повторення",none:"Питань для цієї дисципліни ще немає.",noMist:"Помилок немає — чудово!",
-   back:"← Довідник правил",disc:"Тренажер побудований на нашому переказі регламенту FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",count:"питань у банку",
-   short:"Короткий тест",shortS:"10 питань, результат у кінці, прохідний бал 80%",sBestShort:"Найкращий короткий тест",passShort:"Тест складено",learn:"Академія",forLearn:"Зараховується в Академії ClayArena"},
+   back:"← Правила FITASC",disc:"Тренажер побудований на нашому переказі регламенту FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",count:"питань у банку",
+   short:"Короткий тест",shortS:"10 питань, результат у кінці, прохідний бал 80%",sBestShort:"Найкращий короткий тест",passShort:"Тест складено",learn:"Академія",forLearn:"Зараховується в Академії ClayArena",
+   stop:"Перервати тест",stopQ:"Перервати тест?",stopD:"Його можна зберегти й продовжити пізніше (24 год) або скинути.",pause:"Зберегти й вийти",reset:"Скинути",cancel:"Продовжити тест",saved:"прогрес збережено",unfinished:"Незавершений тест:",cont:"Продовжити",discG:"Дисципліна",langG:"Мова",crumbs:"Навігаційний ланцюжок",practice:"Практика",langGo:"Відкрити обраною мовою"},
  en:{svc:"Rules trainer",svcS:"ClayArena · FITASC",title:"{d} rules trainer",lead:"Test your knowledge of the rules: situations on the stand, numbers and limits, true or false. After every answer you get an explanation and a link to the rule in the guide and to the official PDF page.",
    quick:"Quick test",quickS:"10 random questions, explanation straight away",exam:"Exam",examS:"30 questions, result at the end, pass mark 80%",mist:"My mistakes",mistS:"questions you answered wrong",
    level:"Level",all:"all",l1:"basic",l2:"organizer",l3:"referee",q:"Question",of:"of",next:"Next",finish:"Finish",right:"Correct!",wrong:"Wrong.",
    decision:"Referee's decision",number:"Numbers",truefalse:"True or false",choice:"Choice",open:"Rule in the guide",pdf:"PDF, p.",
    res:"Result",pass:"Exam passed",fail:"Almost there",again:"Try again",home:"Back to modes",review:"Answer review",
    sAns:"Answers",sAcc:"Accuracy",sBest:"Best exam",sMist:"Mistakes to repeat",none:"No questions for this discipline yet.",noMist:"No mistakes — well done!",
-   back:"← Rules guide",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",count:"questions in the bank",
-   short:"Short test",shortS:"10 questions, result at the end, pass mark 80%",sBestShort:"Best short test",passShort:"Test passed",learn:"Academy",forLearn:"Counts in the ClayArena Academy"}
+   back:"← FITASC rules",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",count:"questions in the bank",
+   short:"Short test",shortS:"10 questions, result at the end, pass mark 80%",sBestShort:"Best short test",passShort:"Test passed",learn:"Academy",forLearn:"Counts in the ClayArena Academy",
+   stop:"Stop the test",stopQ:"Stop the test?",stopD:"You can save it and continue later (24 h) or reset it.",pause:"Save and exit",reset:"Reset",cancel:"Back to the test",saved:"progress saved",unfinished:"Unfinished test:",cont:"Continue",discG:"Discipline",langG:"Language",crumbs:"Breadcrumbs",practice:"Practice",langGo:"Open in the chosen language"}
 };
 /* Strings added in 10.2026 for the other ClayArena languages (until the next translation wave moves them into
    docs/rules/data/i18n/quiz-<lang>.json "ui"). "shortS" is derived from the translated "examS" (30 → 10, see t()); "learn" comes
    from the project bar (ClayNav.link), the same word as its "Академія" item. */
 const TX={
  short:{de:"Kurztest",fr:"Test court",it:"Test breve",cs:"Krátký test",pl:"Krótki test",pt:"Teste curto",hu:"Rövid teszt",fi:"Lyhyt testi",lt:"Trumpas testas"},
- forLearn:{de:"Zählt in der ClayArena Akademie",fr:"Compte dans l'Académie ClayArena",it:"Conta nell'Accademia ClayArena",cs:"Započítává se v Akademii ClayArena",pl:"Liczy się w Akademii ClayArena",pt:"Conta na Academia ClayArena",hu:"Beszámít a ClayArena Akadémián",fi:"Lasketaan ClayArena Akatemiassa",lt:"Įskaitoma ClayArena akademijoje"}
+ forLearn:{de:"Zählt in der ClayArena Akademie",fr:"Compte dans l'Académie ClayArena",it:"Conta nell'Accademia ClayArena",cs:"Započítává se v Akademii ClayArena",pl:"Liczy się w Akademii ClayArena",pt:"Conta na Academia ClayArena",hu:"Beszámít a ClayArena Akadémián",fi:"Lasketaan ClayArena Akatemiassa",lt:"Įskaitoma ClayArena akademijoje"},
+ // 10.2026, navigation inside a test (stop / save / reset) and accessible names
+ stop:{de:"Test abbrechen",fr:"Interrompre le test",it:"Interrompi il test",cs:"Přerušit test",pl:"Przerwij test",pt:"Interromper o teste",hu:"Teszt megszakítása",fi:"Keskeytä testi",lt:"Nutraukti testą"},
+ stopQ:{de:"Test abbrechen?",fr:"Interrompre le test ?",it:"Interrompere il test?",cs:"Přerušit test?",pl:"Przerwać test?",pt:"Interromper o teste?",hu:"Megszakítja a tesztet?",fi:"Keskeytetäänkö testi?",lt:"Nutraukti testą?"},
+ stopD:{de:"Sie können ihn speichern und später fortsetzen (24 Std.) oder zurücksetzen.",fr:"Vous pouvez l'enregistrer et le reprendre plus tard (24 h) ou le réinitialiser.",it:"Puoi salvarlo e continuare più tardi (24 h) oppure azzerarlo.",cs:"Můžete ho uložit a pokračovat později (24 h), nebo ho zahodit.",pl:"Możesz go zapisać i dokończyć później (24 h) albo wyzerować.",pt:"Pode guardá-lo e continuar mais tarde (24 h) ou repô-lo.",hu:"Elmentheti, és később folytathatja (24 óra), vagy törölheti.",fi:"Voit tallentaa sen ja jatkaa myöhemmin (24 h) tai nollata sen.",lt:"Galite jį išsaugoti ir tęsti vėliau (24 val.) arba ištrinti."},
+ pause:{de:"Speichern und beenden",fr:"Enregistrer et quitter",it:"Salva ed esci",cs:"Uložit a odejít",pl:"Zapisz i wyjdź",pt:"Guardar e sair",hu:"Mentés és kilépés",fi:"Tallenna ja poistu",lt:"Išsaugoti ir išeiti"},
+ reset:{de:"Zurücksetzen",fr:"Réinitialiser",it:"Azzera",cs:"Zahodit",pl:"Wyzeruj",pt:"Repor",hu:"Törlés",fi:"Nollaa",lt:"Ištrinti"},
+ cancel:{de:"Test fortsetzen",fr:"Reprendre le test",it:"Continua il test",cs:"Pokračovat v testu",pl:"Wróć do testu",pt:"Continuar o teste",hu:"Teszt folytatása",fi:"Jatka testiä",lt:"Tęsti testą"},
+ saved:{de:"Fortschritt gespeichert",fr:"progression enregistrée",it:"progressi salvati",cs:"pokrok uložen",pl:"postęp zapisany",pt:"progresso guardado",hu:"haladás mentve",fi:"edistyminen tallennettu",lt:"pažanga išsaugota"},
+ unfinished:{de:"Unvollendeter Test:",fr:"Test inachevé :",it:"Test non finito:",cs:"Nedokončený test:",pl:"Niedokończony test:",pt:"Teste por terminar:",hu:"Befejezetlen teszt:",fi:"Kesken jäänyt testi:",lt:"Nebaigtas testas:"},
+ cont:{de:"Fortsetzen",fr:"Reprendre",it:"Continua",cs:"Pokračovat",pl:"Kontynuuj",pt:"Continuar",hu:"Folytatás",fi:"Jatka",lt:"Tęsti"},
+ discG:{de:"Disziplin",fr:"Discipline",it:"Disciplina",cs:"Disciplína",pl:"Dyscyplina",pt:"Disciplina",hu:"Szakág",fi:"Laji",lt:"Disciplina"},
+ langG:{de:"Sprache",fr:"Langue",it:"Lingua",cs:"Jazyk",pl:"Język",pt:"Língua",hu:"Nyelv",fi:"Kieli",lt:"Kalba"},
+ crumbs:{de:"Navigationspfad",fr:"Fil d'Ariane",it:"Percorso di navigazione",cs:"Drobečková navigace",pl:"Ścieżka nawigacji",pt:"Caminho de navegação",hu:"Morzsamenü",fi:"Murupolku",lt:"Naršymo kelias"},
+ // the "→" button next to the language select (keyboard choice is confirmed, see the select handlers at the end); = Academy "nav_lang_go"
+ langGo:{de:"In der gewählten Sprache öffnen",fr:"Ouvrir dans la langue choisie",it:"Apri nella lingua scelta",cs:"Otevřít ve zvoleném jazyce",pl:"Otwórz w wybranym języku",pt:"Abrir na língua escolhida",hu:"Megnyitás a választott nyelven",fi:"Avaa valitulla kielellä",lt:"Atidaryti pasirinkta kalba"}
 };
 TX.sBestShort=TX.short; // stats card "best short test": the card shows the best %, so the test name is enough
 /* Opened from the ClayArena Academy: ?from=learn (link back) and ?mode=short (the short test of a route requirement). */
 const QS=new URLSearchParams(location.search), FROM_LEARN=QS.get("from")==="learn", WANT_MODE=QS.get("mode");
 const EXAMLIKE=m=>m==="exam"||m==="short"; // results only at the end, pass mark PASS
+/* Anonymous site statistics (docs/shared/stats.js, loaded by docs/shared/nav.js; tools/stats/README.md): "trainer_test"
+   (discipline:mode:% when a test ends) and "lang" (language switched). Never throws; nothing is sent while statistics are off. */
+const stat=(n,v)=>{ try{ if(window.ClayStats) window.ClayStats.event(n,v); }catch(_){} };
 /* Storage keys follow the ClayArena naming: this trainer is a ClayArena tool. OLD = legacy keys of builds before 10.2026.
    One-time migration: when the new key is still empty, the legacy value is copied over.
    - progress: the legacy key is kept and read as a fallback (store.get), so nothing is lost if the copy fails;
@@ -196,16 +239,33 @@ const KEY="clayarena-trainer", RUNKEY="clayarena-trainer-run", OLD={progress:"cl
   const r=localStorage.getItem(OLD.run); if(r!=null){ if(localStorage.getItem(RUNKEY)==null) localStorage.setItem(RUNKEY,r); localStorage.removeItem(OLD.run); }
 }catch(e){} })();
 const store={get(){try{return JSON.parse(localStorage.getItem(KEY)||localStorage.getItem(OLD.progress)||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem(KEY,JSON.stringify(v))}catch(e){}}};
-let P=Object.assign({lang:(()=>{const q=new URLSearchParams(location.search).get("lang");if(LANGS.includes(q))return q;const n=(navigator.language||"en").slice(0,2);return LANGS.includes(n)?n:"en";})(),disc:"sporting",stats:{}},store.get());
-{const q=new URLSearchParams(location.search).get("lang");if(LANGS.includes(q))P.lang=q;}
-let S={view:"home",level:0,run:null};
+/* Visitor language of the site (docs/shared/nav.js): read here directly, because this script runs before nav.js (defer). */
+const VKEY="clayarena-lang";
+const vlGet=()=>{ try{ const v=JSON.parse(localStorage.getItem(VKEY)||"null"); return LANGS.includes(v)?v:null; }catch(e){ return null; } };
+const vlSet=l=>{ if(window.ClayNav&&ClayNav.setLang) ClayNav.setLang(l); else try{ localStorage.setItem(VKEY,JSON.stringify(l)); }catch(e){} };
+const QL=(()=>{ const q=QS.get("lang"); return LANGS.includes(q)?q:null; })();
+let P=Object.assign({lang:(()=>{const n=(navigator.language||"en").slice(0,2);return LANGS.includes(n)?n:"en";})(),disc:"sporting",stats:{}},store.get());
+{ const v=QL||vlGet(); if(v) P.lang=v; } // ?lang > visitor language > last choice here > browser
+const HASHD=location.hash==="#compak"?"compak":location.hash==="#sporting"?"sporting":null;
+if(HASHD) P.disc=HASHD;
+/* S.run = the test in progress; S.paused = it is kept (saved) while the mode screen is shown; S.ask = the stop question is open. */
+let S={view:"home",level:0,run:null,paused:false,ask:false};
 /* A test in progress survives leaving the page (saved per browser for 24 h) and the project bar offers the way back.
-   The saved run keeps the display order of the options (ord); a run saved before option shuffling existed gets a new order. */
-try{ const sv=JSON.parse(localStorage.getItem(RUNKEY)||"null"); if(sv&&Date.now()-sv.ts<864e5&&sv.disc){ P.disc=sv.disc; const byId=Object.fromEntries((QUIZ[sv.disc]||[]).map(q=>[q.id,q])); const qs=sv.ids.map(id=>byId[id]).filter(Boolean); if(qs.length===sv.ids.length){ const ord=qs.map((q,i)=>sv.ord&&validOrd(sv.ord[i],q)?sv.ord[i]:optOrder(q)); S={view:"run",level:sv.level||0,run:{mode:sv.mode,qs,ord,i:sv.i,ans:sv.ans,picked:sv.picked}}; } } }catch(e){}
-function saveRun(){ try{ if(S.view==="run"&&S.run){ const r=S.run; localStorage.setItem(RUNKEY,JSON.stringify({ts:Date.now(),disc:P.disc,level:S.level,mode:r.mode,ids:r.qs.map(q=>q.id),ord:r.ord,i:r.i,ans:r.ans,picked:r.picked}));
-    window.ClayNav&&ClayNav.setResume({section:"trainer",label:`${t("svc")} ${P.disc==="sporting"?"Sporting™":"Compak® Sporting"} · ${t("q")} ${r.i+1} ${t("of")} ${r.qs.length}`,url:location.href.replace(/#.*$/,"")+"#"+P.disc}); }
+   The saved run keeps the display order of the options (ord); a run saved before option shuffling existed gets a new order.
+   It is resumed at once only if the address asks for nothing else (no other ?mode, no other #discipline): otherwise the mode
+   screen shows it as «Незавершений тест … Продовжити» next to the requested mode. */
+try{ const sv=JSON.parse(localStorage.getItem(RUNKEY)||"null"); if(sv&&Date.now()-sv.ts<864e5&&sv.disc&&QUIZ[sv.disc]){ const byId=Object.fromEntries((QUIZ[sv.disc]||[]).map(q=>[q.id,q])); const qs=sv.ids.map(id=>byId[id]).filter(Boolean); if(qs.length===sv.ids.length){ const ord=qs.map((q,i)=>sv.ord&&validOrd(sv.ord[i],q)?sv.ord[i]:optOrder(q));
+  const run={mode:sv.mode,disc:sv.disc,qs,ord,i:sv.i,ans:sv.ans,picked:sv.picked,from:sv.from||(FROM_LEARN?"learn":"")};
+  const other=(WANT_MODE&&WANT_MODE!==sv.mode)||(HASHD&&HASHD!==sv.disc);
+  if(!other) P.disc=sv.disc;
+  S={view:other?"home":"run",level:sv.level||0,run,paused:other,ask:false}; } } }catch(e){}
+const dname=d=>d==="compak"?"Compak® Sporting":"Sporting™";
+const modeKey=m=>m==="mistakes"?"mist":m;
+/* Address to come back to a run: same page, same language, no other ?mode, the run's discipline. */
+function runUrl(r){ try{ const u=new URL(location.href); u.searchParams.delete("mode"); u.hash=r.disc; return u.href; }catch(e){ return location.href.replace(/#.*$/,"")+"#"+r.disc; } }
+function saveRun(){ try{ const r=S.run; if(r&&(S.view==="run"||S.paused)){ localStorage.setItem(RUNKEY,JSON.stringify({ts:Date.now(),disc:r.disc,level:S.level,mode:r.mode,ids:r.qs.map(q=>q.id),ord:r.ord,i:r.i,ans:r.ans,picked:r.picked,from:r.from||""}));
+    window.ClayNav&&ClayNav.setResume({section:"trainer",label:`${t("svc")} ${dname(r.disc)} · ${t("q")} ${r.i+1} ${t("of")} ${r.qs.length}`,url:runUrl(r)}); }
   else { localStorage.removeItem(RUNKEY); window.ClayNav&&ClayNav.clearResume("trainer"); } }catch(e){} }
-if(location.hash==="#compak")P.disc="compak"; if(location.hash==="#sporting")P.disc="sporting";
 const L=()=>P.lang;
 const t=k=>(T[L()]&&T[L()][k])||(OV.ui&&OV.ui[k])||(TX[k]&&TX[k][L()])
   ||(k==="shortS"&&OV.ui&&/\b30\b/.test(OV.ui.examS||"")?OV.ui.examS.replace(/\b30\b/,"10"):"")||T.en[k];
@@ -218,7 +278,18 @@ function learnHref(){ const l=L();
   return "../../"+(l==="uk"?"":"en/")+"learn/"; }
 function learnName(){ const N=window.ClayNav&&ClayNav.link&&ClayNav.link("learn",L()); return (N&&N.name)||t("learn"); }
 const learnA=(cls)=>`<a class="${cls}" data-learn href="${esc(learnHref())}">← ${esc(learnName())}</a>`;
-document.addEventListener("claynav:update",()=>document.querySelectorAll("a[data-learn]").forEach(a=>{ a.href=learnHref(); a.textContent="← "+learnName(); }));
+/* "← Правила FITASC": the rules guide in the visitor language (it shows uk or en); the name comes from the bar's naming table. */
+const VLang=()=>(window.ClayNav&&ClayNav.lang&&ClayNav.lang())||L();
+const rulesHref=d=>`../?lang=${encodeURIComponent(VLang())}#${d||P.disc}`;
+const rulesName=()=>(window.ClayNav&&ClayNav.name&&ClayNav.name("rules",L()))||t("back").replace(/^←\s*/,"");
+const rulesA=(cls,d)=>`<a class="${cls}" data-rules="${d||P.disc}" href="${esc(rulesHref(d))}">← ${esc(rulesName())}</a>`;
+/* Breadcrumb of the header: Academy home › Academy Practice › this trainer (links of the bar: published Academy languages). */
+function crumbsHTML(){ const N=window.ClayNav&&ClayNav.link, a=N&&ClayNav.link("learn",L()), p=N&&ClayNav.link("practice",L());
+  const home=a?a.url:"../../"+(L()==="uk"?"":"en/")+"learn/", prac=p?p.url:home+"practice/";
+  return `<span aria-hidden="true">🎓</span><a href="${esc(home)}"${a&&a.lang!==L()?` hreflang="${a.lang}"`:""}>${esc(a?a.name:t("learn"))}</a><span aria-hidden="true">›</span><a href="${esc(prac)}"${p&&p.lang!==L()?` hreflang="${p.lang}"`:""}>${esc(N?ClayNav.name("practice",L()):t("practice"))}</a><span aria-hidden="true">›</span><span aria-current="page">${esc(N?ClayNav.name("trainer",L()):t("svc"))}</span>`; }
+document.addEventListener("claynav:update",()=>{ document.querySelectorAll("a[data-learn]").forEach(a=>{ a.href=learnHref(); a.textContent="← "+learnName(); });
+  document.querySelectorAll("a[data-rules]").forEach(a=>{ a.href=rulesHref(a.dataset.rules); a.textContent="← "+rulesName(); });
+  const c=document.getElementById("crumbs"); if(c) c.innerHTML=crumbsHTML(); saveRun(); });
 const today=()=>{ const d=new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
 /* tx(obj, field): question text / explanation / rule title in the current language (overlay for languages beyond uk/en) */
 const tx=(o,k)=>{ if(o[k+"_"+L()]) return o[k+"_"+L()]; const v=o.id&&OV.questions[o.id]; if(v){ if(k==="q"&&v.q) return v.q; if(k==="explain"&&v.explain) return v.explain; } return o[k+"_en"]||""; };
@@ -237,7 +308,7 @@ function start(mode){
   let qs = mode==="mistakes" ? (QUIZ[P.disc]||[]).filter(q=>st().wrong.includes(q.id)) : pool();
   qs = shuffle(qs).slice(0, mode==="exam"?30:mode==="quick"||mode==="short"?10:qs.length);
   if(!qs.length) return;
-  S.run={mode,qs,ord:qs.map(optOrder),i:0,ans:[],picked:null}; S.view="run"; render(); scrollTo(0,0);
+  S.run={mode,disc:P.disc,qs,ord:qs.map(optOrder),i:0,ans:[],picked:null,from:FROM_LEARN?"learn":""}; S.view="run"; S.paused=false; S.ask=false; render(); scrollTo(0,0);
 }
 function refsHTML(q){
   const b=BOOKS[P.disc]; return `<div class="refs">${(q.refs||[]).map(id=>{ const it=itemById(id); if(!it) return ""; return `<a href="../?item=${encodeURIComponent(id)}#${P.disc}">${esc(it.ref||tx(it,"title"))}</a><a href="${esc(b.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">${t("pdf")} ${it.page} ↗</a>`; }).join("")}</div>`;
@@ -255,7 +326,8 @@ function homeView(){
   const acc=s.ans?Math.round(s.ok/s.ans*100):0, rec=FROM_LEARN&&WANT_MODE==="short";
   const quick=`<button class="mode" data-start="quick"><b>${t("quick")}</b><span>${t("quickS")}</span></button>`;
   const short=`<button class="mode${rec?" rec":""}" data-start="short"><b>${t("short")}</b><span>${t("shortS")}</span>${FROM_LEARN?`<small>🎓 ${t("forLearn")}</small>`:""}</button>`;
-  return `<p class="small">${FROM_LEARN?learnA("")+" · ":""}<a href="../#${P.disc}">${t("back")}</a></p><div class="eyebrow" style="margin-top:12px">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>
+  const r=S.paused&&S.run, resume=r?`<div class="resume" role="region" aria-label="${esc(t("unfinished"))}"><b>${t("unfinished")}</b><span>${t(modeKey(r.mode))} · ${dname(r.disc)} · ${r.i+1}/${r.qs.length}</span><button class="btn primary" data-resume="1">${t("cont")} →</button><button class="btn" data-reset="1">${t("reset")}</button></div>`:"";
+  return `<p class="small">${FROM_LEARN?learnA("")+" · ":""}${rulesA("")}</p>${resume}<div class="eyebrow" style="margin-top:12px">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>
    <div class="stats"><div><small>${t("sAns")}</small><b>${s.ans}</b></div><div><small>${t("sAcc")}</small><b>${acc}%</b></div><div><small>${t("sBest")}</small><b>${s.best}%</b></div>${s.short_best!=null||FROM_LEARN?`<div><small>${t("sBestShort")}</small><b>${s.short_best||0}%</b></div>`:""}<div><small>${t("sMist")}</small><b>${s.wrong.length}</b></div></div>
    <div class="filters">${t("level")}: ${[0,1,2,3].map(l=>`<button class="chip" data-level="${l}" aria-pressed="${S.level===l}">${l?t("l"+l):t("all")}</button>`).join("")}<span>· ${pool().length} ${t("count")}</span></div>
    <div class="modes">${rec?short+quick:quick+short}<button class="mode" data-start="exam"><b>${t("exam")}</b><span>${t("examS")}</span></button><button class="mode" data-start="mistakes" ${s.wrong.length?"":"disabled"}><b>${t("mist")}</b><span>${s.wrong.length?t("mistS"):t("noMist")}</span><small>${s.wrong.length||""}</small></button></div>
@@ -263,8 +335,11 @@ function homeView(){
 }
 function runView(){
   const r=S.run, q=r.qs[r.i], exam=EXAMLIKE(r.mode), answered=r.picked!=null;
-  return `<div class="bar"><i style="width:${(r.i/r.qs.length)*100}%"></i></div>${qCard(q,r.picked,answered&&!exam,r.i,r.qs.length,(r.ord||[])[r.i])}
-    <div class="qfoot"><button class="btn" data-home="1">${t("home")}</button>${answered?`<button class="btn primary" data-next="1">${r.i+1<r.qs.length?t("next"):t("finish")}</button>`:""}</div>`;
+  const back=r.from==="learn"||FROM_LEARN?learnA(""):rulesA("",r.disc);
+  const top=`<div class="runtop">${back}<span aria-hidden="true">·</span><span><b>${t(modeKey(r.mode))}</b> · ${dname(r.disc)} · ${r.i+1}/${r.qs.length}</span><span class="saved">✓ ${t("saved")}</span></div>`;
+  const ask=S.ask?`<div class="confirm" role="alertdialog" aria-labelledby="cfQ" aria-describedby="cfD"><p><b id="cfQ">${t("stopQ")}</b> <span id="cfD">${t("stopD")}</span></p><button class="btn primary" data-pause="1">${t("pause")}</button><button class="btn" data-reset="1">${t("reset")}</button><button class="btn" data-cancel="1">${t("cancel")}</button></div>`:"";
+  return `${top}<div class="bar"><i style="width:${(r.i/r.qs.length)*100}%"></i></div>${qCard(q,r.picked,answered&&!exam,r.i,r.qs.length,(r.ord||[])[r.i])}
+    ${ask}<div class="qfoot"><button class="btn" data-stop="1"${S.ask?' aria-expanded="true"':""}>${t("stop")}</button>${answered?`<button class="btn primary" data-next="1">${r.i+1<r.qs.length?t("next"):t("finish")}</button>`:""}</div>`;
 }
 function resultView(){
   const r=S.run, ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length, pct=Math.round(ok/r.qs.length*100), exam=EXAMLIKE(r.mode), passed=pct>=PASS*100;
@@ -276,7 +351,9 @@ function resultView(){
 }
 function render(){
   document.documentElement.lang=L();
-  document.getElementById("svc").innerHTML=`${t("svc")}<small>ClayArena · FITASC</small>`; document.title=`${t("svc")} FITASC · ClayArena`;
+  const cr=document.getElementById("crumbs"); cr.innerHTML=crumbsHTML(); cr.setAttribute("aria-label",t("crumbs")); document.title=`${t("svc")} FITASC · ClayArena`;
+  document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("tlang").setAttribute("aria-label",t("langG"));
+  const lg=document.getElementById("tlangGo"); lg.setAttribute("aria-label",t("langGo")); lg.title=t("langGo");
   const sel=document.getElementById("tlang"); if(!sel.options.length) sel.innerHTML=LANGS.map(l=>`<option value="${l}">${LANG_NAMES[l]}</option>`).join(""); sel.value=L();
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===P.disc));
   ClaySims.stopSims();
@@ -287,10 +364,17 @@ function render(){
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b||b.disabled) return; const d=b.dataset;
 
-  if(d.disc){ P.disc=d.disc; S={view:"home",level:0,run:null}; store.set(P); try{history.replaceState(null,"","#"+P.disc)}catch(_){} render(); return; }
+  if(d.disc){ P.disc=d.disc; const keep=S.run&&(S.view==="run"||S.paused); S={view:"home",level:0,run:keep?S.run:null,paused:!!keep,ask:false}; store.set(P); try{history.replaceState(null,"","#"+P.disc)}catch(_){} render(); return; } // a test in progress is paused, never lost
   if(d.level!==undefined){ S.level=+d.level; render(); return; }
   if(d.start){ start(d.start); return; }
-  if(d.home){ S.view="home"; S.run=null; render(); scrollTo(0,0); return; }
+  if(d.home){ S.view="home"; S.run=null; S.paused=false; render(); scrollTo(0,0); return; }
+  /* «Перервати тест»: nothing answered yet → back to the modes; else ask «Зберегти й вийти» / «Скинути» / «Продовжити тест». */
+  if(d.stop){ const r=S.run; if(r&&r.i===0&&r.picked==null){ S.view="home"; S.run=null; render(); scrollTo(0,0); return; }
+    S.ask=true; render(); const f=document.querySelector("[data-pause]"); if(f) f.focus(); return; }
+  if(d.pause){ S.ask=false; S.paused=true; S.view="home"; render(); scrollTo(0,0); const f=document.querySelector("[data-resume]"); if(f) f.focus(); return; }
+  if(d.reset){ S.ask=false; S.paused=false; S.run=null; S.view="home"; render(); return; }
+  if(d.cancel){ S.ask=false; render(); const f=document.querySelector("[data-stop]"); if(f) f.focus(); return; }
+  if(d.resume){ if(S.run){ P.disc=S.run.disc; store.set(P); try{history.replaceState(null,"",runUrl(S.run))}catch(_){} S.view="run"; S.paused=false; render(); scrollTo(0,0); } return; }
   if(d.opt!==undefined && S.run && S.run.picked==null){
     const r=S.run, q=r.qs[r.i], pick=+d.opt, s=st(); r.picked=pick; r.ans[r.i]=pick; s.ans++;
     if(pick===q.answer){ s.ok++; s.wrong=s.wrong.filter(id=>id!==q.id); } else if(!s.wrong.includes(q.id)) s.wrong.push(q.id);
@@ -298,12 +382,25 @@ document.addEventListener("click",e=>{
   if(d.next){ const r=S.run; r.i++; r.picked=null; if(r.i>=r.qs.length){ const ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length, pct=Math.round(ok/r.qs.length*100);
       if(r.mode==="exam"){ st().best=Math.max(st().best,pct); store.set(P);}
       if(r.mode==="short"){ const s=st(); if(s.short_best==null||pct>=s.short_best){ s.short_best=pct; s.short_at=today(); } store.set(P);} // read by the Academy (progress.js)
+      stat("trainer_test",P.disc+":"+r.mode+":"+pct);
       S.view="result"; } render(); scrollTo(0,0); return; }
 });
-document.getElementById("tlang").addEventListener("change",async e=>{ P.lang=e.target.value; store.set(P);
+/* Language select (audit ia-code-22, the same rule as the Academy header select, docs/learn/app/academy.js langSelKey/langSelChange):
+   a pick with the mouse or finger applies at once; with the keyboard the arrows only move in the list (a closed native select
+   fires "change" on every arrow step), and Enter or the "→" button that appears applies the language. So the test page does not
+   flash through other languages (and fetch their files) while a keyboard user browses the list. */
+const tSel=document.getElementById("tlang"), tGo=document.getElementById("tlangGo");
+async function setLang(l){ tGo.style.display="none"; delete tSel.dataset.kbd; if(!LANGS.includes(l)||l===P.lang){ tSel.value=L(); return; }
+  P.lang=l; store.set(P); stat("lang",P.lang); vlSet(P.lang);
   try{ const u=new URL(location.href); u.searchParams.set("lang",P.lang); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(_){} // keep ?lang (and from/mode)
-  await loadLang(P.lang); render(); });
-loadLang(P.lang).then(render);
+  await loadLang(P.lang); render(); }
+tSel.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); setLang(tSel.value); return; }
+  if(e.key.length===1||/^(Arrow|Page|Home|End)/.test(e.key)) tSel.dataset.kbd="1"; });
+tSel.addEventListener("pointerdown",()=>{ delete tSel.dataset.kbd; });
+tSel.addEventListener("change",()=>{ if(tSel.value===L()){ tGo.style.display="none"; return; } if(tSel.dataset.kbd){ tGo.style.display=""; return; } setLang(tSel.value); });
+tGo.addEventListener("click",()=>{ setLang(tSel.value); const f=document.getElementById("tlang"); if(f) f.focus(); });
+/* ?mode=mistakes (the bar's hint "mistakes to repeat", per discipline): start the mistakes test at once, unless a saved test waits. */
+loadLang(P.lang).then(()=>{ if(WANT_MODE==="mistakes"&&!S.run&&st().wrong.length) start("mistakes"); else render(); });
 </script>
 </body>
 </html>

@@ -388,10 +388,7 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: targets-menu-p1, targets-menu-p2, targets-menu-p3, targets-menu-p4, targets-menu-kp1, targets-menu-kp2, targets-menu-kp3, targets-menu-q2.",
-      "Overlays: move ov.body[k] to ov.note[k] (paragraph became an interpreter note): targets-menu-p5.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-menu-ex1, targets-menu-p4.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in targets-menu-kp2, targets-menu-kp3, targets-menu-kp4, targets-menu-kp5, targets-menu-q1, targets-menu-q2, targets-menu-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-menu.json: translate the missing items targets-menu-ex1, targets-menu-tip1, targets-menu-n1, targets-menu-p5; translate again (or only re-sign the hash where just the form changed) the items whose English changed: targets-menu-q1, targets-menu-q2, targets-menu-q3; move targets-menu-p5 from body to note (they are interpreter notes now)."
     ]
   }
 }

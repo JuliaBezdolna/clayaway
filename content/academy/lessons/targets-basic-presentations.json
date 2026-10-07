@@ -204,7 +204,9 @@
           "quartering-towards"
         ]
       },
-      "ready": true
+      "ready": true,
+      "en": "Crossers fly across in front of you; quartering targets cross at an angle, going away from you or coming towards you.",
+      "uk": "Поперечні мішені летять упоперек перед вами; косі перетинають поле під кутом — від стрільця або на стрільця."
     }
   ],
   "note": [
@@ -680,11 +682,8 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: flight-crosser-p2, flight-crosser-p5, flight-crosser-kp2, flight-quartering-p5, flight-quartering-q3.",
-      "Overlays: move ov.body[k] to ov.note[k] (paragraph became an interpreter note): flight-quartering-p5.",
-      "Overlays: remove keys deleted as duplicates or merged in the master: flight-crosser-title, flight-crosser-kp3, flight-crosser-kp4, flight-crosser-kp5, flight-quartering-title, flight-quartering-kp1, flight-quartering-kp3, flight-quartering-kp5.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: flight-crosser-p1, flight-crosser-p2, flight-crosser-p3, flight-crosser-p4, flight-quartering-p1, flight-quartering-p2, flight-quartering-p3, flight-crosser-kp1, flight-crosser-kp2, flight-crosser-q1, flight-quartering-q2.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in flight-crosser-p1, flight-crosser-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-basic-presentations.json: translate the missing items targets-basic-presentations-p1, targets-basic-presentations-map, flight-quartering-p5, targets-basic-presentations-kp1, targets-basic-presentations-dyk, targets-basic-presentations-q-distance, targets-basic-presentations-q-slowing, targets-basic-presentations-q-directions; translate again (or only re-sign the hash where just the form changed) the items whose English changed: flight-crosser-q1, flight-quartering-q3, flight-crosser-q3, flight-quartering-q2; move flight-quartering-p5 from body to note (they are interpreter notes now).",
+      "Overlays, animation caption of 2026-10-07: body.flight-crosser-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_flight)."
     ]
   }
 }

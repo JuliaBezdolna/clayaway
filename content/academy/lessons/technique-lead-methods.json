@@ -151,8 +151,8 @@
         "focus": "perceived-vs-actual"
       },
       "ready": true,
-      "en": "Animation: one crossing target, four methods. The table shows that the actual lead stays the same, while the lead you see changes with the method.",
-      "uk": "Анімація: одна поперечна мішень, чотири методи. Таблиця показує, що справжній винос не змінюється, а видимий залежить від методу."
+      "en": "One crossing target, four methods: the actual lead stays the same, the lead you see changes with the method.",
+      "uk": "Одна поперечна мішень, чотири методи: справжній винос однаковий, а видимий залежить від методу."
     }
   ],
   "note": [
@@ -482,7 +482,7 @@
     "technique-lead-methods-p5": "90f7570b",
     "technique-lead-methods-ambush": "9ed427d6",
     "technique-lead-methods-p6": "00dcd054",
-    "lead-why-sim": "ed852e6b",
+    "lead-why-sim": "40e77587",
     "technique-lead-methods-n1": "a587017e",
     "lead-why-kp1": "06585b31",
     "lead-why-kp2": "69c874f3",
@@ -506,8 +506,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/technique-lead-methods.json (9 languages): translate again (meaning or audit fix changed): lead-why-p2, lead-why-p3, lead-why-p5, lead-why-q2; no longer used (delete from the overlays): lead-why-kp5, lead-why-title.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-lead-methods.json (9 languages): translate again (meaning or wording changed for readers): lead-why-p1, lead-why-p3, lead-why-p4, technique-lead-methods-p3, technique-lead-methods-p4, lead-why-kp3, lead-why-q2."
+      "Overlays, animation caption of 2026-10-07: body.lead-why-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
     ]
   }
 }

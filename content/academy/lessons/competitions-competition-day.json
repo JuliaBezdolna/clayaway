@@ -760,12 +760,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Translation wave: the English of the core paragraph sport-competition-day-p2 changed (the ClayAway sentence was taken out; ClayAway is not launched and now appears only in the interpreter note competitions-competition-day-n1, in the future tense). Update the 9 overlays i18n/<lang>/competitions-competition-day.json for this key; their texts stay valid apart from that sentence.",
-      "Overlay keys no longer in this master (the merged title and the duplicate key points): sport-competition-day-title, sport-competition-day-kp2, sport-competition-day-kp3. Remove them from the overlays during the next translation wave.",
-      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/competitions-competition-day.json: sport-competition-day-p1 (now also defines the squad; the definition moved here from p2), sport-competition-day-p2 (definition removed; plain wording of rotation and the showing of targets), sport-competition-day-p4 (“called for the first target”, explained), sport-competition-day-p5 (countback by the 8th layout or Compak, places below 3rd are shared; sudden death explained), sport-competition-day-q2 (now in the quiz; explanation rewritten), sport-competition-day-q3 (option c and the explanation: 8th layout or Compak; question “How are they ranked?”), sport-competition-day-ph2 (meaning labelled Sporting™).",
-      "Core keys whose English changed only in form (trade-mark tokens {{tm:…}} instead of the literal names, fact tokens, curly apostrophe ’): sport-competition-day-p3, sport-competition-day-kp4, sport-competition-day-ph1, sport-competition-day-ph4. The translations stay valid: in the overlays put the new hash and, where the name is written out, keep it as it is.",
-      "Removed duplicate questions (route exams showed them twice): sport-competition-day-q1 (the same as competitions-types-of-events-q1) and competitions-competition-day-q3 (the same as sport-competition-day-q2). Remove sport-competition-day-q1 from the 9 overlays during the next translation wave. New exam questions to translate: competitions-competition-day-q-inline-late, competitions-competition-day-q-carry."
-    ]
+    "tasks": []
   }
 }

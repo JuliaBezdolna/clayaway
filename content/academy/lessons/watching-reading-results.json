@@ -512,12 +512,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Glossary: the term 'scoreboard' (results board) is not in the glossary yet. When it is added to docs/glossary/data/learn_terms.js (+ i18n), add it to terms and link “scoreboard” / «табло» in watching-reading-results-p3.",
-      "Moved to competitions-categories-and-shoot-offs (design §3.2): referee-scoring-p3, referee-scoring-p4, referee-scoring-ph4, referee-scoring-ph5, referee-scoring-kp3, referee-scoring-kp4, referee-scoring-kp5 and the exam question referee-scoring-q2. Move their entries from i18n/<lang>/watching-reading-results.json to i18n/<lang>/competitions-categories-and-shoot-offs.json (9 languages).",
-      "Overlay keys no longer in this master: referee-scoring-title (the merged heading; the anchor #referee-scoring is now on referee-scoring-p1). Remove it from the overlays during the next translation wave.",
-      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/watching-reading-results.json: referee-scoring-p1 (plain wording: standard card, letter of the trap, photo before the next stand), referee-scoring-p2 (now labelled per discipline: checking when leaving each stand is a Sporting™ rule; the interpreter advice moved out of it into the new core note watching-reading-results-n-card, so split the old overlay text between the two keys), referee-scoring-q1 (now in the quiz; explanation reworded), referee-scoring-ph1 (meaning labelled Sporting™).",
-      "Core keys whose English changed only in form (trade-mark tokens {{tm:…}} instead of the literal names): referee-scoring-kp2, referee-scoring-ph2, referee-scoring-q3. The translations stay valid: put the new hash in the overlays.",
-      "Removed duplicate question watching-reading-results-q1 (the same as referee-scoring-q1, which stays). New exam question to translate: watching-reading-results-q-photo."
+      "Glossary: the term 'scoreboard' (results board) is in docs/glossary/data/learn_terms.js now: add it to terms and link “scoreboard” / «табло» in watching-reading-results-p3 (the English changes, so update the 9 overlays of that paragraph)."
     ]
   }
 }

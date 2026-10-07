@@ -109,8 +109,8 @@
         "follow_through": false
       },
       "ready": true,
-      "en": "Animation: a rabbit and a still gun. Shoot before the rabbit reaches the point of the muzzles; a shot fired as it arrives goes behind.",
-      "uk": "Анімація: кролик і нерухома рушниця. Стріляйте ще до того, як кролик дійде до точки, куди дивляться стволи; постріл у мить, коли він уже там, іде позаду."
+      "en": "The muzzles wait still ahead of the rabbit; the shot must come before it reaches them, or it goes behind.",
+      "uk": "Стволи нерухомо чекають попереду кролика; стріляти треба ще до того, як він туди дійде, інакше постріл піде позаду."
     }
   ],
   "note": [],
@@ -315,7 +315,7 @@
     "lead-ambush-instinctive-p2": "e8ac3f4d",
     "lead-ambush-instinctive-p3": "4c27c325",
     "lead-ambush-instinctive-p4": "29bc86ef",
-    "lead-ambush-instinctive-sim": "663a8212",
+    "lead-ambush-instinctive-sim": "0f72a59c",
     "lead-ambush-instinctive-kp1": "df8d8645",
     "lead-ambush-instinctive-kp2": "3be1edd0",
     "lead-ambush-instinctive-kp3": "20c33c7b",
@@ -334,10 +334,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "I-01 checked: body, key point 1, phrase 2 and the animation (trigger before the target arrives) all agree. The glossary entry “ambush” (short_en/short_uk) still says the shot is fired as the target arrives: fix it in docs/glossary/data/learn_terms.js. Suggested wording (review round 2): “the muzzles wait still at a point ahead of the target and the trigger is pulled before the target reaches it, so it flies into the shot” / «стволи нерухомо чекають у точці попереду мішені, а на спуск натискають ще до того, як мішень туди долетить, тож вона влітає в постріл»; then update the 9 glossary translations (i18n/<lang>.js) and delete this item. Also used by technique-lead-methods and technique-follow-through-and-mistakes.",
-      "Overlays i18n/<lang>/lead-ambush-instinctive.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): lead-ambush-instinctive-p1, lead-ambush-instinctive-q2, lead-ambush-instinctive-q3; translate again (meaning or audit fix changed): lead-ambush-instinctive-p3, lead-ambush-instinctive-kp4.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/lead-ambush-instinctive.json (9 languages): translate again (meaning or wording changed for readers): lead-ambush-instinctive-p2, lead-ambush-instinctive-p3, lead-ambush-instinctive-kp3, lead-ambush-instinctive-kp4; new keys to translate: lead-ambush-instinctive-sporting.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in lead-ambush-instinctive-p4, lead-ambush-instinctive-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, animation caption of 2026-10-07: body.lead-ambush-instinctive-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
     ]
   }
 }

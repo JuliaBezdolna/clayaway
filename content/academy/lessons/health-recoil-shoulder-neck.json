@@ -483,8 +483,7 @@
     "moves_in": [],
     "tasks": [
       "Specialist check (sports doctor or physiotherapist) before review.status can leave \"pending\".",
-      "Glossary: add term gas-operated (it was in new_terms; listed in the author report) and compare the glossary entry recoil-pad with this lesson’s old definition: “A rubber or gel pad on the end of the stock that softens recoil; it also changes the length of pull.”",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/health-recoil-shoulder-neck.json (9 languages): translate again (meaning or wording changed for readers): health-recoil-shoulder-neck-p2, health-recoil-shoulder-neck-p4, health-recoil-shoulder-neck-p5, women-recoil-management-q1; re-sign the hash only (wording changed, meaning not): health-recoil-shoulder-neck-p3; new keys to translate: health-recoil-shoulder-neck-heavy-gun; did_you_know women-recoil-management-dyk is now a body paragraph with the same key (move the overlay value from \"did_you_know\" to body.women-recoil-management-dyk, text unchanged)."
+      "Glossary: the term gas-operated is in docs/glossary/data/learn_terms.js now: add it to terms and link “gas-operated” in women-recoil-management-p5 (the English changes, so update the 9 overlays of that paragraph). The recoil-pad entry already has this lesson’s old definition."
     ]
   }
 }

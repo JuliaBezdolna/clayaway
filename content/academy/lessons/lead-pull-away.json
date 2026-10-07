@@ -112,8 +112,8 @@
         "follow_through": true
       },
       "ready": true,
-      "en": "Animation: the muzzles track the target, then accelerate ahead. The shot is fired while the gun is still accelerating, so the lead you see is smaller than the actual lead.",
-      "uk": "Анімація: стволи ведуть мішень, а потім прискорюються вперед. Постріл лунає, поки рушниця ще прискорюється, тож видимий винос менший за справжній."
+      "en": "The muzzles start on the target, then pull ahead; the lead you see is smaller than the actual lead.",
+      "uk": "Стволи стартують на мішені, а потім виходять уперед; видимий винос менший за справжній."
     }
   ],
   "note": [
@@ -319,7 +319,7 @@
     "lead-pull-away-p3": "a962617b",
     "lead-pull-away-p4": "c2b3e18d",
     "lead-pull-away-p5": "aab432c7",
-    "lead-pull-away-sim": "bb992bfd",
+    "lead-pull-away-sim": "d376ec6e",
     "lead-pull-away-n1": "a7a3924f",
     "lead-pull-away-kp1": "87cd4d51",
     "lead-pull-away-kp2": "b87906d4",
@@ -338,8 +338,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/lead-pull-away.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): lead-pull-away-p4; translate again (meaning or audit fix changed): lead-pull-away-p1, lead-pull-away-p5, lead-pull-away-q3; no longer used (delete from the overlays): lead-pull-away-kp5.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/lead-pull-away.json (9 languages): translate again (meaning or wording changed for readers): lead-pull-away-p1, lead-pull-away-p3; re-sign the hash only (wording changed, meaning not): lead-pull-away-p2; lead-pull-away-p2 is now t:\"steps\" (5 steps, wording unchanged; its first sentence \"How it looks, step by step.\" moved to the end of lead-pull-away-p1): split the overlay value into a list and re-sign."
+      "Overlays, animation caption of 2026-10-07: body.lead-pull-away-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
     ]
   }
 }

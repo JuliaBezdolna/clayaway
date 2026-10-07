@@ -267,8 +267,13 @@ a{color:var(--field)}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
 html{scroll-behavior:smooth}
 
-.ca-logo{display:inline-block;background:#000;border-radius:7px;padding:1px 9px;font-size:14px;box-shadow:0 0 14px rgba(52,211,153,.25)}
-.ca-logo b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
+.secname{color:var(--ink);text-decoration:none;font-weight:700;min-height:32px;display:inline-flex;align-items:center;gap:6px}
+.secname:hover{color:var(--field)}
+.crumbs{display:flex;flex-wrap:wrap;gap:4px 7px;align-items:center;font-size:14px;color:var(--muted);margin:0 0 14px}
+.crumbs a{color:var(--soft,#D1D5DB);text-decoration:none;min-height:32px;display:inline-flex;align-items:center}
+.crumbs a:hover{text-decoration:underline}
+.crumbs [aria-current]{color:var(--ink);font-weight:600}
+.secname:focus-visible,.crumbs a:focus-visible{outline:2px solid var(--field);outline-offset:2px;border-radius:6px}
 .card,.package div,.tbl,.tree,.story,.phase,.zone,.mock,.ex,.qa,.tp-buy,.kpis div,.mock-card,.mock-bar,.mock-nav{background:rgba(255,255,255,.04)!important}
 .card-top{background:linear-gradient(135deg,#064E3B,#0B1120)!important;color:#fff!important}
 th{background:rgba(255,255,255,.03)!important}
@@ -281,7 +286,8 @@ h1,h2,h3{letter-spacing:-.01em}
 
 <div class="wrap">
 <nav class="toc" aria-label="Зміст">
-  <div class="brand"><span class="ca-logo"><b>ClayArena</b></span><span>ClayAway</span></div>
+  <!-- Section name instead of a second logo (the ONE ClayArena logo is in the project bar, docs/shared/nav.js): back to the ClayAway home -->
+  <div class="brand"><a class="secname" href="../tours/"><span aria-hidden="true">✈️</span> Тури ClayAway</a></div>
   <div class="part">Продукт</div>
   <ol>
     <li><a href="#idea">Ідея</a></li>
@@ -316,7 +322,8 @@ h1,h2,h3{letter-spacing:-.01em}
   </ol>
 </nav>
 
-<main>
+<main id="app">
+<nav class="crumbs" aria-label="Навігаційний ланцюжок"><span aria-hidden="true">✈️</span><a href="../tours/">ClayAway</a><span aria-hidden="true">›</span><span aria-current="page">ТЗ ClayAway</span></nav>
 <header class="hero">
   <div class="eyebrow">Новий напрям ClayArena · концепція</div>
   <h1>ClayAway</h1>

@@ -426,11 +426,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Moved out to mind-concentration-focus (design §3.2, basics-eyes → soft and hard focus): body basics-eyes-p4 and the animation basics-eyes-sim {type: flight, preset: going-away, focus: eyes}. Their English and Ukrainian are in the frozen old source (lesson basics-eyes in docs/interpreter/src/missions/basics.json); the 9 translations stay in i18n/<lang>/technique-master-eye.json under key basics-eyes-p4 until they are moved. Phrases basics-eyes-ph2…ph4 and quiz basics-eyes-q2 stay in this lesson.",
-      "Overlays i18n/<lang>/technique-master-eye.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): basics-eyes-p2, basics-eyes-q3; translate again (meaning or audit fix changed): basics-eyes-p3; move basics-eyes-p4 to i18n/<lang>/mind-concentration-focus.json; no longer used (delete from the overlays): basics-eyes-kp4, basics-eyes-title.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-master-eye.json (9 languages): translate again (meaning or wording changed for readers): basics-eyes-p1, technique-master-eye-age, basics-eyes-ph2, basics-eyes-q2.",
-      "Glossary (learn_terms.js, not a lesson file): master-eye and cross-dominance short_uk/long_uk say «головне око»; the lessons and the glossary term_local (i18n/uk.js) use «провідне око»: use «провідне око» everywhere."
-    ]
+    "tasks": []
   }
 }

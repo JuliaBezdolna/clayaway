@@ -195,9 +195,9 @@
         "preset": "going-away",
         "focus": "eyes"
       },
-      "ready": false,
-      "en": "Animation: soft focus around the pick-up point, then hard focus on the leading edge of the target.",
-      "uk": "Анімація: м’який фокус навколо точки підхоплення, потім жорсткий фокус на передньому краї мішені."
+      "ready": true,
+      "en": "Soft focus while the eyes wait at the pick-up point, then hard focus on the front edge of the target.",
+      "uk": "М’який фокус, поки очі чекають у точці підхоплення, потім жорсткий фокус на передньому краї мішені."
     },
     {
       "k": "mind-concentration-focus-p8",
@@ -450,7 +450,7 @@
     "mind-concentration-focus-p7": "d5234bf3",
     "mind-concentration-focus-p3": "1d7a2e86",
     "basics-eyes-p4": "980c7cb2",
-    "mind-concentration-focus-sim": "e65f1a6a",
+    "mind-concentration-focus-sim": "452f875e",
     "mind-concentration-focus-p8": "72cebf0f",
     "mind-concentration-focus-p9": "e0357652",
     "mind-concentration-focus-p10": "f7366569",
@@ -472,8 +472,7 @@
     "moves_in": [],
     "tasks": [
       "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
-      "Animation ready:false: check it in the page against the text (soft/hard focus or the three points), then set ready:true.",
-      "basics-eyes-p4 (core) came from technique-master-eye and was edited (audit A-14: 'often slows or stops'; 'ideally' removed). Copy its 9 overlay entries from i18n/<lang>/technique-master-eye.json to i18n/<lang>/mind-concentration-focus.json and re-translate (hash changed)."
+      "Overlays, animation caption of 2026-10-07: body.mind-concentration-focus-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_eyes)."
     ]
   }
 }

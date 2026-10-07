@@ -112,8 +112,8 @@
         "follow_through": true
       },
       "ready": true,
-      "en": "Animation: the muzzles wait in front and the target closes the gap. Shoot when the gap looks right, and the gun then holds that lead. In “Your turn”, a shot at the wrong moment misses.",
-      "uk": "Анімація: стволи чекають попереду, а мішень скорочує проміжок. Стріляйте, коли проміжок виглядає правильним, — далі рушниця тримає цей винос. У режимі «Ваша черга» постріл у невдалу мить дає промах."
+      "en": "The muzzles wait in front and the target closes the gap; shoot when the gap looks right, then keep the gun moving.",
+      "uk": "Стволи чекають попереду, а мішень скорочує проміжок; стріляйте, коли проміжок виглядає правильним, і ведіть рушницю далі."
     }
   ],
   "note": [],
@@ -318,7 +318,7 @@
     "lead-maintained-p3": "ef94419f",
     "lead-maintained-p4": "369d9fb1",
     "lead-maintained-p5": "280dfd7e",
-    "lead-maintained-sim": "610438f9",
+    "lead-maintained-sim": "58856df7",
     "lead-maintained-kp1": "33b5f739",
     "lead-maintained-kp2": "e6e1add7",
     "lead-maintained-kp3": "a0fcec1e",
@@ -337,9 +337,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/lead-maintained.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): lead-maintained-p1; translate again (meaning or audit fix changed): lead-maintained-p2, lead-maintained-p4, lead-maintained-kp4.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/lead-maintained.json (9 languages): translate again (meaning or wording changed for readers): lead-maintained-p1, lead-maintained-p2, lead-maintained-kp2; lead-maintained-p2 is now t:\"steps\": its overlay value becomes a list of 5 steps (translate again: steps 1 and 3 were reworded, and the first sentence moved to the end of lead-maintained-p1).",
-      "Glossary (docs/glossary/data/learn_terms.js + i18n, not a lesson file): maintained-lead short_en/short_uk say the barrels move ahead of the target “at its speed throughout”; this lesson (step 3) and the lead lab let the target close up first. Suggested: “the barrels stay ahead of the target and, at the shot, move at its speed, keeping the gap” / «стволи тримаються попереду мішені, а в момент пострілу рухаються з її швидкістю, зберігаючи проміжок»."
+      "Overlays, animation caption of 2026-10-07: body.lead-maintained-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
     ]
   }
 }

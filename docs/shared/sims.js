@@ -1,12 +1,13 @@
 /* ClayArena shared simulations — ONE implementation used by several projects:
-   Interpreter Academy (docs/interpreter/: the course and its static lesson pages), the FITASC rules trainer (docs/rules/trainer/)
+   the Academy (docs/learn/app/academy.js: lesson animations, Practice games), the FITASC rules trainer (docs/rules/trainer/)
    and the glossary term pages (docs/glossary/<id>/, docs/<lang>/glossary/<id>/, mounted through TERM_SIMS below).
    - flightSim(host, preset, opts): animated target presentation (crosser, incomer, driven, going-away, overhead, quartering,
      teal, chandelle, looper, battue, dropping, rabbit). opts.focus adds a teaching overlay:
        "points" = pick-up point (eyes), hold point (muzzles at the call) and break point; the clay breaks at the break point;
        "stance" = hold point and break point with lines from the stand (the front foot points at the break point);
        "eyes"   = soft focus around the pick-up point, then hard focus on the leading edge of the target.
-   - pairSim(host, kind): a pair of targets — report pair, simultaneous pair, rafale (following pair, Sporting™ only).
+     Before it plays, the canvas shows a still "poster": the whole flight line dotted, so a reader who does not play it still sees it.
+   - pairSim(host, kind, opts): a pair of targets — report pair, simultaneous pair, rafale (following pair, Sporting™ only).
    - leadLab(host, method, opts): crossing target in slow motion; methods maintained / swing / pullaway / ambush; "watch the method"
      or "your turn"; freeze-frame at the shot with the actual lead in metres and feet.
      opts.preset: "crosser-rl" = target flies right to left, "rabbit" = target rolls along the ground (default: left to right);
@@ -26,21 +27,40 @@
        pullaway   — the muzzles track the target, then accelerate smoothly ahead; the lead seen is smaller than the actual lead;
        ambush     — the muzzles wait still at a point ahead; the shooter must decide before the target gets there (lead seen =
                     actual lead + target speed × 0.15 s); a shot fired as the target arrives goes behind.
+   - standSim(host, kind, opts): a stand seen from the side (type "call"): the shooter, the referee, the trap with the trapper or a
+     sonopull microphone, a clock. Scenes (SCENES below): "signal" (Sporting™: the referee passes the call to the trapper with a sound
+     signal; the target leaves in time), "signal-late" (it leaves later than the limit: “No Bird”, thrown again; the shooter does not
+     fire — the rulebooks do not say how a late target is scored when the shooter fires at it), "manual" (Compak® Sporting, released
+     by hand 0–3 s after the call), "sonopull" (Compak® Sporting, a fixed delay after the call), "gun-ready" (Sporting™ ready position:
+     stock below the line on the vest until the target appears, then the mount), "gun-early" (called with the gun already up: the
+     referee's spoken warning and yellow card; the scene stops there), "misfire" (a click; stay put, gun closed and pointing down the
+     range; the referee examines the gun; first malfunction: the target is thrown again). The status line under the canvas says the
+     same in words (aria-live), so the scene works with a screen reader too.
+   Every animation has a big ▶ play / ↻ replay button and a 🐢 slow-motion toggle (one setting for the page: CFG.slow; the clocks of
+   the stand scenes still show real seconds). It plays by itself once (opts.autoplay): "view" = when at least half of it is on the
+   screen, never when the reader prefers reduced motion; "now" = right away (callers that already asked the reader, e.g. a game);
+   false = only by the button. mount() defaults to "view", the direct calls keep their old behaviour ("now" for flights and pairs,
+   false for the lead lab).
    Usage: ClaySims.config({t: key => text, term: id => ({en, local}) | null, onHit: info => {}});   info = {method, v, d}
-          ClaySims.mount(host, {type: "flight", preset, also: [...], pairs: [...], focus} | {type: "lead", method, preset, focus, stop}
-                              | {type: "pair", kind});
+          ClaySims.mount(host, sim, {autoplay, onAutoplay, tab, onTab})   sim = {type: "flight", preset, also: [...], pairs: [...], focus}
+              | {type: "lead", method, preset, focus, stop} | {type: "pair", kind, also: [...]} | {type: "call", kind, also: [...]}
+          ClaySims.hero(host, sim) — the same with a heading ("▶ Watch how the target flies") and a one-line "what to watch" caption
+              (ui keys anim_h_<kind> / anim_w_<kind>, kind = ClaySims.kind(sim)); used for the glossary term pages by auto().
    Lesson keys muzzle_start, gun_speed, trigger and follow_through only describe the method in words: the lab takes that behaviour
-   from the method itself (see above), so they need no code. Types without an animation (e.g. "call") mount nothing.
+   from the method itself (see above), so they need no code.
    Text keys (texts from the page; missing keys fall back to the English DEF below): launch, method, m_maintained, m_swing,
    m_pullaway, m_ambush, speed, distance, demo, try, shoot, hit, behind, ahead, no_shot, perceived, actual, at_muzzle, compare,
    how_maintained, how_swing, how_pullaway, how_ambush, stop_gun, clay_widths, lab_note, decision, shot_moment, lead_word,
-   unit_m, unit_ft, unit_cm, unit_in, unit_ms, pair_report, pair_sim, pair_rafale.
-   The master texts are docs/interpreter/src/ui.json (+ i18n/<lang>.json "ui"); scripts/build_interpreter.py copies them into
-   docs/shared/sims-text.js (list SIM_KEYS there) for pages outside the course.
+   unit_m, unit_ft, unit_cm, unit_in, unit_ms, pair_report, pair_sim, pair_rafale, and every key that starts with "anim_".
+   The master texts are content/academy/ui/<lang>.json (11 languages); scripts/build_academy.mjs copies them into
+   docs/shared/sims-text.js (list SIM_KEYS there) for pages outside the Academy (glossary, rules trainer).
    In production (ClayArena): keep as one front-end module; texts come from the page's translation strings. */
 (function () {
-const CFG = {t: () => null, term: () => null, onHit: null};
-/* English fallback texts (same as the "en" values in docs/interpreter/src/ui.json). Used when a page has no text for a key yet. */
+const CFG = {t: () => null, term: () => null, onHit: null, slow: false};
+/* Anonymous site statistics (docs/shared/stats.js, loaded by nav.js): lead lab results ("lead") and pronunciation ("speak").
+   Never throws; does nothing when the statistics are off. */
+const stat = (name, value) => { try { if (window.ClayStats) window.ClayStats.event(name, value); } catch (e) {} };
+/* English fallback texts (same as the "en" values in content/academy/ui/en.json). Used when a page has no text for a key yet. */
 const DEF = {
   launch: "Launch", method: "Method", m_maintained: "Maintained lead", m_swing: "Swing-through", m_pullaway: "Pull-away", m_ambush: "Ambush",
   speed: "Target speed", distance: "Distance", demo: "Watch the method", try: "Your turn: press when you would shoot", shoot: "Shoot",
@@ -57,11 +77,47 @@ const DEF = {
   pair_report: "Report pair (on report): the 2nd target is released at the sound of the 1st shot",
   pair_sim: "Simultaneous pair: both targets are released together",
   pair_rafale: "Rafale (following pair): the 2nd target from the same trap, as soon as the trap has reloaded",
+  // controls, hero headings and captions, stand scenes (ui keys anim_*)
+  anim_play: "Play", anim_replay: "Replay", anim_slow: "Slow motion",
+  anim_h_flight: "Watch how the target flies", anim_h_points: "Watch the three points", anim_h_eyes: "Watch where the eyes look",
+  anim_h_stance: "Watch the stance", anim_h_pair: "Watch how a double is thrown", anim_h_lead: "Watch how the lead works",
+  anim_h_mount: "Watch the gun mount", anim_h_follow: "Watch the follow-through", anim_h_call: "Watch the call and the release",
+  anim_h_gunpos: "Watch the gun position", anim_h_misfire: "Watch what to do after a misfire",
+  anim_w_flight: "Follow the whole flight: where the target comes from, where you see it clearly and where it goes.",
+  anim_w_points: "The eyes wait at the pick-up point, the muzzles at the hold point; the target breaks at the break point.",
+  anim_w_eyes: "Soft focus around the pick-up point, then hard focus on the front edge of the target.",
+  anim_w_stance: "The front foot points at the break point; the body turns back to the hold point.",
+  anim_w_pair: "Watch when the second target leaves: after the shot, together with the first, or from the same trap.",
+  anim_w_lead: "Watch the gap between the muzzles and the target at the moment of the shot, then try it yourself.",
+  anim_w_mount: "The muzzles move with the target first; the mount is finished as the shot comes.",
+  anim_w_follow: "The gun keeps moving after the shot; stop it at the trigger and the shot goes behind.",
+  anim_w_call: "The clock shows when the target leaves after the call or the referee's signal; a late target is a No Bird.",
+  anim_w_gunpos: "In Sporting™ the stock stays below the line on the vest until the target appears.",
+  anim_w_misfire: "After a misfire, stay put: gun closed and pointing down the range until the referee has checked it.",
+  anim_unit_s: "s", anim_after_call: "after the call", anim_after_signal: "after the signal", anim_line: "line",
+  anim_t_signal: "Sporting™: referee's signal", anim_t_late: "Late target", anim_t_manual: "Compak® Sporting: by hand",
+  anim_t_sonopull: "Compak® Sporting: sonopull", anim_t_ready: "Ready position", anim_t_early: "Gun up at the call",
+  anim_s_in_time: "The target leaves {n} s after the signal: in time (the limit is {max} s).",
+  anim_s_late: "The target leaves {n} s after the signal, later than {max} s: the referee calls “No Bird” and the target is thrown again.",
+  anim_s_manual: "Released by hand: the target leaves {n} s after the call (allowed: 0 to {max} s).",
+  anim_s_sonopull: "Sonopull: the microphone hears the call and the target leaves {n} s later, every time.",
+  anim_s_gun_low: "Ready position: the stock touches the body below the line on the vest.",
+  anim_s_gun_mount: "The target has appeared: only now does the gun come up to the shoulder.",
+  anim_s_early: "Called with the gun already at the shoulder: the first time, a spoken warning and a yellow card.",
+  anim_s_click: "Click: the gun did not fire.",
+  anim_s_hold: "Stay where you are: gun closed and pointing down the range; do not open it or touch the safety.",
+  anim_s_ref: "The referee examines the gun.",
+  anim_s_repeat: "First malfunction of the round: the target is thrown again.",
 };
 const T = k => { const v = CFG.t(k); return v == null || v === "" ? (DEF[k] ?? k) : v; };
 const TERM = id => CFG.term(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
 const sq = x => x * x;
+const lerp = (a, b, k) => a + (b - a) * k, clamp01 = x => Math.max(0, Math.min(1, x)), ease = k => k * k * (3 - 2 * k);
+const fill = (s, v) => String(s).replace(/\{(\w+)\}/g, (m, k) => (v[k] != null ? v[k] : m));
+const pageLang = () => { try { return (document.documentElement.lang || "en").slice(0, 2); } catch (e) { return "en"; } };
+const num1 = n => { try { return new Intl.NumberFormat(pageLang(), {minimumFractionDigits: 1, maximumFractionDigits: 1}).format(n); } catch (e) { return n.toFixed(1); } };
+const RM = () => { try { return matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { return false; } };
 let SIMS = [];
 function stopSims(){ SIMS.forEach(s => s.stop && s.stop()); SIMS = []; }
 const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;overflow:hidden;background:#06101d;margin:16px 0}
@@ -71,10 +127,35 @@ const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;ov
 .cs-ctl select{background:#0B1120;color:#F3F4F6;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:5px 8px;font:inherit}
 .cs-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#F3F4F6;border-radius:10px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
 .cs-btn:hover{border-color:rgba(52,211,153,.5)}.cs-primary{background:#059669;border-color:#059669;color:#fff;font-weight:600}.cs-btn[disabled]{opacity:.45;cursor:default}
+.cs-btn:focus-visible{outline:2px solid #34D399;outline-offset:2px}
+.cs-play{min-height:44px;padding:9px 20px;font-size:15.5px}.cs-slow{min-height:44px}
+.cs-slow[aria-pressed="true"]{border-color:#34D399;color:#34D399;background:rgba(52,211,153,.12)}
 .cs-out{padding:0 12px 12px;font-size:14px;color:#D1D5DB}.cs-out:empty{display:none}.cs-note{font-size:12.5px;color:#9CA3AF}.cs-hit{color:#34D399}.cs-miss{color:#FB923C}.cs-muted{color:#9CA3AF}
-.cs-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 -6px}
+.cs-say{padding:10px 12px 12px;font-size:14.5px;line-height:1.5;color:#E5E7EB;min-height:3.2em;border-top:1px solid rgba(255,255,255,.06)}
+.cs-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 -6px}.cs-tabs .cs-btn{min-height:40px}
+.cs-hero{margin:14px 0 20px}.cs-hero-h{font-weight:700;font-size:18px;color:#34D399;margin:0 0 4px}.cs-hero-w{font-size:14px;color:#9CA3AF;margin:4px 0 0}
+.cs-hero .cs-sim{margin:10px 0 0}
 .cs-cmp{overflow-x:auto}.cs-cmp table{border-collapse:collapse;width:100%;font-size:13px;margin-top:6px}.cs-cmp td,.cs-cmp th{padding:4px 6px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left;vertical-align:top}.cs-cmp th{color:#9CA3AF;font-weight:600}`;
 if (typeof document !== "undefined" && !document.getElementById("cs-sims-css")) { const st = document.createElement("style"); st.id = "cs-sims-css"; st.textContent = CSS; document.head.appendChild(st); }
+
+/* Shared controls: the big play / replay button, the slow-motion toggle (one setting for the whole page) and the one-time
+   autoplay. autoStart() returns a function that cancels a pending autoplay (called by stop()). */
+const slowF = () => (CFG.slow ? 2.5 : 1);
+const playBtn = key => `<button type="button" class="cs-btn cs-primary cs-play" data-play>▶ ${esc(T(key))}</button>`;
+const slowBtn = () => `<button type="button" class="cs-btn cs-slow" data-slow aria-pressed="${CFG.slow ? "true" : "false"}">🐢 ${esc(T("anim_slow"))}</button>`;
+const replayLabel = host => { const b = host.querySelector("[data-play]"); if (b) b.textContent = "↻ " + T("anim_replay"); };
+const syncSlow = () => { try { document.querySelectorAll("[data-slow]").forEach(b => b.setAttribute("aria-pressed", CFG.slow ? "true" : "false")); } catch (e) {} };
+function wire(host, run, onSlow){ const p = host.querySelector("[data-play]"); if (p) p.onclick = run;
+  const s = host.querySelector("[data-slow]"); if (s) s.onclick = () => { CFG.slow = !CFG.slow; syncSlow(); (onSlow || run)(); }; }
+function autoStart(el, run, mode, done){
+  if (!mode || (mode === "view" && RM())) return () => {};
+  const go = () => { run(); if (done) { try { done(); } catch (e) {} } };
+  if (mode === "view" && typeof IntersectionObserver === "function") {
+    let t = 0; const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); t = setTimeout(go, 250); } }, {threshold: .5});
+    io.observe(el); return () => { io.disconnect(); clearTimeout(t); };
+  }
+  const t = setTimeout(go, 300); return () => clearTimeout(t);
+}
 
 /* Flight presets: p(t) = position in a 0..1 screen box (y down) for t = 0..1, s(t) = size scale, optional ar(t) = disc aspect
    (0.1 = edge-on, 1 = full face; default 0.38) and rot(t) = tilt in radians. The shooter stands bottom centre; the tree line is at
@@ -151,28 +232,34 @@ function overlay(c, f, P, t, focus, W, H){
       c.strokeStyle = "#FBBF24"; c.lineWidth = 2; c.beginPath(); c.arc(ex, ey, 5, 0, 7); c.stroke(); c.lineWidth = 1; label(c, termName("hard-focus"), x, y - 14 - r, "#FBBF24"); }
   }
 }
+/* opts: focus, hideName (Practice "Name the flight": no name, no label), autoplay ("now" by default here), onAutoplay. */
 function flightSim(host, preset, opts = {}){
   const f = FLIGHTS[preset] || FLIGHTS["crosser-lr"], focus = opts.focus || "", tm = TERM(f.term);
   const name = tm ? tm.en : NAME[preset] || preset;
-  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(opts.hideName ? "" : name)}"></canvas><div class="cs-ctl"><button class="cs-btn cs-primary">▶ ${esc(T("launch"))}</button>
+  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(opts.hideName ? "" : name)}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}
   ${opts.hideName ? "" : `<b>${esc(name)}</b>${tm && tm.local && tm.local !== tm.en ? ` <span class="cs-muted">· ${esc(tm.local)}</span>` : ""}`}</div></div>`;
-  const cv = host.querySelector("canvas"), c = cv.getContext("2d"), W = cv.width, H = cv.height; let raf = 0, t0 = 0, timer = 0;
+  const cv = host.querySelector("canvas"), c = cv.getContext("2d"), W = cv.width, H = cv.height; let raf = 0, t0 = 0, dur = 2400;
   const trail = [], P = t => { const [x, y] = f.p(t); return [x*W, y*H]; };
   const brk = focus === "points" || focus === "stance" ? BR : null; // with these overlays the clay is broken at the break point
-  const frame = ts => { if (!t0) t0 = ts; const t = Math.min(1, (ts - t0) / 2400);
+  const path = (to, a) => { c.strokeStyle = `rgba(251,146,60,${a})`; c.setLineDash([3, 6]); c.beginPath(); for (let i = 0; i <= 48; i++) { const [x, y] = P(to * i / 48); i ? c.lineTo(x, y) : c.moveTo(x, y); } c.stroke(); c.setLineDash([]); };
+  const frame = ts => { if (!t0) t0 = ts; const t = Math.min(1, (ts - t0) / dur);
     stageBg(c, W, H); const tf = brk != null ? Math.min(t, brk) : t, [x, y] = P(tf); if (brk == null || t <= brk) trail.push([x, y]);
     c.strokeStyle = "rgba(251,146,60,.45)"; c.setLineDash([3, 6]); c.beginPath(); trail.forEach(([a, b], i) => i ? c.lineTo(a, b) : c.moveTo(a, b)); c.stroke(); c.setLineDash([]);
     if (focus) overlay(c, f, P, t, focus, W, H);
     if (brk != null && t > brk) burst(c, x, y, (t - brk)*2.4); else clay(c, x, y, f.s(tf), f, tf);
     if (t < 1) raf = requestAnimationFrame(frame); };
-  const run = () => { cancelAnimationFrame(raf); t0 = 0; trail.length = 0; raf = requestAnimationFrame(frame); };
-  host.querySelector("button").onclick = run; stageBg(c, W, H); timer = setTimeout(run, 300);
-  const s = {stop: () => { clearTimeout(timer); cancelAnimationFrame(raf); }, run}; SIMS.push(s); return s;
+  // still picture before it plays: the whole flight line, the target half-way (or at the break point), the overlay labels
+  const poster = () => { stageBg(c, W, H); const tp = brk != null ? brk : .5; path(brk != null ? brk : 1, .35); if (focus) overlay(c, f, P, tp, focus, W, H); const [x, y] = P(tp); clay(c, x, y, f.s(tp), f, tp); };
+  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); trail.length = 0; replayLabel(host); raf = requestAnimationFrame(frame); };
+  wire(host, run); poster();
+  const off = autoStart(host, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay);
+  const s = {stop: () => { off(); cancelAnimationFrame(raf); }, run}; SIMS.push(s); return s;
 }
 
 /* Lead lab: a crossing target at distance d (m) and speed v (m/s), seen side-on. World x in metres (left to right; the drawing is
    mirrored for a right-to-left target). Shot time of flight tf = d / 330; decision-to-shot delay TR = 0.15 s. The shot hits if
-   |muzzle(ts) − target(ts + tf)| < R (effective pattern radius). The method gives the muzzle path muzzle(t, td), td = decision time. */
+   |muzzle(ts) − target(ts + tf)| < R (effective pattern radius). The method gives the muzzle path muzzle(t, td), td = decision time.
+   opts.autoplay (default false): "view" / "now" plays "Watch the method" once. Slow motion: the lab runs at 1/4 speed, 1/8 with 🐢. */
 function leadLab(host, method = "maintained", opts = {}){
   if (!opts || typeof opts !== "object") opts = {};
   const TR = .15, EYE = 1, CLAY = .11, METHODS = ["maintained", "swing", "pullaway", "ambush"];
@@ -183,7 +270,7 @@ function leadLab(host, method = "maintained", opts = {}){
   <label>${esc(T("speed"))} <input data-k="v" type="range" min="10" max="25" value="17"><span data-k="vv"></span></label>
   <label>${esc(T("distance"))} <input data-k="d" type="range" min="15" max="40" value="25"><span data-k="dv"></span></label>
   ${focus === "follow-through" || opts.stop ? `<label><input data-k="stop" type="checkbox"${opts.stop ? " checked" : ""}> ${esc(T("stop_gun"))}</label>` : ""}</div>
-  <div class="cs-ctl"><button class="cs-btn" data-k="demo">▶ ${esc(T("demo"))}</button><button class="cs-btn cs-primary" data-k="try">🎯 ${esc(T("try"))}</button><button class="cs-btn" data-k="shoot" disabled>${esc(T("shoot"))}</button></div>
+  <div class="cs-ctl"><button type="button" class="cs-btn cs-play" data-k="demo">▶ ${esc(T("demo"))}</button><button type="button" class="cs-btn cs-primary cs-play" data-k="try">🎯 ${esc(T("try"))}</button><button type="button" class="cs-btn cs-play" data-k="shoot" disabled>${esc(T("shoot"))}</button>${slowBtn()}</div>
   <div class="cs-out cs-note" data-k="how"></div><div class="cs-out" data-k="out" aria-live="polite"></div>${focus === "perceived-vs-actual" ? `<div class="cs-out cs-cmp" data-k="cmp"></div>` : ""}
   <div class="cs-out cs-note">${esc(T("lab_note"))}</div></div>`;
   const q = k => host.querySelector(`[data-k="${k}"]`), cv = host.querySelector("canvas"), c = cv.getContext("2d"), W = cv.width, H = cv.height;
@@ -244,7 +331,7 @@ function leadLab(host, method = "maintained", opts = {}){
     ws.forEach((w, i) => { const s = (i ? " · " : "") + "“" + w + "”"; c.fillStyle = i === cur ? "#F3F4F6" : "rgba(156,163,175,.55)"; c.fillText(s, x, 20); x += c.measureText(s).width; });
   }
   function play(td){
-    cancelAnimationFrame(raf); sim = setup(); let start = 0, sh = null, paused = 0; const slow = 4, HOLD = 1600; freeze = false;
+    cancelAnimationFrame(raf); sim = setup(); let start = 0, sh = null, paused = 0; const slow = 4 * (CFG.slow ? 2 : 1), HOLD = 1600 * (CFG.slow ? 1.5 : 1); freeze = false;
     if (td !== undefined) sh = shotAt(sim, td);
     const end = s => { report(s); mode = "idle"; q("shoot").disabled = true; };
     const frame = now => { if (!start) start = now; let t = (now - start) / 1000 / slow;
@@ -263,6 +350,7 @@ function leadLab(host, method = "maintained", opts = {}){
   const atMuzzle = (x, d) => { const cm = x / d * EYE * 100; return `${Math.abs(cm) < 10 ? cm.toFixed(1) : Math.round(cm)} ${T("unit_cm")} (${(cm / 2.54).toFixed(1)} ${T("unit_in")})`; };
   function report(sh){
     const out = q("out");
+    if (mode === "try") stat("lead", `${sim.m}:${!sh ? "none" : sh.hit ? "hit" : sh.off < 0 ? "behind" : "ahead"}`); // "your turn" only
     if (!sh) { out.innerHTML = `<b class="cs-muted">${esc(T("no_shot"))}</b>`; return; }
     const res = sh.hit ? T("hit") : `${sh.off < 0 ? T("behind") : T("ahead")} (${r1(Math.abs(sh.off))} ${T("unit_m")})`;
     out.innerHTML = `<b class="${sh.hit ? "cs-hit" : "cs-miss"}">${esc(res)}</b><br>
@@ -275,14 +363,17 @@ function leadLab(host, method = "maintained", opts = {}){
     box.innerHTML = `<b>${esc(T("compare"))}</b><table><tr><th>${esc(T("method"))}</th><th>${esc(T("perceived"))}</th><th>${esc(T("at_muzzle"))}</th><th>${esc(T("actual"))}</th></tr>${rows.join("")}</table>`; }
   const how = () => { q("how").textContent = T("how_" + q("m").value); };
   const idle = () => { if (mode === "idle") { cancelAnimationFrame(raf); sim = setup(); draw(0, null); } };
+  const demo = () => { mode = "demo"; pending = null; q("out").innerHTML = ""; q("shoot").disabled = true; sim = setup(); play(sim.auto); };
   q("v").oninput = q("d").oninput = () => { val(); compare(); idle(); };
-  q("demo").onclick = () => { mode = "demo"; pending = null; q("out").innerHTML = ""; q("shoot").disabled = true; sim = setup(); play(sim.auto); };
+  q("demo").onclick = demo;
   q("try").onclick = () => { mode = "try"; pending = null; q("out").innerHTML = ""; q("shoot").disabled = false; play(); q("shoot").focus(); };
   q("shoot").onclick = () => { if (mode === "try" && pending === null) { pending = curT; q("shoot").disabled = true; } };
   q("m").onchange = () => { mode = "idle"; q("out").innerHTML = ""; q("shoot").disabled = true; how(); idle(); };
   if (q("stop")) q("stop").onchange = () => { q("out").innerHTML = ""; };
+  wire(host, demo, () => { if (mode === "demo") demo(); }); // 🐢 restarts a running demo at the new speed; "your turn" keeps going
   val(); how(); compare(); sim = setup(); draw(0, null);
-  const s = {stop: () => cancelAnimationFrame(raf)}; SIMS.push(s); return s;
+  const off = autoStart(host, demo, opts.autoplay, opts.onAutoplay);
+  const s = {stop: () => { off(); cancelAnimationFrame(raf); }}; SIMS.push(s); return s;
 }
 
 /* Pairs (doubles): two clays. report = 2nd released at the sound of the 1st shot (the 1st is shown broken by that shot);
@@ -293,20 +384,157 @@ const PAIRS = {
   simultaneous: {a: "crosser-lr", b: "quartering-away", delay: 0, label: "pair_sim"},
   rafale:       {a: "crosser-lr", b: "crosser-lr", delay: .5, label: "pair_rafale"},
 };
-function pairSim(host, kind){
+function pairSim(host, kind, opts = {}){
   const P = PAIRS[kind] || PAIRS.report, fa = FLIGHTS[P.a], fb = FLIGHTS[P.b];
-  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(pairName(kind))}"></canvas><div class="cs-ctl"><button class="cs-btn cs-primary">▶ ${esc(T("launch"))}</button><b>${esc(T(P.label))}</b></div></div>`;
-  const cv = host.querySelector("canvas"), c = cv.getContext("2d"), W = cv.width, H = cv.height; let raf = 0, t0 = 0, timer = 0;
-  const frame = ts => { if (!t0) t0 = ts; const t = (ts - t0) / 2400; stageBg(c, W, H);
+  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(pairName(kind))}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}<b>${esc(T(P.label))}</b></div></div>`;
+  const cv = host.querySelector("canvas"), c = cv.getContext("2d"), W = cv.width, H = cv.height; let raf = 0, t0 = 0, dur = 2400;
+  const draw = (t, still) => { stageBg(c, W, H);
     const ta = Math.min(1, t), tb = Math.min(1, Math.max(0, t - P.delay));
-    if (P.bang && t >= P.delay) { const [x, y] = fa.p(P.delay); if (t < P.delay + .35) burst(c, x*W, y*H, (t - P.delay)*2.4); } // 1st target shot at the BANG
+    if (P.bang && t >= P.delay && !still) { const [x, y] = fa.p(P.delay); if (t < P.delay + .35) burst(c, x*W, y*H, (t - P.delay)*2.4); } // 1st target shot at the BANG
     else if (ta < 1) { const [x, y] = fa.p(ta); clay(c, x*W, y*H, fa.s(ta), fa, ta); }
     if (t >= P.delay && tb < 1) { const [x, y] = fb.p(tb); clay(c, x*W, y*H, fb.s(tb), fb, tb); }
-    if (P.bang && t >= P.delay - .02 && t < P.delay + .1) { c.fillStyle = "rgba(255,255,255,.85)"; c.font = "bold 16px system-ui"; c.textAlign = "center"; c.fillText("BANG", W/2, H - 50); }
-    if (t < 1 + P.delay) raf = requestAnimationFrame(frame); };
-  const run = () => { cancelAnimationFrame(raf); t0 = 0; raf = requestAnimationFrame(frame); };
-  host.querySelector("button").onclick = run; stageBg(c, W, H); timer = setTimeout(run, 300);
-  const s = {stop: () => { clearTimeout(timer); cancelAnimationFrame(raf); }, run}; SIMS.push(s); return s;
+    if (P.bang && !still && t >= P.delay - .02 && t < P.delay + .1) { c.fillStyle = "rgba(255,255,255,.85)"; c.font = "bold 16px system-ui"; c.textAlign = "center"; c.fillText("BANG", W/2, H - 50); } };
+  const frame = ts => { if (!t0) t0 = ts; const t = (ts - t0) / dur; draw(t); if (t < 1 + P.delay) raf = requestAnimationFrame(frame); };
+  // still picture before it plays: both flight lines dotted, the first target near its start
+  const poster = () => { stageBg(c, W, H); c.strokeStyle = "rgba(251,146,60,.35)"; c.setLineDash([3, 6]);
+    for (const f of [fa, fb]) { c.beginPath(); for (let i = 0; i <= 40; i++) { const [x, y] = f.p(i / 40); i ? c.lineTo(x*W, y*H) : c.moveTo(x*W, y*H); } c.stroke(); }
+    c.setLineDash([]); const [x, y] = fa.p(.2); clay(c, x*W, y*H, fa.s(.2), fa, .2); };
+  const run = () => { cancelAnimationFrame(raf); t0 = 0; dur = 2400 * slowF(); replayLabel(host); raf = requestAnimationFrame(frame); };
+  wire(host, run); poster();
+  const off = autoStart(host, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay);
+  const s = {stop: () => { off(); cancelAnimationFrame(raf); }, run}; SIMS.push(s); return s;
+}
+
+/* ---------------------------------------- Stand scenes (type "call") ----------------------------------------
+   Side view, 1 px ≈ 1 cm around the shooter: ground at GY, shoulder axis at y 178, the Sporting™ line on the vest LINE_Y = 25 cm
+   lower (fact rules.sporting-jacket-line). Numbers of the rules (seconds): CALL.limit = release within 3 s of the call / the
+   referee's signal (fact rules.release-within-3s), CALL.sonopull = the fixed sonopull delay (fact rules.sonopull-delay); both live in
+   content/academy/facts/rules.json, and scripts/build_academy.mjs warns when they no longer match these constants.
+   A scene = times in seconds (scene clock = real time; 🐢 only stretches the screen time):
+     call (the shooter's "Pull!"), signal (referee → trapper), release (the target leaves), mount [from, to] (gun from the ready position
+     to the shoulder), up (gun already at the shoulder: Compak® Sporting lets the shooter call gun-up), shot, click (the shot does not
+     go off), safe [from, to] (gun lowered, pointing down the range), walk [from, to] (the referee comes over), nobird (the referee's
+     call), card (warning + yellow card), line (draw the line on the vest), mic (sonopull microphone instead of the trapper),
+     timer ("signal" | "call": the clock counts from that moment), end. */
+const CALL = {limit: 3, sonopull: .5};
+const SCENES = {
+  signal:        {tab: "anim_t_signal",   timer: "signal", line: 1, call: .3, signal: .7, release: 1.7, mount: [1.82, 2.15], shot: 2.5, end: 4.4},
+  "signal-late": {tab: "anim_t_late",     timer: "signal", line: 1, call: .3, signal: .7, release: .7 + 3.6, nobird: 4.5, end: 7},
+  manual:        {tab: "anim_t_manual",   timer: "call", up: 1, call: .3, release: 1.7, shot: 2.45, end: 4.4},
+  sonopull:      {tab: "anim_t_sonopull", timer: "call", up: 1, mic: 1, call: .3, release: .3 + CALL.sonopull, shot: 1.25, end: 3.6},
+  "gun-ready":   {tab: "anim_t_ready",    line: 1, call: .9, signal: 1.1, release: 1.5, mount: [1.62, 1.95], shot: 2.3, end: 4.3},
+  "gun-early":   {tab: "anim_t_early",    line: 1, mount: [.4, .75], call: 1.2, card: 1.7, end: 4},
+  misfire:       {tab: null,              call: .4, release: 1, mount: [1.1, 1.45], shot: 1.85, click: 1, safe: [2.2, 2.6], walk: [3.3, 4.3], end: 6.8},
+};
+const GY = 322, LINE_Y = 203, FLY = 2.2;
+const TP = u => [628 - 330 * u, 298 - 210 * Math.sin(Math.PI * .85 * u)]; // target path from the trap (u = 0…1 over FLY s)
+const LOW = {hx: 190, hy: 214, th: -.42}, SAFE = {hx: 192, hy: 204, th: .38}, AIM0 = [520, 150];
+const upPose = (ax, ay) => ({hx: 190, hy: 186, th: Math.atan2(ay - 186, ax - 190)});
+const mixPose = (a, b, k) => ({hx: lerp(a.hx, b.hx, k), hy: lerp(a.hy, b.hy, k), th: lerp(a.th, b.th, k)});
+const seg = (c, x1, y1, x2, y2) => { c.beginPath(); c.moveTo(x1, y1); c.lineTo(x2, y2); c.stroke(); };
+const dot = (c, x, y, r) => { c.beginPath(); c.arc(x, y, r, 0, 7); c.fill(); };
+const box = (c, x, y, w, h, r) => { c.beginPath(); if (c.roundRect) c.roundRect(x, y, w, h, r); else c.rect(x, y, w, h); };
+function sideBg(c, W, H){
+  const g = c.createLinearGradient(0, 0, 0, GY); g.addColorStop(0, "#0b2540"); g.addColorStop(1, "#163a52"); c.fillStyle = g; c.fillRect(0, 0, W, GY);
+  c.fillStyle = "rgba(255,255,255,.05)"; for (let i = 0; i < 9; i++) { c.beginPath(); c.arc(40 + i * 85, GY - 4, 24 + (i * 37 % 30), Math.PI, 0); c.fill(); } // tree line
+  const gg = c.createLinearGradient(0, GY, 0, H); gg.addColorStop(0, "#14532d"); gg.addColorStop(1, "#0a2418"); c.fillStyle = gg; c.fillRect(0, GY, W, H - GY);
+  c.fillStyle = "rgba(255,255,255,.12)"; c.fillRect(126, GY, 96, 5); // the shooting stand
+}
+function person(c, x, o = {}){ // the referee or the trapper, standing on the ground at x; o.hand = [x, y] of the right hand
+  const s = o.s || 1, top = GY - 160 * s;
+  c.strokeStyle = o.col; c.fillStyle = o.col; c.lineCap = "round"; c.lineWidth = 5 * s;
+  seg(c, x, top + 22 * s, x, top + 90 * s); seg(c, x, top + 90 * s, x - 11 * s, GY); seg(c, x, top + 90 * s, x + 11 * s, GY);
+  const hand = o.hand || [x + 16 * s, top + 70 * s]; seg(c, x, top + 34 * s, hand[0], hand[1]); seg(c, x, top + 34 * s, x - 9 * s, top + 70 * s);
+  dot(c, x, top + 10 * s, 11 * s); if (o.cap) { c.fillStyle = o.cap; c.fillRect(x - 12 * s, top - 3 * s, 23 * s, 6 * s); }
+  c.lineCap = "butt"; c.lineWidth = 1; return hand;
+}
+function shooter(c, g, line){ // g = gun pose {hx, hy, th} (heel of the stock, angle); line: null | "ok" | "bad"; returns the muzzle
+  c.lineCap = "round"; c.strokeStyle = "#9CA3AF"; c.lineWidth = 8; seg(c, 168, 240, 150, GY); seg(c, 175, 240, 196, GY); // legs
+  c.fillStyle = "#4B5563"; box(c, 156, 174, 32, 70, 8); c.fill(); // vest
+  if (line) { c.strokeStyle = line === "bad" ? "#F87171" : "#FBBF24"; c.lineWidth = 3; seg(c, 150, LINE_Y, 194, LINE_Y);
+    label(c, T("anim_line"), 146, LINE_Y + 4, line === "bad" ? "#F87171" : "#FBBF24", "right"); }
+  c.fillStyle = "#E5E7EB"; dot(c, 176, 158, 13); c.fillStyle = "#111827"; dot(c, 172, 159, 4.5); // head, ear protection
+  const ux = Math.cos(g.th), uy = Math.sin(g.th);
+  c.lineCap = "butt"; c.strokeStyle = "#A16207"; c.lineWidth = 8; seg(c, g.hx, g.hy, g.hx + 36 * ux, g.hy + 36 * uy); // stock
+  c.strokeStyle = "#CBD5E1"; c.lineWidth = 4; seg(c, g.hx + 34 * ux, g.hy + 34 * uy, g.hx + 120 * ux, g.hy + 120 * uy); // barrels
+  c.lineCap = "round"; c.strokeStyle = "#E5E7EB"; c.lineWidth = 6;
+  seg(c, 176, 182, g.hx + 30 * ux, g.hy + 30 * uy + 4); seg(c, 172, 184, g.hx + 74 * ux, g.hy + 74 * uy + 4); // arms
+  c.lineCap = "butt"; c.lineWidth = 1; return [g.hx + 120 * ux, g.hy + 120 * uy];
+}
+function bubble(c, x, y, text, o = {}){ // speech bubble whose tail points down at (x, y + 10)
+  const fs = o.size || 16; c.font = `bold ${fs}px system-ui`; const w = c.measureText(text).width + 20, h = fs + 14;
+  c.fillStyle = o.bg || "#F3F4F6"; box(c, x - w / 2, y - h, w, h, 9); c.fill();
+  c.beginPath(); c.moveTo(x - 6, y - 1); c.lineTo(x + 6, y - 1); c.lineTo(x, y + 10); c.closePath(); c.fill();
+  c.fillStyle = o.fg || "#0B1120"; c.textAlign = "center"; c.fillText(text, x, y - 9);
+}
+function clock(c, v, sub, state){ // the release clock: v seconds since the call / signal; state: "run" | "ok" | "late"
+  const us = T("anim_unit_s"); c.fillStyle = "rgba(3,7,18,.75)"; box(c, 14, 12, 316, 72, 10); c.fill();
+  c.fillStyle = state === "late" ? "#F87171" : state === "ok" ? "#34D399" : "#F3F4F6"; c.font = "bold 30px system-ui"; c.textAlign = "left";
+  c.fillText(`${num1(v)} ${us}`, 26, 50); c.font = "12.5px system-ui"; c.fillStyle = "#9CA3AF"; c.fillText(sub, 26, 72);
+  const x0 = 162, x1 = 318, k = (x1 - x0) / 4.5, y = 32;
+  c.fillStyle = "rgba(52,211,153,.4)"; c.fillRect(x0, y, CALL.limit * k, 10); c.fillStyle = "rgba(248,113,113,.4)"; c.fillRect(x0 + CALL.limit * k, y, (4.5 - CALL.limit) * k, 10);
+  c.fillStyle = "#F3F4F6"; c.fillRect(x0 + Math.min(4.5, v) * k - 1.5, y - 5, 3, 20);
+  c.fillStyle = "#9CA3AF"; c.font = "11px system-ui"; c.textAlign = "center"; c.fillText("0", x0, y + 27); c.fillText(`${CALL.limit} ${us}`, x0 + CALL.limit * k, y + 27);
+}
+function standSim(host, kind, opts = {}){
+  const sc = SCENES[kind] || SCENES.signal, title = T(sc.tab || "anim_h_misfire");
+  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(title)}"></canvas><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}<b>${esc(title)}</b></div><div class="cs-say" aria-live="polite" data-k="say"></div></div>`;
+  const cv = host.querySelector("canvas"), c = cv.getContext("2d"), W = cv.width, H = cv.height, out = host.querySelector('[data-k="say"]');
+  const rel = sc.release, t0c = sc.timer === "signal" ? sc.signal : sc.call, hitT = sc.shot != null && !sc.click ? sc.shot : null;
+  // what the status line says, and from when (scene seconds)
+  const says = [];
+  if (sc.timer) { const n = rel - t0c; says.push([rel, fill(T(sc.timer === "call" ? (sc.mic ? "anim_s_sonopull" : "anim_s_manual") : n > CALL.limit ? "anim_s_late" : "anim_s_in_time"), {n: num1(n), max: CALL.limit})]); }
+  if (kind === "gun-ready") says.push([0, T("anim_s_gun_low")], [sc.mount[0], T("anim_s_gun_mount")]);
+  if (sc.card) says.push([sc.card, T("anim_s_early")]);
+  if (sc.click) says.push([sc.shot, T("anim_s_click")], [sc.safe[0] + .2, T("anim_s_hold")], [sc.walk[1], T("anim_s_ref")], [sc.walk[1] + 1, T("anim_s_repeat")]);
+  let said = null;
+  const say = t => { let s = ""; for (const [at, x] of says) if (t >= at) s = x; if (s !== said) { said = s; out.textContent = s; } };
+  const pose = t => { // gun pose at time t, and the aim point
+    const u = rel != null && t >= rel ? (t - rel) / FLY : null, flying = u != null && u <= 1 && (hitT == null || t < hitT + .25);
+    const aim = flying ? TP(Math.min(1, u + .03)) : hitT != null && t >= hitT ? TP((hitT + .25 - rel) / FLY) : AIM0;
+    if (sc.up) return upPose(aim[0], aim[1]);
+    if (!sc.mount) return LOW;
+    let g = mixPose(LOW, upPose(aim[0], aim[1]), ease(clamp01((t - sc.mount[0]) / (sc.mount[1] - sc.mount[0]))));
+    if (sc.safe && t >= sc.safe[0]) { const a = TP(Math.min(1, (sc.safe[0] - rel) / FLY + .03)); // from where the gun was when it is lowered
+      g = mixPose(upPose(a[0], a[1]), SAFE, ease(clamp01((t - sc.safe[0]) / (sc.safe[1] - sc.safe[0])))); }
+    return g;
+  };
+  const draw = t => {
+    sideBg(c, W, H);
+    // trap (and trapper, or the sonopull microphone with its cable)
+    c.fillStyle = "#374151"; box(c, 606, 300, 44, 22, 4); c.fill(); label(c, "A", 628, 316, "#E5E7EB");
+    if (sc.mic) { const on = t >= sc.call && t < rel + .2; c.strokeStyle = on ? "#34D399" : "rgba(255,255,255,.22)"; c.setLineDash([5, 5]); seg(c, 236, GY + 3, 606, GY + 3); c.setLineDash([]);
+      c.strokeStyle = "#9CA3AF"; c.lineWidth = 2; seg(c, 236, GY, 236, 252); c.lineWidth = 1; c.fillStyle = on ? "#34D399" : "#9CA3AF"; dot(c, 236, 246, 6); } // microphone on a low stand in front of the shooter
+    else { const press = t >= rel - .05 && t < rel + .35; person(c, 678, {s: .8, col: "#9CA3AF", hand: press ? [652, GY - 44] : null}); }
+    // the target: in the air, broken by the shot, or (after a click) flying on unbroken
+    if (rel != null && t >= rel) { const u = (t - rel) / FLY;
+      if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
+      else if (u <= 1) { const [x, y] = TP(u); clay(c, x, y, .75, {}, 0); } }
+    // referee: walks over after a misfire; presses the signal; raises the yellow card
+    const rx = sc.walk ? lerp(84, 128, ease(clamp01((t - sc.walk[0]) / (sc.walk[1] - sc.walk[0])))) : 84;
+    const sig = sc.signal != null && t >= sc.signal && t < sc.signal + .6, card = sc.card != null && t >= sc.card;
+    const hand = person(c, rx, {s: .92, col: "#93C5FD", cap: "#1D4ED8", hand: card ? [rx + 12, GY - 176] : sig ? [rx + 22, GY - 104] : null});
+    if (card) { c.fillStyle = "#FACC15"; c.fillRect(hand[0] - 6, hand[1] - 26, 14, 20); bubble(c, rx - 4, GY - 196, "!", {bg: "#FEF3C7"}); }
+    if (sig) { const k = t - sc.signal; c.strokeStyle = "rgba(34,211,238,.85)"; c.lineWidth = 2; // sound signal to the trapper
+      for (let i = 0; i < 3; i++) { const r = 8 + ((k * 70 + i * 12) % 36); c.beginPath(); c.arc(hand[0], hand[1], r, -.7, .7); c.stroke(); }
+      c.lineWidth = 1; c.setLineDash([4, 6]); const p = clamp01(k / .35); seg(c, hand[0], hand[1], lerp(hand[0], 652, p), lerp(hand[1], GY - 110, p)); c.setLineDash([]);
+      label(c, "♪", hand[0] + 6, hand[1] - 18, "#22D3EE"); }
+    if (sc.nobird != null && t >= sc.nobird) bubble(c, rx + 6, GY - 186, "No Bird!", {bg: "#FEE2E2", fg: "#7F1D1D"});
+    // the shooter, the line on the vest (red while the heel of the stock is above it), the call, the shot
+    const g = pose(t), muzzle = shooter(c, g, sc.line ? (g.hy < LINE_Y ? "bad" : "ok") : null);
+    if (sc.call != null && t >= sc.call && t < sc.call + .9) bubble(c, 196, 128, "Pull!");
+    if (sc.mic && t >= sc.call && t < rel) { c.strokeStyle = "rgba(52,211,153,.8)"; for (let i = 0; i < 3; i++) { c.beginPath(); c.arc(206, 166, 10 + i * 8, .2, 1.2); c.stroke(); } } // the call heard by the microphone
+    if (hitT != null && t >= hitT && t < hitT + .09) { c.fillStyle = "#FDE68A"; dot(c, muzzle[0], muzzle[1], 9); }
+    // the clock (call and release scenes)
+    if (sc.timer) { const v = t < t0c ? 0 : Math.min(t, rel) - t0c; clock(c, v, T(sc.timer === "signal" ? "anim_after_signal" : "anim_after_call"), t < rel ? "run" : v > CALL.limit ? "late" : "ok"); }
+    say(t);
+  };
+  let raf = 0, start = 0, f = 1;
+  const frame = ts => { if (!start) start = ts; const t = Math.min(sc.end, (ts - start) / 1000 / f); draw(t); if (t < sc.end) raf = requestAnimationFrame(frame); };
+  const run = () => { cancelAnimationFrame(raf); start = 0; f = slowF(); said = null; replayLabel(host); raf = requestAnimationFrame(frame); };
+  wire(host, run); draw(0);
+  const off = autoStart(host, run, opts.autoplay === undefined ? "now" : opts.autoplay, opts.onAutoplay);
+  const s = {stop: () => { off(); cancelAnimationFrame(raf); }, run}; SIMS.push(s); return s;
 }
 
 /* Tab label of a preset: term name (if the page knows it) + direction arrow for left/right variants; of a pair: its name
@@ -317,21 +545,46 @@ const NAME = {"crosser-lr": "Crosser", "crosser-rl": "Crosser", "incomer": "Inco
   "dropping": "Dropping target", "rabbit": "Rabbit"};
 const tabLabel = p => { const t = TERM(FLIGHTS[p].term); return `${t ? t.en : NAME[p] || p}${DIR[p] ? " " + DIR[p] : ""}`; };
 const pairName = k => String(T((PAIRS[k] || PAIRS.report).label)).split(/\s*:\s+/)[0];
-/* mount(host, sim): sim = {type: "flight", preset, also: [...], pairs: [...], focus} | {type: "lead", method, preset, focus, stop}
-   | {type: "pair", kind}. A flight with several presets and/or pairs gets one tab per animation. */
-function mount(host, sim){ if (!host || !sim) return;
-  if (sim.type === "pair") return pairSim(host, sim.kind);
-  if (sim.type === "lead") return leadLab(host, sim.method, sim);
-  if (sim.type === "flight") {
-    const tabs = [...[sim.preset, ...(sim.also || [])].filter(p => FLIGHTS[p]).map(p => ({k: "f:" + p, label: tabLabel(p)})),
-                  ...(sim.pairs || []).filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}))];
-    const show = (box, k) => k.startsWith("p:") ? pairSim(box, k.slice(2)) : flightSim(box, k.slice(2), {focus: sim.focus});
-    if (tabs.length < 2) return show(host, tabs.length ? tabs[0].k : "f:" + sim.preset);
-    host.innerHTML = `<div class="cs-tabs">${tabs.map((b, i) => `<button class="cs-btn ${i ? "" : "cs-primary"}" data-p="${esc(b.k)}">${esc(b.label)}</button>`).join("")}</div><div></div>`;
-    const box = host.lastElementChild; let cur = null;
-    const pick = k => { cur && cur.stop(); host.querySelectorAll("[data-p]").forEach(b => b.classList.toggle("cs-primary", b.dataset.p === k)); cur = show(box, k); };
-    host.querySelectorAll("[data-p]").forEach(b => b.onclick = () => pick(b.dataset.p));
-    cur = show(box, tabs[0].k); return {stop: () => cur && cur.stop()}; }
+/* mount(host, sim, o): sim = {type: "flight", preset, also: [...], pairs: [...], focus} | {type: "lead", method, preset, focus, stop}
+   | {type: "pair", kind, also: [...]} | {type: "call", kind, also: [...]}. Several presets, pairs or scenes get one tab each.
+   o.autoplay: "view" (default) | "now" | false; o.onAutoplay(): called once when it played by itself (the Academy remembers it, so a
+   re-render does not play it again); o.tab: the tab to open ("f:<preset>", "p:<pair>", "c:<scene>"); o.onTab(tab) when the reader picks one. */
+function mount(host, sim, o = {}){ if (!host || !sim) return;
+  const ap = o.autoplay === undefined ? "view" : o.autoplay, done = o.onAutoplay;
+  if (sim.type === "lead") return leadLab(host, sim.method, Object.assign({}, sim, {autoplay: ap, onAutoplay: done}));
+  let tabs;
+  if (sim.type === "flight") tabs = [...[sim.preset, ...(sim.also || [])].filter(p => FLIGHTS[p]).map(p => ({k: "f:" + p, label: tabLabel(p)})),
+                                   ...(sim.pairs || []).filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}))];
+  else if (sim.type === "pair") tabs = [sim.kind, ...(sim.also || [])].filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}));
+  else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: T(SCENES[k].tab || "anim_h_misfire")}));
+  else return; // a type without an animation mounts nothing
+  const show = (el, k, a) => { const x = k.slice(2), op = {autoplay: a, onAutoplay: done};
+    return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
+  if (!tabs.length) tabs = [{k: sim.type === "pair" ? "p:report" : sim.type === "call" ? "c:signal" : "f:" + sim.preset}];
+  if (tabs.length < 2) return show(host, tabs[0].k, ap);
+  const first = o.tab && tabs.some(b => b.k === o.tab) ? o.tab : tabs[0].k;
+  host.innerHTML = `<div class="cs-tabs" role="group">${tabs.map(b => `<button type="button" class="cs-btn${b.k === first ? " cs-primary" : ""}" data-p="${esc(b.k)}" aria-pressed="${b.k === first}">${esc(b.label)}</button>`).join("")}</div><div></div>`;
+  const el = host.lastElementChild; let cur = null;
+  const pick = (k, a) => { cur && cur.stop(); host.querySelectorAll("[data-p]").forEach(b => { const on = b.dataset.p === k; b.classList.toggle("cs-primary", on); b.setAttribute("aria-pressed", on ? "true" : "false"); });
+    cur = show(el, k, a); };
+  host.querySelectorAll("[data-p]").forEach(b => b.onclick = () => { pick(b.dataset.p, RM() ? false : "now"); if (o.onTab) o.onTab(b.dataset.p); });
+  cur = show(el, first, ap); return {stop: () => cur && cur.stop()};
+}
+/* kind(sim): what the animation teaches — picks the heading "▶ <anim_h_kind>" and the generic caption anim_w_<kind>
+   (the Academy build and the glossary use the same words). */
+function kind(sim){ sim = sim || {};
+  if (sim.type === "pair") return "pair";
+  if (sim.type === "lead") return sim.focus === "mount" ? "mount" : sim.focus === "follow-through" ? "follow" : "lead";
+  if (sim.type === "call") { const k = sim.kind || "signal"; return /^gun-/.test(k) ? "gunpos" : k === "misfire" ? "misfire" : "call"; }
+  if ((sim.pairs || []).length) return "pair";
+  return ["points", "eyes", "stance"].includes(sim.focus) ? sim.focus : "flight";
+}
+/* hero(host, sim, o): the animation as the first thing to see — heading, the animation (plays once when on screen), one line of
+   what to watch (o.caption, else the generic one of its kind). Glossary term pages get it through auto(). */
+function hero(host, sim, o = {}){ if (!host || !sim) return; const k = kind(sim);
+  host.classList.add("cs-hero");
+  host.innerHTML = `<p class="cs-hero-h"><span aria-hidden="true">▶</span> ${esc(T("anim_h_" + k))}</p><div class="cs-hero-sim"></div><p class="cs-hero-w">${esc(o.caption || T("anim_w_" + k))}</p>`;
+  return mount(host.querySelector(".cs-hero-sim"), sim, {autoplay: o.autoplay === undefined ? "view" : o.autoplay});
 }
 /* Glossary term id -> animation. ONE list used by the glossary pages, the Interpreter Academy and the rules trainer. */
 const TERM_SIMS = {
@@ -350,21 +603,29 @@ const TERM_SIMS = {
   "swing-through": {type: "lead", method: "swing"}, "pull-away": {type: "lead", method: "pullaway"}, "ambush": {type: "lead", method: "ambush"},
   "follow-through": {type: "lead", method: "pullaway", focus: "follow-through"},
   "stopping-the-gun": {type: "lead", method: "pullaway", focus: "follow-through", stop: true},
+  // stand scenes: the call and the release, the Sporting™ ready position, a misfire
+  "call": {type: "call", kind: "signal", also: ["manual", "sonopull"]}, "trapper": {type: "call", kind: "signal", also: ["manual"]},
+  "sonopull": {type: "call", kind: "sonopull"}, "no-bird": {type: "call", kind: "signal-late"},
+  "ready-position": {type: "call", kind: "gun-ready", also: ["gun-early"]}, "jacket-line": {type: "call", kind: "gun-ready", also: ["gun-early"]},
+  "malfunction": {type: "call", kind: "misfire"},
 };
-/* auto(): mount every <div data-clay-sim='{"type":...}'> or <div data-clay-term="crosser"> on a static page.
-   Texts: window.CLAYSIMS_TEXT[lang] (docs/shared/sims-text.js, generated from the Interpreter Academy ui strings), else DEF. */
+/* auto(): mount every <div data-clay-sim='{"type":...}'> or <div data-clay-term="crosser"> on a static page. A term host (the
+   glossary) or a host with data-clay-hero gets the hero layout (heading + caption); a data-clay-sim host only the animation.
+   Texts: window.CLAYSIMS_TEXT[lang] (docs/shared/sims-text.js, generated from content/academy/ui/<lang>.json), else DEF. */
 function auto(){
-  const lang = (document.documentElement.lang || "en").slice(0, 2), TX = (window.CLAYSIMS_TEXT || {});
+  const lang = pageLang(), TX = (window.CLAYSIMS_TEXT || {});
   if (!CFG._custom) Object.assign(CFG, {t: k => (TX[lang] || {})[k] ?? (TX.en || {})[k]});
   document.querySelectorAll("[data-clay-sim],[data-clay-term]").forEach(el => {
     let sim = null; try { sim = el.dataset.claySim ? JSON.parse(el.dataset.claySim) : TERM_SIMS[el.dataset.clayTerm]; } catch (e) {}
-    if (sim) mount(el, sim); });
+    if (!sim) return;
+    if (el.dataset.clayTerm || el.hasAttribute("data-clay-hero")) hero(el, sim); else mount(el, sim); });
 }
-window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, auto, flightSim, leadLab, pairSim, stopSims, FLIGHTS, PAIRS, TERM_SIMS, NAMES: NAME, tabLabel};
+window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, stopSims,
+  FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, tabLabel};
 /* English pronunciation of a term (British English, Web Speech API). A voice that runs on the device (localService) is preferred;
    if the browser offers only online voices, its default voice is used, and that browser may send the text to its speech service. */
 const localVoice = () => { try { const vs = speechSynthesis.getVoices() || [];
   return vs.find(v => v.localService && /^en[-_]GB/i.test(v.lang)) || vs.find(v => v.localService && /^en\b/i.test(v.lang)) || null; } catch (e) { return null; } };
-window.ClaySpeak = (t, o = {}) => { try { const u = new SpeechSynthesisUtterance(t); u.lang = "en-GB"; u.rate = o.rate || .9; const v = localVoice(); if (v) u.voice = v;
+window.ClaySpeak = (t, o = {}) => { stat("speak", t); try { const u = new SpeechSynthesisUtterance(t); u.lang = "en-GB"; u.rate = o.rate || .9; const v = localVoice(); if (v) u.voice = v;
   speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {} };
 })();

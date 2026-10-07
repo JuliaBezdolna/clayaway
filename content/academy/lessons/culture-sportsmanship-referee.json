@@ -494,9 +494,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Coordination: etiquette-squad-p1 (lateness) and etiquette-squad-p2 (shooting order) were removed from this master; their facts belong to rules-call-and-time and the two layout lessons (design §3.2). Their translations are in i18n/<lang>/culture-sportsmanship-referee.json.",
-      "Overlays (9 languages), i18n/<lang>/culture-sportsmanship-referee.json: the exam question etiquette-squad-q3 (Sporting™ shooting order) moved to targets-sporting-layout on 2026-10-07 (copy its entry to i18n/<lang>/targets-sporting-layout.json; the English is unchanged). etiquette-squad-q1 (Compak® lateness, 25 zeros) was deleted as a duplicate of compak-dress-and-conduct-q2 in rules-call-and-time: remove it from the overlays."
-    ]
+    "tasks": []
   }
 }

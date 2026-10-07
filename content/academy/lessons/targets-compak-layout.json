@@ -714,10 +714,7 @@
   },
   "todo": {
     "tasks": [
-      "Overlays (9 languages): English changed, re-translate and re-hash: sport-compak-layout-p2, sport-compak-layout-p3, compak-layout-rotation-p3, compak-layout-rotation-q3.",
-      "Overlays: remove keys deleted as duplicates or merged in the master: sport-compak-layout-title, sport-compak-layout-p4, sport-compak-layout-kp1, sport-compak-layout-kp2, sport-compak-layout-kp3, sport-compak-layout-kp4, sport-compak-layout-kp5, compak-layout-rotation-title, compak-layout-rotation-p1, compak-layout-rotation-p2, compak-layout-rotation-p5, compak-layout-rotation-kp4, compak-layout-rotation-q1.",
-      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-compak-layout-p1, sport-compak-layout-p1, sport-compak-layout-p2, sport-compak-layout-p3, compak-layout-rotation-p3, compak-layout-rotation-p4, targets-compak-layout-p7, compak-layout-rotation-ph3, compak-layout-rotation-kp3.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in sport-compak-layout-p1, sport-compak-layout-p3, sport-compak-layout-p5, sport-compak-layout-q1, compak-layout-rotation-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-compak-layout.json: translate the missing items targets-compak-layout-p1, targets-compak-layout-p2, targets-compak-layout-p5, targets-compak-layout-p6, targets-compak-layout-p7, targets-compak-layout-kp5, targets-compak-layout-dyk, targets-compak-layout-q3, targets-compak-layout-q-rectangle, targets-compak-layout-q-line; translate again (or only re-sign the hash where just the form changed) the items whose English changed: sport-compak-layout-q1, compak-layout-rotation-q3."
     ]
   }
 }

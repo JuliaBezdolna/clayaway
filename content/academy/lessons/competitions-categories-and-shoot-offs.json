@@ -781,12 +781,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Glossary: the term 'derogation' (an authorised exception to the age rule of a category) is not in the glossary yet. When it is added to docs/glossary/data/learn_terms.js (+ i18n), add it to terms and link it in women-lady-category-p3.",
-      "Moved in from watching-reading-results (design §3.2): referee-scoring-p3, referee-scoring-p4 (now an interpreter note), referee-scoring-ph4, referee-scoring-ph5, referee-scoring-kp3, referee-scoring-kp4 and the exam question referee-scoring-q2. Copy their entries from i18n/<lang>/watching-reading-results.json into i18n/<lang>/competitions-categories-and-shoot-offs.json (9 languages); referee-scoring-p4 goes to the overlay's note map.",
-      "referee-categories-p3 moved from body to note (interpreter advice), key unchanged: move its overlay entry from body to note. Its English changed: “Do not translate it as «дорослі»” (a Ukrainian word inside the English master) became “Do not translate it with the word for adults in your language”; check the 9 overlays against it.",
-      "Overlay keys no longer in this master: referee-categories-title, referee-categories-kp1, referee-categories-kp4, referee-categories-kp5 (their facts are in the body and in the remaining key points), and referee-scoring-kp5 if it was copied. Remove them during the next translation wave.",
-      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/competitions-categories-and-shoot-offs.json: referee-categories-p2 (plain wording: the lowest age of the category, the year ranges), referee-categories-p4 (category shoot-offs are a Compak® Sporting rule; in Sporting™ the programme decides; team size as a fact token), referee-scoring-p3 (sudden death and countback explained; countback by the 8th layout or Compak; “Teams do not shoot off”), referee-categories-p3 (the language claim about “senior” corrected), referee-categories-ph4 (meaning labelled Compak®).",
-      "Core keys whose English changed only in form (trade-mark tokens {{tm:…}} instead of the literal names; referee-categories-p1 is also split into two sentences): referee-categories-p1, referee-scoring-p4, referee-categories-q3, and the curly apostrophe ’ in referee-categories-ph2, referee-categories-ph4, referee-scoring-ph4 (already curly). Put the new hash in the overlays; the translations stay valid."
+      "Glossary: the term 'derogation' (an authorised exception to the age rule of a category) is in docs/glossary/data/learn_terms.js now: add it to terms and link it in women-lady-category-p3 (the English changes, so update the 9 overlays of that paragraph)."
     ]
   }
 }

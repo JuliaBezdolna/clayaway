@@ -218,9 +218,9 @@
         "preset": "quartering-away",
         "focus": "points"
       },
-      "ready": false,
-      "en": "Animation: the pick-up point, the hold point and the break point on one target.",
-      "uk": "Анімація: точка підхоплення, точка утримання і точка пострілу на одній мішені."
+      "ready": true,
+      "en": "The three points to run through in your head: pick-up point, hold point and break point.",
+      "uk": "Три точки, які варто прокрутити в голові: точка підхоплення, точка утримання і точка пострілу."
     }
   ],
   "note": [
@@ -403,7 +403,7 @@
     "mind-imagery-p3": "48ed15f5",
     "mind-imagery-p4": "e76e5ecb",
     "mind-imagery-p5": "9a17bd48",
-    "mind-imagery-sim": "6b0bf79e",
+    "mind-imagery-sim": "a87163a6",
     "mind-imagery-n1": "e0b784f1",
     "mind-imagery-kp1": "8d58e5b8",
     "mind-imagery-kp2": "6b64e524",
@@ -420,7 +420,7 @@
     "moves_in": [],
     "tasks": [
       "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
-      "Animation ready:false: check it in the page against the text (soft/hard focus or the three points), then set ready:true."
+      "Overlays, animation caption of 2026-10-07: body.mind-imagery-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_points)."
     ]
   }
 }

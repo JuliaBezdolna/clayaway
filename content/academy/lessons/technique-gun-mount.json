@@ -175,8 +175,8 @@
         "focus": "mount"
       },
       "ready": true,
-      "en": "Animation: the muzzles start with the target, and the mount is completed as the shot comes: “move, mount, shoot”.",
-      "uk": "Анімація: стволи рушають разом із мішенню, а вкладка завершується разом із пострілом: «рух, вкладка, постріл»."
+      "en": "The muzzles move with the target first, and the mount is finished as the shot comes: “move, mount, shoot”.",
+      "uk": "Спершу стволи рушають за мішенню, а вкладка завершується разом із пострілом: «рух, вкладка, постріл»."
     }
   ],
   "note": [],
@@ -482,7 +482,7 @@
     "basics-mount-p4": "3ee4e21b",
     "technique-gun-mount-mock": "4b1942aa",
     "technique-gun-mount-p5": "5561100e",
-    "basics-mount-sim": "abc87648",
+    "basics-mount-sim": "96024c66",
     "basics-mount-kp4": "ba2ac5e4",
     "basics-mount-kp1": "f80dac2d",
     "basics-mount-kp3": "2dfe15c1",
@@ -505,10 +505,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays i18n/<lang>/technique-gun-mount.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): basics-mount-p3, basics-mount-p1; no longer used (delete from the overlays): basics-mount-kp2, basics-mount-title.",
-      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-gun-mount.json (9 languages): translate again (meaning or wording changed for readers): basics-mount-p3, basics-mount-p1, basics-mount-kp5, basics-mount-q3; re-sign the hash only (wording changed, meaning not): basics-mount-p2, basics-mount-q2.",
-      "Overlays (9 languages), fact clean-up of 2026-10-07 (one number in one place): basics-mount-p1 now use the shared fact tokens of the rules/gear/community blocks instead of duplicate facts or written-out numbers. The meaning is unchanged, so check the wording and re-sign the hash.",
-      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in basics-mount-p1, basics-mount-p2, basics-mount-p4, basics-mount-ph4, basics-mount-kp1, basics-mount-kp3, basics-mount-kp5, basics-mount-q1, basics-mount-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+      "Overlays, animation caption of 2026-10-07: body.basics-mount-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_mount)."
     ]
   }
 }

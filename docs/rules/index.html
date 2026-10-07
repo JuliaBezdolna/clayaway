@@ -47,12 +47,14 @@ button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--em);outline-offset:2px}
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(3,7,18,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .top-in{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:9px;display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap}
-.logo{display:inline-block;background:#000;border-radius:8px;padding:2px 11px;font-weight:700;font-size:17px;box-shadow:0 0 16px rgba(52,211,153,.25);text-decoration:none}
-.logo b{background:linear-gradient(90deg,#34D399,#22D3EE);-webkit-background-clip:text;background-clip:text;color:transparent}
-.svc{font-weight:700}.svc small{display:block;font-weight:400;font-size:11.5px;color:var(--muted)}
+/* Section name instead of a second logo (the ONE ClayArena logo is in the bar, docs/shared/nav.js) */
+.secname{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:var(--ink);text-decoration:none;min-height:36px}
+.secname small{display:block;font-weight:400;font-size:11.5px;color:var(--muted)}
+.secname .ic{font-size:20px}
 .spacer{flex:1}
 .seg{display:flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
-.seg button{border:0;background:transparent;padding:6px 12px;font-size:13.5px;color:var(--muted);white-space:nowrap}
+.seg button{border:0;background:transparent;padding:6px 12px;font-size:13.5px;color:var(--muted);white-space:nowrap;min-height:34px}
+@media (pointer:coarse){.seg button{min-height:44px}}
 .seg button[aria-pressed="true"]{background:var(--primary);color:#fff;font-weight:600}
 .seg.disc button[aria-pressed="true"]{background:#fff;color:#030712}
 main{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:22px 80px}
@@ -116,14 +118,13 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
 </head>
 <body>
 <header class="top"><div class="top-in">
-  <a class="logo" href="../"><b>ClayArena</b></a>
-  <span class="svc" id="svc"></span>
+  <a class="secname" id="svc" href="./" aria-current="page"><span class="ic" aria-hidden="true">📘</span><span>Правила FITASC<small>ClayArena · довідник спортсмена</small></span></a>
   <span class="spacer"></span>
-  <div class="seg disc" role="group" aria-label="Discipline"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
-  <div class="seg" role="group" aria-label="Language"><button data-lang="uk">UA</button><button data-lang="en">EN</button></div>
+  <div class="seg disc" role="group" aria-label="Дисципліна" id="discG"><button data-disc="sporting">Sporting™</button><button data-disc="compak">Compak® Sporting</button></div>
+  <div class="seg" role="group" aria-label="Мова" id="langG"><button data-lang="uk" lang="uk">Українська</button><button data-lang="en" lang="en">English</button></div>
 </div></header>
 <main id="app"><noscript><p><a href="sporting/">Правила Parcours de Chasse – Sporting™</a> · <a href="compak/">Правила Compak® Sporting</a> · <a href="en/sporting/">Parcours de Chasse – Sporting™ rules (EN)</a> · <a href="en/compak/">Compak® Sporting rules (EN)</a></p></noscript></main>
-<nav aria-label="Static pages" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · English: <a href="en/sporting/">Sporting™</a> · <a href="en/compak/">Compak® Sporting</a> · <a href="trainer/">Тренажер</a></nav>
+<nav id="statics" aria-label="Статичні сторінки" style="max-width:1180px;margin:0 auto;padding:0 16px 40px;font-size:13px;color:#9CA3AF">Повний текст переказу: <a href="sporting/">Sporting™</a> · <a href="compak/">Compak® Sporting</a> · <span lang="en">English</span>: <a href="en/sporting/" hreflang="en">Sporting™</a> · <a href="en/compak/" hreflang="en">Compak® Sporting</a> · <a href="trainer/?lang=uk">🎯 Тренажер правил</a></nav>
 <script src="data/sporting.js"></script>
 <script src="data/compak.js"></script>
 <script>
@@ -138,11 +139,15 @@ const T={
  uk:{svc:"Правила FITASC",svcS:"ClayArena · довідник спортсмена",title:"Правила {d} простими словами",lead:"Читайте правила розділ за розділом або просто запитайте. Відповіді — нашим переказом офіційного регламенту FITASC, з номером розділу і посиланням на сторінку PDF.",
    ph:"Запитайте: «скільки відмов машинки дозволено?», «положення рушниці», «що таке no bird?»",ask:"Відповісти",ex:"Часті питання",answer:"Відповідь",rel:"Правила за темою",open:"Відкрити в PDF FITASC, стор.",none:"Не знайшли точної відповіді. Спробуйте інші слова або перегляньте розділи нижче.",
    read:"Читати правила",faq:"Усі питання і відповіді",src:"Джерело",ed:"Редакція",checked:"Перевірка оновлень: щотижня",off:"Офіційний PDF",guide:"Пам'ятка суддям",qg:"є в пам'ятці суддів",
-   disc:"Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",notReady:"Довідник для цієї дисципліни ще готується.",part:"Частина"},
+   disc:"Це неофіційний переказ для зручності спортсменів ClayArena. Правила належать FITASC; у разі розбіжностей чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",notReady:"Довідник для цієї дисципліни ще готується.",part:"Частина",
+   page:"Правила FITASC простими словами · ClayArena",ogT:"Правила FITASC простими словами — ClayArena",ogD:"Parcours de Chasse – Sporting™ і Compak® Sporting: 232 пункти правил і 140 відповідей, українською та англійською, з посиланнями на офіційний PDF FITASC.",locale:"uk_UA",
+   discG:"Дисципліна",langG:"Мова",toc:"Зміст",statics:"Статичні сторінки",full:"Повний текст переказу",other:"English",otherL:"en",trainer:"Тренажер правил",cats:"Категорії FITASC (вік)",askL:"Запитайте про правила",similar:"Схожі питання",chapter:"Розділ"},
  en:{svc:"FITASC rules",svcS:"ClayArena · shooter's guide",title:"{d} rules in plain words",lead:"Read the rules chapter by chapter or just ask. Answers are our summary of the official FITASC rulebook, with the chapter and a link to the PDF page.",
    ph:"Ask: “how many malfunctions are allowed?”, “gun position”, “what is a no bird?”",ask:"Answer",ex:"Common questions",answer:"Answer",rel:"Rules on this topic",open:"Open in FITASC PDF, p.",none:"No exact answer found. Try other words or browse the chapters below.",
    read:"Read the rules",faq:"All questions and answers",src:"Source",ed:"Edition",checked:"Update check: weekly",off:"Official PDF",guide:"Referees' quick guide",qg:"in the referees' quick guide",
-   disc:"This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",notReady:"The guide for this discipline is still being prepared.",part:"Part"}
+   disc:"This is an unofficial summary for ClayArena shooters. The rules belong to FITASC; if anything differs, only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",notReady:"The guide for this discipline is still being prepared.",part:"Part",
+   page:"FITASC rules in plain words · ClayArena",ogT:"FITASC rules in plain words — ClayArena",ogD:"Parcours de Chasse – Sporting™ and Compak® Sporting: 232 rule points and 140 answers, in English and Ukrainian, with links to the official FITASC PDF.",locale:"en_GB",
+   discG:"Discipline",langG:"Language",toc:"Contents",statics:"Static pages",full:"Full text of the summary",other:"Українська",otherL:"uk",trainer:"Rules trainer",cats:"FITASC categories (age)",askL:"Ask about the rules",similar:"Similar questions",chapter:"Chapter"}
 };
 /* Per-browser preferences (language, discipline) in localStorage "clayarena-rules"; until 10.2026 the key was
    "clayaway-rules" (ClayAway is only the tours service), moved over once here. In production: the ClayArena user profile. */
@@ -150,9 +155,18 @@ const KEY="clayarena-rules";
 try{ const o=localStorage.getItem("clayaway-rules"); if(o!=null){ if(localStorage.getItem(KEY)==null) localStorage.setItem(KEY,o); localStorage.removeItem("clayaway-rules"); } }catch(e){}
 const store={get(){try{return JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){return{}}},set(v){try{localStorage.setItem(KEY,JSON.stringify(v))}catch(e){}}};
 let S=Object.assign({lang:"uk",disc:"sporting"},store.get(),{q:"",res:null});
-/* ?lang= from the ClayArena project bar or a link: the guide exists in uk and en; every other ClayArena language opens in English. */
-try{ const ql=new URLSearchParams(location.search).get("lang"); if(ql) S.lang = ql==="uk" ? "uk" : "en"; }catch(e){}
-if(S.lang!=="uk"&&S.lang!=="en") S.lang="en";
+/* Language (docs/shared/nav.js, "visitor language"): the guide exists in uk and en; every other ClayArena language reads it in
+   English (the bar shows a one-line banner and an "EN" mark). Order: ?lang=<l> of the link (the bar, the trainer, the Academy,
+   the glossary and the static rule pages pass the visitor language) > the visitor language of this browser (localStorage
+   "clayarena-lang", written by every language switcher of the site; nav.js also stores ?lang) > the last choice made here > the
+   browser language. Never hard-coded Ukrainian. The Українська/English buttons store the choice as the visitor language too. */
+const LANGS11=["en","uk","de","fr","it","cs","pl","pt","hu","fi","lt"], VKEY="clayarena-lang";
+const vlGet=()=>{ try{ const v=JSON.parse(localStorage.getItem(VKEY)||"null"); return LANGS11.includes(v)?v:null; }catch(e){ return null; } };
+const vlSet=l=>{ if(window.ClayNav&&ClayNav.setLang) ClayNav.setLang(l); else try{ localStorage.setItem(VKEY,JSON.stringify(l)); }catch(e){} };
+const VQ=(()=>{ try{ const q=new URLSearchParams(location.search).get("lang"); return LANGS11.includes(q)?q:null; }catch(e){ return null; } })();
+{ const want=VQ||vlGet()||store.get().lang||(navigator.language||"").slice(0,2).toLowerCase(); S.lang = want==="uk" ? "uk" : "en"; }
+/* visitor language for the links into the trainer (it opens in all 11 languages) */
+const VL=()=>(window.ClayNav&&ClayNav.lang&&ClayNav.lang())||VQ||vlGet()||S.lang;
 if(location.hash==="#compak") S.disc="compak"; if(location.hash==="#sporting") S.disc="sporting";
 const L=()=>S.lang,t=k=>T[L()][k],tx=(o,k)=>o[k+"_"+L()]||o[k+"_en"]||"";
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -220,13 +234,27 @@ function answerHTML(book){
   const I=idx(book); let h=`<div class="answer">`;
   const top=r.faq[0], topItem=r.items[0];
   if(top && (!topItem || top.sc>=topItem.sc*0.4||top.cov>=0.6)){ const f=top.d.f; h+=`<div class="ans-main"><div class="q">${t("answer")} · ${esc(tx(f,"q"))}</div><div class="a">${esc(tx(f,"a"))}</div><div class="refs">${(f.refs||[]).map(id=>I.byId[id]?`<button data-jump="${id}">${esc(I.byId[id].ref||tx(I.byId[id],"title"))}</button>`:"").join("")}${(f.refs||[]).map(id=>I.byId[id]).filter(Boolean).slice(0,1).map(it=>`<a href="${esc(book.source.url)}#page=${it.page}" target="_blank" rel="nofollow noopener noreferrer">PDF ${it.page} ↗</a>`).join("")}</div></div>`;
-    if(r.faq.length>1) h+=`<div class="also">${L()==="uk"?"Схожі питання":"Similar questions"}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:12.5px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
+    if(r.faq.length>1) h+=`<div class="also">${t("similar")}: ${r.faq.slice(1).map(x=>`<button class="btn" style="padding:2px 9px;font-size:12.5px" data-q="${esc(tx(x.d.f,"q"))}">${esc(tx(x.d.f,"q"))}</button>`).join(" ")}</div>`; }
   if(r.items.length){ h+=`<h3 style="margin-top:6px">${t("rel")}</h3>`+r.items.slice(0,4).map((x,i)=>itemHTML(book,x.d.it,i===0&&!(top&&(!topItem||top.sc>=topItem.sc*0.4||top.cov>=0.6)))).join(""); }
   return h+`</div>`;
 }
+/* Tab title and share tags follow the language shown (the static tags in <head> are the Ukrainian ones of scripts/make_og.py). */
+function setMeta(sel,v){ const m=document.querySelector(sel); if(m) m.setAttribute("content",v); }
+function headLang(){
+  document.title=t("page");
+  setMeta('meta[name="description"]',t("ogD")); setMeta('meta[property="og:title"]',t("ogT")); setMeta('meta[property="og:description"]',t("ogD"));
+  setMeta('meta[property="og:locale"]',t("locale")); setMeta('meta[name="twitter:title"]',t("ogT")); setMeta('meta[name="twitter:description"]',t("ogD"));
+}
+/* The line of static pages under the app, in the language shown, with the visitor language on the trainer link. */
+function staticsHTML(){
+  const own=L()==="uk"?["sporting/","compak/"]:["en/sporting/","en/compak/"], oth=L()==="uk"?["en/sporting/","en/compak/"]:["sporting/","compak/"];
+  return `${t("full")}: <a href="${own[0]}">Sporting™</a> · <a href="${own[1]}">Compak® Sporting</a> · <span lang="${t("otherL")}">${t("other")}</span>: <a href="${oth[0]}" hreflang="${t("otherL")}">Sporting™</a> · <a href="${oth[1]}" hreflang="${t("otherL")}">Compak® Sporting</a> · <a href="trainer/?lang=${esc(VL())}#${S.disc}">🎯 ${t("trainer")}</a>`;
+}
 function render(){
-  document.documentElement.lang=L()==="uk"?"uk":"en";
-  document.getElementById("svc").innerHTML=`${t("svc")}<small>${t("svcS")}</small>`;
+  document.documentElement.lang=L()==="uk"?"uk":"en"; headLang();
+  document.getElementById("svc").innerHTML=`<span class="ic" aria-hidden="true">📘</span><span>${t("svc")}<small>${t("svcS")}</small></span>`;
+  document.getElementById("discG").setAttribute("aria-label",t("discG")); document.getElementById("langG").setAttribute("aria-label",t("langG"));
+  const sn=document.getElementById("statics"); sn.setAttribute("aria-label",t("statics")); sn.innerHTML=staticsHTML();
   document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.lang===L()));
   document.querySelectorAll("[data-disc]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.disc===S.disc));
   const book=BOOKS[S.disc], app=document.getElementById("app");
@@ -235,12 +263,12 @@ function render(){
   const ex=(book.faq||[]).slice(0,8);
   let parts=[]; book.sections.forEach(s=>{ if(!parts.includes(s.part)) parts.push(s.part); });
   app.innerHTML=`<div class="eyebrow">FITASC · ${esc(dname)}</div><h1>${t("title").replace("{d}",esc(dname))}</h1><p class="muted">${t("lead")}</p>
-   <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span><a class="btn primary" style="padding:4px 12px;font-size:13px;text-decoration:none" href="trainer/#${S.disc}">${L()==="uk"?"Тренажер правил →":"Rules trainer →"}</a><a class="btn" style="padding:4px 12px;font-size:13px;text-decoration:none" href="categories/">${L()==="uk"?"Категорії FITASC (вік)":"FITASC categories (age)"}</a></div>
-   <form class="ask" id="askf"><label for="q" class="eyebrow" style="display:block;margin-bottom:8px">${L()==="uk"?"Запитайте про правила":"Ask about the rules"}</label><div class="askrow"><input id="q" type="search" autocomplete="off" placeholder="${esc(t("ph"))}" value="${esc(S.q)}"><button class="btn primary" type="submit">${t("ask")}</button></div>
+   <div class="source"><span>${t("src")}: <a href="${esc(book.source.url)}" target="_blank" rel="nofollow noopener noreferrer">${t("off")} ↗</a></span><span>${t("ed")}: ${esc(book.source.edition||"")}</span>${book.source.quick_guide_url?`<span><a href="${esc(book.source.quick_guide_url)}" target="_blank" rel="nofollow noopener noreferrer">${t("guide")} ↗</a></span>`:""}<span>${t("checked")}</span><a class="btn primary" style="padding:6px 14px;font-size:14px;text-decoration:none" href="trainer/?lang=${esc(VL())}#${S.disc}">🎯 ${t("trainer")} →</a><a class="btn" style="padding:4px 12px;font-size:13px;text-decoration:none" href="${L()==="uk"?"categories/":"en/categories/"}">${t("cats")}</a></div>
+   <form class="ask" id="askf"><label for="q" class="eyebrow" style="display:block;margin-bottom:8px">${t("askL")}</label><div class="askrow"><input id="q" type="search" autocomplete="off" placeholder="${esc(t("ph"))}" value="${esc(S.q)}"><button class="btn primary" type="submit">${t("ask")}</button></div>
      <div class="chips">${ex.map(f=>`<button type="button" data-q="${esc(tx(f,"q"))}">${esc(tx(f,"q"))}</button>`).join("")}</div></form>
    <div id="ans">${answerHTML(book)}</div>
-   <div class="layout"><nav class="toc" aria-label="Chapters">${parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")}<div class="part">FAQ</div><button data-sec="faq">${t("faq")}</button></nav>
-   <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+(L()==="uk"?"Розділ ":"Chapter ")+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}</section>`).join("")}
+   <div class="layout"><nav class="toc" aria-label="${t("toc")}">${parts.map(p=>`<div class="part">${t("part")} ${esc(p)}</div>`+book.sections.filter(s=>s.part===p).map(s=>`<button data-sec="${s.id}">${s.chapter?esc(s.chapter)+". ":""}${esc(tx(s,"title"))}</button>`).join("")).join("")}<div class="part">FAQ</div><button data-sec="faq">${t("faq")}</button></nav>
+   <div><h2>${t("read")}</h2>${book.sections.map(s=>`<section class="sec" id="sec-${s.id}"><h2><small>${t("part")} ${esc(s.part)}${s.chapter?" · "+t("chapter")+" "+esc(s.chapter):""}</small>${esc(tx(s,"title"))}</h2>${s.items.map(it=>itemHTML(book,it,false)).join("")}</section>`).join("")}
    <section class="sec faqlist" id="sec-faq"><h2>${t("faq")}</h2>${(book.faq||[]).map(f=>`<details><summary>${esc(tx(f,"q"))}</summary><p>${esc(tx(f,"a"))}</p><div class="refs">${(f.refs||[]).map(id=>idx(book).byId[id]?`<button data-jump="${id}">${esc(idx(book).byId[id].ref||id)}</button>`:"").join("")}</div></details>`).join("")}</section>
    <div class="disclaimer">${t("disc")}</div></div></div>`;
 }
@@ -248,7 +276,11 @@ function ask(q){ S.q=q; S.res=search(BOOKS[S.disc],q); document.getElementById("
 function jump(id){ const el=document.getElementById(id); if(!el) return; if(el.tagName==="DETAILS") el.open=true; window.scrollTo({top:el.getBoundingClientRect().top+scrollY-80,behavior:"smooth"}); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return; const d=b.dataset;
-  if(d.lang){ S.lang=d.lang; store.set({lang:S.lang,disc:S.disc}); if(S.q) S.res=search(BOOKS[S.disc]||{sections:[],faq:[],source:{}},S.q); render(); return; }
+  /* the choice becomes the visitor language, unless it is what the visitor language already shows here (a German visitor reads
+     the guide in English: pressing "English" keeps "de" for the rest of the site) */
+  if(d.lang){ S.lang=d.lang; store.set({lang:S.lang,disc:S.disc}); if((VL()==="uk"?"uk":"en")!==S.lang) vlSet(S.lang);
+    try{ const u=new URL(location.href); u.searchParams.set("lang",VL()); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(_){} // reload / shared link keep it (?lang=de still shows English)
+    if(S.q) S.res=search(BOOKS[S.disc]||{sections:[],faq:[],source:{}},S.q); render(); return; }
   if(d.disc){ S.disc=d.disc; S.q=""; S.res=null; store.set({lang:S.lang,disc:S.disc}); try{history.replaceState(null,"","#"+S.disc)}catch(_){} render(); return; }
   if(d.q){ ask(d.q); return; }
   if(d.jump){ jump("it-"+d.jump); return; }
@@ -256,6 +288,9 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("submit",e=>{ if(e.target.id==="askf"){ e.preventDefault(); ask(document.getElementById("q").value); } });
 render();
+/* The trainer links follow the visitor language: refresh them when the bar reports it (nav.js runs after this script). */
+document.addEventListener("claynav:update",()=>{ const sn=document.getElementById("statics"); if(sn) sn.innerHTML=staticsHTML();
+  document.querySelectorAll('#app a[href^="trainer/"]').forEach(a=>{ a.href=`trainer/?lang=${encodeURIComponent(VL())}#${S.disc}`; }); });
 /* Deep link from the trainer: ?item=<id>#<discipline> opens and highlights that rule item. */
 try{ const it=new URLSearchParams(location.search).get("item"); if(it) setTimeout(()=>jump("it-"+it),150); }catch(_){}
 </script>

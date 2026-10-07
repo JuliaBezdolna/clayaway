@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" data-claynav="404">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · ClayArena</title>
+<!-- 404 page of the project site (GitHub Pages serves docs/404.html for every missing address, AT that address: so every link
+     and script here is absolute — the site base is /clayaway/ on GitHub Pages and / on a local server).
+     It loads the ClayArena bar (docs/shared/nav.js), says "page not found" in the visitor language (localStorage "clayarena-lang",
+     else the language prefix of the address, else the browser), suggests the NEW address of an old one (Academy lesson ids:
+     learn/data/id-map.json; old Interpreter Academy pages: the same map; glossary ids merged into another id:
+     glossary/data/aliases.json) and lists the four sections with the names of the bar.
+     Production (clayarena.com): answer moved addresses with HTTP 301 from the same maps, and show the site's own 404 page. -->
+<style>
+:root{color-scheme:dark;--bg:#030712;--card:rgba(255,255,255,.04);--line:rgba(255,255,255,.1);--ink:#F3F4F6;--soft:#D1D5DB;--muted:#9CA3AF;--accent:#34D399}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:880px;margin:0 auto;padding-inline:16px;padding-block:40px 56px}
+.code{font-size:13px;font-weight:700;letter-spacing:.08em;color:var(--accent)}
+h1{font-size:clamp(28px,5vw,42px);margin:8px 0 10px;letter-spacing:-.01em}
+p{color:var(--soft);max-width:66ch;margin:0 0 14px}
+.hintbox{border:1px solid rgba(52,211,153,.5);background:rgba(52,211,153,.08);border-radius:12px;padding:14px 16px;margin:18px 0}
+.hintbox a{font-weight:700;word-break:break-all}
+h2{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:28px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;list-style:none;padding:0;margin:0}
+.grid a{display:grid;gap:4px;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-top:3px solid var(--c,#34D399);border-radius:12px;padding:14px 16px;min-height:44px}
+.grid a:hover,.grid a:focus-visible{border-color:var(--c,#34D399)}
+.grid b{font-size:17px}.grid span{font-size:13.5px;color:var(--muted)}
+footer{margin-top:36px;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="wrap" id="app">
+  <div class="code">404</div>
+  <h1 id="nfH">Сторінку не знайдено · Page not found</h1>
+  <p id="nfP">Такої адреси немає (вже немає): частина сторінок проєктів ClayArena переїхала. · This address does not exist (any more): some pages of the ClayArena projects have moved.</p>
+  <div id="nfHint"></div>
+  <h2 id="nfS">ClayArena</h2>
+  <ul class="grid" id="nfGrid">
+    <li><a href="https://fenix-112323.github.io/clayaway/"><b>ClayArena</b><span>Проєкти ClayArena · ClayArena projects</span></a></li>
+    <li><a href="https://fenix-112323.github.io/clayaway/learn/" style="--c:#34D399"><b>🎓 Академія · Academy</b></a></li>
+    <li><a href="https://fenix-112323.github.io/clayaway/rules/" style="--c:#22D3EE"><b>📘 Правила FITASC · FITASC rules</b></a></li>
+    <li><a href="https://fenix-112323.github.io/clayaway/glossary/" style="--c:#A78BFA"><b>📖 Глосарій · Glossary</b></a></li>
+    <li><a href="https://fenix-112323.github.io/clayaway/tours/" style="--c:#F472B6"><b>✈️ Тури ClayAway · ClayAway tours</b></a></li>
+  </ul>
+  <footer>Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC. · © ClayArena</footer>
+</main>
+<script>
+(function () {
+  /* Site base: GitHub Pages project site → /clayaway/; a local server of docs/ → /. */
+  var B = /^\/clayaway(\/|$)/.test(location.pathname) ? "/clayaway/" : "/";
+  var LANGS = ["en", "uk", "de", "fr", "it", "cs", "pl", "pt", "hu", "fi", "lt"];
+  var T = {
+    nf: {en: "Page not found", uk: "Сторінку не знайдено", de: "Seite nicht gefunden", fr: "Page introuvable", it: "Pagina non trovata", cs: "Stránka nenalezena", pl: "Nie znaleziono strony", pt: "Página não encontrada", hu: "Az oldal nem található", fi: "Sivua ei löytynyt", lt: "Puslapis nerastas"},
+    lead: {en: "This address does not exist (any more): some pages of the ClayArena projects have moved. Choose a section below.", uk: "Такої адреси немає (вже немає): частина сторінок проєктів ClayArena переїхала. Оберіть розділ нижче.", de: "Diese Adresse gibt es nicht (mehr): einige Seiten der ClayArena-Projekte sind umgezogen. Wählen Sie unten einen Bereich.", fr: "Cette adresse n'existe pas (ou plus) : certaines pages des projets ClayArena ont changé d'adresse. Choisissez une section ci-dessous.", it: "Questo indirizzo non esiste (più): alcune pagine dei progetti ClayArena sono state spostate. Scegli una sezione qui sotto.", cs: "Tato adresa neexistuje (už ne): některé stránky projektů ClayArena se přesunuly. Vyberte si sekci níže.", pl: "Ten adres nie istnieje (już): część stron projektów ClayArena została przeniesiona. Wybierz dział poniżej.", pt: "Este endereço não existe (ou já não existe): algumas páginas dos projetos ClayArena mudaram de lugar. Escolha uma secção abaixo.", hu: "Ez a cím nem létezik (már): a ClayArena projektek néhány oldala átköltözött. Válasszon egy részt alább.", fi: "Tätä osoitetta ei ole (enää): osa ClayArena-projektien sivuista on siirtynyt. Valitse osio alta.", lt: "Šio adreso nėra (nebėra): dalis ClayArena projektų puslapių persikėlė. Pasirinkite skyrių žemiau."},
+    maybe: {en: "The new address is probably:", uk: "Ймовірно, нова адреса:", de: "Die neue Adresse ist wahrscheinlich:", fr: "La nouvelle adresse est probablement :", it: "Il nuovo indirizzo è probabilmente:", cs: "Nová adresa je pravděpodobně:", pl: "Nowy adres to prawdopodobnie:", pt: "O novo endereço é provavelmente:", hu: "Az új cím valószínűleg:", fi: "Uusi osoite on todennäköisesti:", lt: "Naujas adresas tikriausiai:"},
+    secs: {en: "Sections", uk: "Розділи", de: "Bereiche", fr: "Sections", it: "Sezioni", cs: "Sekce", pl: "Działy", pt: "Secções", hu: "Részek", fi: "Osiot", lt: "Skyriai"}
+  };
+  var rel = location.pathname.indexOf(B) === 0 ? location.pathname.slice(B.length) : location.pathname.replace(/^\//, "");
+  var m0 = /^([a-z]{2})\//.exec(rel), urlLang = m0 && LANGS.indexOf(m0[1]) >= 0 ? m0[1] : null;
+  var stored = null; try { stored = JSON.parse(localStorage.getItem("clayarena-lang") || "null"); } catch (e) {}
+  var nav = (navigator.language || "").slice(0, 2).toLowerCase();
+  var L = LANGS.indexOf(stored) >= 0 ? stored : urlLang || (LANGS.indexOf(nav) >= 0 ? nav : "en");
+  var pick = function (o) { return o[L] || o.en; };
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]; }); };
+  var $ = function (id) { return document.getElementById(id); };
+  document.documentElement.lang = L;
+  document.title = pick(T.nf) + " · ClayArena";
+  $("nfH").textContent = pick(T.nf); $("nfP").textContent = pick(T.lead); $("nfS").textContent = pick(T.secs);
+  function getJSON(u) { return fetch(u).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  function show(path) { var u = B + path; $("nfHint").innerHTML = '<div class="hintbox">' + esc(pick(T.maybe)) + ' <a href="' + esc(u) + '">' + esc(location.origin + u) + "</a></div>"; }
+  /* Old address → new address (the same maps the redirect stubs and the Academy routers use). */
+  var ml = /^(?:([a-z]{2})\/)?learn\/([a-z0-9-]+)\/?(?:index\.html)?$/.exec(rel), mi = /^interpreter\/(?:([a-z]{2})\/)?([a-z0-9-]+)\/?/.exec(rel),
+      mg = /^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/?/.exec(rel);
+  var pre = function (l) { return l && l !== "uk" ? l + "/" : ""; };
+  if (ml || mi) getJSON(B + "learn/data/id-map.json").then(function (map) {
+    var id = (ml || mi)[2], l = (ml || mi)[1], x = ml ? (map.learn || {})[id] : (map.interpreter || {})[id] || (map.learn || {})[id];
+    if (x && x.to) show(pre(l) + "learn/" + x.to + "/" + (x.anchor ? "#" + x.anchor : ""));
+    else if (mi) show(pre(l) + "learn/routes/interpreter/");
+    else show(pre(l) + "learn/");
+  }).catch(function () {});
+  else if (mg) getJSON(B + "glossary/data/aliases.json").then(function (al) {
+    var to = al[mg[2]]; show(pre(mg[1]) + "glossary/" + (to && to !== mg[2] ? to + "/" : ""));
+  }).catch(function () {});
+  else if (/^rules\//.test(rel)) show("rules/?lang=" + L);
+  /* The four sections, with the names, icons, descriptions and links of the bar (ClayNav, docs/shared/nav.js). */
+  function cards() {
+    var N = window.ClayNav; if (!N || !N.link) return;
+    var col = {learn: "#34D399", rules: "#22D3EE", glossary: "#A78BFA", tours: "#F472B6"};
+    var h = N.link("home", L);
+    $("nfGrid").innerHTML = '<li><a href="' + esc(h.url) + '"><b>ClayArena</b><span>' + esc(h.full) + "</span></a></li>" +
+      ["learn", "rules", "glossary", "tours"].map(function (id) { var x = N.link(id, L);
+        return '<li><a href="' + esc(x.url) + '" style="--c:' + col[id] + '"' + (x.lang !== L ? ' hreflang="' + x.lang + '"' : "") + "><b>" + N.icon(id) + " " + esc(x.full) + (x.lang !== L ? " (" + x.lang.toUpperCase() + ")" : "") + "</b><span>" + esc(N.desc(id, L)) + "</span></a></li>"; }).join("");
+  }
+  /* The bar: loaded here by an absolute path (the build adds nav.js only with a relative path, which does not work on a 404 page). */
+  var s = document.createElement("script"); s.src = B + "shared/nav.js"; s.onload = cards; document.body.appendChild(s);
+})();
+</script>
+</body>
+</html>
