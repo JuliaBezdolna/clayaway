@@ -21,7 +21,10 @@
     "flight-pairs-ph4": "4b3c9b48",
     "flight-pairs-q1": "ebe2b5dc",
     "flight-pairs-q2": "44dfc09b",
-    "flight-pairs-q3": "424310f9"
+    "flight-pairs-q3": "424310f9",
+    "targets-singles-and-doubles-q2": "69c2d15d",
+    "targets-singles-and-doubles-q1": "de200647",
+    "targets-singles-and-doubles-q-two-with-one": "e024bf17"
   },
   "review": {
     "by": null,
@@ -93,6 +96,33 @@
         "d": "Um double simultâneo"
       },
       "explain": "«True pair» é o nome do English Sporting para o double simultâneo; «true» não tem nada a ver com correção."
+    },
+    "targets-singles-and-doubles-q2": {
+      "q": "Em que disciplina há doubles em rafale?",
+      "options": {
+        "a": "Só no {{tm:sporting}}",
+        "b": "Só no {{tm:compak}}",
+        "c": "Em ambas"
+      },
+      "explain": "Um rafale são dois pratos da mesma máquina na mesma trajetória, um double do {{tm:sporting}}. O {{tm:compak}} só tem doubles ao tiro e doubles simultâneos."
+    },
+    "targets-singles-and-doubles-q1": {
+      "q": "Quantos pratos dá um percurso de {{tm:sporting}}?",
+      "options": {
+        "a": "20: 10 simples e 5 doubles",
+        "b": "25: 15 simples e 5 doubles",
+        "c": "25: 25 simples"
+      },
+      "explain": "Cada tipo de percurso de {{tm:sporting}} dá 25 pratos: 15 simples e 5 doubles."
+    },
+    "targets-singles-and-doubles-q-two-with-one": {
+      "q": "No {{tm:sporting}}, um só tiro parte os dois pratos de um double. Como se pontua?",
+      "options": {
+        "a": "«Um» e «um»",
+        "b": "No Bird, o double repete-se",
+        "c": "«Um» e «zero»"
+      },
+      "explain": "No {{tm:sporting}} os dois pratos contam quando um só tiro os parte. O {{tm:compak}} tem regras diferentes."
     }
   }
 }

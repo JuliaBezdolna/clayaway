@@ -1,6 +1,6 @@
 {
   "id": "technique-gun-mount",
-  "rev": 2,
+  "rev": 3,
   "status": "ready",
   "plan": "rewrite",
   "level": 1,
@@ -169,14 +169,12 @@
       "k": "basics-mount-sim",
       "t": "sim",
       "sim": {
-        "type": "lead",
-        "method": "pull-away",
-        "preset": "crosser-lr",
-        "focus": "mount"
+        "type": "call",
+        "kind": "mount"
       },
       "ready": true,
-      "en": "The muzzles move with the target first, and the mount is finished as the shot comes: “move, mount, shoot”.",
-      "uk": "Спершу стволи рушають за мішенню, а вкладка завершується разом із пострілом: «рух, вкладка, постріл»."
+      "en": "The front hand starts the muzzles along the target’s line first; then the stock comes up to your cheek and into the shoulder while your head stays still. The mount is finished as the shot comes: “move, mount, shoot”.",
+      "uk": "Спершу передня рука веде стволи вздовж лінії мішені; потім приклад піднімається до щоки й лягає в плече, а голова лишається нерухомою. Вкладка завершується разом із пострілом: «рух, вкладка, постріл»."
     }
   ],
   "note": [],
@@ -482,7 +480,7 @@
     "basics-mount-p4": "3ee4e21b",
     "technique-gun-mount-mock": "4b1942aa",
     "technique-gun-mount-p5": "5561100e",
-    "basics-mount-sim": "96024c66",
+    "basics-mount-sim": "210edcd7",
     "basics-mount-kp4": "ba2ac5e4",
     "basics-mount-kp1": "f80dac2d",
     "basics-mount-kp3": "2dfe15c1",
@@ -505,7 +503,7 @@
     "moves_out": [],
     "moves_in": [],
     "tasks": [
-      "Overlays, animation caption of 2026-10-07: body.basics-mount-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_mount)."
+      "Overlays, animation caption of 2026-10-07 (rewritten the same day when the lead lab was replaced by the side-view gun-mount scene, sims.js SCENES.mount): body.basics-mount-sim is one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (their old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_mount); the build lists them as the warning sim-caption."
     ]
   }
 }

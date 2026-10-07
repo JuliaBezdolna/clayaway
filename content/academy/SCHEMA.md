@@ -116,7 +116,7 @@ published; set on everything that came from the Interpreter Academy, which alrea
 | `law` | country law table: `country` (ISO 3166 code in capitals, for example `DE`, `ES`, `CZ`) and `part` (`lead` \| `travel` \| `states`); the data, with its date (`as_of`) and sources, is `laws/<country>.json` |
 | `fact` | card from `facts.json`: `fact: "<id>"` |
 | `evidence` | evidence badge: `level` + `for` |
-| `sim` | animation: `sim: {type, preset, …}` (the `docs/shared/sims.js` registry); `ready: false` is never published (all migrated animations start false until findings S-01…S-05, S-09 are checked) |
+| `sim` | animation: `sim: {type, preset, …}` (the `docs/shared/sims.js` registry: `flight`, `lead`, `pair`, `call` = stand scenes `signal`, `signal-late`, `manual`, `sonopull`, `gun-ready`, `gun-early`, `misfire`, `mount` — the side-view gun mount: muzzles first, then the stock to the cheek, “cheek on the comb”); `ready: false` is never published (all migrated animations start false until findings S-01…S-05, S-09 are checked). `en`/`uk` = one line of what to watch, shown under it; the 9 overlay languages show the generic caption `anim_w_<kind>` until `body[<key>]` is translated from the current English (warning `sim-caption`). The first shown animation is placed right after the first paragraph (on a phone, ≤ 560 px, the app puts it just before it, after the summary) |
 | `figure` | ClayArena media only, with author and licence |
 | `h` | section heading inside a lesson (`en`/`uk`), shown as `<h2>` on the page and in the app; its `id` is `anchor` when set (give `anchor: "<old id>"` where a merged lesson starts, so old links `#<old id>` land on it), else its key `k` (`#<k>` links to the section). The app still shows types it does not know as a paragraph |
 | `draft` | migration only: text of a merged lesson. `from` = old id; `role` = `title`\|`summary`\|`p`\|`did_you_know`\|`sim`\|`law`; the title block has `anchor: "<old id>"`. **A lesson with any `draft` block or any item with `draft: true` is not published.** The editor keeps the facts, deletes repeats and changes `t` to a real type. |
@@ -299,6 +299,12 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   links from the ids (`/<p>learn/<id>/`, `topics/<block>/`, `routes/<route>/`, `practice/<game>/`), so `url` fields are for the
   pages and SEO. `alt` may be `{lang: url}` or a list of language codes (a list keeps the catalog near the ~30 KB target).
 - Phrases have no `core` flag in the lesson file: the phrasebook shows every phrase of the lessons of the chosen block (from `phrases.json`).
+- **Languages inside the animations** (decision 10.2026, `docs/shared/sims.js` header): glossary terms drawn on the canvas (Pick-up point,
+  Hold point, Break point, Soft focus, Hard focus) and the coach's phase words above it (“move · mount · shoot”, “butt · belly · beak · bang”)
+  stay in English — the stand words the course teaches; every other word (buttons, status line, clock, “line”, “decision”, “shot”, “lead”,
+  “front foot”, “body”, “cheek on the comb”, scene and pair tabs) is in the page language (ui keys `anim_*` and the lab keys, 11 languages).
+  Flight tabs show the English stand word plus the local term when it differs (“Crosser → · <local>”). Outside the Academy the local term
+  names come from `docs/shared/sims-text.js` (`window.CLAYSIMS_TERMS`, written by the build next to `window.CLAYSIMS_TEXT`).
 - **Ukrainian:** every uk file and page writes the apostrophe as ’ (U+2019) between Cyrillic letters, whatever the source used.
 - **Rules trainer result** (not a build file): the trainer `docs/rules/trainer/` writes `localStorage["clayarena-trainer"].stats[disc]`
   `{best, short_best, short_at, …}`; the app reads it through `docs/shared/progress.js` (`trainerPass`). A route practice item
@@ -357,7 +363,9 @@ English links the term with a token, and only when the translation has neither a
 sources still have; the output writes ’); the correct answer too often in one position or
 clearly longer (`quiz-answer-position`, `quiz-answer-length`); a lesson longer than 8 minutes (`lesson-too-long`); names of real people
 from the research or the tour mock-ups (`living-people`); stale or orphan overlay keys (`overlay-stale`, `overlay-orphan`, `uk-stale`);
-an expired `review_by` (`review-expired`); interface strings shown in English (`ui-fallback`); no `_shared.json` for a language with
+an expired `review_by` (`review-expired`); lesson animation captions that a language shows as the generic caption because the overlay
+entry is missing or was translated from an older English text (`sim-caption`, one warning per language with the lesson ids; captions are
+not `core`, so they never hold a page back — translate them in the next wave); interface strings shown in English (`ui-fallback`); no `_shared.json` for a language with
 lessons (`shared-missing`); missing summary (`summary-missing`); psychology/health lesson without evidence badges (`evidence-missing`).
 
 Redirect stubs (design §5.2): groups A–D are written only when the target page exists in **the same language** (else the old page stays

@@ -31,7 +31,10 @@
     "flight-quartering-ph3": "47b9dcac",
     "flight-quartering-q1": "d9b0693b",
     "flight-quartering-q2": "1b9d3224",
-    "flight-quartering-q3": "4d4cc96a"
+    "flight-quartering-q3": "4d4cc96a",
+    "targets-basic-presentations-q-distance": "72dd87ef",
+    "targets-basic-presentations-q-slowing": "8ea3aa39",
+    "targets-basic-presentations-q-directions": "60b56b5d"
   },
   "review": {
     "by": null,
@@ -149,6 +152,33 @@
         "d": "Só o árbitro pode estar noutro sítio"
       },
       "explain": "O ângulo entre o atirador e a linha do prato muda com a posição, por isso a mostra também muda."
+    },
+    "targets-basic-presentations-q-distance": {
+      "q": "Um transversal voa longe de si. Comparado com um perto, à mesma velocidade, precisa de…",
+      "options": {
+        "a": "mais avanço",
+        "b": "menos avanço",
+        "c": "o mesmo avanço"
+      },
+      "explain": "Quanto mais longe o prato, mais ele anda enquanto o chumbo vai a caminho, por isso precisa de mais avanço."
+    },
+    "targets-basic-presentations-q-slowing": {
+      "q": "Um transversal está a abrandar no seu ponto de tiro. Comparado com um a toda a velocidade, precisa de…",
+      "options": {
+        "a": "mais avanço",
+        "b": "menos avanço",
+        "c": "nenhum avanço"
+      },
+      "explain": "Um prato mais lento anda menos enquanto o chumbo viaja, por isso precisa de menos avanço."
+    },
+    "targets-basic-presentations-q-directions": {
+      "q": "Do ponto de vista de quem se diz «esquerda» e «direita» num transversal?",
+      "options": {
+        "a": "Do atirador",
+        "b": "Do árbitro",
+        "c": "De quem opera a máquina"
+      },
+      "explain": "As direções são as do atirador: um transversal E→D voa da esquerda para a direita do atirador."
     }
   }
 }

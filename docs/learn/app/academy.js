@@ -15,8 +15,11 @@
      <p> = "" for Ukrainian (root) and "<lang>/" for en de fr it cs pl pt hu fi lt (design §5.1). URL slugs are English.
    - Progress, XP, levels, badges and certificates: docs/shared/progress.js (ClayProgress), key "clayarena-academy", on this device.
      The old keys clayarena-learn / clayarena-interpreter are moved over once (design §7.8), the rules trainer key is read only.
-   - Animations: docs/shared/sims.js (ClaySims). A lesson's animation is shown big right after its first paragraph (simHero):
-     heading, play / replay, slow motion, one line of what to watch; it plays once when on screen, never with prefers-reduced-motion.
+   - Animations: docs/shared/sims.js (ClaySims). A lesson's animation is shown big right after its first paragraph (simHero; on a
+     phone, ≤ 560 px, right after the summary, so it is near the first screen): heading, play / stop / replay, slow motion, one line of
+     what to watch; it plays once when on screen, never with prefers-reduced-motion, never after the reader started it by hand.
+     The lesson's meta line links to it ("▶ with animation"). If the lesson data cannot load, the static page stays and its
+     animation is mounted from the static markup (staticSims).
    - English stand phrases: ClaySpeak (sims.js) and ONLY with a voice that runs on the device (audit W-08).
    - Project bar: docs/shared/nav.js (ClayNav.setResume / clearResume, section "learn"; the bar's hint reads state.nav).
 
@@ -329,6 +332,7 @@
   /* ================================ 8. Views ================================ */
   let VIEW = {};       // transient state of the current view (quiz answers, game round…); reset on every navigation
   let AFTER = [];      // functions to run after the view's HTML is in the page (sims, games, focus)
+  let APP_DONE = false; // true once the app has replaced the static content of #app (until then a data error keeps the static page)
   const after = fn => AFTER.push(fn);
 
   /* ---------- 8.1 Home ---------- */
@@ -452,7 +456,8 @@
     VIEW.phr = D.phrases || [];
     const ev = {}; for (const e of D.evidence || []) (ev[e.for] = ev[e.for] || []).push(e.level);
     for (const x of D.body || []) if (x.t === "evidence" && x.for) (ev[x.for] = ev[x.for] || []).push(x.level);
-    const body = (D.body || []).map(x => blockHtml(x, ev, D)).join("");
+    const hero = heroBlock(D.body || []);
+    const body = (narrow() ? heroUp(D.body || [], hero) : D.body || []).map(x => blockHtml(x, ev, D)).join("");
     const navLink = (lid, cls, label) => { if (!lid) return ""; const h = lessonHref(lid); if (!h) return "";
       return `<a class="ac-btn ${cls}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>${label}: ${esc(L(lid).title)}${h.en ? " (EN)" : ""}</a>`; };
     return `${langBanner()}${crumbs(cr.filter(Boolean))}${lc.also ? alsoRoute(lc.also, id) : ""}
@@ -462,6 +467,7 @@
     <header class="ac-head"><div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
       <h1 tabindex="-1">${esc(c.title)}</h1>
       <p class="ac-meta">⏱ ${c.minutes || 4} ${t("min")} · ${c.level === 1 ? "★ " + t("start_here") : t("go_deeper")} ${discChips(c.disciplines)}
+        ${hero ? `<a class="ac-chip ac-animark" href="#anim-${esc(hero.k)}">▶ ${t("anim_marker")}</a>` : ""}
         ${D.review_flag === "pending" || c.review_flag === "pending" ? `<span class="ac-chip ac-review">${t("review_pending")}</span>` : ""}
         ${updated(id) ? `<span class="ac-chip ac-upd" title="${t("lesson_updated_d")}">● ${t("lesson_updated")}</span>` : ""}
         ${done(id) ? `<span class="ac-chip is-on">✓ ${t("lesson_done")}</span>` : ""}</p>
@@ -523,19 +529,41 @@
   /* The lesson's animation (owner's rule: animations prominent). The build puts it right after the first paragraph
      (scripts/build_academy.mjs heroOrder/heroOf) and sends hero, kind, heading and html (the one line of "what to watch").
      Here: the heading "▶ …" (x.heading, else ui anim_h_<kind>), the animation itself and the caption. docs/shared/sims.js gives it
-     a big play / replay button and a slow-motion toggle and plays it once by itself when half of it is on the screen (never when
-     the reader prefers reduced motion). It is mounted after render (AFTER); VIEW.simPlayed keeps a re-render (a quiz answer, the
-     discipline switch) from playing it again, VIEW.simTab keeps the open tab. */
+     a big play / stop / replay button and a slow-motion toggle and plays it once by itself when half of its canvas is on the screen
+     (never when the reader prefers reduced motion). It is mounted after render (AFTER); VIEW.simPlayed keeps a re-render (a quiz
+     answer, the discipline switch) from playing it again — set when it played by itself, when the reader picked a tab and when the
+     reader did anything inside it first (onUser: ▶, 🐢, "Your turn", a slider…), so a re-render never starts it over the reader's own
+     run; VIEW.simTab keeps the open tab. */
   function simHero(x, id) {
     if (!x.sim || !SIM_TYPES.includes(x.sim.type)) return x.html ? `<p${id}>${x.html}</p>` : "";
     const k = x.k, kind = x.kind || (window.ClaySims && ClaySims.kind ? ClaySims.kind(x.sim) : "flight"), hid = "anim-" + esc(k);
     VIEW.sims = VIEW.sims || {}; VIEW.sims[k] = x.sim; VIEW.simPlayed = VIEW.simPlayed || {}; VIEW.simTab = VIEW.simTab || {};
     after(() => { const host = $("sim-" + k); if (!host || !window.ClaySims) return;
       ClaySims.mount(host, x.sim, { autoplay: VIEW.simPlayed[k] ? false : "view", onAutoplay: () => { VIEW.simPlayed[k] = 1; },
-        tab: VIEW.simTab[k], onTab: tb => { VIEW.simTab[k] = tb; VIEW.simPlayed[k] = 1; } }); });
+        onUser: () => { VIEW.simPlayed[k] = 1; }, tab: VIEW.simTab[k], onTab: tb => { VIEW.simTab[k] = tb; VIEW.simPlayed[k] = 1; } }); });
     const cap = x.html || (U["anim_w_" + kind] != null ? t("anim_w_" + kind) : "");
     return `<figure class="ac-anim"${id} aria-labelledby="${hid}"><p class="ac-anim-h" id="${hid}"><span aria-hidden="true">▶</span> ${esc(x.heading || u("anim_h_" + kind))}</p>
       <div class="ac-sim-host" id="sim-${esc(k)}"></div>${cap ? `<figcaption class="ac-anim-w">${cap}</figcaption>` : ""}</figure>`;
+  }
+  /* The lesson's big animation: the block the build marked as hero (else the first animation the app can draw). */
+  const heroBlock = body => body.find(x => x.t === "sim" && x.hero && x.sim && SIM_TYPES.includes(x.sim.type))
+    || body.find(x => x.t === "sim" && x.sim && SIM_TYPES.includes(x.sim.type)) || null;
+  /* Phone (≤ 560 px): above the first paragraph there are the project bar, the header, crumbs, the title, the summary and the
+     discipline switch, so an animation after the first paragraph was never on the first screen (audit: 0 of 24 lessons at 375 × 812).
+     There it moves up to just before the first paragraph, i.e. right after the summary. Wider screens keep the build's order. */
+  const narrow = () => { try { return matchMedia("(max-width: 560px)").matches; } catch (e) { return false; } };
+  function heroUp(body, hero) {
+    const i = hero ? body.indexOf(hero) : -1, p = body.findIndex(x => x.t === "p");
+    if (i < 0 || p < 0 || i < p) return body;
+    const out = body.slice(); out.splice(i, 1); out.splice(p, 0, hero); return out;
+  }
+  /* No lesson data (offline, a failed request): the static page stays and its animation (figure.st-anim > div.st-sim[data-clay-sim],
+     written by scripts/build_academy.mjs) is mounted by ClaySims.auto() with the texts of docs/shared/sims-text.js (11 languages).
+     Without JavaScript the empty figure is hidden by the static CSS of the build (:has(.st-sim:empty)). */
+  function staticSims() {
+    const app = $("app"); if (!app || !window.ClaySims || !app.querySelector("[data-clay-sim]")) return;
+    const go = () => { try { ClaySims.auto(); } catch (e) {} };
+    if (window.CLAYSIMS_TEXT) go(); else loadScript(SITE + "shared/sims-text.js").then(go, go);
   }
   function phraseHtml(p, i) {
     return `<div class="ac-phrase"><div class="ac-phrase-h"><span class="ac-tag">${t("speaker_" + (p.speaker || "coach"))}</span>
@@ -870,13 +898,16 @@
     AFTER = [];
     if (LOC.view === "lesson" && L(LOC.id) && avail(LOC.id) && !VIEW.data) {
       $("app").setAttribute("aria-busy", "true");
-      try { VIEW.data = plainLesson(await lessonData(LOC.id)); } catch (e) { VIEW.data = null; $("app").removeAttribute("aria-busy"); $("app").innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
+      try { VIEW.data = plainLesson(await lessonData(LOC.id)); } catch (e) { VIEW.data = null; const app = $("app"); app.removeAttribute("aria-busy");
+        // first page of the visit: keep the static lesson the build wrote (text, quiz in <details>, its animation) under the notice
+        if (!APP_DONE && app.querySelector(":scope > .st")) { if (!app.querySelector(".ac-data-err")) app.insertAdjacentHTML("afterbegin", `<p class="ac-note ac-data-err" role="alert">${t("data_error")}</p>`); staticSims(); return; }
+        app.innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
       $("app").removeAttribute("aria-busy");
       simsConfig(VIEW.data.terms || []);
     }
     const html = LOC.view === "home" ? viewHome() : LOC.view === "block" ? viewBlock(LOC.id) : LOC.view === "route" ? viewRoute(LOC.id) : LOC.view === "exam" ? viewExam(LOC.id)
       : LOC.view === "lesson" ? viewLesson(LOC.id) : LOC.view === "practice" ? viewPractice() : LOC.view === "game" ? viewGame(LOC.id) : LOC.view === "progress" ? viewProgress() : viewNotFound();
-    $("app").innerHTML = html; fixLinks($("app"));
+    $("app").innerHTML = html; APP_DONE = true; fixLinks($("app"));
     renderTop(); renderFoot(); document.documentElement.lang = LANG;
     AFTER.forEach(fn => { try { fn(); } catch (e) { console.error(e); } });
     if (LOC.view === "lesson") lessonSideEffects();
@@ -1046,6 +1077,7 @@
     const msg = { uk: "Не вдалося завантажити дані Академії. Перевірте з’єднання й оновіть сторінку.", en: "The Academy could not load its data. Check your connection and reload the page." };
     if (app && ns && !app.querySelector(":scope > :not(noscript)")) app.insertAdjacentHTML("beforeend", ns.textContent);
     if (app) app.insertAdjacentHTML("afterbegin", `<p class="ac-note" role="alert">${esc(msg[LANG] || msg.en)}</p>`);
+    staticSims(); // the static lesson's animation still works (texts from docs/shared/sims-text.js)
   }
   boot();
 })();

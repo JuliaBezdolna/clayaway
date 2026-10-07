@@ -254,7 +254,8 @@ export async function buildAcademy(o = {}) {
   RULES.categories = new Map(((rw.FITASC_CATEGORIES || {}).categories || []).map(c => [c.id, { chapter: null, en: c.name_en, uk: c.name_uk || c.name_en }]));
   let SIMREG = null;
   try { const s = runScripts([path.join(DOCS, "shared", "sims.js")]).ClaySims;
-    SIMREG = { FLIGHTS: new Set(Object.keys(s.FLIGHTS)), PAIRS: new Set(Object.keys(s.PAIRS)), SCENES: new Set(Object.keys(s.SCENES || {})), CALL: s.CALL || null, kind: s.kind || null }; }
+    SIMREG = { FLIGHTS: new Set(Object.keys(s.FLIGHTS)), PAIRS: new Set(Object.keys(s.PAIRS)), SCENES: new Set(Object.keys(s.SCENES || {})), CALL: s.CALL || null, kind: s.kind || null,
+      TERMS: [...new Set(Object.values(s.FLIGHTS).map(f => f.term).filter(Boolean))] }; } // glossary ids of the flights (names for docs/shared/sims-text.js)
   catch (e) { warn("sims-registry", `docs/shared/sims.js could not be read (${e.message}): animation presets are not checked`); }
   // What an animation teaches (sims.js kind(): flight, points, eyes, stance, pair, lead, mount, follow, call, gunpos, misfire): it picks
   // the heading "▶ <ui anim_h_<kind>>" and the generic caption anim_w_<kind> of the lesson's animation (see heroOf below).
@@ -762,15 +763,22 @@ export async function buildAcademy(o = {}) {
      Other animations of the same lesson (warning "sim-many") stay where they are.
      heroOf(m, b, L, R): its heading ("▶ " + ui anim_h_<kind>, kind = sims.js kind()) and its one line of "what to watch": en/uk from the
      master (b.en / b.uk); the 9 other languages from the overlay body[k] when it was translated from the current English (its hash),
-     else the generic caption of that kind (ui anim_w_<kind>, 11 languages). The page markup: figure.st-anim > p.st-anim-h + div.st-sim
-     (data-clay-sim) + figcaption; the app (academy.js simHero) draws the same from the lesson JSON (hero, kind, heading, html). */
+     else the generic caption of that kind (ui anim_w_<kind>, 11 languages). A caption that falls back to the generic one is counted
+     (SIM_CAP) and reported once per language as the warning "sim-caption" (missing or stale overlay entries, with the lesson ids), so
+     the 24 captions go into the next translation wave; they are not `core`, so an untranslated caption never holds a page back.
+     The page markup: figure.st-anim > p.st-anim-h + div.st-sim (data-clay-sim) + figcaption; the app (academy.js simHero) draws the
+     same from the lesson JSON (hero, kind, heading, html). Without JavaScript the static CSS hides the figure (its div stays empty);
+     when the lesson data cannot load, academy.js mounts it from data-clay-sim (staticSims). */
   const simShown = b => b.t === "sim" && !!b.ready && !simProblem(b.sim);
   const heroOrder = m => { const body = (m.body || []).slice(), i = body.findIndex(simShown); if (i < 0) return body;
     const [s] = body.splice(i, 1), p = body.findIndex(x => x.t === "p"); body.splice(p < 0 ? 0 : p + 1, 0, s); return body; };
+  const SIM_CAP = {}; // language → {missing: [lesson ids], stale: [lesson ids]} of animation captions shown as the generic caption
   function heroOf(m, b, L, R) {
     const kind = simKind(b.sim), heading = S(L, "anim_h_" + kind);
     let cap = L === "en" || L === "uk" ? b[L] : null;
-    if (!nonEmpty(cap) && OVERLAY_LANGS.includes(L)) { const ov = overlays[L].get(m.id), v = ov && (ov.body || {})[b.k]; if (nonEmpty(v) && nonEmpty(b.en) && (ov.h || {})[b.k] === sha8(b.en)) cap = v; }
+    if (!nonEmpty(cap) && OVERLAY_LANGS.includes(L) && nonEmpty(b.en)) { const ov = overlays[L].get(m.id), v = ov && (ov.body || {})[b.k];
+      if (nonEmpty(v) && (ov.h || {})[b.k] === sha8(b.en)) cap = v;
+      else { const sc = SIM_CAP[L] = SIM_CAP[L] || { missing: [], stale: [] }; (nonEmpty(v) ? sc.stale : sc.missing).push(m.id); } }
     const capHtml = nonEmpty(cap) ? inline(cap, R) : esc(S(L, "anim_w_" + kind)), hid = `anim-${b.k}`;
     const html = `<figure class="st-anim" aria-labelledby="${esc(hid)}"${b.anchor ? ` id="${esc(b.anchor)}"` : ""}><p class="st-anim-h" id="${esc(hid)}"><span aria-hidden="true">▶</span> ${esc(heading)}</p><div class="st-sim" data-clay-sim="${esc(JSON.stringify(b.sim))}"></div><figcaption>${capHtml}</figcaption></figure>`;
     return { kind, heading, cap: capHtml, html };
@@ -836,7 +844,9 @@ export async function buildAcademy(o = {}) {
      <link academy.css> · <header id="acTop"> · <main id="app"> static content </main> · <footer id="acFoot"> · #acLive · #acToast · scripts (defer):
      shared/nav.js, shared/sims.js, shared/progress.js, learn/app/academy.js. The app replaces #app when its data has loaded;
      without JavaScript (and for crawlers and share previews) the static content below is the page. Static classes are st-*,
-     the app's are ac-*: the inline CSS below styles only the static content. */
+     the app's are ac-*: the inline CSS below styles only the static content. The animation box (figure.st-anim) is hidden while its
+     div.st-sim is empty: without JavaScript there is nothing to play, so no "▶ Watch …" heading over an empty box; academy.js replaces
+     the static content, or mounts the box from data-clay-sim when the lesson data cannot load (staticSims). */
   const CSS = `body{background:#030712;color:#F3F4F6}
 .st-top{max-width:1040px;margin:0 auto;padding:10px 16px;display:flex;gap:8px 14px;align-items:center;flex-wrap:wrap;font-size:13px;border-bottom:1px solid rgba(255,255,255,.1)}
 .st-crumbs{color:#9CA3AF}.st-crumbs a{color:#9CA3AF}.st-crumbs a:hover{color:#F3F4F6}.st-sp{flex:1}
@@ -865,6 +875,7 @@ export async function buildAcademy(o = {}) {
 .st-cta{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.st-btn{border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14px;text-decoration:none;color:#F3F4F6}.st-btn.st-primary{background:#059669;border-color:#059669;color:#fff}
 .st figure{margin:16px 0}.st figure img{max-width:100%;height:auto;border-radius:12px}.st figcaption{font-size:12.5px;color:#9CA3AF}.st-more{font-size:14px;color:#9CA3AF!important}
 .st figure.st-anim{margin:22px 0;padding:14px 16px;border:1px solid rgba(52,211,153,.35);border-radius:14px;background:rgba(52,211,153,.05)}.st-anim-h{font-size:19px;font-weight:700;color:#34D399!important;margin:0 0 6px}.st-anim figcaption{font-size:14.5px;color:#D1D5DB}.st-b-anim{border-color:rgba(52,211,153,.55);color:#34D399}
+.st figure.st-anim:has(.st-sim:empty){display:none}
 .st-foot{max-width:1040px;margin:0 auto;padding:14px 16px 56px;border-top:1px solid rgba(255,255,255,.1)}.st-foot p{font-size:12.5px;color:#9CA3AF}.st-foot a{color:#9CA3AF}
 @media print{.st-top,.st-langs,.st-cta{display:none}}`;
   const PAGES = new Map(); // site-relative file → {url, L, kind, html, title, h1, desc, index, alts, lesson, img}
@@ -1230,10 +1241,18 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
   json("learn/data/languages.json", { _note: `${GEN}: languages whose Academy home /<p>learn/ is published (uk at /learn/, others at /<lang>/learn/). docs/shared/nav.js links the Academy item there, else to English.`,
     generated: opt.today, langs: LANGS, published: LANGS.filter(L => built.home[L]), fallback: built.home.en ? "en" : "uk",
     lessons: Object.fromEntries(LANGS.map(L => [L, [...lessons.keys()].filter(id => lessonBuilt(id, L)).length])) });
-  // texts of the shared animations (docs/shared/sims-text.js)
+  // texts of the shared animations (docs/shared/sims-text.js), and the names of the terms they show: the flights (tab labels "Crosser →
+  // · <local>", the name under a flight) and the points drawn on the canvas (English there: the stand words the course teaches).
+  // window.CLAYSIMS_TERMS = {lang: {id: [en, local]}} — local only when it differs from the English name (glossary term_local, conf not low).
   { const keys = uniq([...SIM_KEYS, ...Object.keys(ui.en).filter(k => k.startsWith("anim_"))]);
     const st = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(keys.filter(k => ui.en[k] != null).map(k => [k, L === "uk" ? ukApos(ui[L][k] || ui.en[k]) : ui[L][k] || ui.en[k]]))]));
-    FILES.set("shared/sims-text.js", `/* ${GEN} from content/academy/ui/<lang>.json — texts of docs/shared/sims.js (all 11 ClayArena languages; English where a translation is missing). Do not edit. */\nwindow.CLAYSIMS_TEXT = ${JSON.stringify(st)};\n`); }
+    const termIds = uniq([...((SIMREG && SIMREG.TERMS) || []), "pick-up-point", "hold-point", "break-point", "soft-focus", "hard-focus"]).filter(id => GBY[id]);
+    const tn = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(termIds.map(id => { const en = enTerm(id), lo = L === "en" ? "" : localTerm(L, id);
+      return [id, lo && lo.trim().toLowerCase() !== en.trim().toLowerCase() ? [en, L === "uk" ? ukApos(lo) : lo] : [en]]; }))]));
+    FILES.set("shared/sims-text.js", `/* ${GEN} from content/academy/ui/<lang>.json and the glossary — texts of docs/shared/sims.js (all 11 ClayArena languages; English where a translation is missing) and the names of the terms the animations show. Do not edit. */\nwindow.CLAYSIMS_TEXT = ${JSON.stringify(st)};\nwindow.CLAYSIMS_TERMS = ${JSON.stringify(tn)};\n`); }
+  // lesson animation captions that the 9 overlay languages show as the generic caption (see heroOf): one warning per language
+  for (const L of OVERLAY_LANGS) { const sc = SIM_CAP[L]; if (!sc) continue; const mi = uniq(sc.missing), stl = uniq(sc.stale);
+    if (mi.length || stl.length) warn("sim-caption", `${L}: ${mi.length + stl.length} lesson animation captions show the generic caption (anim_w_<kind>) — ${mi.length} not translated${stl.length ? `, ${stl.length} translated from an older English text (${stl.join(", ")})` : ""}: translate body["<key>-sim"] of i18n/${L}/<lesson>.json in the next wave`, { lang: L }); }
   // share pictures to draw (python scripts/make_og.py)
   json("og/og-list.json", { _note: `${GEN}: the Academy share pictures (1200×630) that scripts/make_og.py draws. Do not edit.`, generated: opt.today, images: [...OG.values()] });
   // sitemaps per language: indexable built pages + old pages that still exist and are not replaced yet (transition)

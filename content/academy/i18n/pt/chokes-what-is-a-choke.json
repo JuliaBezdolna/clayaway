@@ -17,7 +17,10 @@
     "gear-chokes-ph3": "8fe50fed",
     "gear-chokes-ph4": "c907a6c7",
     "gear-chokes-q1": "a199b993",
-    "gear-chokes-q2": "f8e45ec9"
+    "gear-chokes-q2": "f8e45ec9",
+    "chokes-what-is-a-choke-q2": "d6c12103",
+    "chokes-what-is-a-choke-q3": "10cde12e",
+    "chokes-what-is-a-choke-q1": "4b60a907"
   },
   "review": {
     "by": null,
@@ -76,6 +79,36 @@
         "d": "Só com autorização do júri"
       },
       "explain": "As trocas são permitidas entre postos ou entre simples e doubles, sem atraso, mas não depois de o atirador ter entrado no posto."
+    },
+    "chokes-what-is-a-choke-q2": {
+      "q": "O que acontece se aumentar o estrangulamento?",
+      "options": {
+        "a": "A chumbada abre mais cedo",
+        "b": "A chumbada fica apertada durante mais tempo",
+        "c": "O chumbo sai do cano mais depressa",
+        "d": "O recuo fica muito mais suave"
+      },
+      "explain": "Mais estrangulamento mantém o chumbo junto durante mais tempo, por isso à mesma distância a chumbada é mais estreita e mais densa."
+    },
+    "chokes-what-is-a-choke-q3": {
+      "q": "Porque é que um choke muito aberto é uma má escolha para um prato longe?",
+      "options": {
+        "a": "Dá muito mais recuo do que os outros",
+        "b": "É proibido para pratos a mais de 30 m",
+        "c": "À distância a chumbada fica rala, com buracos",
+        "d": "Gasta o cano muito mais depressa"
+      },
+      "explain": "Uma chumbada larga fica rala a longa distância, e o prato pode passar entre os grãos de chumbo."
+    },
+    "chokes-what-is-a-choke-q1": {
+      "q": "O que é um choke?",
+      "options": {
+        "a": "Um estreitamento do cano junto à boca",
+        "b": "A segurança atrás da alavanca de abertura",
+        "c": "Um tipo de cartucho para tiro aos pratos",
+        "d": "O bordo superior da coronha, para a face"
+      },
+      "explain": "Um choke estreita o cano junto à boca e mantém o chumbo junto."
     }
   }
 }

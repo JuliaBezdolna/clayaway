@@ -21,7 +21,10 @@
     "targets-types-ph4": "957b2cb1",
     "targets-types-q1": "ed953260",
     "targets-types-q2": "571354c5",
-    "targets-types-q3": "614ac08e"
+    "targets-types-q3": "614ac08e",
+    "targets-target-types-q1": "3518f8eb",
+    "targets-target-types-q-battue": "8773cf12",
+    "targets-target-types-q-flash": "283d5036"
   },
   "review": {
     "by": null,
@@ -93,6 +96,33 @@
         "d": "A série é anulada"
       },
       "explain": "No Sporting™, um prato de cor, tamanho ou tipo errado é NULO e repete-se."
+    },
+    "targets-target-types-q1": {
+      "q": "Que tamanho tem normalmente um prato mini?",
+      "options": {
+        "a": "90 mm",
+        "b": "Cerca de 60 mm",
+        "c": "Cerca de 110 mm"
+      },
+      "explain": "Um mini tem normalmente 60 mm e um midi 90 mm. Os nomes dos pratos pequenos variam, por isso guie-se pelos milímetros indicados no menu."
+    },
+    "targets-target-types-q-battue": {
+      "q": "Que prato voa de cutelo, depois vira-se a mostrar a face e cai?",
+      "options": {
+        "a": "Batida (battue)",
+        "b": "Midi",
+        "c": "Coelho"
+      },
+      "explain": "A batida é plana e fina: voa de cutelo, depois vira-se e cai depressa."
+    },
+    "targets-target-types-q-flash": {
+      "q": "Que prato deixa uma nuvem de pó colorido quando é atingido?",
+      "options": {
+        "a": "Prato ZZ",
+        "b": "Rocket",
+        "c": "Prato flash"
+      },
+      "explain": "Um prato flash tem pó colorido lá dentro. Pontua-se como qualquer outro prato."
     }
   }
 }

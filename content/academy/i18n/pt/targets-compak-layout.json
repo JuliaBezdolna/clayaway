@@ -26,7 +26,10 @@
     "compak-layout-rotation-ph3": "cfd3fd74",
     "compak-layout-rotation-ph4": "19e4256f",
     "compak-layout-rotation-q2": "120fb8bb",
-    "compak-layout-rotation-q3": "ceaca12d"
+    "compak-layout-rotation-q3": "ceaca12d",
+    "targets-compak-layout-q3": "4704300b",
+    "targets-compak-layout-q-rectangle": "1273dd61",
+    "targets-compak-layout-q-line": "bce53ef3"
   },
   "review": {
     "by": null,
@@ -130,6 +133,33 @@
         "d": "o último prato atirado no posto anterior"
       },
       "explain": "O menu encadeia os postos: cada double começa com o prato que terminou o posto anterior."
+    },
+    "targets-compak-layout-q3": {
+      "q": "No {{tm:compak}}, como pode segurar a arma quando pede o prato?",
+      "options": {
+        "a": "Livremente: pode já estar montada",
+        "b": "Só baixa, abaixo da linha no colete",
+        "c": "Só ao ombro, com os canos para cima"
+      },
+      "explain": "No {{tm:compak}} a posição da arma ao pedir o prato é livre, mas atira sempre com a arma montada. A arma baixa com a linha no colete é uma regra do {{tm:sporting}}."
+    },
+    "targets-compak-layout-q-rectangle": {
+      "q": "Com o ar parado, o que tem de fazer cada prato do {{tm:compak}}?",
+      "options": {
+        "a": "Cair dentro do retângulo marcado",
+        "b": "Passar por cima do retângulo marcado",
+        "c": "Passar mesmo por cima do posto 3"
+      },
+      "explain": "Com o ar parado, cada prato tem de passar por cima do retângulo nalgum ponto do seu voo."
+    },
+    "targets-compak-layout-q-line": {
+      "q": "Onde fica a linha de postos num Compak?",
+      "options": {
+        "a": "4 a 8 m atrás do lado AD, paralela a ele",
+        "b": "Dentro do retângulo, perto do lado BC",
+        "c": "Na torre, atrás da máquina F"
+      },
+      "explain": "Os postos ficam numa linha 4 a 8 m atrás do lado AD, com o posto 3 em frente ao seu meio."
     }
   }
 }

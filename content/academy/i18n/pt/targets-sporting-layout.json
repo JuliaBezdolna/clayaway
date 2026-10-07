@@ -30,7 +30,9 @@
     "sporting-rounds-stands-ph4": "35d596b1",
     "sporting-rounds-stands-q1": "c77ad18c",
     "sporting-rounds-stands-q2": "c69d4184",
-    "sporting-rounds-stands-q3": "957fb77e"
+    "sporting-rounds-stands-q3": "957fb77e",
+    "targets-sporting-layout-q-international": "1ed6e0ab",
+    "etiquette-squad-q3": "247aff89"
   },
   "review": {
     "by": null,
@@ -138,6 +140,26 @@
         "d": "Dizê-lo de imediato ao árbitro; o árbitro decide"
       },
       "explain": "Os resultados verificam-se ao sair de cada posto; só o árbitro decide, e depois não há recurso."
+    },
+    "targets-sporting-layout-q-international": {
+      "q": "Quantos pratos tem uma competição internacional de {{tm:sporting}}?",
+      "options": {
+        "a": "100",
+        "b": "150",
+        "c": "200",
+        "d": "250"
+      },
+      "explain": "Uma prova internacional tem 200 pratos, atirados em oito séries de 25."
+    },
+    "etiquette-squad-q3": {
+      "q": "No {{tm:sporting}}, como funciona a ordem de tiro numa esquadra?",
+      "options": {
+        "a": "Roda em cada posto e também nos doubles",
+        "b": "É fixa para o dia todo",
+        "c": "Começa sempre o atirador mais bem classificado",
+        "d": "O árbitro escolhe livremente"
+      },
+      "explain": "As esquadras de seis são sorteadas, e a ordem roda em cada posto e também nos doubles."
     }
   }
 }

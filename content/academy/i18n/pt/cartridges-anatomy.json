@@ -10,7 +10,11 @@
     "gear-cartridges-kp1": "d70525e9",
     "gear-cartridges-kp5": "cd958281",
     "gear-cartridges-ph3": "7544baeb",
-    "gear-cartridges-ph4": "037598e1"
+    "gear-cartridges-ph4": "037598e1",
+    "cartridges-anatomy-q1": "aaa8aa7c",
+    "cartridges-anatomy-q2": "16239114",
+    "cartridges-anatomy-q3": "10add7eb",
+    "cartridges-anatomy-q4": "6aa7ce96"
   },
   "review": {
     "by": null,
@@ -38,5 +42,46 @@
     "gear-cartridges-kp1": "Cartucho = invólucro, fulminante, pólvora, bucha, chumbo.",
     "gear-cartridges-kp5": "Os vazios vão para o recipiente; quem usa semi-automática apanha os seus invólucros."
   },
-  "quiz": {}
+  "quiz": {
+    "cartridges-anatomy-q1": {
+      "q": "O que inflama a pólvora num cartucho?",
+      "options": {
+        "a": "A bucha",
+        "b": "O fulminante",
+        "c": "O fecho em estrela",
+        "d": "O chumbo"
+      },
+      "explain": "O percutor bate no fulminante, e o fulminante inflama a pólvora."
+    },
+    "cartridges-anatomy-q2": {
+      "q": "Porque é que muitos campos exigem buchas de fibra?",
+      "options": {
+        "a": "São mais baratas",
+        "b": "Dão uma chumbada mais apertada",
+        "c": "Decompõem-se na natureza",
+        "d": "A FITASC exige-o"
+      },
+      "explain": "A fibra e o feltro decompõem-se, enquanto as buchas de plástico comuns ficam anos nos campos."
+    },
+    "cartridges-anatomy-q3": {
+      "q": "Que cartuchos são proibidos pelas regras da FITASC?",
+      "options": {
+        "a": "Cartuchos de fábrica com bucha de plástico",
+        "b": "Cartuchos de fábrica com bucha de fibra",
+        "c": "Cartuchos com invólucro de papel",
+        "d": "Cartuchos recarregados"
+      },
+      "explain": "Os cartuchos recarregados, os dispersores, a mistura de números de chumbo, a pólvora negra e os traçadores são proibidos."
+    },
+    "cartridges-anatomy-q4": {
+      "q": "O que é o fecho de um cartucho?",
+      "options": {
+        "a": "A parte de cima dobrada que fecha o invólucro",
+        "b": "A base metálica com o fulminante",
+        "c": "O copo que segura o chumbo",
+        "d": "O número impresso na caixa"
+      },
+      "explain": "O fecho, quase sempre uma estrela de 6 ou 8 dobras, fecha o topo do invólucro por cima do chumbo."
+    }
+  }
 }
