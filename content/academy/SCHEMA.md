@@ -321,7 +321,7 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   Academy lessons, including the "Правила" block, are our own teaching texts and are indexed: keep them short and practical; penalty tables only in the guide.
 - **Trademarks:** "Parcours de Chasse – Sporting™" / "Sporting™" and "Compak® Sporting" in titles, headings, meta and previews (`{{tm:…}}`).
 - **Wording:** plain and cautious (no proven / best / ideal / never outside safety rules): "many coaches suggest", "you can try".
-  A professional term plus a short plain explanation. Ukrainian terms: вкладка (gun mount), дуплет, точка пострілу, точка підхоплення,
+  A professional term plus a short plain explanation. Ukrainian terms: вкладка (gun mount), заєць (rabbit, owner decision 07.10.2026), дуплет, точка пострілу, точка підхоплення,
   точка утримання (hold point), провідне око (master eye), передпостріловий ритуал, стрілецьке місце (у Compak® — номер),
   імітація стрільби (mock shooting), Європейський вогнепальний паспорт, підгонка рушниці, наважка (load weight, as in the official
   rules translation), шушотаж (chuchotage). Ukrainian apostrophe: ’ (U+2019) everywhere (the build writes it so in every uk output).

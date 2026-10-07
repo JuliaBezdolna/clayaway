@@ -869,7 +869,7 @@ window.GLOSSARY = {
    "cat": "Targets",
    "short_uk": "Глиняна тарілочка, яку метає машинка і яку має розбити стрілець.",
    "short_en": "The clay disc thrown by a trap for the shooter to break.",
-   "long_uk": "Дозволені стандартні мішені, кролик (rabbit), midi, super mini, battue, flash і ZZ (у Compak також rocket та інші). Колір має добре виділятися на тлі; двоколірні мішені не рекомендовані. Мішень, що вилетіла вже розбитою, з іншої машинки чи іншого кольору, — No Bird. У глосаріях обох правил target — це просто тарілочка.",
+   "long_uk": "Дозволені стандартні мішені, заєць (rabbit), midi, super mini, battue, flash і ZZ (у Compak також rocket та інші). Колір має добре виділятися на тлі; двоколірні мішені не рекомендовані. Мішень, що вилетіла вже розбитою, з іншої машинки чи іншого кольору, — No Bird. У глосаріях обох правил target — це просто тарілочка.",
    "long_en": "Allowed types are standard, rabbit, midi, super mini, battue, flash and ZZ targets (Compak also lists rocket and others). The colour must stand out against the background; two-colour targets are not advised. A target that comes broken from the machine, from the wrong trap or in the wrong colour is a No Bird. In the glossaries of both rulebooks a target is simply a clay pigeon.",
    "uk_usage": "«мішень», «тарілочка», «тарілка»",
    "rule_refs": [
@@ -1052,11 +1052,11 @@ window.GLOSSARY = {
     "rabbit"
    ],
    "cat": "Targets",
-   "short_uk": "Товста міцна мішень, що котиться землею, імітуючи кролика, що тікає.",
+   "short_uk": "Товста міцна мішень, що котиться землею, імітуючи зайця, що тікає.",
    "short_en": "A thick, strong target rolled along the ground to imitate a running rabbit.",
-   "long_uk": "Кролик (rabbit) дозволений в обох дисциплінах; у Sporting його вказують у меню. Як і по всіх мішенях, по кролику стріляють лише з рушницею, приставленою до плеча; стрільба «від стегна» заборонена. Обидва правила мають особливий випадок No Bird: якщо в кролика не влучили першим пострілом і він сам розбився до другого, його запускають знову, і на повторі зараховують лише влучання другим пострілом; розбитий першим пострілом — промах (zero).",
+   "long_uk": "Заєць (rabbit) дозволений в обох дисциплінах; у Sporting його вказують у меню. Як і по всіх мішенях, по зайцю стріляють лише з рушницею, приставленою до плеча; стрільба «від стегна» заборонена. Обидва правила мають особливий випадок No Bird: якщо в зайця не влучили першим пострілом і він сам розбився до другого, його запускають знову, і на повторі зараховують лише влучання другим пострілом; розбитий першим пострілом — промах (zero).",
    "long_en": "Rabbits are allowed in both disciplines and must be shown on the Sporting menu. In Sporting they, like all targets, must be shot with the gun mounted; firing from the hip is not allowed. A special No Bird case applies in both rulebooks: if a rabbit is missed with the first shot and then breaks by itself before the second shot, it is thrown again, and on the repeat only a break with the second shot counts; a first-shot break scores zero.",
-   "uk_usage": "«кролик»; на деяких стрільбищах кажуть «заєць»",
+   "uk_usage": "«заєць»; інколи кажуть «кролик»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -1694,7 +1694,7 @@ window.GLOSSARY = {
    "cat": "Sequences & doubles",
    "short_uk": "Табличка на місці, що показує, з яких машинок і в якому порядку стріляють.",
    "short_en": "The board at a stand that shows which traps are shot and in what order.",
-   "long_uk": "У Sporting меню стоїть перед кожним місцем, щоб стрілець міг його прочитати; у ньому машинки перелічено в порядку стрільби (наприклад A, B, C) і обов’язково позначено спеціальні мішені: 90 мм, 70 мм, 60 мм, battue чи кролик (rabbit). Перед змаганням судді перевіряють, що машинки заряджено відповідно до меню. У Compak меню розміщують розбірливо на кожному номері; одиночні можуть іти з машинок у будь-якому порядку, а перша мішень кожного дуплету — остання мішень попереднього номера. FITASC радить 40 готових таблиць з Annex 3.",
+   "long_uk": "У Sporting меню стоїть перед кожним місцем, щоб стрілець міг його прочитати; у ньому машинки перелічено в порядку стрільби (наприклад A, B, C) і обов’язково позначено спеціальні мішені: 90 мм, 70 мм, 60 мм, battue чи заєць (rabbit). Перед змаганням судді перевіряють, що машинки заряджено відповідно до меню. У Compak меню розміщують розбірливо на кожному номері; одиночні можуть іти з машинок у будь-якому порядку, а перша мішень кожного дуплету — остання мішень попереднього номера. FITASC радить 40 готових таблиць з Annex 3.",
    "long_en": "In Sporting the menu stands in front of each stand where the shooter can read it, lists the traps in shooting order (for example A, B, C) and must mark special targets: 90 mm, 70 mm, 60 mm, battue or rabbit. Referees check before the competition that the machines are loaded to match it. In Compak the firing menu is posted legibly at each station; singles may use the machines in any order, and the first target of each double is the last target of the previous station. FITASC advises the 40 ready-made tables of Annex 3.",
    "uk_usage": "«меню»",
    "rule_refs": [
@@ -2095,7 +2095,7 @@ window.GLOSSARY = {
    "cat": "Shooting rules",
    "short_uk": "Як стрілець тримає рушницю перед пострілом і під час нього.",
    "short_en": "How the shooter holds the gun before and during the shot.",
-   "long_uk": "В обох дисциплінах по кожній мішені, зокрема кролика, стріляють із рушницею, приставленою до плеча; стрільба «від стегна» заборонена. У Sporting рушницю не можна підіймати до плеча, доки мішень не з’явилася, і до того обов’язкова низька готова позиція; вільне положення дозволене лише між двома мішенями дуплету. У Compak положення рушниці під час команди вільне, тож можна викликати мішень з уже приставленою рушницею. У Sporting підйом до появи мішені карається жовтою карткою.",
+   "long_uk": "В обох дисциплінах по кожній мішені, зокрема по зайцю, стріляють із рушницею, приставленою до плеча; стрільба «від стегна» заборонена. У Sporting рушницю не можна підіймати до плеча, доки мішень не з’явилася, і до того обов’язкова низька готова позиція; вільне положення дозволене лише між двома мішенями дуплету. У Compak положення рушниці під час команди вільне, тож можна викликати мішень з уже приставленою рушницею. У Sporting підйом до появи мішені карається жовтою карткою.",
    "long_en": "In both disciplines every target, rabbits included, is shot with the gun mounted to the shoulder; firing from the hip is not allowed. In Sporting the gun may not be mounted before the target appears, and the low ready position is compulsory until then; only between the two targets of a double is the position free. In Compak the gun position at the call is free, so the shooter may call with the gun already shouldered. Mounting before the target appears in Sporting brings a yellow card.",
    "disciplines": {
     "sporting": "Low gun до появи мішені; вільно лише між мішенями дуплету.",

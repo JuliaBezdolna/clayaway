@@ -554,12 +554,12 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://safari-stend.com/uk/stendovaya-strelba/"
   },
   "rabbit": {
-   "term_local": "кролик",
+   "term_local": "заєць",
    "alt": [
-    "заєць",
+    "кролик",
     "rabbit"
    ],
-   "note": "Owner decision: «кролик» in every ClayArena text; «заєць» is still heard on some grounds.",
+   "note": "Owner decision (07.10.2026): «заєць», as the target is called in Ukraine; «кролик» is kept only as a search alias.",
    "conf": "medium",
    "src": "https://safari-stend.com/uk/stendovaya-strelba/"
   },

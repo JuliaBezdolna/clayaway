@@ -1219,7 +1219,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 1,
    "explain_en": "False. In Compak the gun position at the call is free (mounted or not); the rulebook has no low-gun start and no vest marker. Every target must then be shot with the gun at the shoulder.",
-   "explain_uk": "Неправда. У Compak положення рушниці під час виклику довільне (вскинута чи ні); правила не містять вимоги низької рушниці й позначки на жилеті. Стріляти ж по кожній мішені треба з рушницею, вскинутою до плеча.",
+   "explain_uk": "Неправда. У Compak положення рушниці під час виклику довільне (вкладена чи ні); правила не містять вимоги низької рушниці й позначки на жилеті. Стріляти ж по кожній мішені треба з рушницею, вкладеною в плече.",
    "refs": [
     "ch17-gun-position"
    ]

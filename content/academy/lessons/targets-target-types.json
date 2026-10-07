@@ -126,7 +126,7 @@
   },
   "summary": {
     "en": "Standard, midi, mini, battue, rabbit, flash, ZZ and rocket: how the targets differ, how they fly, and why the menu names each special target.",
-    "uk": "Стандарт, міді, міні, батю, кролик, флеш, ZZ і рокет: чим різняться мішені, як вони летять і чому меню називає кожну особливу мішень."
+    "uk": "Стандарт, міді, міні, батю, заєць, флеш, ZZ і рокет: чим різняться мішені, як вони летять і чому меню називає кожну особливу мішень."
   },
   "body": [
     {
@@ -143,7 +143,7 @@
       "disc": "both",
       "anchor": "targets-types",
       "en": "The FITASC list for {{tm:sporting}} names seven target types: standard, midi, super mini, battue, rabbit, flash and ZZ. {{tm:compak}} allows any standard or special target, and its list also names the rocket. Each type flies differently.",
-      "uk": "Перелік FITASC для {{tm:sporting}} називає сім типів мішеней: стандарт (standard), міді (midi), супер-міні (super mini), батю (battue), кролик (rabbit), флеш (flash) і ZZ. {{tm:compak}} дозволяє будь-які стандартні чи особливі мішені, і в його переліку є ще рокет (rocket). Кожен тип летить по-своєму."
+      "uk": "Перелік FITASC для {{tm:sporting}} називає сім типів мішеней: стандарт (standard), міді (midi), супер-міні (super mini), батю (battue), заєць (rabbit), флеш (flash) і ZZ. {{tm:compak}} дозволяє будь-які стандартні чи особливі мішені, і в його переліку є ще рокет (rocket). Кожен тип летить по-своєму."
     },
     {
       "k": "targets-types-p2",
@@ -159,7 +159,7 @@
       "core": true,
       "disc": "both",
       "en": "The {{term:battue|battue}} is a flat, thin 110 mm target. It flies edge-on, almost invisible, then turns to show its face and drops quickly. The {{tm:compak}} rules advise against battues on very short trajectories. The {{term:rabbit|rabbit}} is a 110 mm target with a thick, strong rim, rolled on its edge along the ground; it bounces and can hop over bumps. See also {{lesson:flight-rabbit}}.",
-      "uk": "{{term:battue|Батю}} (battue) — пласка тонка мішень 110 мм. Вона летить ребром, майже невидима, потім розвертається площиною й швидко падає. Правила {{tm:compak}} не радять ставити батю на дуже короткі траєкторії. {{term:rabbit|Кролик}} (rabbit) — мішень 110 мм із товстим міцним ободом, яку котять на ребрі по землі; вона підстрибує на горбиках. Докладніше — в уроці {{lesson:flight-rabbit}}."
+      "uk": "{{term:battue|Батю}} (battue) — пласка тонка мішень 110 мм. Вона летить ребром, майже невидима, потім розвертається площиною й швидко падає. Правила {{tm:compak}} не радять ставити батю на дуже короткі траєкторії. {{term:rabbit|Заєць}} (rabbit) — мішень 110 мм із товстим міцним ободом, яку котять на ребрі по землі; вона підстрибує на горбиках. Докладніше — в уроці {{lesson:flight-rabbit}}."
     },
     {
       "k": "targets-types-p4",
@@ -205,7 +205,7 @@
       },
       "ready": true,
       "en": "The battue flies edge-on, then turns over and drops; the rabbit rolls along the ground.",
-      "uk": "Батю летить ребром, потім перевертається й падає; кролик котиться по землі."
+      "uk": "Батю летить ребром, потім перевертається й падає; заєць котиться по землі."
     }
   ],
   "note": [],
@@ -256,10 +256,10 @@
       "en": "The rabbit will hop on that bump — stay under it.",
       "meaning": {
         "en": "Keep the gun pointed low on the rolling target, so that if it hops up it jumps into the shot.",
-        "uk": "Тримайте стволи низько над кроликом, що котиться: якщо мішень підстрибне, вона потрапить під дріб."
+        "uk": "Тримайте стволи низько над зайцем, що котиться: якщо мішень підстрибне, вона потрапить під дріб."
       },
       "say": {
-        "uk": "Кролик підстрибне на тому горбику — тримайтеся під ним."
+        "uk": "Заєць підстрибне на тому горбику — тримайтеся під ним."
       }
     }
   ],
@@ -274,7 +274,7 @@
       "k": "targets-types-kp3",
       "core": true,
       "en": "Battue: flat, edge-on, turns and drops; rabbit: thick rim, rolls and hops.",
-      "uk": "Батю: пласка, летить ребром, розвертається й падає; кролик: товстий обід, котиться й підстрибує."
+      "uk": "Батю: пласка, летить ребром, розвертається й падає; заєць: товстий обід, котиться й підстрибує."
     },
     {
       "k": "targets-types-kp4",
@@ -286,7 +286,7 @@
       "k": "targets-types-kp1",
       "core": true,
       "en": "{{tm:sporting}} list: standard, midi, super mini, battue, rabbit, flash, ZZ; {{tm:compak}} allows any type, rocket included.",
-      "uk": "Перелік {{tm:sporting}}: стандарт, міді, супер-міні, батю, кролик, флеш, ZZ; {{tm:compak}} дозволяє будь-які, зокрема рокет."
+      "uk": "Перелік {{tm:sporting}}: стандарт, міді, супер-міні, батю, заєць, флеш, ZZ; {{tm:compak}} дозволяє будь-які, зокрема рокет."
     },
     {
       "k": "targets-types-kp5",
@@ -384,7 +384,7 @@
         {
           "k": "c",
           "en": "Rabbit",
-          "uk": "Кролик"
+          "uk": "Заєць"
         },
         {
           "k": "d",
@@ -395,7 +395,7 @@
       "correct": "c",
       "explain": {
         "en": "The rabbit has a thick rim and is thrown on its edge along the ground.",
-        "uk": "Кролик має товстий обід, і його кидають на ребрі по землі."
+        "uk": "Заєць має товстий обід, і його кидають на ребрі по землі."
       }
     }
   ],
@@ -454,7 +454,7 @@
         {
           "k": "c",
           "en": "Rabbit",
-          "uk": "Кролик"
+          "uk": "Заєць"
         }
       ],
       "correct": "a",

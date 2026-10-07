@@ -359,14 +359,14 @@ window.RULES.push({
      "title_en": "Varied trajectories, safe from all five stations",
      "title_uk": "Різноманітні траєкторії, безпечні з усіх п’яти місць",
      "summary_en": "Trajectories should be as varied as possible: rising, dropping, going away, incoming, lofted, rabbits and so on. Every single target must allow two shots from each of the five stations, safely for shooters, referees, staff and spectators. Compak trajectories are short so that they do not interfere with the neighbouring Compak.",
-     "summary_uk": "Траєкторії мають бути якомога різноманітнішими: висхідні, спадні, віддаляльні, зустрічні, навісні, «кролик» тощо. Кожна одиночна мішень має дозволяти два постріли з кожного з п’яти місць — безпечно для стрільців, суддів, персоналу та глядачів. Траєкторії Compak короткі, щоб не заважати сусідньому Compak.",
+     "summary_uk": "Траєкторії мають бути якомога різноманітнішими: висхідні, спадні, віддаляльні, зустрічні, навісні, «заєць» тощо. Кожна одиночна мішень має дозволяти два постріли з кожного з п’яти місць — безпечно для стрільців, суддів, персоналу та глядачів. Траєкторії Compak короткі, щоб не заважати сусідньому Compak.",
      "points_en": [
       "Mix of rising, falling, receding, approaching, lofted and rabbit targets.",
       "Each single must be shootable twice from all 5 stations.",
       "Trajectories are short to avoid the adjacent Compak."
      ],
      "points_uk": [
-      "Поєднання висхідних, спадних, віддаляльних, зустрічних, навісних мішеней і «кролика».",
+      "Поєднання висхідних, спадних, віддаляльних, зустрічних, навісних мішеней і «зайця».",
       "Кожну одиночну мішень можна обстріляти двічі з усіх 5 місць.",
       "Траєкторії короткі, щоб не зачіпати сусідній Compak."
      ],
@@ -498,7 +498,7 @@ window.RULES.push({
       "мішень",
       "тарілочка",
       "колір",
-      "кролик",
+      "заєць",
       "бату"
      ],
      "quick_guide": false
@@ -3480,9 +3480,9 @@ window.RULES.push({
      "ref": "Chapter 20, 20.3.2 Due to targets (rabbit)",
      "page": 24,
      "title_en": "A rabbit that breaks between the shots",
-     "title_uk": "«Кролик», що розбився між пострілами",
+     "title_uk": "«Заєць», що розбився між пострілами",
      "summary_en": "If a rabbit is missed with the first shot and then breaks before the second shot (for example on the ground), it is a NO BIRD and the rabbit is thrown again; it can then only be scored with the second shot, so the shooter must deliberately miss with the first.",
-     "summary_uk": "Якщо по «кролику» (rabbit) промахнулися першим пострілом, а потім він розбився до другого пострілу (наприклад, об землю), оголошують NO BIRD і подають «кролика» знову; тоді його можна зарахувати лише другим пострілом, тож перший постріл стрілець має навмисно змазати.",
+     "summary_uk": "Якщо по «зайцю» (rabbit) промахнулися першим пострілом, а потім він розбився до другого пострілу (наприклад, об землю), оголошують NO BIRD і подають «зайця» знову; тоді його можна зарахувати лише другим пострілом, тож перший постріл стрілець має навмисно змазати.",
      "points_en": [
       "Missed with shot 1, breaks before shot 2: NO BIRD.",
       "Rabbit thrown again.",
@@ -3490,7 +3490,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Промах першим пострілом, розбився до другого: NO BIRD.",
-      "«Кролика» подають знову.",
+      "«Зайця» подають знову.",
       "Зарахувати можна лише другим пострілом."
      ],
      "terms": [
@@ -3502,7 +3502,7 @@ window.RULES.push({
       "rabbit broke",
       "bounce",
       "rabbit broken on ground",
-      "кролик",
+      "заєць",
       "розбився об землю",
       "рабіт"
      ],
@@ -4770,9 +4770,9 @@ window.RULES.push({
   },
   {
    "q_en": "The rabbit bounced and broke after I missed with my first shot. Is it a NO BIRD?",
-   "q_uk": "«Кролик» підстрибнув і розбився після мого першого промаху. Це NO BIRD?",
+   "q_uk": "«Заєць» підстрибнув і розбився після мого першого промаху. Це NO BIRD?",
    "a_en": "Yes. The rabbit is thrown again, and only the second shot can score it, so you must deliberately miss with the first.",
-   "a_uk": "Так. «Кролика» подають знову, і зарахувати його можна лише другим пострілом, тому першим треба навмисно промахнутися.",
+   "a_uk": "Так. «Зайця» подають знову, і зарахувати його можна лише другим пострілом, тому першим треба навмисно промахнутися.",
    "refs": [
     "ch20-rabbit"
    ]

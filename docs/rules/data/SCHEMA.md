@@ -53,7 +53,7 @@ Rules:
 - Ukrainian: correct literary Ukrainian, no surzhyk, apostrophe ’ (U+2019). Sport terms stay in English (Sporting,
   report pair, no bird, referee, layout, squad…), explained in Ukrainian. Fixed Ukrainian terms (same as the glossary and
   both Academies): дуплет (double; not «дублет», «дубль»), вкладка / вкладати рушницю (gun mount; not «вскидання»,
-  «вкидка»), перестрілка (shoot-off), squad (the squad of up to 6; «група» only for the Compak in-line group), дріб (shot).
+  «вкидка»), заєць (rabbit, owner decision 07.10.2026), перестрілка (shoot-off), squad (the squad of up to 6; «група» only for the Compak in-line group), дріб (shot).
 - Plain and cautious wording: no "always works / guaranteed / best / ideal" claims; a professional term plus a short plain explanation.
 - page = the PDF page number. In the provided .txt the pages are separated by the form-feed character (\f): page N = the N-th chunk.
 - The app answers questions by searching keywords, titles, summaries and the FAQ, so write keywords and FAQ generously, in English and Ukrainian.

@@ -702,7 +702,12 @@
       const short = LANG === "uk" ? x.short_uk : LANG === "en" ? x.short_en : (o && o.short) || x.short_en;
       const own = LANG === "uk" || LANG === "en" || !!(o && o.short); // audit G-14: pages exist only where the term is translated
       return { id, en, local, short: short || "", url: own ? glossaryUrl(id) : glossaryUrl(id, "en") }; },
-    search(n) { return Object.keys(this.T).map(id => this.term(id)).filter(x => x && (norm(x.en).includes(n) || norm(x.local).includes(n))).sort((a, b) => norm(a.local).indexOf(n) - norm(b.local).indexOf(n)); } };
+    /* Matches the English name, the local name and the search aliases of the language ("alt" in docs/glossary/data/i18n/<lang>.js,
+       e.g. uk «кролик» → rabbit, whose local name is «заєць»). Direct matches keep their order; alias-only matches come last. */
+    search(n) { const rank = x => { if (norm(x.en).includes(n) || norm(x.local).includes(n)) return norm(x.local).indexOf(n);
+        const o = this.i18n(x.id); return ((o && o.alt) || []).some(a => norm(a).includes(n)) ? 1e6 : null; };
+      return Object.keys(this.T).map(id => this.term(id)).filter(Boolean).map(x => [x, rank(x)]).filter(([, r]) => r !== null)
+        .sort((a, b) => a[1] - b[1]).map(([x]) => x); } };
   /* Data paths in the catalog ("data" of a lesson, "files") are relative to the catalog, or absolute URLs. */
   const dataUrl = d => /^https?:/i.test(d) ? fixUrl(d) : new URL(d, `${DATA}${LANG}/catalog.json`).href;
   /* Lesson data of many lessons (terms of done lessons, checklists): fetched in parallel, cached for the page's life. */

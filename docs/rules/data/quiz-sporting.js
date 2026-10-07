@@ -406,7 +406,7 @@ window.RULES_QUIZ.push({
    "level": 3,
    "topic": "Rabbit",
    "q_en": "Rabbit target as a single. The first shot misses, and the rabbit then hits a stone and breaks before the shooter fires the second barrel. What is the referee's decision?",
-   "q_uk": "Rabbit як одиночна мішень. Перший постріл — промах, потім «кролик» ударяється об камінь і розбивається ще до другого пострілу. Яке рішення судді?",
+   "q_uk": "Rabbit як одиночна мішень. Перший постріл — промах, потім «заєць» ударяється об камінь і розбивається ще до другого пострілу. Яке рішення судді?",
    "options": [
     {
      "en": "Zero: the first shot already missed",
@@ -418,12 +418,12 @@ window.RULES_QUIZ.push({
     },
     {
      "en": "One: the rabbit broke, so it counts",
-     "uk": "One: кролик розбився, тож зараховують"
+     "uk": "One: заєць розбився, тож зараховують"
     }
    ],
    "answer": 1,
    "explain_en": "This is a No Bird and the rabbit is repeated, but on the repeat only a break with the second shot counts; breaking it with the first shot scores zero.",
-   "explain_uk": "Це No Bird, «кролика» повторюють, але на повторі зараховується лише розбиття другим пострілом; розбиття першим — zero.",
+   "explain_uk": "Це No Bird, «зайця» повторюють, але на повторі зараховується лише розбиття другим пострілом; розбиття першим — zero.",
    "refs": [
     "ch6-nobird-target-single-rabbit"
    ],
@@ -1009,7 +1009,7 @@ window.RULES_QUIZ.push({
     },
     {
      "en": "25: 10 singles and 5 doubles, plus 5 rabbits",
-     "uk": "25: 10 одиночних, 5 дуплетів і 5 «кроликів»"
+     "uk": "25: 10 одиночних, 5 дуплетів і 5 «зайців»"
     },
     {
      "en": "20: 10 singles and 5 doubles",
@@ -1720,7 +1720,7 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "Rabbit",
    "q_en": "A rabbit must be shot with the gun at the shoulder, like any other target.",
-   "q_uk": "По кролику (rabbit) стріляють, приклавши рушницю до плеча, як і по будь-якій іншій мішені.",
+   "q_uk": "По зайцю (rabbit) стріляють, приклавши рушницю до плеча, як і по будь-якій іншій мішені.",
    "options": [
     {
      "en": "True",
@@ -1733,7 +1733,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 0,
    "explain_en": "True. Every target, rabbits included, is shot with the gun mounted to the shoulder; shooting from the hip is not allowed.",
-   "explain_uk": "Правда. По кожній мішені, і по кролику теж, стріляють із рушницею, прикладеною до плеча; стріляти від стегна не можна.",
+   "explain_uk": "Правда. По кожній мішені, і по зайцю теж, стріляють із рушницею, прикладеною до плеча; стріляти від стегна не можна.",
    "refs": [
     "ch3-mounting"
    ],

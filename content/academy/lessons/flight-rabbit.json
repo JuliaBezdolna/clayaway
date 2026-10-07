@@ -1,6 +1,6 @@
 {
   "id": "flight-rabbit",
-  "rev": 3,
+  "rev": 4,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -103,11 +103,11 @@
   ],
   "title": {
     "en": "The rabbit: rolling, hopping and bolting",
-    "uk": "Кролик: котиться, підстрибує, вискакує"
+    "uk": "Заєць: котиться, підстрибує, вискакує"
   },
   "summary": {
     "en": "The rabbit target: how it rolls, hops and bolts, why it often needs less lead than you expect, and the No Bird rule when it breaks by itself.",
-    "uk": "Мішень-кролик: як вона котиться, підстрибує й вискакує, чому їй часто потрібен менший винос, ніж здається, і правило No Bird, коли вона розбивається сама."
+    "uk": "Мішень «заєць»: як вона котиться, підстрибує й вискакує, чому їй часто потрібен менший винос, ніж здається, і правило No Bird, коли вона розбивається сама."
   },
   "body": [
     {
@@ -116,7 +116,7 @@
       "core": true,
       "disc": "both",
       "en": "A rabbit is a 110 mm target with a thick, strong rim, thrown on its edge so that it rolls along the ground like a running hare. It is a special target, so in {{tm:sporting}} it must be shown on the target menu of the stand.",
-      "uk": "Кролик (rabbit) — мішень діаметром 110 мм із товстим міцним ободом, яку кидають на ребро, тож вона котиться по землі, як заєць, що тікає. Це особлива мішень, тому в {{tm:sporting}} її обов’язково вказують у меню мішеней на стрілецькому місці."
+      "uk": "Заєць (rabbit) — мішень діаметром 110 мм із товстим міцним ободом, яку кидають на ребро, тож вона котиться по землі, як справжній заєць, що тікає. Це особлива мішень, тому в {{tm:sporting}} її обов’язково вказують у меню мішеней на стрілецькому місці."
     },
     {
       "k": "flight-rabbit-p2",
@@ -124,7 +124,7 @@
       "core": true,
       "disc": "both",
       "en": "Coaches describe how it runs: a rolling rabbit runs smoothly; a hopping (bouncing) rabbit jumps on bumps and stones; a bolting rabbit bursts out of cover and runs fast. Rabbits can go across, towards or away from the shooter.",
-      "uk": "Тренери описують, як він біжить: rolling — котиться рівно; hopping (bouncing) — підстрибує на горбиках і каменях; bolting — вискакує з укриття і біжить швидко. Кролик може бігти поперек, на стрільця або від нього."
+      "uk": "Тренери описують, як він біжить: rolling — котиться рівно; hopping (bouncing) — підстрибує на горбиках і каменях; bolting — вискакує з укриття і біжить швидко. Заєць може бігти поперек, на стрільця або від нього."
     },
     {
       "k": "flight-rabbit-p3",
@@ -132,7 +132,7 @@
       "core": true,
       "disc": "both",
       "en": "A rabbit is heavy and slows down quickly, so shooters often shoot too far in front of it (over-lead). Many coaches suggest keeping the gun low and shooting at the bottom front edge of the rabbit. Then, if it suddenly hops, it jumps up into the shot rather than over it. Often it is visible only in a short gap between bushes, so the {{term:break-point|break point}} needs careful planning.",
-      "uk": "Кролик важкий і швидко сповільнюється, тому стрільці часто стріляють надто далеко попереду нього (дають завеликий винос). Багато тренерів радять тримати стволи низько й стріляти в нижній передній край кролика. Тоді, якщо він раптом підстрибне, то потрапить під дріб, а не перескочить його. Часто кролика видно лише в короткому проміжку між кущами, тож {{term:break-point|точку пострілу}} треба ретельно спланувати."
+      "uk": "Заєць важкий і швидко сповільнюється, тому стрільці часто стріляють надто далеко попереду нього (дають завеликий винос). Багато тренерів радять тримати стволи низько й стріляти в нижній передній край зайця. Тоді, якщо він раптом підстрибне, то потрапить під дріб, а не перескочить його. Часто зайця видно лише в короткому проміжку між кущами, тож {{term:break-point|точку пострілу}} треба ретельно спланувати."
     },
     {
       "k": "flight-rabbit-p4",
@@ -141,7 +141,7 @@
       "disc": "both",
       "rule_ref": "sporting:ch6-nobird-target-single-rabbit",
       "en": "Rules: each target, the rabbit included, is shot with the gun at the shoulder; shooting from the hip is not allowed in either discipline. A special case: you miss with the first shot, and before you can fire the second the rabbit breaks by itself, for example on a stone. That is a {{term:no-bird|No Bird}}, and the rabbit is thrown again. On the repeat only a hit with the second shot counts, so you fire the first shot deliberately wide. If you break it with the first shot, it is scored as a miss (zero).",
-      "uk": "Правила: кожну мішень, зокрема кролика, стріляють із рушницею біля плеча; постріл «від стегна» заборонений в обох дисциплінах. Особливий випадок: ви промахнулися першим пострілом, а до другого кролик розбився сам, наприклад об камінь. Це {{term:no-bird|No Bird}} (мішень повторюють): кролика подають знову. На повторі зараховують лише влучання другим пострілом, тому перший постріл роблять навмисно мимо. Якщо розбити кролика першим пострілом, це промах (zero)."
+      "uk": "Правила: кожну мішень, зокрема зайця, стріляють із рушницею біля плеча; постріл «від стегна» заборонений в обох дисциплінах. Особливий випадок: ви промахнулися першим пострілом, а до другого заєць розбився сам, наприклад об камінь. Це {{term:no-bird|No Bird}} (мішень повторюють): зайця подають знову. На повторі зараховують лише влучання другим пострілом, тому перший постріл роблять навмисно мимо. Якщо розбити зайця першим пострілом, це промах (zero)."
     },
     {
       "k": "targets-special-presentations-p6",
@@ -149,7 +149,7 @@
       "disc": "both",
       "critical": true,
       "en": "Safety matters especially with rabbits, because they run low near the ground. Shoot only inside the permitted zone, never swing the barrels towards people or traps, and do not shoot beyond a {{term:shooting-limit|shooting limit}}.",
-      "uk": "Безпека з кроликом особливо важлива, бо він біжить низько над землею. Стріляйте лише в межах дозволеної зони, ніколи не ведіть стволи в бік людей чи машинок і не стріляйте за {{term:shooting-limit|межу зони стрільби}}."
+      "uk": "Безпека із зайцем особливо важлива, бо він біжить низько над землею. Стріляйте лише в межах дозволеної зони, ніколи не ведіть стволи в бік людей чи машинок і не стріляйте за {{term:shooting-limit|межу зони стрільби}}."
     },
     {
       "k": "flight-rabbit-p5",
@@ -157,7 +157,7 @@
       "core": true,
       "disc": "both",
       "en": "“{{term:fur-and-feather|Fur and feather}}” is {{term:english-sporting|English Sporting}} slang for a pair of a rabbit (“fur”) and an aerial target (“feather”).",
-      "uk": "«{{term:fur-and-feather|Fur and feather}}» («хутро і пір’я») — сленг {{term:english-sporting|English Sporting}} для дуплета з кролика («fur») і повітряної мішені («feather»)."
+      "uk": "«{{term:fur-and-feather|Fur and feather}}» («хутро і пір’я») — сленг {{term:english-sporting|English Sporting}} для дуплета із зайця («fur») і повітряної мішені («feather»)."
     },
     {
       "k": "flight-rabbit-sim",
@@ -168,7 +168,7 @@
       },
       "ready": true,
       "en": "The rabbit rolls and bounces along the ground; watch how low it stays and how it hops.",
-      "uk": "Кролик котиться й підстрибує по землі; зверніть увагу, як низько він тримається і як підскакує."
+      "uk": "Заєць котиться й підстрибує по землі; зверніть увагу, як низько він тримається і як підскакує."
     }
   ],
   "note": [
@@ -176,7 +176,7 @@
       "k": "flight-rabbit-n1",
       "for": "interpreter",
       "en": "Shooters' names for the rabbit differ between languages. Choose one word and keep it all session.",
-      "uk": "Українською кажуть «кролик» або «заєць»; у цьому курсі — «кролик». Оберіть одне слово й тримайтеся його всю сесію."
+      "uk": "В Україні цю мішень називають «заєць» (англійською rabbit); інколи кажуть і «кролик». Оберіть одне слово й тримайтеся його всю сесію."
     }
   ],
   "phrases": [
@@ -187,7 +187,7 @@
       "en": "It hops on that bump — stay under it and keep moving.",
       "meaning": {
         "en": "The rabbit jumps at a known spot; keep the gun low and moving.",
-        "uk": "Кролик підстрибує у відомому місці; тримайте стволи низько й у русі."
+        "uk": "Заєць підстрибує у відомому місці; тримайте стволи низько й у русі."
       },
       "say": {
         "uk": "На тому горбику він підстрибне — тримайтеся під ним і не зупиняйтеся."
@@ -200,7 +200,7 @@
       "en": "Shoot its feet.",
       "meaning": {
         "en": "Put the shot on the bottom edge of the rabbit, not over it.",
-        "uk": "Спрямовуйте постріл у нижній край кролика, а не понад ним."
+        "uk": "Спрямовуйте постріл у нижній край зайця, а не понад ним."
       },
       "say": {
         "uk": "Стріляйте йому «під ноги» — у нижній край."
@@ -213,7 +213,7 @@
       "en": "It slows down a lot — less lead than you think.",
       "meaning": {
         "en": "The rabbit loses speed quickly, so it needs a smaller lead.",
-        "uk": "Кролик швидко втрачає швидкість, тож потрібен менший винос."
+        "uk": "Заєць швидко втрачає швидкість, тож потрібен менший винос."
       },
       "say": {
         "uk": "Він сильно сповільнюється — виносу менше, ніж здається."
@@ -226,10 +226,10 @@
       "en": "Fur and feather: rabbit first, before it reaches the bushes.",
       "meaning": {
         "en": "In the rabbit-plus-bird pair, shoot the rabbit first because it disappears into cover.",
-        "uk": "У дуплеті «кролик і повітряна мішень» першим стріляйте кролика, бо він зникне в кущах."
+        "uk": "У дуплеті «заєць і повітряна мішень» першим стріляйте зайця, бо він зникне в кущах."
       },
       "say": {
-        "uk": "Кролик і повітряна: спершу кролик, поки не добіг до кущів."
+        "uk": "Заєць і повітряна: спершу заєць, поки не добіг до кущів."
       }
     }
   ],
@@ -238,7 +238,7 @@
       "k": "flight-rabbit-kp1",
       "core": true,
       "en": "Rabbit: 110 mm, thick rim, rolls on its edge along the ground.",
-      "uk": "Кролик: 110 мм, товстий обід, котиться ребром по землі."
+      "uk": "Заєць: 110 мм, товстий обід, котиться ребром по землі."
     },
     {
       "k": "flight-rabbit-kp2",
@@ -256,13 +256,13 @@
       "k": "flight-rabbit-kp4",
       "core": true,
       "en": "Always shot from the shoulder; a rabbit that breaks by itself after a first-shot miss is a No Bird.",
-      "uk": "Стріляють завжди від плеча; кролик, що сам розбився після промаху першим пострілом, — No Bird."
+      "uk": "Стріляють завжди від плеча; заєць, що сам розбився після промаху першим пострілом, — No Bird."
     },
     {
       "k": "flight-rabbit-kp5",
       "core": true,
       "en": "“Fur and feather” = rabbit + aerial target pair.",
-      "uk": "«Fur and feather» — дуплет із кролика і повітряної мішені."
+      "uk": "«Fur and feather» — дуплет із зайця і повітряної мішені."
     }
   ],
   "did_you_know": null,
@@ -271,7 +271,7 @@
       "k": "flight-rabbit-q1",
       "q": {
         "en": "The first shot misses a rabbit, then it breaks on a stone before the second shot. What happens?",
-        "uk": "Перший постріл по кролику мимо, а потім він розбивається об камінь до другого пострілу. Що далі?"
+        "uk": "Перший постріл по зайцю мимо, а потім він розбивається об камінь до другого пострілу. Що далі?"
       },
       "options": [
         {
@@ -305,7 +305,7 @@
       "k": "flight-rabbit-q2",
       "q": {
         "en": "Why do coaches warn against too much lead on a rabbit?",
-        "uk": "Чому тренери застерігають від завеликого виносу на кролику?"
+        "uk": "Чому тренери застерігають від завеликого виносу на зайці?"
       },
       "options": [
         {
@@ -332,7 +332,7 @@
       "correct": "b",
       "explain": {
         "en": "A rabbit has a thick rim and rolls on the ground, losing speed fast. So the lead you would give a flying crosser sends the shot ahead of the rabbit: a miss in front.",
-        "uk": "Кролик має товстий обід і котиться по землі, швидко втрачаючи швидкість. Тож звичний для кросера винос кладе дріб попереду кролика — промах перед ним."
+        "uk": "Заєць має товстий обід і котиться по землі, швидко втрачаючи швидкість. Тож звичний для кросера винос кладе дріб попереду зайця — промах перед ним."
       }
     },
     {
@@ -345,7 +345,7 @@
         {
           "k": "a",
           "en": "A pair of a rabbit and an aerial target",
-          "uk": "Дуплет із кролика і повітряної мішені"
+          "uk": "Дуплет із зайця і повітряної мішені"
         },
         {
           "k": "b",
@@ -360,13 +360,13 @@
         {
           "k": "d",
           "en": "A pair of two rabbits",
-          "uk": "Дуплет із двох кроликів"
+          "uk": "Дуплет із двох зайців"
         }
       ],
       "correct": "a",
       "explain": {
         "en": "In English Sporting slang “fur” is the rabbit and “feather” the flying target.",
-        "uk": "У сленгу English Sporting «fur» — кролик, а «feather» — мішень, що летить."
+        "uk": "У сленгу English Sporting «fur» — заєць, а «feather» — мішень, що летить."
       }
     }
   ],
@@ -375,13 +375,13 @@
       "k": "targets-special-presentations-q2",
       "q": {
         "en": "May you shoot a rabbit from the hip in {{tm:sporting}}?",
-        "uk": "Чи можна в {{tm:sporting}} стріляти по кролику «від стегна»?"
+        "uk": "Чи можна в {{tm:sporting}} стріляти по зайцю «від стегна»?"
       },
       "options": [
         {
           "k": "a",
           "en": "Yes, but only at rabbits",
-          "uk": "Так, але лише по кролику"
+          "uk": "Так, але лише по зайцю"
         },
         {
           "k": "b",
@@ -397,7 +397,7 @@
       "correct": "b",
       "explain": {
         "en": "The rules require each target, rabbits included, to be shot with the gun mounted.",
-        "uk": "Правила вимагають стріляти кожну мішень, зокрема кролика, з рушницею біля плеча."
+        "uk": "Правила вимагають стріляти кожну мішень, зокрема зайця, з рушницею біля плеча."
       }
     }
   ],

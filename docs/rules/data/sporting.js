@@ -111,7 +111,7 @@ window.RULES.push({
      "title_en": "What a layout must offer",
      "title_uk": "Яким має бути layout",
      "summary_en": "A Sporting range needs enough traps, placed according to the terrain, to give conditions as close as possible to real game shooting: partridge, duck, pheasant, rabbit and so on. The set of trajectories should mix incoming, outgoing, crossing and quartering targets, low and high, in open ground or in woodland, with or without trees and bushes partly hiding them.",
-     "summary_uk": "Майданчик для Sporting має бути оснащений достатньою кількістю метальних машин (traps), розставлених з урахуванням рельєфу, щоб умови якнайбільше нагадували справжнє полювання: на куріпку, качку, фазана, кролика тощо. Набір траєкторій поєднує мішені, що летять на стрільця, від нього, поперечні та навскісні, низькі й високі, на відкритій місцевості чи в лісі, частково закриті деревами й кущами або ні.",
+     "summary_uk": "Майданчик для Sporting має бути оснащений достатньою кількістю метальних машин (traps), розставлених з урахуванням рельєфу, щоб умови якнайбільше нагадували справжнє полювання: на куріпку, качку, фазана, зайця тощо. Набір траєкторій поєднує мішені, що летять на стрільця, від нього, поперечні та навскісні, низькі й високі, на відкритій місцевості чи в лісі, частково закриті деревами й кущами або ні.",
      "points_en": [
       "Enough traps to imitate natural game shooting",
       "Incoming, outgoing, crossing, quartering",
@@ -273,7 +273,7 @@ window.RULES.push({
       "colour",
       "мішені",
       "тарілки",
-      "кролик",
+      "заєць",
       "колір мішені",
       "батю"
      ],
@@ -642,7 +642,7 @@ window.RULES.push({
      "title_en": "When the gun may be mounted",
      "title_uk": "Коли можна вкладати рушницю",
      "summary_en": "The shooter may not mount the gun before the target appears. Every target, rabbits included, must be shot with the gun mounted to the shoulder; firing from the hip is not allowed.",
-     "summary_uk": "Стрілець не має права вкладати рушницю, доки мішень не з’явилася. По всіх мішенях, зокрема по кролику (rabbit), стріляють лише з рушницею, вскинутою до плеча; постріл «від стегна» не допускається.",
+     "summary_uk": "Стрілець не має права вкладати рушницю, доки мішень не з’явилася. По всіх мішенях, зокрема по зайцю (rabbit), стріляють лише з рушницею, вкладеною в плече; постріл «від стегна» не допускається.",
      "points_en": [
       "No mounting before the target appears",
       "All targets shot with gun mounted",
@@ -664,9 +664,9 @@ window.RULES.push({
       "premounted",
       "rabbit",
       "вкладка",
-      "рано вскинув",
+      "рано вклав",
       "до плеча",
-      "кролик"
+      "заєць"
      ],
      "quick_guide": true
     },
@@ -1598,9 +1598,9 @@ window.RULES.push({
       "rabbit hit ground",
       "rabbit stone",
       "rabbit repeat",
-      "кролик розбився",
-      "кролик об камінь",
-      "повтор кролика"
+      "заєць розбився",
+      "заєць об камінь",
+      "повтор зайця"
      ],
      "quick_guide": true
     },
@@ -2929,7 +2929,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Неправильне положення готовності (3.1)",
-      "Рушницю вскинуто до появи мішені",
+      "Рушницю вкладено до появи мішені",
       "Усне попередження + жовта картка"
      ],
      "terms": [
@@ -4385,7 +4385,7 @@ window.RULES.push({
   },
   {
    "q_en": "What happens if I mount the gun too early?",
-   "q_uk": "Що буде, якщо я вскину рушницю зарано?",
+   "q_uk": "Що буде, якщо я вкладу рушницю зарано?",
    "a_en": "The first time you get a verbal warning with a yellow card. Any further offence on the same layout brings a red card: zero on a single, zero and No Bird on a double on report, zero and zero on simultaneous or rafale doubles.",
    "a_uk": "Уперше — усне попередження з жовтою карткою. Будь-яке наступне порушення на тому самому layout — червона картка: single — zero, on report — zero і No Bird, simultaneous чи rafale — zero і zero.",
    "refs": [
@@ -4405,9 +4405,9 @@ window.RULES.push({
   },
   {
    "q_en": "May I shoot a rabbit from the hip?",
-   "q_uk": "Чи можна стріляти по кролику (rabbit) «від стегна»?",
+   "q_uk": "Чи можна стріляти по зайцю (rabbit) «від стегна»?",
    "a_en": "No. Every target, rabbits included, must be shot with the gun mounted to the shoulder.",
-   "a_uk": "Ні. По всіх мішенях, зокрема по rabbit, стріляють лише з рушницею, вскинутою до плеча.",
+   "a_uk": "Ні. По всіх мішенях, зокрема по rabbit, стріляють лише з рушницею, вкладеною в плече.",
    "refs": [
     "ch3-mounting"
    ]
@@ -4581,7 +4581,7 @@ window.RULES.push({
   },
   {
    "q_en": "I missed a rabbit with my first shot, then it broke on a stone. Is it scored?",
-   "q_uk": "Я промахнувся по кролику першим пострілом, а потім він розбився об камінь. Як зарахують?",
+   "q_uk": "Я промахнувся по зайцю першим пострілом, а потім він розбився об камінь. Як зарахують?",
    "a_en": "It is a No Bird and the rabbit is repeated. On the repeat only a break with the second shot counts; a break with the first shot is zero, so you must miss the first deliberately.",
    "a_uk": "Це No Bird, rabbit повторюють. На повторі зараховують лише влучання другим пострілом; влучання першим — zero, тож першим треба навмисно промахнутися.",
    "refs": [
