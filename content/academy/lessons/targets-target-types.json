@@ -1,0 +1,531 @@
+{
+  "id": "targets-target-types",
+  "rev": 3,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "targets-target-types"
+    ],
+    "interpreter": [
+      "targets-types"
+    ]
+  },
+  "terms": [
+    "target",
+    "trap",
+    "standard-target",
+    "midi",
+    "mini",
+    "battue",
+    "rabbit",
+    "rocket-target",
+    "flash-target",
+    "zz-target",
+    "target-menu",
+    "no-bird"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-target-menu"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-cases"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-target-one"
+    }
+  ],
+  "facts": [
+    "targets.sporting-menu-special-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Shooting UK — Clay pigeon sizes: knowing what they are will help you improve your score"
+      },
+      "url": "https://www.shootinguk.co.uk/shooting/shotgun/clay-pigeon-sizes-knowing-what-they-are-will-help-you-to-improve-your-score/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Let's Go Shooting — Types of clay targets"
+      },
+      "url": "https://www.letsgoshooting.org/resources/articles/shotgun/types-of-clay-targets/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The Country Girls UK — Clay shooting terminology"
+      },
+      "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Sporting Gun — Helice: what's it all about?"
+      },
+      "url": "https://sporting-gun.com/shooting/helice-whats-it-all-about/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Types of clay targets",
+    "uk": "Які бувають мішені"
+  },
+  "summary": {
+    "en": "Standard, midi, mini, battue, rabbit, flash, ZZ and rocket: how the targets differ, how they fly, and why the menu names each special target.",
+    "uk": "Стандарт, міді, міні, батю, кролик, флеш, ZZ і рокет: чим різняться мішені, як вони летять і чому меню називає кожну особливу мішень."
+  },
+  "body": [
+    {
+      "k": "targets-target-types-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "A {{term:target|target}}, often called a “clay”, is a brittle disc thrown by a machine called a {{term:trap|trap}}. Knowing the type of target helps you plan the shot before you call.",
+      "uk": "{{term:target|Мішень}} (target), яку ще називають «тарілочкою», — крихкий диск, який викидає {{term:trap|машинка}} (trap). Знаючи тип мішені, ви легше сплануєте постріл ще до команди."
+    },
+    {
+      "k": "targets-types-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "anchor": "targets-types",
+      "en": "The FITASC list for {{tm:sporting}} names seven target types: standard, midi, super mini, battue, rabbit, flash and ZZ. {{tm:compak}} allows any standard or special target, and its list also names the rocket. Each type flies differently.",
+      "uk": "Перелік FITASC для {{tm:sporting}} називає сім типів мішеней: стандарт (standard), міді (midi), супер-міні (super mini), батю (battue), кролик (rabbit), флеш (flash) і ZZ. {{tm:compak}} дозволяє будь-які стандартні чи особливі мішені, і в його переліку є ще рокет (rocket). Кожен тип летить по-своєму."
+    },
+    {
+      "k": "targets-types-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "The {{term:standard-target|standard}}, the most common target, is a dome about 108–110 mm across; beginners usually start on it. The {{term:midi|midi}} is 90 mm: it keeps its speed well and looks further away than it is. The {{term:mini|mini}} is usually 60 mm: it leaves the trap fast and slows quickly. So shooters tend to give it too much lead, that is, they shoot too far in front of it. Names of small targets vary: the {{tm:sporting}} list says “super mini”, and menus may show 70 mm or 60 mm. Go by the millimetres written on the menu.",
+      "uk": "{{term:standard-target|Стандарт}} — найпоширеніша мішень. Це купол близько 108–110 мм завширшки; з нього зазвичай починають новачки. Мішень {{term:midi|міді}} — 90 мм: добре тримає швидкість і здається далі, ніж є насправді. Мішень {{term:mini|міні}} — зазвичай 60 мм: швидко вилітає з машинки й швидко гальмує. Тож стрільці часто дають їй завеликий винос — стріляють надто далеко попереду неї. Назви малих мішеней різняться: у переліку {{tm:sporting}} — «super mini», а в меню може стояти 70 мм або 60 мм. Орієнтуйтеся на міліметри, написані в меню."
+    },
+    {
+      "k": "targets-types-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "The {{term:battue|battue}} is a flat, thin 110 mm target. It flies edge-on, almost invisible, then turns to show its face and drops quickly. The {{tm:compak}} rules advise against battues on very short trajectories. The {{term:rabbit|rabbit}} is a 110 mm target with a thick, strong rim, rolled on its edge along the ground; it bounces and can hop over bumps. See also {{lesson:flight-rabbit}}.",
+      "uk": "{{term:battue|Батю}} (battue) — пласка тонка мішень 110 мм. Вона летить ребром, майже невидима, потім розвертається площиною й швидко падає. Правила {{tm:compak}} не радять ставити батю на дуже короткі траєкторії. {{term:rabbit|Кролик}} (rabbit) — мішень 110 мм із товстим міцним ободом, яку котять на ребрі по землі; вона підстрибує на горбиках. Докладніше — в уроці {{lesson:flight-rabbit}}."
+    },
+    {
+      "k": "targets-types-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:flash-target|flash target}} is filled with coloured powder that leaves a bright cloud when it is hit; it is scored like any other target. A {{term:zz-target|ZZ target}}, also called helice, is a plastic propeller with a white centre cap that flies erratically. The {{term:rocket-target|rocket}} is another special target, named only in the {{tm:compak}} list.",
+      "uk": "{{term:flash-target|Флеш-мішень}} (flash) наповнена кольоровим порошком: при влучанні він дає яскраву хмарку. Рахують її, як будь-яку іншу мішень. {{term:zz-target|Мішень ZZ}}, або helice, — пластиковий пропелер із білою центральною частиною, що летить непередбачувано. {{term:rocket-target|Рокет}} (rocket) — ще одна особлива мішень, яку називає лише перелік {{tm:compak}}."
+    },
+    {
+      "k": "targets-target-types-p6",
+      "t": "rule",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-target-menu",
+      "en": "In {{tm:sporting}} the {{term:target-menu|target menu}} in front of each shooting stand (the spot you shoot from) must name any special targets: {{fact:targets.sporting-menu-special-targets}}. Read it before you step onto the stand.",
+      "uk": "У {{tm:sporting}} {{term:target-menu|меню мішеней}} перед кожним стрілецьким місцем (там, звідки ви стріляєте) обов’язково називає особливі мішені: {{fact:targets.sporting-menu-special-targets}}. Прочитайте його, перш ніж стати на місце."
+    },
+    {
+      "k": "targets-types-p5",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch6-nobird-target-cases",
+      "en": "In {{tm:sporting}}, a target of the wrong colour, size or type is a No Bird (the target does not count) and is thrown again.",
+      "uk": "У {{tm:sporting}} мішень не того кольору, розміру чи типу — це No Bird (мішень повторюють): її не зараховують і подають знову."
+    },
+    {
+      "k": "targets-target-types-p7",
+      "t": "tip",
+      "disc": "both",
+      "en": "Colour is not a type of target: it is chosen so that the target stands out against the background. See {{lesson:targets-colours-visibility}}.",
+      "uk": "Колір — не тип мішені: його обирають так, щоб мішень було добре видно на тлі. Див. урок {{lesson:targets-colours-visibility}}."
+    },
+    {
+      "k": "targets-target-types-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "battue",
+        "also": [
+          "rabbit"
+        ]
+      },
+      "ready": true
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "targets-types-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "The midi looks far but it isn't — don't give it too much.",
+      "meaning": {
+        "en": "The coach's correction for this target: it looks further away than it is, so this shooter is giving it more lead (more distance in front) than it needs. It is a correction for this situation, not a general rule.",
+        "uk": "Поправка тренера саме для цієї мішені: вона здається далі, ніж є, тож цей стрілець дає їй більший винос (стріляє далі попереду), ніж їй треба. Це поправка для цієї ситуації, а не загальне правило."
+      },
+      "say": {
+        "uk": "Міді здається далекою, але це не так, — не давайте завеликий винос."
+      }
+    },
+    {
+      "k": "targets-types-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "The battue will turn and drop at the end — take it when it shows its belly.",
+      "meaning": {
+        "en": "Shoot the battue once it turns its flat face towards you.",
+        "uk": "Стріляйте батю, коли вона розвернеться до вас площиною."
+      },
+      "say": {
+        "uk": "Батю наприкінці розвернеться й упаде — бийте, коли покаже площину."
+      }
+    },
+    {
+      "k": "targets-types-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "The mini is dying fast — shoot it early.",
+      "meaning": {
+        "en": "The small target loses speed quickly; do not wait.",
+        "uk": "Мала мішень швидко втрачає швидкість; не чекайте."
+      },
+      "say": {
+        "uk": "Міні швидко гальмує — стріляйте рано."
+      }
+    },
+    {
+      "k": "targets-types-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "The rabbit will hop on that bump — stay under it.",
+      "meaning": {
+        "en": "Keep the gun pointed low on the rolling target, so that if it hops up it jumps into the shot.",
+        "uk": "Тримайте стволи низько над кроликом, що котиться: якщо мішень підстрибне, вона потрапить під дріб."
+      },
+      "say": {
+        "uk": "Кролик підстрибне на тому горбику — тримайтеся під ним."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "targets-types-kp2",
+      "core": true,
+      "en": "Standard about 108–110 mm, midi 90 mm, mini usually 60 mm; the menu may also show 70 mm, so go by the millimetres.",
+      "uk": "Стандарт — близько 108–110 мм, міді — 90 мм, міні — зазвичай 60 мм; у меню може бути й 70 мм, тож орієнтуйтеся на міліметри."
+    },
+    {
+      "k": "targets-types-kp3",
+      "core": true,
+      "en": "Battue: flat, edge-on, turns and drops; rabbit: thick rim, rolls and hops.",
+      "uk": "Батю: пласка, летить ребром, розвертається й падає; кролик: товстий обід, котиться й підстрибує."
+    },
+    {
+      "k": "targets-types-kp4",
+      "core": true,
+      "en": "Flash leaves a powder cloud; ZZ is a propeller target.",
+      "uk": "Флеш лишає хмарку порошку; ZZ — мішень-пропелер."
+    },
+    {
+      "k": "targets-types-kp1",
+      "core": true,
+      "en": "{{tm:sporting}} list: standard, midi, super mini, battue, rabbit, flash, ZZ; {{tm:compak}} allows any type, rocket included.",
+      "uk": "Перелік {{tm:sporting}}: стандарт, міді, супер-міні, батю, кролик, флеш, ZZ; {{tm:compak}} дозволяє будь-які, зокрема рокет."
+    },
+    {
+      "k": "targets-types-kp5",
+      "core": true,
+      "en": "{{tm:sporting}}: wrong colour, size or type = No Bird.",
+      "uk": "{{tm:sporting}}: не той колір, розмір чи тип — No Bird."
+    }
+  ],
+  "did_you_know": {
+    "k": "targets-target-types-dyk",
+    "en": "A mini looks easy because it is small, but many shooters find it one of the trickiest: it starts very fast and then suddenly slows down.",
+    "uk": "Міні здається легкою, бо маленька, але багато стрільців вважають її однією з найпідступніших: вона стартує дуже швидко, а потім раптово гальмує."
+  },
+  "quiz": [
+    {
+      "k": "targets-target-types-q1",
+      "q": {
+        "en": "What size is a mini target usually?",
+        "uk": "Якого розміру зазвичай буває міні?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "90 mm",
+          "uk": "90 мм"
+        },
+        {
+          "k": "b",
+          "en": "About 60 mm",
+          "uk": "Близько 60 мм"
+        },
+        {
+          "k": "c",
+          "en": "About 110 mm",
+          "uk": "Близько 110 мм"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A mini is usually 60 mm and a midi 90 mm. Names of small targets vary, so go by the millimetres on the menu.",
+        "uk": "Міні зазвичай має 60 мм, міді — 90 мм. Назви малих мішеней різняться, тож орієнтуйтеся на міліметри в меню."
+      }
+    },
+    {
+      "k": "targets-types-q3",
+      "q": {
+        "en": "On a {{tm:sporting}} stand, a trap throws a midi instead of the standard shown on the menu. What happens?",
+        "uk": "На стрілецькому місці {{tm:sporting}} машинка кинула міді замість стандарту, зазначеного в меню. Що буде?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No Bird, the target is repeated",
+          "uk": "No Bird, мішень повторюють"
+        },
+        {
+          "k": "b",
+          "en": "It counts as a hit",
+          "uk": "Зараховують як влучання"
+        },
+        {
+          "k": "c",
+          "en": "The shooter loses the target",
+          "uk": "Стрілець втрачає мішень"
+        },
+        {
+          "k": "d",
+          "en": "The round is cancelled",
+          "uk": "Раунд скасовують"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:sporting}} a target of the wrong colour, size or type is a No Bird (it does not count) and is thrown again.",
+        "uk": "У {{tm:sporting}} мішень не того кольору, розміру чи типу — No Bird (її не зараховують), і її подають знову."
+      }
+    },
+    {
+      "k": "targets-types-q1",
+      "q": {
+        "en": "Which target rolls along the ground?",
+        "uk": "Яка мішень котиться по землі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Midi",
+          "uk": "Міді"
+        },
+        {
+          "k": "b",
+          "en": "Battue",
+          "uk": "Батю"
+        },
+        {
+          "k": "c",
+          "en": "Rabbit",
+          "uk": "Кролик"
+        },
+        {
+          "k": "d",
+          "en": "Flash",
+          "uk": "Флеш"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The rabbit has a thick rim and is thrown on its edge along the ground.",
+        "uk": "Кролик має товстий обід, і його кидають на ребрі по землі."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "targets-types-q2",
+      "q": {
+        "en": "The menu says '70 mm'. The coach calls it a mini. What should you translate?",
+        "uk": "У меню написано «70 mm». Тренер називає її mini. Що перекладати?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Correct it to 60 mm, since a mini is 60 mm",
+          "uk": "Виправити на 60 мм, бо міні — це 60 мм"
+        },
+        {
+          "k": "b",
+          "en": "Keep the coach's word and the 70 mm on the menu",
+          "uk": "Зберегти слово тренера і 70 мм із меню"
+        },
+        {
+          "k": "c",
+          "en": "Call it a midi, since it is over 60 mm",
+          "uk": "Назвати її міді, бо вона більша за 60 мм"
+        },
+        {
+          "k": "d",
+          "en": "Ask the coach to say 'super mini' instead",
+          "uk": "Попросити тренера казати «super mini»"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The rules name 70 mm and 60 mm sizes and the name 'super mini'; trust the millimetres on the menu and do not correct the coach.",
+        "uk": "Правила згадують розміри 70 мм і 60 мм та назву «super mini»; довіряйте міліметрам у меню й не виправляйте тренера."
+      }
+    },
+    {
+      "k": "targets-target-types-q-battue",
+      "q": {
+        "en": "Which target flies edge-on, then turns to show its face and drops?",
+        "uk": "Яка мішень летить ребром, потім розвертається площиною й падає?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Battue",
+          "uk": "Батю"
+        },
+        {
+          "k": "b",
+          "en": "Midi",
+          "uk": "Міді"
+        },
+        {
+          "k": "c",
+          "en": "Rabbit",
+          "uk": "Кролик"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The battue is flat and thin: it flies edge-on, then turns and drops quickly.",
+        "uk": "Батю — пласка й тонка: летить ребром, а потім розвертається й швидко падає."
+      }
+    },
+    {
+      "k": "targets-target-types-q-flash",
+      "q": {
+        "en": "Which target leaves a cloud of coloured powder when it is hit?",
+        "uk": "Яка мішень при влучанні лишає хмарку кольорового порошку?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "ZZ target",
+          "uk": "Мішень ZZ"
+        },
+        {
+          "k": "b",
+          "en": "Rocket",
+          "uk": "Рокет"
+        },
+        {
+          "k": "c",
+          "en": "Flash target",
+          "uk": "Флеш-мішень"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A flash target is filled with coloured powder. It is scored like any other target.",
+        "uk": "Флеш-мішень наповнена кольоровим порошком. Рахують її, як будь-яку іншу мішень."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "28358913",
+    "summary": "307eb780",
+    "targets-target-types-p1": "8f568cc9",
+    "targets-types-p1": "4bdf6c0a",
+    "targets-types-p2": "db411c19",
+    "targets-types-p3": "6743e89b",
+    "targets-types-p4": "1e284f9f",
+    "targets-target-types-p6": "fe4ceb52",
+    "targets-types-p5": "9cda795a",
+    "targets-target-types-p7": "94d03c28",
+    "targets-types-ph1": "4c73e2c2",
+    "targets-types-ph2": "caeb6425",
+    "targets-types-ph3": "55e04db1",
+    "targets-types-ph4": "957b2cb1",
+    "targets-types-kp2": "53c9bc3e",
+    "targets-types-kp3": "68456af5",
+    "targets-types-kp4": "55e8efac",
+    "targets-types-kp1": "bd17bcb4",
+    "targets-types-kp5": "ed68daa2",
+    "targets-target-types-q1": "3518f8eb",
+    "targets-types-q3": "13a02bc3",
+    "targets-types-q1": "ed953260",
+    "targets-types-q2": "571354c5",
+    "targets-target-types-q-battue": "8773cf12",
+    "targets-target-types-q-flash": "283d5036",
+    "targets-target-types-dyk": "c46a8bf2"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: targets-types-p2, targets-types-p3, targets-types-p4, targets-types-kp2.",
+      "Overlays: remove keys deleted as duplicates or merged in the master: targets-types-title.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-types-p2, targets-target-types-p6, targets-types-p5, targets-types-ph1, targets-types-ph4, targets-types-q3.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in targets-types-p1, targets-types-p5, targets-types-kp1, targets-types-kp5, targets-types-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

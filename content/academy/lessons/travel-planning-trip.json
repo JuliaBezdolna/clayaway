@@ -1,0 +1,323 @@
+{
+  "id": "travel-planning-trip",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 1,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "travel block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "travel-planning-trip"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "championship",
+    "entry",
+    "entry-fee",
+    "lateness",
+    "layout",
+    "organiser",
+    "practice",
+    "shooting-times",
+    "squad",
+    "trajectory-setting-table",
+    "sporting",
+    "compak-sporting"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch15-no-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-championship-practice"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-late-shooter"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-late-squad"
+    },
+    {
+      "book": "compak",
+      "id": "ch8-shooting-times"
+    }
+  ],
+  "facts": [
+    "training.compak-championship-practice"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Planning the trip",
+    "uk": "Плануємо поїздку"
+  },
+  "summary": {
+    "en": "Entry, a place to stay near the ground, transfers, documents and arriving early: what a good trip to a {{tm:sporting}} or {{tm:compak}} competition is made of.",
+    "uk": "Реєстрація, житло біля стенду, трансфери, документи і приїзд заздалегідь: із чого складається вдала поїздка на змагання з {{tm:sporting}} чи {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "travel-planning-trip-p1",
+      "t": "p",
+      "en": "A trip to a {{tm:sporting}} or {{tm:compak}} competition starts with its programme. It gives the dates, the disciplines, the deadline for {{term:entry|entry}} and the {{term:entry-fee|entry fee}}. You enter through the {{term:organiser|organiser}}. Popular events can fill up long before the deadline, so do not leave it late.",
+      "uk": "Поїздка на змагання з {{tm:sporting}} чи {{tm:compak}} починається з програми. У ній вказано дати, дисципліни, строк {{term:entry|реєстрації}} і {{term:entry-fee|стартовий внесок}}. Реєструються через {{term:organiser|організатора}}. Популярні змагання можуть заповнитися задовго до кінцевого строку, тож не відкладайте."
+    },
+    {
+      "k": "travel-planning-trip-p2",
+      "t": "p",
+      "en": "Look for a place to stay near the ground. Shooting often starts early, and a long drive each day takes energy. Organisers often suggest partner hotels. Book early, and ask the hotel whether it accepts guests with sporting guns and where a gun can be kept safely.",
+      "uk": "Житло шукайте поблизу стенду. Стрільба часто починається рано, а довга дорога щодня забирає сили. Організатори нерідко радять партнерські готелі. Бронюйте заздалегідь і запитайте в готелі, чи приймають гостей зі спортивною зброєю і де можна безпечно зберігати рушницю."
+    },
+    {
+      "k": "travel-planning-trip-p3",
+      "t": "p",
+      "en": "Plan the transfers: from the airport to the hotel, and from the hotel to the ground each day. A hire car gives freedom, but carrying a gun by car has its own rules in each country. A taxi may refuse a passenger with a gun, and some competitions run a shuttle for shooters.",
+      "uk": "Сплануйте трансфери: з аеропорту до готелю і щодня з готелю до стенду. Орендоване авто дає свободу, але перевезення рушниці автомобілем має свої правила в кожній країні. Таксі може відмовитися везти пасажира з рушницею, а на деяких змаганнях є шатл для стрільців."
+    },
+    {
+      "k": "travel-planning-trip-p4",
+      "t": "p",
+      "en": "Documents for the gun and the cartridges take the longest to prepare. Start several weeks ahead, and even earlier for a trip outside the EU: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} and {{lesson:travel-flying-with-guns}}. If taking your own gun is too complicated, ask the ground whether it hires out guns.",
+      "uk": "Найдовше готують документи на рушницю і набої. Почніть за кілька тижнів, а для поїздки за межі ЄС — ще раніше: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} і {{lesson:travel-flying-with-guns}}. Якщо везти власну рушницю надто складно, запитайте на стенді, чи можна взяти рушницю напрокат."
+    },
+    {
+      "k": "travel-planning-trip-p5",
+      "t": "p",
+      "en": "Try to arrive a day or two early. {{term:shooting-times|Shooting times}} are given in local time. After a flight across several time zones, your body may need more days: see {{lesson:travel-jet-lag}}.",
+      "uk": "Намагайтеся приїхати на день-два раніше. {{term:shooting-times|Розклад стрільби}} оголошують за місцевим часом. Після перельоту через кілька часових поясів організмові може знадобитися більше днів: див. {{lesson:travel-jet-lag}}."
+    },
+    {
+      "k": "travel-planning-trip-p8",
+      "t": "p",
+      "en": "An early arrival also leaves time to practise. Where you may practise depends on the discipline.",
+      "uk": "Ранній приїзд дає час і потренуватися. Де саме можна тренуватися, залежить від дисципліни."
+    },
+    {
+      "k": "travel-planning-trip-p6",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Before the competition, nobody may practise on the competition {{term:layout|layouts}} — the stands set up for the event. You can practise on other parts of the ground ({{rule:sporting:ch15-no-practice}}).",
+        "uk": "До змагань ніхто не може тренуватися на змагальних {{term:layout|майданчиках}} — тих, що підготовлені для змагань. Тренуватися можна на інших майданчиках стенду ({{rule:sporting:ch15-no-practice}})."
+      },
+      "compak": {
+        "en": "You may practise on the target flights (trajectories) of the competition, but under a different {{term:trajectory-setting-table|setting table}}: the plan of which traps are shot from each station. So you do not practise the exact combination you will shoot ({{rule:compak:ch6-practice}}). At continental and world {{term:championship|championships}}, official {{term:practice|practice}} opens {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}}).",
+        "uk": "Можна тренуватися на тих самих польотах мішеней (траєкторіях), що й на змаганні, але за іншою {{term:trajectory-setting-table|таблицею}}: це схема, з яких машинок стріляють на кожному номері. Тож саме змагальної комбінації ви не тренуєте ({{rule:compak:ch6-practice}}). На {{term:championship|чемпіонатах}} континенту і світу {{term:practice|офіційне тренування}} відкривається {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+      }
+    },
+    {
+      "k": "travel-planning-trip-p7",
+      "t": "p",
+      "disc": "both",
+      "en": "On each shooting day, be at the ground early, because {{term:lateness|being late}} means lost targets. In {{tm:sporting}}, the targets you were not there for are scored as zeros ({{rule:sporting:ch16-late-shooter}}). In {{tm:compak}} it is stricter: a late shooter gets 25 zeros, a whole round. When you shoot in a {{term:squad|squad}} (a group that goes through the round together), you are late once the first shooter of your squad has called the first target ({{rule:compak:ch9-late-squad}}).",
+      "uk": "У кожен день стрільби приїжджайте на стенд заздалегідь, бо {{term:lateness|запізнення}} означає втрачені мішені. У {{tm:sporting}} мішені, на які ви не встигли, зараховують як промахи ({{rule:sporting:ch16-late-shooter}}). У {{tm:compak}} суворіше: стрільцеві, який запізнився, записують 25 промахів — цілий раунд. Якщо ви стріляєте у {{term:squad|групі}} (вона разом проходить раунд), запізненням вважається прихід після того, як перший стрілець вашої групи вже викликав першу мішень ({{rule:compak:ch9-late-squad}})."
+    },
+    {
+      "k": "travel-planning-trip-tip",
+      "t": "tip",
+      "en": "A short checklist: documents, insurance, ear and eye protection, clothes for the weather, the programme in local time and the organiser's contacts. Spare time is good insurance too.",
+      "uk": "Короткий список: документи, страховка, навушники й окуляри, одяг за погодою, програма за місцевим часом і контакти організатора. Запас часу — теж добра страховка."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "travel-planning-trip-kp1",
+      "en": "Enter early: popular events fill up.",
+      "uk": "Реєструйтеся заздалегідь: популярні змагання заповнюються."
+    },
+    {
+      "k": "travel-planning-trip-kp2",
+      "en": "Stay near the ground and ask the hotel where to keep the gun.",
+      "uk": "Житло — поблизу стенду; запитайте в готелі, де зберігати рушницю."
+    },
+    {
+      "k": "travel-planning-trip-kp3",
+      "en": "Start on gun documents weeks ahead, and earlier for trips outside the EU.",
+      "uk": "Документи на рушницю готуйте за кілька тижнів, а для поїздок поза ЄС — раніше."
+    },
+    {
+      "k": "travel-planning-trip-kp4",
+      "en": "Arrive a day or two early; shooting times are in local time.",
+      "uk": "Приїжджайте на день-два раніше; розклад — за місцевим часом."
+    },
+    {
+      "k": "travel-planning-trip-kp5",
+      "en": "Practice before the event: in {{tm:sporting}}, away from the competition layouts; in {{tm:compak}}, on the competition targets but under a different setting table (plan of traps per station).",
+      "uk": "Тренування перед змаганням: у {{tm:sporting}} — не на змагальних майданчиках; у {{tm:compak}} — на змагальних траєкторіях, але за іншою таблицею (схемою машинок)."
+    },
+    {
+      "k": "travel-planning-trip-kp6",
+      "en": "Pack documents, insurance, ear and eye protection and clothes for the weather.",
+      "uk": "Візьміть документи, страховку, навушники, окуляри й одяг за погодою.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "travel-planning-trip-dyk2",
+    "en": "Shooting times can move during an event when there are delays. In {{tm:compak}}, the rules make following these changes the shooter's own job ({{rule:compak:ch8-shooting-times}}).",
+    "uk": "Розклад стрільби може зсуватися під час змагань, якщо є затримки. У {{tm:compak}} правила покладають на самого стрільця обов’язок стежити за цими змінами ({{rule:compak:ch8-shooting-times}})."
+  },
+  "quiz": [
+    {
+      "k": "travel-planning-trip-q1",
+      "disc": "both",
+      "q": {
+        "en": "Which statement about practice before a competition is true?",
+        "uk": "Що з цього правда про тренування перед змаганням?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In {{tm:sporting}} you may practise on the competition layouts",
+          "uk": "У {{tm:sporting}} можна тренуватися на змагальних майданчиках"
+        },
+        {
+          "k": "b",
+          "en": "In {{tm:compak}} you may not practise at all before the competition",
+          "uk": "У {{tm:compak}} перед змаганням тренуватися взагалі не можна"
+        },
+        {
+          "k": "c",
+          "en": "In {{tm:sporting}} you may practise only on other parts of the ground",
+          "uk": "У {{tm:sporting}} тренуються лише на інших майданчиках стенду"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:sporting}} the competition layouts are closed to practice, so you practise on other parts of the ground. In {{tm:compak}} you may practise on the competition target flights under a different setting table; at championships, official practice opens {{fact:training.compak-championship-practice}}.",
+        "uk": "У {{tm:sporting}} змагальні майданчики для тренувань закриті, тож тренуються на інших майданчиках стенду. У {{tm:compak}} на змагальних траєкторіях тренуватися можна, але за іншою таблицею; на чемпіонатах офіційне тренування відкривається {{fact:training.compak-championship-practice}}."
+      },
+      "rule_ref": "sporting:ch15-no-practice"
+    },
+    {
+      "k": "travel-planning-trip-q2",
+      "q": {
+        "en": "Why plan to arrive a day or two before the competition?",
+        "uk": "Навіщо планувати приїзд за день-два до змагання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To settle in, adjust to local time and practise",
+          "uk": "Щоб облаштуватися, звикнути до місцевого часу й потренуватися"
+        },
+        {
+          "k": "b",
+          "en": "To pay a smaller entry fee for arriving early",
+          "uk": "Щоб заплатити менший стартовий внесок за ранній приїзд"
+        },
+        {
+          "k": "c",
+          "en": "To choose your own squad and starting time",
+          "uk": "Щоб самому вибрати групу і час старту"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The body needs time after a long trip, and an early arrival lets you prepare calmly.",
+        "uk": "Організмові потрібен час після довгої дороги, а ранній приїзд дає змогу спокійно підготуватися."
+      }
+    },
+    {
+      "k": "travel-planning-trip-q3",
+      "q": {
+        "en": "In which time are the shooting times given?",
+        "uk": "За яким часом оголошують розклад стрільби?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In the time of your home country",
+          "uk": "За часом вашої країни"
+        },
+        {
+          "k": "b",
+          "en": "In the local time at the venue",
+          "uk": "За місцевим часом місця проведення"
+        },
+        {
+          "k": "c",
+          "en": "In UTC, the same in all countries",
+          "uk": "За UTC, однаковим для всіх країн"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The schedule is in local time, so check your phone's clock after the flight.",
+        "uk": "Розклад — за місцевим часом, тож після перельоту перевірте годинник телефону."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "3c396c70",
+    "summary": "c6e3f110",
+    "travel-planning-trip-p1": "c93a0a65",
+    "travel-planning-trip-p2": "1b85f3fa",
+    "travel-planning-trip-p3": "93b81088",
+    "travel-planning-trip-p4": "c60f44f9",
+    "travel-planning-trip-p5": "93c19ef3",
+    "travel-planning-trip-p8": "82c3eb25",
+    "travel-planning-trip-p6": "1c509a78",
+    "travel-planning-trip-p7": "bc355698",
+    "travel-planning-trip-tip": "b26ab163",
+    "travel-planning-trip-kp1": "d64c61ea",
+    "travel-planning-trip-kp2": "2e3aa923",
+    "travel-planning-trip-kp3": "8e0514ca",
+    "travel-planning-trip-kp4": "4b5a3954",
+    "travel-planning-trip-kp5": "5946202c",
+    "travel-planning-trip-kp6": "dbb1c2c7",
+    "travel-planning-trip-dyk2": "6f6b5a5c",
+    "travel-planning-trip-q1": "880026b9",
+    "travel-planning-trip-q2": "aecc4829",
+    "travel-planning-trip-q3": "ad4ffcea"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

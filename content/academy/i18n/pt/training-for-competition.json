@@ -1,0 +1,143 @@
+{
+  "id": "training-for-competition",
+  "lang": "pt",
+  "base_rev": 5,
+  "h": {
+    "title": "15f6d0f5",
+    "summary": "2e1e817a",
+    "training-for-competition-p1": "2be3e003",
+    "training-for-competition-p2": "818a1fa4",
+    "training-for-competition-p2-why": "b885b16c",
+    "training-for-competition-round": "2f2cdb37",
+    "training-for-competition-p3": "6fa2036e",
+    "training-for-competition-order": "4b2487e6",
+    "training-for-competition-p4": "2b629bad",
+    "training-for-competition-train-start": "b60eb1b8",
+    "training-for-competition-p5": "489f87b0",
+    "training-for-competition-time-it": "dcfb6fea",
+    "training-for-competition-pressure": "9a1d343a",
+    "training-for-competition-pressure-steps": "0cc980b4",
+    "training-for-competition-shoot-off": "bf65f20f",
+    "training-for-competition-fit-in": "d20c63c1",
+    "training-for-competition-no-new-kit": "796fdd5a",
+    "training-for-competition-p6": "44c51a6a",
+    "training-for-competition-practice": "cf9329ef",
+    "training-for-competition-n-coach": "8ee43684",
+    "training-for-competition-n-interpreter": "592f0e7b",
+    "training-for-competition-kp1": "c3cded19",
+    "training-for-competition-kp2": "5a904122",
+    "training-for-competition-kp3": "b70b637e",
+    "training-for-competition-kp-pressure": "87e0f74f",
+    "training-for-competition-kp5": "72fb9966",
+    "training-for-competition-dyk": "27a4b5f2",
+    "training-for-competition-q1": "a832b9bb",
+    "training-for-competition-q2": "5eb21bb6",
+    "training-for-competition-q-pressure": "e3dc29d0",
+    "training-for-competition-q3": "2586076a",
+    "training-for-competition-q-compak-time": "2e75b105"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Treino para a competição",
+  "summary": "Como trazer a competição para o treino: séries completas, a sua própria rotina, os limites de tempo da sua disciplina e uma pressão leve que cresce passo a passo.",
+  "body": {
+    "training-for-competition-p1": "Uma competição sente-se diferente: pratos novos, atiradores que não conhece, um árbitro e nervosismo. Para que isto pareça familiar, muitos treinadores sugerem fazer algumas sessões como se fossem uma competição.",
+    "training-for-competition-p2": "Atire {{term:round|séries}} completas e conte o resultado. Não peça o prato outra vez depois de o falhar, e atire os pratos pela ordem do {{term:target-menu|menu}}.",
+    "training-for-competition-p2-why": "É assim que uma competição funciona: um prato falhado não é lançado outra vez, e os pratos chegam pela ordem em que o menu os lista. O menu é a tabela que mostra que pratos atira e em que ordem.",
+    "training-for-competition-round": {
+      "sporting": "Uma série num {{term:layout|percurso}} é {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}}).",
+      "compak": "Uma série é {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
+    },
+    "training-for-competition-p3": "Use a sua {{term:pre-shot-routine|rotina pré-tiro}} em cada prato: os mesmos passos pela mesma ordem. Estudos sobre rotinas, principalmente noutros desportos, sugerem que os atletas que usam uma têm um desempenho mais consistente, também quando estão nervosos. É provável que isto se aplique também ao tiro aos pratos. Mais em {{lesson:mind-routine-under-pressure}}.",
+    "training-for-competition-order": "Fazer os passos pela mesma ordem de cada vez parece importar mais do que demorar exatamente o mesmo número de segundos. Isso convém ao tiro aos pratos, porque o tempo entre o seu pedido e o prato pode variar de prato para prato. No {{tm:sporting}} é uma pessoa que larga o prato, e o mesmo acontece no {{tm:compak}} com largada manual. As regras só definem um limite máximo para este atraso. Só um {{term:sonopull|phono-pull}} no {{tm:compak}}, um dispositivo que larga o prato quando ouve o seu pedido, mantém o atraso fixo. Os tempos exatos estão abaixo.",
+    "training-for-competition-p4": {
+      "sporting": "Antes do {{term:call|pedido}}, a arma não está à cara. O calcanhar da {{term:stock|coronha}}, o canto superior da extremidade que entra no ombro, toca no corpo. O topo da coronha fica abaixo da {{term:jacket-line|linha do colete}}. É uma linha marcada no colete ou na jaqueta {{fact:rules.sporting-jacket-line}}; o eixo dos ombros é uma linha horizontal imaginária que passa pelos dois ombros. Mantenha esta {{term:ready-position|posição de arma em baixo}} (arma em baixo, pronta a pôr à cara) até o prato ser largado e o ver ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+      "compak": "A posição da arma no pedido é livre: à cara ou não. Cada prato é atirado com a arma ao ombro. Não há linha do colete ({{rule:compak:ch17-gun-position}})."
+    },
+    "training-for-competition-train-start": "Treine a forma como cada tiro começa na sua disciplina: a posição da arma, o pedido e a espera pelo prato.",
+    "training-for-competition-p5": {
+      "sporting": "Tem {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Depois do seu pedido, o árbitro dá um sinal ao {{term:trapper|pulleur}}, a pessoa que larga os pratos. O prato sai {{fact:rules.release-within-3s}} do sinal do árbitro ({{rule:sporting:ch5-call-and-release}}).",
+      "compak": "Tem {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). O prato sai {{fact:rules.release-within-3s}} do pedido com largada manual, ou {{fact:rules.sonopull-delay}} depois com um phono-pull (largada por voz) ({{rule:compak:ch2-trigger-manual}})."
+    },
+    "training-for-competition-time-it": "Cronometre a sua rotina no treino: deve encaixar no {{term:firing-time|limite de tempo}} sem pressa. Se os pratos forem largados à mão, peça ao pulleur para variar um pouco o atraso, para aprender a ficar pronto enquanto espera. Mais sobre as regras: {{lesson:rules-call-and-time}}.",
+    "training-for-competition-pressure": "Adicione pressão leve, passo a passo: um resultado que conta, alguém a observar, uma pequena aposta. A investigação sobre o treino sob pressão sugere que quem treina sob pressão leve costuma manter a competência quando a pressão é real. Os estudos vêm de outros desportos e tarefas, por isso é provável que isto se aplique também ao tiro aos pratos.",
+    "training-for-competition-pressure-steps": [
+      "Cinco seguidos: escolha um prato e continue com ele até partir cinco seguidos; um erro recomeça a contagem.",
+      "Uma série de teste: uma série completa com resultado, pela ordem do menu, sem pratos repetidos e com o limite de tempo da sua disciplina.",
+      "Um público: peça a um amigo para observar, fazer de árbitro e anunciar os resultados em voz alta.",
+      "Uma pequena aposta: um jogo amigável em que, por exemplo, quem perde paga o café.",
+      "Um exercício de {{term:shoot-off|desempate}}. Um desempate é o tiro extra que decide um empate. Depois de uma série, com pouco aviso prévio, atire mais uma série completa e, se quiser, uma série de {{term:sudden-death|morte súbita}} que termina no primeiro erro."
+    ],
+    "training-for-competition-shoot-off": "Um desempate real só se realiza para os três primeiros lugares. Nas duas disciplinas são 25 pratos e, se os atiradores continuarem empatados, morte súbita: quem falhar primeiro fica eliminado ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
+    "training-for-competition-fit-in": "Como encaixar isto no treino normal. Muitos treinadores reservam o trabalho de técnica para a primeira parte de uma sessão e acrescentam uma tarefa de pressão perto do fim, uma ou duas vezes por semana. Enquanto está a aprender um movimento novo, deixe a pressão de lado até ele se sentir assente. Se a técnica se desfizer, torne a tarefa mais fácil em vez de insistir.",
+    "training-for-competition-no-new-kit": "Uma competição é um mau sítio para experiências. Teste primeiro um {{term:choke|choke}}, cartuchos ou uma lente novos no treino.",
+    "training-for-competition-p6": "Acorde o plano com antecedência. {{term:coaching|Dar instruções}} a um competidor durante uma competição não é permitido em nenhuma das disciplinas. Se o {{term:referee|árbitro}} decidir que há instruções a serem dadas, o atirador recebe um {{term:yellow-card|cartão amarelo}}, e quem dá as instruções é retirado da zona de tiro ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+    "training-for-competition-practice": {
+      "sporting": "Antes da prova, ninguém pode treinar nos percursos da competição, por isso treine noutros ({{rule:sporting:ch15-no-practice}}).",
+      "compak": "Antes da prova, pode treinar nas trajetórias da competição, mas com uma {{term:trajectory-setting-table|grelha de tiro}} diferente: um menu já preparado que indica quais as máquinas que lançam os pratos em cada posto. Assim, durante o {{term:practice|treino}} vê os mesmos pratos, mas em combinações diferentes das do dia ({{rule:compak:ch6-practice}}). Nos campeonatos continentais e mundiais, o treino oficial abre {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+    }
+  },
+  "note": {
+    "training-for-competition-n-coach": "Aumente a pressão só tão rápido quanto a técnica do atirador aguentar. Se o pôr a arma à cara ou o ritmo mudarem, volte a uma tarefa mais fácil. Antes da prova, acorde o plano; durante ela não pode dar instruções.",
+    "training-for-competition-n-interpreter": "Durante uma competição, transmita apenas o que o árbitro e os oficiais dizem. Traduzir as dicas de um treinador a um atirador pode contar como dar instruções."
+  },
+  "phrases": {},
+  "key_points": {
+    "training-for-competition-kp1": "Faça algumas sessões como uma competição: séries completas, resultado e sem pratos repetidos",
+    "training-for-competition-kp2": "A mesma rotina em cada prato, cronometrada contra o limite da sua disciplina",
+    "training-for-competition-kp3": "{{tm:sporting}}: arma em baixo, coronha abaixo da linha do colete até o prato aparecer; {{tm:compak}}: posição da arma livre",
+    "training-for-competition-kp-pressure": "Acrescente pressão leve passo a passo, uma ou duas vezes por semana",
+    "training-for-competition-kp5": "Sem instruções durante uma competição: acorde o plano antes do início"
+  },
+  "did_you_know": "Muitos atiradores usam pequenas competições locais como treino: praticam a sua rotina e descobrem que pratos se desfazem sob pressão.",
+  "quiz": {
+    "training-for-competition-q1": {
+      "q": "No {{tm:sporting}}, quanto tempo tem entre pratos simples?",
+      "options": {
+        "a": "No máximo 15 segundos",
+        "b": "No máximo 60 segundos",
+        "c": "O tempo que precisar"
+      },
+      "explain": "Exceder o limite dá primeiro uma advertência, depois penalizações. No {{tm:compak}} tem no máximo 10 segundos para pedir o prato."
+    },
+    "training-for-competition-q2": {
+      "q": "Em que disciplina é que a coronha tem de ficar abaixo da linha do colete até o prato aparecer?",
+      "options": {
+        "a": "Nas duas disciplinas",
+        "b": "Só no {{tm:sporting}}",
+        "c": "Só no {{tm:compak}}"
+      },
+      "explain": "No {{tm:compak}} a posição da arma no pedido é livre, e não há linha do colete."
+    },
+    "training-for-competition-q-pressure": {
+      "q": "Como é que os estudos sugerem acrescentar pressão ao treino?",
+      "options": {
+        "a": "O máximo possível desde a primeira sessão",
+        "b": "Só na semana antes da competição",
+        "c": "Leve ao início, crescendo depois passo a passo"
+      },
+      "explain": "Uma pressão leve que cresce lentamente deixa a técnica aguentar-se enquanto se vai habituando."
+    },
+    "training-for-competition-q3": {
+      "q": "Pode um treinador dar conselhos a um atirador durante uma competição?",
+      "options": {
+        "a": "Sim, mas só entre os postos",
+        "b": "Sim, mas só com sinais de mão",
+        "c": "Não: o atirador pode receber um cartão amarelo"
+      },
+      "explain": "Dar instruções durante uma competição não é permitido em nenhuma das disciplinas, por isso o plano é acordado com antecedência."
+    },
+    "training-for-competition-q-compak-time": {
+      "q": "No {{tm:compak}}, quanto tempo tem para pedir o prato depois do tiro no posto anterior?",
+      "options": {
+        "a": "No máximo 10 segundos",
+        "b": "No máximo 30 segundos",
+        "c": "Não há limite"
+      },
+      "explain": "A primeira vez que excede o limite recebe uma advertência, registada na folha de marcação; se acontecer outra vez na mesma série, é penalizado."
+    }
+  }
+}

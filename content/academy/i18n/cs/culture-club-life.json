@@ -1,0 +1,80 @@
+{
+  "id": "culture-club-life",
+  "lang": "cs",
+  "base_rev": 3,
+  "h": {
+    "title": "19b66d19",
+    "summary": "d9952b7d",
+    "culture-club-life-p1": "0c5df033",
+    "culture-club-life-p2": "34451808",
+    "culture-club-life-p3": "7a277e58",
+    "culture-club-life-briefing": "6356bd3b",
+    "culture-club-life-p4": "e385e996",
+    "culture-club-life-p5": "f7c85d7d",
+    "culture-club-life-tip": "bef0a267",
+    "culture-club-life-kp1": "fe2250a4",
+    "culture-club-life-kp2": "8fe84e6f",
+    "culture-club-life-kp-briefing": "2cb93401",
+    "culture-club-life-kp3": "efa14fca",
+    "culture-club-life-kp4": "9b63aaa6",
+    "culture-club-life-dyk": "1aa8d9ba",
+    "culture-club-life-q1": "a753457d",
+    "culture-club-life-q2": "b916438f",
+    "culture-club-life-q3": "388f6a94"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Klubní život a dobrovolnictví",
+  "summary": "Klub je srdcem sportu. Jak se zapojit, jak pomáhat na soutěžích jako dobrovolník a proč jsou dobrovolníci tak důležití.",
+  "body": {
+    "culture-club-life-p1": "Mnoho střelců začíná v klubu. Klub je místo pro trénink, ale i společenství. Lidé si tu radí, jezdí společně na soutěže, slaví výhry a podporují se po neúspěšném dni.",
+    "culture-club-life-p2": "Kluby pořádají vlastní akce – od přátelských víkendových závodů po kola národního mistrovství. {{term:national-federation|Národní federace}} může klubu svěřit i pořádání mezinárodní soutěže, ale odpovědnost zůstává na federaci. A za vším tím stojí lidé.",
+    "culture-club-life-p3": "Dobrovolníci na soutěži udělají hodně práce. Registrují střelce, plní {{term:trap|vrhačky}} terči, pomáhají s parkováním a jídlem, fotí pro klub a sbírají nábojnice a střepy terčů. Někteří pomáhají s {{term:score-sheet|protokoly}}, kde to pravidla dovolují, vždy pod dohledem {{term:referee|rozhodčího}}.",
+    "culture-club-life-briefing": "Některé role, například práce {{term:trapper|obsluhy vrhačky}} vedle vrhačky, začínají instruktáží o bezpečnosti. Noste {{term:hearing-protection|chrániče sluchu}} a {{term:safety-glasses|střelecké brýle}} a řiďte se pokyny střelnice.",
+    "culture-club-life-p4": "Chcete se zapojit? Zeptejte se v klubu, kdo potřebuje pomoc. Dobrovolnictví je dobrý způsob, jak poznat lidi a vidět, jak soutěž funguje zevnitř. Je to i dobrý první krok k rozhodování nebo k roli {{term:organiser|organizátora}}: {{lesson:nextstep-becoming-referee}}.",
+    "culture-club-life-p5": "Dobrý člen klubu dodržuje pravidla střelnice, platí příspěvky včas, pomáhá začátečníkům a zapojuje se do dnů úklidu. Jedna z nejmilejších věcí, které můžete udělat pro nováčka, je ukázat mu bezpečnostní pravidla a pozvat ho, aby střílel s vámi.",
+    "culture-club-life-tip": "Uvažujete, že sami uspořádáte závod? Krok za krokem: {{lesson:nextstep-club-shoot-and-volunteering}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "culture-club-life-kp1": "Klub je společenství, ne jen místo pro trénink.",
+    "culture-club-life-kp2": "Soutěže se spoléhají na dobrovolníky.",
+    "culture-club-life-kp-briefing": "Práce u vrhačky začíná instruktáží o bezpečnosti, chrániči sluchu a brýlemi.",
+    "culture-club-life-kp3": "Dobrovolnictví je dobrý první krok k rozhodování nebo organizování soutěží.",
+    "culture-club-life-kp4": "Pomáhejte začátečníkům a dodržujte pravidla střelnice."
+  },
+  "did_you_know": "Na velké soutěži může za den vyletět desítky tisíc terčů a každý z nich musí někdo naložit do vrhačky.",
+  "quiz": {
+    "culture-club-life-q1": {
+      "q": "Kdo vede kartu výsledků v {{tm:sporting}}?",
+      "options": {
+        "a": "Kterýkoli střelec, bez dohledu",
+        "b": "Rozhodčí, nebo pomocník pod jeho dohledem",
+        "c": "Jen střelec, který právě střílí"
+      },
+      "explain": "V {{tm:sporting}} vyplňuje kartu rozhodčí, nebo si vybere někoho, kdo to dělá pod jeho dohledem."
+    },
+    "culture-club-life-q2": {
+      "q": "Jaký je dobrý první krok k tomu stát se rozhodčím?",
+      "options": {
+        "a": "Koupit si rozhodčí kartu online, bez zkoušky",
+        "b": "Vyhrát klubový závod a pak se nabídnout jako rozhodčí",
+        "c": "Pomáhat na klubových závodech a pak absolvovat kurz"
+      },
+      "explain": "Pomoc na klubových závodech vám ukáže práci zevnitř. Pak kurz a zkouška u vaší federace vedou k rozhodčímu certifikátu."
+    },
+    "culture-club-life-q3": {
+      "q": "Může federace svěřit klubu pořádání soutěže?",
+      "options": {
+        "a": "Ano, ale odpovědnost zůstává na federaci",
+        "b": "Ne, soutěže může pořádat jen FITASC",
+        "c": "Ano, a pak za to nikdo neodpovídá"
+      },
+      "explain": "Federace může pořádání akce svěřit klubu, ale sama zůstává odpovědná za dodržování pravidel."
+    }
+  }
+}

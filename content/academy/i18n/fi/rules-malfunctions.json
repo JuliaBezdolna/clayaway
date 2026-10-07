@@ -1,0 +1,239 @@
+{
+ "id": "rules-malfunctions",
+ "lang": "fi",
+ "base_rev": 1,
+ "h": {
+  "title": "42ad182b",
+  "summary": "9f55921b",
+  "sporting-malfunctions-p1": "41a008e3",
+  "sporting-malfunctions-p2": "d3532cc1",
+  "safety-malfunction-p3": "21d65653",
+  "rules-malfunctions-cmp1": "f79b0f17",
+  "sporting-malfunctions-p4": "4eef43d0",
+  "sporting-malfunctions-p5": "1a92fd88",
+  "compak-malfunctions-p3": "a9c8fd76",
+  "compak-malfunctions-p4": "a0165b36",
+  "compak-malfunctions-p5": "6c9dff80",
+  "rules-malfunctions-p7": "b2c06d3e",
+  "rules-malfunctions-n1": "0b3b256f",
+  "sporting-malfunctions-ph1": "c9bdfb88",
+  "sporting-malfunctions-ph2": "af62cc6a",
+  "sporting-malfunctions-ph3": "b1131f9c",
+  "sporting-malfunctions-ph4": "57b5468e",
+  "compak-malfunctions-ph1": "970afde6",
+  "compak-malfunctions-ph2": "b20b6941",
+  "compak-malfunctions-ph3": "4503ddd1",
+  "compak-malfunctions-ph4": "8cf9d336",
+  "sporting-malfunctions-kp1": "849f2ecd",
+  "sporting-malfunctions-kp2": "ebfb6f3d",
+  "compak-malfunctions-kp1": "13690047",
+  "sporting-malfunctions-kp4": "103b47fd",
+  "rules-malfunctions-kp5": "86bbb46b",
+  "safety-malfunction-dyk": "1e8c958c",
+  "rules-malfunctions-q1": "a05aaec5",
+  "rules-malfunctions-q2": "516fa443",
+  "rules-malfunctions-q3": "99323093",
+  "safety-malfunction-q1": "a94af216",
+  "safety-malfunction-q2": "016e7972",
+  "safety-malfunction-q3": "9d5fedce",
+  "competitions-scoring-basics-q2": "90ddf735",
+  "sporting-malfunctions-q1": "332f9baa",
+  "sporting-malfunctions-q2": "4028e248",
+  "sporting-malfunctions-q3": "772d233e",
+  "compak-malfunctions-q1": "8716abe3",
+  "compak-malfunctions-q2": "6d7c5bb8",
+  "compak-malfunctions-q3": "33252bbe"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Aseen tai patruunan häiriöt",
+ "summary": "Mitä tehdä, kun ase ei laukea, ja miten häiriö pisteytetään {{tm:sporting}}- ja {{tm:compak}}-lajeissa.",
+ "body": {
+  "sporting-malfunctions-p1": "{{term:malfunction|Asehäiriö}} on aseen tai patruunan toimintahäiriö: patruuna ei laukea, toinen piippu ei toimi, tai molemmat piiput laukeavat samanaikaisesti ({{term:double-discharge|double discharge}}).",
+  "sporting-malfunctions-p2": "Ensin se, mitä ampujan täytyy tehdä: pysy paikallasi, ase osoittaen radalle. Älä avaa sitä tai koske {{term:safety-catch|varmistimeen}}, ennen kuin tuomari on tarkastanut sen. Aseen avaaminen tai varmistimeen koskeminen ensin tarkoittaa, että kiekko tai kiekot merkitään nolliksi. Älä yritä purkaa latautunutta asetta ampumapaikalla.",
+  "safety-malfunction-p3": "Miksi asetta ei avata heti? Toisinaan patruuna laukeaa myöhässä, hetken murto-osan tai pidempään liipaisimen vetämisen jälkeen: {{term:hang-fire|hitaasti laukeava patruuna}}. Jos ase on sillä hetkellä auki tai suunnattu sivulle, se on vaarallista. Niin harjoituksissa ilman tuomaria odota asetta turvallisesti suunnattuna ennen kuin avaat sen; valmentajasi tai radan säännöt kertovat, kuinka pitkään.",
+  "rules-malfunctions-cmp1": {
+   "sporting": "Per {{term:round|kierros}} {{fact:rules.round-targets}}. Ensimmäinen tapaus on uusi kiekko varoituksen kanssa, ja kiekko uusitaan. Toisesta kerrasta kiekkoa ei uusita, vaan se merkitään nollaksi.",
+   "compak": "Per {{fact:rules.round-targets}} kierros. Ensimmäinen tapaus on uusi kiekko {{term:yellow-card|keltaisen kortin}} kanssa. Toinen samanlainen tuo {{term:red-card|punaisen kortin}}, ja ampumatta jääneet kiekot ovat nollia."
+  },
+  "sporting-malfunctions-p4": "Ensimmäinen häiriösi kierroksella, tapaus tapaukselta. (1) Ensimmäinen laukaus ei lähde: ammut yksittäiskiekon tai kaksoiskiekon uudelleen. Jos ammuit silti toisen laukauksen, se tulos jää voimaan. (2) Yksittäiskiekossa toinen laukaus ei lähde: ammut sen uudelleen, ja uusinnassa vain toisella laukauksella saatu osuma lasketaan. Niin osu tahallaan ohi ensimmäisellä laukauksella. (3) Molemmat piiput laukeavat yhtä aikaa yksittäiskiekossa, tai kaksoiskiekon ensimmäisessä kiekossa: uusi kiekko, mitään ei kirjata, ja ammut uudelleen. Miten kukin kaksoiskiekon laji uusitaan, kerrotaan säännöt-oppaassa ({{rule:sporting:ch6-malfunction-second-shot}}).",
+  "sporting-malfunctions-p5": "Jos aseesi korjataan, ennen kuin erä on ampunut paikan loppuun, saat ampua paikan viimeisenä, tuomarin luvalla. Jos sitä ei voi korjata, saat vaihtaa toiseen aseeseen heti, tuomarin suostumuksella, tai ampua loppuun myöhemmin toisessa erässä, jos jury sallii. Häiriötä lukuun ottamatta asetta, supistajaa tai piippuja ei saa vaihtaa, kun olet ampumapaikalla.",
+  "compak-malfunctions-p3": "Ensimmäinen häiriösi kierroksella. Jos molemmat piiput laukeavat yhtä aikaa tai ensimmäinen patruuna ei laukea, yksittäiskiekko tai kaksoiskiekko heitetään uudelleen, eikä epäonnistuneesta yrityksestä merkitä mitään. Jos toinen patruuna ei laukea yksittäiskiekossa, kiekko heitetään uudelleen, mutta vain toinen laukaus voi tuoda osuman. Niin osu tahallaan ohi ensimmäisellä laukauksella. Kaksoiskiekoista kerrotaan säännöt-oppaassa ({{rule:compak:ch20-gun-failure-second-shot}}).",
+  "compak-malfunctions-p4": "Häiriön jälkeen sinulla on {{fact:rules.compak-repair-time}} aikaa saada ase toimimaan tai vaihtaa se. Poikkeuksena saat lainata aseen joltakulta oman eräsi tai ryhmäsi ulkopuolelta, omistajan ja tuomarin suostumuksella. Jos toimivaa asetta ei ole, jäljellä olevat kiekot ovat nollia. Muuten asetta, supistajaa tai piippuja ei saa vaihtaa kierroksen aikana.",
+  "compak-malfunctions-p5": "{{term:rabbit|Jäniskiekko}} on kiekko, joka vierii maata pitkin. Molemmissa lajeissa, jos osut siihen ohi ensimmäisellä laukauksella ja se sitten rikkoutuu itsestään ennen toista laukaustasi, se on uusi kiekko. Näin voi käydä, kun se osuu kiveen. Uusinnassa lasketaan vain toinen laukaus, kuten toisen laukauksen häiriön jälkeen.",
+  "rules-malfunctions-p7": "Tarkista aseesi ja patruunasi ennen kierrosta, klubitalon lähellä olevalla {{term:gun-test|koelaukauspaikalla}}, jos sellainen on. Koelaukaukset ampumapaikalla eivät ole sallittuja kummassakaan lajissa."
+ },
+ "note": {
+  "rules-malfunctions-n1": "Välitä tuomarin sanat heti ja sana sanasta: ”pysy siinä, älä avaa asetta”. Selitä syyt vasta tarkastuksen jälkeen."
+ },
+ "phrases": {
+  "sporting-malfunctions-ph1": {
+   "meaning": "Tuomari: odota tarkastusta; jos avaat ensin, menetät kiekon.",
+   "say": "Pysy siinä, älä avaa asetta."
+  },
+  "sporting-malfunctions-ph2": {
+   "meaning": "Tuomari tarkastaa aseen tai patruunan.",
+   "say": "Näytä minulle ase."
+  },
+  "sporting-malfunctions-ph3": {
+   "meaning": "Kierroksen ensimmäinen häiriö: kiekko uusitaan.",
+   "say": "Häiriö. No Bird, ensimmäinen varoitus."
+  },
+  "sporting-malfunctions-ph4": {
+   "meaning": "Tällä kertaa ei uusintaa; kiekko on menetetty.",
+   "say": "Toinen häiriö tällä kierroksella. Nolla."
+  },
+  "compak-malfunctions-ph1": {
+   "meaning": "Tuomari: odota tarkastusta häiriön jälkeen.",
+   "say": "Älä liiku, pidä ase kiinni."
+  },
+  "compak-malfunctions-ph2": {
+   "meaning": "Kierroksen ensimmäinen tämäntyyppinen häiriö; kiekko heitetään uudelleen.",
+   "say": "Ensimmäinen häiriö. Keltainen kortti, No Bird."
+  },
+  "compak-malfunctions-ph3": {
+   "meaning": "Aika aseen korjaamiseen tai vaihtamiseen.",
+   "say": "Sinulla on kaksi minuuttia."
+  },
+  "compak-malfunctions-ph4": {
+   "meaning": "Uusinta toisen patruunan häiriön jälkeen: ammu ensimmäinen laukaus tahallaan ohi.",
+   "say": "Tässä lasketaan vain toinen laukaus."
+  }
+ },
+ "key_points": {
+  "sporting-malfunctions-kp1": "Häiriön jälkeen pysy paikallasi, ase suljettuna ja osoittaen radalle; avaaminen ennen tuomarin tarkastusta maksaa kiekon.",
+  "sporting-malfunctions-kp2": "Kierroksen ensimmäinen tapaus: uusi kiekko ja varoitus ({{tm:compak}}-lajissa keltainen kortti).",
+  "compak-malfunctions-kp1": "Toinen tapaus samalla kierroksella: ei uusintaa. {{tm:sporting}}-lajissa kiekko on nolla. {{tm:compak}}-lajissa toinen samanlainen tapaus tuo punaisen kortin, ja ampumatta jääneet kiekot ovat nollia.",
+  "sporting-malfunctions-kp4": "Toisen laukauksen häiriö yksittäiskiekossa: uusinnassa lasketaan vain toisella laukauksella saatu osuma.",
+  "rules-malfunctions-kp5": "{{tm:compak}}: {{fact:rules.compak-repair-time}} aseen korjaamiseen tai vaihtamiseen."
+ },
+ "quiz": {
+  "rules-malfunctions-q1": {
+   "q": "Patruunasi ei laukea. Mitä teet ensin?",
+   "options": {
+    "a": "Avaat aseen ja tarkistat patruunan",
+    "b": "Lataat heti uudelleen ja pyydät kiekkoa",
+    "c": "Pysyt paikallasi, ase suljettuna, ja odotat tuomaria"
+   },
+   "explain": "Aseen avaaminen tai varmistimeen koskeminen ennen tuomarin tarkastusta tarkoittaa, että kiekko merkitään nollaksi."
+  },
+  "rules-malfunctions-q2": {
+   "q": "{{tm:sporting}}-lajissa toinen asehäiriö tapahtuu samalla kierroksella, yksittäiskiekossa. Mikä on tulos?",
+   "options": {
+    "a": "Nolla",
+    "b": "Uusi kiekko",
+    "c": "Osuma"
+   },
+   "explain": "Vain kierroksen ensimmäinen häiriö on uusi kiekko; toisesta kiekko merkitään nollaksi."
+  },
+  "rules-malfunctions-q3": {
+   "q": "Kuinka paljon aikaa sinulla on {{tm:compak}}-lajissa aseen korjaamiseen tai vaihtamiseen?",
+   "options": {
+    "a": "30 sekuntia",
+    "b": "2 minuuttia",
+    "c": "10 minuuttia"
+   },
+   "explain": "Sinulla on {{fact:rules.compak-repair-time}}; jos toimivaa asetta ei ole, ampumatta jääneet kiekot ovat nollia."
+  },
+  "safety-malfunction-q1": {
+   "q": "Harjoituksissa, ilman tuomaria, aseesi naksahtaa, mutta ei laukea. Mitä pitäisi tehdä?",
+   "options": {
+    "a": "Avata se heti ja katsoa",
+    "b": "Pitää se turvallisesti suunnattuna ja odottaa ennen avaamista",
+    "c": "Kääntyä ja näyttää se valmentajalle"
+   },
+   "explain": "Patruuna voi laueta myöhässä (hang fire), niin pidä piipun suu turvallisessa suunnassa ja odota ennen aseen avaamista. Valmentajasi tai radan säännöt kertovat, kuinka pitkään."
+  },
+  "safety-malfunction-q2": {
+   "q": "Patruunan laukeamattomuuden jälkeen työnnät varmistimen päälle ennen kuin tuomari on katsonut asetta. Mitä tapahtuu?",
+   "options": {
+    "a": "Kiekko merkitään nollaksi",
+    "b": "Saat lisäkiekon",
+    "c": "Ei mitään: ase on turvallisempi"
+   },
+   "explain": "Varmistimeen koskeminen ennen tuomarin tarkastusta maksaa kiekon, aivan kuten aseen avaaminen. Odota, ase radalle päin."
+  },
+  "safety-malfunction-q3": {
+   "q": "Miksi laukeamattomaksi jäänyttä asetta ei avata heti?",
+   "options": {
+    "a": "Ettei patruuna likaannu",
+    "b": "Koska patruuna voi laueta myöhässä",
+    "c": "Koska se näyttää paremmalta"
+   },
+   "explain": "Myöhässä laukeava patruuna on harvinainen, mutta vaarallinen, niin aseen täytyy pysyä suunnattuna turvalliseen suuntaan."
+  },
+  "competitions-scoring-basics-q2": {
+   "q": "{{tm:sporting}}: aseesi pettää ampumapaikalla (ensimmäinen tapaus), ja se korjataan, kun eräsi ampuu vielä sitä paikkaa. Mitä saat tehdä?",
+   "options": {
+    "a": "Ampua paikan viimeisenä, jos tuomari sallii",
+    "b": "Ei mitään: jäljellä olevat kiekot ovat nollia",
+    "c": "Ampua sen seuraavana päivänä"
+   },
+   "explain": "Jos ase korjataan, ennen kuin erä on ampunut paikan loppuun, saat ampua sen viimeisenä, tuomarin luvalla."
+  },
+  "sporting-malfunctions-q1": {
+   "q": "Kierroksen ensimmäinen aseongelma: yksittäiskiekossa ensimmäinen patruuna ei laukea. Ampuja odottaa tuomaria, ase radalle päin. Ratkaisu?",
+   "options": {
+    "a": "Nolla",
+    "b": "Uusi kiekko ja varoitus",
+    "c": "Osuma",
+    "d": "Keltainen kortti ja nolla"
+   },
+   "explain": "Kierroksen ensimmäinen ase- tai patruunahäiriö on uusi kiekko ja varoitus, ja yksittäiskiekko uusitaan."
+  },
+  "sporting-malfunctions-q2": {
+   "q": "Patruuna ei laukea, ja ärtynyt ampuja taittaa aseen auki katsoakseen nallia ennen tuomarin tuloa. Ratkaisu?",
+   "options": {
+    "a": "No Bird",
+    "b": "Kiekko uusitaan varoituksen jälkeen",
+    "c": "Nolla",
+    "d": "Punainen kortti, ja kiekko uusitaan"
+   },
+   "explain": "Aseen avaaminen tai varmistimeen koskeminen ennen tuomarin tarkastusta tarkoittaa, että kiekko merkitään nollaksi."
+  },
+  "sporting-malfunctions-q3": {
+   "q": "Yksittäiskiekko, ensimmäinen tapaus: ensimmäinen laukaus osuu ohi, ja toinen patruuna ei laukea, niin kiekko uusitaan. Uusinnassa ampuja rikkoo sen ensimmäisellä laukauksella. Ratkaisu?",
+   "options": {
+    "a": "Osuma",
+    "b": "Uusi kiekko taas",
+    "c": "Osuma ja varoitus",
+    "d": "Nolla"
+   },
+   "explain": "Toisen laukauksen häiriön jälkeen uusitun yksittäiskiekon saa rikkoa vain toisella laukauksella, niin ensimmäinen laukaus täytyy ampua tahallaan ohi."
+  },
+  "compak-malfunctions-q1": {
+   "q": "Kierroksen ensimmäinen tapaus {{tm:compak}}-lajissa: ensimmäinen patruuna ei laukea yksittäiskiekossa. Ampuja odottaa oikein. Ratkaisu?",
+   "options": {
+    "a": "Uusi kiekko ja keltainen kortti",
+    "b": "Nolla, ei uusintaa",
+    "c": "Punainen kortti ja nolla",
+    "d": "Osuma, laukaus lasketaan"
+   },
+   "explain": "Kierroksen ensimmäinen ase- tai patruunatapaus on uusi kiekko, ja ensimmäinen varoitus näytetään keltaisella kortilla."
+  },
+  "compak-malfunctions-q2": {
+   "q": "Ampujan ase hajoaa, ja hän haluaa lainata erätoverinsa asetta. Onko se sallittua?",
+   "options": {
+    "a": "Kyllä, omistajan suostumuksella",
+    "b": "Kyllä, jos tuomari suostuu",
+    "c": "Kyllä, ehdoitta",
+    "d": "Ei: lainaajan täytyy olla erän ulkopuolelta"
+   },
+   "explain": "{{tm:compak}} kieltää aseen yhteiskäytön ryhmän sisällä. Poikkeuksellinen lainaus on mahdollinen vain ryhmän ulkopuolelta, omistajan ja tuomarin suostumuksella."
+  },
+  "compak-malfunctions-q3": {
+   "q": "Toinen samantyyppinen asehäiriö tällä kierroksella yksittäiskiekossa, johon ampuja ei voinut ampua. Ratkaisu?",
+   "options": {
+    "a": "Taas No Bird",
+    "b": "No Bird ja varoitus",
+    "c": "Nolla ja punainen kortti",
+    "d": "Kiekko näytetään uudelleen"
+   },
+   "explain": "Toisesta samantyyppisestä häiriöstä alkaen ampumatta jääneet kiekot merkitään nolliksi."
+  }
+ },
+ "did_you_know": "Osa alun ”häiriöistä” on yksinkertaisesti varmistin, joka on jäänyt päälle. Valmentaja voi opettaa tarkistamaan sen ennen komentoa."
+}

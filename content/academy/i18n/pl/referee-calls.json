@@ -1,0 +1,113 @@
+{
+  "id": "referee-calls",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "pl-wave-2026-10"
+  },
+  "title": "Co mówi sędzia na stanowisku",
+  "summary": "Krótkie słowa stanowiska: komenda, ładowanie i otwarta broń, „one”, „zero” i „No Bird”, a także formalne słowo strzelca na protest.",
+  "body": {
+    "referee-calls-p1": "Stanowisko ma swój krótki język. Gdy jest gotowy, strzelec podaje {{term:call|komendę}}, zwykle „Pull!” albo „Ready!”. W {{tm:sporting}} {{term:referee|sędzia}} przekazuje komendę {{term:trapper|operatorowi wyrzutni}} sygnałem dźwiękowym. Rzutek musi wylecieć {{fact:rules.release-within-3s}} od tego sygnału; późniejszy rzutek to {{term:no-bird|No Bird}}. W {{tm:compak}} ręczne zwolnienie też musi nastąpić {{fact:rules.release-within-3s}} od komendy. Zwolnienie głosowe ({{term:sonopull|sonopull}} — mikrofon, który wypuszcza rzutek, gdy usłyszy waszą komendę) ma stałe opóźnienie {{fact:rules.sonopull-delay}}.",
+    "referee-calls-p2": "Przed rozpoczęciem strzelania sędzia decyduje, kiedy można nabijać i zamykać broń. Przepisy dopuszczają {{term:loading|ładowanie}} tylko na stanowisku, lufami w stronę pola, po tym jak sędzia powiedział, że strzelanie może się zacząć. W czasie {{term:target-presentation|pokazu rzutków}} i w każdej przerwie broń jest otwarta i rozładowana. Zamyka się ją znowu tylko za zgodą sędziego. W {{tm:compak}} sędzia zaczyna rundę słowami „Start” albo „Competition”.",
+    "referee-calls-p3": "Po każdym rzutku przepisy znają tylko trzy wyniki: „{{term:one|one}}” (trafiony), „{{term:zero|zero}}” (chybiony) i „No Bird” (rzutek nie liczy się i wyrzuca się go ponownie). Na strzelnicy usłyszycie też „dead” albo „good” przy trafieniu i „lost” przy niewypale; niektórzy sędziowie po trafieniu nie mówią nic. W {{tm:compak}} sędzia ogłasza każde zero na głos albo sygnałem dźwiękowym, żeby niezgadzający się strzelec mógł natychmiast zgłosić protest.",
+    "referee-calls-p4": "Strzelec też ma swoje formalne słowo. Żeby nie zgodzić się z decyzją, natychmiast, na stanowisku, podnieście rękę i powiedzcie „{{term:protest|Protest!}}” albo „{{term:appeal|Appeal!}}” ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Więcej zwrotów, których potrzebuje strzelec: {{lesson:stand-talk-shooter-phrases}}."
+  },
+  "note": {
+    "referee-calls-n1": "Trzymajcie te komendy krótkie i każdy raz takie same. Przed rundą uzgodnijcie ze swoim strzelcem, jakich słów będziecie używać. Nie dodawajcie nic od siebie między komendą a strzałem."
+  },
+  "phrases": {
+    "referee-calls-ph1": {
+      "meaning": "Sędzia pozwala zacząć strzelanie: nabijajcie teraz, lufy w stronę pola.",
+      "say": "Można ładować."
+    },
+    "referee-calls-ph2": {
+      "meaning": "Ten rzutek nie liczy się; nie strzelajcie do niego. Zostanie wyrzucony ponownie.",
+      "say": "No Bird — nie strzelajcie, rzutek powtórzą."
+    },
+    "referee-calls-ph3": {
+      "meaning": "Sędzia zaliczył rzutek jako niewypał (zero).",
+      "say": "Chybiony."
+    },
+    "referee-calls-ph4": {
+      "meaning": "Rzutek jest trafiony (one).",
+      "say": "Jest. Trafiony."
+    },
+    "referee-calls-ph5": {
+      "meaning": "Każdy otwiera i rozładowuje broń; sędzia wyrzuci rzutki do obejrzenia.",
+      "say": "Otwórzcie broń, proszę — pokazujemy rzutki."
+    },
+    "referee-calls-ph6": {
+      "meaning": "{{tm:compak}}: pokaz rzutków zakończony, od tej chwili runda liczy się do wyniku.",
+      "say": "Start. Idziemy do wyniku."
+    }
+  },
+  "key_points": {
+    "referee-calls-kp1": "Strzelec podaje „Pull!” albo „Ready!”; rzutek musi wylecieć w ciągu 3 sekund",
+    "referee-calls-kp2": "Ładować tylko na stanowisku i tylko za zgodą sędziego; podczas pokazu rzutków i przerw broń jest otwarta",
+    "referee-calls-kp3": "Słowa przepisów: one — trafiony, zero — chybiony, No Bird — powtórka rzutka",
+    "referee-calls-kp4": "{{tm:compak}}: każde zero ogłasza się na głos albo sygnałem dźwiękowym",
+    "referee-calls-kp5": "Protest — podniesiona ręka i „Protest!” albo „Appeal!”"
+  },
+  "did_you_know": null,
+  "quiz": {
+    "referee-calls-q1": {
+      "q": "W {{tm:sporting}} rzutek wyleciał pięć sekund po sygnale sędziego. Jaka jest decyzja sędziego?",
+      "options": {
+        "a": "Liczy się jak zwykły rzutek",
+        "b": "No Bird",
+        "c": "Zero, bo strzelec podał komendę za wcześnie",
+        "d": "Tylko ostrzeżenie dla operatora wyrzutni"
+      },
+      "explain": "Rzutek musi wylecieć w ciągu trzech sekund od sygnału sędziego; rzutek wypuszczony później to No Bird i wyrzuca się go ponownie.",
+      "rule_ref": "sporting:ch5-call-and-release"
+    },
+    "referee-calls-q2": {
+      "q": "Kiedy na zawodach strzelec może nabić broń?",
+      "options": {
+        "a": "Idąc do następnego stanowiska",
+        "b": "Za stanowiskiem, podczas czekania",
+        "c": "Na stanowisku, po zgodzie sędziego",
+        "d": "Jak tylko powie to trener"
+      },
+      "explain": "Ładowanie jest dozwolone tylko na stanowisku, lufami w stronę pola, i tylko po tym, jak sędzia powiedział, że można zacząć.",
+      "rule_ref": "sporting:ch8-loading"
+    },
+    "referee-calls-q3": {
+      "q": "Jakimi słowami zaczyna się formalny protest na stanowisku?",
+      "options": {
+        "a": "„Protest!”, z podniesioną ręką",
+        "b": "„No Bird!”, z podniesioną ręką",
+        "c": "„Sędzio, spójrz na ten rzutek!”",
+        "d": "„Czekaj!”, po następnym rzutku"
+      },
+      "explain": "Oba regulaminy wymieniają „protest” albo „appeal” z podniesioną ręką, natychmiast; „No Bird” ogłasza sędzia.",
+      "rule_ref": "sporting:ch9-how-to-appeal"
+    }
+  }
+}

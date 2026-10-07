@@ -1,0 +1,183 @@
+{
+  "id": "rules-gun-position",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "217daa8e",
+    "summary": "5f71387a",
+    "rules-gun-position-p1": "308382b7",
+    "rules-gun-position-cmp1": "95b76718",
+    "sporting-gun-position-p1": "8e9645ae",
+    "sporting-gun-position-p2": "d0d75e51",
+    "sporting-gun-position-p3": "c4416d62",
+    "rules-gun-position-p5": "408e96a9",
+    "sporting-gun-position-p4": "0a3425cb",
+    "sporting-gun-position-p5": "42345a8d",
+    "rules-gun-position-tip1": "2c6ec53c",
+    "sporting-gun-position-sim": "da39a3ee",
+    "rules-gun-position-n1": "c8357a04",
+    "sporting-gun-position-ph1": "1832c42b",
+    "sporting-gun-position-ph2": "2cf35975",
+    "sporting-gun-position-ph3": "fc05482d",
+    "sporting-gun-position-ph4": "8cfb394e",
+    "gear-protection-clothes-ph2": "75e93376",
+    "gear-protection-clothes-ph3": "6807ee7b",
+    "compak-gun-and-call-ph2": "08c2e3d7",
+    "sporting-gun-position-kp1": "825abaaa",
+    "sporting-gun-position-kp2": "b4b04213",
+    "sporting-gun-position-kp3": "ac9132d3",
+    "sporting-gun-position-kp4": "061fc1d9",
+    "rules-gun-position-kp4": "feed9af0",
+    "rules-gun-position-dyk": "71e12e41",
+    "rules-gun-position-q1": "bddb82a6",
+    "rules-gun-position-q2": "251e5a7f",
+    "rules-gun-position-q3": "3ac89e7f",
+    "sporting-gun-position-q1": "bbb625d7",
+    "sporting-gun-position-q2": "76c39e80",
+    "sporting-gun-position-q3": "a26941d8",
+    "compak-gun-and-call-q1": "f5376923",
+    "gear-protection-clothes-q2": "2223479a"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "rules-gun-position-p1": "Egy {{tm:sporting}} versenyen a lövészek leeresztett fegyverrel kérik a korongot. Ez szabály, nem stíluskérdés. A {{tm:compak}}-ban nincs ilyen szabály.",
+    "rules-gun-position-cmp1": {
+      "sporting": "Leeresztett fegyver: a tus hátsó teteje a mellényvonal alatt marad, amíg nem látod a korongot.",
+      "compak": "Szabad: a fegyver lehet már a vállban, vagy lejjebb. Nincs vonal a mellényen, de a lövés így is a vállból történik."
+    },
+    "sporting-gun-position-p1": "A {{tm:sporting}}-ban, a korong kérése előtt, mindkét lábad a {{term:shooting-stand|lőálláson}} belül van. A tus sarka (a felső hátsó szöglete, az a rész, amely a válladba kerül) érinti a testedet. A tus leghátsó, legmagasabb pontja, rendszerint maga a sarok, a mellényen lévő vonal alatt marad. Ezt a {{term:ready-position|készenléti testhelyzetet}} addig tartod, amíg a korong ki nem repült a dobógépből, és nem látod.",
+    "sporting-gun-position-p2": "A {{term:jacket-line|vonalat}} a mellényen vagy a kabáton jelölik meg, {{fact:rules.sporting-jacket-line}} (egy elképzelt vízszintes vonaltól mindkét vállon át), azzal párhuzamosan. A színe kiütő a mellényhez képest, hogy a bíró láthassa. A szabály minden tustípusra érvényes: a hagyományosra, a Monte Carlóra (emelt pofadékkal – a tus felső élével, amelyre az arcod kerül) és az {{term:adjustable-comb|állítható pofadékúra}}.",
+    "sporting-gun-position-p3": "A fegyvert csak akkor emelheted a válladhoz ({{term:gun-mount|veheted vállba}}), amikor a korong megjelenik. Minden korongot, a {{term:rabbit|nyulat}} is, vállból kell lőni; csípőből lőni nem megengedett.",
+    "rules-gun-position-p5": "Egy könnyítés: egy {{term:double|dublén}} az első és a második korong között tarthatod a fegyvert, ahogy akarod. Az első korong előtt a leeresztett helyzet továbbra is érvényes.",
+    "sporting-gun-position-p4": "Büntetések: amikor először kérsz korongot rossz helyzetben, vagy veszed vállba a fegyvert túl korán, a bíró szóbeli figyelmeztetést ad, és {{term:yellow-card|sárga lapot}} mutat. Ha ugyanazon a {{term:layout|lőpályán}} megismétlődik, {{term:red-card|piros lap}} jár: egy szóló korongot nullának értékelnek, a dublékra a szabálykönyv táblázata érvényes ({{rule:sporting:ch12-red-card}}).",
+    "sporting-gun-position-p5": "A fegyver vállba vétele és a korong kérése előtt a várt vonal mentén lendítése {{term:mock-shooting|lövés imitálása}}, és ez is tilos. Először figyelmeztetés jár. Ha megismétlődik, a következő eltalált korongot nullának értékelik.",
+    "rules-gun-position-tip1": "Ha mindkét versenyszámot lövöd, sok edző azt javasolja, hogy egy {{tm:sporting}} verseny előtt gyakorold a leeresztett fegyveres kezdést, még akkor is, ha a {{tm:compak}}-ban vállból kéred a korongot.",
+    "sporting-gun-position-sim": ""
+  },
+  "note": {
+    "rules-gun-position-n1": "Ha egy edző egy {{tm:sporting}} verseny előtt vállból indított kezdést gyakoroltat, ügyelj arra, hogy a „gyakorlat” szót is lefordítsd: ez egy gyakorlat, nem a verseny kezdete."
+  },
+  "phrases": {
+    "sporting-gun-position-ph1": {
+      "meaning": "Bíró: a korong kérése előtt vidd a tust a mellényvonal alá.",
+      "say": "Fegyvert le, kérem."
+    },
+    "sporting-gun-position-ph2": {
+      "meaning": "Az első szabálysértés a fegyver helyzetével: szóbeli figyelmeztetés sárga lappal.",
+      "say": "A tusa a vonal fölött volt. Ez figyelmeztetés."
+    },
+    "sporting-gun-position-ph3": {
+      "meaning": "A fegyvert csak akkor szabad felemelni, amikor a korong már látható.",
+      "say": "Ne vegye vállba, mielőtt a korong megjelenik."
+    },
+    "sporting-gun-position-ph4": {
+      "meaning": "Ismételt szabálysértés ugyanazon a lőpályán; a szóló korong elveszett.",
+      "say": "Piros lap, nulla."
+    },
+    "gear-protection-clothes-ph2": {
+      "meaning": "{{tm:sporting}} leeresztett fegyver szabálya: a tus a mellényvonal alatt marad, amíg a korong meg nem jelenik.",
+      "say": "A tus a vonal alatt, amíg nem látod a korongot."
+    },
+    "gear-protection-clothes-ph3": {
+      "meaning": "A {{tm:compak}}-ban nincs mellényvonal-követelmény.",
+      "say": "Itt nem kell jelölés — ez Compak."
+    },
+    "compak-gun-and-call-ph2": {
+      "meaning": "Edző: a {{tm:compak}}-ban a fegyver helyzete a korong kérésekor szabad.",
+      "say": "Itt fegyver fent vagy lent, ahogy akarod."
+    }
+  },
+  "key_points": {
+    "sporting-gun-position-kp1": "{{tm:sporting}}: a korong kérése előtt mindkét láb a lőálláson belül, a tus sarka a testeden és a mellényvonal alatt.",
+    "sporting-gun-position-kp2": "{{tm:sporting}}: a mellényvonal {{fact:rules.sporting-jacket-line}} (egy vonal mindkét vállon át), kontrasztos színben.",
+    "sporting-gun-position-kp3": "{{tm:sporting}}: vállba vétel csak a korong megjelenésekor; a fegyver helyzete csak a dublé két korongja között szabad.",
+    "sporting-gun-position-kp4": "{{tm:sporting}}: az első szabálysértés figyelmeztetést hoz sárga lappal, a következő ugyanazon a lőpályán piros lapot.",
+    "rules-gun-position-kp4": "{{tm:compak}}: a helyzet a korong kérésekor szabad, és nincs mellényvonal; a lövés így is a vállból történik."
+  },
+  "quiz": {
+    "rules-gun-position-q1": {
+      "q": "Milyen távolságra a vállak tengelyétől (egy elképzelt vonaltól mindkét vállon át) van a mellényvonal a {{tm:sporting}}-ban?",
+      "options": {
+        "a": "10 cm",
+        "b": "25 cm",
+        "c": "40 cm"
+      },
+      "explain": "A vonal {{fact:rules.sporting-jacket-line}} fut, azzal párhuzamosan."
+    },
+    "rules-gun-position-q2": {
+      "q": "Kérheted-e a korongot a {{tm:compak}}-ban már vállba vett fegyverrel?",
+      "options": {
+        "a": "Nem, a fegyvernek lent kell kezdenie",
+        "b": "Csak dublénál",
+        "c": "Igen, a helyzet szabad"
+      },
+      "explain": "A {{tm:compak}}-ban nincs leeresztett fegyver szabály és nincs mellényvonal; csak magát a lövést kell a vállból megtenni."
+    },
+    "rules-gun-position-q3": {
+      "q": "Mikor tarthatod a fegyvert a {{tm:sporting}}-ban, ahogy akarod?",
+      "options": {
+        "a": "A dublé két korongja között",
+        "b": "A dublé első korongja előtt",
+        "c": "Amíg egy nyúlra vársz"
+      },
+      "explain": "A szabad helyzet csak a dublé két korongja között megengedett; az első előtt a készenléti testhelyzet érvényes."
+    },
+    "sporting-gun-position-q1": {
+      "q": "Az első lőálláson egy lövész már vállba vett fegyverrel kéri a korongot. Ez az első ilyen szabálysértése ezen a lőpályán. Mi a bíró döntése?",
+      "options": {
+        "a": "A korongot nullának értékelik",
+        "b": "Figyelmeztetés és sárga lap",
+        "c": "No Bird, és semmi más",
+        "d": "Kizárás a versenyből"
+      },
+      "explain": "Az első fegyverhelyzet-szabálysértés szóbeli figyelmeztetés, sárga lappal megerősítve."
+    },
+    "sporting-gun-position-q2": {
+      "q": "Korábban ezen a lőpályán egy lövész sárga lapot kapott fegyverhelyzetért. Most, egy szóló korongnál, a tus a korong kérésekor a mellényvonal fölött van. Döntés?",
+      "options": {
+        "a": "Újabb sárga lap",
+        "b": "No Bird, újra lövi",
+        "c": "Piros lap, és megismétlik",
+        "d": "Piros lap és nulla"
+      },
+      "explain": "A figyelmeztetés után egy újabb szabálysértés ugyanazon a lőpályán piros lap: szóló korongnál nulla."
+    },
+    "sporting-gun-position-q3": {
+      "q": "{{tm:sporting}}. A bíró már egyszer figyelmeztette a lövészt lövés imitálásáért. A következő korong kérése előtt a lövész ismét vállba veszi a fegyvert, és a korong vonala mentén lendíti, majd eltalálja a korongot. Hogyan értékelik?",
+      "options": {
+        "a": "One, második figyelmeztetéssel",
+        "b": "Nulla",
+        "c": "No Bird, újra lövi",
+        "d": "One, büntetés nélkül"
+      },
+      "explain": "Egy első lövés imitálásáért kapott figyelmeztetés után egy megismétlés a következő eltalált korongnak kerül: azt nullának értékelik."
+    },
+    "compak-gun-and-call-q1": {
+      "q": "A {{tm:compak}}-ban egy lövész leeresztett fegyverrel kér, és amikor a nyúl megjelenik, csípőből lő, vállba vétel nélkül. Megengedett?",
+      "options": {
+        "a": "Igen, a fegyver helyzete szabad",
+        "b": "Nem, minden lövés vállból történik",
+        "c": "Igen, de csak nyúlra",
+        "d": "Csak a második lövésre"
+      },
+      "explain": "A {{tm:compak}}-ban a korong kérésekor a fegyver lehet fent vagy lent, de minden korongot vállból kell lőni."
+    },
+    "gear-protection-clothes-q2": {
+      "q": "Egy {{tm:sporting}} lövész Monte Carlo tusat használ, emelt pofadékkal. Érvényes rá a mellényvonal szabálya?",
+      "options": {
+        "a": "Igen, minden tustípusra érvényes",
+        "b": "Nem, csak a hagyományos tusakra",
+        "c": "Csak állítható pofadéknál",
+        "d": "Csak döntőkben"
+      },
+      "explain": "A szabály a hagyományos, a Monte Carlo és az állítható pofadékú tusakra is érvényes: a korong megjelenése előtt a tus hátsó teteje a mellényvonal alatt marad, amely {{fact:rules.sporting-jacket-line}} fut."
+    }
+  },
+  "title": "Fegyverhelyzet a korong megjelenése előtt",
+  "summary": "A {{tm:sporting}}-ban a tus egy, a mellényen lévő vonal alatt marad, amíg a korong meg nem jelenik. A {{tm:compak}}-ban a fegyver helyzete a korong kérésekor szabad.",
+  "did_you_know": "A leeresztett fegyveres kezdést gyakran a {{tm:sporting}} vadászati gyökereivel magyarázzák: egy vadász ritkán várja a madarat már vállba vett fegyverrel."
+}

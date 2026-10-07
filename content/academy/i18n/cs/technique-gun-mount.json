@@ -1,0 +1,134 @@
+{
+  "id": "technique-gun-mount",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "1a9423c6",
+    "summary": "0dff53c3",
+    "basics-mount-p3": "3c828d7e",
+    "technique-gun-mount-p2": "a669016b",
+    "basics-mount-p1": "320e2f63",
+    "basics-mount-p2": "552e7a83",
+    "basics-mount-p4": "3ee4e21b",
+    "technique-gun-mount-mock": "4b1942aa",
+    "technique-gun-mount-p5": "5561100e",
+    "basics-mount-ph1": "08e98f0b",
+    "basics-mount-ph2": "383cc8b0",
+    "basics-mount-ph3": "38c5cb43",
+    "basics-mount-ph4": "97ca795a",
+    "basics-mount-kp4": "ba2ac5e4",
+    "basics-mount-kp1": "f80dac2d",
+    "basics-mount-kp3": "2dfe15c1",
+    "basics-mount-kp5": "5686165d",
+    "technique-gun-mount-kp5": "ec2b65c5",
+    "technique-gun-mount-dyk": "558c3f6f",
+    "basics-mount-q1": "c3f6ce15",
+    "basics-mount-q2": "762ce7af",
+    "basics-mount-q3": "15cf4d84",
+    "technique-gun-mount-q1": "ba8d031d",
+    "technique-gun-mount-q2": "64782fe4",
+    "technique-gun-mount-q3": "8a6856dc"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Zalícení: zbraň jde k obličeji",
+  "summary": "Jak pokaždé stejně přivést zbraň k líci a rameni a čím se liší pravidla polohy zbraně v {{tm:sporting}} a {{tm:compak}}.",
+  "body": {
+    "basics-mount-p3": "{{term:gun-mount|Zalícení}} (gun mount) je pohyb, kterým se zbraň zvedá k líci a do ramene. Trenéři učí „muzzles first“ – nejdřív ústí: přední ruka rozpohybuje hlavně podél dráhy terče. Zatímco se hlavně pohybují, pažba stoupá k líci a usazuje se v ramenní jamce – měkké prohlubni mezi klíční kostí a ramenním kloubem. „Move, mount, shoot“ – pohyb, zalícení, výstřel – je jeden plynulý pohyb, ne tři oddělené kroky. Zbraň jde k obličeji, ne obličej ke zbrani. Tvář zůstává na {{term:comb|lícnici}}, horní hraně pažby. Brokovnice nemá zadní hledí: jeho roli hraje oko, a proto musí být pokaždé na stejném místě.",
+    "technique-gun-mount-p2": "Dobré zalícení je pokaždé stejné. Hlava zůstává rovná a nehybná a tvář se usazuje na {{term:comb|lícnici}} pažby. Pokud hlavu při zalícení skláníte nebo nakláníte vstříc pažbě, oko se při každé ráně ocitne jinde. Chyby zalícení a jejich nápravu najdete v lekci {{lesson:faults-mount-errors}}.",
+    "basics-mount-p1": "Ve {{tm:sporting}} se začíná se zbraní dole. Než zavoláte, botka pažby (horní roh jejího zadního konce) se dotýká těla. Zůstává pod čárou vyznačenou na vestě výraznou barvou, {{fact:rules.sporting-jacket-line}}. Tuto polohu držíte, dokud terč nevyletí a není vidět. Za dřívější zalícení dá rozhodčí ústní napomenutí se {{term:yellow-card|žlutou kartou}}. Při opakování na stejném střelišti následuje {{term:red-card|červená karta}}. Jednotlivý terč se pak hodnotí jako nula; u dvojstřelu určuje hodnocení obou terčů pravidlo ({{rule:sporting:ch12-red-card}}).",
+    "basics-mount-p2": "V {{tm:compak}} je poloha zbraně při zavolání volná, zbraň tedy může být už zalícená v rameni. V obou disciplínách se každý terč střílí se zbraní v rameni a ve {{tm:sporting}} je poloha zbraně mezi dvěma terči dvojstřelu volná.",
+    "basics-mount-p4": "Britský trenér může říct „gun up“ nebo „pre-mount this one“ – tenhle s předem zalícenou zbraní. Na soutěži FITASC {{tm:sporting}} je to zakázané, v {{tm:compak}} běžné a na tréninku jen cvičení. Zalícit zbraň a vést ji podél vymyšlené dráhy před zavoláním ({{term:mock-shooting|střelba na sucho}}) je ve {{tm:sporting}} zakázáno: nejdřív napomenutí, pak nula.",
+    "technique-gun-mount-mock": "Mimo stanoviště držte zbraň otevřenou a nemiřte jí na vymyšlené terče. V {{tm:compak}} se zalícení a vedení zbraní nesmí dělat ani ve chvíli, kdy střílí jiný člen skupiny.",
+    "technique-gun-mount-p5": "Záleží i na {{term:gun-fit|přizpůsobení pažby}}. Pažba se špatnou délkou nebo výškou lícnice ztěžuje opakovatelné zalícení; ověřit to může trenér nebo {{term:gun-fitter|specialista na přizpůsobení pažby}} ({{lesson:gun-fit}}). Nácvik zalícení doma s prázdnou, zkontrolovanou zbraní je možný jen tam, kde to dovoluje zákon vaší země, a jen tak, jak ukáže trenér ({{lesson:training-dry-mount-practice}})."
+  },
+  "note": {},
+  "phrases": {
+    "basics-mount-ph1": {
+      "meaning": "Zvedněte pažbu k tváři; nesklánějte hlavu ke zbrani.",
+      "say": "Zbraň k obličeji, ne obličej ke zbrani."
+    },
+    "basics-mount-ph2": {
+      "meaning": "Rozpohybujte hlavně s terčem, zalícíte během pohybu a vystřelte, jakmile je zalícení hotové.",
+      "say": "Nejdřív ústí – pohyb, zalícení, výstřel."
+    },
+    "basics-mount-ph3": {
+      "meaning": "Zbraň jde nahoru příliš pozdě a trhaně; přední ruka má vést pohyb dřív.",
+      "say": "Zalícujete pozdě a moc rychle – začněte přední rukou."
+    },
+    "basics-mount-ph4": {
+      "meaning": "Začněte s pažbou pod čárou na vestě, jak to vyžadují pravidla FITASC {{tm:sporting}}.",
+      "say": "Tenhle se zbraní dole, jako na závodech."
+    }
+  },
+  "key_points": {
+    "basics-mount-kp4": "Nejdřív ústí, zbraň k obličeji, tvář na lícnici: pohyb, zalícení, výstřel.",
+    "basics-mount-kp1": "{{tm:sporting}}: pažba pod čárou na vestě (25 cm pod osou ramen), dokud není terč vidět.",
+    "basics-mount-kp3": "{{tm:compak}}: volná poloha zbraně při zavolání; střílí se vždy z ramene.",
+    "basics-mount-kp5": "{{tm:sporting}}: zalícení předem je jen tréninkové cvičení; v {{tm:compak}} může být zbraň zalícená už při zavolání.",
+    "technique-gun-mount-kp5": "Přizpůsobení pažby ověřte s trenérem; doma cvičte jen tam, kde to dovoluje zákon."
+  },
+  "did_you_know": "Pravidlo čáry na vestě platí pro jakoukoli pažbu, včetně nastavitelné lícnice nebo pažby Monte Carlo (se zvýšenou lícnicí). Rozhoduje nejvyšší bod zadní části pažby.",
+  "quiz": {
+    "basics-mount-q1": {
+      "q": "Do kdy musí ve {{tm:sporting}} zůstat pažba pod čárou na vestě?",
+      "options": {
+        "a": "Dokud střelec nezavolá",
+        "b": "Dokud rozhodčí nekývne",
+        "c": "Dokud terč nevyletí a není vidět",
+        "d": "Do prvního výstřelu"
+      },
+      "explain": "Pohotovostní postoj se drží, dokud terč nevyletěl a není vidět; teprve pak se smí zalícit."
+    },
+    "basics-mount-q2": {
+      "q": "Smí střelec v {{tm:compak}} zavolat terč se zbraní už zalícenou v rameni?",
+      "options": {
+        "a": "Ne: dostane za to žlutou kartu",
+        "b": "Jen u zajíců a jiných nízkých terčů",
+        "c": "Jen mezi dvěma terči dvojstřelu",
+        "d": "Ano: poloha zbraně při zavolání je volná"
+      },
+      "explain": "{{tm:compak}} nemá pravidlo o zbrani dole: zbraň může, ale nemusí být při zavolání zalícená, na každý terč se ale střílí z ramene."
+    },
+    "basics-mount-q3": {
+      "q": "Proč trenéři trvají na tom, aby tvář zůstala na lícnici?",
+      "options": {
+        "a": "Oko funguje jako zadní hledí, musí tedy být pokaždé na stejném místě",
+        "b": "Aby k uchu doléhalo méně hluku",
+        "c": "Protože to vyžadují pravidla obou disciplín",
+        "d": "Aby rozhodčí neviděl obličej"
+      },
+      "explain": "Brokovnice nemá zadní hledí – jeho roli hraje oko, takže zvednutá tvář pošle ránu výš."
+    },
+    "technique-gun-mount-q1": {
+      "q": "Co je při zalícení správně?",
+      "options": {
+        "a": "Obličej jde ke zbrani",
+        "b": "Zbraň jde k obličeji",
+        "c": "Hlava se sklání k liště"
+      },
+      "explain": "Hlava zůstává rovná, zbraň přichází k líci a rameni."
+    },
+    "technique-gun-mount-q2": {
+      "q": "V jaké vzdálenosti pod osou ramen se ve {{tm:sporting}} vede čára na vestě?",
+      "options": {
+        "a": "10 cm",
+        "b": "25 cm",
+        "c": "40 cm"
+      },
+      "explain": "Čára se vede 25 cm pod osou ramen, rovnoběžně s ní."
+    },
+    "technique-gun-mount-q3": {
+      "q": "Smíte v {{tm:compak}} zavolat terč se zbraní už zalícenou?",
+      "options": {
+        "a": "Ano, poloha při zavolání je volná",
+        "b": "Ne, jen z nízké polohy",
+        "c": "Jen u současných dvojstřelů"
+      },
+      "explain": "V {{tm:compak}} je poloha zbraně při zavolání volná; nízká poloha s čárou na vestě je pravidlo {{tm:sporting}}."
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "rules-viewing-targets",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "0064d55d",
+    "summary": "520117f9",
+    "rules-viewing-targets-p1": "ad9aaf1c",
+    "rules-viewing-targets-cmp1": "81f7ebe1",
+    "sporting-viewing-p2": "91e5fef1",
+    "sporting-viewing-p3": "41aa2110",
+    "compak-gun-and-call-p4": "94cbc3de",
+    "rules-viewing-targets-inline": "36aba8bb",
+    "rules-viewing-targets-open": "e72630ec",
+    "sporting-viewing-p4": "fe023af6",
+    "rules-viewing-targets-cmp2": "91c6febf",
+    "rules-viewing-targets-cmp3": "a954b0b5",
+    "rules-viewing-targets-tip1": "dbc75fed",
+    "rules-viewing-targets-more": "f764fc23",
+    "sporting-viewing-p6": "0980466b",
+    "sporting-viewing-ph1": "1df1c5f9",
+    "sporting-viewing-ph2": "f2d71d4d",
+    "sporting-viewing-ph3": "7dd75e34",
+    "sporting-viewing-ph4": "e39faadc",
+    "compak-gun-and-call-ph1": "6126c547",
+    "sporting-viewing-kp1": "cf204807",
+    "sporting-viewing-kp2": "1f60b759",
+    "sporting-viewing-kp3": "d07a0eb2",
+    "compak-gun-and-call-kp4": "cde28806",
+    "sporting-viewing-kp4": "7f195256",
+    "rules-viewing-targets-dyk": "d3836026",
+    "sporting-viewing-q1": "8dc8d7ba",
+    "rules-viewing-targets-q2": "8a902885",
+    "sporting-viewing-q3": "442066c3",
+    "sporting-viewing-q2": "7517024b",
+    "rules-viewing-targets-q4": "9490a582",
+    "rules-viewing-targets-q5": "004cd4f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Taikinių parodymas",
+  "summary": "Kaip taikiniai parodomi prieš šaudymą {{tm:sporting}} ir {{tm:compak}} rungtyse, kokius dubletus matote ir ką galima daryti, kol jie skrenda.",
+  "body": {
+    "rules-viewing-targets-p1": "Prieš šaudymą taikiniai parodomi: tai {{term:target-presentation|pristatymas}}. {{tm:sporting}} rungtyje tai vyksta kiekvienoje šaudymo vietoje. {{tm:compak}} rungtyje formatu by squad, kur {{term:squad|grupė}} ({{fact:rules.squad-max-shooters}}) juda nuo numerio prie numerio, tai vyksta tik vieną kartą per dieną, pirmai grupei. Formatu in line tvarka kitokia (žr. žemiau). Pristatymas leidžia „perskaityti“ kiekvieną taikinį: liniją, greitį, atstumą ir tai, kaip lėkštelė elgiasi ore.",
+    "rules-viewing-targets-cmp1": {
+      "sporting": "Kiekvienoje šaudymo vietoje visas trajektorijas parodo pirmam grupės šauliui, stovinčiam parengties pozicijoje vietoje.",
+      "compak": "By squad: tik vieną kartą per dieną, ryte, pirmai dienos grupei. Šaulys numeryje 1 prašo pavienių taikinių nuo A iki F. In line: žr. žemiau."
+    },
+    "sporting-viewing-p2": "Galite paprašyti teisėjo pakartoti taikinio parodymą: ne daugiau kaip dukart kiekvienam šaudymo vietos aprašo taikiniui.",
+    "sporting-viewing-p3": "{{term:double-on-report|Dubletai pagal šūvio garsą}} (antra mišenė išskrenda, kai šaunate į pirmą) nerodomi. Bet jų taikinius jau matėte: {{tm:sporting}} rungtyje dubletas sudarytas tik iš taikinių, kurie tame pačiame numeryje jau skriejo kaip pavieniai. Pirmam kiekvienos grupės šauliui parodomi {{term:simultaneous-double|vienalaikiai dubletai}} (abi mišenės išskrenda kartu) ir {{term:rafale-double|rafalis}} (dvi mišenės iš tos pačios mašinėlės, viena po kitos). Paprašytas, teisėjas parodo jas vėl, ne daugiau kaip dukart.",
+    "compak-gun-and-call-p4": "Formatu by squad po pavienių mišenių rodomi numerių 1–5 vienalaikiai dubletai. Po to iš teisėjo išgirsite „start“ arba „competition“, ir pradedama šaudyti rezultatui.",
+    "rules-viewing-targets-inline": "{{tm:compak}} galima šaudyti ir {{term:compak-in-line|in line}} formatu: šauliai po vieną užima numerį 1 ir juda linija iki numerio 5. Prieš startą pirmas šaulys gali paprašyti parodyti pavienes mišenes nuo A iki F; jei dubletai vienalaikiai, parodomi ir kiekvieno numerio dubletai. Kol linija pildosi, kiekvienas naujas numerio 1 šaulys pirmiausia pamato savo dubleto pirmą taikinį. Kai linija tuštėja, teisėjas tą pačią tvarką pakartoja vėlesniuose numeriuose. Smulkiau: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+    "rules-viewing-targets-open": "Abiejose rungtyse parodymo metu ir per kiekvieną pertrauką šautuvai atverti ir neužtaisyti. Savąjį užverkite tik tada, kai leis teisėjas.",
+    "sporting-viewing-p4": "Šaudyti arba imituoti šaudymą ({{term:mock-shooting|prisidėti šautuvą ir vesti jį taikinio linija}} nešaunant) parodymo metu draudžiama. Už tai baudžia kaip už šautuvo padėties pažeidimą: pirma įspėjimas, tada raudonoji kortelė.",
+    "rules-viewing-targets-cmp2": {
+      "sporting": "Jei mašinėlė sugedo arba šaudymas sustojo {{fact:rules.reshow-after-interruption}}, šios vietos taikiniai parodomi iš naujo.",
+      "compak": "Po {{fact:rules.reshow-after-interruption}} pertraukos teisėjas vėl parodo šešias pavienes mišenes."
+    },
+    "rules-viewing-targets-cmp3": {
+      "sporting": "Treniruotis ant varžybinių aikštelių negalima niekam.",
+      "compak": "Treniruotis ant varžybinių trajektorijų galima, bet ne su varžybiniais meniu. {{term:trajectory-setting-table|Trajektorijų nustatymo lentelės}} (parengti meniu, nurodantys, kurios mašinėlės šaudomos kiekviename numeryje) treniruotėms turi būti kitokios. Prieš žemyno ir pasaulio čempionatus oficiali treniruotė atsidaro šeštadienį prieš renginį."
+    },
+    "rules-viewing-targets-tip1": "Pasinaudokite parodymu, kad suplanuotumėte kiekvieną taikinį. Pažymėkite, kur pirmą kartą jį aiškiai pamatysite – {{term:pick-up-point|pastebėjimo taškas}}, – ir kur jį sudaužysite – {{term:break-point|sudaužymo taškas}}. Daug trenerių pataria dar per parodymą nusistatyti ir vienalaikio dubleto šaudymo tvarką.",
+    "rules-viewing-targets-more": "Kaip „perskaityti“ taikinį per parodymą – pamokoje {{lesson:targets-reading-a-target}}."
+  },
+  "note": {
+    "sporting-viewing-p6": "Treniruotėje parodymas – trenerio pamėgtas momentas: „watch where it turns“ („žiūrėkite, kur ji pasisuka“). Varžybose parodymas yra renginio dalis, tad patarimų draudimas taikomas ir čia: tylėkite, nebent teisėjui ar šauliui reikia vertimo apie procedūrą."
+  },
+  "phrases": {
+    "sporting-viewing-ph1": {
+      "meaning": "Šaulys teisėjui: pradėkite parodymą.",
+      "say": "Parodykite taikinius, prašau."
+    },
+    "sporting-viewing-ph2": {
+      "meaning": "Prašymas pakartoti vieną aprašo taikinį.",
+      "say": "Dar kartą, prašau, tik B."
+    },
+    "sporting-viewing-ph3": {
+      "meaning": "Teisėjas: atverkite ir neužtaisykite šautuvų, kol teisėjas neleis užverti.",
+      "say": "Parodymo metu šautuvai atverti."
+    },
+    "sporting-viewing-ph4": {
+      "meaning": "Treneris treniruotėje: atkreipkite dėmesį į tašką, kur lėkštelė keičia kryptį ar formą.",
+      "say": "Stebėkite, kur ji pasisuka."
+    },
+    "compak-gun-and-call-ph1": {
+      "meaning": "Teisėjas: parodymas baigtas, pradedama šaudyti rezultatui.",
+      "say": "Startas! Pradedame varžybas!"
+    }
+  },
+  "key_points": {
+    "sporting-viewing-kp1": "{{tm:sporting}}: kiekvienoje vietoje visas trajektorijas mato pirmas grupės šaulys, stovintis parengties pozicijoje.",
+    "sporting-viewing-kp2": "{{tm:sporting}}: paprašius – iki dviejų pakartojimų kiekvienam aprašo taikiniui.",
+    "sporting-viewing-kp3": "{{tm:sporting}}: dubletai pagal šūvio garsą nerodomi; vienalaikius dubletus ir rafalį mato pirmas kiekvienos grupės šaulys.",
+    "compak-gun-and-call-kp4": "{{tm:compak}} by squad: taikiniai parodomi vieną kartą per dieną, ryte, tik pirmai grupei. Po {{fact:rules.reshow-after-interruption}} pertraukos teisėjas vėl parodo šešias pavienes mišenes. In line tvarka kitokia.",
+    "sporting-viewing-kp4": "Parodymo metu šautuvai atverti; {{tm:sporting}} rungtyje šūvis ar šaudymo imitavimas tuo metu baudžiami."
+  },
+  "did_you_know": "{{tm:sporting}} rungtyje meniu prieš kiekvieną šaudymo vietą rodo mašinėles šaudymo tvarka ir pažymi ypatingus taikinius, pavyzdžiui, {{term:battue|batiu}} ar {{term:rabbit|triušį}}.",
+  "quiz": {
+    "sporting-viewing-q1": {
+      "q": "{{tm:sporting}} rungtyje kokie dubletai NERODOMI parodymo metu?",
+      "options": {
+        "a": "Vienalaikiai",
+        "b": "Rafalis",
+        "c": "Pagal šūvio garsą",
+        "d": "Jokie – rodomi visi"
+      },
+      "explain": "{{tm:sporting}} rungtyje dubletai pagal šūvio garsą nerodomi, o vienalaikiai ir rafalis – rodomi. Dublete bendra tik tie taikiniai, kurie tame numeryje jau skriejo kaip pavieniai."
+    },
+    "rules-viewing-targets-q2": {
+      "q": "{{tm:compak}} by squad formate, kaip dažnai rodomi taikiniai?",
+      "options": {
+        "a": "Prieš kiekvieną grupę, kiekviename numeryje",
+        "b": "Vieną kartą per dieną, pirmai grupei",
+        "c": "Tik kai paprašo šaulys"
+      },
+      "explain": "Parodymas vyksta vieną kartą per dieną, ryte, pirmai grupei; po {{fact:rules.reshow-after-interruption}} pertraukos teisėjas vėl parodo šešias pavienes mišenes."
+    },
+    "sporting-viewing-q3": {
+      "q": "{{tm:sporting}} rungtyje parodymo metu šaulys užverčia šautuvą ir veda juo taikinio linija. Kas taikoma?",
+      "options": {
+        "a": "Draudžiama: įspėjimas, tada raudonoji kortelė",
+        "b": "Leidžiama: parodymas – laisva treniruotė",
+        "c": "Taikinys parodomas iš naujo",
+        "d": "Įspėjamas tik treneris"
+      },
+      "explain": "Parodymo metu šautuvai lieka atverti, o šūvis ar šaudymo imitavimas baudžiami kaip šautuvo padėties pažeidimas."
+    },
+    "sporting-viewing-q2": {
+      "q": "{{tm:sporting}} rungtyje kiek pakartojimų gali paprašyti šaulys šaudymo vietoje?",
+      "options": {
+        "a": "Jokio",
+        "b": "Du kiekvienam aprašo taikiniui",
+        "c": "Kiek reikės",
+        "d": "Vieną šaudymo vietoje"
+      },
+      "explain": "Paprašytas, teisėjas parodo taikinį iš naujo, ne daugiau kaip dukart kiekvienam aprašo taikiniui."
+    },
+    "rules-viewing-targets-q4": {
+      "q": "{{tm:compak}} in line, dubletai pagal šūvio garsą. Kol linija pildosi, į numerį 1 stoja naujas šaulys. Ką jam parodo teisėjas?",
+      "options": {
+        "a": "Jo dubleto pirmą taikinį",
+        "b": "Visiškai nieko",
+        "c": "Visas pavienes mišenes nuo A iki F",
+        "d": "Visą meniu iš naujo"
+      },
+      "explain": "In line pavienes mišenes nuo A iki F prieš startą parodo pirmam šauliui. Toliau kiekvienam naujam numerio 1 šauliui rodoma jo dubleto pirma mišenė."
+    },
+    "rules-viewing-targets-q5": {
+      "q": "Ar prieš {{tm:compak}} renginį galima treniruotis ant varžybinių trajektorijų?",
+      "options": {
+        "a": "Ne, visiškai negalima",
+        "b": "Tik renginio rytą",
+        "c": "Taip, su kitokiomis nustatymo lentelėmis"
+      },
+      "explain": "{{tm:compak}} leidžia treniruotis ant varžybinių trajektorijų, bet treniruotės nustatymo lentelės (meniu) turi būti kitokios; {{tm:sporting}} rungtyje ant varžybinių aikštelių treniruotis negalima niekam."
+    }
+  }
+}

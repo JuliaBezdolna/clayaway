@@ -1,0 +1,299 @@
+{
+  "id": "travel-gun-outside-eu",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "organiser",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "travel block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "travel-gun-outside-eu"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "customs-declaration",
+    "european-firearms-pass",
+    "temporary-import-permit",
+    "organiser",
+    "shotgun"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "UK legislation: Firearms (Amendment) Act 1988, section 17 — visitors' permits, including group applications (legislation.gov.uk)",
+        "uk": "Законодавство Великої Британії: Firearms (Amendment) Act 1988, розділ 17 — дозволи для відвідувачів, зокрема групові заяви (legislation.gov.uk)"
+      },
+      "url": "https://www.legislation.gov.uk/ukpga/1988/45/section/17",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "Open Government Licence v3.0; link only"
+    }
+  ],
+  "title": {
+    "en": "Outside the EU: national permits",
+    "uk": "Поза ЄС: національні дозволи"
+  },
+  "summary": {
+    "en": "Outside the EU each country has its own rules for bringing in a gun. You usually need a temporary permit, a customs declaration and plenty of time for the paperwork.",
+    "uk": "Поза ЄС кожна країна має власні правила ввезення рушниці. Зазвичай потрібні тимчасовий дозвіл, митна декларація і чимало часу на оформлення."
+  },
+  "body": [
+    {
+      "k": "travel-gun-outside-eu-p1",
+      "t": "p",
+      "en": "The {{term:european-firearms-pass|European Firearms Pass}} works only inside the EU and in four countries outside it that also use it: Switzerland, Norway, Iceland and Liechtenstein (see {{lesson:travel-gun-in-eu}}). If you live anywhere else, or travel to a country outside this area, the destination country's own rules apply. Check them separately for each trip.",
+      "uk": "{{term:european-firearms-pass|Європейський вогнепальний паспорт}} діє лише в ЄС і в чотирьох країнах поза ним, які теж ним користуються: у Швейцарії, Норвегії, Ісландії та Ліхтенштейні (див. {{lesson:travel-gun-in-eu}}). Якщо ви живете деінде або їдете до країни поза цими межами, діють власні правила країни призначення. Перевіряйте їх окремо для кожної поїздки."
+    },
+    {
+      "k": "travel-gun-outside-eu-p2",
+      "t": "p",
+      "en": "Most often you need a {{term:temporary-import-permit|temporary import permit}} — a paper that lets you bring the gun into the country for the time of your trip. It comes from the police or another office of the country you are going to. Getting it can take weeks or even months. In some countries you cannot apply yourself: a ‘sponsor’ who lives there — a club, a ground or the organiser — sends the application for you.",
+      "uk": "Найчастіше потрібен {{term:temporary-import-permit|тимчасовий дозвіл на ввезення}} (temporary import permit) — папір, який дозволяє ввезти рушницю в країну на час поїздки. Його видає поліція чи інша служба країни, куди ви їдете. Оформлення може тривати тижні або й місяці. У деяких країнах ви не можете подати заяву самі: за вас це робить так званий спонсор — не той, хто платить, а місцевий поручитель: клуб, стенд чи організатор."
+    },
+    {
+      "k": "travel-gun-outside-eu-p8",
+      "t": "p",
+      "en": "Great Britain is one example. A visitor usually needs a visitor's permit, and a sponsor who lives there applies for it to the local police. One group application can cover up to 20 visitors who shoot at the same event.",
+      "uk": "Приклад — Велика Британія. Гостеві зазвичай потрібен дозвіл для відвідувача (visitor’s permit), і заяву до місцевої поліції подає такий поручитель (спонсор), який там живе. Одна групова заява може охопити до 20 гостей, які стріляють на тих самих змаганнях."
+    },
+    {
+      "k": "travel-gun-outside-eu-p3",
+      "t": "p",
+      "en": "At the border you usually have to show the gun to customs and fill in a {{term:customs-declaration|customs declaration}} — a form that lists what you are bringing into the country. The serial number stamped on the gun must be the same as in your papers. Keep the declaration: on the way home it shows that you are taking out the same gun you brought in.",
+      "uk": "На кордоні рушницю зазвичай треба показати митникам і заповнити {{term:customs-declaration|митну декларацію}} (customs declaration) — бланк, у якому ви вказуєте, що ввозите в країну. Серійний номер на рушниці має збігатися з номером у документах. Збережіть декларацію: дорогою додому вона підтвердить, що ви вивозите ту саму рушницю, яку ввезли."
+    },
+    {
+      "k": "travel-gun-outside-eu-p4",
+      "t": "p",
+      "en": "Think about your own country too. Taking a gun out may also need a permit or a stamp, and coming back may need proof that it is the same gun. Ask the authority that issues your gun permits.",
+      "uk": "Подумайте і про свою країну. Для вивезення рушниці теж може знадобитися дозвіл чи відмітка, а для повернення — підтвердження, що це та сама рушниця. Запитайте в органі, який видає вам дозволи на зброю."
+    },
+    {
+      "k": "travel-gun-outside-eu-p5",
+      "t": "p",
+      "en": "Do not forget the country where you change planes. Its rules and the airport's rules may apply too, especially if you have to collect your bags there and check them in again.",
+      "uk": "Не забувайте про транзит. Якщо летите з пересадкою, правила країни і аеропорту пересадки теж можуть мати значення, особливо коли багаж треба отримати й здати знову."
+    },
+    {
+      "k": "travel-gun-outside-eu-p6",
+      "t": "p",
+      "en": "Organisers of international competitions and tours often know the local rules and help with letters and applications, so ask them first. Your national federation can advise as well.",
+      "uk": "Організатори міжнародних змагань і турів часто знають місцеві вимоги й допомагають з листами та заявами, тож запитуйте їх першими. Порадити може й ваша національна федерація."
+    },
+    {
+      "k": "travel-gun-outside-eu-p7",
+      "t": "p",
+      "en": "If the documents will not be ready in time, hire a gun at the destination: many grounds offer this.",
+      "uk": "Якщо документи не встигають, візьміть рушницю напрокат на місці: багато стендів таке пропонують."
+    },
+    {
+      "k": "travel-gun-outside-eu-warn",
+      "t": "warn",
+      "critical": true,
+      "en": "Never try to take a gun across a border without the permits it needs.",
+      "uk": "Ніколи не намагайтеся перевезти рушницю через кордон без потрібних дозволів."
+    },
+    {
+      "k": "travel-gun-outside-eu-laws",
+      "t": "p",
+      "en": "The tables below show the rules of four EU countries. If you come from outside the EU, read the rows for visitors from outside the EU. Each table gives the date it was checked; read the official text before you travel.",
+      "uk": "У таблицях нижче — правила чотирьох країн ЄС. Якщо ви приїжджаєте з-поза ЄС, читайте рядки для гостей з-поза ЄС. У кожній таблиці вказано дату перевірки; перед поїздкою прочитайте офіційний текст."
+    },
+    {
+      "k": "travel-gun-outside-eu-law1",
+      "t": "law",
+      "country": "FR",
+      "part": "travel"
+    },
+    {
+      "k": "travel-gun-outside-eu-law2",
+      "t": "law",
+      "country": "IT",
+      "part": "travel"
+    },
+    {
+      "k": "travel-gun-outside-eu-law3",
+      "t": "law",
+      "country": "ES",
+      "part": "travel"
+    },
+    {
+      "k": "travel-gun-outside-eu-law4",
+      "t": "law",
+      "country": "CZ",
+      "part": "travel"
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "travel-gun-outside-eu-kp1",
+      "en": "Outside the EU each country has its own rules: check them for each trip.",
+      "uk": "Поза ЄС кожна країна має власні правила: перевіряйте їх для кожної поїздки."
+    },
+    {
+      "k": "travel-gun-outside-eu-kp2",
+      "en": "A temporary import permit is usually needed, and it takes weeks.",
+      "uk": "Зазвичай потрібен тимчасовий дозвіл на ввезення, а його оформлення триває тижні."
+    },
+    {
+      "k": "travel-gun-outside-eu-kp3",
+      "en": "Show the gun to customs, fill in the declaration and keep it.",
+      "uk": "Покажіть рушницю митникам, заповніть декларацію й збережіть її."
+    },
+    {
+      "k": "travel-gun-outside-eu-kp4",
+      "en": "The organiser and your federation can help with documents.",
+      "uk": "Організатор і ваша федерація можуть допомогти з документами."
+    },
+    {
+      "k": "travel-gun-outside-eu-kp5",
+      "en": "No permit in time? Hire a gun at the destination.",
+      "uk": "Дозвіл не встигає? Візьміть рушницю напрокат на місці."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "travel-gun-outside-eu-q1",
+      "q": {
+        "en": "What is usually needed to bring a gun into a country outside the EU?",
+        "uk": "Що зазвичай потрібно, щоб ввезти рушницю до країни поза ЄС?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only the plane ticket and a gun case",
+          "uk": "Лише квиток на літак і кейс для рушниці"
+        },
+        {
+          "k": "b",
+          "en": "A temporary import permit from that country",
+          "uk": "Тимчасовий дозвіл на ввезення від цієї країни"
+        },
+        {
+          "k": "c",
+          "en": "Nothing, if you have shot there before",
+          "uk": "Нічого, якщо ви вже стріляли там раніше"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Each country has its own rules, and a temporary permit is most often required.",
+        "uk": "Кожна країна має свої правила, і найчастіше потрібен тимчасовий дозвіл."
+      }
+    },
+    {
+      "k": "travel-gun-outside-eu-q2",
+      "q": {
+        "en": "Why keep the customs declaration for the gun?",
+        "uk": "Навіщо зберігати митну декларацію на рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To sell the gun at the destination",
+          "uk": "Щоб продати рушницю на місці"
+        },
+        {
+          "k": "b",
+          "en": "To pay a lower fee on your next trip",
+          "uk": "Щоб заплатити менше під час наступної поїздки"
+        },
+        {
+          "k": "c",
+          "en": "To bring the gun back home without trouble",
+          "uk": "Щоб без проблем повернути рушницю додому"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The declaration shows that it is the same gun you brought in and are taking out.",
+        "uk": "Декларація підтверджує, що це та сама рушниця, яку ви ввозили і тепер вивозите."
+      }
+    },
+    {
+      "k": "travel-gun-outside-eu-q3",
+      "q": {
+        "en": "What can you do if the permit will not be ready in time?",
+        "uk": "Що можна зробити, якщо дозвіл не встигають оформити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Hire a gun at the destination",
+          "uk": "Узяти рушницю напрокат на місці"
+        },
+        {
+          "k": "b",
+          "en": "Pack the gun in your suitcase anyway",
+          "uk": "Однаково покласти рушницю у валізу"
+        },
+        {
+          "k": "c",
+          "en": "Send the gun to the ground by post",
+          "uk": "Надіслати рушницю на стенд поштою"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Taking a gun without the permits is not allowed; hiring one at the ground is the lawful option.",
+        "uk": "Везти зброю без дозволів не можна; оренда на стенді — законний вихід."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "ba55d8a6",
+    "summary": "934a65ba",
+    "travel-gun-outside-eu-p1": "0f816afc",
+    "travel-gun-outside-eu-p2": "a59db3e4",
+    "travel-gun-outside-eu-p8": "84164094",
+    "travel-gun-outside-eu-p3": "03b08238",
+    "travel-gun-outside-eu-p4": "91083b9d",
+    "travel-gun-outside-eu-p5": "25947f9f",
+    "travel-gun-outside-eu-p6": "bb9b785a",
+    "travel-gun-outside-eu-p7": "7efe584c",
+    "travel-gun-outside-eu-warn": "71a72b5d",
+    "travel-gun-outside-eu-laws": "5f7aa60f",
+    "travel-gun-outside-eu-kp1": "76734a89",
+    "travel-gun-outside-eu-kp2": "9c19bac9",
+    "travel-gun-outside-eu-kp3": "ca7b461b",
+    "travel-gun-outside-eu-kp4": "db091516",
+    "travel-gun-outside-eu-kp5": "5c14415c",
+    "travel-gun-outside-eu-q1": "5449105f",
+    "travel-gun-outside-eu-q2": "27b178ad",
+    "travel-gun-outside-eu-q3": "cd4b1ef0"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "culture-environment",
+  "lang": "de",
+  "base_rev": 3,
+  "h": {
+    "title": "46947236",
+    "summary": "1c9a11bd",
+    "culture-environment-p1": "39f15ae3",
+    "culture-environment-p2": "01f16fa3",
+    "culture-environment-p3": "18adbcb3",
+    "culture-environment-p4": "afef74a7",
+    "culture-environment-p5": "c01cc92f",
+    "culture-environment-p6": "8bb0a89e",
+    "culture-environment-kp1": "06ff5fd8",
+    "culture-environment-kp2": "3dca208b",
+    "culture-environment-kp3": "fa61eba8",
+    "culture-environment-kp4": "2287dfa2",
+    "culture-environment-dyk": "72216fc3",
+    "culture-environment-q1": "f1f15aa4",
+    "culture-environment-q2": "d259c5af",
+    "culture-environment-q3": "76f91560"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Rücksicht auf die Umwelt",
+  "summary": "Ein Schießstand ist Teil der Natur. Leere Hülsen in den Behälter, umweltfreundliche Scheiben, bleifreier Schrot, wo das Gesetz es verlangt, und Respekt vor dem Gelände.",
+  "body": {
+    "culture-environment-p1": "Die Regeln von {{tm:sporting}} sind hier eindeutig. Bei der Einrichtung eines Layouts steht die Sicherheit der Menschen an erster Stelle, direkt daneben der Schutz von Pflanzen und Umwelt. Auf lebende Tiere darf nicht geschossen werden.",
+    "culture-environment-p2": "Das Einfachste, was Sie tun können: hinter sich aufräumen. Gibt es einen Behälter für leere {{term:hull|Hülsen}}, nutzen Sie ihn. Schießen Sie mit einer {{term:semi-automatic|Selbstladeflinte}}, wirft diese jede leere Hülse seitlich aus – sammeln Sie Ihre also ein, bevor Sie den Stand verlassen. Sowohl bei {{tm:sporting}} als auch bei {{tm:compak}} ist das eine Regel, nicht nur gute Manieren.",
+    "culture-environment-p3": "Auch {{term:target|Wurfscheiben}} verändern sich. Traditionelle Scheiben hält Pech zusammen, ein teerähnliches Bindemittel. Immer mehr Hersteller bieten pechfreie {{term:biodegradable-target|biologisch abbaubare Scheiben}} an, die sich in der Natur leichter zersetzen. Ob ein Stand sie verwendet, hängt vom Stand selbst und von den örtlichen Vorschriften ab.",
+    "culture-environment-p4": "Die FITASC-Wettkampfregeln sind auf {{term:lead-shot|Bleischrot}} ausgelegt (die kleinen Bleikugeln in einer Patrone). Doch viele Länder und Regionen schränken Blei ein, besonders in und um Feuchtgebiete (Moore, Seen, Flussufer). Dort verwenden Stände {{term:steel-shot|Stahlschrot}} oder einen anderen bleifreien Schrot. In der EU gilt zum Beispiel: {{fact:gear.eu-wetland-lead}}. Prüfen Sie Gesetz und Standregeln vor der Fahrt. Gesetze nach Ländern, auch neuere und kommende Verbote: {{lesson:cartridges-lead-and-steel}}.",
+    "culture-environment-p5": "Schießstände liegen oft in schöner Landschaft: auf Wiesen, am Waldrand, auf Hügeln. Gehen Sie nur auf erlaubten Wegen und nehmen Sie Ihren Müll mit. Brechen Sie keine Äste ab, und fahren Sie nur dort, wo es erlaubt ist.",
+    "culture-environment-p6": "Viele Stände pflegen ihr Gelände: Sie pflanzen Bäume, sammeln Scheibensplitter und recyceln Hülsen. Veranstaltet Ihr Verein so einen Tag, machen Sie mit. Das gehört zur Kultur des Sports und ist eine gute Gelegenheit, Leute kennenzulernen: {{lesson:culture-club-life}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "culture-environment-kp1": "Zuerst die Sicherheit der Menschen, direkt daneben die Sorge um die Natur.",
+    "culture-environment-kp2": "Leere Hülsen kommen in den Behälter; Nutzer von Selbstladeflinten sammeln ihre ein.",
+    "culture-environment-kp3": "Pechfreie Scheiben zersetzen sich in der Natur leichter.",
+    "culture-environment-kp4": "Wo das Gesetz Blei einschränkt, schießen Stände mit Stahlschrot: vorher prüfen."
+  },
+  "did_you_know": "Die {{tm:sporting}}-Regeln verlangen, dass Layouts die {{term:hunting-ethics|jagdliche Ethik}} achten. Eine Scheibe soll in jagdtypischer Entfernung fliegen: nicht so nah, dass ein echter Vogel zu stark beschädigt wäre, um ihn zu essen, und nicht so weit, dass er nur verletzt würde.",
+  "quiz": {
+    "culture-environment-q1": {
+      "q": "Was tun Sie mit leeren Hülsen nach einer Runde?",
+      "options": {
+        "a": "Dort liegen lassen, wo sie gefallen sind",
+        "b": "In den vorgesehenen Behälter legen",
+        "c": "Unter den Stand treten"
+      },
+      "explain": "Hülsen kommen in den Behälter, wenn es einen gibt, und Nutzer von Selbstladeflinten sammeln ihre ausgeworfenen Hülsen ein."
+    },
+    "culture-environment-q2": {
+      "q": "Wo kann ein Stand Stahlschrot verlangen?",
+      "options": {
+        "a": "Wo das Gesetz Blei einschränkt",
+        "b": "Nur bei olympischen Wettkämpfen",
+        "c": "Nur an sehr windigen Tagen"
+      },
+      "explain": "Bleivorschriften hängen vom Land und der Gegend ab, oft in der Nähe von Gewässern; informieren Sie sich vorher."
+    },
+    "culture-environment-q3": {
+      "q": "Was ist das Besondere an biologisch abbaubaren Scheiben?",
+      "options": {
+        "a": "Sie sind schwerer als Standardscheiben",
+        "b": "Sie leuchten in der Dämmerung",
+        "c": "Sie enthalten kein Pech und zersetzen sich leichter"
+      },
+      "explain": "Sie werden ohne Pech hergestellt, sodass weniger davon im Boden bleibt."
+    }
+  }
+}

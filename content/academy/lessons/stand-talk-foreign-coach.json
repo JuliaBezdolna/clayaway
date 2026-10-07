@@ -1,0 +1,607 @@
+{
+  "id": "stand-talk-foreign-coach",
+  "rev": 1,
+  "status": "ready",
+  "plan": "new",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "organiser",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "coach",
+    "interpreter",
+    "safety",
+    "pick-up-point",
+    "hold-point",
+    "break-point",
+    "hand-signal",
+    "chuchotage",
+    "consecutive-interpreting",
+    "coaching",
+    "yellow-card",
+    "jury",
+    "gun-mount",
+    "lead",
+    "follow-through",
+    "stance"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Training with a coach who speaks another language",
+    "uk": "Тренер говорить іншою мовою: з перекладачем і без"
+  },
+  "summary": {
+    "en": "How shooters, coaches and organisers prepare a session with a coach from another country, with an interpreter or without one, and what changes at a competition.",
+    "uk": "Як стрільцям, тренерам і організаторам підготувати заняття з тренером з іншої країни — з перекладачем чи без нього — і що змінюється на змаганнях."
+  },
+  "body": [
+    {
+      "k": "stand-talk-foreign-coach-p1",
+      "t": "p",
+      "core": true,
+      "en": "Many shooters train with a {{term:coach|coach}} from another country, at home or on a trip. It works well when everyone prepares a little: the coach, the shooter and, if there is one, the {{term:interpreter|interpreter}}. Many misunderstandings come from words that nobody agreed on beforehand.",
+      "uk": "Багато стрільців тренуються з {{term:coach|тренером}} з іншої країни — вдома чи в поїздці. Це добре працює, коли кожен трохи готується: тренер, стрілець і, якщо він є, {{term:interpreter|перекладач}}. Чимало непорозумінь виникає через слова, про які ніхто не домовився заздалегідь."
+    },
+    {
+      "k": "stand-talk-foreign-coach-safety",
+      "t": "warn",
+      "core": true,
+      "en": "{{term:safety|Safety}} comes first. Make sure each shooter has understood the safety briefing before anyone loads. If anyone is unsure, have it interpreted or shown again.",
+      "uk": "{{term:safety|Безпека}} — понад усе. Переконайтеся, що кожен стрілець зрозумів інструктаж із безпеки, перш ніж хтось зарядить рушницю. Якщо хтось не впевнений, перекладіть або покажіть усе ще раз."
+    },
+    {
+      "k": "stand-talk-foreign-coach-h1",
+      "t": "h",
+      "core": true,
+      "en": "With an interpreter",
+      "uk": "З перекладачем"
+    },
+    {
+      "k": "stand-talk-foreign-coach-steps",
+      "t": "steps",
+      "core": true,
+      "en": [
+        "Before the session, agree on the key terms: the coach’s words for lead and misses, and for the {{term:pick-up-point|pick-up point}}, {{term:hold-point|hold point}} and {{term:break-point|break point}}.",
+        "Agree on the coach’s {{term:hand-signal|hand signals}} and on a pause sign, such as a raised palm.",
+        "The coach speaks in short phrases and waits for the translation.",
+        "Talk only when the gun is open, not during the shooter’s routine.",
+        "After an explanation, check understanding: ask the shooter to show it, not just to say “yes”."
+      ],
+      "uk": [
+        "До заняття домовтеся про ключові терміни: якими словами тренер називає винос, промахи, {{term:pick-up-point|точку підхоплення}}, {{term:hold-point|точку утримання}} і {{term:break-point|точку пострілу}}.",
+        "Домовтеся про {{term:hand-signal|жести}} тренера і про знак паузи, наприклад підняту долоню.",
+        "Тренер говорить короткими фразами й чекає на переклад.",
+        "Говоріть лише тоді, коли рушниця відкрита, а не під час ритуалу стрільця.",
+        "Після пояснення перевірте, чи все зрозуміло: попросіть стрільця показати, а не просто сказати «так»."
+      ]
+    },
+    {
+      "k": "stand-talk-foreign-coach-p2",
+      "t": "p",
+      "core": true,
+      "en": "Short cues on the stand are often whispered from behind ({{term:chuchotage|chuchotage}}). Briefings and debriefs work better when the coach says a sentence or two, pauses, and the interpreter translates ({{term:consecutive-interpreting|consecutive interpreting}}). More for interpreters: {{lesson:interpreter-position}}.",
+      "uk": "Короткі підказки на стрілецькому місці часто шепочуть ззаду ({{term:chuchotage|шушотаж}}). Інструктаж і розбір краще йдуть так: тренер каже одне-два речення, робить паузу, перекладач перекладає ({{term:consecutive-interpreting|послідовний переклад}}). Більше для перекладачів — {{lesson:interpreter-position}}."
+    },
+    {
+      "k": "stand-talk-foreign-coach-h2",
+      "t": "h",
+      "core": true,
+      "en": "At a competition",
+      "uk": "На змаганнях"
+    },
+    {
+      "k": "stand-talk-foreign-coach-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch8-coaching",
+      "en": "At a competition the rules change everything. In both disciplines, {{term:coaching|coaching}} during the competition is forbidden: the shooter gets a {{term:yellow-card|yellow card}}, and the coach is sent out of the shooting area ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). The rules do not mention interpreters, so passing on advice could be treated as coaching. The interpreter passes on only official information from the referee, the {{term:jury|jury}} and the organiser. Plan all coaching for training days and debriefs.",
+      "uk": "На змаганнях правила змінюють усе. В обох дисциплінах {{term:coaching|підказувати}} під час змагань заборонено: стрілець отримує {{term:yellow-card|жовту картку}}, а тренера видаляють із зони стрільби ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Правила не згадують перекладачів, тож передачу порад можуть вважати підказкою. Перекладач передає лише офіційне: слова судді, {{term:jury|журі}} та організатора. Усі тренерські поради плануйте на тренувальні дні й розбори."
+    },
+    {
+      "k": "stand-talk-foreign-coach-h3",
+      "t": "h",
+      "core": true,
+      "en": "Without an interpreter",
+      "uk": "Без перекладача"
+    },
+    {
+      "k": "stand-talk-foreign-coach-p4",
+      "t": "p",
+      "core": true,
+      "en": "Without an interpreter, a small shared vocabulary goes a long way. About twenty anchor words cover much of a session; you will find them in the phrases below. Learn them before the first lesson, in the coach’s language.",
+      "uk": "Без перекладача дуже допомагає невеликий спільний словник. Близько двадцяти опорних слів охоплюють значну частину заняття; ви знайдете їх у фразах нижче. Вивчіть їх до першого заняття мовою тренера."
+    },
+    {
+      "k": "stand-talk-foreign-coach-p5",
+      "t": "p",
+      "core": true,
+      "en": "Show rather than tell. Ask the coach to trace the line with his hand, to point to the pick-up point and the break point, or to demonstrate the {{term:gun-mount|mount}}. Short videos of your shots help both of you to see the same thing.",
+      "uk": "Показуйте, а не пояснюйте. Попросіть тренера провести лінію рукою, показати точку підхоплення і точку пострілу або продемонструвати {{term:gun-mount|вкладку}}. Короткі відео ваших пострілів допомагають обом бачити те саме."
+    },
+    {
+      "k": "stand-talk-foreign-coach-p6",
+      "t": "p",
+      "core": true,
+      "en": "After the session, write down the two or three main points in both languages, or ask the coach to send them. A one-page bilingual sheet with the anchor words, the coach’s signals and the referee’s calls helps on the next day too.",
+      "uk": "Після заняття запишіть дві-три головні думки обома мовами або попросіть тренера надіслати їх. Двомовна пам’ятка на одну сторінку з опорними словами, жестами тренера й командами судді знадобиться й наступного дня."
+    },
+    {
+      "k": "stand-talk-foreign-coach-tip1",
+      "t": "tip",
+      "en": "For organisers of training trips: send the coach and the group the bilingual sheet before the trip. Plan an interpreter at least for the safety briefing, even if the rest of the session runs without one.",
+      "uk": "Організаторам тренувальних поїздок: надішліть тренерові й групі двомовну пам’ятку ще до поїздки. Заплануйте перекладача хоча б для інструктажу з безпеки, навіть якщо решта заняття мине без нього."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "stand-talk-foreign-coach-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Behind.",
+      "meaning": {
+        "en": "The shot passed behind the target (too little {{term:lead|lead}} or a stopped gun; the coach will say which).",
+        "uk": "Постріл пройшов позаду мішені (замалий {{term:lead|винос}} або зупинена рушниця; тренер скаже, що саме)."
+      },
+      "say": {
+        "uk": "Позаду."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "In front.",
+      "meaning": {
+        "en": "The shot passed in front of the target.",
+        "uk": "Постріл пройшов попереду мішені."
+      },
+      "say": {
+        "uk": "Попереду."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Over.",
+      "meaning": {
+        "en": "The shot passed above the target.",
+        "uk": "Постріл пройшов над мішенню."
+      },
+      "say": {
+        "uk": "Вище."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Under.",
+      "meaning": {
+        "en": "The shot passed below the target.",
+        "uk": "Постріл пройшов під мішенню."
+      },
+      "say": {
+        "uk": "Нижче."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "A bit more.",
+      "meaning": {
+        "en": "Add a little more lead.",
+        "uk": "Додайте трохи виносу."
+      },
+      "say": {
+        "uk": "Трохи більше."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph6",
+      "speaker": "coach",
+      "core": true,
+      "en": "Less.",
+      "meaning": {
+        "en": "Give less lead.",
+        "uk": "Менший винос."
+      },
+      "say": {
+        "uk": "Менше."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph7",
+      "speaker": "coach",
+      "core": true,
+      "en": "Hold point.",
+      "meaning": {
+        "en": "Where the muzzles wait when you call.",
+        "uk": "Де чекають стволи, коли ви подаєте команду."
+      },
+      "say": {
+        "uk": "Точка утримання."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph8",
+      "speaker": "coach",
+      "core": true,
+      "en": "Pick-up point.",
+      "meaning": {
+        "en": "Where your eyes first see the target clearly.",
+        "uk": "Де ви вперше чітко бачите мішень."
+      },
+      "say": {
+        "uk": "Точка підхоплення."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph9",
+      "speaker": "coach",
+      "core": true,
+      "en": "Break point.",
+      "meaning": {
+        "en": "Where you plan to break the target.",
+        "uk": "Де ви плануєте розбити мішень."
+      },
+      "say": {
+        "uk": "Точка пострілу."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph10",
+      "speaker": "coach",
+      "core": true,
+      "en": "Mount.",
+      "meaning": {
+        "en": "Bring the gun up to your cheek and shoulder.",
+        "uk": "Підніміть рушницю до щоки й плеча."
+      },
+      "say": {
+        "uk": "Вкладка."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph11",
+      "speaker": "coach",
+      "core": true,
+      "en": "Finish it.",
+      "meaning": {
+        "en": "Keep the gun moving after the shot ({{term:follow-through|follow-through}}).",
+        "uk": "Ведіть рушницю й після пострілу ({{term:follow-through|продовження руху}})."
+      },
+      "say": {
+        "uk": "Доведіть до кінця."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph12",
+      "speaker": "coach",
+      "core": true,
+      "en": "Head down.",
+      "meaning": {
+        "en": "Keep your cheek on the stock.",
+        "uk": "Тримайте щоку на прикладі."
+      },
+      "say": {
+        "uk": "Щокою на приклад."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph13",
+      "speaker": "coach",
+      "core": true,
+      "en": "Check your feet.",
+      "meaning": {
+        "en": "Set your {{term:stance|stance}} towards the break point.",
+        "uk": "Розверніть {{term:stance|стійку}} до точки пострілу."
+      },
+      "say": {
+        "uk": "Перевірте ноги."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph14",
+      "speaker": "coach",
+      "core": true,
+      "en": "Wait for it.",
+      "meaning": {
+        "en": "Do not move the gun yet: let the target come to your hold point.",
+        "uk": "Не рухайте рушницю завчасно: дайте мішені долетіти до точки утримання."
+      },
+      "say": {
+        "uk": "Чекайте."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph15",
+      "speaker": "coach",
+      "core": true,
+      "en": "Show me where you saw it.",
+      "meaning": {
+        "en": "Point to the place where you first saw the target clearly.",
+        "uk": "Покажіть місце, де ви вперше чітко побачили мішень."
+      },
+      "say": {
+        "uk": "Покажіть, де ви її побачили."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph16",
+      "speaker": "coach",
+      "core": true,
+      "en": "Same again.",
+      "meaning": {
+        "en": "Repeat exactly what you just did.",
+        "uk": "Повторіть точно те, що щойно зробили."
+      },
+      "say": {
+        "uk": "Так само ще раз."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph17",
+      "speaker": "coach",
+      "core": true,
+      "en": "Open the gun.",
+      "meaning": {
+        "en": "Open the gun now: you will talk or wait.",
+        "uk": "Відкрийте рушницю: зараз будете говорити або чекати."
+      },
+      "say": {
+        "uk": "Відкрийте рушницю."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-ph18",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Slower, please.",
+      "meaning": {
+        "en": "Ask the coach to speak more slowly.",
+        "uk": "Попросіть тренера говорити повільніше."
+      },
+      "say": {
+        "uk": "Повільніше, будь ласка."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "stand-talk-foreign-coach-kp1",
+      "core": true,
+      "en": "Agree on words, hand signals and a pause sign before the session",
+      "uk": "Домовтеся про слова, жести й знак паузи до заняття"
+    },
+    {
+      "k": "stand-talk-foreign-coach-kp2",
+      "core": true,
+      "en": "Talk only when the gun is open",
+      "uk": "Говоріть лише тоді, коли рушниця відкрита"
+    },
+    {
+      "k": "stand-talk-foreign-coach-kp3",
+      "core": true,
+      "en": "Check understanding: ask the shooter to show, not just to say yes",
+      "uk": "Перевіряйте розуміння: нехай стрілець покаже, а не просто скаже «так»"
+    },
+    {
+      "k": "stand-talk-foreign-coach-kp4",
+      "core": true,
+      "en": "At a competition: no coaching; the interpreter passes on only official information",
+      "uk": "На змаганнях: жодних підказок; перекладач передає лише офіційне"
+    },
+    {
+      "k": "stand-talk-foreign-coach-kp5",
+      "core": true,
+      "en": "Without an interpreter: about twenty anchor words, show instead of tell, notes in both languages",
+      "uk": "Без перекладача: близько двадцяти опорних слів, показ замість пояснень, нотатки обома мовами"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "stand-talk-foreign-coach-q1",
+      "q": {
+        "en": "A coach and a shooter share no language. What helps most in the first session?",
+        "uk": "Тренер і стрілець не мають спільної мови. Що найбільше допоможе на першому занятті?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Long explanations, spoken slowly",
+          "uk": "Довгі пояснення, повільно"
+        },
+        {
+          "k": "b",
+          "en": "Shooting more targets in silence",
+          "uk": "Більше мішеней мовчки"
+        },
+        {
+          "k": "c",
+          "en": "Agreed anchor words and hand signals",
+          "uk": "Узгоджені опорні слова й жести"
+        },
+        {
+          "k": "d",
+          "en": "A translation app during the routine",
+          "uk": "Застосунок-перекладач під час ритуалу"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A small agreed vocabulary and the coach’s signals carry most of a session; long explanations and phones during the routine get in the way.",
+        "uk": "Невеликий узгоджений словник і жести тренера тримають на собі більшу частину заняття; довгі пояснення й телефон під час ритуалу заважають."
+      }
+    },
+    {
+      "k": "stand-talk-foreign-coach-q2",
+      "disc": "both",
+      "q": {
+        "en": "At a competition, the shooter’s coach asks the interpreter to pass on a tip. What is the safe practice?",
+        "uk": "На змаганнях тренер стрільця просить перекладача передати пораду. Яка безпечна практика?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Pass it on quietly between targets",
+          "uk": "Тихо передати між мішенями"
+        },
+        {
+          "k": "b",
+          "en": "Pass it on with the referee’s nod",
+          "uk": "Передати, якщо суддя кивне"
+        },
+        {
+          "k": "c",
+          "en": "Pass it on only between stands",
+          "uk": "Передати лише між стрілецькими місцями"
+        },
+        {
+          "k": "d",
+          "en": "Decline: pass on only official words",
+          "uk": "Відмовитися: передавати лише офіційне"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Coaching during the competition is forbidden, and the rules do not mention interpreters. Passing on only the referee, the jury and the organiser protects the shooter.",
+        "uk": "Підказки під час змагань заборонені, а правила не згадують перекладачів. Якщо передавати лише слова судді, журі й організатора, стрілець захищений."
+      },
+      "rule_ref": "sporting:ch8-coaching"
+    },
+    {
+      "k": "stand-talk-foreign-coach-q3",
+      "q": {
+        "en": "When should the coach and the interpreter talk to the shooter on the stand?",
+        "uk": "Коли тренерові й перекладачеві говорити зі стрільцем на стрілецькому місці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "While the shooter mounts",
+          "uk": "Поки стрілець вкладає рушницю"
+        },
+        {
+          "k": "b",
+          "en": "Just before the call",
+          "uk": "Перед самою командою"
+        },
+        {
+          "k": "c",
+          "en": "During the swing",
+          "uk": "Під час руху рушниці"
+        },
+        {
+          "k": "d",
+          "en": "When the gun is open",
+          "uk": "Коли рушниця відкрита"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The shooter’s routine ends with the shot, and by the time the gun is closed it is well under way; words during it break the shooter’s focus.",
+        "uk": "Ритуал стрільця закінчується пострілом, і коли рушницю закрито, він уже в розпалі; слова в цей час збивають зосередженість стрільця."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "acce866d",
+    "summary": "98952911",
+    "stand-talk-foreign-coach-p1": "0a344e69",
+    "stand-talk-foreign-coach-safety": "ae75fee1",
+    "stand-talk-foreign-coach-h1": "852f62f5",
+    "stand-talk-foreign-coach-steps": "d2f91109",
+    "stand-talk-foreign-coach-p2": "599e6a34",
+    "stand-talk-foreign-coach-h2": "3049aa98",
+    "stand-talk-foreign-coach-p3": "09083933",
+    "stand-talk-foreign-coach-h3": "b82a4572",
+    "stand-talk-foreign-coach-p4": "1c872f03",
+    "stand-talk-foreign-coach-p5": "255988ce",
+    "stand-talk-foreign-coach-p6": "916671cc",
+    "stand-talk-foreign-coach-tip1": "708c025d",
+    "stand-talk-foreign-coach-ph1": "0c8b4aa7",
+    "stand-talk-foreign-coach-ph2": "bd415236",
+    "stand-talk-foreign-coach-ph3": "14a0c717",
+    "stand-talk-foreign-coach-ph4": "583a2465",
+    "stand-talk-foreign-coach-ph5": "ba3b8350",
+    "stand-talk-foreign-coach-ph6": "b3d68ce7",
+    "stand-talk-foreign-coach-ph7": "ab13a8f0",
+    "stand-talk-foreign-coach-ph8": "e816333f",
+    "stand-talk-foreign-coach-ph9": "a18c1b1c",
+    "stand-talk-foreign-coach-ph10": "9567f825",
+    "stand-talk-foreign-coach-ph11": "9592252b",
+    "stand-talk-foreign-coach-ph12": "315a444f",
+    "stand-talk-foreign-coach-ph13": "780cacd7",
+    "stand-talk-foreign-coach-ph14": "d653ea86",
+    "stand-talk-foreign-coach-ph15": "89f13f10",
+    "stand-talk-foreign-coach-ph16": "a84aa4f3",
+    "stand-talk-foreign-coach-ph17": "3b7b74e9",
+    "stand-talk-foreign-coach-ph18": "6b55a4cf",
+    "stand-talk-foreign-coach-kp1": "6b8a3e3e",
+    "stand-talk-foreign-coach-kp2": "02256c90",
+    "stand-talk-foreign-coach-kp3": "38d63240",
+    "stand-talk-foreign-coach-kp4": "fda50cac",
+    "stand-talk-foreign-coach-kp5": "ea034d3e",
+    "stand-talk-foreign-coach-q1": "2133f45c",
+    "stand-talk-foreign-coach-q2": "a6a771ab",
+    "stand-talk-foreign-coach-q3": "0bba8449"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

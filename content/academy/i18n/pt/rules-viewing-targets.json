@@ -1,0 +1,162 @@
+{
+  "id": "rules-viewing-targets",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "0064d55d",
+    "summary": "520117f9",
+    "rules-viewing-targets-p1": "ad9aaf1c",
+    "rules-viewing-targets-cmp1": "81f7ebe1",
+    "sporting-viewing-p2": "91e5fef1",
+    "sporting-viewing-p3": "41aa2110",
+    "compak-gun-and-call-p4": "94cbc3de",
+    "rules-viewing-targets-inline": "36aba8bb",
+    "rules-viewing-targets-open": "e72630ec",
+    "sporting-viewing-p4": "fe023af6",
+    "rules-viewing-targets-cmp2": "91c6febf",
+    "rules-viewing-targets-cmp3": "a954b0b5",
+    "rules-viewing-targets-tip1": "dbc75fed",
+    "rules-viewing-targets-more": "f764fc23",
+    "sporting-viewing-p6": "0980466b",
+    "sporting-viewing-ph1": "1df1c5f9",
+    "sporting-viewing-ph2": "f2d71d4d",
+    "sporting-viewing-ph3": "7dd75e34",
+    "sporting-viewing-ph4": "e39faadc",
+    "compak-gun-and-call-ph1": "6126c547",
+    "sporting-viewing-kp1": "cf204807",
+    "sporting-viewing-kp2": "1f60b759",
+    "sporting-viewing-kp3": "d07a0eb2",
+    "compak-gun-and-call-kp4": "cde28806",
+    "sporting-viewing-kp4": "7f195256",
+    "rules-viewing-targets-dyk": "d3836026",
+    "sporting-viewing-q1": "8dc8d7ba",
+    "rules-viewing-targets-q2": "8a902885",
+    "sporting-viewing-q3": "442066c3",
+    "sporting-viewing-q2": "7517024b",
+    "rules-viewing-targets-q4": "9490a582",
+    "rules-viewing-targets-q5": "004cd4f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "A mostra dos pratos",
+  "summary": "Como se mostram os pratos antes de atirar em {{tm:sporting}} e {{tm:compak}}, que doubles vê, e o que pode fazer enquanto voam.",
+  "body": {
+    "rules-viewing-targets-p1": "Antes de atirar, os pratos são mostrados: é a {{term:target-presentation|mostra}}. Em {{tm:sporting}} isto acontece em cada posto. Em {{tm:compak}} por {{term:squad|esquadra}}, em que uma esquadra de {{fact:rules.squad-max-shooters}} avança pelos postos, acontece só uma vez por dia, para a primeira esquadra. Em linha funciona de outra forma (veja abaixo). A mostra permite ler cada prato: a sua linha, velocidade e distância, e o que o prato faz no ar.",
+    "rules-viewing-targets-cmp1": {
+      "sporting": "Em cada posto, o primeiro atirador da esquadra vê todas as trajetórias, já na posição de partida no posto.",
+      "compak": "Por esquadra: só uma vez por dia, de manhã, para a primeira esquadra do dia. O atirador do posto 1 pede os simples A a F. Em linha: veja abaixo."
+    },
+    "sporting-viewing-p2": "Pode pedir ao árbitro que repita a mostra de um prato: no máximo mais duas vezes por cada prato do menu do posto.",
+    "sporting-viewing-p3": "Os {{term:double-on-report|doubles ao tiro}} (o segundo prato sai quando dispara ao primeiro) não são mostrados. Já viu os seus pratos, no entanto: um double só usa pratos já atirados como simples nesse posto. Ao primeiro atirador de cada esquadra mostram-se os {{term:simultaneous-double|doubles simultâneos}} (os dois pratos saem juntos) e os {{term:rafale-double|doubles rafale}} (dois pratos da mesma máquina, um a seguir ao outro). A pedido, são mostrados outra vez, no máximo duas vezes.",
+    "compak-gun-and-call-p4": "Por esquadra, aos simples seguem-se os doubles simultâneos dos postos 1 a 5. Depois disso ouvirá «start» ou «competition» do árbitro, e começa o tiro com pontuação.",
+    "rules-viewing-targets-inline": "{{tm:compak}} também pode ser atirado {{term:compak-in-line|em linha}}: os atiradores entram no posto 1 um a um e avançam ao longo da linha até ao posto 5. Antes do início, o primeiro atirador pode pedir para ver os simples A a F; com doubles simultâneos, mostram-se também os doubles de cada posto. Enquanto a linha enche, cada novo atirador no posto 1 vê primeiro o prato de abertura do seu double. Enquanto a linha esvazia, o árbitro faz o mesmo nos postos mais adiantados. Detalhes: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+    "rules-viewing-targets-open": "Nas duas disciplinas, as armas ficam abertas e descarregadas durante a mostra e qualquer interrupção. Só feche a sua quando o árbitro o permitir.",
+    "sporting-viewing-p4": "Disparar, ou fazer {{term:mock-shooting|simulacro de tiro}} (montar e mover a arma ao longo da linha do prato sem disparar), durante a mostra é proibido. É penalizado como uma infração de posição da arma: primeiro uma advertência, depois um cartão vermelho.",
+    "rules-viewing-targets-cmp2": {
+      "sporting": "Se uma máquina avariar ou o tiro parar durante {{fact:rules.reshow-after-interruption}}, os pratos do posto são mostrados outra vez.",
+      "compak": "Depois de uma pausa de {{fact:rules.reshow-after-interruption}}, o árbitro mostra os seis simples outra vez."
+    },
+    "rules-viewing-targets-cmp3": {
+      "sporting": "Ninguém pode treinar nos percursos da competição.",
+      "compak": "Pode treinar nas trajetórias da competição, mas não com os menus da competição. As {{term:trajectory-setting-table|grelhas de tiro}} (menus prontos que dizem quais as máquinas disparadas em cada posto) têm de ser diferentes para o treino. Nos campeonatos continentais e mundiais, o treino oficial começa no sábado antes da prova."
+    },
+    "rules-viewing-targets-tip1": "Use a mostra para planear cada prato. Note onde o verá primeiro com nitidez, o {{term:pick-up-point|ponto de visão}}, e onde o vai partir, o {{term:break-point|ponto de tiro}}. Muitos treinadores sugerem também escolher, já durante a mostra, a ordem de um double simultâneo.",
+    "rules-viewing-targets-more": "Como ler um prato a partir da mostra: {{lesson:targets-reading-a-target}}."
+  },
+  "note": {
+    "sporting-viewing-p6": "No treino, a mostra é o momento preferido do treinador: «veja onde ele vira». Em competição, a mostra faz parte da prova, por isso aplica-se a proibição de coaching: fique em silêncio, a não ser que o árbitro ou o atirador precisem de uma tradução de procedimento."
+  },
+  "phrases": {
+    "sporting-viewing-ph1": {
+      "meaning": "Atirador para o árbitro: comece a mostra.",
+      "say": "Mostre-me os pratos, por favor."
+    },
+    "sporting-viewing-ph2": {
+      "meaning": "Pedido para repetir um prato do menu.",
+      "say": "Outra vez, por favor, só o B."
+    },
+    "sporting-viewing-ph3": {
+      "meaning": "Árbitro: abram e descarreguem as armas até ele permitir fechá-las.",
+      "say": "Armas abertas durante a mostra."
+    },
+    "sporting-viewing-ph4": {
+      "meaning": "Treinador no treino: repare no ponto em que o prato muda de direção ou de forma.",
+      "say": "Veja onde ele vira."
+    },
+    "compak-gun-and-call-ph1": {
+      "meaning": "Árbitro: a mostra terminou e começa o tiro com pontuação.",
+      "say": "Começar! / Competição!"
+    }
+  },
+  "key_points": {
+    "sporting-viewing-kp1": "{{tm:sporting}}: em cada posto, o primeiro atirador da esquadra vê todas as trajetórias, já na posição de partida.",
+    "sporting-viewing-kp2": "{{tm:sporting}}: a pedido, até duas repetições por cada prato do menu.",
+    "sporting-viewing-kp3": "{{tm:sporting}}: os doubles ao tiro não são mostrados; o primeiro atirador de cada esquadra vê os doubles simultâneos e rafale.",
+    "compak-gun-and-call-kp4": "{{tm:compak}} por esquadra: os pratos são mostrados uma vez por dia, de manhã, só para a primeira esquadra. Depois de uma pausa de {{fact:rules.reshow-after-interruption}}, o árbitro mostra os seis simples outra vez. Em linha tem uma ordem própria.",
+    "sporting-viewing-kp4": "As armas ficam abertas durante a mostra; no {{tm:sporting}}, disparar ou fazer simulacro de tiro nesse momento é penalizado."
+  },
+  "did_you_know": "Em {{tm:sporting}} o menu à frente de cada posto lista as máquinas pela ordem de tiro e assinala pratos especiais, como uma {{term:battue|batida}} ou um {{term:rabbit|coelho}}.",
+  "quiz": {
+    "sporting-viewing-q1": {
+      "q": "Em {{tm:sporting}}, que doubles NÃO são mostrados na mostra?",
+      "options": {
+        "a": "Simultâneos",
+        "b": "Rafale",
+        "c": "Ao tiro",
+        "d": "Nenhum deles"
+      },
+      "explain": "Em {{tm:sporting}} os doubles ao tiro não são mostrados; os simultâneos e os rafale são. Um double só usa pratos já atirados como simples nesse posto."
+    },
+    "rules-viewing-targets-q2": {
+      "q": "Em {{tm:compak}} por esquadra, com que frequência os pratos são mostrados?",
+      "options": {
+        "a": "Antes de cada esquadra, em cada posto",
+        "b": "Uma vez por dia, para a primeira esquadra",
+        "c": "Só quando um atirador o pede"
+      },
+      "explain": "Há uma mostra por dia, de manhã, para a primeira esquadra; depois de uma pausa de {{fact:rules.reshow-after-interruption}} o árbitro mostra os seis simples outra vez."
+    },
+    "sporting-viewing-q3": {
+      "q": "Em {{tm:sporting}}, durante a mostra um atirador fecha a arma e move-a ao longo da linha de um prato. O que se aplica?",
+      "options": {
+        "a": "Proibido: advertência, depois cartão vermelho",
+        "b": "Permitido: a mostra é treino livre",
+        "c": "O prato é mostrado outra vez",
+        "d": "Só o treinador é advertido"
+      },
+      "explain": "As armas ficam abertas durante a mostra, e disparar ou fazer simulacro de tiro é penalizado como uma infração de posição da arma."
+    },
+    "sporting-viewing-q2": {
+      "q": "Em {{tm:sporting}}, quantas repetições pode pedir o atirador que está no posto?",
+      "options": {
+        "a": "Nenhuma",
+        "b": "Duas por cada prato do menu",
+        "c": "Tantas quantas precisar",
+        "d": "Uma por posto"
+      },
+      "explain": "A pedido, o árbitro mostra um prato outra vez, no máximo duas vezes por cada prato do menu."
+    },
+    "rules-viewing-targets-q4": {
+      "q": "{{tm:compak}} em linha, com doubles ao tiro. Enquanto a linha enche, um novo atirador entra no posto 1. O que lhe mostra o árbitro?",
+      "options": {
+        "a": "O primeiro prato do seu double",
+        "b": "Nada",
+        "c": "Todos os simples A a F",
+        "d": "O menu todo outra vez"
+      },
+      "explain": "Em linha, os simples A a F são mostrados ao primeiro atirador antes do início. Depois disso, cada novo atirador no posto 1 vê o prato de abertura do seu double."
+    },
+    "rules-viewing-targets-q5": {
+      "q": "Pode treinar nas trajetórias da competição antes de uma prova de {{tm:compak}}?",
+      "options": {
+        "a": "Não, de forma alguma",
+        "b": "Só na manhã da prova",
+        "c": "Sim, com grelhas de tiro diferentes"
+      },
+      "explain": "{{tm:compak}} permite treinar nas trajetórias da competição, mas as grelhas de tiro (menus) do treino têm de ser diferentes; em {{tm:sporting}} treinar nos percursos da competição não é permitido a ninguém."
+    }
+  }
+}

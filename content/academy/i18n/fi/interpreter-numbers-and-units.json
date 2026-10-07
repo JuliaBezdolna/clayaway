@@ -1,0 +1,103 @@
+{
+  "id": "interpreter-numbers-and-units",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "27ce2b02",
+    "summary": "57f2da6e",
+    "interpreter-numbers-and-units-p1": "c2bc2ad1",
+    "interpreter-numbers-and-units-p2": "fad676a6",
+    "interpreter-numbers-and-units-p3": "8353a9eb",
+    "interpreter-numbers-and-units-p4": "d88b4af0",
+    "interpreter-numbers-and-units-chokes": "a828e484",
+    "interpreter-numbers-and-units-ph1": "cbc38942",
+    "interpreter-numbers-and-units-ph2": "8c188306",
+    "interpreter-numbers-and-units-ph3": "328b9d6d",
+    "interpreter-numbers-and-units-ph4": "86325b8e",
+    "interpreter-numbers-and-units-ph5": "be5f2b18",
+    "interpreter-numbers-and-units-kp1": "2bdc5697",
+    "interpreter-numbers-and-units-kp2": "328aa381",
+    "interpreter-numbers-and-units-kp3": "58c502e4",
+    "interpreter-numbers-and-units-kp4": "cff0fd20",
+    "interpreter-numbers-and-units-kp5": "45efd965",
+    "interpreter-numbers-and-units-q1": "1f0cc95c",
+    "interpreter-numbers-and-units-q2": "862c2542",
+    "interpreter-numbers-and-units-q3": "58baa361"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Numerot ja yksiköt: jalat, jaardit, kaliiperit, haulikoot",
+  "summary": "Jaardit ja metrit, kellotaulun suunnat, kaliiperinumerot, lataukset, haulikoot ja supistajat: mitkä numerot muuntaa, mitkä pitää sellaisina kuin sanottu, ja mitkä ovat FITASC:n rajat.",
+  "body": {
+    "interpreter-numbers-and-units-p1": "Ensin ennakko. Brittiläiset ja amerikkalaiset {{term:coach|valmentajat}} antavat {{term:lead|ennakon}} jalkoina tai jaardeina: «give it three feet», «a yard in front». Tämä on kuva (väli, jonka ampujan pitäisi nähdä laukauksen hetkellä), ei mittaus. Pidä yksikkö sellaisena kuin sanottu, älä muunna sitä ohjeen keskellä. Lisää ennakon sanoista: {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p2": "Etäisyydet kohteisiin ovat eri asia. «It's about thirty yards» voi muuttua «noin 27 metriksi», koska jaardi on {{fact:stand-talk.unit-yard}}. Pidä sana «noin». Suunnat tulevat usein {{term:clock-face|kellotaulun}} muodossa kentän päälle asetettuna: suoraan edessä on 12, niin «pick it up at eleven o'clock» tarkoittaa hieman vasemmalle. Pidä kellotaulu; älä muuta sitä asteiksi.",
+    "interpreter-numbers-and-units-p3": "{{term:gauge|Kaliiperi}} toimii päinvastoin. «12-bore» tai «12 gauge» ei ole 12 mm: pienempi numero tarkoittaa leveämpää piippua, niin 20. kaliiperi on kapeampi. Molemmat FITASC:n sääntökirjat ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) sallivat aseet, joissa {{fact:gear.fitasc-max-gauge}}, ja {{term:barrel-length|piiput}} {{fact:gear.fitasc-min-barrel}}. Lajissa {{tm:sporting}} liivin viiva kulkee {{fact:rules.sporting-jacket-line}}; britit voivat sanoa sen olevan vajaa kymmenen tuumaa. Olkapäiden akseli on kuviteltu viiva molempien olkapäiden poikki.",
+    "interpreter-numbers-and-units-p4": "{{term:cartridge|Patruunat}}: molemmat sääntökirjat sallivat {{term:load-weight|latauksen}} {{fact:gear.fitasc-shot-load}}. Se on lähellä «one-ounce load» -latausta, josta britit puhuvat, koska unssi on {{fact:stand-talk.unit-ounce}}. Haulien on oltava {{fact:gear.fitasc-shot-diameter}}. {{term:shot-size|Haulikoot}} eroavat maittain. N:o 9 on lähes kaikkialla noin 2 mm, mutta muut numerot vaihtelevat hieman brittiläisen, amerikkalaisen ja mantereisen järjestelmän välillä. Kun se on tärkeää, kysy millimetrejä ({{lesson:cartridges-shot-size}}).",
+    "interpreter-numbers-and-units-chokes": "{{term:choke|Supistajat}} (piipun suupään kavennus) voidaan antaa nimillä, murtolukuina tai «thou»-yksikköinä (tuuman tuhannesosina). Käännä ne siinä järjestelmässä, jota valmentaja käytti, äläkä muunna yhtä järjestelmää toiseksi."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-numbers-and-units-ph1": {
+      "meaning": "Ennakon kuva, jota valmentaja haluaa; näkyvä väli, ei mitattu etäisyys.",
+      "say": "Ennakko — kolme jalkaa."
+    },
+    "interpreter-numbers-and-units-ph2": {
+      "meaning": "Käytä puolet edellisestä ennakosta.",
+      "say": "Puolet siitä."
+    },
+    "interpreter-numbers-and-units-ph3": {
+      "meaning": "Etsi kohdetta hieman vasemmalta suoraan edestä.",
+      "say": "Nappaa se kello yhdentoista kohdalta."
+    },
+    "interpreter-numbers-and-units-ph4": {
+      "meaning": "Kohde on noin 37 metrin päässä.",
+      "say": "Se on noin neljänkymmenen jaardin päässä — se on noin 37 metriä."
+    },
+    "interpreter-numbers-and-units-ph5": {
+      "meaning": "Laita N:o 9 -haulipatruuna (noin 2 mm) alapiippuun, joka laukeaa tavallisesti ensin.",
+      "say": "Alapiippuun — ysi."
+    }
+  },
+  "key_points": {
+    "interpreter-numbers-and-units-kp1": "Ennakko jalkoina on kuva: pidä yksikkö, älä muunna ohjeen keskellä",
+    "interpreter-numbers-and-units-kp2": "Kohteen etäisyys: jaardit voivat muuttua «noin … metriksi»",
+    "interpreter-numbers-and-units-kp3": "Kellotaulu suunnille: 12 = suoraan edessä",
+    "interpreter-numbers-and-units-kp4": "12. kaliiperi ≠ 12 mm; FITASC:n enimmäiskaliiperi 12, piiput ≥ 66 cm (26 tuumaa)",
+    "interpreter-numbers-and-units-kp5": "28 g ≈ unssi; haulit 2,0–2,5 mm; haulikoot eroavat maittain — kysy millimetrejä"
+  },
+  "quiz": {
+    "interpreter-numbers-and-units-q1": {
+      "q": "Valmentaja sanoo «It's about thirty yards.» Kuinka välität sen ampujalle, joka ajattelee metreinä?",
+      "options": {
+        "a": "«Noin 27 metriä»",
+        "b": "«Tarkalleen 27,43 metriä»",
+        "c": "«Noin 33 metriä»",
+        "d": "«Noin 3 metriä»"
+      },
+      "explain": "Jaardi on hieman alle metrin (noin 0,9 m), niin kolmekymmentä jaardia on noin 27 m. Pidä «noin»: valmentajan luku on arvio."
+    },
+    "interpreter-numbers-and-units-q2": {
+      "q": "Mikä on suurin sallittu kaliiperi lajeissa {{tm:sporting}} ja {{tm:compak}}?",
+      "options": {
+        "a": "10",
+        "b": "16",
+        "c": "20",
+        "d": "12"
+      },
+      "explain": "Molemmat sääntökirjat sallivat enintään 12. kaliiperin; pienempi numero tarkoittaa leveämpää piippua, niin 10. ei ole sallittu."
+    },
+    "interpreter-numbers-and-units-q3": {
+      "q": "Brittivieras kysyy, ovatko hänen «one-ounce»-patruunansa laillisia FITASC-kilpailussa. Mitä tiedät?",
+      "options": {
+        "a": "Enintään 36 g, noin 1¼ unssia",
+        "b": "Mikä tahansa lataus: ei rajaa",
+        "c": "28 g lataus (+2 %), noin yksi unssi",
+        "d": "Sallittu on vain 24 g lataus"
+      },
+      "explain": "Säännöt sallivat lyijylatauksen enintään 28 g toleranssilla +2 %, ja unssi on noin 28,3 g. Myös haulikoon (2,0–2,5 mm) on sovittava."
+    }
+  }
+}

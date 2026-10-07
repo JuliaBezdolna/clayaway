@@ -1,0 +1,93 @@
+{
+  "id": "targets-menu",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "744c4dd7",
+    "targets-menu-p1": "3f14bae6",
+    "targets-menu-p2": "e79c6d7a",
+    "targets-menu-p3": "4c1f1230",
+    "targets-menu-p4": "8d8e6b9e",
+    "targets-menu-p5": "d09ec478",
+    "targets-menu-kp1": "46ec13eb",
+    "targets-menu-kp2": "ae9c7733",
+    "targets-menu-kp3": "dc3aa01c",
+    "targets-menu-kp4": "3008ddb0",
+    "targets-menu-kp5": "f1caa6ca",
+    "targets-menu-ph1": "bd4b48d5",
+    "targets-menu-ph2": "e9f0ce43",
+    "targets-menu-ph3": "012cd5f5",
+    "targets-menu-q1": "a704aed6",
+    "targets-menu-q2": "5aa8cfe2",
+    "targets-menu-q3": "07b1c509",
+    "summary": "97cd40e7"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Ler o menu de tiro",
+  "body": {
+    "targets-menu-p1": "O {{term:target-menu|menu de tiro}} é o painel no posto que diz ao atirador o que aí vem: que máquinas, por que ordem, e que tipo de doubles.",
+    "targets-menu-p2": "No {{tm:sporting}} o menu indica as máquinas pela ordem de tiro e tem de assinalar quaisquer pratos especiais: {{fact:targets.sporting-menu-special-targets}}. Os árbitros verificam antecipadamente se as máquinas correspondem ao menu. Um percurso dá {{fact:targets.sporting-layout-targets}}. Os doubles só podem usar pratos já mostrados como simples nesse posto, e a esquadra atira primeiro os simples.",
+    "targets-menu-p3": "Cada double é assinalado com o seu tipo. {{term:double-on-report|Ao tiro}}: o segundo prato sai ao som do primeiro tiro. {{term:simultaneous-double|Simultâneo}}: os dois pratos saem juntos. {{term:rafale-double|Rafale}}: dois pratos da mesma máquina, um a seguir ao outro, só no {{tm:sporting}}. Os menus têm aspeto diferente de campo para campo, por isso leia as palavras, não apenas as letras.",
+    "targets-menu-p4": "No {{tm:compak}} há um menu afixado em cada um dos cinco postos. Cada posto tem cinco pratos, numa de três combinações: {{fact:targets.compak-station-menus}}. Os simples podem vir das máquinas por qualquer ordem. Os cinco postos têm o mesmo tipo de double, e os postos estão ligados numa cadeia: {{fact:targets.compak-double-chain}}. Para as competições, a FITASC disponibiliza {{fact:targets.compak-setting-tables}}.",
+    "targets-menu-p5": "Antes de o seu atirador entrar no posto, leia-lhe o menu em voz alta na língua dele, letra a letra: «A, depois F, depois B, depois o double C e E ao tiro.»"
+  },
+  "note": {},
+  "phrases": {
+    "targets-menu-ph1": {
+      "meaning": "Posto 3: três pratos simples e depois um double ao tiro; cinco pratos ao todo.",
+      "say": "Leia o menu: no posto três tem A, depois F, depois B, depois o double C e E ao tiro."
+    },
+    "targets-menu-ph2": {
+      "meaning": "A ordem mudou desde a última série.",
+      "say": "Mesmas máquinas, menu novo — não atire de memória."
+    },
+    "targets-menu-ph3": {
+      "meaning": "«Simo» é a abreviatura de double simultâneo.",
+      "say": "Três simples e depois um simultâneo."
+    }
+  },
+  "key_points": {
+    "targets-menu-kp1": "Leia o menu antes de entrar no posto: a ordem das máquinas, os pratos especiais, o tipo de cada double.",
+    "targets-menu-kp2": "Menu de {{tm:sporting}}: máquinas por ordem, mais os pratos especiais ({{fact:targets.sporting-menu-special-targets}}).",
+    "targets-menu-kp3": "Um percurso de {{tm:sporting}} dá {{fact:targets.sporting-layout-targets}}; os doubles usam pratos já mostrados como simples; primeiro os simples.",
+    "targets-menu-kp4": "Doubles: ao tiro, simultâneo, rafale (só no {{tm:sporting}}).",
+    "targets-menu-kp5": "{{tm:compak}}: cinco pratos por posto, o mesmo tipo de double em todos os postos, cada double começa com o último prato do posto anterior."
+  },
+  "quiz": {
+    "targets-menu-q1": {
+      "q": "Que pratos especiais tem de indicar um menu de Sporting™?",
+      "options": {
+        "a": "Só as cores dos pratos",
+        "b": "90 mm, 70 mm, 60 mm, batida ou coelho",
+        "c": "Só coelhos e batidas",
+        "d": "Nenhum; o árbitro anuncia-os"
+      },
+      "explain": "O menu tem de indicar as máquinas por ordem e os tipos de prato especiais."
+    },
+    "targets-menu-q2": {
+      "q": "No Compak® Sporting, com que prato começa cada double?",
+      "options": {
+        "a": "Sempre com a máquina A",
+        "b": "Com um prato ainda não visto",
+        "c": "Com o último prato atirado no posto anterior",
+        "d": "Com qualquer prato à escolha do atirador"
+      },
+      "explain": "Os doubles encadeiam-se entre postos: cada um começa com o último prato do posto anterior."
+    },
+    "targets-menu-q3": {
+      "q": "Que tipo de double só existe no Sporting™?",
+      "options": {
+        "a": "Rafale",
+        "b": "Ao tiro",
+        "c": "Simultâneo",
+        "d": "Nenhum"
+      },
+      "explain": "Os doubles do Compak® são ao tiro ou simultâneos; o rafale é um double do Sporting™."
+    }
+  },
+  "summary": "Como ler o menu de tiro num posto de {{tm:sporting}} e num posto de {{tm:compak}}: a ordem das máquinas, os pratos especiais e o tipo de cada double."
+}

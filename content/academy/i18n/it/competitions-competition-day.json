@@ -1,0 +1,131 @@
+{
+  "id": "competitions-competition-day",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "da330bf4",
+    "summary": "03f0d6e8",
+    "sport-competition-day-p1": "fe775f1f",
+    "competitions-competition-day-p1": "1637c3ac",
+    "competitions-competition-day-p2": "67e7bbfe",
+    "competitions-competition-day-p3": "f4441a9d",
+    "competitions-competition-day-practice": "8b778fed",
+    "sport-competition-day-p2": "e6be5fdb",
+    "competitions-competition-day-p5": "dd34255e",
+    "competitions-competition-day-ready": "b0097c3e",
+    "sport-competition-day-p3": "1c827ea1",
+    "sport-competition-day-p4": "31ca987d",
+    "competitions-competition-day-late-inline": "b5ebbfb9",
+    "competitions-competition-day-late": "29daedd5",
+    "sport-competition-day-p5": "88bcdcdc",
+    "competitions-competition-day-end": "d5f38b62",
+    "competitions-competition-day-n1": "2c5d9407",
+    "competitions-competition-day-n-parent": "416800c4",
+    "sport-competition-day-ph1": "aca8882e",
+    "sport-competition-day-ph2": "19bd30f0",
+    "sport-competition-day-ph3": "c9b8e464",
+    "sport-competition-day-ph4": "2f81332b",
+    "sport-competition-day-kp1": "1253bc50",
+    "competitions-competition-day-kp1": "d0538c31",
+    "competitions-competition-day-kp-ready": "4fd327b5",
+    "sport-competition-day-kp4": "05da6963",
+    "sport-competition-day-kp5": "8745608e",
+    "competitions-competition-day-dyk": "bee33939",
+    "competitions-competition-day-q-protection": "52593bf2",
+    "competitions-competition-day-q2": "ee8d9127",
+    "sport-competition-day-q2": "1bccddb2",
+    "competitions-competition-day-q1": "2e3a9e98",
+    "sport-competition-day-q3": "7ccca26d",
+    "competitions-competition-day-q-inline-late": "ba6595e7",
+    "competitions-competition-day-q-carry": "861a9947"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "La giornata di gara dall'inizio alla fine",
+  "summary": "Cosa succede in una giornata di gara nel {{tm:sporting}} e nel {{tm:compak}}: registrazione, pettorale, batterie e rotazione, ritardo, punteggi e la fine della giornata.",
+  "body": {
+    "sport-competition-day-p1": "La giornata inizia con la registrazione: il tiratore conferma {{term:entry|l'iscrizione}}, riceve il {{term:competitor-number|pettorale}} e lo appunta in alto sulla schiena, ben visibile. Poi tutti controllano le liste delle {{term:squad|batterie}} e {{term:shooting-times|gli orari di tiro}}. Una batteria è un gruppo di massimo sei tiratori, sorteggiati, che tirano insieme. Rispettare l'orario è responsabilità del tiratore stesso.",
+    "competitions-competition-day-p1": "Arrivate con anticipo: la registrazione, trovare la propria batteria e prepararsi richiedono tempo. Il {{term:competitor-number|pettorale}} va tra le spalle e la vita, senza piegarlo né tagliarlo. Indossate {{term:hearing-protection|le protezioni per l'udito}} e {{term:safety-glasses|gli occhiali di protezione}} prima di andare in pedana. In entrambe le discipline un tiratore che si presenta senza di essi conta come assente, e si applicano le regole sul ritardo (vedi sotto).",
+    "competitions-competition-day-p2": "Vestitevi in modo ordinato e sicuro: i pantaloncini possono finire {{fact:rules.dress-shorts-length}}, le maglie richiedono le maniche e i sandali non sono permessi. Portate il fucile aperto (a cerniera, così tutti vedono che non è carico) e senza cinghia. Un {{term:semi-automatic|semiautomatico}} si porta con l'otturatore aperto (la culatta bloccata indietro). Tutte le regole: {{lesson:rules-dress-and-safety}}.",
+    "competitions-competition-day-p3": "Volete controllare se il fucile funziona? Fatelo prima della serie, su un apposito {{term:gun-test|banco di prova}} se il campo ne ha uno. I colpi di prova su una pedana di gara non sono permessi.",
+    "competitions-competition-day-practice": {
+      "sporting": "Nessuno può allenarsi sui percorsi di gara prima dell'evento. Allenatevi su altri campi.",
+      "compak": "Potete {{term:practice|allenarvi}} sulle stesse traiettorie di volo dei piattelli della gara, ma la {{term:trajectory-setting-table|tabella di impostazione delle traiettorie}} deve essere diversa. Questa tabella è lo schema che indica da quali macchine si tira su ogni postazione. Ai campionati continentali e mondiali l'allenamento ufficiale apre {{fact:training.compak-championship-practice}}."
+    },
+    "sport-competition-day-p2": "Nel {{tm:sporting}} la batteria tira prima tutti i {{term:single-target|singoli}} di una pedana, poi i {{term:double|doppi}}, e a ogni nuova pedana parte prima un tiratore diverso ({{term:rotation|la rotazione}} cambia). Prima che qualcuno spari, al primo tiratore della batteria vengono mostrati i piattelli: ciascuno viene lanciato in modo che se ne veda il volo.",
+    "competitions-competition-day-p5": "Quando il {{tm:compak}} si tira a batterie, una batteria completa ha sei tiratori: cinque stanno sulle cinque postazioni e il sesto aspetta dietro la postazione 1. Con meno tiratori una postazione resta vuota. Quando tutti hanno tirato i loro piattelli dalla propria postazione, la batteria si sposta di una postazione a destra. Il tiratore della postazione 5 va ad aspettare dietro la postazione 1, e chi aspettava sale sulla postazione 1. Questo continua finché ogni tiratore non ha tirato da tutte le cinque postazioni. Prima della vostra serie, andate al campo {{tm:compak}} che vi è stato assegnato e presentatevi all'arbitro: è obbligatorio. Nel {{term:compak-in-line|Compak in linea}} i tiratori non si spostano come batteria: entrano sulla postazione 1 uno alla volta e avanzano lungo la linea fino alla postazione 5.",
+    "competitions-competition-day-ready": "Quando arriva il vostro turno, siate pronti subito, con le cartucce per tutta la serie. Nel {{tm:compak}} l'arbitro non è tenuto a cercare un tiratore assente. Come funzionano i percorsi: {{lesson:targets-sporting-layout}} e {{lesson:targets-compak-layout}}.",
+    "sport-competition-day-p3": "Una {{term:round|serie}} è di 25 piattelli: un {{term:layout|percorso}} nel {{tm:sporting}}, un campo nel {{tm:compak}}. Una gara internazionale è di 200 piattelli, quindi otto serie in più giorni. L'arbitro segna ogni piattello sullo {{term:score-sheet|statino}}, di solito X per un colpito e O per un mancato. Nel {{tm:sporting}} i tiratori controllano il punteggio quando lasciano una pedana; nel {{tm:compak}} firmano lo statino alla fine della serie.",
+    "sport-competition-day-p4": "Arrivare in ritardo costa caro. Nel {{tm:sporting}} l'arbitro chiama il nome del tiratore tre volte nell'arco di un minuto; un tiratore che salta il proprio turno riceve zero per i piattelli non tirati. Nel {{tm:compak}} un tiratore che si presenta dopo che il primo tiratore della batteria ha già chiamato il primo piattello (chiesto di lanciarlo) riceve {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late-inline": "Nel {{term:compak-in-line|Compak in linea}} siete considerati in ritardo quando si sono verificate due cose: il sistema informatico ha annullato il vostro pettorale, e il tiratore successivo è sulla postazione 1. La penalità è la stessa: {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late": "In ritardo per un motivo fuori dal vostro controllo? Non rientrate nella batteria da soli: fate reclamo per iscritto alla {{term:jury|giuria}} (il collegio che dirige la gara), nel {{tm:compak}} lo stesso giorno. Se la giuria accetta, tirate la serie con un'altra batteria. Dettagli: {{lesson:rules-call-and-time}}.",
+    "sport-competition-day-p5": "Se alcuni tiratori sono a pari merito per uno dei primi tre posti, la parità si risolve con {{fact:competitions.shoot-off-format}}. Nella morte improvvisa continuano a tirare, e il primo che manca è fuori. Sotto il terzo posto non c'è spareggio: i tiratori a pari merito condividono il posto. Il {{term:countback|spareggio a ritroso}} stabilisce il loro ordine in classifica: i punteggi vengono confrontati {{fact:competitions.countback-order}}. La giornata si chiude con il tabellone dei risultati e la premiazione.",
+    "competitions-competition-day-end": "Potreste finire in uno spareggio? Restate nelle vicinanze e raggiungibili: potreste dover tirare {{fact:rules.shootoff-ready-time}}. Alle gare internazionali tutti i premiati devono presenziare alla {{term:prize-giving|premiazione}}, in tenuta di squadra o con pantaloni eleganti e blazer. Come leggere i risultati: {{lesson:watching-reading-results}}."
+  },
+  "note": {
+    "competitions-competition-day-n1": "I tour ClayAway, che sono in preparazione, useranno la parola «squad» anche per un sottogruppo di un tour. In gara significa il gruppo che tira insieme, quindi precisate sempre a quale dei due vi riferite.",
+    "competitions-competition-day-n-parent": "Guardate dalla zona spettatori e state in silenzio vicino alla pedana. Un consiglio gridato durante la serie conta come {{term:coaching|coaching}}: l'arbitro può dare per questo un cartellino giallo a vostro figlio. Per saperne di più: {{lesson:juniors-support-without-pressure}}."
+  },
+  "phrases": {
+    "sport-competition-day-ph1": {
+      "meaning": "Numero della batteria, percorso di partenza e orario di partenza.",
+      "say": "Sei nella batteria dodici, si parte dal percorso cinque alle nove e mezza."
+    },
+    "sport-competition-day-ph2": {
+      "meaning": "{{tm:sporting}}: assicuratevi subito che l'arbitro abbia registrato correttamente il punteggio; dopo è troppo tardi.",
+      "say": "Controlla lo statino prima di lasciare la pedana."
+    },
+    "sport-competition-day-ph3": {
+      "meaning": "22 su 25 nella prima serie; in una gara da 200 piattelli restano sette serie.",
+      "say": "Ventidue nella prima serie va bene: ne mancano altre sette."
+    },
+    "sport-competition-day-ph4": {
+      "meaning": "Un tiratore che potrebbe finire in uno spareggio deve essere pronto poco dopo la chiamata.",
+      "say": "Restate nelle vicinanze: se c'è una parità, tirerete entro quindici minuti dalla chiamata."
+    }
+  },
+  "key_points": {
+    "sport-competition-day-kp1": "Registrazione, pettorale sulla schiena, liste delle batterie e orari.",
+    "competitions-competition-day-kp1": "Senza protezione per l'udito e occhiali di protezione in pedana siete considerati assenti.",
+    "competitions-competition-day-kp-ready": "Siate pronti al vostro turno, con le cartucce per tutta la serie; testate il fucile solo al banco di prova.",
+    "sport-competition-day-kp4": "Il ritardo costa zeri; nel {{tm:compak}} {{fact:competitions.compak-late-zeros}}.",
+    "sport-competition-day-kp5": "Parità per i primi tre posti: spareggio su 25, poi morte improvvisa; parità inferiori: spareggio a ritroso."
+  },
+  "did_you_know": "Nel {{tm:sporting}} la batteria aspetta quanto più vicino possibile alla pedana, ma in un punto che non distrae chi sta tirando.",
+  "quiz": {
+    "competitions-competition-day-q-protection": {
+      "q": "Cosa succede se arrivate in pedana senza protezione per l'udito o occhiali di protezione?",
+      "options": { "a": "Potete tirare, ma ricevete un avvertimento", "b": "Siete considerati assenti e non potete tirare", "c": "L'arbitro vi dà un set di scorta" },
+      "explain": "In entrambe le discipline un tiratore senza protezione per l'udito o occhiali di protezione è considerato assente, e si applicano le regole sul ritardo."
+    },
+    "competitions-competition-day-q2": {
+      "q": "Dove potete controllare se il fucile funziona?",
+      "options": { "a": "Sulla prima pedana di gara, prima della serie", "b": "Ovunque sul campo, se la zona è libera", "c": "A un apposito banco di prova, se il campo ne ha uno" },
+      "explain": "I colpi di prova su una pedana di gara non sono permessi in nessuna delle due discipline; usate il banco di prova."
+    },
+    "sport-competition-day-q2": {
+      "q": "Nel {{tm:compak}} tirato a batterie, un tiratore arriva dopo che il primo tiratore ha chiamato il primo piattello. Cosa succede?",
+      "options": { "a": "Niente, si unisce agli altri", "b": "Riceve 25 zero per quella serie", "c": "Tira la serie da solo più tardi, senza penalità", "d": "Perde un piattello" },
+      "explain": "Nel {{tm:compak}} a batterie, arrivare dopo la prima chiamata costa {{fact:competitions.compak-late-zeros}}. Per un motivo fuori dal vostro controllo, potete fare reclamo per iscritto alla giuria lo stesso giorno."
+    },
+    "competitions-competition-day-q1": {
+      "q": "Qual è il numero massimo di tiratori in una batteria?",
+      "options": { "a": "4", "b": "6", "c": "8" },
+      "explain": "Sia nel {{tm:sporting}} che nel {{tm:compak}} una batteria ha al massimo 6 tiratori."
+    },
+    "sport-competition-day-q3": {
+      "q": "Due tiratori sono a pari merito al 5º posto. Come vengono classificati?",
+      "options": { "a": "Con uno spareggio su 25 piattelli per quel posto", "b": "Con un sorteggio dopo la fine della gara", "c": "Condividono il posto; il countback dall'8º percorso o campo Compak stabilisce l'ordine", "d": "Per età, con il più giovane posizionato più in alto" },
+      "explain": "Gli spareggi sono solo per i primi tre posti. Sotto, i tiratori a pari merito condividono il posto, e il countback confronta l'8º percorso o campo Compak, poi il 7º, e così via."
+    },
+    "competitions-competition-day-q-inline-late": {
+      "q": "Nel {{tm:compak}} in linea, quando siete considerati in ritardo?",
+      "options": { "a": "Quando il vostro numero è annullato nel sistema e il tiratore successivo è sulla postazione 1", "b": "Appena l'arbitro ha chiamato il vostro nome per la prima volta", "c": "Solo dopo che tutto il gruppo ha finito di tirare la serie" },
+      "explain": "Devono essersi verificate entrambe le cose: il vostro numero è già annullato nel sistema informatico, e il tiratore successivo è sulla postazione 1. La penalità è {{fact:competitions.compak-late-zeros}}."
+    },
+    "competitions-competition-day-q-carry": {
+      "q": "Come si porta il fucile tra una pedana e l'altra?",
+      "options": { "a": "Aperto, così tutti vedono che non è carico, e senza cinghia", "b": "Chiuso e scarico, con la cinghia a tracolla", "c": "Chiuso, con la sicura inserita, puntato verso terra" },
+      "explain": "I fucili si portano aperti e le cinghie non sono permesse; un semiautomatico si porta con l'otturatore aperto."
+    }
+  }
+}

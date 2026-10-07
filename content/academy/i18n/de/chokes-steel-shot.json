@@ -1,0 +1,98 @@
+{
+ "id": "chokes-steel-shot",
+ "lang": "de",
+ "base_rev": 1,
+ "h": {
+  "title": "fedccba2",
+  "summary": "4c8df65a",
+  "chokes-steel-shot-p1": "6e1820a5",
+  "chokes-steel-shot-p2": "a5964f74",
+  "chokes-steel-shot-p3": "80065cba",
+  "chokes-steel-shot-p4": "6938f339",
+  "chokes-steel-shot-p5": "27ec5c98",
+  "chokes-steel-shot-p6": "ccecd577",
+  "chokes-steel-shot-kp1": "cf25ddca",
+  "chokes-steel-shot-kp2": "26616153",
+  "chokes-steel-shot-kp3": "568670ff",
+  "chokes-steel-shot-kp4": "cb2ee2d8",
+  "chokes-steel-shot-kp5": "4e8f1749",
+  "chokes-steel-shot-dyk": "2cdebfbb",
+  "chokes-steel-shot-q1": "125543e4",
+  "chokes-steel-shot-q2": "e0224987",
+  "chokes-steel-shot-q3": "7bcf1c52",
+  "chokes-steel-shot-q4": "0ff453e4"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Stahlschrot und Chokes",
+ "summary": "Stahlschrot ist hart und lässt sich im Choke nicht zusammenpressen, daher ergibt es eine engere Deckung. Welche Chokes dazu passen, wie man die Beschusszeichen liest, und was das für {{tm:sporting}}- und {{tm:compak}}-Schießstände bedeutet, die Stahlschrot verlangen.",
+ "body": {
+  "chokes-steel-shot-p1": "Manche Schießstände, besonders in der Nähe von Wasser oder in Schutzgebieten, erlauben nur bleifreien Schrot, meist {{term:steel-shot|Stahlschrot}} oder {{term:soft-iron-shot|Weicheisenschrot}}. Der Schrot selbst wird in {{lesson:cartridges-lead-and-steel}} behandelt. Hier schauen wir, was das für Chokes bedeutet.",
+  "chokes-steel-shot-p2": "Eine {{term:lead-shot|Bleischrot}}kugel ist weich und verformt sich leicht, wenn sie durch den Choke läuft. Eine Stahlkugel ist hart und presst sich nicht zusammen. Derselbe Choke ergibt mit Stahl also eine merklich engere {{term:pattern|Deckung}}, und viele Schützen setzen einen Choke eine Stufe offener ein: 1/4 statt 1/2.",
+  "chokes-steel-shot-p3": "Harter Stahl belastet den Choke auch stärker. Viele Hersteller und Vertriebe empfehlen bei Standard-Stahlladungen Chokes nicht enger als {{term:modified|Modified}} (1/2). Für High-Performance-Stahl (die stärkere Art, weiter unten erklärt) empfehlen manche höchstens 1/4. Ein {{term:full-choke|Vollchoke}} mit Stahl wird meist nicht empfohlen. Die genaue Grenze hängt von der Flinte ab, lesen Sie also das Handbuch des Herstellers.",
+  "chokes-steel-shot-p4": "Chokes für Stahlschrot sind oft mit „Steel“ oder „Steel OK“ markiert, manche tragen „Lead only“. Hat ein Choke keine Markierung und Sie kein Handbuch, fragen Sie einen {{term:gunsmith|Büchsenmacher}}.",
+  "chokes-steel-shot-p5": [
+   "Alte dünnwandige Läufe, besonders mit {{term:fixed-choke|fester}} Vollchoke, können durch Stahl beschädigt werden: In der Nähe der Mündung kann eine ringförmige Ausbeulung entstehen.",
+   "Stahlpatronen gibt es nach den C.I.P.-Regeln (den gemeinsamen Prüfnormen für Waffen und Patronen, die in den meisten Teilen Europas gelten) in zwei Klassen: Standard-Stahl und High-Performance-Stahl.",
+   "Standard-Stahl darf in einer Flinte in gutem Zustand mit den üblichen Beschusszeichen verschossen werden. Das sind die Stempel, die eine Prüfstelle (Beschussamt) nach dem Probebeschuss auf eine Flinte setzt.",
+   "High-Performance-Stahl darf nur in einer Flinte verschossen werden, die eine eigene Stahlschrot-Prüfung bestanden hat; ihre Läufe tragen einen lilienförmigen Stempel (fleur-de-lis), oft mit dem Wort „Steel Shot“.",
+   "Stahlpatronen für das Wurfscheibenschießen sind meist Standard-Stahl. Prüfen Sie die Schachtel und die Papiere Ihrer Flinte; im Zweifel fragen Sie einen Büchsenmacher."
+  ],
+  "chokes-steel-shot-p6": "Fahren Sie zu einem Schießstand, der Stahlschrot verlangt? Erkundigen Sie sich vorab, welche Patronen erlaubt sind, und bringen Sie für Stahl gemachte Chokes mit. Schießen Sie diese Patronen vor einem Wettkampf im Training, um zu sehen, wie sich Ihre Deckung ändert."
+ },
+ "note": {},
+ "phrases": {},
+ "key_points": {
+  "chokes-steel-shot-kp1": "Stahlschrot presst sich im Choke nicht zusammen und ergibt eine engere Deckung.",
+  "chokes-steel-shot-kp2": "Mit Stahl gehen viele Schützen einen Choke offener.",
+  "chokes-steel-shot-kp3": "Viele Hersteller empfehlen mit Stahl nicht enger als 1/2; Full wird meist nicht empfohlen.",
+  "chokes-steel-shot-kp4": "Achten Sie auf eine „Steel“-Markierung am Choke, und lesen Sie das Handbuch.",
+  "chokes-steel-shot-kp5": "Alte dünnwandige Läufe können beschädigt werden; High-Performance-Stahl braucht den fleur-de-lis-Beschuss."
+ },
+ "did_you_know": "Eine Stahlkugel ist {{fact:gear.steel-vs-lead-weight}}, daher verliert sie schneller an Geschwindigkeit. Deshalb wählen Stahlschrot-Nutzer oft eine etwas größere Schrotgröße, wo die Regeln des Schießstands es erlauben.",
+ "quiz": {
+  "chokes-steel-shot-q1": {
+   "q": "Warum ergibt Stahlschrot durch denselben Choke eine engere Deckung als Blei?",
+   "options": {
+    "a": "Stahl ist schwerer als Bleischrot",
+    "b": "Harte Stahlkugeln pressen sich im Choke nicht zusammen",
+    "c": "Stahlpatronen enthalten viel mehr Kugeln",
+    "d": "Stahlschrot verlässt den Lauf schneller"
+   },
+   "explain": "Weiches Blei verformt sich leicht im Choke; hartes Stahl tut das nicht, es bleibt also kompakter."
+  },
+  "chokes-steel-shot-q2": {
+   "q": "Welcher Choke wird mit Stahlschrot meist nicht empfohlen?",
+   "options": {
+    "a": "Cylinder",
+    "b": "Improved Cylinder",
+    "c": "Modified",
+    "d": "Full"
+   },
+   "explain": "Full-Choke wird mit Stahl meist nicht empfohlen; die genaue Grenze steht im Handbuch des Herstellers."
+  },
+  "chokes-steel-shot-q3": {
+   "q": "Wie finden Sie heraus, ob ein Choke zu Stahl passt?",
+   "options": {
+    "a": "Anhand seiner Markierung und des Handbuchs des Herstellers",
+    "b": "Anhand der Farbe der Laufoberfläche",
+    "c": "Indem man einen Schuss abgibt und ihn betrachtet",
+    "d": "Nicht nötig: alle modernen Chokes sind dafür geeignet"
+   },
+   "explain": "Achten Sie auf die Markierung am Choke, und prüfen Sie das Handbuch; im Zweifel fragen Sie einen Büchsenmacher."
+  },
+  "chokes-steel-shot-q4": {
+   "q": "Welche Stahlpatronen brauchen eine Flinte mit dem fleur-de-lis-Stahlschrot-Beschuss?",
+   "options": {
+    "a": "Standard-Stahlladungen für Wurfscheiben",
+    "b": "High-Performance-Stahlladungen",
+    "c": "Bleiladungen mit Faserpfropfen",
+    "d": "Weicheisenladungen für das Training"
+   },
+   "explain": "Standard-Stahl darf in einer Flinte in gutem Zustand mit dem üblichen Beschuss verschossen werden; High-Performance-Stahl braucht den speziellen Stahlschrot-Beschuss."
+  }
+ }
+}

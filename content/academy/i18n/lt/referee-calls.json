@@ -1,0 +1,109 @@
+{
+  "id": "referee-calls",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Ką teisėjas sako šaudymo vietoje",
+  "summary": "Trumpi šaudymo vietos žodžiai: prašymas, užtaisyti ir atidaryti šautuvai, „one“, „zero“ ir „No Bird“, bei šaulio formalus žodis protestui.",
+  "body": {
+    "referee-calls-p1": "Šaudymo vieta turi savo trumpą kalbą. Kai šaulys pasiruošęs, jis paduoda {{term:call|prašymą}}, dažniausiai „Pull!“ arba „Ready!“. {{tm:sporting}} {{term:referee|teisėjas}} perduoda prašymą {{term:trapper|traperiui}} garsiniu signalu. Taikinys turi išlėkti {{fact:rules.release-within-3s}} nuo šio signalo; vėliau paleistas taikinys yra {{term:no-bird|No Bird}}. {{tm:compak}} rankinis paleidimas taip pat turi įvykti {{fact:rules.release-within-3s}} nuo prašymo. Balsu valdomas paleidimas ({{term:sonopull|sonopull}}: mikrofonas, kuris paleidžia taikinį, kai išgirsta jūsų prašymą) turi fiksuotą {{fact:rules.sonopull-delay}} vėlinimą.",
+    "referee-calls-p2": "Kol niekas nešaudo, teisėjas sprendžia, kada galima užtaisyti ir uždaryti šautuvus. Taisyklės leidžia {{term:loading|užtaisyti}} tik šaudymo vietoje, vamzdžiais į lauko pusę, kai teisėjas jau leido pradėti šaudymą. {{term:target-presentation|Taikinių pristatymo}} metu ir per kiekvieną pertrauką šautuvai yra atidaryti ir tušti. Uždaryti juos iš naujo leidžiama tik su teisėjo sutikimu. {{tm:compak}} teisėjas pradeda seriją žodžiais „Start“ arba „Competition“.",
+    "referee-calls-p3": "Po kiekvieno taikinio taisyklės žino tik tris rezultatus: „{{term:one|one}}“ (pataikyta), „{{term:zero|zero}}“ (nepataikyta) ir „No Bird“ (taikinys neskaičiuojamas ir paleidžiamas iš naujo). Šaudymo vietoje dar girdėsite „dead“ ar „good“ apie pataikymą ir „lost“ apie nepataikymą; kai kurie teisėjai po pataikymo nieko nesako. {{tm:compak}} teisėjas kiekvieną nulį skelbia balsu arba garsiniu signalu, kad nesutinkantis šaulys galėtų iškart pareikšti protestą.",
+    "referee-calls-p4": "Šaulys taip pat turi savo formalų žodį. Norėdamas nesutikti su sprendimu, jis iškart, ten pat, pakelia ranką ir sako „{{term:protest|Protest!}}“ arba „{{term:appeal|Appeal!}}“ ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Daugiau frazių, kurių reikia šauliui: {{lesson:stand-talk-shooter-phrases}}."
+  },
+  "note": {
+    "referee-calls-n1": "Verskite šiuos žodžius trumpai ir kiekvieną kartą vienodai. Prieš seriją susitarkite su savo šauliu, kokius žodžius vartosite. Tarp prašymo ir šūvio nieko nepridėkite nuo savęs."
+  },
+  "phrases": {
+    "referee-calls-ph1": {
+      "meaning": "Teisėjas leidžia pradėti šaudyti: dabar dėkite šovinius, šautuvą nukreipę į šaudymo pusę.",
+      "say": "Galite užtaisyti."
+    },
+    "referee-calls-ph2": {
+      "meaning": "Šis taikinys neįskaitomas; nešaudykite į jį. Jis bus paleistas dar kartą.",
+      "say": "Kartoti!"
+    },
+    "referee-calls-ph3": {
+      "meaning": "Teisėjas įskaitė taikinį kaip nepataikytą (nulis).",
+      "say": "Nulis."
+    },
+    "referee-calls-ph4": {
+      "meaning": "Taikinys pataikytas (one).",
+      "say": "Pataikyta."
+    },
+    "referee-calls-ph5": {
+      "meaning": "Visi atidaro ir išima šovinius; teisėjas parodys taikinius.",
+      "say": "Atidarykite šautuvus, prašau, — rodome taikinius."
+    },
+    "referee-calls-ph6": {
+      "meaning": "{{tm:compak}}: taikinių rodymas baigtas, nuo šios akimirkos serija įskaitoma.",
+      "say": "Pradedame. / Varžybos."
+    }
+  },
+  "key_points": {
+    "referee-calls-kp1": "Šaulys duoda prašymą „Pull!“ arba „Ready!“; taikinys turi išlėkti per 3 sekundes",
+    "referee-calls-kp2": "Užtaisoma tik šaudymo vietoje ir tik teisėjui leidus; rodant taikinius ir per pertraukas šautuvai atidaryti",
+    "referee-calls-kp3": "Taisyklių žodžiai: one = pataikyta, zero = nepataikyta, No Bird = paleidžiama dar kartą",
+    "referee-calls-kp4": "{{tm:compak}}: kiekvienas nulis skelbiamas balsu arba garsiniu signalu",
+    "referee-calls-kp5": "Protestas = pakelta ranka + „Protest!“ arba „Appeal!“"
+  },
+  "quiz": {
+    "referee-calls-q1": {
+      "q": "{{tm:sporting}} taikinys išlėkė penkios sekundės po teisėjo signalo. Koks teisėjo sprendimas?",
+      "options": {
+        "a": "Įskaitomas kaip paprastas",
+        "b": "No Bird",
+        "c": "Nulis, nes šaulys prašymą davė per anksti",
+        "d": "Įspėjimas tik traperiui"
+      },
+      "explain": "Taikinys turi išlėkti per tris sekundes nuo teisėjo signalo; vėliau paleistas taikinys yra No Bird ir paleidžiamas iš naujo."
+    },
+    "referee-calls-q2": {
+      "q": "Kada varžybų metu šaulys gali užtaisyti šautuvą?",
+      "options": {
+        "a": "Eidamas į kitą šaudymo vietą",
+        "b": "Už šaudymo vietos, laukdamas eilės",
+        "c": "Šaudymo vietoje, teisėjui leidus pradėti šaudymą",
+        "d": "Kai tik taip pasako treneris"
+      },
+      "explain": "Užtaisyti leidžiama tik šaudymo vietoje, vamzdžiais į lauko pusę, ir tik tada, kai teisėjas leido pradėti šaudymą."
+    },
+    "referee-calls-q3": {
+      "q": "Kokiais žodžiais šaudymo vietoje pradedamas oficialus protestas?",
+      "options": {
+        "a": "„Protest!“, pakėlus ranką",
+        "b": "„No Bird!“, pakėlus ranką",
+        "c": "„Teisėjau, pažiūrėkite į tą taikinį!“",
+        "d": "„Palaukite!“, po kito taikinio"
+      },
+      "explain": "Abu reglamentai nurodo „protest“ arba „appeal“ su iškart pakelta ranka; „No Bird“ yra teisėjo žodis."
+    }
+  }
+}

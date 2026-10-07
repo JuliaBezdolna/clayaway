@@ -1,0 +1,181 @@
+{
+  "id": "rules-gun-position",
+  "lang": "pl",
+  "base_rev": 2,
+  "h": {
+    "title": "217daa8e",
+    "summary": "5f71387a",
+    "rules-gun-position-p1": "308382b7",
+    "rules-gun-position-cmp1": "95b76718",
+    "sporting-gun-position-p1": "8e9645ae",
+    "sporting-gun-position-p2": "d0d75e51",
+    "sporting-gun-position-p3": "c4416d62",
+    "rules-gun-position-p5": "408e96a9",
+    "sporting-gun-position-p4": "0a3425cb",
+    "sporting-gun-position-p5": "42345a8d",
+    "rules-gun-position-tip1": "2c6ec53c",
+    "rules-gun-position-n1": "c8357a04",
+    "sporting-gun-position-ph1": "1832c42b",
+    "sporting-gun-position-ph2": "2cf35975",
+    "sporting-gun-position-ph3": "fc05482d",
+    "sporting-gun-position-ph4": "8cfb394e",
+    "gear-protection-clothes-ph2": "75e93376",
+    "gear-protection-clothes-ph3": "6807ee7b",
+    "compak-gun-and-call-ph2": "08c2e3d7",
+    "sporting-gun-position-kp1": "825abaaa",
+    "sporting-gun-position-kp2": "b4b04213",
+    "sporting-gun-position-kp3": "ac9132d3",
+    "sporting-gun-position-kp4": "061fc1d9",
+    "rules-gun-position-kp4": "feed9af0",
+    "rules-gun-position-dyk": "71e12e41",
+    "rules-gun-position-q1": "bddb82a6",
+    "rules-gun-position-q2": "251e5a7f",
+    "rules-gun-position-q3": "3ac89e7f",
+    "sporting-gun-position-q1": "bbb625d7",
+    "sporting-gun-position-q2": "76c39e80",
+    "sporting-gun-position-q3": "a26941d8",
+    "compak-gun-and-call-q1": "f5376923",
+    "gear-protection-clothes-q2": "2223479a"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Pozycja broni, zanim pojawi się rzutek",
+  "summary": "W {{tm:sporting}} kolba zostaje poniżej linii na kamizelce, aż rzutek się pojawi. W {{tm:compak}} pozycja broni przy komendzie jest dowolna.",
+  "body": {
+    "rules-gun-position-p1": "Na zawodach {{tm:sporting}} strzelcy wołają rzutek z bronią opuszczoną. To przepis, nie kwestia stylu. {{tm:compak}} nie ma takiego przepisu.",
+    "rules-gun-position-cmp1": {
+      "sporting": "Broń opuszczona: górny tylny punkt kolby zostaje poniżej linii na kamizelce, aż zobaczysz rzutek.",
+      "compak": "Dowolna: broń może już być przy ramieniu albo niżej. Nie ma linii na kamizelce, ale strzał wciąż pada z ramienia."
+    },
+    "sporting-gun-position-p1": "W {{tm:sporting}}, przed komendą, obie twoje stopy są w {{term:shooting-stand|stanowisku}}. Stopka kolby (jej górny tylny kąt, część, która wchodzi w ramię) dotyka ciała. Najwyższy tylny punkt kolby, zwykle sama stopka, zostaje poniżej linii na kamizelce. Tę {{term:ready-position|pozycję gotowości}} utrzymujesz, aż rzutek opuści wyrzutnię i będzie widoczny.",
+    "sporting-gun-position-p2": "{{term:jacket-line|Linia}} jest naniesiona na kamizelce albo kurtce {{fact:rules.sporting-jacket-line}} (wyobrażonej poziomej linii przez obydwa barki), równolegle do niej. Jej kolor kontrastuje z kamizelką, żeby sędzia mógł ją widzieć. Przepis obejmuje każdy rodzaj kolby: standardową, Monte Carlo (z podniesionym grzbietem, górną krawędzią kolby, na której leży policzek) i {{term:adjustable-comb|regulowaną bakę}}.",
+    "sporting-gun-position-p3": "Broń możesz podnieść do ramienia ({{term:gun-mount|złożyć się}}) tylko wtedy, gdy rzutek się pojawi. Do każdego rzutka, także {{term:rabbit|rabbita}}, strzela się z bronią przy ramieniu; strzał z biodra jest niedozwolony.",
+    "rules-gun-position-p5": "Jedno odstępstwo: w {{term:double|dublecie}} możesz trzymać broń tak, jak chcesz, między pierwszym a drugim rzutkiem. Przed pierwszym rzutkiem wciąż obowiązuje pozycja opuszczona.",
+    "sporting-gun-position-p4": "Kary: za pierwszym razem, gdy zawołasz rzutek w niewłaściwej pozycji albo złożysz się za wcześnie, sędzia udziela ustnego ostrzeżenia i pokazuje {{term:yellow-card|żółtą kartkę}}. Powtórzenie na tej samej {{term:layout|osi}} kosztuje {{term:red-card|czerwoną kartkę}}: rzutek pojedynczy liczy się jako zero, a dublety idą według tabeli w przewodniku po przepisach ({{rule:sporting:ch12-red-card}}).",
+    "sporting-gun-position-p5": "Złożenie się i prowadzenie broni wzdłuż linii, w której spodziewasz się rzutka, przed komendą, to {{term:mock-shooting|imitacja strzelania}}, i jest też zabronione. Pierwszy raz daje ostrzeżenie. Jeśli zdarzy się znowu, następny trafiony rzutek liczy się jako zero.",
+    "rules-gun-position-tip1": "Jeśli strzelasz obie dyscypliny, wielu trenerów poleca trenować start z opuszczoną bronią przed zawodami {{tm:sporting}}, nawet jeśli w {{tm:compak}} wołasz z bronią w górze."
+  },
+  "note": {
+    "rules-gun-position-n1": "Jeśli trener ćwiczy start z bronią w górze przed zawodami {{tm:sporting}}, upewnij się, że słowo „drill” jest też przetłumaczone: to ćwiczenie, nie start zawodów."
+  },
+  "phrases": {
+    "sporting-gun-position-ph1": {
+      "meaning": "Sędzia: przed komendą opuść kolbę poniżej linii na kamizelce.",
+      "say": "Broń w dół, proszę."
+    },
+    "sporting-gun-position-ph2": {
+      "meaning": "Pierwsze wykroczenie dotyczące pozycji broni: ustne ostrzeżenie z żółtą kartką.",
+      "say": "Kolba była powyżej linii. To jest ostrzeżenie."
+    },
+    "sporting-gun-position-ph3": {
+      "meaning": "Broń może pójść w górę dopiero, gdy rzutek jest widoczny.",
+      "say": "Nie składaj się, zanim pojawi się rzutek."
+    },
+    "sporting-gun-position-ph4": {
+      "meaning": "Powtórne wykroczenie na tej samej osi; rzutek pojedynczy jest stracony.",
+      "say": "Czerwona kartka, zero."
+    },
+    "gear-protection-clothes-ph2": {
+      "meaning": "Przepis {{tm:sporting}} o opuszczonej broni: kolba zostaje poniżej linii na kamizelce, aż rzutek się pojawi.",
+      "say": "Stopka pod paskiem, aż zobaczysz rzutek."
+    },
+    "gear-protection-clothes-ph3": {
+      "meaning": "{{tm:compak}} nie ma wymogu linii na kamizelce.",
+      "say": "Tu nie trzeba znacznika — to Compak."
+    },
+    "compak-gun-and-call-ph2": {
+      "meaning": "Trener: w {{tm:compak}} pozycja broni przy komendzie jest dowolna.",
+      "say": "Broń w górze albo w dole, tutaj wybór twój."
+    }
+  },
+  "key_points": {
+    "sporting-gun-position-kp1": "{{tm:sporting}}: przed komendą obie stopy w stanowisku, stopka kolby (jej górny tylny kąt) dotyka ciała i jest poniżej linii na kamizelce.",
+    "sporting-gun-position-kp2": "{{tm:sporting}}: linia na kamizelce to {{fact:rules.sporting-jacket-line}} (linia przez obydwa barki), w kontrastowym kolorze.",
+    "sporting-gun-position-kp3": "{{tm:sporting}}: składaj się tylko, gdy rzutek się pojawi; pozycja broni jest dowolna tylko między dwoma rzutkami dubletu.",
+    "sporting-gun-position-kp4": "{{tm:sporting}}: pierwsze wykroczenie daje ostrzeżenie z żółtą kartką, następne na tej samej osi — czerwoną kartkę.",
+    "rules-gun-position-kp4": "{{tm:compak}}: pozycja przy komendzie jest dowolna i nie ma linii na kamizelce; strzał wciąż pada z ramienia."
+  },
+  "did_you_know": "Start z opuszczoną bronią często wyjaśnia się łowieckimi korzeniami {{tm:sporting}}: myśliwy rzadko czeka na ptaka z bronią już przy ramieniu.",
+  "quiz": {
+    "rules-gun-position-q1": {
+      "q": "Jak daleko pod osią barków (wyobrażoną linią przez obydwa barki) jest linia na kamizelce w {{tm:sporting}}?",
+      "options": {
+        "a": "10 cm",
+        "b": "25 cm",
+        "c": "40 cm"
+      },
+      "explain": "Linia przebiega {{fact:rules.sporting-jacket-line}}, równolegle do niej."
+    },
+    "rules-gun-position-q2": {
+      "q": "Czy można zawołać rzutek w {{tm:compak}} z bronią już przy ramieniu?",
+      "options": {
+        "a": "Nie, broń musi zacząć opuszczona",
+        "b": "Tylko przy strzelaniu dubletu",
+        "c": "Tak, pozycja jest dowolna"
+      },
+      "explain": "{{tm:compak}} nie ma przepisu o opuszczonej broni ani linii na kamizelce; tylko sam strzał musi paść z ramienia."
+    },
+    "rules-gun-position-q3": {
+      "q": "Kiedy w {{tm:sporting}} możesz trzymać broń tak, jak chcesz?",
+      "options": {
+        "a": "Między dwoma rzutkami dubletu",
+        "b": "Przed pierwszym rzutkiem dubletu",
+        "c": "Czekając na rabbita"
+      },
+      "explain": "Dowolna pozycja jest dozwolona tylko między dwoma rzutkami dubletu; przed pierwszym obowiązuje pozycja gotowości."
+    },
+    "sporting-gun-position-q1": {
+      "q": "Na pierwszym stanowisku strzelec woła rzutek z bronią już przy ramieniu. To jego pierwsze takie wykroczenie na tej osi. Jaka jest decyzja sędziego?",
+      "options": {
+        "a": "Rzutek liczy się jako zero",
+        "b": "Ostrzeżenie i żółta kartka",
+        "c": "NO BIRD i nic więcej",
+        "d": "Wykluczenie z zawodów"
+      },
+      "explain": "Pierwsze wykroczenie dotyczące pozycji broni to ustne ostrzeżenie poparte żółtą kartką."
+    },
+    "sporting-gun-position-q2": {
+      "q": "Wcześniej na tej osi strzelec otrzymał żółtą kartkę za pozycję broni. Teraz, na rzutku pojedynczym, kolba jest powyżej linii na kamizelce przy komendzie. Decyzja?",
+      "options": {
+        "a": "Kolejna żółta kartka",
+        "b": "NO BIRD, strzał powtórzony",
+        "c": "Czerwona kartka i powtórzenie",
+        "d": "Czerwona kartka i zero"
+      },
+      "explain": "Po ostrzeżeniu kolejne wykroczenie na tej samej osi to czerwona kartka: zero na rzutku pojedynczym."
+    },
+    "sporting-gun-position-q3": {
+      "q": "{{tm:sporting}}. Sędzia już raz ostrzegł strzelca za imitację strzelania. Przed następną komendą strzelec znowu składa się i prowadzi broń wzdłuż linii rzutka, a potem go rozbija. Jak to się liczy?",
+      "options": {
+        "a": "Jeden, z drugim ostrzeżeniem",
+        "b": "Zero",
+        "c": "NO BIRD, strzał powtórzony",
+        "d": "Jeden, bez kary"
+      },
+      "explain": "Po pierwszym ostrzeżeniu za imitację strzelania powtórzenie kosztuje następny trafiony rzutek: liczy się jako zero."
+    },
+    "compak-gun-and-call-q1": {
+      "q": "W {{tm:compak}} strzelec woła z bronią opuszczoną i, gdy pojawia się rabbit, strzela od biodra, bez złożenia się. Czy to dozwolone?",
+      "options": {
+        "a": "Tak, pozycja broni jest dowolna",
+        "b": "Nie, każdy strzał pada z ramienia",
+        "c": "Tak, ale tylko do rabbita",
+        "d": "Tylko do drugiego strzału"
+      },
+      "explain": "W {{tm:compak}} można zawołać z bronią w górze albo w dole, ale każdy rzutek musi być strzelany z bronią przy ramieniu."
+    },
+    "gear-protection-clothes-q2": {
+      "q": "Strzelec {{tm:sporting}} używa kolby Monte Carlo, z podniesionym grzbietem. Czy przepis o linii na kamizelce ma zastosowanie?",
+      "options": {
+        "a": "Tak, obejmuje każdy rodzaj kolby",
+        "b": "Nie, tylko standardowe kolby",
+        "c": "Tylko przy regulowanej bace",
+        "d": "Tylko w finałach"
+      },
+      "explain": "Przepis obejmuje kolby standardowe, Monte Carlo i z regulowaną baką: zanim rzutek się pojawi, górny tylny punkt kolby zostaje poniżej linii na kamizelce, która przebiega {{fact:rules.sporting-jacket-line}}."
+    }
+  }
+}

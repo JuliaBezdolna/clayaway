@@ -1,0 +1,80 @@
+{
+  "id": "clayarena-what-is-clayarena",
+  "lang": "de",
+  "base_rev": 2,
+  "h": {
+    "title": "bc76e59e",
+    "summary": "761d8c91",
+    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p2": "771824c6",
+    "clayarena-what-is-clayarena-p3": "17d83580",
+    "clayarena-what-is-clayarena-p4": "3d7784c7",
+    "clayarena-what-is-clayarena-p5": "48af0ac3",
+    "clayarena-what-is-clayarena-p6": "e3c600a3",
+    "clayarena-what-is-clayarena-kp1": "05ba9974",
+    "clayarena-what-is-clayarena-kp2": "3d5950a3",
+    "clayarena-what-is-clayarena-kp3": "5567e510",
+    "clayarena-what-is-clayarena-kp4": "702367ff",
+    "clayarena-what-is-clayarena-q1": "25b43879",
+    "clayarena-what-is-clayarena-q2": "565010d9",
+    "clayarena-what-is-clayarena-q4": "08498f4c",
+    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Was ClayArena ist",
+  "summary": "ClayArena ist eine Website für den Wurfscheibensport mit Schwerpunkt auf {{tm:sporting}} und {{tm:compak}}: Wettkampfergebnisse, Schützenprofile, ein Kalender, Videos, Saisonrückblicke, Schießstände und Trainer.",
+  "body": {
+    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) ist eine Website über den Wurfscheibensport mit Schwerpunkt auf {{tm:sporting}} und {{tm:compak}}. Sie zeigt, wer wie geschossen hat, wo die nächsten Wettkämpfe stattfinden und wo man trainieren kann. Auch einige andere Disziplinen wie Trap und Skeet kommen dort vor.",
+    "clayarena-what-is-clayarena-p2": "Der Kern von ClayArena sind die Wettkampfergebnisse. Jeder Wettkampf hat eine Ergebnistabelle mit Platzierungen und der Zahl der getroffenen Scheiben. Bei manchen Wettkämpfen werden die Ergebnisse schon während der laufenden Strecke aktualisiert. Aus diesen Ergebnissen entstehen die {{term:shooter-profile|Schützenprofile}}.",
+    "clayarena-what-is-clayarena-p3": "Ein Schützenprofil ist die Seite einer Person: ihre Wettkämpfe und wichtige Kennzahlen, etwa die {{term:accuracy|Trefferquote}}. Was die Zahlen bedeuten, erklärt {{lesson:clayarena-profile-numbers}}.",
+    "clayarena-what-is-clayarena-p4": "ClayArena hat außerdem einen Wettkampfkalender, Videos von Wettkämpfen und {{term:season-recap|Saisonrückblicke}}. Es gibt auch Kataloge von Schießständen und Trainern. Mehr dazu in {{lesson:clayarena-videos-recaps-calendar}} und {{lesson:clayarena-coaches-grounds-tours}}.",
+    "clayarena-what-is-clayarena-p5": "ClayArena bereitet außerdem {{term:clayaway|ClayAway}} vor: Trainingsreisen mit einem Trainer. Sie sind noch nicht gestartet und kommen später: {{lesson:travel-clayaway-tour}}.",
+    "clayarena-what-is-clayarena-p6": "ClayArena ist auch ein Ort zum Lernen: diese Academy, ein Glossar der Begriffe und ein Leitfaden zu den {{term:fitasc|FITASC}}-Regeln in einfacher Sprache mit einem Regeltrainer."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-what-is-clayarena-kp1": "ClayArena ist eine Website für den Wurfscheibensport mit Schwerpunkt auf {{tm:sporting}} und {{tm:compak}}.",
+    "clayarena-what-is-clayarena-kp2": "Ihr Kern sind Wettkampfergebnisse; daraus entstehen Schützenprofile.",
+    "clayarena-what-is-clayarena-kp3": "Es gibt außerdem einen Kalender, Videos, Saisonrückblicke und Kataloge von Ständen und Trainern.",
+    "clayarena-what-is-clayarena-kp4": "Die Trainingsreisen von ClayAway werden vorbereitet und sind noch nicht gestartet."
+  },
+  "quiz": {
+    "clayarena-what-is-clayarena-q1": {
+      "q": "Woraus entstehen Schützenprofile auf ClayArena?",
+      "options": {
+        "a": "Aus Formularen, die Schützen ausfüllen",
+        "b": "Aus Wettkampfergebnissen",
+        "c": "Aus Bewertungen von Trainern"
+      },
+      "explain": "Ein Profil sammelt die Wettkämpfe des Schützen, also Wettkampfergebnisse."
+    },
+    "clayarena-what-is-clayarena-q2": {
+      "q": "Was ist ClayAway heute?",
+      "options": {
+        "a": "Eine eigene FITASC-Disziplin",
+        "b": "Ein Online-Shop für Patronen",
+        "c": "Touren mit Trainer, die vorbereitet werden"
+      },
+      "explain": "ClayAway werden die organisierten Trainingsreisen von ClayArena mit einem Trainer sein; der Start steht noch aus."
+    },
+    "clayarena-what-is-clayarena-q4": {
+      "q": "Wo sucht man Wettkämpfe, die noch nicht stattgefunden haben?",
+      "options": {
+        "a": "Im Wettkampfkalender",
+        "b": "Im Saisonrückblick",
+        "c": "Im Schützenprofil"
+      },
+      "explain": "Der Kalender listet geplante, laufende und beendete Wettkämpfe mit Datum und Austragungsort."
+    },
+    "clayarena-what-is-clayarena-q3": {
+      "q": "Auf welche Disziplinen konzentriert sich ClayArena?",
+      "options": {
+        "a": "Biathlon und Bogenschießen",
+        "b": "{{tm:sporting}} und {{tm:compak}}",
+        "c": "Nur Olympic Trap"
+      },
+      "explain": "ClayArena konzentriert sich auf diese beiden FITASC-Disziplinen; einige andere kommen dort auch vor."
+    }
+  }
+}

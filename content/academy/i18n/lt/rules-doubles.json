@@ -1,0 +1,222 @@
+{
+  "id": "rules-doubles",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "bf6d3d5f",
+    "summary": "dfdb2ad6",
+    "rules-doubles-p1": "f5cf641d",
+    "sporting-singles-doubles-p1": "b6444c9c",
+    "rules-doubles-p2": "c6919899",
+    "rules-doubles-cmp1": "350fd347",
+    "sporting-singles-doubles-p2": "5a56411c",
+    "rules-doubles-cmp2": "24dc2faf",
+    "rules-doubles-accidental": "2cbe5f9a",
+    "rules-doubles-cmp3": "0437dae8",
+    "rules-doubles-cmp4": "2d15fb86",
+    "sporting-singles-doubles-p4": "88696d63",
+    "rules-doubles-p7": "5bdcbd0b",
+    "compak-singles-doubles-p1": "329c4e29",
+    "sporting-singles-doubles-p5": "4b1860bf",
+    "sporting-singles-doubles-ph1": "934fba36",
+    "sporting-singles-doubles-ph2": "c178e9f1",
+    "sporting-singles-doubles-ph3": "ca41eb94",
+    "sporting-singles-doubles-ph4": "95a6f236",
+    "compak-singles-doubles-ph1": "70594be5",
+    "compak-singles-doubles-ph2": "188b25c7",
+    "compak-singles-doubles-ph3": "56ec4bfd",
+    "compak-singles-doubles-ph4": "806b2e03",
+    "rules-doubles-kp1": "db855605",
+    "sporting-singles-doubles-kp2": "322f41a9",
+    "compak-singles-doubles-kp2": "dce8c621",
+    "compak-singles-doubles-kp1": "77c28c5b",
+    "sporting-singles-doubles-kp3": "7de76b48",
+    "rules-doubles-dyk": "c0b4d4b3",
+    "rules-doubles-q1": "5a5e9eaa",
+    "rules-doubles-q2": "ab4333ed",
+    "rules-doubles-q3": "783fc72a",
+    "sporting-singles-doubles-q1": "12970eeb",
+    "sporting-singles-doubles-q2": "507f2951",
+    "sporting-singles-doubles-q3": "d1d794df",
+    "compak-singles-doubles-q1": "c458b419",
+    "compak-singles-doubles-q2": "afbfdbad",
+    "compak-singles-doubles-q3": "04513eaa",
+    "rules-doubles-q4": "0493a8c2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Dubletai: kaip juos šaudo ir vertina",
+  "summary": "Dubletų rūšys {{tm:sporting}} ir {{tm:compak}} rungtyse, kiek šovinių galima iššauti į kiekvieną taikinį ir kas būna, kai vienas šūvis sudaužo abu.",
+  "body": {
+    "rules-doubles-p1": "{{term:double|Dubletas}} – dvi mišenės, šaudomos per vieną komandą. Abiejose rungtyse yra dubletai pagal šūvio garsą ir vienalaikiai dubletai; tik {{tm:sporting}} rungtyje yra ir rafalis. Dalis vertinimo taisyklių skiriasi. Kai abi dubleto mišenės vertinamos kaip promašytos, tai vadinama {{term:zero-zero|nulis–nulis}}.",
+    "sporting-singles-doubles-p1": "Pirmiausia apie pavienes mišenes. Abiejose rungtyse į {{term:single-target|pavienę mišenę}} galima iššauti du šovinius, tad promašymą pirmu vamzdžiu vis tiek galima išgelbėti antru. Aikštelė turi palikti laiko dviem šūviams į kiekvieną pavienę mišenę.",
+    "rules-doubles-p2": "{{term:double-on-report|Dublete pagal šūvio garsą}} jūsų komanda paleidžia pirmą taikinį, o šūvis į jį – antrą. {{term:simultaneous-double|Vienalaikiame dublete}} abu taikiniai išskrenda kartu, ir juos galima šaudyti bet kuria tvarka.",
+    "rules-doubles-cmp1": {
+      "sporting": "Trys rūšys: pagal šūvio garsą, vienalaikis (iš vienos ar dviejų mašinėlių) ir {{term:rafale-double|rafalis}}. Rafalyje dvi mišenės išskrenda iš tos pačios mašinėlės ta pačia linija, viena po kitos.",
+      "compak": "Dvi rūšys: pagal šūvio garsą ir vienalaikis. Vienalaikis dubletas tik iš dviejų skirtingų mašinėlių. Rafalio nėra."
+    },
+    "sporting-singles-doubles-p2": "{{tm:sporting}} rungtyje dubleto pagal šūvio garsą antras taikinys išskrenda per 0–3 sekundes po jūsų šūvio į pirmą. Rafalyje jis seka, vos mašinėlei persikrovus. Dubletas sudarytas tik iš taikinių, kurie tame numeryje jau skriejo kaip pavieniai, tad jūs juos jau matėte skriejant.",
+    "rules-doubles-cmp2": {
+      "sporting": "Du šoviniai visam dubletui, ir abu galima iššauti į vieną taikinį.",
+      "compak": "Vienas šovinys į taikinį. Abu iššauti į pirmą taikinį draudžiama; už tai sąmoningai padarytą vertinama nulis-nulis."
+    },
+    "rules-doubles-accidental": "Jei abu vamzdžiai iššauna kartu atsitiktinai, tai nėra sąmoningas dvigubas šūvis – tai šautuvo gedimas ({{term:double-discharge|dvigubas paleidimas}}). Kaip jis vertinamas – pamokoje {{lesson:rules-malfunctions}}.",
+    "rules-doubles-cmp3": {
+      "sporting": "Kai jūsų šūvis pats sudaužo abu taikinius, skaičiuojami abu: „one“ ir „one“, bet kurio tipo dublete. Dublete pagal šūvio garsą būna ir taip, kad pirmas taikinys ar jo gabalai sudaužo antrą dar prieš jūsų antrą šūvį. Tai No Bird: dubletas kartojamas, o pirmas rezultatas paliekamas.",
+      "compak": "Pagal šūvio garsą: pirmas rezultatas lieka, antras – No Bird, ir dubletas šaudomas iš naujo. Vienalaikis: No Bird, dubletą šaudote iš naujo; jei taip atsitinka trečią kartą, abu taikiniai vertinami nuliu."
+    },
+    "rules-doubles-cmp4": {
+      "sporting": "Nešaudyta į vienalaikį ar rafalio dubletą be pateisinamos priežasties: nulis-nulis. Pagal šūvio garsą: pirmas taikinys, į kurį nešaudėte, – nulis, o dubletas paleidžiamas iš naujo, kad galėtumėte šauti antrą (teisėjų trumpasis vadovas).",
+      "compak": "Atsisakymas vienalaikio dubleto: nulis-nulis. Pagal šūvio garsą: atsisakytas pirmas taikinys – nulis; dubletas paleidžiamas iš naujo, kad galėtumėte šauti antrą, ir vertinamas tik jis."
+    },
+    "sporting-singles-doubles-p4": "Netaisyklinga mišenė – tokia, dėl kurios teisėjas skelbia No Bird, pavyzdžiui, ji paleista sudužusi, ne savo linija ar iš kitos mašinėlės ({{lesson:rules-hit-and-no-bird}}). Dublete pagal šūvio garsą netaisyklingas pirmas taikinys reiškia, kad visas dubletas šaudomas iš naujo. Jei netaisyklingas antras taikinys, dubletą šaudote iš naujo, o jūsų rezultatas dėl pirmo paliekamas. Tas pats, jei pirmas taikinys ar jo gabalai sudaužo antrą iki jūsų antro šūvio. Vienalaikiame dublete, o {{tm:sporting}} rungtyje ir rafalyje, netaisyklinga mišenė reiškia pakartojimą be jokio įskaitymo. Kitas atvejis – kai vienas šūvis sudaužo abu taikinius: žr. aukščiau.",
+    "rules-doubles-p7": "Pažiūrėkite parodymą ir perskaitykite vietos {{term:target-menu|aprašą}}, kad žinotumėte, kokie dubletai jūsų laukia. Daug trenerių pataria išsirinkti vienalaikio dubleto šaudymo tvarką jau iki komandos."
+  },
+  "note": {
+    "compak-singles-doubles-p1": "{{tm:compak}} dubletus pagal šūvio garsą ir vienalaikius dubletus vadina taip pat, kaip {{tm:sporting}} (rafalio čia nėra), bet jų taisyklės kitokios. Vertėjas, kuris čia pernešė {{tm:sporting}} taisykles, duos neteisingus atsakymus.",
+    "sporting-singles-doubles-p5": "Perduokite dubleto rezultatą pora, ta tvarka, kuria jį pasakė teisėjas."
+  },
+  "phrases": {
+    "sporting-singles-doubles-ph1": {
+      "meaning": "Treneris: antrąjį taikinį paleidžia šūvis į pirmąjį.",
+      "say": "Dubletas pagal garsą: antrasis išskris po jūsų šūvio."
+    },
+    "sporting-singles-doubles-ph2": {
+      "meaning": "Treneris: rafalio dublete tvarka laisva.",
+      "say": "Rafalyje pirmą šaudykite bet kurią."
+    },
+    "sporting-singles-doubles-ph3": {
+      "meaning": "Teisėjas: abu dubleto taikiniai pataikyti.",
+      "say": "Pataikyta ir pataikyta."
+    },
+    "sporting-singles-doubles-ph4": {
+      "meaning": "Netaisyklingas taikinys; dubletas išmetamas iš naujo.",
+      "say": "Kartoti, dubletas iš naujo."
+    },
+    "compak-singles-doubles-ph1": {
+      "meaning": "Treneris: {{tm:compak}} rungtyje į kiekvieną dubleto taikinį – tik vienas šovinys.",
+      "say": "Čia dubletuose – vienas šūvis į mišenę."
+    },
+    "compak-singles-doubles-ph2": {
+      "meaning": "Teisėjas vienalaikiame dublete: nieko neįskaitoma, kartojama.",
+      "say": "Abu vienu šūviu. Kartoti, šaudykite dubletą iš naujo."
+    },
+    "compak-singles-doubles-ph3": {
+      "meaning": "Treneris: stebėdami pristatymą, nuspręskite, į kurį vienalaikio dubleto taikinį šausite pirmiausia.",
+      "say": "Tvarką pasirinkite per parodymą."
+    },
+    "compak-singles-doubles-ph4": {
+      "meaning": "Teisėjas: nė vienas dubleto taikinys neįskaitomas.",
+      "say": "Nulis, nulis."
+    }
+  },
+  "key_points": {
+    "rules-doubles-kp1": "Pagal šūvio garsą antrą taikinį paleidžia jūsų šūvis į pirmą.",
+    "sporting-singles-doubles-kp2": "{{tm:sporting}}: du šoviniai dubletui, abu galima į vieną taikinį; rūšys – pagal šūvio garsą, vienalaikis ir rafalis.",
+    "compak-singles-doubles-kp2": "{{tm:compak}}: vienas šovinys į taikinį; sąmoningas dvigubas šūvis į vieną taikinį – nulis-nulis.",
+    "compak-singles-doubles-kp1": "{{tm:compak}} turi dvi dubletų rūšis – pagal šūvio garsą ir vienalaikį; rafalis yra tik {{tm:sporting}} rungtyje.",
+    "sporting-singles-doubles-kp3": "Vienas šūvis sudaužo abu taikinius: {{tm:sporting}} vertina one ir one; {{tm:compak}} dubletą šaudo iš naujo."
+  },
+  "did_you_know": "{{tm:compak}} rungtyje dubletas kiekviename numeryje pradedamas ankstesnio numerio paskutiniu taikiniu.",
+  "quiz": {
+    "rules-doubles-q1": {
+      "q": "Kas paleidžia antrą taikinį dublete pagal šūvio garsą?",
+      "options": {
+        "a": "Šūvis į pirmą taikinį",
+        "b": "Antra šaulio komanda",
+        "c": "Teisėjas, ranka"
+      },
+      "explain": "Komanda paleidžia pirmą taikinį, o šūvis į jį – antrą."
+    },
+    "rules-doubles-q2": {
+      "q": "Ar {{tm:compak}} rungtyje galima iššauti abu šovinius į dubleto pirmą taikinį?",
+      "options": {
+        "a": "Taip, kaip {{tm:sporting}} rungtyje",
+        "b": "Tik vienalaikiame dublete",
+        "c": "Ne, vienas šovinys į taikinį"
+      },
+      "explain": "{{tm:compak}} rungtyje – vienas šovinys į kiekvieną taikinį, o sąmoningi du šūviai į vieną taikinį vertinami nulis-nulis; {{tm:sporting}} rungtyje abu galima išleisti į vieną taikinį."
+    },
+    "rules-doubles-q3": {
+      "q": "{{tm:sporting}} rungtyje vienas šūvis sudaužo abu dubleto taikinius. Kaip vertinama?",
+      "options": {
+        "a": "Zero ir No Bird",
+        "b": "One ir one",
+        "c": "No Bird, pakartojimas"
+      },
+      "explain": "{{tm:sporting}} rungtyje skaičiuojami abu taikiniai; {{tm:compak}} rungtyje taisyklės kitokios."
+    },
+    "sporting-singles-doubles-q1": {
+      "q": "{{tm:sporting}}, vienalaikis dubletas. Šaulys pirmu šūviu promašo vieną taikinį, antru šoviniu šauna į tą pačią mišenę ir sudaužo ją. Kita mišenė skrenda toliau. Sprendimas?",
+      "options": {
+        "a": "One ir zero",
+        "b": "Zero ir zero",
+        "c": "No Bird, dubletas kartojamas",
+        "d": "One ir No Bird"
+      },
+      "explain": "{{tm:sporting}} rungtyje abu dubleto šovinius galima iššauti į vieną taikinį, tad sudaužytas taikinys – „one“, o kitas – „zero“. {{tm:compak}} rungtyje sąmoningi du šūviai į vieną taikinį vertinami nulis-nulis."
+    },
+    "sporting-singles-doubles-q2": {
+      "q": "{{tm:sporting}}, dubletas pagal šūvio garsą. Šaulys sudaužo pirmą taikinį, ir jo gabalas sudaužo antrą iki antro šūvio. Sprendimas?",
+      "options": {
+        "a": "One ir one",
+        "b": "Pakartojimas, pirmas rezultatas paliekamas",
+        "c": "Zero antram taikiniui",
+        "d": "One ir zero"
+      },
+      "explain": "Kai pirmas taikinys ar jo gabalai sudaužo antrą iki antro šūvio, dubletas kartojamas, o pirmas rezultatas lieka."
+    },
+    "sporting-singles-doubles-q3": {
+      "q": "{{tm:sporting}}, rafalio dubletas. Abu taikiniai skrieja taisyklingai, bet šaulys nuleidžia šautuvą ir nešauna į nė vieną, neturėdamas pateisinamos priežasties. Sprendimas?",
+      "options": {
+        "a": "No Bird",
+        "b": "Zero ir No Bird",
+        "c": "Vien geltonoji kortelė",
+        "d": "Zero ir zero"
+      },
+      "explain": "Taisyklingas taikinys, į kurį nešaudyta be pateisinamos priežasties, promašomas; rafalyje ar vienalaikiame dublete tai reiškia zero ir zero."
+    },
+    "compak-singles-doubles-q1": {
+      "q": "{{tm:compak}} rungtyje, vienalaikis dubletas. Vienas šūvis sudaužo abu taikinius; taip įvyksta pirmą kartą. Sprendimas?",
+      "options": {
+        "a": "One ir one",
+        "b": "No Bird, pakartojimas",
+        "c": "One ir No Bird",
+        "d": "Zero ir zero"
+      },
+      "explain": "{{tm:compak}} rungtyje vienalaikis dubletas, sudaužytas vienu šūviu, pirmą ir antrą kartą yra No Bird, o trečią kartą – zero ir zero."
+    },
+    "compak-singles-doubles-q2": {
+      "q": "Dubletas pagal šūvio garsą {{tm:compak}} rungtyje. Vienas šūvis sudaužo abu taikinius. Sprendimas?",
+      "options": {
+        "a": "One ir one, abi skaičiuojamos",
+        "b": "Zero ir zero abiem",
+        "c": "Pirmas rezultatas lieka, dubletas kartojamas",
+        "d": "No Bird, nieko neskaičiuojama"
+      },
+      "explain": "Dublete pagal šūvio garsą pirmo taikinio rezultatas užrašomas, antras – No Bird, ir dubletas šaudomas iš naujo, kad būtų įskaitytas antras."
+    },
+    "compak-singles-doubles-q3": {
+      "q": "{{tm:compak}}, dubletas pagal šūvio garsą. Pirmas taikinys skrieja taisyklingai, bet šaulys į jį nešaudo. Sprendimas?",
+      "options": {
+        "a": "Pirmas – zero, dubletas vėl dėl antro",
+        "b": "Zero ir zero visam dubletui",
+        "c": "No Bird, dubletas paleidžiamas iš naujo",
+        "d": "Zero, o antras nešaudomas"
+      },
+      "explain": "Nešaudymas į taisyklingai paleistą pirmą taikinį vertinamas nuliu. Tada dubletas paleidžiamas iš naujo, kad būtų galima įskaityti antrą taikinį (teisėjų trumpasis vadovas)."
+    },
+    "rules-doubles-q4": {
+      "q": "{{tm:compak}} rungtyje ant dubleto pirmo taikinio abu vamzdžiai atsitiktinai iššauna kartu. Tai pirma serijos šautuvo problema. Kas tai?",
+      "options": {
+        "a": "Gedimas: No Bird, naujas dubletas",
+        "b": "Sąmoningas dvigubas šūvis: zero-zero",
+        "c": "One ir zero"
+      },
+      "explain": "Atsitiktinis dvigubas paleidimas yra gedimas, ne sąmoningas dvigubas šūvis; zero-zero skiriama tik už sąmoningus du šūvius į vieną taikinį."
+    }
+  }
+}

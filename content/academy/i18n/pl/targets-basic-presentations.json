@@ -1,0 +1,193 @@
+{
+  "id": "targets-basic-presentations",
+  "lang": "pl",
+  "base_rev": 3,
+  "h": {
+    "title": "a88cac8e",
+    "summary": "812cd16e",
+    "targets-basic-presentations-p1": "556875cb",
+    "targets-basic-presentations-map": "d2c8dd70",
+    "flight-crosser-p1": "e2e38510",
+    "flight-crosser-p2": "6d1c8339",
+    "flight-crosser-p3": "841ef0bc",
+    "flight-crosser-p4": "ba72214b",
+    "flight-crosser-p5": "4d391069",
+    "flight-quartering-p1": "7ef01878",
+    "flight-quartering-p2": "d9b0113f",
+    "flight-quartering-p3": "7b5f602c",
+    "flight-quartering-p4": "acb95caf",
+    "flight-quartering-p5": "c9703b96",
+    "flight-crosser-ph1": "0d683453",
+    "flight-crosser-ph2": "0a2aa4d7",
+    "flight-crosser-ph3": "438e0d47",
+    "flight-crosser-ph4": "ee79cdf5",
+    "flight-quartering-ph1": "acc494a4",
+    "flight-quartering-ph2": "362e8cc8",
+    "flight-quartering-ph3": "47b9dcac",
+    "targets-basic-presentations-kp1": "94d306d5",
+    "flight-crosser-kp1": "a86d9079",
+    "flight-crosser-kp2": "ba7e4426",
+    "flight-quartering-kp2": "c363e38a",
+    "flight-quartering-kp4": "99dc4fc9",
+    "targets-basic-presentations-dyk": "c74b736a",
+    "flight-crosser-q1": "3be83a77",
+    "flight-quartering-q1": "d9b0693b",
+    "flight-quartering-q3": "37be1064",
+    "targets-basic-presentations-q-distance": "72dd87ef",
+    "targets-basic-presentations-q-slowing": "8ea3aa39",
+    "targets-basic-presentations-q-directions": "60b56b5d",
+    "flight-crosser-q2": "89560dd2",
+    "flight-crosser-q3": "6ee3be45",
+    "flight-quartering-q2": "a423eb7e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Podstawowe prezentacje: rzutki poprzeczne i skośne",
+  "summary": "Co to trajektoria, jak lecą rzutki poprzeczne i skośne, czemu potrzebują różnego wyprzedzenia i czemu rzutek odczytuje się z własnego stanowiska.",
+  "body": {
+    "targets-basic-presentations-p1": "{{term:trajectory|Trajektoria}} to droga, po której leci albo toczy się rzutek. Trenerzy mówią też „presentation” — jak rzutek jest „podany” strzelcowi. W {{tm:sporting}} trajektorie odtwarzają lot zwierzyny, na przykład kuropatwy, kaczki czy bażanta. {{tm:compak}} też ma zróżnicowane trajektorie, ale są krótsze.",
+    "targets-basic-presentations-map": "Ta lekcja opisuje rzutki poprzeczne i skośne. Rzutki nadlatujące i odlatujące są w lekcji {{lesson:flight-incomer-going-away}}; teal, looper i inne specjalne — w lekcji {{lesson:targets-special-presentations}}.",
+    "flight-crosser-p1": "{{term:crosser|Rzutek poprzeczny}} (crosser) leci mniej więcej w poprzek twojego pola widzenia, z jednej strony na drugą: z lewej na prawą (zapis L→R) albo z prawej na lewą (R→L). Na osi {{tm:sporting}} przepisy wymagają mieszanki rzutków poprzecznych, skośnych, nadlatujących i odlatujących. W {{tm:compak}} rzutek poprzeczny z lewej na prawą i z prawej na lewą to dwa z trzech obowiązkowych torów lotu, więc każde pole Compak je ma.",
+    "flight-crosser-p2": "Rzutek poprzeczny leci prosto w poprzek twojego pola widzenia, więc cała jego prędkość jest boczna. Właśnie dlatego, przy tej samej prędkości i odległości, musisz strzelać dalej przed nim niż na innych trajektoriach. Ten zapas przed rzutkiem nazywa się {{term:lead|wyprzedzeniem}} (lead): strzelasz tam, gdzie rzutek będzie, a nie tam, gdzie jest teraz. Im szybszy i dalszy rzutek poprzeczny, tym większego wyprzedzenia potrzebuje. „Long crosser” znaczy daleki, a nie taki, który długo leci.",
+    "flight-crosser-p3": "Odczytaj jego linię i prędkość: leci płasko, wznosi się czy już opada w {{term:break-point|punkcie strzału}} (miejscu, gdzie planujesz go rozbić)? Pokazuje „twarz” (kopułkę albo brzuch) czy tylko krawędź? Zwalnia? Zwalniający rzutek poprzeczny potrzebuje mniejszego wyprzedzenia niż lecący z pełną prędkością.",
+    "flight-crosser-p4": "Wielu trenerów uczy takiego planu. Ustaw stopy w stronę punktu strzału i znajdź rzutek oczami wcześnie. Potem trzymaj broń przed rzutkiem. Możesz zacząć na rzutku i wyprowadzić broń przed niego ({{term:pull-away|pull-away}}). Albo możesz od początku trzymać stały odstęp przed nim ({{term:maintained-lead|stałe wyprzedzenie}}, maintained lead). Nie zatrzymuj broni w chwili strzału. Obie metody wyjaśnia lekcja {{lesson:technique-lead-methods}}. Po spudłowanym rzutku poprzecznym trenerzy bardzo często mówią „behind” — za rzutkiem: wyprzedzenie było za małe albo broń się zatrzymała.",
+    "flight-crosser-p5": "Kierunki podaje się z punktu widzenia strzelca. Jeśli stoisz twarzą do strzelca, jego „z lewej na prawą” to dla ciebie „z prawej na lewą”, więc nie odwracaj tych słów.",
+    "flight-quartering-p1": "Rzutek skośny (quartering) leci pod kątem: częściowo w poprzek, częściowo od strzelca albo na niego. Quartering away (rzutek skośny odlatujący) oddala się od strzelca pod kątem, na przykład w prawo do przodu. Quartering towards (też „quartering in”, rzutek skośny nadlatujący) zbliża się do strzelca pod kątem i przechodzi z boku albo opada przed nim. Kąt może być dowolny — od rzutka prostego do pełnego poprzecznego.",
+    "flight-quartering-p2": "Wyprzedzenie zależy od kąta. Czym bliżej rzutek leci prosto od ciebie albo prosto na ciebie, tym mniej wyprzedzenia potrzebuje. Czym bliżej jest pełnemu poprzecznemu, tym więcej wyprzedzenia potrzebuje — aż niemal tyle, co poprzeczny.",
+    "flight-quartering-p3": "Rzutek skośny odlatujący szybko maleje i zwalnia, więc nie czekaj z nim za długo. Wielu trenerów radzi tu metodę pull-away (zacznij na rzutku, potem wyprowadź broń przed niego), bo broń zostaje na linii lotu rzutka. Rzutek skośny nadlatujący rośnie i wygląda na wolny, co kusi strzelca, by czekał; może wtedy przejść zbyt blisko albo opaść poza pole widzenia.",
+    "flight-quartering-p4": "Ta sama wyrzutnia daje różne prezentacje z różnych stanowisk: z jednego stanowiska rzutek jest poprzeczny, z następnego skośny. Dlatego rzutki trzeba odczytywać dokładnie z tego stanowiska, z którego strzelec będzie strzelał."
+  },
+  "note": {
+    "flight-quartering-p5": "Tłumacz „quartering” według znaczenia: rzutek lecący pod kątem, który oddala się od strzelca albo się do niego zbliża. Słowo zbudowane dosłownie od „quarter” nic strzelcowi nie powie."
+  },
+  "phrases": {
+    "flight-crosser-ph1": {
+      "meaning": "Rzutek jest daleko i leci od prawej do lewej strzelca; daj mu zaplanowane wyprzedzenie i nie zatrzymuj broni.",
+      "say": "Daleki poprzeczny, z prawej na lewą — zaufaj wyprzedzeniu i trzymaj broń w ruchu."
+    },
+    "flight-crosser-ph2": {
+      "meaning": "Śrut przeszedł za rzutkiem: potrzeba więcej wyprzedzenia.",
+      "say": "Jesteś za nim — daj więcej."
+    },
+    "flight-crosser-ph3": {
+      "meaning": "W miejscu, gdzie strzelec go rozbija, rzutek poprzeczny już opada, więc broń musi iść nieco poniżej jego toru.",
+      "say": "W twoim punkcie strzału już opada — zostań pod linią."
+    },
+    "flight-crosser-ph4": {
+      "meaning": "Szukaj rzutka bliżej wyrzutni niż zwykle, bo szybko z niej wylatuje.",
+      "say": "Podejmij go wcześnie, szybko schodzi z wyrzutni."
+    },
+    "flight-quartering-ph1": {
+      "meaning": "Pierwszy rzutek oddala się pod kątem w lewo od strzelca; rozbij go wcześnie.",
+      "say": "Pierwszy odchodzi skośnie w lewo — bierz go szybko, zanim zmaleje."
+    },
+    "flight-quartering-ph2": {
+      "meaning": "Rzutek zbliża się do strzelca pod kątem z prawej; nie czekaj na niego.",
+      "say": "Skośny nadlatujący z prawej — nie daj mu podejść za blisko."
+    },
+    "flight-quartering-ph3": {
+      "meaning": "Rzutek leci prawie prosto, więc potrzebuje tylko małego wyprzedzenia.",
+      "say": "Mniej wyprzedzenia, niż myślisz — to tylko lekki kąt."
+    }
+  },
+  "key_points": {
+    "targets-basic-presentations-kp1": "Trajektoria to droga rzutka; „presentation” to to, jak rzutek jest pokazany strzelcowi.",
+    "flight-crosser-kp1": "Rzutek poprzeczny leci prosto w poprzek twojego pola widzenia: L→R albo R→L.",
+    "flight-crosser-kp2": "Przy tej samej prędkości i odległości rzutek poprzeczny potrzebuje największego wyprzedzenia (zapasu, na jaki strzelasz przed nim); rzutek skośny potrzebuje mniejszego, zależnie od kąta.",
+    "flight-quartering-kp2": "Skośny odlatujący oddala się pod kątem; skośny nadlatujący (in) zbliża się pod kątem.",
+    "flight-quartering-kp4": "Jedna wyrzutnia wygląda inaczej z każdego stanowiska: odczytuj ją ze swojego."
+  },
+  "did_you_know": "Wiele nazw prezentacji w {{tm:sporting}} pochodzi z łowiectwa. Driven to bażant spędzany przez naganiaczy w stronę strzelców; teal to mała kaczka, która zrywa się z wody prawie prosto w górę.",
+  "quiz": {
+    "flight-crosser-q1": {
+      "q": "Która prezentacja zwykle potrzebuje największego wyprzedzenia?",
+      "options": {
+        "a": "Rzutek lecący prosto od strzelca",
+        "b": "Rzutek nadlatujący prosto na strzelca",
+        "c": "Rzutek poprzeczny na tej samej odległości",
+        "d": "Rabbit toczący się prosto od strzelca"
+      },
+      "explain": "Cała prędkość rzutka poprzecznego jest boczna, więc strzelasz najdalej przed nim; rzutki lecące prosto od ciebie albo na ciebie potrzebują niewielkiego bocznego wyprzedzenia."
+    },
+    "flight-quartering-q1": {
+      "q": "Rzutek zbliża się do strzelca pod kątem i przechodzi z boku. Jak się nazywa?",
+      "options": {
+        "a": "Odlatujący",
+        "b": "Skośny nadlatujący (quartering towards)",
+        "c": "Teal",
+        "d": "Rafale"
+      },
+      "explain": "Quartering towards (lub quartering in) to rzutek skośny nadlatujący; quartering away to rzutek skośny odlatujący."
+    },
+    "flight-quartering-q3": {
+      "q": "Czemu rzutek trzeba odczytywać dokładnie z tego stanowiska, z którego będziesz strzelać?",
+      "options": {
+        "a": "Jedna wyrzutnia może dawać inny kąt z każdego stanowiska",
+        "b": "Przepisy zabraniają patrzenia z innego miejsca",
+        "c": "Rzutki zmieniają kolor między stanowiskami",
+        "d": "Tylko sędzia może stać gdzie indziej"
+      },
+      "explain": "Kąt między strzelcem a linią lotu rzutka zmienia się z pozycją, więc zmienia się też prezentacja."
+    },
+    "targets-basic-presentations-q-distance": {
+      "q": "Rzutek poprzeczny leci daleko od ciebie. W porównaniu z bliskim, na tej samej prędkości, potrzebuje…",
+      "options": {
+        "a": "większego wyprzedzenia",
+        "b": "mniejszego wyprzedzenia",
+        "c": "takiego samego wyprzedzenia"
+      },
+      "explain": "Czym dalej leci rzutek, tym więcej przemieszcza się, gdy śrut jest w drodze, więc potrzebuje większego wyprzedzenia."
+    },
+    "targets-basic-presentations-q-slowing": {
+      "q": "Rzutek poprzeczny zwalnia w twoim punkcie strzału. W porównaniu z tym na pełnej prędkości, potrzebuje…",
+      "options": {
+        "a": "większego wyprzedzenia",
+        "b": "mniejszego wyprzedzenia",
+        "c": "żadnego wyprzedzenia"
+      },
+      "explain": "Wolniejszy rzutek przemieszcza się mniej, gdy śrut jest w drodze, więc potrzebuje mniejszego wyprzedzenia."
+    },
+    "targets-basic-presentations-q-directions": {
+      "q": "Z czyjego punktu widzenia podaje się „lewo” i „prawo” dla rzutka poprzecznego?",
+      "options": {
+        "a": "Strzelca",
+        "b": "Sędziego",
+        "c": "Operatora wyrzutni"
+      },
+      "explain": "Kierunki są podawane z punktu widzenia strzelca: rzutek L→R leci z lewej na prawą stronę strzelca."
+    },
+    "flight-crosser-q2": {
+      "q": "Trener mówi „long crosser”. Co znaczy „long”?",
+      "options": {
+        "a": "Rzutek jest daleko",
+        "b": "Rzutek leci długo",
+        "c": "To długi, owalny rzutek",
+        "d": "Strzelec powinien długo czekać"
+      },
+      "explain": "W języku trenerów „long” opisuje odległość. Long crosser to daleki rzutek poprzeczny, który wymaga większego wyprzedzenia."
+    },
+    "flight-crosser-q3": {
+      "q": "Co jest prawdą o rzutkach poprzecznych w {{tm:compak}}?",
+      "options": {
+        "a": "Rzutki poprzeczne są niedozwolone na polu Compak",
+        "b": "Dozwolone są tylko rzutki z prawej na lewą",
+        "c": "Rzutek poprzeczny można wyrzucać tylko jako rabbita",
+        "d": "Rzutek poprzeczny L→R i R→L jest obowiązkowy"
+      },
+      "explain": "Przepisy {{tm:compak}} czynią obowiązkowymi trzy tory lotu: rzutek poprzeczny L→R, rzutek poprzeczny R→L i rzutek odlatujący."
+    },
+    "flight-quartering-q2": {
+      "q": "Jak wyprzedzenie na rzutku skośnym ma się do pełnego poprzecznego na tej samej odległości i prędkości?",
+      "options": {
+        "a": "Jest takie samo jak przy poprzecznym",
+        "b": "Zawsze wynosi zero",
+        "c": "Jest większe niż przy poprzecznym",
+        "d": "Jest mniejsze, zależnie od kąta"
+      },
+      "explain": "Bocznego wyprzedzenia potrzebuje tylko boczna część ruchu, więc czym bliżej rzutek leci prosto od ciebie albo na ciebie, tym mniejsze wyprzedzenie."
+    }
+  }
+}

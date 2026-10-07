@@ -1,0 +1,640 @@
+{
+  "id": "rules-hit-and-no-bird",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "certified FITASC referee",
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js (FITASC edition 01/01/2025, file of 2026-03-29), compak.js (edition 01/01/2025, file of 2026-02-02)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "rules-hit-and-no-bird",
+      "competitions-scoring-basics"
+    ],
+    "interpreter": [
+      "targets-hit-or-lost"
+    ]
+  },
+  "terms": [
+    "visible-piece",
+    "flash-target",
+    "chip",
+    "referee",
+    "shooting-limit",
+    "no-bird",
+    "smoked-it",
+    "sporting",
+    "compak-sporting",
+    "one",
+    "zero",
+    "trajectory",
+    "trap",
+    "score-sheet",
+    "jury",
+    "interruption",
+    "squad",
+    "layout"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch6-target-one"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-one"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-target-zero"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-zero"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-referee-alone"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-powers"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-visible-break"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-zero-announce"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-target-no-bird-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-bad-weather"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-single-rabbit"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-target-no-bird-actions"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-shooting-nobird"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-shooting-no-bird"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-weather-interruption"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-weather-interruption"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-call-and-release"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-no-checking-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-protest"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-consultation"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-other-compak"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-model"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What counts as a hit, and what a No Bird is",
+    "uk": "Що зараховують як влучання і що таке No Bird"
+  },
+  "summary": {
+    "en": "In {{tm:sporting}} and {{tm:compak}} a target is a hit if at least one visible piece comes off; dust alone is a miss. A No Bird does not count and is thrown again.",
+    "uk": "У {{tm:sporting}} і {{tm:compak}} мішень зараховують, якщо від неї відлетів хоч один видимий уламок; лише пил — це промах. No Bird не зараховують і запускають знову."
+  },
+  "body": [
+    {
+      "k": "rules-hit-and-no-bird-p1",
+      "t": "p",
+      "anchor": "competitions-scoring-basics",
+      "en": "In {{tm:sporting}} and {{tm:compak}} each target has only two results: 'one' (a hit) or 'zero' (a miss). There are no half points.",
+      "uk": "У {{tm:sporting}} і {{tm:compak}} кожна мішень має лише два результати: «one» (влучання) або «zero» (промах). Півбалів немає."
+    },
+    {
+      "k": "targets-hit-or-lost-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch6-target-one",
+        "compak:ch20-one"
+      ],
+      "anchor": "targets-hit-or-lost",
+      "en": "A target is scored 'one' when three things are true. It was thrown correctly, the shooter fired as the rules require, and at least one {{term:visible-piece|visible piece}} broke off it (a target that shatters completely counts too). The same rule applies to {{term:flash-target|flash targets}} (clays that release a puff of coloured powder when hit). A target is 'zero' (lost) when no visible piece comes off and there is only dust or smoke.",
+      "uk": "Мішень зараховують як «one», коли виконано три умови. Її правильно запустили, стрілець стріляв так, як вимагають правила, і від неї відлетів хоча б один {{term:visible-piece|видимий уламок}} (мішень, що розлетілася повністю, теж зараховують). Для {{term:flash-target|флеш-мішеней}} (мішеней, які при влучанні викидають хмарку кольорового порошку) правило те саме. Мішень — «zero» (промах), якщо видимого уламка немає, а є лише пил чи дим."
+    },
+    {
+      "k": "targets-hit-or-lost-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch6-target-zero",
+        "compak:ch20-zero"
+      ],
+      "en": "So the whole rule comes down to one thing you can see: a piece breaking off. A small {{term:chip|chip}} that flies off counts as a hit. A puff of dust, with the target flying on in one piece, is lost.",
+      "uk": "Отже, усе правило зводиться до одного, що видно оком: від мішені відлітає уламок. Маленький {{term:chip|відколок}}, що відлетів, — це влучання. Хмарка пилу, після якої мішень летить далі ціла, — промах."
+    },
+    {
+      "k": "targets-hit-or-lost-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch6-referee-alone",
+        "compak:ch19-referee-powers"
+      ],
+      "en": "Only the {{term:referee|referee}} decides whether a target was hit. Squad members may not give opinions, and nobody may pick up a target to check it.",
+      "uk": "Чи влучено в мішень, вирішує лише {{term:referee|суддя}}. Члени групи не мають права висловлювати думку, і ніхто не може підняти мішень, щоб перевірити."
+    },
+    {
+      "k": "rules-hit-and-no-bird-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "Seeing the break, and objecting",
+      "uk": "Видимість влучання і заперечення",
+      "sporting": {
+        "rule_ref": "sporting:ch9-visible-break",
+        "en": "Break your targets where the referee can see the break. If a target breaks behind an obstacle or beyond the {{term:shooting-limit|shooting limit}} (the edge of the area in which a break counts), the referee decides. That decision cannot be appealed. Once you call for the next target, you have accepted the decision on the last one.",
+        "uk": "Розбивайте мішені там, де суддя бачить влучання. Якщо мішень розбилася за перешкодою чи за {{term:shooting-limit|межею зони стрільби}} (краєм ділянки, у межах якої влучання зараховують), вирішує суддя. Оскаржити це рішення не можна. Щойно ви покликали наступну мішень, ви погодилися з рішенням щодо попередньої."
+      },
+      "compak": {
+        "rule_ref": "compak:ch15-zero-announce",
+        "en": "The referee announces each zero aloud or with a sound signal. Object at once, before the next shooter calls.",
+        "uk": "Кожен zero суддя оголошує вголос або звуковим сигналом. Заперечуйте одразу, до команди наступного стрільця."
+      }
+    },
+    {
+      "k": "rules-hit-and-no-bird-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch6-nobird-target-cases",
+        "compak:ch20-target-no-bird-cases"
+      ],
+      "en": "A {{term:no-bird|No Bird}} is a target that does not count and is thrown again. The referee calls it when the target is thrown broken, comes from the wrong trap, or has the wrong colour (in {{tm:sporting}} also the wrong size or type). Other reasons are an irregular trajectory, a release more than 3 seconds late (see {{lesson:rules-call-and-time}}) or a target you did not call for. A No Bird is also given when something clearly disturbed you, or when the referee cannot judge the result.",
+      "uk": "{{term:no-bird|No Bird}} — мішень, яку не зараховують і запускають знову. Суддя оголошує No Bird, коли мішень вилетіла розбитою, з іншої машинки або не того кольору (у {{tm:sporting}} — ще й не того розміру чи типу). Інші причини — неправильна траєкторія, запуск із запізненням понад 3 секунди (див. {{lesson:rules-call-and-time}}) або мішень, яку ви не кликали. No Bird буде й тоді, коли вам явно щось завадило, або коли суддя не може визначити результат."
+    },
+    {
+      "k": "rules-hit-and-no-bird-cmp2",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "No Bird: what differs",
+      "uk": "No Bird: чим відрізняються дисципліни",
+      "sporting": {
+        "rule_ref": "sporting:ch6-nobird-target-cases",
+        "en": "Two targets leaving the traps of the same stand at once is also a No Bird.",
+        "uk": "Якщо дві мішені одночасно вилетіли з машинок того самого місця, це теж No Bird."
+      },
+      "compak": {
+        "rule_ref": "compak:ch20-bad-weather",
+        "en": "Bad weather does not give a No Bird, whatever the conditions. A target or pieces flying over from the neighbouring {{tm:compak}} {{term:layout|layout}} (the field next to yours) do not give one either. A stray target from a trap of your own layout does.",
+        "uk": "Погода не дає права на No Bird за будь-яких умов. Мішень чи уламки, що залетіли із сусіднього {{term:layout|майданчика}} {{tm:compak}} (поля поруч із вашим), — теж ні. А випадкова мішень із машинки вашого майданчика — так."
+      }
+    },
+    {
+      "k": "rules-hit-and-no-bird-p6",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch6-nobird-target-single-rabbit",
+        "compak:ch20-target-no-bird-actions"
+      ],
+      "en": "After a No Bird, a single target is simply thrown again. In a double it depends on which target was irregular: see {{lesson:rules-doubles}}.",
+      "uk": "Після No Bird одиночну мішень просто запускають знову. У дуплеті все залежить від того, яка мішень неправильна: див. {{lesson:rules-doubles}}."
+    },
+    {
+      "k": "rules-hit-and-no-bird-p7",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch12-shooting-nobird",
+        "compak:ch21-shooting-no-bird"
+      ],
+      "en": "Once the referee has called No Bird, you may not shoot at that target. After a first warning, doing so is penalised in both disciplines; how the targets are then scored is in the rules guide.",
+      "uk": "Якщо суддя вже оголосив No Bird, по цій мішені не стріляють. Після першого попередження це карається в обох дисциплінах; як тоді зараховують мішені — у довіднику правил."
+    },
+    {
+      "k": "rules-hit-and-no-bird-cmp3",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "A sudden storm",
+      "uk": "Раптова гроза чи злива",
+      "sporting": {
+        "rule_ref": "sporting:ch5-weather-interruption",
+        "en": "For a sudden heavy shower or violent storm that looks short, the referee may stop shooting. If it lasts longer, the referee informs the jury.",
+        "uk": "Через раптову сильну зливу чи грозу, яка, схоже, буде недовгою, суддя може зупинити стрільбу. Якщо перерва затягується, суддя повідомляє журі."
+      },
+      "compak": {
+        "rule_ref": "compak:ch19-weather-interruption",
+        "en": "Only the Head Referee may stop shooting for a sudden downpour or storm. If it may last, the jury is informed.",
+        "uk": "Зупинити стрільбу через раптову зливу чи грозу може лише головний суддя. Якщо перерва може затягнутися, повідомляють журі."
+      }
+    },
+    {
+      "k": "rules-hit-and-no-bird-tip1",
+      "t": "tip",
+      "en": "If you think a call was wrong, raise your hand and say so before the next call. Arguing later does not change the score; how a protest works is in {{lesson:competitions-results-and-protests}}.",
+      "uk": "Якщо вважаєте рішення помилковим, підніміть руку й скажіть про це до наступної команди. Суперечка потім рахунку не змінить; як працює протест — у {{lesson:competitions-results-and-protests}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "rules-hit-and-no-bird-n1",
+      "for": "interpreter",
+      "en": "Coach slang can mean the opposite of the rules. {{term:smoked-it|'Smoked it'}} praises a very clean break, while in the rules 'only dust or smoke' is a lost target. More in {{lesson:interpreter-false-friends}}.",
+      "uk": "Сленг тренера може означати протилежне до правил. {{term:smoked-it|«Smoked it»}} — похвала за дуже чисте влучання, а в правилах «лише пил чи дим» — промах. Докладніше — {{lesson:interpreter-false-friends}}."
+    },
+    {
+      "k": "targets-hit-or-lost-p5",
+      "for": "interpreter",
+      "en": "Also: 'dead' means a hit, and 'lost' means a miss; do not translate them word for word.",
+      "uk": "Ще два слова: «dead» у судді означає влучання (не «мертва»), а «lost» — промах (не «загублена»)."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "targets-hit-or-lost-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Dead — only a chip, but it counts.",
+      "meaning": {
+        "en": "A small visible piece broke off, so it is a hit.",
+        "uk": "Відлетів маленький помітний уламок, тож це влучання."
+      },
+      "say": {
+        "uk": "Є — лише відколок, але зараховано."
+      }
+    },
+    {
+      "k": "targets-hit-or-lost-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Lost — you were just behind it.",
+      "meaning": {
+        "en": "A miss; the shot went behind the target.",
+        "uk": "Промах; сніп пройшов позаду мішені."
+      },
+      "say": {
+        "uk": "Промах — ви були трохи позаду мішені."
+      }
+    },
+    {
+      "k": "targets-hit-or-lost-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Don't argue with me later — say it now, before you call.",
+      "meaning": {
+        "en": "An objection must be made at once; calling the next target accepts the ruling.",
+        "uk": "Заперечувати треба одразу: покликавши наступну мішень, ви погоджуєтеся з рішенням."
+      },
+      "say": {
+        "uk": "Не сперечайтеся потім — кажіть зараз, до команди."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "targets-hit-or-lost-kp1",
+      "en": "'One': at least one visible piece broke off the target, or it shattered completely.",
+      "uk": "«One»: від мішені відлетів хоча б один видимий уламок або вона розлетілася повністю."
+    },
+    {
+      "k": "targets-hit-or-lost-kp2",
+      "en": "'Zero': no visible piece, only dust or smoke.",
+      "uk": "«Zero»: видимого уламка немає, лише пил чи дим."
+    },
+    {
+      "k": "targets-hit-or-lost-kp3",
+      "en": "Only the referee decides; nobody picks up a target to check it; object at once.",
+      "uk": "Вирішує лише суддя; мішені не піднімають, щоб перевірити; заперечувати — одразу.",
+      "checklist": true
+    },
+    {
+      "k": "rules-hit-and-no-bird-kp3",
+      "en": "A No Bird does not count and is thrown again; you may not shoot at a declared No Bird.",
+      "uk": "No Bird не зараховують і запускають знову; стріляти по оголошеному No Bird не можна."
+    },
+    {
+      "k": "rules-hit-and-no-bird-kp5",
+      "en": "{{tm:compak}}: bad weather does not give a No Bird.",
+      "uk": "{{tm:compak}}: погода не дає права на No Bird."
+    }
+  ],
+  "did_you_know": {
+    "k": "rules-hit-and-no-bird-dyk",
+    "en": "On {{tm:compak}} score sheets a hit is marked X and a miss O.",
+    "uk": "У протоколах {{tm:compak}} влучання позначають «X», а промах — «O»."
+  },
+  "quiz": [
+    {
+      "k": "rules-hit-and-no-bird-q1",
+      "disc": "both",
+      "q": {
+        "en": "After the shot the target only gives off dust, and no piece is seen. What is the result?",
+        "uk": "Після пострілу з мішені пішов лише пил, уламка не видно. Який результат?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One",
+          "uk": "One"
+        },
+        {
+          "k": "b",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "c",
+          "en": "Zero",
+          "uk": "Zero"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A hit needs at least one visible piece; dust or smoke alone is a zero.",
+        "uk": "Для влучання потрібен хоча б один видимий уламок; лише пил чи дим — це zero."
+      },
+      "rule_ref": "sporting:ch6-target-zero"
+    },
+    {
+      "k": "rules-hit-and-no-bird-q2",
+      "disc": "both",
+      "q": {
+        "en": "Who decides whether a target was hit?",
+        "uk": "Хто вирішує, чи влучено в мішень?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only the referee",
+          "uk": "Лише суддя"
+        },
+        {
+          "k": "b",
+          "en": "A vote of the squad",
+          "uk": "Голосування групи"
+        },
+        {
+          "k": "c",
+          "en": "The shooter",
+          "uk": "Сам стрілець"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The referee decides alone and may ask others for advice only on his or her own initiative.",
+        "uk": "Суддя вирішує сам і може порадитися з іншими лише з власної ініціативи."
+      },
+      "rule_ref": "sporting:ch6-referee-alone"
+    },
+    {
+      "k": "rules-hit-and-no-bird-q3",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}} heavy rain starts, and you miss. What is the result?",
+        "uk": "У {{tm:compak}} почалася сильна злива, і ви промахнулися. Який результат?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It is a No Bird",
+          "uk": "Це No Bird"
+        },
+        {
+          "k": "b",
+          "en": "It is a zero",
+          "uk": "Це zero"
+        },
+        {
+          "k": "c",
+          "en": "A No Bird, if you ask",
+          "uk": "No Bird, якщо попросити"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:compak}} a broken target is 'one' and a miss is 'zero' in any weather. Only the Head Referee may stop shooting for a sudden storm.",
+        "uk": "У {{tm:compak}} розбита мішень — «one», а промах — «zero» за будь-якої погоди. Зупинити стрільбу через раптову грозу може лише головний суддя."
+      },
+      "rule_ref": "compak:ch20-bad-weather"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "competitions-scoring-basics-q3",
+      "q": {
+        "en": "A target of the wrong colour comes out of the trap. What is it?",
+        "uk": "З машинки вилітає мішень не того кольору. Що це?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "b",
+          "en": "Zero",
+          "uk": "Zero"
+        },
+        {
+          "k": "c",
+          "en": "One",
+          "uk": "One"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A target of the wrong colour is a No Bird in both disciplines and is thrown again.",
+        "uk": "Мішень не того кольору — No Bird в обох дисциплінах, її запускають знову."
+      },
+      "disc": "both",
+      "rule_ref": "compak:ch20-target-no-bird-cases"
+    },
+    {
+      "k": "targets-hit-or-lost-q1",
+      "q": {
+        "en": "A tiny chip flies off the target, and the rest of it flies on. What is the score?",
+        "uk": "Від мішені відлітає крихітний відколок, а решта летить далі. Який результат?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Zero (lost)",
+          "uk": "Zero (промах)"
+        },
+        {
+          "k": "b",
+          "en": "One (hit)",
+          "uk": "One (влучання)"
+        },
+        {
+          "k": "c",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "d",
+          "en": "Half a point",
+          "uk": "Пів бала"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Any visible piece that comes off makes it a hit, however small it is.",
+        "uk": "Будь-який видимий уламок, хай який маленький, означає влучання."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch6-target-one"
+    },
+    {
+      "k": "targets-hit-or-lost-q3",
+      "q": {
+        "en": "After a 'lost' call, a squad member walks out to pick up the target and show the referee a chip on it. What do the rules say?",
+        "uk": "Після рішення «lost» хтось із групи йде підняти мішень, щоб показати судді відколок на ній. Що кажуть правила?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The referee must look at it",
+          "uk": "Суддя мусить її оглянути"
+        },
+        {
+          "k": "b",
+          "en": "The squad votes on it",
+          "uk": "Група голосує"
+        },
+        {
+          "k": "c",
+          "en": "Not allowed: targets are not picked up",
+          "uk": "Не можна: мішені не піднімають"
+        },
+        {
+          "k": "d",
+          "en": "The coach decides",
+          "uk": "Вирішує тренер"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Nobody may pick up a target to check it, and squad members may not intervene: the referee decides alone.",
+        "uk": "Ніхто не може піднімати мішень для перевірки, а члени групи не втручаються: вирішує лише суддя."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch9-no-checking-targets"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "4794c74b",
+    "summary": "3e83dc06",
+    "rules-hit-and-no-bird-p1": "277f0b67",
+    "targets-hit-or-lost-p1": "b9ef7e75",
+    "targets-hit-or-lost-p2": "79ab83c6",
+    "targets-hit-or-lost-p3": "5d73bfd4",
+    "rules-hit-and-no-bird-cmp1": "53b14c69",
+    "rules-hit-and-no-bird-p5": "0ade6c15",
+    "rules-hit-and-no-bird-cmp2": "f1a043d3",
+    "rules-hit-and-no-bird-p6": "c54645e2",
+    "rules-hit-and-no-bird-p7": "f9ae3e0e",
+    "rules-hit-and-no-bird-cmp3": "b6fc783c",
+    "rules-hit-and-no-bird-tip1": "24b646d0",
+    "rules-hit-and-no-bird-n1": "ab0492bb",
+    "targets-hit-or-lost-p5": "ffcca686",
+    "targets-hit-or-lost-ph2": "fc9b62f4",
+    "targets-hit-or-lost-ph3": "c4348d9e",
+    "targets-hit-or-lost-ph4": "9b667f8d",
+    "targets-hit-or-lost-kp1": "bdfb734e",
+    "targets-hit-or-lost-kp2": "13eb98a1",
+    "targets-hit-or-lost-kp3": "92a918aa",
+    "rules-hit-and-no-bird-kp3": "2a1721c2",
+    "rules-hit-and-no-bird-kp5": "349a6284",
+    "rules-hit-and-no-bird-dyk": "d7a6a51a",
+    "rules-hit-and-no-bird-q1": "3cd36c18",
+    "rules-hit-and-no-bird-q2": "bfbdfb6e",
+    "rules-hit-and-no-bird-q3": "bdbc54bd",
+    "competitions-scoring-basics-q3": "aa26aace",
+    "targets-hit-or-lost-q1": "dc9c7876",
+    "targets-hit-or-lost-q3": "73a4d8e6"
+  },
+  "todo": {
+    "tasks": [
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+    ]
+  }
+}

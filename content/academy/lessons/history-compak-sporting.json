@@ -1,0 +1,284 @@
+{
+  "id": "history-compak-sporting",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "compak"
+  ],
+  "audiences": [
+    "fan",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "history-compak-sporting"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "compak-sporting",
+    "sporting",
+    "fitasc",
+    "trap",
+    "shooting-stand",
+    "squad",
+    "layout",
+    "championship"
+  ],
+  "rule_refs": [
+    {
+      "book": "compak",
+      "id": "ch1-discipline"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-terrain"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-shooting-positions"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-traps"
+    }
+  ],
+  "facts": [
+    "community.compak-created",
+    "basics.compak-field",
+    "community.compak-championships"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Compak® Sporting (edition 01/01/2025)",
+        "uk": "FITASC — офіційні правила Compak® Sporting (редакція 01/01/2025)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — History of the Federation",
+        "uk": "FITASC — історія федерації"
+      },
+      "url": "https://www.fitasc.com/en/organization/history/fitasc-history",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "{{tm:compak}}: the compact format",
+    "uk": "{{tm:compak}}: компактний формат"
+  },
+  "summary": {
+    "en": "{{tm:compak}} appeared at the end of the 20th century as a compact form of {{tm:sporting}}: less land, faster shooting and easier for spectators.",
+    "uk": "{{tm:compak}} з’явився наприкінці XX століття як компактна форма {{tm:sporting}}: менше землі, швидша стрільба і зручніше для глядачів."
+  },
+  "body": [
+    {
+      "k": "history-compak-sporting-p1",
+      "t": "p",
+      "en": "A full {{tm:sporting}} course needs a lot of land: woods, hills and several {{term:layout|layouts}}. Many clubs do not have that. So the idea came up to bring the variety of sporting targets onto a small plot.",
+      "uk": "Повний маршрут {{tm:sporting}} потребує багато землі: лісу, пагорбів і кількох {{term:layout|майданчиків}}. Багато клубів такого не мають. Тому виникла ідея зібрати різноманітні спортингові мішені на невеликій ділянці."
+    },
+    {
+      "k": "history-compak-sporting-p2",
+      "t": "p",
+      "disc": "compak",
+      "rule_ref": "compak:ch1-discipline",
+      "en": "This is how {{tm:compak}} began. Its rules state that the discipline was {{fact:community.compak-created}}, so it is a format of the late 20th century. It spread quickly: FITASC has held {{fact:community.compak-championships}}.",
+      "uk": "Так з’явився {{tm:compak}}. У його правилах сказано, що дисципліну {{fact:community.compak-created}}, тож це формат кінця XX століття. Він швидко поширився: FITASC проводить {{fact:community.compak-championships}}."
+    },
+    {
+      "k": "history-compak-sporting-p3",
+      "t": "p",
+      "disc": "compak",
+      "rule_ref": "compak:ch2-traps",
+      "en": "The idea is one field. A Compak field has {{fact:basics.compak-field}}. The targets fly over a marked rectangle in front of the shooters. They go in many directions, as in {{tm:sporting}}, but all on one field.",
+      "uk": "Ідея — одне поле. На полі Compak є {{fact:basics.compak-field}}. Мішені летять над розміченим прямокутником перед стрільцями. Вони летять у різних напрямках, як у {{tm:sporting}}, але все відбувається на одному полі."
+    },
+    {
+      "k": "history-compak-sporting-p4",
+      "t": "p",
+      "en": "The format has several advantages. A club needs less land and fewer {{term:trap|traps}}. Shooting moves faster. And spectators can see the whole {{term:squad|squad}} (the group of shooters who shoot a round together) and all the targets from one spot, so {{tm:compak}} works well on video.",
+      "uk": "Такий формат має кілька переваг. Клубу потрібно менше землі й менше {{term:trap|машинок}}. Стрільба йде швидше. А глядачі бачать усю {{term:squad|групу}} (стрільців, які разом стріляють раунд) й усі мішені з одного місця, тож {{tm:compak}} добре виглядає на відео."
+    },
+    {
+      "k": "history-compak-sporting-p5",
+      "t": "p",
+      "disc": "compak",
+      "rule_ref": "compak:ch1-discipline",
+      "en": "The name and the rules of {{tm:compak}} are a trade mark registered and protected by FITASC. That is why we write the ® sign and do not invent other versions of the name.",
+      "uk": "Назва й правила {{tm:compak}} — торговельна марка, яку зареєструвала й захищає FITASC. Саме тому ми пишемо знак ® і не вигадуємо інших варіантів назви."
+    },
+    {
+      "k": "history-compak-sporting-p6",
+      "t": "p",
+      "en": "Today {{tm:compak}} is often a beginner's first discipline. It is easier to find near home, and its skills carry over to a full {{tm:sporting}} course. How a Compak field works in detail: {{lesson:targets-compak-layout}}.",
+      "uk": "Сьогодні {{tm:compak}} часто стає першою дисципліною новачка. Його легше знайти поруч із домом, а навички згодяться й на повному маршруті {{tm:sporting}}. Як улаштоване поле Compak, докладно: {{lesson:targets-compak-layout}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "history-compak-sporting-kp1",
+      "en": "{{tm:compak}} is a compact form of sporting on one field.",
+      "uk": "{{tm:compak}} — компактна форма спортингової стрільби на одному полі."
+    },
+    {
+      "k": "history-compak-sporting-kp2",
+      "en": "The rules say it was {{fact:community.compak-created}}.",
+      "uk": "За правилами, дисципліну {{fact:community.compak-created}}."
+    },
+    {
+      "k": "history-compak-sporting-kp3",
+      "en": "One field: {{fact:basics.compak-field}}.",
+      "uk": "Одне поле: {{fact:basics.compak-field}}."
+    },
+    {
+      "k": "history-compak-sporting-kp4",
+      "en": "The name and the rules are a trade mark of FITASC.",
+      "uk": "Назва й правила — торговельна марка FITASC."
+    }
+  ],
+  "did_you_know": {
+    "k": "history-compak-sporting-dyk",
+    "en": "In {{tm:compak}} a spectator can stay in one place and see all the targets of a round. On a full {{tm:sporting}} course that is not possible.",
+    "uk": "У {{tm:compak}} глядач може стояти на одному місці й бачити всі мішені раунду. На повному маршруті {{tm:sporting}} з багатьма майданчиками так не вийде."
+  },
+  "quiz": [
+    {
+      "k": "history-compak-sporting-q1",
+      "q": {
+        "en": "Why was {{tm:compak}} created?",
+        "uk": "Навіщо створили {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To fit varied targets onto a small plot",
+          "uk": "Щоб зібрати різні мішені на невеликій ділянці"
+        },
+        {
+          "k": "b",
+          "en": "To bring back live-bird shooting",
+          "uk": "Щоб повернути стрільбу по живих птахах"
+        },
+        {
+          "k": "c",
+          "en": "To replace the Olympic clay events",
+          "uk": "Щоб замінити олімпійські стендові дисципліни"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "{{tm:compak}} needs less land but keeps varied trajectories.",
+        "uk": "{{tm:compak}} потребує менше землі, але зберігає різні траєкторії."
+      }
+    },
+    {
+      "k": "history-compak-sporting-q2",
+      "q": {
+        "en": "How many stations and traps does a {{tm:compak}} field have?",
+        "uk": "Скільки номерів і машинок на полі {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "1 station and 15 traps",
+          "uk": "1 номер і 15 машинок"
+        },
+        {
+          "k": "b",
+          "en": "5 stations and 6 traps",
+          "uk": "5 номерів і 6 машинок"
+        },
+        {
+          "k": "c",
+          "en": "8 stations and 2 traps",
+          "uk": "8 номерів і 2 машинки"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Five stations stand in a line, and six traps, A to F, throw the targets.",
+        "uk": "П’ять номерів стоять у лінію, а мішені запускають шість машинок — від A до F."
+      }
+    },
+    {
+      "k": "history-compak-sporting-q3",
+      "q": {
+        "en": "When did FITASC adopt {{tm:compak}}?",
+        "uk": "Коли FITASC прийняла {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In 1960",
+          "uk": "1960 року"
+        },
+        {
+          "k": "b",
+          "en": "In 1921",
+          "uk": "1921 року"
+        },
+        {
+          "k": "c",
+          "en": "In 1991",
+          "uk": "1991 року"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The discipline was {{fact:community.compak-created}}.",
+        "uk": "Дисципліну {{fact:community.compak-created}}."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "d299ca4f",
+    "summary": "a58560e1",
+    "history-compak-sporting-p1": "f9473d24",
+    "history-compak-sporting-p2": "90af5f82",
+    "history-compak-sporting-p3": "dcc4df2b",
+    "history-compak-sporting-p4": "3440be04",
+    "history-compak-sporting-p5": "f04fb293",
+    "history-compak-sporting-p6": "f37c2559",
+    "history-compak-sporting-kp1": "2cba0cc1",
+    "history-compak-sporting-kp2": "a0bbea43",
+    "history-compak-sporting-kp3": "f9a1ca90",
+    "history-compak-sporting-kp4": "f4441fd7",
+    "history-compak-sporting-dyk": "1bc6f84a",
+    "history-compak-sporting-q1": "e113e7ed",
+    "history-compak-sporting-q2": "2c216314",
+    "history-compak-sporting-q3": "438b5d84"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

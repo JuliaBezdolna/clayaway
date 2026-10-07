@@ -1,0 +1,109 @@
+{
+  "id": "referee-calls",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Mitä tuomari sanoo ampumapaikalla",
+  "summary": "Ampumapaikan lyhyet sanat: kutsu, lataaminen ja avoimet aseet, «one», «zero» ja «No Bird», sekä ampujan virallinen protestisana.",
+  "body": {
+    "referee-calls-p1": "Ampumapaikalla on oma lyhyt kielensä. Valmiina ampuja antaa {{term:call|kutsun}}, tavallisesti «Pull!» tai «Ready!». Lajissa {{tm:sporting}} {{term:referee|tuomari}} välittää kutsun {{term:trapper|operaattorille}} äänimerkillä. Kiekon on lähdettävä {{fact:rules.release-within-3s}} tästä merkistä; myöhempi kiekko on {{term:no-bird|No Bird}}. Lajissa {{tm:compak}} myös käsin laukaistun kiekon on lähdettävä {{fact:rules.release-within-3s}} kutsusta. Äänellä käynnistyvä laukaisu ({{term:sonopull|sonopull}}: mikrofoni, joka laukaisee kiekon kuullessaan kutsusi) viivästyy kiinteästi {{fact:rules.sonopull-delay}}.",
+    "referee-calls-p2": "Ennen kuin kukaan ampuu, tuomari päättää, milloin aseet saa latata ja sulkea. Säännöt sallivat {{term:loading|lataamisen}} vain ampumapaikalla, ase piiput radalle, sen jälkeen kun tuomari on sanonut, että ampuminen voi alkaa. {{term:target-presentation|Näytekiekkojen}} aikana, ja aina kun ampuminen pysähtyy, aseet ovat auki ja tyhjät. Ne suljetaan vasta, kun tuomari sallii sen. Lajissa {{tm:compak}} tuomari aloittaa kierroksen sanoilla «Start» tai «Competition».",
+    "referee-calls-p3": "Joka kiekon jälkeen säännöissä on vain kolme tulosta: «{{term:one|one}}» (osuma), «{{term:zero|zero}}» (ohi) ja «No Bird» (kiekko ei lasketa ja se laukaistaan uudelleen). Kentällä kuulet myös «dead» tai «good» osumasta ja «lost» ohilaukauksesta; osa tuomareista ei sano osuman jälkeen mitään. Lajissa {{tm:compak}} tuomari ilmoittaa joka nollan ääneen tai äänimerkillä, niin eri mieltä oleva ampuja voi protestoida saman tien.",
+    "referee-calls-p4": "Ampujalla on oma virallinen sanansa myös. Jos haluat olla eri mieltä päätöksestä, nosta käsi heti, ampumapaikalla, ja sano «{{term:protest|Protest!}}» tai «{{term:appeal|Appeal!}}» ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Lisää ampujan tarvitsemia fraaseja: {{lesson:stand-talk-shooter-phrases}}."
+  },
+  "note": {
+    "referee-calls-n1": "Pidä näitä kutsuja lyhyinä ja joka kerta samanlaisina. Sovi ampujasi kanssa ennen kierrosta, mitä sanoja käytätte. Älä lisää mitään omaa kutsun ja laukauksen väliin."
+  },
+  "phrases": {
+    "referee-calls-ph1": {
+      "meaning": "Tuomari sallii ampumisen alkaa: pane patruunat sisään nyt, ase piiput radalle.",
+      "say": "Voitte latata."
+    },
+    "referee-calls-ph2": {
+      "meaning": "Tämä kiekko ei lasketa; ei ampua siihen. Se laukaistaan uudelleen.",
+      "say": "No Bird — ei ampumista, kiekko toistetaan."
+    },
+    "referee-calls-ph3": {
+      "meaning": "Tuomari merkitsi kiekon ohilaukaukseksi (zero).",
+      "say": "Ohi."
+    },
+    "referee-calls-ph4": {
+      "meaning": "Kiekko on osuma (one).",
+      "say": "Osuma. Hyvä."
+    },
+    "referee-calls-ph5": {
+      "meaning": "Kaikki avaavat ja tyhjentävät aseensa; tuomari näyttää kiekot.",
+      "say": "Avatkaa aseet, kiitos — näytämme kiekot."
+    },
+    "referee-calls-ph6": {
+      "meaning": "{{tm:compak}}: näyttö on ohi, kierros lasketaan tästä hetkestä.",
+      "say": "Start. Mennään laskuun."
+    }
+  },
+  "key_points": {
+    "referee-calls-kp1": "Ampuja kutsuu «Pull!» tai «Ready!»; kiekon on tultava 3 sekunnin kuluessa",
+    "referee-calls-kp2": "Lataa vain ampumapaikalla ja vain tuomarin luvalla; aseet auki näytön ja taukojen aikana",
+    "referee-calls-kp3": "Sääntöjen sanat: one = osuma, zero = ohi, No Bird = laukaistaan uudelleen",
+    "referee-calls-kp4": "Lajissa {{tm:compak}} joka nolla ilmoitetaan ääneen tai äänimerkillä",
+    "referee-calls-kp5": "Protesti = nostettu käsi + «Protest!» tai «Appeal!»"
+  },
+  "quiz": {
+    "referee-calls-q1": {
+      "q": "Lajissa {{tm:sporting}} kiekko lähti viisi sekuntia tuomarin merkin jälkeen. Mikä on tuomarin päätös?",
+      "options": {
+        "a": "Lasketaan normaalisti",
+        "b": "No Bird",
+        "c": "Zero, koska ampuja kutsui liian aikaisin",
+        "d": "Vain varoitus operaattorille"
+      },
+      "explain": "Kiekon on lähdettävä kolmen sekunnin kuluessa tuomarin merkistä; myöhempi on No Bird, ja se laukaistaan uudelleen."
+    },
+    "referee-calls-q2": {
+      "q": "Kilpailussa, milloin ampuja saa latata aseen?",
+      "options": {
+        "a": "Kävellessään seuraavalle ampumapaikalle",
+        "b": "Ampumapaikan takana, odottaessaan",
+        "c": "Ampumapaikalla, tuomarin luvalla",
+        "d": "Heti kun valmentaja sanoo niin"
+      },
+      "explain": "Lataaminen on sallittua vain ampumapaikalla, ase piiput radalle, ja vain sen jälkeen, kun tuomari on sallinut ampumisen alkaa."
+    },
+    "referee-calls-q3": {
+      "q": "Millä sanoilla aloitetaan virallinen protesti ampumapaikalla?",
+      "options": {
+        "a": "«Protest!», nostetulla kädellä",
+        "b": "«No Bird!», nostetulla kädellä",
+        "c": "«Tuomari, katsokaa tätä kiekkoa!»",
+        "d": "«Odottakaa!», seuraavan kiekon jälkeen"
+      },
+      "explain": "Molemmat sääntökirjat nimeävät «protest» tai «appeal» nostetulla kädellä, heti; «No Bird» on tuomarin sana."
+    }
+  }
+}

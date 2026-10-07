@@ -1,0 +1,264 @@
+{
+  "lang": "lt",
+  "blocks": {
+    "basics": {
+      "title": "Pagrindai",
+      "purpose": "Koks tai sportas, disciplinos, FITASC, šaudymo vieta, kas šaudo, kaip pradėti, kiek tai kainuoja ir kaip pradėti vaikui.",
+      "sections": {
+        "what": "Koks tai sportas",
+        "start": "Kaip pradėti",
+        "kids": "Vaikui"
+      }
+    },
+    "safety": {
+      "title": "Sauga ir etiketas",
+      "purpose": "Saugos įpročiai, akių ir ausų apsauga, švinas, vaikai; elgesys šaudymo vietoje ir grupėje, pagarba teisėjui, žiūrovai.",
+      "sections": {
+        "safety": "Sauga",
+        "etiquette": "Etiketas"
+      }
+    },
+    "gear": {
+      "title": "Įranga",
+      "purpose": "Šautuvas, čokai, šoviniai, apsauga ir apranga: kaip tai vadinasi, kaip veikia, ką ir kada pirkti.",
+      "sections": {
+        "gun": "Šautuvas",
+        "chokes": "Čokai",
+        "cartridges": "Šoviniai",
+        "kit": "Asmeninė įranga"
+      }
+    },
+    "targets": {
+      "title": "Taikiniai ir skrydžio linijos",
+      "purpose": "Taikiniai, mašinėlės, {{tm:sporting}} ir {{tm:compak}} išdėstymai, meniu, skrydžio linijos, dubletai ir kaip „perskaityti“ taikinį.",
+      "sections": {
+        "clays": "Taikiniai ir mašinėlės",
+        "layouts": "Išdėstymai",
+        "flight": "Skrydžio linijos",
+        "pairs": "Dubletai ir taikinio skaitymas"
+      }
+    },
+    "technique": {
+      "title": "Technika ir pralenkimas",
+      "purpose": "Stovėsena, šautuvo atrėmimas į petį, akys, trys taškai, palydėjimas, atatranka; keturi pralenkimo metodai; nepataikymų analizė.",
+      "sections": {
+        "fundamentals": "Šūvio pagrindai",
+        "lead": "Pralenkimas",
+        "faults": "Klaidos"
+      }
+    },
+    "training": {
+      "title": "Treniruotės",
+      "purpose": "Treneris, kaip struktūruoti ir dozuoti treniruotę, apšilimas, sausos atrėmimo pratybos, pasiruošimas varžyboms, treniruočių dienoraštis.",
+      "sections": {
+        "main": "Treniruotės"
+      }
+    },
+    "mind": {
+      "title": "Mintys ir pasiruošimas",
+      "purpose": "Pasiruošimo šūviui ritualas, susikaupimas, kvėpavimas, raktiniai žodžiai, vizualizacija, nervingumas, spaudimas, atsistatymas po nepataikymo, tikslai, varžybų diena, antidopingas, juniorai.",
+      "sections": {
+        "before": "Prieš šūvį",
+        "pressure": "Esant spaudimui",
+        "day": "Varžybų diena",
+        "juniors": "Juniorai"
+      }
+    },
+    "rules": {
+      "title": "Taisyklės",
+      "purpose": "FITASC taisyklės paprastais žodžiais, trumpai ir savais žodžiais; kiekviena taisyklė pažymėta {{tm:sporting}} arba {{tm:compak}} ir nukreipia į taisyklių vadovą.",
+      "sections": {
+        "main": "Taisyklės"
+      }
+    },
+    "competitions": {
+      "title": "Varžybos",
+      "purpose": "Varžybų tipai, registracija, varžybų diena, rezultatų kortelė ir rezultatai, kategorijos ir atkrintamosios, protestai, juniorai.",
+      "sections": {
+        "main": "Varžybos"
+      }
+    },
+    "travel": {
+      "title": "Kelionės",
+      "purpose": "Kelionės planavimas, šautuvas ES ir už jos ribų, skrydžiai, šoviniai kelionės vietoje, laiko juostų kaita; ClayAway turai (ruošiami).",
+      "sections": {
+        "main": "Kelionės"
+      }
+    },
+    "stand-talk": {
+      "title": "Šaudymo vietos kalba",
+      "purpose": "Kaip kalba treneris, teisėjas ir šauliai; vertėjo darbas; visiems, kas treniruojasi su treneriu, kalbančiu kita kalba.",
+      "sections": {
+        "role": "Vaidmuo",
+        "said": "Kas sakoma šaudymo vietoje",
+        "traps": "Vertimo spąstai",
+        "work": "Darbe"
+      }
+    },
+    "watch": {
+      "title": "Žiūrėti ir sekti",
+      "purpose": "Kaip žiūrėti šaudymą ir vaizdo įrašus; ClayArena: rezultatai, profilis, skaičiai, katalogai.",
+      "sections": {
+        "watch": "Žiūrėjimas",
+        "clayarena": "ClayArena"
+      }
+    },
+    "community": {
+      "title": "Bendruomenė ir istorija",
+      "purpose": "Istorija, tradicijos, gamta, klubas; kaip tapti teisėju ar treneriu; klubo varžybos.",
+      "sections": {
+        "history": "Istorija",
+        "culture": "Kultūra",
+        "next": "Kitas žingsnis"
+      }
+    }
+  },
+  "routes": {
+    "beginner": {
+      "title": "Pradedantysis",
+      "for": "Tiems, kas dar nešaudė.",
+      "certificate": "Pirmas žingsnis",
+      "stages": {
+        "first-visit": "Prieš pirmąjį vizitą",
+        "first-shots": "Pirmi šūviai"
+      }
+    },
+    "first-competition": {
+      "title": "Pirmosios varžybos",
+      "for": "Šauliams po kelių treniruočių.",
+      "checklist": "Varžybų dienos kontrolinis sąrašas",
+      "stages": {
+        "ready": "Pasiruošimas",
+        "rules": "Taisyklės, kurias reikia žinoti",
+        "head": "Mintys ir kūnas",
+        "day": "Varžybų diena"
+      }
+    },
+    "interpreter": {
+      "title": "Vertėjas",
+      "for": "Vertėjams šaudymo vietoje; pakeičia Vertėjo akademiją.",
+      "stages": {
+        "day-one": "Pirma diena šaudymo vietoje",
+        "sport": "Sportas ir išdėstymai",
+        "gear-targets": "Šautuvas ir taikiniai",
+        "technique": "Technika",
+        "lead": "Pralenkimas",
+        "coach-talk": "Klaidos ir trenerio kalba",
+        "rules": "Taisyklės šaudymo vietoje",
+        "referee": "Teisėjas, kortelės ir rezultatai",
+        "mastery": "Meistriškumas"
+      }
+    },
+    "junior-parent": {
+      "title": "Junioro tėvai",
+      "for": "Tėvams, kurių vaikas nori šaudyti.",
+      "checklist": "Tėvų kontrolinis sąrašas",
+      "stages": {
+        "is-it-for-my-child": "Ar tai tinka mano vaikui",
+        "safe-start": "Saugi pradžia",
+        "support": "Palaikymas ir varžybos"
+      }
+    },
+    "new-coach": {
+      "title": "Pradedantysis treneris",
+      "for": "Tiems, kas pradeda treniruoti kitus.",
+      "disclaimer": "Tai nėra trenerio kvalifikacija.",
+      "stages": {
+        "role": "Trenerio vaidmuo",
+        "diagnosis": "Pagrindai ir diagnostika",
+        "mental": "Treniruotės ir mintys"
+      }
+    },
+    "organiser": {
+      "title": "Organizatorius",
+      "for": "Klubo varžybų ir kelionių organizatoriams.",
+      "stages": {
+        "club-events": "Varžybos ir klubas",
+        "trips": "Kelionės ir turai"
+      }
+    },
+    "fan": {
+      "title": "Sirgalius ir šeima",
+      "for": "Šaulių sirgaliams, šeimai ir draugams.",
+      "stages": {
+        "watch": "Žiūrėti ir suprasti",
+        "results": "Rezultatai ir ClayArena"
+      }
+    }
+  },
+  "practice": {
+    "lead-lab": "Pralenkimo laboratorija",
+    "name-the-flight": "Įvardykite skrydį",
+    "translate-the-coach": "Supraskite / išverskite trenerį",
+    "referees-call": "Teisėjo sprendimas",
+    "term-cards": "Terminų kortelės",
+    "phrasebook": "Pasikalbėjimų knygelė",
+    "rules-exam": "Taisyklių egzaminas",
+    "routine": "Mano ritualas"
+  },
+  "levels": {
+    "guest": "Svečias",
+    "learner": "Besimokantis",
+    "practitioner": "Praktikas",
+    "specialist": "Specialistas",
+    "expert": "Ekspertas",
+    "mentor": "Mentorius"
+  },
+  "badges": {
+    "block-basics": "Blokas „Pagrindai“",
+    "block-safety": "Blokas „Sauga ir etiketas“",
+    "block-gear": "Blokas „Įranga“",
+    "block-targets": "Blokas „Taikiniai ir skrydžio linijos“",
+    "block-technique": "Blokas „Technika ir pralenkimas“",
+    "block-training": "Blokas „Treniruotės“",
+    "block-mind": "Blokas „Mintys ir pasiruošimas“",
+    "block-rules": "Blokas „Taisyklės“",
+    "block-competitions": "Blokas „Varžybos“",
+    "block-travel": "Blokas „Kelionės“",
+    "block-stand-talk": "Blokas „Šaudymo vietos kalba“",
+    "block-watch": "Blokas „Žiūrėti ir sekti“",
+    "block-community": "Blokas „Bendruomenė ir istorija“",
+    "route-beginner": "Maršrutas „Pradedantysis“",
+    "route-first-competition": "Maršrutas „Pirmosios varžybos“",
+    "route-interpreter": "Maršrutas „Vertėjas“",
+    "route-junior-parent": "Maršrutas „Junioro tėvai“",
+    "route-new-coach": "Maršrutas „Pradedantysis treneris“",
+    "route-organiser": "Maršrutas „Organizatorius“",
+    "route-fan": "Maršrutas „Sirgalius ir šeima“",
+    "stage-beginner-first-visit": "Pradedantysis: prieš pirmąjį vizitą",
+    "stage-beginner-first-shots": "Pradedantysis: pirmi šūviai",
+    "stage-first-competition-ready": "Pirmosios varžybos: pasiruošimas",
+    "stage-first-competition-rules": "Pirmosios varžybos: taisyklės, kurias reikia žinoti",
+    "stage-first-competition-head": "Pirmosios varžybos: mintys ir kūnas",
+    "stage-first-competition-day": "Pirmosios varžybos: varžybų diena",
+    "stage-interpreter-day-one": "Vertėjas: pirma diena šaudymo vietoje",
+    "stage-interpreter-sport": "Vertėjas: sportas ir išdėstymai",
+    "stage-interpreter-gear-targets": "Vertėjas: šautuvas ir taikiniai",
+    "stage-interpreter-technique": "Vertėjas: technika",
+    "stage-interpreter-lead": "Vertėjas: pralenkimas",
+    "stage-interpreter-coach-talk": "Vertėjas: klaidos ir trenerio kalba",
+    "stage-interpreter-rules": "Vertėjas: taisyklės šaudymo vietoje",
+    "stage-interpreter-referee": "Vertėjas: teisėjas, kortelės ir rezultatai",
+    "stage-interpreter-mastery": "Vertėjas: meistriškumas",
+    "stage-junior-parent-is-it-for-my-child": "Junioro tėvai: ar tai tinka mano vaikui",
+    "stage-junior-parent-safe-start": "Junioro tėvai: saugi pradžia",
+    "stage-junior-parent-support": "Junioro tėvai: palaikymas ir varžybos",
+    "stage-new-coach-role": "Pradedantysis treneris: trenerio vaidmuo",
+    "stage-new-coach-diagnosis": "Pradedantysis treneris: pagrindai ir diagnostika",
+    "stage-new-coach-mental": "Pradedantysis treneris: treniruotės ir mintys",
+    "stage-organiser-club-events": "Organizatorius: varžybos ir klubas",
+    "stage-organiser-trips": "Organizatorius: kelionės ir turai",
+    "stage-fan-watch": "Sirgalius ir šeima: žiūrėti ir suprasti",
+    "stage-fan-results": "Sirgalius ir šeima: rezultatai ir ClayArena",
+    "four-methods": "Keturi metodai",
+    "name-the-flight-10": "Įvardykite skrydį 10/10",
+    "coach-translator-20": "Trenerio vertėjas 20",
+    "referees-call-20": "Teisėjo sprendimas 20",
+    "terms-50": "50 terminų",
+    "rules-exam-sporting": "Taisyklių egzaminas Sporting™",
+    "rules-exam-compak": "Taisyklių egzaminas Compak® Sporting",
+    "first": "Pirma pamoka",
+    "returning": "Sugrįžimas",
+    "interpreter-academy-2026": "Vertėjo akademija 2026"
+  }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "juniors-equipment-fit",
+ "lang": "de",
+ "base_rev": 1,
+ "h": {
+  "title": "ca46943c",
+  "summary": "eb881e58",
+  "juniors-equipment-fit-p1": "b6402cc3",
+  "juniors-equipment-fit-p2": "0b937322",
+  "juniors-equipment-fit-p3": "62ae0190",
+  "juniors-equipment-fit-p4": "b7289c0c",
+  "juniors-equipment-fit-p7": "62dba988",
+  "juniors-equipment-fit-p5": "97c97871",
+  "juniors-equipment-fit-p6": "e0618cad",
+  "juniors-equipment-fit-kp1": "34b77035",
+  "juniors-equipment-fit-kp2": "5bf72aa4",
+  "juniors-equipment-fit-kp3": "ed30b802",
+  "juniors-equipment-fit-kp4": "072ab1c0",
+  "juniors-equipment-fit-kp5": "8087d16c",
+  "juniors-equipment-fit-dyk": "854a04c5",
+  "juniors-equipment-fit-q1": "cedce39c",
+  "juniors-equipment-fit-q2": "9fbee996",
+  "juniors-equipment-fit-q3": "a37e7a90"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Ausrüstung, die zu einem Kind passt",
+ "summary": "Eine Flinte für Erwachsene ist für ein Kind meist zu lang und zu schwer. Ein kürzerer Schaft, eine leichte Flinte, sanfte Patronen und Schutz in Kindergrößen machen {{tm:sporting}} und {{tm:compak}} sicherer und angenehmer.",
+ "body": {
+  "juniors-equipment-fit-p1": "Eine Flinte für Erwachsene ist für ein Kind meist zu lang und zu schwer. Das Kind lehnt sich zurück, um sie zu halten, der Schaft schlägt gegen Wange und Schulter, und nach ein paar Schüssen kann sich Angst einstellen. Deshalb ist die {{term:gun-fit|Schaftanpassung}} für junge Schützen noch wichtiger als für Erwachsene.",
+  "juniors-equipment-fit-p2": "Das wichtigste Maß ist die {{term:length-of-pull|Schaftlänge}}, {{fact:gear.length-of-pull}}. Jugendmodelle haben einen kürzeren, leichteren Schaft, und manche Flinten haben einen verstellbaren Schaft und {{term:comb|Schaftrücken}}. Wenn das Kind wächst, wird der Schaft mit Zwischenstücken verlängert, prüfen Sie die Passform also jede Saison mit dem Trainer oder einem {{term:gun-fitter|Schaftmacher}}.",
+  "juniors-equipment-fit-p3": "Eine leichte 20er ist eine übliche Wahl, als {{term:over-and-under|Bockflinte}} oder {{term:semi-automatic|Selbstladeflinte}}. Eine Gas-Selbstladeflinte verteilt den Rückstoß über einen längeren Zeitraum, sodass viele Schützen ihn als sanfter empfinden. Patronen mit leichter Ladung senken den Rückstoß ebenfalls und machen das Schießen angenehmer.",
+  "juniors-equipment-fit-p4": "Auch der Schutz muss passen: Kapselgehörschutz oder Ohrstöpsel für Kinder, eine Schießbrille mit schlagfesten Gläsern und eine Schirmmütze. Eine {{term:shooting-vest|Schießweste}} darf nicht zu groß sein, sonst bleibt die Flinte beim Anschlagen daran hängen.",
+  "juniors-equipment-fit-p7": "Bei {{tm:sporting}} fügen die Regeln einen weiteren Punkt hinzu: Kinder auf dem Schießstand außerhalb des Vereinshauses müssen jederzeit {{term:hearing-protection|Gehörschutz}} tragen. Viele Familien behalten diese Gewohnheit an jedem Schießstand bei.",
+  "juniors-equipment-fit-p5": "Kleidung sollte bequem und dem Wetter angepasst sein. Bei Wettkämpfen in beiden Disziplinen sind Sandalen verboten, und Shorts müssen lang sein, sie enden {{fact:rules.dress-shorts-length}}. Geschlossene Schuhe mit gutem Grip sind auch im Training nötig. Mehr: {{lesson:gear-clothing-and-shoes}}.",
+  "juniors-equipment-fit-p6": "Kaufen Sie nicht übereilt teure Ausrüstung. Beginnen Sie mit einer Leihflinte des Vereins, schauen Sie sich dann nach gebrauchten Jugendmodellen um. Eine eigene Flinte lohnt sich, sobald das Interesse des Kindes beständig ist, mit dem Rat des Trainers. Allgemeine Anpassung: {{lesson:gun-fit}}."
+ },
+ "note": {},
+ "phrases": {},
+ "key_points": {
+  "juniors-equipment-fit-kp1": "Eine Flinte für Erwachsene ist für ein Kind meist zu lang und zu schwer.",
+  "juniors-equipment-fit-kp2": "Die Schaftlänge ist der Schlüssel zur Passform; prüfen Sie sie jede Saison.",
+  "juniors-equipment-fit-kp3": "Eine leichte 20er und Patronen mit leichter Ladung.",
+  "juniors-equipment-fit-kp4": "Gehörschutz, Brille und Weste in Kindergrößen.",
+  "juniors-equipment-fit-kp5": "Erst leihen; kaufen, wenn das Interesse beständig ist."
+ },
+ "did_you_know": "Die FITASC-Regeln begrenzen das Kaliber nur nach oben, {{fact:gear.fitasc-max-gauge}}, eine 20er-Flinte ist also im Wettkampf in beiden Disziplinen erlaubt.",
+ "quiz": {
+  "juniors-equipment-fit-q1": {
+   "q": "Was passiert, wenn ein Kind mit einer zu langen Flinte schießt?",
+   "options": {
+    "a": "Es lehnt sich zurück und spürt mehr Rückstoß",
+    "b": "Nichts ändert sich; es ist sogar leichter",
+    "c": "Die Scheiben scheinen langsamer zu fliegen",
+    "d": "Die Deckung wird viel dichter"
+   },
+   "explain": "Eine zu lange Flinte verdirbt den Stand, verstärkt den Rückstoß und kann dem Kind Angst machen."
+  },
+  "juniors-equipment-fit-q2": {
+   "q": "Was ist die Schaftlänge?",
+   "options": {
+    "a": "Die Länge der Läufe bis zur Mündung",
+    "b": "Vom Abzug bis zur Mitte der Schaftkappe",
+    "c": "Das Gewicht der Flinte mit ihren Chokes",
+    "d": "Von der Laufschiene hinunter zur Oberseite des Schaftrückens"
+   },
+   "explain": "Das ist das Maß, das am häufigsten geändert wird, um eine Flinte an ein Kind anzupassen."
+  },
+  "juniors-equipment-fit-q3": {
+   "q": "Wann lohnt es sich, einem Kind eine eigene Flinte zu kaufen?",
+   "options": {
+    "a": "Vor der allerersten Einheit an einem Schießstand",
+    "b": "Nur ein brandneues und sehr teures Modell",
+    "c": "Sobald das Interesse beständig ist, mit dem Rat eines Trainers",
+    "d": "Sobald das Kind eine Erwachsenenflinte heben kann"
+   },
+   "explain": "Erst Leih- und gebrauchte Modelle; kaufen, sobald klar ist, dass das Kind weitermacht."
+  }
+ }
+}

@@ -1,0 +1,563 @@
+{
+  "id": "interpreter-session-script",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 8,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "interpreter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "interpreter-session-script"
+    ]
+  },
+  "terms": [
+    "coach",
+    "lead",
+    "hand-signal",
+    "safety",
+    "consecutive-interpreting",
+    "eye-dominance",
+    "stance",
+    "ready-position",
+    "chuchotage",
+    "pick-up-point",
+    "hold-point",
+    "break-point",
+    "miss-behind",
+    "double",
+    "coaching",
+    "master-eye",
+    "gun-mount",
+    "head-lift",
+    "stopping-the-gun",
+    "follow-through",
+    "double-on-report",
+    "crosser",
+    "rabbit",
+    "choke"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-mounting"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-between-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-double-on-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loading"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-gun-handling"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "A whole training session, step by step",
+    "uk": "Ціле тренування, крок за кроком"
+  },
+  "summary": {
+    "en": "A typical session with a foreign coach, from the first meeting to the debrief. The phrases you are likely to hear, in the order they come, and how to pass them on.",
+    "uk": "Типове заняття з іноземним тренером — від першої зустрічі до розбору. Фрази, які ви, найімовірніше, почуєте, у тому порядку, в якому вони звучать, і як їх передати."
+  },
+  "body": [
+    {
+      "k": "interpreter-session-script-p1",
+      "t": "p",
+      "core": true,
+      "en": "Before the session, take five minutes with the {{term:coach|coach}}. Agree on a pause sign and learn his {{term:hand-signal|hand signals}}. Ask which lead method he teaches (how he wants the shooter to get in front of the target) and which words he uses for {{term:lead|lead}}. Then the group gathers for the {{term:safety|safety}} briefing: interpret it {{term:consecutive-interpreting|consecutively}}, sentence by sentence, firmly and completely.",
+      "uk": "Перед тренуванням знайдіть п’ять хвилин для {{term:coach|тренера}}. Домовтеся про знак паузи й вивчіть його {{term:hand-signal|жести}}. Запитайте, якого методу виносу він навчає (як саме стрілець має виходити вперед мішені) і якими словами він говорить про {{term:lead|винос}}. Потім група збирається на інструктаж із {{term:safety|безпеки}}: перекладайте його {{term:consecutive-interpreting|послідовно}}, речення за реченням, твердо й повністю."
+    },
+    {
+      "k": "interpreter-session-script-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch3-ready-position",
+      "en": "On the first stand the coach usually starts without cartridges: an {{term:eye-dominance|eye-dominance}} check, then the {{term:stance|stance}} and the {{term:ready-position|ready position}}. In {{tm:sporting}} the gun starts low, below the line on the vest; in {{tm:compak}} the gun position at the call is free. Whisper his corrections from behind ({{term:chuchotage|chuchotage}}) while he moves feet and hands.",
+      "uk": "На першому стрілецькому місці тренер зазвичай починає без набоїв: перевірка {{term:eye-dominance|провідного ока}}, потім {{term:stance|стійка}} і {{term:ready-position|вихідне положення}}. У {{tm:sporting}} рушниця на старті внизу, нижче лінії на жилеті; у {{tm:compak}} положення рушниці під час команди вільне. Шепочіть його виправлення ззаду ({{term:chuchotage|шушотаж}}), поки він ставить ноги й руки."
+    },
+    {
+      "k": "interpreter-session-script-p3",
+      "t": "p",
+      "core": true,
+      "en": "Next comes reading the target. The coach shows it, asks where the shooter first sees it clearly, and sets the {{term:pick-up-point|pick-up point}}, the {{term:hold-point|hold point}} and the {{term:break-point|break point}}. Use the same three words in your language all day, so the guest learns them.",
+      "uk": "Далі — читання мішені. Тренер показує її, питає, де стрілець уперше чітко її бачить, і визначає {{term:pick-up-point|точку підхоплення}} (pick-up point), {{term:hold-point|точку утримання}} (hold point) і {{term:break-point|точку пострілу}} (break point). Уживайте ці три терміни однаково весь день — «точка підхоплення», «точка утримання», «точка пострілу», — щоб гість їх запам’ятав."
+    },
+    {
+      "k": "interpreter-session-script-p4",
+      "t": "p",
+      "core": true,
+      "en": "Now the shooting. Between targets the coach gives cues of two to five words. You repeat them, as short as the coach said them and in the same order, while the gun is open. When the coach names the cause of a miss, such as “{{term:miss-behind|behind}}”, “over the top” or “you stopped”, translate it together with the fix. The shooter needs both: what went wrong and what to change. Pass on praise with the same energy.",
+      "uk": "Тепер стрільба. Між мішенями тренер дає підказки на два–п’ять слів. Ви передаєте їх так само коротко й у тому самому порядку, поки рушниця відкрита. Коли тренер називає причину промаху, як-от «{{term:miss-behind|behind}}» («позаду»), «over the top» («вище») чи «you stopped» («зупинили»), перекладайте її разом із виправленням. Стрільцеві потрібне і те, і те: що пішло не так і що змінити. Похвалу передавайте з тією самою енергією."
+    },
+    {
+      "k": "interpreter-session-script-p5",
+      "t": "p",
+      "core": true,
+      "en": "Then the pairs: which target comes first, “eyes first, then the gun”, and the second shot of the {{term:double|double}}. Finally the debrief, consecutive again, where the coach sums up two or three points. Write them down in both languages and give the guest the note. Below is a typical chain of phrases in the order you are likely to hear them.",
+      "uk": "Потім дуплети: яку мішень першою, «спершу очі, потім рушниця», другий постріл {{term:double|дуплета}}. Наостанок — розбір, знову послідовно: тренер підсумовує дві-три думки. Запишіть їх обома мовами й віддайте гостеві. Нижче — типовий ланцюжок фраз у тому порядку, в якому ви, найімовірніше, їх почуєте."
+    },
+    {
+      "k": "interpreter-session-script-comp",
+      "t": "tip",
+      "disc": "both",
+      "en": "If the guest competes the next day, remind everyone that {{term:coaching|coaching}} is forbidden during the competition. The coach cannot advise, and you interpret only for the referee, the jury and the organiser. More in {{lesson:interpreter-role}}.",
+      "uk": "Якщо гість наступного дня виступає на змаганнях, нагадайте всім, що під час змагань {{term:coaching|підказки}} заборонено. Тренер не може радити, а ви перекладаєте лише для судді, журі та організатора. Докладніше — {{lesson:interpreter-role}}."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "interpreter-session-script-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Morning, everyone. Before we load anything, a quick safety briefing.",
+      "meaning": {
+        "en": "Start of the session; interpret the briefing consecutively and completely.",
+        "uk": "Початок тренування; інструктаж перекладайте послідовно й повністю."
+      },
+      "say": {
+        "uk": "Доброго ранку всім! Перш ніж щось заряджати — короткий інструктаж із безпеки."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Guns stay open until you’re on the stand and I say “load”.",
+      "meaning": {
+        "en": "No closed guns off the stand; loading only on the coach’s word.",
+        "uk": "Поза стрілецьким місцем рушниці не закривати; заряджати лише за словом тренера."
+      },
+      "say": {
+        "uk": "Рушниці відкриті, доки ви не на стрілецькому місці і я не скажу «заряджай»."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Point at my nose, both eyes open. Now close your left eye.",
+      "meaning": {
+        "en": "Eye-dominance check: if the finger jumps, the right eye is not the {{term:master-eye|master eye}}.",
+        "uk": "Перевірка провідного ока: якщо палець «стрибнув», праве око не {{term:master-eye|провідне}}."
+      },
+      "say": {
+        "uk": "Покажіть пальцем на мій ніс, обидва ока відкриті. Тепер заплющте ліве око."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Front foot pointing at the break point, weight forward.",
+      "meaning": {
+        "en": "Stance: set the feet for where the target will be broken; lean slightly forward.",
+        "uk": "Стійка: ноги ставлять туди, де мішень розбиватимуть; вага трохи вперед."
+      },
+      "say": {
+        "uk": "Передню ногу — на точку пострілу, вага вперед."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "Gun down, stock under the line. Mount only when you see it.",
+      "meaning": {
+        "en": "{{tm:sporting}} ready position: the {{term:gun-mount|mount}} starts only after the target appears; in {{tm:compak}} the position at the call is free.",
+        "uk": "Положення готовності в {{tm:sporting}}: {{term:gun-mount|вкладка}} — лише після появи мішені; у {{tm:compak}} положення перед командою довільне."
+      },
+      "say": {
+        "uk": "Рушниця внизу, приклад нижче лінії. Вкладка — лише коли побачите мішень."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph6",
+      "speaker": "coach",
+      "core": true,
+      "en": "Watch this one. Where do you first see it clearly?",
+      "meaning": {
+        "en": "The coach is setting the pick-up point.",
+        "uk": "Тренер визначає точку підхоплення."
+      },
+      "say": {
+        "uk": "Дивіться на цю. Де ви вперше чітко її бачите?"
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph7",
+      "speaker": "coach",
+      "core": true,
+      "en": "Hold your muzzles about halfway back, just under the line.",
+      "meaning": {
+        "en": "Hold point between pick-up and break point, slightly below the target’s path.",
+        "uk": "Точка утримання між точкою підхоплення й точкою пострілу, трохи нижче лінії мішені."
+      },
+      "say": {
+        "uk": "Стволи тримайте приблизно посередині, трохи під лінією."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph8",
+      "speaker": "coach",
+      "core": true,
+      "en": "Behind it. Give it more.",
+      "meaning": {
+        "en": "The shot passed behind the target: more lead.",
+        "uk": "Постріл пройшов позаду мішені: потрібен більший винос."
+      },
+      "say": {
+        "uk": "Позаду. Більший винос."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph9",
+      "speaker": "coach",
+      "core": true,
+      "en": "Call it three feet — that’s the picture you want.",
+      "meaning": {
+        "en": "The gap the coach wants the shooter to see at the shot. “Three feet” describes how it looks, not a measured distance, so keep the unit.",
+        "uk": "Проміжок, який тренер хоче, щоб стрілець бачив у мить пострілу. «Три фути» описують, як це виглядає, а не виміряну відстань, тож одиницю залишайте."
+      },
+      "say": {
+        "uk": "Десь три фути — ось така картинка вам потрібна."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph10",
+      "speaker": "coach",
+      "core": true,
+      "en": "Over the top. You lifted your head — stay in the gun.",
+      "meaning": {
+        "en": "Miss above, caused by the cheek leaving the stock ({{term:head-lift|head lift}}).",
+        "uk": "Промах угорі через {{term:head-lift|відрив щоки від приклада}}."
+      },
+      "say": {
+        "uk": "Вище мішені. Підняли голову — щокою на приклад."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph11",
+      "speaker": "coach",
+      "core": true,
+      "en": "Smoked it! Same again.",
+      "meaning": {
+        "en": "Perfect hit; repeat exactly what you did.",
+        "uk": "Чисте влучання; повторіть те саме."
+      },
+      "say": {
+        "uk": "Вщент! Так само."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph12",
+      "speaker": "coach",
+      "core": true,
+      "en": "You stopped the gun. Keep it moving through the shot.",
+      "meaning": {
+        "en": "Miss behind because the swing stopped ({{term:stopping-the-gun|stopping the gun}}); {{term:follow-through|follow through}}.",
+        "uk": "Промах позаду через {{term:stopping-the-gun|зупинку стволів}}; потрібне {{term:follow-through|продовження руху}} після пострілу."
+      },
+      "say": {
+        "uk": "Зупинили рушницю. Ведіть далі й після пострілу."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph13",
+      "speaker": "coach",
+      "core": true,
+      "en": "Next is a report pair: crosser first, then the rabbit.",
+      "meaning": {
+        "en": "A {{term:double-on-report|double on report}}: the {{term:rabbit|rabbit}} is released by the sound of the shot at the {{term:crosser|crosser}}.",
+        "uk": "{{term:double-on-report|Дуплет на постріл}}: {{term:rabbit|кролика}} випускають на звук пострілу по {{term:crosser|поперечній}}."
+      },
+      "say": {
+        "uk": "Далі дуплет на постріл: спершу поперечна, потім кролик."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph14",
+      "speaker": "coach",
+      "core": true,
+      "en": "Eyes first, then the gun.",
+      "meaning": {
+        "en": "On the second target, find it with the eyes before moving the muzzles.",
+        "uk": "На другій мішені спершу знайдіть її очима, а вже потім руште стволами."
+      },
+      "say": {
+        "uk": "Спершу очі, потім рушниця."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph15",
+      "speaker": "coach",
+      "core": true,
+      "en": "Keep the muzzles under the rabbit.",
+      "meaning": {
+        "en": "Keep the muzzles below the rabbit: if it bounces up, it hops into the shot instead of over it.",
+        "uk": "Тримайтеся нижче кролика, щоб навіть після підскоку він потрапив у сніп дробу."
+      },
+      "say": {
+        "uk": "Стволи — під кролика."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph16",
+      "speaker": "coach",
+      "core": true,
+      "en": "Change to quarter and half for this stand.",
+      "meaning": {
+        "en": "Fit 1/4 and 1/2 {{term:choke|chokes}} (open, then a little tighter).",
+        "uk": "Поставте {{term:choke|чоки}} 1/4 і 1/2 (відкритий, потім трохи щільніший)."
+      },
+      "say": {
+        "uk": "На це стрілецьке місце — чоки чверть і половина."
+      }
+    },
+    {
+      "k": "interpreter-session-script-ph17",
+      "speaker": "coach",
+      "core": true,
+      "en": "Let’s call it a day. Three things for tomorrow: feet, head, follow-through.",
+      "meaning": {
+        "en": "End of session; the coach sums up — write these down for the guest.",
+        "uk": "Кінець тренування; тренер підсумовує — запишіть це для гостя."
+      },
+      "say": {
+        "uk": "На сьогодні все. Три речі на завтра: ноги, голова, продовження руху."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "interpreter-session-script-kp1",
+      "core": true,
+      "en": "Before: pause sign, lead method, lead words, hand signals",
+      "uk": "Заздалегідь: знак паузи, метод виносу, слова про винос, жести"
+    },
+    {
+      "k": "interpreter-session-script-kp2",
+      "core": true,
+      "en": "Safety briefing: consecutive, firm, complete",
+      "uk": "Інструктаж із безпеки: послідовно, твердо, повністю"
+    },
+    {
+      "k": "interpreter-session-script-kp3",
+      "core": true,
+      "en": "Same three terms all day: pick-up, hold, break point",
+      "uk": "Ті самі три терміни весь день: точка підхоплення, утримання, пострілу"
+    },
+    {
+      "k": "interpreter-session-script-kp4",
+      "core": true,
+      "en": "Cues between targets: same length, gun open; cause + fix together",
+      "uk": "Підказки між мішенями: тієї самої довжини, рушниця відкрита; причина й виправлення разом"
+    },
+    {
+      "k": "interpreter-session-script-kp5",
+      "core": true,
+      "en": "Debrief: write the key points in both languages",
+      "uk": "Розбір: запишіть головне обома мовами"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "interpreter-session-script-q1",
+      "q": {
+        "en": "When is the safety briefing interpreted, and how?",
+        "uk": "Коли й як перекладають інструктаж із безпеки?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Briefly, in a whisper, while they load",
+          "uk": "Коротко, пошепки, поки гості заряджають"
+        },
+        {
+          "k": "b",
+          "en": "At the start, consecutively and in full",
+          "uk": "На початку, послідовно й повністю"
+        },
+        {
+          "k": "c",
+          "en": "Only if one of the guests asks for it",
+          "uk": "Лише якщо хтось із гостей попросить"
+        },
+        {
+          "k": "d",
+          "en": "After the first stand, in a summary",
+          "uk": "Після першого стрілецького місця, коротким підсумком"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Safety comes first and must not be shortened; consecutive mode lets each rule land.",
+        "uk": "Безпека — понад усе, її не скорочують; послідовний переклад дає донести кожне правило."
+      }
+    },
+    {
+      "k": "interpreter-session-script-q2",
+      "q": {
+        "en": "The coach says “Behind it. Give it more.” Which rendering between targets is right?",
+        "uk": "Тренер каже «Behind it. Give it more». Яка передача між мішенями правильна?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Two short parts: “behind”, “more lead”",
+          "uk": "Дві короткі частини: «позаду», «більший винос»"
+        },
+        {
+          "k": "b",
+          "en": "A longer, gentler sentence with tips",
+          "uk": "Довше, м’якше речення з порадами"
+        },
+        {
+          "k": "c",
+          "en": "Only the fix: “shoot a bit earlier”",
+          "uk": "Лише виправлення: «стріляйте трохи раніше»"
+        },
+        {
+          "k": "d",
+          "en": "Only praise: “good, same again”",
+          "uk": "Лише похвала: «добре, так само»"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Follow the coach: same length, same order, what went wrong plus what to change, nothing added.",
+        "uk": "Тримайтеся тренера: та сама довжина, той самий порядок, що пішло не так і що змінити, нічого зайвого."
+      }
+    },
+    {
+      "k": "interpreter-session-script-q3",
+      "q": {
+        "en": "Why keep the same words for “pick-up point”, “hold point” and “break point” all day?",
+        "uk": "Навіщо весь день перекладати «pick-up point», «hold point» і «break point» тими самими словами?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The rules require these exact words",
+          "uk": "Цього вимагають правила"
+        },
+        {
+          "k": "b",
+          "en": "So the coach can follow your language",
+          "uk": "Щоб тренер розумів вашу мову"
+        },
+        {
+          "k": "c",
+          "en": "So the guest learns three clear ideas",
+          "uk": "Щоб гість засвоїв три чіткі поняття"
+        },
+        {
+          "k": "d",
+          "en": "It does not matter which words you use",
+          "uk": "Не має значення, якими словами"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Using the same words each time helps the guest learn the three ideas; if you change the words, three ideas look like six.",
+        "uk": "Ті самі слова щоразу допомагають гостеві засвоїти три поняття; якщо міняти слова, три поняття виглядають як шість."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "d5c551ec",
+    "summary": "99553f52",
+    "interpreter-session-script-p1": "a39a2e50",
+    "interpreter-session-script-p2": "4ad87697",
+    "interpreter-session-script-p3": "c36607c4",
+    "interpreter-session-script-p4": "ca56d93e",
+    "interpreter-session-script-p5": "1a26cd9c",
+    "interpreter-session-script-comp": "ec145c3f",
+    "interpreter-session-script-ph1": "e9480931",
+    "interpreter-session-script-ph2": "b2774511",
+    "interpreter-session-script-ph3": "3478fe0a",
+    "interpreter-session-script-ph4": "90b80493",
+    "interpreter-session-script-ph5": "cec12382",
+    "interpreter-session-script-ph6": "36c61d20",
+    "interpreter-session-script-ph7": "e9f4674e",
+    "interpreter-session-script-ph8": "74b72c41",
+    "interpreter-session-script-ph9": "27749fe5",
+    "interpreter-session-script-ph10": "7cacc4b3",
+    "interpreter-session-script-ph11": "9535219a",
+    "interpreter-session-script-ph12": "a6edf359",
+    "interpreter-session-script-ph13": "ce531e74",
+    "interpreter-session-script-ph14": "51893d85",
+    "interpreter-session-script-ph15": "20a6ddd4",
+    "interpreter-session-script-ph16": "58ffa3d4",
+    "interpreter-session-script-ph17": "b9110dc1",
+    "interpreter-session-script-kp1": "579c7c3c",
+    "interpreter-session-script-kp2": "3973ebb9",
+    "interpreter-session-script-kp3": "e3aa5d28",
+    "interpreter-session-script-kp4": "112250a3",
+    "interpreter-session-script-kp5": "ab00229f",
+    "interpreter-session-script-q1": "19ff0cf8",
+    "interpreter-session-script-q2": "783b246c",
+    "interpreter-session-script-q3": "3a16f8f1"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Audit I-03 checked: the low gun start is given for Parcours de Chasse – Sporting™ only (p2, ph5); Compak® Sporting is free. Quiz q2 and q3 are now language-neutral (no Ukrainian text in the English options); retranslate them in the 9 overlays.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in interpreter-session-script-ph5 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

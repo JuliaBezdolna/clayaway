@@ -1,0 +1,663 @@
+{
+  "id": "mind-routine-under-pressure",
+  "rev": 3,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "mind-routine-under-pressure",
+      "technique-routine-and-coach"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "pre-shot-routine",
+    "stance",
+    "break-point",
+    "hold-point",
+    "pick-up-point",
+    "soft-focus",
+    "hard-focus",
+    "call",
+    "double",
+    "coaching",
+    "sonopull",
+    "trapper"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-fifteen-seconds"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-call-and-release"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loading"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-firing-time"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trigger-manual"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-call-time-and-changeover"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-shooting-conduct"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    }
+  ],
+  "facts": [
+    "mind.sporting-ready-position",
+    "rules.sporting-time-between-targets",
+    "rules.release-within-3s",
+    "rules.compak-time-to-call",
+    "rules.sonopull-delay"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The effectiveness of pre-performance routines in sports: a meta-analysis (International Review of Sport and Exercise Psychology, 2024)"
+      },
+      "url": "https://doi.org/10.1080/1750984X.2021.1944271",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Quiet eye training in a visuomotor control task (Medicine & Science in Sports & Exercise, 2011)"
+      },
+      "url": "https://doi.org/10.1249/MSS.0b013e3182035de6",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "On the temporal and behavioural consistency of pre-performance routines: an intra-individual analysis of elite basketball players' free throw shooting accuracy (Journal of Sports Sciences, 2008)"
+      },
+      "url": "https://doi.org/10.1080/02640410701473962",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Pre-shot routine: the same steps in the same order",
+    "uk": "Передпостріловий ритуал: ті самі кроки в тому самому порядку"
+  },
+  "summary": {
+    "en": "A short pre-shot routine helps you shoot the same way in training and in competition: six steps that fit the time limits of {{tm:sporting}} and {{tm:compak}}.",
+    "uk": "Короткий передпостріловий ритуал допомагає стріляти однаково на тренуванні й на змаганнях: шість кроків, що вкладаються в ліміти часу {{tm:sporting}} і {{tm:compak}}."
+  },
+  "brief": {
+    "title": {
+      "en": "Pre-shot routine: the same steps in the same order",
+      "uk": "Передпостріловий ритуал: ті самі кроки в тому самому порядку"
+    },
+    "points": {
+      "en": [
+        "Six short steps: feet set to the break point; the gun in the ready position (in {{tm:sporting}} the stock below the line on the jacket); eyes to the pick-up point with a soft focus; a breath out and a cue word; the call; hard focus on the target.",
+        "The routine has to fit the time limits: 15 s in {{tm:sporting}} and 10 s in {{tm:compak}} (check against docs/rules/data).",
+        "The order matters, not the exact seconds (audit A-05).",
+        "Build it in training; do not change it at a competition.",
+        "For a double, plan both targets before the call.",
+        "Receives technique-routine-and-coach (the routine part)."
+      ],
+      "uk": [
+        "Шість коротких кроків: ноги — під точку пострілу; рушниця в положенні готовності (у {{tm:sporting}} приклад нижче лінії на жилеті); очі — на точку підхоплення, м’який фокус; видих і слово-підказка; команда; жорсткий фокус на мішені.",
+        "Ритуал має вкладатися в ліміт часу: 15 с у {{tm:sporting}} і 10 с у {{tm:compak}} (звірити з docs/rules/data).",
+        "Важливий порядок, а не секунди (аудит A-05).",
+        "Будувати на тренуванні; на змаганнях не змінювати.",
+        "Для дуплета план на обидві мішені — до команди.",
+        "Сюди переходить technique-routine-and-coach (частина про ритуал)."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-routine-under-pressure-p1",
+      "t": "p",
+      "en": "A {{term:pre-shot-routine|pre-shot routine}} is a fixed set of steps you repeat before each target. It helps you read the target, set up the same way and call only when you are ready.",
+      "uk": "{{term:pre-shot-routine|Передпостріловий ритуал}} — це сталий набір кроків, які ви повторюєте перед кожною мішенню. Він допомагає прочитати мішень, однаково підготуватися і давати команду лише тоді, коли ви готові."
+    },
+    {
+      "k": "mind-routine-under-pressure-p9",
+      "t": "p",
+      "en": "Studies of routines in many sports show a small to moderate benefit, also under pressure. In clay shooting this was tested mainly in Olympic skeet, so most likely it works the same way in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "Дослідження ритуалів у багатьох видах спорту показують невелику або помірну користь, зокрема й під тиском. У стендовій стрільбі це перевіряли переважно на олімпійському скиті, тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+    },
+    {
+      "k": "mind-routine-under-pressure-p2",
+      "t": "p",
+      "en": "Under pressure many shooters change their tempo without noticing: they rush the call, or stand too long and check each detail twice. A familiar routine gives you something simple to do instead.",
+      "uk": "Під тиском багато стрільців непомітно для себе змінюють темп: поспішають із командою або, навпаки, довго стоять і все перевіряють двічі. Звичний ритуал дає вам натомість просту й знайому справу."
+    },
+    {
+      "k": "mind-routine-under-pressure-steps",
+      "t": "steps",
+      "anchor": "technique-routine-and-coach",
+      "en": [
+        "Feet: set your {{term:stance|stance}} for the {{term:break-point|break point}}, the place where you plan to break the target.",
+        "Gun: take your start position with the muzzles at the {{term:hold-point|hold point}}, where they wait for the call. In {{tm:sporting}} the gun starts down (see below).",
+        "Eyes: look at the {{term:pick-up-point|pick-up point}}, where you first see the target clearly, with a {{term:soft-focus|soft focus}}: a calm, wide look.",
+        "Breath and cue: one natural breath out, shoulders down, then your cue word.",
+        "Call: give the {{term:call|call}} the same way each time and stay ready during the short delay before the target appears.",
+        "Target: switch to a {{term:hard-focus|hard focus}} on the target and keep your eyes on it through the shot."
+      ],
+      "uk": [
+        "Ноги: поставте {{term:stance|стійку}} під {{term:break-point|точку пострілу}} — місце, де ви плануєте розбити мішень.",
+        "Рушниця: займіть вихідне положення, стволи — у {{term:hold-point|точці утримання стволів}}, де вони чекають команди. У {{tm:sporting}} рушниця на старті внизу (див. нижче).",
+        "Очі: дивіться в {{term:pick-up-point|точку підхоплення}}, де ви вперше чітко бачите мішень, з {{term:soft-focus|м’яким фокусом}} — спокійним, широким поглядом.",
+        "Дихання і підказка: один звичайний видих, плечі опущені, потім ваше слово-підказка.",
+        "Виклик мішені: подавайте {{term:call|команду}} щоразу однаково й залишайтеся готовими під час короткої затримки перед появою мішені.",
+        "Мішень: перейдіть на {{term:hard-focus|жорсткий фокус}} на мішені й тримайте на ній погляд до кінця пострілу."
+      ]
+    },
+    {
+      "k": "mind-routine-under-pressure-compare",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Gun down: {{fact:mind.sporting-ready-position}} ({{rule:sporting:ch3-ready-position}}). You have {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). After your call the referee signals the {{term:trapper|trapper}}, and the target leaves {{fact:rules.release-within-3s}} of the referee's signal ({{rule:sporting:ch5-call-and-release}}).",
+        "uk": "Рушниця внизу: {{fact:mind.sporting-ready-position}} ({{rule:sporting:ch3-ready-position}}). У вас є {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Після вашої команди суддя дає сигнал {{term:trapper|оператору машинок}}, і мішень вилітає {{fact:rules.release-within-3s}} після сигналу судді ({{rule:sporting:ch5-call-and-release}})."
+      },
+      "compak": {
+        "en": "The gun position at the call is free: mounted or not ({{rule:compak:ch17-gun-position}}). You have {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). The target leaves {{fact:rules.release-within-3s}} of the call with a manual release, or {{fact:rules.sonopull-delay}} after it with a sonopull (voice release) ({{rule:compak:ch2-trigger-manual}}).",
+        "uk": "Положення рушниці під час команди вільне: вкладена вона чи ні ({{rule:compak:ch17-gun-position}}). У вас є {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Мішень вилітає {{fact:rules.release-within-3s}} після команди при ручному запуску або через {{fact:rules.sonopull-delay}} із сонопулом (голосовим запуском) ({{rule:compak:ch2-trigger-manual}})."
+      }
+    },
+    {
+      "k": "mind-routine-under-pressure-p4",
+      "t": "p",
+      "en": "Keep the order of the steps, not an exact number of seconds. The delay after the call can vary (in {{tm:sporting}}, and in {{tm:compak}} with a manual release), so the time can change a little. Stay well inside the limit: ask a coach or a friend to time your routine in training.",
+      "uk": "Тримайтеся порядку кроків, а не точної кількості секунд. Затримка після команди може бути різною (у {{tm:sporting}}, а в {{tm:compak}} — при ручному запуску), тож час може трохи змінюватися. Головне — вкладатися в ліміт із запасом: попросіть тренера чи друга засікти ваш ритуал на тренуванні."
+    },
+    {
+      "k": "mind-routine-under-pressure-p5",
+      "t": "tip",
+      "en": "If something disturbs you before the call, such as a noise, a thought or the sun, do not call. Lower the gun, breathe out and start the routine again, within the time limit.",
+      "uk": "Якщо щось збило вас до команди — звук, думка чи сонце, — не давайте команди. Опустіть рушницю, видихніть і почніть ритуал спочатку, не виходячи за ліміт часу."
+    },
+    {
+      "k": "mind-routine-under-pressure-p7",
+      "t": "p",
+      "en": "For a {{term:double|double}}, plan both targets before you call: where you break the first one, and where your eyes go for the second. Treat them as two separate shots.",
+      "uk": "Для {{term:double|дуплета}} сплануйте обидві мішені ще до команди: де ви розбиваєте першу і куди переводите погляд для другої. Це два окремі постріли."
+    },
+    {
+      "k": "mind-routine-under-pressure-p6",
+      "t": "p",
+      "en": "Between stands, a longer routine helps you put the last stand behind you, whatever the score. Open the gun, take out the empty cases, drink some water and look at the next targets. In {{tm:compak}} you change stations with the gun open and unloaded ({{rule:compak:ch17-call-time-and-changeover}}).",
+      "uk": "Між стрілецькими місцями довший ритуал допомагає залишити попереднє місце позаду, хоч би як воно минуло. Відкрийте рушницю, вийміть порожні гільзи, ковтніть води й подивіться на наступні мішені. У {{tm:compak}} номер змінюють із відкритою й розрядженою рушницею ({{rule:compak:ch17-call-time-and-changeover}})."
+    },
+    {
+      "k": "mind-routine-under-pressure-warn",
+      "t": "warn",
+      "disc": "both",
+      "critical": true,
+      "en": "Load only on the stand, with the gun pointing down the range, once the referee has allowed shooting to start ({{rule:sporting:ch8-loading}}, {{rule:compak:ch21-shooting-conduct}}).",
+      "uk": "Заряджайте рушницю лише на стрілецькому місці, стволами в бік поля і лише після того, як суддя дозволив починати стрільбу ({{rule:sporting:ch8-loading}}, {{rule:compak:ch21-shooting-conduct}})."
+    },
+    {
+      "k": "mind-routine-under-pressure-p8",
+      "t": "p",
+      "en": "Build the routine in training and keep it the same at competitions. Agree your plan with your coach before the event, so on the day you only need to follow it.",
+      "uk": "Будуйте ритуал на тренуваннях і не змінюйте його на змаганнях. Узгодьте план із тренером ще до змагань, щоб у день старту лише виконувати його."
+    },
+    {
+      "k": "mind-routine-under-pressure-coaching-rule",
+      "t": "p",
+      "disc": "both",
+      "en": "During a competition, nobody may {{term:coaching|coach}} a competitor ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+      "uk": "Під час змагань ніхто не може {{term:coaching|тренувати}} учасника, тобто підказувати йому ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-routine-under-pressure-n1",
+      "for": "interpreter",
+      "en": "Stay silent while the shooter runs the routine. In training, translate between targets and briefly; in competition, pass on only the referee's decisions and official messages.",
+      "uk": "Мовчіть, поки стрілець виконує ритуал. На тренуванні перекладайте між мішенями й коротко; на змаганнях передавайте лише рішення судді та офіційні повідомлення."
+    },
+    {
+      "k": "mind-routine-under-pressure-n2",
+      "for": "coach",
+      "en": "Time a new shooter's routine in training. If it does not fit the limit with a margin, cut steps rather than rushing them.",
+      "uk": "Засічіть ритуал нового стрільця на тренуванні. Якщо він не вкладається в ліміт із запасом, приберіть зайві кроки, а не прискорюйте їх."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-routine-under-pressure-kp1",
+      "en": "A routine is the same steps in the same order before each target.",
+      "uk": "Ритуал — ті самі кроки в тому самому порядку перед кожною мішенню.",
+      "checklist": true
+    },
+    {
+      "k": "mind-routine-under-pressure-kp2",
+      "en": "Keep the order; the seconds may vary a little, as long as you stay inside the limit.",
+      "uk": "Тримайтеся порядку; секунди можуть трохи відрізнятися, аби ви вкладалися в ліміт."
+    },
+    {
+      "k": "mind-routine-under-pressure-kp3",
+      "en": "{{tm:sporting}}: gun down and {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: free gun position and {{fact:rules.compak-time-to-call}}.",
+      "uk": "{{tm:sporting}}: рушниця внизу і {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: вільне положення рушниці і {{fact:rules.compak-time-to-call}}."
+    },
+    {
+      "k": "mind-routine-under-pressure-kp4",
+      "en": "Disturbed before the call? Lower the gun, breathe out and start again.",
+      "uk": "Збилися до команди? Опустіть рушницю, видихніть і почніть спочатку.",
+      "checklist": true
+    },
+    {
+      "k": "mind-routine-under-pressure-kp5",
+      "en": "Build the routine in training: no coaching is allowed during a competition.",
+      "uk": "Будуйте ритуал на тренуваннях: під час змагань підказки заборонені."
+    }
+  ],
+  "did_you_know": {
+    "k": "technique-routine-and-coach-dyk",
+    "en": "Shooters usually call “pull” or “ready”, the words named in the {{tm:sporting}} rules. Saying the call the same way each time helps, especially in {{tm:compak}}, where a {{term:sonopull|sonopull}} may release the target by voice.",
+    "uk": "Зазвичай мішень кличуть словом «pull» або «ready» — саме ці слова називають правила {{tm:sporting}}. Варто щоразу вимовляти команду однаково, особливо в {{tm:compak}}, де мішень може випускати {{term:sonopull|сонопул}} на голос."
+  },
+  "quiz": [
+    {
+      "k": "mind-routine-under-pressure-q4",
+      "q": {
+        "en": "What should stay the same in your routine from one target to the next?",
+        "uk": "Що має залишатися незмінним у ритуалі від мішені до мішені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The exact number of seconds",
+          "uk": "Точна кількість секунд"
+        },
+        {
+          "k": "b",
+          "en": "The order of the steps",
+          "uk": "Порядок кроків"
+        },
+        {
+          "k": "c",
+          "en": "The cartridge you load first",
+          "uk": "Набій, який заряджаєте першим"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The order of the steps matters more than the seconds; the delay after the call can vary anyway (in {{tm:sporting}}, and in {{tm:compak}} with a manual release).",
+        "uk": "Порядок кроків важливіший за секунди; затримка після команди однаково може бути різною (у {{tm:sporting}}, а в {{tm:compak}} — при ручному запуску)."
+      }
+    },
+    {
+      "k": "mind-routine-under-pressure-q5",
+      "disc": "sporting",
+      "q": {
+        "en": "Where is the gun when you call in {{tm:sporting}}?",
+        "uk": "Де рушниця, коли ви даєте команду в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Already mounted firmly at the shoulder",
+          "uk": "Уже вкладена до плеча й готова до пострілу"
+        },
+        {
+          "k": "b",
+          "en": "Anywhere: the gun position is free",
+          "uk": "Будь-де: положення рушниці вільне"
+        },
+        {
+          "k": "c",
+          "en": "Down, the stock below the vest line",
+          "uk": "Внизу, приклад нижче від лінії на жилеті"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:sporting}} the gun stays down until the target is visible. In {{tm:compak}} the gun position at the call is free.",
+        "uk": "У {{tm:sporting}} рушниця залишається внизу, доки мішень не стане видимою. У {{tm:compak}} положення рушниці під час команди вільне."
+      },
+      "rule_ref": "sporting:ch3-ready-position"
+    },
+    {
+      "k": "mind-routine-under-pressure-q3",
+      "q": {
+        "en": "A noise disturbs you before you call. What can you do?",
+        "uk": "Вас збив сторонній звук ще до команди. Що можна зробити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Lower the gun, breathe out and start again",
+          "uk": "Опустити рушницю, видихнути й почати спочатку"
+        },
+        {
+          "k": "b",
+          "en": "Call quickly, before the same noise comes back",
+          "uk": "Швидко скомандувати, поки той самий звук не повторився"
+        },
+        {
+          "k": "c",
+          "en": "Ask the referee to show the target again",
+          "uk": "Попросити суддю ще раз показати мішень"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Until you call, you can restart your routine, as long as you stay within the time limit.",
+        "uk": "Поки ви не скомандували, ритуал можна почати спочатку, якщо вкладаєтеся в ліміт часу."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-routine-under-pressure-q1",
+      "q": {
+        "en": "Why is a pre-shot routine useful in competition?",
+        "uk": "Навіщо потрібен передпостріловий ритуал на змаганнях?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To fill the time before the call",
+          "uk": "Щоб заповнити час до команди"
+        },
+        {
+          "k": "b",
+          "en": "To bring back your usual rhythm",
+          "uk": "Щоб повернути звичний ритм"
+        },
+        {
+          "k": "c",
+          "en": "To show the referee you are ready",
+          "uk": "Щоб показати судді, що ви готові"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A familiar routine helps you keep your usual tempo and technique under pressure.",
+        "uk": "Звичний ритуал допомагає тримати звичний темп і техніку під тиском."
+      }
+    },
+    {
+      "k": "mind-routine-under-pressure-q2",
+      "disc": "sporting",
+      "q": {
+        "en": "How much time do you have between singles or between doubles in {{tm:sporting}}?",
+        "uk": "Скільки часу у вас є між одиночними мішенями або між дуплетами в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At most 10 seconds",
+          "uk": "Щонайбільше 10 секунд"
+        },
+        {
+          "k": "b",
+          "en": "At most 30 seconds",
+          "uk": "Щонайбільше 30 секунд"
+        },
+        {
+          "k": "c",
+          "en": "At most 15 seconds",
+          "uk": "Щонайбільше 15 секунд"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The limit in {{tm:sporting}} is 15 seconds; going over it first earns a warning.",
+        "uk": "Ліміт у {{tm:sporting}} — 15 секунд; за перевищення спершу дають попередження."
+      },
+      "rule_ref": "sporting:ch7-fifteen-seconds"
+    },
+    {
+      "k": "technique-routine-and-coach-q1",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, how long do you have to call after the previous station's target?",
+        "uk": "Скільки часу у {{tm:compak}} у вас є на команду після пострілу на попередньому номері?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At most 10 seconds",
+          "uk": "Щонайбільше 10 секунд"
+        },
+        {
+          "k": "b",
+          "en": "At most 15 seconds",
+          "uk": "Щонайбільше 15 секунд"
+        },
+        {
+          "k": "c",
+          "en": "As long as you need",
+          "uk": "Скільки потрібно"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:compak}} you have at most 10 seconds; in {{tm:sporting}} the limit is 15 seconds between singles or between doubles.",
+        "uk": "У {{tm:compak}} у вас щонайбільше 10 секунд; у {{tm:sporting}} ліміт — 15 секунд між одиночними мішенями або між дуплетами."
+      },
+      "rule_ref": "compak:ch21-firing-time",
+      "from": "technique-routine-and-coach"
+    },
+    {
+      "k": "technique-routine-and-coach-q2",
+      "disc": "both",
+      "q": {
+        "en": "When may you load the gun?",
+        "uk": "Коли можна заряджати рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the way to the stand, to save time",
+          "uk": "Дорогою до місця, щоб не гаяти часу"
+        },
+        {
+          "k": "b",
+          "en": "On the stand, once the referee allows",
+          "uk": "На місці, після дозволу судді"
+        },
+        {
+          "k": "c",
+          "en": "Anywhere, as long as the safety is on",
+          "uk": "Будь-де, якщо запобіжник увімкнено"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Load only on the stand, with the gun pointing down the range, once the referee has allowed shooting to start.",
+        "uk": "Заряджати можна лише на стрілецькому місці, стволами в бік поля і лише після дозволу судді."
+      },
+      "rule_ref": "sporting:ch8-loading",
+      "from": "technique-routine-and-coach"
+    },
+    {
+      "k": "technique-routine-and-coach-q3",
+      "disc": "both",
+      "q": {
+        "en": "What happens if someone coaches a shooter during a competition?",
+        "uk": "Що буде, якщо хтось підказує стрільцеві під час змагань?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing: advice from a coach is always allowed",
+          "uk": "Нічого: поради тренера на змаганнях дозволені"
+        },
+        {
+          "k": "b",
+          "en": "The whole round is shot again at the end",
+          "uk": "Увесь раунд перестрілюють наприкінці дня"
+        },
+        {
+          "k": "c",
+          "en": "A yellow card, and the coach is sent away",
+          "uk": "Жовта картка, а того, хто підказує, виводять"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Coaching during a competition is not allowed in either discipline: the shooter gets a yellow card and the person coaching is sent out of the shooting area.",
+        "uk": "Підказки під час змагань заборонені в обох дисциплінах: стрілець отримує жовту картку, а того, хто підказує, виводять зі стрілецької зони."
+      },
+      "rule_ref": "sporting:ch8-coaching",
+      "from": "technique-routine-and-coach"
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-routine-under-pressure-p1",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/1750984X.2021.1944271"
+      ]
+    },
+    {
+      "for": "mind-routine-under-pressure-p9",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/1750984X.2021.1944271",
+        "https://doi.org/10.1249/MSS.0b013e3182035de6"
+      ]
+    },
+    {
+      "for": "mind-routine-under-pressure-p2",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-routine-under-pressure-steps",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-routine-under-pressure-p4",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1080/02640410701473962"
+      ]
+    },
+    {
+      "for": "mind-routine-under-pressure-p5",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-routine-under-pressure-p7",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-routine-under-pressure-p6",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-routine-under-pressure-p8",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "48d27e7d",
+    "summary": "b354d6b8",
+    "mind-routine-under-pressure-p1": "b8212880",
+    "mind-routine-under-pressure-p9": "c5ba6764",
+    "mind-routine-under-pressure-p2": "88fcebb5",
+    "mind-routine-under-pressure-steps": "ccaf665a",
+    "mind-routine-under-pressure-compare": "7b5bdd61",
+    "mind-routine-under-pressure-p4": "617ff46e",
+    "mind-routine-under-pressure-p5": "9ca65983",
+    "mind-routine-under-pressure-p7": "9a1afc02",
+    "mind-routine-under-pressure-p6": "52c2e200",
+    "mind-routine-under-pressure-warn": "03132609",
+    "mind-routine-under-pressure-p8": "286d2120",
+    "mind-routine-under-pressure-coaching-rule": "bdcd24b4",
+    "mind-routine-under-pressure-n1": "b1cde59d",
+    "mind-routine-under-pressure-n2": "a832f273",
+    "mind-routine-under-pressure-kp1": "5c9c31ea",
+    "mind-routine-under-pressure-kp2": "1cd9fd7b",
+    "mind-routine-under-pressure-kp3": "0d727499",
+    "mind-routine-under-pressure-kp4": "560bc6e6",
+    "mind-routine-under-pressure-kp5": "77c11a82",
+    "technique-routine-and-coach-dyk": "6ffce63b",
+    "mind-routine-under-pressure-q4": "69f937f5",
+    "mind-routine-under-pressure-q5": "0fc6380b",
+    "mind-routine-under-pressure-q3": "8a621af1",
+    "mind-routine-under-pressure-q1": "2b102f29",
+    "mind-routine-under-pressure-q2": "e63a11f2",
+    "technique-routine-and-coach-q1": "24dfa2f9",
+    "technique-routine-and-coach-q2": "8d7176cf",
+    "technique-routine-and-coach-q3": "5701ec1c"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\"."
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "cartridges-velocity-recoil",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "a3ab7761",
+    "summary": "d266928f",
+    "cartridges-velocity-recoil-p1": "35b2ccfa",
+    "cartridges-velocity-recoil-p2": "3211df5c",
+    "cartridges-velocity-recoil-p7": "54198ca9",
+    "cartridges-velocity-recoil-p3": "ba5cadf4",
+    "cartridges-velocity-recoil-p4": "85c0baf5",
+    "cartridges-velocity-recoil-p5": "9137f3f8",
+    "cartridges-velocity-recoil-p6": "8cd7145a",
+    "cartridges-velocity-recoil-kp1": "e918f2e4",
+    "cartridges-velocity-recoil-kp2": "ef5b2407",
+    "cartridges-velocity-recoil-kp3": "d7496c84",
+    "cartridges-velocity-recoil-kp4": "7436d207",
+    "cartridges-velocity-recoil-kp5": "66db2bf2",
+    "cartridges-velocity-recoil-dyk": "7f953a03",
+    "cartridges-velocity-recoil-q1": "2af1818b",
+    "cartridges-velocity-recoil-q2": "e0186827",
+    "cartridges-velocity-recoil-q3": "6832d842"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Prędkość i odrzut",
+  "summary": "Co znaczy prędkość na pudełku naboju, czemu szybciej nie znaczy lepiej oraz od czego zależy odrzut — dla strzelców {{tm:sporting}} i {{tm:compak}}.",
+  "body": {
+    "cartridges-velocity-recoil-p1": "Na pudełku często podaje się {{term:velocity|prędkość}} śrutu, w metrach na sekundę albo stopach na sekundę (fps). Dla naboi sportowych wynosi ona zwykle {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-p2": "Porównuj prędkości ostrożnie. Śrut szybko traci prędkość po wyjściu z lufy, więc ważne jest, gdzie dokładnie mierzy się prędkość. Europejscy producenci (zgodnie z regułami badań C.I.P.) mierzą ją zwykle 2,5 m od wylotu i piszą „V2,5”; niektórzy piszą „V1”, mierzone na 1 m, co daje wyższą liczbę. Oznaczenia nie są zawsze konsekwentne, więc traktuj tę liczbę jako orientacyjną.",
+    "cartridges-velocity-recoil-p7": "Amerykańscy producenci podają stopy na sekundę, mierzone około 3 stóp (0,9 m) od wylotu. Brytyjskie pudełka czasem podają szacowaną prędkość wylotową. Więc ta sama liczba nie musi znaczyć tej samej prędkości.",
+    "cartridges-velocity-recoil-p3": "Szybszy nabój nieco skraca czas, w którym śrut dolatuje do rzutka, ale kopie mocniej, a jego rozrzut nie jest wcale lepszy. Wielu trenerów radzi nie gonić za prędkością, a wybrać nabój, z którym strzelasz równo i który cię nie męczy.",
+    "cartridges-velocity-recoil-p4": "{{term:recoil|Odrzut}} to pchnięcie broni w ramię podczas strzału. Rośnie z ciężejszą naważką i wyższą prędkością, a spada z ciężejszą bronią. Gazowy {{term:semi-automatic|półautomat}} rozkłada pchnięcie w czasie, więc wielu strzelcom wydaje się łagodniejszy.",
+    "cartridges-velocity-recoil-p5": "Jeszcze większe znaczenie ma {{term:gun-fit|dopasowanie strzelby}} i prawidłowe {{term:gun-mount|złożenie się do strzału}}. Broń, która ci pasuje i mocno leży w ramieniu, odczuwa się dużo łagodniej niż ta, która opiera się na ramieniu zewnętrznym albo na kości. Pomaga też dobra stopka i stabilna postawa. Więcej: {{lesson:gun-fit}} i {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p6": "W dniu {{tm:sporting}} albo {{tm:compak}} możesz oddać 100–200 strzałów. Silny odrzut męczy i może z czasem nauczyć cię {{term:flinch|szarpnięcia}} przed strzałem. Więc lżejszy nabój na treningu, na przykład 24 g, jest rozsądnym wyborem, a nie słabością."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "cartridges-velocity-recoil-kp1": "Typowa prędkość naboi sportowych: {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-kp2": "Producenci mierzą prędkość różnie (V1, V2,5, fps).",
+    "cartridges-velocity-recoil-kp3": "Szybciej znaczy silniejszy odrzut, ale nie zawsze lepszy wynik.",
+    "cartridges-velocity-recoil-kp4": "Odrzut rośnie z naważką i prędkością, a spada z wagą broni.",
+    "cartridges-velocity-recoil-kp5": "Dobre dopasowanie i prawidłowe złożenie się zmniejszają odczuwany odrzut."
+  },
+  "did_you_know": "Śrut dolatuje do rzutka na 30 m w ciągu około jednej dziesiątej sekundy. W tym czasie przecinający się rzutek zdąży przemieścić się o metr albo dwa, dlatego strzelcy dają mu {{term:lead|wyprzedzenie}}.",
+  "quiz": {
+    "cartridges-velocity-recoil-q1": {
+      "q": "Co robi odrzut słabszym?",
+      "options": {
+        "a": "Ciężejsza naważka",
+        "b": "Wyższa prędkość",
+        "c": "Ciężejsza broń",
+        "d": "Za krótka kolba"
+      },
+      "explain": "Ciężejsza broń lepiej wchłania pchnięcie; ciężejsza naważka i wyższa prędkość zwiększają odrzut."
+    },
+    "cartridges-velocity-recoil-q2": {
+      "q": "Czemu nie warto porównywać prędkości naboi różnych producentów bezpośrednio?",
+      "options": {
+        "a": "Producenci mierzą je różnymi metodami",
+        "b": "Liczba na pudełku jest zwykle wymyślona",
+        "c": "Wszystkie naboje mają tę samą prędkość",
+        "d": "Prędkość nie ma żadnego wpływu"
+      },
+      "explain": "V1, V2,5 i fps na 3 stopach to różne pomiary, więc ta sama liczba nie znaczy tego samego naboju."
+    },
+    "cartridges-velocity-recoil-q3": {
+      "q": "Jaka jest typowa prędkość naboi sportowych?",
+      "options": {
+        "a": "Około 100 m/s",
+        "b": "Około 360–430 m/s",
+        "c": "Około 900 m/s",
+        "d": "Ponad 1500 m/s"
+      },
+      "explain": "Większość naboi sportowych ma prędkość około 360–430 m/s."
+    }
+  }
+}

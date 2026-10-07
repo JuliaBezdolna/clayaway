@@ -1,0 +1,290 @@
+{
+  "id": "training-dry-mount-practice",
+  "rev": 4,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "training-dry-mount-practice"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "gun-mount",
+    "dry-mounting",
+    "chamber",
+    "semi-automatic",
+    "muzzle",
+    "rib",
+    "mock-shooting",
+    "squad",
+    "coach"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-mock-shooting"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    }
+  ],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Dry practice of the mount",
+    "uk": "Відпрацювання вкладки без пострілу"
+  },
+  "summary": {
+    "en": "How and where you can practise the mount without firing: only where the law allows, with an unloaded gun that you have checked and as your coach showed you.",
+    "uk": "Як і де можна безпечно відпрацьовувати вкладку без пострілу: лише там, де дозволяє закон, з розрядженою рушницею після перевірки й так, як показав тренер."
+  },
+  "body": [
+    {
+      "k": "training-dry-mount-practice-p1",
+      "t": "p",
+      "en": "The {{term:gun-mount|gun mount}} is the movement that brings the gun to your cheek and shoulder. To make it the same each time, you repeat it many times. Many coaches suggest {{term:dry-mounting|dry mounting}}, practising the mount without firing, between sessions. It has to be done safely and legally.",
+      "uk": "{{term:gun-mount|Вкладка}} — рух, яким рушниця приходить до щоки й плеча. Щоб він щоразу був однаковим, його повторюють багато разів. Багато тренерів радять між тренуваннями відпрацьовувати {{term:dry-mounting|вкладку без пострілу}}. Але робити це можна лише безпечно й законно."
+    },
+    {
+      "k": "training-dry-mount-practice-p2",
+      "t": "p",
+      "critical": true,
+      "en": "Law first. Rules on keeping and handling guns at home differ a lot between countries. In some places the gun must stay locked in a safe unless there is a reason to take it out; elsewhere other limits apply. Check what the law of your country allows. If in doubt, do not do it, and ask your coach for other exercises.",
+      "uk": "Спершу закон. Правила зберігання й поводження зі зброєю вдома дуже різняться між країнами. Десь рушниця має бути замкнена в сейфі, і виймати її без потреби не можна, деінде діють інші обмеження. З’ясуйте, що дозволяє закон вашої країни. Якщо є сумнів — не робіть цього, а попросіть тренера про інші вправи."
+    },
+    {
+      "k": "training-dry-mount-practice-p3",
+      "t": "warn",
+      "critical": true,
+      "en": "Safety without exceptions. The gun must be unloaded and checked. Open it and look into the {{term:chamber|chambers}}, the openings at the back of the barrels where the cartridges sit. On a {{term:semi-automatic|semi-automatic}}, check the magazine too. Keep no live cartridges in the room where you practise. The {{term:muzzle|muzzle}}, the front end of the barrels, points in a safe direction the whole time, even when the gun is empty.",
+      "uk": "Безпека — без винятків. Рушницю треба розрядити й перевірити. Відкрийте її й подивіться в {{term:chamber|патронники}} — отвори на задньому кінці стволів, куди вкладають набої. У {{term:semi-automatic|напівавтомата}} перевірте ще й магазин. У кімнаті, де ви тренуєтеся, не повинно бути жодних бойових набоїв. {{term:muzzle|Дульний зріз}} — передній кінець стволів — увесь час спрямований у безпечний бік, навіть коли рушниця порожня."
+    },
+    {
+      "k": "training-dry-mount-practice-snap-caps",
+      "t": "tip",
+      "en": "Snap caps are dummy cartridges. If you pull the trigger on an empty gun, they protect the firing pins: the small pins inside the gun that strike the cartridge to fire it. Choose ones that look clearly different from live cartridges, and use them only as your coach or a gunsmith advises.",
+      "uk": "Навчальні патрони (snap caps) — це муляжі набоїв. Якщо натиснути на спуск порожньої рушниці, вони пом’якшують удар бойків — маленьких стрижнів усередині рушниці, які б’ють по набою, щоб стався постріл. Вибирайте такі, що помітно відрізняються від бойових набоїв, і користуйтеся ними лише так, як радить тренер або зброяр."
+    },
+    {
+      "k": "training-dry-mount-practice-p4",
+      "t": "p",
+      "en": "How to practise. Do the exercise exactly as your coach showed you, not as you saw it in a video. Often it is slow mounts in front of a mirror, to check that your eye lines up with the {{term:rib|rib}}, the sighting strip along the barrels. Another exercise is to mount the gun and move it slowly along the line where a wall meets the ceiling, keeping the barrels on that line. Keep it slow and correct: speed usually comes later by itself.",
+      "uk": "Як тренуватися. Робіть вправу саме так, як показав тренер, а не так, як бачили у відео. Часто це повільні вкладки перед дзеркалом, щоб перевірити, чи око стоїть на одній лінії з {{term:rib|прицільною планкою}} — смугою вздовж стволів. Інша вправа — повільне ведення рушниці вздовж лінії, де стіна сходиться зі стелею, так, щоб стволи не сходили з цієї лінії. Робіть усе повільно й правильно: швидкість зазвичай прийде згодом сама."
+    },
+    {
+      "k": "training-dry-mount-practice-p5",
+      "t": "compare",
+      "disc": "both",
+      "critical": true,
+      "sporting": {
+        "en": "During a competition, {{term:mock-shooting|mock shooting}} is not allowed anywhere at the ground. If you mount before the call and swing along an imagined target, the referee gives a warning; repeats are penalised ({{rule:sporting:ch8-mock-shooting}}).",
+        "uk": "Під час змагань {{term:mock-shooting|імітація стрільби}} заборонена будь-де на стенді. Якщо до виклику мішені ви вкладете рушницю й поведете нею за уявною мішенню, суддя зробить попередження, а за повторення карають ({{rule:sporting:ch8-mock-shooting}})."
+      },
+      "compak": {
+        "en": "In {{tm:compak}} the rules call this simulated shooting and ban it only in some cases ({{rule:compak:ch24-dry-mounting}}). During a competition you may not mount and swing the gun outside the shooting positions, or while another member of your {{term:squad|squad}} is shooting.",
+        "uk": "У {{tm:compak}} правила теж забороняють імітацію стрільби, але лише в певних випадках ({{rule:compak:ch24-dry-mounting}}). Під час змагань не можна вкладати рушницю й вести нею поза номерами, а також тоді, коли стріляє інший учасник вашої {{term:squad|групи}} (squad)."
+      }
+    },
+    {
+      "k": "training-dry-mount-practice-at-event",
+      "t": "p",
+      "disc": "both",
+      "en": "So in {{tm:sporting}}, mount the gun only to shoot, in your turn and on your shooting stand. In {{tm:compak}} the rule is less strict, but coaches often give the same advice: leave dry practice at home and mount the gun only to shoot, on your station.",
+      "uk": "Тож у {{tm:sporting}} вкладайте рушницю лише для пострілу — у свою чергу й на своєму стрілецькому місці. У {{tm:compak}} правило м’якше, але тренери часто радять те саме: вкладки без пострілу залиште вдома, а рушницю вкладайте лише для пострілу, на своєму номері."
+    },
+    {
+      "k": "training-dry-mount-practice-p6",
+      "t": "p",
+      "en": "After the exercise check again that the gun is unloaded, and store it as the law requires. Dry practice adds to your sessions with a coach; it does not replace them.",
+      "uk": "Після вправи ще раз перевірте, що рушниця розряджена, і сховайте її так, як вимагає закон. Вкладка без пострілу доповнює тренування з тренером, а не замінює їх."
+    }
+  ],
+  "note": [
+    {
+      "k": "training-dry-mount-practice-n-interpreter",
+      "for": "interpreter",
+      "en": "The {{tm:compak}} rules say simulated shooting, the {{tm:sporting}} rules say mock shooting. Both mean mounting the gun and swinging it along an imagined target, so one term in your language can cover both.",
+      "uk": "У правилах {{tm:compak}} це називається simulated shooting, у правилах {{tm:sporting}} — mock shooting. Обидва вирази означають вкладати рушницю й вести нею за уявною мішенню, тож українською для обох годиться один термін — {{term:mock-shooting|імітація стрільби}}."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "training-dry-mount-practice-kp1",
+      "en": "Practise the mount at home only where the law allows",
+      "uk": "Відпрацьовуйте вкладку вдома лише там, де це дозволяє закон"
+    },
+    {
+      "k": "training-dry-mount-practice-kp2",
+      "en": "The gun unloaded and checked, no live cartridges in the room",
+      "uk": "Рушниця розряджена, патронники оглянуто, у кімнаті немає бойових набоїв"
+    },
+    {
+      "k": "training-dry-mount-practice-kp3",
+      "en": "The barrels point in a safe direction the whole time",
+      "uk": "Стволи увесь час спрямовані в безпечний бік"
+    },
+    {
+      "k": "training-dry-mount-practice-kp4",
+      "en": "Do the exercise as your coach showed you, slowly and correctly",
+      "uk": "Робіть вправу так, як показав тренер, повільно й правильно"
+    },
+    {
+      "k": "training-dry-mount-practice-kp5",
+      "en": "At a competition, mount only to shoot, in your turn ({{tm:sporting}}: no mock shooting at all)",
+      "uk": "На змаганнях вкладайте рушницю лише для пострілу, у свою чергу ({{tm:sporting}}: жодної імітації стрільби)",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "training-dry-mount-practice-dyk",
+    "en": "Many coaches find that a few minutes of correct, slow mounts do more than an hour of fast ones: the body learns the quality of movement you repeat.",
+    "uk": "Багато тренерів вважають, що кілька хвилин правильних повільних вкладок дають більше, ніж година швидких: тіло запам’ятовує саме ту якість руху, яку ви повторюєте."
+  },
+  "quiz": [
+    {
+      "k": "training-dry-mount-practice-q1",
+      "disc": "both",
+      "q": {
+        "en": "What must you do before practising the mount?",
+        "uk": "Що треба зробити перед відпрацюванням вкладки?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Load one cartridge so it feels more realistic",
+          "uk": "Зарядити один набій, щоб було реалістичніше"
+        },
+        {
+          "k": "b",
+          "en": "Nothing, as long as the gun looks empty",
+          "uk": "Нічого, якщо рушниця на вигляд порожня"
+        },
+        {
+          "k": "c",
+          "en": "Open it and check the chambers are empty",
+          "uk": "Відкрити її й оглянути патронники"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The gun is unloaded and checked first, and no live cartridges are kept in the room.",
+        "uk": "Спершу рушницю розряджають і оглядають, а бойових набоїв у кімнаті не тримають."
+      }
+    },
+    {
+      "k": "training-dry-mount-practice-q2",
+      "disc": "both",
+      "q": {
+        "en": "What decides whether you may practise the mount at home?",
+        "uk": "Що вирішує, чи можна відпрацьовувати вкладку вдома?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Your country's law on keeping and handling guns",
+          "uk": "Закон вашої країни щодо зброї вдома"
+        },
+        {
+          "k": "b",
+          "en": "Advice from a video you found online",
+          "uk": "Порада з відео, знайденого в інтернеті"
+        },
+        {
+          "k": "c",
+          "en": "Whether a friend does it at home too",
+          "uk": "Чи робить так удома ваш знайомий"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Rules differ between countries; if in doubt, do not do it.",
+        "uk": "Правила в різних країнах різні; якщо є сумнів — не робіть."
+      }
+    },
+    {
+      "k": "training-dry-mount-practice-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, a shooter mounts before the call and swings along an imagined target. What follows?",
+        "uk": "У {{tm:sporting}} стрілець до виклику мішені вкладає рушницю й веде нею за уявною мішенню. Що далі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing, it is allowed before the call",
+          "uk": "Нічого, до виклику це дозволено"
+        },
+        {
+          "k": "b",
+          "en": "A warning, and repeats are penalised",
+          "uk": "Попередження, а за повторення карають"
+        },
+        {
+          "k": "c",
+          "en": "An extra target to shoot at",
+          "uk": "Додаткова мішень для пострілу"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "This is mock shooting, which the {{tm:sporting}} rules do not allow anywhere at the ground during a competition.",
+        "uk": "Це імітація стрільби, яку правила {{tm:sporting}} забороняють будь-де на стенді під час змагань."
+      },
+      "rule_ref": "sporting:ch8-mock-shooting"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "a63f2b80",
+    "summary": "2b1753bb",
+    "training-dry-mount-practice-p1": "dc6c2a65",
+    "training-dry-mount-practice-p2": "eedcd15d",
+    "training-dry-mount-practice-p3": "47e007b3",
+    "training-dry-mount-practice-snap-caps": "fd20f4f4",
+    "training-dry-mount-practice-p4": "fd63e4aa",
+    "training-dry-mount-practice-p5": "5ef054d7",
+    "training-dry-mount-practice-at-event": "688ee51f",
+    "training-dry-mount-practice-p6": "6b877a8a",
+    "training-dry-mount-practice-kp1": "303f16f0",
+    "training-dry-mount-practice-kp2": "211b166a",
+    "training-dry-mount-practice-kp3": "edaafa88",
+    "training-dry-mount-practice-kp4": "9820bc8b",
+    "training-dry-mount-practice-kp5": "59b8cc44",
+    "training-dry-mount-practice-dyk": "7817248c",
+    "training-dry-mount-practice-q1": "ad7e7e42",
+    "training-dry-mount-practice-q2": "19a06726",
+    "training-dry-mount-practice-q3": "d749fa2e",
+    "training-dry-mount-practice-n-interpreter": "99514269"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "_note": "Badges of the Academy (design §7.7): 13 blocks, 7 routes, 25 stages, 7 practice, 2 general, 1 transferred.",
+  "badges": [
+    {
+      "id": "block-basics",
+      "kind": "block",
+      "ref": "basics",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Основи»",
+        "en": "Basics block"
+      }
+    },
+    {
+      "id": "block-safety",
+      "kind": "block",
+      "ref": "safety",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Етикет і безпека»",
+        "en": "Safety & etiquette block"
+      }
+    },
+    {
+      "id": "block-gear",
+      "kind": "block",
+      "ref": "gear",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Спорядження»",
+        "en": "Gear block"
+      }
+    },
+    {
+      "id": "block-targets",
+      "kind": "block",
+      "ref": "targets",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Мішені і траєкторії»",
+        "en": "Targets & flight lines block"
+      }
+    },
+    {
+      "id": "block-technique",
+      "kind": "block",
+      "ref": "technique",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Техніка і винос»",
+        "en": "Technique & lead block"
+      }
+    },
+    {
+      "id": "block-training",
+      "kind": "block",
+      "ref": "training",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Тренування»",
+        "en": "Training block"
+      }
+    },
+    {
+      "id": "block-mind",
+      "kind": "block",
+      "ref": "mind",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Психологія і підготовка»",
+        "en": "Mind & preparation block"
+      }
+    },
+    {
+      "id": "block-rules",
+      "kind": "block",
+      "ref": "rules",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Правила»",
+        "en": "Rules block"
+      }
+    },
+    {
+      "id": "block-competitions",
+      "kind": "block",
+      "ref": "competitions",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Змагання»",
+        "en": "Competitions block"
+      }
+    },
+    {
+      "id": "block-travel",
+      "kind": "block",
+      "ref": "travel",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Подорожі»",
+        "en": "Travel block"
+      }
+    },
+    {
+      "id": "block-stand-talk",
+      "kind": "block",
+      "ref": "stand-talk",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Мова стенду»",
+        "en": "Stand Talk block"
+      }
+    },
+    {
+      "id": "block-watch",
+      "kind": "block",
+      "ref": "watch",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Дивитися і стежити»",
+        "en": "Watch & follow block"
+      }
+    },
+    {
+      "id": "block-community",
+      "kind": "block",
+      "ref": "community",
+      "rule": "all lessons of the block done (quiz answered)",
+      "title": {
+        "uk": "Блок «Спільнота та історія»",
+        "en": "Community & history block"
+      }
+    },
+    {
+      "id": "route-beginner",
+      "kind": "route",
+      "ref": "beginner",
+      "rule": "route certificate earned",
+      "title": {
+        "uk": "Маршрут «Новачок»",
+        "en": "Beginner route"
+      }
+    },
+    {
+      "id": "route-first-competition",
+      "kind": "route",
+      "ref": "first-competition",
+      "rule": "route certificate earned",
+      "title": {
+        "uk": "Маршрут «Перші змагання»",
+        "en": "First competition route"
+      }
+    },
+    {
+      "id": "route-interpreter",
+      "kind": "route",
+      "ref": "interpreter",
+      "rule": "route certificate earned",
+      "title": {
+        "uk": "Маршрут «Перекладач»",
+        "en": "Interpreter route"
+      }
+    },
+    {
+      "id": "route-junior-parent",
+      "kind": "route",
+      "ref": "junior-parent",
+      "rule": "route certificate earned",
+      "title": {
+        "uk": "Маршрут «Батьки юніора»",
+        "en": "Parents of a junior route"
+      }
+    },
+    {
+      "id": "route-new-coach",
+      "kind": "route",
+      "ref": "new-coach",
+      "rule": "route certificate earned",
+      "title": {
+        "uk": "Маршрут «Тренер-початківець»",
+        "en": "New coach route"
+      }
+    },
+    {
+      "id": "route-organiser",
+      "kind": "route",
+      "ref": "organiser",
+      "rule": "route certificate earned",
+      "title": {
+        "uk": "Маршрут «Організатор»",
+        "en": "Organiser route"
+      }
+    },
+    {
+      "id": "route-fan",
+      "kind": "route",
+      "ref": "fan",
+      "rule": "route badge test passed",
+      "title": {
+        "uk": "Маршрут «Вболівальник і родина»",
+        "en": "Fan & family route"
+      }
+    },
+    {
+      "id": "stage-beginner-first-visit",
+      "kind": "stage",
+      "ref": "beginner/first-visit",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Новачок: До першого візиту",
+        "en": "Beginner: Before your first visit"
+      }
+    },
+    {
+      "id": "stage-beginner-first-shots",
+      "kind": "stage",
+      "ref": "beginner/first-shots",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Новачок: Перші постріли",
+        "en": "Beginner: First shots"
+      }
+    },
+    {
+      "id": "stage-first-competition-ready",
+      "kind": "stage",
+      "ref": "first-competition/ready",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перші змагання: Підготовка",
+        "en": "First competition: Getting ready"
+      }
+    },
+    {
+      "id": "stage-first-competition-rules",
+      "kind": "stage",
+      "ref": "first-competition/rules",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перші змагання: Правила, які треба знати",
+        "en": "First competition: Rules you need to know"
+      }
+    },
+    {
+      "id": "stage-first-competition-head",
+      "kind": "stage",
+      "ref": "first-competition/head",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перші змагання: Голова і тіло",
+        "en": "First competition: Mind and body"
+      }
+    },
+    {
+      "id": "stage-first-competition-day",
+      "kind": "stage",
+      "ref": "first-competition/day",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перші змагання: День змагань",
+        "en": "First competition: Competition day"
+      }
+    },
+    {
+      "id": "stage-interpreter-day-one",
+      "kind": "stage",
+      "ref": "interpreter/day-one",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Перший день на стенді",
+        "en": "Interpreter: First day on the stand"
+      }
+    },
+    {
+      "id": "stage-interpreter-sport",
+      "kind": "stage",
+      "ref": "interpreter/sport",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Спорт і майданчики",
+        "en": "Interpreter: The sport and the layouts"
+      }
+    },
+    {
+      "id": "stage-interpreter-gear-targets",
+      "kind": "stage",
+      "ref": "interpreter/gear-targets",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Рушниця і мішені",
+        "en": "Interpreter: Gun and targets"
+      }
+    },
+    {
+      "id": "stage-interpreter-technique",
+      "kind": "stage",
+      "ref": "interpreter/technique",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Техніка",
+        "en": "Interpreter: Technique"
+      }
+    },
+    {
+      "id": "stage-interpreter-lead",
+      "kind": "stage",
+      "ref": "interpreter/lead",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Винос",
+        "en": "Interpreter: Lead"
+      }
+    },
+    {
+      "id": "stage-interpreter-coach-talk",
+      "kind": "stage",
+      "ref": "interpreter/coach-talk",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Помилки і мова тренера",
+        "en": "Interpreter: Faults and coach-speak"
+      }
+    },
+    {
+      "id": "stage-interpreter-rules",
+      "kind": "stage",
+      "ref": "interpreter/rules",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Правила на стенді",
+        "en": "Interpreter: Rules on the stand"
+      }
+    },
+    {
+      "id": "stage-interpreter-referee",
+      "kind": "stage",
+      "ref": "interpreter/referee",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Суддя, картки і результати",
+        "en": "Interpreter: Referee, cards and results"
+      }
+    },
+    {
+      "id": "stage-interpreter-mastery",
+      "kind": "stage",
+      "ref": "interpreter/mastery",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Перекладач: Майстерність",
+        "en": "Interpreter: Mastery"
+      }
+    },
+    {
+      "id": "stage-junior-parent-is-it-for-my-child",
+      "kind": "stage",
+      "ref": "junior-parent/is-it-for-my-child",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Батьки юніора: Чи підходить це дитині",
+        "en": "Parents of a junior: Is it right for my child"
+      }
+    },
+    {
+      "id": "stage-junior-parent-safe-start",
+      "kind": "stage",
+      "ref": "junior-parent/safe-start",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Батьки юніора: Безпечний старт",
+        "en": "Parents of a junior: A safe start"
+      }
+    },
+    {
+      "id": "stage-junior-parent-support",
+      "kind": "stage",
+      "ref": "junior-parent/support",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Батьки юніора: Підтримка і змагання",
+        "en": "Parents of a junior: Support and competitions"
+      }
+    },
+    {
+      "id": "stage-new-coach-role",
+      "kind": "stage",
+      "ref": "new-coach/role",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Тренер-початківець: Роль тренера",
+        "en": "New coach: The coach's role"
+      }
+    },
+    {
+      "id": "stage-new-coach-diagnosis",
+      "kind": "stage",
+      "ref": "new-coach/diagnosis",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Тренер-початківець: Основи і діагностика",
+        "en": "New coach: Fundamentals and diagnosis"
+      }
+    },
+    {
+      "id": "stage-new-coach-mental",
+      "kind": "stage",
+      "ref": "new-coach/mental",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Тренер-початківець: Тренування і голова",
+        "en": "New coach: Training and the mind"
+      }
+    },
+    {
+      "id": "stage-organiser-club-events",
+      "kind": "stage",
+      "ref": "organiser/club-events",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Організатор: Змагання і клуб",
+        "en": "Organiser: Competitions and the club"
+      }
+    },
+    {
+      "id": "stage-organiser-trips",
+      "kind": "stage",
+      "ref": "organiser/trips",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Організатор: Поїздки і тури",
+        "en": "Organiser: Trips and tours"
+      }
+    },
+    {
+      "id": "stage-fan-watch",
+      "kind": "stage",
+      "ref": "fan/watch",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Вболівальник і родина: Дивитися і розуміти",
+        "en": "Fan & family: Watching and understanding"
+      }
+    },
+    {
+      "id": "stage-fan-results",
+      "kind": "stage",
+      "ref": "fan/results",
+      "rule": "all lessons of the stage done",
+      "title": {
+        "uk": "Вболівальник і родина: Результати і ClayArena",
+        "en": "Fan & family: Results and ClayArena"
+      }
+    },
+    {
+      "id": "four-methods",
+      "kind": "practice",
+      "ref": "lead-lab",
+      "rule": "a hit with each of the four lead methods",
+      "enabled_after": "S-01",
+      "title": {
+        "uk": "Чотири методи",
+        "en": "Four methods"
+      }
+    },
+    {
+      "id": "name-the-flight-10",
+      "kind": "practice",
+      "ref": "name-the-flight",
+      "rule": "10 of 10 in one game",
+      "enabled_after": "S-04, S-05",
+      "title": {
+        "uk": "Назви траєкторію 10/10",
+        "en": "Name the flight 10/10"
+      }
+    },
+    {
+      "id": "coach-translator-20",
+      "kind": "practice",
+      "ref": "translate-the-coach",
+      "rule": "20 correct answers",
+      "title": {
+        "uk": "Перекладач тренера 20",
+        "en": "Coach translator 20"
+      }
+    },
+    {
+      "id": "referees-call-20",
+      "kind": "practice",
+      "ref": "referees-call",
+      "rule": "20 correct answers",
+      "title": {
+        "uk": "Рішення судді 20",
+        "en": "Referee's call 20"
+      }
+    },
+    {
+      "id": "terms-50",
+      "kind": "practice",
+      "ref": "term-cards",
+      "rule": "50 terms learnt",
+      "title": {
+        "uk": "50 термінів",
+        "en": "50 terms"
+      }
+    },
+    {
+      "id": "rules-exam-sporting",
+      "kind": "practice",
+      "ref": "rules-exam",
+      "rule": "rules exam Sporting™ passed with 80 %",
+      "title": {
+        "uk": "Іспит з правил Sporting™",
+        "en": "Rules exam Sporting™"
+      }
+    },
+    {
+      "id": "rules-exam-compak",
+      "kind": "practice",
+      "ref": "rules-exam",
+      "rule": "rules exam Compak® Sporting passed with 80 %",
+      "title": {
+        "uk": "Іспит з правил Compak® Sporting",
+        "en": "Rules exam Compak® Sporting"
+      }
+    },
+    {
+      "id": "first",
+      "kind": "misc",
+      "ref": null,
+      "rule": "first lesson done",
+      "title": {
+        "uk": "Перший урок",
+        "en": "First lesson"
+      }
+    },
+    {
+      "id": "returning",
+      "kind": "misc",
+      "ref": null,
+      "rule": "lessons done on 3 different days",
+      "title": {
+        "uk": "Повертаюся",
+        "en": "Coming back"
+      }
+    },
+    {
+      "id": "interpreter-academy-2026",
+      "kind": "legacy",
+      "ref": "clayarena-interpreter.exam",
+      "rule": "passed the old Interpreter Academy final exam (score ≥ 80)",
+      "title": {
+        "uk": "Академія перекладача 2026",
+        "en": "Interpreter Academy 2026"
+      }
+    }
+  ]
+}

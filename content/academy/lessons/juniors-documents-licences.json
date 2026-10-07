@@ -1,0 +1,248 @@
+{
+  "id": "juniors-documents-licences",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "parent",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "juniors-documents-licences"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "national-federation",
+    "guardian-consent",
+    "sports-licence",
+    "european-firearms-pass",
+    "shotgun"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "basics.efp-validity"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "EU: Directive (EU) 2021/555 on control of the acquisition and possession of weapons — European Firearms Pass, valid up to 5 years (EUR-Lex)",
+        "uk": "ЄС: Директива (ЄС) 2021/555 про контроль за придбанням і зберіганням зброї — Європейський вогнепальний паспорт, чинний до 5 років (EUR-Lex)"
+      },
+      "url": "https://eur-lex.europa.eu/eli/dir/2021/555/oj/eng",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Documents and licences",
+    "uk": "Документи і дозволи"
+  },
+  "summary": {
+    "en": "Rules for under-age shooters differ a lot between countries. Check local law, the club's rules and the federation's requirements before a child starts {{tm:sporting}} or {{tm:compak}} or travels to a competition.",
+    "uk": "Правила для неповнолітніх стрільців дуже різняться між країнами. Перевірте місцевий закон, правила клубу й вимоги федерації, перш ніж дитина почне займатися {{tm:sporting}} чи {{tm:compak}} або поїде на змагання."
+  },
+  "body": [
+    {
+      "k": "juniors-documents-licences-p1",
+      "t": "p",
+      "en": "This lesson is not legal advice. Laws on minors and guns differ in each country and change from time to time. The reliable way is to check local law and the club's rules. If needed, ask the police authority that issues permits or the {{term:national-federation|national federation}}.",
+      "uk": "Цей урок — не юридична порада. Закони про неповнолітніх і зброю в кожній країні свої і час від часу змінюються. Надійний шлях — перевірити місцевий закон і правила клубу. За потреби зверніться до поліції, що видає дозволи, або до {{term:national-federation|національної федерації}}."
+    },
+    {
+      "k": "juniors-documents-licences-p2",
+      "t": "p",
+      "en": "You will meet different approaches. In some countries a child may shoot at a licensed ground without a permit of their own. This is allowed only under the direct supervision of a licensed adult or an instructor, with a club gun or that adult's gun. Elsewhere there are youth permits from a certain age. Owning a gun is usually possible only as an adult; until then the gun is registered to an adult.",
+      "uk": "Підходи бувають різні. У деяких країнах дитина може стріляти на ліцензованому стенді без власного дозволу. Це дозволено лише під безпосереднім наглядом дорослого з дозволом або інструктора, з клубної рушниці чи рушниці цього дорослого. Деінде є молодіжні дозволи з певного віку. Мати власну рушницю зазвичай можна лише з повноліття; до того вона записана на дорослого."
+    },
+    {
+      "k": "juniors-documents-licences-p3",
+      "t": "p",
+      "en": "Clubs usually ask for written consent from parents or guardians ({{term:guardian-consent|guardian consent}}), and sometimes also club membership, insurance and a medical certificate. Ask in advance, so that you do not have to sort it out next to the stand on the first day.",
+      "uk": "Клуби зазвичай просять {{term:guardian-consent|письмову згоду батьків або опікунів}} (guardian consent), а інколи також членство в клубі, страхування й медичну довідку. Запитайте про це заздалегідь, щоб у перший день не з’ясовувати все біля стенду."
+    },
+    {
+      "k": "juniors-documents-licences-p4",
+      "t": "p",
+      "en": "Competitions often require a {{term:sports-licence|sports licence}} from the national federation. It is not a gun permit: it shows that the shooter is a federation member and may enter its competitions. The club or the federation will tell you how to get one for a child.",
+      "uk": "Для змагань часто потрібна {{term:sports-licence|спортивна ліцензія}} національної федерації. Це не дозвіл на зброю, а підтвердження, що стрілець — член федерації і може брати участь у її змаганнях. Як оформити її на дитину, підкаже клуб або федерація."
+    },
+    {
+      "k": "juniors-documents-licences-p5",
+      "t": "p",
+      "en": "Travelling abroad with a young shooter needs extra planning. You may need parental consent for the child's travel, and the rules for minors in the destination country may differ from yours. Whether a {{term:european-firearms-pass|European Firearms Pass}} can be issued for a minor, and how the child's gun is listed in it, depends on the country where you live. Ask long before the trip; more in {{lesson:travel-gun-in-eu}}.",
+      "uk": "Поїздка з юним стрільцем за кордон потребує окремого планування. Може знадобитися згода батьків на виїзд дитини, а правила для неповнолітніх у країні призначення можуть відрізнятися від ваших. Чи можна оформити {{term:european-firearms-pass|Європейський вогнепальний паспорт}} на неповнолітнього і як записати в нього рушницю дитини, вирішує країна, де ви живете. Питайте задовго до поїздки; докладніше — {{lesson:travel-gun-in-eu}}."
+    },
+    {
+      "k": "juniors-documents-licences-p6",
+      "t": "tip",
+      "en": "Keep copies of all documents in one folder and check expiry dates before each season.",
+      "uk": "Зберігайте копії всіх документів в одній теці й перевіряйте строки дії перед кожним сезоном."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "juniors-documents-licences-kp1",
+      "en": "Laws on minors and guns differ in each country: check the local ones.",
+      "uk": "Закони про неповнолітніх і зброю різні в кожній країні — перевіряйте місцеві."
+    },
+    {
+      "k": "juniors-documents-licences-kp2",
+      "checklist": true,
+      "en": "A club usually asks for written consent from parents or guardians.",
+      "uk": "Клуб зазвичай просить письмову згоду батьків або опікунів."
+    },
+    {
+      "k": "juniors-documents-licences-kp3",
+      "en": "A federation sports licence is not a gun permit.",
+      "uk": "Спортивна ліцензія федерації — не дозвіл на зброю."
+    },
+    {
+      "k": "juniors-documents-licences-kp4",
+      "checklist": true,
+      "en": "Plan trips abroad with a child well ahead, and keep copies of all documents.",
+      "uk": "Поїздки за кордон із дитиною плануйте задовго, а копії документів тримайте разом."
+    }
+  ],
+  "did_you_know": {
+    "k": "juniors-documents-licences-dyk",
+    "en": "The European Firearms Pass is issued by the country where the owner lives (an EU country, or Switzerland, Norway, Iceland or Liechtenstein) and lists the guns they may travel with. It is valid for {{fact:basics.efp-validity}}.",
+    "uk": "Європейський вогнепальний паспорт видає країна, де живе власник (країна ЄС, Швейцарія, Норвегія, Ісландія чи Ліхтенштейн), і в ньому перелічено рушниці, з якими він може подорожувати. Паспорт чинний {{fact:basics.efp-validity}}."
+  },
+  "quiz": [
+    {
+      "k": "juniors-documents-licences-q1",
+      "q": {
+        "en": "Where do you find the exact rules for under-age shooters?",
+        "uk": "Де шукати точні правила для неповнолітніх стрільців?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In local law and the club's rules",
+          "uk": "У місцевому законі і правилах клубу"
+        },
+        {
+          "k": "b",
+          "en": "On any shooting forum online",
+          "uk": "На будь-якому стрілецькому форумі"
+        },
+        {
+          "k": "c",
+          "en": "Nowhere: they are the same worldwide",
+          "uk": "Ніде: вони однакові в усьому світі"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Rules differ between countries, so the sources are local law, the club and the federation.",
+        "uk": "Правила різняться між країнами, тож джерела — місцевий закон, клуб і федерація."
+      }
+    },
+    {
+      "k": "juniors-documents-licences-q2",
+      "q": {
+        "en": "What is a federation sports licence?",
+        "uk": "Що таке спортивна ліцензія федерації?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A permit to buy and keep a gun",
+          "uk": "Дозвіл купувати й зберігати рушницю"
+        },
+        {
+          "k": "b",
+          "en": "Proof of membership for its events",
+          "uk": "Підтвердження членства для участі в змаганнях"
+        },
+        {
+          "k": "c",
+          "en": "A referee's card for competitions",
+          "uk": "Посвідчення судді змагань"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A sports licence is about entering competitions, not about the right to own a gun.",
+        "uk": "Спортивна ліцензія стосується участі в змаганнях, а не права на зброю."
+      }
+    },
+    {
+      "k": "juniors-documents-licences-q3",
+      "q": {
+        "en": "What does a club usually ask for when a child joins?",
+        "uk": "Що зазвичай просить клуб, коли записується дитина?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing: children just come along",
+          "uk": "Нічого: діти просто приходять"
+        },
+        {
+          "k": "b",
+          "en": "The child's own registered gun",
+          "uk": "Власну зареєстровану рушницю дитини"
+        },
+        {
+          "k": "c",
+          "en": "Written consent from the parents",
+          "uk": "Письмову згоду батьків або опікунів"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Parental consent is a usual club requirement; sometimes insurance and a medical certificate are added.",
+        "uk": "Згода батьків — звична вимога клубів; інколи додають страхування й медичну довідку."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "cd854bac",
+    "summary": "8a8f79bf",
+    "juniors-documents-licences-p1": "f8580ccf",
+    "juniors-documents-licences-p2": "943e8dc4",
+    "juniors-documents-licences-p3": "51b248ab",
+    "juniors-documents-licences-p4": "86186609",
+    "juniors-documents-licences-p5": "d75117f4",
+    "juniors-documents-licences-p6": "7b9b6c12",
+    "juniors-documents-licences-kp1": "b5699e8f",
+    "juniors-documents-licences-kp2": "c94c79a3",
+    "juniors-documents-licences-kp3": "998cb20b",
+    "juniors-documents-licences-kp4": "fb10a1bd",
+    "juniors-documents-licences-dyk": "b954aed2",
+    "juniors-documents-licences-q1": "63a515d5",
+    "juniors-documents-licences-q2": "35b43c6f",
+    "juniors-documents-licences-q3": "f2dee7b3"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

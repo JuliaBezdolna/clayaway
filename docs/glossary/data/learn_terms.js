@@ -1,7 +1,7 @@
 /* ClayArena glossary entries beyond the FITASC rules: terms from ClayArena Academy and Interpreter Academy lessons.
    One store for all projects; translations of every term live in i18n/<lang>.js. */
 window.GLOSSARY_LEARN = {
- "version": "2026-10-06",
+ "version": "2026-10-07",
  "terms": [
   {
    "id": "hull",
@@ -203,11 +203,11 @@ window.GLOSSARY_LEARN = {
     "Load"
    ],
    "cat": "Ammunition",
-   "short_uk": "Навіска: маса дробу в патроні; FITASC дозволяє до 28 г свинцю з допуском +2 %.",
+   "short_uk": "Наважка: маса дробу в патроні; FITASC дозволяє до 28 г свинцю з допуском +2 %.",
    "short_en": "The weight of shot in a cartridge; FITASC allows up to 28 g of lead, with a +2% tolerance.",
-   "long_uk": "Навіску вказують на коробці в грамах, а в Британії та США часто в унціях (1 унція — приблизно 28 г). Правила FITASC для Sporting™ і Compak® Sporting обмежують навіску 28 г свинцевого дробу з допуском +2 %. Найпоширеніші стендові навіски — 24 і 28 г; для тренувань, юніорів і новачків часто беруть 21–24 г. Важча навіска дає більше дробин у хмарі, але й сильнішу віддачу, яка за день із 100–200 пострілами помітно втомлює. Суддя може перевірити набої стрільця; у Compak® Sporting постріли невідповідними набоями до перевірки зараховують як zero.",
+   "long_uk": "Наважку вказують на коробці в грамах, а в Британії та США часто в унціях (1 унція — приблизно 28 г). Правила FITASC для Sporting™ і Compak® Sporting обмежують наважку 28 г свинцевого дробу з допуском +2 %. Найпоширеніші стендові наважки — 24 і 28 г; для тренувань, юніорів і новачків часто беруть 21–24 г. Важча наважка дає більше дробин у хмарі, але й сильнішу віддачу, яка за день із 100–200 пострілами помітно втомлює. Суддя може перевірити набої стрільця; у Compak® Sporting постріли невідповідними набоями до перевірки зараховують як zero.",
    "long_en": "The load is printed on the box in grams, and in Britain and the USA often in ounces (1 oz is about 28 g). The FITASC rules for Sporting™ and Compak® Sporting limit the load to 28 g of lead shot with a +2% tolerance. The most common clay loads are 24 and 28 g; 21–24 g is popular for practice, juniors and beginners. A heavier load puts more pellets in the cloud but also kicks harder, which over a day of 100–200 shots is tiring. The referee may check a shooter's cartridges; in Compak® Sporting, shots fired with non-compliant cartridges before the check count as zero.",
-   "uk_usage": "«навіска», «24-ка», «28-ка»",
+   "uk_usage": "«наважка», «24-ка», «28-ка»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -283,9 +283,9 @@ window.GLOSSARY_LEARN = {
     "Kick"
    ],
    "cat": "Ammunition",
-   "short_uk": "Віддача: поштовх рушниці в плече під час пострілу; залежить від навіски, швидкості, ваги й підгонки рушниці.",
+   "short_uk": "Віддача: поштовх рушниці в плече під час пострілу; залежить від наважки, швидкості, ваги й підгонки рушниці.",
    "short_en": "The push of the gun into the shoulder on firing; it depends on load, velocity, gun weight and fit.",
-   "long_uk": "Віддача сильніша, коли навіска важча, а швидкість дробу вища, і слабша, коли рушниця важча. Газовий напівавтомат розтягує поштовх у часі, тому відчувається м’якше. Не менше важать підгонка рушниці та правильна вкладка: рушниця, яка щільно сидить у «кишені» плеча, б’є значно менше, ніж та, що спирається на руку чи кістку. Надмірна віддача втомлює й поступово привчає смикатися перед пострілом (flinch). Тому легші набої на тренуваннях, хороший затильник і наплічник на жилеті — розумний вибір, а не слабкість.",
+   "long_uk": "Віддача сильніша, коли наважка важча, а швидкість дробу вища, і слабша, коли рушниця важча. Газовий напівавтомат розтягує поштовх у часі, тому відчувається м’якше. Не менше важать підгонка рушниці та правильна вкладка: рушниця, яка щільно сидить у «кишені» плеча, б’є значно менше, ніж та, що спирається на руку чи кістку. Надмірна віддача втомлює й поступово привчає смикатися перед пострілом (flinch). Тому легші набої на тренуваннях, хороший затильник і наплічник на жилеті — розумний вибір, а не слабкість.",
    "long_en": "Recoil is stronger with a heavier load and higher shot velocity, and weaker with a heavier gun. A gas-operated semi-automatic spreads the push over time, so it feels softer. Gun fit and a correct mount matter just as much: a gun that sits firmly in the pocket of the shoulder kicks far less than one resting on the arm or on bone. Heavy recoil is tiring and gradually teaches a flinch before the shot. So lighter cartridges in practice, a good recoil pad and a shoulder pad on the vest are a sensible choice, not a weakness.",
    "uk_usage": "«віддача»; кажуть «б’є в плече»",
    "rule_refs": [],
@@ -315,7 +315,7 @@ window.GLOSSARY_LEARN = {
    "cat": "Ammunition",
    "short_uk": "Свинцевий дріб: традиційний, важкий і м’який; правила FITASC написано саме для нього, але багато країн і стендів його обмежують.",
    "short_en": "Traditional heavy, soft shot; the FITASC rules are written for it, but many countries and grounds restrict it.",
-   "long_uk": "Свинець важкий, тому дробина довго зберігає швидкість, а набої дають рівний осип. Правила FITASC для Sporting™ і Compak® Sporting описують саме свинцевий дріб: навіска до 28 г (+2 %), кулясті дробини 2,0–2,5 мм. Водночас свинець токсичний для довкілля, особливо для водойм і водоплавних птахів. У ЄС із 2023 року заборонено стріляти свинцевим дробом у водно-болотних угіддях і ближче ніж 100 м від них, а окремі країни й стенди мають суворіші правила. Закони змінюються, тож перед поїздкою перевіряйте місцеве законодавство й правила стенду.",
+   "long_uk": "Свинець важкий, тому дробина довго зберігає швидкість, а набої дають рівний осип. Правила FITASC для Sporting™ і Compak® Sporting описують саме свинцевий дріб: наважка до 28 г (+2 %), кулясті дробини 2,0–2,5 мм. Водночас свинець токсичний для довкілля, особливо для водойм і водоплавних птахів. У ЄС із 2023 року заборонено стріляти свинцевим дробом у водно-болотних угіддях і ближче ніж 100 м від них, а окремі країни й стенди мають суворіші правила. Закони змінюються, тож перед поїздкою перевіряйте місцеве законодавство й правила стенду.",
    "long_en": "Lead is heavy, so a pellet holds its speed well and cartridges give an even pattern. The FITASC rules for Sporting™ and Compak® Sporting describe lead shot: a load of up to 28 g (+2%), spherical pellets of 2.0–2.5 mm. Yet lead is toxic to the environment, especially to water and waterfowl. In the EU, since 2023 it has been forbidden to shoot lead shot in wetlands and within 100 m of them, and some countries and grounds have stricter rules. Laws change, so before travelling check local law and the ground's rules.",
    "uk_usage": "«свинець», «свинцевий дріб»",
    "rule_refs": [
@@ -406,9 +406,9 @@ window.GLOSSARY_LEARN = {
     "Low-recoil load"
    ],
    "cat": "Ammunition",
-   "short_uk": "Набій із легшою навіскою і м’якшою віддачею; добре підходить дітям і новачкам.",
+   "short_uk": "Набій із легшою наважкою і м’якшою віддачею; добре підходить дітям і новачкам.",
    "short_en": "A cartridge with a lighter load and softer recoil; well suited to children and beginners.",
-   "long_uk": "Такі набої мають меншу навіску (часто 21–24 г для 12 калібру) і помірну швидкість, тому штовхають у плече помітно м’якше. Для юного стрільця чи новачка це важливо: сильна віддача швидко втомлює, а страх перед нею формує звичку смикатися перед пострілом. На близьких і середніх мішенях легкий набій розбиває їх цілком надійно. Чи зможе напівавтомат стабільно перезаряджатися слабким набоєм, залежить від моделі, тож це варто перевірити на тренуванні. Обирати навіску краще разом із тренером.",
+   "long_uk": "Такі набої мають меншу наважку (часто 21–24 г для 12 калібру) і помірну швидкість, тому штовхають у плече помітно м’якше. Для юного стрільця чи новачка це важливо: сильна віддача швидко втомлює, а страх перед нею формує звичку смикатися перед пострілом. На близьких і середніх мішенях легкий набій розбиває їх цілком надійно. Чи зможе напівавтомат стабільно перезаряджатися слабким набоєм, залежить від моделі, тож це варто перевірити на тренуванні. Обирати наважку краще разом із тренером.",
    "long_en": "These cartridges have a lighter load (often 21–24 g in 12 gauge) and moderate velocity, so they push into the shoulder noticeably more softly. For a young shooter or a beginner this matters: heavy recoil quickly tires them, and fear of it builds a habit of flinching before the shot. On close and medium targets a light load breaks clays quite reliably. Whether a semi-automatic cycles reliably with light loads depends on the model, so test it in practice. Choose the load together with a coach.",
    "uk_usage": "«легкі набої», «слабкі набої»",
    "rule_refs": [],
@@ -1372,7 +1372,7 @@ window.GLOSSARY_LEARN = {
    "cat": "Gun",
    "short_uk": "Відведення приклада вбік: cast off — вправо для праворуких, cast on — вліво для ліворуких.",
    "short_en": "A sideways bend of the stock: cast off (to the right) for right-handers, cast on (to the left) for left-handers.",
-   "long_uk": "Відведення — це невеликий вигин або зсув приклада вбік, щоб головне око опинялося точно над планкою, коли щока лежить на гребені. Для праворукого стрільця приклад відводять вправо (cast off), для ліворукого — вліво (cast on). Зазвичай ідеться лише про кілька міліметрів, а у п’ятки й носка приклада відведення може бути різним. Регульовані приклади дозволяють змінювати його без майстра. Потрібне відведення залежить від будови обличчя й провідного ока, тому його визначають під час підгонки.",
+   "long_uk": "Відведення — це невеликий вигин або зсув приклада вбік, щоб провідне око опинялося точно над планкою, коли щока лежить на гребені. Для праворукого стрільця приклад відводять вправо (cast off), для ліворукого — вліво (cast on). Зазвичай ідеться лише про кілька міліметрів, а у п’ятки й носка приклада відведення може бути різним. Регульовані приклади дозволяють змінювати його без майстра. Потрібне відведення залежить від будови обличчя й провідного ока, тому його визначають під час підгонки.",
    "long_en": "Cast is a slight bend or offset of the stock to the side, so that the master eye sits exactly above the rib when the cheek is on the comb. For a right-handed shooter the stock is bent to the right (cast off), for a left-hander to the left (cast on). Usually it is only a few millimetres, and it can differ at the heel and toe of the stock. Adjustable stocks let you change it without a craftsman. The cast needed depends on face shape and eye dominance, so it is set during fitting.",
    "uk_usage": "«відведення», «відвід приклада»",
    "rule_refs": [],
@@ -1533,10 +1533,10 @@ window.GLOSSARY_LEARN = {
     "110 mm"
    ],
    "cat": "Targets",
-   "short_uk": "Звичайна куполоподібна мішень діаметром близько 110 мм, найпоширеніша в стендовій стрільбі.",
-   "short_en": "The ordinary dome-shaped target, about 110 mm across, the most common clay.",
-   "long_uk": "Стандартна мішень — куполоподібний диск діаметром приблизно 110 мм. Вона відносно важка, тому довго тримає швидкість і лінію польоту, і її поведінку найлегше передбачити. Саме з нею зазвичай починають новачки. У Sporting™ і Compak® Sporting стандарт поєднують з особливими мішенями: midi, mini, battue, rabbit, rocket та іншими. Якщо машинка кидає мішень іншого розміру чи типу, ніж указано в меню, суддя оголошує No Bird.",
-   "long_en": "The standard target is a dome-shaped disc about 110 mm across. It is relatively heavy, so it holds its speed and line for a long time, and its behaviour is the easiest to predict. Beginners usually start with it. In Sporting™ and Compak® Sporting the standard is mixed with special targets: midi, mini, battue, rabbit, rocket and others. If a trap throws a target of a different size or type from the one on the menu, the referee calls No Bird.",
+   "short_uk": "Звичайна куполоподібна мішень діаметром близько 108–110 мм, найпоширеніша в стендовій стрільбі.",
+   "short_en": "The ordinary dome-shaped target, about 108–110 mm across, the most common clay.",
+   "long_uk": "Стандартна мішень — куполоподібний диск діаметром приблизно 108–110 мм. Її політ відносно легко «прочитати», тому новачки зазвичай починають саме з неї; міді діаметром 90 мм краще тримає швидкість. У Sporting™ і Compak® Sporting стандарт поєднують з особливими мішенями, як-от міді, міні, батю й кролик; у переліку Compak® Sporting названо також рокет. У Sporting™ мішень іншого кольору, розміру чи типу, ніж указано в меню, — це No Bird; у Compak® Sporting No Bird дають за мішень не того кольору.",
+   "long_en": "The standard target is a dome-shaped disc about 108–110 mm across. Its flight is relatively easy to read, so beginners usually start with it; a 90 mm midi keeps its speed better. In Sporting™ and Compak® Sporting the standard is mixed with special targets such as the midi, mini, battue and rabbit; the Compak® Sporting list also names the rocket. In Sporting™ a target of a different colour, size or type from the one on the menu is a No Bird; in Compak® Sporting a target of the wrong colour is a No Bird.",
    "uk_usage": "«стандарт», «стандартна тарілка»",
    "rule_refs": [
     {
@@ -1571,10 +1571,10 @@ window.GLOSSARY_LEARN = {
     "Rocket target"
    ],
    "cat": "Targets",
-   "short_uk": "Мішень з особливим профілем, яка довше за стандарт зберігає швидкість і лінію польоту.",
-   "short_en": "A target with a special profile that keeps its speed and line longer than a standard.",
-   "long_uk": "Rocket зовні нагадує стандартну мішень, але має інший, обтічніший профіль. Через це в повітрі вона гальмує повільніше й довше летить по прямій, тож на дальній частині траєкторії рухається швидше, ніж очікує око. Новачки часто стріляють позаду неї, бо оцінюють її як звичайну мішень. Правила Compak® Sporting прямо згадують rocket серед дозволених мішеней, а в переліку Sporting™ її окремо не названо. На практиці форма й назва залежать від виробника мішеней.",
-   "long_en": "A rocket looks like a standard target but has a different, more streamlined profile. As a result it slows down more gradually in the air and flies straight for longer, so on the far part of the trajectory it moves faster than the eye expects. Beginners often shoot behind it, judging it like an ordinary target. The Compak® Sporting rules name the rocket among permitted targets, while the Sporting™ list does not mention it separately. In practice its shape and name depend on the target maker.",
+   "short_uk": "Рокет: особлива мішень, названа в переліку мішеней Compak® Sporting; її точна форма й політ залежать від виробника.",
+   "short_en": "A special target named in the Compak® Sporting list of targets; its exact shape and flight depend on the maker.",
+   "long_uk": "Рокет — одна з особливих мішеней, яку правила Compak® Sporting називають серед дозволених; у переліку Sporting™ її окремо не названо. Спільних технічних вимог до неї немає, тож форма й те, як вона летить, залежать від виробника мішеней. Як і з будь-якою особливою мішенню, уважно подивіться на неї під час показу і не розраховуйте, що вона летить як стандарт.",
+   "long_en": "The rocket is one of the special targets that the Compak® Sporting rules name among permitted targets; the Sporting™ list does not name it separately. There is no common specification, so its shape and the way it flies depend on the target maker. As with any special target, watch it closely during the presentation and do not assume that it flies like a standard.",
    "uk_usage": "«рокет», «ракета»",
    "disciplines": {
     "sporting": "У переліку мішеней Sporting rocket окремо не названо.",
@@ -1800,15 +1800,14 @@ window.GLOSSARY_LEARN = {
    "id": "driven-target",
    "term": "Driven target",
    "aka": [
-    "Driven",
-    "Overhead"
+    "Driven"
    ],
    "cat": "Targets",
    "short_uk": "Висока мішень, що летить на стрільця й проходить над головою, як фазан на загінному полюванні.",
    "short_en": "A high target that comes towards the shooter and passes overhead, like a driven pheasant.",
    "long_uk": "Назва походить від загінного полювання, де птахів виганяють на лінію стрільців. Мішень летить на вас високо й проходить над головою. Щоб розбити її, стволи ведуть знизу вгору через мішень, а постріл роблять, коли мішень закрита стволами і рушниця виходить перед нею. Для цього потрібна стійка з вагою на передній нозі й вільний рух корпусу назад. Не нахиляйтеся надто сильно: втрата рівноваги — типова причина промаху на таких мішенях.",
    "long_en": "The name comes from driven game shooting, where birds are pushed over a line of guns. The target comes towards you high up and passes overhead. To break it, the barrels move up from below through the target, and the shot is fired when the target is covered by the barrels and the gun comes out in front of it. This needs a stance with weight on the front foot and free movement of the upper body backwards. Do not lean back too far: losing balance is a typical cause of misses on these targets.",
-   "uk_usage": "«над головою», «драйв»",
+   "uk_usage": "«мішень над головою спереду», «драйв»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -1914,9 +1913,9 @@ window.GLOSSARY_LEARN = {
    "cat": "Targets",
    "short_uk": "Мішень, що описує в повітрі дугу і змінює напрям польоту.",
    "short_en": "A target that flies an arc through the air and changes direction.",
-   "long_uk": "Looper летить широкою дугою: піднімається, перевалює через верхню точку й падає, водночас рухаючись убік. Часто для таких траєкторій використовують battue, яка в польоті розвертається і показує то ребро, то площину. Головна складність — постійна зміна напрямку й швидкості, тому стволи мають іти по кривій, а не навпростець. Багато стрільців розбивають looper біля верхньої точки, де мішень рухається найповільніше. Назви в різних країнах різні: chandelle — інша, крутіша траєкторія, а французи часто називають «chandelle» мішень, що летить майже вертикально вгору (teal). Уважно подивіться показ і виберіть одну точку пострілу.",
-   "long_en": "A looper flies a wide arc: it rises, rolls over the top and falls while moving sideways. Battue targets are often used for such trajectories, turning in flight to show first the edge and then the face. The main difficulty is the constant change of direction and speed, so the barrels must follow the curve rather than cut across it. Many shooters take a looper near the top, where it moves slowest. Names vary between countries: a chandelle is a different, steeper climb, and French speakers often say 'chandelle' for a target that goes almost straight up (a teal). Watch the presentation carefully and choose one break point.",
-   "uk_usage": "«дуга»",
+   "long_uk": "Лупер летить широкою дугою через небо, як веселка: злітає, перевалює через вершину й падає, водночас рухаючись убік. Зазвичай це стандартна мішень; дехто з постановників кидає на такій лінії й батю, і тоді вона, розвертаючись, показує площину. Головна складність — постійна зміна напрямку й швидкості, тому стволи йдуть по кривій, тримаючись попереду й нижче мішені, а не навпростець. Багато стрільців розбивають лупер біля вершини, де він рухається найповільніше. Назви в різних країнах різні: chandelle — інша, крутіша траєкторія, а франкомовні стрільці часто називають «chandelle» мішень, що летить майже вертикально вгору (teal). Уважно подивіться показ і виберіть одну точку пострілу.",
+   "long_en": "A looper flies a wide arc across the sky, like a rainbow: it climbs, rolls over the top and falls while moving sideways. It is usually a standard target; some course setters also throw a battue on such a line, and it then shows its face as it turns. The main difficulty is the constant change of direction and speed, so the barrels follow the curve, staying ahead of the target and below it, rather than cutting across it. Many shooters take a looper near the top, where it moves slowest. Names vary between countries: a chandelle is a different, steeper climb, and French speakers often say 'chandelle' for a target that goes almost straight up (a teal). Watch the presentation carefully and choose one break point.",
+   "uk_usage": "«лупер», «дуга»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -1980,8 +1979,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Technique",
    "short_uk": "Винос: відстань, на яку стрілець цілить попереду мішені, щоб дріб зустрівся з нею.",
    "short_en": "The distance the shooter points ahead of a target so that the shot meets it.",
-   "long_uk": "Поки дріб летить до мішені, вона встигає зрушити, тому рушниця в момент пострілу має бути попереду. Ця відстань і є виносом. Він залежить від швидкості мішені, відстані до неї та кута, під яким вона летить: найбільший винос потрібен на далеких поперечних мішенях, а на мішенях прямо від стрільця він майже зникає. Те, як стрілець бачить винос, суб’єктивно, тому різні люди описують його різними словами. Існує кілька методів виносу: maintained lead, pull-away і swing-through; тренер допоможе обрати свій.",
-   "long_en": "While the shot travels to the target, the target keeps moving, so at the moment of firing the gun must be in front of it. That distance is the lead. It depends on the target's speed, its distance and the angle at which it flies: long crossers need the most lead, while straight going-away targets need almost none. How a shooter perceives lead is subjective, so different people describe it differently. There are several lead methods, maintained lead, pull-away and swing-through, and a coach will help you choose yours.",
+   "long_uk": "Поки дріб летить до мішені, вона встигає зрушити, тому рушниця в момент пострілу має бути попереду. Ця відстань і є виносом. Він залежить від швидкості мішені, відстані до неї та кута, під яким вона летить: найбільший винос потрібен на далеких поперечних мішенях, а на мішенях прямо від стрільця він майже зникає. Те, як стрілець бачить винос, суб’єктивно, тому різні люди описують його різними словами. Існує кілька методів виносу: maintained lead, pull-away, swing-through і стрільба в точку (ambush); тренер допоможе обрати свій.",
+   "long_en": "While the shot travels to the target, the target keeps moving, so at the moment of firing the gun must be in front of it. That distance is the lead. It depends on the target's speed, its distance and the angle at which it flies: long crossers need the most lead, while straight going-away targets need almost none. How a shooter perceives lead is subjective, so different people describe it differently. There are several lead methods, maintained lead, pull-away, swing-through and ambush, and a coach will help you choose yours.",
    "uk_usage": "«винос», «упередження»",
    "rule_refs": [],
    "related": [
@@ -2176,11 +2175,11 @@ window.GLOSSARY_LEARN = {
     "Leading eye"
    ],
    "cat": "Technique",
-   "short_uk": "Головне (домінантне) око, яке має дивитися вздовж планки рушниці.",
+   "short_uk": "Провідне (домінантне) око, яке має дивитися вздовж планки рушниці.",
    "short_en": "The dominant eye, which should look along the gun's rib.",
-   "long_uk": "У стендовій стрільбі зазвичай стріляють із двома відкритими очима, а приціл замінює головне око. Якщо головне око збігається з плечем, до якого ви вкладаєтеся (праве око — праве плече), усе просто. Якщо ні, мозок «перемикається» на інше око, і рушниця б’є вбік. Тому на першому занятті тренер перевіряє головне око. Окуляри зі спеціальною точкою на лінзі або примружування ока допомагають, коли домінантність неповна або перехресна.",
+   "long_uk": "У стендовій стрільбі зазвичай стріляють із двома відкритими очима, а приціл замінює провідне око. Якщо провідне око збігається з плечем, до якого ви вкладаєтеся (праве око — праве плече), усе просто. Якщо ні, мозок «перемикається» на інше око, і рушниця б’є вбік. Тому на першому занятті тренер перевіряє провідне око. Окуляри зі спеціальною точкою на лінзі або примружування ока допомагають, коли домінантність неповна або перехресна.",
    "long_en": "In clay shooting you usually shoot with both eyes open, and the master eye takes the place of a sight. If the master eye matches the shoulder you mount on (right eye, right shoulder), things are simple. If not, the brain switches to the other eye and the gun shoots to the side. That is why a coach checks the master eye at the first lesson. Glasses with a small dot on the lens or closing one eye help when dominance is partial or crossed.",
-   "uk_usage": "«головне око», «ведуче око»",
+   "uk_usage": "«провідне око», «домінантне око»",
    "rule_refs": [],
    "related": [
     "eye-dominance",
@@ -2202,9 +2201,9 @@ window.GLOSSARY_LEARN = {
     "Cross-dominant"
    ],
    "cat": "Technique",
-   "short_uk": "Стан, коли головне око з протилежного боку від плеча, до якого стрілець приставляє приклад.",
+   "short_uk": "Стан, коли провідне око з протилежного боку від плеча, до якого стрілець приставляє приклад.",
    "short_en": "When the master eye is on the opposite side from the shoulder the shooter mounts the gun on.",
-   "long_uk": "Наприклад, праворукий стрілець із провідним лівим оком має перехресну домінантність. Якщо стріляти з двома відкритими очима, ліве око «перехоплює» картинку, і постріли йдуть убік. Рішень кілька: стріляти з іншого плеча, прикривати чи примружувати неголовне око в момент пострілу, наклеїти на лінзу окулярів невелику точку, а іноді використати рушницю з особливим відведенням приклада. Що обрати, залежить від віку, ступеня домінантності й звичок, тому вирішують разом із тренером. Дітям часто радять перевчитися на інше плече, поки звички ще не закріпилися.",
+   "long_uk": "Наприклад, праворукий стрілець із провідним лівим оком має перехресну домінантність. Якщо стріляти з двома відкритими очима, ліве око «перехоплює» картинку, і постріли йдуть убік. Рішень кілька: стріляти з іншого плеча, прикривати чи примружувати непровідне око в момент пострілу, наклеїти на лінзу окулярів невелику точку, а іноді використати рушницю з особливим відведенням приклада. Що обрати, залежить від віку, ступеня домінантності й звичок, тому вирішують разом із тренером. Дітям часто радять перевчитися на інше плече, поки звички ще не закріпилися.",
    "long_en": "For example, a right-handed shooter with a dominant left eye is cross-dominant. Shooting with both eyes open, the left eye takes over the picture and shots go to the side. There are several solutions: shoot from the other shoulder, cover or squint the non-dominant eye at the shot, put a small dot on the shooting-glasses lens, and sometimes use a gun with a special stock cast. Which to choose depends on age, the degree of dominance and habits, so decide with a coach. Children are often advised to switch shoulders while their habits are still forming.",
    "uk_usage": "«перехресне око», «перехресна домінантність»",
    "rule_refs": [],
@@ -2272,10 +2271,10 @@ window.GLOSSARY_LEARN = {
     "Sustained lead"
    ],
    "cat": "Technique",
-   "short_uk": "Метод виносу, за якого стволи весь час рухаються попереду мішені з її швидкістю.",
-   "short_en": "A lead method in which the barrels move ahead of the target at its speed throughout.",
-   "long_uk": "За методом maintained lead стрілець ставить стволи одразу попереду мішені й веде їх із тією самою швидкістю, зберігаючи потрібний винос, а потім стріляє. Метод добре працює на далеких і передбачуваних мішенях, бо дає час «прочитати» винос. Складність у тому, що око має стежити за мішенню, а не за стволами, інакше рух зупиняється. Новачкам цей метод іноді здається простим, але він вимагає доброго відчуття швидкості. Тренер підкаже, на яких мішенях він вам підходить.",
-   "long_en": "With maintained lead the shooter places the barrels in front of the target straight away and moves them at the same speed, keeping the required lead, then fires. It works well on long, predictable targets because it gives time to read the lead. The difficulty is that the eye must stay on the target, not on the barrels, or the movement stops. Beginners sometimes find it simple, but it requires a good feel for speed. A coach will suggest which targets it suits you on.",
+   "short_uk": "Метод виносу, за якого стволи тримаються попереду мішені, а в момент пострілу рухаються з її швидкістю, зберігаючи проміжок.",
+   "short_en": "A lead method in which the barrels stay ahead of the target and, at the shot, move at its speed, keeping the gap.",
+   "long_uk": "За методом maintained lead стволи виходять на лінію мішені попереду неї, а не позаду. Спершу вони рухаються трохи повільніше за мішень, і вона наздоганяє їх, доки проміжок не стане потрібним; далі стволи рухаються з її швидкістю, проміжок не змінюється, і постріл роблять, поки рушниця ще в русі. Метод часто пасує далеким і передбачуваним мішеням, як-от далеким поперечним, бо дає час «прочитати» винос. Типова помилка — вимірювати проміжок: погляд переходить на стволи, і рушниця сповільнюється або зупиняється. Цей метод часто вважають найважчим для засвоєння, тож запитайте тренера, на яких мішенях він вам підходить.",
+   "long_en": "With maintained lead the muzzles join the target's line in front of it, not behind. At first they move a little slower than the target, so it closes up until the gap looks right; then the barrels move at the target's speed, the gap stays the same, and the shot is fired while the gun is still moving. It often suits long, predictable targets, such as long crossers, because it gives time to read the lead. Its typical fault is measuring the gap: the eye drifts to the barrels and the gun slows or stops. It is often described as the hardest method to learn, so ask a coach which targets it suits you on.",
    "uk_usage": "«постійний винос»",
    "rule_refs": [],
    "related": [
@@ -2346,7 +2345,7 @@ window.GLOSSARY_LEARN = {
    "short_en": "Keeping the gun moving along the target's line after the shot.",
    "long_uk": "Постріл — це не кінець руху. Якщо рушниця зупиняється в момент натискання на спуск, дріб іде позаду мішені, навіть коли винос правильний. Тому стволи продовжують рухатися вздовж лінії мішені ще якусь мить після пострілу, а щока лишається на прикладі. Хороше продовження руху також допомагає точно зробити другий постріл. Тренери часто просять подивитися, як розлітаються уламки, не відриваючи щоки: це ознака, що рух не перервано.",
    "long_en": "The shot is not the end of the movement. If the gun stops as the trigger is pulled, the shot goes behind the target even when the lead is right. So the barrels keep moving along the target's line for a moment after the shot, and the cheek stays on the stock. A good follow-through also helps with an accurate second shot. Coaches often ask you to watch the pieces fly without lifting the cheek: a sign that the movement was not interrupted.",
-   "uk_usage": "«проводка», «продовження руху»",
+   "uk_usage": "«продовження руху»",
    "rule_refs": [],
    "related": [
     "stopping-the-gun",
@@ -2501,8 +2500,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Training",
    "short_uk": "Розминка перед стрільбою: рух і кілька простих мішеней.",
    "short_en": "Preparation before shooting: movement and a few easy targets.",
-   "long_uk": "Розминка готує тіло й очі до стрільби. Кілька хвилин руху для шиї, плечей, спини й стегон зменшують ризик травми й роблять рух рушниці плавнішим. Якщо дозволяє стенд, починайте тренування з кількох простих мішеней, щоб відчути ритм і впевненість, і лише потім переходьте до складних. Перед змаганнями правила залежать від дисципліни. У Sporting™ тренуватися на змагальних layout заборонено, тож розминаються на інших майданчиках. У Compak® Sporting тренуватися на змагальних траєкторіях можна, але з іншими таблицями налаштування; на чемпіонатах континенту й світу офіційне тренування відкривається лише в суботу перед стартом. Вкладки без пострілу роблять лише там, де це дозволено, з розрядженою перевіреною рушницею.",
-   "long_en": "A warm-up prepares the body and eyes for shooting. A few minutes of movement for the neck, shoulders, back and hips lower the risk of injury and make the gun movement smoother. If the ground allows, start a session with a few easy targets to find rhythm and confidence before moving on to hard ones. Before an event the rules depend on the discipline. In Sporting™ nobody may practise on the competition layouts, so warm up on other ranges. In Compak® Sporting practice on the competition trajectories is allowed, but with different trajectory setting tables; at continental and world championships official practice opens only on the Saturday before. Do dry mounts only where this is allowed, with an unloaded, checked gun.",
+   "long_uk": "Розминка «розбуджує» тіло й очі перед стрільбою. Багато тренерів радять приблизно 10–15 хвилин легких динамічних рухів для шиї, плечей, спини, стегон і щиколоток, щоб рушниця рухалася плавніше; досліджень розминки саме в стендовій стрільбі мало, тож ці поради спираються на досвід тренерів. Якщо дозволяє стенд, тренування можна почати з кількох простих мішеней, щоб відчути ритм, і лише потім переходити до складних. Перед змаганнями правила залежать від дисципліни. У Sporting™ тренуватися на змагальних майданчиках заборонено, тож пристрілюються на інших. У Compak® Sporting тренуватися на змагальних траєкторіях можна, але з іншими таблицями налаштування траєкторій; на чемпіонатах континенту й світу офіційне тренування відкривається лише в суботу перед стартом. На змаганнях багато тренерів радять розминатися без рушниці; вкладці без пострілу місце вдома або на тренуванні, там, де це дозволено.",
+   "long_en": "A warm-up wakes the body and eyes up for shooting. Many coaches suggest about 10–15 minutes of light, dynamic movement for the neck, shoulders, back, hips and ankles, so the gun moves more smoothly; there is little research on warm-ups in clay shooting, so this advice comes from coaches' experience. If the ground allows, you can start a session with a few easy targets to find your rhythm before moving on to hard ones. Before an event the rules depend on the discipline. In Sporting™ nobody may practise on the competition layouts, so warm-up shooting is done on other layouts. In Compak® Sporting practice on the competition trajectories is allowed, but with different trajectory setting tables; at continental and world championships official practice opens only on the Saturday before. At a competition many coaches suggest warming up without the gun; dry mounting belongs at home or in training, where it is allowed.",
    "uk_usage": "«розминка»",
    "rule_refs": [
     {
@@ -2543,15 +2542,15 @@ window.GLOSSARY_LEARN = {
    "cat": "Training",
    "short_uk": "Відпрацювання вкладки без пострілу з розрядженою перевіреною рушницею там, де це дозволяє закон.",
    "short_en": "Practising the mount without firing, with an unloaded, checked gun, where the law allows.",
-   "long_uk": "Вкладка без пострілу — один із найкорисніших способів тренуватися вдома: кілька хвилин щодня роблять рух стабільним. Перед початком переконайтеся, що рушниця розряджена, а набоїв у кімнаті немає, і тримайте дуло в безпечному напрямку. Багато стрільців використовують навчальні набої-заглушки (snap caps), щоб берегти механізм під час клацання спуском. На стрільбищі правила суворіші: імітація стрільби поза стрілецьким місцем заборонена, а в Sporting™ вкладка з проведенням по уявній лінії мішені перед викликом карається попередженням. Перевірте місцевий закон щодо поводження зі зброєю вдома.",
-   "long_en": "Dry mounting is one of the most useful ways to train at home: a few minutes a day make the movement consistent. Before starting, make sure the gun is unloaded and there are no cartridges in the room, and keep the muzzle pointed in a safe direction. Many shooters use snap caps to protect the mechanism when dry firing. On the range the rules are stricter: mock shooting away from the shooting position is forbidden, and in Sporting™ mounting and swinging along the imagined line of a target before calling earns a warning. Check local law on handling guns at home.",
+   "long_uk": "Вкладка без пострілу — це відпрацювання вкладки з розрядженою перевіреною рушницею, без пострілу. Багато тренерів радять кілька хвилин удома, там, де це дозволяє закон, щоб рух став звичним. Перед початком переконайтеся, що рушниця розряджена, а в кімнаті немає набоїв, і тримайте стволи в безпечному напрямку. Якщо натискаєте на спуск порожньої рушниці, користуйтеся навчальними патронами (snap caps), щоб берегти бойки, як радить тренер чи зброяр. На стенді правила залежать від дисципліни. У Sporting™ імітація стрільби (вкладка й рух рушниці по лінії мішені) під час змагань заборонена будь-де на стенді. У Compak® Sporting вона заборонена поза номерами і тоді, коли стріляє інший учасник групи. Перевірте місцевий закон щодо поводження зі зброєю вдома.",
+   "long_en": "Dry mounting means practising the gun mount with an unloaded, checked gun and no shot. Many coaches suggest a few minutes at home, where the law allows it, so the movement becomes familiar. Before starting, make sure the gun is unloaded and there are no cartridges in the room, and keep the muzzles pointed in a safe direction. If you pull the trigger on an empty gun, use snap caps (dummy cartridges) to protect the firing pins, as your coach or gunsmith advises. At the ground the rules depend on the discipline. In Sporting™, mock shooting (mounting and swinging the gun along a target's line) is not allowed anywhere at the ground during a competition. In Compak® Sporting it is not allowed away from the shooting positions or while another member of the squad is shooting. Check local law on handling guns at home.",
    "uk_usage": "«вкладка без пострілу», «холості вкладки»",
    "disciplines": {
-    "sporting": "Імітація стрільби заборонена на стрільбищі й поза ним; перед викликом — попередження, повтор карається.",
-    "compak": "Імітація стрільби заборонена поза стрілецькими місцями й під час стрільби іншого учасника групи."
+    "sporting": "Імітація стрільби заборонена будь-де на стенді: спершу попередження, далі кожен повтор — zero на наступній влученій мішені.",
+    "compak": "Імітація стрільби заборонена поза номерами й під час стрільби іншого учасника групи."
    },
    "disciplines_en": {
-    "sporting": "Mock shooting is forbidden on and off the ranges; a warning before the call, repeats penalised.",
+    "sporting": "Mock shooting is not allowed anywhere at the ground: a warning first, then each repeat scores zero on the next target hit.",
     "compak": "Mock shooting is forbidden outside the shooting positions and while a squad member is shooting."
    },
    "rule_refs": [
@@ -2613,7 +2612,7 @@ window.GLOSSARY_LEARN = {
    "cat": "Training",
    "short_uk": "Тренер, який навчає стрільця техніки, безпеки й підготовки до змагань.",
    "short_en": "A trainer who teaches a shooter technique, safety and competition preparation.",
-   "long_uk": "Тренер ставить безпечні звички з першого заняття, перевіряє головне око, ставить стійку й вкладку, допомагає з вибором рушниці й набоїв і будує план тренувань. Бачити помилки збоку набагато легше, тому навіть досвідчені стрільці працюють із тренером. На змаганнях FITASC тренувати учасника під час стрільби заборонено: за це учасник отримує жовту картку, а того, хто підказує, суддя видаляє із зони стрільби. Довідник тренерів на ClayArena допомагає знайти тренера за дисципліною, а тури ClayAway (готуються до запуску) дадуть змогу тренуватися з тренером у поїздці. Перевіряйте кваліфікацію й рекомендації тренера.",
+   "long_uk": "Тренер ставить безпечні звички з першого заняття, перевіряє провідне око, ставить стійку й вкладку, допомагає з вибором рушниці й набоїв і будує план тренувань. Бачити помилки збоку набагато легше, тому навіть досвідчені стрільці працюють із тренером. На змаганнях FITASC тренувати учасника під час стрільби заборонено: за це учасник отримує жовту картку, а того, хто підказує, суддя видаляє із зони стрільби. Довідник тренерів на ClayArena допомагає знайти тренера за дисципліною, а тури ClayAway (готуються до запуску) дадуть змогу тренуватися з тренером у поїздці. Перевіряйте кваліфікацію й рекомендації тренера.",
    "long_en": "A coach builds safe habits from the first lesson, checks the master eye, sets up the stance and mount, helps choose a gun and cartridges, and plans the training. Mistakes are much easier to see from outside, so even experienced shooters work with a coach. In FITASC competitions coaching a competitor during the shooting is forbidden: the competitor gets a yellow card, and the referee sends the person coaching out of the shooting area. The ClayArena coach directory helps you find a coach by discipline, and ClayAway tours (in preparation) will let you train with a coach while travelling. Check a coach's qualifications and references.",
    "uk_usage": "«тренер», «інструктор»",
    "rule_refs": [
@@ -3504,9 +3503,9 @@ window.GLOSSARY_LEARN = {
    "cat": "ClayArena",
    "short_uk": "Сторінка стрільця на ClayArena з його виступами та основними показниками.",
    "short_en": "A shooter's page on ClayArena with their competitions and key figures.",
-   "long_uk": "Профіль стрільця збирає змагання Sporting™ і Compak® Sporting, результати яких є на ClayArena, і показує основні цифри, як-от влучність і найкращий результат. До профілю можна перейти з таблиці результатів змагання або знайти його пошуком за ім’ям. Імена на сайті написані латиницею так, як у документах змагань, тож якщо прізвище транслітерують по-різному, спробуйте кілька варіантів. Дані надходять із протоколів змагань, тому перевіряйте свій протокол ще на стенді: у профілі буде те, що записав суддя. Профіль зручно використовувати, щоб порівнювати себе із собою протягом сезону.",
-   "long_en": "A shooter profile brings together the Sporting™ and Compak® Sporting competitions whose results are on ClayArena and shows key figures such as accuracy and best score. You can reach it from a competition's results table or find it by searching for the name. Names on the site are written in Latin letters as in the competition documents, so if a surname can be transliterated in different ways, try several spellings. The data come from competition score sheets, so check your score sheet while you are still on the ground: the profile will show what the referee wrote. A profile is useful for comparing yourself with yourself over a season.",
-   "uk_usage": "«профіль», «профіль стрільця»",
+   "long_uk": "Профіль стрільця збирає змагання Sporting™ і Compak® Sporting, результати яких є на ClayArena, і показує основні цифри, як-от влучність і найкращий результат. До профілю можна перейти з таблиці результатів змагання або знайти його пошуком за ім’ям. Імена записано так, як у документах змагань: на міжнародних змаганнях зазвичай латиницею, а на національних може бути місцева абетка, наприклад кирилиця на українських змаганнях. Якщо не можете себе знайти, спробуйте місцеве написання і різні варіанти латиницею. Дані надходять із протоколів змагань, тому перевіряйте свій протокол ще на стенді: у профілі буде те, що записав суддя. Профіль зручно використовувати, щоб порівнювати себе із собою протягом сезону.",
+   "long_en": "A shooter profile brings together the Sporting™ and Compak® Sporting competitions whose results are on ClayArena and shows key figures such as accuracy and best score. You can reach it from a competition's results table or find it by searching for the name. Names are written as in the competition documents: international events usually use Latin letters, while national events may use the local alphabet, for example Cyrillic letters at Ukrainian events. If you cannot find yourself, try the local spelling and different Latin spellings of your name. The data come from competition score sheets, so check your score sheet while you are still on the ground: the profile will show what the referee wrote. A profile is useful for comparing yourself with yourself over a season.",
+   "uk_usage": "«профіль стрільця», «профіль»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -3629,11 +3628,11 @@ window.GLOSSARY_LEARN = {
     "Top ten rate"
    ],
    "cat": "ClayArena",
-   "short_uk": "Як часто стрілець фінішує серед перших десяти.",
-   "short_en": "How often a shooter finishes in the first ten.",
-   "long_uk": "Цей показник у профілі ClayArena показує, яку частку змагань стрілець закінчив у першій десятці. Він залежить не лише від результату, а й від суперників: потрапити в десятку на великому міжнародному змаганні значно важче, ніж на клубному. Тому показник варто читати разом зі списком змагань, де саме стрілець виступав. Він добре показує стабільність досвідчених стрільців, але для новачка важливіше стежити за власною влучністю.",
-   "long_en": "This figure in a ClayArena profile shows the share of competitions in which a shooter finished in the top ten. It depends not only on the score but also on the field: a top-ten finish at a big international event is much harder than at a club shoot. So read it together with the list of competitions the shooter entered. It shows the consistency of experienced shooters well, but for a beginner it is more useful to watch your own accuracy.",
-   "uk_usage": "«топ-10», «частка десяток»",
+   "short_uk": "Як часто стрілець фінішує в першій десятці своєї категорії або загального заліку.",
+   "short_en": "How often a shooter finishes in the top ten of their category or overall.",
+   "long_uk": "Цей показник у профілі ClayArena показує, яку частку змагань стрілець закінчив у першій десятці своєї категорії або загального заліку. Він залежить не лише від результату, а й від суперників: потрапити в десятку на великому міжнародному змаганні значно важче, ніж на клубному, а в малій категорії, де лише кілька стрільців, потрапити в десятку легше. Тому показник варто читати разом зі списком змагань, де саме стрілець виступав. Він добре показує стабільність досвідчених стрільців, але для новачка важливіше стежити за власною влучністю.",
+   "long_en": "This figure in a ClayArena profile shows the share of competitions in which a shooter finished in the top ten, in their category or overall. It depends not only on the score but also on the field: a top-ten finish at a big international event is much harder than at a club shoot, and a small category with only a few shooters makes the top ten easier to reach. So read it together with the list of competitions the shooter entered. It shows the consistency of experienced shooters well, but for a beginner it is more useful to watch your own accuracy.",
+   "uk_usage": "«частка топ-10», «топ-10»",
    "rule_refs": [],
    "related": [
     "shooter-profile",
@@ -3790,11 +3789,11 @@ window.GLOSSARY_LEARN = {
     "European Firearm Pass"
    ],
    "cat": "Travel",
-   "short_uk": "Європейський вогнепальний паспорт: документ, який країна ЄС видає своїм мешканцям-власникам зброї для поїздок з нею до інших країн ЄС; діє до п’яти років.",
-   "short_en": "A document an EU country issues to resident gun owners for travelling with their guns to other EU countries; valid for up to five years.",
-   "long_uk": "Європейський вогнепальний паспорт (EFP) видає орган країни ЄС, де мешкає власник зброї, і він зазвичай чинний до п’яти років. У паспорт вносять конкретні рушниці, тож перед поїздкою перевірте, що рушниця, яку ви берете, там є, а строк дії не спливає в дорозі. Спортивні стрільці з EFP і документом про мету поїздки, найчастіше листом-запрошенням від організатора, зазвичай можуть узяти рушницю до іншої країни ЄС без окремого попереднього дозволу. Проте країни можуть мати власні винятки, а EFP не скасовує місцевих правил носіння, зберігання й купівлі набоїв. Мешканцям країн поза ЄС паспорт не видають; перевіряйте актуальні правила країн призначення й транзиту.",
-   "long_en": "The European Firearms Pass (EFP) is issued by an authority of the EU country where the gun owner lives and is usually valid for up to five years. Specific guns are entered in it, so before travelling check that the gun you are taking is listed and that the pass will not expire on the way. Sport shooters with an EFP and proof of the reason for the trip, most often an invitation letter from the organiser, can usually take a gun to another EU country without a separate prior permit. Countries may still have their own exceptions, and the EFP does not override local rules on carrying, storage and buying cartridges. It is not issued to residents of non-EU countries; check the current rules of destination and transit countries.",
-   "uk_usage": "«європейський паспорт на зброю», «EFP»",
+   "short_uk": "Європейський вогнепальний паспорт: документ, який країна ЄС, а також Швейцарія, Норвегія, Ісландія чи Ліхтенштейн видає власникам зброї, що там живуть, для поїздок із власними рушницями в межах цих країн; діє до п’яти років.",
+   "short_en": "A document that an EU country, or Switzerland, Norway, Iceland or Liechtenstein, issues to gun owners who live there for travelling with their own guns within this area; valid for up to five years.",
+   "long_uk": "Європейський вогнепальний паспорт (EFP) видає служба дозволів на зброю країни, де живе власник, і він зазвичай чинний до п’яти років. Окрім країн ЄС, його видають своїм мешканцям також Швейцарія, Норвегія, Ісландія та Ліхтенштейн, які застосовують ті самі правила ЄС щодо зброї; мешканці інших країн отримати його не можуть. У паспорт вносять конкретні рушниці, тож перед поїздкою перевірте, що рушниця, яку ви берете, там є, а строк дії не спливає в дорозі. Спортивні стрільці з EFP і документом про мету поїздки, найчастіше листом-запрошенням від організатора, зазвичай можуть узяти свою рушницю до іншої з цих країн без окремого попереднього дозволу. Проте країни можуть мати власні винятки, а EFP не скасовує місцевих правил носіння, зберігання й купівлі набоїв; перевіряйте актуальні правила країн призначення й транзиту.",
+   "long_en": "The European Firearms Pass (EFP) is issued by the office that handles gun permits in the country where the owner lives, and it is usually valid for up to five years. Besides the EU countries, Switzerland, Norway, Iceland and Liechtenstein, which apply the same EU firearms rules, also issue it to the people who live there; residents of other countries cannot get one. Specific guns are entered in it, so before travelling check that the gun you are taking is listed and that the pass will not expire on the way. Sport shooters with an EFP and proof of the reason for the trip, most often an invitation letter from the organiser, can usually take their gun to another of these countries without a separate prior permit. Countries may still have their own exceptions, and the EFP does not override local rules on carrying, storage and buying cartridges; check the current rules of destination and transit countries.",
+   "uk_usage": "«Європейський вогнепальний паспорт», «EFP»",
    "rule_refs": [],
    "related": [
     "invitation-letter",
@@ -3816,10 +3815,10 @@ window.GLOSSARY_LEARN = {
    "term": "Jet lag",
    "aka": [],
    "cat": "Travel",
-   "short_uk": "Збій режиму сну і бадьорості після перельоту через кілька часових поясів; зазвичай минає за кілька днів.",
-   "short_en": "Disrupted sleep and alertness after flying across several time zones; it usually passes in a few days.",
-   "long_uk": "Після перельоту через кілька часових поясів внутрішній годинник тіла не збігається з місцевим часом: удень хочеться спати, вночі важко заснути, реакція й зосередженість гірші. Для стрільби це важливо, бо точність і концентрація страждають першими. Тому на далекі змагання радять прилітати на кілька днів раніше, одразу жити за місцевим часом, більше бути на денному світлі й пити воду. У програмі туру ClayAway (готується до запуску) час подаватимуть за часовим поясом місця проведення з позначкою поясу, щоб не переплутати розклад. Рекомендації щодо сну й ліків обговорюйте з лікарем.",
-   "long_en": "After flying across several time zones the body clock does not match local time: you feel sleepy by day, find it hard to sleep at night, and reactions and focus suffer. This matters for shooting, because accuracy and concentration are the first to go. So for distant competitions it is advised to arrive a few days early, switch to local time at once, spend time in daylight and drink water. A ClayAway tour programme (in preparation) will give times in the venue's time zone with the zone shown, so you do not mix up the schedule. Discuss sleep aids or medication with a doctor.",
+   "short_uk": "Збій сну й бадьорості після швидкої подорожі через кілька часових поясів; може тривати від кількох днів до тижня й довше — приблизно день на кожен пояс після перельоту на схід.",
+   "short_en": "Disrupted sleep and alertness after a fast trip across several time zones; it can last from a few days to a week or more, roughly a day per time zone after flying east.",
+   "long_uk": "Після швидкої подорожі через щонайменше три часові пояси внутрішній годинник ще живе за домашнім часом: сон, апетит, настрій і бадьорість не збігаються з місцевим часом, доки годинник не підлаштується. Поширений орієнтир — приблизно день на кожен часовий пояс після перельоту на схід і приблизно пів дня на пояс після перельоту на захід; люди різні. Денне світло у правильний час доби — головний сигнал, що переналаштовує годинник, тож із першого дня живіть за місцевим часом, а після довгого перельоту на схід заплануйте запасний легкий день перед стрільбою на результат. Утома від самої дороги — інша річ. У програмі туру ClayAway (готується до запуску) час подаватимуть за часовим поясом місця проведення з позначкою поясу. Снодійне, мелатонін чи інші ліки обговорюйте з лікарем.",
+   "long_en": "After a fast trip across at least three time zones the body clock is still on home time: sleep, appetite, mood and alertness are out of step with local time until it catches up. A common rough guide is about one day per time zone after flying east and about half a day per zone after flying west; people differ. Daylight at the right time of day is the main signal that resets the clock, so from the first day live on local time, and after a long flight east plan a spare, easy day before shooting for score. Tiredness from the journey itself (travel fatigue) is a different thing. A ClayAway tour programme (in preparation) will give times in the venue's time zone with the zone shown. Discuss sleep aids, melatonin or other medication with a doctor.",
    "uk_usage": "«джетлаг», «зміна часових поясів»",
    "rule_refs": [],
    "related": [
@@ -3942,8 +3941,8 @@ window.GLOSSARY_LEARN = {
    "term": "Adjustable comb",
    "aka": [],
    "cat": "Equipment",
-   "short_uk": "Гребінь приклада, висоту й відведення якого можна регулювати.",
-   "short_en": "Comb whose height and cast can be adjusted.",
+   "short_uk": "Регульований гребінь приклада, який можна підняти, опустити чи зсунути вбік, щоб око дивилося точно вздовж планки.",
+   "short_en": "A stock comb that can be raised, lowered or moved sideways, so that the eye looks straight along the rib.",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -3963,7 +3962,7 @@ window.GLOSSARY_LEARN = {
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": "«пістолетне руків'я», «напівпістолетне руків'я», «шийка приклада»"
+   "uk_usage": "«пістолетне руків’я», «напівпістолетне руків’я», «шийка приклада»"
   },
   {
    "id": "trigger",
@@ -3998,13 +3997,13 @@ window.GLOSSARY_LEARN = {
     "butt pad"
    ],
    "cat": "Equipment",
-   "short_uk": "Гумовий потиличник на кінці приклада, що пом’якшує віддачу.",
-   "short_en": "Rubber pad at the end of the stock that softens recoil.",
+   "short_uk": "Затильник: гумова чи гелева накладка на задньому торці приклада, що пом’якшує віддачу; вона також змінює довжину приклада.",
+   "short_en": "A rubber or gel pad on the end of the stock that softens recoil; it also changes the length of pull.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": "«затильник», «потиличник», «амортизуючий затильник»"
+   "uk_usage": "«затильник», «амортизаційний затильник», «потиличник»"
   },
   {
    "id": "chandelle",
@@ -4113,7 +4112,7 @@ window.GLOSSARY_LEARN = {
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«точка входу»"
   },
   {
    "id": "central-vision",
@@ -4133,26 +4132,26 @@ window.GLOSSARY_LEARN = {
    "term": "Soft focus",
    "aka": [],
    "cat": "Technique",
-   "short_uk": "Розслаблений широкий фокус очей, поки вони чекають у точці підхоплення.",
-   "short_en": "Relaxed, wide focus of the eyes while waiting at the pick-up point.",
+   "short_uk": "М’який фокус: спокійний, широкий погляд у зону, де з’явиться мішень, поки очі чекають у точці підхоплення, без вдивляння в дрібниці.",
+   "short_en": "A relaxed, wide look at the area where the target will appear, held while the eyes wait at the pick-up point, without staring at details.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«м’який фокус», «soft focus»"
   },
   {
    "id": "hard-focus",
    "term": "Hard focus",
    "aka": [],
    "cat": "Technique",
-   "short_uk": "Чіткий, зосереджений фокус на самій мішені, часто — на її передньому краї.",
-   "short_en": "Sharp, intense focus on the target itself, often on its leading edge.",
+   "short_uk": "Жорсткий фокус: чіткий погляд на саму мішень, часто на її передній край, від миті, коли ви її чітко побачили, до пострілу.",
+   "short_en": "A sharp look at the target itself, often its leading edge, from the moment you see it clearly until the shot.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«жорсткий фокус», «hard focus»"
   },
   {
    "id": "leading-edge",
@@ -4165,7 +4164,7 @@ window.GLOSSARY_LEARN = {
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«передній край»"
   },
   {
    "id": "gun-speed",
@@ -4178,7 +4177,7 @@ window.GLOSSARY_LEARN = {
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«швидкість стволів»"
   },
   {
    "id": "tempo",
@@ -4198,9 +4197,9 @@ window.GLOSSARY_LEARN = {
    "term": "Waiting position",
    "aka": [],
    "cat": "Shooting rules",
-   "short_uk": "Місце, де стрілець чекає своєї черги: у Sporting™ — місце для групи біля стрілецького місця; у груповій стрільбі Compak® — місце позаду місця № 1 для шостого стрільця.",
+   "short_uk": "Місце, де стрілець чекає своєї черги: у Sporting™ — місце для групи біля стрілецького місця; у груповій стрільбі Compak® — місце позаду номера 1 для шостого стрільця.",
    "short_en": "The place where a shooter waits for their turn: in Sporting™ the squad's waiting area near the stand; in Compak® squad shooting the place behind station 1 for the sixth shooter.",
-   "long_uk": "У Parcours de Chasse – Sporting™ місця очікування — це місця, де решта групи стоїть, поки стріляє один учасник: якомога ближче до стрілецького місця, але так, щоб не заважати стрільцю й не порушувати правил безпеки. У Compak® Sporting під час стрільби групою шостий стрілець чекає позаду місця № 1. Коли стрілець на місці 5 закінчує меню, він іде чекати позаду місця № 1, усі інші переходять на одне місце праворуч, а той, хто чекав, стає на місце 1.",
+   "long_uk": "У Parcours de Chasse – Sporting™ місця очікування — це місця, де решта групи стоїть, поки стріляє один учасник: якомога ближче до стрілецького місця, але так, щоб не заважати стрільцю й не порушувати правил безпеки. У Compak® Sporting під час стрільби групою шостий стрілець чекає позаду номера 1. Коли стрілець на номері 5 закінчує меню, він іде чекати позаду номера 1, усі інші переходять на один номер праворуч, а той, хто чекав, стає на номер 1.",
    "long_en": "In Parcours de Chasse – Sporting™ the waiting positions are where the rest of the squad stands while one member shoots: as close to the shooting stand as possible, without distracting the shooter and within the safety rules. In Compak® Sporting shot by squad, the sixth shooter waits behind station 1. When the shooter on station 5 has finished the menu, he goes to wait behind station 1, everyone else moves one station to the right, and the waiting shooter steps onto station 1.",
    "related": [
     "squad",
@@ -4449,13 +4448,13 @@ window.GLOSSARY_LEARN = {
    "term": "Overhead",
    "aka": [],
    "cat": "Targets",
-   "short_uk": "Мішень, що пролітає просто над головою стрільця — ззаду або спереду.",
-   "short_en": "Target that passes directly over the shooter's head, from behind or from the front.",
-   "long_uk": "",
-   "long_en": "",
+   "short_uk": "Мішень, що пролітає над головою стрільця; зазвичай так називають мішень, яка летить ззаду й віддаляється, а мішень спереду — це мішень над головою спереду (driven).",
+   "short_en": "A target that passes over the shooter's head; the word usually means one that comes from behind and flies away, while one from the front is a driven target.",
+   "long_uk": "Мішень над головою ззаду пролітає над вашою спиною й віддаляється. Її видно пізно, тому багато тренерів радять озирнутися ще до команди. Робіть вкладку, поки вона пролітає над вами, стріляйте, коли кінці стволів доходять до її переднього краю, і продовжуйте рух рушниці після пострілу. Назви бувають різні: дехто з тренерів каже «overhead» і про мішень спереду, яку цей глосарій називає мішенню над головою спереду (driven), тож за потреби перепитайте.",
+   "long_en": "An overhead from behind comes over your back and flies away from you. It is seen late, so many coaches suggest looking back for it before you call. Bring the gun to your shoulder as it passes over, fire as the muzzles reach its front edge, and keep the gun moving after the shot. Names vary: some coaches also say 'overhead' for a target from the front, which this glossary calls a driven target, so ask when unsure.",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«мішень над головою ззаду», «overhead»"
   },
   {
    "id": "bolting-rabbit",
@@ -4540,26 +4539,26 @@ window.GLOSSARY_LEARN = {
    "term": "Interpreter",
    "aka": [],
    "cat": "Interpreting",
-   "short_uk": "Людина, що перекладає усне мовлення між тренером, суддею та стрільцями в турі й знає стрілецьку термінологію.",
-   "short_en": "A person who renders speech between the coach, referee and shooters on a tour; knows shooting terminology.",
+   "short_uk": "Перекладач: людина, яка усно перекладає між тренером, суддею й стрільцями, наприклад на тренуваннях і в програмі туру, і знає стрілецьку термінологію.",
+   "short_en": "A person who interprets between the coach, the referee and shooters, for example at training sessions and in the programme of a tour, and knows shooting terminology.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«перекладач»"
   },
   {
    "id": "chuchotage",
    "term": "Chuchotage",
    "aka": [],
    "cat": "Interpreting",
-   "short_uk": "Шепітний синхронний переклад на вухо слухачеві.",
+   "short_uk": "Шушотаж: шепітний синхронний переклад на вухо слухачеві.",
    "short_en": "Whispered simultaneous interpreting into the listener’s ear.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«шушотаж», «шепітний переклад»"
   },
   {
    "id": "consecutive-interpreting",
@@ -4594,8 +4593,8 @@ window.GLOSSARY_LEARN = {
     "Smoke ball"
    ],
    "cat": "Technique",
-   "short_uk": "Тренерський сленг: дуже точне влучання, мішень розлітається в пил; не плутати з «лише пил чи дим» у правилах — це промах (zero).",
-   "short_en": "Coach slang for a clean, centred hit that turns the clay to dust; not the rules' 'dust or smoke only', which is scored as a miss (zero).",
+   "short_uk": "Тренерський сленг: влучання, після якого мішень перетворюється на пил. За правилами мішень, яка повністю чи частково розсипалася на пил, — влучання; ціла мішень, від якої лише пил чи дим без видимого уламка, — промах (zero).",
+   "short_en": "Coach slang for a hit that turns the clay to dust. Under the rules a clay turned wholly or partly to dust is a hit; an intact clay giving off only dust or smoke, with no visible piece, is a zero.",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -4633,13 +4632,13 @@ window.GLOSSARY_LEARN = {
    "term": "English Sporting",
    "aka": [],
    "cat": "Interpreting",
-   "short_uk": "Британський різновид спортингу за правилами CPSA, зазвичай із дуплетами й дозволеним gun up.",
-   "short_en": "The British form of sporting clays under CPSA rules, usually with pairs and gun-up allowed.",
+   "short_uk": "Британський різновид спортингу, який в Англії проводить CPSA паралельно з FITASC Sporting™; має власні правила: поширені дуплети, а стрільці зазвичай починають із рушницею, уже вкладеною в плече.",
+   "short_en": "The British form of sporting, run in England by the CPSA alongside FITASC Sporting™; it has its own rules: pairs are common and shooters commonly start with the gun already mounted.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«English Sporting», «англійський спортинг»"
   },
   {
    "id": "cpsa",
@@ -4709,7 +4708,7 @@ window.GLOSSARY_LEARN = {
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«видимий винос»"
   },
   {
    "id": "ambush",
@@ -4718,13 +4717,13 @@ window.GLOSSARY_LEARN = {
     "spot shooting"
    ],
    "cat": "Technique",
-   "short_uk": "Метод, за якого стволи чекають у точці попереду мішені, а постріл лунає, коли мішень туди долітає, майже без проводки.",
-   "short_en": "Method in which the muzzles wait at a point ahead of the target and the shot is fired as the target arrives, with little or no swing.",
+   "short_uk": "Метод виносу, за якого стволи нерухомо чекають у точці попереду мішені, а на спуск натискають ще до того, як мішень туди долетить, тож вона влітає в постріл.",
+   "short_en": "A lead method in which the muzzles wait still at a point ahead of the target and the trigger is pulled before the target reaches it, so it flies into the shot.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«стрільба в точку», «ambush»"
   },
   {
    "id": "instinctive-shooting",
@@ -4737,20 +4736,20 @@ window.GLOSSARY_LEARN = {
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«інстинктивна стрільба»"
   },
   {
    "id": "national-federation",
    "term": "National federation",
    "aka": [],
    "cat": "Discipline",
-   "short_uk": "Керівний орган спорту в країні; член FITASC, затверджує національні майданчики й атестує суддів.",
-   "short_en": "A country's governing body for the sport; member of FITASC, approves national layouts and certifies referees.",
+   "short_uk": "Керівний орган спорту в країні: об’єднує клуби й стрільців, проводить національні змагання й курси суддів і представляє країну у FITASC.",
+   "short_en": "A country's governing body for the sport: it unites clubs and shooters, runs national competitions and referee courses, and represents the country in FITASC.",
    "long_uk": "",
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«національна федерація»"
   },
   {
    "id": "blazed-target",
@@ -4776,7 +4775,7 @@ window.GLOSSARY_LEARN = {
    "long_en": "",
    "related": [],
    "rule_refs": [],
-   "uk_usage": ""
+   "uk_usage": "«тло»"
   },
   {
    "id": "manual-release",
@@ -4790,6 +4789,1019 @@ window.GLOSSARY_LEARN = {
    "related": [],
    "rule_refs": [],
    "uk_usage": ""
+  },
+  {
+   "id": "anti-doping",
+   "term": "Anti-doping",
+   "aka": [
+    "Doping control"
+   ],
+   "cat": "Competition",
+   "short_uk": "Антидопінг: правила й контроль проти заборонених речовин і методів у спорті; міжнародні правила та щорічний Заборонений список видає Всесвітнє антидопінгове агентство (WADA).",
+   "short_en": "Rules and testing against prohibited substances and methods in sport; the international rules and the yearly Prohibited List come from the World Anti-Doping Agency (WADA).",
+   "long_uk": "На чемпіонатах і великих змаганнях у стрільця можуть узяти допінг-пробу. WADA щороку, зазвичай близько вересня, публікує новий Заборонений список, який діє з 1 січня. У стрільбі бета-блокатори заборонені в будь-який час. Стимулятори й THC (канабіс) заборонені під час змагань, а «змагальний» період починається о 23:59 напередодні старту. Навіть ліки, які призначив лікар, можуть бути забороненими: перевірте їх у Global DRO або в національній антидопінговій агенції і, якщо вони вам потрібні, заздалегідь подайте заявку на TUE. Добавки можуть бути забруднені, тож обирайте продукти, партії яких перевіряє незалежна лабораторія. Це не медична порада: порадьтеся з лікарем.",
+   "long_en": "At championships and major events a shooter may be asked for a doping test. WADA publishes a new Prohibited List each year, usually around September, and it applies from 1 January. In shooting, beta-blockers are prohibited at all times. Stimulants and THC (cannabis) are prohibited in competition, and the in-competition period starts at 23:59 on the day before the event. A medicine prescribed by a doctor can still be prohibited: check it in Global DRO or with your national anti-doping agency, and if you need it, apply for a TUE in advance. Supplements can be contaminated, so choose products whose batches are tested by an independent lab. This is not medical advice: talk to your doctor.",
+   "uk_usage": "«антидопінг», «антидопінгові правила», «допінг-контроль»",
+   "rule_refs": [],
+   "related": [
+    "beta-blocker",
+    "therapeutic-use-exemption",
+    "global-dro",
+    "championship"
+   ],
+   "learn": [
+    "mind-anti-doping"
+   ]
+  },
+  {
+   "id": "therapeutic-use-exemption",
+   "term": "Therapeutic use exemption (TUE)",
+   "aka": [
+    "TUE",
+    "Therapeutic use exemption"
+   ],
+   "cat": "Competition",
+   "short_uk": "Дозвіл на терапевтичне використання (TUE): офіційний дозвіл спортсменові з медичних причин приймати ліки, які інакше заборонені; заявку подають заздалегідь.",
+   "short_en": "Official permission for an athlete to use, for a medical reason, a medicine that is otherwise prohibited; it is applied for in advance.",
+   "long_uk": "Самого рецепта недостатньо: заборонена речовина лишається забороненою, навіть якщо її призначив лікар. Тому стрілець, якому потрібні такі ліки, наприклад бета-блокатор від тиску, порушень ритму серця чи мігрені, заздалегідь подає заявку на TUE, зазвичай до національної антидопінгової агенції; національна федерація підкаже, хто за це відповідає. Не скасовуйте призначені ліки самостійно: задовго до змагань поговоріть із лікарем про дозволену альтернативу або TUE. Це не медична порада.",
+   "long_en": "A prescription alone is not enough: a prohibited substance stays prohibited even when a doctor has prescribed it. So a shooter who needs such a medicine, for example a beta-blocker for blood pressure, heart rhythm or migraine, applies for a TUE in advance, usually to the national anti-doping agency; the national federation can say which body is responsible. Do not stop a prescribed medicine on your own: talk to your doctor about a permitted alternative or a TUE well before the competition. This is not medical advice.",
+   "uk_usage": "«TUE», «дозвіл на терапевтичне використання»",
+   "rule_refs": [],
+   "related": [
+    "anti-doping",
+    "beta-blocker",
+    "global-dro"
+   ],
+   "learn": [
+    "mind-anti-doping"
+   ]
+  },
+  {
+   "id": "beta-blocker",
+   "term": "Beta-blocker",
+   "aka": [
+    "Beta blocker",
+    "Beta-blockers"
+   ],
+   "cat": "Competition",
+   "short_uk": "Бета-блокатор: серцеві ліки, що сповільнюють серцебиття й зменшують тремтіння; за списком WADA у стрільбі вони заборонені в будь-який час — і на змаганнях, і поза ними.",
+   "short_en": "A heart medicine that slows the heartbeat and reduces tremor; under the WADA list it is prohibited in shooting at all times, in and out of competition.",
+   "long_uk": "Приклади — пропранолол, атенолол, бісопролол, метопролол. У видах спорту на влучність їх заборонено, бо повільніше серце й менше тремтіння можуть зробити рушницю стійкішою. У списку WADA стрільба названа через олімпійську федерацію (ISSF) і паралімпійську стрільбу (IPC), а не через FITASC, але вважайте бета-блокатори забороненими і в Sporting™ та Compak® Sporting: національні антидопінгові агенції можуть проводити контроль на національних змаганнях, організатори можуть застосовувати список WADA, а багато стрільців виступають і на змаганнях ISSF. Якщо лікар призначив вам бета-блокатор, не скасовуйте його самостійно; задовго до змагань запитайте про дозволену альтернативу або TUE. Це не медична порада.",
+   "long_en": "Examples are propranolol, atenolol, bisoprolol and metoprolol. They are prohibited in precision sports because a slower heart and less tremor can steady the gun. The WADA list names shooting through the Olympic federation (ISSF) and para shooting (IPC), not FITASC, but treat beta-blockers as prohibited in Sporting™ and Compak® Sporting too: national anti-doping agencies can test at national events, organisers may apply the WADA list, and many shooters also compete in ISSF events. If a doctor has prescribed one, do not stop it on your own; ask about a permitted alternative or a TUE well in advance. This is not medical advice.",
+   "uk_usage": "«бета-блокатор», «бета-блокатори»",
+   "rule_refs": [],
+   "related": [
+    "anti-doping",
+    "therapeutic-use-exemption",
+    "global-dro",
+    "issf"
+   ],
+   "learn": [
+    "mind-anti-doping"
+   ]
+  },
+  {
+   "id": "global-dro",
+   "term": "Global DRO",
+   "aka": [
+    "Global Drug Reference Online"
+   ],
+   "cat": "Competition",
+   "short_uk": "Онлайн-сервіс кількох національних антидопінгових агенцій, де можна перевірити, чи заборонені у спорті ліки, які продають у їхніх країнах.",
+   "short_en": "An online medicine check run by several national anti-doping agencies: it shows whether a medicine sold in their countries is prohibited in sport.",
+   "long_uk": "У Global DRO є лише ліки, які продають у країнах-партнерах, наприклад у Великій Британії, США, Канаді та Швейцарії. Шукайте за діючою речовиною, а не лише за торговою назвою. Якщо ваших ліків там немає, запитайте національну антидопінгову агенцію або свою федерацію. Перевіряйте щороку знову, бо Заборонений список WADA змінюється.",
+   "long_en": "Global DRO lists only medicines sold in its partner countries, such as the UK, the USA, Canada and Switzerland. Search by the active ingredient, not only by the brand name. If your medicine is not listed, ask your national anti-doping agency or your federation. Check again each year, because the WADA Prohibited List changes.",
+   "uk_usage": "«Global DRO»",
+   "rule_refs": [],
+   "related": [
+    "anti-doping",
+    "therapeutic-use-exemption",
+    "beta-blocker"
+   ],
+   "learn": [
+    "mind-anti-doping"
+   ]
+  },
+  {
+   "id": "box-breathing",
+   "term": "Box breathing",
+   "aka": [
+    "Square breathing"
+   ],
+   "cat": "Training",
+   "short_uk": "«Квадратне дихання»: вдих, пауза, видих і пауза по 4 рахунки; один із варіантів, які можна спробувати, досліджень у спорті мало.",
+   "short_en": "A breathing pattern: in, hold, out and hold, for a count of 4 each; one option to try, with little research in sport.",
+   "long_uk": "У дослідженнях, проведених досі, квадратне дихання не виявилося кращим за інші способи дихати; в одному дослідженні краще спрацював просто видих, довший за вдих. Тож сприймайте його як один із варіантів, а не як правило. Повільне дихання доречне перед стрілецьким місцем і між місцями. Безпосередньо перед командою багато тренерів радять лише один природний видих, бо дуже повільне дихання може сповільнити реакцію на мішень. Якщо паморочиться в голові, поверніться до звичайного дихання. Це не медична порада.",
+   "long_en": "In the studies so far, box breathing did no better than other ways of breathing; in one study simply breathing out longer than you breathe in worked better. So treat it as one option, not a rule. Slow breathing fits before the stand and between stands. Just before the call, many coaches suggest only one natural breath out, because very slow breathing may slow your reaction to the target. If you feel dizzy, return to normal breathing. This is not medical advice.",
+   "uk_usage": "«квадратне дихання», «box breathing»",
+   "rule_refs": [],
+   "related": [
+    "pre-shot-routine",
+    "call",
+    "reset-routine"
+   ],
+   "learn": [
+    "mind-breathing"
+   ]
+  },
+  {
+   "id": "quiet-eye",
+   "term": "Quiet eye",
+   "aka": [
+    "QE"
+   ],
+   "cat": "Technique",
+   "short_uk": "«Тихе око»: останній стійкий погляд на мішень перед рухом; у досвідчених стрільців він зазвичай починається раніше й триває довше.",
+   "short_en": "The last steady look at the target before the movement; in skilled shooters it tends to start earlier and last longer.",
+   "long_uk": "Дослідники вимірюють «тихе око» як останній стійкий погляд перед початком руху. Порівняно з менш досвідченими стрільцями елітні стрільці у трапі й скиті починають його раніше й тримають довше, а при влучаннях він зазвичай довший, ніж при промахах. Під тривогою він часто коротшає. Чарівного числа мілісекунд, до якого слід прагнути, немає: у стендовій стрільбі це означає рано й чітко побачити мішень і тримати на ній очі до кінця пострілу. Більшість даних отримано в олімпійських трапі й скиті, тож, імовірно, це стосується і Sporting™ та Compak® Sporting.",
+   "long_en": "Researchers measure the quiet eye as the final steady look before a movement starts. Compared with less skilled shooters, elite trap and skeet shooters start it earlier and hold it longer, and it tends to be longer on hits than on misses. Under anxiety it often gets shorter. There is no magic number of milliseconds to aim for: in clay terms it means seeing the target early and clearly and keeping your eyes on it through the shot. Most of the data come from Olympic trap and skeet, so it probably transfers to Sporting™ and Compak® Sporting.",
+   "uk_usage": "«тихе око», «quiet eye»",
+   "rule_refs": [],
+   "related": [
+    "soft-focus",
+    "hard-focus",
+    "leading-edge",
+    "pick-up-point"
+   ],
+   "learn": [
+    "mind-concentration-focus"
+   ]
+  },
+  {
+   "id": "self-talk",
+   "term": "Self-talk",
+   "aka": [],
+   "cat": "Training",
+   "short_uk": "Розмова з собою вголос чи подумки; у спорті — часто короткі інструкції на кшталт «бачу мішень» чи «плавно».",
+   "short_en": "What you say to yourself, aloud or in your head; in sport, often short instructions such as “see the target” or “smooth”.",
+   "long_uk": "У багатьох дослідженнях спортсмени, які тренували, що казати собі, виступали дещо краще. У завданнях на точність короткі інструкції допомагали більше, ніж підбадьорення на кшталт «давай». Кажіть, що робити, а не чого уникати: «тримай лінію», а не «не зупиняй рушницю». На стрілецькому місці зазвичай краще пасує коротка інструкція, а мотиваційні фрази — на переході між місцями. Дослідження проводили не у стендовій стрільбі, тож це, імовірно, стосується і Sporting™ та Compak® Sporting.",
+   "long_en": "In many studies, athletes who practised what to say to themselves did somewhat better. In tasks that need accuracy, short instructions helped more than encouragement such as “come on”. Say what to do, not what to avoid: “stay on the line” rather than “don't stop the gun”. On the stand a short instruction usually fits better; motivational phrases may suit the walk between stands. The studies are not from clay shooting, so this probably transfers to Sporting™ and Compak® Sporting.",
+   "uk_usage": "«розмова з собою», «внутрішній діалог»",
+   "rule_refs": [],
+   "related": [
+    "cue-word",
+    "pre-shot-routine",
+    "choking"
+   ],
+   "learn": [
+    "mind-cue-words-self-talk"
+   ]
+  },
+  {
+   "id": "cue-word",
+   "term": "Cue word",
+   "aka": [
+    "Cue"
+   ],
+   "cat": "Training",
+   "short_uk": "Слово-підказка: дуже коротка інструкція, як-от «передній край» чи «плавно», що спрямовує увагу на одну річ перед пострілом.",
+   "short_en": "A very short instruction, such as “front edge” or “smooth”, that points your attention at one thing before the shot.",
+   "long_uk": "Багато тренерів радять обрати дві-три підказки разом із тренером на тренуванні й на змаганнях користуватися тими самими словами. Підказки про мішень чи її лінію, як-от «бачу» чи «тримай лінію», зазвичай краще пасують на стрілецькому місці, ніж підказки про тіло на кшталт «лікоть вище», яким місце на тренуванні. Багато стрільців кажуть слово на тому самому кроці передпострілового ритуалу, перед самою командою. Перекладач, який перекладає підказку тренера, може тримати один короткий відповідник на все заняття, щоб стрілець міг користуватися ним у розмові з собою.",
+   "long_en": "Many coaches suggest choosing two or three cues with your coach in training and keeping the same words in competition. Cues about the target or its line, such as “see it” or “stay on the line”, usually fit the stand better than body cues such as “elbow up”, which belong to practice. Many shooters say the word at the same step of the pre-shot routine, just before the call. An interpreter who translates a coach's cue can keep one short equivalent for the whole session, so the shooter can use it as self-talk.",
+   "uk_usage": "«слово-підказка», «підказка»",
+   "rule_refs": [],
+   "related": [
+    "self-talk",
+    "pre-shot-routine",
+    "leading-edge"
+   ],
+   "learn": [
+    "mind-cue-words-self-talk",
+    "stand-talk-mental-game"
+   ]
+  },
+  {
+   "id": "imagery",
+   "term": "Imagery",
+   "aka": [
+    "Mental rehearsal",
+    "Visualisation"
+   ],
+   "cat": "Training",
+   "short_uk": "Уявна репетиція: подумки бачити й відчувати постріл з тією самою швидкістю, що й справжній, і своїми очима, не виконуючи його.",
+   "short_en": "Mental rehearsal: seeing and feeling a shot in your mind, at the speed of the real shot and through your own eyes, without making it.",
+   "long_uk": "Дослідження показують, що уявна репетиція зазвичай допомагає, особливо разом зі справжнім тренуванням, але наскільки саме — невідомо. Схоже, вона краще працює, коли близька до справжньої стрільби: те саме місце, ті самі мішені, справжня швидкість і погляд вашими очима. Після показу мішеней багато стрільців проходять кожну мішень подумки один-два рази: точка утримання, точка підхоплення, рушниця виходить на лінію, постріл. Репетируйте в голові, а не з рушницею: вкладка й рух по лінії мішені — це імітація стрільби, яку правила обмежують. Дослідження проводили не у стендовій стрільбі, тож це, імовірно, стосується і Sporting™ та Compak® Sporting.",
+   "long_en": "Studies show that imagery usually helps, especially alongside real practice, but nobody knows exactly how much. It seems to work better when it is close to the real thing: the same stand, the same targets, the real speed and your own point of view. After the presentation, many shooters run each target through once or twice: hold point, pick-up point, the gun joining the line, the break. Rehearse in your head, not with the gun: mounting and swinging along a target's line is mock shooting, which the rules limit. The research is not from clay shooting, so it probably transfers to Sporting™ and Compak® Sporting.",
+   "uk_usage": "«уявна репетиція», «візуалізація»",
+   "rule_refs": [],
+   "related": [
+    "target-presentation",
+    "hold-point",
+    "pick-up-point",
+    "break-point",
+    "mock-shooting"
+   ],
+   "learn": [
+    "mind-imagery"
+   ]
+  },
+  {
+   "id": "choking",
+   "term": "Choking",
+   "aka": [
+    "Choking under pressure"
+   ],
+   "cat": "Training",
+   "short_uk": "Зрив: стрільба помітно гірша за звичну через тиск, часто коли ви починаєте свідомо керувати навичкою, яка зазвичай працює сама.",
+   "short_en": "Shooting clearly below your usual level because of pressure, often when you start consciously steering a skill that usually runs on its own.",
+   "long_uk": "Не плутайте з чоком — звуженням ствола. Під тиском стрілець може почати крок за кроком перевіряти вкладку чи рух рушниці, а тривога відтягує очі від мішені. Ознаки: змінений темп, перевірка вкладки, погляд на стволи чи мушку, стеження за результатами. Що може допомогти: звичний передпостріловий ритуал і темп, одне просте слово-підказка про мішень, цілі процесу і тренування під тиском, який зростає крок за кроком. Більшість досліджень проведено в інших видах спорту та в олімпійських трапі й скиті, тож це, імовірно, стосується і Sporting™ та Compak® Sporting. Якщо тиск раз у раз псує вам змагання, допомогти може спортивний психолог.",
+   "long_en": "Not to be confused with the choke of a barrel. Under pressure a shooter may start checking the mount or the swing step by step, and worry pulls the eyes away from the target. Signs include a changed tempo, checking the gun mount, eyes on the barrel or bead, and watching the scores. What can help: the usual pre-shot routine and tempo, one simple cue word about the target, process goals, and training under pressure that grows step by step. Most of the research comes from other sports and from Olympic trap and skeet, so it probably transfers to Sporting™ and Compak® Sporting. If pressure keeps spoiling your competitions, a sport psychologist can help.",
+   "uk_usage": "«зрив», «зрив під тиском»",
+   "rule_refs": [],
+   "related": [
+    "pre-shot-routine",
+    "cue-word",
+    "process-goal",
+    "shoot-off"
+   ],
+   "learn": [
+    "mind-pressure-choking"
+   ]
+  },
+  {
+   "id": "reset-routine",
+   "term": "Reset routine",
+   "aka": [
+    "Reset",
+    "Post-shot routine"
+   ],
+   "cat": "Training",
+   "short_uk": "Ритуал перезапуску: короткі сталі кроки, щоб почати знову, — після промаху (видих, одна поправка, наступний ритуал) або коли вас збили до команди.",
+   "short_en": "A short, fixed routine to start again: after a lost target (breath out, one correction, next routine) or when you are disturbed before the call.",
+   "long_uk": "Звичний перезапуск після промаху триває приблизно 5–10 секунд: зробіть рушницю безпечною, як вимагають правила, один раз повільно видихніть, дайте собі одну поправку у двох-трьох словах, уявіть правильний постріл і почніть наступний передпостріловий ритуал. Питання «чому» залиште на після раунду: якщо під тиском розбирати навичку крок за кроком, її можна порушити. Перезапуск має вкладатися в ліміт часу між мішенями. Якщо вас збили до команди, багато тренерів радять видихнути й почати ритуал спочатку. Такий самий перезапуск може допомогти й після рішення судді, яке вам не сподобалося.",
+   "long_en": "A common reset after a miss takes about 5–10 seconds: make the gun safe as the rules require, breathe out slowly once, give yourself one correction in two or three words, picture the right shot, then start your next pre-shot routine. Keep the “why” for after the round: analysing a skill step by step under pressure can disrupt it. The reset has to fit the time limit between targets. If you are disturbed before the call, many coaches suggest breathing out and starting the routine again. The same reset can help after a referee decision you dislike.",
+   "uk_usage": "«ритуал перезапуску», «перезапуск»",
+   "rule_refs": [],
+   "related": [
+    "pre-shot-routine",
+    "firing-time",
+    "cue-word",
+    "box-breathing"
+   ],
+   "learn": [
+    "mind-reset-after-miss",
+    "mind-routine-under-pressure"
+   ]
+  },
+  {
+   "id": "mobility",
+   "term": "Mobility",
+   "aka": [
+    "Joint mobility"
+   ],
+   "cat": "Training",
+   "short_uk": "Рухливість: наскільки вільно рухаються суглоби — чи можна повернути голову, підняти руки й розвернути корпус настільки, наскільки потрібно для пострілу, без напруження.",
+   "short_en": "How freely your joints move: whether you can turn your head, lift your arms and twist your trunk as far as the shot needs, without strain.",
+   "long_uk": "Стрільцеві найважливіші шия (голова лягає на приклад), плечі (вкладка), верхня частина спини й стегна, які повертають корпус за мішенню, і щиколотки, що допомагають тримати рівновагу в стійці. Багато тренерів радять перед стрільбою м’які динамічні рухи — повільні повороти голови, кругові рухи плечима, повороти корпусу, — а довгу статичну розтяжку залишити на після стрільби. Рухайтеся плавно й зупиніться, якщо болить. Якщо є травма чи тривалий біль, складіть комплекс разом із лікарем або фізіотерапевтом. Це не медична порада.",
+   "long_en": "For a shooter the key areas are the neck (the head comes down onto the stock), the shoulders (the gun mount), the upper back and hips, which turn the body with the target, and the ankles, which keep you steady in your stance. Many coaches suggest gentle dynamic movements before shooting, such as slow head turns, shoulder rolls and trunk turns, and leave long static stretching for after shooting. Move smoothly and stop if it hurts. With an injury or long-lasting pain, put your routine together with a doctor or physiotherapist. This is not medical advice.",
+   "uk_usage": "«рухливість», «мобільність»",
+   "rule_refs": [],
+   "related": [
+    "warm-up",
+    "stance",
+    "gun-mount"
+   ],
+   "learn": [
+    "mind-warm-up-mobility"
+   ]
+  },
+  {
+   "id": "gun-rental",
+   "term": "Gun hire",
+   "aka": [
+    "Gun rental",
+    "Hiring a gun"
+   ],
+   "cat": "Gun",
+   "short_uk": "Прокат рушниці: рушниця стенду за плату, часто разом із першим заняттям, набоями й засобами захисту, щоб новачок міг стріляти, не купуючи своєї.",
+   "short_en": "Using a ground's gun for a fee, often together with a first lesson, cartridges and protection, so a beginner can shoot without buying a gun.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«прокат рушниці», «рушниця напрокат»",
+   "rule_refs": [],
+   "related": [
+    "taster-session",
+    "coach",
+    "shotgun"
+   ],
+   "learn": [
+    "budget-what-it-costs",
+    "gun-first-gun"
+   ]
+  },
+  {
+   "id": "third-party-insurance",
+   "term": "Third-party insurance",
+   "aka": [
+    "Liability insurance"
+   ],
+   "cat": "Competition",
+   "short_uk": "Страхування цивільної відповідальності: покриває шкоду, яку ви можете заподіяти іншим людям чи їхньому майну; у багатьох країнах або клубах його вимагають від стрільців.",
+   "short_en": "Liability insurance that covers harm you might cause to other people or their property; many countries or clubs require it for shooters.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«страхування цивільної відповідальності», «страховка»",
+   "rule_refs": [],
+   "related": [
+    "sports-licence",
+    "club-membership"
+   ],
+   "learn": [
+    "budget-what-it-costs"
+   ]
+  },
+  {
+   "id": "proof-mark",
+   "term": "Proof mark",
+   "aka": [
+    "Proof stamp",
+    "Proof house"
+   ],
+   "cat": "Gun",
+   "short_uk": "Клеймо випробування: клеймо, яке ставить офіційна випробувальна станція (proof house) після пробних пострілів посиленим зарядом; у багатьох країнах таке випробування обов’язкове.",
+   "short_en": "A stamp put on a gun by an official proof house after test-firing it with an overload charge; in many countries this test is compulsory.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«клеймо випробування», «клеймо», «proof mark»",
+   "rule_refs": [],
+   "related": [
+    "gunsmith",
+    "steel-shot",
+    "shotgun"
+   ],
+   "learn": [
+    "gun-first-gun",
+    "chokes-steel-shot"
+   ]
+  },
+  {
+   "id": "club-membership",
+   "term": "Club membership",
+   "aka": [],
+   "cat": "Training",
+   "short_uk": "Членство в клубі: зазвичай щорічний внесок, який часто дає нижчі ціни на мішені й доступ до тренувань і клубних змагань.",
+   "short_en": "Membership of a shooting club: usually an annual fee that often brings lower target prices and access to training and club shoots.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«членство в клубі», «членський внесок»",
+   "rule_refs": [],
+   "related": [
+    "club-shoot",
+    "coach"
+   ],
+   "learn": [
+    "budget-how-to-save"
+   ]
+  },
+  {
+   "id": "reloaded-cartridge",
+   "term": "Reloaded cartridge",
+   "aka": [
+    "Reload",
+    "Home-loaded cartridge"
+   ],
+   "cat": "Ammunition",
+   "short_uk": "Переспоряджений набій: стріляна гільза, знову заповнена порохом, пижем і дробом, часто вдома; на змаганнях зі Sporting™ і Compak® Sporting не дозволений.",
+   "short_en": "A fired hull filled again with powder, wad and shot, often at home; not allowed at Sporting™ and Compak® Sporting competitions.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«переспоряджений набій», «перезаряджений набій»",
+   "rule_refs": [
+    {
+     "book": "sporting",
+     "id": "ch7-cartridges",
+     "ref": "Chapter 7, 7.8",
+     "page": 12
+    },
+    {
+     "book": "compak",
+     "id": "ch18-cartridge-bans",
+     "ref": "Chapter 18, 18.3 Ammunition (prohibited)",
+     "page": 19
+    }
+   ],
+   "related": [
+    "cartridge",
+    "hull",
+    "load-weight"
+   ],
+   "learn": [
+    "budget-how-to-save",
+    "cartridges-anatomy"
+   ]
+  },
+  {
+   "id": "taster-session",
+   "term": "Taster session",
+   "aka": [
+    "Taster lesson",
+    "Have-a-go session"
+   ],
+   "cat": "Training",
+   "short_uk": "Пробне заняття: перше знайомство зі стрільбою на стенді для новачків — тренер, рушниця стенду, набої й мішені.",
+   "short_en": "An introductory session for beginners at a ground: a coach, the ground's gun, cartridges and targets, so you can try shooting for the first time.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«пробне заняття»",
+   "rule_refs": [],
+   "related": [
+    "coach",
+    "gun-rental"
+   ],
+   "learn": [
+    "budget-first-year-plan",
+    "intro-how-to-start"
+   ]
+  },
+  {
+   "id": "noise-induced-hearing-loss",
+   "term": "Noise-induced hearing loss",
+   "aka": [
+    "NIHL"
+   ],
+   "cat": "Safety & conduct",
+   "short_uk": "Утрата слуху від шуму: поступове й незворотне пошкодження внутрішнього вуха гучними звуками, зокрема пострілами; часто починається з високих звуків, і втрачений слух не відновлюється.",
+   "short_en": "Gradual, permanent damage to the inner ear caused by loud sounds such as gunshots; it often starts with high sounds, and lost hearing does not come back.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«утрата слуху від шуму», «шумова приглухуватість»",
+   "rule_refs": [],
+   "related": [
+    "hearing-protection",
+    "tinnitus",
+    "double-hearing-protection"
+   ],
+   "learn": [
+    "gear-ear-protection",
+    "safety-eye-ear-protection"
+   ]
+  },
+  {
+   "id": "tinnitus",
+   "term": "Tinnitus",
+   "aka": [
+    "Ringing in the ears"
+   ],
+   "cat": "Safety & conduct",
+   "short_uk": "Тинітус (шум у вухах): дзвін, гул чи свист у вухах без зовнішнього джерела; після стрільби це часто перше попередження, що захисту слуху було недосить.",
+   "short_en": "Ringing, buzzing or whistling in the ears with no outside source; after shooting it is often an early warning that hearing protection was not enough.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«шум у вухах», «дзвін у вухах», «тинітус»",
+   "rule_refs": [],
+   "related": [
+    "hearing-protection",
+    "noise-induced-hearing-loss"
+   ],
+   "learn": [
+    "gear-ear-protection",
+    "safety-eye-ear-protection"
+   ]
+  },
+  {
+   "id": "double-hearing-protection",
+   "term": "Double hearing protection",
+   "aka": [
+    "Double protection"
+   ],
+   "cat": "Equipment",
+   "short_uk": "Подвійний захист слуху: беруші й навушники одночасно; дають додатковий запас, особливо для дітей і на гучних чи критих стрілецьких місцях.",
+   "short_en": "Earplugs and ear muffs worn together for an extra margin, especially for children and on loud or covered stands.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«подвійний захист слуху», «беруші й навушники»",
+   "rule_refs": [],
+   "related": [
+    "hearing-protection",
+    "earplugs",
+    "noise-induced-hearing-loss"
+   ],
+   "learn": [
+    "gear-ear-protection"
+   ]
+  },
+  {
+   "id": "presbyopia",
+   "term": "Presbyopia",
+   "aka": [
+    "Age-related long-sightedness"
+   ],
+   "cat": "Equipment",
+   "short_uk": "Пресбіопія (вікова далекозорість): приблизно після 40 років важче бачити зблизька, а зір удалину може лишатися добрим, і мушка може розпливатися.",
+   "short_en": "Age-related long-sightedness: from about the age of 40, close-up vision gets harder while distance vision may stay good, and the bead may blur.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«вікова далекозорість», «пресбіопія»",
+   "rule_refs": [],
+   "related": [
+    "safety-glasses",
+    "bead",
+    "master-eye"
+   ],
+   "learn": [
+    "gear-shooting-glasses"
+   ]
+  },
+  {
+   "id": "lead-hygiene",
+   "term": "Lead hygiene",
+   "aka": [],
+   "cat": "Safety & conduct",
+   "short_uk": "Гігієна при роботі зі свинцем: звички, що зменшують потрапляння свинцю в організм, — миття рук і обличчя, жодної їжі й куріння на стрілецькому місці, окремий стрілецький одяг.",
+   "short_en": "Habits that reduce how much lead gets into the body: washing hands and face, no food or smoking on the stand, separate shooting clothes.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«гігієна при роботі зі свинцем»",
+   "rule_refs": [],
+   "related": [
+    "lead-shot",
+    "empties"
+   ],
+   "learn": [
+    "health-lead-hygiene"
+   ]
+  },
+  {
+   "id": "heat-exhaustion",
+   "term": "Heat exhaustion",
+   "aka": [],
+   "cat": "Safety & conduct",
+   "short_uk": "Теплове виснаження: перегрів організму з утомою, запамороченням, головним болем чи нудотою; потрібні тінь, вода, охолодження й відпочинок, а якщо швидко не минає — медична допомога.",
+   "short_en": "Overheating of the body with tiredness, dizziness, headache or nausea; it needs shade, water, cooling and rest, and medical help if it does not ease quickly.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«теплове виснаження», «перегрів»",
+   "rule_refs": [],
+   "related": [
+    "hydration"
+   ],
+   "learn": [
+    "gear-clothing-and-shoes"
+   ]
+  },
+  {
+   "id": "live-pigeon-shooting",
+   "term": "Live-pigeon shooting",
+   "aka": [
+    "Live-bird shooting",
+    "Pigeon shooting"
+   ],
+   "cat": "Discipline",
+   "short_uk": "Стрільба по живих голубах: історична стрільба по птахах, яких випускали зі скриньок перед стрільцем, попередниця стендової стрільби; 2003 року FITASC призупинила всі змагання, де мішенню були живі тварини.",
+   "short_en": "Historical shooting at live pigeons released from boxes in front of the shooter, the forerunner of clay shooting; in 2003 FITASC suspended all events with live animals as targets.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«стрільба по живих голубах»",
+   "rule_refs": [],
+   "related": [
+    "glass-ball",
+    "fitasc",
+    "target"
+   ],
+   "learn": [
+    "history-live-birds-to-clays"
+   ]
+  },
+  {
+   "id": "glass-ball",
+   "term": "Glass ball",
+   "aka": [
+    "Glass-ball target"
+   ],
+   "cat": "Targets",
+   "short_uk": "Скляна куля: мішень, яку в XIX столітті підкидали в повітря замість живого птаха; згодом її витіснила глиняна мішень.",
+   "short_en": "A glass ball thrown into the air as a target in the 19th century, an early alternative to live birds; the clay target later replaced it.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«скляна куля»",
+   "rule_refs": [],
+   "related": [
+    "live-pigeon-shooting",
+    "target"
+   ],
+   "learn": [
+    "history-live-birds-to-clays"
+   ]
+  },
+  {
+   "id": "issf",
+   "term": "ISSF",
+   "aka": [
+    "International Shooting Sport Federation"
+   ],
+   "cat": "Discipline",
+   "short_uk": "ISSF — Міжнародна федерація стрілецького спорту, що керує олімпійськими стрілецькими дисциплінами, зокрема олімпійським трапом і скітом; Sporting™ і Compak® Sporting належать до FITASC.",
+   "short_en": "The International Shooting Sport Federation, which governs the Olympic shooting disciplines, including Olympic trap and skeet; Sporting™ and Compak® Sporting belong to FITASC.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«ISSF»",
+   "rule_refs": [],
+   "related": [
+    "fitasc",
+    "olympic-trap",
+    "skeet"
+   ],
+   "learn": [
+    "history-fitasc-founding",
+    "history-olympics-and-world"
+   ]
+  },
+  {
+   "id": "hydration",
+   "term": "Hydration",
+   "aka": [],
+   "cat": "Training",
+   "short_uk": "Достатнє пиття води; на стенді — невеликі регулярні ковтки протягом дня, а не лише тоді, коли дуже хочеться пити.",
+   "short_en": "Drinking enough water; at the ground this means small, regular sips through the day, not only when you are very thirsty.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«пиття», «водний режим»",
+   "rule_refs": [],
+   "related": [
+    "heat-exhaustion"
+   ],
+   "learn": [
+    "mind-long-day-energy-sleep"
+   ]
+  },
+  {
+   "id": "travel-fatigue",
+   "term": "Travel fatigue",
+   "aka": [],
+   "cat": "Travel",
+   "short_uk": "Утома від дороги: затерплі м’язи, короткий сон і сухе повітря; на відміну від джетлагу, не залежить від часових поясів і часто минає після відпочинку.",
+   "short_en": "Tiredness from the journey itself: stiff muscles, short sleep and dry air; unlike jet lag, it does not depend on time zones and often eases after rest.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«утома від дороги»",
+   "rule_refs": [],
+   "related": [
+    "jet-lag"
+   ],
+   "learn": [
+    "travel-jet-lag"
+   ]
+  },
+  {
+   "id": "referee-certificate",
+   "term": "Referee certificate",
+   "aka": [
+    "Referee card",
+    "Referee licence"
+   ],
+   "cat": "Refereeing",
+   "short_uk": "Суддівський сертифікат: сертифікат або картка, які національна федерація видає після курсу та іспиту і які дають право судити; головному судді міжнародного змагання потрібна кваліфікація FITASC.",
+   "short_en": "The certificate or card a national federation issues after a course and an exam, giving the right to referee; the chief referee of an international event needs a FITASC qualification.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«суддівський сертифікат», «суддівська картка»",
+   "rule_refs": [],
+   "related": [
+    "referee",
+    "chief-referee",
+    "assistant-referee",
+    "national-federation"
+   ],
+   "learn": [
+    "nextstep-becoming-referee"
+   ]
+  },
+  {
+   "id": "assistant-referee",
+   "term": "Assistant referee",
+   "aka": [],
+   "cat": "Refereeing",
+   "short_uk": "Помічник судді; у Sporting™ людина без потрібного суддівського сертифіката може бути лише в цій ролі і лише із заздалегідь отриманого дозволу журі.",
+   "short_en": "A referee's helper; in Sporting™ a person without the required referee certificate may act only in this role, and only if the jury agrees in advance.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«помічник судді»",
+   "rule_refs": [],
+   "related": [
+    "referee",
+    "referee-certificate",
+    "jury"
+   ],
+   "learn": [
+    "nextstep-becoming-referee"
+   ]
+  },
+  {
+   "id": "coaching-qualification",
+   "term": "Coaching qualification",
+   "aka": [
+    "Coach licence",
+    "Coaching certificate"
+   ],
+   "cat": "Training",
+   "short_uk": "Кваліфікація тренера: підтвердження, що людина пройшла навчання тренера; хто її видає, які є рівні і чи вона обов’язкова, залежить від країни.",
+   "short_en": "Proof that a person has completed coach training; who issues it, its levels and whether it is required depend on the country.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«кваліфікація тренера», «тренерська ліцензія»",
+   "rule_refs": [],
+   "related": [
+    "coach",
+    "national-federation"
+   ],
+   "learn": [
+    "nextstep-becoming-coach"
+   ]
+  },
+  {
+   "id": "volunteer",
+   "term": "Volunteer",
+   "aka": [],
+   "cat": "Organisation",
+   "short_uk": "Волонтер: людина, яка безоплатно допомагає на змаганні, — реєстрація, заповнення машинок мішенями, паркування, фото, прибирання, а де дозволяють правила, і підрахунок під наглядом судді.",
+   "short_en": "A person who helps at a competition without pay: registration, filling the traps, parking, photos, clearing up, or scoring under the referee's eye where the rules allow.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«волонтер»",
+   "rule_refs": [],
+   "related": [
+    "organiser",
+    "club-shoot",
+    "score-sheet"
+   ],
+   "learn": [
+    "culture-club-life",
+    "nextstep-club-shoot-and-volunteering"
+   ]
+  },
+  {
+   "id": "tour-package",
+   "term": "Tour package",
+   "aka": [
+    "ClayAway package"
+   ],
+   "cat": "ClayArena",
+   "short_uk": "Пакет туру: усе, що стрілець купуватиме в турі ClayAway одним платежем, — тренування на стендах, проживання, трансфери, спільна програма і, за потреби, перекладач (ClayAway готується до запуску).",
+   "short_en": "Everything a shooter will buy on a ClayAway tour in one payment: training at shooting grounds, accommodation, transfers, a shared programme and, if needed, an interpreter (ClayAway is in preparation).",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«пакет туру»",
+   "rule_refs": [],
+   "related": [
+    "clayaway",
+    "interpreter",
+    "coach"
+   ],
+   "learn": [
+    "travel-clayaway-tour"
+   ]
+  },
+  {
+   "id": "scoreboard",
+   "term": "Scoreboard",
+   "aka": [
+    "Results board"
+   ],
+   "cat": "Results",
+   "short_uk": "Табло результатів: дошка або екран, де під час і після змагань публікують результати раундів і загальні суми стрільців.",
+   "short_en": "The results board: a board or screen where shooters' round scores and totals are posted during and after a competition.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«табло», «табло результатів»",
+   "rule_refs": [],
+   "related": [
+    "score-sheet",
+    "round",
+    "electronic-refereeing"
+   ],
+   "learn": [
+    "watching-reading-results"
+   ]
+  },
+  {
+   "id": "spectator-area",
+   "term": "Spectator area",
+   "aka": [],
+   "cat": "Safety & conduct",
+   "short_uk": "Зона для глядачів: місце, яке організатор відводить для глядачів, зазвичай позаду стрілецького місця, за огорожею чи мотузкою; звідти безпечно дивитися, фотографувати й знімати.",
+   "short_en": "The place the organiser sets aside for spectators, usually behind the stand or behind a fence or rope, from which it is safe to watch, photograph and film.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«зона для глядачів»",
+   "rule_refs": [],
+   "related": [
+    "safety",
+    "shooting-stand",
+    "organiser"
+   ],
+   "learn": [
+    "watching-at-the-ground"
+   ]
+  },
+  {
+   "id": "derogation",
+   "term": "Derogation",
+   "aka": [],
+   "cat": "Results",
+   "short_uk": "Дерогація: дозвіл в окремих випадках відступити від правила, наприклад виступати в іншій категорії, ніж та, що відповідає вашому віку; про неї питають національну федерацію.",
+   "short_en": "Permission, in special cases, to depart from a rule, for example to compete in a category other than the one your age gives; ask your national federation.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«дерогація», «виняток»",
+   "rule_refs": [],
+   "related": [
+    "category",
+    "national-federation"
+   ],
+   "learn": [
+    "competitions-categories-and-shoot-offs"
+   ]
+  },
+  {
+   "id": "pitch",
+   "term": "Pitch",
+   "aka": [
+    "Butt pitch"
+   ],
+   "cat": "Equipment",
+   "short_uk": "Нахил потилиці приклада: кут, під яким зрізано задній торець приклада відносно стволів; від нього залежить, чи приклад прилягає до плеча всією площиною, чи впирається носком або п’яткою.",
+   "short_en": "The angle at which the end of the stock (the butt) is cut compared with the barrels; it decides whether the butt rests flat on the shoulder or digs in with its toe or heel.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«нахил потилиці приклада», «pitch»",
+   "rule_refs": [],
+   "related": [
+    "stock",
+    "gun-fit",
+    "length-of-pull",
+    "recoil-pad"
+   ],
+   "learn": [
+    "gun-fit"
+   ]
+  },
+  {
+   "id": "gas-operated",
+   "term": "Gas-operated",
+   "aka": [
+    "Gas action",
+    "Gas-operated semi-automatic"
+   ],
+   "cat": "Gun",
+   "short_uk": "Газовідвідна система: у напівавтоматі частина порохових газів перезаряджає рушницю; віддача розтягується в часі, тож багато стрільців відчувають її м’якшою.",
+   "short_en": "A semi-automatic action in which part of the powder gas reloads the gun; it spreads the recoil over a longer time, so many shooters feel it as softer.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«газовідвідний напівавтомат», «газовідвідна система»",
+   "rule_refs": [],
+   "related": [
+    "semi-automatic",
+    "recoil"
+   ],
+   "learn": [
+    "health-recoil-shoulder-neck",
+    "gun-types"
+   ]
+  },
+  {
+   "id": "ladies-cut",
+   "term": "Ladies' cut",
+   "aka": [],
+   "cat": "Equipment",
+   "short_uk": "Жіночий крій: крій стрілецького жилета чи куртки з урахуванням форми грудей і ширини плечей, щоб наплічник був там, де стає приклад.",
+   "short_en": "A cut of a shooting vest or jacket that allows for the chest and shoulder width, so the pad sits where the stock goes.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«жіночий крій»",
+   "rule_refs": [],
+   "related": [
+    "shooting-vest",
+    "shoulder-pad"
+   ],
+   "learn": [
+    "gear-shooting-vest"
+   ]
+  },
+  {
+   "id": "ladies-day",
+   "term": "Ladies' day",
+   "aka": [],
+   "cat": "Training",
+   "short_uk": "Жіночий день: день у клубі, коли жінки тренуються або вперше пробують стрільбу, часто з тренером і рушницями напрокат.",
+   "short_en": "A day at a club for women to train or try shooting, often with a coach and guns to borrow.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«жіночий день»",
+   "rule_refs": [],
+   "related": [
+    "taster-session",
+    "coach"
+   ],
+   "learn": [
+    "intro-who-shoots"
+   ]
+  },
+  {
+   "id": "snap-cap",
+   "term": "Snap cap",
+   "aka": [
+    "Dummy cartridge"
+   ],
+   "cat": "Equipment",
+   "short_uk": "Навчальний патрон: муляж набою, який береже бойки, коли натискають на спуск порожньої рушниці; для тренування без пострілу, як радить тренер чи зброяр.",
+   "short_en": "A dummy cartridge that protects the firing pins when the trigger is pulled on an empty gun; used for dry practice as a coach or gunsmith advises.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«навчальний патрон», «snap cap»",
+   "rule_refs": [],
+   "related": [
+    "dry-mounting",
+    "cartridge"
+   ],
+   "learn": [
+    "training-dry-mount-practice"
+   ]
+  },
+  {
+   "id": "blot-out",
+   "term": "Blot out",
+   "aka": [
+    "Blotting out"
+   ],
+   "cat": "Technique",
+   "short_uk": "Закрити стволами: дати стволам закрити мішень у мить пострілу, як часто буває на зустрічних мішенях і мішенях над головою спереду; зазвичай це задумано, а не помилка.",
+   "short_en": "To let the barrels cover the target at the moment of the shot, as often happens on incomers and driven targets; it is usually intended, not a mistake.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«закрити стволами»",
+   "rule_refs": [],
+   "related": [
+    "incomer",
+    "driven-target",
+    "swing-through"
+   ],
+   "learn": [
+    "flight-incomer-going-away"
+   ]
+  },
+  {
+   "id": "show-pair",
+   "term": "Show pair",
+   "aka": [],
+   "cat": "Interpreting",
+   "short_uk": "Показ дуплета (show pair): британська назва показу пари мішеней перед стрільбою; у термінах FITASC — показ мішеней дуплета.",
+   "short_en": "British name for showing a pair of targets before shooting; in FITASC terms, the target presentation of a double.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«показ дуплета», «show pair»",
+   "rule_refs": [],
+   "related": [
+    "target-presentation",
+    "double",
+    "english-sporting"
+   ],
+   "learn": [
+    "interpreter-english-sporting-vs-fitasc"
+   ]
+  },
+  {
+   "id": "perfect-round",
+   "term": "Perfect round",
+   "aka": [
+    "Perfect score"
+   ],
+   "cat": "Results",
+   "short_uk": "Чистий раунд: раунд без жодного промаху — у Sporting™ і Compak® Sporting це всі 25 мішеней; профіль на ClayArena рахує, скільки їх у стрільця.",
+   "short_en": "A round with no miss: in Sporting™ and Compak® Sporting, all 25 targets broken; a ClayArena profile counts how many a shooter has.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«чистий раунд», «25 із 25»",
+   "rule_refs": [],
+   "related": [
+    "round",
+    "shooter-profile",
+    "best-score"
+   ],
+   "learn": [
+    "clayarena-profile-numbers"
+   ]
+  },
+  {
+   "id": "visitors-permit",
+   "term": "Visitor's permit",
+   "aka": [
+    "Visitor permit"
+   ],
+   "cat": "Travel",
+   "short_uk": "Дозвіл для відвідувача: британський дозвіл, за яким гість з-за кордону може мати рушницю у Великій Британії; заяву до місцевої поліції подає спонсор, який там живе.",
+   "short_en": "A British permit that lets a visitor from abroad have a shotgun in Great Britain; a sponsor who lives there applies for it to the local police.",
+   "long_uk": "",
+   "long_en": "",
+   "uk_usage": "«дозвіл для відвідувача», «visitor's permit»",
+   "rule_refs": [],
+   "related": [
+    "temporary-import-permit",
+    "invitation-letter",
+    "european-firearms-pass"
+   ],
+   "learn": [
+    "travel-gun-outside-eu"
+   ]
   }
  ]
 };

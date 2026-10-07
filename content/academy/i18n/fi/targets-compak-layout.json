@@ -1,0 +1,182 @@
+{
+  "id": "targets-compak-layout",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "8c3ae343",
+    "summary": "79d4f1ae",
+    "targets-compak-layout-p1": "98dc18bc",
+    "sport-compak-layout-p1": "dcbe6c7b",
+    "targets-compak-layout-p2": "e7df6adb",
+    "sport-compak-layout-p2": "203222f1",
+    "sport-compak-layout-p3": "a25065ef",
+    "compak-layout-rotation-p3": "7b59eb23",
+    "targets-compak-layout-p5": "a2c4429e",
+    "compak-layout-rotation-p4": "1748eaf4",
+    "targets-compak-layout-p6": "896b9587",
+    "sport-compak-layout-p5": "0c81f17c",
+    "targets-compak-layout-p7": "6bb72ced",
+    "sport-compak-layout-ph1": "3f2accee",
+    "sport-compak-layout-ph2": "28df18bc",
+    "sport-compak-layout-ph3": "23025c04",
+    "compak-layout-rotation-ph1": "200b9712",
+    "compak-layout-rotation-ph2": "70621467",
+    "compak-layout-rotation-ph3": "cfd3fd74",
+    "compak-layout-rotation-ph4": "19e4256f",
+    "compak-layout-rotation-kp1": "135742ac",
+    "compak-layout-rotation-kp2": "6d1c22f7",
+    "compak-layout-rotation-kp3": "f95e51ba",
+    "compak-layout-rotation-kp5": "8b9d487a",
+    "targets-compak-layout-kp5": "c85a6da1",
+    "targets-compak-layout-dyk": "89d1cb81",
+    "sport-compak-layout-q1": "05577122",
+    "compak-layout-rotation-q2": "120fb8bb",
+    "targets-compak-layout-q3": "4704300b",
+    "sport-compak-layout-q2": "ce882cb5",
+    "sport-compak-layout-q3": "55f9413f",
+    "compak-layout-rotation-q3": "78b9098d",
+    "targets-compak-layout-q-rectangle": "1273dd61",
+    "targets-compak-layout-q-line": "bce53ef3"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Miten {{tm:compak}}-kenttä toimii",
+  "summary": "Viisi ampumapaikkaa, kuusi heitintä A–F, merkitty suorakulmio ja kiekkoluettelo kullakin ampumapaikalla: miten {{tm:compak}}-kierros toimii ja miten erä siirtyy.",
+  "body": {
+    "targets-compak-layout-p1": "{{tm:compak}} on kompakti FITASC-laji. Se {{fact:community.compak-created}}. Toisin kuin {{tm:sporting}}, joka leviää luonnonmaastoon, {{tm:compak}}-kenttä rakennetaan yhden kiinteän suunnitelman mukaan, määrätyillä mitoilla.",
+    "sport-compak-layout-p1": "{{tm:compak}} mahtuu yhdelle kentälle. Ampujien edessä on merkitty suorakulmio, 35–40 m leveä ja 25 m syvä, jonka kussakin kulmassa on lipulla merkitty paalu. Säännöt vaativat sen jokaiselle kentälle. Tyynessä säässä kunkin kiekon on lennettävä tämän suorakulmion yli jossain lentonsa vaiheessa.",
+    "targets-compak-layout-p2": "Kulmapaalut ovat noin 50 cm korkeita. {{term:fly-over-zone|Suorakulmion}} sivuja kutsutaan AB, BC, CD ja AD, ja AD on ampujia kohti oleva sivu. Ampumapaikkojen linja on AD:n suuntainen ja 4–8 m sen takana, ja ampumapaikka 3 on sen keskikohtaa vastapäätä.",
+    "sport-compak-layout-p2": "Viisi ampumapaikkaa, kukin 1 m:n neliö, seisovat rivissä, keskipisteiden välillä 2–5 m. Ne numeroidaan 1–5 vasemmalta oikealle. Kullakin ampumapaikalla on {{term:firing-angle-limiter|ampumakulman rajoitin}} (Firing Angle Limiter), putkista tehty kehikko. Se rajoittaa, kuinka kauas asetta voi kääntää sivulle, ylös tai alas, ja estää ampujaa nojaamasta tai astumasta eteenpäin.",
+    "sport-compak-layout-p3": "Kuusi heitintä, A–F vasemmalta oikealle, kantavat kukin kirjainkilpeä. Ne voivat olla edessä, sivuilla tai ampujien takana; linjan takana oleva heitin seisoo {{term:tower|tornissa}} (tower), {{fact:targets.compak-tower-height}}. Jokaisella {{tm:compak}}-kentällä on oltava kolme pakollista lentorataa. Kaksi niistä on {{term:crosser|sivukiekkoja}}: yksi lentää poikki vasemmalta oikealle, toinen oikealta vasemmalle, ja molemmat kulkevat sivujen AB ja CD yli. Kolmas on {{term:going-away|peräkiekko}}, joka lentää ampujista poispäin sivun BC yli. Muut lentoradat valitsee järjestäjä; ne pysyvät lyhyinä, jottei kiekko ylety seuraavalle kentälle.",
+    "compak-layout-rotation-p3": "{{term:round|Kierros}} on 25 kiekkoa, viisi kullakin ampumapaikalla. Ampumapaikan viisi kiekkoa tulevat yhdellä kolmesta tavasta: {{fact:targets.compak-station-menus}}. Yhdellä kentällä kaikki kaksoiskiekot ovat samaa tyyppiä: joko laukauksesta lähteviä (toinen kiekko lähtee, kun ampuu ensimmäistä) tai yhtäaikaisia (molemmat lähtevät yhdessä). {{term:target-menu|Kiekkoluettelo}}, ampumapaikan kiekkojen järjestyksessä oleva luettelo, on esillä kullakin ampumapaikalla. Ampumapaikat ovat ketjussa: {{fact:targets.compak-double-chain}}.",
+    "targets-compak-layout-p5": "FITASC tarjoaa {{fact:targets.compak-setting-tables}} ja suosittaa niiden käyttöä kilpailuissa. Miten kiekkoluetteloa luetaan, selitetään luvussa {{lesson:targets-menu}}.",
+    "compak-layout-rotation-p4": "Miten enintään kuuden hengen erä etenee ampumapaikkojen läpi: ampumapaikalla 1 oleva ampuja ampuu ensin, ja kuudes ampuja odottaa ampumapaikan 1 takana. Kun ampumapaikan 5 ampuja on valmis, kaikki siirtyvät yhden ampumapaikan oikealle. Ampumapaikan 5 ampuja menee odottamaan ampumapaikan 1 taakse, ja odottanut ampuja astuu ampumapaikalle 1. Vaihda paikkaa ase avoinna ja lataamattomana, häiritsemättä niitä, jotka vielä ampuvat.",
+    "targets-compak-layout-p6": "Sinulla on enintään 10 sekuntia aikaa pyytää kiekkoa sen jälkeen, kun edellisen ampumapaikan kiekko on ammuttu. Kun vuorosi tulee, ole valmiina heti, mukana patruunat koko kierrokselle.",
+    "sport-compak-layout-p5": "Joissain kilpailuissa {{tm:compak}} ammutaan sen sijaan linjassa (in line): kukin ampuja aloittaa ampumapaikalta 1 ja lopettaa ampumapaikalle 5. Kysy järjestäjältä, kumpaa järjestelmää käytetään, koska menettely eroaa.",
+    "targets-compak-layout-p7": {
+      "sporting": "Ase alhaalla: tukin yläosa pysyy {{term:jacket-line|liivin merkkiviivan}} alapuolella, kunnes kiekko ilmestyy.",
+      "compak": "Asento on vapaa: ase voi olla jo olalla (nostettuna). Kukin kiekko ammutaan silti ase olalla."
+    }
+  },
+  "note": {},
+  "phrases": {
+    "sport-compak-layout-ph1": {
+      "meaning": "Erä kiertää; ampumapaikan 5 ampuja menee ampumapaikan 1 taakse.",
+      "say": "Kaikki yksi paikka oikealle. Numero viisi, odotuspaikalle."
+    },
+    "sport-compak-layout-ph2": {
+      "meaning": "Heittimen E kiekko heitetään korkeasta tornista ja kulkee pään yli.",
+      "say": "Heitin E on torni – se tulee pääsi yli."
+    },
+    "sport-compak-layout-ph3": {
+      "meaning": "Kunnioita ampumakulman rajoitinta; älä vie asetta sen ohi.",
+      "say": "Varo kehikkoa – älä heilauta tolpan ohi."
+    },
+    "compak-layout-rotation-ph1": {
+      "meaning": "Ampumajärjestyksen vaihto sen jälkeen, kun ampumapaikan 5 ampuja on valmis.",
+      "say": "Siirry yksi paikka oikealle."
+    },
+    "compak-layout-rotation-ph2": {
+      "meaning": "Ampumapaikkojen välillä ase on avattuna ja tyhjänä.",
+      "say": "Ase auki, kun vaihdat paikkaa."
+    },
+    "compak-layout-rotation-ph3": {
+      "meaning": "Dupletisi ensimmäinen kiekko on sama kiekko, joka ammuttiin viimeisenä edellisellä ampumapaikalla.",
+      "say": "Kaksoiskiekkosi alkaa edellisen paikan viimeisellä kiekolla."
+    },
+    "compak-layout-rotation-ph4": {
+      "meaning": "Kuudes ampuja seisoo ampumapaikan 1 takana.",
+      "say": "Sinä odotat ykköspaikan takana."
+    }
+  },
+  "key_points": {
+    "compak-layout-rotation-kp1": "Suorakulmio 35–40 m × 25 m; viisi 1 m:n ampumapaikkaa; kuusi heitintä A–F.",
+    "compak-layout-rotation-kp2": "Pakolliset: vasemmalta oikealle lentävä sivukiekko, oikealta vasemmalle lentävä sivukiekko, peräkiekko.",
+    "compak-layout-rotation-kp3": "Kierros = 25 kiekkoa, 5 ampumapaikkaa kohden; yksi kaksoiskiekkotyyppi koko kentällä.",
+    "compak-layout-rotation-kp5": "Ampumapaikan 5 jälkeen: odota ampumapaikan 1 takana; kaikki siirtyvät yhden ampumapaikan oikealle.",
+    "targets-compak-layout-kp5": "Aseen asento kutsun aikana on vapaa; kutsuun on aikaa enintään 10 sekuntia."
+  },
+  "quiz": {
+    "sport-compak-layout-q1": {
+      "q": "Montako heitintä ja ampumapaikkaa yhdellä Compak® Sporting -kentällä on?",
+      "options": {
+        "a": "4 heitintä, 3 ampumapaikkaa",
+        "b": "6 heitintä, 5 ampumapaikkaa",
+        "c": "5 heitintä, 6 ampumapaikkaa",
+        "d": "8 heitintä, 8 ampumapaikkaa"
+      },
+      "explain": "Heittimet A–F ja ampumapaikat 1–5."
+    },
+    "compak-layout-rotation-q2": {
+      "q": "Ampumapaikan 5 ampuja on ampunut kiekkoluettelonsa. Mihin hän menee?",
+      "options": {
+        "a": "Ampumapaikalle 1",
+        "b": "Hän jää ampumapaikalle 5",
+        "c": "Ampumapaikan 1 taakse odottamaan",
+        "d": "Tuomarin luo allekirjoittamaan pöytäkirjan"
+      },
+      "explain": "Hänestä tulee odottava ampuja ampumapaikan 1 taakse, ja kaikki muut siirtyvät yhden ampumapaikan oikealle."
+    },
+    "targets-compak-layout-q3": {
+      "q": "Miten {{tm:compak}}-lajissa saa pitää asetta, kun pyydät kiekkoa?",
+      "options": {
+        "a": "Vapaasti: se voi olla jo nostettuna",
+        "b": "Vain alhaalla, liivin viivan alapuolella",
+        "c": "Vain olalla, piiput ylöspäin"
+      },
+      "explain": "{{tm:compak}}-lajissa aseen asento kutsun aikana on vapaa, mutta ammut aina ase olalla. Alhaalla pidetty ase ja liivin viiva on {{tm:sporting}}-säännös."
+    },
+    "sport-compak-layout-q2": {
+      "q": "Kuuden ampujan erässä, missä kuudes ampuja on muiden ampuessa?",
+      "options": {
+        "a": "Klubitalolla",
+        "b": "Tuomarin vieressä ampumapaikalla 5",
+        "c": "Heittimen F takana",
+        "d": "Odottamassa ampumapaikan 1 takana"
+      },
+      "explain": "Odottava ampuja seisoo ampumapaikan 1 takana ja astuu sille jokaisen kierron jälkeen."
+    },
+    "sport-compak-layout-q3": {
+      "q": "Mihin ampumakulman rajoitinta tarvitaan?",
+      "options": {
+        "a": "Se rajoittaa aseen liikettä ja estää astumasta eteenpäin",
+        "b": "Se mittaa jokaisen heitetyn kiekon nopeuden",
+        "c": "Se säilyttää patruunat koko kierroksen ajan",
+        "d": "Se lähettää kiekot ampujan pyynnöstä"
+      },
+      "explain": "Se on jokaisella ampumapaikalla oleva turvakehikko, joka rajoittaa aseen sivuttaista ja pystysuuntaista liikettä."
+    },
+    "compak-layout-rotation-q3": {
+      "q": "Compak®-radalla jokaisen kaksoiskiekon ensimmäinen kiekko on…",
+      "options": {
+        "a": "mikä tahansa ampujan valitsema kiekko",
+        "b": "aina heitin A",
+        "c": "kiekko, joka näytetään vain pyynnöstä",
+        "d": "edellisen ampumapaikan viimeinen kiekko"
+      },
+      "explain": "Kiekkoluettelo ketjuttaa ampumapaikat: jokainen kaksoiskiekko alkaa kiekolla, joka päätti edellisen ampumapaikan."
+    },
+    "targets-compak-layout-q-rectangle": {
+      "q": "Mitä kunkin {{tm:compak}}-kiekon on tehtävä tyynessä säässä?",
+      "options": {
+        "a": "Pudota merkityn suorakulmion sisään",
+        "b": "Lentää merkityn suorakulmion yli",
+        "c": "Lentää täsmälleen ampumapaikan 3 yli"
+      },
+      "explain": "Tyynessä säässä kunkin kiekon on lennettävä suorakulmion yli jossain lentonsa vaiheessa."
+    },
+    "targets-compak-layout-q-line": {
+      "q": "Missä ampumapaikkojen linja sijaitsee {{tm:compak}}-kentällä?",
+      "options": {
+        "a": "4–8 m sivun AD takana, sen suuntaisesti",
+        "b": "Suorakulmion sisällä, sivun BC lähellä",
+        "c": "Tornissa, heittimen F takana"
+      },
+      "explain": "Ampumapaikat seisovat rivissä 4–8 m sivun AD takana, ja ampumapaikka 3 on sen keskikohtaa vastapäätä."
+    }
+  },
+  "did_you_know": "Dupletti ketjun ansiosta tuomari voi näyttää seuraavalle ampujalle kiekon, josta hänen dublettinsa alkaa: edellisen ampumapaikan viimeisen kiekon."
+}

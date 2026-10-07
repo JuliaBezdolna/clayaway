@@ -1,0 +1,387 @@
+{
+  "id": "cartridges-shot-size",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "cartridges-shot-size"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "shot-size",
+    "cartridge",
+    "load-weight",
+    "lead-shot",
+    "pattern",
+    "rabbit",
+    "battue"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-cartridges"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-load"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-bans"
+    }
+  ],
+  "facts": [
+    "gear.fitasc-shot-diameter"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Federal Premium — shotshell guide: US shot sizes in inches and mm, average pellet count per ounce",
+        "uk": "Federal Premium — довідник дробових патронів: американські номери дробу в дюймах і мм, середня кількість дробин на унцію"
+      },
+      "url": "https://www.federalpremium.com/on/demandware.static/-/Library-Sites-VistaFederalSharedLibrary/default/ve1ee04a44271d744373155c0b4d7e4c993afc242/contentDocuments/catalog/2019/Federal2019-Shotshell.pdf",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Gamebore White Gold 28 g: No. 7½ = 2.4 mm, No. 8 = 2.3 mm",
+        "uk": "Gamebore White Gold 28 г: № 7½ = 2,4 мм, № 8 = 2,3 мм"
+      },
+      "url": "https://gamebore.com/cartridge/clay/12g-white-gold",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Shooting UK — how shot sizes compare between countries",
+        "uk": "Shooting UK — як порівнюють номери дробу в різних країнах"
+      },
+      "url": "https://shootinguk.co.uk/guns/ammunition/shot-size-for-game-115121",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Shot size",
+    "uk": "Номер дробу"
+  },
+  "summary": {
+    "en": "What shot numbers 7, 7½, 8 and 9 mean, why numbering differs between countries, and which diameter the rules of {{tm:sporting}} and {{tm:compak}} allow.",
+    "uk": "Що означають номери дробу 7, 7½, 8 і 9, чому нумерація різниться між країнами і який діаметр дозволяють правила {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "gear-cartridges-p3",
+      "t": "p",
+      "core": true,
+      "en": "{{term:shot-size|Shot size}} numbers run upside down: the bigger the number, the smaller the pellet, so No. 9 is finer than No. 7½. The same number can mean slightly different sizes in Britain, continental Europe and the USA, so check the millimetres on the box. 'Nines' and 'seven-and-a-halfs' are common coach words.",
+      "uk": "{{term:shot-size|Номер дробу}} (shot size) теж «навпаки»: що більший номер, то дрібніша дробина, тож № 9 дрібніший за № 7½. Той самий номер у Британії, континентальній Європі й США може означати трохи різний розмір, тому дивіться міліметри на коробці. «Nines», «seven-and-a-halfs» — звичні слова тренерів: «дев’ятка», «сімка з половиною»."
+    },
+    {
+      "k": "cartridges-shot-size-p2",
+      "t": "steps",
+      "en": [
+        "No. 9: about 2.0 mm.",
+        "No. 8: about 2.2–2.3 mm.",
+        "No. 7½: about 2.3–2.4 mm.",
+        "No. 7: about 2.4–2.5 mm."
+      ],
+      "uk": [
+        "№ 9: близько 2,0 мм.",
+        "№ 8: близько 2,2–2,3 мм.",
+        "№ 7½: близько 2,3–2,4 мм.",
+        "№ 7: близько 2,4–2,5 мм."
+      ]
+    },
+    {
+      "k": "cartridges-shot-size-p7",
+      "t": "p",
+      "en": "Why 'about'? Numbering differs between countries and makers. In the traditional British scale No. 7½ is 2.3 mm and No. 8 is 2.2 mm. Continental numbering, which some British makers such as Gamebore also use for clay loads, calls 2.4 mm shot No. 7½ and 2.3 mm shot No. 8. The American No. 7½ is 0.095 in, about 2.41 mm.",
+      "uk": "Чому «близько»? Бо нумерація в різних країнах і в різних виробників не збігається. У традиційній британській шкалі № 7½ — це 2,3 мм, а № 8 — 2,2 мм. Континентальна нумерація, якою для спортивних патронів користуються й деякі британські виробники, як-от Gamebore, називає № 7½ дріб 2,4 мм, а № 8 — 2,3 мм. Американський № 7½ — 0,095 дюйма, тобто близько 2,41 мм."
+    },
+    {
+      "k": "cartridges-shot-size-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "The rules of {{tm:sporting}} and {{tm:compak}} require {{term:lead-shot|lead shot}} of {{fact:gear.fitasc-shot-diameter}}. In practice that means No. 9, 8, 7½, and No. 7 if its diameter stays within the limit. No. 6 (about 2.6–2.8 mm) sits on the edge of the limit or beyond it, even with the tolerance, so it is not a competition load. Mixing shot of different sizes in one cartridge is forbidden.",
+      "uk": "Правила {{tm:sporting}} і {{tm:compak}} вимагають {{term:lead-shot|свинцевий дріб}}: {{fact:gear.fitasc-shot-diameter}}. На практиці це № 9, 8, 7½, а також № 7, якщо його діаметр не виходить за межу. Дріб № 6 (приблизно 2,6–2,8 мм) — на самій межі або за нею навіть із допуском, тож для змагань він не годиться. Змішувати в одному патроні дріб різних розмірів заборонено."
+    },
+    {
+      "k": "cartridges-shot-size-p4",
+      "t": "p",
+      "en": "Smaller shot gives more pellets for the same load: 28 g holds about 350–400 pellets of No. 7½, depending on the exact diameter, and about 580 of No. 9. So the {{term:pattern|pattern}} is denser, but each pellet is lighter and loses energy sooner.",
+      "uk": "Дрібніший дріб дає більше дробин у тій самій наважці: у 28 г приблизно 350–400 дробин № 7½ (залежно від точного діаметра) і близько 580 дробин № 9. Тож {{term:pattern|осип}} густіший, але кожна дробина легша й швидше втрачає енергію."
+    },
+    {
+      "k": "cartridges-shot-size-p5",
+      "t": "p",
+      "en": "That is why many shooters use No. 9 for close targets: its dense pattern covers the target easily. For medium and far targets they choose No. 8 or No. 7½, because heavier pellets break targets better at range. No. 7½ is also popular for tough {{term:rabbit|rabbit}} targets and for a {{term:battue|battue}} flying edge-on.",
+      "uk": "Тому багато стрільців беруть № 9 для близьких мішеней: густий осип легко «накриває» мішень. Для середніх і далеких обирають № 8 або № 7½: важчі дробини краще розбивають мішень на відстані. № 7½ люблять і для міцних мішеней {{term:rabbit|«кролик»}} (rabbit), і для {{term:battue|батю}}, коли вона летить ребром."
+    },
+    {
+      "k": "cartridges-shot-size-p6",
+      "t": "tip",
+      "en": "Many {{tm:sporting}} shooters pick one all-round cartridge, for example 28 g No. 7½ or No. 8, and keep things simple. Some load No. 9 in the first barrel for a close target and No. 7½ in the second.",
+      "uk": "Багато стрільців у {{tm:sporting}} обирають один універсальний патрон, наприклад 28 г № 7½ або № 8, і не ускладнюють. Дехто заряджає № 9 у перший ствол для близької мішені, а № 7½ — у другий."
+    }
+  ],
+  "note": [
+    {
+      "k": "cartridges-shot-size-n1",
+      "for": "interpreter",
+      "en": "Say the shot number exactly as the coach gives it, and add the millimetres only if they are on the box.",
+      "uk": "Називайте номер дробу так, як його сказав тренер, а міліметри додавайте, лише якщо вони є на коробці."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "gear-cartridges-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Nines for the close stuff, seven-and-a-halfs for the long crossers.",
+      "meaning": {
+        "en": "Finer No. 9 shot for near targets, larger No. 7½ for far crossing targets.",
+        "uk": "Дрібніший № 9 — на близькі мішені, крупніший № 7½ — на далекі поперечні."
+      },
+      "say": {
+        "uk": "Дев’ятку — на близькі, сімку з половиною — на далекі поперечні."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "gear-cartridges-kp3",
+      "core": true,
+      "en": "Shot size: bigger number, smaller pellet; numbering differs by country, check millimetres.",
+      "uk": "Номер дробу: більший номер — дрібніша дробина; нумерація різниться, дивіться міліметри."
+    },
+    {
+      "k": "cartridges-shot-size-kp2",
+      "en": "No. 9 ≈ 2.0 mm, No. 8 ≈ 2.2–2.3 mm, No. 7½ ≈ 2.3–2.4 mm, No. 7 ≈ 2.4–2.5 mm",
+      "uk": "№ 9 ≈ 2,0 мм, № 8 ≈ 2,2–2,3 мм, № 7½ ≈ 2,3–2,4 мм, № 7 ≈ 2,4–2,5 мм"
+    },
+    {
+      "k": "cartridges-shot-size-kp4",
+      "en": "FITASC: {{fact:gear.fitasc-shot-diameter}}; no mixing.",
+      "uk": "FITASC: {{fact:gear.fitasc-shot-diameter}}; без змішування."
+    },
+    {
+      "k": "cartridges-shot-size-kp5",
+      "en": "No. 9 for close targets, No. 8 and No. 7½ for medium and far ones.",
+      "uk": "№ 9 — для близьких мішеней, № 8 і № 7½ — для середніх і далеких."
+    }
+  ],
+  "did_you_know": {
+    "k": "cartridges-shot-size-dyk",
+    "en": "Shot for clay cartridges is made of lead with some antimony added. Antimony makes the pellets harder, so they deform less in the barrel and give a more even pattern. Some shot is also nickel-plated.",
+    "uk": "Дріб для спортивних патронів роблять зі свинцю з домішкою сурми. Сурма робить дробини твердішими, тож вони менше деформуються в стволі й дають рівніший осип. Деякий дріб ще й покривають нікелем."
+  },
+  "quiz": [
+    {
+      "k": "gear-cartridges-q1",
+      "q": {
+        "en": "Which is the finer shot?",
+        "uk": "Який дріб дрібніший?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No. 7",
+          "uk": "№ 7"
+        },
+        {
+          "k": "b",
+          "en": "No. 7½",
+          "uk": "№ 7½"
+        },
+        {
+          "k": "c",
+          "en": "No. 8",
+          "uk": "№ 8"
+        },
+        {
+          "k": "d",
+          "en": "No. 9",
+          "uk": "№ 9"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The bigger the shot number, the smaller the pellet.",
+        "uk": "Що більший номер дробу, то менша дробина."
+      }
+    },
+    {
+      "k": "cartridges-shot-size-q2",
+      "disc": "both",
+      "q": {
+        "en": "What shot diameter do the FITASC rules allow?",
+        "uk": "Який діаметр дробу дозволяють правила FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "1.5–2.0 mm (±0.1 mm)",
+          "uk": "1,5–2,0 мм (±0,1 мм)"
+        },
+        {
+          "k": "b",
+          "en": "2.0–2.5 mm (±0.1 mm)",
+          "uk": "2,0–2,5 мм (±0,1 мм)"
+        },
+        {
+          "k": "c",
+          "en": "2.5–3.0 mm (±0.1 mm)",
+          "uk": "2,5–3,0 мм (±0,1 мм)"
+        },
+        {
+          "k": "d",
+          "en": "Any size, if it is lead",
+          "uk": "Будь-який, якщо це свинець"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Shot must be round, lead and 2.0–2.5 mm across, with ±0.1 mm accepted.",
+        "uk": "Дріб має бути круглим, свинцевим, діаметром 2,0–2,5 мм, допуск ±0,1 мм."
+      },
+      "rule_ref": "sporting:ch7-cartridges"
+    },
+    {
+      "k": "cartridges-shot-size-q3",
+      "q": {
+        "en": "Why is it better to look at the millimetres, not only at the shot number?",
+        "uk": "Чому краще дивитися на міліметри, а не лише на номер дробу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The systems differ between countries",
+          "uk": "Системи нумерації різняться між країнами"
+        },
+        {
+          "k": "b",
+          "en": "Only dear cartridges show the number",
+          "uk": "Номер пишуть лише на дорогих патронах"
+        },
+        {
+          "k": "c",
+          "en": "The number on the box means nothing",
+          "uk": "Номер на коробці нічого не означає"
+        },
+        {
+          "k": "d",
+          "en": "The shot number shows the load, not size",
+          "uk": "Номер показує наважку, а не розмір"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The same number can differ by a tenth of a millimetre between systems.",
+        "uk": "Той самий номер у різних системах може відрізнятися на десяту міліметра."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "cartridges-shot-size-q1",
+      "q": {
+        "en": "Roughly how many No. 9 pellets are there in a 28 g load?",
+        "uk": "Приблизно скільки дробин № 9 у наважці 28 г?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "About 100",
+          "uk": "Близько 100"
+        },
+        {
+          "k": "b",
+          "en": "About 250",
+          "uk": "Близько 250"
+        },
+        {
+          "k": "c",
+          "en": "About 580",
+          "uk": "Близько 580"
+        },
+        {
+          "k": "d",
+          "en": "About 2,000",
+          "uk": "Близько 2000"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "About 580 No. 9 pellets, against about 350–400 of No. 7½: smaller shot gives a denser pattern.",
+        "uk": "Близько 580 дробин № 9 проти приблизно 350–400 дробин № 7½: дрібніший дріб дає густіший осип."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "37217a51",
+    "summary": "9e2b7ccd",
+    "gear-cartridges-p3": "a3ac6d4a",
+    "cartridges-shot-size-p2": "3294c65f",
+    "cartridges-shot-size-p7": "467cdf44",
+    "cartridges-shot-size-p3": "f08c93f3",
+    "cartridges-shot-size-p4": "be7f1f2b",
+    "cartridges-shot-size-p5": "d320c128",
+    "cartridges-shot-size-p6": "b143ac9c",
+    "cartridges-shot-size-n1": "2f7eff5f",
+    "gear-cartridges-kp3": "ded5ca0f",
+    "cartridges-shot-size-kp2": "6d34fe4a",
+    "cartridges-shot-size-kp4": "50ea643e",
+    "cartridges-shot-size-kp5": "cbde864a",
+    "cartridges-shot-size-dyk": "8f31f7da",
+    "gear-cartridges-ph1": "7c43883e",
+    "gear-cartridges-q1": "274d0256",
+    "cartridges-shot-size-q2": "820f13cc",
+    "cartridges-shot-size-q3": "7398a74b",
+    "cartridges-shot-size-q1": "4113df9d"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

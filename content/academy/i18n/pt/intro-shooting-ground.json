@@ -1,0 +1,86 @@
+{
+ "id": "intro-shooting-ground",
+ "lang": "pt",
+ "base_rev": 1,
+ "h": {
+  "title": "b20666cd",
+  "summary": "6bd14e2a",
+  "intro-shooting-ground-p1": "5342d490",
+  "intro-shooting-ground-p2": "9e155a13",
+  "intro-shooting-ground-p3": "527179db",
+  "intro-shooting-ground-p4": "62bf704a",
+  "intro-shooting-ground-p5": "088fa7b4",
+  "intro-shooting-ground-p6": "4b44ec73",
+  "intro-shooting-ground-kp1": "9781dc63",
+  "intro-shooting-ground-kp2": "d96d7209",
+  "intro-shooting-ground-kp3": "a4b0be72",
+  "intro-shooting-ground-kp4": "f581af87",
+  "intro-shooting-ground-dyk": "91d2d74b",
+  "intro-shooting-ground-q1": "f5876e96",
+  "intro-shooting-ground-q2": "e656c81f",
+  "intro-shooting-ground-q3": "9394e7e4",
+  "intro-shooting-ground-q-fal": "4b082e3b"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Como é um campo de tiro",
+ "summary": "O clube, os percursos de {{tm:sporting}}, o campo de {{tm:compak}} e as máquinas: o que vai ver na sua primeira visita.",
+ "body": {
+  "intro-shooting-ground-p1": "Um {{term:range|campo de tiro}}, muitas vezes chamado só «o campo», costuma ter um clube com receção, um café e {{term:gun-rack|armeiros}}, campos de treino e os percursos usados nas competições.",
+  "intro-shooting-ground-p2": "No {{tm:sporting}} o terreno divide-se em {{term:layout|percursos}}: grupos de {{term:shooting-stand|postos de tiro}} de onde se dispara uma série de {{fact:rules.round-targets}}. As máquinas estão muitas vezes escondidas atrás de arbustos ou em valas, ou montadas em torres. Os pratos voam então como voaria a caça (as aves e lebres que os caçadores abatem): sobre um campo, de entre as árvores, sobre água. Como funcionam um percurso e uma série: {{lesson:targets-sporting-layout}}.",
+  "intro-shooting-ground-p3": "Um posto de {{tm:sporting}} tem {{fact:basics.sporting-stand-size}}. Deve ser, tanto quanto possível, nivelado e não pode ser deslizante, porque isto é uma questão de segurança. À frente do posto encontra o {{term:target-menu|menu}} (target menu): nele estão listadas as máquinas pela ordem de tiro e quaisquer pratos especiais.",
+  "intro-shooting-ground-p4": "O {{tm:compak}} monta-se num só campo com {{fact:basics.compak-field}}. Cada número mede 1 × 1 m, com 2 a 5 m entre os centros dos números vizinhos. As máquinas podem estar à frente ou ao lado dos números; uma máquina atrás deles fica numa {{term:tower|torre}} com pelo menos 4 m de altura. Cada número tem um {{term:firing-angle-limiter|limitador do ângulo de tiro}}, uma armação que impede a arma de se desviar para um sentido inseguro. Mais: {{lesson:targets-compak-layout}}.",
+  "intro-shooting-ground-p5": "Os pratos vêm em vários tipos: {{term:standard-target|normal}}, {{term:midi|midi}}, {{term:mini|mini}} (também chamado super-mini), {{term:battue|batida}} (fino e plano), {{term:rabbit|coelho}} (rola pelo chão) e {{term:flash-target|flash}}. Um prato flash deixa uma nuvem brilhante de pó quando é atingido. A cor é escolhida para que o prato se destaque contra o céu ou as árvores.",
+  "intro-shooting-ground-p6": "Na sua primeira visita, repare nos avisos e nas marcações: por onde pode andar, onde ficam os espectadores e onde é permitido atirar. Cada campo tem as suas próprias regras, por isso pergunte por elas antes do primeiro tiro. Os hábitos básicos de segurança estão na lição {{lesson:safety-core-rules}}."
+ },
+ "note": {},
+ "phrases": {},
+ "key_points": {
+  "intro-shooting-ground-kp1": "Um percurso de {{tm:sporting}} é um grupo de postos em terreno natural.",
+  "intro-shooting-ground-kp2": "Um posto de {{tm:sporting}} tem {{fact:basics.sporting-stand-size}}, nivelado e não deslizante.",
+  "intro-shooting-ground-kp3": "{{tm:compak}}: um só campo com {{fact:basics.compak-field}}, e um limitador do ângulo de tiro em cada número.",
+  "intro-shooting-ground-kp4": "Leia o menu em cada posto, e conheça as regras do campo antes de atirar."
+ },
+ "did_you_know": "Um prato flash contém pó brilhante, por isso um acerto se vê mesmo de longe. Os espectadores adoram.",
+ "quiz": {
+  "intro-shooting-ground-q1": {
+   "q": "Que tamanho tem um posto de tiro de {{tm:sporting}}?",
+   "options": {
+    "a": "Um quadrado de 1 m ou um círculo de 1 m",
+    "b": "Um quadrado de 3 m com cerca",
+    "c": "O tamanho que o clube quiser"
+   },
+   "explain": "As regras fixam {{fact:basics.sporting-stand-size}}."
+  },
+  "intro-shooting-ground-q2": {
+   "q": "O que mostra o menu?",
+   "options": {
+    "a": "Os preços do café",
+    "b": "As máquinas pela ordem de tiro",
+    "c": "Os resultados da esquadra"
+   },
+   "explain": "O menu à frente do posto lista as máquinas pela ordem de tiro e quaisquer pratos especiais."
+  },
+  "intro-shooting-ground-q3": {
+   "q": "Que prato rola pelo chão?",
+   "options": {
+    "a": "Batida",
+    "b": "Midi",
+    "c": "Coelho"
+   },
+   "explain": "O prato coelho rola pelo chão e salta nas irregularidades."
+  },
+  "intro-shooting-ground-q-fal": {
+   "q": "Para que serve a armação em cada número de {{tm:compak}}?",
+   "options": {
+    "a": "Serve para pendurar o menu",
+    "b": "Limita o movimento da arma",
+    "c": "Marca o lugar dos espectadores"
+   },
+   "explain": "O limitador do ângulo de tiro impede que a arma aponte num sentido inseguro e mantém o atirador dentro do número."
+  }
+ }
+}

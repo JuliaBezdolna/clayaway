@@ -1,0 +1,109 @@
+{
+  "id": "referee-calls",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "O que o árbitro diz no posto",
+  "body": {
+    "referee-calls-p1": "Um posto tem a sua própria linguagem curta. Quando está pronto, o atirador dá o {{term:call|pedido}}, normalmente «Pull!» ou «Ready!». No {{tm:sporting}} o {{term:referee|árbitro}} transmite o pedido ao {{term:trapper|pulleur}} com um sinal sonoro. O prato tem de sair {{fact:rules.release-within-3s}} desse sinal; um prato mais tardio é {{term:no-bird|No Bird}}. No {{tm:compak}} um lançamento manual também tem de ocorrer {{fact:rules.release-within-3s}} depois do pedido. Um lançamento ativado por voz ({{term:sonopull|sonopull}}: um microfone que lança o prato quando ouve o pedido) tem um atraso fixo de {{fact:rules.sonopull-delay}}.",
+    "referee-calls-p2": "Antes de alguém atirar, o árbitro decide quando as armas podem ser carregadas e fechadas. As regras só permitem {{term:loading|carregar}} no posto, com a arma apontada para a zona de tiro, depois de o árbitro ter dito que o tiro pode começar. Durante a mostra dos pratos ({{term:target-presentation|presentation}}), e sempre que o tiro para, as armas estão abertas e vazias. Só voltam a ser fechadas quando o árbitro o permite. No {{tm:compak}} o árbitro dá início à série com «Start» ou «Competition».",
+    "referee-calls-p3": "Depois de cada prato, as regras conhecem apenas três resultados: «{{term:one|one}}» (acerto), «{{term:zero|zero}}» (perdido) e «No Bird» (o prato não conta e é lançado outra vez). No terreno também vai ouvir «dead» ou «good» para um acerto e «lost» para uma falha; alguns árbitros não dizem nada depois de um acerto. No {{tm:compak}} o árbitro anuncia cada zero em voz alta ou com um sinal sonoro, para que um atirador que discorde possa protestar de imediato.",
+    "referee-calls-p4": "O atirador também tem uma palavra formal. Para discordar de uma decisão, levante a mão de imediato, no posto, e diga «{{term:protest|Protest!}}» ou «{{term:appeal|Appeal!}}» ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Mais frases de que um atirador precisa: {{lesson:stand-talk-shooter-phrases}}."
+  },
+  "note": {
+    "referee-calls-n1": "Mantenha estas vozes curtas e sempre as mesmas. Combine com o seu atirador, antes da série, que palavras vai usar. Não acrescente nada seu entre a voz e o tiro."
+  },
+  "phrases": {
+    "referee-calls-ph1": {
+      "meaning": "O árbitro autoriza o início do tiro: carregue agora, com a arma apontada para a zona de tiro.",
+      "say": "Pode carregar."
+    },
+    "referee-calls-ph2": {
+      "meaning": "Esse prato não conta; não lhe atire. Vai ser lançado outra vez.",
+      "say": "Nulo!"
+    },
+    "referee-calls-ph3": {
+      "meaning": "O árbitro pontuou o prato como falha (zero).",
+      "say": "Zero."
+    },
+    "referee-calls-ph4": {
+      "meaning": "O prato é um acerto (BOM).",
+      "say": "Bom."
+    },
+    "referee-calls-ph5": {
+      "meaning": "Todos abrem e descarregam as armas; o árbitro vai lançar os pratos para a mostra.",
+      "say": "Armas abertas, por favor — vamos mostrar os pratos."
+    },
+    "referee-calls-ph6": {
+      "meaning": "Compak®: a mostra acabou, a série conta a partir de agora.",
+      "say": "Início. / Competição."
+    }
+  },
+  "key_points": {
+    "referee-calls-kp1": "O atirador pede «Pull!» ou «Ready!»; o prato tem de sair em 3 segundos",
+    "referee-calls-kp2": "Carregar só no posto e só quando o árbitro o permitir; armas abertas durante a mostra e as paragens",
+    "referee-calls-kp3": "Palavras das regras: one = acerto (BOM), zero = falha (ZERO), No Bird = NULO, lançado outra vez",
+    "referee-calls-kp4": "{{tm:compak}}: cada zero é anunciado em voz alta ou por sinal sonoro",
+    "referee-calls-kp5": "Protesto = mão levantada + «Protest!» ou «Appeal!»"
+  },
+  "quiz": {
+    "referee-calls-q1": {
+      "q": "No {{tm:sporting}} o prato sai cinco segundos depois do sinal do árbitro. Qual é a decisão?",
+      "options": {
+        "a": "Conta normalmente",
+        "b": "NULO",
+        "c": "Zero, porque o atirador pediu cedo demais",
+        "d": "Só uma advertência ao pulleur"
+      },
+      "explain": "Um prato tem de sair até três segundos depois do sinal do árbitro; um mais tardio é NULO e é lançado outra vez."
+    },
+    "referee-calls-q2": {
+      "q": "Quando pode um atirador carregar a arma?",
+      "options": {
+        "a": "Enquanto caminha para o posto",
+        "b": "Atrás do posto, enquanto espera",
+        "c": "No posto, com a arma apontada para a zona de tiro, depois de o árbitro autorizar o tiro",
+        "d": "Sempre que o treinador o disser"
+      },
+      "explain": "Só se pode carregar no posto, com a arma apontada para a zona de tiro, e só depois de o árbitro ter autorizado o início."
+    },
+    "referee-calls-q3": {
+      "q": "Com que palavras se inicia um protesto formal no posto?",
+      "options": {
+        "a": "«Protest!», com a mão levantada",
+        "b": "«No Bird!», com a mão levantada",
+        "c": "«Árbitro, veja esse prato!»",
+        "d": "«Espere!», depois do prato seguinte"
+      },
+      "explain": "Os dois regulamentos usam «protest» ou «appeal» com a mão levantada, de imediato; «No Bird» é a palavra do árbitro."
+    }
+  },
+  "summary": "As palavras curtas do posto: a voz de comando, carregar e abrir a arma, «one», «zero» e «No Bird», e a palavra formal do atirador para um protesto."
+}

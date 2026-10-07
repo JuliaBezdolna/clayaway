@@ -1,0 +1,107 @@
+{
+  "_note": "Facts of the ClayArena Academy block 'Competitions' (Змагання): one number in one place (design §6.5). Used in lesson texts as {{fact:competitions.<id>}}; the text is a fragment that fits into a sentence in each language (Ukrainian in the nominative). Every number is checked against docs/rules/data (FITASC editions of 01/01/2025; categories.js valid from 2027-01-01) and the official FITASC pages. Numbers that other blocks already keep are reused from there instead of being repeated here: basics.international-targets, rules.squad-max-shooters, basics.fitasc-categories-2027, basics.fitasc-junior-age, gear.fitasc-max-gauge, gear.fitasc-min-barrel, gear.fitasc-shot-load, rules.sporting-jury-deposit, rules.shootoff-ready-time, rules.dress-shorts-length, rules.round-targets. scope = sporting | compak | both; rule_ref = the main rules guide item, rule_refs = all items behind the number (one per book when both disciplines share it).",
+  "sporting-grand-prix-line": {
+    "text": {
+      "en": "3 shooting stands with 5 traps each",
+      "uk": "3 стрілецьких місця по 5 машинок на кожному"
+    },
+    "scope": "sporting",
+    "rule_ref": "sporting:ch2-traps-table",
+    "rule_refs": [
+      "sporting:ch2-traps-table"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-championship-machines": {
+    "text": {
+      "en": "48 new machines",
+      "uk": "48 нових машинок"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch5-championship-machines",
+    "rule_refs": [
+      "compak:ch5-championship-machines"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "shoot-off-format": {
+    "text": {
+      "en": "a shoot-off of 25 targets, then sudden death if the scores are still level",
+      "uk": "перестрілка (shoot-off) на 25 мішеней, а якщо рівність лишається, — стрільба до першого промаху (sudden death)"
+    },
+    "scope": "both",
+    "rule_ref": "sporting:ch18-sudden-death",
+    "rule_refs": [
+      "sporting:ch18-top-three",
+      "sporting:ch18-sudden-death",
+      "compak:ch14-shootoff-medals"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "countback-order": {
+    "text": {
+      "en": "on the 8th layout or Compak first, then on the 7th, and so on back to the 1st",
+      "uk": "спершу на 8-му майданчику чи Compak, потім на 7-му і так далі до 1-го"
+    },
+    "scope": "both",
+    "rule_ref": "sporting:ch18-top-three",
+    "rule_refs": [
+      "sporting:ch18-top-three",
+      "sporting:ch18-team-ties",
+      "compak:ch14-countback",
+      "compak:ch14-team-ties"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "categories-from": {
+    "text": {
+      "en": "1 January 2027",
+      "uk": "1 січня 2027 року"
+    },
+    "scope": "both",
+    "rule_ref": "categories:junior",
+    "rule_refs": [
+      "categories:junior"
+    ],
+    "sources": [
+      "https://www.fitasc.com/competitions/categories"
+    ]
+  },
+  "team-size": {
+    "text": {
+      "en": "three shooters; the Men team in Parcours de Chasse – Sporting™ has four",
+      "uk": "троє стрільців; у команді Men у Parcours de Chasse – Sporting™ — четверо"
+    },
+    "scope": "both",
+    "rule_ref": "categories:men",
+    "rule_refs": [
+      "categories:men"
+    ],
+    "sources": [
+      "https://www.fitasc.com/competitions/categories"
+    ]
+  },
+  "compak-late-zeros": {
+    "text": {
+      "en": "25 zeros for the round",
+      "uk": "25 нулів за раунд"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch9-late-squad",
+    "rule_refs": [
+      "compak:ch9-late-squad",
+      "compak:ch9-late-inline"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  }
+}

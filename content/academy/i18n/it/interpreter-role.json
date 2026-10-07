@@ -1,0 +1,94 @@
+{
+  "id": "interpreter-role",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "e32c790c",
+    "summary": "735494ce",
+    "interpreter-role-p1": "63aa3afe",
+    "interpreter-role-p2": "20bf17dd",
+    "interpreter-role-p3": "ffa9d77d",
+    "interpreter-role-p4": "05133f45",
+    "interpreter-role-p5": "95880a4b",
+    "interpreter-role-ph1": "37c9f2f8",
+    "interpreter-role-ph2": "c4e29ad8",
+    "interpreter-role-ph3": "d5bafeee",
+    "interpreter-role-ph4": "9865c9d3",
+    "interpreter-role-kp1": "55c1f223",
+    "interpreter-role-kp2": "c81d5e54",
+    "interpreter-role-kp3": "09ea0df5",
+    "interpreter-role-kp4": "2f221dbb",
+    "interpreter-role-kp5": "9ee1fb35",
+    "interpreter-role-q1": "e5205376",
+    "interpreter-role-q2": "03de6608",
+    "interpreter-role-q3": "9832dd5e"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "Il tuo ruolo: allenamento e gara",
+  "summary": "In allenamento sei la voce dell'istruttore. In gara l'assistenza tecnica è vietata, quindi riferisci solo ciò che dicono l'arbitro, la giuria e l'organizzatore.",
+  "body": {
+    "interpreter-role-p1": "In allenamento sei la voce dell'{{term:coach|istruttore}}. Riferisci ogni istruzione per intero, nell'ordine e nel tono dell'istruttore: fermo quando si tratta di sicurezza, caloroso quando è un complimento. Non ammorbidire le critiche né aggiungere motivazioni che l'istruttore non ha dato. Non aggiungere consigli tecnici tuoi, anche quando conosci la risposta. Se non hai sentito una parola, chiedi prima di tradurre.",
+    "interpreter-role-p2": "Una gara è diversa. Sia nel {{tm:sporting}} sia nel {{tm:compak}}, {{term:coaching|dare assistenza tecnica}} a un concorrente durante la gara è vietato. Il tiratore riceve un {{term:yellow-card|cartellino giallo}}, le recidive portano a sanzioni più severe, e l'{{term:referee|arbitro}} allontana dall'area di tiro chi ha dato assistenza ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). La decisione dell'arbitro spetta solo a lui. Nessuno nella {{term:squad|batteria}} commenta i piattelli colpiti. Criticare apertamente una decisione conta come {{term:attempt-to-influence|tentativo di influenzare}} l'arbitro, cioè cercare di spingerlo verso un'altra decisione ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "interpreter-role-p3": "Ecco la parte onesta: i regolamenti FITASC non parlano affatto degli {{term:interpreter|interpreti}}. Non dicono se riferire parola per parola il consiglio di un istruttore conti come assistenza tecnica. Non dicono nemmeno dove possa stare un interprete. È una questione aperta per la FITASC, quindi non presentare nessuna risposta come ufficiale.",
+    "interpreter-role-p4": "Finché la FITASC non risponde, segui una pratica sicura. In gara traduci solo ciò che passa tra il tuo tiratore e l'arbitro, la {{term:jury|giuria}} o l'{{term:organiser|organizzatore}}: chiamate, decisioni, avvertimenti, {{term:protest|reclami}}, orari e liste delle batterie. Prima della gara, di' all'arbitro o all'organizzatore chi sei e concorda dove ti metterai. Se un istruttore ti chiede di riferire un consiglio durante la gara, rifiuta gentilmente e spiega perché. Così proteggi il tuo tiratore da un cartellino giallo.",
+    "interpreter-role-p5": "Il regolamento non dice se una pausa tra le serie conti ancora come «durante la gara». Se non sei sicuro, chiedi alla giuria o all'organizzatore prima di riferire qualsiasi consiglio. Dove stare e quando parlare: {{lesson:interpreter-position}}."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-role-ph1": {
+      "meaning": "Allenamento: riferiscilo per intero quando il fucile è aperto.",
+      "say": "Dille che sul secondo piattello alza la testa."
+    },
+    "interpreter-role-ph2": {
+      "meaning": "Gara: questo è coaching. Rifiuta gentilmente; non riferirlo.",
+      "say": "Svelto, digli di dare più anticipo al traversone."
+    },
+    "interpreter-role-ph3": {
+      "meaning": "L'arbitro chiede perché sei vicino alla pedana; presentati e spiega il tuo ruolo.",
+      "say": "Lei con chi è?"
+    },
+    "interpreter-role-ph4": {
+      "meaning": "Una domanda procedurale all'arbitro: puoi tradurla.",
+      "say": "Chiedi all'arbitro se posso ancora cambiare gli strozzatori."
+    }
+  },
+  "key_points": {
+    "interpreter-role-kp1": "Allenamento: la voce dell'istruttore, per intero, stesso tono, niente di tuo",
+    "interpreter-role-kp2": "Gara: il coaching è vietato (cartellino giallo, istruttore allontanato)",
+    "interpreter-role-kp3": "Questione FITASC aperta: i regolamenti non parlano degli interpreti",
+    "interpreter-role-kp4": "Pratica sicura: in gara traduci solo la comunicazione con arbitro, giuria e organizzatore",
+    "interpreter-role-kp5": "Presentati all'arbitro e concorda dove ti metti"
+  },
+  "quiz": {
+    "interpreter-role-q1": {
+      "q": "Durante una serie di gara l'istruttore ti chiede di dire al tiratore «più anticipo sul traversone». Cosa fai?",
+      "options": {
+        "a": "Lo sussurri in fretta mentre carica",
+        "b": "Lo riferisci dopo il piattello successivo",
+        "c": "Rifiuti gentilmente: sarebbe assistenza tecnica",
+        "d": "Chiedi all'arbitro di riferirlo"
+      },
+      "explain": "L'assistenza tecnica durante la gara è vietata e il tiratore riceverebbe un cartellino giallo. Il regolamento non dice se riferire un consiglio sia permesso, quindi resta sul sicuro."
+    },
+    "interpreter-role-q2": {
+      "q": "Che cosa dicono i regolamenti FITASC sugli interpreti?",
+      "options": {
+        "a": "Possono stare in pedana",
+        "b": "Hanno bisogno di una licenza da arbitro",
+        "c": "Valgono come istruttori",
+        "d": "Niente: è una questione aperta"
+      },
+      "explain": "I regolamenti non parlano degli interpreti, quindi la loro posizione esatta in gara è una questione aperta per la FITASC."
+    },
+    "interpreter-role-q3": {
+      "q": "In allenamento l'istruttore dice «Not bad, but you stopped the gun». Come traduci?",
+      "options": {
+        "a": "Per intero e con lo stesso tono, entrambe le parti",
+        "b": "Solo il complimento, per far contento l'ospite",
+        "c": "Solo il difetto, per risparmiare tempo",
+        "d": "Aggiungendo un tuo consiglio su come correggere"
+      },
+      "explain": "Non ammorbidisci e non gonfi: tutto il messaggio, nel tono dell'istruttore, senza niente di tuo."
+    }
+  }
+}

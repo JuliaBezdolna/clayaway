@@ -1,0 +1,347 @@
+{
+  "id": "chokes-pattern-testing-and-care",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "chokes-pattern-testing-and-care"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "pattern-plate",
+    "pattern",
+    "choke",
+    "multichoke",
+    "choke-key",
+    "choke-grease",
+    "gun-fit",
+    "wad",
+    "cylinder",
+    "improved-cylinder",
+    "modified",
+    "improved-modified",
+    "full-choke"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "gear.fit-plate-distance"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Trulock Chokes — choke constrictions and lead pattern percentages in a 30-inch circle at 40 yards",
+        "uk": "Trulock Chokes — звуження чоків і відсоток свинцевого дробу в колі 30 дюймів на 40 ярдах"
+      },
+      "url": "https://trulockchokes.com/basic_choke_information.html",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Briley — Understanding chokes: 12-gauge constriction chart (inches)",
+        "uk": "Briley — як влаштовані чоки: таблиця звужень для 12 калібру (у дюймах)"
+      },
+      "url": "https://www.briley.com/c-456-understanding-chokes.aspx",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Shooting UK — Why you should always pattern your shotgun (pattern plate at 16 yards to check gun fit)",
+        "uk": "Shooting UK — навіщо перевіряти осип рушниці (пристрілювальна плита на 16 ярдах для перевірки підгонки)"
+      },
+      "url": "https://www.shootinguk.co.uk/answers/why-you-should-always-pattern-your-shotgun-16881/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Pattern testing and choke care",
+    "uk": "Перевірка осипу і догляд за чоками"
+  },
+  "summary": {
+    "en": "How to check your pattern on a plate, how to clean and grease chokes, and why {{tm:sporting}} and {{tm:compak}} shooters do not fire a multichoke gun without a choke.",
+    "uk": "Як перевірити осип на плиті, як чистити й змащувати чоки і чому стрільці {{tm:sporting}} і {{tm:compak}} не стріляють із рушниці зі змінними чоками без чока."
+  },
+  "body": [
+    {
+      "k": "chokes-pattern-testing-and-care-p1",
+      "t": "p",
+      "en": "To see what your choke really does, you shoot at a {{term:pattern-plate|pattern plate}}: a large steel sheet that is painted or greased so the pellets leave marks. A big sheet of paper, about 1 × 1 m, also works. Do this only at a ground that has such a plate, and with the staff's permission.",
+      "uk": "Щоб побачити, що робить ваш чок насправді, стріляють по {{term:pattern-plate|пристрілювальній плиті}} (pattern plate) — великому металевому листу, який фарбують або змащують, щоб на ньому лишалися сліди дробин. Підійде й великий аркуш паперу приблизно 1 × 1 м. Робіть це лише на стенді, де є така плита, і з дозволу персоналу."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-p2",
+      "t": "p",
+      "en": "To check {{term:gun-fit|gun fit}} you shoot from close range, {{fact:gear.fit-plate-distance}}: what matters there is where the centre of the pattern is. To judge the choke itself the distance is longer, classically 35 m or 40 yards (about 36.6 m). On paper you draw a circle 75–76 cm across around the densest part and count the pellet holes inside it. Then compare that number with the number of pellets in the cartridge (roughly 350–400 for 28 g of No. 7½; see {{lesson:cartridges-shot-size}}).",
+      "uk": "Щоб перевірити {{term:gun-fit|підгонку рушниці}}, стріляють із близької відстані — {{fact:gear.fit-plate-distance}}: тут важливо, де центр осипу. Щоб оцінити сам чок, відстань більша — класично 35 м або 40 ярдів (близько 36,6 м). На папері малюють коло діаметром 75–76 см навколо найщільнішої частини осипу й рахують сліди дробин у ньому. Потім це число порівнюють із кількістю дробин у патроні (для 28 г № 7½ — приблизно 350–400; див. {{lesson:cartridges-shot-size}})."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-p3",
+      "t": "p",
+      "en": "Roughly, at that distance {{term:cylinder|cylinder}} puts about 40% of the shot in the circle, improved cylinder about 50%, modified about 60%, improved modified about 65%, and full 70% or more. The figures depend on the cartridge, so your own gun and cartridge may give different results.",
+      "uk": "Орієнтовно на такій відстані {{term:cylinder|циліндр}} кладе в коло близько 40 % дробу, 1/4 (improved cylinder) — близько 50 %, півчок (modified) — близько 60 %, 3/4 (improved modified) — близько 65 %, повний чок — 70 % і більше. Цифри залежать від патрона, тож ваша пара «рушниця + патрон» може дати інший результат."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-p4",
+      "t": "tip",
+      "en": "One shot proves little: patterns vary noticeably even with identical cartridges. Fire at least 3–5 shots for each combination. Look at evenness too: a good pattern is even, without big holes and without a dense blob in the middle.",
+      "uk": "Один постріл мало що показує: осипи помітно різняться навіть з однаковими патронами. Зробіть хоча б 3–5 пострілів на кожен варіант. Дивіться й на рівномірність: добрий осип рівний, без великих «дірок» і без щільної плями посередині."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-p5",
+      "t": "steps",
+      "en": [
+        "After shooting, unscrew the chokes with the {{term:choke-key|choke key}}.",
+        "Clean them inside and out with solvent and a brush, and wipe the thread in the muzzle.",
+        "Before screwing them back in, put a thin layer of {{term:choke-grease|choke grease}} on the thread: it prevents rust and stops the choke from seizing."
+      ],
+      "uk": [
+        "Після стрільби викрутіть чоки {{term:choke-key|ключем для чоків}}.",
+        "Очистіть їх засобом для чищення й щіткою зсередини та ззовні, протріть різьбу в дулі.",
+        "Перш ніж вкрутити назад, нанесіть на різьбу тонкий шар {{term:choke-grease|мастила для чоків}}: воно захищає від іржі й не дає чоку «прикипіти»."
+      ]
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-p6",
+      "t": "p",
+      "en": "Check that chokes are tight before each session, because shooting can slowly loosen them. Screw them in fully with the key, but without excessive force.",
+      "uk": "Перед кожним тренуванням перевіряйте, чи щільно вкручено чоки: від пострілів вони можуть потроху розкручуватися. Вкручуйте ключем до упору, але без надмірної сили."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-p7",
+      "t": "warn",
+      "en": "Never fire a {{term:multichoke|multichoke}} gun without a choke, or with a choke that is only half screwed in. The shot and the {{term:wad|wad}} can damage the thread in the muzzle, and the repair is expensive. Keep spare chokes in a separate case so they do not get lost.",
+      "uk": "Ніколи не стріляйте з рушниці зі {{term:multichoke|змінними чоками}} без чока або з напіввкрученим чоком. Дріб і {{term:wad|пиж}} можуть пошкодити різьбу в дулі, а ремонт буде дорогим. Зберігайте запасні чоки в окремому футлярі, щоб не загубити."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "chokes-pattern-testing-and-care-kp1",
+      "en": "Patterns are checked on a plate: fit at {{fact:gear.fit-plate-distance}}, chokes at 35 m or 40 yards.",
+      "uk": "Осип перевіряють на плиті: підгонку — з відстані {{fact:gear.fit-plate-distance}}, чок — з 35 м або 40 ярдів."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-kp2",
+      "en": "Count the share of shot in a 75–76 cm circle; fire 3–5 shots.",
+      "uk": "Рахуйте частку дробу в колі 75–76 см; робіть 3–5 пострілів."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-kp3",
+      "en": "Clean chokes after shooting and grease the threads with choke grease.",
+      "uk": "Чоки чистять після стрільби й змащують різьбу мастилом для чоків."
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-kp4",
+      "en": "Check that chokes are tight before each session.",
+      "uk": "Перед кожним тренуванням перевіряйте, чи щільно вкручено чоки.",
+      "checklist": true
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-kp5",
+      "en": "Never fire a multichoke gun without a choke.",
+      "uk": "Ніколи не стріляйте з рушниці зі змінними чоками без чока."
+    }
+  ],
+  "did_you_know": {
+    "k": "chokes-pattern-testing-and-care-dyk",
+    "en": "After each shot the pattern plate is painted or greased again, with a roller or brush, so that the next marks do not mix with the previous ones.",
+    "uk": "Пристрілювальну плиту після кожного пострілу знову фарбують або змащують — валиком чи щіткою, — щоб нові сліди не змішалися з попередніми."
+  },
+  "quiz": [
+    {
+      "k": "chokes-pattern-testing-and-care-q1",
+      "q": {
+        "en": "Why should you not fire a multichoke gun without a choke?",
+        "uk": "Чому не можна стріляти з рушниці зі змінними чоками без чока?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It is banned only in competitions",
+          "uk": "Це заборонено лише на змаганнях"
+        },
+        {
+          "k": "b",
+          "en": "Shot and wad can damage the muzzle thread",
+          "uk": "Дріб і пиж можуть пошкодити різьбу в дулі"
+        },
+        {
+          "k": "c",
+          "en": "The gun will not fire at all then",
+          "uk": "Тоді рушниця взагалі не вистрілить"
+        },
+        {
+          "k": "d",
+          "en": "The pattern becomes far too tight",
+          "uk": "Осип стане надто щільним"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Without a choke the thread is exposed, and the shot and wad can damage it.",
+        "uk": "Без чока різьба відкрита, і дріб та пиж можуть її пошкодити."
+      }
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-q2",
+      "q": {
+        "en": "At what classic distance is a choke's pattern judged?",
+        "uk": "На якій класичній відстані оцінюють осип чока?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "5 m (about 5½ yards)",
+          "uk": "5 м (близько 5½ ярда)"
+        },
+        {
+          "k": "b",
+          "en": "15 m (about 16 yards)",
+          "uk": "15 м (близько 16 ярдів)"
+        },
+        {
+          "k": "c",
+          "en": "35 m or 40 yards (about 37 m)",
+          "uk": "35 м або 40 ярдів (близько 37 м)"
+        },
+        {
+          "k": "d",
+          "en": "80 m (about 87 yards)",
+          "uk": "80 м (близько 87 ярдів)"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The share of shot in a 75–76 cm circle is classically counted at 35 m or 40 yards.",
+        "uk": "Частку дробу в колі 75–76 см класично рахують на 35 м або 40 ярдах."
+      }
+    },
+    {
+      "k": "chokes-pattern-testing-and-care-q3",
+      "q": {
+        "en": "How many shots should you fire to judge a pattern?",
+        "uk": "Скільки пострілів варто зробити, щоб оцінити осип?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At least 3–5 for each pair",
+          "uk": "Хоча б 3–5 на кожен варіант"
+        },
+        {
+          "k": "b",
+          "en": "One shot is enough for this",
+          "uk": "Для цього досить одного пострілу"
+        },
+        {
+          "k": "c",
+          "en": "Exactly two, one per barrel",
+          "uk": "Рівно два, по одному на ствол"
+        },
+        {
+          "k": "d",
+          "en": "A hundred, on the same day",
+          "uk": "Сто, і того самого дня"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Patterns vary from shot to shot, so you need a series for each gun, choke and cartridge.",
+        "uk": "Осипи різняться від пострілу до пострілу, тож для кожної пари «чок + патрон» потрібна серія."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "chokes-pattern-testing-and-care-q4",
+      "q": {
+        "en": "What is choke grease for?",
+        "uk": "Навіщо мастило для чоків?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To make the pattern a little tighter",
+          "uk": "Щоб осип став трохи щільнішим"
+        },
+        {
+          "k": "b",
+          "en": "To clean the bore after shooting",
+          "uk": "Щоб почистити канал після стрільби"
+        },
+        {
+          "k": "c",
+          "en": "To stop rust and stop the choke seizing",
+          "uk": "Щоб не було іржі й чок не «прикипів»"
+        },
+        {
+          "k": "d",
+          "en": "To soften the recoil of the gun",
+          "uk": "Щоб пом’якшити віддачу рушниці"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A thin layer on the thread protects it from rust and lets you unscrew the choke later.",
+        "uk": "Тонкий шар на різьбі захищає її від іржі й дає змогу потім викрутити чок."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "e8a9ef43",
+    "summary": "457efd60",
+    "chokes-pattern-testing-and-care-p1": "b61918b4",
+    "chokes-pattern-testing-and-care-p2": "b17fe320",
+    "chokes-pattern-testing-and-care-p3": "bef2177f",
+    "chokes-pattern-testing-and-care-p4": "20c97038",
+    "chokes-pattern-testing-and-care-p5": "8e1dfb17",
+    "chokes-pattern-testing-and-care-p6": "77e552fb",
+    "chokes-pattern-testing-and-care-p7": "de997f66",
+    "chokes-pattern-testing-and-care-kp1": "1299ab0c",
+    "chokes-pattern-testing-and-care-kp2": "f2cb603c",
+    "chokes-pattern-testing-and-care-kp3": "c1da7fc6",
+    "chokes-pattern-testing-and-care-kp4": "9c490994",
+    "chokes-pattern-testing-and-care-kp5": "3a56bafc",
+    "chokes-pattern-testing-and-care-dyk": "dfbbac7a",
+    "chokes-pattern-testing-and-care-q1": "3e05c144",
+    "chokes-pattern-testing-and-care-q2": "3b814f97",
+    "chokes-pattern-testing-and-care-q3": "c4b54f8b",
+    "chokes-pattern-testing-and-care-q4": "47bdd55d"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

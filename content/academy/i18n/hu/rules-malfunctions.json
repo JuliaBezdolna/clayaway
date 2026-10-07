@@ -1,0 +1,243 @@
+{
+  "id": "rules-malfunctions",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "42ad182b",
+    "summary": "9f55921b",
+    "sporting-malfunctions-p1": "41a008e3",
+    "sporting-malfunctions-p2": "d3532cc1",
+    "safety-malfunction-p3": "21d65653",
+    "rules-malfunctions-cmp1": "f79b0f17",
+    "sporting-malfunctions-p4": "4eef43d0",
+    "sporting-malfunctions-p5": "1a92fd88",
+    "compak-malfunctions-p3": "a9c8fd76",
+    "compak-malfunctions-p4": "a0165b36",
+    "compak-malfunctions-p5": "6c9dff80",
+    "rules-malfunctions-p7": "b2c06d3e",
+    "sporting-malfunctions-sim": "da39a3ee",
+    "compak-malfunctions-sim": "da39a3ee",
+    "rules-malfunctions-n1": "0b3b256f",
+    "sporting-malfunctions-ph1": "c9bdfb88",
+    "sporting-malfunctions-ph2": "af62cc6a",
+    "sporting-malfunctions-ph3": "b1131f9c",
+    "sporting-malfunctions-ph4": "57b5468e",
+    "compak-malfunctions-ph1": "970afde6",
+    "compak-malfunctions-ph2": "b20b6941",
+    "compak-malfunctions-ph3": "4503ddd1",
+    "compak-malfunctions-ph4": "8cf9d336",
+    "sporting-malfunctions-kp1": "849f2ecd",
+    "sporting-malfunctions-kp2": "ebfb6f3d",
+    "compak-malfunctions-kp1": "13690047",
+    "sporting-malfunctions-kp4": "103b47fd",
+    "rules-malfunctions-kp5": "86bbb46b",
+    "safety-malfunction-dyk": "1e8c958c",
+    "rules-malfunctions-q1": "a05aaec5",
+    "rules-malfunctions-q2": "516fa443",
+    "rules-malfunctions-q3": "99323093",
+    "safety-malfunction-q1": "a94af216",
+    "safety-malfunction-q2": "016e7972",
+    "safety-malfunction-q3": "9d5fedce",
+    "competitions-scoring-basics-q2": "90ddf735",
+    "sporting-malfunctions-q1": "332f9baa",
+    "sporting-malfunctions-q2": "4028e248",
+    "sporting-malfunctions-q3": "772d233e",
+    "compak-malfunctions-q1": "8716abe3",
+    "compak-malfunctions-q2": "6d7c5bb8",
+    "compak-malfunctions-q3": "33252bbe"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "sporting-malfunctions-p1": "A {{term:malfunction|hibás működés}} a fegyver vagy a töltény hibája: csütörtök, a második cső elmaradt lövése, vagy amikor mindkét cső egyszerre sül el ({{term:double-discharge|beduplázás}}).",
+    "sporting-malfunctions-p2": "Előbb, mit kell tennie a lövésznek: marad a helyén, a fegyver a lőtér felé mutat. Nem nyitja ki, és nem nyúl a {{term:safety-catch|biztosítóhoz}}, amíg a bíró meg nem vizsgálta. Ha előbb kinyitja a fegyvert, vagy a biztosítóhoz nyúl, a korongot vagy korongokat nullának értékelik. Ne próbálja egyedül szétszedni a megtöltött fegyvert a lőálláson.",
+    "safety-malfunction-p3": "Miért ne nyisd ki rögtön a fegyvert? Néha egy töltény késve sül el, a másodperc törtrészével vagy még később a ravasz meghúzása után: ez a {{term:hang-fire|tüzelési hiba}} (hang fire). Ha a fegyver ekkor nyitva van, vagy oldalra irányul, ez veszélyes. Ezért edzésen, bíró nélkül, várj úgy, hogy a fegyver biztonságos irányba néz, mielőtt kinyitod; mennyi ideig, azt az oktatód vagy a stend szabályai mondják meg.",
+    "rules-malfunctions-cmp1": {
+      "sporting": "{{fact:rules.round-targets}} korongos {{term:round|körönként}}. Az első hiba No Bird figyelmeztetéssel, és a korongot megismétlik. A másodiktól a korongot már nem ismétlik, hanem nullának értékelik.",
+      "compak": "{{fact:rules.round-targets}} korongos körönként. Az első hiba No Bird és {{term:yellow-card|sárga lap}}. Egy ugyanolyan típusú második {{term:red-card|piros lapot}} hoz, és a le nem lőtt korongok nullák."
+    },
+    "sporting-malfunctions-p4": "Az első hiba a körben, eset szerint. (1) Az első lövés csütörtököt mond: a szóló korongot vagy a dublét újra lövöd. Ha mégis leadtad a második lövést, az eredménye érvényes. (2) Egy szóló korongon a második lövés csütörtököt mond: újra lövöd, és a megismételt korongnál csak a második lövéssel elért találat számít. Tehát az első lövéssel szándékosan mellé kell lőni. (3) Mindkét cső egyszerre elsül egy szóló korongnál, vagy egy dublé első korongjánál: No Bird, semmit nem jegyeznek fel, és újra lövöd. Hogyan ismétlik meg az egyes dublétípusokat, azt a szabálykönyv tartalmazza ({{rule:sporting:ch6-malfunction-second-shot}}).",
+    "sporting-malfunctions-p5": "Ha a fegyvert megjavítják, mielőtt a rotte befejezi a lőállást, a bíró engedélyével utolsóként lőheted a lőállást. Ha nem javítható meg, a bíró beleegyezésével azonnal átválthatsz másik fegyverre, vagy a zsűri engedélyével később, egy másik rottéval fejezheted be. Egy hibás működés esetét kivéve a lőálláson állva nem válthatsz fegyvert, szűkületet vagy csövet.",
+    "compak-malfunctions-p3": "Az első hiba a körben. Ha mindkét cső egyszerre elsül, vagy az első töltény csütörtököt mond, a szóló korongot vagy a dublét újra kidobják, és a sikertelen kísérlet semmit nem ér. Ha egy szóló korongnál a második töltény csütörtököt mond, a korongot újra kidobják, de a találatot csak a második lövés adhatja. Tehát az első lövéssel szándékosan mellé kell lőni. A dublékről a szabálykönyvben olvashatsz ({{rule:compak:ch20-gun-failure-second-shot}}).",
+    "compak-malfunctions-p4": "Egy hiba után {{fact:rules.compak-repair-time}} áll rendelkezésedre, hogy megjavítsd a fegyvert, vagy kicseréld. Kivételesen kölcsönkérhetsz fegyvert egy saját rottédon kívüli lövésztől, a tulajdonos és a bíró beleegyezésével. Működő fegyver nélkül a maradék korongok nullák. Egyébként egy körön belül fegyvert, szűkületet vagy csövet nem cserélhetsz.",
+    "compak-malfunctions-p5": "A {{term:rabbit|nyúl}} az a korong, amely a földön gurul. Mindkét versenyszámban, ha az első lövéssel elhibázod, és a nyúl a második lövésed előtt magától eltörik, az No Bird. Ez megtörténhet, ha egy kőnek ütközik. A megismételt korongnál csak a második lövés számít, mint egy második lövésnél bekövetkező hiba után.",
+    "rules-malfunctions-p7": "A kör előtt ellenőrizd a fegyveredet és a töltényeidet, a klubház közelében lévő {{term:gun-test|próbalövő helyen}}, ha van ilyen. Próbalövés a lőálláson semelyik versenyszámban nem megengedett.",
+    "sporting-malfunctions-sim": "",
+    "compak-malfunctions-sim": ""
+  },
+  "note": {
+    "rules-malfunctions-n1": "A bíró szavait add tovább azonnal és szóról szóra: „maradjon ott, ne nyissa ki a fegyvert”. Az okokat csak az ellenőrzés után magyarázd el."
+  },
+  "phrases": {
+    "sporting-malfunctions-ph1": {
+      "meaning": "Bíró: várd meg a vizsgálatot; ha előbb kinyitod, a korongba kerül.",
+      "say": "Maradjon ott, ne nyissa ki a fegyvert."
+    },
+    "sporting-malfunctions-ph2": {
+      "meaning": "A bíró megvizsgálja a fegyvert vagy a töltényt.",
+      "say": "Mutassa a fegyvert."
+    },
+    "sporting-malfunctions-ph3": {
+      "meaning": "Az első eset a körben: a korongot megismétlik.",
+      "say": "Hibás működés. No bird, első figyelmeztetés."
+    },
+    "sporting-malfunctions-ph4": {
+      "meaning": "Ezúttal nincs ismétlés; a korong elveszett.",
+      "say": "Második hibás működés ebben a körben. Nulla."
+    },
+    "compak-malfunctions-ph1": {
+      "meaning": "Bíró: hiba után várd meg a vizsgálatot.",
+      "say": "Ne mozdulj, a fegyver maradjon zárva."
+    },
+    "compak-malfunctions-ph2": {
+      "meaning": "Az első ilyen típusú eset a körben; a korongot újra dobják.",
+      "say": "Első hibás működés. Sárga lap, „No bird”."
+    },
+    "compak-malfunctions-ph3": {
+      "meaning": "Idő a fegyver megjavítására vagy kicserélésére.",
+      "say": "Két perced van."
+    },
+    "compak-malfunctions-ph4": {
+      "meaning": "Ismétlés a második töltény hibája után: az első lövéssel szándékosan lőj mellé.",
+      "say": "Ennél csak a második lövés számít."
+    }
+  },
+  "key_points": {
+    "sporting-malfunctions-kp1": "Hiba után maradj a helyeden, a fegyver zárva és a lőtér felé mutat; ha a bíró ellenőrzése előtt kinyitod, elveszted a korongot.",
+    "sporting-malfunctions-kp2": "Az első hiba egy körben: No Bird és figyelmeztetés (a {{tm:compak}}-ban sárga lap).",
+    "compak-malfunctions-kp1": "A második hiba ugyanabban a körben: nincs ismétlés. A {{tm:sporting}}-ban a korong nulla. A {{tm:compak}}-ban egy ugyanolyan típusú második hiba piros lapot hoz, és a le nem lőtt korongok nullák.",
+    "sporting-malfunctions-kp4": "A második lövés hibája egy szóló korongon: a megismételt korongnál csak a második lövéssel elért találat számít.",
+    "rules-malfunctions-kp5": "{{tm:compak}}: {{fact:rules.compak-repair-time}} a fegyver megjavítására vagy cseréjére."
+  },
+  "quiz": {
+    "rules-malfunctions-q1": {
+      "q": "A töltényed csütörtököt mond. Mit teszel elsőként?",
+      "options": {
+        "a": "Kinyitod a fegyvert, és megnézed a töltényt",
+        "b": "Azonnal újratöltesz, és újra kéred a korongot",
+        "c": "A helyeden maradsz, a fegyver zárva, és várod a bírót"
+      },
+      "explain": "Ha a bíró ellenőrzése előtt kinyitod a fegyvert, vagy a biztosítóhoz nyúlsz, a korongot nullának értékelik."
+    },
+    "rules-malfunctions-q2": {
+      "q": "A {{tm:sporting}}-ban egy második fegyverhiba történik ugyanabban a körben, egy szóló korongon. Mi az eredmény?",
+      "options": {
+        "a": "Nulla",
+        "b": "No Bird",
+        "c": "One"
+      },
+      "explain": "No Bird csak a kör első hibájáért jár; a másodiktól a korongot nullának értékelik."
+    },
+    "rules-malfunctions-q3": {
+      "q": "Mennyi időd van a {{tm:compak}}-ban a fegyver megjavítására vagy cseréjére?",
+      "options": {
+        "a": "30 másodperc",
+        "b": "2 perc",
+        "c": "10 perc"
+      },
+      "explain": "{{fact:rules.compak-repair-time}} áll rendelkezésedre; működő fegyver nélkül a le nem lőtt korongok nullák."
+    },
+    "safety-malfunction-q1": {
+      "q": "Edzésen, bíró nélkül, a fegyvered kattan, de nem lő. Mit tegyél?",
+      "options": {
+        "a": "Azonnal kinyitod, és megnézed",
+        "b": "Biztonságos irányba tartod, és vársz, mielőtt kinyitnád",
+        "c": "Megfordulsz, és megmutatod az edzőnek"
+      },
+      "explain": "Egy töltény késve is elsülhet (tüzelési hiba), ezért tartsd a csöveket biztonságos irányba, és várj, mielőtt kinyitod a fegyvert. Az oktatód vagy a stend szabályai megmondják, mennyi ideig."
+    },
+    "safety-malfunction-q2": {
+      "q": "Egy csütörtök után bekapcsolod a biztosítót, mielőtt a bíró megnézte volna a fegyvert. Mi történik?",
+      "options": {
+        "a": "A korongot nullának értékelik",
+        "b": "Egy extra korongot kapsz",
+        "c": "Semmi: így biztonságosabb a fegyver"
+      },
+      "explain": "Ha a bíró ellenőrzése előtt a biztosítóhoz nyúlsz, elveszted a korongot, ugyanúgy, mint ha kinyitnád a fegyvert. Várj, a fegyver a lőtér felé."
+    },
+    "safety-malfunction-q3": {
+      "q": "Miért nem nyitják ki rögtön a hibás fegyvert?",
+      "options": {
+        "a": "Hogy ne szennyezzék be a töltényt",
+        "b": "Mert a töltény késve is elsülhet",
+        "c": "Mert úgy szebb"
+      },
+      "explain": "A tüzelési hiba ritka, de veszélyes, ezért a fegyvernek biztonságos irányba kell néznie."
+    },
+    "competitions-scoring-basics-q2": {
+      "q": "{{tm:sporting}}: a fegyvered elromlik egy lőálláson (első hiba), és megjavítják, amíg a rottéd még azon a lőálláson lő. Mit tehetsz?",
+      "options": {
+        "a": "A lőállást utolsóként lövöd, ha a bíró engedi",
+        "b": "Semmit: a maradék korongok nullák",
+        "c": "Másnap lövöd"
+      },
+      "explain": "Ha a fegyvert megjavítják, mielőtt a rotte befejezi a lőállást, a bíró engedélyével utolsóként lőheted."
+    },
+    "sporting-malfunctions-q1": {
+      "q": "A kör első fegyverproblémája: egy szóló korongnál az első töltény csütörtököt mond. A lövész vár, a fegyver a lőtér felé, a bíróra. Döntés?",
+      "options": {
+        "a": "Nulla",
+        "b": "No Bird és figyelmeztetés",
+        "c": "One",
+        "d": "Sárga lap és nulla"
+      },
+      "explain": "Egy körben az első fegyver- vagy töltényhiba No Bird figyelmeztetéssel, és a szóló korongot megismétlik."
+    },
+    "sporting-malfunctions-q2": {
+      "q": "A töltény csütörtököt mond, és a bosszús lövész a bíró érkezése előtt megtöri a fegyvert, hogy megnézze a csappantyút. Döntés?",
+      "options": {
+        "a": "„No bird”",
+        "b": "A korongot figyelmeztetés után megismétlik",
+        "c": "Nulla",
+        "d": "Piros lap, és a korongot megismétlik"
+      },
+      "explain": "Ha a lövész a bíró ellenőrzése előtt kinyitja a fegyvert vagy a biztosítóhoz nyúl, a korongot nullának értékelik."
+    },
+    "sporting-malfunctions-q3": {
+      "q": "Szóló korong, első hiba: az első lövés elhibázza, a második töltény csütörtököt mond, így a korongot megismétlik. A megismételt korongnál a lövész az első lövéssel eltalálja. Döntés?",
+      "options": {
+        "a": "One",
+        "b": "Ismét No Bird",
+        "c": "One, figyelmeztetéssel",
+        "d": "Nulla"
+      },
+      "explain": "Egy második lövésnél bekövetkező hiba után a megismételt szóló korongot csak a második lövéssel lehet eltalálni, ezért az első lövéssel szándékosan mellé kell lőni."
+    },
+    "compak-malfunctions-q1": {
+      "q": "A {{tm:compak}} kör első hibája: egy szóló korongnál nem sül el az első töltény. A lövész helyesen vár. Döntés?",
+      "options": {
+        "a": "No Bird és sárga lap",
+        "b": "Nulla, ismétlés nélkül",
+        "c": "Piros lap és nulla",
+        "d": "One, a lövés számít"
+      },
+      "explain": "A kör első fegyver- vagy töltényhibája No Bird, az első figyelmeztetéssel, amelyet sárga lap jelez."
+    },
+    "compak-malfunctions-q2": {
+      "q": "Egy lövész fegyvere elromlik, és egy rottetársa fegyverét akarja kölcsönkérni. Megengedett?",
+      "options": {
+        "a": "Igen, a tulajdonos beleegyezésével",
+        "b": "Igen, ha a bíró beleegyezik",
+        "c": "Igen, feltétel nélkül",
+        "d": "Nem, csak a rottén kívülről"
+      },
+      "explain": "A {{tm:compak}} tiltja a fegyver megosztását a rottén belül. Kivételesen csak azon kívülről kölcsönözhetsz, a tulajdonos és a bíró beleegyezésével."
+    },
+    "compak-malfunctions-q3": {
+      "q": "Ugyanolyan típusú második fegyverhiba ebben a körben, egy szóló korongnál, amelyre a lövész nem tudott lőni. Döntés?",
+      "options": {
+        "a": "Ismét „No bird”",
+        "b": "„No bird” és figyelmeztetés",
+        "c": "Nulla, piros lappal",
+        "d": "A korongot újra bemutatják"
+      },
+      "explain": "Ugyanolyan típusú második esettől a le nem lőtt korongokat nullának értékelik."
+    }
+  },
+  "title": "Fegyver- vagy töltényhibák",
+  "summary": "Mit tegyél, ha a fegyver nem lő, és hogyan pontozzák a hibás működést a {{tm:sporting}}-ban és a {{tm:compak}}-ban.",
+  "did_you_know": "Néhány kezdőknél jelentkező „hiba” egyszerűen egy be nem kapcsolt biztosító. Egy edző megtaníthat, hogy ellenőrizd a korong kérése előtt."
+}

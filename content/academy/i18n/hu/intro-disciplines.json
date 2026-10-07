@@ -1,0 +1,91 @@
+{
+  "id": "intro-disciplines",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "dac19506",
+    "summary": "58295a84",
+    "intro-disciplines-p1": "79e1fd27",
+    "intro-disciplines-p2": "bad18039",
+    "intro-disciplines-cmp": "1ddbb76f",
+    "intro-disciplines-p3": "f274bc4d",
+    "intro-disciplines-p4": "072bf2ee",
+    "intro-disciplines-p5": "c1fef81a",
+    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-kp1": "b3f7bab6",
+    "intro-disciplines-kp2": "634ce41c",
+    "intro-disciplines-kp3": "fec76055",
+    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-dyk": "0aa60887",
+    "intro-disciplines-q1": "f150b65a",
+    "intro-disciplines-q2": "40032e9f",
+    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q-second-shot": "ecd0ab34"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "A fő versenyszámok",
+  "summary": "Rövid áttekintés a {{tm:sporting}}-ról és a {{tm:compak}}-ról, valamint a Trapről és a Skeetről: mi közös bennük, és miben különböznek.",
+  "body": {
+    "intro-disciplines-p1": "A {{tm:sporting}} a vadászatot utánozza. A {{term:shooting-stand|lőállások}}, azok a megjelölt helyek, ahonnan lősz, a természetes terepen vannak kijelölve: mezőn, erdő mellett, lejtőn. A korongok úgy repülnek, mint egy fogoly, egy kacsa vagy egy fácán, vagy úgy gurulnak, mint egy nyúl. Minden {{term:layout|lőpálya}}, azaz lőállások csoportja, {{fact:targets.sporting-layout-targets}} ad (a dublé két korong, tehát még 10). A {{term:double|dublé}} két korongja együtt vagy egymás után repül.",
+    "intro-disciplines-p2": "A {{tm:compak}} a kompakt változat. Minden egyetlen mezőn történik, amelyen {{fact:basics.compak-field}}. A lövész mind az öt lőálláson végigmegy, és mindegyiken 5 korongra lő, azaz 25-re egy {{term:round|körben}}. Egy Compak-mező kevés helyet igényel, ezért egy klubnak egyszerű kiépíteni.",
+    "intro-disciplines-cmp": {
+      "sporting": "Lőállásról lőállásra haladsz a pályán, és mindegyiknek saját korongjai vannak. A dublé lehet {{term:double-on-report|vadászdublé}}, amikor az első lövésed indítja a második korongot, vagy {{term:simultaneous-double|szimultán}}, amikor mindkét korong egyszerre repül. A {{term:rafale-double|rafale dublé}} két korong ugyanabból a dobógépből, egyik közvetlenül a másik után.",
+      "compak": "Egy mezőn maradsz, és minden köröd után egy lőállással jobbra lépsz. A dublé {{term:double-on-report|vadászdublé}}, amikor az első lövésed indítja a második korongot, vagy {{term:simultaneous-double|szimultán}}, amikor mindkét korong egyszerre repül."
+    },
+    "intro-disciplines-p3": "A nemzetközi versenyek mindkét versenyszámban rendszerint {{fact:basics.international-targets}}. Mindkettőben két lövést lehet leadni egy {{term:single-target|szóló korongra}}: ha az első lövés nem talál, a második még eltörheti.",
+    "intro-disciplines-p4": "A Trap más versenyszám-család. A lövész egy sorban álló öt lőállás egyikén áll, és a korongok egy árokból (a lőállások előtti süllyesztett gödörből) repülnek el, változó szögben. A lövész nem tudja pontosan, melyik irányba repül a következő korong. Az {{term:olympic-trap|olimpiai Trapben}} minden korongra két lövés leadható.",
+    "intro-disciplines-p5": "A {{term:skeet|Skeetben}} a korongok két, egymással szemben álló házikóból (kis építmény, amelyben a dobógép áll) repülnek: egy magasból és egy alacsonyból. A lövész a házikók közti félkörön elhelyezett lőállások között mozog, plusz egy középen van. A röppályák nem változnak, ezért nagyon fontos a pontos, jól gyakorolt technika.",
+    "intro-disciplines-p6": "Az olimpiai Trap és Skeet az olimpiai program része, és egy másik nemzetközi szövetséghez, az ISSF-hez tartozik. De a {{term:fitasc|FITASC}}-nak is vannak saját trap- és skeet-versenyszámai, mint az Universal Trench és az Universal Skeet. A ClayArena Akadémia főként a {{tm:sporting}}-ról és a {{tm:compak}}-ról szól. Az alapok minden versenyszámban közösek: biztonság, a {{term:gun-mount|vállba vétel}} (a fegyver arcra és lapockára emelése) és a korong „elolvasása”."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-disciplines-kp1": "{{tm:sporting}}: pálya a természetes terepen; minden lőpálya {{fact:rules.round-targets}} ad.",
+    "intro-disciplines-kp2": "{{tm:compak}}: egy mező, amelyen {{fact:basics.compak-field}}.",
+    "intro-disciplines-kp3": "Egy nemzetközi verseny rendszerint {{fact:basics.international-targets}}; a szóló korongra kétszer lehet lőni.",
+    "intro-disciplines-kp4": "A Trapben a korongok a lövésztől távolodnak; a Skeetben két házikó között keresztezik egymást."
+  },
+  "did_you_know": "A {{tm:compak}}-ot {{fact:community.compak-created}}.",
+  "quiz": {
+    "intro-disciplines-q1": {
+      "q": "Hány korongot ad egy {{tm:sporting}} lőpálya?",
+      "options": {
+        "a": "10",
+        "b": "25",
+        "c": "50"
+      },
+      "explain": "Minden lőpálya {{fact:targets.sporting-layout-targets}} ad (a dublé két korong, tehát még 10)."
+    },
+    "intro-disciplines-q2": {
+      "q": "Hány dobógép van egy Compak-mezőn?",
+      "options": {
+        "a": "Hat, A-tól F-ig jelölve",
+        "b": "Kettő, egy magas és egy alacsony",
+        "c": "Tizenöt, egy árokban"
+      },
+      "explain": "A {{tm:compak}} mezőn {{fact:basics.compak-field}} van."
+    },
+    "intro-disciplines-q3": {
+      "q": "Melyik versenyszámban repülnek a korongok két házikóból, egy magasból és egy alacsonyból?",
+      "options": {
+        "a": "Trap",
+        "b": "{{tm:sporting}}",
+        "c": "Skeet"
+      },
+      "explain": "A Skeetben van magas és alacsony házikó, és a lőállások félkörben állnak közöttük."
+    },
+    "intro-disciplines-q-second-shot": {
+      "q": "Az első lövésed nem talál egy szóló korongot. Mit engednek a szabályok?",
+      "options": {
+        "a": "A bíró megismétli a korongot",
+        "b": "Rögtön ki kell nyitnod a fegyvert",
+        "c": "Lőhetsz a második csőből"
+      },
+      "explain": "A {{tm:sporting}}-ban és a {{tm:compak}}-ban a szóló korongnál időt kell adni két lövésre, tehát az első lövés hibája után még jöhet a második."
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "faults-mount-errors",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "55d5aa6d",
+  "summary": "c2c673f8",
+  "faults-mount-errors-p1": "b8ba5327",
+  "faults-mount-errors-p2": "fa82c702",
+  "faults-mount-errors-p3": "68bf23c0",
+  "faults-mount-errors-p4": "70edb212",
+  "faults-mount-errors-p5": "3fbd6b9d",
+  "faults-mount-errors-more": "35a0c751",
+  "faults-mount-errors-n1": "a4fa7fac",
+  "faults-mount-errors-ph1": "edb132c9",
+  "faults-mount-errors-ph2": "30777418",
+  "faults-mount-errors-ph3": "44c17f37",
+  "faults-mount-errors-ph4": "c485f42f",
+  "faults-mount-errors-ph5": "cc9bdf34",
+  "faults-mount-errors-kp1": "4848cb5d",
+  "faults-mount-errors-kp2": "61307077",
+  "faults-mount-errors-kp3": "d2ae876c",
+  "faults-mount-errors-kp4": "b62326d1",
+  "faults-mount-errors-q1": "6b0f9d92",
+  "faults-mount-errors-q2": "8caf3e1d",
+  "faults-mount-errors-q3": "520c83b8"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Erreurs d'épaulé : tardif, visage vers le fusil, fusil penché",
+ "summary": "Les erreurs d'épaulé qui causent des ratés : épaulé tardif ou précoce, le visage qui va vers le fusil et un fusil penché, ainsi que les règles de position du fusil en {{tm:sporting}} et en {{tm:compak}}.",
+ "body": {
+  "faults-mount-errors-p1": "Beaucoup de ratés commencent avant le swing, dans l'épaulé : le mouvement qui amène le fusil à la joue et à l'épaule. Les mots de l'entraîneur sont courts et parlent du corps : tête, joue, épaule, mains.",
+  "faults-mount-errors-p2": "{{term:late-mount|Épaulé tardif}} (late mount) : le fusil atteint l'épaule après le moment où le tir aurait dû partir, donc le tireur se précipite ou tire avant que la joue ne soit posée. Le défaut inverse est un épaulé terminé trop tôt, après quoi le fusil attend, immobile et lourd. Correction : « move, mount, shoot » ({{term:move-mount-shoot|bouger, épauler, tirer}}), où les canons démarrent avec le plateau et l'épaulé se termine au moment du tir.",
+  "faults-mount-errors-p3": "Visage vers le fusil (face to the gun) : au lieu de faire monter la crosse vers le visage, le tireur baisse la tête à sa rencontre. L'œil se retrouve à un endroit différent chaque fois, et le {{term:recoil|recul}} frappe la joue. Les entraîneurs disent : « bring the gun to your face, not your face to the gun » (« le fusil vers le visage, pas le visage vers le fusil »). Une crosse qui atterrit sur le bras plutôt que dans le creux de l'épaule fait mal aussi.",
+  "faults-mount-errors-p4": "{{term:canting|Fusil penché}} (canting) : le fusil est incliné sur le côté au moment du tir, et le tir dérive hors de la ligne. Cela va souvent avec une épaule qui s'affaisse. Correction : « keep the gun level » (« gardez le fusil droit »), « turn from the hips » (« pivotez depuis les hanches »).",
+  "faults-mount-errors-p5": "Dans les compétitions FITASC {{tm:sporting}}, le fusil ne peut pas être épaulé avant que le plateau n'apparaisse, donc « pre-mount this one » (« épaulez celui-ci à l'avance ») n'est qu'un exercice d'entraînement. Épauler trop tôt en compétition {{tm:sporting}} vaut un avertissement et un {{term:yellow-card|carton jaune}}. En {{tm:compak}}, le fusil peut déjà être à l'épaule à l'annonce.",
+  "faults-mount-errors-more": "Comment fonctionne un bon épaulé, étape par étape, c'est dans la leçon {{lesson:technique-gun-mount}}."
+ },
+ "note": {
+  "faults-mount-errors-n1": "Traduisez l'exercice comme un exercice, sans rien y ajouter de votre cru."
+ },
+ "phrases": {
+  "faults-mount-errors-ph1": {
+   "meaning": "Soulevez la crosse vers la joue ; ne baissez pas la tête vers la crosse.",
+   "say": "Le fusil vers le visage, pas le visage vers le fusil."
+  },
+  "faults-mount-errors-ph2": {
+   "meaning": "Commencez à bouger avec le plateau, terminez l'épaulé au moment du tir, en un seul mouvement fluide.",
+   "say": "Bouger, épauler, tirer, en un seul mouvement."
+  },
+  "faults-mount-errors-ph3": {
+   "meaning": "Le fusil était incliné sur le côté au moment du tir.",
+   "say": "Vous avez penché le fusil : gardez-le droit."
+  },
+  "faults-mount-errors-ph4": {
+   "meaning": "Le fusil doit monter déjà sur la trajectoire du plateau.",
+   "say": "Épaulez directement sur la ligne."
+  },
+  "faults-mount-errors-ph5": {
+   "meaning": "Exercice d'entraînement avec le fusil déjà à l'épaule ; interdit en compétition {{tm:sporting}}.",
+   "say": "Ce plateau, fusil déjà épaulé, juste pour s'exercer."
+  }
+ },
+ "key_points": {
+  "faults-mount-errors-kp1": "Épaulé tardif : tir précipité ; correction : bouger, épauler, tirer.",
+  "faults-mount-errors-kp2": "Visage vers le fusil : l'œil se déplace et le recul fait mal ; amenez le fusil au visage.",
+  "faults-mount-errors-kp3": "Fusil penché : le tir dérive hors de la ligne ; gardez le fusil droit, pivotez depuis les hanches.",
+  "faults-mount-errors-kp4": "{{tm:sporting}} : fusil épaulé à l'avance, uniquement comme exercice d'entraînement (en compétition, épauler après l'apparition du plateau) ; en {{tm:compak}} le fusil peut être épaulé à l'annonce."
+ },
+ "quiz": {
+  "faults-mount-errors-q1": {
+   "q": "À l'entraînement, un entraîneur dit à un tireur qui se prépare pour une compétition FITASC {{tm:sporting}} : « Pre-mount this one. » Qu'est-ce qui est vrai ?",
+   "options": {
+    "a": "C'est permis aussi en compétition, si on prévient d'abord l'arbitre",
+    "b": "Un changement de règle : le fusil bas n'est plus exigé en {{tm:sporting}}",
+    "c": "Un exercice d'entraînement ; en compétition, on épaule après l'apparition du plateau",
+    "d": "Une règle du {{tm:compak}} qui s'applique à toutes les disciplines FITASC"
+   },
+   "explain": "Le {{tm:sporting}} exige la position d'attente fusil bas jusqu'à l'apparition du plateau ; épauler à l'avance en compétition vaut un avertissement avec un carton jaune."
+  },
+  "faults-mount-errors-q2": {
+   "q": "« You canted the gun » signifie…",
+   "options": {
+    "a": "Le fusil était incliné sur le côté au moment du tir",
+    "b": "Le fusil est arrivé à l'épaule trop tard",
+    "c": "Le fusil s'est arrêté au moment du tir",
+    "d": "La sûreté était encore mise à l'annonce"
+   },
+   "explain": "Le fusil penché (canting), c'est une inclinaison latérale du fusil, qui tire le coup hors de la ligne."
+  },
+  "faults-mount-errors-q3": {
+   "q": "Quelle consigne corrige l'erreur « face to the gun » ?",
+   "options": {
+    "a": "Baissez davantage la tête",
+    "b": "Amenez le fusil à votre visage",
+    "c": "Fermez un œil",
+    "d": "Tenez le fusil plus bas sur le bras"
+   },
+   "explain": "La crosse doit monter jusqu'au visage, pour que l'œil soit toujours au même endroit."
+  }
+ }
+}

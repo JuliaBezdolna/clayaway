@@ -1,0 +1,307 @@
+{
+  "id": "travel-flying-with-guns",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "organiser",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "travel block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "travel-flying-with-guns"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "cartridge",
+    "european-firearms-pass",
+    "gauge",
+    "gun-slip",
+    "hard-case",
+    "iata",
+    "invitation-letter",
+    "temporary-import-permit",
+    "shotgun"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "basics.international-targets",
+    "gear.iata-ammunition",
+    "travel.cartridge-box-weight"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "IATA Dangerous Goods Regulations, 67th edition (2026), Table 2.3.A — ammunition (1.4S) in checked baggage only, up to 5 kg gross per person for own use, with operator approval; allowances may not be combined",
+        "uk": "IATA: Правила перевезення небезпечних вантажів, 67-е видання (2026), таблиця 2.3.A — боєприпаси (1.4S) лише в зареєстрованому багажі, до 5 кг брутто на особу для власного використання, з дозволу перевізника; ліміти не можна об’єднувати"
+      },
+      "url": "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/dgr-67-en-2.3.a.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Flying with a gun",
+    "uk": "Переліт із рушницею"
+  },
+  "summary": {
+    "en": "Tell the airline in advance, pack the gun unloaded in a lockable hard case, and keep cartridges within the IATA and airline limits.",
+    "uk": "Попередьте авіакомпанію заздалегідь, везіть рушницю розрядженою в жорсткому кейсі із замками, а набої — в межах лімітів IATA та авіакомпанії."
+  },
+  "body": [
+    {
+      "k": "travel-flying-with-guns-p1",
+      "t": "p",
+      "en": "Start with the airline, even before you buy the ticket. Not all airlines carry sporting guns, and some carry them only on certain flights. Most ask for notice in advance, often at least a day or two. There may be a fee. Read the airline's rules on its website and get confirmation in writing.",
+      "uk": "Почніть з авіакомпанії, ще до купівлі квитка. Не всі перевізники беруть спортивну зброю, а деякі — лише на певних рейсах. Більшість просить попередити заздалегідь, часто щонайменше за добу-дві. За перевезення можуть узяти окрему плату. Прочитайте правила авіакомпанії на її сайті й отримайте письмове підтвердження."
+    },
+    {
+      "k": "travel-flying-with-guns-p2",
+      "t": "p",
+      "en": "The gun travels only in checked baggage, not in the cabin. It must be unloaded, usually taken down (barrels off the stock), and packed in a lockable {{term:hard-case|hard case}}. A soft {{term:gun-slip|gun slip}} is usually not accepted for a flight. Rules on locks and on who keeps the keys differ, so check them.",
+      "uk": "Рушниця летить лише в зареєстрованому багажі, не в салоні. Вона має бути розряджена, зазвичай розібрана (стволи окремо від приклада), і лежати в {{term:hard-case|жорсткому кейсі}} із замками. {{term:gun-slip|М’який чохол}} для перельоту зазвичай не приймають. Вимоги до замків і до того, у кого залишаються ключі, різняться, тож уточніть їх."
+    },
+    {
+      "k": "travel-flying-with-guns-p3",
+      "t": "p",
+      "en": "Arrive at the airport earlier than usual. At check-in, say that you are carrying a sporting gun. Staff often open the case to check it, give you a separate paper for it, and send the case to the oversized-baggage counter instead of the usual belt. After landing, you may have to collect the gun at a separate desk, sometimes with a police officer present.",
+      "uk": "До аеропорту приїжджайте раніше, ніж звичайно. На реєстрації скажіть, що везете спортивну зброю. Працівники часто відкривають кейс для перевірки, оформлюють на нього окремий папір і відправляють кейс на стійку негабаритного багажу, а не на звичайну стрічку. Після прильоту рушницю, можливо, доведеться забирати в окремому місці, іноді в присутності поліції."
+    },
+    {
+      "k": "travel-flying-with-guns-p4",
+      "t": "p",
+      "en": "Cartridges count as ‘dangerous goods’ (things that are risky to carry on a plane), so they travel under their own rules. The {{term:iata|IATA}} rules (IATA is the airlines' international association) allow sporting {{term:cartridge|cartridges}} {{fact:gear.iata-ammunition}}. ‘Gross’ means that the weight of the boxes counts too. Pack them firmly, usually in the maker's boxes. Two passengers may not combine their limits in one package.",
+      "uk": "Набої належать до «небезпечних вантажів» (речей, які ризиковано везти літаком), тому для них є окремі правила. Правила {{term:iata|IATA}} (міжнародної асоціації авіакомпаній) дозволяють везти спортивні {{term:cartridge|набої}} {{fact:gear.iata-ammunition}}. «Брутто» означає, що враховують і вагу коробок. Пакуйте набої надійно, зазвичай у заводських коробках. Двоє пасажирів не можуть скласти свої ліміти в одну упаковку."
+    },
+    {
+      "k": "travel-flying-with-guns-p7",
+      "t": "p",
+      "en": "A box of 25 {{term:gauge|12-gauge}} cartridges weighs {{fact:travel.cartridge-box-weight}}, so the limit is about five boxes. A big international competition is {{fact:basics.international-targets}}, so you need far more than five boxes; that is why cartridges are usually bought on arrival: see {{lesson:travel-cartridges-at-destination}}.",
+      "uk": "Коробка з 25 набоїв {{term:gauge|12 калібру}} важить {{fact:travel.cartridge-box-weight}}, тож ліміт — це приблизно п’ять коробок. Велике міжнародне змагання — це {{fact:basics.international-targets}}, тож набоїв потрібно значно більше, ніж п’ять коробок; тому їх зазвичай купують на місці: див. {{lesson:travel-cartridges-at-destination}}."
+    },
+    {
+      "k": "travel-flying-with-guns-p5",
+      "t": "p",
+      "en": "Many airlines are stricter: a lower limit, cartridges packed apart from the gun, or no cartridges at all. Check before each flight, and do not assume that last year's rules still apply.",
+      "uk": "Багато авіакомпаній суворіші: менший ліміт, набої окремо від рушниці або повна заборона. Перевіряйте це перед кожним рейсом і не розраховуйте, що торішні правила досі діють."
+    },
+    {
+      "k": "travel-flying-with-guns-p6",
+      "t": "p",
+      "en": "Flying with a connection? Make sure the gun is checked through to your final destination, and ask whether you must collect it and check it in again. Keep the documents in your hand luggage, not in the case: the gun permit, the {{term:european-firearms-pass|European Firearms Pass}} or {{term:temporary-import-permit|temporary permit}}, the {{term:invitation-letter|invitation letter}} and the airline's confirmation.",
+      "uk": "Летите з пересадкою? Переконайтеся, що рушницю оформлено до кінцевого пункту, і запитайте, чи доведеться отримувати її й здавати знову. Документи тримайте в ручній поклажі, а не в кейсі: дозвіл на зброю, {{term:european-firearms-pass|Європейський вогнепальний паспорт}} чи {{term:temporary-import-permit|тимчасовий дозвіл}}, {{term:invitation-letter|лист-запрошення}} і підтвердження авіакомпанії."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "travel-flying-with-guns-kp1",
+      "en": "Tell the airline in advance and get its confirmation in writing.",
+      "uk": "Попередьте авіакомпанію заздалегідь і отримайте письмове підтвердження."
+    },
+    {
+      "k": "travel-flying-with-guns-kp2",
+      "en": "The gun: unloaded, usually taken down, in a lockable hard case, in checked baggage only.",
+      "uk": "Рушниця — розряджена, зазвичай розібрана, у жорсткому кейсі із замками, лише в зареєстрованому багажі."
+    },
+    {
+      "k": "travel-flying-with-guns-kp3",
+      "en": "Cartridges travel {{fact:gear.iata-ammunition}}; airlines may be stricter.",
+      "uk": "Набої перевозять {{fact:gear.iata-ammunition}}; авіакомпанії можуть мати суворіші правила."
+    },
+    {
+      "k": "travel-flying-with-guns-kp4",
+      "en": "Arrive at the airport early.",
+      "uk": "Приїжджайте до аеропорту раніше."
+    },
+    {
+      "k": "travel-flying-with-guns-kp5",
+      "en": "Documents go in your hand luggage.",
+      "uk": "Документи — в ручній поклажі."
+    }
+  ],
+  "did_you_know": {
+    "k": "travel-flying-with-guns-dyk",
+    "en": "Under the IATA rules, sporting cartridges belong to Division 1.4S: explosives that pose only a small hazard, with any effect kept inside the package. That is why a limited amount may go in checked baggage.",
+    "uk": "За правилами IATA спортивні набої належать до підкласу 1.4S: це вибухові речовини з невеликою небезпекою, дія яких не виходить за межі упаковки. Тому обмежену кількість дозволено везти в зареєстрованому багажі."
+  },
+  "quiz": [
+    {
+      "k": "travel-flying-with-guns-q1",
+      "q": {
+        "en": "Where does the gun travel on a flight?",
+        "uk": "Де летить рушниця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In the cabin, in an overhead locker",
+          "uk": "У салоні, на багажній полиці"
+        },
+        {
+          "k": "b",
+          "en": "In hand luggage, in a soft gun slip",
+          "uk": "У ручній поклажі, у м’якому чохлі"
+        },
+        {
+          "k": "c",
+          "en": "In checked baggage, in a hard case",
+          "uk": "У зареєстрованому багажі, у жорсткому кейсі"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Guns travel only in checked baggage, unloaded, in a lockable hard case.",
+        "uk": "Зброю перевозять лише в зареєстрованому багажі, розрядженою, у жорсткому кейсі із замками."
+      }
+    },
+    {
+      "k": "gun-transport-documents-q3",
+      "q": {
+        "en": "How do cartridges travel by plane?",
+        "uk": "Як перевозять набої літаком?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In checked baggage, securely packed, with the airline's approval",
+          "uk": "У зареєстрованому багажі, надійно запаковані, з дозволу авіакомпанії"
+        },
+        {
+          "k": "b",
+          "en": "In your hand luggage, so that security can check them",
+          "uk": "У ручній поклажі, щоб їх могла перевірити охорона"
+        },
+        {
+          "k": "c",
+          "en": "In your jacket pockets, to save baggage weight",
+          "uk": "У кишенях куртки, щоб не важив багаж"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The IATA rules allow cartridges only in checked baggage, securely packed and with the airline's approval, and airlines may be stricter.",
+        "uk": "Правила IATA дозволяють набої лише в зареєстрованому багажі, у надійній упаковці й з дозволу авіакомпанії, а авіакомпанії можуть мати суворіші правила."
+      }
+    },
+    {
+      "k": "travel-flying-with-guns-q3",
+      "q": {
+        "en": "Where should you keep the gun documents during the flight?",
+        "uk": "Де тримати документи на рушницю під час перельоту?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In the gun case, with the gun",
+          "uk": "У кейсі, разом із рушницею"
+        },
+        {
+          "k": "b",
+          "en": "In your hand luggage, with you",
+          "uk": "У ручній поклажі, при собі"
+        },
+        {
+          "k": "c",
+          "en": "In your checked suitcase",
+          "uk": "У зареєстрованій валізі"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Documents may be needed at check-in, at the border and after landing, so keep them with you.",
+        "uk": "Документи можуть знадобитися на реєстрації, на кордоні й після прильоту, тож вони мають бути при вас."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "travel-flying-with-guns-q2",
+      "q": {
+        "en": "What cartridge limit do the IATA rules usually allow a passenger?",
+        "uk": "Який ліміт на набої зазвичай дозволяють пасажирові правила IATA?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No limit, if the cartridges are boxed",
+          "uk": "Без обмежень, якщо набої в коробках"
+        },
+        {
+          "k": "b",
+          "en": "Up to 50 kg, shared with the group",
+          "uk": "До 50 кг, спільно з групою"
+        },
+        {
+          "k": "c",
+          "en": "Up to 5 kg gross, for your own use",
+          "uk": "До 5 кг брутто, для власного використання"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Up to 5 kg gross per person is the IATA limit, but an airline may lower it or refuse cartridges.",
+        "uk": "До 5 кг брутто на людину — ліміт IATA, але авіакомпанія може його зменшити або не брати набоїв."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "3c25034e",
+    "summary": "e4f9ad92",
+    "travel-flying-with-guns-p1": "01a54b09",
+    "travel-flying-with-guns-p2": "14f74903",
+    "travel-flying-with-guns-p3": "4b9ad99e",
+    "travel-flying-with-guns-p4": "6ce48786",
+    "travel-flying-with-guns-p7": "505685a2",
+    "travel-flying-with-guns-p5": "ce139713",
+    "travel-flying-with-guns-p6": "a96493cb",
+    "travel-flying-with-guns-kp1": "c19a4a66",
+    "travel-flying-with-guns-kp2": "9fffee64",
+    "travel-flying-with-guns-kp3": "04d953d9",
+    "travel-flying-with-guns-kp4": "daf9a6ab",
+    "travel-flying-with-guns-kp5": "3fab2e88",
+    "travel-flying-with-guns-dyk": "dbdfe495",
+    "travel-flying-with-guns-q1": "d933ed06",
+    "gun-transport-documents-q3": "cb2be92c",
+    "travel-flying-with-guns-q3": "a062b945",
+    "travel-flying-with-guns-q2": "1866728e"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

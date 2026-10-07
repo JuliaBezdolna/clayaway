@@ -1,0 +1,91 @@
+{
+  "id": "chokes-fixed-and-multichoke",
+  "lang": "fr",
+  "base_rev": 1,
+  "h": {
+    "title": "bde7f021",
+    "summary": "ccf70477",
+    "chokes-fixed-and-multichoke-p1": "23ae3c30",
+    "chokes-fixed-and-multichoke-p2": "e7103ab0",
+    "chokes-fixed-and-multichoke-p3": "204a8f9d",
+    "chokes-fixed-and-multichoke-p4": "5a913245",
+    "chokes-fixed-and-multichoke-cmp1": "33d955d7",
+    "chokes-fixed-and-multichoke-kp1": "373ad63b",
+    "chokes-fixed-and-multichoke-kp2": "02e18af9",
+    "chokes-fixed-and-multichoke-kp3": "208bc5ab",
+    "chokes-fixed-and-multichoke-kp4": "d1799e1f",
+    "chokes-fixed-and-multichoke-dyk": "51b43287",
+    "chokes-fixed-and-multichoke-q1": "2c83214f",
+    "chokes-fixed-and-multichoke-q2": "23f75281",
+    "chokes-fixed-and-multichoke-q3": "f6b1189d",
+    "chokes-fixed-and-multichoke-q4": "14c51674"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Chokes fixes et interchangeables",
+  "summary": "Les chokes sont soit usinés dans le canon pour de bon, soit des tubes vissés que l'on peut changer. Les deux options, et quand le règlement du {{tm:sporting}} et du {{tm:compak}} permet de les changer.",
+  "body": {
+    "chokes-fixed-and-multichoke-p1": "Un {{term:fixed-choke|choke fixe}} est usiné dans le canon à l'usine, et seul un {{term:gunsmith|armurier}} peut le modifier. Beaucoup de fusils anciens et classiques sont fabriqués ainsi. Un tel superposé a généralement deux constrictions différentes, par exemple 1/4 et 1/2, et le tireur travaille avec ce qu'il a.",
+    "chokes-fixed-and-multichoke-p2": "Les {{term:multichoke|chokes interchangeables}} (multichoke) sont de courts tubes filetés vissés dans la bouche avec une {{term:choke-key|clé à choke}}. La plupart des fusils de compétition modernes en sont équipés. Le fusil est livré avec un jeu de plusieurs chokes, et le tireur monte ceux qui conviennent aux plateaux.",
+    "chokes-fixed-and-multichoke-p3": "Les tubes sont soit à fleur (au niveau de l'extrémité du canon), soit {{term:extended-choke|extérieurs}} (extended) : ils dépassent de la bouche, souvent de 1 à 5 cm. Beaucoup de chokes extérieurs peuvent se tourner à la main, et leur marquage se lit sans les retirer.",
+    "chokes-fixed-and-multichoke-p4": "Les filetages et les tailles diffèrent selon les fabricants, et même entre modèles d'un même fabricant. Un choke d'un autre système peut ne pas s'adapter, ou se visser de travers, ce qui est dangereux. N'achetez que des chokes conçus pour votre fusil.",
+    "chokes-fixed-and-multichoke-cmp1": {
+      "sporting": "Vous pouvez changer un choke, tout le fusil ou un canon entre les postes, ou entre les simples et les doublés, si cela ne cause aucun retard. Une fois que vous êtes monté sur le poste, plus aucun changement.",
+      "compak": "Pendant une série, vous ne pouvez changer ni le fusil, ni les canons, ni les chokes. On ne les change qu'entre les séries ; l'exception est une panne du fusil. Choisissez donc des chokes capables de gérer tous les plateaux de la série."
+    }
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-fixed-and-multichoke-kp1": "Un choke fixe est usiné dans le canon ; un choke interchangeable se visse avec une clé.",
+    "chokes-fixed-and-multichoke-kp2": "Les chokes de systèmes différents ne sont pas interchangeables entre eux.",
+    "chokes-fixed-and-multichoke-kp3": "{{tm:sporting}} : changez de chokes entre les postes, pas sur le poste.",
+    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}} : aucun changement de choke pendant une série."
+  },
+  "quiz": {
+    "chokes-fixed-and-multichoke-q1": {
+      "q": "Quand peut-on changer un choke au {{tm:sporting}} ?",
+      "options": {
+        "a": "Entre les postes, si cela ne cause aucun retard",
+        "b": "Sur le poste, juste avant le doublé",
+        "c": "Seulement avant le premier poste de la journée",
+        "d": "Seulement avec l'accord écrit du jury"
+      },
+      "explain": "Vous pouvez changer entre les postes ou entre les simples et les doublés, mais pas une fois que vous êtes sur le poste."
+    },
+    "chokes-fixed-and-multichoke-q2": {
+      "q": "Peut-on changer de chokes pendant une série de {{tm:compak}} ?",
+      "options": {
+        "a": "Oui, en passant d'un poste à l'autre",
+        "b": "Oui, si les plateaux suivants sont loin",
+        "c": "Non, seulement entre les séries",
+        "d": "Oui, à tout moment de la série"
+      },
+      "explain": "Au {{tm:compak}}, changer le fusil, les canons ou les chokes pendant une série est interdit ; l'exception est une panne."
+    },
+    "chokes-fixed-and-multichoke-q3": {
+      "q": "Pourquoi ne faut-il pas monter un choke d'un autre système ?",
+      "options": {
+        "a": "Cela gâche l'apparence du fusil",
+        "b": "Le filetage peut ne pas correspondre, ce qui est dangereux",
+        "c": "L'arbitre ne peut pas vérifier son marquage",
+        "d": "Cela change le calibre du canon"
+      },
+      "explain": "Les systèmes de chokes diffèrent ; un mauvais choke peut endommager le canon."
+    },
+    "chokes-fixed-and-multichoke-q4": {
+      "q": "Qu'est-ce qu'un choke extérieur (extended) ?",
+      "options": {
+        "a": "Un choke plus serré que full",
+        "b": "Un choke usiné dans le canon",
+        "c": "Un choke conçu uniquement pour l'acier",
+        "d": "Un tube qui dépasse de la bouche"
+      },
+      "explain": "Les chokes extérieurs dépassent de la bouche, si bien que leur marquage se lit sans les retirer."
+    }
+  },
+  "did_you_know": "Certains tireurs de {{tm:sporting}} ne changent pas de chokes du tout pendant une compétition et s'appuient sur une seule paire, par exemple 1/4 et 1/2. Ainsi, ils pensent moins au matériel et plus aux plateaux."
+}

@@ -43,9 +43,14 @@
 - **Товарные знаки FITASC**: в названиях дисциплин — «Parcours de Chasse – Sporting™» / «Sporting™» и «Compak® Sporting» (заголовки, title, меню, кнопки, превью, мета); в футере каждой страницы — строка о том, что это марки FITASC.
 - **Без дублей**: терміни — только в глоссарии (`docs/glossary/data/`), ситуации судьи — только в банке тренажёра (`docs/rules/data/quiz-*.js`),
   анимации — только в `docs/shared/sims.js`, навигация — только в `docs/shared/nav.js`. Остальные проекты ссылаются, а не копируют.
-- **Языки**: только языки ClayArena (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt); глоссарий, тренажёр и Академия переводчика — на всех 11.
-- **Названия**: ClayAway — только туры; правила, тренажёр, глоссарий и академии — инструменты ClayArena (`og:site_name` «ClayArena»).
-- Полная пересборка: `python scripts/build_interpreter.py && bun scripts/build_seo.mjs && python scripts/make_og.py && python scripts/seo_meta.py`.
+- **Языки**: только языки ClayArena (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt); глоссарий, тренажёр и Академия ClayArena — на всех 11
+  (в Академии английский — мастер-язык, украинский пишется вместе с ним, 9 остальных языков — оверлеи; страница языка публикуется, только когда перевод готов).
+- **Названия**: ClayAway — только туры; правила, тренажёр, глоссарий и Академия ClayArena — инструменты ClayArena (`og:site_name` «ClayArena»).
+  Академия одна: бывшая «Академия переводчика» — теперь маршрут «Перекладач» и блок «Мова стенду» Академии ClayArena.
+- Полная пересборка: `bun scripts/build_seo.mjs && python scripts/make_og.py && python scripts/seo_meta.py`.
+  `build_seo.mjs` первым делом вызывает `scripts/build_academy.mjs` (Академия из `content/academy/`); ошибки Академии останавливают всю сборку, ничего не записывается.
+  Проверка без записи: `bun scripts/build_academy.mjs --check`; пробная сборка — только во временную папку (`--out <папка>`, с черновиками `--draft`), не в `docs/`.
+  `scripts/build_interpreter.py` и `build_interpreter_pages.py` выведены из употребления (без `--legacy` не запускаются) — в пересборку не входят.
 - Служебное время в ответах пользователю — Europe/Bratislava.
 
 ## Структура репозитория
@@ -54,5 +59,12 @@
   `docs/index.html` (оглавление), `docs/concept/` (ТЗ), `docs/dornsberg/` (пример 1), `docs/sologne/` (пример 2).
   Примеры туров — в дизайне ClayArena (тёмная тема, изумрудный акцент), с подписью сервиса **ClayAway**;
   фото и видео подключены по ссылкам с ClayArena (cdn.clayarena.com, хранилище ClayArena), не копируются.
-- `docs/interpreter/` — Академия переводчика ClayArena (игра-курс, 11 языков ClayArena); контент в `docs/interpreter/src/`, сборка `python scripts/build_interpreter.py`.
+- `content/academy/` — **единственный источник** «Академии ClayArena» (вне `docs/`, как есть не публикуется): 142 урока-мастера (en + uk),
+  оверлеи 9 языков, 13 блоков (`blocks.json`), 7 маршрутов (`routes.json`: Новачок, Перші змагання, Перекладач, Батьки юніора,
+  Тренер-початківець, Організатор, Вболівальник і родина), «Практика» (`practice.json`), id-map и `ids.lock`, интерфейс на 11 языках.
+  Формат и проверки — `content/academy/SCHEMA.md`. Правки уроков — только здесь; старые `docs/learn/data/*.js` и `docs/interpreter/src/**` заморожены.
+- `docs/learn/` — Академия ClayArena на сайте: приложение `learn/app/academy.js`, страницы `/learn/…` (uk) и `/<lang>/learn/…`, данные `learn/data/<lang>/`;
+  страницы и данные пишет `scripts/build_academy.mjs` (кроме рукописной `docs/learn/index.html`). Путеводитель для программистов — DEVELOPERS.md §4d–4g.
+- `docs/interpreter/` — бывшая Академия переводчика: постоянный переадресатор (noindex) на маршрут «Перекладач»; старые адреса ведут на те же уроки
+  на том же языке (`id-map.json`); `src/` и `data/` заморожены до переключения.
 - Локальный просмотр: `python -m http.server 8791 --bind 127.0.0.1 --directory docs`.

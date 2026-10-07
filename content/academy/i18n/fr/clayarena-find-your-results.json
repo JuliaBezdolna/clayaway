@@ -1,0 +1,99 @@
+{
+  "id": "clayarena-find-your-results",
+  "lang": "fr",
+  "base_rev": 2,
+  "h": {
+    "title": "f29a933a",
+    "summary": "ed2bf53b",
+    "clayarena-find-your-results-p1": "69523ad7",
+    "clayarena-find-your-results-p2": "338f1be0",
+    "clayarena-find-your-results-p3": "fb84bb29",
+    "clayarena-find-your-results-p4": "a1d793aa",
+    "clayarena-find-your-results-p5": "39d5a08a",
+    "clayarena-find-your-results-compare": "fe15e030",
+    "clayarena-find-your-results-p6": "5d841323",
+    "clayarena-find-your-results-kp1": "6aa41141",
+    "clayarena-find-your-results-kp2": "6f357ccc",
+    "clayarena-find-your-results-kp3": "59eb82ec",
+    "clayarena-find-your-results-kp4": "bd3d6a0c",
+    "clayarena-find-your-results-q1": "a2cbfcfd",
+    "clayarena-find-your-results-q2": "0299b2de",
+    "clayarena-find-your-results-q3": "e749bf73",
+    "clayarena-find-your-results-q4": "fda6128c",
+    "clayarena-find-your-results-q5": "bcae2181"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "fr-wave-2026-10"
+  },
+  "title": "Comment trouver vos résultats et votre profil",
+  "summary": "Trouvez la compétition à laquelle vous avez participé et votre nom dans son tableau de résultats ; de là, vous pouvez ouvrir votre profil de tireur.",
+  "body": {
+    "clayarena-find-your-results-p1": "Après une compétition de {{tm:sporting}} ou de {{tm:compak}}, ses résultats apparaissent sur ClayArena. Pour certaines épreuves, ils sont mis à jour pendant que le tir se poursuit encore. Le plus simple est d'ouvrir cette compétition et de trouver votre nom dans le tableau des résultats. Vous pouvez trouver la compétition dans la liste des compétitions ou dans le calendrier, qui montre aussi les épreuves terminées.",
+    "clayarena-find-your-results-p2": "Le tableau montre votre place et le nombre de plateaux que vous avez cassés. Une {{term:round|série}} fait {{fact:rules.round-targets}}, et votre total est la somme de vos séries. Une compétition internationale de {{tm:sporting}} compte généralement {{fact:basics.international-targets}}. Les {{term:club-shoot|concours de club}} ont souvent moins de plateaux : c'est l'organisateur qui fixe le format. Comment lire le tableau : {{lesson:watching-reading-results}}.",
+    "clayarena-find-your-results-p3": "Depuis le tableau des résultats, vous pouvez ouvrir votre {{term:shooter-profile|profil de tireur}}. Il réunit vos compétitions présentes sur ClayArena et vos chiffres clés. Vous pouvez aussi vous chercher dans la liste des tireurs, qui peut être filtrée par pays.",
+    "clayarena-find-your-results-p4": "Les noms sur le site sont écrits comme dans les documents de la compétition. Les épreuves internationales utilisent généralement l'alphabet latin. Les épreuves nationales peuvent utiliser l'alphabet local, par exemple l'alphabet cyrillique pour les épreuves ukrainiennes. Si vous ne vous trouvez pas, essayez l'orthographe locale de votre nom et ses différentes transcriptions en alphabet latin.",
+    "clayarena-find-your-results-p5": "ClayArena tire ses résultats des {{term:score-sheet|feuilles de marque}} de la compétition : les feuilles officielles où l'{{term:referee|arbitre}} inscrit chaque plateau touché ou manqué. La vérification la plus importante a donc lieu sur le stand, pas sur le site. Votre profil affichera exactement ce que l'arbitre a inscrit.",
+    "clayarena-find-your-results-compare": {
+      "sporting": "Vérifiez votre score sur la carte (en {{tm:sporting}}, c'est ainsi qu'on appelle la feuille de marque de la planche) en quittant chaque poste. S'il est erroné, dites-le immédiatement à l'arbitre : seul l'arbitre décide, et sa décision ne peut pas être contestée en appel.",
+      "compak": "Signez la feuille de marque à la fin de chaque série. Si vous refusez de la signer, aucune réclamation ultérieure ne pourra être acceptée."
+    },
+    "clayarena-find-your-results-p6": "Vous voyez malgré tout une erreur sur le site ? Contactez d'abord l'{{term:organiser|organisateur}} de la compétition : c'est l'organisateur qui tient les résultats officiels, et le site ne fait que les afficher. Si le problème vient du site lui-même, par exemple un nom mal orthographié, écrivez à l'équipe ClayArena via les contacts du site."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-find-your-results-kp1": "Ouvrez la compétition et trouvez-vous dans le tableau des résultats.",
+    "clayarena-find-your-results-kp2": "Depuis le tableau, vous pouvez ouvrir votre profil de tireur.",
+    "clayarena-find-your-results-kp3": "Cherchez votre nom tel qu'il est écrit dans les documents de la compétition : en alphabet local ou en alphabet latin.",
+    "clayarena-find-your-results-kp4": "Vérifiez votre score sur le stand : en {{tm:sporting}} en quittant chaque poste, en {{tm:compak}} en signant la feuille de marque."
+  },
+  "quiz": {
+    "clayarena-find-your-results-q1": {
+      "q": "D'où viennent les résultats sur ClayArena ?",
+      "options": {
+        "a": "Les tireurs les saisissent eux-mêmes",
+        "b": "Des feuilles de marque",
+        "c": "Un entraîneur les calcule"
+      },
+      "explain": "Les résultats viennent des feuilles de marque, alors vérifiez votre score tant que vous êtes encore sur le stand."
+    },
+    "clayarena-find-your-results-q2": {
+      "q": "Combien de plateaux compte généralement une compétition internationale de {{tm:sporting}} ?",
+      "options": {
+        "a": "200, en séries de 25",
+        "b": "100, en séries de 10",
+        "c": "50, sans séries"
+      },
+      "explain": "Le règlement FITASC fixe 200 plateaux en séries de 25 pour les épreuves internationales."
+    },
+    "clayarena-find-your-results-q3": {
+      "q": "Vous ne trouvez pas votre nom. Que pouvez-vous essayer ?",
+      "options": {
+        "a": "Chercher par la marque de votre fusil",
+        "b": "Écrire le nom en majuscules",
+        "c": "D'autres orthographes du nom"
+      },
+      "explain": "Les noms sont écrits comme dans les documents de la compétition : en alphabet latin ou en alphabet local. Le même nom de famille peut aussi s'écrire de plusieurs façons en alphabet latin."
+    },
+    "clayarena-find-your-results-q4": {
+      "q": "Quand un tireur de {{tm:compak}} signe-t-il la feuille de marque ?",
+      "options": {
+        "a": "À la fin de chaque série",
+        "b": "Seulement après le dernier jour",
+        "c": "C'est l'arbitre qui signe, pas le tireur"
+      },
+      "explain": "Le tireur signe à la fin de chaque série ; sans signature, aucune réclamation ultérieure n'est acceptée."
+    },
+    "clayarena-find-your-results-q5": {
+      "q": "En {{tm:sporting}}, quand faut-il vérifier son score sur la carte ?",
+      "options": {
+        "a": "À la fin de la saison",
+        "b": "En quittant chaque poste",
+        "c": "Seulement après la remise des prix"
+      },
+      "explain": "Vérifiez-le en quittant chaque poste et dites-le immédiatement à l'arbitre si quelque chose est erroné."
+    }
+  }
+}

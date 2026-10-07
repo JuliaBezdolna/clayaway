@@ -1,0 +1,387 @@
+{
+  "id": "interpreter-numbers-and-units",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "interpreter-numbers-and-units"
+    ]
+  },
+  "terms": [
+    "lead",
+    "clock-face",
+    "gauge",
+    "barrel-length",
+    "cartridge",
+    "load-weight",
+    "shot-size",
+    "choke",
+    "coach"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-permitted-guns"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-cartridges"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-load"
+    }
+  ],
+  "facts": [
+    "stand-talk.unit-ounce",
+    "stand-talk.unit-yard",
+    "gear.fitasc-max-gauge",
+    "gear.fitasc-min-barrel",
+    "rules.sporting-jacket-line",
+    "gear.fitasc-shot-load",
+    "gear.fitasc-shot-diameter"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NIST — Guide to the SI, Appendix B.8: conversion factors (foot, yard, inch, ounce)",
+        "uk": "NIST — довідник SI, додаток B.8: коефіцієнти перерахунку (фут, ярд, дюйм, унція)"
+      },
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Numbers and units: feet, yards, gauges, shot sizes",
+    "uk": "Числа й одиниці: фути, ярди, калібри, номери дробу"
+  },
+  "summary": {
+    "en": "Yards and metres, clock directions, gauge numbers, loads, shot sizes and chokes: which numbers to convert, which to keep as said, and what the FITASC limits are.",
+    "uk": "Ярди й метри, напрямки за циферблатом, калібри, наважки, номери дробу й чоки: які числа перераховувати, які лишати як сказано і які ліміти FITASC."
+  },
+  "body": [
+    {
+      "k": "interpreter-numbers-and-units-p1",
+      "t": "p",
+      "core": true,
+      "en": "Lead first. British and American {{term:coach|coaches}} give {{term:lead|lead}} in feet or yards: “give it three feet”, “a yard in front”. This is a picture (the gap the shooter should see at the shot), not a measurement. Keep the unit as said and do not convert it in the middle of an instruction. More on lead words: {{lesson:lead-how-coaches-say-it}}.",
+      "uk": "Спершу винос. Британські й американські {{term:coach|тренери}} дають {{term:lead|винос}} у футах або ярдах: «give it three feet», «a yard in front». Це картинка (проміжок, який стрілець має побачити в мить пострілу), а не вимір. Залишайте одиницю, як сказано, і не перераховуйте її посеред вказівки. Більше про слова виносу — {{lesson:lead-how-coaches-say-it}}."
+    },
+    {
+      "k": "interpreter-numbers-and-units-p2",
+      "t": "p",
+      "core": true,
+      "en": "Distances to targets are another matter. “It’s about thirty yards” can become “about 27 metres”, because a yard is {{fact:stand-talk.unit-yard}}. Keep the word “about”. Directions often come as a {{term:clock-face|clock face}} laid over the field: straight ahead is 12, so “pick it up at eleven o’clock” means slightly left. Keep the clock; do not turn it into degrees.",
+      "uk": "Відстань до мішені — інша справа. «It’s about thirty yards» можна передати як «приблизно 27 метрів», бо ярд — це {{fact:stand-talk.unit-yard}}. Слово «приблизно» залишайте. Напрямки часто дають за {{term:clock-face|циферблатом}}, накладеним на поле: прямо перед стрільцем — 12, тож «pick it up at eleven o’clock» — трохи ліворуч. Залишайте циферблат, не перетворюйте його на градуси."
+    },
+    {
+      "k": "interpreter-numbers-and-units-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch7-permitted-guns",
+      "en": "The {{term:gauge|gauge}} works backwards. A “12-bore” or “12 gauge” is not 12 mm: the smaller the number, the wider the barrel, so a 20 gauge is narrower. Both FITASC rulebooks ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) allow guns {{fact:gear.fitasc-max-gauge}}, with {{term:barrel-length|barrels}} {{fact:gear.fitasc-min-barrel}}. In {{tm:sporting}} the line on the vest is {{fact:rules.sporting-jacket-line}}; British shooters may call that just under ten inches. The shoulder axis is an imaginary line across both shoulders.",
+      "uk": "{{term:gauge|Калібр}} рахують навпаки. «12-bore» чи «12 gauge» — не 12 мм: що менше число, то ширший ствол, тож 20-й калібр вужчий. Обидва регламенти FITASC ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) дозволяють рушниці, у яких {{fact:gear.fitasc-max-gauge}}, а {{term:barrel-length|стволи}} {{fact:gear.fitasc-min-barrel}}. У {{tm:sporting}} лінія на жилеті проходить {{fact:rules.sporting-jacket-line}}; британці можуть сказати «трохи менше десяти дюймів». Вісь плеча — уявна лінія, що проходить через обидва плечі."
+    },
+    {
+      "k": "interpreter-numbers-and-units-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch7-cartridges",
+      "en": "{{term:cartridge|Cartridges}}: both rulebooks allow a {{term:load-weight|load}} of {{fact:gear.fitasc-shot-load}}. That is close to the “one-ounce load” British shooters talk about, because one ounce is {{fact:stand-talk.unit-ounce}}. The shot must be {{fact:gear.fitasc-shot-diameter}}. {{term:shot-size|Shot numbers}} differ between countries. A No. 9 is about 2 mm almost everywhere, but other numbers vary slightly between British, American and continental systems. When it matters, ask for millimetres ({{lesson:cartridges-shot-size}}).",
+      "uk": "{{term:cartridge|Набої}}: обидва регламенти дозволяють {{term:load-weight|наважку}} {{fact:gear.fitasc-shot-load}}. Це близько до «one-ounce load», про яке говорять британці, бо унція — це {{fact:stand-talk.unit-ounce}}. Дріб — {{fact:gear.fitasc-shot-diameter}}. {{term:shot-size|Номери дробу}} в різних країнах не збігаються. № 9 майже всюди близько 2 мм, але інші номери трохи різняться в британській, американській і континентальній системах. Коли це важливо, перепитайте міліметри ({{lesson:cartridges-shot-size}})."
+    },
+    {
+      "k": "interpreter-numbers-and-units-chokes",
+      "t": "p",
+      "core": true,
+      "en": "{{term:choke|Chokes}} (the narrowing at the muzzle end of the barrel) may come as names, fractions or “thou” (thousandths of an inch). Translate them in the system the coach used, and do not convert one system into another.",
+      "uk": "{{term:choke|Чоки}} (звуження на дульному кінці ствола) називають назвами, дробами або «thou» (тисячними дюйма). Перекладайте в тій системі, якою користувався тренер, і не переводьте одну систему в іншу."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "interpreter-numbers-and-units-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Give it three feet.",
+      "meaning": {
+        "en": "The lead picture the coach wants; a perceived gap, not a measured distance.",
+        "uk": "Картинка виносу, якої хоче тренер; видимий проміжок, а не виміряна відстань."
+      },
+      "say": {
+        "uk": "Винос — три фути."
+      }
+    },
+    {
+      "k": "interpreter-numbers-and-units-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Half that.",
+      "meaning": {
+        "en": "Use half of the previous lead.",
+        "uk": "Удвічі менший винос, ніж попередній."
+      },
+      "say": {
+        "uk": "Удвічі менше."
+      }
+    },
+    {
+      "k": "interpreter-numbers-and-units-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Pick it up at eleven o’clock.",
+      "meaning": {
+        "en": "Look for the target slightly left of straight ahead.",
+        "uk": "Шукайте мішень трохи ліворуч від напрямку прямо."
+      },
+      "say": {
+        "uk": "Підхоплюйте її на одинадцятій годині."
+      }
+    },
+    {
+      "k": "interpreter-numbers-and-units-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "It’s about forty yards out.",
+      "meaning": {
+        "en": "The target is roughly 37 metres away.",
+        "uk": "Мішень приблизно за 37 метрів."
+      },
+      "say": {
+        "uk": "Вона приблизно за сорок ярдів — це десь 37 метрів."
+      }
+    },
+    {
+      "k": "interpreter-numbers-and-units-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "Put a nine in the bottom barrel.",
+      "meaning": {
+        "en": "Put a No. 9 shot cartridge (about 2 mm) in the lower barrel, which usually fires first.",
+        "uk": "У нижній ствол, який зазвичай стріляє першим, — набій із дробом № 9 (близько 2 мм)."
+      },
+      "say": {
+        "uk": "У нижній ствол — дев’ятку."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "interpreter-numbers-and-units-kp1",
+      "core": true,
+      "en": "Lead in feet is a picture: keep the unit, do not convert mid-instruction",
+      "uk": "Винос у футах — це картинка: залишайте одиницю, не перераховуйте посеред вказівки"
+    },
+    {
+      "k": "interpreter-numbers-and-units-kp2",
+      "core": true,
+      "en": "Target distance: yards may become “about … metres”",
+      "uk": "Відстань до мішені: ярди можна передати як «приблизно … метрів»"
+    },
+    {
+      "k": "interpreter-numbers-and-units-kp3",
+      "core": true,
+      "en": "Clock face for directions: 12 = straight ahead",
+      "uk": "Напрямок за циферблатом: 12 — прямо"
+    },
+    {
+      "k": "interpreter-numbers-and-units-kp4",
+      "core": true,
+      "en": "12 gauge ≠ 12 mm; FITASC max calibre 12, barrels ≥ 66 cm (26 in)",
+      "uk": "12 gauge ≠ 12 мм; у FITASC максимум 12-й калібр, стволи ≥ 66 см (26 дюймів)"
+    },
+    {
+      "k": "interpreter-numbers-and-units-kp5",
+      "core": true,
+      "en": "28 g ≈ one ounce; shot 2.0–2.5 mm; shot numbers differ by country — ask for mm",
+      "uk": "28 г ≈ одна унція; дріб 2,0–2,5 мм; номери дробу різняться за країнами — перепитуйте мм"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "interpreter-numbers-and-units-q1",
+      "q": {
+        "en": "The coach says “It’s about thirty yards.” How can you pass it on to a shooter who thinks in metres?",
+        "uk": "Тренер каже «It’s about thirty yards». Як передати це стрільцеві, який мислить у метрах?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "“About 27 metres”",
+          "uk": "«Приблизно 27 метрів»"
+        },
+        {
+          "k": "b",
+          "en": "“Exactly 27.43 metres”",
+          "uk": "«Рівно 27,43 метра»"
+        },
+        {
+          "k": "c",
+          "en": "“About 33 metres”",
+          "uk": "«Приблизно 33 метри»"
+        },
+        {
+          "k": "d",
+          "en": "“About 3 metres”",
+          "uk": "«Приблизно 3 метри»"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A yard is a little less than a metre (about 0.9 m), so thirty yards is about 27 m. Keep “about”: the coach’s number is an estimate.",
+        "uk": "Ярд трохи менший за метр (близько 0,9 м), тож тридцять ярдів — це близько 27 м. Залишайте «приблизно»: число тренера — оцінка."
+      }
+    },
+    {
+      "k": "interpreter-numbers-and-units-q2",
+      "disc": "both",
+      "q": {
+        "en": "What is the largest calibre allowed in {{tm:sporting}} and {{tm:compak}}?",
+        "uk": "Який найбільший калібр дозволено в {{tm:sporting}} і {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "10",
+          "uk": "10"
+        },
+        {
+          "k": "b",
+          "en": "16",
+          "uk": "16"
+        },
+        {
+          "k": "c",
+          "en": "20",
+          "uk": "20"
+        },
+        {
+          "k": "d",
+          "en": "12",
+          "uk": "12"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Both rulebooks allow calibre 12 at most; a smaller gauge number means a wider bore, so 10 is not allowed.",
+        "uk": "Обидва регламенти дозволяють щонайбільше 12-й калібр; менше число — ширший ствол, тож 10-й не дозволено."
+      },
+      "rule_ref": "sporting:ch7-permitted-guns"
+    },
+    {
+      "k": "interpreter-numbers-and-units-q3",
+      "disc": "both",
+      "q": {
+        "en": "A British guest asks whether his “one-ounce” cartridges are legal at a FITASC event. What do you know?",
+        "uk": "Британський гість питає, чи легальні його патрони «one-ounce» на змаганнях FITASC. Що ви знаєте?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Up to 36 g, about 1¼ ounces",
+          "uk": "До 36 г, близько 1¼ унції"
+        },
+        {
+          "k": "b",
+          "en": "Any load: there is no limit",
+          "uk": "Будь-яка наважка: ліміту немає"
+        },
+        {
+          "k": "c",
+          "en": "A 28 g load (+2%), about one ounce",
+          "uk": "Наважка 28 г (+2%), близько однієї унції"
+        },
+        {
+          "k": "d",
+          "en": "Only 24 g loads are allowed",
+          "uk": "Дозволено лише наважку 24 г"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The rules allow a load of up to 28 g with a +2% tolerance, and one ounce is about 28.3 g. The shot size (2.0–2.5 mm) must also fit.",
+        "uk": "Правила дозволяють наважку до 28 г свинцевого дробу з допуском +2%, а унція — близько 28,3 г. Розмір дробу (2,0–2,5 мм) теж має відповідати."
+      },
+      "rule_ref": "sporting:ch7-cartridges"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "27ce2b02",
+    "summary": "57f2da6e",
+    "interpreter-numbers-and-units-p1": "c2bc2ad1",
+    "interpreter-numbers-and-units-p2": "fad676a6",
+    "interpreter-numbers-and-units-p3": "8353a9eb",
+    "interpreter-numbers-and-units-p4": "d88b4af0",
+    "interpreter-numbers-and-units-chokes": "a828e484",
+    "interpreter-numbers-and-units-ph1": "cbc38942",
+    "interpreter-numbers-and-units-ph2": "8c188306",
+    "interpreter-numbers-and-units-ph3": "328b9d6d",
+    "interpreter-numbers-and-units-ph4": "86325b8e",
+    "interpreter-numbers-and-units-ph5": "be5f2b18",
+    "interpreter-numbers-and-units-kp1": "2bdc5697",
+    "interpreter-numbers-and-units-kp2": "328aa381",
+    "interpreter-numbers-and-units-kp3": "58c502e4",
+    "interpreter-numbers-and-units-kp4": "cff0fd20",
+    "interpreter-numbers-and-units-kp5": "45efd965",
+    "interpreter-numbers-and-units-q1": "1f0cc95c",
+    "interpreter-numbers-and-units-q2": "862c2542",
+    "interpreter-numbers-and-units-q3": "58baa361"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays (9 languages): p1 was shortened (lead words now live in lead-how-coaches-say-it), the chokes sentence of p4 is now interpreter-numbers-and-units-chokes, and quiz q1 asks about yards instead of feet. Retranslate these items.",
+      "Overlays (9 languages), fact clean-up of 2026-10-07 (one number in one place): interpreter-numbers-and-units-p3, interpreter-numbers-and-units-p4 now use the shared fact tokens of the rules/gear/community blocks instead of duplicate facts or written-out numbers. The meaning is unchanged, so check the wording and re-sign the hash."
+    ]
+  }
+}

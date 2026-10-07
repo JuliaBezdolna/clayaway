@@ -1,0 +1,288 @@
+{
+  "id": "budget-how-to-save",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "budget-how-to-save"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "safety-glasses",
+    "hearing-protection",
+    "club-shoot",
+    "cartridge",
+    "load-weight",
+    "low-recoil-cartridge",
+    "choke",
+    "hard-case",
+    "earplugs",
+    "dry-mounting",
+    "training-diary",
+    "coach",
+    "round",
+    "clayaway",
+    "gunsmith"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-cartridges"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-bans"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-load"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    }
+  ],
+  "facts": [
+    "gear.fitasc-shot-load"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How to save money",
+    "uk": "Як заощадити"
+  },
+  "summary": {
+    "en": "Legal and safe ways to spend less on {{tm:sporting}} and {{tm:compak}}: club membership, used gear, cartridges in bulk where allowed and shared trips.",
+    "uk": "Законні й безпечні способи витрачати менше на {{tm:sporting}} і {{tm:compak}}: членство в клубі, вживане спорядження, набої оптом там, де це дозволено, і спільні поїздки."
+  },
+  "body": [
+    {
+      "k": "budget-how-to-save-p1",
+      "t": "p",
+      "en": "In shooting, the biggest saving usually comes from a sensible plan, not from cheap gear. Here are some common ways to spend less. One thing stays fixed: do not save on safety. {{term:safety-glasses|Safety glasses}}, {{term:hearing-protection|hearing protection}} and a gun in good working order come first.",
+      "uk": "У стрільбі найбільше заощаджує зазвичай не дешеве спорядження, а розумний план. Ось кілька поширених способів витрачати менше. Одне правило незмінне: на безпеці не економлять. {{term:safety-glasses|Стрілецькі окуляри}}, {{term:hearing-protection|захист слуху}} і справна рушниця — на першому місці."
+    },
+    {
+      "k": "budget-how-to-save-p2",
+      "t": "p",
+      "en": "Club membership. In many clubs, members pay less for targets and training, can enter {{term:club-shoot|club shoots}} and may get discounts on cartridges. If you shoot regularly, membership often pays for itself. Compare several clubs.",
+      "uk": "Членство в клубі. У багатьох клубах члени платять менше за мішені й тренування, можуть брати участь у {{term:club-shoot|клубних змаганнях}} і отримувати знижки на набої. Якщо ви стріляєте регулярно, членство часто окуповується. Порівняйте умови кількох клубів."
+    },
+    {
+      "k": "budget-how-to-save-p3",
+      "t": "p",
+      "en": "Cartridges in bulk. Buying {{term:cartridge|cartridges}} in large batches is usually cheaper than buying single boxes. Do it only where the law lets you buy and store that quantity, and keep them dry and cool as your country's rules require. Club members often buy together. Storage: {{lesson:cartridges-choosing-and-storage}}.",
+      "uk": "Набої оптом. Купувати {{term:cartridge|набої}} великою партією зазвичай дешевше, ніж окремими пачками. Робіть це лише там, де закон дозволяє купувати й зберігати таку кількість, і зберігайте їх у сухому прохолодному місці, як вимагають правила вашої країни. Часто стрільці клубу купують разом. Про зберігання: {{lesson:cartridges-choosing-and-storage}}."
+    },
+    {
+      "k": "budget-how-to-save-p4",
+      "t": "p",
+      "disc": "both",
+      "en": "Mind the competition rules. In {{tm:sporting}} and {{tm:compak}} competitions, reloaded cartridges (used cases filled again, often at home) are not allowed, and a cartridge may hold {{fact:gear.fitasc-shot-load}}. The rules: {{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}}. So home-loaded cartridges do not help at competitions. For training, many shooters use lighter factory cartridges that kick less ({{term:low-recoil-cartridge|low-recoil cartridges}}); ask your coach which load suits you.",
+      "uk": "Пам’ятайте про правила змагань. На змаганнях із {{tm:sporting}} і {{tm:compak}} переспоряджені набої (використані гільзи, заряджені наново, часто вдома) заборонені, а в набої може бути {{fact:gear.fitasc-shot-load}}. Правила: {{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}}. Тож саморобні набої на змаганнях не допоможуть. Для тренувань багато стрільців беруть легші заводські набої, які слабше б’ють у плече ({{term:low-recoil-cartridge|набої зі зменшеною віддачею}}); запитайте тренера, яка наважка вам підходить."
+    },
+    {
+      "k": "budget-how-to-save-p5",
+      "t": "p",
+      "en": "Used gear. Besides the gun, vests, {{term:hard-case|cases}} and {{term:choke|chokes}} (screw-in tubes at the muzzle that set how widely the shot spreads) are often bought used. Buy used chokes only if they fit your gun's choke system, are undamaged and suit the shot you use, for example steel; if in doubt, ask a {{term:gunsmith|gunsmith}} ({{lesson:chokes-fixed-and-multichoke}}). But replace safety glasses with scratched or cracked lenses: they may no longer protect as they should. {{term:earplugs|Earplugs}} are personal, so get your own.",
+      "uk": "Вживане спорядження. Окрім рушниці, вживаними часто купують жилети, {{term:hard-case|кейси}} й {{term:choke|чоки}} (змінні трубки на дульному кінці ствола, що визначають, як широко розлітається дріб). Вживані чоки купуйте, лише якщо вони підходять до системи чоків вашої рушниці, не пошкоджені й придатні для вашого дробу, наприклад сталевого; якщо сумніваєтеся, запитайте {{term:gunsmith|зброяра}} ({{lesson:chokes-fixed-and-multichoke}}). Але стрілецькі окуляри з подряпаними чи тріснутими лінзами міняйте: вони можуть уже не захищати так, як треба. {{term:earplugs|Беруші}} — особиста річ, тож майте власні."
+    },
+    {
+      "k": "budget-how-to-save-p6",
+      "t": "p",
+      "en": "Train with a purpose. A few rounds with a clear task from your {{term:coach|coach}} give more than many cartridges fired just because. Where the law of your country allows it, {{term:dry-mounting|dry mounting}} costs nothing: you practise the gun mount at home, without cartridges, with a gun you have checked is unloaded. Do it the way your coach showed you ({{lesson:training-dry-mount-practice}}). A {{term:training-diary|training diary}} helps you see what works.",
+      "uk": "Тренуйтеся з метою. Кілька раундів із чітким завданням від {{term:coach|тренера}} дають більше, ніж багато набоїв, вистріляних «просто так». Там, де це дозволяє закон вашої країни, {{term:dry-mounting|вкладка без пострілу}} нічого не коштує: ви тренуєте вкладку вдома, без набоїв, із рушницею, яку перевірили й розрядили. Робіть це так, як показав тренер ({{lesson:training-dry-mount-practice}}). {{term:training-diary|Щоденник тренувань}} допоможе бачити, що працює."
+    },
+    {
+      "k": "budget-how-to-save-p7",
+      "t": "p",
+      "en": "Shared trips. Travelling to competitions together and sharing travel and accommodation saves money. ClayArena is also preparing {{term:clayaway|ClayAway}}: organised training tours that will bundle coaching, accommodation and transfers into one package.",
+      "uk": "Спільні поїздки. Їхати на змагання разом і ділити дорогу й проживання — вигідно. ClayArena також готує {{term:clayaway|ClayAway}}: організовані тренувальні тури, які об’єднають тренування, проживання й трансфер в один пакет."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "budget-how-to-save-kp1",
+      "en": "Do not save on safety.",
+      "uk": "На безпеці не економлять."
+    },
+    {
+      "k": "budget-how-to-save-kp2",
+      "en": "Club membership often pays for itself.",
+      "uk": "Членство в клубі часто окуповується."
+    },
+    {
+      "k": "budget-how-to-save-kp3",
+      "en": "Buy cartridges in bulk only where the law allows buying and storing them.",
+      "uk": "Набої оптом — лише там, де закон дозволяє купувати й зберігати таку кількість."
+    },
+    {
+      "k": "budget-how-to-save-kp4",
+      "en": "Reloaded cartridges are not allowed in FITASC competitions.",
+      "uk": "Переспоряджені набої на змаганнях FITASC заборонені."
+    },
+    {
+      "k": "budget-how-to-save-kp5",
+      "en": "Train with a purpose, dry mount where the law allows, share trips.",
+      "uk": "Тренуйтеся з метою, робіть вкладку без пострілу там, де дозволяє закон, їздіть разом."
+    }
+  ],
+  "did_you_know": {
+    "k": "budget-how-to-save-dyk",
+    "en": "Many clubs have club guns that members can use in training, so you can take your time before buying your own.",
+    "uk": "Багато клубів мають клубні рушниці, якими члени можуть користуватися на тренуваннях, тож із купівлею власної можна не поспішати."
+  },
+  "quiz": [
+    {
+      "k": "budget-how-to-save-q1",
+      "q": {
+        "en": "What should you not save on?",
+        "uk": "На чому не можна економити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The brand and colour of your vest",
+          "uk": "На марці й кольорі жилета"
+        },
+        {
+          "k": "b",
+          "en": "Eye and ear protection, a gun in good order",
+          "uk": "На захисті очей і слуху, справній рушниці"
+        },
+        {
+          "k": "c",
+          "en": "How many club shoots you enter",
+          "uk": "На кількості клубних змагань"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Safety comes first: protection for eyes and ears and a gun in good order.",
+        "uk": "Безпека — на першому місці: захист очей і слуху та справна рушниця."
+      }
+    },
+    {
+      "k": "budget-how-to-save-q2",
+      "disc": "both",
+      "q": {
+        "en": "May you use reloaded cartridges at FITASC competitions?",
+        "uk": "Чи можна на змаганнях FITASC стріляти переспорядженими набоями?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, if they are good quality",
+          "uk": "Так, якщо вони якісні"
+        },
+        {
+          "k": "b",
+          "en": "Yes, but only in {{tm:compak}}",
+          "uk": "Так, але лише в {{tm:compak}}"
+        },
+        {
+          "k": "c",
+          "en": "No, both rulebooks forbid them",
+          "uk": "Ні, обидва регламенти їх забороняють"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The rules of {{tm:sporting}} and {{tm:compak}} both forbid reloaded cartridges.",
+        "uk": "Правила і {{tm:sporting}}, і {{tm:compak}} забороняють переспоряджені набої."
+      }
+    },
+    {
+      "k": "budget-how-to-save-q3",
+      "q": {
+        "en": "When does it make sense to buy cartridges in bulk?",
+        "uk": "За якої умови варто купувати набої оптом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Where the law allows buying and storing it",
+          "uk": "Там, де закон дозволяє купувати й зберігати таку кількість"
+        },
+        {
+          "k": "b",
+          "en": "Anywhere, since bulk is cheaper",
+          "uk": "Будь-де, бо оптом дешевше"
+        },
+        {
+          "k": "c",
+          "en": "Only in the week before a championship",
+          "uk": "Лише за тиждень до чемпіонату"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Rules on buying and storing cartridges differ between countries.",
+        "uk": "Правила купівлі й зберігання набоїв у різних країнах різні."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "f6a839ed",
+    "summary": "368b1626",
+    "budget-how-to-save-p1": "4063f2a9",
+    "budget-how-to-save-p2": "ff9fddbd",
+    "budget-how-to-save-p3": "9f2a6065",
+    "budget-how-to-save-p4": "ea7fc5b7",
+    "budget-how-to-save-p5": "bdaf8706",
+    "budget-how-to-save-p6": "753d21ff",
+    "budget-how-to-save-p7": "8a414ee1",
+    "budget-how-to-save-kp1": "a6edf55e",
+    "budget-how-to-save-kp2": "0972037b",
+    "budget-how-to-save-kp3": "9f48f190",
+    "budget-how-to-save-kp4": "8ae930b0",
+    "budget-how-to-save-kp5": "919c7e3f",
+    "budget-how-to-save-dyk": "022826aa",
+    "budget-how-to-save-q1": "aa233336",
+    "budget-how-to-save-q2": "0dda2a10",
+    "budget-how-to-save-q3": "2e4e24f0"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

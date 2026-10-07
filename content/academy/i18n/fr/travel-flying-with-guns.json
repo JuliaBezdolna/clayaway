@@ -1,0 +1,90 @@
+{
+  "id": "travel-flying-with-guns",
+  "lang": "fr",
+  "base_rev": 2,
+  "h": {
+    "title": "3c25034e",
+    "summary": "e4f9ad92",
+    "travel-flying-with-guns-p1": "01a54b09",
+    "travel-flying-with-guns-p2": "14f74903",
+    "travel-flying-with-guns-p3": "4b9ad99e",
+    "travel-flying-with-guns-p4": "6ce48786",
+    "travel-flying-with-guns-p7": "505685a2",
+    "travel-flying-with-guns-p5": "ce139713",
+    "travel-flying-with-guns-p6": "a96493cb",
+    "travel-flying-with-guns-kp1": "c19a4a66",
+    "travel-flying-with-guns-kp2": "9fffee64",
+    "travel-flying-with-guns-kp3": "04d953d9",
+    "travel-flying-with-guns-kp4": "daf9a6ab",
+    "travel-flying-with-guns-kp5": "3fab2e88",
+    "travel-flying-with-guns-dyk": "dbdfe495",
+    "travel-flying-with-guns-q1": "d933ed06",
+    "gun-transport-documents-q3": "cb2be92c",
+    "travel-flying-with-guns-q3": "a062b945",
+    "travel-flying-with-guns-q2": "1866728e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "fr-wave-2026-10"
+  },
+  "title": "Voyager en avion avec un fusil",
+  "summary": "Prévenez la compagnie aérienne à l'avance, emportez le fusil déchargé dans une mallette rigide verrouillable, et respectez les limites IATA et celles de la compagnie pour les cartouches.",
+  "body": {
+    "travel-flying-with-guns-p1": "Commencez par la compagnie aérienne, avant même d'acheter le billet. Toutes les compagnies ne transportent pas de fusils de sport, et certaines ne les acceptent que sur certains vols. La plupart demandent un préavis, souvent au moins un jour ou deux. Des frais peuvent s'appliquer. Lisez les règles de la compagnie sur son site et obtenez une confirmation écrite.",
+    "travel-flying-with-guns-p2": "Le fusil ne voyage qu'en bagage enregistré, pas en cabine. Il doit être déchargé, le plus souvent démonté (les canons séparés de la crosse), et rangé dans une {{term:hard-case|mallette rigide}} verrouillable. Un {{term:gun-slip|fourreau}} souple n'est généralement pas accepté pour un vol. Les règles sur les cadenas et sur qui garde les clés varient, alors vérifiez-les.",
+    "travel-flying-with-guns-p3": "Arrivez à l'aéroport plus tôt que d'habitude. À l'enregistrement, signalez que vous transportez un fusil de sport. Le personnel ouvre souvent la mallette pour la vérifier, établit un document à part pour elle et l'envoie au comptoir des bagages hors format plutôt que sur le tapis habituel. Après l'atterrissage, il faudra peut-être récupérer le fusil à un guichet séparé, parfois en présence d'un policier.",
+    "travel-flying-with-guns-p4": "Les cartouches comptent comme des « marchandises dangereuses » (des objets risqués à transporter en avion), elles obéissent donc à leurs propres règles. Les règles de l'{{term:iata|IATA}} (l'IATA est l'association internationale des compagnies aériennes) autorisent les {{term:cartridge|cartouches}} de sport {{fact:gear.iata-ammunition}}. « Brut » signifie que le poids des boîtes compte aussi. Emballez-les solidement, en général dans les boîtes du fabricant. Deux passagers ne peuvent pas additionner leurs limites dans un même colis.",
+    "travel-flying-with-guns-p7": "Une boîte de 25 cartouches de {{term:gauge|calibre 12}} pèse {{fact:travel.cartridge-box-weight}}, donc la limite représente environ cinq boîtes. Une grande compétition internationale compte {{fact:basics.international-targets}}, il vous en faut donc bien plus que cinq boîtes ; c'est pourquoi les cartouches s'achètent généralement sur place : voir {{lesson:travel-cartridges-at-destination}}.",
+    "travel-flying-with-guns-p5": "Beaucoup de compagnies sont plus strictes : une limite plus basse, des cartouches emballées à part du fusil, ou aucune cartouche du tout. Vérifiez avant chaque vol, et ne supposez pas que les règles de l'année passée s'appliquent encore.",
+    "travel-flying-with-guns-p6": "Vol avec escale ? Assurez-vous que le fusil est enregistré jusqu'à votre destination finale, et demandez si vous devrez le récupérer et le réenregistrer. Gardez les documents dans votre bagage à main, pas dans la mallette : l'autorisation de port d'arme, la {{term:european-firearms-pass|Carte européenne d'arme à feu}} ou l'{{term:temporary-import-permit|autorisation temporaire}}, la {{term:invitation-letter|lettre d'invitation}} et la confirmation de la compagnie."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "travel-flying-with-guns-kp1": "Prévenez la compagnie aérienne à l'avance et obtenez sa confirmation écrite.",
+    "travel-flying-with-guns-kp2": "Le fusil : déchargé, généralement démonté, dans une mallette rigide verrouillable, en bagage enregistré uniquement.",
+    "travel-flying-with-guns-kp3": "Les cartouches voyagent {{fact:gear.iata-ammunition}} ; les compagnies peuvent être plus strictes.",
+    "travel-flying-with-guns-kp4": "Arrivez tôt à l'aéroport.",
+    "travel-flying-with-guns-kp5": "Les documents vont dans votre bagage à main."
+  },
+  "did_you_know": "Selon les règles de l'IATA, les cartouches de sport relèvent de la division 1.4S : des explosifs qui ne présentent qu'un faible danger, dont l'effet reste contenu dans l'emballage. C'est pourquoi une quantité limitée peut voyager en bagage enregistré.",
+  "quiz": {
+    "travel-flying-with-guns-q1": {
+      "q": "Où voyage le fusil pendant un vol ?",
+      "options": {
+        "a": "En cabine, dans un coffre à bagages",
+        "b": "En bagage à main, dans un fourreau souple",
+        "c": "En bagage enregistré, dans une mallette rigide"
+      },
+      "explain": "Les fusils ne voyagent qu'en bagage enregistré, déchargés, dans une mallette rigide verrouillable."
+    },
+    "gun-transport-documents-q3": {
+      "q": "Comment les cartouches voyagent-elles en avion ?",
+      "options": {
+        "a": "En bagage enregistré, bien emballées, avec l'accord de la compagnie",
+        "b": "En bagage à main, pour que la sécurité puisse les vérifier",
+        "c": "Dans les poches de votre veste, pour alléger le bagage"
+      },
+      "explain": "Les règles de l'IATA n'autorisent les cartouches qu'en bagage enregistré, bien emballées et avec l'accord de la compagnie, qui peut être plus stricte."
+    },
+    "travel-flying-with-guns-q3": {
+      "q": "Où devez-vous garder les documents du fusil pendant le vol ?",
+      "options": {
+        "a": "Dans la mallette, avec le fusil",
+        "b": "Dans votre bagage à main, avec vous",
+        "c": "Dans votre valise enregistrée"
+      },
+      "explain": "Les documents peuvent être demandés à l'enregistrement, à la frontière et après l'atterrissage, alors gardez-les avec vous."
+    },
+    "travel-flying-with-guns-q2": {
+      "q": "Quelle limite de cartouches les règles de l'IATA autorisent-elles généralement par passager ?",
+      "options": {
+        "a": "Aucune limite, si les cartouches sont en boîtes",
+        "b": "Jusqu'à 50 kg, partagés avec le groupe",
+        "c": "Jusqu'à 5 kg bruts, pour votre propre usage"
+      },
+      "explain": "Jusqu'à 5 kg bruts par personne, c'est la limite de l'IATA, mais une compagnie peut l'abaisser ou refuser les cartouches."
+    }
+  }
+}

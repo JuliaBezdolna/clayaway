@@ -1,0 +1,136 @@
+{
+  "id": "targets-target-types",
+  "lang": "fr",
+  "base_rev": 3,
+  "h": {
+    "title": "28358913",
+    "summary": "307eb780",
+    "targets-target-types-p1": "8f568cc9",
+    "targets-types-p1": "4bdf6c0a",
+    "targets-types-p2": "db411c19",
+    "targets-types-p3": "6743e89b",
+    "targets-types-p4": "1e284f9f",
+    "targets-target-types-p6": "fe4ceb52",
+    "targets-types-p5": "9cda795a",
+    "targets-target-types-p7": "94d03c28",
+    "targets-types-ph1": "4c73e2c2",
+    "targets-types-ph2": "caeb6425",
+    "targets-types-ph3": "55e04db1",
+    "targets-types-ph4": "957b2cb1",
+    "targets-types-kp2": "53c9bc3e",
+    "targets-types-kp3": "68456af5",
+    "targets-types-kp4": "55e8efac",
+    "targets-types-kp1": "bd17bcb4",
+    "targets-types-kp5": "ed68daa2",
+    "targets-target-types-dyk": "c46a8bf2",
+    "targets-target-types-q1": "3518f8eb",
+    "targets-types-q3": "13a02bc3",
+    "targets-types-q1": "ed953260",
+    "targets-types-q2": "571354c5",
+    "targets-target-types-q-battue": "8773cf12",
+    "targets-target-types-q-flash": "283d5036"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Les types de plateaux",
+  "summary": "Standard, midi, mini, battue, rabbit, flash, ZZ et rocket : en quoi les plateaux diffèrent, comment ils volent, et pourquoi le menu nomme chaque plateau particulier.",
+  "body": {
+    "targets-target-types-p1": "Un {{term:target|plateau}} (target), souvent appelé « clay », est un disque fragile lancé par une machine appelée {{term:trap|lanceur}} (trap). Connaître le type de plateau aide à préparer le tir avant d'appeler.",
+    "targets-types-p1": "La liste FITASC du {{tm:sporting}} nomme sept types de plateaux : standard, midi, super mini, battue, rabbit, flash et ZZ. Le {{tm:compak}} autorise tout plateau standard ou spécial, et sa liste nomme aussi le rocket. Chaque type vole différemment.",
+    "targets-types-p2": "Le {{term:standard-target|standard}}, le plateau le plus courant, est un dôme d'environ 108 à 110 mm de diamètre ; les débutants commencent généralement par lui. Le {{term:midi|midi}} fait 90 mm : il garde bien sa vitesse et paraît plus loin qu'il ne l'est. Le {{term:mini|mini}} fait généralement 60 mm : il quitte le lanceur vite et ralentit rapidement. Les tireurs ont donc tendance à lui donner trop d'avance, c'est-à-dire à tirer trop loin devant lui. Les noms des petits plateaux varient : la liste du {{tm:sporting}} dit « super mini », et les menus peuvent indiquer 70 mm ou 60 mm. Fiez-vous aux millimètres écrits sur le menu.",
+    "targets-types-p3": "La {{term:battue|battue}} est un plateau plat et fin de 110 mm. Elle vole de profil, presque invisible, puis se retourne pour montrer sa face et tombe vite. Le règlement du {{tm:compak}} déconseille les battues sur des trajectoires très courtes. Le {{term:rabbit|rabbit}} est un plateau de 110 mm à bord épais et solide, lancé sur sa tranche au sol ; il rebondit et peut sauter sur les irrégularités. Voir aussi {{lesson:flight-rabbit}}.",
+    "targets-types-p4": "Un {{term:flash-target|plateau flash}} est rempli d'une poudre colorée qui laisse un nuage vif quand il est touché ; il se compte comme tout autre plateau. Un {{term:zz-target|plateau ZZ}}, aussi appelé hélice, est une hélice en plastique avec un centre blanc qui vole de façon imprévisible. Le {{term:rocket-target|rocket}} est un autre plateau spécial, nommé seulement dans la liste du {{tm:compak}}.",
+    "targets-target-types-p6": "Au {{tm:sporting}}, le {{term:target-menu|menu}} devant chaque poste de tir (l'endroit d'où vous tirez) doit nommer tout plateau spécial : {{fact:targets.sporting-menu-special-targets}}. Lisez-le avant de monter sur le poste.",
+    "targets-types-p5": "Au {{tm:sporting}}, un plateau de la mauvaise couleur, taille ou type est un No Bird (le plateau ne compte pas) et il est relancé.",
+    "targets-target-types-p7": "La couleur n'est pas un type de plateau : elle est choisie pour que le plateau se détache bien du fond. Voir {{lesson:targets-colours-visibility}}."
+  },
+  "note": {},
+  "phrases": {
+    "targets-types-ph1": {
+      "meaning": "La correction de l'entraîneur pour ce plateau : il paraît plus loin qu'il ne l'est, donc ce tireur lui donne plus d'avance (plus de distance devant) qu'il n'en faut. C'est une correction pour cette situation précise, pas une règle générale.",
+      "say": "Le midi paraît loin, mais ce n'est pas le cas — ne lui donnez pas trop d'avance."
+    },
+    "targets-types-ph2": {
+      "meaning": "Tirez la battue une fois qu'elle tourne sa face plate vers vous.",
+      "say": "La battue va se retourner et tomber à la fin — tirez-la quand elle montre son ventre."
+    },
+    "targets-types-ph3": {
+      "meaning": "Le petit plateau perd vite sa vitesse ; n'attendez pas.",
+      "say": "Le mini s'essouffle vite — tirez-le tôt."
+    },
+    "targets-types-ph4": {
+      "meaning": "Gardez le fusil pointé bas sur le plateau qui roule, pour que s'il bondit, il saute dans le tir.",
+      "say": "Le rabbit va sauter sur cette bosse — restez dessous."
+    }
+  },
+  "key_points": {
+    "targets-types-kp2": "Standard environ 108-110 mm, midi 90 mm, mini généralement 60 mm ; le menu peut aussi indiquer 70 mm, donc fiez-vous aux millimètres.",
+    "targets-types-kp3": "Battue : plate, de profil, se retourne et tombe ; rabbit : bord épais, roule et bondit.",
+    "targets-types-kp4": "Flash laisse un nuage de poudre ; ZZ est un plateau hélice.",
+    "targets-types-kp1": "Liste {{tm:sporting}} : standard, midi, super mini, battue, rabbit, flash, ZZ ; {{tm:compak}} autorise tout type, rocket compris.",
+    "targets-types-kp5": "{{tm:sporting}} : mauvaise couleur, taille ou type = No Bird."
+  },
+  "quiz": {
+    "targets-target-types-q1": {
+      "q": "Quelle taille a généralement un plateau mini ?",
+      "options": {
+        "a": "90 mm",
+        "b": "Environ 60 mm",
+        "c": "Environ 110 mm"
+      },
+      "explain": "Un mini mesure généralement 60 mm et un midi 90 mm. Les noms des petits plateaux varient, donc fiez-vous aux millimètres indiqués sur le menu."
+    },
+    "targets-types-q3": {
+      "q": "Sur un poste de {{tm:sporting}}, un lanceur envoie un midi au lieu du standard indiqué sur le menu. Que se passe-t-il ?",
+      "options": {
+        "a": "No Bird, le plateau est relancé",
+        "b": "Il compte comme touché",
+        "c": "Le tireur perd le plateau",
+        "d": "La série est annulée"
+      },
+      "explain": "Au {{tm:sporting}}, un plateau de la mauvaise couleur, taille ou type est un No Bird (il ne compte pas) et il est relancé."
+    },
+    "targets-types-q1": {
+      "q": "Quel plateau roule au sol ?",
+      "options": {
+        "a": "Midi",
+        "b": "Battue",
+        "c": "Rabbit",
+        "d": "Flash"
+      },
+      "explain": "Le rabbit a un bord épais et est lancé sur sa tranche au sol."
+    },
+    "targets-types-q2": {
+      "q": "Le menu indique « 70 mm ». L'entraîneur l'appelle mini. Que devez-vous traduire ?",
+      "options": {
+        "a": "Corriger en 60 mm, puisqu'un mini fait 60 mm",
+        "b": "Garder le mot de l'entraîneur et le 70 mm du menu",
+        "c": "L'appeler midi, puisqu'il dépasse 60 mm",
+        "d": "Demander à l'entraîneur de dire « super mini » à la place"
+      },
+      "explain": "Le règlement nomme les tailles 70 mm et 60 mm et le nom « super mini » ; faites confiance aux millimètres du menu et ne corrigez pas l'entraîneur."
+    },
+    "targets-target-types-q-battue": {
+      "q": "Quel plateau vole de profil, puis se retourne pour montrer sa face et tombe ?",
+      "options": {
+        "a": "Battue",
+        "b": "Midi",
+        "c": "Rabbit"
+      },
+      "explain": "La battue est plate et fine : elle vole de profil, puis se retourne et tombe vite."
+    },
+    "targets-target-types-q-flash": {
+      "q": "Quel plateau laisse un nuage de poudre colorée quand il est touché ?",
+      "options": {
+        "a": "Plateau ZZ",
+        "b": "Rocket",
+        "c": "Plateau flash"
+      },
+      "explain": "Un plateau flash est rempli de poudre colorée. Il se compte comme tout autre plateau."
+    }
+  },
+  "did_you_know": "Un mini paraît facile parce qu'il est petit, mais beaucoup de tireurs le trouvent l'un des plus délicats : il part très vite, puis ralentit brusquement."
+}

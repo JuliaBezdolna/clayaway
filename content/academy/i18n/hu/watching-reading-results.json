@@ -1,0 +1,135 @@
+{
+  "id": "watching-reading-results",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "d5e0cd26",
+    "summary": "00bcb825",
+    "watching-reading-results-p1": "a593aad6",
+    "referee-scoring-p1": "67cd20f8",
+    "watching-reading-results-compak": "20ba60c6",
+    "referee-scoring-p2": "9eed775d",
+    "watching-reading-results-p3": "e5bd1066",
+    "watching-reading-results-p4": "bf2a6fc6",
+    "watching-reading-results-p5": "7203bf5f",
+    "watching-reading-results-p6": "55a141b2",
+    "watching-reading-results-same-targets": "5b63d50c",
+    "watching-reading-results-n-card": "b967a8d7",
+    "referee-scoring-ph1": "78d746b9",
+    "referee-scoring-ph2": "85a7e77e",
+    "referee-scoring-ph3": "5ceb7683",
+    "watching-reading-results-kp1": "e95f9f8e",
+    "referee-scoring-kp1": "3bd23aa1",
+    "referee-scoring-kp2": "760f6af6",
+    "watching-reading-results-kp4": "8a7110a4",
+    "watching-reading-results-kp5": "3c60cad8",
+    "watching-reading-results-dyk": "6e9971df",
+    "referee-scoring-q1": "5fd1535a",
+    "referee-scoring-q3": "6893a814",
+    "watching-reading-results-q3": "8365a697",
+    "watching-reading-results-q2": "cebf173c",
+    "watching-reading-results-q4": "ebf532a0",
+    "watching-reading-results-q-photo": "9d644b18"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "watching-reading-results-p1": "A koronglövészetben az eredményt egyszerűen számolják: hány korongot törtek el. Egy {{term:round|kör}} mindkét versenyszámban – a {{tm:sporting}}-ban és a {{tm:compak}}-ban is – {{fact:rules.round-targets}}, és egy nemzetközi verseny {{fact:basics.international-targets}}. Így a legmagasabb elérhető eredmény 200 a 200-ból.",
+    "referee-scoring-p1": "Minden korong egy {{term:score-sheet|eredménylapra}} (score card) kerül. A {{tm:sporting}}-ban a lapot a {{term:referee|bíró}} vezeti, vagy egy ember a felügyelete alatt. A szabványos FITASC lapon minden korongnál feltüntetik a dobógépe betűjét (A, B, C…), X-szel a találatot, O-val a mellőlövést. A lapon van még egy összeg és egy aláírási rovat is. Mielőtt a rotte a következő lőállásra megy, a bíró lefotózza a lapot.",
+    "watching-reading-results-compak": "A {{tm:compak}}-ban rotte szerint lőve a bíró vezeti az eredménylapot: a találatot X, a mellőlövést O jelöli. Minden nullát a bíró hangosan vagy hangjelzéssel bejelent, hogy a nem egyetértő lövész azonnal óvhasson. A {{term:compak-in-line|soros Compak}}-ban (in line), ahol egy jóváhagyott elektronikus rendszer rögzíti az eredményeket ({{term:electronic-refereeing|elektronikus bíráskodás}}), az eredmények egy kijelzőn jelennek meg.",
+    "referee-scoring-p2": "A {{tm:sporting}}-ban minden lőállás elhagyásakor ellenőrizned kell az eredményedet. Ha nem egyezel bele egy jelölésbe, azonnal szólj a bírónak: a bíró dönt, esetleg másokat is megkérdezve, és ez a döntés nem fellebbezhető. A {{tm:compak}}-ban a kör végén aláírod az eredménylapot; ha megtagadod az aláírást, elveszted a panasztétel jogát.",
+    "watching-reading-results-p3": "Nemzetközi versenyeken a köreredmények egy központi táblára (scoreboard) vagy egy elektronikus rendszerbe kerülnek. Minden név mellett rendszerint látod minden kör eredményét és az összeget. Így nem csak azt látod, ki vezet, hanem azt is, ki lő egyenletesen, és kinek volt rossz köre.",
+    "watching-reading-results-p4": "A döntetlen eredmény gyakori. Az első három hely döntetlenjét {{fact:competitions.shoot-off-format}} dönti el (hirtelen halálban az esik ki, aki először hibázik). A harmadik hely alatt a döntetlenes lövészek megosztják a helyet, és a listán a sorrendjüket a {{term:countback|fordított sorrendű összevetés}} (countback) állítja be. Hogyan működik mindkettő: {{lesson:competitions-categories-and-shoot-offs}}.",
+    "watching-reading-results-p5": "Az {{term:open-ranking|abszolút rangsor}} mellett vannak {{term:category|kategóriák}} is, mint a {{term:junior|Junior}}, a {{term:lady|Lady}}, a {{term:senior|Senior}} és a {{term:veteran|Veteran}}, valamint egy {{term:team|csapat}}rangsor is. Így egy díjátadáson több győztes is lehet, egy-egy minden rangsorban.",
+    "watching-reading-results-p6": "Egy verseny után az eredmények megjelennek a ClayArenán. A táblázat megmutatja minden lövész helyét és az eltört korongok számát. Innen megnyithatod a {{term:shooter-profile|lövőprofilt}} is, a versenyeivel és olyan adatokkal, mint a {{term:accuracy|találati arány}} és a {{term:best-score|legjobb eredmény}}. Bővebben: {{lesson:clayarena-find-your-results}}.",
+    "watching-reading-results-same-targets": "Csak ugyanannyi korongra hasonlítsd össze az eredményeket, és lehetőleg ugyanazon a versenyen: a különböző stendek lőpályái eltérő nehézségűek. A 90/100 és a 180/200 ugyanaz a százalék, de egy hosszabb verseny más próba."
+  },
+  "note": {
+    "watching-reading-results-n-card": "A „check your card”-ot sürgős utasításként fordítsd, ne udvarias megjegyzésként: amint a lövész elhagyta a lőállást, egy hibás jelölést már nem lehet megkérdőjelezni."
+  },
+  "phrases": {
+    "referee-scoring-ph1": {
+      "meaning": "{{tm:sporting}}: nézd meg most a jelöléseidet; a későbbi kifogásokat nem fogadják el.",
+      "say": "Ellenőrizd a lapodat, mielőtt elhagyod a lőállást."
+    },
+    "referee-scoring-ph2": {
+      "meaning": "{{tm:compak}}: az aláírás megerősíti az eredményt; a megtagadása a panasztétel jogának elvesztésével jár.",
+      "say": "Írja alá itt, kérem."
+    },
+    "referee-scoring-ph3": {
+      "meaning": "25-ből 23 az eredmény; két korong hiba volt.",
+      "say": "Huszonhárom – kettőt hibáztál."
+    }
+  },
+  "key_points": {
+    "watching-reading-results-kp1": "Az eredmény az eltört korongok száma; egy nemzetközi verseny {{fact:basics.international-targets}}.",
+    "referee-scoring-kp1": "X = találat, O = hiba a FITASC-eredménylapokon",
+    "referee-scoring-kp2": "{{tm:sporting}}: ellenőrizd az eredményedet minden lőállás elhagyásakor; {{tm:compak}}: írd alá a lapot, vagy elveszted a panasztétel jogát.",
+    "watching-reading-results-kp4": "A kategóriák és a csapatrangsor több győztest jelentenek egy díjátadáson.",
+    "watching-reading-results-kp5": "Csak ugyanannyi korongra hasonlíts, lehetőleg ugyanazon a versenyen."
+  },
+  "quiz": {
+    "referee-scoring-q1": {
+      "q": "Egy FITASC eredménylapon mit jelent az O?",
+      "options": {
+        "a": "Találatot",
+        "b": "No Birdet",
+        "c": "Mellőlövést",
+        "d": "Üres lőállást"
+      },
+      "explain": "A szabványos FITASC lapon a találatot X, a mellőlövést O jelöli."
+    },
+    "referee-scoring-q3": {
+      "q": "A {{tm:compak}}-ban a lövészed megtagadja az eredménylap aláírását. Mi a következmény?",
+      "options": {
+        "a": "Elveszti a jogot bármilyen panaszra",
+        "b": "A kört újra lövik",
+        "c": "A bíró aláírja, és semmi nem változik",
+        "d": "Automatikusan 25 nullát kap"
+      },
+      "explain": "A {{tm:compak}} szabályai szerint az a lövész, aki megtagadja az aláírást, elveszti a panasztétel jogát."
+    },
+    "watching-reading-results-q3": {
+      "q": "Két lövész eredményét akarod összehasonlítani. Mi a tisztességes módja?",
+      "options": {
+        "a": "Hasonlítsd össze a százalékokat, bármilyen hosszú is volt a verseny",
+        "b": "Csak a legmagasabb körüket hasonlítsd össze",
+        "c": "Hasonlítsd össze ugyanannyi korongra, lehetőleg egy versenyen"
+      },
+      "explain": "Ugyanaz a százalék eltérő számú korongra, vagy más stendeken, nem ugyanaz a próba: a lőpályák eltérő nehézségűek."
+    },
+    "watching-reading-results-q2": {
+      "q": "Hogyan döntik el a döntetlent az első három helyen?",
+      "options": {
+        "a": "Sorsolással",
+        "b": "Szétlövéssel (shoot-off)",
+        "c": "A lövész kora szerint"
+      },
+      "explain": "Az első három helyért 25 korongos szétlövést tartanak, majd hirtelen halált."
+    },
+    "watching-reading-results-q4": {
+      "q": "A {{tm:sporting}}-ban mikor kell ellenőrizned az eredményedet a lapon?",
+      "options": {
+        "a": "Minden lőállás elhagyásakor",
+        "b": "Csak a nap végén",
+        "c": "Amikor az eredmények online megjelennek"
+      },
+      "explain": "Ellenőrizd az eredményedet minden lőállás elhagyásakor, és azonnal szólj, ha nem egyezel bele; később nincs fellebbezés."
+    },
+    "watching-reading-results-q-photo": {
+      "q": "A {{tm:sporting}}-ban mit csinál a bíró az eredménylappal, mielőtt a rotte a következő lőállásra megy?",
+      "options": {
+        "a": "Lefotózza",
+        "b": "Azonnal elviszi a zsűrihez",
+        "c": "Kiteszi a központi táblára"
+      },
+      "explain": "Mielőtt a rotte továbbmegy, a bíró lefotózza a lapot, és egy csillaggal jelöli a lövészt, aki a következő lőállásra viszi."
+    }
+  },
+  "title": "Hogyan olvasd ki a táblát és az eredményeket",
+  "summary": "Mit jelent az X és az O egy eredménylapon, hogyan áll össze egy 200-ból adott összeg, hogyan döntik el a döntetleneket, és hogyan olvasd ki egy eredménytáblázatot a ClayArenán.",
+  "did_you_know": "A {{tm:sporting}}-ban egy lőpálya minden lőállásának saját ceruzaszíne van az eredménylapon. Amikor a rotte továbbmegy, egy csillag jelöli azt a lövészt, aki a lapot a következő lőállásra viszi."
+}

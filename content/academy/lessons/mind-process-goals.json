@@ -1,0 +1,352 @@
+{
+  "id": "mind-process-goals",
+  "rev": 2,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "process-goal",
+    "layout",
+    "training-diary"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "The performance and psychological effects of goal setting in sport: a systematic review and meta-analysis (International Review of Sport and Exercise Psychology, 2024)"
+      },
+      "url": "https://doi.org/10.1080/1750984X.2022.2116723",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Effects of a motivational climate intervention for coaches on young athletes' sport performance anxiety (Journal of Sport and Exercise Psychology, 2007)"
+      },
+      "url": "https://doi.org/10.1123/jsep.29.1.39",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Process goals and the score",
+    "uk": "Цілі процесу і рахунок"
+  },
+  "summary": {
+    "en": "Why goals about what you do tend to help more than goals about winning, and how to set goals for your first competition.",
+    "uk": "Чому цілі про те, що ви робите, зазвичай допомагають більше, ніж цілі про перемогу, і як поставити цілі на перші змагання."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "Process goals ('the full routine on every target') tend to help more than outcome goals ('win'); a personal standard ('22 of 25 on this layout') sits in between.",
+        "How to set goals for a first competition.",
+        "Look at the score when you sign the card.",
+        "Evidence: some research (moderate); the order 'process > standard > outcome' is more reliable than any exact numbers."
+      ],
+      "uk": [
+        "Цілі процесу («повний ритуал на кожній мішені») зазвичай допомагають більше, ніж цілі результату («виграти»); особиста норма («22 із 25 на цьому майданчику») — посередині.",
+        "Як поставити цілі на перші змагання.",
+        "Рахунок дивитися, коли підписуєте картку.",
+        "Доказовість: є дослідження (помірна); порядок «процес > норма > результат» надійніший за будь-які точні числа."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-process-goals-p1",
+      "t": "p",
+      "en": "There are three kinds of goals. A {{term:process-goal|process goal}} is about how you shoot: “the full routine on each target”. A personal standard is your own level: “22 of 25 on this {{term:layout|layout}}”. An outcome goal is about the result: “win” or “top three”.",
+      "uk": "Цілі бувають трьох видів. {{term:process-goal|Ціль процесу}} — про те, як ви стріляєте: «повний ритуал на кожній мішені». Особиста норма — ваш власний рівень: «22 із 25 на цьому {{term:layout|майданчику}}». Ціль результату — про підсумок: «виграти» чи «потрапити в трійку»."
+    },
+    {
+      "k": "mind-process-goals-p2",
+      "t": "p",
+      "en": "In a review of 27 studies, process goals helped results the most, personal standards helped some, and outcome goals hardly at all. Some of these findings rest on only a few studies, so the reliable part is the order: process first, then your personal standard, then the outcome. The studies are not from clay shooting, so most likely this works the same way in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "В огляді 27 досліджень цілі процесу допомагали найбільше, особисті норми — трохи, а цілі результату — майже ніяк. Частина цих висновків спирається лише на кілька досліджень, тож надійний тут саме порядок: спершу процес, потім особиста норма, потім результат. Дослідження проводили не у стендовій стрільбі, тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+    },
+    {
+      "k": "mind-process-goals-p3",
+      "t": "p",
+      "en": "An outcome also depends on others: you can shoot very well and still lose. A process goal stays in your hands on each target.",
+      "uk": "Підсумок залежить і від інших: можна стріляти дуже добре й однаково програти. Ціль процесу залишається у ваших руках на кожній мішені."
+    },
+    {
+      "k": "mind-process-goals-steps",
+      "t": "steps",
+      "en": [
+        "Choose two or three process goals, for example “full routine on each target”, “reset after each miss”, “eyes on the target”.",
+        "Add one realistic personal standard based on your training scores.",
+        "Leave outcome goals at home: no “I must finish in the top ten”.",
+        "Write the goals down the night before and read them in the morning.",
+        "After the event, check each goal: kept or not? Note one thing to keep and one to train."
+      ],
+      "uk": [
+        "Оберіть дві-три цілі процесу, наприклад «повний ритуал на кожній мішені», «перезапуск після кожного промаху», «погляд на мішені».",
+        "Додайте одну реалістичну особисту норму на основі тренувальних результатів.",
+        "Цілі результату залиште вдома: жодного «я маю потрапити в десятку».",
+        "Запишіть цілі звечора й перечитайте їх уранці.",
+        "Після змагань перевірте кожну ціль: виконали чи ні? Запишіть одне, що варто зберегти, і одне, що треба тренувати."
+      ]
+    },
+    {
+      "k": "mind-process-goals-p4",
+      "t": "p",
+      "en": "Do not count your score while you shoot a stand. Look at it once the stand is over, then go back to your process goals.",
+      "uk": "Не рахуйте очок, поки стріляєте на місці. Подивіться на результат, коли місце закінчене, і повертайтеся до своїх цілей процесу."
+    },
+    {
+      "k": "mind-process-goals-results-rule",
+      "t": "p",
+      "disc": "sporting",
+      "en": "{{tm:sporting}} has a rule for that moment: when you leave the stand, check that your score on the card is right ({{rule:sporting:ch16-results-check}}).",
+      "uk": "У {{tm:sporting}} для цього моменту є правило: залишаючи стрілецьке місце, перевірте, чи правильно записано ваш результат у картці ({{rule:sporting:ch16-results-check}})."
+    },
+    {
+      "k": "mind-process-goals-p5",
+      "t": "p",
+      "en": "For juniors, process goals take pressure off, because they reward what the child controls. In studies, young athletes were less anxious when their coaches cared more about learning than about winning: see {{lesson:juniors-support-without-pressure}}.",
+      "uk": "Для юніорів цілі процесу знімають тиск, бо відзначають те, що дитина контролює. У дослідженнях юні спортсмени менше тривожилися, коли тренерам навчання було важливіше за перемогу: див. {{lesson:juniors-support-without-pressure}}."
+    },
+    {
+      "k": "mind-process-goals-tip",
+      "t": "tip",
+      "en": "Keep your goals and the after-event check in your {{term:training-diary|training diary}}: over a season you will see which goals helped.",
+      "uk": "Записуйте цілі й перевірку після змагань у {{term:training-diary|щоденник тренувань}}: за сезон ви побачите, які цілі допомагали."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-process-goals-n1",
+      "for": "coach",
+      "en": "Before a competition, agree two or three process goals with the shooter, and ask about them afterwards before you ask about the score.",
+      "uk": "Перед змаганнями узгодьте зі стрільцем дві-три цілі процесу, а після них спершу запитайте про ці цілі, а вже потім про рахунок."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-process-goals-kp1",
+      "en": "Process goals about how you shoot tend to help more than goals about winning.",
+      "uk": "Цілі процесу — про те, як ви стріляєте, — зазвичай допомагають більше, ніж цілі про перемогу."
+    },
+    {
+      "k": "mind-process-goals-kp2",
+      "en": "Set 2–3 process goals and one realistic personal standard.",
+      "uk": "Поставте 2–3 цілі процесу й одну реалістичну особисту норму.",
+      "checklist": true
+    },
+    {
+      "k": "mind-process-goals-kp3",
+      "en": "Check the score on the card, not during the stand.",
+      "uk": "Перевіряйте рахунок у картці, а не під час стрільби на місці.",
+      "checklist": true
+    },
+    {
+      "k": "mind-process-goals-kp4",
+      "en": "After the event, review each goal: kept or not.",
+      "uk": "Після змагань перевірте кожну ціль: виконали чи ні."
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-process-goals-dyk",
+    "en": "Some shooters treat a round of 25 targets as 25 small competitions of one target each. It is another way of saying “one target at a time”.",
+    "uk": "Деякі стрільці сприймають раунд із 25 мішеней як 25 маленьких змагань по одній мішені. Це інший спосіб сказати «одна мішень за раз»."
+  },
+  "quiz": [
+    {
+      "k": "mind-process-goals-q1",
+      "q": {
+        "en": "Which is a process goal?",
+        "uk": "Яка з цілей — ціль процесу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Win this year's club championship",
+          "uk": "Виграти цьогорічний клубний чемпіонат"
+        },
+        {
+          "k": "b",
+          "en": "Break 22 of 25 on this layout",
+          "uk": "Розбити 22 із 25 на цьому майданчику"
+        },
+        {
+          "k": "c",
+          "en": "The full routine on each target",
+          "uk": "Повний ритуал на кожній мішені"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A process goal is about how you shoot, which stays in your hands on each target.",
+        "uk": "Ціль процесу — про те, як ви стріляєте, а це залишається у ваших руках на кожній мішені."
+      }
+    },
+    {
+      "k": "mind-process-goals-q2",
+      "q": {
+        "en": "Which kind of goal helped results the most in research?",
+        "uk": "Який вид цілей у дослідженнях найбільше допомагав результату?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Process goals",
+          "uk": "Цілі процесу"
+        },
+        {
+          "k": "b",
+          "en": "Outcome goals",
+          "uk": "Цілі результату"
+        },
+        {
+          "k": "c",
+          "en": "All kinds helped equally",
+          "uk": "Усі однаково"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Process goals helped the most, personal standards somewhat, outcome goals hardly at all.",
+        "uk": "Цілі процесу допомагали найбільше, особисті норми — трохи, цілі результату — майже ніяк."
+      }
+    },
+    {
+      "k": "mind-process-goals-q3",
+      "q": {
+        "en": "What kind of goal is “22 of 25 on this layout”?",
+        "uk": "Що це за ціль: «22 із 25 на цьому майданчику»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "An outcome goal",
+          "uk": "Ціль результату"
+        },
+        {
+          "k": "b",
+          "en": "A personal standard",
+          "uk": "Особиста норма"
+        },
+        {
+          "k": "c",
+          "en": "A process goal",
+          "uk": "Ціль процесу"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "It is your own standard: it sits between a process goal and an outcome goal.",
+        "uk": "Це ваша власна норма: вона посередині між ціллю процесу і ціллю результату."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": [
+    {
+      "for": "mind-process-goals-p2",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/1750984X.2022.2116723"
+      ]
+    },
+    {
+      "for": "mind-process-goals-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-process-goals-steps",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-process-goals-p4",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-process-goals-p5",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1123/jsep.29.1.39"
+      ]
+    },
+    {
+      "for": "mind-process-goals-tip",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "c6ff5afb",
+    "summary": "c32a292e",
+    "mind-process-goals-p1": "e4e01d76",
+    "mind-process-goals-p2": "f492b2a0",
+    "mind-process-goals-p3": "9976f6bd",
+    "mind-process-goals-steps": "4e614b12",
+    "mind-process-goals-p4": "79886666",
+    "mind-process-goals-results-rule": "643d5903",
+    "mind-process-goals-p5": "1ef7b00c",
+    "mind-process-goals-tip": "c6e5c3d3",
+    "mind-process-goals-n1": "9394441e",
+    "mind-process-goals-kp1": "e064c218",
+    "mind-process-goals-kp2": "afd8774a",
+    "mind-process-goals-kp3": "ba97e12f",
+    "mind-process-goals-kp4": "ea8f3a99",
+    "mind-process-goals-dyk": "b7965d98",
+    "mind-process-goals-q1": "eda4ffa5",
+    "mind-process-goals-q2": "ff03468d",
+    "mind-process-goals-q3": "cbdf0fcb"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\"."
+    ]
+  }
+}

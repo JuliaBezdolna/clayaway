@@ -1,0 +1,86 @@
+{
+  "id": "intro-shooting-ground",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "b20666cd",
+    "summary": "6bd14e2a",
+    "intro-shooting-ground-p1": "5342d490",
+    "intro-shooting-ground-p2": "9e155a13",
+    "intro-shooting-ground-p3": "527179db",
+    "intro-shooting-ground-p4": "62bf704a",
+    "intro-shooting-ground-p5": "088fa7b4",
+    "intro-shooting-ground-p6": "4b44ec73",
+    "intro-shooting-ground-kp1": "9781dc63",
+    "intro-shooting-ground-kp2": "d96d7209",
+    "intro-shooting-ground-kp3": "a4b0be72",
+    "intro-shooting-ground-kp4": "f581af87",
+    "intro-shooting-ground-dyk": "91d2d74b",
+    "intro-shooting-ground-q1": "f5876e96",
+    "intro-shooting-ground-q2": "e656c81f",
+    "intro-shooting-ground-q3": "9394e7e4",
+    "intro-shooting-ground-q-fal": "4b082e3b"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Com'è fatto un campo di tiro",
+  "summary": "Il clubhouse, i percorsi di {{tm:sporting}}, il campo {{tm:compak}} e le macchine: cosa vedrai alla tua prima visita.",
+  "body": {
+    "intro-shooting-ground-p1": "Un {{term:range|campo di tiro}}, spesso chiamato semplicemente «il campo», ha di solito un clubhouse con l'accettazione, un bar e {{term:gun-rack|rastrelliere}}, campi per allenarsi e i percorsi usati per le gare.",
+    "intro-shooting-ground-p2": "Per lo {{tm:sporting}} il campo è diviso in {{term:layout|percorsi}}: gruppi di {{term:shooting-stand|pedane}} da cui si spara una serie di {{fact:rules.round-targets}}. Le macchine sono spesso nascoste dietro i cespugli o nei fossi, oppure montate su torri. I piattelli volano allora come farebbe la selvaggina (gli uccelli e le lepri che i cacciatori cacciano): sopra un campo, da dietro gli alberi, sull'acqua. Come funzionano percorso e serie: {{lesson:targets-sporting-layout}}.",
+    "intro-shooting-ground-p3": "Una pedana di {{tm:sporting}} è {{fact:basics.sporting-stand-size}}. Dove possibile dovrebbe essere in piano e non deve essere scivolosa, perché è una questione di sicurezza. Davanti alla pedana trovi il {{term:target-menu|menu}}: elenca le macchine nell'ordine di tiro ed eventuali piattelli speciali.",
+    "intro-shooting-ground-p4": "Il {{tm:compak}} si svolge su un unico campo con {{fact:basics.compak-field}}. Ogni pedana è 1 × 1 m, con 2–5 m tra i centri delle pedane vicine. Le macchine possono stare davanti o di fianco alle pedane; una macchina dietro di esse sta su una {{term:tower|torre}} alta almeno 4 m. Ogni pedana ha un {{term:firing-angle-limiter|limitatore dell'angolo di tiro}}, una struttura che impedisce al fucile di ruotare in una direzione non sicura. Di più: {{lesson:targets-compak-layout}}.",
+    "intro-shooting-ground-p5": "I piattelli sono di diversi tipi: {{term:standard-target|standard}}, {{term:midi|midi}}, {{term:mini|mini}} (chiamato anche super mini), {{term:battue|battuta}} (sottile e piatta), {{term:rabbit|lepre}} (rotola sul terreno) e {{term:flash-target|flash}}. Il piattello flash, quando colpito, lascia una nuvoletta di polvere luminosa. Il colore è scelto perché il piattello risalti sul cielo o sugli alberi.",
+    "intro-shooting-ground-p6": "Alla tua prima visita, guarda i cartelli e la segnaletica: dove puoi camminare, dove stanno gli spettatori e dove è permesso sparare. Ogni campo ha le proprie regole, quindi chiedile prima del tuo primo colpo. Le abitudini di sicurezza fondamentali sono nella lezione {{lesson:safety-core-rules}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-shooting-ground-kp1": "Un percorso di {{tm:sporting}} è un gruppo di pedane su terreno naturale.",
+    "intro-shooting-ground-kp2": "Una pedana di {{tm:sporting}} è {{fact:basics.sporting-stand-size}}, in piano e non scivolosa.",
+    "intro-shooting-ground-kp3": "{{tm:compak}}: un unico campo con {{fact:basics.compak-field}}, e un limitatore dell'angolo di tiro su ogni pedana.",
+    "intro-shooting-ground-kp4": "Leggi il menu a ogni pedana e informati sulle regole del campo prima di sparare."
+  },
+  "did_you_know": "Il piattello flash contiene polvere luminosa, così un colpo a segno si vede anche da lontano. Il pubblico lo adora.",
+  "quiz": {
+    "intro-shooting-ground-q1": {
+      "q": "Quanto è grande una pedana di {{tm:sporting}}?",
+      "options": {
+        "a": "Un quadrato di 1 m o un cerchio di 1 m",
+        "b": "Un quadrato di 3 m con una recinzione",
+        "c": "Qualsiasi misura decida il club"
+      },
+      "explain": "Il regolamento fissa {{fact:basics.sporting-stand-size}}."
+    },
+    "intro-shooting-ground-q2": {
+      "q": "Cosa indica il menu?",
+      "options": {
+        "a": "I prezzi del bar",
+        "b": "Le macchine nell'ordine di tiro",
+        "c": "I punteggi della batteria"
+      },
+      "explain": "Il menu davanti alla pedana elenca le macchine nell'ordine di tiro ed eventuali piattelli speciali."
+    },
+    "intro-shooting-ground-q3": {
+      "q": "Quale piattello rotola sul terreno?",
+      "options": {
+        "a": "Battuta",
+        "b": "Midi",
+        "c": "Lepre (rabbit)"
+      },
+      "explain": "Il piattello «lepre» (rabbit) rotola sul terreno e sobbalza sulle asperità."
+    },
+    "intro-shooting-ground-q-fal": {
+      "q": "A cosa serve la struttura su ogni pedana del {{tm:compak}}?",
+      "options": {
+        "a": "Sostiene il menu",
+        "b": "Limita il movimento del fucile",
+        "c": "Segna il posto degli spettatori"
+      },
+      "explain": "Il limitatore dell'angolo di tiro impedisce al fucile di puntare in una direzione non sicura e mantiene il tiratore all'interno della pedana."
+    }
+  }
+}

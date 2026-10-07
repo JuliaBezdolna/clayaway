@@ -1,0 +1,103 @@
+{
+  "id": "interpreter-numbers-and-units",
+  "lang": "fr",
+  "base_rev": 1,
+  "h": {
+    "title": "27ce2b02",
+    "summary": "57f2da6e",
+    "interpreter-numbers-and-units-p1": "c2bc2ad1",
+    "interpreter-numbers-and-units-p2": "fad676a6",
+    "interpreter-numbers-and-units-p3": "8353a9eb",
+    "interpreter-numbers-and-units-p4": "d88b4af0",
+    "interpreter-numbers-and-units-chokes": "a828e484",
+    "interpreter-numbers-and-units-ph1": "cbc38942",
+    "interpreter-numbers-and-units-ph2": "8c188306",
+    "interpreter-numbers-and-units-ph3": "328b9d6d",
+    "interpreter-numbers-and-units-ph4": "86325b8e",
+    "interpreter-numbers-and-units-ph5": "be5f2b18",
+    "interpreter-numbers-and-units-kp1": "2bdc5697",
+    "interpreter-numbers-and-units-kp2": "328aa381",
+    "interpreter-numbers-and-units-kp3": "58c502e4",
+    "interpreter-numbers-and-units-kp4": "cff0fd20",
+    "interpreter-numbers-and-units-kp5": "45efd965",
+    "interpreter-numbers-and-units-q1": "1f0cc95c",
+    "interpreter-numbers-and-units-q2": "862c2542",
+    "interpreter-numbers-and-units-q3": "58baa361"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Nombres et unités : pieds, yards, calibres, numéros de plomb",
+  "summary": "Yards et mètres, directions à l'horloge, numéros de calibre, charges, numéros de plomb et chokes : quels chiffres convertir, lesquels garder tels qu'ils sont dits, et quelles sont les limites FITASC.",
+  "body": {
+    "interpreter-numbers-and-units-p1": "D'abord l'avance. Les {{term:coach|entraîneurs}} britanniques et américains donnent l'{{term:lead|avance}} en pieds ou en yards : « give it three feet », « a yard in front ». C'est une image (l'écart que le tireur doit voir au moment du tir), pas une mesure. Gardez l'unité telle qu'elle est dite et ne la convertissez pas au milieu d'une consigne. Plus sur les mots d'avance : {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p2": "Les distances aux plateaux, c'est autre chose. « It's about thirty yards » peut devenir « environ 27 mètres », car un yard fait {{fact:stand-talk.unit-yard}}. Gardez le mot « environ ». Les directions arrivent souvent sous forme de {{term:clock-face|cadran d'horloge}} posé sur le terrain : droit devant, c'est midi, donc « pick it up at eleven o'clock » veut dire légèrement à gauche. Gardez l'horloge ; ne la transformez pas en degrés.",
+    "interpreter-numbers-and-units-p3": "Le {{term:gauge|calibre}} fonctionne à l'envers. Un « 12-bore » ou « 12 gauge » ne fait pas 12 mm : plus le nombre est petit, plus le canon est large, donc un calibre 20 est plus étroit. Les deux règlements FITASC ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) autorisent des fusils {{fact:gear.fitasc-max-gauge}}, avec des {{term:barrel-length|canons}} {{fact:gear.fitasc-min-barrel}}. En {{tm:sporting}}, la ligne sur le gilet passe {{fact:rules.sporting-jacket-line}} ; les Britanniques peuvent dire « just under ten inches ». L'axe des épaules est une ligne imaginaire qui traverse les deux épaules.",
+    "interpreter-numbers-and-units-p4": "{{term:cartridge|Cartouches}} : les deux règlements autorisent une {{term:load-weight|charge}} d'{{fact:gear.fitasc-shot-load}}. C'est proche du « one-ounce load » dont parlent les Britanniques, car une once fait {{fact:stand-talk.unit-ounce}}. Les plombs doivent être {{fact:gear.fitasc-shot-diameter}}. Les {{term:shot-size|numéros de plomb}} diffèrent selon les pays. Un n° 9 fait environ 2 mm presque partout, mais d'autres numéros varient légèrement entre les systèmes britannique, américain et continental. Quand cela compte, demandez les millimètres ({{lesson:cartridges-shot-size}}).",
+    "interpreter-numbers-and-units-chokes": "Les {{term:choke|chokes}} (le rétrécissement à l'extrémité du canon, côté bouche) se disent par des noms, des fractions ou en « thou » (millièmes de pouce). Traduisez-les dans le système employé par l'entraîneur, sans convertir un système dans un autre."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-numbers-and-units-ph1": {
+      "meaning": "L'image d'avance que veut l'entraîneur ; un écart perçu, pas une distance mesurée.",
+      "say": "Donnez-lui trois pieds."
+    },
+    "interpreter-numbers-and-units-ph2": {
+      "meaning": "Prenez la moitié de l'avance précédente.",
+      "say": "La moitié."
+    },
+    "interpreter-numbers-and-units-ph3": {
+      "meaning": "Cherchez le plateau légèrement à gauche de droit devant.",
+      "say": "Prenez-le à onze heures."
+    },
+    "interpreter-numbers-and-units-ph4": {
+      "meaning": "Le plateau est à environ 37 mètres.",
+      "say": "Il est à une quarantaine de yards, environ 37 mètres."
+    },
+    "interpreter-numbers-and-units-ph5": {
+      "meaning": "Mettez une cartouche de plomb n° 9 (environ 2 mm) dans le canon inférieur, qui tire généralement en premier.",
+      "say": "Dans le canon inférieur, une neuf."
+    }
+  },
+  "key_points": {
+    "interpreter-numbers-and-units-kp1": "L'avance en pieds est une image : gardez l'unité, ne convertissez pas en cours de consigne",
+    "interpreter-numbers-and-units-kp2": "Distance du plateau : les yards peuvent devenir « environ … mètres »",
+    "interpreter-numbers-and-units-kp3": "Cadran d'horloge pour les directions : midi = droit devant",
+    "interpreter-numbers-and-units-kp4": "12 gauge ≠ 12 mm ; FITASC : calibre 12 au maximum, canons ≥ 66 cm (26 pouces)",
+    "interpreter-numbers-and-units-kp5": "28 g ≈ une once ; plombs de 2,0–2,5 mm ; les numéros de plomb varient selon les pays : demandez les mm"
+  },
+  "quiz": {
+    "interpreter-numbers-and-units-q1": {
+      "q": "L'entraîneur dit « It's about thirty yards. » Comment le transmettre à un tireur qui pense en mètres ?",
+      "options": {
+        "a": "« Environ 27 mètres »",
+        "b": "« Exactement 27,43 mètres »",
+        "c": "« Environ 33 mètres »",
+        "d": "« Environ 3 mètres »"
+      },
+      "explain": "Un yard est un peu plus court qu'un mètre (environ 0,9 m), donc trente yards font environ 27 m. Gardez « environ » : le chiffre de l'entraîneur est une estimation."
+    },
+    "interpreter-numbers-and-units-q2": {
+      "q": "Quel est le plus grand calibre autorisé en {{tm:sporting}} et en {{tm:compak}} ?",
+      "options": {
+        "a": "10",
+        "b": "16",
+        "c": "20",
+        "d": "12"
+      },
+      "explain": "Les deux règlements autorisent au plus le calibre 12 ; un numéro de calibre plus petit signifie un canon plus large, donc le 10 n'est pas autorisé."
+    },
+    "interpreter-numbers-and-units-q3": {
+      "q": "Un invité britannique demande si ses cartouches « one-ounce » sont légales à une épreuve FITASC. Que savez-vous ?",
+      "options": {
+        "a": "Jusqu'à 36 g, environ 1¼ once",
+        "b": "N'importe quelle charge : il n'y a pas de limite",
+        "c": "Une charge de 28 g (+2 %), environ une once",
+        "d": "Seules les charges de 24 g sont autorisées"
+      },
+      "explain": "Le règlement autorise une charge jusqu'à 28 g avec une tolérance de +2 %, et une once fait environ 28,3 g. La taille des plombs (2,0–2,5 mm) doit aussi convenir."
+    }
+  }
+}

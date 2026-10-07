@@ -1,0 +1,501 @@
+{
+  "id": "technique-stance",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "technique-stance"
+    ],
+    "interpreter": [
+      "basics-stance"
+    ]
+  },
+  "terms": [
+    "stance",
+    "shooting-stand",
+    "break-point",
+    "hold-point",
+    "firing-angle-limiter",
+    "recoil"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-shooting-stands"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-turning-empties"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-shooting-positions"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-fal"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-open-gun"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NSSA-NSCA — Stance and foot position (weight on the front foot)",
+        "uk": "NSSA-NSCA — стійка й положення ніг (вага на передній нозі)"
+      },
+      "url": "https://nssa-nsca.org/blog/2019/02/18/4037/",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Stance: how to stand on the shooting stand",
+    "uk": "Стійка: як стояти на стрілецькому місці"
+  },
+  "summary": {
+    "en": "Feet, weight, knees and body turn: a simple, compact stance that lets you move the gun smoothly with the target.",
+    "uk": "Ноги, вага, коліна й поворот корпусу: проста компактна стійка, з якої легко плавно вести рушницю за мішенню."
+  },
+  "body": [
+    {
+      "k": "basics-stance-p1",
+      "t": "p",
+      "core": true,
+      "en": "The stance is how the shooter stands before the shot. The space is small: in {{tm:sporting}} the stand is a 1 m square or circle, and both feet must be inside it before the call. In {{tm:compak}} each station is a 1 m square with a Firing Angle Limiter, a frame that stops the shooter stepping forward and limits the swing.",
+      "uk": "Стійка (stance) — це те, як стрілець стоїть перед пострілом. Місця мало: у {{tm:sporting}} стрілецьке місце — квадрат або коло завширшки 1 м, і перед командою обидві ноги мають бути всередині. У {{tm:compak}} кожен номер — квадрат 1 м з обмежувачем кута стрільби (Firing Angle Limiter): рамкою, яка не дає вийти вперед і обмежує поворот рушниці.",
+      "disc": "both",
+      "anchor": "basics-stance"
+    },
+    {
+      "k": "basics-stance-p3",
+      "t": "p",
+      "core": true,
+      "en": "The key instruction: point your front foot at the {{term:break-point|break point}}, the spot where you plan to break the target. Then your body is relaxed and faces the right way at the moment you fire. Before you call, turn your upper body back from the hips towards the {{term:hold-point|hold point}}, the place where the barrels wait for the target. When the target flies, you simply turn back the way you came, like a spring unwinding. If your feet point at the trap instead, coaches warn, your body cannot turn far enough to reach the break point, and the gun stops or your head comes up.",
+      "uk": "Головна вказівка: носок передньої ноги — на {{term:break-point|точку пострілу}} (break point), туди, де ви плануєте розбити мішень. Тоді в мить пострілу тіло стоїть вільно й повернене саме туди, куди треба. Перед командою поверніть корпус від стегон назад, до {{term:hold-point|точки утримання}} — місця, де стволи чекають мішень. Коли мішень летить, ви просто повертаєтеся тим самим шляхом, наче пружина, що розкручується. Якщо ж ноги дивляться на машинку, застерігають тренери, повороту не вистачить ще до точки пострілу: рушниця зупиниться або голова підніметься."
+    },
+    {
+      "k": "basics-stance-p2",
+      "t": "p",
+      "core": true,
+      "en": "The usual base: feet about shoulder-width apart, and for a right-hander the left foot slightly forward (a left-hander mirrors this). Knees are soft, not locked. The weight is slightly forward, roughly 60 per cent on the front foot. Coaches say “nose over toes”.",
+      "uk": "Звична основа: ноги приблизно на ширині плечей, у праворукого ліва нога трохи попереду (у ліворукого — дзеркально). Коліна м’які, не заблоковані. Вага трохи вперед, приблизно 60 відсотків на передній нозі. Тренери кажуть «nose over toes» — «ніс над носками»."
+    },
+    {
+      "k": "basics-stance-p4",
+      "t": "p",
+      "core": true,
+      "en": "The body turns from the hips, not the arms. Feet may be set slightly differently for each target.",
+      "uk": "Корпус повертається від стегон, а не руками. Під кожну мішень ноги можуть стояти трохи інакше."
+    },
+    {
+      "k": "technique-stance-balance",
+      "t": "p",
+      "en": "A good stance keeps you balanced while the body turns with the target. Leaning slightly forward also helps you take the {{term:recoil|recoil}} instead of being rocked back; see {{lesson:health-recoil-shoulder-neck}}.",
+      "uk": "Добра стійка зберігає рівновагу, поки корпус повертається за мішенню. Легкий нахил уперед також допомагає прийняти {{term:recoil|віддачу}}, а не відхилитися назад; докладніше — {{lesson:health-recoil-shoulder-neck}}."
+    },
+    {
+      "k": "technique-stance-safety",
+      "t": "warn",
+      "en": "Safety comes before comfort. Stay inside the stand, and open and unload the gun before you turn round on it. This rule is the same in both disciplines.",
+      "uk": "Безпека важливіша за зручність. Не виходьте за межі стрілецького місця, а перш ніж обернутися на ньому, відкрийте й розрядіть рушницю. Це правило однакове в обох дисциплінах.",
+      "disc": "both"
+    },
+    {
+      "k": "technique-stance-p5",
+      "t": "tip",
+      "en": "A stance is not a pose for a photo. A coach will watch how you stand and correct the details: foot width, angle and lean. This lesson explains the basics; learn the technique itself with a qualified coach.",
+      "uk": "Стійка — це не поза для фото. Тренер подивиться, як ви стоїте, і підкаже деталі: ширину ніг, кут, нахил. Цей урок пояснює основи, а саму техніку варто ставити з кваліфікованим тренером."
+    },
+    {
+      "k": "basics-stance-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "crosser-lr",
+        "focus": "stance"
+      },
+      "ready": true,
+      "en": "Animation: the dotted lines show the front foot pointing at the break point and the body winding back to the hold point.",
+      "uk": "Анімація: пунктирні лінії показують, як носок передньої ноги дивиться на точку пострілу, а корпус повертається назад до точки утримання."
+    }
+  ],
+  "note": [
+    {
+      "k": "basics-stance-p5",
+      "for": "interpreter",
+      "en": "Translate “front foot” and “back foot” as front and back, not left and right: your shooter may be left-handed.",
+      "uk": "«Front foot» і «back foot» перекладайте як передня і задня нога, а не ліва і права: ваш стрілець може бути ліворуким.",
+      "core": true
+    }
+  ],
+  "phrases": [
+    {
+      "k": "basics-stance-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Point your front foot at the break point.",
+      "meaning": {
+        "en": "Turn the toe of the front foot towards the place where the target will be broken.",
+        "uk": "Поверніть носок передньої ноги туди, де буде розбито мішень."
+      },
+      "say": {
+        "uk": "Носок передньої ноги — на точку пострілу."
+      }
+    },
+    {
+      "k": "basics-stance-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Set your feet for the break, then wind back to the hold.",
+      "meaning": {
+        "en": "First place the feet for the break point, then turn the upper body back to the hold point.",
+        "uk": "Спершу поставте ноги під точку пострілу, потім поверніть корпус назад до точки утримання."
+      },
+      "say": {
+        "uk": "Ноги — під постріл, потім корпусом назад до точки утримання."
+      }
+    },
+    {
+      "k": "basics-stance-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Weight forward, soft knees.",
+      "meaning": {
+        "en": "Lean slightly onto the front foot and do not lock the knees.",
+        "uk": "Перенесіть вагу трохи на передню ногу і не блокуйте коліна."
+      },
+      "say": {
+        "uk": "Вагу вперед, коліна м’які."
+      }
+    },
+    {
+      "k": "basics-stance-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Turn from the hips, not the arms.",
+      "meaning": {
+        "en": "The whole upper body rotates; the arms do not swing the gun on their own.",
+        "uk": "Повертається весь корпус; руки самі не ведуть рушницю."
+      },
+      "say": {
+        "uk": "Повертайтеся корпусом, а не руками."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "basics-stance-kp4",
+      "core": true,
+      "en": "Front foot points at the break point; turn back from the hips to the hold point.",
+      "uk": "Носок передньої ноги — на точку пострілу; корпусом від стегон назад до точки утримання."
+    },
+    {
+      "k": "basics-stance-kp3",
+      "core": true,
+      "en": "Feet shoulder-width, knees soft, weight slightly forward.",
+      "uk": "Ноги на ширині плечей, коліна м’які, вага трохи вперед."
+    },
+    {
+      "k": "basics-stance-kp1",
+      "core": true,
+      "en": "{{tm:sporting}}: both feet inside the 1 m stand before the call.",
+      "uk": "{{tm:sporting}}: перед командою обидві ноги в межах стрілецького місця 1 м."
+    },
+    {
+      "k": "basics-stance-kp2",
+      "core": true,
+      "en": "{{tm:compak}}: 1 m station with a Firing Angle Limiter.",
+      "uk": "{{tm:compak}}: номер 1 м з обмежувачем кута стрільби."
+    },
+    {
+      "k": "technique-stance-kp4",
+      "en": "Open and unload the gun before you turn round on the stand.",
+      "uk": "Перш ніж обернутися на стрілецькому місці, відкрийте й розрядіть рушницю."
+    }
+  ],
+  "did_you_know": {
+    "k": "technique-stance-dyk",
+    "en": "On a {{tm:compak}} station the Firing Angle Limiter is often a simple frame of coloured plastic tubes. It limits how far the gun can swing sideways, up and down.",
+    "uk": "На номері {{tm:compak}} обмежувач кута стрільби часто — проста рамка з кольорових пластикових труб. Вона обмежує, наскільки рушницю можна повернути вбік, угору й униз."
+  },
+  "quiz": [
+    {
+      "k": "basics-stance-q1",
+      "q": {
+        "en": "Where does the coach usually want the front foot to point?",
+        "uk": "Куди тренер зазвичай просить спрямувати передню ногу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At the trap",
+          "uk": "На машинку"
+        },
+        {
+          "k": "b",
+          "en": "At the pick-up point",
+          "uk": "На точку підхоплення"
+        },
+        {
+          "k": "c",
+          "en": "At the referee",
+          "uk": "На суддю"
+        },
+        {
+          "k": "d",
+          "en": "At the break point",
+          "uk": "На точку пострілу"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Feet set to the break point keep the body relaxed where the shot happens. If the feet face the trap, the body cannot turn far enough to reach the break point.",
+        "uk": "Ноги під точку пострілу — і тіло стоїть вільно саме там, де лунає постріл. Якщо ноги дивляться на машинку, повороту не вистачить, щоб дійти до точки пострілу."
+      }
+    },
+    {
+      "k": "basics-stance-q2",
+      "q": {
+        "en": "What do the {{tm:sporting}} rules require of the feet before the call?",
+        "uk": "Чого правила {{tm:sporting}} вимагають від ніг перед командою?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Both feet inside the stand",
+          "uk": "Обидві ноги в межах стрілецького місця"
+        },
+        {
+          "k": "b",
+          "en": "The front foot on the stand line",
+          "uk": "Передня нога на межі стрілецького місця"
+        },
+        {
+          "k": "c",
+          "en": "Feet together",
+          "uk": "Ноги разом"
+        },
+        {
+          "k": "d",
+          "en": "No requirement at all",
+          "uk": "Жодних вимог"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The ready-position rule asks for both feet inside the 1 m shooting stand before the shooter calls.",
+        "uk": "Правило вихідного положення вимагає, щоб перед командою обидві ноги стрільця були в межах стрілецького місця завширшки 1 м."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-ready-position"
+    },
+    {
+      "k": "basics-stance-q3",
+      "q": {
+        "en": "A left-handed shooter. The coach says “Open your front foot”. Which foot is it?",
+        "uk": "Стрілець — шульга. Тренер каже «Open your front foot». Про яку ногу йдеться?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The left one, whatever the hand",
+          "uk": "Про ліву, хоч би яка рука"
+        },
+        {
+          "k": "b",
+          "en": "The right one: a left-hander's front foot",
+          "uk": "Про праву: у шульги вона передня"
+        },
+        {
+          "k": "c",
+          "en": "The back foot, nearer the trap",
+          "uk": "Про задню, ближчу до машинки"
+        },
+        {
+          "k": "d",
+          "en": "Both feet together",
+          "uk": "Про обидві разом"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "For a left-hander the front foot is the right one. Translating “front foot” as front, not as left, avoids the mistake.",
+        "uk": "У шульги передня нога — права. Переклад «передня нога», а не «ліва», вбереже від помилки."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "technique-stance-q1",
+      "q": {
+        "en": "How does a right-handed shooter usually place the feet?",
+        "uk": "Як праворукий стрілець зазвичай ставить ноги?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Left foot slightly forward",
+          "uk": "Ліва нога трохи вперед"
+        },
+        {
+          "k": "b",
+          "en": "Right foot far forward",
+          "uk": "Права нога далеко вперед"
+        },
+        {
+          "k": "c",
+          "en": "Feet together, heels touching",
+          "uk": "Ноги разом, п’ятки докупи"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A right-hander puts the left foot slightly forward, a left-hander the right.",
+        "uk": "Праворукий стрілець ставить ліву ногу трохи вперед, ліворукий — праву."
+      }
+    },
+    {
+      "k": "technique-stance-q2",
+      "q": {
+        "en": "Which point should your feet be set up for?",
+        "uk": "Для якої точки найважливіше зручне положення ніг?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Where the trap is",
+          "uk": "Для місця, де стоїть машинка"
+        },
+        {
+          "k": "b",
+          "en": "The break point",
+          "uk": "Для точки пострілу (break point)"
+        },
+        {
+          "k": "c",
+          "en": "Where the squad waits",
+          "uk": "Для місця, де чекає група"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Then your body turns easily to exactly where you will break the target.",
+        "uk": "Тоді корпус легко повертається до мішені саме там, де ви її розіб’єте."
+      }
+    },
+    {
+      "k": "technique-stance-q3",
+      "q": {
+        "en": "Where must the shooter’s feet be in {{tm:sporting}} before calling?",
+        "uk": "Де мають бути ноги стрільця в {{tm:sporting}} перед командою?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Anywhere near the stand",
+          "uk": "Будь-де поруч зі стрілецьким місцем"
+        },
+        {
+          "k": "b",
+          "en": "Both inside the shooting stand",
+          "uk": "Обидві в межах стрілецького місця"
+        },
+        {
+          "k": "c",
+          "en": "One foot inside, one outside",
+          "uk": "Одна нога на місці, друга поза ним"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The {{tm:sporting}} rules require both feet inside the shooting stand before the call.",
+        "uk": "Правила {{tm:sporting}} вимагають, щоб перед командою обидві ноги були в межах стрілецького місця."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-ready-position"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "d1753cc6",
+    "summary": "cb1ee8e1",
+    "basics-stance-p1": "f095dc75",
+    "basics-stance-p3": "e41ec5a4",
+    "basics-stance-p2": "183cf7c1",
+    "basics-stance-p4": "26cfa672",
+    "technique-stance-balance": "9375aeba",
+    "technique-stance-safety": "b6090803",
+    "technique-stance-p5": "5f2cb1ca",
+    "basics-stance-sim": "63127f72",
+    "basics-stance-p5": "6bcb4702",
+    "basics-stance-kp4": "d427448c",
+    "basics-stance-kp3": "ec040c37",
+    "basics-stance-kp1": "fa08b3eb",
+    "basics-stance-kp2": "f400f31a",
+    "technique-stance-kp4": "e97e74f4",
+    "technique-stance-dyk": "681e9e7b",
+    "basics-stance-ph1": "1ccb8c80",
+    "basics-stance-ph2": "6bb84eed",
+    "basics-stance-ph3": "d01ade1f",
+    "basics-stance-ph4": "6d8b4572",
+    "basics-stance-q1": "4dda1d84",
+    "basics-stance-q2": "d0ec971c",
+    "basics-stance-q3": "182f6286",
+    "technique-stance-q1": "87e9a8fc",
+    "technique-stance-q2": "69f96e18",
+    "technique-stance-q3": "d6b8cb79"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/technique-stance.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): basics-stance-p2, basics-stance-p4, basics-stance-q3; moved from body to note, text unchanged: basics-stance-p5; no longer used (delete from the overlays): basics-stance-kp5, basics-stance-title.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-stance.json (9 languages): translate again (meaning or wording changed for readers): basics-stance-p3, basics-stance-q1.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in basics-stance-p1, basics-stance-kp1, basics-stance-kp2, basics-stance-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

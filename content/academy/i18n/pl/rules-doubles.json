@@ -1,0 +1,222 @@
+{
+  "id": "rules-doubles",
+  "lang": "pl",
+  "base_rev": 2,
+  "h": {
+    "title": "bf6d3d5f",
+    "summary": "dfdb2ad6",
+    "rules-doubles-p1": "f5cf641d",
+    "sporting-singles-doubles-p1": "b6444c9c",
+    "rules-doubles-p2": "c6919899",
+    "rules-doubles-cmp1": "350fd347",
+    "sporting-singles-doubles-p2": "5a56411c",
+    "rules-doubles-cmp2": "24dc2faf",
+    "rules-doubles-accidental": "2cbe5f9a",
+    "rules-doubles-cmp3": "0437dae8",
+    "rules-doubles-cmp4": "2d15fb86",
+    "sporting-singles-doubles-p4": "88696d63",
+    "rules-doubles-p7": "5bdcbd0b",
+    "compak-singles-doubles-p1": "329c4e29",
+    "sporting-singles-doubles-p5": "4b1860bf",
+    "sporting-singles-doubles-ph1": "934fba36",
+    "sporting-singles-doubles-ph2": "c178e9f1",
+    "sporting-singles-doubles-ph3": "ca41eb94",
+    "sporting-singles-doubles-ph4": "95a6f236",
+    "compak-singles-doubles-ph1": "70594be5",
+    "compak-singles-doubles-ph2": "188b25c7",
+    "compak-singles-doubles-ph3": "56ec4bfd",
+    "compak-singles-doubles-ph4": "806b2e03",
+    "rules-doubles-kp1": "db855605",
+    "sporting-singles-doubles-kp2": "322f41a9",
+    "compak-singles-doubles-kp2": "dce8c621",
+    "compak-singles-doubles-kp1": "77c28c5b",
+    "sporting-singles-doubles-kp3": "7de76b48",
+    "rules-doubles-dyk": "c0b4d4b3",
+    "rules-doubles-q1": "5a5e9eaa",
+    "rules-doubles-q2": "ab4333ed",
+    "rules-doubles-q3": "783fc72a",
+    "sporting-singles-doubles-q1": "12970eeb",
+    "sporting-singles-doubles-q2": "507f2951",
+    "sporting-singles-doubles-q3": "d1d794df",
+    "compak-singles-doubles-q1": "c458b419",
+    "compak-singles-doubles-q2": "afbfdbad",
+    "compak-singles-doubles-q3": "04513eaa",
+    "rules-doubles-q4": "0493a8c2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Dublety: jak się strzela i jak się liczy",
+  "summary": "Rodzaje dubletów w {{tm:sporting}} i {{tm:compak}}, ile naboi możesz oddać do każdego rzutka i co się dzieje, kiedy jeden strzał rozbija oba.",
+  "body": {
+    "rules-doubles-p1": "{{term:double|Dublet}} to dwa rzutki strzelane na jedną komendę. Obie dyscypliny mają dublety na zawołanie i dublety symultaniczne; tylko {{tm:sporting}} ma też rafale. Niektóre przepisy punktacji się różnią. Kiedy oba rzutki dubletu liczą się jako chybione, nazywa się to {{term:zero-zero|zero-zero}}.",
+    "sporting-singles-doubles-p1": "Najpierw pojedyncze. W obu dyscyplinach możesz oddać dwa strzały do {{term:single-target|rzutka pojedynczego}}, więc chybienie pierwszą lufą można jeszcze uratować drugą. Oś musi zostawić czas na dwa strzały do każdego pojedynczego.",
+    "rules-doubles-p2": "W {{term:double-on-report|dublecie na zawołanie}} twoja komenda wypuszcza pierwszy rzutek, a twój strzał do niego wypuszcza drugi. W {{term:simultaneous-double|dublecie symultanicznym}} oba rzutki wylatują razem, i możesz wziąć je w dowolnej kolejności.",
+    "rules-doubles-cmp1": {
+      "sporting": "Trzy rodzaje: na zawołanie, symultaniczny (z jednej albo dwóch wyrzutni) i {{term:rafale-double|rafale}}. W rafale dwa rzutki wylatują z tej samej wyrzutni na tej samej linii, jeden po drugim.",
+      "compak": "Dwa rodzaje: na zawołanie i symultaniczny. Dublet symultaniczny przychodzi z dwóch różnych wyrzutni. Rafale nie istnieje."
+    },
+    "sporting-singles-doubles-p2": "W {{tm:sporting}} drugi rzutek dubletu na zawołanie wylatuje 0 do 3 sekund po twoim strzale do pierwszego. W rafale przychodzi, jak tylko wyrzutnia się przeładuje. Dublet używa tylko rzutków już wyrzuconych jako pojedyncze na tym stanowisku, więc już widziałeś, jak lecą.",
+    "rules-doubles-cmp2": {
+      "sporting": "Dwa naboje na cały dublet, i oba mogą pójść do jednego rzutka.",
+      "compak": "Jeden nabój na rzutek. Oddanie obu strzałów do pierwszego rzutka jest niedozwolone; zrobienie tego celowo liczy się jako zero-zero."
+    },
+    "rules-doubles-accidental": "Przypadkowe wystrzelenie obu luf razem to nie celowy podwójny strzał: to usterka broni, {{term:double-discharge|podwójny wystrzał}}. Jak to się liczy, jest w {{lesson:rules-malfunctions}}.",
+    "rules-doubles-cmp3": {
+      "sporting": "Kiedy sam twój strzał rozbija oba rzutki, oba się liczą: „jeden” i „jeden”, w każdym rodzaju dubletu. Na zawołanie, pierwszy rzutek albo jego kawałki mogą zamiast tego rozbić drugi, zanim oddasz drugi strzał. To NO BIRD: dublet jest powtórzony, a pierwszy wynik zachowany.",
+      "compak": "Na zawołanie: pierwszy wynik zostaje, drugi to NO BIRD, i dublet jest strzelany jeszcze raz. Symultaniczny: NO BIRD, strzelasz dublet jeszcze raz; jeśli zdarzy się to trzeci raz, oba rzutki liczą się jako zero."
+    },
+    "rules-doubles-cmp4": {
+      "sporting": "Brak strzału do dubletu symultanicznego albo rafale bez uzasadnionego powodu: zero-zero. Na zawołanie, pierwszy rzutek, do którego nie strzelasz, to zero, a dublet jest wyrzucany jeszcze raz, żebyś mógł strzelić drugi (skrócony przewodnik sędziowski).",
+      "compak": "Odmowa dubletu symultanicznego: zero-zero. Na zawołanie: odrzucony pierwszy rzutek to zero; dublet jest wyrzucany jeszcze raz, żebyś mógł strzelić drugi, i liczy się tylko drugi."
+    },
+    "sporting-singles-doubles-p4": "Nieregularny rzutek to taki, który zmusza sędziego do ogłoszenia NO BIRD, na przykład rzutek wyrzucony już uszkodzony, poza linią albo ze złej wyrzutni ({{lesson:rules-hit-and-no-bird}}). W dublecie na zawołanie, nieregularny pierwszy rzutek znaczy, że cały dublet jest wyrzucany jeszcze raz. Jeśli nieregularny jest drugi rzutek, strzelasz dublet jeszcze raz, a twój wynik na pierwszym zostaje zachowany. To samo dotyczy sytuacji, gdy pierwszy rzutek albo jego kawałki rozbijają drugi, zanim oddasz drugi strzał. W dublecie symultanicznym, i w {{tm:sporting}} rafale, nieregularny rzutek znaczy powtórzenie bez żadnego wyniku. Jeden strzał, który rozbija oba rzutki, to inny przypadek: patrz wyżej.",
+    "rules-doubles-p7": "Obserwuj pokaz i czytaj {{term:target-menu|menu}} stanowiska, żeby wiedzieć, jakie dublety nadchodzą. Wielu trenerów poleca wybrać kolejność dla dubletu symultanicznego, zanim zawołasz."
+  },
+  "note": {
+    "compak-singles-doubles-p1": "{{tm:compak}} używa tych samych nazw jak {{tm:sporting}} dla dubletów na zawołanie i symultanicznych (nie ma rafale), ale jego dublety idą według innych przepisów. Tłumacz, który przenosi przepisy {{tm:sporting}}, poda błędne odpowiedzi.",
+    "sporting-singles-doubles-p5": "Przekazuj wynik dubletu jako parę, w kolejności sędziego."
+  },
+  "phrases": {
+    "sporting-singles-doubles-ph1": {
+      "meaning": "Trener: drugi rzutek wylatuje od strzału do pierwszego.",
+      "say": "Dublet na zawołanie: drugi przychodzi na twój strzał."
+    },
+    "sporting-singles-doubles-ph2": {
+      "meaning": "Trener: w dublecie rafale kolejność jest dowolna.",
+      "say": "W rafale bierz który chcesz pierwszy."
+    },
+    "sporting-singles-doubles-ph3": {
+      "meaning": "Sędzia: oba rzutki dubletu są trafione.",
+      "say": "Jeden i jeden."
+    },
+    "sporting-singles-doubles-ph4": {
+      "meaning": "Nieregularny rzutek; dublet jest wyrzucany jeszcze raz.",
+      "say": "NO BIRD, powtórz dublet."
+    },
+    "compak-singles-doubles-ph1": {
+      "meaning": "Trener: w {{tm:compak}} każdy rzutek dubletu dostaje tylko jeden nabój.",
+      "say": "Jeden strzał na rzutek w tych parach."
+    },
+    "compak-singles-doubles-ph2": {
+      "meaning": "Sędzia na dublecie symultanicznym: nic się nie liczy, powtórzenie.",
+      "say": "Oba jednym strzałem. NO BIRD, strzel dublet jeszcze raz."
+    },
+    "compak-singles-doubles-ph3": {
+      "meaning": "Trener: zdecyduj, który rzutek symultaniczny weźmiesz pierwszy, patrząc na pokaz.",
+      "say": "Wybierz kolejność na pokazie."
+    },
+    "compak-singles-doubles-ph4": {
+      "meaning": "Sędzia: żaden rzutek dubletu się nie liczy.",
+      "say": "Zero, zero."
+    }
+  },
+  "key_points": {
+    "rules-doubles-kp1": "Na zawołanie, drugi rzutek wylatuje od twojego strzału do pierwszego.",
+    "sporting-singles-doubles-kp2": "{{tm:sporting}}: dwa naboje na dublet, i oba mogą pójść do jednego rzutka; rodzaje to na zawołanie, symultaniczny i rafale.",
+    "compak-singles-doubles-kp2": "{{tm:compak}}: jeden nabój na rzutek; celowe oddanie obu strzałów do jednego rzutka to zero-zero.",
+    "compak-singles-doubles-kp1": "{{tm:compak}} ma dwa rodzaje dubletu, na zawołanie i symultaniczny; rafale istnieje tylko w {{tm:sporting}}.",
+    "sporting-singles-doubles-kp3": "Jeden strzał rozbija oba rzutki: {{tm:sporting}} liczy jeden i jeden; {{tm:compak}} ma dublet strzelany jeszcze raz."
+  },
+  "did_you_know": "W {{tm:compak}} dublet na każdym numerze zaczyna się od ostatniego rzutka poprzedniego numeru.",
+  "quiz": {
+    "rules-doubles-q1": {
+      "q": "Co wypuszcza drugi rzutek dubletu na zawołanie?",
+      "options": {
+        "a": "Strzał do pierwszego rzutka",
+        "b": "Druga komenda strzelca",
+        "c": "Sędzia, ręcznie"
+      },
+      "explain": "Komenda wypuszcza pierwszy rzutek, a strzał do niego wypuszcza drugi."
+    },
+    "rules-doubles-q2": {
+      "q": "W {{tm:compak}}, czy można oddać oba strzały do pierwszego rzutka dubletu?",
+      "options": {
+        "a": "Tak, jak w {{tm:sporting}}",
+        "b": "Tylko na dublecie symultanicznym",
+        "c": "Nie, jeden nabój na rzutek"
+      },
+      "explain": "W {{tm:compak}} to jeden nabój na rzutek, a celowe oddanie obu strzałów do jednego rzutka to zero-zero; w {{tm:sporting}} oba mogą pójść do jednego rzutka."
+    },
+    "rules-doubles-q3": {
+      "q": "W {{tm:sporting}}, jeden strzał rozbija oba rzutki dubletu. Jak to się liczy?",
+      "options": {
+        "a": "Zero i NO BIRD",
+        "b": "Jeden i jeden",
+        "c": "NO BIRD, strzał powtórzony"
+      },
+      "explain": "W {{tm:sporting}} oba rzutki się liczą; {{tm:compak}} ma inne przepisy."
+    },
+    "sporting-singles-doubles-q1": {
+      "q": "{{tm:sporting}}, dublet symultaniczny. Strzelec chybia jeden rzutek pierwszym strzałem, oddaje drugi nabój do tego samego rzutka i go rozbija. Drugi rzutek leci dalej. Decyzja?",
+      "options": {
+        "a": "Jeden i zero",
+        "b": "Zero i zero",
+        "c": "NO BIRD, dublet powtórzony",
+        "d": "Jeden i NO BIRD"
+      },
+      "explain": "W {{tm:sporting}} oba naboje dubletu mogą pójść do jednego rzutka, więc rozbity rzutek to „jeden”, a drugi to „zero”. W {{tm:compak}} celowe oddanie obu strzałów do jednego rzutka to zero-zero."
+    },
+    "sporting-singles-doubles-q2": {
+      "q": "{{tm:sporting}}, dublet na zawołanie. Strzelec rozbija pierwszy rzutek, a jego kawałek rozbija drugi, zanim pada drugi strzał. Decyzja?",
+      "options": {
+        "a": "Jeden i jeden",
+        "b": "Powtórzenie, pierwszy wynik zachowany",
+        "c": "Zero na drugim rzutku",
+        "d": "Jeden i zero"
+      },
+      "explain": "Kiedy pierwszy rzutek albo jego kawałki rozbijają drugi, zanim pada drugi strzał, dublet jest powtórzony, a pierwszy wynik zostaje."
+    },
+    "sporting-singles-doubles-q3": {
+      "q": "{{tm:sporting}}, dublet rafale. Oba rzutki lecą prawidłowo, ale strzelec opuszcza broń i nie strzela do żadnego, bez uzasadnionego powodu. Decyzja?",
+      "options": {
+        "a": "NO BIRD",
+        "b": "Zero i NO BIRD",
+        "c": "Tylko żółta kartka",
+        "d": "Zero i zero"
+      },
+      "explain": "Prawidłowy rzutek, do którego nie strzelono bez uzasadnionego powodu, jest chybiony; na rafale albo dublecie symultanicznym to oznacza zero i zero."
+    },
+    "compak-singles-doubles-q1": {
+      "q": "Dublet symultaniczny w {{tm:compak}}. Jeden strzał rozbija oba rzutki; to pierwszy taki przypadek. Decyzja?",
+      "options": {
+        "a": "Jeden i jeden",
+        "b": "NO BIRD, strzał powtórzony",
+        "c": "Jeden i NO BIRD",
+        "d": "Zero i zero"
+      },
+      "explain": "W {{tm:compak}} dublet symultaniczny rozbity jednym strzałem to NO BIRD pierwszy i drugi raz, a zero i zero trzeci raz."
+    },
+    "compak-singles-doubles-q2": {
+      "q": "Dublet na zawołanie w {{tm:compak}}. Jeden strzał rozbija oba rzutki. Decyzja?",
+      "options": {
+        "a": "Jeden i jeden, oba się liczą",
+        "b": "Zero i zero dla obu",
+        "c": "Pierwszy wynik zachowany; dublet powtórzony",
+        "d": "NO BIRD, nic się nie liczy"
+      },
+      "explain": "W dublecie na zawołanie wynik pierwszego rzutka jest zapisany, drugi to NO BIRD, a dublet jest strzelany jeszcze raz, żeby go zaliczyć."
+    },
+    "compak-singles-doubles-q3": {
+      "q": "{{tm:compak}}, dublet na zawołanie. Pierwszy rzutek leci prawidłowo, ale strzelec nie strzela do niego. Decyzja?",
+      "options": {
+        "a": "Pierwszy zero, dublet jeszcze raz na drugi",
+        "b": "Zero i zero dla dubletu",
+        "c": "NO BIRD, dublet jest wyrzucany jeszcze raz",
+        "d": "Zero, a drugi nie jest strzelany"
+      },
+      "explain": "Nieoddanie strzału do prawidłowo wyrzuconego pierwszego rzutka to zero. Dublet jest potem wyrzucany jeszcze raz, żeby można było zaliczyć drugi rzutek (skrócony przewodnik sędziowski)."
+    },
+    "rules-doubles-q4": {
+      "q": "W {{tm:compak}}, obie lufy strzelają razem przez przypadek do pierwszego rzutka dubletu. To pierwszy problem z bronią w serii. Co to jest?",
+      "options": {
+        "a": "Usterka broni: NO BIRD, nowy dublet",
+        "b": "Celowy podwójny strzał: zero-zero",
+        "c": "Jeden i zero"
+      },
+      "explain": "Przypadkowy podwójny wystrzał to niesprawność, nie celowy podwójny strzał; zero-zero jest tylko za celowe oddanie obu strzałów do jednego rzutka."
+    }
+  }
+}

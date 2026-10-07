@@ -1,0 +1,102 @@
+{
+  "id": "clayarena-profile-numbers",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "d549d9a9",
+    "summary": "e0b16add",
+    "clayarena-profile-numbers-p1": "18eea6d7",
+    "clayarena-profile-numbers-p2": "5c0f4cfc",
+    "clayarena-profile-numbers-p3": "802a0097",
+    "clayarena-profile-numbers-perfect": "fba5db32",
+    "clayarena-profile-numbers-p4": "b0604525",
+    "clayarena-profile-numbers-p5": "3e6b5e8e",
+    "clayarena-profile-numbers-other": "e4de96f4",
+    "clayarena-profile-numbers-p6": "935cbc72",
+    "clayarena-profile-numbers-p7": "e5d7ead9",
+    "clayarena-profile-numbers-kp1": "dab00454",
+    "clayarena-profile-numbers-kp2": "89d19953",
+    "clayarena-profile-numbers-kp3": "77da1959",
+    "clayarena-profile-numbers-kp4": "e43f7167",
+    "clayarena-profile-numbers-kp5": "c259b16c",
+    "clayarena-profile-numbers-q1": "4205296d",
+    "clayarena-profile-numbers-q2": "bb1798ca",
+    "clayarena-profile-numbers-q3": "e7e1f5a8",
+    "clayarena-profile-numbers-q4": "c2744161",
+    "clayarena-profile-numbers-q5": "86ab8658"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Co znamenají čísla v profilu",
+  "summary": "Úspěšnost, nejlepší výsledek, čisté položky, podíl umístění v top 10 a index výkonnosti pomáhají vidět formu střelce, ale nenahrazují samotné výsledky.",
+  "body": {
+    "clayarena-profile-numbers-p1": "{{term:shooter-profile|Profil střelce}} na ClayArena ukazuje několik čísel. Počítají se ze soutěží {{tm:sporting}} a {{tm:compak}}, které jsou na webu, a profil je může zobrazovat samostatně pro každou disciplínu. Pomáhají na první pohled vidět úroveň a stabilitu střelce.",
+    "clayarena-profile-numbers-p2": "{{term:accuracy|Úspěšnost}} je podíl zasažených terčů z terčů vystřelených na soutěži. Například 150 zasažených ze 200 je 75 %. Profil může zobrazovat průměrnou úspěšnost za všechny dokončené soutěže střelce a nejvyšší úspěšnost na jedné soutěži.",
+    "clayarena-profile-numbers-p3": "{{term:best-score|Nejlepší výsledek}} je nejvyšší součet, který střelec dosáhl na jedné soutěži. Součty srovnávejte jen při stejném počtu terčů. Mezinárodní soutěž {{tm:sporting}} má {{fact:basics.international-targets}}, zatímco mnoho klubových závodů má terčů méně. Pokud se počet terčů liší, srovnávejte raději úspěšnost. Ta umožňuje srovnat různé počty terčů, ale střeliště, počasí a úroveň soutěže se stejně liší, tak ji berte jen jako přibližné vodítko.",
+    "clayarena-profile-numbers-perfect": "Čistá položka (perfect round) je série bez jediné chyby. V disciplínách FITASC to znamená {{term:round|položku}}, ve které jsou zasaženy všechny {{fact:rules.round-targets}}. Profil počítá, kolik takových sérií má střelec.",
+    "clayarena-profile-numbers-p4": "{{term:top-10-rate|Podíl umístění v top 10}} je podíl soutěží, na kterých střelec skončil v první desítce své {{term:category|kategorie}} nebo celkového pořadí. Závisí i na tom, kdo další střílí: umístit se v desítce na velké mezinárodní akci je těžší než na {{term:club-shoot|klubovém závodě}}. Malá kategorie s jen několika střelci také umístění v desítce usnadňuje.",
+    "clayarena-profile-numbers-p5": "{{term:performance-index|Index výkonnosti}} je jedno číslo, které ClayArena vypočítá z výsledků střelce v jedné disciplíně. Umožňuje sledovat vývoj v čase, aniž byste procházeli každou výsledkovou tabulku. Není to oficiální žebříček {{term:fitasc|FITASC}}.",
+    "clayarena-profile-numbers-other": "V profilu můžou být i další čísla a sekce, například historie výstupů, pohled po sezónách nebo srovnání s vítězi. Jejich názvy se mohou měnit s vývojem webu, tak si přečtěte vysvětlení přímo na webu.",
+    "clayarena-profile-numbers-p6": "Čísla neříkají všechno. Některá {{term:layout|střeliště}} (sady stanovišť a terčů, které se na nich vypouštějí) jsou snadná a jiná těžká, a počasí může výsledky hodně změnit. Proto čísla z jedné soutěže říkají málo; spolehlivější jsou čísla za několik soutěží.",
+    "clayarena-profile-numbers-p7": "Pro začátečníka je užitečné číst profil tak, že se srovnává sám se sebou: jak se vaše úspěšnost změnila za sezónu. Srovnávat se se silnými střelci může být zajímavé, ale o vašem vlastním pokroku to říká málo."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-profile-numbers-kp1": "Úspěšnost je podíl zasažených terčů z vystřelených.",
+    "clayarena-profile-numbers-kp2": "Součty srovnávejte jen při stejném počtu terčů; jinak srovnávejte úspěšnost jako přibližné vodítko.",
+    "clayarena-profile-numbers-kp3": "Podíl umístění v top 10 počítá místa v desítce kategorie nebo celkového pořadí, takže závisí na tom, kolik bylo soupeřů a jak byli silní.",
+    "clayarena-profile-numbers-kp4": "Index výkonnosti je číslo ClayArena, ne žebříček FITASC.",
+    "clayarena-profile-numbers-kp5": "Sledujte, jak se výsledky mění za několik soutěží."
+  },
+  "quiz": {
+    "clayarena-profile-numbers-q1": {
+      "q": "Střelec zasáhl 150 terčů ze 200. Jaká je jeho úspěšnost?",
+      "options": {
+        "a": "50 %",
+        "b": "75 %",
+        "c": "80 %"
+      },
+      "explain": "150 : 200 = 0,75, tedy 75 %."
+    },
+    "clayarena-profile-numbers-q2": {
+      "q": "Co je index výkonnosti v profilu ClayArena?",
+      "options": {
+        "a": "Jedno číslo, které vypočítá ClayArena",
+        "b": "Oficiální žebříček FITASC",
+        "c": "Počet soutěží za rok"
+      },
+      "explain": "Je to číslo ClayArena pro sledování pokroku, ne oficiální žebříček."
+    },
+    "clayarena-profile-numbers-q3": {
+      "q": "Proč čísla z jedné soutěže říkají málo?",
+      "options": {
+        "a": "Často jsou spočítaná špatně",
+        "b": "Nikdo se tam nedostane do top 10",
+        "c": "Střeliště a počasí se hodně liší"
+      },
+      "explain": "Proto jsou spolehlivější čísla za několik soutěží."
+    },
+    "clayarena-profile-numbers-q4": {
+      "q": "Co je čistá položka?",
+      "options": {
+        "a": "Série bez jediné chyby",
+        "b": "Položka odstřílená do hodiny",
+        "c": "Položka bez jediného dvojstřelu"
+      },
+      "explain": "V čisté položce není jediná chyba. V disciplínách FITASC je to položka, ve které jsou zasaženy všechny {{fact:rules.round-targets}}."
+    },
+    "clayarena-profile-numbers-q5": {
+      "q": "Na klubovém závodě jste zasáhli 90 ze 100 a na mezinárodní soutěži 180 ze 200. Co můžete srovnat?",
+      "options": {
+        "a": "Součty, 90 a 180",
+        "b": "Úspěšnost: oba výsledky 90 %",
+        "c": "Nic"
+      },
+      "explain": "Při různém počtu terčů srovnávejte úspěšnost, ne součty. Střeliště, počasí i úroveň soutěže se stejně liší, tak to berte jako přibližné vodítko."
+    }
+  }
+}

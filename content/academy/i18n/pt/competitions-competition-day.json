@@ -1,0 +1,165 @@
+{
+  "id": "competitions-competition-day",
+  "lang": "pt",
+  "base_rev": 2,
+  "h": {
+    "title": "da330bf4",
+    "summary": "03f0d6e8",
+    "sport-competition-day-p1": "fe775f1f",
+    "competitions-competition-day-p1": "1637c3ac",
+    "competitions-competition-day-p2": "67e7bbfe",
+    "competitions-competition-day-p3": "f4441a9d",
+    "competitions-competition-day-practice": "8b778fed",
+    "sport-competition-day-p2": "e6be5fdb",
+    "competitions-competition-day-p5": "dd34255e",
+    "competitions-competition-day-ready": "b0097c3e",
+    "sport-competition-day-p3": "1c827ea1",
+    "sport-competition-day-p4": "31ca987d",
+    "competitions-competition-day-late-inline": "b5ebbfb9",
+    "competitions-competition-day-late": "29daedd5",
+    "sport-competition-day-p5": "88bcdcdc",
+    "competitions-competition-day-end": "d5f38b62",
+    "competitions-competition-day-n1": "2c5d9407",
+    "competitions-competition-day-n-parent": "416800c4",
+    "sport-competition-day-ph1": "aca8882e",
+    "sport-competition-day-ph2": "19bd30f0",
+    "sport-competition-day-ph3": "c9b8e464",
+    "sport-competition-day-ph4": "2f81332b",
+    "sport-competition-day-kp1": "1253bc50",
+    "competitions-competition-day-kp1": "d0538c31",
+    "competitions-competition-day-kp-ready": "4fd327b5",
+    "sport-competition-day-kp4": "05da6963",
+    "sport-competition-day-kp5": "8745608e",
+    "competitions-competition-day-dyk": "bee33939",
+    "competitions-competition-day-q-protection": "52593bf2",
+    "competitions-competition-day-q2": "ee8d9127",
+    "sport-competition-day-q2": "1bccddb2",
+    "competitions-competition-day-q1": "2e3a9e98",
+    "sport-competition-day-q3": "7ccca26d",
+    "competitions-competition-day-q-inline-late": "ba6595e7",
+    "competitions-competition-day-q-carry": "861a9947"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "O dia de competição do início ao fim",
+  "summary": "O que acontece num dia de competição de {{tm:sporting}} e {{tm:compak}}: registo, o seu dorsal, esquadras e rotação, atrasos, resultados e o final do dia.",
+  "body": {
+    "sport-competition-day-p1": "O dia começa no registo: o atirador confirma a {{term:entry|inscrição}}, recebe um {{term:competitor-number|dorsal}} e prende-o na parte de cima das costas, bem visível. Depois todos verificam as listas de {{term:squad|esquadras}} e os {{term:shooting-times|horários de tiro}}. Uma esquadra é um grupo de até seis atiradores, sorteados, que atiram juntos. Seguir o horário é da própria responsabilidade do atirador.",
+    "competitions-competition-day-p1": "Chegue com antecedência: o registo, encontrar a sua esquadra e preparar-se tudo leva tempo. O {{term:competitor-number|dorsal}} coloca-se entre os ombros e a cintura, nem dobrado nem cortado. Ponha a {{term:hearing-protection|proteção auditiva}} e os {{term:safety-glasses|óculos de proteção}} antes de ir para o posto. Nas duas disciplinas, um atirador que apareça sem eles conta como ausente, e aplicam-se as regras de atraso (ver abaixo).",
+    "competitions-competition-day-p2": "Vista-se de forma cuidada e segura: os calções podem terminar {{fact:rules.dress-shorts-length}}, as partes de cima precisam de mangas e as sandálias não são permitidas. Transporte a arma aberta (partida na charneira, para que todos vejam que não está carregada) e sem correia. Uma {{term:semi-automatic|semi-automática}} transporta-se com a culatra aberta (o obturador puxado para trás). Todas as regras: {{lesson:rules-dress-and-safety}}.",
+    "competitions-competition-day-p3": "Quer verificar se a arma funciona? Faça-o antes da série, num {{term:gun-test|posto de ensaio}} especial, se o stand tiver um. Os tiros de teste num posto de competição não são permitidos.",
+    "competitions-competition-day-practice": {
+      "sporting": "Ninguém pode treinar nos percursos da competição antes do evento. Treine noutros campos.",
+      "compak": "Pode {{term:practice|treinar}} nas mesmas trajetórias de pratos da competição, mas a {{term:trajectory-setting-table|grelha de tiro}} tem de ser diferente. Esta grelha é o esquema que indica quais as máquinas que lançam em cada posto. Nos campeonatos continentais e mundiais, o treino oficial abre {{fact:training.compak-championship-practice}}."
+    },
+    "sport-competition-day-p2": "No {{tm:sporting}}, a esquadra atira primeiro todos os {{term:single-target|pratos simples}} de um posto, depois os {{term:double|doubles}}, e em cada novo posto é um atirador diferente que começa ({{term:rotation|a rotação}} muda). Antes de alguém atirar, mostram-se os pratos ao primeiro atirador da esquadra: cada um é lançado para que se veja a sua trajetória.",
+    "competitions-competition-day-p5": "Quando o {{tm:compak}} é atirado por esquadra, uma esquadra completa tem seis atiradores: cinco ficam nos cinco postos e o sexto espera atrás do posto 1. Com menos atiradores, um posto fica vazio. Quando todos atiraram os seus pratos no seu posto, a esquadra avança um posto para a direita. O atirador do posto 5 vai esperar atrás do posto 1, e quem esperava passa para o posto 1. Isto continua até cada atirador ter atirado nos cinco postos. Antes da sua série, vá ao campo de Compak que lhe foi atribuído e apresente-se ao árbitro: isto é obrigatório. No {{term:compak-in-line|Compak em linha}}, os atiradores não se movem em esquadra: entram no posto 1 um a um e avançam pela linha até ao posto 5.",
+    "competitions-competition-day-ready": "Quando chegar a sua vez, esteja pronto de imediato, com cartuchos para toda a série. No {{tm:compak}}, o árbitro não é obrigado a procurar um atirador em falta. Como funcionam os percursos: {{lesson:targets-sporting-layout}} e {{lesson:targets-compak-layout}}.",
+    "sport-competition-day-p3": "Uma série são 25 pratos: um percurso no {{tm:sporting}}, um campo no {{tm:compak}}. Uma competição internacional tem 200 pratos, ou seja, oito séries ao longo de vários dias. O árbitro marca cada prato na folha de marcação, normalmente X para um acerto e O para uma falha. No {{tm:sporting}} os atiradores verificam o resultado ao sair de um posto; no {{tm:compak}} assinam a folha no fim da série.",
+    "sport-competition-day-p4": "Chegar atrasado sai caro. No {{tm:sporting}}, o árbitro chama o nome do atirador três vezes no espaço de um minuto; quem perde a sua vez leva zeros nos pratos que não atirou. No {{tm:compak}}, o atirador que chega depois de o primeiro atirador da esquadra já ter pedido o primeiro prato (pedido para que fosse lançado) leva {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late-inline": "No {{term:compak-in-line|Compak em linha}}, é considerado atrasado quando duas coisas acontecerem: o sistema informático cancelou o seu dorsal, e o atirador seguinte está no posto 1. A penalização é a mesma: {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late": "Atrasou-se por um motivo fora do seu controlo? Não se junte à esquadra por sua conta: recorra por escrito ao {{term:jury|júri}} (o painel responsável pela competição), no {{tm:compak}} no mesmo dia. Se o júri concordar, atira a série com outra esquadra. Detalhes: {{lesson:rules-call-and-time}}.",
+    "sport-competition-day-p5": "Se houver empate num dos três primeiros lugares, o empate resolve-se por {{fact:competitions.shoot-off-format}}. Na morte súbita continuam a atirar, e o primeiro a falhar fica eliminado. Abaixo do terceiro lugar não há desempate: os atiradores empatados partilham o lugar. O {{term:countback|desempate pela ordem inversa}} define a sua ordem na lista: os resultados comparam-se {{fact:competitions.countback-order}}. O dia termina com o quadro de resultados e a {{term:prize-giving|entrega de prémios}}.",
+    "competitions-competition-day-end": "Pode entrar num desempate? Fique por perto e contactável: pode ter de atirar {{fact:rules.shootoff-ready-time}}. Em eventos internacionais, todos os premiados têm de comparecer à {{term:prize-giving|entrega de prémios}}, com o equipamento da equipa ou calças elegantes e blazer. Como ler os resultados: {{lesson:watching-reading-results}}."
+  },
+  "note": {
+    "competitions-competition-day-n1": "Os tours ClayAway, que estão a ser preparados, também vão usar «squad» para um subgrupo de um tour. Numa competição significa o grupo que atira, por isso esclareça a que se refere.",
+    "competitions-competition-day-n-parent": "Veja a partir da área de espetadores e fique em silêncio perto do posto. Um conselho gritado durante a série conta como {{term:coaching|dar instruções}}: o árbitro pode dar à sua criança um cartão amarelo por isso. Mais: {{lesson:juniors-support-without-pressure}}."
+  },
+  "phrases": {
+    "sport-competition-day-ph1": {
+      "meaning": "Número da esquadra, percurso de partida e hora de início.",
+      "say": "Está na esquadra doze, começa no percurso cinco às nove e meia."
+    },
+    "sport-competition-day-ph2": {
+      "meaning": "{{tm:sporting}}: certifique-se agora de que o árbitro registou corretamente o seu resultado; mais tarde já é tarde demais.",
+      "say": "Verifique a sua folha antes de sair do posto."
+    },
+    "sport-competition-day-ph3": {
+      "meaning": "22 em 25 na primeira série; numa prova de 200 pratos faltam sete séries.",
+      "say": "Vinte e dois na primeira série está bem — faltam mais sete."
+    },
+    "sport-competition-day-ph4": {
+      "meaning": "Um atirador que possa ir a desempate tem de estar pronto pouco depois de ser chamado.",
+      "say": "Fique por perto — se houver empate, atira até quinze minutos depois da chamada."
+    }
+  },
+  "key_points": {
+    "sport-competition-day-kp1": "Secretariado, dorsal nas costas, listas das esquadras e horários.",
+    "competitions-competition-day-kp1": "Sem proteção auditiva e óculos de proteção no posto, é tratado como ausente.",
+    "competitions-competition-day-kp-ready": "Esteja pronto na sua vez, com cartuchos para toda a série; ensaie a arma só no posto de ensaio.",
+    "sport-competition-day-kp4": "O atraso custa zeros; no {{tm:compak}}, {{fact:competitions.compak-late-zeros}}.",
+    "sport-competition-day-kp5": "Empates nos três primeiros lugares: desempate de 25 e depois morte súbita; empates abaixo: ordem inversa (countback)."
+  },
+  "did_you_know": "No {{tm:sporting}}, a esquadra espera o mais perto possível do posto, mas num local onde não distraia quem está a atirar.",
+  "quiz": {
+    "competitions-competition-day-q-protection": {
+      "q": "O que acontece se chegar ao posto sem proteção auditiva ou óculos de proteção?",
+      "options": {
+        "a": "Pode atirar, mas recebe uma advertência",
+        "b": "É tratado como ausente e não pode atirar",
+        "c": "O árbitro dá-lhe um conjunto suplente"
+      },
+      "explain": "Nas duas disciplinas, um atirador sem proteção auditiva ou óculos de proteção é tratado como ausente, e aplicam-se as regras de atraso."
+    },
+    "competitions-competition-day-q2": {
+      "q": "Onde pode verificar se a arma funciona?",
+      "options": {
+        "a": "No primeiro posto de competição, antes da série",
+        "b": "Em qualquer lugar do stand, se a área estiver livre",
+        "c": "Num posto de ensaio especial, se o stand tiver um"
+      },
+      "explain": "Os tiros de teste num posto de competição não são permitidos em nenhuma das disciplinas; use o posto de ensaio."
+    },
+    "sport-competition-day-q2": {
+      "q": "No {{tm:compak}} atirado por esquadra, um atirador chega depois de o primeiro atirador ter pedido o primeiro prato. O que acontece?",
+      "options": {
+        "a": "Nada, ele junta-se",
+        "b": "Leva 25 zeros nessa série",
+        "c": "Atira a série sozinho mais tarde, sem penalização",
+        "d": "Perde um prato"
+      },
+      "explain": "No {{tm:compak}} atirado por esquadra, chegar depois do primeiro pedido custa {{fact:competitions.compak-late-zeros}}. Por um motivo fora do seu controlo, pode recorrer por escrito ao júri no mesmo dia."
+    },
+    "competitions-competition-day-q1": {
+      "q": "Qual é o maior número de atiradores numa esquadra?",
+      "options": {
+        "a": "4",
+        "b": "6",
+        "c": "8"
+      },
+      "explain": "Tanto no {{tm:sporting}} como no {{tm:compak}}, uma esquadra tem no máximo 6 atiradores."
+    },
+    "sport-competition-day-q3": {
+      "q": "Dois atiradores empatam no 5.º lugar. Como são classificados?",
+      "options": {
+        "a": "Por um desempate de 25 pratos por esse lugar",
+        "b": "Por sorteio depois de o evento terminar",
+        "c": "Partilham-no; o desempate pela ordem inversa a partir do 8.º percurso ou Compak define a ordem",
+        "d": "Pela idade, com o atirador mais novo colocado mais acima"
+      },
+      "explain": "Os desempates são só para os três primeiros. Abaixo disso, os atiradores empatados partilham o lugar, e o desempate pela ordem inversa compara o 8.º percurso ou Compak, depois o 7.º, e assim por diante."
+    },
+    "competitions-competition-day-q-inline-late": {
+      "q": "No Compak em linha, quando é considerado atrasado?",
+      "options": {
+        "a": "Quando o seu dorsal é cancelado no sistema e o atirador seguinte está no posto 1",
+        "b": "Assim que o árbitro chamar o seu nome pela primeira vez",
+        "c": "Só depois de todo o grupo ter terminado de atirar a série"
+      },
+      "explain": "As duas coisas têm de ter acontecido: o seu dorsal já está cancelado no sistema informático, e o atirador seguinte está no posto 1. A penalização é {{fact:competitions.compak-late-zeros}}."
+    },
+    "competitions-competition-day-q-carry": {
+      "q": "Como transporta a arma entre postos?",
+      "options": {
+        "a": "Aberta, para que todos vejam que não está carregada, e sem correia",
+        "b": "Fechada e descarregada, numa correia ao ombro",
+        "c": "Fechada, com o fecho de segurança posto, apontada para o chão"
+      },
+      "explain": "As armas transportam-se abertas e as correias não são permitidas; uma semi-automática transporta-se com a culatra aberta."
+    }
+  }
+}

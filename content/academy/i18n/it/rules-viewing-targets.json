@@ -1,0 +1,130 @@
+{
+  "id": "rules-viewing-targets",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "0064d55d",
+    "summary": "520117f9",
+    "rules-viewing-targets-p1": "ad9aaf1c",
+    "rules-viewing-targets-cmp1": "81f7ebe1",
+    "sporting-viewing-p2": "91e5fef1",
+    "sporting-viewing-p3": "41aa2110",
+    "compak-gun-and-call-p4": "94cbc3de",
+    "rules-viewing-targets-inline": "36aba8bb",
+    "rules-viewing-targets-open": "e72630ec",
+    "sporting-viewing-p4": "fe023af6",
+    "rules-viewing-targets-cmp2": "91c6febf",
+    "rules-viewing-targets-cmp3": "a954b0b5",
+    "rules-viewing-targets-tip1": "dbc75fed",
+    "rules-viewing-targets-more": "f764fc23",
+    "sporting-viewing-p6": "0980466b",
+    "sporting-viewing-ph1": "1df1c5f9",
+    "sporting-viewing-ph2": "f2d71d4d",
+    "sporting-viewing-ph3": "7dd75e34",
+    "sporting-viewing-ph4": "e39faadc",
+    "compak-gun-and-call-ph1": "6126c547",
+    "sporting-viewing-kp1": "cf204807",
+    "sporting-viewing-kp2": "1f60b759",
+    "sporting-viewing-kp3": "d07a0eb2",
+    "compak-gun-and-call-kp4": "cde28806",
+    "sporting-viewing-kp4": "7f195256",
+    "rules-viewing-targets-dyk": "d3836026",
+    "sporting-viewing-q1": "8dc8d7ba",
+    "rules-viewing-targets-q2": "8a902885",
+    "sporting-viewing-q3": "442066c3",
+    "sporting-viewing-q2": "7517024b",
+    "rules-viewing-targets-q4": "9490a582",
+    "rules-viewing-targets-q5": "004cd4f0"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "La presentazione dei piattelli",
+  "summary": "Come si mostrano i piattelli prima del tiro nel {{tm:sporting}} e nel {{tm:compak}}, quali doppi si vedono e cosa si può fare mentre volano.",
+  "body": {
+    "rules-viewing-targets-p1": "Prima di tirare, i piattelli vengono mostrati: è la {{term:target-presentation|presentazione}}. Nel {{tm:sporting}} avviene su ogni pedana. Nel {{tm:compak}} a batterie, dove una {{term:squad|batteria}} di {{fact:rules.squad-max-shooters}} si sposta di postazione in postazione, avviene solo una volta al giorno, per la prima batteria. In linea funziona diversamente (vedi sotto). La presentazione permette di leggere ogni piattello: linea, velocità, distanza e cosa fa in volo.",
+    "rules-viewing-targets-cmp1": {
+      "sporting": "Su ogni pedana, il primo tiratore della batteria vede tutte le traiettorie, pronto in pedana.",
+      "compak": "A batterie: solo una volta al giorno, al mattino, per la prima batteria del giorno. Il tiratore sulla postazione 1 chiama i singoli da A a F. In linea: vedi sotto."
+    },
+    "sporting-viewing-p2": "Potete chiedere all'arbitro di mostrare di nuovo un piattello: al massimo altre due volte per ogni piattello del menu della pedana.",
+    "sporting-viewing-p3": "I {{term:double-on-report|doppi allo sparo}} (il secondo piattello parte quando sparate al primo) non vengono mostrati. I loro piattelli, però, li avete già visti: un doppio usa solo piattelli già lanciati come singoli dalla stessa pedana. Al primo tiratore di ogni batteria vengono mostrati i {{term:simultaneous-double|doppi simultanei}} (entrambi i piattelli partono insieme) e i {{term:rafale-double|doppi a raffica}} (due piattelli dalla stessa macchina, uno dopo l'altro). Su richiesta vengono mostrati di nuovo, al massimo due volte.",
+    "compak-gun-and-call-p4": "A batterie, dopo i singoli vengono mostrati i doppi simultanei delle postazioni da 1 a 5. Dopo, sentirete l'arbitro dire «start» o «competition», e inizia il tiro valido per il punteggio.",
+    "rules-viewing-targets-inline": "Il {{tm:compak}} si può tirare anche {{term:compak-in-line|in linea}}: i tiratori salgono sulla postazione 1 uno alla volta e avanzano lungo la linea fino alla postazione 5. Prima dell'inizio, il primo tiratore può chiedere di vedere i singoli da A a F; se i doppi sono simultanei, vengono mostrati anche i doppi di ogni postazione. Mentre la linea si riempie, ogni nuovo tiratore sulla postazione 1 vede prima il piattello d'apertura del suo doppio. Quando la linea si svuota, l'arbitro fa lo stesso sulle postazioni successive. Dettagli: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+    "rules-viewing-targets-open": "In entrambe le discipline, durante la presentazione e ogni interruzione i fucili restano aperti e scarichi. Richiudete il vostro solo quando l'arbitro lo permette.",
+    "sporting-viewing-p4": "Sparare, o fare {{term:mock-shooting|simulazione di tiro}} (imbracciare e seguire con la canna la linea del piattello senza sparare), mentre i piattelli vengono mostrati è vietato. Viene punito come un'infrazione sulla posizione del fucile: prima un avvertimento, poi un cartellino rosso.",
+    "rules-viewing-targets-cmp2": {
+      "sporting": "Se una macchina si guasta o il tiro si interrompe per {{fact:rules.reshow-after-interruption}}, i piattelli della pedana vengono mostrati di nuovo.",
+      "compak": "Dopo un'interruzione di {{fact:rules.reshow-after-interruption}}, l'arbitro mostra di nuovo i sei singoli."
+    },
+    "rules-viewing-targets-cmp3": {
+      "sporting": "Nessuno può allenarsi sui percorsi di gara.",
+      "compak": "Potete allenarvi sulle traiettorie di gara, ma non con i menu di gara. Le {{term:trajectory-setting-table|tabelle di impostazione delle traiettorie}} (menu già pronti che indicano da quali macchine si tira su ogni postazione) devono essere diverse per l'allenamento. Ai campionati continentali e mondiali, l'allenamento ufficiale inizia il sabato precedente alla gara."
+    },
+    "rules-viewing-targets-tip1": "Usate la presentazione per pianificare ogni piattello. Notate dove lo vedrete per la prima volta con chiarezza, il {{term:pick-up-point|punto di aggancio visivo}}, e dove lo romperete, il {{term:break-point|punto di rottura}}. Molti istruttori consigliano di scegliere già durante la presentazione anche l'ordine per un doppio simultaneo.",
+    "rules-viewing-targets-more": "Come «leggere» un piattello durante la presentazione: {{lesson:targets-reading-a-target}}."
+  },
+  "note": {
+    "sporting-viewing-p6": "In allenamento la presentazione è il momento preferito dell'istruttore: «watch where it turns» (guarda dove gira). In gara la presentazione fa parte della competizione, quindi vale anche qui il divieto di coaching: restate in silenzio, a meno che l'arbitro o il tiratore non abbiano bisogno di una traduzione sulla procedura."
+  },
+  "phrases": {
+    "sporting-viewing-ph1": {
+      "meaning": "Il tiratore all'arbitro: inizi la presentazione.",
+      "say": "Mi fa vedere i piattelli, per favore?"
+    },
+    "sporting-viewing-ph2": {
+      "meaning": "Richiesta di ripetere un piattello del menu.",
+      "say": "Ancora, per favore, solo la B."
+    },
+    "sporting-viewing-ph3": {
+      "meaning": "Arbitro: aprite e scaricate le armi finché l'arbitro non autorizza a richiuderle.",
+      "say": "Fucili aperti durante lo show."
+    },
+    "sporting-viewing-ph4": {
+      "meaning": "Istruttore in allenamento: nota il punto in cui il piattello cambia direzione o forma.",
+      "say": "Guarda dove gira."
+    },
+    "compak-gun-and-call-ph1": {
+      "meaning": "Arbitro: la presentazione è finita e comincia il tiro valido per il punteggio.",
+      "say": "Start! / Gara!"
+    }
+  },
+  "key_points": {
+    "sporting-viewing-kp1": "{{tm:sporting}}: su ogni pedana, il primo tiratore della batteria vede tutte le traiettorie, pronto in pedana.",
+    "sporting-viewing-kp2": "{{tm:sporting}}: su richiesta, fino a due ripetizioni per ogni piattello del menu.",
+    "sporting-viewing-kp3": "{{tm:sporting}}: i doppi allo sparo non vengono presentati; il primo tiratore di ogni batteria vede i doppi simultanei e a raffica.",
+    "compak-gun-and-call-kp4": "{{tm:compak}} a batterie: i piattelli vengono presentati una volta al giorno, al mattino, solo per la prima batteria. Dopo un'interruzione di {{fact:rules.reshow-after-interruption}}, l'arbitro presenta di nuovo i sei singoli. In linea ha un ordine proprio.",
+    "sporting-viewing-kp4": "I fucili restano aperti durante la presentazione; nel {{tm:sporting}}, sparare o simulare il tiro in quel momento viene punito."
+  },
+  "did_you_know": "Nel {{tm:sporting}} il menu davanti a ogni pedana elenca le macchine nell'ordine di tiro e segnala i piattelli speciali, come una {{term:battue|battuta}} o una {{term:rabbit|lepre}}.",
+  "quiz": {
+    "sporting-viewing-q1": {
+      "q": "Nel {{tm:sporting}}, quali doppi NON vengono mostrati nella presentazione?",
+      "options": { "a": "Simultanei", "b": "A raffica", "c": "Allo sparo", "d": "Nessuno" },
+      "explain": "Nel {{tm:sporting}} i doppi allo sparo non vengono presentati; i doppi simultanei e a raffica sì. Un doppio usa solo piattelli già lanciati come singoli su quella pedana."
+    },
+    "rules-viewing-targets-q2": {
+      "q": "Nel {{tm:compak}} a batterie, con quale frequenza vengono presentati i piattelli?",
+      "options": { "a": "Prima di ogni batteria, su ogni postazione", "b": "Una volta al giorno, per la prima batteria", "c": "Solo quando lo chiede un tiratore" },
+      "explain": "C'è una presentazione al giorno, al mattino, per la prima batteria; dopo un'interruzione di {{fact:rules.reshow-after-interruption}} l'arbitro presenta di nuovo i sei singoli."
+    },
+    "sporting-viewing-q3": {
+      "q": "Nel {{tm:sporting}}, durante la presentazione un tiratore chiude il fucile e segue con la canna la linea di un piattello. Cosa si applica?",
+      "options": { "a": "Vietato: avvertimento, poi cartellino rosso", "b": "Consentito: la presentazione è pratica libera", "c": "Il piattello viene mostrato di nuovo", "d": "Solo l'istruttore riceve un avvertimento" },
+      "explain": "Durante la presentazione i fucili restano aperti, e sparare o simulare il tiro viene punito come un'infrazione sulla posizione del fucile."
+    },
+    "sporting-viewing-q2": {
+      "q": "Nel {{tm:sporting}}, quante ripetizioni può chiedere il tiratore in pedana?",
+      "options": { "a": "Nessuna", "b": "Due per ogni piattello del menu", "c": "Quante ne servono", "d": "Una per pedana" },
+      "explain": "Su richiesta l'arbitro mostra di nuovo un piattello, al massimo due volte per ogni piattello del menu."
+    },
+    "rules-viewing-targets-q4": {
+      "q": "{{tm:compak}} in linea, con doppi allo sparo. Mentre la linea si riempie, un nuovo tiratore sale sulla postazione 1. Cosa gli mostra l'arbitro?",
+      "options": { "a": "Il primo piattello del suo doppio", "b": "Niente", "c": "Tutti i singoli da A a F", "d": "Tutto il menu di nuovo" },
+      "explain": "In linea, i singoli da A a F vengono mostrati al primo tiratore prima dell'inizio. Dopo, a ogni nuovo tiratore sulla postazione 1 viene mostrato il piattello d'apertura del suo doppio."
+    },
+    "rules-viewing-targets-q5": {
+      "q": "Si può allenarsi sulle traiettorie di gara prima di una gara di {{tm:compak}}?",
+      "options": { "a": "No, per niente", "b": "Solo la mattina della gara", "c": "Sì, con tabelle di impostazione diverse" },
+      "explain": "Il {{tm:compak}} permette di allenarsi sulle traiettorie di gara, ma le tabelle di impostazione (i menu) per l'allenamento devono essere diverse; nel {{tm:sporting}} allenarsi sui percorsi di gara non è permesso a nessuno."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "history-compak-sporting",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "d299ca4f",
+    "summary": "a58560e1",
+    "history-compak-sporting-p1": "f9473d24",
+    "history-compak-sporting-p2": "90af5f82",
+    "history-compak-sporting-p3": "dcc4df2b",
+    "history-compak-sporting-p4": "3440be04",
+    "history-compak-sporting-p5": "f04fb293",
+    "history-compak-sporting-p6": "f37c2559",
+    "history-compak-sporting-kp1": "2cba0cc1",
+    "history-compak-sporting-kp2": "a0bbea43",
+    "history-compak-sporting-kp3": "f9a1ca90",
+    "history-compak-sporting-kp4": "f4441fd7",
+    "history-compak-sporting-dyk": "1bc6f84a",
+    "history-compak-sporting-q1": "e113e7ed",
+    "history-compak-sporting-q2": "2c216314",
+    "history-compak-sporting-q3": "438b5d84"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "{{tm:compak}}: a kompakt formátum",
+  "summary": "A {{tm:compak}} a 20. század végén jelent meg, mint a {{tm:sporting}} kompakt formája: kevesebb terület, gyorsabb lövészet és egyszerűbb a nézőknek.",
+  "body": {
+    "history-compak-sporting-p1": "Egy teljes {{tm:sporting}} útvonalhoz sok terület kell: erdő, domb és több {{term:layout|lőpálya}}. Sok klubnak nincs ilyen. Ezért felmerült az ötlet, hogy a sporting korongok sokféleségét egy kis területre hozzák.",
+    "history-compak-sporting-p2": "Így jött létre a {{tm:compak}}. A szabályzata szerint a versenyszámot {{fact:community.compak-created}}, tehát ez a 20. század végi formátum. Gyorsan elterjedt: a FITASC {{fact:community.compak-championships}} tartott.",
+    "history-compak-sporting-p3": "Az ötlet egy mező. Egy Compak-mezőn {{fact:basics.compak-field}} van. A korongok a lövők előtti megjelölt téglalap fölött repülnek. Sok irányba mennek, mint a {{tm:sporting}} esetében, de mindez egy mezőn történik.",
+    "history-compak-sporting-p4": "A formátumnak több előnye van. Egy klubnak kevesebb területre és kevesebb {{term:trap|dobógépre}} van szüksége. A lövészet gyorsabban megy. A nézők pedig egy helyről láthatják az egész {{term:squad|rottét}} (a lövők csoportját, akik együtt lövik a kört) és az összes korongot, ezért a {{tm:compak}} jól mutat videón.",
+    "history-compak-sporting-p5": "A {{tm:compak}} neve és szabályai olyan védjegy, amelyet a FITASC jegyeztetett be, és véd. Ezért írjuk a ® jelet, és nem találunk ki más elnevezéseket.",
+    "history-compak-sporting-p6": "Ma a {{tm:compak}} gyakran egy kezdő első versenyszáma. Közelebb található otthonról, és a megszerzett készségek átvihetők egy teljes {{tm:sporting}} útvonalra is. Hogyan működik egy Compak-mező pontosan: {{lesson:targets-compak-layout}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "history-compak-sporting-kp1": "A {{tm:compak}} a sporting kompakt formája egy mezőn.",
+    "history-compak-sporting-kp2": "A szabályok szerint {{fact:community.compak-created}}.",
+    "history-compak-sporting-kp3": "Egy mező: {{fact:basics.compak-field}}.",
+    "history-compak-sporting-kp4": "A név és a szabályok a FITASC védjegye."
+  },
+  "did_you_know": "A {{tm:compak}} esetében a néző egy helyen állva láthatja egy kör összes korongját. Egy teljes {{tm:sporting}} útvonalon ez nem lehetséges.",
+  "quiz": {
+    "history-compak-sporting-q1": {
+      "q": "Miért hozták létre a {{tm:compak}}-ot?",
+      "options": {
+        "a": "Hogy változatos korongokat egy kis területre illesszenek",
+        "b": "Hogy visszahozzák az élő madarakra lövést",
+        "c": "Hogy lecseréljék az olimpiai agyagkorong-versenyszámokat"
+      },
+      "explain": "A {{tm:compak}} kevesebb területet igényel, de megtartja a változatos röppályákat."
+    },
+    "history-compak-sporting-q2": {
+      "q": "Hány számot és dobógépet tartalmaz egy {{tm:compak}} mező?",
+      "options": {
+        "a": "1 számot és 15 dobógépet",
+        "b": "5 számot és 6 dobógépet",
+        "c": "8 számot és 2 dobógépet"
+      },
+      "explain": "Öt szám áll egy sorban, és hat dobógép, A-tól F-ig, dobja a korongokat."
+    },
+    "history-compak-sporting-q3": {
+      "q": "Mikor fogadta el a FITASC a {{tm:compak}}-ot?",
+      "options": {
+        "a": "1960-ban",
+        "b": "1921-ben",
+        "c": "1991-ben"
+      },
+      "explain": "A versenyszámot {{fact:community.compak-created}}."
+    }
+  }
+}

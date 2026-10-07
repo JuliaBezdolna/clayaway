@@ -1,0 +1,81 @@
+{
+  "id": "nextstep-becoming-referee",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "aa1c63b4",
+    "summary": "686901b3",
+    "nextstep-becoming-referee-p1": "39de6b1d",
+    "nextstep-becoming-referee-p2": "ce43e3f4",
+    "nextstep-becoming-referee-cmp": "aef87821",
+    "nextstep-becoming-referee-p5": "5a834631",
+    "nextstep-becoming-referee-p6": "af337454",
+    "nextstep-becoming-referee-p7": "9234eace",
+    "nextstep-becoming-referee-kp1": "7fc1005f",
+    "nextstep-becoming-referee-kp2": "3bc7903a",
+    "nextstep-becoming-referee-kp3": "ae4bfb27",
+    "nextstep-becoming-referee-kp4": "786f3d96",
+    "nextstep-becoming-referee-kp5": "cc288c13",
+    "nextstep-becoming-referee-dyk": "a34901c5",
+    "nextstep-becoming-referee-q1": "e5cf6ef2",
+    "nextstep-becoming-referee-q2": "b6159042",
+    "nextstep-becoming-referee-q3": "e1b15cfb"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Kuinka tulla tuomariksi",
+  "summary": "Tuomariksi tullaan kurssin ja tentin kautta kansallisessa liitossa. Kansainväliset kilpailut vaativat enemmän: kokemusta, ja päätuomarilta FITASC:n kelpoisuutta.",
+  "body": {
+    "nextstep-becoming-referee-p1": "{{term:referee|Tuomari}} on keskeinen henkilö joka kilpailussa. Hän valvoo turvallisuutta ja järjestystä asemalla ja päättää itse, osuiko kiekkoon. Ilman tuomareita ei ole kilpailua, niin seurat ja liitot ottavat uudet ihmiset iloiten vastaan.",
+    "nextstep-becoming-referee-p2": "Ensimmäinen askel on oman maan {{term:national-federation|kansallinen liitto}}. Se järjestää tavallisesti tuomarikursseja: sääntöteoriaa, käytäntöä asemalla ja tentin. Tentin jälkeen saat tuomarisertifikaatin tai -kortin. Menettely, kesto ja vaatimukset ovat jokaisessa maassa omat, niin kysy ensin liitoltasi tai seuraltasi.",
+    "nextstep-becoming-referee-cmp": {
+      "sporting": "Joka tuomarilla on voimassa oleva sertifikaatti omasta kansallisesta liitostaan. Sen puuttuessa henkilö voi olla vain apulaistuomari, ja vain, jos {{term:jury|jury}} suostuu siihen etukäteen. Jury on pieni ryhmä toimihenkilöitä, jotka valvovat kilpailua ja ratkaisevat kiistat. Kansainvälisen kilpailun {{term:chief-referee|päätuomarilla}} on oltava FITASC:n myöntämä kansainvälinen sertifikaatti.",
+      "compak": "Jury hyväksyy joka tuomarin ennen alkua, ja joka tuomarilla on voimassa oleva kortti omasta kansallisesta liitostaan. Tuomarit, joilla on vähän kansainvälistä kokemusta, työskentelevät kansainvälisten tuomareiden silmän alla. Päätuomari (lajin {{tm:compak}} säännöissä Head Referee) tarvitsee kansainvälisen kortin ja FITASC:n kelpoisuuden tähän rooliin."
+    },
+    "nextstep-becoming-referee-p5": "Kansainvälinen tuomarointi on seuraava taso. Mitä se vaatii, selittää oma liittosi.",
+    "nextstep-becoming-referee-p6": "Kansainvälisissä kilpailuissa tuomarit antavat virallisen lupauksen. He lupaavat soveltaa sääntöjä, tuomita rehellisesti ja puolueettomasti sekä unohtaa oman kansalaisuutensa ja liittonsa. Se tiivistää työn ytimen: rauhallisuus, sääntöjen tuntemus ja kunnioitus joka ampujaa kohtaan.",
+    "nextstep-becoming-referee-p7": "Vinkki alkuun: pyydä auttaa kokenutta tuomaria {{term:club-shoot|seurakilpailuissa}}. Näet työn sisältäpäin, ja säännöt jäävät mieleen paljon nopeammin. Itse päätökset selkokielellä: {{lesson:rules-hit-and-no-bird}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "nextstep-becoming-referee-kp1": "Tuomarikursseja järjestää tavallisesti kansallinen liitto.",
+    "nextstep-becoming-referee-kp2": "FITASC:n kilpailuissa joka tuomarilla on voimassa oleva liiton sertifikaatti tai kortti.",
+    "nextstep-becoming-referee-kp3": "Lajissa {{tm:sporting}} henkilö ilman sertifikaattia voi olla vain apulaistuomari, ja vain jury:n luvalla.",
+    "nextstep-becoming-referee-kp4": "Kansainvälisen kilpailun päätuomarilla on oltava FITASC:n kelpoisuus.",
+    "nextstep-becoming-referee-kp5": "Aloita auttamalla kokenutta tuomaria seurakilpailuissa."
+  },
+  "did_you_know": "Molemmissa lajeissa kansainvälisen kilpailun tuomarilla on oltava mukana voimassa olevat säännöt FITASC:n virallisilla kielillä.",
+  "quiz": {
+    "nextstep-becoming-referee-q1": {
+      "q": "Missä tavallisesti opiskellaan tuomariksi?",
+      "options": {
+        "a": "Omassa kansallisessa liitossa",
+        "b": "Vain ISSF:ssä henkilökohtaisesti",
+        "c": "Ei missään: sääntöjen lukeminen riittää"
+      },
+      "explain": "Kurssit ja tentit järjestää tavallisesti kansallinen liitto."
+    },
+    "nextstep-becoming-referee-q2": {
+      "q": "Kuka voi auttaa vaaditun sertifikaatin puuttuessa {{tm:sporting}}-kilpailussa?",
+      "options": {
+        "a": "Kuka tahansa säännöt tunteva katsoja",
+        "b": "Apulaistuomari, jury:n ennakkohyväksynnällä",
+        "c": "Ampujan omavalmentaja"
+      },
+      "explain": "Ilman sertifikaattia mahdollinen on vain apulaisrooli, ja jury:n on hyväksyttävä se etukäteen."
+    },
+    "nextstep-becoming-referee-q3": {
+      "q": "Mitä kansainvälisen {{tm:sporting}}-kilpailun päätuomari tarvitsee?",
+      "options": {
+        "a": "Vain pitkää ampujakokemusta",
+        "b": "Suosituksen ampujilta",
+        "c": "Kansainvälisen FITASC-sertifikaatin"
+      },
+      "explain": "{{tm:sporting}}-säännöt vaativat FITASC:n myöntämää kansainvälistä sertifikaattia."
+    }
+  }
+}

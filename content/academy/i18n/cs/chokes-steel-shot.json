@@ -1,0 +1,98 @@
+{
+  "id": "chokes-steel-shot",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "fedccba2",
+    "summary": "4c8df65a",
+    "chokes-steel-shot-p1": "6e1820a5",
+    "chokes-steel-shot-p2": "a5964f74",
+    "chokes-steel-shot-p3": "80065cba",
+    "chokes-steel-shot-p4": "6938f339",
+    "chokes-steel-shot-p5": "27ec5c98",
+    "chokes-steel-shot-p6": "ccecd577",
+    "chokes-steel-shot-kp1": "cf25ddca",
+    "chokes-steel-shot-kp2": "26616153",
+    "chokes-steel-shot-kp3": "568670ff",
+    "chokes-steel-shot-kp4": "cb2ee2d8",
+    "chokes-steel-shot-kp5": "4e8f1749",
+    "chokes-steel-shot-dyk": "2cdebfbb",
+    "chokes-steel-shot-q1": "125543e4",
+    "chokes-steel-shot-q2": "e0224987",
+    "chokes-steel-shot-q3": "7bcf1c52",
+    "chokes-steel-shot-q4": "0ff453e4"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "body": {
+    "chokes-steel-shot-p1": "Některé střelnice, zvlášť blízko vody nebo v chráněných oblastech, dovolují jen bezolovnaté broky, nejčastěji {{term:steel-shot|ocelové}} nebo z {{term:soft-iron-shot|měkkého železa}}. O samotných brocích je lekce {{lesson:cartridges-lead-and-steel}}. Tady se díváme, co to znamená pro zahrdlení.",
+    "chokes-steel-shot-p2": "{{term:lead-shot|Olověná}} brokovina je měkká a při průchodu zahrdlením se trochu deformuje. Ocelová je tvrdá a nestlačuje se. Proto stejné zahrdlení dává s ocelí znatelně hustší {{term:pattern|zásah}}, a mnoho střelců nasazuje zahrdlení o stupeň otevřenější: 1/4 místo 1/2.",
+    "chokes-steel-shot-p3": "Tvrdá ocel také víc zatěžuje zahrdlení. Mnoho výrobců a distributorů doporučuje se standardními ocelovými náboji zahrdlení nejvýš {{term:modified|modified}} (1/2). Pro silnější ocelové náboje (high performance, vysvětleno níže) někteří doporučují nejvýš 1/4. {{term:full-choke|Plné zahrdlení}} se ocelí se většinou nedoporučuje. Přesná hranice závisí na zbrani, proto čtěte návod výrobce.",
+    "chokes-steel-shot-p4": "Zahrdlení určená pro ocel bývají označená „Steel“ nebo „Steel OK“, některá nesou nápis „Lead only“ (jen olovo). Pokud zahrdlení nemá značení a návod nemáte, zeptejte se {{term:gunsmith|puškaře}}.",
+    "chokes-steel-shot-p5": [
+      "Staré tenkostěnné hlavně, zvlášť s {{term:fixed-choke|pevným}} plným zahrdlením, může ocel poškodit: u ústí se může objevit kruhové vyboulení.",
+      "Podle pravidel C.I.P. (společných norem zkoušení zbraní a nábojů platných ve většině Evropy) se ocelové náboje dělí do dvou tříd: standardní (standard steel) a silné (high performance steel).",
+      "Standardní ocelí lze střílet ze zbraně v dobrém stavu s obvyklými zkušebními značkami. Jsou to razítka, která zkušební stanice (proof house) dá na zbraň po zkušebním odstřelu.",
+      "Silnou ocelí lze střílet jen ze zbraně, která prošla samostatnou zkouškou pro ocelové broky; její hlavně nesou razítko ve tvaru lilie (fleur-de-lis), často s nápisem „Steel Shot“.",
+      "Sportovní ocelové náboje bývají standardní ocel. Zkontrolujte krabičku i doklady zbraně, a v pochybnostech se zeptejte puškaře."
+    ],
+    "chokes-steel-shot-p6": "Jedete na střelnici, kde se vyžaduje ocel? Zjistěte si předem, jaké náboje jsou povolené, a vezměte zahrdlení vhodná pro ocel. Před závodem si těmito náboji vystřílejte trénink, abyste viděli, jak se změnil zásah."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-steel-shot-kp1": "Ocelové broky se v zahrdlení nestlačují a dávají hustší zásah.",
+    "chokes-steel-shot-kp2": "S ocelí mnozí střelci volí o stupeň otevřenější zahrdlení.",
+    "chokes-steel-shot-kp3": "Mnoho výrobců doporučuje s ocelí nejvýš 1/2; plné zahrdlení se většinou nedoporučuje.",
+    "chokes-steel-shot-kp4": "Hledejte na zahrdlení značení „Steel“ a čtěte návod.",
+    "chokes-steel-shot-kp5": "Staré tenkostěnné hlavně mohou být poškozené; silná ocel vyžaduje značku-lilii."
+  },
+  "quiz": {
+    "chokes-steel-shot-q1": {
+      "q": "Proč dává ocelový brok hustší zásah než olověný přes stejné zahrdlení?",
+      "options": {
+        "a": "Ocel je těžší než olověný brok",
+        "b": "Tvrdé ocelové broky se v zahrdlení nestlačují",
+        "c": "Ocelové náboje mají mnohem víc broků",
+        "d": "Ocelový brok vylétá z hlavně rychleji"
+      },
+      "explain": "Měkké olovo se v zahrdlení trochu deformuje, tvrdá ocel ne, proto letí semknutěji."
+    },
+    "chokes-steel-shot-q2": {
+      "q": "Které zahrdlení se s ocelovým brokem většinou nedoporučuje?",
+      "options": {
+        "a": "Cylinder",
+        "b": "Improved cylinder (1/4)",
+        "c": "Půlčok (1/2)",
+        "d": "Plné zahrdlení"
+      },
+      "explain": "Plné zahrdlení s ocelí se většinou nedoporučuje; přesná hranice je v návodu výrobce."
+    },
+    "chokes-steel-shot-q3": {
+      "q": "Jak zjistíte, zda je zahrdlení vhodné pro ocel?",
+      "options": {
+        "a": "Podle značení a návodu výrobce",
+        "b": "Podle barvy povrchové úpravy hlavně",
+        "c": "Vystřelit a podívat se",
+        "d": "Není třeba: všechna moderní zahrdlení jsou"
+      },
+      "explain": "Hledejte značení na zahrdlení a ověřte v návodu; v pochybnostech se zeptejte puškaře."
+    },
+    "chokes-steel-shot-q4": {
+      "q": "Které ocelové náboje vyžadují zbraň se značkou-lilií pro ocelové broky?",
+      "options": {
+        "a": "Standardní sportovní ocelové náboje",
+        "b": "Silné ocelové náboje (high performance)",
+        "c": "Olověné náboje s plstěnou ucpávkou",
+        "d": "Tréninkové náboje z měkkého železa"
+      },
+      "explain": "Standardní ocelí lze střílet ze zbraně v dobrém stavu s obvyklými značkami; silná ocel vyžaduje zvláštní zkoušku pro ocelové broky."
+    }
+  },
+  "title": "Ocelové broky a zahrdlení",
+  "summary": "Ocelové broky jsou tvrdé a v zahrdlení se nestlačují, takže dávají hustší zásah. Jaká zahrdlení k nim sedí, jak číst zkušební značky a co to znamená na střelnicích {{tm:sporting}} a {{tm:compak}}, kde se ocel vyžaduje.",
+  "did_you_know": "Ocelový brok je {{fact:gear.steel-vs-lead-weight}}, takže dřív ztrácí rychlost. Proto se s ocelí často volí trochu větší velikost broku, pokud to pravidla střelnice dovolují."
+}

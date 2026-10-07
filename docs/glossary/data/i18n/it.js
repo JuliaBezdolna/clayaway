@@ -291,7 +291,7 @@ window.GLOSSARY_I18N.it = {
   "double": {
    "term_local": "doppio",
    "short": "Due piattelli lanciati insieme o uno dopo l'altro, tirati come un'unica unità.",
-   "long": "Esistono tre tipi di doppietto: al colpo, simultaneo e, solo nello Sporting, a raffica (rafale). Nello Sporting il tiratore ha due cartucce per un doppietto e può spararle entrambe allo stesso piattello; tra il primo e il secondo piattello la posizione del fucile è libera. Nel Compak si può sparare una sola cartuccia a ciascun piattello del doppietto, e su un Compak il tipo di doppietto deve essere lo stesso su tutte e 5 le pedane; il primo piattello di ogni doppietto è l'ultimo piattello della pedana precedente. Se un solo colpo rompe entrambi i piattelli, lo Sporting assegna uno e uno, mentre il Compak fa ripetere il doppietto.",
+   "long": "Esistono tre tipi di doppietto: al colpo, simultaneo e, solo nello Sporting, a raffica (rafale). Nello Sporting il tiratore ha due cartucce per un doppietto e può spararle entrambe allo stesso piattello; tra il primo e il secondo piattello la posizione del fucile è libera. Nel Compak si può sparare una sola cartuccia a ciascun piattello del doppietto, e su un Compak il tipo di doppietto deve essere lo stesso su tutte e 5 le pedane; il primo piattello di ogni doppietto è l'ultimo piattello della pedana precedente. Se un solo colpo rompe entrambi i piattelli, lo Sporting assegna uno e uno. Nel Compak non contano come due piattelli colpiti: nel doppietto al colpo il primo risultato resta e il doppietto si ripete per il secondo; nel doppietto simultaneo è un No bird e il doppietto si ripete, e la terza volta vale ZERO-ZERO.",
    "disciplines": {
     "sporting": "5 doppietti per campo, composti solo da piattelli già tirati come singoli da quella pedana; entrambe le cartucce possono andare a un solo piattello.",
     "compak": "Una cartuccia per piattello; sparare deliberatamente entrambi i colpi a un piattello vale Zero-Zero."
@@ -371,10 +371,10 @@ window.GLOSSARY_I18N.it = {
   "target-presentation": {
    "term_local": "presentazione dei piattelli",
    "short": "Mostrare ai tiratori i piattelli di una pedana prima che inizino a tirare.",
-   "long": "Nello Sporting tutte le traiettorie di una pedana vengono mostrate al primo tiratore della squadra, che deve trovarsi pronto in pedana; su richiesta ogni piattello può essere mostrato di nuovo fino a 2 volte. I doppietti al colpo non vengono mostrati; quelli simultanei e a raffica sì, con al massimo 2 ripetizioni. Nel Compak a squadre i piattelli si mostrano una sola volta al mattino alla prima squadra; in linea il primo piattello di ogni doppietto viene mostrato a ogni nuovo tiratore in pedana 1. Durante qualsiasi presentazione i fucili sono aperti e scarichi, ed è vietato sparare o simulare il tiro. Dopo una sosta di oltre 10 minuti i piattelli vengono mostrati di nuovo.",
+   "long": "Nello Sporting™ tutte le traiettorie di una pedana vengono mostrate al primo tiratore della batteria, che deve trovarsi pronto in pedana; su richiesta ogni piattello può essere mostrato di nuovo fino a 2 volte. I doppietti al colpo non vengono mostrati; quelli simultanei e a raffica sì, con al massimo 2 ripetizioni. Durante la presentazione nessuno può sparare né simulare il tiro, e dopo un guasto di una macchina o una sosta di oltre 10 minuti i piattelli della pedana vengono mostrati di nuovo. Nel Compak® Sporting a batterie la prima batteria della giornata vede i piattelli una volta, la mattina presto: i singoli dalla A alla F, poi i doppietti simultanei delle pedane da 1 a 5; dopo una pausa di oltre 10 minuti i sei singoli vengono mostrati di nuovo. In linea ogni nuovo tiratore in pedana 1 vede il primo piattello del proprio doppietto. In entrambe le discipline i fucili restano aperti e scarichi durante la presentazione e si chiudono solo con il permesso dell'arbitro. Nel Compak® Sporting la simulazione di tiro è vietata fuori dalle pedane di tiro e mentre tira un altro componente della batteria.",
    "disciplines": {
-    "sporting": "Mostrati a ogni pedana al primo tiratore della squadra; fino a 2 ripetizioni per piattello.",
-    "compak": "A squadre: una volta al mattino alla prima squadra (singoli A–F, poi doppietti simultanei); dopo una sosta di oltre 10 minuti si mostrano di nuovo i 6 singoli."
+    "sporting": "Mostrati a ogni pedana al primo tiratore della batteria; fino a 2 ripetizioni per piattello; durante la presentazione niente colpi né simulazione di tiro.",
+    "compak": "A batterie: una volta, la mattina presto, per la prima batteria della giornata (singoli A–F, poi doppietti simultanei); dopo una sosta di oltre 10 minuti si mostrano di nuovo i 6 singoli."
    },
    "alt": [
     "visione dei bersagli"
@@ -956,7 +956,7 @@ window.GLOSSARY_I18N.it = {
   },
   "group": {
    "term_local": "Gruppo (in linea)",
-   "short": "Nel Compak in linea, i tiratori assegnati a un Compak: totale degli iscritti diviso per il numero di Compak.",
+   "short": "Nel Compak® Sporting in linea, i tiratori assegnati a uno stesso campo: totale degli iscritti diviso per il numero di campi.",
    "long": "Nel Compak in linea il numero di tiratori di un gruppo è il totale dei tiratori diviso per il numero di Compak utilizzati. Ogni tiratore del gruppo comincia in pedana 1 e finisce in pedana 5. Un fucile si può prendere in prestito solo da un tiratore esterno al proprio gruppo, e più tiratori dello stesso gruppo non possono usare lo stesso fucile. Il tiratore in ritardo il cui ricorso viene accolto può tirare la serie con un altro gruppo.",
    "disciplines": {
     "compak": "Solo Compak in linea."
@@ -1019,7 +1019,7 @@ window.GLOSSARY_I18N.it = {
   },
   "countback": {
    "term_local": "spareggio a ritroso",
-   "short": "Classificare i punteggi in parità confrontando i risultati sull'ultimo campo o Compak, poi su quello precedente e così via.",
+   "short": "Classifica dei pari merito confrontando i risultati sull'8° percorso o Compak, poi sul 7° e così via fino al 1°.",
    "long": "Dal quarto posto in giù non c'è spareggio: i tiratori in parità sono classificati a pari merito e ordinati confrontando a ritroso i punteggi dall'8° campo (Compak) al 1°. Le squadre in parità sono classificate in base al punteggio complessivo dei loro componenti sull'8° campo o Compak; se la parità persiste, sul 7°, sul 6° e così via fino al 1°. Non esiste spareggio a squadre.",
    "alt": [
     "risalendo le serie",
@@ -1540,8 +1540,8 @@ window.GLOSSARY_I18N.it = {
   },
   "standard-target": {
    "term_local": "piattello standard",
-   "short": "Il comune piattello a cupola, di circa 110 mm di diametro, il più diffuso.",
-   "long": "Il piattello standard è un disco a cupola di circa 110 mm di diametro. È relativamente pesante, quindi mantiene a lungo velocità e linea, e il suo comportamento è il più facile da prevedere. Di solito i principianti cominciano con questo. Nello Sporting™ e nel Compak® Sporting lo standard si alterna con piattelli speciali: midi, mini, battue, rabbit, rocket e altri. Se una macchina lancia un piattello di misura o tipo diversi da quello indicato sul menu, l'arbitro dichiara No Bird.",
+   "short": "Il comune piattello bombato, di circa 108–110 mm di diametro, il più diffuso.",
+   "long": "Il piattello standard è un disco bombato di circa 108–110 mm di diametro. Il suo volo è relativamente facile da leggere, per questo i principianti di solito cominciano da lui; un midi da 90 mm mantiene meglio la velocità. Nello Sporting™ e nel Compak® Sporting lo standard è mescolato a piattelli speciali come midi, mini, battuta e lepre; l'elenco del Compak® Sporting nomina anche il rocket. Nello Sporting™ un piattello di colore, misura o tipo diversi da quelli del menu è un No bird; nel Compak® Sporting è No bird un piattello del colore sbagliato.",
    "alt": [
     "piattello normale"
    ],
@@ -1550,8 +1550,8 @@ window.GLOSSARY_I18N.it = {
   },
   "rocket-target": {
    "term_local": "Rocket",
-   "short": "Piattello dal profilo speciale che mantiene velocità e linea più a lungo dello standard.",
-   "long": "Il rocket somiglia a un piattello standard ma ha un profilo diverso, più aerodinamico. Per questo rallenta in aria in modo più graduale e vola dritto più a lungo, quindi nella parte lontana della traiettoria si muove più velocemente di quanto l'occhio si aspetti. I principianti spesso gli sparano dietro, giudicandolo come un piattello normale. Il regolamento Compak® Sporting cita il rocket tra i piattelli ammessi, mentre l'elenco dello Sporting™ non lo menziona a parte. In pratica forma e nome dipendono dal produttore dei piattelli.",
+   "short": "Piattello speciale citato nell'elenco dei piattelli del Compak® Sporting; la sua forma esatta e il suo volo dipendono dal produttore.",
+   "long": "Il rocket è uno dei piattelli speciali che le regole del Compak® Sporting citano tra quelli ammessi; l'elenco dello Sporting™ non lo nomina a parte. Non esiste una specifica comune, quindi la sua forma e il modo in cui vola dipendono dal produttore. Come per ogni piattello speciale, osservatelo bene durante la presentazione e non date per scontato che voli come uno standard.",
    "disciplines": {
     "sporting": "Non citato a parte nell'elenco dei piattelli Sporting.",
     "compak": "Ammesso espressamente tra i piattelli speciali."
@@ -1646,7 +1646,7 @@ window.GLOSSARY_I18N.it = {
   "looper": {
    "term_local": "parabola",
    "short": "Piattello che descrive un arco in aria e cambia direzione.",
-   "long": "Il looper vola con un ampio arco: sale, si gira in cima e scende spostandosi lateralmente. Per queste traiettorie si usano spesso i battue, che in volo si girano mostrando prima il profilo e poi la faccia. La difficoltà principale è il continuo cambio di direzione e velocità, quindi le canne devono seguire la curva invece di tagliarla. Molti tiratori prendono il looper vicino al punto più alto, dove si muove più lentamente. I nomi cambiano da paese a paese: la chandelle è un'altra traiettoria, più ripida, e in francese «chandelle» indica spesso un piattello che sale quasi in verticale (il teal). Osservate con attenzione la presentazione e scegliete un solo punto di rottura.",
+   "long": "Il looper vola con un ampio arco: sale, si gira in cima e scende spostandosi lateralmente. Di solito è un piattello standard; alcuni tracciatori lanciano su una linea simile anche una battuta, che girandosi mostra allora la faccia. La difficoltà principale è il continuo cambio di direzione e velocità, quindi le canne seguono la curva, davanti e sotto il piattello, invece di tagliarla. Molti tiratori prendono il looper vicino al punto più alto, dove si muove più lentamente. I nomi cambiano da paese a paese: la chandelle è un'altra traiettoria, più ripida, e in francese «chandelle» indica spesso un piattello che sale quasi in verticale (il teal). Osservate con attenzione la presentazione e scegliete un solo punto di rottura.",
    "alt": [
     "looper"
    ],
@@ -1666,7 +1666,7 @@ window.GLOSSARY_I18N.it = {
   "lead": {
    "term_local": "anticipo",
    "short": "La distanza a cui il tiratore punta davanti al piattello perché i pallini lo incontrino.",
-   "long": "Mentre i pallini viaggiano verso il piattello, il piattello continua a muoversi, quindi al momento dello sparo il fucile deve trovarsi davanti a esso. Quella distanza è l'anticipo. Dipende dalla velocità del piattello, dalla sua distanza e dall'angolo con cui vola: i traversoni lunghi richiedono il massimo anticipo, mentre i piattelli in allontanamento diritti quasi nessuno. Il modo in cui un tiratore percepisce l'anticipo è soggettivo, per questo persone diverse lo descrivono in modo diverso. Esistono diversi metodi di anticipo, anticipo mantenuto (maintained lead), pull-away e swing-through, e un istruttore vi aiuterà a scegliere il vostro.",
+   "long": "Mentre i pallini viaggiano verso il piattello, il piattello continua a muoversi, quindi al momento dello sparo il fucile deve trovarsi davanti a esso. Quella distanza è l'anticipo. Dipende dalla velocità del piattello, dalla sua distanza e dall'angolo con cui vola: i traversoni lunghi richiedono il massimo anticipo, mentre i piattelli in allontanamento diritti quasi nessuno. Il modo in cui un tiratore percepisce l'anticipo è soggettivo, per questo persone diverse lo descrivono in modo diverso. Esistono diversi metodi di anticipo, anticipo mantenuto (maintained lead), pull-away, swing-through e ambush (tiro d'attesa), e un istruttore vi aiuterà a scegliere il vostro.",
    "conf": "high",
    "src": "https://shootingpost.it/come-rompere-piu-piattelli/"
   },
@@ -1745,8 +1745,8 @@ window.GLOSSARY_I18N.it = {
   },
   "maintained-lead": {
    "term_local": "anticipo mantenuto",
-   "short": "Metodo di anticipo in cui le canne si muovono davanti al piattello alla sua stessa velocità per tutto il tempo.",
-   "long": "Con l'anticipo mantenuto il tiratore porta subito le canne davanti al piattello e le muove alla stessa velocità, mantenendo l'anticipo necessario, poi spara. Funziona bene sui piattelli lunghi e prevedibili, perché dà il tempo di leggere l'anticipo. La difficoltà è che l'occhio deve restare sul piattello, non sulle canne, altrimenti il movimento si ferma. Ai principianti a volte sembra semplice, ma richiede una buona sensibilità per la velocità. Un istruttore vi suggerirà su quali piattelli fa al caso vostro.",
+   "short": "Metodo di anticipo in cui le canne restano davanti al piattello e, al momento del colpo, si muovono alla sua velocità, mantenendo la distanza.",
+   "long": "Con l'anticipo mantenuto le volate entrano sulla linea del piattello davanti a esso, non dietro. All'inizio si muovono un po' più lentamente del piattello, che si avvicina finché la distanza sembra giusta; poi le canne si muovono alla velocità del piattello, la distanza resta uguale e il colpo parte mentre il fucile è ancora in movimento. Spesso è adatto ai piattelli lunghi e prevedibili, come i traversoni lunghi, perché lascia il tempo di leggere l'anticipo. L'errore tipico è misurare la distanza: l'occhio scivola sulle canne e il fucile rallenta o si ferma. Viene spesso descritto come il metodo più difficile da imparare: chiedete a un istruttore su quali piattelli fa per voi.",
    "alt": [
     "anticipo costante"
    ],
@@ -1826,14 +1826,14 @@ window.GLOSSARY_I18N.it = {
   "warm-up": {
    "term_local": "Riscaldamento",
    "short": "La preparazione prima del tiro: movimento e qualche piattello facile.",
-   "long": "Il riscaldamento prepara corpo e occhi al tiro. Qualche minuto di movimento per collo, spalle, schiena e fianchi riduce il rischio di infortuni e rende più fluido il movimento del fucile. Se il campo lo permette, cominciate la sessione con qualche piattello facile per trovare ritmo e sicurezza prima di passare a quelli difficili. Prima di una gara le regole dipendono dalla disciplina. Nello Sporting™ nessuno può allenarsi sui percorsi di gara, quindi riscaldatevi su altre pedane. Nel Compak® Sporting allenarsi sulle traiettorie di gara è ammesso, ma con tabelle di regolazione diverse; ai campionati continentali e mondiali l'allenamento ufficiale apre solo il sabato prima dell'inizio. Fate imbracciate a secco solo dove è consentito, con il fucile scarico e controllato."
+   "long": "Il riscaldamento risveglia corpo e occhi prima del tiro. Molti istruttori consigliano circa 10–15 minuti di movimento leggero e dinamico per collo, spalle, schiena, anche e caviglie, perché il fucile si muova in modo più fluido; sul riscaldamento nel tiro a volo ci sono poche ricerche, quindi questi consigli vengono dall'esperienza degli istruttori. Se il campo lo permette, potete cominciare la sessione con qualche piattello facile per trovare il ritmo prima di passare a quelli difficili. Prima di una gara le regole dipendono dalla disciplina. Nello Sporting™ nessuno può allenarsi sui percorsi di gara, quindi ci si scalda su altri percorsi. Nel Compak® Sporting allenarsi sulle traiettorie di gara è ammesso, ma con tabelle di impostazione diverse; ai campionati continentali e mondiali l'allenamento ufficiale apre solo il sabato prima dell'inizio. In gara molti istruttori consigliano di scaldarsi senza fucile; l'imbracciata in bianco va fatta a casa o in allenamento, dove è consentita."
   },
   "dry-mounting": {
    "term_local": "imbracciata in bianco",
    "short": "Esercitarsi nell'imbracciata senza sparare, con il fucile scarico e controllato, dove la legge lo consente.",
-   "long": "L'imbracciata a secco è uno dei modi più utili per allenarsi a casa: pochi minuti al giorno rendono il movimento costante. Prima di iniziare assicuratevi che il fucile sia scarico e che nella stanza non ci siano cartucce, e tenete la volata rivolta in una direzione sicura. Molti tiratori usano salvapercussori per proteggere il meccanismo quando fanno scattare a vuoto. Sul campo le regole sono più severe: il tiro simulato lontano dalla postazione di tiro è vietato, e nello Sporting™ imbracciare e seguire la linea immaginaria di un piattello prima della chiamata comporta un avvertimento. Verificate la legge locale sul maneggio delle armi in casa.",
+   "long": "L'imbracciata in bianco consiste nell'esercitare l'imbracciata con il fucile scarico e controllato, senza sparare. Molti istruttori consigliano qualche minuto a casa, dove la legge lo consente, perché il movimento diventi familiare. Prima di iniziare assicuratevi che il fucile sia scarico e che nella stanza non ci siano cartucce, e tenete le canne rivolte in una direzione sicura. Se premete il grilletto a fucile vuoto, usate i salvapercussori (snap caps) per proteggere i percussori, come consiglia il vostro istruttore o armaiolo. Al campo le regole dipendono dalla disciplina. Nello Sporting™ la simulazione di tiro (imbracciare e seguire la linea di un piattello) non è permessa in nessun punto del campo durante una gara. Nel Compak® Sporting è vietata fuori dalle pedane di tiro e mentre tira un altro componente della batteria. Verificate la legge locale sul maneggio delle armi in casa.",
    "disciplines": {
-    "sporting": "Il tiro simulato è vietato dentro e fuori dai campi; avvertimento prima della chiamata, recidive penalizzate.",
+    "sporting": "La simulazione di tiro non è permessa in nessun punto del campo: prima un avvertimento, poi ogni ripetizione vale ZERO sul successivo piattello colpito.",
     "compak": "Il tiro simulato è vietato fuori dalle postazioni di tiro e mentre tira un componente della squadra."
    },
    "alt": [
@@ -2054,7 +2054,7 @@ window.GLOSSARY_I18N.it = {
   "shooter-profile": {
    "term_local": "Profilo del tiratore",
    "short": "La pagina di un tiratore su ClayArena con le sue gare e i dati principali.",
-   "long": "Il profilo del tiratore riunisce le gare di Sporting™ e Compak® Sporting i cui risultati sono su ClayArena e mostra dati principali come precisione e miglior punteggio. Ci si arriva dalla tabella dei risultati di una gara oppure cercando il nome. I nomi sul sito sono scritti in caratteri latini come nei documenti di gara, quindi se un cognome può essere traslitterato in modi diversi, provate più grafie. I dati provengono dagli statini di gara: controllate quindi il vostro statino già sul campo, perché nel profilo comparirà ciò che ha scritto l'arbitro. Il profilo è utile per confrontarsi con se stessi nel corso di una stagione."
+   "long": "Il profilo del tiratore riunisce le gare di Sporting™ e Compak® Sporting i cui risultati sono su ClayArena e mostra dati principali come precisione e miglior punteggio. Ci si arriva dalla tabella dei risultati di una gara oppure cercando il nome. I nomi sono scritti come nei documenti di gara: di solito in caratteri latini nelle gare internazionali, ma nelle gare nazionali anche nell'alfabeto locale, per esempio in cirillico nelle gare ucraine. Se non vi trovate, provate la grafia locale e diverse grafie latine del vostro nome. I dati provengono dagli statini di gara: controllate quindi il vostro statino già sul campo, perché nel profilo comparirà ciò che ha scritto l'arbitro. Il profilo è utile per confrontarsi con se stessi nel corso di una stagione."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2073,8 +2073,8 @@ window.GLOSSARY_I18N.it = {
   },
   "top-10-rate": {
    "term_local": "Percentuale di top 10",
-   "short": "Quanto spesso un tiratore si classifica tra i primi dieci.",
-   "long": "Questo dato nel profilo ClayArena mostra la percentuale di gare in cui un tiratore si è classificato tra i primi dieci. Dipende non solo dal punteggio ma anche dal livello dei partecipanti: un piazzamento tra i primi dieci in un grande evento internazionale è molto più difficile che in una gara di club. Per questo va letto insieme all'elenco delle gare a cui il tiratore ha partecipato. Mostra bene la costanza dei tiratori esperti, ma per un principiante è più utile osservare la propria precisione."
+   "short": "Quante volte un tiratore si classifica tra i primi dieci della sua categoria o della classifica generale.",
+   "long": "Questo dato nel profilo ClayArena mostra la percentuale di gare in cui un tiratore si è classificato tra i primi dieci, nella sua categoria o nella classifica generale. Dipende non solo dal punteggio ma anche dal livello dei partecipanti: un piazzamento tra i primi dieci in un grande evento internazionale è molto più difficile che in una gara di club, e in una categoria piccola con pochi tiratori entrare nei primi dieci è più facile. Per questo va letto insieme all'elenco delle gare a cui il tiratore ha partecipato. Mostra bene la costanza dei tiratori esperti, ma per un principiante è più utile osservare la propria precisione."
   },
   "performance-index": {
    "term_local": "Indice di rendimento",
@@ -2108,13 +2108,13 @@ window.GLOSSARY_I18N.it = {
   },
   "european-firearms-pass": {
    "term_local": "Carta europea d'arma da fuoco",
-   "short": "Documento che un paese UE rilascia ai detentori di armi residenti per viaggiare con le proprie armi in altri paesi UE; valido fino a cinque anni.",
-   "long": "La Carta europea d'arma da fuoco (European Firearms Pass, EFP) è rilasciata da un'autorità del paese UE in cui risiede il detentore dell'arma ed è di solito valida fino a cinque anni. Vi sono iscritte armi specifiche, quindi prima di partire verificate che il fucile che portate sia elencato e che la carta non scada durante il viaggio. I tiratori sportivi con la carta europea e una prova del motivo del viaggio, il più delle volte una lettera d'invito dell'organizzatore, possono di solito portare un fucile in un altro paese UE senza un permesso preventivo separato. I paesi possono comunque avere eccezioni proprie, e la carta non prevale sulle norme locali su porto, custodia e acquisto di cartucce. Non viene rilasciata ai residenti di paesi extra UE; verificate le regole vigenti nei paesi di destinazione e di transito."
+   "short": "Documento che un paese dell'UE, oppure Svizzera, Norvegia, Islanda o Liechtenstein, rilascia ai detentori di armi che vi risiedono per viaggiare con le proprie armi all'interno di quest'area; valido fino a cinque anni.",
+   "long": "La Carta europea d'arma da fuoco (CEAF) è rilasciata dall'ufficio che gestisce i permessi per le armi nel paese in cui vive il detentore e di solito è valida fino a cinque anni. Oltre ai paesi dell'UE, la rilasciano ai propri residenti anche Svizzera, Norvegia, Islanda e Liechtenstein, che applicano le stesse regole europee sulle armi; i residenti di altri paesi non possono ottenerla. Vi sono iscritte armi precise, quindi prima di partire controllate che il fucile che portate sia elencato e che la carta non scada durante il viaggio. I tiratori sportivi con la CEAF e una prova del motivo del viaggio, di solito una lettera d'invito dell'organizzatore, possono in genere portare il proprio fucile in un altro di questi paesi senza un'autorizzazione preventiva separata. I paesi possono però avere eccezioni proprie, e la CEAF non sostituisce le regole locali su porto, custodia e acquisto di cartucce; verificate le regole aggiornate dei paesi di destinazione e di transito."
   },
   "jet-lag": {
    "term_local": "Jet lag",
-   "short": "Disturbi del sonno e della vigilanza dopo un volo attraverso più fusi orari; di solito passano in pochi giorni.",
-   "long": "Dopo un volo attraverso più fusi orari l'orologio biologico non corrisponde all'ora locale: di giorno si ha sonno, di notte si fatica a dormire, e riflessi e concentrazione ne risentono. Per il tiro è importante, perché precisione e concentrazione sono le prime a calare. Per le gare lontane si consiglia quindi di arrivare qualche giorno prima, passare subito all'ora locale, stare alla luce del giorno e bere acqua. Il programma di un tour ClayAway (in preparazione) indicherà gli orari nel fuso orario del luogo, con il fuso indicato, così non confondete il programma. Parlate con un medico di eventuali aiuti per il sonno o farmaci."
+   "short": "Sonno e vigilanza disturbati dopo un viaggio veloce attraverso diversi fusi orari; può durare da qualche giorno a una settimana o più, circa un giorno per fuso dopo un volo verso est.",
+   "long": "Dopo un viaggio veloce attraverso almeno tre fusi orari l'orologio interno è ancora sull'ora di casa: sonno, appetito, umore e vigilanza non coincidono con l'ora locale finché non si adegua. Un'indicazione approssimativa comune è circa un giorno per fuso dopo un volo verso est e circa mezza giornata per fuso dopo un volo verso ovest; le persone sono diverse. La luce del giorno all'ora giusta è il segnale principale che regola l'orologio: dal primo giorno vivete secondo l'ora locale e, dopo un lungo volo verso est, prevedete un giorno libero e leggero prima di tirare per la classifica. La stanchezza dovuta al viaggio stesso (stanchezza da viaggio) è un'altra cosa. Il programma di un tour ClayAway (in preparazione) indicherà gli orari nel fuso del luogo, con il fuso segnato. Parlate di sonniferi, melatonina o altri farmaci con un medico."
   },
   "invitation-letter": {
    "term_local": "Lettera d'invito",
@@ -2153,7 +2153,7 @@ window.GLOSSARY_I18N.it = {
     "calcio regolabile"
    ],
    "conf": "medium",
-   "short": "Nasello di cui si possono regolare altezza e vantaggio."
+   "short": "Nasello del calcio che si può alzare, abbassare o spostare di lato, così che l'occhio guardi esattamente lungo la bindella."
   },
   "grip": {
    "term_local": "impugnatura",
@@ -2189,7 +2189,7 @@ window.GLOSSARY_I18N.it = {
    ],
    "conf": "high",
    "src": "https://www.armietiro.it/glossario-a-c-armi-249",
-   "short": "Il cuscinetto di gomma all'estremità del calcio che attenua il rinculo."
+   "short": "Calciolo in gomma o gel all'estremità del calcio che attenua il rinculo; cambia anche la lunghezza del calcio."
   },
   "chandelle": {
    "term_local": "chandelle",
@@ -2255,12 +2255,12 @@ window.GLOSSARY_I18N.it = {
   "soft-focus": {
    "term_local": "sguardo morbido (soft focus)",
    "conf": "low",
-   "short": "Messa a fuoco rilassata e ampia degli occhi mentre si aspetta sul punto di presa visiva."
+   "short": "Sguardo rilassato e ampio sulla zona in cui comparirà il piattello, mentre gli occhi aspettano al punto di presa, senza fissare i dettagli."
   },
   "hard-focus": {
    "term_local": "sguardo concentrato (hard focus)",
    "conf": "low",
-   "short": "Messa a fuoco netta e intensa sul piattello stesso, spesso sul suo bordo anteriore."
+   "short": "Sguardo nitido sul piattello stesso, spesso sul suo bordo anteriore, dal momento in cui lo si vede chiaramente fino al colpo."
   },
   "leading-edge": {
    "term_local": "bordo anteriore",
@@ -2369,7 +2369,8 @@ window.GLOSSARY_I18N.it = {
   "overhead": {
    "term_local": "sopra la testa",
    "conf": "low",
-   "short": "Piattello che passa direttamente sopra la testa del tiratore, da dietro o da davanti."
+   "short": "Piattello che passa sopra la testa del tiratore; di solito si intende quello che arriva da dietro e si allontana, mentre quello che arriva dal davanti è un piattello passante alto (driven).",
+   "long": "Un piattello sopra la testa che arriva da dietro passa sopra la vostra schiena e si allontana. Si vede tardi, per questo molti istruttori consigliano di guardarsi indietro già prima della chiamata. Imbracciate mentre vi passa sopra, sparate quando le volate raggiungono il suo bordo anteriore e continuate a muovere il fucile dopo il colpo. I nomi variano: alcuni istruttori dicono «overhead» anche per un piattello che arriva dal davanti, che questo glossario chiama piattello passante alto (driven); nel dubbio chiedete."
   },
   "bolting-rabbit": {
    "term_local": "lepre improvvisa",
@@ -2404,7 +2405,7 @@ window.GLOSSARY_I18N.it = {
   "interpreter": {
    "term_local": "interprete",
    "conf": "low",
-   "short": "Una persona che traduce il parlato tra istruttore, arbitro e tiratori durante un tour; conosce la terminologia del tiro."
+   "short": "Persona che fa da interprete tra istruttore, arbitro e tiratori, per esempio negli allenamenti e nel programma di un tour, e conosce la terminologia del tiro."
   },
   "chuchotage": {
    "term_local": "chuchotage",
@@ -2424,7 +2425,7 @@ window.GLOSSARY_I18N.it = {
   "smoked-it": {
    "term_local": "polverizzato",
    "conf": "low",
-   "short": "Gergo da istruttori per un colpo ben centrato che riduce il piattello in polvere; non è la «sola polvere o fumo» del regolamento, che vale zero."
+   "short": "Gergo degli istruttori per un piattello ridotto in polvere. Per le regole un piattello ridotto in polvere in tutto o in parte è BUONO; un piattello rimasto intero che lascia solo polvere o fumo, senza un pezzo visibile, è ZERO."
   },
   "peg": {
    "term_local": "peg",
@@ -2439,7 +2440,7 @@ window.GLOSSARY_I18N.it = {
   "english-sporting": {
    "term_local": "English Sporting",
    "conf": "low",
-   "short": "La forma britannica dello sporting con regole CPSA, di solito con doppi e fucile imbracciato ammesso."
+   "short": "La forma britannica dello sporting, organizzata in Inghilterra dalla CPSA accanto allo Sporting™ FITASC; ha regole proprie: le coppie sono frequenti e i tiratori spesso partono con il fucile già imbracciato."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2469,7 +2470,7 @@ window.GLOSSARY_I18N.it = {
   "ambush": {
    "term_local": "tiro d'attesa (ambush)",
    "conf": "low",
-   "short": "Metodo in cui le canne aspettano in un punto davanti al piattello e il colpo parte quando il piattello arriva, con poco o nessun brandeggio."
+   "short": "Metodo in cui le canne aspettano ferme in un punto davanti al piattello e si preme il grilletto prima che il piattello ci arrivi, così che entri nella rosata."
   },
   "instinctive-shooting": {
    "term_local": "tiro istintivo",
@@ -2479,7 +2480,7 @@ window.GLOSSARY_I18N.it = {
   "national-federation": {
    "term_local": "federazione nazionale",
    "conf": "low",
-   "short": "L'organo che governa lo sport in un paese; è membro della FITASC, omologa i campi nazionali e abilita gli arbitri."
+   "short": "L'ente che governa lo sport in un paese: riunisce club e tiratori, organizza gare nazionali e corsi per arbitri e rappresenta il paese nella FITASC."
   },
   "blazed-target": {
    "term_local": "piattello con cupola colorata",
@@ -2495,6 +2496,348 @@ window.GLOSSARY_I18N.it = {
    "term_local": "lancio manuale",
    "conf": "low",
    "short": "Lancio del piattello da parte di una persona (puller o arbitro) che preme un pulsante alla chiamata del tiratore."
+  },
+  "anti-doping": {
+   "term_local": "antidoping",
+   "alt": [
+    "controllo antidoping"
+   ],
+   "conf": "high",
+   "short": "Regole e controlli contro sostanze e metodi proibiti nello sport; le regole internazionali e la Lista delle sostanze proibite annuale vengono dall'Agenzia mondiale antidoping (WADA).",
+   "long": "Ai campionati e nelle grandi gare un tiratore può essere sottoposto a un controllo antidoping. La WADA pubblica ogni anno, di solito verso settembre, una nuova Lista delle sostanze proibite, valida dal 1° gennaio. Nel tiro i betabloccanti sono proibiti sempre. Gli stimolanti e il THC (cannabis) sono proibiti in gara, e il periodo «in gara» inizia alle 23:59 del giorno prima della competizione. Anche un farmaco prescritto dal medico può essere proibito: verificatelo su Global DRO o presso la vostra agenzia nazionale antidoping e, se vi serve, chiedete per tempo un'esenzione a fini terapeutici (TUE). Gli integratori possono essere contaminati: scegliete prodotti i cui lotti sono controllati da un laboratorio indipendente. Questo non è un consiglio medico: parlatene con il vostro medico."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "esenzione a fini terapeutici (TUE)",
+   "alt": [
+    "TUE"
+   ],
+   "conf": "high",
+   "short": "Autorizzazione ufficiale per un atleta a usare, per motivi medici, un farmaco altrimenti proibito; si chiede in anticipo.",
+   "long": "La sola ricetta non basta: una sostanza proibita resta proibita anche se l'ha prescritta un medico. Per questo un tiratore che ha bisogno di un tale farmaco, per esempio un betabloccante per la pressione alta, il ritmo cardiaco o l'emicrania, chiede per tempo una TUE, di solito all'agenzia nazionale antidoping; la federazione nazionale indica l'ente competente. Non sospendete da soli un farmaco prescritto: parlate con il medico, molto prima della gara, di un'alternativa consentita o di una TUE. Questo non è un consiglio medico."
+  },
+  "beta-blocker": {
+   "term_local": "betabloccante",
+   "alt": [
+    "beta-bloccante"
+   ],
+   "conf": "high",
+   "short": "Farmaco per il cuore che rallenta il battito e riduce il tremore; secondo la lista WADA nel tiro è proibito sempre, in gara e fuori gara.",
+   "long": "Esempi sono propranololo, atenololo, bisoprololo e metoprololo. Sono proibiti negli sport di precisione perché un cuore più lento e meno tremore possono rendere il fucile più fermo. La lista WADA nomina il tiro attraverso la federazione olimpica (ISSF) e il tiro paralimpico (IPC), non la FITASC; considerate comunque i betabloccanti proibiti anche nello Sporting™ e nel Compak® Sporting: le agenzie nazionali antidoping possono fare controlli nelle gare nazionali, gli organizzatori possono applicare la lista WADA e molti tiratori gareggiano anche in eventi ISSF. Se un medico vi ha prescritto un betabloccante, non sospendetelo da soli; chiedete per tempo un'alternativa consentita o una TUE. Questo non è un consiglio medico."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Servizio online di verifica dei farmaci gestito da diverse agenzie nazionali antidoping: indica se un farmaco venduto nei loro paesi è proibito nello sport.",
+   "long": "Global DRO contiene solo i farmaci venduti nei paesi partner, come Regno Unito, Stati Uniti, Canada e Svizzera. Cercate per principio attivo, non solo per nome commerciale. Se il vostro farmaco non c'è, chiedete alla vostra agenzia nazionale antidoping o alla federazione. Ricontrollate ogni anno, perché la Lista delle sostanze proibite della WADA cambia."
+  },
+  "box-breathing": {
+   "term_local": "respirazione quadrata",
+   "alt": [
+    "box breathing"
+   ],
+   "conf": "medium",
+   "short": "Schema di respirazione: inspirare, trattenere, espirare e trattenere, contando fino a 4 ogni volta; un'opzione da provare, poco studiata nello sport.",
+   "long": "Negli studi fatti finora la respirazione quadrata non è risultata migliore di altri modi di respirare; in uno studio ha funzionato meglio semplicemente espirare più a lungo di quanto si inspira. Consideratela quindi un'opzione, non una regola. La respirazione lenta va bene prima della pedana e tra una pedana e l'altra. Subito prima della chiamata molti istruttori consigliano solo un'espirazione naturale, perché una respirazione molto lenta può rallentare la reazione al piattello. Se vi gira la testa, tornate alla respirazione normale. Questo non è un consiglio medico."
+  },
+  "quiet-eye": {
+   "term_local": "quiet eye (sguardo fermo)",
+   "alt": [
+    "occhio quieto"
+   ],
+   "conf": "medium",
+   "short": "L'ultimo sguardo stabile sul piattello prima del movimento; nei tiratori esperti di solito inizia prima e dura di più.",
+   "long": "I ricercatori misurano il quiet eye come l'ultimo sguardo stabile prima che inizi un movimento. Rispetto ai tiratori meno esperti, i tiratori di vertice di fossa e skeet lo iniziano prima e lo tengono più a lungo, e di solito è più lungo sui piattelli colpiti che su quelli mancati. Sotto ansia spesso si accorcia. Non esiste un numero magico di millisecondi da raggiungere: nel tiro a volo significa vedere il piattello presto e chiaramente e tenerci gli occhi sopra per tutto il colpo. La maggior parte dei dati viene dalla fossa olimpica e dallo skeet; probabilmente vale anche per lo Sporting™ e il Compak® Sporting."
+  },
+  "self-talk": {
+   "term_local": "dialogo interno",
+   "alt": [
+    "self-talk"
+   ],
+   "conf": "medium",
+   "short": "Quello che vi dite, a voce alta o nella testa; nello sport spesso brevi istruzioni come «guarda il piattello» o «morbido».",
+   "long": "In molti studi gli atleti che si erano allenati su cosa dirsi hanno ottenuto risultati un po' migliori. Nei compiti di precisione le istruzioni brevi hanno aiutato più degli incoraggiamenti come «dai». Dite cosa fare, non cosa evitare: «resta sulla linea» invece di «non fermare il fucile». In pedana di solito è più adatta un'istruzione breve; le frasi motivazionali vanno meglio nel tragitto tra una pedana e l'altra. Gli studi non riguardano il tiro a volo; probabilmente valgono anche per lo Sporting™ e il Compak® Sporting."
+  },
+  "cue-word": {
+   "term_local": "parola chiave",
+   "alt": [
+    "parola guida"
+   ],
+   "conf": "medium",
+   "short": "Istruzione brevissima, come «bordo anteriore» o «morbido», che dirige l'attenzione su una sola cosa prima del colpo.",
+   "long": "Molti istruttori consigliano di scegliere in allenamento, con il proprio istruttore, due o tre parole chiave e di usare le stesse parole in gara. Le parole chiave sul piattello o sulla sua linea, come «guardalo» o «resta sulla linea», di solito vanno meglio in pedana delle indicazioni sul corpo come «gomito su», che appartengono all'allenamento. Molti tiratori dicono la parola sempre nello stesso momento della routine, subito prima della chiamata. Un interprete che traduce la parola chiave di un istruttore può tenere un solo equivalente breve per tutta la sessione, così che il tiratore lo usi nel proprio dialogo interno."
+  },
+  "imagery": {
+   "term_local": "visualizzazione",
+   "alt": [
+    "allenamento mentale",
+    "imagery"
+   ],
+   "conf": "medium",
+   "short": "Ripetizione mentale: vedere e sentire un colpo nella mente, alla velocità del colpo reale e con i propri occhi, senza eseguirlo.",
+   "long": "Gli studi mostrano che la visualizzazione di solito aiuta, soprattutto insieme all'allenamento reale, ma nessuno sa esattamente quanto. Sembra funzionare meglio quando è vicina alla realtà: la stessa pedana, gli stessi piattelli, la velocità reale e il proprio punto di vista. Dopo la presentazione molti tiratori ripassano ogni piattello una o due volte: punto di attesa, punto di presa, il fucile che entra sulla linea, la rottura. Ripassate con la testa, non con il fucile: imbracciare e seguire la linea di un piattello è una simulazione di tiro, che le regole limitano. La ricerca non riguarda il tiro a volo; probabilmente vale anche per lo Sporting™ e il Compak® Sporting."
+  },
+  "choking": {
+   "term_local": "crollo sotto pressione",
+   "alt": [
+    "choking"
+   ],
+   "conf": "medium",
+   "short": "Tirare nettamente sotto il proprio livello abituale a causa della pressione, spesso quando si inizia a guidare consapevolmente un gesto che di solito va da solo.",
+   "long": "Da non confondere con lo strozzatore della canna. Sotto pressione un tiratore può iniziare a controllare passo per passo l'imbracciata o il movimento, e la preoccupazione allontana gli occhi dal piattello. Segnali: un ritmo che cambia, l'imbracciata controllata, gli occhi sulla canna o sul mirino, i punteggi tenuti d'occhio. Cosa può aiutare: la solita routine e il solito ritmo, una sola parola chiave semplice sul piattello, obiettivi di processo e allenamento sotto una pressione che cresce poco a poco. La maggior parte delle ricerche viene da altri sport e dalla fossa olimpica e dallo skeet; probabilmente vale anche per lo Sporting™ e il Compak® Sporting. Se la pressione rovina spesso le vostre gare, uno psicologo dello sport può aiutarvi."
+  },
+  "reset-routine": {
+   "term_local": "routine di ripartenza",
+   "alt": [
+    "reset"
+   ],
+   "conf": "low",
+   "short": "Breve routine fissa per ripartire: dopo un piattello mancato (espirazione, una correzione, routine successiva) o quando si viene disturbati prima della chiamata.",
+   "long": "Una ripartenza tipica dopo un errore dura circa 5–10 secondi: mettere il fucile in sicurezza come richiedono le regole, espirare lentamente una volta, darsi una correzione in due o tre parole, vedere il colpo giusto e poi iniziare la routine successiva. Il «perché» va lasciato a dopo la serie: analizzare un gesto passo per passo sotto pressione può disturbarlo. La ripartenza deve stare nel tempo previsto tra i piattelli. Se venite disturbati prima della chiamata, molti istruttori consigliano di espirare e ricominciare la routine. La stessa ripartenza può aiutare dopo una decisione dell'arbitro che non vi piace."
+  },
+  "mobility": {
+   "term_local": "mobilità",
+   "alt": [
+    "mobilità articolare"
+   ],
+   "conf": "medium",
+   "short": "Quanto liberamente si muovono le articolazioni: poter girare la testa, alzare le braccia e ruotare il busto quanto serve al colpo, senza sforzo.",
+   "long": "Per un tiratore le zone chiave sono il collo (la testa si appoggia sul calcio), le spalle (l'imbracciata), la parte alta della schiena e le anche, che ruotano il corpo con il piattello, e le caviglie, che tengono stabile la posizione. Molti istruttori consigliano prima di tirare movimenti dinamici dolci, come rotazioni lente della testa, cerchi con le spalle e rotazioni del busto, e lasciano lo stretching statico lungo a dopo il tiro. Muovetevi con calma e fermatevi se fa male. In caso di infortunio o dolore che dura, preparate il vostro programma con un medico o un fisioterapista. Questo non è un consiglio medico."
+  },
+  "gun-rental": {
+   "term_local": "noleggio del fucile",
+   "alt": [
+    "fucile a noleggio"
+   ],
+   "conf": "medium",
+   "short": "Usare a pagamento un fucile del campo, spesso insieme a una prima lezione, cartucce e protezioni, per tirare senza comprare un fucile."
+  },
+  "third-party-insurance": {
+   "term_local": "assicurazione di responsabilità civile",
+   "alt": [
+    "RC"
+   ],
+   "conf": "high",
+   "short": "Assicurazione che copre i danni che potreste causare ad altre persone o ai loro beni; molti paesi o club la richiedono ai tiratori."
+  },
+  "proof-mark": {
+   "term_local": "punzone del Banco di prova",
+   "alt": [
+    "marchio di prova",
+    "Banco di prova"
+   ],
+   "conf": "high",
+   "short": "Punzone che un Banco di prova ufficiale imprime su un'arma dopo averla provata con una carica maggiorata; in molti paesi questa prova è obbligatoria."
+  },
+  "club-membership": {
+   "term_local": "iscrizione al club",
+   "alt": [
+    "tessera del club",
+    "quota associativa"
+   ],
+   "conf": "high",
+   "short": "Iscrizione a un club di tiro: di solito una quota annuale che spesso dà piattelli a prezzo ridotto e accesso ad allenamenti e gare sociali."
+  },
+  "reloaded-cartridge": {
+   "term_local": "cartuccia ricaricata",
+   "conf": "high",
+   "short": "Bossolo già sparato riempito di nuovo con polvere, borra e pallini, spesso in casa; non ammessa nelle gare di Sporting™ e Compak® Sporting."
+  },
+  "taster-session": {
+   "term_local": "lezione di prova",
+   "alt": [
+    "prova gratuita"
+   ],
+   "conf": "medium",
+   "short": "Sessione introduttiva per principianti in un campo: un istruttore, il fucile del campo, cartucce e piattelli per provare a tirare per la prima volta."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "ipoacusia da rumore",
+   "alt": [
+    "perdita dell'udito da rumore"
+   ],
+   "conf": "high",
+   "short": "Danno graduale e permanente all'orecchio interno causato da suoni forti come gli spari; spesso inizia dai suoni acuti, e l'udito perso non torna."
+  },
+  "tinnitus": {
+   "term_local": "acufene",
+   "alt": [
+    "fischio alle orecchie"
+   ],
+   "conf": "high",
+   "short": "Fischio, ronzio o sibilo nelle orecchie senza una fonte esterna; dopo il tiro spesso è un primo segnale che la protezione dell'udito non bastava."
+  },
+  "double-hearing-protection": {
+   "term_local": "doppia protezione dell'udito",
+   "conf": "medium",
+   "short": "Tappi auricolari e cuffie portati insieme per un margine in più, soprattutto per i bambini e nelle pedane rumorose o coperte."
+  },
+  "presbyopia": {
+   "term_local": "presbiopia",
+   "conf": "high",
+   "short": "Calo della vista da vicino legato all'età: verso i 40 anni vedere da vicino diventa più difficile mentre la vista da lontano può restare buona; il mirino può apparire sfocato."
+  },
+  "lead-hygiene": {
+   "term_local": "igiene del piombo",
+   "conf": "medium",
+   "short": "Abitudini che riducono il piombo che entra nel corpo: lavarsi mani e viso, non mangiare né fumare in pedana, abiti riservati al tiro."
+  },
+  "heat-exhaustion": {
+   "term_local": "esaurimento da calore",
+   "alt": [
+    "colpo di calore (iniziale)"
+   ],
+   "conf": "medium",
+   "short": "Surriscaldamento del corpo con stanchezza, capogiri, mal di testa o nausea; servono ombra, acqua, raffreddamento e riposo, e un aiuto medico se non passa presto."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "tiro al piccione",
+   "alt": [
+    "tiro al piccione vivo"
+   ],
+   "conf": "high",
+   "short": "Tiro storico a piccioni vivi liberati da cassette davanti al tiratore, antenato del tiro a volo; nel 2003 la FITASC ha sospeso tutte le gare con animali vivi come bersaglio."
+  },
+  "glass-ball": {
+   "term_local": "sfera di vetro",
+   "alt": [
+    "palla di vetro"
+   ],
+   "conf": "medium",
+   "short": "Sfera di vetro lanciata in aria come bersaglio nell'Ottocento, prima alternativa agli uccelli vivi; in seguito l'ha sostituita il piattello."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Federazione internazionale di tiro sportivo"
+   ],
+   "conf": "high",
+   "short": "La International Shooting Sport Federation, che governa le discipline olimpiche di tiro, tra cui la fossa olimpica e lo skeet; lo Sporting™ e il Compak® Sporting fanno capo alla FITASC."
+  },
+  "hydration": {
+   "term_local": "idratazione",
+   "conf": "high",
+   "short": "Bere abbastanza acqua; al campo significa piccoli sorsi regolari durante la giornata, non solo quando si ha molta sete."
+  },
+  "travel-fatigue": {
+   "term_local": "stanchezza da viaggio",
+   "conf": "medium",
+   "short": "Stanchezza dovuta al viaggio stesso: muscoli rigidi, poco sonno e aria secca; a differenza del jet lag non dipende dai fusi orari e spesso passa con il riposo."
+  },
+  "referee-certificate": {
+   "term_local": "tessera di arbitro",
+   "alt": [
+    "abilitazione di arbitro",
+    "patentino di arbitro"
+   ],
+   "conf": "medium",
+   "short": "Il certificato o la tessera che una federazione nazionale rilascia dopo un corso e un esame e che dà il diritto di arbitrare; l'arbitro capo di una gara internazionale ha bisogno di una qualifica FITASC."
+  },
+  "assistant-referee": {
+   "term_local": "assistente dell'arbitro",
+   "alt": [
+    "aiuto arbitro"
+   ],
+   "conf": "medium",
+   "short": "Aiutante dell'arbitro; nello Sporting™ una persona senza la necessaria tessera di arbitro può svolgere solo questo ruolo, e solo con il consenso preventivo della giuria."
+  },
+  "coaching-qualification": {
+   "term_local": "qualifica di istruttore",
+   "alt": [
+    "brevetto di istruttore"
+   ],
+   "conf": "medium",
+   "short": "Prova che una persona ha completato una formazione da istruttore; chi la rilascia, i livelli e l'obbligatorietà dipendono dal paese."
+  },
+  "volunteer": {
+   "term_local": "volontario",
+   "conf": "high",
+   "short": "Persona che aiuta gratuitamente in una gara: iscrizioni, caricamento delle macchine, parcheggio, foto, pulizia o, dove le regole lo permettono, segnapunti sotto il controllo dell'arbitro."
+  },
+  "tour-package": {
+   "term_local": "pacchetto del tour",
+   "alt": [
+    "pacchetto"
+   ],
+   "conf": "medium",
+   "short": "Tutto ciò che un tiratore comprerà con un unico pagamento in un tour ClayAway: allenamento nei campi di tiro, alloggio, trasferimenti, un programma comune e, se serve, un interprete (ClayAway è in preparazione)."
+  },
+  "scoreboard": {
+   "term_local": "tabellone dei risultati",
+   "alt": [
+    "tabellone"
+   ],
+   "conf": "high",
+   "short": "Il tabellone dei risultati: una lavagna o uno schermo dove compaiono i punteggi di serie e i totali dei tiratori durante e dopo una gara."
+  },
+  "spectator-area": {
+   "term_local": "area spettatori",
+   "conf": "high",
+   "short": "Lo spazio che l'organizzatore riserva al pubblico, di solito dietro la pedana o dietro una recinzione o una corda, da cui si può guardare, fotografare e filmare in sicurezza."
+  },
+  "derogation": {
+   "term_local": "deroga",
+   "conf": "medium",
+   "short": "Permesso, in casi particolari, di discostarsi da una regola, per esempio gareggiare in una categoria diversa da quella data dall'età; chiedete alla vostra federazione nazionale."
+  },
+  "pitch": {
+   "term_local": "inclinazione del calciolo",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low",
+   "short": "L'angolo con cui è tagliata l'estremità del calcio (il calciolo) rispetto alle canne; decide se il calcio poggia piatto sulla spalla o preme con la punta o il tallone."
+  },
+  "gas-operated": {
+   "term_local": "a recupero di gas",
+   "alt": [
+    "semiautomatico a gas"
+   ],
+   "conf": "high",
+   "short": "Sistema semiautomatico in cui parte dei gas della polvere ricarica l'arma; distribuisce il rinculo in un tempo più lungo, per questo molti tiratori lo sentono più morbido."
+  },
+  "ladies-cut": {
+   "term_local": "taglio da donna",
+   "conf": "medium",
+   "short": "Taglio di un gilet o di una giacca da tiro che tiene conto del seno e della larghezza delle spalle, così che l'imbottitura stia dove appoggia il calcio."
+  },
+  "ladies-day": {
+   "term_local": "giornata dedicata alle donne",
+   "alt": [
+    "ladies' day"
+   ],
+   "conf": "medium",
+   "short": "Giornata al club in cui le donne si allenano o provano il tiro, spesso con un istruttore e fucili in prestito."
+  },
+  "snap-cap": {
+   "term_local": "salvapercussore",
+   "alt": [
+    "snap cap"
+   ],
+   "conf": "high",
+   "short": "Finta cartuccia che protegge i percussori quando si preme il grilletto a fucile vuoto; per l'allenamento a secco, come consiglia un istruttore o un armaiolo."
+  },
+  "blot-out": {
+   "term_local": "coprire il piattello (blot out)",
+   "conf": "low",
+   "short": "Lasciare che le canne coprano il piattello al momento del colpo, come accade spesso sui piattelli in arrivo e su quelli passanti alti; di solito è voluto, non un errore."
+  },
+  "show-pair": {
+   "term_local": "show pair",
+   "conf": "low",
+   "short": "Nome britannico della presentazione di una coppia di piattelli prima del tiro; nei termini FITASC, la presentazione di un doppietto."
+  },
+  "perfect-round": {
+   "term_local": "serie piena",
+   "alt": [
+    "25 su 25"
+   ],
+   "conf": "medium",
+   "short": "Una serie senza errori: nello Sporting™ e nel Compak® Sporting tutti i 25 piattelli colpiti; un profilo ClayArena conta quante ne ha un tiratore."
+  },
+  "visitors-permit": {
+   "term_local": "permesso per visitatori (visitor's permit)",
+   "conf": "low",
+   "short": "Permesso britannico che consente a un visitatore dall'estero di detenere un fucile in Gran Bretagna; lo chiede alla polizia locale un garante che vive lì."
   }
  }
 };

@@ -1,0 +1,898 @@
+{
+  "id": "rules-doubles",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "certified FITASC referee",
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js (FITASC edition 01/01/2025, file of 2026-03-29), compak.js (edition 01/01/2025, file of 2026-02-02)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "rules-doubles"
+    ],
+    "interpreter": [
+      "sporting-singles-doubles",
+      "compak-singles-doubles"
+    ]
+  },
+  "terms": [
+    "double",
+    "zero-zero",
+    "single-target",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "double-discharge",
+    "target-menu",
+    "sporting",
+    "compak-sporting",
+    "one",
+    "zero",
+    "no-bird",
+    "target-presentation",
+    "trap",
+    "trajectory",
+    "red-card"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch4-single-target"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-trajectory-variety"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-double-on-report"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-double-on-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-rafale-double"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-simultaneous-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-doubles-general"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-one-cartridge-per-target"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-double-discharge"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-gun-failure-first-shot"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-two-with-one-shot"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-two-with-one-simultaneous"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-target-zero"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-refusal"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-doubles"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-target-no-bird-actions"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-two-with-one-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-simultaneous-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-doubles-composition"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-trajectories-ethics"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-double-chain"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-refusing-target"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — Parcours de Chasse – Sporting™ referees' quick guide for decision making (original of 8 June 2026)",
+        "uk": "FITASC — короткий довідник суддів Parcours de Chasse – Sporting™ для ухвалення рішень (оригінал від 8 червня 2026)"
+      },
+      "url": "https://api.fitasc.com/userfiles/files/rglts_sportifs/pc/20260608_pc_quick_ref_quide.pdf",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — Compak® Sporting referees' quick guide for decision making (original of 3 November 2025)",
+        "uk": "FITASC — короткий довідник суддів Compak® Sporting для ухвалення рішень (оригінал від 3 листопада 2025)"
+      },
+      "url": "https://www.fitasc.com/upload/images/reglements/20260102_cs_quick_ref_quide.pdf",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Doubles: how they are shot and scored",
+    "uk": "Дуплети: як їх стріляють і зараховують"
+  },
+  "summary": {
+    "en": "The kinds of doubles in {{tm:sporting}} and {{tm:compak}}, how many cartridges you may fire at each target, and what happens when one shot breaks both.",
+    "uk": "Види дуплетів у {{tm:sporting}} і {{tm:compak}}, скільки патронів можна випустити по кожній мішені і що буває, коли один постріл розбив обидві."
+  },
+  "body": [
+    {
+      "k": "rules-doubles-p1",
+      "t": "p",
+      "en": "A {{term:double|double}} is two targets shot on one call. Both disciplines have doubles on report and simultaneous doubles; only {{tm:sporting}} also has the rafale. Some scoring rules differ. When both targets of a double are scored as lost, this is called {{term:zero-zero|zero-zero}}.",
+      "uk": "{{term:double|Дуплет}} — дві мішені, які стріляють за одну команду. В обох дисциплінах є дуплети на постріл і одночасні дуплети; лише в {{tm:sporting}} є ще рафаль. Частина правил зарахування різна. Коли обидві мішені дуплета зараховано як промах, це називають {{term:zero-zero|zero-zero}}."
+    },
+    {
+      "k": "sporting-singles-doubles-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch4-single-target",
+        "compak:ch3-trajectory-variety"
+      ],
+      "anchor": "sporting-singles-doubles",
+      "en": "First, singles. In both disciplines you may fire two cartridges at a {{term:single-target|single}}, so a first-barrel miss can still be saved with the second. A layout must leave time for two shots at each single.",
+      "uk": "Спершу про одиночні мішені. В обох дисциплінах по {{term:single-target|одиночній мішені}} можна випустити два патрони, тож промах першим стволом ще можна виправити другим. Майданчик має залишати досить часу на два постріли по кожній одиночній."
+    },
+    {
+      "k": "rules-doubles-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch4-double-on-report",
+        "compak:ch3-double-on-report"
+      ],
+      "en": "In a {{term:double-on-report|double on report}}, your call releases the first target and your shot at it releases the second. In a {{term:simultaneous-double|simultaneous double}}, both targets leave together, and you may take them in either order.",
+      "uk": "У {{term:double-on-report|дуплеті на постріл}} ваша команда запускає першу мішень, а постріл по ній — другу. В {{term:simultaneous-double|одночасному дуплеті}} обидві мішені вилітають разом, і стріляти їх можна в будь-якому порядку."
+    },
+    {
+      "k": "rules-doubles-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "Kinds of doubles",
+      "uk": "Види дуплетів",
+      "sporting": {
+        "rule_ref": "sporting:ch4-rafale-double",
+        "en": "Three kinds: on report, simultaneous (from one or two traps) and {{term:rafale-double|rafale}}. In a rafale, two targets leave the same trap on the same line, one after the other.",
+        "uk": "Три види: на постріл, одночасний (з однієї чи двох машинок) і {{term:rafale-double|рафаль}}. У рафалі дві мішені вилітають з однієї машинки по тій самій траєкторії, одна за одною."
+      },
+      "compak": {
+        "rule_ref": "compak:ch3-simultaneous-double",
+        "en": "Two kinds: on report and simultaneous. A simultaneous double comes from two different traps. There is no rafale.",
+        "uk": "Два види: на постріл і одночасний. Одночасний дуплет — лише з двох різних машинок. Рафалю немає."
+      }
+    },
+    {
+      "k": "sporting-singles-doubles-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch4-double-on-report",
+      "en": "In {{tm:sporting}} the second target of a double on report leaves 0 to 3 seconds after your shot at the first. In a rafale it follows as soon as the trap has reloaded. A double only uses targets already thrown as singles on that stand, so you have seen them fly.",
+      "uk": "У {{tm:sporting}} друга мішень дуплета на постріл вилітає через 0–3 секунди після вашого пострілу по першій. У рафалі вона летить, щойно машинка перезарядиться. Дуплети в {{tm:sporting}} беруть лише з тих мішеней, що вже летіли як одиночні на цьому місці, тож ви їх уже бачили в польоті."
+    },
+    {
+      "k": "rules-doubles-cmp2",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "anchor": "compak-singles-doubles",
+      "en": "Cartridges per target",
+      "uk": "Патрони на мішень",
+      "sporting": {
+        "rule_ref": "sporting:ch4-doubles-general",
+        "en": "Two cartridges for the whole double, and both may go at one target.",
+        "uk": "Два патрони на весь дуплет, і обидва можна випустити по одній мішені."
+      },
+      "compak": {
+        "rule_ref": "compak:ch3-one-cartridge-per-target",
+        "en": "One cartridge per target. Firing both at the first target is not allowed; doing it deliberately is scored zero-zero.",
+        "uk": "Один патрон на мішень. Стріляти обома по першій мішені заборонено; за навмисний подвійний постріл — zero-zero."
+      }
+    },
+    {
+      "k": "rules-doubles-accidental",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch7-double-discharge",
+        "compak:ch20-gun-failure-first-shot"
+      ],
+      "en": "Both barrels firing together by accident is not a deliberate double shot: it is a gun fault, a {{term:double-discharge|double discharge}}. How it is scored is in {{lesson:rules-malfunctions}}.",
+      "uk": "Одночасний постріл з обох стволів випадково — це не навмисний подвійний постріл, а несправність рушниці ({{term:double-discharge|double discharge}}). Як її зараховують — у {{lesson:rules-malfunctions}}."
+    },
+    {
+      "k": "rules-doubles-cmp3",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "One shot breaks both targets",
+      "uk": "Один постріл розбив обидві мішені",
+      "sporting": {
+        "rule_ref": "sporting:ch6-two-with-one-shot",
+        "en": "When your shot itself breaks both targets, both count: 'one' and 'one', in any kind of double. On report, the first target or its pieces may instead smash the second before your second shot. That is a No Bird: the double is repeated and the first result kept.",
+        "uk": "Коли сам ваш постріл розбив обидві мішені, це «one» і «one» — у будь-якому дуплеті. А буває, що в дуплеті на постріл другу мішень розбиває перша мішень чи її уламки ще до вашого другого пострілу. Це No Bird: дуплет повторюють, а результат першої зберігають."
+      },
+      "compak": {
+        "rule_ref": "compak:ch3-two-with-one-simultaneous",
+        "en": "On report: the first result stands, the second is a No Bird, and the double is shot again. Simultaneous: No Bird, shoot the double again; if it happens a third time, both targets are scored zero.",
+        "uk": "На постріл: результат першої зберігають, друга — No Bird, і дуплет стріляють знову. Одночасний: No Bird, дуплет стріляють знову; якщо так станеться втретє — обидві мішені zero."
+      }
+    },
+    {
+      "k": "rules-doubles-cmp4",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "Not firing at a double",
+      "uk": "Не стріляли по дуплету",
+      "sporting": {
+        "rule_ref": "sporting:ch6-target-zero",
+        "en": "No shot at a simultaneous or rafale double without a valid reason: zero-zero. On report, a first target you do not fire at is zero, and the double is thrown again so that you can shoot the second (referees' quick guide).",
+        "uk": "Не стріляли по одночасному дуплету чи рафалю без поважної причини: zero-zero. На постріл: якщо ви не стріляли по першій мішені, вона — zero, а дуплет запускають знову, щоб ви відстріляли другу (довідник для суддів)."
+      },
+      "compak": {
+        "rule_ref": "compak:ch21-refusal",
+        "en": "Refusing a simultaneous double: zero-zero. On report: a refused first target is zero; the double is thrown again so that you can shoot the second, and only the second is scored.",
+        "uk": "Відмова від одночасного дуплета: zero-zero. На постріл: за відмову від першої мішені — zero; дуплет запускають знову, щоб ви відстріляли другу, і зараховують лише її."
+      }
+    },
+    {
+      "k": "sporting-singles-doubles-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch6-nobird-target-doubles",
+        "compak:ch20-target-no-bird-actions"
+      ],
+      "en": "An irregular target is one that makes the referee call a No Bird, for example a target thrown broken, off its line or from the wrong trap ({{lesson:rules-hit-and-no-bird}}). In a double on report, an irregular first target means the whole double is thrown again. If it is the second target that is irregular, you shoot the double again and your result on the first is kept. The same applies if the first target or its pieces smash the second before your second shot. In a simultaneous double, and in {{tm:sporting}} a rafale, an irregular target means a repeat with nothing scored. One shot that breaks both targets is a different case: see above.",
+      "uk": "Неправильна мішень — це мішень, через яку суддя оголошує No Bird: наприклад, вона вилетіла розбитою, не по своїй лінії чи з іншої машинки ({{lesson:rules-hit-and-no-bird}}). У дуплеті на постріл неправильна перша мішень означає, що весь дуплет стріляють знову. Якщо неправильна друга мішень, дуплет стріляють знову, а ваш результат на першій зберігають. Так само, якщо перша мішень чи її уламки розбили другу до вашого другого пострілу. В одночасному дуплеті, а в {{tm:sporting}} і в рафалі, неправильна мішень означає повтор без зарахування. Інша річ — коли один постріл розбив обидві мішені: див. вище."
+    },
+    {
+      "k": "rules-doubles-p7",
+      "t": "tip",
+      "en": "Watch the presentation and read the stand's {{term:target-menu|menu}}, so you know which doubles are coming. Many coaches suggest choosing the order for a simultaneous double before you call.",
+      "uk": "Подивіться показ і прочитайте {{term:target-menu|меню}} місця, щоб знати, які дуплети на вас чекають. Багато тренерів радять вирішити порядок стрільби одночасного дуплета ще до команди."
+    },
+    {
+      "k": "sporting-singles-doubles-sim",
+      "t": "sim",
+      "sim": {
+        "type": "call"
+      },
+      "ready": false
+    },
+    {
+      "k": "compak-singles-doubles-sim",
+      "t": "sim",
+      "sim": {
+        "type": "call"
+      },
+      "ready": false
+    }
+  ],
+  "note": [
+    {
+      "k": "compak-singles-doubles-p1",
+      "for": "interpreter",
+      "en": "{{tm:compak}} uses the same names as {{tm:sporting}} for doubles on report and simultaneous doubles (it has no rafale), but its doubles follow different rules. An interpreter who carries the {{tm:sporting}} rules over will give wrong answers.",
+      "uk": "{{tm:compak}} називає дуплети на постріл і одночасні дуплети так само, як {{tm:sporting}} (рафалю тут немає), але правила для них інші. Перекладач, який переносить сюди правила {{tm:sporting}}, дасть хибні відповіді."
+    },
+    {
+      "k": "sporting-singles-doubles-p5",
+      "for": "interpreter",
+      "en": "Pass on a double's result as a pair, in the referee's order.",
+      "uk": "Передавайте результат дуплета парою й у тому порядку, в якому його назвав суддя."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "sporting-singles-doubles-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Report pair: the second comes on your shot.",
+      "meaning": {
+        "en": "Coach: the second target is released by the shot at the first.",
+        "uk": "Тренер: другу мішень запускає постріл по першій."
+      },
+      "say": {
+        "uk": "Дуплет на постріл: друга вилетить на ваш постріл."
+      }
+    },
+    {
+      "k": "sporting-singles-doubles-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "On the rafale, take either one first.",
+      "meaning": {
+        "en": "Coach: in a rafale double the order is free.",
+        "uk": "Тренер: у рафалі порядок довільний."
+      },
+      "say": {
+        "uk": "У рафалі можна брати першою будь-яку."
+      }
+    },
+    {
+      "k": "sporting-singles-doubles-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "One and one.",
+      "meaning": {
+        "en": "Referee: both targets of the double are hits.",
+        "uk": "Суддя: обидві мішені дуплета зараховано."
+      },
+      "say": {
+        "uk": "One і one — обидві зараховано."
+      }
+    },
+    {
+      "k": "sporting-singles-doubles-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "No Bird, repeat the double.",
+      "meaning": {
+        "en": "Irregular target; the double is thrown again.",
+        "uk": "Неправильна мішень; дуплет запускають знову."
+      },
+      "say": {
+        "uk": "No Bird — дуплет повторюють."
+      }
+    },
+    {
+      "k": "compak-singles-doubles-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "One shot per bird on the pairs here.",
+      "meaning": {
+        "en": "Coach: in {{tm:compak}} each target of a double gets only one cartridge.",
+        "uk": "Тренер: у {{tm:compak}} на кожну мішень дуплета — лише один патрон."
+      },
+      "say": {
+        "uk": "Тут на дуплетах — один постріл на мішень."
+      }
+    },
+    {
+      "k": "compak-singles-doubles-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Both with one shot. No Bird, shoot the double again.",
+      "meaning": {
+        "en": "Referee on a simultaneous double: nothing scored, repeat.",
+        "uk": "Суддя на одночасному дуплеті: нічого не зараховано, повтор."
+      },
+      "say": {
+        "uk": "Обидві одним пострілом. No Bird, дуплет ще раз."
+      }
+    },
+    {
+      "k": "compak-singles-doubles-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Choose your order on the show.",
+      "meaning": {
+        "en": "Coach: decide which simultaneous target to take first while watching the presentation.",
+        "uk": "Тренер: вирішіть, яку мішень одночасного дуплета брати першою, ще під час показу."
+      },
+      "say": {
+        "uk": "Порядок обирайте під час показу."
+      }
+    },
+    {
+      "k": "compak-singles-doubles-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Zero, zero.",
+      "meaning": {
+        "en": "Referee: neither target of the double is scored.",
+        "uk": "Суддя: жодну мішень дуплета не зараховано."
+      },
+      "say": {
+        "uk": "Zero, zero — обидві не зараховано."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "rules-doubles-kp1",
+      "en": "On report, the second target is released by your shot at the first.",
+      "uk": "У дуплеті на постріл другу мішень запускає ваш постріл по першій."
+    },
+    {
+      "k": "sporting-singles-doubles-kp2",
+      "en": "{{tm:sporting}}: two cartridges per double, and both may go at one target; kinds are on report, simultaneous and rafale.",
+      "uk": "{{tm:sporting}}: два патрони на дуплет, обидва можна по одній мішені; види — на постріл, одночасний і рафаль."
+    },
+    {
+      "k": "compak-singles-doubles-kp2",
+      "en": "{{tm:compak}}: one cartridge per target; deliberately firing both at one target is zero-zero.",
+      "uk": "{{tm:compak}}: один патрон на мішень; за навмисний подвійний постріл по одній мішені — zero-zero.",
+      "checklist": true
+    },
+    {
+      "k": "compak-singles-doubles-kp1",
+      "en": "{{tm:compak}} has two kinds of double, on report and simultaneous; the rafale exists only in {{tm:sporting}}.",
+      "uk": "У {{tm:compak}} два види дуплетів — на постріл і одночасний; рафаль є лише в {{tm:sporting}}."
+    },
+    {
+      "k": "sporting-singles-doubles-kp3",
+      "en": "One shot breaks both targets: {{tm:sporting}} scores one and one; {{tm:compak}} has the double shot again.",
+      "uk": "Один постріл розбив обидві мішені: у {{tm:sporting}} — one і one; у {{tm:compak}} дуплет стріляють знову."
+    }
+  ],
+  "did_you_know": {
+    "k": "rules-doubles-dyk",
+    "en": "In {{tm:compak}} the double at each station starts with the last target of the previous station.",
+    "uk": "У {{tm:compak}} дуплет на кожному номері починається з останньої мішені попереднього номера."
+  },
+  "quiz": [
+    {
+      "k": "rules-doubles-q1",
+      "disc": "both",
+      "q": {
+        "en": "What releases the second target of a double on report?",
+        "uk": "Що запускає другу мішень у дуплеті на постріл?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The shot at the first target",
+          "uk": "Постріл по першій мішені"
+        },
+        {
+          "k": "b",
+          "en": "A second call by the shooter",
+          "uk": "Друга команда стрільця"
+        },
+        {
+          "k": "c",
+          "en": "The referee, by hand",
+          "uk": "Суддя, вручну"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The call releases the first target, and the shot at it releases the second.",
+        "uk": "Команда запускає першу мішень, а постріл по ній — другу."
+      },
+      "rule_ref": "sporting:ch4-double-on-report"
+    },
+    {
+      "k": "rules-doubles-q2",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, may you fire both cartridges at the first target of a double?",
+        "uk": "Чи можна в {{tm:compak}} випустити обидва патрони по першій мішені дуплета?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, as in {{tm:sporting}}",
+          "uk": "Так, як у {{tm:sporting}}"
+        },
+        {
+          "k": "b",
+          "en": "Only on a simultaneous double",
+          "uk": "Лише на одночасному дуплеті"
+        },
+        {
+          "k": "c",
+          "en": "No, one cartridge per target",
+          "uk": "Ні, один патрон на мішень"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:compak}} it is one cartridge per target, and firing both at one target on purpose is scored zero-zero; in {{tm:sporting}} both may go at one target.",
+        "uk": "У {{tm:compak}} — один патрон на кожну мішень, а навмисні два постріли по одній мішені — zero-zero; у {{tm:sporting}} обидва можна випустити по одній."
+      },
+      "rule_ref": "compak:ch3-one-cartridge-per-target"
+    },
+    {
+      "k": "rules-doubles-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, one shot breaks both targets of a double. How is it scored?",
+        "uk": "У {{tm:sporting}} один постріл розбив обидві мішені дуплета. Як зараховують?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Zero and No Bird",
+          "uk": "Zero і No Bird"
+        },
+        {
+          "k": "b",
+          "en": "One and one",
+          "uk": "One і one"
+        },
+        {
+          "k": "c",
+          "en": "No Bird, shot again",
+          "uk": "No Bird, повтор"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:sporting}} both targets count; {{tm:compak}} has different rules.",
+        "uk": "У {{tm:sporting}} зараховують обидві мішені; у {{tm:compak}} правила інші."
+      },
+      "rule_ref": "sporting:ch6-two-with-one-shot"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "sporting-singles-doubles-q1",
+      "q": {
+        "en": "{{tm:sporting}}, simultaneous double. The shooter misses one target with the first shot, fires the second cartridge at the same target and breaks it. The other target flies on. Decision?",
+        "uk": "{{tm:sporting}}, одночасний дуплет. Стрілець промахнувся по одній мішені першим пострілом, випустив по ній і другий патрон і розбив її. Інша мішень полетіла далі. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One and zero",
+          "uk": "One і zero"
+        },
+        {
+          "k": "b",
+          "en": "Zero and zero",
+          "uk": "Zero і zero"
+        },
+        {
+          "k": "c",
+          "en": "No Bird, the double is repeated",
+          "uk": "No Bird, дуплет повторюють"
+        },
+        {
+          "k": "d",
+          "en": "One and No Bird",
+          "uk": "One і No Bird"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:sporting}} both cartridges of a double may go at one target, so the broken target is 'one' and the other is 'zero'. In {{tm:compak}} firing both at one target on purpose is scored zero-zero.",
+        "uk": "У {{tm:sporting}} обидва патрони дуплета можна випустити по одній мішені, тож розбита мішень — «one», а друга — «zero». У {{tm:compak}} навмисні два постріли по одній мішені — zero-zero."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch4-doubles-general"
+    },
+    {
+      "k": "sporting-singles-doubles-q2",
+      "q": {
+        "en": "{{tm:sporting}}, double on report. The shooter breaks the first target, and a piece of it smashes the second before the second shot. Decision?",
+        "uk": "{{tm:sporting}}, дуплет на постріл. Стрілець розбив першу мішень, і її уламок розбив другу до другого пострілу. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One and one",
+          "uk": "One і one"
+        },
+        {
+          "k": "b",
+          "en": "Repeat, first result kept",
+          "uk": "Повтор, результат першої зберігають"
+        },
+        {
+          "k": "c",
+          "en": "Zero on the second target",
+          "uk": "Zero на другій мішені"
+        },
+        {
+          "k": "d",
+          "en": "One and zero",
+          "uk": "One і zero"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "When the first target or its pieces break the second before the second shot, the double is repeated and the first result stands.",
+        "uk": "Якщо перша мішень чи її уламки розбили другу до другого пострілу, дуплет повторюють, а результат першої зберігають."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch6-nobird-target-doubles"
+    },
+    {
+      "k": "sporting-singles-doubles-q3",
+      "q": {
+        "en": "{{tm:sporting}}, rafale double. Both targets fly correctly, but the shooter lowers the gun and fires at neither, with no valid reason. Decision?",
+        "uk": "{{tm:sporting}}, рафаль. Обидві мішені вилетіли правильно, але стрілець опустив рушницю й не стріляв, не маючи поважної причини. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "b",
+          "en": "Zero and No Bird",
+          "uk": "Zero і No Bird"
+        },
+        {
+          "k": "c",
+          "en": "A yellow card only",
+          "uk": "Лише жовта картка"
+        },
+        {
+          "k": "d",
+          "en": "Zero and zero",
+          "uk": "Zero і zero"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "A correct target not fired at without a valid reason is lost; on a rafale or simultaneous double that means zero and zero.",
+        "uk": "Правильну мішень, по якій не стріляли без поважної причини, не зараховують; на рафалі чи одночасному дуплеті це zero і zero."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch6-target-zero"
+    },
+    {
+      "k": "compak-singles-doubles-q1",
+      "q": {
+        "en": "Simultaneous double in {{tm:compak}}. One shot breaks both targets; it is the first time this has happened. Decision?",
+        "uk": "Одночасний дуплет у {{tm:compak}}. Один постріл розбив обидві мішені, і таке трапилося вперше. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One and one",
+          "uk": "One і one"
+        },
+        {
+          "k": "b",
+          "en": "No Bird, shot again",
+          "uk": "No Bird, повтор"
+        },
+        {
+          "k": "c",
+          "en": "One and No Bird",
+          "uk": "One і No Bird"
+        },
+        {
+          "k": "d",
+          "en": "Zero and zero",
+          "uk": "Zero і zero"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:compak}} a simultaneous double broken with one shot is a No Bird the first and second time, and zero and zero the third time.",
+        "uk": "У {{tm:compak}} одночасний дуплет, розбитий одним пострілом, — No Bird уперше й удруге, а втретє — zero і zero."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch3-two-with-one-simultaneous"
+    },
+    {
+      "k": "compak-singles-doubles-q2",
+      "q": {
+        "en": "Double on report in {{tm:compak}}. One shot breaks both targets. Decision?",
+        "uk": "Дуплет на постріл у {{tm:compak}}. Один постріл розбив обидві мішені. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One and one, both count",
+          "uk": "One і one, обидві"
+        },
+        {
+          "k": "b",
+          "en": "Zero and zero for both",
+          "uk": "Zero і zero для обох"
+        },
+        {
+          "k": "c",
+          "en": "First result kept; double repeated",
+          "uk": "Результат першої лишається, дуплет повторюють"
+        },
+        {
+          "k": "d",
+          "en": "No Bird, nothing scored",
+          "uk": "No Bird, нічого не зараховують"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In a double on report the first target's result is recorded, the second is a No Bird, and the double is shot again to score it.",
+        "uk": "У дуплеті на постріл результат першої мішені записують, друга — No Bird, і дуплет стріляють знову, щоб оцінити її."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch3-two-with-one-report"
+    },
+    {
+      "k": "compak-singles-doubles-q3",
+      "q": {
+        "en": "{{tm:compak}}, double on report. The first target flies correctly, but the shooter does not fire at it. Decision?",
+        "uk": "{{tm:compak}}, дуплет на постріл. Перша мішень вилетіла правильно, але стрілець по ній не стріляв. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "First zero, double again for the second",
+          "uk": "Перша — zero, дуплет знову заради другої"
+        },
+        {
+          "k": "b",
+          "en": "Zero and zero for the double",
+          "uk": "Zero і zero за дуплет"
+        },
+        {
+          "k": "c",
+          "en": "No Bird, the double is thrown again",
+          "uk": "No Bird, дуплет запускають знову"
+        },
+        {
+          "k": "d",
+          "en": "Zero, and the second is not shot",
+          "uk": "Zero, а другу вже не стріляють"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Not firing at a correctly thrown first target is a zero. The double is then thrown again so that the second target can be scored (referees' quick guide).",
+        "uk": "Якщо не стріляти по правильно запущеній першій мішені, це zero. Потім дуплет запускають знову, щоб зарахувати другу мішень (довідник для суддів)."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch21-refusal"
+    },
+    {
+      "k": "rules-doubles-q4",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, both barrels fire together by accident on the first target of a double. It is the first gun problem of the round. What is it?",
+        "uk": "У {{tm:compak}} на першій мішені дуплета обидва стволи випадково вистрілили разом. Це перша несправність у раунді. Що це?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A gun fault: No Bird, a new double",
+          "uk": "Несправність: No Bird, новий дуплет"
+        },
+        {
+          "k": "b",
+          "en": "A deliberate double shot: zero-zero",
+          "uk": "Навмисний подвійний постріл: zero-zero"
+        },
+        {
+          "k": "c",
+          "en": "One and zero",
+          "uk": "One і zero"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "An accidental double discharge is a malfunction, not a deliberate double shot; zero-zero is only for firing both shots at one target on purpose.",
+        "uk": "Випадковий одночасний постріл — це несправність, а не навмисний подвійний постріл; zero-zero — лише за свідомі два постріли по одній мішені."
+      },
+      "rule_ref": "compak:ch20-gun-failure-first-shot"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "bf6d3d5f",
+    "summary": "dfdb2ad6",
+    "rules-doubles-p1": "f5cf641d",
+    "sporting-singles-doubles-p1": "b6444c9c",
+    "rules-doubles-p2": "c6919899",
+    "rules-doubles-cmp1": "350fd347",
+    "sporting-singles-doubles-p2": "5a56411c",
+    "rules-doubles-cmp2": "24dc2faf",
+    "rules-doubles-accidental": "2cbe5f9a",
+    "rules-doubles-cmp3": "0437dae8",
+    "rules-doubles-cmp4": "2d15fb86",
+    "sporting-singles-doubles-p4": "88696d63",
+    "rules-doubles-p7": "5bdcbd0b",
+    "compak-singles-doubles-p1": "329c4e29",
+    "sporting-singles-doubles-p5": "4b1860bf",
+    "sporting-singles-doubles-ph1": "934fba36",
+    "sporting-singles-doubles-ph2": "c178e9f1",
+    "sporting-singles-doubles-ph3": "ca41eb94",
+    "sporting-singles-doubles-ph4": "95a6f236",
+    "compak-singles-doubles-ph1": "70594be5",
+    "compak-singles-doubles-ph2": "188b25c7",
+    "compak-singles-doubles-ph3": "56ec4bfd",
+    "compak-singles-doubles-ph4": "806b2e03",
+    "rules-doubles-kp1": "db855605",
+    "sporting-singles-doubles-kp2": "322f41a9",
+    "compak-singles-doubles-kp2": "dce8c621",
+    "compak-singles-doubles-kp1": "77c28c5b",
+    "sporting-singles-doubles-kp3": "7de76b48",
+    "rules-doubles-dyk": "c0b4d4b3",
+    "rules-doubles-q1": "5a5e9eaa",
+    "rules-doubles-q2": "ab4333ed",
+    "rules-doubles-q3": "783fc72a",
+    "sporting-singles-doubles-q1": "12970eeb",
+    "sporting-singles-doubles-q2": "507f2951",
+    "sporting-singles-doubles-q3": "d1d794df",
+    "compak-singles-doubles-q1": "c458b419",
+    "compak-singles-doubles-q2": "afbfdbad",
+    "compak-singles-doubles-q3": "04513eaa",
+    "rules-doubles-q4": "0493a8c2"
+  },
+  "todo": {
+    "tasks": [
+      "Animations sporting-singles-doubles-sim and compak-singles-doubles-sim stay ready:false until checked against S-01…S-05 and S-09 (S-02: the doubles animation shows no double).",
+      "Referee: confirm the wording that separates 'one shot breaks both targets' (one and one: Sporting 6.5.2 note, 7.9) from 'the first target or its pieces break the second before the second shot' (No Bird, first result kept: 6.5.2 table) in rules-doubles-cmp3 (sporting column) and sporting-singles-doubles-p4.",
+      "Rules guide: docs/rules/data/sporting.js has no item for the quick guide's report-double refusal (first target zero, double repeated to score the second; Sporting referees' quick guide of 8 June 2026, 5.6 and 6.4). rules-doubles-cmp4 cites the quick guide; when the item is added to sporting.js, point the sporting rule_ref of cmp4 to it.",
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+    ]
+  }
+}

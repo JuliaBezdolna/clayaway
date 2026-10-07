@@ -1,0 +1,95 @@
+{
+  "id": "safety-handling-carrying",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "67b42026",
+    "summary": "a0db90c0",
+    "safety-handling-carrying-p1": "131eff38",
+    "safety-handling-carrying-p2": "e729a9a8",
+    "safety-handling-carrying-p3": "837cb39e",
+    "safety-handling-carrying-p4": "6190476d",
+    "safety-handling-carrying-p5": "83531f88",
+    "safety-handling-carrying-p6": "fb47c648",
+    "safety-handling-carrying-mock-where": "8f7d7c36",
+    "safety-handling-carrying-mock-rule": "d3259ecf",
+    "safety-handling-carrying-p7": "c3605832",
+    "safety-handling-carrying-kp1": "cde0a177",
+    "safety-handling-carrying-kp2": "34c1f27e",
+    "safety-handling-carrying-kp3": "dd9b5692",
+    "safety-handling-carrying-kp4": "190dc8a8",
+    "safety-handling-carrying-dyk": "e976c923",
+    "safety-handling-carrying-q1": "6f174eb9",
+    "safety-handling-carrying-q2": "065b5397",
+    "safety-handling-carrying-q3": "5481d5e3",
+    "safety-handling-carrying-q4": "186b3f80"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "body": {
+    "safety-handling-carrying-p1": "Tato lekce doplňuje praktické podrobnosti k lekci {{lesson:safety-core-rules}}. S každou zbraní, i prázdnou, se zachází s velkou opatrností. Mezi stanovišti ji nosíte otevřenou: {{term:over-and-under|kozlici}} zlomenou (otevřenou v závěsu), {{term:semi-automatic|samonabíjecí brokovnici}} s otevřeným závěrem (pohyblivou částí, která podává náboj). {{term:muzzle|Ústí hlavně}} míří přímo nahoru nebo přímo dolů.",
+    "safety-handling-carrying-p2": "Mnozí střelci nosí otevřenou kozlici na předloktí, hlavněmi k zemi. Řemeny a popruhy na zbraních nejsou v žádné z disciplín povolené.",
+    "safety-handling-carrying-p3": "Když zbraň nepoužíváte, postavte ji vzpřímeně do {{term:gun-rack|stojanu na zbraně}} nebo na jiné místo, které určí střelnice. Samonabíjecí brokovnice tam stojí s otevřeným závěrem. Neopírejte zbraň o auto, strom nebo stůl: může sklouznout a spadnout.",
+    "safety-handling-carrying-p4": "Mezi autem a místem střelby se zbraň přepravuje v {{term:gun-slip|pouzdru}} nebo {{term:hard-case|kufru}}. Vyndávejte ji jen tam, kde to střelnice dovoluje, a to často není parkoviště.",
+    "safety-handling-carrying-p5": "Nedotýkejte se cizí zbraně bez dovolení majitele. Pokud si ji chcete prohlédnout, zeptejte se: majitel ji sám otevře a podá vám ji. Pokud vás někdo požádá, abyste ukázali, že vaše zbraň je prázdná, otevřete ji a ukažte komory. Trenéři tomu říkají „{{term:show-clear|show clear}}“.",
+    "safety-handling-carrying-p6": "Nedělejte {{term:gun-mount|zalícení}} (nezvedejte zbraň k rameni a tváři) a neveďte ji, jako byste sledovali terč. Tomu se říká {{term:mock-shooting|střelba na sucho}}. Oba řády ji zakazují, ale hranici vedou jinak.",
+    "safety-handling-carrying-mock-where": {
+      "sporting": "Kdekoli na střelnici: mimo stanoviště, na stanovišti před vyvoláním terče a během předvedení terčů.",
+      "compak": "Mimo stanoviště a ve chvíli, kdy střílí jiný člen skupiny."
+    },
+    "safety-handling-carrying-mock-rule": "V {{tm:sporting}} přinese střelba na sucho nebo náhodný výstřel poprvé {{term:warning|napomenutí}}. Pokud se to opakuje, příští zasažený terč se zapíše jako minutý (nula).",
+    "safety-handling-carrying-p7": "Chcete-li ověřit, že zbraň funguje, využijte {{term:gun-test|zkušební místo}}, pokud ho střelnice má – obvykle bývá blízko klubovny. Zkušební výstřely na stanovišti závodu nejsou povolené."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "safety-handling-carrying-kp1": "Noste zbraň otevřenou, hlavní přímo nahoru nebo dolů; bez řemenů",
+    "safety-handling-carrying-kp2": "Když se nepoužívá: vzpřímeně ve stojanu, ne opřená o něco",
+    "safety-handling-carrying-kp3": "Mezi autem a místem střelby – v pouzdru nebo kufru",
+    "safety-handling-carrying-kp4": "Cizí zbraně se nedotýkejte bez dovolení; žádná střelba na sucho"
+  },
+  "quiz": {
+    "safety-handling-carrying-q1": {
+      "q": "Jak nosíte zbraň mezi stanovišti?",
+      "options": {
+        "a": "Zavřenou, na rameni, na pojistce",
+        "b": "Na řemenu přes záda, nenabitou",
+        "c": "Otevřenou, hlavní přímo nahoru nebo dolů"
+      },
+      "explain": "Zbraň se nosí otevřená, hlavní nahoru nebo dolů; řemeny nejsou povolené v žádné disciplíně."
+    },
+    "safety-handling-carrying-q2": {
+      "q": "Kam se dá zbraň, když z ní nestřílíte?",
+      "options": {
+        "a": "Vzpřímeně do stojanu nebo na jiné určené místo",
+        "b": "Opřená o auto, zavřená a nenabitá",
+        "c": "Položená na zemi vedle stanoviště"
+      },
+      "explain": "Zbraně stojí vzpřímeně ve stojanu nebo na jiném určeném místě, aby nemohly spadnout; samonabíjecí brokovnice stojí s otevřeným závěrem."
+    },
+    "safety-handling-carrying-q3": {
+      "q": "Kde smíte zbraň vyzkoušet výstřelem?",
+      "options": {
+        "a": "Na prvním stanovišti závodu, před položkou",
+        "b": "Na zkušebním místě, pokud ho střelnice má",
+        "c": "V tichém koutě parkoviště"
+      },
+      "explain": "Zkušební výstřely patří na zkušební místo; na stanovišti závodu jsou zakázané."
+    },
+    "safety-handling-carrying-q4": {
+      "q": "Co je střelba na sucho?",
+      "options": {
+        "a": "Střelba na skutečný terč lehkým cvičným nábojem",
+        "b": "Vyvolání terče bez jediného náboje ve zbrani",
+        "c": "Zalícení zbraně a její vedení za domnělým terčem"
+      },
+      "explain": "Střelba na sucho znamená zalícit zbraň a vést ji, jako by mířila na terč. V {{tm:sporting}} není dovolená nikde na střelnici, ani na stanovišti před vyvoláním. V {{tm:compak}} není dovolená mimo stanoviště ani ve chvíli, kdy střílí jiný člen skupiny."
+    }
+  },
+  "title": "Manipulace se zbraní a její nošení na střelnici",
+  "summary": "Otevřená zbraň, stojan na zbraně, pouzdro a pravidlo „nejdřív se zeptej“: jak zacházet se zbraní mezi stanovišti.",
+  "did_you_know": "Otevřená zbraň je i projevem zdvořilosti: ukazuje lidem kolem vás, že se nemají čeho obávat."
+}

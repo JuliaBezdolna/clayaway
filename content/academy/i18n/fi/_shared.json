@@ -1,0 +1,264 @@
+{
+  "lang": "fi",
+  "blocks": {
+    "basics": {
+      "title": "Perusteet",
+      "purpose": "Mikä laji on, lajit, FITASC, ammuntapaikka, kuka ampuu, miten aloittaa, mitä se maksaa ja miten lapsi voi aloittaa.",
+      "sections": {
+        "what": "Mikä laji on",
+        "start": "Miten aloittaa",
+        "kids": "Lapselle"
+      }
+    },
+    "safety": {
+      "title": "Turvallisuus ja etiketti",
+      "purpose": "Turvallisuustavat, silmien ja kuulon suojaus, lyijy, lapset; käyttäytyminen ampumapaikalla ja ryhmässä, kunnioitus tuomaria kohtaan, katsojat.",
+      "sections": {
+        "safety": "Turvallisuus",
+        "etiquette": "Etiketti"
+      }
+    },
+    "gear": {
+      "title": "Varusteet",
+      "purpose": "Ase, supistajat, patruunat, suojaus ja vaatetus: miten asiat nimetään, miten ne toimivat, mitä ostaa ja milloin.",
+      "sections": {
+        "gun": "Ase",
+        "chokes": "Supistajat",
+        "cartridges": "Patruunat",
+        "kit": "Varusteet"
+      }
+    },
+    "targets": {
+      "title": "Kohteet ja lentoradat",
+      "purpose": "Kohteet, heittimet, {{tm:sporting}}- ja {{tm:compak}}-rataosuudet, menut, lentoradat, kaksoiskiekot ja kuinka lukea kohdetta.",
+      "sections": {
+        "clays": "Kohteet ja heittimet",
+        "layouts": "Rataosuudet",
+        "flight": "Lentoradat",
+        "pairs": "Kaksoiskiekot ja kohteen lukeminen"
+      }
+    },
+    "technique": {
+      "title": "Tekniikka ja ennakko",
+      "purpose": "Ampuma-asento, aseen nosto, silmät, kolme pistettä, saatto, rekyyli; neljä ennakkomenetelmää; ohilaukausten lukeminen.",
+      "sections": {
+        "fundamentals": "Laukauksen perusteet",
+        "lead": "Ennakko",
+        "faults": "Virheet"
+      }
+    },
+    "training": {
+      "title": "Harjoittelu",
+      "purpose": "Valmentaja, kuinka jäsentää ja annostella harjoittelua, lämmittely, kuivaharjoittelu nostolla, kilpailuun valmistautuminen, harjoituspäiväkirja.",
+      "sections": {
+        "main": "Harjoittelu"
+      }
+    },
+    "mind": {
+      "title": "Mieli ja valmistautuminen",
+      "purpose": "Esilaukausrutiini, keskittyminen, hengitys, muistisanat, mielikuvaharjoittelu, hermostuneisuus, paine, ohilaukauksen jälkeinen perustaminen uudelleen, tavoitteet, kilpailupäivä, antidoping, juniorit.",
+      "sections": {
+        "before": "Ennen laukausta",
+        "pressure": "Paineen alla",
+        "day": "Kilpailupäivä",
+        "juniors": "Juniorit"
+      }
+    },
+    "rules": {
+      "title": "Säännöt",
+      "purpose": "FITASC:n säännöt selkokielellä, lyhyesti ja omin sanoin; joka sääntö on merkitty {{tm:sporting}} tai {{tm:compak}} ja linkittyy sääntöoppaaseen.",
+      "sections": {
+        "main": "Säännöt"
+      }
+    },
+    "competitions": {
+      "title": "Kilpailut",
+      "purpose": "Kilpailutyypit, ilmoittautuminen, kilpailupäivä, tuloskortti ja tulokset, luokat ja uusintakierrokset, protestit, juniorit.",
+      "sections": {
+        "main": "Kilpailut"
+      }
+    },
+    "travel": {
+      "title": "Matkustaminen",
+      "purpose": "Matkan suunnittelu, ase EU:ssa ja sen ulkopuolella, lentäminen, patruunat kohteessa, aikaerorasitus; ClayAway-matkat (tulossa).",
+      "sections": {
+        "main": "Matkustaminen"
+      }
+    },
+    "stand-talk": {
+      "title": "Ampumapaikan kieli",
+      "purpose": "Kuinka valmentaja, tuomari ja ampujat puhuvat; tulkin työ; kaikille, jotka harjoittelevat valmentajan kanssa, joka puhuu toista kieltä.",
+      "sections": {
+        "role": "Rooli",
+        "said": "Mitä ampumapaikalla sanotaan",
+        "traps": "Käännössudenkuopat",
+        "work": "Työssä"
+      }
+    },
+    "watch": {
+      "title": "Katso ja seuraa",
+      "purpose": "Kuinka katsoa ampumista ja videoita; ClayArena: tulokset, profiili, luvut, hakemistot.",
+      "sections": {
+        "watch": "Katsominen",
+        "clayarena": "ClayArena"
+      }
+    },
+    "community": {
+      "title": "Yhteisö ja historia",
+      "purpose": "Historia, perinteet, luonto, seura; kuinka tulla tuomariksi tai valmentajaksi; seurakilpailu.",
+      "sections": {
+        "history": "Historia",
+        "culture": "Kulttuuri",
+        "next": "Seuraava askel"
+      }
+    }
+  },
+  "routes": {
+    "beginner": {
+      "title": "Aloittelija",
+      "for": "Jollekulle, joka ei ole koskaan ampunut.",
+      "certificate": "Ensimmäinen askel",
+      "stages": {
+        "first-visit": "Ennen ensimmäistä käyntiä",
+        "first-shots": "Ensimmäiset laukaukset"
+      }
+    },
+    "first-competition": {
+      "title": "Ensimmäinen kilpailu",
+      "for": "Ampujalle muutaman harjoituksen jälkeen.",
+      "checklist": "Kilpailupäivän tarkistuslista",
+      "stages": {
+        "ready": "Valmistautuminen",
+        "rules": "Säännöt, jotka on tiedettävä",
+        "head": "Mieli ja keho",
+        "day": "Kilpailupäivä"
+      }
+    },
+    "interpreter": {
+      "title": "Tulkki",
+      "for": "Tulkeille ampumapaikalla; korvaa Tulkkiakatemian.",
+      "stages": {
+        "day-one": "Ensimmäinen päivä ampumapaikalla",
+        "sport": "Laji ja rataosuudet",
+        "gear-targets": "Ase ja kohteet",
+        "technique": "Tekniikka",
+        "lead": "Ennakko",
+        "coach-talk": "Virheet ja valmentajan kieli",
+        "rules": "Säännöt ampumapaikalla",
+        "referee": "Tuomari, kortit ja tulokset",
+        "mastery": "Mestaruus"
+      }
+    },
+    "junior-parent": {
+      "title": "Junioriampujan vanhemmat",
+      "for": "Vanhemmille, joiden lapsi haluaa ampua.",
+      "checklist": "Tarkistuslista vanhemmille",
+      "stages": {
+        "is-it-for-my-child": "Sopiiko se lapselleni",
+        "safe-start": "Turvallinen alku",
+        "support": "Tuki ja kilpailut"
+      }
+    },
+    "new-coach": {
+      "title": "Uusi valmentaja",
+      "for": "Jollekulle, joka alkaa valmentaa muita.",
+      "disclaimer": "Ei ole valmentajan kelpoisuus.",
+      "stages": {
+        "role": "Valmentajan rooli",
+        "diagnosis": "Perusteet ja diagnosointi",
+        "mental": "Harjoittelu ja mieli"
+      }
+    },
+    "organiser": {
+      "title": "Järjestäjä",
+      "for": "Seurakilpailujen ja matkojen järjestäjille.",
+      "stages": {
+        "club-events": "Kilpailut ja seura",
+        "trips": "Matkat ja retket"
+      }
+    },
+    "fan": {
+      "title": "Fani ja perhe",
+      "for": "Ampujien faneille, perheille ja ystäville.",
+      "stages": {
+        "watch": "Katsominen ja ymmärtäminen",
+        "results": "Tulokset ja ClayArena"
+      }
+    }
+  },
+  "practice": {
+    "lead-lab": "Ennakkolabra",
+    "name-the-flight": "Nimeä lentorata",
+    "translate-the-coach": "Ymmärrä / käännä valmentaja",
+    "referees-call": "Tuomarin ratkaisu",
+    "term-cards": "Termikortit",
+    "phrasebook": "Fraasikirja",
+    "rules-exam": "Sääntötentti",
+    "routine": "Oma rutiinini"
+  },
+  "levels": {
+    "guest": "Vieras",
+    "learner": "Oppija",
+    "practitioner": "Harjoittaja",
+    "specialist": "Asiantuntija",
+    "expert": "Mestari",
+    "mentor": "Mentori"
+  },
+  "badges": {
+    "block-basics": "Lohko «Perusteet»",
+    "block-safety": "Lohko «Turvallisuus ja etiketti»",
+    "block-gear": "Lohko «Varusteet»",
+    "block-targets": "Lohko «Kohteet ja lentoradat»",
+    "block-technique": "Lohko «Tekniikka ja ennakko»",
+    "block-training": "Lohko «Harjoittelu»",
+    "block-mind": "Lohko «Mieli ja valmistautuminen»",
+    "block-rules": "Lohko «Säännöt»",
+    "block-competitions": "Lohko «Kilpailut»",
+    "block-travel": "Lohko «Matkustaminen»",
+    "block-stand-talk": "Lohko «Ampumapaikan kieli»",
+    "block-watch": "Lohko «Katso ja seuraa»",
+    "block-community": "Lohko «Yhteisö ja historia»",
+    "route-beginner": "Reitti «Aloittelija»",
+    "route-first-competition": "Reitti «Ensimmäinen kilpailu»",
+    "route-interpreter": "Reitti «Tulkki»",
+    "route-junior-parent": "Reitti «Junioriampujan vanhemmat»",
+    "route-new-coach": "Reitti «Uusi valmentaja»",
+    "route-organiser": "Reitti «Järjestäjä»",
+    "route-fan": "Reitti «Fani ja perhe»",
+    "stage-beginner-first-visit": "Aloittelija: ennen ensimmäistä käyntiä",
+    "stage-beginner-first-shots": "Aloittelija: ensimmäiset laukaukset",
+    "stage-first-competition-ready": "Ensimmäinen kilpailu: valmistautuminen",
+    "stage-first-competition-rules": "Ensimmäinen kilpailu: säännöt, jotka on tiedettävä",
+    "stage-first-competition-head": "Ensimmäinen kilpailu: mieli ja keho",
+    "stage-first-competition-day": "Ensimmäinen kilpailu: kilpailupäivä",
+    "stage-interpreter-day-one": "Tulkki: ensimmäinen päivä ampumapaikalla",
+    "stage-interpreter-sport": "Tulkki: laji ja rataosuudet",
+    "stage-interpreter-gear-targets": "Tulkki: ase ja kohteet",
+    "stage-interpreter-technique": "Tulkki: tekniikka",
+    "stage-interpreter-lead": "Tulkki: ennakko",
+    "stage-interpreter-coach-talk": "Tulkki: virheet ja valmentajan kieli",
+    "stage-interpreter-rules": "Tulkki: säännöt ampumapaikalla",
+    "stage-interpreter-referee": "Tulkki: tuomari, kortit ja tulokset",
+    "stage-interpreter-mastery": "Tulkki: mestaruus",
+    "stage-junior-parent-is-it-for-my-child": "Junioriampujan vanhemmat: sopiiko se lapselleni",
+    "stage-junior-parent-safe-start": "Junioriampujan vanhemmat: turvallinen alku",
+    "stage-junior-parent-support": "Junioriampujan vanhemmat: tuki ja kilpailut",
+    "stage-new-coach-role": "Uusi valmentaja: valmentajan rooli",
+    "stage-new-coach-diagnosis": "Uusi valmentaja: perusteet ja diagnosointi",
+    "stage-new-coach-mental": "Uusi valmentaja: harjoittelu ja mieli",
+    "stage-organiser-club-events": "Järjestäjä: kilpailut ja seura",
+    "stage-organiser-trips": "Järjestäjä: matkat ja retket",
+    "stage-fan-watch": "Fani ja perhe: katsominen ja ymmärtäminen",
+    "stage-fan-results": "Fani ja perhe: tulokset ja ClayArena",
+    "four-methods": "Neljä menetelmää",
+    "name-the-flight-10": "Nimeä lentorata 10/10",
+    "coach-translator-20": "Valmentajan kääntäjä 20",
+    "referees-call-20": "Tuomarin ratkaisu 20",
+    "terms-50": "50 termiä",
+    "rules-exam-sporting": "Sääntötentti Sporting™",
+    "rules-exam-compak": "Sääntötentti Compak® Sporting",
+    "first": "Ensimmäinen oppitunti",
+    "returning": "Palaan takaisin",
+    "interpreter-academy-2026": "Tulkkiakatemia 2026"
+  }
+}

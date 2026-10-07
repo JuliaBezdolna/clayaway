@@ -1,0 +1,173 @@
+{
+  "id": "targets-sporting-layout",
+  "lang": "pl",
+  "base_rev": 3,
+  "h": {
+    "title": "e7f069bb",
+    "summary": "19716cde",
+    "sport-sporting-layout-p1": "a77d4d14",
+    "sporting-rounds-stands-p2": "729987f5",
+    "sport-sporting-layout-p2": "208f6c36",
+    "sport-sporting-layout-p3": "e38f4eb7",
+    "sport-sporting-layout-p4": "9af0ea8f",
+    "sport-sporting-layout-p5": "94a7f005",
+    "sporting-rounds-stands-p1": "10956753",
+    "sporting-rounds-stands-p4": "0e615261",
+    "targets-sporting-layout-ready": "d6104beb",
+    "sporting-rounds-stands-p5": "d2f4c8ea",
+    "targets-sporting-layout-compak": "ee404ecd",
+    "sport-sporting-layout-n1": "a4a5f73d",
+    "sport-sporting-layout-ph1": "8bf59186",
+    "sport-sporting-layout-ph2": "5d04fd67",
+    "sport-sporting-layout-ph3": "45d94721",
+    "sporting-rounds-stands-ph1": "3e1497ed",
+    "sporting-rounds-stands-ph2": "81904d45",
+    "sporting-rounds-stands-ph3": "e1612014",
+    "sporting-rounds-stands-ph4": "35d596b1",
+    "sporting-rounds-stands-kp1": "19329416",
+    "sporting-rounds-stands-kp2": "b179890e",
+    "sport-sporting-layout-kp5": "a961a1f3",
+    "sporting-rounds-stands-kp3": "ad8ab490",
+    "sporting-rounds-stands-kp4": "137d175e",
+    "sporting-rounds-stands-q1": "5e503383",
+    "sporting-rounds-stands-q2": "a8141645",
+    "sporting-rounds-stands-q3": "957fb77e",
+    "targets-sporting-layout-q-international": "1ed6e0ab",
+    "sport-sporting-layout-q2": "2bf6aab0",
+    "sport-sporting-layout-q3": "1c1ad9e5",
+    "etiquette-squad-q3": "247aff89"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Jak działają oś i seria w {{tm:sporting}}",
+  "summary": "Osie, stanowiska strzeleckie, wyrzutnie A–D, menu rzutków, klasy trudności i seria 25 rzutków: jak zbudowane są i jak przebiegają zawody {{tm:sporting}}.",
+  "body": {
+    "sport-sporting-layout-p1": "W {{tm:sporting}} strzelnica jest podzielona na {{term:layout|osie}} (layout). Oś to grupa {{term:shooting-stand|stanowisk strzeleckich}}, które razem dają jedną serię — {{fact:targets.sporting-layout-targets}}.",
+    "sporting-rounds-stands-p2": "Osie buduje się jednym z dwóch sposobów. W starszym typie 3 stanowiska mają wspólne 5 wyrzutni. Nowszy typ nazywa się {{term:line|linią}} (line). Linia z 4 stanowisk ma trzy stanowiska z 4 wyrzutniami i jedno (nr 2 albo 3) z 3 wyrzutniami. Linia z 5 stanowisk ma po 3 wyrzutnie na każdym stanowisku. Linia z 3 stanowisk po 5 wyrzutni jest dozwolona tylko na Grand Prix.",
+    "sport-sporting-layout-p2": "Stanowisko strzeleckie (shooting stand) to miejsce, gdzie stoi strzelec: kwadrat 1 m albo koło o średnicy 1 m. Powinno być możliwie równe i przynajmniej nieśliskie (wymóg bezpieczeństwa). Reszta {{term:squad|grupy}} (strzelców, którzy strzelają razem) czeka w pobliżu — dość blisko, by śledzić strzelanie, ale nie rozpraszając strzelca.",
+    "sport-sporting-layout-p3": "Wyrzutnie ustawia się zgodnie z ukształtowaniem terenu, często częściowo skryte za krzakami albo drzewami. Rzutki naśladują prawdziwą zwierzynę: lecą w poprzek, w twoją stronę, od ciebie albo pod kątem (quartering), wysoko lub niżej, w otwartym terenie albo między drzewami. Wyrzutnie stanowiska oznacza się literami od lewej do prawej, licząc od strzelca: A, B, C i dalej (regulamin wymienia A–D). Tych liter używają menu i karta wyników.",
+    "sport-sporting-layout-p4": "Przed każdym stanowiskiem stoi {{term:target-menu|menu rzutków}} (target menu). Wymienia wyrzutnie w kolejności strzelania i nazywa rzutki specjalne: {{fact:targets.sporting-menu-special-targets}}. Przed zawodami sędziowie sprawdzają, czy wyrzutnie zgadzają się z menu. Strzelcy czytają je, zanim wejdą na stanowisko; zobacz lekcję {{lesson:targets-menu}}.",
+    "sport-sporting-layout-p5": "Każda trajektoria ma {{term:difficulty-class|klasę trudności}}: {{fact:targets.sporting-difficulty-classes}}. Dla jednego stanowiska przepisy zalecają jedną trajektorię klasy A, dwie klasy B i jedną klasy C. Rzutek klasy C ma więc być trudny, a pudło na nim to żadna katastrofa.",
+    "sporting-rounds-stands-p1": "Zawody {{tm:sporting}} liczy się seriami po 25 rzutków. Zawody międzynarodowe to 200 rzutków, czyli osiem serii; każdą serię strzela się na jednej osi (zestawie stanowisk strzeleckich) albo na jednej linii.",
+    "sporting-rounds-stands-p4": "Strzelcy przechodzą oś w grupach do sześciu osób; kto jest w jakiej grupie, decyduje losowanie. Na każdym stanowisku wszyscy strzelają najpierw pojedyncze, potem dublety. Kto strzela pierwszy, zmienia się na każdym stanowisku, a potem zmienia się jeszcze raz, gdy zaczynają się dublety. Pozostali czekają w pobliżu, nie rozpraszając strzelającego.",
+    "targets-sporting-layout-ready": "Gdy wywołają twoje nazwisko, bądź gotowy od razu, z nabojami i sprzętem na całą serię. Wchodź na stanowisko tylko w swojej kolejce i gdy poprzedni strzelec już je opuścił.",
+    "sporting-rounds-stands-p5": "Kartę wyników prowadzi sędzia albo osoba pod jego nadzorem, zaznaczając każdy rzutek pod literą jego wyrzutni. Schodząc ze stanowiska, każdy strzelec sprawdza swój wynik; jeśli się nie zgadzasz, powiedz to sędziemu od razu — jego decyzja jest ostateczna.",
+    "targets-sporting-layout-compak": "{{tm:compak}} jest zbudowany inaczej: pięć numerów na jednym niewielkim polu, a grupa przechodzi wzdłuż linii. Zobacz lekcję {{lesson:targets-compak-layout}}."
+  },
+  "note": {
+    "sport-sporting-layout-n1": "W niektórych językach codzienne słowo na „stand” oznacza cały sport albo samą strzelnicę. Po polsku stand tłumacz jako „stanowisko” (w {{tm:compak}} — „numer”) i trzymaj się tego słowa przez całą sesję."
+  },
+  "phrases": {
+    "sport-sporting-layout-ph1": {
+      "meaning": "Na trzeciej osi jest wiele małych rzutków lecących między drzewami.",
+      "say": "Trzecia oś jest dziś trudna — dużo mini między drzewami."
+    },
+    "sport-sporting-layout-ph2": {
+      "meaning": "Najpierw sprawdź kolejność wyrzutni i rzutki specjalne.",
+      "say": "Na tym stanowisku przeczytaj menu, zanim wejdziesz."
+    },
+    "sport-sporting-layout-ph3": {
+      "meaning": "Rzutek jest sklasyfikowany jako trudny; pudło jest wkalkulowane.",
+      "say": "Na stanowisku drugim jest rzutek klasy C, nie przejmuj się nim."
+    },
+    "sporting-rounds-stands-ph1": {
+      "meaning": "Standardowa kolejność na każdym stanowisku.",
+      "say": "Najpierw pojedyncze, potem dublety."
+    },
+    "sporting-rounds-stands-ph2": {
+      "meaning": "Tablica z menu wymienia wyrzutnie w kolejności, w jakiej będą strzelane.",
+      "say": "Przeczytaj menu: wyrzutnie idą A, B, C."
+    },
+    "sporting-rounds-stands-ph3": {
+      "meaning": "Sędzia wzywa następną osobę na stanowisko.",
+      "say": "Następny strzelec."
+    },
+    "sporting-rounds-stands-ph4": {
+      "meaning": "Każdą niezgodność trzeba zgłosić teraz, a nie później.",
+      "say": "Sprawdź wynik, zanim zejdziesz ze stanowiska."
+    }
+  },
+  "key_points": {
+    "sporting-rounds-stands-kp1": "Jedna oś daje jedną serię — {{fact:targets.sporting-layout-targets}}. Zawody międzynarodowe to 200 rzutków.",
+    "sporting-rounds-stands-kp2": "Wyrzutnie oznacza się literami A, B, C… od lewej do prawej, licząc od strzelca; menu podaje kolejność i rzutki specjalne.",
+    "sport-sporting-layout-kp5": "Klasy trudności: {{fact:targets.sporting-difficulty-classes}}.",
+    "sporting-rounds-stands-kp3": "Grupy do sześciu osób; najpierw pojedyncze, potem dublety; kolejność się zmienia.",
+    "sporting-rounds-stands-kp4": "Sprawdź wynik, schodząc z każdego stanowiska; decyduje sędzia."
+  },
+  "did_you_know": null,
+  "quiz": {
+    "sporting-rounds-stands-q1": {
+      "q": "Ile rzutków daje jedna oś {{tm:sporting}} i jak się dzielą?",
+      "options": {
+        "a": "20: 10 pojedynczych i 5 dubletów",
+        "b": "25: same pojedyncze",
+        "c": "25: 15 pojedynczych i 5 dubletów",
+        "d": "50: 25 pojedynczych i 25 dubletów"
+      },
+      "explain": "Każdy typ osi daje 15 rzutków pojedynczych plus 5 dubletów, czyli 25 rzutków."
+    },
+    "sporting-rounds-stands-q2": {
+      "q": "W jakiej kolejności grupa strzela na stanowisku?",
+      "options": {
+        "a": "Najpierw dublety, potem pojedyncze, w ustalonym porządku",
+        "b": "Najpierw pojedyncze, potem dublety, w rotacji",
+        "c": "Każdy strzelec strzela całe stanowisko za jednym razem",
+        "d": "Strzelcy sami ustalają kolejność"
+      },
+      "explain": "Najpierw pojedyncze, potem dublety, w rotacji, jeśli jury nie zdecyduje inaczej."
+    },
+    "sport-sporting-layout-q2": {
+      "q": "Trener mówi „Go to stand two”. Co znaczy tu „stand”?",
+      "options": {
+        "a": "Całą strzelnicę",
+        "b": "Metrowe stanowisko strzeleckie",
+        "c": "Trybunę dla widzów",
+        "d": "Stojak na broń"
+      },
+      "explain": "W {{tm:sporting}} stand to metrowe stanowisko, na którym stoi strzelec. To nie cała strzelnica."
+    },
+    "sport-sporting-layout-q3": {
+      "q": "Jak oznacza się wyrzutnie na stanowisku {{tm:sporting}}?",
+      "options": {
+        "a": "Numerami 1–6, licząc od prawej",
+        "b": "Kolorami namalowanymi na maszynach",
+        "c": "Literami A, B, C, D od lewej do prawej",
+        "d": "Imieniem osoby, która je zwalnia"
+      },
+      "explain": "Litery A, B, C, D czyta się od lewej do prawej, licząc od strzelca; używają ich menu i karta wyników."
+    },
+    "sporting-rounds-stands-q3": {
+      "q": "Schodząc ze stanowiska, strzelec widzi, że trafienie zapisano jako pudło. Co powinien zrobić?",
+      "options": {
+        "a": "Poczekać do końca serii i odwołać się do jury",
+        "b": "Samemu poprawić kartę",
+        "c": "Poprosić grupę o głosowanie",
+        "d": "Od razu powiedzieć sędziemu; decyduje sędzia"
+      },
+      "explain": "Wyniki sprawdza się, schodząc z każdego stanowiska; decyduje wyłącznie sędzia, a później nie ma odwołania."
+    },
+    "targets-sporting-layout-q-international": {
+      "q": "Ile rzutków ma międzynarodowe zawody {{tm:sporting}}?",
+      "options": {
+        "a": "100",
+        "b": "150",
+        "c": "200",
+        "d": "250"
+      },
+      "explain": "Zawody międzynarodowe to 200 rzutków, strzelanych w ośmiu seriach po 25."
+    },
+    "etiquette-squad-q3": {
+      "q": "Jak w {{tm:sporting}} działa kolejność strzelania w grupie?",
+      "options": {
+        "a": "Zmienia się na każdym stanowisku i przy dubletach",
+        "b": "Jest ustalona na cały dzień",
+        "c": "Zawsze zaczyna strzelec z najwyższym rankingiem",
+        "d": "Sędzia wybiera dowolnie"
+      },
+      "explain": "Grupy po sześciu wyłania się losowaniem, a kolejność zmienia się na każdym stanowisku, a także przy dubletach."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "targets-reading-a-target",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "c58ee91b",
+    "summary": "08a6882a",
+    "targets-reading-a-target-p1": "73f7f627",
+    "targets-reading-a-target-p2": "46d7b9fe",
+    "targets-reading-a-target-p3": "b1333ac7",
+    "targets-reading-a-target-points": "77c58330",
+    "targets-reading-a-target-p4": "5f61914c",
+    "targets-reading-a-target-p5": "2d04761d",
+    "targets-reading-a-target-mock": "af5065d8",
+    "targets-reading-a-target-p6": "c0465e01",
+    "targets-reading-a-target-kp1": "f556dd7a",
+    "targets-reading-a-target-kp2": "640ea1f0",
+    "targets-reading-a-target-kp3": "0d490d3c",
+    "targets-reading-a-target-kp4": "8050f3c2",
+    "targets-reading-a-target-kp5": "4bc4579e",
+    "targets-reading-a-target-dyk": "10d8c94e",
+    "targets-reading-a-target-q1": "f67e3bfa",
+    "targets-reading-a-target-q2": "07ba1296",
+    "targets-reading-a-target-q3": "a8d476d2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Miten kiekkoa “luetaan”",
+  "summary": "Mitä kannattaa tarkkailla, kun kiekkoja näytetään: mistä kiekko ilmestyy, minne se lentää, missä sen rikot ja mitä et saa tehdä.",
+  "body": {
+    "targets-reading-a-target-p1": "Kiekon “lukeminen” tarkoittaa, että ennen ammuntaa ymmärrät, miten se lentää: mistä se ilmestyy, kuinka nopeasti se liikkuu, missä se kääntyy, nousee tai laskee. Kokeneet ampujat tekevät tämän joka ampumapaikalla, ja se ratkaisee usein osuman ja ohilaukauksen välillä. Tämä pätee yhtä lailla {{tm:sporting}}- kuin {{tm:compak}}-lajissa.",
+    "targets-reading-a-target-p2": "Aloita {{term:target-menu|kiekkoluettelosta}}: mitä heittimiä, missä järjestyksessä ja onko mukana erikoiskiekkoja. Seuraa sitten tarkasti, kun kiekkoja näytetään ({{term:target-presentation|näytekiekot}}). {{tm:sporting}}-lajissa ampumapaikan kiekot näytetään ennen ammuntaa erän ensimmäiselle ampujalle. Laukauksesta lähteviä kaksoiskiekkoja ei näytetä. {{tm:compak}}-lajissa näyttäminen on järjestetty omalla tavallaan. Yksityiskohdat ovat luvussa {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Kysy itseltäsi yksinkertaisia kysymyksiä. Missä näen kiekon ensimmäisen kerran selvästi? Se on {{term:pick-up-point|katsepisteesi}}, josta silmäsi alkavat seurata sitä. Missä se on helpoin rikkoa? Se on {{term:break-point|osumapisteesi}}. Siellä kiekon pitäisi vielä näkyä selvästi, eikä se saa olla putoamassa puiden taakse tai lentämässä {{term:shooting-limit|takarajan}} yli.",
+    "targets-reading-a-target-points": "Miten {{term:hold-point|aseen aloituskohta}}, katsepiste ja osumapiste toimivat yhdessä, selittää luku {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p4": "Pane merkille nopeus, etäisyys ja kulma sekä se, mitä kiekko juuri tekee: nouseeko se, hidastuuko vai laskeeko. Tuuli voi nostaa kiekkoa tai painaa sitä alas, ja tumma puurivi tai kirkas taivas muuttaa sitä, miten sen näet. Hidastuva kiekko tarvitsee vähemmän {{term:lead|ennakkoa}} kuin täydellä nopeudella lentävä.",
+    "targets-reading-a-target-p5": "Katso, miten muut ampuvat, mutta ajattele itse: jokaisella ampujalla on oma tahtinsa. Kun kiekkoja näytetään, moni valmentaja neuvoo seuraamaan niitä pelkästään silmillä.",
+    "targets-reading-a-target-mock": {
+      "sporting": "Ei sallittua missään kohtaa rataa. Ensimmäisellä kerralla tuomari antaa varoituksen. Jos teet sen uudelleen, seuraava osuma kiekko lasketaan ohilaukaukseksi (nolla).",
+      "compak": "Ei sallittua ampumapaikkojen ulkopuolella eikä silloin, kun toinen erän jäsen ampuu. Kun kiekkoja näytetään, ase on avoinna ja lataamaton."
+    },
+    "targets-reading-a-target-p6": "{{tm:sporting}}-lentoradat jaetaan {{term:difficulty-class|vaikeusluokkiin}}: {{fact:targets.sporting-difficulty-classes}}. Älä harmistu, jos et osu luokan C kiekkoon: se on tarkoituksella vaikea. Kiekkojen lukemisen oppii helpoiten pätevän valmentajan kanssa, joka näyttää, mihin kannattaa kiinnittää huomiota."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "targets-reading-a-target-kp1": "Ensin kiekkoluettelo, sitten tarkka seuranta kiekkojen näyttämisen aikana.",
+    "targets-reading-a-target-kp2": "Etsi, missä näet kiekon ensin selvästi ja missä aiot rikkoa sen.",
+    "targets-reading-a-target-kp3": "Pane merkille nopeus, kulma, tuuli, tausta ja hidastuuko kiekko.",
+    "targets-reading-a-target-kp4": "Seuraa silmillä; {{tm:sporting}}-lajissa tähtäysharjoittelu ei ole sallittua missään kohtaa rataa, {{tm:compak}}-lajissa ampumapaikkojen ulkopuolella eikä kun joku toinen ampuu.",
+    "targets-reading-a-target-kp5": "{{tm:sporting}}-vaikeusluokat: {{fact:targets.sporting-difficulty-classes}}."
+  },
+  "quiz": {
+    "targets-reading-a-target-q1": {
+      "q": "Mikä on osumapiste (break point)?",
+      "options": {
+        "a": "Paikka, jossa aiot rikkoa kiekon",
+        "b": "Paikka, jossa kiekon heittävä heitin seisoo",
+        "c": "Paikka, johon kiekko putoaa maahan"
+      },
+      "explain": "Osumapiste (break point) on kohta lentoradalla, jonka valitset etukäteen."
+    },
+    "targets-reading-a-target-q2": {
+      "q": "Saako {{tm:sporting}}-lajissa kiekkojen näyttämisen aikana nostaa aseen ja viedä sitä kiekon linjaa pitkin?",
+      "options": {
+        "a": "Kyllä, se on hyvää valmistautumista",
+        "b": "Ei, se on tähtäysharjoittelua",
+        "c": "Kyllä, jos ase on lataamaton"
+      },
+      "explain": "Seuraa vain silmillä. Kukaan ei saa ampua tai teeskennellä ampuvansa kiekkojen näyttämisen aikana, ja aseet pysyvät avoinna ja lataamattomina, kunnes tuomari sallii niiden sulkemisen."
+    },
+    "targets-reading-a-target-q3": {
+      "q": "Minkä osuuden luokan C kiekoista keskivertoampuja rikkoo {{tm:sporting}}-lajissa?",
+      "options": {
+        "a": "Yli 80 %",
+        "b": "60–80 %",
+        "c": "40–60 %"
+      },
+      "explain": "Luokka C on vaikein: 40–60 %. Luokka A on yli 80 %, luokka B 60–80 %."
+    }
+  },
+  "did_you_know": "{{tm:sporting}}-lajissa laukauksesta lähteviä kaksoiskiekkoja ei näytetä, mutta olet jo nähnyt molemmat kiekot: kaksoiskiekot koostuvat vain kiekoista, jotka on näytetty yksittäiskiekkoina samalta ampumapaikalta."
+}

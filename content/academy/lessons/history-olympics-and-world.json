@@ -1,0 +1,302 @@
+{
+  "id": "history-olympics-and-world",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "fan",
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "history-olympics-and-world"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "olympic-trap",
+    "skeet",
+    "fitasc",
+    "national-federation",
+    "championship",
+    "grand-prix",
+    "sporting",
+    "compak-sporting",
+    "clayaway"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Civilian Marksmanship Program — A history of the Olympic shooting program (PDF)",
+        "uk": "Civilian Marksmanship Program — історія олімпійської програми зі стрільби (PDF)"
+      },
+      "url": "https://thecmp.org/wp-content/uploads/2023/03/History-of-Olympic-Shooting-Text.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NSSA — The history of skeet (PDF)",
+        "uk": "NSSA — історія скіту (PDF)"
+      },
+      "url": "https://mynssa.nssa-nsca.org/wp-content/uploads/sites/10/2010/08/GCMSect-C-2002.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Olympic Trap and Skeet, and the road to a world sport",
+    "uk": "Олімпійські трап і скіт та шлях до світового спорту"
+  },
+  "summary": {
+    "en": "A short look at the Olympic disciplines Trap and Skeet, and at how clay shooting became international: federations, championships, video and online results.",
+    "uk": "Коротко про олімпійські дисципліни трап і скіт та про те, як стендова стрільба стала міжнародною: федерації, чемпіонати, відео й результати онлайн."
+  },
+  "body": [
+    {
+      "k": "history-olympics-and-world-p1",
+      "t": "p",
+      "en": "Besides {{tm:sporting}} and {{tm:compak}} there are two Olympic clay disciplines: {{term:olympic-trap|Olympic Trap}} and {{term:skeet|Skeet}}. They are governed by the ISSF, not by {{term:fitasc|FITASC}}. Their rules are their own, and a shooter used to sporting will notice that everything, from the targets to the pace, feels different.",
+      "uk": "Крім {{tm:sporting}} і {{tm:compak}}, є дві олімпійські стендові дисципліни: {{term:olympic-trap|олімпійський трап}} і {{term:skeet|скіт}}. Ними керує не {{term:fitasc|FITASC}}, а ISSF. Правила там інші, і стрілець зі спортингу помітить, що все — від мішеней до темпу — відчувається інакше."
+    },
+    {
+      "k": "history-olympics-and-world-p2",
+      "t": "p",
+      "en": "In Olympic Trap, also called Olympic trench, the targets fly away from the shooter at changing angles. They come out of a trench in front: a long pit in the ground where the throwing machines are hidden. Trap was first held at the 1900 Olympic Games in Paris. It then came and went, and it has been on the programme of all Games since 1952.",
+      "uk": "В олімпійському трапі (англійською його ще називають Olympic trench) мішені вилітають від стрільця під різними кутами. Їх запускають із траншеї попереду — довгої ями в землі, де сховані машинки. Уперше трап був на Олімпійських іграх 1900 року в Парижі. Потім він то з’являвся, то зникав із програми, а з 1952 року входить до програми всіх Ігор."
+    },
+    {
+      "k": "history-olympics-and-world-p3",
+      "t": "p",
+      "en": "Skeet was created in the USA in the 1920s by hunters who wanted to practise shots from many angles. Its name was chosen in 1926 through a readers' contest in two magazines. Today the targets cross the field from two small huts called houses, which hold the throwing machines: a high house and a low house.",
+      "uk": "Скіт придумали у США в 1920-х роках мисливці, які хотіли тренувати постріли під різними кутами. Назву обрали 1926 року на читацькому конкурсі у двох журналах. Сьогодні мішені перетинають поле з двох будок, у яких стоять машинки, — високої та низької."
+    },
+    {
+      "k": "history-olympics-and-world-p4",
+      "t": "p",
+      "en": "Skeet first appeared at the Olympic Games in 1968, in Mexico City. From 1968 to 1992 women could enter the Olympic clay events together with men. The first separate women's clay event was Double Trap, held from 1996 to 2004. Separate women's Trap and Skeet have been on the programme since 2000, and mixed team events came later.",
+      "uk": "На Олімпійських іграх скіт уперше з’явився 1968 року в Мехіко. З 1968 по 1992 рік жінки могли брати участь в олімпійських стендових змаганнях разом із чоловіками. Першим окремим жіночим стендовим змаганням став дубль-трап, який проводили з 1996 по 2004 рік. Окремі жіночі трап і скіт є в програмі з 2000 року, а згодом додали й змішані командні змагання."
+    },
+    {
+      "k": "history-olympics-and-world-p5",
+      "t": "p",
+      "en": "For many people the Olympics are their first look at clay shooting. But other things made the sport international too. {{term:national-federation|National federations}} joined international ones, and World and European {{term:championship|Championships}} appeared.",
+      "uk": "Для багатьох людей саме Олімпіада стає першим знайомством зі стендовою стрільбою. Але міжнародним спорт зробили й інші речі. {{term:national-federation|Національні федерації}} об’єдналися в міжнародні, з’явилися {{term:championship|чемпіонати}} світу та Європи."
+    },
+    {
+      "k": "history-olympics-and-world-p6",
+      "t": "p",
+      "en": "Later came {{term:grand-prix|Grand Prix}} events and open competitions that draw shooters from abroad. Today {{tm:sporting}} and {{tm:compak}} are shot on several continents.",
+      "uk": "Згодом додалися {{term:grand-prix|гран-прі}} та відкриті змагання, на які приїжджають стрільці з інших країн. Сьогодні {{tm:sporting}} і {{tm:compak}} стріляють на кількох континентах."
+    },
+    {
+      "k": "history-olympics-and-world-p7",
+      "t": "p",
+      "en": "In recent decades the internet added one more step. Results, videos and rankings are online, so you can follow the season worldwide. ClayArena collects this information for {{tm:sporting}} and {{tm:compak}}: {{lesson:clayarena-what-is-clayarena}}. {{term:clayaway|ClayAway}}, a service for training trips abroad, is being prepared.",
+      "uk": "Останні десятиліття додали ще один крок — інтернет. Результати, відео й рейтинги тепер онлайн, тож за сезоном можна стежити в усьому світі. ClayArena збирає таку інформацію для {{tm:sporting}} і {{tm:compak}}: {{lesson:clayarena-what-is-clayarena}}. {{term:clayaway|ClayAway}} — сервіс тренувальних поїздок за кордон — готується."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "history-olympics-and-world-kp1",
+      "en": "Olympic Trap and Skeet are governed by the ISSF.",
+      "uk": "Олімпійськими трапом і скітом керує ISSF."
+    },
+    {
+      "k": "history-olympics-and-world-kp2",
+      "en": "Trap was first at the 1900 Games and has been at all Games since 1952.",
+      "uk": "Трап уперше був на Іграх 1900 року, а з 1952 року — на всіх Іграх."
+    },
+    {
+      "k": "history-olympics-and-world-kp3",
+      "en": "Skeet began in the USA in the 1920s and has been Olympic since 1968.",
+      "uk": "Скіт з’явився у США в 1920-х роках, а олімпійським став 1968 року."
+    },
+    {
+      "k": "history-olympics-and-world-kp5",
+      "en": "Separate women's Trap and Skeet since 2000; mixed team events came later.",
+      "uk": "Окремі жіночі трап і скіт — з 2000 року; згодом з’явилися змішані командні змагання."
+    },
+    {
+      "k": "history-olympics-and-world-kp4",
+      "en": "Federations, championships and now the internet made the sport international.",
+      "uk": "Міжнародним спорт зробили федерації, чемпіонати, а тепер і інтернет."
+    }
+  ],
+  "did_you_know": {
+    "k": "history-olympics-and-world-dyk",
+    "en": "Skeet began with one trap and stations in a full circle, like a clock face. When a neighbour opened a chicken farm next to the field, a second trap was placed opposite the first. The shooter got the same angles, but the danger area was halved.",
+    "uk": "Спочатку в скіті була одна машинка, а місця стрільців стояли по колу, як на циферблаті. Коли сусід відкрив поруч курячу ферму, навпроти першої машинки поставили другу. Кути для стрільця лишилися ті самі, а небезпечна зона зменшилася вдвічі."
+  },
+  "quiz": [
+    {
+      "k": "history-olympics-and-world-q1",
+      "q": {
+        "en": "Who governs Olympic Trap and Skeet?",
+        "uk": "Хто керує олімпійськими трапом і скітом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "FITASC",
+          "uk": "FITASC"
+        },
+        {
+          "k": "b",
+          "en": "The ISSF",
+          "uk": "ISSF"
+        },
+        {
+          "k": "c",
+          "en": "Each club on its own",
+          "uk": "Кожен клуб окремо"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The Olympic clay disciplines are governed by the ISSF; FITASC governs {{tm:sporting}} and {{tm:compak}}.",
+        "uk": "Олімпійськими стендовими дисциплінами керує ISSF, а FITASC — {{tm:sporting}} і {{tm:compak}}."
+      }
+    },
+    {
+      "k": "history-olympics-and-world-q2",
+      "q": {
+        "en": "When did Skeet first appear at the Olympic Games?",
+        "uk": "Коли скіт уперше з’явився на Олімпійських іграх?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In 1900",
+          "uk": "1900 року"
+        },
+        {
+          "k": "b",
+          "en": "In 1952",
+          "uk": "1952 року"
+        },
+        {
+          "k": "c",
+          "en": "In 1968",
+          "uk": "1968 року"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Skeet made its Olympic debut in 1968 in Mexico City.",
+        "uk": "Олімпійський дебют скіту відбувся 1968 року в Мехіко."
+      }
+    },
+    {
+      "k": "history-olympics-and-world-q4",
+      "q": {
+        "en": "Since when have women had their own Olympic Trap and Skeet events?",
+        "uk": "Відколи жінки мають окремі олімпійські змагання з трапу і скіту?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Since 2000",
+          "uk": "З 2000 року"
+        },
+        {
+          "k": "b",
+          "en": "Since 1900",
+          "uk": "З 1900 року"
+        },
+        {
+          "k": "c",
+          "en": "Since 1952",
+          "uk": "З 1952 року"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Women's Trap and Skeet were added in 2000 (women's Double Trap was held from 1996 to 2004). Before that, from 1968 to 1992, women could shoot in the same events as men.",
+        "uk": "Жіночі трап і скіт додали 2000 року (жіночий дубль-трап проводили з 1996 по 2004 рік). А до того, з 1968 по 1992 рік, жінки могли стріляти в тих самих змаганнях, що й чоловіки."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "history-olympics-and-world-q3",
+      "q": {
+        "en": "Where was Skeet invented?",
+        "uk": "Де придумали скіт?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In France",
+          "uk": "У Франції"
+        },
+        {
+          "k": "b",
+          "en": "In the USA",
+          "uk": "У США"
+        },
+        {
+          "k": "c",
+          "en": "In Australia",
+          "uk": "В Австралії"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Skeet was created by American hunters in the 1920s.",
+        "uk": "Скіт придумали американські мисливці в 1920-х роках."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "9e179e7c",
+    "summary": "b0468a7a",
+    "history-olympics-and-world-p1": "555ff9cb",
+    "history-olympics-and-world-p2": "1220d4d4",
+    "history-olympics-and-world-p3": "0d3d02f3",
+    "history-olympics-and-world-p4": "d303b56e",
+    "history-olympics-and-world-p5": "e771e939",
+    "history-olympics-and-world-p6": "21f636c8",
+    "history-olympics-and-world-p7": "fda74a43",
+    "history-olympics-and-world-kp1": "77d8e7ec",
+    "history-olympics-and-world-kp2": "c4e58357",
+    "history-olympics-and-world-kp3": "8e58bdf7",
+    "history-olympics-and-world-kp5": "6e2c78a0",
+    "history-olympics-and-world-kp4": "4ade45f1",
+    "history-olympics-and-world-dyk": "e14f1df4",
+    "history-olympics-and-world-q1": "09b47757",
+    "history-olympics-and-world-q2": "8ae48d75",
+    "history-olympics-and-world-q4": "3c29a955",
+    "history-olympics-and-world-q3": "9f96c252"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

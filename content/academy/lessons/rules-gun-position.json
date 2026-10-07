@@ -1,0 +1,663 @@
+{
+  "id": "rules-gun-position",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "certified FITASC referee",
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js (FITASC edition 01/01/2025, file of 2026-03-29), compak.js (edition 01/01/2025, file of 2026-02-02)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "rules-gun-position"
+    ],
+    "interpreter": [
+      "sporting-gun-position"
+    ]
+  },
+  "terms": [
+    "shooting-stand",
+    "ready-position",
+    "jacket-line",
+    "adjustable-comb",
+    "gun-mount",
+    "rabbit",
+    "double",
+    "yellow-card",
+    "layout",
+    "red-card",
+    "mock-shooting",
+    "sporting",
+    "compak-sporting",
+    "gun-position",
+    "shooting-vest"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-mounting"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-between-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-yellow-card"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-mock-shooting"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-red-card"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    }
+  ],
+  "facts": [
+    "rules.sporting-jacket-line"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Gun position before the target appears",
+    "uk": "Положення рушниці до появи мішені"
+  },
+  "summary": {
+    "en": "In {{tm:sporting}} the stock stays below a line on the vest until the target appears. In {{tm:compak}} the gun position at the call is free.",
+    "uk": "У {{tm:sporting}} приклад тримають нижче лінії на жилеті, доки не з’явиться мішень. У {{tm:compak}} положення рушниці під час команди вільне."
+  },
+  "body": [
+    {
+      "k": "rules-gun-position-p1",
+      "t": "p",
+      "en": "At a {{tm:sporting}} competition, shooters call for the target with the gun held low. This is a rule, not a matter of style. {{tm:compak}} has no such rule.",
+      "uk": "На змаганнях із {{tm:sporting}} стрільці кличуть мішень, тримаючи рушницю низько. Це правило, а не питання стилю. У {{tm:compak}} такого правила немає."
+    },
+    {
+      "k": "rules-gun-position-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "Before you call",
+      "uk": "Перед командою",
+      "sporting": {
+        "rule_ref": "sporting:ch3-ready-position",
+        "en": "Gun low: the top back of the stock is kept under the vest line until you see the target.",
+        "uk": "Рушниця внизу: задній верх приклада лишається нижче лінії на жилеті, доки не з’явиться мішень."
+      },
+      "compak": {
+        "rule_ref": "compak:ch17-gun-position",
+        "en": "Free: the gun may already be at the shoulder, or lower. There is no line on the vest, but the shot is still fired from the shoulder.",
+        "uk": "Вільно: рушниця може бути вже біля плеча або нижче. Лінії на жилеті немає, але стріляють усе одно з рушницею біля плеча."
+      }
+    },
+    {
+      "k": "sporting-gun-position-p1",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-ready-position",
+      "anchor": "sporting-gun-position",
+      "en": "In {{tm:sporting}}, before you call, both your feet are inside the {{term:shooting-stand|stand}}. The heel of the stock (its top back corner, the part that goes into your shoulder) touches your body. The highest back point of the stock, usually the heel itself, stays below the line on the vest. You keep this {{term:ready-position|ready position}} until the target has left the trap and you can see it.",
+      "uk": "У {{tm:sporting}} перед командою ви стоїте обома ногами в межах {{term:shooting-stand|стрілецького місця}}. П’ятка приклада (його верхній задній кут, та частина, що ляже в плече) торкається тіла. Найвища задня точка приклада — зазвичай сама п’ятка — лишається нижче лінії на жилеті. Це {{term:ready-position|вихідне положення}} ви тримаєте, доки мішень не вилетить із машинки й ви її не побачите."
+    },
+    {
+      "k": "sporting-gun-position-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-jacket-line",
+      "en": "The {{term:jacket-line|line}} is marked on the vest or jacket {{fact:rules.sporting-jacket-line}} (an imaginary horizontal line through both shoulders), parallel to it. Its colour stands out against the vest, so the referee can see it. The rule covers all kinds of stock: standard, Monte Carlo (with a raised comb, the top edge of the stock where your cheek rests) and {{term:adjustable-comb|adjustable comb}}.",
+      "uk": "{{term:jacket-line|Лінію}} наносять на жилет чи куртку {{fact:rules.sporting-jacket-line}} (уявної горизонтальної лінії через обидва плечі), паралельно до неї. Її колір помітно відрізняється від жилета, щоб суддя її бачив. Правило стосується будь-якого приклада: звичайного, Monte Carlo (з піднятим гребенем — верхнім краєм приклада, на який лягає щока) і з {{term:adjustable-comb|регульованим гребенем}}."
+    },
+    {
+      "k": "sporting-gun-position-p3",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-mounting",
+      "en": "You may bring the gun up to your shoulder ({{term:gun-mount|mount}} it) only once the target appears. All targets, the {{term:rabbit|rabbit}} too, are shot with the gun at the shoulder; shooting from the hip is not allowed.",
+      "uk": "Вкладати рушницю ({{term:gun-mount|вкладка}}), тобто піднімати її до плеча, можна лише тоді, коли з’явилася мішень. По всіх мішенях, і по {{term:rabbit|кролику}} теж, стріляють із рушницею біля плеча; стріляти від стегна заборонено."
+    },
+    {
+      "k": "rules-gun-position-p5",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-between-doubles",
+      "en": "One relaxation: in a {{term:double|double}}, you may hold the gun as you like between the first and the second target. Before the first target the low position still applies.",
+      "uk": "Є одне послаблення: у {{term:double|дуплеті}} рушницю можна тримати як завгодно в проміжку між першою і другою мішенню. Перед першою мішенню низьке положення все одно обов’язкове."
+    },
+    {
+      "k": "sporting-gun-position-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch12-yellow-card",
+      "en": "Penalties: the first time you call in a wrong position or mount the gun too early, the referee gives a spoken warning and shows a {{term:yellow-card|yellow card}}. Doing it again on the same {{term:layout|layout}} costs a {{term:red-card|red card}}: a single is scored zero, and doubles follow the table in the rules guide ({{rule:sporting:ch12-red-card}}).",
+      "uk": "Санкції: коли ви вперше кличете мішень у неправильному положенні або вкладаєте рушницю зарано, суддя робить усне попередження й показує {{term:yellow-card|жовту картку}}. Повтор на тому самому {{term:layout|майданчику}} — {{term:red-card|червона картка}}: одиночну мішень зараховують як zero, а дуплети — за таблицею в довіднику правил ({{rule:sporting:ch12-red-card}})."
+    },
+    {
+      "k": "sporting-gun-position-p5",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch8-mock-shooting",
+      "en": "Mounting the gun and swinging it along the line where you expect the target, before you call, is {{term:mock-shooting|mock shooting}}, and it is forbidden too. The first time brings a warning. If it happens again, the next target you hit is scored zero.",
+      "uk": "Вкладати рушницю й вести нею по лінії, де ви чекаєте мішень, ще до команди — це {{term:mock-shooting|імітація стрільби}}, і вона теж заборонена. Уперше — попередження. Якщо це повториться, наступну мішень, яку ви розіб’єте, зараховують як zero."
+    },
+    {
+      "k": "rules-gun-position-tip1",
+      "t": "tip",
+      "en": "If you shoot both disciplines, many coaches suggest training the low-gun start before a {{tm:sporting}} event, even if you call gun-up in {{tm:compak}}.",
+      "uk": "Якщо ви стріляєте обидві дисципліни, багато тренерів радять перед змаганнями з {{tm:sporting}} тренуватися зі стартом з опущеною рушницею, навіть якщо в {{tm:compak}} ви кличете мішень із рушницею біля плеча."
+    },
+    {
+      "k": "sporting-gun-position-sim",
+      "t": "sim",
+      "sim": {
+        "type": "call"
+      },
+      "ready": false
+    }
+  ],
+  "note": [
+    {
+      "k": "rules-gun-position-n1",
+      "for": "interpreter",
+      "en": "If a coach drills a gun-up start before a {{tm:sporting}} event, make sure the word 'drill' is translated too: it is an exercise, not the competition start.",
+      "uk": "Якщо тренер перед змаганнями з {{tm:sporting}} дає вправу зі стартом «gun up», подбайте, щоб у перекладі прозвучало й слово «вправа»: це тренування, а не старт на змаганні."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "sporting-gun-position-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Gun down, please.",
+      "meaning": {
+        "en": "Referee: bring the stock below the vest line before calling.",
+        "uk": "Суддя: опустіть приклад нижче лінії на жилеті перед командою."
+      },
+      "say": {
+        "uk": "Рушницю вниз, будь ласка."
+      }
+    },
+    {
+      "k": "sporting-gun-position-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Your stock was above the line. This is a warning.",
+      "meaning": {
+        "en": "First gun-position offence: verbal warning with a yellow card.",
+        "uk": "Перше порушення положення рушниці: усне попередження з жовтою карткою."
+      },
+      "say": {
+        "uk": "Приклад був вище лінії. Це попередження."
+      }
+    },
+    {
+      "k": "sporting-gun-position-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Don't mount before the target appears.",
+      "meaning": {
+        "en": "The gun may come up only once the target is visible.",
+        "uk": "Піднімати рушницю можна лише тоді, коли мішень уже видно."
+      },
+      "say": {
+        "uk": "Не вкладайте рушницю до появи мішені."
+      }
+    },
+    {
+      "k": "sporting-gun-position-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Red card, zero.",
+      "meaning": {
+        "en": "A repeat offence on the same layout; the single is lost.",
+        "uk": "Повторне порушення на тому самому майданчику; одиночну мішень не зараховано."
+      },
+      "say": {
+        "uk": "Червона картка, zero."
+      }
+    },
+    {
+      "k": "gear-protection-clothes-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Butt under the tape until you see the target.",
+      "meaning": {
+        "en": "{{tm:sporting}} gun-down rule: the stock stays below the vest line until the target appears.",
+        "uk": "Правило {{tm:sporting}}: приклад нижче лінії на жилеті, доки не з’явиться мішень."
+      },
+      "say": {
+        "uk": "Приклад нижче лінії, доки не побачите мішень."
+      }
+    },
+    {
+      "k": "gear-protection-clothes-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "No marker needed here — it's Compak.",
+      "meaning": {
+        "en": "{{tm:compak}} has no vest-line requirement.",
+        "uk": "У {{tm:compak}} лінія на жилеті не потрібна."
+      },
+      "say": {
+        "uk": "Тут лінія не потрібна — це Compak."
+      }
+    },
+    {
+      "k": "compak-gun-and-call-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Gun up or down, your choice here.",
+      "meaning": {
+        "en": "Coach: in {{tm:compak}} the gun position at the call is free.",
+        "uk": "Тренер: у {{tm:compak}} положення рушниці під час команди вільне."
+      },
+      "say": {
+        "uk": "Тут рушниця — як вам зручно: на плечі чи внизу."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "sporting-gun-position-kp1",
+      "en": "{{tm:sporting}}: before the call, both feet in the stand, the heel of the stock (its top back corner) on your body and below the vest line.",
+      "uk": "{{tm:sporting}}: перед командою обидві ноги в межах стрілецького місця, п’ятка приклада (його верхній задній кут) на тілі й нижче лінії на жилеті.",
+      "checklist": true
+    },
+    {
+      "k": "sporting-gun-position-kp2",
+      "en": "{{tm:sporting}}: the vest line is {{fact:rules.sporting-jacket-line}} (a line through both shoulders), in a contrasting colour.",
+      "uk": "{{tm:sporting}}: лінія на жилеті — {{fact:rules.sporting-jacket-line}} (лінії через обидва плечі), контрастного кольору.",
+      "checklist": true
+    },
+    {
+      "k": "sporting-gun-position-kp3",
+      "en": "{{tm:sporting}}: mount only when the target appears; the gun position is free only between the two targets of a double.",
+      "uk": "{{tm:sporting}}: вкладка — лише після появи мішені; вільне положення — тільки між двома мішенями дуплета."
+    },
+    {
+      "k": "sporting-gun-position-kp4",
+      "en": "{{tm:sporting}}: the first offence brings a warning with a yellow card, the next one on the same layout a red card.",
+      "uk": "{{tm:sporting}}: за перше порушення — попередження з жовтою карткою, за повтор на тому самому майданчику — червона картка."
+    },
+    {
+      "k": "rules-gun-position-kp4",
+      "en": "{{tm:compak}}: the position at the call is free and there is no vest line; the shot is still fired from the shoulder.",
+      "uk": "{{tm:compak}}: положення під час команди вільне, лінії на жилеті немає; стріляють усе одно з рушницею біля плеча."
+    }
+  ],
+  "did_you_know": {
+    "k": "rules-gun-position-dyk",
+    "en": "The low-gun start is often explained by the hunting roots of {{tm:sporting}}: a hunter rarely waits for a bird with the gun already at the shoulder.",
+    "uk": "Старт із низькою рушницею часто пояснюють мисливським корінням {{tm:sporting}}: мисливець рідко чекає птаха з рушницею вже біля плеча."
+  },
+  "quiz": [
+    {
+      "k": "rules-gun-position-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "How far below the shoulder axis (an imaginary line through both shoulders) is the vest line in {{tm:sporting}}?",
+        "uk": "На якій відстані від осі плеча (уявної лінії через обидва плечі) проходить лінія на жилеті в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "10 cm",
+          "uk": "10 см"
+        },
+        {
+          "k": "b",
+          "en": "25 cm",
+          "uk": "25 см"
+        },
+        {
+          "k": "c",
+          "en": "40 cm",
+          "uk": "40 см"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The line runs {{fact:rules.sporting-jacket-line}}, parallel to it.",
+        "uk": "Лінія проходить {{fact:rules.sporting-jacket-line}}, паралельно до неї."
+      },
+      "rule_ref": "sporting:ch3-jacket-line"
+    },
+    {
+      "k": "rules-gun-position-q2",
+      "disc": "compak",
+      "q": {
+        "en": "May you call for the target in {{tm:compak}} with the gun already at the shoulder?",
+        "uk": "Чи можна в {{tm:compak}} кликати мішень із рушницею вже біля плеча?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, the gun must start low",
+          "uk": "Ні, рушниця має бути внизу"
+        },
+        {
+          "k": "b",
+          "en": "Only when shooting a double",
+          "uk": "Лише на дуплетах"
+        },
+        {
+          "k": "c",
+          "en": "Yes, the position is free",
+          "uk": "Так, положення вільне"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "{{tm:compak}} has no low-gun rule and no vest line; only the shot itself must be fired from the shoulder.",
+        "uk": "У {{tm:compak}} немає правила низької рушниці й лінії на жилеті; лише сам постріл роблять із рушницею біля плеча."
+      },
+      "rule_ref": "compak:ch17-gun-position"
+    },
+    {
+      "k": "rules-gun-position-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "When may you hold the gun as you like in {{tm:sporting}}?",
+        "uk": "Коли в {{tm:sporting}} можна тримати рушницю як завгодно?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Between the two targets of a double",
+          "uk": "Між двома мішенями дуплета"
+        },
+        {
+          "k": "b",
+          "en": "Before the first target of a double",
+          "uk": "Перед першою мішенню дуплета"
+        },
+        {
+          "k": "c",
+          "en": "While waiting for a rabbit",
+          "uk": "Коли чекаєте на кролика"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The free position is allowed only between the two targets of a double; before the first one the ready position applies.",
+        "uk": "Вільне положення дозволене лише між двома мішенями дуплета; перед першою діє вихідне положення."
+      },
+      "rule_ref": "sporting:ch3-between-doubles"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "sporting-gun-position-q1",
+      "q": {
+        "en": "On the first stand, a shooter calls with the gun already at the shoulder. It is the first such offence on this layout. What does the referee decide?",
+        "uk": "На першому місці стрілець кличе мішень, коли рушниця вже біля плеча. Це перше таке порушення на цьому майданчику. Яке рішення судді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The target is scored zero",
+          "uk": "Мішень зараховують як zero"
+        },
+        {
+          "k": "b",
+          "en": "A warning and a yellow card",
+          "uk": "Попередження й жовта картка"
+        },
+        {
+          "k": "c",
+          "en": "No Bird and nothing else",
+          "uk": "No Bird, і більше нічого"
+        },
+        {
+          "k": "d",
+          "en": "Expulsion from the event",
+          "uk": "Виключення зі змагання"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The first gun-position offence is a verbal warning backed by a yellow card.",
+        "uk": "Перше порушення положення рушниці — усне попередження з жовтою карткою."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch12-yellow-card"
+    },
+    {
+      "k": "sporting-gun-position-q2",
+      "q": {
+        "en": "Earlier on this layout, a shooter got a yellow card for gun position. Now, on a single, the stock is above the vest line at the call. Decision?",
+        "uk": "Раніше на цьому майданчику стрілець отримав жовту картку за положення рушниці. Тепер, на одиночній мішені, приклад під час команди вище лінії. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Another yellow card",
+          "uk": "Ще одна жовта картка"
+        },
+        {
+          "k": "b",
+          "en": "A No Bird, shot again",
+          "uk": "No Bird, повтор"
+        },
+        {
+          "k": "c",
+          "en": "Red card and a repeat",
+          "uk": "Червона картка й повтор"
+        },
+        {
+          "k": "d",
+          "en": "Red card and a zero",
+          "uk": "Червона картка і zero"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "After the warning, a further offence on the same layout is a red card: zero on a single.",
+        "uk": "Після попередження наступне порушення на тому самому майданчику — червона картка: на одиночній мішені zero."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch12-red-card"
+    },
+    {
+      "k": "sporting-gun-position-q3",
+      "q": {
+        "en": "{{tm:sporting}}. The referee has already warned a shooter once for mock shooting. Before the next call, the shooter again mounts and swings along the target's line, then breaks the target. How is it scored?",
+        "uk": "{{tm:sporting}}. Суддя вже раз попередив стрільця за імітацію стрільби. Перед наступною командою стрілець знову вкладає рушницю й веде нею по лінії мішені, а потім розбиває мішень. Як її зараховують?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One, with a second warning",
+          "uk": "One, з другим попередженням"
+        },
+        {
+          "k": "b",
+          "en": "Zero",
+          "uk": "Zero"
+        },
+        {
+          "k": "c",
+          "en": "No Bird, shot again",
+          "uk": "No Bird, повтор"
+        },
+        {
+          "k": "d",
+          "en": "One, no penalty",
+          "uk": "One, без санкцій"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "After a first warning for mock shooting, a repeat costs the next target the shooter hits: it is scored zero.",
+        "uk": "Після першого попередження за імітацію стрільби повтор коштує наступної розбитої мішені: її зараховують як zero."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch8-mock-shooting"
+    },
+    {
+      "k": "compak-gun-and-call-q1",
+      "q": {
+        "en": "In {{tm:compak}} a shooter calls with the gun held low and, when the rabbit appears, fires from the hip without mounting. Is that allowed?",
+        "uk": "У {{tm:compak}} стрілець дає команду з опущеною рушницею, а коли з’являється кролик, стріляє від стегна, не вкладаючи рушницю. Чи можна так?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, the gun position is free",
+          "uk": "Так, положення рушниці вільне"
+        },
+        {
+          "k": "b",
+          "en": "No, each shot is fired from the shoulder",
+          "uk": "Ні, кожен постріл — із рушницею біля плеча"
+        },
+        {
+          "k": "c",
+          "en": "Yes, but only at a rabbit",
+          "uk": "Так, але лише по кролику"
+        },
+        {
+          "k": "d",
+          "en": "Only for the second shot",
+          "uk": "Лише для другого пострілу"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:compak}} you may call with the gun up or down, but each target must be shot with the gun at the shoulder.",
+        "uk": "У {{tm:compak}} кликати мішень можна з рушницею і біля плеча, і внизу, але по кожній мішені стріляють із рушницею біля плеча."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch17-gun-position"
+    },
+    {
+      "k": "gear-protection-clothes-q2",
+      "q": {
+        "en": "A {{tm:sporting}} shooter uses a Monte Carlo stock, with a raised comb. Does the vest-line rule apply?",
+        "uk": "Стрілець {{tm:sporting}} має приклад Monte Carlo з піднятим гребенем. Чи діє для нього правило лінії на жилеті?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, it covers each type of stock",
+          "uk": "Так, воно стосується будь-якого приклада"
+        },
+        {
+          "k": "b",
+          "en": "No, only standard stocks",
+          "uk": "Ні, лише звичайних прикладів"
+        },
+        {
+          "k": "c",
+          "en": "Only for an adjustable comb",
+          "uk": "Лише для регульованого гребеня"
+        },
+        {
+          "k": "d",
+          "en": "Only in finals",
+          "uk": "Лише у фіналах"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The rule covers standard, Monte Carlo and adjustable-comb stocks: before the target appears, the top back of the stock stays below the vest line, which runs {{fact:rules.sporting-jacket-line}}.",
+        "uk": "Правило стосується звичайних прикладів, Monte Carlo і прикладів із регульованим гребенем: до появи мішені задній верх приклада лишається нижче лінії, що проходить {{fact:rules.sporting-jacket-line}}."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-ready-position"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "217daa8e",
+    "summary": "5f71387a",
+    "rules-gun-position-p1": "308382b7",
+    "rules-gun-position-cmp1": "95b76718",
+    "sporting-gun-position-p1": "8e9645ae",
+    "sporting-gun-position-p2": "d0d75e51",
+    "sporting-gun-position-p3": "c4416d62",
+    "rules-gun-position-p5": "408e96a9",
+    "sporting-gun-position-p4": "0a3425cb",
+    "sporting-gun-position-p5": "42345a8d",
+    "rules-gun-position-tip1": "2c6ec53c",
+    "rules-gun-position-n1": "c8357a04",
+    "sporting-gun-position-ph1": "1832c42b",
+    "sporting-gun-position-ph2": "2cf35975",
+    "sporting-gun-position-ph3": "fc05482d",
+    "sporting-gun-position-ph4": "8cfb394e",
+    "gear-protection-clothes-ph2": "75e93376",
+    "gear-protection-clothes-ph3": "6807ee7b",
+    "compak-gun-and-call-ph2": "08c2e3d7",
+    "sporting-gun-position-kp1": "825abaaa",
+    "sporting-gun-position-kp2": "b4b04213",
+    "sporting-gun-position-kp3": "ac9132d3",
+    "sporting-gun-position-kp4": "061fc1d9",
+    "rules-gun-position-kp4": "feed9af0",
+    "rules-gun-position-dyk": "71e12e41",
+    "rules-gun-position-q1": "bddb82a6",
+    "rules-gun-position-q2": "251e5a7f",
+    "rules-gun-position-q3": "3ac89e7f",
+    "sporting-gun-position-q1": "bbb625d7",
+    "sporting-gun-position-q2": "76c39e80",
+    "sporting-gun-position-q3": "a26941d8",
+    "compak-gun-and-call-q1": "f5376923",
+    "gear-protection-clothes-q2": "2223479a"
+  },
+  "todo": {
+    "tasks": [
+      "Animation sporting-gun-position-sim stays ready:false until it is checked against audit findings S-01…S-05 and S-09.",
+      "Referee: confirm the gloss of the shoulder axis in sporting-gun-position-p2 ('an imaginary horizontal line through both shoulders') and the wording of p1 ('the highest back point of the stock, usually the heel itself') against 3.1.1 for Monte Carlo and adjustable-comb stocks. The same gloss is now used in training-for-competition-p4, watching-what-to-look-at (compare block) and interpreter-numbers-and-units-p3, so a change here must go there too.",
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+    ]
+  }
+}

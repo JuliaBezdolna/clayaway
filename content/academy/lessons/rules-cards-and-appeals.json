@@ -1,0 +1,682 @@
+{
+  "id": "rules-cards-and-appeals",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "certified FITASC referee",
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js (FITASC edition 01/01/2025, file of 2026-03-29), compak.js (edition 01/01/2025, file of 2026-02-02)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "rules-cards-and-appeals"
+    ],
+    "interpreter": [
+      "referee-cards"
+    ]
+  },
+  "terms": [
+    "warning",
+    "yellow-card",
+    "layout",
+    "red-card",
+    "coaching",
+    "refusal-to-comply",
+    "attempt-to-influence",
+    "jury",
+    "expulsion",
+    "protest",
+    "sporting",
+    "compak-sporting",
+    "fitasc",
+    "penalty",
+    "appeal",
+    "conduct"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch13-acceptance"
+    },
+    {
+      "book": "compak",
+      "id": "ch23-yellow-card"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-red-card"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-penalty-table"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-shooting-nobird"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-shooting-no-bird"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-jury-penalties"
+    },
+    {
+      "book": "compak",
+      "id": "ch23-jury-sanctions"
+    },
+    {
+      "book": "sporting",
+      "id": "ch11-influence"
+    },
+    {
+      "book": "compak",
+      "id": "ch22-influence"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-how-to-appeal"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-protest"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-jury-appeal"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-signing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-immediate-expulsion"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-expulsion-record"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-no-refund"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loss-of-control"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-yellow-card"
+    },
+    {
+      "book": "compak",
+      "id": "ch23-exclusion-record"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-loss-of-control"
+    },
+    {
+      "book": "compak",
+      "id": "ch4-complaint-limits"
+    }
+  ],
+  "facts": [
+    "rules.round-targets",
+    "rules.sporting-jury-deposit"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Warnings, cards and penalties",
+    "uk": "Попередження, картки й покарання"
+  },
+  "summary": {
+    "en": "How penalties work in {{tm:sporting}} and {{tm:compak}}. First a warning with a yellow card; a red card for repeating an offence on the stand; jury sanctions, up to exclusion, for other repeats and serious misconduct.",
+    "uk": "Як працюють покарання в {{tm:sporting}} і {{tm:compak}}. Спершу попередження з жовтою карткою; червона картка — за повтор порушення на місці стрільби; санкції журі аж до виключення — за інші повтори й серйозні порушення поведінки."
+  },
+  "body": [
+    {
+      "k": "referee-cards-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch13-acceptance",
+        "compak:ch23-yellow-card"
+      ],
+      "anchor": "referee-cards",
+      "en": "FITASC penalties get heavier step by step. By entering a competition, you accept the rules and the penalties. The first time you break a rule, you normally get a {{term:warning|warning}}, shown with a {{term:yellow-card|yellow card}}. In {{tm:sporting}} a classic example is the gun position. A stock above the line on the vest, or a gun mounted before the target appears, earns a spoken warning and a yellow card.",
+      "uk": "Покарання FITASC зростають крок за кроком. Заявляючись на змагання, ви погоджуєтеся з правилами й покараннями. Перше порушення зазвичай означає {{term:warning|попередження}}, яке супроводжує {{term:yellow-card|жовта картка}}. Класичний приклад у {{tm:sporting}} — положення рушниці. Приклад вище лінії на жилеті або вкладка до появи мішені дають усне попередження й жовту картку."
+    },
+    {
+      "k": "rules-cards-and-appeals-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "A repeated offence on the stand",
+      "uk": "Повторне порушення на місці стрільби",
+      "sporting": {
+        "rule_ref": "sporting:ch12-red-card",
+        "en": "Repeating an on-stand offence on the same {{term:layout|layout}} after the warning (gun position or early mount, the time limit, shooting at a declared No Bird) brings a {{term:red-card|red card}}. A single is scored zero; doubles follow the table in the rules guide.",
+        "uk": "Повтор порушення на місці стрільби на тому самому {{term:layout|майданчику}} після попередження (положення рушниці чи рання вкладка, ліміт часу, постріл по оголошеному No Bird) — {{term:red-card|червона картка}}. Одиночну мішень зараховують як zero; дуплети — за таблицею в довіднику правил."
+      },
+      "compak": {
+        "rule_ref": "compak:ch21-penalty-table",
+        "en": "Repeating an on-stand offence on the same {{tm:compak}} layout (the field where you are shooting) after the warning brings a red card. This covers the time limit, refusing a target, shooting at a declared No Bird and the malfunction rules. A single is scored zero; doubles follow the table in the rules guide.",
+        "uk": "Повтор порушення на номері на тому самому майданчику {{tm:compak}} (полі, де ви стріляєте) після попередження — червона картка. Це стосується ліміту часу, відмови від мішені, пострілу по оголошеному No Bird і правил про несправності. Одиночну мішень зараховують як zero; дуплети — за таблицею в довіднику правил."
+      }
+    },
+    {
+      "k": "referee-cards-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch12-shooting-nobird",
+        "compak:ch21-shooting-no-bird"
+      ],
+      "en": "The same scale applies to shooting at a declared No Bird and to going over the time limit; see {{lesson:rules-call-and-time}}.",
+      "uk": "Та сама шкала діє за постріл по оголошеному No Bird і за перевищення ліміту часу; див. {{lesson:rules-call-and-time}}."
+    },
+    {
+      "k": "referee-cards-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch8-coaching",
+        "compak:ch21-coaching"
+      ],
+      "en": "{{term:coaching|Coaching}}, that is, someone giving you advice or instructions while you compete, is penalised too. You get a yellow card, repeats are sanctioned by the jury, and the referee sends the person who coached out of the shooting area.",
+      "uk": "Карають і за {{term:coaching|підказки}} — коли хтось дає вам поради чи вказівки під час змагання. Ви отримуєте жовту картку, повтори карає журі, а того, хто підказував, суддя видаляє із зони стрільби."
+    },
+    {
+      "k": "referee-cards-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch13-jury-penalties",
+        "compak:ch23-jury-sanctions"
+      ],
+      "en": "Other repeat offences (for example dress, competitor number, coaching or conduct) go to the {{term:jury|jury}}, the competition's panel of officials. So do {{term:refusal-to-comply|refusal to comply}} (not following the referee's decisions) and an {{term:attempt-to-influence|attempt to influence}} the referee. The jury can score one target as lost, strike out a whole round of {{fact:rules.round-targets}}, or exclude you from the competition. Throwing a gun, abuse or violence, and deliberately shooting at live animals can mean immediate {{term:expulsion|exclusion}}. An exclusion stays on FITASC's record for five years and brings no refund.",
+      "uk": "Інші повторні порушення (наприклад, одяг, стартовий номер, підказки чи поведінка) розглядає {{term:jury|журі}} — комісія офіційних осіб змагання. Так само журі розглядає {{term:refusal-to-comply|відмову виконувати вимоги судді}} і {{term:attempt-to-influence|спробу вплинути}} на суддю. Журі може зарахувати одну мішень як промах, зняти цілий раунд із {{fact:rules.round-targets}} або виключити вас зі змагання. Кидання рушниці, лайка чи насильство, а також навмисна стрільба по живих тваринах можуть означати негайне {{term:expulsion|виключення}}. FITASC зберігає запис про виключення п’ять років, а гроші за участь не повертають."
+    },
+    {
+      "k": "rules-cards-and-appeals-p7",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch11-influence",
+        "compak:ch22-influence"
+      ],
+      "en": "After a final ruling, resume shooting and let it go. Disputing the ruling after shooting has resumed, or criticising it openly, counts as an attempt to influence the referee.",
+      "uk": "Після остаточного рішення продовжуйте стрільбу й відпустіть ситуацію. Суперечка після відновлення стрільби чи відкрита критика рішення вважаються спробою вплинути на суддю."
+    },
+    {
+      "k": "rules-cards-and-appeals-protest",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch9-how-to-appeal",
+        "compak:ch19-protest"
+      ],
+      "en": "If you disagree with a ruling, {{term:protest|protest}} at once on the stand: raise your hand and say 'protest' or 'appeal'. How protests and jury appeals work is in {{lesson:competitions-results-and-protests}}.",
+      "uk": "Якщо ви не згодні з рішенням, заявіть {{term:protest|протест}} одразу на місці: підніміть руку й скажіть «protest» або «appeal». Як працюють протести й апеляції до журі — у {{lesson:competitions-results-and-protests}}."
+    },
+    {
+      "k": "rules-cards-and-appeals-tip1",
+      "t": "tip",
+      "en": "A yellow card is not the end of your round. Many coaches suggest one calm breath, a quick look at what caused it, and then your usual routine. More in {{lesson:mind-reset-after-miss}}.",
+      "uk": "Жовта картка — ще не кінець раунду. Багато тренерів радять один спокійний видих, коротко зрозуміти, що стало причиною, і далі — звичний ритуал. Докладніше — {{lesson:mind-reset-after-miss}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "rules-cards-and-appeals-n1",
+      "for": "interpreter",
+      "en": "For an interpreter, the coaching card matters most: in competition, translate only official words, not advice.",
+      "uk": "Для перекладача ця картка найважливіша: на змаганні перекладайте лише офіційне, а не поради."
+    },
+    {
+      "k": "rules-cards-and-appeals-n2",
+      "for": "interpreter",
+      "en": "Translate 'warning', 'yellow card' and 'red card' literally, calmly and at once.",
+      "uk": "«Warning», «yellow card» і «red card» перекладайте дослівно, спокійно й одразу."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "referee-cards-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Warning — your stock was above the line.",
+      "meaning": {
+        "en": "{{tm:sporting}}: the gun was too high before the target appeared; next time on this layout it costs the target.",
+        "uk": "{{tm:sporting}}: до появи мішені рушниця була зависоко; наступного разу на цьому майданчику це коштуватиме мішені."
+      },
+      "say": {
+        "uk": "Попередження — приклад був вище лінії."
+      }
+    },
+    {
+      "k": "referee-cards-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "That’s a yellow card.",
+      "meaning": {
+        "en": "An official first warning; it is recorded.",
+        "uk": "Офіційне перше попередження; його фіксують."
+      },
+      "say": {
+        "uk": "Це жовта картка."
+      }
+    },
+    {
+      "k": "referee-cards-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Red card — the target is zero.",
+      "meaning": {
+        "en": "A repeated offence on the stand: the target is scored as lost.",
+        "uk": "Повторне порушення на місці стрільби: мішень зараховано як промах."
+      },
+      "say": {
+        "uk": "Червона картка — мішень зараховано як промах."
+      }
+    },
+    {
+      "k": "referee-cards-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "You’re over time.",
+      "meaning": {
+        "en": "The shooter took longer than allowed (in {{tm:sporting}} 15 s between targets, in {{tm:compak}} 10 s to call).",
+        "uk": "Стрілець перевищив дозволений час (у {{tm:sporting}} 15 с між мішенями, у {{tm:compak}} 10 с на команду)."
+      },
+      "say": {
+        "uk": "Ви перевищили час."
+      }
+    },
+    {
+      "k": "referee-cards-ph5",
+      "speaker": "referee",
+      "core": true,
+      "en": "Sir, please leave the shooting area.",
+      "meaning": {
+        "en": "The referee is removing someone, for example a person caught coaching.",
+        "uk": "Суддя видаляє когось, наприклад людину, що підказувала."
+      },
+      "say": {
+        "uk": "Прошу вас залишити зону стрільби."
+      }
+    },
+    {
+      "k": "compak-dress-and-conduct-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "No coaching on the stand.",
+      "meaning": {
+        "en": "Referee warning: coaching is forbidden in competition.",
+        "uk": "Попередження судді: підказки на змаганнях заборонені."
+      },
+      "say": {
+        "uk": "На місці стрільби підказувати не можна."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "referee-cards-kp1",
+      "en": "First breach: a warning with a yellow card.",
+      "uk": "Перше порушення — попередження з жовтою карткою."
+    },
+    {
+      "k": "referee-cards-kp2",
+      "en": "Repeating an on-stand offence on the same layout (for example gun position or the time limit): a red card, and the target is scored as lost. Other repeats go to the jury.",
+      "uk": "Повтор порушення на місці стрільби на тому самому майданчику (наприклад, положення рушниці чи ліміт часу) — червона картка, мішень зараховують як промах. Інші повтори розглядає журі."
+    },
+    {
+      "k": "referee-cards-kp3",
+      "en": "Coaching in competition: a yellow card for the shooter, and the person who coached must leave the shooting area.",
+      "uk": "Підказки під час змагань: жовта картка стрільцеві, а той, хто підказував, мусить залишити зону стрільби."
+    },
+    {
+      "k": "referee-cards-kp4",
+      "en": "Jury sanctions go from the loss of a target or a round up to exclusion, which stays on record for five years.",
+      "uk": "Санкції журі — від зняття мішені чи раунду до виключення, запис про яке зберігають п’ять років."
+    },
+    {
+      "k": "rules-cards-and-appeals-kp3",
+      "en": "Disagree? Protest at once on the stand, hand up, before the next call.",
+      "uk": "Не згодні? Протест — одразу на місці, рука вгору, до наступної команди.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "rules-cards-and-appeals-dyk",
+    "en": "A second exclusion within three years of the first can lead FITASC to ban a shooter from its competitions for good.",
+    "uk": "Якщо стрільця виключать удруге протягом трьох років після першого разу, FITASC може назавжди не допустити його до своїх змагань."
+  },
+  "quiz": [
+    {
+      "k": "referee-cards-q2",
+      "q": {
+        "en": "The referee sees a coach giving advice to a shooter during a competition. What do the rules say?",
+        "uk": "Суддя бачить, як тренер підказує стрільцеві під час змагань. Що кажуть правила?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing, advice is allowed",
+          "uk": "Нічого, підказувати можна"
+        },
+        {
+          "k": "b",
+          "en": "A red card for the coach",
+          "uk": "Червона картка тренерові"
+        },
+        {
+          "k": "c",
+          "en": "A yellow card for the shooter",
+          "uk": "Жовта картка стрільцеві"
+        },
+        {
+          "k": "d",
+          "en": "The round is cancelled",
+          "uk": "Раунд скасовують"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Both rulebooks give the shooter a yellow card, and the person who coached has to leave the shooting area.",
+        "uk": "Обидва регламенти передбачають жовту картку стрільцеві, а той, хто підказував, має залишити зону стрільби."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch8-coaching"
+    },
+    {
+      "k": "referee-cards-q1",
+      "q": {
+        "en": "{{tm:sporting}}: after a yellow card for an early mount, the shooter mounts early again on the same layout, on a single. What follows?",
+        "uk": "{{tm:sporting}}: після жовтої картки за ранню вкладку стрілець знову рано вкладає рушницю на тому самому майданчику, на одиночній мішені. Що далі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Another warning only",
+          "uk": "Лише ще одне попередження"
+        },
+        {
+          "k": "b",
+          "en": "A red card and a zero",
+          "uk": "Червона картка і zero"
+        },
+        {
+          "k": "c",
+          "en": "A No Bird, shot again",
+          "uk": "No Bird, мішень повторюють"
+        },
+        {
+          "k": "d",
+          "en": "Immediate exclusion",
+          "uk": "Негайне виключення"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "After the first warning, doing it again on the same layout means a red card; on a single the target is zero.",
+        "uk": "Після першого попередження повтор на тому самому майданчику — червона картка; одиночна мішень — zero."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch12-red-card"
+    },
+    {
+      "k": "referee-cards-q3",
+      "q": {
+        "en": "Which of these can the jury NOT impose under the penalty scale?",
+        "uk": "Що з переліченого журі НЕ може призначити за шкалою покарань?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The loss of one target",
+          "uk": "Зняття однієї мішені"
+        },
+        {
+          "k": "b",
+          "en": "The loss of a round",
+          "uk": "Зняття раунду"
+        },
+        {
+          "k": "c",
+          "en": "Exclusion from the event",
+          "uk": "Виключення зі змагання"
+        },
+        {
+          "k": "d",
+          "en": "A cash fine to the referee",
+          "uk": "Грошовий штраф судді"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The jury can take away one target or a whole round, or exclude the shooter; there is no fine to the referee.",
+        "uk": "Журі може зняти одну мішень чи цілий раунд або виключити стрільця; штрафу на користь судді немає."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch13-jury-penalties"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "rules-cards-and-appeals-q1",
+      "q": {
+        "en": "How do you protest correctly on the stand?",
+        "uk": "Як правильно заявити протест на місці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Go to the jury after the round",
+          "uk": "Підійти до журі після раунду"
+        },
+        {
+          "k": "b",
+          "en": "Call the next target, then tell the referee",
+          "uk": "Кликнути наступну мішень і потім сказати судді"
+        },
+        {
+          "k": "c",
+          "en": "At once raise a hand and say 'protest' or 'appeal'",
+          "uk": "Одразу підняти руку і сказати «protest» або «appeal»"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "You protest at once, before the next call; calling the next target means accepting the ruling.",
+        "uk": "Протест заявляють одразу, до наступної команди: покликавши наступну мішень, ви погоджуєтеся з рішенням."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch9-how-to-appeal"
+    },
+    {
+      "k": "rules-cards-and-appeals-q2",
+      "q": {
+        "en": "What can be appealed to the jury?",
+        "uk": "Що можна оскаржити до журі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Other rulings, not hit, miss or trajectory",
+          "uk": "Інші рішення, не влучання, промах чи траєкторія"
+        },
+        {
+          "k": "b",
+          "en": "Whether you really hit the target or not",
+          "uk": "Чи ви справді влучили в мішень"
+        },
+        {
+          "k": "c",
+          "en": "Whether the trajectory was correct or not",
+          "uk": "Чи була траєкторія правильною"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Hit, miss, No Bird and trajectory are decided by the referee alone, and that decision is final.",
+        "uk": "Влучання, промах, No Bird і траєкторію вирішує лише суддя, і це рішення остаточне."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch9-jury-appeal"
+    },
+    {
+      "k": "rules-cards-and-appeals-q3",
+      "q": {
+        "en": "What is the deposit for a jury appeal in {{tm:sporting}}?",
+        "uk": "Яка застава для апеляції до журі в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "10% of the entry fee",
+          "uk": "10% стартового внеску"
+        },
+        {
+          "k": "b",
+          "en": "40% of the entry fee",
+          "uk": "40% стартового внеску"
+        },
+        {
+          "k": "c",
+          "en": "The whole entry fee",
+          "uk": "Увесь стартовий внесок"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "It is {{fact:rules.sporting-jury-deposit}}; the money comes back if the jury decides in the shooter's favour.",
+        "uk": "Це {{fact:rules.sporting-jury-deposit}}; гроші повертають, якщо журі ухвалить рішення на користь стрільця."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch9-jury-appeal"
+    },
+    {
+      "k": "compak-dress-and-conduct-q3",
+      "q": {
+        "en": "{{tm:compak}}: after the round, a shooter refuses to sign the score sheet because they disagree with one call. What is the consequence?",
+        "uk": "{{tm:compak}}: після раунду стрілець відмовляється підписати протокол, бо не згоден з одним рішенням. Який наслідок?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They lose the right to complain",
+          "uk": "Він утрачає право на скаргу"
+        },
+        {
+          "k": "b",
+          "en": "The referee must change the result",
+          "uk": "Суддя мусить змінити результат"
+        },
+        {
+          "k": "c",
+          "en": "The round is shot again",
+          "uk": "Раунд перестрілюють"
+        },
+        {
+          "k": "d",
+          "en": "Nothing happens at all",
+          "uk": "Нічого не відбувається"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:compak}} the shooter signs the score sheet at the end of each round; without the signature, no complaint can be accepted.",
+        "uk": "У {{tm:compak}} стрілець підписує протокол наприкінці кожного раунду; без підпису жодну скаргу не приймуть."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch15-signing"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "688dfc58",
+    "summary": "e42defbb",
+    "referee-cards-p1": "9c0f6536",
+    "rules-cards-and-appeals-cmp1": "6761ba5e",
+    "referee-cards-p2": "066b3ddf",
+    "referee-cards-p3": "0d19cdbe",
+    "referee-cards-p4": "b40e619c",
+    "rules-cards-and-appeals-p7": "824a9edf",
+    "rules-cards-and-appeals-protest": "35246f32",
+    "rules-cards-and-appeals-tip1": "8413bfae",
+    "rules-cards-and-appeals-n1": "864947a9",
+    "rules-cards-and-appeals-n2": "690ebb29",
+    "referee-cards-ph1": "1a48df10",
+    "referee-cards-ph2": "3e46c255",
+    "referee-cards-ph3": "be7e02d8",
+    "referee-cards-ph4": "b4286983",
+    "referee-cards-ph5": "95051542",
+    "compak-dress-and-conduct-ph4": "da427310",
+    "referee-cards-kp1": "10e87324",
+    "referee-cards-kp2": "0dceb8a6",
+    "referee-cards-kp3": "739d4465",
+    "referee-cards-kp4": "08f3d2e1",
+    "rules-cards-and-appeals-kp3": "572d305f",
+    "rules-cards-and-appeals-dyk": "a83091ff",
+    "referee-cards-q2": "b5bdf416",
+    "referee-cards-q1": "bbb27c08",
+    "referee-cards-q3": "d442fc6b",
+    "rules-cards-and-appeals-q1": "873592e0",
+    "rules-cards-and-appeals-q2": "2fe5929a",
+    "rules-cards-and-appeals-q3": "80d0488b",
+    "compak-dress-and-conduct-q3": "6e9b94e2"
+  },
+  "todo": {
+    "tasks": [
+      "Referee: confirm the list of on-stand offences that lead to a red card in rules-cards-and-appeals-cmp1 (Sporting 7.5, 12.2, 12.3; Compak 21.1–21.5) and that other repeats go to the jury (Sporting 13.2–13.3, 17.1; Compak 7.2, 21.6, 23).",
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+    ]
+  }
+}

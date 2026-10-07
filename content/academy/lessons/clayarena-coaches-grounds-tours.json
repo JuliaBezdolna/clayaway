@@ -1,0 +1,360 @@
+{
+  "id": "clayarena-coaches-grounds-tours",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "watch block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "clayarena-coaches-grounds-tours"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "sporting",
+    "compak-sporting",
+    "coach",
+    "interpreter",
+    "layout",
+    "hearing-protection",
+    "trajectory-setting-table",
+    "coaching",
+    "yellow-card",
+    "clayaway",
+    "trajectory"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch15-no-practice"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-championship-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Finding a coach and a shooting ground on ClayArena",
+    "uk": "Як знайти тренера і стенд на ClayArena"
+  },
+  "summary": {
+    "en": "What the ClayArena catalogues of coaches and shooting grounds show, how to use them and what to ask before your first visit.",
+    "uk": "Що показують каталоги тренерів і стендів на ClayArena, як ними користуватися і про що запитати перед першим візитом."
+  },
+  "body": [
+    {
+      "k": "clayarena-coaches-grounds-tours-p1",
+      "t": "p",
+      "en": "Many shooters begin with a {{term:coach|coach}}, who sees faults from the outside and corrects them before they become habits. How to choose a coach: {{lesson:training-first-lessons-and-coach}}.",
+      "uk": "Багато стрільців починають навчання з {{term:coach|тренером}}: він бачить помилки збоку й виправляє їх, доки вони не стали звичками. Як обрати тренера — в уроці {{lesson:training-first-lessons-and-coach}}."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-coaches",
+      "t": "p",
+      "en": "The ClayArena coach catalogue can be filtered by discipline, country, federation and training language. A coach's card shows the disciplines they teach and the languages they speak. It often shows the price too, or says “by agreement”. From the card you can open the coach's full profile.",
+      "uk": "Каталог тренерів на ClayArena можна фільтрувати за дисципліною, країною, федерацією та мовою тренування. На картці тренера видно, які дисципліни він викладає і якими мовами говорить. Часто там є й ціна або позначка «за домовленістю». З картки можна відкрити повний профіль тренера."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-language",
+      "t": "tip",
+      "en": "Training language matters. If you and the coach have no common language, you can work with an {{term:interpreter|interpreter}} or agree on a few key words in advance: {{lesson:stand-talk-foreign-coach}}.",
+      "uk": "Мова тренування важлива. Якщо у вас із тренером немає спільної мови, можна працювати з {{term:interpreter|перекладачем}} або заздалегідь домовитися про кілька ключових слів: {{lesson:stand-talk-foreign-coach}}."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-p2",
+      "t": "p",
+      "en": "The shooting grounds catalogue shows grounds as a list and on a map. A ground's page usually tells you which disciplines it offers, where it is, how to contact it and which competitions it hosts.",
+      "uk": "Каталог стендів показує стенди списком і на мапі. На сторінці стенду зазвичай видно, які дисципліни там є, де він розташований, як із ним зв’язатися і які змагання він приймає."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-visit",
+      "t": "p",
+      "en": "Before your first visit, contact the ground and ask a few questions:",
+      "uk": "Перед першим візитом зв’яжіться зі стендом і поставте кілька запитань:"
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-visit-steps",
+      "t": "steps",
+      "en": [
+        "Can a beginner come, and is there an instructor or a coach?",
+        "Can you hire a gun and buy cartridges on site?",
+        "Which disciplines and {{term:layout|layouts}} are open that day?",
+        "What should you bring: glasses, {{term:hearing-protection|hearing protection}}, documents?"
+      ],
+      "uk": [
+        "Чи можна прийти новачкові і чи є інструктор або тренер?",
+        "Чи можна орендувати рушницю й купити набої на місці?",
+        "Які дисципліни й {{term:layout|майданчики}} відкриті того дня?",
+        "Що взяти із собою: окуляри, {{term:hearing-protection|захист слуху}}, документи?"
+      ]
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-practice",
+      "t": "p",
+      "en": "If a competition is coming up at that ground, ask when you may practise. The two disciplines have different rules:",
+      "uk": "Якщо на цьому стенді незабаром змагання, запитайте, коли можна тренуватися. У двох дисциплінах правила різні:"
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-practice-compare",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Before the event nobody may practise on the competition layouts (the stands and targets set up for the competition). You can train on the ground's other layouts.",
+        "uk": "Перед змаганням ніхто не може тренуватися на змагальних майданчиках — тих стрілецьких місцях і мішенях, що підготовлені для змагання. Тренуватися можна на інших майданчиках стенду."
+      },
+      "compak": {
+        "en": "You may practise on the competition {{term:trajectory|trajectories}} (the flight paths the targets will follow in the competition), but with a different {{term:trajectory-setting-table|setting table}}. This is the plan that says which traps are shot from each station, as singles or doubles. So in practice the targets do not come in the same combinations as on competition day. At continental and world championships, official practice opens on the Saturday before the event.",
+        "uk": "Тренуватися на змагальних {{term:trajectory|траєкторіях}} (шляхах польоту мішеней, які будуть на змаганні) можна, але за іншою {{term:trajectory-setting-table|таблицею налаштувань}}. Це схема, яка визначає, з яких машинок стріляють на кожному номері одиночні мішені й дуплети. Тож на тренуванні мішені йдуть не в тих поєднаннях, що на змаганні. На чемпіонатах континенту і світу офіційне тренування починається в суботу перед стартом."
+      }
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-p6",
+      "t": "p",
+      "en": "Planning to train at a ground in another country? Check in advance the rules for bringing a gun and cartridges, or ask the ground whether you can hire a gun there. More in {{lesson:travel-gun-in-eu}} and {{lesson:travel-gun-outside-eu}}.",
+      "uk": "Плануєте тренуватися на стенді в іншій країні? Заздалегідь з’ясуйте правила ввезення рушниці й набоїв або запитайте, чи можна орендувати рушницю на місці. Докладніше — в уроках {{lesson:travel-gun-in-eu}} і {{lesson:travel-gun-outside-eu}}."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-p3",
+      "t": "p",
+      "en": "ClayArena is also preparing training tours with a coach, called {{term:clayaway|ClayAway}}. They are being prepared and have not launched yet: {{lesson:travel-clayaway-tour}}.",
+      "uk": "ClayArena також готує тренувальні тури з тренером під назвою {{term:clayaway|ClayAway}}. Їх ще не запущено: {{lesson:travel-clayaway-tour}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "clayarena-coaches-grounds-tours-kp1",
+      "en": "The coach catalogue can be filtered by discipline, country, federation and language.",
+      "uk": "Каталог тренерів можна фільтрувати за дисципліною, країною, федерацією та мовою."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-kp2",
+      "en": "The grounds catalogue shows grounds as a list and on a map.",
+      "uk": "Каталог стендів показує стенди списком і на мапі."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-kp6",
+      "en": "Before a first visit, ask about beginners, gun hire and what to bring.",
+      "uk": "Перед першим візитом запитайте про новачків, оренду рушниці й що взяти із собою."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-kp7",
+      "en": "Practice before a competition: not on the competition layouts in {{tm:sporting}}; with other setting tables in {{tm:compak}}.",
+      "uk": "Тренування перед змаганням: у {{tm:sporting}} — не на змагальних майданчиках; у {{tm:compak}} — з іншими таблицями налаштувань."
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-kp5",
+      "en": "Before training abroad, check the rules for bringing a gun.",
+      "uk": "Перед тренуванням за кордоном з’ясуйте правила ввезення рушниці."
+    }
+  ],
+  "did_you_know": {
+    "k": "clayarena-coaches-grounds-tours-dyk",
+    "en": "In both disciplines nobody may {{term:coaching|coach}} a competitor during the competition, that is, give them tips or signals. If the referee sees it, the shooter gets a {{term:yellow-card|yellow card}}, and the referee sends the person coaching out of the shooting area. So work with your coach before and after the event.",
+    "uk": "В обох дисциплінах учасникові не можна {{term:coaching|підказувати}} під час змагань, тобто давати поради чи знаки. Якщо суддя це помітить, стрілець отримує {{term:yellow-card|жовту картку}}, а того, хто підказує, суддя видаляє зі стрілецької зони. Тож працюйте з тренером до і після змагання."
+  },
+  "quiz": [
+    {
+      "k": "clayarena-coaches-grounds-tours-q4",
+      "q": {
+        "en": "What can you filter the ClayArena coach catalogue by?",
+        "uk": "За чим можна фільтрувати каталог тренерів на ClayArena?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Discipline, country and language",
+          "uk": "Дисципліна, країна і мова"
+        },
+        {
+          "k": "b",
+          "en": "Height, age and gun brand",
+          "uk": "Зріст, вік і марка рушниці"
+        },
+        {
+          "k": "c",
+          "en": "Only the coach's surname",
+          "uk": "Лише прізвище тренера"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "You can filter by discipline, country, federation and training language.",
+        "uk": "Фільтрувати можна за дисципліною, країною, федерацією та мовою тренування."
+      }
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-q5",
+      "disc": "sporting",
+      "q": {
+        "en": "A {{tm:sporting}} competition takes place at your ground next week. Where may you practise before it?",
+        "uk": "Наступного тижня на вашому стенді змагання з {{tm:sporting}}. Де можна тренуватися перед ним?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the competition layouts",
+          "uk": "На змагальних майданчиках"
+        },
+        {
+          "k": "b",
+          "en": "On the ground's other layouts",
+          "uk": "На інших майданчиках стенду"
+        },
+        {
+          "k": "c",
+          "en": "Nowhere on that ground",
+          "uk": "Ніде на цьому стенді"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:sporting}} nobody may practise on the competition layouts before the event.",
+        "uk": "У {{tm:sporting}} перед змаганням ніхто не може тренуватися на змагальних майданчиках."
+      },
+      "rule_ref": "sporting:ch15-no-practice"
+    },
+    {
+      "k": "clayarena-coaches-grounds-tours-q6",
+      "disc": "both",
+      "q": {
+        "en": "Your coach has come to watch your competition. What may the coach do while you shoot?",
+        "uk": "Ваш тренер приїхав подивитися на ваше змагання. Що він може робити, поки ви стріляєте?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Give you tips between targets",
+          "uk": "Підказувати між мішенями"
+        },
+        {
+          "k": "b",
+          "en": "Signal to you from behind",
+          "uk": "Подавати вам знаки ззаду"
+        },
+        {
+          "k": "c",
+          "en": "Watch, but not coach you",
+          "uk": "Дивитися, але не підказувати"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Coaching during the competition is not allowed in either discipline: it brings a yellow card.",
+        "uk": "Підказки під час змагань заборонені в обох дисциплінах: за них дають жовту картку."
+      },
+      "rule_ref": "sporting:ch8-coaching"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "clayarena-coaches-grounds-tours-q7",
+      "disc": "compak",
+      "q": {
+        "en": "Before a {{tm:compak}} competition, how may shooters practise on the competition trajectories?",
+        "uk": "Як перед змаганням з {{tm:compak}} можна тренуватися на змагальних траєкторіях?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "With other setting tables",
+          "uk": "З іншими таблицями налаштувань"
+        },
+        {
+          "k": "b",
+          "en": "Not at all",
+          "uk": "Ніяк, це заборонено"
+        },
+        {
+          "k": "c",
+          "en": "Only after the final",
+          "uk": "Лише після фіналу"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Practice on the competition trajectories is allowed, but with setting tables that differ from the competition ones.",
+        "uk": "Тренуватися на змагальних траєкторіях можна, але з таблицями налаштувань, відмінними від змагальних."
+      },
+      "rule_ref": "compak:ch6-practice"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "c9902022",
+    "summary": "9f072def",
+    "clayarena-coaches-grounds-tours-p1": "28e3bb54",
+    "clayarena-coaches-grounds-tours-coaches": "9e5e2ca0",
+    "clayarena-coaches-grounds-tours-language": "0c2f4713",
+    "clayarena-coaches-grounds-tours-p2": "c61a8c52",
+    "clayarena-coaches-grounds-tours-visit": "7cd4fe56",
+    "clayarena-coaches-grounds-tours-visit-steps": "3a42c3da",
+    "clayarena-coaches-grounds-tours-practice": "81ecd892",
+    "clayarena-coaches-grounds-tours-practice-compare": "88145135",
+    "clayarena-coaches-grounds-tours-p6": "0bb72044",
+    "clayarena-coaches-grounds-tours-p3": "b911308f",
+    "clayarena-coaches-grounds-tours-kp1": "554c697e",
+    "clayarena-coaches-grounds-tours-kp2": "a4eea18e",
+    "clayarena-coaches-grounds-tours-kp6": "ae70cffc",
+    "clayarena-coaches-grounds-tours-kp7": "b9c7c131",
+    "clayarena-coaches-grounds-tours-kp5": "059a7bdd",
+    "clayarena-coaches-grounds-tours-dyk": "903824c4",
+    "clayarena-coaches-grounds-tours-q4": "82297561",
+    "clayarena-coaches-grounds-tours-q5": "9d7bb203",
+    "clayarena-coaches-grounds-tours-q6": "b5ef419f",
+    "clayarena-coaches-grounds-tours-q7": "7bb57599"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

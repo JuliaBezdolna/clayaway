@@ -1,0 +1,135 @@
+{
+  "id": "watching-reading-results",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "d5e0cd26",
+    "summary": "00bcb825",
+    "watching-reading-results-p1": "a593aad6",
+    "referee-scoring-p1": "67cd20f8",
+    "watching-reading-results-compak": "20ba60c6",
+    "referee-scoring-p2": "9eed775d",
+    "watching-reading-results-p3": "e5bd1066",
+    "watching-reading-results-p4": "bf2a6fc6",
+    "watching-reading-results-p5": "7203bf5f",
+    "watching-reading-results-p6": "55a141b2",
+    "watching-reading-results-same-targets": "5b63d50c",
+    "watching-reading-results-n-card": "b967a8d7",
+    "referee-scoring-ph1": "78d746b9",
+    "referee-scoring-ph2": "85a7e77e",
+    "referee-scoring-ph3": "5ceb7683",
+    "watching-reading-results-kp1": "e95f9f8e",
+    "referee-scoring-kp1": "3bd23aa1",
+    "referee-scoring-kp2": "760f6af6",
+    "watching-reading-results-kp4": "8a7110a4",
+    "watching-reading-results-kp5": "3c60cad8",
+    "watching-reading-results-dyk": "6e9971df",
+    "referee-scoring-q1": "5fd1535a",
+    "referee-scoring-q3": "6893a814",
+    "watching-reading-results-q3": "8365a697",
+    "watching-reading-results-q2": "cebf173c",
+    "watching-reading-results-q4": "ebf532a0",
+    "watching-reading-results-q-photo": "9d644b18"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Jak číst výsledkovou tabuli a výsledky",
+  "summary": "Co znamenají X a O na položkovém listu, jak se skládá celkový výsledek ze 200 terčů, jak se řeší shody a jak číst tabulku výsledků na ClayArena.",
+  "body": {
+    "watching-reading-results-p1": "Ve střelbě na asfaltové terče se výsledek počítá jednoduše: kolik terčů bylo rozbito. {{term:round|Položka}} je ve {{tm:sporting}} i {{tm:compak}} {{fact:rules.round-targets}} a mezinárodní závod je {{fact:basics.international-targets}}. Nejvyšší možný výsledek je tedy 200 ze 200.",
+    "referee-scoring-p1": "Každý terč skončí v {{term:score-sheet|položkovém listu}}. Ve {{tm:sporting}} vede list {{term:referee|rozhodčí}} nebo osoba pod jeho dohledem. Na standardním listu FITASC je u každého terče písmeno jeho vrhačky (A, B, C…), X za zásah a O za chybu. List má také součet a sloupec na podpisy. Než se skupina přesune na další stanoviště, rozhodčí list vyfotí.",
+    "watching-reading-results-compak": "Ve {{tm:compak}} po skupinách vede list rozhodčí a zásah značí X, chybu O. Každou nulu rozhodčí oznámí nahlas nebo zvukovým signálem, aby mohl nesouhlasící střelec hned protestovat. V {{term:compak-in-line|Compak v řadě}}, kde výsledky zaznamenává schválený elektronický systém ({{term:electronic-refereeing|elektronické rozhodování}}), je vidět výsledek na obrazovce.",
+    "referee-scoring-p2": "Ve {{tm:sporting}} musíte zkontrolovat svůj výsledek při odchodu z každého stanoviště. Pokud nesouhlasíte se značkou, řekněte to rozhodčímu hned: rozhodčí rozhodne, případně po dotazu ostatních, a toto rozhodnutí už nelze napadnout. Ve {{tm:compak}} podepisujete list na konci položky; odmítnete-li podepsat, ztrácíte právo na stížnost.",
+    "watching-reading-results-p3": "Na mezinárodních závodech se výsledky položek sbírají na centrální výsledkovou tabuli nebo do elektronického systému. U každého jména obvykle vidíte výsledek každé položky i celkový součet. Vidíte tak nejen to, kdo vede, ale i to, kdo střílí vyrovnaně a kdo měl slabou položku.",
+    "watching-reading-results-p4": "Shodné součty jsou běžné. Shodu na jednom z prvních tří míst řeší {{fact:competitions.shoot-off-format}} (v náhlé smrti vypadává první, kdo chybuje). Pod třetím místem se střelci se shodným výsledkem dělí o místo a jejich pořadí v seznamu určuje {{term:countback|zpětná kalkulace}}. Jak obojí funguje: {{lesson:competitions-categories-and-shoot-offs}}.",
+    "watching-reading-results-p5": "Kromě {{term:open-ranking|absolutního pořadí}} existují {{term:category|kategorie}}, jako {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} a {{term:veteran|Veteran}}, a také {{term:team|družstevní}} pořadí. Na vyhlášení výsledků tak může být víc vítězů, jeden v každém pořadí.",
+    "watching-reading-results-p6": "Po závodech se výsledky objeví na ClayArena. Tabulka ukazuje místo každého střelce a počet rozbitých terčů. Odtud se dá otevřít {{term:shooter-profile|profil střelce}} s jeho závody a údaji jako {{term:accuracy|úspěšnost}} a {{term:best-score|nejlepší výsledek}}. Podrobněji: {{lesson:clayarena-find-your-results}}.",
+    "watching-reading-results-same-targets": "Porovnávejte výsledky jen při stejném počtu terčů, nejlépe z týchž závodů: střeliště na různých stanovištích se liší obtížností. 90 ze 100 a 180 ze 200 je stejné procento, ale delší závod je jiná zkouška."
+  },
+  "note": {
+    "watching-reading-results-n-card": "Překládejte „check your card“ jako naléhavý pokyn, ne jako zdvořilou poznámku: jakmile střelec odejde ze stanoviště, chybnou značku už nelze napadnout."
+  },
+  "phrases": {
+    "referee-scoring-ph1": {
+      "meaning": "{{tm:sporting}}: podívejte se na své značky hned; pozdější námitky se nepřijímají.",
+      "say": "Než odejdete ze stanoviště, zkontrolujte si list."
+    },
+    "referee-scoring-ph2": {
+      "meaning": "{{tm:compak}}: podpis potvrzuje výsledek; odmítnutí znamená ztrátu práva na stížnost.",
+      "say": "Podepište tady, prosím."
+    },
+    "referee-scoring-ph3": {
+      "meaning": "Výsledek 23 z 25; dva terče byly chybené.",
+      "say": "Dvacet tři – dvě chyby."
+    }
+  },
+  "key_points": {
+    "watching-reading-results-kp1": "Výsledek je počet rozbitých terčů; mezinárodní závod je {{fact:basics.international-targets}}.",
+    "referee-scoring-kp1": "Na položkových listech FITASC: X = zásah, O = chyba",
+    "referee-scoring-kp2": "{{tm:sporting}}: kontrolujte výsledek při odchodu z každého stanoviště; {{tm:compak}}: podepište list, jinak ztratíte právo na stížnost",
+    "watching-reading-results-kp4": "Kategorie a družstevní pořadí znamenají víc vítězů na jednom vyhlášení výsledků.",
+    "watching-reading-results-kp5": "Porovnávejte výsledky při stejném počtu terčů, nejlépe z týchž závodů."
+  },
+  "did_you_know": "Ve {{tm:sporting}} má každé stanoviště střeliště na listu svou barvu tužky. Když se skupina přesune dál, hvězdičkou se označí střelec, který list ponese na další stanoviště.",
+  "quiz": {
+    "referee-scoring-q1": {
+      "q": "Co znamená O na listu FITASC?",
+      "options": {
+        "a": "Zásah",
+        "b": "No Bird",
+        "c": "Chybu",
+        "d": "Prázdné stanoviště"
+      },
+      "explain": "Na standardním listu FITASC se zásah značí X a chyba O."
+    },
+    "referee-scoring-q3": {
+      "q": "Ve {{tm:compak}} váš střelec odmítne podepsat list. Jaký je důsledek?",
+      "options": {
+        "a": "Ztrácí právo podat jakoukoli stížnost",
+        "b": "Položka se střílí znovu",
+        "c": "Podepíše rozhodčí a nic se nemění",
+        "d": "Automaticky dostane 25 nul"
+      },
+      "explain": "Pravidla {{tm:compak}} říkají, že střelec, který odmítne podepsat, ztrácí právo na stížnost."
+    },
+    "watching-reading-results-q3": {
+      "q": "Chcete porovnat výsledky dvou střelců. Jak to udělat spravedlivě?",
+      "options": {
+        "a": "Porovnat procenta bez ohledu na délku závodů",
+        "b": "Porovnat jen nejvyšší položku každého z nich",
+        "c": "Porovnat je při stejném počtu terčů, nejlépe na jedněch závodech"
+      },
+      "explain": "Stejné procento při jiném počtu terčů nebo na jiných střelnicích není stejná zkouška: střeliště se liší obtížností."
+    },
+    "watching-reading-results-q2": {
+      "q": "Jak se řeší shoda na prvních třech místech?",
+      "options": {
+        "a": "Losem",
+        "b": "Rozstřelem (shoot-off)",
+        "c": "Podle věku střelce"
+      },
+      "explain": "Pro první tři místa je rozstřel na 25 terčů, pak náhlá smrt."
+    },
+    "watching-reading-results-q4": {
+      "q": "Ve {{tm:sporting}}, kdy musíte zkontrolovat svůj výsledek na listu?",
+      "options": {
+        "a": "Při odchodu z každého stanoviště",
+        "b": "Jen na konci dne",
+        "c": "Až se výsledky objeví online"
+      },
+      "explain": "Výsledek kontrolujte při odchodu z každého stanoviště a případný nesouhlas řekněte hned; později už odvolání není."
+    },
+    "watching-reading-results-q-photo": {
+      "q": "Ve {{tm:sporting}}, co udělá rozhodčí s listem, než se skupina přesune na další stanoviště?",
+      "options": {
+        "a": "Vyfotí ho",
+        "b": "Hned ho odnese k jury",
+        "c": "Pověsí ho na centrální výsledkovou tabuli"
+      },
+      "explain": "Než se skupina přesune dál, rozhodčí list vyfotí a hvězdičkou označí střelce, který ho ponese na další stanoviště."
+    }
+  }
+}

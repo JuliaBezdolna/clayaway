@@ -1,0 +1,474 @@
+{
+  "id": "mind-reset-after-miss",
+  "rev": 2,
+  "status": "review",
+  "plan": "new",
+  "level": 1,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "parent",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "pre-shot-routine",
+    "protest",
+    "attempt-to-influence",
+    "reset-routine"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-fifteen-seconds"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-firing-time"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-how-to-appeal"
+    },
+    {
+      "book": "sporting",
+      "id": "ch10-resume-15s"
+    },
+    {
+      "book": "sporting",
+      "id": "ch11-influence"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-protest"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-refusal-to-comply"
+    },
+    {
+      "book": "compak",
+      "id": "ch22-influence"
+    }
+  ],
+  "facts": [
+    "rules.sporting-time-between-targets",
+    "rules.compak-time-to-call",
+    "rules.sporting-resume-after-ruling",
+    "rules.compak-resume-after-ruling"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Examining the accuracy and in-game performance effects between pre- and post-performance routines: a mixed methods study (Psychology of Sport and Exercise, 2015)"
+      },
+      "url": "https://doi.org/10.1016/j.psychsport.2015.03.005",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "On the fragility of skilled performance: what governs choking under pressure? (Journal of Experimental Psychology: General, 2001)"
+      },
+      "url": "https://www.apa.org/pubs/journals/releases/xge-1304701.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The theory of reinvestment (International Review of Sport and Exercise Psychology, 2008)"
+      },
+      "url": "https://doi.org/10.1080/17509840802287218",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Reset after a miss",
+    "uk": "Перезапуск після промаху"
+  },
+  "summary": {
+    "en": "A short routine for the seconds after a lost target: five steps in 5–10 seconds, then the next target. The “why” waits until after the round.",
+    "uk": "Короткий ритуал на секунди після промаху: п’ять кроків за 5–10 секунд, потім наступна мішень. Питання «чому» чекає до кінця раунду."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "Five steps in 5–10 seconds: the gun safe as the rules require; one slow breath out; one correction in 2–3 words; a short picture of the right shot; the next routine.",
+        "Ask 'why' after the round; look at the score when you sign the card.",
+        "The same after an unwelcome referee decision: protest at once and in the correct way (link to the rules lesson), then let it go.",
+        "A bad stand is not a bad day.",
+        "Evidence: little research; coaches' experience."
+      ],
+      "uk": [
+        "П’ять кроків за 5–10 секунд: рушниця в безпечному положенні, як вимагають правила; один повільний видих; одна поправка у 2–3 словах; коротка картинка правильного пострілу; наступний ритуал.",
+        "Питання «чому» — після раунду; рахунок — коли підписуєте картку.",
+        "Те саме після неприємного рішення судді: протест одразу і правильно (посилання на урок правил), потім відпустити.",
+        "Погане стрілецьке місце — це ще не поганий день.",
+        "Доказовість: мало досліджень; досвід тренерів."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-reset-after-miss-p1",
+      "t": "p",
+      "en": "A miss is over the moment the shot is fired; only the next target can still change. A short, fixed {{term:reset-routine|reset}} helps you leave the miss behind and start the next routine.",
+      "uk": "Промах закінчився в ту мить, коли пролунав постріл; змінити можна лише наступну мішень. Короткий сталий {{term:reset-routine|перезапуск}} допомагає залишити промах позаду й почати наступний ритуал."
+    },
+    {
+      "k": "mind-reset-after-miss-steps",
+      "t": "steps",
+      "en": [
+        "Gun safe: handle it as the rules require, muzzles in a safe direction.",
+        "One slow breath out.",
+        "One correction in two or three words, for example “stay on the line”.",
+        "A quick picture in your head of the right shot.",
+        "Your next {{term:pre-shot-routine|pre-shot routine}}."
+      ],
+      "uk": [
+        "Рушниця в безпеці: поводьтеся з нею, як вимагають правила, стволи в безпечному напрямку.",
+        "Один повільний видих.",
+        "Одна поправка у двох-трьох словах, наприклад «тримай лінію».",
+        "Коротка картинка правильного пострілу в голові.",
+        "Ваш наступний {{term:pre-shot-routine|передпостріловий ритуал}}."
+      ]
+    },
+    {
+      "k": "mind-reset-after-miss-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "The reset has to fit the time limit. In {{tm:sporting}} you have {{fact:rules.sporting-time-between-targets}}. In {{tm:compak}} you have {{fact:rules.compak-time-to-call}}.",
+      "uk": "Перезапуск має вкладатися в ліміт часу. У {{tm:sporting}} у вас є {{fact:rules.sporting-time-between-targets}}. У {{tm:compak}} у вас є {{fact:rules.compak-time-to-call}}."
+    },
+    {
+      "k": "mind-reset-after-miss-p3",
+      "t": "p",
+      "en": "Save the “why” for after the round. Analysing a skill step by step under pressure can disrupt it, so on the stand keep to one short correction.",
+      "uk": "Питання «чому» залиште на після раунду. Покроковий аналіз навички під тиском може її порушити, тож на стрілецькому місці обмежтеся однією короткою поправкою."
+    },
+    {
+      "k": "mind-reset-after-miss-p4",
+      "t": "p",
+      "disc": "sporting",
+      "en": "In {{tm:sporting}} the rules ask you to check your score on the card when you leave the stand ({{rule:sporting:ch16-results-check}}).",
+      "uk": "У {{tm:sporting}} правила вимагають перевірити свій результат у картці, коли ви залишаєте стрілецьке місце ({{rule:sporting:ch16-results-check}})."
+    },
+    {
+      "k": "mind-reset-after-miss-let-go",
+      "t": "p",
+      "en": "Once you know the score of a stand, let it go: that stand is closed, and your attention belongs to the next one.",
+      "uk": "Коли ви вже знаєте результат місця, відпустіть його: це місце закрите, а ваша увага належить наступному."
+    },
+    {
+      "k": "mind-reset-after-miss-p5",
+      "t": "p",
+      "en": "The same reset works after a referee decision you dislike. If you disagree, make a {{term:protest|protest}} at once and in the correct way, then let it go once the decision is final. More in {{lesson:rules-cards-and-appeals}}.",
+      "uk": "Той самий перезапуск працює й після неприємного для вас рішення судді. Якщо ви не згодні, заявіть {{term:protest|протест}} одразу й правильно, а коли рішення остаточне, відпустіть його. Докладніше — {{lesson:rules-cards-and-appeals}}."
+    },
+    {
+      "k": "mind-reset-after-miss-compare",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Protest at once on the stand: raise a hand and say “appeal” or “protest” ({{rule:sporting:ch9-how-to-appeal}}). After the final decision you must shoot again {{fact:rules.sporting-resume-after-ruling}} ({{rule:sporting:ch10-resume-15s}}).",
+        "uk": "Протестуйте одразу, на стрілецькому місці: підніміть руку й скажіть «appeal» або «protest» ({{rule:sporting:ch9-how-to-appeal}}). Після остаточного рішення ви маєте продовжити стрільбу {{fact:rules.sporting-resume-after-ruling}} ({{rule:sporting:ch10-resume-15s}})."
+      },
+      "compak": {
+        "en": "Protest at once, before the next shooter calls: raise an arm and say “protest” or “appeal” ({{rule:compak:ch19-protest}}). After the final decision you must resume {{fact:rules.compak-resume-after-ruling}} ({{rule:compak:ch21-refusal-to-comply}}).",
+        "uk": "Протестуйте одразу, до команди наступного стрільця: підніміть руку й скажіть «protest» або «appeal» ({{rule:compak:ch19-protest}}). Після остаточного рішення ви маєте продовжити {{fact:rules.compak-resume-after-ruling}} ({{rule:compak:ch21-refusal-to-comply}})."
+      }
+    },
+    {
+      "k": "mind-reset-after-miss-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "Going on arguing after a final decision counts as an {{term:attempt-to-influence|attempt to influence}} the referee and can be penalised ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+      "uk": "Якщо сперечатися й після остаточного рішення, це вважають {{term:attempt-to-influence|спробою вплинути}} на суддю, і за це можуть покарати ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}})."
+    },
+    {
+      "k": "mind-reset-after-miss-p7",
+      "t": "p",
+      "en": "A bad stand is not a bad day. Some shooters lose points early from nerves and shoot well once they settle; coaches often advise judging the day at the end, not after one stand.",
+      "uk": "Погане стрілецьке місце — ще не поганий день. Деякі стрільці втрачають очки на початку через хвилювання, а потім, освоївшись, стріляють добре; тренери часто радять оцінювати день наприкінці, а не після одного місця."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-reset-after-miss-n1",
+      "for": "parent",
+      "en": "When your child misses, stay calm and quiet on the side. A calm face helps more than advice, and advice from behind the stand can count as coaching.",
+      "uk": "Коли ваша дитина промахнулася, залишайтеся спокійними й мовчазними збоку. Спокійне обличчя допомагає більше, ніж поради, а поради з-за стрілецького місця можуть вважати коучингом."
+    },
+    {
+      "k": "mind-reset-after-miss-n2",
+      "for": "interpreter",
+      "en": "After a miss, do not translate comments or analysis unless the shooter asks. During a competition, pass on only the referee's decisions and official messages.",
+      "uk": "Після промаху не перекладайте коментарів чи розбору, якщо стрілець не просить. Під час змагань передавайте лише рішення судді та офіційні повідомлення."
+    },
+    {
+      "k": "mind-reset-after-miss-n3",
+      "for": "coach",
+      "en": "In training, practise the reset on purpose: after a missed target, ask the shooter to say the five steps aloud, then do them in silence.",
+      "uk": "На тренуванні відпрацьовуйте перезапуск навмисно: після промаху попросіть стрільця назвати п’ять кроків уголос, а потім виконати їх мовчки."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-reset-after-miss-kp1",
+      "en": "Reset in 5–10 seconds: gun safe, breath out, one correction, one picture, next routine.",
+      "uk": "Перезапуск за 5–10 секунд: рушниця в безпеці, видих, одна поправка, одна картинка, наступний ритуал.",
+      "checklist": true
+    },
+    {
+      "k": "mind-reset-after-miss-kp2",
+      "en": "Ask “why” after the round, not on the stand.",
+      "uk": "Питайте «чому» після раунду, а не на стрілецькому місці."
+    },
+    {
+      "k": "mind-reset-after-miss-kp3",
+      "en": "After a referee decision: protest at once and correctly, then let it go.",
+      "uk": "Після рішення судді: протест одразу й правильно, потім відпустіть.",
+      "checklist": true
+    },
+    {
+      "k": "mind-reset-after-miss-kp4",
+      "en": "A bad stand is not a bad day.",
+      "uk": "Погане стрілецьке місце — ще не поганий день."
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-reset-after-miss-dyk",
+    "en": "In a study of tenpin bowlers, a short routine after each throw also helped, and players felt it protected their focus.",
+    "uk": "У дослідженні з гравцями в боулінг короткий ритуал після кожного кидка теж допомагав, і гравці відчували, що він береже їхню зосередженість."
+  },
+  "quiz": [
+    {
+      "k": "mind-reset-after-miss-q1",
+      "q": {
+        "en": "What is the first step of the reset after a miss?",
+        "uk": "Який перший крок перезапуску після промаху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Work out exactly why you missed",
+          "uk": "З’ясувати, чому саме ви промахнулися"
+        },
+        {
+          "k": "b",
+          "en": "Count up your score for the round so far",
+          "uk": "Підрахувати свій рахунок за раунд"
+        },
+        {
+          "k": "c",
+          "en": "Make the gun safe, as the rules say",
+          "uk": "Подбати про безпеку рушниці за правилами"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Safety comes first; then one breath out, one correction, one picture and the next routine.",
+        "uk": "Спершу безпека; потім один видих, одна поправка, одна картинка й наступний ритуал."
+      }
+    },
+    {
+      "k": "mind-reset-after-miss-q2",
+      "q": {
+        "en": "When is a good time to analyse why you missed?",
+        "uk": "Коли добрий час розібрати, чому ви промахнулися?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "After the round",
+          "uk": "Після раунду"
+        },
+        {
+          "k": "b",
+          "en": "Before the next call",
+          "uk": "Перед наступною командою"
+        },
+        {
+          "k": "c",
+          "en": "During the next presentation",
+          "uk": "Під час наступного показу"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Step-by-step analysis on the stand can disrupt your shooting; one short correction is enough there.",
+        "uk": "Покроковий аналіз на стрілецькому місці може збити стрільбу; там досить однієї короткої поправки."
+      }
+    },
+    {
+      "k": "mind-reset-after-miss-q3",
+      "disc": "both",
+      "q": {
+        "en": "You disagree with a referee's “zero”. What do you do?",
+        "uk": "Ви не згодні з рішенням судді «zero». Що робити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Argue until the referee agrees",
+          "uk": "Сперечатися, доки суддя не погодиться"
+        },
+        {
+          "k": "b",
+          "en": "Protest at once, then let it go",
+          "uk": "Одразу заявити протест, потім відпустити"
+        },
+        {
+          "k": "c",
+          "en": "Complain to the squad after the round",
+          "uk": "Поскаржитися групі після раунду"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Protest at once in the correct way; once the decision is final, arguing on counts as an attempt to influence the referee.",
+        "uk": "Заявляйте протест одразу й правильно; коли рішення остаточне, подальші суперечки вважають спробою вплинути на суддю."
+      },
+      "rule_ref": "sporting:ch9-how-to-appeal"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-reset-after-miss-q4",
+      "q": {
+        "en": "How long can a reset after a miss take?",
+        "uk": "Скільки може тривати перезапуск після промаху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "About 5–10 seconds, inside the limit",
+          "uk": "Приблизно 5–10 секунд, у межах ліміту"
+        },
+        {
+          "k": "b",
+          "en": "As long as you need to feel calm again",
+          "uk": "Скільки потрібно, щоб знову заспокоїтися"
+        },
+        {
+          "k": "c",
+          "en": "Until the referee asks you to shoot",
+          "uk": "Доки суддя не попросить стріляти"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A short reset of about 5–10 seconds fits the time limits of both disciplines.",
+        "uk": "Короткий перезапуск приблизно на 5–10 секунд вкладається в ліміти часу обох дисциплін."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-reset-after-miss-p1",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1016/j.psychsport.2015.03.005"
+      ]
+    },
+    {
+      "for": "mind-reset-after-miss-steps",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-reset-after-miss-p3",
+      "level": "some",
+      "sources": [
+        "https://www.apa.org/pubs/journals/releases/xge-1304701.pdf",
+        "https://doi.org/10.1080/17509840802287218"
+      ]
+    },
+    {
+      "for": "mind-reset-after-miss-let-go",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-reset-after-miss-p5",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-reset-after-miss-p7",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "0aa58bc4",
+    "summary": "b6784a0b",
+    "mind-reset-after-miss-p1": "d537be36",
+    "mind-reset-after-miss-steps": "e880feaf",
+    "mind-reset-after-miss-p2": "ab58d0ae",
+    "mind-reset-after-miss-p3": "c293be55",
+    "mind-reset-after-miss-p4": "70c4f1ab",
+    "mind-reset-after-miss-let-go": "8a96f33d",
+    "mind-reset-after-miss-p5": "b2471e3a",
+    "mind-reset-after-miss-compare": "9e64ae39",
+    "mind-reset-after-miss-p6": "259badd3",
+    "mind-reset-after-miss-p7": "10059cbc",
+    "mind-reset-after-miss-n1": "a289ec45",
+    "mind-reset-after-miss-n2": "5671b602",
+    "mind-reset-after-miss-n3": "77535d7a",
+    "mind-reset-after-miss-kp1": "fe21bda8",
+    "mind-reset-after-miss-kp2": "c681c02a",
+    "mind-reset-after-miss-kp3": "a8a2ec56",
+    "mind-reset-after-miss-kp4": "f2fc1172",
+    "mind-reset-after-miss-dyk": "fe00476a",
+    "mind-reset-after-miss-q1": "0fadb6a2",
+    "mind-reset-after-miss-q2": "bd9d7b39",
+    "mind-reset-after-miss-q3": "4434c585",
+    "mind-reset-after-miss-q4": "f626c67f"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\"."
+    ]
+  }
+}

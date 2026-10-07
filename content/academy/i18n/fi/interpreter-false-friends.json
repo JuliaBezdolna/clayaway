@@ -1,0 +1,112 @@
+{
+  "id": "interpreter-false-friends",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "93be8a38",
+    "summary": "2c55b920",
+    "interpreter-false-friends-intro": "39c55cd5",
+    "interpreter-false-friends-p1": "3e0535c1",
+    "interpreter-false-friends-p2": "3cf9ded2",
+    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-cards": "3645d5da",
+    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-ph1": "7ff90f13",
+    "interpreter-false-friends-ph2": "3677adad",
+    "interpreter-false-friends-ph3": "f46276ac",
+    "interpreter-false-friends-ph4": "d629b25a",
+    "interpreter-false-friends-ph5": "1a9f89c1",
+    "interpreter-false-friends-ph6": "17d1f7d8",
+    "interpreter-false-friends-kp1": "6cad2a11",
+    "interpreter-false-friends-kp2": "aaa1da92",
+    "interpreter-false-friends-kp3": "2fc47aba",
+    "interpreter-false-friends-kp4": "c8245804",
+    "interpreter-false-friends-kp5": "df7d4fa7",
+    "interpreter-false-friends-kp6": "19cf2f99",
+    "interpreter-false-friends-q1": "4fa72f2b",
+    "interpreter-false-friends-q2": "d58615b3",
+    "interpreter-false-friends-q3": "3c4d036d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Hämäävät sanat radalla",
+  "summary": "Ammuntasanoja, jotka näyttävät tutuilta mutta tarkoittavat eri asiaa: savu ja pöly, tuloslaskennan sanat, «trap», «stand» ja «squad» sekä ranskan, italian ja portugalin kielen sudenkuopat.",
+  "body": {
+    "interpreter-false-friends-intro": "{{term:false-friend|Hämäävä sana}} on sana, joka näyttää tutulta, mutta tarkoittaa radalla eri asiaa. Osa niistä vaikuttaa tulokseen, niin ne kannattaa opetella ensin.",
+    "interpreter-false-friends-p1": "Suurin sudenkuoppa on savu. Valmentajan huuto «{{term:smoked-it|Smoked it!}}» (tai «inked it», «powdered it») on kehu täydellisestä osumasta: kohde katosi pölypilveen. Säännöissä kiekko, josta lähtee vain pölyä tai savua, ilman {{term:visible-piece|näkyvää palaa}}, on {{term:zero|zero}}. «{{term:chip|Chip}}», pieni näkyvä pala, on osuma ({{term:one|one}}). «Dusted it» on riskialtis: se voi tarkoittaa, että irtosi vain pölyä (nolla), tai joillekin valmentajille, että kiekko hajosi täysin. Käännä siis valmentajan «smoked it» täydeksi, puhtaaksi osumaksi ja tuomarin «only dust» nollaksi, ja kysy, mitä «dusted it» tarkoittaa.",
+    "interpreter-false-friends-p2": "Tuloslaskennan sanat eivät ole kirjaimellisia. «Dead» ja «kill» tarkoittavat osumaa, eivät mitään kuolemasta. «Lost» tarkoittaa ohilaukausta, ei jotain kadonnutta. «Dropped two» tarkoittaa, että kaksi kohdetta meni ohi. «Straight» ilmauksessa «25 straight» tarkoittaa virheetöntä sarjaa, jossa yksikään kohde ei mennyt ohi.",
+    "interpreter-false-friends-p3": "Välineiden ja paikan sanat. «{{term:trap|Trap}}» on heitinkone, ei ansa; Trap on myös olympialaji. «Stand» on yksi ampumapaikka, {{term:shooting-stand|ampumapaikka}}, ei koko rata; lajissa {{tm:compak}} näitä paikkoja kutsutaan usein asemiksi. «{{term:peg|Peg}}» on ampujan paikka. Nimi tulee numeroidusta paalusta, joka merkitsee joka ampujan paikan ajometsästyksessä, niin ei käännä sitä paaluksi. «Broken gun» tarkoittaa avointa asetta. «Pull!» on {{term:call|kutsu}}, «{{term:pull-away|pull-away}}» on ennakkomenetelmä ja «{{term:length-of-pull|length of pull}}» on tukin pituus, liipaisimesta perälevyyn.",
+    "interpreter-false-friends-cards": "«Card» on {{term:score-sheet|tulospöytäkirja}} tai keltainen tai punainen kortti. «On report» tarkoittaa laukauksen äänestä, niin kuin {{term:double-on-report|laukauksesta lähtevässä kaksoiskiekossa}}, ei «raportti». «{{term:squad|Squad}}» on kilpailuryhmä, jossa on {{fact:rules.squad-max-shooters}}. ClayAway-matkoissa, jotka ovat tulossa, samalla sanalla kutsutaan myös matkan alaryhmää.",
+    "interpreter-false-friends-p4": "Muilla kielillä on omat sudenkuoppansa. Ranskan «chandelle» on kohde, joka ponnahtaa melkein suoraan ylös; englanniksi se on {{term:teal|teal}} (pystykiekko). Se ei ole englannin {{term:chandelle|chandelle}}, kohde, joka nousee jyrkästi kaarena ja putoaa sitten. Ranskan «en battue» ja italian «in battuta» tarkoittavat {{term:driven-target|ajometsästystä}}, ei {{term:battue|battue-kiekkoa}}. Portugalissa «batida» on battue-kiekko, kun «de batida» tarkoittaa ajometsästystä. Osumasta ranskalainen tuomari sanoo «Bon» ja italialainen «Buono», ja {{term:trapper|operaattoria}} kutsutaan usein «pulleur» tai «puller». Myös sanat erälle vaihtelevat, niin käytä kilpailun omassa säännöstössä olevaa sanaa."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-false-friends-ph1": {
+      "meaning": "Täysin puhdas osuma, kohde hajosi pölyksi. Ei sekoiteta sääntöjen «vain savu».",
+      "say": "Hajotit sen pölyksi!"
+    },
+    "interpreter-false-friends-ph2": {
+      "meaning": "Tuomari: näkyvää palaa ei irronnut, niin se on ohilaukaus.",
+      "say": "Vain pölyä — nolla."
+    },
+    "interpreter-false-friends-ph3": {
+      "meaning": "Pieni näkyvä pala irtosi: tämä lasketaan osumaksi.",
+      "say": "Vain pieni pala, mutta osuma."
+    },
+    "interpreter-false-friends-ph4": {
+      "meaning": "Avaa ase. Ei liity rikkoutumiseen.",
+      "say": "Avaa (taita) ase."
+    },
+    "interpreter-false-friends-ph5": {
+      "meaning": "Asetu merkitylle ampumapaikalle.",
+      "say": "Astu ampumapaikalle."
+    },
+    "interpreter-false-friends-ph6": {
+      "meaning": "Toinen kohde laukaistaan ensimmäisen laukauksesi äänestä.",
+      "say": "Toinen — laukauksesta."
+    }
+  },
+  "key_points": {
+    "interpreter-false-friends-kp1": "Valmentajan «smoked it» = täydellinen osuma; sääntöjen «only dust or smoke» = nolla",
+    "interpreter-false-friends-kp2": "Dead / kill = osuma; lost / dropped = ohi; straight = virheetön sarja",
+    "interpreter-false-friends-kp3": "Trap = kone; stand = yksi ampumapaikka; peg = ampujan paikka; broken gun = avoin ase",
+    "interpreter-false-friends-kp4": "Pull, card, report ja squad ovat kaikki monimerkityksisiä",
+    "interpreter-false-friends-kp5": "Ranskan chandelle ja «en battue» eroavat englannin sanoista",
+    "interpreter-false-friends-kp6": "«Dusted it» voi tarkoittaa molempia: kysy"
+  },
+  "quiz": {
+    "interpreter-false-friends-q1": {
+      "q": "Valmentaja huutaa «Smoked it!» laukauksen jälkeen. Mitä tapahtui?",
+      "options": {
+        "a": "Vain savua: nolla",
+        "b": "Kohde tuhoutui: täydellinen osuma",
+        "c": "Patruuna petti",
+        "d": "Kohde oli flash-kiekko"
+      },
+      "explain": "Valmentajien slangissa «smoked it» on täydellinen osuma; säännöissä «only dust or smoke» on nolla. Merkitykset ovat vastakkaiset."
+    },
+    "interpreter-false-friends-q2": {
+      "q": "Tuomari sanoo «Lost.». Mitä se tarkoittaa?",
+      "options": {
+        "a": "Kohde lensi näkyvistä",
+        "b": "Ampujan aika loppui",
+        "c": "Kohde poikkesi tavallisesta linjasta",
+        "d": "Ohilaukaus: kohde on nolla"
+      },
+      "explain": "«Lost» on tuloslaskennan sana ohilaukaukselle (nolla), ei mikään kadonnut."
+    },
+    "interpreter-false-friends-q3": {
+      "q": "Ranskalainen vieras sanoo pitävänsä ammunnasta «en battue». Mitä hän tarkoittaa?",
+      "options": {
+        "a": "Ajometsästystä (lintuja ajetaan ampujien yli)",
+        "b": "Ohutta battue-kiekkoa, joka kääntyy",
+        "c": "Kohdetta, joka ammutaan osana paria",
+        "d": "Kohdetta, joka hajoaa pölyksi"
+      },
+      "explain": "Ranskan «en battue» (italian «in battuta») tarkoittaa ajometsästystä; battue-kiekko on eri asia."
+    }
+  }
+}

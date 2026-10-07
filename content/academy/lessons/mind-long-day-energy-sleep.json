@@ -1,0 +1,620 @@
+{
+  "id": "mind-long-day-energy-sleep",
+  "rev": 3,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-01-01",
+  "review": {
+    "status": "pending",
+    "specialist": "doctor (sports medicine)",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "mind-long-day-energy-sleep"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "round",
+    "jet-lag"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    }
+  ],
+  "facts": [
+    "mind.alcohol-wada-2018",
+    "mind.caffeine-half-life",
+    "mind.dehydration-2pct",
+    "mind.sleep-window",
+    "basics.international-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Mental fatigue and sport-specific psychomotor performance: a systematic review (Sports Medicine, 2021)"
+      },
+      "url": "https://doi.org/10.1007/s40279-021-01429-6",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The effects of mental fatigue on archery shooting performance under a simulated competition (Brain Sciences, 2026)"
+      },
+      "url": "https://doi.org/10.3390/brainsci16050459",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Sleep and the athlete: narrative review and 2021 expert consensus recommendations (British Journal of Sports Medicine, 2021)"
+      },
+      "url": "https://doi.org/10.1136/bjsports-2020-102025",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Understanding sleep disturbance in athletes prior to important competitions (Journal of Science and Medicine in Sport, 2015)"
+      },
+      "url": "https://www.researchgate.net/publication/260193200",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Effect of caffeine ingestion on competitive rifle shooting performance (PLoS ONE, 2019)"
+      },
+      "url": "https://doi.org/10.1371/journal.pone.0224596",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "ISSF Medical Committee — Is caffeine consumption recommended for shooting sport athletes? (2018)"
+      },
+      "url": "https://www.issf-sports.org/news/3065",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Australian Institute of Sport — Caffeine (AIS Sports Supplement Framework)"
+      },
+      "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Dehydration impairs cognitive performance: a meta-analysis (Medicine & Science in Sports & Exercise, 2018)"
+      },
+      "url": "https://www.researchgate.net/publication/325936696",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Alcohol: impact on sports performance and recovery in male athletes (Sports Medicine, 2014)"
+      },
+      "url": "https://doi.org/10.1007/s40279-014-0192-8",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "USADA — 2018 Prohibited List: summary of major changes (alcohol removed from the list)",
+        "uk": "USADA — зміни у Забороненому списку 2018 року (алкоголь вилучено зі списку)"
+      },
+      "url": "https://www.usada.org/athlete-advisory/2018-prohibited-list-summary-of-major-changes/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "WADA — 2027 Prohibited List (in force from 1 January 2027)",
+        "uk": "WADA — Заборонений список 2027 (чинний з 1 січня 2027 року)"
+      },
+      "url": "https://www.wada-ama.org/en/resources/2027-prohibited-list",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Competition day: sleep, coffee, water and food",
+    "uk": "День змагань: сон, кава, вода і їжа"
+  },
+  "summary": {
+    "en": "How to keep your energy over a long competition day: your usual bedtime, your usual coffee, water little and often, familiar food and no alcohol.",
+    "uk": "Як зберегти сили на довгий день змагань: звичний час сну, звична кава, вода потроху й часто, знайома їжа і жодного алкоголю."
+  },
+  "brief": {
+    "title": {
+      "en": "Competition day: sleep, coffee, water and food",
+      "uk": "День змагань: сон, кава, вода і їжа"
+    },
+    "points": {
+      "en": [
+        "The evening before: the usual bedtime, a 7–9 hour window, kit packed, the plan written down.",
+        "Poor sleep before an important event is common; if you cannot sleep, rest quietly.",
+        "Coffee in your usual amount, no special 'competition dose', and not late in the day.",
+        "Drink a little and often (losing more than about 2% of body weight in fluid can affect attention; cite the source).",
+        "The usual breakfast 2–3 hours before; snacks every 60–90 minutes.",
+        "No alcohol before or during shooting (receives the alcohol paragraph of health-alcohol-medication-weather)."
+      ],
+      "uk": [
+        "Вечір напередодні: звичний час сну, вікно 7–9 годин, спорядження зібране, план записаний.",
+        "Поганий сон перед важливим стартом — часта річ; якщо не спиться, просто спокійно відпочивайте.",
+        "Кава у звичній кількості, без особливої «дози для змагань» і не пізно.",
+        "Пити потроху і часто (втрата рідини понад приблизно 2 % ваги тіла може погіршити увагу; дати джерело).",
+        "Звичний сніданок за 2–3 години; перекуси кожні 60–90 хвилин.",
+        "Без алкоголю до і під час стрільби (сюди переходить абзац про алкоголь із health-alcohol-medication-weather)."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-long-day-energy-sleep-p1",
+      "t": "p",
+      "en": "An international {{tm:sporting}} competition is {{fact:basics.international-targets}}, often over several days ({{rule:sporting:ch16-format}}). A {{term:round|round}} of {{tm:compak}} is 25 targets, five at each station ({{rule:compak:ch17-round-combinations}}). A day at the ground can last from morning to evening, with walking, waiting, sun and wind.",
+      "uk": "Міжнародні змагання з {{tm:sporting}} — це {{fact:basics.international-targets}}, часто на кілька днів ({{rule:sporting:ch16-format}}). {{term:round|Раунд}} {{tm:compak}} — 25 мішеней, по п’ять на кожному номері ({{rule:compak:ch17-round-combinations}}). День на стенді може тривати з ранку до вечора: ходіння, очікування, сонце й вітер."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p8",
+      "t": "p",
+      "en": "When your head is tired, you aim less well and react more slowly. Between stands, switch off: talk, drink, sit in the shade, and add up your score later.",
+      "uk": "Коли голова втомлена, влучність падає, а реакція сповільнюється. Між стрілецькими місцями відпочивайте: розмовляйте, пийте, посидьте в тіні, а підрахунок очок залиште на потім."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p4",
+      "t": "p",
+      "en": "The night before: go to bed at your usual time and allow a sleep window of {{fact:mind.sleep-window}}. Pack your kit and write down tomorrow's plan, so you do not lie awake going over it.",
+      "uk": "Напередодні ввечері лягайте у звичний час і залиште на сон {{fact:mind.sleep-window}}. Зберіть спорядження й запишіть план на завтра, щоб не прокручувати його в голові вночі."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p9",
+      "t": "p",
+      "en": "Poor sleep before an important event is common: in one survey, about 64% of athletes slept worse. If you cannot sleep, rest calmly. The nights before matter too, so sleep well during the week.",
+      "uk": "Поганий сон перед важливим стартом — звична річ: в одному опитуванні приблизно 64 % спортсменів спали гірше. Якщо не спиться, просто спокійно відпочивайте. Важать і попередні ночі, тож висипайтеся протягом тижня."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p10",
+      "t": "p",
+      "en": "Coffee: stick to your usual amount and do not try more on the day. In one study, a large dose (300 mg, about as much caffeine as three or four cups of brewed coffee) made rifle shooters score worse when shooting standing. The doctors of the international shooting federation (ISSF) see little benefit in extra caffeine.",
+      "uk": "Кава: тримайтеся звичної кількості й не пробуйте більшої дози в день змагань. В одному дослідженні велика доза (300 мг, приблизно стільки кофеїну, як у трьох-чотирьох чашках звареної кави) погіршила результати стрільців із гвинтівки в стрільбі стоячи. Лікарі міжнародної федерації стрільби (ISSF) не бачать у додатковому кофеїні великої користі."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p11",
+      "t": "p",
+      "en": "Stop caffeine early in the day: half of it is still in your body {{fact:mind.caffeine-half-life}} later, and it can spoil your sleep. Energy drinks can add tremor and nerves.",
+      "uk": "Каву пийте в першій половині дня: половина кофеїну ще залишається в організмі через {{fact:mind.caffeine-half-life}}, і він може зіпсувати сон. Енергетики можуть додати тремтіння й хвилювання."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p2",
+      "t": "p",
+      "en": "Water: drink a little and often through the day, not only when you are very thirsty. In studies, {{fact:mind.dehydration-2pct}} (about 1.5 litres for someone of 75 kg) made people less attentive and less precise. On hot days you may need more.",
+      "uk": "Вода: пийте потроху й часто протягом дня, а не лише тоді, коли дуже хочеться. У дослідженнях {{fact:mind.dehydration-2pct}} (для людини вагою 75 кг це приблизно 1,5 літра) погіршувала увагу й координацію рухів. У спеку води може знадобитися більше."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p3",
+      "t": "p",
+      "en": "Food: a familiar breakfast 2–3 hours before shooting, then small snacks at 60–90 minute intervals on a long day. A heavy meal just before a round can make you sleepy, and hunger makes it hard to focus. Do not try new foods on the day.",
+      "uk": "Їжа: звичний сніданок за 2–3 години до стрільби, а протягом довгого дня — невеликі перекуси кожні 60–90 хвилин. Важкий обід перед самим раундом може приспати, а голод заважає зосередитися. Не пробуйте нових страв у день змагань."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-warn",
+      "t": "warn",
+      "critical": true,
+      "en": "Wash your hands before you eat at the ground: they can carry lead from cartridges and empties. More in {{lesson:health-lead-hygiene}}.",
+      "uk": "Мийте руки, перш ніж їсти на стенді: на них може бути свинець із набоїв і гільз. Докладніше — {{lesson:health-lead-hygiene}}."
+    },
+    {
+      "k": "health-alcohol-medication-weather-p1",
+      "t": "warn",
+      "critical": true,
+      "en": "No alcohol before or during shooting, including the lunch break. Alcohol slows reactions and affects coordination and sleep, and alcohol and guns do not mix. Ground rules and national law may forbid it too.",
+      "uk": "Жодного алкоголю перед стрільбою і під час неї, зокрема в обідню перерву. Алкоголь сповільнює реакцію, погіршує координацію й сон, а алкоголь і рушниця несумісні. Його можуть забороняти й правила стенду та закон країни."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p12",
+      "t": "p",
+      "en": "Note that {{fact:mind.alcohol-wada-2018}} (WADA is the World Anti-Doping Agency, which sets the list of substances banned in sport). That is not permission: keep evening drinks away from nights before shooting days.",
+      "uk": "Варто знати: {{fact:mind.alcohol-wada-2018}} (WADA — Всесвітнє антидопінгове агентство, яке веде список заборонених у спорті речовин). Це не дозвіл: не пийте ввечері перед днями стрільби."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p5",
+      "t": "p",
+      "en": "A long drive or flight tires you more than you expect: stiff muscles, dry air, little movement. If you can, arrive the day before, walk a little and drink water. Flying across time zones adds {{term:jet-lag|jet lag}}: see {{lesson:travel-jet-lag}}.",
+      "uk": "Довга дорога за кермом чи переліт втомлюють більше, ніж здається: затерплі м’язи, сухе повітря, мало руху. Якщо можете, приїжджайте напередодні, трохи пройдіться й пийте воду. Переліт через часові пояси додає ще й {{term:jet-lag|наслідки зміни часових поясів}}: див. {{lesson:travel-jet-lag}}."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p7",
+      "t": "tip",
+      "en": "Pack a day kit: water, snacks, a cap, a warm layer and a rain jacket. Then at the ground you think about targets, not about where to find water.",
+      "uk": "Складіть «набір на день»: вода, перекус, кепка, теплий шар одягу, дощовик. Тоді на стенді ви думатимете про мішені, а не про те, де взяти воду."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-tip",
+      "t": "tip",
+      "en": "If you organise a tour or a club day, plan shade, water and snacks near the layouts, and avoid late dinners or alcohol events before shooting days.",
+      "uk": "Якщо ви організовуєте тур чи клубний день, подбайте про тінь, воду й перекуси біля майданчиків і не плануйте пізніх вечер чи вечірок з алкоголем перед днями стрільби."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-long-day-energy-sleep-kp3",
+      "en": "The night before: usual bedtime, kit packed, plan written down.",
+      "uk": "Напередодні: звичний час сну, спорядження зібране, план записаний.",
+      "checklist": true
+    },
+    {
+      "k": "mind-long-day-energy-sleep-kp6",
+      "en": "Coffee: your usual amount, and not late in the day.",
+      "uk": "Кава: звична кількість і не пізно.",
+      "checklist": true
+    },
+    {
+      "k": "mind-long-day-energy-sleep-kp1",
+      "en": "Carry water and drink small sips through the day.",
+      "uk": "Майте з собою воду й пийте невеликими ковтками протягом дня.",
+      "checklist": true
+    },
+    {
+      "k": "mind-long-day-energy-sleep-kp2",
+      "en": "Familiar breakfast, small snacks; wash your hands before eating.",
+      "uk": "Звичний сніданок, невеликі перекуси; мийте руки перед їжею.",
+      "checklist": true
+    },
+    {
+      "k": "health-alcohol-medication-weather-kp1",
+      "en": "No alcohol before or during shooting.",
+      "uk": "Жодного алкоголю перед стрільбою і під час неї.",
+      "checklist": true,
+      "from": "health-alcohol-medication-weather"
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-long-day-energy-sleep-dyk2",
+    "en": "Caffeine is not banned in sport: WADA only keeps an eye on how much athletes use. For a shooter the question is not the rules but steady hands and good sleep.",
+    "uk": "Кофеїн у спорті не заборонений: WADA лише стежить, скільки його вживають спортсмени. Для стрільця питання не в правилах, а в спокійних руках і доброму сні."
+  },
+  "quiz": [
+    {
+      "k": "mind-long-day-energy-sleep-q1",
+      "q": {
+        "en": "How can you drink water at the ground?",
+        "uk": "Як пити воду на стенді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In small sips through the day",
+          "uk": "Невеликими ковтками протягом дня"
+        },
+        {
+          "k": "b",
+          "en": "Only when you are very thirsty",
+          "uk": "Лише коли дуже хочеться пити"
+        },
+        {
+          "k": "c",
+          "en": "A lot at once, in the evening",
+          "uk": "Багато й одразу, увечері"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Small, regular sips help you avoid the fluid loss that affects attention.",
+        "uk": "Невеликі регулярні ковтки допомагають уникнути втрати рідини, яка погіршує увагу."
+      }
+    },
+    {
+      "k": "mind-long-day-energy-sleep-q4",
+      "q": {
+        "en": "How much coffee on competition day?",
+        "uk": "Скільки кави в день змагань?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A large extra dose for focus",
+          "uk": "Велику додаткову дозу для уваги"
+        },
+        {
+          "k": "b",
+          "en": "Your usual amount, not late in the day",
+          "uk": "Звичну кількість і не пізно"
+        },
+        {
+          "k": "c",
+          "en": "None at all, because caffeine is prohibited",
+          "uk": "Жодної, бо кофеїн заборонений"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Keep your habit: a large dose can make the hands less steady, and caffeine is not prohibited.",
+        "uk": "Тримайтеся звички: велика доза може зробити руки менш стійкими, а кофеїн не заборонений."
+      }
+    },
+    {
+      "k": "mind-long-day-energy-sleep-q3",
+      "q": {
+        "en": "Why wash your hands before a snack at the ground?",
+        "uk": "Чому перед перекусом на стенді варто мити руки?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Because the referee requires it",
+          "uk": "Бо цього вимагає суддя на стенді"
+        },
+        {
+          "k": "b",
+          "en": "So that the gun does not slip in your hands",
+          "uk": "Щоб рушниця не ковзала в руках"
+        },
+        {
+          "k": "c",
+          "en": "They may carry lead from cartridges",
+          "uk": "На них може бути свинець із набоїв"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Lead often reaches the body through dirty hands and food.",
+        "uk": "Свинець часто потрапляє в організм через брудні руки та їжу."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-long-day-energy-sleep-q6",
+      "q": {
+        "en": "What can you do between stands on a long day?",
+        "uk": "Що можна робити між стрілецькими місцями протягом довгого дня?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Rest: talk, drink, find shade",
+          "uk": "Відпочити: розмова, вода, тінь"
+        },
+        {
+          "k": "b",
+          "en": "Add up your score again and again",
+          "uk": "Знову й знову рахувати свої очки"
+        },
+        {
+          "k": "c",
+          "en": "Stay on your phone all break",
+          "uk": "Усю перерву сидіти в телефоні"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A tired head aims less well; resting between stands helps you switch on again for the next one.",
+        "uk": "Утомлена голова гірше цілиться; відпочинок між місцями допомагає знову зосередитися на наступному."
+      }
+    },
+    {
+      "k": "health-alcohol-medication-weather-q1",
+      "q": {
+        "en": "When may you drink alcohol on a shooting day?",
+        "uk": "Коли можна випити алкоголь у день стрільби?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At lunch, between two rounds",
+          "uk": "За обідом, між двома раундами"
+        },
+        {
+          "k": "b",
+          "en": "Before the first round, for a little courage",
+          "uk": "Перед першим раундом, трохи для сміливості"
+        },
+        {
+          "k": "c",
+          "en": "After shooting, if you don't shoot tomorrow",
+          "uk": "Після стрільби, якщо завтра не стріляти"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "No alcohol before or during shooting, and none in the evening before another shooting day.",
+        "uk": "Жодного алкоголю перед стрільбою і під час неї, і жодного ввечері перед наступним днем стрільби."
+      },
+      "from": "health-alcohol-medication-weather"
+    },
+    {
+      "k": "mind-long-day-energy-sleep-q5",
+      "q": {
+        "en": "When can you go to bed the night before?",
+        "uk": "Коли лягати спати напередодні?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At your usual time",
+          "uk": "У звичний час"
+        },
+        {
+          "k": "b",
+          "en": "Much earlier than usual",
+          "uk": "Набагато раніше, ніж зазвичай"
+        },
+        {
+          "k": "c",
+          "en": "Late, after a long dinner",
+          "uk": "Пізно, після довгої вечері"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A usual bedtime with a 7–9 hour sleep window is a good default; going to bed much earlier often means lying awake.",
+        "uk": "Звичний час сну з вікном 7–9 годин — добрий вибір; якщо лягти набагато раніше, часто лежиш без сну."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-long-day-energy-sleep-p8",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01429-6",
+        "https://doi.org/10.3390/brainsci16050459"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p4",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1136/bjsports-2020-102025"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p9",
+      "level": "some",
+      "sources": [
+        "https://www.researchgate.net/publication/260193200",
+        "https://doi.org/10.1136/bjsports-2020-102025"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p10",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1371/journal.pone.0224596",
+        "https://www.issf-sports.org/news/3065",
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p11",
+      "level": "some",
+      "sources": [
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine",
+        "https://www.issf-sports.org/news/3065"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p2",
+      "level": "some",
+      "sources": [
+        "https://www.researchgate.net/publication/325936696"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "health-alcohol-medication-weather-p1",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s40279-014-0192-8"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p5",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p7",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-long-day-energy-sleep-tip",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "5885f20a",
+    "summary": "4dc7403c",
+    "mind-long-day-energy-sleep-p1": "12164b43",
+    "mind-long-day-energy-sleep-p8": "2c0d1cd3",
+    "mind-long-day-energy-sleep-p4": "0a9ac752",
+    "mind-long-day-energy-sleep-p9": "3295225e",
+    "mind-long-day-energy-sleep-p10": "d2ec3848",
+    "mind-long-day-energy-sleep-p11": "f5e44883",
+    "mind-long-day-energy-sleep-p2": "f0def611",
+    "mind-long-day-energy-sleep-p3": "5ce01972",
+    "mind-long-day-energy-sleep-warn": "c75f5c25",
+    "health-alcohol-medication-weather-p1": "074150ae",
+    "mind-long-day-energy-sleep-p12": "3488dbf9",
+    "mind-long-day-energy-sleep-p5": "44435622",
+    "mind-long-day-energy-sleep-p7": "6a682a7f",
+    "mind-long-day-energy-sleep-tip": "51444340",
+    "mind-long-day-energy-sleep-kp3": "a61469d5",
+    "mind-long-day-energy-sleep-kp6": "a49dbdd9",
+    "mind-long-day-energy-sleep-kp1": "f4875cba",
+    "mind-long-day-energy-sleep-kp2": "3d638995",
+    "health-alcohol-medication-weather-kp1": "72e95953",
+    "mind-long-day-energy-sleep-dyk2": "8c376566",
+    "mind-long-day-energy-sleep-q1": "325b88c5",
+    "mind-long-day-energy-sleep-q4": "a41c6455",
+    "mind-long-day-energy-sleep-q3": "6bdae5c4",
+    "mind-long-day-energy-sleep-q6": "c5db70a5",
+    "health-alcohol-medication-weather-q1": "6ceebc0b",
+    "mind-long-day-energy-sleep-q5": "3c211a12"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the doctor (sports medicine) named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
+      "review_by 2027-01-01: the alcohol and caffeine statements depend on the WADA list (alcohol off the list since 2018, caffeine only monitored); check them against the new list every September, as for mind-anti-doping."
+    ]
+  }
+}

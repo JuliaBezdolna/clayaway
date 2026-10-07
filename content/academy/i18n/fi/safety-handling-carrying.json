@@ -1,0 +1,95 @@
+{
+  "id": "safety-handling-carrying",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "67b42026",
+    "summary": "a0db90c0",
+    "safety-handling-carrying-p1": "131eff38",
+    "safety-handling-carrying-p2": "e729a9a8",
+    "safety-handling-carrying-p3": "837cb39e",
+    "safety-handling-carrying-p4": "6190476d",
+    "safety-handling-carrying-p5": "83531f88",
+    "safety-handling-carrying-p6": "fb47c648",
+    "safety-handling-carrying-mock-where": "8f7d7c36",
+    "safety-handling-carrying-mock-rule": "d3259ecf",
+    "safety-handling-carrying-p7": "c3605832",
+    "safety-handling-carrying-kp1": "cde0a177",
+    "safety-handling-carrying-kp2": "34c1f27e",
+    "safety-handling-carrying-kp3": "dd9b5692",
+    "safety-handling-carrying-kp4": "190dc8a8",
+    "safety-handling-carrying-dyk": "e976c923",
+    "safety-handling-carrying-q1": "6f174eb9",
+    "safety-handling-carrying-q2": "065b5397",
+    "safety-handling-carrying-q3": "5481d5e3",
+    "safety-handling-carrying-q4": "186b3f80"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Aseiden käsittely ja kantaminen radalla",
+  "summary": "Avoin ase, aseteline, asepussi ja ”kysy ennen kuin kosket”: miten käsitellä asetta ampumapaikkojen välillä.",
+  "body": {
+    "safety-handling-carrying-p1": "Tämä oppitunti lisää käytännön yksityiskohdat oppituntiin {{lesson:safety-core-rules}}. Jokaista asetta, myös tyhjää, käsitellään erittäin huolellisesti. Ampumapaikkojen välillä sitä kannetaan avoimena: {{term:over-and-under|päällekkäispiippuinen haulikko}} taitettuna (avattuna saranastaan), {{term:semi-automatic|puoliautomaatti}} lukko (liikkuva osa, joka syöttää patruunan) auki. {{term:muzzle|Piipun suu}} osoittaa suoraan ylös tai suoraan alas.",
+    "safety-handling-carrying-p2": "Monet ampujat kantavat avointa päällekkäispiippuista haulikkoa kyynärvarrella, piiput maata kohti. Kantohihnat ja remmit eivät ole sallittuja aseissa, kummassakaan lajissa.",
+    "safety-handling-carrying-p3": "Kun ase ei ole käytössä, aseta se pystyyn {{term:gun-rack|asetelineeseen}} tai muuhun paikkaan, jonka rata on osoittanut. Puoliautomaatti seisoo siellä lukko auki. Älä nojaa asetta autoon, puuhun tai pöytään: se voi luiskahtaa ja kaatua.",
+    "safety-handling-carrying-p4": "Auton ja ampumapaikan välillä ase kulkee {{term:gun-slip|asepussissa}} tai {{term:hard-case|asekotelossa}}. Ota se esiin vain siellä, missä rata sen sallii — usein se ei ole pysäköintialue.",
+    "safety-handling-carrying-p5": "Älä koske toisen henkilön aseeseen ilman omistajan lupaa. Jos haluat katsoa sitä, kysy: omistaja avaa sen ja ojentaa sen sinulle. Jos joku pyytää näyttämään, että aseesi on tyhjä, avaa se ja näytä patruunapesät. Valmentajat kutsuvat tätä ”{{term:show-clear|show clear}}”.",
+    "safety-handling-carrying-p6": "Älä tee {{term:gun-mount|aseen nostoa}} (nosta sitä olalle ja poskelle) äläkä heiluta sitä ikään kuin seuraisit kiekkoa. Tätä kutsutaan {{term:mock-shooting|tähtäysharjoitteluksi}}. Molemmat säännöstöt kieltävät sen, mutta rajaavat sen eri tavoin.",
+    "safety-handling-carrying-mock-where": {
+      "sporting": "Missä tahansa radalla: ampumapaikan ulkopuolella, ampumapaikalla ennen kiekon kutsumista ja kiekkojen näyttämisen aikana.",
+      "compak": "Ampumapaikkojen ulkopuolella ja tilanteissa, joissa erän toinen jäsen ampuu."
+    },
+    "safety-handling-carrying-mock-rule": "{{tm:sporting}}-lajissa tähtäysharjoittelusta tai vahingonlaukauksesta annetaan ensimmäisellä kerralla {{term:warning|varoitus}}. Jos se toistuu, seuraava osuma merkitään virheeksi (nolla).",
+    "safety-handling-carrying-p7": "Tarkistaaksesi, että ase toimii, käytä {{term:gun-test|koeampumapaikkaa}}, jos radalla on sellainen, tavallisesti seuratalon lähellä. Koelaukaukset kilpailun ampumapaikalla eivät ole sallittuja."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "safety-handling-carrying-kp1": "Kanna asetta avoimena, piipun suu suoraan ylös tai alas; ei kantohihnoja",
+    "safety-handling-carrying-kp2": "Ei käytössä: pystyssä asetelineessä, ei nojaamassa mihinkään",
+    "safety-handling-carrying-kp3": "Asepussi tai kotelo auton ja ampumapaikan välillä",
+    "safety-handling-carrying-kp4": "Kysy ennen kuin kosket toisen aseeseen; ei tähtäysharjoittelua"
+  },
+  "did_you_know": "Avoin ase on myös kohteliaisuus: se näyttää ympärillä oleville, ettei heillä ole mitään hätää.",
+  "quiz": {
+    "safety-handling-carrying-q1": {
+      "q": "Miten asetta kannetaan ampumapaikkojen välillä?",
+      "options": {
+        "a": "Suljettuna, olalla, varmistin päällä",
+        "b": "Kantohihnassa selässä, tyhjänä",
+        "c": "Avoimena, piipun suu suoraan ylös tai alas"
+      },
+      "explain": "Asetta kannetaan avoimena, piipun suu ylös tai alas; kantohihnat eivät ole sallittuja kummassakaan lajissa."
+    },
+    "safety-handling-carrying-q2": {
+      "q": "Minne ase viedään, kun sitä ei käytetä?",
+      "options": {
+        "a": "Pystyyn asetelineeseen tai muuhun osoitettuun paikkaan",
+        "b": "Nojaamaan autoon, suljettuna ja tyhjänä",
+        "c": "Makaamaan maahan ampumapaikan viereen"
+      },
+      "explain": "Aseet seisovat pystyssä asetelineessä tai muussa radan osoittamassa paikassa, jotta ne eivät kaadu; puoliautomaatti seisoo lukko auki."
+    },
+    "safety-handling-carrying-q3": {
+      "q": "Missä aseen saa koelaukaista?",
+      "options": {
+        "a": "Ensimmäisellä kilpailun ampumapaikalla, ennen kierrosta",
+        "b": "Koeampumapaikalla, jos radalla on sellainen",
+        "c": "Pysäköintialueen hiljaisessa kulmassa"
+      },
+      "explain": "Koelaukaukset kuuluvat koeampumapaikalle; niiden ampuminen kilpailun ampumapaikalla on kiellettyä."
+    },
+    "safety-handling-carrying-q4": {
+      "q": "Mitä tähtäysharjoittelu on?",
+      "options": {
+        "a": "Ampumista oikeaan kiekkoon kevyellä harjoituspatruunalla",
+        "b": "Kiekon kutsumista, kun aseessa ei ole yhtään patruunaa",
+        "c": "Aseen nostamista olalle ja sen heiluttamista kuvitellun kiekon mukana"
+      },
+      "explain": "Tähtäysharjoittelu tarkoittaa aseen nostamista ja heiluttamista kuin tähtäisi kiekkoon. {{tm:sporting}}-lajissa sitä ei sallita missään radalla, ei edes ampumapaikalla ennen kutsua. {{tm:compak}}-lajissa sitä ei sallita ampumapaikkojen ulkopuolella eikä silloin, kun erän toinen jäsen ampuu."
+    }
+  }
+}

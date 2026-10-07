@@ -1,0 +1,109 @@
+{
+  "id": "referee-calls",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Co říká rozhodčí na stanovišti",
+  "summary": "Krátká slova stanoviště: povel, nabíjení a otevřené zbraně, „one“, „zero“ a „No Bird“, a formální slovo střelce pro protest.",
+  "body": {
+    "referee-calls-p1": "Stanoviště má svou vlastní krátkou řeč. Když je připraven, střelec dá {{term:call|povel}}, obvykle „Pull!“ nebo „Ready!“. V {{tm:sporting}} předává {{term:referee|rozhodčí}} povel {{term:trapper|obsluze vrhačky}} zvukovým signálem. Terč musí vylétnout {{fact:rules.release-within-3s}} od tohoto signálu; pozdější terč je {{term:no-bird|nový terč (No Bird)}}. V {{tm:compak}} musí i ruční spuštění přijít {{fact:rules.release-within-3s}} od povelu. Hlasem ovládané spuštění ({{term:sonopull|sonopull}}: mikrofon, který vypustí terč, jakmile zaslechne váš povel) má pevné zpoždění {{fact:rules.sonopull-delay}}.",
+    "referee-calls-p2": "Než kdokoli vystřelí, rozhodčí určuje, kdy se smí zbraně nabíjet a zavírat. Pravidla dovolují {{term:loading|nabíjení}} jen na stanovišti, se zbraní namířenou do pole, až poté, co rozhodčí řekne, že se může začít střílet. Během {{term:target-presentation|předvedení terčů}} a při každém přerušení jsou zbraně otevřené a vyprázdněné. Zavírají se znovu jen s dovolením rozhodčího. V {{tm:compak}} rozhodčí zahajuje kolo slovy „Start“ nebo „Competition“.",
+    "referee-calls-p3": "Po každém terči znají pravidla jen tři výsledky: „{{term:one|one}}“ (zásah), „{{term:zero|zero}}“ (chyba) a „No Bird“ (terč se nezapočítává a hodí se znovu). Na střelnici také uslyšíte „dead“ nebo „good“ při zásahu a „lost“ při chybě; někteří rozhodčí po zásahu mlčí. V {{tm:compak}} rozhodčí oznamuje každou nulu nahlas nebo zvukovým signálem, aby nesouhlasící střelec mohl hned podat protest.",
+    "referee-calls-p4": "I střelec má své formální slovo. Pokud nesouhlasíte s rozhodnutím, hned na stanovišti zvedněte ruku a řekněte „{{term:protest|Protest!}}“ nebo „{{term:appeal|Appeal!}}“ ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Další fráze, které střelec potřebuje: {{lesson:stand-talk-shooter-phrases}}."
+  },
+  "note": {
+    "referee-calls-n1": "Tyto povely držte krátké a pokaždé stejné. Před kolem se se svým střelcem domluvte, jaká slova budete používat. Mezi povelem a výstřelem nepřidávejte nic vlastního."
+  },
+  "phrases": {
+    "referee-calls-ph1": {
+      "meaning": "Rozhodčí povoluje zahájit střelbu: teď nabijte, zbraň namířená do prostoru střelby.",
+      "say": "Můžete nabít."
+    },
+    "referee-calls-ph2": {
+      "meaning": "Tento terč se nepočítá; nestřílejte na něj. Bude hozen znovu.",
+      "say": "No bird!"
+    },
+    "referee-calls-ph3": {
+      "meaning": "Rozhodčí hodnotil terč jako chybu (nulu).",
+      "say": "Nula."
+    },
+    "referee-calls-ph4": {
+      "meaning": "Terč je zásah.",
+      "say": "Zásah. / Dobrý."
+    },
+    "referee-calls-ph5": {
+      "meaning": "Všichni otevřou a vybijí zbraně; rozhodčí bude házet terče na ukázku.",
+      "say": "Zbraně otevřít, prosím – předvádíme terče."
+    },
+    "referee-calls-ph6": {
+      "meaning": "{{tm:compak}}: předvedení terčů skončilo, od této chvíle se kolo počítá do výsledku.",
+      "say": "Start. Jde se do výsledku."
+    }
+  },
+  "key_points": {
+    "referee-calls-kp1": "Střelec volá „Pull!“ nebo „Ready!“; terč musí přijít do 3 sekund",
+    "referee-calls-kp2": "Nabíjet jen na stanovišti a jen se svolením rozhodčího; při předvedení a přerušení zbraně otevřené",
+    "referee-calls-kp3": "Slova pravidel: one = zásah, zero = nula, No Bird = hází se znovu",
+    "referee-calls-kp4": "{{tm:compak}}: každou nulu oznamují nahlas nebo zvukovým signálem",
+    "referee-calls-kp5": "Protest = zvednutá ruka + „Protest!“ nebo „Appeal!“"
+  },
+  "quiz": {
+    "referee-calls-q1": {
+      "q": "V {{tm:sporting}} terč vyletí pět sekund po signálu rozhodčího. Jaké je rozhodnutí rozhodčího?",
+      "options": {
+        "a": "Počítá se jako obvykle",
+        "b": "No Bird",
+        "c": "Nula, protože střelec dal povel příliš brzy",
+        "d": "Jen varování pro obsluhu vrhačky"
+      },
+      "explain": "Terč musí vyletět do tří sekund od signálu rozhodčího; pozdější terč je No Bird a hodí se znovu."
+    },
+    "referee-calls-q2": {
+      "q": "Kdy smí střelec na soutěži nabít zbraň?",
+      "options": {
+        "a": "Cestou na další stanoviště",
+        "b": "Za stanovištěm, během čekání",
+        "c": "Na stanovišti, po dovolení rozhodčího",
+        "d": "Jakmile to řekne trenér"
+      },
+      "explain": "Nabíjet se smí jen na stanovišti, se zbraní namířenou do pole, a jen poté, co rozhodčí řekne, že se může začít střílet."
+    },
+    "referee-calls-q3": {
+      "q": "Jakými slovy se na stanovišti zahajuje formální protest?",
+      "options": {
+        "a": "„Protest!“, se zvednutou rukou",
+        "b": "„No Bird!“, se zvednutou rukou",
+        "c": "„Rozhodčí, podívejte se na ten terč!“",
+        "d": "„Počkejte!“, po dalším terči"
+      },
+      "explain": "Oba regulérní řády uvádějí „protest“ nebo „appeal“ se zvednutou rukou, okamžitě; „No Bird“ je slovo rozhodčího."
+    }
+  }
+}

@@ -1,0 +1,775 @@
+[
+  {
+    "id": "beginner",
+    "order": 1,
+    "primary": true,
+    "icon": "seedling",
+    "notes_open": false,
+    "title": {
+      "uk": "Новачок",
+      "en": "Beginner"
+    },
+    "for": {
+      "uk": "Для того, хто ще не стріляв.",
+      "en": "For someone who has never shot."
+    },
+    "stages": [
+      {
+        "id": "first-visit",
+        "title": {
+          "uk": "До першого візиту",
+          "en": "Before your first visit"
+        },
+        "lessons": [
+          "intro-what-is-clay-shooting",
+          "intro-disciplines",
+          "intro-shooting-ground",
+          "intro-how-to-start",
+          "budget-what-it-costs",
+          "safety-core-rules",
+          "safety-eye-ear-protection",
+          "safety-handling-carrying",
+          "safety-stand-etiquette",
+          "gear-what-to-buy-first"
+        ],
+        "badge": "stage-beginner-first-visit",
+        "minutes": 51
+      },
+      {
+        "id": "first-shots",
+        "title": {
+          "uk": "Перші постріли",
+          "en": "First shots"
+        },
+        "lessons": [
+          "gun-parts",
+          "targets-target-types",
+          "targets-basic-presentations",
+          "technique-stance",
+          "technique-gun-mount",
+          "technique-master-eye",
+          "technique-hold-pickup-break-points",
+          "technique-lead-methods",
+          "training-first-lessons-and-coach"
+        ],
+        "badge": "stage-beginner-first-shots",
+        "minutes": 56
+      }
+    ],
+    "extras": [
+      "intro-who-shoots",
+      "gun-first-gun",
+      "gear-ear-protection",
+      "gear-shooting-glasses",
+      "gear-clothing-and-shoes",
+      "targets-reading-a-target",
+      "technique-follow-through-and-mistakes",
+      "rules-malfunctions",
+      "budget-how-to-save",
+      "budget-first-year-plan"
+    ],
+    "practice": [],
+    "certificate": {
+      "title": {
+        "uk": "Перший крок",
+        "en": "First step"
+      },
+      "exam": {
+        "n": 15,
+        "pass_pct": 80
+      }
+    },
+    "badge": "route-beginner",
+    "totals": {
+      "required": 19,
+      "minutes": 107
+    }
+  },
+  {
+    "id": "first-competition",
+    "order": 2,
+    "primary": true,
+    "icon": "trophy",
+    "notes_open": false,
+    "title": {
+      "uk": "Перші змагання",
+      "en": "First competition"
+    },
+    "for": {
+      "uk": "Для стрільця після кількох занять.",
+      "en": "For a shooter after a few sessions."
+    },
+    "stages": [
+      {
+        "id": "ready",
+        "title": {
+          "uk": "Підготовка",
+          "en": "Getting ready"
+        },
+        "lessons": [
+          "training-for-competition",
+          "competitions-types-of-events",
+          "competitions-how-to-enter",
+          "targets-sporting-layout",
+          "targets-compak-layout",
+          "targets-menu",
+          "targets-singles-and-doubles"
+        ],
+        "badge": "stage-first-competition-ready",
+        "minutes": 41
+      },
+      {
+        "id": "rules",
+        "title": {
+          "uk": "Правила, які треба знати",
+          "en": "Rules you need to know"
+        },
+        "lessons": [
+          "rules-gun-position",
+          "rules-call-and-time",
+          "rules-viewing-targets",
+          "rules-hit-and-no-bird",
+          "rules-malfunctions",
+          "rules-doubles",
+          "rules-cards-and-appeals",
+          "rules-dress-and-safety"
+        ],
+        "badge": "stage-first-competition-rules",
+        "minutes": 55
+      },
+      {
+        "id": "head",
+        "title": {
+          "uk": "Голова і тіло",
+          "en": "Mind and body"
+        },
+        "lessons": [
+          "mind-routine-under-pressure",
+          "mind-process-goals",
+          "mind-competition-nerves",
+          "mind-reset-after-miss",
+          "mind-long-day-energy-sleep",
+          "mind-anti-doping"
+        ],
+        "badge": "stage-first-competition-head",
+        "minutes": 33
+      },
+      {
+        "id": "day",
+        "title": {
+          "uk": "День змагань",
+          "en": "Competition day"
+        },
+        "lessons": [
+          "competitions-competition-day",
+          "culture-sportsmanship-referee",
+          "stand-talk-shooter-phrases",
+          "watching-reading-results",
+          "competitions-results-and-protests",
+          "competitions-categories-and-shoot-offs"
+        ],
+        "badge": "stage-first-competition-day",
+        "minutes": 38
+      }
+    ],
+    "extras": [
+      "mind-concentration-focus",
+      "mind-breathing",
+      "mind-cue-words-self-talk",
+      "mind-imagery",
+      "mind-pressure-choking",
+      "training-diary-and-progress",
+      "cartridges-choosing-and-storage",
+      "gear-shooting-vest",
+      "travel-planning-trip",
+      "clayarena-find-your-results"
+    ],
+    "practice": [
+      {
+        "game": "rules-exam",
+        "mode": "short",
+        "n": 10,
+        "min_pct": 80,
+        "discipline": "choose"
+      }
+    ],
+    "certificate": {
+      "exam": {
+        "n": 20,
+        "pass_pct": 80
+      }
+    },
+    "badge": "route-first-competition",
+    "totals": {
+      "required": 27,
+      "minutes": 167
+    },
+    "checklist": {
+      "source": "key_points.checklist",
+      "title": {
+        "uk": "Чек-лист дня змагань",
+        "en": "Competition day checklist"
+      }
+    }
+  },
+  {
+    "id": "interpreter",
+    "order": 3,
+    "primary": true,
+    "icon": "speech",
+    "notes_open": true,
+    "title": {
+      "uk": "Перекладач",
+      "en": "Interpreter"
+    },
+    "for": {
+      "uk": "Для перекладачів на стенді; замінює Академію перекладача.",
+      "en": "For interpreters on the stand; replaces the Interpreter Academy."
+    },
+    "stages": [
+      {
+        "id": "day-one",
+        "title": {
+          "uk": "Перший день на стенді",
+          "en": "First day on the stand"
+        },
+        "lessons": [
+          "intro-what-is-clay-shooting",
+          "safety-core-rules",
+          "safety-eye-ear-protection",
+          "safety-stand-etiquette",
+          "culture-sportsmanship-referee",
+          "interpreter-role",
+          "interpreter-position",
+          "referee-calls",
+          "interpreter-false-friends",
+          "gun-parts"
+        ],
+        "badge": "stage-interpreter-day-one",
+        "minutes": 57
+      },
+      {
+        "id": "sport",
+        "title": {
+          "uk": "Спорт і майданчики",
+          "en": "The sport and the layouts"
+        },
+        "lessons": [
+          "intro-fitasc-and-organisation",
+          "targets-sporting-layout",
+          "targets-compak-layout",
+          "targets-traps",
+          "targets-menu",
+          "competitions-competition-day"
+        ],
+        "badge": "stage-interpreter-sport",
+        "minutes": 38
+      },
+      {
+        "id": "gear-targets",
+        "title": {
+          "uk": "Рушниця і мішені",
+          "en": "Gun and targets"
+        },
+        "lessons": [
+          "gun-types",
+          "chokes-what-is-a-choke",
+          "cartridges-anatomy",
+          "targets-target-types",
+          "targets-colours-visibility",
+          "targets-basic-presentations",
+          "flight-incomer-going-away",
+          "targets-special-presentations",
+          "flight-rabbit",
+          "targets-singles-and-doubles"
+        ],
+        "badge": "stage-interpreter-gear-targets",
+        "minutes": 60
+      },
+      {
+        "id": "technique",
+        "title": {
+          "uk": "Техніка",
+          "en": "Technique"
+        },
+        "lessons": [
+          "technique-stance",
+          "technique-gun-mount",
+          "technique-master-eye",
+          "technique-hold-pickup-break-points",
+          "technique-follow-through-and-mistakes",
+          "technique-lead-methods"
+        ],
+        "badge": "stage-interpreter-technique",
+        "minutes": 38
+      },
+      {
+        "id": "lead",
+        "title": {
+          "uk": "Винос",
+          "en": "Lead"
+        },
+        "lessons": [
+          "lead-maintained",
+          "lead-swing-through",
+          "lead-pull-away",
+          "lead-ambush-instinctive",
+          "lead-how-coaches-say-it"
+        ],
+        "badge": "stage-interpreter-lead",
+        "minutes": 26
+      },
+      {
+        "id": "coach-talk",
+        "title": {
+          "uk": "Помилки і мова тренера",
+          "en": "Faults and coach-speak"
+        },
+        "lessons": [
+          "faults-behind-in-front",
+          "faults-head-lift-stopping",
+          "faults-mount-errors",
+          "faults-pairs-transition",
+          "faults-reading-the-coach",
+          "interpreter-numbers-and-units",
+          "stand-talk-mental-game"
+        ],
+        "badge": "stage-interpreter-coach-talk",
+        "minutes": 35
+      },
+      {
+        "id": "rules",
+        "title": {
+          "uk": "Правила на стенді",
+          "en": "Rules on the stand"
+        },
+        "lessons": [
+          "rules-gun-position",
+          "rules-call-and-time",
+          "rules-viewing-targets",
+          "rules-hit-and-no-bird",
+          "rules-malfunctions",
+          "rules-doubles"
+        ],
+        "badge": "stage-interpreter-rules",
+        "minutes": 41
+      },
+      {
+        "id": "referee",
+        "title": {
+          "uk": "Суддя, картки і результати",
+          "en": "Referee, cards and results"
+        },
+        "lessons": [
+          "rules-cards-and-appeals",
+          "rules-dress-and-safety",
+          "competitions-results-and-protests",
+          "competitions-categories-and-shoot-offs",
+          "watching-reading-results",
+          "stand-talk-shooter-phrases"
+        ],
+        "badge": "stage-interpreter-referee",
+        "minutes": 39
+      },
+      {
+        "id": "mastery",
+        "title": {
+          "uk": "Майстерність",
+          "en": "Mastery"
+        },
+        "lessons": [
+          "interpreter-english-sporting-vs-fitasc",
+          "mind-routine-under-pressure",
+          "stand-talk-foreign-coach",
+          "interpreter-session-script"
+        ],
+        "badge": "stage-interpreter-mastery",
+        "minutes": 24
+      }
+    ],
+    "extras": [
+      "targets-reading-a-target",
+      "chokes-names-and-marks",
+      "cartridges-shot-size",
+      "gun-gauge-and-barrels",
+      "gear-ear-protection",
+      "mind-cue-words-self-talk",
+      "mind-reset-after-miss"
+    ],
+    "practice": [
+      {
+        "game": "translate-the-coach",
+        "min_pct": 80
+      },
+      {
+        "game": "referees-call",
+        "min_pct": 80
+      }
+    ],
+    "certificate": {
+      "exam": {
+        "n": 30,
+        "pass_pct": 80
+      },
+      "legacy": "clayarena-interpreter.exam"
+    },
+    "badge": "route-interpreter",
+    "totals": {
+      "required": 60,
+      "minutes": 358
+    }
+  },
+  {
+    "id": "junior-parent",
+    "order": 4,
+    "primary": true,
+    "icon": "family",
+    "notes_open": false,
+    "title": {
+      "uk": "Батьки юніора",
+      "en": "Parents of a junior"
+    },
+    "for": {
+      "uk": "Для батьків, чия дитина хоче стріляти.",
+      "en": "For parents whose child wants to shoot."
+    },
+    "stages": [
+      {
+        "id": "is-it-for-my-child",
+        "title": {
+          "uk": "Чи підходить це дитині",
+          "en": "Is it right for my child"
+        },
+        "lessons": [
+          "juniors-starting-age",
+          "intro-what-is-clay-shooting",
+          "intro-how-to-start",
+          "juniors-documents-licences",
+          "budget-what-it-costs"
+        ],
+        "badge": "stage-junior-parent-is-it-for-my-child",
+        "minutes": 25
+      },
+      {
+        "id": "safe-start",
+        "title": {
+          "uk": "Безпечний старт",
+          "en": "A safe start"
+        },
+        "lessons": [
+          "safety-core-rules",
+          "juniors-safety-supervision",
+          "safety-eye-ear-protection",
+          "health-lead-hygiene",
+          "juniors-equipment-fit",
+          "training-first-lessons-and-coach"
+        ],
+        "badge": "stage-junior-parent-safe-start",
+        "minutes": 31
+      },
+      {
+        "id": "support",
+        "title": {
+          "uk": "Підтримка і змагання",
+          "en": "Support and competitions"
+        },
+        "lessons": [
+          "juniors-support-without-pressure",
+          "watching-at-the-ground",
+          "competitions-competition-day",
+          "juniors-competitions-and-costs"
+        ],
+        "badge": "stage-junior-parent-support",
+        "minutes": 25
+      }
+    ],
+    "extras": [
+      "intro-who-shoots",
+      "gear-ear-protection",
+      "gear-shooting-glasses",
+      "health-recoil-shoulder-neck",
+      "mind-competition-nerves",
+      "mind-reset-after-miss",
+      "watching-what-to-look-at"
+    ],
+    "practice": [],
+    "certificate": {
+      "exam": {
+        "n": 12,
+        "pass_pct": 80
+      }
+    },
+    "badge": "route-junior-parent",
+    "totals": {
+      "required": 15,
+      "minutes": 81
+    },
+    "checklist": {
+      "source": "key_points.checklist",
+      "title": {
+        "uk": "Чек-лист для батьків",
+        "en": "Checklist for parents"
+      }
+    }
+  },
+  {
+    "id": "new-coach",
+    "order": 5,
+    "primary": false,
+    "icon": "whistle",
+    "notes_open": false,
+    "title": {
+      "uk": "Тренер-початківець",
+      "en": "New coach"
+    },
+    "for": {
+      "uk": "Для того, хто починає тренувати інших.",
+      "en": "For someone who is starting to coach others."
+    },
+    "stages": [
+      {
+        "id": "role",
+        "title": {
+          "uk": "Роль тренера",
+          "en": "The coach's role"
+        },
+        "lessons": [
+          "nextstep-becoming-coach",
+          "safety-core-rules",
+          "juniors-safety-supervision",
+          "training-first-lessons-and-coach",
+          "training-session-structure",
+          "training-how-much-how-often"
+        ],
+        "badge": "stage-new-coach-role",
+        "minutes": 30
+      },
+      {
+        "id": "diagnosis",
+        "title": {
+          "uk": "Основи і діагностика",
+          "en": "Fundamentals and diagnosis"
+        },
+        "lessons": [
+          "technique-master-eye",
+          "gun-fit",
+          "technique-stance",
+          "technique-gun-mount",
+          "technique-hold-pickup-break-points",
+          "technique-lead-methods",
+          "faults-behind-in-front",
+          "faults-head-lift-stopping",
+          "faults-mount-errors",
+          "faults-pairs-transition"
+        ],
+        "badge": "stage-new-coach-diagnosis",
+        "minutes": 59
+      },
+      {
+        "id": "mental",
+        "title": {
+          "uk": "Тренування і голова",
+          "en": "Training and the mind"
+        },
+        "lessons": [
+          "training-dry-mount-practice",
+          "mind-routine-under-pressure",
+          "mind-cue-words-self-talk",
+          "mind-reset-after-miss",
+          "training-for-competition",
+          "juniors-support-without-pressure",
+          "stand-talk-foreign-coach"
+        ],
+        "badge": "stage-new-coach-mental",
+        "minutes": 36
+      }
+    ],
+    "extras": [
+      "health-recoil-shoulder-neck",
+      "mind-concentration-focus",
+      "mind-imagery",
+      "mind-pressure-choking",
+      "mind-process-goals",
+      "training-diary-and-progress",
+      "mind-warm-up-mobility",
+      "faults-reading-the-coach"
+    ],
+    "practice": [
+      {
+        "game": "lead-lab",
+        "require": "hit-with-each-method",
+        "enabled_after": "S-01"
+      }
+    ],
+    "certificate": {
+      "exam": {
+        "n": 20,
+        "pass_pct": 80
+      }
+    },
+    "badge": "route-new-coach",
+    "totals": {
+      "required": 23,
+      "minutes": 125
+    },
+    "disclaimer": {
+      "uk": "Не є кваліфікацією тренера.",
+      "en": "Not a coaching qualification."
+    }
+  },
+  {
+    "id": "organiser",
+    "order": 6,
+    "primary": false,
+    "icon": "calendar",
+    "notes_open": false,
+    "title": {
+      "uk": "Організатор",
+      "en": "Organiser"
+    },
+    "for": {
+      "uk": "Для організаторів клубних турнірів і поїздок.",
+      "en": "For organisers of club shoots and trips."
+    },
+    "stages": [
+      {
+        "id": "club-events",
+        "title": {
+          "uk": "Змагання і клуб",
+          "en": "Competitions and the club"
+        },
+        "lessons": [
+          "nextstep-club-shoot-and-volunteering",
+          "competitions-types-of-events",
+          "competitions-competition-day",
+          "competitions-categories-and-shoot-offs",
+          "rules-dress-and-safety",
+          "watching-at-the-ground",
+          "juniors-safety-supervision",
+          "culture-environment"
+        ],
+        "badge": "stage-organiser-club-events",
+        "minutes": 48
+      },
+      {
+        "id": "trips",
+        "title": {
+          "uk": "Поїздки і тури",
+          "en": "Trips and tours"
+        },
+        "lessons": [
+          "travel-planning-trip",
+          "travel-gun-in-eu",
+          "travel-gun-outside-eu",
+          "travel-flying-with-guns",
+          "travel-cartridges-at-destination",
+          "travel-jet-lag",
+          "mind-long-day-energy-sleep",
+          "interpreter-role",
+          "stand-talk-foreign-coach",
+          "travel-clayaway-tour"
+        ],
+        "badge": "stage-organiser-trips",
+        "minutes": 54
+      }
+    ],
+    "extras": [
+      "nextstep-becoming-referee",
+      "culture-traditions",
+      "culture-club-life",
+      "clayarena-coaches-grounds-tours",
+      "mind-anti-doping",
+      "competitions-results-and-protests"
+    ],
+    "practice": [],
+    "certificate": {
+      "exam": {
+        "n": 15,
+        "pass_pct": 80
+      }
+    },
+    "badge": "route-organiser",
+    "totals": {
+      "required": 18,
+      "minutes": 102
+    }
+  },
+  {
+    "id": "fan",
+    "order": 7,
+    "primary": false,
+    "icon": "eye",
+    "notes_open": false,
+    "title": {
+      "uk": "Вболівальник і родина",
+      "en": "Fan & family"
+    },
+    "for": {
+      "uk": "Для вболівальників, родини й друзів стрільців.",
+      "en": "For fans, families and friends of shooters."
+    },
+    "stages": [
+      {
+        "id": "watch",
+        "title": {
+          "uk": "Дивитися і розуміти",
+          "en": "Watching and understanding"
+        },
+        "lessons": [
+          "intro-what-is-clay-shooting",
+          "intro-disciplines",
+          "watching-at-the-ground",
+          "watching-what-to-look-at",
+          "targets-basic-presentations",
+          "targets-singles-and-doubles"
+        ],
+        "badge": "stage-fan-watch",
+        "minutes": 37
+      },
+      {
+        "id": "results",
+        "title": {
+          "uk": "Результати і ClayArena",
+          "en": "Results and ClayArena"
+        },
+        "lessons": [
+          "watching-reading-results",
+          "competitions-categories-and-shoot-offs",
+          "clayarena-what-is-clayarena",
+          "clayarena-find-your-results",
+          "clayarena-profile-numbers",
+          "clayarena-videos-recaps-calendar",
+          "culture-sportsmanship-referee"
+        ],
+        "badge": "stage-fan-results",
+        "minutes": 37
+      }
+    ],
+    "extras": [
+      "history-live-birds-to-clays",
+      "history-birth-of-sporting",
+      "history-compak-sporting",
+      "history-olympics-and-world",
+      "culture-traditions"
+    ],
+    "practice": [
+      {
+        "game": "name-the-flight",
+        "min_score": 7,
+        "of": 10
+      }
+    ],
+    "certificate": null,
+    "badge": "route-fan",
+    "totals": {
+      "required": 13,
+      "minutes": 74
+    },
+    "badge_only": {
+      "quiz": {
+        "n": 10,
+        "pass_pct": 80
+      }
+    }
+  }
+]

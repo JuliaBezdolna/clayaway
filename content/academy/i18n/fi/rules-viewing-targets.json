@@ -1,0 +1,162 @@
+{
+ "id": "rules-viewing-targets",
+ "lang": "fi",
+ "base_rev": 1,
+ "h": {
+  "title": "0064d55d",
+  "summary": "520117f9",
+  "rules-viewing-targets-p1": "ad9aaf1c",
+  "rules-viewing-targets-cmp1": "81f7ebe1",
+  "sporting-viewing-p2": "91e5fef1",
+  "sporting-viewing-p3": "41aa2110",
+  "compak-gun-and-call-p4": "94cbc3de",
+  "rules-viewing-targets-inline": "36aba8bb",
+  "rules-viewing-targets-open": "e72630ec",
+  "sporting-viewing-p4": "fe023af6",
+  "rules-viewing-targets-cmp2": "91c6febf",
+  "rules-viewing-targets-cmp3": "a954b0b5",
+  "rules-viewing-targets-tip1": "dbc75fed",
+  "rules-viewing-targets-more": "f764fc23",
+  "sporting-viewing-p6": "0980466b",
+  "sporting-viewing-ph1": "1df1c5f9",
+  "sporting-viewing-ph2": "f2d71d4d",
+  "sporting-viewing-ph3": "7dd75e34",
+  "sporting-viewing-ph4": "e39faadc",
+  "compak-gun-and-call-ph1": "6126c547",
+  "sporting-viewing-kp1": "cf204807",
+  "sporting-viewing-kp2": "1f60b759",
+  "sporting-viewing-kp3": "d07a0eb2",
+  "compak-gun-and-call-kp4": "cde28806",
+  "sporting-viewing-kp4": "7f195256",
+  "rules-viewing-targets-dyk": "d3836026",
+  "sporting-viewing-q1": "8dc8d7ba",
+  "rules-viewing-targets-q2": "8a902885",
+  "sporting-viewing-q3": "442066c3",
+  "sporting-viewing-q2": "7517024b",
+  "rules-viewing-targets-q4": "9490a582",
+  "rules-viewing-targets-q5": "004cd4f0"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Kiekkojen näyttäminen",
+ "summary": "Miten kiekot näytetään ennen ampumista {{tm:sporting}}- ja {{tm:compak}}-lajeissa, mitkä kaksoiskiekot näet ja mitä saat tehdä niiden lentäessä.",
+ "body": {
+  "rules-viewing-targets-p1": "Ennen ampumista kiekot näytetään: tämä on {{term:target-presentation|näytekiekot}}. {{tm:sporting}}-lajissa se tapahtuu joka ampumapaikalla. {{tm:compak}}-lajissa by squad -muodossa, jossa {{fact:rules.squad-max-shooters}} erä etenee numerolta numerolle, se tapahtuu vain kerran päivässä, päivän ensimmäiselle erälle. Linjassa se toimii eri tavalla (ks. alla). Näytekiekot antavat mahdollisuuden lukea joka kiekko: sen linjan, nopeuden ja etäisyyden, ja mitä kiekko tekee ilmassa.",
+  "rules-viewing-targets-cmp1": {
+   "sporting": "Joka ampumapaikalla erän ensimmäinen ampuja näkee kaikki lentoradat seisten valmiina paikalla.",
+   "compak": "By squad -muodossa: vain kerran päivässä, aamulla, päivän ensimmäiselle erälle. Numerolla 1 oleva ampuja pyytää yksittäiskiekot A–F. Linjassa: ks. alla."
+  },
+  "sporting-viewing-p2": "Voit pyytää tuomaria näyttämään kiekon uudelleen: enintään kaksi kertaa lisää joka paikan kiekkoluettelon kiekkoa kohden.",
+  "sporting-viewing-p3": "{{term:double-on-report|Laukauksesta lähteviä kaksoiskiekkoja}} ei näytetä (toinen kiekko lähtee vasta, kun ampuu ensimmäiseen). Olet kuitenkin nähnyt niiden kiekot jo: kaksoiskiekossa käytetään vain kiekkoja, jotka on ammuttu yksittäiskiekkoina samalta paikalta. Joka erän ensimmäiselle ampujalle näytetään {{term:simultaneous-double|yhtäaikaiset kaksoiskiekot}} (molemmat kiekot lähtevät yhdessä) ja {{term:rafale-double|rafale-kaksoiskiekot}} (kaksi kiekkoa samasta heittimestä, toinen toisensa jälkeen). Pyynnöstä ne näytetään uudelleen, enintään kahdesti.",
+  "compak-gun-and-call-p4": "By squad -muodossa yksittäiskiekkojen jälkeen tulevat numeroiden 1–5 yhtäaikaiset kaksoiskiekot. Sen jälkeen kuulet tuomarilta ”start” tai ”competition”, ja pisteytetty ammunta alkaa.",
+  "rules-viewing-targets-inline": "{{tm:compak}} voidaan ampua myös {{term:compak-in-line|linjassa}}: ampujat tulevat numerolle 1 yksi kerrallaan ja etenevät linjaa pitkin numerolle 5. Ennen aloitusta ensimmäinen ampuja voi pyytää näkemään yksittäiskiekot A–F; yhtäaikaisten kaksoiskiekkojen kanssa näytetään myös joka numeron kaksoiskiekot. Linjan täyttyessä joka uusi numerolla 1 oleva ampuja näkee ensin kaksoiskiekkonsa avaavan kiekon. Linjan tyhjentyessä tuomari tekee samoin myöhemmillä numeroilla. Yksityiskohdat: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+  "rules-viewing-targets-open": "Molemmissa lajeissa aseet pysyvät auki ja tyhjinä näytekiekkojen ja joka keskeytyksen aikana. Sulje omasi vain, kun tuomari sallii sen.",
+  "sporting-viewing-p4": "Ampuminen tai {{term:mock-shooting|tähtäysharjoittelu}} (aseen nostaminen ja vieminen kiekon linjaa pitkin ampumatta) näytekiekkojen aikana on kiellettyä. Siitä rangaistaan kuten aseen asentoa koskevasta rikkeestä: ensin varoitus, sitten punainen kortti.",
+  "rules-viewing-targets-cmp2": {
+   "sporting": "Jos heitin hajoaa tai ampuminen keskeytyy {{fact:rules.reshow-after-interruption}}, paikan kiekot näytetään uudelleen.",
+   "compak": "Keskeytyksen kestäessä {{fact:rules.reshow-after-interruption}} tuomari näyttää kuusi yksittäiskiekkoa uudelleen."
+  },
+  "rules-viewing-targets-cmp3": {
+   "sporting": "Kukaan ei saa harjoitella kilpailun rataosuuksilla.",
+   "compak": "Kilpailun lentoratoja saa harjoitella, mutta ei kilpailun menuilla. {{term:trajectory-setting-table|Lentoratojen asetustaulukoiden}} (valmiiden menujen, jotka kertovat, mitkä heittimet ampuvat joka numerolla) täytyy olla harjoituksessa eri. Maanosien ja maailmanmestaruuskilpailuissa virallinen harjoitus alkaa kilpailua edeltävänä lauantaina."
+  },
+  "rules-viewing-targets-tip1": "Käytä näytekiekkoja joka kiekon suunnitteluun. Merkitse, missä näet sen ensin selvästi, {{term:pick-up-point|katsepiste}}, ja missä rikot sen, {{term:break-point|osumapiste}}. Moni valmentaja ehdottaa myös yhtäaikaisen kaksoiskiekon järjestyksen valitsemista katsomisen aikana.",
+  "rules-viewing-targets-more": "Miten lukea kiekko näytekiekoista: {{lesson:targets-reading-a-target}}."
+ },
+ "note": {
+  "sporting-viewing-p6": "Harjoituksissa katsominen on valmentajan suosikkihetki: ”katso, missä se kääntyy”. Kilpailussa näytekiekot ovat osa tapahtumaa, niin valmentamiskielto pätee: pysy hiljaa, jollei tuomari tai ampuja tarvitse käännöstä menettelystä."
+ },
+ "phrases": {
+  "sporting-viewing-ph1": {
+   "meaning": "Ampuja tuomarille: aloita näytekiekot.",
+   "say": "Näyttäkää kiekot, kiitos."
+  },
+  "sporting-viewing-ph2": {
+   "meaning": "Pyyntö näyttää uudelleen yksi kiekkoluettelon kiekko.",
+   "say": "Uudelleen, kiitos, vain B."
+  },
+  "sporting-viewing-ph3": {
+   "meaning": "Tuomari: avaa ja tyhjennä ase, kunnes tuomari sallii sulkemisen.",
+   "say": "Aseet auki näytön ajan."
+  },
+  "sporting-viewing-ph4": {
+   "meaning": "Valmentaja harjoituksissa: huomaa kohta, jossa kiekko muuttaa suuntaa tai muotoa.",
+   "say": "Katso, missä se kääntyy."
+  },
+  "compak-gun-and-call-ph1": {
+   "meaning": "Tuomari: näytekiekot ovat ohi, ja pisteytetty ammunta alkaa.",
+   "say": "Start! / Competition!"
+  }
+ },
+ "key_points": {
+  "sporting-viewing-kp1": "{{tm:sporting}}: joka paikalla erän ensimmäinen ampuja näkee kaikki lentoradat seisten valmiina.",
+  "sporting-viewing-kp2": "{{tm:sporting}}: pyynnöstä enintään kaksi uusintaa joka kiekkoluettelon kiekkoa kohden.",
+  "sporting-viewing-kp3": "{{tm:sporting}}: laukauksesta lähteviä kaksoiskiekkoja ei näytetä; erän ensimmäiselle ampujalle näytetään yhtäaikaiset ja rafale-kaksoiskiekot.",
+  "compak-gun-and-call-kp4": "{{tm:compak}} by squad: kiekot näytetään kerran päivässä, aamulla, vain ensimmäiselle erälle. Keskeytyksen kestäessä {{fact:rules.reshow-after-interruption}} tuomari näyttää kuusi yksittäiskiekkoa uudelleen. Linjassa on omat järjestyksensä.",
+  "sporting-viewing-kp4": "Aseet pysyvät auki näytekiekkojen aikana; {{tm:sporting}}-lajissa ampumisesta tai tähtäysharjoittelusta sillä hetkellä rangaistaan."
+ },
+ "quiz": {
+  "sporting-viewing-q1": {
+   "q": "{{tm:sporting}}-lajissa, mitä kaksoiskiekkoja EI näytetä näytekiekoissa?",
+   "options": {
+    "a": "Yhtäaikaisia",
+    "b": "Rafale-kaksoiskiekkoja",
+    "c": "Laukauksesta lähteviä",
+    "d": "Ei mitään niistä"
+   },
+   "explain": "{{tm:sporting}}-lajissa laukauksesta lähteviä kaksoiskiekkoja ei näytetä; yhtäaikaiset ja rafale-kaksoiskiekot näytetään. Kaksoiskiekossa käytetään vain kiekkoja, jotka on jo ammuttu yksittäiskiekkoina samalta paikalta."
+  },
+  "rules-viewing-targets-q2": {
+   "q": "{{tm:compak}} by squad -muodossa, kuinka usein kiekot näytetään?",
+   "options": {
+    "a": "Ennen joka erää, joka numerolla",
+    "b": "Kerran päivässä, ensimmäiselle erälle",
+    "c": "Vain, kun ampuja pyytää sitä"
+   },
+   "explain": "Näyttö on kerran päivässä, aamulla, ensimmäiselle erälle; keskeytyksen kestäessä {{fact:rules.reshow-after-interruption}} tuomari näyttää kuusi yksittäiskiekkoa uudelleen."
+  },
+  "sporting-viewing-q3": {
+   "q": "{{tm:sporting}}-lajissa, näytekiekkojen aikana ampuja sulkee aseensa ja vie sitä kiekon linjaa pitkin. Mitä sovelletaan?",
+   "options": {
+    "a": "Kiellettyä: varoitus, sitten punainen kortti",
+    "b": "Sallittua: katsominen on vapaata harjoittelua",
+    "c": "Kiekko näytetään uudelleen",
+    "d": "Vain valmentaja saa varoituksen"
+   },
+   "explain": "Aseet pysyvät auki näytekiekkojen aikana, ja ampumisesta tai tähtäysharjoittelusta rangaistaan kuten aseen asentoa koskevasta rikkeestä."
+  },
+  "sporting-viewing-q2": {
+   "q": "{{tm:sporting}}-lajissa, montako uusintaa ampumapaikalla oleva ampuja saa pyytää?",
+   "options": {
+    "a": "Ei yhtään",
+    "b": "Kaksi joka kiekkoluettelon kiekkoa kohden",
+    "c": "Niin monta kuin tarvitaan",
+    "d": "Yhden paikkaa kohden"
+   },
+   "explain": "Pyynnöstä tuomari näyttää kiekon uudelleen, enintään kahdesti joka kiekkoluettelon kiekkoa kohden."
+  },
+  "rules-viewing-targets-q4": {
+   "q": "{{tm:compak}} linjassa, laukauksesta lähtevillä kaksoiskiekoilla. Linjan täyttyessä uusi ampuja astuu numerolle 1. Mitä tuomari näyttää hänelle?",
+   "options": {
+    "a": "Hänen kaksoiskiekkonsa ensimmäisen kiekon",
+    "b": "Ei mitään",
+    "c": "Kaikki yksittäiskiekot A–F",
+    "d": "Koko luettelon uudelleen"
+   },
+   "explain": "Linjassa yksittäiskiekot A–F näytetään ensimmäiselle ampujalle ennen aloitusta. Sen jälkeen joka uudelle numerolla 1 olevalle ampujalle näytetään hänen kaksoiskiekkonsa avaava kiekko."
+  },
+  "rules-viewing-targets-q5": {
+   "q": "Saako kilpailun lentoratoja harjoitella ennen {{tm:compak}}-kilpailua?",
+   "options": {
+    "a": "Ei lainkaan",
+    "b": "Vain kilpailuaamuna",
+    "c": "Kyllä, eri asetustaulukoilla"
+   },
+   "explain": "{{tm:compak}} sallii harjoittelun kilpailun lentoradoilla, mutta harjoituksen asetustaulukoiden (menujen) täytyy olla eri; {{tm:sporting}}-lajissa kilpailun rataosuuksilla ei saa harjoitella kukaan."
+  }
+ },
+ "did_you_know": "{{tm:sporting}}-lajissa joka paikan edessä oleva kiekkoluettelo luettelee heittimet ampumisjärjestyksessä ja merkitsee erikoiskiekot, kuten {{term:battue|battue-kiekon}} tai {{term:rabbit|jäniskiekon}}."
+}

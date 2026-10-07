@@ -1,0 +1,294 @@
+{
+  "id": "gear-bags-cases-accessories",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gear-bags-cases-accessories"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "cartridge-bag",
+    "cartridge-pouch",
+    "empties",
+    "gun-slip",
+    "hard-case",
+    "shooting-gloves",
+    "shooting-cap",
+    "fore-end",
+    "gun-handling"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-turning-empties"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-empty-cases"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-ready-when-called"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-ready"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Bags, cases, gloves and caps",
+    "uk": "Сумки, чохли, рукавички й кепки"
+  },
+  "summary": {
+    "en": "How to carry cartridges, how to carry and transport a gun (soft slip and hard case) and why {{tm:sporting}} and {{tm:compak}} shooters use gloves and a cap.",
+    "uk": "Як носити патрони (сумка й підсумок), як носити й перевозити рушницю (м’який чохол і жорсткий кейс) і навіщо стрільцям {{tm:sporting}} і {{tm:compak}} рукавички й кепка."
+  },
+  "body": [
+    {
+      "k": "gear-bags-cases-accessories-p1",
+      "t": "p",
+      "en": "You need many cartridges at a ground, and they are heavy: 25 cartridges weigh about a kilogram. For the day's supply there is a {{term:cartridge-bag|cartridge bag}}: sturdy, with a wide strap and a stiff base, holding several boxes. For a single round a belt {{term:cartridge-pouch|cartridge pouch}} or the vest pockets are handier.",
+      "uk": "Патронів на стенді потрібно багато, і вони важкі: 25 патронів важать приблизно кілограм. Для запасу на день є {{term:cartridge-bag|сумка для набоїв}} — міцна, з широким ременем і жорстким дном, на кілька коробок. Для одного раунду зручніший {{term:cartridge-pouch|підсумок}} на поясі або кишені жилета."
+    },
+    {
+      "k": "gear-bags-cases-accessories-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "Carry a separate bag or pocket for {{term:empties|empty cases}}. In both disciplines empties go into the bin on the stand where there is one, and shooters with semi-automatics pick up their ejected cases when they leave. Do not leave cases in the grass: it is a matter of tidiness and respect for the place.",
+      "uk": "Для {{term:empties|порожніх гільз}} носіть окремий мішечок або кишеню. В обох дисциплінах гільзи кидають у контейнер на стрілецькому місці, якщо він є, а стрільці з напівавтоматами, сходячи з місця, збирають свої викинуті гільзи. Не залишайте гільзи на траві — це питання і порядку, і поваги до місця."
+    },
+    {
+      "k": "gear-bags-cases-accessories-p3",
+      "t": "p",
+      "en": "A {{term:gun-slip|gun slip}} is a light zipped soft case for carrying the gun around the ground and between stands. Some grounds require the gun to be in a slip, or open and unloaded, when you are away from the stand. Rules for carrying a gun: {{lesson:gun-transport-documents}}.",
+      "uk": "{{term:gun-slip|М’який чохол}} (gun slip) — легкий чохол на блискавці, щоб носити рушницю по стенду й між стрілецькими місцями. Деякі стенди вимагають, щоб поза стрілецьким місцем рушниця була в чохлі або відкрита й розряджена. Правила, як носити рушницю: {{lesson:gun-transport-documents}}."
+    },
+    {
+      "k": "gear-bags-cases-accessories-p7",
+      "t": "warn",
+      "en": "Never put a loaded gun into a slip. Unload it and check both chambers first.",
+      "uk": "Ніколи не кладіть у чохол заряджену рушницю. Спершу розрядіть її й перевірте обидва патронники."
+    },
+    {
+      "k": "gear-bags-cases-accessories-p4",
+      "t": "p",
+      "en": "A {{term:hard-case|hard case}} protects the gun when you travel by car and especially by air. Flying usually requires a sturdy lockable case, and cartridges travel separately under the airline's rules (see {{lesson:travel-flying-with-guns}}). Transport laws differ between countries, so check the law of your country and of your destination.",
+      "uk": "{{term:hard-case|Жорсткий кейс}} захищає рушницю під час перевезення автомобілем і особливо літаком. Для перельоту зазвичай потрібен міцний кейс, що замикається, а патрони перевозять окремо за правилами авіакомпанії (див. {{lesson:travel-flying-with-guns}}). Закони про перевезення різняться між країнами, тож перевіряйте закон своєї країни й країни призначення."
+    },
+    {
+      "k": "gear-bags-cases-accessories-p5",
+      "t": "p",
+      "en": "{{term:shooting-gloves|Shooting gloves}} are thin, so you can still feel the trigger. They improve your grip, especially in heat when palms sweat, and in the cold. After a long series the barrels get hot, and a glove on the hand that holds the {{term:fore-end|fore-end}} protects against burns. Many shooters wear a glove on one hand only.",
+      "uk": "{{term:shooting-gloves|Рукавички}} для стрільби тонкі, щоб відчувати спуск. Вони покращують хват, особливо в спеку, коли долоні пітніють, і в холод. Після довгої серії стволи нагріваються, і рукавичка на руці, що тримає {{term:fore-end|цівку}}, захищає від опіку. Багато стрільців носять рукавичку лише на одній руці."
+    },
+    {
+      "k": "gear-bags-cases-accessories-p6",
+      "t": "p",
+      "en": "A {{term:shooting-cap|shooting cap}} with a peak shades your eyes from the sun, keeps rain off your glasses and gives a little protection from small fragments falling from above. The peak should not be too long, or it will hide high targets.",
+      "uk": "{{term:shooting-cap|Кепка}} з козирком затіняє очі від сонця, захищає окуляри від дощу й трохи береже від дрібних уламків, що падають згори. Козирок не повинен бути надто довгим, щоб не закривати високі мішені."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gear-bags-cases-accessories-kp1",
+      "en": "A cartridge bag for the day; a pouch or vest pockets for a round.",
+      "uk": "Сумка для набоїв — на день, підсумок або кишені жилета — на раунд."
+    },
+    {
+      "k": "gear-bags-cases-accessories-kp2",
+      "en": "Collect empty cases and put them in the bin, not in the grass.",
+      "uk": "Порожні гільзи збирайте й кидайте в контейнер, а не на траву."
+    },
+    {
+      "k": "gear-bags-cases-accessories-kp3",
+      "en": "A soft slip at the ground, a hard case for travel; only an unloaded gun goes into a slip.",
+      "uk": "М’який чохол — для стенда, жорсткий кейс — для перевезення; у чохол кладуть лише розряджену рушницю.",
+      "checklist": true
+    },
+    {
+      "k": "gear-bags-cases-accessories-kp4",
+      "en": "Gun transport laws differ between countries, so check them.",
+      "uk": "Закони про перевезення зброї різняться між країнами — перевіряйте їх."
+    },
+    {
+      "k": "gear-bags-cases-accessories-kp5",
+      "en": "Thin gloves for grip and hot barrels; a cap with a modest peak.",
+      "uk": "Тонкі рукавички — для хвату й від гарячих стволів; кепка з невеликим козирком."
+    }
+  ],
+  "did_you_know": {
+    "k": "gear-bags-cases-accessories-dyk",
+    "en": "A few boxes of cartridges in a bag weigh several kilograms, so on a course many experienced shooters carry only what they need until the next refill point.",
+    "uk": "Кілька коробок патронів у сумці важать кілька кілограмів, тож на маршруті багато досвідчених стрільців беруть лише стільки, скільки потрібно до наступної точки поповнення."
+  },
+  "quiz": [
+    {
+      "k": "gear-bags-cases-accessories-q1",
+      "q": {
+        "en": "What is a hard case for?",
+        "uk": "Для чого жорсткий кейс?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To protect the gun during travel",
+          "uk": "Щоб захистити рушницю під час перевезення"
+        },
+        {
+          "k": "b",
+          "en": "To collect the empty cases",
+          "uk": "Щоб збирати порожні гільзи"
+        },
+        {
+          "k": "c",
+          "en": "To rest the gun on while shooting",
+          "uk": "Щоб спирати на нього рушницю під час стрільби"
+        },
+        {
+          "k": "d",
+          "en": "To keep cartridges cool in summer",
+          "uk": "Щоб патрони не грілися влітку"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A case protects the gun in a car or plane; transport rules depend on the country.",
+        "uk": "Кейс береже рушницю в авто й літаку; правила перевезення залежать від країни."
+      }
+    },
+    {
+      "k": "gear-bags-cases-accessories-q2",
+      "q": {
+        "en": "What must not go into a gun slip?",
+        "uk": "Що не можна класти в м’який чохол?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A clean gun",
+          "uk": "Чисту рушницю"
+        },
+        {
+          "k": "b",
+          "en": "A loaded gun",
+          "uk": "Заряджену рушницю"
+        },
+        {
+          "k": "c",
+          "en": "A dismantled gun",
+          "uk": "Розібрану рушницю"
+        },
+        {
+          "k": "d",
+          "en": "A gun with chokes in",
+          "uk": "Рушницю з чоками"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The gun is unloaded and checked before it goes into a slip.",
+        "uk": "Рушницю розряджають і перевіряють, перш ніж покласти в чохол."
+      }
+    },
+    {
+      "k": "gear-bags-cases-accessories-q3",
+      "q": {
+        "en": "Why are shooting gloves thin?",
+        "uk": "Чому рукавички для стрільби тонкі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "So that they wear out faster",
+          "uk": "Щоб швидше зношувалися"
+        },
+        {
+          "k": "b",
+          "en": "Because thin ones are cheaper",
+          "uk": "Бо тонкі дешевші"
+        },
+        {
+          "k": "c",
+          "en": "So you can still feel the trigger",
+          "uk": "Щоб відчувати спуск"
+        },
+        {
+          "k": "d",
+          "en": "So that they dry faster in rain",
+          "uk": "Щоб швидше висихали під дощем"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A thick glove stops you feeling the trigger and the fore-end.",
+        "uk": "Товста рукавичка заважає відчувати спуск і цівку."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "8ccafcf1",
+    "summary": "e72f31ce",
+    "gear-bags-cases-accessories-p1": "13016992",
+    "gear-bags-cases-accessories-p2": "fd8b466d",
+    "gear-bags-cases-accessories-p3": "25c8fe51",
+    "gear-bags-cases-accessories-p7": "75bbc591",
+    "gear-bags-cases-accessories-p4": "f0f2918e",
+    "gear-bags-cases-accessories-p5": "54beb6df",
+    "gear-bags-cases-accessories-p6": "00c2ed42",
+    "gear-bags-cases-accessories-kp1": "388735a4",
+    "gear-bags-cases-accessories-kp2": "c1d54784",
+    "gear-bags-cases-accessories-kp3": "3e71441e",
+    "gear-bags-cases-accessories-kp4": "b9163670",
+    "gear-bags-cases-accessories-kp5": "29d5055a",
+    "gear-bags-cases-accessories-dyk": "c18eb73a",
+    "gear-bags-cases-accessories-q1": "2a276d02",
+    "gear-bags-cases-accessories-q2": "1118d1bf",
+    "gear-bags-cases-accessories-q3": "8f7c5e9c"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

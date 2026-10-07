@@ -1,0 +1,264 @@
+{
+  "lang": "cs",
+  "blocks": {
+    "basics": {
+      "title": "Základy",
+      "purpose": "Co je to za sport, disciplíny, FITASC, střelnice, kdo střílí, jak začít, kolik to stojí a jak může začít dítě.",
+      "sections": {
+        "what": "Co je to za sport",
+        "start": "Jak začít",
+        "kids": "Pro dítě"
+      }
+    },
+    "safety": {
+      "title": "Bezpečnost a etiketa",
+      "purpose": "Bezpečnostní návyky, ochrana očí a sluchu, olovo, děti; chování na stanovišti a ve skupině, respekt k rozhodčímu, diváci.",
+      "sections": {
+        "safety": "Bezpečnost",
+        "etiquette": "Etiketa"
+      }
+    },
+    "gear": {
+      "title": "Výbava",
+      "purpose": "Zbraň, zahrdlení, náboje, ochrana a oblečení: jak se co jmenuje, jak to funguje, co a kdy koupit.",
+      "sections": {
+        "gun": "Zbraň",
+        "chokes": "Zahrdlení",
+        "cartridges": "Náboje",
+        "kit": "Výstroj"
+      }
+    },
+    "targets": {
+      "title": "Terče a dráhy letu",
+      "purpose": "Terče, vrhačky, střeliště {{tm:sporting}} a {{tm:compak}}, menu, dráhy letu, dvojstřely a jak číst terč.",
+      "sections": {
+        "clays": "Terče a vrhačky",
+        "layouts": "Střeliště",
+        "flight": "Dráhy letu",
+        "pairs": "Dvojstřely a čtení terče"
+      }
+    },
+    "technique": {
+      "title": "Technika a předsazení",
+      "purpose": "Postoj, zalícení, oči, tři body, dotažení švihu, zpětný ráz; čtyři metody předsazení; rozbor chyb.",
+      "sections": {
+        "fundamentals": "Základy výstřelu",
+        "lead": "Předsazení",
+        "faults": "Chyby"
+      }
+    },
+    "training": {
+      "title": "Trénink",
+      "purpose": "Trenér, jak strukturovat a dávkovat trénink, rozcvička, nácvik zalícení nasucho, příprava na soutěž, tréninkový deník.",
+      "sections": {
+        "main": "Trénink"
+      }
+    },
+    "mind": {
+      "title": "Psychologie a příprava",
+      "purpose": "Předstřelecký rituál, pozornost, dýchání, slova-podněty, představivost, nervozita, tlak, restart po chybě, cíle, den soutěže, antidoping, junioři.",
+      "sections": {
+        "before": "Před výstřelem",
+        "pressure": "Pod tlakem",
+        "day": "Den soutěže",
+        "juniors": "Junioři"
+      }
+    },
+    "rules": {
+      "title": "Pravidla",
+      "purpose": "Pravidla FITASC jednoduchými slovy, stručně a vlastními slovy; každé pravidlo je označeno {{tm:sporting}} nebo {{tm:compak}} a odkazuje na průvodce pravidly.",
+      "sections": {
+        "main": "Pravidla"
+      }
+    },
+    "competitions": {
+      "title": "Soutěže",
+      "purpose": "Typy soutěží, přihlašování, den soutěže, karta výsledků a výsledky, kategorie a rozstřely, protesty, junioři.",
+      "sections": {
+        "main": "Soutěže"
+      }
+    },
+    "travel": {
+      "title": "Cestování",
+      "purpose": "Plánování cesty, zbraň v EU a mimo ni, let letadlem, náboje na místě, jet lag; zájezdy ClayAway (připravují se).",
+      "sections": {
+        "main": "Cestování"
+      }
+    },
+    "stand-talk": {
+      "title": "Řeč na stanovišti",
+      "purpose": "Jak mluví trenér, rozhodčí a střelci; práce tlumočníka; pro každého, kdo trénuje s trenérem, který mluví jiným jazykem.",
+      "sections": {
+        "role": "Role",
+        "said": "Co se říká na stanovišti",
+        "traps": "Překladatelské pasti",
+        "work": "Při práci"
+      }
+    },
+    "watch": {
+      "title": "Sledování",
+      "purpose": "Jak sledovat střelbu a videa; ClayArena: výsledky, profil, čísla, katalogy.",
+      "sections": {
+        "watch": "Sledování",
+        "clayarena": "ClayArena"
+      }
+    },
+    "community": {
+      "title": "Komunita a historie",
+      "purpose": "Historie, tradice, příroda, klub; jak se stát rozhodčím nebo trenérem; klubové závody.",
+      "sections": {
+        "history": "Historie",
+        "culture": "Kultura",
+        "next": "Další krok"
+      }
+    }
+  },
+  "routes": {
+    "beginner": {
+      "title": "Začátečník",
+      "for": "Pro toho, kdo ještě nikdy nestřílel.",
+      "certificate": "První krok",
+      "stages": {
+        "first-visit": "Před první návštěvou",
+        "first-shots": "První výstřely"
+      }
+    },
+    "first-competition": {
+      "title": "První soutěž",
+      "for": "Pro střelce po několika trénincích.",
+      "checklist": "Kontrolní seznam na den soutěže",
+      "stages": {
+        "ready": "Příprava",
+        "rules": "Pravidla, která musíte znát",
+        "head": "Hlava a tělo",
+        "day": "Den soutěže"
+      }
+    },
+    "interpreter": {
+      "title": "Tlumočník",
+      "for": "Pro tlumočníky na stanovišti; nahrazuje Akademii tlumočníka.",
+      "stages": {
+        "day-one": "První den na stanovišti",
+        "sport": "Sport a střeliště",
+        "gear-targets": "Zbraň a terče",
+        "technique": "Technika",
+        "lead": "Předsazení",
+        "coach-talk": "Chyby a řeč trenéra",
+        "rules": "Pravidla na stanovišti",
+        "referee": "Rozhodčí, karty a výsledky",
+        "mastery": "Mistrovství"
+      }
+    },
+    "junior-parent": {
+      "title": "Rodiče juniora",
+      "for": "Pro rodiče, jejichž dítě chce střílet.",
+      "checklist": "Kontrolní seznam pro rodiče",
+      "stages": {
+        "is-it-for-my-child": "Je to pro mé dítě vhodné",
+        "safe-start": "Bezpečný start",
+        "support": "Podpora a soutěže"
+      }
+    },
+    "new-coach": {
+      "title": "Nový trenér",
+      "for": "Pro toho, kdo začíná trénovat ostatní.",
+      "disclaimer": "Není trenérskou kvalifikací.",
+      "stages": {
+        "role": "Role trenéra",
+        "diagnosis": "Základy a diagnostika",
+        "mental": "Trénink a psychologie"
+      }
+    },
+    "organiser": {
+      "title": "Organizátor",
+      "for": "Pro organizátory klubových závodů a zájezdů.",
+      "stages": {
+        "club-events": "Soutěže a klub",
+        "trips": "Cesty a zájezdy"
+      }
+    },
+    "fan": {
+      "title": "Fanoušek a rodina",
+      "for": "Pro fanoušky, rodiny a přátele střelců.",
+      "stages": {
+        "watch": "Sledování a porozumění",
+        "results": "Výsledky a ClayArena"
+      }
+    }
+  },
+  "practice": {
+    "lead-lab": "Laboratoř předsazení",
+    "name-the-flight": "Pojmenuj dráhu",
+    "translate-the-coach": "Rozuměj / přelož trenéra",
+    "referees-call": "Rozhodnutí rozhodčího",
+    "term-cards": "Kartičky pojmů",
+    "phrasebook": "Slovníček frází",
+    "rules-exam": "Zkouška z pravidel",
+    "routine": "Můj rituál"
+  },
+  "levels": {
+    "guest": "Host",
+    "learner": "Žák",
+    "practitioner": "Praktik",
+    "specialist": "Specialista",
+    "expert": "Expert",
+    "mentor": "Mentor"
+  },
+  "badges": {
+    "block-basics": "Blok „Základy“",
+    "block-safety": "Blok „Bezpečnost a etiketa“",
+    "block-gear": "Blok „Výbava“",
+    "block-targets": "Blok „Terče a dráhy letu“",
+    "block-technique": "Blok „Technika a předsazení“",
+    "block-training": "Blok „Trénink“",
+    "block-mind": "Blok „Psychologie a příprava“",
+    "block-rules": "Blok „Pravidla“",
+    "block-competitions": "Blok „Soutěže“",
+    "block-travel": "Blok „Cestování“",
+    "block-stand-talk": "Blok „Řeč na stanovišti“",
+    "block-watch": "Blok „Sledování“",
+    "block-community": "Blok „Komunita a historie“",
+    "route-beginner": "Trasa „Začátečník“",
+    "route-first-competition": "Trasa „První soutěž“",
+    "route-interpreter": "Trasa „Tlumočník“",
+    "route-junior-parent": "Trasa „Rodiče juniora“",
+    "route-new-coach": "Trasa „Nový trenér“",
+    "route-organiser": "Trasa „Organizátor“",
+    "route-fan": "Trasa „Fanoušek a rodina“",
+    "stage-beginner-first-visit": "Začátečník: Před první návštěvou",
+    "stage-beginner-first-shots": "Začátečník: První výstřely",
+    "stage-first-competition-ready": "První soutěž: Příprava",
+    "stage-first-competition-rules": "První soutěž: Pravidla, která musíte znát",
+    "stage-first-competition-head": "První soutěž: Hlava a tělo",
+    "stage-first-competition-day": "První soutěž: Den soutěže",
+    "stage-interpreter-day-one": "Tlumočník: První den na stanovišti",
+    "stage-interpreter-sport": "Tlumočník: Sport a střeliště",
+    "stage-interpreter-gear-targets": "Tlumočník: Zbraň a terče",
+    "stage-interpreter-technique": "Tlumočník: Technika",
+    "stage-interpreter-lead": "Tlumočník: Předsazení",
+    "stage-interpreter-coach-talk": "Tlumočník: Chyby a řeč trenéra",
+    "stage-interpreter-rules": "Tlumočník: Pravidla na stanovišti",
+    "stage-interpreter-referee": "Tlumočník: Rozhodčí, karty a výsledky",
+    "stage-interpreter-mastery": "Tlumočník: Mistrovství",
+    "stage-junior-parent-is-it-for-my-child": "Rodiče juniora: Je to pro mé dítě vhodné",
+    "stage-junior-parent-safe-start": "Rodiče juniora: Bezpečný start",
+    "stage-junior-parent-support": "Rodiče juniora: Podpora a soutěže",
+    "stage-new-coach-role": "Nový trenér: Role trenéra",
+    "stage-new-coach-diagnosis": "Nový trenér: Základy a diagnostika",
+    "stage-new-coach-mental": "Nový trenér: Trénink a psychologie",
+    "stage-organiser-club-events": "Organizátor: Soutěže a klub",
+    "stage-organiser-trips": "Organizátor: Cesty a zájezdy",
+    "stage-fan-watch": "Fanoušek a rodina: Sledování a porozumění",
+    "stage-fan-results": "Fanoušek a rodina: Výsledky a ClayArena",
+    "four-methods": "Čtyři metody",
+    "name-the-flight-10": "Pojmenuj dráhu 10/10",
+    "coach-translator-20": "Překladatel trenéra 20",
+    "referees-call-20": "Rozhodnutí rozhodčího 20",
+    "terms-50": "50 pojmů",
+    "rules-exam-sporting": "Zkouška z pravidel Sporting™",
+    "rules-exam-compak": "Zkouška z pravidel Compak® Sporting",
+    "first": "První lekce",
+    "returning": "Vracíte se",
+    "interpreter-academy-2026": "Akademie tlumočníka 2026"
+  }
+}

@@ -10,7 +10,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "high",
    "src": "https://fi.wikipedia.org/wiki/Haulikko",
-   "short": "Sileäpiippuinen metsästysase, jota käytetään sportingissa ja Compakissa.",
+   "short": "Sileäpiippuinen metsästysase, jota käytetään Sporting™- ja Compak® Sporting -lajeissa.",
    "long": "Mitä tahansa metsästyshaulikkoa saa käyttää, myös puoliautomaattia, kun kaliiperi on enintään 12 ja piiput vähintään 66 cm (26 tuumaa) pitkät. Pumppuhaulikot eivät ole sallittuja, ja Compak-säännöt kieltävät myös kolmipiippuiset (drillingit). Kantohihnat, aseeseen kiinnitetyt mikrokamerat ja kaikki keinotekoiset tähtäinlaitteet ovat kiellettyjä. Kukaan ei saa koskea toisen ampujan aseeseen ilman lupaa, eivätkä kaksi saman erän ampujaa saa käyttää yhteistä asetta. Compak® Sporting -lajissa sääntöjenvastaisella aseella tai patruunoilla ennen tarkastusta ammutut laukaukset lasketaan zeroiksi.",
    "disciplines": {
     "sporting": "Asetta, supistajaa tai piippua saa vaihtaa viivyttelemättä ampumapaikkojen välillä tai yksittäis- ja kaksoiskiekkojen välillä; ei koskaan ampumapaikalla.",
@@ -166,7 +166,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Poskipakka, jonka korkeutta ja sivupoikkeamaa voi säätää."
+   "short": "Poskipakka, jota voi nostaa, laskea tai siirtää sivulle, jotta silmä katsoo tarkasti kiskoa pitkin."
   },
   "fore-end": {
    "term_local": "etutukki",
@@ -243,7 +243,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "medium",
    "src": "https://jahtimedia.fi/metsastysammunta/sopivalla-haulikolla-osuu-helpommin",
-   "short": "Tukin päässä oleva kumityyny, joka pehmentää rekyyliä."
+   "short": "Tukin päässä oleva kumi- tai geelilevy, joka vaimentaa rekyyliä; se muuttaa myös perän pituutta."
   },
   "choke": {
    "term_local": "supistaja",
@@ -647,8 +647,8 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Tavallinen kupolinmuotoinen kiekko, halkaisijaltaan noin 110 mm, yleisin savikiekko.",
-   "long": "Tavallinen kiekko on kupera, halkaisijaltaan noin 110 mm:n kiekko. Se on suhteellisen painava, joten se säilyttää nopeutensa ja linjansa pitkään, ja sen käytös on helpoin ennustaa. Aloittelijat aloittavat yleensä siitä. Sporting™- ja Compak® Sporting -lajeissa tavallisia kiekkoja sekoitetaan erikoiskiekkoihin: midi-, mini-, battue-, jänis- ja rocket-kiekkoihin ja muihin. Jos heitin heittää kiekkoluettelosta poikkeavan kokoisen tai tyyppisen kiekon, tuomari antaa uuden kiekon (No Bird)."
+   "short": "Tavallinen kupera kiekko, halkaisijaltaan noin 108–110 mm, yleisin savikiekko.",
+   "long": "Vakiokiekko on kupera kiekko, jonka halkaisija on noin 108–110 mm. Sen lento on suhteellisen helppo lukea, joten aloittelijat aloittavat yleensä siitä; 90 mm:n midikiekko säilyttää nopeutensa paremmin. Sporting™- ja Compak® Sporting -lajeissa vakiokiekkoon yhdistetään erikoiskiekkoja, kuten midi-, mini-, battue- ja jäniskiekkoja; Compak® Sporting -lajin luettelo mainitsee myös rocket-kiekon. Sporting™-lajissa kiekko, jonka väri, koko tai tyyppi poikkeaa heittotaulukosta, on uusi kiekko (No Bird); Compak® Sporting -lajissa väärän värinen kiekko on uusi kiekko (No Bird)."
   },
   "midi": {
    "term_local": "midikiekko",
@@ -703,8 +703,8 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Erikoisprofiilinen kiekko, joka säilyttää nopeutensa ja suuntansa tavallista kiekkoa pidempään.",
-   "long": "Rocket-kiekko näyttää tavalliselta kiekolta, mutta sen profiili on erilainen, virtaviivaisempi. Siksi se hidastuu ilmassa tasaisemmin ja lentää pidempään suoraan, joten lentoradan kaukaisessa osassa se liikkuu nopeammin kuin silmä odottaa. Aloittelijat ampuvat usein sen taakse, koska arvioivat sen tavalliseksi kiekoksi. Compak® Sporting -säännöt mainitsevat rocket-kiekon sallittujen kiekkojen joukossa, kun taas Sporting™-luettelo ei mainitse sitä erikseen. Käytännössä sen muoto ja nimi riippuvat kiekkovalmistajasta.",
+   "short": "Compak® Sporting -lajin kiekkoluettelossa mainittu erikoiskiekko; sen tarkka muoto ja lento riippuvat valmistajasta.",
+   "long": "Rocket-kiekko on yksi niistä erikoiskiekoista, jotka Compak® Sporting -lajin säännöt mainitsevat sallittujen joukossa; Sporting™-lajin luettelo ei mainitse sitä erikseen. Yhteistä määritystä ei ole, joten sen muoto ja lentotapa riippuvat kiekkojen valmistajasta. Kuten minkä tahansa erikoiskiekon kohdalla, katso sitä tarkasti näytön aikana äläkä oleta, että se lentää kuin vakiokiekko.",
    "disciplines": {
     "sporting": "Ei mainittu erikseen Sporting-kiekkojen luettelossa.",
     "compak": "Nimenomaisesti sallittu erikoiskiekkojen joukossa."
@@ -751,7 +751,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "medium",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Korotettu heitinpaikka Compakin ampumapaikkojen takana, vähintään 4 m niiden yläpuolella.",
+   "short": "Korotettu heitinpaikka Compak® Sporting -radan ampumapaikkojen takana, vähintään 4 m niiden yläpuolella.",
    "long": "Compakin heittimet voidaan sijoittaa vapaasti, kunhan mikään kiekko, ei edes No Bird, voi vaarantaa ketään. Ampumapaikkojen takana olevan heittimen on oltava vähintään 4 m ampumapaikkoja korkeammalla. Pakollinen, sivun BC yli poispäin lentävä lentorata voi tulla tällaisesta tornista tai ampumapaikkojen edessä olevasta kaivannosta tai maassa olevasta heittimestä.",
    "disciplines": {
     "compak": "4 metrin sääntö on Compak-säännöissä (2.4)."
@@ -878,7 +878,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "low",
    "short": "Kiekko, joka lentää kaaren ilmassa ja vaihtaa suuntaa.",
-   "long": "Kaarikiekko lentää laajassa kaaressa: se nousee, kääntyy huipun yli ja putoaa liikkuen samalla sivulle. Tällaisiin lentoratoihin käytetään usein battue-kiekkoja, jotka kääntyvät lennossa ja näyttävät ensin reunansa ja sitten pintansa. Suurin vaikeus on suunnan ja nopeuden jatkuva muutos, joten piippujen on seurattava kaarta eikä oikaistava sen poikki. Moni ampuja ampuu kaarikiekon lähellä huippua, jossa se liikkuu hitaimmin. Nimet vaihtelevat maittain: chandelle on toinen, jyrkempi lentorata, ja ranskankieliset sanovat usein ”chandelle” kiekosta, joka nousee lähes pystysuoraan (pystykiekko). Katso näyttö tarkasti ja valitse yksi osumapiste."
+   "long": "Kaarikiekko lentää laajassa kaaressa: se nousee, kääntyy huipun yli ja putoaa liikkuen samalla sivulle. Se on yleensä vakiokiekko; jotkut radanrakentajat heittävät tällaisella linjalla myös battue-kiekon, joka kääntyessään näyttää silloin pintansa. Suurin vaikeus on suunnan ja nopeuden jatkuva muutos, joten piiput seuraavat kaarta kiekon edellä ja sen alapuolella eivätkä oikaise sen poikki. Moni ampuja ampuu kaarikiekon lähellä huippua, jossa se liikkuu hitaimmin. Nimet vaihtelevat maittain: chandelle on toinen, jyrkempi lentorata, ja ranskankieliset sanovat usein ”chandelle” kiekosta, joka nousee lähes pystysuoraan (pystykiekko). Katso näyttö tarkasti ja valitse yksi osumapiste."
   },
   "chandelle": {
    "term_local": "chandelle",
@@ -918,7 +918,7 @@ window.GLOSSARY_I18N.fi = {
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
    "short": "Kaksi yhtä aikaa tai peräkkäin heitettyä kiekkoa, jotka ammutaan yhtenä kokonaisuutena.",
-   "long": "Kaksoiskiekkoja on kolmenlaisia: laukauksesta lähtevä, yhtäaikainen ja vain sportingissa peräkkäinen (rafale). Sportingissa ampujalla on kaksoiskiekkoon kaksi patruunaa, ja hän saa ampua molemmat samaan kiekkoon; ensimmäisen ja toisen kiekon välillä aseen asento on vapaa. Compakissa kaksoiskiekon kumpaankin kiekkoon saa ampua vain yhden patruunan, ja yhdessä Compakissa kaksoiskiekon tyypin on oltava sama kaikilla 5 ampumapaikalla; kunkin kaksoiskiekon ensimmäinen kiekko on edellisen ampumapaikan viimeinen kiekko. Jos yksi laukaus rikkoo molemmat kiekot, sportingissa kirjataan one ja one, kun taas Compakissa kaksoiskiekko heitetään uudelleen.",
+   "long": "Kaksoiskiekkoja on kolmenlaisia: laukauksesta lähtevä, yhtäaikainen ja vain sportingissa peräkkäinen (rafale). Sportingissa ampujalla on kaksoiskiekkoon kaksi patruunaa, ja hän saa ampua molemmat samaan kiekkoon; ensimmäisen ja toisen kiekon välillä aseen asento on vapaa. Compakissa kaksoiskiekon kumpaankin kiekkoon saa ampua vain yhden patruunan, ja yhdessä Compakissa kaksoiskiekon tyypin on oltava sama kaikilla 5 ampumapaikalla; kunkin kaksoiskiekon ensimmäinen kiekko on edellisen ampumapaikan viimeinen kiekko. Jos yksi laukaus rikkoo molemmat kiekot, sportingissa kirjataan one ja one. Compakissa niitä ei lasketa kahdeksi osumaksi: laukauksesta lähtevässä kaksoiskiekossa ensimmäisen kiekon tulos jää voimaan ja kaksoiskiekko heitetään uudelleen toisen kiekon vuoksi; yhtäaikaisessa kaksoiskiekossa se on uusi kiekko ja kaksoiskiekko heitetään uudelleen, ja kolmannella kerralla tulos on nolla-nolla.",
    "disciplines": {
     "sporting": "5 kaksoiskiekkoa rataosuudella, vain kiekoista, jotka on jo ammuttu yksittäisinä samalta ampumapaikalta; molemmat patruunat saa ampua yhteen kiekkoon.",
     "compak": "Yksi patruuna kiekkoa kohti; molempien laukausten tahallinen ampuminen yhteen kiekkoon tuottaa zero-zero."
@@ -959,7 +959,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Sportingin kaksoiskiekko, jossa samasta heittimestä lähtee samalla lentoradalla kaksi kiekkoa peräkkäin.",
+   "short": "Sporting™-lajin kaksoiskiekko, jossa samasta heittimestä lähtee samalla lentoradalla kaksi kiekkoa peräkkäin.",
    "long": "Peräkkäisessä kaksoiskiekossa (rafale) toinen kiekko seuraa niin nopeasti kuin heittimen varsi latautuu, ja kumman tahansa kiekon saa ampua ensin. Se näytetään näytössä kuten yhtäaikainen kaksoiskiekko. Rangaistus- ja asehäiriösäännöt kohtelevat sitä kuin yhtäaikaista kaksoiskiekkoa: epäsäännöllinen kiekko tarkoittaa, että kaksoiskiekko heitetään uudelleen ilman tulosta, ja punainen kortti tarkoittaa zero ja zero. Ampumapaikalla, jolla on 3 heitintä ja 2 kaksoiskiekkoa, kaksoiskiekot voivat olla yhtäaikaisia, peräkkäisiä tai molempia.",
    "disciplines": {
     "sporting": "Vain sportingissa; Compak-säännöissä ei ole rafale-kaksoiskiekkoa."
@@ -973,10 +973,10 @@ window.GLOSSARY_I18N.fi = {
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
    "short": "Ampumapaikan kiekkojen näyttäminen ampujille ennen ammuntaa.",
-   "long": "Sportingissa kaikki ampumapaikan lentoradat näytetään erän ensimmäiselle ampujalle, jonka on oltava valmiina ampumapaikalla; pyynnöstä kunkin kiekon voi näyttää uudelleen enintään 2 kertaa. Laukauksesta lähteviä kaksoiskiekkoja ei näytetä; yhtäaikaiset ja peräkkäiset näytetään, enintään 2 uusintanäytöllä. Erämuotoisessa Compakissa kiekot näytetään vain kerran aamulla ensimmäiselle erälle; linjassa kunkin kaksoiskiekon ensimmäinen kiekko näytetään jokaiselle uudelle ampujalle ampumapaikalla 1. Näytön aikana aseet ovat avattuina ja lataamattomina, ja ampuminen tai tähtäysharjoittelu on kielletty. Yli 10 minuutin keskeytyksen jälkeen kiekot näytetään uudelleen.",
+   "long": "Sporting™-lajissa kaikki ampumapaikan lentoradat näytetään erän ensimmäiselle ampujalle, jonka on oltava valmiina ampumapaikalla; pyynnöstä kunkin kiekon voi näyttää uudelleen enintään 2 kertaa. Laukauksesta lähteviä kaksoiskiekkoja ei näytetä; yhtäaikaiset ja peräkkäiset näytetään, enintään 2 uusintanäytöllä. Näytön aikana kukaan ei saa ampua eikä jäljitellä ammuntaa, ja heittimen vikaantumisen tai yli 10 minuutin keskeytyksen jälkeen ampumapaikan kiekot näytetään uudelleen. Erämuotoisessa Compak® Sporting -ammunnassa päivän ensimmäinen erä näkee kiekot kerran, aikaisin aamulla: yksittäiskiekot A–F ja sitten ampumapaikkojen 1–5 yhtäaikaiset kaksoiskiekot; yli 10 minuutin tauon jälkeen kuusi yksittäiskiekkoa näytetään uudelleen. Linjassa jokainen uusi ampuja näkee ampumapaikalla 1 oman kaksoiskiekkonsa ensimmäisen kiekon. Molemmissa lajeissa aseet pysyvät näytön aikana avattuina ja lataamattomina, ja ne suljetaan vain tuomarin luvalla. Compak® Sporting -lajissa ammunnan jäljittely on kielletty ampumapaikkojen ulkopuolella ja silloin, kun toinen erän jäsen ampuu.",
    "disciplines": {
-    "sporting": "Näytetään jokaisella ampumapaikalla erän ensimmäiselle ampujalle; enintään 2 uusintaa kiekkoa kohti.",
-    "compak": "Erissä: kerran aamulla ensimmäiselle erälle (yksittäiset A–F, sitten samanaikaiset kaksoiskiekot); yli 10 minuutin keskeytyksen jälkeen 6 yksittäiskiekkoa näytetään uudelleen."
+    "sporting": "Näytetään jokaisella ampumapaikalla erän ensimmäiselle ampujalle; enintään 2 uusintaa kiekkoa kohti; näytön aikana ei ammuta eikä jäljitellä ammuntaa.",
+    "compak": "Erissä: kerran, aikaisin aamulla, päivän ensimmäiselle erälle (yksittäiset A–F, sitten yhtäaikaiset kaksoiskiekot); yli 10 minuutin keskeytyksen jälkeen 6 yksittäiskiekkoa näytetään uudelleen."
    }
   },
   "target-menu": {
@@ -995,7 +995,7 @@ window.GLOSSARY_I18N.fi = {
    "conf": "high",
    "src": "https://www.erakolmio.com/ampumaharjoittelu-ennen-kyyhkyjahtia-valmistaudu-nopeisiin-tilanteisiin/",
    "short": "Etäisyys, jonka ampuja osoittaa kiekon eteen, jotta haulit kohtaavat sen.",
-   "long": "Sillä aikaa kun haulit lentävät kiekkoa kohti, kiekko jatkaa liikettään, joten laukaisuhetkellä aseen on oltava sen edessä. Tämä etäisyys on ennakko. Se riippuu kiekon nopeudesta, etäisyydestä ja lentokulmasta: pitkät sivukiekot vaativat eniten ennakkoa, suoraan loittonevat peräkiekot tuskin lainkaan. Se, miten ampuja havaitsee ennakon, on subjektiivista, joten eri ihmiset kuvaavat sitä eri tavoin. Ennakkomenetelmiä on useita, pysyvä ennakko (maintained lead), edestä irtiveto (pull-away) ja läpiveto (swing-through), ja valmentaja auttaa sinua valitsemaan omasi."
+   "long": "Sillä aikaa kun haulit lentävät kiekkoa kohti, kiekko jatkaa liikettään, joten laukaisuhetkellä aseen on oltava sen edessä. Tämä etäisyys on ennakko. Se riippuu kiekon nopeudesta, etäisyydestä ja lentokulmasta: pitkät sivukiekot vaativat eniten ennakkoa, suoraan loittonevat peräkiekot tuskin lainkaan. Se, miten ampuja havaitsee ennakon, on subjektiivista, joten eri ihmiset kuvaavat sitä eri tavoin. Ennakkomenetelmiä on useita, pysyvä ennakko (maintained lead), edestä irtiveto (pull-away), läpiveto (swing-through) ja väijytys (ambush), ja valmentaja auttaa sinua valitsemaan omasi."
   },
   "maintained-lead": {
    "term_local": "pysyvä ennakko",
@@ -1004,8 +1004,8 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "medium",
    "src": "https://www.erakolmio.com/ampumaharjoittelu-ennen-kyyhkyjahtia-valmistaudu-nopeisiin-tilanteisiin/",
-   "short": "Ennakkotapa, jossa piiput liikkuvat koko ajan kiekon edellä sen nopeudella.",
-   "long": "Pysyvässä ennakossa ampuja vie piiput heti kiekon eteen ja liikuttaa niitä samalla nopeudella pitäen tarvittavan ennakon, ja ampuu sitten. Se toimii hyvin pitkillä, ennustettavilla kiekoilla, koska se antaa aikaa lukea ennakon. Vaikeus on siinä, että silmän on pysyttävä kiekossa eikä piipuissa, muuten liike pysähtyy. Aloittelijoista menetelmä tuntuu joskus yksinkertaiselta, mutta se vaatii hyvää nopeuden tajua. Valmentaja ehdottaa, mille kiekoille se sinulle sopii."
+   "short": "Ennakkomenetelmä, jossa piiput pysyvät kiekon edellä ja laukaisuhetkellä liikkuvat sen nopeudella, jolloin väli pysyy samana.",
+   "long": "Pysyvässä ennakossa piippujen suut tulevat kiekon linjalle sen eteen, eivät taakse. Aluksi ne liikkuvat hieman kiekkoa hitaammin, jolloin kiekko lähestyy, kunnes väli näyttää oikealta; sitten piiput liikkuvat kiekon nopeudella, väli pysyy samana ja laukaus lähtee aseen ollessa yhä liikkeessä. Menetelmä sopii usein kaukaisille ja ennustettaville kiekoille, kuten pitkille sivukiekoille, koska se antaa aikaa lukea ennakko. Tyypillinen virhe on välin mittaaminen: katse siirtyy piippuihin ja ase hidastuu tai pysähtyy. Sitä kuvataan usein vaikeimmaksi oppia, joten kysy valmentajalta, mille kiekoille se sinulla sopii."
   },
   "swing-through": {
    "term_local": "läpiveto",
@@ -1067,7 +1067,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Sportingin lähtöasento: tukki koskettaa vartaloa liivin merkkiviivan alapuolella, kunnes kiekko ilmestyy.",
+   "short": "Sporting™-lajin lähtöasento: tukki koskettaa vartaloa liivin merkkiviivan alapuolella, kunnes kiekko ilmestyy.",
    "long": "Ennen kiekon pyytämistä sporting-ampuja seisoo molemmat jalat ampumapaikan sisällä, tukin kanta kosketuksissa vartaloon ja tukin korkeimman kohdan takaosa liiviin merkityn viivan alapuolella. Tämä koskee kaikkia tukkityyppejä, myös säädettäviä poskipakkoja. Asento pidetään, kunnes kiekko on laukaistu ja näkyvissä. Ensimmäisestä rikkeestä seuraa varoitus ja keltainen kortti; seuraavasta samalla rataosuudella punainen kortti, ja kiekko kirjataan rangaistuksena. Kaksoiskiekoissa asetta saa pitää vapaasti ensimmäisen ja toisen kiekon välillä.",
    "disciplines": {
     "sporting": "Pakollinen ase alhaalla -asento (3.1).",
@@ -1175,9 +1175,9 @@ window.GLOSSARY_I18N.fi = {
    "conf": "medium",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
    "short": "Aseen noston harjoittelu ampumatta, lataamattomalla ja tarkastetulla aseella, siellä missä laki sen sallii.",
-   "long": "Nostoharjoitus on yksi hyödyllisimmistä tavoista harjoitella kotona: muutama minuutti päivässä tekee liikkeestä vakaan. Varmista ennen aloittamista, että ase on lataamaton eikä huoneessa ole patruunoita, ja pidä piipun suu turvalliseen suuntaan. Monet ampujat käyttävät harjoituspatruunoita (snap caps) suojatakseen koneistoa kuivalaukaisuissa. Radalla säännöt ovat tiukemmat: ammunnan jäljittely ampumapaikan ulkopuolella on kiellettyä, ja Sporting™-lajissa aseen nostosta ja heilauttamisesta kiekon kuvitellulla linjalla ennen pyytämistä seuraa varoitus. Tarkista aseen kotikäsittelyä koskeva paikallinen laki.",
+   "long": "Nostoharjoitus tarkoittaa aseen noston harjoittelua lataamattomalla, tarkastetulla aseella ilman laukausta. Moni valmentaja suosittelee muutamaa minuuttia kotona, siellä missä laki sen sallii, jotta liikkeestä tulee tuttu. Varmista ennen aloittamista, että ase on lataamaton eikä huoneessa ole patruunoita, ja pidä piiput turvalliseen suuntaan. Jos painat liipaisinta tyhjällä aseella, käytä harjoituspatruunoita (snap caps) suojaamaan iskureita valmentajan tai asesepän neuvon mukaan. Radalla säännöt riippuvat lajista. Sporting™-lajissa ammunnan jäljittely (aseen nosto ja heilautus kiekon linjalla) ei ole kilpailun aikana sallittua missään kohtaa rataa. Compak® Sporting -lajissa se on kielletty ampumapaikkojen ulkopuolella ja silloin, kun toinen erän jäsen ampuu. Tarkista aseen kotikäsittelyä koskeva paikallinen laki.",
    "disciplines": {
-    "sporting": "Ammunnan jäljittely on kielletty radalla ja sen ulkopuolella; ennen pyyntöä varoitus, toistosta rangaistaan.",
+    "sporting": "Ammunnan jäljittely ei ole sallittua missään kohtaa rataa: ensin varoitus, sen jälkeen jokainen toisto on nolla seuraavasta osutusta kiekosta.",
     "compak": "Ammunnan jäljittely on kielletty ampumapaikkojen ulkopuolella ja erän jäsenen ampuessa."
    }
   },
@@ -1359,7 +1359,7 @@ window.GLOSSARY_I18N.fi = {
    "note": "Säännöt: '4 ampumapaikkaa linjassa'.",
    "conf": "medium",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Uudempi sporting-rataosuustyyppi, jossa 4 tai 5 ampumapaikkaa on vierekkäin ja ne jakavat heittimet.",
+   "short": "Uudempi Sporting™-rataosuustyyppi, jossa 4 tai 5 ampumapaikkaa on vierekkäin ja ne jakavat heittimet.",
    "long": "Uuden järjestelmän 4 ampumapaikan linjalla kolmella paikalla on 4 heitintä ja yhdellä (numero 2 tai 3) 3 heitintä; viidestä kaksoiskiekosta 2 ammutaan 3 heittimen paikalla. 5 ampumapaikan linjalla on 3 heitintä paikkaa kohden. Kapasiteettitaulukot olettavat 10–13 minuuttia erää kohden linjalla; neljällä linjalla ja 10 minuutin ajalla kilpailuun mahtuu 336 ampujaa kahdessa päivässä ja jopa 816 neljässä päivässä. 3 ampumapaikan linja, jossa kullakin on 5 heitintä, on sallittu vain Grand Prix -kilpailussa.",
    "disciplines": {
     "sporting": "Vain sportingissa; Compakissa ”linjassa” tarkoittaa muuta, ampumatapaa."
@@ -1372,7 +1372,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "25 kiekon kokonaisuus, joka ammutaan yhdellä rataosuudella, linjalla tai Compakissa.",
+   "short": "25 kiekon kokonaisuus, joka ammutaan yhdellä rataosuudella, linjalla tai Compak® Sporting -radalla.",
    "long": "Molemmissa sääntökirjoissa kierros on 25 kiekkoa. Kansainvälinen kilpailu on 200 kiekkoa eli 8 kierrosta. Ase- ja patruunahäiriöt lasketaan kierroksittain: ensimmäinen antaa No Birdin, myöhemmät samalla kierroksella antavat zeron. Compakissa kierros on viisi kiekkoa kullakin viidellä ampumapaikalla; asetta, supistajaa tai piippua ei saa vaihtaa kierroksen aikana, ja lentoradat ja kiekkoluettelot muuttuvat vasta kokonaisen kierroksen jälkeen. Juryn rangaistus voi olla kokonaisen 25 kiekon kierroksen menetys.",
    "disciplines": {
     "sporting": "Asetta, supistajaa tai piippua saa vaihtaa ampumapaikkojen välillä tai yksittäis- ja kaksoiskiekkojen välillä.",
@@ -1500,7 +1500,7 @@ window.GLOSSARY_I18N.fi = {
    "term_local": "Count Back -sääntö",
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Tasatulosten järjestäminen vertaamalla viimeisen rataosuuden tai Compakin tuloksia, sitten sitä edeltävän ja niin edelleen.",
+   "short": "Tasapisteiden ratkaiseminen vertaamalla tuloksia 8. rataosuudella tai 8. Compak® Sporting -radalla, sitten 7.:llä ja niin edelleen 1.:een asti.",
    "long": "Kolmannen sijan jälkeen uusintakierrosta ei ole: tasoissa olevat ampujat sijoitetaan samalle sijalle ja listataan laskemalla tuloksia taaksepäin 8. rataosuudesta (Compakista) 1. rataosuuteen. Tasoissa olevat joukkueet järjestetään jäsenten yhteistuloksen mukaan 8. rataosuudella tai Compakissa; jos tilanne on yhä tasan, 7., 6. ja niin edelleen 1. asti. Joukkueuusintaa ei ole."
   },
   "firing-time": {
@@ -1770,7 +1770,7 @@ window.GLOSSARY_I18N.fi = {
     "linja-ammunta"
    ],
    "conf": "low",
-   "short": "Compakin ammuntatapa, jossa ampujat tulevat ampumapaikalle 1 yksi kerrallaan ja etenevät linjaa pitkin ampumapaikalle 5.",
+   "short": "Compak® Sporting -lajin ammuntatapa, jossa ampujat tulevat ampumapaikalle 1 yksi kerrallaan ja etenevät linjaa pitkin ampumapaikalle 5.",
    "long": "Linjassa ammuttaessa ryhmän jokainen ampuja aloittaa ampumapaikalta 1 ja lopettaa ampumapaikalla 5, ja uusi ampuja tulee mukaan linjan edetessä. Ryhmän koko on ampujien kokonaismäärä jaettuna käytössä olevien Compakien määrällä. Kansainvälisellä tasolla käytetään vain mikrofonilähtöä sekä FITASCin hyväksymää elektronista tuomarointia ja tulospalvelua. Kiekot näytetään kiinteässä järjestyksessä linjan täyttyessä ja tyhjentyessä. Myöhästynyt ampuja, jonka numero on jo peruttu järjestelmässä seuraavan ampujan ollessa ampumapaikalla 1, saa 25 nollaa.",
    "disciplines": {
     "compak": "Vain Compak® Sporting -lajissa; vaihtoehto erissä (by squad) ampumiselle."
@@ -1780,7 +1780,7 @@ window.GLOSSARY_I18N.fi = {
    "term_local": "FITASC",
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
-   "short": "Kansainvälinen liitto, joka hallinnoi sportingia ja Compak® Sportingia ja julkaisee niiden säännöt.",
+   "short": "Kansainvälinen liitto, joka hallinnoi Sporting™- ja Compak® Sporting -lajeja ja julkaisee niiden säännöt.",
    "long": "FITASC on metsästystyylisten ammuntalajien kansainvälinen liitto; sen lajeihin kuuluvat sporting ja Compak® Sporting. Se hyväksyy kansainvälisten kilpailujen rataosuudet, myöntää kansainväliset tuomarikortit ja säilyttää tiedot kilpailusta sulkemisista viiden vuoden ajan. Tässä oppaassa käytetyt voimassa olevat sääntökirjat ovat 01.01.2025 päivättyjä painoksia. Vain FITASCin virallinen teksti on sitova; ClayArena antaa oman selkokielisen tiivistelmänsä linkein lähteeseen."
   },
   "grand-prix": {
@@ -1795,7 +1795,7 @@ window.GLOSSARY_I18N.fi = {
   "hunting-ethics": {
    "term_local": "metsästysetiikka",
    "conf": "medium",
-   "short": "Periaate, jonka mukaan sporting-kiekot asetetaan etäisyyksille, joilta oikea metsästäjä ampuisi.",
+   "short": "Periaate, jonka mukaan Sporting™-kiekot asetetaan etäisyyksille, joilta oikea metsästäjä ampuisi.",
    "long": "Sporting-rataosuuksien on kunnioitettava metsästysetiikkaa. Kiekko ei saa olla niin lähellä, että oikea riista pilaantuisi, eikä niin kaukana, että oikea eläin vain haavoittuisi, eli aseen ja patruunan tehokkaan kantaman ulkopuolella. Jokaisen yksittäiskiekon on jätettävä riittävästi aikaa kahdelle laukaukselle. Ratasuunnittelijat ja jury käyttävät tätä periaatetta asettaessaan ja tarkastaessaan lentoratoja.",
    "disciplines": {
     "sporting": "Kirjattu Sporting-sääntöihin (2.5.1)."
@@ -1820,7 +1820,7 @@ window.GLOSSARY_I18N.fi = {
     "FAL"
    ],
    "conf": "low",
-   "short": "Kehikko kullakin Compakin ampumapaikalla, joka rajoittaa aseen heilautusta ja pitää ampujan paikallaan.",
+   "short": "Kehikko kullakin Compak® Sporting -radan ampumapaikalla, joka rajoittaa aseen heilautusta ja pitää ampujan paikallaan.",
    "long": "Jokaisella Compakin ampumapaikalla on oltava turvallisuussyistä ampumakulman rajoitin. Se rajoittaa heilautusta sivuille ja pystysuunnassa ja estää ampujaa nojaamasta tai astumasta eteenpäin. Sääntökirja suosittaa kehikkoa, joka on tehty halkaisijaltaan 50 mm:n värillisistä PVC-putkista kulmakappaleineen ja jonka jalusta on täytetty vedellä tai hiekalla tai kiinnitetty maahan. Ladattaessa piipun on osoitettava ampuma-alueelle FAL:n sisällä.",
    "disciplines": {
     "compak": "Pakollinen jokaisella Compak-ampumapaikalla; ei kuulu Sporting-sääntöihin."
@@ -1859,7 +1859,7 @@ window.GLOSSARY_I18N.fi = {
     "merkkiviiva"
    ],
    "conf": "low",
-   "short": "Kontrastivärinen viiva sporting-ampujan liivissä 25 cm olkalinjan alapuolella; tukin on pysyttävä sen alapuolella.",
+   "short": "Kontrastivärinen viiva Sporting™-ampujan liivissä 25 cm olkalinjan alapuolella; tukin on pysyttävä sen alapuolella.",
    "long": "Viiva piirretään takkiin tai liiviin 25 cm (9,85 tuumaa) olkalinjan alapuolelle ja sen suuntaisesti, takista erottuvalla värillä, jotta tuomari näkee sen. Valmiusasennossa tukin korkeimman kohdan takaosan on pysyttävä sen alapuolella, kunnes kiekko ilmestyy. Sporting-sääntökirjassa on kaavio liivistä ja kolmesta tukkityypistä. Compak-säännöissä tällaista merkkiä ei ole.",
    "disciplines": {
     "sporting": "Pakollinen; 25 cm hartialinjan alapuolella.",
@@ -1885,7 +1885,7 @@ window.GLOSSARY_I18N.fi = {
   "electronic-refereeing": {
    "term_local": "elektroninen tuomarointi",
    "conf": "low",
-   "short": "FITASCin hyväksymät elektroniset järjestelmät, jotka tallentavat tulokset linjassa ammuttavassa Compakissa.",
+   "short": "FITASCin hyväksymät elektroniset järjestelmät, jotka tallentavat tulokset linjassa ammuttavassa Compak® Sporting -lajissa.",
    "long": "Linjassa ammuttavassa Compakissa kansainvälisissä kilpailuissa laukaisu tapahtuu vain mikrofonilähdöllä, ja tuomaroinnissa ja tulospalvelussa on käytettävä FITASCin hyväksymiä järjestelmiä. Elektronisessa järjestelmässä tulokset näkyvät näytöllä. Compak-säännöissä on esimerkkituloste, jossa on sarakkeet numerolapulle, maalle, sarjalle, ensimmäiselle rangaistukselle, toiselle rangaistukselle, tulokselle, nimelle ja ampujan allekirjoitukselle.",
    "disciplines": {
     "compak": "Vain linjassa ammuttavassa Compakissa."
@@ -1998,7 +1998,7 @@ window.GLOSSARY_I18N.fi = {
   "group": {
    "term_local": "ryhmä (linjassa)",
    "conf": "low",
-   "short": "Linjassa ammuttavassa Compakissa yhdelle Compakille määrätyt ampujat: ilmoittautuneiden määrä jaettuna Compakien määrällä.",
+   "short": "Linjassa ammuttavassa Compak® Sporting -lajissa yhdelle radalle määrätyt ampujat: ilmoittautuneiden määrä jaettuna ratojen määrällä.",
    "long": "Linjassa ammuttavassa Compakissa ryhmän koko on ampujien kokonaismäärä jaettuna käytössä olevien Compakien määrällä. Ryhmän jokainen ampuja aloittaa ampumapaikalta 1 ja lopettaa ampumapaikalla 5. Aseen saa lainata vain oman ryhmän ulkopuoliselta ampujalta, eivätkä saman ryhmän ampujat saa käyttää yhteistä asetta. Myöhästynyt ampuja, jonka vetoomus hyväksytään, voi ampua kierroksen toisen ryhmän kanssa.",
    "disciplines": {
     "compak": "Vain linjassa ammuttavassa Compakissa."
@@ -2154,7 +2154,7 @@ window.GLOSSARY_I18N.fi = {
    "term_local": "lämmittely",
    "conf": "medium",
    "short": "Valmistautuminen ennen ammuntaa: liikkumista ja muutama helppo kiekko.",
-   "long": "Lämmittely valmistaa vartalon ja silmät ammuntaan. Muutaman minuutin liikkeet niskalle, hartioille, selälle ja lantiolle vähentävät loukkaantumisriskiä ja tekevät aseen liikkeestä sujuvamman. Jos rata sen sallii, aloita harjoitus muutamalla helpolla kiekolla löytääksesi rytmin ja varmuuden ennen vaikeampia. Ennen kilpailua säännöt riippuvat lajista. Sporting™-lajissa kukaan ei saa harjoitella kilpailun rataosuuksilla, joten lämmittele muilla radoilla. Compak® Sporting -lajissa harjoittelu kilpailun lentoradoilla on sallittua, mutta eri säätötaulukoilla; maanosa- ja maailmanmestaruuskilpailuissa virallinen harjoittelu alkaa vasta lähtöä edeltävänä lauantaina. Tee nostoharjoituksia vain siellä, missä se on sallittua, lataamattomalla ja tarkistetulla aseella."
+   "long": "Lämmittely herättää vartalon ja silmät ennen ammuntaa. Moni valmentaja suosittelee noin 10–15 minuuttia kevyttä, dynaamista liikettä niskalle, hartioille, selälle, lantiolle ja nilkoille, jotta ase liikkuu sujuvammin; haulikkoammunnan lämmittelystä on vähän tutkimusta, joten neuvot perustuvat valmentajien kokemukseen. Jos rata sen sallii, voit aloittaa harjoituksen muutamalla helpolla kiekolla rytmin löytämiseksi ennen vaikeampia. Ennen kilpailua säännöt riippuvat lajista. Sporting™-lajissa kukaan ei saa harjoitella kilpailun rataosuuksilla, joten lämmittelyammunta tehdään muilla rataosuuksilla. Compak® Sporting -lajissa harjoittelu kilpailun lentoradoilla on sallittua, mutta eri lentoratojen asetustaulukoilla; maanosa- ja maailmanmestaruuskilpailuissa virallinen harjoittelu alkaa vasta lähtöä edeltävänä lauantaina. Kilpailussa moni valmentaja suosittelee lämmittelemään ilman asetta; nostoharjoitukset kuuluvat kotiin tai harjoituksiin, missä ne ovat sallittuja."
   },
   "training-diary": {
    "term_local": "harjoituspäiväkirja",
@@ -2259,7 +2259,7 @@ window.GLOSSARY_I18N.fi = {
    "term_local": "ampujaprofiili",
    "conf": "low",
    "short": "Ampujan sivu ClayArenassa, jossa ovat hänen kilpailunsa ja tärkeimmät lukunsa.",
-   "long": "Ampujaprofiili kokoaa ne Sporting™- ja Compak® Sporting -kilpailut, joiden tulokset ovat ClayArenassa, ja näyttää tärkeimmät luvut, kuten osumatarkkuuden ja parhaan tuloksen. Profiiliin pääsee kilpailun tulostaulukosta tai sen voi löytää hakemalla nimellä. Nimet on sivustolla kirjoitettu latinalaisin kirjaimin kuten kilpailuasiakirjoissa, joten jos sukunimen voi translitteroida eri tavoin, kokeile useita kirjoitusasuja. Tiedot tulevat kilpailujen pöytäkirjoista, joten tarkista oma pöytäkirjasi jo radalla: profiiliin tulee se, minkä tuomari kirjasi. Profiili on hyödyllinen itsensä vertaamiseen itseensä kauden aikana."
+   "long": "Ampujaprofiili kokoaa ne Sporting™- ja Compak® Sporting -kilpailut, joiden tulokset ovat ClayArenassa, ja näyttää tärkeimmät luvut, kuten osumatarkkuuden ja parhaan tuloksen. Profiiliin pääsee kilpailun tulostaulukosta tai sen voi löytää hakemalla nimellä. Nimet on kirjoitettu kuten kilpailuasiakirjoissa: kansainvälisissä kilpailuissa yleensä latinalaisin kirjaimin, kansallisissa kilpailuissa myös paikallisella kirjaimistolla, esimerkiksi kyrillisin kirjaimin ukrainalaisissa kilpailuissa. Jos et löydä itseäsi, kokeile paikallista kirjoitusasua ja nimesi erilaisia latinalaisia kirjoitusasuja. Tiedot tulevat kilpailujen pöytäkirjoista, joten tarkista oma pöytäkirjasi jo radalla: profiiliin tulee se, minkä tuomari kirjasi. Profiili on hyödyllinen itsensä vertaamiseen itseensä kauden aikana."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2285,8 +2285,8 @@ window.GLOSSARY_I18N.fi = {
   "top-10-rate": {
    "term_local": "top 10 -osuus",
    "conf": "low",
-   "short": "Kuinka usein ampuja sijoittuu kymmenen parhaan joukkoon.",
-   "long": "Tämä ClayArena-profiilin luku kertoo, kuinka suuressa osassa kilpailuja ampuja on sijoittunut kymmenen parhaan joukkoon. Se ei riipu vain tuloksesta vaan myös osallistujista: kymmenen parhaan joukkoon pääseminen suuressa kansainvälisessä kilpailussa on paljon vaikeampaa kuin seurakilpailussa. Lue se siksi yhdessä niiden kilpailujen luettelon kanssa, joihin ampuja on osallistunut. Se kuvaa hyvin kokeneiden ampujien tasaisuutta, mutta aloittelijalle on hyödyllisempää seurata omaa osumatarkkuuttaan."
+   "short": "Kuinka usein ampuja sijoittuu kymmenen parhaan joukkoon luokassaan tai yleisessä sarjassa.",
+   "long": "Tämä ClayArena-profiilin luku kertoo, kuinka suuressa osassa kilpailuja ampuja on sijoittunut kymmenen parhaan joukkoon, luokassaan tai yleisessä sarjassa. Se ei riipu vain tuloksesta vaan myös osallistujista: kymmenen parhaan joukkoon pääseminen suuressa kansainvälisessä kilpailussa on paljon vaikeampaa kuin seurakilpailussa, ja pienessä luokassa, jossa on vain muutama ampuja, kymmenen parhaan joukkoon on helpompi päästä. Lue se siksi yhdessä niiden kilpailujen luettelon kanssa, joihin ampuja on osallistunut. Se kuvaa hyvin kokeneiden ampujien tasaisuutta, mutta aloittelijalle on hyödyllisempää seurata omaa osumatarkkuuttaan."
   },
   "performance-index": {
    "term_local": "suoritusindeksi",
@@ -2336,8 +2336,8 @@ window.GLOSSARY_I18N.fi = {
     "EU-asepassi"
    ],
    "conf": "medium",
-   "short": "EU-maan omassa maassaan asuville aseenomistajille myöntämä asiakirja aseiden kanssa matkustamiseen muihin EU-maihin; voimassa enintään viisi vuotta.",
-   "long": "Eurooppalaisen ampuma-asepassin (EFP) myöntää sen EU-maan viranomainen, jossa aseen omistaja asuu, ja se on yleensä voimassa enintään viisi vuotta. Siihen merkitään tietyt aseet, joten tarkista ennen matkaa, että mukaan ottamasi ase on merkitty passiin ja ettei passi vanhene matkan aikana. Urheiluampujat, joilla on EFP ja todistus matkan syystä, useimmiten järjestäjän kutsukirje, voivat yleensä viedä aseen toiseen EU-maahan ilman erillistä ennakkolupaa. Mailla voi silti olla omia poikkeuksiaan, eikä EFP ohita paikallisia sääntöjä aseen kantamisesta, säilyttämisestä ja patruunoiden ostamisesta. Sitä ei myönnetä EU:n ulkopuolisten maiden asukkaille; tarkista kohde- ja kauttakulkumaiden ajantasaiset säännöt."
+   "short": "Asiakirja, jonka EU-maa tai Sveitsi, Norja, Islanti tai Liechtenstein myöntää siellä asuville aseenomistajille omien aseiden kanssa matkustamiseen tällä alueella; voimassa enintään viisi vuotta.",
+   "long": "Eurooppalaisen ampuma-asepassin myöntää aseenomistajan asuinmaan aselupia käsittelevä viranomainen, ja se on yleensä voimassa enintään viisi vuotta. EU-maiden lisäksi sen myöntävät asukkailleen myös Sveitsi, Norja, Islanti ja Liechtenstein, jotka soveltavat samoja EU:n asesääntöjä; muiden maiden asukkaat eivät voi saada sitä. Passiin merkitään tietyt aseet, joten tarkista ennen matkaa, että mukaan ottamasi haulikko on merkitty siihen ja ettei passi vanhene matkalla. Urheiluampujat, joilla on passi ja todiste matkan tarkoituksesta, useimmiten järjestäjän kutsukirje, voivat yleensä viedä aseensa toiseen näistä maista ilman erillistä ennakkolupaa. Mailla voi silti olla omia poikkeuksiaan, eikä passi kumoa paikallisia sääntöjä aseen kantamisesta, säilytyksestä ja patruunoiden ostosta; tarkista kohde- ja kauttakulkumaiden ajantasaiset säännöt."
   },
   "jet-lag": {
    "term_local": "aikaerorasitus",
@@ -2345,8 +2345,8 @@ window.GLOSSARY_I18N.fi = {
     "jet lag"
    ],
    "conf": "medium",
-   "short": "Unen ja vireyden häiriintyminen usean aikavyöhykkeen yli lentämisen jälkeen; menee yleensä ohi muutamassa päivässä.",
-   "long": "Usean aikavyöhykkeen yli lennettyä sisäinen kello ei vastaa paikallista aikaa: päivällä nukuttaa, yöllä on vaikea nukahtaa, ja reaktiot ja keskittyminen kärsivät. Tämä on ammunnassa tärkeää, koska tarkkuus ja keskittyminen heikkenevät ensimmäisinä. Siksi kaukaisiin kilpailuihin neuvotaan saapumaan muutama päivä aikaisemmin, siirtymään heti paikalliseen aikaan, oleskelemaan päivänvalossa ja juomaan vettä. ClayAway-matkan ohjelmassa (valmisteilla) ajat ilmoitetaan tapahtumapaikan aikavyöhykkeellä vyöhyke merkittynä, jottei aikataulu mene sekaisin. Keskustele unilääkkeistä tai muista lääkkeistä lääkärin kanssa."
+   "short": "Häiriintynyt uni ja vireys nopean, useiden aikavyöhykkeiden yli kulkevan matkan jälkeen; se voi kestää muutamasta päivästä viikkoon tai pidempään, itään lennettäessä noin päivän aikavyöhykettä kohti.",
+   "long": "Nopean, vähintään kolmen aikavyöhykkeen yli kulkevan matkan jälkeen sisäinen kello käy vielä kotiajassa: uni, ruokahalu, mieliala ja vireys eivät vastaa paikallista aikaa ennen kuin kello on asettunut. Yleinen karkea nyrkkisääntö on noin päivä aikavyöhykettä kohti itään lennettäessä ja noin puoli päivää vyöhykettä kohti länteen lennettäessä; ihmiset ovat erilaisia. Oikeaan aikaan saatu päivänvalo on tärkein kelloa siirtävä signaali, joten elä ensimmäisestä päivästä paikallisen ajan mukaan ja varaa pitkän itään suuntautuvan lennon jälkeen vapaa, kevyt päivä ennen kilpailuammuntaa. Itse matkasta johtuva väsymys (matkaväsymys) on eri asia. ClayAway-matkan ohjelma (valmisteilla) ilmoittaa ajat tapahtumapaikan aikavyöhykkeessä vyöhyke merkittynä. Keskustele unilääkkeistä, melatoniinista ja muista lääkkeistä lääkärin kanssa."
   },
   "invitation-letter": {
    "term_local": "kutsukirje",
@@ -2399,7 +2399,7 @@ window.GLOSSARY_I18N.fi = {
     "soft focus"
    ],
    "conf": "low",
-   "short": "Rento, laaja silmien tarkennus odotettaessa katsepisteessä."
+   "short": "Rento, laaja katse alueelle, jolle kiekko ilmestyy, silmien odottaessa katsepisteessä, tuijottamatta yksityiskohtia."
   },
   "hard-focus": {
    "term_local": "terävä katse",
@@ -2407,7 +2407,7 @@ window.GLOSSARY_I18N.fi = {
     "hard focus"
    ],
    "conf": "low",
-   "short": "Terävä, voimakas tarkennus itse kiekkoon, usein sen etureunaan."
+   "short": "Terävä katse itse kiekkoon, usein sen etureunaan, siitä hetkestä, kun näet sen selvästi, laukaukseen asti."
   },
   "leading-edge": {
    "term_local": "etureuna",
@@ -2546,7 +2546,8 @@ window.GLOSSARY_I18N.fi = {
   "overhead": {
    "term_local": "ylilentävä kiekko",
    "conf": "low",
-   "short": "Kiekko, joka lentää suoraan ampujan pään yli takaa tai edestä."
+   "short": "Ampujan pään yli lentävä kiekko; yleensä tarkoitetaan takaa tulevaa ja loittonevaa kiekkoa, kun taas edestä tuleva on ylilentävä vastakiekko (driven).",
+   "long": "Takaa tuleva ylilentävä kiekko lentää selkäsi yli ja loittonee. Se näkyy myöhään, joten moni valmentaja suosittelee katsomaan taakse jo ennen kiekon pyytämistä. Nosta ase, kun kiekko lentää ylitsesi, ammu, kun piippujen suut saavuttavat sen etureunan, ja jatka aseen liikettä laukauksen jälkeen. Nimet vaihtelevat: jotkut valmentajat sanovat ”overhead” myös edestä tulevasta kiekosta, jota tämä sanasto kutsuu ylilentäväksi vastakiekoksi (driven); jos olet epävarma, kysy."
   },
   "bolting-rabbit": {
    "term_local": "syöksyvä jänis",
@@ -2575,7 +2576,7 @@ window.GLOSSARY_I18N.fi = {
     "hylsynkerääjä"
    ],
    "conf": "low",
-   "short": "Puoliautomaatin laite, joka estää ulos heitettyjä hylsyjä osumasta viereiseen ampujaan; pakollinen Compak® Sportingissa."
+   "short": "Puoliautomaatin laite, joka estää ulos heitettyjä hylsyjä osumasta viereiseen ampujaan; pakollinen Compak® Sporting -lajissa."
   },
   "top-lever": {
    "term_local": "avausvipu",
@@ -2590,7 +2591,7 @@ window.GLOSSARY_I18N.fi = {
   "interpreter": {
    "term_local": "tulkki",
    "conf": "high",
-   "short": "Henkilö, joka tulkkaa valmentajan, tuomarin ja ampujien välillä matkalla; tuntee ammuntaterminologian."
+   "short": "Henkilö, joka tulkkaa valmentajan, tuomarin ja ampujien välillä esimerkiksi harjoituksissa ja matkan ohjelmassa ja tuntee ammunnan sanaston."
   },
   "chuchotage": {
    "term_local": "kuiskaustulkkaus",
@@ -2622,7 +2623,7 @@ window.GLOSSARY_I18N.fi = {
     "smoked it"
    ],
    "conf": "low",
-   "short": "Valmentajien slangia puhtaalle, keskelle osuneelle laukaukselle, joka murskaa kiekon pölyksi; ei sääntöjen 'pelkkä pöly tai savu', joka on zero."
+   "short": "Valmentajien slangia osumasta, joka murskaa kiekon pölyksi. Sääntöjen mukaan kokonaan tai osittain pölyksi hajonnut kiekko on osuma; ehjänä pysyvä kiekko, josta irtoaa vain pölyä tai savua ilman näkyvää palaa, on ohi (nolla)."
   },
   "peg": {
    "term_local": "peg",
@@ -2646,7 +2647,7 @@ window.GLOSSARY_I18N.fi = {
     "English Sporting"
    ],
    "conf": "low",
-   "short": "Brittiläinen sporting-muoto CPSA:n säännöin, yleensä pareilla ja ase nostettuna -aloituksella."
+   "short": "Brittiläinen sporting-ammunnan muoto, jota Englannissa järjestää CPSA FITASCin Sporting™-lajin rinnalla; sillä on omat sääntönsä: kiekkoparit ovat yleisiä, ja ampujat aloittavat usein ase jo nostettuna."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2688,7 +2689,7 @@ window.GLOSSARY_I18N.fi = {
     "ambush"
    ],
    "conf": "low",
-   "short": "Tapa, jossa piippujen suu odottaa kiekon edessä olevassa kohdassa ja laukaus lähtee kiekon saapuessa vähäisellä tai ilman heilautusta."
+   "short": "Menetelmä, jossa piiput odottavat liikkumatta pisteessä kiekon edessä ja liipaisimesta painetaan ennen kuin kiekko ehtii sinne, joten se lentää hauliparveen."
   },
   "instinctive-shooting": {
    "term_local": "vaistonvarainen ammunta",
@@ -2701,7 +2702,7 @@ window.GLOSSARY_I18N.fi = {
     "lajiliitto"
    ],
    "conf": "medium",
-   "short": "Maan lajin hallintoelin; FITASCin jäsen, hyväksyy kansalliset rataosuudet ja valtuuttaa tuomarit."
+   "short": "Maan lajia johtava elin: se kokoaa seurat ja ampujat, järjestää kansalliset kilpailut ja tuomarikurssit ja edustaa maata FITASCissa."
   },
   "blazed-target": {
    "term_local": "oranssikupuinen kiekko",
@@ -2717,6 +2718,341 @@ window.GLOSSARY_I18N.fi = {
    "term_local": "käsilaukaisu",
    "conf": "low",
    "short": "Kiekon laukaisu henkilön (heitinten operaattorin tai tuomarin) painaessa nappia ampujan pyynnöstä."
+  },
+  "anti-doping": {
+   "term_local": "antidoping",
+   "alt": [
+    "dopingvalvonta",
+    "dopingtestaus"
+   ],
+   "conf": "high",
+   "short": "Säännöt ja valvonta urheilussa kiellettyjä aineita ja menetelmiä vastaan; kansainväliset säännöt ja vuosittaisen kieltolistan antaa Maailman antidopingtoimisto (WADA).",
+   "long": "Mestaruuskilpailuissa ja suurissa kilpailuissa ampujalta voidaan ottaa dopingtesti. WADA julkaisee joka vuosi, yleensä syyskuun tienoilla, uuden kieltolistan, joka on voimassa 1. tammikuuta alkaen. Ammunnassa beetasalpaajat ovat aina kiellettyjä. Piristeet ja THC (kannabis) ovat kiellettyjä kilpailun aikana, ja ”kilpailun aikainen” jakso alkaa kilpailua edeltävänä päivänä kello 23.59. Lääkärin määräämäkin lääke voi olla kielletty: tarkista se Global DRO -palvelusta tai kansalliselta antidopingorganisaatiolta, ja jos tarvitset sitä, hae erivapautta (TUE) hyvissä ajoin. Ravintolisät voivat olla saastuneita, joten valitse tuotteita, joiden erät riippumaton laboratorio testaa. Tämä ei ole lääketieteellinen neuvo: keskustele lääkärisi kanssa."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "erivapaus (TUE)",
+   "alt": [
+    "TUE",
+    "hoidollinen erivapaus"
+   ],
+   "conf": "high",
+   "short": "Virallinen lupa urheilijalle käyttää lääketieteellisestä syystä lääkettä, joka on muuten kielletty; sitä haetaan etukäteen.",
+   "long": "Pelkkä resepti ei riitä: kielletty aine on kielletty, vaikka lääkäri olisi sen määrännyt. Siksi ampuja, joka tarvitsee tällaista lääkettä, esimerkiksi beetasalpaajaa verenpaineeseen, sydämen rytmihäiriöön tai migreeniin, hakee erivapautta etukäteen, yleensä kansalliselta antidopingorganisaatiolta; kansallinen liitto kertoo, mikä taho on toimivaltainen. Älä lopeta määrättyä lääkettä omin päin: keskustele hyvissä ajoin ennen kilpailua lääkärin kanssa sallitusta vaihtoehdosta tai erivapaudesta. Tämä ei ole lääketieteellinen neuvo."
+  },
+  "beta-blocker": {
+   "term_local": "beetasalpaaja",
+   "conf": "high",
+   "short": "Sydänlääke, joka hidastaa sykettä ja vähentää vapinaa; WADAn listan mukaan se on ammunnassa aina kielletty, kilpailussa ja sen ulkopuolella.",
+   "long": "Esimerkkejä ovat propranololi, atenololi, bisoprololi ja metoprololi. Ne on kielletty tarkkuuslajeissa, koska hitaampi syke ja vähäisempi vapina voivat rauhoittaa asetta. WADAn lista nimeää ammunnan olympialajien liiton (ISSF) ja para-ammunnan (IPC) kautta, ei FITASCin kautta; pidä beetasalpaajia silti kiellettyinä myös Sporting™- ja Compak® Sporting -lajeissa: kansalliset antidopingorganisaatiot voivat testata kansallisissa kilpailuissa, järjestäjät voivat soveltaa WADAn listaa, ja moni ampuja kilpailee myös ISSF-lajeissa. Jos lääkäri on määrännyt sinulle beetasalpaajan, älä lopeta sitä omin päin; kysy hyvissä ajoin sallitusta vaihtoehdosta tai erivapaudesta. Tämä ei ole lääketieteellinen neuvo."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Usean kansallisen antidopingorganisaation verkkopalvelu, josta voi tarkistaa, onko niiden maissa myytävä lääke urheilussa kielletty.",
+   "long": "Global DRO sisältää vain kumppanimaissa myytäviä lääkkeitä, kuten Isossa-Britanniassa, Yhdysvalloissa, Kanadassa ja Sveitsissä myytäviä. Hae vaikuttavan aineen mukaan, älä pelkän kauppanimen. Jos lääkettäsi ei löydy, kysy kansalliselta antidopingorganisaatiolta tai liitoltasi. Tarkista uudelleen joka vuosi, koska WADAn kieltolista muuttuu."
+  },
+  "box-breathing": {
+   "term_local": "neliöhengitys",
+   "alt": [
+    "box breathing"
+   ],
+   "conf": "medium",
+   "short": "Hengitysrytmi: sisään, pidätys, ulos ja pidätys, kukin neljän laskun ajan; yksi kokeiltava vaihtoehto, jota on urheilussa tutkittu vähän.",
+   "long": "Tähänastisissa tutkimuksissa neliöhengitys ei ollut parempi kuin muut hengitystavat; yhdessä tutkimuksessa paremmin toimi yksinkertaisesti uloshengitys, joka on sisäänhengitystä pidempi. Pidä sitä siis yhtenä vaihtoehtona, ei sääntönä. Hidas hengitys sopii ennen ampumapaikkaa ja ampumapaikkojen välillä. Juuri ennen kiekon pyytämistä moni valmentaja suosittelee vain yhtä luonnollista uloshengitystä, koska hyvin hidas hengitys voi hidastaa reagointia kiekkoon. Jos alkaa huimata, palaa normaaliin hengitykseen. Tämä ei ole lääketieteellinen neuvo."
+  },
+  "quiet-eye": {
+   "term_local": "quiet eye (rauhallinen katse)",
+   "alt": [
+    "hiljainen silmä"
+   ],
+   "conf": "medium",
+   "short": "Viimeinen vakaa katse kiekkoon ennen liikettä; kokeneilla ampujilla se alkaa yleensä aiemmin ja kestää pidempään.",
+   "long": "Tutkijat mittaavat quiet eyen viimeisenä vakaana katseena ennen liikkeen alkua. Vähemmän kokeneisiin verrattuna trapin ja skeetin huippuampujat aloittavat sen aiemmin ja pitävät sitä pidempään, ja osumissa se on yleensä pidempi kuin ohilaukauksissa. Jännittyneenä se usein lyhenee. Mitään taikalukua millisekunteina ei ole: haulikkoammunnassa se tarkoittaa, että näet kiekon aikaisin ja selvästi ja pidät katseen siinä koko laukauksen ajan. Suurin osa aineistosta on olympiatrapista ja -skeetistä; todennäköisesti tämä pätee myös Sporting™- ja Compak® Sporting -lajeihin."
+  },
+  "self-talk": {
+   "term_local": "itsepuhelu",
+   "alt": [
+    "sisäinen puhe",
+    "self-talk"
+   ],
+   "conf": "medium",
+   "short": "Se, mitä sanot itsellesi ääneen tai mielessäsi; urheilussa usein lyhyitä ohjeita, kuten ”näe kiekko” tai ”pehmeästi”.",
+   "long": "Monissa tutkimuksissa urheilijat, jotka harjoittelivat sitä, mitä sanovat itselleen, menestyivät hieman paremmin. Tarkkuutta vaativissa tehtävissä lyhyet ohjeet auttoivat enemmän kuin kannustukset, kuten ”anna mennä”. Sano, mitä pitää tehdä, älä sitä, mitä pitää välttää: ”pysy linjalla” eikä ”älä pysäytä asetta”. Ampumapaikalla sopii yleensä paremmin lyhyt ohje; motivoivat lauseet sopivat paremmin ampumapaikkojen väliseen siirtymiseen. Tutkimukset eivät ole haulikkoammunnasta; todennäköisesti tämä pätee myös Sporting™- ja Compak® Sporting -lajeihin."
+  },
+  "cue-word": {
+   "term_local": "avainsana",
+   "alt": [
+    "vihjesana"
+   ],
+   "conf": "medium",
+   "short": "Hyvin lyhyt ohje, kuten ”etureuna” tai ”pehmeästi”, joka kohdistaa huomion ennen laukausta yhteen asiaan.",
+   "long": "Moni valmentaja suosittelee valitsemaan harjoituksissa valmentajan kanssa kaksi tai kolme avainsanaa ja käyttämään kilpailussa samoja sanoja. Kiekkoon tai sen linjaan liittyvät avainsanat, kuten ”näe se” tai ”pysy linjalla”, sopivat ampumapaikalle yleensä paremmin kuin kehoon liittyvät ohjeet, kuten ”kyynärpää ylös”, jotka kuuluvat harjoituksiin. Moni ampuja sanoo sanan suoritusrutiinin samassa kohdassa, juuri ennen kiekon pyytämistä. Tulkki, joka kääntää valmentajan avainsanan, voi pitää koko harjoituksen ajan saman lyhyen vastineen, jotta ampuja voi käyttää sitä itsepuhelussaan."
+  },
+  "imagery": {
+   "term_local": "mielikuvaharjoittelu",
+   "alt": [
+    "visualisointi"
+   ],
+   "conf": "medium",
+   "short": "Mielessä harjoittelu: laukauksen näkeminen ja tunteminen mielessä oikean laukauksen nopeudella ja omin silmin, ampumatta sitä.",
+   "long": "Tutkimusten mukaan mielikuvaharjoittelu yleensä auttaa, erityisesti yhdessä oikean harjoittelun kanssa, mutta kukaan ei tiedä tarkalleen kuinka paljon. Se näyttää toimivan paremmin, kun se on lähellä todellista: sama ampumapaikka, samat kiekot, todellinen nopeus ja oma näkökulma. Näytön jälkeen moni ampuja käy kunkin kiekon mielessään läpi kerran tai kahdesti: aloituskohta, katsepiste, ase tulee linjalle, osuma. Harjoittele päässäsi, älä aseella: aseen nosto ja heilautus kiekon linjalla on ammunnan jäljittelyä, jota säännöt rajoittavat. Tutkimus ei ole haulikkoammunnasta; todennäköisesti se pätee myös Sporting™- ja Compak® Sporting -lajeihin."
+  },
+  "choking": {
+   "term_local": "paineen alla romahtaminen",
+   "alt": [
+    "choking",
+    "lukkiutuminen"
+   ],
+   "conf": "medium",
+   "short": "Ampuminen selvästi tavallista tasoa heikommin paineen vuoksi, usein kun alat tietoisesti ohjata taitoa, joka yleensä sujuu itsestään.",
+   "long": "Ei pidä sekoittaa piipun supistajaan (choke). Paineen alla ampuja voi alkaa tarkistaa aseen nostoa tai heilautusta vaihe vaiheelta, ja huoli vie katseen pois kiekosta. Merkkejä ovat muuttunut tempo, aseen noston tarkistelu, katse piipussa tai jyvässä ja tulosten seuraaminen. Apua voivat tuoda tavallinen suoritusrutiini ja tempo, yksi yksinkertainen kiekkoon liittyvä avainsana, suoritustavoitteet ja harjoittelu vähitellen kasvavan paineen alla. Suurin osa tutkimuksista on muista lajeista sekä olympiatrapista ja -skeetistä; todennäköisesti tämä pätee myös Sporting™- ja Compak® Sporting -lajeihin. Jos paine pilaa kilpailusi yhä uudelleen, urheilupsykologi voi auttaa."
+  },
+  "reset-routine": {
+   "term_local": "nollausrutiini",
+   "alt": [
+    "reset"
+   ],
+   "conf": "low",
+   "short": "Lyhyt, vakiintunut rutiini uudelleen aloittamiseen: ohilaukauksen jälkeen (uloshengitys, yksi korjaus, seuraava rutiini) tai kun sinua häiritään ennen kiekon pyytämistä.",
+   "long": "Tavallinen nollaus ohilaukauksen jälkeen kestää noin 5–10 sekuntia: tee ase turvalliseksi sääntöjen mukaisesti, hengitä kerran hitaasti ulos, anna itsellesi yksi korjaus kahdella tai kolmella sanalla, kuvittele oikea laukaus ja aloita sitten seuraava suoritusrutiini. Jätä ”miksi” kierroksen jälkeiseen aikaan: taidon purkaminen vaihe vaiheelta paineen alla voi häiritä sitä. Nollauksen on mahduttava kiekkojen väliseen aikarajaan. Jos sinua häiritään ennen kiekon pyytämistä, moni valmentaja suosittelee hengittämään ulos ja aloittamaan rutiinin alusta. Sama nollaus voi auttaa myös tuomarin päätöksen jälkeen, joka ei miellytä sinua."
+  },
+  "mobility": {
+   "term_local": "liikkuvuus",
+   "alt": [
+    "nivelten liikkuvuus"
+   ],
+   "conf": "medium",
+   "short": "Kuinka vapaasti nivelet liikkuvat: pystytkö kääntämään päätä, nostamaan käsiä ja kiertämään vartaloa niin paljon kuin laukaus vaatii, ilman ponnistelua.",
+   "long": "Ampujalle tärkeimpiä alueita ovat niska (pää laskeutuu tukille), hartiat (aseen nosto), yläselkä ja lantio, jotka kääntävät vartaloa kiekon mukana, sekä nilkat, jotka pitävät ampuma-asennon vakaana. Moni valmentaja suosittelee ennen ammuntaa pehmeitä dynaamisia liikkeitä, kuten hitaita pään käännöksiä, hartioiden pyörityksiä ja vartalon kiertoja, ja jättää pitkät staattiset venytykset ammunnan jälkeiseen aikaan. Liiku rauhallisesti ja lopeta, jos sattuu. Jos sinulla on vamma tai pitkäaikaista kipua, kokoa harjoitteesi lääkärin tai fysioterapeutin kanssa. Tämä ei ole lääketieteellinen neuvo."
+  },
+  "gun-rental": {
+   "term_local": "aseen vuokraus",
+   "alt": [
+    "vuokra-ase",
+    "lainahaulikko"
+   ],
+   "conf": "medium",
+   "short": "Radan aseen käyttö maksua vastaan, usein yhdessä ensimmäisen opetuskerran, patruunoiden ja suojainten kanssa, jotta aloittelija voi ampua ostamatta asetta."
+  },
+  "third-party-insurance": {
+   "term_local": "vastuuvakuutus",
+   "conf": "high",
+   "short": "Vakuutus vahingoista, joita saatat aiheuttaa muille ihmisille tai heidän omaisuudelleen; monet maat tai seurat vaativat sitä ampujilta."
+  },
+  "proof-mark": {
+   "term_local": "koeammuntaleima",
+   "alt": [
+    "tarkastusleima"
+   ],
+   "conf": "medium",
+   "short": "Leima, jonka virallinen asetarkastuslaitos lyö aseeseen koeammuttuaan sen vahvennetulla latauksella; monissa maissa tämä koeammunta on pakollinen."
+  },
+  "club-membership": {
+   "term_local": "seuran jäsenyys",
+   "alt": [
+    "jäsenmaksu"
+   ],
+   "conf": "high",
+   "short": "Jäsenyys ampumaseurassa: yleensä vuosimaksu, joka tuo usein halvemmat kiekot sekä pääsyn harjoituksiin ja seurakilpailuihin."
+  },
+  "reloaded-cartridge": {
+   "term_local": "jälleenladattu patruuna",
+   "alt": [
+    "jälleenlataus"
+   ],
+   "conf": "high",
+   "short": "Ammuttu hylsy, joka on täytetty uudelleen ruudilla, välitulpalla ja hauleilla, usein kotona; ei sallittu Sporting™- ja Compak® Sporting -kilpailuissa."
+  },
+  "taster-session": {
+   "term_local": "kokeilukerta",
+   "alt": [
+    "tutustumiskerta"
+   ],
+   "conf": "medium",
+   "short": "Aloittelijoiden tutustumiskerta radalla: valmentaja, radan ase, patruunat ja kiekot, jotta ammuntaa voi kokeilla ensimmäistä kertaa."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "melun aiheuttama kuulovaurio",
+   "conf": "high",
+   "short": "Kovien äänten, kuten laukausten, aiheuttama vähittäinen ja pysyvä sisäkorvan vaurio; se alkaa usein korkeista äänistä, eikä menetetty kuulo palaa."
+  },
+  "tinnitus": {
+   "term_local": "korvien soiminen",
+   "alt": [
+    "tinnitus"
+   ],
+   "conf": "high",
+   "short": "Soiminen, surina tai vihellys korvissa ilman ulkoista äänilähdettä; ammunnan jälkeen usein ensimmäinen varoitus siitä, että kuulosuojaus ei riittänyt."
+  },
+  "double-hearing-protection": {
+   "term_local": "kaksinkertainen kuulonsuojaus",
+   "conf": "medium",
+   "short": "Korvatulpat ja kuulosuojaimet yhtä aikaa lisävarmuuden vuoksi, erityisesti lapsilla ja äänekkäillä tai katetuilla ampumapaikoilla."
+  },
+  "presbyopia": {
+   "term_local": "ikänäkö",
+   "alt": [
+    "presbyopia"
+   ],
+   "conf": "high",
+   "short": "Iän myötä heikkenevä lähinäkö: noin 40 ikävuodesta alkaen lähelle näkeminen vaikeutuu, kun taas kaukonäkö voi pysyä hyvänä; jyvä voi sumentua."
+  },
+  "lead-hygiene": {
+   "term_local": "lyijyhygienia",
+   "conf": "medium",
+   "short": "Tavat, jotka vähentävät lyijyn pääsyä elimistöön: käsien ja kasvojen pesu, ei syömistä eikä tupakointia ampumapaikalla, erilliset ammuntavaatteet."
+  },
+  "heat-exhaustion": {
+   "term_local": "lämpöuupumus",
+   "conf": "high",
+   "short": "Kehon ylikuumeneminen, johon liittyy väsymystä, huimausta, päänsärkyä tai pahoinvointia; tarvitaan varjoa, vettä, viilennystä ja lepoa, ja lääkärin apua, jos se ei mene nopeasti ohi."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "elävien kyyhkysten ammunta",
+   "conf": "medium",
+   "short": "Historiallinen ammunta eläviin kyyhkysiin, jotka päästettiin laatikoista ampujan eteen; haulikkoammunnan esiaste. Vuonna 2003 FITASC keskeytti kaikki kilpailut, joissa maalina oli eläviä eläimiä."
+  },
+  "glass-ball": {
+   "term_local": "lasipallo",
+   "conf": "medium",
+   "short": "1800-luvulla maaliksi ilmaan heitetty lasipallo, varhainen vaihtoehto eläville linnuille; myöhemmin savikiekko korvasi sen."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Kansainvälinen ampumaurheiluliitto"
+   ],
+   "conf": "high",
+   "short": "International Shooting Sport Federation, joka johtaa olympialaisten ammuntalajeja, myös olympiatrapia ja -skeetiä; Sporting™ ja Compak® Sporting kuuluvat FITASCille."
+  },
+  "hydration": {
+   "term_local": "nesteytys",
+   "conf": "high",
+   "short": "Riittävä veden juominen; radalla se tarkoittaa pieniä, säännöllisiä kulauksia pitkin päivää, ei vasta kovan janon tullen."
+  },
+  "travel-fatigue": {
+   "term_local": "matkaväsymys",
+   "conf": "medium",
+   "short": "Itse matkasta johtuva väsymys: jäykät lihakset, vähäinen uni ja kuiva ilma; aikaerorasituksesta poiketen se ei riipu aikavyöhykkeistä ja menee usein ohi levolla."
+  },
+  "referee-certificate": {
+   "term_local": "tuomarikortti",
+   "alt": [
+    "tuomaripätevyys"
+   ],
+   "conf": "medium",
+   "short": "Todistus tai kortti, jonka kansallinen liitto myöntää kurssin ja kokeen jälkeen ja joka oikeuttaa tuomaroimaan; kansainvälisen kilpailun päätuomari tarvitsee FITASC-pätevyyden."
+  },
+  "assistant-referee": {
+   "term_local": "aputuomari",
+   "conf": "medium",
+   "short": "Tuomarin avustaja; Sporting™-lajissa henkilö, jolla ei ole vaadittavaa tuomarikorttia, voi toimia vain tässä tehtävässä ja vain juryn etukäteen antamalla luvalla."
+  },
+  "coaching-qualification": {
+   "term_local": "valmentajapätevyys",
+   "alt": [
+    "valmentajakoulutus"
+   ],
+   "conf": "medium",
+   "short": "Todiste siitä, että henkilö on käynyt valmentajakoulutuksen; maasta riippuu, kuka sen myöntää, millaisia tasoja on ja onko se pakollinen."
+  },
+  "volunteer": {
+   "term_local": "talkoolainen",
+   "alt": [
+    "vapaaehtoinen"
+   ],
+   "conf": "high",
+   "short": "Henkilö, joka auttaa kilpailussa ilman palkkaa: ilmoittautumiset, heittimien täyttö, pysäköinti, valokuvat, siivous tai, jos säännöt sallivat, kirjanpito tuomarin valvonnassa."
+  },
+  "tour-package": {
+   "term_local": "matkapaketti",
+   "alt": [
+    "paketti"
+   ],
+   "conf": "medium",
+   "short": "Kaikki, minkä ampuja ostaa ClayAway-matkalla yhdellä maksulla: harjoittelu ampumaradoilla, majoitus, kuljetukset, yhteinen ohjelma ja tarvittaessa tulkki (ClayAway on valmisteilla)."
+  },
+  "scoreboard": {
+   "term_local": "tulostaulu",
+   "conf": "high",
+   "short": "Tulostaulu: taulu tai näyttö, jolle ampujien kierrostulokset ja kokonaistulokset kirjataan kilpailun aikana ja sen jälkeen."
+  },
+  "spectator-area": {
+   "term_local": "katsomoalue",
+   "alt": [
+    "yleisöalue"
+   ],
+   "conf": "medium",
+   "short": "Järjestäjän katsojille osoittama alue, yleensä ampumapaikan takana tai aidan tai köyden takana, josta on turvallista katsoa, valokuvata ja kuvata."
+  },
+  "derogation": {
+   "term_local": "poikkeuslupa",
+   "conf": "medium",
+   "short": "Lupa poiketa säännöstä erityistapauksissa, esimerkiksi kilpailla muussa luokassa kuin ikä määrää; kysy kansalliselta liitoltasi."
+  },
+  "pitch": {
+   "term_local": "perän kulma",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low",
+   "short": "Kulma, jossa tukin pää (perälevy) on leikattu piippuihin nähden; se ratkaisee, asettuuko perä koko pinnaltaan olkapäätä vasten vai painaako se kärjellään tai kantapäällään."
+  },
+  "gas-operated": {
+   "term_local": "kaasutoiminen",
+   "alt": [
+    "kaasutoiminen puoliautomaatti"
+   ],
+   "conf": "high",
+   "short": "Puoliautomaattinen järjestelmä, jossa osa ruutikaasuista lataa aseen uudelleen; se jakaa rekyylin pidemmälle ajalle, joten moni ampuja kokee sen pehmeämpänä."
+  },
+  "ladies-cut": {
+   "term_local": "naisten malli",
+   "alt": [
+    "naisten leikkaus"
+   ],
+   "conf": "medium",
+   "short": "Ampumaliivin tai -takin leikkaus, jossa on otettu huomioon rintakehä ja hartioiden leveys, jotta pehmuste on siinä, mihin tukki asettuu."
+  },
+  "ladies-day": {
+   "term_local": "naisten päivä",
+   "alt": [
+    "ladies' day"
+   ],
+   "conf": "medium",
+   "short": "Seuran päivä, jolloin naiset harjoittelevat tai kokeilevat ammuntaa, usein valmentajan kanssa ja lainattavin asein."
+  },
+  "snap-cap": {
+   "term_local": "harjoituspatruuna",
+   "alt": [
+    "snap cap",
+    "iskuripatruuna"
+   ],
+   "conf": "medium",
+   "short": "Patruunajäljitelmä, joka suojaa iskureita, kun liipaisimesta painetaan tyhjällä aseella; kuivaharjoitteluun valmentajan tai asesepän neuvon mukaan."
+  },
+  "blot-out": {
+   "term_local": "kiekon peittäminen (blot out)",
+   "conf": "low",
+   "short": "Antaa piippujen peittää kiekko laukaisuhetkellä, kuten vasta- ja ylilentävillä vastakiekoilla usein käy; se on yleensä tarkoituksellista eikä virhe."
+  },
+  "show-pair": {
+   "term_local": "show pair",
+   "conf": "low",
+   "short": "Brittiläinen nimi kiekkoparin näyttämiselle ennen ammuntaa; FITASCin termein kaksoiskiekon näyttö."
+  },
+  "perfect-round": {
+   "term_local": "täysi kierros",
+   "alt": [
+    "25/25"
+   ],
+   "conf": "medium",
+   "short": "Kierros ilman ohilaukausta: Sporting™- ja Compak® Sporting -lajeissa kaikki 25 kiekkoa osuttu; ClayArena-profiili laskee, montako niitä ampujalla on."
+  },
+  "visitors-permit": {
+   "term_local": "vierailijalupa (visitor's permit)",
+   "conf": "low",
+   "short": "Brittiläinen lupa, jolla ulkomainen vierailija saa pitää haulikkoa Isossa-Britanniassa; hakemuksen paikalliselle poliisille tekee siellä asuva takaaja."
   }
  }
 };

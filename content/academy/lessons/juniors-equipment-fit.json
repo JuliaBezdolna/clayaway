@@ -1,0 +1,311 @@
+{
+  "id": "juniors-equipment-fit",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "parent",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "juniors-equipment-fit"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "gun-fit",
+    "length-of-pull",
+    "stock",
+    "comb",
+    "gun-fitter",
+    "youth-gun",
+    "gauge",
+    "over-and-under",
+    "semi-automatic",
+    "recoil",
+    "hearing-protection",
+    "safety-glasses",
+    "shooting-vest",
+    "gun-mount",
+    "dress-code"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-dress-code"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-dress-code"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-permitted-guns"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    }
+  ],
+  "facts": [
+    "gear.fitasc-max-gauge",
+    "gear.length-of-pull",
+    "rules.dress-shorts-length"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Equipment that fits a child",
+    "uk": "Спорядження за розміром дитини"
+  },
+  "summary": {
+    "en": "An adult gun is usually too long and heavy for a child. A shorter stock, a light gun, soft cartridges and protection in children's sizes make {{tm:sporting}} and {{tm:compak}} safer and more enjoyable.",
+    "uk": "Доросла рушниця дитині зазвичай задовга й заважка. Коротший приклад, легка рушниця, м’які патрони й захист дитячого розміру роблять {{tm:sporting}} і {{tm:compak}} безпечнішими й приємнішими."
+  },
+  "body": [
+    {
+      "k": "juniors-equipment-fit-p1",
+      "t": "p",
+      "en": "An adult gun is usually too long and too heavy for a child. The child leans back to hold it, the stock hits the cheek and shoulder, and after a few shots fear can set in. That is why {{term:gun-fit|gun fit}} matters even more for young shooters than for adults.",
+      "uk": "Доросла рушниця для дитини зазвичай задовга й заважка. Дитина відхиляється назад, щоб її втримати, приклад б’є в щоку й плече, і після кількох пострілів може з’явитися страх. Тому {{term:gun-fit|підгонка рушниці}} (gun fit) для юних стрільців навіть важливіша, ніж для дорослих."
+    },
+    {
+      "k": "juniors-equipment-fit-p2",
+      "t": "p",
+      "en": "The key measure is the {{term:length-of-pull|length of pull}}, {{fact:gear.length-of-pull}}. Youth models have a shorter, lighter stock, and some guns have an adjustable stock and {{term:comb|comb}}. As the child grows, the stock is lengthened with spacers, so check the fit each season with the coach or a {{term:gun-fitter|gun fitter}}.",
+      "uk": "Головна мірка — {{term:length-of-pull|довжина приклада}} (length of pull): {{fact:gear.length-of-pull}}. {{term:youth-gun|Юнацькі моделі}} (youth gun) мають коротший і легший приклад, а деякі рушниці — регульовані приклад і {{term:comb|гребінь}}. Коли дитина росте, приклад подовжують вставками, тож перевіряйте підгонку щосезону разом із тренером або {{term:gun-fitter|майстром-підгонщиком}}."
+    },
+    {
+      "k": "juniors-equipment-fit-p3",
+      "t": "p",
+      "en": "A light 20 gauge is a common choice, as an {{term:over-and-under|over-and-under}} or a {{term:semi-automatic|semi-automatic}}. A gas semi-automatic spreads the recoil over a longer time, so many shooters feel it as softer. Light-load cartridges also reduce recoil and make shooting more pleasant.",
+      "uk": "Часто обирають легку рушницю 20 калібру — {{term:over-and-under|вертикалку}} або {{term:semi-automatic|напівавтомат}}. Газовий напівавтомат розтягує віддачу в часі, тож багатьом вона здається м’якшою. Патрони з легкою наважкою теж зменшують віддачу, і стріляти приємніше."
+    },
+    {
+      "k": "juniors-equipment-fit-p4",
+      "t": "p",
+      "en": "Protection must fit too: children's ear muffs or plugs, safety glasses with impact-resistant lenses and a peaked cap. A {{term:shooting-vest|shooting vest}} must not be too big, or the gun will catch on it during the mount.",
+      "uk": "Захист теж має бути за розміром: дитячі навушники або беруші, {{term:safety-glasses|стрілецькі окуляри}} з ударостійкими лінзами, кепка з козирком. {{term:shooting-vest|Стрілецький жилет}} не повинен бути завеликим, інакше рушниця чіплятиметься за нього під час вкладки."
+    },
+    {
+      "k": "juniors-equipment-fit-p7",
+      "t": "rule",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch8-hearing-protection",
+      "en": "In {{tm:sporting}} the rules add one more point: children on the range outside the clubhouse must wear {{term:hearing-protection|hearing protection}} at all times. Many families keep this habit at any ground.",
+      "uk": "У {{tm:sporting}} правила додають ще одне: діти на території стенду поза клубним будинком мають бути в {{term:hearing-protection|засобах захисту слуху}} весь час. Багато родин дотримуються цієї звички на будь-якому стенді."
+    },
+    {
+      "k": "juniors-equipment-fit-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "Clothes should be comfortable and right for the weather. At competitions in both disciplines sandals are banned, and shorts must be long, ending {{fact:rules.dress-shorts-length}}. Closed shoes with good grip are needed in training too. More: {{lesson:gear-clothing-and-shoes}}.",
+      "uk": "Одяг — зручний і за погодою. На змаганнях в обох дисциплінах сандалі заборонені, а шорти мають бути довгими й закінчуватися {{fact:rules.dress-shorts-length}}. Закрите взуття з добрим зчепленням потрібне й на тренуванні. Докладніше: {{lesson:gear-clothing-and-shoes}}."
+    },
+    {
+      "k": "juniors-equipment-fit-p6",
+      "t": "tip",
+      "en": "Do not rush into buying expensive kit. Start with a club gun for hire, then look at second-hand youth models. A gun of their own is worth buying once the child's interest is steady, with the coach's advice. General fit: {{lesson:gun-fit}}.",
+      "uk": "Не поспішайте купувати дороге спорядження. Спершу беріть клубну рушницю напрокат, потім подивіться вживані юнацькі моделі. Власну рушницю варто купувати, коли інтерес дитини вже стійкий, і з порадою тренера. Про підгонку загалом: {{lesson:gun-fit}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "juniors-equipment-fit-kp1",
+      "en": "An adult gun is usually too long and heavy for a child.",
+      "uk": "Доросла рушниця дитині зазвичай задовга й заважка."
+    },
+    {
+      "k": "juniors-equipment-fit-kp2",
+      "en": "Length of pull is the key to fit; check it each season.",
+      "uk": "Довжина приклада — головне в підгонці; перевіряйте її щосезону."
+    },
+    {
+      "k": "juniors-equipment-fit-kp3",
+      "en": "A light 20 gauge and light-load cartridges.",
+      "uk": "Легка рушниця 20 калібру й патрони з легкою наважкою."
+    },
+    {
+      "k": "juniors-equipment-fit-kp4",
+      "en": "Ear protection, glasses and vest in children's sizes.",
+      "uk": "Захист слуху, окуляри й жилет — дитячого розміру.",
+      "checklist": true
+    },
+    {
+      "k": "juniors-equipment-fit-kp5",
+      "en": "Hire first; buy when the interest is steady.",
+      "uk": "Спершу прокат; купівля — коли інтерес стійкий."
+    }
+  ],
+  "did_you_know": {
+    "k": "juniors-equipment-fit-dyk",
+    "en": "The FITASC rules limit the gauge only from above, {{fact:gear.fitasc-max-gauge}}, so a 20-gauge gun is allowed in competition in both disciplines.",
+    "uk": "Правила FITASC обмежують калібр лише зверху ({{fact:gear.fitasc-max-gauge}}), тож рушниця 20 калібру на змаганнях дозволена в обох дисциплінах."
+  },
+  "quiz": [
+    {
+      "k": "juniors-equipment-fit-q1",
+      "q": {
+        "en": "What happens when a child shoots a gun that is too long?",
+        "uk": "Що відбувається, коли дитина стріляє із задовгої рушниці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They lean back and feel more recoil",
+          "uk": "Вона відхиляється назад і сильніше відчуває віддачу"
+        },
+        {
+          "k": "b",
+          "en": "Nothing changes; it is even easier",
+          "uk": "Нічого не змінюється, так навіть легше"
+        },
+        {
+          "k": "c",
+          "en": "The targets seem to fly more slowly",
+          "uk": "Мішені ніби летять повільніше"
+        },
+        {
+          "k": "d",
+          "en": "The pattern becomes much denser",
+          "uk": "Осип стає значно щільнішим"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A gun that is too long spoils the stance, makes recoil worse and can frighten the child.",
+        "uk": "Задовга рушниця псує стійку, посилює дію віддачі й може налякати дитину."
+      }
+    },
+    {
+      "k": "juniors-equipment-fit-q2",
+      "q": {
+        "en": "What is the length of pull?",
+        "uk": "Що таке довжина приклада (length of pull)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The length of the barrels to the muzzle",
+          "uk": "Довжина стволів до дула"
+        },
+        {
+          "k": "b",
+          "en": "From the trigger to the middle of the butt pad",
+          "uk": "Відстань від спускового гачка до середини затильника"
+        },
+        {
+          "k": "c",
+          "en": "The weight of the gun with its chokes",
+          "uk": "Вага рушниці разом із чоками"
+        },
+        {
+          "k": "d",
+          "en": "From the rib down to the top of the comb",
+          "uk": "Відстань від планки до верху гребеня"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "This is the measure most often changed to make a gun fit a child.",
+        "uk": "Саме цю мірку найчастіше змінюють, щоб рушниця пасувала дитині."
+      }
+    },
+    {
+      "k": "juniors-equipment-fit-q3",
+      "q": {
+        "en": "When is it worth buying a child their own gun?",
+        "uk": "Коли варто купувати дитині власну рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Before the very first session at a ground",
+          "uk": "Ще до першого заняття на стенді"
+        },
+        {
+          "k": "b",
+          "en": "Only a brand-new and very expensive model",
+          "uk": "Лише нову й дуже дорогу модель"
+        },
+        {
+          "k": "c",
+          "en": "Once interest is steady, with a coach's advice",
+          "uk": "Коли інтерес стійкий, і з порадою тренера"
+        },
+        {
+          "k": "d",
+          "en": "As soon as the child can lift an adult gun",
+          "uk": "Щойно дитина зможе підняти дорослу рушницю"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Hire and second-hand models first; buy once it is clear the child will carry on.",
+        "uk": "Спершу прокат і вживані моделі; купівля — коли зрозуміло, що дитина продовжить."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "ca46943c",
+    "summary": "eb881e58",
+    "juniors-equipment-fit-p1": "b6402cc3",
+    "juniors-equipment-fit-p2": "0b937322",
+    "juniors-equipment-fit-p3": "62ae0190",
+    "juniors-equipment-fit-p4": "b7289c0c",
+    "juniors-equipment-fit-p7": "62dba988",
+    "juniors-equipment-fit-p5": "97c97871",
+    "juniors-equipment-fit-p6": "e0618cad",
+    "juniors-equipment-fit-kp1": "34b77035",
+    "juniors-equipment-fit-kp2": "5bf72aa4",
+    "juniors-equipment-fit-kp3": "ed30b802",
+    "juniors-equipment-fit-kp4": "072ab1c0",
+    "juniors-equipment-fit-kp5": "8087d16c",
+    "juniors-equipment-fit-dyk": "854a04c5",
+    "juniors-equipment-fit-q1": "cedce39c",
+    "juniors-equipment-fit-q2": "9fbee996",
+    "juniors-equipment-fit-q3": "a37e7a90"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

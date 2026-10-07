@@ -1,0 +1,378 @@
+{
+  "id": "juniors-safety-supervision",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "parent",
+    "coach",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "juniors-safety-supervision"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "safety",
+    "coach",
+    "muzzle",
+    "cease-fire",
+    "hearing-protection",
+    "safety-glasses",
+    "junior",
+    "layout",
+    "referee",
+    "coaching"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-gun-handling"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-carrying"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    }
+  ],
+  "facts": [
+    "gear.gunshot-peak-db",
+    "gear.impulse-noise-limits"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "NHCA — Position statement: recreational firearm noise (2017): shotguns 160–170 dB peak, limits 140 dB for adults and 120 dB for children",
+        "uk": "NHCA — позиція щодо шуму від спортивної та мисливської зброї (2017): рушниці 160–170 дБ пікового рівня, межі 140 дБ для дорослих і 120 дБ для дітей"
+      },
+      "url": "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — International sports rules: Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — міжнародні правила: Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Safety and supervision",
+    "uk": "Безпека і нагляд"
+  },
+  "summary": {
+    "en": "In lessons and training a child shoots only under the direct supervision of a coach, by the same safety rules as adults, and always with ear and eye protection.",
+    "uk": "На заняттях і тренуваннях дитина стріляє лише під безпосереднім наглядом тренера, за тими самими правилами безпеки, що й дорослі, і завжди із захистом слуху й очей."
+  },
+  "body": [
+    {
+      "k": "juniors-safety-supervision-p1",
+      "t": "p",
+      "en": "For young shooters the safety rules are the same as for adults, but supervision is closer. In lessons and training a {{term:coach|coach}} or instructor stands right next to the child on the stand, close enough to take hold of the gun at any moment. A child is never left alone with a gun, at the shooting ground or at home.",
+      "uk": "Для юних стрільців правила безпеки ті самі, що й для дорослих, але нагляд пильніший. На заняттях і тренуваннях поруч із дитиною на стрілецькому місці стоїть {{term:coach|тренер}} або інструктор — так близько, щоб будь-якої миті взяти рушницю. Дитину ніколи не залишають саму з рушницею — ні на стенді, ні вдома."
+    },
+    {
+      "k": "juniors-safety-supervision-competition",
+      "t": "p",
+      "disc": "both",
+      "en": "A competition works differently: the {{term:referee|referee}} runs the stand, and nobody may {{term:coaching|coach}} the shooter. Age limits and supervision rules for minors depend on your country’s law and on the ground’s own rules: see {{lesson:juniors-documents-licences}}.",
+      "uk": "На змаганні все інакше: стрілецьким місцем керує {{term:referee|суддя}}, і {{term:coaching|підказувати}} стрільцеві не можна нікому. Вікові межі й правила нагляду за неповнолітніми залежать від закону вашої країни та від правил самого стенду: див. {{lesson:juniors-documents-licences}}."
+    },
+    {
+      "k": "juniors-safety-supervision-p2",
+      "t": "p",
+      "en": "Before the first shot, the child should know the core rules from {{lesson:safety-core-rules}}. The {{term:muzzle|muzzle}} points in a safe direction. The gun stays open when not shooting. Cartridges go in only on the stand, when the coach says so. On “Stop!” ({{term:cease-fire|cease fire}}) the gun is opened and everyone waits.",
+      "uk": "Ще до першого пострілу дитина має знати головні правила з уроку {{lesson:safety-core-rules}}. {{term:muzzle|Дуло}} — завжди в безпечний бік. Рушниця відкрита, коли не стріляєш. Набої — лише на стрілецькому місці й лише за командою тренера. На «Стоп!» ({{term:cease-fire|cease fire}}) рушницю відкривають і чекають."
+    },
+    {
+      "k": "juniors-safety-supervision-check",
+      "t": "tip",
+      "en": "A useful check: ask the child to explain these rules in their own words before each of the first sessions.",
+      "uk": "Корисна перевірка: перед кожним із перших занять попросіть дитину пояснити ці правила своїми словами."
+    },
+    {
+      "k": "juniors-safety-supervision-p3",
+      "t": "p",
+      "en": "A child who shoots always wears {{term:hearing-protection|hearing protection}} and {{term:safety-glasses|safety glasses}}, like any shooter. For children who come to watch near a {{term:layout|layout}} (the shooting area with its stands and traps), the rules differ a little between the disciplines.",
+      "uk": "Дитина, яка стріляє, завжди носить {{term:hearing-protection|засоби захисту слуху}} й {{term:safety-glasses|стрілецькі окуляри}}, як і будь-який стрілець. Для дітей, які прийшли подивитися й стоять біля {{term:layout|майданчика}} (стрілецької зони з її стрілецькими місцями й машинками), правила дисциплін трохи різняться."
+    },
+    {
+      "k": "juniors-safety-supervision-rules",
+      "t": "compare",
+      "disc": "both",
+      "en": "Children near the layout",
+      "uk": "Діти біля майданчика",
+      "sporting": {
+        "en": "Children at the shooting ground, outside the clubhouse, wear hearing protection at all times. Glasses are compulsory for anyone close to a stand.",
+        "uk": "Діти на території стенду поза клубним будинком завжди мають бути в засобах захисту слуху. Окуляри обов’язкові для всіх, хто стоїть біля стрілецького місця.",
+        "rule_ref": "sporting:ch8-hearing-protection"
+      },
+      "compak": {
+        "en": "Hearing protection is compulsory for all spectators near the layout, children included. Glasses are compulsory for competitors, referees and staff.",
+        "uk": "Захист слуху обов’язковий для всіх глядачів біля майданчика, зокрема дітей. Окуляри обов’язкові для учасників, суддів і персоналу.",
+        "rule_ref": "compak:ch18-hearing"
+      }
+    },
+    {
+      "k": "juniors-safety-supervision-size",
+      "t": "tip",
+      "en": "Buy protection in children’s sizes: muffs that are too big slip and protect poorly. Many coaches also ask children to wear glasses whenever they stand near a stand, whatever the discipline.",
+      "uk": "Купуйте захист дитячих розмірів: завеликі навушники сповзають і погано захищають. Багато тренерів також просять дітей носити окуляри щоразу, коли вони стоять біля стрілецького місця, незалежно від дисципліни."
+    },
+    {
+      "k": "juniors-safety-supervision-p4",
+      "t": "p",
+      "en": "Tiredness is the enemy of safety. When a child is tired, cold or too hot, attention drops, and then it is better to stop. Plan short sessions with breaks, and bring water, a hat and a snack.",
+      "uk": "Втома — ворог безпеки. Коли дитина втомилася, змерзла чи перегрілася, увага падає, і тоді краще зупинитися. Плануйте короткі заняття з перервами, беріть воду, головний убір і перекус."
+    },
+    {
+      "k": "juniors-safety-supervision-p5",
+      "t": "p",
+      "en": "At home, store the gun and cartridges as the law of your country requires. Usually that means a locked safe, cartridges kept separately and keys held only by adults. A child has no access to guns without an adult.",
+      "uk": "Удома рушницю й набої зберігають так, як вимагає закон вашої країни. Зазвичай це замкнений сейф, набої окремо, а ключі — лише в дорослих. Дитина не має доступу до зброї без дорослого."
+    },
+    {
+      "k": "juniors-safety-supervision-p6",
+      "t": "p",
+      "en": "Parents at the ground set an example too. Stand behind the stand, keep quiet during a shot, do not touch other people’s guns and wear ear and eye protection yourself. Children often copy what they see adults do.",
+      "uk": "Батьки на стенді теж показують приклад. Стійте позаду стрілецького місця, не розмовляйте під час пострілу, не торкайтеся чужих рушниць і самі носіть захист слуху й очей. Діти часто повторюють те, що бачать у дорослих."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "juniors-safety-supervision-kp1",
+      "en": "In lessons and training, a coach stands right next to the child on the stand",
+      "uk": "На заняттях і тренуваннях поруч із дитиною на стрілецькому місці стоїть тренер",
+      "checklist": true
+    },
+    {
+      "k": "juniors-safety-supervision-kp2",
+      "en": "The same safety rules as for adults, explained before the first shot",
+      "uk": "Ті самі правила безпеки, що й для дорослих, — пояснені до першого пострілу",
+      "checklist": true
+    },
+    {
+      "k": "juniors-safety-supervision-kp3",
+      "en": "Ear and eye protection in a child’s size",
+      "uk": "Захист слуху й очей дитячого розміру",
+      "checklist": true
+    },
+    {
+      "k": "juniors-safety-supervision-kp4",
+      "en": "A tired child means the session is over",
+      "uk": "Втомилася дитина — заняття закінчується",
+      "checklist": true
+    },
+    {
+      "k": "juniors-safety-supervision-kp5",
+      "en": "At home, guns and cartridges are locked away as the law requires",
+      "uk": "Удома зброя і набої зберігаються під замком, як вимагає закон",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "juniors-safety-supervision-dyk",
+    "en": "A shotgun shot reaches {{fact:gear.gunshot-peak-db}} (decibels, dB, measure loudness). For one short, sharp bang like this the upper limits are {{fact:gear.impulse-noise-limits}}. The adult limit comes from workplace safety rules, and the WHO recommends the one for children. That is why children who only watch need ear protection too.",
+    "uk": "Постріл із рушниці сягає {{fact:gear.gunshot-peak-db}} (децибели, дБ, — міра гучності). Для одного такого короткого різкого удару граничними вважають {{fact:gear.impulse-noise-limits}}. Межа для дорослих — із правил безпеки праці, а межу для дітей рекомендує ВООЗ. Тому захист слуху потрібен і дітям, які лише дивляться."
+  },
+  "quiz": [
+    {
+      "k": "juniors-safety-supervision-q1",
+      "q": {
+        "en": "Where should the coach be while a child is shooting in a training session?",
+        "uk": "Де має бути тренер, коли дитина стріляє на тренуванні?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Behind the squad, where he can watch the whole stand",
+          "uk": "Позаду групи, звідки видно все стрілецьке місце"
+        },
+        {
+          "k": "b",
+          "en": "Right beside the child, able to take the gun at once",
+          "uk": "Поруч із дитиною, щоб одразу взяти рушницю"
+        },
+        {
+          "k": "c",
+          "en": "At the trap, ready to stop the targets",
+          "uk": "Біля машинки, щоб зупинити мішені"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In training, direct supervision means the coach stands next to the child and can step in at once. In a competition the referee runs the stand.",
+        "uk": "На тренуванні безпосередній нагляд означає, що тренер стоїть поруч і може відразу втрутитися. На змаганні стрілецьким місцем керує суддя."
+      }
+    },
+    {
+      "k": "juniors-safety-supervision-q2",
+      "q": {
+        "en": "Your daughter only comes to watch a competition. Does she need hearing protection?",
+        "uk": "Ваша донька лише прийшла подивитися на змагання. Чи потрібен їй захист слуху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, the rules require it near the layout",
+          "uk": "Так, правила вимагають його біля майданчика"
+        },
+        {
+          "k": "b",
+          "en": "No, only the people who are shooting need it",
+          "uk": "Ні, він потрібен лише тим, хто стріляє"
+        },
+        {
+          "k": "c",
+          "en": "Only if she stands right next to the stand",
+          "uk": "Лише якщо вона стоїть просто біля стрілецького місця"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Both rulebooks require hearing protection for spectators near the layout; in {{tm:sporting}} children outside the clubhouse wear it at all times.",
+        "uk": "Правила обох дисциплін вимагають захисту слуху від глядачів біля майданчика; у {{tm:sporting}} діти поза клубним будинком носять його завжди."
+      }
+    },
+    {
+      "k": "juniors-safety-supervision-q3",
+      "q": {
+        "en": "What should you do when a child gets tired during a session?",
+        "uk": "Що робити, коли дитина втомилася під час заняття?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Add one more round to build character",
+          "uk": "Додати ще одну серію, щоб загартувати характер"
+        },
+        {
+          "k": "b",
+          "en": "Switch to a harder target to keep interest",
+          "uk": "Дати складнішу мішень, щоб не нудьгувала"
+        },
+        {
+          "k": "c",
+          "en": "Stop the session: tiredness lowers attention",
+          "uk": "Зупинити заняття: втома знижує увагу"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "When attention drops the risk of a gun-handling mistake rises, so it is better to stop.",
+        "uk": "Коли падає увага, зростає ризик помилки з рушницею, тому краще закінчити."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "juniors-safety-supervision-q4",
+      "q": {
+        "en": "How are guns and cartridges usually stored at home?",
+        "uk": "Як зазвичай зберігають рушницю й набої вдома?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In the gun slip under the bed, ready for training",
+          "uk": "У чохлі під ліжком, щоб були напоготові"
+        },
+        {
+          "k": "b",
+          "en": "In a cupboard the child can open, but unloaded",
+          "uk": "У шафі, яку дитина може відчинити, але розрядженими"
+        },
+        {
+          "k": "c",
+          "en": "In a locked safe, cartridges apart, keys with adults",
+          "uk": "У замкненому сейфі, набої окремо, ключі в дорослих"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Store guns as the law of your country requires; usually a locked safe, cartridges separately, keys only with adults.",
+        "uk": "Зберігайте зброю так, як вимагає закон вашої країни; зазвичай це замкнений сейф, набої окремо, ключі лише в дорослих."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "e29dfa60",
+    "summary": "7db0d75c",
+    "juniors-safety-supervision-p1": "546c3a8b",
+    "juniors-safety-supervision-competition": "b6dbcd3a",
+    "juniors-safety-supervision-p2": "f031ce32",
+    "juniors-safety-supervision-check": "c63339ca",
+    "juniors-safety-supervision-p3": "2f11a7b1",
+    "juniors-safety-supervision-rules": "f51238df",
+    "juniors-safety-supervision-size": "803d385d",
+    "juniors-safety-supervision-p4": "3a38a6fe",
+    "juniors-safety-supervision-p5": "b9fff6f2",
+    "juniors-safety-supervision-p6": "b239fa03",
+    "juniors-safety-supervision-kp1": "afc6a4a0",
+    "juniors-safety-supervision-kp2": "7429e451",
+    "juniors-safety-supervision-kp3": "90bd3a28",
+    "juniors-safety-supervision-kp4": "47390e59",
+    "juniors-safety-supervision-kp5": "d9cd9947",
+    "juniors-safety-supervision-dyk": "c7fd201d",
+    "juniors-safety-supervision-q1": "7dfdb556",
+    "juniors-safety-supervision-q2": "25ba26f8",
+    "juniors-safety-supervision-q3": "f0410d77",
+    "juniors-safety-supervision-q4": "066a3b03"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

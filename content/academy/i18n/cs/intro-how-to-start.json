@@ -1,0 +1,78 @@
+{
+  "id": "intro-how-to-start",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "a300459d",
+    "summary": "520c217f",
+    "intro-how-to-start-p1": "300f4253",
+    "intro-how-to-start-p2": "793a0173",
+    "intro-how-to-start-p3": "34e0a999",
+    "intro-how-to-start-p4": "4f81056b",
+    "intro-how-to-start-warn": "6813df25",
+    "intro-how-to-start-p5": "5dc9f970",
+    "intro-how-to-start-p6": "d37bb6a9",
+    "intro-how-to-start-kp1": "1028266a",
+    "intro-how-to-start-kp2": "b4742211",
+    "intro-how-to-start-kp3": "83e57897",
+    "intro-how-to-start-kp4": "25c7088a",
+    "intro-how-to-start-dyk": "a3136282",
+    "intro-how-to-start-q1": "443b3782",
+    "intro-how-to-start-q2": "3e54e5e8",
+    "intro-how-to-start-q3": "fe33e0cc"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "body": {
+    "intro-how-to-start-p1": "Začněte hledáním střelnice nebo klubu poblíž. Zavolejte nebo napište a zeptejte se, zda pořádají lekce pro začátečníky. Mnohé střelnice nabízejí zkušební lekci s {{term:coach|trenérem}}, kde je zbraň i náboje v ceně.",
+    "intro-how-to-start-p2": "První lekci je rozumné absolvovat s trenérem. Trenér vysvětlí pravidla bezpečnosti a vybere zbraň podle vaší postavy. Ukáže vám také, jak stát a jak dělat {{term:gun-mount|zalícení}}: přiložení {{term:stock|pažby}} (zadní části zbraně) k líci a rameni. Začnete s jednoduchými, pomalými terči, takže rychle uvidíte pokrok a vyhnete se špatným návykům. Více: {{lesson:training-first-lessons-and-coach}}.",
+    "intro-how-to-start-p3": "Vlastní zbraň na začátku nepotřebujete. Na mnoha střelnicích si zbraň můžete půjčit a střílet pod dohledem instruktora. Zákony o zbraních a střelivu se v jednotlivých zemích liší. Někde může začátečník střílet z klubové zbraně pod dohledem bez povolení, jinde jsou potřeba doklady. Zeptejte se na střelnici předem.",
+    "intro-how-to-start-p4": "Co si vzít s sebou: pohodlné oblečení podle počasí, uzavřenou obuv a čepici. Vezměte si doklad totožnosti, pokud ho střelnice vyžaduje.",
+    "intro-how-to-start-warn": "Noste {{term:safety-glasses|střelecké brýle}} a {{term:hearing-protection|ochranu sluchu}} (sluchátka nebo {{term:earplugs|špunty do uší}}) už od prvního výstřelu. Pravidla závodů obojí vyžadují. Pokud nic nemáte, střelnice to obvykle půjčí. Více: {{lesson:safety-eye-ear-protection}}.",
+    "intro-how-to-start-p5": "S koupí zbraně nespěchejte. Nejdřív vyzkoušejte různé modely a poraďte se s trenérem. Pro závody FITASC potřebujete brokovnici s hladkým vývrtem hlavní (bez vnitřního drážkování), {{fact:gear.fitasc-max-gauge}}; užší ráže, například 20 nebo 28, jsou povolené. Hlavně musí být {{fact:gear.fitasc-min-barrel}}, a opakovací zbraně s posuvným předpažbím (pump-action) nejsou povolené. Více: {{lesson:gun-first-gun}}.",
+    "intro-how-to-start-p6": "Po několika lekcích zkuste {{term:club-shoot|klubový závod}} pro začátečníky. Je to dobrý způsob, jak nasát atmosféru sportu, poznat lidi a vidět, jak fungují {{term:referee|rozhodčí}} a {{term:squad|skupiny}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-how-to-start-kp1": "Začněte na střelnici s trenérem a zkušební lekcí.",
+    "intro-how-to-start-kp2": "Zbraň si můžete půjčit; zákony o zbraních závisí na zemi.",
+    "intro-how-to-start-kp3": "Střelecké brýle a ochrana sluchu od prvního výstřelu.",
+    "intro-how-to-start-kp4": "Zbraň kupujte až po vyzkoušení několika modelů a poradě s trenérem."
+  },
+  "quiz": {
+    "intro-how-to-start-q1": {
+      "q": "Jaký první krok tato lekce doporučuje?",
+      "options": {
+        "a": "Koupit zbraň a trénovat sám",
+        "b": "Zkušební lekci s trenérem",
+        "c": "Podívat se na videa a rovnou na mistrovství"
+      },
+      "explain": "Trenér od začátku učí bezpečnost a správné základy."
+    },
+    "intro-how-to-start-q2": {
+      "q": "Potřebuje začátečník vlastní zbraň?",
+      "options": {
+        "a": "Ano, střelnice zbraně nepůjčují",
+        "b": "Ano, a musí to být opakovačka",
+        "c": "Ne, mnoho střelnic zbraně půjčuje"
+      },
+      "explain": "Mnoho střelnic má klubové zbraně, z nichž se střílí pod dohledem; pravidla závisí na zákonech dané země."
+    },
+    "intro-how-to-start-q3": {
+      "q": "Která zbraň NENÍ povolena na závodech FITASC?",
+      "options": {
+        "a": "Opakovací zbraň s posuvným předpažbím",
+        "b": "Kozlice ráže 12",
+        "c": "Samonabíjecí brokovnice"
+      },
+      "explain": "Opakovací zbraně s posuvným předpažbím nejsou povolené. {{term:semi-automatic|Samonabíjecí brokovnice}} povolená je, ale smí být nabitá nejvýše dvěma náboji."
+    }
+  },
+  "title": "Jak začít",
+  "summary": "Klub, trenér, první lekce a půjčená zbraň: krok za krokem pro každého, kdo chce vyzkoušet {{tm:sporting}} nebo {{tm:compak}}.",
+  "did_you_know": "Zbraně pro brokový sport se často přizpůsobují střelci: upravuje se délka a výška pažby, aby zbraň „sedla“ přirozeně. Tomu se říká {{term:gun-fit|přizpůsobení pažby}}."
+}

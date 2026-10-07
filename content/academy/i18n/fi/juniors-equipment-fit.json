@@ -1,0 +1,83 @@
+{
+  "id": "juniors-equipment-fit",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "ca46943c",
+    "summary": "eb881e58",
+    "juniors-equipment-fit-p1": "b6402cc3",
+    "juniors-equipment-fit-p2": "0b937322",
+    "juniors-equipment-fit-p3": "62ae0190",
+    "juniors-equipment-fit-p4": "b7289c0c",
+    "juniors-equipment-fit-p7": "62dba988",
+    "juniors-equipment-fit-p5": "97c97871",
+    "juniors-equipment-fit-p6": "e0618cad",
+    "juniors-equipment-fit-kp1": "34b77035",
+    "juniors-equipment-fit-kp2": "5bf72aa4",
+    "juniors-equipment-fit-kp3": "ed30b802",
+    "juniors-equipment-fit-kp4": "072ab1c0",
+    "juniors-equipment-fit-kp5": "8087d16c",
+    "juniors-equipment-fit-dyk": "854a04c5",
+    "juniors-equipment-fit-q1": "cedce39c",
+    "juniors-equipment-fit-q2": "9fbee996",
+    "juniors-equipment-fit-q3": "a37e7a90"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Lapselle sopiva varustus",
+  "summary": "Aikuisen ase on lapselle tavallisesti liian pitkä ja raskas. Lyhyempi tukki, kevyt ase, pehmeät patruunat ja lasten kokoiset suojat tekevät {{tm:sporting}}- ja {{tm:compak}}-lajeista turvallisempia ja mukavampia.",
+  "body": {
+    "juniors-equipment-fit-p1": "Aikuisen ase on lapselle tavallisesti liian pitkä ja liian raskas. Lapsi nojaa taaksepäin pitääkseen sitä, tukki osuu poskeen ja olkapäähän, ja muutaman laukauksen jälkeen voi syntyä pelko. Siksi {{term:gun-fit|aseen sovitus}} (gun fit) on nuorille ampujille jopa tärkeämpi kuin aikuisille.",
+    "juniors-equipment-fit-p2": "Tärkein mitta on {{term:length-of-pull|perän pituus}} (length of pull): {{fact:gear.length-of-pull}}. {{term:youth-gun|Nuorten mallit}} (youth gun) ovat tukiltaan lyhyempiä ja kevyempiä, ja joissain aseissa on säädettävä tukki ja {{term:comb|poskipakka}}. Lapsen kasvaessa tukkia pidennetään välikkeillä, niin tarkista sovitus joka kausi valmentajan tai {{term:gun-fitter|aseen sovittajan}} kanssa.",
+    "juniors-equipment-fit-p3": "Kevyt 20 kaliiperi on yleinen valinta, {{term:over-and-under|päällekkäispiippuisena}} tai {{term:semi-automatic|puoliautomaattina}}. Kaasutoiminen puoliautomaatti jakaa rekyylin pidemmälle ajalle, niin monista se tuntuu pehmeämmältä. Kevyen latauksen patruunat vähentävät rekyyliä myös, ja ampuminen on mukavampaa.",
+    "juniors-equipment-fit-p4": "Suojienkin on sovittava: lasten kuulosuojaimet tai korvatulpat, {{term:safety-glasses|ampumalasit}} iskunkestävillä linsseillä ja lippalakki. {{term:shooting-vest|Ampumaliivi}} ei saa olla liian suuri, muuten ase tarttuu siihen noston aikana.",
+    "juniors-equipment-fit-p7": "{{tm:sporting}}-lajissa säännöt lisäävät vielä yhden kohdan: lasten on käytettävä {{term:hearing-protection|kuulosuojaimia}} radalla seuratalon ulkopuolella aina. Monet perheet pitävät tästä tavasta kiinni millä tahansa radalla.",
+    "juniors-equipment-fit-p5": "Vaatteiden on oltava mukavat ja sään mukaiset. Kilpailuissa molemmissa lajeissa sandaalit on kielletty, ja shortsien on oltava pitkät, päättyen {{fact:rules.dress-shorts-length}}. Umpinaiset, hyvin pitävät kengät tarvitaan myös harjoituksissa. Lisää: {{lesson:gear-clothing-and-shoes}}.",
+    "juniors-equipment-fit-p6": "Älä hätiköi ostamaan kallista varustusta. Aloita seuran vuokra-aseella, sitten katso käytettyjä nuorten malleja. Omaa asetta kannattaa ostaa, kun lapsen kiinnostus on vakiintunut, valmentajan neuvoilla. Yleisesti sovituksesta: {{lesson:gun-fit}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "juniors-equipment-fit-kp1": "Aikuisen ase on lapselle tavallisesti liian pitkä ja raskas.",
+    "juniors-equipment-fit-kp2": "Perän pituus on sovituksen avain; tarkista se joka kausi.",
+    "juniors-equipment-fit-kp3": "Kevyt 20 kaliiperi ja kevyen latauksen patruunat.",
+    "juniors-equipment-fit-kp4": "Kuulosuojaimet, lasit ja liivi lasten kokoisina.",
+    "juniors-equipment-fit-kp5": "Vuokraa ensin; osta, kun kiinnostus on vakiintunut."
+  },
+  "did_you_know": "FITASCin säännöt rajoittavat kaliiperia vain ylhäältä ({{fact:gear.fitasc-max-gauge}}), niin 20 kaliiperin ase on sallittu kilpailussa molemmissa lajeissa.",
+  "quiz": {
+    "juniors-equipment-fit-q1": {
+      "q": "Mitä tapahtuu, kun lapsi ampuu liian pitkällä aseella?",
+      "options": {
+        "a": "Hän nojaa taaksepäin ja tuntee enemmän rekyyliä",
+        "b": "Mikään ei muutu, se on jopa helpompaa",
+        "c": "Kiekot näyttävät lentävän hitaammin",
+        "d": "Osuma-alue tiivistyy huomattavasti"
+      },
+      "explain": "Liian pitkä ase pilaa asennon, pahentaa rekyyliä ja voi pelottaa lasta."
+    },
+    "juniors-equipment-fit-q2": {
+      "q": "Mikä on perän pituus (length of pull)?",
+      "options": {
+        "a": "Piippujen pituus piipun suuhun",
+        "b": "Etäisyys liipaisimesta perälevyn keskikohtaan",
+        "c": "Aseen paino supistajineen",
+        "d": "Etäisyys kiskosta poskipakan yläreunaan"
+      },
+      "explain": "Tätä mittaa muutetaan useimmiten, kun ase sovitetaan lapselle."
+    },
+    "juniors-equipment-fit-q3": {
+      "q": "Milloin kannattaa ostaa lapselle oma ase?",
+      "options": {
+        "a": "Ennen ensimmäistä tuntia radalla",
+        "b": "Vain täysin uusi ja hyvin kallis malli",
+        "c": "Kun kiinnostus on vakiintunut, valmentajan neuvoilla",
+        "d": "Heti kun lapsi jaksaa nostaa aikuisen aseen"
+      },
+      "explain": "Ensin vuokraus ja käytetyt mallit; ostaminen, kun on selvää, että lapsi jatkaa."
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "rules-doubles",
+  "lang": "de",
+  "base_rev": 1,
+  "h": {
+    "title": "bf6d3d5f",
+    "summary": "dfdb2ad6",
+    "rules-doubles-p1": "f5cf641d",
+    "sporting-singles-doubles-p1": "b6444c9c",
+    "rules-doubles-p2": "c6919899",
+    "rules-doubles-cmp1": "350fd347",
+    "sporting-singles-doubles-p2": "5a56411c",
+    "rules-doubles-cmp2": "24dc2faf",
+    "rules-doubles-accidental": "2cbe5f9a",
+    "rules-doubles-cmp3": "0437dae8",
+    "rules-doubles-cmp4": "2d15fb86",
+    "sporting-singles-doubles-p4": "88696d63",
+    "rules-doubles-p7": "5bdcbd0b",
+    "compak-singles-doubles-p1": "329c4e29",
+    "sporting-singles-doubles-p5": "4b1860bf",
+    "sporting-singles-doubles-ph1": "934fba36",
+    "sporting-singles-doubles-ph2": "c178e9f1",
+    "sporting-singles-doubles-ph3": "ca41eb94",
+    "sporting-singles-doubles-ph4": "95a6f236",
+    "compak-singles-doubles-ph1": "70594be5",
+    "compak-singles-doubles-ph2": "188b25c7",
+    "compak-singles-doubles-ph3": "56ec4bfd",
+    "compak-singles-doubles-ph4": "806b2e03",
+    "rules-doubles-kp1": "db855605",
+    "sporting-singles-doubles-kp2": "322f41a9",
+    "compak-singles-doubles-kp2": "dce8c621",
+    "compak-singles-doubles-kp1": "77c28c5b",
+    "sporting-singles-doubles-kp3": "7de76b48",
+    "rules-doubles-dyk": "c0b4d4b3",
+    "rules-doubles-q1": "5a5e9eaa",
+    "rules-doubles-q2": "ab4333ed",
+    "rules-doubles-q3": "783fc72a",
+    "sporting-singles-doubles-q1": "12970eeb",
+    "sporting-singles-doubles-q2": "507f2951",
+    "sporting-singles-doubles-q3": "d1d794df",
+    "compak-singles-doubles-q1": "c458b419",
+    "compak-singles-doubles-q2": "afbfdbad",
+    "compak-singles-doubles-q3": "04513eaa",
+    "rules-doubles-q4": "0493a8c2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Doubletten: wie sie geschossen und gewertet werden",
+  "summary": "Die Arten von Doubletten in {{tm:sporting}} und {{tm:compak}}, wie viele Patronen Sie auf jede Scheibe abgeben dürfen, und was passiert, wenn ein Schuss beide trifft.",
+  "body": {
+    "rules-doubles-p1": "Eine {{term:double|Doublette}} sind zwei Scheiben, die auf einen Abruf geschossen werden. Beide Disziplinen haben Doubletten auf Schuss und Simultandoubletten; nur {{tm:sporting}} hat außerdem die Rafale. Manche Wertungsregeln unterscheiden sich. Werden beide Scheiben einer Doublette als verloren gewertet, nennt man das {{term:zero-zero|Null-Null}}.",
+    "sporting-singles-doubles-p1": "Zuerst die Einzelscheiben. In beiden Disziplinen dürfen Sie zwei Patronen auf eine {{term:single-target|Einzelscheibe}} abgeben, ein Fehlschuss mit dem ersten Lauf lässt sich also noch mit dem zweiten retten. Ein Layout muss Zeit für zwei Schüsse auf jede Einzelscheibe lassen.",
+    "rules-doubles-p2": "Bei einer {{term:double-on-report|Doublette auf Schuss}} löst Ihr Abruf die erste Scheibe aus, und Ihr Schuss auf sie löst die zweite aus. Bei einer {{term:simultaneous-double|Simultandoublette}} starten beide Scheiben gemeinsam, und Sie dürfen sie in beliebiger Reihenfolge nehmen.",
+    "rules-doubles-cmp1": {
+      "sporting": "Drei Arten: auf Schuss, simultan (aus einer oder zwei Wurfmaschinen) und {{term:rafale-double|Rafale}}. Bei einer Rafale starten zwei Scheiben aus derselben Wurfmaschine auf derselben Linie, eine nach der anderen.",
+      "compak": "Zwei Arten: auf Schuss und simultan. Eine Simultandoublette kommt aus zwei verschiedenen Wurfmaschinen. Eine Rafale gibt es nicht."
+    },
+    "sporting-singles-doubles-p2": "In {{tm:sporting}} startet die zweite Scheibe einer Doublette auf Schuss 0 bis 3 Sekunden nach Ihrem Schuss auf die erste. Bei einer Rafale folgt sie, sobald die Wurfmaschine nachgeladen hat. Eine Doublette verwendet nur Scheiben, die an diesem Standplatz schon als Einzelscheiben geworfen wurden, Sie haben sie also schon fliegen sehen.",
+    "rules-doubles-cmp2": {
+      "sporting": "Zwei Patronen für die ganze Doublette, und beide dürfen auf eine Scheibe gehen.",
+      "compak": "Eine Patrone pro Scheibe. Beide auf die erste Scheibe abzugeben ist nicht erlaubt; absichtlich getan wird es als Null-Null gewertet."
+    },
+    "rules-doubles-accidental": "Gehen beide Läufe versehentlich gemeinsam ab, ist das kein absichtlicher Doppelschuss, sondern ein Flintenfehler, ein {{term:double-discharge|Doppeln}}. Wie das gewertet wird, steht in {{lesson:rules-malfunctions}}.",
+    "rules-doubles-cmp3": {
+      "sporting": "Wenn Ihr Schuss selbst beide Scheiben trifft, zählen beide: „one“ und „one“, bei jeder Art von Doublette. Auf Schuss kann statt dessen die erste Scheibe oder ihre Teile die zweite vor Ihrem zweiten Schuss zerschlagen. Das ist ein No Bird: Die Doublette wird wiederholt, und das erste Ergebnis bleibt erhalten.",
+      "compak": "Auf Schuss: Das erste Ergebnis bleibt bestehen, die zweite ist ein No Bird, und die Doublette wird erneut geschossen. Simultan: No Bird, die Doublette erneut schießen; passiert es ein drittes Mal, werden beide Scheiben als Null gewertet."
+    },
+    "rules-doubles-cmp4": {
+      "sporting": "Kein Schuss auf eine Simultan- oder Rafaledoublette ohne triftigen Grund: Null-Null. Auf Schuss: Eine erste Scheibe, auf die Sie nicht schießen, ist Null, und die Doublette wird erneut geworfen, damit Sie die zweite schießen können (Kurzleitfaden für Schiedsrichter).",
+      "compak": "Eine Simultandoublette ablehnen: Null-Null. Auf Schuss: Eine abgelehnte erste Scheibe ist Null; die Doublette wird erneut geworfen, damit Sie die zweite schießen können, und nur diese wird gewertet."
+    },
+    "sporting-singles-doubles-p4": "Eine unregelmäßige Scheibe ist eine, wegen der der Schiedsrichter No Bird ruft, zum Beispiel eine zerbrochen geworfene, eine, die von ihrer Linie abweicht, oder eine aus der falschen Wurfmaschine ({{lesson:rules-hit-and-no-bird}}). Bei einer Doublette auf Schuss bedeutet eine unregelmäßige erste Scheibe, dass die ganze Doublette erneut geworfen wird. Ist die zweite Scheibe unregelmäßig, schießen Sie die Doublette erneut, und Ihr Ergebnis auf die erste bleibt erhalten. Dasselbe gilt, wenn die erste Scheibe oder ihre Teile die zweite vor Ihrem zweiten Schuss zerschlagen. Bei einer Simultandoublette, und in {{tm:sporting}} bei einer Rafale, bedeutet eine unregelmäßige Scheibe eine Wiederholung ohne Wertung. Ein Schuss, der beide Scheiben trifft, ist ein anderer Fall: siehe oben.",
+    "rules-doubles-p7": "Schauen Sie sich das Vorwerfen an und lesen Sie das {{term:target-menu|Wurfschema}} des Standplatzes, damit Sie wissen, welche Doubletten kommen. Viele Trainer empfehlen, die Reihenfolge einer Simultandoublette schon vor dem Abruf zu wählen."
+  },
+  "note": {
+    "compak-singles-doubles-p1": "{{tm:compak}} verwendet dieselben Namen wie {{tm:sporting}} für Doubletten auf Schuss und Simultandoubletten (eine Rafale hat es nicht), aber seine Doubletten folgen anderen Regeln. Ein Dolmetscher, der die Regeln von {{tm:sporting}} überträgt, gibt falsche Antworten.",
+    "sporting-singles-doubles-p5": "Geben Sie das Ergebnis einer Doublette als Paar weiter, in der Reihenfolge des Schiedsrichters."
+  },
+  "phrases": {
+    "sporting-singles-doubles-ph1": {
+      "meaning": "Trainer: Die zweite Scheibe wird durch den Schuss auf die erste ausgelöst.",
+      "say": "Doublette auf Schuss: Die zweite kommt auf Ihren Schuss."
+    },
+    "sporting-singles-doubles-ph2": {
+      "meaning": "Trainer: Bei einer Rafaledoublette ist die Reihenfolge frei.",
+      "say": "Bei der Rafale nehmen Sie zuerst, welche Sie wollen."
+    },
+    "sporting-singles-doubles-ph3": {
+      "meaning": "Schiedsrichter: Beide Scheiben der Doublette sind Treffer.",
+      "say": "Treffer und Treffer."
+    },
+    "sporting-singles-doubles-ph4": {
+      "meaning": "Irreguläre Scheibe; die Doublette wird neu geworfen.",
+      "say": "No Bird, die Doublette wird wiederholt."
+    },
+    "compak-singles-doubles-ph1": {
+      "meaning": "Trainer: In {{tm:compak}} bekommt jede Scheibe einer Doublette nur eine Patrone.",
+      "say": "Bei den Doubletten hier ein Schuss pro Taube."
+    },
+    "compak-singles-doubles-ph2": {
+      "meaning": "Schiedsrichter bei einer Simultandoublette: keine Wertung, Wiederholung.",
+      "say": "Beide mit einem Schuss. No Bird, die Doublette noch einmal."
+    },
+    "compak-singles-doubles-ph3": {
+      "meaning": "Trainer: Beim Vorwerfen entscheiden, welche Simultanscheibe zuerst beschossen wird.",
+      "say": "Legen Sie Ihre Reihenfolge beim Vorwerfen fest."
+    },
+    "compak-singles-doubles-ph4": {
+      "meaning": "Schiedsrichter: Keine der beiden Scheiben der Doublette wird als Treffer gewertet.",
+      "say": "Null, Null."
+    }
+  },
+  "key_points": {
+    "rules-doubles-kp1": "Auf Schuss wird die zweite Scheibe durch Ihren Schuss auf die erste ausgelöst.",
+    "sporting-singles-doubles-kp2": "{{tm:sporting}}: zwei Patronen pro Doublette, beide dürfen auf eine Scheibe gehen; Arten sind auf Schuss, simultan und Rafale.",
+    "compak-singles-doubles-kp2": "{{tm:compak}}: eine Patrone pro Scheibe; absichtlich beide auf eine Scheibe abzugeben ist Null-Null.",
+    "compak-singles-doubles-kp1": "{{tm:compak}} hat zwei Arten von Doubletten, auf Schuss und simultan; die Rafale gibt es nur in {{tm:sporting}}.",
+    "sporting-singles-doubles-kp3": "Ein Schuss trifft beide Scheiben: {{tm:sporting}} wertet one und one; {{tm:compak}} lässt die Doublette erneut schießen."
+  },
+  "did_you_know": "In {{tm:compak}} beginnt die Doublette an jeder Position mit der letzten Scheibe der vorherigen Position.",
+  "quiz": {
+    "rules-doubles-q1": {
+      "q": "Was löst die zweite Scheibe einer Doublette auf Schuss aus?",
+      "options": {
+        "a": "Der Schuss auf die erste Scheibe",
+        "b": "Ein zweiter Abruf des Schützen",
+        "c": "Der Schiedsrichter, von Hand"
+      },
+      "explain": "Der Abruf löst die erste Scheibe aus, und der Schuss auf sie löst die zweite aus."
+    },
+    "rules-doubles-q2": {
+      "q": "Dürfen Sie in {{tm:compak}} beide Patronen auf die erste Scheibe einer Doublette abgeben?",
+      "options": {
+        "a": "Ja, wie in {{tm:sporting}}",
+        "b": "Nur bei einer Simultandoublette",
+        "c": "Nein, eine Patrone pro Scheibe"
+      },
+      "explain": "In {{tm:compak}} gilt eine Patrone pro Scheibe, und absichtlich beide auf eine Scheibe abzugeben wird als Null-Null gewertet; in {{tm:sporting}} dürfen beide auf eine Scheibe gehen."
+    },
+    "rules-doubles-q3": {
+      "q": "In {{tm:sporting}} trifft ein Schuss beide Scheiben einer Doublette. Wie wird gewertet?",
+      "options": {
+        "a": "Zero und No Bird",
+        "b": "One und one",
+        "c": "No Bird, erneut geschossen"
+      },
+      "explain": "In {{tm:sporting}} zählen beide Scheiben; {{tm:compak}} hat andere Regeln."
+    },
+    "sporting-singles-doubles-q1": {
+      "q": "{{tm:sporting}}, Simultandoublette. Der Schütze verfehlt eine Scheibe mit dem ersten Schuss, gibt die zweite Patrone auf dieselbe Scheibe ab und trifft sie. Die andere Scheibe fliegt weiter. Entscheidung?",
+      "options": {
+        "a": "One und zero",
+        "b": "Zero und zero",
+        "c": "No Bird, die Doublette wird wiederholt",
+        "d": "One und No Bird"
+      },
+      "explain": "In {{tm:sporting}} dürfen beide Patronen einer Doublette auf eine Scheibe gehen, also ist die getroffene Scheibe „one“ und die andere „zero“. In {{tm:compak}} wird absichtlich beide auf eine Scheibe abzugeben als Null-Null gewertet."
+    },
+    "sporting-singles-doubles-q2": {
+      "q": "{{tm:sporting}}, Doublette auf Schuss. Der Schütze trifft die erste Scheibe, und ein Stück davon zerschlägt die zweite vor dem zweiten Schuss. Entscheidung?",
+      "options": {
+        "a": "One und one",
+        "b": "Wiederholung, erstes Ergebnis bleibt",
+        "c": "Zero auf die zweite Scheibe",
+        "d": "One und zero"
+      },
+      "explain": "Zerstören die erste Scheibe oder ihre Teile die zweite vor dem zweiten Schuss, wird die Doublette wiederholt, und das erste Ergebnis bleibt bestehen."
+    },
+    "sporting-singles-doubles-q3": {
+      "q": "{{tm:sporting}}, Rafaledoublette. Beide Scheiben fliegen korrekt, aber der Schütze senkt die Flinte und schießt auf keine, ohne triftigen Grund. Entscheidung?",
+      "options": {
+        "a": "No Bird",
+        "b": "Zero und No Bird",
+        "c": "Nur eine Gelbe Karte",
+        "d": "Zero und zero"
+      },
+      "explain": "Eine korrekte Scheibe, auf die ohne triftigen Grund nicht geschossen wird, ist verloren; bei einer Rafale- oder Simultandoublette heißt das Zero und Zero."
+    },
+    "compak-singles-doubles-q1": {
+      "q": "Simultandoublette in {{tm:compak}}. Ein Schuss trifft beide Scheiben; es passiert zum ersten Mal. Entscheidung?",
+      "options": {
+        "a": "One und one",
+        "b": "No Bird, erneut geschossen",
+        "c": "One und No Bird",
+        "d": "Zero und zero"
+      },
+      "explain": "In {{tm:compak}} ist eine mit einem Schuss getroffene Simultandoublette beim ersten und zweiten Mal ein No Bird und beim dritten Mal Zero und Zero."
+    },
+    "compak-singles-doubles-q2": {
+      "q": "Doublette auf Schuss in {{tm:compak}}. Ein Schuss trifft beide Scheiben. Entscheidung?",
+      "options": {
+        "a": "One und one, beide zählen",
+        "b": "Zero und zero für beide",
+        "c": "Erstes Ergebnis bleibt; Doublette wird wiederholt",
+        "d": "No Bird, keine Wertung"
+      },
+      "explain": "Bei einer Doublette auf Schuss wird das Ergebnis der ersten Scheibe festgehalten, die zweite ist ein No Bird, und die Doublette wird erneut geschossen, um sie zu werten."
+    },
+    "compak-singles-doubles-q3": {
+      "q": "{{tm:compak}}, Doublette auf Schuss. Die erste Scheibe fliegt korrekt, aber der Schütze schießt nicht auf sie. Entscheidung?",
+      "options": {
+        "a": "Erste zero, Doublette erneut für die zweite",
+        "b": "Zero und zero für die Doublette",
+        "c": "No Bird, die Doublette wird erneut geworfen",
+        "d": "Zero, und die zweite wird nicht geschossen"
+      },
+      "explain": "Nicht auf eine korrekt geworfene erste Scheibe zu schießen ist eine Null. Die Doublette wird dann erneut geworfen, damit die zweite Scheibe gewertet werden kann (Kurzleitfaden für Schiedsrichter)."
+    },
+    "rules-doubles-q4": {
+      "q": "In {{tm:compak}} gehen bei der ersten Scheibe einer Doublette beide Läufe versehentlich gemeinsam ab. Es ist die erste Flintenstörung der Runde. Was ist das?",
+      "options": {
+        "a": "Ein Flintenfehler: No Bird, eine neue Doublette",
+        "b": "Ein absichtlicher Doppelschuss: Null-Null",
+        "c": "One und zero"
+      },
+      "explain": "Ein versehentliches Doppeln ist eine Funktionsstörung, kein absichtlicher Doppelschuss; Null-Null gilt nur, wenn beide Schüsse absichtlich auf eine Scheibe abgegeben werden."
+    }
+  }
+}

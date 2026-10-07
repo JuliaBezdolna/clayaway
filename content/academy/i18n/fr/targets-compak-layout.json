@@ -1,0 +1,182 @@
+{
+  "id": "targets-compak-layout",
+  "lang": "fr",
+  "base_rev": 3,
+  "h": {
+    "title": "8c3ae343",
+    "summary": "79d4f1ae",
+    "targets-compak-layout-p1": "98dc18bc",
+    "sport-compak-layout-p1": "dcbe6c7b",
+    "targets-compak-layout-p2": "e7df6adb",
+    "sport-compak-layout-p2": "203222f1",
+    "sport-compak-layout-p3": "a25065ef",
+    "compak-layout-rotation-p3": "7b59eb23",
+    "targets-compak-layout-p5": "a2c4429e",
+    "compak-layout-rotation-p4": "1748eaf4",
+    "targets-compak-layout-p6": "896b9587",
+    "sport-compak-layout-p5": "0c81f17c",
+    "targets-compak-layout-p7": "6bb72ced",
+    "sport-compak-layout-ph1": "3f2accee",
+    "sport-compak-layout-ph2": "28df18bc",
+    "sport-compak-layout-ph3": "23025c04",
+    "compak-layout-rotation-ph1": "200b9712",
+    "compak-layout-rotation-ph2": "70621467",
+    "compak-layout-rotation-ph3": "cfd3fd74",
+    "compak-layout-rotation-ph4": "19e4256f",
+    "compak-layout-rotation-kp1": "135742ac",
+    "compak-layout-rotation-kp2": "6d1c22f7",
+    "compak-layout-rotation-kp3": "f95e51ba",
+    "compak-layout-rotation-kp5": "8b9d487a",
+    "targets-compak-layout-kp5": "c85a6da1",
+    "targets-compak-layout-dyk": "89d1cb81",
+    "sport-compak-layout-q1": "05577122",
+    "compak-layout-rotation-q2": "120fb8bb",
+    "targets-compak-layout-q3": "4704300b",
+    "sport-compak-layout-q2": "ce882cb5",
+    "sport-compak-layout-q3": "55f9413f",
+    "compak-layout-rotation-q3": "78b9098d",
+    "targets-compak-layout-q-rectangle": "1273dd61",
+    "targets-compak-layout-q-line": "bce53ef3"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Comment fonctionne un terrain {{tm:compak}}",
+  "summary": "Cinq pas de tir, six lanceurs A à F, un rectangle balisé et un menu à chaque pas de tir : comment se déroule une série de {{tm:compak}} et comment avance la planche.",
+  "body": {
+    "targets-compak-layout-p1": "{{tm:compak}} est une discipline FITASC compacte. Elle {{fact:community.compak-created}}. À la différence du {{tm:sporting}}, qui s'étend sur un terrain naturel, un terrain de Compak est construit selon un plan fixe, avec des dimensions déterminées.",
+    "sport-compak-layout-p1": "{{tm:compak}} tient sur un seul terrain. Devant les tireurs est balisé un rectangle de 35 à 40 m de large et 25 m de profondeur, avec un piquet à drapeau à chaque angle. Le règlement l'exige sur chaque terrain. Par air calme, chaque plateau doit survoler ce rectangle à un moment de son vol.",
+    "targets-compak-layout-p2": "Les piquets d'angle font environ 50 cm de haut. Les côtés du {{term:fly-over-zone|rectangle}} sont nommés AB, BC, CD et AD, et AD est le côté face aux tireurs. La ligne des pas de tir est parallèle à AD, à 4–8 m en retrait, avec le pas de tir 3 au milieu.",
+    "sport-compak-layout-p2": "Cinq pas de tir, chacun un carré de 1 m, sont alignés avec 2 à 5 m entre leurs centres. Ils sont numérotés de 1 à 5 de gauche à droite. Chaque pas de tir a un {{term:firing-angle-limiter|limiteur d'angle de tir}}, un cadre en tubes. Il limite jusqu'où le fusil peut pivoter sur les côtés, vers le haut ou vers le bas, et empêche le tireur de se pencher ou d'avancer.",
+    "sport-compak-layout-p3": "Six lanceurs, de A à F de gauche à droite, portent chacun un panneau avec leur lettre. Ils peuvent être placés devant, sur les côtés ou derrière les tireurs ; un lanceur placé derrière la ligne est sur une {{term:tower|tour}}, {{fact:targets.compak-tower-height}}. Chaque terrain de Compak doit avoir trois trajectoires obligatoires. Deux sont des {{term:crosser|traversards}} : l'un vole de gauche à droite, l'autre de droite à gauche, et les deux passent au-dessus des côtés AB et CD. La troisième est un {{term:going-away|fuyant}}, qui s'éloigne des tireurs au-dessus du côté BC. L'organisateur choisit les autres trajectoires ; elles restent courtes pour ne pas atteindre le terrain voisin.",
+    "compak-layout-rotation-p3": "Une {{term:round|série}} compte 25 plateaux, cinq à chaque pas de tir. Les cinq plateaux d'un pas de tir suivent l'un des trois mélanges possibles : {{fact:targets.compak-station-menus}}. Sur un même terrain, tous les doublés sont du même type : soit au rapport (le deuxième plateau part quand vous tirez sur le premier), soit simultané (les deux partent ensemble). Le {{term:target-menu|menu}}, la liste des plateaux du pas de tir dans l'ordre, est affiché à chaque pas de tir. Les pas de tir sont liés en chaîne : {{fact:targets.compak-double-chain}}.",
+    "targets-compak-layout-p5": "La FITASC propose {{fact:targets.compak-setting-tables}} et conseille de les utiliser en compétition. Comment lire une carte de menu est expliqué dans {{lesson:targets-menu}}.",
+    "compak-layout-rotation-p4": "Comment une planche de six tireurs au maximum avance le long des pas de tir : le tireur du pas de tir 1 tire d'abord, et un sixième tireur attend derrière le pas de tir 1. Quand le tireur du pas de tir 5 a terminé, tout le monde se décale d'un pas de tir vers la droite. Le tireur du pas de tir 5 va attendre derrière le pas de tir 1, et celui qui attendait entre au pas de tir 1. Changez de pas de tir fusil ouvert et déchargé, sans déranger ceux qui tirent encore.",
+    "targets-compak-layout-p6": "Vous avez jusqu'à 10 secondes pour appeler votre plateau après que le plateau du pas de tir précédent a été tiré. Quand votre tour arrive, soyez prêt immédiatement, avec des cartouches pour toute la série.",
+    "sport-compak-layout-p5": "Certaines épreuves tirent plutôt le {{tm:compak}} en ligne : chaque tireur commence au pas de tir 1 et termine au pas de tir 5. Demandez à l'organisateur quel système est utilisé, car la procédure diffère.",
+    "targets-compak-layout-p7": {
+      "sporting": "Le fusil démarre bas : le haut de la crosse reste sous la {{term:jacket-line|ligne de veste}} jusqu'à l'apparition du plateau.",
+      "compak": "La position est libre : le fusil peut déjà être à l'épaule (monté). Chaque plateau se tire néanmoins avec le fusil à l'épaule."
+    }
+  },
+  "note": {},
+  "phrases": {
+    "sport-compak-layout-ph1": {
+      "meaning": "La planche tourne ; le tireur du pas de tir 5 passe derrière le pas de tir 1.",
+      "say": "Tout le monde se décale d'un pas vers la droite. Le numéro cinq, en position d'attente."
+    },
+    "sport-compak-layout-ph2": {
+      "meaning": "Le plateau du lanceur E est lancé depuis une haute tour et passe au-dessus de la tête.",
+      "say": "Le lanceur E, c'est la tour : il passe au-dessus de votre tête."
+    },
+    "sport-compak-layout-ph3": {
+      "meaning": "Respectez le limiteur d'angle de tir ; ne faites pas pivoter le fusil au-delà.",
+      "say": "Attention au cadre, ne dépassez pas le montant."
+    },
+    "compak-layout-rotation-ph1": {
+      "meaning": "Rotation après que le tireur du pas de tir 5 a terminé.",
+      "say": "Décalez-vous d'un pas de tir vers la droite."
+    },
+    "compak-layout-rotation-ph2": {
+      "meaning": "Entre les pas de tir, le fusil est ouvert et déchargé.",
+      "say": "Fusil ouvert quand vous changez de pas de tir."
+    },
+    "compak-layout-rotation-ph3": {
+      "meaning": "Le premier plateau de votre doublé est le même que le dernier plateau tiré au pas de tir précédent.",
+      "say": "Votre doublé commence par le dernier plateau du pas de tir précédent."
+    },
+    "compak-layout-rotation-ph4": {
+      "meaning": "Le sixième tireur se tient derrière le pas de tir 1.",
+      "say": "Vous attendez derrière le 1."
+    }
+  },
+  "key_points": {
+    "compak-layout-rotation-kp1": "Rectangle de 35–40 m × 25 m ; cinq pas de tir de 1 m ; six lanceurs A–F.",
+    "compak-layout-rotation-kp2": "Obligatoires : traversard gauche-droite, traversard droite-gauche, fuyant.",
+    "compak-layout-rotation-kp3": "Série = 25 plateaux, 5 par pas de tir ; un seul type de doublé sur tout le terrain.",
+    "compak-layout-rotation-kp5": "Après le pas de tir 5 : attendre derrière le pas de tir 1 ; tout le monde se décale d'un pas vers la droite.",
+    "targets-compak-layout-kp5": "La position du fusil à l'appel est libre ; vous avez jusqu'à 10 secondes pour appeler."
+  },
+  "did_you_know": "Grâce à la chaîne des doublés, l'arbitre peut montrer au tireur suivant le plateau par lequel commence son doublé : le dernier plateau du pas de tir précédent.",
+  "quiz": {
+    "sport-compak-layout-q1": {
+      "q": "Combien de lanceurs et de pas de tir compte un terrain {{tm:compak}} ?",
+      "options": {
+        "a": "4 lanceurs, 3 pas de tir",
+        "b": "6 lanceurs, 5 pas de tir",
+        "c": "5 lanceurs, 6 pas de tir",
+        "d": "8 lanceurs, 8 pas de tir"
+      },
+      "explain": "Les lanceurs A à F et les pas de tir 1 à 5."
+    },
+    "compak-layout-rotation-q2": {
+      "q": "Le tireur du pas de tir 5 a terminé son menu. Où va-t-il ?",
+      "options": {
+        "a": "Au pas de tir 1",
+        "b": "Il reste au pas de tir 5",
+        "c": "Derrière le pas de tir 1, pour attendre",
+        "d": "Chez l'arbitre pour signer la feuille"
+      },
+      "explain": "Il devient le tireur en attente derrière le pas de tir 1, pendant que tous les autres se décalent d'un pas vers la droite."
+    },
+    "targets-compak-layout-q3": {
+      "q": "En {{tm:compak}}, comment peut-on tenir le fusil quand on appelle le plateau ?",
+      "options": {
+        "a": "Librement : il peut déjà être monté",
+        "b": "Seulement bas, sous la ligne du gilet",
+        "c": "Seulement à l'épaule, canons vers le haut"
+      },
+      "explain": "En {{tm:compak}}, la position du fusil au moment de l'appel est libre, mais on tire toujours avec le fusil monté. Le fusil bas avec une ligne sur le gilet est une règle du {{tm:sporting}}."
+    },
+    "sport-compak-layout-q2": {
+      "q": "Dans une planche de six, où se trouve le sixième tireur pendant que les autres tirent ?",
+      "options": {
+        "a": "Au club-house",
+        "b": "À côté de l'arbitre au pas de tir 5",
+        "c": "Derrière le lanceur F",
+        "d": "En attente derrière le pas de tir 1"
+      },
+      "explain": "Le tireur en attente se tient derrière le pas de tir 1 et y entre après chaque rotation."
+    },
+    "sport-compak-layout-q3": {
+      "q": "À quoi sert le limiteur d'angle de tir ?",
+      "options": {
+        "a": "Il limite le swing et empêche d'avancer",
+        "b": "Il mesure la vitesse de chaque plateau lancé",
+        "c": "Il contient les cartouches de toute la série",
+        "d": "Il déclenche les plateaux à l'appel du tireur"
+      },
+      "explain": "C'est un cadre de sécurité à chaque pas de tir, qui limite le swing latéral et vertical."
+    },
+    "compak-layout-rotation-q3": {
+      "q": "Sur un Compak, le premier plateau de chaque doublé est…",
+      "options": {
+        "a": "n'importe quel plateau choisi par le tireur",
+        "b": "toujours le plateau du lanceur A",
+        "c": "un plateau montré seulement à la demande du tireur",
+        "d": "le dernier plateau tiré au pas de tir précédent"
+      },
+      "explain": "Le menu enchaîne les pas de tir : chaque doublé commence par le plateau qui a terminé le pas de tir précédent."
+    },
+    "targets-compak-layout-q-rectangle": {
+      "q": "Par air calme, que doit faire chaque plateau {{tm:compak}} ?",
+      "options": {
+        "a": "Tomber à l'intérieur du rectangle balisé",
+        "b": "Survoler le rectangle balisé",
+        "c": "Passer juste au-dessus du pas de tir 3"
+      },
+      "explain": "Par air calme, chaque plateau doit survoler le rectangle à un moment de son vol."
+    },
+    "targets-compak-layout-q-line": {
+      "q": "Où se trouve la ligne des pas de tir sur un Compak ?",
+      "options": {
+        "a": "À 4–8 m derrière le côté AD, parallèlement à lui",
+        "b": "À l'intérieur du rectangle, près du côté BC",
+        "c": "Sur la tour, derrière le lanceur F"
+      },
+      "explain": "Les pas de tir sont alignés à 4–8 m derrière le côté AD, avec le pas de tir 3 face à son milieu."
+    }
+  }
+}

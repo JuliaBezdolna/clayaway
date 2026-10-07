@@ -1,0 +1,345 @@
+{
+  "id": "lead-pull-away",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "lead-pull-away"
+    ]
+  },
+  "terms": [
+    "pull-away",
+    "insertion-point",
+    "gun-speed",
+    "perceived-lead",
+    "quartering-away",
+    "riding-the-target",
+    "follow-through"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Pull-away: on it, with it, pull away, shoot",
+    "uk": "Вихід з мішені: на неї, з нею, відрив, постріл"
+  },
+  "summary": {
+    "en": "How pull-away works in four beats, which targets it often suits, and the two typical faults: riding the target and stopping the push.",
+    "uk": "Як працює вихід з мішені (pull-away) у чотири такти, яким мішеням він часто пасує і дві типові помилки: задовге ведення і зупинка відриву."
+  },
+  "body": [
+    {
+      "k": "lead-pull-away-p1",
+      "t": "p",
+      "core": true,
+      "en": "In {{term:pull-away|pull-away}} the muzzles first join the target, then pull ahead of it. It is widely taught in British coaching. Some sources call it the CPSA method (after the clay shooting association of England), while others use that name for swing-through, so ask your coach which is meant. Step by step, it looks like this:",
+      "uk": "У виході з мішені ({{term:pull-away|pull-away}}; сам ривок уперед називають і «відрив») стволи спершу «приєднуються» до мішені, а потім виходять уперед. Метод широко викладають у британській школі. Одні джерела називають його методом CPSA (за назвою асоціації стендової стрільби Англії), інші так називають swing-through, тож уточнюйте в тренера, що мають на увазі. Крок за кроком це виглядає так:"
+    },
+    {
+      "k": "lead-pull-away-p2",
+      "t": "steps",
+      "core": true,
+      "en": [
+        "“On it”: the gun is mounted onto the target or its front edge; the muzzles touch it on its line.",
+        "“With it”: the muzzles track the target for a moment at its speed, matching line and pace.",
+        "“Pull away”: the gun accelerates smoothly ahead until the right lead picture appears.",
+        "“Shoot”: the trigger is pulled while the gun is still accelerating or moving.",
+        "Follow-through: the gun keeps going after the shot."
+      ],
+      "uk": [
+        "«On it» — «на неї»: рушницю вкладають на мішень або на її передній край; стволи торкаються її на лінії.",
+        "«With it» — «з нею»: стволи мить ведуть мішень з її швидкістю, тримаючи лінію і темп.",
+        "«Pull away» — «відрив»: рушниця плавно прискорюється вперед, доки не з’явиться правильна картинка виносу.",
+        "«Shoot» — «постріл»: спуск натискають, поки рушниця ще прискорюється чи рухається.",
+        "Продовження руху: рушниця йде далі й після пострілу."
+      ]
+    },
+    {
+      "k": "lead-pull-away-p3",
+      "t": "p",
+      "core": true,
+      "en": "Strengths: you follow the target for a moment before pulling ahead. That gives you a feel for its speed, distance and path before you decide to fire, so the barrels stay well on its line. It suits long targets, quartering targets (flying at an angle away from or towards you) and rising targets. Because of the acceleration, the lead you see is smaller than with maintained lead.",
+      "uk": "Переваги: стволи мить ведуть мішень, перш ніж вийти вперед. За цей час ви встигаєте відчути її швидкість, відстань і лінію польоту ще до рішення стріляти, тож стволи добре тримаються лінії мішені. Метод пасує далеким мішеням, косим (що летять під кутом від вас або на вас) і мішеням на підйомі. Через прискорення видимий винос менший, ніж у постійному виносі."
+    },
+    {
+      "k": "lead-pull-away-p4",
+      "t": "p",
+      "core": true,
+      "en": "Weaknesses: the amount of acceleration varies from target to target, so it takes practice to feel it. Tracking for too long becomes “riding the target”, and stopping the push gives a miss behind.",
+      "uk": "Слабкі місця: прискорення від мішені до мішені різне, і відчути його можна лише практикою. Задовге ведення перетворюється на «riding the target» — «їзду на мішені», а зупинка відриву дає промах позаду."
+    },
+    {
+      "k": "lead-pull-away-p5",
+      "t": "p",
+      "core": true,
+      "en": "Coaches say “touch it and go”, “mount on it and push out”, or the four-beat “on it, with it, pull away, shoot”.",
+      "uk": "Тренери кажуть «touch it and go» («торкнулися — і вперед») або «mount on it and push out» («вкладка на мішень — і вихід уперед»). Кажуть і в чотири такти: «on it, with it, pull away, shoot» («на неї, з нею, відрив, постріл»)."
+    },
+    {
+      "k": "lead-pull-away-sim",
+      "t": "sim",
+      "sim": {
+        "type": "lead",
+        "method": "pull-away",
+        "preset": "crosser-rl",
+        "muzzle_start": "on-target",
+        "gun_speed": "equal-then-faster",
+        "trigger": "during-acceleration",
+        "follow_through": true
+      },
+      "ready": true,
+      "en": "Animation: the muzzles track the target, then accelerate ahead. The shot is fired while the gun is still accelerating, so the lead you see is smaller than the actual lead.",
+      "uk": "Анімація: стволи ведуть мішень, а потім прискорюються вперед. Постріл лунає, поки рушниця ще прискорюється, тож видимий винос менший за справжній."
+    }
+  ],
+  "note": [
+    {
+      "k": "lead-pull-away-n1",
+      "for": "interpreter",
+      "en": "Keep the four-beat rhythm when you translate: it matters more than the exact words.",
+      "uk": "Перекладаючи, зберігайте ритм із чотирьох тактів: він важить більше, ніж точні слова."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "lead-pull-away-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "On it, with it, pull away, shoot.",
+      "meaning": {
+        "en": "Join the target, track it, accelerate ahead, fire.",
+        "uk": "Приєднайтеся до мішені, ведіть її, прискоріться вперед, стріляйте."
+      },
+      "say": {
+        "uk": "На неї, з нею, відрив, постріл."
+      }
+    },
+    {
+      "k": "lead-pull-away-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Touch it and go.",
+      "meaning": {
+        "en": "Meet the target with the muzzles and immediately start pulling ahead.",
+        "uk": "Торкніться мішені стволами й одразу починайте відрив."
+      },
+      "say": {
+        "uk": "Торкнулися — і вперед."
+      }
+    },
+    {
+      "k": "lead-pull-away-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "You rode it too long.",
+      "meaning": {
+        "en": "The shooter tracked the target for too long before pulling away and lost the line or the moment.",
+        "uk": "Стрілець надто довго вів мішень перед відривом і втратив лінію або момент."
+      },
+      "say": {
+        "uk": "Ви надто довго її вели."
+      }
+    },
+    {
+      "k": "lead-pull-away-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Mount on it and push out a bit more.",
+      "meaning": {
+        "en": "Mount onto the target, then pull a little further ahead before firing.",
+        "uk": "Вкладайте на мішень, потім вийдіть трохи далі вперед перед пострілом."
+      },
+      "say": {
+        "uk": "Вкладка на мішень — і відрив трохи більший."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "lead-pull-away-kp1",
+      "core": true,
+      "en": "Muzzles start on the target (or its front edge).",
+      "uk": "Стволи стартують на мішені (або на її передньому краї)."
+    },
+    {
+      "k": "lead-pull-away-kp2",
+      "core": true,
+      "en": "Track at its speed, then accelerate ahead.",
+      "uk": "Ведуть з її швидкістю, потім прискорюються вперед."
+    },
+    {
+      "k": "lead-pull-away-kp3",
+      "core": true,
+      "en": "Trigger while the gun is still moving forward; then follow through.",
+      "uk": "Спуск, поки рушниця ще рухається вперед; далі продовження руху."
+    },
+    {
+      "k": "lead-pull-away-kp4",
+      "core": true,
+      "en": "Good line control; suits long, quartering and rising targets.",
+      "uk": "Точна лінія; пасує далеким, косим і мішеням на підйомі."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "lead-pull-away-q1",
+      "q": {
+        "en": "In pull-away, what happens just before the trigger is pulled?",
+        "uk": "Що відбувається в pull-away безпосередньо перед натисканням на спуск?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The gun stops on the target",
+          "uk": "Рушниця зупиняється на мішені"
+        },
+        {
+          "k": "b",
+          "en": "The gun accelerates ahead of the target",
+          "uk": "Рушниця прискорюється попереду мішені"
+        },
+        {
+          "k": "c",
+          "en": "The gun drops below the target",
+          "uk": "Рушниця опускається під мішень"
+        },
+        {
+          "k": "d",
+          "en": "The gun waits at the break point",
+          "uk": "Рушниця чекає в точці пострілу"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The pull-away itself is the acceleration ahead; the shot is fired while the gun is still moving forward.",
+        "uk": "Сам відрив і є прискоренням уперед; постріл лунає, поки рушниця ще рухається вперед."
+      }
+    },
+    {
+      "k": "lead-pull-away-q2",
+      "q": {
+        "en": "The coach says “You rode it too long”. What went wrong?",
+        "uk": "Тренер каже «You rode it too long». Що пішло не так?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "He stood too long on the stand before calling",
+          "uk": "Надто довго стояв на стрілецькому місці перед командою"
+        },
+        {
+          "k": "b",
+          "en": "He mounted the gun far too early",
+          "uk": "Зробив вкладку значно зарано"
+        },
+        {
+          "k": "c",
+          "en": "He tracked it too long before pulling away",
+          "uk": "Надто довго вів мішень перед відривом"
+        },
+        {
+          "k": "d",
+          "en": "The trapper released the target late",
+          "uk": "Оператор машинки запізно запустив мішень"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "“Riding the target” means following it too long, so it slows, drops or escapes and the line is lost.",
+        "uk": "«Riding the target» — надто довго йти за мішенню, тож вона сповільнюється, падає чи тікає, і лінію втрачено."
+      }
+    },
+    {
+      "k": "lead-pull-away-q3",
+      "q": {
+        "en": "Compared with maintained lead, the perceived lead in pull-away is usually…",
+        "uk": "Порівняно з maintained lead видимий винос у pull-away зазвичай…"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "smaller, because the acceleration adds lead",
+          "uk": "менший, бо прискорення додає винос"
+        },
+        {
+          "k": "b",
+          "en": "larger, because the gun starts on the target",
+          "uk": "більший, бо стволи стартують на мішені"
+        },
+        {
+          "k": "c",
+          "en": "about twice as large",
+          "uk": "приблизно вдвічі більший"
+        },
+        {
+          "k": "d",
+          "en": "zero, with no gap at all",
+          "uk": "нульовий, без жодного проміжку"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The brief acceleration carries the gun forward during the shot delay, so less gap needs to be seen.",
+        "uk": "Коротке прискорення несе рушницю вперед за час затримки пострілу, тож бачити треба менший проміжок."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "b749d58c",
+    "summary": "c61d97fc",
+    "lead-pull-away-p1": "26937ff1",
+    "lead-pull-away-p2": "ec4835f6",
+    "lead-pull-away-p3": "a962617b",
+    "lead-pull-away-p4": "c2b3e18d",
+    "lead-pull-away-p5": "aab432c7",
+    "lead-pull-away-sim": "bb992bfd",
+    "lead-pull-away-n1": "a7a3924f",
+    "lead-pull-away-kp1": "87cd4d51",
+    "lead-pull-away-kp2": "b87906d4",
+    "lead-pull-away-kp3": "b37c5c3b",
+    "lead-pull-away-kp4": "029c1dc2",
+    "lead-pull-away-ph1": "3697dd33",
+    "lead-pull-away-ph2": "6d774676",
+    "lead-pull-away-ph3": "6e69f3d3",
+    "lead-pull-away-ph4": "87f857d0",
+    "lead-pull-away-q1": "111e1f2e",
+    "lead-pull-away-q2": "dcf6206b",
+    "lead-pull-away-q3": "b63395a8"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/lead-pull-away.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): lead-pull-away-p4; translate again (meaning or audit fix changed): lead-pull-away-p1, lead-pull-away-p5, lead-pull-away-q3; no longer used (delete from the overlays): lead-pull-away-kp5.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/lead-pull-away.json (9 languages): translate again (meaning or wording changed for readers): lead-pull-away-p1, lead-pull-away-p3; re-sign the hash only (wording changed, meaning not): lead-pull-away-p2; lead-pull-away-p2 is now t:\"steps\" (5 steps, wording unchanged; its first sentence \"How it looks, step by step.\" moved to the end of lead-pull-away-p1): split the overlay value into a list and re-sign."
+    ]
+  }
+}

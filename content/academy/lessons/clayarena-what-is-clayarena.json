@@ -1,0 +1,271 @@
+{
+  "id": "clayarena-what-is-clayarena",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 3,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "fan",
+    "beginner",
+    "shooter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "watch block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "clayarena-what-is-clayarena"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "sporting",
+    "compak-sporting",
+    "fitasc",
+    "shooter-profile",
+    "accuracy",
+    "season-recap",
+    "clayaway"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch1-definition"
+    },
+    {
+      "book": "compak",
+      "id": "ch1-discipline"
+    }
+  ],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "What ClayArena is",
+    "uk": "Що таке ClayArena"
+  },
+  "summary": {
+    "en": "ClayArena is a clay shooting website focused on {{tm:sporting}} and {{tm:compak}}: competition results, shooter profiles, a calendar, videos, season recaps, shooting grounds and coaches.",
+    "uk": "ClayArena — сайт про стендову стрільбу, передусім про {{tm:sporting}} і {{tm:compak}}: результати змагань, профілі стрільців, календар, відео, підсумки сезону, стенди й тренери."
+  },
+  "body": [
+    {
+      "k": "clayarena-what-is-clayarena-p1",
+      "t": "p",
+      "en": "ClayArena (clayarena.com) is a website about clay shooting, focused on {{tm:sporting}} and {{tm:compak}}. It shows who shot and how, where the next competitions are and where you can train. Some other disciplines, such as trap and skeet, appear there too.",
+      "uk": "ClayArena (clayarena.com) — сайт про стендову стрільбу, передусім про {{tm:sporting}} і {{tm:compak}}. Тут видно, хто і як стріляв, де пройдуть наступні змагання і де можна потренуватися. Є там і деякі інші дисципліни, наприклад трап і скит."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-p2",
+      "t": "p",
+      "en": "The core of ClayArena is competition results. Each competition has a results table with places and the number of targets broken. At some events the scores are updated while the shooting is still going on. {{term:shooter-profile|Shooter profiles}} are built from these results.",
+      "uk": "Основа ClayArena — результати змагань. Для кожного змагання є таблиця результатів із місцями й кількістю розбитих мішеней. На деяких змаганнях результати оновлюються ще під час стрільби. З цих результатів складаються {{term:shooter-profile|профілі стрільців}}."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-p3",
+      "t": "p",
+      "en": "A shooter profile is one person's page: their competitions and key figures, such as {{term:accuracy|accuracy}}. What the figures mean is explained in {{lesson:clayarena-profile-numbers}}.",
+      "uk": "Профіль стрільця — сторінка однієї людини: її виступи та головні показники, наприклад {{term:accuracy|влучність}}. Що означають ці цифри, пояснює урок {{lesson:clayarena-profile-numbers}}."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-p4",
+      "t": "p",
+      "en": "ClayArena also has a competition calendar, videos from competitions and {{term:season-recap|season recaps}}. There are catalogues of shooting grounds and of coaches as well. More in {{lesson:clayarena-videos-recaps-calendar}} and {{lesson:clayarena-coaches-grounds-tours}}.",
+      "uk": "Ще на ClayArena є календар змагань, відео зі змагань і {{term:season-recap|підсумки сезону}}. Є також каталоги стендів і тренерів. Докладніше — в уроках {{lesson:clayarena-videos-recaps-calendar}} і {{lesson:clayarena-coaches-grounds-tours}}."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-p5",
+      "t": "p",
+      "en": "ClayArena is also preparing {{term:clayaway|ClayAway}}: training tours with a coach. They have not launched yet and will start later: {{lesson:travel-clayaway-tour}}.",
+      "uk": "ClayArena також готує {{term:clayaway|ClayAway}} — тренувальні тури з тренером. Цей напрям ще не запущено, він з’явиться згодом: {{lesson:travel-clayaway-tour}}."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-p6",
+      "t": "p",
+      "en": "ClayArena is also a place to learn: this Academy, a glossary of terms, and a plain-language guide to the {{term:fitasc|FITASC}} rules with a rules trainer.",
+      "uk": "А ще ClayArena — це навчання: ця Академія, глосарій термінів і довідник правил {{term:fitasc|FITASC}} простими словами з тренажером."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "clayarena-what-is-clayarena-kp1",
+      "en": "ClayArena is a clay shooting website focused on {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "ClayArena — сайт про стендову стрільбу, передусім про {{tm:sporting}} і {{tm:compak}}."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-kp2",
+      "en": "Its core is competition results; shooter profiles are built from them.",
+      "uk": "Основа — результати змагань; з них складаються профілі стрільців."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-kp3",
+      "en": "It also has a calendar, videos, season recaps and catalogues of grounds and coaches.",
+      "uk": "Є також календар, відео, підсумки сезону й каталоги стендів і тренерів."
+    },
+    {
+      "k": "clayarena-what-is-clayarena-kp4",
+      "en": "ClayAway training tours are being prepared and have not launched yet.",
+      "uk": "Тренувальні тури ClayAway готуються і ще не запущені."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "clayarena-what-is-clayarena-q1",
+      "q": {
+        "en": "What are shooter profiles on ClayArena built from?",
+        "uk": "З чого складаються профілі стрільців на ClayArena?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Forms that shooters fill in",
+          "uk": "З анкет, які заповнюють стрільці"
+        },
+        {
+          "k": "b",
+          "en": "Competition results",
+          "uk": "З результатів змагань"
+        },
+        {
+          "k": "c",
+          "en": "Reviews written by coaches",
+          "uk": "З відгуків тренерів"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A profile gathers the shooter's competitions, that is, competition results.",
+        "uk": "Профіль збирає виступи стрільця, тобто результати змагань."
+      }
+    },
+    {
+      "k": "clayarena-what-is-clayarena-q2",
+      "q": {
+        "en": "What is ClayAway today?",
+        "uk": "Що таке ClayAway зараз?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A separate FITASC discipline",
+          "uk": "Окрема дисципліна FITASC"
+        },
+        {
+          "k": "b",
+          "en": "An online cartridge shop",
+          "uk": "Інтернет-магазин набоїв"
+        },
+        {
+          "k": "c",
+          "en": "Coach-led tours being prepared",
+          "uk": "Тури з тренером, які готуються"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "ClayAway will be ClayArena's organised training tours with a coach; it has not launched yet.",
+        "uk": "ClayAway — майбутні організовані тренувальні тури ClayArena з тренером; напрям ще не запущено."
+      }
+    },
+    {
+      "k": "clayarena-what-is-clayarena-q4",
+      "q": {
+        "en": "Where do you look for competitions that have not happened yet?",
+        "uk": "Де шукати змагання, які ще не відбулися?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In the competition calendar",
+          "uk": "У календарі змагань"
+        },
+        {
+          "k": "b",
+          "en": "In a season recap",
+          "uk": "У підсумках сезону"
+        },
+        {
+          "k": "c",
+          "en": "In a shooter profile",
+          "uk": "У профілі стрільця"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The calendar lists planned, ongoing and finished competitions with dates and venues.",
+        "uk": "Календар показує заплановані, поточні й завершені змагання з датами й місцем проведення."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "clayarena-what-is-clayarena-q3",
+      "q": {
+        "en": "Which disciplines is ClayArena focused on?",
+        "uk": "На яких дисциплінах зосереджена ClayArena?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Biathlon and archery",
+          "uk": "Біатлон і стрільба з лука"
+        },
+        {
+          "k": "b",
+          "en": "{{tm:sporting}} and {{tm:compak}}",
+          "uk": "{{tm:sporting}} і {{tm:compak}}"
+        },
+        {
+          "k": "c",
+          "en": "Only Olympic trap",
+          "uk": "Лише олімпійський трап"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "ClayArena is focused on these two FITASC disciplines; some other disciplines appear there too.",
+        "uk": "ClayArena зосереджена на цих двох дисциплінах FITASC; є там і деякі інші дисципліни."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "bc76e59e",
+    "summary": "761d8c91",
+    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p2": "771824c6",
+    "clayarena-what-is-clayarena-p3": "17d83580",
+    "clayarena-what-is-clayarena-p4": "3d7784c7",
+    "clayarena-what-is-clayarena-p5": "48af0ac3",
+    "clayarena-what-is-clayarena-p6": "e3c600a3",
+    "clayarena-what-is-clayarena-kp1": "05ba9974",
+    "clayarena-what-is-clayarena-kp2": "3d5950a3",
+    "clayarena-what-is-clayarena-kp3": "5567e510",
+    "clayarena-what-is-clayarena-kp4": "702367ff",
+    "clayarena-what-is-clayarena-q1": "25b43879",
+    "clayarena-what-is-clayarena-q2": "565010d9",
+    "clayarena-what-is-clayarena-q4": "08498f4c",
+    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

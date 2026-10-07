@@ -1,0 +1,85 @@
+{
+  "id": "targets-reading-a-target",
+  "lang": "fr",
+  "base_rev": 3,
+  "h": {
+    "title": "c58ee91b",
+    "summary": "08a6882a",
+    "targets-reading-a-target-p1": "73f7f627",
+    "targets-reading-a-target-p2": "46d7b9fe",
+    "targets-reading-a-target-p3": "b1333ac7",
+    "targets-reading-a-target-points": "77c58330",
+    "targets-reading-a-target-p4": "5f61914c",
+    "targets-reading-a-target-p5": "2d04761d",
+    "targets-reading-a-target-mock": "af5065d8",
+    "targets-reading-a-target-p6": "c0465e01",
+    "targets-reading-a-target-kp1": "f556dd7a",
+    "targets-reading-a-target-kp2": "640ea1f0",
+    "targets-reading-a-target-kp3": "0d490d3c",
+    "targets-reading-a-target-kp4": "8050f3c2",
+    "targets-reading-a-target-kp5": "4bc4579e",
+    "targets-reading-a-target-dyk": "10d8c94e",
+    "targets-reading-a-target-q1": "f67e3bfa",
+    "targets-reading-a-target-q2": "07ba1296",
+    "targets-reading-a-target-q3": "a8d476d2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Comment « lire » un plateau",
+  "summary": "Ce qu'il faut observer pendant la présentation des plateaux : où un plateau apparaît, où il va, où vous le casserez, et ce qu'il ne faut pas faire.",
+  "body": {
+    "targets-reading-a-target-p1": "« Lire » un plateau, c'est comprendre, avant de tirer, comment il vole : où il apparaît, à quelle vitesse il se déplace, où il tourne, monte ou descend. Les tireurs expérimentés le font à chaque poste, et cela fait souvent la différence entre un plateau touché et un manqué. C'est tout aussi important en {{tm:sporting}} qu'en {{tm:compak}}.",
+    "targets-reading-a-target-p2": "Commencez par le {{term:target-menu|menu}} : quels lanceurs, dans quel ordre, et s'il y a des plateaux spéciaux. Puis observez attentivement pendant qu'on montre les plateaux (la {{term:target-presentation|présentation}}). En {{tm:sporting}}, les plateaux d'un poste sont montrés avant le tir au premier tireur de la planche. Les doublés au coup de fusil ne sont pas montrés. {{tm:compak}} a sa propre façon de montrer les plateaux. Les détails sont dans {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Posez-vous des questions simples. Où vois-je le plateau clairement pour la première fois ? C'est votre {{term:pick-up-point|point de prise}}, là où vos yeux commencent à le suivre. Où est-il le plus facile à casser ? C'est votre {{term:break-point|point de casse}}. À cet endroit, le plateau doit encore être bien visible, ni tombant derrière des arbres, ni volant au-delà d'une {{term:shooting-limit|limite de tir}}.",
+    "targets-reading-a-target-points": "Comment le {{term:hold-point|point d'attente des canons}}, le point de prise et le point de casse fonctionnent ensemble est expliqué dans {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p4": "Observez la vitesse, la distance et l'angle, et ce que fait le plateau : il monte, ralentit ou tombe. Le vent peut soulever un plateau ou le rabattre, et une ligne d'arbres sombre ou un ciel lumineux change la façon dont vous le voyez. Un plateau qui ralentit demande moins d'{{term:lead|avance}} qu'un plateau à pleine vitesse.",
+    "targets-reading-a-target-p5": "Regardez comment tirent les autres, mais réfléchissez par vous-même : chaque tireur a son propre rythme. Pendant qu'on montre les plateaux, beaucoup d'entraîneurs conseillent de les suivre seulement des yeux.",
+    "targets-reading-a-target-mock": {
+      "sporting": "Interdit partout sur le terrain. La première fois, l'arbitre donne un avertissement. Si vous recommencez, votre prochain plateau touché est noté comme un manqué (zéro).",
+      "compak": "Interdit hors des pas de tir, ou pendant qu'un autre membre de la planche tire. Pendant qu'on montre les plateaux, le fusil est ouvert et déchargé."
+    },
+    "targets-reading-a-target-p6": "Les trajectoires {{tm:sporting}} sont classées par {{term:difficulty-class|catégorie de difficulté}} : {{fact:targets.sporting-difficulty-classes}}. Ne vous inquiétez pas si vous manquez un plateau de catégorie C : il est censé être difficile. Lire les plateaux s'apprend plus facilement avec un entraîneur qualifié qui vous montre où regarder."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "targets-reading-a-target-kp1": "D'abord le menu, puis observez attentivement pendant qu'on montre les plateaux.",
+    "targets-reading-a-target-kp2": "Trouvez où vous voyez le plateau clairement pour la première fois, et où vous le casserez.",
+    "targets-reading-a-target-kp3": "Notez la vitesse, l'angle, le vent, l'arrière-plan et si le plateau ralentit.",
+    "targets-reading-a-target-kp4": "Suivez des yeux ; en {{tm:sporting}} le simulacre de tir est interdit partout sur le terrain, en {{tm:compak}} hors des pas de tir et pendant que quelqu'un d'autre tire.",
+    "targets-reading-a-target-kp5": "Catégories de difficulté {{tm:sporting}} : {{fact:targets.sporting-difficulty-classes}}."
+  },
+  "did_you_know": "En {{tm:sporting}}, les doublés au coup de fusil ne sont pas montrés, mais vous avez déjà vu les deux plateaux : les doublés ne sont composés que de plateaux déjà montrés en simples depuis le même poste.",
+  "quiz": {
+    "targets-reading-a-target-q1": {
+      "q": "Qu'est-ce que le point de casse ?",
+      "options": {
+        "a": "L'endroit où vous prévoyez de casser le plateau",
+        "b": "L'endroit où se trouve le lanceur qui le lance",
+        "c": "L'endroit où le plateau touche le sol"
+      },
+      "explain": "Le point de casse est l'endroit de la trajectoire que vous choisissez à l'avance."
+    },
+    "targets-reading-a-target-q2": {
+      "q": "En {{tm:sporting}}, pendant qu'on montre les plateaux, peut-on épauler le fusil et le déplacer le long de la ligne du plateau ?",
+      "options": {
+        "a": "Oui, c'est une bonne préparation",
+        "b": "Non, c'est un simulacre de tir",
+        "c": "Oui, si le fusil est déchargé"
+      },
+      "explain": "Suivez seulement des yeux. Personne ne peut tirer ni faire semblant de tirer pendant qu'on montre les plateaux, et les fusils restent ouverts et déchargés jusqu'à ce que l'arbitre autorise à les fermer."
+    },
+    "targets-reading-a-target-q3": {
+      "q": "Quelle part des plateaux de catégorie C un tireur moyen casse-t-il en {{tm:sporting}} ?",
+      "options": {
+        "a": "Plus de 80 %",
+        "b": "De 60 à 80 %",
+        "c": "De 40 à 60 %"
+      },
+      "explain": "La catégorie C est la plus difficile : 40–60 %. La catégorie A dépasse 80 %, la catégorie B va de 60 à 80 %."
+    }
+  }
+}

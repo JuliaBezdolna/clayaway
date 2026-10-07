@@ -1,0 +1,139 @@
+{
+  "id": "technique-stance",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "d1753cc6",
+    "summary": "cb1ee8e1",
+    "basics-stance-p1": "f095dc75",
+    "basics-stance-p3": "e41ec5a4",
+    "basics-stance-p2": "183cf7c1",
+    "basics-stance-p4": "26cfa672",
+    "technique-stance-balance": "9375aeba",
+    "technique-stance-safety": "b6090803",
+    "technique-stance-p5": "5f2cb1ca",
+    "basics-stance-sim": "63127f72",
+    "basics-stance-p5": "6bcb4702",
+    "basics-stance-ph1": "1ccb8c80",
+    "basics-stance-ph2": "6bb84eed",
+    "basics-stance-ph3": "d01ade1f",
+    "basics-stance-ph4": "6d8b4572",
+    "basics-stance-kp4": "d427448c",
+    "basics-stance-kp3": "ec040c37",
+    "basics-stance-kp1": "fa08b3eb",
+    "basics-stance-kp2": "f400f31a",
+    "technique-stance-kp4": "e97e74f4",
+    "technique-stance-dyk": "681e9e7b",
+    "basics-stance-q1": "4dda1d84",
+    "basics-stance-q2": "d0ec971c",
+    "basics-stance-q3": "182f6286",
+    "technique-stance-q1": "87e9a8fc",
+    "technique-stance-q2": "69f96e18",
+    "technique-stance-q3": "d6b8cb79"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "basics-stance-p1": "A beállás (stance) az, ahogyan a lövész a lövés előtt áll. A hely kicsi: a {{tm:sporting}}-ban a lőállás 1 m-es négyzet vagy kör, és a korong kérése előtt mindkét lábnak belül kell lennie. A {{tm:compak}}-ban minden lőállás 1 m-es négyzet egy lövésiszög-határolóval (Firing Angle Limiter): ez egy keret, amely megakadályozza, hogy a lövész előrelépjen, és korlátozza a lendítést.",
+    "basics-stance-p3": "A legfontosabb utasítás: az elülső lábfejed mutasson a {{term:break-point|lövési pontra}}, arra a helyre, ahol a korongot el akarod találni. Így a lövés pillanatában a tested nyugodtan áll, és pontosan arra néz, amerre kell. Mielőtt kéred a korongot, fordítsd vissza a felsőtested a csípőből a {{term:hold-point|fegyvertartási pont}} felé, arra a helyre, ahol a csövek várják a korongot. Amikor a korong felszáll, egyszerűen visszafordulsz ugyanazon az úton, mint egy felhúzott rugó. Ha ehelyett a lábaid a dobógép felé néznek, figyelmeztetnek az edzők, a tested nem tud elég messzire fordulni a lövési pontig, és a fegyver megáll, vagy felemelkedik a fejed.",
+    "basics-stance-p2": "A szokásos alapállás: a lábak kb. vállszélességben vannak; jobbkezes lövésznél a bal láb kissé elöl van (balkezesnél fordítva). A térd laza, nincs kifeszítve. A testsúly kissé előre dől, körülbelül 60 százaléka az elülső lábon van. Az edzők ezt mondják: „nose over toes” – az orr a lábujjak fölött.",
+    "basics-stance-p4": "A test a csípőből fordul, nem a karokból. Lábaid minden korongnál kissé máshogy állhatnak.",
+    "technique-stance-balance": "A jó beállás megtartja az egyensúlyodat, miközben a test a koronggal együtt fordul. A kissé előre dőlő testtartás segít felvenni a {{term:recoil|visszarúgást}} is, nem hátralökődsz tőle; bővebben: {{lesson:health-recoil-shoulder-neck}}.",
+    "technique-stance-safety": "A biztonság előbbre való, mint a kényelem. Maradj a lőálláson belül, és fordulás előtt nyisd ki és ürítsd ki a fegyvert. Ez a szabály mindkét versenyszámban ugyanaz.",
+    "technique-stance-p5": "A beállás nem fotópóz. Egy edző megnézi, hogyan állsz, és kijavítja a részleteket: a lábak szélességét, szögét és a dőlést. Ez a lecke az alapokat magyarázza el; a technikát magát képzett edzővel tanuld meg.",
+    "basics-stance-sim": "Animáció: a pontozott vonalak mutatják, hogyan mutat az elülső láb a lövési pontra, és hogyan fordul vissza a test a fegyvertartási pontig."
+  },
+  "note": {
+    "basics-stance-p5": "A „front foot” és „back foot” kifejezést elülső és hátsó lábnak fordítsd, ne bal és jobb lábnak: a lövészed lehet balkezes."
+  },
+  "phrases": {
+    "basics-stance-ph1": {
+      "meaning": "Fordítsd az elülső lábfej hegyét afelé a hely felé, ahol a korongot eltalálod.",
+      "say": "Az elülső lábad mutasson a lövési pontra."
+    },
+    "basics-stance-ph2": {
+      "meaning": "Előbb a lövési ponthoz állítsd be a lábadat, aztán fordítsd vissza a felsőtestet a fegyvertartási pontig.",
+      "say": "Állj be a lövési pontra, aztán fordulj vissza a kiinduló pontig."
+    },
+    "basics-stance-ph3": {
+      "meaning": "Dőlj kissé az elülső lábadra, és ne feszítsd ki a térdedet.",
+      "say": "Súly előre, laza térd."
+    },
+    "basics-stance-ph4": {
+      "meaning": "Az egész felsőtest forog; a karok nem lendítik egymagukban a fegyvert.",
+      "say": "Csípőből fordulj, ne a karodból."
+    }
+  },
+  "key_points": {
+    "basics-stance-kp4": "Az elülső láb a lövési pont felé mutat; a csípőből fordulj vissza a fegyvertartási pontig.",
+    "basics-stance-kp3": "Lábak vállszélességben, laza térd, testsúly kissé előre.",
+    "basics-stance-kp1": "{{tm:sporting}}: a korong kérése előtt mindkét lábad legyen az 1 m-es lőálláson belül.",
+    "basics-stance-kp2": "{{tm:compak}}: 1 m-es lőállás egy lövésiszög-határolóval (Firing Angle Limiter).",
+    "technique-stance-kp4": "Mielőtt megfordulnál a lőálláson, nyisd ki és ürítsd ki a fegyvert."
+  },
+  "quiz": {
+    "basics-stance-q1": {
+      "q": "Merre szeretné az edző általában, hogy az elülső láb mutasson?",
+      "options": {
+        "a": "A dobógép felé",
+        "b": "A korongfelvételi pont felé",
+        "c": "A bíró felé",
+        "d": "A lövési pont felé"
+      },
+      "explain": "A lövési ponthoz állított lábak mellett a tested nyugodtan áll ott, ahol a lövés történik; ha a lábak a dobógép felé néznek, a testnek nem lesz elég fordulása."
+    },
+    "basics-stance-q2": {
+      "q": "Mit írnak elő a {{tm:sporting}} szabályai a lábakra a korong kérése előtt?",
+      "options": {
+        "a": "Mindkét lábad legyen a lőálláson belül",
+        "b": "Az elülső lábad legyen a lőállás vonalán",
+        "c": "A lábak legyenek összezárva",
+        "d": "Semmilyen előírás nincs"
+      },
+      "explain": "A készenléti testhelyzetről szóló szabály szerint a korong kérése előtt mindkét lábnak az 1 m-es lőálláson belül kell lennie."
+    },
+    "basics-stance-q3": {
+      "q": "Egy balkezes lövész. Az edző azt mondja: „Open your front foot”. Melyik lábról van szó?",
+      "options": {
+        "a": "Mindig a balról, kezességtől függetlenül",
+        "b": "A jobbról: ez a balkezes lövész elülső lába",
+        "c": "A hátsóról, amelyik közelebb van a dobógéphez",
+        "d": "Mindkét lábról egyszerre"
+      },
+      "explain": "Balkezes lövésznél az elülső láb a jobb. Ha a „front foot” kifejezést elülső lábnak fordítod, elkerülöd a hibát."
+    },
+    "technique-stance-q1": {
+      "q": "Hogyan szokta egy jobbkezes lövész elhelyezni a lábait?",
+      "options": {
+        "a": "A bal láb kissé elöl van",
+        "b": "A jobb láb messze elöl van",
+        "c": "A lábak összezárva, sarokkal érintkezve"
+      },
+      "explain": "A jobbkezes lövész a bal lábát helyezi kissé előre, a balkezes a jobbat."
+    },
+    "technique-stance-q2": {
+      "q": "Melyik pontra kell beállítani a lábaidat?",
+      "options": {
+        "a": "Arra, ahol a dobógép van",
+        "b": "A lövési pontra",
+        "c": "Arra, ahol a rotte várakozik"
+      },
+      "explain": "Így a tested könnyen pontosan arra fordul, ahol a korongot el fogod találni."
+    },
+    "technique-stance-q3": {
+      "q": "Hol kell lennie a lövész lábainak {{tm:sporting}}-ban a korong kérése előtt?",
+      "options": {
+        "a": "Bárhol a lőállás közelében",
+        "b": "Mindkettő a lőálláson belül",
+        "c": "Egy láb belül, egy kívül"
+      },
+      "explain": "A {{tm:sporting}} szabályai szerint a korong kérése előtt mindkét lábnak a lőálláson belül kell lennie."
+    }
+  },
+  "title": "Beállás: hogyan állj a lőállásban",
+  "summary": "Lábak, testsúly, térd és a test fordulása: egyszerű, kompakt beállás, amellyel könnyen, egyenletesen vezetheted a fegyvert a koronggal együtt.",
+  "did_you_know": "Egy {{tm:compak}} lőálláson a lövésiszög-határoló gyakran egy egyszerű, színes műanyag csövekből álló keret. Korlátozza, mennyire lehet a fegyvert oldalra, fel és le mozdítani."
+}

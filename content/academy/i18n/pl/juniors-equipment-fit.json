@@ -1,0 +1,83 @@
+{
+  "id": "juniors-equipment-fit",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "ca46943c",
+    "summary": "eb881e58",
+    "juniors-equipment-fit-p1": "b6402cc3",
+    "juniors-equipment-fit-p2": "0b937322",
+    "juniors-equipment-fit-p3": "62ae0190",
+    "juniors-equipment-fit-p4": "b7289c0c",
+    "juniors-equipment-fit-p7": "62dba988",
+    "juniors-equipment-fit-p5": "97c97871",
+    "juniors-equipment-fit-p6": "e0618cad",
+    "juniors-equipment-fit-kp1": "34b77035",
+    "juniors-equipment-fit-kp2": "5bf72aa4",
+    "juniors-equipment-fit-kp3": "ed30b802",
+    "juniors-equipment-fit-kp4": "072ab1c0",
+    "juniors-equipment-fit-kp5": "8087d16c",
+    "juniors-equipment-fit-dyk": "854a04c5",
+    "juniors-equipment-fit-q1": "cedce39c",
+    "juniors-equipment-fit-q2": "9fbee996",
+    "juniors-equipment-fit-q3": "a37e7a90"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Sprzęt dopasowany do dziecka",
+  "summary": "Broń dla dorosłego jest dla dziecka zwykle za długa i za ciężka. Krótsza kolba, lekka broń, miękkie naboje i ochrona w rozmiarach dziecięcych sprawiają, że {{tm:sporting}} i {{tm:compak}} są bezpieczniejsze i przyjemniejsze.",
+  "body": {
+    "juniors-equipment-fit-p1": "Broń dla dorosłego jest dla dziecka zwykle za długa i za ciężka. Dziecko odchyla się do tyłu, by ją utrzymać, kolba uderza w policzek i bark, a po kilku strzałach może pojawić się strach. Dlatego {{term:gun-fit|dopasowanie strzelby}} ma dla młodych strzelców jeszcze większe znaczenie niż dla dorosłych.",
+    "juniors-equipment-fit-p2": "Kluczowa miara to {{term:length-of-pull|długość kolby}}: {{fact:gear.length-of-pull}}. {{term:youth-gun|Modele juniorskie}} mają krótszą, lżejszą kolbę, a niektóre strzelby mają regulowaną kolbę i {{term:comb|grzbiet kolby}}. Gdy dziecko rośnie, kolbę wydłuża się przekładkami, więc sprawdzaj dopasowanie co sezon z trenerem albo {{term:gun-fitter|specjalistą od dopasowania broni}}.",
+    "juniors-equipment-fit-p3": "Częstym wyborem jest lekka broń kalibru 20 — {{term:over-and-under|bok}} albo {{term:semi-automatic|półautomat}}. Półautomat gazowy rozkłada odrzut w czasie, więc wielu strzelcom wydaje się łagodniejszy. Naboje z lekką naważką też zmniejszają odrzut i strzelanie jest przyjemniejsze.",
+    "juniors-equipment-fit-p4": "Ochrona też musi być dopasowana: dziecięce nauszniki albo zatyczki, okulary strzeleckie z odpornymi na uderzenia szkłami i czapka z daszkiem. {{term:shooting-vest|Kamizelka strzelecka}} nie może być za duża, bo broń będzie się o nią zawadzać podczas składania do strzału.",
+    "juniors-equipment-fit-p7": "W {{tm:sporting}} przepisy dodają jeszcze jedno: dzieci na terenie strzelnicy poza klubem muszą przez cały czas nosić {{term:hearing-protection|ochronę słuchu}}. Wiele rodzin trzyma się tego nawyku na każdej strzelnicy.",
+    "juniors-equipment-fit-p5": "Ubranie powinno być wygodne i odpowiednie do pogody. Na zawodach w obu dyscyplinach sandały są zakazane, a szorty muszą być długie i kończyć się {{fact:rules.dress-shorts-length}}. Zakryte buty z dobrą przyczepnością są potrzebne też na treningu. Więcej: {{lesson:gear-clothing-and-shoes}}.",
+    "juniors-equipment-fit-p6": "Nie spiesz się z kupnem drogiego sprzętu. Zacznij od klubowej broni do wypożyczenia, potem przyjrzyj się używanym modelom juniorskim. Własną broń warto kupić, gdy zainteresowanie dziecka jest trwałe, i za radą trenera. O dopasowaniu ogólnie: {{lesson:gun-fit}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "juniors-equipment-fit-kp1": "Broń dla dorosłego jest dla dziecka zwykle za długa i za ciężka.",
+    "juniors-equipment-fit-kp2": "Długość kolby to kluczowa miara dopasowania; sprawdzaj ją co sezon.",
+    "juniors-equipment-fit-kp3": "Lekka broń kalibru 20 i naboje z lekką naważką.",
+    "juniors-equipment-fit-kp4": "Ochrona słuchu, okulary i kamizelka w rozmiarach dziecięcych.",
+    "juniors-equipment-fit-kp5": "Najpierw wypożyczenie; kupno, gdy zainteresowanie jest trwałe."
+  },
+  "did_you_know": "Przepisy FITASC ograniczają kaliber tylko od góry ({{fact:gear.fitasc-max-gauge}}), więc broń kalibru 20 jest dozwolona na zawodach w obu dyscyplinach.",
+  "quiz": {
+    "juniors-equipment-fit-q1": {
+      "q": "Co się dzieje, gdy dziecko strzela z za długiej broni?",
+      "options": {
+        "a": "Odchyla się do tyłu i silniej czuje odrzut",
+        "b": "Nic się nie zmienia, jest nawet łatwiej",
+        "c": "Rzutki zdają się lecieć wolniej",
+        "d": "Osyp staje się znacznie gęstszy"
+      },
+      "explain": "Za długa broń psuje postawę, wzmacnia odrzut i może przestraszyć dziecko."
+    },
+    "juniors-equipment-fit-q2": {
+      "q": "Co to jest długość kolby?",
+      "options": {
+        "a": "Długość luf do wylotu",
+        "b": "Odległość od spustu do środka stopki",
+        "c": "Waga broni razem z czokami",
+        "d": "Odległość od szyny do wierchu grzbietu kolby"
+      },
+      "explain": "To właśnie ta miara jest najczęściej zmieniana, by dopasować broń do dziecka."
+    },
+    "juniors-equipment-fit-q3": {
+      "q": "Kiedy warto kupić dziecku własną broń?",
+      "options": {
+        "a": "Jeszcze przed pierwszymi zajęciami na strzelnicy",
+        "b": "Tylko zupełnie nowy i bardzo drogi model",
+        "c": "Gdy zainteresowanie jest trwałe, i za radą trenera",
+        "d": "Jak tylko dziecko podniesie broń dla dorosłego"
+      },
+      "explain": "Najpierw wypożyczenie i modele używane; kupno, gdy wiadomo, że dziecko będzie kontynuować."
+    }
+  }
+}

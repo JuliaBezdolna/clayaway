@@ -1,0 +1,366 @@
+{
+  "id": "juniors-competitions-and-costs",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "parent",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025/categories-2027",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "juniors-competitions-and-costs"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "club-shoot",
+    "junior",
+    "open-ranking",
+    "category",
+    "team",
+    "coaching",
+    "gauge",
+    "load-weight",
+    "yellow-card",
+    "cartridge",
+    "sports-licence",
+    "entry-fee"
+  ],
+  "rule_refs": [
+    {
+      "book": "categories",
+      "id": "junior"
+    },
+    {
+      "book": "categories",
+      "id": "lady"
+    },
+    {
+      "book": "categories",
+      "id": "men"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-permitted-guns"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-cartridges"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-load"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    }
+  ],
+  "facts": [
+    "competitions.categories-from",
+    "basics.fitasc-junior-age",
+    "basics.fitasc-categories-2027",
+    "competitions.team-size",
+    "gear.fitasc-max-gauge",
+    "gear.fitasc-min-barrel",
+    "gear.fitasc-shot-load"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — Categories (valid from 1 January 2027)",
+        "uk": "FITASC — категорії (чинні з 1 січня 2027 року)"
+      },
+      "url": "https://www.fitasc.com/competitions/categories",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Junior competitions and costs",
+    "uk": "Змагання для юніорів і витрати"
+  },
+  "summary": {
+    "en": "From club shoots to international events in {{tm:sporting}} and {{tm:compak}}: the Junior category from 2027, the rules young shooters follow, and the costs to plan for.",
+    "uk": "Від клубних стартів до міжнародних змагань з {{tm:sporting}} і {{tm:compak}}: категорія Junior з 2027 року, правила для юних стрільців і витрати, які варто запланувати."
+  },
+  "body": [
+    {
+      "k": "juniors-competitions-and-costs-p1",
+      "t": "p",
+      "en": "A good place for a child’s first competitions is your own club: {{term:club-shoot|club shoots}} are short, friendly and low in pressure. Next come regional and national events and, with experience, international FITASC competitions in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "Перші змагання дитини добре почати у своєму клубі: {{term:club-shoot|клубні старти}} (club shoot) короткі, дружні й без зайвого тиску. Далі — регіональні та національні змагання, а з досвідом — міжнародні змагання FITASC з {{tm:sporting}} і {{tm:compak}}."
+    },
+    {
+      "k": "juniors-competitions-and-costs-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "FITASC uses a new table of categories from {{fact:competitions.categories-from}}. Under it, boys and girls are {{term:junior|Juniors}} {{fact:basics.fitasc-junior-age}}. For 2027 that means born in 2007–2014; only the year of birth counts. A junior’s score counts twice: in the Junior category and in the {{term:open-ranking|open ranking}}, where everyone competes together.",
+      "uk": "З {{fact:competitions.categories-from}} FITASC застосовує нову таблицю категорій. За нею хлопці й дівчата належать до категорії {{term:junior|Junior}} {{fact:basics.fitasc-junior-age}}. Для 2027 року це народжені у 2007–2014 роках; важить лише рік народження. Результат юніора рахують двічі: у категорії Junior і в {{term:open-ranking|загальному заліку}}, де змагаються всі разом."
+    },
+    {
+      "k": "juniors-competitions-and-costs-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "All six FITASC {{term:category|categories}} are {{fact:basics.fitasc-categories-2027}}. These are international rules: national and club events may use their own categories and age limits, so read the programme. More: {{lesson:competitions-categories-and-shoot-offs}}.",
+      "uk": "Усі шість {{term:category|категорій}} FITASC: {{fact:basics.fitasc-categories-2027}}. Це міжнародні правила: національні та клубні змагання можуть мати власні категорії й вікові межі, тож читайте програму. Докладніше: {{lesson:competitions-categories-and-shoot-offs}}."
+    },
+    {
+      "k": "juniors-competitions-and-costs-p4",
+      "t": "p",
+      "disc": "both",
+      "en": "A FITASC {{term:team|team}} usually has {{fact:competitions.team-size}}. A shooter picked for a team of another category must also enter that category individually: a junior girl in the Lady team, for example, also enters Lady.",
+      "uk": "У {{term:team|команді}} FITASC зазвичай {{fact:competitions.team-size}}. Якщо стрільця обрали до команди іншої категорії, він має й особисто виступати в цій категорії: наприклад, юніорка в команді Lady виступає й особисто в категорії Lady."
+    },
+    {
+      "k": "juniors-competitions-and-costs-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "Juniors follow the same rules as adults: safety, dress, the ban on {{term:coaching|coaching}}, and the rules for guns and cartridges. The gun rules: a smooth-bore shotgun {{fact:gear.fitasc-max-gauge}}, with barrels {{fact:gear.fitasc-min-barrel}}; pump-action guns are not allowed. Gauge is the width of the barrel, and a higher number means a narrower barrel, so a 20-{{term:gauge|gauge}} gun (narrower, usually lighter) is allowed. A cartridge may hold {{fact:gear.fitasc-shot-load}}.",
+      "uk": "Для юніорів діють ті самі правила, що й для дорослих: безпека, одяг, заборона {{term:coaching|підказок}} (coaching), вимоги до рушниць і набоїв. Вимога до зброї: гладкоствольна рушниця, {{fact:gear.fitasc-max-gauge}}, зі стволами {{fact:gear.fitasc-min-barrel}}; помпові рушниці не дозволені. Калібр — це ширина ствола, і що більше число, то вужчий ствол, тож рушниця 20 {{term:gauge|калібру}} (вужча, зазвичай легша) дозволена. {{term:load-weight|Наважка}} набою — {{fact:gear.fitasc-shot-load}}."
+    },
+    {
+      "k": "juniors-competitions-and-costs-coaching",
+      "t": "warn",
+      "disc": "both",
+      "en": "During the competition nobody may coach a shooter, and that includes parents. If the referee sees coaching, the shooter gets a {{term:yellow-card|yellow card}} and the adviser is sent out of the shooting area. How to support without pressure: {{lesson:juniors-support-without-pressure}}.",
+      "uk": "Під час змагань ніхто не може підказувати стрільцеві, і батьки теж. Якщо суддя помітить підказки, стрілець отримає {{term:yellow-card|жовту картку}}, а того, хто підказував, видалять із зони стрільби. Як підтримувати без тиску: {{lesson:juniors-support-without-pressure}}."
+    },
+    {
+      "k": "juniors-competitions-and-costs-p6",
+      "t": "p",
+      "en": "Now the costs, in general terms. Regular spending goes on targets and {{term:cartridge|cartridges}}, usually the biggest item, plus lessons with a coach. One-off spending goes on kit: a gun or its hire, protection, a vest and shoes. Each year there is club membership, the federation’s {{term:sports-licence|sports licence}} and insurance. Competitions add {{term:entry-fee|entry fees}}, travel and accommodation.",
+      "uk": "Тепер про витрати, у загальних рисах. Регулярно доведеться платити за мішені й {{term:cartridge|набої}} — зазвичай це найбільша стаття, а ще за заняття з тренером. Разово — за спорядження: рушницю чи її оренду, захист, жилет і взуття. Щороку — членство в клубі, {{term:sports-licence|спортивна ліцензія}} федерації і страхування. Змагання додають {{term:entry-fee|стартові внески}}, дорогу й проживання."
+    },
+    {
+      "k": "juniors-competitions-and-costs-p7",
+      "t": "tip",
+      "en": "Plan a budget for the season and add costs step by step. Ask the club about junior discounts, club guns and second-hand kit; some clubs and federations run support programmes for juniors. What the sport costs: {{lesson:budget-what-it-costs}}; a plan for the first year: {{lesson:budget-first-year-plan}}.",
+      "uk": "Плануйте бюджет на сезон і додавайте витрати поступово. Запитайте в клубі про юніорські знижки, клубні рушниці й уживане спорядження; деякі клуби й федерації мають програми підтримки юніорів. Скільки коштує цей спорт: {{lesson:budget-what-it-costs}}; план на перший рік: {{lesson:budget-first-year-plan}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "juniors-competitions-and-costs-kp1",
+      "en": "Start with club shoots.",
+      "uk": "Починайте з клубних змагань."
+    },
+    {
+      "k": "juniors-competitions-and-costs-kp2",
+      "en": "Junior in the FITASC table from 2027: {{fact:basics.fitasc-junior-age}}.",
+      "uk": "Junior за таблицею FITASC з 2027 року: {{fact:basics.fitasc-junior-age}}."
+    },
+    {
+      "k": "juniors-competitions-and-costs-kp4",
+      "en": "Juniors follow the adult rules; a 20-gauge gun is allowed.",
+      "uk": "Для юніорів діють ті самі правила, рушниця 20 калібру дозволена."
+    },
+    {
+      "k": "juniors-competitions-and-costs-kp-coaching",
+      "en": "No advice from the side during the round: it can cost the young shooter a yellow card.",
+      "uk": "Жодних порад збоку під час раунду: це може коштувати юному стрільцеві жовтої картки.",
+      "checklist": true
+    },
+    {
+      "k": "juniors-competitions-and-costs-kp5",
+      "en": "The main costs are targets and cartridges; plan a season budget.",
+      "uk": "Головні витрати — мішені й набої; плануйте бюджет на сезон."
+    }
+  ],
+  "did_you_know": {
+    "k": "juniors-competitions-and-costs-dyk",
+    "en": "For FITASC categories only the year of birth matters: a shooter born on 31 December moves to the next category on 1 January, just like one born in January.",
+    "uk": "Для категорій FITASC важить лише рік народження: стрілець, народжений 31 грудня, переходить у наступну категорію з 1 січня так само, як і народжений у січні."
+  },
+  "quiz": [
+    {
+      "k": "juniors-competitions-and-costs-q1",
+      "q": {
+        "en": "Who is in the Junior category in the FITASC table from 2027?",
+        "uk": "Хто належить до категорії Junior за таблицею FITASC з 2027 року?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Everyone up to the year they turn 25",
+          "uk": "Усі до року, коли виповнюється 25"
+        },
+        {
+          "k": "b",
+          "en": "From the year they turn 13 to the year they turn 20",
+          "uk": "З року, коли виповнюється 13, до року, коли виповнюється 20"
+        },
+        {
+          "k": "c",
+          "en": "Only boys, from the year they turn 12 to 16",
+          "uk": "Лише хлопці, з року, коли виповнюється 12, до 16"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Junior runs from 1 January of the year a shooter turns 13 to 31 December of the year they turn 20, for girls and boys.",
+        "uk": "Junior — з 1 січня року, коли виповнюється 13, до 31 грудня року, коли виповнюється 20, для дівчат і хлопців."
+      },
+      "rule_ref": "categories:junior"
+    },
+    {
+      "k": "juniors-competitions-and-costs-q2",
+      "q": {
+        "en": "Does a junior take part in the open ranking?",
+        "uk": "Чи бере юніор участь у загальному заліку?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, only in the Junior ranking",
+          "uk": "Ні, лише в заліку Junior"
+        },
+        {
+          "k": "b",
+          "en": "Only if they win the Junior ranking",
+          "uk": "Лише якщо виграє залік Junior"
+        },
+        {
+          "k": "c",
+          "en": "Yes, together with the Junior ranking",
+          "uk": "Так, разом із заліком Junior"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "One score counts in both the open ranking and the category ranking.",
+        "uk": "Один результат іде і в загальний залік, і в залік категорії."
+      }
+    },
+    {
+      "k": "juniors-competitions-and-costs-q3",
+      "q": {
+        "en": "What is usually the largest regular cost?",
+        "uk": "Що зазвичай найбільша регулярна стаття витрат?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Targets and cartridges",
+          "uk": "Мішені й набої"
+        },
+        {
+          "k": "b",
+          "en": "Medals and trophies",
+          "uk": "Медалі й кубки"
+        },
+        {
+          "k": "c",
+          "en": "A new gun each season",
+          "uk": "Нова рушниця щосезону"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Targets and cartridges are used at each session, so budget for them first.",
+        "uk": "Мішені й набої витрачаються на кожному тренуванні, тож їх варто закласти в бюджет першими."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "juniors-competitions-and-costs-q-coaching",
+      "disc": "both",
+      "q": {
+        "en": "A parent calls out advice to their child during the round. What can happen?",
+        "uk": "Під час раунду батько чи мати гукає дитині поради. Що може статися?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing; parents may give advice",
+          "uk": "Нічого: батькам підказувати можна"
+        },
+        {
+          "k": "b",
+          "en": "A yellow card, and the parent is sent away",
+          "uk": "Жовта картка, а батька чи матір видаляють"
+        },
+        {
+          "k": "c",
+          "en": "The whole round is shot again",
+          "uk": "Увесь раунд перестрілюють"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Coaching during the competition is not allowed: the shooter gets a yellow card and the person coaching is sent out of the shooting area.",
+        "uk": "Підказки під час змагань заборонені: стрілець отримує жовту картку, а того, хто підказував, видаляють із зони стрільби."
+      },
+      "rule_ref": "sporting:ch8-coaching"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "6a7c2787",
+    "summary": "39aea339",
+    "juniors-competitions-and-costs-p1": "a6cbedfb",
+    "juniors-competitions-and-costs-p2": "c58b1c39",
+    "juniors-competitions-and-costs-p3": "6da6f846",
+    "juniors-competitions-and-costs-p4": "9ea6119c",
+    "juniors-competitions-and-costs-p5": "d2b2a3c4",
+    "juniors-competitions-and-costs-coaching": "2c515751",
+    "juniors-competitions-and-costs-p6": "7a5d6d94",
+    "juniors-competitions-and-costs-p7": "92e2c633",
+    "juniors-competitions-and-costs-kp1": "71b2de85",
+    "juniors-competitions-and-costs-kp2": "6aed9448",
+    "juniors-competitions-and-costs-kp4": "0e025231",
+    "juniors-competitions-and-costs-kp-coaching": "a35b1682",
+    "juniors-competitions-and-costs-kp5": "328009e0",
+    "juniors-competitions-and-costs-dyk": "3cb27350",
+    "juniors-competitions-and-costs-q1": "ef071e44",
+    "juniors-competitions-and-costs-q2": "8d078f25",
+    "juniors-competitions-and-costs-q3": "fabccff9",
+    "juniors-competitions-and-costs-q-coaching": "fd56d33f"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "interpreter-false-friends",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "93be8a38",
+    "summary": "2c55b920",
+    "interpreter-false-friends-intro": "39c55cd5",
+    "interpreter-false-friends-p1": "3e0535c1",
+    "interpreter-false-friends-p2": "3cf9ded2",
+    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-cards": "3645d5da",
+    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-ph1": "7ff90f13",
+    "interpreter-false-friends-ph2": "3677adad",
+    "interpreter-false-friends-ph3": "f46276ac",
+    "interpreter-false-friends-ph4": "d629b25a",
+    "interpreter-false-friends-ph5": "1a9f89c1",
+    "interpreter-false-friends-ph6": "17d1f7d8",
+    "interpreter-false-friends-kp1": "6cad2a11",
+    "interpreter-false-friends-kp2": "aaa1da92",
+    "interpreter-false-friends-kp3": "2fc47aba",
+    "interpreter-false-friends-kp4": "c8245804",
+    "interpreter-false-friends-kp5": "df7d4fa7",
+    "interpreter-false-friends-kp6": "19cf2f99",
+    "interpreter-false-friends-q1": "4fa72f2b",
+    "interpreter-false-friends-q2": "d58615b3",
+    "interpreter-false-friends-q3": "3c4d036d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Falešní přátelé na střelnici",
+  "summary": "Střelecká slova, která vypadají známě, ale znamenají něco jiného: dým a prach, slova pro skórování, „trap“, „stand“ a „squad“, a pasti z francouzštiny, italštiny a portugalštiny.",
+  "body": {
+    "interpreter-false-friends-intro": "{{term:false-friend|Zrádné slovo}} je slovo, které vypadá známě, ale na střelnici znamená něco jiného. Některá z nich mění výsledek, takže se je vyplatí naučit jako první.",
+    "interpreter-false-friends-p1": "Největší past je dým. Když trenér vykřikne „{{term:smoked-it|Smoked it!}}“ (nebo „inked it“, „powdered it“), chválí dokonalý zásah: terč zmizel v oblaku. Podle pravidel je ale terč, ze kterého uletí jen prach nebo dým bez {{term:visible-piece|viditelného úlomku}}, {{term:zero|nula}} – tedy chyba. „{{term:chip|Chip}}“, malý viditelný úlomek, je zásah ({{term:one|one}}). „Dusted it“ je riskantní slovo: může znamenat, že odletěl jen prach (nula), nebo pro některé trenéry rozbitý terč. Trenérovo „smoked it“ proto překládejte jako čistý, úplný zásah a rozhodčího „only dust“ jako nulu, a co znamená „dusted it“, raději se zeptejte.",
+    "interpreter-false-friends-p2": "Slova pro skórování nejsou doslovná. „Dead“ a „kill“ znamenají zásah, nic společného se smrtí. „Lost“ znamená chybu, ne něco ztraceného. „Dropped two“ znamená dva minuté terče. „Straight“ ve „25 straight“ znamená bezchybnou sérii bez jediné chyby.",
+    "interpreter-false-friends-p3": "Slova o vybavení a místě. „Trap“ je {{term:trap|vrhačka}}, ne past; Trap je také olympijská disciplína. „Stand“ je jedno střelecké místo, {{term:shooting-stand|stanoviště}}, ne celá střelnice; v {{tm:compak}} se místům často říká čísla. „{{term:peg|Peg}}“ je stanoviště střelce: název pochází z očíslovaného kolíku, kterým se při honu na hnanou zvěř označuje místo každého střelce, takže ho nepřekládejte jako „kolík“. „Broken gun“ je otevřená zbraň. „Pull!“ je {{term:call|povel}}, „{{term:pull-away|pull-away}}“ je metoda předsazení a „{{term:length-of-pull|length of pull}}“ je délka pažby, od spouště po botku pažby.",
+    "interpreter-false-friends-cards": "„Card“ je {{term:score-sheet|položkový list}}, ale i žlutá nebo červená karta. „On report“ znamená na zvuk výstřelu, jako u {{term:double-on-report|dvojstřelu na hlášenou}}. „{{term:squad|Squad}}“ je soutěžní skupina, ve které je {{fact:rules.squad-max-shooters}}. Zájezdy ClayAway, které se připravují, budou tímto slovem označovat i podskupinu v rámci zájezdu.",
+    "interpreter-false-friends-p4": "Jiné jazyky mají své vlastní pasti. Francouzské „chandelle“ je terč, který vyletí téměř svisle vzhůru; anglicky se mu říká {{term:teal|teal}}. Není to anglický {{term:chandelle|chandelle}} – terč, který prudce stoupá po oblouku a pak padá. Francouzské „en battue“ a italské „in battuta“ znamenají hnanou zvěř (odtud terč {{term:driven-target|přes hlavu}}), ne terč {{term:battue|battue}}. V portugalštině je „batida“ terč battue, zatímco „de batida“ znamená hnaný. Při zásahu řekne francouzský rozhodčí „Bon“ a italský „Buono“, a {{term:trapper|obsluze vrhačky}} se často říká „pulleur“ nebo „puller“. Slova pro skupinu se také liší, proto používejte to, které je v regulérním řádu dané soutěže."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-false-friends-ph1": {
+      "meaning": "Dokonalý zásah, terč se změnil v prach. Ne „jen kouř“ z pravidel.",
+      "say": "Rozprášil jste ho!"
+    },
+    "interpreter-false-friends-ph2": {
+      "meaning": "Rozhodčí: neodlétl žádný viditelný úlomek, takže je to chyba.",
+      "say": "Jen prach – nula."
+    },
+    "interpreter-false-friends-ph3": {
+      "meaning": "Odlomil se malý viditelný kousek: počítá se jako zásah.",
+      "say": "Jen škrtnutý, ale je dole."
+    },
+    "interpreter-false-friends-ph4": {
+      "meaning": "Otevřete zbraň. S rozbíjením to nemá nic společného.",
+      "say": "Zlomte zbraň."
+    },
+    "interpreter-false-friends-ph5": {
+      "meaning": "Postavte se na vyznačené střelecké místo.",
+      "say": "Postavte se na stanoviště."
+    },
+    "interpreter-false-friends-ph6": {
+      "meaning": "Druhý terč vypustí zvuk vaší první rány.",
+      "say": "Druhý je na hlášenou."
+    }
+  },
+  "key_points": {
+    "interpreter-false-friends-kp1": "Trenérovo „smoked it“ = dokonalý zásah; pravidla „jen prach nebo kouř“ = nula",
+    "interpreter-false-friends-kp2": "Dead / kill = zásah; lost / dropped = chyba; straight = čistá položka",
+    "interpreter-false-friends-kp3": "Trap = vrhačka; stand = jedno stanoviště; peg = místo střelce; broken gun = otevřená zbraň",
+    "interpreter-false-friends-kp4": "Pull, card, report a squad mají každé víc významů",
+    "interpreter-false-friends-kp5": "Francouzské chandelle a „en battue“ se liší od anglických slov",
+    "interpreter-false-friends-kp6": "„Dusted it“ může znamenat obojí: zeptejte se"
+  },
+  "quiz": {
+    "interpreter-false-friends-q1": {
+      "q": "Trenér po výstřelu zakřičí „Smoked it!“. Co se stalo?",
+      "options": {
+        "a": "Odletěl jen kouř: nula",
+        "b": "Terč byl zničen: dokonalý zásah",
+        "c": "Náboj selhal",
+        "d": "Byl to terč flash"
+      },
+      "explain": "V trenérském slangu je „smoked it“ dokonalý zásah; v pravidlech je „only dust or smoke“ nula. Významy jsou opačné."
+    },
+    "interpreter-false-friends-q2": {
+      "q": "Rozhodčí řekne „Lost.“. Co to znamená?",
+      "options": {
+        "a": "Terč zmizel z dohledu",
+        "b": "Střelci vypršel čas",
+        "c": "Terč sešel ze své obvyklé dráhy",
+        "d": "Chyba: terč je nula"
+      },
+      "explain": "„Lost“ je slovo pro skórování chyby (nuly), ne pro něco ztraceného."
+    },
+    "interpreter-false-friends-q3": {
+      "q": "Francouzský host řekne, že rád střílí „en battue“. Co tím myslí?",
+      "options": {
+        "a": "Hon na hnanou zvěř (ptáky ženou na střelce)",
+        "b": "Tenký terč battue, který se otáčí",
+        "c": "Terč vypuštěný jako součást dvojstřelu",
+        "d": "Terč, který se rozpadne na prach"
+      },
+      "explain": "Francouzské „en battue“ (italské „in battuta“) znamená hon na hnanou zvěř; terč battue je něco jiného."
+    }
+  }
+}

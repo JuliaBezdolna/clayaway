@@ -6,51 +6,60 @@
 //   docs/rules/en/<key>/index.html   English
 // with canonical + hreflang, Open Graph, JSON-LD (WebPage, BreadcrumbList, FAQPage), and writes docs/sitemap.xml.
 // Indexing policy (CLAUDE.md): the FITASC rules retelling (guide, rule pages, categories, trainer) stays noindex and out
-// of the sitemap until FITASC gives permission (FITASC_INDEX below); the glossary and the Academies are indexable;
+// of the sitemap until FITASC gives permission (FITASC_INDEX at the top); the glossary and the Academy are indexable;
 // specs (concept, rules-spec) and the demo tours stay noindex. Links to FITASC are always rel="nofollow noopener noreferrer".
 // Also generated here for every page: FITASC trade marks in names/titles/meta (tm), a © ClayArena + privacy/legal/contacts
 // footer line (legal), and noindex redirect stubs for glossary ids merged into another id (aliases.json).
+// The ClayArena Academy (content/academy/ → docs/learn/, /<lang>/learn/, redirect stubs, sitemap-learn-<lang>.xml) is built by
+// scripts/build_academy.mjs, called from here FIRST: its errors stop the whole build (nothing is written), and the glossary pages
+// link to its lessons ("Де вивчити"). The old learn pages of build_seo*.mjs and scripts/build_interpreter*.py are retired.
+// Usage: bun scripts/build_seo.mjs [--out <dir>] [--skip-academy] [--quiet]
+//   --out <dir>       write the site into another folder (a copy of docs/ for a test build; data is read from the repo)
+//   --skip-academy    build the rest of the site although the Academy has blocking errors (its files on disk stay unchanged)
+//   --draft           full-site preview with the Academy draft lessons (only together with --out; never into docs/)
 import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
+import { BASE, esc, tm, legal } from "./site_common.mjs";
+import { buildAcademy } from "./build_academy.mjs";
 
-const BASE = "https://fenix-112323.github.io/clayaway/";
-const TODAY = new Date().toISOString().slice(0, 10);
+// ⚠⚠ FITASC_INDEX — the FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
+// and llms.txt until FITASC gives WRITTEN permission (CLAUDE.md, rules-spec "Легальність контенту"). Only the project owner sets it
+// to true. ONE switch: the Academy lessons with index:"fitasc" and the Practice game "referees-call" follow it too
+// (scripts/build_academy.mjs reads this line).
+const FITASC_INDEX = false;
+const ARGS = process.argv.slice(2), argVal = k => { const i = ARGS.indexOf(k); return i >= 0 ? ARGS[i + 1] : undefined; };
+const DOCS = (argVal("--out") || "docs").replace(/\\/g, "/").replace(/\/$/, ""); // site root to write (default docs)
+const SKIP_ACADEMY = ARGS.includes("--skip-academy");
+const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date()); // project time zone (CLAUDE.md)
 globalThis.window = {};
 await import("../docs/rules/data/sporting.js");
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
 
-const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const NAMES = { sporting: "Sporting™", compak: "Compak® Sporting" };
-// FITASC trade marks (CLAUDE.md): every visible name, title, heading, link text and meta text says "Sporting™" and
-// "Compak® Sporting". tm() adds the marks and is idempotent; it leaves "English Sporting" (a CPSA discipline, not FITASC),
-// "Sporting Clays" (NSCA), declined forms ("Sportingu") and lower-case words alone. Body text keeps its own wording.
-const tm = s => String(s ?? "").replace(/\bCompak(?![®\w])/g, "Compak®")
-  .replace(/(?<!\w)(?<!Compak® )(?<!Compak®-)(?<!English )Sporting(?![™\w])(?! [Cc]lays)/g, "Sporting™");
+// esc(), tm() (FITASC trade marks in names and meta) and legal() (© ClayArena footer line, audit W-03): scripts/site_common.mjs
 // Display name of a glossary term: data field `display_term` (glossary.js) or the headword with the marks added.
 // The plain `term` stays for sorting, pronunciation (ClaySpeak) and JSON-LD alternateName.
 const dispTerm = t => t.display_term || tm(t.term);
 // Titles longer than ~65 characters get cut in search results (audit W-07): fall back to "<name> | <site part>".
 const fitTitle = (full, short) => full.length <= 65 ? full : short;
-// Short meta descriptions (audit D-31): add the page context so the snippet says what the page is.
-const fitDesc = (d, ctx) => (d.length < 110 ? `${d} ${ctx}` : d).slice(0, 300);
-// Footer line on every generated page (audit W-03): © ClayArena + the ClayArena privacy policy, legal information and
-// contacts (also the address for rights holders). Production: ClayArena renders its own site footer instead.
-const CA_PATH = { uk: "uk-ua", de: "de-de" }; // clayarena.com locale paths that exist; other languages use /en/
-const LEGAL_TXT = {
-  uk: ["Політика конфіденційності", "Правова інформація", "Контакти (зокрема для правовласників)"],
-  en: ["Privacy policy", "Legal information", "Contacts (also for rights holders)"],
-  de: ["Datenschutzerklärung", "Rechtliche Hinweise", "Kontakt (auch für Rechteinhaber)"],
-  fr: ["Politique de confidentialité", "Informations légales", "Contact (y compris pour les ayants droit)"],
-  it: ["Informativa sulla privacy", "Note legali", "Contatti (anche per i titolari dei diritti)"],
-  cs: ["Zásady ochrany osobních údajů", "Právní informace", "Kontakty (i pro držitele práv)"],
-  pl: ["Polityka prywatności", "Informacje prawne", "Kontakt (także dla właścicieli praw)"],
-  pt: ["Política de privacidade", "Informação legal", "Contactos (também para titulares de direitos)"],
-  hu: ["Adatvédelmi tájékoztató", "Jogi információk", "Kapcsolat (jogtulajdonosoknak is)"],
-  fi: ["Tietosuojaseloste", "Oikeudelliset tiedot", "Yhteystiedot (myös oikeudenhaltijoille)"],
-  lt: ["Privatumo politika", "Teisinė informacija", "Kontaktai (taip pat teisių turėtojams)"]
-};
-const legal = lang => { const p = CA_PATH[lang] || "en", x = LEGAL_TXT[lang] || LEGAL_TXT.en;
-  return `<p class="legal">© ${new Date().getFullYear()} ClayArena · <a href="https://clayarena.com/${p}/privacy/">${x[0]}</a> · <a href="https://clayarena.com/${p}/legal/">${x[1]}</a> · <a href="https://clayarena.com/${p}/contacts/">${x[2]}</a></p>`; };
+// FITASC marks in meta descriptions — safety net (audit legal-02). tm() marks "Sporting" and "Compak" only as whole words, so a
+// glossary definition with a declined form ("w Compaku", "a Sportingban", "Sportingo varžybų lygis") would reach the meta and
+// og:description without ™/®. The definitions themselves are written with the mark in its base form ("w Sporting™ i Compak® Sporting",
+// "Sporting™ varžybų lygis"); when one slips through, tmMeta() adds the mark right after the stem and joins the ending with a hyphen
+// ("Compak®-u", "Sporting™-ban", the usual way to decline a marked name in hu/fi) and the build prints a WARNING with the words,
+// so the editor can rewrite that definition in docs/glossary/data/i18n/<lang>.js. Left alone, as in tm(): lower-case "sporting"
+// (the generic word, e.g. English sporting of the CPSA), "English Sporting", "Sporting Clays" (NSCA) and the "Sporting…" of
+// "Compak® Sporting…" (the ® already marks that name). Production: the same rule in the server template of the glossary pages.
+const TM_META_RE = /(?<![\p{L}\p{M}\p{N}])(Compak|Sporting)(?![®™])([\p{L}\p{M}]+)/gu;
+const tmMetaHits = new Map(); // declined form → first page path where it was marked (for the WARNING at the end of the build)
+const tmMeta = (s, where = "") => tm(s).replace(TM_META_RE, (w, stem, end, i, all) => {
+  if (stem === "Sporting" && /(?:Compak®[ -]|English )$/.test(all.slice(Math.max(0, i - 8), i))) return w;
+  if (!tmMetaHits.has(w)) tmMetaHits.set(w, where);
+  return `${stem}${stem === "Compak" ? "®" : "™"}-${end}`;
+});
+// Short meta descriptions (audit D-31): add the page context so the snippet says what the page is. Cut at 300 characters first,
+// then mark (a cut "Compak" at the end still gets its ®).
+const fitDesc = (d, ctx, where) => tmMeta((d.length < 110 ? `${d} ${ctx}` : d).slice(0, 300), where);
 const TXT = {
   uk: {
     title: d => `Правила ${d} FITASC простими словами — ClayArena`,
@@ -152,7 +161,7 @@ ${s.items.map(it => `<article class="item" id="${it.id}"><h3>${esc(tx(it, "title
 </main></div>
 </body>
 </html>`;
-  const dir = lang === "uk" ? `docs/rules/${key}` : `docs/rules/en/${key}`;
+  const dir = lang === "uk" ? `${DOCS}/rules/${key}` : `${DOCS}/rules/en/${key}`;
   mkdirSync(dir, { recursive: true });
   writeFileSync(`${dir}/index.html`, html);
   return url;
@@ -192,10 +201,6 @@ globalThis.termLinks = (it, lang) => {
   if (!ids.length) return "";
   return `<div class="ref">${lang === "uk" ? "Терміни" : "Terms"}: ${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${esc(dispTerm(GBY[id]))}</a>`).join(" · ")}</div>`;
 };
-// Interpreter Academy lesson link: the static, indexable lesson page of that language (scripts/build_interpreter_pages.py),
-// or the app when the static page has not been built yet.
-const interpUrl = (lang, id) => existsSync(`docs/interpreter/${lang}/${id}/index.html`) ? `${BASE}interpreter/${lang}/${id}/` : `${BASE}interpreter/?lang=${lang}#l/${id}`;
-
 function glossaryPages() {
   if (!GLOSS) return [];
   const out = [];
@@ -227,12 +232,12 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
   for (const t of GLOSS.terms) {
     const url = `${BASE}glossary/${t.id}/`, name = dispTerm(t);
     const title = fitTitle(`${name} — термін стендової стрільби | Глосарій ClayArena`, `${name} | Глосарій ClayArena`);
-    const desc = fitDesc(tm(`${t.term}: ${t.short_uk}`), "Термін стендової стрільби — глосарій ClayArena.");
+    const desc = fitDesc(tm(`${t.term}: ${t.short_uk}`), "Термін стендової стрільби — глосарій ClayArena.", `glossary/${t.id}/`);
     const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
     const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p></div>`).join("");
     const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${esc(dispTerm(GBY[r]))}</a>`).join(" ");
-    const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 6).map(id => `<li><a href="${BASE}learn/${id}/">${esc(tm(LESSON[id].title_uk))}</a> · ${esc(LESSON[id].module.title_uk)}</li>`).join("")
-      + (t.interp || []).filter(id => INTERP[id]).slice(0, 4).map(id => `<li><a href="${interpUrl("uk", id)}">${esc(tm(INTERP[id].title_uk))}</a> · Академія перекладача ClayArena</li>`).join("");
+    // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
+    const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
     const body = `<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
 <h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p>
 ${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
@@ -243,128 +248,69 @@ ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" 
 ${learn ? `<h2>Де вивчити</h2><ul>${learn}</ul>` : ""}
 ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}
 <p class="ref"><a href="${BASE}en/glossary/${t.id}/" hreflang="en" lang="en">English version</a></p>`;
-    const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tm(t.short_uk), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
+    const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
       { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name, item: url }] }];
-    mkdirSync(`docs/glossary/${t.id}`, { recursive: true });
-    writeFileSync(`docs/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body));
+    mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
+    writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body));
     out.push(url);
   }
   const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
   const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
 ${cats.map(c => `<h2>${esc(CAT_UK[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${esc(dispTerm(t))}</a>`).join("")}</div>`).join("\n")}`;
-  writeFileSync("docs/glossary/index.html", shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
+  writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
     [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody));
   return [BASE + "glossary/", ...out];
 }
 
 // ---------------------------------------------------------------------------------------------------
-// ClayArena Academy (beginners) — docs/learn/data/<module>.js → static lesson pages docs/learn/<lesson-id>/
-// (LearningResource + BreadcrumbList JSON-LD). The interactive app is docs/learn/index.html (#<lesson-id>).
-// Lesson new_terms that are not in the rules glossary become extra glossary entries (source "academy")
-// so every term chip has a page; they link back to the lesson that explains them.
-window.LEARN = [];
-for (const m of ["intro", "safety", "gun", "chokes", "cartridges", "targets", "technique", "competitions", "rules", "culture", "clayarena", "gear", "training", "juniors", "travel", "mind", "health", "women", "budget", "history", "watching", "nextstep"]) {
-  try { await import(`../docs/learn/data/${m}.js`); } catch (e) { /* module not written yet */ }
+// ClayArena Academy — ONE Academy for everybody: content/academy/ → scripts/build_academy.mjs (pages /learn/…, /<lang>/learn/…,
+// data, redirect stubs, sitemap-learn-<lang>.xml). It runs before anything is written: its errors stop the whole build.
+// --skip-academy runs its checks without writing (the Academy files on disk stay as they are). Its lessons give the glossary
+// pages their "Де вивчити" links (ACADEMY.learnLinks: final ids through id-map.json; old pages until they are replaced).
+const ACADEMY = await buildAcademy({ out: DOCS, fitascIndex: FITASC_INDEX, write: !SKIP_ACADEMY, quiet: ARGS.includes("--quiet"), draft: ARGS.includes("--draft") });
+if (!ACADEMY.ok && !SKIP_ACADEMY) {
+  console.error("\nSTOP: the Academy has blocking errors (listed above), nothing was written. Fix them (or set the lesson back to status \"draft\"),"
+    + "\nor run `bun scripts/build_seo.mjs --skip-academy` to build the rest of the site without touching the Academy.");
+  process.exit(1);
 }
-for (const c of ["de", "fr", "it", "es", "cz"]) { try { await import(`../docs/learn/data/laws-${c}.js`); } catch (e) {} }
-await import("../docs/learn/data/law-tables.js");
-// lawTableHtml(code, lang): static version of the country law table used by lessons with `law_table`.
-globalThis.lawTableHtml = (code, lang) => { const D = (window.LAWS || {})[code]; if (!D) return ""; const u = lang === "uk";
-  return `<h2>${u ? "Німеччина по землях: свинцевий дріб" : "Germany by state: lead shot"}</h2><p class="ref">${esc(u ? D.note_uk : D.note_en)} (${esc(D.as_of)})</p><div class="tw" style="overflow-x:auto;border:1px solid var(--line);border-radius:12px"><table style="border-collapse:collapse;width:100%;font-size:14px"><thead><tr>${(u ? ["Земля", "Норма", "Що заборонено", "З"] : ["State", "Rule", "What is banned", "Since"]).map(h => `<th style="text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)">${h}</th>`).join("")}</tr></thead><tbody>${D.states.map(x => `<tr><td style="padding:8px 10px;border-bottom:1px solid var(--line)"><b>${esc(u ? x.state_uk : x.state_en)}</b> (${esc(x.state_de)})</td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${x.url ? `<a href="${esc(x.url)}" ${NF}>${esc(x.law)}${x.article ? ", " + esc(x.article) : ""}</a>` : esc(x.law)}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${esc(u ? x.rule_uk : x.rule_en)}</td><td style="padding:8px 10px;border-bottom:1px solid var(--line)">${esc(x.since || "—")}</td></tr>`).join("")}</tbody></table></div>`; };
-const LEARN = window.LEARN.sort((a, b) => a.order - b.order);
-if (GLOSS) {
-  const have = new Set(GLOSS.terms.map(t => t.id));
-  for (const m of LEARN) for (const l of m.lessons) for (const n0 of (l.new_terms || [])) {
-    const n = { ...n0, id: rid(n0.id) }; // a merged duplicate id goes to its canonical entry (aliases.json)
-    if (have.has(n.id)) { const t = GBY[n.id]; if (t.learn && !t.learn.includes(l.id)) t.learn.push(l.id); continue; }
-    const t = { id: n.id, term: n.term, aka: [], cat: "Academy", short_uk: n.short_uk, short_en: n.short_en, long_uk: "", long_en: "", related: [], rule_refs: [], learn: [l.id], source: "academy" };
-    GLOSS.terms.push(t); GBY[n.id] = t; have.add(n.id);
-  }
-  for (const m of LEARN) for (const l of m.lessons) for (const id of (l.terms || [])) { const t = GBY[rid(id)]; if (t) { t.learn ||= []; if (!t.learn.includes(l.id)) t.learn.push(l.id); } }
+// Academy terms that are not in the glossary data yet (`new_terms` of lessons) get a thin uk/en entry, so every term chip of a lesson
+// has a page. Such a lesson is not published (build error "new-terms-left") until the term is in learn_terms.js (+ i18n).
+if (GLOSS) for (const n0 of ACADEMY.newTerms) {
+  const n = { ...n0, id: rid(n0.id) }; // a merged duplicate id goes to its canonical entry (aliases.json)
+  if (GBY[n.id]) continue;
+  const t = { id: n.id, term: n.term, aka: [], cat: "Academy", short_uk: n.short_uk, short_en: n.short_en, long_uk: "", long_en: "", related: [], rule_refs: [], source: "academy" };
+  GLOSS.terms.push(t); GBY[n.id] = t;
 }
-// Full entries for the lesson terms (docs/glossary/data/learn_terms.js, window.GLOSSARY_LEARN) replace the thin
-// one-line academy entries created above, keeping the computed `learn` links.
+// Full entries for the lesson terms (docs/glossary/data/learn_terms.js, window.GLOSSARY_LEARN) replace thin entries or are added.
 try { await import("../docs/glossary/data/learn_terms.js"); } catch (e) { /* not written yet */ }
 if (GLOSS && window.GLOSSARY_LEARN) for (const full of window.GLOSSARY_LEARN.terms) {
   const t = GBY[full.id];
-  if (!t) { const n = { ...full, learn: full.learn || [], source: "glossary" }; GLOSS.terms.push(n); GBY[full.id] = n; continue; } // entry not used by an Academy lesson (e.g. Interpreter Academy)
-  const learn = [...new Set([...(t.learn || []), ...(full.learn || [])])];
-  Object.assign(t, full, { learn, source: "academy" });
+  if (!t) { const n = { ...full, source: "glossary" }; GLOSS.terms.push(n); GBY[full.id] = n; continue; }
+  Object.assign(t, full, { source: "academy" });
+}
+// TRANSITION SAFETY NET (delete after the switch-over release): a thin Academy term that the lessons no longer list would turn its
+// published glossary page into a redirect stub. While the frozen old Academy sources (docs/learn/data/*.js) exist, such a term is kept
+// from there and listed in a warning: move it into docs/glossary/data/learn_terms.js (+ i18n) and this block finds nothing.
+if (GLOSS && existsSync("docs/learn/data")) {
+  window.LEARN = []; const kept = [];
+  for (const f of readdirSync("docs/learn/data").filter(f => f.endsWith(".js") && !/^law/.test(f))) { try { await import(`../docs/learn/data/${f}`); } catch (e) { /* frozen source */ } }
+  for (const m of window.LEARN || []) for (const l of m.lessons || []) for (const n0 of l.new_terms || []) {
+    const id = rid(n0.id), page = `${DOCS}/glossary/${id}/index.html`;
+    if (GBY[id] || !existsSync(page) || /http-equiv="refresh"/.test(readFileSync(page, "utf8"))) continue; // only terms whose page is live now
+    const t = { id, term: n0.term, aka: [], cat: "Academy", short_uk: n0.short_uk, short_en: n0.short_en, long_uk: "", long_en: "", related: [], rule_refs: [], source: "academy-legacy" };
+    GLOSS.terms.push(t); GBY[id] = t; kept.push(id);
+  }
+  if (kept.length) console.log(`WARNING: ${kept.length} glossary terms are kept only through the frozen old Academy sources (docs/learn/data): add them to learn_terms.js (+ i18n) before the switch-over: ${kept.join(", ")}`);
 }
 // Ukrainian usage: researched local forms (docs/glossary/data/i18n/uk.js: term_local + alt, conf) win over the older uk_usage text.
 try { await import("../docs/glossary/data/i18n/uk.js"); } catch (e) {}
 const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}).terms[t.id];
   if (x && x.term_local && x.conf !== "low") return [x.term_local, ...(x.alt || [])].filter(v => v !== t.term).slice(0, 3).map(v => `«${v}»`).join(", ");
   return t.uk_usage && t.uk_usage !== "—" ? t.uk_usage : ""; };
-// Interpreter Academy lessons that use a term (docs/interpreter/src/missions/*.json) -> "Де вивчити" on glossary pages.
-const INTERP = {};
-for (const f of readdirSync("docs/interpreter/src/missions").filter(f => f.endsWith(".json"))) {
-  const m = JSON.parse(readFileSync(`docs/interpreter/src/missions/${f}`, "utf8"));
-  for (const l of m.lessons) { INTERP[l.id] = { title_uk: l.title.uk, title_en: l.title.en, mission_uk: m.title.uk, mission_en: m.title.en };
-    for (const id of (l.terms || [])) { const t = GBY[rid(id)]; if (t) { t.interp ||= []; if (!t.interp.includes(l.id)) t.interp.push(l.id); } } }
-}
-const LESSON = Object.fromEntries(LEARN.flatMap(m => m.lessons.map(l => [l.id, { ...l, module: m }])));
 // Build check (audit G-06): one concept = one id. Two ids with the same headword give two pages with one title.
 { const seen = {}; for (const t of GLOSS ? GLOSS.terms : []) (seen[t.term.trim().toLowerCase()] ||= []).push(t.id);
   const dup = Object.entries(seen).filter(([, ids]) => ids.length > 1);
   if (dup.length) console.log("WARNING: the same glossary term under several ids — merge them and add the old id to aliases.json:", dup.map(([k, ids]) => `${k}: ${ids.join(", ")}`).join("; ")); }
-
-function lessonPages() {
-  const out = [];
-  for (const m of LEARN) m.lessons.forEach((l, i) => {
-    const url = `${BASE}learn/${l.id}/`, next = m.lessons[i + 1];
-    const name = tm(l.title_uk), sum = tm(l.summary_uk);
-    const title = fitTitle(`${name} — Академія ClayArena`, `${name} | ClayArena`);
-    const ld = [{ "@context": "https://schema.org", "@type": "LearningResource", name, alternateName: tm(l.title_en), description: sum, url, inLanguage: "uk",
-      learningResourceType: "Lesson", educationalLevel: "Beginner", timeRequired: `PT${l.minutes || 4}M`, isAccessibleForFree: true,
-      isPartOf: { "@type": "Course", name: "Академія ClayArena — стендова стрільба з нуля", url: BASE + "learn/" }, provider: { "@type": "Organization", name: "ClayArena", url: "https://clayarena.com/" } },
-      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Академія ClayArena", item: BASE + "learn/" },
-        { "@type": "ListItem", position: 2, name: m.title_uk, item: `${BASE}learn/#${m.module}` },
-        { "@type": "ListItem", position: 3, name, item: url }] }];
-    const terms = [...new Set((l.terms || []).map(rid))].filter(id => GBY[id]).map(id => `<a href="${BASE}glossary/${id}/">${esc(dispTerm(GBY[id]))}</a>`).join(" · ");
-    const refs = (l.rule_refs || []).map(r => { const b = BOOKS[r.book]; const it = b && b.sections.flatMap(s => s.items).find(x => x.id === r.id); return it ? `<li><a href="${BASE}rules/${r.book}/#${it.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]}</li>` : ""; }).join("");
-    const html = `<!doctype html>
-<html lang="uk">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>${esc(title)}</title>
-<meta name="description" content="${esc(sum)}">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="${url}">
-<meta property="og:type" content="article"><meta property="og:site_name" content="ClayArena">
-<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(sum)}">
-<meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}og/learn.png">
-<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png">
-<meta property="og:locale" content="uk_UA"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/learn.png">
-<meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
-${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`).join("\n")}
-<style>${CSS}.kp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:14px 0}article p{font-size:17px;line-height:1.75}</style>
-</head>
-<body>
-<header><div class="in"><a class="logo" href="${BASE}learn/"><b>ClayArena</b></a><nav class="crumbs"><a href="${BASE}learn/">Академія</a> › <a href="${BASE}learn/#${m.module}">${esc(m.title_uk)}</a></nav><span style="flex:1"></span><a class="btn primary" href="${BASE}learn/#${l.id}">Пройти урок з тестом</a></div></header>
-<main style="max-width:780px;margin:0 auto;padding:20px 16px 72px"><article>
-<div class="src">${esc(m.title_uk)} · ${i + 1}/${m.lessons.length} · ${l.minutes || 4} хв</div>
-<h1>${esc(name)}</h1>
-${(l.body_uk || []).map(p => `<p>${esc(p)}</p>`).join("\n")}
-<div class="kp"><b>Головне</b><ul>${(l.key_points_uk || []).map(k => `<li>${esc(k)}</li>`).join("")}</ul></div>
-${l.did_you_know_uk ? `<p><b>Чи знали ви?</b> ${esc(l.did_you_know_uk)}</p>` : ""}
-${terms ? `<h2>Терміни</h2><p>${terms}</p>` : ""}
-${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
-${l.law_tables ? `<h2>Закони країн</h2>` + globalThis.lawTablesHtml(l.law_tables, "uk", esc, NF) : ""}
-${(l.sources || []).length ? `<h2>Джерела і закони</h2><ul>${l.sources.map(x => `<li><a href="${esc(x.url)}" ${NF}>${esc(x.title)} ↗</a></li>`).join("")}</ul><p class="ref">Станом на дату уроку; не є юридичною консультацією — перевіряйте актуальну редакцію законів.</p>` : ""}
-<p class="ref"><a href="${BASE}en/learn/${l.id}/" hreflang="en" lang="en">English version</a></p>
-<div class="cta"><a class="btn primary" href="${BASE}learn/#${l.id}">Перевірити себе: 3 питання</a>${next ? `<a class="btn" href="${BASE}learn/${next.id}/">Далі: ${esc(tm(next.title_uk))}</a>` : ""}</div>
-</article>
-<div class="disc">Академія ClayArena. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC. Правила FITASC — у нашому переказі; чинним є лише офіційний текст FITASC. Закони про зброю й набої в кожній країні різні.</div>${legal("uk")}
-</main></body></html>`;
-    mkdirSync(`docs/learn/${l.id}`, { recursive: true });
-    writeFileSync(`docs/learn/${l.id}/index.html`, html);
-    out.push(url);
-  });
-  return LEARN.length ? [BASE + "learn/", ...out] : [];
-}
 
 // ---------------------------------------------------------------------------------------------------
 // FITASC age categories (not in the discipline rulebooks; source: fitasc.com/competitions/categories).
@@ -412,24 +358,24 @@ ${(C.notes_uk || []).length ? `<ul>${C.notes_uk.map(n => `<li>${esc(n)}</li>`).j
 <div class="cta"><a class="btn primary" href="${BASE}rules/">Довідник правил</a><a class="btn" href="${BASE}glossary/">Глосарій</a><a class="btn" href="${BASE}learn/">Академія ClayArena</a></div>
 <div class="disc">Наш переказ офіційних категорій FITASC. Чинним є лише текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.</div>${legal("uk")}
 </main></body></html>`;
-  mkdirSync("docs/rules/categories", { recursive: true });
-  writeFileSync("docs/rules/categories/index.html", html);
+  mkdirSync(`${DOCS}/rules/categories`, { recursive: true });
+  writeFileSync(`${DOCS}/rules/categories/index.html`, html);
   return [url];
 }
 try { await import("../docs/rules/data/categories.js"); } catch (e) { console.log("categories data not found yet"); }
 
 const urls = [BASE + "rules/", BASE + "rules/trainer/"];
 urls.push(...categoriesPage());
-urls.push(...lessonPages());
 for (const key of Object.keys(BOOKS)) for (const lang of ["uk", "en"]) urls.push(page(key, lang));
 urls.push(...glossaryPages());
-urls.push(BASE + "interpreter/"); // ClayArena Interpreter Academy app
-try { urls.push(...JSON.parse(readFileSync("docs/interpreter/data/urls.json", "utf8"))); } catch (e) {} // static course + lesson pages per language (scripts/build_interpreter_pages.py)
-// English versions of lessons, glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, INTERP, CSS, NF, esc, tm, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, interpUrl };
+// /interpreter/ (the old Interpreter Academy app) is a noindex forwarder to the Academy's interpreter route now
+// (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
+// The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
+// English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
-// Glossary in DE/FR/IT/ES (when translations exist) + English Academy landing (scripts/build_seo_i18n.mjs).
+// Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
 const { buildI18n } = await import("./build_seo_i18n.mjs");
 urls.push(...(await buildI18n()));
 // Redirect stubs for merged duplicate ids (audit G-06): an old glossary URL that is still on disk but is no longer a term
@@ -437,9 +383,9 @@ urls.push(...(await buildI18n()));
 // language. Not in the sitemap. Production: answer these old URLs with an HTTP 301 instead.
 function redirectStubs() {
   const done = [];
-  const bases = ["glossary", ...readdirSync("docs", { withFileTypes: true }).filter(e => e.isDirectory() && /^[a-z]{2}$/.test(e.name)).map(e => `${e.name}/glossary`)];
+  const bases = ["glossary", ...readdirSync(DOCS, { withFileTypes: true }).filter(e => e.isDirectory() && /^[a-z]{2}$/.test(e.name)).map(e => `${e.name}/glossary`)];
   for (const base of bases) {
-    const dir = `docs/${base}`; if (!existsSync(dir)) continue;
+    const dir = `${DOCS}/${base}`; if (!existsSync(dir)) continue;
     for (const e of readdirSync(dir, { withFileTypes: true })) {
       if (!e.isDirectory() || e.name === "data" || GBY[e.name]) continue;
       const to = rid(e.name), target = GBY[to] && existsSync(`${dir}/${to}/index.html`) ? `${BASE}${base}/${to}/` : `${BASE}${base}/`;
@@ -454,29 +400,37 @@ function redirectStubs() {
 }
 redirectStubs();
 // FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
-// until FITASC gives written permission (see CLAUDE.md and rules-spec, "Легальність контенту"). Set to true once permitted.
-const FITASC_INDEX = false;
+// until FITASC gives written permission (see CLAUDE.md and rules-spec, "Легальність контенту"). The switch FITASC_INDEX is at the top.
 if (!FITASC_INDEX) {
   const walk = d => readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? (e.name === "data" ? [] : walk(`${d}/${e.name}`)) : e.name === "index.html" ? [`${d}/${e.name}`] : []);
-  for (const f of walk("docs/rules")) writeFileSync(f, readFileSync(f, "utf8").replace(/<meta name="robots" content="[^"]*">/, '<meta name="robots" content="noindex, follow">'));
+  for (const f of walk(`${DOCS}/rules`)) writeFileSync(f, readFileSync(f, "utf8").replace(/<meta name="robots" content="[^"]*">/, '<meta name="robots" content="noindex, follow">'));
   urls.splice(0, urls.length, ...urls.filter(u => !u.startsWith(BASE + "rules/")));
 }
-writeFileSync("docs/sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
+// Sitemaps (design §5.1): docs/sitemap.xml is a sitemap INDEX — sitemap-site.xml (rules, glossary, …: the pages of this script) and one
+// sitemap-learn-<lang>.xml per language from the Academy build (with --skip-academy: the Academy sitemaps already on disk).
+writeFileSync(`${DOCS}/sitemap-site.xml`, `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${u}</loc><lastmod>${TODAY}</lastmod></url>`).join("\n")}
 </urlset>
 `);
+const SITEMAPS = ["sitemap-site.xml", ...(SKIP_ACADEMY ? readdirSync(DOCS).filter(f => /^sitemap-learn-[a-z]{2}\.xml$/.test(f)).sort() : ACADEMY.sitemaps)];
+writeFileSync(`${DOCS}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod></sitemap>`).join("\n")}
+</sitemapindex>
+`);
 // ClayArena project bar (docs/shared/nav.js): one navigation for every page of every project; added here so new pages get it too.
 {
   const walk = d => readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? (["data", "src", "shared", "og"].includes(e.name) ? [] : walk(`${d}/${e.name}`)) : e.name.endsWith(".html") ? [`${d}/${e.name}`] : []);
-  for (const f of walk("docs")) {
-    let h = readFileSync(f, "utf8"); const depth = f.split("/").length - 2, rel = depth ? "../".repeat(depth) : "";
+  for (const f of walk(DOCS)) {
+    const rp = f.slice(DOCS.length + 1); // path inside the site root
+    let h = readFileSync(f, "utf8"); const depth = rp.split("/").length - 1, rel = depth ? "../".repeat(depth) : "";
     if (h.includes('http-equiv="refresh"')) continue; // redirect stubs stay bare
     let changed = false;
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
     // Glossary term pages (all languages): English pronunciation + the shared animation for target / pair / lead terms
     // (docs/shared/sims.js, TERM_SIMS decides which terms get one; other terms get an empty, invisible host).
-    const gm = f.match(/^docs\/(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
+    const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
     if (gm && !h.includes("data-clay-term")) {
       const id = gm[2], term = (GBY[id] || {}).term || id, ui = gm[1] ? "English" : "Вимова англійською";
       h = h.replace(/<\/h1>/, `</h1><p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
@@ -488,5 +442,9 @@ ${urls.map(u => `  <url><loc>${u}</loc><lastmod>${TODAY}</lastmod></url>`).join(
     if (changed) writeFileSync(f, h);
   }
 }
-writeFileSync("docs/robots.txt", `User-agent: *\nAllow: /\nSitemap: ${BASE}sitemap.xml\n`);
-console.log("pages", urls.length, urls.join("\n"));
+writeFileSync(`${DOCS}/robots.txt`, `User-agent: *\nAllow: /\nSitemap: ${BASE}sitemap.xml\n`);
+if (!ARGS.includes("--quiet")) console.log("pages", urls.length, urls.join("\n"));
+console.log(`sitemap index: ${SITEMAPS.join(", ")} · site pages ${urls.length} · Academy URLs ${Object.values(ACADEMY.urls || {}).reduce((n, a) => n + a.length, 0)}${SKIP_ACADEMY ? " (Academy skipped: not written)" : ""}`);
+// Safety net of tmMeta() (audit legal-02): declined FITASC marks it had to mark in glossary meta descriptions. The pages are correct,
+// but the definition should say the mark in its base form: rewrite it in docs/glossary/data/i18n/<lang>.js (or glossary.js / learn_terms.js).
+if (tmMetaHits.size) console.log(`WARNING: glossary meta descriptions with a declined FITASC mark (marked as "Compak®-…" / "Sporting™-…"; write the base form "Sporting™" / "Compak® Sporting" in the definition): ${[...tmMetaHits].map(([w, p]) => `${w} (${p})`).join(", ")}`);

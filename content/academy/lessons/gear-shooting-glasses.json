@@ -1,0 +1,484 @@
+{
+  "id": "gear-shooting-glasses",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 7,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "ophthalmologist or optometrist (eye health paragraphs)",
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gear-shooting-glasses",
+      "health-eyes-vision"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "safety-glasses",
+    "lens-tint",
+    "prescription-insert",
+    "target",
+    "master-eye",
+    "bead",
+    "coach"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "American Academy of Ophthalmology — sports eye injuries and protective polycarbonate lenses",
+        "uk": "Американська академія офтальмології — спортивні травми очей і захисні полікарбонатні лінзи"
+      },
+      "url": "https://www.aao.org/eye-health/tips-prevention/injuries-sports",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "American Academy of Ophthalmology — what is presbyopia (usually noticed shortly after age 40)",
+        "uk": "Американська академія офтальмології — що таке пресбіопія (зазвичай помітна невдовзі після 40 років)"
+      },
+      "url": "https://www.aao.org/eye-health/diseases/what-is-presbyopia",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Shooting glasses and lens colours",
+    "uk": "Стрілецькі окуляри й кольори лінз"
+  },
+  "summary": {
+    "en": "Why glasses are compulsory in {{tm:sporting}} and {{tm:compak}}, how they protect, what yellow, orange, purple and smoke lenses are for, and what to do if you need prescription glasses.",
+    "uk": "Чому окуляри обов’язкові в {{tm:sporting}} і {{tm:compak}}, як вони захищають, навіщо жовті, помаранчеві, фіолетові й димчасті лінзи і що робити, якщо ви носите окуляри з діоптріями."
+  },
+  "body": [
+    {
+      "k": "gear-shooting-glasses-p1",
+      "t": "p",
+      "en": "{{term:safety-glasses|Shooting glasses}} protect your eyes from target fragments, bouncing pellets, twigs and dust. In FITASC competitions they are compulsory, and a shooter who comes to the stand without them is treated as absent. Who else must wear them differs a little between the disciplines.",
+      "uk": "{{term:safety-glasses|Стрілецькі окуляри}} захищають очі від уламків мішеней, дробинок, що відскочили, гілочок і пилу. На змаганнях FITASC вони обов’язкові, а стрільця, який прийшов на стрілецьке місце без них, вважають відсутнім. Хто ще мусить їх носити, у дисциплінах трохи різниться."
+    },
+    {
+      "k": "gear-shooting-glasses-cmp1",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Shooters, referees, staff and anyone close to a stand must wear safety glasses, with no exceptions.",
+        "uk": "Стрільці, судді, персонал і всі, хто поруч зі стрілецьким місцем, мусять бути в захисних окулярах, без винятків."
+      },
+      "compak": {
+        "en": "Competitors, referees and staff must wear protective eyewear.",
+        "uk": "Учасники, судді й персонал мусять бути в захисних окулярах."
+      }
+    },
+    {
+      "k": "gear-shooting-glasses-p2",
+      "t": "p",
+      "en": "Impact resistance comes first. Shooting lenses are made of polycarbonate or similar materials that do not shatter, and good frames also cover the eyes from the side. Ordinary sunglasses are not good enough. Look for an eye protection standard mark: in Europe usually EN 166, in the USA ANSI Z87.1.",
+      "uk": "Головне — ударостійкість. Лінзи стрілецьких окулярів роблять із полікарбонату або подібних матеріалів, які не розлітаються на скалки, а добра оправа закриває очі й збоку. Звичайні сонцезахисні окуляри для цього не годяться. Шукайте позначку стандарту захисту очей: у Європі це зазвичай EN 166, у США — ANSI Z87.1."
+    },
+    {
+      "k": "gear-shooting-glasses-p3",
+      "t": "p",
+      "en": "{{term:lens-tint|Lens colour}} will not make you a better shot, but it can help you see the target against a particular background. Many shooters use yellow in dull weather, fog and at dusk, and orange as an all-rounder. Purple can make an orange target brighter against trees and grass, and grey smoke cuts brightness in strong sun without changing colours.",
+      "uk": "{{term:lens-tint|Колір лінзи}} не зробить вас влучнішим, але може допомогти краще бачити мішень на певному тлі. Багато стрільців беруть жовту лінзу в похмуру погоду, туман і сутінки, а помаранчеву — як універсальну. Фіолетова може робити помаранчеву мішень яскравішою на тлі дерев і трави, а сіра димчаста (smoke) зменшує яскравість на сильному сонці, не змінюючи кольорів."
+    },
+    {
+      "k": "gear-shooting-glasses-p4",
+      "t": "tip",
+      "en": "There are also clear lenses for very dark weather and evening light. Colour is about comfort; protection comes from the impact-resistant lens. For a beginner, glasses with interchangeable lenses are enough: clear or light yellow plus one darker lens. Shoot first, notice in which light you struggle, then add lenses.",
+      "uk": "Є ще прозорі лінзи — для дуже темної погоди й вечірнього світла. Колір — питання зручності, а захищає ударостійка лінза. Новачкові досить окулярів зі змінними лінзами: прозора або світло-жовта плюс одна темніша. Спершу постріляйте, помітьте, за якого світла вам незручно, а потім додавайте лінзи."
+    },
+    {
+      "k": "gear-shooting-glasses-p5",
+      "t": "p",
+      "en": "Shooting glasses have a special shape. When you mount the gun, your head tilts slightly onto the stock and you look through the upper part of the lens. That is why frames have a high bridge (the part that rests on your nose) and large lenses, so that your field of view is not cut off.",
+      "uk": "Стрілецькі окуляри мають особливу форму. Коли ви вкладаєте рушницю, голова трохи нахиляється до приклада, і ви дивитеся крізь верхню частину лінзи. Тому оправи роблять із високим переніссям і великими лінзами, щоб поле зору не обрізалося."
+    },
+    {
+      "k": "health-eyes-vision-p4",
+      "t": "p",
+      "anchor": "health-eyes-vision",
+      "en": "If you wear glasses for your eyesight, there are two main routes. One is shooting glasses with prescription lenses, ordered from an optician who knows sports eyewear. The other is a frame with a separate {{term:prescription-insert|prescription insert}} behind interchangeable tinted lenses.",
+      "uk": "Якщо ви носите окуляри для зору, є два основні шляхи. Перший — стрілецькі окуляри з лінзами з діоптріями, замовлені в оптика, який знає спортивну оптику. Другий — оправа з окремою {{term:prescription-insert|вставкою з діоптріями}} (prescription insert) за змінними кольоровими лінзами."
+    },
+    {
+      "k": "health-eyes-vision-p8",
+      "t": "p",
+      "en": "Everyday glasses are suitable only if their lenses are certified as impact-resistant and correct your distance vision. Discuss the choice with an eye doctor or optician before you buy.",
+      "uk": "Звичайні окуляри для щоденного носіння підходять, лише якщо їхні лінзи мають сертифікат ударостійкості й коригують зір на відстань. Перш ніж купувати, порадьтеся з офтальмологом або оптиком."
+    },
+    {
+      "k": "health-eyes-vision-p5",
+      "t": "p",
+      "en": "A shooter looks at a target in the distance, so sharp distance vision matters most. From about the age of 40 many people develop presbyopia: close-up vision gets harder and the {{term:bead|bead}} may blur.",
+      "uk": "Стрілець дивиться на мішень удалину, тож найважливіший — гострий зір на відстань. Приблизно після 40 років у багатьох людей розвивається вікова далекозорість (пресбіопія): стає важче бачити зблизька, і {{term:bead|мушка}} може розпливатися."
+    },
+    {
+      "k": "gear-shooting-glasses-bead-coaches",
+      "t": "p",
+      "en": "Many coaches say this matters less than it seems, because your eyes should be on the target, not on the bead.",
+      "uk": "Багато тренерів кажуть, що це важить менше, ніж здається, бо погляд має бути на мішені, а не на мушці."
+    },
+    {
+      "k": "health-eyes-vision-p7",
+      "t": "tip",
+      "en": "Have your eyes checked regularly, especially if targets have become harder to see at dusk or in bright light. If you start missing to one side as you get older, it is also worth rechecking your {{term:master-eye|master eye}}: see {{lesson:technique-master-eye}}.",
+      "uk": "Регулярно перевіряйте зір, особливо якщо мішені стало гірше видно в сутінках чи на яскравому світлі. Якщо з віком ви почали промахуватися в один бік, варто ще раз перевірити {{term:master-eye|провідне око}}: див. {{lesson:technique-master-eye}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gear-shooting-glasses-kp1",
+      "en": "Glasses are compulsory; without them a shooter is treated as absent.",
+      "uk": "Окуляри обов’язкові; без них стрільця вважають відсутнім.",
+      "checklist": true
+    },
+    {
+      "k": "gear-shooting-glasses-kp2",
+      "en": "Lenses must be impact-resistant, with a protection standard mark.",
+      "uk": "Лінзи мають бути ударостійкими, з позначкою стандарту захисту."
+    },
+    {
+      "k": "gear-shooting-glasses-kp3",
+      "en": "Many shooters use yellow in dull light, orange as an all-rounder, purple against greenery and smoke in bright sun.",
+      "uk": "Багато стрільців беруть жовту лінзу в похмуру погоду, помаранчеву — як універсальну, фіолетову — на тлі зелені, димчасту — на яскравому сонці."
+    },
+    {
+      "k": "gear-shooting-glasses-kp5",
+      "en": "With a prescription: prescription shooting lenses or an insert behind the lens.",
+      "uk": "З діоптріями: стрілецькі лінзи з діоптріями або вставка за лінзою."
+    },
+    {
+      "k": "health-eyes-vision-kp4",
+      "en": "From about 40, have your eyes checked regularly.",
+      "uk": "Приблизно після 40 років регулярно перевіряйте зір."
+    }
+  ],
+  "did_you_know": {
+    "k": "gear-shooting-glasses-dyk",
+    "en": "The right lens colour also depends on your own eyes: two shooters on the same stand may pick different lenses and both be right.",
+    "uk": "Вдалий колір лінзи залежить і від ваших очей: двоє стрільців на тому самому стрілецькому місці можуть обрати різні лінзи, і обидва матимуть рацію."
+  },
+  "quiz": [
+    {
+      "k": "gear-shooting-glasses-q1",
+      "q": {
+        "en": "Which lens suits bright sun when you do not want colours changed?",
+        "uk": "Яка лінза пасує яскравому сонцю, коли не хочеться змінювати кольори?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yellow",
+          "uk": "Жовта"
+        },
+        {
+          "k": "b",
+          "en": "Smoke (grey)",
+          "uk": "Димчаста (сіра)"
+        },
+        {
+          "k": "c",
+          "en": "Clear",
+          "uk": "Прозора"
+        },
+        {
+          "k": "d",
+          "en": "Purple",
+          "uk": "Фіолетова"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A grey smoke lens cuts brightness without changing colours.",
+        "uk": "Сіра димчаста лінза зменшує яскравість, не змінюючи кольорів."
+      }
+    },
+    {
+      "k": "gear-shooting-glasses-q2",
+      "q": {
+        "en": "Why are ordinary sunglasses not suitable for shooting?",
+        "uk": "Чому звичайні сонцезахисні окуляри не годяться для стрільби?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They may not stop a fragment or pellet",
+          "uk": "Вони можуть не витримати уламка чи дробинки"
+        },
+        {
+          "k": "b",
+          "en": "They are banned for their dark colour",
+          "uk": "Вони заборонені через темний колір"
+        },
+        {
+          "k": "c",
+          "en": "They are too light to stay in place",
+          "uk": "Вони надто легкі, щоб триматися"
+        },
+        {
+          "k": "d",
+          "en": "They make targets look too small",
+          "uk": "Через них мішені здаються замалими"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Shooting lenses are impact-resistant and carry an eye protection standard mark.",
+        "uk": "Стрілецькі лінзи ударостійкі й мають позначку стандарту захисту очей."
+      }
+    },
+    {
+      "k": "gear-shooting-glasses-q3",
+      "q": {
+        "en": "What do many shooters use a yellow lens for?",
+        "uk": "Для чого багато стрільців беруть жовту лінзу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "For bright sun in the middle of the day",
+          "uk": "Для яскравого полудневого сонця"
+        },
+        {
+          "k": "b",
+          "en": "To make the target look bigger",
+          "uk": "Щоб мішень здавалася більшою"
+        },
+        {
+          "k": "c",
+          "en": "For contrast in dull light and at dusk",
+          "uk": "Для контрасту в похмуру погоду й сутінки"
+        },
+        {
+          "k": "d",
+          "en": "To protect the eyes from recoil",
+          "uk": "Щоб захистити очі від віддачі"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A yellow lens can boost contrast when light is poor.",
+        "uk": "Жовта лінза може підсилити контраст, коли світла мало."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "health-eyes-vision-q1",
+      "q": {
+        "en": "What does an EN 166 or ANSI Z87.1 mark on glasses tell you?",
+        "uk": "Що означає позначка EN 166 чи ANSI Z87.1 на окулярах?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The lenses are for prescriptions only",
+          "uk": "Лінзи лише для окулярів із діоптріями"
+        },
+        {
+          "k": "b",
+          "en": "They meet an eye protection standard",
+          "uk": "Вони відповідають стандарту захисту очей"
+        },
+        {
+          "k": "c",
+          "en": "They are the colour required by FITASC",
+          "uk": "Це колір, якого вимагає FITASC"
+        },
+        {
+          "k": "d",
+          "en": "They cut noise as well as glare",
+          "uk": "Вони глушать і шум, і відблиски"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "These marks show that the glasses meet an eye protection standard, in Europe and the USA.",
+        "uk": "Ці позначки показують, що окуляри відповідають стандарту захисту очей — європейському чи американському."
+      }
+    },
+    {
+      "k": "health-eyes-vision-q2",
+      "q": {
+        "en": "What is a prescription insert?",
+        "uk": "Що таке вставка з діоптріями (prescription insert)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A prescription lens behind tinted lenses",
+          "uk": "Лінза з діоптріями за кольоровими лінзами"
+        },
+        {
+          "k": "b",
+          "en": "A sticker for the bead of the gun",
+          "uk": "Наліпка на мушку рушниці"
+        },
+        {
+          "k": "c",
+          "en": "A case for keeping spare lenses",
+          "uk": "Футляр для запасних лінз"
+        },
+        {
+          "k": "d",
+          "en": "A strap that keeps glasses on",
+          "uk": "Ремінець, що тримає окуляри"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "An insert lets you combine vision correction with interchangeable tinted lenses.",
+        "uk": "Вставка дає змогу поєднати корекцію зору зі змінними кольоровими лінзами."
+      }
+    },
+    {
+      "k": "health-eyes-vision-q3",
+      "q": {
+        "en": "As you get older, you start missing to one side. What is worth checking?",
+        "uk": "З віком ви почали промахуватися в один бік. Що варто перевірити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The colour of the targets",
+          "uk": "Колір мішеней"
+        },
+        {
+          "k": "b",
+          "en": "The brand of your cartridges",
+          "uk": "Марку ваших патронів"
+        },
+        {
+          "k": "c",
+          "en": "Your master eye, with your coach",
+          "uk": "Провідне око — разом із тренером"
+        },
+        {
+          "k": "d",
+          "en": "The length of your gun's barrels",
+          "uk": "Довжину стволів рушниці"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Eye dominance can weaken or change with age, which can shift your shots; check it with your coach.",
+        "uk": "Домінантність ока з віком може слабшати чи змінюватися, і постріли зсуваються; перевірте її з тренером."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "gear-shooting-glasses-p2",
+      "level": "strong",
+      "sources": [
+        "https://www.aao.org/eye-health/tips-prevention/injuries-sports"
+      ]
+    },
+    {
+      "for": "gear-shooting-glasses-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "health-eyes-vision-p8",
+      "level": "strong",
+      "sources": [
+        "https://www.aao.org/eye-health/tips-prevention/injuries-sports"
+      ]
+    },
+    {
+      "for": "health-eyes-vision-p5",
+      "level": "strong",
+      "sources": [
+        "https://www.aao.org/eye-health/diseases/what-is-presbyopia"
+      ]
+    },
+    {
+      "for": "health-eyes-vision-p7",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "gear-shooting-glasses-bead-coaches",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "ec1fd42f",
+    "summary": "ca48aaf2",
+    "gear-shooting-glasses-p1": "4c0db932",
+    "gear-shooting-glasses-cmp1": "219ed4a3",
+    "gear-shooting-glasses-p2": "d09c97fe",
+    "gear-shooting-glasses-p3": "8d14cc08",
+    "gear-shooting-glasses-p4": "9ae25a68",
+    "gear-shooting-glasses-p5": "f42a450f",
+    "health-eyes-vision-p4": "98fd2e7f",
+    "health-eyes-vision-p8": "dc44073a",
+    "health-eyes-vision-p5": "b8710614",
+    "gear-shooting-glasses-bead-coaches": "1d733afd",
+    "health-eyes-vision-p7": "ce13e164",
+    "gear-shooting-glasses-kp1": "0b5eb222",
+    "gear-shooting-glasses-kp2": "fe795f3f",
+    "gear-shooting-glasses-kp3": "2d9f059d",
+    "gear-shooting-glasses-kp5": "5982abea",
+    "health-eyes-vision-kp4": "b21001a7",
+    "gear-shooting-glasses-dyk": "55a6d253",
+    "gear-shooting-glasses-q1": "3ad01296",
+    "gear-shooting-glasses-q2": "ba1c0a04",
+    "gear-shooting-glasses-q3": "dcf94c32",
+    "health-eyes-vision-q1": "788997c5",
+    "health-eyes-vision-q2": "6022e443",
+    "health-eyes-vision-q3": "480b808d"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

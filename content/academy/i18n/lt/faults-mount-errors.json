@@ -1,0 +1,106 @@
+{
+  "id": "faults-mount-errors",
+  "lang": "lt",
+  "base_rev": 2,
+  "h": {
+    "title": "55d5aa6d",
+    "summary": "c2c673f8",
+    "faults-mount-errors-p1": "b8ba5327",
+    "faults-mount-errors-p2": "fa82c702",
+    "faults-mount-errors-p3": "68bf23c0",
+    "faults-mount-errors-p4": "70edb212",
+    "faults-mount-errors-p5": "3fbd6b9d",
+    "faults-mount-errors-more": "35a0c751",
+    "faults-mount-errors-n1": "a4fa7fac",
+    "faults-mount-errors-ph1": "edb132c9",
+    "faults-mount-errors-ph2": "30777418",
+    "faults-mount-errors-ph3": "44c17f37",
+    "faults-mount-errors-ph4": "c485f42f",
+    "faults-mount-errors-ph5": "cc9bdf34",
+    "faults-mount-errors-kp1": "4848cb5d",
+    "faults-mount-errors-kp2": "61307077",
+    "faults-mount-errors-kp3": "d2ae876c",
+    "faults-mount-errors-kp4": "b62326d1",
+    "faults-mount-errors-q1": "6b0f9d92",
+    "faults-mount-errors-q2": "8caf3e1d",
+    "faults-mount-errors-q3": "520c83b8"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Prisidėjimo klaidos: vėlus, veidas prie šautuvo, pakreipimas",
+  "summary": "Prisidėjimo klaidos, dėl kurių promašuojama: pavėluotas ar per ankstyvas prisidėjimas, veidas prie šautuvo ir pakreiptas šautuvas, taip pat šautuvo padėties taisyklės {{tm:sporting}} ir {{tm:compak}} rungtyse.",
+  "body": {
+    "faults-mount-errors-p1": "Daug nepataikymų pradeda ne mostas, o prisidėjimas: judesys, kuriuo šautuvas pakeliamas prie skruosto ir peties. Trenerio žodžiai apie tai trumpi ir apie kūną: galva, skruostas, petys, rankos.",
+    "faults-mount-errors-p2": "Vėlus prisidėjimas (late mount): šautuvas pasiekia petį jau po to momento, kai turėjo nuskambėti šūvis, todėl šaulys skuba arba iššauna dar nepriglaudęs skruosto. Priešinga klaida – per anksti baigtas prisidėjimas, po kurio šautuvas laukia, nejudrus ir sunkus. Taisymas: „move, mount, shoot“ (judesys, prisidėjimas, šūvis), kai vamzdžiai pradeda judėti kartu su taikiniu, o prisidėjimas baigiamas kartu su šūviu.",
+    "faults-mount-errors-p3": "Face to the gun („veidas prie šautuvo“): vietoj to, kad pakeltų buožę prie veido, šaulys nuleidžia galvą jai priešais. Akis kaskart atsiduria kitoje vietoje, o atatranka trenkia į skruostą. Treneriai sako: „bring the gun to your face, not your face to the gun“ („šautuvą prie veido, o ne veidą prie šautuvo“). Skauda ir tada, kai buožė atsiremia į ranką, o ne į peties „kišenę“.",
+    "faults-mount-errors-p4": "Pakreipimas (canting): šūvio metu šautuvas pakreiptas į šoną, ir šratai nukrypsta nuo linijos. Dažnai tai būna kartu su nuleistu pečiu. Taisymas: „keep the gun level“ (laikykite šautuvą lygiai), „turn from the hips“ (sukitės iš klubų).",
+    "faults-mount-errors-p5": "FITASC {{tm:sporting}} varžybose šautuvo negalima prisidėti, kol nepasirodė taikinys, tad „pre-mount this one“ – tik treniruočių pratimas. Ankstyvas prisidėjimas {{tm:sporting}} varžybose reiškia įspėjimą ir geltonąją kortelę. {{tm:compak}} rungtyje šautuvas duodant komandą gali būti jau prie peties.",
+    "faults-mount-errors-more": "Kaip žingsnis po žingsnio atrodo geras prisidėjimas, rasite pamokoje {{lesson:technique-gun-mount}}."
+  },
+  "note": {
+    "faults-mount-errors-n1": "Verskite pratimą kaip pratimą ir nieko nepridėkite nuo savęs."
+  },
+  "phrases": {
+    "faults-mount-errors-ph1": {
+      "meaning": "Pakelkite buožę prie skruosto; nenuleiskite galvos prie buožės.",
+      "say": "Šautuvą prie veido, o ne veidą prie šautuvo."
+    },
+    "faults-mount-errors-ph2": {
+      "meaning": "Pradėkite judėti kartu su taikiniu, prisidėjimą baikite šaudami, vienu sklandžiu judesiu.",
+      "say": "Judesys, prisidėjimas, šūvis – viskas kartu."
+    },
+    "faults-mount-errors-ph3": {
+      "meaning": "Šūvio metu šautuvas buvo pakreiptas į šoną.",
+      "say": "Pakreipėte šautuvą, laikykite jį lygiai."
+    },
+    "faults-mount-errors-ph4": {
+      "meaning": "Šautuvas turi kilti jau ant taikinio trajektorijos.",
+      "say": "Prisidėkite ant linijos."
+    },
+    "faults-mount-errors-ph5": {
+      "meaning": "Treniruočių pratimas su šautuvu, jau prisidėtu prie peties; {{tm:sporting}} varžybose taip neleidžiama.",
+      "say": "Šitą mišenę – su šautuvu prie peties, tik treniruotei."
+    }
+  },
+  "key_points": {
+    "faults-mount-errors-kp1": "Vėlus prisidėjimas: skubotas šūvis; taisymas – judesys, prisidėjimas, šūvis.",
+    "faults-mount-errors-kp2": "Veidas prie šautuvo: akis juda, atatranka skauda; kelkite šautuvą prie veido.",
+    "faults-mount-errors-kp3": "Pakreipimas: šratai nukrypsta nuo linijos; laikykite šautuvą lygiai, sukitės iš klubų.",
+    "faults-mount-errors-kp4": "{{tm:sporting}}: prisidėjimas iš anksto – tik treniruočių pratimas (varžybose prisidedama po to, kai pasirodo taikinys); {{tm:compak}} rungtyje šautuvas duodant komandą gali būti jau prisidėtas."
+  },
+  "quiz": {
+    "faults-mount-errors-q1": {
+      "q": "Treniruotėje treneris sako šauliui, besiruošiančiam FITASC {{tm:sporting}} varžyboms: „Pre-mount this one.“ Kas teisinga?",
+      "options": {
+        "a": "Taip galima ir varžybose, jei iš anksto įspėtas teisėjas",
+        "b": "Taisyklių pokytis: {{tm:sporting}} žemos šautuvo padėties nebereikia",
+        "c": "Treniruočių pratimas; varžybose prisidedama po to, kai pasirodo taikinys",
+        "d": "{{tm:compak}} taisyklė, taikoma visoms FITASC rungtims"
+      },
+      "explain": "{{tm:sporting}} reikalauja parengties padėties su nuleistu šautuvu, kol pasirodys taikinys; prisidėjimas iš anksto varžybose – įspėjimas su geltonąja kortele."
+    },
+    "faults-mount-errors-q2": {
+      "q": "„You canted the gun“ reiškia…",
+      "options": {
+        "a": "Šūvio metu šautuvas buvo pakreiptas į šoną",
+        "b": "Šautuvas pasiekė petį pernelyg vėlai",
+        "c": "Šautuvas sustojo šūvio metu",
+        "d": "Duodant komandą saugiklis tebebuvo įjungtas"
+      },
+      "explain": "Pakreipimas (canting) – šautuvo pasvirimas į šoną, dėl kurio šūvis nukrypsta nuo linijos."
+    },
+    "faults-mount-errors-q3": {
+      "q": "Kuri nuoroda ištaiso klaidą „face to the gun“?",
+      "options": {
+        "a": "Stipriau nuleiskite galvą",
+        "b": "Pakelkite šautuvą prie veido",
+        "c": "Užmerkite vieną akį",
+        "d": "Laikykite šautuvą žemiau ant rankos"
+      },
+      "explain": "Buožė turi kilti prie veido, kad akis kaskart būtų toje pačioje vietoje."
+    }
+  }
+}

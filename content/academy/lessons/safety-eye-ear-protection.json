@@ -1,0 +1,577 @@
+{
+  "id": "safety-eye-ear-protection",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter",
+    "parent",
+    "fan"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "safety-eye-ear-protection"
+    ],
+    "interpreter": [
+      "etiquette-protection-and-dress"
+    ]
+  },
+  "terms": [
+    "safety",
+    "hearing-protection",
+    "earplugs",
+    "passive-ear-muffs",
+    "electronic-ear-muffs",
+    "safety-glasses",
+    "lens-tint",
+    "prescription-insert",
+    "dress-code",
+    "competitor-number",
+    "layout"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-dress-code"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-competitor-number"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-dress-code"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-competition-numbers"
+    }
+  ],
+  "facts": [
+    "gear.gunshot-peak-db",
+    "gear.impulse-noise-limits",
+    "safety.double-protection-db",
+    "rules.dress-shorts-length"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "NHCA — Position statement: recreational firearm noise (2017): shotguns 160–170 dB peak, limits 140 dB for adults and 120 dB for children, double protection",
+        "uk": "NHCA — позиція щодо шуму від спортивної та мисливської зброї (2017): рушниці 160–170 дБ пікового рівня, межі 140 дБ для дорослих і 120 дБ для дітей, подвійний захист"
+      },
+      "url": "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NIOSH (USA) — Reducing exposure to lead and noise at outdoor firing ranges (2013-104): 140 dB peak limit, double hearing protection",
+        "uk": "NIOSH (США) — зниження впливу свинцю й шуму на відкритих стрільбищах (2013-104): межа 140 дБ, подвійний захист слуху"
+      },
+      "url": "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "public domain"
+    },
+    {
+      "title": {
+        "en": "FITASC — International sports rules: Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — міжнародні правила: Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Eye and ear protection",
+    "uk": "Захист очей і слуху"
+  },
+  "summary": {
+    "en": "Why hearing protection is compulsory for everyone near a layout, who must wear glasses in {{tm:sporting}} and {{tm:compak}}, and how to choose protection that fits.",
+    "uk": "Чому захист слуху обов’язковий для всіх біля майданчика, хто має носити окуляри в {{tm:sporting}} і {{tm:compak}} і як дібрати захист, що добре сидить."
+  },
+  "body": [
+    {
+      "k": "safety-eye-ear-protection-p1",
+      "t": "p",
+      "en": "A shotgun shot is very loud: {{fact:gear.gunshot-peak-db}}. Decibels (dB) measure loudness, and a shot is an “impulse” sound: one short, sharp bang. For one such bang the upper limits are {{fact:gear.impulse-noise-limits}}. The adult limit comes from workplace safety rules; the limit for children is recommended by the World Health Organization (WHO). A shot is well over both limits, so even one unprotected shot can harm your hearing. Damage from noise builds up over time and usually does not go away. Ringing in the ears after shooting, called tinnitus, can be an early warning sign.",
+      "uk": "Постріл із рушниці дуже гучний: {{fact:gear.gunshot-peak-db}}. Децибели (дБ) — міра гучності, а постріл — це «імпульсний» звук: один короткий різкий удар. Для одного такого удару граничними вважають {{fact:gear.impulse-noise-limits}}. Межа для дорослих — із правил безпеки праці, а межу для дітей рекомендує Всесвітня організація охорони здоров’я (ВООЗ). Постріл значно гучніший за обидві межі, тож навіть один постріл без захисту може пошкодити слух. Шкода від шуму накопичується з часом і здебільшого не минає. Дзвін у вухах після стрільби (тинітус) може бути раннім попереджувальним сигналом."
+    },
+    {
+      "k": "etiquette-protection-and-dress-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "anchor": "etiquette-protection-and-dress",
+      "en": "Hearing protection is compulsory for everyone on or near a {{term:layout|layout}} (the shooting area with its stands and traps): shooters, referees, staff and spectators. In {{tm:sporting}} safety glasses are compulsory, without exception, for shooters, referees, staff and anyone close to a stand. In {{tm:compak}} the glasses rule names competitors, referees and staff. A shooter who steps onto the stand without glasses or hearing protection is treated as absent, as if they had not turned up for their turn, and may not shoot. In {{tm:sporting}} the late-shooter rule then applies.",
+      "uk": "Захист слуху обов’язковий для всіх, хто на {{term:layout|майданчику}} (стрілецькій зоні з її стрілецькими місцями й машинками) чи поблизу: стрільців, суддів, персоналу й глядачів. У {{tm:sporting}} захисні окуляри обов’язкові без винятків для стрільців, суддів, персоналу й усіх, хто стоїть біля стрілецького місця. У {{tm:compak}} правило про окуляри називає учасників, суддів і персонал. Стрільця, який вийшов на стрілецьке місце без окулярів чи захисту слуху, вважають відсутнім — так, ніби він не прийшов на свою чергу, — і стріляти він не може. У {{tm:sporting}} тоді діє правило про запізнення."
+    },
+    {
+      "k": "safety-eye-ear-protection-children",
+      "t": "compare",
+      "disc": "both",
+      "en": "Children at the shooting ground",
+      "uk": "Діти на стенді",
+      "sporting": {
+        "en": "Children at the shooting ground, outside the clubhouse, wear hearing protection at all times.",
+        "uk": "Діти на території стенду поза клубним будинком завжди мають бути в засобах захисту слуху.",
+        "rule_ref": "sporting:ch8-hearing-protection"
+      },
+      "compak": {
+        "en": "There is no separate line on children, but the rule covers all spectators near the layout, children included.",
+        "uk": "Окремого рядка про дітей немає, але правило охоплює всіх глядачів біля майданчика, зокрема дітей.",
+        "rule_ref": "compak:ch18-hearing"
+      }
+    },
+    {
+      "k": "safety-eye-ear-protection-p2",
+      "t": "p",
+      "en": "Eye protection matters just as much. Target fragments, pellets bouncing back from hard surfaces, twigs and dust can hit an eye.",
+      "uk": "Захист очей не менш важливий. Уламки мішеней, дробинки, що відскочили від твердої поверхні, гілочки й пил можуть влучити в око."
+    },
+    {
+      "k": "safety-eye-ear-protection-p4",
+      "t": "p",
+      "en": "For {{term:hearing-protection|hearing protection}} there are two main types: {{term:earplugs|earplugs}}, which sit in the ear canal, and ear muffs, which cover the ears. Simple {{term:passive-ear-muffs|passive muffs}} just block sound. Electronic {{term:electronic-ear-muffs|ear muffs}} cut the bang but let voices through, so you still hear the referee.",
+      "uk": "Для {{term:hearing-protection|захисту слуху}} є два основні види: {{term:earplugs|беруші}}, які вставляють у вушний канал, і навушники, що закривають вуха. Звичайні {{term:passive-ear-muffs|пасивні навушники}} просто глушать звук. А {{term:electronic-ear-muffs|активні навушники}} приглушують постріл, але пропускають голоси, тож ви чуєте суддю."
+    },
+    {
+      "k": "safety-eye-ear-protection-fit",
+      "t": "tip",
+      "en": "Protection works only if it fits. Earplugs must sit deep and snug, and muffs must seal all round the ears. Custom-moulded plugs are comfortable and fit the same way each time, but well-inserted foam plugs also protect well. The SNR figure on the packaging (Single Number Rating, the product’s noise-reduction rating) shows how much it cuts noise: the higher, the more.",
+      "uk": "Захист працює, лише коли добре сидить. Беруші мають сидіти глибоко й щільно, а навушники — щільно прилягати довкола вух. Індивідуальні беруші зручні й щоразу сідають однаково, але правильно вставлені пінні беруші теж добре захищають. Число SNR на упаковці (Single Number Rating — показник шумозаглушення виробу) показує, наскільки він знижує шум: що більше, то сильніше."
+    },
+    {
+      "k": "safety-eye-ear-protection-double",
+      "t": "p",
+      "en": "Earplugs and muffs together give the most protection. In tests on an acoustic dummy head, protection cut the peak of a shot by {{fact:safety.double-protection-db}}. Hearing experts suggest wearing both with large-bore guns, such as the 12-gauge shotguns used at clay grounds, and whenever many shots are fired.",
+      "uk": "Беруші й навушники разом захищають найсильніше. У випробуваннях на акустичному манекені захист знижував піковий рівень пострілу {{fact:safety.double-protection-db}}. Фахівці зі слуху радять носити й те, й інше під час стрільби з великокаліберної зброї, як-от рушниць 12 калібру, якими стріляють на стендах, і щоразу, коли пострілів багато."
+    },
+    {
+      "k": "safety-eye-ear-protection-p5",
+      "t": "p",
+      "en": "{{term:safety-glasses|Shooting glasses}} are made of impact-resistant material, and many have interchangeable lenses. Many shooters find that a yellow or orange {{term:lens-tint|tint}} helps in dull light and a darker one in bright sun. If you wear glasses for your eyesight, ask about frames with {{term:prescription-insert|prescription inserts}}. More in {{lesson:gear-shooting-glasses}}.",
+      "uk": "{{term:safety-glasses|Стрілецькі окуляри}} роблять з ударостійкого матеріалу, і в багатьох є змінні лінзи. Багато стрільців вважають, що жовтий чи помаранчевий {{term:lens-tint|колір лінзи}} допомагає в похмуру погоду, а темніший — на яскравому сонці. Якщо ви носите окуляри для зору, запитайте про оправи з {{term:prescription-insert|діоптрійними вставками}}. Докладніше — в уроці {{lesson:gear-shooting-glasses}}."
+    },
+    {
+      "k": "safety-eye-ear-protection-dress",
+      "t": "p",
+      "disc": "both",
+      "en": "Clothing is part of safety too. Sandals are banned at FITASC competitions, and in {{tm:compak}} at practice as well. Shorts are allowed only in the longer Bermuda style, ending {{fact:rules.dress-shorts-length}}. The {{term:competitor-number|competitor number}} is worn on the back, fully visible. The full {{term:dress-code|dress code}} is in {{lesson:rules-dress-and-safety}}.",
+      "uk": "Одяг — теж частина безпеки. Сандалі заборонені на змаганнях FITASC, а в {{tm:compak}} — і на тренуваннях. Шорти дозволені лише довгі, на кшталт бермудів, що закінчуються {{fact:rules.dress-shorts-length}}. {{term:competitor-number|Стартовий номер}} носять на спині, повністю видимим. Повний {{term:dress-code|дрес-код}} — в уроці {{lesson:rules-dress-and-safety}}."
+    },
+    {
+      "k": "safety-eye-ear-protection-p6",
+      "t": "tip",
+      "en": "Put protection on before you walk up to the stand, and check that you have both glasses and ear protection. Keep them on while anyone nearby is shooting. In training the shooting ground often lends glasses and earplugs; later it is worth having your own.",
+      "uk": "Вдягайте захист ще до того, як підійти до стрілецького місця, і перевірте, що при вас і окуляри, і захист слуху. Не знімайте їх, поки поруч хтось стріляє. На тренуванні стенд часто позичає окуляри й беруші, але згодом варто мати власні."
+    }
+  ],
+  "note": [
+    {
+      "k": "etiquette-protection-and-dress-p2",
+      "for": "interpreter",
+      "core": true,
+      "en": "That includes you. Standing behind the stand, you are “near a layout”. Electronic ear muffs are a good choice for an interpreter: they soften the shot but let voices through, so you hear the coach and the referee. Clear or tinted shooting glasses also protect you from falling target fragments; a cap helps too.",
+      "uk": "Це стосується й вас. Стоячи позаду стрілецького місця, ви перебуваєте «поблизу майданчика». Електронні навушники — добрий вибір для перекладача: вони приглушують постріл, але пропускають голоси, тож ви чуєте і тренера, і суддю. Прозорі чи тоновані стрілецькі окуляри захистять і від уламків мішеней, що падають згори; допоможе й кепка."
+    },
+    {
+      "k": "safety-eye-ear-protection-n1",
+      "for": "interpreter",
+      "en": "Dress like a calm professional: closed shoes, neutral clothes and nothing that flaps or shines in the shooter’s eyes.",
+      "uk": "Вдягайтеся як спокійний професіонал: закрите взуття, нейтральний одяг і нічого, що тріпоче чи відблискує стрільцеві в очі."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "etiquette-protection-and-dress-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Eyes and ears on before you leave the clubhouse.",
+      "meaning": {
+        "en": "Put on glasses and hearing protection before walking out to the layouts.",
+        "uk": "Вдягніть окуляри й захист слуху ще до виходу на майданчики."
+      },
+      "say": {
+        "uk": "Окуляри й навушники — ще до виходу з клубу."
+      },
+      "from": "etiquette-protection-and-dress"
+    },
+    {
+      "k": "etiquette-protection-and-dress-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Where are your ears?",
+      "meaning": {
+        "en": "“Ears” = hearing protection, not the ears themselves.",
+        "uk": "«Ears» — це захист слуху, а не самі вуха."
+      },
+      "say": {
+        "uk": "Де ваші навушники?"
+      },
+      "from": "etiquette-protection-and-dress"
+    },
+    {
+      "k": "etiquette-protection-and-dress-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "You can’t shoot in sandals here.",
+      "meaning": {
+        "en": "Closed shoes are required for safety.",
+        "uk": "З міркувань безпеки потрібне закрите взуття."
+      },
+      "say": {
+        "uk": "У сандалях тут стріляти не можна."
+      },
+      "from": "etiquette-protection-and-dress"
+    },
+    {
+      "k": "etiquette-protection-and-dress-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Your number’s folded — it has to be fully visible.",
+      "meaning": {
+        "en": "The competitor number on the back must be complete and visible; otherwise a warning.",
+        "uk": "Номер на спині має бути цілим і видимим; інакше попередження."
+      },
+      "say": {
+        "uk": "Ваш номер складений — він має бути повністю видимим."
+      },
+      "from": "etiquette-protection-and-dress"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "etiquette-protection-and-dress-kp1",
+      "core": true,
+      "en": "Ear protection for everyone near a layout, spectators and interpreters included",
+      "uk": "Захист слуху — для всіх біля майданчика, зокрема глядачів і перекладачів",
+      "checklist": true
+    },
+    {
+      "k": "etiquette-protection-and-dress-kp2",
+      "core": true,
+      "en": "Glasses: {{tm:sporting}} — anyone close to a stand; {{tm:compak}} — competitors, referees, staff",
+      "uk": "Окуляри: {{tm:sporting}} — усі біля стрілецького місця; {{tm:compak}} — учасники, судді, персонал"
+    },
+    {
+      "k": "safety-eye-ear-protection-kp3",
+      "en": "Without glasses or ear protection a shooter is treated as absent and may not shoot",
+      "uk": "Без окулярів чи захисту слуху стрільця вважають відсутнім, і стріляти він не може",
+      "checklist": true
+    },
+    {
+      "k": "safety-eye-ear-protection-kp5",
+      "en": "Protection works only if it fits; plugs and muffs together protect most",
+      "uk": "Захист працює, лише коли добре сидить; беруші з навушниками захищають найсильніше",
+      "checklist": true
+    },
+    {
+      "k": "safety-eye-ear-protection-kp4",
+      "en": "Electronic muffs soften the shot but let voices through",
+      "uk": "Активні навушники приглушують постріл, але пропускають голос"
+    }
+  ],
+  "did_you_know": {
+    "k": "safety-eye-ear-protection-dyk",
+    "en": "Electronic ear muffs have small microphones: they pass quiet sounds such as voices through and turn the sound down at once when a shot is fired.",
+    "uk": "Активні навушники мають маленькі мікрофони: вони пропускають тихі звуки, як-от голоси, і миттєво приглушують звук, коли лунає постріл."
+  },
+  "quiz": [
+    {
+      "k": "safety-eye-ear-protection-q1",
+      "q": {
+        "en": "Who must wear hearing protection at a competition?",
+        "uk": "Хто на змаганні повинен носити захист слуху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only the shooter who is on the stand",
+          "uk": "Лише стрілець, який на стрілецькому місці"
+        },
+        {
+          "k": "b",
+          "en": "Shooters and referees, but not spectators",
+          "uk": "Стрільці й судді, але не глядачі"
+        },
+        {
+          "k": "c",
+          "en": "Everyone near the layout, spectators too",
+          "uk": "Усі біля майданчика, зокрема глядачі"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The rules of both disciplines name shooters, referees, staff and spectators near the layout.",
+        "uk": "Правила обох дисциплін називають стрільців, суддів, персонал і глядачів біля майданчика."
+      }
+    },
+    {
+      "k": "etiquette-protection-and-dress-q1",
+      "q": {
+        "en": "Your shooter walks onto the stand without safety glasses. How do the rules treat him?",
+        "uk": "Ваш стрілець вийшов на стрілецьке місце без захисних окулярів. Як його розглядають правила?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "He gets a warning and may shoot",
+          "uk": "Отримує попередження й може стріляти"
+        },
+        {
+          "k": "b",
+          "en": "He may shoot if the coach agrees",
+          "uk": "Може стріляти, якщо погодиться тренер"
+        },
+        {
+          "k": "c",
+          "en": "He loses one target",
+          "uk": "Втрачає одну мішень"
+        },
+        {
+          "k": "d",
+          "en": "He is treated as absent",
+          "uk": "Його вважають відсутнім"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "In both disciplines a shooter without eye or ear protection on the stand is treated as absent and may not shoot.",
+        "uk": "В обох дисциплінах стрільця без захисту очей чи слуху на стрілецькому місці вважають відсутнім, і стріляти він не може."
+      },
+      "from": "etiquette-protection-and-dress"
+    },
+    {
+      "k": "safety-eye-ear-protection-q4",
+      "q": {
+        "en": "Which gives the most hearing protection when many shots are fired?",
+        "uk": "Що дає найсильніший захист слуху, коли пострілів багато?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Earplugs and ear muffs worn together",
+          "uk": "Беруші й навушники разом"
+        },
+        {
+          "k": "b",
+          "en": "Electronic muffs with the volume turned up",
+          "uk": "Активні навушники з гучністю на максимумі"
+        },
+        {
+          "k": "c",
+          "en": "Earplugs pushed in loosely, for comfort",
+          "uk": "Беруші, вставлені неглибоко, для зручності"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Plugs and muffs together protect most, as long as both fit well.",
+        "uk": "Беруші з навушниками разом захищають найсильніше, якщо і ті, й інші добре сидять."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "safety-eye-ear-protection-q3",
+      "q": {
+        "en": "What is the advantage of electronic ear muffs?",
+        "uk": "Яка перевага активних навушників?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They make safety glasses unnecessary",
+          "uk": "З ними не потрібні захисні окуляри"
+        },
+        {
+          "k": "b",
+          "en": "They soften the shot but let voices through",
+          "uk": "Вони приглушують постріл, але пропускають голос"
+        },
+        {
+          "k": "c",
+          "en": "They block all sound, voices included",
+          "uk": "Вони глушать усі звуки, зокрема голоси"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "You are protected from the bang and still hear the referee’s commands.",
+        "uk": "Так ви захищені від пострілу й водночас чуєте команди судді."
+      }
+    },
+    {
+      "k": "etiquette-protection-and-dress-q2",
+      "q": {
+        "en": "Which shorts are allowed at a FITASC competition?",
+        "uk": "Які шорти дозволено на змаганнях FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Any sports shorts, as long as the shirt has sleeves",
+          "uk": "Будь-які спортивні шорти, якщо сорочка з рукавами"
+        },
+        {
+          "k": "b",
+          "en": "Bermuda-style shorts, ending {{fact:rules.dress-shorts-length}}",
+          "uk": "Бермуди, що закінчуються {{fact:rules.dress-shorts-length}}"
+        },
+        {
+          "k": "c",
+          "en": "Short shorts in {{tm:compak}}, but not in {{tm:sporting}}",
+          "uk": "Короткі шорти в {{tm:compak}}, але не в {{tm:sporting}}"
+        },
+        {
+          "k": "d",
+          "en": "No shorts of any length, in either discipline",
+          "uk": "Жодних шортів, у жодній із дисциплін"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Short shorts are banned in both disciplines; long Bermuda-style shorts are accepted.",
+        "uk": "Короткі шорти заборонені в обох дисциплінах; довгі бермуди дозволені."
+      },
+      "from": "etiquette-protection-and-dress"
+    },
+    {
+      "k": "etiquette-protection-and-dress-q3",
+      "q": {
+        "en": "Why are electronic ear muffs a good choice for an interpreter?",
+        "uk": "Чому електронні навушники — добрий вибір для перекладача?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They soften the shot but let voices through",
+          "uk": "Вони приглушують постріл, але пропускають голоси"
+        },
+        {
+          "k": "b",
+          "en": "They are not required for interpreters",
+          "uk": "Перекладачам вони не потрібні"
+        },
+        {
+          "k": "c",
+          "en": "They block all sound completely",
+          "uk": "Вони повністю блокують звук"
+        },
+        {
+          "k": "d",
+          "en": "They record the coach",
+          "uk": "Вони записують тренера"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Hearing protection is compulsory near a layout, and electronic muffs let you hear the coach and referee.",
+        "uk": "Захист слуху обов’язковий біля майданчика, а електронні навушники дають чути тренера й суддю."
+      },
+      "from": "etiquette-protection-and-dress"
+    }
+  ],
+  "evidence": [
+    {
+      "for": "safety-eye-ear-protection-p1",
+      "level": "strong",
+      "sources": [
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+        "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf"
+      ]
+    },
+    {
+      "for": "safety-eye-ear-protection-fit",
+      "level": "some",
+      "sources": [
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf"
+      ]
+    },
+    {
+      "for": "safety-eye-ear-protection-double",
+      "level": "some",
+      "sources": [
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf"
+      ]
+    }
+  ],
+  "h_uk": {
+    "title": "4fc67396",
+    "summary": "49f9f2ea",
+    "safety-eye-ear-protection-p1": "5fabc3ed",
+    "etiquette-protection-and-dress-p1": "75dad0a4",
+    "safety-eye-ear-protection-children": "8f9759ba",
+    "safety-eye-ear-protection-p2": "e47c6a2b",
+    "safety-eye-ear-protection-p4": "d11a1b59",
+    "safety-eye-ear-protection-fit": "fbced70e",
+    "safety-eye-ear-protection-double": "50c4e626",
+    "safety-eye-ear-protection-p5": "53366281",
+    "safety-eye-ear-protection-dress": "2dcdcdbd",
+    "safety-eye-ear-protection-p6": "9cc243ec",
+    "etiquette-protection-and-dress-p2": "9310035c",
+    "safety-eye-ear-protection-n1": "c93b96dd",
+    "etiquette-protection-and-dress-ph1": "92bc41c5",
+    "etiquette-protection-and-dress-ph2": "22e5004b",
+    "etiquette-protection-and-dress-ph3": "f5432c6d",
+    "etiquette-protection-and-dress-ph4": "68906dc5",
+    "etiquette-protection-and-dress-kp1": "6ad3805f",
+    "etiquette-protection-and-dress-kp2": "770acedf",
+    "safety-eye-ear-protection-kp3": "203a548b",
+    "safety-eye-ear-protection-kp5": "26baa635",
+    "safety-eye-ear-protection-kp4": "a9cffb89",
+    "safety-eye-ear-protection-dyk": "fda2ecb9",
+    "safety-eye-ear-protection-q1": "f6215db8",
+    "etiquette-protection-and-dress-q1": "d685c5f7",
+    "safety-eye-ear-protection-q4": "be7193d0",
+    "safety-eye-ear-protection-q3": "1e5f49ee",
+    "etiquette-protection-and-dress-q2": "dfd93142",
+    "etiquette-protection-and-dress-q3": "032432ba"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays (9 languages), fact clean-up of 2026-10-07 (one number in one place): etiquette-protection-and-dress-q2 now use the shared fact tokens of the rules/gear/community blocks instead of duplicate facts or written-out numbers. The meaning is unchanged, so check the wording and re-sign the hash."
+    ]
+  }
+}

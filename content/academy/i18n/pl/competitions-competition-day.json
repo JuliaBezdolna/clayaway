@@ -1,0 +1,165 @@
+{
+  "id": "competitions-competition-day",
+  "lang": "pl",
+  "base_rev": 2,
+  "h": {
+    "title": "da330bf4",
+    "summary": "03f0d6e8",
+    "sport-competition-day-p1": "fe775f1f",
+    "competitions-competition-day-p1": "1637c3ac",
+    "competitions-competition-day-p2": "67e7bbfe",
+    "competitions-competition-day-p3": "f4441a9d",
+    "competitions-competition-day-practice": "8b778fed",
+    "sport-competition-day-p2": "e6be5fdb",
+    "competitions-competition-day-p5": "dd34255e",
+    "competitions-competition-day-ready": "b0097c3e",
+    "sport-competition-day-p3": "1c827ea1",
+    "sport-competition-day-p4": "31ca987d",
+    "competitions-competition-day-late-inline": "b5ebbfb9",
+    "competitions-competition-day-late": "29daedd5",
+    "sport-competition-day-p5": "88bcdcdc",
+    "competitions-competition-day-end": "d5f38b62",
+    "competitions-competition-day-n1": "2c5d9407",
+    "competitions-competition-day-n-parent": "416800c4",
+    "sport-competition-day-ph1": "aca8882e",
+    "sport-competition-day-ph2": "19bd30f0",
+    "sport-competition-day-ph3": "c9b8e464",
+    "sport-competition-day-ph4": "2f81332b",
+    "sport-competition-day-kp1": "1253bc50",
+    "competitions-competition-day-kp1": "d0538c31",
+    "competitions-competition-day-kp-ready": "4fd327b5",
+    "sport-competition-day-kp4": "05da6963",
+    "sport-competition-day-kp5": "8745608e",
+    "competitions-competition-day-dyk": "bee33939",
+    "competitions-competition-day-q-protection": "52593bf2",
+    "competitions-competition-day-q2": "ee8d9127",
+    "sport-competition-day-q2": "1bccddb2",
+    "competitions-competition-day-q1": "2e3a9e98",
+    "sport-competition-day-q3": "7ccca26d",
+    "competitions-competition-day-q-inline-late": "ba6595e7",
+    "competitions-competition-day-q-carry": "861a9947"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Dzień zawodów od początku do końca",
+  "summary": "Co się dzieje w dniu zawodów w {{tm:sporting}} i {{tm:compak}}: rejestracja, twój numer, grupy i kolejność, spóźnienia, wyniki i koniec dnia.",
+  "body": {
+    "sport-competition-day-p1": "Dzień zaczyna się od rejestracji: strzelec potwierdza {{term:entry|zgłoszenie}}, otrzymuje {{term:competitor-number|numer startowy}} i przypina go na górnej części pleców, w pełni widoczny. Potem wszyscy sprawdzają listy {{term:squad|grup}} i {{term:shooting-times|godziny strzelania}}. Grupa (squad) to maksymalnie sześciu strzelców, wylosowanych do wspólnego strzelania. Pilnowanie harmonogramu to obowiązek samego strzelca.",
+    "competitions-competition-day-p1": "Przyjedź wcześniej: rejestracja, znalezienie swojej grupy i przygotowanie zajmują czas. {{term:competitor-number|Numer}} startowy mocuje się między łopatkami i pasem, nie składając go i nie przycinając. Załóż {{term:hearing-protection|ochronniki słuchu}} i {{term:safety-glasses|okulary strzeleckie}}, zanim wejdziesz na stanowisko. W obu dyscyplinach strzelca bez nich uznaje się za nieobecnego i stosuje się do niego przepisy o spóźnieniu (patrz niżej).",
+    "competitions-competition-day-p2": "Ubierz się schludnie i bezpiecznie: szorty mogą kończyć się {{fact:rules.dress-shorts-length}}, góra musi mieć rękawy, a sandały są zakazane. Noś broń otwartą (złamaną w zawiasie, żeby każdy widział, że nie jest naładowana) i bez pasa. {{term:semi-automatic|Półautomat}} nosi się z otwartą komorą (zamkiem odciągniętym do tyłu). Wszystkie przepisy: {{lesson:rules-dress-and-safety}}.",
+    "competitions-competition-day-p3": "Chcesz sprawdzić, czy broń działa? Zrób to przed serią, na specjalnym {{term:gun-test|stanowisku do strzału próbnego}}, jeśli strzelnica je ma. Strzały próbne na stanowisku zawodów są zakazane.",
+    "competitions-competition-day-practice": {
+      "sporting": "Nikomu nie wolno trenować na osiach zawodów przed ich rozpoczęciem. Trenuj na innych strzelnicach.",
+      "compak": "{{term:practice|Trenować}} można na tych samych lotach rzutków (trajektoriach), co na zawodach, ale według innej {{term:trajectory-setting-table|tabeli ustawień trajektorii}}. Ta tabela to schemat, który określa, z których maszynek strzela się na każdym stanowisku. Na mistrzostwach kontynentu i świata oficjalny trening zaczyna się {{fact:training.compak-championship-practice}}."
+    },
+    "sport-competition-day-p2": "W {{tm:sporting}} grupa strzela najpierw wszystkie {{term:single-target|rzutki pojedyncze}} stanowiska, potem {{term:double|dublety}}, a na każdym nowym stanowisku pierwszy strzela inny zawodnik ({{term:rotation|kolejność strzelania}} się zmienia). Zanim ktokolwiek zacznie strzelać, pierwszemu strzelcowi grupy pokazuje się rzutki: każdy wypuszcza się tak, by było widać, jak leci.",
+    "competitions-competition-day-p5": "Gdy {{tm:compak}} strzela się grupowo, pełna grupa liczy sześciu strzelców: pięciu stoi na pięciu stanowiskach, a szósty czeka za stanowiskiem 1. Gdy strzelców jest mniej, jedno stanowisko zostaje puste. Gdy wszyscy odstrzelają swoje rzutki ze swojego stanowiska, grupa przesuwa się o jedno stanowisko w prawo. Strzelec ze stanowiska 5 idzie czekać za stanowisko 1, a ten, który czekał, wchodzi na stanowisko 1. Tak trwa, aż każdy odstrzela z wszystkich pięciu stanowisk. Przed swoją serią przyjdź na przypisane ci pole Compak i zgłoś się do sędziego: to obowiązkowe. W {{term:compak-in-line|Compak in line}} strzelcy nie przesuwają się grupą: wchodzą pojedynczo na stanowisko 1 i przechodzą linię do stanowiska 5.",
+    "competitions-competition-day-ready": "Gdy przyjdzie twoja kolej, bądź gotowy od razu, z nabojami na całą serię. W {{tm:compak}} sędzia nie musi szukać nieobecnego strzelca. Jak zbudowane są stanowiska: {{lesson:targets-sporting-layout}} i {{lesson:targets-compak-layout}}.",
+    "sport-competition-day-p3": "{{term:round|Seria}} to 25 rzutków: jedna {{term:layout|oś}} w {{tm:sporting}} albo jedno pole w {{tm:compak}}. Zawody międzynarodowe to 200 rzutków, czyli osiem serii w ciągu kilku dni. Sędzia zaznacza każdy rzutek w {{term:score-sheet|karcie wyników}}, zwykle X — trafienie, O — pudło. W {{tm:sporting}} strzelcy sprawdzają wynik, schodząc ze stanowiska, a w {{tm:compak}} podpisują kartę na koniec serii.",
+    "sport-competition-day-p4": "Spóźnienie drogo kosztuje. W {{tm:sporting}} sędzia wywołuje nazwisko strzelca trzy razy w ciągu jednej minuty; kto przegapi swoją kolej, dostaje zera za nieodstrzelane rzutki. W {{tm:compak}} strzelec, który przyjdzie, gdy pierwszy strzelec grupy już zawołał o pierwszy rzutek (poprosił o jego wypuszczenie), dostaje {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late-inline": "W {{term:compak-in-line|Compak in line}} liczysz się za spóźnionego, gdy zdarzą się dwie rzeczy: system komputerowy anulował twój numer startowy, a następny strzelec stoi na stanowisku 1. Kara jest ta sama: {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late": "Spóźniłeś się z przyczyny, na którą nie miałeś wpływu? Nie wracaj do grupy samodzielnie: odwołaj się pisemnie do {{term:jury|jury}} (organu zarządzającego zawodami), w {{tm:compak}} tego samego dnia. Jeśli jury się zgodzi, odstrzelasz serię z inną grupą. Szczegóły: {{lesson:rules-call-and-time}}.",
+    "sport-competition-day-p5": "Jeśli strzelcy remisują o jedno z pierwszych trzech miejsc, remis rozstrzyga {{fact:competitions.shoot-off-format}}. W sudden death strzelają dalej, i pierwszy, który chybi, odpada. Poniżej trzeciego miejsca dogrywki nie ma: zremisowani strzelcy dzielą miejsce. Ich kolejność na liście ustala {{term:countback|countback}}: ich wyniki porównuje się {{fact:competitions.countback-order}}. Dzień kończy się tablicą wyników i {{term:prize-giving|dekoracją}}.",
+    "competitions-competition-day-end": "Możesz trafić do dogrywki? Bądź w pobliżu i w zasięgu kontaktu: strzelać może trzeba będzie {{fact:rules.shootoff-ready-time}}. Na zawodach międzynarodowych każdy zdobywca nagrody musi być na {{term:prize-giving|dekoracji}} — w stroju reprezentacji albo w schludnych spodniach i blezerze. Jak czytać wyniki: {{lesson:watching-reading-results}}."
+  },
+  "note": {
+    "competitions-competition-day-n1": "Wyjazdy ClayAway, które są w przygotowaniu, też będą używać słowa „squad” dla podgrupy wyjazdu. Na zawodach oznacza ono zawsze grupę strzelającą razem, więc precyzuj, o które znaczenie chodzi.",
+    "competitions-competition-day-n-parent": "Oglądaj z miejsca dla widzów i zachowuj spokój w pobliżu stanowiska. Rada wykrzyczana podczas serii liczy się jako {{term:coaching|podpowiadanie}} (coaching): sędzia może za to dać dziecku żółtą kartkę. Więcej: {{lesson:juniors-support-without-pressure}}."
+  },
+  "phrases": {
+    "sport-competition-day-ph1": {
+      "meaning": "Numer grupy, oś startowa i godzina startu.",
+      "say": "Jesteś w grupie dwunastej, start na osi piątej o dziewiątej trzydzieści."
+    },
+    "sport-competition-day-ph2": {
+      "meaning": "{{tm:sporting}}: upewnij się teraz, że sędzia poprawnie zapisał twój wynik — później będzie za późno.",
+      "say": "Sprawdź kartę, zanim zejdziesz ze stanowiska."
+    },
+    "sport-competition-day-ph3": {
+      "meaning": "22 na 25 w pierwszej serii; w zawodach na 200 rzutków zostało siedem serii.",
+      "say": "Dwadzieścia dwa w pierwszej serii to dobrze — jeszcze siedem."
+    },
+    "sport-competition-day-ph4": {
+      "meaning": "Strzelec, który może trafić do dogrywki, musi być gotowy wkrótce po wezwaniu.",
+      "say": "Zostań w pobliżu — jeśli będzie remis, strzelasz w ciągu piętnastu minut od wezwania."
+    }
+  },
+  "key_points": {
+    "sport-competition-day-kp1": "Rejestracja, numer startowy na plecach, listy grup i godziny.",
+    "competitions-competition-day-kp1": "Bez ochronników słuchu i okularów strzeleckich na stanowisku jesteś uznawany za nieobecnego.",
+    "competitions-competition-day-kp-ready": "Bądź gotowy w swojej kolejce, z nabojami na całą serię; broń testuj tylko na stanowisku do strzału próbnego.",
+    "sport-competition-day-kp4": "Spóźnienie kosztuje zer; w {{tm:compak}} {{fact:competitions.compak-late-zeros}}.",
+    "sport-competition-day-kp5": "Remisy o pierwszą trójkę: dogrywka na 25, potem nagła śmierć; niższe remisy: countback."
+  },
+  "did_you_know": "W {{tm:sporting}} grupa czeka jak najbliżej stanowiska, ale w miejscu, które nie przeszkadza strzelającemu.",
+  "quiz": {
+    "competitions-competition-day-q-protection": {
+      "q": "Co się stanie, jeśli przyjdziesz na stanowisko bez ochronników słuchu albo okularów strzeleckich?",
+      "options": {
+        "a": "Możesz strzelać, ale dostaniesz ostrzeżenie",
+        "b": "Jesteś uznawany za nieobecnego i nie możesz strzelać",
+        "c": "Sędzia wyda ci zapasowe"
+      },
+      "explain": "W obu dyscyplinach strzelca bez ochronników słuchu albo okularów uznaje się za nieobecnego i stosuje się przepisy o spóźnieniu."
+    },
+    "competitions-competition-day-q2": {
+      "q": "Gdzie można sprawdzić, czy broń działa?",
+      "options": {
+        "a": "Na pierwszym stanowisku zawodów, przed serią",
+        "b": "Gdziekolwiek na strzelnicy, jeśli nikogo nie ma w pobliżu",
+        "c": "Na specjalnym stanowisku do strzału próbnego, jeśli jest"
+      },
+      "explain": "Strzały próbne na stanowisku zawodów są zakazane w obu dyscyplinach; do tego służy stanowisko do strzału próbnego."
+    },
+    "sport-competition-day-q2": {
+      "q": "W {{tm:compak}} strzelanym grupowo strzelec przychodzi po tym, jak pierwszy strzelec zawołał o pierwszy rzutek. Co się stanie?",
+      "options": {
+        "a": "Nic, dołącza",
+        "b": "Dostaje 25 zer za tę serię",
+        "c": "Strzela serię później sam, bez kary",
+        "d": "Traci jeden rzutek"
+      },
+      "explain": "W {{tm:compak}} strzelanym grupowo przyjście po pierwszym wywołaniu kosztuje {{fact:competitions.compak-late-zeros}}. Z przyczyny, na którą nie miałeś wpływu, możesz tego samego dnia odwołać się pisemnie do jury."
+    },
+    "competitions-competition-day-q1": {
+      "q": "Ile najwięcej strzelców liczy grupa?",
+      "options": {
+        "a": "4",
+        "b": "6",
+        "c": "8"
+      },
+      "explain": "I w {{tm:sporting}}, i w {{tm:compak}} grupa liczy najwięcej 6 strzelców."
+    },
+    "sport-competition-day-q3": {
+      "q": "Dwóch strzelców remisuje o 5. miejsce. Jak ich rozstawiają?",
+      "options": {
+        "a": "Dogrywką na 25 rzutków za to miejsce",
+        "b": "Losowaniem po zakończeniu zawodów",
+        "c": "Dzielą je; kolejność ustala countback od 8. osi lub Compak",
+        "d": "Według wieku, młodszy wyżej"
+      },
+      "explain": "Dogrywki są tylko za pierwszą trójkę. Niżej zremisowani strzelcy dzielą miejsce, a countback porównuje 8. oś lub Compak, potem 7. i tak dalej."
+    },
+    "competitions-competition-day-q-inline-late": {
+      "q": "W Compak in line, kiedy liczysz się za spóźnionego?",
+      "options": {
+        "a": "Gdy twój numer jest anulowany w systemie, a następny strzelec jest już na stanowisku 1",
+        "b": "Gdy sędzia po raz pierwszy wywoła twoje imię",
+        "c": "Tylko gdy cała twoja grupa skończy strzelać serię"
+      },
+      "explain": "Muszą zdarzyć się obie rzeczy: twój numer jest już anulowany w systemie komputerowym, a następny strzelec stoi na stanowisku 1. Kara to {{fact:competitions.compak-late-zeros}}."
+    },
+    "competitions-competition-day-q-carry": {
+      "q": "Jak nosić broń między stanowiskami?",
+      "options": {
+        "a": "Otwartą, żeby każdy widział, że nie jest naładowana, i bez pasa",
+        "b": "Zamkniętą i nienaładowaną, na pasie przez ramię",
+        "c": "Zamkniętą, na bezpieczniku, lufami do ziemi"
+      },
+      "explain": "Broń nosi się otwartą, a pasy są zakazane; półautomat nosi się z otwartą komorą."
+    }
+  }
+}

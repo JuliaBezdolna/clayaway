@@ -1,0 +1,113 @@
+{
+  "id": "interpreter-false-friends",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "93be8a38",
+    "summary": "2c55b920",
+    "interpreter-false-friends-intro": "39c55cd5",
+    "interpreter-false-friends-p1": "3e0535c1",
+    "interpreter-false-friends-p2": "3cf9ded2",
+    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-cards": "3645d5da",
+    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-ph1": "7ff90f13",
+    "interpreter-false-friends-ph2": "3677adad",
+    "interpreter-false-friends-ph3": "f46276ac",
+    "interpreter-false-friends-ph4": "d629b25a",
+    "interpreter-false-friends-ph5": "1a9f89c1",
+    "interpreter-false-friends-ph6": "17d1f7d8",
+    "interpreter-false-friends-kp1": "6cad2a11",
+    "interpreter-false-friends-kp2": "aaa1da92",
+    "interpreter-false-friends-kp3": "2fc47aba",
+    "interpreter-false-friends-kp4": "c8245804",
+    "interpreter-false-friends-kp5": "df7d4fa7",
+    "interpreter-false-friends-kp6": "19cf2f99",
+    "interpreter-false-friends-q1": "4fa72f2b",
+    "interpreter-false-friends-q2": "d58615b3",
+    "interpreter-false-friends-q3": "3c4d036d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "pl-wave-2026-10"
+  },
+  "title": "Fałszywi przyjaciele na strzelnicy",
+  "summary": "Strzeleckie słowa, które wydają się znane, a znaczą coś innego: dym i pył, słowa liczenia wyniku, „trap”, „stand” i „squad”, oraz pułapki francuskiego, włoskiego i portugalskiego.",
+  "body": {
+    "interpreter-false-friends-intro": "{{term:false-friend|Fałszywy przyjaciel}} to słowo, które wydaje się znane, ale na strzelnicy znaczy coś innego. Niektóre z nich zmieniają wynik, więc warto wyuczyć się ich najpierw.",
+    "interpreter-false-friends-p1": "Największa pułapka to dym. Gdy trener woła „{{term:smoked-it|Smoked it!}}” (albo „inked it”, „powdered it”), to pochwała za pełne, czyste trafienie: rzutek zniknął w obłoku. W przepisach rzutek, z którego unosi się tylko pył albo dym, bez {{term:visible-piece|widocznego odprysku}}, to {{term:zero|zero}} — chybienie. „{{term:chip|Chip}}”, mały widoczny odprysk, to trafienie ({{term:one|one}}). „Dusted it” jest ryzykowne: może znaczyć, że uniósł się tylko pył (zero), a dla niektórych trenerów — że rzutek rozbito w pył. Dlatego „smoked it” trenera tłumaczcie jako pełne, czyste trafienie, a „only dust” sędziego jako „tylko pył — zero”, a co znaczy „dusted it”, dopytajcie.",
+    "interpreter-false-friends-p2": "Słowa liczenia wyniku nie są dosłowne. „Dead” i „kill” znaczą trafienie, bez związku ze śmiercią. „Lost” znaczy chybienie, nie coś zgubionego. „Dropped two” znaczy dwa rzutki chybione. „Straight” w „25 straight” znaczy bezbłędną serię bez żadnego chybienia.",
+    "interpreter-false-friends-p3": "Słowa o sprzęcie i miejscu. „{{term:trap|Trap}}” to {{term:trap|wyrzutnia}}, nie pułapka; Trap to też dyscyplina olimpijska. „Stand” to jedno miejsce do strzelania, {{term:shooting-stand|stanowisko}}, nie cała strzelnica; w {{tm:compak}} takie miejsca nazywa się często numerami. „{{term:peg|Peg}}” to miejsce strzelca. Nazwa pochodzi od numerowanego kołka, którym na polowaniu z nagonki oznacza się miejsce każdego strzelca, więc nie tłumaczcie go jako „kołek”. „Broken gun” to otwarta (złamana) broń. „Pull!” to {{term:call|komenda}}, „{{term:pull-away|pull-away}}” to metoda wyprzedzenia (odejście od rzutka), a „{{term:length-of-pull|length of pull}}” to długość kolby, od spustu do tylnej płytki.",
+    "interpreter-false-friends-cards": "„Card” to zarówno {{term:score-sheet|karta wyników}}, jak i żółta czy czerwona kartka. „On report” znaczy na odgłos strzału, jak w {{term:double-on-report|dublecie po strzale}}. „{{term:squad|Squad}}” to grupa zawodnicza licząca {{fact:rules.squad-max-shooters}}. Wyjazdy ClayAway, które są przygotowywane, będą używać tego słowa też dla podgrupy wyjazdu.",
+    "interpreter-false-friends-p4": "Inne języki mają własne pułapki. Francuskie „chandelle” to rzutek, który wylatuje prawie prosto w górę; po angielsku to {{term:teal|teal}}. To nie angielskie {{term:chandelle|chandelle}} — rzutek, który wznosi się stromo po łuku, a potem spada. Francuskie „en battue” i włoskie „in battuta” znaczą polowanie {{term:driven-target|z nagonki}}, nie rzutek {{term:battue|battue}}. W portugalskim „batida” to rzutek battue, a „de batida” znaczy z nagonki. Przy trafieniu francuski sędzia mówi „Bon”, a włoski „Buono”, a {{term:trapper|operatora wyrzutni}} często nazywa się „pulleur” albo „puller”. Słowa dla grupy też się różnią, więc używajcie tego, które jest w regulaminie danych zawodów."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-false-friends-ph1": {
+      "meaning": "Pełne, czyste trafienie, rzutek rozpadł się w pył. Nie mylić z „tylko dym” z przepisów.",
+      "say": "Rozbite w pył!"
+    },
+    "interpreter-false-friends-ph2": {
+      "meaning": "Sędzia: nie odpadł żaden widoczny kawałek, więc to chybienie.",
+      "say": "Tylko pył — zero."
+    },
+    "interpreter-false-friends-ph3": {
+      "meaning": "Odpadł mały widoczny odprysk: to się liczy jako trafienie.",
+      "say": "Tylko odprysk, ale zaliczone."
+    },
+    "interpreter-false-friends-ph4": {
+      "meaning": "Otwórzcie broń. Nic wspólnego z jej uszkodzeniem.",
+      "say": "Otwórzcie (złamcie) broń."
+    },
+    "interpreter-false-friends-ph5": {
+      "meaning": "Stańcie na oznaczonym miejscu do strzelania.",
+      "say": "Stawajcie na stanowisko."
+    },
+    "interpreter-false-friends-ph6": {
+      "meaning": "Drugi rzutek wypuszczany jest na odgłos waszego pierwszego strzału.",
+      "say": "Drugi — po strzale."
+    }
+  },
+  "key_points": {
+    "interpreter-false-friends-kp1": "„Smoked it” trenera = pełne, czyste trafienie; „only dust or smoke” w przepisach = zero",
+    "interpreter-false-friends-kp2": "Dead / kill = trafienie; lost / dropped = chybienie; straight = bezbłędna seria",
+    "interpreter-false-friends-kp3": "Trap = wyrzutnia; stand = jedno stanowisko; peg = miejsce strzelca; broken gun = otwarta broń",
+    "interpreter-false-friends-kp4": "Pull, card, report i squad mają po kilka znaczeń",
+    "interpreter-false-friends-kp5": "Francuskie chandelle i „en battue” różnią się od angielskich słów",
+    "interpreter-false-friends-kp6": "„Dusted it” może znaczyć i jedno, i drugie: dopytajcie"
+  },
+  "did_you_know": null,
+  "quiz": {
+    "interpreter-false-friends-q1": {
+      "q": "Trener krzyczy po strzale „Smoked it!”. Co się stało?",
+      "options": {
+        "a": "Uniósł się tylko dym: zero",
+        "b": "Rzutek zniszczono: pełne, czyste trafienie",
+        "c": "Nabój nie wypalił",
+        "d": "To był rzutek flash"
+      },
+      "explain": "W żargonie trenerów „smoked it” to pełne, czyste trafienie; w przepisach „only dust or smoke” to zero. Znaczenia są przeciwne."
+    },
+    "interpreter-false-friends-q2": {
+      "q": "Sędzia mówi „Lost.”. Co to znaczy?",
+      "options": {
+        "a": "Rzutek zniknął z pola widzenia",
+        "b": "Strzelcowi skończył się czas",
+        "c": "Rzutek zszedł ze swojej zwykłej linii",
+        "d": "Chybienie: rzutek to zero"
+      },
+      "explain": "„Lost” to słowo liczenia wyniku dla chybienia (zera), nie coś zgubionego."
+    },
+    "interpreter-false-friends-q3": {
+      "q": "Francuski gość mówi, że uwielbia strzelać „en battue”. Co ma na myśli?",
+      "options": {
+        "a": "Polowanie z nagonki (ptaki pędzone na strzelców)",
+        "b": "Cienki rzutek battue, który się obraca",
+        "c": "Rzutek wypuszczany jako część dubletu",
+        "d": "Rzutek, który rozpada się w pył"
+      },
+      "explain": "Francuskie „en battue” (włoskie „in battuta”) znaczy polowanie z nagonki; rzutek battue to coś innego."
+    }
+  }
+}

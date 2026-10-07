@@ -1,0 +1,187 @@
+{
+  "id": "rules-dress-and-safety",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "c731aafd",
+    "summary": "ae3da601",
+    "culture-dress-code-p1": "9e0775c4",
+    "gear-protection-clothes-p4": "3e1cab97",
+    "rules-dress-and-safety-cmp1": "b186cdbf",
+    "culture-dress-code-p4": "d20c8cdd",
+    "gear-protection-clothes-p5": "0e28b350",
+    "rules-dress-and-safety-cmp2": "e40d0c0b",
+    "rules-dress-and-safety-p6": "de5cadff",
+    "rules-dress-and-safety-p3": "32c29f59",
+    "rules-dress-and-safety-cmp3": "ea2c8461",
+    "rules-dress-and-safety-p4": "4f27a383",
+    "rules-dress-and-safety-p5": "6c50af6c",
+    "rules-dress-and-safety-cmp4": "c6b05acd",
+    "rules-dress-and-safety-p7": "19b095c5",
+    "compak-dress-and-conduct-p5": "e92ab8a6",
+    "gear-protection-clothes-ph1": "82dc2bb2",
+    "compak-dress-and-conduct-ph1": "bbef650e",
+    "compak-dress-and-conduct-ph2": "b0e6a2f4",
+    "culture-dress-code-kp1": "9c8b2f3b",
+    "rules-dress-and-safety-kp2": "8d14f459",
+    "rules-dress-and-safety-kp3": "167efa2e",
+    "rules-dress-and-safety-kp4": "24263c64",
+    "rules-dress-and-safety-kp5": "497a2e54",
+    "rules-dress-and-safety-dyk": "4a570728",
+    "rules-dress-and-safety-q1": "9e82402d",
+    "rules-dress-and-safety-q2": "68da8bc1",
+    "rules-dress-and-safety-q4": "a0a0f82d",
+    "rules-dress-and-safety-q3": "4be4f4c3",
+    "culture-dress-code-q2": "a1c683e9",
+    "culture-dress-code-q3": "f64ea223",
+    "gear-protection-clothes-q1": "f30ce4e9",
+    "gear-protection-clothes-q3": "6ecfcb44",
+    "compak-dress-and-conduct-q1": "940076d2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "culture-dress-code-p1": "A koronglövészet nyilvános sport, és a {{tm:sporting}} és a {{tm:compak}} szabályai azt kérik a lövészektől, hogy öltözzenek rendesen és gyakorlatiasan. Az {{term:dress-code|öltözet}} két célt szolgál: a biztonságot és a verseny tiszteletét.",
+    "gear-protection-clothes-p4": "Az öltözködési szabályok majdnem ugyanazok mindkét versenyszámban. A sortnak hosszúnak kell lennie: {{fact:rules.dress-shorts-length}}. A felsőnek ujjasnak kell lennie, a rövid ujj is elég, és fel kell érnie a nyakig, kialakított gallérral vagy kerek nyakkivágással. Mellény puszta felsőtestre nem megengedett, és a szandál biztonsági okból tilos.",
+    "rules-dress-and-safety-cmp1": {
+      "sporting": "A versenyen. A szandál ott tilos, mert nem biztonságos.",
+      "compak": "A lőálláson, edzésen és versenyen is: a szandál mindkét esetben tilos."
+    },
+    "culture-dress-code-p4": "A {{term:competitor-number|rajtszám}} a hátadra kerül, valahol a lapockák és a derék között. Teljesen láthatónak kell lennie: nem hajtva, nem levágva. Az öltözet vagy a rajtszám szabályának megsértése először figyelmeztetést hoz; ha nem javítod ki, a zsűri akár kizárásig is mehet.",
+    "gear-protection-clothes-p5": "Sok lövész nap és eső ellen siltes sapkát és kesztyűt is visel, és töltényes táskában viszi a napi készletet. Ezek szokások, nem szabályok.",
+    "rules-dress-and-safety-cmp2": {
+      "sporting": "Fülvédő: mindenkinek a lőpályán és közelében, a nézőket is beleértve; a stenden lévő gyerekeknek a klubházon kívül mindenhol kell viselniük. Szemüveg: a lövészeknek, a bíróknak és a személyzetnek, és mindenkinek, aki egy lőállás közelében van.",
+      "compak": "Fülvédő: a lövészeknek, a bíróknak, a személyzetnek és a közeli nézőknek. Szemüveg: a lövészeknek, a bíróknak és a személyzetnek."
+    },
+    "rules-dress-and-safety-p6": "Mindkét versenyszámban az a lövész, aki {{term:hearing-protection|fülvédő}} vagy {{term:safety-glasses|lövészszemüveg}} nélkül jön a lőállásra, távollévőnek számít, és nem lőhet. Hogyan válaszd ki őket: {{lesson:safety-eye-ear-protection}}.",
+    "rules-dress-and-safety-p3": "A fegyvert nyitva hordd (hogy mindenki lássa, nem tud elsülni), még üresen is. Egy {{term:semi-automatic|félautomatát}} nyitott závárzattal hordanak: a zár hátrahúzva, hogy lássák, a tölténykamra üres. A csőtorkolata egyenesen felfelé vagy lefelé néz. Amikor nincs használatban, a fegyver állva marad egy {{term:gun-rack|fegyvertartóban}}. Senki nem nyúl más fegyveréhez engedély nélkül. A hordszíj mindkét versenyszámban tilos.",
+    "rules-dress-and-safety-cmp3": {
+      "sporting": "Csak a lőálláson, a csővel a lőtér felé, miután a bíró engedélyezte a lövészet kezdését.",
+      "compak": "Csak a saját lőállásodon, a kezdés engedélyezése után. Tartsd nyitva a fegyvert, a csővel a korongok felé, a {{term:firing-angle-limiter|lövésiszög-határolón}} (a lőállás körüli keret, amely nem engedi, hogy a csövek túl messzire forduljanak) belül. Csak a saját sorodban zárd be."
+    },
+    "rules-dress-and-safety-p4": "Mindkét versenyszámban {{fact:rules.semi-auto-cartridges}} tölthetsz egy félautomatába. A lőállás elhagyása után a tulajdonosa felszedi a fegyver által kidobott üres hüvelyeket. Az üres hüvelyeket a kukába dobják, ha van.",
+    "rules-dress-and-safety-p5": "Mielőtt megfordulnál a lőálláson, nyisd ki a fegyvert, és vedd ki az összes töltényt, kilőttet és ki nem lőttet is. A bemutatás és bármely megszakítás alatt a fegyver nyitva és üresen marad. Csak a saját sorodban, csak a saját korongodra lőj, és soha nem állatokra.",
+    "rules-dress-and-safety-cmp4": {
+      "sporting": "A stend semelyik részén nem megengedett, beleértve a korong vonala menti lendítést a korong kérése előtt is.",
+      "compak": "A lőállásokon kívül nem megengedett, és akkor sem, amikor a rottéd egy másik tagja lő."
+    },
+    "rules-dress-and-safety-p7": "A fegyver- és lőszertörvények országonként különböznek. A FITASC szabályai a versenyen érvényesek, de nem helyettesítik a helyi törvényeket a fegyver szállításáról és tárolásáról. Külföldi utazás előtt lásd {{lesson:travel-gun-in-eu}}."
+  },
+  "note": {
+    "compak-dress-and-conduct-p5": "A lőállás közelében a közönség részeként veszel részt: viselj védőfelszerelést, maradj csendben a korong kérésekor, és ne kommentálj egy döntést. A szabályok nem említik a tolmácsokat, de egy edző tanácsának verseny közbeni átadását coachingnak ítélhetik. Ekkor a lövész sárga lapot kap, és téged kiküldenek a lövészeti területről. Csak a hivatalos szavakat fordítsd, a bírónak, a zsűrinek és a szervezőnek."
+  },
+  "phrases": {
+    "gear-protection-clothes-ph1": {
+      "meaning": "Mielőtt a lőálláshoz mész, tedd fel a fülvédőt és a szemüveget.",
+      "say": "Fülvédő és szemüveg fel, mielőtt odamész."
+    },
+    "compak-dress-and-conduct-ph1": {
+      "meaning": "Bíró: a rajtszámnak teljesen láthatónak kell lennie a háton.",
+      "say": "A rajtszámot a hátadra, kérlek."
+    },
+    "compak-dress-and-conduct-ph2": {
+      "meaning": "A lőállás előtt tedd fel a fülvédőt és a szemüveget.",
+      "say": "Fülvédő, szemüveg fel."
+    }
+  },
+  "key_points": {
+    "culture-dress-code-kp1": "Csak hosszú sort megengedett ({{fact:rules.dress-shorts-length}}); ujjas felső (rövid ujj is elég); szandál nem megengedett.",
+    "rules-dress-and-safety-kp2": "A rajtszám a hátra kerül, teljesen láthatóan.",
+    "rules-dress-and-safety-kp3": "A fegyvert nyitva hordd, hordszíj nélkül; csak a lőálláson tölts, a bíró engedélye után.",
+    "rules-dress-and-safety-kp4": "Mielőtt megfordulnál, nyisd ki a fegyvert, és vedd ki az összes töltényt.",
+    "rules-dress-and-safety-kp5": "Fülvédő vagy szemüveg nélkül a lövészt távollévőnek tekintik, mindkét versenyszámban."
+  },
+  "quiz": {
+    "rules-dress-and-safety-q1": {
+      "q": "Milyen sortok megengedettek a FITASC versenyeken?",
+      "options": {
+        "a": "Bármilyen sportos sort",
+        "b": "Semmilyen sort",
+        "c": "Hosszúak, térd közelében"
+      },
+      "explain": "A rövid sort tilos; a hosszú megengedett, ha {{fact:rules.dress-shorts-length}} végződik."
+    },
+    "rules-dress-and-safety-q2": {
+      "q": "Hány töltényt tarthat egy félautomata a lőálláson?",
+      "options": {
+        "a": "Egyet",
+        "b": "Legfeljebb kettőt",
+        "c": "Legfeljebb hármat",
+        "d": "Amennyi belefér"
+      },
+      "explain": "Mindkét szabálykönyv {{fact:rules.semi-auto-cartridges}} korlátozza a félautomatákat."
+    },
+    "rules-dress-and-safety-q4": {
+      "q": "Megengedett-e a hordszíj a {{tm:compak}}-ban?",
+      "options": {
+        "a": "Nem, semelyik versenyszámban",
+        "b": "Igen, csak a {{tm:compak}}-ban",
+        "c": "Csak lőállások között"
+      },
+      "explain": "A hordszíj mindkét versenyszámban tilos; a fegyvert nyitva hordják."
+    },
+    "rules-dress-and-safety-q3": {
+      "q": "Egy lövész szemüveg nélkül érkezik a lőállásra. Mi történik?",
+      "options": {
+        "a": "Csak figyelmeztetés",
+        "b": "Megengedett, ha van fülvédője",
+        "c": "Távollévőnek tekintik"
+      },
+      "explain": "A szemüveg és a fülvédő kötelező; nélkülük a lövész nem lőhet."
+    },
+    "culture-dress-code-q2": {
+      "q": "Miért tilos a szandál?",
+      "options": {
+        "a": "Biztonsági okból",
+        "b": "Mert nem divatos",
+        "c": "Nem tilos"
+      },
+      "explain": "A zárt cipő védi a lábat, ezért a szandál tilos."
+    },
+    "culture-dress-code-q3": {
+      "q": "Hol viselik a rajtszámot?",
+      "options": {
+        "a": "A bal ujjon",
+        "b": "A sapka elején",
+        "c": "A háton"
+      },
+      "explain": "A számot a háton viselik, bárhol a lapocák és a derék között, és semmi nem fedheti el."
+    },
+    "gear-protection-clothes-q1": {
+      "q": "Tolmácsként a lőállás közelében állsz. Kötelező fülvédőt viselned?",
+      "options": {
+        "a": "Nem, csak a lőálláson álló lövészeknek",
+        "b": "Csak döntőkben és szétlövéseken",
+        "c": "Igen, mindenkinek a lőpályán vagy annak közelében",
+        "d": "Csak ha a bíró megkér rá"
+      },
+      "explain": "A hallásvédelem a lövészeknek, a bíróknak, a személyzetnek és a nézőknek is kötelező."
+    },
+    "gear-protection-clothes-q3": {
+      "q": "Melyik lábbeli tilos mindkét versenyszámban?",
+      "options": {
+        "a": "Terepfutó cipő",
+        "b": "Szandál",
+        "c": "Bakancs",
+        "d": "Edzőcipő"
+      },
+      "explain": "A szandál biztonsági okból tilos."
+    },
+    "compak-dress-and-conduct-q1": {
+      "q": "Egy lövész szandálban érkezik a lőállásra egy gyakorló körre. Megengedett?",
+      "options": {
+        "a": "Igen, csak edzésen",
+        "b": "Nem, edzésen sem",
+        "c": "Igen, zoknival",
+        "d": "Csak a bíró engedélyével"
+      },
+      "explain": "A {{tm:compak}} öltözködési szabályai biztonsági okból tiltják a szandált edzésen és versenyen is."
+    }
+  },
+  "title": "Öltözködési szabályok és biztonság a lőálláson",
+  "summary": "Mit vegyél fel a {{tm:sporting}} és a {{tm:compak}} versenyeken, hova kerül a rajtszám, hogyan hordd és töltsd meg a fegyvert, és kinek kell fülvédőt és szemüveget viselnie.",
+  "did_you_know": "Minden {{tm:compak}} lőálláson van egy keret, a lövésiszög-határoló. Nem engedi, hogy a fegyver túl messzire forduljon, és a lövészt a lőálláson belül tartja."
+}

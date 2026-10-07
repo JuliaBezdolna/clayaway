@@ -1,0 +1,297 @@
+{
+  "id": "cartridges-velocity-recoil",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "cartridges-velocity-recoil"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "velocity",
+    "recoil",
+    "load-weight",
+    "semi-automatic",
+    "gun-fit",
+    "gun-mount",
+    "cartridge",
+    "flinch",
+    "lead"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "gear.shot-velocity"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "RC Cartridges — RC4 Champion Sporting 28 g: 406 m/s, measured 2.5 m from the muzzle under C.I.P. rules",
+        "uk": "RC Cartridges — RC4 Champion Sporting 28 г: 406 м/с, виміряно за 2,5 м від дула за правилами C.I.P."
+      },
+      "url": "https://rc-cartridges.com/en/prodotto/rc-4-champion-sporting-fibre/",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Gamebore White Gold 28 g: velocity up to 422 m/s",
+        "uk": "Gamebore White Gold 28 г: швидкість до 422 м/с"
+      },
+      "url": "https://gamebore.com/cartridge/clay/12g-white-gold",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Eley Hawk — Proof and C.I.P.: how pressures and velocities are measured",
+        "uk": "Eley Hawk — випробування і C.I.P.: як вимірюють тиск і швидкість"
+      },
+      "url": "https://www.eleyhawkltd.com/insight/proof-and-cip",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Velocity and recoil",
+    "uk": "Швидкість і віддача"
+  },
+  "summary": {
+    "en": "What the velocity on a cartridge box means, why faster is not necessarily better, and what recoil depends on, for {{tm:sporting}} and {{tm:compak}} shooters.",
+    "uk": "Що означає швидкість на коробці патронів, чому швидше не обов’язково краще і від чого залежить віддача — для стрільців {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "cartridges-velocity-recoil-p1",
+      "t": "p",
+      "en": "The box often shows the shot {{term:velocity|velocity}}, in metres per second or feet per second (fps). For clay cartridges it is usually {{fact:gear.shot-velocity}}.",
+      "uk": "На коробці часто вказують {{term:velocity|швидкість}} дробу (velocity) — у метрах за секунду або у футах за секунду (fps). Для спортивних патронів вона зазвичай становить {{fact:gear.shot-velocity}}."
+    },
+    {
+      "k": "cartridges-velocity-recoil-p2",
+      "t": "p",
+      "en": "Compare velocities with care. Shot slows down quickly after it leaves the barrel, so it matters where the speed is measured. European makers (following the C.I.P. test rules) usually measure 2.5 m from the muzzle and write 'V2.5'; some write 'V1', measured at 1 m, which gives a higher number. Labels are not always consistent, so treat the figure as a rough guide.",
+      "uk": "Порівнюйте швидкості обережно. Дріб швидко сповільнюється після вильоту зі ствола, тому важливо, де саме міряють швидкість. Європейські виробники (за правилами випробувань C.I.P.) зазвичай міряють за 2,5 м від дула й пишуть «V2,5»; дехто пише «V1» — за 1 м, і число виходить більшим. Позначки не завжди послідовні, тож сприймайте цифру як орієнтир."
+    },
+    {
+      "k": "cartridges-velocity-recoil-p7",
+      "t": "p",
+      "en": "American makers give feet per second measured about 3 ft (0.9 m) from the muzzle. British boxes sometimes quote an estimated muzzle velocity. So the same figure does not necessarily mean the same speed.",
+      "uk": "Американські виробники подають фути за секунду, виміряні приблизно за 3 фути (0,9 м) від дула. На британських коробках часом вказують розрахункову дульну швидкість. Тож однакова цифра не обов’язково означає однакову швидкість."
+    },
+    {
+      "k": "cartridges-velocity-recoil-p3",
+      "t": "p",
+      "en": "A faster cartridge slightly shortens the time the shot takes to reach the target, but it kicks harder, and its pattern is not necessarily better. Many coaches suggest not chasing speed but choosing a cartridge you shoot consistently with and that does not tire you.",
+      "uk": "Швидший патрон трохи скорочує час польоту дробу до мішені, але сильніше віддає, а осип у нього не обов’язково кращий. Багато тренерів радять не ганятися за швидкістю, а обрати патрон, з яким ви стріляєте рівно й не втомлюєтеся."
+    },
+    {
+      "k": "cartridges-velocity-recoil-p4",
+      "t": "p",
+      "en": "{{term:recoil|Recoil}} is the push of the gun into the shoulder when it fires. It grows with a heavier load and a higher velocity, and it falls with a heavier gun. A gas-operated {{term:semi-automatic|semi-automatic}} spreads the push over a longer time, so many shooters feel it as softer.",
+      "uk": "{{term:recoil|Віддача}} (recoil) — поштовх рушниці в плече під час пострілу. Вона зростає з важчою наважкою і вищою швидкістю та зменшується з важчою рушницею. Газовий {{term:semi-automatic|напівавтомат}} розтягує поштовх у часі, тож багатьом стрільцям він здається м’якшим."
+    },
+    {
+      "k": "cartridges-velocity-recoil-p5",
+      "t": "p",
+      "en": "{{term:gun-fit|Gun fit}} and a correct {{term:gun-mount|gun mount}} matter even more. A gun that fits you and sits firmly in the shoulder feels much softer than one resting on the arm or on bone. A good butt pad and a steady stance help too. More: {{lesson:gun-fit}} and {{lesson:health-recoil-shoulder-neck}}.",
+      "uk": "Ще більше важать {{term:gun-fit|підгонка рушниці}} і правильна {{term:gun-mount|вкладка}}. Рушниця, яка вам пасує й щільно лежить у плечі, відчувається значно м’якше, ніж та, що спирається на руку чи на кістку. Допомагають і добрий затильник, і надійна стійка. Докладніше: {{lesson:gun-fit}} і {{lesson:health-recoil-shoulder-neck}}."
+    },
+    {
+      "k": "cartridges-velocity-recoil-p6",
+      "t": "tip",
+      "en": "In a day of {{tm:sporting}} or {{tm:compak}} you may fire 100–200 shots. Heavy recoil tires you and can slowly teach you to {{term:flinch|flinch}} before the shot. So a lighter cartridge in practice, 24 g for example, is a sensible choice, not a weakness.",
+      "uk": "За день стрільби у {{tm:sporting}} чи {{tm:compak}} можна зробити 100–200 пострілів. Сильна віддача втомлює й поступово може привчити {{term:flinch|смикатися}} перед пострілом. Тож легший патрон на тренуванні, наприклад 24 г, — розумний вибір, а не слабкість."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "cartridges-velocity-recoil-kp1",
+      "en": "Typical clay cartridge velocity: {{fact:gear.shot-velocity}}.",
+      "uk": "Типова швидкість спортивних патронів: {{fact:gear.shot-velocity}}."
+    },
+    {
+      "k": "cartridges-velocity-recoil-kp2",
+      "en": "Makers measure velocity differently (V1, V2.5, fps).",
+      "uk": "Виробники вимірюють швидкість по-різному (V1, V2,5, fps)."
+    },
+    {
+      "k": "cartridges-velocity-recoil-kp3",
+      "en": "Faster means more recoil, but not necessarily better results.",
+      "uk": "Швидше — сильніша віддача, але не обов’язково кращий результат."
+    },
+    {
+      "k": "cartridges-velocity-recoil-kp4",
+      "en": "Recoil grows with load and velocity and falls with gun weight.",
+      "uk": "Віддача зростає з наважкою й швидкістю і зменшується з вагою рушниці."
+    },
+    {
+      "k": "cartridges-velocity-recoil-kp5",
+      "en": "Good fit and a correct mount reduce felt recoil.",
+      "uk": "Підгонка й правильна вкладка зменшують відчутну віддачу."
+    }
+  ],
+  "did_you_know": {
+    "k": "cartridges-velocity-recoil-dyk",
+    "en": "Shot reaches a target at 30 m in roughly a tenth of a second. In that time a crossing target can move a metre or two, which is why shooters give it {{term:lead|lead}}.",
+    "uk": "Дріб долітає до мішені на 30 м приблизно за десяту частку секунди. За цей час мішень, що летить поперек, встигає зміститися на метр-два, тому по ній стріляють із {{term:lead|виносом}}."
+  },
+  "quiz": [
+    {
+      "k": "cartridges-velocity-recoil-q1",
+      "q": {
+        "en": "What makes recoil weaker?",
+        "uk": "Від чого віддача стає слабшою?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A heavier load",
+          "uk": "Важча наважка"
+        },
+        {
+          "k": "b",
+          "en": "A higher velocity",
+          "uk": "Вища швидкість"
+        },
+        {
+          "k": "c",
+          "en": "A heavier gun",
+          "uk": "Важча рушниця"
+        },
+        {
+          "k": "d",
+          "en": "A stock that is too short",
+          "uk": "Закороткий приклад"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A heavier gun absorbs the push better; a heavier load and a higher velocity increase recoil.",
+        "uk": "Важча рушниця краще поглинає поштовх; важча наважка й вища швидкість віддачу збільшують."
+      }
+    },
+    {
+      "k": "cartridges-velocity-recoil-q2",
+      "q": {
+        "en": "Why should you not compare velocities from different makers directly?",
+        "uk": "Чому не варто порівнювати швидкості патронів різних виробників «у лоб»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Makers measure them in different ways",
+          "uk": "Виробники вимірюють їх по-різному"
+        },
+        {
+          "k": "b",
+          "en": "The box figure is usually invented",
+          "uk": "Цифру на коробці зазвичай вигадують"
+        },
+        {
+          "k": "c",
+          "en": "All cartridges have the same velocity",
+          "uk": "Усі патрони мають однакову швидкість"
+        },
+        {
+          "k": "d",
+          "en": "Velocity has no effect at all",
+          "uk": "Швидкість ні на що не впливає"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "V1, V2.5 and fps at 3 ft are different measurements, so the same figure does not mean the same cartridge.",
+        "uk": "V1, V2,5 і fps на 3 футах — різні способи виміру, тож однакова цифра не означає однакового патрона."
+      }
+    },
+    {
+      "k": "cartridges-velocity-recoil-q3",
+      "q": {
+        "en": "What is a typical velocity for clay cartridges?",
+        "uk": "Яка типова швидкість спортивних патронів?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "About 100 m/s",
+          "uk": "Близько 100 м/с"
+        },
+        {
+          "k": "b",
+          "en": "About 360–430 m/s",
+          "uk": "Приблизно 360–430 м/с"
+        },
+        {
+          "k": "c",
+          "en": "About 900 m/s",
+          "uk": "Близько 900 м/с"
+        },
+        {
+          "k": "d",
+          "en": "Over 1,500 m/s",
+          "uk": "Понад 1500 м/с"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Most clay cartridges are about 360–430 m/s.",
+        "uk": "Більшість спортивних патронів мають швидкість приблизно 360–430 м/с."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "a3ab7761",
+    "summary": "d266928f",
+    "cartridges-velocity-recoil-p1": "35b2ccfa",
+    "cartridges-velocity-recoil-p2": "3211df5c",
+    "cartridges-velocity-recoil-p7": "54198ca9",
+    "cartridges-velocity-recoil-p3": "ba5cadf4",
+    "cartridges-velocity-recoil-p4": "85c0baf5",
+    "cartridges-velocity-recoil-p5": "9137f3f8",
+    "cartridges-velocity-recoil-p6": "8cd7145a",
+    "cartridges-velocity-recoil-kp1": "e918f2e4",
+    "cartridges-velocity-recoil-kp2": "ef5b2407",
+    "cartridges-velocity-recoil-kp3": "d7496c84",
+    "cartridges-velocity-recoil-kp4": "7436d207",
+    "cartridges-velocity-recoil-kp5": "66db2bf2",
+    "cartridges-velocity-recoil-dyk": "7f953a03",
+    "cartridges-velocity-recoil-q1": "2af1818b",
+    "cartridges-velocity-recoil-q2": "e0186827",
+    "cartridges-velocity-recoil-q3": "6832d842"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

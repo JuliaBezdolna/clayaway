@@ -1,0 +1,91 @@
+{
+  "id": "intro-disciplines",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "dac19506",
+    "summary": "58295a84",
+    "intro-disciplines-p1": "79e1fd27",
+    "intro-disciplines-p2": "bad18039",
+    "intro-disciplines-cmp": "1ddbb76f",
+    "intro-disciplines-p3": "f274bc4d",
+    "intro-disciplines-p4": "072bf2ee",
+    "intro-disciplines-p5": "c1fef81a",
+    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-kp1": "b3f7bab6",
+    "intro-disciplines-kp2": "634ce41c",
+    "intro-disciplines-kp3": "fec76055",
+    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-dyk": "0aa60887",
+    "intro-disciplines-q1": "f150b65a",
+    "intro-disciplines-q2": "40032e9f",
+    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q-second-shot": "ecd0ab34"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Le discipline principali",
+  "summary": "Una breve guida a {{tm:sporting}} e {{tm:compak}}, più Trap e Skeet: cosa hanno in comune e come si differenziano.",
+  "body": {
+    "intro-disciplines-p1": "Lo {{tm:sporting}} riproduce la caccia. Le {{term:shooting-stand|pedane}}, i punti segnati da cui si tira, sono disposte su terreno naturale: nei campi, vicino ai boschi, sui pendii. I piattelli volano come farebbe una starna, un'anatra o un fagiano, oppure rotolano come una lepre. Ogni {{term:layout|percorso}}, un gruppo di pedane, dà {{fact:targets.sporting-layout-targets}} (un doppio è due piattelli, quindi altri 10). I due piattelli di un {{term:double|doppio}} volano insieme o uno dopo l'altro.",
+    "intro-disciplines-p2": "Il {{tm:compak}} è la versione compatta. Tutto avviene su un unico campo con {{fact:basics.compak-field}}. Il tiratore passa per tutte le cinque pedane e su ciascuna spara a 5 piattelli: 25 per {{term:round|serie}}. Un campo Compak richiede poco spazio, quindi è facile da costruire per un club.",
+    "intro-disciplines-cmp": {
+      "sporting": "Si percorrono le pedane una dopo l'altra, e ogni pedana ha i suoi piattelli. Un doppio può essere {{term:double-on-report|allo sparo}}, dove il primo colpo libera il secondo piattello, oppure {{term:simultaneous-double|simultaneo}}, dove entrambi volano insieme. Un {{term:rafale-double|doppio a raffica}} è formato da due piattelli della stessa macchina, uno subito dopo l'altro.",
+      "compak": "Si resta su un unico campo e, dopo ogni turno, si passa alla pedana a destra. Un doppio è {{term:double-on-report|allo sparo}}, dove il primo colpo libera il secondo piattello, oppure {{term:simultaneous-double|simultaneo}}, dove entrambi volano insieme."
+    },
+    "intro-disciplines-p3": "Le gare internazionali di entrambe le discipline sono di solito {{fact:basics.international-targets}}. In entrambe, su un {{term:single-target|piattello singolo}} si possono sparare due colpi: se il primo manca, il secondo può ancora romperlo.",
+    "intro-disciplines-p4": "Il Trap è una famiglia di discipline diversa. Il tiratore sta su una delle cinque pedane in fila, e i piattelli si allontanano da una trincea (una fossa scavata davanti alle pedane) con angoli variabili. Il tiratore non sa esattamente dove andrà il piattello successivo. Nella {{term:olympic-trap|Fossa Olimpica}} (Olympic Trap) si possono sparare due colpi su ogni piattello.",
+    "intro-disciplines-p5": "Nello {{term:skeet|Skeet}} i piattelli escono da due casette (piccole costruzioni che contengono le macchine) una di fronte all'altra, una alta e una bassa. Il tiratore si sposta tra le pedane disposte a semicerchio tra le casette, più una al centro. Le traiettorie non cambiano, quindi conta molto una tecnica precisa e ben allenata.",
+    "intro-disciplines-p6": "La Fossa Olimpica e lo Skeet sono nel programma olimpico e appartengono a un'altra federazione internazionale, l'ISSF. Ma anche la {{term:fitasc|FITASC}} ha proprie discipline di tipo trap e skeet, come Universal Trench e Universal Skeet. L'Accademia ClayArena riguarda soprattutto {{tm:sporting}} e {{tm:compak}}. Le basi sono comuni a tutte le discipline: la sicurezza, l'{{term:gun-mount|imbracciata}} (il gesto che porta il fucile alla guancia e alla spalla) e la lettura del piattello."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-disciplines-kp1": "{{tm:sporting}}: un percorso su terreno naturale; ogni campo dà {{fact:rules.round-targets}}.",
+    "intro-disciplines-kp2": "{{tm:compak}}: un unico campo con {{fact:basics.compak-field}}.",
+    "intro-disciplines-kp3": "Una gara internazionale è di solito {{fact:basics.international-targets}}; su un piattello singolo si può sparare due volte.",
+    "intro-disciplines-kp4": "Nel Trap i piattelli si allontanano dal tiratore; nello Skeet attraversano il campo tra due casette."
+  },
+  "did_you_know": "Il {{tm:compak}} è stato {{fact:community.compak-created}}.",
+  "quiz": {
+    "intro-disciplines-q1": {
+      "q": "Quanti piattelli dà un campo (layout) di {{tm:sporting}}?",
+      "options": {
+        "a": "10",
+        "b": "25",
+        "c": "50"
+      },
+      "explain": "Ogni campo dà {{fact:targets.sporting-layout-targets}} (un doppio è due piattelli, quindi altri 10)."
+    },
+    "intro-disciplines-q2": {
+      "q": "Quante macchine ci sono su un campo Compak?",
+      "options": {
+        "a": "Sei, con le lettere da A a F",
+        "b": "Due, una alta e una bassa",
+        "c": "Quindici, in una trincea"
+      },
+      "explain": "Un campo {{tm:compak}} ha {{fact:basics.compak-field}}."
+    },
+    "intro-disciplines-q3": {
+      "q": "In quale disciplina i piattelli escono da due casette, una alta e una bassa?",
+      "options": {
+        "a": "Trap",
+        "b": "{{tm:sporting}}",
+        "c": "Skeet"
+      },
+      "explain": "È nello Skeet che ci sono una casetta alta e una bassa, con le pedane disposte a semicerchio tra loro."
+    },
+    "intro-disciplines-q-second-shot": {
+      "q": "Il primo colpo manca un piattello singolo. Cosa permette il regolamento?",
+      "options": {
+        "a": "L'arbitro ripete il piattello",
+        "b": "Devi aprire subito il fucile",
+        "c": "Puoi sparare il secondo colpo"
+      },
+      "explain": "In {{tm:sporting}} e {{tm:compak}} un piattello singolo deve lasciare il tempo per due colpi, quindi dopo un primo colpo a vuoto si può ancora sparare il secondo."
+    }
+  }
+}

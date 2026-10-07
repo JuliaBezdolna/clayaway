@@ -1,0 +1,350 @@
+{
+  "id": "safety-handling-carrying",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "safety-handling-carrying"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "gun-handling",
+    "over-and-under",
+    "semi-automatic",
+    "muzzle",
+    "gun-rack",
+    "gun-slip",
+    "hard-case",
+    "show-clear",
+    "mock-shooting",
+    "warning",
+    "gun-test",
+    "gun-mount"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-gun-handling"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-touching-sharing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-mock-shooting"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-testing-guns"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-presentation"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-carrying"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    },
+    {
+      "book": "compak",
+      "id": "ch11-testing-guns"
+    }
+  ],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Handling and carrying guns at the ground",
+    "uk": "Як носити рушницю на стенді"
+  },
+  "summary": {
+    "en": "An open gun, the gun rack, the gun slip and “ask before you touch”: how to handle a gun between stands.",
+    "uk": "Відкрита рушниця, стійка для рушниць, чохол і правило «спершу запитай»: як поводитися зі зброєю між стрілецькими місцями."
+  },
+  "body": [
+    {
+      "k": "safety-handling-carrying-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "This lesson adds the practical details to {{lesson:safety-core-rules}}. Any gun, even an empty one, is handled with great care. Between stands you carry it open: an {{term:over-and-under|over-and-under}} broken (opened at the hinge), a {{term:semi-automatic|semi-automatic}} with the action (the moving part that loads the cartridge) open. The {{term:muzzle|muzzle}} points straight up or straight down.",
+      "uk": "Цей урок додає практичні подробиці до {{lesson:safety-core-rules}}. З будь-якою рушницею, навіть розрядженою, поводяться дуже обережно. Між стрілецькими місцями її несуть відкритою: {{term:over-and-under|вертикалку}} — переламаною (відкритою на шарнірі), {{term:semi-automatic|напівавтомат}} — з відкритим затвором (рухомою частиною, що подає набій). {{term:muzzle|Дуло}} дивиться прямо вгору або прямо вниз."
+    },
+    {
+      "k": "safety-handling-carrying-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "Many shooters carry an open over-and-under over the forearm, with the barrels towards the ground. Slings and straps are not allowed on guns in either discipline.",
+      "uk": "Багато стрільців несуть відкриту вертикалку на згині руки, стволами до землі. Ремені на рушницях заборонені в обох дисциплінах."
+    },
+    {
+      "k": "safety-handling-carrying-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "When you are not using the gun, stand it upright in a {{term:gun-rack|gun rack}} or in another place the shooting ground provides. A semi-automatic stands there with its action open. Do not lean a gun against a car, a tree or a table: it can slip and fall.",
+      "uk": "Коли рушниця не потрібна, поставте її вертикально у {{term:gun-rack|стійку для рушниць}} або в інше місце, яке відвів стенд. Напівавтомат ставлять із відкритим затвором. Не спирайте рушницю на машину, дерево чи стіл: вона може зісковзнути й упасти."
+    },
+    {
+      "k": "safety-handling-carrying-p4",
+      "t": "p",
+      "en": "Between the car and the shooting area, the gun travels in a {{term:gun-slip|gun slip}} or a {{term:hard-case|hard case}}. Take it out only where the ground allows it, which is often not the car park.",
+      "uk": "Від автомобіля до місця стрільби рушницю переносять у {{term:gun-slip|чохлі}} або {{term:hard-case|кейсі}}. Виймайте її лише там, де це дозволяє стенд, і часто це не парковка."
+    },
+    {
+      "k": "safety-handling-carrying-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "Do not touch another person’s gun without the owner’s permission. If you would like to look at it, ask: the owner will open it and hand it to you. If someone asks to see that your gun is empty, open it and show the chambers. Coaches call this “{{term:show-clear|show clear}}”.",
+      "uk": "Не торкайтеся чужої рушниці без дозволу власника. Якщо хочете її роздивитися, попросіть: власник сам відкриє її й подасть вам. Якщо хтось просить показати, що ваша рушниця розряджена, відкрийте її й покажіть патронники. Тренери кажуть на це «{{term:show-clear|show clear}}»."
+    },
+    {
+      "k": "safety-handling-carrying-p6",
+      "t": "warn",
+      "disc": "both",
+      "en": "Do not {{term:gun-mount|mount}} the gun (bring it up to your shoulder and cheek) and swing it as if you were following a target. This is called {{term:mock-shooting|mock shooting}}. Both rulebooks forbid it, but they draw the line in different places.",
+      "uk": "Не робіть {{term:gun-mount|вкладку}} (не піднімайте рушницю до плеча й щоки) і не ведіть рушницю так, ніби стежите за мішенню. Це називають {{term:mock-shooting|імітацією стрільби}}. Її забороняють правила обох дисциплін, але межу проводять по-різному."
+    },
+    {
+      "k": "safety-handling-carrying-mock-where",
+      "t": "compare",
+      "disc": "both",
+      "en": "Where mock shooting is not allowed",
+      "uk": "Де заборонена імітація стрільби",
+      "sporting": {
+        "en": "Anywhere at the shooting ground: off the stand, on the stand before you call for a target, and while the targets are being shown.",
+        "uk": "Будь-де на стрільбищі: поза стрілецьким місцем, на стрілецькому місці до команди на мішень і під час показу мішеней.",
+        "rule_ref": "sporting:ch8-mock-shooting"
+      },
+      "compak": {
+        "en": "Outside the shooting positions, and while another squad member is shooting.",
+        "uk": "Поза номерами і тоді, коли стріляє інший учасник групи.",
+        "rule_ref": "compak:ch24-dry-mounting"
+      }
+    },
+    {
+      "k": "safety-handling-carrying-mock-rule",
+      "t": "rule",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch8-mock-shooting",
+      "en": "In {{tm:sporting}}, mock shooting or an accidental shot brings a {{term:warning|warning}} the first time. If it happens again, the next target you hit is written down as a miss (zero).",
+      "uk": "У {{tm:sporting}} за імітацію стрільби чи випадковий постріл спершу дають {{term:warning|попередження}}. Якщо це повториться, наступну влучену мішень запишуть як промах (zero)."
+    },
+    {
+      "k": "safety-handling-carrying-p7",
+      "t": "p",
+      "disc": "both",
+      "en": "To check that a gun works, use the {{term:gun-test|test stand}} if the ground has one, usually near the clubhouse. Test shots on a competition stand are not allowed.",
+      "uk": "Щоб перевірити, чи працює рушниця, скористайтеся місцем для {{term:gun-test|пробних пострілів}}, якщо воно є на стенді, — зазвичай біля клубного будинку. Пробні постріли на стрілецькому місці змагання заборонені."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "safety-handling-carrying-kp1",
+      "en": "Carry the gun open, muzzle straight up or down; no slings",
+      "uk": "Рушницю несуть відкритою, дуло прямо вгору або вниз; без ременів",
+      "checklist": true
+    },
+    {
+      "k": "safety-handling-carrying-kp2",
+      "en": "Not in use: upright in a gun rack, not leaning against things",
+      "uk": "Коли не потрібна: вертикально в стійці, а не спертою на щось"
+    },
+    {
+      "k": "safety-handling-carrying-kp3",
+      "en": "A gun slip or case between the car and the shooting area",
+      "uk": "Від авто до місця стрільби — у чохлі чи кейсі"
+    },
+    {
+      "k": "safety-handling-carrying-kp4",
+      "en": "Ask before you touch another person’s gun; no mock shooting",
+      "uk": "Чужої рушниці без дозволу не чіпають; без імітації стрільби",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "safety-handling-carrying-dyk",
+    "en": "An open gun is also a courtesy: it shows the people around you that they have nothing to worry about.",
+    "uk": "Відкрита рушниця — це ще й знак ввічливості: так ви показуєте людям поруч, що їм нічого не загрожує."
+  },
+  "quiz": [
+    {
+      "k": "safety-handling-carrying-q1",
+      "q": {
+        "en": "How do you carry a gun between stands?",
+        "uk": "Як несуть рушницю між стрілецькими місцями?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Closed, on the shoulder, with the safety catch on",
+          "uk": "Закритою, на плечі, на запобіжнику"
+        },
+        {
+          "k": "b",
+          "en": "On a sling across the back, unloaded",
+          "uk": "На ремені за спиною, розрядженою"
+        },
+        {
+          "k": "c",
+          "en": "Open, with the muzzle straight up or down",
+          "uk": "Відкритою, дуло прямо вгору або вниз"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The gun is carried open, muzzle up or down; slings are not allowed in either discipline.",
+        "uk": "Рушницю несуть відкритою, дуло вгору або вниз; ремені заборонені в обох дисциплінах."
+      }
+    },
+    {
+      "k": "safety-handling-carrying-q2",
+      "q": {
+        "en": "Where does a gun go when you are not using it?",
+        "uk": "Куди ставлять рушницю, коли з неї не стріляють?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Upright in a gun rack or another place provided",
+          "uk": "Вертикально в стійку чи інше відведене місце"
+        },
+        {
+          "k": "b",
+          "en": "Leaning against the car, closed and unloaded",
+          "uk": "Спертою на машину, закритою й розрядженою"
+        },
+        {
+          "k": "c",
+          "en": "Lying flat on the ground next to the stand",
+          "uk": "Покладеною на землю біля стрілецького місця"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Guns stand upright in a gun rack or another place the ground provides, so they cannot fall; a semi-automatic stands with its action open.",
+        "uk": "Рушниці стоять вертикально в стійці або в іншому відведеному місці, щоб не впасти; напівавтомат — із відкритим затвором."
+      }
+    },
+    {
+      "k": "safety-handling-carrying-q3",
+      "q": {
+        "en": "Where may you test-fire a gun?",
+        "uk": "Де можна перевірити рушницю пострілом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the first competition stand, before the round",
+          "uk": "На першому стрілецькому місці змагання, до раунду"
+        },
+        {
+          "k": "b",
+          "en": "On the test stand, if the ground has one",
+          "uk": "На місці для пробних пострілів, якщо воно є"
+        },
+        {
+          "k": "c",
+          "en": "In a quiet corner of the car park",
+          "uk": "У тихому куточку парковки"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Test shots belong on the test stand; firing them on a competition stand is forbidden.",
+        "uk": "Пробні постріли роблять на окремому місці; на стрілецькому місці змагання це заборонено."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "safety-handling-carrying-q4",
+      "q": {
+        "en": "What is mock shooting?",
+        "uk": "Що таке імітація стрільби?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Shooting at a real target with a light practice cartridge",
+          "uk": "Стрільба по справжній мішені легким тренувальним набоєм"
+        },
+        {
+          "k": "b",
+          "en": "Calling for a target without any cartridge in the gun",
+          "uk": "Виклик мішені, коли в рушниці немає жодного набою"
+        },
+        {
+          "k": "c",
+          "en": "Shouldering the gun and swinging it along an imagined target",
+          "uk": "Вкладка (підняття до плеча) й ведення рушниці за уявною мішенню"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Mock shooting means mounting the gun and swinging as if at a target. In {{tm:sporting}} it is not allowed anywhere at the ground, even on the stand before you call. In {{tm:compak}} it is not allowed outside the shooting positions or while another squad member shoots.",
+        "uk": "Імітація стрільби — це вкладка й ведення рушниці, ніби за мішенню. У {{tm:sporting}} її не можна ніде на стрільбищі, навіть на стрілецькому місці до команди. У {{tm:compak}} її не можна поза номерами й тоді, коли стріляє інший учасник групи."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "67b42026",
+    "summary": "a0db90c0",
+    "safety-handling-carrying-p1": "131eff38",
+    "safety-handling-carrying-p2": "e729a9a8",
+    "safety-handling-carrying-p3": "837cb39e",
+    "safety-handling-carrying-p4": "6190476d",
+    "safety-handling-carrying-p5": "83531f88",
+    "safety-handling-carrying-p6": "fb47c648",
+    "safety-handling-carrying-mock-where": "8f7d7c36",
+    "safety-handling-carrying-mock-rule": "d3259ecf",
+    "safety-handling-carrying-p7": "c3605832",
+    "safety-handling-carrying-kp1": "cde0a177",
+    "safety-handling-carrying-kp2": "34c1f27e",
+    "safety-handling-carrying-kp3": "dd9b5692",
+    "safety-handling-carrying-kp4": "190dc8a8",
+    "safety-handling-carrying-dyk": "e976c923",
+    "safety-handling-carrying-q1": "6f174eb9",
+    "safety-handling-carrying-q2": "065b5397",
+    "safety-handling-carrying-q3": "5481d5e3",
+    "safety-handling-carrying-q4": "186b3f80"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

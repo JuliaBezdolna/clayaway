@@ -1,0 +1,111 @@
+{
+  "id": "chokes-names-and-marks",
+  "lang": "fr",
+  "base_rev": 1,
+  "h": {
+    "title": "e7b2ef05",
+    "summary": "22d688ff",
+    "gear-chokes-p3": "dc515f35",
+    "chokes-names-and-marks-p1": "81bdc547",
+    "chokes-names-and-marks-p2": "ef07b37b",
+    "chokes-names-and-marks-p5": "b6f30907",
+    "chokes-names-and-marks-p6": "1b8fdee5",
+    "chokes-names-and-marks-p7": "c0e23a16",
+    "chokes-names-and-marks-kp1": "5c513a88",
+    "chokes-names-and-marks-kp2": "76965b4c",
+    "gear-chokes-kp3": "93bc009b",
+    "chokes-names-and-marks-kp4": "8755ddeb",
+    "chokes-names-and-marks-kp5": "07a69a82",
+    "chokes-names-and-marks-dyk": "7ad51e91",
+    "chokes-names-and-marks-q1": "c8c32e0e",
+    "chokes-names-and-marks-q2": "daf50685",
+    "chokes-names-and-marks-q4": "4f31ea8b",
+    "chokes-names-and-marks-q3": "9a68ecf3",
+    "gear-chokes-q3": "ded3001e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Noms des chokes, constrictions et marquages",
+  "summary": "Du cylindre au full : constrictions typiques en millimètres et en thou, les fractions 1/4–1/2–3/4 et les marques en étoiles utilisées en {{tm:sporting}} et {{tm:compak}}. Les valeurs sont approximatives et varient selon les fabricants.",
+  "body": {
+    "gear-chokes-p3": "Les noms viennent de l'anglais, de l'ouvert au serré : cylinder ({{term:cylinder|cylindre}}), skeet, improved cylinder, light modified, modified, improved modified, full. Les Européens les disent souvent en fractions : quarter (« quart », {{term:improved-cylinder|improved cylinder}}), half (« demi », {{term:modified|modified}}), three-quarter (« trois-quarts », {{term:improved-modified|improved modified}}) et full (« plein », {{term:full-choke|full}}). Beaucoup de fusils italiens marquent les chokes avec des étoiles, et là, la logique est inversée : plus il y a d'étoiles, plus le choke est ouvert.",
+    "chokes-names-and-marks-p1": "Voici les {{term:constriction|constrictions}} typiques pour le calibre 12. Un thou est un millième de pouce, environ 0,025 mm. Les valeurs réelles dépendent du fabricant, et même de l'âme du canon précis.",
+    "chokes-names-and-marks-p2": [
+      "Cylinder : aucune constriction, 0 mm.",
+      "Skeet : une constriction très légère, environ 0,1-0,15 mm (4-6 thou) ; en Europe, parfois appelée 1/8.",
+      "Improved cylinder (IC) : environ 0,25 mm (autour de 10 thou), en Europe 1/4, un quart de choke.",
+      "Light modified (LM) : environ 0,35-0,4 mm (autour de 15 thou), parfois marqué 3/8.",
+      "Modified (M) : environ 0,5 mm (autour de 20 thou), 1/2, un demi-choke.",
+      "Improved modified (IM) : environ 0,65-0,75 mm (25-30 thou), 3/4.",
+      "Full : environ 0,9-1 mm (35-40 thou), 1/1 ou simplement Full. Des chokes plus serrés (extra full) existent, mais le tir sur plateaux en a rarement besoin."
+    ],
+    "chokes-names-and-marks-p5": "Les fractions sont pratiques à l'oral, mais elles ne correspondent pas à des millimètres exacts : le « 1/2 » d'un fabricant peut différer légèrement de celui d'un autre.",
+    "chokes-names-and-marks-p6": "Les fabricants italiens, Beretta par exemple, utilisent des {{term:star-marks|marques en étoiles}} : cinq étoiles pour cylinder, quatre pour improved cylinder (1/4), trois pour modified (1/2), deux pour improved modified (3/4) et une pour full. Les chokes skeet ne portent pas d'étoile. D'autres fabricants gravent des encoches sur le bord du tube, utilisent des bandes de couleur ou impriment le nom (IC, M, LM).",
+    "chokes-names-and-marks-p7": "La source la plus fiable est le marquage sur le choke lui-même ou le manuel du fusil. En cas de doute, un {{term:gunsmith|armurier}} peut mesurer la constriction avec une jauge en une minute."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-names-and-marks-kp1": "Cylinder 0 · Skeet ~0,1-0,15 mm · IC ~0,25 mm (1/4) · LM ~0,35-0,4 mm",
+    "chokes-names-and-marks-kp2": "M ~0,5 mm (1/2) · IM ~0,65-0,75 mm (3/4) · Full ~0,9-1 mm (1/1)",
+    "gear-chokes-kp3": "Fractions : quart = improved cylinder, demi = modified, trois-quarts = improved modified, full = full.",
+    "chokes-names-and-marks-kp4": "Étoiles : plus il y a d'étoiles, plus le choke est ouvert.",
+    "chokes-names-and-marks-kp5": "Les valeurs sont approximatives et diffèrent selon les fabricants."
+  },
+  "quiz": {
+    "chokes-names-and-marks-q1": {
+      "q": "Quelle est la constriction approximative d'un choke modified (1/2) en calibre 12 ?",
+      "options": {
+        "a": "0 mm",
+        "b": "Environ 0,25 mm",
+        "c": "Environ 0,5 mm",
+        "d": "Environ 1 mm"
+      },
+      "explain": "Modified fait environ 0,5 mm, soit autour de 20 thou."
+    },
+    "chokes-names-and-marks-q2": {
+      "q": "Que signifie un choke marqué de quatre étoiles sur un fusil Beretta ?",
+      "options": {
+        "a": "Full",
+        "b": "Improved cylinder (1/4)",
+        "c": "Modified (1/2)",
+        "d": "Improved modified (3/4)"
+      },
+      "explain": "Dans le système en étoiles, plus il y a d'étoiles, plus le choke est ouvert : quatre étoiles, c'est improved cylinder."
+    },
+    "chokes-names-and-marks-q4": {
+      "q": "Dans l'usage européen, quel choke appelle-t-on « demi » ?",
+      "options": {
+        "a": "Modified",
+        "b": "Improved cylinder",
+        "c": "Full",
+        "d": "Skeet"
+      },
+      "explain": "Demi (1/2), c'est modified ; quart, c'est improved cylinder, trois-quarts, c'est improved modified."
+    },
+    "chokes-names-and-marks-q3": {
+      "q": "Quel choke est le plus ouvert ?",
+      "options": {
+        "a": "Full",
+        "b": "Improved modified",
+        "c": "Modified",
+        "d": "Cylinder"
+      },
+      "explain": "Cylinder n'a aucune constriction."
+    },
+    "gear-chokes-q3": {
+      "q": "Sur un fusil italien, un choke à cinq étoiles est…",
+      "options": {
+        "a": "le plus ouvert",
+        "b": "le plus serré",
+        "c": "un choke endommagé",
+        "d": "un canon rayé"
+      },
+      "explain": "Avec le marquage en étoiles, plus il y a d'étoiles, plus le choke est ouvert."
+    }
+  },
+  "did_you_know": "Les canons de compétition modernes sont souvent « overbored » : l'intérieur est fabriqué légèrement plus large que le standard du calibre. Le même choke, avec le même nom, peut donc donner une constriction légèrement différente selon les fusils : ce qui compte, c'est l'écart entre l'âme et le choke."
+}

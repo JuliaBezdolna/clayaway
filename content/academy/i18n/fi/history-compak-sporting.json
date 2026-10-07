@@ -1,0 +1,76 @@
+{
+  "id": "history-compak-sporting",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "d299ca4f",
+    "summary": "a58560e1",
+    "history-compak-sporting-p1": "f9473d24",
+    "history-compak-sporting-p2": "90af5f82",
+    "history-compak-sporting-p3": "dcc4df2b",
+    "history-compak-sporting-p4": "3440be04",
+    "history-compak-sporting-p5": "f04fb293",
+    "history-compak-sporting-p6": "f37c2559",
+    "history-compak-sporting-kp1": "2cba0cc1",
+    "history-compak-sporting-kp2": "a0bbea43",
+    "history-compak-sporting-kp3": "f9a1ca90",
+    "history-compak-sporting-kp4": "f4441fd7",
+    "history-compak-sporting-dyk": "1bc6f84a",
+    "history-compak-sporting-q1": "e113e7ed",
+    "history-compak-sporting-q2": "2c216314",
+    "history-compak-sporting-q3": "438b5d84"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "{{tm:compak}}: kompakti muoto",
+  "summary": "{{tm:compak}} syntyi 1900-luvun lopulla kompaktina muotona lajista {{tm:sporting}}: vähemmän maata, nopeampi ammunta ja helpompi katsojille.",
+  "body": {
+    "history-compak-sporting-p1": "Täysi {{tm:sporting}}-reitti vaatii paljon maata: metsää, mäkiä ja useita {{term:layout|rataosuuksia}}. Monella seuralla sitä ei ole. Niin syntyi ajatus tuoda sportingin kiekkojen monipuolisuus pienelle alueelle.",
+    "history-compak-sporting-p2": "Näin syntyi {{tm:compak}}. Sen säännöissä sanotaan, että laji {{fact:community.compak-created}}, niin se on 1900-luvun lopun muoto. Se levisi nopeasti: FITASC on järjestänyt {{fact:community.compak-championships}}.",
+    "history-compak-sporting-p3": "Idea on yksi kenttä. Compak-kentällä on {{fact:basics.compak-field}}. Kiekot lentävät merkityn suorakulmion yllä ampujien edessä. Ne lentävät moneen suuntaan niin kuin {{tm:sporting}}-lajissa, mutta kaikki tapahtuu yhdellä kentällä.",
+    "history-compak-sporting-p4": "Muodolla on useita etuja. Seura tarvitsee vähemmän maata ja vähemmän {{term:trap|heittimiä}}. Ammunta etenee nopeammin. Ja katsojat näkevät koko {{term:squad|erän}} (ampujat, jotka ampuvat kierroksen yhdessä) ja kaikki kiekot yhdestä paikasta, niin {{tm:compak}} näyttää hyvältä videolla.",
+    "history-compak-sporting-p5": "{{tm:compak}}:n nimi ja säännöt ovat FITASC:n rekisteröimä ja suojaama tavaramerkki. Siksi kirjoitamme ®-merkin ja emme keksi nimestä muita versioita.",
+    "history-compak-sporting-p6": "Nykyään {{tm:compak}} on usein aloittelijan ensimmäinen laji. Sen löytää helpommin kotoa läheltä, ja sen taidot siirtyvät myös täyteen {{tm:sporting}}-reittiin. Kuinka Compak-kenttä toimii yksityiskohtaisesti: {{lesson:targets-compak-layout}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "history-compak-sporting-kp1": "{{tm:compak}} on kompakti sportingin muoto yhdellä kentällä.",
+    "history-compak-sporting-kp2": "Sääntöjen mukaan laji {{fact:community.compak-created}}.",
+    "history-compak-sporting-kp3": "Yksi kenttä: {{fact:basics.compak-field}}.",
+    "history-compak-sporting-kp4": "Nimi ja säännöt ovat FITASC:n tavaramerkki."
+  },
+  "did_you_know": "Lajissa {{tm:compak}} katsoja voi pysyä yhdessä paikassa ja nähdä kaikki kierroksen kiekot. Täydellä {{tm:sporting}}-reitillä se ei ole mahdollista.",
+  "quiz": {
+    "history-compak-sporting-q1": {
+      "q": "Miksi {{tm:compak}} luotiin?",
+      "options": {
+        "a": "Jotta monipuoliset kiekot mahtuisivat pienelle alueelle",
+        "b": "Jotta elävien lintujen ampuminen palaisi",
+        "c": "Jotta olympialaiset stendilajit korvattaisiin"
+      },
+      "explain": "{{tm:compak}} tarvitsee vähemmän maata, mutta säilyttää erilaiset lentoradat."
+    },
+    "history-compak-sporting-q2": {
+      "q": "Montako asemaa ja heitintä {{tm:compak}}-kentällä on?",
+      "options": {
+        "a": "1 asema ja 15 heitintä",
+        "b": "5 asemaa ja 6 heitintä",
+        "c": "8 asemaa ja 2 heitintä"
+      },
+      "explain": "Viisi asemaa on rivissä, ja kiekkoja laukaisee kuusi heitintä, A:sta F:ään."
+    },
+    "history-compak-sporting-q3": {
+      "q": "Milloin FITASC otti lajin {{tm:compak}} käyttöön?",
+      "options": {
+        "a": "1960",
+        "b": "1921",
+        "c": "1991"
+      },
+      "explain": "Laji {{fact:community.compak-created}}."
+    }
+  }
+}

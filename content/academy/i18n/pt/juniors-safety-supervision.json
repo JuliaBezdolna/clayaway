@@ -1,0 +1,99 @@
+{
+ "id": "juniors-safety-supervision",
+ "lang": "pt",
+ "base_rev": 1,
+ "h": {
+  "title": "e29dfa60",
+  "summary": "7db0d75c",
+  "juniors-safety-supervision-p1": "546c3a8b",
+  "juniors-safety-supervision-competition": "b6dbcd3a",
+  "juniors-safety-supervision-p2": "f031ce32",
+  "juniors-safety-supervision-check": "c63339ca",
+  "juniors-safety-supervision-p3": "2f11a7b1",
+  "juniors-safety-supervision-rules": "f51238df",
+  "juniors-safety-supervision-size": "803d385d",
+  "juniors-safety-supervision-p4": "3a38a6fe",
+  "juniors-safety-supervision-p5": "b9fff6f2",
+  "juniors-safety-supervision-p6": "b239fa03",
+  "juniors-safety-supervision-kp1": "afc6a4a0",
+  "juniors-safety-supervision-kp2": "7429e451",
+  "juniors-safety-supervision-kp3": "90bd3a28",
+  "juniors-safety-supervision-kp4": "47390e59",
+  "juniors-safety-supervision-kp5": "d9cd9947",
+  "juniors-safety-supervision-dyk": "c7fd201d",
+  "juniors-safety-supervision-q1": "7dfdb556",
+  "juniors-safety-supervision-q2": "25ba26f8",
+  "juniors-safety-supervision-q3": "f0410d77",
+  "juniors-safety-supervision-q4": "066a3b03"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Segurança e supervisão",
+ "summary": "Nas aulas e nos treinos, a criança atira apenas sob a supervisão direta de um treinador, pelas mesmas regras de segurança dos adultos, e sempre com proteção auditiva e ocular.",
+ "body": {
+  "juniors-safety-supervision-p1": "Para os jovens atiradores as regras de segurança são as mesmas dos adultos, mas a supervisão é mais próxima. Nas aulas e nos treinos, um {{term:coach|treinador}} ou instrutor fica mesmo ao lado da criança no posto, perto o suficiente para agarrar a arma em qualquer momento. Uma criança nunca é deixada sozinha com uma arma, nem no campo de tiro nem em casa.",
+  "juniors-safety-supervision-competition": "Numa competição é diferente: o {{term:referee|árbitro}} gere o posto, e ninguém pode {{term:coaching|dar instruções}} ao atirador. Os limites de idade e as regras de supervisão de menores dependem da lei do seu país e das regras próprias do stand: ver {{lesson:juniors-documents-licences}}.",
+  "juniors-safety-supervision-p2": "Antes do primeiro tiro, a criança deve conhecer as regras essenciais da lição {{lesson:safety-core-rules}}. A {{term:muzzle|boca do cano}} aponta sempre num sentido seguro. A arma fica aberta quando não se está a disparar. Os cartuchos só entram no posto, quando o treinador o disser. Ao «Stop!» ({{term:cease-fire|cessar fogo}}) a arma abre-se e todos esperam.",
+  "juniors-safety-supervision-check": "Uma verificação útil: peça à criança para explicar estas regras por suas próprias palavras antes de cada uma das primeiras sessões.",
+  "juniors-safety-supervision-p3": "Uma criança que atira usa sempre {{term:hearing-protection|proteção auditiva}} e {{term:safety-glasses|óculos de proteção}}, como qualquer atirador. Para as crianças que vêm assistir perto de um {{term:layout|percurso}} (a zona de tiro com os seus postos e máquinas), as regras das disciplinas diferem um pouco.",
+  "juniors-safety-supervision-rules": {
+   "sporting": "As crianças no stand, fora da sede do clube, usam proteção auditiva em permanência. Os óculos são obrigatórios para qualquer pessoa perto de um posto.",
+   "compak": "A proteção auditiva é obrigatória para todos os espectadores perto do percurso, crianças incluídas. Os óculos são obrigatórios para os concorrentes, os árbitros e o pessoal."
+  },
+  "juniors-safety-supervision-size": "Compre proteções em tamanhos infantis: abafadores demasiado grandes escorregam e protegem mal. Muitos treinadores também pedem às crianças que usem óculos sempre que estiverem perto de um posto, seja qual for a disciplina.",
+  "juniors-safety-supervision-p4": "O cansaço é o inimigo da segurança. Quando uma criança está cansada, com frio ou com demasiado calor, a atenção baixa, e nesse caso convém parar. Planeie sessões curtas com pausas, e leve água, um chapéu e um lanche.",
+  "juniors-safety-supervision-p5": "Em casa, guarde a arma e os cartuchos como exige a lei do seu país. Normalmente isso significa um cofre fechado à chave, os cartuchos guardados à parte e as chaves só em poder de adultos. Uma criança não tem acesso a armas sem um adulto.",
+  "juniors-safety-supervision-p6": "Os pais no campo de tiro também dão o exemplo. Fique de pé atrás do posto, fique em silêncio durante um tiro, não toque nas armas de outras pessoas e use você mesmo proteção auditiva e ocular. As crianças costumam imitar o que veem os adultos fazerem."
+ },
+ "note": {},
+ "phrases": {},
+ "key_points": {
+  "juniors-safety-supervision-kp1": "Nas aulas e nos treinos, o treinador fica mesmo ao lado da criança no posto",
+  "juniors-safety-supervision-kp2": "As mesmas regras de segurança dos adultos, explicadas antes do primeiro tiro",
+  "juniors-safety-supervision-kp3": "Proteção auditiva e ocular em tamanho infantil",
+  "juniors-safety-supervision-kp4": "Uma criança cansada significa que a sessão terminou",
+  "juniors-safety-supervision-kp5": "Em casa, a arma e os cartuchos ficam fechados à chave, como exige a lei"
+ },
+ "did_you_know": "Um tiro de espingarda atinge {{fact:gear.gunshot-peak-db}} (decibéis, dB, medem a intensidade do som). Para um estrondo único, curto e seco como este, os limites máximos são {{fact:gear.impulse-noise-limits}}. O limite para adultos vem das regras de segurança no trabalho, e a OMS recomenda o das crianças. Por isso as crianças que só assistem também precisam de proteção auditiva.",
+ "quiz": {
+  "juniors-safety-supervision-q1": {
+   "q": "Onde deve estar o treinador enquanto uma criança atira num treino?",
+   "options": {
+    "a": "Atrás do grupo, de onde vê todo o posto",
+    "b": "Mesmo ao lado da criança, pronto a agarrar a arma de imediato",
+    "c": "Junto à máquina, pronto a parar os pratos"
+   },
+   "explain": "No treino, a supervisão direta significa que o treinador fica ao lado da criança e pode intervir de imediato. Numa competição é o árbitro quem gere o posto."
+  },
+  "juniors-safety-supervision-q2": {
+   "q": "A sua filha só veio assistir a uma competição. Precisa de proteção auditiva?",
+   "options": {
+    "a": "Sim, as regras exigem-na perto do percurso",
+    "b": "Não, só precisam dela as pessoas que atiram",
+    "c": "Só se ficar mesmo ao lado do posto"
+   },
+   "explain": "As regras das duas disciplinas exigem proteção auditiva para os espectadores perto do percurso; no {{tm:sporting}} as crianças fora da sede do clube usam-na sempre."
+  },
+  "juniors-safety-supervision-q3": {
+   "q": "O que deve fazer quando uma criança se cansa durante uma sessão?",
+   "options": {
+    "a": "Acrescentar mais uma série para fortalecer o carácter",
+    "b": "Passar para um prato mais difícil para manter o interesse",
+    "c": "Parar a sessão: o cansaço reduz a atenção"
+   },
+   "explain": "Quando a atenção baixa, aumenta o risco de um erro no manuseamento da arma, por isso convém parar."
+  },
+  "juniors-safety-supervision-q4": {
+   "q": "Como se guardam normalmente a arma e os cartuchos em casa?",
+   "options": {
+    "a": "Na capa, debaixo da cama, pronta para o treino",
+    "b": "Num armário que a criança consegue abrir, mas descarregada",
+    "c": "Num cofre fechado à chave, cartuchos à parte, chaves com os adultos"
+   },
+   "explain": "Guarde a arma como exige a lei do seu país; normalmente um cofre fechado à chave, os cartuchos à parte, as chaves só em poder de adultos."
+  }
+ }
+}

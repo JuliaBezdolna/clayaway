@@ -1,0 +1,136 @@
+{
+  "id": "targets-target-types",
+  "lang": "pl",
+  "base_rev": 3,
+  "h": {
+    "title": "28358913",
+    "summary": "307eb780",
+    "targets-target-types-p1": "8f568cc9",
+    "targets-types-p1": "4bdf6c0a",
+    "targets-types-p2": "db411c19",
+    "targets-types-p3": "6743e89b",
+    "targets-types-p4": "1e284f9f",
+    "targets-target-types-p6": "fe4ceb52",
+    "targets-types-p5": "9cda795a",
+    "targets-target-types-p7": "94d03c28",
+    "targets-types-ph1": "4c73e2c2",
+    "targets-types-ph2": "caeb6425",
+    "targets-types-ph3": "55e04db1",
+    "targets-types-ph4": "957b2cb1",
+    "targets-types-kp2": "53c9bc3e",
+    "targets-types-kp3": "68456af5",
+    "targets-types-kp4": "55e8efac",
+    "targets-types-kp1": "bd17bcb4",
+    "targets-types-kp5": "ed68daa2",
+    "targets-target-types-dyk": "c46a8bf2",
+    "targets-target-types-q1": "3518f8eb",
+    "targets-types-q3": "13a02bc3",
+    "targets-types-q1": "ed953260",
+    "targets-types-q2": "571354c5",
+    "targets-target-types-q-battue": "8773cf12",
+    "targets-target-types-q-flash": "283d5036"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Rodzaje rzutków",
+  "summary": "Standard, midi, mini, battue, rabbit, flash, ZZ i rocket: czym różnią się rzutki, jak lecą oraz czemu menu wymienia każdy rzutek specjalny.",
+  "body": {
+    "targets-target-types-p1": "{{term:target|Rzutek}}, często zwany „talerzykiem”, to łamliwy dysk wyrzucany przez maszynę zwaną {{term:trap|wyrzutnią}}. Znajomość typu rzutka pomaga zaplanować strzał jeszcze przed wywołaniem.",
+    "targets-types-p1": "Lista FITASC dla {{tm:sporting}} wymienia siedem typów rzutków: standard, midi, super mini, battue, rabbit, flash i ZZ. {{tm:compak}} dopuszcza każdy rzutek standardowy albo specjalny, a jego lista wymienia też rocket. Każdy typ leci inaczej.",
+    "targets-types-p2": "{{term:standard-target|Standard}}, najczęstszy rzutek, to kopułka o szerokości około 108–110 mm; od niego zwykle zaczynają początkujący. {{term:midi|Midi}} ma 90 mm: dobrze zachowuje prędkość i wydaje się dalej, niż jest. {{term:mini|Mini}} ma zwykle 60 mm: szybko wylatuje z wyrzutni i szybko zwalnia. Więc strzelcy mają skłonność dawać mu za duże wyprzedzenie, czyli strzelać za daleko przed nim. Nazwy małych rzutków bywają różne: lista {{tm:sporting}} mówi „super mini”, a w menu może być 70 mm albo 60 mm. Kieruj się milimetrami zapisanymi w menu.",
+    "targets-types-p3": "{{term:battue|Battue}} to płaski, cienki rzutek 110 mm. Leci bokiem, prawie niewidoczny, potem obraca się, pokazując płaszczyznę, i szybko opada. Przepisy {{tm:compak}} odradzają battue na bardzo krótkich trajektoriach. {{term:rabbit|Rabbit}} to rzutek 110 mm z grubą, wytrzymałą obręczą, toczony na krawędzi po ziemi; odbija się i może podskakiwać na nierównościach. Zob. też {{lesson:flight-rabbit}}.",
+    "targets-types-p4": "{{term:flash-target|Rzutek flash}} jest wypełniony kolorowym pudrem, który po trafieniu zostawia jasny obłok; liczy się go jak każdy inny rzutek. {{term:zz-target|Rzutek ZZ}}, zwany też helice, to plastikowe śmigło z białą nakładką pośrodku, które leci nieregularnie. {{term:rocket-target|Rocket}} to kolejny rzutek specjalny, wymieniony tylko na liście {{tm:compak}}.",
+    "targets-target-types-p6": "W {{tm:sporting}} {{term:target-menu|menu}} przed każdym stanowiskiem (miejscem, z którego strzelasz) musi wymieniać wszystkie rzutki specjalne: {{fact:targets.sporting-menu-special-targets}}. Przeczytaj je, zanim wejdziesz na stanowisko.",
+    "targets-types-p5": "W {{tm:sporting}} rzutek niewłaściwego koloru, rozmiaru albo typu to No Bird (nie liczy się) i wyrzuca się go ponownie.",
+    "targets-target-types-p7": "Kolor nie jest typem rzutka: wybiera się go tak, by rzutek wyróżniał się na tle. Zob. lekcję {{lesson:targets-colours-visibility}}."
+  },
+  "note": {},
+  "phrases": {
+    "targets-types-ph1": {
+      "meaning": "Poprawka trenera właśnie dla tego rzutka: wydaje się dalej, niż jest, więc ten strzelec daje mu większe wyprzedzenie (strzela dalej z przodu), niż potrzeba. To poprawka na tę sytuację, nie ogólna zasada.",
+      "say": "Midi wydaje się daleki, ale nie jest — nie dawaj mu za dużo."
+    },
+    "targets-types-ph2": {
+      "meaning": "Strzelaj do battue, gdy obróci się do ciebie płaską stroną.",
+      "say": "Battue na końcu się obróci i opadnie — bierz go, gdy pokaże brzuch."
+    },
+    "targets-types-ph3": {
+      "meaning": "Mały rzutek szybko traci prędkość; nie czekaj.",
+      "say": "Mini szybko gaśnie — strzelaj wcześnie."
+    },
+    "targets-types-ph4": {
+      "meaning": "Trzymaj lufy niżej na toczącym się rzutku, żeby jeśli podskoczy, wskoczył w strzał.",
+      "say": "Rabbit podskoczy na tym garbie — trzymaj się pod nim."
+    }
+  },
+  "key_points": {
+    "targets-types-kp2": "Standard około 108–110 mm, midi 90 mm, mini zwykle 60 mm; w menu może być też 70 mm, więc kieruj się milimetrami.",
+    "targets-types-kp3": "Battue: płaski, leci krawędzią, obraca się i opada; rabbit: grube obrzeże, toczy się i podskakuje.",
+    "targets-types-kp4": "Flash zostawia chmurę proszku; ZZ to rzutek-śmigło.",
+    "targets-types-kp1": "Lista {{tm:sporting}}: standard, midi, super mini, battue, rabbit, flash, ZZ; {{tm:compak}} dopuszcza każdy typ, w tym rocket.",
+    "targets-types-kp5": "{{tm:sporting}}: niewłaściwy kolor, rozmiar albo typ = No Bird."
+  },
+  "did_you_know": "Mini wydaje się łatwy, bo jest mały, ale wielu strzelców uważa go za jeden z najbardziej podstępnych: zaczyna bardzo szybko, a potem nagle zwalnia.",
+  "quiz": {
+    "targets-target-types-q1": {
+      "q": "Jakiego rozmiaru jest zwykle rzutek mini?",
+      "options": {
+        "a": "90 mm",
+        "b": "Około 60 mm",
+        "c": "Około 110 mm"
+      },
+      "explain": "Mini ma zwykle 60 mm, a midi 90 mm. Nazwy małych rzutków bywają różne, więc kieruj się milimetrami w menu."
+    },
+    "targets-types-q3": {
+      "q": "Na stanowisku {{tm:sporting}} wyrzutnia wyrzuca midi zamiast standardu podanego w menu. Co się dzieje?",
+      "options": {
+        "a": "No Bird, rzutek się powtarza",
+        "b": "Liczy się jako trafienie",
+        "c": "Strzelec traci rzutek",
+        "d": "Serię się anuluje"
+      },
+      "explain": "W {{tm:sporting}} rzutek niewłaściwego koloru, rozmiaru albo typu to No Bird (nie liczy się) i wyrzuca się go ponownie."
+    },
+    "targets-types-q1": {
+      "q": "Który rzutek toczy się po ziemi?",
+      "options": {
+        "a": "Midi",
+        "b": "Battue",
+        "c": "Rabbit",
+        "d": "Flash"
+      },
+      "explain": "Rabbit ma grube obrzeże i jest wyrzucany na krawędzi po ziemi."
+    },
+    "targets-types-q2": {
+      "q": "Menu podaje „70 mm”. Trener nazywa go mini. Co tłumaczysz?",
+      "options": {
+        "a": "Poprawiasz na 60 mm, bo mini ma 60 mm",
+        "b": "Zachowujesz słowo trenera i 70 mm z menu",
+        "c": "Nazywasz go midi, bo ma ponad 60 mm",
+        "d": "Prosisz trenera, żeby mówił „super mini”"
+      },
+      "explain": "Przepisy wymieniają rozmiary 70 mm i 60 mm oraz nazwę „super mini”; ufaj milimetrom w menu i nie poprawiaj trenera."
+    },
+    "targets-target-types-q-battue": {
+      "q": "Który rzutek leci bokiem, potem obraca się, pokazując płaszczyznę, i opada?",
+      "options": {
+        "a": "Battue",
+        "b": "Midi",
+        "c": "Rabbit"
+      },
+      "explain": "Battue jest płaski i cienki: leci bokiem, potem obraca się i szybko opada."
+    },
+    "targets-target-types-q-flash": {
+      "q": "Który rzutek po trafieniu zostawia obłok kolorowego pudru?",
+      "options": {
+        "a": "Rzutek ZZ",
+        "b": "Rocket",
+        "c": "Rzutek flash"
+      },
+      "explain": "Rzutek flash jest wypełniony kolorowym pudrem. Liczy się go jak każdy inny rzutek."
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "clayarena-find-your-results",
+  "lang": "it",
+  "base_rev": 2,
+  "h": {
+    "title": "f29a933a",
+    "summary": "ed2bf53b",
+    "clayarena-find-your-results-p1": "69523ad7",
+    "clayarena-find-your-results-p2": "338f1be0",
+    "clayarena-find-your-results-p3": "fb84bb29",
+    "clayarena-find-your-results-p4": "a1d793aa",
+    "clayarena-find-your-results-p5": "39d5a08a",
+    "clayarena-find-your-results-compare": "fe15e030",
+    "clayarena-find-your-results-p6": "5d841323",
+    "clayarena-find-your-results-kp1": "6aa41141",
+    "clayarena-find-your-results-kp2": "6f357ccc",
+    "clayarena-find-your-results-kp3": "59eb82ec",
+    "clayarena-find-your-results-kp4": "bd3d6a0c",
+    "clayarena-find-your-results-q1": "a2cbfcfd",
+    "clayarena-find-your-results-q2": "0299b2de",
+    "clayarena-find-your-results-q3": "e749bf73",
+    "clayarena-find-your-results-q4": "fda6128c",
+    "clayarena-find-your-results-q5": "bcae2181"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Come trovare i tuoi risultati e il tuo profilo",
+  "summary": "Trova la gara in cui hai tirato e il tuo nome nella sua tabella dei risultati; da lì puoi aprire il tuo profilo di tiratore.",
+  "body": {
+    "clayarena-find-your-results-p1": "Dopo una gara di {{tm:sporting}} o {{tm:compak}}, i suoi risultati compaiono su ClayArena, e in alcune gare si aggiornano mentre il tiro è ancora in corso. Il modo più semplice è aprire proprio quella gara e trovare il tuo nome nella tabella dei risultati. Puoi trovare la gara nell'elenco delle gare o nel calendario, dove ci sono anche gli eventi conclusi.",
+    "clayarena-find-your-results-p2": "La tabella mostra la tua posizione e quanti piattelli hai colpito. Una {{term:round|serie}} è {{fact:rules.round-targets}}, e il totale è la somma delle tue serie. Una gara internazionale di {{tm:sporting}} è di solito {{fact:basics.international-targets}}. Le {{term:club-shoot|gare di club}} hanno spesso meno piattelli: il formato lo decide l'organizzatore. Come leggere la tabella: {{lesson:watching-reading-results}}.",
+    "clayarena-find-your-results-p3": "Dalla tabella dei risultati puoi aprire il tuo {{term:shooter-profile|profilo di tiratore}}. Raccoglie le tue gare presenti su ClayArena e le tue cifre principali. Puoi cercarti anche nell'elenco dei tiratori, che si può filtrare per paese.",
+    "clayarena-find-your-results-p4": "I nomi sul sito sono scritti come nei documenti di gara. Le gare internazionali usano di solito l'alfabeto latino. Le gare nazionali possono usare l'alfabeto locale, per esempio il cirillico nelle gare ucraine. Se non ti trovi, prova la grafia locale del tuo nome e le sue diverse grafie in alfabeto latino.",
+    "clayarena-find-your-results-p5": "ClayArena prende i risultati dagli {{term:score-sheet|statini}} della gara: i fogli ufficiali su cui l'{{term:referee|arbitro}} registra ogni piattello come colpito o mancato. Perciò il controllo più importante avviene sul campo, non sul sito. Il tuo profilo mostrerà esattamente quello che ha scritto l'arbitro.",
+    "clayarena-find-your-results-compare": { "sporting": "Controlla il tuo punteggio sulla card (nel {{tm:sporting}} è così che si chiama lo statino della batteria) quando lasci ogni pedana. Se è sbagliato, dillo subito all'arbitro: decide solo lui, e la sua decisione non si può appellare.", "compak": "Firma lo statino alla fine di ogni serie. Se ti rifiuti di firmarlo, nessun reclamo successivo può essere accettato." },
+    "clayarena-find-your-results-p6": "Vedi ancora un errore sul sito? Contatta prima l'{{term:organiser|organizzatore}} della gara: i risultati ufficiali li tiene l'organizzatore, e il sito li mostra soltanto. Se il problema è nel sito stesso, per esempio un nome scritto male, scrivi al team di ClayArena tramite i contatti sul sito."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-find-your-results-kp1": "Apri la gara e trova te stesso nella tabella dei risultati.",
+    "clayarena-find-your-results-kp2": "Dalla tabella puoi aprire il tuo profilo di tiratore.",
+    "clayarena-find-your-results-kp3": "Cerca il tuo nome come è scritto nei documenti di gara: nell'alfabeto locale o in latino.",
+    "clayarena-find-your-results-kp4": "Controlla il punteggio sul campo: nel {{tm:sporting}} quando lasci ogni pedana, nel {{tm:compak}} quando firmi lo statino."
+  },
+  "did_you_know": null,
+  "quiz": {
+    "clayarena-find-your-results-q1": {
+      "q": "Da dove vengono i risultati su ClayArena?",
+      "options": { "a": "Li inseriscono i tiratori stessi", "b": "Dagli statini", "c": "Li calcola un istruttore" },
+      "explain": "I risultati vengono dagli statini, quindi controlla il tuo punteggio mentre sei ancora sul campo."
+    },
+    "clayarena-find-your-results-q2": {
+      "q": "Quanti piattelli ha di solito una gara internazionale di {{tm:sporting}}?",
+      "options": { "a": "200, in serie da 25", "b": "100, in serie da 10", "c": "50, senza serie" },
+      "explain": "Il regolamento FITASC fissa per le gare internazionali 200 piattelli in serie da 25."
+    },
+    "clayarena-find-your-results-q3": {
+      "q": "Non trovi il tuo nome. Cosa puoi provare?",
+      "options": { "a": "Cercare per marca del fucile", "b": "Scrivere il nome in maiuscolo", "c": "Altre grafie del nome" },
+      "explain": "I nomi sono scritti come nei documenti di gara: in alfabeto latino o in quello locale. Lo stesso cognome può anche essere scritto in più modi in latino."
+    },
+    "clayarena-find-your-results-q4": {
+      "q": "Quando firma lo statino un tiratore {{tm:compak}}?",
+      "options": { "a": "Alla fine di ogni serie", "b": "Solo dopo l'ultimo giorno", "c": "Firma l'arbitro, non il tiratore" },
+      "explain": "Il tiratore firma alla fine di ogni serie; senza firma nessun reclamo successivo viene accettato."
+    },
+    "clayarena-find-your-results-q5": {
+      "q": "Nel {{tm:sporting}}, quando controllare il punteggio sulla card?",
+      "options": { "a": "Alla fine della stagione", "b": "Quando lasci ogni pedana", "c": "Solo dopo la premiazione" },
+      "explain": "Controllalo quando lasci ogni pedana e dillo subito all'arbitro se qualcosa non va."
+    }
+  }
+}

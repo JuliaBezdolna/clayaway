@@ -1,0 +1,99 @@
+{
+  "id": "clayarena-find-your-results",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "f29a933a",
+    "summary": "ed2bf53b",
+    "clayarena-find-your-results-p1": "69523ad7",
+    "clayarena-find-your-results-p2": "338f1be0",
+    "clayarena-find-your-results-p3": "fb84bb29",
+    "clayarena-find-your-results-p4": "a1d793aa",
+    "clayarena-find-your-results-p5": "39d5a08a",
+    "clayarena-find-your-results-compare": "fe15e030",
+    "clayarena-find-your-results-p6": "5d841323",
+    "clayarena-find-your-results-kp1": "6aa41141",
+    "clayarena-find-your-results-kp2": "6f357ccc",
+    "clayarena-find-your-results-kp3": "59eb82ec",
+    "clayarena-find-your-results-kp4": "bd3d6a0c",
+    "clayarena-find-your-results-q1": "a2cbfcfd",
+    "clayarena-find-your-results-q2": "0299b2de",
+    "clayarena-find-your-results-q3": "e749bf73",
+    "clayarena-find-your-results-q4": "fda6128c",
+    "clayarena-find-your-results-q5": "bcae2181"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Jak najít své výsledky a svůj profil",
+  "summary": "Najděte soutěž, na které jste stříleli, a své jméno v její výsledkové tabulce; odtud se dostanete i do svého profilu střelce.",
+  "body": {
+    "clayarena-find-your-results-p1": "Po soutěži {{tm:sporting}} nebo {{tm:compak}} se její výsledky objeví na ClayArena, a na některých akcích se aktualizují ještě během střelby. Nejjednodušší je otevřít danou soutěž a najít své jméno ve výsledkové tabulce. Soutěž najdete v seznamu soutěží nebo v kalendáři, kde jsou i skončené akce.",
+    "clayarena-find-your-results-p2": "Tabulka ukazuje vaše pořadí a kolik terčů jste zasáhli. {{term:round|Položka}} je {{fact:rules.round-targets}} a váš celkový výsledek je součet vašich položek. Mezinárodní soutěž {{tm:sporting}} má obvykle {{fact:basics.international-targets}}. {{term:club-shoot|Klubové závody}} mají často méně terčů: formát určuje organizátor. Jak číst tabulku: {{lesson:watching-reading-results}}.",
+    "clayarena-find-your-results-p3": "Z výsledkové tabulky se dostanete do svého {{term:shooter-profile|profilu střelce}}. Shromažďuje vaše soutěže, které jsou na ClayArena, a vaše klíčová čísla. Sami se můžete vyhledat i v seznamu střelců, který lze filtrovat podle země.",
+    "clayarena-find-your-results-p4": "Jména na webu jsou zapsána tak, jak jsou v dokumentech soutěže. Mezinárodní akce obvykle používají latinku. Národní soutěže mohou používat místní abecedu, například cyrilici na ukrajinských akcích. Pokud se nemůžete najít, zkuste místní zápis svého jména a jeho různé varianty v latince.",
+    "clayarena-find-your-results-p5": "ClayArena převezme výsledky z {{term:score-sheet|protokolů}} soutěže: úředních listů, kam {{term:referee|rozhodčí}} zaznamenává každý terč jako zasažený nebo minutý. Nejdůležitější kontrola tedy probíhá na střelnici, ne na webu. Ve vašem profilu bude přesně to, co zapsal rozhodčí.",
+    "clayarena-find-your-results-compare": {
+      "sporting": "Zkontrolujte svůj výsledek na kartě (v {{tm:sporting}} se tak říká protokolu skupiny), když odcházíte z každého stanoviště. Pokud je špatně, okamžitě to řekněte rozhodčímu: rozhoduje jen on a jeho rozhodnutí nelze odvolat.",
+      "compak": "Podepište protokol na konci každé položky. Pokud podpis odmítnete, žádnou pozdější stížnost nelze přijmout."
+    },
+    "clayarena-find-your-results-p6": "Pořád vidíte na webu chybu? Nejdřív kontaktujte {{term:organiser|organizátora}} soutěže: za oficiální výsledky odpovídá organizátor, web je jen zobrazuje. Pokud je problém přímo na webu, například špatně napsané jméno, napište týmu ClayArena přes kontakty na webu."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-find-your-results-kp1": "Otevřete soutěž a najděte se ve výsledkové tabulce.",
+    "clayarena-find-your-results-kp2": "Z tabulky se dostanete do svého profilu střelce.",
+    "clayarena-find-your-results-kp3": "Hledejte své jméno tak, jak je zapsáno v dokumentech soutěže: místní abecedou nebo latinkou.",
+    "clayarena-find-your-results-kp4": "Kontrolujte výsledek už na střelnici: v {{tm:sporting}} při odchodu z každého stanoviště, v {{tm:compak}} při podpisu protokolu."
+  },
+  "quiz": {
+    "clayarena-find-your-results-q1": {
+      "q": "Odkud se berou výsledky na ClayArena?",
+      "options": {
+        "a": "Zadávají je sami střelci",
+        "b": "Z protokolů soutěží",
+        "c": "Spočítá je trenér"
+      },
+      "explain": "Výsledky se berou z protokolů, proto kontrolujte svůj výsledek ještě na střelnici."
+    },
+    "clayarena-find-your-results-q2": {
+      "q": "Kolik terčů má obvykle mezinárodní soutěž {{tm:sporting}}?",
+      "options": {
+        "a": "200, v položkách po 25",
+        "b": "100, v položkách po 10",
+        "c": "50, bez položek"
+      },
+      "explain": "Pravidla FITASC stanovují pro mezinárodní akce 200 terčů v položkách po 25."
+    },
+    "clayarena-find-your-results-q3": {
+      "q": "Nemůžete najít své jméno. Co můžete zkusit?",
+      "options": {
+        "a": "Hledat podle značky zbraně",
+        "b": "Napsat jméno velkými písmeny",
+        "c": "Jiné varianty zápisu jména"
+      },
+      "explain": "Jména jsou zapsána tak, jak jsou v dokumentech soutěže: latinkou nebo místní abecedou. Totéž příjmení lze navíc v latince zapsat víc než jedním způsobem."
+    },
+    "clayarena-find-your-results-q4": {
+      "q": "Kdy podepisuje střelec {{tm:compak}} protokol?",
+      "options": {
+        "a": "Na konci každé položky",
+        "b": "Jen po posledním dni",
+        "c": "Podepisuje rozhodčí, ne střelec"
+      },
+      "explain": "Střelec podepisuje na konci každé položky; bez podpisu se žádná pozdější stížnost nepřijímá."
+    },
+    "clayarena-find-your-results-q5": {
+      "q": "Kdy máte v {{tm:sporting}} kontrolovat svůj výsledek na kartě?",
+      "options": {
+        "a": "Na konci sezóny",
+        "b": "Při odchodu z každého stanoviště",
+        "c": "Jen po vyhlášení výsledků"
+      },
+      "explain": "Kontrolujte ho při odchodu z každého stanoviště a pokud něco nesedí, okamžitě to řekněte rozhodčímu."
+    }
+  }
+}

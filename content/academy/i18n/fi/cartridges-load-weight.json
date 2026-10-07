@@ -1,0 +1,101 @@
+{
+  "id": "cartridges-load-weight",
+  "lang": "fi",
+  "base_rev": 2,
+  "h": {
+    "title": "1f80569e",
+    "summary": "ed7b9a72",
+    "cartridges-load-weight-p1": "decdd26e",
+    "gear-cartridges-p4": "0bf10f58",
+    "cartridges-load-weight-cmp1": "4195ccb1",
+    "cartridges-load-weight-p3": "cc37e571",
+    "cartridges-load-weight-p4": "d0a3299d",
+    "cartridges-load-weight-p7": "fe983bcf",
+    "cartridges-load-weight-p6": "1e71519f",
+    "gear-cartridges-ph2": "c9f34404",
+    "cartridges-load-weight-kp1": "17adb00e",
+    "gear-cartridges-kp4": "17ffb11e",
+    "cartridges-load-weight-kp3": "4dfbe326",
+    "cartridges-load-weight-kp4": "d0986a33",
+    "cartridges-load-weight-dyk": "a4b09827",
+    "gear-cartridges-q2": "3bce4d71",
+    "cartridges-load-weight-q2": "af9002a3",
+    "cartridges-load-weight-q3": "c9a85ba3",
+    "cartridges-load-weight-q1": "caa212d8"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Haulilataus",
+  "summary": "Mikä haulilataus on, miten 24 g:n ja 28 g:n patruunat eroavat, mitä rajaa {{tm:sporting}}- ja {{tm:compak}}-säännöt asettavat ja miten patruunoita tarkistetaan.",
+  "body": {
+    "cartridges-load-weight-p1": "{{term:load-weight|Lataus}} (load) on patruunan haulien paino grammoina. Rasiassa se näkyy suurin numeroin, esimerkiksi ”24 g” tai ”28 g”. Yhdysvalloissa ja Isossa-Britanniassa se annetaan toisinaan unsseina: 1 unssi on noin 28 g.",
+    "gear-cartridges-p4": "{{tm:sporting}}- ja {{tm:compak}}-säännöt asettavat samat rajat. Lataus on {{fact:gear.fitasc-shot-load}}, siis enintään noin 28,6 g, kaliiperista riippumatta. Haulien on oltava {{fact:gear.fitasc-shot-diameter}}. Uudelleenladatut patruunat, hajottimet, haulikokojen sekoitukset, mustaruuti ja valojuovapatruunat ovat kiellettyjä.",
+    "cartridges-load-weight-cmp1": {
+      "sporting": "Ennen kuin aloitat ampumapaikalla, {{term:referee|tuomari}} voi pyytää kaksi patruunaasi tarkistettavaksi: yhden liivin oikeasta taskusta ja yhden vasemmasta.",
+      "compak": "Jos tarkistus osoittaa, että patruunasi rikkovat sääntöjä, kaikki niillä ennen tarkistusta ampumasi laukaukset lasketaan {{term:zero|nolliksi}}, eli ohilaukauksiksi. Jury voi hyväksyä tulokset, jos et voinut tietää asiasta ja et saanut etua, kunhan virhe korjataan heti, kun se havaitaan."
+    },
+    "cartridges-load-weight-p3": "Monet {{tm:sporting}}-ampujat käyttävät kilpailussa 28 g:aa: enemmän hauleja antaa tiiviimmän osumakuvion, varsinkin kaukokiekoissa. Haittapuoli on voimakkaampi {{term:recoil|rekyyli}}, ja sen huomaa päivässä, jossa on 100–200 kiekkoa.",
+    "cartridges-load-weight-p4": "24 g:n patruunat ovat kevyempiä, potkivat vähemmän ja ovat tavallisesti hieman halvempia. Harjoituksiin ja lähi- ja keskikiekkoihin ne riittävät tavallisesti ja väsyttävät vähemmän; kaukokiekoissa 28 g antaa tiiviimmän osumakuvion. On myös kevyempiä 21 g:n latauksia, lähinnä 20 kaliiperille tai opetukseen.",
+    "cartridges-load-weight-p7": "ISSF:n olympialaisissa haulikkolajeissa, esimerkiksi trapissa, raja on alempi: 24 g, toleranssi +0,5 g.",
+    "cartridges-load-weight-p6": "Monet valmentajat ehdottavat, että aloittelijat alkavat 24 g:lla. Pienempi rekyyli tarkoittaa vähemmän väsymystä ja pienempää riskiä oppia {{term:flinch|säpsähtämään}} ennen laukausta. Voit siirtyä 28 g:aan myöhemmin, kun tekniikkasi on vakiintunut."
+  },
+  "note": {},
+  "phrases": {
+    "gear-cartridges-ph2": {
+      "meaning": "Kilpailun haulilatauksen raja, kuten FITASCin säännöissä.",
+      "say": "Tässä kilpailussa enintään kaksikymmentäkahdeksan grammaa."
+    }
+  },
+  "key_points": {
+    "cartridges-load-weight-kp1": "Lataus on haulien paino grammoina; 1 unssi on noin 28 g.",
+    "gear-cartridges-kp4": "Rajat: 28 g lyijyä (+2 %), haulit 2,0–2,5 mm; ei jälleenlatauksia, sekahauleja, mustaruutia eikä valojuovia.",
+    "cartridges-load-weight-kp3": "28 g antaa tiiviimmän osumakuvion kaukokiekoissa; 24 g on pehmeämpi harjoituksiin ja aloittelijoille.",
+    "cartridges-load-weight-kp4": "{{tm:sporting}}: tuomari voi tarkistaa kaksi patruunaa; {{tm:compak}}: sääntöjenvastaisilla patruunoilla ampumat laukaukset lasketaan nolliksi."
+  },
+  "did_you_know": "1 unssi on 28,35 g, niin klassinen brittiläinen ”1 oz” -patruuna vastaa melkein tarkalleen FITASCin 28 g:n rajaa.",
+  "quiz": {
+    "gear-cartridges-q2": {
+      "q": "Mikä on suurin sallittu haulilataus FITASCin säännöissä?",
+      "options": {
+        "a": "24 g ilman toleranssia",
+        "b": "28 g, toleranssi +2 %",
+        "c": "32 g vain kaukaisille kiekoille",
+        "d": "Ei rajaa, mikä tahansa lataus on sallittu"
+      },
+      "explain": "Molemmat lajit sallivat enintään 28 g lyijyhauleja, +2 %."
+    },
+    "cartridges-load-weight-q2": {
+      "q": "Miksi monet valmentajat suosittelevat aloittelijoille 24 g:n patruunoita?",
+      "options": {
+        "a": "Ne potkivat vähemmän ja väsyttävät vähemmän",
+        "b": "Vain niitä sallitaan aloittelijoille",
+        "c": "Ne antavat tiiviimmän osumakuvion",
+        "d": "Ne lentävät kauemmas kuin raskaammat lataukset"
+      },
+      "explain": "Pienempi rekyyli auttaa säilyttämään hyvän tekniikan ja välttämään säpsähtämisen."
+    },
+    "cartridges-load-weight-q3": {
+      "q": "Montako patruunaa tuomari voi ottaa tarkistettavaksi {{tm:sporting}}-lajissa?",
+      "options": {
+        "a": "Ei yhtään: tarkistukset ovat kiellettyjä",
+        "b": "Yhden, mistä tahansa taskusta",
+        "c": "Kaksi, yhden joka liivin taskusta",
+        "d": "Koko rasian laukusta"
+      },
+      "explain": "Tuomari voi ottaa kaksi patruunaa, yhden kummastakin liivin taskusta."
+    },
+    "cartridges-load-weight-q1": {
+      "q": "{{tm:compak}}-lajissa tarkistus osoittaa, että ampujan patruunat rikkovat sääntöjä. Miten niillä ennen tarkistusta ammutut laukaukset lasketaan?",
+      "options": {
+        "a": "Ne ammutaan uudelleen myöhemmin",
+        "b": "Ne lasketaan No Birdiksi",
+        "c": "Ne lasketaan tavallisiksi",
+        "d": "Ne lasketaan nolliksi"
+      },
+      "explain": "Kaikki sääntöjenvastaisella aseella tai patruunoilla ennen tarkistusta ammutut laukaukset lasketaan nolliksi, eli ohilaukauksiksi; jury voi hyväksyä tulokset vain erityistapauksissa."
+    }
+  }
+}

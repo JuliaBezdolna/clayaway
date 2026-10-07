@@ -1,0 +1,102 @@
+{
+  "id": "clayarena-profile-numbers",
+  "lang": "pt",
+  "base_rev": 2,
+  "h": {
+    "title": "d549d9a9",
+    "summary": "e0b16add",
+    "clayarena-profile-numbers-p1": "18eea6d7",
+    "clayarena-profile-numbers-p2": "5c0f4cfc",
+    "clayarena-profile-numbers-p3": "802a0097",
+    "clayarena-profile-numbers-perfect": "fba5db32",
+    "clayarena-profile-numbers-p4": "b0604525",
+    "clayarena-profile-numbers-p5": "3e6b5e8e",
+    "clayarena-profile-numbers-other": "e4de96f4",
+    "clayarena-profile-numbers-p6": "935cbc72",
+    "clayarena-profile-numbers-p7": "e5d7ead9",
+    "clayarena-profile-numbers-kp1": "dab00454",
+    "clayarena-profile-numbers-kp2": "89d19953",
+    "clayarena-profile-numbers-kp3": "77da1959",
+    "clayarena-profile-numbers-kp4": "e43f7167",
+    "clayarena-profile-numbers-kp5": "c259b16c",
+    "clayarena-profile-numbers-q1": "4205296d",
+    "clayarena-profile-numbers-q2": "bb1798ca",
+    "clayarena-profile-numbers-q3": "e7e1f5a8",
+    "clayarena-profile-numbers-q4": "c2744161",
+    "clayarena-profile-numbers-q5": "86ab8658"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "O que significam os números de um perfil",
+  "body": {
+    "clayarena-profile-numbers-p1": "Um {{term:shooter-profile|perfil de atirador}} na ClayArena mostra vários números. São calculados a partir das competições de {{tm:sporting}} e {{tm:compak}} que estão no site, e o perfil pode mostrá-los separadamente para cada disciplina. Ajudam a ver de um olhar o nível e a regularidade de um atirador.",
+    "clayarena-profile-numbers-p2": "A {{term:accuracy|precisão}} é a percentagem de pratos partidos em relação aos pratos atirados numa competição. Por exemplo, 150 partidos em 200 são 75%. Um perfil pode mostrar a precisão média em todas as competições terminadas do atirador e a precisão mais alta numa única competição.",
+    "clayarena-profile-numbers-p3": "O {{term:best-score|melhor resultado}} é o total mais alto do atirador numa competição. Compare totais só com o mesmo número de pratos. Uma competição internacional de {{tm:sporting}} é {{fact:basics.international-targets}}, enquanto muitas provas de clube têm menos pratos. Por isso, se o número de pratos for diferente, compare a precisão. A precisão permite comparar números diferentes de pratos, mas os percursos, o tempo e o nível da prova continuam a ser diferentes, por isso trate-a como uma referência aproximada.",
+    "clayarena-profile-numbers-perfect": "Uma série perfeita (perfect round) é uma série sem nenhuma falha. Nas disciplinas da FITASC isso significa uma {{term:round|série}} com todos os {{fact:rules.round-targets}} partidos. O perfil conta quantas séries destas tem o atirador.",
+    "clayarena-profile-numbers-p4": "A {{term:top-10-rate|taxa de top 10}} é a percentagem de competições em que o atirador terminou entre os dez primeiros, na sua {{term:category|categoria}} ou na geral. Depende também de quem mais atirou: chegar ao top 10 num grande evento internacional é mais difícil do que numa {{term:club-shoot|prova de clube}}. Uma categoria pequena, com poucos atiradores, também torna o top 10 mais fácil de alcançar.",
+    "clayarena-profile-numbers-p5": "O {{term:performance-index|índice de desempenho}} é um único número que a ClayArena calcula a partir dos resultados de um atirador numa disciplina. Permite seguir a evolução ao longo do tempo sem ler cada tabela de resultados. Não é uma classificação oficial da {{term:fitasc|FITASC}}.",
+    "clayarena-profile-numbers-other": "Pode ver também outros números e secções, como o histórico de provas, uma vista por época e uma comparação com os vencedores. Os seus nomes podem mudar conforme o site evolui, por isso leia as explicações no próprio site.",
+    "clayarena-profile-numbers-p6": "Os números não contam tudo. Alguns {{term:layout|percursos}} (conjuntos de postos de tiro e os pratos lançados aí) são fáceis e outros difíceis, e o tempo pode alterar muito os resultados. Por isso os números de uma só competição dizem pouco; os números de várias competições são mais fiáveis.",
+    "clayarena-profile-numbers-p7": "Para um principiante, uma forma útil de ler um perfil é comparar-se consigo mesmo: como mudou a sua precisão ao longo da época. Comparar-se com atiradores fortes pode ser interessante, mas diz pouco sobre o seu próprio progresso."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-profile-numbers-kp1": "A precisão é a percentagem de pratos partidos em relação aos pratos atirados.",
+    "clayarena-profile-numbers-kp2": "Compare totais só com o mesmo número de pratos; caso contrário compare a precisão, como referência aproximada.",
+    "clayarena-profile-numbers-kp3": "A taxa de top 10 conta lugares entre os dez primeiros de uma categoria ou da geral, por isso depende de quantos atiradores havia e de quão fortes eram.",
+    "clayarena-profile-numbers-kp4": "O índice de desempenho é um número da ClayArena, não uma classificação da FITASC.",
+    "clayarena-profile-numbers-kp5": "Veja como os resultados mudam ao longo de várias competições."
+  },
+  "quiz": {
+    "clayarena-profile-numbers-q1": {
+      "q": "Um atirador partiu 150 pratos em 200. Qual é a precisão?",
+      "options": {
+        "a": "50%",
+        "b": "75%",
+        "c": "80%"
+      },
+      "explain": "150 ÷ 200 = 0,75, ou seja, 75%."
+    },
+    "clayarena-profile-numbers-q2": {
+      "q": "O que é o índice de desempenho num perfil da ClayArena?",
+      "options": {
+        "a": "Um número calculado pela ClayArena",
+        "b": "A classificação oficial da FITASC",
+        "c": "O número de provas num ano"
+      },
+      "explain": "É um número da ClayArena para seguir o progresso, não uma classificação oficial."
+    },
+    "clayarena-profile-numbers-q3": {
+      "q": "Porque dizem pouco os números de uma só competição?",
+      "options": {
+        "a": "São muitas vezes calculados mal",
+        "b": "Ali ninguém chega ao top 10",
+        "c": "Os percursos e o tempo são muito diferentes"
+      },
+      "explain": "Por isso é mais fiável olhar para os números de várias competições."
+    },
+    "clayarena-profile-numbers-q4": {
+      "q": "O que é uma série perfeita (perfect round)?",
+      "options": {
+        "a": "Uma série sem nenhuma falha",
+        "b": "Uma série atirada em menos de uma hora",
+        "c": "Uma série sem nenhum double"
+      },
+      "explain": "Uma série perfeita não tem nenhuma falha. Nas disciplinas da FITASC isso é uma série com todos os {{fact:rules.round-targets}} partidos."
+    },
+    "clayarena-profile-numbers-q5": {
+      "q": "Fez 90 em 100 numa prova de clube e 180 em 200 num evento internacional. O que pode comparar?",
+      "options": {
+        "a": "Os totais, 90 e 180",
+        "b": "A precisão: 90% das duas vezes",
+        "c": "Nada"
+      },
+      "explain": "Com números diferentes de pratos, compare a precisão em vez dos totais. Os percursos, o tempo e o nível da prova continuam a ser diferentes, por isso trate-a como uma referência aproximada."
+    }
+  },
+  "summary": "A precisão, o melhor resultado, as séries perfeitas, a taxa de top 10 e o índice de desempenho ajudam a ver a forma de um atirador, mas não substituem os próprios resultados."
+}

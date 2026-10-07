@@ -1,0 +1,99 @@
+{
+  "id": "gun-care",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "42bc807c",
+    "summary": "53ea9070",
+    "gun-care-p1": "e7fec0b7",
+    "gun-care-p2": "311dadd8",
+    "gun-care-p3": "5d55cf61",
+    "gun-care-p4": "3cd3a115",
+    "gun-care-p5": "520c5e84",
+    "gun-care-p6": "4866d6ad",
+    "gun-care-p7": "8dcf8861",
+    "gun-care-kp1": "9aa8a796",
+    "gun-care-kp2": "cabb28f0",
+    "gun-care-kp3": "12d97280",
+    "gun-care-kp4": "51137384",
+    "gun-care-kp5": "9b69a2ed",
+    "gun-care-dyk": "8beaba79",
+    "gun-care-q1": "77aa2722",
+    "gun-care-q2": "8bd12cd7",
+    "gun-care-q3": "c3f948e6",
+    "gun-care-q4": "5fd25464"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Karbantartás és tisztítás",
+  "summary": "Hogyan tisztítsd biztonságosan a fegyvert lövészet után és eső után, hogyan tárold, és miért foglal a {{tm:sporting}} és a {{tm:compak}} lövésze éves szervizt.",
+  "body": {
+    "gun-care-p1": "A tisztítás a biztonsággal kezdődik. Győződj meg róla, hogy a fegyver üres: nyisd ki, és nézz bele mindkét {{term:chamber|tölténykamrába}}. Vidd el az összes töltényt a munkaterületedről, hogy véletlenül se tudj egyet a fegyverbe tenni.",
+    "gun-care-p2": "Szedd szét a fegyvert: vedd le az {{term:fore-end|előagyat}}, majd a csöveket a {{term:receiver|tokról}}. Ha cserélhető szűkületeid vannak, csavard ki őket a {{term:choke-key|szűkületkulccsal}}; ezeket külön tisztítják (lásd: {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p3": [
+      "Tisztítsd a furatot minden lövésznap után.",
+      "Nedvesítsd be tisztítóoldattal, és vezesd át rajta néhányszor a furattisztító kefét (egy kis drótkefét egy rúdon).",
+      "Húzz át rajta a rúdon tiszta szövetdarabokat (patch), amíg majdnem tisztán jönnek ki.",
+      "Végül hagyj egy nagyon vékony olajfilmet, és töröld szárazra a furatot, mielőtt újra lősz."
+    ],
+    "gun-care-p4": "A külső fémrészeket töröld át egy ronggyal és egy csepp olajjal, hogy megvédd az ujjlenyomatoktól és a nedvességtől. Egy fa tust ne itasd át olajjal, mert az beleszívódik a fába. Könnyedén zsírozd meg a csuklópántot és azokat a helyeket, ahol a csövek a tokba zárnak, fegyverzsírral.",
+    "gun-care-p5": "Eső után azonnal szárítsd meg a fegyvert, még a lőtéren vagy a szállásnál. Ne hagyj egy nedves fegyvert egy éjszakára egy {{term:gun-slip|puha tokban}} vagy egy zárt {{term:hard-case|fegyverkofferben}}: a nedvesség ott hosszan megmarad, és rozsda követi. Szárítsd meg, töröld át, olajozd be.",
+    "gun-care-p6": "Tárold a fegyvert szárazon, egy széfben, vagy úgy, ahogy az országod törvénye megköveteli; sok törvény azt is kéri, hogy a töltényeket külön tartsd. Sok puskaműves azt tanácsolja, hogy a fegyvert vízszintesen vagy csőtorkolattal lefelé tárold, hogy az olaj ne folyjon bele a fa tusba. Ne használj acélgyapotot vagy csiszolóanyagot: ezek megkarcolják a felületet.",
+    "gun-care-p7": "Évente egyszer, vagy sok lövés után, vidd a fegyvert egy {{term:gunsmith|puskaműveshez}} szervizre. Összeszerelés után ne teszteld a fegyvert egy versenylőálláson. A {{tm:sporting}}-ban és a {{tm:compak}}-ban egy {{term:gun-test|próbalövést}} csak egy külön próbalövő helyen adnak le, ha a lőtér biztosít ilyet."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "gun-care-kp1": "Előbb győződj meg róla, hogy a fegyver üres, és a töltények el vannak téve.",
+    "gun-care-kp2": "Tisztítsd a furatot minden lövésznap után; olajozd könnyedén.",
+    "gun-care-kp3": "Egy nedves fegyvert azonnal szárítsd meg; ne hagyd egy éjszakára tokban.",
+    "gun-care-kp4": "Tárold szárazon és zárva, vízszintesen vagy csőtorkolattal lefelé.",
+    "gun-care-kp5": "Éves szerviz egy puskaművesnél; próbalövés csak egy próbalövő helyen."
+  },
+  "did_you_know": "A {{term:primer|csappantyúk}} egykor korrozív sókat tartalmaztak, és a fegyvert még aznap meg kellett tisztítani, különben a furat berozsdásodott. A modern csappantyúk nem korrozívak, de a tisztítás lövészet után továbbra is jó szokás.",
+  "quiz": {
+    "gun-care-q1": {
+      "q": "Mit kell elsőként megtenned, mielőtt megtisztítanád a fegyvert?",
+      "options": {
+        "a": "Zsírozd meg a csuklópántot és a kampókat",
+        "b": "Csavard ki mindkét szűkületet",
+        "c": "Ellenőrizd, hogy a fegyver üres",
+        "d": "Vedd le a tusgumit"
+      },
+      "explain": "Biztonság az első: nyisd ki a fegyvert, és nézd meg mindkét tölténykamrát."
+    },
+    "gun-care-q2": {
+      "q": "Mit nem szabad tenned esős lövészet után?",
+      "options": {
+        "a": "Töröld át a fegyvert egy száraz ronggyal",
+        "b": "Hagyd egy éjszakára a tokjában",
+        "c": "Szárítsd ki a csöveket belül és kívül",
+        "d": "Tegyél egy vékony olajfilmet a fémre"
+      },
+      "explain": "A nedvesség hosszan megmarad egy zárt tokban, és rozsda követi."
+    },
+    "gun-care-q3": {
+      "q": "Hol tesztelheted a fegyveredet egy verseny előtt?",
+      "options": {
+        "a": "Egy próbalövő helyen, ha a lőtérnek van ilyen",
+        "b": "Az első versenylőálláson",
+        "c": "Bárhol a lőtéren, emberektől távol",
+        "d": "A parkolóban, a klubház mellett"
+      },
+      "explain": "A szabályok tiltják a próbalövést a versenylőálláson; erre külön próbalövő hely van."
+    },
+    "gun-care-q4": {
+      "q": "Miért tanácsolja sok puskaműves, hogy csőtorkolattal lefelé tárold a fegyvert?",
+      "options": {
+        "a": "Hogy később gyorsabban be lehessen tölteni",
+        "b": "Hogy a szűkületek ne lazuljanak ki",
+        "c": "Hogy a csövek gyorsabban hűljenek",
+        "d": "Hogy az olaj ne folyjon bele a tusba"
+      },
+      "explain": "A fa tusba folyó olaj idővel károsíthatja a fát."
+    }
+  }
+}

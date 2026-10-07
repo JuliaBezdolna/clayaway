@@ -1,0 +1,285 @@
+{
+  "id": "culture-traditions",
+  "rev": 3,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "organiser",
+    "fan",
+    "shooter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "culture-traditions"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "prize-giving",
+    "team",
+    "dress-code",
+    "shoot-off",
+    "squad",
+    "referee",
+    "trapper",
+    "organiser"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch17-ceremonies"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-ceremonies"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-team-ties"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-team-ties"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-top-three"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-medals"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Traditions: prize giving, teams and customs",
+    "uk": "Традиції: нагородження, команди і звичаї"
+  },
+  "summary": {
+    "en": "How the ceremonies and the prize giving work, how teams compete, and the customs that turn a {{tm:sporting}} or {{tm:compak}} competition into a celebration.",
+    "uk": "Як відбуваються церемонії й нагородження, як змагаються команди і які звичаї роблять змагання з {{tm:sporting}} чи {{tm:compak}} святом."
+  },
+  "body": [
+    {
+      "k": "culture-traditions-p1",
+      "t": "p",
+      "en": "A competition is more than a score. Shooters keep customs that turn a long day into a shared celebration: the ceremonies, the prize giving, team spirit and small courtesies on the ground.",
+      "uk": "Змагання — це більше, ніж рахунок. Стрільці мають звичаї, які роблять довгий день спільним святом: церемонії, нагородження, командний дух і дрібні знаки ввічливості на стенді."
+    },
+    {
+      "k": "culture-traditions-ties",
+      "t": "p",
+      "en": "If two or more shooters have the same score for one of the top three places, a {{term:shoot-off|shoot-off}} decides it: they shoot extra targets, and the better score wins. It is often the most exciting moment of the day, and spectators gather round. How shoot-offs and other ties work: {{lesson:competitions-categories-and-shoot-offs}}.",
+      "uk": "Якщо за одне з перших трьох місць у кількох стрільців однаковий рахунок, це вирішує {{term:shoot-off|перестрілка}}: вони стріляють додаткові мішені, і виграє той, хто влучить більше. Часто це найзахопливіший момент дня, і глядачі збираються довкола. Як проходять перестрілки й що буває за іншої рівності: {{lesson:competitions-categories-and-shoot-offs}}."
+    },
+    {
+      "k": "culture-traditions-p4",
+      "t": "p",
+      "en": "Team events are a tradition of their own. A {{term:team|team}} is a few shooters from one country, or from one club at club events. Their scores are added up for the team ranking. Teams do not shoot a shoot-off. If two teams finish level, the team whose shooters scored more together on the last round of the competition wins. If that is level too, the round before decides, and so on.",
+      "uk": "Командні змагання — окрема традиція. {{term:team|Команда}} — це кілька стрільців з однієї країни, а на клубних змаганнях — з одного клубу. Їхні результати додають для командного заліку. Перестрілок між командами не буває. Якщо дві команди набрали порівну, виграє та, чиї стрільці разом краще відстріляли останній раунд змагання. Якщо й там порівну, вирішує передостанній, і так далі."
+    },
+    {
+      "k": "culture-traditions-ceremony",
+      "t": "p",
+      "disc": "both",
+      "en": "International events open and close with a ceremony. At the opening, national teams parade in their team outfit or in smart trousers and a blazer. At the closing, all prize winners must attend the {{term:prize-giving|prize giving}}, dressed the same way.",
+      "uk": "Міжнародні змагання відкриваються і закриваються церемонією. На відкритті національні команди проходять парадом у командній формі або в охайних штанях із блейзером. На закритті всі призери мають бути на {{term:prize-giving|нагородженні}} в такому самому вбранні."
+    },
+    {
+      "k": "culture-traditions-dress",
+      "t": "tip",
+      "en": "This ceremony rule is the same in both disciplines. Club events are usually less formal, so read the programme. The {{term:dress-code|dress code}} on the stand is a separate rule: {{lesson:rules-dress-and-safety}}.",
+      "uk": "Це правило церемоній однакове в обох дисциплінах. Клубні змагання зазвичай менш формальні, тож читайте програму. {{term:dress-code|Дрес-код}} на стрілецькому місці — окреме правило: {{lesson:rules-dress-and-safety}}."
+    },
+    {
+      "k": "culture-traditions-p5",
+      "t": "p",
+      "en": "Stepping onto the podium is also a mark of respect: for the rivals who shot alongside you and for the people who ran the event.",
+      "uk": "Вийти на п’єдестал — це ще й знак поваги: до суперників, які стріляли поруч, і до людей, які провели змагання."
+    },
+    {
+      "k": "culture-traditions-p6",
+      "t": "p",
+      "en": "There are informal customs too: congratulating the winner, a photo of your {{term:squad|squad}} (the group you shot with), a thank-you to the {{term:organiser|organisers}}, the {{term:referee|referees}} and the {{term:trapper|trappers}}. Manners on the stand itself: {{lesson:culture-sportsmanship-referee}}.",
+      "uk": "Є й неформальні звичаї: привітати переможця, сфотографуватися всією {{term:squad|групою}}, з якою ви стріляли, подякувати {{term:organiser|організаторам}}, {{term:referee|суддям}} і {{term:trapper|операторам}} машинок. Як поводитися на самому стрілецькому місці: {{lesson:culture-sportsmanship-referee}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "culture-traditions-kp4",
+      "en": "At international events all prize winners must attend the prize giving.",
+      "uk": "На міжнародних змаганнях усі призери мають бути на нагородженні."
+    },
+    {
+      "k": "culture-traditions-kp-dress",
+      "en": "Ceremony dress: team outfit, or smart trousers and a blazer.",
+      "uk": "Вбрання для церемоній: командна форма або охайні штани з блейзером."
+    },
+    {
+      "k": "culture-traditions-kp3",
+      "en": "Team scores are added up; teams do not shoot a shoot-off.",
+      "uk": "Результати членів команди додають; команди не перестрілюють."
+    },
+    {
+      "k": "culture-traditions-kp-thanks",
+      "en": "At the end of the day, thank the organisers, the referees and the trappers.",
+      "uk": "Наприкінці дня подякуйте організаторам, суддям і операторам машинок."
+    }
+  ],
+  "did_you_know": {
+    "k": "culture-traditions-dyk",
+    "en": "In {{tm:sporting}}, organisers of international events try to put team-mates from one country into different squads (shooting groups). So at a big championship you often shoot alongside people from other nations.",
+    "uk": "У {{tm:sporting}} організатори міжнародних змагань намагаються розподілити членів однієї збірної по різних групах. Тож на великому чемпіонаті ви часто стріляєте поруч зі спортсменами з інших країн."
+  },
+  "quiz": [
+    {
+      "k": "culture-traditions-q-ceremony",
+      "q": {
+        "en": "What must prize winners do at an international event?",
+        "uk": "Що мають зробити призери на міжнародному змаганні?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Send a team-mate to collect the prize",
+          "uk": "Надіслати по приз товариша з команди"
+        },
+        {
+          "k": "b",
+          "en": "Attend the prize giving, properly dressed",
+          "uk": "Прийти на нагородження в належному вбранні"
+        },
+        {
+          "k": "c",
+          "en": "Wear their shooting vest on the podium",
+          "uk": "Вийти на п’єдестал у стрілецькому жилеті"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "All prize winners attend the closing ceremony in team outfit, or in smart trousers and a blazer.",
+        "uk": "Усі призери приходять на церемонію закриття в командній формі або в охайних штанях із блейзером."
+      }
+    },
+    {
+      "k": "culture-traditions-q3",
+      "q": {
+        "en": "How are tied teams separated?",
+        "uk": "Як розрізняють команди з однаковим рахунком?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "By their scores on the last rounds",
+          "uk": "За результатами останніх раундів"
+        },
+        {
+          "k": "b",
+          "en": "By a shoot-off between the teams",
+          "uk": "Перестрілкою між командами"
+        },
+        {
+          "k": "c",
+          "en": "By drawing lots after the event",
+          "uk": "Жеребкуванням після змагання"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Teams do not shoot off. The last round of the competition decides (in {{tm:sporting}} the 8th layout, in {{tm:compak}} the 8th field); if that is level too, the one before, and so on.",
+        "uk": "Команди не перестрілюють. Вирішує останній раунд змагання (у {{tm:sporting}} — восьмий майданчик, у {{tm:compak}} — восьме поле); якщо й там порівну — передостанній, і так далі."
+      }
+    },
+    {
+      "k": "culture-traditions-q-thanks",
+      "q": {
+        "en": "Who do shooters usually thank at the end of the day?",
+        "uk": "Кому стрільці зазвичай дякують наприкінці дня?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only the winner of the event",
+          "uk": "Лише переможцю змагання"
+        },
+        {
+          "k": "b",
+          "en": "Only the coach who came with them",
+          "uk": "Лише тренеру, який приїхав із ними"
+        },
+        {
+          "k": "c",
+          "en": "The organisers, referees and trappers",
+          "uk": "Організаторам, суддям і операторам"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A competition runs on many people's work, and a short thank-you is a common custom.",
+        "uk": "Змагання тримається на праці багатьох людей, тож коротка подяка — поширений звичай."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "e14ac747",
+    "summary": "b2d764f8",
+    "culture-traditions-p1": "59e7dbaa",
+    "culture-traditions-ties": "6db9b8a2",
+    "culture-traditions-p4": "6bc0ece4",
+    "culture-traditions-ceremony": "0eb02c95",
+    "culture-traditions-dress": "50900bc0",
+    "culture-traditions-p5": "7b45f8c9",
+    "culture-traditions-p6": "b8240615",
+    "culture-traditions-kp4": "5f82da81",
+    "culture-traditions-kp-dress": "e2479ed7",
+    "culture-traditions-kp3": "79d45933",
+    "culture-traditions-kp-thanks": "46020050",
+    "culture-traditions-dyk": "f33c68e4",
+    "culture-traditions-q-ceremony": "d8389378",
+    "culture-traditions-q3": "8144c5e3",
+    "culture-traditions-q-thanks": "8ea5b06e"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

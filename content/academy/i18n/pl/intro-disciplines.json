@@ -1,0 +1,91 @@
+{
+  "id": "intro-disciplines",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "dac19506",
+    "summary": "58295a84",
+    "intro-disciplines-p1": "79e1fd27",
+    "intro-disciplines-p2": "bad18039",
+    "intro-disciplines-cmp": "1ddbb76f",
+    "intro-disciplines-p3": "f274bc4d",
+    "intro-disciplines-p4": "072bf2ee",
+    "intro-disciplines-p5": "c1fef81a",
+    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-kp1": "b3f7bab6",
+    "intro-disciplines-kp2": "634ce41c",
+    "intro-disciplines-kp3": "fec76055",
+    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-dyk": "0aa60887",
+    "intro-disciplines-q1": "f150b65a",
+    "intro-disciplines-q2": "40032e9f",
+    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q-second-shot": "ecd0ab34"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Główne dyscypliny",
+  "summary": "Krótki przewodnik po {{tm:sporting}} i {{tm:compak}}, a także po Trapie i Skeecie: co mają wspólne i czym się różnią.",
+  "body": {
+    "intro-disciplines-p1": "{{tm:sporting}} naśladuje polowanie. {{term:shooting-stand|Stanowiska}}, oznaczone miejsca, z których się strzela, są rozstawione w naturalnym terenie: w polu, przy lesie, na zboczach. Rzutki lecą tak, jak leciałaby kuropatwa, kaczka czy bażant, albo toczą się jak zając. Każda {{term:layout|oś}}, czyli grupa stanowisk, daje {{fact:targets.sporting-layout-targets}} (dublet to dwa rzutki, czyli jeszcze 10). Dwa rzutki {{term:double|dubletu}} lecą razem albo jeden po drugim.",
+    "intro-disciplines-p2": "{{tm:compak}} to wersja zwarta. Wszystko odbywa się na jednym polu z {{fact:basics.compak-field}}. Strzelec przechodzi przez wszystkie pięć stanowisk i na każdym strzela do 5 rzutków — 25 na {{term:round|serię}}. Pole Compak zajmuje mało miejsca, więc klubowi łatwo je zbudować.",
+    "intro-disciplines-cmp": {
+      "sporting": "Idziesz trasą od stanowiska do stanowiska, a każde stanowisko ma swoje rzutki. Dublet może być {{term:double-on-report|na zawołanie}} — twój pierwszy strzał zwalnia drugi rzutek — albo {{term:simultaneous-double|symultaniczny}}, gdy oba lecą naraz. {{term:rafale-double|Rafale}} to dwa rzutki z tej samej wyrzutni, jeden tuż po drugim.",
+      "compak": "Zostajesz na jednym polu i po każdej swojej turze przechodzisz o jedno stanowisko w prawo. Dublet jest {{term:double-on-report|na zawołanie}} — twój pierwszy strzał zwalnia drugi rzutek — albo {{term:simultaneous-double|symultaniczny}}, gdy oba lecą naraz."
+    },
+    "intro-disciplines-p3": "Międzynarodowe zawody w obu dyscyplinach to zwykle {{fact:basics.international-targets}}. W obu dyscyplinach do {{term:single-target|rzutka pojedynczego}} można strzelić dwa razy: jeśli pierwszy strzał nie trafi, drugi wciąż może go rozbić.",
+    "intro-disciplines-p4": "Trap to inna grupa dyscyplin. Strzelec stoi na jednym z pięciu stanowisk w rzędzie, a rzutki wylatują od niego z okopu (zagłębionego dołu przed stanowiskami) pod zmieniającymi się kątami. Strzelec nie wie z góry, dokąd poleci następny rzutek. W {{term:olympic-trap|trapie olimpijskim}} (Olympic Trap) do każdego rzutka można strzelić dwa razy.",
+    "intro-disciplines-p5": "W {{term:skeet|skeecie}} (Skeet) rzutki wylatują z dwóch wież (niewielkich budowli, w których stoją wyrzutnie) ustawionych naprzeciw siebie: wysokiej i niskiej. Strzelec przechodzi między stanowiskami rozmieszczonymi na półkolu między wieżami, plus jednym pośrodku. Trajektorie się nie zmieniają, więc bardzo liczy się precyzyjna, wyćwiczona technika.",
+    "intro-disciplines-p6": "Trap olimpijski i Skeet są w programie olimpijskim i należą do innej międzynarodowej federacji — ISSF. Ale {{term:fitasc|FITASC}} ma też własne dyscypliny typu trap i skeet, takie jak Universal Trench i Universal Skeet. Akademia ClayArena skupia się głównie na {{tm:sporting}} i {{tm:compak}}. Podstawy są wspólne dla wszystkich dyscyplin: bezpieczeństwo, {{term:gun-mount|złożenie się do strzału}} (ruch, którym przykłada się strzelbę do policzka i ramienia) i umiejętność odczytania rzutka."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-disciplines-kp1": "{{tm:sporting}}: trasa w naturalnym terenie; każda oś daje {{fact:rules.round-targets}}.",
+    "intro-disciplines-kp2": "{{tm:compak}}: jedno pole z {{fact:basics.compak-field}}.",
+    "intro-disciplines-kp3": "Międzynarodowe zawody to zwykle {{fact:basics.international-targets}}; do rzutka pojedynczego można strzelić dwa razy.",
+    "intro-disciplines-kp4": "W Trapie rzutki lecą od strzelca; w Skeecie przecinają pole między dwiema wieżami."
+  },
+  "did_you_know": "Dyscyplinę {{tm:compak}} {{fact:community.compak-created}}.",
+  "quiz": {
+    "intro-disciplines-q1": {
+      "q": "Ile rzutków daje jedna oś {{tm:sporting}}?",
+      "options": {
+        "a": "10",
+        "b": "25",
+        "c": "50"
+      },
+      "explain": "Każda oś daje {{fact:targets.sporting-layout-targets}} (dublet to dwa rzutki, czyli jeszcze 10)."
+    },
+    "intro-disciplines-q2": {
+      "q": "Ile wyrzutni jest na jednym polu Compak?",
+      "options": {
+        "a": "Sześć, oznaczonych literami od A do F",
+        "b": "Dwie: wysoka i niska",
+        "c": "Piętnaście, w okopie"
+      },
+      "explain": "Pole {{tm:compak}} ma {{fact:basics.compak-field}}."
+    },
+    "intro-disciplines-q3": {
+      "q": "W której dyscyplinie rzutki wylatują z dwóch wież — wysokiej i niskiej?",
+      "options": {
+        "a": "Trap",
+        "b": "{{tm:sporting}}",
+        "c": "Skeet"
+      },
+      "explain": "To w Skeecie są wysoka i niska wieża, a stanowiska stoją na półkolu między nimi."
+    },
+    "intro-disciplines-q-second-shot": {
+      "q": "Twój pierwszy strzał nie trafia rzutka pojedynczego. Co pozwalają przepisy?",
+      "options": {
+        "a": "Sędzia powtarza rzutek",
+        "b": "Musisz od razu otworzyć broń",
+        "c": "Możesz strzelić z drugiej lufy"
+      },
+      "explain": "W {{tm:sporting}} i {{tm:compak}} do rzutka pojedynczego muszą być dwa strzały, więc po nieudanym pierwszym można jeszcze strzelić drugim."
+    }
+  }
+}

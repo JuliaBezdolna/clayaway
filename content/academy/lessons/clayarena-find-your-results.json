@@ -1,0 +1,353 @@
+{
+  "id": "clayarena-find-your-results",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "fan",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "watch block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "clayarena-find-your-results"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "sporting",
+    "compak-sporting",
+    "round",
+    "club-shoot",
+    "shooter-profile",
+    "score-sheet",
+    "referee",
+    "organiser"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-who-keeps-score"
+    },
+    {
+      "book": "compak",
+      "id": "ch16-terms"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-who-keeps"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-signing"
+    }
+  ],
+  "facts": [
+    "rules.round-targets",
+    "basics.international-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How to find your results and your profile",
+    "uk": "Як знайти свої результати і свій профіль"
+  },
+  "summary": {
+    "en": "Find the competition you shot in and your name in its results table; from there you can open your shooter profile.",
+    "uk": "Знайдіть змагання, на якому виступали, і своє ім’я в таблиці результатів — звідти можна відкрити свій профіль стрільця."
+  },
+  "body": [
+    {
+      "k": "clayarena-find-your-results-p1",
+      "t": "p",
+      "en": "After a {{tm:sporting}} or {{tm:compak}} competition, its results appear on ClayArena. At some events they are updated while the shooting is still going on. The simplest way is to open that competition and find your name in the results table. You can find the competition in the list of competitions or in the calendar, which shows finished events too.",
+      "uk": "Після змагання з {{tm:sporting}} або {{tm:compak}} його результати з’являються на ClayArena, а на деяких змаганнях оновлюються ще під час стрільби. Найпростіше — відкрити саме це змагання і знайти своє ім’я в таблиці результатів. Змагання можна знайти в списку змагань або в календарі: там є і завершені події."
+    },
+    {
+      "k": "clayarena-find-your-results-p2",
+      "t": "p",
+      "en": "The table shows your place and how many targets you broke. A {{term:round|round}} is {{fact:rules.round-targets}}, and your total is the sum of your rounds. An international {{tm:sporting}} competition is usually {{fact:basics.international-targets}}. {{term:club-shoot|Club shoots}} often have fewer targets: the organiser sets the format. How to read the table: {{lesson:watching-reading-results}}.",
+      "uk": "У таблиці видно ваше місце і скільки мішеней ви розбили. {{term:round|Раунд}} — це {{fact:rules.round-targets}}, а загальний результат — сума ваших раундів. Міжнародне змагання з {{tm:sporting}} — це зазвичай {{fact:basics.international-targets}}. На {{term:club-shoot|клубних змаганнях}} мішеней часто менше: формат визначає організатор. Як читати таблицю — в уроці {{lesson:watching-reading-results}}."
+    },
+    {
+      "k": "clayarena-find-your-results-p3",
+      "t": "p",
+      "en": "From the results table you can open your {{term:shooter-profile|shooter profile}}. It gathers your competitions that are on ClayArena and your key figures. You can also look for yourself in the list of shooters, which can be filtered by country.",
+      "uk": "З таблиці результатів можна перейти до свого {{term:shooter-profile|профілю стрільця}}. Там зібрано ваші змагання, які є на ClayArena, і ваші головні показники. Себе можна пошукати й у списку стрільців, який фільтрується за країною."
+    },
+    {
+      "k": "clayarena-find-your-results-p4",
+      "t": "p",
+      "en": "Names on the site are written as in the competition documents. International events usually use Latin letters. National events may use the local alphabet, for example Cyrillic letters at Ukrainian events. If you cannot find yourself, try the local spelling of your name and its different Latin spellings.",
+      "uk": "Імена на сайті записані так, як у документах змагання. На міжнародних змаганнях це зазвичай латиниця. На національних змаганнях може бути місцева абетка, наприклад кирилиця на українських змаганнях. Якщо не можете себе знайти, спробуйте місцеве написання імені і різні варіанти латиницею."
+    },
+    {
+      "k": "clayarena-find-your-results-p5",
+      "t": "p",
+      "en": "ClayArena takes the results from the competition's {{term:score-sheet|score sheets}}: the official sheets where the {{term:referee|referee}} records each target as broken or missed. So the most important check happens at the ground, not on the site. Your profile will show exactly what the referee wrote down.",
+      "uk": "ClayArena бере результати з {{term:score-sheet|протоколів}} змагань — офіційних аркушів, куди {{term:referee|суддя}} записує кожне влучання і промах. Тому найважливіша перевірка — ще на стенді, а не на сайті. У профілі буде саме те, що записав суддя."
+    },
+    {
+      "k": "clayarena-find-your-results-compare",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Check your score on the card (in {{tm:sporting}} this is the squad's score sheet) when you leave each stand. If it is wrong, tell the referee at once: only the referee decides, and that decision cannot be appealed.",
+        "uk": "Перевіряйте свій результат у картці (так у {{tm:sporting}} називають протокол групи), коли залишаєте кожне стрілецьке місце. Якщо він неправильний, одразу скажіть судді: вирішує лише суддя, і його рішення оскаржити не можна."
+      },
+      "compak": {
+        "en": "Sign the score sheet at the end of each round. If you refuse to sign, no later complaint can be accepted.",
+        "uk": "Підписуйте протокол наприкінці кожного раунду. Якщо ви відмовитеся його підписати, жодну подальшу скаргу не приймуть."
+      }
+    },
+    {
+      "k": "clayarena-find-your-results-p6",
+      "t": "p",
+      "en": "Still see a mistake on the site? First contact the competition {{term:organiser|organiser}}: the organiser is responsible for the official results, and the site only shows them. If the problem is on the site itself, for example a misspelled name, write to the ClayArena team through the contacts on the site.",
+      "uk": "Бачите помилку на сайті? Спершу зверніться до {{term:organiser|організатора}} змагань: офіційні результати веде організатор, а сайт лише їх показує. Якщо проблема в самому сайті, наприклад ім’я записано з помилкою, напишіть команді ClayArena через контакти на сайті."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "clayarena-find-your-results-kp1",
+      "en": "Open the competition and find yourself in the results table.",
+      "uk": "Відкрийте змагання і знайдіть себе в таблиці результатів."
+    },
+    {
+      "k": "clayarena-find-your-results-kp2",
+      "en": "From the table you can open your shooter profile.",
+      "uk": "З таблиці можна перейти до свого профілю стрільця."
+    },
+    {
+      "k": "clayarena-find-your-results-kp3",
+      "en": "Search for your name as it is written in the competition documents: in the local alphabet or in Latin letters.",
+      "uk": "Шукайте своє ім’я так, як воно записане в документах змагання: місцевою абеткою або латиницею."
+    },
+    {
+      "k": "clayarena-find-your-results-kp4",
+      "en": "Check your score at the ground: in {{tm:sporting}} when you leave each stand, in {{tm:compak}} when you sign the score sheet.",
+      "uk": "Перевіряйте результат ще на стенді: у {{tm:sporting}} — залишаючи кожне стрілецьке місце, у {{tm:compak}} — коли підписуєте протокол.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "clayarena-find-your-results-q1",
+      "q": {
+        "en": "Where do the results on ClayArena come from?",
+        "uk": "Звідки беруться результати на ClayArena?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Shooters type them in",
+          "uk": "Їх вводять самі стрільці"
+        },
+        {
+          "k": "b",
+          "en": "From the score sheets",
+          "uk": "З протоколів змагань"
+        },
+        {
+          "k": "c",
+          "en": "A coach works them out",
+          "uk": "Їх рахує тренер"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Results come from the score sheets, so check your score while you are still at the ground.",
+        "uk": "Результати беруть із протоколів, тому перевіряйте свій результат ще на стенді."
+      }
+    },
+    {
+      "k": "clayarena-find-your-results-q2",
+      "disc": "sporting",
+      "q": {
+        "en": "How many targets does an international {{tm:sporting}} competition usually have?",
+        "uk": "Скільки мішеней зазвичай має міжнародне змагання з {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "200, in rounds of 25",
+          "uk": "200, раундами по 25"
+        },
+        {
+          "k": "b",
+          "en": "100, in rounds of 10",
+          "uk": "100, раундами по 10"
+        },
+        {
+          "k": "c",
+          "en": "50, without rounds",
+          "uk": "50, без раундів"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The FITASC rules set 200 targets in rounds of 25 for international events.",
+        "uk": "Правила FITASC визначають для міжнародних змагань 200 мішеней раундами по 25."
+      },
+      "rule_ref": "sporting:ch16-format"
+    },
+    {
+      "k": "clayarena-find-your-results-q3",
+      "q": {
+        "en": "You cannot find your name. What can you try?",
+        "uk": "Не можете знайти своє ім’я. Що можна спробувати?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Searching by your gun's brand",
+          "uk": "Шукати за маркою рушниці"
+        },
+        {
+          "k": "b",
+          "en": "Typing the name in capitals",
+          "uk": "Написати ім’я великими літерами"
+        },
+        {
+          "k": "c",
+          "en": "Other spellings of the name",
+          "uk": "Інші варіанти написання імені"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Names are written as in the competition documents: in Latin letters or in the local alphabet. The same surname can also be written in Latin letters in more than one way.",
+        "uk": "Імена записані так, як у документах змагання: латиницею або місцевою абеткою. А те саме прізвище латиницею можна записати по-різному."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "clayarena-find-your-results-q4",
+      "disc": "compak",
+      "q": {
+        "en": "When does a {{tm:compak}} shooter sign the score sheet?",
+        "uk": "Коли стрілець у {{tm:compak}} підписує протокол?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At the end of each round",
+          "uk": "Наприкінці кожного раунду"
+        },
+        {
+          "k": "b",
+          "en": "Only after the last day",
+          "uk": "Лише після останнього дня"
+        },
+        {
+          "k": "c",
+          "en": "The referee signs, not the shooter",
+          "uk": "Підписує суддя, а не стрілець"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The shooter signs at the end of each round; without a signature no later complaint is accepted.",
+        "uk": "Стрілець підписує протокол наприкінці кожного раунду; без підпису подальшу скаргу не приймуть."
+      },
+      "rule_ref": "compak:ch15-signing"
+    },
+    {
+      "k": "clayarena-find-your-results-q5",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, when should you check your score on the card?",
+        "uk": "Коли в {{tm:sporting}} треба перевіряти свій результат у картці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At the end of the season",
+          "uk": "Наприкінці сезону"
+        },
+        {
+          "k": "b",
+          "en": "When you leave each stand",
+          "uk": "Залишаючи кожне стрілецьке місце"
+        },
+        {
+          "k": "c",
+          "en": "Only after the prize giving",
+          "uk": "Лише після нагородження"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Check it when you leave each stand and tell the referee at once if something is wrong.",
+        "uk": "Перевіряйте, залишаючи кожне місце, і одразу скажіть судді, якщо щось не так."
+      },
+      "rule_ref": "sporting:ch16-results-check"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "f29a933a",
+    "summary": "ed2bf53b",
+    "clayarena-find-your-results-p1": "69523ad7",
+    "clayarena-find-your-results-p2": "338f1be0",
+    "clayarena-find-your-results-p3": "fb84bb29",
+    "clayarena-find-your-results-p4": "a1d793aa",
+    "clayarena-find-your-results-p5": "39d5a08a",
+    "clayarena-find-your-results-compare": "fe15e030",
+    "clayarena-find-your-results-p6": "5d841323",
+    "clayarena-find-your-results-kp1": "6aa41141",
+    "clayarena-find-your-results-kp2": "6f357ccc",
+    "clayarena-find-your-results-kp3": "59eb82ec",
+    "clayarena-find-your-results-kp4": "bd3d6a0c",
+    "clayarena-find-your-results-q1": "a2cbfcfd",
+    "clayarena-find-your-results-q2": "0299b2de",
+    "clayarena-find-your-results-q3": "e749bf73",
+    "clayarena-find-your-results-q4": "fda6128c",
+    "clayarena-find-your-results-q5": "bcae2181"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

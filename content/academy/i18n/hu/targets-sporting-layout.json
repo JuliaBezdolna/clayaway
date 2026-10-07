@@ -1,0 +1,172 @@
+{
+  "id": "targets-sporting-layout",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "e7f069bb",
+    "summary": "19716cde",
+    "sport-sporting-layout-p1": "a77d4d14",
+    "sporting-rounds-stands-p2": "729987f5",
+    "sport-sporting-layout-p2": "208f6c36",
+    "sport-sporting-layout-p3": "e38f4eb7",
+    "sport-sporting-layout-p4": "9af0ea8f",
+    "sport-sporting-layout-p5": "94a7f005",
+    "sporting-rounds-stands-p1": "10956753",
+    "sporting-rounds-stands-p4": "0e615261",
+    "targets-sporting-layout-ready": "d6104beb",
+    "sporting-rounds-stands-p5": "d2f4c8ea",
+    "targets-sporting-layout-compak": "ee404ecd",
+    "sport-sporting-layout-n1": "a4a5f73d",
+    "sport-sporting-layout-ph1": "8bf59186",
+    "sport-sporting-layout-ph2": "5d04fd67",
+    "sport-sporting-layout-ph3": "45d94721",
+    "sporting-rounds-stands-ph1": "3e1497ed",
+    "sporting-rounds-stands-ph2": "81904d45",
+    "sporting-rounds-stands-ph3": "e1612014",
+    "sporting-rounds-stands-ph4": "35d596b1",
+    "sporting-rounds-stands-kp1": "19329416",
+    "sporting-rounds-stands-kp2": "b179890e",
+    "sport-sporting-layout-kp5": "a961a1f3",
+    "sporting-rounds-stands-kp3": "ad8ab490",
+    "sporting-rounds-stands-kp4": "137d175e",
+    "sporting-rounds-stands-q1": "5e503383",
+    "sporting-rounds-stands-q2": "a8141645",
+    "sporting-rounds-stands-q3": "957fb77e",
+    "targets-sporting-layout-q-international": "1ed6e0ab",
+    "sport-sporting-layout-q2": "2bf6aab0",
+    "sport-sporting-layout-q3": "1c1ad9e5",
+    "etiquette-squad-q3": "247aff89"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Hogyan épül fel egy {{tm:sporting}} lőpálya és kör",
+  "summary": "Lőpályák, lőállások, A-tól D-ig jelölt dobógépek, a kotta, nehézségi osztályok és a 25 korongos kör: hogyan van felépítve és hogyan zajlik egy {{tm:sporting}} verseny.",
+  "body": {
+    "sport-sporting-layout-p1": "A {{tm:sporting}}-ban a lőtér {{term:layout|lőpályákra}} van osztva. Egy lőpálya {{term:shooting-stand|lőállások}} csoportja, amelyek együtt egy, {{fact:targets.sporting-layout-targets}} tartalmazó kört alkotnak.",
+    "sporting-rounds-stands-p2": "A lőpályákat kétféleképpen építik. A régebbi típusban 3 lőállás osztja meg 5 dobógépet. Az újabb típust {{term:line|vonalnak}} (line) hívják. Egy 4 lőállásos vonalon három lőállásnak 4 dobógépe van, és egynek (a 2-es vagy 3-as számúnak) 3. Egy 5 lőállásos vonalon minden lőálláson 3 dobógép van. Egy 3 lőállásos, mindegyiken 5 dobógépes vonal csak Grand Prix-n engedélyezett.",
+    "sport-sporting-layout-p2": "Egy lőállás az, ahol a lövész áll: egy 1 m-es négyzet vagy egy 1 m átmérőjű kör. Lehetőség szerint síknak kell lennie, és legalább nem csúszósnak (biztonsági szabály). A {{term:squad|rotte}} (az együtt lövő lövészek csoportja) többi tagja közel vár, elég közel, hogy követhesse, de úgy, hogy ne zavarja a lövészt.",
+    "sport-sporting-layout-p3": "A dobógépeket a terephez igazítva állítják fel, gyakran részben bokrok vagy fák mögé rejtve. A korongok a valódi vadászható állatokat utánozzák: keresztbe repülnek, feléd, tőled vagy szögben (quartering), magasan vagy alacsonyan, nyílt terepen vagy fák között. Egy lőállás dobógépeit a lőállásból nézve balról jobbra betűzik: A, B, C és így tovább (a szabálykönyv A-tól D-ig nevezi meg). A kotta és az eredménylap ezeket a betűket használja.",
+    "sport-sporting-layout-p4": "Minden lőállás előtt van egy {{term:target-menu|kotta}}. Ez felsorolja a dobógépeket lövési sorrendben, és megnevez minden különleges korongot: {{fact:targets.sporting-menu-special-targets}}. A verseny előtt a bírók ellenőrzik, hogy a dobógépek megfelelnek a kottának. A lövészek elolvassák, mielőtt a lőállásra lépnek; lásd: {{lesson:targets-menu}}.",
+    "sport-sporting-layout-p5": "Minden röppályának van egy {{term:difficulty-class|nehézségi osztálya}}: {{fact:targets.sporting-difficulty-classes}}. Egy lőálláshoz a szabályok egy A, két B és egy C osztályú röppályát javasolnak. Tehát egy C osztályú korong nehéznek készült, és egy hiba ott nem katasztrófa.",
+    "sporting-rounds-stands-p1": "Egy {{tm:sporting}} versenyt 25 korongos körökben számolnak. Egy nemzetközi verseny 200 korong, tehát nyolc kör; minden kört egy lőpályán (lőállások csoportján) vagy egy vonalon lövik.",
+    "sporting-rounds-stands-p4": "A lövészek legfeljebb hatfős rottékban haladnak a pályán; hogy ki melyik rottéba kerül, azt sorsolás dönti el. Minden lőálláson mindenki előbb a szóló korongokat lövi, majd a dubléket. Hogy ki lő elsőként, lőállásról lőállásra változik, és akkor is változik, amikor a dublék elkezdődnek. A többiek közel várnak, anélkül hogy zavarnák a lövőt.",
+    "targets-sporting-layout-ready": "Amikor a neved hívják, legyél azonnal készen, töltényekkel és felszereléssel az egész körre. Csak akkor lépj a lőállásra, amikor rád kerül a sor, és az előtted lévő lövész elhagyta.",
+    "sporting-rounds-stands-p5": "A bíró, vagy egy olyan személy, akit a bíró felügyel, vezeti az eredménylapot, minden korongot a dobógépe betűje alatt jelölve. Egy lőállás elhagyásakor minden lövész ellenőrzi az eredményét; ha nem egyezsz, mondd a bírónak azonnal, és a bíró döntése végleges.",
+    "targets-sporting-layout-compak": "A {{tm:compak}} másképp van felépítve: öt lőállás egy kis mezőn, és a rotte a vonal mentén mozog. Lásd: {{lesson:targets-compak-layout}}."
+  },
+  "note": {
+    "sport-sporting-layout-n1": "Néhány nyelven a „stand” köznapi szava az egész sportágat vagy a lőteret jelenti. Válassz egy szót a lövész 1 m-es helyére, és tartsd azt az egész alkalom alatt."
+  },
+  "phrases": {
+    "sport-sporting-layout-ph1": {
+      "meaning": "A harmadik lőpályán sok kis korong repül a fák között.",
+      "say": "Ma a hármas lőpálya a nehéz – sok mini korong a fák között."
+    },
+    "sport-sporting-layout-ph2": {
+      "meaning": "Előbb nézd meg a dobógépek sorrendjét és a különleges korongokat.",
+      "say": "Ennél a lőállásnál olvasd el a kottát, mielőtt belépsz."
+    },
+    "sport-sporting-layout-ph3": {
+      "meaning": "A korong nehéznek van besorolva; hiba várható.",
+      "say": "A kettes lőállásnál C osztályú korong van, ne aggódj miatta."
+    },
+    "sporting-rounds-stands-ph1": {
+      "meaning": "A szokásos sorrend minden lőállásnál.",
+      "say": "Előbb a szóló korongok, aztán a dublék."
+    },
+    "sporting-rounds-stands-ph2": {
+      "meaning": "A kottatábla abban a sorrendben sorolja fel a dobógépeket, ahogyan lőni fogják őket.",
+      "say": "Olvasd el a kottát: a gépek sorrendje A, B, C."
+    },
+    "sporting-rounds-stands-ph3": {
+      "meaning": "A bíró a következő lövészt szólítja a lőállásra.",
+      "say": "Következő lövész."
+    },
+    "sporting-rounds-stands-ph4": {
+      "meaning": "Bármilyen nézeteltérést most kell jelezni, nem később.",
+      "say": "Mielőtt elhagyod a lőállást, ellenőrizd az eredményedet."
+    }
+  },
+  "key_points": {
+    "sporting-rounds-stands-kp1": "Egy lőpálya egy, {{fact:targets.sporting-layout-targets}} tartalmazó kört ad. Egy nemzetközi verseny 200 korong.",
+    "sporting-rounds-stands-kp2": "A dobógépeket A, B, C… betűzik, balról jobbra a lőállásból nézve; a kotta mutatja a sorrendet és a különleges korongokat.",
+    "sport-sporting-layout-kp5": "Nehézségi osztályok: {{fact:targets.sporting-difficulty-classes}}.",
+    "sporting-rounds-stands-kp3": "Legfeljebb hatfős rotték; előbb a szóló korongok, aztán a dublék; a sorrend forog.",
+    "sporting-rounds-stands-kp4": "Minden lőállás elhagyásakor ellenőrizd az eredményedet; a bíró dönt."
+  },
+  "quiz": {
+    "sporting-rounds-stands-q1": {
+      "q": "Hány korongot ad egy {{tm:sporting}} lőpálya, és hogyan oszlanak el?",
+      "options": {
+        "a": "20: 10 szóló és 5 dublé",
+        "b": "25: csak szóló",
+        "c": "25: 15 szóló és 5 dublé",
+        "d": "50: 25 szóló és 25 dublé"
+      },
+      "explain": "Minden lőpályatípus 15 szólót plusz 5 dublét ad, azaz 25 korongot."
+    },
+    "sporting-rounds-stands-q2": {
+      "q": "Milyen sorrendben lő egy rotte egy lőálláson?",
+      "options": {
+        "a": "Előbb dublék, majd szólók, fix sorrendben",
+        "b": "Előbb szólók, majd dublék, forgó sorrendben",
+        "c": "Mindenki egyszerre lövi végig az egész lőállást",
+        "d": "A lövészek maguk döntik el a sorrendet"
+      },
+      "explain": "Előbb a szóló korongok, majd a dublék, forgó sorrendben, hacsak a zsűri másként nem dönt."
+    },
+    "sporting-rounds-stands-q3": {
+      "q": "A lőállás elhagyásakor egy lövész észreveszi, hogy egy találatát hibának jegyezték fel. Mit tegyen?",
+      "options": {
+        "a": "Várja meg a kör végét, és fellebbezzen a zsűrihez",
+        "b": "Javítsa ki maga a lapot",
+        "c": "Kérje a rotte szavazását",
+        "d": "Azonnal szóljon a bírónak; a bíró dönt"
+      },
+      "explain": "Az eredményt minden lőállás elhagyásakor ellenőrzik; egyedül a bíró dönt, és utána nincs fellebbezés."
+    },
+    "targets-sporting-layout-q-international": {
+      "q": "Hány korong van egy nemzetközi {{tm:sporting}} versenyen?",
+      "options": {
+        "a": "100",
+        "b": "150",
+        "c": "200",
+        "d": "250"
+      },
+      "explain": "Egy nemzetközi verseny 200 korong, nyolc 25-ös körben."
+    },
+    "sport-sporting-layout-q2": {
+      "q": "Az edző azt mondja: „Go to stand two.” Mit jelent itt a stand?",
+      "options": {
+        "a": "Az egész lőtér",
+        "b": "A lövész 1 m-es lőhelye",
+        "c": "Nézőtéri állás",
+        "d": "Fegyvertartó"
+      },
+      "explain": "A {{tm:sporting}}-ban a stand az az 1 m-es hely, ahol a lövész áll. Nem az egész lőtér."
+    },
+    "sport-sporting-layout-q3": {
+      "q": "Hogyan jelölik egy {{tm:sporting}} lőállás dobógépeit?",
+      "options": {
+        "a": "Számokkal 1-től 6-ig, jobbról számolva",
+        "b": "Minden gépre festett színekkel",
+        "c": "A, B, C, D betűkkel, balról jobbra",
+        "d": "Az indító személy nevével"
+      },
+      "explain": "Az A, B, C, D betűket a lőállásból nézve balról jobbra olvassák, és a kotta és az eredménylap ezeket használja."
+    },
+    "etiquette-squad-q3": {
+      "q": "A {{tm:sporting}}-ban hogyan működik a lövési sorrend egy rottéban?",
+      "options": {
+        "a": "Minden lőálláson és a dubléknál is forog",
+        "b": "Fix az egész napra",
+        "c": "Mindig a vezető helyen álló lövész kezd",
+        "d": "A bíró szabadon választ"
+      },
+      "explain": "A hatfős rottékat sorsolják, és a sorrend minden lőálláson és a dubléknál is forog."
+    }
+  }
+}

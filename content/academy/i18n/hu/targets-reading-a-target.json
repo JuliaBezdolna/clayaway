@@ -1,0 +1,85 @@
+{
+  "id": "targets-reading-a-target",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "c58ee91b",
+    "summary": "08a6882a",
+    "targets-reading-a-target-p1": "73f7f627",
+    "targets-reading-a-target-p2": "46d7b9fe",
+    "targets-reading-a-target-p3": "b1333ac7",
+    "targets-reading-a-target-points": "77c58330",
+    "targets-reading-a-target-p4": "5f61914c",
+    "targets-reading-a-target-p5": "2d04761d",
+    "targets-reading-a-target-mock": "af5065d8",
+    "targets-reading-a-target-p6": "c0465e01",
+    "targets-reading-a-target-kp1": "f556dd7a",
+    "targets-reading-a-target-kp2": "640ea1f0",
+    "targets-reading-a-target-kp3": "0d490d3c",
+    "targets-reading-a-target-kp4": "8050f3c2",
+    "targets-reading-a-target-kp5": "4bc4579e",
+    "targets-reading-a-target-dyk": "10d8c94e",
+    "targets-reading-a-target-q1": "f67e3bfa",
+    "targets-reading-a-target-q2": "07ba1296",
+    "targets-reading-a-target-q3": "a8d476d2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Hogyan „olvasd ki” a korongot",
+  "summary": "Mire figyelj a korongbemutatás alatt: honnan jelenik meg a korong, merre repül, hol töröd el, és mit nem szabad tenned.",
+  "body": {
+    "targets-reading-a-target-p1": "A korong „kiolvasása” azt jelenti, hogy a lövés előtt megérted, hogyan repül: honnan jelenik meg, milyen gyorsan mozog, hol fordul, emelkedik vagy esik. A tapasztalt lövészek minden lőálláson ezt teszik, és ez gyakran a találat és a hiba közti különbség. Ugyanolyan fontos a {{tm:sporting}}-ban és a {{tm:compak}}-ban.",
+    "targets-reading-a-target-p2": "Kezdd a {{term:target-menu|kottával}}: melyik dobógépek, milyen sorrendben, és van-e különleges korong. Majd figyelj alaposan a korongbemutatásra ({{term:target-presentation|presentation}}). A {{tm:sporting}}-ban egy lőállás korongjait lövés előtt megmutatják a rotte első lövészének. A vadászdubléket nem mutatják. A {{tm:compak}}-nak saját módja van a korongok bemutatására. A részletek az {{lesson:rules-viewing-targets}} órában vannak.",
+    "targets-reading-a-target-p3": "Tegyél fel magadnak egyszerű kérdéseket. Hol látom először tisztán a korongot? Ez a {{term:pick-up-point|felvételi pontod}}, ahol a szemed elkezdi követni. Hol a legkönnyebb eltörni? Ez a {{term:break-point|lövési pontod}}. Ott a korongnak még jól láthatónak kell lennie, nem szabad fák mögé esnie vagy egy {{term:shooting-limit|lövészeti határon}} túl repülnie.",
+    "targets-reading-a-target-points": "Hogyan dolgozik együtt a {{term:hold-point|tartási pont}}, a felvételi pont és a lövési pont, az {{lesson:technique-hold-pickup-break-points}} óra magyarázza el.",
+    "targets-reading-a-target-p4": "Figyeld meg a sebességet, a távolságot és a szöget, és azt, mit csinál a korong: emelkedik, lassul vagy esik. A szél felemelheti a korongot, vagy lefelé nyomhatja, és egy sötét fasor vagy egy fényes égbolt megváltoztatja, hogyan látod. Egy lassuló korongnak kisebb {{term:lead|elétartás}} kell, mint egy teljes sebességűnek.",
+    "targets-reading-a-target-p5": "Nézd, hogyan lő a többi, de gondolkozz magad: minden lövésznek megvan a saját tempója. A korongbemutatás alatt sok edző azt tanácsolja, hogy csak a szemeddel kövesd őket.",
+    "targets-reading-a-target-mock": {
+      "sporting": "Sehol a lőtéren nem megengedett. Elsőre a bíró figyelmeztetést ad. Ha megismétled, a következő eltalált korongodat hibának (nullának) számítják.",
+      "compak": "A lőállásokon kívül, vagy amíg a rotte másik tagja lő, nem megengedett. A korongbemutatás alatt a fegyver nyitva és üresen van."
+    },
+    "targets-reading-a-target-p6": "A {{tm:sporting}} röppályáit {{term:difficulty-class|nehézségi osztály}} szerint osztályozzák: {{fact:targets.sporting-difficulty-classes}}. Ne idegeskedj, ha egy C osztályú korongot elhibázol: ennek nehéznek kell lennie. A korongok kiolvasását könnyebb megtanulni egy képzett edzővel, aki megmutatja, mire figyelj."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "targets-reading-a-target-kp1": "Előbb a kotta, aztán alaposan figyeld a korongbemutatást.",
+    "targets-reading-a-target-kp2": "Találd meg, hol látod először tisztán a korongot, és hol fogod eltörni.",
+    "targets-reading-a-target-kp3": "Figyeld a sebességet, a szöget, a szelet, a hátteret, és hogy lassul-e a korong.",
+    "targets-reading-a-target-kp4": "Csak a szemeddel kövesd; a {{tm:sporting}}-ban a lövés imitálása sehol a lőtéren nem megengedett, a {{tm:compak}}-ban a lőállásokon kívül, és amíg más lő, sem.",
+    "targets-reading-a-target-kp5": "{{tm:sporting}} nehézségi osztályok: {{fact:targets.sporting-difficulty-classes}}."
+  },
+  "did_you_know": "A {{tm:sporting}}-ban a vadászdubléket nem mutatják meg, de a két korongot már láttad: a dublékhez csak olyan korongokat használnak, amelyeket ugyanarról a lőállásról már szólóként megmutattak.",
+  "quiz": {
+    "targets-reading-a-target-q1": {
+      "q": "Mi a lövési pont (break point)?",
+      "options": {
+        "a": "Ahol tervezed eltörni a korongot",
+        "b": "Ahol az azt kidobó dobógép áll",
+        "c": "Ahol a korong leér a földre"
+      },
+      "explain": "A lövési pont (break point) a röppályának az a helye, amelyet előre kiválasztasz."
+    },
+    "targets-reading-a-target-q2": {
+      "q": "A {{tm:sporting}}-ban, a korongbemutatás alatt, szabad-e vállba venni a fegyvert, és vezetni a korong vonalán?",
+      "options": {
+        "a": "Igen, ez jó felkészülés",
+        "b": "Nem, ez lövés imitálása",
+        "c": "Igen, ha a fegyver üres"
+      },
+      "explain": "Csak a szemeddel kövesd. A korongbemutatás alatt senki nem lőhet vagy imitálhat lövést, és a fegyverek nyitva és üresen maradnak, amíg a bíró nem engedi becsukni őket."
+    },
+    "targets-reading-a-target-q3": {
+      "q": "Egy átlagos lövész hány százalékban töri el a C osztályú korongokat a {{tm:sporting}}-ban?",
+      "options": {
+        "a": "Több mint 80%",
+        "b": "60–80%",
+        "c": "40–60%"
+      },
+      "explain": "A C osztály a legnehezebb: 40–60%. Az A osztály 80% fölött, a B osztály 60–80%."
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "interpreter-false-friends",
+  "lang": "fr",
+  "base_rev": 1,
+  "h": {
+    "title": "93be8a38",
+    "summary": "2c55b920",
+    "interpreter-false-friends-intro": "39c55cd5",
+    "interpreter-false-friends-p1": "3e0535c1",
+    "interpreter-false-friends-p2": "3cf9ded2",
+    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-cards": "3645d5da",
+    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-ph1": "7ff90f13",
+    "interpreter-false-friends-ph2": "3677adad",
+    "interpreter-false-friends-ph3": "f46276ac",
+    "interpreter-false-friends-ph4": "d629b25a",
+    "interpreter-false-friends-ph5": "1a9f89c1",
+    "interpreter-false-friends-ph6": "17d1f7d8",
+    "interpreter-false-friends-kp1": "6cad2a11",
+    "interpreter-false-friends-kp2": "aaa1da92",
+    "interpreter-false-friends-kp3": "2fc47aba",
+    "interpreter-false-friends-kp4": "c8245804",
+    "interpreter-false-friends-kp5": "df7d4fa7",
+    "interpreter-false-friends-kp6": "19cf2f99",
+    "interpreter-false-friends-q1": "4fa72f2b",
+    "interpreter-false-friends-q2": "d58615b3",
+    "interpreter-false-friends-q3": "3c4d036d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Les faux amis du stand de tir",
+  "summary": "Des mots de stand qui semblent familiers mais signifient autre chose : fumée et poussière, les mots du score, « trap », « stand » et « squad », et les pièges du français, de l'italien et du portugais.",
+  "body": {
+    "interpreter-false-friends-intro": "Un {{term:false-friend|faux ami}} est un mot qui semble familier mais qui signifie autre chose sur le terrain de tir. Certains changent le score, alors ils valent la peine d'être appris en premier.",
+    "interpreter-false-friends-p1": "Le plus grand piège, c'est la fumée. Quand l'entraîneur crie « {{term:smoked-it|Smoked it!}} » (ou « inked it », « powdered it »), c'est un compliment pour un plateau parfaitement touché : il a disparu dans un nuage. Selon le règlement, un plateau qui ne libère que de la poussière ou de la fumée, sans {{term:visible-piece|morceau visible}}, est un {{term:zero|zéro}}. Un « {{term:chip|éclat}} », un petit morceau visible, est un plateau touché ({{term:one|BON}}). « Dusted it » est risqué : cela peut signifier que seule de la poussière s'est dégagée (un zéro) ou, pour certains entraîneurs, que le plateau est pulvérisé. Traduisez donc le « smoked it » de l'entraîneur par un plateau parfaitement touché, et le « only dust » de l'arbitre par « seulement de la poussière, zéro », et demandez ce que signifie « dusted it ».",
+    "interpreter-false-friends-p2": "Les mots du score ne sont pas littéraux. « Dead » et « kill » signifient un plateau touché, sans rapport avec la mort. « Lost » signifie un manqué, pas quelque chose de perdu. « Dropped two » veut dire deux plateaux manqués. « Straight » dans « 25 straight » désigne une série parfaite sans aucun manqué.",
+    "interpreter-false-friends-p3": "Mots d'équipement et de lieu. Un « trap » est le {{term:trap|lanceur}}, la machine, pas un piège ; Trap est aussi une discipline olympique. Un « stand » est un seul emplacement de tir, le {{term:shooting-stand|poste de tir}}, pas tout le terrain ; en {{tm:compak}} ces emplacements s'appellent souvent des numéros. Un « {{term:peg|peg}} » est la position de tir. Le nom vient du piquet numéroté qui marque la place de chaque tireur lors d'une chasse au gibier rabattu, alors ne le traduisez pas par « piquet ». Un « broken gun » est un fusil ouvert. « Pull! » est la {{term:call|commande}}, « {{term:pull-away|pull-away}} » est une méthode d'avance et « length of pull » est la {{term:length-of-pull|longueur de crosse}}, de la détente à la plaque de couche.",
+    "interpreter-false-friends-cards": "Une « card » est une {{term:score-sheet|feuille de marque}}, ou un carton jaune ou rouge. « On report » signifie au bruit du coup de feu, comme dans un {{term:double-on-report|doublé coup de fusil}}. Une « {{term:squad|squad}} » est le groupe de compétition de {{fact:rules.squad-max-shooters}}. Les tours ClayAway, qui arrivent bientôt, emploieront aussi ce mot pour un sous-groupe d'un tour.",
+    "interpreter-false-friends-p4": "D'autres langues ont leurs propres pièges. Le mot français « chandelle » désigne un plateau qui jaillit presque à la verticale, que l'anglais appelle {{term:teal|teal}}. Ce n'est pas le {{term:chandelle|chandelle anglais}}, un plateau qui monte fortement en courbe puis retombe. Le français « en battue » et l'italien « in battuta » signifient le gibier {{term:driven-target|rabattu}}, pas le plateau {{term:battue|battue}}. En portugais, « batida » désigne le plateau battue, tandis que « de batida » signifie rabattu. Pour un plateau touché, un arbitre français dit « Bon » et un arbitre italien « Buono », et le {{term:trapper|lanceur}} (l'opérateur) est souvent appelé « pulleur » ou « puller ». Les mots pour la planche diffèrent aussi, alors utilisez celui du règlement propre à l'épreuve."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-false-friends-ph1": {
+      "meaning": "Tir parfait, le plateau est réduit en poussière. Ce n'est pas la « fumée seulement » du règlement.",
+      "say": "Pulvérisé !"
+    },
+    "interpreter-false-friends-ph2": {
+      "meaning": "L'arbitre : aucun morceau visible ne s'est détaché, c'est donc un manqué.",
+      "say": "Seulement de la poussière : zéro."
+    },
+    "interpreter-false-friends-ph3": {
+      "meaning": "Un petit morceau visible s'est détaché : il compte comme bon.",
+      "say": "Juste un éclat, mais il est bon."
+    },
+    "interpreter-false-friends-ph4": {
+      "meaning": "Ouvrez le fusil. Rien à voir avec le fait de l'abîmer.",
+      "say": "Cassez votre fusil."
+    },
+    "interpreter-false-friends-ph5": {
+      "meaning": "Placez-vous sur l'emplacement de tir marqué.",
+      "say": "Mettez-vous sur le poste."
+    },
+    "interpreter-false-friends-ph6": {
+      "meaning": "Le second plateau est lancé au bruit de votre premier coup.",
+      "say": "Le second part au coup de fusil."
+    }
+  },
+  "key_points": {
+    "interpreter-false-friends-kp1": "« Smoked it » de l'entraîneur = tir parfait ; « only dust or smoke » du règlement = zéro",
+    "interpreter-false-friends-kp2": "Dead / kill = bon ; lost / dropped = manqué ; straight = sans-faute",
+    "interpreter-false-friends-kp3": "Trap = lanceur (machine) ; stand = un seul emplacement ; peg = la place du tireur ; broken gun = fusil ouvert",
+    "interpreter-false-friends-kp4": "Pull, card, report et squad ont chacun plusieurs sens",
+    "interpreter-false-friends-kp5": "La chandelle française et « en battue » diffèrent des mots anglais",
+    "interpreter-false-friends-kp6": "« Dusted it » peut vouloir dire les deux : demandez"
+  },
+  "quiz": {
+    "interpreter-false-friends-q1": {
+      "q": "L'entraîneur crie « Smoked it! » après un tir. Que s'est-il passé ?",
+      "options": {
+        "a": "Seule de la fumée s'est dégagée : un zéro",
+        "b": "Le plateau a été détruit : un plateau parfaitement touché",
+        "c": "La cartouche a fait un raté",
+        "d": "C'était un plateau flash"
+      },
+      "explain": "Dans l'argot des entraîneurs, « smoked it » veut dire un plateau parfaitement touché ; dans le règlement, « only dust or smoke » veut dire un zéro. Les sens sont opposés."
+    },
+    "interpreter-false-friends-q2": {
+      "q": "L'arbitre dit « Lost. » Que signifie ce mot ?",
+      "options": {
+        "a": "Le plateau a disparu de la vue",
+        "b": "Le tireur a manqué de temps",
+        "c": "Le plateau a quitté sa ligne habituelle",
+        "d": "Un manqué : le plateau est un zéro"
+      },
+      "explain": "« Lost » est le mot du score pour un manqué (zéro), pas quelque chose de perdu."
+    },
+    "interpreter-false-friends-q3": {
+      "q": "Un invité français dit qu'il aime tirer « en battue ». Que veut-il dire ?",
+      "options": {
+        "a": "Le gibier rabattu (les oiseaux poussés vers les tireurs)",
+        "b": "Le plateau battue, fin, qui tourne",
+        "c": "Un plateau lancé dans un doublé",
+        "d": "Un plateau qui se réduit en poussière"
+      },
+      "explain": "Le français « en battue » (l'italien « in battuta ») désigne le gibier rabattu ; le plateau battue est autre chose."
+    }
+  }
+}

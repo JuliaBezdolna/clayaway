@@ -1,0 +1,481 @@
+{
+  "id": "clayarena-videos-recaps-calendar",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "fan",
+    "beginner",
+    "shooter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "watch block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "clayarena-videos-recaps-calendar",
+      "watching-videos-and-recaps"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "sporting",
+    "compak-sporting",
+    "stance",
+    "hold-point",
+    "pick-up-point",
+    "break-point",
+    "follow-through",
+    "jacket-line",
+    "safety-glasses",
+    "hearing-protection",
+    "referee",
+    "season-recap",
+    "shooting-times",
+    "dress-code",
+    "organiser"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-gun-handling"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-fifteen-seconds"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-dress-code"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-open-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-firing-time"
+    },
+    {
+      "book": "compak",
+      "id": "ch8-shooting-times"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-dress-code"
+    }
+  ],
+  "facts": [
+    "rules.compak-time-to-call",
+    "rules.sporting-time-between-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Videos, season recaps and the competition calendar",
+    "uk": "Відео, підсумки сезону і календар змагань"
+  },
+  "summary": {
+    "en": "How to watch competition videos like a student, what season recaps show, and how the calendar helps you choose your first competition.",
+    "uk": "Як дивитися відео зі змагань як учень, що показують підсумки сезону і як календар допомагає вибрати перше змагання."
+  },
+  "body": [
+    {
+      "k": "clayarena-videos-recaps-calendar-p1",
+      "t": "p",
+      "en": "ClayArena has videos from {{tm:sporting}} and {{tm:compak}} competitions, grouped by event. If you cannot travel to a competition, they let you see the sport up close. For a beginner they are also a free lesson in technique and rules.",
+      "uk": "На ClayArena є відео зі змагань з {{tm:sporting}} і {{tm:compak}}, згруповані за подіями. Якщо поїхати на змагання не виходить, вони дають змогу побачити спорт зблизька. А для новачка це ще й безкоштовний урок техніки й правил."
+    },
+    {
+      "k": "watching-videos-and-recaps-p2",
+      "t": "p",
+      "anchor": "watching-videos-and-recaps",
+      "en": "Do not watch the videos like a film; watch like a student. Pick one shooter and follow them over several targets in a row. First look only at the feet and {{term:stance|stance}}, then only at the gun, then only at the head and cheek.",
+      "uk": "Дивіться відео не як фільм, а як учень. Оберіть одного стрільця й простежте за ним кілька мішеней поспіль. Спершу дивіться лише на ноги й {{term:stance|стійку}}, потім лише на рушницю, потім лише на голову й щоку."
+    },
+    {
+      "k": "watching-videos-and-recaps-p3",
+      "t": "p",
+      "en": "Look for three points. The {{term:hold-point|hold point}} is where the muzzles (the front ends of the barrels) wait while the shooter calls for the target. The {{term:pick-up-point|pick-up point}} is where the eyes first see the target clearly. The {{term:break-point|break point}} is where the shooter plans to break it. Experienced shooters usually move between these points calmly and without hurry. More in {{lesson:technique-hold-pickup-break-points}}.",
+      "uk": "Шукайте три точки. {{term:hold-point|Точка утримання}} — куди дивляться стволи, поки стрілець кличе мішень (дає команду). {{term:pick-up-point|Точка підхоплення}} — де очі вперше чітко бачать мішень. {{term:break-point|Точка пострілу}} — де стрілець планує її розбити. Досвідчені стрільці зазвичай рухаються між цими точками спокійно й без поспіху. Докладніше — в уроці {{lesson:technique-hold-pickup-break-points}}."
+    },
+    {
+      "k": "watching-videos-and-recaps-p4",
+      "t": "p",
+      "en": "One more detail is the {{term:follow-through|follow-through}}: after the shot the gun keeps moving along the target's line instead of stopping. If the video player lets you pause or slow a clip down, use it.",
+      "uk": "Ще одна деталь — {{term:follow-through|продовження руху}} (follow-through): після пострілу рушниця не зупиняється, а йде далі по лінії мішені. Якщо відеоплеєр дозволяє поставити паузу чи сповільнити запис, скористайтеся цим."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-p2",
+      "t": "p",
+      "en": "Look for the rules you already know as well. Seen in a real competition, they can be easier to remember.",
+      "uk": "Шукайте у відео й правила, які ви вже знаєте. Коли бачиш їх на справжньому змаганні, їх може бути легше запам’ятати."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-rules",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Until the target appears, the top of the stock (the part of the gun that goes to the shoulder) stays below the {{term:jacket-line|line on the vest}}. Between stands the gun is carried open: a break-action gun is “broken”, with the barrels tipped down, so everyone can see that it is safe. Shooters, {{term:referee|referees}} and anyone near the stand wear {{term:safety-glasses|safety glasses}} and {{term:hearing-protection|hearing protection}}.",
+        "uk": "Верх приклада (частина рушниці, яку притискають до плеча) лишається нижче {{term:jacket-line|лінії на жилеті}}, доки не з’явиться мішень. Між стрілецькими місцями рушницю носять відкритою — «переламаною», зі стволами донизу, щоб усі бачили, що вона безпечна. Стрільці, {{term:referee|судді}} й усі, хто поруч із місцем, мають {{term:safety-glasses|стрілецькі окуляри}} і {{term:hearing-protection|захист слуху}}."
+      },
+      "compak": {
+        "en": "When a {{tm:compak}} shooter calls for the target, the gun may already be at the shoulder or still lowered: the rules leave this free. So some shooters call with the gun already “mounted”, that is, at the shoulder. The shooter opens the gun before turning round on the station. Shooters and referees wear {{term:safety-glasses|safety glasses}}; everyone nearby wears {{term:hearing-protection|hearing protection}}.",
+        "uk": "Під час виклику мішені в {{tm:compak}} рушниця може бути вже біля плеча або ще опущена: правила це не обмежують. Тож дехто кличе мішень уже з вкладеною рушницею, тобто з прикладом біля плеча. Перш ніж обернутися на номері, стрілець відкриває рушницю. Стрільці й судді мають {{term:safety-glasses|стрілецькі окуляри}}, а {{term:hearing-protection|захист слуху}} — усі, хто поруч."
+      }
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-p3",
+      "t": "p",
+      "en": "{{term:season-recap|Season recaps}} sum up a year: key championships, winners, rankings and notable results. Recaps of past seasons stay on the site too. They help you see who is in form, which events stand out and where you might go to watch live.",
+      "uk": "{{term:season-recap|Підсумки сезону}} збирають головне за рік: важливі чемпіонати, переможців, рейтинги й помітні результати. Підсумки минулих сезонів теж лишаються на сайті. Вони допомагають зрозуміти, хто зараз у формі, які змагання найпомітніші і куди можна поїхати подивитися наживо."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-p4",
+      "t": "p",
+      "en": "The competition calendar shows events with dates and venues. You can filter it by status (planned, ongoing or finished), by region and by month. You will find big international competitions there as well as events closer to home.",
+      "uk": "Календар змагань показує події з датами й місцем проведення. Його можна фільтрувати за статусом (заплановані, поточні, завершені), регіоном і місяцем. Там є і великі міжнародні старти, і змагання ближче до дому."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-p5",
+      "t": "p",
+      "en": "For a first competition, many coaches suggest an event nearby in a discipline you already shoot. Check the entry conditions, the {{term:shooting-times|shooting times}} and the {{term:dress-code|dress code}} with the {{term:organiser|organiser}} in advance. How to enter: {{lesson:competitions-how-to-enter}}. If the event is abroad, check the rules for taking a gun and cartridges there: {{lesson:travel-gun-in-eu}} and {{lesson:travel-gun-outside-eu}}.",
+      "uk": "Для першого змагання багато тренерів радять подію неподалік, у дисципліні, яку ви вже стріляєте. Заздалегідь уточніть в {{term:organiser|організатора}} умови участі, {{term:shooting-times|розклад}} і {{term:dress-code|дрес-код}}. Як записатися — в уроці {{lesson:competitions-how-to-enter}}. Якщо змагання за кордоном, з’ясуйте правила ввезення рушниці й набоїв: {{lesson:travel-gun-in-eu}} і {{lesson:travel-gun-outside-eu}}."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-p6",
+      "t": "p",
+      "en": "After the competition, come back to ClayArena: your result will be in the results table, and the event may later appear in videos or in the season recap.",
+      "uk": "Після змагання повертайтеся на ClayArena: ваш результат буде в таблиці результатів, а згодом подія може з’явитися у відео чи в підсумках сезону."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "watching-videos-and-recaps-kp2",
+      "en": "Watch videos like a student: one shooter and one detail at a time.",
+      "uk": "Дивіться відео як учень: один стрілець і одна деталь за раз."
+    },
+    {
+      "k": "watching-videos-and-recaps-kp3",
+      "en": "Look for the hold, pick-up and break points and the follow-through.",
+      "uk": "Помічайте точки утримання, підхоплення й пострілу та продовження руху рушниці після пострілу."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-kp2",
+      "en": "Season recaps sum up the year: key events, winners and rankings.",
+      "uk": "Підсумки сезону — головне за рік: змагання, переможці, рейтинги."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-kp3",
+      "en": "The calendar lists events with dates and venues and can be filtered.",
+      "uk": "Календар показує змагання з датами й місцем, і його можна фільтрувати."
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-kp4",
+      "en": "Check entry conditions, shooting times and dress code with the organiser.",
+      "uk": "Умови участі, розклад і дрес-код уточнюйте в організатора."
+    }
+  ],
+  "did_you_know": {
+    "k": "watching-videos-and-recaps-dyk",
+    "en": "In {{tm:compak}} a shooter has {{fact:rules.compak-time-to-call}}. In {{tm:sporting}} a shooter has {{fact:rules.sporting-time-between-targets}}. In both disciplines a shooter who takes longer first gets a warning from the referee.",
+    "uk": "У {{tm:compak}} стрілець має {{fact:rules.compak-time-to-call}}. У {{tm:sporting}} — {{fact:rules.sporting-time-between-targets}}. В обох дисциплінах той, хто не вкладається в цей час, спершу отримує попередження від судді."
+  },
+  "quiz": [
+    {
+      "k": "watching-videos-and-recaps-q1",
+      "q": {
+        "en": "How can you learn more from a competition video?",
+        "uk": "Як отримати більше користі з відео змагань?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Follow one shooter and one detail",
+          "uk": "Стежити за одним стрільцем і однією деталлю"
+        },
+        {
+          "k": "b",
+          "en": "Listen only to the sound of the shots",
+          "uk": "Слухати лише звук пострілів"
+        },
+        {
+          "k": "c",
+          "en": "Look only at the final scores",
+          "uk": "Дивитися лише фінальні результати"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Watching piece by piece, one shooter at a time, teaches you the most.",
+        "uk": "Найбільше дає уважний перегляд частинами, по одному стрільцю."
+      }
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-q2",
+      "q": {
+        "en": "What does the ClayArena competition calendar show?",
+        "uk": "Що показує календар змагань на ClayArena?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Results of past seasons only",
+          "uk": "Лише результати минулих сезонів"
+        },
+        {
+          "k": "b",
+          "en": "Events with dates and venues",
+          "uk": "Змагання з датами й місцем"
+        },
+        {
+          "k": "c",
+          "en": "A coach's training timetable",
+          "uk": "Розклад тренувань тренера"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The calendar helps you find a competition to go to or to follow.",
+        "uk": "Календар допомагає знайти змагання, на яке можна поїхати або за яким можна стежити."
+      }
+    },
+    {
+      "k": "watching-videos-and-recaps-q2",
+      "q": {
+        "en": "What is the break point?",
+        "uk": "Що таке точка пострілу (break point)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Where the shooter stands",
+          "uk": "Місце, де стоїть стрілець"
+        },
+        {
+          "k": "b",
+          "en": "A pause between two rounds",
+          "uk": "Перерва між двома раундами"
+        },
+        {
+          "k": "c",
+          "en": "Where the target is broken",
+          "uk": "Місце, де розбивають мішень"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The break point is where the shooter plans to break the target.",
+        "uk": "Точка пострілу — місце, де стрілець планує розбити мішень."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "clayarena-videos-recaps-calendar-q1",
+      "q": {
+        "en": "What can a beginner learn from competition videos?",
+        "uk": "Чого новачок може навчитися з відео змагань?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "How experienced shooters stand",
+          "uk": "Як стоять досвідчені стрільці"
+        },
+        {
+          "k": "b",
+          "en": "Who will win the next event",
+          "uk": "Хто виграє наступне змагання"
+        },
+        {
+          "k": "c",
+          "en": "Cartridge prices at the ground",
+          "uk": "Ціни на набої на стенді"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Videos are a visual lesson in technique and rules.",
+        "uk": "Відео — наочний урок техніки й правил."
+      }
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-q3",
+      "q": {
+        "en": "Where do you check a competition's entry conditions and schedule?",
+        "uk": "Де уточнити умови участі й розклад змагання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "With other shooters",
+          "uk": "В інших стрільців"
+        },
+        {
+          "k": "b",
+          "en": "In a season recap",
+          "uk": "У підсумках сезону"
+        },
+        {
+          "k": "c",
+          "en": "With the competition organiser",
+          "uk": "В організатора змагання"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The organiser sets the entry conditions and the schedule.",
+        "uk": "Умови участі й розклад визначає організатор."
+      }
+    },
+    {
+      "k": "watching-videos-and-recaps-q3",
+      "q": {
+        "en": "What do season recaps show?",
+        "uk": "Що показують підсумки сезону?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A club's safety rules",
+          "uk": "Правила безпеки клубу"
+        },
+        {
+          "k": "b",
+          "en": "Key events, winners and rankings",
+          "uk": "Головні змагання, переможців і рейтинги"
+        },
+        {
+          "k": "c",
+          "en": "Cartridge prices",
+          "uk": "Ціни на набої"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Season recaps are a short overview of the year in the sport.",
+        "uk": "Підсумки сезону — короткий огляд року в спорті."
+      }
+    },
+    {
+      "k": "clayarena-videos-recaps-calendar-call-time",
+      "disc": "compak",
+      "q": {
+        "en": "How long does a {{tm:compak}} shooter have to call for the target after the shooter on the previous station has fired?",
+        "uk": "Скільки часу має стрілець у {{tm:compak}}, щоб покликати мішень, після того як вистрілив стрілець на попередньому номері?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At most 10 seconds",
+          "uk": "Щонайбільше 10 секунд"
+        },
+        {
+          "k": "b",
+          "en": "At most 15 seconds",
+          "uk": "Щонайбільше 15 секунд"
+        },
+        {
+          "k": "c",
+          "en": "At most 30 seconds",
+          "uk": "Щонайбільше 30 секунд"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A {{tm:compak}} shooter has {{fact:rules.compak-time-to-call}}. The 15-second limit is a {{tm:sporting}} rule.",
+        "uk": "Стрілець у {{tm:compak}} має {{fact:rules.compak-time-to-call}}. Ліміт у 15 секунд — це правило {{tm:sporting}}."
+      },
+      "rule_ref": "compak:ch21-firing-time"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "7dd59f46",
+    "summary": "f9a89101",
+    "clayarena-videos-recaps-calendar-p1": "721a8037",
+    "watching-videos-and-recaps-p2": "8b2e6e1c",
+    "watching-videos-and-recaps-p3": "aaf398a8",
+    "watching-videos-and-recaps-p4": "a8cfac54",
+    "clayarena-videos-recaps-calendar-p2": "87177086",
+    "clayarena-videos-recaps-calendar-rules": "f49fd8a7",
+    "clayarena-videos-recaps-calendar-p3": "73c74982",
+    "clayarena-videos-recaps-calendar-p4": "00dbcfcb",
+    "clayarena-videos-recaps-calendar-p5": "b74d1df7",
+    "clayarena-videos-recaps-calendar-p6": "99d2829e",
+    "watching-videos-and-recaps-kp2": "85e8238d",
+    "watching-videos-and-recaps-kp3": "cf0d2b06",
+    "clayarena-videos-recaps-calendar-kp2": "63eb099b",
+    "clayarena-videos-recaps-calendar-kp3": "3ecc2aa0",
+    "clayarena-videos-recaps-calendar-kp4": "e57800bd",
+    "watching-videos-and-recaps-dyk": "dfa0be12",
+    "watching-videos-and-recaps-q1": "10a99b80",
+    "clayarena-videos-recaps-calendar-q2": "39cac46a",
+    "watching-videos-and-recaps-q2": "b56aa70a",
+    "clayarena-videos-recaps-calendar-q1": "e32f602f",
+    "clayarena-videos-recaps-calendar-q3": "d432471c",
+    "watching-videos-and-recaps-q3": "c564e4c6",
+    "clayarena-videos-recaps-calendar-call-time": "f545c7d0"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

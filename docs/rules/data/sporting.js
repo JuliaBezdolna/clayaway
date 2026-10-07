@@ -363,7 +363,7 @@ window.RULES.push({
      "title_en": "Waiting positions",
      "title_uk": "Місця очікування",
      "summary_en": "Places where the rest of the squad waits should be as close as possible to the shooting stand, but must not distract the person shooting and must respect safety rules.",
-     "summary_uk": "Місця, де чекають інші учасники squad, мають бути якомога ближче до стрілецького місця, але не відволікати того, хто стріляє, і відповідати правилам безпеки.",
+     "summary_uk": "Місця, де чекають інші учасники групи, мають бути якомога ближче до стрілецького місця, але не відволікати того, хто стріляє, і відповідати правилам безпеки.",
      "points_en": [
       "As close as possible to the stand",
       "No distraction for the shooter",
@@ -942,7 +942,7 @@ window.RULES.push({
      "title_en": "Glossary of basic terms",
      "title_uk": "Глосарій основних термінів",
      "summary_en": "The rulebook ends with a short glossary. A squad is a group of at most six shooters drawn by lot who shoot together on the same installations. A round is 25 targets shot on one layout or line. A layout is a set of shooting stands giving 25 targets. A trap is the throwing machine; a shot is one fired cartridge; a trajectory is the path of a target. 'One' means a target broken under the rules, 'zero' a target missed under the rules, and 'No Bird' an irregular target or trajectory. The course designer sets up the layouts.",
-     "summary_uk": "Наприкінці правил є короткий глосарій. Squad — група до шести стрільців, сформована жеребкуванням, які стріляють разом на тих самих установках. Round (серія) — 25 мішеней на одному layout або лінії. Layout — набір стрілецьких місць, що разом дають 25 мішеней. Trap — машина, що метає мішені; shot — один випущений патрон; trajectory — шлях мішені в повітрі. «One» — мішень, розбита за правилами, «zero» — промах за правилами, «No Bird» — нерегулярна мішень чи траєкторія. Course designer відповідає за облаштування layout.",
+     "summary_uk": "Наприкінці правил є короткий глосарій. Squad (група) — до шести стрільців, яких розподіляє жеребкування і які стріляють разом на тих самих установках. Round (серія) — 25 мішеней на одному layout або лінії. Layout — набір стрілецьких місць, що разом дають 25 мішеней. Trap — машина, що метає мішені; shot — один випущений патрон; trajectory — шлях мішені в повітрі. «One» — мішень, розбита за правилами, «zero» — промах за правилами, «No Bird» — нерегулярна мішень чи траєкторія. Course designer відповідає за облаштування layout.",
      "points_en": [
       "Squad: max 6 shooters, drawn by lot",
       "Round: 25 targets on one layout or line",
@@ -951,7 +951,7 @@ window.RULES.push({
       "Course designer sets the layouts"
      ],
      "points_uk": [
-      "Squad: до 6 стрільців, за жеребом",
+      "Група (squad): до 6 стрільців, за жеребом",
       "Round: 25 мішеней на одному layout чи лінії",
       "One — розбита, Zero — промах (за правилами)",
       "No Bird — нерегулярна мішень чи траєкторія",
@@ -1235,7 +1235,7 @@ window.RULES.push({
      "title_en": "The referee decides alone",
      "title_uk": "Суддя вирішує одноосібно",
      "summary_en": "Target decisions are made by the referee alone. Members of the squad have no right to step in or to give their opinion about whether a target was hit (the referee may only consult them himself in case of doubt, see 9.5.2).",
-     "summary_uk": "Рішення щодо мішеней суддя ухвалює одноосібно. Учасники squad не мають права втручатися чи висловлювати думку про те, чи влучено мішень (лише сам суддя може запитати їх у разі сумніву, див. 9.5.2).",
+     "summary_uk": "Рішення щодо мішеней суддя ухвалює одноосібно. Учасники групи не мають права втручатися чи висловлювати думку про те, чи влучено мішень (лише сам суддя може запитати їх у разі сумніву, див. 9.5.2).",
      "points_en": [
       "Referee rules alone",
       "Squad members may not intervene or comment",
@@ -1243,7 +1243,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Суддя вирішує одноосібно",
-      "Учасники squad не втручаються і не коментують",
+      "Учасники групи не втручаються і не коментують",
       "Порада — лише з ініціативи судді (9.5.2)"
      ],
      "terms": [
@@ -1771,14 +1771,14 @@ window.RULES.push({
      "title_en": "Other shooters' guns; sharing a gun",
      "title_uk": "Чужа рушниця; одна рушниця на двох",
      "summary_en": "Nobody may touch another shooter's gun without permission. In an official competition or championship two shooters in the same squad may not use or share the same gun.",
-     "summary_uk": "Не можна торкатися чужої рушниці без дозволу власника. На офіційних змаганнях і чемпіонатах двоє стрільців одного squad не можуть користуватися однією рушницею.",
+     "summary_uk": "Не можна торкатися чужої рушниці без дозволу власника. На офіційних змаганнях і чемпіонатах двоє стрільців однієї групи не можуть користуватися однією рушницею.",
      "points_en": [
       "Do not touch another's gun without permission",
       "No gun sharing within a squad in official competitions"
      ],
      "points_uk": [
       "Не торкатися чужої рушниці без дозволу",
-      "На офіційних змаганнях — без однієї рушниці на двох в одному squad"
+      "На офіційних змаганнях — без однієї рушниці на двох в одній групі"
      ],
      "terms": [
       "squad",
@@ -1903,7 +1903,7 @@ window.RULES.push({
      "title_en": "What happens after a gun malfunction",
      "title_uk": "Що робити після відмови рушниці",
      "summary_en": "In one round, only the first gun malfunction is a No Bird; any later one in the same round is zero. What the shooter does next depends on the repair. Fixed before the squad has finished the stand: the shooter may shoot last there, if the referee allows it. Cannot be fixed: the shooter may stay with the squad, with the referee's agreement, by switching to another gun at once (7.3). Neither: the shooter leaves the squad and can shoot the remaining targets only in a free place in another squad, and only if the jury allows it.",
-     "summary_uk": "У межах однієї серії лише перша відмова рушниці — No Bird; кожна наступна в тій самій серії — zero. Що далі, залежить від ремонту. Полагодили, поки squad не закінчив місце: стрілець може стріляти там останнім, якщо дозволить суддя. Полагодити не можна: стрілець може лишитися зі своїм squad за згодою судді, одразу взявши іншу рушницю (7.3). Ні те, ні інше: стрілець залишає squad і може дострілити решту мішеней лише на вільному місці в іншому squad і лише з дозволу журі.",
+     "summary_uk": "У межах однієї серії лише перша відмова рушниці — No Bird; кожна наступна в тій самій серії — zero. Що далі, залежить від ремонту. Полагодили, поки група не закінчила місце: стрілець може стріляти там останнім, якщо дозволить суддя. Полагодити не можна: стрілець може лишитися зі своєю групою за згодою судді, одразу взявши іншу рушницю (7.3). Ні те, ні інше: стрілець залишає групу і може дострілити решту мішеней лише на вільному місці в іншій групі і лише з дозволу журі.",
      "points_en": [
       "1st malfunction in a round: No Bird; later ones: zero",
       "Fixed in time: may shoot last on that stand",
@@ -1914,7 +1914,7 @@ window.RULES.push({
       "1-ша відмова в серії: No Bird; наступні: zero",
       "Полагодили вчасно: стріляє останнім на цьому місці",
       "Не лагодиться: лишається, лише одразу взявши іншу рушницю",
-      "Інакше — дострілює в іншому squad з дозволу журі"
+      "Інакше — дострілює в іншій групі з дозволу журі"
      ],
      "terms": [
       "malfunction",
@@ -2679,7 +2679,7 @@ window.RULES.push({
      "title_en": "Referee in doubt: consultation",
      "title_uk": "Суддя сумнівається: консультація",
      "summary_en": "If the referee has doubts, he or she may ask, purely for advice, another referee present, the trapper or the shooters of the squad concerned. The referee does not have to follow their opinions. After this consultation the referee's ruling is final and binding on the shooter.",
-     "summary_uk": "Якщо суддя сумнівається, він може лише для поради звернутися до іншого присутнього судді, trapper або стрільців цього squad. Суддя не зобов’язаний погоджуватися з їхньою думкою. Після консультації рішення судді остаточне і обов’язкове для стрільця.",
+     "summary_uk": "Якщо суддя сумнівається, він може лише для поради звернутися до іншого присутнього судді, trapper або стрільців цієї групи. Суддя не зобов’язаний погоджуватися з їхньою думкою. Після консультації рішення судді остаточне і обов’язкове для стрільця.",
      "points_en": [
       "Consult: another referee, the trapper, the squad's shooters",
       "Advisory only",
@@ -2687,7 +2687,7 @@ window.RULES.push({
       "Then the decision is final"
      ],
      "points_uk": [
-      "Можна запитати: іншого суддю, trapper, стрільців squad",
+      "Можна запитати: іншого суддю, trapper, стрільців групи",
       "Лише дорадчо",
       "Суддя не зобов’язаний погоджуватися",
       "Після цього рішення остаточне"
@@ -3209,7 +3209,7 @@ window.RULES.push({
      "title_en": "Who keeps the scorecard",
      "title_uk": "Хто веде картку результатів",
      "summary_en": "The referee fills in the scorecard, or picks another person to do it under the referee's eye. On one layout every shooting stand has its own pencil colour. When the squad is ready to move on, the referee takes a photo of the card and puts an asterisk before the name of the shooter who will carry it to the next stand.",
-     "summary_uk": "Картку результатів заповнює суддя або інша особа, яку він обрав і за якою наглядає. На одному layout кожне стрілецьке місце має свій колір олівця. Коли squad готовий переходити далі, суддя фотографує картку і ставить зірочку перед прізвищем стрільця, який понесе її на наступне місце.",
+     "summary_uk": "Картку результатів заповнює суддя або інша особа, яку він обрав і за якою наглядає. На одному layout кожне стрілецьке місце має свій колір олівця. Коли група готова переходити далі, суддя фотографує картку і ставить зірочку перед прізвищем стрільця, який понесе її на наступне місце.",
      "points_en": [
       "The referee, or a person the referee picks and supervises",
       "One pencil colour per stand",
@@ -3248,7 +3248,7 @@ window.RULES.push({
      "title_en": "Scorecard model",
      "title_uk": "Зразок картки результатів",
      "summary_en": "Score sheets follow the FITASC model printed in the rulebook. It shows layout, round, squad, date, time and position; for each athlete the trap letters for every target at stands 1 to 4, a mark under each letter (X for a hit, O for a miss in the example), the total and a signature column, plus a space for the referees.",
-     "summary_uk": "Картки заповнюють за зразком FITASC, наведеним у правилах. У ньому вказано layout, серію (round), squad, дату, час і позицію; для кожного спортсмена — літери машин для кожної мішені на місцях 1–4, позначку під кожною літерою (у прикладі X — влучання, O — промах), загальний результат і графу для підпису, а також місце для суддів.",
+     "summary_uk": "Картки заповнюють за зразком FITASC, наведеним у правилах. У ньому вказано layout, серію (round), групу (squad), дату, час і позицію; для кожного спортсмена — літери машин для кожної мішені на місцях 1–4, позначку під кожною літерою (у прикладі X — влучання, O — промах), загальний результат і графу для підпису, а також місце для суддів.",
      "points_en": [
       "Use the FITASC model (page 19)",
       "Header: layout, round, squad, date, time",
@@ -3258,7 +3258,7 @@ window.RULES.push({
      ],
      "points_uk": [
       "Зразок FITASC (стор. 19)",
-      "Шапка: layout, round, squad, дата, час",
+      "Шапка: layout, round, група (squad), дата, час",
       "Літери машин для кожної мішені, місця 1–4",
       "У прикладі: X — влучання, O — промах",
       "Графи «Total» і підпис"
@@ -3365,7 +3365,7 @@ window.RULES.push({
      "title_en": "Capacity for old-system layouts",
      "title_uk": "Місткість для layout старої системи",
      "summary_en": "The table assumes 45 minutes per squad per layout and gives three options for two, three and four days with 4 or 8 layouts. With 4 layouts the range is from 78 shooters (13 squads, 9:45 of shooting) to 96 (16 squads, 12:00) over two days, up to 120 (20 squads) over three days and up to 192 (32 squads) over four days. With 8 layouts the figures double at the top: up to 192 over two days, 240 over three and 384 (64 squads) over four.",
-     "summary_uk": "Таблиця розрахована на 45 хвилин на squad на одному layout і дає по три варіанти для двох, трьох і чотирьох днів з 4 або 8 layout. З 4 layout за два дні — від 78 стрільців (13 squad, 9:45 стрільби) до 96 (16 squad, 12:00), за три дні — до 120 (20 squad), за чотири — до 192 (32 squad). З 8 layout максимум удвічі більший: до 192 за два дні, 240 за три і 384 (64 squad) за чотири.",
+     "summary_uk": "Таблиця розрахована на 45 хвилин на групу на одному layout і дає по три варіанти для двох, трьох і чотирьох днів з 4 або 8 layout. З 4 layout за два дні — від 78 стрільців (13 груп, 9:45 стрільби) до 96 (16 груп, 12:00), за три дні — до 120 (20 груп), за чотири — до 192 (32 групи). З 8 layout максимум удвічі більший: до 192 за два дні, 240 за три і 384 (64 групи) за чотири.",
      "points_en": [
       "45 minutes per squad per layout",
       "4 layouts: max 96 (2 days), 120 (3 days), 192 (4 days)",
@@ -3373,7 +3373,7 @@ window.RULES.push({
       "Daily shooting time 9:00 to 12:00 depending on the option"
      ],
      "points_uk": [
-      "45 хвилин на squad на layout",
+      "45 хвилин на групу на layout",
       "4 layout: максимум 96 (2 дні), 120 (3 дні), 192 (4 дні)",
       "8 layout: максимум 192 (2 дні), 240 (3 дні), 384 (4 дні)",
       "Тривалість стрільби на день від 9:00 до 12:00 залежно від варіанта"
@@ -3400,7 +3400,7 @@ window.RULES.push({
      "title_en": "Capacity for new-system lines",
      "title_uk": "Місткість для ліній нової системи",
      "summary_en": "For 4 or 8 lines the table gives options at 10, 11, 12 and 13 minutes per squad, for two, three and four days. With 4 lines at 10 minutes the capacity runs from 336 shooters (56 squads) over two days up to 816 (136 squads) over four days; with 8 lines at 10 minutes, from 672 up to 1632 (272 squads). Daily shooting time in the table is roughly 9:12 to 11:57.",
-     "summary_uk": "Для 4 або 8 ліній таблиця дає варіанти на 10, 11, 12 і 13 хвилин на squad, для двох, трьох і чотирьох днів. З 4 лініями по 10 хвилин місткість — від 336 стрільців (56 squad) за два дні до 816 (136 squad) за чотири; з 8 лініями по 10 хвилин — від 672 до 1632 (272 squad). Тривалість стрільби на день у таблиці — приблизно від 9:12 до 11:57.",
+     "summary_uk": "Для 4 або 8 ліній таблиця дає варіанти на 10, 11, 12 і 13 хвилин на групу, для двох, трьох і чотирьох днів. З 4 лініями по 10 хвилин місткість — від 336 стрільців (56 груп) за два дні до 816 (136 груп) за чотири; з 8 лініями по 10 хвилин — від 672 до 1632 (272 групи). Тривалість стрільби на день у таблиці — приблизно від 9:12 до 11:57.",
      "points_en": [
       "Options: 10, 11, 12, 13 minutes per squad",
       "4 lines, 10 min: 336 (2 days) to 816 (4 days)",
@@ -3408,7 +3408,7 @@ window.RULES.push({
       "Slower pace (13 min) lowers capacity"
      ],
      "points_uk": [
-      "Варіанти: 10, 11, 12, 13 хвилин на squad",
+      "Варіанти: 10, 11, 12, 13 хвилин на групу",
       "4 лінії, 10 хв: від 336 (2 дні) до 816 (4 дні)",
       "8 ліній, 10 хв: від 672 (2 дні) до 1632 (4 дні)",
       "Повільніший темп (13 хв) зменшує місткість"
@@ -3761,9 +3761,9 @@ window.RULES.push({
      "ref": "Chapter 16, 16.2",
      "page": 23,
      "title_en": "Squads of six and rotation",
-     "title_uk": "Squad із шести і ротація",
+     "title_uk": "Групи по шість і ротація",
      "summary_en": "A draw puts the shooters into squads of six. Who shoots first changes from stand to stand, and it changes for the doubles too. At international events the organisers try to put team-mates from one nation into different squads. Squad lists and times are published by the organising committee beforehand.",
-     "summary_uk": "Жеребкування розподіляє стрільців на squads по шість осіб. Хто стріляє першим, змінюється від місця до місця, а також для дуплетів. На міжнародних змаганнях організатори намагаються розводити членів однієї національної команди по різних squads. Склад squads і час оргкомітет оголошує заздалегідь.",
+     "summary_uk": "Жеребкування розподіляє стрільців на групи по шість осіб. Хто стріляє першим, змінюється від місця до місця, а також для дуплетів. На міжнародних змаганнях організатори намагаються розводити членів однієї національної команди по різних групах. Склад груп і час оргкомітет оголошує заздалегідь.",
      "points_en": [
       "Squads of 6, by draw",
       "Order rotates on each stand and for doubles",
@@ -3771,9 +3771,9 @@ window.RULES.push({
       "Lists and times published in advance"
      ],
      "points_uk": [
-      "Squad із 6 осіб, за жеребом",
+      "Групи по 6 осіб, за жеребом",
       "Порядок змінюється на кожному місці й для дуплетів",
-      "Співкомандників розводять по різних squads",
+      "Співкомандників розводять по різних групах",
       "Час і склад оголошують заздалегідь"
      ],
      "terms": [
@@ -3801,7 +3801,7 @@ window.RULES.push({
      "title_en": "Singles first, then doubles",
      "title_uk": "Спочатку одиночні, потім дуплети",
      "summary_en": "On each stand the squad works through the singles first: every shooter in turn. Then the doubles follow in the same rotation. The jury may decide on a different order.",
-     "summary_uk": "На кожному місці squad спершу відстрілює одиночні мішені — кожен стрілець по черзі. Потім у тій самій черговості йдуть дуплети. Журі може встановити інший порядок.",
+     "summary_uk": "На кожному місці група спершу відстрілює одиночні мішені — кожен стрілець по черзі. Потім у тій самій черговості йдуть дуплети. Журі може встановити інший порядок.",
      "points_en": [
       "Singles first, each shooter in turn",
       "Then the doubles in the same rotation",
@@ -3835,7 +3835,7 @@ window.RULES.push({
      "title_en": "Presentation of targets",
      "title_uk": "Показ мішеней",
      "summary_en": "On every stand the first shooter of the squad, already standing ready on the stand, is shown all the trajectories. If the shooter on the stand asks, the referee shows them again, but no more than two targets for each target of the menu. Nobody may fire or pretend to fire while targets are being shown; doing so brings Articles 12.1 and 12.2 into play.",
-     "summary_uk": "На кожному місці першому стрільцеві squad, який уже стоїть готовим на місці, показують усі траєкторії. Якщо стрілець на місці попросить, суддя показує їх ще раз, але не більше двох мішеней на кожну мішень меню. Під час показу ніхто не може стріляти чи вдавати постріл; інакше діють статті 12.1 і 12.2.",
+     "summary_uk": "На кожному місці першому стрільцеві групи, який уже стоїть готовим на місці, показують усі траєкторії. Якщо стрілець на місці попросить, суддя показує їх ще раз, але не більше двох мішеней на кожну мішень меню. Під час показу ніхто не може стріляти чи вдавати постріл; інакше діють статті 12.1 і 12.2.",
      "points_en": [
       "All trajectories shown to the first shooter",
       "That shooter is already on the stand",
@@ -3872,7 +3872,7 @@ window.RULES.push({
      "title_en": "Which doubles are shown",
      "title_uk": "Які дуплети показують",
      "summary_en": "Doubles on report are never demonstrated. Simultaneous and rafale doubles are shown to the first shooter of each squad, and the referee will show them again on request, up to two shown doubles.",
-     "summary_uk": "Дуплети on report ніколи не демонструють. Одночасні дуплети й rafale показують першому стрільцеві кожного squad, а на прохання суддя показує їх ще раз — до двох показаних дуплетів.",
+     "summary_uk": "Дуплети on report ніколи не демонструють. Одночасні дуплети й rafale показують першому стрільцеві кожної групи, а на прохання суддя показує їх ще раз — до двох показаних дуплетів.",
      "points_en": [
       "Doubles on report: not demonstrated",
       "Simultaneous and rafale: shown to the first shooter",
@@ -3905,7 +3905,7 @@ window.RULES.push({
      "title_en": "Late or absent shooter",
      "title_uk": "Запізнення або відсутність стрільця",
      "summary_en": "Shooters must be on time. If a shooter is not there when called, the referee calls the name and number three times within one minute. A shooter who arrives before missing his turn on the singles of the first stand joins without penalty. If he misses his turn, all singles and doubles not shot are scored zero; arriving at a later stand (2, 3, 4 and so on), all targets not shot on earlier stands are zero. A layout where stands were missed can never be shot in another squad.",
-     "summary_uk": "Стрільці мають приходити вчасно. Якщо стрільця немає, коли його викликають, суддя тричі протягом однієї хвилини називає ім’я і номер. Хто встиг до своєї черги на одиночних мішенях першого місця, приєднується без штрафу. Якщо черга пропущена, усі необстріляні singles і doubles — zero; якщо стрілець приходить на одне з наступних місць (2, 3, 4 тощо), усі мішені попередніх місць — zero. Layout, на якому пропущено місця, не можна дострілити в іншому squad.",
+     "summary_uk": "Стрільці мають приходити вчасно. Якщо стрільця немає, коли його викликають, суддя тричі протягом однієї хвилини називає ім’я і номер. Хто встиг до своєї черги на одиночних мішенях першого місця, приєднується без штрафу. Якщо черга пропущена, усі необстріляні singles і doubles — zero; якщо стрілець приходить на одне з наступних місць (2, 3, 4 тощо), усі мішені попередніх місць — zero. Layout, на якому пропущено місця, не можна дострілити в іншій групі.",
      "points_en": [
       "Name and number called 3 times within 1 minute",
       "Before his singles turn on stand 1: no penalty",
@@ -3918,7 +3918,7 @@ window.RULES.push({
       "До своєї черги на singles 1-го місця — без штрафу",
       "Пропустив чергу — необстріляні мішені zero",
       "Прийшов на пізніше місце — попередні місця zero",
-      "Дострілити layout в іншому squad не можна"
+      "Дострілити layout в іншій групі не можна"
      ],
      "terms": [
       "squad",
@@ -3945,7 +3945,7 @@ window.RULES.push({
      "title_en": "Lateness beyond the shooter's control",
      "title_uk": "Запізнення не з вини стрільця",
      "summary_en": "A shooter who believes there was a good reason for being late, outside their control, must not rejoin the squad during the round, must appeal to the jury in writing, accept the jury's decision and, if the jury allows it, shoot the round in another squad. If the jury rejects the reason, the shooter gets 25 zeros for each layout not shot.",
-     "summary_uk": "Стрілець, який вважає, що запізнився з поважної причини, яка від нього не залежала, не повертається до свого squad під час серії, письмово звертається до журі, виконує його рішення і, якщо журі дозволить, стріляє серію в іншому squad. Якщо журі не визнає причину поважною, стрілець отримує 25 «zero» за кожен необстріляний layout.",
+     "summary_uk": "Стрілець, який вважає, що запізнився з поважної причини, яка від нього не залежала, не повертається до своєї групи під час серії, письмово звертається до журі, виконує його рішення і, якщо журі дозволить, стріляє серію в іншій групі. Якщо журі не визнає причину поважною, стрілець отримує 25 «zero» за кожен необстріляний layout.",
      "points_en": [
       "Do not rejoin the squad during the round",
       "Written appeal to the jury",
@@ -3954,10 +3954,10 @@ window.RULES.push({
       "Reason rejected: 25 zeros per layout not shot"
      ],
      "points_uk": [
-      "Не повертатися до squad під час серії",
+      "Не повертатися до групи під час серії",
       "Письмове звернення до журі",
       "Виконати рішення журі",
-      "Якщо дозволять — стріляти в іншому squad",
+      "Якщо дозволять — стріляти в іншій групі",
       "Причину відхилено — 25 zero за кожен layout"
      ],
      "terms": [
@@ -4286,9 +4286,9 @@ window.RULES.push({
      "ref": "Chapter 18, 18.4; 18.5; 18.6",
      "page": 25,
      "title_en": "Shoot-off squads, call-up and postponement",
-     "title_uk": "Squad у перестрілці, виклик і перенесення",
+     "title_uk": "Групи в перестрілці, виклик і перенесення",
      "summary_en": "A shoot-off is shot under the usual rules, except that free places in the squad stay empty. When a shoot-off was not in the programme, the shooters involved keep in touch with the jury and must be able to shoot within 15 minutes of the call; a shooter who is not there is disqualified. In a case of force majeure the jury may move the shoot-off to the next day, and again any absent shooter is disqualified.",
-     "summary_uk": "Перестрілку стріляють за звичайними правилами, тільки вільні місця в squad лишаються порожніми. Якщо перестрілки не було в програмі, її учасники тримають зв’язок із журі й мають бути здатні стріляти протягом 15 хвилин після виклику; стрільця, якого немає, дискваліфікують. У разі форс-мажору журі може перенести перестрілку на наступний день — і знову відсутнього дискваліфікують.",
+     "summary_uk": "Перестрілку стріляють за звичайними правилами, тільки вільні місця в групі лишаються порожніми. Якщо перестрілки не було в програмі, її учасники тримають зв’язок із журі й мають бути здатні стріляти протягом 15 хвилин після виклику; стрільця, якого немає, дискваліфікують. У разі форс-мажору журі може перенести перестрілку на наступний день — і знову відсутнього дискваліфікують.",
      "points_en": [
       "Usual rules; free squad places stay empty",
       "Not in the programme: ready within 15 minutes of the call",
@@ -4296,7 +4296,7 @@ window.RULES.push({
       "Force majeure: the jury may move it to the next day"
      ],
      "points_uk": [
-      "Звичайні правила; вільні місця в squad порожні",
+      "Звичайні правила; вільні місця в групі порожні",
       "Не було в програмі: готовність за 15 хвилин після виклику",
       "Немає на місці — дискваліфікація",
       "Форс-мажор: журі може перенести на наступний день"
@@ -4494,7 +4494,7 @@ window.RULES.push({
    "q_en": "Will the targets be shown to me before I shoot?",
    "q_uk": "Чи покажуть мені мішені перед стрільбою?",
    "a_en": "All trajectories are shown at each stand to the first shooter of the squad. On request the referee repeats up to two targets per menu target. Simultaneous and rafale doubles are shown (repeat up to two), but doubles on report are never shown.",
-   "a_uk": "На кожному місці всі траєкторії показують першому стрільцю squad. На прохання суддя повторює до двох мішеней для кожної мішені меню. Simultaneous і rafale показують (повтор — до двох), а дуплети on report не показують ніколи.",
+   "a_uk": "На кожному місці всі траєкторії показують першому стрільцю групи. На прохання суддя повторює до двох мішеней для кожної мішені меню. Simultaneous і rafale показують (повтор — до двох), а дуплети on report не показують ніколи.",
    "refs": [
     "ch16-presentation",
     "ch16-presentation-doubles"
@@ -4515,7 +4515,7 @@ window.RULES.push({
    "q_en": "In what order do we shoot at a stand?",
    "q_uk": "У якому порядку стріляють на місці?",
    "a_en": "Each member of the squad shoots the singles first, then the doubles, in rotation; the order rotates at each stand and for the doubles, unless the jury decides otherwise.",
-   "a_uk": "Кожен учасник squad спершу стріляє singles, потім doubles по черзі; порядок змінюється на кожному місці та для дуплетів, якщо журі не вирішило інакше.",
+   "a_uk": "Кожен учасник групи спершу стріляє singles, потім doubles по черзі; порядок змінюється на кожному місці та для дуплетів, якщо журі не вирішило інакше.",
    "refs": [
     "ch16-singles-then-doubles",
     "ch16-squads"
@@ -4533,9 +4533,9 @@ window.RULES.push({
   },
   {
    "q_en": "Can other shooters in my squad say whether my target was hit?",
-   "q_uk": "Чи можуть інші стрільці squad казати, влучив я чи ні?",
+   "q_uk": "Чи можуть інші стрільці групи казати, влучив я чи ні?",
    "a_en": "No. The referee decides alone and squad members may not intervene. Only the referee, if in doubt, may ask them for advice.",
-   "a_uk": "Ні. Суддя вирішує одноосібно, а учасники squad не мають права втручатися. Лише сам суддя в разі сумніву може запитати їхньої думки.",
+   "a_uk": "Ні. Суддя вирішує одноосібно, а учасники групи не мають права втручатися. Лише сам суддя в разі сумніву може запитати їхньої думки.",
    "refs": [
     "ch6-referee-alone",
     "ch9-consultation"
@@ -4661,7 +4661,7 @@ window.RULES.push({
    "q_en": "My gun broke during the round. Can I borrow one?",
    "q_uk": "Рушниця зламалася під час серії. Можна позичити іншу?",
    "a_en": "Yes, exceptionally, with the owner's agreement, to finish the round. If your own gun is repaired before the squad finishes the stand, you may shoot last with the referee's permission. If you cannot get another gun at once, you leave the squad and finish later in a free place in another squad with jury approval.",
-   "a_uk": "Так, у виняткових випадках і за згодою власника, щоб завершити серію. Якщо вашу рушницю відремонтують до того, як squad закінчить місце, з дозволу судді можна стріляти останнім. Якщо іншої рушниці одразу немає, ви залишаєте squad і дострілюєте пізніше на вільному місці в іншому squad з дозволу журі.",
+   "a_uk": "Так, у виняткових випадках і за згодою власника, щоб завершити серію. Якщо вашу рушницю відремонтують до того, як група закінчить місце, з дозволу судді можна стріляти останнім. Якщо іншої рушниці одразу немає, ви залишаєте групу і дострілюєте пізніше на вільному місці в іншій групі з дозволу журі.",
    "refs": [
     "ch7-borrow-replace",
     "ch7-malfunction-procedure"
@@ -4669,7 +4669,7 @@ window.RULES.push({
   },
   {
    "q_en": "Can two of us share one gun in the same squad?",
-   "q_uk": "Чи можна двом стрільцям одного squad користуватися однією рушницею?",
+   "q_uk": "Чи можна двом стрільцям однієї групи користуватися однією рушницею?",
    "a_en": "Not in an official competition or championship. Borrowing is only an emergency solution after a malfunction.",
    "a_uk": "На офіційних змаганнях і чемпіонатах — ні. Позичання — лише вихід у разі поломки.",
    "refs": [
@@ -4786,7 +4786,7 @@ window.RULES.push({
    "q_en": "How do I protest a referee's call on the stand?",
    "q_uk": "Як оскаржити рішення судді прямо на місці?",
    "a_en": "Immediately, before calling the next target: raise your hand and say 'appeal' or 'protest', then give your reason. The referee either confirms at once or consults another referee, the trapper or the squad, then gives a final decision.",
-   "a_uk": "Негайно, до виклику наступної мішені: підніміть руку, скажіть «appeal» або «protest» і поясніть причину. Суддя або одразу підтверджує рішення, або радиться з іншим суддею, trapper чи squad і після цього ухвалює остаточне рішення.",
+   "a_uk": "Негайно, до виклику наступної мішені: підніміть руку, скажіть «appeal» або «protest» і поясніть причину. Суддя або одразу підтверджує рішення, або радиться з іншим суддею, trapper чи групою і після цього ухвалює остаточне рішення.",
    "refs": [
     "ch9-how-to-appeal",
     "ch9-consultation",
@@ -4901,9 +4901,9 @@ window.RULES.push({
   },
   {
    "q_en": "I arrived late for my squad. Can I still shoot?",
-   "q_uk": "Я запізнився до свого squad. Чи можу я ще стріляти?",
+   "q_uk": "Я запізнився до своєї групи. Чи можу я ще стріляти?",
    "a_en": "If you arrive before your singles turn on the first stand, you join without penalty. Otherwise all targets you have not shot are zero, and you may not shoot that layout in another squad. If the delay was beyond your control, do not rejoin; appeal to the jury in writing instead.",
-   "a_uk": "Якщо ви встигли до своєї черги на singles першого місця, приєднуєтеся без штрафу. Інакше всі необстріляні мішені — zero, і дострілити цей layout в іншому squad не можна. Якщо запізнення сталося не з вашої вини, не повертайтеся до squad, а письмово зверніться до журі.",
+   "a_uk": "Якщо ви встигли до своєї черги на singles першого місця, приєднуєтеся без штрафу. Інакше всі необстріляні мішені — zero, і дострілити цей layout в іншій групі не можна. Якщо запізнення сталося не з вашої вини, не повертайтеся до групи, а письмово зверніться до журі.",
    "refs": [
     "ch16-late-shooter",
     "ch16-late-excuse"
@@ -4980,7 +4980,7 @@ window.RULES.push({
    "q_en": "How many shooters can we accept with 4 lines over two days?",
    "q_uk": "Скільки стрільців можна прийняти на 4 лініях за два дні?",
    "a_en": "Appendix 2 gives 258 to 408 shooters depending on pace and daily hours: for example 336 shooters (56 squads) at 10 minutes per squad with 9:55 of shooting, up to 408 (68 squads) with 11:55.",
-   "a_uk": "Додаток 2 дає від 258 до 408 стрільців залежно від темпу й тривалості дня: наприклад, 336 стрільців (56 squad) при 10 хвилинах на squad і 9:55 стрільби, до 408 (68 squad) при 11:55.",
+   "a_uk": "Додаток 2 дає від 258 до 408 стрільців залежно від темпу й тривалості дня: наприклад, 336 стрільців (56 груп) при 10 хвилинах на групу і 9:55 стрільби, до 408 (68 груп) при 11:55.",
    "refs": [
     "ch15-appendix2",
     "ch15-capacity"
@@ -5018,7 +5018,7 @@ window.RULES.push({
    "q_en": "Who keeps the scorecard and what does the referee do with it?",
    "q_uk": "Хто веде картку результатів і що з нею робить суддя?",
    "a_en": "The referee, or a person under the referee's supervision. A different coloured pencil is used for each stand; before the squad moves on the referee photographs the card and marks with an asterisk the shooter who carries it.",
-   "a_uk": "Суддя або особа під його наглядом. Для кожного місця — олівець іншого кольору; перед переходом squad суддя фотографує картку і позначає зірочкою стрільця, який її несе.",
+   "a_uk": "Суддя або особа під його наглядом. Для кожного місця — олівець іншого кольору; перед переходом групи суддя фотографує картку і позначає зірочкою стрільця, який її несе.",
    "refs": [
     "ch14-who-keeps-score",
     "ch14-model"

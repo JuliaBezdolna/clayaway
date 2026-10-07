@@ -1,0 +1,105 @@
+{
+  "id": "watching-reading-results",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "d5e0cd26",
+    "summary": "00bcb825",
+    "watching-reading-results-p1": "a593aad6",
+    "referee-scoring-p1": "67cd20f8",
+    "watching-reading-results-compak": "20ba60c6",
+    "referee-scoring-p2": "9eed775d",
+    "watching-reading-results-p3": "e5bd1066",
+    "watching-reading-results-p4": "bf2a6fc6",
+    "watching-reading-results-p5": "7203bf5f",
+    "watching-reading-results-p6": "55a141b2",
+    "watching-reading-results-same-targets": "5b63d50c",
+    "watching-reading-results-n-card": "b967a8d7",
+    "referee-scoring-ph1": "78d746b9",
+    "referee-scoring-ph2": "85a7e77e",
+    "referee-scoring-ph3": "5ceb7683",
+    "watching-reading-results-kp1": "e95f9f8e",
+    "referee-scoring-kp1": "3bd23aa1",
+    "referee-scoring-kp2": "760f6af6",
+    "watching-reading-results-kp4": "8a7110a4",
+    "watching-reading-results-kp5": "3c60cad8",
+    "watching-reading-results-dyk": "6e9971df",
+    "referee-scoring-q1": "5fd1535a",
+    "referee-scoring-q3": "6893a814",
+    "watching-reading-results-q3": "8365a697",
+    "watching-reading-results-q2": "cebf173c",
+    "watching-reading-results-q4": "ebf532a0",
+    "watching-reading-results-q-photo": "9d644b18"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "Come leggere un tabellone e i risultati",
+  "summary": "Cosa significano X e O su uno statino, come si costruisce un totale su 200, come si risolvono le parità e come leggere una tabella dei risultati su ClayArena.",
+  "body": {
+    "watching-reading-results-p1": "Nel tiro al piattello il punteggio è semplice: il numero di piattelli colpiti. Una {{term:round|serie}} è {{fact:rules.round-targets}} sia nel {{tm:sporting}} che nel {{tm:compak}}, e una gara internazionale è {{fact:basics.international-targets}}. Quindi il punteggio massimo possibile è 200 su 200.",
+    "referee-scoring-p1": "Ogni piattello finisce su uno {{term:score-sheet|statino}}. Nel {{tm:sporting}} lo statino lo tiene l'{{term:referee|arbitro}}, o una persona che lavora sotto il suo controllo. Sullo statino standard FITASC ogni piattello è elencato con la lettera della sua macchina (A, B, C…), con X per un colpito e O per un mancato. Lo statino ha anche un totale e una colonna per le firme. Prima che la batteria passi alla pedana successiva, l'arbitro fotografa lo statino.",
+    "watching-reading-results-compak": "Nel {{tm:compak}} tirato a batterie l'arbitro tiene lo statino e segna un colpito con X e un mancato con O. L'arbitro annuncia ogni zero ad alta voce o con un segnale acustico, così un tiratore in disaccordo può fare reclamo subito. Nel {{term:compak-in-line|Compak in linea}}, dove un sistema elettronico approvato registra i punteggi ({{term:electronic-refereeing|arbitraggio elettronico}}), i risultati appaiono su uno schermo.",
+    "referee-scoring-p2": "Nel {{tm:sporting}} dovete controllare il punteggio quando lasciate ogni pedana. Se non siete d'accordo con un segno, ditelo subito all'arbitro: l'arbitro decide, magari dopo aver chiesto ad altri, e quella decisione non si può appellare. Nel {{tm:compak}} firmate lo statino alla fine della serie; se vi rifiutate di firmare, perdete il diritto di reclamo.",
+    "watching-reading-results-p3": "Alle gare internazionali i punteggi delle serie vanno su un tabellone centrale o in un sistema elettronico. Vicino a ogni nome di solito si vede il punteggio di ogni serie e il totale. Così si vede non solo chi è in testa, ma anche chi tira con costanza e chi ha avuto una serie negativa.",
+    "watching-reading-results-p4": "I totali uguali sono comuni. Le parità per i primi tre posti si risolvono con {{fact:competitions.shoot-off-format}} (nella morte improvvisa il primo tiratore che manca è fuori). Sotto il terzo posto i tiratori a pari merito condividono il posto, e il {{term:countback|countback}} stabilisce il loro ordine in classifica. Come funzionano entrambi: {{lesson:competitions-categories-and-shoot-offs}}.",
+    "watching-reading-results-p5": "Oltre alla {{term:open-ranking|classifica assoluta}} ci sono {{term:category|categorie}}, come {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} e {{term:veteran|Veteran}}, e una classifica a {{term:team|squadre}}. Quindi una premiazione può avere diversi vincitori, uno per ogni classifica.",
+    "watching-reading-results-p6": "Dopo una gara i risultati compaiono su ClayArena. La tabella mostra la posizione di ogni tiratore e il numero di piattelli colpiti. Da lì potete aprire il {{term:shooter-profile|profilo del tiratore}}, con le sue gare e dati come l'{{term:accuracy|precisione}} e il {{term:best-score|miglior punteggio}}. Per saperne di più: {{lesson:clayarena-find-your-results}}.",
+    "watching-reading-results-same-targets": "Confrontate i punteggi solo sullo stesso numero di piattelli, e preferibilmente della stessa gara: i percorsi di campi diversi hanno difficoltà diverse. 90 su 100 e 180 su 200 sono la stessa percentuale, ma una gara più lunga è una prova diversa."
+  },
+  "note": {
+    "watching-reading-results-n-card": "Traducete «check your card» come un'istruzione urgente, non come un'osservazione cortese: una volta che il tiratore ha lasciato la pedana, un segno sbagliato non si può più contestare."
+  },
+  "phrases": {
+    "referee-scoring-ph1": {
+      "meaning": "{{tm:sporting}}: guardate subito i vostri segni; le obiezioni successive non sono accettate.",
+      "say": "Controlla lo statino prima di lasciare la pedana."
+    },
+    "referee-scoring-ph2": {
+      "meaning": "{{tm:compak}}: la firma conferma il punteggio; rifiutarsi significa perdere il diritto di reclamo.",
+      "say": "Firmi qui, per favore."
+    },
+    "referee-scoring-ph3": {
+      "meaning": "Punteggio di 23 su 25; due piattelli persi.",
+      "say": "Ventitré: ne hai persi due."
+    }
+  },
+  "key_points": {
+    "watching-reading-results-kp1": "Il punteggio è il numero di piattelli colpiti; una gara internazionale è {{fact:basics.international-targets}}.",
+    "referee-scoring-kp1": "X = colpito, O = errore sugli statini FITASC",
+    "referee-scoring-kp2": "{{tm:sporting}}: controllate il punteggio quando lasciate ogni pedana; {{tm:compak}}: firmate lo statino o perdete il diritto di reclamo",
+    "watching-reading-results-kp4": "Le categorie e la classifica a squadre significano diversi vincitori a una sola premiazione.",
+    "watching-reading-results-kp5": "Confrontate i punteggi sullo stesso numero di piattelli, preferibilmente della stessa gara."
+  },
+  "did_you_know": "Nel {{tm:sporting}} ogni pedana di un percorso ha il suo colore di matita sullo statino. Quando la batteria avanza, un asterisco segna il tiratore che porta lo statino alla pedana successiva.",
+  "quiz": {
+    "referee-scoring-q1": {
+      "q": "Su uno statino FITASC, cosa significa O?",
+      "options": { "a": "Un colpito", "b": "Un No bird", "c": "Un mancato", "d": "Una pedana vuota" },
+      "explain": "Sullo statino standard FITASC un colpito si segna con X e un mancato con O."
+    },
+    "referee-scoring-q3": {
+      "q": "Nel {{tm:compak}} il vostro tiratore si rifiuta di firmare lo statino. Qual è la conseguenza?",
+      "options": { "a": "Perde il diritto di presentare qualsiasi reclamo", "b": "La serie si ripete", "c": "Firma l'arbitro e non cambia nulla", "d": "Riceve automaticamente 25 zero" },
+      "explain": "Il regolamento del {{tm:compak}} dice che un tiratore che si rifiuta di firmare perde il diritto di reclamo."
+    },
+    "watching-reading-results-q3": {
+      "q": "Volete confrontare i punteggi di due tiratori. Qual è un modo corretto di farlo?",
+      "options": { "a": "Confrontare le percentuali, qualunque sia la lunghezza della gara", "b": "Confrontare solo la serie più alta di ciascuno", "c": "Confrontarli sullo stesso numero di piattelli, preferibilmente nella stessa gara" },
+      "explain": "La stessa percentuale su un numero diverso di piattelli, o su altri campi, non è la stessa prova: i percorsi hanno difficoltà diverse."
+    },
+    "watching-reading-results-q2": {
+      "q": "Come si risolvono le parità per i primi tre posti?",
+      "options": { "a": "Con un sorteggio", "b": "Con uno spareggio", "c": "Per età del tiratore" },
+      "explain": "Per i primi tre c'è uno spareggio su 25 piattelli, poi la morte improvvisa."
+    },
+    "watching-reading-results-q4": {
+      "q": "Nel {{tm:sporting}}, quando dovete controllare il punteggio sullo statino?",
+      "options": { "a": "Quando lasciate ogni pedana", "b": "Solo alla fine della giornata", "c": "Quando i risultati vanno online" },
+      "explain": "Controllate il punteggio quando lasciate ogni pedana e segnalate subito qualsiasi disaccordo; dopo non c'è appello."
+    },
+    "watching-reading-results-q-photo": {
+      "q": "Nel {{tm:sporting}}, cosa fa l'arbitro con lo statino prima che la batteria passi alla pedana successiva?",
+      "options": { "a": "Lo fotografa", "b": "Lo porta subito alla giuria", "c": "Lo affigge sul tabellone centrale" },
+      "explain": "Prima che la batteria avanzi, l'arbitro fotografa lo statino e segna con un asterisco il tiratore che lo porterà alla pedana successiva."
+    }
+  }
+}

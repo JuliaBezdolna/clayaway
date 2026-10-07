@@ -1,0 +1,300 @@
+{
+  "id": "intro-how-to-start",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 1,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "intro-how-to-start"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "coach",
+    "gun-mount",
+    "shotgun",
+    "cartridge",
+    "safety-glasses",
+    "hearing-protection",
+    "earplugs",
+    "gauge",
+    "semi-automatic",
+    "club-shoot",
+    "referee",
+    "squad",
+    "gun-fit",
+    "stock"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-permitted-guns"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loading"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-semi-auto"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    }
+  ],
+  "facts": [
+    "gear.fitasc-max-gauge",
+    "gear.fitasc-min-barrel"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How to start",
+    "uk": "Як почати"
+  },
+  "summary": {
+    "en": "A club, a coach, a first lesson and a hired gun: a step-by-step plan for anyone who wants to try {{tm:sporting}} or {{tm:compak}}.",
+    "uk": "Клуб, тренер, перше заняття й рушниця напрокат: покроковий план для всіх, хто хоче спробувати {{tm:sporting}} чи {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "intro-how-to-start-p1",
+      "t": "p",
+      "en": "Start by finding a shooting ground or a club near you. Call or write and ask whether they run sessions for beginners. Many grounds offer a taster lesson with a {{term:coach|coach}}, a gun and cartridges included.",
+      "uk": "Почніть із пошуку стенду або клубу поблизу. Зателефонуйте чи напишіть і запитайте, чи проводять там заняття для новачків. Багато стендів пропонують пробне заняття з {{term:coach|тренером}}, де вже є рушниця й набої."
+    },
+    {
+      "k": "intro-how-to-start-p2",
+      "t": "p",
+      "en": "It is wise to have your first session with a coach. A coach explains the safety rules and chooses a gun that suits your size. They also show you how to stand and how to do the {{term:gun-mount|gun mount}}: bringing the {{term:stock|stock}} (the rear part of the gun) to your cheek and shoulder. You start with simple, slow targets, so you see progress quickly and avoid bad habits. More: {{lesson:training-first-lessons-and-coach}}.",
+      "uk": "Перше заняття розумно проводити з тренером. Тренер пояснить правила безпеки й підбере рушницю за вашим зростом. Він також покаже, як стояти та як робити {{term:gun-mount|вкладку}} — підводити {{term:stock|приклад}} до щоки й плеча. Ви почнете з простих повільних мішеней, тож швидко побачите прогрес і не наберетеся поганих звичок. Докладніше: {{lesson:training-first-lessons-and-coach}}."
+    },
+    {
+      "k": "intro-how-to-start-p3",
+      "t": "p",
+      "en": "You do not need your own gun at first. At many grounds you can hire a gun and shoot under an instructor's supervision. Gun and ammunition laws differ between countries. In some, a beginner may shoot a club gun under supervision without a licence; in others, documents are needed. Ask the ground in advance.",
+      "uk": "Власна рушниця на початку не потрібна. На багатьох стендах рушницю можна взяти напрокат і стріляти під наглядом інструктора. Закони щодо зброї та набоїв у різних країнах різні. Десь новачок може стріляти з клубної рушниці під наглядом без дозволу, а десь потрібні документи. Уточніть це на стенді заздалегідь."
+    },
+    {
+      "k": "intro-how-to-start-p4",
+      "t": "p",
+      "en": "What to bring: comfortable clothes for the weather, closed shoes and a cap. Bring an ID document if the ground asks for one.",
+      "uk": "Що взяти з собою: зручний одяг за погодою, закрите взуття і кепку. Візьміть документ, що посвідчує особу, якщо стенд його вимагає."
+    },
+    {
+      "k": "intro-how-to-start-warn",
+      "t": "warn",
+      "disc": "both",
+      "en": "Wear {{term:safety-glasses|safety glasses}} and {{term:hearing-protection|hearing protection}} (ear muffs or {{term:earplugs|earplugs}}) from the very first shot. Competition rules make both compulsory. If you have none, the ground can usually lend them. More: {{lesson:safety-eye-ear-protection}}.",
+      "uk": "Вдягайте {{term:safety-glasses|стрілецькі окуляри}} й {{term:hearing-protection|засоби захисту слуху}} (навушники або {{term:earplugs|беруші}}) з першого пострілу. Правила змагань роблять їх обов’язковими. Якщо своїх немає, на стенді їх зазвичай дадуть. Докладніше: {{lesson:safety-eye-ear-protection}}."
+    },
+    {
+      "k": "intro-how-to-start-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "Do not rush to buy a gun. First try different models and ask your coach. For FITASC competitions you need a smooth-bore shotgun (no rifling inside the barrels), {{fact:gear.fitasc-max-gauge}}; narrower bores such as 20 or 28 are allowed. The barrels must be {{fact:gear.fitasc-min-barrel}}, and pump-action guns (reloaded by sliding the fore-end) are not allowed. More: {{lesson:gun-first-gun}}.",
+      "uk": "Не поспішайте з покупкою рушниці. Спершу постріляйте з різних моделей і порадьтеся з тренером. Для змагань FITASC потрібна гладкоствольна рушниця (без нарізів у стволі), {{fact:gear.fitasc-max-gauge}}; вужчі калібри, наприклад 20 чи 28, теж дозволені. Стволи мають бути {{fact:gear.fitasc-min-barrel}}, а помпові рушниці (їх перезаряджають рухом цівки) не дозволені. Докладніше: {{lesson:gun-first-gun}}."
+    },
+    {
+      "k": "intro-how-to-start-p6",
+      "t": "p",
+      "en": "After a few lessons, try a {{term:club-shoot|club shoot}} for beginners. It is a good way to feel the atmosphere of the sport, meet people and see how {{term:referee|referees}} and {{term:squad|squads}} work.",
+      "uk": "Після кількох занять спробуйте {{term:club-shoot|клубні змагання}} для новачків. Це добрий спосіб відчути атмосферу спорту, познайомитися з людьми й побачити, як працюють {{term:referee|судді}} та {{term:squad|групи}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "intro-how-to-start-kp1",
+      "en": "Start at a ground with a coach and a taster lesson.",
+      "uk": "Почніть зі стенду, тренера і пробного заняття."
+    },
+    {
+      "k": "intro-how-to-start-kp2",
+      "en": "You can hire a gun; gun laws depend on the country.",
+      "uk": "Рушницю можна взяти напрокат; закони щодо зброї залежать від країни."
+    },
+    {
+      "k": "intro-how-to-start-kp3",
+      "checklist": true,
+      "en": "Safety glasses and hearing protection from the first shot.",
+      "uk": "Стрілецькі окуляри й захист слуху — з першого пострілу."
+    },
+    {
+      "k": "intro-how-to-start-kp4",
+      "en": "Buy a gun only after trying several and asking your coach.",
+      "uk": "Купуйте рушницю, лише коли спробуєте кілька і порадитеся з тренером."
+    }
+  ],
+  "did_you_know": {
+    "k": "intro-how-to-start-dyk",
+    "en": "Clay guns are often fitted to the shooter: the length and height of the stock are adjusted so the gun comes up naturally. This is called {{term:gun-fit|gun fit}}.",
+    "uk": "Рушницю для стендової стрільби часто підганяють під стрільця: змінюють довжину й висоту приклада, щоб вона «лягала» природно. Це називають {{term:gun-fit|підгонкою рушниці}}."
+  },
+  "quiz": [
+    {
+      "k": "intro-how-to-start-q1",
+      "q": {
+        "en": "Which first step does this lesson suggest?",
+        "uk": "З якого кроку радить почати цей урок?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Buy a gun and practise alone",
+          "uk": "Купити рушницю й тренуватися самому"
+        },
+        {
+          "k": "b",
+          "en": "A taster lesson with a coach",
+          "uk": "Пробне заняття з тренером"
+        },
+        {
+          "k": "c",
+          "en": "Watch videos, then enter a championship",
+          "uk": "Подивитися відео й одразу на чемпіонат"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A coach teaches safety and good basics from the very start.",
+        "uk": "Тренер навчить безпеки й правильних основ із самого початку."
+      }
+    },
+    {
+      "k": "intro-how-to-start-q2",
+      "q": {
+        "en": "Does a beginner need their own gun?",
+        "uk": "Чи потрібна новачкові власна рушниця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, grounds do not lend guns",
+          "uk": "Так, стенди рушниць не дають"
+        },
+        {
+          "k": "b",
+          "en": "Yes, and it must be a pump-action",
+          "uk": "Так, і обов’язково помпова"
+        },
+        {
+          "k": "c",
+          "en": "No, many grounds hire guns out",
+          "uk": "Ні, на багатьох стендах є прокат"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Many grounds have club guns you can shoot under supervision; the rules depend on national law.",
+        "uk": "На багатьох стендах є клубні рушниці, з яких стріляють під наглядом; правила залежать від законів країни."
+      }
+    },
+    {
+      "k": "intro-how-to-start-q3",
+      "disc": "both",
+      "q": {
+        "en": "Which gun is NOT allowed in FITASC competitions?",
+        "uk": "Яка рушниця НЕ дозволена на змаганнях FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A pump-action gun",
+          "uk": "Помпова рушниця"
+        },
+        {
+          "k": "b",
+          "en": "A 12-gauge over-and-under",
+          "uk": "Вертикалка 12 калібру"
+        },
+        {
+          "k": "c",
+          "en": "A semi-automatic",
+          "uk": "Напівавтомат"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Pump-action guns are not allowed. A {{term:semi-automatic|semi-automatic}} is allowed, but it may be loaded with two cartridges at most.",
+        "uk": "Помпові рушниці не дозволені. {{term:semi-automatic|Напівавтомат}} дозволений, але заряджати його можна щонайбільше двома набоями."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "a300459d",
+    "summary": "520c217f",
+    "intro-how-to-start-p1": "300f4253",
+    "intro-how-to-start-p2": "793a0173",
+    "intro-how-to-start-p3": "34e0a999",
+    "intro-how-to-start-p4": "4f81056b",
+    "intro-how-to-start-warn": "6813df25",
+    "intro-how-to-start-p5": "5dc9f970",
+    "intro-how-to-start-p6": "d37bb6a9",
+    "intro-how-to-start-kp1": "1028266a",
+    "intro-how-to-start-kp2": "b4742211",
+    "intro-how-to-start-kp3": "83e57897",
+    "intro-how-to-start-kp4": "25c7088a",
+    "intro-how-to-start-dyk": "a3136282",
+    "intro-how-to-start-q1": "443b3782",
+    "intro-how-to-start-q2": "3e54e5e8",
+    "intro-how-to-start-q3": "fe33e0cc"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

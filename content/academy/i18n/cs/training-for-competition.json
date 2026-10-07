@@ -1,0 +1,143 @@
+{
+  "id": "training-for-competition",
+  "lang": "cs",
+  "base_rev": 5,
+  "h": {
+    "title": "15f6d0f5",
+    "summary": "2e1e817a",
+    "training-for-competition-p1": "2be3e003",
+    "training-for-competition-p2": "818a1fa4",
+    "training-for-competition-p2-why": "b885b16c",
+    "training-for-competition-round": "2f2cdb37",
+    "training-for-competition-p3": "6fa2036e",
+    "training-for-competition-order": "4b2487e6",
+    "training-for-competition-p4": "2b629bad",
+    "training-for-competition-train-start": "b60eb1b8",
+    "training-for-competition-p5": "489f87b0",
+    "training-for-competition-time-it": "dcfb6fea",
+    "training-for-competition-pressure": "9a1d343a",
+    "training-for-competition-pressure-steps": "0cc980b4",
+    "training-for-competition-shoot-off": "bf65f20f",
+    "training-for-competition-fit-in": "d20c63c1",
+    "training-for-competition-no-new-kit": "796fdd5a",
+    "training-for-competition-p6": "44c51a6a",
+    "training-for-competition-practice": "cf9329ef",
+    "training-for-competition-n-coach": "8ee43684",
+    "training-for-competition-n-interpreter": "592f0e7b",
+    "training-for-competition-kp1": "c3cded19",
+    "training-for-competition-kp2": "5a904122",
+    "training-for-competition-kp3": "b70b637e",
+    "training-for-competition-kp-pressure": "87e0f74f",
+    "training-for-competition-kp5": "72fb9966",
+    "training-for-competition-dyk": "27a4b5f2",
+    "training-for-competition-q1": "a832b9bb",
+    "training-for-competition-q2": "5eb21bb6",
+    "training-for-competition-q-pressure": "e3dc29d0",
+    "training-for-competition-q3": "2586076a",
+    "training-for-competition-q-compak-time": "2e75b105"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Trénink na závod",
+  "summary": "Jak přenést závod do tréninku: celé položky, vlastní rituál, časové limity vaší disciplíny a mírný tlak, který roste postupně.",
+  "body": {
+    "training-for-competition-p1": "Na závodě je všechno jinak: nové terče, neznámí střelci poblíž, rozhodčí, nervozita. Aby to bylo povědomé, mnozí trenéři doporučují část tréninků vést, jako by to už byl závod.",
+    "training-for-competition-p2": "Střílejte celé {{term:round|položky}} a počítejte výsledek. Po minutí terč znovu nežádejte a terče střílejte v pořadí {{term:target-menu|menu}}.",
+    "training-for-competition-p2-why": "Přesně tak probíhá závod: terč, který jste minuli, se znovu nehodí, a terče jdou v pořadí, v jakém je uvádí menu. Menu je tabulka, která ukazuje, jaké terče a v jakém pořadí se střílí.",
+    "training-for-competition-round": {
+      "sporting": "Položka na jednom {{term:layout|střelišti}} je {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}}).",
+      "compak": "Položka je {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
+    },
+    "training-for-competition-p3": "Před každým terčem používejte svůj {{term:pre-shot-routine|předstřeleckou rutinu}}: stejné kroky ve stejném pořadí. Studie rituálů, většinou z jiných sportů, naznačují, že sportovci s rituálem podávají lepší výkon, i když jsou nervózní. Nejspíš to platí i pro stendovou střelbu. Víc v lekci {{lesson:mind-routine-under-pressure}}.",
+    "training-for-competition-order": "Zdá se, že dělat kroky pokaždé ve stejném pořadí záleží víc než trávit na nich přesně stejný počet sekund. To stendové střelbě vyhovuje, protože čas mezi vaším zavoláním a vypuštěním terče se může u každého terče lišit. Ve {{tm:sporting}} terč vypouští člověk, stejně jako v {{tm:compak}} při ručním spuštění. Pravidla stanovují jen horní hranici této prodlevy. Pevnou ji drží jen {{term:sonopull|fonický systém}} v {{tm:compak}} – zařízení, které vypustí terč, jakmile zaslechne vaše zavolání. Přesné časy jsou níže.",
+    "training-for-competition-p4": {
+      "sporting": "Před {{term:call|zavoláním}} není zbraň zalícena. Botka {{term:stock|pažby}} – horní roh konce, který se opírá o rameno – se dotýká těla. Horní okraj pažby zůstává pod {{term:jacket-line|čárou na vestě}}. Je to pás vyznačený na vestě nebo bundě {{fact:rules.sporting-jacket-line}}; osa ramen je pomyslná vodorovná čára procházející oběma rameny. Toto {{term:ready-position|pohotovostní postoj}} (zbraň dole, připravená k zalícení) se drží, dokud terč nevyletí a vy ho neuvidíte ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+      "compak": "Poloha zbraně při zavolání je volná: zalícená nebo ne. Každý terč se střílí se zbraní v rameni. Čára na vestě neexistuje ({{rule:compak:ch17-gun-position}})."
+    },
+    "training-for-competition-train-start": "Trénujte způsob, jakým ve vaší disciplíně začíná každý výstřel: polohu zbraně, zavolání a čekání na terč.",
+    "training-for-competition-p5": {
+      "sporting": "Máte {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Po vašem zavolání dá rozhodčí signál {{term:trapper|obsluze vrhačky}} – osobě, která terč vypouští. Terč vyletí {{fact:rules.release-within-3s}} po signálu rozhodčího ({{rule:sporting:ch5-call-and-release}}).",
+      "compak": "Máte {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Terč vyletí {{fact:rules.release-within-3s}} po zavolání při ručním spuštění, nebo {{fact:rules.sonopull-delay}} po zavolání s fonickým systémem (hlasovým spuštěním) ({{rule:compak:ch2-trigger-manual}})."
+    },
+    "training-for-competition-time-it": "Na tréninku si čas svého rituálu měřte: má se vejít do {{term:firing-time|časového limitu}} bez spěchu. Pokud se terče vypouštějí ručně, požádejte obsluhu vrhačky, ať trochu mění prodlevu, abyste si zvykli zůstat připraveni, zatímco čekáte. Víc o pravidlech v lekci {{lesson:rules-call-and-time}}.",
+    "training-for-competition-pressure": "Přidávejte mírný tlak postupně: výsledek, na kterém záleží, divák, malá sázka. Výzkum tréninku pod tlakem naznačuje, že lidé, kteří trénují pod mírným tlakem, si lépe udrží dovednost, když je tlak skutečný. Studie pocházejí z jiných sportů a úkolů, takže nejspíš to platí i pro stendovou střelbu.",
+    "training-for-competition-pressure-steps": [
+      "Pět v řadě: vyberte si jeden terč a zůstaňte u něj, dokud nerozbijete pět v řadě; minutí počítání resetuje.",
+      "Kontrolní položka: celá položka s výsledkem, v pořadí menu, bez opakovaných terčů a s časovým limitem vaší disciplíny.",
+      "Diváci: požádejte přítele, ať se dívá, dělá rozhodčího a nahlas oznamuje výsledek.",
+      "Malá sázka: přátelský zápas, ve kterém například ten, kdo prohraje, koupí kávu.",
+      "Nácvik {{term:shoot-off|rozstřelu}}. Rozstřel je dodatečná střelba, která rozhoduje remízu. Hned po položce a bez dlouhé přípravy odstřílejte ještě jednu celou položku a podle chuti i sérii {{term:sudden-death|sudden death}}, která končí prvním minutím."
+    ],
+    "training-for-competition-shoot-off": "Skutečný rozstřel se koná jen o první tři místa. V obou disciplínách je to 25 terčů, a pokud je výsledek stále vyrovnaný, nastupuje {{term:sudden-death|sudden death}}: kdo první mine, vypadává ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
+    "training-for-competition-fit-in": "Jak to zapojit do běžného tréninku. Mnozí trenéři nechávají práci na technice na první část tréninku a jeden úkol pod tlakem přidávají ke konci, jednou až dvakrát týdně. Dokud se učíte nový pohyb, tlak vynechte, dokud se pohyb neusadí. Pokud se technika rozpadá, úkol spíš zjednodušte, než abyste tlačili dál.",
+    "training-for-competition-no-new-kit": "Závod je špatné místo na experimenty. Nové {{term:choke|zahrdlení}}, náboje nebo čočku vyzkoušejte nejdřív na tréninku.",
+    "training-for-competition-p6": "Domluvte se na plánu předem. {{term:coaching|Koučování}} – radění závodníkovi během závodu – není dovoleno v žádné z disciplín. Pokud {{term:referee|rozhodčí}} usoudí, že se střelci podsouvá rada, dostane střelec {{term:yellow-card|žlutou kartu}}, a toho, kdo radí, vyvedou ze střelecké zóny ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+    "training-for-competition-practice": {
+      "sporting": "Před závodem nesmí nikdo trénovat na závodních {{term:layout|střelištích}}, takže trénujte na jiných ({{rule:sporting:ch15-no-practice}}).",
+      "compak": "Před závodem lze trénovat na závodních trajektoriích, ale s jinou {{term:trajectory-setting-table|tabulkou nastavení drah}} – hotovým menu, které určuje, z kterých vrhaček se na každém čísle střílí. Na {{term:practice|tréninku}} tak vidíte stejné terče, ale v jiných kombinacích než v den závodu ({{rule:compak:ch6-practice}}). Na kontinentálních a světových mistrovstvích se oficiální trénink otevírá {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+    }
+  },
+  "note": {
+    "training-for-competition-n-coach": "Tlak zvyšujte jen tak rychle, jak drží technika střelce. Pokud se mění zalícení nebo tempo, vraťte se k lehčímu úkolu. Před závodem se domluvte na plánu; během něj radit nelze.",
+    "training-for-competition-n-interpreter": "Během závodu tlumočte jen to, co říkají rozhodčí a pořadatelé. Překlad trenérových rad střelci se může počítat jako zakázané radění (coaching)."
+  },
+  "phrases": {},
+  "key_points": {
+    "training-for-competition-kp1": "Část tréninků veďte jako závod: celé položky, výsledek a žádné opakované terče",
+    "training-for-competition-kp2": "Stejný rituál před každým terčem, odměřený podle limitu vaší disciplíny",
+    "training-for-competition-kp3": "{{tm:sporting}}: zbraň dole, pažba pod čárou na vestě, dokud se neobjeví terč; {{tm:compak}}: poloha zbraně volná",
+    "training-for-competition-kp-pressure": "Mírný tlak přidávejte postupně, jednou až dvakrát týdně",
+    "training-for-competition-kp5": "Během závodu žádné radění – domluvte se na plánu před startem"
+  },
+  "did_you_know": "Mnozí střelci využívají malé místní závody jako trénink: odzkoušejí si rituál a zjistí, které terče se pod tlakem „rozsypávají“.",
+  "quiz": {
+    "training-for-competition-q1": {
+      "q": "Kolik máte ve {{tm:sporting}} času mezi jednotlivými terči?",
+      "options": {
+        "a": "Nejvýše 15 sekund",
+        "b": "Nejvýše 60 sekund",
+        "c": "Kolik potřebujete"
+      },
+      "explain": "Za překročení limitu je nejdřív napomenutí, pak sankce. V {{tm:compak}} máte na zavolání nejvýše 10 sekund."
+    },
+    "training-for-competition-q2": {
+      "q": "Ve které disciplíně musí pažba zůstat pod čárou na vestě, dokud se neobjeví terč?",
+      "options": {
+        "a": "V obou disciplínách",
+        "b": "Jen ve {{tm:sporting}}",
+        "c": "Jen v {{tm:compak}}"
+      },
+      "explain": "V {{tm:compak}} je poloha zbraně při zavolání volná a čára na vestě neexistuje."
+    },
+    "training-for-competition-q-pressure": {
+      "q": "Jak podle výzkumů přidávat tlak do tréninku?",
+      "options": {
+        "a": "Co nejvíc už od prvního tréninku",
+        "b": "Jen v týdnu před závodem",
+        "c": "Nejdřív mírně, pak postupně víc"
+      },
+      "explain": "Mírný tlak, který roste pomalu, nechá techniku držet, zatímco si na něj zvykáte."
+    },
+    "training-for-competition-q3": {
+      "q": "Smí trenér radit střelci během závodu?",
+      "options": {
+        "a": "Ano, ale jen mezi střeleckými místy",
+        "b": "Ano, ale jen gesty",
+        "c": "Ne: střelec může dostat žlutou kartu"
+      },
+      "explain": "Koučování během závodu není dovoleno v žádné z disciplín, proto se plán domlouvá předem."
+    },
+    "training-for-competition-q-compak-time": {
+      "q": "Kolik času máte v {{tm:compak}} na zavolání po výstřelu na předchozím čísle?",
+      "options": {
+        "a": "Nejvýše 10 sekund",
+        "b": "Nejvýše 30 sekund",
+        "c": "Žádný limit neexistuje"
+      },
+      "explain": "Za první překročení limitu je napomenutí zapsané do protokolu; za opakování ve stejné položce následuje sankce."
+    }
+  }
+}

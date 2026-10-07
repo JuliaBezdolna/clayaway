@@ -1,0 +1,426 @@
+{
+  "id": "mind-imagery",
+  "rev": 2,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "target-presentation",
+    "hold-point",
+    "pick-up-point",
+    "break-point",
+    "target-menu",
+    "mock-shooting",
+    "imagery"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-presentation"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-mock-shooting"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-show-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-open-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    }
+  ],
+  "facts": [
+    "rules.reshow-after-interruption"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "The effects of imagery interventions in sports: a meta-analysis (International Review of Sport and Exercise Psychology, 2021)"
+      },
+      "url": "https://www.researchgate.net/publication/341945828",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Effects of psychological interventions to enhance athletic performance: a systematic review and meta-analysis (Sports Medicine, 2024)"
+      },
+      "url": "https://doi.org/10.1007/s40279-023-01931-z",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The PETTLEP approach to motor imagery: a functional equivalence model for sport psychologists (Journal of Applied Sport Psychology, 2001)"
+      },
+      "url": "https://e-space.mmu.ac.uk/3686/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "It's all in the mind: PETTLEP-based imagery and sports performance (Journal of Applied Sport Psychology, 2007)"
+      },
+      "url": "https://www.researchgate.net/publication/38145375",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Imagery: rehearse the stand",
+    "uk": "Уявна репетиція: пройти стрілецьке місце подумки"
+  },
+  "summary": {
+    "en": "How to run each target through in your head after the presentation: through your own eyes, at the speed of the real shot, once or twice per target.",
+    "uk": "Як подумки пройти кожну мішень після показу: своїми очима, з тією самою швидкістю, що й справжній постріл, один-два рази на мішень."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "After the viewing, picture the hold, pick-up and break points: through your own eyes, in real time, 1–2 times per target.",
+        "Hold the gun only where the rules allow it, and never mount or swing it outside the stand (mock shooting).",
+        "Rehearse the reset after a miss as well.",
+        "{{tm:compak}}: run through the menu of the next station in your head while you wait.",
+        "On average imagery helps, but how much is unclear. Evidence: some research (moderate)."
+      ],
+      "uk": [
+        "Після показу побачити подумки точку утримання, точку підхоплення і точку пострілу: своїми очима, у реальному часі, 1–2 рази на мішень.",
+        "Тримати рушницю лише там, де це дозволяють правила, і ніколи не вкладатися й не вести рушницю поза стрілецьким місцем (імітація стрільби).",
+        "Відрепетирувати подумки і перезапуск після промаху.",
+        "{{tm:compak}}: поки чекаєте, пройти подумки меню наступного номера.",
+        "У середньому уявна репетиція допомагає, але наскільки — неясно. Доказовість: є дослідження (помірна)."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-imagery-p1",
+      "t": "p",
+      "en": "{{term:imagery|Imagery}}, or mental rehearsal, means seeing and feeling a movement in your mind without doing it. Studies show it usually helps, especially alongside real practice, but nobody knows exactly how much.",
+      "uk": "{{term:imagery|Уявна репетиція}} — це коли ви бачите й відчуваєте рух подумки, не виконуючи його. Дослідження показують, що вона зазвичай допомагає, особливо разом зі справжнім тренуванням, але наскільки саме — невідомо."
+    },
+    {
+      "k": "mind-imagery-p2",
+      "t": "p",
+      "en": "Imagery seems to work better when it is close to the real thing: the same stand, the same targets, the real speed and your own point of view. The research is not from clay shooting, so most likely it works the same way in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "Уявна репетиція, схоже, краще працює, коли вона близька до справжньої стрільби: те саме місце, ті самі мішені, справжня швидкість і погляд вашими очима. Дослідження проводили не у стендовій стрільбі, тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+    },
+    {
+      "k": "mind-imagery-steps",
+      "t": "steps",
+      "en": [
+        "Watch the {{term:target-presentation|presentation}} and decide the {{term:hold-point|hold point}}, {{term:pick-up-point|pick-up point}} and {{term:break-point|break point}} for each target.",
+        "Look at the ground or close your eyes and run each target through in your head once or twice, at the same speed as the real shot.",
+        "See it through your own eyes: the muzzles at the hold point, the target appearing, the gun coming onto its flight line, the break.",
+        "Rehearse a miss as well: see yourself breathe out, reset and break the next target.",
+        "Then step into your usual routine."
+      ],
+      "uk": [
+        "Подивіться {{term:target-presentation|показ}} і визначте для кожної мішені {{term:hold-point|точку утримання}}, {{term:pick-up-point|точку підхоплення}} і {{term:break-point|точку пострілу}}.",
+        "Подивіться в землю або заплющте очі й пройдіть кожну мішень подумки один-два рази з тією самою швидкістю, що й справжній постріл.",
+        "Бачте все своїми очима: стволи в точці утримання, поява мішені, рушниця виходить на лінію її польоту, мішень розбита.",
+        "Відрепетируйте й промах: побачте, як ви видихаєте, перезапускаєтеся і розбиваєте наступну мішень.",
+        "Потім переходьте до свого звичного ритуалу."
+      ]
+    },
+    {
+      "k": "mind-imagery-compare",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "The targets are shown to the first shooter of the squad ({{rule:sporting:ch16-presentation}}). Rehearse while the others shoot, not when you are on the stand and the clock is running.",
+        "uk": "Мішені показують першому стрільцеві групи ({{rule:sporting:ch16-presentation}}). Репетируйте, поки стріляють інші, а не тоді, коли ви вже на місці і йде час."
+      },
+      "compak": {
+        "en": "When {{tm:compak}} is shot by squad, the first squad of the day sees the targets once, early in the morning ({{rule:compak:ch17-squad-show-targets}}). After a stop of {{fact:rules.reshow-after-interruption}}, the singles are shown again. If your squad has six shooters, use the wait behind station 1 ({{rule:compak:ch17-squad-rotation}}) to run through the {{term:target-menu|menu}} of your next station.",
+        "uk": "Коли в {{tm:compak}} стріляють у форматі by squad, перша група дня бачить мішені один раз, рано вранці ({{rule:compak:ch17-squad-show-targets}}). Після перерви {{fact:rules.reshow-after-interruption}} одиночні мішені показують знову. Якщо у вашій групі шість стрільців, використайте очікування за першим номером ({{rule:compak:ch17-squad-rotation}}), щоб подумки пройти {{term:target-menu|меню}} наступного номера."
+      }
+    },
+    {
+      "k": "mind-imagery-warn",
+      "t": "warn",
+      "disc": "both",
+      "critical": true,
+      "en": "Rehearse in your head, not with the gun. Mounting and swinging the gun along a target's line is {{term:mock-shooting|mock shooting}}: {{tm:sporting}} does not allow it on or off the layouts ({{rule:sporting:ch8-mock-shooting}}). In {{tm:compak}} you may not do it away from the shooting positions or while another member of your squad is shooting ({{rule:compak:ch24-dry-mounting}}). While targets are shown, the gun stays open and unloaded ({{rule:compak:ch21-open-gun}}).",
+      "uk": "Репетируйте подумки, а не з рушницею. Вкладатися й вести рушницю вздовж лінії мішені — це {{term:mock-shooting|імітація стрільби}}: у {{tm:sporting}} вона заборонена і на майданчиках, і поза ними ({{rule:sporting:ch8-mock-shooting}}). У {{tm:compak}} її не можна робити поза номерами, а також тоді, коли стріляє інший учасник вашої групи ({{rule:compak:ch24-dry-mounting}}). Під час показу мішеней рушниця має бути відкрита й розряджена ({{rule:compak:ch21-open-gun}})."
+    },
+    {
+      "k": "mind-imagery-p3",
+      "t": "p",
+      "en": "Some shooters hold their open, unloaded gun while they rehearse, so the picture feels real. Do this only where the ground and the rules allow it, and keep the muzzles in a safe direction.",
+      "uk": "Деякі стрільці тримають у руках відкриту й розряджену рушницю під час репетиції, щоб картинка була реальнішою. Робіть так лише там, де це дозволяють стенд і правила, і тримайте стволи в безпечному напрямку."
+    },
+    {
+      "k": "mind-imagery-p4",
+      "t": "p",
+      "en": "In training weeks, you can try about ten minutes of imagery three to five times a week. Picture specific stands you know, and include the nerves you expect to feel on the day.",
+      "uk": "У тренувальні тижні можна спробувати приблизно десять хвилин уявної репетиції три-п’ять разів на тиждень. Уявляйте конкретні знайомі місця й додавайте те хвилювання, яке очікуєте відчути в день змагань."
+    },
+    {
+      "k": "mind-imagery-p5",
+      "t": "p",
+      "en": "Imagery is not the same as hoping for a good result. It is a short, precise rehearsal of the shot you plan to make.",
+      "uk": "Уявна репетиція — це не те саме, що сподіватися на добрий результат. Це коротке й точне повторення пострілу, який ви плануєте зробити."
+    },
+    {
+      "k": "mind-imagery-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "quartering-away",
+        "focus": "points"
+      },
+      "ready": false,
+      "en": "Animation: the pick-up point, the hold point and the break point on one target.",
+      "uk": "Анімація: точка підхоплення, точка утримання і точка пострілу на одній мішені."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-imagery-n1",
+      "for": "coach",
+      "en": "Ask the shooter to describe one target aloud before the stand: hold point, pick-up point, break point. A clear description usually means a clear picture.",
+      "uk": "Попросіть стрільця перед стрілецьким місцем описати вголос одну мішень: точку утримання, точку підхоплення, точку пострілу. Чіткий опис зазвичай означає чітку картинку."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-imagery-kp1",
+      "en": "After the presentation, run each target through in your head once or twice, at the speed of the real shot.",
+      "uk": "Після показу пройдіть кожну мішень подумки один-два рази з тією самою швидкістю, що й справжній постріл.",
+      "checklist": true
+    },
+    {
+      "k": "mind-imagery-kp2",
+      "en": "See it through your own eyes: hold point, pick-up point and break point.",
+      "uk": "Бачте все своїми очима: точка утримання, точка підхоплення, точка пострілу."
+    },
+    {
+      "k": "mind-imagery-kp3",
+      "en": "Rehearse the reset after a miss as well.",
+      "uk": "Репетируйте й перезапуск після промаху."
+    },
+    {
+      "k": "mind-imagery-kp4",
+      "en": "{{tm:compak}}: if you wait behind station 1 (in a squad of six), run through your next station's menu there.",
+      "uk": "{{tm:compak}}: якщо ви чекаєте за першим номером (у групі з шести стрільців), пройдіть там подумки меню наступного номера."
+    },
+    {
+      "k": "mind-imagery-kp5",
+      "en": "Rehearse in your head: mounting and swinging the gun is mock shooting.",
+      "uk": "Репетируйте подумки: вкладатися й вести рушницю — це імітація стрільби."
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-imagery-dyk",
+    "en": "Imagery can include feelings as well as pictures: the weight of the gun, the sound of the call, even slight nerves. Some shooters rehearse those nerves so that they feel familiar on the day.",
+    "uk": "Уявна репетиція може містити не лише картинки, а й відчуття: вагу рушниці, звук команди, навіть легке хвилювання. Деякі стрільці подумки репетирують і це хвилювання, щоб у день змагань воно було знайомим."
+  },
+  "quiz": [
+    {
+      "k": "mind-imagery-q1",
+      "q": {
+        "en": "How can you rehearse a target in your head?",
+        "uk": "Як подумки репетирувати мішень?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In slow motion, as if filmed from behind",
+          "uk": "Повільно, ніби на відео ззаду"
+        },
+        {
+          "k": "b",
+          "en": "Through your own eyes, at real speed",
+          "uk": "Своїми очима, зі справжньою швидкістю"
+        },
+        {
+          "k": "c",
+          "en": "Only the moment the target breaks",
+          "uk": "Лише момент, коли мішень розбивається"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Imagery seems to work better when it is close to the real shot: your own view and the real speed.",
+        "uk": "Уявна репетиція, схоже, краще працює, коли вона близька до справжнього пострілу: погляд вашими очима й справжня швидкість."
+      }
+    },
+    {
+      "k": "mind-imagery-q2",
+      "disc": "compak",
+      "q": {
+        "en": "In a {{tm:compak}} squad of six, when is a good moment for imagery?",
+        "uk": "Коли в групі з шести стрільців у {{tm:compak}} добрий момент для уявної репетиції?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "While you wait behind station 1",
+          "uk": "Поки чекаєте за першим номером"
+        },
+        {
+          "k": "b",
+          "en": "Right after you call for the target",
+          "uk": "Одразу після команди"
+        },
+        {
+          "k": "c",
+          "en": "While the referee marks the score",
+          "uk": "Поки суддя записує результат"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In a squad of six, the wait behind station 1 is time without pressure: run through the menu of your next station.",
+        "uk": "У групі з шести стрільців очікування за першим номером — час без тиску: пройдіть подумки меню наступного номера."
+      },
+      "rule_ref": "compak:ch17-squad-rotation"
+    },
+    {
+      "k": "mind-imagery-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, why should you not mount and swing the gun along a target's line while you wait?",
+        "uk": "Чому в {{tm:sporting}} не можна вкладатися й вести рушницю вздовж лінії мішені, поки ви чекаєте?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It tires your arms before the round",
+          "uk": "Це втомлює руки перед раундом"
+        },
+        {
+          "k": "b",
+          "en": "It shows other shooters your plan",
+          "uk": "Це показує іншим стрільцям ваш план"
+        },
+        {
+          "k": "c",
+          "en": "It is mock shooting: not allowed",
+          "uk": "Це імітація стрільби, а вона заборонена"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "{{tm:sporting}} does not allow mock shooting on or off the layouts; rehearse in your head instead.",
+        "uk": "У {{tm:sporting}} імітація стрільби заборонена і на майданчиках, і поза ними; репетируйте подумки."
+      },
+      "rule_ref": "sporting:ch8-mock-shooting"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": [
+    {
+      "for": "mind-imagery-p1",
+      "level": "some",
+      "sources": [
+        "https://www.researchgate.net/publication/341945828",
+        "https://doi.org/10.1007/s40279-023-01931-z"
+      ]
+    },
+    {
+      "for": "mind-imagery-p2",
+      "level": "little",
+      "sources": [
+        "https://e-space.mmu.ac.uk/3686/",
+        "https://www.researchgate.net/publication/38145375"
+      ]
+    },
+    {
+      "for": "mind-imagery-steps",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-imagery-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-imagery-p4",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "f1409e1d",
+    "summary": "e0606218",
+    "mind-imagery-p1": "f5e8960a",
+    "mind-imagery-p2": "289888e2",
+    "mind-imagery-steps": "28ece61c",
+    "mind-imagery-compare": "10c532be",
+    "mind-imagery-warn": "c0641cc2",
+    "mind-imagery-p3": "48ed15f5",
+    "mind-imagery-p4": "e76e5ecb",
+    "mind-imagery-p5": "9a17bd48",
+    "mind-imagery-sim": "6b0bf79e",
+    "mind-imagery-n1": "e0b784f1",
+    "mind-imagery-kp1": "8d58e5b8",
+    "mind-imagery-kp2": "6b64e524",
+    "mind-imagery-kp3": "b5e1e1e5",
+    "mind-imagery-kp4": "ef0c69a0",
+    "mind-imagery-kp5": "5f67e6a9",
+    "mind-imagery-dyk": "19eae1c0",
+    "mind-imagery-q1": "f57278bc",
+    "mind-imagery-q2": "a226f60a",
+    "mind-imagery-q3": "9fcd9d83"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
+      "Animation ready:false: check it in the page against the text (soft/hard focus or the three points), then set ready:true."
+    ]
+  }
+}

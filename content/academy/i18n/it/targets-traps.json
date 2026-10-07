@@ -1,0 +1,98 @@
+{
+  "id": "targets-traps",
+  "lang": "it",
+  "base_rev": 3,
+  "h": {
+    "title": "ef239114",
+    "summary": "2ab98c5a",
+    "targets-traps-p1": "e299fc57",
+    "targets-traps-p2": "230871a5",
+    "targets-traps-p3": "0f4722a7",
+    "targets-traps-p4": "5f6e72fc",
+    "targets-traps-p5": "a5d1400f",
+    "targets-traps-n1": "0941d9af",
+    "targets-traps-n2": "dfb58822",
+    "targets-traps-ph1": "5b0d7a5c",
+    "targets-traps-ph2": "4e6e8b21",
+    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-kp1": "5d8f8aa8",
+    "targets-traps-kp2": "9837dbae",
+    "targets-traps-kp3": "2aaf4d92",
+    "targets-traps-kp4": "13f08f48",
+    "targets-traps-kp5": "d64923f1",
+    "targets-traps-q1": "20533e21",
+    "targets-traps-q2": "9529d885",
+    "targets-traps-q3": "ad85f910"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Le macchine, il lancio e il puller",
+  "summary": "Cos'è una macchina lanciapiattelli, come sono contrassegnate le macchine, come una chiamata lancia il piattello in {{tm:sporting}} e {{tm:compak}}, e quali errori della macchina sono un No Bird.",
+  "body": {
+    "targets-traps-p1": "Una {{term:trap|macchina lanciapiattelli}} (trap) è la macchina che lancia i piattelli. Le macchine possono essere manuali o automatiche (il regolamento {{tm:compak}} nomina anche quelle semiautomatiche). Nello {{tm:sporting}} le macchine di una pedana sono contrassegnate da sinistra a destra, come viste dalla pedana: A, B, C e così via (il regolamento nomina dalla A alla D). Nel {{tm:compak}} le sei macchine vanno dalla A alla F, ognuna con un pannello con la lettera.",
+    "targets-traps-p2": "Il tiratore chiede il piattello con una {{term:call|chiamata}}: il regolamento nomina «pull» o «ready», anche se in pratica le parole variano. Nello {{tm:sporting}} l'arbitro trasmette poi un segnale acustico al {{term:trapper|puller}}, la persona che lancia i piattelli. Il piattello deve partire entro tre secondi da quel segnale.",
+    "targets-traps-p3": "Nel {{tm:compak}} il piattello può essere lanciato in tre modi: a mano, con un telecomando o con un {{term:sonopull|phonopull}} (sonopull). Il phonopull è un microfono che sente la chiamata del tiratore e lancia da solo il piattello. Con il lancio a mano il piattello parte da 0 a 3 secondi dopo la chiamata; il phonopull attende un ritardo fisso di 0,5 secondi. Negli eventi internazionali {{term:compak-in-line|«in linea»}}, dove ogni tiratore passa a turno dalla pedana 1 alla 5, si usa solo il phonopull, con {{term:electronic-refereeing|arbitraggio elettronico}} e punteggio approvati dalla FITASC.",
+    "targets-traps-p4": "Un lancio a comando vocale ha un microfono sulla pedana. Anche la tua voce può farlo scattare. Su una pedana di questo tipo, resta in silenzio mentre il tiratore è pronto: sussurra tra un piattello e l'altro o fai un passo indietro.",
+    "targets-traps-p5": "Gli errori della macchina sono un {{term:no-bird|No Bird}} in entrambe le discipline. Esempi: un piattello rotto mentre viene lanciato, uno dalla macchina sbagliata, uno lanciato senza chiamata, o uno partito con più di tre secondi di ritardo. Nello {{tm:sporting}} è un No Bird anche se escono due piattelli dalle macchine della stessa pedana quando ne era previsto uno. Nel {{tm:compak}} è un No Bird se un'altra macchina dello stesso campo lancia un piattello per errore."
+  },
+  "note": {
+    "targets-traps-n1": "Mantieni le lettere latine delle macchine quando traduci: le usano il menu e lo statino.",
+    "targets-traps-n2": "Non tradurre la chiamata in sé: è un segnale per la macchina, non una frase."
+  },
+  "phrases": {
+    "targets-traps-ph1": {
+      "meaning": "La traiettoria della macchina è cambiata; il tiratore deve segnalarlo prima di sparare.",
+      "say": "La macchina B lancia più basso che nella presentazione: dillo all'arbitro."
+    },
+    "targets-traps-ph2": {
+      "meaning": "Un microfono fa partire i piattelli; parlando se ne può lanciare uno.",
+      "say": "Qui c'è il comando vocale: niente chiacchiere in pedana."
+    },
+    "targets-traps-ph3": {
+      "meaning": "Il piattello è partito più di tre secondi dopo la chiamata.",
+      "say": "Su quello il puller era in ritardo: è un no bird."
+    }
+  },
+  "key_points": {
+    "targets-traps-kp1": "Macchine: A, B, C… su una pedana {{tm:sporting}} (il regolamento nomina A–D), A–F su un campo Compak; mantieni le lettere latine.",
+    "targets-traps-kp2": "La chiamata («pull», «ready») lancia il piattello.",
+    "targets-traps-kp3": "{{tm:sporting}}: l'arbitro segnala al puller; il piattello entro 3 secondi.",
+    "targets-traps-kp4": "{{tm:compak}}: manuale 0–3 s, telecomando, o phonopull con ritardo fisso di 0,5 s.",
+    "targets-traps-kp5": "I piattelli in ritardo, dalla macchina sbagliata o senza chiamata sono No bird; un microfono può sentirti."
+  },
+  "quiz": {
+    "targets-traps-q1": {
+      "q": "Nello {{tm:sporting}}, quanto tempo può passare tra il segnale dell'arbitro e la partenza del piattello?",
+      "options": {
+        "a": "Fino a 1 secondo",
+        "b": "Fino a 3 secondi",
+        "c": "Fino a 10 secondi",
+        "d": "Qualsiasi tempo"
+      },
+      "explain": "Un piattello lanciato dopo più di tre secondi è un No Bird."
+    },
+    "targets-traps-q2": {
+      "q": "Qual è il ritardo fisso del phonopull nel {{tm:compak}}?",
+      "options": {
+        "a": "0 secondi",
+        "b": "3 secondi",
+        "c": "0,5 secondi",
+        "d": "Lo imposta ogni tiratore"
+      },
+      "explain": "Il phonopull deve applicare un ritardo fisso e non modificabile di 0,5 secondi."
+    },
+    "targets-traps-q3": {
+      "q": "Sei su una pedana con comando vocale e il tiratore è pronto. Cosa fai?",
+      "options": {
+        "a": "Dai al tiratore un ultimo consiglio ad alta voce",
+        "b": "Chiedi al puller di aspettare un momento",
+        "c": "Ripeti per lui la parola di chiamata",
+        "d": "Stai in silenzio; sussurra solo tra un piattello e l'altro"
+      },
+      "explain": "La tua voce può far scattare il microfono e lanciare un piattello che nessuno ha chiamato."
+    }
+  }
+}

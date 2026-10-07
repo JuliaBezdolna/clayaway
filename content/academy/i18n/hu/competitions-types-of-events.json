@@ -1,0 +1,94 @@
+{
+  "id": "competitions-types-of-events",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "9dffeb91",
+    "summary": "5266bf8e",
+    "competitions-types-of-events-p1": "3fa8f0c6",
+    "competitions-types-of-events-p2": "e47a0618",
+    "competitions-types-of-events-p3": "4068ff56",
+    "competitions-types-of-events-p4": "2050ea6a",
+    "competitions-types-of-events-cmp1": "db25bf76",
+    "competitions-types-of-events-p5": "167ea310",
+    "competitions-types-of-events-start": "c01655a7",
+    "competitions-types-of-events-n1": "b410ad60",
+    "competitions-types-of-events-kp1": "334df79a",
+    "competitions-types-of-events-kp2": "60c3ebde",
+    "competitions-types-of-events-kp3": "3156c5e6",
+    "competitions-types-of-events-kp5": "c5cdc6bb",
+    "competitions-types-of-events-dyk-targets": "0efb7454",
+    "competitions-types-of-events-q1": "b0ccc10a",
+    "competitions-types-of-events-q2": "7eb048a4",
+    "competitions-types-of-events-q3": "5bc9c1dc",
+    "competitions-types-of-events-q4": "f3d60ee6"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "body": {
+    "competitions-types-of-events-p1": "A versenyek a {{tm:sporting}}-ban és a {{tm:compak}}-ban egy baráti {{term:club-shoot|klubversenytől}} egy világ{{term:championship|bajnokságig}} terjednek. Mindkét versenyszám nemzetközi szabályait a {{term:fitasc|FITASC}} írja, a sportot irányító nemzetközi szövetség. Hogyan szerveződik a sport: {{lesson:intro-fitasc-and-organisation}}.",
+    "competitions-types-of-events-p2": "Egy klubverseny jó hely a kezdéshez. Klubok és stendek rendezik, gyakran hétvégenként. Rendszerint kevesebb a korong, mint a nagy versenyeken, a tempó nyugodtabb, és szívesen elmagyarázzák, mit kell tenni. A {{term:organiser|rendező}} határozza meg a korongok számát, a formátumot és néhány szabályt, ezért olvasd el a programot.",
+    "competitions-types-of-events-p3": "Ezután jönnek a nemzeti versenyek: a {{term:national-federation|nemzeti szövetség}} vagy az általa kijelölt klub által rendezett nemzeti bajnokságok és kupák. A szabályaik gyakran közel állnak a nemzetköziekhez, és az eredmények számíthatnak a nemzeti válogatott kiválasztásánál.",
+    "competitions-types-of-events-p4": "A nemzetközi FITASC versenyek sok ország lövészei előtt nyitottak. Ide tartoznak a {{term:grand-prix|Grand Prix}} versenyek, és a csúcsszinten az Európa- és a világbajnokság. Egy nemzetközi verseny rendszerint {{fact:basics.international-targets}}, több napon át.",
+    "competitions-types-of-events-cmp1": {
+      "sporting": "A 200 korongot nyolc {{term:layout|lőpályán}} lövik, mindegyiken egy 25-ös {{term:round|kört}}. Grand Prix versenyeken egy „line” formátum is megengedett: egy sor {{fact:competitions.sporting-grand-prix-line}}.",
+      "compak": "A 200 korongot nyolc Compak-mezőn lövik (egy Compak egy mező, öt lőállással és hat dobógéppel). A mezők négyfélék: aszerint különböznek, hány szóló korongot és dublét lőnek minden lőálláson, és milyen típusú dublékat. A kontinentális és világbajnokságokon a házigazda klub {{fact:competitions.compak-championship-machines}} állít fel (mezőnként hatot) csak arra a versenyre, hogy mindenki ugyanolyan körülmények közt lőjön."
+    },
+    "competitions-types-of-events-p5": "A nagy bajnokságok {{term:team|csapatokat}} is rangsorolnak, nem csak egyéneket: egy nemzeti válogatott tagjainak eredményeit összeadják. A lövészeket kor és nem szerinti {{term:category|kategóriákban}} is rangsorolják. Mindkettőt a {{lesson:competitions-categories-and-shoot-offs}} magyarázza el.",
+    "competitions-types-of-events-start": "Sok edző néhány klubverseny kipróbálását javasolja először. Így sok nyomás nélkül hozzászoksz a menetrendhez, a {{term:squad|rottéhoz}} és a {{term:referee|bíróhoz}}. Hogyan nevezz: {{lesson:competitions-how-to-enter}}."
+  },
+  "note": {
+    "competitions-types-of-events-n1": "A verseny szintje számít a lövészeknek. Egy FITASC Grand Prix egy nemzetközi, a FITASC naptárában szereplő verseny; nemzeti vagy klubversenyeket is hívhatnak Grand Prix-nak. A szintet pontosan úgy fordítsd, ahogy a program megnevezi."
+  },
+  "phrases": {},
+  "key_points": {
+    "competitions-types-of-events-kp1": "Egy klubverseny jó első lépés; a rendező állítja be a formátumát.",
+    "competitions-types-of-events-kp2": "A nemzeti versenyeket a nemzeti szövetség vagy az általa kijelölt klub rendezi.",
+    "competitions-types-of-events-kp3": "A Grand Prix versenyek és az Európa- és világbajnokságok nemzetköziek; rendszerint {{fact:basics.international-targets}}.",
+    "competitions-types-of-events-kp5": "A bajnokságok egyéneket, csapatokat és kategóriákat is rangsorolnak."
+  },
+  "quiz": {
+    "competitions-types-of-events-q1": {
+      "q": "Hány korongja szokott lenni egy nemzetközi FITASC versenynek?",
+      "options": {
+        "a": "100",
+        "b": "200",
+        "c": "150"
+      },
+      "explain": "Egy nemzetközi verseny rendszerint 200 korong, 25-ös körökben lőve."
+    },
+    "competitions-types-of-events-q2": {
+      "q": "Ki szokta meghatározni egy klubverseny formátumát?",
+      "options": {
+        "a": "A lövészek, a napon",
+        "b": "A bíró az első lőálláson",
+        "c": "A rendező, a programban"
+      },
+      "explain": "A rendező határozza meg a korongok számát és a klubverseny formátumát, és a program mondja meg, mik azok."
+    },
+    "competitions-types-of-events-q3": {
+      "q": "Miért használnak új dobógépeket a kontinentális és világ {{tm:compak}} bajnokságokon?",
+      "options": {
+        "a": "Hogy mindenkinek egyenlők legyenek a körülmények",
+        "b": "Mert a régi gépeket a törvény tiltja",
+        "c": "Hogy a korongok gyorsabban repüljenek"
+      },
+      "explain": "A házigazda klub nem használhatja azokat a gépeket, amelyeken rendszerint lő: {{fact:competitions.compak-championship-machines}} csak a bajnokságra állnak fel."
+    },
+    "competitions-types-of-events-q4": {
+      "q": "Melyik különleges {{tm:sporting}} formátum csak Grand Prix versenyeken megengedett?",
+      "options": {
+        "a": "Tízfős rotték egy lőálláson",
+        "b": "Egy sor 3 lőállásból, mindegyikben 5 dobógéppel",
+        "c": "50 korongos körök egy lőpályán"
+      },
+      "explain": "Egy sor 3 lőállásból, mindegyikben 5 dobógéppel, csak Grand Prix versenyeken megengedett."
+    }
+  },
+  "title": "A versenyek típusai",
+  "summary": "Klubversenyek, nemzeti versenyek, Grand Prix és bajnokságok a {{tm:sporting}}-ban és a {{tm:compak}}-ban: miben különböznek, és hol kezdhet egy kezdő.",
+  "did_you_know": "A {{tm:sporting}}-ban a zsűri kivételes esetben csökkentheti a korongok számát. A rendező ilyenkor visszatéríti a le nem lőtt korongok árát, a gyakorlókorongok árán."
+}

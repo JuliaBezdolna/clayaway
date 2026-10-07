@@ -1,0 +1,94 @@
+{
+  "id": "interpreter-role",
+  "lang": "de",
+  "base_rev": 1,
+  "h": {
+    "title": "e32c790c",
+    "summary": "735494ce",
+    "interpreter-role-p1": "63aa3afe",
+    "interpreter-role-p2": "20bf17dd",
+    "interpreter-role-p3": "ffa9d77d",
+    "interpreter-role-p4": "05133f45",
+    "interpreter-role-p5": "95880a4b",
+    "interpreter-role-ph1": "37c9f2f8",
+    "interpreter-role-ph2": "c4e29ad8",
+    "interpreter-role-ph3": "d5bafeee",
+    "interpreter-role-ph4": "9865c9d3",
+    "interpreter-role-kp1": "55c1f223",
+    "interpreter-role-kp2": "c81d5e54",
+    "interpreter-role-kp3": "09ea0df5",
+    "interpreter-role-kp4": "2f221dbb",
+    "interpreter-role-kp5": "9ee1fb35",
+    "interpreter-role-q1": "e5205376",
+    "interpreter-role-q2": "03de6608",
+    "interpreter-role-q3": "9832dd5e"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "Ihre Rolle: Training gegenüber Wettkampf",
+  "summary": "Im Training sind Sie die Stimme des Trainers. Im Wettkampf ist Coaching verboten, deshalb geben Sie nur weiter, was Schiedsrichter, Jury und Veranstalter sagen.",
+  "body": {
+    "interpreter-role-p1": "Im Training sind Sie die Stimme des {{term:coach|Trainers}}. Geben Sie jede Anweisung vollständig weiter, in der Reihenfolge und im Ton des Trainers: bestimmt bei der Sicherheit, herzlich beim Lob. Schwächen Sie Kritik nicht ab und fügen Sie keine Begründungen hinzu, die der Trainer nicht gegeben hat. Fügen Sie keine eigenen Technik-Tipps hinzu, auch wenn Sie die Antwort kennen. Haben Sie ein Wort nicht verstanden, fragen Sie nach, bevor Sie übersetzen.",
+    "interpreter-role-p2": "Im Wettkampf ist es anders. Sowohl bei {{tm:sporting}} als auch bei {{tm:compak}} ist es verboten, einen Teilnehmer während des Wettkampfs zu {{term:coaching|coachen}}. Der Schütze erhält eine {{term:yellow-card|Gelbe Karte}}, Wiederholungen bringen schwerere Strafen, und der {{term:referee|Schiedsrichter}} weist die coachende Person aus dem Schießbereich ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Die Entscheidung des Schiedsrichters trifft er allein. Niemand in der {{term:squad|Rotte}} kommentiert Treffer. Offene Kritik an einer Entscheidung gilt als {{term:attempt-to-influence|Beeinflussungsversuch}} gegenüber dem Schiedsrichter, also als Versuch, ihn zu einer anderen Entscheidung zu drängen ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "interpreter-role-p3": "Und nun der ehrliche Teil: Die FITASC-Regelwerke erwähnen Dolmetscher überhaupt nicht. Sie sagen nicht, ob die wortwörtliche Weitergabe eines Trainerrats als Coaching gilt. Auch nicht, wo ein Dolmetscher stehen darf. Das ist eine offene Frage für die FITASC, stellen Sie also keine Antwort als offiziell dar.",
+    "interpreter-role-p4": "Bis FITASC antwortet, halten Sie sich an eine sichere Praxis. Dolmetschen Sie im Wettkampf nur, was zwischen Ihrem Schützen und dem Schiedsrichter, der {{term:jury|Jury}} oder dem {{term:organiser|Veranstalter}} abläuft: Abrufe, Entscheidungen, Verwarnungen, {{term:protest|Proteste}}, Zeiten und Rottenlisten. Sagen Sie vor der Veranstaltung dem Schiedsrichter oder Veranstalter, wer Sie sind, und vereinbaren Sie, wo Sie stehen werden. Bittet ein Trainer Sie, während des Wettkampfs einen Rat weiterzugeben, lehnen Sie höflich ab und erklären Sie, warum. Das schützt Ihren Schützen vor einer Gelben Karte.",
+    "interpreter-role-p5": "Die Regeln sagen nicht, ob eine Pause zwischen Runden noch als „während des Wettkampfs“ gilt. Sind Sie unsicher, fragen Sie die Jury oder den Veranstalter, bevor Sie irgendeinen Rat weitergeben. Wo Sie stehen und wann Sie sprechen: {{lesson:interpreter-position}}."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-role-ph1": {
+      "meaning": "Training: vollständig weitergeben, wenn die Flinte offen ist.",
+      "say": "Sagen Sie ihr, dass sie bei der zweiten Taube den Kopf hebt."
+    },
+    "interpreter-role-ph2": {
+      "meaning": "Wettkampf: Das ist Coaching. Höflich ablehnen; nicht weitergeben.",
+      "say": "Schnell – sagen Sie ihm, er soll dem Crosser mehr geben."
+    },
+    "interpreter-role-ph3": {
+      "meaning": "Der Schiedsrichter fragt, warum Sie nahe am Stand sind; stellen Sie sich und Ihre Rolle vor.",
+      "say": "Zu wem gehören Sie?"
+    },
+    "interpreter-role-ph4": {
+      "meaning": "Eine Verfahrensfrage an den Schiedsrichter: Sie dürfen sie dolmetschen.",
+      "say": "Fragen Sie den Schiedsrichter, ob ich noch die Chokes wechseln darf."
+    }
+  },
+  "key_points": {
+    "interpreter-role-kp1": "Training: die Stimme des Trainers – vollständig, im selben Ton, nichts Eigenes",
+    "interpreter-role-kp2": "Wettkampf: Coaching ist verboten (Gelbe Karte, Trainer wird verwiesen)",
+    "interpreter-role-kp3": "Offene FITASC-Frage: Die Regelwerke erwähnen Dolmetscher nicht",
+    "interpreter-role-kp4": "Sichere Praxis: im Wettkampf nur die Kommunikation mit Schiedsrichter, Jury und Veranstalter dolmetschen",
+    "interpreter-role-kp5": "Sich beim Schiedsrichter vorstellen und vereinbaren, wo Sie stehen"
+  },
+  "quiz": {
+    "interpreter-role-q1": {
+      "q": "Während einer Wettkampfrunde bittet der Trainer Sie, dem Schützen „mehr Vorhalt beim Crosser“ zu sagen. Was tun Sie?",
+      "options": {
+        "a": "Es ihm schnell zuflüstern, während er lädt",
+        "b": "Es nach der nächsten Scheibe weitergeben",
+        "c": "Höflich ablehnen: Das wäre Coaching",
+        "d": "Den Schiedsrichter bitten, es weiterzugeben"
+      },
+      "explain": "Coaching während des Wettkampfs ist verboten, und der Schütze würde eine Gelbe Karte erhalten. Die Regeln sagen nicht, ob die Weitergabe eines Rats erlaubt ist, bleiben Sie also auf der sicheren Seite."
+    },
+    "interpreter-role-q2": {
+      "q": "Was sagen die FITASC-Regelwerke über Dolmetscher?",
+      "options": {
+        "a": "Sie dürfen auf dem Stand stehen",
+        "b": "Sie brauchen eine Schiedsrichterlizenz",
+        "c": "Sie gelten als Trainer",
+        "d": "Nichts: es ist eine offene Frage"
+      },
+      "explain": "Die Regelwerke erwähnen Dolmetscher nicht, ihre genaue Stellung im Wettkampf ist also eine offene Frage für die FITASC."
+    },
+    "interpreter-role-q3": {
+      "q": "Im Training sagt der Trainer „Not bad, but you stopped the gun.“ Wie übersetzen Sie?",
+      "options": {
+        "a": "Vollständig und im selben Ton, beide Teile",
+        "b": "Nur das Lob, damit der Gast zufrieden ist",
+        "c": "Nur den Fehler, um Zeit zu sparen",
+        "d": "Einen eigenen Tipp zur Korrektur hinzufügen"
+      },
+      "explain": "Sie schwächen nichts ab und bauschen nichts auf: die ganze Botschaft, im Ton des Trainers, ohne eigene Zutaten."
+    }
+  }
+}

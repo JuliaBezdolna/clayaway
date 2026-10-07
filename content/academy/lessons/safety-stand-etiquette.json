@@ -1,0 +1,579 @@
+{
+  "id": "safety-stand-etiquette",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "safety-stand-etiquette"
+    ],
+    "interpreter": [
+      "etiquette-on-the-stand"
+    ]
+  },
+  "terms": [
+    "squad",
+    "shooting-stand",
+    "call",
+    "firing-time",
+    "quiet-on-stand",
+    "waiting-position",
+    "cage",
+    "firing-angle-limiter",
+    "no-bird",
+    "mock-shooting",
+    "coaching",
+    "yellow-card",
+    "empties",
+    "sporting",
+    "compak-sporting"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-ready-when-called"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-fifteen-seconds"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-waiting-positions"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-cases"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-mock-shooting"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-own-turn-live-animals"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-immediate-expulsion"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-turning-empties"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-call-and-release"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-ready"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-on-the-stand"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-firing-time"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-fal"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-target-no-bird-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-shooting-conduct"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-empty-cases"
+    }
+  ],
+  "facts": [
+    "rules.sporting-time-between-targets",
+    "rules.compak-time-to-call"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — International sports rules: Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — міжнародні правила: Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Etiquette on the stand and behind the shooter",
+    "uk": "Етикет на стрілецькому місці й позаду нього"
+  },
+  "summary": {
+    "en": "Turns, quiet, readiness and no coaching: how to behave when you shoot and when someone else does.",
+    "uk": "Черговість, тиша, готовність і заборона підказок: як поводитися, коли стріляєте ви і коли стріляє хтось інший."
+  },
+  "body": [
+    {
+      "k": "safety-stand-etiquette-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "In a competition, the members of a {{term:squad|squad}} take the {{term:shooting-stand|stand}} in turn. Do not step up until the previous shooter has left and it is your turn. When you are called, be ready at once: gun, enough cartridges for the whole round, glasses and ear protection.",
+      "uk": "На змаганні учасники {{term:squad|групи}} виходять на {{term:shooting-stand|стрілецьке місце}} по черзі. Не підходьте, доки попередній стрілець не зійшов і не настала ваша черга. Коли вас викликають, будьте готові одразу: рушниця, набої на весь раунд, окуляри й захист слуху."
+    },
+    {
+      "k": "safety-stand-etiquette-p3",
+      "t": "p",
+      "en": "When ready, the shooter gives a {{term:call|call}}, for example “Pull!” or “Ready!”. Do not keep the squad waiting: each discipline has a {{term:firing-time|time limit}}. Details are in {{lesson:rules-call-and-time}}.",
+      "uk": "Коли готові, стрілець подає {{term:call|команду}}, наприклад «Pull!» або «Ready!». Не змушуйте групу чекати: у кожній дисципліні є {{term:firing-time|ліміт часу}}. Докладніше — в уроці {{lesson:rules-call-and-time}}."
+    },
+    {
+      "k": "safety-stand-etiquette-time",
+      "t": "compare",
+      "disc": "both",
+      "en": "How long you may take",
+      "uk": "Скільки часу можна витратити",
+      "sporting": {
+        "en": "You have {{fact:rules.sporting-time-between-targets}}. Going over it brings a warning first, then penalties.",
+        "uk": "У вас є {{fact:rules.sporting-time-between-targets}}. Перевищення спершу дає попередження, далі — покарання.",
+        "rule_ref": "sporting:ch7-fifteen-seconds"
+      },
+      "compak": {
+        "en": "You have {{fact:rules.compak-time-to-call}}. The first time is noted as a warning; a repeat in the same round is penalised.",
+        "uk": "У вас є {{fact:rules.compak-time-to-call}}. Уперше це записують як попередження; повторення в тому самому раунді карають.",
+        "rule_ref": "compak:ch21-firing-time"
+      }
+    },
+    {
+      "k": "etiquette-on-the-stand-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "anchor": "etiquette-on-the-stand",
+      "en": "A shooter on the stand needs full concentration, from loading until the gun is opened after the last shot. The rules let the waiting shooters stand close to the stand, but they must not disturb the one who is shooting. In practice that means: talk quietly or not at all, no sudden movements where the shooter can see you, guns open, phones silent and in a pocket. The rules say nothing about phones, but many shooting grounds expect this courtesy.",
+      "uk": "Стрільцеві на стрілецькому місці потрібна повна зосередженість — від заряджання до відкриття рушниці після останнього пострілу. За правилами ті, хто чекає своєї черги, стоять поблизу стрілецького місця, але не повинні заважати тому, хто стріляє. На практиці це означає: говорити тихо або мовчати, жодних різких рухів там, де стрілець може вас бачити, рушниці відкриті, телефони беззвучні й у кишені. Правила про телефони не згадують, але цієї ввічливості чекають на багатьох стрільбищах."
+    },
+    {
+      "k": "safety-stand-etiquette-p4",
+      "t": "tip",
+      "en": "Small noises matter too. Do not snap a gun shut or take a phone call behind someone who is shooting.",
+      "uk": "Дрібні звуки теж важать. Не клацайте рушницею, закриваючи її, і не розмовляйте телефоном позаду того, хто стріляє."
+    },
+    {
+      "k": "etiquette-on-the-stand-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Everyone who is not shooting stays behind the stand, never beside it or in front of it: spectators, coaches, interpreters, and in {{tm:sporting}} the rest of the squad. In {{tm:compak}} each station (numbered shooting place) has a {{term:firing-angle-limiter|Firing Angle Limiter (F.A.L.)}}: a frame around the shooter that stops the barrels swinging too far. On many grounds the {{tm:sporting}} stands have a {{term:cage|cage}}, a frame that does the same job. People who are not shooting wait behind the cage or F.A.L., where the barrels cannot point. In {{tm:compak}} the squad stands side by side, each shooter on their own station inside its F.A.L. The shooter who is waiting stands behind station 1, and a shooter who has finished waits without disturbing the next one.",
+      "uk": "Усі, хто не стріляє, стоять позаду стрілецького місця, ніколи не збоку й не попереду: глядачі, тренери, перекладачі, а в {{tm:sporting}} — і решта групи. У {{tm:compak}} кожен номер (пронумероване стрілецьке місце) має {{term:firing-angle-limiter|рамку-обмежувач кута стрільби}} (Firing Angle Limiter, F.A.L.) — рамку довкола стрільця, яка не дає повернути стволи надто далеко. На багатьох стрільбищах стрілецькі місця {{tm:sporting}} мають {{term:cage|захисну раму}} (cage) з тією самою метою. Хто не стріляє, чекає позаду рами чи F.A.L. — туди стволи повернутися не можуть. У {{tm:compak}} група стоїть пліч-о-пліч, кожен на своєму номері у своїй F.A.L. Стрілець, що чекає своєї черги, стоїть позаду номера 1, а той, хто відстріляв, чекає, не заважаючи наступному."
+    },
+    {
+      "k": "etiquette-on-the-stand-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "If you disturb a shooter, the rules step in. When the referee sees that a shooter was clearly disturbed, the target is declared a {{term:no-bird|No Bird}} (it does not count) and is thrown again. Do not mount the gun and swing it as if at a target ({{term:mock-shooting|mock shooting}}) while a squad member is shooting. In {{tm:sporting}} this is not allowed anywhere at the ground. Only the shooter whose turn it is shoots, and only at his or her own target.",
+      "uk": "Якщо завадити стрільцеві, у дію вступають правила. Коли суддя бачить, що стрільцеві явно завадили, мішень оголошують {{term:no-bird|No Bird}} (вона не зараховується) і запускають знову. Не робіть вкладку й не ведіть рушницю, ніби за мішенню ({{term:mock-shooting|імітація стрільби}}), поки стріляє учасник групи. У {{tm:sporting}} це заборонено будь-де на стрільбищі. Стріляє лише той, чия черга, і лише по своїй мішені."
+    },
+    {
+      "k": "safety-stand-etiquette-p2",
+      "t": "warn",
+      "disc": "both",
+      "en": "Animals sometimes cross the shooting area. Do not aim or shoot at them: both rulebooks forbid it, and in {{tm:sporting}} deliberately shooting at a live animal can lead to expulsion.",
+      "uk": "Інколи через стрілецьку зону пробігають чи пролітають тварини. Не цільтеся в них і не стріляйте: правила обох дисциплін це забороняють, а в {{tm:sporting}} за навмисний постріл у живу тварину можуть виключити зі змагання."
+    },
+    {
+      "k": "safety-stand-etiquette-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "During a competition nobody may tell a shooter how to shoot. The rules call this {{term:coaching|coaching}}. The shooter gets a {{term:yellow-card|yellow card}}, and the referee sends the person giving advice out of the shooting area.",
+      "uk": "Під час змагання нікому не можна підказувати стрільцеві, як стріляти. Правила називають це {{term:coaching|підказками}} (coaching). Стрілець отримує {{term:yellow-card|жовту картку}}, а людину, яка підказувала, суддя виводить із зони стрільби."
+    },
+    {
+      "k": "safety-stand-etiquette-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "After shooting, open the gun and take out the {{term:empties|empty cases}}; put them in the bin if there is one. If you shoot a semi-automatic, pick up your ejected cases when you leave the stand. Thanking the referee and the squad is a good habit.",
+      "uk": "Після стрільби відкрийте рушницю й вийміть {{term:empties|порожні гільзи}}; покладіть їх у кошик, якщо він є. Якщо стріляєте з напівавтомата, підберіть викинуті гільзи, коли сходите зі стрілецького місця. Подякувати судді й групі — добра звичка."
+    }
+  ],
+  "note": [
+    {
+      "k": "etiquette-on-the-stand-p4",
+      "for": "interpreter",
+      "core": true,
+      "en": "For you this lesson is practical. Stop talking when your guest steps onto the stand, even in the middle of a sentence. Do not answer questions while the gun is closed. Speak again only when the gun is open: between targets, between pairs, or after the stand. A missed piece of advice costs less than a pair spoiled by your voice.",
+      "uk": "Для вас цей урок практичний. Замовкніть, щойно гість ступив на стрілецьке місце, навіть посеред речення. Не відповідайте на запитання, поки рушниця закрита. Говоріть знову лише тоді, коли рушниця відкрита: між мішенями, між дуплетами або після стрілецького місця. Пропущена порада коштує менше, ніж дуплет, зіпсований вашим голосом."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "etiquette-on-the-stand-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Quiet behind, please — she’s on.",
+      "meaning": {
+        "en": "The shooter is on the stand; everyone stops talking.",
+        "uk": "Стрілець на стрілецькому місці; усі замовкають."
+      },
+      "say": {
+        "uk": "Тихо позаду, будь ласка, — вона стріляє."
+      },
+      "from": "etiquette-on-the-stand"
+    },
+    {
+      "k": "etiquette-on-the-stand-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Wait until he’s opened his gun.",
+      "meaning": {
+        "en": "Nobody talks or moves until the shooter has finished and opened the gun.",
+        "uk": "Ніхто не говорить і не рухається, доки стрілець не закінчить і не відкриє рушницю."
+      },
+      "say": {
+        "uk": "Зачекайте, поки він відкриє рушницю."
+      },
+      "from": "etiquette-on-the-stand"
+    },
+    {
+      "k": "etiquette-on-the-stand-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Stand right behind me so you can see what I see.",
+      "meaning": {
+        "en": "In training the coach wants you directly behind, out of the swing.",
+        "uk": "На тренуванні тренер хоче, щоб ви стояли просто за ним, поза рухом стволів."
+      },
+      "say": {
+        "uk": "Станьте просто за мною, щоб бачити те саме, що і я."
+      },
+      "from": "etiquette-on-the-stand"
+    },
+    {
+      "k": "etiquette-on-the-stand-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Keep out of his line, please.",
+      "meaning": {
+        "en": "You are in the shooter’s view or near the barrels’ path; move back.",
+        "uk": "Ви в полі зору стрільця або близько до руху стволів; відійдіть назад."
+      },
+      "say": {
+        "uk": "Відійдіть з його лінії, будь ласка."
+      },
+      "from": "etiquette-on-the-stand"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "safety-stand-etiquette-kp1",
+      "en": "Take the stand only in your turn and be ready at once",
+      "uk": "На стрілецьке місце виходять лише у свою чергу й одразу готовими"
+    },
+    {
+      "k": "etiquette-on-the-stand-kp1",
+      "core": true,
+      "en": "Quiet, still, guns open, phones silent behind the shooter",
+      "uk": "Позаду стрільця: тиша, нерухомість, рушниці відкриті, телефони беззвучні"
+    },
+    {
+      "k": "etiquette-on-the-stand-kp2",
+      "core": true,
+      "en": "Not shooting? Stay behind the stand, cage or F.A.L., never beside or in front",
+      "uk": "Не стріляєте — стійте позаду стрілецького місця, рами (cage) чи F.A.L., ніколи не збоку й не попереду"
+    },
+    {
+      "k": "safety-stand-etiquette-kp2",
+      "en": "Shoot only at your own target, not at animals",
+      "uk": "Стріляють лише по своїй мішені, а не по тваринах"
+    },
+    {
+      "k": "safety-stand-etiquette-kp4",
+      "en": "Coaching during a competition is forbidden",
+      "uk": "Підказки під час змагання заборонені"
+    }
+  ],
+  "did_you_know": {
+    "k": "safety-stand-etiquette-dyk",
+    "en": "In {{tm:sporting}} the rules name the calls “ready” and “pull”. Whatever word you use, many coaches suggest keeping the call clear and the same each time.",
+    "uk": "У {{tm:sporting}} правила називають команди «ready» і «pull». Хай яке слово ви оберете, багато тренерів радять подавати команду чітко й щоразу однаково."
+  },
+  "quiz": [
+    {
+      "k": "safety-stand-etiquette-q1",
+      "q": {
+        "en": "When may you step onto the stand?",
+        "uk": "Коли можна виходити на стрілецьке місце?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "As soon as the previous shooter has fired his last shot",
+          "uk": "Щойно попередній стрілець зробив останній постріл"
+        },
+        {
+          "k": "b",
+          "en": "When the stand is free and it is your turn",
+          "uk": "Коли стрілецьке місце вільне й настала ваша черга"
+        },
+        {
+          "k": "c",
+          "en": "Together with the shooter before you, to save time",
+          "uk": "Разом із попереднім стрільцем, щоб зекономити час"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "You step up only once the previous shooter has left the stand and it is your turn.",
+        "uk": "На стрілецьке місце виходять лише тоді, коли попередній стрілець зійшов і настала ваша черга."
+      }
+    },
+    {
+      "k": "safety-stand-etiquette-q2",
+      "q": {
+        "en": "May a friend give a shooter advice during a competition?",
+        "uk": "Чи може друг підказувати стрільцеві під час змагання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, if he whispers it between targets",
+          "uk": "Так, якщо шепоче між мішенями"
+        },
+        {
+          "k": "b",
+          "en": "Only if the friend is a qualified coach",
+          "uk": "Лише якщо друг — кваліфікований тренер"
+        },
+        {
+          "k": "c",
+          "en": "No: it counts as coaching and is penalised",
+          "uk": "Ні: це вважається підказками й карається"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Coaching during a competition is forbidden for everyone, coaches included: the shooter gets a yellow card.",
+        "uk": "Підказки під час змагання заборонені для всіх, зокрема для тренерів: стрілець отримує жовту картку."
+      }
+    },
+    {
+      "k": "etiquette-on-the-stand-q2",
+      "q": {
+        "en": "A loud phone call behind the stand clearly disturbs the shooter at the moment of the shot. What may the referee decide?",
+        "uk": "Гучна телефонна розмова позаду стрілецького місця явно завадила стрільцеві в момент пострілу. Що може вирішити суддя?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No Bird: the target is thrown again",
+          "uk": "No Bird: мішень запустять знову"
+        },
+        {
+          "k": "b",
+          "en": "Zero for the shooter",
+          "uk": "Промах стрільцеві"
+        },
+        {
+          "k": "c",
+          "en": "Nothing, phones are not in the rules",
+          "uk": "Нічого, телефонів немає в правилах"
+        },
+        {
+          "k": "d",
+          "en": "Yellow card for the shooter",
+          "uk": "Жовта картка стрільцеві"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "If the referee sees the shooter was clearly disturbed, the target is a No Bird.",
+        "uk": "Якщо суддя бачить, що стрільцеві явно завадили, мішень — No Bird."
+      },
+      "from": "etiquette-on-the-stand"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "safety-stand-etiquette-q3",
+      "disc": "compak",
+      "q": {
+        "en": "How long do you have to call for a target in {{tm:compak}}?",
+        "uk": "Скільки часу в {{tm:compak}} дають на виклик мішені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Up to 30 seconds",
+          "uk": "До 30 секунд"
+        },
+        {
+          "k": "b",
+          "en": "Up to 10 seconds",
+          "uk": "До 10 секунд"
+        },
+        {
+          "k": "c",
+          "en": "As long as you need",
+          "uk": "Скільки потрібно"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:compak}} a shooter has at most 10 seconds; the first breach is a warning, a repeat in the same round is penalised.",
+        "uk": "У {{tm:compak}} стрілець має щонайбільше 10 секунд; перше порушення — попередження, повторне в тому самому раунді карають."
+      }
+    },
+    {
+      "k": "etiquette-on-the-stand-q1",
+      "q": {
+        "en": "Where does the interpreter stand while the guest is shooting?",
+        "uk": "Де стоїть перекладач, коли гість стріляє?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Beside the shooter, to see his face",
+          "uk": "Збоку від стрільця, щоб бачити обличчя"
+        },
+        {
+          "k": "b",
+          "en": "In front of the stand, to see the target",
+          "uk": "Перед стрілецьким місцем, щоб бачити мішень"
+        },
+        {
+          "k": "c",
+          "en": "Behind the stand, out of any line of the barrels",
+          "uk": "Позаду стрілецького місця, поза будь-якою лінією стволів"
+        },
+        {
+          "k": "d",
+          "en": "Wherever the referee cannot see",
+          "uk": "Там, де не бачить суддя"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Everyone who is not shooting waits behind the stand, cage or F.A.L.; beside or in front of the stand you are in or near the swing of the barrels.",
+        "uk": "Усі, хто не стріляє, чекають позаду стрілецького місця, рами (cage) чи F.A.L.; збоку чи попереду ви опиняєтеся на шляху стволів або поруч із ним."
+      },
+      "from": "etiquette-on-the-stand"
+    },
+    {
+      "k": "etiquette-on-the-stand-q3",
+      "q": {
+        "en": "When is the right moment to pass on the coach’s comment?",
+        "uk": "Коли слушний момент передати коментар тренера?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "While the shooter is calling for the target",
+          "uk": "Поки стрілець подає команду на мішень"
+        },
+        {
+          "k": "b",
+          "en": "Between the call and the shot, in a whisper",
+          "uk": "Між командою та пострілом, пошепки"
+        },
+        {
+          "k": "c",
+          "en": "As soon as the coach has finished speaking",
+          "uk": "Щойно тренер договорив"
+        },
+        {
+          "k": "d",
+          "en": "Once the gun is open after a target or pair",
+          "uk": "Коли рушниця відкрита після мішені чи дуплета"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The shooter’s routine must not be interrupted; speak only once the gun is open.",
+        "uk": "Підготовку стрільця не можна переривати; говоріть лише тоді, коли рушниця відкрита."
+      },
+      "from": "etiquette-on-the-stand"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "6806f3a3",
+    "summary": "2d396759",
+    "safety-stand-etiquette-p1": "77883e0b",
+    "safety-stand-etiquette-p3": "26d2f1ce",
+    "safety-stand-etiquette-time": "4f24b5c1",
+    "etiquette-on-the-stand-p1": "5b8d02ad",
+    "safety-stand-etiquette-p4": "3de3099e",
+    "etiquette-on-the-stand-p2": "5f3adc0a",
+    "etiquette-on-the-stand-p3": "32fd6d5d",
+    "safety-stand-etiquette-p2": "97296e1a",
+    "safety-stand-etiquette-p5": "f3a54843",
+    "safety-stand-etiquette-p6": "fd5d3145",
+    "etiquette-on-the-stand-p4": "f79a480d",
+    "etiquette-on-the-stand-ph1": "b803db31",
+    "etiquette-on-the-stand-ph2": "ea94d224",
+    "etiquette-on-the-stand-ph3": "c897623b",
+    "etiquette-on-the-stand-ph4": "2a0df992",
+    "safety-stand-etiquette-kp1": "3b9fe617",
+    "etiquette-on-the-stand-kp1": "a1970d0e",
+    "etiquette-on-the-stand-kp2": "b8fcf270",
+    "safety-stand-etiquette-kp2": "544dbc00",
+    "safety-stand-etiquette-kp4": "e923ea13",
+    "safety-stand-etiquette-dyk": "742a6c65",
+    "safety-stand-etiquette-q1": "4d21c131",
+    "safety-stand-etiquette-q2": "4c42abc9",
+    "etiquette-on-the-stand-q2": "e8c0b4bf",
+    "safety-stand-etiquette-q3": "2f8a6bfc",
+    "etiquette-on-the-stand-q1": "5d4aa701",
+    "etiquette-on-the-stand-q3": "27216146"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

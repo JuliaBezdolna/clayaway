@@ -1,0 +1,680 @@
+{
+  "id": "targets-sporting-layout",
+  "rev": 3,
+  "status": "ready",
+  "plan": "new",
+  "level": 2,
+  "minutes": 7,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "sport-sporting-layout",
+      "sporting-rounds-stands"
+    ]
+  },
+  "terms": [
+    "layout",
+    "shooting-stand",
+    "line",
+    "trap",
+    "target-menu",
+    "single-target",
+    "double",
+    "difficulty-class",
+    "round",
+    "squad",
+    "rotation",
+    "waiting-position",
+    "score-sheet",
+    "referee"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-layout"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-traps-table"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-shooting-stands"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-waiting-positions"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-trap-letters"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-target-menu"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-difficulty-classes"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-glossary"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-singles-then-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-who-keeps-score"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-ready-when-called"
+    }
+  ],
+  "facts": [
+    "targets.sporting-layout-targets",
+    "targets.sporting-menu-special-targets",
+    "targets.sporting-difficulty-classes"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How a {{tm:sporting}} layout and round work",
+    "uk": "Як влаштовані майданчик і раунд {{tm:sporting}}"
+  },
+  "summary": {
+    "en": "Layouts, shooting stands, traps A to D, the target menu, difficulty classes and the round of 25 targets: how a {{tm:sporting}} competition is laid out and shot.",
+    "uk": "Майданчики, стрілецькі місця, машинки A–D, меню мішеней, класи складності й раунд із 25 мішеней: як влаштоване і як проходить змагання з {{tm:sporting}}."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "Assembled from sport-sporting-layout and sporting-rounds-stands: their paragraphs (translated into all 11 languages) are the core of this lesson.",
+        "The layout and its shooting stands (a 1 m square or circle).",
+        "Traps A–D from left to right as seen from the stand.",
+        "A round of 25 targets: 15 singles and 5 doubles, singles first (check against docs/rules/data/sporting.js).",
+        "A group of up to 6 shooters; the shooting order rotates.",
+        "200 targets at international competitions; difficulty classes A, B and C.",
+        "Pair lesson: targets-compak-layout."
+      ],
+      "uk": [
+        "Зібрано з sport-sporting-layout і sporting-rounds-stands: їхні абзаци (з перекладами всіма 11 мовами) — ядро уроку.",
+        "Майданчик і стрілецькі місця (квадрат або коло 1 м).",
+        "Машинки A–D зліва направо, якщо дивитися зі стрілецького місця.",
+        "Раунд — 25 мішеней: 15 одиночних і 5 дуплетів, спочатку одиночні (звірити з docs/rules/data/sporting.js).",
+        "Група до 6 стрільців, порядок стрільби змінюється.",
+        "200 мішеней на міжнародних змаганнях; класи складності A, B і C.",
+        "Парний урок: targets-compak-layout."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "sport-sporting-layout-p1",
+      "t": "p",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-layout",
+      "anchor": "sport-sporting-layout",
+      "en": "In {{tm:sporting}} the shooting ground is divided into {{term:layout|layouts}}. A layout is a group of {{term:shooting-stand|shooting stands}} that together make up one round of {{fact:targets.sporting-layout-targets}}.",
+      "uk": "У {{tm:sporting}} стрільбище поділене на {{term:layout|майданчики}} (layout). Майданчик — це група {{term:shooting-stand|стрілецьких місць}}, з яких разом стріляють один раунд — {{fact:targets.sporting-layout-targets}}."
+    },
+    {
+      "k": "sporting-rounds-stands-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-traps-table",
+      "en": "Layouts are built in one of two ways. In the older type, 3 stands share 5 traps. The newer type is called a {{term:line|line}}. A line of 4 stands has three stands with 4 traps and one stand (no. 2 or 3) with 3 traps. A line of 5 stands has 3 traps at each stand. A line of 3 stands with 5 traps each is allowed only for a Grand Prix.",
+      "uk": "Майданчики будують одним із двох способів. У старішому типі 3 стрілецькі місця мають спільні 5 машинок. Новіший тип називають {{term:line|лінією}} (line). На лінії з 4 місць три місця мають по 4 машинки, а одне (№ 2 або № 3) — 3 машинки. На лінії з 5 місць на кожному місці по 3 машинки. Лінію з 3 місць по 5 машинок дозволено лише для Grand Prix."
+    },
+    {
+      "k": "sport-sporting-layout-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-shooting-stands",
+      "en": "A shooting stand is where the shooter stands: a 1 m square or a circle 1 m across. It should be level where possible, and at least not slippery (a safety rule). The rest of the {{term:squad|squad}} (the group of shooters who shoot together) waits nearby, close enough to follow but without distracting the shooter.",
+      "uk": "Стрілецьке місце (shooting stand) — там, де стоїть стрілець: квадрат 1 × 1 м або коло діаметром 1 м. Воно має бути рівним, де це можливо, і щонайменше не слизьким (вимога безпеки). Решта {{term:squad|групи}} (стрільців, які стріляють разом) чекає поруч — досить близько, щоб стежити, але так, щоб не відволікати стрільця."
+    },
+    {
+      "k": "sport-sporting-layout-p3",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-trap-letters",
+      "en": "Traps are placed to suit the terrain, often partly hidden by bushes or trees. The targets copy real game: flying across, towards you, away from you or at an angle (quartering), high or low, in the open or through trees. The traps of a stand are lettered from left to right as seen from the stand: A, B, C and so on (the rulebook names A to D). The menu and the score sheet use these letters.",
+      "uk": "Машинки ставлять відповідно до рельєфу, часто частково ховаючи за кущами чи деревами. Мішені нагадують справжню дичину: летять поперек, на вас, від вас або навскіс (quartering), високо чи низько, на відкритому місці чи між деревами. Машинки стрілецького місця позначають літерами зліва направо, якщо дивитися з місця: A, B, C і далі (правила називають A–D). Ці літери використовують меню і протокол."
+    },
+    {
+      "k": "sport-sporting-layout-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-target-menu",
+      "en": "In front of each stand there is a {{term:target-menu|target menu}}. It lists the traps in shooting order and names any special targets: {{fact:targets.sporting-menu-special-targets}}. Before the competition the referees check that the traps match the menu. Shooters read it before stepping onto the stand; see {{lesson:targets-menu}}.",
+      "uk": "Перед кожним стрілецьким місцем стоїть {{term:target-menu|меню мішеней}} (target menu). Воно перелічує машинки в порядку стрільби й називає особливі мішені: {{fact:targets.sporting-menu-special-targets}}. Перед змаганнями судді перевіряють, чи машинки відповідають меню. Стрільці читають меню, перш ніж стати на місце; докладніше — в уроці {{lesson:targets-menu}}."
+    },
+    {
+      "k": "sport-sporting-layout-p5",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-difficulty-classes",
+      "en": "Each trajectory has a {{term:difficulty-class|difficulty class}}: {{fact:targets.sporting-difficulty-classes}}. For a stand the rules recommend one A, two B and one C trajectory. So a class C target is meant to be hard, and a miss there is no disaster.",
+      "uk": "Кожна траєкторія має {{term:difficulty-class|клас складності}}: {{fact:targets.sporting-difficulty-classes}}. Для одного місця правила радять одну траєкторію класу A, дві класу B і одну класу C. Отже, мішень класу C задумана складною, і промах по ній — не трагедія."
+    },
+    {
+      "k": "sporting-rounds-stands-p1",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-format",
+      "anchor": "sporting-rounds-stands",
+      "en": "A {{tm:sporting}} competition is counted in rounds of 25 targets. An international event is 200 targets, so eight rounds; each round is shot on one layout (a set of shooting stands) or one line.",
+      "uk": "Змагання з {{tm:sporting}} рахують раундами по 25 мішеней. Міжнародне змагання — 200 мішеней, тобто вісім раундів; кожен раунд стріляють на одному майданчику (наборі стрілецьких місць) або на одній лінії."
+    },
+    {
+      "k": "sporting-rounds-stands-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-squads",
+      "en": "Shooters go round in squads of up to six; who goes in which squad is decided by a draw. At each stand everyone shoots the singles first, then the doubles. Who shoots first changes from stand to stand, and changes again when the doubles begin. The others wait close by without distracting the person shooting.",
+      "uk": "Стрільці проходять майданчик групами (squad) до шести осіб; хто в якій групі, вирішує жеребкування. На кожному місці всі спершу стріляють одиночні, потім дуплети. Хто стріляє першим, змінюється на кожному місці, а коли починаються дуплети, — ще раз. Решта групи чекає поруч і не відволікає того, хто стріляє."
+    },
+    {
+      "k": "targets-sporting-layout-ready",
+      "t": "tip",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch8-ready-when-called",
+      "en": "When your name is called, be ready at once, with cartridges and kit for the whole round. Step onto the stand only when it is your turn and the shooter before you has left it.",
+      "uk": "Коли вас викликають, будьте готові одразу, з патронами й спорядженням на весь раунд. Ставайте на місце лише у свою чергу і коли попередній стрілець уже зійшов із нього."
+    },
+    {
+      "k": "sporting-rounds-stands-p5",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-results-check",
+      "en": "The referee, or a person the referee supervises, keeps the scorecard, marking each target under its trap letter. When leaving a stand, each shooter checks the score; if you disagree, tell the referee straight away, and the referee's decision is final.",
+      "uk": "Протокол веде суддя (або людина під його наглядом), позначаючи кожну мішень під літерою її машинки. Залишаючи місце, кожен стрілець перевіряє свій результат; якщо ви не згодні, скажіть судді одразу, і його рішення остаточне."
+    },
+    {
+      "k": "targets-sporting-layout-compak",
+      "t": "tip",
+      "disc": "both",
+      "en": "{{tm:compak}} is laid out differently: five stations on one small field, and the squad moves along the line. See {{lesson:targets-compak-layout}}.",
+      "uk": "{{tm:compak}} влаштований інакше: п’ять номерів на одному невеликому полі, і група переходить уздовж лінії. Див. урок {{lesson:targets-compak-layout}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "sport-sporting-layout-n1",
+      "for": "interpreter",
+      "en": "In some languages the everyday word for “stand” means the whole sport or the shooting ground. Choose one word for the shooter's 1 m place and keep it all session.",
+      "uk": "Українською «стенд» зазвичай означає весь вид спорту або стрільбище, тож англійське stand перекладайте як «стрілецьке місце» (у {{tm:compak}} — «номер»). Тримайтеся одного слова всю сесію."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "sport-sporting-layout-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Layout three is the hard one today — lots of minis in the trees.",
+      "meaning": {
+        "en": "On the third layout there are many small targets flying through trees.",
+        "uk": "На третьому майданчику багато маленьких мішеней, що летять між деревами."
+      },
+      "say": {
+        "uk": "Сьогодні найважчий — третій майданчик: багато міні між деревами."
+      }
+    },
+    {
+      "k": "sport-sporting-layout-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "On this stand, read the menu before you step in.",
+      "meaning": {
+        "en": "Check the order of traps and special targets first.",
+        "uk": "Спершу перевірте порядок машинок і особливі мішені."
+      },
+      "say": {
+        "uk": "На цьому місці спершу прочитайте меню, а тоді ставайте."
+      }
+    },
+    {
+      "k": "sport-sporting-layout-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Stand two is a class C target, don't worry about it.",
+      "meaning": {
+        "en": "The target is graded as hard; a miss is expected.",
+        "uk": "Мішень належить до найскладнішого класу; промах тут очікуваний."
+      },
+      "say": {
+        "uk": "На другому місці мішень класу C, не переймайтеся."
+      }
+    },
+    {
+      "k": "sporting-rounds-stands-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Singles first, then doubles.",
+      "meaning": {
+        "en": "The standard order at every stand.",
+        "uk": "Стандартний порядок на кожному місці."
+      },
+      "say": {
+        "uk": "Спершу одиночні, потім дуплети."
+      }
+    },
+    {
+      "k": "sporting-rounds-stands-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Read the menu: the traps go A, B, C.",
+      "meaning": {
+        "en": "The menu board lists the traps in the order they will be shot.",
+        "uk": "Меню перелічує машинки в тому порядку, в якому їх стрілятимуть."
+      },
+      "say": {
+        "uk": "Дивіться меню: машинки йдуть A, B, C."
+      }
+    },
+    {
+      "k": "sporting-rounds-stands-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Next shooter.",
+      "meaning": {
+        "en": "The referee calls the next person onto the stand.",
+        "uk": "Суддя викликає на місце наступного стрільця."
+      },
+      "say": {
+        "uk": "Наступний стрілець."
+      }
+    },
+    {
+      "k": "sporting-rounds-stands-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Check your score before you leave the stand.",
+      "meaning": {
+        "en": "Any disagreement must be raised now, not later.",
+        "uk": "Будь-яку незгоду треба висловити зараз, а не пізніше."
+      },
+      "say": {
+        "uk": "Перевірте результат, перш ніж залишити місце."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "sporting-rounds-stands-kp1",
+      "core": true,
+      "en": "One layout gives one round of {{fact:targets.sporting-layout-targets}}. An international event is 200 targets.",
+      "uk": "Один майданчик дає один раунд — {{fact:targets.sporting-layout-targets}}. Міжнародне змагання — 200 мішеней."
+    },
+    {
+      "k": "sporting-rounds-stands-kp2",
+      "core": true,
+      "en": "Traps are lettered A, B, C… from left to right as seen from the stand; the menu gives the order and special targets.",
+      "uk": "Машинки позначені A, B, C… зліва направо, якщо дивитися з місця; меню показує порядок і особливі мішені."
+    },
+    {
+      "k": "sport-sporting-layout-kp5",
+      "core": true,
+      "en": "Difficulty classes: {{fact:targets.sporting-difficulty-classes}}.",
+      "uk": "Класи складності: {{fact:targets.sporting-difficulty-classes}}."
+    },
+    {
+      "k": "sporting-rounds-stands-kp3",
+      "core": true,
+      "en": "Squads of up to six; singles first, then doubles; the order rotates.",
+      "uk": "Групи до шести; спершу одиночні, потім дуплети; черговість змінюється."
+    },
+    {
+      "k": "sporting-rounds-stands-kp4",
+      "core": true,
+      "en": "Check your score when leaving each stand; the referee decides.",
+      "uk": "Перевіряйте результат, залишаючи кожне місце; вирішує суддя.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "sporting-rounds-stands-q1",
+      "q": {
+        "en": "How many targets does one {{tm:sporting}} layout give, and how are they split?",
+        "uk": "Скільки мішеней дає один майданчик {{tm:sporting}} і як вони розподілені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "20: 10 singles and 5 doubles",
+          "uk": "20: 10 одиночних і 5 дуплетів"
+        },
+        {
+          "k": "b",
+          "en": "25: all singles",
+          "uk": "25: лише одиночні"
+        },
+        {
+          "k": "c",
+          "en": "25: 15 singles and 5 doubles",
+          "uk": "25: 15 одиночних і 5 дуплетів"
+        },
+        {
+          "k": "d",
+          "en": "50: 25 singles and 25 doubles",
+          "uk": "50: 25 одиночних і 25 дуплетів"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Each layout type gives 15 singles plus 5 doubles, which is 25 targets.",
+        "uk": "Будь-який тип майданчика дає 15 одиночних плюс 5 дуплетів, тобто 25 мішеней."
+      }
+    },
+    {
+      "k": "sporting-rounds-stands-q2",
+      "q": {
+        "en": "In what order does a squad shoot at a stand?",
+        "uk": "У якому порядку група стріляє на місці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Doubles first, then singles, in a fixed order",
+          "uk": "Спершу дуплети, потім одиночні, у сталому порядку"
+        },
+        {
+          "k": "b",
+          "en": "Singles first, then doubles, in rotation",
+          "uk": "Спершу одиночні, потім дуплети, по черзі"
+        },
+        {
+          "k": "c",
+          "en": "Each shooter shoots the whole stand in one go",
+          "uk": "Кожен стріляє все місце за один захід"
+        },
+        {
+          "k": "d",
+          "en": "The shooters agree on the order themselves",
+          "uk": "Стрільці самі домовляються про порядок"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Singles come first, then doubles, in rotation, unless the jury decides otherwise.",
+        "uk": "Спершу одиночні, потім дуплети, по черзі, якщо журі не вирішить інакше."
+      }
+    },
+    {
+      "k": "sporting-rounds-stands-q3",
+      "q": {
+        "en": "Leaving the stand, a shooter sees that a hit was marked as a miss. What should he do?",
+        "uk": "Залишаючи місце, стрілець бачить, що влучання записали як промах. Що йому робити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Wait for the end of the round and appeal to the jury",
+          "uk": "Дочекатися кінця раунду й оскаржити в журі"
+        },
+        {
+          "k": "b",
+          "en": "Correct the card himself",
+          "uk": "Самому виправити протокол"
+        },
+        {
+          "k": "c",
+          "en": "Ask the squad to vote",
+          "uk": "Попросити групу проголосувати"
+        },
+        {
+          "k": "d",
+          "en": "Tell the referee at once; the referee decides",
+          "uk": "Одразу сказати судді; вирішує суддя"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Scores are checked when leaving each stand; the referee alone decides, and there is no appeal afterwards.",
+        "uk": "Результат перевіряють, залишаючи кожне місце; вирішує лише суддя, і оскарження потім немає."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "targets-sporting-layout-q-international",
+      "q": {
+        "en": "How many targets does an international {{tm:sporting}} competition have?",
+        "uk": "Скільки мішеней має міжнародне змагання зі {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "100",
+          "uk": "100"
+        },
+        {
+          "k": "b",
+          "en": "150",
+          "uk": "150"
+        },
+        {
+          "k": "c",
+          "en": "200",
+          "uk": "200"
+        },
+        {
+          "k": "d",
+          "en": "250",
+          "uk": "250"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "An international event is 200 targets, shot in eight rounds of 25.",
+        "uk": "Міжнародне змагання — 200 мішеней: вісім раундів по 25."
+      }
+    },
+    {
+      "k": "sport-sporting-layout-q2",
+      "q": {
+        "en": "A coach says “Go to stand two.” What does “stand” mean here?",
+        "uk": "Тренер каже: «Go to stand two». Що тут означає stand?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The whole shooting ground",
+          "uk": "Усе стрільбище («стенд»)"
+        },
+        {
+          "k": "b",
+          "en": "The shooter's 1 m shooting place",
+          "uk": "Стрілецьке місце 1 м"
+        },
+        {
+          "k": "c",
+          "en": "A stand for spectators",
+          "uk": "Трибуна для глядачів"
+        },
+        {
+          "k": "d",
+          "en": "A rack for guns",
+          "uk": "Стійка для рушниць"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:sporting}} a stand is the 1 m place where the shooter stands. It is not the whole ground.",
+        "uk": "У {{tm:sporting}} stand — це метрове стрілецьке місце, де стоїть стрілець, а не все стрільбище."
+      }
+    },
+    {
+      "k": "sport-sporting-layout-q3",
+      "q": {
+        "en": "How are the traps of a {{tm:sporting}} stand identified?",
+        "uk": "Як позначають машинки на стрілецькому місці {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "By numbers 1 to 6, counted from the right",
+          "uk": "Цифрами 1–6, рахуючи справа"
+        },
+        {
+          "k": "b",
+          "en": "By colours painted on each machine",
+          "uk": "Кольорами, нанесеними на машинки"
+        },
+        {
+          "k": "c",
+          "en": "By letters A, B, C, D from left to right",
+          "uk": "Літерами A, B, C, D зліва направо"
+        },
+        {
+          "k": "d",
+          "en": "By the name of the person releasing them",
+          "uk": "Іменем людини, яка запускає мішені"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The letters A, B, C, D are read from left to right as seen from the stand, and the menu and scorecard use them.",
+        "uk": "Літери читають зліва направо, якщо дивитися з місця; їх використовують меню й протокол."
+      }
+    },
+    {
+      "k": "etiquette-squad-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, how does the shooting order work in a squad?",
+        "uk": "Як визначається черговість у групі в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It rotates at each stand and for the doubles",
+          "uk": "Змінюється на кожному стрілецькому місці й для дуплетів"
+        },
+        {
+          "k": "b",
+          "en": "It is fixed for the whole day",
+          "uk": "Фіксована на весь день"
+        },
+        {
+          "k": "c",
+          "en": "The top-ranked shooter always starts",
+          "uk": "Завжди починає стрілець із найвищим рейтингом"
+        },
+        {
+          "k": "d",
+          "en": "The referee chooses freely",
+          "uk": "Суддя обирає довільно"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Squads of six are drawn, and the order rotates at each stand and also for the doubles.",
+        "uk": "Групи по шість визначають жеребом, а черговість змінюється на кожному стрілецькому місці й для дуплетів."
+      },
+      "from": "etiquette-squad",
+      "rule_ref": "sporting:ch16-squads"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "e7f069bb",
+    "summary": "19716cde",
+    "sport-sporting-layout-p1": "a77d4d14",
+    "sporting-rounds-stands-p2": "729987f5",
+    "sport-sporting-layout-p2": "208f6c36",
+    "sport-sporting-layout-p3": "e38f4eb7",
+    "sport-sporting-layout-p4": "9af0ea8f",
+    "sport-sporting-layout-p5": "94a7f005",
+    "sporting-rounds-stands-p1": "10956753",
+    "sporting-rounds-stands-p4": "0e615261",
+    "targets-sporting-layout-ready": "d6104beb",
+    "sporting-rounds-stands-p5": "d2f4c8ea",
+    "targets-sporting-layout-compak": "ee404ecd",
+    "sport-sporting-layout-n1": "a4a5f73d",
+    "sport-sporting-layout-ph1": "8bf59186",
+    "sport-sporting-layout-ph2": "5d04fd67",
+    "sport-sporting-layout-ph3": "45d94721",
+    "sporting-rounds-stands-ph1": "3e1497ed",
+    "sporting-rounds-stands-ph2": "81904d45",
+    "sporting-rounds-stands-ph3": "e1612014",
+    "sporting-rounds-stands-ph4": "35d596b1",
+    "sporting-rounds-stands-kp1": "19329416",
+    "sporting-rounds-stands-kp2": "b179890e",
+    "sport-sporting-layout-kp5": "a961a1f3",
+    "sporting-rounds-stands-kp3": "ad8ab490",
+    "sporting-rounds-stands-kp4": "137d175e",
+    "sporting-rounds-stands-q1": "5e503383",
+    "sporting-rounds-stands-q2": "a8141645",
+    "sporting-rounds-stands-q3": "957fb77e",
+    "targets-sporting-layout-q-international": "1ed6e0ab",
+    "sport-sporting-layout-q2": "2bf6aab0",
+    "sport-sporting-layout-q3": "1c1ad9e5",
+    "etiquette-squad-q3": "247aff89"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: sport-sporting-layout-p1, sport-sporting-layout-p2, sport-sporting-layout-p3, sport-sporting-layout-p4, sport-sporting-layout-p5, sport-sporting-layout-kp5, sport-sporting-layout-q2, sporting-rounds-stands-p2, sporting-rounds-stands-p5, sporting-rounds-stands-kp1, sporting-rounds-stands-q1, sporting-rounds-stands-q2.",
+      "Overlays: remove keys deleted as duplicates or merged in the master: sport-sporting-layout-title, sport-sporting-layout-kp1, sport-sporting-layout-kp2, sport-sporting-layout-kp3, sport-sporting-layout-kp4, sport-sporting-layout-q1, sporting-rounds-stands-title, sporting-rounds-stands-p3.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: sport-sporting-layout-p1, sporting-rounds-stands-p2, sport-sporting-layout-p2, sport-sporting-layout-p3, sporting-rounds-stands-p4, sporting-rounds-stands-p5, sporting-rounds-stands-kp2.",
+      "Moved in from culture-sportsmanship-referee (2026-10-07): exam question etiquette-squad-q3 (Sporting™ shooting order rotates at each stand and for the doubles; sporting:ch16-squads). Copy its 9 overlay entries from i18n/<lang>/culture-sportsmanship-referee.json; the English is unchanged, so the hashes stay valid.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in sporting-rounds-stands-p1, sporting-rounds-stands-q1, sport-sporting-layout-q2, sport-sporting-layout-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

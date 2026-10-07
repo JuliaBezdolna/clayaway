@@ -1,0 +1,67 @@
+{
+  "_note": "XP and levels of the Academy. No FITASC category words (Junior, Lady, Senior, Veteran, Master) and no 'squad' in level names. No streaks that can be broken and no leaderboards until there are accounts and consent.",
+  "xp": {
+    "lesson_first": 20,
+    "quiz_correct": 10,
+    "lesson_max": 50,
+    "quiz_perfect_later": 10,
+    "reread_new_rev": 5,
+    "game_correct": 5,
+    "game_day_cap": 50,
+    "stage": 25,
+    "block": 50,
+    "route_exam": 150,
+    "rules_exam_per_discipline": 50,
+    "no_xp_while_known_issue": true
+  },
+  "levels": [
+    {
+      "id": "guest",
+      "min_xp": 0,
+      "title": {
+        "uk": "Гість",
+        "en": "Guest"
+      }
+    },
+    {
+      "id": "learner",
+      "min_xp": 150,
+      "title": {
+        "uk": "Учень",
+        "en": "Learner"
+      }
+    },
+    {
+      "id": "practitioner",
+      "min_xp": 500,
+      "title": {
+        "uk": "Практик",
+        "en": "Practitioner"
+      }
+    },
+    {
+      "id": "specialist",
+      "min_xp": 1200,
+      "title": {
+        "uk": "Знавець",
+        "en": "Specialist"
+      }
+    },
+    {
+      "id": "expert",
+      "min_xp": 2500,
+      "title": {
+        "uk": "Експерт",
+        "en": "Expert"
+      }
+    },
+    {
+      "id": "mentor",
+      "min_xp": 4500,
+      "title": {
+        "uk": "Наставник",
+        "en": "Mentor"
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "technique-gun-mount",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "1a9423c6",
+    "summary": "0dff53c3",
+    "basics-mount-p3": "3c828d7e",
+    "technique-gun-mount-p2": "a669016b",
+    "basics-mount-p1": "320e2f63",
+    "basics-mount-p2": "552e7a83",
+    "basics-mount-p4": "3ee4e21b",
+    "technique-gun-mount-mock": "4b1942aa",
+    "technique-gun-mount-p5": "5561100e",
+    "basics-mount-sim": "abc87648",
+    "basics-mount-ph1": "08e98f0b",
+    "basics-mount-ph2": "383cc8b0",
+    "basics-mount-ph3": "38c5cb43",
+    "basics-mount-ph4": "97ca795a",
+    "basics-mount-kp4": "ba2ac5e4",
+    "basics-mount-kp1": "f80dac2d",
+    "basics-mount-kp3": "2dfe15c1",
+    "basics-mount-kp5": "5686165d",
+    "technique-gun-mount-kp5": "ec2b65c5",
+    "technique-gun-mount-dyk": "558c3f6f",
+    "basics-mount-q1": "c3f6ce15",
+    "basics-mount-q2": "762ce7af",
+    "basics-mount-q3": "15cf4d84",
+    "technique-gun-mount-q1": "ba8d031d",
+    "technique-gun-mount-q2": "64782fe4",
+    "technique-gun-mount-q3": "8a6856dc"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "basics-mount-p3": "A {{term:gun-mount|vállba vétel}} az a mozdulat, amely felemeli a fegyvert az archodhoz és a válladhoz. Az edzők azt tanítják: „muzzles first” – „előbb a csövek”: az elülső kezed elindítja a csöveket a korong vonalán. Miközben azok mozognak, a tus felemelkedik az archodhoz, és megpihen a vállzsebben – a kulcscsont és a vállízület közti puha üregben. A „move, mount, shoot” – „mozdulj, vállba, lőj” – egyetlen folyamatos mozdulat, nem három külön lépés. A fegyvert hozd az archodhoz, ne az arcod a fegyverhez. Az arcod maradjon a {{term:comb|pofadékon}}, a tus felső élén. A sörétes puskának nincs hátsó irányzéka: ezt a szerepet a szemed tölti be, ezért annak mindig ugyanott kell lennie.",
+    "technique-gun-mount-p2": "A jó vállba vétel mindig ugyanolyan. A fejed egyenesen és mozdulatlanul marad, az arcod pedig a tus {{term:comb|pofadékán}} pihen meg. Ha lehajtod vagy megdöntöd a fejed, hogy a tushoz érj, a szemed minden lövésnél máshol van. A vállba vétel hibáiról és azok javításáról: {{lesson:faults-mount-errors}}.",
+    "basics-mount-p1": "A {{tm:sporting}}-ban a kezdés leeresztett fegyverrel történik. A korong kérése előtt a tus sarka (hátsó végének felső szöglete) érinti a testet. Ez a mellényeden megjelölt vonal alatt marad, kontrasztos színnel, {{fact:rules.sporting-jacket-line}}. Ezt a helyzetet addig tartod, amíg a korong ki nem repült, és már látod. Ha korábban veszed vállba, a bíró szóbeli figyelmeztetést ad {{term:yellow-card|sárga lappal}}. Ha ugyanazon a lőpályán megismétlődik, {{term:red-card|piros lapot}} kapsz. Egyetlen korongot ekkor nullának értékelnek; dublénál a szabály külön határozza meg mindkét korong pontszámát ({{rule:sporting:ch12-red-card}}).",
+    "basics-mount-p2": "A {{tm:compak}}-ban a fegyver helyzete a korong kérésekor szabad, így a fegyver már vállban is lehet. Mindkét versenyszámban minden korongra vállból kell lőni, és a {{tm:sporting}}-ban a dublé két korongja között a fegyver helyzete szabad.",
+    "basics-mount-p4": "Egy brit edző mondhatja: „gun up” vagy „pre-mount this one” – vedd vállba ezt előre. Ez FITASC {{tm:sporting}} versenyen szabálytalan, a {{tm:compak}}-ban szokásos, edzésen pedig csak gyakorlat. A {{tm:sporting}}-ban tilos a korong kérése előtt vállba venni a fegyvert, és egy elképzelt vonalon végiglendíteni ({{term:mock-shooting|lövés imitálása}}, mock shooting): először figyelmeztetés, aztán nulla.",
+    "technique-gun-mount-mock": "A lőálláson kívül tartsd nyitva a fegyvert, és ne lendítsd el elképzelt korongok után. A {{tm:compak}}-ban azt sem engedik, hogy vállba vedd és mozdítsd a fegyvert, amíg a rotte másik tagja lő.",
+    "technique-gun-mount-p5": "A fegyver testre szabása is fontos. A rossz hosszúságú vagy pofadék-magasságú tus megnehezíti az egyenletes vállba vételt; ezt egy edző vagy {{term:gun-fitter|tusbeállító szakember}} ellenőrizheti ({{lesson:gun-fit}}). Otthoni vállba vétel gyakorlása ellenőrzött, ürített fegyverrel csak ott lehetséges, ahol ezt az adott ország törvénye megengedi, és csak úgy, ahogy az edződ megmutatja ({{lesson:training-dry-mount-practice}}).",
+    "basics-mount-sim": "Animáció: a csőtorkolat a koronggal együtt indul, és a vállba vétel a lövés pillanatára fejeződik be: „mozdulj, vállba, lőj”."
+  },
+  "note": {},
+  "phrases": {
+    "basics-mount-ph1": {
+      "meaning": "Emeld a tust az arcodhoz; ne engedd le a fejed a fegyver elé.",
+      "say": "A fegyver jöjjön az arcodhoz, ne az arcod a fegyverhez."
+    },
+    "basics-mount-ph2": {
+      "meaning": "Indítsd a csöveket a koronggal együtt, a mozdulat közben vedd vállba, és lőj, amikor a vállba vétel befejeződik.",
+      "say": "Előbb a csövek – mozdulj, vállba, lövés."
+    },
+    "basics-mount-ph3": {
+      "meaning": "A fegyver túl későn és rántva jön fel; az elülső kéznek korábban kellene vezetnie a mozdulatot.",
+      "say": "Későn és túl gyorsan veszed vállba – az elülső kezeddel indítsd."
+    },
+    "basics-mount-ph4": {
+      "meaning": "Kezdd a tussal a mellényen lévő vonal alatt, ahogy a FITASC {{tm:sporting}} szabályai előírják.",
+      "say": "Ezt leeresztett fegyverből, mint a versenyen."
+    }
+  },
+  "key_points": {
+    "basics-mount-kp4": "Csövek először, fegyver az archoz, arc a pofadékon: mozdulj, vedd vállba, lőj.",
+    "basics-mount-kp1": "{{tm:sporting}}: a tus a mellényvonal alatt (25 cm-rel a vállak tengelye alatt), amíg a korong nem látható.",
+    "basics-mount-kp3": "{{tm:compak}}: a korong kérésekor a fegyver helyzete szabad; mindig vállból kell lőni.",
+    "basics-mount-kp5": "{{tm:sporting}}: az előzetes vállba vétel csak edzésgyakorlat; a {{tm:compak}}-ban a korong kérésekor a fegyver már lehet vállban.",
+    "technique-gun-mount-kp5": "A testre szabást ellenőrizd edzővel; otthon csak ott gyakorolj, ahol ezt a törvény megengedi."
+  },
+  "quiz": {
+    "basics-mount-q1": {
+      "q": "A {{tm:sporting}}-ban meddig kell a tusnak a mellényvonal alatt maradnia?",
+      "options": {
+        "a": "Amíg a lövész nem ad parancsot",
+        "b": "Amíg a bíró nem bólint",
+        "c": "Amíg a korong ki nem repült és nem látható",
+        "d": "Az első lövésig"
+      },
+      "explain": "A készenléti helyzetet addig kell tartani, amíg a korong kirepült és látható; csak ezután szabad vállba venni a fegyvert."
+    },
+    "basics-mount-q2": {
+      "q": "A {{tm:compak}}-ban kérheti-e a lövész a korongot úgy, hogy a fegyver már a vállában van?",
+      "options": {
+        "a": "Nem: sárga lap jár érte",
+        "b": "Csak nyúlra és más alacsony korongokra",
+        "c": "Csak a dublé két korongja között",
+        "d": "Igen: a fegyver helyzete a korong kérésekor szabad"
+      },
+      "explain": "A {{tm:compak}}-ban nincs leeresztett fegyverre vonatkozó szabály: a fegyver a korong kérésekor lehet vállban vagy sem, de minden korongot vállból kell lőni."
+    },
+    "basics-mount-q3": {
+      "q": "Miért ragaszkodnak az edzők ahhoz, hogy az arc a pofadékon maradjon?",
+      "options": {
+        "a": "A szem a hátsó irányzék, ezért mindig ugyanott kell lennie",
+        "b": "Hogy kevesebb zaj érje a fület",
+        "c": "Mert mindkét versenyszám szabályai előírják",
+        "d": "Hogy a bíró ne lássa az arcot"
+      },
+      "explain": "A sörétes puskának nincs hátsó irányzéka: a szem tölti be ezt a szerepet, ezért ha felemelkedik az arc, a lövés magasra megy."
+    },
+    "technique-gun-mount-q1": {
+      "q": "Mi a helyes a vállba vétel közben?",
+      "options": {
+        "a": "Az arc megy a fegyverhez",
+        "b": "A fegyver jön az archoz",
+        "c": "A fej lehajlik a sínhez"
+      },
+      "explain": "A fej egyenesen marad, a fegyver pedig az archoz és a vállhoz jön."
+    },
+    "technique-gun-mount-q2": {
+      "q": "Milyen távolságra a vállak tengelye alatt húzzák meg a mellényvonalat a {{tm:sporting}}-ban?",
+      "options": {
+        "a": "10 cm",
+        "b": "25 cm",
+        "c": "40 cm"
+      },
+      "explain": "A vonalat 25 cm-rel a vállak tengelye alatt húzzák meg, azzal párhuzamosan."
+    },
+    "technique-gun-mount-q3": {
+      "q": "A {{tm:compak}}-ban kérhető-e a korong úgy, hogy a fegyver már vállban van?",
+      "options": {
+        "a": "Igen, a helyzet a korong kérésekor szabad",
+        "b": "Nem, csak leeresztett fegyverből",
+        "c": "Csak szimultán dubléknál"
+      },
+      "explain": "A {{tm:compak}}-ban a fegyver helyzete a korong kérésekor szabad; a leeresztett fegyver a mellényvonallal a {{tm:sporting}} szabálya."
+    }
+  },
+  "title": "Vállba vétel: a fegyver jön az archoz",
+  "summary": "Hogyan emeld a fegyvert mindig ugyanúgy az archodhoz és a vállaidhoz, és miben különböznek a fegyvertartás szabályai a {{tm:sporting}}-ban és a {{tm:compak}}-ban.",
+  "did_you_know": "A mellényvonalra vonatkozó szabály minden tustípusra érvényes, beleértve az állítható pofadékos és a Monte Carlo tusakat (emelt pofadékkal) is. Az számít, hogy a tus hátsó részének legmagasabb pontja hol van."
+}

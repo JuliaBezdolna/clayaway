@@ -1,0 +1,357 @@
+{
+  "id": "intro-who-shoots",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent",
+    "fan"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025/categories-2027",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "intro-who-shoots",
+      "women-clothing-community-start"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "category",
+    "open-ranking",
+    "junior",
+    "lady",
+    "men-category",
+    "senior",
+    "veteran",
+    "master-category",
+    "gauge",
+    "recoil",
+    "coach",
+    "squad",
+    "shooter-profile",
+    "safety-glasses",
+    "hearing-protection",
+    "gun-fit",
+    "shoot-off"
+  ],
+  "rule_refs": [
+    {
+      "book": "categories",
+      "id": "junior"
+    },
+    {
+      "book": "categories",
+      "id": "lady"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squads-groups"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-medals"
+    }
+  ],
+  "facts": [
+    "basics.fitasc-categories-2027",
+    "rules.squad-max-shooters"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — Categories (valid from 1 January 2027)",
+        "uk": "FITASC — категорії (чинні з 1 січня 2027 року)"
+      },
+      "url": "https://www.fitasc.com/competitions/categories",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Who shoots",
+    "uk": "Хто стріляє"
+  },
+  "summary": {
+    "en": "Clay shooting is open to all ages: juniors, women, veterans and whole families shoot together. Here is how categories work and how to find company at a club.",
+    "uk": "Стендова стрільба відкрита для різного віку: юніори, жінки, ветерани й цілі родини стріляють разом. Пояснюємо, як працюють категорії і як знайти компанію в клубі."
+  },
+  "body": [
+    {
+      "k": "intro-who-shoots-p1",
+      "t": "p",
+      "en": "Clay shooting is one of the few sports where a teenager, a parent and a grandparent can shoot side by side on the same field. Accuracy, attention and self-control count for more than strength or height.",
+      "uk": "Стендова стрільба — один із небагатьох видів спорту, де на одному полі поруч можуть стріляти підліток, хтось із батьків і дідусь чи бабуся. Точність, увага й самоконтроль тут важать більше, ніж сила чи зріст."
+    },
+    {
+      "k": "intro-who-shoots-p2",
+      "t": "p",
+      "en": "To keep competitions fair, results are also ranked in {{term:category|categories}}. Besides the {{term:open-ranking|open ranking}} for everyone, there are age and gender categories. At international FITASC competitions from 1 January 2027 they are: {{fact:basics.fitasc-categories-2027}}. National and club events may use their own categories, so check the programme before you enter. More on categories and {{term:shoot-off|shoot-offs}} (extra targets to break a tie): {{lesson:competitions-categories-and-shoot-offs}}.",
+      "uk": "Щоб змагання були чесними, результати рахують ще й у {{term:category|категоріях}}. Окрім {{term:open-ranking|загального заліку}} для всіх, є категорії за віком і статтю. На міжнародних змаганнях FITASC з 1 січня 2027 року це {{fact:basics.fitasc-categories-2027}}. Національні та клубні змагання можуть мати власні категорії, тож перевіряйте програму перед реєстрацією. Більше про категорії й {{term:shoot-off|перестрілки}} (додаткові мішені, коли результати рівні): {{lesson:competitions-categories-and-shoot-offs}}."
+    },
+    {
+      "k": "intro-who-shoots-p3",
+      "t": "p",
+      "en": "Children start only under the supervision of adults and a {{term:coach|coach}}. The minimum age and the rules for minors depend on national law and on the ground's own rules. Young shooters often get a lighter gun with a narrower barrel (a 20 {{term:gauge|gauge}} instead of the usual 12). It is used with light cartridges: the light cartridge is what makes the {{term:recoil|recoil}} (the kick into the shoulder) softer, because with the same cartridge a lighter gun kicks harder. More: {{lesson:juniors-starting-age}}.",
+      "uk": "Діти починають лише під наглядом дорослих і {{term:coach|тренера}}. Мінімальний вік і правила для неповнолітніх залежать від законів країни та правил стенду. Юним стрільцям часто дають легшу рушницю з вужчим стволом (20 {{term:gauge|калібру}} замість звичного 12). З неї стріляють легкими набоями: саме легкий набій робить {{term:recoil|віддачу}} (поштовх у плече) м’якшою, бо з тим самим набоєм легша рушниця б’є сильніше. Докладніше: {{lesson:juniors-starting-age}}."
+    },
+    {
+      "k": "intro-who-shoots-p4",
+      "t": "p",
+      "en": "At competitions people shoot in {{term:squad|squads}}: small groups put together by a draw. In {{tm:sporting}}, and in {{tm:compak}} when it is shot by squad, a squad has {{fact:rules.squad-max-shooters}}. You may end up next to a champion, which is a good chance to learn just by watching.",
+      "uk": "На змаганнях стріляють {{term:squad|групами}} (squad), склад яких визначає жеребкування. У {{tm:sporting}}, а також у {{tm:compak}}, коли його стріляють у форматі by squad, у групі {{fact:rules.squad-max-shooters}}. Можна опинитися поруч із чемпіоном, і це добра нагода повчитися, просто спостерігаючи."
+    },
+    {
+      "k": "intro-who-shoots-p5",
+      "t": "p",
+      "en": "Many people shoot for relaxation and company and do not compete at all. A shooting ground is also a place to meet people, share experience and spend weekends as a family.",
+      "uk": "Багато хто стріляє заради відпочинку й спілкування і не бере участі в змаганнях. Стенд — це також місце, де знайомляться, діляться досвідом і проводять вихідні родиною."
+    },
+    {
+      "k": "women-clothing-community-start-p4",
+      "t": "p",
+      "anchor": "women-clothing-community-start",
+      "en": "Many clubs run ladies' days and women's training groups. There you can try shooting in a relaxed setting, borrow a gun and talk to experienced women shooters. Some clubs also have women coaches. Ask at your club.",
+      "uk": "У багатьох клубах є жіночі дні (ladies' days) і жіночі тренувальні групи. Там можна спробувати стрільбу в спокійній атмосфері, позичити рушницю й поспілкуватися з досвідченими стрільчинями. У деяких клубах є й тренерки. Запитайте у своєму клубі."
+    },
+    {
+      "k": "women-clothing-community-start-p5",
+      "t": "p",
+      "en": "For inspiration, look at the results of the Lady category at world and continental championships; some women also finish high in the open ranking. Results, videos and {{term:shooter-profile|shooter profiles}} are on ClayArena.",
+      "uk": "Для натхнення перегляньте результати категорії Lady на чемпіонатах світу й континенту; деякі стрільчині посідають високі місця і в загальному заліку. Результати, відео і {{term:shooter-profile|профілі стрільців}} є на ClayArena."
+    },
+    {
+      "k": "women-clothing-community-start-p6",
+      "t": "steps",
+      "en": [
+        "Book a taster session with a coach at a ground.",
+        "Shoot the ground's gun with light cartridges.",
+        "Bring {{term:safety-glasses|safety glasses}} and {{term:hearing-protection|hearing protection}}, or borrow them at the ground.",
+        "After a few sessions, have a {{term:gun-fit|gun fitting}} (the stock is adjusted to your body); only then think about a gun of your own.",
+        "Ask the ground which gun and cartridge rules apply in your country."
+      ],
+      "uk": [
+        "Запишіться на пробне заняття з тренером на стенді.",
+        "Стріляйте з рушниці стенду легкими набоями.",
+        "Візьміть {{term:safety-glasses|стрілецькі окуляри}} й {{term:hearing-protection|засоби захисту слуху}} або позичте їх на стенді.",
+        "Після кількох занять зробіть {{term:gun-fit|підгонку рушниці}} (приклад підбирають під вашу статуру); лише потім думайте про власну рушницю.",
+        "Запитайте на стенді, які правила щодо рушниць і набоїв діють у вашій країні."
+      ]
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "intro-who-shoots-kp1",
+      "en": "Age, gender and strength matter less than attention and practice.",
+      "uk": "Вік, стать і сила важать менше, ніж увага й практика."
+    },
+    {
+      "k": "intro-who-shoots-kp2",
+      "en": "There is an open ranking plus categories; FITASC from 2027: Junior, Lady, Men, Senior, Veteran, Master. National and club events may have their own categories: see the programme.",
+      "uk": "Є загальний залік і категорії; у FITASC з 2027 року — Junior, Lady, Men, Senior, Veteran, Master. Національні й клубні змагання можуть мати власні категорії — дивіться програму."
+    },
+    {
+      "k": "intro-who-shoots-kp3",
+      "en": "Children shoot only under supervision; laws differ between countries.",
+      "uk": "Діти стріляють лише під наглядом; закони різних країн відрізняються."
+    },
+    {
+      "k": "intro-who-shoots-kp4",
+      "en": "At competitions you shoot in a squad of {{fact:rules.squad-max-shooters}}, put together by a draw.",
+      "uk": "На змаганнях ви стріляєте в групі (у ній {{fact:rules.squad-max-shooters}}), склад якої визначає жеребкування."
+    },
+    {
+      "k": "women-clothing-community-start-kp4",
+      "en": "Look for ladies' days and women's groups at clubs.",
+      "uk": "Шукайте жіночі дні й жіночі групи в клубах."
+    }
+  ],
+  "did_you_know": {
+    "k": "intro-who-shoots-dyk",
+    "en": "It is not unusual for several generations of one family to shoot at the same competition.",
+    "uk": "Нерідко на одному змаганні виступають кілька поколінь однієї родини."
+  },
+  "quiz": [
+    {
+      "k": "intro-who-shoots-q1",
+      "q": {
+        "en": "Who decides which categories apply at a competition?",
+        "uk": "Хто визначає, які категорії діють на змаганні?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "FITASC at international events, else the programme",
+          "uk": "На міжнародних — FITASC, на інших — програма"
+        },
+        {
+          "k": "b",
+          "en": "Each shooter chooses one when entering",
+          "uk": "Кожен стрілець обирає сам під час реєстрації"
+        },
+        {
+          "k": "c",
+          "en": "The referee decides on the day",
+          "uk": "Суддя вирішує в день змагань"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "International events use the FITASC category table (the new one from 1 January 2027); national and club events may have their own, and the programme states them.",
+        "uk": "На міжнародних змаганнях діє таблиця категорій FITASC (нова — з 1 січня 2027 року), а національні й клубні змагання можуть мати власні; програма їх указує."
+      }
+    },
+    {
+      "k": "intro-who-shoots-q2",
+      "q": {
+        "en": "What is the largest number of shooters in one squad?",
+        "uk": "Скільки людей щонайбільше стріляє в одній групі (squad)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Three",
+          "uk": "Троє"
+        },
+        {
+          "k": "b",
+          "en": "Ten",
+          "uk": "Десятеро"
+        },
+        {
+          "k": "c",
+          "en": "Six",
+          "uk": "Шестеро"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:sporting}}, and in {{tm:compak}} when it is shot by squad, a squad has {{fact:rules.squad-max-shooters}}.",
+        "uk": "У {{tm:sporting}}, а також у {{tm:compak}}, коли його стріляють у форматі by squad, у групі {{fact:rules.squad-max-shooters}}."
+      }
+    },
+    {
+      "k": "intro-who-shoots-q3",
+      "q": {
+        "en": "What should you remember about children at a ground?",
+        "uk": "Що важливо пам’ятати про дітей на стенді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They may shoot alone once trained",
+          "uk": "Після навчання вони можуть стріляти самі"
+        },
+        {
+          "k": "b",
+          "en": "They shoot only under supervision",
+          "uk": "Вони стріляють лише під наглядом"
+        },
+        {
+          "k": "c",
+          "en": "They may not shoot anywhere",
+          "uk": "Їм ніде не можна стріляти"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Children shoot only with adults and a coach; the minimum age is set by law and by the ground's rules.",
+        "uk": "Діти стріляють тільки з дорослими й тренером, а мінімальний вік визначають закон і правила стенду."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "women-clothing-community-start-q3",
+      "q": {
+        "en": "What does this lesson suggest before you buy your own gun?",
+        "uk": "Що радить цей урок зробити перед купівлею власної рушниці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Buy the lightest model at once",
+          "uk": "Одразу купити найлегшу модель"
+        },
+        {
+          "k": "b",
+          "en": "Buy a friend's used gun",
+          "uk": "Купити вживану рушницю знайомих"
+        },
+        {
+          "k": "c",
+          "en": "Shoot a few sessions, then a fitting",
+          "uk": "Постріляти кілька занять, потім підгонка"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Experience and a gun fitting first, then the purchase.",
+        "uk": "Спершу досвід і підгонка рушниці, потім покупка."
+      },
+      "from": "women-clothing-community-start"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "5a6dc429",
+    "summary": "880bd97e",
+    "intro-who-shoots-p1": "281264bd",
+    "intro-who-shoots-p2": "72e361de",
+    "intro-who-shoots-p3": "80612d45",
+    "intro-who-shoots-p4": "a4980b16",
+    "intro-who-shoots-p5": "8267922a",
+    "women-clothing-community-start-p4": "8152448e",
+    "women-clothing-community-start-p5": "d46c7598",
+    "women-clothing-community-start-p6": "a269a3fe",
+    "intro-who-shoots-kp1": "5fcf9a33",
+    "intro-who-shoots-kp2": "b83160f3",
+    "intro-who-shoots-kp3": "f3365d5a",
+    "intro-who-shoots-kp4": "a68c07b4",
+    "women-clothing-community-start-kp4": "df321057",
+    "intro-who-shoots-dyk": "1294f3b8",
+    "intro-who-shoots-q1": "ed313bec",
+    "intro-who-shoots-q2": "5d142590",
+    "intro-who-shoots-q3": "f845327a",
+    "women-clothing-community-start-q3": "bdd29c8e"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

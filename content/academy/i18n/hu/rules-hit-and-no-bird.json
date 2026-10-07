@@ -1,0 +1,150 @@
+{
+  "id": "rules-hit-and-no-bird",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "4794c74b",
+    "summary": "3e83dc06",
+    "rules-hit-and-no-bird-p1": "277f0b67",
+    "targets-hit-or-lost-p1": "b9ef7e75",
+    "targets-hit-or-lost-p2": "79ab83c6",
+    "targets-hit-or-lost-p3": "5d73bfd4",
+    "rules-hit-and-no-bird-cmp1": "53b14c69",
+    "rules-hit-and-no-bird-p5": "0ade6c15",
+    "rules-hit-and-no-bird-cmp2": "f1a043d3",
+    "rules-hit-and-no-bird-p6": "c54645e2",
+    "rules-hit-and-no-bird-p7": "f9ae3e0e",
+    "rules-hit-and-no-bird-cmp3": "b6fc783c",
+    "rules-hit-and-no-bird-tip1": "24b646d0",
+    "rules-hit-and-no-bird-n1": "ab0492bb",
+    "targets-hit-or-lost-p5": "ffcca686",
+    "targets-hit-or-lost-ph2": "fc9b62f4",
+    "targets-hit-or-lost-ph3": "c4348d9e",
+    "targets-hit-or-lost-ph4": "9b667f8d",
+    "targets-hit-or-lost-kp1": "bdfb734e",
+    "targets-hit-or-lost-kp2": "13eb98a1",
+    "targets-hit-or-lost-kp3": "92a918aa",
+    "rules-hit-and-no-bird-kp3": "2a1721c2",
+    "rules-hit-and-no-bird-kp5": "349a6284",
+    "rules-hit-and-no-bird-dyk": "d7a6a51a",
+    "rules-hit-and-no-bird-q1": "3cd36c18",
+    "rules-hit-and-no-bird-q2": "bfbdfb6e",
+    "rules-hit-and-no-bird-q3": "bdbc54bd",
+    "competitions-scoring-basics-q3": "aa26aace",
+    "targets-hit-or-lost-q1": "dc9c7876",
+    "targets-hit-or-lost-q3": "73a4d8e6"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "rules-hit-and-no-bird-p1": "A {{tm:sporting}}-ban és a {{tm:compak}}-ban minden korongnak csak két eredménye lehet: „one” (találat) vagy „zero” (mellőlövés). Félpont nincs.",
+    "targets-hit-or-lost-p1": "Egy korong „one”-nak számít, ha három dolog igaz. Szabályosan dobták ki, a lövész a szabályok szerint lőtt, és legalább egy {{term:visible-piece|látható darab}} leválik róla (a teljesen szétrobbant korong is beleszámít). Ugyanez a szabály érvényes a {{term:flash-target|flash korongokra}} is (olyan korongokra, amelyek találatkor egy kis színes porfelhőt bocsátanak ki). Egy korong „zero” (mellőlövés), ha nem válik le róla látható darab, és csak por vagy füst látszik.",
+    "targets-hit-or-lost-p2": "Tehát az egész szabály egyetlen látható dologra épül: egy leváló darabra. Egy apró {{term:chip|szilánk}}, amely leválik, találatnak számít. Egy porfelhő, amíg a korong egy darabban repül tovább, mellőlövés.",
+    "targets-hit-or-lost-p3": "Csak a {{term:referee|bíró}} dönt arról, hogy egy korongot eltaláltak-e. A rottetársak nem mondhatnak véleményt, és senki nem veheti fel a korongot, hogy megvizsgálja.",
+    "rules-hit-and-no-bird-cmp1": {
+      "sporting": "A korongot ott törd el, ahol a bíró látja a találatot. Ha egy korong egy akadály mögött vagy a {{term:shooting-limit|lőterület határán}} (azon a vonalon, amelyen belül a találat számít) túl törik szét, a bíró dönt. Ez a döntés nem fellebbezhető. Amint kéred a következő korongot, elfogadtad az előzőre vonatkozó döntést.",
+      "compak": "A bíró minden nullát hangosan vagy hangjelzéssel bejelent. Azonnal tiltakozz, mielőtt a következő lövész kér."
+    },
+    "rules-hit-and-no-bird-p5": "Egy {{term:no-bird|No Bird}} egy olyan korong, amely nem számít, és újra kidobják. A bíró akkor mondja ki, amikor a korong törötten jön ki, rossz dobógépből, vagy rossz színű (a {{tm:sporting}}-ban rossz méretű vagy típusú is). Más okok: szabálytalan röppálya, 3 másodpercnél későbbi kiengedés (lásd {{lesson:rules-call-and-time}}), vagy egy nem kért korong. No Bird akkor is jár, ha valami nyilvánvalóan megzavart, vagy ha a bíró nem tudja megítélni az eredményt.",
+    "rules-hit-and-no-bird-cmp2": {
+      "sporting": "Ha két korong egyszerre repül ki ugyanannak a lőállásnak a dobógépeiből, az is No Bird.",
+      "compak": "A rossz idő nem jogosít No Birdre, bármilyenek is a körülmények. Egy korong vagy darabjai, amelyek a szomszédos {{tm:compak}} {{term:layout|lőpályáról}} (a melletted lévő mezőről) repülnek át, sem jogosítanak rá. Egy a saját lőpályád dobógépéből eltévedt korong viszont igen."
+    },
+    "rules-hit-and-no-bird-p6": "Egy No Bird után egy szóló korongot egyszerűen újra kidobnak. Egy dublénál attól függ, melyik korong volt szabálytalan: lásd {{lesson:rules-doubles}}.",
+    "rules-hit-and-no-bird-p7": "Amint a bíró kimondta a No Birdet, arra a korongra már nem szabad lőnöd. Egy első figyelmeztetés után ez mindkét versenyszámban büntetendő; hogyan pontozzák ezután a korongokat, azt a szabálykönyv tartalmazza.",
+    "rules-hit-and-no-bird-cmp3": {
+      "sporting": "Egy hirtelen erős zápor vagy vihar esetén, amely rövidnek tűnik, a bíró leállíthatja a lövészetet. Ha ez tovább tart, a bíró tájékoztatja a zsűrit.",
+      "compak": "Hirtelen felhőszakadás vagy vihar esetén csak a főbíró állíthatja le a lövészetet. Ha ez tovább tarthat, tájékoztatják a zsűrit."
+    },
+    "rules-hit-and-no-bird-tip1": "Ha úgy gondolod, egy döntés hibás volt, emelj kezet, és mondd el, mielőtt a következő kérés elhangzik. A későbbi vita nem változtatja meg az eredményt; hogyan működik az óvás, azt a {{lesson:competitions-results-and-protests}} magyarázza el."
+  },
+  "note": {
+    "rules-hit-and-no-bird-n1": "Az edzői szleng gyakran a szabályok ellentétét jelenti. A {{term:smoked-it|„Smoked it”}} egy nagyon tiszta találatot dicsér, míg a szabályokban a „csak por vagy füst” mellőlövés. Bővebben: {{lesson:interpreter-false-friends}}.",
+    "targets-hit-or-lost-p5": "Még két szó: a „dead” találatot jelent (ne fordítsd „halottnak”), a „lost” pedig mellőlövést (ne fordítsd „elveszettnek”)."
+  },
+  "phrases": {
+    "targets-hit-or-lost-ph2": {
+      "meaning": "Egy kis látható darab levált, tehát találat.",
+      "say": "Talált – csak egy kis darab, de számít."
+    },
+    "targets-hit-or-lost-ph3": {
+      "meaning": "Hiba; a lövés a korong mögött ment el.",
+      "say": "Nulla – épp mögötte voltál."
+    },
+    "targets-hit-or-lost-ph4": {
+      "meaning": "A kifogást azonnal jelezni kell; a következő korong kérése elfogadja a döntést.",
+      "say": "Ne később vitatkozz velem – most mondd, mielőtt kéred a korongot."
+    }
+  },
+  "key_points": {
+    "targets-hit-or-lost-kp1": "„One”: legalább egy látható darab leválik a korongról, vagy az teljesen szétesik.",
+    "targets-hit-or-lost-kp2": "„Zero”: nincs látható darab, csak por vagy füst.",
+    "targets-hit-or-lost-kp3": "Csak a bíró dönt; a korongot senki nem veszi fel, hogy ellenőrizze; azonnal tiltakozz.",
+    "rules-hit-and-no-bird-kp3": "A No Bird nem számít, és újra kidobják; egy kimondott No Birdre nem szabad lőni.",
+    "rules-hit-and-no-bird-kp5": "{{tm:compak}}: a rossz idő nem jogosít No Birdre."
+  },
+  "quiz": {
+    "rules-hit-and-no-bird-q1": {
+      "q": "A lövés után a korong csak port bocsát ki, és nem látszik darab. Mi az eredmény?",
+      "options": {
+        "a": "One",
+        "b": "No Bird",
+        "c": "Zero"
+      },
+      "explain": "A találathoz legalább egy látható darab kell; a puszta por vagy füst zero."
+    },
+    "rules-hit-and-no-bird-q2": {
+      "q": "Ki dönti el, hogy egy korongot eltaláltak-e?",
+      "options": {
+        "a": "Csak a bíró",
+        "b": "A rotte szavazása",
+        "c": "A lövész"
+      },
+      "explain": "A bíró egyedül dönt, és csak saját kezdeményezésére kérhet tanácsot másoktól."
+    },
+    "rules-hit-and-no-bird-q3": {
+      "q": "A {{tm:compak}}-ban erős eső kezdődik, és mellélősz. Mi az eredmény?",
+      "options": {
+        "a": "No Bird",
+        "b": "Zero",
+        "c": "No Bird, ha kéred"
+      },
+      "explain": "A {{tm:compak}}-ban egy eltört korong „one”, a mellőlövés „zero”, bármilyen időben. Csak a főbíró állíthatja le a lövészetet hirtelen vihar miatt."
+    },
+    "competitions-scoring-basics-q3": {
+      "q": "Egy rossz színű korong jön ki a dobógépből. Mi ez?",
+      "options": {
+        "a": "No Bird",
+        "b": "Zero",
+        "c": "One"
+      },
+      "explain": "A rossz színű korong mindkét versenyszámban No Bird, és újra kidobják."
+    },
+    "targets-hit-or-lost-q1": {
+      "q": "Egy apró szilánk leválik a korongról, a többi pedig továbbrepül. Mi az eredmény?",
+      "options": {
+        "a": "Zero (mellőlövés)",
+        "b": "One (találat)",
+        "c": "No Bird",
+        "d": "Fél pont"
+      },
+      "explain": "Bármilyen látható darab, amely leválik, találatnak számít, bármilyen kicsi is."
+    },
+    "targets-hit-or-lost-q3": {
+      "q": "Egy „lost” döntés után a rotte egyik tagja kimegy, felveszi a korongot, és megmutatja a bírónak a rajta lévő szilánkot. Mit mondanak a szabályok?",
+      "options": {
+        "a": "A bírónak meg kell néznie",
+        "b": "A rotte szavaz róla",
+        "c": "Nem megengedett: a korongot nem veszik fel",
+        "d": "Az edző dönt"
+      },
+      "explain": "A korongot senki nem veheti fel, hogy ellenőrizze, és a rottetársak nem avatkozhatnak be: csak a bíró dönt."
+    }
+  },
+  "title": "Mi számít találatnak, és mi a No Bird",
+  "summary": "A {{tm:sporting}}-ban és a {{tm:compak}}-ban egy korong találat, ha legalább egy látható darab leválik róla; a puszta por mellőlövés. A No Bird nem számít, és újra kidobják.",
+  "did_you_know": "A {{tm:compak}} eredménylapjain a találatot X, a mellőlövést O jelöli."
+}

@@ -1,0 +1,98 @@
+{
+  "id": "chokes-pattern-testing-and-care",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "e8a9ef43",
+    "summary": "457efd60",
+    "chokes-pattern-testing-and-care-p1": "b61918b4",
+    "chokes-pattern-testing-and-care-p2": "b17fe320",
+    "chokes-pattern-testing-and-care-p3": "bef2177f",
+    "chokes-pattern-testing-and-care-p4": "20c97038",
+    "chokes-pattern-testing-and-care-p5": "8e1dfb17",
+    "chokes-pattern-testing-and-care-p6": "77e552fb",
+    "chokes-pattern-testing-and-care-p7": "de997f66",
+    "chokes-pattern-testing-and-care-kp1": "1299ab0c",
+    "chokes-pattern-testing-and-care-kp2": "f2cb603c",
+    "chokes-pattern-testing-and-care-kp3": "c1da7fc6",
+    "chokes-pattern-testing-and-care-kp4": "9c490994",
+    "chokes-pattern-testing-and-care-kp5": "3a56bafc",
+    "chokes-pattern-testing-and-care-dyk": "dfbbac7a",
+    "chokes-pattern-testing-and-care-q1": "3e05c144",
+    "chokes-pattern-testing-and-care-q2": "3b814f97",
+    "chokes-pattern-testing-and-care-q3": "c4b54f8b",
+    "chokes-pattern-testing-and-care-q4": "47bdd55d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Prova della rosata e cura degli strozzatori",
+  "summary": "Come controllare la rosata su una lastra, come pulire e ingrassare gli strozzatori, e perché i tiratori di {{tm:sporting}} e {{tm:compak}} non sparano con un fucile multichoke senza strozzatore.",
+  "body": {
+    "chokes-pattern-testing-and-care-p1": "Per vedere cosa fa davvero il tuo strozzatore, si spara su una {{term:pattern-plate|lastra di prova}} (pattern plate): un grande foglio d'acciaio dipinto o ingrassato perché i pallini lascino segni. Va bene anche un grande foglio di carta, circa 1 × 1 m. Fallo solo in un campo che ha una lastra simile, e con il permesso del personale.",
+    "chokes-pattern-testing-and-care-p2": "Per controllare la {{term:gun-fit|calciatura su misura}} si spara da distanza breve, {{fact:gear.fit-plate-distance}}: lì conta dove sta il centro della rosata. Per giudicare lo strozzatore in sé la distanza è maggiore, classicamente 35 m o 40 yard (circa 36,6 m). Sulla carta si traccia un cerchio di 75–76 cm attorno alla parte più densa e si contano i buchi dei pallini al suo interno. Poi si confronta quel numero con il numero di pallini nella cartuccia (circa 350–400 per 28 g di n. 7½; vedi {{lesson:cartridges-shot-size}}).",
+    "chokes-pattern-testing-and-care-p3": "Grosso modo, a quella distanza il {{term:cylinder|cylinder}} mette nel cerchio circa il 40% dei pallini, l'improved cylinder circa il 50%, il modified circa il 60%, l'improved modified circa il 65%, e il full il 70% o più. Le cifre dipendono dalla cartuccia, quindi il tuo fucile e la tua cartuccia possono dare risultati diversi.",
+    "chokes-pattern-testing-and-care-p4": "Un solo colpo dimostra poco: le rosate variano sensibilmente anche con cartucce identiche. Spara almeno 3–5 colpi per ogni combinazione. Guarda anche l'uniformità: una buona rosata è regolare, senza grandi vuoti e senza una macchia densa al centro.",
+    "chokes-pattern-testing-and-care-p5": [
+      "Dopo il tiro, svita gli strozzatori con la {{term:choke-key|chiave per strozzatori}}.",
+      "Puliscili dentro e fuori con solvente e una spazzola, e pulisci la filettatura nella volata.",
+      "Prima di rimontarli, metti un sottile strato di {{term:choke-grease|grasso per strozzatori}} sulla filettatura: previene la ruggine e impedisce allo strozzatore di grippare."
+    ],
+    "chokes-pattern-testing-and-care-p6": "Controlla che gli strozzatori siano ben stretti prima di ogni sessione, perché il tiro può allentarli poco a poco. Avvitali a fondo con la chiave, ma senza forzare troppo.",
+    "chokes-pattern-testing-and-care-p7": "Non sparare mai con un fucile {{term:multichoke|multichoke}} senza strozzatore, o con uno strozzatore avvitato solo a metà. I pallini e la {{term:wad|borra}} possono danneggiare la filettatura nella volata, e la riparazione è costosa. Tieni gli strozzatori di riserva in un astuccio separato perché non si perdano."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-pattern-testing-and-care-kp1": "Le rosate si controllano su una lastra: la calciatura a {{fact:gear.fit-plate-distance}}, gli strozzatori a 35 m o 40 yard.",
+    "chokes-pattern-testing-and-care-kp2": "Conta la quota di pallini in un cerchio di 75–76 cm; spara 3–5 colpi.",
+    "chokes-pattern-testing-and-care-kp3": "Pulisci gli strozzatori dopo il tiro e ingrassa le filettature con il grasso per strozzatori.",
+    "chokes-pattern-testing-and-care-kp4": "Controlla che gli strozzatori siano ben stretti prima di ogni sessione.",
+    "chokes-pattern-testing-and-care-kp5": "Non sparare con un fucile multichoke senza strozzatore."
+  },
+  "did_you_know": "Dopo ogni colpo, la lastra di prova viene dipinta o ingrassata di nuovo, con un rullo o un pennello, perché i segni successivi non si mescolino a quelli precedenti.",
+  "quiz": {
+    "chokes-pattern-testing-and-care-q1": {
+      "q": "Perché non si deve sparare con un fucile multichoke senza strozzatore?",
+      "options": {
+        "a": "È vietato solo nelle gare",
+        "b": "Pallini e borra possono danneggiare la filettatura della volata",
+        "c": "Il fucile allora non spara affatto",
+        "d": "La rosata diventa troppo stretta"
+      },
+      "explain": "Senza strozzatore la filettatura è esposta, e pallini e borra possono danneggiarla."
+    },
+    "chokes-pattern-testing-and-care-q2": {
+      "q": "A quale distanza classica si giudica la rosata di uno strozzatore?",
+      "options": {
+        "a": "5 m (circa 5½ yard)",
+        "b": "15 m (circa 16 yard)",
+        "c": "35 m o 40 yard (circa 37 m)",
+        "d": "80 m (circa 87 yard)"
+      },
+      "explain": "La quota di pallini in un cerchio di 75–76 cm si conta classicamente a 35 m o 40 yard."
+    },
+    "chokes-pattern-testing-and-care-q3": {
+      "q": "Quanti colpi conviene sparare per giudicare una rosata?",
+      "options": {
+        "a": "Almeno 3–5 per ogni combinazione",
+        "b": "Un colpo è sufficiente",
+        "c": "Esattamente due, uno per canna",
+        "d": "Cento, nello stesso giorno"
+      },
+      "explain": "Le rosate variano da un colpo all'altro, quindi serve una serie per ogni combinazione di fucile, strozzatore e cartuccia."
+    },
+    "chokes-pattern-testing-and-care-q4": {
+      "q": "A cosa serve il grasso per strozzatori?",
+      "options": {
+        "a": "A rendere la rosata un po' più stretta",
+        "b": "A pulire la canna dopo il tiro",
+        "c": "A evitare la ruggine e il grippaggio dello strozzatore",
+        "d": "Ad attutire il rinculo del fucile"
+      },
+      "explain": "Un sottile strato sulla filettatura la protegge dalla ruggine e permette di svitare lo strozzatore più avanti."
+    }
+  }
+}

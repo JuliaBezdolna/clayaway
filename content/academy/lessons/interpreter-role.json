@@ -1,0 +1,354 @@
+{
+  "id": "interpreter-role",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 1,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "interpreter",
+    "organiser",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "interpreter-role"
+    ]
+  },
+  "terms": [
+    "coach",
+    "coaching",
+    "yellow-card",
+    "referee",
+    "squad",
+    "attempt-to-influence",
+    "jury",
+    "organiser",
+    "interpreter",
+    "protest"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-referee-alone"
+    },
+    {
+      "book": "sporting",
+      "id": "ch11-influence"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-powers"
+    },
+    {
+      "book": "compak",
+      "id": "ch22-influence"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Your role: training versus competition",
+    "uk": "Ваша роль: тренування і змагання"
+  },
+  "summary": {
+    "en": "In training you are the coach’s voice. In competition coaching is forbidden, so you pass on only what the referee, the jury and the organiser say.",
+    "uk": "На тренуванні ви — голос тренера. На змаганнях підказувати заборонено, тож ви передаєте лише те, що кажуть суддя, журі й організатор."
+  },
+  "body": [
+    {
+      "k": "interpreter-role-p1",
+      "t": "p",
+      "core": true,
+      "en": "In training you are the {{term:coach|coach}}’s voice. Pass on each instruction in full, in the coach’s order and tone: firm about safety, warm with praise. Do not soften criticism or add reasons the coach did not give. Do not add technique tips of your own, even when you know the answer. If you missed a word, ask before you translate.",
+      "uk": "На тренуванні ви — голос {{term:coach|тренера}}. Передавайте кожну вказівку повністю, у тому самому порядку й тоні: твердо, коли йдеться про безпеку, тепло, коли це похвала. Не пом’якшуйте критику й не додавайте пояснень, яких тренер не давав. Не додавайте власних технічних порад, навіть якщо знаєте відповідь. Якщо не почули слово, перепитайте до перекладу."
+    },
+    {
+      "k": "interpreter-role-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch8-coaching",
+      "en": "A competition is different. In both {{tm:sporting}} and {{tm:compak}}, {{term:coaching|coaching}} a competitor during the competition is forbidden. The shooter gets a {{term:yellow-card|yellow card}}, repeats bring heavier penalties, and the {{term:referee|referee}} sends the person who coached out of the shooting area ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). The referee’s decision is the referee’s alone. Nobody in the {{term:squad|squad}} comments on hits. Open criticism of a ruling counts as an {{term:attempt-to-influence|attempt to influence}} the referee, that is, trying to push the referee towards another decision ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+      "uk": "На змаганнях усе інакше. І в {{tm:sporting}}, і в {{tm:compak}} {{term:coaching|підказувати}} учасникові під час змагань заборонено. Стрілець отримує {{term:yellow-card|жовту картку}}, за повтори — суворіші санкції, а того, хто підказував, {{term:referee|суддя}} видаляє із зони стрільби ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Рішення ухвалює лише суддя. Ніхто в {{term:squad|групі}} не коментує влучання. Відкрита критика рішення вважається {{term:attempt-to-influence|спробою вплинути}} на суддю, тобто схилити його до іншого рішення ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}})."
+    },
+    {
+      "k": "interpreter-role-p3",
+      "t": "p",
+      "core": true,
+      "en": "Here is the honest part: the FITASC rulebooks do not mention interpreters at all. They do not say whether passing on a coach’s advice word for word counts as coaching. Nor do they say where an interpreter may stand. This is an open question for FITASC, so do not present any answer as official.",
+      "uk": "А тепер чесно: регламенти FITASC узагалі не згадують {{term:interpreter|перекладачів}}. Вони не кажуть, чи вважається підказкою дослівна передача поради тренера. Не кажуть вони й того, де може стояти перекладач. Це відкрите питання до FITASC, тож не подавайте жодну відповідь як офіційну."
+    },
+    {
+      "k": "interpreter-role-p4",
+      "t": "p",
+      "core": true,
+      "en": "Until FITASC answers, follow a safe practice. In competition, interpret only what passes between your shooter and the referee, the {{term:jury|jury}} or the {{term:organiser|organiser}}: calls, decisions, warnings, {{term:protest|protests}}, times and squad lists. Before the event, tell the referee or organiser who you are and agree where you will stand. If a coach asks you to pass on advice during the competition, decline politely and say why. This protects your shooter from a yellow card.",
+      "uk": "Поки FITASC не відповіла, дотримуйтеся безпечної практики. На змаганнях перекладайте лише те, що відбувається між вашим стрільцем і суддею, {{term:jury|журі}} чи {{term:organiser|організатором}}: команди, рішення, попередження, {{term:protest|протести}}, час і склад груп. До початку скажіть судді чи організаторові, хто ви, і домовтеся, де стоятимете. Якщо тренер просить передати пораду під час змагань, ввічливо відмовтеся й поясніть чому. Так ви вбережете свого стрільця від жовтої картки."
+    },
+    {
+      "k": "interpreter-role-p5",
+      "t": "tip",
+      "en": "The rules do not say whether a break between rounds still counts as “during the competition”. If you are unsure, ask the jury or the organiser before you pass on any advice. Where to stand and when to speak: {{lesson:interpreter-position}}.",
+      "uk": "Правила не кажуть, чи вважається перерва між раундами ще «часом змагань». Якщо сумніваєтеся, запитайте журі чи організатора, перш ніж передавати будь-яку пораду. Де стояти й коли говорити — {{lesson:interpreter-position}}."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "interpreter-role-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Tell her she’s lifting her head on the second bird.",
+      "meaning": {
+        "en": "Training: pass it on fully when the gun is open.",
+        "uk": "Тренування: передайте повністю, коли рушниця відкрита."
+      },
+      "say": {
+        "uk": "Тренер каже: на другій мішені ви піднімаєте голову."
+      }
+    },
+    {
+      "k": "interpreter-role-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Quick — tell him to give the crosser more.",
+      "meaning": {
+        "en": "Competition: this is coaching. Decline politely; do not pass it on.",
+        "uk": "Змагання: це підказка. Ввічливо відмовтеся, не передавайте."
+      },
+      "say": {
+        "uk": "(тренерові) Вибачте, під час змагань я не можу передавати поради — стрілець отримає жовту картку."
+      }
+    },
+    {
+      "k": "interpreter-role-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Who are you with?",
+      "meaning": {
+        "en": "The referee asks why you are near the stand; introduce yourself and your role.",
+        "uk": "Суддя питає, чому ви біля стрілецького місця; представтеся й назвіть свою роль."
+      },
+      "say": {
+        "uk": "Я перекладач цього стрільця; перекладаю лише ваші рішення й команди."
+      }
+    },
+    {
+      "k": "interpreter-role-ph4",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Ask the referee if I can still change chokes.",
+      "meaning": {
+        "en": "A procedural question to the referee: you may interpret it.",
+        "uk": "Процедурне запитання до судді: його перекладати можна."
+      },
+      "say": {
+        "uk": "(судді) Стрілець питає, чи може він ще замінити чоки."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "interpreter-role-kp1",
+      "core": true,
+      "en": "Training: the coach’s voice — complete, same tone, nothing of your own",
+      "uk": "Тренування: ви — голос тренера, повністю, тим самим тоном, нічого від себе"
+    },
+    {
+      "k": "interpreter-role-kp2",
+      "core": true,
+      "en": "Competition: coaching is forbidden (yellow card, coach removed)",
+      "uk": "Змагання: підказки заборонено (жовта картка, тренера видаляють)"
+    },
+    {
+      "k": "interpreter-role-kp3",
+      "core": true,
+      "en": "Open FITASC question: rulebooks do not mention interpreters",
+      "uk": "Відкрите питання для FITASC: регламенти не згадують перекладачів"
+    },
+    {
+      "k": "interpreter-role-kp4",
+      "core": true,
+      "en": "Safe practice: interpret only referee, jury and organiser communication in competition",
+      "uk": "Безпечна практика: на змаганнях перекладайте лише суддю, журі й організатора"
+    },
+    {
+      "k": "interpreter-role-kp5",
+      "core": true,
+      "en": "Introduce yourself to the referee and agree where you stand",
+      "uk": "Представтеся судді й домовтеся, де стоятимете"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "interpreter-role-q1",
+      "disc": "both",
+      "q": {
+        "en": "During a competition round the coach asks you to tell the shooter “more lead on the crosser”. What do you do?",
+        "uk": "Під час змагального раунду тренер просить передати стрільцеві «більший винос на поперечній». Що ви робите?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Whisper it quickly while he loads",
+          "uk": "Швидко прошепотіти, поки він заряджає"
+        },
+        {
+          "k": "b",
+          "en": "Pass it on after the next target",
+          "uk": "Передати після наступної мішені"
+        },
+        {
+          "k": "c",
+          "en": "Decline politely: that would be coaching",
+          "uk": "Ввічливо відмовитися: це була б підказка"
+        },
+        {
+          "k": "d",
+          "en": "Ask the referee to pass it on",
+          "uk": "Попросити суддю передати"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Coaching during competition is forbidden and the shooter would get a yellow card. The rules do not say whether relaying advice is allowed, so stay on the safe side.",
+        "uk": "Підказки під час змагань заборонені, і стрілець отримав би жовту картку. Чи можна передавати поради, правила не кажуть, тож дійте обережно."
+      },
+      "rule_ref": "sporting:ch8-coaching"
+    },
+    {
+      "k": "interpreter-role-q2",
+      "q": {
+        "en": "What do the FITASC rulebooks say about interpreters?",
+        "uk": "Що кажуть регламенти FITASC про перекладачів?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They may stand on the stand",
+          "uk": "Вони можуть стояти на стрілецькому місці"
+        },
+        {
+          "k": "b",
+          "en": "They need a referee’s licence",
+          "uk": "Їм потрібна суддівська ліцензія"
+        },
+        {
+          "k": "c",
+          "en": "They count as coaches",
+          "uk": "Їх прирівнюють до тренерів"
+        },
+        {
+          "k": "d",
+          "en": "Nothing: it is an open question",
+          "uk": "Нічого: це відкрите питання"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The rulebooks do not mention interpreters, so their exact position in competition is an open question for FITASC.",
+        "uk": "Регламенти не згадують перекладачів, тож їхнє становище на змаганнях — відкрите питання для FITASC."
+      }
+    },
+    {
+      "k": "interpreter-role-q3",
+      "q": {
+        "en": "In training, the coach says “Not bad, but you stopped the gun.” How do you translate?",
+        "uk": "На тренуванні тренер каже «Not bad, but you stopped the gun». Як перекласти?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Fully and in the same tone, both parts",
+          "uk": "Повністю й тим самим тоном, обидві частини"
+        },
+        {
+          "k": "b",
+          "en": "Only the praise, to keep the guest happy",
+          "uk": "Лише похвалу, щоб гість був задоволений"
+        },
+        {
+          "k": "c",
+          "en": "Only the fault, to save time",
+          "uk": "Лише помилку, щоб зекономити час"
+        },
+        {
+          "k": "d",
+          "en": "Add your own tip on how to fix it",
+          "uk": "Додати власну пораду, як виправити"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "You neither soften nor inflate: the whole message, in the coach’s tone, with nothing of your own.",
+        "uk": "Не пом’якшуйте й не перебільшуйте: усе повідомлення, тоном тренера, нічого від себе."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "e32c790c",
+    "summary": "735494ce",
+    "interpreter-role-p1": "63aa3afe",
+    "interpreter-role-p2": "20bf17dd",
+    "interpreter-role-p3": "ffa9d77d",
+    "interpreter-role-p4": "05133f45",
+    "interpreter-role-p5": "95880a4b",
+    "interpreter-role-ph1": "37c9f2f8",
+    "interpreter-role-ph2": "c4e29ad8",
+    "interpreter-role-ph3": "d5bafeee",
+    "interpreter-role-ph4": "9865c9d3",
+    "interpreter-role-kp1": "55c1f223",
+    "interpreter-role-kp2": "c81d5e54",
+    "interpreter-role-kp3": "09ea0df5",
+    "interpreter-role-kp4": "2f221dbb",
+    "interpreter-role-kp5": "9ee1fb35",
+    "interpreter-role-q1": "e5205376",
+    "interpreter-role-q2": "03de6608",
+    "interpreter-role-q3": "9832dd5e"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

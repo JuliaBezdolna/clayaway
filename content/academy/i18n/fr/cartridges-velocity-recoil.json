@@ -1,0 +1,83 @@
+{
+  "id": "cartridges-velocity-recoil",
+  "lang": "fr",
+  "base_rev": 1,
+  "h": {
+    "title": "a3ab7761",
+    "summary": "d266928f",
+    "cartridges-velocity-recoil-p1": "35b2ccfa",
+    "cartridges-velocity-recoil-p2": "3211df5c",
+    "cartridges-velocity-recoil-p7": "54198ca9",
+    "cartridges-velocity-recoil-p3": "ba5cadf4",
+    "cartridges-velocity-recoil-p4": "85c0baf5",
+    "cartridges-velocity-recoil-p5": "9137f3f8",
+    "cartridges-velocity-recoil-p6": "8cd7145a",
+    "cartridges-velocity-recoil-kp1": "e918f2e4",
+    "cartridges-velocity-recoil-kp2": "ef5b2407",
+    "cartridges-velocity-recoil-kp3": "d7496c84",
+    "cartridges-velocity-recoil-kp4": "7436d207",
+    "cartridges-velocity-recoil-kp5": "66db2bf2",
+    "cartridges-velocity-recoil-dyk": "7f953a03",
+    "cartridges-velocity-recoil-q1": "2af1818b",
+    "cartridges-velocity-recoil-q2": "e0186827",
+    "cartridges-velocity-recoil-q3": "6832d842"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Vitesse et recul",
+  "summary": "Ce que signifie la vitesse indiquée sur une boîte de cartouches, pourquoi plus rapide n'est pas forcément mieux, et de quoi dépend le recul, pour les tireurs de {{tm:sporting}} et {{tm:compak}}.",
+  "body": {
+    "cartridges-velocity-recoil-p1": "La boîte indique souvent la {{term:velocity|vitesse}} du plomb, en mètres par seconde ou en pieds par seconde (fps). Pour les cartouches de tir sur plateaux, elle est généralement {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-p2": "Comparez les vitesses avec prudence. Le plomb ralentit rapidement après avoir quitté le canon, donc l'endroit où l'on mesure la vitesse compte. Les fabricants européens (suivant les règles d'épreuve du C.I.P.) mesurent généralement à 2,5 m de la bouche et notent « V2.5 » ; certains notent « V1 », mesurée à 1 m, ce qui donne un chiffre plus élevé. Les étiquettes ne sont pas toujours cohérentes, donc considérez le chiffre comme un repère approximatif.",
+    "cartridges-velocity-recoil-p7": "Les fabricants américains donnent des pieds par seconde mesurés à environ 3 pieds (0,9 m) de la bouche. Les boîtes britanniques indiquent parfois une vitesse à la bouche estimée. Le même chiffre ne signifie donc pas forcément la même vitesse.",
+    "cartridges-velocity-recoil-p3": "Une cartouche plus rapide réduit légèrement le temps que met le plomb à atteindre le plateau, mais elle recule plus fort, et sa gerbe n'est pas forcément plus efficace. De nombreux entraîneurs conseillent de ne pas courir après la vitesse, mais de choisir une cartouche avec laquelle vous tirez de façon régulière et qui ne vous fatigue pas.",
+    "cartridges-velocity-recoil-p4": "Le {{term:recoil|recul}} est la poussée du fusil dans l'épaule au moment du tir. Il augmente avec une charge plus lourde et une vitesse plus élevée, et il diminue avec un fusil plus lourd. Un {{term:semi-automatic|semi-automatique}} à gaz étale la poussée sur une durée plus longue, si bien que beaucoup de tireurs le ressentent comme plus doux.",
+    "cartridges-velocity-recoil-p5": "La {{term:gun-fit|conformation}} et un {{term:gun-mount|épaulé}} correct comptent encore plus. Un fusil qui vous est adapté et qui se place fermement dans l'épaule se ressent beaucoup plus doucement que s'il repose sur le bras ou sur l'os. Une bonne plaque de couche et une position stable aident aussi. Pour en savoir plus : {{lesson:gun-fit}} et {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p6": "Dans une journée de {{tm:sporting}} ou de {{tm:compak}}, vous pouvez tirer 100 à 200 coups. Un recul important fatigue et peut peu à peu vous apprendre à {{term:flinch|anticiper}} avant le coup. Une cartouche plus légère à l'entraînement, 24 g par exemple, est donc un choix raisonnable, pas une faiblesse."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "cartridges-velocity-recoil-kp1": "Vitesse typique des cartouches de tir sur plateaux : {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-kp2": "Les fabricants mesurent la vitesse différemment (V1, V2,5, fps).",
+    "cartridges-velocity-recoil-kp3": "Plus rapide signifie plus de recul, mais pas forcément de résultats plus solides.",
+    "cartridges-velocity-recoil-kp4": "Le recul augmente avec la charge et la vitesse, et diminue avec le poids du fusil.",
+    "cartridges-velocity-recoil-kp5": "Une bonne conformation et un épaulé correct réduisent le recul ressenti."
+  },
+  "quiz": {
+    "cartridges-velocity-recoil-q1": {
+      "q": "Qu'est-ce qui rend le recul plus faible ?",
+      "options": {
+        "a": "Une charge plus lourde",
+        "b": "Une vitesse plus élevée",
+        "c": "Un fusil plus lourd",
+        "d": "Une crosse trop courte"
+      },
+      "explain": "Un fusil plus lourd absorbe mieux la poussée ; une charge plus lourde et une vitesse plus élevée augmentent le recul."
+    },
+    "cartridges-velocity-recoil-q2": {
+      "q": "Pourquoi ne faut-il pas comparer directement les vitesses de différents fabricants ?",
+      "options": {
+        "a": "Les fabricants les mesurent différemment",
+        "b": "Le chiffre sur la boîte est généralement inventé",
+        "c": "Toutes les cartouches ont la même vitesse",
+        "d": "La vitesse n'a aucun effet"
+      },
+      "explain": "V1, V2,5 et fps à 3 pieds sont des mesures différentes, donc le même chiffre ne désigne pas la même cartouche."
+    },
+    "cartridges-velocity-recoil-q3": {
+      "q": "Quelle est une vitesse typique pour les cartouches de tir sur plateaux ?",
+      "options": {
+        "a": "Environ 100 m/s",
+        "b": "Environ 360-430 m/s",
+        "c": "Environ 900 m/s",
+        "d": "Plus de 1 500 m/s"
+      },
+      "explain": "La plupart des cartouches de tir sur plateaux sont à environ 360-430 m/s."
+    }
+  },
+  "did_you_know": "Le plomb atteint un plateau à 30 m en à peu près un dixième de seconde. Pendant ce temps, un plateau traversant peut se déplacer d'un ou deux mètres, c'est pourquoi les tireurs lui donnent de l'{{term:lead|avance}}."
+}

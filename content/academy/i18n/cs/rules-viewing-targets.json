@@ -1,0 +1,162 @@
+{
+  "id": "rules-viewing-targets",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "0064d55d",
+    "summary": "520117f9",
+    "rules-viewing-targets-p1": "ad9aaf1c",
+    "rules-viewing-targets-cmp1": "81f7ebe1",
+    "sporting-viewing-p2": "91e5fef1",
+    "sporting-viewing-p3": "41aa2110",
+    "compak-gun-and-call-p4": "94cbc3de",
+    "rules-viewing-targets-inline": "36aba8bb",
+    "rules-viewing-targets-open": "e72630ec",
+    "sporting-viewing-p4": "fe023af6",
+    "rules-viewing-targets-cmp2": "91c6febf",
+    "rules-viewing-targets-cmp3": "a954b0b5",
+    "rules-viewing-targets-tip1": "dbc75fed",
+    "rules-viewing-targets-more": "f764fc23",
+    "sporting-viewing-p6": "0980466b",
+    "sporting-viewing-ph1": "1df1c5f9",
+    "sporting-viewing-ph2": "f2d71d4d",
+    "sporting-viewing-ph3": "7dd75e34",
+    "sporting-viewing-ph4": "e39faadc",
+    "compak-gun-and-call-ph1": "6126c547",
+    "sporting-viewing-kp1": "cf204807",
+    "sporting-viewing-kp2": "1f60b759",
+    "sporting-viewing-kp3": "d07a0eb2",
+    "compak-gun-and-call-kp4": "cde28806",
+    "sporting-viewing-kp4": "7f195256",
+    "rules-viewing-targets-dyk": "d3836026",
+    "sporting-viewing-q1": "8dc8d7ba",
+    "rules-viewing-targets-q2": "8a902885",
+    "sporting-viewing-q3": "442066c3",
+    "sporting-viewing-q2": "7517024b",
+    "rules-viewing-targets-q4": "9490a582",
+    "rules-viewing-targets-q5": "004cd4f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Předvedení terčů",
+  "summary": "Jak se v {{tm:sporting}} a {{tm:compak}} předvádí terče před střelbou, jaké dvojstřely přitom vidíte a co smíte dělat, zatímco letí.",
+  "body": {
+    "rules-viewing-targets-p1": "Před střelbou se terče předvádějí – to je {{term:target-presentation|předvedení terčů}}. Ve {{tm:sporting}} probíhá na každém stanovišti. V {{tm:compak}} ve formátu by squad, kde {{term:squad|skupina}} ({{fact:rules.squad-max-shooters}}) prochází čísla postupně, se koná jen jednou denně, pro první skupinu. Ve formátu in line je pořadí jiné (viz níže). Předvedení umožňuje „přečíst“ každý terč: jeho linii, rychlost, vzdálenost a to, co dělá ve vzduchu.",
+    "rules-viewing-targets-cmp1": {
+      "sporting": "Na každém stanovišti vidí všechny dráhy první střelec skupiny, který stojí připraven na stanovišti.",
+      "compak": "By squad: jen jednou denně, ráno, pro první skupinu dne. Střelec na čísle 1 volá jednotlivé terče od A do F. In line: viz níže."
+    },
+    "sporting-viewing-p2": "Smíte požádat rozhodčího, ať terč ukáže znovu: nejvýše dvakrát pro každý terč z menu stanoviště.",
+    "sporting-viewing-p3": "{{term:double-on-report|Dvojstřely na hlášenou}} (druhý terč vyletí, když vystřelíte po prvním) se neukazují. Jejich terče jste ale už viděli: dvojstřel využívá jen terče, které už letěly jako jednotlivé na tomto stanovišti. Prvnímu střelci každé skupiny se ukazují {{term:simultaneous-double|současné dvojstřely}} (oba terče vylétají společně) a {{term:rafale-double|rafale}} (dva terče z jedné vrhačky, jeden za druhým). Na požádání je ukazují znovu, nejvýše dvakrát.",
+    "compak-gun-and-call-p4": "Ve formátu by squad následují po jednotlivých terčích současné dvojstřely čísel 1 až 5. Pak uslyšíte od rozhodčího „start“ nebo „competition“ a začíná střelba na výsledek.",
+    "rules-viewing-targets-inline": "{{tm:compak}} lze střílet i {{term:compak-in-line|in line}}: střelci po jednom nastupují na číslo 1 a postupují linií až k číslu 5. Před startem si první střelec může vyžádat ukázku jednotlivých terčů A až F; u současných dvojstřelů se ukazují i dvojstřely každého čísla. Zatímco se linie plní, každý nový střelec na čísle 1 nejdřív vidí úvodní terč svého dvojstřelu. Když se linie vyprazdňuje, rozhodčí dělá totéž na dalších číslech. Podrobnosti: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+    "rules-viewing-targets-open": "V obou disciplínách zůstávají zbraně během předvedení a každého přerušení otevřené a vyprázdněné. Zavřete svou, teprve až to dovolí rozhodčí.",
+    "sporting-viewing-p4": "Střelba nebo {{term:mock-shooting|střelba na sucho}} (zalícení a vedení zbraní podél linie terče bez výstřelu) během předvedení je zakázána. Trestá se jako porušení polohy zbraně: nejdřív napomenutí, pak červená karta.",
+    "rules-viewing-targets-cmp2": {
+      "sporting": "Pokud se vrhačka porouchá nebo se střelba zastaví na {{fact:rules.reshow-after-interruption}}, terče tohoto stanoviště se ukazují znovu.",
+      "compak": "Po přerušení {{fact:rules.reshow-after-interruption}} ukazuje rozhodčí ještě jednou šest jednotlivých terčů."
+    },
+    "rules-viewing-targets-cmp3": {
+      "sporting": "Trénovat na závodních střelištích nesmí nikdo.",
+      "compak": "Trénovat na závodních trajektoriích smíte, ale ne za závodními menu. {{term:trajectory-setting-table|Tabulky nastavení drah}} (hotová menu, která určují, z kterých vrhaček se na každém čísle střílí) musí být na tréninku jiné. Před kontinentálními a světovými mistrovstvími se oficiální trénink otevírá v sobotu před závodem."
+    },
+    "rules-viewing-targets-tip1": "Využijte předvedení, abyste naplánovali každý terč. Všimněte si, kde ho poprvé jasně uvidíte – {{term:pick-up-point|bod zachycení terče}} – a kde ho rozbijete – {{term:break-point|místo zásahu}}. Mnozí trenéři radí už během předvedení zvolit i pořadí pro současný dvojstřel.",
+    "rules-viewing-targets-more": "Jak „přečíst“ terč během předvedení: {{lesson:targets-reading-a-target}}."
+  },
+  "note": {
+    "sporting-viewing-p6": "Na tréninku je předvedení oblíbenou chvílí trenéra: „watch where it turns“ (sledujte, kde se stáčí). Na závodě je předvedení součástí soutěže, takže platí i tam zákaz radění: mlčte, pokud rozhodčí nebo střelec nepotřebuje překlad k postupu."
+  },
+  "phrases": {
+    "sporting-viewing-ph1": {
+      "meaning": "Střelec rozhodčímu: zahajte předvedení.",
+      "say": "Ukažte mi terče, prosím."
+    },
+    "sporting-viewing-ph2": {
+      "meaning": "Žádost o zopakování jednoho terče menu.",
+      "say": "Ještě jednou, prosím, jen B."
+    },
+    "sporting-viewing-ph3": {
+      "meaning": "Rozhodčí: otevřete a vyprázdněte zbraně, dokud rozhodčí nedovolí je zavřít.",
+      "say": "Během ukázky jsou zbraně otevřené."
+    },
+    "sporting-viewing-ph4": {
+      "meaning": "Trenér v tréninku: všimněte si bodu, kde terč mění směr nebo tvar.",
+      "say": "Sledujte, kde se stáčí."
+    },
+    "compak-gun-and-call-ph1": {
+      "meaning": "Rozhodčí: předvedení skončilo a začíná střelba na výsledek.",
+      "say": "Start! Začínáme soutěž!"
+    }
+  },
+  "key_points": {
+    "sporting-viewing-kp1": "{{tm:sporting}}: na každém stanovišti vidí všechny dráhy první střelec skupiny, který stojí připraven.",
+    "sporting-viewing-kp2": "{{tm:sporting}}: na požádání nejvýše dva opakování na každý terč menu.",
+    "sporting-viewing-kp3": "{{tm:sporting}}: dvojstřely na hlášenou se neukazují; současné dvojstřely a rafale vidí první střelec každé skupiny.",
+    "compak-gun-and-call-kp4": "{{tm:compak}} by squad: terče se ukazují jednou denně, ráno, jen první skupině. Po přerušení {{fact:rules.reshow-after-interruption}} rozhodčí ukáže šest jednotlivých terčů znovu. In line má vlastní pořadí.",
+    "sporting-viewing-kp4": "Zbraně zůstávají během předvedení otevřené; ve {{tm:sporting}} se střelba nebo střelba na sucho v tu chvíli trestá."
+  },
+  "did_you_know": "Ve {{tm:sporting}} menu před každým stanovištěm uvádí vrhačky v pořadí střelby a označuje zvláštní terče, například {{term:battue|battue}} nebo {{term:rabbit|zajíce}}.",
+  "quiz": {
+    "sporting-viewing-q1": {
+      "q": "Které dvojstřely se ve {{tm:sporting}} při předvedení NEUKAZUJÍ?",
+      "options": {
+        "a": "Současné",
+        "b": "Rafale",
+        "c": "Na hlášenou",
+        "d": "Žádné z nich"
+      },
+      "explain": "Ve {{tm:sporting}} se dvojstřely na hlášenou nepředvádějí, zatímco současné dvojstřely a rafale ano. Dvojstřel využívá jen terče, které už na tomto stanovišti letěly jako jednotlivé."
+    },
+    "rules-viewing-targets-q2": {
+      "q": "Jak často se v {{tm:compak}} by squad předvádějí terče?",
+      "options": {
+        "a": "Před každou skupinou, na každém čísle",
+        "b": "Jednou denně, pro první skupinu",
+        "c": "Jen když o to střelec požádá"
+      },
+      "explain": "Předvedení je jedno denně, ráno, pro první skupinu; po přerušení {{fact:rules.reshow-after-interruption}} rozhodčí ukáže šest jednotlivých terčů znovu."
+    },
+    "sporting-viewing-q3": {
+      "q": "Ve {{tm:sporting}} během předvedení střelec zavře zbraň a vede ji podél linie terče. Co platí?",
+      "options": {
+        "a": "Zakázáno: napomenutí, pak červená karta",
+        "b": "Dovoleno: předvedení je volný trénink",
+        "c": "Terč se ukáže znovu",
+        "d": "Napomenutí dostane jen trenér"
+      },
+      "explain": "Zbraně zůstávají během předvedení otevřené, a střelba nebo střelba na sucho se trestá jako porušení polohy zbraně."
+    },
+    "sporting-viewing-q2": {
+      "q": "Kolik opakování může střelec na stanovišti ve {{tm:sporting}} požádat?",
+      "options": {
+        "a": "Žádné",
+        "b": "Dva na každý terč menu",
+        "c": "Kolik potřebuje",
+        "d": "Jedno na stanoviště"
+      },
+      "explain": "Na požádání rozhodčí terč ukáže znovu, nejvýše dvakrát na každý terč menu."
+    },
+    "rules-viewing-targets-q4": {
+      "q": "{{tm:compak}} in line, dvojstřely na hlášenou. Zatímco se linie plní, na číslo 1 nastupuje nový střelec. Co mu rozhodčí ukáže?",
+      "options": {
+        "a": "První terč jeho dvojstřelu",
+        "b": "Vůbec nic",
+        "c": "Všechny jednotlivé terče od A do F",
+        "d": "Celé menu znovu"
+      },
+      "explain": "In line se jednotlivé terče A až F ukazují prvnímu střelci před startem. Pak se každému novému střelci na čísle 1 ukazuje úvodní terč jeho dvojstřelu."
+    },
+    "rules-viewing-targets-q5": {
+      "q": "Smíte trénovat na závodních trajektoriích před závodem {{tm:compak}}?",
+      "options": {
+        "a": "Ne, vůbec ne",
+        "b": "Jen ráno v den závodu",
+        "c": "Ano, s jinými tabulkami nastavení"
+      },
+      "explain": "{{tm:compak}} dovoluje trénink na závodních trajektoriích, ale tabulky nastavení (menu) na tréninku musí být jiné; ve {{tm:sporting}} nesmí na závodních střelištích trénovat nikdo."
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "id": "travel-gun-in-eu",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "organiser",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "travel block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "travel-gun-in-eu"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "european-firearms-pass",
+    "hard-case",
+    "invitation-letter",
+    "temporary-import-permit",
+    "shotgun"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "basics.efp-validity"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "EU: Directive (EU) 2021/555 on control of the acquisition and possession of weapons — European Firearms Pass (EUR-Lex)",
+        "uk": "ЄС: Директива (ЄС) 2021/555 про контроль за придбанням і зберіганням зброї — Європейський вогнепальний паспорт (EUR-Lex)"
+      },
+      "url": "https://eur-lex.europa.eu/eli/dir/2021/555/oj/eng",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "European Economic Community: Council Directive 91/477/EEC of 18 June 1991 on control of the acquisition and possession of weapons, which introduced the European Firearms Pass (EUR-Lex)",
+        "uk": "Європейське економічне співтовариство: Директива Ради 91/477/ЄЕС від 18 червня 1991 року про контроль за придбанням і зберіганням зброї, яка запровадила Європейський вогнепальний паспорт (EUR-Lex)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31991L0477",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Travelling with a gun inside the EU",
+    "uk": "З рушницею по ЄС"
+  },
+  "summary": {
+    "en": "The European Firearms Pass for EU residents with their own gun, and the invitation letter: what you usually need for a competition in another EU country.",
+    "uk": "Європейський вогнепальний паспорт для жителів ЄС із власною рушницею і лист-запрошення: що зазвичай потрібно для поїздки на змагання в іншу країну ЄС."
+  },
+  "body": [
+    {
+      "k": "travel-gun-in-eu-p1",
+      "t": "p",
+      "en": "If you live in an EU country and lawfully own a shotgun, you can travel with it to other EU countries with the {{term:european-firearms-pass|European Firearms Pass}} (EFP). You get it in the country where you live, from the office that handles gun permits there, and it is valid for {{fact:basics.efp-validity}}.",
+      "uk": "Якщо ви живете в країні ЄС і законно володієте рушницею, з нею можна їздити до інших країн ЄС за {{term:european-firearms-pass|Європейським вогнепальним паспортом}} (European Firearms Pass, EFP). Його оформлює служба, яка у вашій країні проживання видає дозволи на зброю, і діє він {{fact:basics.efp-validity}}."
+    },
+    {
+      "k": "gun-transport-documents-p4",
+      "t": "p",
+      "en": "The pass is for people who live in the EU and take their own gun. Four countries outside the EU, Switzerland, Norway, Iceland and Liechtenstein, also issue it to the people who live there, because they apply the same EU firearms rules. If you live anywhere else, you cannot get one. Then you usually need a permit from the destination country, or you hire a gun there: see {{lesson:travel-gun-outside-eu}}.",
+      "uk": "Паспорт видають тим, хто живе в ЄС і везе власну рушницю. Чотири країни поза ЄС — Швейцарія, Норвегія, Ісландія і Ліхтенштейн — теж видають його своїм жителям, бо застосовують ті самі правила ЄС щодо зброї. Якщо ви живете деінде, вам його не видадуть. Тоді зазвичай потрібен дозвіл країни призначення, або рушницю беруть напрокат на місці: див. {{lesson:travel-gun-outside-eu}}."
+    },
+    {
+      "k": "travel-gun-in-eu-p2",
+      "t": "p",
+      "en": "The pass lists specific guns. Before the trip, check that the gun you are taking is entered in it and that the pass will not expire during the journey. Bought a new gun? Have it entered in the pass first.",
+      "uk": "У паспорті перелічено конкретні рушниці. Перед поїздкою перевірте, що рушниця, яку ви берете, записана в ньому і що строк дії паспорта не мине під час подорожі. Купили нову рушницю — спершу внесіть її до паспорта."
+    },
+    {
+      "k": "travel-gun-in-eu-p3",
+      "t": "p",
+      "en": "For sport shooters the rules are simpler. You need the pass and a paper that shows why you are travelling, for example an invitation to a competition. With them you can usually take the guns listed in the pass to another EU country without a permit from that country. A few countries ban certain types of gun or still want their own permit for them; such exceptions are written into the pass.",
+      "uk": "Для спортсменів-стрільців правила простіші. Потрібні паспорт і документ, який пояснює, навіщо ви їдете, наприклад запрошення на змагання. З ними записані в паспорті рушниці зазвичай можна везти до іншої країни ЄС без окремого дозволу цієї країни. Деякі країни забороняють певні види зброї або все ж вимагають на них власний дозвіл; такі винятки записують у паспорт."
+    },
+    {
+      "k": "travel-gun-in-eu-p4",
+      "t": "p",
+      "en": "The proof is most often an {{term:invitation-letter|invitation letter}} from the competition organiser or the ground. It gives your name, the event, the place and the dates. Police, border guards or airline staff may ask for it, so request it early and keep a printed copy with the pass.",
+      "uk": "Підтвердженням найчастіше слугує {{term:invitation-letter|лист-запрошення}} (invitation letter) від організатора змагань або стенду. У ньому зазначено ваше ім’я, назву змагань, місце і дати. Його можуть попросити поліція, прикордонники чи працівники авіакомпанії, тож попросіть лист заздалегідь і тримайте роздруківку разом із паспортом."
+    },
+    {
+      "k": "travel-gun-in-eu-p5",
+      "t": "p",
+      "en": "Check the rules of the destination country with its police or through the organiser. Transit countries matter too: if you drive through several countries, find out the rules of each one. Switzerland, Norway, Iceland and Liechtenstein, outside the EU, also use the pass, but check their rules separately.",
+      "uk": "Правила країни призначення уточнюйте в її поліції або через організатора. Важать і країни транзиту: якщо їдете автомобілем через кілька країн, дізнайтеся правила кожної з них. Швейцарія, Норвегія, Ісландія і Ліхтенштейн, хоч і поза ЄС, теж користуються цим паспортом, але їхні правила перевіряйте окремо."
+    },
+    {
+      "k": "travel-gun-in-eu-p6",
+      "t": "p",
+      "en": "The pass does not replace local laws. In the country you visit, its own rules apply to carrying and storing guns and to buying cartridges: see {{lesson:travel-cartridges-at-destination}}.",
+      "uk": "Паспорт не скасовує місцевих законів. У країні перебування діють її правила перевезення і зберігання зброї та купівлі набоїв: див. {{lesson:travel-cartridges-at-destination}}."
+    },
+    {
+      "k": "travel-gun-in-eu-warn",
+      "t": "warn",
+      "critical": true,
+      "en": "On the way, keep the gun unloaded and in its {{term:hard-case|case}}, and never leave it unattended.",
+      "uk": "У дорозі тримайте рушницю розрядженою і в {{term:hard-case|кейсі}} та ніколи не залишайте її без нагляду."
+    },
+    {
+      "k": "travel-gun-in-eu-laws",
+      "t": "p",
+      "en": "The tables below show what four EU countries ask of visiting shooters. Each table gives the date it was checked. Laws change, so read the official text before you travel.",
+      "uk": "У таблицях нижче — що вимагають від приїжджих стрільців чотири країни ЄС. У кожній таблиці вказано дату перевірки. Закони змінюються, тож перед поїздкою прочитайте офіційний текст."
+    },
+    {
+      "k": "travel-gun-in-eu-law1",
+      "t": "law",
+      "country": "FR",
+      "part": "travel"
+    },
+    {
+      "k": "travel-gun-in-eu-law2",
+      "t": "law",
+      "country": "IT",
+      "part": "travel"
+    },
+    {
+      "k": "travel-gun-in-eu-law3",
+      "t": "law",
+      "country": "ES",
+      "part": "travel"
+    },
+    {
+      "k": "travel-gun-in-eu-law4",
+      "t": "law",
+      "country": "CZ",
+      "part": "travel"
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "travel-gun-in-eu-kp1",
+      "en": "The European Firearms Pass is for people living in the EU (or in Switzerland, Norway, Iceland or Liechtenstein) who take their own gun.",
+      "uk": "Європейський вогнепальний паспорт — для тих, хто живе в ЄС (або у Швейцарії, Норвегії, Ісландії чи Ліхтенштейні) і везе власну рушницю."
+    },
+    {
+      "k": "travel-gun-in-eu-kp2",
+      "en": "You get it in the country where you live; it lists your guns and is valid for {{fact:basics.efp-validity}}.",
+      "uk": "Його видають у країні, де ви живете; у ньому перелічено ваші рушниці, і він діє {{fact:basics.efp-validity}}."
+    },
+    {
+      "k": "travel-gun-in-eu-kp3",
+      "en": "Carry a printed invitation letter from the organiser.",
+      "uk": "Майте із собою роздрукований лист-запрошення від організатора."
+    },
+    {
+      "k": "travel-gun-in-eu-kp4",
+      "en": "Check the rules of the destination and transit countries each time.",
+      "uk": "Щоразу перевіряйте правила країни призначення і країн транзиту."
+    },
+    {
+      "k": "gun-transport-documents-kp4",
+      "en": "Living outside the EU and the countries that use the pass: a permit from the destination country, or a hired gun.",
+      "uk": "Живете поза ЄС і країнами, що користуються паспортом: дозвіл країни призначення або рушниця напрокат."
+    }
+  ],
+  "did_you_know": {
+    "k": "travel-gun-in-eu-dyk",
+    "en": "The European Firearms Pass was introduced in 1991 by a European firearms law: a directive (91/477/EEC) of the European Economic Community, as the EU was then called. Today its rules are in Directive (EU) 2021/555.",
+    "uk": "Європейський вогнепальний паспорт запровадив 1991 року європейський закон про зброю — директива 91/477/ЄЕС Європейського економічного співтовариства, як тоді називався ЄС. Сьогодні його правила містить Директива (ЄС) 2021/555."
+  },
+  "quiz": [
+    {
+      "k": "gun-transport-documents-q2",
+      "q": {
+        "en": "Who issues the European Firearms Pass?",
+        "uk": "Хто видає Європейський вогнепальний паспорт?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "FITASC, through your national federation",
+          "uk": "FITASC через вашу національну федерацію"
+        },
+        {
+          "k": "b",
+          "en": "The organiser of the competition you enter",
+          "uk": "Організатор змагань, на які ви їдете"
+        },
+        {
+          "k": "c",
+          "en": "The office for firearms permits in the country where you live",
+          "uk": "Служба дозволів на зброю в країні, де ви живете"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "You get the pass in the country where you live, from the office that handles firearms permits, if you lawfully own firearms.",
+        "uk": "Паспорт видає служба дозволів на зброю в країні, де ви живете, людям, які законно володіють зброєю."
+      }
+    },
+    {
+      "k": "travel-gun-in-eu-q2",
+      "q": {
+        "en": "What most often proves the reason for a shooter's trip with a gun?",
+        "uk": "Що найчастіше підтверджує мету поїздки стрільця з рушницею?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "An invitation letter from the organiser",
+          "uk": "Лист-запрошення від організатора"
+        },
+        {
+          "k": "b",
+          "en": "A return ticket for the same flight",
+          "uk": "Квиток на зворотний рейс"
+        },
+        {
+          "k": "c",
+          "en": "A photo of you at the shooting ground",
+          "uk": "Ваше фото на стенді"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "An invitation letter with your name, the event, the place and the dates is the usual proof.",
+        "uk": "Лист-запрошення з вашим ім’ям, назвою змагань, місцем і датами — звичне підтвердження."
+      }
+    },
+    {
+      "k": "travel-gun-in-eu-q3",
+      "q": {
+        "en": "Which statement about the European Firearms Pass is true?",
+        "uk": "Що з цього правда про Європейський вогнепальний паспорт?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It replaces the gun laws of the country you visit",
+          "uk": "Він замінює закони про зброю країни перебування"
+        },
+        {
+          "k": "b",
+          "en": "It lists the specific guns you may travel with",
+          "uk": "У ньому перелічено рушниці, з якими можна подорожувати"
+        },
+        {
+          "k": "c",
+          "en": "It stays valid with no time limit at all",
+          "uk": "Він діє без жодного обмеження строку"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Each gun must be entered in the pass, the pass has an expiry date, and local laws still apply.",
+        "uk": "Кожну рушницю треба внести до паспорта, паспорт має строк дії, а місцеві закони діють і далі."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "travel-gun-in-eu-q1",
+      "q": {
+        "en": "Who can get a European Firearms Pass?",
+        "uk": "Хто може отримати Європейський вогнепальний паспорт?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Any tourist who visits a shooting ground",
+          "uk": "Будь-який турист, який приїхав на стенд"
+        },
+        {
+          "k": "b",
+          "en": "An EU resident who lawfully owns a gun",
+          "uk": "Житель ЄС, який законно володіє зброєю"
+        },
+        {
+          "k": "c",
+          "en": "Only referees with a FITASC licence",
+          "uk": "Лише судді з ліцензією FITASC"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The pass is issued to lawful gun owners in the country where they live: in the EU, and in Switzerland, Norway, Iceland and Liechtenstein.",
+        "uk": "Паспорт видають законним власникам зброї в країні, де вони живуть: у ЄС, а також у Швейцарії, Норвегії, Ісландії та Ліхтенштейні."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "f7f3d990",
+    "summary": "494da77a",
+    "travel-gun-in-eu-p1": "4c4778b3",
+    "gun-transport-documents-p4": "c36b92cd",
+    "travel-gun-in-eu-p2": "b2b54c04",
+    "travel-gun-in-eu-p3": "980fa04d",
+    "travel-gun-in-eu-p4": "fcd89ede",
+    "travel-gun-in-eu-p5": "11d1f4d0",
+    "travel-gun-in-eu-p6": "42e1c391",
+    "travel-gun-in-eu-warn": "b9b517ae",
+    "travel-gun-in-eu-laws": "3f826a87",
+    "travel-gun-in-eu-kp1": "f431c411",
+    "travel-gun-in-eu-kp2": "e801039b",
+    "travel-gun-in-eu-kp3": "22a9837d",
+    "travel-gun-in-eu-kp4": "288cc27b",
+    "gun-transport-documents-kp4": "c85ffbc2",
+    "travel-gun-in-eu-dyk": "3f81d2f6",
+    "gun-transport-documents-q2": "d90caf44",
+    "travel-gun-in-eu-q2": "85b581cd",
+    "travel-gun-in-eu-q3": "d7519603",
+    "travel-gun-in-eu-q1": "e4896a96"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

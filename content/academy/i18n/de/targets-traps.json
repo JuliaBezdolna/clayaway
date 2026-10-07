@@ -1,0 +1,98 @@
+{
+ "id": "targets-traps",
+ "lang": "de",
+ "base_rev": 3,
+ "h": {
+  "title": "ef239114",
+  "summary": "2ab98c5a",
+  "targets-traps-p1": "e299fc57",
+  "targets-traps-p2": "230871a5",
+  "targets-traps-p3": "0f4722a7",
+  "targets-traps-p4": "5f6e72fc",
+  "targets-traps-p5": "a5d1400f",
+  "targets-traps-n1": "0941d9af",
+  "targets-traps-n2": "dfb58822",
+  "targets-traps-ph1": "5b0d7a5c",
+  "targets-traps-ph2": "4e6e8b21",
+  "targets-traps-ph3": "0d6b05e9",
+  "targets-traps-kp1": "5d8f8aa8",
+  "targets-traps-kp2": "9837dbae",
+  "targets-traps-kp3": "2aaf4d92",
+  "targets-traps-kp4": "13f08f48",
+  "targets-traps-kp5": "d64923f1",
+  "targets-traps-q1": "20533e21",
+  "targets-traps-q2": "9529d885",
+  "targets-traps-q3": "ad85f910"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Maschinen, Auslösung und der Puller",
+ "summary": "Was eine Wurfmaschine ist, wie Wurfmaschinen mit Buchstaben bezeichnet werden, wie ein Abruf die Scheibe bei {{tm:sporting}} und {{tm:compak}} auslöst, und welche Fehler der Wurfmaschine ein No Bird sind.",
+ "body": {
+  "targets-traps-p1": "Eine {{term:trap|Wurfmaschine}} ist die Maschine, die Scheiben wirft. Wurfmaschinen können manuell oder automatisch sein (die {{tm:compak}}-Regeln nennen auch halbautomatische). Bei {{tm:sporting}} werden die Wurfmaschinen eines Standplatzes von links nach rechts mit Buchstaben bezeichnet, vom Standplatz aus gesehen: A, B, C und so weiter (das Regelwerk nennt A bis D). Bei {{tm:compak}} sind die sechs Wurfmaschinen A bis F, jede mit einer Buchstabentafel.",
+  "targets-traps-p2": "Der Schütze fordert die Scheibe mit einem {{term:call|Abruf}} an: Die Regeln nennen „pull“ oder „ready“, in der Praxis variieren die Worte aber. Bei {{tm:sporting}} gibt der Schiedsrichter dann ein akustisches Signal an den {{term:trapper|Puller}}, die Person, die die Scheiben auslöst. Die Scheibe muss innerhalb von drei Sekunden nach diesem Signal starten.",
+  "targets-traps-p3": "Bei {{tm:compak}} kann die Scheibe auf drei Arten ausgelöst werden: von Hand, per Fernsteuerung oder durch einen {{term:sonopull|Sonopull}}. Ein Sonopull ist ein Mikrofon, das den Abruf des Schützen hört und die Scheibe selbst auslöst. Bei Auslösung von Hand startet die Scheibe 0 bis 3 Sekunden nach dem Abruf; ein Sonopull wartet eine feste halbe Sekunde. Bei internationalen {{term:compak-in-line|„in Linie“}}-Wettkämpfen, bei denen jeder Schütze die Standplätze 1 bis 5 der Reihe nach durchläuft, wird nur der Sonopull verwendet, mit von der FITASC zugelassener {{term:electronic-refereeing|elektronischer Schiedsrichter- und Ergebniserfassung}}.",
+  "targets-traps-p4": "Eine Sprachauslösung hat ein Mikrofon am Standplatz. Ihre eigene Stimme kann sie auslösen. Bleiben Sie an einem solchen Standplatz still, während der Schütze bereit ist: flüstern Sie zwischen den Scheiben oder treten Sie zurück.",
+  "targets-traps-p5": "Fehler der Wurfmaschine sind in beiden Disziplinen ein {{term:no-bird|No Bird}}. Beispiele: eine Scheibe, die beim Werfen zerbricht, eine aus der falschen Wurfmaschine, eine ohne Abruf geworfene, oder eine mit mehr als drei Sekunden Verspätung ausgelöste. Bei {{tm:sporting}} ist es auch ein No Bird, wenn zwei Scheiben aus den Wurfmaschinen desselben Standplatzes kommen, obwohl nur eine erwartet wurde. Bei {{tm:compak}} ist es ein No Bird, wenn eine andere Maschine desselben Feldes versehentlich eine Scheibe wirft."
+ },
+ "note": {
+  "targets-traps-n1": "Behalten Sie beim Übersetzen die lateinischen Buchstaben der Wurfmaschinen bei: Schema und Ergebnisliste verwenden sie.",
+  "targets-traps-n2": "Übersetzen Sie den Abruf selbst nicht: Er ist ein Signal für die Maschine, kein Satz."
+ },
+ "phrases": {
+  "targets-traps-ph1": {
+   "meaning": "Die Flugbahn der Maschine hat sich verändert; der Schütze sollte es vor dem Schießen melden.",
+   "say": "Maschine B wirft tiefer als beim Vorwerfen – sagen Sie es dem Schiedsrichter."
+  },
+  "targets-traps-ph2": {
+   "meaning": "Ein Mikrofon löst die Scheiben aus; Reden kann eine werfen lassen.",
+   "say": "Hier ist Sprachauslösung – nicht auf dem Stand plaudern."
+  },
+  "targets-traps-ph3": {
+   "meaning": "Die Scheibe kam mehr als drei Sekunden nach dem Abruf.",
+   "say": "Der Puller war bei der zu spät – das ist ein No Bird."
+  }
+ },
+ "key_points": {
+  "targets-traps-kp1": "Wurfmaschinen: A, B, C … an einem {{tm:sporting}}-Standplatz (das Regelwerk nennt A–D), A–F auf einem Compak-Feld; lateinische Buchstaben beibehalten.",
+  "targets-traps-kp2": "Der Abruf („pull“, „ready“) löst die Scheibe aus.",
+  "targets-traps-kp3": "{{tm:sporting}}: Der Schiedsrichter signalisiert dem Puller; Scheibe innerhalb von 3 Sekunden.",
+  "targets-traps-kp4": "{{tm:compak}}: von Hand 0–3 s, per Fernsteuerung, oder Sonopull mit fester 0,5-s-Verzögerung.",
+  "targets-traps-kp5": "Verspätete, aus der falschen Maschine kommende oder nicht abgerufene Scheiben sind No Birds; ein Mikrofon kann Sie hören."
+ },
+ "quiz": {
+  "targets-traps-q1": {
+   "q": "Wie lange darf es bei {{tm:sporting}} dauern, bis die Scheibe nach dem Signal des Schiedsrichters startet?",
+   "options": {
+    "a": "Bis zu 1 Sekunde",
+    "b": "Bis zu 3 Sekunden",
+    "c": "Bis zu 10 Sekunden",
+    "d": "Beliebig lange"
+   },
+   "explain": "Eine Scheibe, die später als drei Sekunden ausgelöst wird, ist ein No Bird."
+  },
+  "targets-traps-q2": {
+   "q": "Wie groß ist die feste Verzögerung eines Sonopull bei {{tm:compak}}?",
+   "options": {
+    "a": "0 Sekunden",
+    "b": "3 Sekunden",
+    "c": "0,5 Sekunden",
+    "d": "Jeder Schütze stellt sie selbst ein"
+   },
+   "explain": "Der Sonopull muss eine feste, unveränderliche Verzögerung von 0,5 Sekunden anwenden."
+  },
+  "targets-traps-q3": {
+   "q": "Sie sind an einem Standplatz mit Sprachauslösung, und der Schütze ist bereit. Was tun Sie?",
+   "options": {
+    "a": "Dem Schützen laut einen letzten Tipp geben",
+    "b": "Den Puller bitten, einen Moment zu warten",
+    "c": "Das Abrufwort für ihn wiederholen",
+    "d": "Still bleiben; nur zwischen den Scheiben flüstern"
+   },
+   "explain": "Ihre Stimme kann das Mikrofon auslösen und eine Scheibe freigeben, die niemand abgerufen hat."
+  }
+ }
+}

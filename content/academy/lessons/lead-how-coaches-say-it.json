@@ -1,0 +1,448 @@
+{
+  "id": "lead-how-coaches-say-it",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "interpreter",
+    "shooter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "lead-how-coaches-say-it"
+    ]
+  },
+  "terms": [
+    "lead",
+    "perceived-lead",
+    "double-discharge",
+    "clock-face",
+    "coaching",
+    "coach"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch6-double-discharge"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-single-target"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-doubles-general"
+    }
+  ],
+  "facts": [
+    "stand-talk.unit-foot",
+    "stand-talk.unit-yard"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "NIST — Guide to the SI, Appendix B.8: conversion factors (foot, yard, ounce)",
+        "uk": "NIST — довідник SI, додаток B.8: коефіцієнти перерахунку (фут, ярд, унція)"
+      },
+      "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How coaches say lead, and how to translate it",
+    "uk": "Як тренери говорять про винос і як це перекладати"
+  },
+  "summary": {
+    "en": "Coaches describe lead in feet, target widths, barrel widths and clock positions. How to understand each one and pass it on without changing the coach’s picture.",
+    "uk": "Тренери описують винос у футах, ширинах мішені й ствола та за циферблатом. Як це зрозуміти й передати, не змінивши картинку тренера."
+  },
+  "body": [
+    {
+      "k": "lead-how-coaches-say-it-p1",
+      "t": "p",
+      "core": true,
+      "en": "Units first. British and American {{term:coach|coaches}} talk about {{term:lead|lead}} in feet and yards: “give it four foot” (British for four feet), “two feet in front”. Coaches from continental Europe often use metres. One foot is {{fact:stand-talk.unit-foot}} and one yard {{fact:stand-talk.unit-yard}}. But a lead number is not a measurement. It describes the gap the coach wants the shooter to see between the muzzles and the target at the moment of the shot: his “picture”. So keep his number and unit. Do not convert it in the middle of an instruction. If the shooter asks, explain roughly between targets.",
+      "uk": "Спершу одиниці. Британські й американські {{term:coach|тренери}} говорять про {{term:lead|винос}} у футах і ярдах: «give it four foot» (британське «чотири фути»), «two feet in front». Тренери з континентальної Європи часто кажуть у метрах. Фут — це {{fact:stand-talk.unit-foot}}, а ярд — {{fact:stand-talk.unit-yard}}. Але число виносу — не вимір. Воно описує, який проміжок між стволами й мішенню стрілець має побачити в мить пострілу, — «картинку» тренера. Тож зберігайте його число й одиницю. Не переводьте його посеред вказівки. Якщо стрілець питає, поясніть приблизно між мішенями."
+    },
+    {
+      "k": "lead-how-coaches-say-it-picture",
+      "t": "tip",
+      "en": "The gap the shooter sees at the muzzle, the {{term:perceived-lead|perceived lead}}, is much smaller than the real distance in the air. That is one more reason to keep the coach’s words instead of turning them into metres.",
+      "uk": "Проміжок, який стрілець бачить біля дульного зрізу, — {{term:perceived-lead|видимий винос}} — набагато менший за справжню відстань у повітрі. Це ще одна причина зберігати слова тренера, а не перетворювати їх на метри."
+    },
+    {
+      "k": "lead-how-coaches-say-it-p2",
+      "t": "p",
+      "core": true,
+      "en": "Target widths: “half a bird”, “a bird’s width”, “a clay’s length”. Here “bird” means the target, not a real bird. Barrel widths: “a barrel’s width” or “two barrels” mean the gap the shooter sees at the muzzle. Careful: “two barrels” can also be about the gun. If both barrels went off together (the gun “doubled”), it is a {{term:double-discharge|double discharge}}. “Two barrels” can also mean that the target was shot with both barrels. If it is not clearly about lead, ask.",
+      "uk": "Ширина мішені: «half a bird», «a bird’s width», «a clay’s length». Тут «bird» — це мішень, а не птах: «half a bird» — «пів мішені». Ширина ствола: «a barrel’s width» чи «two barrels» — проміжок, який стрілець бачить біля дульного зрізу. Обережно: «two barrels» може стосуватися й самої рушниці. Якщо обидва стволи вистрілили разом (англійською кажуть, що рушниця «doubled»), це {{term:double-discharge|подвійний постріл}}. А ще «two barrels» кажуть, коли по мішені стріляли з обох стволів. Якщо не ясно, що йдеться про винос, перепитайте."
+    },
+    {
+      "k": "lead-how-coaches-say-it-p3",
+      "t": "p",
+      "core": true,
+      "en": "Relative words: “more”, “less”, “a touch more”, “double it”, “half that”, “same lead”. Keep them relative and do not invent a number. “Same lead” matters a lot: it tells the shooter not to add lead after a miss.",
+      "uk": "Відносні слова: «more», «less», «a touch more», «double it», «half that», «same lead». Лишайте їх відносними й не вигадуйте числа. «Same lead» дуже важливе: воно каже стрільцеві не додавати винос після промаху."
+    },
+    {
+      "k": "lead-how-coaches-say-it-p4",
+      "t": "p",
+      "core": true,
+      "en": "Directions: “in front” and “behind” refer to the way the target is flying. “Over” means the same as “high”, and “under” the same as “low”. Coaches use a {{term:clock-face|clock face}} in two ways. Laid over the target, 12 o’clock is the top and 3 o’clock the right side, as the shooter sees it: “you hit it at six” means the bottom edge. Laid over the field, 12 is straight ahead: “it comes from eleven” means slightly left.",
+      "uk": "Напрямки: «in front» і «behind» — щодо того, куди летить мішень. «Over» означає те саме, що «high», а «under» — те саме, що «low». {{term:clock-face|Циферблат}} тренери вживають двома способами. Якщо накласти його на мішень, 12 година — це верх, а 3 — правий бік, як бачить стрілець: «you hit it at six» — нижній край. Якщо накласти його на поле, 12 — прямо: «it comes from eleven» — трохи ліворуч."
+    },
+    {
+      "k": "lead-how-coaches-say-it-clock",
+      "t": "tip",
+      "core": true,
+      "en": "Left and right on the target become “in front” or “behind” only once you know which way it flies. On a target going right to left, a shot cloud (the pattern) at two o’clock is high and behind it.",
+      "uk": "Ліво й право на мішені стають «попереду» чи «позаду», лише коли відомо, куди вона летить. Якщо мішень летить справа наліво, дріб на другій годині — це вище й позаду неї."
+    },
+    {
+      "k": "lead-how-coaches-say-it-p5",
+      "t": "p",
+      "core": true,
+      "en": "Method: pass on the number, the unit, what it is compared with (a bird, a barrel) and the direction, exactly and briefly, in the coach’s rhythm. If something is unclear, ask him one word: “Feet?” All of this is for training: in competition {{term:coaching|coaching}} is forbidden.",
+      "uk": "Спосіб: перекладайте число, одиницю, те, з чим порівнюють (мішень, ствол), і напрямок — точно й коротко, у ритмі тренера. Якщо щось неясно, спитайте його одним словом: «Feet?» Усе це — для тренувань: на змаганнях {{term:coaching|підказувати}} заборонено."
+    },
+    {
+      "k": "lead-how-coaches-say-it-sim",
+      "t": "sim",
+      "sim": {
+        "type": "lead",
+        "method": "maintained",
+        "preset": "crosser-rl",
+        "focus": "lead-units"
+      },
+      "ready": false
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "lead-how-coaches-say-it-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Give it four foot.",
+      "meaning": {
+        "en": "Give the lead the coach calls “four feet”; it describes his picture, so keep his number and unit.",
+        "uk": "Дайте винос, який тренер називає «чотири фути»; це його картинка, тож зберігайте його число й одиницю."
+      },
+      "say": {
+        "uk": "Дайте чотири фути."
+      }
+    },
+    {
+      "k": "lead-how-coaches-say-it-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Half a bird more.",
+      "meaning": {
+        "en": "Add half a target’s width to the lead picture.",
+        "uk": "Додайте до картинки виносу пів ширини мішені."
+      },
+      "say": {
+        "uk": "Ще на пів мішені більше."
+      }
+    },
+    {
+      "k": "lead-how-coaches-say-it-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Double it.",
+      "meaning": {
+        "en": "Make the lead picture twice as big as last time.",
+        "uk": "Зробіть картинку виносу вдвічі більшою, ніж минулого разу."
+      },
+      "say": {
+        "uk": "Удвічі більше."
+      }
+    },
+    {
+      "k": "lead-how-coaches-say-it-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Same lead, just keep it moving.",
+      "meaning": {
+        "en": "The lead was right; the miss came from stopping the gun.",
+        "uk": "Винос був правильний; промах через зупинку рушниці."
+      },
+      "say": {
+        "uk": "Винос той самий, тільки не зупиняйтеся."
+      }
+    },
+    {
+      "k": "lead-how-coaches-say-it-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "That one goes right to left. You were at two o’clock: a touch lower and more in front.",
+      "meaning": {
+        "en": "On a target flying right to left, the shot cloud (the pattern) went above and behind it, at two o’clock on the target. Shoot slightly lower and give a little more lead.",
+        "uk": "Мішень летить справа наліво, і дріб пройшов вище й позаду неї (друга година на мішені): трохи нижче і трохи більший винос."
+      },
+      "say": {
+        "uk": "Вона летить справа наліво. Ви були на другій годині: трохи нижче і трохи більше попереду."
+      }
+    },
+    {
+      "k": "lead-how-coaches-say-it-ph6",
+      "speaker": "coach",
+      "core": true,
+      "en": "A barrel’s width in front.",
+      "meaning": {
+        "en": "Keep a gap the width of the barrel, as seen at the muzzle, ahead of the target.",
+        "uk": "Тримайте попереду мішені проміжок завширшки зі ствол, як його видно біля дульного зрізу."
+      },
+      "say": {
+        "uk": "На ширину ствола попереду."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "lead-how-coaches-say-it-kp1",
+      "core": true,
+      "en": "Keep the coach’s number and unit; do not convert lead mid-instruction.",
+      "uk": "Зберігайте число й одиницю тренера; не переводьте винос посеред вказівки."
+    },
+    {
+      "k": "lead-how-coaches-say-it-kp2",
+      "core": true,
+      "en": "Bird = target: “half a bird” is half a target’s width.",
+      "uk": "Bird — мішень: «half a bird» — це пів ширини мішені."
+    },
+    {
+      "k": "lead-how-coaches-say-it-kp3",
+      "core": true,
+      "en": "Relative words stay relative; “same lead” must be translated.",
+      "uk": "Відносні слова лишаються відносними; «same lead» перекладати обов’язково."
+    },
+    {
+      "k": "lead-how-coaches-say-it-kp4",
+      "core": true,
+      "en": "Clock on the target: 12 is the top; clock on the field: 12 is straight ahead.",
+      "uk": "Циферблат на мішені: 12 — верх; циферблат на полі: 12 — прямо."
+    },
+    {
+      "k": "lead-how-coaches-say-it-kp5",
+      "core": true,
+      "en": "“Two barrels” is not always a lead: it may be a double discharge or a target shot with both barrels — ask.",
+      "uk": "«Two barrels» — не завжди винос: це може бути подвійний постріл або постріл по мішені з обох стволів — перепитайте."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "lead-how-coaches-say-it-q1",
+      "q": {
+        "en": "The coach says “Give it four foot” to a shooter who thinks in metres. What do you say?",
+        "uk": "Тренер каже «Give it four foot» стрільцеві, який мислить у метрах. Що ви скажете?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "“Give it 1.22 metres”",
+          "uk": "«Дайте 1,22 метра»"
+        },
+        {
+          "k": "b",
+          "en": "“Give it about a metre”",
+          "uk": "«Дайте приблизно метр»"
+        },
+        {
+          "k": "c",
+          "en": "“Give it four feet”",
+          "uk": "«Дайте чотири фути»"
+        },
+        {
+          "k": "d",
+          "en": "“Give it four metres”",
+          "uk": "«Дайте чотири метри»"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A lead number is the coach’s picture. Converting it mid-instruction adds false precision or errors, and “four metres” changes the meaning completely. If the shooter asks, explain roughly between targets.",
+        "uk": "Число виносу — картинка тренера. Переведення посеред вказівки додає хибну точність або помилки, а «чотири метри» повністю змінює зміст. Якщо стрілець запитає, поясніть приблизно між мішенями."
+      }
+    },
+    {
+      "k": "lead-how-coaches-say-it-q2",
+      "q": {
+        "en": "What does “half a bird” mean?",
+        "uk": "Що означає «half a bird»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Half the width of a target",
+          "uk": "Пів ширини мішені"
+        },
+        {
+          "k": "b",
+          "en": "A target that broke in two",
+          "uk": "Мішень, що розкололася навпіл"
+        },
+        {
+          "k": "c",
+          "en": "A small bird near the trap",
+          "uk": "Маленький птах біля машинки"
+        },
+        {
+          "k": "d",
+          "en": "Half of the round left",
+          "uk": "Залишилася половина раунду"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In clay shooting “bird” means the target, so the coach asks for half a target’s width of lead.",
+        "uk": "У стендовій стрільбі «bird» — це мішень, тож тренер просить винос на пів ширини мішені."
+      }
+    },
+    {
+      "k": "lead-how-coaches-say-it-q3",
+      "q": {
+        "en": "The coach says “Same lead, keep it moving”. Why must “same lead” be translated?",
+        "uk": "Тренер каже «Same lead, keep it moving». Чому «same lead» треба перекласти обов’язково?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It is a call the referee uses",
+          "uk": "Це команда, яку вживає суддя"
+        },
+        {
+          "k": "b",
+          "en": "Otherwise the shooter may add lead and miss",
+          "uk": "Інакше стрілець може додати винос і промахнутися"
+        },
+        {
+          "k": "c",
+          "en": "It is a polite greeting between shooters",
+          "uk": "Це ввічливе привітання між стрільцями"
+        },
+        {
+          "k": "d",
+          "en": "It changes the order of the targets",
+          "uk": "Це змінює порядок мішеней"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "After a miss many shooters add lead by themselves. “Same lead” tells them the cause was the stopped gun, not the lead.",
+        "uk": "Після промаху багато стрільців самі додають винос. «Same lead» каже, що причина — зупинена рушниця, а не винос."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "lead-how-coaches-say-it-q4",
+      "q": {
+        "en": "A target flies from right to left. The coach says “You were at two o’clock.” Where did the shot cloud (the pattern) go?",
+        "uk": "Мішень летить справа наліво. Тренер каже «You were at two o’clock». Де пройшов дріб?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Low and in front of the target",
+          "uk": "Нижче й попереду мішені"
+        },
+        {
+          "k": "b",
+          "en": "Low and behind the target",
+          "uk": "Нижче й позаду мішені"
+        },
+        {
+          "k": "c",
+          "en": "High and in front of the target",
+          "uk": "Вище й попереду мішені"
+        },
+        {
+          "k": "d",
+          "en": "High and behind the target",
+          "uk": "Вище й позаду мішені"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Two o’clock on the target is up and to the right. On a target going right to left, its right side is behind it, so the pattern was high and behind.",
+        "uk": "Друга година на мішені — угорі праворуч. Якщо мішень летить справа наліво, її правий бік — позаду, тож дріб пройшов вище й позаду."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "a35b2546",
+    "summary": "0e21bd8f",
+    "lead-how-coaches-say-it-p1": "e2a5ab0e",
+    "lead-how-coaches-say-it-picture": "00a78cc6",
+    "lead-how-coaches-say-it-p2": "50ba8d68",
+    "lead-how-coaches-say-it-p3": "a893257a",
+    "lead-how-coaches-say-it-p4": "67423f7a",
+    "lead-how-coaches-say-it-clock": "c0b45325",
+    "lead-how-coaches-say-it-p5": "d9458b5a",
+    "lead-how-coaches-say-it-ph1": "9f3d779c",
+    "lead-how-coaches-say-it-ph2": "93892d5a",
+    "lead-how-coaches-say-it-ph3": "c29eb9ca",
+    "lead-how-coaches-say-it-ph4": "6682ed69",
+    "lead-how-coaches-say-it-ph5": "769ee681",
+    "lead-how-coaches-say-it-ph6": "5f3182a0",
+    "lead-how-coaches-say-it-kp1": "c6e25c71",
+    "lead-how-coaches-say-it-kp2": "ddc61879",
+    "lead-how-coaches-say-it-kp3": "e5bf03b3",
+    "lead-how-coaches-say-it-kp4": "8cb698d4",
+    "lead-how-coaches-say-it-kp5": "460b7492",
+    "lead-how-coaches-say-it-q1": "eb0ca690",
+    "lead-how-coaches-say-it-q2": "f8d6b758",
+    "lead-how-coaches-say-it-q3": "1b7d557c",
+    "lead-how-coaches-say-it-q4": "d50f83bf"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Animation lead-how-coaches-say-it-sim stays ready:false until the lead lab findings S-01, S-03, S-11 and S-12 are fixed and the preset is checked against the text (crosser right to left, lead in feet).",
+      "Audit I-12 (two o’clock without a direction) is fixed in the master (phrase ph5, tip lead-how-coaches-say-it-clock, exam question q4); update the 9 overlays of ph5."
+    ]
+  }
+}

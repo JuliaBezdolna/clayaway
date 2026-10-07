@@ -1,0 +1,222 @@
+{
+ "id": "rules-doubles",
+ "lang": "fi",
+ "base_rev": 1,
+ "h": {
+  "title": "bf6d3d5f",
+  "summary": "dfdb2ad6",
+  "rules-doubles-p1": "f5cf641d",
+  "sporting-singles-doubles-p1": "b6444c9c",
+  "rules-doubles-p2": "c6919899",
+  "rules-doubles-cmp1": "350fd347",
+  "sporting-singles-doubles-p2": "5a56411c",
+  "rules-doubles-cmp2": "24dc2faf",
+  "rules-doubles-accidental": "2cbe5f9a",
+  "rules-doubles-cmp3": "0437dae8",
+  "rules-doubles-cmp4": "2d15fb86",
+  "sporting-singles-doubles-p4": "88696d63",
+  "rules-doubles-p7": "5bdcbd0b",
+  "compak-singles-doubles-p1": "329c4e29",
+  "sporting-singles-doubles-p5": "4b1860bf",
+  "sporting-singles-doubles-ph1": "934fba36",
+  "sporting-singles-doubles-ph2": "c178e9f1",
+  "sporting-singles-doubles-ph3": "ca41eb94",
+  "sporting-singles-doubles-ph4": "95a6f236",
+  "compak-singles-doubles-ph1": "70594be5",
+  "compak-singles-doubles-ph2": "188b25c7",
+  "compak-singles-doubles-ph3": "56ec4bfd",
+  "compak-singles-doubles-ph4": "806b2e03",
+  "rules-doubles-kp1": "db855605",
+  "sporting-singles-doubles-kp2": "322f41a9",
+  "compak-singles-doubles-kp2": "dce8c621",
+  "compak-singles-doubles-kp1": "77c28c5b",
+  "sporting-singles-doubles-kp3": "7de76b48",
+  "rules-doubles-dyk": "c0b4d4b3",
+  "rules-doubles-q1": "5a5e9eaa",
+  "rules-doubles-q2": "ab4333ed",
+  "rules-doubles-q3": "783fc72a",
+  "sporting-singles-doubles-q1": "12970eeb",
+  "sporting-singles-doubles-q2": "507f2951",
+  "sporting-singles-doubles-q3": "d1d794df",
+  "compak-singles-doubles-q1": "c458b419",
+  "compak-singles-doubles-q2": "afbfdbad",
+  "compak-singles-doubles-q3": "04513eaa",
+  "rules-doubles-q4": "0493a8c2"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Kaksoiskiekot: miten niitä ammutaan ja pisteytetään",
+ "summary": "Kaksoiskiekkojen lajit {{tm:sporting}}- ja {{tm:compak}}-lajeissa, montako patruunaa saa ampua joka kiekkoon ja mitä tapahtuu, kun yksi laukaus rikkoo molemmat.",
+ "body": {
+  "rules-doubles-p1": "{{term:double|Kaksoiskiekko}} on kaksi kiekkoa, jotka ammutaan yhdellä komennolla. Molemmissa lajeissa on laukauksesta lähteviä ja yhtäaikaisia kaksoiskiekkoja; vain {{tm:sporting}}-lajissa on myös rafale. Osa pisteytyssäännöistä eroaa. Kun kaksoiskiekon molemmat kiekot merkitään menetetyiksi, sitä kutsutaan {{term:zero-zero|Zero-Zeroksi}}.",
+  "sporting-singles-doubles-p1": "Ensin yksittäiskiekot. Molemmissa lajeissa {{term:single-target|yksittäiskiekkoon}} saa ampua kaksi patruunaa, niin ensimmäisen piipun ohilaukauksen voi vielä pelastaa toisella. Rataosuuden täytyy jättää aikaa kahdelle laukaukselle joka yksittäiskiekkoon.",
+  "rules-doubles-p2": "{{term:double-on-report|Laukauksesta lähtevässä kaksoiskiekossa}} komentosi laukaisee ensimmäisen kiekon, ja laukauksesi siihen laukaisee toisen. {{term:simultaneous-double|Yhtäaikaisessa kaksoiskiekossa}} molemmat kiekot lähtevät yhdessä, ja ne saa ampua kummassa järjestyksessä tahansa.",
+  "rules-doubles-cmp1": {
+   "sporting": "Kolme lajia: laukauksesta lähtevä, yhtäaikainen (yhdestä tai kahdesta heittimestä) ja {{term:rafale-double|rafale}}. Rafalessa kaksi kiekkoa lähtee samasta heittimestä samalla linjalla, yksi toisensa jälkeen.",
+   "compak": "Kaksi lajia: laukauksesta lähtevä ja yhtäaikainen. Yhtäaikainen kaksoiskiekko tulee kahdesta eri heittimestä. Rafalea ei ole."
+  },
+  "sporting-singles-doubles-p2": "{{tm:sporting}}-lajissa laukauksesta lähtevän kaksoiskiekon toinen kiekko lähtee 0–3 sekunnin kuluessa laukauksestasi ensimmäiseen. Rafalessa se seuraa heti, kun heitin on latautunut uudelleen. Kaksoiskiekossa käytetään vain kiekkoja, jotka on jo ammuttu yksittäiskiekkoina samalta ampumapaikalta, niin olet nähnyt niiden lennon.",
+  "rules-doubles-cmp2": {
+   "sporting": "Kaksi patruunaa koko kaksoiskiekolle, ja molemmat voi ampua samaan kiekkoon.",
+   "compak": "Yksi patruuna joka kiekkoa kohti. Molempien ampuminen ensimmäiseen kiekkoon ei ole sallittua; tahallinen tekeminen merkitään Zero-Zeroksi."
+  },
+  "rules-doubles-accidental": "Molempien piippujen laukeaminen yhtä aikaa vahingossa ei ole tahallinen kaksoislaukaus: se on asehäiriö, {{term:double-discharge|molempien piippujen samanaikainen laukeaminen}}. Miten se pisteytetään: {{lesson:rules-malfunctions}}.",
+  "rules-doubles-cmp3": {
+   "sporting": "Kun laukauksesi itse rikkoo molemmat kiekot, molemmat lasketaan: ”osuma” ja ”osuma”, missä tahansa kaksoiskiekon lajissa. Laukauksesta lähtevässä ensimmäinen kiekko tai sen palat voivat sen sijaan murskata toisen ennen toista laukaustasi. Se on uusi kiekko (No Bird): kaksoiskiekko uusitaan, ja ensimmäinen tulos jää voimaan.",
+   "compak": "Laukauksesta lähtevässä: ensimmäinen tulos jää voimaan, toinen on uusi kiekko (No Bird), ja kaksoiskiekko ammutaan uudelleen. Yhtäaikaisessa: uusi kiekko, ammu kaksoiskiekko uudelleen; jos näin käy kolmannen kerran, molemmat kiekot merkitään nollaksi."
+  },
+  "rules-doubles-cmp4": {
+   "sporting": "Yhtäaikaiseen tai rafale-kaksoiskiekkoon ei ammuta ilman pätevää syytä: Zero-Zero. Laukauksesta lähtevässä ensimmäinen kiekko, johon ei ammu, on nolla, ja kaksoiskiekko heitetään uudelleen, jotta voit ampua toisen (tuomarien pikaopas).",
+   "compak": "Yhtäaikaisesta kaksoiskiekosta kieltäytyminen: Zero-Zero. Laukauksesta lähtevässä: ensimmäinen kiekko, jota kieltäydyt, on nolla; kaksoiskiekko heitetään uudelleen, jotta voit ampua toisen, ja vain toinen pisteytetään."
+  },
+  "sporting-singles-doubles-p4": "Virheellinen kiekko on sellainen, joka saa tuomarin ilmoittamaan uuden kiekon (No Bird), esimerkiksi rikkinäisenä heitetty, väärältä linjalta tai väärästä heittimestä tullut kiekko ({{lesson:rules-hit-and-no-bird}}). Laukauksesta lähtevässä kaksoiskiekossa virheellinen ensimmäinen kiekko tarkoittaa, että koko kaksoiskiekko heitetään uudelleen. Jos toinen kiekko on virheellinen, ammut kaksoiskiekon uudelleen, ja tuloksesi ensimmäisestä jää voimaan. Samoin, jos ensimmäinen kiekko tai sen palat murskaavat toisen ennen toista laukaustasi. Yhtäaikaisessa kaksoiskiekossa, ja {{tm:sporting}}-lajissa rafalessa, virheellinen kiekko tarkoittaa uusintaa ilman tuloksen kirjaamista. Yksi laukaus, joka rikkoo molemmat kiekot, on eri tapaus: ks. yllä.",
+  "rules-doubles-p7": "Katso esittely ja lue ampumapaikan {{term:target-menu|kiekkoluettelo}}, niin tiedät, mitä kaksoiskiekkoja on tulossa. Moni valmentaja ehdottaa yhtäaikaisen kaksoiskiekon järjestyksen valitsemista ennen komentoa."
+ },
+ "note": {
+  "compak-singles-doubles-p1": "{{tm:compak}} käyttää samoja nimiä kuin {{tm:sporting}} laukauksesta lähtevistä ja yhtäaikaisista kaksoiskiekoista (rafalea ei ole), mutta sen kaksoiskiekoilla on eri säännöt. Tulkki, joka siirtää {{tm:sporting}}-säännöt suoraan, antaa väärät vastaukset.",
+  "sporting-singles-doubles-p5": "Välitä kaksoiskiekon tulos parina, tuomarin järjestyksessä."
+ },
+ "phrases": {
+  "sporting-singles-doubles-ph1": {
+   "meaning": "Valmentaja: toisen kiekon lähettää ensimmäiseen ammuttu laukaus.",
+   "say": "Laukauksesta lähtevä pari: toinen tulee laukauksestasi."
+  },
+  "sporting-singles-doubles-ph2": {
+   "meaning": "Valmentaja: rafale-kaksoiskiekossa järjestys on vapaa.",
+   "say": "Rafalessa ota kumpi tahansa ensin."
+  },
+  "sporting-singles-doubles-ph3": {
+   "meaning": "Tuomari: kaksoiskiekon molemmat kiekot ovat osumia.",
+   "say": "Osuma ja osuma."
+  },
+  "sporting-singles-doubles-ph4": {
+   "meaning": "Virheellinen kiekko; kaksoiskiekko heitetään uudelleen.",
+   "say": "No Bird, kaksoiskiekko uusitaan."
+  },
+  "compak-singles-doubles-ph1": {
+   "meaning": "Valmentaja: {{tm:compak}}-lajissa kaksoiskiekon kumpaankin kiekkoon saa vain yhden patruunan.",
+   "say": "Täällä pareissa yksi laukaus per kiekko."
+  },
+  "compak-singles-doubles-ph2": {
+   "meaning": "Tuomari yhtäaikaisessa kaksoiskiekossa: mitään ei merkitä, uusitaan.",
+   "say": "Molemmat yhdellä laukauksella. No Bird, ammu kaksoiskiekko uudelleen."
+  },
+  "compak-singles-doubles-ph3": {
+   "meaning": "Valmentaja: päätä näytekiekkoja katsoessasi, kumman yhtäaikaisen kiekon otat ensin.",
+   "say": "Valitse järjestys näytekiekoista."
+  },
+  "compak-singles-doubles-ph4": {
+   "meaning": "Tuomari: kumpaakaan kaksoiskiekon kiekkoa ei hyväksytä.",
+   "say": "Nolla, nolla."
+  }
+ },
+ "key_points": {
+  "rules-doubles-kp1": "Laukauksesta lähtevässä toinen kiekko laukaistaan laukauksellasi ensimmäiseen.",
+  "sporting-singles-doubles-kp2": "{{tm:sporting}}: kaksi patruunaa kaksoiskiekkoon, molemmat voi ampua samaan kiekkoon; lajit ovat laukauksesta lähtevä, yhtäaikainen ja rafale.",
+  "compak-singles-doubles-kp2": "{{tm:compak}}: yksi patruuna kiekkoa kohti; tahallinen molempien ampuminen samaan kiekkoon on Zero-Zero.",
+  "compak-singles-doubles-kp1": "{{tm:compak}}-lajissa on kaksi kaksoiskiekon lajia, laukauksesta lähtevä ja yhtäaikainen; rafale on vain {{tm:sporting}}-lajissa.",
+  "sporting-singles-doubles-kp3": "Yksi laukaus rikkoo molemmat kiekot: {{tm:sporting}} merkitsee osuma ja osuma; {{tm:compak}}-lajissa kaksoiskiekko ammutaan uudelleen."
+ },
+ "quiz": {
+  "rules-doubles-q1": {
+   "q": "Mikä laukaisee laukauksesta lähtevän kaksoiskiekon toisen kiekon?",
+   "options": {
+    "a": "Laukaus ensimmäiseen kiekkoon",
+    "b": "Ampujan toinen komento",
+    "c": "Tuomari, käsin"
+   },
+   "explain": "Komento laukaisee ensimmäisen kiekon, ja laukaus siihen laukaisee toisen."
+  },
+  "rules-doubles-q2": {
+   "q": "{{tm:compak}}-lajissa, saako kaksoiskiekon ensimmäiseen kiekkoon ampua molemmat patruunat?",
+   "options": {
+    "a": "Kyllä, kuten {{tm:sporting}}-lajissa",
+    "b": "Vain yhtäaikaisessa kaksoiskiekossa",
+    "c": "Ei, yksi patruuna kiekkoa kohti"
+   },
+   "explain": "{{tm:compak}}-lajissa on yksi patruuna kiekkoa kohti, ja molempien tahallinen ampuminen samaan kiekkoon merkitään Zero-Zero; {{tm:sporting}}-lajissa molemmat voi ampua samaan kiekkoon."
+  },
+  "rules-doubles-q3": {
+   "q": "{{tm:sporting}}-lajissa yksi laukaus rikkoo kaksoiskiekon molemmat kiekot. Miten se pisteytetään?",
+   "options": {
+    "a": "Nolla ja uusi kiekko",
+    "b": "Osuma ja osuma",
+    "c": "Uusi kiekko, ammutaan uudelleen"
+   },
+   "explain": "{{tm:sporting}}-lajissa molemmat kiekot lasketaan; {{tm:compak}}-lajissa säännöt ovat erilaiset."
+  },
+  "sporting-singles-doubles-q1": {
+   "q": "{{tm:sporting}}, yhtäaikainen kaksoiskiekko. Ampuja osuu ohi ensimmäisellä laukauksella yhteen kiekkoon, ampuu toisen patruunan samaan kiekkoon ja rikkoo sen. Toinen kiekko lentää ohi. Ratkaisu?",
+   "options": {
+    "a": "Osuma ja nolla",
+    "b": "Nolla ja nolla",
+    "c": "Uusi kiekko, kaksoiskiekko uusitaan",
+    "d": "Osuma ja uusi kiekko"
+   },
+   "explain": "{{tm:sporting}}-lajissa kaksoiskiekon molemmat patruunat voi ampua samaan kiekkoon, niin rikottu kiekko on ”osuma” ja toinen ”nolla”. {{tm:compak}}-lajissa molempien tahallinen ampuminen samaan kiekkoon merkitään Zero-Zero."
+  },
+  "sporting-singles-doubles-q2": {
+   "q": "{{tm:sporting}}, laukauksesta lähtevä kaksoiskiekko. Ampuja rikkoo ensimmäisen kiekon, ja sen pala murskaa toisen ennen toista laukausta. Ratkaisu?",
+   "options": {
+    "a": "Osuma ja osuma",
+    "b": "Uusinta, ensimmäinen tulos jää voimaan",
+    "c": "Nolla toisesta kiekosta",
+    "d": "Osuma ja nolla"
+   },
+   "explain": "Kun ensimmäinen kiekko tai sen palat rikkovat toisen ennen toista laukausta, kaksoiskiekko uusitaan ja ensimmäinen tulos jää voimaan."
+  },
+  "sporting-singles-doubles-q3": {
+   "q": "{{tm:sporting}}, rafale-kaksoiskiekko. Molemmat kiekot lentävät oikein, mutta ampuja laskee aseen eikä ammu kumpaankaan, ilman pätevää syytä. Ratkaisu?",
+   "options": {
+    "a": "Uusi kiekko",
+    "b": "Nolla ja uusi kiekko",
+    "c": "Vain keltainen kortti",
+    "d": "Nolla ja nolla"
+   },
+   "explain": "Oikea kiekko, johon ei ammuta ilman pätevää syytä, on menetetty; rafale- tai yhtäaikaisessa kaksoiskiekossa se tarkoittaa nolla ja nolla."
+  },
+  "compak-singles-doubles-q1": {
+   "q": "Yhtäaikainen kaksoiskiekko {{tm:compak}}-lajissa. Yksi laukaus rikkoo molemmat kiekot; näin käy ensimmäistä kertaa. Ratkaisu?",
+   "options": {
+    "a": "Osuma ja osuma",
+    "b": "Uusi kiekko, ammutaan uudelleen",
+    "c": "Osuma ja uusi kiekko",
+    "d": "Nolla ja nolla"
+   },
+   "explain": "{{tm:compak}}-lajissa yhdellä laukauksella rikottu yhtäaikainen kaksoiskiekko on uusi kiekko ensimmäisellä ja toisella kerralla ja nolla ja nolla kolmannella kerralla."
+  },
+  "compak-singles-doubles-q2": {
+   "q": "Laukauksesta lähtevä kaksoiskiekko {{tm:compak}}-lajissa. Yksi laukaus rikkoo molemmat kiekot. Ratkaisu?",
+   "options": {
+    "a": "Osuma ja osuma, molemmat lasketaan",
+    "b": "Nolla ja nolla molemmille",
+    "c": "Ensimmäinen tulos jää voimaan; kaksoiskiekko uusitaan",
+    "d": "Uusi kiekko, mitään ei merkitä"
+   },
+   "explain": "Laukauksesta lähtevässä kaksoiskiekossa ensimmäisen kiekon tulos kirjataan, ja kaksoiskiekko ammutaan uudelleen toisen kiekon tuloksen saamiseksi."
+  },
+  "compak-singles-doubles-q3": {
+   "q": "{{tm:compak}}, laukauksesta lähtevä kaksoiskiekko. Ensimmäinen kiekko lentää oikein, mutta ampuja ei ammu siihen. Ratkaisu?",
+   "options": {
+    "a": "Ensimmäinen nolla, toiseen ammutaan uudelleen",
+    "b": "Nolla ja nolla koko kaksoiskiekolle",
+    "c": "Uusi kiekko, kaksoiskiekko heitetään uudelleen",
+    "d": "Nolla, eikä toista ammuta"
+   },
+   "explain": "Oikein heitettyyn ensimmäiseen kiekkoon ampumatta jättäminen on nolla. Kaksoiskiekko heitetään sitten uudelleen, jotta toinen kiekko voidaan pisteyttää (tuomarien pikaopas)."
+  },
+  "rules-doubles-q4": {
+   "q": "{{tm:compak}}-lajissa molemmat piiput laukeavat vahingossa yhtä aikaa kaksoiskiekon ensimmäiseen kiekkoon. Se on kierroksen ensimmäinen asehäiriö. Mikä se on?",
+   "options": {
+    "a": "Asehäiriö: uusi kiekko, uusi kaksoiskiekko",
+    "b": "Tahallinen kaksoislaukaus: Zero-Zero",
+    "c": "Osuma ja nolla"
+   },
+   "explain": "Vahingossa tapahtuva molempien piippujen laukeaminen on asehäiriö, ei tahallinen kaksoislaukaus; Zero-Zero on vain tahalliselle molempien laukausten ampumiselle samaan kiekkoon."
+  }
+ },
+ "did_you_know": "{{tm:compak}}-lajissa joka numeron kaksoiskiekko alkaa edellisen numeron viimeisellä kiekolla."
+}

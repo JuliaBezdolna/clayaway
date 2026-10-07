@@ -1,0 +1,348 @@
+{
+  "id": "gun-care",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gun-care"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "shotgun",
+    "chamber",
+    "fore-end",
+    "barrel",
+    "receiver",
+    "choke",
+    "choke-key",
+    "gun-slip",
+    "hard-case",
+    "gunsmith",
+    "gun-test",
+    "primer"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-testing-guns"
+    },
+    {
+      "book": "compak",
+      "id": "ch11-testing-guns"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Texas Parks and Wildlife Department, hunter education — firearm cleaning and maintenance",
+        "uk": "Департамент парків і дикої природи Техасу, курс для мисливців — чищення й догляд за зброєю"
+      },
+      "url": "https://tpwd.texas.gov/education/hunter-education/online-course/firearms-and-ammunition-1/cleaning-and-maintenance/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Care and cleaning",
+    "uk": "Догляд і чищення"
+  },
+  "summary": {
+    "en": "How to clean a gun safely after shooting and after rain, how to store it, and why {{tm:sporting}} and {{tm:compak}} shooters book a yearly service.",
+    "uk": "Як безпечно чистити рушницю після стрільби й після дощу, як її зберігати і навіщо стрільцям {{tm:sporting}} і {{tm:compak}} щорічний сервіс у зброяра."
+  },
+  "body": [
+    {
+      "k": "gun-care-p1",
+      "t": "warn",
+      "en": "Cleaning starts with safety. Make sure the gun is unloaded: open it and look into both {{term:chamber|chambers}}. Move all cartridges away from your work area, so that you cannot put one into the gun by mistake.",
+      "uk": "Чищення починається з безпеки. Переконайтеся, що рушниця розряджена: відкрийте її й подивіться в обидва {{term:chamber|патронники}}. Приберіть усі патрони з робочого місця, щоб випадково не вкласти їх у рушницю."
+    },
+    {
+      "k": "gun-care-p2",
+      "t": "p",
+      "en": "Take the gun apart: remove the {{term:fore-end|fore-end}}, then the barrels from the {{term:receiver|action}}. If you have interchangeable chokes, unscrew them with the {{term:choke-key|choke key}}; they are cleaned separately (see {{lesson:chokes-pattern-testing-and-care}}).",
+      "uk": "Розберіть рушницю: зніміть {{term:fore-end|цівку}}, потім стволи з {{term:receiver|колодки}}. Якщо у вас змінні чоки, викрутіть їх {{term:choke-key|ключем для чоків}}; їх чистять окремо (див. {{lesson:chokes-pattern-testing-and-care}})."
+    },
+    {
+      "k": "gun-care-p3",
+      "t": "steps",
+      "en": [
+        "Clean the bores after each day of shooting.",
+        "Wet them with a cleaning solvent and run a bore brush (a small wire brush on a rod) through a few times.",
+        "Push clean cloth squares (patches) through on the rod until they come out nearly clean.",
+        "Finish with a very thin film of oil, and wipe the bore dry before you shoot again."
+      ],
+      "uk": [
+        "Канали стволів чистьте після кожного дня стрільби.",
+        "Змочіть їх засобом для чищення й кілька разів пройдіть йоржиком (bore brush) на шомполі.",
+        "Протягуйте шомполом чисті серветки (patches), доки вони не виходитимуть майже чистими.",
+        "Наприкінці залиште дуже тонку плівку мастила, а перед наступною стрільбою протріть канал насухо."
+      ]
+    },
+    {
+      "k": "gun-care-p4",
+      "t": "p",
+      "en": "Wipe the outside metal with a cloth and a drop of oil to protect it from fingerprints and moisture. Do not soak a wooden stock in oil, because it soaks into the wood. Lightly grease the hinge and the places where the barrels lock into the action, with gun grease.",
+      "uk": "Зовнішні металеві частини протріть ганчіркою з краплею мастила, щоб захистити їх від відбитків пальців і вологи. Дерев’яний приклад не заливайте мастилом: воно просочує деревину. Шарнір і місця, де стволи замикаються на колодці, злегка змастіть спеціальним мастилом."
+    },
+    {
+      "k": "gun-care-p5",
+      "t": "tip",
+      "en": "After rain, dry the gun at once, at the ground or at the hotel. Do not leave a wet gun overnight in a {{term:gun-slip|soft slip}} or a closed {{term:hard-case|case}}: the moisture stays there for a long time and rust follows. Dry it, wipe it, oil it.",
+      "uk": "Після дощу висушіть рушницю одразу, ще на стенді чи в готелі. Не залишайте мокру рушницю на ніч у {{term:gun-slip|м’якому чохлі}} чи закритому {{term:hard-case|кейсі}}: волога там тримається довго, і з’являється іржа. Висушіть, протріть, змастіть."
+    },
+    {
+      "k": "gun-care-p6",
+      "t": "p",
+      "en": "Store the gun dry, in a safe or as your country's law requires; many laws also ask you to keep cartridges separately. Many gunsmiths suggest storing a gun horizontally or with the muzzles down, so that oil does not run into a wooden stock. Do not use steel wool or abrasives: they scratch the finish.",
+      "uk": "Зберігайте рушницю сухою, у сейфі або так, як вимагає закон вашої країни; багато законів вимагають ще й тримати патрони окремо. Багато зброярів радять зберігати рушницю горизонтально або стволами донизу, щоб мастило не стікало в дерев’яний приклад. Не користуйтеся сталевою ватою чи абразивами — вони дряпають покриття."
+    },
+    {
+      "k": "gun-care-p7",
+      "t": "p",
+      "disc": "both",
+      "en": "Once a year, or after a large number of shots, take the gun to a {{term:gunsmith|gunsmith}} for a service. After reassembly do not test the gun on a competition stand. In {{tm:sporting}} and {{tm:compak}} a {{term:gun-test|test shot}} is fired only on a separate test stand, where the ground provides one.",
+      "uk": "Раз на рік або після великої кількості пострілів віддавайте рушницю {{term:gunsmith|зброяру}} на сервіс. Після збирання не перевіряйте рушницю на стрілецькому місці змагання. У {{tm:sporting}} і {{tm:compak}} {{term:gun-test|пробний постріл}} роблять лише на окремому стенді для перевірки, якщо стрільбище його має."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gun-care-kp1",
+      "en": "First make sure the gun is unloaded and the cartridges are away.",
+      "uk": "Спершу переконайтеся, що рушниця розряджена, а патрони прибрано.",
+      "checklist": true
+    },
+    {
+      "k": "gun-care-kp2",
+      "en": "Clean the bores after each day of shooting; oil lightly.",
+      "uk": "Канали стволів чистьте після кожного дня стрільби; змащуйте злегка."
+    },
+    {
+      "k": "gun-care-kp3",
+      "en": "Dry a wet gun at once; do not leave it in a slip overnight.",
+      "uk": "Мокру рушницю сушіть одразу; не залишайте її на ніч у чохлі."
+    },
+    {
+      "k": "gun-care-kp4",
+      "en": "Store it dry and locked, horizontally or muzzles down.",
+      "uk": "Зберігайте сухою й під замком, горизонтально або стволами донизу."
+    },
+    {
+      "k": "gun-care-kp5",
+      "en": "A yearly service by a gunsmith; test shots only on a test stand.",
+      "uk": "Щорічний сервіс у зброяра; пробні постріли — лише на окремому стенді."
+    }
+  ],
+  "did_you_know": {
+    "k": "gun-care-dyk",
+    "en": "Primers once contained corrosive salts, and a gun had to be cleaned the same day or the bore would rust. Modern primers are non-corrosive, but cleaning after shooting is still a good habit.",
+    "uk": "Колись {{term:primer|капсулі}} містили корозійні солі, і рушницю треба було чистити того ж дня, інакше канал іржавів. Сучасні капсулі некорозійні, але чищення після стрільби все одно залишається доброю звичкою."
+  },
+  "quiz": [
+    {
+      "k": "gun-care-q1",
+      "q": {
+        "en": "What must you do first before cleaning a gun?",
+        "uk": "Що треба зробити першим, перш ніж чистити рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Grease the hinge and the hooks",
+          "uk": "Змастити шарнір і гачки"
+        },
+        {
+          "k": "b",
+          "en": "Unscrew both of the chokes",
+          "uk": "Викрутити обидва чоки"
+        },
+        {
+          "k": "c",
+          "en": "Check that the gun is unloaded",
+          "uk": "Перевірити, що рушниця розряджена"
+        },
+        {
+          "k": "d",
+          "en": "Take off the recoil pad",
+          "uk": "Зняти затильник"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Safety first: open the gun and check both chambers.",
+        "uk": "Безпека передусім: відкрийте рушницю й перевірте обидва патронники."
+      }
+    },
+    {
+      "k": "gun-care-q2",
+      "q": {
+        "en": "What should you not do after shooting in the rain?",
+        "uk": "Чого не варто робити після стрільби під дощем?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Wipe the gun with a dry cloth",
+          "uk": "Протерти рушницю сухою ганчіркою"
+        },
+        {
+          "k": "b",
+          "en": "Leave it in its slip overnight",
+          "uk": "Залишити її на ніч у чохлі"
+        },
+        {
+          "k": "c",
+          "en": "Dry the barrels inside and out",
+          "uk": "Висушити стволи зсередини й ззовні"
+        },
+        {
+          "k": "d",
+          "en": "Put a thin film of oil on the metal",
+          "uk": "Нанести на метал тонку плівку мастила"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Moisture stays in a closed slip for a long time, and rust follows.",
+        "uk": "У закритому чохлі волога тримається довго, і з’являється іржа."
+      }
+    },
+    {
+      "k": "gun-care-q3",
+      "disc": "both",
+      "q": {
+        "en": "Where can you test-fire your gun before a competition?",
+        "uk": "Де можна перевірити рушницю пострілом перед змаганням?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On a test stand, if the ground has one",
+          "uk": "На окремому стенді для перевірки, якщо він є"
+        },
+        {
+          "k": "b",
+          "en": "On the first competition stand",
+          "uk": "На першому стрілецькому місці змагання"
+        },
+        {
+          "k": "c",
+          "en": "Anywhere on the ground, away from people",
+          "uk": "Будь-де на стрільбищі, подалі від людей"
+        },
+        {
+          "k": "d",
+          "en": "In the car park by the clubhouse",
+          "uk": "На стоянці біля клубного будинку"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The rules forbid test shots on the competition stand; a separate test stand is used for that.",
+        "uk": "Правила забороняють пробні постріли на стрілецькому місці змагання; для цього є окремий стенд."
+      },
+      "rule_ref": "sporting:ch3-testing-guns"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "gun-care-q4",
+      "q": {
+        "en": "Why do many gunsmiths suggest storing a gun muzzles down?",
+        "uk": "Чому багато зброярів радять зберігати рушницю стволами донизу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "So that it is quicker to load later",
+          "uk": "Щоб потім швидше її зарядити"
+        },
+        {
+          "k": "b",
+          "en": "So that the chokes do not come loose",
+          "uk": "Щоб чоки не розкручувалися"
+        },
+        {
+          "k": "c",
+          "en": "So that the barrels cool down faster",
+          "uk": "Щоб стволи швидше охолоджувалися"
+        },
+        {
+          "k": "d",
+          "en": "So that oil does not run into the stock",
+          "uk": "Щоб мастило не стікало в приклад"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Oil that runs into a wooden stock can damage the wood over time.",
+        "uk": "Мастило, що стікає в дерев’яний приклад, з часом може пошкодити деревину."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "42bc807c",
+    "summary": "53ea9070",
+    "gun-care-p1": "e7fec0b7",
+    "gun-care-p2": "311dadd8",
+    "gun-care-p3": "5d55cf61",
+    "gun-care-p4": "3cd3a115",
+    "gun-care-p5": "520c5e84",
+    "gun-care-p6": "4866d6ad",
+    "gun-care-p7": "8dcf8861",
+    "gun-care-kp1": "9aa8a796",
+    "gun-care-kp2": "cabb28f0",
+    "gun-care-kp3": "12d97280",
+    "gun-care-kp4": "51137384",
+    "gun-care-kp5": "9b69a2ed",
+    "gun-care-dyk": "8beaba79",
+    "gun-care-q1": "77aa2722",
+    "gun-care-q2": "8bd12cd7",
+    "gun-care-q3": "c3f948e6",
+    "gun-care-q4": "5fd25464"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

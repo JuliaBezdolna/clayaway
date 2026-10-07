@@ -30,12 +30,12 @@ def sample_tour(name, slug, desc):
 
 
 PAGES = {
-    "index.html": [{"@context": "https://schema.org", **SITE, "description": "Проєкти ClayArena: тури ClayAway, правила FITASC, тренажер правил, глосарій, Академія ClayArena і Академія перекладача.",
+    "index.html": [{"@context": "https://schema.org", **SITE, "description": "Проєкти ClayArena: тури ClayAway, правила FITASC, тренажер правил, глосарій, Академія ClayArena.",
                     "publisher": CLAYARENA},
                    {"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [
                        {"@type": "ListItem", "position": i + 1, "url": B + u, "name": n} for i, (u, n) in enumerate([
                            ("rules/", "Правила FITASC простими словами"), ("rules/trainer/", "Тренажер правил FITASC"),
-                           ("glossary/", "Глосарій ClayArena"), ("learn/", "Академія ClayArena"), ("interpreter/", "Академія перекладача ClayArena"),
+                           ("glossary/", "Глосарій ClayArena"), ("learn/", "Академія ClayArena"),
                            ("dornsberg/", "Приклад туру: Dornsberg Training Days (умовні дані)"), ("sologne/", "Приклад туру: Sologne Week (умовні дані)"),
                            ("concept/", "ТЗ ClayAway"), ("rules-spec/", "ТЗ: правила FITASC і глосарій")])]}],
     "concept/index.html": [{"@context": "https://schema.org", "@type": "TechArticle", "headline": "ТЗ ClayAway — концепція і технічне завдання",

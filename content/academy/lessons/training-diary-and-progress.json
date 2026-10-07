@@ -1,0 +1,346 @@
+{
+  "id": "training-diary-and-progress",
+  "rev": 4,
+  "status": "review",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist (nerves rating, goal setting)",
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "training-diary-and-progress"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "training-diary",
+    "crosser",
+    "incomer",
+    "choke",
+    "process-goal",
+    "pre-shot-routine",
+    "round",
+    "head-lift",
+    "stopping-the-gun",
+    "gun-mount",
+    "accuracy",
+    "shooter-profile",
+    "coach"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Jokela M., Hanin Y. L. (1999). Does the individual zones of optimal functioning model discriminate between successful and less successful athletes? A meta-analysis. Journal of Sports Sciences 17(11), 873–887",
+        "uk": "Jokela M., Hanin Y. L. (1999). Чи відрізняє модель індивідуальних зон оптимального функціонування успішніших спортсменів від менш успішних? Метааналіз. Journal of Sports Sciences 17(11), 873–887"
+      },
+      "url": "https://doi.org/10.1080/026404199365434",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only (citation)"
+    },
+    {
+      "title": {
+        "en": "Williamson O. et al. (2024; online 2022). The performance and psychological effects of goal setting in sport: a systematic review and meta-analysis. International Review of Sport and Exercise Psychology 17(2), 1050–1078",
+        "uk": "Williamson O. та ін. (2024; онлайн 2022). Вплив постановки цілей на результат і психологічний стан у спорті: систематичний огляд і метааналіз. International Review of Sport and Exercise Psychology 17(2), 1050–1078"
+      },
+      "url": "https://doi.org/10.1080/1750984X.2022.2116723",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only (citation)"
+    }
+  ],
+  "title": {
+    "en": "Training diary and measuring progress",
+    "uk": "Щоденник тренувань і прогрес"
+  },
+  "summary": {
+    "en": "What to write in a training diary and how to see progress: scores, hit rates by target type, two short ratings and video.",
+    "uk": "Що записувати в щоденник тренувань і як бачити прогрес: результати, відсоток влучань за типами мішеней, дві короткі оцінки й відео."
+  },
+  "body": [
+    {
+      "k": "training-diary-and-progress-p1",
+      "t": "p",
+      "en": "Memory lets you down: in a month you will not remember which target was not working or what your coach advised. A {{term:training-diary|training diary}} keeps this for you and shows how you are improving.",
+      "uk": "Пам’ять підводить: за місяць ви не згадаєте, яка мішень не виходила й що порадив тренер. {{term:training-diary|Щоденник тренувань}} зберігає це за вас і показує, як ви ростете."
+    },
+    {
+      "k": "training-diary-and-progress-p2",
+      "t": "p",
+      "en": "After each session, note the date, the ground, the weather and the light. Write how many targets you shot and how many you broke. Note which targets you worked on, for example a {{term:crosser|crosser}} from right to left or an {{term:incomer|incomer}}. Add what worked and what did not, your coach's main tip and your kit: {{term:choke|choke}}, cartridges and lens.",
+      "uk": "Після кожного тренування запишіть дату, стенд, погоду й освітлення. Запишіть, скільки мішеней стріляли й скільки розбили. Зазначте, над якими мішенями працювали, наприклад над {{term:crosser|поперечною мішенню}} справа наліво чи над {{term:incomer|зустрічною мішенню}}. Додайте, що вийшло й що ні, головну пораду тренера і спорядження: {{term:choke|чок}}, набої, лінзу."
+    },
+    {
+      "k": "training-diary-and-progress-ratings",
+      "t": "p",
+      "en": "Add two short ratings. First, how nervous or excited you felt, from 0 (completely calm) to 10 (very tense). After a few weeks you may see at which level you shoot well. Studies, mostly in other sports, suggest that this level differs from person to person. This probably applies to clay shooting too.",
+      "uk": "Додайте дві короткі оцінки. Перша — наскільки ви хвилювалися чи були «на взводі», від 0 (цілком спокійно) до 10 (дуже напружено). За кілька тижнів може стати видно, за якого рівня ви стріляєте добре. Дослідження, переважно в інших видах спорту, свідчать, що цей рівень у кожного свій. Найімовірніше, це стосується й стендової стрільби."
+    },
+    {
+      "k": "training-diary-and-progress-process",
+      "t": "p",
+      "en": "Second, tick your {{term:process-goal|process goals}}: goals about what you do on each target, not about the score. Did you do your full {{term:pre-shot-routine|pre-shot routine}} on each target? Did you reset after a miss, that is, let it go and start the next target fresh? Research on goal setting suggests that goals about what you do help more than goals about winning or finishing in a certain place. A personal score target, such as 22 out of 25, sits between the two: it is about the result, but only your own. The studies come mostly from other sports, but this probably applies to clay shooting too. More in {{lesson:mind-process-goals}}.",
+      "uk": "Друга — позначте {{term:process-goal|цілі процесу}}: цілі про те, що ви робите на кожній мішені, а не про рахунок. Чи виконали ви повний {{term:pre-shot-routine|передпостріловий ритуал}} перед кожною мішенню? Чи «перезапускалися» після промаху — відпускали його й починали наступну мішень з чистого аркуша? Дослідження постановки цілей свідчать, що цілі про те, що ви робите, допомагають більше, ніж цілі про перемогу чи певне місце. Особиста планка результату, наприклад 22 із 25, стоїть між ними: це про результат, але лише ваш власний. Ці дослідження зроблено переважно в інших видах спорту, але, найімовірніше, це стосується й стендової стрільби. Докладніше — в уроці {{lesson:mind-process-goals}}."
+    },
+    {
+      "k": "training-diary-and-progress-p3",
+      "t": "p",
+      "en": "Write straight away, while it is fresh. A few lines in a notebook or on your phone are enough. What matters is doing it regularly and honestly: note the good days and the bad ones.",
+      "uk": "Записуйте одразу, поки все свіже. Вистачить кількох рядків у зошиті чи в телефоні. Головне — регулярність і чесність: записуйте і вдалі, і невдалі дні."
+    },
+    {
+      "k": "training-diary-and-progress-p4",
+      "t": "p",
+      "en": "How to measure progress. The simplest measure is your score in a {{term:round|round}}. More useful is your hit rate by target type. You may see, for example, that crossers now break 70% of the time but incomers only 40%. Your weak spots show what to work on next.",
+      "uk": "Як вимірювати прогрес. Найпростіше — результат {{term:round|раунду}}. Корисніше — відсоток влучань за типами мішеней. Наприклад, може виявитися, що поперечні вже вдаються в 70% випадків, а зустрічні — лише в 40%. Слабкі місця підкажуть, над чим працювати далі."
+    },
+    {
+      "k": "training-diary-and-progress-p5",
+      "t": "p",
+      "en": "Video helps a lot. Ask someone to film you from the side and from behind, from a safe spot and with the ground's permission. The footage shows whether your {{term:head-lift|head lifts}} off the stock and whether the {{term:gun-mount|mount}} is the same each time. It also shows whether you {{term:stopping-the-gun|stop the gun}}: the barrels freeze at the moment you fire instead of moving on with the target. Watch it with your coach. Keep other people out of the frame unless they agree.",
+      "uk": "Відео дуже допомагає. Попросіть когось зняти вас збоку й ззаду — з безпечного місця й з дозволу стенда. На записі видно, чи є {{term:head-lift|відрив щоки від приклада}} і чи однакова {{term:gun-mount|вкладка}}. Видно й те, чи трапляється {{term:stopping-the-gun|зупинка стволів}}: стволи завмирають у момент пострілу замість того, щоб далі рухатися за мішенню. Переглядайте відео разом із тренером. Не знімайте інших людей без їхньої згоди."
+    },
+    {
+      "k": "training-diary-and-progress-p6",
+      "t": "p",
+      "en": "Do not expect a straight line. Many coaches see progress in shooting come in steps: weeks on one level, then a clear jump. Compare yourself with yourself a month ago, not with others. Once you compete, your results and {{term:accuracy|accuracy}} in your ClayArena {{term:shooter-profile|shooter profile}} become one more record ({{lesson:clayarena-profile-numbers}}).",
+      "uk": "Не чекайте рівної лінії. Багато тренерів помічають, що прогрес у стрільбі йде сходинками: тижні на одному рівні, потім помітний стрибок. Порівнюйте себе з собою місяць тому, а не з іншими. Коли почнете змагатися, результати й {{term:accuracy|влучність}} у вашому {{term:shooter-profile|профілі стрільця}} в ClayArena стануть ще одним записом ({{lesson:clayarena-profile-numbers}})."
+    }
+  ],
+  "note": [
+    {
+      "k": "training-diary-and-progress-n-parent",
+      "for": "parent",
+      "en": "Filming a junior needs the parents' consent and the ground's permission. Keep such videos private and share them only with the coach.",
+      "uk": "Щоб знімати юніора, потрібні згода батьків і дозвіл стенда. Зберігайте такі відео приватно й показуйте лише тренерові."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "training-diary-and-progress-kp1",
+      "en": "A diary keeps your coach's tips and shows how you are improving",
+      "uk": "Щоденник зберігає поради тренера й показує, як ви ростете"
+    },
+    {
+      "k": "training-diary-and-progress-kp2",
+      "en": "Note the targets, score, tips, kit and how you felt",
+      "uk": "Записуйте мішені, результат, поради, спорядження й самопочуття"
+    },
+    {
+      "k": "training-diary-and-progress-kp-ratings",
+      "en": "Rate your nerves from 0 to 10 and tick your process goals",
+      "uk": "Оцінюйте хвилювання від 0 до 10 і позначайте цілі процесу"
+    },
+    {
+      "k": "training-diary-and-progress-kp3",
+      "en": "Hit rate by target type and video show what to work on",
+      "uk": "Відсоток влучань за типами мішеней і відео показують, над чим працювати"
+    },
+    {
+      "k": "training-diary-and-progress-kp5",
+      "en": "Progress often comes in steps, so compare yourself with yourself",
+      "uk": "Прогрес часто йде сходинками — порівнюйте себе з собою"
+    }
+  ],
+  "did_you_know": {
+    "k": "training-diary-and-progress-dyk",
+    "en": "Many shooters keep a diary for years and reread what worked last time before going back to a familiar ground.",
+    "uk": "Багато стрільців ведуть щоденник роками й перед поїздкою на знайомий стенд перечитують, що там працювало минулого разу."
+  },
+  "quiz": [
+    {
+      "k": "training-diary-and-progress-q1",
+      "disc": "both",
+      "q": {
+        "en": "What shows most clearly which targets to work on?",
+        "uk": "Що найчіткіше показує, над якими мішенями працювати?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The total number of shots fired",
+          "uk": "Загальна кількість пострілів"
+        },
+        {
+          "k": "b",
+          "en": "Your hit rate by target type",
+          "uk": "Відсоток влучань за типами мішеней"
+        },
+        {
+          "k": "c",
+          "en": "The price of the cartridges",
+          "uk": "Ціна набоїв, якими стріляли"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "It shows which targets go worse than others.",
+        "uk": "Так видно, які мішені виходять гірше за інші."
+      }
+    },
+    {
+      "k": "training-diary-and-progress-q-nerves",
+      "disc": "both",
+      "q": {
+        "en": "Why rate your nerves from 0 to 10 after a session or a round?",
+        "uk": "Навіщо після тренування чи раунду оцінювати хвилювання від 0 до 10?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To find the level at which you shoot well",
+          "uk": "Щоб знайти рівень, за якого ви стріляєте добре"
+        },
+        {
+          "k": "b",
+          "en": "To show the referee that you are ready",
+          "uk": "Щоб показати судді, що ви готові до старту"
+        },
+        {
+          "k": "c",
+          "en": "Because the FITASC rules ask for it",
+          "uk": "Бо цього вимагають правила змагань FITASC"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The level at which people perform well differs from person to person; notes over a few weeks help you find yours.",
+        "uk": "Рівень, за якого людина виступає добре, у кожного свій; записи за кілька тижнів допоможуть знайти ваш."
+      }
+    },
+    {
+      "k": "training-diary-and-progress-q3",
+      "disc": "both",
+      "q": {
+        "en": "What can a video of your shooting show?",
+        "uk": "Що може показати відео стрільби?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The exact speed of the target in km/h",
+          "uk": "Точну швидкість мішені в кілометрах на годину"
+        },
+        {
+          "k": "b",
+          "en": "Nothing that a coach could really use",
+          "uk": "Нічого, що справді знадобилося б тренерові"
+        },
+        {
+          "k": "c",
+          "en": "Whether your head lifts and the gun stops",
+          "uk": "Чи відривається щока і чи зупиняються стволи"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Video shows faults you cannot feel during the shot.",
+        "uk": "Відео показує помилки, яких під час пострілу не відчуваєш."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "training-diary-and-progress-q2",
+      "disc": "both",
+      "q": {
+        "en": "When do many shooters write in their diary?",
+        "uk": "Коли багато стрільців роблять запис у щоденнику?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Right after the session",
+          "uk": "Одразу після тренування"
+        },
+        {
+          "k": "b",
+          "en": "About a month later",
+          "uk": "Приблизно через місяць"
+        },
+        {
+          "k": "c",
+          "en": "Only after good days",
+          "uk": "Лише після вдалих днів"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Fresh impressions are more accurate; record the bad days too.",
+        "uk": "Свіжі враження точніші; записуйте й невдалі дні."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "training-diary-and-progress-ratings",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/026404199365434"
+      ]
+    },
+    {
+      "for": "training-diary-and-progress-process",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/1750984X.2022.2116723"
+      ]
+    },
+    {
+      "for": "training-diary-and-progress-p6",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "fa2d6975",
+    "summary": "671941e0",
+    "training-diary-and-progress-p1": "d692cb1a",
+    "training-diary-and-progress-p2": "20e09b3d",
+    "training-diary-and-progress-ratings": "abee79e7",
+    "training-diary-and-progress-process": "06442144",
+    "training-diary-and-progress-p3": "7003e6bf",
+    "training-diary-and-progress-p4": "0e1f621f",
+    "training-diary-and-progress-p5": "3281b5f4",
+    "training-diary-and-progress-p6": "f8d54f48",
+    "training-diary-and-progress-n-parent": "d80d702c",
+    "training-diary-and-progress-kp1": "766cce43",
+    "training-diary-and-progress-kp2": "64cc0ea1",
+    "training-diary-and-progress-kp-ratings": "17638667",
+    "training-diary-and-progress-kp3": "7daf91d7",
+    "training-diary-and-progress-kp5": "9dbd04a5",
+    "training-diary-and-progress-dyk": "fe285c7c",
+    "training-diary-and-progress-q1": "55cda001",
+    "training-diary-and-progress-q-nerves": "8b8c81dc",
+    "training-diary-and-progress-q3": "c97779fd",
+    "training-diary-and-progress-q2": "9fa61e6b"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

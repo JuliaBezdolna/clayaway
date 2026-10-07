@@ -1,0 +1,111 @@
+{
+ "id": "faults-head-lift-stopping",
+ "lang": "fi",
+ "base_rev": 2,
+ "h": {
+  "title": "3de77b04",
+  "summary": "6687c483",
+  "faults-head-lift-stopping-p1": "20fed38f",
+  "faults-head-lift-stopping-p2": "093a96a2",
+  "faults-head-lift-stopping-p3": "cbd80554",
+  "faults-head-lift-stopping-p4": "1d4e7ba7",
+  "technique-follow-through-and-mistakes-p4": "4ffcbf20",
+  "faults-head-lift-stopping-p5": "126edda3",
+  "faults-head-lift-stopping-ph1": "31a09895",
+  "faults-head-lift-stopping-ph2": "7cc2f04c",
+  "faults-head-lift-stopping-ph3": "0b39e7a2",
+  "faults-head-lift-stopping-ph4": "25c7bc83",
+  "faults-head-lift-stopping-ph5": "a55c21ac",
+  "faults-head-lift-stopping-ph6": "e3784571",
+  "faults-head-lift-stopping-kp1": "ff1df477",
+  "faults-head-lift-stopping-kp2": "879a7776",
+  "faults-head-lift-stopping-kp3": "e544f966",
+  "faults-head-lift-stopping-kp4": "935cef51",
+  "faults-head-lift-stopping-kp5": "881b8519",
+  "faults-head-lift-stopping-q1": "78a782da",
+  "faults-head-lift-stopping-q2": "d65ac876",
+  "faults-head-lift-stopping-q3": "f4a07216"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Pään nosto, pysäyttäminen, roikkuminen, tökkääminen",
+ "summary": "Neljä yleistä ohilaukausten syytä: pään nostaminen tukilta, aseen pysäyttäminen tai nykäisy, kiekon perässä roikkuminen ja tähtäily, sekä miltä kukin näyttää ja tavallinen korjaus.",
+ "body": {
+  "faults-head-lift-stopping-p1": "Suunnan jälkeen valmentaja nimeää syyn. Neljä syytä toistuu useimmilla harjoituksilla, ja jokaisella on oma lyhyt sanansa. Opettele ne pareittain: virhe ja korjaus.",
+  "faults-head-lift-stopping-p2": "Head lift (pään nostaminen tukilta): poski irtoaa tukista laukaushetkellä tai juuri ennen sitä, usein siksi, että ampuja haluaa nähdä kiekon hajoavan. Silmä toimii takatähtäimenä (haulikossa sitä ei ole). Niin kun pää nousee, silmä liikkuu, ase osoittaa korkeammalle kuin luulet, ja laukaus menee yleensä yli. Korjaus: ”head down”, ”cheek on the stock”, ”stay in the gun” – pää alas, poski tukille, pysy aseessa.",
+  "faults-head-lift-stopping-p3": "Stopping the gun (aseen pysäyttäminen): piipunsuut pysähtyvät laukaukseen, yleensä siksi, että ampuja vilkaisee piippuun tarkistaakseen välin kiekon edessä. Laukaus menee taakse. Lievempi muoto on checking (nykäisy): aseen liike epäröi sekunnin murto-osan. Korjaus: ”keep the gun moving”, ”follow through”, ”finish the shot” – pidä ase liikkeessä, saatto, vie laukaus loppuun.",
+  "faults-head-lift-stopping-p4": "Riding the target (kiekon perässä roikkuminen): kiekkoa seurataan liian kauan ennen laukausta, niin se hidastuu, laskee tai kaartaa pois, ja ampuja kadottaa linjan. Korjaus: ”take it earlier”, ”commit to it” – ota aikaisemmin, sitoudu laukaukseen. Poking (myös ”aiming”, ”measuring”, eli tökkääminen, tähtääminen): haulikkoa osoitetaan hitaasti kuin kivääriä, katse jyvässä (piippujen päässä olevassa pienessä pisteessä) eikä kiekossa. Se on tyypillistä, kun osumapiste on liian lähellä, tai {{term:teal|pystykiekossa}} (suoraan ylös heitetyssä kiekossa) sen lakipisteessä. Korjaus: ”eyes on the clay”, ”let the gun go” – katse kiekkoon, anna aseen mennä.",
+  "technique-follow-through-and-mistakes-p4": "Läheinen virhe on {{term:flinch|säpsähdys}}: tahaton nytkähdys juuri ennen laukausta, usein {{term:recoil|rekyylin}} odottamisesta. Sopiva ase, kevyemmät patruunat ja työ valmentajan kanssa auttavat yleensä; ks. {{lesson:health-recoil-shoulder-neck}}."
+ },
+ "note": {
+  "faults-head-lift-stopping-p5": "Valmentajat nimeävät syyn usein jo ennen kuin ampuja on laskenut aseen. Käännä se samassa hengessä ja samalla verbillä: ”you stopped” ei ole ”you missed”. Sana kuten ”aiming” on lähes aina moite, niin vältä muuttamasta sitä neuvoksi, kuten ”tähtää paremmin”."
+ },
+ "phrases": {
+  "faults-head-lift-stopping-ph1": {
+   "meaning": "Poski irtosi tukista, joten laukaus meni kiekon yli.",
+   "say": "Nostit pään, siksi se meni yli."
+  },
+  "faults-head-lift-stopping-ph2": {
+   "meaning": "Aseen liike pysähtyi laukaukseen; jatka liikettä laukauksen läpi ja sen jälkeen.",
+   "say": "Pidä ase liikkeessä, pysäytit sen kiekon kohdalle."
+  },
+  "faults-head-lift-stopping-ph3": {
+   "meaning": "Lyhyt epäröinti ennen laukausta; päätä ja ammu hidastamatta.",
+   "say": "Epäröit juuri ennen laukausta, sitoudu siihen."
+  },
+  "faults-head-lift-stopping-ph4": {
+   "meaning": "Arvostelua: ampuja osoittaa kuin kiväärillä; keskity kiekkoon ja anna aseen liikkua vapaasti.",
+   "say": "Lopeta tähtääminen, katso kiekkoa ja anna aseen mennä."
+  },
+  "faults-head-lift-stopping-ph5": {
+   "meaning": "Ampuja seurasi kiekkoa liian kauan; riko se aikaisemmin.",
+   "say": "Roikuit sen perässä liian kauan, ota se aikaisemmin."
+  },
+  "faults-head-lift-stopping-ph6": {
+   "meaning": "Pidä poski tukilla vielä laukauksen jälkeenkin.",
+   "say": "Pysy aseessa."
+  }
+ },
+ "key_points": {
+  "faults-head-lift-stopping-kp1": "Pään nosto: laukaus yleensä yli; korjaus: pää alas, pysy aseessa.",
+  "faults-head-lift-stopping-kp2": "Pysäyttäminen tai epäröinti: laukaus taakse; korjaus: pidä ase liikkeessä, saatto.",
+  "faults-head-lift-stopping-kp3": "Roikkuminen: kiekko hidastuu tai laskee pois; korjaus: ota aikaisemmin, sitoudu.",
+  "faults-head-lift-stopping-kp4": "Tökkääminen tai tähtääminen: hidas kiväärimäinen osoittaminen; korjaus: katse kiekkoon.",
+  "faults-head-lift-stopping-kp5": "Flinch (säpsähdys): nytkähdys ennen laukausta, usein rekyylistä; tarkista aseen sopivuus ja patruunat."
+ },
+ "quiz": {
+  "faults-head-lift-stopping-q1": {
+   "q": "Valmentaja sanoo ”You lifted your head”. Mihin laukaus todennäköisimmin meni?",
+   "options": {
+    "a": "Taakse",
+    "b": "Yli",
+    "c": "Ali",
+    "d": "Eteen"
+   },
+   "explain": "Silmä toimii takatähtäimenä (haulikossa sitä ei ole): kun pää nousee, laukaus menee yleensä yli."
+  },
+  "faults-head-lift-stopping-q2": {
+   "q": "Valmentaja huutaa ”Stop aiming!”. Mitä hän haluaa?",
+   "options": {
+    "a": "Älä osoita kuin kiväärillä: katso kiekkoa ja liikuta asetta",
+    "b": "Tähtää tarkemmin kiskoa pitkin kiekkoon",
+    "c": "Lopeta ampuminen ja avaa ase heti",
+    "d": "Laske ase ja odota tuomaria"
+   },
+   "explain": "Valmentajan suussa ”aiming” on virhe (tökkääminen); korjaus on katse kiekkoon ja vapaa aseen liike."
+  },
+  "faults-head-lift-stopping-q3": {
+   "q": "”You rode it too long” tarkoittaa…",
+   "options": {
+    "a": "Ampuja laukaisi liian aikaisin",
+    "b": "Heitin heitti kiekon liian hitaasti",
+    "c": "Ampuja aloitti liian kaukaa takaa",
+    "d": "Ampuja seurasi kiekkoa liian kauan"
+   },
+   "explain": "Kiekon perässä roikkuminen tarkoittaa, että sitä seurataan liian kauan, niin se hidastuu tai laskee ja linja katoaa."
+  }
+ }
+}

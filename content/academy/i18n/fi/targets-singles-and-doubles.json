@@ -1,0 +1,141 @@
+{
+  "id": "targets-singles-and-doubles",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "474629da",
+    "summary": "8c511174",
+    "flight-pairs-p1": "de3af0f1",
+    "flight-pairs-p2": "4807909e",
+    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p3": "5326e900",
+    "targets-singles-and-doubles-cartridges": "9881669e",
+    "targets-singles-and-doubles-p6": "563c8328",
+    "flight-pairs-p6": "8dc7cb7e",
+    "targets-singles-and-doubles-p5": "e2032dad",
+    "targets-singles-and-doubles-tip1": "6c39d145",
+    "flight-pairs-ph1": "9a849839",
+    "flight-pairs-ph2": "113027fe",
+    "flight-pairs-ph3": "07db0d22",
+    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-kp1": "ef123d9b",
+    "flight-pairs-kp2": "3dee0536",
+    "flight-pairs-kp3": "dd039d2b",
+    "flight-pairs-kp4": "1fdf0730",
+    "flight-pairs-kp5": "73168bb5",
+    "targets-singles-and-doubles-dyk": "9a88d811",
+    "flight-pairs-q1": "ebe2b5dc",
+    "flight-pairs-q2": "f669f8a6",
+    "targets-singles-and-doubles-q2": "69c2d15d",
+    "flight-pairs-q3": "424310f9",
+    "targets-singles-and-doubles-q1": "de200647",
+    "targets-singles-and-doubles-q-two-with-one": "e024bf17"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Yksittäiskiekot ja kaksoiskiekot",
+  "summary": "Mitä ovat yksittäiskiekko, laukauksesta lähtevä kaksoiskiekko, yhtäaikainen kaksoiskiekko ja rafale, montako patruunaa saa käyttää, ja missä {{tm:sporting}} ja {{tm:compak}} eroavat.",
+  "body": {
+    "flight-pairs-p1": "{{term:single-target|Yksittäiskiekko}} (single) on yksi kiekko yhdestä heittimestä. Molemmissa lajeissa siihen saa ampua kaksi laukausta, joten ohilaukauksen voi korjata toisella piipulla. {{term:double|Kaksoiskiekko}} (pair, double) on kaksi kiekkoa, jotka kuuluvat yhteen: yksi kutsu, ja ammut molemmat.",
+    "flight-pairs-p2": "{{term:double-on-report|Laukauksesta lähtevä kaksoiskiekko}} (report pair, double on report): kutsu laukaisee ensimmäisen kiekon, ja siihen ammuttu laukaus laukaisee toisen. {{tm:sporting}}-lajissa toinen tulee 0–3 sekuntia tämän laukauksen jälkeen. Järjestys on kiinteä. ”Report” tarkoittaa laukauksen ääntä, ei kirjallista raporttia.",
+    "flight-pairs-p4": "{{term:simultaneous-double|Yhtäaikainen kaksoiskiekko}} (simultaneous, ”simo”; {{term:english-sporting|englantilaisessa sportingissa}} ”{{term:true-pair|true pair}}”): molemmat kiekot lähtevät samalla hetkellä, ja niitä saa ampua missä tahansa järjestyksessä. Ne tulevat yhdestä tai kahdesta heittimestä; {{tm:compak}}-lajissa aina kahdesta eri heittimestä.",
+    "flight-pairs-p3": "Following pair, jota FITASC kutsuu nimellä {{term:rafale-double|rafale}} (peräkkäinen kaksoiskiekko): kaksi kiekkoa samasta heittimestä samalla lentoradalla, toinen lähtee niin pian kuin heitin on latautunut uudelleen. Kumman tahansa saa ampua ensin. Sitä on vain {{tm:sporting}}-lajissa: {{tm:compak}}-kaksoiskiekko on laukauksesta lähtevä tai yhtäaikainen.",
+    "targets-singles-and-doubles-cartridges": {
+      "sporting": "Kaksoiskiekkoon on kaksi patruunaa, ja molemmat saa ampua yhteen kiekkoon. Jos yksi laukaus rikkoo molemmat kiekot, molemmat lasketaan osumiksi (tuomari sanoo ”one” kummastakin).",
+      "compak": "Yksi patruuna kiekkoa kohden. Molempien laukausten ampuminen tahallaan yhteen kiekkoon merkitään {{term:zero-zero|zero-zero}} (molemmat kiekot lasketaan ohilaukauksiksi). Jos yksi laukaus rikkoo molemmat kiekot, niitä ei lasketa kahdeksi osumaksi. Laukauksesta lähtevässä kaksoiskiekossa ensimmäisen kiekon tulos jää voimaan, ja kaksoiskiekko heitetään uudelleen toista varten. Yhtäaikaisessa kaksoiskiekossa se on No Bird, ja kaksoiskiekko uusitaan; kun tämä tapahtuu kolmannen kerran, merkitään zero-zero."
+    },
+    "targets-singles-and-doubles-p6": "Miten kaksoiskiekkoja pisteytetään, mukaan lukien zero-zero ja No Bird dupletissa, selitetään luvussa {{lesson:rules-doubles}}.",
+    "flight-pairs-p6": "{{tm:sporting}}-ampumapaikalla erä ampuu ensin yksittäiskiekot, sitten kaksoiskiekot. Ennen ammuntaa yhtäaikaiset ja rafale-kaksoiskiekot heitetään, jotta ampujat näkevät ne (ne näytetään erän ensimmäiselle ampujalle); laukauksesta lähteviä kaksoiskiekkoja ei näytetä.",
+    "targets-singles-and-doubles-p5": "{{tm:sporting}}-rataosuus antaa {{fact:targets.sporting-layout-targets}}, ja kaksoiskiekot koostuvat vain kiekoista, jotka on jo näytetty yksittäiskiekkoina samalta ampumapaikalta. {{tm:compak}}-kierros on myös 25 kiekkoa, viisi kullakin ampumapaikalla, yhdellä kolmesta tavasta: {{fact:targets.compak-station-menus}}.",
+    "targets-singles-and-doubles-tip1": "Ennen kaksoiskiekon pyytämistä moni valmentaja suosittelee suunnittelemaan molemmat kiekot: kumman ensin, mistä kohdasta rikot kummankin, ja minne katse siirtyy toista varten. Lisää luvussa {{lesson:faults-pairs-transition}}."
+  },
+  "note": {},
+  "phrases": {
+    "flight-pairs-ph1": {
+      "meaning": "Toinen kiekko tulee vasta, kun ampuja ampuu ensimmäiseen, joten ensimmäisen kanssa ei tarvitse kiirehtiä.",
+      "say": "Se lähtee laukauksesta – ammu ensimmäinen kunnolla, toinen odottaa laukaustasi."
+    },
+    "flight-pairs-ph2": {
+      "meaning": "Yhtäaikaisessa kaksoiskiekossa ammu jäniskiekko ensin, koska pystykiekko pysyy ilmassa pidempään.",
+      "say": "Yhtäaikainen: jänis ensin, pystykiekko odottaa sinua."
+    },
+    "flight-pairs-ph3": {
+      "meaning": "Molemmat kiekot tulevat samasta heittimestä; ensimmäisen laukauksen jälkeen palauta katse ja ase heitintä kohti löytääksesi toisen.",
+      "say": "Rafale – ensimmäisen jälkeen suoraan takaisin heittimelle toista varten."
+    },
+    "flight-pairs-ph4": {
+      "meaning": "Viisi yhtäaikaista kaksoiskiekkoa tornista (englantilaisen sportingin ilmaus).",
+      "say": "Yhtäaikaiset tornista, viisi paria."
+    }
+  },
+  "key_points": {
+    "flight-pairs-kp1": "Yksittäiskiekko: yksi kiekko, kaksi laukausta sallittu.",
+    "flight-pairs-kp2": "Laukauksesta lähtevä: ensimmäiseen ammuttu laukaus lähettää toisen; järjestys kiinteä.",
+    "flight-pairs-kp3": "Rafale (following pair): sama heitin, sama lentorata, vain {{tm:sporting}}.",
+    "flight-pairs-kp4": "Yhtäaikainen (true pair): molemmat kerralla, vapaa järjestys.",
+    "flight-pairs-kp5": "{{tm:sporting}}: molemmat patruunat voi käyttää yhteen kiekkoon; {{tm:compak}}: yksi kiekkoa kohden."
+  },
+  "quiz": {
+    "flight-pairs-q1": {
+      "q": "Mikä lähettää toisen kiekon laukauksesta lähtevässä kaksoiskiekossa?",
+      "options": {
+        "a": "Toinen pyyntö",
+        "b": "Tuomarin merkki",
+        "c": "Ensimmäiseen kiekkoon ammuttu laukaus",
+        "d": "Tasan 5 sekunnin ajastin"
+      },
+      "explain": "”On report” tarkoittaa laukauksen äänestä: ensimmäiseen kiekkoon ampuminen lähettää toisen."
+    },
+    "flight-pairs-q2": {
+      "q": "Ampuja ampuu Compak® Sporting -lajissa molemmat patruunat yhtäaikaisen kaksoiskiekon ensimmäiseen kiekkoon. Tulos?",
+      "options": {
+        "a": "Sallittu, kuten Sporting™-lajissa",
+        "b": "Nolla-nolla",
+        "c": "No Bird ja uusinta",
+        "d": "Vain toinen kiekko on nolla"
+      },
+      "explain": "Compak® Sporting sallii kaksoiskiekossa yhden patruunan kiekkoa kohden; molempien tahallinen ampuminen yhteen kiekkoon merkitään nolla-nolla. Sporting™-lajissa se olisi sallittua."
+    },
+    "targets-singles-and-doubles-q2": {
+      "q": "Missä lajissa on rafale-kaksoiskiekkoja?",
+      "options": {
+        "a": "Vain {{tm:sporting}}-lajissa",
+        "b": "Vain {{tm:compak}}-lajissa",
+        "c": "Molemmissa"
+      },
+      "explain": "Rafale on kaksi kiekkoa samasta heittimestä yhdellä lentoradalla, {{tm:sporting}}-lajin kaksoiskiekko. {{tm:compak}}-lajissa on vain laukauksesta lähteviä ja yhtäaikaisia kaksoiskiekkoja."
+    },
+    "flight-pairs-q3": {
+      "q": "Brittiläinen valmentaja sanoo ”true pair”. Miten käännät sen?",
+      "options": {
+        "a": "Oikea, reilu pari",
+        "b": "Pari oikeita lintuja",
+        "c": "Rafale",
+        "d": "Yhtäaikainen kaksoiskiekko"
+      },
+      "explain": "”True pair” on englantilaisen sportingin nimi yhtäaikaiselle kaksoiskiekolle; ”true” ei liity oikeellisuuteen."
+    },
+    "targets-singles-and-doubles-q1": {
+      "q": "Montako kiekkoa yksi {{tm:sporting}}-rataosuus antaa?",
+      "options": {
+        "a": "20: 10 yksittäis- ja 5 kaksoiskiekkoa",
+        "b": "25: 15 yksittäis- ja 5 kaksoiskiekkoa",
+        "c": "25: 25 yksittäiskiekkoa"
+      },
+      "explain": "Kukin {{tm:sporting}}-rataosuustyyppi antaa 25 kiekkoa: 15 yksittäis- ja 5 kaksoiskiekkoa."
+    },
+    "targets-singles-and-doubles-q-two-with-one": {
+      "q": "{{tm:sporting}}-lajissa yksi laukaus rikkoo kaksoiskiekon molemmat kiekot. Miten se merkitään?",
+      "options": {
+        "a": "”One” ja ”one”",
+        "b": "No Bird, kaksoiskiekko uusitaan",
+        "c": "”One” ja ”zero”"
+      },
+      "explain": "{{tm:sporting}}-lajissa molemmat kiekot lasketaan, kun yksi laukaus rikkoo ne. {{tm:compak}}-lajissa säännöt ovat erilaiset."
+    }
+  },
+  "did_you_know": "Rafale on ranskaa ja tarkoittaa ”puuskaa” tai ”sarjaa”: kiekot lähtevät perätysten niin nopeasti kuin heitin ehtii latautua uudelleen."
+}

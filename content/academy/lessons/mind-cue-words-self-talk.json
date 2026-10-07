@@ -1,0 +1,425 @@
+{
+  "id": "mind-cue-words-self-talk",
+  "rev": 2,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "training-diary",
+    "pre-shot-routine",
+    "self-talk",
+    "cue-word"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Self-talk and sports performance: a meta-analysis (Perspectives on Psychological Science, 2011)"
+      },
+      "url": "https://doi.org/10.1177/1745691611413136",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The effects of motivational versus instructional self-talk on improving motor performance (The Sport Psychologist, 2000)"
+      },
+      "url": "https://doi.org/10.1123/tsp.14.3.253",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The putt and the pendulum: ironic effects of the mental control of action (Psychological Science, 1998)"
+      },
+      "url": "https://doi.org/10.1111/1467-9280.00037",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Implicit overcompensation: the influence of negative self-instructions on performance of a self-paced motor task (Journal of Sports Sciences, 2008)"
+      },
+      "url": "https://doi.org/10.1080/02640410802155138",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Superiority of external attentional focus for motor performance and learning: systematic reviews and meta-analyses (Psychological Bulletin, 2021)"
+      },
+      "url": "https://gwulf.faculty.unlv.edu/wp-content/uploads/2021/12/Chua_EF_meta-analyses_PB_2021.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Reporting bias, not external focus: a robust Bayesian meta-analysis and systematic review of the external focus of attention literature (Psychological Bulletin, 2024)"
+      },
+      "url": "https://doi.org/10.1037/bul0000451",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Cue words and self-talk",
+    "uk": "Слова-підказки і розмова з собою"
+  },
+  "summary": {
+    "en": "Short cue words about the target can help more than slogans. How to choose two or three with your coach, and why “don't” cues can backfire.",
+    "uk": "Короткі слова-підказки про мішень можуть допомогти більше, ніж гасла. Як обрати дві-три разом із тренером і чому підказки з «не» можуть зашкодити."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "2–3 short cue words about the target, chosen with the coach: 'front edge', 'smooth', 'finish'.",
+        "Say what to do rather than 'don't stop the gun': cues with 'don't' sometimes bring on the same fault.",
+        "Motivational phrases belong between stands.",
+        "The interpreter translates the coach's cue the same way every time.",
+        "Evidence: some research (moderate)."
+      ],
+      "uk": [
+        "2–3 короткі підказки про мішень, вибрані разом із тренером: «передній край», «плавно», «до кінця».",
+        "Казати, що робити, а не «не зупиняй рушницю»: підказки з «не» іноді викликають ту саму помилку.",
+        "Мотиваційні фрази — між стрілецькими місцями.",
+        "Перекладач перекладає підказку тренера щоразу однаково.",
+        "Доказовість: є дослідження (помірна)."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-cue-words-self-talk-p1",
+      "t": "p",
+      "en": "{{term:self-talk|Self-talk}} is what you say to yourself, aloud or in your head. A {{term:cue-word|cue word}} is a very short instruction, such as “front edge” or “smooth”, that points your attention at one thing.",
+      "uk": "{{term:self-talk|Розмова з собою}} — це те, що ви кажете собі вголос чи подумки. {{term:cue-word|Слово-підказка}} — дуже коротка інструкція, як-от «передній край» чи «плавно», що спрямовує увагу на одну річ."
+    },
+    {
+      "k": "mind-cue-words-self-talk-p2",
+      "t": "p",
+      "en": "In many studies, athletes who practised what to say to themselves did somewhat better. In tasks that need accuracy, short instructions (“front edge”) helped more than encouragement (“come on”). The studies are not from clay shooting, so most likely this works in {{tm:sporting}} and {{tm:compak}} too.",
+      "uk": "У багатьох дослідженнях спортсмени, які тренували те, що казати собі, виступали трохи краще. У завданнях, де потрібна точність, короткі інструкції («передній край») допомагали більше, ніж підбадьорювання («давай»). Дослідження проводили не у стендовій стрільбі, тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+    },
+    {
+      "k": "mind-cue-words-self-talk-p3",
+      "t": "tip",
+      "en": "Choose two or three short cues with your coach in training. Good cues point at the target or its line: “see it”, “front edge”, “stay on the line”, “finish it”. Keep body cues, such as “elbow up”, for practice sessions.",
+      "uk": "Оберіть дві-три короткі підказки разом із тренером на тренуванні. Добрі підказки спрямовані на мішень або її лінію: «бачу», «передній край», «тримай лінію», «до кінця». Підказки про тіло, як-от «лікоть вище», залиште для тренувань."
+    },
+    {
+      "k": "mind-cue-words-self-talk-p4",
+      "t": "p",
+      "en": "Researchers call this an external focus: paying attention to the target or to where the gun is going, rather than to your own arms and shoulders. Many studies found that it works better. A newer review, which allowed for studies with no effect that often go unpublished, found the average advantage close to zero. So treat cues about the target as a sensible starting point, not a rule.",
+      "uk": "Дослідники називають це зовнішнім фокусом уваги: увага на мішені чи на тому, куди йде рушниця, а не на власних руках і плечах. Багато досліджень показали, що так виходить краще. Новіший огляд, який врахував, що дослідження без ефекту часто не публікують, виявив, що в середньому перевага близька до нуля. Тож підказки про мішень — розумна відправна точка, а не правило."
+    },
+    {
+      "k": "mind-cue-words-self-talk-p5",
+      "t": "p",
+      "en": "Say what to do, not what to avoid. In golf putting studies, players told “don't overshoot” sometimes overshot more, especially when their mind was busy with another task. In another study, such instructions led to over-correction. So try “stay on the line” rather than “don't stop the gun”.",
+      "uk": "Кажіть, що робити, а не чого уникати. У дослідженнях із гольфістами ті, кому казали «тільки не прокоти далі», іноді прокочували м’яч ще далі, особливо коли голова була зайнята іншим завданням. В іншому дослідженні такі вказівки призводили до надмірної поправки в інший бік. Тож спробуйте «тримай лінію» замість «не зупиняй рушницю»."
+    },
+    {
+      "k": "mind-cue-words-self-talk-p6",
+      "t": "p",
+      "en": "Motivational phrases such as “come on” or “I can do this” may suit the walk between stands. On the stand, a short instruction usually fits better.",
+      "uk": "Мотиваційні фрази на кшталт «давай» чи «я зможу» можуть пасувати до переходу між стрілецькими місцями. На самому місці зазвичай краще підходить коротка інструкція."
+    },
+    {
+      "k": "mind-cue-words-self-talk-p7",
+      "t": "p",
+      "en": "Use one cue per target and keep the same words in training and in competition. A new cue on the day is like new equipment: try it in training first. You can note your cues in your {{term:training-diary|training diary}}.",
+      "uk": "Одна підказка на мішень, і ті самі слова на тренуванні й на змаганнях. Нова підказка в день змагань — як нове спорядження: спершу спробуйте її на тренуванні. Свої підказки можна записати в {{term:training-diary|щоденник тренувань}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-cue-words-self-talk-n1",
+      "for": "interpreter",
+      "en": "Translate the coach's cue the same way each time, in two or three words. If the coach says “front edge”, keep one equivalent for the whole tour, so the shooter can use it as self-talk.",
+      "uk": "Перекладайте підказку тренера щоразу однаково, двома-трьома словами. Якщо тренер каже «front edge», тримайте один відповідник на весь тур, щоб стрілець міг користуватися ним у розмові з собою."
+    },
+    {
+      "k": "mind-cue-words-self-talk-n2",
+      "for": "coach",
+      "en": "On the stand, give cues about the target, not about body parts. Keep technical points for practice blocks, not for competition week.",
+      "uk": "На стрілецькому місці давайте підказки про мішень, а не про частини тіла. Технічні зауваження залиште для тренувальних блоків, а не для тижня змагань."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "mind-cue-words-self-talk-ph1",
+      "speaker": "coach",
+      "en": "Front edge.",
+      "meaning": {
+        "en": "Look at the front edge of the target, not at the whole clay or the gun.",
+        "uk": "Дивися на передній край мішені, а не на всю мішень чи рушницю."
+      },
+      "say": {
+        "uk": "Передній край."
+      }
+    },
+    {
+      "k": "mind-cue-words-self-talk-ph2",
+      "speaker": "coach",
+      "en": "Stay on the line.",
+      "meaning": {
+        "en": "Keep the gun moving along the target's flight line.",
+        "uk": "Веди рушницю вздовж лінії польоту мішені."
+      },
+      "say": {
+        "uk": "Тримай лінію."
+      }
+    },
+    {
+      "k": "mind-cue-words-self-talk-ph3",
+      "speaker": "coach",
+      "en": "Finish it.",
+      "meaning": {
+        "en": "Keep the gun moving after the shot; complete the follow-through.",
+        "uk": "Веди рушницю й після пострілу; не обривай продовження руху."
+      },
+      "say": {
+        "uk": "До кінця."
+      }
+    },
+    {
+      "k": "mind-cue-words-self-talk-ph4",
+      "speaker": "coach",
+      "en": "Smooth.",
+      "meaning": {
+        "en": "Move the gun calmly and evenly, without a jerk.",
+        "uk": "Веди рушницю спокійно й рівно, без ривка."
+      },
+      "say": {
+        "uk": "Плавно."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "mind-cue-words-self-talk-kp1",
+      "en": "Choose 2–3 short cues about the target with your coach.",
+      "uk": "Оберіть із тренером 2–3 короткі підказки про мішень."
+    },
+    {
+      "k": "mind-cue-words-self-talk-kp2",
+      "en": "Say what to do, not what to avoid: “stay on the line”, not “don't stop”.",
+      "uk": "Кажіть, що робити, а не чого уникати: «тримай лінію», а не «не зупиняйся».",
+      "checklist": true
+    },
+    {
+      "k": "mind-cue-words-self-talk-kp3",
+      "en": "Instructions on the stand, motivation between stands.",
+      "uk": "Інструкції — на стрілецькому місці, мотивація — між місцями."
+    },
+    {
+      "k": "mind-cue-words-self-talk-kp4",
+      "en": "Keep the same cue words in training and in competition.",
+      "uk": "Ті самі слова-підказки на тренуванні й на змаганнях.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-cue-words-self-talk-dyk",
+    "en": "Many shooters say their cue word at the same step of the routine, just before the call. Then the word itself becomes part of the {{term:pre-shot-routine|pre-shot routine}}.",
+    "uk": "Багато стрільців кажуть своє слово-підказку на тому самому кроці ритуалу, перед самою командою. Тоді саме слово стає частиною {{term:pre-shot-routine|передпострілового ритуалу}}."
+  },
+  "quiz": [
+    {
+      "k": "mind-cue-words-self-talk-q1",
+      "q": {
+        "en": "Which cue suits the stand?",
+        "uk": "Яка підказка пасує до стрілецького місця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Come on, you can do this one",
+          "uk": "Давай, ти точно це зможеш"
+        },
+        {
+          "k": "b",
+          "en": "Just don't miss this one again",
+          "uk": "Тільки не промахнись знову"
+        },
+        {
+          "k": "c",
+          "en": "Front edge, stay on the line",
+          "uk": "Передній край, тримай лінію"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A short instruction about the target fits the stand; motivational phrases suit the walk between stands.",
+        "uk": "Коротка інструкція про мішень пасує до стрілецького місця; мотиваційні фрази — до переходу між місцями."
+      }
+    },
+    {
+      "k": "mind-cue-words-self-talk-q2",
+      "q": {
+        "en": "Why can “don't” cues be risky?",
+        "uk": "Чому підказки з «не» бувають ризикованими?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They sometimes cause that very error",
+          "uk": "Вони іноді викликають саме цю помилку"
+        },
+        {
+          "k": "b",
+          "en": "The referee may count them as coaching",
+          "uk": "Суддя може вважати їх коучингом"
+        },
+        {
+          "k": "c",
+          "en": "They take too long to say on the stand",
+          "uk": "Їх задовго вимовляти на місці"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In studies, “don't” instructions sometimes caused the error they named, so say what to do instead.",
+        "uk": "У дослідженнях вказівки з «не» іноді викликали саме ту помилку, яку називали, тож кажіть, що робити."
+      }
+    },
+    {
+      "k": "mind-cue-words-self-talk-q3",
+      "q": {
+        "en": "Where do motivational phrases fit better?",
+        "uk": "Де краще пасують мотиваційні фрази?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the stand, just before the call",
+          "uk": "На місці, перед самою командою"
+        },
+        {
+          "k": "b",
+          "en": "On the walk between stands",
+          "uk": "Під час переходу між місцями"
+        },
+        {
+          "k": "c",
+          "en": "During the target presentation",
+          "uk": "Під час показу мішеней"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In tasks that need accuracy, short instructions helped more than encouragement, so encouragement fits the time between stands.",
+        "uk": "У завданнях, де потрібна точність, короткі інструкції допомагали більше, ніж підбадьорювання, тож підбадьорювання доречне між місцями."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": [
+    {
+      "for": "mind-cue-words-self-talk-p2",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1177/1745691611413136",
+        "https://doi.org/10.1123/tsp.14.3.253"
+      ]
+    },
+    {
+      "for": "mind-cue-words-self-talk-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-cue-words-self-talk-p4",
+      "level": "some",
+      "sources": [
+        "https://gwulf.faculty.unlv.edu/wp-content/uploads/2021/12/Chua_EF_meta-analyses_PB_2021.pdf",
+        "https://doi.org/10.1037/bul0000451"
+      ]
+    },
+    {
+      "for": "mind-cue-words-self-talk-p5",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1111/1467-9280.00037",
+        "https://doi.org/10.1080/02640410802155138"
+      ]
+    },
+    {
+      "for": "mind-cue-words-self-talk-p6",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1123/tsp.14.3.253",
+        "https://doi.org/10.1177/1745691611413136"
+      ]
+    },
+    {
+      "for": "mind-cue-words-self-talk-p7",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "b548637c",
+    "summary": "30ac2e77",
+    "mind-cue-words-self-talk-p1": "6427d79d",
+    "mind-cue-words-self-talk-p2": "2748bf35",
+    "mind-cue-words-self-talk-p3": "3bb82f03",
+    "mind-cue-words-self-talk-p4": "5279c7f7",
+    "mind-cue-words-self-talk-p5": "a98308b5",
+    "mind-cue-words-self-talk-p6": "4429376a",
+    "mind-cue-words-self-talk-p7": "29cb9730",
+    "mind-cue-words-self-talk-n1": "3e5c1e55",
+    "mind-cue-words-self-talk-n2": "fffe1d8e",
+    "mind-cue-words-self-talk-ph1": "ebedc256",
+    "mind-cue-words-self-talk-ph2": "38aa9389",
+    "mind-cue-words-self-talk-ph3": "f57ca746",
+    "mind-cue-words-self-talk-ph4": "6d3c6beb",
+    "mind-cue-words-self-talk-kp1": "7608aeeb",
+    "mind-cue-words-self-talk-kp2": "ce03dc54",
+    "mind-cue-words-self-talk-kp3": "ce32bd70",
+    "mind-cue-words-self-talk-kp4": "02c6d0b5",
+    "mind-cue-words-self-talk-dyk": "20b7cdff",
+    "mind-cue-words-self-talk-q1": "b11029ab",
+    "mind-cue-words-self-talk-q2": "8121dca2",
+    "mind-cue-words-self-talk-q3": "4cd586da"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\"."
+    ]
+  }
+}

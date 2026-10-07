@@ -1,0 +1,481 @@
+{
+  "id": "intro-what-is-clay-shooting",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter",
+    "parent",
+    "fan"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "intro-what-is-clay-shooting"
+    ],
+    "interpreter": [
+      "sport-what-is-clay"
+    ]
+  },
+  "terms": [
+    "target",
+    "trap",
+    "trajectory",
+    "shotgun",
+    "cartridge",
+    "visible-piece",
+    "sporting",
+    "compak-sporting",
+    "fitasc",
+    "olympic-trap",
+    "skeet"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch1-definition"
+    },
+    {
+      "book": "sporting",
+      "id": "ch1-safety-environment"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-own-turn-live-animals"
+    },
+    {
+      "book": "compak",
+      "id": "ch1-discipline"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-shooting-conduct"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — Sports disciplines: presentation",
+        "uk": "FITASC — спортивні дисципліни: представлення"
+      },
+      "url": "https://www.fitasc.com/en/sports-disciplines/presentation",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Wikipedia — Clay pigeon shooting: history (clay targets replace live pigeons from about 1875)",
+        "uk": "Вікіпедія — стендова стрільба: історія (глиняні мішені замінюють живих голубів приблизно з 1875 року)"
+      },
+      "url": "https://en.wikipedia.org/wiki/Clay_pigeon_shooting",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What clay shooting is",
+    "uk": "Що таке стендова стрільба"
+  },
+  "summary": {
+    "en": "Clay shooting is a sport in which you break flying clay targets with a shotgun. Here is how it works, and what {{tm:sporting}} and {{tm:compak}} are.",
+    "uk": "Стендова стрільба — це спорт, у якому з рушниці розбивають летючі мішені. Пояснюємо, як це працює і що таке {{tm:sporting}} та {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "sport-what-is-clay-p1",
+      "t": "p",
+      "core": true,
+      "anchor": "sport-what-is-clay",
+      "disc": "both",
+      "en": "Clay shooting is a sport in which a shooter breaks small flying discs with a shotgun. The disc is called a target or a clay; shooters often call it a bird, but nobody shoots at live animals. The FITASC rules say plainly that shooting at live animals is not allowed, and safety and care for the environment come first.",
+      "uk": "Стендова стрільба — це спорт, у якому стрілець розбиває з {{term:shotgun|рушниці}} невеликі диски, що летять. Такий диск називають {{term:target|мішенню}} (target, clay); стрільці часто кажуть bird, «птах», але по живих тваринах ніхто не стріляє. Правила FITASC прямо забороняють стріляти по живих тваринах, а безпека й турбота про довкілля стоять на першому місці."
+    },
+    {
+      "k": "sport-what-is-clay-p2",
+      "t": "p",
+      "core": true,
+      "en": "A machine called a trap throws each target. Its path through the air (or along the ground) is the trajectory. The gun is a shotgun with smooth barrels (smooth-bore: no spiral grooves inside, unlike a rifle). It fires a cartridge full of small pellets called shot, which spread into a small cloud. That is why the shooter points the gun where the target is going, not where it is now.",
+      "uk": "Кожну мішень кидає {{term:trap|машинка}} (trap). Шлях мішені в повітрі або по землі — це {{term:trajectory|траєкторія}}. Рушниця гладкоствольна: усередині ствола немає гвинтових нарізів, як у гвинтівки. Вона стріляє {{term:cartridge|набоєм}} із дрібними кульками — дробом (shot), який летить невеликою хмаркою. Тому стрілець спрямовує рушницю туди, куди летить мішень, а не туди, де вона зараз."
+    },
+    {
+      "k": "intro-what-is-clay-shooting-p2",
+      "t": "p",
+      "en": "A trap spins the target and throws it at a set speed and angle. Trajectories vary a lot: a target may come towards you, go away, cross in front of you, fly high or roll along the ground.",
+      "uk": "Машинка розкручує мішень і кидає її з певною швидкістю й під певним кутом. Траєкторії бувають дуже різні: мішень може летіти на вас, від вас, упоперек, високо в небі або котитися по землі."
+    },
+    {
+      "k": "sport-what-is-clay-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "This course is about two disciplines (two kinds of clay shooting) of the international federation FITASC. Parcours de Chasse – Sporting™ (Sporting™ for short) imitates hunting. Its traps are often hidden or screened by bushes and trees, and targets fly like a partridge, a duck or a pheasant, or roll like a hare. {{tm:compak}} is the compact version: the same variety of targets, but on one small field with five stations in a line and six traps.",
+      "uk": "Цей курс присвячений двом дисциплінам (двом видам стендової стрільби) міжнародної федерації {{term:fitasc|FITASC}}. Parcours de Chasse – Sporting™ (коротко — Sporting™) відтворює полювання. Його машинки часто ховають або прикривають кущами й деревами, а мішені летять, як куріпка, качка чи фазан, або котяться по землі, як заєць. {{tm:compak}} — компактний варіант: така сама різноманітність мішеней, але на одному невеликому полі з п’ятьма номерами в лінію і шістьма машинками."
+    },
+    {
+      "k": "sport-what-is-clay-p4",
+      "t": "p",
+      "core": true,
+      "en": "You will also hear about Trap and Skeet. They are different disciplines with set trajectories. In Skeet the trajectories are always the same; in Trap the targets fly at changing angles from a fixed set, in an order the shooter does not know. Olympic Trap and Skeet belong to another federation. Do not mix their rules with {{tm:sporting}} or {{tm:compak}}.",
+      "uk": "Ви почуєте й про Trap та Skeet. Це інші дисципліни із заданими траєкторіями. У скиті траєкторії завжди однакові; у трапі мішені летять під різними кутами із заданого набору, і стрілець не знає, в якому порядку. Олімпійські {{term:olympic-trap|Trap}} і {{term:skeet|Skeet}} належать іншій федерації. Не переносьте їхні правила на {{tm:sporting}} чи {{tm:compak}}."
+    },
+    {
+      "k": "sport-what-is-clay-p5",
+      "t": "p",
+      "core": true,
+      "en": "A hit is visible at once: the target breaks or at least a visible piece flies off. This clarity is what makes the sport easy to watch and, for you, easy to follow from the very first day.",
+      "uk": "Влучання видно одразу: мішень розлітається або від неї відлітає хоча б {{term:visible-piece|видимий уламок}}. Саме ця наочність робить спорт зрозумілим для глядачів, а для вас — зручним уже з першого дня."
+    },
+    {
+      "k": "intro-what-is-clay-shooting-p5",
+      "t": "p",
+      "en": "The sport grew out of hunting. Shooters once practised on live birds; from the late 1800s clay targets began to take their place. Today clay shooting is a sport of its own, with rules, referees and international competitions. More history: {{lesson:history-live-birds-to-clays}}.",
+      "uk": "Цей спорт виріс із полювання. Колись стрільці тренувалися на живих птахах, а з кінця XIX століття їх почали замінювати глиняні мішені. Сьогодні стендова стрільба — окремий вид спорту з правилами, суддями й міжнародними змаганнями. Більше про історію: {{lesson:history-live-birds-to-clays}}."
+    },
+    {
+      "k": "intro-what-is-clay-shooting-p6",
+      "t": "p",
+      "en": "You can shoot just for fun or compete. Many people come to a shooting ground to spend a day outdoors with friends; some later enter club shoots and championships. The disciplines are compared in {{lesson:intro-disciplines}}.",
+      "uk": "Стріляти можна для задоволення або змагатися. Багато людей приїжджають на стенд, щоб провести день на природі з друзями; дехто згодом виступає на клубних змаганнях і чемпіонатах. Дисципліни порівнюємо в уроці {{lesson:intro-disciplines}}."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "sport-what-is-clay-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Watch this bird off trap B.",
+      "meaning": {
+        "en": "'Bird' is a target, not a real bird; trap B is the machine marked B.",
+        "uk": "Bird — це мішень, а не жива птаха; trap B — машинка з літерою B."
+      },
+      "say": {
+        "uk": "Подивіться цю мішень із машинки B."
+      },
+      "from": "sport-what-is-clay"
+    },
+    {
+      "k": "sport-what-is-clay-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Today we walk the Sporting course, tomorrow it's Compak.",
+      "meaning": {
+        "en": "Two different disciplines on two different days.",
+        "uk": "Дві різні дисципліни у два різні дні: {{tm:sporting}} і {{tm:compak}}."
+      },
+      "say": {
+        "uk": "Сьогодні стріляємо маршрут {{tm:sporting}}, завтра — {{tm:compak}}."
+      },
+      "from": "sport-what-is-clay"
+    },
+    {
+      "k": "sport-what-is-clay-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Point it, don't aim it.",
+      "meaning": {
+        "en": "A shotgun is swung and pointed with both eyes on the target, not aimed like a rifle.",
+        "uk": "Рушницю ведуть і спрямовують, дивлячись на мішень, а не прицілюються, як із гвинтівки."
+      },
+      "say": {
+        "uk": "Не цільтеся — спрямовуйте рушницю."
+      },
+      "from": "sport-what-is-clay"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "sport-what-is-clay-kp1",
+      "core": true,
+      "en": "People shoot at clay targets thrown by traps, never at live animals.",
+      "uk": "Стріляють по мішенях, які кидають машинки, і ніколи — по живих тваринах.",
+      "from": "sport-what-is-clay"
+    },
+    {
+      "k": "sport-what-is-clay-kp2",
+      "core": true,
+      "en": "A shotgun fires a cloud of small pellets (shot), so the shooter points ahead of the target.",
+      "uk": "Рушниця стріляє хмаркою дробу, тому стрілець спрямовує її перед мішенню.",
+      "from": "sport-what-is-clay"
+    },
+    {
+      "k": "sport-what-is-clay-kp3",
+      "core": true,
+      "en": "{{tm:sporting}} imitates hunting over natural ground; {{tm:compak}} is its compact version on one field.",
+      "uk": "{{tm:sporting}} відтворює полювання на природному рельєфі; {{tm:compak}} — його компактний варіант на одному полі.",
+      "from": "sport-what-is-clay"
+    },
+    {
+      "k": "sport-what-is-clay-kp4",
+      "core": true,
+      "en": "Trap and Skeet are other disciplines with their own rules.",
+      "uk": "Trap і Skeet — інші дисципліни з власними правилами.",
+      "from": "sport-what-is-clay"
+    },
+    {
+      "k": "intro-what-is-clay-shooting-kp4",
+      "en": "A hit is visible at once: the target breaks or a visible piece flies off.",
+      "uk": "Влучання видно одразу: мішень розбивається або від неї відлітає видимий уламок."
+    }
+  ],
+  "did_you_know": {
+    "k": "intro-what-is-clay-shooting-dyk",
+    "en": "Targets are made brittle on purpose, so even a few pellets can break them.",
+    "uk": "Мішені навмисно роблять крихкими, тож їх можуть розбити навіть кілька дробинок."
+  },
+  "quiz": [
+    {
+      "k": "sport-what-is-clay-q1",
+      "q": {
+        "en": "A coach says 'Watch the next bird.' What will you see?",
+        "uk": "Тренер каже: «Watch the next bird». Що ви побачите?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A live pigeon released from a box",
+          "uk": "Живого голуба, випущеного з ящика"
+        },
+        {
+          "k": "b",
+          "en": "A clay target thrown by a trap",
+          "uk": "Мішень, яку кинула машинка"
+        },
+        {
+          "k": "c",
+          "en": "A bird-shaped paper target on a board",
+          "uk": "Паперову мішень у формі птаха на щиті"
+        },
+        {
+          "k": "d",
+          "en": "A drone",
+          "uk": "Дрон"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "'Bird' is shooters' slang for a clay target; the FITASC rules forbid shooting at live animals.",
+        "uk": "Bird — стрілецька назва мішені; правила FITASC забороняють стріляти по живих тваринах."
+      },
+      "from": "sport-what-is-clay",
+      "disc": "both"
+    },
+    {
+      "k": "sport-what-is-clay-q2",
+      "q": {
+        "en": "What does a shotgun fire?",
+        "uk": "Чим стріляє гладкоствольна рушниця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One single bullet",
+          "uk": "Однією кулею"
+        },
+        {
+          "k": "b",
+          "en": "A small arrow-like dart",
+          "uk": "Маленькою стрілкою"
+        },
+        {
+          "k": "c",
+          "en": "A cloud of small pellets (shot)",
+          "uk": "Хмаркою дрібних кульок (дробом)"
+        },
+        {
+          "k": "d",
+          "en": "A ball filled with paint",
+          "uk": "Кулькою з фарбою"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The shot leaves the muzzle as a small cloud of pellets, so the shooter points ahead of the moving target.",
+        "uk": "Дріб вилітає з дула хмаркою, тому стрілець спрямовує рушницю перед мішенню, що рухається."
+      },
+      "from": "sport-what-is-clay"
+    },
+    {
+      "k": "sport-what-is-clay-q3",
+      "q": {
+        "en": "Which statement about {{tm:compak}} is correct?",
+        "uk": "Яке твердження про {{tm:compak}} правильне?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A compact version on one field, stations in a line",
+          "uk": "Компактний варіант на одному полі, номери в лінію"
+        },
+        {
+          "k": "b",
+          "en": "It is the Olympic version of the Skeet discipline",
+          "uk": "Це олімпійський різновид дисципліни скіт"
+        },
+        {
+          "k": "c",
+          "en": "It is shot only at live game birds in the field",
+          "uk": "У ньому стріляють лише по живій дичині"
+        },
+        {
+          "k": "d",
+          "en": "It uses a single trap and a single station",
+          "uk": "У ньому лише одна машинка й один номер"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "{{tm:compak}} brings Sporting™-style targets onto one small field with five stations and six traps.",
+        "uk": "{{tm:compak}} переносить мішені в стилі {{tm:sporting}} на одне невелике поле з п’ятьма номерами й шістьма машинками."
+      },
+      "from": "sport-what-is-clay",
+      "disc": "compak"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "intro-what-is-clay-shooting-q1",
+      "q": {
+        "en": "What do you shoot at in clay shooting?",
+        "uk": "По чому стріляють у стендовій стрільбі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Live birds released from a box",
+          "uk": "По живих птахах, випущених із ящика"
+        },
+        {
+          "k": "b",
+          "en": "Clay targets thrown by a trap",
+          "uk": "По мішенях, які кидає машинка"
+        },
+        {
+          "k": "c",
+          "en": "Paper targets fixed on a board",
+          "uk": "По паперових мішенях на щиті"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "You shoot only at artificial targets thrown by a trap. Shooting at live animals is forbidden.",
+        "uk": "Стріляють лише по штучних мішенях, які кидає машинка. Стріляти по живих тваринах заборонено."
+      }
+    },
+    {
+      "k": "intro-what-is-clay-shooting-q2",
+      "q": {
+        "en": "What is a trap?",
+        "uk": "Що таке trap?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A shotgun with a short barrel",
+          "uk": "Рушниця з коротким стволом"
+        },
+        {
+          "k": "b",
+          "en": "The referee who runs the stand",
+          "uk": "Суддя, який веде стрілецьке місце"
+        },
+        {
+          "k": "c",
+          "en": "A machine that throws targets",
+          "uk": "Пристрій, що кидає мішені"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A trap is the machine that throws a target into the air or rolls it along the ground.",
+        "uk": "Машинка (trap) кидає мішень у повітря або котить її по землі."
+      }
+    },
+    {
+      "k": "intro-what-is-clay-shooting-q3",
+      "q": {
+        "en": "Why does a shooter point the gun ahead of a moving target?",
+        "uk": "Чому стрілець спрямовує рушницю перед мішенню, що рухається?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The shot needs time to reach the target",
+          "uk": "Дробу потрібен час, щоб долетіти до мішені"
+        },
+        {
+          "k": "b",
+          "en": "The referee asks all shooters to do it",
+          "uk": "Так вимагає суддя від усіх стрільців"
+        },
+        {
+          "k": "c",
+          "en": "It keeps the gun from touching the target",
+          "uk": "Щоб стволи не зачепили мішень"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The target moves and the shot takes time to get there, so the gun points where the target will be a moment later.",
+        "uk": "Мішень летить, а дробу потрібен час, щоб долетіти. Тому рушницю спрямовують туди, де мішень буде за мить."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "3ce678ed",
+    "summary": "359557be",
+    "sport-what-is-clay-p1": "945f431f",
+    "sport-what-is-clay-p2": "54bc3515",
+    "intro-what-is-clay-shooting-p2": "22c4489f",
+    "sport-what-is-clay-p3": "aad8067c",
+    "sport-what-is-clay-p4": "6862a9dc",
+    "sport-what-is-clay-p5": "52a34d7f",
+    "intro-what-is-clay-shooting-p5": "9f7b18f6",
+    "intro-what-is-clay-shooting-p6": "16cb66f9",
+    "sport-what-is-clay-ph1": "3b6c757b",
+    "sport-what-is-clay-ph2": "e5d36ef7",
+    "sport-what-is-clay-ph3": "58ae63c9",
+    "sport-what-is-clay-kp1": "fdfda924",
+    "sport-what-is-clay-kp2": "e7d80445",
+    "sport-what-is-clay-kp3": "c4886be6",
+    "sport-what-is-clay-kp4": "5aa7fa8d",
+    "intro-what-is-clay-shooting-kp4": "5dcc36b1",
+    "intro-what-is-clay-shooting-dyk": "a0d70d52",
+    "sport-what-is-clay-q1": "e119f9b3",
+    "sport-what-is-clay-q2": "79369cea",
+    "sport-what-is-clay-q3": "231a967e",
+    "intro-what-is-clay-shooting-q1": "8867030b",
+    "intro-what-is-clay-shooting-q2": "7fb50f25",
+    "intro-what-is-clay-shooting-q3": "546c5d4e"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays de fr it cs pl pt hu fi lt: retranslate the core items sport-what-is-clay-p2, -p3 and -p4 from the current English (review round 2: smooth-bore explained; traps \"often hidden or screened\"; Skeet trajectories always the same, Trap targets at changing angles from a fixed set) before any language page of this lesson is published; do not just copy the new h hashes. Also remove the orphan key sport-what-is-clay-title from the overlays.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in sport-what-is-clay-p3, sport-what-is-clay-p4, sport-what-is-clay-kp3, sport-what-is-clay-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

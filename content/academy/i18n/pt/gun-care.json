@@ -1,0 +1,95 @@
+{
+  "id": "gun-care",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "42bc807c",
+    "summary": "53ea9070",
+    "gun-care-p1": "e7fec0b7",
+    "gun-care-p2": "311dadd8",
+    "gun-care-p3": "5d55cf61",
+    "gun-care-p4": "3cd3a115",
+    "gun-care-p5": "520c5e84",
+    "gun-care-p6": "4866d6ad",
+    "gun-care-p7": "8dcf8861",
+    "gun-care-kp1": "9aa8a796",
+    "gun-care-kp2": "cabb28f0",
+    "gun-care-kp3": "12d97280",
+    "gun-care-kp4": "51137384",
+    "gun-care-kp5": "9b69a2ed",
+    "gun-care-q1": "77aa2722",
+    "gun-care-q2": "8bd12cd7",
+    "gun-care-q3": "c3f948e6",
+    "gun-care-q4": "5fd25464",
+    "gun-care-dyk": "8beaba79"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Cuidados e limpeza",
+  "summary": "Como limpar uma arma em segurança depois de atirar e depois da chuva, como a guardar, e porque é que os atiradores de {{tm:sporting}} e {{tm:compak}} marcam uma revisão anual.",
+  "body": {
+    "gun-care-p1": "A limpeza começa pela segurança. Certifique-se de que a arma está descarregada: abra-a e olhe para as duas {{term:chamber|câmaras}}. Afaste todos os cartuchos da sua área de trabalho, para não correr o risco de colocar um na arma por engano.",
+    "gun-care-p2": "Desmonte a arma: retire o {{term:fore-end|fuste}}, depois os canos da {{term:receiver|báscula}}. Se tiver chokes amovíveis, desaperte-os com a {{term:choke-key|chave de chokes}}; limpam-se à parte (ver {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p3": [
+      "Limpe os canos por dentro depois de cada dia de tiro.",
+      "Molhe-os com um solvente de limpeza e passe algumas vezes uma escova de canos (uma pequena escova de arame numa vareta).",
+      "Passe quadrados de pano limpo (patches) na vareta até saírem quase limpos.",
+      "Termine com uma película muito fina de óleo, e limpe o cano a seco antes de voltar a atirar."
+    ],
+    "gun-care-p4": "Limpe o metal exterior com um pano e uma gota de óleo, para o proteger de dedadas e de humidade. Não encharque uma coronha de madeira em óleo, porque este penetra na madeira. Lubrifique ligeiramente a charneira e os pontos onde os canos encaixam na báscula, com massa para armas.",
+    "gun-care-p5": "Depois da chuva, seque a arma de imediato, no campo ou no hotel. Não deixe uma arma molhada de um dia para o outro numa {{term:gun-slip|capa}} macia ou numa {{term:hard-case|mala}} fechada: a humidade fica ali muito tempo e a seguir vem a ferrugem. Seque-a, limpe-a, lubrifique-a.",
+    "gun-care-p6": "Guarde a arma seca, num cofre ou como a lei do seu país exigir; muitas leis também pedem que os cartuchos sejam guardados à parte. Muitos armeiros sugerem guardar a arma na horizontal ou com as bocas para baixo, para que o óleo não escorra para uma coronha de madeira. Não use palha de aço nem abrasivos: riscam o acabamento.",
+    "gun-care-p7": "Uma vez por ano, ou depois de um grande número de tiros, leve a arma a um {{term:gunsmith|armeiro}} para uma revisão. Depois de remontada, não teste a arma num posto de competição. No {{tm:sporting}} e no {{tm:compak}} um {{term:gun-test|tiro de ensaio}} só se dá num posto de ensaio à parte, onde o campo disponibilizar um."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "gun-care-kp1": "Primeiro certifique-se de que a arma está descarregada e os cartuchos estão afastados.",
+    "gun-care-kp2": "Limpe os canos por dentro depois de cada dia de tiro; lubrifique com ligeireza.",
+    "gun-care-kp3": "Seque de imediato uma arma molhada; não a deixe numa capa de um dia para o outro.",
+    "gun-care-kp4": "Guarde-a seca e trancada, na horizontal ou com as bocas para baixo.",
+    "gun-care-kp5": "Uma revisão anual por um armeiro; tiros de ensaio só num posto de ensaio."
+  },
+  "did_you_know": "As espoletas continham antigamente sais corrosivos, e a arma tinha de ser limpa no mesmo dia ou o cano enferrujava. As espoletas modernas não são corrosivas, mas limpar depois de atirar continua a ser um bom hábito.",
+  "quiz": {
+    "gun-care-q1": {
+      "q": "O que deve fazer primeiro antes de limpar uma arma?",
+      "options": {
+        "a": "Lubrificar a charneira e os ganchos",
+        "b": "Desapertar os dois chokes",
+        "c": "Verificar que a arma está descarregada",
+        "d": "Retirar o taco antirrecuo"
+      },
+      "explain": "Segurança primeiro: abra a arma e verifique as duas câmaras."
+    },
+    "gun-care-q2": {
+      "q": "O que não deve fazer depois de atirar à chuva?",
+      "options": {
+        "a": "Limpar a arma com um pano seco",
+        "b": "Deixá-la na capa de um dia para o outro",
+        "c": "Secar os canos por dentro e por fora",
+        "d": "Pôr uma película fina de óleo no metal"
+      },
+      "explain": "A humidade fica muito tempo numa capa fechada, e a seguir vem a ferrugem."
+    },
+    "gun-care-q3": {
+      "q": "Onde pode fazer um tiro de ensaio à sua arma antes de uma competição?",
+      "options": {
+        "a": "Num posto de ensaio, se o campo tiver um",
+        "b": "No primeiro posto de competição",
+        "c": "Em qualquer lugar do campo, longe de pessoas",
+        "d": "No parque de estacionamento, junto ao clube"
+      },
+      "explain": "As regras proíbem tiros de ensaio no posto de competição; para isso usa-se um posto de ensaio à parte."
+    },
+    "gun-care-q4": {
+      "q": "Porque sugerem muitos armeiros guardar a arma com as bocas para baixo?",
+      "options": {
+        "a": "Para ser mais rápido carregá-la depois",
+        "b": "Para os chokes não se soltarem",
+        "c": "Para os canos arrefecerem mais depressa",
+        "d": "Para o óleo não escorrer para a coronha"
+      },
+      "explain": "O óleo que escorre para uma coronha de madeira pode danificar a madeira com o tempo."
+    }
+  }
+}

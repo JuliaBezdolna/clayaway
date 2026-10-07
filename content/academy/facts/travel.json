@@ -1,0 +1,47 @@
+{
+  "_note": "Facts of the Travel block of the ClayArena Academy: one number in one place (design §6.5). Used in lesson texts as {{fact:travel.<id>}}; the text is a fragment that fits into a sentence in each language. Travel lessons also reuse facts stored by other blocks instead of repeating them: basics.efp-validity, basics.international-targets, gear.iata-ammunition, gear.fitasc-shot-load, gear.fitasc-shot-diameter, gear.steel-vs-lead-weight, training.compak-championship-practice.",
+  "jet-lag-zones": {
+    "text": {
+      "en": "at least three time zones",
+      "uk": "щонайменше три часові пояси"
+    },
+    "evidence": "some",
+    "sources": [
+      "https://doi.org/10.1007/s40279-021-01502-0"
+    ],
+    "checked": "2026-10-07"
+  },
+  "jet-lag-east-west": {
+    "text": {
+      "en": "about one day per time zone after flying east, and about half a day per time zone after flying west",
+      "uk": "приблизно день на кожен часовий пояс після перельоту на схід і приблизно пів дня на пояс після перельоту на захід"
+    },
+    "evidence": "some",
+    "sources": [
+      "https://doi.org/10.1007/s40279-021-01502-0",
+      "https://humanperformancealliance.org/playbook/beating-jet-lag-a-guide-to-strategic-light-exposure/"
+    ],
+    "checked": "2026-10-07"
+  },
+  "jet-lag-east-limit": {
+    "text": {
+      "en": "up to about 8",
+      "uk": "приблизно до 8"
+    },
+    "note": "Fragment for '(…)' after 'a few time zones east'. The consensus statement says that after travelling more than about 8 h east it may be better to adapt by delaying the body clock instead of advancing it, so the simple 'morning light after flying east' advice is given only up to this limit.",
+    "evidence": "some",
+    "sources": [
+      "https://doi.org/10.1007/s40279-021-01502-0"
+    ],
+    "checked": "2026-10-07"
+  },
+  "cartridge-box-weight": {
+    "text": {
+      "en": "about 1 kg",
+      "uk": "близько 1 кг"
+    },
+    "note": "Estimate, not a rule: a 12-gauge target cartridge with 24-28 g of shot weighs about 35-40 g, so a box of 25 weighs about 0.9-1.0 kg. Check against a maker's data sheet before quoting a more exact figure.",
+    "sources": [],
+    "checked": "2026-10-07"
+  }
+}

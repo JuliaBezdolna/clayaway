@@ -1,0 +1,479 @@
+{
+  "id": "mind-competition-nerves",
+  "rev": 4,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "mind-competition-nerves"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "referee",
+    "score-sheet",
+    "gun-mount",
+    "stopping-the-gun",
+    "head-lift",
+    "jury",
+    "club-shoot"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-loss-of-control"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-loss-of-control"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-immediate-expulsion"
+    },
+    {
+      "book": "compak",
+      "id": "ch23-jury-sanctions"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Does the individual zones of optimal functioning model discriminate between successful and less successful athletes? A meta-analysis (Journal of Sports Sciences, 1999)"
+      },
+      "url": "https://doi.org/10.1080/026404199365434",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Physiological arousal and performance in elite archers: a field study (European Psychologist, 1998)"
+      },
+      "url": "https://doi.org/10.1027/1016-9040.3.4.263",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The relative impact of cognitive anxiety and self-confidence upon sport performance: a meta-analysis (Journal of Sports Sciences, 2003)"
+      },
+      "url": "https://doi.org/10.1080/0264041031000101809",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Get excited: reappraising pre-performance anxiety as excitement (Journal of Experimental Psychology: General, 2014)"
+      },
+      "url": "https://doi.org/10.1037/a0035325",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The putt and the pendulum: ironic effects of the mental control of action (Psychological Science, 1998)"
+      },
+      "url": "https://doi.org/10.1111/1467-9280.00037",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Nerves and your own zone",
+    "uk": "Хвилювання і ваша зона"
+  },
+  "summary": {
+    "en": "Nerves before a competition are normal. How to find the level that suits you, read a racing heart as readiness, and know when to ask for help.",
+    "uk": "Хвилювання перед змаганнями — це нормально. Як знайти свій рівень, сприйняти прискорене серцебиття як готовність і зрозуміти, коли варто звернутися по допомогу."
+  },
+  "brief": {
+    "title": {
+      "en": "Nerves and your own zone",
+      "uk": "Хвилювання і ваша зона"
+    },
+    "points": {
+      "en": [
+        "Nerves are normal; the useful level differs from shooter to shooter: rate it 0–10 after rounds.",
+        "Read a racing heart as readiness ('I am ready').",
+        "Confidence comes from preparation.",
+        "When to see a sport psychologist or a doctor.",
+        "No 'inverted-U law' and no 'box breathing calms you' (audit A-04); the breathing part moves to mind-breathing."
+      ],
+      "uk": [
+        "Хвилювання — це нормально; корисний рівень у кожного свій: оцінювати 0–10 після раундів.",
+        "Сприймати серцебиття як готовність («я готовий»).",
+        "Упевненість — від підготовки.",
+        "Коли звернутися до спортивного психолога або лікаря.",
+        "Без «закону перевернутої U» і без «box breathing заспокоює» (аудит A-04); частина про дихання переходить у mind-breathing."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-competition-nerves-p1",
+      "t": "p",
+      "en": "Your first {{tm:sporting}} or {{tm:compak}} competition is likely to make you nervous: new people, a {{term:referee|referee}}, a {{term:score-sheet|score sheet}}, spectators. That is normal. Experienced shooters feel nerves too; they have learned to work with them.",
+      "uk": "Перші змагання з {{tm:sporting}} чи {{tm:compak}}, найпевніше, вас схвилюють: незнайомі люди, {{term:referee|суддя}}, {{term:score-sheet|протокол}}, глядачі. Це нормально. Досвідчені стрільці теж хвилюються — вони навчилися з цим працювати."
+    },
+    {
+      "k": "mind-competition-nerves-p2",
+      "t": "p",
+      "en": "When you are nervous, your body releases adrenaline. The heart beats faster, breathing gets shallow and the hands may shake. Some shooters then rush the {{term:gun-mount|gun mount}}, {{term:stopping-the-gun|stop the gun}} or {{term:head-lift|lift the head}} to see the break.",
+      "uk": "Коли ви хвилюєтеся, організм виділяє адреналін. Серце б’ється частіше, дихання стає поверхневим, руки можуть тремтіти. Через це дехто поспішає з {{term:gun-mount|вкладкою}}, {{term:stopping-the-gun|зупиняє рушницю}} або {{term:head-lift|відриває щоку від приклада}}, щоб побачити, чи розбилася мішень."
+    },
+    {
+      "k": "mind-competition-nerves-p8",
+      "t": "p",
+      "en": "There is no single right level of nerves. Research suggests each athlete has a personal zone: some shoot well a little wound up, others when calm.",
+      "uk": "Єдиного правильного рівня хвилювання немає. Дослідження свідчать, що в кожного спортсмена своя зона: комусь добре стріляється трохи «на взводі», комусь — у спокої."
+    },
+    {
+      "k": "mind-competition-nerves-p9",
+      "t": "tip",
+      "en": "To find your zone, rate how wound up you felt from 0 to 10 after each round, and note your score. After a few weeks you may start to see which level suits you.",
+      "uk": "Щоб знайти свою зону, після кожного раунду оцініть від 0 до 10, наскільки ви були напружені, і запишіть рахунок. За кілька тижнів ви, можливо, почнете бачити, який рівень вам пасує."
+    },
+    {
+      "k": "mind-competition-nerves-p10",
+      "t": "p",
+      "en": "Across many studies, athletes who worried did only slightly worse, while athletes who felt confident did clearly better. Confidence grows from preparation: a routine you trust and targets you have trained. None of these studies is from clay shooting, so most likely this works the same way in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "У багатьох дослідженнях спортсмени, які тривожилися, виступали лише трохи гірше, а ті, хто почувався впевнено, — помітно краще. Упевненість росте з підготовки: ритуал, якому ви довіряєте, і мішені, які ви натренували. Жодне з цих досліджень не проводили у стендовій стрільбі, тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+    },
+    {
+      "k": "mind-competition-nerves-p11",
+      "t": "p",
+      "en": "A racing heart can also be read as readiness. Telling yourself “I'm ready, this is energy” instead of trying to calm down helped in several studies outside sport. In them, people had to perform under pressure, for example by speaking in front of others.",
+      "uk": "Прискорене серцебиття можна сприйняти й як готовність. Сказати собі «я готовий (готова), це енергія» замість спроб заспокоїтися допомагало в кількох дослідженнях поза спортом. У них людям треба було виступати під тиском, наприклад говорити перед публікою."
+    },
+    {
+      "k": "mind-competition-nerves-p4",
+      "t": "p",
+      "en": "Tell yourself what to do, not what to avoid: “see the target” rather than “just don't miss”. More in {{lesson:mind-cue-words-self-talk}}. Slow breathing before the stand can also help: see {{lesson:mind-breathing}}.",
+      "uk": "Кажіть собі, що робити, а не чого уникати: «бачу мішень» замість «тільки б не промахнутися». Докладніше — {{lesson:mind-cue-words-self-talk}}. Перед стрілецьким місцем може допомогти й повільне дихання: див. {{lesson:mind-breathing}}."
+    },
+    {
+      "k": "mind-competition-nerves-p5",
+      "t": "p",
+      "en": "Preparation removes surprises. Arrive early, know your start time and layout, and check your cartridges, glasses and ear protection the evening before. More in {{lesson:mind-long-day-energy-sleep}}.",
+      "uk": "Підготовка прибирає несподіванки. Приїжджайте завчасно, знайте свій час старту й майданчик, а набої, окуляри й навушники перевірте ще звечора. Докладніше — {{lesson:mind-long-day-energy-sleep}}."
+    },
+    {
+      "k": "mind-competition-nerves-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "After a miss, do not argue with yourself in public. Throwing the gun, or aggression or violence towards the referee or other shooters, counts as loss of self-control; {{tm:sporting}} also names abusive language. The referee reports it to the {{term:jury|jury}}, which can expel the shooter ({{rule:sporting:ch8-loss-of-control}}, {{rule:compak:ch21-loss-of-control}}). Breathe out and think of the next target: see {{lesson:mind-reset-after-miss}}.",
+      "uk": "Після промаху не сваріться з собою на людях. Кинута рушниця, агресія чи насильство щодо судді або інших стрільців — це втрата самоконтролю; у {{tm:sporting}} до цього відносять і образливу лайку. Суддя повідомляє {{term:jury|журі}}, яке може відсторонити стрільця ({{rule:sporting:ch8-loss-of-control}}, {{rule:compak:ch21-loss-of-control}}). Видихніть і думайте про наступну мішень: див. {{lesson:mind-reset-after-miss}}."
+    },
+    {
+      "k": "mind-competition-nerves-p7",
+      "t": "p",
+      "en": "Start with {{term:club-shoot|club shoots}}: the atmosphere is calmer, and you learn the procedure with less pressure. With each competition, nerves become more familiar.",
+      "uk": "Почніть із {{term:club-shoot|клубних змагань}}: там спокійніше, і ви звикнете до процедури без великого тиску. З кожним стартом хвилювання стає знайомішим."
+    },
+    {
+      "k": "mind-competition-nerves-p12",
+      "t": "p",
+      "en": "If nerves stay strong for weeks, spoil your sleep or mood, or keep you away from shooting, talk to a sport psychologist or a doctor. That is a normal step, like seeing a coach for technique.",
+      "uk": "Якщо хвилювання тримається тижнями, псує сон чи настрій або заважає вам стріляти, поговоріть зі спортивним психологом чи лікарем. Це звичайний крок — так само, як піти до тренера по техніку."
+    },
+    {
+      "k": "mind-competition-nerves-warn",
+      "t": "warn",
+      "critical": true,
+      "en": "Do not take anything to calm your nerves without a doctor. Under the WADA list, beta-blockers are prohibited at all times in Olympic and para shooting (ISSF, IPC), even on prescription, unless you have a TUE, an official medical exemption. Treat them as prohibited in {{tm:sporting}} and {{tm:compak}} too: see {{lesson:mind-anti-doping}}.",
+      "uk": "Не приймайте нічого від хвилювання без лікаря. За списком WADA бета-блокатори заборонені в будь-який час в олімпійській і паралімпійській стрільбі (ISSF, IPC), навіть за рецептом, якщо у вас немає TUE — офіційного дозволу на медичне використання. Вважайте їх забороненими і в {{tm:sporting}} та {{tm:compak}}: див. {{lesson:mind-anti-doping}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-competition-nerves-n1",
+      "for": "parent",
+      "en": "Before your child's competition, keep the morning calm and the talk about ordinary things. Do not ask about the score you expect.",
+      "uk": "Перед змаганнями дитини зробіть ранок спокійним і говоріть про звичайні речі. Не питайте, на який рахунок вона розраховує."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-competition-nerves-kp1",
+      "en": "Nerves are normal; the level that suits you is personal.",
+      "uk": "Хвилювання — це нормально; рівень, який вам пасує, у кожного свій."
+    },
+    {
+      "k": "mind-competition-nerves-kp6",
+      "en": "Rate how wound up you feel from 0 to 10 after rounds to find your zone.",
+      "uk": "Оцінюйте напругу від 0 до 10 після раундів, щоб знайти свою зону."
+    },
+    {
+      "k": "mind-competition-nerves-kp3",
+      "en": "Tell yourself what to do, not what to avoid.",
+      "uk": "Кажіть собі, що робити, а не чого уникати."
+    },
+    {
+      "k": "mind-competition-nerves-kp4",
+      "en": "After a miss: breathe out and go to the next target; losing self-control breaks the rules.",
+      "uk": "Після промаху — видих і наступна мішень; втрата самоконтролю порушує правила."
+    },
+    {
+      "k": "mind-competition-nerves-kp7",
+      "en": "Strong nerves for weeks: talk to a sport psychologist or a doctor.",
+      "uk": "Хвилювання тримається тижнями — поговоріть зі спортивним психологом чи лікарем."
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-competition-nerves-dyk",
+    "en": "A little nervousness is normal and helps many shooters focus. The useful level differs from person to person, which is why it is worth finding your own.",
+    "uk": "Трохи хвилювання — це нормально, багатьом стрільцям воно допомагає зосередитися. Корисний рівень у кожного свій, тому варто знайти власний."
+  },
+  "quiz": [
+    {
+      "k": "mind-competition-nerves-q4",
+      "q": {
+        "en": "What does research say about the right level of nerves?",
+        "uk": "Що кажуть дослідження про правильний рівень хвилювання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It differs from shooter to shooter",
+          "uk": "Він у кожного стрільця свій"
+        },
+        {
+          "k": "b",
+          "en": "The calmer you are, the better you shoot",
+          "uk": "Що спокійніше, то краще стріляєш"
+        },
+        {
+          "k": "c",
+          "en": "Five out of ten suits all shooters",
+          "uk": "П’ять із десяти пасує всім стрільцям"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Research suggests personal zones: some shoot well a little wound up, others when calm.",
+        "uk": "Дослідження свідчать про особисті зони: комусь добре стріляється трохи «на взводі», комусь — у спокої."
+      }
+    },
+    {
+      "k": "mind-competition-nerves-q2",
+      "q": {
+        "en": "Which self-talk cue is more helpful?",
+        "uk": "Яка підказка собі корисніша?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Just don't miss this one",
+          "uk": "Тільки б не промахнутися"
+        },
+        {
+          "k": "b",
+          "en": "See the target, smooth",
+          "uk": "Бачу мішень, плавно"
+        },
+        {
+          "k": "c",
+          "en": "I'll mess it up again",
+          "uk": "Знову все зіпсую"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A cue that describes the action you want tends to help more than one about what to avoid.",
+        "uk": "Підказка, що описує потрібну дію, зазвичай допомагає більше, ніж підказка про те, чого уникати."
+      }
+    },
+    {
+      "k": "mind-competition-nerves-q3",
+      "disc": "both",
+      "q": {
+        "en": "What can happen if a shooter throws the gun down or turns aggressive towards the referee?",
+        "uk": "Що може статися, якщо стрілець кидає рушницю чи поводиться агресивно щодо судді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing, it is just emotion",
+          "uk": "Нічого, це просто емоції"
+        },
+        {
+          "k": "b",
+          "en": "The target is simply shot again",
+          "uk": "Мішень просто перестрілюють"
+        },
+        {
+          "k": "c",
+          "en": "The jury can expel the shooter",
+          "uk": "Журі може відсторонити стрільця"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Loss of self-control is reported to the jury, which can expel the shooter at once, in both disciplines.",
+        "uk": "Про втрату самоконтролю повідомляють журі, яке може негайно відсторонити стрільця, в обох дисциплінах."
+      },
+      "rule_ref": "sporting:ch8-loss-of-control"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-competition-nerves-q5",
+      "q": {
+        "en": "Your heart races before the stand. What can you tell yourself?",
+        "uk": "Перед стрілецьким місцем серце калатає. Що можна сказати собі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Something is wrong, I should stop",
+          "uk": "Щось не так, треба зупинитися"
+        },
+        {
+          "k": "b",
+          "en": "I'm ready, this is energy",
+          "uk": "Я готовий, це енергія"
+        },
+        {
+          "k": "c",
+          "en": "I must calm down completely first",
+          "uk": "Спершу треба цілком заспокоїтися"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Reading a racing heart as readiness helped people perform under pressure in several studies; you do not have to be completely calm to shoot well.",
+        "uk": "Сприйняття прискореного серцебиття як готовності допомагало людям виступати під тиском у кількох дослідженнях; щоб добре стріляти, не обов’язково бути цілком спокійним."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-competition-nerves-p1",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-competition-nerves-p2",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-competition-nerves-p8",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/026404199365434",
+        "https://doi.org/10.1027/1016-9040.3.4.263"
+      ]
+    },
+    {
+      "for": "mind-competition-nerves-p9",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/026404199365434"
+      ]
+    },
+    {
+      "for": "mind-competition-nerves-p10",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/0264041031000101809"
+      ]
+    },
+    {
+      "for": "mind-competition-nerves-p11",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1037/a0035325"
+      ]
+    },
+    {
+      "for": "mind-competition-nerves-p4",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1111/1467-9280.00037"
+      ]
+    },
+    {
+      "for": "mind-competition-nerves-p5",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-competition-nerves-p7",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "50e15762",
+    "summary": "961fac34",
+    "mind-competition-nerves-p1": "189f1d21",
+    "mind-competition-nerves-p2": "eb4dd143",
+    "mind-competition-nerves-p8": "3f9bfb3c",
+    "mind-competition-nerves-p9": "ce215d53",
+    "mind-competition-nerves-p10": "032e340c",
+    "mind-competition-nerves-p11": "bc8551c1",
+    "mind-competition-nerves-p4": "29ebdf3c",
+    "mind-competition-nerves-p5": "80e3fe8e",
+    "mind-competition-nerves-p6": "fbacd42d",
+    "mind-competition-nerves-p7": "24970c51",
+    "mind-competition-nerves-p12": "b47ddcc8",
+    "mind-competition-nerves-warn": "b8ab16da",
+    "mind-competition-nerves-n1": "a534c2ce",
+    "mind-competition-nerves-kp1": "8b08e4d4",
+    "mind-competition-nerves-kp6": "7e97881b",
+    "mind-competition-nerves-kp3": "4cef850d",
+    "mind-competition-nerves-kp4": "15cf1e96",
+    "mind-competition-nerves-kp7": "31a37f02",
+    "mind-competition-nerves-dyk": "c3c95ed4",
+    "mind-competition-nerves-q4": "283ab016",
+    "mind-competition-nerves-q2": "4d72cc04",
+    "mind-competition-nerves-q3": "853b453a",
+    "mind-competition-nerves-q5": "e741d853"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\"."
+    ]
+  }
+}

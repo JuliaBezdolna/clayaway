@@ -1,0 +1,432 @@
+{
+  "id": "referee-calls",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 1,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "interpreter",
+    "shooter",
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "referee-calls"
+    ]
+  },
+  "terms": [
+    "call",
+    "trapper",
+    "no-bird",
+    "sonopull",
+    "loading",
+    "target-presentation",
+    "one",
+    "zero",
+    "protest",
+    "appeal",
+    "referee"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch5-call-and-release"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-glossary"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loading"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-presentation-interruption"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-referee-oath"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-how-to-appeal"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trigger-manual"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-open-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-show-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-zero-announce"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-protest"
+    }
+  ],
+  "facts": [
+    "rules.release-within-3s",
+    "rules.sonopull-delay"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What the referee says on the stand",
+    "uk": "Що каже суддя на стрілецькому місці"
+  },
+  "summary": {
+    "en": "The short words of the stand: the call, loading and open guns, “one”, “zero” and “No Bird”, and the shooter’s formal word for a protest.",
+    "uk": "Короткі слова стрілецького місця: команда, заряджання й відкриті рушниці, «one», «zero» і «No Bird», а також офіційне слово стрільця для протесту."
+  },
+  "body": [
+    {
+      "k": "referee-calls-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch5-call-and-release",
+      "en": "A stand has its own short language. When ready, the shooter gives the {{term:call|call}}, usually “Pull!” or “Ready!”. In {{tm:sporting}} the {{term:referee|referee}} passes the call to the {{term:trapper|trapper}} with a sound signal. The target must leave {{fact:rules.release-within-3s}} of that signal; a later target is a {{term:no-bird|No Bird}}. In {{tm:compak}} a manual release must also come {{fact:rules.release-within-3s}} of the call. A voice-activated release ({{term:sonopull|sonopull}}: a microphone that launches the target when it hears your call) has a fixed delay of {{fact:rules.sonopull-delay}}.",
+      "uk": "На стрілецькому місці своя коротка мова. Коли стрілець готовий, він подає {{term:call|команду}}, зазвичай «Pull!» або «Ready!». У {{tm:sporting}} {{term:referee|суддя}} передає команду {{term:trapper|операторові машинки}} звуковим сигналом. Мішень має вилетіти {{fact:rules.release-within-3s}} після цього сигналу; пізніша мішень — {{term:no-bird|No Bird}}. У {{tm:compak}} ручний запуск теж має відбутися {{fact:rules.release-within-3s}} після команди. Голосовий запуск ({{term:sonopull|сонопул}} — мікрофон, який випускає мішень, щойно почує вашу команду) має незмінну затримку {{fact:rules.sonopull-delay}}."
+    },
+    {
+      "k": "referee-calls-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch8-loading",
+      "en": "Before anyone shoots, the referee decides when guns may be loaded and closed. The rules allow {{term:loading|loading}} only on the stand, with the gun pointing down the range, once the referee has said shooting may start. While targets are being shown ({{term:target-presentation|presentation}}), and whenever shooting stops, guns are open and empty. They are closed again only when the referee allows it. In {{tm:compak}} the referee starts the round with “Start” or “Competition”.",
+      "uk": "Поки ніхто не стріляє, суддя вирішує, коли можна заряджати й закривати рушниці. Правила допускають {{term:loading|заряджання}} лише на стрілецькому місці, стволами в бік поля, після того як суддя дозволив почати стрільбу. Під час {{term:target-presentation|показу мішеней}} і при будь-якій перерві рушниці відкриті й розряджені. Закривають їх знову лише з дозволу судді. У {{tm:compak}} суддя починає раунд словами «Start» або «Competition»."
+    },
+    {
+      "k": "referee-calls-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch4-glossary",
+      "en": "After each target there are only three results in the rulebook: “{{term:one|one}}” (hit), “{{term:zero|zero}}” (lost) and “No Bird” (the target does not count and is thrown again). On the ground you will also hear “dead” or “good” for a hit and “lost” for a miss; some referees say nothing after a hit. In {{tm:compak}} the referee announces each zero aloud or with a sound signal, so a shooter who disagrees can protest at once.",
+      "uk": "Після кожної мішені правила передбачають лише три результати: «{{term:one|one}}» (влучання), «{{term:zero|zero}}» (промах) і «No Bird» (мішень не зараховують і запускають знову). На стрільбищах ви почуєте ще «dead» чи «good» про влучання і «lost» про промах; дехто із суддів після влучання просто мовчить. У {{tm:compak}} суддя оголошує кожен промах уголос або звуковим сигналом, щоб незгодний стрілець міг одразу заявити протест."
+    },
+    {
+      "k": "referee-calls-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch9-how-to-appeal",
+      "en": "The shooter has a formal word too. To disagree with a decision, raise a hand at once, on the stand, and say “{{term:protest|Protest!}}” or “{{term:appeal|Appeal!}}” ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). More phrases a shooter needs: {{lesson:stand-talk-shooter-phrases}}.",
+      "uk": "Стрілець теж має своє офіційне слово. Щоб не погодитися з рішенням, одразу, на стрілецькому місці, підніміть руку й скажіть «{{term:protest|Protest!}}» або «{{term:appeal|Appeal!}}» ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Інші потрібні стрільцеві фрази — {{lesson:stand-talk-shooter-phrases}}."
+    },
+    {
+      "k": "referee-calls-sim",
+      "t": "sim",
+      "sim": {
+        "type": "call"
+      },
+      "ready": false
+    }
+  ],
+  "note": [
+    {
+      "k": "referee-calls-n1",
+      "for": "interpreter",
+      "core": true,
+      "en": "Keep these calls short and the same each time. Agree with your shooter before the round which words you will use. Add nothing of your own between the call and the shot.",
+      "uk": "Тримайте ці команди короткими й щоразу однаковими. До раунду домовтеся зі стрільцем, якими словами користуєтеся. Нічого не додавайте від себе між командою та пострілом."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "referee-calls-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "You may load.",
+      "meaning": {
+        "en": "The referee allows shooting to start: put cartridges in now, gun pointing down the range.",
+        "uk": "Суддя дозволяє починати: заряджайте зараз, стволи в бік поля."
+      },
+      "say": {
+        "uk": "Можна заряджати."
+      }
+    },
+    {
+      "k": "referee-calls-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "No bird!",
+      "meaning": {
+        "en": "That target does not count; do not shoot at it. It will be thrown again.",
+        "uk": "Ця мішень не зараховується; по ній не стріляти. Її запустять знову."
+      },
+      "say": {
+        "uk": "No Bird — не стріляйте, мішень повторять."
+      }
+    },
+    {
+      "k": "referee-calls-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Lost.",
+      "meaning": {
+        "en": "The referee scored the target as a miss (zero).",
+        "uk": "Суддя зарахував мішень як промах (zero)."
+      },
+      "say": {
+        "uk": "Промах."
+      }
+    },
+    {
+      "k": "referee-calls-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Dead. / Good.",
+      "meaning": {
+        "en": "The target is a hit (one).",
+        "uk": "Влучання (мішень зараховано)."
+      },
+      "say": {
+        "uk": "Влучання. Зараховано."
+      }
+    },
+    {
+      "k": "referee-calls-ph5",
+      "speaker": "referee",
+      "core": true,
+      "en": "Guns open, please — we’re showing the targets.",
+      "meaning": {
+        "en": "Everyone opens and unloads; the referee will throw the targets for viewing.",
+        "uk": "Усі відкривають і розряджають рушниці; суддя покаже мішені."
+      },
+      "say": {
+        "uk": "Відкрийте рушниці, будь ласка, — показуємо мішені."
+      }
+    },
+    {
+      "k": "referee-calls-ph6",
+      "speaker": "referee",
+      "core": true,
+      "en": "Start. / Competition.",
+      "meaning": {
+        "en": "{{tm:compak}}: viewing is over, the round counts from now.",
+        "uk": "{{tm:compak}}: показ мішеней закінчено, з цієї миті раунд іде в залік."
+      },
+      "say": {
+        "uk": "Старт. Ідемо в залік."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "referee-calls-kp1",
+      "core": true,
+      "en": "The shooter calls “Pull!” or “Ready!”; the target must come within 3 seconds",
+      "uk": "Стрілець подає «Pull!» або «Ready!»; мішень — протягом 3 секунд"
+    },
+    {
+      "k": "referee-calls-kp2",
+      "core": true,
+      "en": "Load only on the stand and only when the referee allows it; guns open during viewing and stops",
+      "uk": "Заряджати лише на стрілецькому місці й лише з дозволу судді; під час показу мішеней і перерв рушниці відкриті"
+    },
+    {
+      "k": "referee-calls-kp3",
+      "core": true,
+      "en": "Rule words: one = hit, zero = lost, No Bird = thrown again",
+      "uk": "Слова правил: one — влучання, zero — промах, No Bird — повтор мішені"
+    },
+    {
+      "k": "referee-calls-kp4",
+      "core": true,
+      "en": "{{tm:compak}}: each zero is announced aloud or by a sound signal",
+      "uk": "{{tm:compak}}: кожен промах оголошують уголос або звуковим сигналом"
+    },
+    {
+      "k": "referee-calls-kp5",
+      "core": true,
+      "checklist": true,
+      "en": "Protest = raised hand + “Protest!” or “Appeal!”",
+      "uk": "Протест — піднята рука і «Protest!» або «Appeal!»"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "referee-calls-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}} the target leaves five seconds after the referee’s signal. What is the referee’s decision?",
+        "uk": "У {{tm:sporting}} мішень вилетіла через п’ять секунд після сигналу судді. Яке рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It counts as normal",
+          "uk": "Зараховують як звичайну"
+        },
+        {
+          "k": "b",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "c",
+          "en": "Zero, because the shooter called too early",
+          "uk": "Промах, бо стрілець рано подав команду"
+        },
+        {
+          "k": "d",
+          "en": "A warning for the trapper only",
+          "uk": "Лише попередження операторові"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A target must leave within three seconds of the referee’s signal; a target released later is a No Bird and is thrown again.",
+        "uk": "Мішень має вилетіти протягом трьох секунд після сигналу судді; пізніша — No Bird, її запускають знову."
+      },
+      "rule_ref": "sporting:ch5-call-and-release"
+    },
+    {
+      "k": "referee-calls-q2",
+      "disc": "both",
+      "q": {
+        "en": "In competition, when may a shooter load the gun?",
+        "uk": "Коли на змаганнях стрілець може зарядити рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "While walking to the next stand",
+          "uk": "Дорогою до наступного стрілецького місця"
+        },
+        {
+          "k": "b",
+          "en": "Behind the stand, while waiting",
+          "uk": "Позаду стрілецького місця, під час очікування"
+        },
+        {
+          "k": "c",
+          "en": "On the stand, after the referee allows it",
+          "uk": "На стрілецькому місці, після дозволу судді"
+        },
+        {
+          "k": "d",
+          "en": "As soon as the coach says so",
+          "uk": "Щойно це скаже тренер"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Loading is allowed only on the stand, gun pointing down the range, and only once the referee has said shooting may start.",
+        "uk": "Заряджати можна лише на стрілецькому місці, стволами в бік поля, і тільки після того, як суддя дозволив почати."
+      },
+      "rule_ref": "sporting:ch8-loading"
+    },
+    {
+      "k": "referee-calls-q3",
+      "disc": "both",
+      "q": {
+        "en": "Which words start a formal protest on the stand?",
+        "uk": "Якими словами починають офіційний протест на стрілецькому місці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "“Protest!”, with a raised hand",
+          "uk": "«Protest!», з піднятою рукою"
+        },
+        {
+          "k": "b",
+          "en": "“No Bird!”, with a raised hand",
+          "uk": "«No Bird!», з піднятою рукою"
+        },
+        {
+          "k": "c",
+          "en": "“Referee, look at that target!”",
+          "uk": "«Суддя, подивіться на цю мішень!»"
+        },
+        {
+          "k": "d",
+          "en": "“Wait!”, after the next target",
+          "uk": "«Зачекайте!», після наступної мішені"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Both rulebooks name “protest” or “appeal” with a raised hand, at once; “No Bird” is the referee’s word.",
+        "uk": "Обидва регламенти називають «protest» або «appeal» з піднятою рукою, одразу; «No Bird» оголошує суддя."
+      },
+      "rule_ref": "sporting:ch9-how-to-appeal"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Animation referee-calls-sim (type “call”) stays ready:false: sims.js shows nothing for this type yet (build warning sim-no-animation).",
+      "Overlays (9 languages): the interpreter advice of the old referee-calls-p4 is now the note referee-calls-n1; retranslate p4 and add the note.",
+      "Overlays (9 languages), fact clean-up of 2026-10-07 (one number in one place): referee-calls-p1 now use the shared fact tokens of the rules/gear/community blocks instead of duplicate facts or written-out numbers. The meaning is unchanged, so check the wording and re-sign the hash.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in referee-calls-ph6, referee-calls-kp4 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

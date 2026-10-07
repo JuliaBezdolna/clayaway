@@ -1,0 +1,143 @@
+{
+ "id": "training-for-competition",
+ "lang": "fi",
+ "base_rev": 5,
+ "h": {
+  "title": "15f6d0f5",
+  "summary": "2e1e817a",
+  "training-for-competition-p1": "2be3e003",
+  "training-for-competition-p2": "818a1fa4",
+  "training-for-competition-p2-why": "b885b16c",
+  "training-for-competition-round": "2f2cdb37",
+  "training-for-competition-p3": "6fa2036e",
+  "training-for-competition-order": "4b2487e6",
+  "training-for-competition-p4": "2b629bad",
+  "training-for-competition-train-start": "b60eb1b8",
+  "training-for-competition-p5": "489f87b0",
+  "training-for-competition-time-it": "dcfb6fea",
+  "training-for-competition-pressure": "9a1d343a",
+  "training-for-competition-pressure-steps": "0cc980b4",
+  "training-for-competition-shoot-off": "bf65f20f",
+  "training-for-competition-fit-in": "d20c63c1",
+  "training-for-competition-no-new-kit": "796fdd5a",
+  "training-for-competition-p6": "44c51a6a",
+  "training-for-competition-practice": "cf9329ef",
+  "training-for-competition-n-coach": "8ee43684",
+  "training-for-competition-n-interpreter": "592f0e7b",
+  "training-for-competition-kp1": "c3cded19",
+  "training-for-competition-kp2": "5a904122",
+  "training-for-competition-kp3": "b70b637e",
+  "training-for-competition-kp-pressure": "87e0f74f",
+  "training-for-competition-kp5": "72fb9966",
+  "training-for-competition-dyk": "27a4b5f2",
+  "training-for-competition-q1": "a832b9bb",
+  "training-for-competition-q2": "5eb21bb6",
+  "training-for-competition-q-pressure": "e3dc29d0",
+  "training-for-competition-q3": "2586076a",
+  "training-for-competition-q-compak-time": "2e75b105"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Harjoittelu kilpailua varten",
+ "summary": "Miten tuoda kilpailu harjoitukseen: täydet kierrokset, oma rutiini, lajin aikarajat ja lievä paine, joka kasvaa vaiheittain.",
+ "body": {
+  "training-for-competition-p1": "Kilpailussa kaikki tuntuu erilaiselta: uudet kiekot, tuntemattomat ampujat, tuomari ja jännitys. Jotta tämä tuntuisi tutulta, moni valmentaja ehdottaa, että osa harjoituksista pidetään kuin ne olisivat kilpailu.",
+  "training-for-competition-p2": "Ammu täysiä {{term:round|kierroksia}} ja pidä tulosta. Älä pyydä kiekkoa uudelleen ohilaukauksen jälkeen, ja ammu kiekot {{term:target-menu|kiekkoluettelon}} järjestyksessä.",
+  "training-for-competition-p2-why": "Niin kilpailu etenee: ohilaukauksen kiekkoa ei heitetä uudelleen, ja kiekot tulevat siinä järjestyksessä, jonka luettelo määrää. Luettelo on taulu, joka näyttää, mitä kiekkoja ja missä järjestyksessä ampuu.",
+  "training-for-competition-round": {
+   "sporting": "{{term:layout|Rataosuudella}} ammuttu kierros on {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}}).",
+   "compak": "Kierros on {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
+  },
+  "training-for-competition-p3": "Käytä {{term:pre-shot-routine|suoritusrutiiniasi}} joka kiekolla: samat vaiheet samassa järjestyksessä. Rutiinitutkimukset, pääosin muista urheilulajeista, viittaavat siihen, että rutiinia käyttävät urheilijat suoriutuvat paremmin, myös jännittäessään. Todennäköisesti tämä koskee myös savikiekkoammuntaa. Lisää: {{lesson:mind-routine-under-pressure}}.",
+  "training-for-competition-order": "Vaiheiden tekeminen joka kerta samassa järjestyksessä näyttää olevan tärkeämpää kuin täsmälleen saman sekuntimäärän käyttäminen. Se sopii savikiekkoammuntaan, koska aika komennon ja kiekon lähdön välillä voi vaihdella kiekosta toiseen. {{tm:sporting}}-lajissa kiekon laukaisee ihminen, samoin {{tm:compak}}-lajissa manuaalisella laukaisulla. Säännöt asettavat tälle viiveelle vain ylärajan. Vain {{term:sonopull|mikrofonilähtö}} {{tm:compak}}-lajissa, laite, joka laukaisee kiekon kuultuaan komennon, pitää viiveen vakiona. Tarkat ajat ovat alla.",
+  "training-for-competition-p4": {
+   "sporting": "Ennen {{term:call|komentoa}} asetta ei ole nostettu. {{term:stock|Tukin}} kanta, perän yläkulma, joka tulee olkapäähän, koskettaa vartaloa. Tukin yläreuna pysyy {{term:jacket-line|liivin merkkiviivan}} alapuolella. Se on viiva, joka merkitään liiviin tai takkiin {{fact:rules.sporting-jacket-line}}; olkapääakseli on kuviteltu vaakasuora viiva molempien olkapäiden kautta. Tätä {{term:ready-position|valmiusasentoa}} (ase alhaalla, valmiina nostoon) pidetään, kunnes kiekko lähtee ja näet sen ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+   "compak": "Aseen asento komennon aikaan on vapaa: nostettuna tai ei. Joka kiekko ammutaan ase olkapäällä. Liivin merkkiviivaa ei ole ({{rule:compak:ch17-gun-position}})."
+  },
+  "training-for-competition-train-start": "Harjoittele sitä, miten laukaus alkaa lajissasi: aseen asento, komento ja odotus, kunnes kiekko lähtee.",
+  "training-for-competition-p5": {
+   "sporting": "Sinulla on {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Komennon jälkeen tuomari antaa merkin {{term:trapper|operaattorille}} — henkilölle, joka laukaisee kiekot. Kiekko lähtee {{fact:rules.release-within-3s}} tuomarin merkistä ({{rule:sporting:ch5-call-and-release}}).",
+   "compak": "Sinulla on {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Kiekko lähtee {{fact:rules.release-within-3s}} komennosta manuaalisella laukaisulla, tai {{fact:rules.sonopull-delay}} sen jälkeen {{term:sonopull|mikrofonilähdöllä}} (äänilähdöllä) ({{rule:compak:ch2-trigger-manual}})."
+  },
+  "training-for-competition-time-it": "Ajasta rutiinisi harjoituksissa: sen pitää mahtua {{term:firing-time|aikarajaan}} kiirehtimättä. Jos kiekot laukaistaan käsin, pyydä operaattoria vaihtelemaan viivettä hieman, jotta opit pysymään valmiina odottaessasi. Lisää säännöistä: {{lesson:rules-call-and-time}}.",
+  "training-for-competition-pressure": "Lisää lievää painetta vaiheittain: tulos, joka merkitsee, joku katsomassa, pieni panos. Painetta koskevat tutkimukset viittaavat siihen, että lievän paineen alla harjoittelevat säilyttävät taitonsa paremmin, kun paine on todellinen. Tutkimukset ovat muista urheilulajeista ja tehtävistä, niin todennäköisesti tämä koskee myös savikiekkoammuntaa.",
+  "training-for-competition-pressure-steps": [
+   "Viisi peräkkäin: valitse yksi kiekko ja pysy sen kanssa, kunnes rikot viisi peräkkäin; ohilaukaus aloittaa laskennan alusta.",
+   "Koekierros: täysi kierros tuloksella, luettelon järjestyksessä, ilman toistettuja kiekkoja ja lajisi aikarajalla.",
+   "Yleisö: pyydä kaveria katsomaan, toimimaan tuomarina ja ilmoittamaan tuloksen ääneen.",
+   "Pieni panos: ystävällinen ottelu, jossa esimerkiksi häviäjä ostaa kahvit.",
+   "Harjoitus{{term:shoot-off|uusintakierros}}. Uusintakierros on lisäammunta, joka ratkaisee tasatilanteen. Raundin jälkeen, lyhyellä varoitusajalla, ammu vielä yksi täysi kierros ja halutessasi {{term:sudden-death|sudden death}} -sarja, joka päättyy ensimmäiseen ohilaukaukseen."
+  ],
+  "training-for-competition-shoot-off": "Oikea uusintakierros järjestetään vain kolmen kärkisijan ratkaisemiseksi. Molemmissa lajeissa se on 25 kiekkoa, ja jos ampujat ovat yhä tasan, sudden death: ensimmäinen, joka osuu ohi, pudotetaan ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
+  "training-for-competition-fit-in": "Miten sovittaa tämä tavalliseen harjoitukseen. Moni valmentaja pitää teknisen työn harjoituksen alkupuolella ja lisää yhden painetehtävän loppua kohti, kerran tai kahdesti viikossa. Kun opettelet uutta liikettä, jätä paine pois, kunnes liike tuntuu vakiintuneelta. Jos tekniikka hajoaa, helpota tehtävää sen sijaan että jatkaisit väkisin.",
+  "training-for-competition-no-new-kit": "Kilpailu on huono paikka kokeiluille. Testaa uusi {{term:choke|supistaja}}, patruuna tai linssi ensin harjoituksissa.",
+  "training-for-competition-p6": "Sovi suunnitelmasta etukäteen. {{term:coaching|Valmentaminen}}, kilpailijalle annettu neuvo kilpailun aikana, on kiellettyä molemmissa lajeissa. Jos {{term:referee|tuomari}} päättää, että valmentamista tapahtuu, ampuja saa {{term:yellow-card|keltaisen kortin}}, ja valmentaja poistetaan ampumisalueelta ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+  "training-for-competition-practice": {
+   "sporting": "Ennen kilpailua kukaan ei saa harjoitella kilpailun rataosuuksilla, niin harjoittele muilla ({{rule:sporting:ch15-no-practice}}).",
+   "compak": "Ennen kilpailua kilpailun lentoratoja saa harjoitella, mutta eri {{term:trajectory-setting-table|lentoratojen asetustaulukolla}}: valmiilla menulla, joka kertoo, mitkä heittimet laukaisevat kiekot joka numerolla. Niin {{term:practice|harjoituksessa}} näet samat kiekot, mutta eri yhdistelminä kuin kilpailupäivänä ({{rule:compak:ch6-practice}}). Maanosien ja maailmanmestaruuskilpailuissa virallinen harjoitus avautuu {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+  }
+ },
+ "note": {
+  "training-for-competition-n-coach": "Nosta painetta vain niin nopeasti kuin ampujan tekniikka kestää. Jos nosto tai tempo muuttuu, palaa helpompaan tehtävään. Sovi suunnitelmasta ennen kilpailua; sen aikana ei saa valmentaa.",
+  "training-for-competition-n-interpreter": "Kilpailun aikana välitä vain sen, mitä tuomari ja toimihenkilöt sanovat. Valmentajan vinkkien kääntäminen ampujalle voidaan laskea kielletyksi valmentamiseksi."
+ },
+ "phrases": {},
+ "key_points": {
+  "training-for-competition-kp1": "Pidä osa harjoituksista kilpailuna: täydet kierrokset, tulos ja ei toistettuja kiekkoja",
+  "training-for-competition-kp2": "Sama rutiini joka kiekolla, ajastettuna lajisi aikarajaan",
+  "training-for-competition-kp3": "{{tm:sporting}}: ase alhaalla, tukki liivin merkkiviivan alapuolella, kunnes kiekko ilmestyy; {{tm:compak}}: aseen asento vapaa",
+  "training-for-competition-kp-pressure": "Lisää lievää painetta vaiheittain, kerran tai kahdesti viikossa",
+  "training-for-competition-kp5": "Ei valmentamista kilpailun aikana: sovi suunnitelmasta ennen alkua"
+ },
+ "quiz": {
+  "training-for-competition-q1": {
+   "q": "Kuinka paljon aikaa sinulla on yksittäiskiekkojen välissä {{tm:sporting}}-lajissa?",
+   "options": {
+    "a": "Enintään 15 sekuntia",
+    "b": "Enintään 60 sekuntia",
+    "c": "Niin paljon kuin tarvitaan"
+   },
+   "explain": "Rajan ylittämisestä seuraa ensin varoitus, sitten rangaistus. {{tm:compak}}-lajissa komentoon on enintään 10 sekuntia."
+  },
+  "training-for-competition-q2": {
+   "q": "Missä lajissa tukin täytyy pysyä liivin merkkiviivan alapuolella, kunnes kiekko ilmestyy?",
+   "options": {
+    "a": "Molemmissa lajeissa",
+    "b": "Vain {{tm:sporting}}-lajissa",
+    "c": "Vain {{tm:compak}}-lajissa"
+   },
+   "explain": "{{tm:compak}}-lajissa aseen asento komennon aikaan on vapaa, eikä liivin merkkiviivaa ole."
+  },
+  "training-for-competition-q-pressure": {
+   "q": "Miten tutkimusten mukaan painetta kannattaa lisätä harjoituksiin?",
+   "options": {
+    "a": "Mahdollisimman paljon jo ensimmäisestä harjoituksesta",
+    "b": "Vain viikolla ennen kilpailua",
+    "c": "Lievästi alkuun, sitten vaiheittain kasvaen"
+   },
+   "explain": "Hitaasti kasvava, lievä paine antaa tekniikan pysyä, kun siihen totutellaan."
+  },
+  "training-for-competition-q3": {
+   "q": "Saako valmentaja neuvoa ampujaa kilpailun aikana?",
+   "options": {
+    "a": "Kyllä, mutta vain ampumapaikkojen välillä",
+    "b": "Kyllä, mutta vain käsimerkein",
+    "c": "Ei: ampuja voi saada keltaisen kortin"
+   },
+   "explain": "Valmentaminen kilpailun aikana on kiellettyä molemmissa lajeissa, niin suunnitelmasta sovitaan etukäteen."
+  },
+  "training-for-competition-q-compak-time": {
+   "q": "Kuinka paljon aikaa {{tm:compak}}-lajissa on komentoon edellisen numeron laukauksen jälkeen?",
+   "options": {
+    "a": "Enintään 10 sekuntia",
+    "b": "Enintään 30 sekuntia",
+    "c": "Rajaa ei ole"
+   },
+   "explain": "Ensimmäisestä ylityksestä tulee varoitus, joka merkitään tuloskorttiin; toistuessa samalla kierroksella seuraa rangaistus."
+  }
+ },
+ "did_you_know": "Moni ampuja käyttää pieniä paikallisia kilpailuja harjoituksena: he hiovat rutiiniaan ja huomaavat, mitkä kiekot pettävät paineen alla."
+}

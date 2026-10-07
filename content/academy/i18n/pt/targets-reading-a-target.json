@@ -1,0 +1,85 @@
+{
+  "id": "targets-reading-a-target",
+  "lang": "pt",
+  "base_rev": 3,
+  "h": {
+    "title": "c58ee91b",
+    "summary": "08a6882a",
+    "targets-reading-a-target-p1": "73f7f627",
+    "targets-reading-a-target-p2": "46d7b9fe",
+    "targets-reading-a-target-p3": "b1333ac7",
+    "targets-reading-a-target-points": "77c58330",
+    "targets-reading-a-target-p4": "5f61914c",
+    "targets-reading-a-target-p5": "2d04761d",
+    "targets-reading-a-target-mock": "af5065d8",
+    "targets-reading-a-target-p6": "c0465e01",
+    "targets-reading-a-target-kp1": "f556dd7a",
+    "targets-reading-a-target-kp2": "640ea1f0",
+    "targets-reading-a-target-kp3": "0d490d3c",
+    "targets-reading-a-target-kp4": "8050f3c2",
+    "targets-reading-a-target-kp5": "4bc4579e",
+    "targets-reading-a-target-q1": "f67e3bfa",
+    "targets-reading-a-target-q2": "07ba1296",
+    "targets-reading-a-target-q3": "a8d476d2",
+    "targets-reading-a-target-dyk": "10d8c94e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Como «ler» um prato",
+  "summary": "O que observar durante a mostra de pratos: onde o prato aparece, para onde vai, onde o vai partir e o que não deve fazer.",
+  "body": {
+    "targets-reading-a-target-p1": "«Ler» um prato significa compreender, antes de atirar, como ele voa: onde aparece, a que velocidade se move, onde vira, sobe ou desce. Os atiradores experientes fazem isto em cada posto, e é muitas vezes o que separa um acerto de uma falha. Interessa tanto no {{tm:sporting}} como no {{tm:compak}}.",
+    "targets-reading-a-target-p2": "Comece pelo {{term:target-menu|menu}}: que máquinas, por que ordem, e se há pratos especiais. Depois observe com atenção a {{term:target-presentation|mostra de pratos}}. No {{tm:sporting}}, os pratos de um posto são mostrados antes de atirar ao primeiro atirador da esquadra. Os doubles ao tiro não são mostrados. O {{tm:compak}} tem a sua própria forma de mostrar os pratos. Os detalhes estão na lição {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Faça a si mesmo perguntas simples. Onde vejo o prato claramente pela primeira vez? Esse é o seu {{term:pick-up-point|ponto de visão}}, onde os seus olhos começam a segui-lo. Onde é mais fácil parti-lo? Esse é o seu {{term:break-point|ponto de tiro}}. Aí o prato ainda deve estar bem visível, sem cair atrás de árvores nem voar para lá de um {{term:shooting-limit|limite da zona de tiro}}.",
+    "targets-reading-a-target-points": "Como o {{term:hold-point|ponto de espera da arma}}, o ponto de visão e o ponto de tiro trabalham juntos é explicado na lição {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p4": "Observe a velocidade, a distância e o ângulo, e o que o prato está a fazer: a subir, a abrandar ou a cair. O vento pode levantar um prato ou empurrá-lo para baixo, e uma linha de árvores escura ou um céu claro muda a forma como o vê. Um prato que está a abrandar precisa de menos {{term:lead|avanço}} do que um a plena velocidade.",
+    "targets-reading-a-target-p5": "Veja como os outros atiram, mas pense por si: cada atirador tem o seu próprio ritmo. Durante a mostra de pratos, muitos treinadores sugerem segui-los apenas com os olhos.",
+    "targets-reading-a-target-mock": {
+      "sporting": "Não é permitido em nenhum local do campo. Na primeira vez, o árbitro dá um aviso. Se repetir, o seu próximo prato acertado é marcado como falha (zero).",
+      "compak": "Não é permitido fora dos postos de tiro, nem enquanto outro membro da esquadra está a atirar. Durante a mostra de pratos, a arma está aberta e descarregada."
+    },
+    "targets-reading-a-target-p6": "As trajetórias do {{tm:sporting}} são graduadas por {{term:difficulty-class|classe de dificuldade}}: {{fact:targets.sporting-difficulty-classes}}. Não se preocupe se falhar um prato de classe C: é para ser difícil. Ler os pratos aprende-se mais facilmente com um treinador qualificado, que lhe mostra onde olhar."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "targets-reading-a-target-kp1": "Primeiro o menu, depois observe com atenção a mostra de pratos.",
+    "targets-reading-a-target-kp2": "Encontre onde vê o prato claramente pela primeira vez e onde o vai partir.",
+    "targets-reading-a-target-kp3": "Observe a velocidade, o ângulo, o vento, o fundo e se o prato está a abrandar.",
+    "targets-reading-a-target-kp4": "Siga apenas com os olhos; no {{tm:sporting}} o simulacro de tiro é proibido em qualquer parte do campo, no {{tm:compak}} fora dos postos e enquanto outro atirador dispara.",
+    "targets-reading-a-target-kp5": "Classes de dificuldade do {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
+  },
+  "did_you_know": "No {{tm:sporting}} os doubles ao tiro não são mostrados, mas já viu os dois pratos: os doubles são sempre feitos de pratos já mostrados como simples no mesmo posto.",
+  "quiz": {
+    "targets-reading-a-target-q1": {
+      "q": "O que é o ponto de tiro (break point)?",
+      "options": {
+        "a": "O local onde planeia partir o prato",
+        "b": "O local onde está a máquina que o lança",
+        "c": "O local onde o prato cai no chão"
+      },
+      "explain": "O ponto de tiro (break point) é o ponto da trajetória que escolhe de antemão."
+    },
+    "targets-reading-a-target-q2": {
+      "q": "No {{tm:sporting}}, durante a mostra de pratos, pode pôr a arma à cara e segui-la ao longo da linha do prato?",
+      "options": {
+        "a": "Sim, é uma boa preparação",
+        "b": "Não, isso é simulacro de tiro",
+        "c": "Sim, se a arma estiver descarregada"
+      },
+      "explain": "Siga apenas com os olhos. Ninguém pode disparar nem simular disparar durante a mostra de pratos, e as armas ficam abertas e descarregadas até o árbitro autorizar que se fechem."
+    },
+    "targets-reading-a-target-q3": {
+      "q": "Que percentagem de pratos de classe C parte um atirador médio no {{tm:sporting}}?",
+      "options": {
+        "a": "Mais de 80%",
+        "b": "De 60 a 80%",
+        "c": "De 40 a 60%"
+      },
+      "explain": "A classe C é a mais difícil: 40–60%. A classe A é mais de 80%, a classe B 60–80%."
+    }
+  }
+}

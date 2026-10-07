@@ -1,0 +1,110 @@
+{
+  "id": "mind-reset-after-miss",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "0aa58bc4",
+    "summary": "b6784a0b",
+    "mind-reset-after-miss-p1": "d537be36",
+    "mind-reset-after-miss-steps": "e880feaf",
+    "mind-reset-after-miss-p2": "ab58d0ae",
+    "mind-reset-after-miss-p3": "c293be55",
+    "mind-reset-after-miss-p4": "70c4f1ab",
+    "mind-reset-after-miss-let-go": "8a96f33d",
+    "mind-reset-after-miss-p5": "b2471e3a",
+    "mind-reset-after-miss-compare": "9e64ae39",
+    "mind-reset-after-miss-p6": "259badd3",
+    "mind-reset-after-miss-p7": "10059cbc",
+    "mind-reset-after-miss-n1": "a289ec45",
+    "mind-reset-after-miss-n2": "5671b602",
+    "mind-reset-after-miss-n3": "77535d7a",
+    "mind-reset-after-miss-kp1": "fe21bda8",
+    "mind-reset-after-miss-kp2": "c681c02a",
+    "mind-reset-after-miss-kp3": "a8a2ec56",
+    "mind-reset-after-miss-kp4": "f2fc1172",
+    "mind-reset-after-miss-dyk": "fe00476a",
+    "mind-reset-after-miss-q1": "0fadb6a2",
+    "mind-reset-after-miss-q2": "bd9d7b39",
+    "mind-reset-after-miss-q3": "4434c585",
+    "mind-reset-after-miss-q4": "f626c67f"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Restart po minutí",
+  "summary": "Krátká rutina pro vteřiny po minutém terči: pět kroků za 5–10 sekund, pak další terč. Otázka „proč“ čeká až do konce položky.",
+  "body": {
+    "mind-reset-after-miss-p1": "Minutí terče je u konce ve chvíli výstřelu; změnit se dá jen další terč. Krátký, pevný {{term:reset-routine|restart}} pomáhá minutí zanechat za sebou a začít další rutinu.",
+    "mind-reset-after-miss-steps": [
+      "Zbraň v bezpečí: zacházejte s ní podle pravidel, hlavně v bezpečném směru.",
+      "Jeden pomalý výdech.",
+      "Jedna oprava ve dvou až třech slovech, například „drž linii“.",
+      "Rychlý obraz správného výstřelu v hlavě.",
+      "Vaše další {{term:pre-shot-routine|předstřelecká rutina}}."
+    ],
+    "mind-reset-after-miss-p2": "Restart se musí vejít do časového limitu. Ve {{tm:sporting}} máte {{fact:rules.sporting-time-between-targets}}. V {{tm:compak}} máte {{fact:rules.compak-time-to-call}}.",
+    "mind-reset-after-miss-p3": "Otázku „proč“ si nechte až po položce. Krokový rozbor dovednosti pod tlakem ji může narušit, takže na stanovišti se držte jedné krátké opravy.",
+    "mind-reset-after-miss-p4": "Ve {{tm:sporting}} vás pravidla žádají, abyste si zkontrolovali výsledek v kartě, až odejdete ze stanoviště ({{rule:sporting:ch16-results-check}}).",
+    "mind-reset-after-miss-let-go": "Jakmile znáte výsledek stanoviště, pusťte ho: to stanoviště je uzavřené a vaše pozornost patří dalšímu.",
+    "mind-reset-after-miss-p5": "Stejný restart funguje i po rozhodnutí rozhodčího, které se vám nelíbí. Pokud nesouhlasíte, podejte {{term:protest|protest}} hned a správným způsobem, a jakmile je rozhodnutí konečné, pusťte ho. Víc v lekci {{lesson:rules-cards-and-appeals}}.",
+    "mind-reset-after-miss-compare": {
+      "sporting": "Protestujte hned, na stanovišti: zvedněte ruku a řekněte „appeal“ nebo „protest“ ({{rule:sporting:ch9-how-to-appeal}}). Po konečném rozhodnutí musíte pokračovat ve střelbě {{fact:rules.sporting-resume-after-ruling}} ({{rule:sporting:ch10-resume-15s}}).",
+      "compak": "Protestujte hned, ještě před zavoláním dalšího střelce: zvedněte paži a řekněte „protest“ nebo „appeal“ ({{rule:compak:ch19-protest}}). Po konečném rozhodnutí musíte pokračovat {{fact:rules.compak-resume-after-ruling}} ({{rule:compak:ch21-refusal-to-comply}})."
+    },
+    "mind-reset-after-miss-p6": "Pokud se hádáte i po konečném rozhodnutí, počítá se to jako {{term:attempt-to-influence|pokus o ovlivnění}} rozhodčího a může se za to trestat ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "mind-reset-after-miss-p7": "Špatné stanoviště ještě neznamená špatný den. Někteří střelci ztrácejí body na začátku kvůli nervozitě a pak, jakmile se uklidní, střílí dobře; trenéři často radí hodnotit den až na konci, ne po jednom stanovišti."
+  },
+  "note": {
+    "mind-reset-after-miss-n1": "Když vaše dítě mine terč, zůstaňte klidní a tiší vedle. Klidná tvář pomáhá víc než rada, a rada ze zákulisí stanoviště se může počítat jako koučování.",
+    "mind-reset-after-miss-n2": "Po minutí nepřekládejte komentáře ani rozbor, pokud o to střelec nepoprosí. Během závodu předávejte jen rozhodnutí rozhodčího a oficiální sdělení.",
+    "mind-reset-after-miss-n3": "Na tréninku restart cvičte vědomě: po minutém terči požádejte střelce, ať řekne pět kroků nahlas, a pak je udělá mlčky."
+  },
+  "phrases": {},
+  "key_points": {
+    "mind-reset-after-miss-kp1": "Restart za 5–10 sekund: zbraň v bezpečí, výdech, jedna oprava, jeden obraz, další rutina.",
+    "mind-reset-after-miss-kp2": "„Proč“ se ptejte po položce, ne na stanovišti.",
+    "mind-reset-after-miss-kp3": "Po rozhodnutí rozhodčího: protest hned a správně, pak pusťte.",
+    "mind-reset-after-miss-kp4": "Špatné stanoviště ještě neznamená špatný den."
+  },
+  "did_you_know": "Ve studii s hráči bowlingu krátká rutina po každém hodu také pomáhala, a hráči cítili, že chrání jejich soustředění.",
+  "quiz": {
+    "mind-reset-after-miss-q1": {
+      "q": "Jaký je první krok restartu po minutí?",
+      "options": {
+        "a": "Zjistit přesně, proč jste minuli",
+        "b": "Spočítat si výsledek dosavadní položky",
+        "c": "Zajistit bezpečnost zbraně podle pravidel"
+      },
+      "explain": "Nejdřív bezpečnost; potom jeden výdech, jedna oprava, jeden obraz a další rutina."
+    },
+    "mind-reset-after-miss-q2": {
+      "q": "Kdy je dobrý čas rozebrat, proč jste minuli?",
+      "options": {
+        "a": "Po položce",
+        "b": "Před dalším zavoláním",
+        "c": "Během dalšího předvedení"
+      },
+      "explain": "Krokový rozbor na stanovišti může střelbu narušit; tam stačí jedna krátká oprava."
+    },
+    "mind-reset-after-miss-q3": {
+      "q": "Nesouhlasíte s rozhodnutím rozhodčího „zero“. Co udělat?",
+      "options": {
+        "a": "Hádat se, dokud rozhodčí nesouhlasí",
+        "b": "Hned podat protest, pak to pustit",
+        "c": "Stěžovat si skupině po položce"
+      },
+      "explain": "Protest podejte hned a správně; jakmile je rozhodnutí konečné, další hádání se počítá jako pokus o ovlivnění rozhodčího."
+    },
+    "mind-reset-after-miss-q4": {
+      "q": "Jak dlouho může trvat restart po minutí?",
+      "options": {
+        "a": "Zhruba 5–10 sekund, v rámci limitu",
+        "b": "Tak dlouho, jak potřebujete, abyste se znovu zklidnili",
+        "c": "Dokud vás rozhodčí nepožádá o výstřel"
+      },
+      "explain": "Krátký restart kolem 5–10 sekund se vejde do časových limitů obou disciplín."
+    }
+  }
+}

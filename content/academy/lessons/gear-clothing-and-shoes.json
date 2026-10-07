@@ -1,0 +1,419 @@
+{
+  "id": "gear-clothing-and-shoes",
+  "rev": 1,
+  "status": "review",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "GP or sports-medicine doctor (heat, sun and cold paragraphs)",
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gear-clothing-and-shoes"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "dress-code",
+    "stance",
+    "layout",
+    "shooting-cap",
+    "shooting-gloves",
+    "shooting-vest",
+    "trigger"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch17-dress-code"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-dress-code"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-ceremonies"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-ceremonies"
+    }
+  ],
+  "facts": [
+    "rules.dress-shorts-length"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NHS — Heat exhaustion and heatstroke: signs and what to do",
+        "uk": "NHS — теплове виснаження й тепловий удар: ознаки й що робити"
+      },
+      "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Clothing and shoes for the weather",
+    "uk": "Одяг і взуття за погодою"
+  },
+  "summary": {
+    "en": "How to dress for the ground in sun, heat, cold and rain, which shoes you need on a course and what the dress code of {{tm:sporting}} and {{tm:compak}} says.",
+    "uk": "Як вдягатися на стенд у сонце, спеку, холод і дощ, яке взуття потрібне на маршруті та що каже дрес-код {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "gear-clothing-and-shoes-p1",
+      "t": "p",
+      "en": "You spend several hours outdoors at a ground, and in {{tm:sporting}} you also walk a course through woods and fields. So your clothes must be comfortable and right for the weather, and above all they must not get in the way of the mount.",
+      "uk": "На стенді ви проводите кілька годин надворі, а в {{tm:sporting}} ще й ходите маршрутом через ліс і поле. Тож одяг має бути зручним і за погодою, а головне — не заважати вкладати рушницю."
+    },
+    {
+      "k": "gear-clothing-and-shoes-p2",
+      "t": "p",
+      "en": "The main rule is layers: a thin base T-shirt, a light jumper or fleece over it, the {{term:shooting-vest|vest}} on top and, in rain, a light waterproof jacket. You can take layers off and put them back on during the day. Bulky collars, hoods and thick jackets can catch the stock, so check your mount in what you are wearing.",
+      "uk": "Головне правило — шари: тонка базова футболка, поверх легкий светр або фліс, зверху {{term:shooting-vest|жилет}}, а в дощ — легка непромокна куртка. Шари можна знімати й додавати протягом дня. Об’ємні коміри, каптури й товсті куртки можуть зачіпати приклад, тож перевірте вкладку в тому, що вдягнули."
+    },
+    {
+      "k": "gear-clothing-and-shoes-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "The {{term:dress-code|dress code}} is the same for everyone in {{tm:sporting}} and {{tm:compak}}. Short shorts are banned; only long shorts are allowed, ending {{fact:rules.dress-shorts-length}}. Tops need at least short sleeves and a collar or a round neck, so sleeveless tops do not work in competition. A vest may not be worn over a bare chest. Details: {{lesson:rules-dress-and-safety}}.",
+      "uk": "{{term:dress-code|Дрес-код}} у {{tm:sporting}} і {{tm:compak}} однаковий для всіх. Короткі шорти заборонені; дозволено лише довгі шорти, що закінчуються {{fact:rules.dress-shorts-length}}. Верх — щонайменше з короткими рукавами й коміром або круглим вирізом, тож майки без рукавів на змаганнях не підходять. Жилет на голе тіло вдягати не можна. Докладніше: {{lesson:rules-dress-and-safety}}."
+    },
+    {
+      "k": "gear-clothing-and-shoes-p4",
+      "t": "p",
+      "disc": "both",
+      "en": "Shoes must be closed, with a good grip. Sandals are banned for safety reasons, in {{tm:compak}} even in practice. On a {{tm:sporting}} course you meet wet grass, mud and slopes, so trail shoes or light boots work well. Shoes must hold your feet steady, because a steady {{term:stance|stance}} helps each shot.",
+      "uk": "Взуття — закрите, з добрим протектором. Сандалі заборонені з міркувань безпеки, а в {{tm:compak}} — навіть на тренуванні. На маршруті {{tm:sporting}} трапляються мокра трава, глина й схили, тож підійдуть трекінгові кросівки або легкі черевики. Взуття має стійко тримати ногу, бо від надійної {{term:stance|стійки}} залежить кожен постріл."
+    },
+    {
+      "k": "women-clothing-community-start-p3",
+      "t": "tip",
+      "en": "A few practical points: tie long hair back, so that it does not get between your cheek and the stock. Long earrings and necklaces can also get in the way of the mount.",
+      "uk": "Кілька практичних порад: довге волосся краще зібрати, щоб воно не потрапляло між щокою і прикладом. Довгі сережки й прикраси на шиї теж можуть заважати вкладці."
+    },
+    {
+      "k": "health-alcohol-medication-weather-p4",
+      "t": "p",
+      "en": "Sun: you may stand in the sun all day. A {{term:shooting-cap|cap}} or hat with a peak protects your head and cuts glare, and sunscreen protects the skin of your face, neck and arms. Drink water regularly and find shade between rounds.",
+      "uk": "Сонце: на стенді можна простояти під сонцем увесь день. {{term:shooting-cap|Кепка}} чи капелюх із козирком захищає голову й прибирає відблиски, а сонцезахисний крем — шкіру обличчя, шиї й рук. Пийте воду регулярно й шукайте тінь між раундами."
+    },
+    {
+      "k": "health-alcohol-medication-weather-p5",
+      "t": "warn",
+      "en": "Heat: tiredness, dizziness, headache, feeling sick or heavy sweating can be signs of heat exhaustion. Stop shooting, move to a cool, shady place, drink water, cool your skin and tell someone nearby. If there is no improvement within about 30 minutes, or the person becomes confused, call emergency help.",
+      "uk": "Спека: утома, запаморочення, головний біль, нудота чи сильне потіння можуть бути ознаками теплового виснаження. Припиніть стрільбу, перейдіть у прохолодне затінене місце, пийте воду, охолодіть шкіру й скажіть комусь поруч. Якщо за приблизно 30 хвилин не стає краще або людина плутається у свідомості, викликайте швидку допомогу."
+    },
+    {
+      "k": "health-alcohol-medication-weather-p6",
+      "t": "p",
+      "en": "Cold, rain and wind: dress in layers and bring a rain jacket and spare thin {{term:shooting-gloves|gloves}}. Cold fingers feel the {{term:trigger|trigger}} less well, so warm your hands between rounds. A peaked cap keeps rain off your glasses. What to do in a thunderstorm: {{lesson:safety-core-rules}}.",
+      "uk": "Холод, дощ і вітер: одягайтеся шарами, візьміть дощовик і запасні тонкі {{term:shooting-gloves|рукавички}}. Холодні пальці гірше відчувають {{term:trigger|спуск}}, тож зігрівайте руки між раундами. Кепка з козирком захищає окуляри від дощу. Що робити під час грози: {{lesson:safety-core-rules}}."
+    },
+    {
+      "k": "gear-clothing-and-shoes-p6",
+      "t": "p",
+      "en": "Both rulebooks also set dress for ceremonies. In the opening parade, members of national teams wear the team outfit or smart trousers and a blazer, and prize winners must come to the prize-giving dressed the same way. If you may reach the podium, pack smart trousers and a blazer and check the competition programme. More: {{lesson:culture-traditions}}.",
+      "uk": "Обидва регламенти визначають і одяг для церемоній. На параді відкриття члени національних команд вдягають форму збірної або охайні штани й блейзер, а призери мусять прийти на нагородження так само вбраними. Якщо можете потрапити на п’єдестал, візьміть охайні штани й блейзер і перегляньте програму змагання. Докладніше: {{lesson:culture-traditions}}.",
+      "disc": "both"
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gear-clothing-and-shoes-kp1",
+      "en": "Dress in layers and check that your clothing does not hamper the mount.",
+      "uk": "Одягайтеся шарами й перевіряйте, чи не заважає одяг вкладці."
+    },
+    {
+      "k": "women-clothing-community-start-kp2",
+      "en": "The dress code is the same for all: long shorts ending {{fact:rules.dress-shorts-length}}, sleeves, no sandals.",
+      "uk": "Дрес-код однаковий для всіх: довгі шорти, що закінчуються {{fact:rules.dress-shorts-length}}, рукави, без сандалій.",
+      "checklist": true
+    },
+    {
+      "k": "gear-clothing-and-shoes-kp4",
+      "en": "Closed shoes with a good grip; sandals are banned.",
+      "uk": "Взуття закрите, з добрим протектором; сандалі заборонені."
+    },
+    {
+      "k": "women-clothing-community-start-kp3",
+      "en": "Hair tied back and few accessories near the face.",
+      "uk": "Зібране волосся й мінімум прикрас біля обличчя."
+    },
+    {
+      "k": "health-alcohol-medication-weather-kp4",
+      "en": "Cap, sunscreen, water and shade against sun and heat.",
+      "uk": "Кепка, крем, вода й тінь — проти сонця й спеки.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "gear-clothing-and-shoes-dyk",
+    "en": "Many shooters carry spare socks and a T-shirt: after a wet course a dry change can give a real lift for the last rounds.",
+    "uk": "Багато стрільців возять запасні шкарпетки й футболку: після мокрого маршруту суха зміна може помітно додати сил на останні раунди."
+  },
+  "quiz": [
+    {
+      "k": "gear-clothing-and-shoes-q1",
+      "disc": "both",
+      "q": {
+        "en": "Which shorts does the FITASC dress code allow?",
+        "uk": "Які шорти дозволяє дрес-код FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Any shorts, as long as they are dark",
+          "uk": "Будь-які шорти, аби темні"
+        },
+        {
+          "k": "b",
+          "en": "Long ones, ending 5 cm or less above the knee",
+          "uk": "Довгі, що закінчуються не вище ніж на 5 см над коліном"
+        },
+        {
+          "k": "c",
+          "en": "No shorts of any kind are allowed",
+          "uk": "Шорти взагалі заборонені"
+        },
+        {
+          "k": "d",
+          "en": "Only shorts made of sports fabric",
+          "uk": "Лише шорти зі спортивної тканини"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Only long, Bermuda-type shorts are allowed, in both disciplines.",
+        "uk": "В обох дисциплінах дозволені лише довгі шорти типу бермуд."
+      },
+      "rule_ref": "sporting:ch17-dress-code"
+    },
+    {
+      "k": "gear-clothing-and-shoes-q2",
+      "disc": "both",
+      "q": {
+        "en": "Why are sandals banned?",
+        "uk": "Чому сандалі заборонені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "For safety reasons",
+          "uk": "З міркувань безпеки"
+        },
+        {
+          "k": "b",
+          "en": "Because they look bad",
+          "uk": "Бо вони некрасиві"
+        },
+        {
+          "k": "c",
+          "en": "Because they are noisy",
+          "uk": "Бо вони шумлять"
+        },
+        {
+          "k": "d",
+          "en": "Because they are expensive",
+          "uk": "Бо вони дорогі"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Closed shoes protect the feet and give a steady footing.",
+        "uk": "Закрите взуття захищає ноги й дає стійку опору."
+      },
+      "rule_ref": "compak:ch7-dress-code"
+    },
+    {
+      "k": "gear-clothing-and-shoes-q3",
+      "q": {
+        "en": "What should you check after putting on a jacket or jumper?",
+        "uk": "Що варто перевірити, коли ви вдягли куртку чи светр?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Whether its colour suits the vest",
+          "uk": "Чи пасує колір до жилета"
+        },
+        {
+          "k": "b",
+          "en": "Whether it has enough pockets",
+          "uk": "Чи достатньо в ньому кишень"
+        },
+        {
+          "k": "c",
+          "en": "Whether the stock catches in the mount",
+          "uk": "Чи не чіпляється приклад під час вкладки"
+        },
+        {
+          "k": "d",
+          "en": "Whether it is in the club's colours",
+          "uk": "Чи він у кольорах клубу"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Bulky clothing can spoil the mount, and with it your shooting.",
+        "uk": "Об’ємний одяг може зіпсувати вкладку, а з нею й стрільбу."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "women-clothing-community-start-q2",
+      "q": {
+        "en": "Why is it worth tying long hair back before shooting?",
+        "uk": "Чому перед стрільбою варто зібрати довге волосся?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The dress code says so for everyone",
+          "uk": "Так вимагає дрес-код для всіх"
+        },
+        {
+          "k": "b",
+          "en": "It keeps the ear muffs warmer",
+          "uk": "Так навушникам тепліше"
+        },
+        {
+          "k": "c",
+          "en": "It can get between cheek and stock",
+          "uk": "Воно може потрапити між щокою і прикладом"
+        },
+        {
+          "k": "d",
+          "en": "It makes the targets easier to see",
+          "uk": "Так мішені краще видно"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Hair between the cheek and the stock changes where the face sits on the comb.",
+        "uk": "Волосся між щокою і прикладом змінює те, як обличчя лягає на гребінь."
+      }
+    },
+    {
+      "k": "gear-clothing-and-shoes-q4",
+      "q": {
+        "en": "On a hot day you feel dizzy and sick. What do you do first?",
+        "uk": "У спекотний день у вас паморочиться в голові й нудить. Що робити спершу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Finish the round first, then rest",
+          "uk": "Спершу дострілити раунд, потім відпочити"
+        },
+        {
+          "k": "b",
+          "en": "Stop, find shade, drink, tell someone",
+          "uk": "Зупинитися, перейти в тінь, пити воду, сказати комусь"
+        },
+        {
+          "k": "c",
+          "en": "Drink a strong coffee and go on",
+          "uk": "Випити міцної кави й продовжити"
+        },
+        {
+          "k": "d",
+          "en": "Put on a warm jacket so you sweat",
+          "uk": "Вдягти теплу куртку, щоб пропітніти"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "These can be signs of heat exhaustion: stop, cool down, drink and tell someone; call for help if it does not get better.",
+        "uk": "Це можуть бути ознаки теплового виснаження: зупиніться, охолодіться, пийте й скажіть комусь; якщо не краще — кличте допомогу."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "health-alcohol-medication-weather-p5",
+      "level": "strong",
+      "sources": [
+        "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/"
+      ]
+    },
+    {
+      "for": "health-alcohol-medication-weather-p4",
+      "level": "strong",
+      "sources": [
+        "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/"
+      ]
+    },
+    {
+      "for": "health-alcohol-medication-weather-p6",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "94c5d584",
+    "summary": "5dbd4c2a",
+    "gear-clothing-and-shoes-p1": "d6eef503",
+    "gear-clothing-and-shoes-p2": "5a819a92",
+    "gear-clothing-and-shoes-p3": "9c351cad",
+    "gear-clothing-and-shoes-p4": "a38ddc0c",
+    "women-clothing-community-start-p3": "46a88ebd",
+    "health-alcohol-medication-weather-p4": "063da8f9",
+    "health-alcohol-medication-weather-p5": "bdf9ed2c",
+    "health-alcohol-medication-weather-p6": "d770ef75",
+    "gear-clothing-and-shoes-p6": "4ca581fe",
+    "gear-clothing-and-shoes-kp1": "aab844b5",
+    "women-clothing-community-start-kp2": "31fbb766",
+    "gear-clothing-and-shoes-kp4": "6b38b1cf",
+    "women-clothing-community-start-kp3": "911ea056",
+    "health-alcohol-medication-weather-kp4": "c7b96041",
+    "gear-clothing-and-shoes-dyk": "a3eebd90",
+    "gear-clothing-and-shoes-q1": "1f74c93c",
+    "gear-clothing-and-shoes-q2": "18493739",
+    "gear-clothing-and-shoes-q3": "0dda790f",
+    "women-clothing-community-start-q2": "54b504cb",
+    "gear-clothing-and-shoes-q4": "13059b2a"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Glossary: the term heat-exhaustion (moved in with health-alcohol-medication-weather-p5) is not in the glossary yet. When it is added, link \"heat exhaustion\" / «теплового виснаження» there. Proposed entry: en \"Heat exhaustion\" — Overheating of the body with tiredness, dizziness, headache or nausea; it needs shade, water, cooling and rest. uk «Теплове виснаження» — Перегрів організму з утомою, запамороченням, головним болем чи нудотою; потрібні тінь, вода, охолодження й відпочинок."
+    ]
+  }
+}

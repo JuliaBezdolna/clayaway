@@ -1,0 +1,328 @@
+{
+  "id": "intro-shooting-ground",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent",
+    "fan"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "intro-shooting-ground"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "range",
+    "gun-rack",
+    "layout",
+    "shooting-stand",
+    "target-menu",
+    "trap",
+    "tower",
+    "firing-angle-limiter",
+    "standard-target",
+    "midi",
+    "mini",
+    "battue",
+    "rabbit",
+    "flash-target"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-layout"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-shooting-stands"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-target-menu"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-shooting-positions"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trap-placement"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-fal"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-targets"
+    }
+  ],
+  "facts": [
+    "basics.sporting-stand-size",
+    "basics.compak-field",
+    "rules.round-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What a shooting ground looks like",
+    "uk": "Як виглядає стенд"
+  },
+  "summary": {
+    "en": "The clubhouse, the {{tm:sporting}} layouts, the {{tm:compak}} field and the traps: what you will see on your first visit.",
+    "uk": "Клубний будинок, майданчики {{tm:sporting}}, поле {{tm:compak}} і машинки: що ви побачите, коли вперше приїдете на стенд."
+  },
+  "body": [
+    {
+      "k": "intro-shooting-ground-p1",
+      "t": "p",
+      "en": "A {{term:range|shooting ground}}, often just called “the ground”, usually has a clubhouse with registration, a café and {{term:gun-rack|gun racks}}, practice fields and the courses used for competitions.",
+      "uk": "{{term:range|Стрільбище}} (shooting ground), яке в побуті часто називають просто «стенд», зазвичай має клубний будинок із реєстрацією, кафе і {{term:gun-rack|стійками для рушниць}}, тренувальні поля та маршрути для змагань."
+    },
+    {
+      "k": "intro-shooting-ground-p2",
+      "t": "p",
+      "disc": "sporting",
+      "en": "For {{tm:sporting}} the ground is divided into {{term:layout|layouts}}: groups of {{term:shooting-stand|shooting stands}} from which one round of {{fact:rules.round-targets}} is shot. Traps are often hidden behind bushes or in ditches, or set on towers. Targets then fly the way game (the birds and hares that hunters shoot) would: over a field, out of trees, over water. How a layout and a round work: {{lesson:targets-sporting-layout}}.",
+      "uk": "Для {{tm:sporting}} місцевість ділять на {{term:layout|майданчики}} (layout) — групи {{term:shooting-stand|стрілецьких місць}}, з яких стріляють один раунд із {{fact:rules.round-targets}}. Машинки часто ховають за кущами чи в ровах або ставлять на вежі. Тоді мішені летять, як дичина: над полем, з-за дерев, над водою. Як влаштовані майданчик і раунд: {{lesson:targets-sporting-layout}}."
+    },
+    {
+      "k": "intro-shooting-ground-p3",
+      "t": "p",
+      "disc": "sporting",
+      "en": "A {{tm:sporting}} stand is {{fact:basics.sporting-stand-size}}. It should be level where possible and must not be slippery, because this is a safety matter. In front of the stand you will find the {{term:target-menu|target menu}}: it lists the traps in shooting order and any special targets.",
+      "uk": "Стрілецьке місце в {{tm:sporting}} — це {{fact:basics.sporting-stand-size}}. Воно має бути по змозі рівним і не слизьким, бо це питання безпеки. Перед місцем стоїть {{term:target-menu|меню мішеней}} (target menu): у ньому перелічено машинки в порядку стрільби та особливі мішені."
+    },
+    {
+      "k": "intro-shooting-ground-p4",
+      "t": "p",
+      "disc": "compak",
+      "en": "{{tm:compak}} is set up on one field with {{fact:basics.compak-field}}. Each station is 1 × 1 m, with 2–5 m between the centres of neighbouring stations. Traps can stand in front of or beside the stations; a trap behind them sits on a {{term:tower|tower}} at least 4 m high. Each station has a {{term:firing-angle-limiter|firing angle limiter}}, a frame that stops the gun swinging in an unsafe direction. More: {{lesson:targets-compak-layout}}.",
+      "uk": "{{tm:compak}} облаштовують на одному полі, де є {{fact:basics.compak-field}}. Кожен номер має розмір 1 × 1 м, а відстань між центрами сусідніх номерів — 2–5 м. Машинки можуть стояти перед номерами або збоку; машинку позаду номерів ставлять на {{term:tower|вишку}} заввишки щонайменше 4 м. На кожному номері є {{term:firing-angle-limiter|обмежувач кута стрільби}} — рамка, що не дає повернути рушницю в небезпечний бік. Докладніше: {{lesson:targets-compak-layout}}."
+    },
+    {
+      "k": "intro-shooting-ground-p5",
+      "t": "p",
+      "en": "Targets come in several types: {{term:standard-target|standard}}, {{term:midi|midi}}, {{term:mini|mini}} (also called super mini), {{term:battue|battue}} (thin and flat), {{term:rabbit|rabbit}} (it rolls along the ground) and {{term:flash-target|flash}}. A flash target leaves a bright puff of powder when hit. The colour is chosen so the target stands out against the sky or the trees.",
+      "uk": "Мішені бувають різні: {{term:standard-target|стандартна}}, {{term:midi|міді}}, {{term:mini|міні}} (її ще називають супер-міні), {{term:battue|батю}} (тонка й пласка), {{term:rabbit|кролик}} (котиться по землі) і {{term:flash-target|флеш-мішень}}. Флеш-мішень при влучанні лишає яскраву хмарку порошку. Колір обирають так, щоб мішень було добре видно на тлі неба чи дерев."
+    },
+    {
+      "k": "intro-shooting-ground-p6",
+      "t": "p",
+      "en": "On your first visit, look at the signs and markings: where you may walk, where spectators stand and where shooting is allowed. Each ground has its own rules, so ask for them before your first shot. The basic safety habits are in {{lesson:safety-core-rules}}.",
+      "uk": "Коли приїдете вперше, зверніть увагу на таблички й розмітку: де можна ходити, де стоять глядачі, де дозволено стріляти. На кожному стенді є свої правила, тож запитайте про них ще до першого пострілу. Основні звички безпеки — в уроці {{lesson:safety-core-rules}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "intro-shooting-ground-kp1",
+      "en": "A {{tm:sporting}} layout is a group of stands over natural ground.",
+      "uk": "Майданчик {{tm:sporting}} — група стрілецьких місць на природній місцевості."
+    },
+    {
+      "k": "intro-shooting-ground-kp2",
+      "en": "A {{tm:sporting}} stand is {{fact:basics.sporting-stand-size}}, level and not slippery.",
+      "uk": "Стрілецьке місце {{tm:sporting}} — {{fact:basics.sporting-stand-size}}, рівне й не слизьке."
+    },
+    {
+      "k": "intro-shooting-ground-kp3",
+      "en": "{{tm:compak}}: one field with {{fact:basics.compak-field}}, and a firing angle limiter at each station.",
+      "uk": "{{tm:compak}} — одне поле, на якому {{fact:basics.compak-field}}, і обмежувач кута стрільби на кожному номері."
+    },
+    {
+      "k": "intro-shooting-ground-kp4",
+      "en": "Read the target menu at each stand, and learn the ground rules before you shoot.",
+      "uk": "Читайте меню мішеней на кожному місці й дізнайтеся правила стенду ще до стрільби."
+    }
+  ],
+  "did_you_know": {
+    "k": "intro-shooting-ground-dyk",
+    "en": "A flash target holds bright powder, so a hit shows even from far away. Spectators love it.",
+    "uk": "Флеш-мішень містить яскравий порошок, тому влучання в неї видно навіть здалеку. Глядачам це дуже подобається."
+  },
+  "quiz": [
+    {
+      "k": "intro-shooting-ground-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "How big is a {{tm:sporting}} shooting stand?",
+        "uk": "Якого розміру стрілецьке місце в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A 1 m square or a 1 m circle",
+          "uk": "Квадрат 1 × 1 м або коло 1 м"
+        },
+        {
+          "k": "b",
+          "en": "A 3 m square with a fence",
+          "uk": "Квадрат 3 × 3 м з огорожею"
+        },
+        {
+          "k": "c",
+          "en": "Any size the club likes",
+          "uk": "Будь-якого, як вирішить клуб"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The rules set {{fact:basics.sporting-stand-size}}.",
+        "uk": "Правила визначають розмір: {{fact:basics.sporting-stand-size}}."
+      }
+    },
+    {
+      "k": "intro-shooting-ground-q2",
+      "disc": "sporting",
+      "q": {
+        "en": "What does the target menu show?",
+        "uk": "Що показує меню мішеней (target menu)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The prices in the café",
+          "uk": "Ціни в кафе"
+        },
+        {
+          "k": "b",
+          "en": "The traps in shooting order",
+          "uk": "Машинки в порядку стрільби"
+        },
+        {
+          "k": "c",
+          "en": "The scores of the squad",
+          "uk": "Результати групи"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The menu in front of the stand lists the traps in shooting order and any special targets.",
+        "uk": "Меню перед стрілецьким місцем перелічує машинки в порядку стрільби та особливі мішені."
+      }
+    },
+    {
+      "k": "intro-shooting-ground-q3",
+      "q": {
+        "en": "Which target rolls along the ground?",
+        "uk": "Яка мішень котиться по землі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Battue",
+          "uk": "Батю"
+        },
+        {
+          "k": "b",
+          "en": "Midi",
+          "uk": "Міді"
+        },
+        {
+          "k": "c",
+          "en": "Rabbit",
+          "uk": "Кролик (rabbit)"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The rabbit target rolls along the ground and bounces over bumps.",
+        "uk": "Мішень «кролик» (rabbit) котиться по землі й підстрибує на нерівностях."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "intro-shooting-ground-q-fal",
+      "disc": "compak",
+      "q": {
+        "en": "What is the frame at each {{tm:compak}} station for?",
+        "uk": "Навіщо рамка на кожному номері {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It holds the target menu",
+          "uk": "На ній висить меню мішеней"
+        },
+        {
+          "k": "b",
+          "en": "It limits the swing of the gun",
+          "uk": "Вона обмежує рух рушниці"
+        },
+        {
+          "k": "c",
+          "en": "It marks where spectators stand",
+          "uk": "Вона позначає місце для глядачів"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The firing angle limiter stops the gun pointing in an unsafe direction and keeps the shooter inside the station.",
+        "uk": "Обмежувач кута стрільби не дає спрямувати рушницю в небезпечний бік і тримає стрільця в межах номера."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "b20666cd",
+    "summary": "6bd14e2a",
+    "intro-shooting-ground-p1": "5342d490",
+    "intro-shooting-ground-p2": "9e155a13",
+    "intro-shooting-ground-p3": "527179db",
+    "intro-shooting-ground-p4": "62bf704a",
+    "intro-shooting-ground-p5": "088fa7b4",
+    "intro-shooting-ground-p6": "4b44ec73",
+    "intro-shooting-ground-kp1": "9781dc63",
+    "intro-shooting-ground-kp2": "d96d7209",
+    "intro-shooting-ground-kp3": "a4b0be72",
+    "intro-shooting-ground-kp4": "f581af87",
+    "intro-shooting-ground-dyk": "91d2d74b",
+    "intro-shooting-ground-q1": "f5876e96",
+    "intro-shooting-ground-q2": "e656c81f",
+    "intro-shooting-ground-q3": "9394e7e4",
+    "intro-shooting-ground-q-fal": "4b082e3b"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

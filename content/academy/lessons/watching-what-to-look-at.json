@@ -1,0 +1,425 @@
+{
+  "id": "watching-what-to-look-at",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 1,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "fan",
+    "parent",
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "watch block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "watching-what-to-look-at"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "target",
+    "standard-target",
+    "midi",
+    "mini",
+    "battue",
+    "rabbit",
+    "trajectory",
+    "incomer",
+    "going-away",
+    "crosser",
+    "teal",
+    "looper",
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "squad",
+    "jacket-line",
+    "gun-mount",
+    "pre-shot-routine",
+    "hold-point",
+    "break-point",
+    "referee",
+    "zero",
+    "trap",
+    "stock",
+    "pick-up-point"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-double-on-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-simultaneous-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-rafale-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-singles-then-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-referee-alone"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-double-on-report"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-simultaneous-double"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-zero-announce"
+    }
+  ],
+  "facts": [
+    "rules.squad-max-shooters",
+    "rules.sporting-jacket-line"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What to watch: targets, doubles and the pre-shot routine",
+    "uk": "На що дивитися: мішені, дуплети і передпостріловий ритуал"
+  },
+  "summary": {
+    "en": "Learn to notice the target type, its flight line, the kind of double and the shooter's routine in {{tm:sporting}} and {{tm:compak}}, so that the shots stop looking alike.",
+    "uk": "Навчіться помічати тип мішені, її траєкторію, вид дуплета і передпостріловий ритуал стрільця в {{tm:sporting}} і {{tm:compak}} — тоді постріли перестануть здаватися однаковими."
+  },
+  "body": [
+    {
+      "k": "watching-what-to-look-at-p1",
+      "t": "p",
+      "en": "At first, all shots look alike: a target flies, a bang, pieces. An experienced spectator sees much more. In {{tm:sporting}} and {{tm:compak}} each target is a small puzzle, and it is interesting to watch how the shooter solves it.",
+      "uk": "Спершу всі постріли здаються однаковими: мішень летить, постріл, уламки. Досвідчений глядач бачить набагато більше. У {{tm:sporting}} і {{tm:compak}} кожна мішень — маленька задача, і цікаво стежити, як стрілець її розв’язує."
+    },
+    {
+      "k": "watching-what-to-look-at-p2",
+      "t": "p",
+      "en": "Start with the type of {{term:target|target}}. The most common one is the {{term:standard-target|standard target}}. The {{term:midi|midi}} and the {{term:mini|mini}} are smaller and look further away than they are. A {{term:battue|battue}} is thin and flat and flies edge-on. A {{term:rabbit|rabbit}} rolls and bounces along the ground. Sizes and other types: {{lesson:targets-target-types}}.",
+      "uk": "Почніть із типу {{term:target|мішені}}. Найчастіше летить {{term:standard-target|стандартна}} мішень. {{term:midi|Міді}} й {{term:mini|міні}} менші й здаються далі, ніж є насправді. {{term:battue|Батю}} — тонка пласка мішень, що летить ребром. {{term:rabbit|Кролик}} котиться й підстрибує по землі. Розміри та інші види мішеней — в уроці {{lesson:targets-target-types}}."
+    },
+    {
+      "k": "watching-what-to-look-at-p3",
+      "t": "p",
+      "en": "Next, the {{term:trajectory|trajectory}}, the path the target follows. It may come towards the shooter ({{term:incomer|incomer}}), fly away ({{term:going-away|going away}}), cross in front ({{term:crosser|crosser}}), spring almost straight up ({{term:teal|teal}}) or fly a wide arc ({{term:looper|looper}}). Try to name the trajectory before the shot. The Practice game “Name the flight” trains exactly this.",
+      "uk": "Далі — {{term:trajectory|траєкторія}}, тобто шлях мішені. Мішень може летіти на стрільця ({{term:incomer|зустрічна мішень}}), від нього ({{term:going-away|мішень від стрільця}}), поперек поля ({{term:crosser|поперечна мішень}}), злітати майже вертикально вгору ({{term:teal|чирок}}) або пролітати широкою {{term:looper|дугою}} (looper). Спробуйте назвати траєкторію ще до пострілу. Саме це тренує гра «Назви траєкторію» в розділі «Практика»."
+    },
+    {
+      "k": "watching-what-to-look-at-directions",
+      "t": "tip",
+      "en": "Left and right are usually given from the shooter's side. If you stand facing the shooter, their “left to right” is your right to left.",
+      "uk": "Ліворуч і праворуч зазвичай визначають з боку стрільця. Якщо ви стоїте обличчям до стрільця, його «зліва направо» для вас — справа наліво."
+    },
+    {
+      "k": "watching-what-to-look-at-p4",
+      "t": "p",
+      "en": "{{term:double|Doubles}} are two targets for one call: the shooter calls once and shoots at both. Watch them separately. In a {{term:double-on-report|double on report}} the second target is launched when the shooter fires at the first. In a {{term:simultaneous-double|simultaneous double}} both targets fly out at the same moment. In a {{term:rafale-double|rafale}} two targets leave the same {{term:trap|trap}} (the machine that throws the targets) one after the other, along the same line. More in {{lesson:targets-singles-and-doubles}}.",
+      "uk": "{{term:double|Дуплет}} — це дві мішені на одну команду: стрілець один раз кличе мішень і стріляє по обох. Стежте за дуплетами окремо. У {{term:double-on-report|дуплеті на постріл}} другу мішень випускають тоді, коли стрілець стріляє по першій. В {{term:simultaneous-double|одночасному дуплеті}} обидві мішені вилітають в ту саму мить. У {{term:rafale-double|рафалі}} дві мішені вилітають з однієї {{term:trap|машинки}} одна за одною, по одній лінії. Докладніше — в уроці {{lesson:targets-singles-and-doubles}}."
+    },
+    {
+      "k": "watching-what-to-look-at-compare",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "{{term:squad|Squads}} of {{fact:rules.squad-max-shooters}} walk from stand to stand across the ground. On each stand they usually shoot the singles first, then the doubles: on report, simultaneous or rafale. The {{term:stock|stock}} is the part of the gun that goes to the shoulder. Until the target appears, its top must stay below the {{term:jacket-line|line on the vest}}, drawn {{fact:rules.sporting-jacket-line}} (an imaginary line through both shoulders). So you see the whole {{term:gun-mount|gun mount}}: the gun coming up to the shoulder and cheek.",
+        "uk": "{{term:squad|Групи}} — {{fact:rules.squad-max-shooters}} — переходять від одного стрілецького місця до іншого по всьому стенду. На кожному місці зазвичай спершу стріляють одиночні мішені, потім дуплети: на постріл, одночасні або рафаль. {{term:stock|Приклад}} — частина рушниці, яку притискають до плеча. Доки мішень не з’явиться, його верх має лишатися нижче {{term:jacket-line|лінії на жилеті}}, проведеної {{fact:rules.sporting-jacket-line}} (уявної лінії через обидва плечі). Тож добре видно всю {{term:gun-mount|вкладку}} — як рушниця піднімається до плеча і щоки."
+      },
+      "compak": {
+        "en": "A {{term:squad|squad}} of {{fact:rules.squad-max-shooters}} shoots from five stations in a line, at targets from six traps (the machines that throw the targets). The shooters take turns, five targets each; when the shooter on station 5 has finished, everyone moves one station to the right. Doubles are on report or simultaneous. When a {{tm:compak}} shooter calls for the target, the gun may already be at the shoulder or still lowered: the rules leave this free. So some shooters call with the gun already “mounted”, that is, at the shoulder.",
+        "uk": "{{term:squad|Група}} — {{fact:rules.squad-max-shooters}} — стріляє з п’яти номерів у лінію по мішенях із шести машинок. Стрільці стріляють по черзі, по п’ять мішеней кожен; коли стрілець на п’ятому номері закінчив, усі переходять на один номер праворуч. Дуплети бувають на постріл або одночасні. Під час виклику мішені в {{tm:compak}} рушниця може бути вже біля плеча або ще опущена: правила це не обмежують. Тож дехто кличе мішень уже з вкладеною рушницею, тобто з прикладом біля плеча."
+      }
+    },
+    {
+      "k": "watching-what-to-look-at-p5",
+      "t": "p",
+      "en": "Then watch the shooter's {{term:pre-shot-routine|pre-shot routine}}: the same steps in the same order before each target. Many shooters point their feet towards the {{term:break-point|break point}}, the spot where they plan to break the target. Then they point the muzzles (the front ends of the barrels) at the {{term:hold-point|hold point}}, where the gun waits for the target. Next they put their eyes on the {{term:pick-up-point|pick-up point}}, where the target is first seen clearly. Only then do they call for the target: a short word, such as “pull”, and the target is launched. The seconds may vary a little; the order stays the same.",
+      "uk": "Потім стежте за {{term:pre-shot-routine|передпостріловим ритуалом}} стрільця: ті самі кроки в тому самому порядку перед кожною мішенню. Багато стрільців ставлять ноги в бік {{term:break-point|точки пострілу}} — місця, де вони планують розбити мішень. Потім спрямовують стволи в {{term:hold-point|точку утримання}} — туди, де рушниця чекає на мішень. Далі переводять погляд на {{term:pick-up-point|точку підхоплення}} — місце, де мішень уперше видно чітко. Лише тоді стрілець кличе мішень: коротке слово, наприклад «pull», — і мішень вилітає. Секунди можуть трохи відрізнятися, а порядок лишається тим самим."
+    },
+    {
+      "k": "watching-what-to-look-at-p6",
+      "t": "p",
+      "en": "Listen to the {{term:referee|referee}} as well. Only the referee decides whether a target is hit or lost ({{term:zero|zero}}). In {{tm:compak}} the rules ask the referee to announce each zero aloud or with a sound signal. Count the score along with the referee, but keep your opinion of a call to yourself. How to behave near the stand: {{lesson:watching-at-the-ground}}.",
+      "uk": "Слухайте й {{term:referee|суддю}}. Лише суддя вирішує, влучена мішень чи втрачена ({{term:zero|«zero»}}, тобто промах). У {{tm:compak}} правила вимагають, щоб суддя оголошував кожен промах уголос або звуковим сигналом. Рахуйте результат разом із суддею, але свою думку про його рішення залишайте при собі. Як поводитися біля стрілецького місця — в уроці {{lesson:watching-at-the-ground}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "watching-what-to-look-at-kp1",
+      "en": "Tell the targets apart: standard, midi, mini, battue, rabbit.",
+      "uk": "Розрізняйте мішені: стандартна, міді, міні, батю, кролик."
+    },
+    {
+      "k": "watching-what-to-look-at-kp2",
+      "en": "Try to name the trajectory before the shot.",
+      "uk": "Пробуйте назвати траєкторію ще до пострілу."
+    },
+    {
+      "k": "watching-what-to-look-at-kp3",
+      "en": "Doubles on report and simultaneous doubles exist in both disciplines; the rafale only in {{tm:sporting}}.",
+      "uk": "Дуплети на постріл і одночасні дуплети є в обох дисциплінах, а рафаль — лише в {{tm:sporting}}."
+    },
+    {
+      "k": "watching-what-to-look-at-kp4",
+      "en": "A good routine is the same steps in the same order.",
+      "uk": "Добрий ритуал — ті самі кроки в тому самому порядку."
+    },
+    {
+      "k": "watching-what-to-look-at-kp5",
+      "en": "Only the referee decides: count along, but do not comment on a call.",
+      "uk": "Вирішує лише суддя: рахуйте разом із ним, але не коментуйте його рішень."
+    }
+  ],
+  "did_you_know": {
+    "k": "watching-what-to-look-at-dyk",
+    "en": "For part of its flight a {{term:battue|battue}} shows only its edge, a thin line that is hard to see. Then it tilts, shows its flat face and drops fast. Watch how shooters choose the moment to fire.",
+    "uk": "Частину польоту {{term:battue|батю}} видно лише ребром — тонкою лінією, яку важко розгледіти. Потім вона нахиляється, показує пласку сторону й швидко падає. Подивіться, як стрільці обирають мить для пострілу."
+  },
+  "quiz": [
+    {
+      "k": "watching-what-to-look-at-q1",
+      "q": {
+        "en": "Which target rolls and bounces along the ground?",
+        "uk": "Яка мішень котиться й підстрибує по землі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Battue",
+          "uk": "Батю"
+        },
+        {
+          "k": "b",
+          "en": "Midi",
+          "uk": "Міді"
+        },
+        {
+          "k": "c",
+          "en": "Rabbit",
+          "uk": "Кролик"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A rabbit is a thick, strong target rolled on its edge along the ground.",
+        "uk": "Кролик — товста міцна мішень, яку котять ребром по землі."
+      }
+    },
+    {
+      "k": "watching-what-to-look-at-q4",
+      "disc": "both",
+      "q": {
+        "en": "Which kind of double exists only in {{tm:sporting}}?",
+        "uk": "Який дуплет буває лише в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Double on report",
+          "uk": "Дуплет на постріл"
+        },
+        {
+          "k": "b",
+          "en": "Rafale",
+          "uk": "Рафаль"
+        },
+        {
+          "k": "c",
+          "en": "Simultaneous double",
+          "uk": "Одночасний дуплет"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A {{tm:compak}} double is on report or simultaneous; the rafale belongs to {{tm:sporting}} only.",
+        "uk": "Дуплет у {{tm:compak}} буває на постріл або одночасний; рафаль є лише в {{tm:sporting}}."
+      },
+      "rule_ref": "sporting:ch4-rafale-double"
+    },
+    {
+      "k": "watching-what-to-look-at-q5",
+      "q": {
+        "en": "What should stay the same in a good pre-shot routine?",
+        "uk": "Що має лишатися незмінним у доброму передпостріловому ритуалі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The steps and their order",
+          "uk": "Кроки та їхній порядок"
+        },
+        {
+          "k": "b",
+          "en": "The exact number of seconds",
+          "uk": "Точна кількість секунд"
+        },
+        {
+          "k": "c",
+          "en": "The score after each stand",
+          "uk": "Рахунок після кожного місця"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Many coaches suggest the same steps in the same order; the time may vary a little within the time limit.",
+        "uk": "Багато тренерів радять ті самі кроки в тому самому порядку; час може трохи змінюватися в межах ліміту."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "watching-what-to-look-at-q2",
+      "disc": "both",
+      "q": {
+        "en": "What is a double on report?",
+        "uk": "Що таке дуплет на постріл?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The shot at the first target releases the second",
+          "uk": "Постріл по першій мішені випускає другу"
+        },
+        {
+          "k": "b",
+          "en": "Both targets are released at the same moment",
+          "uk": "Обидві мішені вилітають в одну мить"
+        },
+        {
+          "k": "c",
+          "en": "One target is shot at twice",
+          "uk": "По одній мішені стріляють двічі"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The sound of the first shot releases the second target.",
+        "uk": "Другу мішень випускає звук першого пострілу."
+      },
+      "rule_ref": "sporting:ch4-double-on-report"
+    },
+    {
+      "k": "watching-what-to-look-at-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "Where is the stock of a {{tm:sporting}} shooter before the target appears?",
+        "uk": "Де приклад у стрільця {{tm:sporting}}, доки мішень не з’явилася?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Already at the cheek",
+          "uk": "Уже біля щоки"
+        },
+        {
+          "k": "b",
+          "en": "Resting on the foot",
+          "uk": "Спирається на ногу"
+        },
+        {
+          "k": "c",
+          "en": "Below the line on the vest",
+          "uk": "Нижче лінії на жилеті"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:sporting}} the top of the stock stays below the line on the vest until the target appears; in {{tm:compak}} the gun position at the call is free.",
+        "uk": "У {{tm:sporting}} верх приклада лишається нижче лінії на жилеті, доки не з’явиться мішень; у {{tm:compak}} положення рушниці під час виклику мішені вільне."
+      },
+      "rule_ref": "sporting:ch3-ready-position"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "1ebd357f",
+    "summary": "cd82b068",
+    "watching-what-to-look-at-p1": "137a1ea0",
+    "watching-what-to-look-at-p2": "978944c4",
+    "watching-what-to-look-at-p3": "46f18086",
+    "watching-what-to-look-at-directions": "61c87962",
+    "watching-what-to-look-at-p4": "23cb33d2",
+    "watching-what-to-look-at-compare": "a6afdd18",
+    "watching-what-to-look-at-p5": "ad5ac669",
+    "watching-what-to-look-at-p6": "3f585713",
+    "watching-what-to-look-at-kp1": "3addf973",
+    "watching-what-to-look-at-kp2": "6edd4f6f",
+    "watching-what-to-look-at-kp3": "fea2b077",
+    "watching-what-to-look-at-kp4": "637b184b",
+    "watching-what-to-look-at-kp5": "822c800f",
+    "watching-what-to-look-at-dyk": "40e202bd",
+    "watching-what-to-look-at-q1": "2997a385",
+    "watching-what-to-look-at-q4": "5c6f1976",
+    "watching-what-to-look-at-q5": "66c3bb72",
+    "watching-what-to-look-at-q2": "1e319a57",
+    "watching-what-to-look-at-q3": "562a2e70"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

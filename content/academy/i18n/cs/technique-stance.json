@@ -1,0 +1,137 @@
+{
+  "id": "technique-stance",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "d1753cc6",
+    "summary": "cb1ee8e1",
+    "basics-stance-p1": "f095dc75",
+    "basics-stance-p3": "e41ec5a4",
+    "basics-stance-p2": "183cf7c1",
+    "basics-stance-p4": "26cfa672",
+    "technique-stance-balance": "9375aeba",
+    "technique-stance-safety": "b6090803",
+    "technique-stance-p5": "5f2cb1ca",
+    "basics-stance-p5": "6bcb4702",
+    "basics-stance-ph1": "1ccb8c80",
+    "basics-stance-ph2": "6bb84eed",
+    "basics-stance-ph3": "d01ade1f",
+    "basics-stance-ph4": "6d8b4572",
+    "basics-stance-kp4": "d427448c",
+    "basics-stance-kp3": "ec040c37",
+    "basics-stance-kp1": "fa08b3eb",
+    "basics-stance-kp2": "f400f31a",
+    "technique-stance-kp4": "e97e74f4",
+    "technique-stance-dyk": "681e9e7b",
+    "basics-stance-q1": "4dda1d84",
+    "basics-stance-q2": "d0ec971c",
+    "basics-stance-q3": "182f6286",
+    "technique-stance-q1": "87e9a8fc",
+    "technique-stance-q2": "69f96e18",
+    "technique-stance-q3": "d6b8cb79"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Postoj: jak stát na střeleckém stanovišti",
+  "summary": "Nohy, váha, kolena a otáčení těla: jednoduchý, kompaktní postoj, díky kterému vedete zbraň plynule za terčem.",
+  "body": {
+    "basics-stance-p1": "Postoj je to, jak střelec stojí před výstřelem. Prostor je malý: ve {{tm:sporting}} je stanoviště čtverec nebo kruh o rozměru 1 m a obě nohy musí být před zavoláním uvnitř. V {{tm:compak}} je každé stanoviště čtverec 1 m s omezovačem úhlu střelby (Firing Angle Limiter) – rámem, který brání střelci vykročit dopředu a omezuje švih.",
+    "basics-stance-p3": "Klíčová instrukce: namiřte přední nohou na {{term:break-point|místo zásahu}} – místo, kde plánujete terč rozbít. Tělo pak bude ve chvíli výstřelu uvolněné a otočené přesně správným směrem. Před zavoláním otočte horní část těla od boků zpět k {{term:hold-point|bodu držení zbraně}} – místu, kde hlavně čekají na terč. Jakmile terč vyletí, jednoduše se otočíte zpět stejnou cestou, jako se odvíjí stlačená pružina. Pokud místo toho míří nohy na vrhačku, varují trenéři, tělu se nedostává otočení až k místu zásahu a zbraň se zastaví, nebo se zvedne hlava.",
+    "basics-stance-p2": "Obvyklý základ: nohy zhruba na šířku ramen, u praváka levá noha mírně vpředu (u leváka zrcadlově). Kolena jsou měkká, ne propnutá. Váha je mírně vpředu, zhruba 60 procent na přední noze. Trenéři říkají „nose over toes“ – nos nad špičkami.",
+    "basics-stance-p4": "Tělo se otáčí z boků, ne rukama. Nohy mohou být pro každý terč postavené trochu jinak.",
+    "technique-stance-balance": "Dobrý postoj udržuje rovnováhu, zatímco se tělo otáčí za terčem. Mírný náklon dopředu také pomáhá pohltit {{term:recoil|zpětný ráz}} místo toho, aby vás odhodil dozadu; více v lekci {{lesson:health-recoil-shoulder-neck}}.",
+    "technique-stance-safety": "Bezpečnost je důležitější než pohodlí. Zůstaňte uvnitř stanoviště a dřív, než se na něm otočíte, zbraň otevřete a vyprázdněte. Toto pravidlo platí stejně v obou disciplínách.",
+    "technique-stance-p5": "Postoj není póza na fotku. Trenér sleduje, jak stojíte, a upraví detaily: šířku nohou, úhel i náklon. Tato lekce vysvětluje základy, samotnou techniku se ale učte s kvalifikovaným trenérem."
+  },
+  "note": {
+    "basics-stance-p5": "„Front foot“ a „back foot“ překládejte jako přední a zadní noha, ne levá a pravá: váš střelec může být levák."
+  },
+  "phrases": {
+    "basics-stance-ph1": {
+      "meaning": "Natočte špičku přední nohy k místu, kde bude terč rozbit.",
+      "say": "Přední nohou miřte na místo zásahu."
+    },
+    "basics-stance-ph2": {
+      "meaning": "Nejprve postavte nohy k místu zásahu, pak horní část těla otočte zpět k bodu držení zbraně.",
+      "say": "Nohy postavte k zásahu a pak se otočte zpět do výchozího bodu."
+    },
+    "basics-stance-ph3": {
+      "meaning": "Mírně se opřete o přední nohu a nepropínejte kolena.",
+      "say": "Váhu dopředu, měkká kolena."
+    },
+    "basics-stance-ph4": {
+      "meaning": "Otáčí se celá horní část těla; ruce samy zbraní nešvihají.",
+      "say": "Otáčejte se z boků, ne rukama."
+    }
+  },
+  "key_points": {
+    "basics-stance-kp4": "Přední noha míří na místo zásahu; z boků se otočit zpět k bodu držení zbraně.",
+    "basics-stance-kp3": "Nohy na šířku ramen, měkká kolena, váha mírně vpředu.",
+    "basics-stance-kp1": "{{tm:sporting}}: obě nohy před zavoláním uvnitř stanoviště 1 m.",
+    "basics-stance-kp2": "{{tm:compak}}: stanoviště 1 m s omezovačem úhlu střelby (Firing Angle Limiter).",
+    "technique-stance-kp4": "Než se na stanovišti otočíte, zbraň otevřete a vyprázdněte."
+  },
+  "did_you_know": "Na stanovišti {{tm:compak}} bývá omezovač úhlu střelby často jednoduchý rám z barevných plastových trubek. Omezuje, jak daleko lze zbraní švihnout do stran, nahoru a dolů.",
+  "quiz": {
+    "basics-stance-q1": {
+      "q": "Kam obvykle chce trenér, aby mířila přední noha?",
+      "options": {
+        "a": "Na vrhačku",
+        "b": "Na bod zachycení terče",
+        "c": "Na rozhodčího",
+        "d": "Na místo zásahu"
+      },
+      "explain": "Nohy postavené k místu zásahu nechávají tělo uvolněné přesně tam, kde padne rána. Pokud nohy míří na vrhačku, tělu se nedostává otočení až k místu zásahu."
+    },
+    "basics-stance-q2": {
+      "q": "Co vyžadují pravidla {{tm:sporting}} od nohou před zavoláním?",
+      "options": {
+        "a": "Obě nohy uvnitř stanoviště",
+        "b": "Přední nohu na čáře stanoviště",
+        "c": "Nohy u sebe",
+        "d": "Žádný požadavek"
+      },
+      "explain": "Pravidlo pohotovostního postoje vyžaduje, aby byly před zavoláním obě nohy střelce uvnitř stanoviště o rozměru 1 m."
+    },
+    "basics-stance-q3": {
+      "q": "Střelec je levák. Trenér říká „Open your front foot“. O kterou nohu jde?",
+      "options": {
+        "a": "Vždy o levou, bez ohledu na ruku",
+        "b": "O pravou – u leváka je to přední noha",
+        "c": "O zadní, blíž k vrhačce",
+        "d": "O obě nohy zároveň"
+      },
+      "explain": "U leváka je přední noha pravá. Když „front foot“ přeložíte jako „přední noha“, a ne jako „levá“, vyhnete se chybě."
+    },
+    "technique-stance-q1": {
+      "q": "Jak obvykle praworuký střelec staví nohy?",
+      "options": {
+        "a": "Levou nohu mírně vpředu",
+        "b": "Pravou nohu daleko vpředu",
+        "c": "Nohy u sebe, paty u sebe"
+      },
+      "explain": "Pravoruký střelec staví levou nohu mírně vpředu, levoruký pravou."
+    },
+    "technique-stance-q2": {
+      "q": "Na jaký bod je nejdůležitější mít nohy pohodlně postavené?",
+      "options": {
+        "a": "Kam směřuje vrhačka",
+        "b": "Na místo zásahu (break point)",
+        "c": "Kam se postaví skupina"
+      },
+      "explain": "Tělo se pak snadno otočí přesně tam, kde terč rozbijete."
+    },
+    "technique-stance-q3": {
+      "q": "Kde musí mít střelec nohy ve {{tm:sporting}} před zavoláním?",
+      "options": {
+        "a": "Kdekoli poblíž stanoviště",
+        "b": "Obě uvnitř stanoviště",
+        "c": "Jednu nohu uvnitř, druhou mimo"
+      },
+      "explain": "Pravidla {{tm:sporting}} vyžadují, aby byly před zavoláním obě nohy střelce uvnitř stanoviště."
+    }
+  }
+}

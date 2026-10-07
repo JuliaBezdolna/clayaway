@@ -1,0 +1,99 @@
+{
+  "id": "gun-care",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "42bc807c",
+    "summary": "53ea9070",
+    "gun-care-p1": "e7fec0b7",
+    "gun-care-p2": "311dadd8",
+    "gun-care-p3": "5d55cf61",
+    "gun-care-p4": "3cd3a115",
+    "gun-care-p5": "520c5e84",
+    "gun-care-p6": "4866d6ad",
+    "gun-care-p7": "8dcf8861",
+    "gun-care-kp1": "9aa8a796",
+    "gun-care-kp2": "cabb28f0",
+    "gun-care-kp3": "12d97280",
+    "gun-care-kp4": "51137384",
+    "gun-care-kp5": "9b69a2ed",
+    "gun-care-dyk": "8beaba79",
+    "gun-care-q1": "77aa2722",
+    "gun-care-q2": "8bd12cd7",
+    "gun-care-q3": "c3f948e6",
+    "gun-care-q4": "5fd25464"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "body": {
+    "gun-care-p1": "Čištění začíná bezpečností. Ujistěte se, že je zbraň vybitá: otevřete ji a podívejte se do obou {{term:chamber|nábojových komor}}. Odstraňte všechny náboje z místa, kde pracujete, abyste si žádný omylem nevložili do zbraně.",
+    "gun-care-p2": "Rozeberte zbraň: sejměte {{term:fore-end|předpažbí}}, pak hlavně z {{term:receiver|baskule}}. Pokud máte výměnné zahrdlení, vyšroubujte ho {{term:choke-key|klíčem na zahrdlení}}; čistí se zvlášť (viz {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p3": [
+      "Vyčistěte vývrt hlavní po každém dni střelby.",
+      "Namočte ho čisticím prostředkem a několikrát jím protáhněte kartáček na tyčce (bore brush).",
+      "Protahujte na tyčce čisté kousky látky (patches), dokud nevycházejí téměř čisté.",
+      "Nakonec nechte velmi tenkou vrstvu oleje a před další střelbou vývrt vytřete do sucha."
+    ],
+    "gun-care-p4": "Vnější kovové části otřete hadříkem s kapkou oleje, aby je chránil před otisky prstů a vlhkostí. Dřevěnou pažbu olejem nelijte: vsakuje se do dřeva. Závěs a místa, kde se hlavně zamykají do baskule, lehce namažte speciální zbraňovou vazelínou.",
+    "gun-care-p5": "Po dešti osušte zbraň okamžitě, ještě na střelnici nebo v hotelu. Nenechávejte mokrou zbraň na noc v {{term:gun-slip|měkkém pouzdru}} nebo zavřeném {{term:hard-case|kufru}}: vlhkost tam zůstává dlouho a následuje rez. Osušte, otřete, naolejujte.",
+    "gun-care-p6": "Uchovávejte zbraň suchou, v trezoru nebo tak, jak vyžaduje zákon vaší země; mnohé zákony vyžadují i oddělené skladování nábojů. Mnozí puškaři doporučují uchovávat zbraň vodorovně nebo s hlavněmi dolů, aby olej nestékal do dřevěné pažby. Nepoužívejte drátěnku nebo abrazivní prostředky: škrábou povrchovou úpravu.",
+    "gun-care-p7": "Jednou za rok, nebo po velkém počtu výstřelů, odneste zbraň {{term:gunsmith|puškaři}} na servis. Po smontování zbraň nezkoušejte na stanovišti závodu. V {{tm:sporting}} a {{tm:compak}} se {{term:gun-test|zkušební výstřel}} dělá jen na samostatném zkušebním místě, pokud ho střelnice má."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "gun-care-kp1": "Nejdřív se ujistěte, že je zbraň vybitá a náboje jsou odstraněné.",
+    "gun-care-kp2": "Vyčistěte vývrt hlavní po každém dni střelby; lehce naolejujte.",
+    "gun-care-kp3": "Mokrou zbraň osušte hned; nenechávejte ji na noc v pouzdru.",
+    "gun-care-kp4": "Uchovávejte ji suchou a pod zámkem, vodorovně nebo s hlavněmi dolů.",
+    "gun-care-kp5": "Roční servis u puškaře; zkušební výstřely jen na zkušebním místě."
+  },
+  "quiz": {
+    "gun-care-q1": {
+      "q": "Co musíte udělat jako první, než začnete čistit zbraň?",
+      "options": {
+        "a": "Namazat závěs a háky",
+        "b": "Vyšroubovat obě zahrdlení",
+        "c": "Zkontrolovat, že je zbraň vybitá",
+        "d": "Sejmout botku"
+      },
+      "explain": "Nejdřív bezpečnost: otevřete zbraň a zkontrolujte obě komory."
+    },
+    "gun-care-q2": {
+      "q": "Co byste neměli dělat po střelbě v dešti?",
+      "options": {
+        "a": "Otřít zbraň suchým hadříkem",
+        "b": "Nechat ji na noc v pouzdru",
+        "c": "Osušit hlavně zevnitř i zvenčí",
+        "d": "Nanést na kov tenkou vrstvu oleje"
+      },
+      "explain": "V zavřeném pouzdru zůstává vlhkost dlouho a následuje rez."
+    },
+    "gun-care-q3": {
+      "q": "Kde můžete před závodem vyzkoušet zbraň výstřelem?",
+      "options": {
+        "a": "Na zkušebním místě, pokud ho střelnice má",
+        "b": "Na prvním stanovišti závodu",
+        "c": "Kdekoli na střelnici, mimo lidi",
+        "d": "Na parkovišti u klubovny"
+      },
+      "explain": "Pravidla zakazují zkušební výstřely na stanovišti závodu; k tomu slouží samostatné zkušební místo."
+    },
+    "gun-care-q4": {
+      "q": "Proč mnozí puškaři doporučují uchovávat zbraň s hlavněmi dolů?",
+      "options": {
+        "a": "Aby se pak rychleji nabíjela",
+        "b": "Aby se zahrdlení nepovolovalo",
+        "c": "Aby hlavně rychleji vychladly",
+        "d": "Aby olej nestékal do pažby"
+      },
+      "explain": "Olej, který steče do dřevěné pažby, může časem dřevo poškodit."
+    }
+  },
+  "title": "Péče a čištění",
+  "summary": "Jak bezpečně vyčistit zbraň po střelbě a po dešti, jak ji uchovávat a proč si střelci {{tm:sporting}} a {{tm:compak}} objednávají roční servis.",
+  "did_you_know": "{{term:primer|Zápalky}} dřív obsahovaly korozivní soli a zbraň se musela čistit ten samý den, jinak vývrt zrezivěl. Moderní zápalky jsou nekorozivní, ale čištění po střelbě zůstává dobrým návykem."
+}

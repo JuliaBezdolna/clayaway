@@ -1,0 +1,138 @@
+{
+  "id": "technique-follow-through-and-mistakes",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "3e4f7378",
+    "summary": "6c9ad74d",
+    "basics-follow-through-p1": "fc70d3d2",
+    "basics-follow-through-p2": "20688252",
+    "basics-follow-through-p3": "a9df4a3c",
+    "basics-follow-through-p4": "aaad772d",
+    "technique-follow-through-and-mistakes-faults": "5ac3097f",
+    "basics-follow-through-sim": "7e2b2469",
+    "basics-follow-through-p5": "101d3b8f",
+    "basics-follow-through-ph1": "8f0abc9f",
+    "basics-follow-through-ph2": "f40a886f",
+    "basics-follow-through-ph3": "4b9c7c99",
+    "basics-follow-through-ph4": "67619c2f",
+    "basics-follow-through-ph5": "79e98511",
+    "basics-follow-through-kp1": "00ed7c22",
+    "basics-follow-through-kp2": "01a5b235",
+    "basics-follow-through-kp3": "349c1bd2",
+    "basics-follow-through-kp4": "aa4e6e55",
+    "technique-follow-through-and-mistakes-delay": "f2db2f2a",
+    "basics-follow-through-q1": "41e5f4b4",
+    "basics-follow-through-q2": "dc650ff2",
+    "basics-follow-through-q3": "fedcdc80",
+    "technique-follow-through-and-mistakes-q1": "6f23dd94",
+    "technique-follow-through-and-mistakes-q2": "dcbcfc6f",
+    "technique-follow-through-and-mistakes-q3": "1945b270"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "basics-follow-through-p1": "Az elkísérés (follow-through) azt jelenti, hogy a fegyver az elsütés után is tovább mozog a korong vonalán, mint egy golf- vagy teniszütés. A lövés elhatározása és a sörét csőből való kilépése között van egy kis késés; ha a fegyver az elsütésnél megáll, a lövés mögé megy. Az edzők a lövés után a csőtorkolatot figyelik: ha megdermed vagy lesüllyed, hiányzott az elkísérés.",
+    "basics-follow-through-p2": "A {{term:gun-speed|csősebesség}} azt jelenti, mennyire gyorsan mozognak a csövek a korongéhoz képest, és ez határozza meg az elétartási módot. Ha a sebesség megegyezik a korongéval, az {{term:maintained-lead|elévezetés}}. Ha gyorsabb a korongnál, az {{term:swing-through|áthúzás}}. Ha megegyezik, majd egy rövid gyorsítás következik, az {{term:pull-away|mutass oda és lendíts}} (pull-away). A helyén várakozó, mozdulatlan fegyver a {{term:ambush|lesből lövés}} (ambush). Ha a csövek túl lassan mozognak, lemaradnak; ha túl gyorsan – mondják az edzők –, túllövik a korongot, és a lövész ekkor gyakran megállítja a fegyvert.",
+    "basics-follow-through-p3": "A tempó az, hogy milyen gyorsan zajlik le az egész lövés; a ritmus az, hogy mennyire egyenletesen. A gyors, közeli korong gyors tempót kíván, a hosszú, lassú keresztező nyugodtabbat, de a ritmus mindig egyenletes marad. Sok edző szerint azok a lövészek, akiknek mindenre egy tempójuk van, elvesztik azokat a korongokat, amelyek az ellenkezőjét kívánják.",
+    "basics-follow-through-p4": "„Stay in the gun” – „maradj a fegyverben”: az arcod a tuson, a szemed a korongon, amíg az szét nem törik. Ez a második lövésre is készenlétben tart (az edzők „második csőnek” hívják), mert egy szóló korongra két lövést is leadhatsz.",
+    "technique-follow-through-and-mistakes-faults": "Sok mellőlövés mögött néhány gyakori hiba áll: a fegyver megállítása, a fej felemelése, a túl korai vagy túl késői vállba vétel, és a páros második korongjának elvesztése. Mindegyikről külön lecke szól: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} és {{lesson:faults-pairs-transition}}. Hogyan olvasd ki, hova ment a lövésed: {{lesson:faults-behind-in-front}}.",
+    "basics-follow-through-sim": "Animáció: jelöld be azt a lehetőséget, amelynél a fegyver megáll az elsütésnél – a lövés így a korong mögé megy, pedig az elétartás helyesnek tűnt."
+  },
+  "note": {
+    "basics-follow-through-p5": "A „finish the shot” kifejezést a mozdulat folytatásaként fordítsd, ne megállásként."
+  },
+  "phrases": {
+    "basics-follow-through-ph1": {
+      "meaning": "Ne állítsd meg a lendítést a lövésnél.",
+      "say": "Kísérd el – a fegyver a durranás után is megy tovább."
+    },
+    "basics-follow-through-ph2": {
+      "meaning": "A csövek az elsütésnél megálltak, így a lövés mögé ment.",
+      "say": "Megállt a cső."
+    },
+    "basics-follow-through-ph3": {
+      "meaning": "A fegyver sokkal gyorsabban mozog, mint a korong; a korong sebességével mozogj.",
+      "say": "Vedd fel a korong sebességét – versenyzel vele."
+    },
+    "basics-follow-through-ph4": {
+      "meaning": "A korong lassú vagy hosszú, így az egész mozdulat lehet nyugodtabb.",
+      "say": "Lassíts a tempón, erre bőven van időd."
+    },
+    "basics-follow-through-ph5": {
+      "meaning": "Tartsd az arcod a tuson és a szemed a korongon, amíg el nem törik.",
+      "say": "Maradj a fegyverben, amíg nem látod eltörni."
+    }
+  },
+  "key_points": {
+    "basics-follow-through-kp1": "Elkísérés: a fegyver az elsütés után is mozog; a megállás miatt a lövés mögé megy.",
+    "basics-follow-through-kp2": "A fegyversebesség határozza meg a módszert: azonos (elévezetés), gyorsabb (áthúzás), azonos, majd gyorsabb (pull-away).",
+    "basics-follow-through-kp3": "Tempó = az egész lövés sebessége; ritmus = annak egyenletessége.",
+    "basics-follow-through-kp4": "Maradj a fegyverben: légy kész a második lövésre szóló korongnál is."
+  },
+  "quiz": {
+    "basics-follow-through-q1": {
+      "q": "Az edző azt mondja: „You stopped the gun”. Hová ment valószínűleg a lövés?",
+      "options": {
+        "a": "Elé",
+        "b": "Fölé",
+        "c": "Pontosan a korongra",
+        "d": "Mögé"
+      },
+      "explain": "A korong tovább mozog, a megállított fegyver viszont nem, így a sörét a korong mögött megy el."
+    },
+    "basics-follow-through-q2": {
+      "q": "Melyik fegyversebesség jellemzi az elévezetést (maintained lead)?",
+      "options": {
+        "a": "Sokkal gyorsabb, mint a korong",
+        "b": "Ugyanakkora, mint a korongé",
+        "c": "Nulla: a fegyver vár",
+        "d": "Lassabb, mint a korong"
+      },
+      "explain": "Elévezetésnél a csövek a korong sebességével mozognak, és állandó marad a távolság. A váró fegyver a lesből lövés (ambush), a gyorsabb az áthúzás."
+    },
+    "basics-follow-through-q3": {
+      "q": "Mi a különbség a tempó és a ritmus között?",
+      "options": {
+        "a": "A tempó a lövés sebessége, a ritmus annak egyenletessége",
+        "b": "Ugyanannak a dolognak két neve",
+        "c": "A tempó a lőtéren szóló zene",
+        "d": "A ritmus a korongok közötti időkorlát"
+      },
+      "explain": "Az edzők minden korongnál változtatják a tempót, miközben egyenletes ritmust tartanak, ezért a két szót külön fordítsd."
+    },
+    "technique-follow-through-and-mistakes-q1": {
+      "q": "Mi az elkísérés (follow-through)?",
+      "options": {
+        "a": "A fegyver a lövés után is mozog tovább",
+        "b": "Második lövés ugyanarra a korongra",
+        "c": "A fegyver ellenőrzése a kör előtt"
+      },
+      "explain": "A mozdulat nem áll meg a lövésnél, hanem még egy pillanatig folytatódik a korong vonalán."
+    },
+    "technique-follow-through-and-mistakes-q2": {
+      "q": "Hova megy általában a lövés, ha a lövész megállítja a fegyvert?",
+      "options": {
+        "a": "A korong elé",
+        "b": "A korong mögé",
+        "c": "Pontosan a korongba"
+      },
+      "explain": "A megállított csövek lemaradnak a korongtól, és a lövés mögötte halad el."
+    },
+    "technique-follow-through-and-mistakes-q3": {
+      "q": "Mi okozza gyakran, hogy a lövés a korong fölé megy?",
+      "options": {
+        "a": "A fej felemelése a tusról",
+        "b": "A túl nehéz töltény",
+        "c": "A helyes beállás"
+      },
+      "explain": "Amikor a fej felemelkedik, a szem már nem a sín mentén néz, és a fegyver magasra lő."
+    }
+  },
+  "title": "Elkísérés, csősebesség és tempó",
+  "summary": "Miért mozog tovább a fegyver a lövés után, hogyan határozza meg a csősebesség az elétartási módodat, és hol olvashatsz a gyakori hibákról.",
+  "did_you_know": "A lövésre szóló döntés és a lövés tényleges kilépése között egy gyors keresztező korong még mozog tovább. Ezért kell a csöveknek is mozogniuk: ez alatt a rövid késés alatt is elöl kell maradniuk."
+}

@@ -1,0 +1,269 @@
+{
+  "id": "culture-club-life",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "organiser",
+    "beginner",
+    "parent",
+    "fan"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "culture-club-life"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "club-shoot",
+    "national-federation",
+    "organiser",
+    "referee",
+    "score-sheet",
+    "trapper",
+    "trap",
+    "hearing-protection",
+    "safety-glasses"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch15-delegation"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-who-keeps-score"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-who-keeps"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-referee-certificate"
+    }
+  ],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Club life and volunteering",
+    "uk": "Клубне життя і волонтерство"
+  },
+  "summary": {
+    "en": "The club is the heart of the sport. How to join in, how to help at competitions as a volunteer, and why volunteers matter so much.",
+    "uk": "Клуб — серце спорту. Як долучитися до життя стенду, як допомагати на змаганнях волонтером і чому волонтери такі важливі."
+  },
+  "body": [
+    {
+      "k": "culture-club-life-p1",
+      "t": "p",
+      "en": "Many shooters start at a club. A club is a place to practise, but it is also a community. People share advice, travel to competitions together, celebrate wins and support each other after a bad day.",
+      "uk": "Багато стрільців починають у клубі. Клуб — це місце для тренувань, але й спільнота. Тут діляться порадами, разом їздять на змагання, святкують перемоги й підтримують одне одного після невдалого дня."
+    },
+    {
+      "k": "culture-club-life-p2",
+      "t": "p",
+      "en": "Clubs run their own events, from friendly weekend shoots to stages of a national championship. A {{term:national-federation|national federation}} may even hand a club the running of an international event, but the federation stays responsible for it. All of this depends on people.",
+      "uk": "Клуби проводять власні змагання — від дружніх турнірів вихідного дня до національних етапів. {{term:national-federation|Національна федерація}} може доручити клубу навіть міжнародне змагання, але відповідальність лишається на федерації. І все це тримається на людях."
+    },
+    {
+      "k": "culture-club-life-p3",
+      "t": "p",
+      "en": "Volunteers do a lot at a competition. They register shooters, fill the {{term:trap|traps}} with targets, help with parking and food, take photos for the club and clear up cases and target fragments. Some help with the {{term:score-sheet|score sheets}} where the rules allow it, always under the {{term:referee|referee's}} eye.",
+      "uk": "Волонтери виконують на змаганні багато роботи. Вони реєструють учасників, заряджають {{term:trap|машинки}} мішенями, допомагають із парковкою й харчуванням, фотографують для клубу, прибирають гільзи й уламки мішеней. Дехто допомагає з {{term:score-sheet|протоколами}}, де це дозволяють правила, — завжди під наглядом {{term:referee|судді}}."
+    },
+    {
+      "k": "culture-club-life-briefing",
+      "t": "warn",
+      "en": "Some jobs, such as working as a {{term:trapper|trapper}} next to a trap, start with a safety briefing. Wear {{term:hearing-protection|hearing protection}} and {{term:safety-glasses|safety glasses}}, and follow the instructions of the ground.",
+      "uk": "Деякі ролі, наприклад робота {{term:trapper|оператором}} біля машинки, починаються з інструктажу з безпеки. Носіть {{term:hearing-protection|захист слуху}} і {{term:safety-glasses|стрілецькі окуляри}} та виконуйте вказівки стенду."
+    },
+    {
+      "k": "culture-club-life-p4",
+      "t": "p",
+      "en": "Want to get involved? Ask your club who needs help. Volunteering is a good way to meet people and to see how a competition works from the inside. It is also a good first step towards refereeing or becoming an {{term:organiser|organiser}}: {{lesson:nextstep-becoming-referee}}.",
+      "uk": "Хочете долучитися? Запитайте в клубі, кому потрібна допомога. Волонтерство — добра нагода познайомитися з людьми й побачити, як змагання працює зсередини. А ще це добрий перший крок до суддівства чи до ролі {{term:organiser|організатора}}: {{lesson:nextstep-becoming-referee}}."
+    },
+    {
+      "k": "culture-club-life-p5",
+      "t": "p",
+      "en": "A good club member follows the ground rules, pays fees on time, helps beginners and joins clean-up days. One of the kindest things you can do for a newcomer is to show them the safety rules and invite them to shoot with you.",
+      "uk": "Добрий член клубу дотримується правил стенду, вчасно сплачує внески, допомагає новачкам і бере участь у днях прибирання. Для новачка дуже цінно, коли йому показують правила безпеки й запрошують стріляти разом."
+    },
+    {
+      "k": "culture-club-life-tip",
+      "t": "tip",
+      "en": "Thinking of running a shoot yourself? Step by step: {{lesson:nextstep-club-shoot-and-volunteering}}.",
+      "uk": "Думаєте самі провести змагання? Крок за кроком: {{lesson:nextstep-club-shoot-and-volunteering}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "culture-club-life-kp1",
+      "en": "A club is a community, not only a practice ground.",
+      "uk": "Клуб — це спільнота, а не лише місце для тренувань."
+    },
+    {
+      "k": "culture-club-life-kp2",
+      "en": "Competitions rely on volunteers.",
+      "uk": "Змагання тримаються на волонтерах."
+    },
+    {
+      "k": "culture-club-life-kp-briefing",
+      "en": "Jobs near a trap start with a safety briefing, hearing protection and glasses.",
+      "uk": "Робота біля машинки починається з інструктажу, захисту слуху й окулярів."
+    },
+    {
+      "k": "culture-club-life-kp3",
+      "en": "Volunteering is a good first step towards refereeing or organising.",
+      "uk": "Волонтерство — добрий перший крок до суддівства чи організації змагань."
+    },
+    {
+      "k": "culture-club-life-kp4",
+      "en": "Help beginners and follow the ground rules.",
+      "uk": "Допомагайте новачкам і дотримуйтеся правил стенду."
+    }
+  ],
+  "did_you_know": {
+    "k": "culture-club-life-dyk",
+    "en": "At a big competition tens of thousands of targets may be thrown in a day, and someone has to load each of them into a trap.",
+    "uk": "На великих змаганнях за день можуть запустити десятки тисяч мішеней, і кожну з них хтось має завантажити в машинку."
+  },
+  "quiz": [
+    {
+      "k": "culture-club-life-q1",
+      "q": {
+        "en": "Who keeps the scorecard in {{tm:sporting}}?",
+        "uk": "Хто веде протокол у {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Any shooter, with no supervision",
+          "uk": "Будь-хто зі стрільців, без нагляду"
+        },
+        {
+          "k": "b",
+          "en": "The referee, or a helper under the referee's eye",
+          "uk": "Суддя або помічник під наглядом судді"
+        },
+        {
+          "k": "c",
+          "en": "Only the shooter who is on the stand",
+          "uk": "Лише стрілець, який зараз стріляє"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:sporting}} the referee fills in the scorecard or chooses someone to do it under supervision.",
+        "uk": "У {{tm:sporting}} протокол заповнює суддя або людина, яку він обрав, під його наглядом."
+      }
+    },
+    {
+      "k": "culture-club-life-q2",
+      "q": {
+        "en": "What is a good first step towards becoming a referee?",
+        "uk": "Який добрий перший крок до суддівства?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Buy a referee card online, with no exam",
+          "uk": "Купити суддівську картку онлайн, без іспиту"
+        },
+        {
+          "k": "b",
+          "en": "Win a club shoot, then ask to referee",
+          "uk": "Виграти клубне змагання й попроситися в судді"
+        },
+        {
+          "k": "c",
+          "en": "Help at club shoots, then take a course",
+          "uk": "Допомагати на клубних змаганнях, потім пройти курс"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Helping at club shoots shows you the work from the inside. Then your federation's course and exam lead to a referee certificate.",
+        "uk": "Допомога на клубних змаганнях показує роботу зсередини. А курс та іспит у федерації ведуть до суддівського сертифіката."
+      }
+    },
+    {
+      "k": "culture-club-life-q3",
+      "q": {
+        "en": "Can a federation hand a club the running of a competition?",
+        "uk": "Чи може федерація доручити клубу проведення змагання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, but the federation stays responsible",
+          "uk": "Так, але відповідальність лишається на федерації"
+        },
+        {
+          "k": "b",
+          "en": "No, only FITASC may run events",
+          "uk": "Ні, змагання проводить лише FITASC"
+        },
+        {
+          "k": "c",
+          "en": "Yes, and then nobody is responsible",
+          "uk": "Так, і тоді ніхто не відповідає"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A federation may hand the running of an event to a club, but it stays responsible for applying the rules.",
+        "uk": "Федерація може доручити проведення клубу, але сама відповідає за дотримання правил."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "19b66d19",
+    "summary": "d9952b7d",
+    "culture-club-life-p1": "0c5df033",
+    "culture-club-life-p2": "34451808",
+    "culture-club-life-p3": "7a277e58",
+    "culture-club-life-briefing": "6356bd3b",
+    "culture-club-life-p4": "e385e996",
+    "culture-club-life-p5": "f7c85d7d",
+    "culture-club-life-tip": "bef0a267",
+    "culture-club-life-kp1": "fe2250a4",
+    "culture-club-life-kp2": "8fe84e6f",
+    "culture-club-life-kp-briefing": "2cb93401",
+    "culture-club-life-kp3": "efa14fca",
+    "culture-club-life-kp4": "9b63aaa6",
+    "culture-club-life-dyk": "1aa8d9ba",
+    "culture-club-life-q1": "a753457d",
+    "culture-club-life-q2": "b916438f",
+    "culture-club-life-q3": "388f6a94"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

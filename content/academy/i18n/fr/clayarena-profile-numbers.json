@@ -1,0 +1,102 @@
+{
+  "id": "clayarena-profile-numbers",
+  "lang": "fr",
+  "base_rev": 2,
+  "h": {
+    "title": "d549d9a9",
+    "summary": "e0b16add",
+    "clayarena-profile-numbers-p1": "18eea6d7",
+    "clayarena-profile-numbers-p2": "5c0f4cfc",
+    "clayarena-profile-numbers-p3": "802a0097",
+    "clayarena-profile-numbers-perfect": "fba5db32",
+    "clayarena-profile-numbers-p4": "b0604525",
+    "clayarena-profile-numbers-p5": "3e6b5e8e",
+    "clayarena-profile-numbers-other": "e4de96f4",
+    "clayarena-profile-numbers-p6": "935cbc72",
+    "clayarena-profile-numbers-p7": "e5d7ead9",
+    "clayarena-profile-numbers-kp1": "dab00454",
+    "clayarena-profile-numbers-kp2": "89d19953",
+    "clayarena-profile-numbers-kp3": "77da1959",
+    "clayarena-profile-numbers-kp4": "e43f7167",
+    "clayarena-profile-numbers-kp5": "c259b16c",
+    "clayarena-profile-numbers-q1": "4205296d",
+    "clayarena-profile-numbers-q2": "bb1798ca",
+    "clayarena-profile-numbers-q3": "e7e1f5a8",
+    "clayarena-profile-numbers-q4": "c2744161",
+    "clayarena-profile-numbers-q5": "86ab8658"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "fr-wave-2026-10"
+  },
+  "title": "Que signifient les chiffres d'un profil",
+  "summary": "La précision, le meilleur score, les séries parfaites, le taux de top 10 et l'indice de performance aident à voir la forme d'un tireur, mais ils ne remplacent pas les résultats eux-mêmes.",
+  "body": {
+    "clayarena-profile-numbers-p1": "Un {{term:shooter-profile|profil de tireur}} sur ClayArena affiche plusieurs chiffres. Ils sont calculés à partir des compétitions de {{tm:sporting}} et de {{tm:compak}} présentes sur le site, et le profil peut les afficher séparément pour chaque discipline. Ils aident à voir d'un coup d'œil le niveau et la régularité d'un tireur.",
+    "clayarena-profile-numbers-p2": "La {{term:accuracy|précision}} est la part de plateaux cassés parmi les plateaux tirés à une compétition. Par exemple, 150 cassés sur 200 font 75 %. Un profil peut afficher la précision moyenne sur toutes les compétitions terminées d'un tireur, et la précision la plus élevée obtenue lors d'une seule compétition.",
+    "clayarena-profile-numbers-p3": "Le {{term:best-score|meilleur score}} est le total le plus élevé du tireur à une compétition. Comparez les totaux uniquement sur le même nombre de plateaux. Une compétition internationale de {{tm:sporting}} compte {{fact:basics.international-targets}}, alors que beaucoup de concours de club ont moins de plateaux. Donc si le nombre de plateaux diffère, comparez plutôt la précision. Elle permet de comparer des nombres de plateaux différents, mais les parcours, la météo et le niveau de l'épreuve restent eux aussi différents, alors considérez-la comme un repère approximatif.",
+    "clayarena-profile-numbers-perfect": "Une série parfaite est une série sans aucun manqué. Dans les disciplines FITASC, cela signifie une {{term:round|série}} où tous les {{fact:rules.round-targets}} ont été cassés. Le profil compte combien de ces séries un tireur a réalisées.",
+    "clayarena-profile-numbers-p4": "Le {{term:top-10-rate|taux de top 10}} est la part des compétitions où le tireur a terminé dans les dix premiers, de sa {{term:category|catégorie}} ou du classement général. Il dépend aussi du niveau des autres concurrents : atteindre le top 10 lors d'une grande compétition internationale est plus difficile qu'à un {{term:club-shoot|concours de club}}. Une petite catégorie avec seulement quelques tireurs rend aussi le top 10 plus facile à atteindre.",
+    "clayarena-profile-numbers-p5": "L'{{term:performance-index|indice de performance}} est un seul chiffre que ClayArena calcule à partir des résultats d'un tireur dans une discipline. Il permet de suivre la progression dans le temps sans lire chaque tableau de résultats. Ce n'est pas un classement officiel de la {{term:fitasc|FITASC}}.",
+    "clayarena-profile-numbers-other": "Vous pouvez aussi voir d'autres chiffres et sections, comme l'historique des compétitions, une vue par saison et une comparaison avec les vainqueurs. Leurs noms peuvent changer avec l'évolution du site, alors lisez les explications sur le site lui-même.",
+    "clayarena-profile-numbers-p6": "Les chiffres ne disent pas tout. Certains {{term:layout|parcours}} (ensembles de postes de tir et des plateaux qui y volent) sont faciles, d'autres difficiles, et la météo peut beaucoup changer les scores. Les chiffres d'une seule compétition en disent donc peu ; les chiffres sur plusieurs compétitions sont plus fiables.",
+    "clayarena-profile-numbers-p7": "Pour un débutant, une façon utile de lire un profil est de se comparer à soi-même : comment votre précision a changé au fil de la saison. Se comparer à de bons tireurs peut être intéressant, mais cela en dit peu sur votre propre progression."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-profile-numbers-kp1": "La précision est la part de plateaux cassés parmi les plateaux tirés.",
+    "clayarena-profile-numbers-kp2": "Comparez les totaux uniquement sur le même nombre de plateaux ; sinon comparez la précision, comme repère approximatif.",
+    "clayarena-profile-numbers-kp3": "Le taux de top 10 compte les places dans les dix premiers d'une catégorie ou du classement général, donc il dépend du nombre et du niveau des concurrents.",
+    "clayarena-profile-numbers-kp4": "L'indice de performance est un chiffre ClayArena, pas un classement FITASC.",
+    "clayarena-profile-numbers-kp5": "Regardez comment les résultats évoluent sur plusieurs compétitions."
+  },
+  "quiz": {
+    "clayarena-profile-numbers-q1": {
+      "q": "Un tireur a cassé 150 plateaux sur 200. Quelle est sa précision ?",
+      "options": {
+        "a": "50 %",
+        "b": "75 %",
+        "c": "80 %"
+      },
+      "explain": "150 ÷ 200 = 0,75, soit 75 %."
+    },
+    "clayarena-profile-numbers-q2": {
+      "q": "Qu'est-ce que l'indice de performance dans un profil ClayArena ?",
+      "options": {
+        "a": "Un seul chiffre calculé par ClayArena",
+        "b": "Le classement officiel de la FITASC",
+        "c": "Le nombre de compétitions dans l'année"
+      },
+      "explain": "C'est un chiffre ClayArena pour suivre la progression, pas un classement officiel."
+    },
+    "clayarena-profile-numbers-q3": {
+      "q": "Pourquoi les chiffres d'une seule compétition en disent-ils peu ?",
+      "options": {
+        "a": "Ils sont souvent mal calculés",
+        "b": "Personne n'y atteint le top 10",
+        "c": "Les parcours et la météo varient beaucoup"
+      },
+      "explain": "C'est pourquoi il est plus fiable de regarder les chiffres sur plusieurs compétitions."
+    },
+    "clayarena-profile-numbers-q4": {
+      "q": "Qu'est-ce qu'une série parfaite ?",
+      "options": {
+        "a": "Une série sans aucun manqué",
+        "b": "Une série tirée en moins d'une heure",
+        "c": "Une série sans aucun doublé"
+      },
+      "explain": "Une série parfaite n'a aucun manqué. Dans les disciplines FITASC, c'est une série où tous les {{fact:rules.round-targets}} ont été cassés."
+    },
+    "clayarena-profile-numbers-q5": {
+      "q": "Vous avez fait 90 sur 100 à un concours de club et 180 sur 200 à une épreuve internationale. Que pouvez-vous comparer ?",
+      "options": {
+        "a": "Les totaux, 90 et 180",
+        "b": "La précision : 90 % les deux fois",
+        "c": "Rien du tout"
+      },
+      "explain": "Avec des nombres de plateaux différents, comparez la précision plutôt que les totaux. Les parcours, la météo et le niveau de l'épreuve restent différents, alors considérez-la comme un repère approximatif."
+    }
+  }
+}

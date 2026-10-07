@@ -1,0 +1,792 @@
+{
+  "id": "competitions-categories-and-shoot-offs",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 8,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "organiser",
+    "fan",
+    "parent"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025/categories-2027",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "competitions-categories-and-shoot-offs",
+      "women-lady-category"
+    ],
+    "interpreter": [
+      "referee-categories"
+    ]
+  },
+  "terms": [
+    "open-ranking",
+    "category",
+    "junior",
+    "lady",
+    "men-category",
+    "senior",
+    "veteran",
+    "master-category",
+    "team",
+    "shooter-class",
+    "shoot-off",
+    "sudden-death",
+    "countback",
+    "simultaneous-double",
+    "jury",
+    "nsca",
+    "double-on-report"
+  ],
+  "rule_refs": [
+    {
+      "book": "categories",
+      "id": "junior"
+    },
+    {
+      "book": "categories",
+      "id": "lady"
+    },
+    {
+      "book": "categories",
+      "id": "men"
+    },
+    {
+      "book": "categories",
+      "id": "senior"
+    },
+    {
+      "book": "categories",
+      "id": "veteran"
+    },
+    {
+      "book": "categories",
+      "id": "master"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-top-three"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-sudden-death"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-squad-and-timing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-team-ties"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-setup"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-medals"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-availability"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-countback"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-team-ties"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-difficulty-classes"
+    }
+  ],
+  "facts": [
+    "rules.shootoff-ready-time",
+    "competitions.countback-order",
+    "competitions.team-size"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — Categories (valid from 1 January 2027)",
+        "uk": "FITASC — категорії (чинні з 1 січня 2027 року)"
+      },
+      "url": "https://www.fitasc.com/competitions/categories",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Categories, classes and shoot-offs",
+    "uk": "Категорії, класи і перестрілки"
+  },
+  "summary": {
+    "en": "The open ranking and the FITASC categories from 2027, the teams, classes in some countries, and how ties are settled in {{tm:sporting}} and {{tm:compak}}.",
+    "uk": "Загальний залік і категорії FITASC з 2027 року, команди, класи в деяких країнах і як розв’язують рівні результати в {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "referee-categories-p1",
+      "t": "p",
+      "anchor": "referee-categories",
+      "core": true,
+      "disc": "both",
+      "en": "Besides the open ranking, where everyone competes together, FITASC events rank shooters in categories by age and sex. From 1 January 2027 the international table for {{tm:sporting}} and {{tm:compak}} has six categories. They are Junior (13–20), Lady (from 13), Men (21–55), Senior (56–65), Veteran (66–72) and Master (from 73, men and women). For events before that date, check the table then in force on the FITASC website.",
+      "uk": "Окрім {{term:open-ranking|загального заліку}}, де всі змагаються разом, на змаганнях FITASC стрільців ранжують у {{term:category|категоріях}} за віком і статтю. З 1 січня 2027 року міжнародна таблиця для {{tm:sporting}} і {{tm:compak}} має шість категорій. Це {{term:junior|Junior}} (13–20), {{term:lady|Lady}} (від 13), {{term:men-category|Men}} (21–55), {{term:senior|Senior}} (56–65), {{term:veteran|Veteran}} (66–72) і {{term:master-category|Master}} (від 73, чоловіки й жінки). Для змагань до цієї дати перевіряйте таблицю, чинну на той час, на сайті FITASC."
+    },
+    {
+      "k": "referee-categories-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "What counts is the year of birth, not the birthday. A shooter moves into a new category on 1 January of the year in which he or she reaches its lowest age, for example 56 for Senior. This holds even if the birthday is in December. For the 2027 season this means: Junior born 2007–2014, Men born 1972–2006, Senior 1962–1971, Veteran 1955–1961, Master born before 1955. Each new season all these year ranges move on by one year.",
+      "uk": "Значення має рік народження, а не день народження. Нова категорія діє з 1 січня того року, у якому стрільцеві чи стрільчині виповнюється її найменший вік, наприклад 56 для Senior. І так навіть тоді, коли день народження припадає на грудень. Для сезону 2027 це означає: Junior — народжені 2007–2014, Men — 1972–2006, Senior — 1962–1971, Veteran — 1955–1961, Master — до 1955 року. Щосезону всі ці межі років зсуваються на рік."
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "Note that {{term:senior|Senior}} is not the main adult category but the 56–65 age group; the main adult category is {{term:men-category|Men}} (Homme in French). One score counts in the open ranking and in your category at the same time, so it can win a medal in both.",
+      "uk": "Зверніть увагу: {{term:senior|Senior}} — це не основна доросла категорія, а вікова група 56–65 років; основна доросла — {{term:men-category|Men}} (французькою Homme). Один і той самий результат іде і в загальний залік, і в залік категорії, тож може принести медаль в обох."
+    },
+    {
+      "k": "women-lady-category-p1",
+      "t": "p",
+      "anchor": "women-lady-category",
+      "disc": "both",
+      "en": "Men and women shoot from the same stands at the same targets: there are no special trajectories or shorter distances for women. The category changes only the ranking you appear in, and some women finish high in the open ranking too.",
+      "uk": "Чоловіки й жінки стріляють з тих самих стрілецьких місць по тих самих мішенях: окремих «жіночих» траєкторій чи коротших дистанцій немає. Категорія змінює лише залік, у якому вас ранжують, і деякі жінки посідають високі місця й у загальному заліку."
+    },
+    {
+      "k": "women-lady-category-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "The women’s category is {{term:lady|Lady}} (Dame in French). It is open from the year a girl turns 13 and has no upper age limit. A girl aged 13–20 is also of Junior age; the competition rules and the programme say which category she enters.",
+      "uk": "Жіноча категорія — {{term:lady|Lady}} (французькою Dame). У ній виступають з року, коли дівчині виповнюється 13, і верхньої вікової межі вона не має. Дівчина 13–20 років за віком підходить і до Junior; у якій категорії виступати, визначають правила й програма змагань."
+    },
+    {
+      "k": "women-lady-category-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "In special cases a shooter may be allowed to compete in a category other than the one their age gives; this permission is called a derogation. If you think you need one, ask your national federation.",
+      "uk": "В особливих випадках стрільцеві можуть дозволити виступати не в тій категорії, яку визначає його вік; такий дозвіл називають дерогацією (derogation). Якщо вважаєте, що він вам потрібен, запитайте у своїй федерації."
+    },
+    {
+      "k": "referee-categories-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Teams have their own rules: a team usually has {{fact:competitions.team-size}}. A junior placed in the Men team, or a junior girl in the Lady team, must also enter that category individually. National federations and clubs may use their own categories, so always check the competition programme. Each category has its own medals. In {{tm:compak}} the categories also have shoot-offs for their top three. So there can be a shoot-off for, say, third place in the Veteran category as well as in the open ranking. In {{tm:sporting}} the programme says whether categories have shoot-offs.",
+      "uk": "Для {{term:team|команд}} свої правила: у команді зазвичай {{fact:competitions.team-size}}. Юніор у команді Men або юніорка в команді Lady мусять виступати в цій категорії й в особистому заліку. Національні федерації й клуби можуть мати власні категорії, тож завжди перевіряйте програму змагань. У кожній категорії свої медалі. У {{tm:compak}} категорії мають і власні перестрілки за трійку призерів. Тож перестрілка може бути, скажімо, і за третє місце в категорії Veteran, а не лише в загальному заліку. Чи бувають перестрілки в категоріях у {{tm:sporting}}, повідомляє програма змагань."
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "Who may join which team: the Men team may include junior boys and Senior, Veteran and Master shooters; the Lady team, women or junior girls. A Senior team may also include Veteran and Master shooters.",
+      "uk": "Хто може входити до якої команди: до команди Men — також юніори-хлопці, Senior, Veteran і Master; до команди Lady — жінки або юніорки. До команди Senior можуть входити й Veteran та Master."
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-p3",
+      "t": "p",
+      "en": "Classes are different. In some countries shooters are put into {{term:shooter-class|classes}}, such as AA, A, B and C, by their average scores, so that people of a similar level compete together. A category depends on age or sex, a class on results. The international FITASC rules set no classes for shooters (the A, B and C classes in the {{tm:sporting}} rules grade trajectories, not people).",
+      "uk": "Класи — це інше. У деяких країнах стрільців ділять на {{term:shooter-class|класи}}, як-от AA, A, B і C, за середнім результатом, щоб змагалися люди схожого рівня. Категорія залежить від віку чи статі, клас — від результатів. Міжнародні правила FITASC не ділять стрільців на класи (класи A, B і C у правилах {{tm:sporting}} описують складність траєкторій, а не людей)."
+    },
+    {
+      "k": "referee-scoring-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "An international event is 200 targets in rounds of 25. When shooters tie for one of the first three places, they shoot a {{term:shoot-off|shoot-off}} of 25 targets. If they are still level, {{term:sudden-death|sudden death}} follows: they keep shooting, and the first shooter to miss (score a zero) is out. Below third place there is no shoot-off: tied shooters share the place, and {{term:countback|countback}} sets their order in the list. Their scores are compared {{fact:competitions.countback-order}}; the first difference decides who is listed higher. Teams do not shoot off; tied teams are also separated by countback, using their members’ combined scores.",
+      "uk": "Міжнародні змагання — це 200 мішеней раундами по 25. Якщо в боротьбі за одне з перших трьох місць результати рівні, стрільці проходять {{term:shoot-off|перестрілку}} (shoot-off) на 25 мішеней. Якщо рівність зберігається, далі — {{term:sudden-death|стрільба до першого промаху}} (sudden death): стрільці стріляють далі, і хто перший промахнеться, той вибуває. Нижче третього місця перестрілки немає: стрільці ділять місце, а порядок у списку визначає {{term:countback|каунтбек}} (countback). Їхні результати порівнюють {{fact:competitions.countback-order}}; перша ж різниця визначає, хто стоїть у списку вище. Команди не перестрілюються: рівні команди теж розводять каунтбеком, за сумою результатів їхніх членів."
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-p4",
+      "t": "compare",
+      "disc": "both",
+      "en": "Shoot-offs in each discipline",
+      "uk": "Перестрілки в кожній дисципліні",
+      "sporting": {
+        "en": "If time allows, the shoot-off is shot on a new layout set by the jury. The usual rules apply.",
+        "uk": "Якщо дозволяє час, перестрілку стріляють на новому майданчику, який призначає журі. Діють звичайні правила."
+      },
+      "compak": {
+        "en": "Shoot-offs decide the top three in the open ranking and in each category. They are shot on a Compak with one single and two {{term:simultaneous-double|simultaneous doubles}} at each station. If the shooters who tied in the open ranking are also from the same category, that one shoot-off decides their order in the category too.",
+        "uk": "Перестрілки визначають трійку призерів і в загальному заліку, і в кожній категорії. Їх стріляють на Compak з однією одиночною мішенню і двома {{term:simultaneous-double|одночасними дуплетами}} на кожному номері. Якщо стрільці, які поділили місце в загальному заліку, ще й з однієї категорії, та сама перестрілка визначає їхній порядок і в категорії."
+      }
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "Stay close if you might be in a shoot-off. If no time was set in advance, keep in touch with the {{term:jury|jury}}: you must be ready to shoot {{fact:rules.shootoff-ready-time}}. A shooter who is not there is out, and nobody takes that place: the others shoot the shoot-off without them. For exceptional reasons the jury may move the shoot-off to the next day.",
+      "uk": "Якщо можете потрапити в перестрілку, будьте поруч. Якщо час заздалегідь не призначили, тримайте зв’язок із {{term:jury|журі}}: ви маєте бути готові стріляти {{fact:rules.shootoff-ready-time}}. Хто не з’явився, вибуває, і його місце ніхто не займає: решта стріляє перестрілку без нього. З виняткових причин журі може перенести перестрілку на наступний день."
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "An example: two shooters tie on 188 for 5th place. They share the place, and {{term:countback|countback}} lists them in order: it compares their scores {{fact:competitions.countback-order}}. If one shot 24 on the 8th layout and the other 23, the first is listed above the second. Tied {{term:team|teams}} are separated in the same way, by their members’ combined scores.",
+      "uk": "Приклад: двоє стрільців мають по 188 і ділять 5-те місце. {{term:countback|Каунтбек}} визначає їхній порядок у списку: порівнює їхні результати {{fact:competitions.countback-order}}. Якщо один на 8-му майданчику вибив 24, а інший 23, першого записують у списку вище. Команди з однаковою сумою розводять так само — за сумою результатів їхніх членів."
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-calm",
+      "t": "tip",
+      "en": "Many coaches suggest keeping your usual routine and pace in a shoot-off, even when spectators gather round. More: {{lesson:mind-pressure-choking}}.",
+      "uk": "Багато тренерів радять у перестрілці зберігати звичний ритуал і темп, навіть коли довкола збираються глядачі. Докладніше: {{lesson:mind-pressure-choking}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "referee-categories-p3",
+      "for": "interpreter",
+      "core": true,
+      "en": "The biggest interpreter trap is “Senior”. In many sports “senior” means the adult level (as opposed to junior), but in FITASC Senior is the 56–65 age group; the main adult category is Men. Do not translate it with the word for adults in your language. “Master” is another trap: the FITASC age category from 73 has nothing to do with the NSCA “Master class”, which is a skill level.",
+      "uk": "Найбільша пастка для перекладача — «Senior». У багатьох видах спорту «senior» означає дорослий рівень (на відміну від junior), але у FITASC Senior — це вікова група 56–65; основна доросла категорія — Men. Не перекладайте його словом «дорослі». «Master» — ще одна пастка: вікова категорія FITASC від 73 років не має нічого спільного з «Master class» {{term:nsca|NSCA}}, тобто рівнем майстерності."
+    },
+    {
+      "k": "referee-scoring-p4",
+      "for": "interpreter",
+      "core": true,
+      "en": "Shoot-offs bring one more interpreter trap. If no time was fixed, the shooters must be ready within fifteen minutes of the call. A missing shooter is “disqualified” in the {{tm:sporting}} rules and “considered withdrawn” in the {{tm:compak}} rules. Use the word of the discipline you are at.",
+      "uk": "Перестрілка має ще одну пастку для перекладача. Якщо час не призначили заздалегідь, стрільці мусять бути готові протягом п’ятнадцяти хвилин після виклику. Відсутнього в правилах {{tm:sporting}} «дискваліфікують», а в правилах {{tm:compak}} — «вважають таким, що знявся». Вживайте слово тієї дисципліни, на якій працюєте."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "referee-categories-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Which category are you shooting in?",
+      "meaning": {
+        "en": "Asked at registration: Junior, Lady, Men, Senior, Veteran or Master.",
+        "uk": "Питають на реєстрації: Junior, Lady, Men, Senior, Veteran чи Master."
+      },
+      "say": {
+        "uk": "У якій категорії ви виступаєте?"
+      },
+      "from": "referee-categories"
+    },
+    {
+      "k": "referee-categories-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "He’s a Senior now.",
+      "meaning": {
+        "en": "He is in the 56–65 group this season.",
+        "uk": "Цього сезону він у групі 56–65 років."
+      },
+      "say": {
+        "uk": "Тепер він у категорії Senior (56–65)."
+      },
+      "from": "referee-categories"
+    },
+    {
+      "k": "referee-categories-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "She won the Lady category and was fourth overall.",
+      "meaning": {
+        "en": "First among ladies, fourth in the open ranking.",
+        "uk": "Перша серед жінок і четверта в загальному заліку."
+      },
+      "say": {
+        "uk": "Вона перемогла в категорії Lady і стала четвертою в загальному заліку."
+      },
+      "from": "referee-categories"
+    },
+    {
+      "k": "referee-categories-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "There’s a shoot-off for Veteran bronze.",
+      "meaning": {
+        "en": "{{tm:compak}} (or a {{tm:sporting}} event whose programme has category shoot-offs): two or more Veterans are tied for third in their category.",
+        "uk": "{{tm:compak}} (або змагання {{tm:sporting}}, де програма передбачає перестрілки в категоріях): двоє чи більше ветеранів мають однаковий результат за третє місце у своїй категорії."
+      },
+      "say": {
+        "uk": "Перестрілка за бронзу в категорії Veteran."
+      },
+      "from": "referee-categories"
+    },
+    {
+      "k": "referee-scoring-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "There’s a tie for third — shoot-off in fifteen minutes.",
+      "meaning": {
+        "en": "Be at the named layout and ready to shoot within fifteen minutes.",
+        "uk": "За п’ятнадцять хвилин треба бути на вказаному майданчику й готовим стріляти."
+      },
+      "say": {
+        "uk": "Рівність за третє місце — перестрілка за п’ятнадцять хвилин."
+      },
+      "from": "referee-scoring"
+    },
+    {
+      "k": "referee-scoring-ph5",
+      "speaker": "referee",
+      "core": true,
+      "en": "Sudden death: first zero is out.",
+      "meaning": {
+        "en": "After the 25-target shoot-off, the first shooter to miss (with an equal number of targets shot) is eliminated.",
+        "uk": "Після перестрілки на 25 мішеней вибуває перший, хто промахнеться (за однакової кількості відстріляних мішеней)."
+      },
+      "say": {
+        "uk": "До першого промаху: хто першим промахнеться, вибуває."
+      },
+      "from": "referee-scoring"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "referee-categories-kp2",
+      "core": true,
+      "en": "Year of birth decides; the new category starts on 1 January",
+      "uk": "Вирішує рік народження; нова категорія — з 1 січня"
+    },
+    {
+      "k": "referee-categories-kp3",
+      "core": true,
+      "en": "Senior = 56–65, not “adults”; the main adult category is Men",
+      "uk": "Senior — 56–65, а не «дорослі»; основна доросла категорія — Men"
+    },
+    {
+      "k": "referee-scoring-kp3",
+      "core": true,
+      "en": "Ties for places 1–3: 25-target shoot-off, then sudden death",
+      "uk": "Рівність за 1–3 місця: перестрілка на 25 мішеней, потім до першого промаху (sudden death)"
+    },
+    {
+      "k": "referee-scoring-kp4",
+      "core": true,
+      "en": "Below 3rd: countback from the 8th layout or Compak; no team shoot-offs",
+      "uk": "Нижче 3-го місця — каунтбек від 8-го майданчика чи Compak; команди не перестрілюються"
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-kp4",
+      "en": "Might you be in a shoot-off? Stay close and be ready {{fact:rules.shootoff-ready-time}}.",
+      "uk": "Можете потрапити в перестрілку? Будьте поруч і готові стріляти {{fact:rules.shootoff-ready-time}}.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "competitions-categories-and-shoot-offs-dyk",
+    "en": "In {{tm:sporting}} sudden death a {{term:double-on-report|double on report}} counts as a pair. Hit-then-miss (“one-zero”) is the same as miss-then-hit (“zero-one”), so it does not matter which of the two targets you lost.",
+    "uk": "У {{tm:sporting}} під час стрільби до першого промаху {{term:double-on-report|дуплет на постріл}} рахують як пару. Влучання-промах («one-zero») — те саме, що промах-влучання («zero-one»), тож неважливо, яку з двох мішеней ви втратили."
+  },
+  "quiz": [
+    {
+      "k": "competitions-categories-and-shoot-offs-q1",
+      "q": {
+        "en": "How does a category differ from a class?",
+        "uk": "Чим категорія відрізняється від класу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They mean the same thing in the rules",
+          "uk": "У правилах це одне й те саме"
+        },
+        {
+          "k": "b",
+          "en": "A category is by results, a class by age",
+          "uk": "Категорія — за результатами, клас — за віком"
+        },
+        {
+          "k": "c",
+          "en": "A category is by age or sex, a class by results",
+          "uk": "Категорія — за віком чи статтю, клас — за результатами"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Junior, Lady, Senior and Veteran are categories by age or sex; AA, A, B and C are national classes by average score.",
+        "uk": "Junior, Lady, Senior і Veteran — категорії за віком чи статтю; AA, A, B і C — національні класи за середнім результатом."
+      }
+    },
+    {
+      "k": "competitions-categories-and-shoot-offs-q3",
+      "q": {
+        "en": "How are tied shooters below third place ranked?",
+        "uk": "Як розставляють стрільців з однаковим результатом нижче третього місця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They share it; countback from the 8th layout sets the order",
+          "uk": "Ділять місце; порядок визначає каунтбек від 8-го майданчика"
+        },
+        {
+          "k": "b",
+          "en": "By a shoot-off of 25 targets for the place",
+          "uk": "Перестрілкою на 25 мішеней за це місце"
+        },
+        {
+          "k": "c",
+          "en": "By drawing lots after the event has ended",
+          "uk": "Жеребкуванням після завершення змагань"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "There are no shoot-offs below third place: the place is shared and countback sets the order, from the 8th layout or Compak back to the 1st.",
+        "uk": "Нижче третього місця перестрілок немає: місце ділять, а порядок визначає каунтбек — від 8-го майданчика чи Compak до 1-го."
+      },
+      "rule_ref": "sporting:ch18-top-three"
+    },
+    {
+      "k": "referee-categories-q1",
+      "q": {
+        "en": "A shooter born in 1971 enters a FITASC competition in 2027. Which category?",
+        "uk": "Стрілець 1971 року народження заявляється на змагання FITASC у 2027 році. Яка категорія?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Men",
+          "uk": "Men"
+        },
+        {
+          "k": "b",
+          "en": "Senior",
+          "uk": "Senior"
+        },
+        {
+          "k": "c",
+          "en": "Veteran",
+          "uk": "Veteran"
+        },
+        {
+          "k": "d",
+          "en": "Master",
+          "uk": "Master"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "He turns 56 in 2027, so he is Senior from 1 January, whatever his birthday.",
+        "uk": "У 2027 році йому виповнюється 56, тож із 1 січня він Senior, незалежно від дня народження."
+      },
+      "rule_ref": "categories:senior",
+      "from": "referee-categories"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "competitions-categories-and-shoot-offs-q2",
+      "q": {
+        "en": "How many targets are in the first round of a shoot-off?",
+        "uk": "Скільки мішеней у першому раунді перестрілки?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "5",
+          "uk": "5"
+        },
+        {
+          "k": "b",
+          "en": "10",
+          "uk": "10"
+        },
+        {
+          "k": "c",
+          "en": "25",
+          "uk": "25"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A shoot-off is a round of 25 targets; if the scores are still level, sudden death follows.",
+        "uk": "Перестрілка — раунд із 25 мішеней; якщо рівність лишається, стріляють до першого промаху."
+      }
+    },
+    {
+      "k": "referee-scoring-q2",
+      "q": {
+        "en": "Two shooters tie for 7th place. What happens?",
+        "uk": "Двоє стрільців мають однаковий результат за 7-ме місце. Що далі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A 25-target shoot-off",
+          "uk": "Перестрілка на 25 мішеней"
+        },
+        {
+          "k": "b",
+          "en": "Sudden death at once",
+          "uk": "Одразу стрільба до першого промаху"
+        },
+        {
+          "k": "c",
+          "en": "A coin toss by the jury",
+          "uk": "Жереб журі"
+        },
+        {
+          "k": "d",
+          "en": "They share the place and are ordered by countback",
+          "uk": "Ділять місце, порядок визначає каунтбек"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Shoot-offs are only for places 1–3; below that, tied shooters are listed by countback from the eighth layout or Compak.",
+        "uk": "Перестрілки бувають лише за 1–3 місця; нижче порядок визначає каунтбек від восьмого майданчика чи Compak."
+      },
+      "from": "referee-scoring"
+    },
+    {
+      "k": "women-lady-category-q1",
+      "q": {
+        "en": "From what age can women and girls enter the Lady category under FITASC rules?",
+        "uk": "З якого віку жінки й дівчата можуть виступати в категорії Lady за правилами FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "From 1 January of the year they turn 13",
+          "uk": "З 1 січня року, у якому їм виповнюється 13"
+        },
+        {
+          "k": "b",
+          "en": "From the day of their 18th birthday",
+          "uk": "З дня свого 18-річчя"
+        },
+        {
+          "k": "c",
+          "en": "From 1 January of the year they turn 21",
+          "uk": "З 1 січня року, у якому їм виповнюється 21"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Lady starts from the year of the 13th birthday, counted by year of birth.",
+        "uk": "Lady — з року 13-річчя, рахуючи за роком народження."
+      },
+      "rule_ref": "categories:lady",
+      "from": "women-lady-category"
+    },
+    {
+      "k": "women-lady-category-q2",
+      "q": {
+        "en": "Does the Lady category have an upper age limit?",
+        "uk": "Чи має категорія Lady верхню вікову межу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, it ends at the age of 55",
+          "uk": "Так, вона закінчується в 55 років"
+        },
+        {
+          "k": "b",
+          "en": "No, the FITASC table sets none",
+          "uk": "Ні, таблиця FITASC її не встановлює"
+        },
+        {
+          "k": "c",
+          "en": "Yes, it ends at the age of 40",
+          "uk": "Так, вона закінчується в 40 років"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The FITASC table sets no upper limit for Lady.",
+        "uk": "Таблиця FITASC не встановлює верхньої межі для Lady."
+      },
+      "rule_ref": "categories:lady",
+      "from": "women-lady-category"
+    },
+    {
+      "k": "women-lady-category-q3",
+      "q": {
+        "en": "Do women shoot shorter or easier trajectories?",
+        "uk": "Чи стріляють жінки коротші чи легші траєкторії?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, the trajectories are shorter",
+          "uk": "Так, траєкторії коротші"
+        },
+        {
+          "k": "b",
+          "en": "Only in {{tm:compak}} events",
+          "uk": "Лише на змаганнях з {{tm:compak}}"
+        },
+        {
+          "k": "c",
+          "en": "No, the targets are the same for all",
+          "uk": "Ні, мішені однакові для всіх"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The category affects only the ranking, not the targets.",
+        "uk": "Категорія впливає лише на залік, а не на мішені."
+      },
+      "from": "women-lady-category"
+    },
+    {
+      "k": "referee-categories-q2",
+      "q": {
+        "en": "How should you translate the FITASC category “Senior” for a client?",
+        "uk": "Як перекласти клієнтові категорію FITASC «Senior»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "“Adults”",
+          "uk": "«Дорослі»"
+        },
+        {
+          "k": "b",
+          "en": "“Experienced shooters”",
+          "uk": "«Досвідчені стрільці»"
+        },
+        {
+          "k": "c",
+          "en": "“Top class”",
+          "uk": "«Найвищий клас»"
+        },
+        {
+          "k": "d",
+          "en": "“The 56–65 age group”",
+          "uk": "«Вікова група 56–65»"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "In FITASC Senior is an age group of 56–65; the main adult category is Men.",
+        "uk": "У FITASC Senior — вікова група 56–65; основна доросла категорія — Men."
+      },
+      "from": "referee-categories"
+    },
+    {
+      "k": "referee-categories-q3",
+      "q": {
+        "en": "How many shooters are in a Men team in {{tm:sporting}}?",
+        "uk": "Скільки стрільців у команді Men у {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Four",
+          "uk": "Четверо"
+        },
+        {
+          "k": "b",
+          "en": "Three",
+          "uk": "Троє"
+        },
+        {
+          "k": "c",
+          "en": "Six",
+          "uk": "Шестеро"
+        },
+        {
+          "k": "d",
+          "en": "Five",
+          "uk": "П’ятеро"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Teams usually have three shooters, but the Men team in {{tm:sporting}} has four.",
+        "uk": "Зазвичай у команді троє, але команда Men у {{tm:sporting}} має чотирьох."
+      },
+      "rule_ref": "categories:men",
+      "from": "referee-categories"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "7dfaacec",
+    "summary": "4be42019",
+    "referee-categories-p1": "45b9a53f",
+    "referee-categories-p2": "7003e4fe",
+    "competitions-categories-and-shoot-offs-p1": "8ae48a20",
+    "women-lady-category-p1": "f1f2bff7",
+    "women-lady-category-p2": "d4535c44",
+    "women-lady-category-p3": "c41490f6",
+    "referee-categories-p4": "1be91542",
+    "competitions-categories-and-shoot-offs-p2": "041fee96",
+    "competitions-categories-and-shoot-offs-p3": "fccc86e0",
+    "referee-scoring-p3": "4a2813e1",
+    "competitions-categories-and-shoot-offs-p4": "11a3834b",
+    "competitions-categories-and-shoot-offs-p5": "d9c9ef08",
+    "competitions-categories-and-shoot-offs-p6": "eced4c79",
+    "competitions-categories-and-shoot-offs-calm": "9eb1d29d",
+    "referee-categories-kp2": "71b5ac41",
+    "referee-categories-kp3": "8e4889a2",
+    "referee-scoring-kp3": "6d1041e2",
+    "referee-scoring-kp4": "dca59d1b",
+    "competitions-categories-and-shoot-offs-kp4": "ae67f12a",
+    "competitions-categories-and-shoot-offs-dyk": "6a21f6ed",
+    "referee-categories-p3": "90af6291",
+    "referee-scoring-p4": "44ba25f3",
+    "referee-categories-ph1": "ffa5dccf",
+    "referee-categories-ph2": "e0b2d808",
+    "referee-categories-ph3": "cc64c02a",
+    "referee-categories-ph4": "e3a839c5",
+    "referee-scoring-ph4": "533d83d0",
+    "referee-scoring-ph5": "d65aaaaf",
+    "competitions-categories-and-shoot-offs-q1": "1b9ff7a4",
+    "competitions-categories-and-shoot-offs-q3": "da8eb355",
+    "referee-categories-q1": "9b3a5fb5",
+    "competitions-categories-and-shoot-offs-q2": "0569f6ba",
+    "referee-scoring-q2": "5872830c",
+    "women-lady-category-q1": "d9dbc888",
+    "women-lady-category-q2": "7ae8918e",
+    "women-lady-category-q3": "a8f4b9d1",
+    "referee-categories-q2": "57e98ff8",
+    "referee-categories-q3": "83bd1b3e"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Glossary: the term 'derogation' (an authorised exception to the age rule of a category) is not in the glossary yet. When it is added to docs/glossary/data/learn_terms.js (+ i18n), add it to terms and link it in women-lady-category-p3.",
+      "Moved in from watching-reading-results (design §3.2): referee-scoring-p3, referee-scoring-p4 (now an interpreter note), referee-scoring-ph4, referee-scoring-ph5, referee-scoring-kp3, referee-scoring-kp4 and the exam question referee-scoring-q2. Copy their entries from i18n/<lang>/watching-reading-results.json into i18n/<lang>/competitions-categories-and-shoot-offs.json (9 languages); referee-scoring-p4 goes to the overlay's note map.",
+      "referee-categories-p3 moved from body to note (interpreter advice), key unchanged: move its overlay entry from body to note. Its English changed: “Do not translate it as «дорослі»” (a Ukrainian word inside the English master) became “Do not translate it with the word for adults in your language”; check the 9 overlays against it.",
+      "Overlay keys no longer in this master: referee-categories-title, referee-categories-kp1, referee-categories-kp4, referee-categories-kp5 (their facts are in the body and in the remaining key points), and referee-scoring-kp5 if it was copied. Remove them during the next translation wave.",
+      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/competitions-categories-and-shoot-offs.json: referee-categories-p2 (plain wording: the lowest age of the category, the year ranges), referee-categories-p4 (category shoot-offs are a Compak® Sporting rule; in Sporting™ the programme decides; team size as a fact token), referee-scoring-p3 (sudden death and countback explained; countback by the 8th layout or Compak; “Teams do not shoot off”), referee-categories-p3 (the language claim about “senior” corrected), referee-categories-ph4 (meaning labelled Compak®).",
+      "Core keys whose English changed only in form (trade-mark tokens {{tm:…}} instead of the literal names; referee-categories-p1 is also split into two sentences): referee-categories-p1, referee-scoring-p4, referee-categories-q3, and the curly apostrophe ’ in referee-categories-ph2, referee-categories-ph4, referee-scoring-ph4 (already curly). Put the new hash in the overlays; the translations stay valid."
+    ]
+  }
+}

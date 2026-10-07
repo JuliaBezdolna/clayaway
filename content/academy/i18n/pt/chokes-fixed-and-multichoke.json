@@ -1,0 +1,87 @@
+{
+  "id": "chokes-fixed-and-multichoke",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "bde7f021",
+    "summary": "ccf70477",
+    "chokes-fixed-and-multichoke-p1": "23ae3c30",
+    "chokes-fixed-and-multichoke-p2": "e7103ab0",
+    "chokes-fixed-and-multichoke-p3": "204a8f9d",
+    "chokes-fixed-and-multichoke-p4": "5a913245",
+    "chokes-fixed-and-multichoke-cmp1": "33d955d7",
+    "chokes-fixed-and-multichoke-kp1": "373ad63b",
+    "chokes-fixed-and-multichoke-kp2": "02e18af9",
+    "chokes-fixed-and-multichoke-kp3": "208bc5ab",
+    "chokes-fixed-and-multichoke-kp4": "d1799e1f",
+    "chokes-fixed-and-multichoke-q1": "2c83214f",
+    "chokes-fixed-and-multichoke-q2": "23f75281",
+    "chokes-fixed-and-multichoke-q3": "f6b1189d",
+    "chokes-fixed-and-multichoke-q4": "14c51674",
+    "chokes-fixed-and-multichoke-dyk": "51b43287"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Chokes fixos e intermutáveis",
+  "summary": "Os chokes ou estão maquinados no cano para sempre ou são tubos roscados que se podem trocar. As duas opções, e quando as regras do {{tm:sporting}} e do {{tm:compak}} permitem trocá-los.",
+  "body": {
+    "chokes-fixed-and-multichoke-p1": "Um {{term:fixed-choke|choke fixo}} é maquinado no cano de fábrica, e só um {{term:gunsmith|armeiro}} o pode mudar. Muitas armas antigas e clássicas são feitas assim. Uma sobreposta desse tipo tem normalmente dois estrangulamentos diferentes, por exemplo 1/4 e 1/2, e o atirador trabalha com o que tem.",
+    "chokes-fixed-and-multichoke-p2": "Os {{term:multichoke|chokes intermutáveis}} (multichoke) são tubos roscados curtos, aparafusados na boca do cano com uma {{term:choke-key|chave de chokes}}. A maioria das armas de competição modernas tem-nos. A arma vem com um jogo de vários chokes, e o atirador monta os que convêm aos pratos.",
+    "chokes-fixed-and-multichoke-p3": "Os tubos ou ficam embutidos (ao nível da ponta do cano) ou são {{term:extended-choke|prolongados}}: saem para fora da boca, muitas vezes 1 a 5 cm. Muitos chokes prolongados podem ser rodados à mão, e a sua marcação pode ler-se sem os retirar.",
+    "chokes-fixed-and-multichoke-p4": "As roscas e os tamanhos variam entre fabricantes e até entre modelos do mesmo fabricante. Um choke de outro sistema pode não encaixar, ou enroscar-se mal, o que é perigoso. Compre apenas chokes feitos para a sua arma.",
+    "chokes-fixed-and-multichoke-cmp1": {
+      "sporting": "Pode trocar um choke, a arma inteira ou um cano entre postos, ou entre os simples e os doubles, se isso não causar atraso. Depois de entrar no posto, não há mais trocas.",
+      "compak": "Dentro de uma ronda não pode trocar a arma, os canos ou os chokes. Só se trocam entre rondas; a exceção é uma avaria da arma. Por isso escolha chokes que sirvam para todos os pratos da ronda."
+    }
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-fixed-and-multichoke-kp1": "Um choke fixo é maquinado no cano; um intermutável aparafusa-se com uma chave.",
+    "chokes-fixed-and-multichoke-kp2": "Os chokes de sistemas diferentes não são intermutáveis entre si.",
+    "chokes-fixed-and-multichoke-kp3": "{{tm:sporting}}: troque os chokes entre postos, não no posto.",
+    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}}: sem trocas de choke dentro de uma ronda."
+  },
+  "did_you_know": "Alguns atiradores de {{tm:sporting}} não trocam de choke durante toda uma competição e confiam num só par, por exemplo 1/4 e 1/2. Assim pensam menos no equipamento e mais nos pratos.",
+  "quiz": {
+    "chokes-fixed-and-multichoke-q1": {
+      "q": "Quando pode trocar um choke no {{tm:sporting}}?",
+      "options": {
+        "a": "Entre postos, se isso não causar atraso",
+        "b": "No posto, mesmo antes do double",
+        "c": "Só antes do primeiro posto do dia",
+        "d": "Só com o consentimento escrito do júri"
+      },
+      "explain": "Pode trocar entre postos ou entre simples e doubles, mas não depois de entrar no posto."
+    },
+    "chokes-fixed-and-multichoke-q2": {
+      "q": "Pode trocar chokes dentro de uma ronda de {{tm:compak}}?",
+      "options": {
+        "a": "Sim, ao mudar de posto",
+        "b": "Sim, se os próximos pratos forem longe",
+        "c": "Não, só entre rondas",
+        "d": "Sim, a qualquer momento da ronda"
+      },
+      "explain": "No {{tm:compak}} é proibido trocar a arma, os canos ou os chokes dentro de uma ronda; a exceção é uma avaria."
+    },
+    "chokes-fixed-and-multichoke-q3": {
+      "q": "Porque não deve montar um choke de outro sistema?",
+      "options": {
+        "a": "Estraga o aspeto da arma",
+        "b": "A rosca pode não corresponder, o que é perigoso",
+        "c": "O árbitro não consegue verificar a marcação",
+        "d": "Muda o calibre do cano"
+      },
+      "explain": "Os sistemas de choke diferem; um choke errado pode danificar o cano."
+    },
+    "chokes-fixed-and-multichoke-q4": {
+      "q": "O que é um choke prolongado?",
+      "options": {
+        "a": "Um choke mais fechado do que full",
+        "b": "Um choke maquinado no cano",
+        "c": "Um choke feito só para chumbo de aço",
+        "d": "Um tubo que sai para fora da boca do cano"
+      },
+      "explain": "Os chokes prolongados saem para fora da boca do cano, por isso a sua marcação pode ler-se sem os retirar."
+    }
+  }
+}

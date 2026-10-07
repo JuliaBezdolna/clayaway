@@ -1,0 +1,79 @@
+{
+  "sporting-layout-targets": {
+    "text": {
+      "en": "25 targets: 15 singles and 5 doubles",
+      "uk": "25 мішеней: 15 одиночних і 5 дуплетів"
+    },
+    "scope": "sporting",
+    "rule_ref": "sporting:ch2-traps-table",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "sporting-menu-special-targets": {
+    "text": {
+      "en": "90 mm, 70 mm or 60 mm, battue or rabbit",
+      "uk": "90, 70 чи 60 мм, батю або кролик"
+    },
+    "scope": "sporting",
+    "rule_ref": "sporting:ch2-target-menu",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "sporting-difficulty-classes": {
+    "text": {
+      "en": "class A is broken by an average shooter more than 80% of the time, class B 60–80%, class C 40–60%",
+      "uk": "мішень класу A середній стрілець розбиває понад 80 % разів, класу B — 60–80 %, класу C — 40–60 %"
+    },
+    "scope": "sporting",
+    "rule_ref": "sporting:ch2-difficulty-classes",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-station-menus": {
+    "text": {
+      "en": "five singles; three singles and one double; or one single and two doubles",
+      "uk": "п’ять одиночних; три одиночні й один дуплет; або одна одиночна й два дуплети"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch17-round-combinations",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-double-chain": {
+    "text": {
+      "en": "the first target of each double is the last target shot at the previous station",
+      "uk": "перша мішень кожного дуплета — це остання мішень, яку стріляли на попередньому номері"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch17-double-chain",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-tower-height": {
+    "text": {
+      "en": "at least 4 m above the stations",
+      "uk": "щонайменше на 4 м вище за номери"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch2-trap-placement",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-setting-tables": {
+    "text": {
+      "en": "40 ready-made setting tables (plans of which traps are shot at each station)",
+      "uk": "40 готових таблиць налаштування (схем, з яких машинок стріляють на кожному номері)"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch17-annex3-tables",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  }
+}

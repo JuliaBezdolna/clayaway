@@ -1,0 +1,457 @@
+{
+  "id": "technique-follow-through-and-mistakes",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "technique-follow-through-and-mistakes"
+    ],
+    "interpreter": [
+      "basics-follow-through"
+    ]
+  },
+  "terms": [
+    "follow-through",
+    "gun-speed",
+    "tempo",
+    "maintained-lead",
+    "swing-through",
+    "pull-away",
+    "ambush",
+    "stopping-the-gun",
+    "head-lift",
+    "single-target"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch4-single-target"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-trajectory-variety"
+    }
+  ],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Follow-through, gun speed and tempo",
+    "uk": "Продовження руху, швидкість стволів і темп"
+  },
+  "summary": {
+    "en": "Why the gun keeps moving after the shot, how gun speed defines your lead method, and where to read about common faults.",
+    "uk": "Чому рушниця рухається й після пострілу, як швидкість стволів визначає метод виносу і де прочитати про часті помилки."
+  },
+  "body": [
+    {
+      "k": "basics-follow-through-p1",
+      "t": "p",
+      "core": true,
+      "en": "Follow-through means the gun keeps moving along the target's line after the trigger is pulled, like a golf or tennis swing. There is a small delay between deciding to shoot and the shot leaving the barrels; if the gun stops at the trigger, the shot goes behind. Coaches watch the muzzles after the shot: if they freeze or drop, the follow-through was missing.",
+      "uk": "Продовження руху (follow-through) означає, що рушниця йде вздовж лінії мішені й після натискання на спуск, як ключка в гольфі чи ракетка в тенісі. Між рішенням стріляти і вильотом дробу є мала затримка; якщо рушниця зупиняється на спуску, дріб іде позаду. Тренери дивляться на стволи після пострілу: якщо вони завмерли чи впали, продовження руху не було.",
+      "anchor": "basics-follow-through"
+    },
+    {
+      "k": "basics-follow-through-p2",
+      "t": "p",
+      "core": true,
+      "en": "{{term:gun-speed|Gun speed}} is how fast the muzzles move compared with the target, and it defines the lead method. The same speed as the target is {{term:maintained-lead|maintained lead}}. Faster than the target is {{term:swing-through|swing-through}}. The same speed, then a short acceleration, is {{term:pull-away|pull-away}}. A still gun waiting at a point is {{term:ambush|ambush}}. A gun that is too slow falls behind; coaches say one that is too fast overshoots, and the shooter then often stops it.",
+      "uk": "{{term:gun-speed|Швидкість стволів}} (gun speed) — наскільки швидко рухаються стволи порівняно з мішенню, і саме вона визначає метод виносу. Та сама швидкість, що й у мішені, — {{term:maintained-lead|постійний винос}} (maintained lead). Швидше за мішень — {{term:swing-through|протяжка}} (swing-through). Та сама швидкість, а потім коротке прискорення, — {{term:pull-away|вихід з мішені}} (pull-away). Нерухома рушниця, що чекає в точці, — {{term:ambush|стрільба в точку}} (ambush). Якщо стволи рухаються заповільно, вони відстають; якщо зашвидко, кажуть тренери, вони проскакують мішень, і стрілець часто зупиняє рушницю."
+    },
+    {
+      "k": "basics-follow-through-p3",
+      "t": "p",
+      "core": true,
+      "en": "Tempo is how fast the whole shot is done; rhythm is how even it is. A fast, close target needs a quick tempo, a long, slow crosser a calmer one, but the rhythm stays smooth. Many coaches say that shooters with one tempo for everything lose the targets that need the opposite.",
+      "uk": "Темп (tempo) — як швидко виконано весь постріл; ритм (rhythm) — наскільки рівно. Швидка близька мішень потребує швидкого темпу, далека повільна поперечна мішень — спокійнішого, але ритм лишається плавним. Багато тренерів кажуть, що стрільці з одним темпом на все втрачають мішені, яким потрібен протилежний."
+    },
+    {
+      "k": "basics-follow-through-p4",
+      "t": "p",
+      "core": true,
+      "en": "“Stay in the gun”: cheek on the stock and eyes on the target until it breaks. That also keeps you ready for a second shot (coaches call it “the second barrel”), because you may fire twice at a single target.",
+      "uk": "«Stay in the gun» — «не відривайтеся від рушниці»: щока на прикладі, очі на мішені, доки вона не розіб’ється. Так ви готові й до другого пострілу («другого ствола», як кажуть тренери), бо по одиночній мішені можна вистрілити двічі."
+    },
+    {
+      "k": "technique-follow-through-and-mistakes-faults",
+      "t": "tip",
+      "en": "Many misses come from a few common faults: stopping the gun, lifting the head, a late or early mount, and losing the second target of a pair. Each has its own lesson: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} and {{lesson:faults-pairs-transition}}. How to read where a shot went is in {{lesson:faults-behind-in-front}}.",
+      "uk": "Багато промахів дають кілька типових помилок: зупинка рушниці, піднята голова, запізня чи зарання вкладка і втрачена друга мішень дуплета. Про кожну є окремий урок: {{lesson:faults-head-lift-stopping}}, {{lesson:faults-mount-errors}} і {{lesson:faults-pairs-transition}}. Як зрозуміти, куди пішов дріб, — в уроці {{lesson:faults-behind-in-front}}."
+    },
+    {
+      "k": "basics-follow-through-sim",
+      "t": "sim",
+      "sim": {
+        "type": "lead",
+        "method": "pull-away",
+        "preset": "crosser-rl",
+        "focus": "follow-through"
+      },
+      "ready": true,
+      "en": "Animation: tick the option that stops the gun at the trigger, and the shot goes behind the target although the lead looked right.",
+      "uk": "Анімація: позначте варіант, за якого рушниця зупиняється на спуску, — і дріб піде позаду мішені, хоча винос виглядав правильно."
+    }
+  ],
+  "note": [
+    {
+      "k": "basics-follow-through-p5",
+      "for": "interpreter",
+      "en": "Translate “finish the shot” as continuing the movement, not as stopping.",
+      "uk": "«Finish the shot» перекладайте як «доведіть рух до кінця», а не «закінчуйте» чи «зупиніться».",
+      "core": true
+    }
+  ],
+  "phrases": [
+    {
+      "k": "basics-follow-through-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Follow through — the gun keeps moving after the bang.",
+      "meaning": {
+        "en": "Do not stop the swing at the shot.",
+        "uk": "Не зупиняйте проводку в момент пострілу."
+      },
+      "say": {
+        "uk": "Продовжуйте рух — рушниця йде й після пострілу."
+      }
+    },
+    {
+      "k": "basics-follow-through-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "You stopped the gun.",
+      "meaning": {
+        "en": "The muzzles stopped at the trigger, so the shot went behind.",
+        "uk": "Стволи зупинилися на спуску, тому дріб пішов позаду."
+      },
+      "say": {
+        "uk": "Ви зупинили рушницю."
+      }
+    },
+    {
+      "k": "basics-follow-through-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Match the speed of the bird — you're racing it.",
+      "meaning": {
+        "en": "The gun is moving much faster than the target; move at the target's speed.",
+        "uk": "Рушниця рухається набагато швидше за мішень; рухайтеся з її швидкістю."
+      },
+      "say": {
+        "uk": "Підлаштуйтеся під швидкість мішені — ви з нею наввипередки."
+      }
+    },
+    {
+      "k": "basics-follow-through-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Slow the tempo down, this one gives you lots of time.",
+      "meaning": {
+        "en": "The target is slow or long, so the whole movement can be calmer.",
+        "uk": "Мішень повільна або довго в полі зору, тож увесь рух може бути спокійнішим."
+      },
+      "say": {
+        "uk": "Повільніше — на цій мішені у вас багато часу."
+      }
+    },
+    {
+      "k": "basics-follow-through-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "Stay in the gun until you see it break.",
+      "meaning": {
+        "en": "Keep the cheek on the stock and eyes on the target until it breaks.",
+        "uk": "Тримайте щоку на прикладі й очі на мішені, доки вона не розіб’ється."
+      },
+      "say": {
+        "uk": "Не відривайтеся від приклада, доки не побачите, що мішень розбита."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "basics-follow-through-kp1",
+      "core": true,
+      "en": "Follow-through: the gun keeps moving after the trigger; a stop sends the shot behind.",
+      "uk": "Продовження руху: рушниця рухається й після спуску; зупинка — дріб позаду."
+    },
+    {
+      "k": "basics-follow-through-kp2",
+      "core": true,
+      "en": "Gun speed defines the method: equal (maintained), faster (swing-through), equal then faster (pull-away).",
+      "uk": "Швидкість стволів визначає метод: рівна (maintained), більша (swing-through), рівна, потім більша (pull-away)."
+    },
+    {
+      "k": "basics-follow-through-kp3",
+      "core": true,
+      "en": "Tempo = speed of the whole shot; rhythm = its evenness.",
+      "uk": "Темп — швидкість усього пострілу; ритм — його рівність."
+    },
+    {
+      "k": "basics-follow-through-kp4",
+      "core": true,
+      "en": "Stay in the gun: ready for a second shot at a single target.",
+      "uk": "Не відривайтеся від рушниці: будьте готові до другого пострілу по одиночній мішені."
+    }
+  ],
+  "did_you_know": {
+    "k": "technique-follow-through-and-mistakes-delay",
+    "en": "Between the decision to shoot and the moment the shot leaves the barrels, a fast crossing target still moves on. That is why the muzzles must keep moving: they have to stay ahead during that short delay.",
+    "uk": "Між рішенням стріляти і миттю, коли дріб вилітає зі стволів, швидка поперечна мішень устигає зміститися. Тому стволи мають рухатися далі: вони повинні лишатися попереду й під час цієї короткої затримки."
+  },
+  "quiz": [
+    {
+      "k": "basics-follow-through-q1",
+      "q": {
+        "en": "The coach says “You stopped the gun”. Where did the shot most likely go?",
+        "uk": "Тренер каже «You stopped the gun». Куди найімовірніше пішов дріб?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In front",
+          "uk": "Попереду"
+        },
+        {
+          "k": "b",
+          "en": "Over the top",
+          "uk": "Над мішенню"
+        },
+        {
+          "k": "c",
+          "en": "Exactly on the target",
+          "uk": "Точно в мішень"
+        },
+        {
+          "k": "d",
+          "en": "Behind",
+          "uk": "Позаду"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The target keeps moving while the stopped gun does not, so the shot passes behind it.",
+        "uk": "Мішень рухається далі, а зупинена рушниця — ні, тож дріб проходить позаду."
+      }
+    },
+    {
+      "k": "basics-follow-through-q2",
+      "q": {
+        "en": "Which gun speed describes maintained lead?",
+        "uk": "Яка швидкість стволів відповідає maintained lead?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Much faster than the target",
+          "uk": "Набагато швидша за мішень"
+        },
+        {
+          "k": "b",
+          "en": "The same as the target",
+          "uk": "Така сама, як у мішені"
+        },
+        {
+          "k": "c",
+          "en": "Zero: the gun waits",
+          "uk": "Нульова: рушниця чекає"
+        },
+        {
+          "k": "d",
+          "en": "Slower than the target",
+          "uk": "Повільніша за мішень"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In maintained lead the muzzles move at the target's speed, keeping the gap constant. A waiting gun is ambush; faster is swing-through.",
+        "uk": "У maintained lead стволи рухаються зі швидкістю мішені й тримають сталий проміжок. Рушниця, що чекає, — це ambush; швидша — swing-through."
+      }
+    },
+    {
+      "k": "basics-follow-through-q3",
+      "q": {
+        "en": "What is the difference between tempo and rhythm?",
+        "uk": "Яка різниця між темпом і ритмом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Tempo is the speed of the shot, rhythm its evenness",
+          "uk": "Темп — швидкість пострілу, ритм — його рівність"
+        },
+        {
+          "k": "b",
+          "en": "They are two words for the same thing",
+          "uk": "Це два слова на одне й те саме"
+        },
+        {
+          "k": "c",
+          "en": "Tempo is the music played on the ground",
+          "uk": "Темп — музика на стрільбищі"
+        },
+        {
+          "k": "d",
+          "en": "Rhythm is the time limit between targets",
+          "uk": "Ритм — ліміт часу між мішенями"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Coaches change the tempo for each target while keeping a smooth rhythm, so translate both words separately.",
+        "uk": "Тренери змінюють темп під кожну мішень, зберігаючи плавний ритм, тож перекладайте обидва слова окремо."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "technique-follow-through-and-mistakes-q1",
+      "q": {
+        "en": "What is follow-through?",
+        "uk": "Що таке продовження руху (follow-through)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The gun keeps moving after the shot",
+          "uk": "Рушниця продовжує рух і після пострілу"
+        },
+        {
+          "k": "b",
+          "en": "A second shot at the same target",
+          "uk": "Другий постріл по тій самій мішені"
+        },
+        {
+          "k": "c",
+          "en": "Checking the gun before a round",
+          "uk": "Перевірка рушниці перед раундом"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The movement does not end at the shot but continues along the target's line for a moment.",
+        "uk": "Рух не обривається на пострілі, а триває ще мить за лінією мішені."
+      }
+    },
+    {
+      "k": "technique-follow-through-and-mistakes-q2",
+      "q": {
+        "en": "Where does the shot usually go if the shooter stops the gun?",
+        "uk": "Куди найчастіше йде заряд, якщо стрілець зупиняє рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In front of the target",
+          "uk": "Попереду мішені"
+        },
+        {
+          "k": "b",
+          "en": "Behind the target",
+          "uk": "Позаду мішені"
+        },
+        {
+          "k": "c",
+          "en": "Exactly on the target",
+          "uk": "Точно в мішень"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Stopped barrels fall behind the target, and the shot passes behind it.",
+        "uk": "Зупинені стволи «відстають» від мішені, і заряд проходить позаду."
+      }
+    },
+    {
+      "k": "technique-follow-through-and-mistakes-q3",
+      "q": {
+        "en": "What often causes a shot over the target?",
+        "uk": "Що часто спричиняє постріл над мішенню?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Lifting the head off the stock",
+          "uk": "Відрив голови від приклада"
+        },
+        {
+          "k": "b",
+          "en": "A cartridge that is too heavy",
+          "uk": "Занадто важкий патрон"
+        },
+        {
+          "k": "c",
+          "en": "A correct stance",
+          "uk": "Правильна стійка"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "When the head comes up, the eye no longer looks along the rib, and the gun shoots high.",
+        "uk": "Коли голова піднімається, око вже не дивиться вздовж планки, і рушниця стріляє вище."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "3e4f7378",
+    "summary": "6c9ad74d",
+    "basics-follow-through-p1": "fc70d3d2",
+    "basics-follow-through-p2": "20688252",
+    "basics-follow-through-p3": "a9df4a3c",
+    "basics-follow-through-p4": "aaad772d",
+    "technique-follow-through-and-mistakes-faults": "5ac3097f",
+    "basics-follow-through-sim": "7e2b2469",
+    "basics-follow-through-p5": "101d3b8f",
+    "basics-follow-through-kp1": "00ed7c22",
+    "basics-follow-through-kp2": "01a5b235",
+    "basics-follow-through-kp3": "349c1bd2",
+    "basics-follow-through-kp4": "aa4e6e55",
+    "technique-follow-through-and-mistakes-delay": "f2db2f2a",
+    "basics-follow-through-ph1": "8f0abc9f",
+    "basics-follow-through-ph2": "f40a886f",
+    "basics-follow-through-ph3": "4b9c7c99",
+    "basics-follow-through-ph4": "67619c2f",
+    "basics-follow-through-ph5": "79e98511",
+    "basics-follow-through-q1": "41e5f4b4",
+    "basics-follow-through-q2": "dc650ff2",
+    "basics-follow-through-q3": "fedcdc80",
+    "technique-follow-through-and-mistakes-q1": "6f23dd94",
+    "technique-follow-through-and-mistakes-q2": "dcbcfc6f",
+    "technique-follow-through-and-mistakes-q3": "1945b270"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/technique-follow-through-and-mistakes.json (9 languages): translate again (meaning or audit fix changed): basics-follow-through-p2; moved from body to note, text unchanged: basics-follow-through-p5; no longer used (delete from the overlays): basics-follow-through-kp5, basics-follow-through-title.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-follow-through-and-mistakes.json (9 languages): translate again (meaning or wording changed for readers): summary, technique-follow-through-and-mistakes-q3, basics-follow-through-p4; re-sign the hash only (wording changed, meaning not): basics-follow-through-kp4.",
+      "Glossary (learn_terms.js, not a lesson file): follow-through uk_usage lists «проводка», but the lessons use «проводка» for the swing itself (follow-through = «продовження руху»): remove «проводка» from that uk_usage."
+    ]
+  }
+}

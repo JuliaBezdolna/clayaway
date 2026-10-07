@@ -1,0 +1,98 @@
+{
+  "id": "interpreter-role",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "e32c790c",
+    "summary": "735494ce",
+    "interpreter-role-p1": "63aa3afe",
+    "interpreter-role-p2": "20bf17dd",
+    "interpreter-role-p3": "ffa9d77d",
+    "interpreter-role-p4": "05133f45",
+    "interpreter-role-p5": "95880a4b",
+    "interpreter-role-ph1": "37c9f2f8",
+    "interpreter-role-ph2": "c4e29ad8",
+    "interpreter-role-ph3": "d5bafeee",
+    "interpreter-role-ph4": "9865c9d3",
+    "interpreter-role-kp1": "55c1f223",
+    "interpreter-role-kp2": "c81d5e54",
+    "interpreter-role-kp3": "09ea0df5",
+    "interpreter-role-kp4": "2f221dbb",
+    "interpreter-role-kp5": "9ee1fb35",
+    "interpreter-role-q1": "e5205376",
+    "interpreter-role-q2": "03de6608",
+    "interpreter-role-q3": "9832dd5e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Roolisi: harjoitus vai kilpailu",
+  "summary": "Harjoituksessa olet valmentajan ääni. Kilpailussa valmentaminen on kielletty, niin välitä vain se, mitä tuomari, jury ja järjestäjä sanovat.",
+  "body": {
+    "interpreter-role-p1": "Harjoituksessa olet {{term:coach|valmentajan}} ääni. Välitä joka ohje kokonaan, valmentajan järjestyksessä ja sävyssä: jämäkästi, kun kyse on turvallisuudesta, lämpimästi, kun kyse on kehusta. Älä pehmennä arvostelua äläkä lisää perusteluja, joita valmentaja ei antanut. Älä lisää omia tekniikkavinkkejäsi, vaikka tietäisit vastauksen. Jos jäi sana kuulematta, kysy ennen kääntämistä.",
+    "interpreter-role-p2": "Kilpailu on eri asia. Molemmissa lajeissa {{tm:sporting}} ja {{tm:compak}} kilpailijan {{term:coaching|valmentaminen}} kilpailun aikana on kielletty. Ampuja saa {{term:yellow-card|keltaisen kortin}}, toistoista seuraa ankarampia seuraamuksia, ja {{term:referee|tuomari}} poistaa valmentaneen henkilön ampuma-alueelta ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Tuomarin päätös on yksin tuomarin. Kukaan {{term:squad|erässä}} ei kommentoi osumia. Avoin ratkaisun arvostelu lasketaan {{term:attempt-to-influence|yritykseksi vaikuttaa}} tuomariin, eli yritykseksi taivuttaa hänet toiseen ratkaisuun ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "interpreter-role-p3": "Nyt rehellinen osa: FITASC:n sääntökirjat eivät mainitse tulkkeja lainkaan. Ne eivät sano, lasketaanko valmentajan neuvon sanasta sanaan välittäminen valmentamiseksi. Eivät ne sano sitäkään, missä tulkki saa seistä. Tämä on avoin kysymys FITASC:lle, niin älä esitä mitään vastausta virallisena.",
+    "interpreter-role-p4": "Kunnes FITASC vastaa, noudata turvallista käytäntöä. Kilpailussa tulkkaa vain sen, mikä kulkee ampujasi ja tuomarin, {{term:jury|juryn}} tai {{term:organiser|järjestäjän}} välillä: kutsut, päätökset, varoitukset, {{term:protest|protestit}}, ajat ja eräluettelot. Kerro ennen kilpailua tuomarille tai järjestäjälle, kuka olet, ja sovi, missä seisot. Jos valmentaja pyytää sinua välittämään neuvon kilpailun aikana, kieltäydy kohteliaasti ja kerro miksi. Niin suojaat ampujaasi keltaiselta kortilta.",
+    "interpreter-role-p5": "Säännöt eivät sano, lasketaanko tauko kierrosten välissä edelleen «kilpailun aikaan». Jos olet epävarma, kysy juryltä tai järjestäjältä ennen minkään neuvon välittämistä. Missä seisoa ja milloin puhua: {{lesson:interpreter-position}}."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-role-ph1": {
+      "meaning": "Harjoitus: välitä kokonaan, kun ase on auki.",
+      "say": "Kerro hänelle, että hän nostaa päänsä toisella kiekolla."
+    },
+    "interpreter-role-ph2": {
+      "meaning": "Kilpailu: tämä on valmentamista. Kieltäydy kohteliaasti; älä välitä.",
+      "say": "(valmentajalle) Anteeksi, en voi välittää neuvoja kilpailun aikana — ampuja saisi keltaisen kortin."
+    },
+    "interpreter-role-ph3": {
+      "meaning": "Tuomari kysyy, miksi olet ampumapaikan lähellä; esittäydy ja kerro roolisi.",
+      "say": "Olen tämän ampujan tulkki; tulkkaan vain teidän päätöksiänne ja kutsujanne."
+    },
+    "interpreter-role-ph4": {
+      "meaning": "Menettelyllinen kysymys tuomarille: sen saa tulkata.",
+      "say": "(tuomarille) Ampuja kysyy, voiko hän vielä vaihtaa supistajia."
+    }
+  },
+  "key_points": {
+    "interpreter-role-kp1": "Harjoitus: valmentajan ääni — kokonaan, samalla sävyllä, ei mitään omaa",
+    "interpreter-role-kp2": "Kilpailu: valmentaminen on kielletty (keltainen kortti, valmentaja poistetaan)",
+    "interpreter-role-kp3": "Avoin FITASC-kysymys: sääntökirjat eivät mainitse tulkkeja",
+    "interpreter-role-kp4": "Turvallinen käytäntö: kilpailussa tulkkaa vain tuomarin, juryn ja järjestäjän viestintää",
+    "interpreter-role-kp5": "Esittäydy tuomarille ja sovi, missä seisot"
+  },
+  "quiz": {
+    "interpreter-role-q1": {
+      "q": "Kilpailukierroksen aikana valmentaja pyytää sinua sanomaan ampujalle «more lead on the crosser». Mitä teet?",
+      "options": {
+        "a": "Kuiskaat sen nopeasti, kun hän lataa",
+        "b": "Välität sen seuraavan kiekon jälkeen",
+        "c": "Kieltäydyt kohteliaasti: se olisi valmentamista",
+        "d": "Pyydät tuomaria välittämään sen"
+      },
+      "explain": "Valmentaminen kilpailun aikana on kielletty ja ampuja saisi keltaisen kortin. Säännöt eivät sano, saako neuvon välittää, niin pysy varmalla puolella."
+    },
+    "interpreter-role-q2": {
+      "q": "Mitä FITASC:n sääntökirjat sanovat tulkeista?",
+      "options": {
+        "a": "He saavat seistä ampumapaikalla",
+        "b": "He tarvitsevat tuomarilisenssin",
+        "c": "Heidät lasketaan valmentajiksi",
+        "d": "Ei mitään: se on avoin kysymys"
+      },
+      "explain": "Sääntökirjat eivät mainitse tulkkeja, niin heidän tarkka asemansa kilpailussa on avoin kysymys FITASC:lle."
+    },
+    "interpreter-role-q3": {
+      "q": "Harjoituksessa valmentaja sanoo «Not bad, but you stopped the gun.» Miten käännät?",
+      "options": {
+        "a": "Kokonaan ja samalla sävyllä, molemmat osat",
+        "b": "Vain kehun, jotta vieras pysyy tyytyväisenä",
+        "c": "Vain virheen, ajan säästämiseksi",
+        "d": "Lisäät oman vinkkisi korjaamiseen"
+      },
+      "explain": "Et pehmennä äläkä paisuta: koko viesti, valmentajan sävyssä, ei mitään omaa."
+    }
+  }
+}

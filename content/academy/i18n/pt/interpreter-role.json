@@ -1,0 +1,98 @@
+{
+  "id": "interpreter-role",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "e32c790c",
+    "summary": "735494ce",
+    "interpreter-role-p1": "63aa3afe",
+    "interpreter-role-p2": "20bf17dd",
+    "interpreter-role-p3": "ffa9d77d",
+    "interpreter-role-p4": "05133f45",
+    "interpreter-role-p5": "95880a4b",
+    "interpreter-role-ph1": "37c9f2f8",
+    "interpreter-role-ph2": "c4e29ad8",
+    "interpreter-role-ph3": "d5bafeee",
+    "interpreter-role-ph4": "9865c9d3",
+    "interpreter-role-kp1": "55c1f223",
+    "interpreter-role-kp2": "c81d5e54",
+    "interpreter-role-kp3": "09ea0df5",
+    "interpreter-role-kp4": "2f221dbb",
+    "interpreter-role-kp5": "9ee1fb35",
+    "interpreter-role-q1": "e5205376",
+    "interpreter-role-q2": "03de6608",
+    "interpreter-role-q3": "9832dd5e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "O seu papel: treino versus competição",
+  "body": {
+    "interpreter-role-p1": "No treino, o intérprete é a voz do {{term:coach|treinador}}. Transmita cada instrução por completo, pela ordem e no tom do treinador: firme quando se trata de segurança, caloroso quando é um elogio. Não suavize as críticas nem acrescente razões que o treinador não deu. Não acrescente dicas técnicas suas, mesmo que saiba a resposta. Se não ouviu uma palavra, pergunte antes de traduzir.",
+    "interpreter-role-p2": "Uma competição é diferente. Tanto no {{tm:sporting}} como no {{tm:compak}}, dar {{term:coaching|instruções de treino}} a um atirador durante a competição é proibido. O atirador leva {{term:yellow-card|cartão amarelo}}, as repetições trazem sanções mais pesadas, e o {{term:referee|árbitro}} manda sair da zona de tiro a pessoa que deu as instruções ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). A decisão do árbitro é só dele: ninguém na {{term:squad|esquadra}} comenta os acertos. A crítica aberta a uma decisão conta como {{term:attempt-to-influence|tentativa de influenciar}} o árbitro, isto é, tentar levá-lo a mudar de decisão ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+    "interpreter-role-p3": "Eis a parte honesta: os regulamentos da FITASC não mencionam de todo os intérpretes. Não dizem se transmitir palavra a palavra os conselhos de um treinador conta como treino. Também não dizem onde um intérprete se pode colocar. É uma questão em aberto para a FITASC, por isso não apresente nenhuma resposta como oficial.",
+    "interpreter-role-p4": "Até a FITASC responder, siga uma prática segura. Em competição, interprete apenas o que passa entre o seu atirador e o {{term:referee|árbitro}}, o {{term:jury|júri}} ou o {{term:organiser|organizador}}: pedidos, decisões, advertências, {{term:protest|protestos}}, horários e listas de esquadra. Antes da prova, diga ao árbitro ou ao organizador quem é e combine onde se vai colocar. Se um treinador lhe pedir para transmitir conselhos durante a competição, recuse com delicadeza e explique porquê. Isso protege o seu atirador de um cartão amarelo.",
+    "interpreter-role-p5": "As regras não dizem se um intervalo entre séries ainda conta como «durante a competição». Em caso de dúvida, pergunte ao júri ou ao organizador antes de transmitir qualquer conselho. Onde se colocar e quando falar: {{lesson:interpreter-position}}."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-role-ph1": {
+      "meaning": "Treino: transmita-o por completo quando a arma estiver aberta.",
+      "say": "Diga-lhe que está a levantar a cabeça no segundo prato."
+    },
+    "interpreter-role-ph2": {
+      "meaning": "Competição: isto é treino. Recuse com delicadeza; não o transmita.",
+      "say": "Depressa — diga-lhe para dar mais avanço ao transversal."
+    },
+    "interpreter-role-ph3": {
+      "meaning": "O árbitro pergunta porque está perto do posto; apresente-se e explique o seu papel.",
+      "say": "Está com quem?"
+    },
+    "interpreter-role-ph4": {
+      "meaning": "Uma pergunta de procedimento ao árbitro: pode interpretá-la.",
+      "say": "Pergunte ao árbitro se ainda posso trocar os chokes."
+    }
+  },
+  "key_points": {
+    "interpreter-role-kp1": "Treino: a voz do treinador — completa, no mesmo tom, nada da sua parte",
+    "interpreter-role-kp2": "Competição: o treino é proibido (cartão amarelo, treinador afastado)",
+    "interpreter-role-kp3": "Questão em aberto para a FITASC: os regulamentos não mencionam os intérpretes",
+    "interpreter-role-kp4": "Prática segura: em competição, interpretar apenas a comunicação com o árbitro, o júri e o organizador",
+    "interpreter-role-kp5": "Apresente-se ao árbitro e combine onde se coloca"
+  },
+  "quiz": {
+    "interpreter-role-q1": {
+      "q": "Durante uma série de competição, o treinador pede-lhe para dizer ao atirador «more lead on the crosser». O que faz?",
+      "options": {
+        "a": "Sussurra-o depressa enquanto ele carrega",
+        "b": "Transmite-o depois do prato seguinte",
+        "c": "Recusa com delicadeza: seria treino, o que é proibido",
+        "d": "Pede ao árbitro que o transmita"
+      },
+      "explain": "O treino durante a competição é proibido e o atirador levaria cartão amarelo; as regras não dizem se transmitir conselhos é permitido, por isso jogue pelo seguro."
+    },
+    "interpreter-role-q2": {
+      "q": "O que dizem os regulamentos da FITASC sobre os intérpretes?",
+      "options": {
+        "a": "Podem estar no posto",
+        "b": "Precisam de uma licença de árbitro",
+        "c": "Contam como treinadores",
+        "d": "Nada: é uma questão em aberto"
+      },
+      "explain": "Os regulamentos não mencionam os intérpretes, por isso a sua posição exata em competição é uma questão em aberto para a FITASC."
+    },
+    "interpreter-role-q3": {
+      "q": "No treino, o treinador diz «Not bad, but you stopped the gun.» Como traduz?",
+      "options": {
+        "a": "Por completo e no mesmo tom, as duas partes",
+        "b": "Só o elogio, para manter o convidado contente",
+        "c": "Só o erro, para poupar tempo",
+        "d": "Acrescenta uma dica sua para corrigir"
+      },
+      "explain": "Não suaviza nem exagera: a mensagem inteira, no tom do treinador, sem nada da sua parte."
+    }
+  },
+  "summary": "No treino, o intérprete é a voz do treinador. Em competição o treino é proibido, por isso transmite apenas o que diz o árbitro, o júri e o organizador."
+}

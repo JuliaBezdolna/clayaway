@@ -1,0 +1,490 @@
+{
+  "id": "health-recoil-shoulder-neck",
+  "rev": 2,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "parent",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "sports doctor or physiotherapist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "health-recoil-shoulder-neck",
+      "women-recoil-management"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "recoil",
+    "gun-mount",
+    "comb",
+    "gun-fit",
+    "gun-fitter",
+    "stance",
+    "load-weight",
+    "low-recoil-cartridge",
+    "pattern",
+    "semi-automatic",
+    "recoil-pad",
+    "shoulder-pad",
+    "flinch"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-cartridges"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-load"
+    }
+  ],
+  "facts": [
+    "technique.training-loads-24-21g",
+    "gear.fitasc-shot-load"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Wikipedia — Recoil (physics of the push: mass and speed of the shot, mass of the gun)",
+        "uk": "Wikipedia — Recoil (фізика віддачі: маса й швидкість дробу, маса рушниці)"
+      },
+      "url": "https://en.wikipedia.org/wiki/Recoil",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Recoil, shoulder and neck",
+    "uk": "Віддача, плече й шия"
+  },
+  "summary": {
+    "en": "Why recoil can hurt your shoulder, cheek or neck, how a good mount, a fitted gun and lighter cartridges help, and when to see a doctor.",
+    "uk": "Чому віддача може боліти в плечі, щоці чи шиї, як допомагають правильна вкладка, підігнана рушниця й легші набої і коли варто звернутися до лікаря."
+  },
+  "body": [
+    {
+      "k": "health-recoil-shoulder-neck-p1",
+      "t": "p",
+      "en": "{{term:recoil|Recoil}} is the backward push of the gun when it fires. You cannot avoid it, but recoil taken well should not hurt. Bruises on the shoulder, cheek or arm, or an aching neck after shooting, are a sign that something needs to change.",
+      "uk": "{{term:recoil|Віддача}} — це поштовх рушниці назад під час пострілу. Уникнути її неможливо, але правильно прийнята віддача не має боліти. Синці на плечі, щоці чи руці або біль у шиї після стрільби — знак, що щось варто змінити."
+    },
+    {
+      "k": "women-recoil-management-p1",
+      "t": "p",
+      "en": "Felt recoil depends much less on strength than many beginners think. Many people give up after a first session because “it kicks so hard”. Often the cause is a gun that does not fit, cartridges that are too heavy or a poor mount, and all three can be changed.",
+      "uk": "Відчутна віддача залежить від сили набагато менше, ніж думає багато новачків. Дехто кидає стрільбу після першого заняття, бо «дуже б’є». Часто причина — рушниця, яка не підходить, заважкі набої чи неправильна вкладка, а все це можна змінити.",
+      "anchor": "women-recoil-management"
+    },
+    {
+      "k": "health-recoil-shoulder-neck-p2",
+      "t": "p",
+      "en": "A common cause is the {{term:gun-mount|mount}}. The stock should sit in the pocket of the shoulder, between the collarbone and the shoulder joint, and the cheek should rest firmly on the comb. Gun and body then move together, and the push spreads through the muscles instead of hitting one spot. If the stock sits on bone or on the arm, or there is a gap, recoil hits sharply.",
+      "uk": "Одна з частих причин — {{term:gun-mount|вкладка}}. Приклад має лягати в «кишеню» плеча між ключицею та плечовим суглобом, а щока — щільно на гребінь. Тоді рушниця і тіло рухаються разом, і поштовх розходиться по м’язах, а не б’є в одну точку. Якщо приклад стоїть на кістці чи на руці або між плечем і прикладом є щілина, віддача б’є різко."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-p3",
+      "t": "p",
+      "en": "Another cause is a gun that does not fit. A stock that is too long or too short makes you stretch the head and tense the neck. So does a comb that is too high or too low. A {{term:gun-fit|gun fit}} check with a coach or a {{term:gun-fitter|gun fitter}} often helps quickly; see {{lesson:gun-fit}}. For juniors this matters even more: {{lesson:juniors-equipment-fit}}.",
+      "uk": "Ще одна причина — рушниця не підходить за розміром. Задовгий чи закороткий приклад змушує тягнутися головою й напружувати шию. Так само діє зависокий чи занизький гребінь. {{term:gun-fit|Підгонка рушниці}} з тренером чи {{term:gun-fitter|майстром-підгонщиком}} часто швидко допомагає; докладніше — {{lesson:gun-fit}}. Для юніорів це ще важливіше: {{lesson:juniors-equipment-fit}}."
+    },
+    {
+      "k": "women-recoil-management-p3",
+      "t": "p",
+      "en": "Stance matters too. Keep the weight slightly on the front foot, lean a little forward and relax the shoulders. Leaning back lets the gun push you further. Hold the stock firmly in the shoulder, with no gap; see {{lesson:technique-stance}}.",
+      "uk": "Важить і стійка. Вага трохи на передній нозі, корпус злегка нахилений уперед, плечі розслаблені. Якщо відхилятися назад, рушниця «відкидає» вас ще сильніше. Приклад тримайте щільно в плечі, без щілини; див. {{lesson:technique-stance}}."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-p4",
+      "t": "p",
+      "en": "Cartridges are another factor. In both disciplines FITASC rules allow {{fact:gear.fitasc-shot-load}}. In training many shooters use lighter loads, such as {{fact:technique.training-loads-24-21g}}, or {{term:low-recoil-cartridge|low-recoil cartridges}}. For practice and for close to medium targets these are usually enough and far less tiring. On long targets a full load gives a denser {{term:pattern|pattern}}, the cloud of shot in the air, so more pellets reach the clay.",
+      "uk": "Набої — ще один чинник. В обох дисциплінах правила FITASC дозволяють {{fact:gear.fitasc-shot-load}}. На тренуваннях багато стрільців беруть легші набої, наприклад {{fact:technique.training-loads-24-21g}}, або {{term:low-recoil-cartridge|набої зі зниженою віддачею}}. Для тренувань і мішеней на близькій та середній відстані їх зазвичай досить, і вони значно менше втомлюють. На далеких мішенях повна наважка дає щільніший {{term:pattern|осип}} — хмару дробу в повітрі, — тож до мішені долітає більше дробин."
+    },
+    {
+      "k": "women-recoil-management-dyk",
+      "t": "p",
+      "en": "Recoil grows with the mass of the shot and its speed. Going from 28 g to 24 g at the same speed means about one seventh less shot, so the push is noticeably smaller.",
+      "uk": "Віддача зростає з масою дробу та його швидкістю. Перехід із 28 г на 24 г за тієї самої швидкості — це приблизно на сьому частину менше дробу, тож поштовх помітно слабшає."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-p5",
+      "t": "p",
+      "en": "The weight of the gun matters as well. A heavier gun moves back more slowly, so the same cartridge feels softer.",
+      "uk": "Важить і вага рушниці. Важча рушниця відходить назад повільніше, тож той самий набій відчувається м’якше."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-heavy-gun",
+      "t": "p",
+      "en": "Many coaches add that a heavy gun also tires the arms sooner, so choosing the weight of a gun is a compromise.",
+      "uk": "Багато тренерів додають, що важка рушниця швидше втомлює руки, тож вибір ваги рушниці — це компроміс."
+    },
+    {
+      "k": "women-recoil-management-p5",
+      "t": "p",
+      "en": "A gas-operated {{term:semi-automatic|semi-automatic}} uses part of the powder gas to reload, which spreads the push over a longer time. A {{term:recoil-pad|recoil pad}} on the stock and a {{term:shoulder-pad|shoulder pad}} in the vest soften it further.",
+      "uk": "Газовий {{term:semi-automatic|напівавтомат}} частину порохових газів використовує на перезаряджання, і поштовх розтягується в часі. Амортизаційний {{term:recoil-pad|затильник}} на прикладі та {{term:shoulder-pad|наплічник}} у жилеті додатково пом’якшують його."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-p6",
+      "t": "p",
+      "en": "The neck suffers when you drop the head low or reach for the stock. Bring the stock up to the face and tilt the head only slightly. A light warm-up of neck and shoulders before shooting and between rounds may also reduce tension; see {{lesson:mind-warm-up-mobility}}.",
+      "uk": "Шия страждає, коли стрілець низько опускає голову або тягнеться до приклада. Піднімайте приклад до обличчя, а голову лише трохи нахиляйте. Легка розминка шиї й плечей перед стрільбою та між серіями теж може зменшити напругу; див. {{lesson:mind-warm-up-mobility}}."
+    },
+    {
+      "k": "women-recoil-management-p6",
+      "t": "p",
+      "en": "Do not grit your teeth through pain. If your shoulder hurts, take a break or change to lighter cartridges. Pain can teach the body to jerk before the shot, a {{term:flinch|flinch}}, which is often harder to lose than a bruise. A coach can plan your training load so that shooting stays comfortable.",
+      "uk": "Не терпіть біль через силу. Якщо плече болить, зробіть перерву або візьміть легші набої. Біль може привчити тіло смикатися перед пострілом — це {{term:flinch|смикання}} (flinch), і його часто важче позбутися, ніж синця. Тренер може підібрати навантаження так, щоб стріляти було комфортно."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-p7",
+      "t": "warn",
+      "en": "See a doctor or physiotherapist, rather than shooting through it, if pain lasts more than a few days. Do the same if you have numbness, tingling in the arm or severe neck pain.",
+      "uk": "Зверніться до лікаря чи фізичного терапевта, а не «розстрілюйте» біль, якщо він не минає кілька днів. Так само, якщо з’явилися оніміння, поколювання в руці чи сильний біль у шиї."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "health-recoil-shoulder-neck-kp1",
+      "en": "Bruises and pain from recoil are a sign to change something, not “normal”.",
+      "uk": "Синці й біль від віддачі — знак, що треба щось змінити, а не «норма»."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-kp2",
+      "en": "Stock in the shoulder pocket, cheek firmly on the comb, weight slightly forward.",
+      "uk": "Приклад — у «кишеню» плеча, щока щільно на гребені, вага трохи вперед."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-kp3",
+      "en": "A gun that fits often reduces the pain quickly.",
+      "uk": "Підігнана рушниця часто швидко зменшує біль."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-kp4",
+      "en": "In training, lighter loads ({{fact:technique.training-loads-24-21g}}) or low-recoil cartridges are usually enough.",
+      "uk": "На тренуваннях зазвичай досить легших набоїв ({{fact:technique.training-loads-24-21g}}) або набоїв зі зниженою віддачею."
+    },
+    {
+      "k": "health-recoil-shoulder-neck-kp5",
+      "en": "Pain that lasts, numbness or tingling: see a doctor or physiotherapist.",
+      "uk": "Біль, що не минає, оніміння чи поколювання — до лікаря чи фізичного терапевта."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "health-recoil-shoulder-neck-q1",
+      "q": {
+        "en": "Where should the stock sit when you mount the gun?",
+        "uk": "Куди має лягати приклад під час вкладки?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the collarbone, close to the neck",
+          "uk": "На ключицю, ближче до шиї"
+        },
+        {
+          "k": "b",
+          "en": "In the pocket of the shoulder",
+          "uk": "У «кишеню» плеча"
+        },
+        {
+          "k": "c",
+          "en": "On the upper arm, below the shoulder",
+          "uk": "На верхню частину руки, нижче плеча"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In the shoulder pocket the push goes into muscle rather than bone, and gun and body move together.",
+        "uk": "У «кишені» плеча поштовх іде в м’язи, а не в кістку, і рушниця з тілом рухаються разом."
+      }
+    },
+    {
+      "k": "health-recoil-shoulder-neck-q2",
+      "q": {
+        "en": "What is the largest shot load that FITASC rules allow?",
+        "uk": "Яку найбільшу наважку дробу дозволяють правила FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "28 g",
+          "uk": "28 г"
+        },
+        {
+          "k": "b",
+          "en": "36 g",
+          "uk": "36 г"
+        },
+        {
+          "k": "c",
+          "en": "21 g",
+          "uk": "21 г"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Up to 28 g with a +2 % tolerance, in both disciplines; lighter loads are allowed.",
+        "uk": "До 28 г з допуском +2 % в обох дисциплінах; легші набої дозволені."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch7-cartridges"
+    },
+    {
+      "k": "health-recoil-shoulder-neck-q3",
+      "q": {
+        "en": "Neck pain and arm numbness have lasted several days. What should you do?",
+        "uk": "Біль у шиї й оніміння в руці не минають кілька днів. Що робити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Shoot more to get used to it",
+          "uk": "Стріляти більше, щоб звикнути"
+        },
+        {
+          "k": "b",
+          "en": "Use heavier cartridges",
+          "uk": "Взяти важчі набої"
+        },
+        {
+          "k": "c",
+          "en": "See a doctor or physiotherapist",
+          "uk": "Звернутися до лікаря чи фізичного терапевта"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Persistent pain and numbness need to be checked by a specialist.",
+        "uk": "Тривалий біль і оніміння потребують огляду фахівця."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "women-recoil-management-q1",
+      "q": {
+        "en": "What often causes heavy felt recoil for a beginner?",
+        "uk": "Що часто спричиняє сильну віддачу в новачка?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Not enough physical strength",
+          "uk": "Недостатня фізична сила"
+        },
+        {
+          "k": "b",
+          "en": "Poor fit, heavy loads or mount",
+          "uk": "Погана підгонка, важкі набої чи вкладка"
+        },
+        {
+          "k": "c",
+          "en": "The colour of the targets",
+          "uk": "Колір мішеней"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Fit, technique and lighter cartridges reduce felt recoil; strength matters much less.",
+        "uk": "Відчутну віддачу зменшують підгонка, техніка й легші набої; сила важить набагато менше."
+      }
+    },
+    {
+      "k": "women-recoil-management-q2",
+      "q": {
+        "en": "Why does a gas-operated semi-automatic feel softer?",
+        "uk": "Чому газовий напівавтомат відчувається м’якше?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It spreads the push over a longer time",
+          "uk": "Він розтягує поштовх у часі"
+        },
+        {
+          "k": "b",
+          "en": "It fires smaller and lighter shot",
+          "uk": "Він стріляє дрібнішим і легшим дробом"
+        },
+        {
+          "k": "c",
+          "en": "Its barrels are much shorter",
+          "uk": "У нього значно коротші стволи"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Part of the powder gas reloads the gun, so the push is spread over time and its peak is lower.",
+        "uk": "Частина порохових газів перезаряджає рушницю, тож поштовх розтягується в часі, а його пік нижчий."
+      }
+    },
+    {
+      "k": "women-recoil-management-q3",
+      "q": {
+        "en": "How should you stand so recoil pushes you back less?",
+        "uk": "Як стояти, щоб віддача менше відкидала?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Lean back, away from the gun",
+          "uk": "Відхилитися назад, від рушниці"
+        },
+        {
+          "k": "b",
+          "en": "Stand with the weight on the heels",
+          "uk": "Стояти з вагою на п’ятах"
+        },
+        {
+          "k": "c",
+          "en": "Weight slightly on the front foot",
+          "uk": "Вага трохи на передній нозі"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Leaning slightly forward lets the body take the recoil rather than rock back.",
+        "uk": "Легкий нахил уперед дає тілу прийняти віддачу, а не відхилитися назад."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "health-recoil-shoulder-neck-p1",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "women-recoil-management-p1",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "health-recoil-shoulder-neck-p2",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "health-recoil-shoulder-neck-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "women-recoil-management-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "health-recoil-shoulder-neck-p4",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "women-recoil-management-dyk",
+      "level": "strong",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Recoil"
+      ]
+    },
+    {
+      "for": "health-recoil-shoulder-neck-p5",
+      "level": "strong",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Recoil"
+      ]
+    },
+    {
+      "for": "health-recoil-shoulder-neck-heavy-gun",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "women-recoil-management-p5",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "health-recoil-shoulder-neck-p6",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "women-recoil-management-p6",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "0d4f34d7",
+    "summary": "14d5093a",
+    "health-recoil-shoulder-neck-p1": "c3c6961b",
+    "women-recoil-management-p1": "d5e32ca4",
+    "health-recoil-shoulder-neck-p2": "f4a08189",
+    "health-recoil-shoulder-neck-p3": "54bb5e68",
+    "women-recoil-management-p3": "f2d43bbf",
+    "health-recoil-shoulder-neck-p4": "23b6278a",
+    "women-recoil-management-dyk": "c396f3f1",
+    "health-recoil-shoulder-neck-p5": "b056166b",
+    "health-recoil-shoulder-neck-heavy-gun": "379d6832",
+    "women-recoil-management-p5": "11aabe25",
+    "health-recoil-shoulder-neck-p6": "5902abe1",
+    "women-recoil-management-p6": "d22580cc",
+    "health-recoil-shoulder-neck-p7": "18ed3235",
+    "health-recoil-shoulder-neck-kp1": "4a374d4b",
+    "health-recoil-shoulder-neck-kp2": "a7760619",
+    "health-recoil-shoulder-neck-kp3": "754222eb",
+    "health-recoil-shoulder-neck-kp4": "afd990aa",
+    "health-recoil-shoulder-neck-kp5": "5cb5ef22",
+    "health-recoil-shoulder-neck-q1": "02adbf33",
+    "health-recoil-shoulder-neck-q2": "c6ce425a",
+    "health-recoil-shoulder-neck-q3": "7ab7887f",
+    "women-recoil-management-q1": "db387626",
+    "women-recoil-management-q2": "21cc814a",
+    "women-recoil-management-q3": "c9e040e8"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check (sports doctor or physiotherapist) before review.status can leave \"pending\".",
+      "Glossary: add term gas-operated (it was in new_terms; listed in the author report) and compare the glossary entry recoil-pad with this lesson’s old definition: “A rubber or gel pad on the end of the stock that softens recoil; it also changes the length of pull.”",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/health-recoil-shoulder-neck.json (9 languages): translate again (meaning or wording changed for readers): health-recoil-shoulder-neck-p2, health-recoil-shoulder-neck-p4, health-recoil-shoulder-neck-p5, women-recoil-management-q1; re-sign the hash only (wording changed, meaning not): health-recoil-shoulder-neck-p3; new keys to translate: health-recoil-shoulder-neck-heavy-gun; did_you_know women-recoil-management-dyk is now a body paragraph with the same key (move the overlay value from \"did_you_know\" to body.women-recoil-management-dyk, text unchanged)."
+    ]
+  }
+}

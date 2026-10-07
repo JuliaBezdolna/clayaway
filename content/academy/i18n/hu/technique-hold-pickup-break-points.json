@@ -1,0 +1,137 @@
+{
+  "id": "technique-hold-pickup-break-points",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "998b7ebb",
+    "summary": "9d2896f9",
+    "basics-three-points-p1": "1c55087e",
+    "basics-three-points-p2": "3c7a3032",
+    "basics-three-points-p3": "0624c4a9",
+    "technique-hold-pickup-break-points-p3": "60fa622f",
+    "basics-three-points-p4": "b7db9c25",
+    "technique-hold-pickup-break-points-limit": "5586588d",
+    "basics-three-points-sim": "31bc4087",
+    "basics-three-points-p5": "386e6dc9",
+    "basics-three-points-ph1": "79a592aa",
+    "basics-three-points-ph2": "4e474642",
+    "basics-three-points-ph3": "6f04d4b1",
+    "basics-three-points-ph4": "417babd2",
+    "basics-three-points-kp1": "4ef85b29",
+    "basics-three-points-kp2": "99cd94a9",
+    "basics-three-points-kp3": "1ebe16e0",
+    "technique-hold-pickup-break-points-kp4": "d9502cad",
+    "basics-three-points-kp4": "89fcf8ae",
+    "technique-hold-pickup-break-points-dyk": "d1e6badc",
+    "basics-three-points-q1": "a27518da",
+    "basics-three-points-q2": "57e44f1a",
+    "basics-three-points-q3": "32777e83",
+    "technique-hold-pickup-break-points-q1": "365f44cf",
+    "technique-hold-pickup-break-points-q2": "9326e420",
+    "technique-hold-pickup-break-points-q3": "04498068"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "basics-three-points-p1": "Minden korong előtt a lövész három pontot jelöl ki. Az első a {{term:pick-up-point|korongfelvételi pont}} (pick-up point): ott látja a szem először tisztán a korongot. Kicsit távolabb van a dobógéptől, nem rögtön mellette, ahol a korong még csak elmosódott folt. A második a {{term:hold-point|fegyvertartási pont}} (hold point): ott várnak a csövek a korong kérésekor, általában a korong vonalán vagy kicsivel alatta, a felvételi pont és a lövési pont között. A harmadik a {{term:break-point|lövési pont}} (break point): ott akarja a lövész eltalálni a korongot.",
+    "basics-three-points-p2": "A tervezés sorrendje: először válaszd ki a lövési pontot, és állítsd be hozzá a lábaidat. Aztán fordulj vissza a felsőtesteddel, és irányítsd a csöveket a fegyvertartási pontra. Végül tedd a szemed a korongfelvételi pontra. A {{tm:sporting}}-ban a tus addig lent marad, amíg a korong meg nem jelenik, így ott a fegyvertartási pont egyszerűen azt jelenti, hová mutatnak a csövek, amíg a fegyver lent van.",
+    "basics-three-points-p3": "Tipikus hibák a lövési ponttal: ha túl messze van, a mozdulat gyors és kontrollálatlan lesz, vagy a korong már esik. Ha túl közel van, túl kevés a mozgás: a lövész „böki” a korongot, lassan rámutat a fegyverrel, mint egy puskával, a lendítés helyett. A fegyvertartási ponttal: ha túl közel van a dobógéphez, a korong megelőzi a csöveket, és a fegyvernek kergetnie kell azt. Ha túl messze van, túl kevés hely marad a koronggal való mozgásra, és a lövész böki vagy megállítja a fegyvert.",
+    "technique-hold-pickup-break-points-p3": "A pontos tartási pont a korongtól és az alkalmazott lead-módtól függ. {{term:maintained-lead|Elévezetésnél}} (a csövek egész idő alatt a korong előtt vannak) általában messzebb van a vonalon. {{term:swing-through|Áthúzásnál}} (a csövek a korong mögött indulnak, és megelőzik) közelebb van a dobógéphez. A lövési pontot ott válaszd, ahol a korongot tisztán és egyenletesen látod, még mielőtt a fák mögé esne. Mindhárom pont beállításában segít az edződ.",
+    "basics-three-points-p4": "A korongot „kiolvasod” – meghatározod a vonalát, sebességét és távolságát –, amíg a lövés előtt megmutatják ({{term:target-presentation|bemutatás}}). A {{tm:sporting}}-ban a bíró minden röppályát megmutat a csoport első lövészének. Kérésre a lőálláson álló lövész a kotta minden korongját újra láthatja, legfeljebb kétszer. A {{tm:compak}}-ban rotténként a szóló korongokat, majd a szimultán dubléket csak egyszer mutatják meg naponta, reggel, az első rottének. {{fact:rules.reshow-after-interruption}} szünet után a szóló korongokat újra megmutatják. Többet a bemutatásról: {{lesson:rules-viewing-targets}}.",
+    "technique-hold-pickup-break-points-limit": "A {{tm:sporting}}-ban rajtad áll, hogy minden korongot ott törj el, ahol a bíró látja. Figyelj a {{term:shooting-limit|lőterület határára}}: az ezen túl vagy egy természetes akadály mögött eltalált korongot nem számítják. Ezt egyedül a bíró dönti el, és a döntése nem fellebbezhető.",
+    "basics-three-points-sim": "Animáció: a feliratok mutatják a korongfelvételi pontot, a fegyvertartási pontot és a lövési pontot; a korong a lövési pontnál törik szét."
+  },
+  "note": {
+    "basics-three-points-p5": "A „Where are you taking it?” kérdés a lövési pontra vonatkozik; a „kill point” semleges szinonima."
+  },
+  "phrases": {
+    "basics-three-points-ph1": {
+      "meaning": "Az edző azt kérdezi, hol akarja a lövész eltalálni a korongot.",
+      "say": "Hol lövöd?"
+    },
+    "basics-three-points-ph2": {
+      "meaning": "Tartsd a csöveket közelebb a dobógéphez, a jelenlegi távolság felénél.",
+      "say": "Hozd vissza a kiinduló pontodat félútig a gép felé."
+    },
+    "basics-three-points-ph3": {
+      "meaning": "Vidd a szemed távolabb a dobógéptől, oda, ahol először látod tisztán a korongot.",
+      "say": "Nézz kijjebb – ott vedd fel, ahol már éles."
+    },
+    "basics-three-points-ph4": {
+      "meaning": "A korong kérésekor tartsd a csöveket kicsivel a korong pályája alatt.",
+      "say": "Tartsd kicsit lejjebb, épp a vonal alatt."
+    }
+  },
+  "key_points": {
+    "basics-three-points-kp1": "Felvétel = szem; fegyvertartás = csövek; lövési pont = ahol a korongot eltalálod.",
+    "basics-three-points-kp2": "A lövési ponttól visszafelé tervezz: lábak, fegyvertartás, szem.",
+    "basics-three-points-kp3": "A fegyvertartási pont általában a felvételi és a lövési pont között van, a vonalon vagy kicsivel alatta.",
+    "technique-hold-pickup-break-points-kp4": "Ha a tartási pont túl közel van a dobógéphez, a fegyver kergeti a korongot; ha túl messze, nincs hely a mozgásra.",
+    "basics-three-points-kp4": "A korongokat a bemutatás alatt olvasd ki; a {{tm:sporting}}-ban ott törd el őket, ahol a bíró látja, a lőterület határain belül."
+  },
+  "quiz": {
+    "basics-three-points-q1": {
+      "q": "Melyik pont szól a szemről, nem a fegyverről?",
+      "options": {
+        "a": "Fegyvertartási pont",
+        "b": "Lövési pont",
+        "c": "Korongfelvételi pont",
+        "d": "Beszállási pont"
+      },
+      "explain": "A korongfelvételi pont az, ahol a szem először látja tisztán a korongot; a fegyvertartási pont a csöveké."
+    },
+    "basics-three-points-q2": {
+      "q": "Mi történik általában, ha a fegyvertartási pont túl közel van a dobógéphez?",
+      "options": {
+        "a": "A bíró „No bird”-öt mond",
+        "b": "A fegyvernek kergetnie kell a korongot",
+        "c": "A fegyvernek majdnem nincs hova mozdulnia",
+        "d": "A korong lelassul"
+      },
+      "explain": "A dobógép közelében a korong teljes sebességgel húz el a csövek mellett, így a fegyvernek kergetnie kell. A mozgási hely hiánya a túl messzire helyezett fegyvertartási pont problémája."
+    },
+    "basics-three-points-q3": {
+      "q": "A {{tm:sporting}}-ban a lőálláson álló lövész újra kéri a bemutatást. Legfeljebb mennyi jár egy korongra a kottából?",
+      "options": {
+        "a": "Két korong",
+        "b": "Egy sem: ismétlés nem engedélyezett",
+        "c": "Amennyit a lövész akar",
+        "d": "Pontosan öt"
+      },
+      "explain": "A bíró kérésre újra megmutatja, de legfeljebb kétszer minden korongra a kottából."
+    },
+    "technique-hold-pickup-break-points-q1": {
+      "q": "Mi a fegyvertartási pont (hold point)?",
+      "options": {
+        "a": "Ahol a csövek várnak, amikor kéred a korongot",
+        "b": "Ahol a töltényeket tartják",
+        "c": "Ahol a korong leesik"
+      },
+      "explain": "A fegyvertartási pont az, ahol a csőtorkolatokat tartod a korong kérése előtt."
+    },
+    "technique-hold-pickup-break-points-q2": {
+      "q": "Hová nézz a korong kérése előtt?",
+      "options": {
+        "a": "A csövekre",
+        "b": "A korongfelvételi pontra",
+        "c": "A kottára"
+      },
+      "explain": "A szemed ott várja a korongot, ahol az először válik tisztán láthatóvá."
+    },
+    "technique-hold-pickup-break-points-q3": {
+      "q": "Melyik pontra állítod be a lábaidat?",
+      "options": {
+        "a": "A korongfelvételi pontra",
+        "b": "A fegyvertartási pontra",
+        "c": "A lövési pontra"
+      },
+      "explain": "A lábakat a lövési pontra állítják be, hogy ott legyen a tested a legkényelmesebb helyzetben."
+    }
+  },
+  "title": "Három pont: felvétel, tartás, lövés",
+  "summary": "Hová nézz, hol tartsd a csöveket, és hol találd el a korongot: három pont, amelyet minden lövés előtt érdemes megtervezni.",
+  "did_you_know": "Ha túl közel nézel a dobógéphez, a korong csíknak tűnik, mert a szemed még nem „kapta el”. Ezért van a korongfelvételi pont kissé távolabb a dobógéptől."
+}

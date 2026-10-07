@@ -1,0 +1,111 @@
+{
+  "id": "faults-head-lift-stopping",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "3de77b04",
+    "summary": "6687c483",
+    "faults-head-lift-stopping-p1": "20fed38f",
+    "faults-head-lift-stopping-p2": "093a96a2",
+    "faults-head-lift-stopping-p3": "cbd80554",
+    "faults-head-lift-stopping-p4": "1d4e7ba7",
+    "technique-follow-through-and-mistakes-p4": "4ffcbf20",
+    "faults-head-lift-stopping-p5": "126edda3",
+    "faults-head-lift-stopping-ph1": "31a09895",
+    "faults-head-lift-stopping-ph2": "7cc2f04c",
+    "faults-head-lift-stopping-ph3": "0b39e7a2",
+    "faults-head-lift-stopping-ph4": "25c7bc83",
+    "faults-head-lift-stopping-ph5": "a55c21ac",
+    "faults-head-lift-stopping-ph6": "e3784571",
+    "faults-head-lift-stopping-kp1": "ff1df477",
+    "faults-head-lift-stopping-kp2": "879a7776",
+    "faults-head-lift-stopping-kp3": "e544f966",
+    "faults-head-lift-stopping-kp4": "935cef51",
+    "faults-head-lift-stopping-kp5": "881b8519",
+    "faults-head-lift-stopping-q1": "78a782da",
+    "faults-head-lift-stopping-q2": "d65ac876",
+    "faults-head-lift-stopping-q3": "f4a07216"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "faults-head-lift-stopping-p1": "Az irány után az edző megnevezi az okot. Négy ok majdnem minden edzésen előkerül, és mindegyiknek megvan a saját rövid szava. Tanuld meg őket párban: a hiba és a javítás.",
+    "faults-head-lift-stopping-p2": "Head lift („fej felemelése”): az arc elválik a tustól a lövés pillanatában vagy kissé előtte, gyakran azért, mert a lövész látni akarja, ahogy a korong eltörik. A szemed végzi a hátsó irányzék szerepét (a sörétes puskának nincs ilyen). Ezért ha a fej felemelkedik, a szem elmozdul, a fegyver magasabbra mutat, mint hinnéd, és a lövés rendszerint a korong fölé megy. Javítás: „head down” (fejet le), „cheek on the stock” (arc a tuson), „stay in the gun” (maradj a fegyverben).",
+    "faults-head-lift-stopping-p3": "Stopping the gun („megállítja a fegyvert”): a csövek megállnak a lövésnél, leggyakrabban azért, mert a lövész a csövekre pillant, hogy ellenőrizze a távolságot a korong előtt. A lövés mögé megy. Enyhébb formája a checking („megtorpanás”): a lendítés egy pillanatra megakad. Javítás: „keep the gun moving” (tartsd mozgásban a fegyvert), „follow through” (kísérd el), „finish the shot” (fejezd be a lövést).",
+    "faults-head-lift-stopping-p4": "Riding the target („túl hosszan követi a korongot”): a lövész túl sokáig követi a korongot a lövés előtt, így az lelassul, esik vagy elkanyarodik, és a lövész elveszíti a vonalat. Javítás: „take it earlier” (lődd korábban), „commit to it” (határozd el magad). Poking (más néven „aiming”, „measuring” – „célzás”, „mérés”): a sörétes puska lassú, puskaszerű ráirányítása, a szem a célgömbön (a csövek végén lévő kis pöttyön), nem a korongon. Jellemző, ha a lövési pont túl közel van, vagy egy {{term:teal|teal}} korongnál (amely majdnem egyenesen felfelé repül) a felszállás tetőpontján. Javítás: „eyes on the clay” (a korongot nézd), „let the gun go” (engedd el a fegyvert).",
+    "technique-follow-through-and-mistakes-p4": "Egy hasonló hiba a {{term:flinch|rándulás}} (flinch): akaratlan rángás közvetlenül a lövés előtt, gyakran a {{term:recoil|visszarúgás}} várása miatt. Általában segít a testre szabott fegyver, könnyebb töltény és az edzővel végzett munka; lásd: {{lesson:health-recoil-shoulder-neck}}."
+  },
+  "note": {
+    "faults-head-lift-stopping-p5": "Az edzők gyakran már azelőtt megnevezik az okot, hogy a lövész leengedte volna a fegyvert. Fordítsd le ugyanazzal a lendülettel és ugyanazzal az igével: a „you stopped” nem azt jelenti, hogy „hibáztál”. Az olyan szó, mint az „aiming”, szinte mindig bírálat, ezért ne csinálj belőle olyan tanácsot, hogy „célozz jobban”."
+  },
+  "phrases": {
+    "faults-head-lift-stopping-ph1": {
+      "meaning": "Az arc elvált a tustól, ezért a lövés a korong fölé ment.",
+      "say": "Felemelted a fejed, ezért ment fölé."
+    },
+    "faults-head-lift-stopping-ph2": {
+      "meaning": "A lendítés megállt a lövésnél; folytasd a mozgást a lövésen át és utána is.",
+      "say": "Tartsd mozgásban a fegyvert, megálltál rajta."
+    },
+    "faults-head-lift-stopping-ph3": {
+      "meaning": "Rövid habozás az elsütés előtt; dönts, és lőj lassítás nélkül.",
+      "say": "Közvetlenül a lövés előtt megtorpantál, határozd el magad."
+    },
+    "faults-head-lift-stopping-ph4": {
+      "meaning": "Bírálat: a lövész úgy irányoz, mint egy golyós puskával; fókuszálj a korongra, és lendíts szabadon.",
+      "say": "Ne célozz, nézd a korongot, és engedd a fegyvert."
+    },
+    "faults-head-lift-stopping-ph5": {
+      "meaning": "A lövész túl sokáig követte a korongot; lődd le hamarabb.",
+      "say": "Túl sokáig vitted, lődd korábban."
+    },
+    "faults-head-lift-stopping-ph6": {
+      "meaning": "Az arc maradjon a tuson a lövés utánig.",
+      "say": "Maradj a fegyverben."
+    }
+  },
+  "key_points": {
+    "faults-head-lift-stopping-kp1": "Fejfelemelés: a lövés általában fölé megy; javítás: fejet le, maradj a fegyverben.",
+    "faults-head-lift-stopping-kp2": "Megálló cső vagy megtorpanás: a lövés mögé megy; javítás: tartsd mozgásban a fegyvert, kísérd el.",
+    "faults-head-lift-stopping-kp3": "Túlkísérés: a korong lelassul vagy elesik; javítás: lődd korábban, határozd el magad.",
+    "faults-head-lift-stopping-kp4": "Célzás: lassú, puskaszerű ráirányítás; javítás: a korongot nézd.",
+    "faults-head-lift-stopping-kp5": "Rándulás (flinch): rángás a lövés előtt, gyakran a visszarúgás miatt; ellenőrizd a fegyver testre szabását és a töltényeket."
+  },
+  "quiz": {
+    "faults-head-lift-stopping-q1": {
+      "q": "Az edző azt mondja: „You lifted your head”. Hová ment legvalószínűbben a lövés?",
+      "options": {
+        "a": "Mögé",
+        "b": "Fölé",
+        "c": "Alá",
+        "d": "Elé"
+      },
+      "explain": "A szemed végzi a hátsó irányzék szerepét (a sörétes puskának nincs ilyen): ha a fej felemelkedik, a lövés rendszerint fölé megy."
+    },
+    "faults-head-lift-stopping-q2": {
+      "q": "Egy edző rákiált: „Stop aiming!”. Mit akar?",
+      "options": {
+        "a": "Ne irányozd, mint egy puskát: nézd a korongot, és lendíts",
+        "b": "Célozz pontosabban a sín mentén a korongra",
+        "c": "Hagyd abba a lövést, és nyisd ki rögtön a fegyvert",
+        "d": "Engedd le a fegyvert, és várj a bíróra"
+      },
+      "explain": "Az „aiming” az edző szájából hiba (poking); a javítás a korongra néző szem és a szabad lendítés."
+    },
+    "faults-head-lift-stopping-q3": {
+      "q": "A „You rode it too long” azt jelenti…",
+      "options": {
+        "a": "A lövész túl korán lőtt",
+        "b": "A dobógép túl lassan dobta a korongot",
+        "c": "A lövész túl messze hátulról indult",
+        "d": "A lövész túl sokáig követte a korongot"
+      },
+      "explain": "A riding the target azt jelenti, hogy a lövész túl sokáig követi a korongot, így az lelassul vagy esik, és elvész a vonal."
+    }
+  },
+  "title": "Fejfelemelés, megálló cső, túlkísérés, célzás",
+  "summary": "Négy gyakori oka a mellőlövéseknek: a fej felemelése, a fegyver megállítása vagy megtorpanása, a korong túl hosszú követése és a „böködés”; hogyan néz ki mindegyik, és mi a szokásos javításuk."
+}

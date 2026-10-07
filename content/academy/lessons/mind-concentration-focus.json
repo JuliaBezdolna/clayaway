@@ -1,0 +1,479 @@
+{
+  "id": "mind-concentration-focus",
+  "rev": 3,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "mind-concentration-focus"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "target-presentation",
+    "pick-up-point",
+    "hold-point",
+    "break-point",
+    "soft-focus",
+    "hard-focus",
+    "leading-edge",
+    "process-goal",
+    "bead",
+    "lead",
+    "quiet-eye"
+  ],
+  "rule_refs": [
+    {
+      "book": "compak",
+      "id": "ch17-squad-show-targets"
+    }
+  ],
+  "facts": [
+    "rules.reshow-after-interruption"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Quiet eye duration and gun motion in elite shotgun shooting (Medicine & Science in Sports & Exercise, 2010)"
+      },
+      "url": "https://doi.org/10.1249/MSS.0b013e3181d1b059",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Quiet eye and performance in sport: a meta-analysis (Journal of Sport and Exercise Psychology, 2016)"
+      },
+      "url": "https://portal.research.lu.se/en/publications/quiet-eye-and-performance-in-sport-a-meta-analysis/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Quiet eye training in a visuomotor control task (Medicine & Science in Sports & Exercise, 2011)"
+      },
+      "url": "https://doi.org/10.1249/MSS.0b013e3182035de6",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Anxiety, movement kinematics, and visual attention in elite-level performers (Emotion, 2011)"
+      },
+      "url": "https://doi.org/10.1037/a0023225",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Anxiety and cognitive performance: attentional control theory (Emotion, 2007)"
+      },
+      "url": "https://doi.org/10.1037/1528-3542.7.2.336",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Mental fatigue and sport-specific psychomotor performance: a systematic review (Sports Medicine, 2021)"
+      },
+      "url": "https://doi.org/10.1007/s40279-021-01429-6",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The effects of mental fatigue on psychophysiological responses, mood states, and archery shooting performance under a simulated archery competition: a randomized cross-over study (Brain Sciences, 2026)"
+      },
+      "url": "https://doi.org/10.3390/brainsci16050459",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Eyes and attention: soft focus, hard focus and the quiet eye",
+    "uk": "Очі й увага: м’який фокус, жорсткий фокус і «тихе око»"
+  },
+  "summary": {
+    "en": "How to switch your attention on for the few seconds of each target and off between stands, and what your eyes do: soft focus, hard focus and the quiet eye.",
+    "uk": "Як вмикати увагу на кілька секунд кожної мішені й вимикати між стрілецькими місцями і що роблять очі: м’який фокус, жорсткий фокус і «тихе око»."
+  },
+  "brief": {
+    "title": {
+      "en": "Eyes and attention: soft focus, hard focus and the quiet eye",
+      "uk": "Очі й увага: м’який фокус, жорсткий фокус, «тихе око»"
+    },
+    "points": {
+      "en": [
+        "Switching on for the target and switching off between stands.",
+        "The quiet eye: an earlier and steadier final look; it tends to be longer in experienced shooters and on hits, but there is no magic number of milliseconds.",
+        "The barrels stay in peripheral vision (audit A-27).",
+        "Receives the soft and hard focus paragraphs of basics-eyes."
+      ],
+      "uk": [
+        "Вмикатися на мішень і вимикатися між стрілецькими місцями.",
+        "«Тихе око» — раніший і стійкіший останній погляд; у досвідчених стрільців і при влучаннях він зазвичай довший, але магічного числа мілісекунд немає.",
+        "Стволи — на периферії зору (аудит A-27).",
+        "Сюди переходять абзаци про м’який і жорсткий фокус із basics-eyes."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-concentration-focus-p1",
+      "t": "p",
+      "en": "A round of {{tm:sporting}} or {{tm:compak}} takes much longer than the shooting itself. You walk, wait and watch others; the shots take only a few seconds per target. Hardly anyone can hold full attention for all that time, and you do not need to.",
+      "uk": "Раунд {{tm:sporting}} чи {{tm:compak}} триває значно довше, ніж сама стрільба. Ви ходите, чекаєте, дивитеся на інших, а постріли займають лише кілька секунд на мішень. Навряд чи хтось може тримати повну увагу весь цей час, і це не потрібно."
+    },
+    {
+      "k": "mind-concentration-focus-p2",
+      "t": "p",
+      "en": "Many coaches suggest treating attention like a switch. Between stands you switch off: talk, drink water, rest your eyes. About two or three minutes before your turn, you switch on again.",
+      "uk": "Багато тренерів радять ставитися до уваги як до вимикача. Між стрілецькими місцями ви її вимикаєте: розмовляєте, п’єте воду, даєте очам відпочити. Приблизно за дві-три хвилини до своєї черги вмикаєте знову."
+    },
+    {
+      "k": "mind-concentration-focus-p7",
+      "t": "p",
+      "en": "When your head is tired from long, hard thinking, your aim can get worse; this has been seen in archery, for example. So adding up scores or scrolling your phone for a long time between stands may tire you more than you expect.",
+      "uk": "Коли голова втомлена від довгої напруженої роботи, влучність може падати; це помічали, наприклад, у стрільбі з лука. Тож підрахунок очок чи довге сидіння в телефоні між стрілецькими місцями можуть утомити більше, ніж здається."
+    },
+    {
+      "k": "mind-concentration-focus-p3",
+      "t": "p",
+      "en": "During the {{term:target-presentation|target presentation}}, use your attention to plan. Where does the target come from, where do you see it clearly, where will you break it? This gives you the {{term:pick-up-point|pick-up point}}, the {{term:hold-point|hold point}} and the {{term:break-point|break point}}: see {{lesson:technique-hold-pickup-break-points}}. When {{tm:compak}} is shot by squad, only the day's first squad watches a demonstration, early in the morning ({{rule:compak:ch17-squad-show-targets}}). Later squads learn the targets by watching the shooters before them, unless a stop of {{fact:rules.reshow-after-interruption}} brings a new demonstration of the singles.",
+      "uk": "Під час {{term:target-presentation|показу мішеней}} увага працює на план. Звідки вилітає мішень, де ви її чітко бачите, де розіб’єте? Так з’являються {{term:pick-up-point|точка підхоплення}}, {{term:hold-point|точка утримання}} і {{term:break-point|точка пострілу}}: див. {{lesson:technique-hold-pickup-break-points}}. Коли в {{tm:compak}} стріляють у форматі by squad, демонстрацію бачить лише перша група дня, рано вранці ({{rule:compak:ch17-squad-show-targets}}). Наступні групи вивчають мішені, спостерігаючи за стрільцями перед собою; лише після перерви {{fact:rules.reshow-after-interruption}} одиночні мішені показують знову."
+    },
+    {
+      "k": "basics-eyes-p4",
+      "t": "p",
+      "core": true,
+      "en": "Focus: a {{term:soft-focus|soft focus}}, calm and wide, while your eyes wait at the pick-up point; then a {{term:hard-focus|hard focus}} on the target itself, often its {{term:leading-edge|leading edge}}. Some shooters look back at the barrel or the {{term:bead|bead}} (the small dot at the muzzle end of the rib) to check their {{term:lead|lead}}. Lead is how far in front of the target you point the gun, and checking it this way often makes the gun slow down or stop.",
+      "uk": "Фокус: {{term:soft-focus|м’який фокус}}, спокійний і широкий, поки очі чекають у точці підхоплення; потім {{term:hard-focus|жорсткий фокус}} на самій мішені, часто на її {{term:leading-edge|передньому краї}}. Деякі стрільці переводять погляд на стволи чи {{term:bead|мушку}} (маленьку крапку на кінці планки біля дула), щоб «перевірити» {{term:lead|винос}}. Винос — це відстань, на яку ви спрямовуєте рушницю попереду мішені, і така перевірка часто сповільнює або зупиняє рушницю."
+    },
+    {
+      "k": "mind-concentration-focus-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "going-away",
+        "focus": "eyes"
+      },
+      "ready": false,
+      "en": "Animation: soft focus around the pick-up point, then hard focus on the leading edge of the target.",
+      "uk": "Анімація: м’який фокус навколо точки підхоплення, потім жорсткий фокус на передньому краї мішені."
+    },
+    {
+      "k": "mind-concentration-focus-p8",
+      "t": "p",
+      "en": "The barrels stay at the edge of your vision. Experienced shooters often say they hardly notice the gun during the shot, because their eyes are on the target.",
+      "uk": "Стволи залишаються на краю поля зору. Досвідчені стрільці часто кажуть, що майже не помічають рушниці під час пострілу, бо їхній погляд — на мішені."
+    },
+    {
+      "k": "mind-concentration-focus-p9",
+      "t": "p",
+      "en": "Researchers call the last steady look before a movement the {{term:quiet-eye|quiet eye}}. Compared with less skilled shooters, elite trap and skeet shooters start it earlier and hold it longer, and it is longer on hits than on misses.",
+      "uk": "Останній стійкий погляд перед рухом дослідники називають «{{term:quiet-eye|тихим оком}}» (quiet eye). Порівняно з менш досвідченими стрільцями елітні стрільці у трапі й скиті починають його раніше й тримають довше, а при влучаннях він довший, ніж при промахах."
+    },
+    {
+      "k": "mind-concentration-focus-p10",
+      "t": "p",
+      "en": "There is no set number of milliseconds to hold. For you it simply means: see the target early and keep your eyes on it while the gun moves smoothly. In one study, 20 skeet shooters trained this while watching video of their own eyes and shots, and they hit more targets afterwards. The research is from Olympic trap and skeet; most likely it works the same way in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "Певної кількості мілісекунд, яку треба витримати, немає. Для вас це означає просто: рано побачити мішень і тримати на ній погляд, поки рушниця рухається плавно. В одному дослідженні 20 стрільців у скит тренували це, переглядаючи відео своїх очей і пострілів, і після цього влучали частіше. Дослідження проводили на олімпійських трапі й скиті; найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+    },
+    {
+      "k": "mind-concentration-focus-p5",
+      "t": "p",
+      "en": "Attention is often pulled away by thoughts, not by the target: “what if I miss”, “how many have I dropped”. Worry takes attention away from the task, especially under pressure. One {{term:process-goal|process goal}}, such as “see the front edge”, gives your attention a job: see {{lesson:mind-process-goals}}.",
+      "uk": "Увагу частіше відволікають думки, а не мішень: «а якщо промахнуся», «скільки я вже втратив». Тривога забирає увагу від завдання, особливо під тиском. Одна {{term:process-goal|ціль процесу}}, наприклад «бачу передній край», дає увазі роботу: див. {{lesson:mind-process-goals}}."
+    },
+    {
+      "k": "mind-concentration-focus-p6",
+      "t": "p",
+      "en": "Attention can be trained: short rounds with a clear routine, practice with small distractions, and drills in which you follow moving things with your eyes. If your attention drifts after several rounds, that is normal tiredness; a short break helps more than forcing yourself.",
+      "uk": "Увагу можна тренувати: короткі раунди з чітким ритуалом, тренування з невеликими відволіканнями, вправи, у яких ви стежите очима за рухомими предметами. Якщо після кількох раундів увага «пливе», це звичайна втома; коротка перерва допоможе більше, ніж стрільба через силу."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-concentration-focus-kp1",
+      "en": "Attention is a switch: on at the stand, off between stands.",
+      "uk": "Увага — як вимикач: увімкнена на стрілецькому місці, вимкнена між ними."
+    },
+    {
+      "k": "mind-concentration-focus-kp2",
+      "en": "Use the target presentation to choose the pick-up, hold and break points.",
+      "uk": "Використовуйте показ мішеней, щоб обрати точку підхоплення, точку утримання і точку пострілу."
+    },
+    {
+      "k": "mind-concentration-focus-kp3",
+      "en": "Soft focus before the call, hard focus on the target once it appears.",
+      "uk": "М’який фокус перед командою, жорсткий фокус на мішені, щойно вона з’явилася."
+    },
+    {
+      "k": "mind-concentration-focus-kp4",
+      "en": "One process goal instead of thoughts about the score.",
+      "uk": "Одна ціль процесу замість думок про рахунок."
+    },
+    {
+      "k": "mind-concentration-focus-kp5",
+      "en": "The quiet eye means seeing the target early and keeping your eyes on it; there is no set number of milliseconds.",
+      "uk": "«Тихе око» — це рано побачити мішень і тримати на ній погляд; певної кількості мілісекунд немає."
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-concentration-focus-dyk",
+    "en": "Some coaches suggest a test for hard focus: try to see the rim or small details of the clay as it flies. If you can, your eyes are on the target, not on the gun.",
+    "uk": "Деякі тренери пропонують перевірку жорсткого фокуса: спробуйте розгледіти обідок або дрібні деталі мішені в польоті. Якщо вдається, ваш погляд на мішені, а не на рушниці."
+  },
+  "quiz": [
+    {
+      "k": "mind-concentration-focus-q1",
+      "q": {
+        "en": "How can you manage your attention during a round?",
+        "uk": "Як краще розпоряджатися увагою протягом раунду?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Keep full concentration the whole time",
+          "uk": "Тримати повну концентрацію весь час"
+        },
+        {
+          "k": "b",
+          "en": "On at the stand, off between stands",
+          "uk": "Вмикатися на місці, відпочивати між місцями"
+        },
+        {
+          "k": "c",
+          "en": "Count your score after each target",
+          "uk": "Рахувати очки після кожної мішені"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Hardly anyone holds full attention for long; switch it on for the seconds when it matters.",
+        "uk": "Навряд чи хтось довго тримає повну увагу; її вмикають на ті секунди, коли вона потрібна."
+      }
+    },
+    {
+      "k": "mind-concentration-focus-q2",
+      "q": {
+        "en": "Where do your eyes go in hard focus?",
+        "uk": "Куди дивляться в жорсткому фокусі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To the bead on the rib",
+          "uk": "На мушку на планці"
+        },
+        {
+          "k": "b",
+          "en": "To the end of the barrels",
+          "uk": "На кінці стволів"
+        },
+        {
+          "k": "c",
+          "en": "To the target itself",
+          "uk": "На саму мішень"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Your eyes stay on the target, often its leading edge; the barrels and bead stay at the edge of your vision.",
+        "uk": "Погляд залишається на мішені, часто на її передньому краї; стволи й мушка — на краю поля зору."
+      }
+    },
+    {
+      "k": "mind-concentration-focus-q4",
+      "q": {
+        "en": "What does research say about the quiet eye in shotgun shooters?",
+        "uk": "Що кажуть дослідження про «тихе око» у стрільців із рушниці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It starts earlier and lasts longer on hits",
+          "uk": "Воно починається раніше й триває довше при влучаннях"
+        },
+        {
+          "k": "b",
+          "en": "It must last a fixed number of milliseconds",
+          "uk": "Воно має тривати певну кількість мілісекунд"
+        },
+        {
+          "k": "c",
+          "en": "It matters only in rifle and pistol shooting",
+          "uk": "Воно важливе лише у стрільбі з гвинтівки й пістолета"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "On hits the final look starts earlier and lasts longer, but there is no universal number to aim for.",
+        "uk": "При влучаннях останній погляд починається раніше й триває довше, але універсального числа, до якого треба прагнути, немає."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-concentration-focus-q3",
+      "q": {
+        "en": "What is a process goal?",
+        "uk": "Що таке ціль процесу (process goal)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One simple action for each target",
+          "uk": "Одна проста дія на кожну мішень"
+        },
+        {
+          "k": "b",
+          "en": "The number of targets you must break",
+          "uk": "Кількість мішеней, яку треба розбити"
+        },
+        {
+          "k": "c",
+          "en": "Your final place in the results list",
+          "uk": "Ваше підсумкове місце в протоколі"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A process goal keeps your attention on what you do, not on the score.",
+        "uk": "Ціль процесу тримає увагу на тому, що ви робите, а не на рахунку."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-concentration-focus-p2",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-concentration-focus-p7",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01429-6",
+        "https://doi.org/10.3390/brainsci16050459"
+      ]
+    },
+    {
+      "for": "mind-concentration-focus-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "basics-eyes-p4",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-concentration-focus-p8",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-concentration-focus-p9",
+      "level": "strong",
+      "sources": [
+        "https://doi.org/10.1249/MSS.0b013e3181d1b059",
+        "https://portal.research.lu.se/en/publications/quiet-eye-and-performance-in-sport-a-meta-analysis/"
+      ]
+    },
+    {
+      "for": "mind-concentration-focus-p10",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1249/MSS.0b013e3182035de6"
+      ]
+    },
+    {
+      "for": "mind-concentration-focus-p5",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1037/1528-3542.7.2.336",
+        "https://doi.org/10.1037/a0023225"
+      ]
+    },
+    {
+      "for": "mind-concentration-focus-p6",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "9b84feba",
+    "summary": "181d6e3f",
+    "mind-concentration-focus-p1": "afdc471a",
+    "mind-concentration-focus-p2": "a0ee07fe",
+    "mind-concentration-focus-p7": "d5234bf3",
+    "mind-concentration-focus-p3": "1d7a2e86",
+    "basics-eyes-p4": "980c7cb2",
+    "mind-concentration-focus-sim": "e65f1a6a",
+    "mind-concentration-focus-p8": "72cebf0f",
+    "mind-concentration-focus-p9": "e0357652",
+    "mind-concentration-focus-p10": "f7366569",
+    "mind-concentration-focus-p5": "5c7d9e57",
+    "mind-concentration-focus-p6": "32829321",
+    "mind-concentration-focus-kp1": "ad64d958",
+    "mind-concentration-focus-kp2": "b915c545",
+    "mind-concentration-focus-kp3": "50233328",
+    "mind-concentration-focus-kp4": "24d27429",
+    "mind-concentration-focus-kp5": "fb82009b",
+    "mind-concentration-focus-dyk": "a8e9ebb6",
+    "mind-concentration-focus-q1": "f592a3e4",
+    "mind-concentration-focus-q2": "3dd8e102",
+    "mind-concentration-focus-q4": "2ddaaf43",
+    "mind-concentration-focus-q3": "741aa211"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
+      "Animation ready:false: check it in the page against the text (soft/hard focus or the three points), then set ready:true.",
+      "basics-eyes-p4 (core) came from technique-master-eye and was edited (audit A-14: 'often slows or stops'; 'ideally' removed). Copy its 9 overlay entries from i18n/<lang>/technique-master-eye.json to i18n/<lang>/mind-concentration-focus.json and re-translate (hash changed)."
+    ]
+  }
+}

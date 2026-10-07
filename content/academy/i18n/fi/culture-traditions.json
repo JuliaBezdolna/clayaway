@@ -1,0 +1,78 @@
+{
+  "id": "culture-traditions",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "e14ac747",
+    "summary": "b2d764f8",
+    "culture-traditions-p1": "59e7dbaa",
+    "culture-traditions-ties": "6db9b8a2",
+    "culture-traditions-p4": "6bc0ece4",
+    "culture-traditions-ceremony": "0eb02c95",
+    "culture-traditions-dress": "50900bc0",
+    "culture-traditions-p5": "7b45f8c9",
+    "culture-traditions-p6": "b8240615",
+    "culture-traditions-kp4": "5f82da81",
+    "culture-traditions-kp-dress": "e2479ed7",
+    "culture-traditions-kp3": "79d45933",
+    "culture-traditions-kp-thanks": "46020050",
+    "culture-traditions-dyk": "f33c68e4",
+    "culture-traditions-q-ceremony": "d8389378",
+    "culture-traditions-q3": "8144c5e3",
+    "culture-traditions-q-thanks": "8ea5b06e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Traditiot: palkintojenjako, joukkueet ja tavat",
+  "summary": "Kuinka seremoniat ja palkintojenjako sujuvat, kuinka joukkueet kilpailevat ja mitkä tavat tekevät {{tm:sporting}}- tai {{tm:compak}}-kilpailusta juhlan.",
+  "body": {
+    "culture-traditions-p1": "Kilpailu on enemmän kuin tulos. Ampujilla on tapoja, jotka tekevät pitkästä päivästä yhteisen juhlan: seremoniat, palkintojenjako, joukkuehenki ja pienet kohteliaisuudet stendillä.",
+    "culture-traditions-ties": "Jos kahdella tai useammalla ampujalla on sama tulos yhdestä kolmesta kärkisijasta, asian ratkaisee {{term:shoot-off|uusintakierros}}: he ampuvat lisäkiekkoja, ja parempi tulos voittaa. Se on usein päivän jännittävin hetki, ja katsojat kerääntyvät katsomaan. Kuinka uusintakierrokset ja muut tasatilanteet toimivat: {{lesson:competitions-categories-and-shoot-offs}}.",
+    "culture-traditions-p4": "Joukkuekilpailut ovat omanlaisensa perinne. {{term:team|Joukkue}} on muutama ampuja samasta maasta, tai seuratason kilpailuissa samasta seurasta. Heidän tuloksensa lasketaan yhteen joukkuesarjaa varten. Joukkueet eivät kilpaile uusintakierroksella. Jos kaksi joukkuetta päätyy tasoihin, voittaa se, jonka ampujat ampuivat yhdessä paremmin kilpailun viimeisellä kierroksella. Jos sekin on tasan, ratkaisee edellinen kierros, ja niin edelleen.",
+    "culture-traditions-ceremony": "Kansainväliset kilpailut avataan ja päätetään seremonialla. Avajaisissa kansalliset joukkueet kulkevat paraatissa joukkueasussa tai siisteissä housuissa ja bleiserissä. Päättäjäisissä kaikkien palkittujen on osallistuttava {{term:prize-giving|palkintojenjakoon}} samoin pukeutuneina.",
+    "culture-traditions-dress": "Tämä seremoniasääntö on sama molemmissa lajeissa. Seuratason kilpailut ovat tavallisesti vapaamuotoisempia, niin lue ohjelma. {{term:dress-code|Pukeutumissäännöt}} stendillä ovat erillinen sääntö: {{lesson:rules-dress-and-safety}}.",
+    "culture-traditions-p5": "Palkintopokerille astuminen on myös kunnioituksen osoitus: kilpakumppaneille, jotka ampuivat vierellä, ja ihmisille, jotka järjestivät kilpailun.",
+    "culture-traditions-p6": "On myös epämuodollisia tapoja: voittajan onnitteleminen, kuva omasta {{term:squad|erästä}} (ryhmästä, jonka kanssa ampui), kiitos {{term:organiser|järjestäjille}}, {{term:referee|tuomareille}} ja {{term:trapper|heitinten operaattoreille}}. Käytöstavat itse stendillä: {{lesson:culture-sportsmanship-referee}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "culture-traditions-kp4": "Kansainvälisissä kilpailuissa kaikkien palkittujen on osallistuttava palkintojenjakoon.",
+    "culture-traditions-kp-dress": "Seremonia-asu: joukkueasu tai siistit housut ja bleiseri.",
+    "culture-traditions-kp3": "Joukkueen tulokset lasketaan yhteen; joukkueet eivät kilpaile uusintakierroksella.",
+    "culture-traditions-kp-thanks": "Päivän päätteeksi kiitä järjestäjiä, tuomareita ja heitinten operaattoreita."
+  },
+  "did_you_know": "Lajissa {{tm:sporting}} kansainvälisten kilpailujen järjestäjät pyrkivät sijoittamaan yhden maan joukkuetoverit eri eriin. Niin isossa mestaruuskilpailussa ampuu usein muiden maiden urheilijoiden vierellä.",
+  "quiz": {
+    "culture-traditions-q-ceremony": {
+      "q": "Mitä palkittujen on tehtävä kansainvälisessä kilpailussa?",
+      "options": {
+        "a": "Lähettää palkinnon hakemaan joukkuetoveri",
+        "b": "Osallistua palkintojenjakoon asianmukaisesti pukeutuneena",
+        "c": "Astua palkintopokerille stendiliivissä"
+      },
+      "explain": "Kaikki palkitut osallistuvat päättäjäisseremoniaan joukkueasussa tai siisteissä housuissa ja bleiserissä."
+    },
+    "culture-traditions-q3": {
+      "q": "Kuinka tasapisteiset joukkueet erotetaan?",
+      "options": {
+        "a": "Viimeisten kierrosten tuloksilla",
+        "b": "Joukkueiden välisellä uusintakierroksella",
+        "c": "Arpomalla kilpailun jälkeen"
+      },
+      "explain": "Joukkueet eivät kilpaile uusintakierroksella. Ratkaisee kilpailun viimeinen kierros (lajissa {{tm:sporting}} kahdeksas rataosuus, lajissa {{tm:compak}} kahdeksas kenttä); jos sekin on tasan, edellinen, ja niin edelleen."
+    },
+    "culture-traditions-q-thanks": {
+      "q": "Ketä ampujat tavallisesti kiittävät päivän päätteeksi?",
+      "options": {
+        "a": "Vain kilpailun voittajaa",
+        "b": "Vain valmentajaa, joka tuli heidän kanssaan",
+        "c": "Järjestäjiä, tuomareita ja heitinten operaattoreita"
+      },
+      "explain": "Kilpailu nojaa monen ihmisen työhön, ja lyhyt kiitos on yleinen tapa."
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "lang": "fr",
+  "blocks": {
+    "basics": {
+      "title": "Les bases",
+      "purpose": "Ce qu'est ce sport, les disciplines, la FITASC, le stand, qui tire, comment commencer, ce que cela coûte et comment un enfant peut débuter.",
+      "sections": {
+        "what": "Ce qu'est ce sport",
+        "start": "Comment commencer",
+        "kids": "Pour un enfant"
+      }
+    },
+    "safety": {
+      "title": "Sécurité et étiquette",
+      "purpose": "Habitudes de sécurité, protection des yeux et des oreilles, plomb, enfants ; comportement sur le poste et dans le groupe, respect de l'arbitre, spectateurs.",
+      "sections": {
+        "safety": "Sécurité",
+        "etiquette": "Étiquette"
+      }
+    },
+    "gear": {
+      "title": "Équipement",
+      "purpose": "Le fusil, les chokes, les cartouches, la protection et les vêtements : comment les choses s'appellent, comment elles fonctionnent, quoi acheter et quand.",
+      "sections": {
+        "gun": "Le fusil",
+        "chokes": "Chokes",
+        "cartridges": "Cartouches",
+        "kit": "Équipement personnel"
+      }
+    },
+    "targets": {
+      "title": "Plateaux et trajectoires",
+      "purpose": "Les plateaux, les lanceurs, les parcours {{tm:sporting}} et {{tm:compak}}, les menus, les trajectoires, les doublés et comment lire un plateau.",
+      "sections": {
+        "clays": "Plateaux et lanceurs",
+        "layouts": "Parcours",
+        "flight": "Trajectoires",
+        "pairs": "Doublés et lecture d'un plateau"
+      }
+    },
+    "technique": {
+      "title": "Technique et avance",
+      "purpose": "La position, l'épaulé, les yeux, les trois points, l'accompagnement, le recul ; les quatre méthodes d'avance ; comprendre les manqués.",
+      "sections": {
+        "fundamentals": "Les bases du tir",
+        "lead": "Avance",
+        "faults": "Erreurs"
+      }
+    },
+    "training": {
+      "title": "Entraînement",
+      "purpose": "L'entraîneur, comment structurer et doser l'entraînement, l'échauffement, l'entraînement à vide à l'épaulé, la préparation à la compétition, un journal d'entraînement.",
+      "sections": {
+        "main": "Entraînement"
+      }
+    },
+    "mind": {
+      "title": "Mental et préparation",
+      "purpose": "Routine de pré-tir, attention, respiration, mots-clés, imagerie mentale, nervosité, pression, redémarrage après un manqué, objectifs, jour de compétition, antidopage, juniors.",
+      "sections": {
+        "before": "Avant le tir",
+        "pressure": "Sous pression",
+        "day": "Jour de compétition",
+        "juniors": "Juniors"
+      }
+    },
+    "rules": {
+      "title": "Règlement",
+      "purpose": "Le règlement FITASC en mots simples, court et dans nos propres termes ; chaque règle est marquée {{tm:sporting}} ou {{tm:compak}} et renvoie au guide des règlements.",
+      "sections": {
+        "main": "Règlement"
+      }
+    },
+    "competitions": {
+      "title": "Compétitions",
+      "purpose": "Types de compétitions, inscription, jour de compétition, la feuille de marque et les résultats, catégories et barrages, réclamations, juniors.",
+      "sections": {
+        "main": "Compétitions"
+      }
+    },
+    "travel": {
+      "title": "Voyages",
+      "purpose": "Planifier un voyage, le fusil dans l'UE et hors UE, l'avion, les cartouches sur place, le décalage horaire ; les tours ClayAway (bientôt disponibles).",
+      "sections": {
+        "main": "Voyages"
+      }
+    },
+    "stand-talk": {
+      "title": "Le langage du stand",
+      "purpose": "Comment parlent l'entraîneur, l'arbitre et les tireurs ; le travail de l'interprète ; pour tous ceux qui s'entraînent avec un entraîneur parlant une autre langue.",
+      "sections": {
+        "role": "Le rôle",
+        "said": "Ce qui se dit sur le stand",
+        "traps": "Pièges de traduction",
+        "work": "Sur le terrain"
+      }
+    },
+    "watch": {
+      "title": "Regarder et suivre",
+      "purpose": "Comment regarder le tir et les vidéos ; ClayArena : résultats, profil, chiffres, catalogues.",
+      "sections": {
+        "watch": "Regarder",
+        "clayarena": "ClayArena"
+      }
+    },
+    "community": {
+      "title": "Communauté et histoire",
+      "purpose": "Histoire, traditions, nature, le club ; comment devenir arbitre ou entraîneur ; un concours de club.",
+      "sections": {
+        "history": "Histoire",
+        "culture": "Culture",
+        "next": "La prochaine étape"
+      }
+    }
+  },
+  "routes": {
+    "beginner": {
+      "title": "Débutant",
+      "for": "Pour quelqu'un qui n'a jamais tiré.",
+      "certificate": "Premier pas",
+      "stages": {
+        "first-visit": "Avant votre première visite",
+        "first-shots": "Premiers tirs"
+      }
+    },
+    "first-competition": {
+      "title": "Première compétition",
+      "for": "Pour un tireur après quelques séances.",
+      "checklist": "Liste de contrôle du jour de compétition",
+      "stages": {
+        "ready": "Se préparer",
+        "rules": "Les règles à connaître",
+        "head": "Tête et corps",
+        "day": "Jour de compétition"
+      }
+    },
+    "interpreter": {
+      "title": "Interprète",
+      "for": "Pour les interprètes sur le stand ; remplace l'Académie des interprètes.",
+      "stages": {
+        "day-one": "Premier jour sur le stand",
+        "sport": "Le sport et les parcours",
+        "gear-targets": "Fusil et plateaux",
+        "technique": "Technique",
+        "lead": "Avance",
+        "coach-talk": "Erreurs et langage de l'entraîneur",
+        "rules": "Les règles sur le stand",
+        "referee": "Arbitre, cartons et résultats",
+        "mastery": "Maîtrise"
+      }
+    },
+    "junior-parent": {
+      "title": "Parents d'un junior",
+      "for": "Pour les parents dont l'enfant veut tirer.",
+      "checklist": "Liste de contrôle pour les parents",
+      "stages": {
+        "is-it-for-my-child": "Est-ce fait pour mon enfant",
+        "safe-start": "Un début en sécurité",
+        "support": "Soutien et compétitions"
+      }
+    },
+    "new-coach": {
+      "title": "Entraîneur débutant",
+      "for": "Pour quelqu'un qui commence à entraîner d'autres personnes.",
+      "disclaimer": "N'est pas une qualification d'entraîneur.",
+      "stages": {
+        "role": "Le rôle de l'entraîneur",
+        "diagnosis": "Bases et diagnostic",
+        "mental": "Entraînement et mental"
+      }
+    },
+    "organiser": {
+      "title": "Organisateur",
+      "for": "Pour les organisateurs de concours de club et de voyages.",
+      "stages": {
+        "club-events": "Compétitions et le club",
+        "trips": "Voyages et tours"
+      }
+    },
+    "fan": {
+      "title": "Supporter et famille",
+      "for": "Pour les supporters, les familles et les amis des tireurs.",
+      "stages": {
+        "watch": "Regarder et comprendre",
+        "results": "Résultats et ClayArena"
+      }
+    }
+  },
+  "practice": {
+    "lead-lab": "Labo de l'avance",
+    "name-the-flight": "Nommez la trajectoire",
+    "translate-the-coach": "Comprendre / traduire l'entraîneur",
+    "referees-call": "Décision de l'arbitre",
+    "term-cards": "Cartes de termes",
+    "phrasebook": "Guide de conversation",
+    "rules-exam": "Examen des règles",
+    "routine": "Ma routine"
+  },
+  "levels": {
+    "guest": "Invité",
+    "learner": "Apprenant",
+    "practitioner": "Praticien",
+    "specialist": "Spécialiste",
+    "expert": "Expert",
+    "mentor": "Mentor"
+  },
+  "badges": {
+    "block-basics": "Bloc Les bases",
+    "block-safety": "Bloc Sécurité et étiquette",
+    "block-gear": "Bloc Équipement",
+    "block-targets": "Bloc Plateaux et trajectoires",
+    "block-technique": "Bloc Technique et avance",
+    "block-training": "Bloc Entraînement",
+    "block-mind": "Bloc Mental et préparation",
+    "block-rules": "Bloc Règlement",
+    "block-competitions": "Bloc Compétitions",
+    "block-travel": "Bloc Voyages",
+    "block-stand-talk": "Bloc Langage du stand",
+    "block-watch": "Bloc Regarder et suivre",
+    "block-community": "Bloc Communauté et histoire",
+    "route-beginner": "Parcours Débutant",
+    "route-first-competition": "Parcours Première compétition",
+    "route-interpreter": "Parcours Interprète",
+    "route-junior-parent": "Parcours Parents d'un junior",
+    "route-new-coach": "Parcours Entraîneur débutant",
+    "route-organiser": "Parcours Organisateur",
+    "route-fan": "Parcours Supporter et famille",
+    "stage-beginner-first-visit": "Débutant : avant votre première visite",
+    "stage-beginner-first-shots": "Débutant : premiers tirs",
+    "stage-first-competition-ready": "Première compétition : se préparer",
+    "stage-first-competition-rules": "Première compétition : les règles à connaître",
+    "stage-first-competition-head": "Première compétition : tête et corps",
+    "stage-first-competition-day": "Première compétition : jour de compétition",
+    "stage-interpreter-day-one": "Interprète : premier jour sur le stand",
+    "stage-interpreter-sport": "Interprète : le sport et les parcours",
+    "stage-interpreter-gear-targets": "Interprète : fusil et plateaux",
+    "stage-interpreter-technique": "Interprète : technique",
+    "stage-interpreter-lead": "Interprète : avance",
+    "stage-interpreter-coach-talk": "Interprète : erreurs et langage de l'entraîneur",
+    "stage-interpreter-rules": "Interprète : les règles sur le stand",
+    "stage-interpreter-referee": "Interprète : arbitre, cartons et résultats",
+    "stage-interpreter-mastery": "Interprète : maîtrise",
+    "stage-junior-parent-is-it-for-my-child": "Parents d'un junior : est-ce fait pour mon enfant",
+    "stage-junior-parent-safe-start": "Parents d'un junior : un début en sécurité",
+    "stage-junior-parent-support": "Parents d'un junior : soutien et compétitions",
+    "stage-new-coach-role": "Entraîneur débutant : le rôle de l'entraîneur",
+    "stage-new-coach-diagnosis": "Entraîneur débutant : bases et diagnostic",
+    "stage-new-coach-mental": "Entraîneur débutant : entraînement et mental",
+    "stage-organiser-club-events": "Organisateur : compétitions et le club",
+    "stage-organiser-trips": "Organisateur : voyages et tours",
+    "stage-fan-watch": "Supporter et famille : regarder et comprendre",
+    "stage-fan-results": "Supporter et famille : résultats et ClayArena",
+    "four-methods": "Quatre méthodes",
+    "name-the-flight-10": "Nommez la trajectoire 10/10",
+    "coach-translator-20": "Traducteur de l'entraîneur 20",
+    "referees-call-20": "Décision de l'arbitre 20",
+    "terms-50": "50 termes",
+    "rules-exam-sporting": "Examen des règles Sporting™",
+    "rules-exam-compak": "Examen des règles Compak® Sporting",
+    "first": "Première leçon",
+    "returning": "De retour",
+    "interpreter-academy-2026": "Académie des interprètes 2026"
+  }
+}

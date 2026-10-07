@@ -1,0 +1,143 @@
+{
+  "id": "training-for-competition",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "15f6d0f5",
+    "summary": "2e1e817a",
+    "training-for-competition-p1": "2be3e003",
+    "training-for-competition-p2": "818a1fa4",
+    "training-for-competition-p2-why": "b885b16c",
+    "training-for-competition-round": "2f2cdb37",
+    "training-for-competition-p3": "6fa2036e",
+    "training-for-competition-order": "4b2487e6",
+    "training-for-competition-p4": "2b629bad",
+    "training-for-competition-train-start": "b60eb1b8",
+    "training-for-competition-p5": "489f87b0",
+    "training-for-competition-time-it": "dcfb6fea",
+    "training-for-competition-pressure": "9a1d343a",
+    "training-for-competition-pressure-steps": "0cc980b4",
+    "training-for-competition-shoot-off": "bf65f20f",
+    "training-for-competition-fit-in": "d20c63c1",
+    "training-for-competition-no-new-kit": "796fdd5a",
+    "training-for-competition-p6": "44c51a6a",
+    "training-for-competition-practice": "cf9329ef",
+    "training-for-competition-n-coach": "8ee43684",
+    "training-for-competition-n-interpreter": "592f0e7b",
+    "training-for-competition-kp1": "c3cded19",
+    "training-for-competition-kp2": "5a904122",
+    "training-for-competition-kp3": "b70b637e",
+    "training-for-competition-kp-pressure": "87e0f74f",
+    "training-for-competition-kp5": "72fb9966",
+    "training-for-competition-dyk": "27a4b5f2",
+    "training-for-competition-q1": "a832b9bb",
+    "training-for-competition-q2": "5eb21bb6",
+    "training-for-competition-q-pressure": "e3dc29d0",
+    "training-for-competition-q3": "2586076a",
+    "training-for-competition-q-compak-time": "2e75b105"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "new"
+  },
+  "title": "Przygotowanie do zawodów",
+  "summary": "Jak wprowadzić zawody do treningu: pełne serie, własny rytuał, limity czasu twojej dyscypliny i lekka presja, która rośnie krok po kroku.",
+  "body": {
+    "training-for-competition-p1": "Zawody są inne: nowe rzutki, nieznani strzelcy, sędzia i nerwy. Żeby to było bardziej znane, wielu trenerów poleca prowadzić część treningów, jakby to były zawody.",
+    "training-for-competition-p2": "Strzelaj pełne {{term:round|serie}} i prowadź wynik. Nie proś o powtórzenie rzutka po chybieniu i strzelaj rzutki w kolejności {{term:target-menu|menu}}.",
+    "training-for-competition-p2-why": "Tak przebiegają zawody: chybiony rzutek nie jest wyrzucany jeszcze raz, a rzutki przychodzą w kolejności podanej w menu. Menu to tablica, która pokazuje, jakie rzutki strzelasz i w jakiej kolejności.",
+    "training-for-competition-round": {
+      "sporting": "Seria na jednej {{term:layout|osi}} to {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}}).",
+      "compak": "Seria to {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
+    },
+    "training-for-competition-p3": "Na każdym rzutku stosuj swoją {{term:pre-shot-routine|rutynę przedstrzałową}}: te same kroki w tej samej kolejności. Badania nad rutynami, przeważnie w innych sportach, wskazują, że sportowcy, którzy ją stosują, radzą sobie lepiej, także gdy są zestresowani. Prawdopodobnie przenosi się to też na strzelectwo rzutkowe. Więcej w {{lesson:mind-routine-under-pressure}}.",
+    "training-for-competition-order": "Wykonywanie kroków w tej samej kolejności wydaje się ważniejsze niż zajmowanie dokładnie tej samej liczby sekund. To pasuje do strzelectwa rzutkowego, bo czas między twoją komendą a rzutkiem może różnić się między rzutkami. W {{tm:sporting}} rzutek wypuszcza osoba, i tak samo w {{tm:compak}} przy ręcznym zwolnieniu. Przepisy ustalają tylko górny limit tej zwłoki. Tylko {{term:sonopull|sonopull}} w {{tm:compak}}, urządzenie, które wypuszcza rzutek, gdy usłyszy twoją komendę, zachowuje stałą zwłokę. Dokładne czasy są poniżej.",
+    "training-for-competition-p4": {
+      "sporting": "Przed {{term:call|komendą}} broń nie jest złożona. Stopka {{term:stock|kolby}} — górny kąt końca, który wchodzi w ramię — dotyka ciała. Góra kolby pozostaje poniżej {{term:jacket-line|linii na kamizelce}}. To linia naniesiona na kamizelce albo kurtce {{fact:rules.sporting-jacket-line}}; oś barków to wyobrażona pozioma linia przez obydwa barki. Tę {{term:ready-position|pozycję gotowości}} (broń opuszczona, gotowa do złożenia) utrzymujesz, aż rzutek zostanie wypuszczony i będzie widoczny ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+      "compak": "Pozycja broni przy komendzie jest dowolna: złożona albo nie. Każdy rzutek strzela się z bronią przy ramieniu. Nie ma linii na kamizelce ({{rule:compak:ch17-gun-position}})."
+    },
+    "training-for-competition-train-start": "Ćwicz sposób, w jaki zaczyna się każdy strzał w twojej dyscyplinie: pozycję broni, komendę i czekanie na rzutek.",
+    "training-for-competition-p5": {
+      "sporting": "Masz {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Po twojej komendzie sędzia daje sygnał {{term:trapper|operatorowi wyrzutni}}, osobie, która wypuszcza rzutki. Rzutek przychodzi {{fact:rules.release-within-3s}} od sygnału sędziego ({{rule:sporting:ch5-call-and-release}}).",
+      "compak": "Masz {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Rzutek wylatuje {{fact:rules.release-within-3s}} od komendy przy ręcznym zwolnieniu, albo {{fact:rules.sonopull-delay}} po niej z sonopullem (zwolnieniem głosowym) ({{rule:compak:ch2-trigger-manual}})."
+    },
+    "training-for-competition-time-it": "Zmierz czas swojej rutyny na treningu: powinna zmieścić się w {{term:firing-time|limicie czasu}} bez pośpiechu. Jeśli rzutki są wypuszczane ręcznie, poproś operatora wyrzutni, by trochę zmieniał zwłokę, żebyś nauczył się zostawać w gotowości, gdy czekasz. Więcej o przepisach: {{lesson:rules-call-and-time}}.",
+    "training-for-competition-pressure": "Dodawaj lekką presję, krok po kroku: wynik, który się liczy, kogoś, kto patrzy, małą stawkę. Badania nad treningiem pod presją wskazują, że osoby, które ćwiczą pod lekką presją, lepiej zachowują umiejętności, gdy presja jest prawdziwa. Badania pochodzą z innych sportów i zadań, więc prawdopodobnie przenosi się to też na strzelectwo rzutkowe.",
+    "training-for-competition-pressure-steps": [
+      "Pięć z rzędu: wybierz jeden rzutek i zostań przy nim, aż rozbijesz pięć z rzędu; chybienie zaczyna liczenie od nowa.",
+      "Seria testowa: pełna seria z wynikiem, w kolejności menu, bez powtarzanych rzutków i z limitem czasu twojej dyscypliny.",
+      "Widownia: poproś przyjaciela, żeby patrzył, grał sędziego i głośno ogłaszał wyniki.",
+      "Mała stawka: przyjacielski mecz, w którym na przykład przegrywający kupuje kawę.",
+      "Ćwiczenie {{term:shoot-off|dogrywki}}. Dogrywka to dodatkowe strzelanie, które rozstrzyga remis. Po serii, bez wcześniejszego uprzedzenia, strzel jeszcze jedną pełną serię, a jeśli chcesz, serię {{term:sudden-death|sudden death}}, która kończy się na pierwszym chybieniu."
+    ],
+    "training-for-competition-shoot-off": "Prawdziwa dogrywka odbywa się tylko o pierwsze trzy miejsca. W obu dyscyplinach to 25 rzutków, a jeśli strzelcy wciąż są zrównani — sudden death: pierwszy, który chybi, odpada ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
+    "training-for-competition-fit-in": "Jak wpleść to w normalny trening. Wielu trenerów zostawia pracę nad techniką na pierwszą część treningu i dodaje jedno zadanie pod presją pod koniec, raz albo dwa razy w tydzień. Kiedy uczysz się nowego ruchu, zostaw presję na później, aż poczujesz, że ruch się utrwalił. Jeśli technika się rozpada, ułatw zadanie, a nie forsuj dalej.",
+    "training-for-competition-no-new-kit": "Zawody to słabe miejsce na eksperymenty. Nowy {{term:choke|czok}}, nabój czy szkło przetestuj najpierw na treningu.",
+    "training-for-competition-p6": "Ustal plan z wyprzedzeniem. {{term:coaching|Coaching}} — podpowiadanie zawodnikowi w trakcie zawodów — nie jest dozwolony w żadnej z dyscyplin. Jeśli {{term:referee|sędzia}} uzna, że ktoś podpowiada, strzelec otrzymuje {{term:yellow-card|żółtą kartkę}}, a osoba podpowiadająca jest wypraszana poza strefę strzelania ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+    "training-for-competition-practice": {
+      "sporting": "Przed zawodami nikt nie może trenować na zawodowych osiach, więc trenuj na innych ({{rule:sporting:ch15-no-practice}}).",
+      "compak": "Przed zawodami możesz trenować na zawodowych trajektoriach, ale z inną {{term:trajectory-setting-table|tabelą ustawień trajektorii}}: gotowym menu, które mówi, które wyrzutnie rzucają rzutki na każdym numerze. Więc w czasie {{term:practice|treningu}} widzisz te same rzutki, ale w innych kombinacjach niż w dniu zawodów ({{rule:compak:ch6-practice}}). Na mistrzostwach kontynentalnych i świata oficjalny trening otwiera się {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+    }
+  },
+  "note": {
+    "training-for-competition-n-coach": "Zwiększaj presję tylko tak szybko, jak pozwala na to technika strzelca. Jeśli zmienia się złożenie się albo tempo, wróć do łatwiejszego zadania. Przed zawodami ustal plan; w ich trakcie nie można podpowiadać.",
+    "training-for-competition-n-interpreter": "W trakcie zawodów przekazuj tylko to, co mówi sędzia i oficjele. Tłumaczenie podpowiedzi trenera strzelcowi może zostać uznane za coaching."
+  },
+  "phrases": {},
+  "key_points": {
+    "training-for-competition-kp1": "Prowadź część treningów jak zawody: pełne serie, wynik i bez powtarzanych rzutków",
+    "training-for-competition-kp2": "Ta sama rutyna na każdym rzutku, zmierzona względem limitu twojej dyscypliny",
+    "training-for-competition-kp3": "{{tm:sporting}}: broń opuszczona, kolba poniżej linii na kamizelce, aż rzutek się pojawi; {{tm:compak}}: pozycja broni dowolna",
+    "training-for-competition-kp-pressure": "Dodawaj lekką presję krok po kroku, raz albo dwa razy w tydzień",
+    "training-for-competition-kp5": "Bez podpowiadania w trakcie zawodów: ustal plan przed startem"
+  },
+  "did_you_know": "Wielu strzelców wykorzystuje małe lokalne zawody jako trening: ćwiczą swoją rutynę i sprawdzają, które rzutki rozpadają się pod presją.",
+  "quiz": {
+    "training-for-competition-q1": {
+      "q": "W {{tm:sporting}}, ile czasu masz między pojedynczymi rzutkami?",
+      "options": {
+        "a": "Najwyżej 15 sekund",
+        "b": "Najwyżej 60 sekund",
+        "c": "Tyle, ile potrzebujesz"
+      },
+      "explain": "Przekroczenie limitu daje najpierw ostrzeżenie, potem kary. W {{tm:compak}} masz najwyżej 10 sekund na komendę."
+    },
+    "training-for-competition-q2": {
+      "q": "W której dyscyplinie kolba musi pozostać poniżej linii na kamizelce, aż rzutek się pojawi?",
+      "options": {
+        "a": "W obu dyscyplinach",
+        "b": "Tylko w {{tm:sporting}}",
+        "c": "Tylko w {{tm:compak}}"
+      },
+      "explain": "W {{tm:compak}} pozycja broni przy komendzie jest dowolna, i nie ma linii na kamizelce."
+    },
+    "training-for-competition-q-pressure": {
+      "q": "Jak badania sugerują dodawać presję do treningu?",
+      "options": {
+        "a": "Jak najwięcej od pierwszego treningu",
+        "b": "Tylko w tygodniu przed zawodami",
+        "c": "Lekko na początku, potem rosnąco krok po kroku"
+      },
+      "explain": "Lekka presja, która rośnie powoli, pozwala technice się utrzymać, podczas gdy się do niej przyzwyczajasz."
+    },
+    "training-for-competition-q3": {
+      "q": "Czy trener może podpowiadać strzelcowi w trakcie zawodów?",
+      "options": {
+        "a": "Tak, ale tylko między stanowiskami",
+        "b": "Tak, ale tylko gestami",
+        "c": "Nie: strzelec może dostać żółtą kartkę"
+      },
+      "explain": "Podpowiadanie w trakcie zawodów nie jest dozwolone w żadnej z dyscyplin, więc plan ustala się z wyprzedzeniem."
+    },
+    "training-for-competition-q-compak-time": {
+      "q": "W {{tm:compak}}, ile czasu masz na komendę po tym, jak rzutek z poprzedniego numeru został ustrzelony?",
+      "options": {
+        "a": "Najwyżej 10 sekund",
+        "b": "Najwyżej 30 sekund",
+        "c": "Nie ma limitu"
+      },
+      "explain": "Pierwsze przekroczenie limitu daje ostrzeżenie, zapisane na karcie wyników; jeśli zdarzy się to znowu w tej samej serii, następuje kara."
+    }
+  }
+}

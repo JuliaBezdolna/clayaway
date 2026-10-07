@@ -1,0 +1,98 @@
+{
+  "id": "nextstep-club-shoot-and-volunteering",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "8be99d6f",
+    "summary": "93d0a624",
+    "nextstep-club-shoot-and-volunteering-p1": "cfa29559",
+    "nextstep-club-shoot-and-volunteering-p2": "786abb17",
+    "nextstep-club-shoot-and-volunteering-cmp-layouts": "6eeb5f21",
+    "nextstep-club-shoot-and-volunteering-p3": "4bc37e10",
+    "nextstep-club-shoot-and-volunteering-cmp-practice": "2f009fe6",
+    "nextstep-club-shoot-and-volunteering-p-practice": "08e086d8",
+    "nextstep-club-shoot-and-volunteering-p4": "05f4d07f",
+    "nextstep-club-shoot-and-volunteering-protection": "dd1152cf",
+    "nextstep-club-shoot-and-volunteering-p5": "29e1a64b",
+    "nextstep-club-shoot-and-volunteering-p6": "aef9e169",
+    "nextstep-club-shoot-and-volunteering-kp1": "de1e02b5",
+    "nextstep-club-shoot-and-volunteering-kp2": "5317eb34",
+    "nextstep-club-shoot-and-volunteering-kp3": "85c87906",
+    "nextstep-club-shoot-and-volunteering-kp-protection": "2dd00e6d",
+    "nextstep-club-shoot-and-volunteering-kp4": "d0dfe1d8",
+    "nextstep-club-shoot-and-volunteering-dyk": "80e34b34",
+    "nextstep-club-shoot-and-volunteering-q1": "be2d56c4",
+    "nextstep-club-shoot-and-volunteering-q2": "c997b191",
+    "nextstep-club-shoot-and-volunteering-q-practice": "87207c35",
+    "nextstep-club-shoot-and-volunteering-q3": "b5e37179"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Hogyan rendezzen klubversenyt",
+  "summary": "Hogyan szervezzen lépésről lépésre egy kis {{tm:sporting}} vagy {{tm:compak}} klubversenyt: helyszín, formátum, lőpályák, emberek, biztonság és eredmények, az önkéntesek megtervezésével.",
+  "body": {
+    "nextstep-club-shoot-and-volunteering-p1": "Egy {{term:club-shoot|klubverseny}} jó módja annak, hogy embereket hozzunk össze, és a kezdőknek első versenyízelítőt adjunk. Megrendezheti egy klub, egy lőtér vagy egy lövőcsoport. Kezdje az alapoknál: egyezzen meg a lőtér tulajdonosával a dátumban és a feltételekben. Majd tudja meg, milyen engedélyek, biztosítás és biztonsági szabályok vonatkoznak az országára.",
+    "nextstep-club-shoot-and-volunteering-p2": "Ezután döntse el a formátumot: {{tm:sporting}} vagy {{tm:compak}}, a korongok számát, a {{term:category|kategóriákat}} (ki versenyez kivel, például életkor szerint) és a {{term:entry-fee|nevezési díjat}}. A FITASC szabályait alapul veheti. Jelentse be előre, milyen szabályok szerint lőnek, és milyen helyi változtatásokat alkalmaz.",
+    "nextstep-club-shoot-and-volunteering-cmp-layouts": {
+      "sporting": "A {{term:course-designer|pályaépítők}} (course designers — akik eldöntik, merre repül minden korong) megmutatják a lőpályákat és a korongokat a felelős {{term:jury|zsűritagoknak}} és a {{term:chief-referee|főbírónak}}. Ezek a tisztségviselők kérhetnek módosítást a biztonság, az egyszerűbb bíráskodás vagy a természet védelme érdekében, mielőtt jóváhagyják a lőpályákat.",
+      "compak": "A lőpályákat a kezdés előtt állítják be, a lőtérért felelős személy jelenlétében. A FITASC technikai bizottságának tagjai, vagy ha nincsenek ott, a zsűri ellenőrzi, hogy a röppályák biztonságosak, változatosak és kiegyensúlyozottak legyenek."
+    },
+    "nextstep-club-shoot-and-volunteering-p3": "Egy klubversenyen kövesse ugyanezt az elvet, kisebb léptékben. Kérjen meg egy tapasztalt bírót, hogy a kezdés előtt nézze át a röppályákat, mindenekelőtt biztonsági szempontból.",
+    "nextstep-club-shoot-and-volunteering-cmp-practice": {
+      "sporting": "A verseny előtt senki, még a rendezők sem gyakorolhatnak a verseny lőpályáin.",
+      "compak": "A lövők gyakorolhatnak a verseny röppályáin, de más korongösszeállítással. A gyakorláshoz használt {{term:trajectory-setting-table|beállítási táblázatnak}} (az írásos tervnek arról, melyik dobógépből lövik az egyes számokon a korongot) el kell térnie a versenyétől."
+    },
+    "nextstep-club-shoot-and-volunteering-p-practice": "Egy klubversenyen a saját {{term:practice|gyakorlási}} szabályát állítja be. Írja bele a programba, hogy mindenkinek egyenlő esélye legyen.",
+    "nextstep-club-shoot-and-volunteering-p4": "Gondoskodjon az emberekről: {{term:referee|bírókról}}, {{term:trapper|pullerekről}}, a regisztrációról és az eredményszámolásról. Állítsa össze a {{term:squad|rottékat}} (ki kivel lő) és a menetrendet, és tegye közzé mindkettőt előre.",
+    "nextstep-club-shoot-and-volunteering-protection": "A FITASC szabályai szerint mindenki, aki a lövészet közelében van, {{term:hearing-protection|fülvédőt}} visel, beleértve a nézőket is. A lövők, a bírók és a személyzet {{term:safety-glasses|lövészszemüveget}} is visel; {{tm:sporting}} esetében mindenki, aki egy lőálláshoz közel van. Egy klubversenyen sok rendező egyszerűen mindenkitől kéri, hogy viselje mindkettőt.",
+    "nextstep-club-shoot-and-volunteering-p5": "Zárja a napot {{term:prize-giving|díjátadással}} és köszönettel minden segítőnek. Majd tegye közzé az eredményeket: a rendezett {{term:score-sheet|eredménylapok}} és egy érthető eredménytáblázat tiszteletet mutat a résztvevők felé. Ha szeretné, hogy az eredmények megjelenjenek a ClayArenán, vegye fel a kapcsolatot a ClayArenával, és kérdezze meg, milyen formában küldje el őket.",
+    "nextstep-club-shoot-and-volunteering-p6": "Tervezze meg az önkénteseit korán. Regisztrálhatják a lövőket, segíthetnek az eredményszámolásban a bíró felügyelete alatt, foglalkozhatnak a parkolással, fotózhatnak, és összegyűjthetik a hüvelyeket és a koronghulladékot. Tartson biztonsági eligazítást mindenkinek, aki egy dobógép mellett fog dolgozni. A segítő oldaláról: {{lesson:culture-club-life}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "nextstep-club-shoot-and-volunteering-kp1": "Kezdje a lőtérrel való megegyezéssel, és a helyi szabályok, engedélyek és biztosítás ellenőrzésével.",
+    "nextstep-club-shoot-and-volunteering-kp2": "Jelentse be előre a formátumot, a szabályokat és a gyakorlási szabályt.",
+    "nextstep-club-shoot-and-volunteering-kp3": "Kérjen meg egy tapasztalt bírót, hogy a kezdés előtt ellenőrizze a röppályákat.",
+    "nextstep-club-shoot-and-volunteering-kp-protection": "Kérje meg mindenkit a lövészet közelében, hogy viseljen fülvédőt és szemüveget.",
+    "nextstep-club-shoot-and-volunteering-kp4": "Tervezze meg a bírókat, a pullereket, a regisztrációt, az eredményeket és az önkénteseket, biztonsági eligazítással."
+  },
+  "did_you_know": "A {{tm:sporting}} szabályai szerint a rottelistákat és a kezdési időpontokat a nemzetközi versenyeken előre közzéteszik. Ha egy klubversenyen is így tesz, sok kérdést megtakaríthat a nap folyamán.",
+  "quiz": {
+    "nextstep-club-shoot-and-volunteering-q1": {
+      "q": "Honnan kezdje egy klubverseny megszervezését?",
+      "options": {
+        "a": "A trófeák megvételével",
+        "b": "Az eredmények közzétételével",
+        "c": "A lőtérrel való megegyezéssel"
+      },
+      "explain": "Elsőként a helyszín, a feltételek, az engedélyek és a biztonság jönnek."
+    },
+    "nextstep-club-shoot-and-volunteering-q2": {
+      "q": "Ki tervezi egy nemzetközi {{tm:sporting}} verseny lőpályáit?",
+      "options": {
+        "a": "A pályaépítő (course designer)",
+        "b": "A nézők",
+        "c": "Minden lövő saját magának"
+      },
+      "explain": "{{tm:sporting}} esetében a pályaépítő készíti elő a lőpályákat, és a tisztségviselők ellenőrzik a kezdés előtt. {{tm:compak}} esetében a zsűri ehelyett kész beállítási táblázatokat is választhat."
+    },
+    "nextstep-club-shoot-and-volunteering-q-practice": {
+      "q": "Hol gyakorolhatnak a lövők a verseny röppályáin a rendezvény előtt?",
+      "options": {
+        "a": "{{tm:sporting}} esetében a verseny lőpályáin",
+        "b": "{{tm:compak}} esetében, más korongösszeállítással",
+        "c": "Semelyik versenyszámban"
+      },
+      "explain": "{{tm:sporting}} esetében senki sem gyakorolhat a verseny lőpályáin. {{tm:compak}} esetében a gyakorlás megengedett, de más beállítási táblázattal, így a korongok máshogy állnak össze."
+    },
+    "nextstep-club-shoot-and-volunteering-q3": {
+      "q": "Segíthet egy versenyen valaki, aki nem lő?",
+      "options": {
+        "a": "Nem, csak lövők segíthetnek",
+        "b": "Csak hitelesített bíróként",
+        "c": "Igen, önkéntesként: regisztráció, fotózás és egyéb feladatok"
+      },
+      "explain": "Önkéntesekre majdnem minden versenyen szükség van, és sokan közülük nem is lőnek."
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "id": "travel-clayaway-tour",
+  "rev": 2,
+  "status": "preview",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "organiser"
+  ],
+  "index": "preview",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "travel block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "travel-clayaway-tour",
+      "nextstep-organising-clayaway-tour"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "clayaway",
+    "coach",
+    "coaching",
+    "european-firearms-pass",
+    "interpreter",
+    "invitation-letter",
+    "sporting",
+    "compak-sporting"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Travelling with a coach on a ClayAway tour",
+    "uk": "Поїздка з тренером у турі ClayAway"
+  },
+  "summary": {
+    "en": "ClayAway is a ClayArena service in preparation. A coach or organiser will gather a group, and each shooter will buy one package of training, accommodation, transfers and a shared programme.",
+    "uk": "ClayAway — напрям ClayArena, що готується. Тренер або організатор збиратиме групу, а кожен стрілець купуватиме один пакет: тренування, проживання, трансфери і спільну програму."
+  },
+  "body": [
+    {
+      "k": "travel-clayaway-tour-p1",
+      "t": "p",
+      "en": "Planning a trip yourself is interesting, but it takes effort. ClayArena is preparing another way: {{term:clayaway|ClayAway}} tours with a {{term:coach|coach}}. A coach or an organiser will gather a group of shooters, and each participant will buy one package.",
+      "uk": "Спланувати поїздку самотужки цікаво, але клопітно. ClayArena готує інший шлях — тури {{term:clayaway|ClayAway}} із {{term:coach|тренером}}. Тренер або організатор збиратиме групу стрільців, а кожен учасник купуватиме один пакет."
+    },
+    {
+      "k": "travel-clayaway-tour-p2",
+      "t": "p",
+      "en": "The package is planned to include training at one or more shooting grounds, accommodation, transfers and a shared programme, such as dinners or excursions. If the group needs one, an {{term:interpreter|interpreter}} who knows shooting terms will join.",
+      "uk": "До пакета планують включити тренування на одному чи кількох стендах, проживання, трансфери і спільну програму, наприклад вечері чи екскурсії. Якщо групі потрібно, до неї приєднається {{term:interpreter|перекладач}}, який знає стрілецьку термінологію."
+    },
+    {
+      "k": "travel-clayaway-tour-p7",
+      "t": "p",
+      "en": "What is included will depend on the tour, so read the description before booking. Are flights, targets, cartridges and gun hire in the package? Each tour will also say what it is mainly about — mostly training or mostly travel — and how many targets you will shoot per day.",
+      "uk": "Що саме входить у пакет, залежатиме від туру, тож перед бронюванням уважно прочитайте опис. Чи є в пакеті переліт, мішені, набої, оренда рушниці? Кожен тур також показуватиме, на чому він зосереджений — більше на тренуваннях чи більше на подорожі, — і скільки мішеней на день."
+    },
+    {
+      "k": "travel-clayaway-tour-p3",
+      "t": "p",
+      "en": "The main advantage will be a coach beside you each day. A coach who knows the grounds can help with technique for {{tm:sporting}} or {{tm:compak}} and with the targets you will meet there. A group with the same hobby also makes the trip more fun.",
+      "uk": "Головною перевагою буде тренер поруч щодня. Тренер, який знає стенди, допоможе з технікою для {{tm:sporting}} чи {{tm:compak}} і з мішенями, які там на вас чекатимуть. А група людей з тим самим захопленням робить поїздку веселішою."
+    },
+    {
+      "k": "travel-clayaway-tour-p4",
+      "t": "p",
+      "en": "Times in a tour programme will be given in the venue's time zone, with the zone labelled. After the flight, check that your phone shows local time. Long flights east call for a spare day: see {{lesson:travel-jet-lag}}.",
+      "uk": "Час у програмі туру вказуватимуть за часовим поясом місця проведення, з підписом поясу. Після перельоту перевірте, що телефон показує місцевий час. Після довгого перельоту на схід потрібен запасний день: див. {{lesson:travel-jet-lag}}."
+    },
+    {
+      "k": "travel-clayaway-tour-p5",
+      "t": "p",
+      "en": "Gun documents stay the responsibility of each shooter. The tour organiser will be able to help with an {{term:invitation-letter|invitation letter}} and advice on local rules, but the permits are applied for by the gun's owner. If taking a gun is difficult, ask whether one can be hired at the destination. More in {{lesson:travel-gun-in-eu}} and {{lesson:travel-gun-outside-eu}}.",
+      "uk": "Документи на рушницю — відповідальність кожного стрільця. Організатор туру зможе допомогти {{term:invitation-letter|листом-запрошенням}} і порадами щодо місцевих правил, але дозволи оформлює власник рушниці. Якщо везти рушницю складно, запитайте, чи можна взяти її напрокат на місці. Докладніше — {{lesson:travel-gun-in-eu}} і {{lesson:travel-gun-outside-eu}}."
+    },
+    {
+      "k": "travel-clayaway-tour-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "If a tour includes a competition under FITASC rules, nobody may {{term:coaching|coach}} a competitor during it ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). The coach works with you before and after, and on the stand you shoot on your own. An interpreter then passes on only official information, so that it is not taken for coaching. Other events can have their own rules: read the programme.",
+      "uk": "Якщо тур поєднано зі змаганням за правилами FITASC, під час змагання {{term:coaching|тренувати}} учасника не можна ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Тренер працює з вами до і після, а на стрілецькому місці ви стріляєте самі. Перекладач у цей час передає лише офіційну інформацію, щоб це не вважали підказками. На інших змаганнях можуть діяти свої правила: читайте програму."
+    },
+    {
+      "k": "nextstep-organising-clayaway-tour-p2",
+      "t": "p",
+      "anchor": "nextstep-organising-clayaway-tour",
+      "en": "For organisers: the organiser and the coach do not have to be the same person. The organiser may be the coach, but also a manager, a club, a shooting ground or an agency. It is the organiser who will be responsible for the tour.",
+      "uk": "Для організаторів: організатор і тренер — не обов’язково одна людина. Організатором може бути сам тренер, а також менеджер, клуб, стенд чи агентство. Саме організатор відповідатиме за тур."
+    },
+    {
+      "k": "nextstep-organising-clayaway-tour-p3",
+      "t": "p",
+      "en": "Each tour will have its own name: the coach or the place, plus the format, for example “Cyprus Shooting & Food Week”. In the catalogue and on its card, the tour will carry the label “ClayAway”. The organiser will choose the coach, the grounds, the dates, the group size and the disciplines.",
+      "uk": "Кожен тур матиме власну назву: тренер або місце плюс формат, наприклад «Cyprus Shooting & Food Week». У каталозі й на картці тур матиме підпис «ClayAway». Організатор обиратиме тренера, стенди, дати, кількість учасників і дисципліни."
+    },
+    {
+      "k": "nextstep-organising-clayaway-tour-p4",
+      "t": "tip",
+      "en": "Plan the hotel, the transfers to the grounds and the shared programme together. If participants speak different languages, invite an interpreter who knows shooting terms. Give the timetable in the venue's time zone, with the zone labelled.",
+      "uk": "Плануйте готель, трансфери до стендів і спільну програму разом. Якщо учасники говорять різними мовами, запросіть перекладача, який знає стрілецьку термінологію. Розклад давайте за часовим поясом місця проведення, з підписом поясу."
+    },
+    {
+      "k": "nextstep-organising-clayaway-tour-p5",
+      "t": "p",
+      "en": "Remember the law. Rules for carrying guns and cartridges differ between countries, and participants may need, for example, the {{term:european-firearms-pass|European Firearms Pass}} or an invitation letter. Help the group with documents early, but each shooter must make sure their own papers are in order.",
+      "uk": "Пам’ятайте про закон. Правила перевезення зброї й набоїв у різних країнах різні, і учасникам може знадобитися, наприклад, {{term:european-firearms-pass|Європейський вогнепальний паспорт}} чи лист-запрошення. Допоможіть групі з документами заздалегідь, але за те, щоб усе було за законом, відповідає сам стрілець."
+    },
+    {
+      "k": "nextstep-organising-clayaway-tour-p6",
+      "t": "p",
+      "en": "Each person on a tour will have a role, such as organiser, coach, participant or companion, and will see the information that role needs. Booking and payment details will be published when ClayAway launches.",
+      "uk": "Кожна людина в турі матиме роль — організатор, тренер, учасник, супутник тощо — і бачитиме ту інформацію, яка потрібна для цієї ролі. Умови бронювання й оплати оприлюднять, коли ClayAway запрацює."
+    },
+    {
+      "k": "nextstep-organising-clayaway-tour-p7",
+      "t": "p",
+      "en": "A good tour is one after which the participants shoot better and want to come again. So describe the programme, the price and the level the tour is aimed at honestly.",
+      "uk": "Добрий тур — той, після якого учасники стріляють краще й хочуть поїхати знову. Тому чесно описуйте програму, ціну і рівень, на який розраховано тур."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "travel-clayaway-tour-kp1",
+      "en": "ClayAway (in preparation): a coach or organiser will gather a group, and the shooter will buy one package.",
+      "uk": "ClayAway (готується): тренер або організатор збиратиме групу, а стрілець купуватиме один пакет."
+    },
+    {
+      "k": "travel-clayaway-tour-kp3",
+      "en": "Before booking, check what the package includes and what the tour is mainly about.",
+      "uk": "Перед бронюванням перевірте, що входить у пакет і на чому зосереджений тур."
+    },
+    {
+      "k": "travel-clayaway-tour-kp4",
+      "en": "Programme times will be in the venue's time zone, with the zone labelled.",
+      "uk": "Час у програмі — за часовим поясом місця проведення, з підписом поясу."
+    },
+    {
+      "k": "travel-clayaway-tour-kp5",
+      "en": "Gun documents stay the owner's responsibility.",
+      "uk": "Документи на рушницю — відповідальність власника."
+    },
+    {
+      "k": "travel-clayaway-tour-kp6",
+      "en": "At a FITASC competition, no coaching: the coach works with you before and after.",
+      "uk": "На змаганні за правилами FITASC тренувати не можна: тренер працює з вами до і після."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "travel-clayaway-tour-q1",
+      "q": {
+        "en": "What will a shooter buy on a ClayAway tour?",
+        "uk": "Що купуватиме стрілець у турі ClayAway?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only the flight to the venue",
+          "uk": "Лише переліт до місця проведення"
+        },
+        {
+          "k": "b",
+          "en": "One package: training, stay, transfers, programme",
+          "uk": "Один пакет: тренування, проживання, трансфери, програму"
+        },
+        {
+          "k": "c",
+          "en": "Only the targets and the cartridges",
+          "uk": "Лише мішені й набої"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "ClayAway is planned to bundle the main parts of the trip into one package.",
+        "uk": "ClayAway має об’єднати все головне для поїздки в один пакет."
+      }
+    },
+    {
+      "k": "nextstep-organising-clayaway-tour-q2",
+      "q": {
+        "en": "Who will be able to organise a ClayAway tour?",
+        "uk": "Хто зможе організувати тур ClayAway?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A coach, manager, club, ground or agency",
+          "uk": "Тренер, менеджер, клуб, стенд або агентство"
+        },
+        {
+          "k": "b",
+          "en": "Only the coach who leads the training",
+          "uk": "Лише тренер, який проводить тренування"
+        },
+        {
+          "k": "c",
+          "en": "Only FITASC or a national federation",
+          "uk": "Лише FITASC або національна федерація"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Organiser and coach are different roles, although a coach can organise a tour too.",
+        "uk": "Організатор і тренер — різні ролі, хоча тренер теж може організувати тур."
+      }
+    },
+    {
+      "k": "travel-clayaway-tour-q3",
+      "disc": "both",
+      "q": {
+        "en": "At a FITASC competition, may the tour coach give you tips on the stand?",
+        "uk": "Чи може тренер із туру підказувати вам на стрілецькому місці під час змагання за правилами FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, because it is part of the package",
+          "uk": "Так, бо це входить у пакет"
+        },
+        {
+          "k": "b",
+          "en": "Yes, if the referee does not object",
+          "uk": "Так, якщо суддя не заперечує"
+        },
+        {
+          "k": "c",
+          "en": "No, coaching during the competition is not allowed",
+          "uk": "Ні, підказувати під час такого змагання не можна"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Under the FITASC rules the coach works with you before and after the competition, but not during it.",
+        "uk": "За правилами FITASC тренер працює з вами до і після змагання, а під час нього — не можна."
+      },
+      "rule_ref": "sporting:ch8-coaching"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "travel-clayaway-tour-q2",
+      "q": {
+        "en": "In which time will a ClayAway tour programme be given?",
+        "uk": "За яким часом складатимуть програму туру ClayAway?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In each participant's home time",
+          "uk": "За часом країни кожного учасника"
+        },
+        {
+          "k": "b",
+          "en": "In the venue's time zone, with the zone labelled",
+          "uk": "За часовим поясом місця проведення, з підписом поясу"
+        },
+        {
+          "k": "c",
+          "en": "Without any times, only the dates",
+          "uk": "Без часу, лише з датами"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The programme is in local time, so that the schedule is not confused after the flight.",
+        "uk": "Програма — за місцевим часом, щоб не переплутати розклад після перельоту."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "2c49f295",
+    "summary": "f5574989",
+    "travel-clayaway-tour-p1": "3c53de3b",
+    "travel-clayaway-tour-p2": "fbd19bab",
+    "travel-clayaway-tour-p7": "1c1ebd65",
+    "travel-clayaway-tour-p3": "2e4efc50",
+    "travel-clayaway-tour-p4": "02b9a73f",
+    "travel-clayaway-tour-p5": "488f2362",
+    "travel-clayaway-tour-p6": "3f590ab1",
+    "nextstep-organising-clayaway-tour-p2": "4fab2685",
+    "nextstep-organising-clayaway-tour-p3": "81781b95",
+    "nextstep-organising-clayaway-tour-p4": "76b21580",
+    "nextstep-organising-clayaway-tour-p5": "0d8411ae",
+    "nextstep-organising-clayaway-tour-p6": "28d304a4",
+    "nextstep-organising-clayaway-tour-p7": "95b193d1",
+    "travel-clayaway-tour-kp1": "16db74b6",
+    "travel-clayaway-tour-kp3": "a6b4c7ad",
+    "travel-clayaway-tour-kp4": "d6becedf",
+    "travel-clayaway-tour-kp5": "7bfe38bb",
+    "travel-clayaway-tour-kp6": "33b70629",
+    "travel-clayaway-tour-q1": "d648f9fc",
+    "nextstep-organising-clayaway-tour-q2": "3dff78ee",
+    "travel-clayaway-tour-q3": "59cd224d",
+    "travel-clayaway-tour-q2": "581d0951"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Keep status \"preview\" and index \"preview\" (noindex, future tense) until ClayAway launches; at launch, rewrite in the present tense and add booking and payment details from the live service.",
+      "Glossary: add the term tour-package to docs/glossary/data/learn_terms.js (+ i18n) by the glossary editor, then link it here."
+    ]
+  }
+}

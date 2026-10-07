@@ -1,0 +1,98 @@
+{
+  "id": "targets-singles-and-doubles",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "474629da",
+    "summary": "8c511174",
+    "flight-pairs-p1": "de3af0f1",
+    "flight-pairs-p2": "4807909e",
+    "flight-pairs-p3": "5326e900",
+    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p6": "8dc7cb7e",
+    "flight-pairs-kp1": "ef123d9b",
+    "flight-pairs-kp2": "3dee0536",
+    "flight-pairs-kp3": "dd039d2b",
+    "flight-pairs-kp4": "1fdf0730",
+    "flight-pairs-kp5": "73168bb5",
+    "flight-pairs-ph1": "9a849839",
+    "flight-pairs-ph2": "113027fe",
+    "flight-pairs-ph3": "07db0d22",
+    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-q1": "ebe2b5dc",
+    "flight-pairs-q2": "44dfc09b",
+    "flight-pairs-q3": "424310f9"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Simples e doubles",
+  "summary": "O que são um prato simples, um double ao tiro, um double simultâneo e uma rafale, quantos cartuchos pode disparar, e em que diferem {{tm:sporting}} e {{tm:compak}}.",
+  "body": {
+    "flight-pairs-p1": "Um simples é um prato de uma máquina. Nas duas disciplinas podem disparar-se-lhe dois tiros, por isso uma falha pode ser salva com o segundo cano. Um double (pair) são dois pratos atirados como uma só unidade, depois de um único pedido.",
+    "flight-pairs-p2": "Double ao tiro (report pair, double on report): o pedido lança o primeiro prato, e o tiro a esse prato lança o segundo. No {{tm:sporting}} o segundo sai 0 a 3 segundos depois desse tiro. A ordem é fixa. «Report» significa o som do tiro, não um relatório escrito.",
+    "flight-pairs-p3": "Double sucessivo (following pair), a que a FITASC chama rafale: dois pratos da mesma máquina na mesma linha, o segundo tão depressa quanto a máquina recarrega. Pode atirar-se a qualquer um deles primeiro. Só existe no {{tm:sporting}}: um double de {{tm:compak}} é ao tiro ou simultâneo.",
+    "flight-pairs-p4": "Double simultâneo («simo»; no {{term:english-sporting|English Sporting}} um «{{term:true-pair|true pair}}»): os dois pratos saem no mesmo instante e podem ser atirados por qualquer ordem. Vêm de uma ou de duas máquinas; no {{tm:compak}} sempre de duas máquinas diferentes.",
+    "flight-pairs-p6": "Num posto de {{tm:sporting}} a esquadra atira primeiro os simples e depois os doubles. Antes do tiro, os doubles simultâneos e rafale são lançados para os atiradores os verem (mostram-se ao primeiro atirador da esquadra); os doubles ao tiro não são mostrados."
+  },
+  "note": {},
+  "phrases": {
+    "flight-pairs-ph1": {
+      "meaning": "O segundo prato só sai quando o atirador dispara ao primeiro, por isso não há pressa com o primeiro.",
+      "say": "É ao tiro — acabe bem o primeiro, o segundo espera pelo seu tiro."
+    },
+    "flight-pairs-ph2": {
+      "meaning": "No double simultâneo, atire primeiro ao coelho, porque o teal fica mais tempo no ar.",
+      "say": "Simultâneo: primeiro o coelho, o teal espera por si."
+    },
+    "flight-pairs-ph3": {
+      "meaning": "Os dois pratos vêm da mesma máquina; depois do primeiro tiro, volte com os olhos e a arma para a máquina para apanhar o segundo.",
+      "say": "Rafale — depois do primeiro, volte logo à máquina para o segundo."
+    },
+    "flight-pairs-ph4": {
+      "meaning": "Cinco doubles simultâneos lançados da torre (vocabulário do English Sporting).",
+      "say": "Doubles simultâneos da torre, cinco."
+    }
+  },
+  "key_points": {
+    "flight-pairs-kp1": "Simples: um prato, dois tiros permitidos.",
+    "flight-pairs-kp2": "Double ao tiro: o tiro ao primeiro lança o segundo; ordem fixa.",
+    "flight-pairs-kp3": "Rafale (double sucessivo): mesma máquina, mesma linha, só no {{tm:sporting}}.",
+    "flight-pairs-kp4": "Simultâneo (true pair): os dois ao mesmo tempo, por qualquer ordem.",
+    "flight-pairs-kp5": "{{tm:sporting}}: ambos os cartuchos podem ir para um só prato; {{tm:compak}}: um por prato."
+  },
+  "quiz": {
+    "flight-pairs-q1": {
+      "q": "Num double ao tiro, o que lança o segundo prato?",
+      "options": {
+        "a": "Um segundo pedido",
+        "b": "O sinal do árbitro",
+        "c": "O tiro ao primeiro prato",
+        "d": "Um temporizador de exatamente 5 segundos"
+      },
+      "explain": "«On report» significa ao som do tiro: disparar ao primeiro prato lança o segundo."
+    },
+    "flight-pairs-q2": {
+      "q": "Um atirador dispara os dois cartuchos ao primeiro prato de um double simultâneo no Compak® Sporting. Resultado?",
+      "options": {
+        "a": "Permitido, como no Sporting™",
+        "b": "Zero-zero",
+        "c": "NULO e repetição",
+        "d": "Só o segundo prato conta zero"
+      },
+      "explain": "O Compak® Sporting permite um cartucho por prato de um double; disparar deliberadamente os dois ao mesmo prato dá zero-zero. No Sporting™ seria permitido."
+    },
+    "flight-pairs-q3": {
+      "q": "Um treinador britânico diz «true pair». Como o traduz?",
+      "options": {
+        "a": "Um double correto e justo",
+        "b": "Um par de aves verdadeiras",
+        "c": "Um rafale",
+        "d": "Um double simultâneo"
+      },
+      "explain": "«True pair» é o nome do English Sporting para o double simultâneo; «true» não tem nada a ver com correção."
+    }
+  }
+}

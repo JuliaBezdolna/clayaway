@@ -1,0 +1,612 @@
+{
+  "id": "stand-talk-shooter-phrases",
+  "rev": 1,
+  "status": "ready",
+  "plan": "new",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "coach",
+    "call",
+    "no-bird",
+    "protest",
+    "appeal",
+    "visible-piece",
+    "target-presentation",
+    "squad",
+    "trapper",
+    "referee",
+    "attempt-to-influence",
+    "coaching",
+    "interpreter",
+    "compak-in-line"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch5-call-and-release"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-how-to-appeal"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-no-checking-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-presentation"
+    },
+    {
+      "book": "sporting",
+      "id": "ch11-influence"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trigger-manual"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-protest"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-show-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch22-influence"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-inline-report"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-inline-simultaneous"
+    }
+  ],
+  "facts": [
+    "stand-talk.sporting-reshow-limit",
+    "rules.release-within-3s",
+    "rules.reshow-after-interruption"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Phrases a shooter needs on the stand",
+    "uk": "Фрази стрільця: тренер, суддя, група"
+  },
+  "summary": {
+    "en": "Short English phrases for the coach, the referee and your squad: what to say and when, and where a polite question ends and pressure on the referee begins.",
+    "uk": "Короткі англійські фрази для тренера, судді й групи: що і коли казати і де ввічливе запитання переходить у тиск на суддю."
+  },
+  "body": [
+    {
+      "k": "stand-talk-shooter-phrases-p1",
+      "t": "p",
+      "core": true,
+      "en": "On the stand you mostly listen. Still, a few short phrases help a lot: to tell the coach what you saw, to deal with the referee correctly and to be polite to your squad. What the referee says is in {{lesson:referee-calls}}.",
+      "uk": "На стрілецькому місці ви здебільшого слухаєте. Проте кілька коротких фраз дуже допомагають: щоб розповісти тренерові, що ви бачили, правильно поводитися із суддею і бути ввічливим із групою. Що каже суддя, описано в уроці {{lesson:referee-calls}}."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-h1",
+      "t": "h",
+      "core": true,
+      "en": "With the coach",
+      "uk": "З тренером"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-p2",
+      "t": "p",
+      "core": true,
+      "en": "After a miss, the {{term:coach|coach}} needs your picture (what you saw at the shot). Say where you saw the target and where you think the shot went: “I saw it late”, “I think I was behind”, “I lost it in the trees”. If you are not sure, say so. “I don’t know” is useful information too.",
+      "uk": "Після промаху {{term:coach|тренерові}} потрібна ваша картинка (те, що ви бачили в мить пострілу). Скажіть, де побачили мішень і куди, на вашу думку, пішов постріл: «I saw it late», «I think I was behind», «I lost it in the trees». Якщо не впевнені, так і скажіть. «I don’t know» — теж корисна інформація."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-p3",
+      "t": "p",
+      "core": true,
+      "en": "Ask for what you need. In training you can ask to see the target again, to go a little slower, or for the coach to show the line with his hands. Ask while your gun is open, not during your routine.",
+      "uk": "Просіть про те, що вам потрібно. На тренуванні можна попросити ще раз показати мішень, говорити трохи повільніше або показати лінію руками. Питайте, коли рушниця відкрита, а не під час вашого ритуалу."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-h2",
+      "t": "h",
+      "core": true,
+      "en": "With the referee",
+      "uk": "Із суддею"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch5-call-and-release",
+      "en": "With the referee, the rules give you very few words. The {{term:call|call}} is a short, clear “Pull!” or “Ready!”, said the same way each time. The target must then come {{fact:rules.release-within-3s}}; if it comes later, the referee calls a {{term:no-bird|No Bird}}.",
+      "uk": "Для розмови із суддею правила дають вам дуже мало слів. {{term:call|Команда}} — коротке й чітке «Pull!» або «Ready!», щоразу однаково. Мішень має вилетіти {{fact:rules.release-within-3s}}; якщо пізніше, суддя оголошує {{term:no-bird|No Bird}}."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "When to protest",
+      "uk": "Коли заявляти протест",
+      "sporting": {
+        "rule_ref": "sporting:ch9-how-to-appeal",
+        "en": "Raise a hand at once, on the stand, and say “Protest!” or “Appeal!”. Once you call for the next target, the rules treat that as accepting the decision, so protest before you call again.",
+        "uk": "Одразу, на стрілецькому місці, підніміть руку й скажіть «Protest!» або «Appeal!». Щойно ви подасте команду на наступну мішень, це означатиме згоду з рішенням, тож протестуйте раніше."
+      },
+      "compak": {
+        "rule_ref": "compak:ch19-protest",
+        "en": "Raise an arm at once, before the next shooter calls, and say “Protest!” or “Appeal!”. Then give your reason.",
+        "uk": "Одразу, ще до команди наступного стрільця, підніміть руку й скажіть «Protest!» або «Appeal!». Потім назвіть причину."
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "After a {{term:protest|protest}}, say briefly why: “I saw a piece come off” (a {{term:visible-piece|visible piece}} makes a hit) or “It came late”. Then accept the answer. If the referee is sure, the decision stands and is final. The full procedure, including the {{term:appeal|appeal}} to the jury, is in {{lesson:competitions-results-and-protests}}.",
+      "uk": "Після {{term:protest|протесту}} коротко скажіть чому: «I saw a piece come off» ({{term:visible-piece|видимий уламок}} означає влучання) або «It came late». Потім прийміть відповідь. Якщо суддя впевнений, рішення залишається в силі й остаточне. Повна процедура, зокрема {{term:appeal|апеляція}} до журі, — в уроці {{lesson:competitions-results-and-protests}}."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-p6",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Calm, short questions are normal: “Was that a No Bird?” or “Can I see it again?”. In {{tm:sporting}} the shooter on the stand may ask to see the targets again (a {{term:target-presentation|presentation}}). The referee can repeat each target of the stand’s menu, its list of targets, {{fact:stand-talk.sporting-reshow-limit}}. In {{tm:compak}} shot by squad, there is only one showing a day: in the morning, for the first squad. After a break of {{fact:rules.reshow-after-interruption}}, the six singles are shown again. In {{tm:compak}} {{term:compak-in-line|in line}}, the first shooter can see the singles before the start, and the referee shows the first target of a double before it is shot. Details: {{lesson:rules-viewing-targets}}.",
+      "uk": "Спокійні короткі запитання — звична річ: «Was that a No Bird?» чи «Can I see it again?». У {{tm:sporting}} стрілець на стрілецькому місці може попросити показати мішені ще раз ({{term:target-presentation|показ мішеней}}). Суддя може повторити кожну мішень меню — переліку мішеней цього місця — {{fact:stand-talk.sporting-reshow-limit}}. У {{tm:compak}} у форматі by squad показ буває лише раз на день: уранці, для першої групи. Після перерви {{fact:rules.reshow-after-interruption}} шість одиночних мішеней показують знову. У {{tm:compak}} у форматі {{term:compak-in-line|in line}} перший стрілець може подивитися одиночні мішені перед стартом, а першу мішень дуплета суддя показує перед тим, як його стріляють. Докладніше — {{lesson:rules-viewing-targets}}."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-h3",
+      "t": "h",
+      "core": true,
+      "en": "With the squad and the trapper",
+      "uk": "З групою та оператором машинки"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-p7",
+      "t": "p",
+      "core": true,
+      "en": "Talk in the {{term:squad|squad}} is short and friendly. Greet the referee and the squad at the start. Say “Well shot” after a good stand and “Bad luck” after a miss. At the end, thank the {{term:trapper|trapper}} and the referee. While someone is shooting, stay quiet. More customs: {{lesson:culture-sportsmanship-referee}}.",
+      "uk": "Розмови в {{term:squad|групі}} короткі й дружні. На початку привітайтеся із суддею та групою. Після вдалого стрілецького місця скажіть «Well shot», після промаху — «Bad luck». Наприкінці подякуйте {{term:trapper|операторові машинки}} й судді. Поки хтось стріляє, мовчіть. Інші звичаї — {{lesson:culture-sportsmanship-referee}}."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-h4",
+      "t": "h",
+      "core": true,
+      "en": "Where pressure begins",
+      "uk": "Де починається тиск"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-p8",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch11-influence",
+      "en": "A protest is your right; arguing is not. Disputing a final decision after shooting has resumed, or openly making a scene about the {{term:referee|referee}}’s decisions, counts as an {{term:attempt-to-influence|attempt to influence}} the referee. The same applies when other shooters or spectators openly criticise a ruling. Penalties follow ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}}).",
+      "uk": "Протест — ваше право, а суперечка — ні. Якщо сперечатися з остаточним рішенням, коли стрільба вже відновилася, або демонстративно оскаржувати рішення {{term:referee|судді}}, це вважається {{term:attempt-to-influence|спробою вплинути}} на суддю. Так само оцінюють відкриту критику рішення з боку інших стрільців чи глядачів. За це передбачено покарання ({{rule:sporting:ch11-influence}}, {{rule:compak:ch22-influence}})."
+    },
+    {
+      "k": "stand-talk-shooter-phrases-tip1",
+      "t": "tip",
+      "disc": "both",
+      "en": "If English is not your language, agree with your coach or {{term:interpreter|interpreter}} beforehand on the words you need most: the call and “Protest!”. In competition an interpreter can often help you talk to the referee. The rules do not mention interpreters, so agree on it with the referee or the organiser before the round. {{term:coaching|Coaching}} is not allowed ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+      "uk": "Якщо англійська для вас не рідна, заздалегідь домовтеся з тренером чи {{term:interpreter|перекладачем}} про найпотрібніші слова: команду і «Protest!». На змаганнях перекладач часто може допомогти вам говорити із суддею. Правила не згадують перекладачів, тож домовтеся про це із суддею чи організатором до початку раунду. {{term:coaching|Підказувати}} не можна ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+    }
+  ],
+  "note": [
+    {
+      "k": "stand-talk-shooter-phrases-n1",
+      "for": "interpreter",
+      "en": "When your shooter protests, interpret the protest and the reason at once and word for word, then the referee’s decision. Add no opinion of your own.",
+      "uk": "Коли ваш стрілець заявляє протест, одразу й дослівно перекладіть протест і причину, а потім рішення судді. Нічого не додавайте від себе."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "stand-talk-shooter-phrases-ph1",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Pull!",
+      "meaning": {
+        "en": "The call: release the target now. Say it short and clear, the same way each time.",
+        "uk": "Команда: запускайте мішень. Кажіть її коротко й чітко, щоразу однаково."
+      },
+      "say": {
+        "uk": "Pull! (команду зазвичай подають англійською)"
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph2",
+      "speaker": "shooter",
+      "core": true,
+      "en": "I think I was behind it.",
+      "meaning": {
+        "en": "You tell the coach where you think the shot went: behind the target.",
+        "uk": "Ви кажете тренерові, куди, на вашу думку, пішов постріл: позаду мішені."
+      },
+      "say": {
+        "uk": "Здається, я був позаду неї."
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph3",
+      "speaker": "shooter",
+      "core": true,
+      "en": "I saw it late.",
+      "meaning": {
+        "en": "You picked up the target late; this changes the coach’s advice, so say it.",
+        "uk": "Ви пізно підхопили мішень очима; це змінює пораду тренера, тож скажіть про це."
+      },
+      "say": {
+        "uk": "Я пізно її побачив."
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph4",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Can I see that one again, please?",
+      "meaning": {
+        "en": "In training: ask to see the target again. In competition only where the rules allow it.",
+        "uk": "На тренуванні: попросіть ще раз показати мішень. На змаганнях — лише там, де це дозволяють правила."
+      },
+      "say": {
+        "uk": "Можна ще раз побачити цю мішень?"
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph5",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Can you show me with your hands?",
+      "meaning": {
+        "en": "Ask the coach to show the lead or the line with a gesture; useful when words are hard.",
+        "uk": "Попросіть тренера показати винос чи лінію жестом; це допомагає, коли слів бракує."
+      },
+      "say": {
+        "uk": "Покажіть, будь ласка, руками."
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph6",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Sorry, could you say that again, slowly?",
+      "meaning": {
+        "en": "You did not understand the coach or the referee: ask for a slow repeat instead of guessing.",
+        "uk": "Ви не зрозуміли тренера чи суддю: попросіть повторити повільно, а не вгадуйте."
+      },
+      "say": {
+        "uk": "Вибачте, повторіть, будь ласка, повільніше."
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph7",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Protest!",
+      "meaning": {
+        "en": "With a raised hand, at once, on the stand: you formally disagree with the decision.",
+        "uk": "З піднятою рукою, одразу, на стрілецькому місці: ви офіційно не згодні з рішенням."
+      },
+      "say": {
+        "uk": "Protest! (це слово кажуть англійською)"
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph8",
+      "speaker": "shooter",
+      "core": true,
+      "en": "I saw a piece come off.",
+      "meaning": {
+        "en": "The reason for your protest: a visible piece broke off, so you think it was a hit.",
+        "uk": "Причина вашого протесту: відлетів видимий уламок, тож ви вважаєте, що це влучання."
+      },
+      "say": {
+        "uk": "Я бачив, як відлетів уламок."
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph9",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Was that a no bird?",
+      "meaning": {
+        "en": "A calm question when the target looked irregular or came late. Accept the answer.",
+        "uk": "Спокійне запитання, коли мішень виглядала неправильною або вилетіла пізно. Прийміть відповідь."
+      },
+      "say": {
+        "uk": "Це був No Bird?"
+      }
+    },
+    {
+      "k": "stand-talk-shooter-phrases-ph10",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Morning, all — good luck today.",
+      "meaning": {
+        "en": "A greeting to the referee and the squad at the start of the round.",
+        "uk": "Привітання судді й групі на початку раунду."
+      },
+      "say": {
+        "uk": "Доброго ранку всім — успіху сьогодні!"
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "stand-talk-shooter-phrases-kp1",
+      "core": true,
+      "en": "Tell the coach what you saw: where you picked up the target and where the shot went",
+      "uk": "Розкажіть тренерові, що бачили: де підхопили мішень і куди пішов постріл"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-kp2",
+      "core": true,
+      "checklist": true,
+      "en": "Call short and clear, the same way each time: “Pull!” or “Ready!”",
+      "uk": "Подавайте команду коротко й чітко, щоразу однаково: «Pull!» або «Ready!»"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-kp3",
+      "core": true,
+      "checklist": true,
+      "en": "Disagree at once: raise a hand and say “Protest!” ({{tm:compak}}: before the next shooter calls)",
+      "uk": "Не згодні — одразу підніміть руку й скажіть «Protest!» ({{tm:compak}}: до команди наступного стрільця)"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-kp4",
+      "core": true,
+      "en": "Calm questions are fine; arguing after the decision is an attempt to influence the referee",
+      "uk": "Спокійні запитання — нормально; суперечка після рішення — спроба вплинути на суддю"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-kp5",
+      "core": true,
+      "en": "Greet the squad, say “well shot”, thank the trapper and the referee",
+      "uk": "Привітайтеся з групою, кажіть «well shot», подякуйте операторові машинки й судді"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "stand-talk-shooter-phrases-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}} you think the referee scored your hit as a zero. When must you protest?",
+        "uk": "У {{tm:sporting}} ви вважаєте, що суддя зарахував ваше влучання як промах. Коли треба заявити протест?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At the end of the round, at the card",
+          "uk": "Наприкінці раунду, біля протоколу"
+        },
+        {
+          "k": "b",
+          "en": "At once, before you call the next target",
+          "uk": "Одразу, до команди на наступну мішень"
+        },
+        {
+          "k": "c",
+          "en": "After the stand, in writing to the jury",
+          "uk": "Після стрілецького місця, письмово до журі"
+        },
+        {
+          "k": "d",
+          "en": "When the results are posted",
+          "uk": "Коли вивісять результати"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Protest at once, on the stand, with a raised hand. Calling for the next target counts as accepting the last decision.",
+        "uk": "Протест заявляють одразу, на стрілецькому місці, з піднятою рукою. Команда на наступну мішень означає згоду з попереднім рішенням."
+      },
+      "rule_ref": "sporting:ch9-no-checking-targets"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-q2",
+      "disc": "both",
+      "q": {
+        "en": "Which of these counts as an attempt to influence the referee?",
+        "uk": "Що з цього вважається спробою вплинути на суддю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Asking calmly: “Was that a No Bird?”",
+          "uk": "Спокійно запитати: «Was that a No Bird?»"
+        },
+        {
+          "k": "b",
+          "en": "Raising a hand and saying “Protest!”",
+          "uk": "Підняти руку й сказати «Protest!»"
+        },
+        {
+          "k": "c",
+          "en": "Saying “Well shot” to a squad-mate",
+          "uk": "Сказати «Well shot» товаришеві по групі"
+        },
+        {
+          "k": "d",
+          "en": "Arguing on after shooting has resumed",
+          "uk": "Сперечатися далі, коли стрільба відновилася"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "A protest at once is your right, and calm questions are fine. Disputing a final decision after shooting resumes counts as an attempt to influence.",
+        "uk": "Одразу заявлений протест — ваше право, а спокійні запитання — нормально. Суперечка з остаточним рішенням після відновлення стрільби — спроба вплинути."
+      },
+      "rule_ref": "sporting:ch11-influence"
+    },
+    {
+      "k": "stand-talk-shooter-phrases-q3",
+      "q": {
+        "en": "After a miss in training the coach asks “What did you see?”. What helps him most?",
+        "uk": "Після промаху на тренуванні тренер питає «What did you see?». Що йому найбільше допоможе?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Your honest picture, even if unsure",
+          "uk": "Ваша чесна картинка, навіть якщо ви не впевнені"
+        },
+        {
+          "k": "b",
+          "en": "A quick “sorry, my fault”",
+          "uk": "Швидке «вибачте, моя помилка»"
+        },
+        {
+          "k": "c",
+          "en": "Silence, so you can focus",
+          "uk": "Мовчання, щоб зосередитися"
+        },
+        {
+          "k": "d",
+          "en": "What the last shooter did",
+          "uk": "Що зробив попередній стрілець"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The coach looks for the cause of the miss, and your picture is the main clue. “I don’t know” is useful too.",
+        "uk": "Тренер шукає причину промаху, і ваша картинка — головна підказка. «I don’t know» — теж корисна відповідь."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "stand-talk-shooter-phrases-q4",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, until when can you protest a referee’s call?",
+        "uk": "До якого моменту в {{tm:compak}} можна заявити протест проти рішення судді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Until the end of the round",
+          "uk": "До кінця раунду"
+        },
+        {
+          "k": "b",
+          "en": "Until you sign the score sheet",
+          "uk": "Доки не підписали протокол"
+        },
+        {
+          "k": "c",
+          "en": "Before the next shooter calls",
+          "uk": "До команди наступного стрільця"
+        },
+        {
+          "k": "d",
+          "en": "Until the next morning",
+          "uk": "До наступного ранку"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:compak}} the protest comes at once, before the next shooter calls, with a raised arm and “Protest!” or “Appeal!”.",
+        "uk": "У {{tm:compak}} протест заявляють одразу, до команди наступного стрільця, піднявши руку й сказавши «Protest!» або «Appeal!»."
+      },
+      "rule_ref": "compak:ch19-protest"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "446d17cb",
+    "summary": "3d4a8439",
+    "stand-talk-shooter-phrases-p1": "fcf002ef",
+    "stand-talk-shooter-phrases-h1": "4d090a62",
+    "stand-talk-shooter-phrases-p2": "03c96529",
+    "stand-talk-shooter-phrases-p3": "8ed54079",
+    "stand-talk-shooter-phrases-h2": "b0c84d21",
+    "stand-talk-shooter-phrases-p4": "2328d0d3",
+    "stand-talk-shooter-phrases-cmp1": "db41a597",
+    "stand-talk-shooter-phrases-p5": "fa8024cc",
+    "stand-talk-shooter-phrases-p6": "b5508004",
+    "stand-talk-shooter-phrases-h3": "e0d77730",
+    "stand-talk-shooter-phrases-p7": "bc121d7e",
+    "stand-talk-shooter-phrases-h4": "547fb8f4",
+    "stand-talk-shooter-phrases-p8": "bdce697b",
+    "stand-talk-shooter-phrases-tip1": "0677cfe3",
+    "stand-talk-shooter-phrases-n1": "aed3cbab",
+    "stand-talk-shooter-phrases-ph1": "73fa3dd7",
+    "stand-talk-shooter-phrases-ph2": "3926c0b3",
+    "stand-talk-shooter-phrases-ph3": "dc43a3ff",
+    "stand-talk-shooter-phrases-ph4": "2654aaaa",
+    "stand-talk-shooter-phrases-ph5": "1fbe221b",
+    "stand-talk-shooter-phrases-ph6": "8b00f0c8",
+    "stand-talk-shooter-phrases-ph7": "b8c19206",
+    "stand-talk-shooter-phrases-ph8": "26e41117",
+    "stand-talk-shooter-phrases-ph9": "939289d8",
+    "stand-talk-shooter-phrases-ph10": "8b68e541",
+    "stand-talk-shooter-phrases-kp1": "0026dd3b",
+    "stand-talk-shooter-phrases-kp2": "4f71054c",
+    "stand-talk-shooter-phrases-kp3": "af6f9dc3",
+    "stand-talk-shooter-phrases-kp4": "42039620",
+    "stand-talk-shooter-phrases-kp5": "89ebc7f4",
+    "stand-talk-shooter-phrases-q1": "4f619dcb",
+    "stand-talk-shooter-phrases-q2": "d19d25a6",
+    "stand-talk-shooter-phrases-q3": "3c1980a8",
+    "stand-talk-shooter-phrases-q4": "ff7a7a32"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "App (academy.js): the play button of the phrases speaks the English line only with a local voice of the device (SpeechSynthesisVoice.localService === true; audit W-08)."
+    ]
+  }
+}

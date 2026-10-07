@@ -1,0 +1,99 @@
+{
+  "id": "interpreter-numbers-and-units",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "27ce2b02",
+    "summary": "57f2da6e",
+    "interpreter-numbers-and-units-p1": "c2bc2ad1",
+    "interpreter-numbers-and-units-p2": "fad676a6",
+    "interpreter-numbers-and-units-p3": "8353a9eb",
+    "interpreter-numbers-and-units-p4": "d88b4af0",
+    "interpreter-numbers-and-units-chokes": "a828e484",
+    "interpreter-numbers-and-units-ph1": "cbc38942",
+    "interpreter-numbers-and-units-ph2": "8c188306",
+    "interpreter-numbers-and-units-ph3": "328b9d6d",
+    "interpreter-numbers-and-units-ph4": "86325b8e",
+    "interpreter-numbers-and-units-ph5": "be5f2b18",
+    "interpreter-numbers-and-units-kp1": "2bdc5697",
+    "interpreter-numbers-and-units-kp2": "328aa381",
+    "interpreter-numbers-and-units-kp3": "58c502e4",
+    "interpreter-numbers-and-units-kp4": "cff0fd20",
+    "interpreter-numbers-and-units-kp5": "45efd965",
+    "interpreter-numbers-and-units-q1": "1f0cc95c",
+    "interpreter-numbers-and-units-q2": "862c2542",
+    "interpreter-numbers-and-units-q3": "58baa361"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Számok és mértékegységek: lábak, yardok, kaliberek, sörétméretek",
+  "summary": "Yardok és méterek, óra szerinti irányok, kaliberszámok, töltetsúlyok, sörétméretek és szűkületek: mely számokat váltsa át, melyeket hagyjon úgy, ahogy mondták, és mik a FITASC korlátai.",
+  "body": {
+    "interpreter-numbers-and-units-p1": "Először az elétartás. A brit és az amerikai {{term:coach|edzők}} lábban vagy yardban adják meg az {{term:lead|elétartást}}: „give it three feet”, „a yard in front”. Ez egy kép (a távolság, amelyet a lövőnek a lövés pillanatában látnia kell), nem mérés. Tartsa meg a mértékegységet úgy, ahogy mondták, és ne váltsa át egy utasítás közepén. Többet az elétartás szavairól: {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p2": "A korongok távolsága más kérdés. Az „It's about thirty yards” lehet „körülbelül 27 méter”, mert egy yard {{fact:stand-talk.unit-yard}}. Tartsa meg a „körülbelül” szót. Az irányok gyakran egy mezőre fektetett {{term:clock-face|óralapként}} jönnek: egyenesen előre a 12, tehát a „pick it up at eleven o'clock” azt jelenti, hogy kissé balra. Tartsa meg az órát; ne váltsa fokokra.",
+    "interpreter-numbers-and-units-p3": "A {{term:gauge|kaliber}} fordítva számol. A „12-bore” vagy „12 gauge” nem 12 mm: minél kisebb a szám, annál szélesebb a cső, tehát a 20-as kaliber szűkebb. Mindkét FITASC szabálykönyv ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) olyan fegyvert engedélyez, amelynél {{fact:gear.fitasc-max-gauge}}, és a {{term:barrel-length|csövek}} {{fact:gear.fitasc-min-barrel}}. {{tm:sporting}} esetében a mellényen lévő vonal {{fact:rules.sporting-jacket-line}} van; a brit lövők ezt mondhatják úgy, hogy „alig tíz hüvelyk alatt”. A vállak tengelye egy képzeletbeli vonal, amely mindkét vállon át húzódik.",
+    "interpreter-numbers-and-units-p4": "{{term:cartridge|Töltények}}: mindkét szabálykönyv {{fact:gear.fitasc-shot-load}} {{term:load-weight|töltetsúlyt}} enged. Ez közel van az „one-ounce load”-hoz, amelyről a brit lövők beszélnek, mert egy uncia {{fact:stand-talk.unit-ounce}}. A sörétnek {{fact:gear.fitasc-shot-diameter}} kell lennie. A {{term:shot-size|sörétszámok}} országonként eltérnek. A 9-es szám majdnem mindenhol körülbelül 2 mm, de más számok kissé eltérnek a brit, az amerikai és a kontinentális rendszerek között. Ha ez fontos, kérdezzen rá a milliméterre ({{lesson:cartridges-shot-size}}).",
+    "interpreter-numbers-and-units-chokes": "A {{term:choke|szűkületeket}} (a cső torkolat felőli végén lévő szűkítés) nevekkel, törtekkel vagy „thou”-val (hüvelyezredekkel) is megadhatják. Fordítsa azt a rendszert, amelyet az edző használt, és ne váltson egyik rendszerből a másikba."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-numbers-and-units-ph1": {
+      "meaning": "Az elétartás-kép, amelyet az edző akar; egy látott távolság, nem egy mért.",
+      "say": "Elétartás — három láb."
+    },
+    "interpreter-numbers-and-units-ph2": {
+      "meaning": "Használjon fele akkora elétartást, mint az előző.",
+      "say": "Feleannyit."
+    },
+    "interpreter-numbers-and-units-ph3": {
+      "meaning": "Keresse a korongot kissé balra az egyenes iránytól.",
+      "say": "Vegye fel a tizenegyes óránál."
+    },
+    "interpreter-numbers-and-units-ph4": {
+      "meaning": "A korong körülbelül 37 méterre van.",
+      "say": "Körülbelül negyven yardra van — ez kábé 37 méter."
+    },
+    "interpreter-numbers-and-units-ph5": {
+      "meaning": "Tegyen egy 9-es sörétű töltényt (körülbelül 2 mm) az alsó csőbe, amely általában elsőként sül el.",
+      "say": "Az alsó csőbe — egy kilencest."
+    }
+  },
+  "key_points": {
+    "interpreter-numbers-and-units-kp1": "A lábban megadott elétartás kép: tartsa meg a mértékegységet, utasítás közben ne váltson át",
+    "interpreter-numbers-and-units-kp2": "Korongtávolság: a yard lehet „körülbelül … méter”",
+    "interpreter-numbers-and-units-kp3": "Óralap az irányokhoz: 12 = egyenesen előre",
+    "interpreter-numbers-and-units-kp4": "A 12-es kaliber ≠ 12 mm; a FITASC-nál legfeljebb 12-es kaliber, csövek ≥ 66 cm (26 hüvelyk)",
+    "interpreter-numbers-and-units-kp5": "28 g ≈ egy uncia; sörét 2,0–2,5 mm; a sörétszámok országonként eltérnek — kérdezzen rá mm-ben"
+  },
+  "quiz": {
+    "interpreter-numbers-and-units-q1": {
+      "q": "Az edző azt mondja: „It's about thirty yards.” Hogyan adja tovább egy méterben gondolkodó lövőnek?",
+      "options": {
+        "a": "„Körülbelül 27 méter”",
+        "b": "„Pontosan 27,43 méter”",
+        "c": "„Körülbelül 33 méter”",
+        "d": "„Körülbelül 3 méter”"
+      },
+      "explain": "Egy yard kicsit kevesebb egy méternél (körülbelül 0,9 m), tehát harminc yard körülbelül 27 m. Tartsa meg a „körülbelül”-t: az edző száma becslés."
+    },
+    "interpreter-numbers-and-units-q2": {
+      "q": "Mi a legnagyobb engedélyezett kaliber a {{tm:sporting}} és a {{tm:compak}} esetében?",
+      "options": {
+        "a": "10",
+        "b": "16",
+        "c": "20",
+        "d": "12"
+      },
+      "explain": "Mindkét szabálykönyv legfeljebb 12-es kalibert engedélyez; a kisebb kaliberszám szélesebb furatot jelent, ezért a 10-es nem megengedett."
+    },
+    "interpreter-numbers-and-units-q3": {
+      "q": "Egy brit vendég megkérdezi, legálisak-e az „one-ounce” töltényei egy FITASC versenyen. Mit tud erről?",
+      "options": {
+        "a": "Legfeljebb 36 g, körülbelül 1¼ uncia",
+        "b": "Bármilyen töltetsúly: nincs korlát",
+        "c": "28 g töltetsúly (+2%), körülbelül egy uncia",
+        "d": "Csak 24 g töltetsúly megengedett"
+      },
+      "explain": "A szabályok legfeljebb 28 g töltetsúlyt engednek, +2%-os tűréssel, és egy uncia körülbelül 28,3 g. A sörétméretnek (2,0–2,5 mm) is megfelelőnek kell lennie."
+    }
+  }
+}

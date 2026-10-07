@@ -1,0 +1,98 @@
+{
+  "id": "targets-traps",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "ef239114",
+    "summary": "2ab98c5a",
+    "targets-traps-p1": "e299fc57",
+    "targets-traps-p2": "230871a5",
+    "targets-traps-p3": "0f4722a7",
+    "targets-traps-p4": "5f6e72fc",
+    "targets-traps-p5": "a5d1400f",
+    "targets-traps-n1": "0941d9af",
+    "targets-traps-n2": "dfb58822",
+    "targets-traps-ph1": "5b0d7a5c",
+    "targets-traps-ph2": "4e6e8b21",
+    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-kp1": "5d8f8aa8",
+    "targets-traps-kp2": "9837dbae",
+    "targets-traps-kp3": "2aaf4d92",
+    "targets-traps-kp4": "13f08f48",
+    "targets-traps-kp5": "d64923f1",
+    "targets-traps-q1": "20533e21",
+    "targets-traps-q2": "9529d885",
+    "targets-traps-q3": "ad85f910"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Dobógépek, indítás és a puller",
+  "summary": "Mi a dobógép, hogyan jelölik a dobógépeket betűkkel, hogyan indít egy hívás korongot a {{tm:sporting}}-ban és a {{tm:compak}}-ban, és milyen dobógéphibák számítanak No Birdnek.",
+  "body": {
+    "targets-traps-p1": "A {{term:trap|dobógép}} (trap) az a gép, amely kidobja a korongokat. A dobógépek lehetnek kézi vagy automatikus működésűek (a {{tm:compak}} szabályai félautomatákat is megneveznek). A {{tm:sporting}}-ban egy lőállás dobógépeit a lőállásból nézve balról jobbra betűzik: A, B, C és így tovább (a szabálykönyv A-tól D-ig nevezi meg). A {{tm:compak}}-ban a hat dobógép A-tól F-ig van, mindegyiken egy betűs táblával.",
+    "targets-traps-p2": "A lövész {{term:call|hívással}} (call) kéri a korongot: a szabályok a „pull” vagy a „ready” szót nevezik meg, bár a gyakorlatban a szavak változnak. A {{tm:sporting}}-ban a bíró ezután hangjelzést ad a {{term:trapper|pullernek}} (trapper), a korongokat indító személynek. A korongnak a jelzéstől számított három másodpercen belül el kell indulnia.",
+    "targets-traps-p3": "A {{tm:compak}}-ban a korongot háromféleképpen lehet indítani: kézzel, távirányítóval vagy {{term:sonopull|sonopull-lal}}. A sonopull egy mikrofon, amely hallja a lövész hívását, és önmaga indítja el a korongot. Kézi indításnál a korong a hívás után 0–3 másodperccel indul el; a sonopull fixen 0,5 másodpercet vár. A nemzetközi {{term:compak-in-line|„in line”}} versenyeken, ahol minden lövész sorban végigmegy az 1-től 5-ig terjedő lőállásokon, csak a sonopullt használják, FITASC által jóváhagyott {{term:electronic-refereeing|elektronikus bíráskodással}} és pontszámítással.",
+    "targets-traps-p4": "A hangindításnak mikrofonja van a lőálláson. A saját hangod is beindíthatja. Egy ilyen lőálláson maradj csendben, amíg a lövész készen áll: a korongok között suttogj, vagy menj hátrébb.",
+    "targets-traps-p5": "A dobógéphibák mindkét versenyszámban {{term:no-bird|No Bird}}-nek számítanak. Példák: a korong kidobás közben eltörik, nem a megfelelő dobógépből jön, hívás nélkül indul el, vagy háromnál több másodperccel később indul. A {{tm:sporting}}-ban az is No Bird, ha egy lőállás dobógépeiből két korong jön ki, amikor csak egyet vártak. A {{tm:compak}}-ban No Bird, ha ugyanannak a mezőnek egy másik gépe hibásan dob ki egy korongot."
+  },
+  "note": {
+    "targets-traps-n1": "Fordításkor tartsd meg a dobógépek latin betűit: a kotta és az eredménylap is ezeket használja.",
+    "targets-traps-n2": "Magát a hívást ne fordítsd le: ez a gépnek szóló jelzés, nem egy mondat."
+  },
+  "phrases": {
+    "targets-traps-ph1": {
+      "meaning": "A gép röppályája megváltozott; a lövésznek a lövés előtt jeleznie kell.",
+      "say": "A B gép alacsonyabban dob, mint a bemutatáson – szólj a bírónak."
+    },
+    "targets-traps-ph2": {
+      "meaning": "Mikrofon indítja a korongokat; a beszéd kilőhet egyet.",
+      "say": "Itt hangvezérlés van – ne beszélgess a lőálláson."
+    },
+    "targets-traps-ph3": {
+      "meaning": "A korong több mint három másodperccel a kérés után repült ki.",
+      "say": "A puller késett ennél – ez no bird."
+    }
+  },
+  "key_points": {
+    "targets-traps-kp1": "Dobógépek: A, B, C… egy {{tm:sporting}} lőálláson (a szabálykönyv A–D-t nevez meg), A–F egy Compak-mezőn; a betűk latinok.",
+    "targets-traps-kp2": "A hívás („pull”, „ready”) indítja el a korongot.",
+    "targets-traps-kp3": "{{tm:sporting}}: a bíró jelez a pullernek; a korong 3 másodpercen belül indul.",
+    "targets-traps-kp4": "{{tm:compak}}: kézi indítás 0–3 mp, távirányító, vagy sonopull fix 0,5 mp késleltetéssel.",
+    "targets-traps-kp5": "A késő, rossz gépből jövő vagy kéretlen korong „No bird”; a mikrofon hall téged."
+  },
+  "quiz": {
+    "targets-traps-q1": {
+      "q": "A {{tm:sporting}}-ban mennyi ideig tarthat, amíg a korong a bíró jelzése után elindul?",
+      "options": {
+        "a": "Legfeljebb 1 másodperc",
+        "b": "Legfeljebb 3 másodperc",
+        "c": "Legfeljebb 10 másodperc",
+        "d": "Bármennyi idő"
+      },
+      "explain": "Egy háromnál több másodperccel később induló korong No Bird."
+    },
+    "targets-traps-q2": {
+      "q": "Mennyi a sonopull fix késleltetése a {{tm:compak}}-ban?",
+      "options": {
+        "a": "0 másodperc",
+        "b": "3 másodperc",
+        "c": "0,5 másodperc",
+        "d": "Minden lövész maga állítja be"
+      },
+      "explain": "A sonopullnak fix, változtathatatlan 0,5 másodperces késleltetése van."
+    },
+    "targets-traps-q3": {
+      "q": "Egy hangindításos lőálláson vagy, és a lövész készen áll. Mit teszel?",
+      "options": {
+        "a": "Hangosan adsz egy utolsó tanácsot a lövésznek",
+        "b": "Megkéred a pullert, várjon egy pillanatot",
+        "c": "Megismétled érte a hívószót",
+        "d": "Maradsz csendben; csak a korongok között suttogsz"
+      },
+      "explain": "A hangod beindíthatja a mikrofont, és elindíthat egy korongot, amelyet senki nem kért."
+    }
+  }
+}

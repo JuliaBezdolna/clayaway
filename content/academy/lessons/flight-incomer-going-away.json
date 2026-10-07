@@ -1,0 +1,384 @@
+{
+  "id": "flight-incomer-going-away",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "flight-incomer-going-away"
+    ]
+  },
+  "terms": [
+    "incomer",
+    "going-away",
+    "driven-target",
+    "overhead",
+    "tower",
+    "gun-mount",
+    "follow-through"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-layout"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-compulsory-trajectories"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trap-placement"
+    }
+  ],
+  "facts": [
+    "targets.compak-tower-height"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Shooting UK — The overhead clay from behind"
+      },
+      "url": "https://www.shootinguk.co.uk/shooting/shotgun/the-less-on-overhead-clay-from-behind/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The Country Girls UK — Clay shooting terminology"
+      },
+      "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Incomer, going-away, driven and overhead",
+    "uk": "Зустрічна, від стрільця, над головою спереду і ззаду"
+  },
+  "summary": {
+    "en": "Targets that come towards you, fly away from you or pass over your head: how to recognise them and what many coaches suggest.",
+    "uk": "Мішені, що летять на вас, від вас або над головою: як їх упізнати і що радять багато тренерів."
+  },
+  "body": [
+    {
+      "k": "flight-incomer-going-away-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "An {{term:incomer|incomer}} flies towards you, often from a far trap or a tower, and usually drops as it comes. It can seem to slow down and hang in the air. That tempts you to stop the gun and aim at it like a rifle, a common cause of a miss. It is usually shot while it is still in front of you, before it is overhead. At the moment you fire, the barrels may hide the target (“blot it out”). Many coaches let this happen on such targets: it is usually intended, not a mistake.",
+      "uk": "{{term:incomer|Зустрічна мішень}} (incomer) летить на вас, часто з далекої машинки або з вишки, і зазвичай знижується. Може здаватися, що вона сповільнюється й зависає. Це спокушає зупинити рушницю й прицілитися, як із гвинтівки, — часта причина промаху. Її звичайно стріляють, поки вона ще попереду, а не над головою. У мить пострілу стволи можуть закрити мішень («blot it out»). Багато тренерів на таких мішенях роблять так свідомо: зазвичай це задумано, а не помилка."
+    },
+    {
+      "k": "flight-incomer-going-away-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "compak:ch3-compulsory-trajectories",
+      "en": "A {{term:going-away|going-away target}} leaves from near or behind you and flies away. It needs little lead to the side, but it gets small fast and often rises or drops. So you mostly need to shoot a little above it if it rises, or a little below it if it drops, and timing matters: do not wait. In {{tm:compak}} a going-away target over side BC is compulsory. It may come from a trench in front of the stations or from a {{term:tower|tower}} behind them, {{fact:targets.compak-tower-height}}.",
+      "uk": "{{term:going-away|Мішень від стрільця}} (going away) вилітає біля вас або позаду вас і летить геть. Бічного виносу їй треба мало, але вона швидко зменшується і часто підіймається чи падає. Тож стріляти треба трохи вище неї, якщо вона підіймається, або трохи нижче, якщо падає, а головне — вчасно: не чекайте. У {{tm:compak}} мішень від стрільця через сторону BC обов’язкова. Вона може вилітати з траншеї перед номерами або з {{term:tower|вишки}} позаду них, {{fact:targets.compak-tower-height}}."
+    },
+    {
+      "k": "flight-incomer-going-away-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:driven-target|driven target}} is an incomer that passes over your head, like a pheasant pushed by beaters. Many coaches teach it like this. Find it with your eyes early and start moving the gun with it. Bring the gun up from behind the target and through it, fire at the moment the barrels hide it, and keep the gun moving.",
+      "uk": "{{term:driven-target|Мішень над головою}} спереду (driven) — зустрічна мішень, що пролітає над вашою головою, як фазан, якого женуть загоничі. Багато тренерів навчають так. Знайдіть її очима рано й рушайте стволами разом із нею. Ведіть стволи знизу, з-позаду мішені, крізь неї, стріляйте, коли стволи її закривають, і не зупиняйте рушницю."
+    },
+    {
+      "k": "flight-incomer-going-away-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "An {{term:overhead|overhead}} from behind comes over your back and goes away. It is seen late, so many coaches suggest looking back for it before you call. Bring the gun to your shoulder ({{term:gun-mount|the mount}}) as it passes over. Fire as the end of the barrels reaches its front edge, and keep the gun moving after the shot ({{term:follow-through|follow-through}}).",
+      "uk": "Мішень над головою ззаду ({{term:overhead|overhead}}) летить через вашу спину й віддаляється. Її видно пізно, тому багато тренерів радять озирнутися ще до команди. Робіть {{term:gun-mount|вкладку}}, поки вона пролітає над вами. Стріляйте, щойно кінець стволів дійшов до її переднього краю, і не зупиняйте рушницю після пострілу ({{term:follow-through|follow-through}})."
+    },
+    {
+      "k": "flight-incomer-going-away-p5",
+      "t": "tip",
+      "core": true,
+      "disc": "both",
+      "en": "“Incoming” and “going away” always describe the target relative to the shooter.",
+      "uk": "«Incoming» і «going away» завжди описують мішень щодо стрільця."
+    },
+    {
+      "k": "flight-incomer-going-away-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "incomer",
+        "also": [
+          "going-away",
+          "driven",
+          "overhead"
+        ]
+      },
+      "ready": true
+    }
+  ],
+  "note": [
+    {
+      "k": "flight-incomer-going-away-n1",
+      "for": "interpreter",
+      "en": "Careful: French “en battue” (Italian “in battuta”) means driven game, not the battue target.",
+      "uk": "Обережно: французьке «en battue» (італійське «in battuta») — це загінне полювання, а не мішень батю."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "flight-incomer-going-away-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Take it out in front, before it gets on top of you.",
+      "meaning": {
+        "en": "Break the incomer while it is still in front, not when it is overhead.",
+        "uk": "Розбийте зустрічну, поки вона ще попереду, а не над головою."
+      },
+      "say": {
+        "uk": "Беріть її попереду, поки вона не над вами."
+      }
+    },
+    {
+      "k": "flight-incomer-going-away-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Blot it out and keep swinging.",
+      "meaning": {
+        "en": "Let the barrels cover the target at the shot and do not stop the gun.",
+        "uk": "Нехай стволи в мить пострілу закриють мішень, і не зупиняйте рушницю."
+      },
+      "say": {
+        "uk": "Закрийте її стволами і не зупиняйтеся."
+      }
+    },
+    {
+      "k": "flight-incomer-going-away-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Don't wait on the going-away — it's getting smaller.",
+      "meaning": {
+        "en": "Shoot the going-away target promptly, because it is quickly getting further away.",
+        "uk": "Стріляйте мішень від стрільця вчасно, бо вона швидко віддаляється."
+      },
+      "say": {
+        "uk": "Не чекайте на мішень від стрільця — вона швидко зменшується."
+      }
+    },
+    {
+      "k": "flight-incomer-going-away-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "It comes from behind you — look back for it early.",
+      "meaning": {
+        "en": "It is an overhead from behind; turn the eyes towards it before calling.",
+        "uk": "Це мішень над головою ззаду; ще до команди поверніть погляд у її бік."
+      },
+      "say": {
+        "uk": "Вона летить ззаду — заздалегідь подивіться назад, звідки вона з’явиться."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "flight-incomer-going-away-kp1",
+      "core": true,
+      "en": "Incomer: comes towards the shooter, usually dropping; take it in front.",
+      "uk": "Зустрічна: летить на стрільця, зазвичай знижуючись; беріть попереду."
+    },
+    {
+      "k": "flight-incomer-going-away-kp2",
+      "core": true,
+      "en": "Going-away: little lead to the side; shoot a little above it if it rises, below if it drops; do not wait.",
+      "uk": "Від стрільця: бічного виносу мало; трохи вище, якщо підіймається, і нижче, якщо падає; не чекайте."
+    },
+    {
+      "k": "flight-incomer-going-away-kp3",
+      "core": true,
+      "en": "Driven: an incomer over the head; swing through from behind and cover it.",
+      "uk": "Зустрічна над головою (driven): ведіть з-позаду крізь неї і закривайте стволами."
+    },
+    {
+      "k": "flight-incomer-going-away-kp4",
+      "core": true,
+      "en": "Overhead from behind: look back early, mount with it, follow through.",
+      "uk": "Над головою ззаду: озирніться заздалегідь, вкладка разом із мішенню, продовжуйте рух."
+    },
+    {
+      "k": "flight-incomer-going-away-kp5",
+      "core": true,
+      "en": "A going-away target is compulsory on a {{tm:compak}} field.",
+      "uk": "На полі {{tm:compak}} мішень від стрільця обов’язкова."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "flight-incomer-going-away-q1",
+      "q": {
+        "en": "The coach says: “Blot it out.” What should the shooter do?",
+        "uk": "Тренер каже: «Blot it out». Що має зробити стрілець?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Wipe the lenses of the safety glasses",
+          "uk": "Протерти лінзи захисних окулярів"
+        },
+        {
+          "k": "b",
+          "en": "Let the barrels cover the target at the shot",
+          "uk": "Дати стволам закрити мішень у мить пострілу"
+        },
+        {
+          "k": "c",
+          "en": "Wait until the target disappears from view",
+          "uk": "Зачекати, поки мішень зникне з поля зору"
+        },
+        {
+          "k": "d",
+          "en": "Shoot only at the falling pieces",
+          "uk": "Стріляти лише по уламках, що падають"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "On incomers, driven and rising targets the gun often covers the clay at the moment of the shot; the coach asks for exactly that.",
+        "uk": "На зустрічних мішенях, зустрічних над головою і тих, що злітають, стволи в мить пострілу часто закривають мішень, і тренер просить саме цього."
+      }
+    },
+    {
+      "k": "flight-incomer-going-away-q2",
+      "q": {
+        "en": "Why should a going-away target not be left too long?",
+        "uk": "Чому мішень від стрільця не можна довго чекати?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It quickly gets further away and smaller",
+          "uk": "Вона швидко віддаляється і зменшується"
+        },
+        {
+          "k": "b",
+          "en": "The rules allow only three seconds",
+          "uk": "Правила дають лише три секунди"
+        },
+        {
+          "k": "c",
+          "en": "It always turns into a crosser",
+          "uk": "Вона завжди стає кросером"
+        },
+        {
+          "k": "d",
+          "en": "The referee calls No Bird after the peak",
+          "uk": "Після вершини суддя оголошує No Bird"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A going-away target gains distance fast, so the longer you wait, the harder it becomes. Three seconds is the release time, not a shooting limit.",
+        "uk": "Мішень від стрільця швидко набирає відстань, і що довше чекаєш, то важче. Три секунди — це час вильоту мішені, а не межа для пострілу."
+      }
+    },
+    {
+      "k": "flight-incomer-going-away-q3",
+      "q": {
+        "en": "What makes a driven target different from an ordinary incomer?",
+        "uk": "Чим зустрічна над головою (driven) відрізняється від звичайної зустрічної?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It is always a rabbit",
+          "uk": "Це завжди кролик"
+        },
+        {
+          "k": "b",
+          "en": "It comes from behind the shooter",
+          "uk": "Вона летить з-за спини стрільця"
+        },
+        {
+          "k": "c",
+          "en": "It passes over the shooter's head",
+          "uk": "Вона пролітає над головою стрільця"
+        },
+        {
+          "k": "d",
+          "en": "It is thrown only in {{tm:compak}}",
+          "uk": "Її кидають тільки в {{tm:compak}}"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Driven means an incomer that comes over the head, like driven game. A target coming from behind is an overhead from behind.",
+        "uk": "Driven — зустрічна мішень, що летить над головою, як дичина на загінному полюванні. Мішень, що летить з-за спини, — це overhead ззаду."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "7eaa07d7",
+    "summary": "4314dcee",
+    "flight-incomer-going-away-p1": "2fd9956c",
+    "flight-incomer-going-away-p2": "160ec5b0",
+    "flight-incomer-going-away-p3": "71c51d30",
+    "flight-incomer-going-away-p4": "07ea96bf",
+    "flight-incomer-going-away-p5": "2b45f1f3",
+    "flight-incomer-going-away-n1": "e7b5d9c8",
+    "flight-incomer-going-away-ph1": "3d738328",
+    "flight-incomer-going-away-ph2": "a93ba534",
+    "flight-incomer-going-away-ph3": "3600e984",
+    "flight-incomer-going-away-ph4": "a521b582",
+    "flight-incomer-going-away-kp1": "439de7f0",
+    "flight-incomer-going-away-kp2": "a9d496d0",
+    "flight-incomer-going-away-kp3": "eb2af837",
+    "flight-incomer-going-away-kp4": "e8f2f3a7",
+    "flight-incomer-going-away-kp5": "be7e1ea0",
+    "flight-incomer-going-away-q1": "4e492871",
+    "flight-incomer-going-away-q2": "1f49444c",
+    "flight-incomer-going-away-q3": "a0bbb62e"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: flight-incomer-going-away-p2, flight-incomer-going-away-p3, flight-incomer-going-away-p4.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: flight-incomer-going-away-p1, flight-incomer-going-away-p2, flight-incomer-going-away-p3, flight-incomer-going-away-p4, flight-incomer-going-away-kp2, flight-incomer-going-away-kp5.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in flight-incomer-going-away-kp5, flight-incomer-going-away-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

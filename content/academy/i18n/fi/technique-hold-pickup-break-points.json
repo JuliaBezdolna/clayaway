@@ -1,0 +1,137 @@
+{
+ "id": "technique-hold-pickup-break-points",
+ "lang": "fi",
+ "base_rev": 2,
+ "h": {
+  "title": "998b7ebb",
+  "summary": "9d2896f9",
+  "basics-three-points-p1": "1c55087e",
+  "basics-three-points-p2": "3c7a3032",
+  "basics-three-points-p3": "0624c4a9",
+  "technique-hold-pickup-break-points-p3": "60fa622f",
+  "basics-three-points-p4": "b7db9c25",
+  "technique-hold-pickup-break-points-limit": "5586588d",
+  "basics-three-points-sim": "31bc4087",
+  "basics-three-points-p5": "386e6dc9",
+  "basics-three-points-ph1": "79a592aa",
+  "basics-three-points-ph2": "4e474642",
+  "basics-three-points-ph3": "6f04d4b1",
+  "basics-three-points-ph4": "417babd2",
+  "basics-three-points-kp1": "4ef85b29",
+  "basics-three-points-kp2": "99cd94a9",
+  "basics-three-points-kp3": "1ebe16e0",
+  "technique-hold-pickup-break-points-kp4": "d9502cad",
+  "basics-three-points-kp4": "89fcf8ae",
+  "technique-hold-pickup-break-points-dyk": "d1e6badc",
+  "basics-three-points-q1": "a27518da",
+  "basics-three-points-q2": "57e44f1a",
+  "basics-three-points-q3": "32777e83",
+  "technique-hold-pickup-break-points-q1": "365f44cf",
+  "technique-hold-pickup-break-points-q2": "9326e420",
+  "technique-hold-pickup-break-points-q3": "04498068"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Kolme pistettä: katsepiste, aloituskohta ja osumapiste",
+ "summary": "Mihin katsoa, missä pitää piippuja ja missä rikkoa kiekko: kolme pistettä, jotka suunnitellaan ennen joka laukausta.",
+ "body": {
+  "basics-three-points-p1": "Ennen joka kiekkoa ampuja asettaa kolme pistettä. {{term:pick-up-point|Katsepiste}} on kohta, jossa silmät näkevät kiekon ensimmäisen kerran selvästi. Se on hieman ulompana heittimestä, ei sen suulla, jossa kiekko on vielä vain sumea viiru. {{term:hold-point|Aseen aloituskohta}} on kohta, jossa piipunsuut odottavat komentoa, yleensä kiekon linjalla tai hieman sen alapuolella, katsepisteen ja osumapisteen välissä. {{term:break-point|Osumapiste}} on kohta, jossa ampuja aikoo rikkoa kiekon.",
+  "basics-three-points-p2": "Suunnittele tässä järjestyksessä. Valitse ensin osumapiste ja aseta jalkasi sen mukaan. Käänny sitten ylävartalolla taaksepäin ja osoita piiput aloituskohtaan. Vie viimeiseksi katse katsepisteeseen. {{tm:sporting}}-lajissa tukki pysyy alhaalla, kunnes kiekko ilmestyy, niin siellä aloituskohta tarkoittaa yksinkertaisesti sitä, mihin piiput osoittavat aseen ollessa yhä alhaalla.",
+  "basics-three-points-p3": "Tyypillisiä virheitä osumapisteessä: liian kaukana tarkoittaa nopeaa, hallitsematonta heilautusta tai kiekkoa, joka jo laskee. Liian lähellä, ja liikettä on liian vähän: ampuja ”tökkää” kiekkoa, osoittaen asetta hitaasti kuin kivääriä sen sijaan, että heilauttaisi sitä. Aloituskohdassa: liian lähellä heitintä kiekko ohittaa piiput, ja aseen täytyy jahdata sitä. Liian kaukana, liikkumavaraa on liian vähän, ja ampuja tökkää tai pysäyttää aseen.",
+  "technique-hold-pickup-break-points-p3": "Tarkka aloituskohta riippuu kiekosta ja ennakkomenetelmästäsi. {{term:maintained-lead|Pysyvällä ennakolla}} (piiput pidetään koko ajan kiekon edessä) se on yleensä kauempana linjalla. {{term:swing-through|Läpivedolla}} (piiput alkavat kiekon takaa ja ohittavat sen) se on lähempänä heitintä. Valitse osumapiste kohdasta, jossa näet kiekon selvästi ja vakaasti, ennen kuin se laskee puiden taakse. Valmentajasi auttaa sinua asettamaan kaikki kolme pistettä.",
+  "basics-three-points-p4": "”Luet” kiekon, eli selvität sen reitin, nopeuden ja etäisyyden, kun se näytetään ennen ampumista ({{term:target-presentation|näytekiekot}}). {{tm:sporting}}-lajissa tuomari näyttää joka lentoradan erän ensimmäiselle ampujalle. Pyynnöstä ampumapaikalla oleva ampuja voi nähdä joka kiekkoluettelon kiekon uudelleen, enintään kahdesti. {{tm:compak}}-lajissa by squad -muodossa yksittäiskiekot ja sitten yhtäaikaiset kaksoiskiekot näytetään vain kerran päivässä, aamulla, ensimmäiselle erälle. Keskeytyksen kestäessä {{fact:rules.reshow-after-interruption}} yksittäiskiekot näytetään uudelleen. Lisää katsomisesta: {{lesson:rules-viewing-targets}}.",
+  "technique-hold-pickup-break-points-limit": "{{tm:sporting}}-lajissa on sinun vastuullasi rikkoa joka kiekko paikassa, jossa tuomari näkee sen. Varo {{term:shooting-limit|takarajoja}}: tällaisen rajan takana tai luonnollisen esteen takana rikottu kiekko ei lasketa. Tuomari ratkaisee tämän yksin, eikä päätöksestä voi valittaa.",
+  "basics-three-points-sim": "Animaatio: merkinnät näyttävät katsepisteen, aloituskohdan ja osumapisteen; kiekko rikkoutuu osumapisteessä."
+ },
+ "note": {
+  "basics-three-points-p5": "”Where are you taking it?” kysyy osumapistettä; ”kill point” on neutraali synonyymi."
+ },
+ "phrases": {
+  "basics-three-points-ph1": {
+   "meaning": "Valmentaja kysyy, missä ampuja aikoo rikkoa kiekon.",
+   "say": "Missä otat sen?"
+  },
+  "basics-three-points-ph2": {
+   "meaning": "Pidä piipunsuut lähempänä heitintä, puolessa nykyisestä etäisyydestä.",
+   "say": "Siirrä aloituskohtaa puoliväliin takaisin heitintä kohti."
+  },
+  "basics-three-points-ph3": {
+   "meaning": "Siirrä katse kauemmas heittimestä sinne, missä kiekon näkee ensimmäisen kerran selvästi.",
+   "say": "Katso kauemmas – ota se siitä, missä se näkyy terävänä."
+  },
+  "basics-three-points-ph4": {
+   "meaning": "Pidä piipunsuut kiekkoa pyydettäessä hieman kiekon radan alapuolella.",
+   "say": "Pidä vähän alempana, juuri linjan alla."
+  }
+ },
+ "key_points": {
+  "basics-three-points-kp1": "Katsepiste = silmät; aloituskohta = piipunsuut; osumapiste = missä kiekko rikotaan.",
+  "basics-three-points-kp2": "Suunnittele osumapisteestä taaksepäin: jalat, aloituskohta, silmät.",
+  "basics-three-points-kp3": "Aloituskohta on yleensä katsepisteen ja osumapisteen välissä, linjalla tai hieman sen alla.",
+  "technique-hold-pickup-break-points-kp4": "Liian lähellä heitintä oleva aloituskohta pakottaa aseen jahtaamaan; liian kaukana, liikkumavaraa ei ole.",
+  "basics-three-points-kp4": "Lue kiekot näytekiekoista; {{tm:sporting}}-lajissa riko ne paikassa, jossa tuomari näkee, takarajojen sisäpuolella."
+ },
+ "quiz": {
+  "basics-three-points-q1": {
+   "q": "Mikä piste koskee silmiä eikä asetta?",
+   "options": {
+    "a": "Aloituskohta",
+    "b": "Osumapiste",
+    "c": "Katsepiste",
+    "d": "Sisäänvientikohta"
+   },
+   "explain": "Katsepiste on kohta, jossa silmät näkevät kiekon ensimmäisen kerran selvästi; aloituskohta koskee piipunsuita."
+  },
+  "basics-three-points-q2": {
+   "q": "Mitä yleensä tapahtuu, jos aloituskohta on liian lähellä heitintä?",
+   "options": {
+    "a": "Tuomari huutaa uuden kiekon",
+    "b": "Aseen on jahdattava kiekkoa",
+    "c": "Aseella ei ole juuri liikkumavaraa",
+    "d": "Kiekko hidastuu"
+   },
+   "explain": "Liian lähellä heitintä kiekko lähtee täydellä vauhdilla piipunsuiden ohi, ja ampujan on jahdattava sitä. Liikkumavaran puute on ongelma, kun aloituskohta on liian kaukana."
+  },
+  "basics-three-points-q3": {
+   "q": "{{tm:sporting}}-lajissa ampumapaikalla oleva ampuja pyytää nähdä näytekiekot uudelleen. Mikä on enimmäismäärä kiekkoluettelon kiekkoa kohden?",
+   "options": {
+    "a": "Kaksi kiekkoa",
+    "b": "Ei yhtään: uusintoja ei sallita",
+    "c": "Niin monta kuin ampuja haluaa",
+    "d": "Tasan viisi"
+   },
+   "explain": "Tuomari näyttää sen pyynnöstä uudelleen, mutta enintään kahdesti kiekkoluettelon kutakin kiekkoa kohden."
+  },
+  "technique-hold-pickup-break-points-q1": {
+   "q": "Mikä on aloituskohta (hold point)?",
+   "options": {
+    "a": "Kohta, jossa piiput odottavat, kun pyydät kiekkoa",
+    "b": "Kohta, jossa patruunoita säilytetään",
+    "c": "Kohta, jossa kiekko laskeutuu"
+   },
+   "explain": "Aloituskohta on kohta, jossa pidät piipunsuita ennen komentoa."
+  },
+  "technique-hold-pickup-break-points-q2": {
+   "q": "Mihin katseesi menee ennen komentoa?",
+   "options": {
+    "a": "Piippuihin",
+    "b": "Katsepisteeseen",
+    "c": "Kiekkoluetteloon"
+   },
+   "explain": "Katseesi odottaa kohdassa, jossa kiekko ensin näkyy selvästi."
+  },
+  "technique-hold-pickup-break-points-q3": {
+   "q": "Minkä pisteen mukaan jalat asetetaan?",
+   "options": {
+    "a": "Katsepisteen",
+    "b": "Aloituskohdan",
+    "c": "Osumapisteen"
+   },
+   "explain": "Jalat asetetaan osumapisteen mukaan, niin keho on siellä mukavimmillaan."
+  }
+ },
+ "did_you_know": "Jos katsot liian läheltä heitintä, kiekko näyttää viiruilta, koska silmä ei ole ehtinyt tarttua siihen. Siksi katsepiste on hieman kauempana heittimestä."
+}

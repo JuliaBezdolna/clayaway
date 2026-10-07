@@ -1,0 +1,509 @@
+{
+  "id": "gun-parts",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gun-parts"
+    ],
+    "interpreter": [
+      "gear-gun-parts"
+    ]
+  },
+  "terms": [
+    "shotgun",
+    "over-and-under",
+    "stock",
+    "comb",
+    "grip",
+    "recoil-pad",
+    "receiver",
+    "top-lever",
+    "safety-catch",
+    "barrel-selector",
+    "trigger",
+    "release-trigger",
+    "fore-end",
+    "barrel",
+    "chamber",
+    "muzzle",
+    "choke",
+    "rib",
+    "bead",
+    "ejector",
+    "gun-fit",
+    "malfunction"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-release-trigger-marking"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-release-trigger-marking"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-malfunction-stay-put"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-malfunction-zero"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Parts of the gun",
+    "uk": "З чого складається рушниця"
+  },
+  "summary": {
+    "en": "Stock, action, fore-end, barrels, rib and chokes: the names of the main parts of an over-and-under, so you can follow a coach or a gunsmith in {{tm:sporting}} and {{tm:compak}}.",
+    "uk": "Приклад, колодка, цівка, стволи, планка й чоки: назви головних частин вертикалки, щоб розуміти тренера і зброяра в {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "gear-gun-parts-p1",
+      "t": "p",
+      "core": true,
+      "anchor": "gear-gun-parts",
+      "en": "Coaches name the parts of the gun all the time, so learn them from the shoulder to the muzzle of an {{term:over-and-under|over-and-under}}, the most common competition gun. The {{term:stock|stock}} goes into the shoulder. Its top edge, where the cheek rests, is the {{term:comb|comb}}; 'raise the comb' or 'drop the comb' is about {{term:gun-fit|gun fit}}. The narrow part held by the trigger hand is the {{term:grip|grip}}, and the rubber pad at the end is the {{term:recoil-pad|recoil pad}}.",
+      "uk": "Тренери постійно називають частини рушниці, тож вивчімо їх від плеча до дула {{term:over-and-under|вертикалки}} — найпоширенішої змагальної рушниці. {{term:stock|Приклад}} (stock) упирається в плече. Його верхній край, на якому лежить щока, — {{term:comb|гребінь}} (comb); «raise the comb» чи «drop the comb» стосується {{term:gun-fit|підгонки рушниці}}. Вузька частина, яку тримає рука на спуску, — {{term:grip|шийка приклада}} (grip, пістолетне руків’я), а гумова подушка на кінці — {{term:recoil-pad|затильник}} (recoil pad)."
+    },
+    {
+      "k": "gun-parts-p2",
+      "t": "p",
+      "en": "The stock is made of wood or a composite material. The recoil pad softens the push of the shot, and pads or spacers of different thickness change the length of the stock.",
+      "uk": "Приклад роблять із дерева або композитного матеріалу. Затильник пом’якшує поштовх пострілу, а затильники чи вставки різної товщини змінюють довжину приклада."
+    },
+    {
+      "k": "gear-gun-parts-p2",
+      "t": "p",
+      "core": true,
+      "en": "The metal centre of the gun is the {{term:receiver|receiver}} or action. On top sits the {{term:top-lever|top lever}}: push it aside and the gun opens. Behind it is the {{term:safety-catch|safety catch}}, often combined with the {{term:barrel-selector|barrel selector}}, which decides which barrel fires first. Underneath is the {{term:trigger|trigger}} in its guard.",
+      "uk": "Металева середина рушниці — {{term:receiver|колодка}} (receiver, action). Зверху — {{term:top-lever|важіль замка}} (top lever): відведіть його вбік, і рушниця відкриється. За ним — {{term:safety-catch|запобіжник}} (safety catch), часто поєднаний із {{term:barrel-selector|перемикачем стволів}} (barrel selector, «селектор»), що визначає, з якого ствола буде перший постріл. Знизу в скобі — {{term:trigger|спусковий гачок}} (trigger)."
+    },
+    {
+      "k": "gun-parts-p4",
+      "t": "p",
+      "en": "Inside the receiver sits the firing mechanism. Most competition over-and-unders have a single trigger for both barrels.",
+      "uk": "У колодці сховано ударно-спусковий механізм. Більшість спортивних вертикалок мають один спусковий гачок на обидва стволи."
+    },
+    {
+      "k": "gear-gun-parts-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A release trigger fires when it is let go, not when it is pressed. Such a gun must carry, as a warning, a sticker with a large 'R' on a fluorescent background on the outer side of the stock.",
+      "uk": "{{term:release-trigger|Спуск на відпускання}} (release trigger) стріляє тоді, коли гачок відпускають, а не натискають. Рушниця з таким спуском мусить мати на зовнішньому боці приклада наліпку з великою літерою «R» на флуоресцентному тлі як попередження."
+    },
+    {
+      "k": "gear-gun-parts-p4",
+      "t": "p",
+      "core": true,
+      "en": "Under the barrels the other hand holds the {{term:fore-end|fore-end}}. The {{term:barrel|barrels}} have {{term:chamber|chambers}} at the back for the cartridges and {{term:muzzle|muzzles}} at the front, where {{term:choke|chokes}} are screwed in. Along the top runs the {{term:rib|rib}} with a {{term:bead|bead}} at the end. The bead is a reference, not a sight: 'look at the target, not the bead'.",
+      "uk": "Під стволами друга рука тримає {{term:fore-end|цівку}} (fore-end). {{term:barrel|Стволи}} (barrels) мають ззаду {{term:chamber|патронники}} для патронів, а спереду — {{term:muzzle|дула}} (muzzles), куди вкручують {{term:choke|чоки}}. Згори тягнеться {{term:rib|планка}} (rib) з {{term:bead|мушкою}} (bead) на кінці. Мушка — орієнтир, а не приціл: «дивіться на мішень, а не на мушку»."
+    },
+    {
+      "k": "gun-parts-p5",
+      "t": "p",
+      "en": "The fore-end also holds the barrels on the action: take it off, and the barrels come off. That is how a gun is taken apart for cleaning and transport. The rib usually has gaps underneath (a 'ventilated rib'), so that heat from the barrels makes the air above it shimmer less. Many guns have a small mid bead halfway along the rib.",
+      "uk": "Цівка також тримає стволи на колодці: зніміть її — і стволи від’єднаються. Так рушницю розбирають для чищення й перевезення. Планка зазвичай вентильована — з прорізами знизу, щоб гаряче повітря від стволів менше тремтіло над нею. Посередині багатьох планок є ще маленька середня мушка."
+    },
+    {
+      "k": "gun-parts-p7",
+      "t": "p",
+      "en": "Next to the chambers sit the {{term:ejector|ejectors}}: when the gun is opened, they throw out the fired cases. Simpler extractors only lift the cases a little, and you take them out by hand.",
+      "uk": "Біля патронників стоять {{term:ejector|ежектори}} (ejectors): коли рушницю відкривають, вони викидають стріляні гільзи. Простіші екстрактори (extractors) лише трохи висувають гільзи, і їх виймають рукою."
+    },
+    {
+      "k": "gear-gun-parts-p5",
+      "t": "warn",
+      "core": true,
+      "disc": "both",
+      "en": "One safety rule is linked to the parts. After a misfire or any other gun or cartridge {{term:malfunction|failure}}, the shooter does not open the gun or touch the safety until the referee has looked at it.",
+      "uk": "Одне правило безпеки пов’язане з частинами рушниці. Після осічки чи іншої {{term:malfunction|несправності}} рушниці або патрона стрілець не відкриває рушницю й не торкається запобіжника, доки суддя її не огляне."
+    }
+  ],
+  "note": [
+    {
+      "k": "gun-parts-n1",
+      "for": "interpreter",
+      "en": "Two false friends: the 'rib' is the strip along the top of the barrels, and 'break the gun' means open it on its hinge, not damage it.",
+      "uk": "Два хибні друзі: rib — це планка, а не «ребро»; «break the gun» означає відкрити (переломити) рушницю, а не зламати її."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "gear-gun-parts-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "You're seeing too much rib — your head is up.",
+      "meaning": {
+        "en": "The eye is too high above the rib, usually because the head lifts off the comb.",
+        "uk": "Око надто високо над планкою, зазвичай бо голова відривається від гребеня."
+      },
+      "say": {
+        "uk": "Ви бачите забагато планки — голова піднята."
+      }
+    },
+    {
+      "k": "gear-gun-parts-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Check your selector — you fired the top barrel first.",
+      "meaning": {
+        "en": "The barrel selector is set the wrong way round.",
+        "uk": "Селектор стволів виставлено не в тому порядку."
+      },
+      "say": {
+        "uk": "Перевірте селектор: першим вистрілив верхній ствол."
+      }
+    },
+    {
+      "k": "gear-gun-parts-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Break your gun and show me it's clear.",
+      "meaning": {
+        "en": "Open the gun and show empty chambers.",
+        "uk": "Відкрийте рушницю й покажіть порожні патронники."
+      },
+      "say": {
+        "uk": "Переломіть рушницю й покажіть, що вона порожня."
+      }
+    },
+    {
+      "k": "gear-gun-parts-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Forget the bead — look at the target.",
+      "meaning": {
+        "en": "Focus on the target, not on the end of the barrel.",
+        "uk": "Дивіться на мішень, а не на кінець ствола."
+      },
+      "say": {
+        "uk": "Забудьте про мушку — дивіться на мішень."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "gear-gun-parts-kp1",
+      "core": true,
+      "en": "Stock, comb, grip, recoil pad; receiver with top lever, safety and selector; trigger.",
+      "uk": "Приклад, гребінь, шийка, затильник; колодка з важелем, запобіжником і селектором; спусковий гачок."
+    },
+    {
+      "k": "gear-gun-parts-kp2",
+      "core": true,
+      "en": "Fore-end, barrels with chambers and muzzles, rib with bead.",
+      "uk": "Цівка, стволи з патронниками й дулами, планка з мушкою."
+    },
+    {
+      "k": "gear-gun-parts-kp3",
+      "core": true,
+      "en": "A release trigger needs an 'R' sticker on the stock.",
+      "uk": "Рушниця зі спуском на відпускання має наліпку «R» на прикладі."
+    },
+    {
+      "k": "gear-gun-parts-kp4",
+      "core": true,
+      "en": "'Break the gun' means open it; the rib is the strip along the top of the barrels.",
+      "uk": "«Break the gun» — відкрити рушницю; rib — планка над стволами, а не «ребро»."
+    },
+    {
+      "k": "gear-gun-parts-kp5",
+      "core": true,
+      "en": "After a misfire: do not open the gun or touch the safety before the referee checks.",
+      "uk": "Після осічки не відкривати рушницю й не торкатися запобіжника до огляду судді.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "gun-parts-dyk",
+    "en": "Selective ejectors throw out only a fired case. If you fired one barrel, the unfired cartridge in the other is only lifted a little, so you can take it out calmly by hand.",
+    "uk": "Селективні ежектори викидають лише стріляну гільзу. Якщо ви вистрілили з одного ствола, другий, нестріляний патрон тільки трохи висунеться, і його можна спокійно вийняти рукою."
+  },
+  "quiz": [
+    {
+      "k": "gear-gun-parts-q1",
+      "q": {
+        "en": "A coach says 'Raise the comb'. Which part does he mean?",
+        "uk": "Тренер каже «Raise the comb». Про яку частину йдеться?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The top of the stock, where the cheek rests",
+          "uk": "Верх приклада, на якому лежить щока"
+        },
+        {
+          "k": "b",
+          "en": "The small bead at the end of the rib",
+          "uk": "Мушку на кінці планки"
+        },
+        {
+          "k": "c",
+          "en": "The guard around the trigger",
+          "uk": "Скобу навколо спускового гачка"
+        },
+        {
+          "k": "d",
+          "en": "The choke tube at the muzzle",
+          "uk": "Чок біля дула"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The comb is the top of the stock; raising it lifts the eye above the rib.",
+        "uk": "Гребінь — верх приклада; якщо його підняти, око буде вище над планкою."
+      }
+    },
+    {
+      "k": "gear-gun-parts-q2",
+      "disc": "both",
+      "q": {
+        "en": "What must a gun with a release trigger carry?",
+        "uk": "Що мусить мати рушниця зі спуском на відпускання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A red-painted barrel to warn others",
+          "uk": "Червоно пофарбований ствол як попередження"
+        },
+        {
+          "k": "b",
+          "en": "A large 'R' sticker on the stock",
+          "uk": "Наліпку з великою «R» на прикладі"
+        },
+        {
+          "k": "c",
+          "en": "A second, separate safety catch",
+          "uk": "Другий, окремий запобіжник"
+        },
+        {
+          "k": "d",
+          "en": "Nothing: no marking is required",
+          "uk": "Нічого: маркування не потрібне"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Both rulebooks require the 'R' warning sticker, on a fluorescent background, on the outer side of the buttstock.",
+        "uk": "Обидва регламенти вимагають попереджувальну наліпку «R» на флуоресцентному тлі на зовнішньому боці приклада."
+      },
+      "rule_ref": "sporting:ch7-release-trigger-marking"
+    },
+    {
+      "k": "gun-parts-q1",
+      "q": {
+        "en": "What is the barrel selector for?",
+        "uk": "Для чого потрібен перемикач стволів (barrel selector)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To take the barrels off the action",
+          "uk": "Щоб зняти стволи з колодки"
+        },
+        {
+          "k": "b",
+          "en": "To change the choke in the barrel",
+          "uk": "Щоб змінити чок у стволі"
+        },
+        {
+          "k": "c",
+          "en": "To throw the fired cases out",
+          "uk": "Щоб викинути стріляні гільзи"
+        },
+        {
+          "k": "d",
+          "en": "To choose which barrel fires first",
+          "uk": "Щоб обрати, який ствол вистрілить першим"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The selector, often combined with the safety, sets the order of the barrels.",
+        "uk": "Перемикач, часто поєднаний із запобіжником, визначає порядок стволів."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "gun-parts-q2",
+      "q": {
+        "en": "What do the ejectors do when you open the gun?",
+        "uk": "Що роблять ежектори, коли ви відкриваєте рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They throw out the fired cases",
+          "uk": "Викидають стріляні гільзи"
+        },
+        {
+          "k": "b",
+          "en": "They lock the barrels to the action",
+          "uk": "Замикають стволи на колодці"
+        },
+        {
+          "k": "c",
+          "en": "They set which barrel fires first",
+          "uk": "Визначають, який ствол стріляє першим"
+        },
+        {
+          "k": "d",
+          "en": "They soften the recoil of the shot",
+          "uk": "Пом’якшують віддачу пострілу"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Ejectors throw out fired cases; simpler extractors only lift them a little.",
+        "uk": "Ежектори викидають стріляні гільзи; простіші екстрактори лише трохи їх висувають."
+      }
+    },
+    {
+      "k": "gun-parts-q3",
+      "q": {
+        "en": "Which part do you take off first to remove the barrels?",
+        "uk": "Яку частину знімають першою, щоб від’єднати стволи?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The comb",
+          "uk": "Гребінь"
+        },
+        {
+          "k": "b",
+          "en": "The fore-end",
+          "uk": "Цівку"
+        },
+        {
+          "k": "c",
+          "en": "The rib",
+          "uk": "Планку"
+        },
+        {
+          "k": "d",
+          "en": "The bead",
+          "uk": "Мушку"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The fore-end holds the barrels on the action; once it is off, the barrels come off.",
+        "uk": "Цівка тримає стволи на колодці; коли її знято, стволи від’єднуються."
+      }
+    },
+    {
+      "k": "gear-gun-parts-q3",
+      "q": {
+        "en": "What does a coach mean by 'Break your gun'?",
+        "uk": "Як перекласти «Break your gun»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Damage the gun on purpose",
+          "uk": "«Зламайте рушницю»"
+        },
+        {
+          "k": "b",
+          "en": "Take the gun apart into pieces",
+          "uk": "«Розберіть рушницю на частини»"
+        },
+        {
+          "k": "c",
+          "en": "Open the gun on its hinge",
+          "uk": "«Відкрийте (переломіть) рушницю»"
+        },
+        {
+          "k": "d",
+          "en": "Clean the barrels of the gun",
+          "uk": "«Почистіть стволи рушниці»"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "On a shooting ground 'break' means opening the gun on its hinge so it cannot fire.",
+        "uk": "На стрільбищі break означає відкрити рушницю на шарнірі, щоб вона не могла вистрілити."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "70232b4e",
+    "summary": "ad5c88d7",
+    "gear-gun-parts-p1": "0e026dcb",
+    "gun-parts-p2": "fc4f2074",
+    "gear-gun-parts-p2": "6e235dcc",
+    "gun-parts-p4": "eaddfa91",
+    "gear-gun-parts-p3": "dd70c91e",
+    "gear-gun-parts-p4": "0d99c1ce",
+    "gun-parts-p5": "bb8f3b05",
+    "gun-parts-p7": "92b024e2",
+    "gear-gun-parts-p5": "16a894d5",
+    "gun-parts-n1": "7ad34571",
+    "gear-gun-parts-kp1": "589ef9f8",
+    "gear-gun-parts-kp2": "292efecd",
+    "gear-gun-parts-kp3": "50d816b1",
+    "gear-gun-parts-kp4": "5e8772d9",
+    "gear-gun-parts-kp5": "e412fa19",
+    "gun-parts-dyk": "322ed76d",
+    "gear-gun-parts-ph1": "f94c86c0",
+    "gear-gun-parts-ph2": "f23381e8",
+    "gear-gun-parts-ph3": "779d6ce3",
+    "gear-gun-parts-ph4": "1b8551ee",
+    "gear-gun-parts-q1": "6e928ffd",
+    "gear-gun-parts-q2": "dccde41e",
+    "gun-parts-q1": "0001ef94",
+    "gun-parts-q2": "757c4c69",
+    "gun-parts-q3": "45f74b16",
+    "gear-gun-parts-q3": "37669349"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "targets-menu",
+  "lang": "fr",
+  "base_rev": 3,
+  "h": {
+    "title": "744c4dd7",
+    "summary": "97cd40e7",
+    "targets-menu-p1": "3f14bae6",
+    "targets-menu-p2": "e79c6d7a",
+    "targets-menu-p3": "4c1f1230",
+    "targets-menu-ex1": "aa643ef1",
+    "targets-menu-p4": "8d8e6b9e",
+    "targets-menu-tip1": "225fbc0d",
+    "targets-menu-n1": "e810bd84",
+    "targets-menu-p5": "d09ec478",
+    "targets-menu-ph1": "bd4b48d5",
+    "targets-menu-ph2": "e9f0ce43",
+    "targets-menu-ph3": "012cd5f5",
+    "targets-menu-kp1": "46ec13eb",
+    "targets-menu-kp2": "ae9c7733",
+    "targets-menu-kp3": "dc3aa01c",
+    "targets-menu-kp4": "3008ddb0",
+    "targets-menu-kp5": "f1caa6ca",
+    "targets-menu-q1": "c3048623",
+    "targets-menu-q2": "5bf0bf71",
+    "targets-menu-q3": "312040f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Lire le menu du poste",
+  "summary": "Comment lire le menu des plateaux à un poste {{tm:sporting}} et à un pas de tir {{tm:compak}} : l'ordre des lanceurs, les plateaux spéciaux et le type de chaque doublé.",
+  "body": {
+    "targets-menu-p1": "Le {{term:target-menu|menu}} est le panneau du poste qui indique au tireur ce qui l'attend : quels lanceurs, dans quel ordre, et quel type de doublés.",
+    "targets-menu-p2": "En {{tm:sporting}}, le menu énumère les lanceurs dans l'ordre de tir et doit nommer les plateaux spéciaux : {{fact:targets.sporting-menu-special-targets}}. Les arbitres vérifient au préalable que les lanceurs correspondent au menu. Un parcours donne {{fact:targets.sporting-layout-targets}}. Les doublés ne peuvent utiliser que des plateaux déjà montrés en simples depuis le même poste, et la planche tire d'abord les simples.",
+    "targets-menu-p3": "Chaque doublé est marqué de son type. {{term:double-on-report|Au coup de fusil}} : le second plateau part au bruit du premier coup. {{term:simultaneous-double|Simultané}} : les deux plateaux partent ensemble. {{term:rafale-double|Rafale}} : deux plateaux du même lanceur, l'un après l'autre, en {{tm:sporting}} seulement. Les menus ont un aspect différent d'un terrain à l'autre, donc lisez les mots, pas seulement les lettres.",
+    "targets-menu-ex1": "Exemple : sur une ligne de 4 postes, un poste n'a que 3 lanceurs, et on y tire 3 simples et 2 doublés. Son menu pourrait être : simples A, B, C, puis un doublé simultané A + B et un rafale C + C (les lettres sont les lanceurs). Sur ce poste, au moins un doublé doit être simultané ou rafale : deux doublés au coup de fusil ne sont pas autorisés ({{rule:sporting:ch2-doubles-three-traps}}).",
+    "targets-menu-p4": "En {{tm:compak}}, un menu est affiché à chacun des cinq pas de tir. Chaque pas de tir a cinq plateaux, selon l'un des trois mélanges : {{fact:targets.compak-station-menus}}. Les simples peuvent venir des lanceurs dans n'importe quel ordre. Les cinq pas de tir ont le même type de doublé, et les pas de tir sont liés en chaîne : {{fact:targets.compak-double-chain}}. Pour les compétitions, la FITASC propose {{fact:targets.compak-setting-tables}}.",
+    "targets-menu-tip1": "Avant de monter sur un pas de tir {{tm:compak}}, beaucoup de tireurs se répètent le menu à voix basse : « A, puis F, puis B, puis C et E au coup de fusil. » Cela peut aider à se souvenir de l'ordre."
+  },
+  "note": {
+    "targets-menu-n1": "Les tireurs disent vraiment « menu », donc gardez ce mot en traduisant.",
+    "targets-menu-p5": "Avant que votre tireur ne monte, lisez-lui le menu à voix haute dans sa langue, lettre par lettre : « A, puis F, puis B, puis le doublé C et E au coup de fusil. »"
+  },
+  "phrases": {
+    "targets-menu-ph1": {
+      "meaning": "Pas de tir 3 : trois plateaux simples, puis un doublé au coup de fusil ; cinq plateaux en tout.",
+      "say": "Lisez le menu : au pas de tir trois, vous avez A, puis F, puis B, puis le doublé C et E au coup de fusil."
+    },
+    "targets-menu-ph2": {
+      "meaning": "L'ordre a changé depuis la dernière série.",
+      "say": "Mêmes lanceurs, nouveau menu : ne tirez pas de mémoire."
+    },
+    "targets-menu-ph3": {
+      "meaning": "« Simo » est l'abréviation de doublé simultané.",
+      "say": "Trois simples, puis un doublé simultané."
+    }
+  },
+  "key_points": {
+    "targets-menu-kp1": "Lisez le menu avant de monter sur le poste : ordre des lanceurs, plateaux spéciaux, type de chaque doublé.",
+    "targets-menu-kp2": "Menu {{tm:sporting}} : lanceurs dans l'ordre, plus les plateaux spéciaux ({{fact:targets.sporting-menu-special-targets}}).",
+    "targets-menu-kp3": "Un parcours {{tm:sporting}} donne {{fact:targets.sporting-layout-targets}} ; les doublés utilisent des plateaux déjà présentés en simples ; les simples d'abord.",
+    "targets-menu-kp4": "Doublés : coup de fusil, simultané, rafale (uniquement en {{tm:sporting}}).",
+    "targets-menu-kp5": "{{tm:compak}} : cinq plateaux par pas de tir, même type de doublé partout, chaque doublé commence par le dernier plateau du pas de tir précédent."
+  },
+  "quiz": {
+    "targets-menu-q1": {
+      "q": "Quels plateaux spéciaux un menu {{tm:sporting}} doit-il indiquer ?",
+      "options": {
+        "a": "Seulement les couleurs des plateaux",
+        "b": "90 mm, 70 mm, 60 mm, battue ou rabbit",
+        "c": "Seulement les rabbits et les battues",
+        "d": "Aucun ; l'arbitre les annonce"
+      },
+      "explain": "Le menu doit énumérer les lanceurs dans l'ordre et tous les types de plateaux spéciaux."
+    },
+    "targets-menu-q2": {
+      "q": "En {{tm:compak}}, par quel plateau commence chaque doublé ?",
+      "options": {
+        "a": "Toujours le lanceur A",
+        "b": "Un plateau qui n'a pas encore été montré",
+        "c": "Le dernier plateau tiré au pas de tir précédent",
+        "d": "N'importe quel plateau choisi par le tireur"
+      },
+      "explain": "Les doublés s'enchaînent d'un pas de tir à l'autre : chacun commence par le dernier plateau du pas de tir précédent."
+    },
+    "targets-menu-q3": {
+      "q": "Quel type de doublé n'existe qu'en {{tm:sporting}} ?",
+      "options": {
+        "a": "La rafale",
+        "b": "Le coup de fusil",
+        "c": "Le simultané",
+        "d": "Aucun"
+      },
+      "explain": "Les doublés {{tm:compak}} sont coup de fusil ou simultanés ; la rafale est un doublé {{tm:sporting}}."
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "gun-parts",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "70232b4e",
+    "summary": "ad5c88d7",
+    "gear-gun-parts-p1": "0e026dcb",
+    "gun-parts-p2": "fc4f2074",
+    "gear-gun-parts-p2": "6e235dcc",
+    "gun-parts-p4": "eaddfa91",
+    "gear-gun-parts-p3": "dd70c91e",
+    "gear-gun-parts-p4": "0d99c1ce",
+    "gun-parts-p5": "bb8f3b05",
+    "gun-parts-p7": "92b024e2",
+    "gear-gun-parts-p5": "16a894d5",
+    "gun-parts-n1": "7ad34571",
+    "gear-gun-parts-ph1": "f94c86c0",
+    "gear-gun-parts-ph2": "f23381e8",
+    "gear-gun-parts-ph3": "779d6ce3",
+    "gear-gun-parts-ph4": "1b8551ee",
+    "gear-gun-parts-kp1": "589ef9f8",
+    "gear-gun-parts-kp2": "292efecd",
+    "gear-gun-parts-kp3": "50d816b1",
+    "gear-gun-parts-kp4": "5e8772d9",
+    "gear-gun-parts-kp5": "e412fa19",
+    "gun-parts-dyk": "322ed76d",
+    "gear-gun-parts-q1": "6e928ffd",
+    "gear-gun-parts-q2": "dccde41e",
+    "gun-parts-q1": "0001ef94",
+    "gun-parts-q2": "757c4c69",
+    "gun-parts-q3": "45f74b16",
+    "gear-gun-parts-q3": "37669349"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Aseen osat",
+  "summary": "Tukki, lukko, etutukki, piiput, kisko ja supistajat: päällekkäispiippuisen haulikon tärkeimpien osien nimet, jotta ymmärrät valmentajaa ja aseseppää {{tm:sporting}}- ja {{tm:compak}}-lajeissa.",
+  "body": {
+    "gear-gun-parts-p1": "Valmentajat nimeävät aseen osia jatkuvasti, niin opetellaan ne olkapäästä piipun suuhun yleisimmässä kilpailuaseessa, {{term:over-and-under|päällekkäispiippuisessa haulikossa}}. {{term:stock|Tukki}} (stock) menee olkapäätä vasten. Sen yläreuna, jolle poski asettuu, on {{term:comb|poskipakka}} (comb); ”raise the comb” tai ”drop the comb” koskee {{term:gun-fit|aseen sovitusta}}. Liipaisinkäden pitämä kapea osa on {{term:grip|pistoolikahva}} (grip), ja kumityyny päässä on {{term:recoil-pad|perälevy}} (recoil pad).",
+    "gun-parts-p2": "Tukki tehdään puusta tai komposiittimateriaalista. Perälevy pehmentää laukauksen työntöä, ja eri paksuiset levyt tai välikkeet muuttavat tukin pituutta.",
+    "gear-gun-parts-p2": "Aseen metallinen keskiosa on {{term:receiver|lukonkehys}} (receiver, action). Päällä on {{term:top-lever|avausvipu}} (top lever): työnnä se sivuun, ja ase avautuu. Sen takana on {{term:safety-catch|varmistin}} (safety catch), usein yhdistettynä {{term:barrel-selector|piipunvalitsimeen}} (barrel selector), joka määrää, kumpi piippu laukeaa ensin. Alla, suojassaan, on {{term:trigger|liipaisin}} (trigger).",
+    "gun-parts-p4": "Lukonkehyksen sisällä on lukkomekanismi. Useimmissa kilpailu-päällekkäispiippuisissa on yksi liipaisin molemmille piipuille.",
+    "gear-gun-parts-p3": "{{term:release-trigger|Päästöliipaisin}} (release trigger) laukeaa, kun se päästetään irti, ei kun sitä painetaan. Tällaisessa aseessa on oltava varoituksena tarra, jossa on suuri ”R”-kirjain loistevärisellä pohjalla tukin ulkosivulla.",
+    "gear-gun-parts-p4": "Piippujen alla toinen käsi pitää {{term:fore-end|etutukkia}} (fore-end). {{term:barrel|Piipuissa}} (barrels) on takana {{term:chamber|patruunapesät}} patruunoille ja edessä {{term:muzzle|piipun suut}} (muzzles), joihin {{term:choke|supistajat}} kierretään. Yllä kulkee {{term:rib|kisko}} (rib), ja sen päässä on {{term:bead|jyvä}} (bead). Jyvä on vertailukohta, ei tähtäin: ”katso kiekkoa, ei jyvää”.",
+    "gun-parts-p5": "Etutukki pitää myös piiput kiinni lukonkehyksessä: irrota se, ja piiput lähtevät pois. Niin ase purkautuu puhdistusta ja kuljetusta varten. Kiskossa on tavallisesti aukkoja alla (”tuuletettu kisko”), jotta piippujen lämpö väreilee vähemmän ilmassa sen yllä. Monissa aseissa on pieni keskijyvä kiskon puolivälissä.",
+    "gun-parts-p7": "Patruunapesien vierellä ovat {{term:ejector|ejektorit}} (ejectors): kun ase avataan, ne heittävät ulos ampuneet hylsyt. Yksinkertaisemmat ekstraktorit nostavat hylsyjä vain hieman, ja ne otetaan ulos käsin.",
+    "gear-gun-parts-p5": "Yksi turvallisuussääntö liittyy näihin osiin. Laukeamattoman patruunan tai muun aseen tai patruunan {{term:malfunction|häiriön}} jälkeen ampuja ei avaa asetta eikä koske varmistimeen, ennen kuin tuomari on tarkastanut sen."
+  },
+  "note": {
+    "gun-parts-n1": "Kaksi hämäävää sanaa: rib on kisko, ei ”kylkiluu”; ”break the gun” tarkoittaa aseen avaamista saranastaan, ei sen rikkomista."
+  },
+  "phrases": {
+    "gear-gun-parts-ph1": {
+      "meaning": "Silmä on liian korkealla kiskon yllä, tavallisesti koska pää nousee irti poskipakasta.",
+      "say": "Näet liikaa kiskoa — pääsi on ylhäällä."
+    },
+    "gear-gun-parts-ph2": {
+      "meaning": "Piipunvalitsin on väärin päin.",
+      "say": "Tarkista valitsimesi — ylempi piippu laukesi ensin."
+    },
+    "gear-gun-parts-ph3": {
+      "meaning": "Avaa ase ja näytä tyhjät patruunapesät.",
+      "say": "Avaa aseesi ja näytä, että se on tyhjä."
+    },
+    "gear-gun-parts-ph4": {
+      "meaning": "Keskity kiekkoon, ei piipun päähän.",
+      "say": "Unohda jyvä — katso kiekkoa."
+    }
+  },
+  "key_points": {
+    "gear-gun-parts-kp1": "Tukki, poskipakka, pistoolikahva, perälevy; lukonkehys avausvipuineen, varmistimineen ja valitsimineen; liipaisin.",
+    "gear-gun-parts-kp2": "Etutukki, piiput patruunapesineen ja piipunsuineen, kisko jyvineen.",
+    "gear-gun-parts-kp3": "Päästöliipaisimella on oltava ”R”-tarra tukissa.",
+    "gear-gun-parts-kp4": "”Break the gun” tarkoittaa aseen avaamista; kisko on piippujen päällä kulkeva kapea osa.",
+    "gear-gun-parts-kp5": "Laukeamattoman patruunan jälkeen: älä avaa asetta äläkä koske varmistimeen ennen tuomarin tarkastusta."
+  },
+  "did_you_know": "Valikoivat ejektorit heittävät ulos vain ampuneen hylsyn. Jos ampui yhdellä piipulla, toisen ampumaton patruuna nousee vain hieman, niin sen voi ottaa rauhassa ulos käsin.",
+  "quiz": {
+    "gear-gun-parts-q1": {
+      "q": "Valmentaja sanoo ”Raise the comb”. Mistä osasta on kyse?",
+      "options": {
+        "a": "Tukin yläreunasta, jolle poski asettuu",
+        "b": "Pienestä jyvästä kiskon päässä",
+        "c": "Liipaisimen suojasta",
+        "d": "Supistajasta piipun suussa"
+      },
+      "explain": "Poskipakka on tukin yläreuna; sen nostaminen nostaa silmän korkeammalle kiskon yllä."
+    },
+    "gear-gun-parts-q2": {
+      "q": "Mikä päästöliipaisimella varustetussa aseessa on oltava?",
+      "options": {
+        "a": "Punaiseksi maalattu piippu varoitukseksi",
+        "b": "Suuri ”R”-tarra tukissa",
+        "c": "Toinen, erillinen varmistin",
+        "d": "Ei mitään: merkintää ei vaadita"
+      },
+      "explain": "Molemmat säännöstöt vaativat ”R”-varoitustarran loistevärisellä pohjalla tukin ulkosivulla."
+    },
+    "gun-parts-q1": {
+      "q": "Mihin piipunvalitsinta käytetään?",
+      "options": {
+        "a": "Piippujen irrottamiseen lukonkehyksestä",
+        "b": "Supistajan vaihtamiseen piipussa",
+        "c": "Ampuneiden hylsyjen ulos heittämiseen",
+        "d": "Sen valitsemiseen, kumpi piippu laukeaa ensin"
+      },
+      "explain": "Valitsin, usein yhdistettynä varmistimeen, määrää piippujen järjestyksen."
+    },
+    "gun-parts-q2": {
+      "q": "Mitä ejektorit tekevät, kun avaat aseen?",
+      "options": {
+        "a": "Heittävät ulos ampuneet hylsyt",
+        "b": "Lukitsevat piiput lukonkehykseen",
+        "c": "Määräävät, kumpi piippu laukeaa ensin",
+        "d": "Pehmentävät laukauksen rekyyliä"
+      },
+      "explain": "Ejektorit heittävät ulos ampuneet hylsyt; yksinkertaisemmat ekstraktorit vain nostavat niitä hieman."
+    },
+    "gun-parts-q3": {
+      "q": "Minkä osan irrotat ensin, jotta saat piiput pois?",
+      "options": {
+        "a": "Poskipakan",
+        "b": "Etutukin",
+        "c": "Kiskon",
+        "d": "Jyvän"
+      },
+      "explain": "Etutukki pitää piiput kiinni lukonkehyksessä; kun se on irti, piiput lähtevät pois."
+    },
+    "gear-gun-parts-q3": {
+      "q": "Mitä valmentaja tarkoittaa sanoessaan ”Break your gun”?",
+      "options": {
+        "a": "”Riko aseesi”",
+        "b": "”Pura aseesi osiin”",
+        "c": "”Avaa aseesi saranastaan”",
+        "d": "”Puhdista aseesi piiput”"
+      },
+      "explain": "Radalla ”break” tarkoittaa aseen avaamista saranastaan, jotta se ei voi laueta."
+    }
+  }
+}

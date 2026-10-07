@@ -1,0 +1,355 @@
+{
+  "id": "clayarena-profile-numbers",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "fan",
+    "shooter",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "watch block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "clayarena-profile-numbers"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "sporting",
+    "compak-sporting",
+    "shooter-profile",
+    "accuracy",
+    "best-score",
+    "round",
+    "top-10-rate",
+    "club-shoot",
+    "performance-index",
+    "fitasc",
+    "layout",
+    "category"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-difficulty-classes"
+    },
+    {
+      "book": "compak",
+      "id": "ch16-terms"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    }
+  ],
+  "facts": [
+    "basics.international-targets",
+    "rules.round-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What the numbers in a profile mean",
+    "uk": "Що означають цифри в профілі"
+  },
+  "summary": {
+    "en": "Accuracy, best score, perfect rounds, top-10 rate and the performance index help you see a shooter's form, but they do not replace the results themselves.",
+    "uk": "Влучність, найкращий результат, чисті раунди, частка топ-10 та індекс виступів допомагають побачити форму стрільця, але не замінюють самих результатів."
+  },
+  "body": [
+    {
+      "k": "clayarena-profile-numbers-p1",
+      "t": "p",
+      "en": "A {{term:shooter-profile|shooter profile}} on ClayArena shows several figures. They are calculated from the {{tm:sporting}} and {{tm:compak}} competitions on the site, and the profile can show them for each discipline separately. They help you see a shooter's level and consistency at a glance.",
+      "uk": "У {{term:shooter-profile|профілі стрільця}} на ClayArena є кілька показників. Їх рахують за змаганнями з {{tm:sporting}} і {{tm:compak}}, які є на сайті, і профіль може показувати їх окремо для кожної дисципліни. Вони допомагають одразу побачити рівень і стабільність стрільця."
+    },
+    {
+      "k": "clayarena-profile-numbers-p2",
+      "t": "p",
+      "en": "{{term:accuracy|Accuracy}} is the share of targets broken out of the targets shot at a competition. For example, 150 broken out of 200 is 75%. A profile can show the average accuracy across all of a shooter's finished competitions and the highest accuracy at a single competition.",
+      "uk": "{{term:accuracy|Влучність}} — частка розбитих мішеней від відстріляних на змаганні. Наприклад, 150 розбитих зі 200 — це 75 %. Профіль може показувати середню влучність за всі завершені змагання стрільця і найвищу влучність на одному змаганні."
+    },
+    {
+      "k": "clayarena-profile-numbers-p3",
+      "t": "p",
+      "en": "{{term:best-score|Best score}} is the shooter's highest total at one competition. Compare totals only over the same number of targets. An international {{tm:sporting}} competition is {{fact:basics.international-targets}}, while many club shoots have fewer targets. So if the number of targets differs, compare the accuracy instead. Accuracy lets you compare different numbers of targets, but layouts, weather and the level of the event still differ, so treat it as a rough guide.",
+      "uk": "{{term:best-score|Найкращий результат}} — найбільша сума, яку стрілець набрав на одному змаганні. Порівнюйте суми лише на тій самій кількості мішеней. Міжнародне змагання з {{tm:sporting}} — це {{fact:basics.international-targets}}, а на багатьох клубних змаганнях мішеней менше. Тож якщо кількість мішеней різна, порівнюйте влучність. Вона дає змогу порівняти різну кількість мішеней, але майданчики, погода й рівень змагань однаково різні, тож це лише приблизний орієнтир."
+    },
+    {
+      "k": "clayarena-profile-numbers-perfect",
+      "t": "p",
+      "en": "A perfect round is a series with no miss. In the FITASC disciplines that means a {{term:round|round}} with all {{fact:rules.round-targets}} broken. The profile counts how many such series a shooter has.",
+      "uk": "Чистий раунд (perfect round) — серія без жодного промаху. У дисциплінах FITASC це {{term:round|раунд}}, у якому розбито всі {{fact:rules.round-targets}}. Профіль рахує, скільки таких серій має стрілець."
+    },
+    {
+      "k": "clayarena-profile-numbers-p4",
+      "t": "p",
+      "en": "{{term:top-10-rate|Top-10 rate}} is the share of competitions where the shooter finished in the top ten, in their {{term:category|category}} or overall. It also depends on who else is shooting: a top-ten place at a big international event is harder to reach than at a {{term:club-shoot|club shoot}}. A small category with only a few shooters makes the top ten easier to reach, too.",
+      "uk": "{{term:top-10-rate|Частка топ-10}} — частка змагань, на яких стрілець фінішував у першій десятці своєї {{term:category|категорії}} або загального заліку. Вона залежить і від рівня суперників: потрапити в десятку на великому міжнародному змаганні складніше, ніж на {{term:club-shoot|клубному}}. А в малій категорії, де лише кілька стрільців, потрапити в десятку легше."
+    },
+    {
+      "k": "clayarena-profile-numbers-p5",
+      "t": "p",
+      "en": "The {{term:performance-index|performance index}} is one number that ClayArena works out from a shooter's results in one discipline. It lets you follow progress over time without reading each results table. It is not an official {{term:fitasc|FITASC}} ranking.",
+      "uk": "{{term:performance-index|Індекс виступів}} — одне число, яке ClayArena обчислює з результатів стрільця в одній дисципліні. За ним зручно стежити, чи ростуть результати з часом, не переглядаючи кожну таблицю. Це не офіційний рейтинг {{term:fitasc|FITASC}}."
+    },
+    {
+      "k": "clayarena-profile-numbers-other",
+      "t": "p",
+      "en": "You may also see other figures and sections, such as the match history, a view by season and a comparison with the winners. Their names may change as the site develops, so read the explanations on the site itself.",
+      "uk": "У профілі можуть бути й інші показники та розділи, наприклад історія виступів, огляд за сезонами чи порівняння з переможцями. Їхні назви можуть змінюватися разом із сайтом, тож читайте пояснення на самому сайті."
+    },
+    {
+      "k": "clayarena-profile-numbers-p6",
+      "t": "p",
+      "en": "Numbers do not tell the whole story. Some {{term:layout|layouts}} (sets of shooting stands and the targets thrown there) are easy and some are hard, and weather can change scores a lot. So the figures from one competition say little; figures over several competitions are more reliable.",
+      "uk": "Цифри не кажуть усього. {{term:layout|Майданчики}} (набори стрілецьких місць і мішеней, які там летять) бувають легкими й складними, а погода може сильно вплинути на результат. Тому цифри одного змагання мало що кажуть; надійніші показники за кілька змагань."
+    },
+    {
+      "k": "clayarena-profile-numbers-p7",
+      "t": "p",
+      "en": "For a beginner, a useful way to read a profile is to compare yourself with yourself: how your accuracy changed over the season. Comparing yourself with strong shooters can be interesting, but it says little about your own progress.",
+      "uk": "Новачкові корисно читати профіль так: порівнювати себе із собою — як змінилася ваша влучність за сезон. Порівнювати себе із сильними стрільцями цікаво, але про ваш власний прогрес це каже мало."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "clayarena-profile-numbers-kp1",
+      "en": "Accuracy is the share of targets broken out of the targets shot.",
+      "uk": "Влучність — частка розбитих мішеней від відстріляних."
+    },
+    {
+      "k": "clayarena-profile-numbers-kp2",
+      "en": "Compare totals only over the same number of targets; otherwise compare accuracy, as a rough guide.",
+      "uk": "Суми порівнюйте лише на тій самій кількості мішеней; інакше порівнюйте влучність як приблизний орієнтир."
+    },
+    {
+      "k": "clayarena-profile-numbers-kp3",
+      "en": "Top-10 rate counts top-ten places in a category or overall, so it depends on how many shooters there were and how strong they were.",
+      "uk": "Частка топ-10 рахує місця в десятці категорії або загального заліку, тож залежить від того, скільки було суперників і наскільки вони сильні."
+    },
+    {
+      "k": "clayarena-profile-numbers-kp4",
+      "en": "The performance index is a ClayArena figure, not a FITASC ranking.",
+      "uk": "Індекс виступів — показник ClayArena, а не рейтинг FITASC."
+    },
+    {
+      "k": "clayarena-profile-numbers-kp5",
+      "en": "Look at how the results change over several competitions.",
+      "uk": "Дивіться, як змінюються результати за кілька змагань."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "clayarena-profile-numbers-q1",
+      "q": {
+        "en": "A shooter broke 150 targets out of 200. What is the accuracy?",
+        "uk": "Стрілець розбив 150 мішеней зі 200. Яка його влучність?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "50%",
+          "uk": "50 %"
+        },
+        {
+          "k": "b",
+          "en": "75%",
+          "uk": "75 %"
+        },
+        {
+          "k": "c",
+          "en": "80%",
+          "uk": "80 %"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "150 ÷ 200 = 0.75, that is 75%.",
+        "uk": "150 : 200 = 0,75, тобто 75 %."
+      }
+    },
+    {
+      "k": "clayarena-profile-numbers-q2",
+      "q": {
+        "en": "What is the performance index in a ClayArena profile?",
+        "uk": "Що таке індекс виступів у профілі ClayArena?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One number worked out by ClayArena",
+          "uk": "Одне число, яке обчислює ClayArena"
+        },
+        {
+          "k": "b",
+          "en": "The official FITASC ranking",
+          "uk": "Офіційний рейтинг FITASC"
+        },
+        {
+          "k": "c",
+          "en": "The number of events in a year",
+          "uk": "Кількість змагань за рік"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "It is a ClayArena figure for following progress, not an official ranking.",
+        "uk": "Це показник ClayArena, щоб стежити за прогресом, а не офіційний рейтинг."
+      }
+    },
+    {
+      "k": "clayarena-profile-numbers-q3",
+      "q": {
+        "en": "Why do the figures from one competition say little?",
+        "uk": "Чому цифри одного змагання мало що кажуть?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They are often calculated wrongly",
+          "uk": "Їх часто рахують неправильно"
+        },
+        {
+          "k": "b",
+          "en": "Nobody can reach the top 10 there",
+          "uk": "Там ніхто не потрапляє в топ-10"
+        },
+        {
+          "k": "c",
+          "en": "Layouts and weather differ a lot",
+          "uk": "Майданчики й погода дуже різні"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "That is why figures over several competitions are more reliable.",
+        "uk": "Тому надійніше дивитися на показники за кілька змагань."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "clayarena-profile-numbers-q4",
+      "q": {
+        "en": "What is a perfect round?",
+        "uk": "Що таке чистий раунд?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A series with no miss",
+          "uk": "Серія без жодного промаху"
+        },
+        {
+          "k": "b",
+          "en": "A round shot within one hour",
+          "uk": "Раунд, відстріляний за годину"
+        },
+        {
+          "k": "c",
+          "en": "A round without any doubles",
+          "uk": "Раунд без жодного дуплета"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A perfect round has no miss. In the FITASC disciplines that is a round with all {{fact:rules.round-targets}} broken.",
+        "uk": "У чистому раунді немає жодного промаху. У дисциплінах FITASC це раунд, у якому розбито всі {{fact:rules.round-targets}}."
+      }
+    },
+    {
+      "k": "clayarena-profile-numbers-q5",
+      "q": {
+        "en": "You shot 90 out of 100 at a club shoot and 180 out of 200 at an international event. What can you compare?",
+        "uk": "Ви вибили 90 зі 100 на клубних змаганнях і 180 зі 200 на міжнародних. Що можна порівняти?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The totals, 90 and 180",
+          "uk": "Суми — 90 і 180"
+        },
+        {
+          "k": "b",
+          "en": "The accuracy: 90% both times",
+          "uk": "Влучність: обидва рази 90 %"
+        },
+        {
+          "k": "c",
+          "en": "Nothing at all",
+          "uk": "Нічого"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "With different numbers of targets, compare the accuracy rather than the totals. Layouts, weather and the level of the event still differ, so treat it as a rough guide.",
+        "uk": "Якщо кількість мішеней різна, порівнюйте влучність, а не суми. Майданчики, погода й рівень змагань однаково різні, тож це лише приблизний орієнтир."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "d549d9a9",
+    "summary": "e0b16add",
+    "clayarena-profile-numbers-p1": "18eea6d7",
+    "clayarena-profile-numbers-p2": "5c0f4cfc",
+    "clayarena-profile-numbers-p3": "802a0097",
+    "clayarena-profile-numbers-perfect": "fba5db32",
+    "clayarena-profile-numbers-p4": "b0604525",
+    "clayarena-profile-numbers-p5": "3e6b5e8e",
+    "clayarena-profile-numbers-other": "e4de96f4",
+    "clayarena-profile-numbers-p6": "935cbc72",
+    "clayarena-profile-numbers-p7": "e5d7ead9",
+    "clayarena-profile-numbers-kp1": "dab00454",
+    "clayarena-profile-numbers-kp2": "89d19953",
+    "clayarena-profile-numbers-kp3": "77da1959",
+    "clayarena-profile-numbers-kp4": "e43f7167",
+    "clayarena-profile-numbers-kp5": "c259b16c",
+    "clayarena-profile-numbers-q1": "4205296d",
+    "clayarena-profile-numbers-q2": "bb1798ca",
+    "clayarena-profile-numbers-q3": "e7e1f5a8",
+    "clayarena-profile-numbers-q4": "c2744161",
+    "clayarena-profile-numbers-q5": "86ab8658"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

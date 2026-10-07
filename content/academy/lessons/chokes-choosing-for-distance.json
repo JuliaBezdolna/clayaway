@@ -1,0 +1,360 @@
+{
+  "id": "chokes-choosing-for-distance",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "chokes-choosing-for-distance"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "choke",
+    "pattern",
+    "cylinder",
+    "skeet-choke",
+    "improved-cylinder",
+    "light-modified",
+    "modified",
+    "improved-modified",
+    "full-choke",
+    "mini",
+    "battue",
+    "rabbit",
+    "fly-over-zone",
+    "hunting-ethics",
+    "squad"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-trajectories-ethics"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-terrain"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun-change"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Which choke for which distance",
+    "uk": "Який чок для якої відстані"
+  },
+  "summary": {
+    "en": "A rough guide to chokes for close, medium and far targets in {{tm:sporting}} and {{tm:compak}}, plus advice for beginners.",
+    "uk": "Орієнтир, які чоки брати для близьких, середніх і далеких мішеней у {{tm:sporting}} і {{tm:compak}}, і порада для новачка."
+  },
+  "body": [
+    {
+      "k": "chokes-choosing-for-distance-p1",
+      "t": "p",
+      "en": "Distance to the target is the main factor in choosing a {{term:choke|choke}}. The two disciplines set their distances in different ways.",
+      "uk": "Відстань до мішені — головне, від чого залежить вибір {{term:choke|чока}}. Дві дисципліни задають відстані по-різному."
+    },
+    {
+      "k": "chokes-choosing-for-distance-cmp1",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "Targets imitate hunting shots, so they are set at distances where a hunter could cleanly shoot a bird. They are not so close that the meat would be ruined, and not so far that the bird would only be wounded. The rules call this {{term:hunting-ethics|hunting ethics}}.",
+        "uk": "Мішені імітують мисливські постріли, тож їх задають на відстанях, з яких мисливець міг би чисто взяти птаха. Не так близько, щоб дичину розірвало, і не так далеко, щоб її лише поранили. У правилах це називають {{term:hunting-ethics|мисливською етикою}}."
+      },
+      "compak": {
+        "en": "Targets fly over a marked {{term:fly-over-zone|rectangle}} 35–40 m wide and 25 m deep in front of the shooting positions.",
+        "uk": "Мішені пролітають над позначеним {{term:fly-over-zone|прямокутником}} 35–40 м завширшки і 25 м завглибшки перед номерами."
+      }
+    },
+    {
+      "k": "chokes-choosing-for-distance-p2",
+      "t": "steps",
+      "en": [
+        "Up to about 20 m: cylinder or skeet.",
+        "About 20–30 m: improved cylinder (1/4) or light modified.",
+        "About 30–35 m: modified (1/2).",
+        "Beyond about 35 m: improved modified (3/4), and occasionally full."
+      ],
+      "uk": [
+        "Приблизно до 20 м: {{term:cylinder|циліндр}} або {{term:skeet-choke|скіт}}.",
+        "Приблизно 20–30 м: {{term:improved-cylinder|1/4}} (improved cylinder) або light modified.",
+        "Приблизно 30–35 м: {{term:modified|півчок}} (1/2, modified).",
+        "Далі ніж приблизно 35 м: {{term:improved-modified|3/4}} (improved modified), а зрідка й {{term:full-choke|повний чок}}."
+      ]
+    },
+    {
+      "k": "chokes-choosing-for-distance-p7",
+      "t": "p",
+      "en": "This is a rough guide that many coaches use for lead shot No. 7½–9. It is not a rule: coaches and experienced shooters have their own preferences.",
+      "uk": "Це приблизний орієнтир, яким користуються багато тренерів, для свинцевого дробу № 7½–9. Це не правило: тренери й досвідчені стрільці мають власні вподобання."
+    },
+    {
+      "k": "chokes-choosing-for-distance-p3",
+      "t": "tip",
+      "en": "Judging distance is hard for a beginner. Look at where you are likely to shoot the target, not where it comes from. Ask your coach or an experienced shooter in your {{term:squad|squad}}: on a shooting ground that is an ordinary question.",
+      "uk": "Оцінювати відстань новачкові важко. Дивіться, де ви, найімовірніше, вистрілите, а не звідки вилітає мішень. Запитайте тренера або досвідченого стрільця з вашої {{term:squad|групи}}: на стенді це звичайне питання."
+    },
+    {
+      "k": "chokes-choosing-for-distance-p4",
+      "t": "p",
+      "en": "The type of target matters too. A {{term:mini|mini}} is small, so it needs a denser pattern. A {{term:battue|battue}} is a thin, flat target that often flies edge-on, so you see only its thin side. It is easier to break when it turns and shows its flat face. A {{term:rabbit|rabbit}} rolls along the ground and is tougher than a standard target.",
+      "uk": "Важить і тип мішені. Мішень {{term:mini|міні}} маленька, тому потрібен щільніший осип. Тонка плоска {{term:battue|батю}} часто летить ребром; її легше розбити, коли вона повертається й показує площину. {{term:rabbit|Кролик}} (rabbit) котиться по землі й міцніший за стандартну мішень."
+    },
+    {
+      "k": "chokes-choosing-for-distance-p5",
+      "t": "p",
+      "en": "In an over-and-under the more open choke usually goes in the barrel that fires first, and the tighter one in the second. A 1/4 and 1/2 pair (IC and M) is a popular all-round choice for many {{tm:sporting}} stands and for a whole {{tm:compak}} round, where chokes may not be changed.",
+      "uk": "У вертикалці відкритіший чок зазвичай ставлять у ствол, який стріляє першим, а щільніший — у другий. Пара 1/4 і 1/2 (IC і M) — популярний універсальний вибір для багатьох стрілецьких місць {{tm:sporting}} і для всього раунду {{tm:compak}}, де міняти чоки не можна."
+    },
+    {
+      "k": "chokes-choosing-for-distance-p6",
+      "t": "tip",
+      "en": "Advice for beginners: do not overdo tight chokes. On the close and medium targets that beginners shoot most, a more open choke forgives small pointing errors and builds confidence. Once your technique is more consistent, you can experiment.",
+      "uk": "Порада для новачка: не захоплюйтеся щільними чоками. На близьких і середніх мішенях, які новачки стріляють найчастіше, відкритіший чок пробачає дрібні помилки наведення й додає впевненості. Коли техніка стане стабільнішою, можна експериментувати."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "chokes-choosing-for-distance-kp1",
+      "en": "Choose the choke for the distance at which you will shoot.",
+      "uk": "Чок обирають за відстанню, на якій ви вистрілите."
+    },
+    {
+      "k": "chokes-choosing-for-distance-kp2",
+      "en": "A rough guide: up to 20 m cylinder or skeet, 20–30 m IC or LM, 30–35 m M, beyond 35 m IM.",
+      "uk": "Орієнтир: до 20 м — циліндр чи скіт, 20–30 м — IC чи LM, 30–35 м — M, понад 35 м — IM."
+    },
+    {
+      "k": "chokes-choosing-for-distance-kp3",
+      "en": "More open choke for the first shot, tighter for the second.",
+      "uk": "Відкритіший чок — для першого пострілу, щільніший — для другого."
+    },
+    {
+      "k": "chokes-choosing-for-distance-kp4",
+      "en": "An IC and M pair is a popular all-round choice.",
+      "uk": "Пара IC і M — популярний універсальний вибір."
+    },
+    {
+      "k": "chokes-choosing-for-distance-kp5",
+      "en": "Beginners usually do better with more open chokes on close and medium targets.",
+      "uk": "Новачкам на близьких і середніх мішенях зазвичай краще підходять відкритіші чоки."
+    }
+  ],
+  "did_you_know": {
+    "k": "chokes-choosing-for-distance-dyk",
+    "en": "Many experienced {{tm:sporting}} shooters use fairly open chokes even for far targets. They rely on precise pointing rather than on a tight pattern.",
+    "uk": "Чимало досвідчених стрільців у {{tm:sporting}} користуються досить відкритими чоками навіть для далеких мішеней. Вони покладаються на точне наведення, а не на щільний осип."
+  },
+  "quiz": [
+    {
+      "k": "chokes-choosing-for-distance-q1",
+      "q": {
+        "en": "Which choke roughly suits a target at about 30–35 m?",
+        "uk": "Який чок орієнтовно пасує мішені приблизно на 30–35 м?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Cylinder",
+          "uk": "Циліндр"
+        },
+        {
+          "k": "b",
+          "en": "Skeet",
+          "uk": "Скіт"
+        },
+        {
+          "k": "c",
+          "en": "Modified (1/2)",
+          "uk": "Півчок (1/2)"
+        },
+        {
+          "k": "d",
+          "en": "Extra full",
+          "uk": "Extra full"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "At 30–35 m modified is the usual choice, but this is only a guide.",
+        "uk": "На 30–35 м зазвичай обирають півчок (modified), але це лише орієнтир."
+      }
+    },
+    {
+      "k": "chokes-choosing-for-distance-q2",
+      "q": {
+        "en": "Which barrel of an over-and-under usually gets the more open choke?",
+        "uk": "У який ствол вертикалки зазвичай ставлять відкритіший чок?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The one that fires first",
+          "uk": "У той, що стріляє першим"
+        },
+        {
+          "k": "b",
+          "en": "The one that fires second",
+          "uk": "У той, що стріляє другим"
+        },
+        {
+          "k": "c",
+          "en": "The same one in both barrels",
+          "uk": "Однаковий в обидва стволи"
+        },
+        {
+          "k": "d",
+          "en": "The rules do not allow it",
+          "uk": "Правила цього не дозволяють"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The first shot is usually the closer one, so the first barrel gets the more open choke.",
+        "uk": "Перший постріл зазвичай ближчий, тож у перший ствол ставлять відкритіший чок."
+      }
+    },
+    {
+      "k": "chokes-choosing-for-distance-q3",
+      "q": {
+        "en": "Why are beginners advised not to overdo tight chokes?",
+        "uk": "Чому новачкам радять не захоплюватися щільними чоками?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Tight chokes are banned for beginners",
+          "uk": "Щільні чоки заборонені для новачків"
+        },
+        {
+          "k": "b",
+          "en": "A narrow pattern forgives fewer errors",
+          "uk": "Вузький осип пробачає менше помилок"
+        },
+        {
+          "k": "c",
+          "en": "They make the recoil much harder",
+          "uk": "Вони роблять віддачу значно сильнішою"
+        },
+        {
+          "k": "d",
+          "en": "They wear out the barrel faster",
+          "uk": "Вони швидше зношують ствол"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A narrow pattern needs precise pointing; on close and medium targets a more open choke forgives more.",
+        "uk": "Вузький осип вимагає точного наведення; на близьких і середніх мішенях відкритіший чок пробачає більше."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "chokes-choosing-for-distance-q4",
+      "disc": "compak",
+      "q": {
+        "en": "Why do many {{tm:compak}} shooters keep one all-round pair of chokes for the round?",
+        "uk": "Чому багато стрільців у {{tm:compak}} тримають на весь раунд одну універсальну пару чоків?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "All the targets fly at the same distance",
+          "uk": "Усі мішені летять на однаковій відстані"
+        },
+        {
+          "k": "b",
+          "en": "Tight chokes are banned in {{tm:compak}}",
+          "uk": "Щільні чоки в {{tm:compak}} заборонені"
+        },
+        {
+          "k": "c",
+          "en": "The referee chooses the chokes for them",
+          "uk": "Чоки за них обирає суддя"
+        },
+        {
+          "k": "d",
+          "en": "Chokes may not be changed within a round",
+          "uk": "Чоки не можна міняти в межах раунду"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "In {{tm:compak}} chokes are changed only between rounds, so the pair must handle all the targets of the round.",
+        "uk": "У {{tm:compak}} чоки міняють лише між раундами, тож пара має впоратися з усіма мішенями раунду."
+      },
+      "rule_ref": "compak:ch18-gun-change"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "899ed9f0",
+    "summary": "2433ecf5",
+    "chokes-choosing-for-distance-p1": "18c7faa3",
+    "chokes-choosing-for-distance-cmp1": "ed251d47",
+    "chokes-choosing-for-distance-p2": "0b25f4b2",
+    "chokes-choosing-for-distance-p7": "bfeb8f32",
+    "chokes-choosing-for-distance-p3": "8cd85c18",
+    "chokes-choosing-for-distance-p4": "1bec6b23",
+    "chokes-choosing-for-distance-p5": "c2793354",
+    "chokes-choosing-for-distance-p6": "3a797ad0",
+    "chokes-choosing-for-distance-kp1": "85a0aef4",
+    "chokes-choosing-for-distance-kp2": "7ef1ef53",
+    "chokes-choosing-for-distance-kp3": "316eb7bc",
+    "chokes-choosing-for-distance-kp4": "a668cfcb",
+    "chokes-choosing-for-distance-kp5": "42fc8973",
+    "chokes-choosing-for-distance-dyk": "6d4e4236",
+    "chokes-choosing-for-distance-q1": "5f3c346d",
+    "chokes-choosing-for-distance-q2": "fa23b5d9",
+    "chokes-choosing-for-distance-q3": "a8a0d8ea",
+    "chokes-choosing-for-distance-q4": "ae2aa937"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

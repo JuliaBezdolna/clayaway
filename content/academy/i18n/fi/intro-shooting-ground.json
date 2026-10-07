@@ -1,0 +1,86 @@
+{
+  "id": "intro-shooting-ground",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "b20666cd",
+    "summary": "6bd14e2a",
+    "intro-shooting-ground-p1": "5342d490",
+    "intro-shooting-ground-p2": "9e155a13",
+    "intro-shooting-ground-p3": "527179db",
+    "intro-shooting-ground-p4": "62bf704a",
+    "intro-shooting-ground-p5": "088fa7b4",
+    "intro-shooting-ground-p6": "4b44ec73",
+    "intro-shooting-ground-kp1": "9781dc63",
+    "intro-shooting-ground-kp2": "d96d7209",
+    "intro-shooting-ground-kp3": "a4b0be72",
+    "intro-shooting-ground-kp4": "f581af87",
+    "intro-shooting-ground-dyk": "91d2d74b",
+    "intro-shooting-ground-q1": "f5876e96",
+    "intro-shooting-ground-q2": "e656c81f",
+    "intro-shooting-ground-q3": "9394e7e4",
+    "intro-shooting-ground-q-fal": "4b082e3b"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Miltä ampumarata näyttää",
+  "summary": "Seuratalo, {{tm:sporting}}-rataosuudet, {{tm:compak}}-kenttä ja heittimet: mitä näet ensimmäisellä käynnilläsi.",
+  "body": {
+    "intro-shooting-ground-p1": "{{term:range|Ampumaradalla}} (shooting ground), jota arkikielessä kutsutaan usein vain ”radaksi”, on tavallisesti seuratalo ilmoittautumispisteineen, kahvila ja {{term:gun-rack|asetelineet}}, harjoituskenttiä ja kilpailuissa käytettäviä ratoja.",
+    "intro-shooting-ground-p2": "{{tm:sporting}}-lajissa alue on jaettu {{term:layout|rataosuuksiin}} (layout): {{term:shooting-stand|ampumapaikkojen}} ryhmiin, joista ammutaan yksi kierros, {{fact:rules.round-targets}}. Heittimet on usein piilotettu pensaiden taakse tai ojiin, tai asetettu torneihin. Kiekot lentävät silloin niin kuin riista (linnut ja jänikset, joita metsästäjät ampuvat): pellon yli, puiden takaa, veden yli. Miten rataosuus ja kierros toimivat: {{lesson:targets-sporting-layout}}.",
+    "intro-shooting-ground-p3": "{{tm:sporting}}-ampumapaikka on {{fact:basics.sporting-stand-size}}. Sen pitäisi olla mahdollisuuksien mukaan tasainen, eikä se saa olla liukas, koska tämä on turvallisuuskysymys. Paikan edessä on {{term:target-menu|kiekkoluettelo}} (target menu): se luettelee heittimet ampumisjärjestyksessä ja mahdolliset erikoiskiekot.",
+    "intro-shooting-ground-p4": "{{tm:compak}} järjestetään yhdellä kentällä, jossa on {{fact:basics.compak-field}}. Joka ampumapaikka on 1 × 1 m, ja vierekkäisten paikkojen keskipisteiden väli on 2–5 m. Heittimet voivat olla paikkojen edessä tai sivussa; paikkojen takana oleva heitin on {{term:tower|tornissa}}, joka on vähintään 4 m korkea. Joka paikassa on {{term:firing-angle-limiter|ampumakulman rajoitin}} (FAL), kehikko, joka estää aseen suuntaamisen vaaralliseen suuntaan. Lisää: {{lesson:targets-compak-layout}}.",
+    "intro-shooting-ground-p5": "Kiekkoja on useita tyyppejä: {{term:standard-target|tavallinen}}, {{term:midi|midi}}, {{term:mini|mini}} (kutsutaan myös super miniksi), {{term:battue|battue}} (ohut ja litteä), {{term:rabbit|jäniskiekko}} (vierii pitkin maata) ja {{term:flash-target|pölykiekko}} (flash). Pölykiekko jättää osuessaan kirkkaan pölypilven. Väri valitaan niin, että kiekko erottuu taivasta tai puita vasten.",
+    "intro-shooting-ground-p6": "Ensimmäisellä käynnilläsi katso kylttejä ja merkintöjä: missä saa kävellä, missä katsojat seisovat ja missä ampuminen on sallittua. Jokaisella radalla on omat sääntönsä, joten kysy niitä ennen ensimmäistä laukaustasi. Perusturvallisuustavat löytyvät oppitunnilta {{lesson:safety-core-rules}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-shooting-ground-kp1": "{{tm:sporting}}-rataosuus on ampumapaikkojen ryhmä luonnonmaastossa.",
+    "intro-shooting-ground-kp2": "{{tm:sporting}}-ampumapaikka on {{fact:basics.sporting-stand-size}}, tasainen ja liukumaton.",
+    "intro-shooting-ground-kp3": "{{tm:compak}}: yksi kenttä, jossa on {{fact:basics.compak-field}}, ja ampumakulman rajoitin joka paikassa.",
+    "intro-shooting-ground-kp4": "Lue kiekkoluettelo joka paikassa ja opi radan säännöt ennen ampumista."
+  },
+  "did_you_know": "Pölykiekossa on kirkasta pölyä, joten osuma näkyy kaukaa asti. Katsojat pitävät siitä kovasti.",
+  "quiz": {
+    "intro-shooting-ground-q1": {
+      "q": "Minkä kokoinen {{tm:sporting}}-ampumapaikka on?",
+      "options": {
+        "a": "Neliö 1 × 1 m tai ympyrä, halkaisija 1 m",
+        "b": "Neliö 3 × 3 m aidalla",
+        "c": "Minkä kokoinen tahansa, seura päättää"
+      },
+      "explain": "Säännöt määrittävät koon: {{fact:basics.sporting-stand-size}}."
+    },
+    "intro-shooting-ground-q2": {
+      "q": "Mitä kiekkoluettelo (target menu) näyttää?",
+      "options": {
+        "a": "Kahvilan hinnat",
+        "b": "Heittimet ampumisjärjestyksessä",
+        "c": "Erän tulokset"
+      },
+      "explain": "Paikan edessä oleva luettelo kertoo heittimet ampumisjärjestyksessä ja mahdolliset erikoiskiekot."
+    },
+    "intro-shooting-ground-q3": {
+      "q": "Mikä kiekko vierii pitkin maata?",
+      "options": {
+        "a": "Battue",
+        "b": "Midi",
+        "c": "Jäniskiekko (rabbit)"
+      },
+      "explain": "Jäniskiekko vierii pitkin maata ja pomppii epätasaisuuksien yli."
+    },
+    "intro-shooting-ground-q-fal": {
+      "q": "Mihin kehikko joka {{tm:compak}}-paikassa on tarkoitettu?",
+      "options": {
+        "a": "Siinä roikkuu kiekkoluettelo",
+        "b": "Se rajoittaa aseen liikettä",
+        "c": "Se merkitsee katsojien paikan"
+      },
+      "explain": "Ampumakulman rajoitin estää aseen suuntaamisen vaaralliseen suuntaan ja pitää ampujan paikan sisällä."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "intro-shooting-ground",
+ "lang": "de",
+ "base_rev": 1,
+ "h": {
+  "title": "b20666cd",
+  "summary": "6bd14e2a",
+  "intro-shooting-ground-p1": "5342d490",
+  "intro-shooting-ground-p2": "9e155a13",
+  "intro-shooting-ground-p3": "527179db",
+  "intro-shooting-ground-p4": "62bf704a",
+  "intro-shooting-ground-p5": "088fa7b4",
+  "intro-shooting-ground-p6": "4b44ec73",
+  "intro-shooting-ground-kp1": "9781dc63",
+  "intro-shooting-ground-kp2": "d96d7209",
+  "intro-shooting-ground-kp3": "a4b0be72",
+  "intro-shooting-ground-kp4": "f581af87",
+  "intro-shooting-ground-dyk": "91d2d74b",
+  "intro-shooting-ground-q1": "f5876e96",
+  "intro-shooting-ground-q2": "e656c81f",
+  "intro-shooting-ground-q3": "9394e7e4",
+  "intro-shooting-ground-q-fal": "4b082e3b"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Wie ein Schießstand aussieht",
+ "summary": "Das Vereinshaus, die {{tm:sporting}}-Layouts, das {{tm:compak}}-Feld und die Wurfmaschinen: was Sie bei Ihrem ersten Besuch sehen werden.",
+ "body": {
+  "intro-shooting-ground-p1": "Ein {{term:range|Schießstand}}, oft einfach „das Gelände“ genannt, hat meist ein Vereinshaus mit Anmeldung, ein Café und {{term:gun-rack|Gewehrständer}}, Übungsfelder und die für Wettkämpfe genutzten Parcours.",
+  "intro-shooting-ground-p2": "Für {{tm:sporting}} ist das Gelände in {{term:layout|Layouts}} eingeteilt: Gruppen von {{term:shooting-stand|Standplätzen}}, von denen aus eine Runde mit {{fact:rules.round-targets}} geschossen wird. Die Wurfmaschinen sind oft hinter Büschen oder in Gräben versteckt oder auf Türmen aufgestellt. Die Scheiben fliegen dann so, wie es Wild (die Vögel und Hasen, auf die Jäger schießen) täte: über ein Feld, aus Bäumen heraus, über Wasser. Wie ein Layout und eine Runde funktionieren: {{lesson:targets-sporting-layout}}.",
+  "intro-shooting-ground-p3": "Ein {{tm:sporting}}-Standplatz ist {{fact:basics.sporting-stand-size}}. Er sollte möglichst eben sein und darf nicht rutschig sein, denn das ist eine Sicherheitsfrage. Vor dem Standplatz finden Sie das {{term:target-menu|Wurfschema}}: Es listet die Wurfmaschinen in der Schussreihenfolge und nennt besondere Scheiben.",
+  "intro-shooting-ground-p4": "{{tm:compak}} wird auf einem Feld aufgebaut, mit {{fact:basics.compak-field}}. Jeder Standplatz ist 1 × 1 m groß, mit 2–5 m zwischen den Mittelpunkten benachbarter Standplätze. Wurfmaschinen können vor oder neben den Standplätzen stehen; eine Wurfmaschine hinter ihnen steht auf einem mindestens 4 m hohen {{term:tower|Turm}}. Jeder Standplatz hat einen {{term:firing-angle-limiter|Schusswinkelbegrenzer}}, einen Rahmen, der verhindert, dass die Flinte in eine unsichere Richtung schwenkt. Mehr dazu: {{lesson:targets-compak-layout}}.",
+  "intro-shooting-ground-p5": "Scheiben gibt es in mehreren Arten: {{term:standard-target|Standard}}, {{term:midi|Midi}}, {{term:mini|Mini}} (auch Super Mini genannt), {{term:battue|Battue}} (dünn und flach), {{term:rabbit|Rollhase}} (er rollt über den Boden) und {{term:flash-target|Flash}}. Eine Flashscheibe hinterlässt bei einem Treffer eine helle Pulverwolke. Die Farbe wird so gewählt, dass sich die Scheibe gut vom Himmel oder den Bäumen abhebt.",
+  "intro-shooting-ground-p6": "Achten Sie bei Ihrem ersten Besuch auf Schilder und Markierungen: wo Sie gehen dürfen, wo Zuschauer stehen und wo geschossen werden darf. Jeder Schießstand hat eigene Regeln, fragen Sie also vor Ihrem ersten Schuss danach. Die grundlegenden Sicherheitsgewohnheiten stehen in {{lesson:safety-core-rules}}."
+ },
+ "note": {},
+ "phrases": {},
+ "key_points": {
+  "intro-shooting-ground-kp1": "Ein {{tm:sporting}}-Layout ist eine Gruppe von Standplätzen im natürlichen Gelände.",
+  "intro-shooting-ground-kp2": "Ein {{tm:sporting}}-Standplatz ist {{fact:basics.sporting-stand-size}}, eben und nicht rutschig.",
+  "intro-shooting-ground-kp3": "{{tm:compak}}: ein Feld mit {{fact:basics.compak-field}} und einem Schusswinkelbegrenzer an jedem Standplatz.",
+  "intro-shooting-ground-kp4": "Lesen Sie das Wurfschema an jedem Standplatz, und lernen Sie die Platzregeln, bevor Sie schießen."
+ },
+ "did_you_know": "Eine Flashscheibe enthält helles Pulver, sodass ein Treffer selbst aus der Ferne zu sehen ist. Zuschauer lieben das.",
+ "quiz": {
+  "intro-shooting-ground-q1": {
+   "q": "Wie groß ist ein {{tm:sporting}}-Standplatz?",
+   "options": {
+    "a": "Ein Quadrat von 1 m oder ein Kreis von 1 m",
+    "b": "Ein Quadrat von 3 m mit einem Zaun",
+    "c": "Jede Größe, die der Verein möchte"
+   },
+   "explain": "Die Regeln legen {{fact:basics.sporting-stand-size}} fest."
+  },
+  "intro-shooting-ground-q2": {
+   "q": "Was zeigt das Wurfschema?",
+   "options": {
+    "a": "Die Preise im Café",
+    "b": "Die Wurfmaschinen in der Schussreihenfolge",
+    "c": "Die Ergebnisse der Gruppe"
+   },
+   "explain": "Das Schema vor dem Standplatz listet die Wurfmaschinen in der Schussreihenfolge und nennt besondere Scheiben."
+  },
+  "intro-shooting-ground-q3": {
+   "q": "Welche Scheibe rollt über den Boden?",
+   "options": {
+    "a": "Battue",
+    "b": "Midi",
+    "c": "Rollhase"
+   },
+   "explain": "Der Rollhase rollt über den Boden und springt über Unebenheiten."
+  },
+  "intro-shooting-ground-q-fal": {
+   "q": "Wofür ist der Rahmen an jedem {{tm:compak}}-Standplatz da?",
+   "options": {
+    "a": "Er hält das Wurfschema",
+    "b": "Er begrenzt den Schwenk der Flinte",
+    "c": "Er markiert, wo Zuschauer stehen"
+   },
+   "explain": "Der Schusswinkelbegrenzer verhindert, dass die Flinte in eine unsichere Richtung zeigt, und hält den Schützen innerhalb des Standplatzes."
+  }
+ }
+}

@@ -1,0 +1,450 @@
+{
+  "id": "watching-at-the-ground",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "parent",
+    "organiser",
+    "fan"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "watching-at-the-ground",
+      "safety-spectators",
+      "culture-spectator-photo"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "hearing-protection",
+    "safety-glasses",
+    "shooting-cap",
+    "trap",
+    "organiser",
+    "referee",
+    "coaching",
+    "yellow-card",
+    "attempt-to-influence",
+    "squad",
+    "layout"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "sporting",
+      "id": "ch11-influence"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch22-influence"
+    }
+  ],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "A spectator at the ground: where to stand, how to photograph and support",
+    "uk": "Глядач на стенді: де стояти, як фотографувати й підтримувати"
+  },
+  "summary": {
+    "en": "A safe place, silence while shooting, hearing protection, photos without flash and the right kind of support: what a spectator needs to know.",
+    "uk": "Безпечне місце, тиша під час стрільби, захист слуху, фото без спалаху й правильна підтримка — що потрібно знати глядачеві."
+  },
+  "body": [
+    {
+      "k": "watching-at-the-ground-p1",
+      "t": "warn",
+      "anchor": "safety-spectators",
+      "en": "Spectators are welcome at many shooting grounds, but people are shooting nearby, so spectators follow safety rules too. Stand only where it is allowed: in the spectator area, usually behind the stand or behind a fence or rope. Do not step in front of the firing line (the line the shooters stand on) or walk where targets fly, even if nobody seems to be shooting.",
+      "uk": "Глядачам раді на багатьох стендах, але поруч стріляють, тож глядачі теж дотримуються правил безпеки. Стійте лише там, де дозволено: у зоні для глядачів, зазвичай позаду стрілецького місця, за огорожею чи мотузкою. Не виходьте вперед за лінію стрільби (лінію, на якій стоять стрільці) і не ходіть там, де летять мішені, навіть якщо здається, що ніхто не стріляє."
+    },
+    {
+      "k": "safety-spectators-p6",
+      "t": "tip",
+      "en": "If you are not sure where to stand, ask the referee or the {{term:organiser|organiser}}. If you bring children or a dog, keep them close, and follow the ground staff’s instructions: they are there for your safety.",
+      "uk": "Якщо не знаєте, де можна стояти, запитайте суддю або {{term:organiser|організатора}}. Якщо прийшли з дітьми чи собакою, тримайте їх поруч і слухайтеся персоналу стенду: їхні вказівки — для вашої безпеки."
+    },
+    {
+      "k": "watching-at-the-ground-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "Everyone near a {{term:layout|layout}} (the shooting area with its stands and traps) needs {{term:hearing-protection|hearing protection}}, not only the shooters. The rules of {{tm:sporting}} and {{tm:compak}} both name spectators. In {{tm:sporting}}, children outside the clubhouse wear it at all times.",
+      "uk": "Усім біля {{term:layout|майданчика}} (стрілецької зони з її стрілецькими місцями й машинками) потрібен {{term:hearing-protection|захист слуху}}, а не лише стрільцям. Правила і {{tm:sporting}}, і {{tm:compak}} прямо називають глядачів. У {{tm:sporting}} діти поза клубним будинком носять його завжди."
+    },
+    {
+      "k": "safety-spectators-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "If you stand close to a stand, wear {{term:safety-glasses|safety glasses}} too; in {{tm:sporting}} the rules require them for anyone close to a stand. Small target fragments sometimes fall from above, so a {{term:shooting-cap|cap}} also helps.",
+      "uk": "Якщо стоїте близько до стрілецького місця, вдягніть і {{term:safety-glasses|стрілецькі окуляри}}; у {{tm:sporting}} правила вимагають їх від усіх, хто стоїть біля стрілецького місця. Дрібні уламки мішеней інколи падають згори, тож допоможе й {{term:shooting-cap|кепка}}."
+    },
+    {
+      "k": "safety-spectators-p4",
+      "t": "warn",
+      "en": "Do not touch guns, cartridges or equipment. Keep away from the {{term:trap|traps}} (the machines that throw the clays): they can go off unexpectedly and hit hard.",
+      "uk": "Не торкайтеся рушниць, набоїв і обладнання. Не підходьте до {{term:trap|машинок}} (пристроїв, що запускають мішені): вони можуть спрацювати несподівано й сильно вдарити."
+    },
+    {
+      "k": "watching-at-the-ground-p3",
+      "t": "p",
+      "en": "While a shooter is on the stand, keep quiet: no loud talk, clapping or shouting, and put your phone on silent. Applaud when the shooter has finished the stand or the round and nobody on the layout is about to call for a target.",
+      "uk": "Поки стрілець на стрілецькому місці, поводьтеся тихо: без гучних розмов, оплесків і викриків, а телефон перемкніть на беззвучний режим. Аплодуйте, коли стрілець закінчив стрілецьке місце чи раунд і ніхто на майданчику не збирається подавати команду на мішень."
+    },
+    {
+      "k": "culture-spectator-photo-p3",
+      "t": "p",
+      "anchor": "culture-spectator-photo",
+      "en": "Photos and videos are a lovely way to keep memories, but safety matters more than the picture. Shoot only from the spectator area, and do not step forward for a better angle. Do not use flash, which can dazzle the shooter, and turn off the shutter sound.",
+      "uk": "Фото й відео — чудовий спосіб зберегти спогади, але безпека важливіша за кадр. Знімайте лише із зони для глядачів і не виходьте вперед заради кращого ракурсу. Не вмикайте спалах, бо він може засліпити стрільця, і вимкніть звук затвора."
+    },
+    {
+      "k": "culture-spectator-photo-p4",
+      "t": "p",
+      "en": "Do not move in the shooter’s line of sight while they are aiming. A drone needs the organiser’s permission, and the drone rules of the country always apply.",
+      "uk": "Не рухайтеся в полі зору стрільця, поки він цілиться. Для дрона потрібен дозвіл організатора, а правила країни щодо дронів діють завжди."
+    },
+    {
+      "k": "culture-spectator-photo-p5",
+      "t": "p",
+      "en": "Respect privacy. Before you post photos of people, especially children, ask for their consent or their parents’. Some competitions have the organiser’s own rules on filming, so check them in advance.",
+      "uk": "Поважайте приватність. Перш ніж публікувати фото людей, особливо дітей, запитайте їхньої згоди або згоди батьків. На деяких змаганнях діють правила організатора щодо зйомки, тож дізнайтеся їх заздалегідь."
+    },
+    {
+      "k": "watching-at-the-ground-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "How can you support your shooter? Do not give advice during the competition: the rules treat it as {{term:coaching|coaching}}. The shooter can get a {{term:yellow-card|yellow card}}, and the referee sends the adviser out of the shooting area. Do not comment on the referee’s decisions either. In {{tm:compak}} the rules count open criticism of a decision by a spectator as an {{term:attempt-to-influence|attempt to influence}} the referee. In {{tm:sporting}} that rule names the other shooters, but spectators are expected to keep quiet too: the referee keeps order on the stand.",
+      "uk": "Як підтримати свого стрільця? Не давайте порад під час змагання: правила вважають це {{term:coaching|підказками}} (coaching). Стрілець може отримати {{term:yellow-card|жовту картку}}, а порадника суддя виведе із зони стрільби. Не коментуйте й рішень судді. У {{tm:compak}} правила вважають відкриту критику рішення з боку глядача {{term:attempt-to-influence|спробою вплинути на суддю}}. У {{tm:sporting}} це правило називає інших стрільців, але й від глядачів чекають тиші: порядок на стрілецькому місці підтримує суддя."
+    },
+    {
+      "k": "watching-at-the-ground-p6",
+      "t": "p",
+      "en": "Good support is calm. Bring water, help carry things, smile after the round and talk about the score later, once emotions have settled. A calm spectator makes the day easier for the shooter and the whole {{term:squad|squad}}.",
+      "uk": "Добра підтримка — це спокій. Принесіть воду, допоможіть донести речі, усміхніться після раунду й поговоріть про результат пізніше, коли емоції вщухнуть. Спокійний глядач робить день легшим і для стрільця, і для всієї {{term:squad|групи}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "safety-spectators-kp1",
+      "en": "Stand only in the spectator area, not in front of the firing line",
+      "uk": "Стійте лише в зоні для глядачів, а не перед лінією стрільби",
+      "checklist": true
+    },
+    {
+      "k": "safety-spectators-kp2",
+      "en": "Hearing protection for spectators too; glasses if you stand close",
+      "uk": "Захист слуху — і для глядачів; окуляри — якщо стоїте близько",
+      "checklist": true
+    },
+    {
+      "k": "culture-spectator-photo-kp1",
+      "en": "Quiet during shooting; applause when the shooter has finished",
+      "uk": "Тиша під час стрільби; оплески — коли стрілець закінчив",
+      "checklist": true
+    },
+    {
+      "k": "culture-spectator-photo-kp3",
+      "en": "Photos from the spectator area, with no flash and no shutter sound",
+      "uk": "Фото — із зони для глядачів, без спалаху й без звуку затвора"
+    },
+    {
+      "k": "watching-at-the-ground-kp5",
+      "en": "No advice during the competition and no criticism of the referee",
+      "uk": "Жодних порад під час змагання і жодної критики судді",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "culture-spectator-photo-dyk",
+    "en": "Many striking clay shooting photos are taken from the side and slightly behind the shooter, inside the spectator area: they show both the gun and the breaking target.",
+    "uk": "Чимало вдалих фото стендової стрільби знімають збоку й трохи позаду стрільця, не виходячи із зони для глядачів: так видно і рушницю, і мішень, що розлітається."
+  },
+  "quiz": [
+    {
+      "k": "watching-at-the-ground-q1",
+      "q": {
+        "en": "Does a spectator need hearing protection?",
+        "uk": "Чи потрібен глядачеві захист слуху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, only the people who are shooting",
+          "uk": "Ні, лише тим, хто стріляє"
+        },
+        {
+          "k": "b",
+          "en": "Yes, the rules require it near the layout",
+          "uk": "Так, правила вимагають його біля майданчика"
+        },
+        {
+          "k": "c",
+          "en": "Only at championships, not at club shoots",
+          "uk": "Лише на чемпіонатах, а не на клубних змаганнях"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Both rulebooks require hearing protection for shooters, referees, staff and spectators near the layout.",
+        "uk": "Правила обох дисциплін вимагають захисту слуху від стрільців, суддів, персоналу й глядачів біля майданчика."
+      }
+    },
+    {
+      "k": "culture-spectator-photo-q2",
+      "q": {
+        "en": "May you take photos with flash?",
+        "uk": "Чи можна фотографувати зі спалахом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, if you stay in the spectator area",
+          "uk": "Так, якщо ви в зоні для глядачів"
+        },
+        {
+          "k": "b",
+          "en": "Only once the referee has agreed",
+          "uk": "Лише після згоди судді"
+        },
+        {
+          "k": "c",
+          "en": "No, because flash can dazzle the shooter",
+          "uk": "Ні, бо спалах може засліпити стрільця"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Flash distracts and dazzles the shooter, so spectators do not use it.",
+        "uk": "Спалах відволікає й засліплює стрільця, тому глядачі ним не користуються."
+      },
+      "from": "culture-spectator-photo"
+    },
+    {
+      "k": "watching-at-the-ground-q3",
+      "q": {
+        "en": "What happens if a spectator coaches a shooter during a competition?",
+        "uk": "Що станеться, якщо глядач підказує стрільцеві під час змагання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The shooter can get a yellow card; the adviser is sent away",
+          "uk": "Стрілець може отримати жовту картку; порадника виведуть"
+        },
+        {
+          "k": "b",
+          "en": "Nothing at all, as long as the advice is given quietly",
+          "uk": "Нічого, якщо порада прозвучала тихо"
+        },
+        {
+          "k": "c",
+          "en": "The shooter must shoot the whole stand again from the start",
+          "uk": "Стрілець має перестріляти все стрілецьке місце від початку"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Advice during a competition counts as coaching, which both rulebooks forbid.",
+        "uk": "Порада під час змагання вважається підказками (coaching), які забороняють правила обох дисциплін."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "watching-at-the-ground-q2",
+      "q": {
+        "en": "When is it right to applaud?",
+        "uk": "Коли доречно аплодувати?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "While the shooter is aiming at the target",
+          "uk": "Поки стрілець цілиться в мішень"
+        },
+        {
+          "k": "b",
+          "en": "After the stand, when nobody is about to call",
+          "uk": "Після стрілецького місця, коли ніхто не готується подати команду"
+        },
+        {
+          "k": "c",
+          "en": "Just before the shooter calls “pull”",
+          "uk": "Просто перед командою «pull»"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "While anyone on the layout is shooting or about to call, spectators stay quiet; applause comes when the shooter has finished.",
+        "uk": "Поки хтось на майданчику стріляє чи готується подати команду, глядачі мовчать; оплески — коли стрілець закінчив."
+      }
+    },
+    {
+      "k": "safety-spectators-q1",
+      "q": {
+        "en": "Where may a spectator stand?",
+        "uk": "Де може стояти глядач?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In front of the firing line, for a better view",
+          "uk": "Перед лінією стрільби, щоб краще бачити"
+        },
+        {
+          "k": "b",
+          "en": "Next to the traps, out of the line of fire",
+          "uk": "Біля машинок, поза лінією стрільби"
+        },
+        {
+          "k": "c",
+          "en": "In the spectator area, behind the stand",
+          "uk": "У зоні для глядачів, позаду стрілецького місця"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Spectators stand in the area set aside for them, usually behind the stand.",
+        "uk": "Глядачі стоять у відведеній зоні, зазвичай позаду стрілецького місця."
+      },
+      "from": "safety-spectators"
+    },
+    {
+      "k": "safety-spectators-q3",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, a spectator loudly criticises a ruling. How do the rules see this?",
+        "uk": "У {{tm:compak}} глядач уголос критикує рішення судді. Як це оцінюють правила?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "As an attempt to influence the referee",
+          "uk": "Як спробу вплинути на суддю"
+        },
+        {
+          "k": "b",
+          "en": "As normal support from the crowd",
+          "uk": "Як звичайну підтримку вболівальників"
+        },
+        {
+          "k": "c",
+          "en": "As a breach of the dress code",
+          "uk": "Як порушення дрес-коду"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:compak}} the rules count open criticism of a decision by shooters or spectators, without the referee’s permission, as an attempt to influence.",
+        "uk": "У {{tm:compak}} відкриту критику рішення з боку стрільців чи глядачів без дозволу судді правила вважають спробою вплинути на суддю."
+      },
+      "rule_ref": "compak:ch22-influence",
+      "from": "safety-spectators"
+    },
+    {
+      "k": "culture-spectator-photo-q3",
+      "q": {
+        "en": "What do you need to film a competition with a drone?",
+        "uk": "Що потрібно, щоб знімати змагання дроном?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing, as long as it flies above the stands",
+          "uk": "Нічого, якщо він літає вище за стрілецькі місця"
+        },
+        {
+          "k": "b",
+          "en": "The organiser’s permission, plus the country’s drone rules",
+          "uk": "Дозвіл організатора й дотримання правил країни щодо дронів"
+        },
+        {
+          "k": "c",
+          "en": "Permission from one of the shooters in the squad",
+          "uk": "Дозвіл одного зі стрільців групи"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Flying over a shooting ground needs the organiser’s permission, and the drone rules of the country always apply.",
+        "uk": "Для польоту над стрільбищем потрібен дозвіл організатора, а правила країни щодо дронів діють завжди."
+      },
+      "from": "culture-spectator-photo"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "9dbbc500",
+    "summary": "4c491094",
+    "watching-at-the-ground-p1": "bb2946ff",
+    "safety-spectators-p6": "fe53c1fe",
+    "watching-at-the-ground-p2": "adb9b7ed",
+    "safety-spectators-p3": "4f7d3d96",
+    "safety-spectators-p4": "3816b36f",
+    "watching-at-the-ground-p3": "1ffaa5e9",
+    "culture-spectator-photo-p3": "49e69ce0",
+    "culture-spectator-photo-p4": "10fa595a",
+    "culture-spectator-photo-p5": "2016a14b",
+    "watching-at-the-ground-p5": "e310d55f",
+    "watching-at-the-ground-p6": "c3b53132",
+    "safety-spectators-kp1": "aa5b79c6",
+    "safety-spectators-kp2": "c9b5e389",
+    "culture-spectator-photo-kp1": "c103dd12",
+    "culture-spectator-photo-kp3": "a52de0bd",
+    "watching-at-the-ground-kp5": "e8c56229",
+    "culture-spectator-photo-dyk": "27ec761a",
+    "watching-at-the-ground-q1": "0759c1d2",
+    "culture-spectator-photo-q2": "fc309c2a",
+    "watching-at-the-ground-q3": "34bc9dd2",
+    "watching-at-the-ground-q2": "ae86b17b",
+    "safety-spectators-q1": "a18351ac",
+    "safety-spectators-q3": "a5ad28e4",
+    "culture-spectator-photo-q3": "ba6fc302"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Glossary: add the term spectator-area (see the open issue of the safety block), then add it to terms and link it in watching-at-the-ground-p1."
+    ]
+  }
+}

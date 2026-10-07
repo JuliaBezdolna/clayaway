@@ -1,0 +1,182 @@
+{
+  "id": "targets-compak-layout",
+  "lang": "it",
+  "base_rev": 3,
+  "h": {
+    "title": "8c3ae343",
+    "summary": "79d4f1ae",
+    "targets-compak-layout-p1": "98dc18bc",
+    "sport-compak-layout-p1": "dcbe6c7b",
+    "targets-compak-layout-p2": "e7df6adb",
+    "sport-compak-layout-p2": "203222f1",
+    "sport-compak-layout-p3": "a25065ef",
+    "compak-layout-rotation-p3": "7b59eb23",
+    "targets-compak-layout-p5": "a2c4429e",
+    "compak-layout-rotation-p4": "1748eaf4",
+    "targets-compak-layout-p6": "896b9587",
+    "sport-compak-layout-p5": "0c81f17c",
+    "targets-compak-layout-p7": "6bb72ced",
+    "sport-compak-layout-ph1": "3f2accee",
+    "sport-compak-layout-ph2": "28df18bc",
+    "sport-compak-layout-ph3": "23025c04",
+    "compak-layout-rotation-ph1": "200b9712",
+    "compak-layout-rotation-ph2": "70621467",
+    "compak-layout-rotation-ph3": "cfd3fd74",
+    "compak-layout-rotation-ph4": "19e4256f",
+    "compak-layout-rotation-kp1": "135742ac",
+    "compak-layout-rotation-kp2": "6d1c22f7",
+    "compak-layout-rotation-kp3": "f95e51ba",
+    "compak-layout-rotation-kp5": "8b9d487a",
+    "targets-compak-layout-kp5": "c85a6da1",
+    "targets-compak-layout-dyk": "89d1cb81",
+    "sport-compak-layout-q1": "05577122",
+    "compak-layout-rotation-q2": "120fb8bb",
+    "targets-compak-layout-q3": "4704300b",
+    "sport-compak-layout-q2": "ce882cb5",
+    "sport-compak-layout-q3": "55f9413f",
+    "compak-layout-rotation-q3": "78b9098d",
+    "targets-compak-layout-q-rectangle": "1273dd61",
+    "targets-compak-layout-q-line": "bce53ef3"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Come funziona un campo {{tm:compak}}",
+  "summary": "Cinque pedane, sei macchine dalla A alla F, un rettangolo segnato e un menu a ogni pedana: come funziona una serie di {{tm:compak}} e come si muove la batteria.",
+  "body": {
+    "targets-compak-layout-p1": "Il {{tm:compak}} è una disciplina FITASC compatta. È stato {{fact:community.compak-created}}. A differenza dello {{tm:sporting}}, che si estende su terreno naturale, un campo Compak è costruito secondo un unico schema fisso, con misure definite.",
+    "sport-compak-layout-p1": "Il {{tm:compak}} sta su un unico campo. Davanti ai tiratori è segnato un rettangolo largo da 35 a 40 m e profondo 25 m, con un paletto con bandierina in ogni angolo. Il regolamento lo richiede su ogni campo. In assenza di vento, ogni piattello deve passare sopra questo rettangolo in qualche punto della sua traiettoria.",
+    "targets-compak-layout-p2": "I paletti d'angolo sono alti circa 50 cm. I lati del {{term:fly-over-zone|rettangolo}} si chiamano AB, BC, CD e AD, e AD è il lato di fronte ai tiratori. La linea delle pedane è parallela ad AD e sta 4–8 m dietro di esso, con la pedana 3 di fronte al suo centro.",
+    "sport-compak-layout-p2": "Cinque pedane di tiro, ognuna un quadrato di 1 m di lato, stanno in linea con 2–5 m tra i loro centri. Sono numerate da 1 a 5 da sinistra a destra. Ogni pedana ha un {{term:firing-angle-limiter|Firing Angle Limiter}} (limitatore dell'angolo di tiro), una struttura di tubi. Limita quanto il fucile può ruotare di lato, in alto o in basso, e impedisce al tiratore di sporgersi o fare un passo avanti.",
+    "sport-compak-layout-p3": "Sei macchine, dalla A alla F da sinistra a destra, portano ciascuna un pannello con la propria lettera. Possono stare davanti, di lato o dietro i tiratori; una macchina dietro la linea sta su una {{term:tower|torre}}, {{fact:targets.compak-tower-height}}. Ogni campo Compak deve avere tre traiettorie obbligatorie. Due sono {{term:crosser|traversoni}}: uno vola da sinistra a destra, l'altro da destra a sinistra, ed entrambi passano sopra i lati AB e CD. La terza è un {{term:going-away|piattello in allontanamento}}, che vola lontano dai tiratori sopra il lato BC. Le altre traiettorie le sceglie l'organizzatore; restano corte per non raggiungere il campo vicino.",
+    "compak-layout-rotation-p3": "Una {{term:round|serie}} è di 25 piattelli, cinque per pedana. I cinque piattelli di una pedana si combinano in uno di tre modi: {{fact:targets.compak-station-menus}}. Su un campo tutti i doppi sono dello stesso tipo: o allo sparo (il secondo piattello parte quando spari al primo) o simultanei (partono insieme). Il {{term:target-menu|menu}}, l'elenco dei piattelli della pedana in ordine, è affisso a ogni pedana. Le pedane sono collegate in catena: {{fact:targets.compak-double-chain}}.",
+    "targets-compak-layout-p5": "La FITASC offre {{fact:targets.compak-setting-tables}} e consiglia di usarle nelle gare. Come leggere una scheda menu è spiegato in {{lesson:targets-menu}}.",
+    "compak-layout-rotation-p4": "Come si muove una batteria fino a sei persone lungo le pedane: il tiratore sulla pedana 1 tira primo, e un sesto tiratore aspetta dietro la pedana 1. Quando il tiratore della pedana 5 ha finito, tutti si spostano di una pedana a destra. Il tiratore della pedana 5 va ad aspettare dietro la pedana 1, e il tiratore che aspettava sale sulla pedana 1. Cambia pedana con il fucile aperto e scarico, senza disturbare chi sta ancora tirando.",
+    "targets-compak-layout-p6": "Hai fino a 10 secondi per chiamare il tuo piattello dopo che è stato tirato il piattello della pedana precedente. Quando arriva il tuo turno, sii pronto subito, con le cartucce per tutta la serie.",
+    "sport-compak-layout-p5": "Alcune gare tirano invece il {{tm:compak}} in linea: ogni tiratore comincia dalla pedana 1 e finisce sulla pedana 5. Chiedi all'organizzatore quale sistema si usa, perché la procedura cambia.",
+    "targets-compak-layout-p7": {
+      "sporting": "Il fucile parte basso: la cima del calcio resta sotto la {{term:jacket-line|linea sul giubbotto}} finché non appare il piattello.",
+      "compak": "La posizione è libera: il fucile può già essere alla spalla (imbracciato). Ogni piattello si tira comunque con il fucile alla spalla."
+    }
+  },
+  "note": {},
+  "phrases": {
+    "sport-compak-layout-ph1": {
+      "meaning": "La batteria ruota; il tiratore della pedana 5 va dietro la pedana 1.",
+      "say": "Tutti avanti di una pedana a destra. Il numero cinque va in attesa."
+    },
+    "sport-compak-layout-ph2": {
+      "meaning": "Il piattello della macchina E è lanciato da una torre alta e passa sopra la testa.",
+      "say": "La macchina E è sulla torre: ti passa sopra la testa."
+    },
+    "sport-compak-layout-ph3": {
+      "meaning": "Rispetta il Firing Angle Limiter; non portare il fucile oltre.",
+      "say": "Attento al telaio: non andare oltre il paletto."
+    },
+    "compak-layout-rotation-ph1": {
+      "meaning": "Rotazione dopo che il tiratore della pedana 5 ha finito.",
+      "say": "Spostatevi di una pedana a destra."
+    },
+    "compak-layout-rotation-ph2": {
+      "meaning": "Tra una pedana e l'altra il fucile è aperto e scarico.",
+      "say": "Fucile aperto quando cambi pedana."
+    },
+    "compak-layout-rotation-ph3": {
+      "meaning": "La regola della concatenazione del menu del Compak®.",
+      "say": "Il tuo doppio comincia con l'ultimo piattello della pedana precedente."
+    },
+    "compak-layout-rotation-ph4": {
+      "meaning": "Il sesto tiratore sta dietro la pedana 1.",
+      "say": "Tu aspetti dietro la uno."
+    }
+  },
+  "key_points": {
+    "compak-layout-rotation-kp1": "Rettangolo di 35–40 m × 25 m; cinque pedane di 1 m; sei macchine A–F.",
+    "compak-layout-rotation-kp2": "Obbligatori: traversone da sinistra a destra, traversone da destra a sinistra, piattello in allontanamento.",
+    "compak-layout-rotation-kp3": "Serie = 25 piattelli, 5 per pedana; un solo tipo di doppio su tutto il campo.",
+    "compak-layout-rotation-kp5": "Dopo la pedana 5: si aspetta dietro la pedana 1; tutti si spostano di una pedana a destra.",
+    "targets-compak-layout-kp5": "La posizione del fucile alla chiamata è libera; hai fino a 10 secondi per chiamare."
+  },
+  "did_you_know": "Grazie alla catena dei doppi, l'arbitro può mostrare al prossimo tiratore il piattello con cui comincia il suo doppio: l'ultimo piattello della pedana precedente.",
+  "quiz": {
+    "sport-compak-layout-q1": {
+      "q": "Quante macchine e quante pedane ha un campo {{tm:compak}}?",
+      "options": {
+        "a": "4 macchine, 3 pedane",
+        "b": "6 macchine, 5 pedane",
+        "c": "5 macchine, 6 pedane",
+        "d": "8 macchine, 8 pedane"
+      },
+      "explain": "Macchine dalla A alla F e pedane dalla 1 alla 5."
+    },
+    "compak-layout-rotation-q2": {
+      "q": "Il tiratore della pedana 5 ha finito il suo menu. Dove va?",
+      "options": {
+        "a": "Alla pedana 1",
+        "b": "Resta sulla pedana 5",
+        "c": "Dietro la pedana 1, ad aspettare",
+        "d": "Dall'arbitro a firmare lo statino"
+      },
+      "explain": "Diventa il tiratore in attesa dietro la pedana 1, mentre tutti gli altri si spostano di una pedana verso destra."
+    },
+    "targets-compak-layout-q3": {
+      "q": "Nel {{tm:compak}}, come si può tenere il fucile quando chiami il piattello?",
+      "options": {
+        "a": "Libero: può già essere imbracciato",
+        "b": "Solo basso, sotto la linea sul gilet",
+        "c": "Solo in spalla, volate in alto"
+      },
+      "explain": "Nel {{tm:compak}} la posizione del fucile alla chiamata è libera, ma si tira sempre con il fucile imbracciato. Il fucile basso con la linea sul gilet è una regola dello {{tm:sporting}}."
+    },
+    "sport-compak-layout-q2": {
+      "q": "In una batteria di sei, dove sta il sesto tiratore mentre gli altri sparano?",
+      "options": {
+        "a": "Nella club house",
+        "b": "Accanto all'arbitro alla pedana 5",
+        "c": "Dietro la macchina F",
+        "d": "In attesa dietro la pedana 1"
+      },
+      "explain": "Il tiratore in attesa sta dietro la pedana 1 e ci sale dopo ogni rotazione."
+    },
+    "sport-compak-layout-q3": {
+      "q": "A che cosa serve il Firing Angle Limiter?",
+      "options": {
+        "a": "Limita la rotazione del fucile e impedisce di fare un passo avanti",
+        "b": "Misura la velocità di ogni piattello lanciato",
+        "c": "Contiene le cartucce per tutta la serie",
+        "d": "Lancia i piattelli alla chiamata del tiratore"
+      },
+      "explain": "È un telaio di sicurezza su ogni pedana che limita la rotazione laterale e verticale."
+    },
+    "compak-layout-rotation-q3": {
+      "q": "Su un campo Compak, il primo piattello di ogni doppio è…",
+      "options": {
+        "a": "qualsiasi piattello scelga il tiratore",
+        "b": "sempre quello della macchina A",
+        "c": "un piattello mostrato solo su richiesta",
+        "d": "l'ultimo piattello tirato alla pedana precedente"
+      },
+      "explain": "Il menu concatena le pedane: ogni doppio comincia con il piattello che ha chiuso la pedana precedente."
+    },
+    "targets-compak-layout-q-rectangle": {
+      "q": "In aria calma, cosa deve fare ogni piattello {{tm:compak}}?",
+      "options": {
+        "a": "Cadere dentro il rettangolo segnato",
+        "b": "Volare sopra il rettangolo segnato",
+        "c": "Passare esattamente sopra la pedana 3"
+      },
+      "explain": "In aria calma ogni piattello deve passare sopra il rettangolo in qualche punto della sua traiettoria."
+    },
+    "targets-compak-layout-q-line": {
+      "q": "Dove si trova la linea delle pedane su un campo Compak?",
+      "options": {
+        "a": "4–8 m dietro il lato AD, parallela a esso",
+        "b": "Dentro il rettangolo, vicino al lato BC",
+        "c": "Sulla torre, dietro la macchina F"
+      },
+      "explain": "Le pedane stanno in linea 4–8 m dietro il lato AD, con la pedana 3 di fronte al suo centro."
+    }
+  }
+}

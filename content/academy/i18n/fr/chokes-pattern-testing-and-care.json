@@ -1,0 +1,98 @@
+{
+  "id": "chokes-pattern-testing-and-care",
+  "lang": "fr",
+  "base_rev": 1,
+  "h": {
+    "title": "e8a9ef43",
+    "summary": "457efd60",
+    "chokes-pattern-testing-and-care-p1": "b61918b4",
+    "chokes-pattern-testing-and-care-p2": "b17fe320",
+    "chokes-pattern-testing-and-care-p3": "bef2177f",
+    "chokes-pattern-testing-and-care-p4": "20c97038",
+    "chokes-pattern-testing-and-care-p5": "8e1dfb17",
+    "chokes-pattern-testing-and-care-p6": "77e552fb",
+    "chokes-pattern-testing-and-care-p7": "de997f66",
+    "chokes-pattern-testing-and-care-kp1": "1299ab0c",
+    "chokes-pattern-testing-and-care-kp2": "f2cb603c",
+    "chokes-pattern-testing-and-care-kp3": "c1da7fc6",
+    "chokes-pattern-testing-and-care-kp4": "9c490994",
+    "chokes-pattern-testing-and-care-kp5": "3a56bafc",
+    "chokes-pattern-testing-and-care-dyk": "dfbbac7a",
+    "chokes-pattern-testing-and-care-q1": "3e05c144",
+    "chokes-pattern-testing-and-care-q2": "3b814f97",
+    "chokes-pattern-testing-and-care-q3": "c4b54f8b",
+    "chokes-pattern-testing-and-care-q4": "47bdd55d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Tester sa gerbe et entretenir ses chokes",
+  "summary": "Comment vérifier sa gerbe sur une plaque, comment nettoyer et graisser ses chokes, et pourquoi les tireurs de {{tm:sporting}} et {{tm:compak}} ne tirent pas avec un fusil à chokes interchangeables sans choke installé.",
+  "body": {
+    "chokes-pattern-testing-and-care-p1": "Pour voir ce que fait réellement votre choke, on tire sur une {{term:pattern-plate|plaque de gerbe}} (pattern plate) : une grande plaque d'acier peinte ou graissée pour que les plombs y laissent des marques. Une grande feuille de papier, environ 1 × 1 m, fonctionne aussi. Faites cela uniquement sur un stand qui possède une telle plaque, et avec l'autorisation du personnel.",
+    "chokes-pattern-testing-and-care-p2": "Pour vérifier la {{term:gun-fit|conformation}}, on tire à courte distance, {{fact:gear.fit-plate-distance}} : ce qui compte, c'est où se trouve le centre de la gerbe. Pour juger le choke lui-même, la distance est plus grande, classiquement 35 m ou 40 yards (environ 36,6 m). Sur le papier, on trace un cercle de 75 à 76 cm de diamètre autour de la partie la plus dense et on compte les impacts à l'intérieur. On compare alors ce nombre au nombre de plombs dans la cartouche (environ 350 à 400 pour 28 g de n° 7½ ; voir {{lesson:cartridges-shot-size}}).",
+    "chokes-pattern-testing-and-care-p3": "Approximativement, à cette distance, {{term:cylinder|cylinder}} place environ 40 % du plomb dans le cercle, improved cylinder environ 50 %, modified environ 60 %, improved modified environ 65 %, et full 70 % ou plus. Les chiffres dépendent de la cartouche, donc votre propre fusil et vos propres cartouches peuvent donner des résultats différents.",
+    "chokes-pattern-testing-and-care-p4": "Un seul coup ne prouve pas grand-chose : les gerbes varient sensiblement, même avec des cartouches identiques. Tirez au moins 3 à 5 coups pour chaque combinaison. Regardez aussi la régularité : une bonne gerbe est régulière, sans grands trous et sans amas dense au centre.",
+    "chokes-pattern-testing-and-care-p5": [
+      "Après le tir, dévissez les chokes avec la {{term:choke-key|clé à choke}}.",
+      "Nettoyez-les à l'intérieur et à l'extérieur avec un solvant et une brosse, et essuyez le filetage dans la bouche.",
+      "Avant de les revisser, mettez une fine couche de {{term:choke-grease|graisse à chokes}} sur le filetage : elle empêche la rouille et évite que le choke ne se grippe."
+    ],
+    "chokes-pattern-testing-and-care-p6": "Vérifiez que les chokes sont bien serrés avant chaque séance, car le tir peut peu à peu les desserrer. Vissez-les complètement avec la clé, mais sans forcer excessivement.",
+    "chokes-pattern-testing-and-care-p7": "Ne tirez jamais avec un fusil à {{term:multichoke|chokes interchangeables}} sans choke, ou avec un choke seulement à moitié vissé. Le plomb et la {{term:wad|bourre}} peuvent endommager le filetage de la bouche, et la réparation coûte cher. Gardez les chokes de rechange dans un étui séparé pour ne pas les perdre."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-pattern-testing-and-care-kp1": "Les gerbes se vérifient sur une plaque : la conformation à {{fact:gear.fit-plate-distance}}, les chokes à 35 m ou 40 yards.",
+    "chokes-pattern-testing-and-care-kp2": "Comptez la part du plomb dans un cercle de 75-76 cm ; tirez 3 à 5 coups.",
+    "chokes-pattern-testing-and-care-kp3": "Nettoyez les chokes après le tir et graissez les filetages avec de la graisse à chokes.",
+    "chokes-pattern-testing-and-care-kp4": "Vérifiez que les chokes sont bien serrés avant chaque séance.",
+    "chokes-pattern-testing-and-care-kp5": "Ne tirez pas avec un fusil à chokes interchangeables sans choke installé."
+  },
+  "quiz": {
+    "chokes-pattern-testing-and-care-q1": {
+      "q": "Pourquoi ne faut-il pas tirer avec un fusil à chokes interchangeables sans choke ?",
+      "options": {
+        "a": "C'est interdit seulement en compétition",
+        "b": "Le plomb et la bourre peuvent endommager le filetage de la bouche",
+        "c": "Le fusil ne partira alors pas du tout",
+        "d": "La gerbe devient beaucoup trop serrée"
+      },
+      "explain": "Sans choke, le filetage est exposé, et le plomb et la bourre peuvent l'endommager."
+    },
+    "chokes-pattern-testing-and-care-q2": {
+      "q": "À quelle distance classique juge-t-on la gerbe d'un choke ?",
+      "options": {
+        "a": "5 m (environ 5½ yards)",
+        "b": "15 m (environ 16 yards)",
+        "c": "35 m ou 40 yards (environ 37 m)",
+        "d": "80 m (environ 87 yards)"
+      },
+      "explain": "La part du plomb dans un cercle de 75-76 cm se compte classiquement à 35 m ou 40 yards."
+    },
+    "chokes-pattern-testing-and-care-q3": {
+      "q": "Combien de coups faut-il tirer pour juger une gerbe ?",
+      "options": {
+        "a": "Au moins 3 à 5 pour chaque combinaison",
+        "b": "Un seul coup suffit pour cela",
+        "c": "Exactement deux, un par canon",
+        "d": "Une centaine, le même jour"
+      },
+      "explain": "Les gerbes varient d'un coup à l'autre, donc il faut une série pour chaque combinaison de fusil, de choke et de cartouche."
+    },
+    "chokes-pattern-testing-and-care-q4": {
+      "q": "À quoi sert la graisse à chokes ?",
+      "options": {
+        "a": "À rendre la gerbe un peu plus serrée",
+        "b": "À nettoyer l'âme après le tir",
+        "c": "À empêcher la rouille et le grippage du choke",
+        "d": "À adoucir le recul du fusil"
+      },
+      "explain": "Une fine couche sur le filetage le protège de la rouille et permet de dévisser le choke plus tard."
+    }
+  },
+  "did_you_know": "Après chaque coup, la plaque de gerbe est repeinte ou regraissée, au rouleau ou au pinceau, pour que les nouvelles marques ne se mélangent pas aux précédentes."
+}

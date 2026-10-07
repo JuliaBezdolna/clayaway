@@ -1,0 +1,95 @@
+{
+  "id": "safety-handling-carrying",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "67b42026",
+    "summary": "a0db90c0",
+    "safety-handling-carrying-p1": "131eff38",
+    "safety-handling-carrying-p2": "e729a9a8",
+    "safety-handling-carrying-p3": "837cb39e",
+    "safety-handling-carrying-p4": "6190476d",
+    "safety-handling-carrying-p5": "83531f88",
+    "safety-handling-carrying-p6": "fb47c648",
+    "safety-handling-carrying-mock-where": "8f7d7c36",
+    "safety-handling-carrying-mock-rule": "d3259ecf",
+    "safety-handling-carrying-p7": "c3605832",
+    "safety-handling-carrying-kp1": "cde0a177",
+    "safety-handling-carrying-kp2": "34c1f27e",
+    "safety-handling-carrying-kp3": "dd9b5692",
+    "safety-handling-carrying-kp4": "190dc8a8",
+    "safety-handling-carrying-dyk": "e976c923",
+    "safety-handling-carrying-q1": "6f174eb9",
+    "safety-handling-carrying-q2": "065b5397",
+    "safety-handling-carrying-q3": "5481d5e3",
+    "safety-handling-carrying-q4": "186b3f80"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Fegyverkezelés és -hordás a lőtéren",
+  "summary": "Nyitott fegyver, fegyvertartó, fegyvertok és „kérdezz, mielőtt hozzányúlsz”: hogyan kezeld a fegyvert a lőállások között.",
+  "body": {
+    "safety-handling-carrying-p1": "Ez az óra gyakorlati részletekkel bővíti a {{lesson:safety-core-rules}} óra tartalmát. Minden fegyvert, még egy üreset is, nagy óvatossággal kezelnek. A lőállások között nyitva hordod: a {{term:over-and-under|bockot}} megtörve (a csuklópántnál kinyitva), a {{term:semi-automatic|félautomatát}} nyitott závárzattal (a mozgó résszel, amely betölti a töltényt). A {{term:muzzle|csőtorkolat}} egyenesen felfelé vagy lefelé néz.",
+    "safety-handling-carrying-p2": "Sok lövész a nyitott bockot az alkarján hordja, csövekkel a föld felé. Fegyverszíjak és hevederek nem megengedettek a fegyvereken sem egyik, sem másik versenyszámban.",
+    "safety-handling-carrying-p3": "Amikor nem használod a fegyvert, állítsd fel egy {{term:gun-rack|fegyvertartóba}}, vagy egy másik helyre, amelyet a lőtér biztosít. A félautomata ott nyitott závárzattal áll. Ne támaszd a fegyvert autóhoz, fához vagy asztalhoz: lecsúszhat és eldőlhet.",
+    "safety-handling-carrying-p4": "Az autó és a lőtér között a fegyver {{term:gun-slip|tokban}} vagy {{term:hard-case|fegyverkofferben}} utazik. Csak ott vedd ki, ahol a lőtér engedi, és ez gyakran nem a parkoló.",
+    "safety-handling-carrying-p5": "Ne érintsd meg más fegyverét a tulajdonos engedélye nélkül. Ha szeretnéd megnézni, kérdezz: a tulajdonos kinyitja, és odaadja neked. Ha valaki azt kéri, hogy mutasd meg, üres-e a fegyvered, nyisd ki, és mutasd meg a tölténykamrákat. Az edzők ezt úgy hívják: „{{term:show-clear|show clear}}”.",
+    "safety-handling-carrying-p6": "Ne végezz {{term:gun-mount|vállba vételt}} (ne emeld a fegyvert a lapockádhoz és az arcodhoz), és ne vezesd, mintha egy korongot követnél. Ezt nevezik {{term:mock-shooting|lövés imitálásának}}. Mindkét szabálykönyv tiltja, de más helyen húzza meg a határt.",
+    "safety-handling-carrying-mock-where": {
+      "sporting": "Bárhol a lőtéren: a lőálláson kívül, a lőálláson a korong kérése előtt, és a korongok bemutatása közben.",
+      "compak": "A lőállásokon kívül, és akkor, amikor a csoport másik tagja lő."
+    },
+    "safety-handling-carrying-mock-rule": "A {{tm:sporting}}-ban a lövés imitálása vagy egy véletlen lövés elsőre {{term:warning|figyelmeztetést}} von maga után. Ha ez megismétlődik, a következő eltalált korongot elhibázottként (nullaként) jegyzik fel.",
+    "safety-handling-carrying-p7": "Hogy ellenőrizd, működik-e a fegyver, használd a {{term:gun-test|próbalövő helyet}}, ha van a lőtéren, rendszerint a klubház közelében. Próbalövés egy versenylőálláson nem megengedett."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "safety-handling-carrying-kp1": "A fegyvert nyitva hordd, csőtorkolattal egyenesen fel vagy le; fegyverszíj nélkül",
+    "safety-handling-carrying-kp2": "Ha nincs használatban: állva a fegyvertartóban, nem valamihez támasztva",
+    "safety-handling-carrying-kp3": "Az autó és a lőtér között tokban vagy fegyverkofferben",
+    "safety-handling-carrying-kp4": "Kérdezz, mielőtt más fegyveréhez érsz; lövés imitálása nélkül"
+  },
+  "did_you_know": "A nyitott fegyver egyben udvariasság is: megmutatja a körülötted lévőknek, hogy nincs miért aggódniuk.",
+  "quiz": {
+    "safety-handling-carrying-q1": {
+      "q": "Hogyan hordják a fegyvert a lőállások között?",
+      "options": {
+        "a": "Csukva, a lapockán, biztosítóval",
+        "b": "Hátravetett fegyverszíjon, töltetlenül",
+        "c": "Nyitva, csőtorkolattal egyenesen fel vagy le"
+      },
+      "explain": "A fegyvert nyitva hordják, csőtorkolattal fel vagy le; fegyverszíj mindkét versenyszámban tilos."
+    },
+    "safety-handling-carrying-q2": {
+      "q": "Hova kerül a fegyver, amikor nem használod?",
+      "options": {
+        "a": "Állva egy fegyvertartóban vagy más kijelölt helyen",
+        "b": "Az autóhoz támasztva, csukva és töltetlenül",
+        "c": "Lefektetve a földre a lőállás mellett"
+      },
+      "explain": "A fegyverek állva vannak egy fegyvertartóban vagy más kijelölt helyen, hogy ne dőljenek el; a félautomata nyitott závárzattal áll."
+    },
+    "safety-handling-carrying-q3": {
+      "q": "Hol lehet próbalövést leadni egy fegyverből?",
+      "options": {
+        "a": "Az első versenylőálláson, a kör előtt",
+        "b": "A próbalövő helyen, ha van olyan",
+        "c": "A parkoló egy csendes sarkában"
+      },
+      "explain": "A próbalövések a próbalövő helyre tartoznak; versenylőálláson leadni tilos."
+    },
+    "safety-handling-carrying-q4": {
+      "q": "Mi a lövés imitálása (mock shooting)?",
+      "options": {
+        "a": "Lövés egy valódi korongra könnyű gyakorlótölténnyel",
+        "b": "Korong kérése úgy, hogy nincs töltény a fegyverben",
+        "c": "Vállba vétel és a fegyver vezetése egy elképzelt korong mentén"
+      },
+      "explain": "A lövés imitálása a fegyver vállba vétele és vezetése, mintha egy korongra céloznánk. A {{tm:sporting}}-ban sehol a lőtéren nem megengedett, még a lőálláson sem, a hívás előtt. A {{tm:compak}}-ban a lőállásokon kívül, és akkor sem, amikor a csoport másik tagja lő."
+    }
+  }
+}

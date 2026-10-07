@@ -1,0 +1,103 @@
+{
+  "id": "clayarena-profile-numbers",
+  "lang": "pl",
+  "base_rev": 2,
+  "h": {
+    "title": "d549d9a9",
+    "summary": "e0b16add",
+    "clayarena-profile-numbers-p1": "18eea6d7",
+    "clayarena-profile-numbers-p2": "5c0f4cfc",
+    "clayarena-profile-numbers-p3": "802a0097",
+    "clayarena-profile-numbers-perfect": "fba5db32",
+    "clayarena-profile-numbers-p4": "b0604525",
+    "clayarena-profile-numbers-p5": "3e6b5e8e",
+    "clayarena-profile-numbers-other": "e4de96f4",
+    "clayarena-profile-numbers-p6": "935cbc72",
+    "clayarena-profile-numbers-p7": "e5d7ead9",
+    "clayarena-profile-numbers-kp1": "dab00454",
+    "clayarena-profile-numbers-kp2": "89d19953",
+    "clayarena-profile-numbers-kp3": "77da1959",
+    "clayarena-profile-numbers-kp4": "e43f7167",
+    "clayarena-profile-numbers-kp5": "c259b16c",
+    "clayarena-profile-numbers-q1": "4205296d",
+    "clayarena-profile-numbers-q2": "bb1798ca",
+    "clayarena-profile-numbers-q3": "e7e1f5a8",
+    "clayarena-profile-numbers-q4": "c2744161",
+    "clayarena-profile-numbers-q5": "86ab8658"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "pl-wave-2026-10"
+  },
+  "title": "Co znaczą liczby w profilu",
+  "summary": "Skuteczność, najlepszy wynik, serie bez pomyłki, odsetek miejsc w top 10 i wskaźnik formy pomagają zobaczyć formę zawodnika, ale nie zastępują samych wyników.",
+  "body": {
+    "clayarena-profile-numbers-p1": "{{term:shooter-profile|Profil zawodnika}} na ClayArenie pokazuje kilka liczb. Są one liczone na podstawie zawodów {{tm:sporting}} i {{tm:compak}}, które są na stronie, a profil może pokazywać je osobno dla każdej dyscypliny. Pomagają one od razu zobaczyć poziom i stabilność zawodnika.",
+    "clayarena-profile-numbers-p2": "{{term:accuracy|Skuteczność}} to udział rozbitych rzutków w liczbie rzutków strzelonych na zawodach. Na przykład 150 rozbitych z 200 to 75%. Profil może pokazywać średnią skuteczność ze wszystkich zakończonych zawodów zawodnika i najwyższą skuteczność na jednych zawodach.",
+    "clayarena-profile-numbers-p3": "{{term:best-score|Najlepszy wynik}} to najwyższa suma, jaką zawodnik zdobył na jednych zawodach. Porównujcie sumy tylko przy tej samej liczbie rzutków. Międzynarodowe zawody {{tm:sporting}} to {{fact:basics.international-targets}}, a wiele zawodów klubowych ma mniej rzutków. Jeśli więc liczba rzutków jest inna, porównujcie skuteczność. Pozwala ona porównać różną liczbę rzutków, ale tory, pogoda i poziom zawodów wciąż się różnią, więc traktujcie to jako orientacyjny wskaźnik.",
+    "clayarena-profile-numbers-perfect": "Seria bez pomyłki to seria bez żadnego niewypału. W dyscyplinach FITASC to {{term:round|seria}} z rozbitymi wszystkimi {{fact:rules.round-targets}}. Profil liczy, ile takich serii ma zawodnik.",
+    "clayarena-profile-numbers-p4": "{{term:top-10-rate|Odsetek miejsc w top 10}} to udział zawodów, na których zawodnik skończył w pierwszej dziesiątce swojej {{term:category|kategorii}} albo klasyfikacji generalnej. Zależy on też od tego, kto jeszcze startuje: miejsce w pierwszej dziesiątce na dużych zawodach międzynarodowych jest trudniejsze do zdobycia niż na {{term:club-shoot|zawodach klubowych}}. Mała kategoria z kilkoma zawodnikami też ułatwia znalezienie się w pierwszej dziesiątce.",
+    "clayarena-profile-numbers-p5": "{{term:performance-index|Wskaźnik formy}} to jedna liczba, którą ClayArena wylicza z wyników zawodnika w jednej dyscyplinie. Dzięki niej łatwo śledzić postępy w czasie bez czytania każdej tabeli wyników. To nie jest oficjalny ranking {{term:fitasc|FITASC}}.",
+    "clayarena-profile-numbers-other": "W profilu mogą być też inne liczby i sekcje, na przykład historia startów, widok według sezonów czy porównanie ze zwycięzcami. Ich nazwy mogą się zmieniać wraz z rozwojem strony, więc czytajcie wyjaśnienia na samej stronie.",
+    "clayarena-profile-numbers-p6": "Liczby nie mówią wszystkiego. Niektóre {{term:layout|tory}} (zestawy stanowisk i rzutków, które z nich lecą) są łatwe, a inne trudne, a pogoda może bardzo zmienić wyniki. Dlatego liczby z jednych zawodów mówią niewiele; bardziej wiarygodne są liczby z kilku zawodów.",
+    "clayarena-profile-numbers-p7": "Dla początkującego dobrym sposobem czytania profilu jest porównywanie siebie z sobą: jak zmieniła się wasza skuteczność w sezonie. Porównywanie się z mocnymi zawodnikami może być ciekawe, ale mało mówi o waszym własnym postępie."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-profile-numbers-kp1": "Skuteczność to udział rozbitych rzutków w liczbie strzelonych.",
+    "clayarena-profile-numbers-kp2": "Sumy porównujcie tylko przy tej samej liczbie rzutków; inaczej porównujcie skuteczność, jako orientacyjny wskaźnik.",
+    "clayarena-profile-numbers-kp3": "Odsetek miejsc w top 10 liczy miejsca w dziesiątce kategorii albo klasyfikacji generalnej, więc zależy od liczby i siły przeciwników.",
+    "clayarena-profile-numbers-kp4": "Wskaźnik formy to liczba ClayAreny, nie ranking FITASC.",
+    "clayarena-profile-numbers-kp5": "Patrzcie, jak zmieniają się wyniki na przestrzeni kilku zawodów."
+  },
+  "did_you_know": null,
+  "quiz": {
+    "clayarena-profile-numbers-q1": {
+      "q": "Zawodnik rozbił 150 rzutków z 200. Jaka jest jego skuteczność?",
+      "options": {
+        "a": "50%",
+        "b": "75%",
+        "c": "80%"
+      },
+      "explain": "150 ÷ 200 = 0,75, czyli 75%."
+    },
+    "clayarena-profile-numbers-q2": {
+      "q": "Co to jest wskaźnik formy w profilu ClayAreny?",
+      "options": {
+        "a": "Jedna liczba wyliczana przez ClayArenę",
+        "b": "Oficjalny ranking FITASC",
+        "c": "Liczba zawodów w roku"
+      },
+      "explain": "To liczba ClayAreny do śledzenia postępów, nie oficjalny ranking."
+    },
+    "clayarena-profile-numbers-q3": {
+      "q": "Czemu liczby z jednych zawodów mówią niewiele?",
+      "options": {
+        "a": "Często są liczone błędnie",
+        "b": "Nikt tam nie trafia do top 10",
+        "c": "Tory i pogoda bardzo się różnią"
+      },
+      "explain": "Dlatego bardziej wiarygodne jest spojrzenie na liczby z kilku zawodów."
+    },
+    "clayarena-profile-numbers-q4": {
+      "q": "Co to jest seria bez pomyłki?",
+      "options": {
+        "a": "Seria bez żadnego niewypału",
+        "b": "Seria odstrzelana w ciągu godziny",
+        "c": "Seria bez żadnego dubletu"
+      },
+      "explain": "Seria bez pomyłki nie ma żadnego niewypału. W dyscyplinach FITASC to seria z rozbitymi wszystkimi {{fact:rules.round-targets}}."
+    },
+    "clayarena-profile-numbers-q5": {
+      "q": "Wystrzeliliście 90 z 100 na zawodach klubowych i 180 z 200 na zawodach międzynarodowych. Co można porównać?",
+      "options": {
+        "a": "Sumy — 90 i 180",
+        "b": "Skuteczność: oba razy 90%",
+        "c": "Nic"
+      },
+      "explain": "Przy różnej liczbie rzutków porównujcie skuteczność, nie sumy. Tory, pogoda i poziom zawodów wciąż się różnią, więc traktujcie to jako orientacyjny wskaźnik."
+    }
+  }
+}

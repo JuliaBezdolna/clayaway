@@ -1,0 +1,83 @@
+{
+  "id": "cartridges-velocity-recoil",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "a3ab7761",
+    "summary": "d266928f",
+    "cartridges-velocity-recoil-p1": "35b2ccfa",
+    "cartridges-velocity-recoil-p2": "3211df5c",
+    "cartridges-velocity-recoil-p7": "54198ca9",
+    "cartridges-velocity-recoil-p3": "ba5cadf4",
+    "cartridges-velocity-recoil-p4": "85c0baf5",
+    "cartridges-velocity-recoil-p5": "9137f3f8",
+    "cartridges-velocity-recoil-p6": "8cd7145a",
+    "cartridges-velocity-recoil-kp1": "e918f2e4",
+    "cartridges-velocity-recoil-kp2": "ef5b2407",
+    "cartridges-velocity-recoil-kp3": "d7496c84",
+    "cartridges-velocity-recoil-kp4": "7436d207",
+    "cartridges-velocity-recoil-kp5": "66db2bf2",
+    "cartridges-velocity-recoil-dyk": "7f953a03",
+    "cartridges-velocity-recoil-q1": "2af1818b",
+    "cartridges-velocity-recoil-q2": "e0186827",
+    "cartridges-velocity-recoil-q3": "6832d842"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "body": {
+    "cartridges-velocity-recoil-p1": "Na krabičce bývá uvedena {{term:velocity|rychlost broků}} (velocity), v metrech za sekundu nebo ve stopách za sekundu (fps). U sportovních nábojů je obvykle {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-p2": "Rychlosti porovnávejte opatrně. Brok po opuštění hlavně rychle zpomaluje, proto záleží, kde se rychlost měří. Evropští výrobci (podle zkušebních pravidel C.I.P.) obvykle měří 2,5 m od ústí a píšou „V2,5“; někteří píšou „V1“, měřeno na 1 m, což dává vyšší číslo. Značení není vždy jednotné, takže číslo berte jen jako orientační.",
+    "cartridges-velocity-recoil-p7": "Američtí výrobci udávají stopy za sekundu, měřeno asi 3 stopy (0,9 m) od ústí. Na britských krabičkách bývá někdy uvedena odhadovaná úsťová rychlost. Stejné číslo tedy nemusí znamenat stejnou rychlost.",
+    "cartridges-velocity-recoil-p3": "Rychlejší náboj mírně zkrátí dobu, než broky doletí k terči, ale víc kope a jeho obrazec není nutně lepší. Mnozí trenéři radí nehonit se za rychlostí, ale vybrat náboj, se kterým střílíte stabilně a který vás neunaví.",
+    "cartridges-velocity-recoil-p4": "{{term:recoil|Zpětný ráz}} (recoil) je náraz zbraně do ramene při výstřelu. Roste s těžší náplní a vyšší rychlostí a klesá s těžší zbraní. Plynová {{term:semi-automatic|samonabíjecí brokovnice}} rozloží náraz do delšího času, takže ho mnoho střelců vnímá jako měkčí.",
+    "cartridges-velocity-recoil-p5": "Ještě víc záleží na {{term:gun-fit|přizpůsobení pažby}} a správném {{term:gun-mount|zalícení}}. Zbraň, která vám sedí a pevně spočívá v rameni, působí mnohem měkčeji než ta, která se opírá o paži nebo o kost. Pomáhá i dobrá botka a stabilní postoj. Víc: {{lesson:gun-fit}} a {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p6": "Za den {{tm:sporting}} nebo {{tm:compak}} můžete vystřelit 100–200 ran. Silný zpětný ráz unavuje a může vás postupně naučit {{term:flinch|cuknout}} před výstřelem. Proto je lehčí náboj na trénink, například 24 g, rozumná volba, ne slabost."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "cartridges-velocity-recoil-kp1": "Typická rychlost sportovních nábojů: {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-kp2": "Výrobci měří rychlost různě (V1, V2,5, fps).",
+    "cartridges-velocity-recoil-kp3": "Rychlejší znamená silnější zpětný ráz, ale ne nutně lepší výsledky.",
+    "cartridges-velocity-recoil-kp4": "Zpětný ráz roste s náplní a rychlostí a klesá s váhou zbraně.",
+    "cartridges-velocity-recoil-kp5": "Dobré přizpůsobení a správné zalícení snižují pociťovaný zpětný ráz."
+  },
+  "quiz": {
+    "cartridges-velocity-recoil-q1": {
+      "q": "Co dělá zpětný ráz slabším?",
+      "options": {
+        "a": "Těžší náplň",
+        "b": "Vyšší rychlost",
+        "c": "Těžší zbraň",
+        "d": "Příliš krátká pažba"
+      },
+      "explain": "Těžší zbraň lépe pohltí náraz; těžší náplň a vyšší rychlost zpětný ráz zvyšují."
+    },
+    "cartridges-velocity-recoil-q2": {
+      "q": "Proč byste neměli přímo srovnávat rychlosti nábojů různých výrobců?",
+      "options": {
+        "a": "Výrobci je měří různými způsoby",
+        "b": "Číslo na krabičce si výrobci obvykle vymýšlejí",
+        "c": "Všechny náboje mají stejnou rychlost",
+        "d": "Rychlost na nic nemá vliv"
+      },
+      "explain": "V1, V2,5 a fps na 3 stopách jsou různé způsoby měření, takže stejné číslo neznamená stejný náboj."
+    },
+    "cartridges-velocity-recoil-q3": {
+      "q": "Jaká je typická rychlost sportovních nábojů?",
+      "options": {
+        "a": "Asi 100 m/s",
+        "b": "Asi 360–430 m/s",
+        "c": "Asi 900 m/s",
+        "d": "Přes 1500 m/s"
+      },
+      "explain": "Většina sportovních nábojů má rychlost asi 360–430 m/s."
+    }
+  },
+  "title": "Rychlost a zpětný ráz",
+  "summary": "Co znamená rychlost na krabičce nábojů, proč rychlejší neznamená vždy lepší a na čem závisí zpětný ráz — pro střelce {{tm:sporting}} a {{tm:compak}}.",
+  "did_you_know": "Brok doletí k terči na 30 m zhruba za desetinu sekundy. Za tu dobu se terč letící napříč posune o metr až dva, a proto na něj střelci míří s {{term:lead|předsazením}}."
+}

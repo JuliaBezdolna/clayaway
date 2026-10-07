@@ -1,0 +1,80 @@
+{
+ "id": "training-how-much-how-often",
+ "lang": "fi",
+ "base_rev": 4,
+ "h": {
+  "title": "cc408c6e",
+  "summary": "a286bf0c",
+  "training-how-much-how-often-p1": "59fceca1",
+  "training-how-much-how-often-p2": "6d6a92e6",
+  "training-how-much-how-often-p3": "7ba96c05",
+  "training-how-much-how-often-p4": "fd818c95",
+  "training-how-much-how-often-between": "f5424b4e",
+  "training-how-much-how-often-p5": "3155bc37",
+  "training-how-much-how-often-p6": "05a295f7",
+  "training-how-much-how-often-kp1": "e0f69529",
+  "training-how-much-how-often-kp2": "ebec5b82",
+  "training-how-much-how-often-kp3": "8c0e02e3",
+  "training-how-much-how-often-kp4": "c44370a4",
+  "training-how-much-how-often-kp5": "1d7170e7",
+  "training-how-much-how-often-dyk": "b035e281",
+  "training-how-much-how-often-q1": "75d42c29",
+  "training-how-much-how-often-q2": "58a7885b",
+  "training-how-much-how-often-q3": "212bc243"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Kuinka monta kiekkoa ja kuinka usein",
+ "summary": "Lähtökohtia aloittelijalle: montako kiekkoa per harjoitus, kuinka usein harjoitella ja miksi joka laukauksen laatu ratkaisee enemmän kuin määrä.",
+ "body": {
+  "training-how-much-how-often-p1": "Monesta aloittelijasta tuntuu, että enemmän laukauksia tarkoittaa nopeampaa edistymistä. Väsymys toimii usein päinvastoin. Väsyneet lihakset tekevät {{term:gun-mount|noston}} epätarkaksi, {{term:head-lift|pää voi nousta tukilta}}, ja samat virheet voivat toistua, kunnes ne juurtuvat.",
+  "training-how-much-how-often-p2": "Ensimmäisillä oppitunneilla harjoitus on usein yksi tai kaksi laatikkoa {{term:cartridge|patruunoita}} ({{fact:training.cartridge-box}}), niin kuin valmentaja ehdottaa. Kun tekniikka ja voima kasvavat, määrää voi lisätä vähän kerrallaan. Valmentaja asettaa määrän ikäsi, kuntosi ja aseesi ja patruunoiden painon mukaan.",
+  "training-how-much-how-often-p3": "{{term:recoil|Rekyyli}}, aseen potku olkapäähän, kasaantuu harjoituksen aikana. Jos olkapää tai poski alkaa särkeä, voit alkaa {{term:flinch|säpsähtää}}: keho nytkähtää juuri ennen laukausta. Kolme asiaa auttaa: ase, joka sopii sinulle, liivi {{term:shoulder-pad|olkatyynyllä}} ja kevyemmät patruunat. Valmentaja voi ehdottaa ensimmäisiksi kuukausiksi kevyempää {{term:load-weight|haulilatausta}}: patruunaa, jossa on vähemmän hauleja (pieniä kuulia), ja se potkii olkapäähän vähemmän. Lisää: {{lesson:health-recoil-shoulder-neck}} ja {{lesson:gun-fit}}.",
+  "training-how-much-how-often-p4": "Kuinka usein harjoittelet, ratkaisee yleensä enemmän kuin kuinka paljon ampuu kerralla. Moni valmentaja huomaa, että lyhyt harjoitus viikoittain tai kahdesti kuukaudessa antaa enemmän kuin pitkä harjoitus muutaman kerran vuodessa. Säännöllisillä harjoituksilla liike vakiintuu. Pitkän tauon jälkeen nosto ja aseen liike tuntuvat usein epävarmemmilta, ja oman tahdin löytäminen uudelleen voi viedä muutaman harjoituksen.",
+  "training-how-much-how-often-between": "Harjoitusten välillä liikkeen voi pitää tuoreena {{term:dry-mounting|noston harjoittelulla kuivana}}, mutta vain siellä, missä laki sallii, ja tyhjällä, tarkistetulla aseella. Miten: {{lesson:training-dry-mount-practice}}.",
+  "training-how-much-how-often-p5": "Pidä taukoja. Lepää muutama minuutti sarjojen välillä, juo vettä ja puhu valmentajan kanssa siitä, mitä tapahtuu. Kun osumatarkkuus laskee väsymyksen takia, on yleensä parempi lopettaa muutaman onnistuneen kiekon jälkeen kuin jatkaa väkisin.",
+  "training-how-much-how-often-p6": "Joka kiekko maksaa rahaa. Harjoitussuunnitelma auttaa käyttämään rahat edistymiseen, ei tarkoituksettomiin laukauksiin. Lisää säästövinkkejä: {{lesson:budget-how-to-save}}."
+ },
+ "note": {},
+ "phrases": {},
+ "key_points": {
+  "training-how-much-how-often-kp1": "Väsymys pilaa usein tekniikan ja juurruttaa virheitä",
+  "training-how-much-how-often-kp2": "Aloittelijalle harjoitus on usein yksi tai kaksi laatikkoa patruunoita ({{fact:training.cartridge-box}}), niin kuin valmentaja ehdottaa",
+  "training-how-much-how-often-kp3": "Rekyyli kasaantuu: sopiva ase, olkatyyny ja patruunat, joissa on vähemmän haulia (kevyempi lataus)",
+  "training-how-much-how-often-kp4": "Säännölliset harjoitukset, viikoittain tai kahdesti kuukaudessa, voittavat usein paljon ja harvoin ammutun",
+  "training-how-much-how-often-kp5": "Lepo sarjojen välillä ja lopettaminen ennen todellista väsymystä"
+ },
+ "quiz": {
+  "training-how-much-how-often-q1": {
+   "q": "Miksi suuri määrä laukauksia kerralla voi hidastaa aloittelijaa?",
+   "options": {
+    "a": "Väsymys pilaa tekniikan, ja virheet toistuvat",
+    "b": "Heittimet ylikuumenevat ja heittävät huonommin",
+    "c": "Piiput kuluvat loppuun viidenkymmenen laukauksen jälkeen"
+   },
+   "explain": "Väsyneet lihakset nostavat asetta epätarkemmin, ja samat virheet toistuvat."
+  },
+  "training-how-much-how-often-q2": {
+   "q": "Mikä suunnitelma antaa yleensä enemmän edistymistä?",
+   "options": {
+    "a": "Pitkä harjoitus muutaman kerran vuodessa",
+    "b": "Harjoitus viikoittain tai kahdesti kuukaudessa",
+    "c": "Harjoittelu vain ennen kilpailuja"
+   },
+   "explain": "Säännöllisillä harjoituksilla liike vakiintuu, ja harjoitusten välillä menetetään vähemmän."
+  },
+  "training-how-much-how-often-q3": {
+   "q": "Mitä voi tapahtua, jos rekyyli saa olkapään särkemään?",
+   "options": {
+    "a": "Alat ampua vakaammin",
+    "b": "Ammunnassa ei muutu mikään",
+    "c": "Voit alkaa säpsähtää laukauksessa"
+   },
+   "explain": "Keho odottaa kipua ja nytkähtää, niin pidä rekyyli hallinnassa: sopiva ase, olkatyyny ja patruunat, joissa on vähemmän haulia."
+  }
+ },
+ "did_you_know": "Moni kokenut ampuja harjoittelee lyhyissä sarjoissa täydellä keskittymisellä, ei pitkissä harjoituksissa ilman taukoa."
+}

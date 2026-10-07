@@ -1,0 +1,94 @@
+{
+  "id": "competitions-types-of-events",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "9dffeb91",
+    "summary": "5266bf8e",
+    "competitions-types-of-events-p1": "3fa8f0c6",
+    "competitions-types-of-events-p2": "e47a0618",
+    "competitions-types-of-events-p3": "4068ff56",
+    "competitions-types-of-events-p4": "2050ea6a",
+    "competitions-types-of-events-cmp1": "db25bf76",
+    "competitions-types-of-events-p5": "167ea310",
+    "competitions-types-of-events-start": "c01655a7",
+    "competitions-types-of-events-kp1": "334df79a",
+    "competitions-types-of-events-kp2": "60c3ebde",
+    "competitions-types-of-events-kp3": "3156c5e6",
+    "competitions-types-of-events-kp5": "c5cdc6bb",
+    "competitions-types-of-events-dyk-targets": "0efb7454",
+    "competitions-types-of-events-n1": "b410ad60",
+    "competitions-types-of-events-q1": "b0ccc10a",
+    "competitions-types-of-events-q2": "7eb048a4",
+    "competitions-types-of-events-q3": "5bc9c1dc",
+    "competitions-types-of-events-q4": "f3d60ee6"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Druhy závodů",
+  "summary": "Klubové závody, národní závody, Grand Prix a mistrovství ve {{tm:sporting}} a {{tm:compak}}: čím se liší a kde může začátečník začít.",
+  "body": {
+    "competitions-types-of-events-p1": "Závody ve {{tm:sporting}} a {{tm:compak}} sahají od přátelského {{term:club-shoot|klubového závodu}} až po {{term:championship|mistrovství}} světa. Mezinárodní pravidla obou disciplín píše {{term:fitasc|FITASC}}, mezinárodní federace, která je řídí. Jak je tento sport organizovaný, vysvětluje lekce {{lesson:intro-fitasc-and-organisation}}.",
+    "competitions-types-of-events-p2": "Klubový závod je dobré místo, kde začít. Pořádají je kluby a střelnice, často o víkendech. Terčů bývá méně než na velkých závodech, tempo je klidnější a lidé vám rádi vysvětlí, co dělat. Počet terčů, formát a část pravidel určuje {{term:organiser|pořadatel}}, takže si přečtěte program závodu.",
+    "competitions-types-of-events-p3": "Dál následují národní závody: mistrovství státu a poháry, které pořádá {{term:national-federation|národní svaz}} nebo klub, který k tomu pověří. Jejich pravidla bývají blízká mezinárodním a výsledky se mohou počítat při nominaci do národního družstva.",
+    "competitions-types-of-events-p4": "Mezinárodní závody FITASC jsou otevřené střelcům z mnoha zemí. Patří mezi ně závody {{term:grand-prix|Grand Prix}} a na nejvyšší úrovni mistrovství Evropy a světa. Mezinárodní závod bývá obvykle {{fact:basics.international-targets}}, rozložený na několik dní.",
+    "competitions-types-of-events-cmp1": {
+      "sporting": "200 terčů se střílí na osmi {{term:layout|střelištích}}, jedna {{term:round|položka}} 25 terčů na každém. Na závodech Grand Prix je povolená i „linie“: řada {{fact:competitions.sporting-grand-prix-line}}.",
+      "compak": "200 terčů se střílí na osmi polích Compak (jedno pole Compak má pět stanovišť a šest vrhaček). Pole jsou čtyř druhů: liší se tím, kolik jednotlivých terčů a dvojstřelů se střílí z každého stanoviště a jaký typ dvojstřelu to je. Na mistrovství kontinentu a světa staví pořadatelský klub {{fact:competitions.compak-championship-machines}} (šest na každé pole) jen pro dané závody, aby měli všichni stejné podmínky."
+    },
+    "competitions-types-of-events-p5": "Velká mistrovství hodnotí kromě jednotlivců i {{term:team|družstva}}: výsledky členů národního družstva se sčítají. Střelci se navíc řadí do {{term:category|kategorií}} podle věku a pohlaví. Obojí vysvětluje lekce {{lesson:competitions-categories-and-shoot-offs}}.",
+    "competitions-types-of-events-start": "Řada trenérů doporučuje začít s několika klubovými závody. Zvyknete si na harmonogram, {{term:squad|skupinu}} i {{term:referee|rozhodčího}} bez velkého tlaku. Jak se přihlásit: {{lesson:competitions-how-to-enter}}."
+  },
+  "note": {
+    "competitions-types-of-events-n1": "Úroveň závodu je pro střelce důležitá. Grand Prix FITASC je mezinárodní závod z kalendáře FITASC, ale Grand Prix se mohou nazývat i národní a klubové závody. Úroveň překládejte přesně tak, jak ji uvádí program."
+  },
+  "phrases": {},
+  "key_points": {
+    "competitions-types-of-events-kp1": "Klubový závod je dobrý první krok; jeho formát určuje pořadatel.",
+    "competitions-types-of-events-kp2": "Národní závody pořádá národní svaz nebo klub, který k tomu pověří.",
+    "competitions-types-of-events-kp3": "Závody Grand Prix a mistrovství Evropy a světa jsou mezinárodní; obvykle to je {{fact:basics.international-targets}}.",
+    "competitions-types-of-events-kp5": "Mistrovství hodnotí jednotlivce, družstva i kategorie."
+  },
+  "did_you_know": "Ve {{tm:sporting}} může jury ve výjimečném případě snížit počet terčů. Pořadatel pak vrátí peníze za neodstřílené terče za cenu tréninkových.",
+  "quiz": {
+    "competitions-types-of-events-q1": {
+      "q": "Kolik terčů obvykle má mezinárodní závod FITASC?",
+      "options": {
+        "a": "100",
+        "b": "200",
+        "c": "150"
+      },
+      "explain": "Mezinárodní závod bývá obvykle 200 terčů, které se střílí po položkách 25."
+    },
+    "competitions-types-of-events-q2": {
+      "q": "Kdo obvykle určuje formát klubového závodu?",
+      "options": {
+        "a": "Sami střelci, na místě",
+        "b": "Rozhodčí na prvním stanovišti",
+        "c": "Pořadatel, v programu závodu"
+      },
+      "explain": "Počet terčů a formát klubového závodu určuje pořadatel a program uvádí, jaké jsou."
+    },
+    "competitions-types-of-events-q3": {
+      "q": "Proč se na mistrovství kontinentu a světa ve {{tm:compak}} používají nové vrhačky?",
+      "options": {
+        "a": "Aby byly podmínky pro všechny stejné",
+        "b": "Protože staré vrhačky zakazuje zákon",
+        "c": "Aby terče létaly rychleji"
+      },
+      "explain": "Pořadatelský klub nesmí použít vrhačky, na kterých běžně střílí: pro mistrovství se staví {{fact:competitions.compak-championship-machines}}."
+    },
+    "competitions-types-of-events-q4": {
+      "q": "Jaký zvláštní formát {{tm:sporting}} je povolený jen na závodech Grand Prix?",
+      "options": {
+        "a": "Skupiny deseti střelců na jednom stanovišti",
+        "b": "Linie 3 stanovišť s 5 vrhačkami na každém",
+        "c": "Položky 50 terčů na jednom střelišti"
+      },
+      "explain": "Linie 3 stanovišť s 5 vrhačkami na každém je povolená jen na závodech Grand Prix."
+    }
+  }
+}

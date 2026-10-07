@@ -1,0 +1,266 @@
+{
+  "id": "training-how-much-how-often",
+  "rev": 4,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "training-how-much-how-often"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "gun-mount",
+    "head-lift",
+    "cartridge",
+    "recoil",
+    "flinch",
+    "shoulder-pad",
+    "load-weight",
+    "dry-mounting"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "training.cartridge-box"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Gunmart — Getting Started in Clay Shooting (updated 26.06.2017)",
+        "uk": "Gunmart — Getting Started in Clay Shooting (оновлено 26.06.2017)"
+      },
+      "url": "https://www.gunmart.net/shooting-advice/getting-started/advice-shotgun/getting-started-in-clay-shooting",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How many targets and how often",
+    "uk": "Скільки мішеней і як часто"
+  },
+  "summary": {
+    "en": "Starting points for a beginner: how many targets per session, how often to train and why the quality of each shot matters more than the number.",
+    "uk": "Орієнтири для новачка: скільки мішеней за тренування, як часто тренуватися і чому якість кожного пострілу важливіша за кількість."
+  },
+  "body": [
+    {
+      "k": "training-how-much-how-often-p1",
+      "t": "p",
+      "en": "Many beginners think that more shots mean faster progress. Fatigue often works the other way. Tired muscles make the {{term:gun-mount|mount}} less precise, the {{term:head-lift|head may lift}} off the stock, and the same faults can repeat until they set in.",
+      "uk": "Багатьом новачкам здається, що більше пострілів — швидший прогрес. Утома часто діє навпаки. Утомлені м’язи роблять {{term:gun-mount|вкладку}} неточною, може з’явитися {{term:head-lift|відрив щоки від приклада}}, і ті самі помилки можуть повторюватися, доки не закріпляться."
+    },
+    {
+      "k": "training-how-much-how-often-p2",
+      "t": "p",
+      "en": "For the first lessons a session is often one or two boxes of {{term:cartridge|cartridges}} ({{fact:training.cartridge-box}}), as your coach suggests. As technique and strength grow, you can shoot more, step by step. Your coach sets the number for your age, fitness and the weight of your gun and cartridges.",
+      "uk": "На перших уроках за тренування часто стріляють одну-дві коробки {{term:cartridge|набоїв}} ({{fact:training.cartridge-box}}) — скільки порадить тренер. Коли техніка й сили зростають, кількість можна поступово збільшувати. Тренер підбирає її з огляду на ваш вік, фізичну форму, вагу рушниці й набоїв."
+    },
+    {
+      "k": "training-how-much-how-often-p3",
+      "t": "p",
+      "en": "{{term:recoil|Recoil}}, the push of the gun into your shoulder, adds up over a session. If your shoulder or cheek starts to hurt, you may begin to {{term:flinch|flinch}}: the body jerks just before the shot. Three things help: a gun that fits you, a vest with a {{term:shoulder-pad|shoulder pad}} and lighter cartridges. Your coach may suggest a lighter {{term:load-weight|load}} for the first months: a cartridge with less shot (the small pellets) in it, which pushes less into your shoulder. More in {{lesson:health-recoil-shoulder-neck}} and {{lesson:gun-fit}}.",
+      "uk": "{{term:recoil|Віддача}} — поштовх рушниці в плече — за тренування накопичується. Якщо плече чи щока починають боліти, може з’явитися {{term:flinch|смикання}}: тіло сіпається просто перед пострілом. Допомагають три речі: рушниця, що вам пасує, жилет із {{term:shoulder-pad|наплічником}} і легші набої. На перші місяці тренер може порадити легшу {{term:load-weight|наважку дробу}} — набій, у якому менше дробу (дрібних кульок), тож він слабше б’є в плече. Докладніше — в уроках {{lesson:health-recoil-shoulder-neck}} і {{lesson:gun-fit}}."
+    },
+    {
+      "k": "training-how-much-how-often-p4",
+      "t": "p",
+      "en": "How often you train usually matters more than how much you shoot in one go. Many coaches find that a short session weekly or twice a month does more than a long one a few times a year. With regular sessions the movement settles. After a long break the mount and swing often feel less sure, and it can take a few sessions to get your timing back.",
+      "uk": "Те, як часто ви тренуєтеся, зазвичай важить більше, ніж те, скільки ви стріляєте за раз. Багато тренерів помічають, що коротке тренування щотижня або двічі на місяць дає більше, ніж довге кілька разів на рік. За регулярних тренувань рух закріплюється. Після довгої перерви вкладка й ведення рушниці часто відчуваються менш упевнено, і може знадобитися кілька тренувань, щоб знову відчути темп."
+    },
+    {
+      "k": "training-how-much-how-often-between",
+      "t": "tip",
+      "en": "Between sessions you can keep the movement fresh with {{term:dry-mounting|dry practice of the mount}}, but only where the law allows and with an unloaded gun that you have checked. How: {{lesson:training-dry-mount-practice}}.",
+      "uk": "Між тренуваннями рух можна підтримувати {{term:dry-mounting|вкладкою без пострілу}}, але лише там, де це дозволяє закон, і з розрядженою рушницею після перевірки. Як саме — в уроці {{lesson:training-dry-mount-practice}}."
+    },
+    {
+      "k": "training-how-much-how-often-p5",
+      "t": "p",
+      "en": "Take breaks. Rest a few minutes between series, drink water and talk to your coach about what is happening. When accuracy drops because you are tired, it is usually better to stop after a few good targets than to keep going.",
+      "uk": "Робіть паузи. Між серіями відпочиньте кілька хвилин, випийте води, обговоріть із тренером, що відбувається. Коли влучність падає через утому, зазвичай краще завершити кількома вдалими мішенями, ніж стріляти далі через силу."
+    },
+    {
+      "k": "training-how-much-how-often-p6",
+      "t": "p",
+      "en": "Each target costs money. A training plan helps you spend it on progress rather than on shots without a purpose. More ways to save: {{lesson:budget-how-to-save}}.",
+      "uk": "Кожна мішень коштує грошей. План тренувань допомагає витрачати їх на поступ, а не на постріли без мети. Інші способи заощадити — в уроці {{lesson:budget-how-to-save}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "training-how-much-how-often-kp1",
+      "en": "Fatigue often spoils technique and repeats faults",
+      "uk": "Утома часто псує техніку й закріплює помилки"
+    },
+    {
+      "k": "training-how-much-how-often-kp2",
+      "en": "For a beginner, a session is often one or two boxes of cartridges ({{fact:training.cartridge-box}}), as the coach suggests",
+      "uk": "Новачкові на одне тренування часто вистачає однієї-двох коробок набоїв ({{fact:training.cartridge-box}}) — як порадить тренер"
+    },
+    {
+      "k": "training-how-much-how-often-kp3",
+      "en": "Recoil adds up: a gun that fits, a shoulder pad and cartridges with less shot (a lighter load)",
+      "uk": "Віддача накопичується: рушниця, що пасує, наплічник і набої з меншою наважкою дробу"
+    },
+    {
+      "k": "training-how-much-how-often-kp4",
+      "en": "Regular sessions, weekly or twice a month, often beat a lot of shooting rarely",
+      "uk": "Регулярно, щотижня або двічі на місяць, часто краще, ніж багато й рідко"
+    },
+    {
+      "k": "training-how-much-how-often-kp5",
+      "en": "Rest between series and stop before you are really tired",
+      "uk": "Паузи між серіями й завершення до сильної втоми"
+    }
+  ],
+  "did_you_know": {
+    "k": "training-how-much-how-often-dyk",
+    "en": "Many experienced shooters train in shorter series with full focus rather than in long sessions without a break.",
+    "uk": "Багато досвідчених стрільців тренуються короткими серіями з повною концентрацією, а не довгими сесіями без перерви."
+  },
+  "quiz": [
+    {
+      "k": "training-how-much-how-often-q1",
+      "disc": "both",
+      "q": {
+        "en": "Why can a lot of shots in one go hold a beginner back?",
+        "uk": "Чому велика кількість пострілів за раз може гальмувати новачка?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Fatigue spoils technique and repeats faults",
+          "uk": "Утома псує техніку, і помилки повторюються"
+        },
+        {
+          "k": "b",
+          "en": "The traps overheat and throw worse targets",
+          "uk": "Машинки перегріваються й кидають гірше"
+        },
+        {
+          "k": "c",
+          "en": "The barrels wear out after fifty shots",
+          "uk": "Стволи зношуються після п’ятдесяти пострілів"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Tired muscles mount the gun less precisely, and the same faults repeat.",
+        "uk": "Утомлені м’язи вкладають рушницю менш точно, і ті самі помилки повторюються."
+      }
+    },
+    {
+      "k": "training-how-much-how-often-q2",
+      "disc": "both",
+      "q": {
+        "en": "Which plan usually gives more progress?",
+        "uk": "Який план зазвичай дає більший поступ?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A long session a few times a year",
+          "uk": "Довге тренування кілька разів на рік"
+        },
+        {
+          "k": "b",
+          "en": "A session weekly or twice a month",
+          "uk": "Тренування щотижня або двічі на місяць"
+        },
+        {
+          "k": "c",
+          "en": "Training only before competitions",
+          "uk": "Тренування лише перед змаганнями"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "With regular sessions the movement settles, and you lose less between sessions.",
+        "uk": "За регулярних тренувань рух закріплюється, і між тренуваннями менше втрачається."
+      }
+    },
+    {
+      "k": "training-how-much-how-often-q3",
+      "disc": "both",
+      "q": {
+        "en": "What can happen if recoil makes your shoulder hurt?",
+        "uk": "Що може статися, якщо від віддачі болить плече?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "You start to shoot more steadily",
+          "uk": "Ви почнете стріляти стабільніше"
+        },
+        {
+          "k": "b",
+          "en": "Nothing changes in your shooting",
+          "uk": "У стрільбі нічого не зміниться"
+        },
+        {
+          "k": "c",
+          "en": "You may start to flinch at the shot",
+          "uk": "Може з’явитися смикання перед пострілом"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The body expects pain and jerks, so keep recoil under control with gun fit, a pad and cartridges with less shot.",
+        "uk": "Тіло чекає болю й сіпається, тому віддачу тримають під контролем: підгонка рушниці, наплічник і набої з меншою наважкою дробу."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "cc408c6e",
+    "summary": "a286bf0c",
+    "training-how-much-how-often-p1": "59fceca1",
+    "training-how-much-how-often-p2": "6d6a92e6",
+    "training-how-much-how-often-p3": "7ba96c05",
+    "training-how-much-how-often-p4": "fd818c95",
+    "training-how-much-how-often-between": "f5424b4e",
+    "training-how-much-how-often-p5": "3155bc37",
+    "training-how-much-how-often-p6": "05a295f7",
+    "training-how-much-how-often-kp1": "e0f69529",
+    "training-how-much-how-often-kp2": "ebec5b82",
+    "training-how-much-how-often-kp3": "8c0e02e3",
+    "training-how-much-how-often-kp4": "c44370a4",
+    "training-how-much-how-often-kp5": "1d7170e7",
+    "training-how-much-how-often-dyk": "b035e281",
+    "training-how-much-how-often-q1": "75d42c29",
+    "training-how-much-how-often-q2": "58a7885b",
+    "training-how-much-how-often-q3": "212bc243"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

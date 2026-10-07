@@ -1,0 +1,336 @@
+{
+  "id": "budget-what-it-costs",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "budget-what-it-costs"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "coach",
+    "gun-mount",
+    "cartridge",
+    "target",
+    "round",
+    "single-target",
+    "safety-glasses",
+    "earplugs",
+    "hearing-protection",
+    "shooting-vest",
+    "gun-slip",
+    "hard-case",
+    "sports-licence",
+    "european-firearms-pass",
+    "entry-fee",
+    "club-shoot"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch4-single-target"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-trajectory-variety"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-ready"
+    },
+    {
+      "book": "compak",
+      "id": "ch5-competition-layouts"
+    }
+  ],
+  "facts": [
+    "basics.international-targets",
+    "rules.round-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "EU: Directive (EU) 2021/555 on control of the acquisition and possession of weapons — European Firearms Pass (EUR-Lex)",
+        "uk": "ЄС: Директива (ЄС) 2021/555 про контроль за придбанням і зберіганням зброї — Європейський вогнепальний паспорт (EUR-Lex)"
+      },
+      "url": "https://eur-lex.europa.eu/eli/dir/2021/555/oj/eng",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What the budget is made of",
+    "uk": "З чого складається бюджет"
+  },
+  "summary": {
+    "en": "The main costs for a beginner in {{tm:sporting}} and {{tm:compak}}: coaching, the gun, cartridges, targets, protection, documents and insurance, entry fees and travel.",
+    "uk": "Основні витрати новачка в {{tm:sporting}} і {{tm:compak}}: заняття з тренером, рушниця, набої, мішені, захист, документи й страхування, стартові внески і дорога."
+  },
+  "body": [
+    {
+      "k": "budget-what-it-costs-p1",
+      "t": "p",
+      "en": "Clay shooting, like many sports, has one-off and regular costs. One-off costs are things you buy once in a few years: a gun, glasses, hearing protection, a vest. Regular costs are what you use up at each session: cartridges and targets. Prices differ a lot between countries, regions and grounds, so this lesson gives no amounts, only what a budget is made of.",
+      "uk": "Стендова стрільба, як і багато видів спорту, має разові та регулярні витрати. Разові — це те, що купують раз на кілька років: рушниця, окуляри, захист слуху, жилет. Регулярні — те, що ви витрачаєте на кожному занятті: набої й мішені. Ціни дуже різняться між країнами, регіонами й стендами, тому тут немає сум — лише те, з чого складається бюджет."
+    },
+    {
+      "k": "budget-what-it-costs-p2",
+      "t": "p",
+      "en": "Coaching. Lessons with a {{term:coach|coach}} are often money well spent at the start. A coach teaches safety, sets up your stance and {{term:gun-mount|gun mount}}, and helps you avoid habits that take long to fix. Many grounds offer a taster session for beginners with the gun, cartridges and targets included.",
+      "uk": "Заняття з тренером. На початку це часто дуже корисна витрата. {{term:coach|Тренер}} навчить безпеки, поставить стійку й {{term:gun-mount|вкладку}} і допоможе уникнути звичок, які потім довго виправляти. Багато стендів пропонують пробне заняття для новачків, де вже є рушниця, набої й мішені."
+    },
+    {
+      "k": "budget-what-it-costs-p3",
+      "t": "p",
+      "en": "The gun. A beginner usually starts with a gun hired at the ground and buys their own later. Your own gun is the biggest one-off cost, but it lasts many years. Add a {{term:gun-slip|slip}} (a soft gun cover) or a {{term:hard-case|hard case}}, a cleaning kit and, where the law requires it, a safe. Renting or buying: {{lesson:gun-first-gun}}.",
+      "uk": "Рушниця. Новачок зазвичай починає з рушниці, взятої напрокат на стенді, і лише згодом купує власну. Власна рушниця — найбільша разова витрата, але служить багато років. До неї додаються {{term:gun-slip|м’який чохол}} або {{term:hard-case|кейс для рушниці}}, набір для чищення і, де цього вимагає закон, сейф. Орендувати чи купувати: {{lesson:gun-first-gun}}."
+    },
+    {
+      "k": "budget-what-it-costs-p4",
+      "t": "p",
+      "disc": "both",
+      "en": "Cartridges and targets are the main regular cost. A {{term:round|round}} is {{fact:rules.round-targets}}, and each target needs at least one cartridge. Take spares: at a {{term:single-target|single target}} you may fire a second shot, so a round can use more cartridges than it has targets. Targets are paid for separately, per target or per round, depending on the ground.",
+      "uk": "Набої й мішені — головна регулярна витрата. {{term:round|Раунд}} — це {{fact:rules.round-targets}}, і на кожну мішень потрібен щонайменше один набій. Беріть запас: по {{term:single-target|одиночній мішені}} можна зробити другий постріл, тож за раунд може піти більше набоїв, ніж у ньому мішеней. Мішені оплачують окремо — за кожну або за раунд, залежно від стенду."
+    },
+    {
+      "k": "budget-what-it-costs-p5",
+      "t": "p",
+      "en": "Protection and clothing: {{term:safety-glasses|safety glasses}}, {{term:earplugs|earplugs}} or ear muffs, and later a {{term:shooting-vest|shooting vest}}, a cap and comfortable shoes. Glasses and hearing protection are needed from the first session; grounds often lend them.",
+      "uk": "Захист і одяг: {{term:safety-glasses|стрілецькі окуляри}}, {{term:earplugs|беруші}} чи навушники, а згодом — {{term:shooting-vest|стрілецький жилет}}, кепка і зручне взуття. Окуляри й захист слуху потрібні з першого заняття; на стенді їх часто дають напрокат."
+    },
+    {
+      "k": "budget-what-it-costs-p6",
+      "t": "p",
+      "en": "Documents and insurance. To own a gun, many countries require a firearms permit. For competitions you often also need federation membership or a {{term:sports-licence|sports licence}}. Many countries or clubs require liability insurance (cover for harm you might cause to other people). If you live in the EU and take your own gun to another EU country, you usually need a {{term:european-firearms-pass|European Firearms Pass}}. Without one, you can hire a gun where you are going. Requirements differ from country to country: {{lesson:travel-gun-in-eu}}.",
+      "uk": "Документи й страхування. Щоб мати власну рушницю, у багатьох країнах потрібен дозвіл на зброю. Для змагань часто потрібні ще й членство у федерації або {{term:sports-licence|спортивна ліцензія}}. У багатьох країнах або клубах вимагають страхування цивільної відповідальності (страховку на випадок, якщо ви завдасте шкоди іншим людям). Якщо ви живете в ЄС і їдете зі своєю рушницею до іншої країни ЄС, зазвичай потрібен {{term:european-firearms-pass|Європейський вогнепальний паспорт}}. Без нього рушницю можна взяти напрокат на місці. Вимоги в кожній країні свої: {{lesson:travel-gun-in-eu}}."
+    },
+    {
+      "k": "budget-what-it-costs-p7",
+      "t": "p",
+      "en": "Competitions and travel. Competitions charge an {{term:entry-fee|entry fee}}. Add travel, accommodation and meals if the event is far away. {{term:club-shoot|Club shoots}} close to home are an affordable way to start competing.",
+      "uk": "Змагання й дорога. За участь у змаганнях сплачують {{term:entry-fee|стартовий внесок}}. Додайте дорогу, проживання й харчування, якщо змагання далеко. {{term:club-shoot|Клубні змагання}} поруч із домом — доступний спосіб почати змагатися."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "budget-what-it-costs-kp1",
+      "en": "One-off costs: gun, protection, vest, safe.",
+      "uk": "Разові витрати: рушниця, захист, жилет, сейф."
+    },
+    {
+      "k": "budget-what-it-costs-kp2",
+      "en": "Regular costs: cartridges and targets; coaching as often as you book it.",
+      "uk": "Регулярні: набої й мішені; заняття з тренером — так часто, як ви їх замовляєте."
+    },
+    {
+      "k": "budget-what-it-costs-kp3",
+      "en": "A round ({{fact:rules.round-targets}}) needs at least as many cartridges; take spares for second shots.",
+      "uk": "Раунд ({{fact:rules.round-targets}}) потребує щонайменше стільки ж набоїв; беріть запас на другі постріли."
+    },
+    {
+      "k": "budget-what-it-costs-kp4",
+      "checklist": true,
+      "en": "Documents, membership and insurance depend on the country.",
+      "uk": "Документи, членство й страхування залежать від країни."
+    },
+    {
+      "k": "budget-what-it-costs-kp5",
+      "en": "Competitions: entry fee plus travel.",
+      "uk": "Змагання: стартовий внесок плюс дорога."
+    }
+  ],
+  "did_you_know": {
+    "k": "budget-what-it-costs-dyk",
+    "en": "Under FITASC rules an international competition is {{fact:basics.international-targets}}, so one such event needs at least as many cartridges, and more with spares.",
+    "uk": "За правилами FITASC міжнародне змагання — це {{fact:basics.international-targets}}, тож на один такий старт потрібно щонайменше стільки ж набоїв, а з запасом — більше."
+  },
+  "quiz": [
+    {
+      "k": "budget-what-it-costs-q1",
+      "q": {
+        "en": "Which of these is a regular cost?",
+        "uk": "Що з переліку — регулярна витрата?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Your own gun",
+          "uk": "Власна рушниця"
+        },
+        {
+          "k": "b",
+          "en": "Cartridges and targets",
+          "uk": "Набої й мішені"
+        },
+        {
+          "k": "c",
+          "en": "A gun safe",
+          "uk": "Сейф для рушниці"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Cartridges and targets are used up at each session.",
+        "uk": "Набої й мішені витрачаються на кожному занятті."
+      }
+    },
+    {
+      "k": "budget-what-it-costs-q2",
+      "disc": "both",
+      "q": {
+        "en": "How many cartridges should you take for a round of 25 targets?",
+        "uk": "Скільки набоїв варто взяти на раунд із 25 мішеней?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At least 25, plus spares",
+          "uk": "Щонайменше 25, плюс запас"
+        },
+        {
+          "k": "b",
+          "en": "10, the ground adds more",
+          "uk": "10, решту дасть стенд"
+        },
+        {
+          "k": "c",
+          "en": "Exactly 25, no spares",
+          "uk": "Рівно 25, без запасу"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "You need one cartridge per target, and you may fire a second shot at a single target, so take spares.",
+        "uk": "Потрібен щонайменше набій на мішень, а по одиночній мішені можна вистрілити двічі, тож беріть запас."
+      }
+    },
+    {
+      "k": "budget-what-it-costs-q3",
+      "q": {
+        "en": "How does a beginner usually start?",
+        "uk": "З чого зазвичай починає новачок?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Buys an expensive gun first",
+          "uk": "Спершу купує дорогу рушницю"
+        },
+        {
+          "k": "b",
+          "en": "Enters a championship abroad",
+          "uk": "Їде на чемпіонат за кордон"
+        },
+        {
+          "k": "c",
+          "en": "A taster session with a coach",
+          "uk": "З пробного заняття з тренером"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A taster session with a hired gun lets you try the sport without big spending.",
+        "uk": "Пробне заняття з рушницею напрокат дає змогу спробувати без великих витрат."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "budget-what-it-costs-q-efp",
+      "q": {
+        "en": "When do you usually need a European Firearms Pass?",
+        "uk": "Коли зазвичай потрібен Європейський вогнепальний паспорт?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "For a lesson at your local ground",
+          "uk": "Для заняття на місцевому стенді"
+        },
+        {
+          "k": "b",
+          "en": "When you hire a gun abroad",
+          "uk": "Коли берете рушницю напрокат за кордоном"
+        },
+        {
+          "k": "c",
+          "en": "Taking your own gun across the EU",
+          "uk": "Коли везете свою рушницю в іншу країну ЄС"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The pass is issued by the EU country where you live, for travelling with your own guns. Without it, you can hire a gun at the destination.",
+        "uk": "Паспорт видає країна ЄС, де ви живете, для поїздок із власною зброєю. Без нього рушницю можна взяти напрокат на місці."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "3f303491",
+    "summary": "2761b335",
+    "budget-what-it-costs-p1": "42e016de",
+    "budget-what-it-costs-p2": "384ab543",
+    "budget-what-it-costs-p3": "fe5fb3b2",
+    "budget-what-it-costs-p4": "78f1a3dd",
+    "budget-what-it-costs-p5": "e4ff322f",
+    "budget-what-it-costs-p6": "f7768ec8",
+    "budget-what-it-costs-p7": "9dcfb15f",
+    "budget-what-it-costs-kp1": "89682efd",
+    "budget-what-it-costs-kp2": "df22a122",
+    "budget-what-it-costs-kp3": "5d41933f",
+    "budget-what-it-costs-kp4": "12a6b93d",
+    "budget-what-it-costs-kp5": "72393657",
+    "budget-what-it-costs-dyk": "b748910f",
+    "budget-what-it-costs-q1": "9ffc0377",
+    "budget-what-it-costs-q2": "bd2c3eda",
+    "budget-what-it-costs-q3": "de60fb84",
+    "budget-what-it-costs-q-efp": "a73db5bd"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

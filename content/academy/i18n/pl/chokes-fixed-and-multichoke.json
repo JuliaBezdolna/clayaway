@@ -1,0 +1,91 @@
+{
+  "id": "chokes-fixed-and-multichoke",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "bde7f021",
+    "summary": "ccf70477",
+    "chokes-fixed-and-multichoke-p1": "23ae3c30",
+    "chokes-fixed-and-multichoke-p2": "e7103ab0",
+    "chokes-fixed-and-multichoke-p3": "204a8f9d",
+    "chokes-fixed-and-multichoke-p4": "5a913245",
+    "chokes-fixed-and-multichoke-cmp1": "33d955d7",
+    "chokes-fixed-and-multichoke-kp1": "373ad63b",
+    "chokes-fixed-and-multichoke-kp2": "02e18af9",
+    "chokes-fixed-and-multichoke-kp3": "208bc5ab",
+    "chokes-fixed-and-multichoke-kp4": "d1799e1f",
+    "chokes-fixed-and-multichoke-dyk": "51b43287",
+    "chokes-fixed-and-multichoke-q1": "2c83214f",
+    "chokes-fixed-and-multichoke-q2": "23f75281",
+    "chokes-fixed-and-multichoke-q3": "f6b1189d",
+    "chokes-fixed-and-multichoke-q4": "14c51674"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Czoki stałe i wymienne",
+  "summary": "Czoki są albo wytoczone w lufie na stałe, albo wkręcanymi tulejkami, które można zmieniać. O obu opcjach i o tym, kiedy przepisy {{tm:sporting}} i {{tm:compak}} pozwalają je zmieniać.",
+  "body": {
+    "chokes-fixed-and-multichoke-p1": "{{term:fixed-choke|Czok stały}} jest wytoczony w lufie w fabryce, i zmienić go może tylko {{term:gunsmith|rusznikarz}}. W ten sposób wykonano wiele starszych i klasycznych strzelb. Taki bok ma zwykle dwa różne zwężenia, na przykład 1/4 i 1/2, a strzelec pracuje tym, co ma.",
+    "chokes-fixed-and-multichoke-p2": "{{term:multichoke|Czoki wymienne}} (multichoke) to krótkie gwintowane tulejki wkręcane w wylot lufy {{term:choke-key|kluczem do czoków}}. Ma je większość nowoczesnych strzelb zawodniczych. Broń przychodzi z zestawem kilku czoków, a strzelec montuje te, które pasują do rzutków.",
+    "chokes-fixed-and-multichoke-p3": "Tulejki są albo zrównane z końcem lufy (flush), albo {{term:extended-choke|wystające}}: wystają poza wylot, często o 1–5 cm. Wiele czoków wystających można odkręcić ręką, a ich oznaczenie widać bez wyjmowania.",
+    "chokes-fixed-and-multichoke-p4": "Gwinty i rozmiary różnią się między producentami, a nawet między modelami tego samego producenta. Czok z innego systemu może nie pasować albo wkręcić się nieprawidłowo, co jest niebezpieczne. Kupuj tylko czoki przeznaczone do twojej broni.",
+    "chokes-fixed-and-multichoke-cmp1": {
+      "sporting": "Czok, całą broń albo lufę możesz zmienić między stanowiskami albo między rzutkami pojedynczymi a dubletami, jeśli nie zatrzymuje to zawodów. Gdy już wejdziesz na stanowisko, zmian nie ma.",
+      "compak": "W trakcie serii nie można zmieniać broni, luf ani czoków. Zmienia się je tylko między seriami; wyjątkiem jest awaria broni. Więc wybieraj czoki, które poradzą sobie z wszystkimi rzutkami serii."
+    }
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-fixed-and-multichoke-kp1": "Czok stały jest wytoczony w lufie; wymienny wkręca się kluczem.",
+    "chokes-fixed-and-multichoke-kp2": "Czoki z różnych systemów nie są wzajemnie wymienne.",
+    "chokes-fixed-and-multichoke-kp3": "{{tm:sporting}}: zmieniaj czoki między stanowiskami, nie na stanowisku.",
+    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}}: bez zmian czoków w trakcie serii."
+  },
+  "did_you_know": "Niektórzy strzelcy {{tm:sporting}} w ogóle nie zmieniają czoków podczas zawodów i polegają na jednej parze, na przykład 1/4 i 1/2. Dzięki temu mniej myślą o sprzęcie, a bardziej o rzutkach.",
+  "quiz": {
+    "chokes-fixed-and-multichoke-q1": {
+      "q": "Kiedy w {{tm:sporting}} można zmienić czok?",
+      "options": {
+        "a": "Między stanowiskami, jeśli nie powoduje opóźnienia",
+        "b": "Na stanowisku, tuż przed dubletem",
+        "c": "Tylko przed pierwszym stanowiskiem dnia",
+        "d": "Tylko za pisemną zgodą jury"
+      },
+      "explain": "Zmieniać można między stanowiskami albo między rzutkami pojedynczymi a dubletami, ale nie wtedy, gdy już jesteś na stanowisku."
+    },
+    "chokes-fixed-and-multichoke-q2": {
+      "q": "Czy można zmieniać czoki w trakcie serii {{tm:compak}}?",
+      "options": {
+        "a": "Tak, przy przechodzeniu między stanowiskami",
+        "b": "Tak, jeśli następne rzutki są daleko",
+        "c": "Nie, tylko między seriami",
+        "d": "Tak, w każdym momencie serii"
+      },
+      "explain": "W {{tm:compak}} zmiana broni, luf albo czoków w trakcie serii jest zakazana; wyjątkiem jest awaria."
+    },
+    "chokes-fixed-and-multichoke-q3": {
+      "q": "Czemu nie należy montować czoka z innego systemu?",
+      "options": {
+        "a": "Psuje wygląd broni",
+        "b": "Gwint może nie pasować, co jest niebezpieczne",
+        "c": "Sędzia nie może sprawdzić jego oznaczenia",
+        "d": "Zmienia kaliber lufy"
+      },
+      "explain": "Systemy czoków się różnią; niewłaściwy czok może uszkodzić lufę."
+    },
+    "chokes-fixed-and-multichoke-q4": {
+      "q": "Co to jest czok wystający?",
+      "options": {
+        "a": "Czok węższy niż full",
+        "b": "Czok wytoczony w lufie",
+        "c": "Czok przeznaczony tylko do śrutu stalowego",
+        "d": "Tulejka, która wystaje poza wylot lufy"
+      },
+      "explain": "Czoki wystające wystają poza wylot lufy, więc ich oznaczenie widać bez ich wyjmowania."
+    }
+  }
+}

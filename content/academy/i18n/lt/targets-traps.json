@@ -1,0 +1,98 @@
+{
+  "id": "targets-traps",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "ef239114",
+    "summary": "2ab98c5a",
+    "targets-traps-p1": "e299fc57",
+    "targets-traps-p2": "230871a5",
+    "targets-traps-p3": "0f4722a7",
+    "targets-traps-p4": "5f6e72fc",
+    "targets-traps-p5": "a5d1400f",
+    "targets-traps-n1": "0941d9af",
+    "targets-traps-n2": "dfb58822",
+    "targets-traps-ph1": "5b0d7a5c",
+    "targets-traps-ph2": "4e6e8b21",
+    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-kp1": "5d8f8aa8",
+    "targets-traps-kp2": "9837dbae",
+    "targets-traps-kp3": "2aaf4d92",
+    "targets-traps-kp4": "13f08f48",
+    "targets-traps-kp5": "d64923f1",
+    "targets-traps-q1": "20533e21",
+    "targets-traps-q2": "9529d885",
+    "targets-traps-q3": "ad85f910"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Mašinėlės, paleidimas ir traperis",
+  "summary": "Kas yra mašinėlė, kaip jas žymi raidėmis, kaip komanda paleidžia taikinį {{tm:sporting}} ir {{tm:compak}}, ir kurios mašinėlės klaidos yra No Bird.",
+  "body": {
+    "targets-traps-p1": "{{term:trap|Mašinėlė}} (trap) – mechanizmas, kuris paleidžia taikinius. Mašinėlės būna rankinės ar automatinės ({{tm:compak}} taisyklės mini ir pusiau automatines). {{tm:sporting}} šaudymo vietos mašinėlės žymimos raidėmis iš kairės į dešinę, žiūrint iš šaudymo vietos: A, B, C ir toliau (taisyklės vardija A–D). {{tm:compak}} šešios mašinėlės – nuo A iki F, kiekviena su raidės lentele.",
+    "targets-traps-p2": "Šaulys prašo taikinio {{term:call|komanda}} (call): taisyklėse nurodyta „pull“ arba „ready“, nors praktikoje žodžiai įvairuoja. {{tm:sporting}} teisėjas po komandos duoda garsinį signalą {{term:trapper|operatoriui}} (trapper) – asmeniui, kuris paleidžia taikinius. Taikinys turi išlėkti per tris sekundes nuo to signalo.",
+    "targets-traps-p3": "{{tm:compak}} taikinys gali būti paleistas trimis būdais: ranka, nuotoliniu pulteliu arba {{term:sonopull|sonopull}}. Sonopull – mikrofonas, kuris girdi šaulio komandą ir pats paleidžia taikinį. Paleidžiant ranka taikinys išlekia per 0–3 sekundes po komandos; sonopull laukia fiksuotas 0,5 sekundės. Tarptautiniuose {{term:compak-in-line|„in line“}} renginiuose, kur kiekvienas šaulys eilės tvarka praeina numerius nuo 1 iki 5, naudojamas tik sonopull su FITASC patvirtintomis {{term:electronic-refereeing|elektroninio teisėjavimo}} ir rezultatų skaičiavimo sistemomis.",
+    "targets-traps-p4": "Balso valdomas paleidimas turi mikrofoną numeryje. Jūsų pačių balsas gali jį suaktyvinti. Tokioje vietoje tylėkite, kai šaulys pasiruošęs: šnabždėkite tarp taikinių arba atsitraukite.",
+    "targets-traps-p5": "Mašinėlės klaidos abiejose disciplinose yra {{term:no-bird|No Bird}}. Pavyzdžiai: taikinys sudūžta jį paleidžiant, taikinys iš ne tos mašinėlės, taikinys paleistas be komandos, arba paleistas vėliau nei per tris sekundes. {{tm:sporting}} No Bird bus ir tada, kai iš tos pačios šaudymo vietos mašinėlių vietoje vieno taikinio išlekia du. {{tm:compak}} – kai per klaidą taikinį paleidžia kita to pačio lauko mašinėlė."
+  },
+  "note": {
+    "targets-traps-n1": "Versdami, palikite mašinėlių lotyniškas raides: jas naudoja aprašas ir rezultatų protokolas.",
+    "targets-traps-n2": "Pačios komandos neverskite: tai signalas mašinai, o ne sakinys."
+  },
+  "phrases": {
+    "targets-traps-ph1": {
+      "meaning": "Mašinėlės trajektorija pasikeitė; šaulys turėtų apie tai pranešti prieš šaudydamas.",
+      "say": "Mašinėlė B meta žemiau nei per parodymą — pasakykite teisėjui."
+    },
+    "targets-traps-ph2": {
+      "meaning": "Taikinius paleidžia mikrofonas; kalbėjimas gali paleisti taikinį.",
+      "say": "Čia paleidžiama balsu — šaudymo vietoje nesikalbėkite."
+    },
+    "targets-traps-ph3": {
+      "meaning": "Taikinys išlėkė vėliau nei per tris sekundes po komandos.",
+      "say": "Traperis su šituo pavėlavo — tai No Bird."
+    }
+  },
+  "key_points": {
+    "targets-traps-kp1": "Mašinėlės: A, B, C… {{tm:sporting}} šaudymo vietoje (taisyklės vardija A–D), A–F Compak lauke; raidės lotyniškos.",
+    "targets-traps-kp2": "Komanda („pull“, „ready“) paleidžia taikinį.",
+    "targets-traps-kp3": "{{tm:sporting}}: teisėjas duoda signalą operatoriui; taikinys per 3 sekundes.",
+    "targets-traps-kp4": "{{tm:compak}}: ranka 0–3 s, pultelis arba sonopull su fiksuotu 0,5 s vėlinimu.",
+    "targets-traps-kp5": "Pavėluoti, iš ne tos mašinėlės ar be komandos išmesti taikiniai — No Bird; mikrofonas gali jus išgirsti."
+  },
+  "quiz": {
+    "targets-traps-q1": {
+      "q": "{{tm:sporting}} kiek laiko gali praeiti nuo teisėjo signalo iki taikinio išlėkimo?",
+      "options": {
+        "a": "Iki 1 sekundės",
+        "b": "Iki 3 sekundžių",
+        "c": "Iki 10 sekundžių",
+        "d": "Bet kada"
+      },
+      "explain": "Taikinys, paleistas vėliau nei per tris sekundes, yra No Bird."
+    },
+    "targets-traps-q2": {
+      "q": "Koks fiksuotas sonopull vėlinimas {{tm:compak}}?",
+      "options": {
+        "a": "0 sekundžių",
+        "b": "3 sekundės",
+        "c": "0,5 sekundės",
+        "d": "Jį nustato kiekvienas šaulys"
+      },
+      "explain": "Sonopull turi taikyti fiksuotą, nekeičiamą 0,5 sekundės vėlinimą."
+    },
+    "targets-traps-q3": {
+      "q": "Jūs esate šaudymo vietoje su balso valdomu paleidimu, ir šaulys pasiruošęs. Ką darote?",
+      "options": {
+        "a": "Garsiai duodate šauliui paskutinį patarimą",
+        "b": "Paprašote operatoriaus trupučiuką palaukti",
+        "c": "Pakartojate už jį komandos žodį",
+        "d": "Tylite; šnabždate tik tarp taikinių"
+      },
+      "explain": "Jūsų balsas gali suaktyvinti mikrofoną ir paleisti taikinį, kurio niekas neprašė."
+    }
+  }
+}

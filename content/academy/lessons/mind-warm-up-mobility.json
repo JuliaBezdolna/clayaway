@@ -1,0 +1,413 @@
+{
+  "id": "mind-warm-up-mobility",
+  "rev": 4,
+  "status": "review",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "physiotherapist or sports doctor (warm-up advice); certified referee (rules part)",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "mind-warm-up-mobility"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "warm-up",
+    "gun-mount",
+    "stance",
+    "mock-shooting",
+    "layout",
+    "squad",
+    "trajectory-setting-table",
+    "dry-mounting",
+    "practice",
+    "mobility"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-mock-shooting"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-no-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-championship-practice"
+    }
+  ],
+  "facts": [
+    "training.compak-championship-practice"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Warm-up and mobility",
+    "uk": "Розминка і рухливість"
+  },
+  "summary": {
+    "en": "Why a short warm-up of the neck, shoulders, trunk and legs helps a shooter, how to do it at a ground and what the rules allow before a competition.",
+    "uk": "Чому стрільцеві допомагає коротка розминка шиї, плечей, корпусу й ніг, як зробити її на стенді і що дозволяють правила перед змаганням."
+  },
+  "body": [
+    {
+      "k": "mind-warm-up-mobility-p1",
+      "t": "p",
+      "en": "Clay shooting looks calm: you stand, mount the gun and shoot. Yet over a day of {{tm:sporting}} or {{tm:compak}} you mount a heavy gun and turn your body many times. Many coaches find that cold muscles make this movement stiff and jerky.",
+      "uk": "Стендова стрільба здається спокійною: стоїш, вкладаєш рушницю, стріляєш. Але за день у {{tm:sporting}} чи {{tm:compak}} ви багато разів вкладаєте важку рушницю й повертаєте корпус. Багато тренерів помічають, що з холодними м’язами цей рух стає скутим і різким."
+    },
+    {
+      "k": "mind-warm-up-mobility-p2",
+      "t": "p",
+      "en": "A {{term:warm-up|warm-up}} is light movement before the first round. There is no set length; many coaches suggest about 10 to 15 minutes. The aim is not to get tired but to wake the body up: warm the muscles, loosen the joints and settle your breathing. There is little research on warm-ups in clay shooting, so these tips come from the experience of coaches.",
+      "uk": "{{term:warm-up|Розминка}} — це легкі рухи перед першим раундом. Сталої тривалості немає; багато тренерів радять приблизно 10–15 хвилин. Мета розминки — не втомитися, а «розбудити» тіло: зігріти м’язи, розворушити суглоби й налаштувати дихання. Досліджень розминки саме в стендовій стрільбі мало, тож ці поради спираються на досвід тренерів."
+    },
+    {
+      "k": "mind-warm-up-mobility-p3",
+      "t": "p",
+      "en": "{{term:mobility|Mobility}} means how freely your joints move: whether you can turn your head, lift your arms and twist your trunk as far as the shot needs, without strain. For a shooter the key areas are the neck (the head comes down onto the stock) and the shoulders ({{term:gun-mount|the mount}}). The upper back and hips turn your body with the target, and the ankles keep you steady in your {{term:stance|stance}}.",
+      "uk": "{{term:mobility|Рухливість}} (mobility) — це те, наскільки вільно рухаються ваші суглоби: чи можете ви повернути голову, підняти руки й розвернути корпус настільки, наскільки потрібно для пострілу, без напруження. Стрільцеві найважливіші шия (голова лягає на приклад) і плечі ({{term:gun-mount|вкладка}}). Верхня частина спини й стегна повертають корпус за мішенню, а щиколотки допомагають тримати рівновагу у {{term:stance|стійці}}."
+    },
+    {
+      "k": "mind-warm-up-mobility-routine",
+      "t": "p",
+      "en": "A simple routine you can do at the ground, without the gun:",
+      "uk": "Простий комплекс, який можна зробити на стенді без рушниці:"
+    },
+    {
+      "k": "mind-warm-up-mobility-p4",
+      "t": "steps",
+      "en": [
+        "Slow head turns and tilts, without fast circles.",
+        "Shoulder rolls forwards and backwards.",
+        "Trunk turns with your hands on your hips.",
+        "A few shallow squats.",
+        "Rocking from your heels to your toes."
+      ],
+      "uk": [
+        "Повільні повороти й нахили голови, без швидких кругів.",
+        "Кругові рухи плечима вперед і назад.",
+        "Повороти корпусу, руки на поясі.",
+        "Кілька неглибоких присідань.",
+        "Перекати з п’ят на носки."
+      ]
+    },
+    {
+      "k": "mind-warm-up-mobility-reps",
+      "t": "tip",
+      "en": "Repeat each movement a few times, smoothly and without pain. There is no fixed number.",
+      "uk": "Повторіть кожен рух кілька разів, плавно й без болю. Сталої кількості немає."
+    },
+    {
+      "k": "mind-warm-up-mobility-p5",
+      "t": "p",
+      "en": "Many coaches suggest dynamic exercises before shooting: gentle movements you repeat and make a little bigger each time, like shoulder rolls that grow wider. Static stretching, where you hold one position at its limit for a long time, is usually left for the evening, after shooting.",
+      "uk": "Перед стрільбою багато тренерів радять динамічні вправи — легкі рухи, які повторюють і щоразу роблять трохи більшими, наприклад кола плечима, що стають ширшими. Статичне розтягування — коли одне положення довго тримають на межі — зазвичай залишають на вечір, після стрільби."
+    },
+    {
+      "k": "mind-warm-up-mobility-p6",
+      "t": "compare",
+      "disc": "both",
+      "critical": true,
+      "sporting": {
+        "en": "{{term:mock-shooting|Mock shooting}} means mounting and swinging the gun along an imagined target. During a competition it is not allowed anywhere at the ground, so mount the gun only to shoot ({{rule:sporting:ch8-mock-shooting}}). Before the event nobody may practise on the competition {{term:layout|layouts}}, so warm-up shooting is done on other layouts ({{rule:sporting:ch15-no-practice}}).",
+        "uk": "{{term:mock-shooting|Імітація стрільби}} — це коли вкладають рушницю й ведуть нею за уявною мішенню. Під час змагань вона заборонена будь-де на стенді, тож вкладайте рушницю лише для пострілу ({{rule:sporting:ch8-mock-shooting}}). До змагань ніхто не може тренуватися на змагальних {{term:layout|майданчиках}}, тож розминкову стрільбу проводять на інших ({{rule:sporting:ch15-no-practice}})."
+      },
+      "compak": {
+        "en": "In {{tm:compak}} the rules call this simulated shooting and ban it only in some cases ({{rule:compak:ch24-dry-mounting}}). During a competition you may not mount and swing the gun outside the shooting positions, or while someone in your {{term:squad|squad}} is shooting. Before the event you may practise on the competition trajectories, but with a different {{term:trajectory-setting-table|trajectory setting table}}: a ready-made menu that says which traps throw the targets at each station. So during practice you see the same targets, but in other combinations than on the day ({{rule:compak:ch6-practice}}). At continental and world championships official {{term:practice|practice}} opens {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}}).",
+        "uk": "У {{tm:compak}} правила теж забороняють імітацію стрільби, але лише в певних випадках ({{rule:compak:ch24-dry-mounting}}). Під час змагань не можна вкладати рушницю й вести нею поза номерами або тоді, коли стріляє хтось із вашої {{term:squad|групи}} (squad). Перед змаганням тренуватися на змагальних траєкторіях можна, але з іншою {{term:trajectory-setting-table|таблицею налаштування траєкторій}} — готовим меню, яке каже, з яких машинок стріляють на кожному номері. Тож на тренуванні ви бачите ті самі мішені, але в інших поєднаннях, ніж у день змагань ({{rule:compak:ch6-practice}}). На континентальних і світових чемпіонатах {{term:practice|офіційне тренування}} відкривається {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+      }
+    },
+    {
+      "k": "mind-warm-up-mobility-without-gun",
+      "t": "p",
+      "en": "For both disciplines many coaches suggest warming up without the gun at a competition. Practise the mount with an unloaded gun ({{term:dry-mounting|dry mounting}}) at home or in training, where the law and the ground's rules allow it ({{lesson:training-dry-mount-practice}}).",
+      "uk": "Для обох дисциплін багато тренерів радять на змаганнях розминатися без рушниці. Відпрацьовуйте {{term:dry-mounting|вкладку без пострілу}} з розрядженою рушницею вдома або на тренуванні — там, де це дозволяють закон і правила стенда ({{lesson:training-dry-mount-practice}})."
+    },
+    {
+      "k": "mind-warm-up-mobility-p7",
+      "t": "warn",
+      "en": "If you have an injury or long-lasting pain in the back, neck or shoulder, put your routine together with a doctor or physiotherapist. If an exercise hurts, stop: physiotherapists and coaches generally treat pain as a signal to stop, not to push through.",
+      "uk": "Якщо у вас є травма або тривалий біль у спині, шиї чи плечі, складіть комплекс разом із лікарем або фізичним терапевтом. Якщо під час вправи болить, зупиніться: фізичні терапевти й тренери зазвичай вважають біль сигналом зупинитися, а не терпіти."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-warm-up-mobility-n-interpreter",
+      "for": "interpreter",
+      "en": "The {{tm:compak}} rules say simulated shooting, the {{tm:sporting}} rules say mock shooting. Both mean mounting the gun and swinging it along an imagined target, so one term in your language can cover both.",
+      "uk": "У правилах {{tm:compak}} це називається simulated shooting, у правилах {{tm:sporting}} — mock shooting. Обидва вирази означають вкладати рушницю й вести нею за уявною мішенню, тож українською для обох годиться один термін — {{term:mock-shooting|імітація стрільби}}."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-warm-up-mobility-kp1",
+      "en": "Light, dynamic movement before the first round, often about 10–15 minutes",
+      "uk": "Легкі динамічні рухи перед першим раундом, часто приблизно 10–15 хвилин"
+    },
+    {
+      "k": "mind-warm-up-mobility-kp2",
+      "en": "Focus on the neck, shoulders, back, hips and ankles",
+      "uk": "Головне — шия, плечі, спина, стегна й щиколотки"
+    },
+    {
+      "k": "mind-warm-up-mobility-kp3",
+      "en": "Move smoothly and stop if it hurts",
+      "uk": "Рухайтеся плавно й зупиняйтеся, якщо болить"
+    },
+    {
+      "k": "mind-warm-up-mobility-kp4",
+      "en": "At a competition, warm up without the gun ({{tm:sporting}}: no mock shooting at all)",
+      "uk": "На змаганнях розминайтеся без рушниці ({{tm:sporting}}: жодної імітації стрільби)",
+      "checklist": true
+    },
+    {
+      "k": "mind-warm-up-mobility-kp-practice",
+      "en": "{{tm:sporting}}: no practice on the competition layouts; {{tm:compak}}: practice only with another setting table (another menu of traps per station)",
+      "uk": "{{tm:sporting}}: без тренування на змагальних майданчиках; {{tm:compak}}: тренування лише з іншою таблицею налаштування (іншим меню машинок на номерах)"
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-warm-up-mobility-dyk",
+    "en": "A few slow trunk turns between rounds can help too: over a long day the muscles have time to cool down again.",
+    "uk": "Кілька повільних поворотів корпусу між раундами теж можуть допомогти: за довгий день м’язи встигають знову «охолонути»."
+  },
+  "quiz": [
+    {
+      "k": "mind-warm-up-mobility-q1",
+      "disc": "both",
+      "q": {
+        "en": "How long a warm-up do many coaches suggest before shooting?",
+        "uk": "Яку тривалість розминки перед стрільбою радять багато тренерів?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "An hour of hard training",
+          "uk": "Годину інтенсивного тренування"
+        },
+        {
+          "k": "b",
+          "en": "About 10–15 minutes of light movement",
+          "uk": "Приблизно 10–15 хвилин легких рухів"
+        },
+        {
+          "k": "c",
+          "en": "A shooter needs no warm-up at all",
+          "uk": "Стрільцеві розминка зовсім не потрібна"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "There is no set length; many coaches suggest about 10–15 minutes of light movement that warms the muscles without tiring you.",
+        "uk": "Сталої тривалості немає; багато тренерів радять приблизно 10–15 хвилин легких рухів, які зігрівають м’язи й не втомлюють."
+      }
+    },
+    {
+      "k": "mind-warm-up-mobility-q2",
+      "disc": "both",
+      "q": {
+        "en": "Which kind of warm-up do many coaches suggest before shooting?",
+        "uk": "Яку розминку багато тренерів радять перед стрільбою?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Long stretches held at the limit",
+          "uk": "Довго тримати розтягування на межі"
+        },
+        {
+          "k": "b",
+          "en": "A long-distance run before the round",
+          "uk": "Біг на довгу дистанцію перед раундом"
+        },
+        {
+          "k": "c",
+          "en": "Movements that grow a little bigger each time",
+          "uk": "Рухи, які щоразу стають трохи більшими"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Gentle movements that grow a little each time wake the body up; long stretches held at the limit are usually left for the evening.",
+        "uk": "Легкі рухи, що щоразу стають трохи більшими, «будять» тіло; довге розтягування на межі зазвичай залишають на вечір."
+      }
+    },
+    {
+      "k": "mind-warm-up-mobility-q-compak-practice",
+      "disc": "compak",
+      "q": {
+        "en": "Before an ordinary {{tm:compak}} competition (not a continental or world championship), may you practise on the competition trajectories?",
+        "uk": "Чи можна перед звичайним змаганням з {{tm:compak}} (не континентальним чи світовим чемпіонатом) тренуватися на змагальних траєкторіях?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, but with other trajectory setting tables",
+          "uk": "Так, але з іншими таблицями налаштування траєкторій"
+        },
+        {
+          "k": "b",
+          "en": "No, it is forbidden there as in {{tm:sporting}}",
+          "uk": "Ні, там це заборонено, як і в {{tm:sporting}}"
+        },
+        {
+          "k": "c",
+          "en": "Yes, with the same tables as the event",
+          "uk": "Так, із тими самими таблицями, що й на змаганні"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:compak}} practice on the competition trajectories is allowed with other setting tables. At continental and world championships official practice opens only {{fact:training.compak-championship-practice}}. In {{tm:sporting}} nobody may practise on the competition layouts.",
+        "uk": "У {{tm:compak}} тренуватися на змагальних траєкторіях можна з іншими таблицями налаштування. На континентальних і світових чемпіонатах офіційне тренування відкривається лише {{fact:training.compak-championship-practice}}. У {{tm:sporting}} на змагальних майданчиках тренуватися не можна нікому."
+      },
+      "rule_ref": "compak:ch6-practice"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-warm-up-mobility-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, may you mount the gun and swing at an imagined target behind the stand during a competition?",
+        "uk": "Чи можна в {{tm:sporting}} під час змагань вкладати рушницю й вести нею за уявною мішенню позаду стрілецького місця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, it is a useful warm-up before the round",
+          "uk": "Так, це корисна розминка перед раундом"
+        },
+        {
+          "k": "b",
+          "en": "Yes, as long as the gun is unloaded",
+          "uk": "Так, аби лише рушниця була розряджена"
+        },
+        {
+          "k": "c",
+          "en": "No, mock shooting is not allowed anywhere",
+          "uk": "Ні, імітація стрільби заборонена всюди"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The {{tm:sporting}} rules do not allow mock shooting anywhere at the ground during a competition, so warm up without the gun.",
+        "uk": "Правила {{tm:sporting}} забороняють імітацію стрільби будь-де на стенді під час змагань, тож розминайтеся без рушниці."
+      },
+      "rule_ref": "sporting:ch8-mock-shooting"
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-warm-up-mobility-p1",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-warm-up-mobility-p2",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-warm-up-mobility-p3",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-warm-up-mobility-p4",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-warm-up-mobility-reps",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-warm-up-mobility-p5",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-warm-up-mobility-without-gun",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-warm-up-mobility-p7",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "17b65980",
+    "summary": "0a77e791",
+    "mind-warm-up-mobility-p1": "c6f674e2",
+    "mind-warm-up-mobility-p2": "f2b2566c",
+    "mind-warm-up-mobility-p3": "2a4ed339",
+    "mind-warm-up-mobility-routine": "5b9c159f",
+    "mind-warm-up-mobility-p4": "e6179c72",
+    "mind-warm-up-mobility-reps": "2f382d9d",
+    "mind-warm-up-mobility-p5": "75a19528",
+    "mind-warm-up-mobility-p6": "b9746128",
+    "mind-warm-up-mobility-without-gun": "3092a5a1",
+    "mind-warm-up-mobility-p7": "c8ad11cb",
+    "mind-warm-up-mobility-kp1": "c403c1f1",
+    "mind-warm-up-mobility-kp2": "0271fdff",
+    "mind-warm-up-mobility-kp3": "a80a3d78",
+    "mind-warm-up-mobility-kp4": "bc1b5700",
+    "mind-warm-up-mobility-kp-practice": "f0de1482",
+    "mind-warm-up-mobility-dyk": "757ad832",
+    "mind-warm-up-mobility-q1": "2c02f9ce",
+    "mind-warm-up-mobility-q2": "346e0328",
+    "mind-warm-up-mobility-q-compak-practice": "1f424f7a",
+    "mind-warm-up-mobility-q3": "771a732e",
+    "mind-warm-up-mobility-n-interpreter": "99514269"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

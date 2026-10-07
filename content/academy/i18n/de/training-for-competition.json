@@ -1,0 +1,143 @@
+{
+  "id": "training-for-competition",
+  "lang": "de",
+  "base_rev": 5,
+  "h": {
+    "title": "15f6d0f5",
+    "summary": "2e1e817a",
+    "training-for-competition-p1": "2be3e003",
+    "training-for-competition-p2": "818a1fa4",
+    "training-for-competition-p2-why": "b885b16c",
+    "training-for-competition-round": "2f2cdb37",
+    "training-for-competition-p3": "6fa2036e",
+    "training-for-competition-order": "4b2487e6",
+    "training-for-competition-p4": "2b629bad",
+    "training-for-competition-train-start": "b60eb1b8",
+    "training-for-competition-p5": "489f87b0",
+    "training-for-competition-time-it": "dcfb6fea",
+    "training-for-competition-pressure": "9a1d343a",
+    "training-for-competition-pressure-steps": "0cc980b4",
+    "training-for-competition-shoot-off": "bf65f20f",
+    "training-for-competition-fit-in": "d20c63c1",
+    "training-for-competition-no-new-kit": "796fdd5a",
+    "training-for-competition-p6": "44c51a6a",
+    "training-for-competition-practice": "cf9329ef",
+    "training-for-competition-n-coach": "8ee43684",
+    "training-for-competition-n-interpreter": "592f0e7b",
+    "training-for-competition-kp1": "c3cded19",
+    "training-for-competition-kp2": "5a904122",
+    "training-for-competition-kp3": "b70b637e",
+    "training-for-competition-kp-pressure": "87e0f74f",
+    "training-for-competition-kp5": "72fb9966",
+    "training-for-competition-dyk": "27a4b5f2",
+    "training-for-competition-q1": "a832b9bb",
+    "training-for-competition-q2": "5eb21bb6",
+    "training-for-competition-q-pressure": "e3dc29d0",
+    "training-for-competition-q3": "2586076a",
+    "training-for-competition-q-compak-time": "2e75b105"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Training für den Wettkampf",
+  "summary": "Wie Sie den Wettkampf ins Training holen: volle Runden, Ihre eigene Routine, die Zeitlimits Ihrer Disziplin und leichter Druck, der schrittweise wächst.",
+  "body": {
+    "training-for-competition-p1": "Ein Wettkampf fühlt sich anders an: neue Scheiben, unbekannte Schützen, ein Schiedsrichter und Nervosität. Damit sich das vertraut anfühlt, empfehlen viele Trainer, manche Einheiten wie einen Wettkampf ablaufen zu lassen.",
+    "training-for-competition-p2": "Schießen Sie volle {{term:round|Runden}} und zählen Sie das Ergebnis. Bitten Sie nach einem Fehlschuss nicht um eine Wiederholung, und schießen Sie die Scheiben in der Reihenfolge des {{term:target-menu|Wurfschemas}}.",
+    "training-for-competition-p2-why": "So läuft ein Wettkampf ab: Eine verfehlte Scheibe wird nicht noch einmal geworfen, und die Scheiben kommen in der Reihenfolge, die das Wurfschema vorgibt. Das Wurfschema ist die Tafel, die zeigt, welche Scheiben Sie in welcher Reihenfolge schießen.",
+    "training-for-competition-round": {
+      "sporting": "Eine Runde auf einem {{term:layout|Layout}} sind {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}}).",
+      "compak": "Eine Runde sind {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
+    },
+    "training-for-competition-p3": "Nutzen Sie bei jeder Scheibe Ihre {{term:pre-shot-routine|Schussroutine}}: dieselben Schritte in derselben Reihenfolge. Studien zu Routinen, meist aus anderen Sportarten, deuten darauf hin, dass Sportler mit einer Routine besser abschneiden, auch wenn sie nervös sind. Das trifft wahrscheinlich auch auf das Wurfscheibenschießen zu. Mehr in {{lesson:mind-routine-under-pressure}}.",
+    "training-for-competition-order": "Die Schritte jedes Mal in derselben Reihenfolge zu machen, scheint wichtiger zu sein, als genau dieselbe Anzahl Sekunden zu brauchen. Das passt zum Wurfscheibenschießen, denn die Zeit zwischen Ihrem Abruf und der Scheibe kann von Scheibe zu Scheibe unterschiedlich sein. In {{tm:sporting}} löst eine Person die Scheibe aus, ebenso in {{tm:compak}} bei manuellem Auslösen. Die Regeln setzen für diese Verzögerung nur eine Obergrenze. Nur ein {{term:sonopull|Sonopull}} in {{tm:compak}}, ein Gerät, das die Scheibe auslöst, wenn es Ihren Abruf hört, hält die Verzögerung fest. Die genauen Zeiten stehen unten.",
+    "training-for-competition-p4": {
+      "sporting": "Vor dem {{term:call|Abruf}} ist die Flinte nicht angeschlagen. Die Schaftkappe des {{term:stock|Schafts}}, die obere Ecke des Endes, das in die Schulter geht, berührt Ihren Körper. Die Oberseite des Schafts bleibt unterhalb der {{term:jacket-line|Westenmarkierung}}. Das ist eine Linie quer über Ihre Weste oder Jacke {{fact:rules.sporting-jacket-line}}; die Schulterachse ist eine gedachte horizontale Linie durch beide Schultern. Diesen {{term:ready-position|Jagdanschlag}} (Flinte unten, bereit zum Anschlagen) halten Sie, bis die Scheibe ausgelöst wird und Sie sie sehen können ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+      "compak": "Die Flintenhaltung beim Abruf ist frei: angeschlagen oder nicht. Jede Scheibe wird mit der Flinte in der Schulter beschossen. Eine Westenmarkierung gibt es nicht ({{rule:compak:ch17-gun-position}})."
+    },
+    "training-for-competition-train-start": "Üben Sie, wie jeder Schuss in Ihrer Disziplin beginnt: die Flintenhaltung, der Abruf und das Warten auf die Scheibe.",
+    "training-for-competition-p5": {
+      "sporting": "Sie haben {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Nach Ihrem Abruf gibt der Schiedsrichter dem {{term:trapper|Puller}} ein Signal, der Person, die die Scheiben auslöst. Die Scheibe kommt {{fact:rules.release-within-3s}} nach dem Signal des Schiedsrichters ({{rule:sporting:ch5-call-and-release}}).",
+      "compak": "Sie haben {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Die Scheibe startet {{fact:rules.release-within-3s}} nach dem Abruf bei manuellem Auslösen oder {{fact:rules.sonopull-delay}} danach bei einem Sonopull (Stimmauslöser) ({{rule:compak:ch2-trigger-manual}})."
+    },
+    "training-for-competition-time-it": "Stoppen Sie Ihre Routine im Training: Sie sollte in das {{term:firing-time|Zeitlimit}} passen, ohne Hektik. Werden die Scheiben manuell ausgelöst, bitten Sie den Puller, die Verzögerung etwas zu variieren, damit Sie lernen, beim Warten bereit zu bleiben. Mehr zu den Regeln: {{lesson:rules-call-and-time}}.",
+    "training-for-competition-pressure": "Fügen Sie schrittweise leichten Druck hinzu: ein Ergebnis, das zählt, jemand, der zuschaut, ein kleiner Einsatz. Forschung zum Training unter Druck deutet darauf hin, dass Menschen, die unter leichtem Druck üben, ihre Fertigkeit besser halten, wenn der Druck echt ist. Die Studien stammen aus anderen Sportarten und Aufgaben, das trifft also wahrscheinlich auch auf das Wurfscheibenschießen zu.",
+    "training-for-competition-pressure-steps": [
+      "Fünf in Folge: Wählen Sie eine Scheibe und bleiben Sie dabei, bis Sie fünf in Folge treffen; ein Fehlschuss setzt die Zählung zurück.",
+      "Eine Testrunde: eine volle Runde mit Ergebnis, in der Reihenfolge des Wurfschemas, ohne Wiederholungen und mit dem Zeitlimit Ihrer Disziplin.",
+      "Zuschauer: Bitten Sie einen Freund zuzusehen, den Schiedsrichter zu spielen und die Ergebnisse laut anzusagen.",
+      "Ein kleiner Einsatz: ein freundschaftlicher Wettkampf, bei dem zum Beispiel der Verlierer den Kaffee zahlt.",
+      "Eine {{term:shoot-off|Stechen}}-Übung. Ein Stechen ist die zusätzliche Strecke, die einen Gleichstand entscheidet. Schießen Sie nach einer Runde, ohne lange Vorbereitung, noch eine volle Runde, und wenn Sie möchten, eine {{term:sudden-death|Sudden-Death}}-Serie, die beim ersten Fehlschuss endet."
+    ],
+    "training-for-competition-shoot-off": "Ein echtes Stechen findet nur für die ersten drei Plätze statt. In beiden Disziplinen sind es 25 Scheiben, und bleiben die Schützen weiter gleich, Sudden Death: Wer zuerst daneben schießt, scheidet aus ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
+    "training-for-competition-fit-in": "Wie Sie das in ein normales Training einbauen. Viele Trainer lassen die Technikarbeit im ersten Teil einer Einheit und fügen gegen Ende einmal oder zweimal pro Woche eine Druckaufgabe hinzu. Während Sie eine neue Bewegung lernen, lassen Sie den Druck weg, bis sie sich gefestigt fühlt. Zerfällt die Technik, erleichtern Sie die Aufgabe, statt weiterzumachen.",
+    "training-for-competition-no-new-kit": "Ein Wettkampf ist ein schlechter Ort für Experimente. Testen Sie einen neuen {{term:choke|Choke}}, neue Patronen oder ein neues Brillenglas zuerst im Training.",
+    "training-for-competition-p6": "Besprechen Sie den Plan im Voraus. {{term:coaching|Coaching}}, einem Teilnehmer während eines Wettkampfs Ratschläge zu geben, ist in keiner der beiden Disziplinen erlaubt. Entscheidet der {{term:referee|Schiedsrichter}}, dass gecoacht wird, erhält der Schütze eine {{term:yellow-card|Gelbe Karte}}, und die coachende Person wird aus dem Schießbereich verwiesen ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+    "training-for-competition-practice": {
+      "sporting": "Vor der Veranstaltung darf niemand auf den Wettkampf-Layouts trainieren, trainieren Sie also auf anderen ({{rule:sporting:ch15-no-practice}}).",
+      "compak": "Vor der Veranstaltung dürfen Sie auf den Wettkampfflugbahnen trainieren, aber mit einer anderen {{term:trajectory-setting-table|Flugbahntabelle}}: einem vorgefertigten Menü, das festlegt, welche Maschinen an jeder Position werfen. Im {{term:practice|Training}} sehen Sie also dieselben Scheiben, aber in anderen Kombinationen als am Wettkampftag ({{rule:compak:ch6-practice}}). Bei Kontinental- und Weltmeisterschaften beginnt das offizielle Training {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+    }
+  },
+  "note": {
+    "training-for-competition-n-coach": "Erhöhen Sie den Druck nur so schnell, wie die Technik des Schützen hält. Ändern sich Anschlag oder Tempo, gehen Sie zu einer leichteren Aufgabe zurück. Vor der Veranstaltung den Plan absprechen; während ihr dürfen Sie nicht coachen.",
+    "training-for-competition-n-interpreter": "Übersetzen Sie während eines Wettkampfs nur, was der Schiedsrichter und die offiziellen Personen sagen. Die Tipps eines Trainers an einen Schützen zu übersetzen, kann als Coaching gelten."
+  },
+  "phrases": {},
+  "key_points": {
+    "training-for-competition-kp1": "Manche Einheiten als Wettkampf durchführen: volle Runden, ein Ergebnis und keine Wiederholungen",
+    "training-for-competition-kp2": "Dieselbe Routine bei jeder Scheibe, abgestimmt auf das Zeitlimit Ihrer Disziplin",
+    "training-for-competition-kp3": "{{tm:sporting}}: Flinte unten, Schaft unterhalb der Westenmarkierung, bis die Scheibe erscheint; {{tm:compak}}: Flintenhaltung frei",
+    "training-for-competition-kp-pressure": "Schrittweise leichten Druck hinzufügen, ein- bis zweimal pro Woche",
+    "training-for-competition-kp5": "Kein Coaching während des Wettkampfs: den Plan vor dem Start absprechen"
+  },
+  "did_you_know": "Viele Schützen nutzen kleine lokale Wettkämpfe als Training: Sie üben ihre Routine und finden heraus, bei welchen Scheiben die Technik unter Druck zusammenbricht.",
+  "quiz": {
+    "training-for-competition-q1": {
+      "q": "Wie viel Zeit haben Sie in {{tm:sporting}} zwischen Einzelscheiben?",
+      "options": {
+        "a": "Höchstens 15 Sekunden",
+        "b": "Höchstens 60 Sekunden",
+        "c": "So viel Sie brauchen"
+      },
+      "explain": "Eine Überschreitung bringt zuerst eine Verwarnung, dann Strafen. In {{tm:compak}} haben Sie höchstens 10 Sekunden für den Abruf."
+    },
+    "training-for-competition-q2": {
+      "q": "In welcher Disziplin muss der Schaft unterhalb der Westenmarkierung bleiben, bis die Scheibe erscheint?",
+      "options": {
+        "a": "In beiden Disziplinen",
+        "b": "Nur in {{tm:sporting}}",
+        "c": "Nur in {{tm:compak}}"
+      },
+      "explain": "In {{tm:compak}} ist die Flintenhaltung beim Abruf frei, und es gibt keine Westenmarkierung."
+    },
+    "training-for-competition-q-pressure": {
+      "q": "Wie empfehlen Studien, Druck ins Training einzubauen?",
+      "options": {
+        "a": "So viel wie möglich von der ersten Einheit an",
+        "b": "Nur in der Woche vor dem Wettkampf",
+        "c": "Zuerst leicht, dann schrittweise steigend"
+      },
+      "explain": "Leichter Druck, der langsam wächst, lässt die Technik halten, während Sie sich daran gewöhnen."
+    },
+    "training-for-competition-q3": {
+      "q": "Darf ein Trainer einem Schützen während eines Wettkampfs Ratschläge geben?",
+      "options": {
+        "a": "Ja, aber nur zwischen den Standplätzen",
+        "b": "Ja, aber nur mit Handzeichen",
+        "c": "Nein: der Schütze kann eine Gelbe Karte bekommen"
+      },
+      "explain": "Coaching während eines Wettkampfs ist in keiner der beiden Disziplinen erlaubt, der Plan wird also im Voraus abgesprochen."
+    },
+    "training-for-competition-q-compak-time": {
+      "q": "Wie viel Zeit haben Sie in {{tm:compak}} für den Abruf, nachdem die Scheibe an der vorherigen Position geschossen wurde?",
+      "options": {
+        "a": "Höchstens 10 Sekunden",
+        "b": "Höchstens 30 Sekunden",
+        "c": "Es gibt kein Limit"
+      },
+      "explain": "Beim ersten Überschreiten gibt es eine Verwarnung, die im Protokoll vermerkt wird; wiederholt sich das in derselben Runde, wird bestraft."
+    }
+  }
+}

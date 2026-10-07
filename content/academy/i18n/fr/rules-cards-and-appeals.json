@@ -1,0 +1,165 @@
+{
+ "id": "rules-cards-and-appeals",
+ "lang": "fr",
+ "base_rev": 1,
+ "h": {
+  "title": "688dfc58",
+  "summary": "e42defbb",
+  "referee-cards-p1": "9c0f6536",
+  "rules-cards-and-appeals-cmp1": "6761ba5e",
+  "referee-cards-p2": "066b3ddf",
+  "referee-cards-p3": "0d19cdbe",
+  "referee-cards-p4": "b40e619c",
+  "rules-cards-and-appeals-p7": "824a9edf",
+  "rules-cards-and-appeals-protest": "35246f32",
+  "rules-cards-and-appeals-tip1": "8413bfae",
+  "rules-cards-and-appeals-n1": "864947a9",
+  "rules-cards-and-appeals-n2": "690ebb29",
+  "referee-cards-ph1": "1a48df10",
+  "referee-cards-ph2": "3e46c255",
+  "referee-cards-ph3": "be7e02d8",
+  "referee-cards-ph4": "b4286983",
+  "referee-cards-ph5": "95051542",
+  "compak-dress-and-conduct-ph4": "da427310",
+  "referee-cards-kp1": "10e87324",
+  "referee-cards-kp2": "0dceb8a6",
+  "referee-cards-kp3": "739d4465",
+  "referee-cards-kp4": "08f3d2e1",
+  "rules-cards-and-appeals-kp3": "572d305f",
+  "rules-cards-and-appeals-dyk": "a83091ff",
+  "referee-cards-q2": "b5bdf416",
+  "referee-cards-q1": "bbb27c08",
+  "referee-cards-q3": "d442fc6b",
+  "rules-cards-and-appeals-q1": "873592e0",
+  "rules-cards-and-appeals-q2": "2fe5929a",
+  "rules-cards-and-appeals-q3": "80d0488b",
+  "compak-dress-and-conduct-q3": "6e9b94e2"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Avertissements, cartons et pénalités",
+ "summary": "Comment fonctionnent les pénalités en {{tm:sporting}} et en {{tm:compak}}. D'abord un avertissement avec un carton jaune ; un carton rouge pour la répétition d'une infraction sur le poste ; des sanctions du jury, jusqu'à l'exclusion, pour d'autres répétitions et des fautes graves.",
+ "body": {
+  "referee-cards-p1": "Les pénalités FITASC s'alourdissent par étapes. En vous inscrivant à une compétition, vous acceptez le règlement et ses pénalités. La première fois que vous enfreignez une règle, vous recevez normalement un {{term:warning|avertissement}}, signalé par un {{term:yellow-card|carton jaune}}. En {{tm:sporting}}, un exemple classique est la position du fusil. Une crosse au-dessus de la ligne du gilet, ou un fusil épaulé avant l'apparition du plateau, vaut un avertissement verbal et un carton jaune.",
+  "rules-cards-and-appeals-cmp1": {
+   "sporting": "Répéter une infraction sur le poste sur le même {{term:layout|parcours}} après l'avertissement (position du fusil ou épaulé précoce, délai, tir sur un No bird déclaré) vaut un {{term:red-card|carton rouge}}. Un simple est compté zéro ; les doublés suivent le tableau du guide des règles.",
+   "compak": "Répéter une infraction sur le poste sur le même parcours {{tm:compak}} (le terrain où vous tirez) après l'avertissement vaut un carton rouge. Cela couvre le délai, le refus d'un plateau, le tir sur un No bird déclaré et les règles sur les incidents de tir. Un simple est compté zéro ; les doublés suivent le tableau du guide des règles."
+  },
+  "referee-cards-p2": "La même échelle s'applique au tir sur un No bird déclaré et au dépassement du délai ; voir la leçon {{lesson:rules-call-and-time}}.",
+  "referee-cards-p3": "Le {{term:coaching|coaching}}, c'est-à-dire le fait que quelqu'un vous donne des conseils ou des instructions pendant que vous êtes en compétition, est aussi sanctionné. Vous recevez un carton jaune, les répétitions sont sanctionnées par le jury, et l'arbitre renvoie la personne qui a conseillé hors de la zone de tir.",
+  "referee-cards-p4": "Les autres infractions répétées (par exemple la tenue, le dossard, le coaching ou le comportement) vont devant le {{term:jury|jury}}, le collège d'officiels de la compétition. Il en va de même pour le {{term:refusal-to-comply|refus d'obtempérer}} (ne pas suivre les décisions de l'arbitre) et une {{term:attempt-to-influence|tentative d'influence}} sur l'arbitre. Le jury peut compter un plateau comme perdu, annuler une série entière de {{fact:rules.round-targets}}, ou vous exclure de la compétition. Jeter un fusil, des injures ou de la violence, et tirer délibérément sur des animaux vivants peuvent entraîner une {{term:expulsion|exclusion}} immédiate. Une exclusion reste au dossier de la FITASC pendant cinq ans et n'est pas remboursée.",
+  "rules-cards-and-appeals-p7": "Après une décision définitive, reprenez le tir et laissez passer. Contester la décision après la reprise du tir, ou la critiquer ouvertement, compte comme une tentative d'influence sur l'arbitre.",
+  "rules-cards-and-appeals-protest": "Si vous n'êtes pas d'accord avec une décision, faites immédiatement une {{term:protest|réclamation}} sur le poste : levez la main et dites « protest » ou « appeal ». Le fonctionnement des réclamations et des appels au jury est expliqué dans la leçon {{lesson:competitions-results-and-protests}}.",
+  "rules-cards-and-appeals-tip1": "Un carton jaune n'est pas la fin de votre série. Beaucoup d'entraîneurs suggèrent une respiration calme, un bref regard sur ce qui l'a causé, puis votre routine habituelle. Plus de détails dans la leçon {{lesson:mind-reset-after-miss}}."
+ },
+ "note": {
+  "rules-cards-and-appeals-n1": "Pour un interprète, le carton du coaching compte le plus : en compétition, ne traduisez que les paroles officielles, pas les conseils.",
+  "rules-cards-and-appeals-n2": "Traduisez « warning », « yellow card » et « red card » littéralement, calmement et tout de suite."
+ },
+ "phrases": {
+  "referee-cards-ph1": {
+   "meaning": "{{tm:sporting}} : le fusil était trop haut avant l'apparition du plateau ; la prochaine fois sur ce parcours, cela coûtera le plateau.",
+   "say": "Avertissement — votre crosse était au-dessus de la ligne."
+  },
+  "referee-cards-ph2": {
+   "meaning": "Un premier avertissement officiel ; il est enregistré.",
+   "say": "C'est un carton jaune."
+  },
+  "referee-cards-ph3": {
+   "meaning": "Infraction répétée sur le poste : le plateau est compté comme perdu.",
+   "say": "Carton rouge — le plateau est zéro."
+  },
+  "referee-cards-ph4": {
+   "meaning": "Le tireur a pris plus de temps que permis (en {{tm:sporting}} 15 s entre les plateaux, en {{tm:compak}} 10 s pour annoncer).",
+   "say": "Vous avez dépassé le temps."
+  },
+  "referee-cards-ph5": {
+   "meaning": "L'arbitre fait sortir quelqu'un, par exemple une personne prise en train de conseiller.",
+   "say": "Monsieur, merci de quitter la zone de tir."
+  },
+  "compak-dress-and-conduct-ph4": {
+   "meaning": "Avertissement de l'arbitre : le coaching est interdit en compétition.",
+   "say": "Pas de coaching sur le poste."
+  }
+ },
+ "key_points": {
+  "referee-cards-kp1": "Première infraction : un avertissement avec un carton jaune.",
+  "referee-cards-kp2": "Répéter une infraction sur le poste sur le même parcours (par exemple position du fusil ou délai) : un carton rouge, et le plateau est compté comme perdu. Les autres répétitions vont devant le jury.",
+  "referee-cards-kp3": "Coaching en compétition : un carton jaune pour le tireur, et la personne qui a conseillé doit quitter la zone de tir.",
+  "referee-cards-kp4": "Les sanctions du jury vont de la perte d'un plateau ou d'une série jusqu'à l'exclusion, qui reste au dossier pendant cinq ans.",
+  "rules-cards-and-appeals-kp3": "Pas d'accord ? Réclamez tout de suite sur le poste, la main levée, avant l'annonce suivante."
+ },
+ "did_you_know": "Une seconde exclusion dans les trois ans suivant la première peut amener la FITASC à interdire définitivement un tireur de ses compétitions.",
+ "quiz": {
+  "referee-cards-q2": {
+   "q": "L'arbitre voit un entraîneur donner des conseils à un tireur pendant une compétition. Que dit le règlement ?",
+   "options": {
+    "a": "Rien, les conseils sont permis",
+    "b": "Un carton rouge pour l'entraîneur",
+    "c": "Un carton jaune pour le tireur",
+    "d": "La série est annulée"
+   },
+   "explain": "Les deux règlements donnent un carton jaune au tireur, et la personne qui a conseillé doit quitter la zone de tir."
+  },
+  "referee-cards-q1": {
+   "q": "{{tm:sporting}} : après un carton jaune pour épaulé précoce, le tireur épaule à nouveau trop tôt sur le même parcours, sur un simple. Que se passe-t-il ?",
+   "options": {
+    "a": "Seulement un autre avertissement",
+    "b": "Un carton rouge et un zéro",
+    "c": "Un No bird, relancé",
+    "d": "Exclusion immédiate"
+   },
+   "explain": "Après le premier avertissement, le refaire sur le même parcours vaut un carton rouge ; sur un simple, le plateau est zéro."
+  },
+  "referee-cards-q3": {
+   "q": "Lequel de ces éléments le jury NE PEUT PAS imposer selon l'échelle des pénalités ?",
+   "options": {
+    "a": "La perte d'un plateau",
+    "b": "La perte d'une série",
+    "c": "L'exclusion de l'épreuve",
+    "d": "Une amende versée à l'arbitre"
+   },
+   "explain": "Le jury peut retirer un plateau ou une série entière, ou exclure le tireur ; il n'y a pas d'amende versée à l'arbitre."
+  },
+  "rules-cards-and-appeals-q1": {
+   "q": "Comment réclame-t-on correctement sur le poste ?",
+   "options": {
+    "a": "Aller voir le jury après la série",
+    "b": "Annoncer le plateau suivant, puis le dire à l'arbitre",
+    "c": "Lever immédiatement la main et dire « protest » ou « appeal »"
+   },
+   "explain": "Vous réclamez tout de suite, avant l'annonce suivante ; annoncer le plateau suivant signifie accepter la décision."
+  },
+  "rules-cards-and-appeals-q2": {
+   "q": "Qu'est-ce qui peut être porté en appel devant le jury ?",
+   "options": {
+    "a": "D'autres décisions, pas touché, raté ou trajectoire",
+    "b": "Si vous avez réellement touché le plateau ou non",
+    "c": "Si la trajectoire était correcte ou non"
+   },
+   "explain": "Touché, raté, No bird et trajectoire sont décidés par l'arbitre seul, et cette décision est définitive."
+  },
+  "rules-cards-and-appeals-q3": {
+   "q": "Quelle est la caution pour un appel au jury en {{tm:sporting}} ?",
+   "options": {
+    "a": "10 % de l'engagement",
+    "b": "40 % de l'engagement",
+    "c": "Tout l'engagement"
+   },
+   "explain": "C'est {{fact:rules.sporting-jury-deposit}} ; l'argent est rendu si le jury tranche en faveur du tireur."
+  },
+  "compak-dress-and-conduct-q3": {
+   "q": "{{tm:compak}} : après la série, un tireur refuse de signer la feuille de marque parce qu'il n'est pas d'accord avec une décision. Quelle est la conséquence ?",
+   "options": {
+    "a": "Il perd le droit de réclamer",
+    "b": "L'arbitre doit changer le résultat",
+    "c": "La série est rejouée",
+    "d": "Rien ne se passe du tout"
+   },
+   "explain": "En {{tm:compak}}, le tireur signe la feuille de marque à la fin de chaque série ; sans signature, aucune réclamation ne peut être acceptée."
+  }
+ }
+}

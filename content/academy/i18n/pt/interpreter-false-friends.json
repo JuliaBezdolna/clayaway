@@ -1,0 +1,112 @@
+{
+  "id": "interpreter-false-friends",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "93be8a38",
+    "summary": "2c55b920",
+    "interpreter-false-friends-intro": "39c55cd5",
+    "interpreter-false-friends-p1": "3e0535c1",
+    "interpreter-false-friends-p2": "3cf9ded2",
+    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-cards": "3645d5da",
+    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-ph1": "7ff90f13",
+    "interpreter-false-friends-ph2": "3677adad",
+    "interpreter-false-friends-ph3": "f46276ac",
+    "interpreter-false-friends-ph4": "d629b25a",
+    "interpreter-false-friends-ph5": "1a9f89c1",
+    "interpreter-false-friends-ph6": "17d1f7d8",
+    "interpreter-false-friends-kp1": "6cad2a11",
+    "interpreter-false-friends-kp2": "aaa1da92",
+    "interpreter-false-friends-kp3": "2fc47aba",
+    "interpreter-false-friends-kp4": "c8245804",
+    "interpreter-false-friends-kp5": "df7d4fa7",
+    "interpreter-false-friends-kp6": "19cf2f99",
+    "interpreter-false-friends-q1": "4fa72f2b",
+    "interpreter-false-friends-q2": "d58615b3",
+    "interpreter-false-friends-q3": "3c4d036d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Falsos amigos no campo de tiro",
+  "body": {
+    "interpreter-false-friends-intro": "Um {{term:false-friend|falso amigo}} é uma palavra que parece familiar mas no campo de tiro significa outra coisa. Algumas delas mudam o resultado, por isso vale a pena aprendê-las primeiro.",
+    "interpreter-false-friends-p1": "A maior armadilha é o fumo. O «{{term:smoked-it|Smoked it!}}» de um treinador (ou «inked it», «powdered it») elogia um acerto perfeito: o prato desapareceu numa nuvem. Mas nas regras, um prato que só larga pó ou fumo, sem {{term:visible-piece|pedaço visível}}, é {{term:zero|zero}}. Uma «{{term:chip|chip}}», um pequeno pedaço visível, é acerto ({{term:one|one}}). «Dusted it» é arriscado: pode significar que só se soltou pó (zero) ou, para alguns treinadores, um prato destruído. Por isso traduza o «smoked it» do treinador como um acerto perfeito e limpo, e o «only dust» do árbitro como zero, e pergunte o que significa «dusted it».",
+    "interpreter-false-friends-p2": "As palavras de pontuação não são literais. «Dead» e «kill» significam acerto, sem nada a ver com morte. «Lost» significa falha, não algo perdido. «Dropped two» significa dois pratos falhados. «Straight» em «25 straight» significa uma série perfeita, sem nenhum prato falhado.",
+    "interpreter-false-friends-p3": "Palavras de equipamento e de lugar. Um «{{term:trap|trap}}» é a máquina de lançar, não uma armadilha; Trap é também uma disciplina olímpica. Um «stand» é uma única posição de tiro, o {{term:shooting-stand|posto de tiro}}, não o campo de tiro inteiro; no {{tm:compak}} os lugares chamam-se muitas vezes stations. Um «{{term:peg|peg}}» é a posição de tiro. O nome vem da estaca numerada que marca o lugar de cada atirador numa caçada de batida, por isso não o traduza como «estaca». Um «broken gun» é uma arma aberta. «Pull!» é a {{term:call|voz de comando}}, «{{term:pull-away|pull-away}}» é um método de avanço e «{{term:length-of-pull|length of pull}}» é o comprimento da coronha, do gatilho até à chapa de coice.",
+    "interpreter-false-friends-cards": "Um «card» é tanto a {{term:score-sheet|folha de marcação}} como um cartão amarelo ou vermelho. «On report» significa ao som do tiro, como num {{term:double-on-report|double ao tiro}}. Uma «{{term:squad|squad}}» é o grupo de competição de {{fact:rules.squad-max-shooters}}. Os tours ClayAway, que estão a chegar brevemente, usarão também esta palavra para uma subequipa de um tour.",
+    "interpreter-false-friends-p4": "Outras línguas têm as suas próprias armadilhas. A «chandelle» francesa é um prato que sobe quase na vertical, a que o inglês chama {{term:teal|teal}}. Não é a {{term:chandelle|chandelle}} inglesa, um prato que sobe a pique numa curva e depois cai. O francês «en battue» e o italiano «in battuta» significam caça de {{term:driven-target|batida}}, não o prato {{term:battue|battue}}. Em português, «batida» é o prato battue, e «de batida» significa driven. Para um acerto, um árbitro francês diz «Bon» e um italiano «Buono», e o {{term:trapper|operador da máquina}} é muitas vezes um «pulleur» ou «puller». As palavras para a esquadra também diferem, por isso use a palavra do próprio regulamento da prova."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-false-friends-ph1": {
+      "meaning": "Acerto perfeito, o prato desfez-se em pó. Não é o «só fumo» das regras.",
+      "say": "Pulverizou-o!"
+    },
+    "interpreter-false-friends-ph2": {
+      "meaning": "Árbitro: não se soltou nenhum pedaço visível, por isso é falha.",
+      "say": "Só pó — zero."
+    },
+    "interpreter-false-friends-ph3": {
+      "meaning": "Soltou-se um pequeno pedaço visível: conta como acerto.",
+      "say": "Só uma lasca, mas é bom."
+    },
+    "interpreter-false-friends-ph4": {
+      "meaning": "Abra a arma. Não tem nada a ver com parti-la.",
+      "say": "Abra a arma."
+    },
+    "interpreter-false-friends-ph5": {
+      "meaning": "Coloque-se no sítio de tiro marcado.",
+      "say": "Entre no posto."
+    },
+    "interpreter-false-friends-ph6": {
+      "meaning": "O segundo prato é lançado pelo som do seu primeiro tiro.",
+      "say": "O segundo é ao tiro."
+    }
+  },
+  "key_points": {
+    "interpreter-false-friends-kp1": "«Smoked it» do treinador = acerto perfeito; «only dust or smoke» das regras = zero",
+    "interpreter-false-friends-kp2": "Dead / kill = acerto; lost / dropped = falha; straight = série perfeita",
+    "interpreter-false-friends-kp3": "Trap = máquina; stand = uma posição (posto); peg = o sítio marcado; broken gun = arma aberta",
+    "interpreter-false-friends-kp4": "Pull, card, report e squad têm todos mais de um sentido",
+    "interpreter-false-friends-kp5": "A chandelle francesa e «en battue» diferem das palavras inglesas",
+    "interpreter-false-friends-kp6": "«Dusted it» pode significar as duas coisas: pergunte"
+  },
+  "quiz": {
+    "interpreter-false-friends-q1": {
+      "q": "O treinador grita «Smoked it!» depois de um tiro. O que aconteceu?",
+      "options": {
+        "a": "Só saiu fumo: um zero",
+        "b": "O prato foi destruído: um acerto perfeito",
+        "c": "O cartucho falhou",
+        "d": "O prato era um prato flash"
+      },
+      "explain": "Na gíria dos treinadores, «smoked it» é um acerto perfeito; nas regras, «only dust or smoke» é um zero — sentidos opostos."
+    },
+    "interpreter-false-friends-q2": {
+      "q": "O árbitro diz «Lost.». O que significa?",
+      "options": {
+        "a": "O prato saiu do campo de visão",
+        "b": "O atirador ficou sem tempo",
+        "c": "O prato saiu da sua linha habitual",
+        "d": "Falha: o prato é zero"
+      },
+      "explain": "«Lost» é a palavra de pontuação para uma falha (zero), não algo que se perdeu."
+    },
+    "interpreter-false-friends-q3": {
+      "q": "Um convidado francês diz que adora atirar «en battue». O que quer dizer?",
+      "options": {
+        "a": "Caça de batida (aves empurradas por cima das espingardas)",
+        "b": "O prato plano batida",
+        "c": "Um prato lançado num double",
+        "d": "Um prato partido"
+      },
+      "explain": "O francês «en battue» (italiano «in battuta») significa caça de batida; o prato batida é outra coisa."
+    }
+  },
+  "summary": "Palavras de tiro que parecem familiares mas significam outra coisa: fumo e pó, palavras de pontuação, «trap», «stand» e «squad», e armadilhas do francês, do italiano e do português."
+}

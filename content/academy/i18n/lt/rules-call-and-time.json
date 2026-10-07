@@ -1,0 +1,203 @@
+{
+  "id": "rules-call-and-time",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "187acd39",
+    "summary": "8080eec2",
+    "rules-call-and-time-p1": "1161ff03",
+    "sporting-time-and-lateness-p1": "b42afd2c",
+    "compak-gun-and-call-p2": "25dff0eb",
+    "rules-call-and-time-p3": "b4935efc",
+    "rules-call-and-time-cmp1": "0ed4fbd6",
+    "rules-call-and-time-cmp2": "bf22337a",
+    "sporting-time-and-lateness-p2": "fd7e0158",
+    "compak-gun-and-call-p3": "1c1cecad",
+    "rules-call-and-time-p7": "27bc1778",
+    "sporting-time-and-lateness-p3": "6a75e6f1",
+    "sporting-time-and-lateness-p4": "7bafb04d",
+    "compak-dress-and-conduct-p3": "bf345331",
+    "rules-call-and-time-cmp3": "8b090b14",
+    "rules-call-and-time-tip2": "72ce8f4a",
+    "sporting-time-and-lateness-p6": "748376ed",
+    "sporting-time-and-lateness-ph1": "d9594975",
+    "sporting-time-and-lateness-ph2": "56ea68f0",
+    "sporting-time-and-lateness-ph3": "ac7d426c",
+    "sporting-time-and-lateness-ph4": "6e116cb2",
+    "compak-gun-and-call-ph3": "d152706a",
+    "compak-gun-and-call-ph4": "3da9e79b",
+    "sporting-time-and-lateness-kp1": "47760c15",
+    "rules-call-and-time-kp2": "c779dfbd",
+    "rules-call-and-time-kp3": "931c1a7d",
+    "compak-gun-and-call-kp3": "fb8edeb7",
+    "sporting-time-and-lateness-kp4": "7dcffddc",
+    "rules-call-and-time-dyk": "5a220225",
+    "rules-call-and-time-q1": "639c4301",
+    "rules-call-and-time-q2": "01fc45fe",
+    "rules-call-and-time-q3": "b9e7b314",
+    "sporting-time-and-lateness-q1": "e7cea05e",
+    "sporting-time-and-lateness-q2": "55f93e56",
+    "sporting-time-and-lateness-q3": "bd5fe308",
+    "compak-gun-and-call-q2": "0cf365f2",
+    "compak-gun-and-call-q3": "7c04851d",
+    "compak-dress-and-conduct-q2": "893b0b81"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Komanda, laiko limitai ir pavėlavimas",
+  "summary": "Kaip kviečiate taikinį, kaip greitai jis turi išskristi, kiek laiko turite {{tm:sporting}} ir {{tm:compak}} rungtyse, ir kuo gresia pavėlavimas.",
+  "body": {
+    "rules-call-and-time-p1": "Taikinys nelekia savaime: jį {{term:call|prašote}} trumpu žodžiu, pavyzdžiui, „pull“ ar „ready“. Toliau taisyklės nustato, kaip greitai taikinys turi išskristi ir kiek laiko galite skirti.",
+    "sporting-time-and-lateness-p1": "{{tm:sporting}} laikosi tolygaus ritmo, ir jį saugo kelios taisyklės. Jūs duodate komandą, o teisėjas garso signalu perduoda ją {{term:trapper|traperiui}} (žmogui, kuris paleidžia taikinius). Nuo šio signalo taikinys turi būti ore {{fact:rules.release-within-3s}}. Jei jis išskrenda vėliau, teisėjas skelbia {{term:no-bird|No Bird}}, ir taikinys paleidžiamas iš naujo.",
+    "compak-gun-and-call-p2": "{{tm:compak}} rungtyje mašinėlę galima paleisti ranka, nuotolinio valdymo pultu arba {{term:sonopull|sonopulu}} (mikrofono sistema, kuri paleidžia mašinėlę, išgirdusi jūsų komandą). Paleidžiant ranka, taikinys turi išskristi per 0–3 sekundes po komandos. Sonopulas visada suveikia {{fact:rules.sonopull-delay}} po komandos, tad delsa kaskart vienoda. Tarptautiniuose renginiuose, šaudomuose {{term:compak-in-line|in line}} formatu (šauliai po vieną užima numerį 1 ir juda linija iki numerio 5), naudojamas tik sonopulas. Taikinys, išskridęs daugiau nei 3 sekundėmis vėliau, arba toks, kurio neprašėte, yra No Bird.",
+    "rules-call-and-time-p3": "Abiejose rungtyse atsisakyti galima tik taikinio, kurio neprašėte: tai No Bird.",
+    "rules-call-and-time-cmp1": {
+      "sporting": "Atsisakyti negalima. Jei taikinys paleistas taisyklingai, o jūs nešovėte, jis vertinamas nuliu.",
+      "compak": "Atsisakyti taip pat negalima. Atsisakyta pavienė mišenė vertinama nuliu; dubletams taikoma taisyklių vadovo lentelė."
+    },
+    "rules-call-and-time-cmp2": {
+      "sporting": "Jūs turite {{fact:rules.sporting-time-between-targets}}.",
+      "compak": "Jūs turite {{fact:rules.compak-time-to-call}}."
+    },
+    "sporting-time-and-lateness-p2": "Pirmą kartą viršijus limitą, teisėjas duoda įspėjimą. Toliau taikomos raudonosios kortelės nuobaudos ({{rule:sporting:ch12-red-card}}). Kai teisėjas priėmė galutinį sprendimą, pavyzdžiui, po jūsų protesto, turite tęsti šaudymą {{fact:rules.sporting-resume-after-ruling}}. Jei ne, arba jei sąmoningai delsiate, tai laikoma {{term:refusal-to-comply|atsisakymu paklusti}}: atskiru pažeidimu, už kurį gali nubausti žiuri.",
+    "compak-gun-and-call-p3": "Pirmą kartą viršijus limitą, teisėjas įspėjimą pažymi {{term:score-sheet|rezultatų kortelėje}}. Jei tai pasikartoja toje pačioje {{term:round|serijoje}}, – raudonoji kortelė: pavienis taikinys vertinamas nuliu, o dubletams taikoma taisyklių vadovo lentelė ({{rule:compak:ch21-penalty-table}}). Kai teisėjas priėmė galutinį sprendimą, turite tęsti šaudymą {{fact:rules.compak-resume-after-ruling}}. Jei ne, arba jei sąmoningai delsiate, tai laikoma atsisakymu paklusti, už kurį gali nubausti žiuri.",
+    "rules-call-and-time-p7": "Daug trenerių pataria trumpą, pastovų {{term:pre-shot-routine|pasiruošimo šūviui ritualą}}, kuris lengvai tilpsta į limitą. Pavyzdžiui: stokite į vietą, užtaisykite šautuvą, kai leis teisėjas, užimkite parengties poziciją, iškvėpkite, tada duokite komandą. Daugiau – {{lesson:mind-routine-under-pressure}}.",
+    "sporting-time-and-lateness-p3": "{{term:lateness|Pavėlavimas}}: jei jūsų nėra, kai grupė pradeda, teisėjas per vieną minutę tris kartus paskelbia jūsų vardą ir numerį. Jei atvykstate, kol grupė vis dar šaudo pavienius taikinius pirmoje šaudymo vietoje ir jūsų eilė dar neatėjo, prisijungiate be nuobaudos. Po to visi nešaudyti taikiniai vertinami nuliu, ir praleistų šaudymo vietų vėliau negalima dostrelioti su kita grupe.",
+    "sporting-time-and-lateness-p4": "Jei pavėlavote dėl nuo jūsų nepriklausančių priežasčių, toje serijoje prie grupės nebesijunkite, o raštu apeliuokite žiuri. Jei žiuri sutinka, seriją šaudote su kita grupe. Jei atsisako, kiekviena nešaudyta aikštelė vertinama 25 nuliais.",
+    "compak-dress-and-conduct-p3": "{{tm:compak}} rungtyje reikia laiku prisistatyti teisėjui ir patvirtinti, kad esate vietoje. Be in line, yra ir by squad formatas: {{term:squad|grupė}} ({{fact:rules.squad-max-shooters}}) seriją eina kartu, judėdama nuo numerio prie numerio. Šiame formate šaulys, atvykęs po pirmos grupės komandos serijoje, už tą seriją gauna 25 nulius. Apeliuoti galima raštu žiuri, tą pačią dieną.",
+    "rules-call-and-time-cmp3": {
+      "sporting": "Būkite pasiruošę {{fact:rules.shootoff-ready-time}}. Jei jūsų nėra, jus diskvalifikuoja.",
+      "compak": "Būkite pasiruošę {{fact:rules.shootoff-ready-time}}. Jei jūsų nėra, laikoma, kad pasitraukėte iš varžybų."
+    },
+    "rules-call-and-time-tip2": "Užsidėkite klausos apsaugą ir akinius dar prieš stodami į šaudymo vietą: abiejose rungtyse šaulys be jų laikomas neatvykusiu ({{lesson:rules-dress-and-safety}})."
+  },
+  "note": {
+    "sporting-time-and-lateness-p6": "Negaiškite grupės ilgu vertimu: dabar – trumpai, smulkmenas – po šaudymo vietos."
+  },
+  "phrases": {
+    "sporting-time-and-lateness-ph1": {
+      "meaning": "Teisėjas šaukia nesantį šaulį (tris kartus per minutę).",
+      "say": "Šaulys numeris dvidešimt trys!"
+    },
+    "sporting-time-and-lateness-ph2": {
+      "meaning": "Priminimas apie 15 sekundžių ribą tarp taikinių.",
+      "say": "Stebėkite laiką."
+    },
+    "sporting-time-and-lateness-ph3": {
+      "meaning": "Pirmą kartą viršyta riba: įspėjimas; kitą kartą – nuobauda.",
+      "say": "Daugiau nei penkiolika sekundžių. Tai įspėjimas."
+    },
+    "sporting-time-and-lateness-ph4": {
+      "meaning": "Be akių apsaugos šaulys laikomas neatvykusiu.",
+      "say": "Užsidėkite akinius, kitaip negalėsite šaudyti."
+    },
+    "compak-gun-and-call-ph3": {
+      "meaning": "Priminimas apie 10 sekundžių ribą komandai duoti.",
+      "say": "Dešimt sekundžių, prašykite taikinio."
+    },
+    "compak-gun-and-call-ph4": {
+      "meaning": "Pirmą kartą viršytos 10 sekundžių; pažymima rezultatų kortelėje.",
+      "say": "Įspėjimas: laikas."
+    }
+  },
+  "key_points": {
+    "sporting-time-and-lateness-kp1": "Taikinys, paleistas daugiau nei 3 sekundėmis vėliau, abiejose rungtyse yra No Bird.",
+    "rules-call-and-time-kp2": "Atsisakyti prašyto taikinio negalima; neprašyto taikinio – No Bird.",
+    "rules-call-and-time-kp3": "{{tm:sporting}}: {{fact:rules.sporting-time-between-targets}}. {{tm:compak}}: {{fact:rules.compak-time-to-call}}.",
+    "compak-gun-and-call-kp3": "Pirmas viršytas laiko limitas – įspėjimas, pakartotinis – raudonoji kortelė.",
+    "sporting-time-and-lateness-kp4": "Nepavėluokite: {{tm:sporting}} rungtyje dėl pavėlavimo praleisti taikiniai – nuliai; {{tm:compak}} by squad formate atvykimas po grupės pirmos komandos kainuoja 25 nulius."
+  },
+  "did_you_know": "{{tm:compak}} in line formate laikomasi pavėlavusiu, kai jūsų numeris jau nuimtas rezultatų kompiuteryje ir kitas šaulys jau stovi numeryje 1.",
+  "quiz": {
+    "rules-call-and-time-q1": {
+      "q": "Per kiek sekundžių po komandos turi išskristi taikinys?",
+      "options": {
+        "a": "3 sekundes",
+        "b": "10 sekundžių",
+        "c": "15 sekundžių"
+      },
+      "explain": "Abiejose rungtyse taikinys, paleistas daugiau nei 3 sekundėmis vėliau, yra No Bird."
+    },
+    "rules-call-and-time-q2": {
+      "q": "Kiek laiko turite komandai {{tm:compak}} rungtyje?",
+      "options": {
+        "a": "5 sekundes",
+        "b": "10 sekundžių",
+        "c": "30 sekundžių"
+      },
+      "explain": "Jūs turite {{fact:rules.compak-time-to-call}}. {{tm:sporting}} rungtyje jūs turite {{fact:rules.sporting-time-between-targets}}."
+    },
+    "rules-call-and-time-q3": {
+      "q": "Taikinys paleistas, nors jo neprašėte. Kas tai?",
+      "options": {
+        "a": "Tai nulis",
+        "b": "Geltonoji kortelė",
+        "c": "Tai No Bird"
+      },
+      "explain": "Neprašytas taikinys yra No Bird, ir tik tokio galima atsisakyti."
+    },
+    "sporting-time-and-lateness-q1": {
+      "q": "Šaulys duoda komandą, teisėjas perduoda signalą, bet taikinys išskrenda maždaug po penkių sekundžių. Sprendimas?",
+      "options": {
+        "a": "Nulis",
+        "b": "No Bird",
+        "c": "Šaulys turi jį šauti",
+        "d": "Įspėjimas šauliui"
+      },
+      "explain": "Taikinys turi išskristi per tris sekundes nuo teisėjo signalo; vėlesnis yra No Bird ir paleidžiamas iš naujo."
+    },
+    "sporting-time-and-lateness-q2": {
+      "q": "Šaulys atvyksta, kai jo grupė dar šaudo pavienius taikinius pirmoje vietoje, ir jo eilė dar neatėjo. Kas nutinka?",
+      "options": {
+        "a": "Prisijungia be nuobaudos",
+        "b": "25 nuliai",
+        "c": "Nulis už visus pirmos vietos pavienius taikinius",
+        "d": "Turi šaudyti su kita grupe"
+      },
+      "explain": "Jei atvykstate, kol jūsų eilė šaudant pirmos vietos pavienius taikinius dar nepraleista, nuobaudos nėra."
+    },
+    "sporting-time-and-lateness-q3": {
+      "q": "Tarp dviejų pavienių taikinių šaulys užtrunka apie 25 sekundes, šiandien pirmą kartą. Sprendimas?",
+      "options": {
+        "a": "Nulis už kitą taikinį",
+        "b": "Raudonoji kortelė",
+        "c": "Jokių pasekmių",
+        "d": "Teisėjo įspėjimas"
+      },
+      "explain": "Riba – 15 sekundžių; pirmą kartą ją viršijus teisėjas įspėja, ir tik po to taikomos nuobaudos."
+    },
+    "compak-gun-and-call-q2": {
+      "q": "{{tm:compak}} su sonopulu. Taikinys išskrenda pusę sekundės po šaulio komandos. Ar tai No Bird?",
+      "options": {
+        "a": "Taip, taikinys pavėlavo",
+        "b": "Ne, tokia delsa normali",
+        "c": "Tik jei šaulys paprašytų",
+        "d": "Tik dublete"
+      },
+      "explain": "Sonopulas taikinį paleidžia visada {{fact:rules.sonopull-delay}} po komandos. No Bird yra tik taikinys, pavėlavęs daugiau nei 3 sekundes."
+    },
+    "compak-gun-and-call-q3": {
+      "q": "Antrą kartą toje pačioje serijoje šaulys komandą duoda vėliau nei po 10 sekundžių. Taikinys pavienis. Sprendimas?",
+      "options": {
+        "a": "Nulis",
+        "b": "Tik dar vienas įspėjimas",
+        "c": "No Bird",
+        "d": "Pašalinimas"
+      },
+      "explain": "Po pirmojo įspėjimo pasikartojimas toje pačioje serijoje baudžiamas pagal lentelę: pavienis taikinys įskaitomas kaip nulis."
+    },
+    "compak-dress-and-conduct-q2": {
+      "q": "{{tm:compak}}, by squad formatas. Šaulys atvyksta akimirką po to, kai pirmas grupės šaulys paprašė serijos pirmo taikinio. Kas tada?",
+      "options": {
+        "a": "Nuobaudos nėra",
+        "b": "Nulis tik už pirmą taikinį",
+        "c": "Šaudo grupės gale",
+        "d": "25 nuliai už seriją"
+      },
+      "explain": "Riba – grupės pirma komanda. Po jos pavėlavęs šaulys gauna 25 nulius; raštu apeliuoti žiuri galima tą pačią dieną."
+    }
+  }
+}

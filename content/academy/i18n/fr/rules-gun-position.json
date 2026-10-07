@@ -1,0 +1,181 @@
+{
+ "id": "rules-gun-position",
+ "lang": "fr",
+ "base_rev": 1,
+ "h": {
+  "title": "217daa8e",
+  "summary": "5f71387a",
+  "rules-gun-position-p1": "308382b7",
+  "rules-gun-position-cmp1": "95b76718",
+  "sporting-gun-position-p1": "8e9645ae",
+  "sporting-gun-position-p2": "d0d75e51",
+  "sporting-gun-position-p3": "c4416d62",
+  "rules-gun-position-p5": "408e96a9",
+  "sporting-gun-position-p4": "0a3425cb",
+  "sporting-gun-position-p5": "42345a8d",
+  "rules-gun-position-tip1": "2c6ec53c",
+  "rules-gun-position-n1": "c8357a04",
+  "sporting-gun-position-ph1": "1832c42b",
+  "sporting-gun-position-ph2": "2cf35975",
+  "sporting-gun-position-ph3": "fc05482d",
+  "sporting-gun-position-ph4": "8cfb394e",
+  "gear-protection-clothes-ph2": "75e93376",
+  "gear-protection-clothes-ph3": "6807ee7b",
+  "compak-gun-and-call-ph2": "08c2e3d7",
+  "sporting-gun-position-kp1": "825abaaa",
+  "sporting-gun-position-kp2": "b4b04213",
+  "sporting-gun-position-kp3": "ac9132d3",
+  "sporting-gun-position-kp4": "061fc1d9",
+  "rules-gun-position-kp4": "feed9af0",
+  "rules-gun-position-dyk": "71e12e41",
+  "rules-gun-position-q1": "bddb82a6",
+  "rules-gun-position-q2": "251e5a7f",
+  "rules-gun-position-q3": "3ac89e7f",
+  "sporting-gun-position-q1": "bbb625d7",
+  "sporting-gun-position-q2": "76c39e80",
+  "sporting-gun-position-q3": "a26941d8",
+  "compak-gun-and-call-q1": "f5376923",
+  "gear-protection-clothes-q2": "2223479a"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Position du fusil avant l'apparition du plateau",
+ "summary": "En {{tm:sporting}}, la crosse reste sous une ligne du gilet jusqu'à l'apparition du plateau. En {{tm:compak}}, la position du fusil à l'annonce est libre.",
+ "body": {
+  "rules-gun-position-p1": "Dans une compétition de {{tm:sporting}}, les tireurs annoncent le plateau en tenant le fusil bas. C'est une règle, pas une question de style. Le {{tm:compak}} n'a pas cette règle.",
+  "rules-gun-position-cmp1": {
+   "sporting": "Fusil bas : le haut arrière de la crosse reste sous la ligne du gilet jusqu'à ce que vous voyiez le plateau.",
+   "compak": "Libre : le fusil peut déjà être à l'épaule, ou plus bas. Il n'y a pas de ligne sur le gilet, mais le tir se fait tout de même depuis l'épaule."
+  },
+  "sporting-gun-position-p1": "En {{tm:sporting}}, avant d'annoncer, vos deux pieds sont à l'intérieur du {{term:shooting-stand|poste}}. Le talon de la crosse (son coin supérieur arrière, la partie qui va dans l'épaule) touche le corps. Le point le plus haut à l'arrière de la crosse, généralement le talon lui-même, reste sous la ligne du gilet. Vous gardez cette {{term:ready-position|position d'attente}} jusqu'à ce que le plateau soit sorti du lanceur et que vous le voyiez.",
+  "sporting-gun-position-p2": "La {{term:jacket-line|ligne}} est tracée sur le gilet ou la veste {{fact:rules.sporting-jacket-line}} (une ligne horizontale imaginaire passant par les deux épaules), parallèlement à celle-ci. Sa couleur tranche sur le gilet, pour que l'arbitre la voie. La règle s'applique à tout type de crosse : standard, Monte-Carlo (à busc surélevé, le bord supérieur de la crosse où repose la joue) et à {{term:adjustable-comb|busc réglable}}.",
+  "sporting-gun-position-p3": "Vous ne pouvez amener le fusil à l'épaule ({{term:gun-mount|l'épauler}}) qu'une fois le plateau apparu. Tous les plateaux, y compris le {{term:rabbit|rabbit}}, se tirent fusil à l'épaule ; tirer depuis la hanche n'est pas permis.",
+  "rules-gun-position-p5": "Un assouplissement : sur un {{term:double|doublé}}, vous pouvez tenir le fusil comme vous voulez entre le premier et le second plateau. Avant le premier plateau, la position basse reste obligatoire.",
+  "sporting-gun-position-p4": "Sanctions : la première fois que vous annoncez dans une mauvaise position ou que vous épaulez trop tôt, l'arbitre donne un avertissement verbal et montre un {{term:yellow-card|carton jaune}}. Recommencer sur le même {{term:layout|parcours}} coûte un {{term:red-card|carton rouge}} : un plateau simple est compté zéro, et les doublés suivent le tableau du guide des règles ({{rule:sporting:ch12-red-card}}).",
+  "sporting-gun-position-p5": "Épauler le fusil et le faire suivre la ligne où vous attendez le plateau, avant d'annoncer, est un {{term:mock-shooting|simulacre de tir}}, et c'est également interdit. La première fois vaut un avertissement. En cas de répétition, le prochain plateau touché est compté zéro.",
+  "rules-gun-position-tip1": "Si vous pratiquez les deux disciplines, beaucoup d'entraîneurs suggèrent de travailler le départ fusil bas avant une épreuve de {{tm:sporting}}, même si vous annoncez fusil épaulé en {{tm:compak}}."
+ },
+ "note": {
+  "rules-gun-position-n1": "Si un entraîneur fait travailler un départ fusil épaulé avant une épreuve de {{tm:sporting}}, veillez à bien traduire aussi le mot « exercice » : c'est un entraînement, pas le départ en compétition."
+ },
+ "phrases": {
+  "sporting-gun-position-ph1": {
+   "meaning": "Arbitre : amenez la crosse sous la ligne du gilet avant d'annoncer.",
+   "say": "Fusil bas, s'il vous plaît."
+  },
+  "sporting-gun-position-ph2": {
+   "meaning": "Première infraction de position du fusil : avertissement verbal avec carton jaune.",
+   "say": "Votre crosse était au-dessus de la ligne. C'est un avertissement."
+  },
+  "sporting-gun-position-ph3": {
+   "meaning": "Le fusil ne peut monter que lorsque le plateau est visible.",
+   "say": "N'épaulez pas avant l'apparition du plateau."
+  },
+  "sporting-gun-position-ph4": {
+   "meaning": "Infraction répétée sur le même parcours ; le plateau simple est perdu.",
+   "say": "Carton rouge, zéro."
+  },
+  "gear-protection-clothes-ph2": {
+   "meaning": "Règle {{tm:sporting}} du fusil bas : la crosse reste sous la ligne du gilet jusqu'à l'apparition du plateau.",
+   "say": "La crosse sous le repère, jusqu'à ce que vous voyiez le plateau."
+  },
+  "gear-protection-clothes-ph3": {
+   "meaning": "Le {{tm:compak}} n'a pas d'exigence de ligne du gilet.",
+   "say": "Pas besoin de repère ici : c'est du Compak."
+  },
+  "compak-gun-and-call-ph2": {
+   "meaning": "Entraîneur : en {{tm:compak}}, la position du fusil à l'annonce est libre.",
+   "say": "Fusil haut ou bas, c'est à vous de choisir ici."
+  }
+ },
+ "key_points": {
+  "sporting-gun-position-kp1": "{{tm:sporting}} : avant l'annonce, les deux pieds dans le poste, le talon de la crosse (son coin supérieur arrière) sur le corps et sous la ligne du gilet.",
+  "sporting-gun-position-kp2": "{{tm:sporting}} : la ligne du gilet est {{fact:rules.sporting-jacket-line}} (une ligne passant par les deux épaules), d'une couleur contrastante.",
+  "sporting-gun-position-kp3": "{{tm:sporting}} : épaulez seulement quand le plateau apparaît ; la position du fusil n'est libre qu'entre les deux plateaux d'un doublé.",
+  "sporting-gun-position-kp4": "{{tm:sporting}} : la première infraction vaut un avertissement avec carton jaune, la suivante sur le même parcours un carton rouge.",
+  "rules-gun-position-kp4": "{{tm:compak}} : la position à l'annonce est libre et il n'y a pas de ligne du gilet ; le tir se fait tout de même depuis l'épaule."
+ },
+ "did_you_know": "Le départ fusil bas s'explique souvent par les racines de chasse du {{tm:sporting}} : un chasseur attend rarement un gibier avec le fusil déjà à l'épaule.",
+ "quiz": {
+  "rules-gun-position-q1": {
+   "q": "À quelle distance sous l'axe de l'épaule (une ligne imaginaire passant par les deux épaules) se trouve la ligne du gilet en {{tm:sporting}} ?",
+   "options": {
+    "a": "10 cm",
+    "b": "25 cm",
+    "c": "40 cm"
+   },
+   "explain": "La ligne passe {{fact:rules.sporting-jacket-line}}, parallèlement à celui-ci."
+  },
+  "rules-gun-position-q2": {
+   "q": "Peut-on annoncer le plateau en {{tm:compak}} avec le fusil déjà à l'épaule ?",
+   "options": {
+    "a": "Non, le fusil doit démarrer bas",
+    "b": "Seulement sur un doublé",
+    "c": "Oui, la position est libre"
+   },
+   "explain": "Le {{tm:compak}} n'a pas de règle du fusil bas ni de ligne de gilet ; seul le tir lui-même doit se faire depuis l'épaule."
+  },
+  "rules-gun-position-q3": {
+   "q": "Quand peut-on tenir le fusil comme on veut en {{tm:sporting}} ?",
+   "options": {
+    "a": "Entre les deux plateaux d'un doublé",
+    "b": "Avant le premier plateau d'un doublé",
+    "c": "En attendant un rabbit"
+   },
+   "explain": "La position libre n'est permise qu'entre les deux plateaux d'un doublé ; avant le premier, la position d'attente s'applique."
+  },
+  "sporting-gun-position-q1": {
+   "q": "Sur le premier poste, un tireur annonce avec le fusil déjà à l'épaule. C'est la première infraction de ce type sur ce parcours. Que décide l'arbitre ?",
+   "options": {
+    "a": "Le plateau est compté zéro",
+    "b": "Un avertissement et un carton jaune",
+    "c": "No bird, et rien de plus",
+    "d": "L'exclusion de l'épreuve"
+   },
+   "explain": "La première infraction de position du fusil est un avertissement verbal appuyé par un carton jaune."
+  },
+  "sporting-gun-position-q2": {
+   "q": "Plus tôt sur ce parcours, un tireur a reçu un carton jaune pour la position du fusil. Maintenant, sur un plateau simple, la crosse est au-dessus de la ligne du gilet à l'annonce. Décision ?",
+   "options": {
+    "a": "Un autre carton jaune",
+    "b": "Un No bird, à retirer",
+    "c": "Carton rouge et nouvel essai",
+    "d": "Carton rouge et un zéro"
+   },
+   "explain": "Après l'avertissement, une nouvelle infraction sur le même parcours vaut un carton rouge : zéro sur un plateau simple."
+  },
+  "sporting-gun-position-q3": {
+   "q": "{{tm:sporting}}. L'arbitre a déjà averti une fois un tireur pour simulacre de tir. Avant l'annonce suivante, le tireur épaule à nouveau et suit la ligne du plateau, puis casse le plateau. Comment est-il compté ?",
+   "options": {
+    "a": "Un, avec un second avertissement",
+    "b": "Zéro",
+    "c": "No bird, à retirer",
+    "d": "Un, sans sanction"
+   },
+   "explain": "Après un premier avertissement pour simulacre de tir, une répétition coûte le prochain plateau touché par le tireur : il est compté zéro."
+  },
+  "compak-gun-and-call-q1": {
+   "q": "En {{tm:compak}}, un tireur annonce le fusil bas et, quand le rabbit apparaît, tire depuis la hanche sans épauler. Est-ce permis ?",
+   "options": {
+    "a": "Oui, la position du fusil est libre",
+    "b": "Non, chaque tir se fait depuis l'épaule",
+    "c": "Oui, mais seulement sur un rabbit",
+    "d": "Seulement pour le second tir"
+   },
+   "explain": "En {{tm:compak}}, on peut annoncer fusil haut ou bas, mais chaque plateau doit être tiré fusil à l'épaule."
+  },
+  "gear-protection-clothes-q2": {
+   "q": "Un tireur de {{tm:sporting}} utilise une crosse Monte-Carlo, à busc surélevé. La règle de la ligne du gilet s'applique-t-elle ?",
+   "options": {
+    "a": "Oui, elle couvre tous les types de crosse",
+    "b": "Non, seulement les crosses standards",
+    "c": "Seulement pour un busc réglable",
+    "d": "Seulement en finale"
+   },
+   "explain": "La règle couvre les crosses standards, Monte-Carlo et à busc réglable : avant l'apparition du plateau, le haut arrière de la crosse reste sous la ligne du gilet, qui passe {{fact:rules.sporting-jacket-line}}."
+  }
+ }
+}

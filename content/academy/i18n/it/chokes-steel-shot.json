@@ -1,0 +1,98 @@
+{
+  "id": "chokes-steel-shot",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "fedccba2",
+    "summary": "4c8df65a",
+    "chokes-steel-shot-p1": "6e1820a5",
+    "chokes-steel-shot-p2": "a5964f74",
+    "chokes-steel-shot-p3": "80065cba",
+    "chokes-steel-shot-p4": "6938f339",
+    "chokes-steel-shot-p5": "27ec5c98",
+    "chokes-steel-shot-p6": "ccecd577",
+    "chokes-steel-shot-kp1": "cf25ddca",
+    "chokes-steel-shot-kp2": "26616153",
+    "chokes-steel-shot-kp3": "568670ff",
+    "chokes-steel-shot-kp4": "cb2ee2d8",
+    "chokes-steel-shot-kp5": "4e8f1749",
+    "chokes-steel-shot-dyk": "2cdebfbb",
+    "chokes-steel-shot-q1": "125543e4",
+    "chokes-steel-shot-q2": "e0224987",
+    "chokes-steel-shot-q3": "7bcf1c52",
+    "chokes-steel-shot-q4": "0ff453e4"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Pallini d'acciaio e strozzatori",
+  "summary": "I pallini d'acciaio sono duri e non si comprimono nello strozzatore, quindi danno una rosata più stretta. Quali strozzatori gli si adattano, come leggere i punzoni di prova, e cosa significa questo nei campi {{tm:sporting}} e {{tm:compak}} che richiedono l'acciaio.",
+  "body": {
+    "chokes-steel-shot-p1": "Alcuni campi, specialmente vicino all'acqua o in aree protette, permettono solo pallini senza piombo, più spesso {{term:steel-shot|acciaio}} o {{term:soft-iron-shot|ferro dolce}}. Dei pallini stessi si parla in {{lesson:cartridges-lead-and-steel}}. Qui vediamo cosa significa per gli strozzatori.",
+    "chokes-steel-shot-p2": "Un pallino di {{term:lead-shot|piombo}} è morbido e si deforma un poco passando per lo strozzatore. Un pallino d'acciaio è duro e non si comprime. Quindi lo stesso strozzatore dà con l'acciaio una {{term:pattern|rosata}} sensibilmente più stretta, e molti tiratori montano uno strozzatore un passo più aperto: 1/4 invece di 1/2.",
+    "chokes-steel-shot-p3": "L'acciaio duro mette anche più sotto sforzo lo strozzatore. Molti produttori e distributori consigliano, con cariche d'acciaio standard, strozzatori non più stretti del {{term:modified|modified}} (1/2). Per l'acciaio high performance (il tipo più potente, spiegato sotto) alcuni suggeriscono al massimo 1/4. Un {{term:full-choke|full choke}} con l'acciaio è per lo più non consigliato. Il limite esatto dipende dal fucile, quindi leggi il manuale del produttore.",
+    "chokes-steel-shot-p4": "Gli strozzatori fatti per l'acciaio portano spesso la scritta «Steel» o «Steel OK», e alcuni «Lead only». Se uno strozzatore non ha marcature e non hai il manuale, chiedi a un {{term:gunsmith|armaiolo}}.",
+    "chokes-steel-shot-p5": [
+      "Le canne vecchie a pareti sottili, specialmente con uno strozzatore {{term:fixed-choke|fisso}} full, possono essere danneggiate dall'acciaio: può apparire un rigonfiamento ad anello vicino alla volata.",
+      "Le cartucce d'acciaio si dividono in due classi secondo le regole C.I.P. (gli standard di prova comuni per armi e munizioni usati nella maggior parte d'Europa): acciaio standard e acciaio high performance.",
+      "L'acciaio standard si può sparare con un fucile in buone condizioni con i normali punzoni di prova. Sono i marchi che una stazione di prova (proof house) mette su un fucile dopo averlo testato con un colpo.",
+      "L'acciaio high performance si può sparare solo con un fucile che ha superato una prova separata per i pallini d'acciaio; le sue canne portano un marchio a forma di giglio (fleur-de-lis), spesso con la scritta «Steel Shot».",
+      "Le cariche d'acciaio da tiro a volo sono di solito acciaio standard. Controlla la scatola e i documenti del fucile; in caso di dubbio, chiedi a un armaiolo."
+    ],
+    "chokes-steel-shot-p6": "Vai in un campo che richiede l'acciaio? Scopri in anticipo quali cartucce sono ammesse e porta strozzatori fatti per l'acciaio. Prima di una gara, spara quelle cartucce in allenamento per vedere come cambia la tua rosata."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-steel-shot-kp1": "I pallini d'acciaio non si comprimono nello strozzatore e danno una rosata più stretta.",
+    "chokes-steel-shot-kp2": "Con l'acciaio, molti tiratori usano uno strozzatore un passo più aperto.",
+    "chokes-steel-shot-kp3": "Molti produttori consigliano, con l'acciaio, non più stretto di 1/2; il full è per lo più non consigliato.",
+    "chokes-steel-shot-kp4": "Cerca la marcatura «Steel» sullo strozzatore e leggi il manuale.",
+    "chokes-steel-shot-kp5": "Le canne vecchie a pareti sottili possono danneggiarsi; l'acciaio high performance richiede il punzone a fleur-de-lis."
+  },
+  "did_you_know": "Un pallino d'acciaio è {{fact:gear.steel-vs-lead-weight}}, quindi perde velocità prima. Per questo chi usa l'acciaio sceglie spesso pallini un po' più grandi, dove le regole del campo lo permettono.",
+  "quiz": {
+    "chokes-steel-shot-q1": {
+      "q": "Perché con l'acciaio la rosata è più stretta di quella col piombo, attraverso lo stesso strozzatore?",
+      "options": {
+        "a": "L'acciaio è più pesante del piombo",
+        "b": "I pallini duri d'acciaio non si comprimono nello strozzatore",
+        "c": "Le cartucce d'acciaio contengono molti più pallini",
+        "d": "I pallini d'acciaio escono dalla canna più in fretta"
+      },
+      "explain": "Il piombo morbido si deforma un poco nello strozzatore; l'acciaio duro no, quindi resta più compatto."
+    },
+    "chokes-steel-shot-q2": {
+      "q": "Quale strozzatore è per lo più non consigliato con i pallini d'acciaio?",
+      "options": {
+        "a": "Cylinder",
+        "b": "Improved cylinder (1/4)",
+        "c": "Modified (1/2)",
+        "d": "Full"
+      },
+      "explain": "Il full choke con l'acciaio è per lo più non consigliato; il limite esatto è nel manuale del produttore."
+    },
+    "chokes-steel-shot-q3": {
+      "q": "Come si scopre se uno strozzatore è adatto all'acciaio?",
+      "options": {
+        "a": "Dalla sua marcatura e dal manuale del produttore",
+        "b": "Dal colore della finitura della canna",
+        "c": "Sparando un colpo e osservando",
+        "d": "Non serve: tutti gli strozzatori moderni lo sono"
+      },
+      "explain": "Cerca la marcatura sullo strozzatore e controlla il manuale; in caso di dubbio chiedi a un armaiolo."
+    },
+    "chokes-steel-shot-q4": {
+      "q": "Per quali cartucce d'acciaio serve un fucile con il punzone a fleur-de-lis per i pallini d'acciaio?",
+      "options": {
+        "a": "Cartucce d'acciaio standard da tiro a volo",
+        "b": "Cartucce d'acciaio high performance",
+        "c": "Cartucce di piombo con borra in fibra",
+        "d": "Cartucce di ferro dolce per l'allenamento"
+      },
+      "explain": "L'acciaio standard si può sparare con un fucile in buone condizioni con la prova normale; l'acciaio high performance richiede la prova speciale per i pallini d'acciaio."
+    }
+  }
+}

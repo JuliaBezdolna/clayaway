@@ -1,0 +1,89 @@
+{
+  "id": "travel-planning-trip",
+  "lang": "fi",
+  "base_rev": 2,
+  "h": {
+    "title": "3c396c70",
+    "summary": "c6e3f110",
+    "travel-planning-trip-p1": "c93a0a65",
+    "travel-planning-trip-p2": "1b85f3fa",
+    "travel-planning-trip-p3": "93b81088",
+    "travel-planning-trip-p4": "c60f44f9",
+    "travel-planning-trip-p5": "93c19ef3",
+    "travel-planning-trip-p8": "82c3eb25",
+    "travel-planning-trip-p6": "1c509a78",
+    "travel-planning-trip-p7": "bc355698",
+    "travel-planning-trip-tip": "b26ab163",
+    "travel-planning-trip-kp1": "d64c61ea",
+    "travel-planning-trip-kp2": "2e3aa923",
+    "travel-planning-trip-kp3": "8e0514ca",
+    "travel-planning-trip-kp4": "4b5a3954",
+    "travel-planning-trip-kp5": "5946202c",
+    "travel-planning-trip-kp6": "dbb1c2c7",
+    "travel-planning-trip-dyk2": "6f6b5a5c",
+    "travel-planning-trip-q1": "880026b9",
+    "travel-planning-trip-q2": "aecc4829",
+    "travel-planning-trip-q3": "ad4ffcea"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Matkan suunnittelu",
+  "summary": "Ilmoittautuminen, majoitus radan läheltä, kuljetukset, asiakirjat ja ajoissa saapuminen: mistä hyvä matka {{tm:sporting}}- tai {{tm:compak}}-kilpailuun koostuu.",
+  "body": {
+    "travel-planning-trip-p1": "Matka {{tm:sporting}}- tai {{tm:compak}}-kilpailuun alkaa sen ohjelmasta. Siinä on päivämäärät, lajit, {{term:entry|ilmoittautumisen}} määräaika ja {{term:entry-fee|osallistumismaksu}}. Ilmoittautuminen tapahtuu {{term:organiser|järjestäjän}} kautta. Suositut kilpailut voivat täyttyä kauan ennen määräaikaa, siksi asiaa ei kannata jättää viime tinkaan.",
+    "travel-planning-trip-p2": "Etsi majoitus radan läheltä. Ampuminen alkaa usein aikaisin, ja pitkä ajomatka joka päivä vie voimia. Järjestäjät suosittelevat usein kumppanihotelleja. Varaa ajoissa ja kysy hotellilta, ottaako se vastaan vieraita urheiluaseen kanssa ja missä asetta voi säilyttää turvallisesti.",
+    "travel-planning-trip-p3": "Suunnittele kuljetukset: lentokentältä hotellille ja joka päivä hotellilta radalle. Vuokra-auto antaa vapautta, mutta aseen kuljettamisella autossa on omat sääntönsä joka maassa. Taksi voi kieltäytyä ottamasta matkustajaa aseen kanssa, ja joillakin kilpailuilla on ampujille oma kuljetus.",
+    "travel-planning-trip-p4": "Pisimpään kestää aseen ja patruunoiden asiakirjojen valmistelu. Aloita useita viikkoja etukäteen, ja EU:n ulkopuoliseen matkaan vielä aikaisemmin: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} ja {{lesson:travel-flying-with-guns}}. Jos oman aseen vieminen on liian hankalaa, kysy radalta, vuokraako se aseita.",
+    "travel-planning-trip-p5": "Yritä saapua päivä tai kaksi etukäteen. {{term:shooting-times|Ampuma-ajat}} ilmoitetaan paikallista aikaa. Pitkän, useita aikavyöhykkeitä ylittävän matkan jälkeen kehosi voi tarvita useamman päivän: ks. {{lesson:travel-jet-lag}}.",
+    "travel-planning-trip-p8": "Aikainen saapuminen jättää aikaa myös harjoitteluun. Missä saa harjoitella, riippuu lajista.",
+    "travel-planning-trip-p6": {
+      "sporting": "Ennen kilpailua kukaan ei saa harjoitella kilpailun {{term:layout|rataosuuksilla}} — tapahtumaa varten valmistelluilla asemilla. Radan muilla osilla saa harjoitella ({{rule:sporting:ch15-no-practice}}).",
+      "compak": "Kilpailun kiekkojen lentoradoilla (trajektoreilla) saa harjoitella, mutta eri {{term:trajectory-setting-table|asetustaulukolla}}: kaaviolla, joka määrää, mistä heittimistä joka asemalla ammutaan. Siksi juuri sitä yhdistelmää, jota ampuu kilpailussa, ei harjoitella ({{rule:compak:ch6-practice}}). Manner- ja maailman{{term:championship|mestaruuskilpailuissa}} virallinen {{term:practice|harjoittelu}} alkaa {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+    },
+    "travel-planning-trip-p7": "Joka ampumapäivänä ole radalla ajoissa, koska {{term:lateness|myöhästyminen}} tarkoittaa menetettyjä kiekkoja. Lajissa {{tm:sporting}} kiekot, joihin ei ehtinyt, merkitään ohilaukauksiksi ({{rule:sporting:ch16-late-shooter}}). Lajissa {{tm:compak}} sääntö on tiukempi: myöhästyneelle ampujalle merkitään 25 ohilaukausta, koko kierros. Kun ampuu {{term:squad|erässä}} (ryhmä, joka käy kierroksen läpi yhdessä), myöhästymiseksi lasketaan saapuminen sen jälkeen, kun erän ensimmäinen ampuja on jo kutsunut ensimmäisen kiekon ({{rule:compak:ch9-late-squad}}).",
+    "travel-planning-trip-tip": "Lyhyt tarkistuslista: asiakirjat, vakuutus, kuulo- ja silmäsuojat, sään mukaiset vaatteet, ohjelma paikallista aikaa ja järjestäjän yhteystiedot. Varattu aika on myös hyvä vakuutus."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "travel-planning-trip-kp1": "Ilmoittaudu ajoissa: suositut kilpailut täyttyvät.",
+    "travel-planning-trip-kp2": "Majoitu radan läheltä ja kysy hotellilta, mihin ase voi jättää.",
+    "travel-planning-trip-kp3": "Aloita aseen asiakirjat viikkoja etukäteen, EU:n ulkopuolisiin matkoihin aikaisemmin.",
+    "travel-planning-trip-kp4": "Saavu päivä tai kaksi etukäteen; ampuma-ajat ilmoitetaan paikallista aikaa.",
+    "travel-planning-trip-kp5": "Harjoittelu ennen kilpailua: lajissa {{tm:sporting}} erillään kilpailun rataosuuksista; lajissa {{tm:compak}} kilpailun kiekoilla, mutta eri asetustaulukolla (heitinten kaaviolla asemittain).",
+    "travel-planning-trip-kp6": "Pakkaa asiakirjat, vakuutus, kuulo- ja silmäsuojat ja sään mukaiset vaatteet."
+  },
+  "did_you_know": "Ampuma-ajat voivat siirtyä kilpailun aikana, jos tulee viivästyksiä. Lajissa {{tm:compak}} säännöt tekevät näiden muutosten seuraamisen ampujan omaksi tehtäväksi ({{rule:compak:ch8-shooting-times}}).",
+  "quiz": {
+    "travel-planning-trip-q1": {
+      "q": "Mikä väite harjoittelusta ennen kilpailua on tosi?",
+      "options": {
+        "a": "Lajissa {{tm:sporting}} kilpailun rataosuuksilla saa harjoitella",
+        "b": "Lajissa {{tm:compak}} ei saa harjoitella lainkaan ennen kilpailua",
+        "c": "Lajissa {{tm:sporting}} harjoitellaan vain radan muilla osilla"
+      },
+      "explain": "Lajissa {{tm:sporting}} kilpailun rataosuudet ovat suljettuja harjoittelulta, siksi harjoitellaan radan muilla osilla. Lajissa {{tm:compak}} kilpailun kiekoilla saa harjoitella eri asetustaulukolla; mestaruuskilpailuissa virallinen harjoittelu alkaa {{fact:training.compak-championship-practice}}."
+    },
+    "travel-planning-trip-q2": {
+      "q": "Miksi kannattaa suunnitella saapuvansa päivä tai kaksi ennen kilpailua?",
+      "options": {
+        "a": "Asettuakseen, totutellakseen paikalliseen aikaan ja harjoitellakseen",
+        "b": "Maksaakseen pienemmän osallistumismaksun aikaisesta saapumisesta",
+        "c": "Valitakseen itse oman eränsä ja aloitusajan"
+      },
+      "explain": "Keho tarvitsee aikaa pitkän matkan jälkeen, ja aikainen saapuminen antaa mahdollisuuden valmistautua rauhassa."
+    },
+    "travel-planning-trip-q3": {
+      "q": "Millä ajalla ampuma-ajat ilmoitetaan?",
+      "options": {
+        "a": "Kotimaan ajalla",
+        "b": "Tapahtumapaikan paikallisella ajalla",
+        "c": "UTC-ajalla, samana kaikissa maissa"
+      },
+      "explain": "Aikataulu on paikallista aikaa, tarkista siis puhelimen kello lennon jälkeen."
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "targets-sporting-layout",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "e7f069bb",
+    "summary": "19716cde",
+    "sport-sporting-layout-p1": "a77d4d14",
+    "sport-sporting-layout-p2": "208f6c36",
+    "sport-sporting-layout-p3": "e38f4eb7",
+    "sport-sporting-layout-p4": "9af0ea8f",
+    "sport-sporting-layout-p5": "94a7f005",
+    "sport-sporting-layout-kp5": "a961a1f3",
+    "sport-sporting-layout-ph1": "8bf59186",
+    "sport-sporting-layout-ph2": "5d04fd67",
+    "sport-sporting-layout-ph3": "45d94721",
+    "sport-sporting-layout-q2": "7ba365a9",
+    "sport-sporting-layout-q3": "46361f55",
+    "sporting-rounds-stands-p1": "10956753",
+    "sporting-rounds-stands-p2": "729987f5",
+    "sporting-rounds-stands-p4": "0e615261",
+    "sporting-rounds-stands-p5": "d2f4c8ea",
+    "sporting-rounds-stands-kp1": "19329416",
+    "sporting-rounds-stands-kp2": "b179890e",
+    "sporting-rounds-stands-kp3": "ad8ab490",
+    "sporting-rounds-stands-kp4": "137d175e",
+    "sporting-rounds-stands-ph1": "3e1497ed",
+    "sporting-rounds-stands-ph2": "81904d45",
+    "sporting-rounds-stands-ph3": "e1612014",
+    "sporting-rounds-stands-ph4": "35d596b1",
+    "sporting-rounds-stands-q1": "c77ad18c",
+    "sporting-rounds-stands-q2": "c69d4184",
+    "sporting-rounds-stands-q3": "957fb77e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Como funcionam um percurso e uma série de {{tm:sporting}}",
+  "summary": "Percursos, postos de tiro, máquinas de A a D, o menu de pratos, classes de dificuldade e a série de 25 pratos: como se organiza e se atira uma competição de {{tm:sporting}}.",
+  "body": {
+    "sport-sporting-layout-p1": "No {{tm:sporting}} o terreno de tiro divide-se em {{term:layout|percursos}}. Um percurso é um grupo de {{term:shooting-stand|postos de tiro}} que, em conjunto, formam uma série de {{fact:targets.sporting-layout-targets}}.",
+    "sport-sporting-layout-p2": "Um posto de tiro é o sítio onde o atirador se coloca: um quadrado de 1 m ou um círculo com 1 m de diâmetro. Deve ser nivelado onde possível, e pelo menos não escorregadio (uma regra de segurança). O resto da {{term:squad|esquadra}} (o grupo de atiradores que atira junto) espera perto, o suficiente para acompanhar, mas sem distrair o atirador.",
+    "sport-sporting-layout-p3": "As máquinas são colocadas de acordo com o terreno, muitas vezes parcialmente escondidas por arbustos ou árvores. Os pratos imitam caça verdadeira: transversais, de entrada, de saída ou em diagonal, altos ou baixos, a descoberto ou através das árvores. As máquinas de um posto são identificadas por letras da esquerda para a direita, vistas do posto: A, B, C e assim por diante (o regulamento nomeia de A a D). O menu e a folha de marcação usam estas letras.",
+    "sport-sporting-layout-p4": "À frente de cada posto há um {{term:target-menu|menu de tiro}}. Indica as máquinas pela ordem de tiro e assinala quaisquer pratos especiais: {{fact:targets.sporting-menu-special-targets}}. Antes da competição, os árbitros verificam se as máquinas correspondem ao menu. Os atiradores leem-no antes de entrar no posto; veja {{lesson:targets-menu}}.",
+    "sport-sporting-layout-p5": "Cada trajetória tem uma {{term:difficulty-class|classe de dificuldade}}: {{fact:targets.sporting-difficulty-classes}}. Para um posto as regras recomendam uma trajetória A, duas B e uma C. Ou seja, um prato de classe C é feito para ser difícil; falhá-lo não é nenhum desastre.",
+    "sporting-rounds-stands-p1": "Uma competição de {{tm:sporting}} conta-se em séries de 25 pratos. Uma prova internacional tem 200 pratos, ou seja, oito séries; cada série atira-se num percurso (um conjunto de postos de tiro) ou numa linha.",
+    "sporting-rounds-stands-p2": "Os percursos constroem-se de uma de duas formas. No tipo mais antigo, 3 postos partilham 5 máquinas. O tipo mais recente chama-se {{term:line|linha}}. Uma linha de 4 postos tem três postos com 4 máquinas e um posto (o n.º 2 ou o 3) com 3 máquinas. Uma linha de 5 postos tem 3 máquinas em cada posto. Uma linha de 3 postos com 5 máquinas cada só é permitida num Grand Prix.",
+    "sporting-rounds-stands-p4": "Os atiradores percorrem o campo em esquadras de até seis, formadas por sorteio. Em cada posto, todos atiram primeiro os simples e depois os doubles. Quem atira primeiro muda de posto para posto, e muda outra vez quando começam os doubles. Os outros esperam perto, sem distrair quem está a atirar.",
+    "sporting-rounds-stands-p5": "O árbitro, ou alguém sob a sua supervisão, preenche a folha de marcação, assinalando cada prato por baixo da letra da sua máquina. Ao sair de um posto, cada atirador verifica o seu resultado; se discordar, diga-o de imediato ao árbitro, e a decisão do árbitro é definitiva."
+  },
+  "note": {},
+  "phrases": {
+    "sport-sporting-layout-ph1": {
+      "meaning": "No terceiro percurso há muitos pratos pequenos a voar através das árvores.",
+      "say": "O percurso três é o difícil hoje — muitos minis no meio das árvores."
+    },
+    "sport-sporting-layout-ph2": {
+      "meaning": "Verifique primeiro a ordem das máquinas e os pratos especiais.",
+      "say": "Neste posto, leia o menu antes de entrar."
+    },
+    "sport-sporting-layout-ph3": {
+      "meaning": "O prato está classificado como difícil; é normal falhá-lo.",
+      "say": "O posto dois é um prato de classe C, não se preocupe com ele."
+    },
+    "sporting-rounds-stands-ph1": {
+      "meaning": "A ordem normal em todos os postos.",
+      "say": "Primeiro os simples, depois os doubles."
+    },
+    "sporting-rounds-stands-ph2": {
+      "meaning": "O painel do menu indica as máquinas pela ordem em que vão ser atiradas.",
+      "say": "Leia o menu: as máquinas são A, B, C."
+    },
+    "sporting-rounds-stands-ph3": {
+      "meaning": "O árbitro chama a pessoa seguinte para o posto.",
+      "say": "Próximo atirador."
+    },
+    "sporting-rounds-stands-ph4": {
+      "meaning": "Qualquer desacordo tem de ser apresentado agora, não depois.",
+      "say": "Verifique o seu resultado antes de sair do posto."
+    }
+  },
+  "key_points": {
+    "sport-sporting-layout-kp5": "Classes de dificuldade: {{fact:targets.sporting-difficulty-classes}}.",
+    "sporting-rounds-stands-kp1": "Um percurso dá uma série de {{fact:targets.sporting-layout-targets}}. Uma prova internacional tem 200 pratos.",
+    "sporting-rounds-stands-kp2": "As máquinas têm letras A, B, C… da esquerda para a direita, vistas do posto; o menu dá a ordem e os pratos especiais.",
+    "sporting-rounds-stands-kp3": "Esquadras de até seis; primeiro os simples, depois os doubles; a ordem roda.",
+    "sporting-rounds-stands-kp4": "Verifique o resultado ao sair de cada posto; o árbitro decide."
+  },
+  "quiz": {
+    "sport-sporting-layout-q2": {
+      "q": "O treinador diz «Go to stand two.» Como traduz «stand»?",
+      "options": {
+        "a": "«stand» (o campo de tiro)",
+        "b": "«posto de tiro»",
+        "c": "«bancada»",
+        "d": "«armeiro» (suporte de armas)"
+      },
+      "explain": "No Sporting™, o stand é a posição de tiro de 1 m; em português, «stand» designa normalmente o campo de tiro inteiro."
+    },
+    "sport-sporting-layout-q3": {
+      "q": "Como se identificam as máquinas de um posto de Sporting™?",
+      "options": {
+        "a": "Por números de 1 a 6, contados a partir da direita",
+        "b": "Por cores pintadas em cada máquina",
+        "c": "Pelas letras A, B, C, D, da esquerda para a direita",
+        "d": "Pelo nome da pessoa que as aciona"
+      },
+      "explain": "As letras A, B, C, D leem-se da esquerda para a direita, vistas do posto, e são usadas no menu e na folha de marcação."
+    },
+    "sporting-rounds-stands-q1": {
+      "q": "Quantos pratos dá um percurso de Sporting™ e como se dividem?",
+      "options": {
+        "a": "20: 10 simples e 5 doubles",
+        "b": "25: todos simples",
+        "c": "25: 15 simples e 5 doubles",
+        "d": "50: 25 simples e 25 doubles"
+      },
+      "explain": "Todos os tipos de percurso dão 15 simples mais 5 doubles, ou seja, 25 pratos."
+    },
+    "sporting-rounds-stands-q2": {
+      "q": "Por que ordem atira uma esquadra num posto?",
+      "options": {
+        "a": "Primeiro os doubles, depois os simples",
+        "b": "Todos atiram primeiro os simples e depois os doubles, e a ordem roda",
+        "c": "Cada atirador atira o percurso todo de uma vez",
+        "d": "Os atiradores escolhem livremente"
+      },
+      "explain": "Primeiro vêm os simples, depois os doubles, de forma rotativa, salvo decisão em contrário do júri."
+    },
+    "sporting-rounds-stands-q3": {
+      "q": "Ao sair do posto, um atirador vê que um acerto foi marcado como falha. O que deve fazer?",
+      "options": {
+        "a": "Esperar pelo fim da série e recorrer ao júri",
+        "b": "Corrigir ele próprio a folha",
+        "c": "Pedir à esquadra que vote",
+        "d": "Dizê-lo de imediato ao árbitro; o árbitro decide"
+      },
+      "explain": "Os resultados verificam-se ao sair de cada posto; só o árbitro decide, e depois não há recurso."
+    }
+  }
+}

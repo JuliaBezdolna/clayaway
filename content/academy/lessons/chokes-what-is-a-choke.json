@@ -1,0 +1,457 @@
+{
+  "id": "chokes-what-is-a-choke",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "chokes-what-is-a-choke"
+    ],
+    "interpreter": [
+      "gear-chokes"
+    ]
+  },
+  "terms": [
+    "choke",
+    "pattern",
+    "constriction",
+    "cylinder",
+    "over-and-under",
+    "multichoke",
+    "fixed-choke",
+    "choke-key",
+    "improved-cylinder",
+    "modified",
+    "full-choke"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-borrow-replace"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-no-changes-on-stand"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun-change"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Briley — Understanding chokes: 12-gauge constriction chart (inches)",
+        "uk": "Briley — як влаштовані чоки: таблиця звужень для 12 калібру (у дюймах)"
+      },
+      "url": "https://www.briley.com/c-456-understanding-chokes.aspx",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What a choke is",
+    "uk": "Що таке чок"
+  },
+  "summary": {
+    "en": "A choke is a narrowing of the barrel at the muzzle that keeps the shot together. It decides how wide the pattern is at the target, and the rules of {{tm:sporting}} and {{tm:compak}} say when you may change it.",
+    "uk": "Чок — це звуження ствола біля дула, яке тримає дріб купніше. Від нього залежить, наскільки широкий осип на відстані мішені, а правила {{tm:sporting}} і {{tm:compak}} кажуть, коли його можна міняти."
+  },
+  "body": [
+    {
+      "k": "chokes-what-is-a-choke-p1",
+      "t": "p",
+      "en": "When a shotgun fires, what leaves the muzzle is not a single bullet but a cloud of several hundred pellets. As it flies, it gradually spreads out. The mark this cloud leaves on a target or on a steel plate is called the {{term:pattern|pattern}}.",
+      "uk": "Коли рушниця стріляє, з дула вилітає не одна куля, а хмара з кількох сотень дробин. Летячи, вона поступово розширюється. Слід, який ця хмара залишає на мішені чи на металевій плиті, називають {{term:pattern|осипом}} (pattern)."
+    },
+    {
+      "k": "gear-chokes-p1",
+      "t": "p",
+      "core": true,
+      "anchor": "gear-chokes",
+      "en": "A {{term:choke|choke}} is a slight narrowing of the barrel at the muzzle. It controls how quickly the shot spreads. A tighter choke keeps the shot together longer and gives a denser pattern for far targets. A more open choke lets it spread sooner and gives a wider, more forgiving pattern for close targets.",
+      "uk": "{{term:choke|Чок}} (choke) — невелике звуження ствола біля дула. Він визначає, як швидко розлітається дріб. Щільніший чок довше тримає дріб купно й дає густіший осип для далеких мішеней. Відкритіший дає дробу розійтися раніше, і ширший осип пробачає помилки на близьких мішенях."
+    },
+    {
+      "k": "chokes-what-is-a-choke-p2",
+      "t": "p",
+      "en": "How much a choke narrows the barrel is called the {{term:constriction|constriction}}. For example, the inside of the barrel is 18.5 mm wide and the choke squeezes it to 18.0 mm, so the constriction is 0.5 mm. It is given in millimetres or in thousandths of an inch ('thou', also called 'points'). A barrel with no narrowing at all is called {{term:cylinder|cylinder}}.",
+      "uk": "Те, наскільки чок звужує ствол, називають {{term:constriction|звуженням}} (constriction). Приклад: канал ствола має 18,5 мм, а чок стискає його до 18,0 мм — звуження 0,5 мм. Його вказують у міліметрах або в тисячних частках дюйма («thou», їх ще звуть «points»). Ствол без жодного звуження називають {{term:cylinder|циліндром}} (cylinder)."
+    },
+    {
+      "k": "chokes-what-is-a-choke-p4",
+      "t": "p",
+      "en": "A wide pattern forgives small pointing errors on close targets. At long range, though, it thins out and leaves gaps that a target can slip through unbroken. A tight pattern stays dense further out but needs more precise pointing, so there is no single right choke, only one that suits the distance.",
+      "uk": "Широкий осип пробачає дрібні помилки наведення на близьких мішенях. Але на великій відстані він розріджується, і між дробинами з’являються «дірки», крізь які мішень може проскочити неушкодженою. Щільний осип довше зберігає густоту, але вимагає точнішого наведення, тож немає одного правильного чока — є чок, який пасує відстані."
+    },
+    {
+      "k": "gear-chokes-p2",
+      "t": "p",
+      "core": true,
+      "en": "Most competition guns have interchangeable chokes: short tubes screwed into the muzzle with a choke key. Older guns may have fixed chokes machined into the barrel. Tubes from different makers often do not fit each other, and makers warn never to fire a multichoke gun without its tubes.",
+      "uk": "У більшості змагальних рушниць {{term:multichoke|чоки змінні}}: короткі трубки, які вкручують у дуло {{term:choke-key|ключем для чоків}} (choke key). У старіших рушницях чоки бувають {{term:fixed-choke|фіксовані}} — виточені в самому стволі. Чоки різних виробників часто не пасують один до одного, а виробники застерігають ніколи не стріляти з рушниці зі змінними чоками без них."
+    },
+    {
+      "k": "chokes-what-is-a-choke-p6",
+      "t": "p",
+      "en": "In {{tm:sporting}} and {{tm:compak}} targets fly at many different distances, so choosing chokes is part of your plan. In an {{term:over-and-under|over-and-under}} each barrel can have its own choke, for example a more open one for the first, closer shot and a tighter one for the second.",
+      "uk": "У {{tm:sporting}} і {{tm:compak}} мішені летять на різних відстанях, тож вибір чоків — частина вашого плану. У {{term:over-and-under|вертикалці}} кожен ствол може мати свій чок: наприклад, відкритіший для першого, ближчого пострілу і щільніший для другого."
+    },
+    {
+      "k": "gear-chokes-p4",
+      "t": "p",
+      "core": true,
+      "en": "Coaches say things like 'quarter and half', 'open up the bottom barrel', 'go tighter in the top' or 'change chokes for this stand'. Names from cylinder to full, the fractions and the markings: {{lesson:chokes-names-and-marks}}.",
+      "uk": "Тренери кажуть, наприклад: «quarter and half» (чверть і пів), «open up the bottom barrel» (відкрийте нижній ствол). Або: «go tighter in the top» (щільніший у верхній) чи «change chokes for this stand» (змініть чоки на це стрілецьке місце). Назви від циліндра до повного чока, частки й маркування: {{lesson:chokes-names-and-marks}}."
+    },
+    {
+      "k": "gear-chokes-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "The rules differ between disciplines. In {{tm:sporting}} chokes may be changed between stands, or between the singles and the doubles, if it causes no delay. Once the shooter has stepped onto the stand, they may not be changed. In {{tm:compak}} the gun, barrels and chokes may not be changed within a round at all, only between rounds, except after a breakdown.",
+      "uk": "Правила в дисциплінах відрізняються. У {{tm:sporting}} чоки можна міняти між стрілецькими місцями або між одиночними мішенями й дуплетами, якщо це не спричиняє затримки. Коли стрілець уже став на стрілецьке місце, міняти їх не можна. У {{tm:compak}} рушницю, стволи й чоки взагалі не можна міняти протягом раунду — лише між раундами, крім випадку поломки."
+    }
+  ],
+  "note": [
+    {
+      "k": "chokes-what-is-a-choke-n1",
+      "for": "interpreter",
+      "en": "Keep choke names exactly as the coach says them. Do not convert them into millimetres: the values differ between makers.",
+      "uk": "Передавайте назви чоків точно так, як їх сказав тренер. Не перераховуйте їх у міліметри: у різних виробників значення різні."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "gear-chokes-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "What chokes are you using? — Quarter and half.",
+      "meaning": {
+        "en": "Improved cylinder in one barrel, modified in the other.",
+        "uk": "В одному стволі improved cylinder, в іншому modified."
+      },
+      "say": {
+        "uk": "Які у вас чоки? — Чверть і пів."
+      }
+    },
+    {
+      "k": "gear-chokes-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Put quarter in the bottom and half in the top — the second bird is longer.",
+      "meaning": {
+        "en": "More open choke for the first, closer target; tighter for the second, farther one.",
+        "uk": "Відкритіший чок — на першу, ближчу мішень; щільніший — на другу, дальшу."
+      },
+      "say": {
+        "uk": "Поставте чверть у нижній ствол і пів у верхній — друга мішень далі."
+      }
+    },
+    {
+      "k": "gear-chokes-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Open up — these are all close.",
+      "meaning": {
+        "en": "Fit more open chokes because the targets are near.",
+        "uk": "Поставте відкритіші чоки, бо мішені близько."
+      },
+      "say": {
+        "uk": "Відкрийте чоки — тут усі мішені близькі."
+      }
+    },
+    {
+      "k": "gear-chokes-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Check your tubes are tight before the round.",
+      "meaning": {
+        "en": "Make sure the choke tubes have not loosened.",
+        "uk": "Перевірте, чи не розкрутилися чоки."
+      },
+      "say": {
+        "uk": "Перед раундом перевірте, чи щільно закручені чоки."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "chokes-what-is-a-choke-kp1",
+      "en": "The pattern is the mark the shot cloud leaves on a target or plate.",
+      "uk": "Осип (pattern) — слід хмари дробу на мішені чи плиті."
+    },
+    {
+      "k": "gear-chokes-kp1",
+      "core": true,
+      "en": "A choke narrows the muzzle: tighter for far targets, more open for close ones.",
+      "uk": "Чок звужує дуло: щільніший для далеких мішеней, відкритіший для близьких."
+    },
+    {
+      "k": "gear-chokes-kp2",
+      "core": true,
+      "en": "Interchangeable tubes are screwed in with a choke key; makers warn never to fire without them.",
+      "uk": "Змінні чоки вкручують ключем; виробники застерігають не стріляти без них."
+    },
+    {
+      "k": "chokes-what-is-a-choke-kp4",
+      "en": "Choose the choke for the distance at which you will shoot.",
+      "uk": "Чок обирають під відстань, на якій ви стрілятимете."
+    },
+    {
+      "k": "gear-chokes-kp5",
+      "core": true,
+      "en": "{{tm:sporting}}: change chokes between stands, not on the stand; {{tm:compak}}: no change within a round.",
+      "uk": "{{tm:sporting}}: міняти між стрілецькими місцями, не на самому місці; {{tm:compak}}: не міняти протягом раунду."
+    }
+  ],
+  "did_you_know": {
+    "k": "chokes-what-is-a-choke-dyk",
+    "en": "Choke constrictions are tiny. Even a full choke narrows a 12-gauge bore by only about 1 mm in diameter. That is about 0.5 mm on each side, less than the thickness of a bank card.",
+    "uk": "Звуження чоків дуже мале. Навіть повний чок зменшує діаметр каналу 12 калібру лише приблизно на 1 мм. Це приблизно 0,5 мм з кожного боку — менше за товщину банківської картки."
+  },
+  "quiz": [
+    {
+      "k": "gear-chokes-q1",
+      "q": {
+        "en": "Which choke gives the widest pattern?",
+        "uk": "Який чок дає найширший осип?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Full",
+          "uk": "Full (повний)"
+        },
+        {
+          "k": "b",
+          "en": "Improved modified",
+          "uk": "Improved modified (три чверті)"
+        },
+        {
+          "k": "c",
+          "en": "Modified",
+          "uk": "Modified (пів)"
+        },
+        {
+          "k": "d",
+          "en": "Cylinder",
+          "uk": "Cylinder (циліндр)"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Cylinder has no constriction, so the shot spreads soonest.",
+        "uk": "Циліндр не має звуження, тож дріб розлітається найраніше."
+      }
+    },
+    {
+      "k": "chokes-what-is-a-choke-q2",
+      "q": {
+        "en": "What happens if you increase the constriction?",
+        "uk": "Що станеться, якщо збільшити звуження?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The pattern spreads out sooner",
+          "uk": "Осип розходиться раніше"
+        },
+        {
+          "k": "b",
+          "en": "The pattern stays tighter for longer",
+          "uk": "Осип довше лишається щільним"
+        },
+        {
+          "k": "c",
+          "en": "The shot leaves the barrel faster",
+          "uk": "Дріб вилітає зі ствола швидше"
+        },
+        {
+          "k": "d",
+          "en": "The recoil becomes much softer",
+          "uk": "Віддача стає значно м’якшою"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "More constriction keeps the shot together longer, so at the same distance the pattern is narrower and denser.",
+        "uk": "Більше звуження довше тримає дріб купно, тож на тій самій відстані осип вужчий і щільніший."
+      }
+    },
+    {
+      "k": "chokes-what-is-a-choke-q3",
+      "q": {
+        "en": "Why is a very open choke a poor choice for a far target?",
+        "uk": "Чому дуже відкритий чок погано підходить для далекої мішені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It gives far more recoil than others",
+          "uk": "Він дає значно сильнішу віддачу"
+        },
+        {
+          "k": "b",
+          "en": "It is banned for targets over 30 m",
+          "uk": "Його заборонено для мішеней далі 30 м"
+        },
+        {
+          "k": "c",
+          "en": "At range the pattern thins out, with gaps",
+          "uk": "На відстані осип розріджується, з «дірками»"
+        },
+        {
+          "k": "d",
+          "en": "It wears the barrel out much faster",
+          "uk": "Він значно швидше зношує ствол"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A wide pattern thins out at long range, and the target can slip between the pellets.",
+        "uk": "Широкий осип на великій відстані розріджується, і мішень може проскочити між дробинами."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "chokes-what-is-a-choke-q1",
+      "q": {
+        "en": "What is a choke?",
+        "uk": "Що таке чок?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A narrowing of the barrel at the muzzle",
+          "uk": "Звуження ствола біля дула"
+        },
+        {
+          "k": "b",
+          "en": "The safety catch behind the top lever",
+          "uk": "Запобіжник за важелем замка"
+        },
+        {
+          "k": "c",
+          "en": "A type of cartridge for clay targets",
+          "uk": "Тип патрона для стендової стрільби"
+        },
+        {
+          "k": "d",
+          "en": "The top edge of the stock, for the cheek",
+          "uk": "Верхній край приклада, для щоки"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A choke narrows the bore at the muzzle and keeps the shot together.",
+        "uk": "Чок звужує канал біля дула й тримає дріб купніше."
+      }
+    },
+    {
+      "k": "gear-chokes-q2",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, a shooter already standing on the stand wants to change a choke. Is it allowed?",
+        "uk": "У {{tm:sporting}} стрілець, який уже став на стрілецьке місце, хоче змінити чок. Чи можна?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, as long as it causes no delay",
+          "uk": "Так, якщо це не спричиняє затримки"
+        },
+        {
+          "k": "b",
+          "en": "No, not once he is on the stand",
+          "uk": "Ні, не тоді, коли він уже на стрілецькому місці"
+        },
+        {
+          "k": "c",
+          "en": "Yes, but only before the doubles",
+          "uk": "Так, але лише перед дуплетами"
+        },
+        {
+          "k": "d",
+          "en": "Only with the jury's permission",
+          "uk": "Лише з дозволу журі"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Changes are allowed between stands or between singles and doubles, without delay, but not once the shooter has stepped onto the stand.",
+        "uk": "Міняти можна між стрілецькими місцями або між одиночними й дуплетами, без затримки, але не після того, як стрілець став на місце."
+      },
+      "rule_ref": "sporting:ch7-no-changes-on-stand"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "5540ef8d",
+    "summary": "88b2a88a",
+    "chokes-what-is-a-choke-p1": "7715f6fd",
+    "gear-chokes-p1": "ab9985d7",
+    "chokes-what-is-a-choke-p2": "a17a38c5",
+    "chokes-what-is-a-choke-p4": "722862df",
+    "gear-chokes-p2": "efeb2936",
+    "chokes-what-is-a-choke-p6": "5b12e889",
+    "gear-chokes-p4": "63aca5f5",
+    "gear-chokes-p5": "7fd87dba",
+    "chokes-what-is-a-choke-n1": "8029f45e",
+    "chokes-what-is-a-choke-kp1": "801a8067",
+    "gear-chokes-kp1": "db22b78a",
+    "gear-chokes-kp2": "412d5a76",
+    "chokes-what-is-a-choke-kp4": "85a0aef4",
+    "gear-chokes-kp5": "95ab00ad",
+    "chokes-what-is-a-choke-dyk": "ba05d68c",
+    "gear-chokes-ph1": "2fd5680f",
+    "gear-chokes-ph2": "cbf6d0d6",
+    "gear-chokes-ph3": "8fe50fed",
+    "gear-chokes-ph4": "c907a6c7",
+    "gear-chokes-q1": "a199b993",
+    "chokes-what-is-a-choke-q2": "d6c12103",
+    "chokes-what-is-a-choke-q3": "10cde12e",
+    "chokes-what-is-a-choke-q1": "4b60a907",
+    "gear-chokes-q2": "653ea784"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

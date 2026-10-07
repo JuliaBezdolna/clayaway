@@ -1,0 +1,85 @@
+{
+  "id": "targets-reading-a-target",
+  "lang": "de",
+  "base_rev": 3,
+  "h": {
+    "title": "c58ee91b",
+    "summary": "08a6882a",
+    "targets-reading-a-target-p1": "73f7f627",
+    "targets-reading-a-target-p2": "46d7b9fe",
+    "targets-reading-a-target-p3": "b1333ac7",
+    "targets-reading-a-target-points": "77c58330",
+    "targets-reading-a-target-p4": "5f61914c",
+    "targets-reading-a-target-p5": "2d04761d",
+    "targets-reading-a-target-mock": "af5065d8",
+    "targets-reading-a-target-p6": "c0465e01",
+    "targets-reading-a-target-kp1": "f556dd7a",
+    "targets-reading-a-target-kp2": "640ea1f0",
+    "targets-reading-a-target-kp3": "0d490d3c",
+    "targets-reading-a-target-kp4": "8050f3c2",
+    "targets-reading-a-target-kp5": "4bc4579e",
+    "targets-reading-a-target-dyk": "10d8c94e",
+    "targets-reading-a-target-q1": "f67e3bfa",
+    "targets-reading-a-target-q2": "07ba1296",
+    "targets-reading-a-target-q3": "a8d476d2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Wie man eine Scheibe liest",
+  "summary": "Worauf Sie beim Vorwerfen der Scheiben achten sollten: wo eine Scheibe erscheint, wohin sie fliegt, wo Sie sie treffen werden und was Sie nicht tun dürfen.",
+  "body": {
+    "targets-reading-a-target-p1": "Eine Scheibe zu „lesen“ bedeutet, vor dem Schuss zu verstehen, wie sie fliegt: wo sie erscheint, wie schnell sie sich bewegt, wo sie abdreht, steigt oder fällt. Erfahrene Schützen tun das an jedem Stand, und oft entscheidet genau das zwischen Treffer und Fehlschuss. Das gilt im {{tm:sporting}} ebenso wie im {{tm:compak}}.",
+    "targets-reading-a-target-p2": "Beginnen Sie mit dem {{term:target-menu|Wurfschema}}: welche Maschinen, in welcher Reihenfolge und ob es besondere Scheiben gibt. Dann beobachten Sie genau das {{term:target-presentation|Vorwerfen der Scheiben}} (presentation). Im {{tm:sporting}} werden die Scheiben eines Standes vor dem Schießen dem ersten Schützen der Rotte gezeigt. Doubletten auf Schuss werden nicht gezeigt. Im {{tm:compak}} ist das Vorwerfen anders geregelt. Die Einzelheiten stehen in der Lektion {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Stellen Sie sich einfache Fragen. Wo sehe ich die Scheibe zuerst klar? Das ist Ihr {{term:pick-up-point|Augenaufnahmepunkt}} (pick-up point), ab dem Ihre Augen ihr folgen. Wo lässt sie sich am leichtesten treffen? Das ist Ihre {{term:break-point|Trefferzone}} (break point). Dort sollte die Scheibe noch gut sichtbar sein, nicht hinter Bäumen verschwinden oder über eine {{term:shooting-limit|Schussgrenze}} hinausfliegen.",
+    "targets-reading-a-target-points": "Wie {{term:hold-point|Waffenhaltepunkt}}, Augenaufnahmepunkt und Trefferzone zusammenwirken, erklärt die Lektion {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p4": "Achten Sie auf Geschwindigkeit, Entfernung und Winkel sowie darauf, was die Scheibe gerade tut: steigen, langsamer werden oder fallen. Wind kann eine Scheibe anheben oder nach unten drücken, und eine dunkle Baumreihe oder ein heller Himmel verändern, wie Sie sie sehen. Eine Scheibe, die langsamer wird, braucht weniger {{term:lead|Vorhalt}} als eine mit voller Geschwindigkeit.",
+    "targets-reading-a-target-p5": "Schauen Sie, wie andere schießen, aber denken Sie selbst: Jeder Schütze hat sein eigenes Tempo. Während des Vorwerfens raten viele Trainer dazu, den Scheiben nur mit den Augen zu folgen.",
+    "targets-reading-a-target-mock": {
+      "sporting": "Überall auf dem Gelände nicht erlaubt. Beim ersten Mal gibt der Schiedsrichter eine Verwarnung. Wiederholen Sie es, wird Ihre nächste getroffene Scheibe als Fehlschuss (null) gewertet.",
+      "compak": "Außerhalb der Schießstationen nicht erlaubt, ebenso wenn ein anderes Mitglied der Rotte schießt. Während des Vorwerfens der Scheiben ist die Waffe offen und ungeladen."
+    },
+    "targets-reading-a-target-p6": "{{tm:sporting}}-Flugbahnen werden nach {{term:difficulty-class|Schwierigkeitsklasse}} eingeteilt: {{fact:targets.sporting-difficulty-classes}}. Ärgern Sie sich nicht, wenn Ihnen eine Scheibe der Klasse C nicht gelingt: Sie ist bewusst schwer. Das Lesen von Scheiben lernt man leichter mit einem qualifizierten Trainer, der zeigt, worauf zu achten ist."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "targets-reading-a-target-kp1": "Zuerst das Wurfschema, dann das Vorwerfen der Scheiben genau beobachten.",
+    "targets-reading-a-target-kp2": "Finden Sie heraus, wo Sie die Scheibe zuerst klar sehen und wo Sie sie treffen werden.",
+    "targets-reading-a-target-kp3": "Achten Sie auf Geschwindigkeit, Winkel, Wind, Hintergrund und ob die Scheibe langsamer wird.",
+    "targets-reading-a-target-kp4": "Folgen Sie mit den Augen; im {{tm:sporting}} sind Zielübungen überall auf dem Gelände nicht erlaubt, im {{tm:compak}} außerhalb der Stationen und solange jemand anderes schießt.",
+    "targets-reading-a-target-kp5": "Schwierigkeitsklassen im {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
+  },
+  "did_you_know": "Im {{tm:sporting}} werden Doubletten auf Schuss nicht gezeigt, aber beide Scheiben haben Sie schon gesehen: Doubletten bestehen nur aus Scheiben, die am selben Stand schon als Einzelscheiben gezeigt wurden.",
+  "quiz": {
+    "targets-reading-a-target-q1": {
+      "q": "Was ist die Trefferzone (break point)?",
+      "options": {
+        "a": "Die Stelle, an der Sie die Scheibe treffen wollen",
+        "b": "Die Stelle, an der die werfende Maschine steht",
+        "c": "Die Stelle, an der die Scheibe auf dem Boden landet"
+      },
+      "explain": "Die Trefferzone (break point) ist die Stelle auf der Flugbahn, die Sie vorher festlegen."
+    },
+    "targets-reading-a-target-q2": {
+      "q": "Dürfen Sie im {{tm:sporting}} während des Vorwerfens die Waffe anschlagen und entlang der Flugbahn der Scheibe führen?",
+      "options": {
+        "a": "Ja, das ist eine gute Vorbereitung",
+        "b": "Nein, das sind Zielübungen",
+        "c": "Ja, wenn die Waffe ungeladen ist"
+      },
+      "explain": "Folgen Sie nur mit den Augen. Während des Vorwerfens darf niemand schießen oder so tun, als würde er schießen, und die Waffen bleiben offen und ungeladen, bis der Schiedsrichter das Schließen erlaubt."
+    },
+    "targets-reading-a-target-q3": {
+      "q": "Welchen Anteil der Scheiben der Klasse C trifft ein durchschnittlicher Schütze im {{tm:sporting}}?",
+      "options": {
+        "a": "Mehr als 80 %",
+        "b": "60 bis 80 %",
+        "c": "40 bis 60 %"
+      },
+      "explain": "Klasse C ist die schwerste: 40–60 %. Klasse A liegt über 80 %, Klasse B bei 60–80 %."
+    }
+  }
+}

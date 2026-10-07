@@ -1,0 +1,151 @@
+{
+ "id": "technique-lead-methods",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "d892a662",
+  "summary": "8091b4d1",
+  "lead-why-p1": "de41baf7",
+  "lead-why-p2": "1960eeb7",
+  "lead-why-p3": "67cd8204",
+  "lead-why-p4": "721ef044",
+  "lead-why-p5": "7b44aeff",
+  "technique-lead-methods-p2": "bc0cf37a",
+  "technique-lead-methods-p3": "ed9c1930",
+  "technique-lead-methods-p4": "7278ba46",
+  "technique-lead-methods-p5": "90f7570b",
+  "technique-lead-methods-ambush": "9ed427d6",
+  "technique-lead-methods-p6": "00dcd054",
+  "technique-lead-methods-n1": "a587017e",
+  "lead-why-ph1": "25aa89ad",
+  "lead-why-ph2": "cd893131",
+  "lead-why-ph3": "95a1b2e5",
+  "lead-why-kp1": "06585b31",
+  "lead-why-kp2": "69c874f3",
+  "lead-why-kp3": "cb78f765",
+  "lead-why-kp4": "737a337d",
+  "technique-lead-methods-kp5": "e5824828",
+  "technique-lead-methods-dyk": "fbc40ca6",
+  "lead-why-q1": "f079984b",
+  "lead-why-q2": "f2d646e0",
+  "lead-why-q3": "ffd07423",
+  "technique-lead-methods-q1": "f8af648e",
+  "technique-lead-methods-q2": "6931f0e4",
+  "technique-lead-methods-q3": "c657bbdb",
+  "technique-lead-methods-q4": "c6090152"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "L'avance : pourquoi tirer devant le plateau",
+ "summary": "Pourquoi le tir doit partir devant un plateau en mouvement, en quoi l'avance réelle diffère de l'avance perçue, et comment fonctionnent les quatre méthodes d'avance.",
+ "body": {
+  "lead-why-p1": "Le plomb a besoin d'une fraction de seconde pour atteindre le plateau, et pendant ce temps le plateau continue d'avancer. Donc si le fusil pointe exactement sur un {{term:crosser|traversard}} (un plateau qui traverse devant vous) et s'arrête là, le tir passe derrière. Le fusil doit pointer devant, pour que le plomb et le plateau se rencontrent. Cet écart, c'est l'{{term:lead|avance}} (lead), aussi appelée « forward allowance » en anglais britannique.",
+  "lead-why-p2": "L'avance augmente avec la vitesse du plateau, sa distance et son angle. À vitesse et distance égales, c'est le traversard plein travers qui en demande le plus. Un plateau qui vole droit vers le tireur ou droit en s'éloignant n'a besoin de presque aucune avance latérale, même si les plateaux montants et descendants ont besoin d'une avance verticale (au-dessus ou en dessous).",
+  "lead-why-p3": "Les chiffres réels sont surprenants. À titre de repère, l'avance réelle sur un traversard à environ 20 m est souvent estimée à {{fact:technique.crosser-lead-20m}}. L'avance augmente vite avec la distance, même un peu plus vite que la distance elle-même, car le plomb ralentit en vol. Donc si un plateau lointain semble, à l'œil, à la même distance de vos canons qu'un plateau proche, l'avance réelle dans l'air est bien plus grande.",
+  "lead-why-p4": "L'avance réelle est la distance réelle devant le plateau, dans l'air. L'écart que le tireur voit entre le canon et le plateau est l'{{term:perceived-lead|avance perçue}} (perceived lead), aussi appelée « image d'avance » ou « image de visée ». Un mètre à 20 m ressemble à quelques centimètres au niveau du canon. La méthode utilisée change cette image. Si les canons se déplacent à la vitesse du plateau (avance maintenue), vous voyez tout l'écart. S'ils vont plus vite que le plateau (swing-through), vous n'en voyez qu'une petite partie, voire aucune. Dans la fraction de seconde avant le départ du coup, le fusil, rapide, parcourt seul le reste du chemin. Avec le tir en embuscade, le fusil ne bouge pas, donc vous devez voir un écart encore plus grand que l'avance réelle, car le plateau continue de voler pendant votre temps de réaction.",
+  "lead-why-p5": "Beaucoup de tireurs droitiers ont l'impression qu'un traversard de gauche à droite demande plus d'avance qu'un traversard de droite à gauche. L'avance réelle est la même ; seule la perception diffère. Le « four feet » (quatre pieds) d'un entraîneur décrit donc une image, pas une mesure.",
+  "technique-lead-methods-p2": "Les entraîneurs enseignent l'avance à travers une méthode : une façon d'amener les canons devant le plateau. Quatre méthodes sont courantes. Pour un même plateau, l'avance réelle est identique avec chacune d'elles ; ce qui change, c'est l'image que vous voyez.",
+  "technique-lead-methods-p3": "{{term:maintained-lead|Avance maintenue}} (maintained lead) : les canons démarrent devant le plateau, le laissent se rapprocher jusqu'à l'écart voulu, puis se déplacent à sa vitesse en gardant cet écart. De nombreux entraîneurs la conseillent pour les plateaux longs et prévisibles. Plus de détails : {{lesson:lead-maintained}}.",
+  "technique-lead-methods-p4": "{{term:pull-away|Pull-away}} : on pointe les canons sur le plateau (ou juste sur son bord avant), on l'accompagne un instant, puis on part en douceur vers l'avant et on tire. De nombreux entraîneurs commencent les débutants avec cette méthode, qui convient souvent aux plateaux en biais (volant en angle, en s'éloignant ou en se rapprochant) et aux plateaux montants. Plus de détails : {{lesson:lead-pull-away}}.",
+  "technique-lead-methods-p5": "{{term:swing-through|Swing-through}} : les canons démarrent derrière, se déplacent plus vite que le plateau, le dépassent, et le tir part dès qu'ils ressortent devant. Elle convient souvent aux plateaux proches, rapides et au-dessus de la tête. Plus de détails : {{lesson:lead-swing-through}}.",
+  "technique-lead-methods-ambush": "{{term:ambush|Tir en embuscade}} (ambush) : les canons attendent immobiles en un point situé devant, et on appuie sur la détente avant que le plateau n'atteigne ce point. Cela peut aider sur un plateau visible seulement un instant. Plus de détails : {{lesson:lead-ambush-instinctive}}.",
+  "technique-lead-methods-p6": "Aucune méthode n'est « plus correcte » qu'une autre. Les tireurs expérimentés choisissent souvent une méthode selon le plateau. Pour un débutant, il vaut généralement mieux apprendre d'abord une seule méthode avec un entraîneur. Dans les trois méthodes à fusil mobile, le fusil continue de bouger après le tir ; voir {{lesson:technique-follow-through-and-mistakes}}."
+ },
+ "note": {
+  "technique-lead-methods-n1": "Les entraîneurs donnent l'avance en pieds, en largeurs de plateau ou comme une image. Traduisez l'unité telle qu'elle est dite : convertir « four feet » en mètres au milieu d'une consigne transforme une image en mesure."
+ },
+ "phrases": {
+  "lead-why-ph1": {
+   "meaning": "Ne pensez pas en mètres dans l'air ; rappelez-vous l'écart que vous avez vu au canon quand vous avez touché.",
+   "say": "Oubliez la distance réelle : ce qui compte, c'est votre image."
+  },
+  "lead-why-ph2": {
+   "meaning": "L'avance était juste sur ce coup ; gardez la même image de visée.",
+   "say": "Voilà l'image : rappelez-vous-en."
+  },
+  "lead-why-ph3": {
+   "meaning": "L'avance réelle est la même dans les deux sens ; seule la perception change.",
+   "say": "Même avance de droite à gauche, elle a juste l'air différente."
+  }
+ },
+ "key_points": {
+  "lead-why-kp1": "L'avance existe parce que le plateau continue d'avancer pendant que le plomb vole.",
+  "lead-why-kp2": "Plus de vitesse, de distance et d'angle veulent dire plus d'avance.",
+  "lead-why-kp3": "L'avance réelle, au niveau du plateau, est souvent d'un mètre ou plus ; au canon, l'image ne fait que quelques centimètres, car le canon est proche de l'œil.",
+  "lead-why-kp4": "La méthode change l'image : à fusil mobile, l'avance maintenue montre le plus grand écart et le swing-through le plus petit ; avec le tir en embuscade (fusil immobile), l'écart est encore plus grand.",
+  "technique-lead-methods-kp5": "Quatre méthodes : avance maintenue, pull-away, swing-through et tir en embuscade ; apprenez-en une d'abord avec un entraîneur."
+ },
+ "did_you_know": "Deux tireurs peuvent casser le même plateau et décrire l'avance de façon totalement différente : l'un « voit » un mètre, l'autre un demi-mètre. La différence vient de la vitesse à laquelle chacun déplace son fusil.",
+ "quiz": {
+  "lead-why-q1": {
+   "q": "Qu'est-ce que l'avance perçue (perceived lead) ?",
+   "options": {
+    "a": "La distance réelle devant le plateau, dans l'air",
+    "b": "L'écart que le tireur voit entre le canon et le plateau",
+    "c": "L'avance indiquée sur le menu des plateaux",
+    "d": "La distance entre le poste et le lanceur"
+   },
+   "explain": "L'avance perçue est l'image au niveau du canon ; l'avance réelle est la distance réelle dans l'air, bien plus grande."
+  },
+  "lead-why-q2": {
+   "q": "Parmi les méthodes à fusil mobile, laquelle donne généralement la plus grande avance perçue ?",
+   "options": {
+    "a": "Swing-through",
+    "b": "Pull-away",
+    "c": "L'avance maintenue",
+    "d": "Toutes sont identiques"
+   },
+   "explain": "Avec l'avance maintenue, le fusil ne va pas plus vite que le plateau, donc rien ne s'ajoute de lui-même, et il faut voir tout l'écart. Avec le tir en embuscade, où le fusil est immobile, l'écart vu est encore plus grand."
+  },
+  "lead-why-q3": {
+   "q": "Quel plateau n'a besoin de presque aucune avance latérale ?",
+   "options": {
+    "a": "Un plateau qui s'éloigne droit devant",
+    "b": "Un traversard lointain",
+    "c": "Un plateau en biais à 45°",
+    "d": "Un traversard à 40 m"
+   },
+   "explain": "Un plateau qui s'éloigne droit devant n'a aucun mouvement latéral ; l'avance dont il a besoin, s'il y en a, est verticale."
+  },
+  "technique-lead-methods-q1": {
+   "q": "Pourquoi a-t-on besoin d'avance ?",
+   "options": {
+    "a": "Pour que le plomb et le plateau se rencontrent",
+    "b": "Pour réduire le recul",
+    "c": "Pour que le plateau vole plus lentement"
+   },
+   "explain": "Pendant que le plomb vole, le plateau continue d'avancer, donc on tire devant lui."
+  },
+  "technique-lead-methods-q2": {
+   "q": "Dans quelle méthode les canons restent-ils devant le plateau du début à la fin ?",
+   "options": {
+    "a": "Swing-through",
+    "b": "L'avance maintenue",
+    "c": "Pull-away"
+   },
+   "explain": "Avance maintenue : les canons démarrent devant et gardent l'écart."
+  },
+  "technique-lead-methods-q3": {
+   "q": "Quel plateau demande le moins d'avance ?",
+   "options": {
+    "a": "Un traversard lointain et rapide",
+    "b": "Un plateau qui s'éloigne droit devant",
+    "c": "Un traversard haut"
+   },
+   "explain": "Un plateau qui s'éloigne ou qui arrive droit devant se déplace à peine latéralement par rapport aux canons."
+  },
+  "technique-lead-methods-q4": {
+   "q": "Avec quelle méthode le tireur doit-il voir le plus grand écart au moment de la décision ?",
+   "options": {
+    "a": "Swing-through",
+    "b": "Pull-away",
+    "c": "L'avance maintenue",
+    "d": "Le tir en embuscade"
+   },
+   "explain": "Avec le tir en embuscade, le fusil est immobile, et le plateau continue de voler pendant le temps de réaction. L'écart vu au moment de la décision doit donc être plus grand que l'avance réelle."
+  }
+ }
+}

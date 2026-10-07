@@ -1,0 +1,959 @@
+{
+  "id": "rules-malfunctions",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "certified FITASC referee",
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js (FITASC edition 01/01/2025, file of 2026-03-29), compak.js (edition 01/01/2025, file of 2026-02-02)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "rules-malfunctions",
+      "safety-malfunction"
+    ],
+    "interpreter": [
+      "sporting-malfunctions",
+      "compak-malfunctions"
+    ]
+  },
+  "terms": [
+    "malfunction",
+    "double-discharge",
+    "safety-catch",
+    "hang-fire",
+    "round",
+    "yellow-card",
+    "red-card",
+    "rabbit",
+    "gun-test",
+    "sporting",
+    "compak-sporting",
+    "no-bird",
+    "warning",
+    "zero",
+    "referee",
+    "choke",
+    "barrel",
+    "squad",
+    "jury"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-malfunction-stay-put"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-malfunction-zero"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-gun-rules"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-gun-failure-principle"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-malfunction-first-shot"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-malfunction-procedure"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-gun-failure-first-shot"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-malfunction"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-single-rabbit"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-rabbit"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-testing-guns"
+    },
+    {
+      "book": "compak",
+      "id": "ch11-testing-guns"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-second-malfunction"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-malfunction-second-shot"
+    },
+    {
+      "book": "compak",
+      "id": "ch12-borrowing"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-gun-failure-second-shot"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-double-discharge"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-target-zero"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-double-discharge"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-borrow-replace"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-no-changes-on-stand"
+    },
+    {
+      "book": "compak",
+      "id": "ch13-shared-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun-change"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-penalty-table"
+    }
+  ],
+  "facts": [
+    "rules.round-targets",
+    "rules.compak-repair-time"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — Parcours de Chasse – Sporting™ referees' quick guide for decision making (original of 8 June 2026)",
+        "uk": "FITASC — короткий довідник суддів Parcours de Chasse – Sporting™ для ухвалення рішень (оригінал від 8 червня 2026)"
+      },
+      "url": "https://api.fitasc.com/userfiles/files/rglts_sportifs/pc/20260608_pc_quick_ref_quide.pdf",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — Compak® Sporting referees' quick guide for decision making (original of 3 November 2025)",
+        "uk": "FITASC — короткий довідник суддів Compak® Sporting для ухвалення рішень (оригінал від 3 листопада 2025)"
+      },
+      "url": "https://www.fitasc.com/upload/images/reglements/20260102_cs_quick_ref_quide.pdf",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Gun or cartridge malfunctions",
+    "uk": "Несправності рушниці або патрона"
+  },
+  "summary": {
+    "en": "What to do when the gun does not fire, and how a malfunction is scored in {{tm:sporting}} and {{tm:compak}}.",
+    "uk": "Що робити, коли рушниця не вистрілила, і як зараховують несправність у {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "sporting-malfunctions-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:malfunction|malfunction}} is a failure of the gun or cartridge: a misfire, a second barrel that does not fire, or both barrels firing together ({{term:double-discharge|double discharge}}).",
+      "uk": "{{term:malfunction|Несправність}} — збій рушниці чи патрона: осічка, другий ствол, що не стріляє, або одночасний постріл з обох стволів ({{term:double-discharge|double discharge}})."
+    },
+    {
+      "k": "sporting-malfunctions-p2",
+      "t": "warn",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch8-malfunction-stay-put",
+        "compak:ch24-malfunction-zero"
+      ],
+      "anchor": "safety-malfunction",
+      "en": "First, what the shooter must do: stay where you are, with the gun pointing down the range. Do not open it or touch the {{term:safety-catch|safety}} until the referee has examined it. Opening the gun or touching the safety first means the target or targets are scored zero. Do not try to take a loaded gun apart on the stand.",
+      "uk": "Спершу — що має зробити стрілець: стояти на місці, рушниця спрямована в бік поля. Не відкривати її й не торкатися {{term:safety-catch|запобіжника}}, доки суддя її не огляне. Якщо відкрити рушницю чи торкнутися запобіжника до огляду, мішень або мішені зараховують як zero. Не намагайтеся самостійно розбирати заряджену рушницю на місці."
+    },
+    {
+      "k": "safety-malfunction-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "Why not open the gun straight away? Occasionally a cartridge fires late, a fraction of a second or longer after the trigger is pulled: a {{term:hang-fire|hang fire}}. If the gun is open or pointing sideways at that moment, that is dangerous. So in training without a referee, wait with the gun pointing safely before you open it; your instructor or the ground's rules will tell you how long.",
+      "uk": "Чому не можна одразу відкрити рушницю? Буває, що патрон спрацьовує із запізненням — через частку секунди або навіть пізніше ({{term:hang-fire|затяжний постріл}}). Якщо в цей момент рушниця відкрита чи спрямована вбік, це небезпечно. Тому на тренуванні без судді витримайте паузу, тримаючи рушницю в безпечному напрямку, і лише потім відкривайте її; скільки чекати, підкаже інструктор або правила стрільбища."
+    },
+    {
+      "k": "rules-malfunctions-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "How malfunctions are counted",
+      "uk": "Як рахують несправності",
+      "sporting": {
+        "rule_ref": "sporting:ch6-nobird-gun-rules",
+        "en": "Per {{term:round|round}} of {{fact:rules.round-targets}}. The first incident is a No Bird with a warning, and the target is repeated. From the second, the target is not repeated but scored zero.",
+        "uk": "У межах {{term:round|раунду}} з {{fact:rules.round-targets}}. Перша несправність — No Bird із попередженням, мішень повторюють. З другої мішень уже не повторюють, а зараховують як zero."
+      },
+      "compak": {
+        "rule_ref": "compak:ch20-gun-failure-principle",
+        "en": "Per round of {{fact:rules.round-targets}}. The first incident is a No Bird with a {{term:yellow-card|yellow card}}. A second of the same kind brings a {{term:red-card|red card}}, and targets not shot at are zero.",
+        "uk": "У межах раунду з {{fact:rules.round-targets}}. Перша несправність — No Bird і {{term:yellow-card|жовта картка}}. Друга того самого типу — {{term:red-card|червона картка}}, а мішені, по яких не стріляли, — zero."
+      }
+    },
+    {
+      "k": "sporting-malfunctions-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch6-malfunction-first-shot",
+      "anchor": "sporting-malfunctions",
+      "en": "Your first malfunction in the round, case by case. (1) The first shot fails: you shoot the single or the double again. If you still fired the second shot, that result counts. (2) On a single, the second shot fails: you shoot it again, and on the repeat only a hit with the second shot counts. So miss with the first shot on purpose. (3) Both barrels go off at once at a single, or at the first target of a double: No Bird, nothing is written down, and you shoot again. How each kind of double is repeated is in the rules guide ({{rule:sporting:ch6-malfunction-second-shot}}).",
+      "uk": "Перша несправність у раунді — по черзі. (1) Не спрацював перший постріл: одиночну мішень або дуплет стріляєте знову. Якщо ви все ж зробили другий постріл, його результат зараховують. (2) На одиночній не спрацював другий постріл: стріляєте її знову, і на повторі рахується тільки влучання другим пострілом. Тож першим пострілом навмисно промахніться. (3) Обидва стволи вистрілили разом по одиночній або по першій мішені дуплета: No Bird, нічого не записують, стріляєте знову. Як повторюють кожен вид дуплета — у довіднику правил ({{rule:sporting:ch6-malfunction-second-shot}})."
+    },
+    {
+      "k": "sporting-malfunctions-p5",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch7-malfunction-procedure",
+      "en": "If your gun is repaired before the squad has finished the stand, you may shoot the stand last, with the referee's permission. If it cannot be repaired, you may switch to another gun at once, with the referee's agreement, or finish later in another squad if the jury allows it. Apart from a malfunction, you may not change your gun, choke or barrels once you are on the stand.",
+      "uk": "Якщо рушницю полагодили, поки група не завершила місце, ви можете відстріляти його останнім з дозволу судді. Якщо полагодити не вдається, ви можете одразу взяти іншу рушницю (за згодою судді) або дострілятися пізніше в іншій групі, якщо дозволить журі. Окрім випадку, коли сталася несправність, змінювати рушницю, чок чи стволи після виходу на місце не можна."
+    },
+    {
+      "k": "compak-malfunctions-p3",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch20-gun-failure-first-shot",
+      "anchor": "compak-malfunctions",
+      "en": "Your first malfunction in the round. If both barrels fire together or the first cartridge fails, the single or double is thrown again, and the failed attempt counts for nothing. If the second cartridge fails on a single, the target is thrown again, but only the second shot can score it. So miss with the first shot on purpose. For doubles, see the rules guide ({{rule:compak:ch20-gun-failure-second-shot}}).",
+      "uk": "Перша несправність у раунді. Якщо обидва стволи вистрілили разом або не спрацював перший патрон, одиночну мішень чи дуплет запускають знову, а невдала спроба нічого не важить. Якщо на одиночній не спрацював другий патрон, мішень запускають знову, але зарахувати її може лише другий постріл. Тож першим пострілом навмисно промахніться. Щодо дуплетів — див. довідник правил ({{rule:compak:ch20-gun-failure-second-shot}})."
+    },
+    {
+      "k": "compak-malfunctions-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch21-malfunction",
+      "en": "After a malfunction you have {{fact:rules.compak-repair-time}} to get the gun working again or to replace it. As an exception, you may borrow a gun from someone outside your own squad or group, with the owner's and the referee's agreement. Without a working gun, the remaining targets are zero. Otherwise no gun, choke or barrel may be changed within a round.",
+      "uk": "Після несправності у вас є {{fact:rules.compak-repair-time}}, щоб полагодити рушницю або замінити її. Як виняток ви можете позичити рушницю в стрільця, який не входить у вашу групу, — якщо погодяться власник і суддя. Без справної рушниці решта мішеней — zero. В інших випадках змінювати рушницю, чоки чи стволи в межах раунду заборонено."
+    },
+    {
+      "k": "compak-malfunctions-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch6-nobird-target-single-rabbit",
+        "compak:ch20-rabbit"
+      ],
+      "en": "A {{term:rabbit|rabbit}} is the clay that rolls along the ground. In both disciplines, if you miss it with the first shot and it then breaks on its own before your second shot, it is a No Bird. This can happen when it hits a stone. On the repeat only the second shot counts, as after a second-shot malfunction.",
+      "uk": "{{term:rabbit|Кролик}} — мішень, що котиться по землі. В обох дисциплінах, якщо ви промахнулися першим пострілом, а кролик сам розбився до вашого другого пострілу, це No Bird. Так буває, коли він ударяється об камінь. На повторі зараховують лише другий постріл — як після несправності на другому пострілі."
+    },
+    {
+      "k": "rules-malfunctions-p7",
+      "t": "tip",
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch3-testing-guns",
+        "compak:ch11-testing-guns"
+      ],
+      "en": "Check your gun and cartridges before the round, on the {{term:gun-test|test stand}} near the clubhouse if there is one. Test shots on the shooting stand are not allowed in either discipline.",
+      "uk": "Перевіряйте рушницю й патрони до раунду — на спеціальному місці для {{term:gun-test|пробних пострілів}} біля клубу, якщо воно є. Пробні постріли на стрілецькому місці заборонені в обох дисциплінах."
+    },
+    {
+      "k": "sporting-malfunctions-sim",
+      "t": "sim",
+      "sim": {
+        "type": "call"
+      },
+      "ready": false
+    },
+    {
+      "k": "compak-malfunctions-sim",
+      "t": "sim",
+      "sim": {
+        "type": "call"
+      },
+      "ready": false
+    }
+  ],
+  "note": [
+    {
+      "k": "rules-malfunctions-n1",
+      "for": "interpreter",
+      "en": "Pass the referee's words on at once and word for word: 'stay there, don't open the gun'. Explain the reasons only after the check.",
+      "uk": "Передавайте слова судді одразу й дослівно: «стійте, не відкривайте рушницю». Пояснення — лише після огляду."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "sporting-malfunctions-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Stay there, don't open the gun.",
+      "meaning": {
+        "en": "Referee: wait for the inspection; opening first costs the target.",
+        "uk": "Суддя: чекайте огляду; якщо відкрити раніше, мішень втрачено."
+      },
+      "say": {
+        "uk": "Стійте на місці — не відкривайте рушницю."
+      }
+    },
+    {
+      "k": "sporting-malfunctions-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Let me see the gun.",
+      "meaning": {
+        "en": "The referee examines the gun or cartridge.",
+        "uk": "Суддя оглядає рушницю чи патрон."
+      },
+      "say": {
+        "uk": "Дайте мені оглянути рушницю."
+      }
+    },
+    {
+      "k": "sporting-malfunctions-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Malfunction. No Bird, first warning.",
+      "meaning": {
+        "en": "First incident in the round: the target is repeated.",
+        "uk": "Перша несправність у раунді: мішень повторюють."
+      },
+      "say": {
+        "uk": "Несправність. No Bird, перше попередження."
+      }
+    },
+    {
+      "k": "sporting-malfunctions-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Second malfunction this round. Zero.",
+      "meaning": {
+        "en": "No repeat this time; the target is lost.",
+        "uk": "Цього разу повтору немає; мішень не зараховано."
+      },
+      "say": {
+        "uk": "Друга несправність у цьому раунді. Zero."
+      }
+    },
+    {
+      "k": "compak-malfunctions-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Don't move, keep the gun closed.",
+      "meaning": {
+        "en": "Referee: wait for the inspection after a failure.",
+        "uk": "Суддя: після збою чекайте огляду."
+      },
+      "say": {
+        "uk": "Не рухайтеся — рушницю не відкривайте."
+      }
+    },
+    {
+      "k": "compak-malfunctions-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "First malfunction. Yellow card, No Bird.",
+      "meaning": {
+        "en": "First incident of this type in the round; the target is thrown again.",
+        "uk": "Перша несправність цього типу в раунді; мішень запускають знову."
+      },
+      "say": {
+        "uk": "Перша несправність. Жовта картка, No Bird."
+      }
+    },
+    {
+      "k": "compak-malfunctions-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "You have two minutes.",
+      "meaning": {
+        "en": "Time to repair or replace the gun.",
+        "uk": "Час, щоб полагодити або замінити рушницю."
+      },
+      "say": {
+        "uk": "У вас дві хвилини."
+      }
+    },
+    {
+      "k": "compak-malfunctions-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "Only the second shot counts on this one.",
+      "meaning": {
+        "en": "Repeat after a second-cartridge failure: miss with the first shot on purpose.",
+        "uk": "Повтор після несправності другого патрона: першим пострілом навмисно промахнутися."
+      },
+      "say": {
+        "uk": "На цій мішені зараховують лише другий постріл."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "sporting-malfunctions-kp1",
+      "en": "After a failure, stay put with the gun closed and pointing down the range; opening it before the referee's check costs the target.",
+      "uk": "Після збою стійте на місці, рушниця закрита й спрямована в бік поля; якщо відкрити її до огляду судді, мішень втрачено.",
+      "checklist": true
+    },
+    {
+      "k": "sporting-malfunctions-kp2",
+      "en": "First incident in a round: a No Bird and a warning (in {{tm:compak}}, a yellow card).",
+      "uk": "Перша несправність у раунді — No Bird і попередження (у {{tm:compak}} — жовта картка)."
+    },
+    {
+      "k": "compak-malfunctions-kp1",
+      "en": "Second incident in the same round: no repeat. In {{tm:sporting}} the target is zero. In {{tm:compak}} a second failure of the same kind brings a red card, and targets not shot at are zero.",
+      "uk": "Друга несправність у тому самому раунді — без повтору. У {{tm:sporting}} мішень — zero. У {{tm:compak}} друга несправність того самого типу — червона картка, а мішені, по яких не стріляли, — zero."
+    },
+    {
+      "k": "sporting-malfunctions-kp4",
+      "en": "Second shot fails on a single: on the repeat only a hit with the second shot counts.",
+      "uk": "Не спрацював другий постріл на одиночній: на повторі зараховують лише влучання другим пострілом."
+    },
+    {
+      "k": "rules-malfunctions-kp5",
+      "en": "{{tm:compak}}: {{fact:rules.compak-repair-time}} to repair the gun or replace it.",
+      "uk": "{{tm:compak}}: {{fact:rules.compak-repair-time}} на ремонт або заміну рушниці."
+    }
+  ],
+  "did_you_know": {
+    "k": "safety-malfunction-dyk",
+    "en": "Some 'malfunctions' at the start are simply a safety catch left on. A coach can teach you to check it before you call.",
+    "uk": "Частина «несправностей» у новачків — це просто не знятий запобіжник. Тренер навчить перевіряти його ще до команди."
+  },
+  "quiz": [
+    {
+      "k": "rules-malfunctions-q1",
+      "disc": "both",
+      "q": {
+        "en": "Your cartridge misfires. What do you do first?",
+        "uk": "Патрон дав осічку. Що робити першим ділом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Open the gun and check the cartridge",
+          "uk": "Відкрити рушницю й перевірити патрон"
+        },
+        {
+          "k": "b",
+          "en": "Reload at once and call again",
+          "uk": "Одразу перезарядити й знову покликати мішень"
+        },
+        {
+          "k": "c",
+          "en": "Stay put, gun closed, and wait for the referee",
+          "uk": "Стояти на місці, рушниця закрита, чекати суддю"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Opening the gun or touching the safety before the referee's check means the target is scored zero.",
+        "uk": "Якщо відкрити рушницю чи торкнутися запобіжника до огляду судді, мішень зараховують як zero."
+      },
+      "rule_ref": "sporting:ch8-malfunction-stay-put"
+    },
+    {
+      "k": "rules-malfunctions-q2",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, a second gun malfunction happens in the same round, on a single. What is the result?",
+        "uk": "У {{tm:sporting}} у тому самому раунді сталася друга несправність рушниці, на одиночній мішені. Який результат?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Zero",
+          "uk": "Zero"
+        },
+        {
+          "k": "b",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "c",
+          "en": "One",
+          "uk": "One"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Only the first malfunction in a round is a No Bird; from the second, the target is scored zero.",
+        "uk": "No Bird дають лише за першу несправність у раунді; з другої мішень зараховують як zero."
+      },
+      "rule_ref": "sporting:ch6-second-malfunction"
+    },
+    {
+      "k": "rules-malfunctions-q3",
+      "disc": "compak",
+      "q": {
+        "en": "How long do you have in {{tm:compak}} to repair or replace the gun?",
+        "uk": "Скільки часу дають у {{tm:compak}} на ремонт або заміну рушниці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "30 seconds",
+          "uk": "30 секунд"
+        },
+        {
+          "k": "b",
+          "en": "2 minutes",
+          "uk": "2 хвилини"
+        },
+        {
+          "k": "c",
+          "en": "10 minutes",
+          "uk": "10 хвилин"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "You have {{fact:rules.compak-repair-time}}; without a working gun, the targets not shot are zero.",
+        "uk": "У вас є {{fact:rules.compak-repair-time}}; без справної рушниці невідстріляні мішені — zero."
+      },
+      "rule_ref": "compak:ch21-malfunction"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "safety-malfunction-q1",
+      "q": {
+        "en": "In training, with no referee, your gun clicks but does not fire. What should you do?",
+        "uk": "На тренуванні без судді рушниця клацнула, але не вистрілила. Що робити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Open it at once and look",
+          "uk": "Одразу відкрити й подивитися"
+        },
+        {
+          "k": "b",
+          "en": "Keep it pointing safely and wait before opening",
+          "uk": "Тримати в безпечному напрямку й зачекати, перш ніж відкривати"
+        },
+        {
+          "k": "c",
+          "en": "Turn around and show it to the coach",
+          "uk": "Розвернутися й показати тренерові"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A cartridge can fire late (a hang fire), so keep the muzzle in a safe direction and wait before you open the gun. Your instructor or the ground's rules will say how long.",
+        "uk": "Патрон може вистрілити із запізненням (затяжний постріл), тож тримайте стволи в безпечному напрямку й зачекайте, перш ніж відкривати рушницю. Скільки чекати, скаже інструктор або правила стрільбища."
+      },
+      "disc": "both"
+    },
+    {
+      "k": "safety-malfunction-q2",
+      "q": {
+        "en": "After a misfire, you push the safety catch on before the referee has looked at the gun. What happens?",
+        "uk": "Після осічки ви вмикаєте запобіжник ще до того, як суддя оглянув рушницю. Що буде?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The target is scored zero",
+          "uk": "Мішень зарахують як zero"
+        },
+        {
+          "k": "b",
+          "en": "You get an extra target",
+          "uk": "Дадуть додаткову мішень"
+        },
+        {
+          "k": "c",
+          "en": "Nothing: the gun is safer",
+          "uk": "Нічого: так рушниця безпечніша"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Touching the safety before the referee's check costs the target, just like opening the gun. Wait, gun pointing down the range.",
+        "uk": "Якщо торкнутися запобіжника до огляду судді, мішень втрачено — так само, як і коли відкрити рушницю. Чекайте, рушниця в бік поля."
+      },
+      "disc": "both",
+      "rule_ref": "compak:ch24-malfunction-zero"
+    },
+    {
+      "k": "safety-malfunction-q3",
+      "q": {
+        "en": "Why is a failed gun not opened at once?",
+        "uk": "Чому несправну рушницю не відкривають одразу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "So as not to dirty the cartridge",
+          "uk": "Щоб не забруднити набій"
+        },
+        {
+          "k": "b",
+          "en": "Because the cartridge may fire late",
+          "uk": "Бо набій може вистрілити із запізненням"
+        },
+        {
+          "k": "c",
+          "en": "Because it looks better",
+          "uk": "Бо так красивіше"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A hang fire is rare but dangerous, so the gun must stay pointed in a safe direction.",
+        "uk": "Постріл із запізненням (hang fire) рідкісний, але небезпечний, тому рушниця має бути спрямована в безпечний бік."
+      },
+      "disc": "both"
+    },
+    {
+      "k": "competitions-scoring-basics-q2",
+      "q": {
+        "en": "{{tm:sporting}}: your gun fails on a stand (first incident), and it is repaired while your squad is still shooting that stand. What may you do?",
+        "uk": "{{tm:sporting}}: рушниця відмовила на місці (перша несправність), і її полагодили, поки ваша група ще стріляє на цьому місці. Що ви можете зробити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Shoot the stand last, if the referee allows",
+          "uk": "Відстріляти місце останнім, якщо дозволить суддя"
+        },
+        {
+          "k": "b",
+          "en": "Nothing: the remaining targets are zero",
+          "uk": "Нічого: решта мішеней — zero"
+        },
+        {
+          "k": "c",
+          "en": "Shoot it the next day",
+          "uk": "Відстріляти його наступного дня"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "If the gun is repaired before the squad has finished the stand, you may shoot it last there, with the referee's permission.",
+        "uk": "Якщо рушницю полагодили до того, як група завершила місце, ви можете відстріляти його останнім з дозволу судді."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch7-malfunction-procedure"
+    },
+    {
+      "k": "sporting-malfunctions-q1",
+      "q": {
+        "en": "First gun problem of the round: on a single the first cartridge misfires. The shooter waits, gun down range, for the referee. Decision?",
+        "uk": "Перший збій у раунді: на одиночній мішені перший патрон дав осічку. Стрілець чекає суддю, рушниця в бік поля. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Zero",
+          "uk": "Zero"
+        },
+        {
+          "k": "b",
+          "en": "No Bird and a warning",
+          "uk": "No Bird і попередження"
+        },
+        {
+          "k": "c",
+          "en": "One",
+          "uk": "One"
+        },
+        {
+          "k": "d",
+          "en": "Yellow card and zero",
+          "uk": "Жовта картка й zero"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In a round, the first incident with the gun or ammunition is a No Bird with a warning, and the single is repeated.",
+        "uk": "Перша несправність рушниці чи патрона в раунді — No Bird із попередженням, одиночну мішень повторюють."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch6-nobird-gun-rules"
+    },
+    {
+      "k": "sporting-malfunctions-q2",
+      "q": {
+        "en": "The cartridge misfires, and the annoyed shooter breaks the gun open to look at the primer before the referee arrives. Decision?",
+        "uk": "Патрон дав осічку, і роздратований стрілець відкриває рушницю, щоб глянути на капсуль, до того як підійшов суддя. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "b",
+          "en": "The target is repeated after a warning",
+          "uk": "Мішень повторюють після попередження"
+        },
+        {
+          "k": "c",
+          "en": "Zero",
+          "uk": "Zero"
+        },
+        {
+          "k": "d",
+          "en": "Red card, and the target is repeated",
+          "uk": "Червона картка, мішень повторюють"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Opening the gun or touching the safety before the referee's check means the target is scored zero.",
+        "uk": "Якщо відкрити рушницю чи торкнутися запобіжника до огляду судді, мішень зараховують як zero."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch8-malfunction-stay-put"
+    },
+    {
+      "k": "sporting-malfunctions-q3",
+      "q": {
+        "en": "Single, first incident: the first shot misses and the second cartridge misfires, so the target is repeated. On the repeat the shooter breaks it with the first shot. Decision?",
+        "uk": "Одиночна мішень, перша несправність: перший постріл — промах, другий патрон дав осічку, тож мішень повторюють. На повторі стрілець розбиває її першим пострілом. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One",
+          "uk": "One"
+        },
+        {
+          "k": "b",
+          "en": "No Bird again",
+          "uk": "Знову No Bird"
+        },
+        {
+          "k": "c",
+          "en": "One, with a warning",
+          "uk": "One, з попередженням"
+        },
+        {
+          "k": "d",
+          "en": "Zero",
+          "uk": "Zero"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "After a second-shot failure the repeated single may only be broken with the second shot, so the first shot must be a deliberate miss.",
+        "uk": "Після несправності на другому пострілі повторну одиночну мішень можна розбити лише другим пострілом, тож першим треба навмисно промахнутися."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch6-malfunction-second-shot"
+    },
+    {
+      "k": "compak-malfunctions-q1",
+      "q": {
+        "en": "First incident of the round in {{tm:compak}}: the first cartridge fails on a single. The shooter waits correctly. Decision?",
+        "uk": "Перша несправність у раунді {{tm:compak}}: на одиночній мішені не спрацював перший патрон. Стрілець правильно чекає. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No Bird and a yellow card",
+          "uk": "No Bird і жовта картка"
+        },
+        {
+          "k": "b",
+          "en": "Zero, no repeat",
+          "uk": "Zero, без повтору"
+        },
+        {
+          "k": "c",
+          "en": "Red card and zero",
+          "uk": "Червона картка й zero"
+        },
+        {
+          "k": "d",
+          "en": "One, the shot counts",
+          "uk": "One, постріл зараховано"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The first gun or cartridge incident in a round is a No Bird with a first warning shown by a yellow card.",
+        "uk": "Перша несправність рушниці чи патрона в раунді — No Bird із першим попередженням, яке показують жовтою карткою."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch20-gun-failure-first-shot"
+    },
+    {
+      "k": "compak-malfunctions-q2",
+      "q": {
+        "en": "A shooter's gun breaks down, and they want to borrow a squad-mate's gun. Is it allowed?",
+        "uk": "У стрільця зламалася рушниця, і він хоче позичити рушницю товариша по групі. Чи можна?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, with the owner's consent",
+          "uk": "Так, за згодою власника"
+        },
+        {
+          "k": "b",
+          "en": "Yes, if the referee agrees",
+          "uk": "Так, якщо погодиться суддя"
+        },
+        {
+          "k": "c",
+          "en": "Yes, without conditions",
+          "uk": "Так, без умов"
+        },
+        {
+          "k": "d",
+          "en": "No, only from outside the squad",
+          "uk": "Ні, лише в стрільця не з групи"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "{{tm:compak}} forbids sharing a gun within a group. Exceptional borrowing is only from outside it, with the owner's and the referee's agreement.",
+        "uk": "{{tm:compak}} забороняє користуватися однією рушницею кільком стрільцям групи. Позичити як виняток можна лише поза нею, за згодою власника й судді."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch12-borrowing"
+    },
+    {
+      "k": "compak-malfunctions-q3",
+      "q": {
+        "en": "Second gun failure of the same type in this round, on a single the shooter could not shoot at. Decision?",
+        "uk": "Друга несправність того самого типу в цьому раунді, на одиночній мішені, по якій стрілець не зміг вистрілити. Рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No Bird again",
+          "uk": "Знову No Bird"
+        },
+        {
+          "k": "b",
+          "en": "No Bird and a warning",
+          "uk": "No Bird і попередження"
+        },
+        {
+          "k": "c",
+          "en": "Zero, with a red card",
+          "uk": "Zero, з червоною карткою"
+        },
+        {
+          "k": "d",
+          "en": "The target is shown again",
+          "uk": "Мішень показують знову"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "From the second incident of the same type, targets not shot at are scored zero.",
+        "uk": "Починаючи з другої несправності того самого типу, мішені, по яких не стріляли, зараховують як zero."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch20-gun-failure-principle"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "42ad182b",
+    "summary": "9f55921b",
+    "sporting-malfunctions-p1": "41a008e3",
+    "sporting-malfunctions-p2": "d3532cc1",
+    "safety-malfunction-p3": "21d65653",
+    "rules-malfunctions-cmp1": "f79b0f17",
+    "sporting-malfunctions-p4": "4eef43d0",
+    "sporting-malfunctions-p5": "1a92fd88",
+    "compak-malfunctions-p3": "a9c8fd76",
+    "compak-malfunctions-p4": "a0165b36",
+    "compak-malfunctions-p5": "6c9dff80",
+    "rules-malfunctions-p7": "b2c06d3e",
+    "rules-malfunctions-n1": "0b3b256f",
+    "sporting-malfunctions-ph1": "c9bdfb88",
+    "sporting-malfunctions-ph2": "af62cc6a",
+    "sporting-malfunctions-ph3": "b1131f9c",
+    "sporting-malfunctions-ph4": "57b5468e",
+    "compak-malfunctions-ph1": "970afde6",
+    "compak-malfunctions-ph2": "b20b6941",
+    "compak-malfunctions-ph3": "4503ddd1",
+    "compak-malfunctions-ph4": "8cf9d336",
+    "sporting-malfunctions-kp1": "849f2ecd",
+    "sporting-malfunctions-kp2": "ebfb6f3d",
+    "compak-malfunctions-kp1": "13690047",
+    "sporting-malfunctions-kp4": "103b47fd",
+    "rules-malfunctions-kp5": "86bbb46b",
+    "safety-malfunction-dyk": "1e8c958c",
+    "rules-malfunctions-q1": "a05aaec5",
+    "rules-malfunctions-q2": "516fa443",
+    "rules-malfunctions-q3": "99323093",
+    "safety-malfunction-q1": "a94af216",
+    "safety-malfunction-q2": "016e7972",
+    "safety-malfunction-q3": "9d5fedce",
+    "competitions-scoring-basics-q2": "90ddf735",
+    "sporting-malfunctions-q1": "332f9baa",
+    "sporting-malfunctions-q2": "4028e248",
+    "sporting-malfunctions-q3": "772d233e",
+    "compak-malfunctions-q1": "8716abe3",
+    "compak-malfunctions-q2": "6d7c5bb8",
+    "compak-malfunctions-q3": "33252bbe"
+  },
+  "todo": {
+    "tasks": [
+      "Animations sporting-malfunctions-sim and compak-malfunctions-sim stay ready:false until checked against S-01…S-05 and S-09.",
+      "Referee: Sporting 6.5.1 scores as zero the targets not shot 'for the same reasons as the first incident', while 6.4 and 7.6 speak of any second malfunction in the round. rules-malfunctions-cmp1 (sporting column), compak-malfunctions-kp1 and sporting-malfunctions-ph4 follow 6.4/7.6 ('from the second incident'); if the referee reads 6.5.1 as 'of the same kind' (as Compak 20.3.1 says), add those words to the Sporting texts.",
+      "Referee: confirm case (2) of sporting-malfunctions-p4 (repeat after a second-shot failure on a single: only a hit with the second shot counts, so the first shot is a deliberate miss).",
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+    ]
+  }
+}

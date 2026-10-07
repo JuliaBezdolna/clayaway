@@ -296,7 +296,7 @@ window.GLOSSARY_I18N.fr = {
   "double": {
    "term_local": "doublé",
    "short": "Deux plateaux présentés ensemble ou l'un après l'autre, tirés comme une seule unité.",
-   "long": "Il existe trois sortes de doublé : au coup de fusil, simultané et, en Parcours de Chasse uniquement, la rafale. En Parcours de Chasse, le tireur dispose de deux cartouches pour un doublé et peut tirer les deux sur le même plateau ; entre le premier et le second plateau, la position du fusil est libre. En Compak, une seule cartouche peut être tirée sur chaque plateau d'un doublé, et sur un même Compak le type de doublé doit être identique aux 5 pas de tir ; le premier plateau de chaque doublé est le dernier plateau du pas précédent. Si un seul coup casse les deux plateaux, le Parcours de Chasse compte un et un, tandis que le Compak fait rejouer le doublé.",
+   "long": "Il existe trois sortes de doublé : au coup de fusil, simultané et, en Parcours de Chasse uniquement, la rafale. En Parcours de Chasse, le tireur dispose de deux cartouches pour un doublé et peut tirer les deux sur le même plateau ; entre le premier et le second plateau, la position du fusil est libre. En Compak, une seule cartouche peut être tirée sur chaque plateau d'un doublé, et sur un même Compak le type de doublé doit être identique aux 5 pas de tir ; le premier plateau de chaque doublé est le dernier plateau du pas précédent. Si un seul coup casse les deux plateaux, le Parcours de Chasse compte un et un. En Compak, ils ne comptent pas comme deux plateaux cassés : sur un doublé au coup de fusil, le premier résultat est conservé et le doublé est rejoué pour le second ; sur un doublé simultané, c'est un No bird et le doublé est rejoué, et la troisième fois il est compté ZÉRO-ZÉRO.",
    "disciplines": {
     "sporting": "5 doublés par parcours, composés uniquement de plateaux déjà tirés en simple depuis ce poste ; les deux cartouches peuvent viser le même plateau.",
     "compak": "Une cartouche par plateau ; tirer volontairement les deux coups sur un même plateau donne Zéro-Zéro."
@@ -374,10 +374,10 @@ window.GLOSSARY_I18N.fr = {
   "target-presentation": {
    "term_local": "présentation des plateaux",
    "short": "Le fait de montrer aux tireurs les plateaux d'un poste ou d'un pas de tir avant qu'ils ne tirent.",
-   "long": "En Parcours de Chasse, toutes les trajectoires d'un poste sont montrées au premier tireur de la planche, qui doit se tenir prêt sur le poste ; à sa demande, chaque plateau peut être montré à nouveau jusqu'à 2 fois. Les doublés au coup de fusil ne sont pas montrés ; les doublés simultanés et en rafale le sont, avec jusqu'à 2 nouvelles présentations. En Compak par planche, les plateaux ne sont montrés qu'une fois le matin à la première planche ; en ligne, le premier plateau de chaque doublé est montré à chaque nouveau tireur au pas 1. Pendant toute présentation, les fusils sont ouverts et déchargés, et il est interdit de tirer ou de simuler un tir. Après un arrêt de plus de 10 minutes, les plateaux sont montrés à nouveau.",
+   "long": "En Sporting™, toutes les trajectoires d'un poste sont montrées au premier tireur de la planche, qui doit se tenir prêt sur le poste ; à sa demande, chaque plateau peut être montré à nouveau jusqu'à 2 fois. Les doublés au coup de fusil ne sont pas montrés ; les doublés simultanés et en rafale le sont, avec jusqu'à 2 nouvelles présentations. Personne ne peut tirer ni simuler un tir pendant la présentation, et après une panne de lanceur ou un arrêt de plus de 10 minutes, les plateaux du poste sont montrés à nouveau. En Compak® Sporting tiré par planche, la première planche de la journée voit les plateaux une fois, tôt le matin : les simples A à F, puis les doublés simultanés des pas 1 à 5 ; après une pause de plus de 10 minutes, les six simples sont montrés à nouveau. En ligne, chaque nouveau tireur au pas 1 voit le premier plateau de son doublé. Dans les deux disciplines, les fusils restent ouverts et déchargés pendant la présentation et ne se ferment qu'avec l'autorisation de l'arbitre. En Compak® Sporting, le simulacre de tir est interdit hors des pas de tir et pendant qu'un autre membre de la planche tire.",
    "disciplines": {
-    "sporting": "Montrés à chaque poste au premier tireur de la planche ; jusqu'à 2 nouvelles présentations par plateau.",
-    "compak": "Par planche : une fois le matin à la première planche (simples A–F, puis doublés simultanés) ; après un arrêt de plus de 10 minutes, les 6 simples sont montrés à nouveau."
+    "sporting": "Montrés à chaque poste au premier tireur de la planche ; jusqu'à 2 nouvelles présentations par plateau ; ni tir ni simulacre de tir pendant la présentation.",
+    "compak": "Par planche : une fois, tôt le matin, pour la première planche de la journée (simples A–F, puis doublés simultanés) ; après un arrêt de plus de 10 minutes, les 6 simples sont montrés à nouveau."
    },
    "alt": [
     "présentation"
@@ -963,7 +963,7 @@ window.GLOSSARY_I18N.fr = {
   },
   "group": {
    "term_local": "Groupe (en ligne)",
-   "short": "En Compak en ligne, les tireurs affectés à un Compak : nombre total d'inscrits divisé par le nombre de Compaks.",
+   "short": "En Compak® Sporting en ligne, les tireurs affectés à un même terrain : nombre total d'inscrits divisé par le nombre de terrains.",
    "long": "En Compak en ligne, la taille d'un groupe est égale au nombre total de tireurs divisé par le nombre de Compaks utilisés. Chaque tireur du groupe commence au pas 1 et termine au pas 5. Un fusil ne peut être emprunté qu'à un tireur extérieur à son propre groupe, et plusieurs tireurs d'un même groupe ne peuvent pas partager un fusil. Un tireur en retard dont l'appel est accepté peut tirer la série avec un autre groupe.",
    "disciplines": {
     "compak": "Compak en ligne uniquement."
@@ -1020,7 +1020,7 @@ window.GLOSSARY_I18N.fr = {
   },
   "countback": {
    "term_local": "départage",
-   "short": "Classer les scores à égalité en comparant les résultats du dernier parcours ou Compak, puis de l'avant-dernier, et ainsi de suite.",
+   "short": "Départage des égalités en comparant les résultats sur le 8e parcours ou Compak, puis le 7e, et ainsi de suite jusqu'au 1er.",
    "long": "Au-delà de la troisième place, il n'y a pas de barrage : les tireurs à égalité sont classés ex æquo et ordonnés en remontant leurs scores du 8e parcours (Compak) jusqu'au 1er. Les équipes à égalité sont classées selon le score cumulé de leurs membres sur le 8e parcours ou Compak ; en cas de nouvelle égalité, sur le 7e, le 6e et ainsi de suite jusqu'au 1er. Il n'y a pas de barrage par équipes.",
    "alt": [
     "en remontant les parcours (du 8e au 1er)"
@@ -1580,8 +1580,8 @@ window.GLOSSARY_I18N.fr = {
   },
   "standard-target": {
    "term_local": "plateau normal",
-   "short": "Le plateau ordinaire en forme de dôme, d'environ 110 mm de diamètre, le plus courant.",
-   "long": "Le plateau standard est un disque en forme de dôme d'environ 110 mm de diamètre. Il est relativement lourd, il conserve donc longtemps sa vitesse et sa ligne, et son comportement est le plus facile à prévoir. Les débutants commencent généralement avec lui. En Sporting™ et en Compak® Sporting, le standard est mélangé aux plateaux spéciaux : midi, mini, battue, lapin, rocket et autres. Si un lanceur projette un plateau d'une taille ou d'un type différent de celui du menu, l'arbitre annonce No Bird.",
+   "short": "Le plateau bombé ordinaire, d'environ 108 à 110 mm de diamètre, le plus courant.",
+   "long": "Le plateau standard est un disque bombé d'environ 108 à 110 mm de diamètre. Son vol est assez facile à lire, c'est pourquoi les débutants commencent généralement par lui ; un midi de 90 mm garde mieux sa vitesse. En Sporting™ et en Compak® Sporting, le standard est mélangé à des plateaux spéciaux comme le midi, le mini, le battue et le rabbit ; la liste du Compak® Sporting cite aussi le rocket. En Sporting™, un plateau d'une couleur, d'une taille ou d'un type différents de ceux du tableau est un No bird ; en Compak® Sporting, un plateau de la mauvaise couleur est un No bird.",
    "alt": [
     "plateau standard",
     "standard"
@@ -1591,8 +1591,8 @@ window.GLOSSARY_I18N.fr = {
   },
   "rocket-target": {
    "term_local": "rocket",
-   "short": "Plateau au profil particulier qui conserve plus longtemps sa vitesse et sa ligne qu'un standard.",
-   "long": "Un rocket ressemble à un plateau standard mais possède un profil différent, plus aérodynamique. Il ralentit donc plus progressivement dans l'air et vole plus longtemps en ligne droite ; sur la partie lointaine de la trajectoire, il va plus vite que l'œil ne s'y attend. Les débutants tirent souvent derrière lui, en le jugeant comme un plateau ordinaire. Le règlement du Compak® Sporting cite le rocket parmi les plateaux autorisés, tandis que la liste du Sporting™ ne le mentionne pas séparément. En pratique, sa forme et son nom dépendent du fabricant de plateaux.",
+   "short": "Plateau spécial cité dans la liste des plateaux du Compak® Sporting ; sa forme exacte et son vol dépendent du fabricant.",
+   "long": "Le rocket fait partie des plateaux spéciaux que les règles du Compak® Sporting citent parmi les plateaux autorisés ; la liste du Sporting™ ne le cite pas à part. Il n'existe pas de spécification commune : sa forme et sa façon de voler dépendent donc du fabricant. Comme pour tout plateau spécial, regardez-le attentivement pendant la présentation et ne supposez pas qu'il vole comme un standard.",
    "disciplines": {
     "sporting": "Non cité séparément dans la liste des plateaux du Sporting.",
     "compak": "Expressément autorisé parmi les plateaux spéciaux."
@@ -1693,7 +1693,7 @@ window.GLOSSARY_I18N.fr = {
   "looper": {
    "term_local": "looper",
    "short": "Plateau qui décrit un arc dans l'air et change de direction.",
-   "long": "Le looper (en français souvent « parabole » ou « plateau en cloche ») vole en large arc : il monte, bascule au sommet et retombe tout en se déplaçant latéralement. On utilise souvent des battues pour ces trajectoires ; elles pivotent en vol, montrant d'abord la tranche puis la face. La principale difficulté est le changement constant de direction et de vitesse : les canons doivent suivre la courbe plutôt que de la couper. De nombreux tireurs prennent le looper près du sommet, là où il va le moins vite. Les noms varient selon les pays : pour un entraîneur anglais, la chandelle est une autre trajectoire, plus raide, alors qu'en français « chandelle » désigne souvent un plateau qui monte presque à la verticale (le teal anglais). Regardez attentivement la présentation et choisissez un seul point de casse.",
+   "long": "Le looper (en français souvent « parabole » ou « plateau en cloche ») vole en large arc : il monte, bascule au sommet et retombe tout en se déplaçant latéralement. C'est en général un plateau standard ; certains traceurs lancent aussi un battue sur une telle ligne, qui montre alors sa face en pivotant. La principale difficulté est le changement constant de direction et de vitesse : les canons suivent la courbe, devant et en dessous du plateau, plutôt que de la couper. De nombreux tireurs prennent le looper près du sommet, là où il va le moins vite. Les noms varient selon les pays : pour un entraîneur anglais, la chandelle est une autre trajectoire, plus raide, alors qu'en français « chandelle » désigne souvent un plateau qui monte presque à la verticale (le teal anglais). Regardez attentivement la présentation et choisissez un seul point de casse.",
    "alt": [
     "parabole",
     "plateau en cloche"
@@ -1714,7 +1714,7 @@ window.GLOSSARY_I18N.fr = {
   "lead": {
    "term_local": "avance",
    "short": "La distance dont le tireur se place devant un plateau pour que la gerbe le rencontre.",
-   "long": "Pendant que les plombs se dirigent vers le plateau, celui-ci continue d'avancer ; au moment du tir, le fusil doit donc être devant lui. Cette distance, c'est l'avance. Elle dépend de la vitesse du plateau, de sa distance et de l'angle sous lequel il vole : les croisés lointains demandent le plus d'avance, tandis que les fuyants droits n'en demandent presque pas. La perception de l'avance est subjective, chacun la décrit donc différemment. Il existe plusieurs méthodes d'avance, l'avance maintenue, le pull-away et le swing-through, et un entraîneur vous aidera à choisir la vôtre.",
+   "long": "Pendant que les plombs se dirigent vers le plateau, celui-ci continue d'avancer ; au moment du tir, le fusil doit donc être devant lui. Cette distance, c'est l'avance. Elle dépend de la vitesse du plateau, de sa distance et de l'angle sous lequel il vole : les croisés lointains demandent le plus d'avance, tandis que les fuyants droits n'en demandent presque pas. La perception de l'avance est subjective, chacun la décrit donc différemment. Il existe plusieurs méthodes d'avance, l'avance maintenue, le pull-away, le swing-through et l'ambush (tir d'attente), et un entraîneur vous aidera à choisir la vôtre.",
    "alt": [
     "anticipation"
    ],
@@ -1804,8 +1804,8 @@ window.GLOSSARY_I18N.fr = {
   },
   "maintained-lead": {
    "term_local": "avance maintenue",
-   "short": "Méthode d'avance dans laquelle les canons se déplacent devant le plateau, à sa vitesse, du début à la fin.",
-   "long": "Avec l'avance maintenue, le tireur place d'emblée les canons devant le plateau et les déplace à la même vitesse en conservant l'avance nécessaire, puis il tire. Elle fonctionne bien sur les plateaux longs et prévisibles, car elle laisse le temps de lire l'avance. La difficulté est que l'œil doit rester sur le plateau et non sur les canons, sinon le mouvement s'arrête. Les débutants la trouvent parfois simple, mais elle exige une bonne perception de la vitesse. Un entraîneur vous indiquera sur quels plateaux elle vous convient.",
+   "short": "Méthode d'avance où les canons restent devant le plateau et, au moment du tir, se déplacent à sa vitesse en gardant l'écart.",
+   "long": "Avec l'avance maintenue, les canons rejoignent la ligne du plateau devant lui, pas derrière. D'abord ils vont un peu moins vite que le plateau, qui se rapproche jusqu'à ce que l'écart paraisse juste ; ensuite les canons se déplacent à la vitesse du plateau, l'écart ne change plus, et le coup part pendant que le fusil bouge encore. Elle convient souvent aux plateaux lointains et prévisibles, comme les longs croisés, car elle laisse le temps de lire l'avance. Son défaut typique est de mesurer l'écart : l'œil glisse vers les canons et le fusil ralentit ou s'arrête. On la décrit souvent comme la méthode la plus difficile à apprendre ; demandez donc à un entraîneur sur quels plateaux elle vous convient.",
    "conf": "medium",
    "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
   },
@@ -1828,7 +1828,7 @@ window.GLOSSARY_I18N.fr = {
     "swing-through",
     "rattrapage"
    ],
-   "note": "« Swing » chez les moniteurs français.",
+   "note": "« Swing » chez les entraîneurs français.",
    "conf": "medium",
    "src": "https://www.lemontagnard-outdoor.fr/actualites/tir-sportif/techniques-et-entrainement-au-ball-trap-maitrisez-lart-de-casser-plus-de-plateaux"
   },
@@ -1893,14 +1893,14 @@ window.GLOSSARY_I18N.fr = {
   "warm-up": {
    "term_local": "Échauffement",
    "short": "Préparation avant le tir : mobilisation et quelques plateaux faciles.",
-   "long": "L'échauffement prépare le corps et les yeux au tir. Quelques minutes de mobilisation du cou, des épaules, du dos et des hanches réduisent le risque de blessure et rendent le mouvement du fusil plus fluide. Si le stand le permet, commencez la séance par quelques plateaux faciles pour trouver le rythme et la confiance avant de passer aux plus difficiles. Avant une compétition, les règles dépendent de la discipline. En Sporting™, personne ne peut s'entraîner sur les parcours de l'épreuve : échauffez-vous sur d'autres postes. En Compak® Sporting, l'entraînement sur les trajectoires de l'épreuve est autorisé, mais avec d'autres tableaux de réglage ; aux championnats continentaux et du monde, l'entraînement officiel n'ouvre que le samedi précédant le début. Ne faites d'épaulés à sec que là où c'est autorisé, avec un fusil déchargé et vérifié."
+   "long": "L'échauffement réveille le corps et les yeux avant le tir. Beaucoup d'entraîneurs conseillent environ 10 à 15 minutes de mouvements légers et dynamiques pour le cou, les épaules, le dos, les hanches et les chevilles, afin que le fusil bouge plus facilement ; il y a peu de recherches sur l'échauffement au tir aux plateaux, ces conseils viennent donc de l'expérience des entraîneurs. Si le stand le permet, vous pouvez commencer la séance par quelques plateaux faciles pour trouver votre rythme avant de passer aux plus difficiles. Avant une compétition, les règles dépendent de la discipline. En Sporting™, personne ne peut s'entraîner sur les parcours de l'épreuve : on s'échauffe donc sur d'autres parcours. En Compak® Sporting, l'entraînement sur les trajectoires de l'épreuve est autorisé, mais avec d'autres tableaux de réglage ; aux championnats continentaux et du monde, l'entraînement officiel n'ouvre que le samedi précédant le début. En compétition, beaucoup d'entraîneurs conseillent de s'échauffer sans le fusil ; les épaulés à vide se font à la maison ou à l'entraînement, là où c'est autorisé."
   },
   "dry-mounting": {
    "term_local": "épaulés à vide",
    "short": "Travailler l'épaulé sans tirer, avec un fusil déchargé et vérifié, là où la loi le permet.",
-   "long": "Les épaulés à sec sont l'une des façons les plus utiles de s'entraîner chez soi : quelques minutes par jour rendent le mouvement régulier. Avant de commencer, assurez-vous que le fusil est déchargé et qu'il n'y a aucune cartouche dans la pièce, et gardez la bouche dirigée dans une direction sûre. De nombreux tireurs utilisent des douilles amortisseurs (snap caps) pour protéger le mécanisme lors des percussions à vide. Sur le stand, les règles sont plus strictes : le tir simulé hors du poste de tir est interdit, et en Sporting™ épauler et suivre la ligne imaginaire d'un plateau avant l'appel vaut un avertissement. Renseignez-vous sur la législation locale concernant la manipulation des armes à domicile.",
+   "long": "Les épaulés à vide consistent à travailler l'épaulé avec un fusil déchargé et vérifié, sans tirer. Beaucoup d'entraîneurs conseillent quelques minutes à la maison, là où la loi le permet, pour que le geste devienne familier. Avant de commencer, assurez-vous que le fusil est déchargé et qu'il n'y a aucune cartouche dans la pièce, et gardez les canons dirigés dans une direction sûre. Si vous appuyez sur la détente d'un fusil vide, utilisez des douilles amortisseurs (snap caps) pour protéger les percuteurs, selon les conseils de votre entraîneur ou de votre armurier. Sur le stand, les règles dépendent de la discipline. En Sporting™, le simulacre de tir (épauler et suivre la ligne d'un plateau) n'est permis nulle part sur le terrain pendant une compétition. En Compak® Sporting, il est interdit hors des pas de tir et pendant qu'un autre membre de la planche tire. Renseignez-vous sur la législation locale concernant la manipulation des armes à domicile.",
    "disciplines": {
-    "sporting": "Le tir simulé est interdit sur les parcours comme en dehors ; avertissement avant l'appel, récidives sanctionnées.",
+    "sporting": "Le simulacre de tir n'est permis nulle part sur le terrain : d'abord un avertissement, puis chaque récidive donne ZÉRO au prochain plateau touché.",
     "compak": "Le tir simulé est interdit hors des pas de tir et pendant qu'un membre de la planche tire."
    },
    "alt": [
@@ -1920,11 +1920,9 @@ window.GLOSSARY_I18N.fr = {
    "short": "Formateur qui enseigne au tireur la technique, la sécurité et la préparation à la compétition.",
    "long": "Un entraîneur installe des habitudes sûres dès la première leçon, vérifie l'œil directeur, met en place la position et l'épaulé, aide à choisir un fusil et des cartouches et planifie l'entraînement. Les erreurs se voient beaucoup plus facilement de l'extérieur ; même les tireurs expérimentés travaillent donc avec un entraîneur. Dans les compétitions FITASC, coacher un concurrent pendant le tir est interdit : le concurrent reçoit un carton jaune, et l'arbitre renvoie la personne qui coache de la zone de tir. L'annuaire des entraîneurs de ClayArena permet de trouver un entraîneur par discipline, et les tours ClayAway (en préparation) permettront de s'entraîner avec un entraîneur en voyage. Vérifiez les qualifications et les références d'un entraîneur.",
    "alt": [
-    "moniteur",
-    "coach",
-    "initiateur"
+    "coach"
    ],
-   "note": "General word: entraîneur. « Moniteur » is often the club instructor; FFBT diplomas: initiateur, moniteur, entraîneur.",
+   "note": "Owner decision: coach = « entraîneur » everywhere; « moniteur » only for an instructor role (FFBT diplomas: initiateur, moniteur, entraîneur).",
    "conf": "medium"
   },
   "process-goal": {
@@ -2139,7 +2137,7 @@ window.GLOSSARY_I18N.fr = {
   "shooter-profile": {
    "term_local": "Profil du tireur",
    "short": "La page d'un tireur sur ClayArena, avec ses compétitions et ses chiffres clés.",
-   "long": "Le profil du tireur rassemble les compétitions de Sporting™ et de Compak® Sporting dont les résultats figurent sur ClayArena et affiche des chiffres clés comme la précision et le meilleur score. On y accède depuis le tableau des résultats d'une compétition ou en recherchant le nom. Les noms sur le site sont écrits en caractères latins, comme dans les documents de la compétition ; si un nom de famille peut être translittéré de différentes façons, essayez plusieurs orthographes. Les données proviennent des feuilles de marque des compétitions : vérifiez donc votre feuille de marque dès le stand, car le profil reprendra ce que l'arbitre a noté. Un profil est utile pour se comparer à soi-même au fil d'une saison."
+   "long": "Le profil du tireur rassemble les compétitions de Sporting™ et de Compak® Sporting dont les résultats figurent sur ClayArena et affiche des chiffres clés comme la précision et le meilleur score. On y accède depuis le tableau des résultats d'une compétition ou en recherchant le nom. Les noms sont écrits comme dans les documents de la compétition : en général en caractères latins aux épreuves internationales, mais parfois dans l'alphabet local aux épreuves nationales, par exemple en cyrillique aux compétitions ukrainiennes. Si vous ne vous trouvez pas, essayez l'orthographe locale et différentes graphies latines de votre nom. Les données proviennent des feuilles de marque des compétitions : vérifiez donc votre feuille de marque dès le stand, car le profil reprendra ce que l'arbitre a noté. Un profil est utile pour se comparer à soi-même au fil d'une saison."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2158,8 +2156,8 @@ window.GLOSSARY_I18N.fr = {
   },
   "top-10-rate": {
    "term_local": "Taux de top 10",
-   "short": "La fréquence à laquelle un tireur termine parmi les dix premiers.",
-   "long": "Ce chiffre du profil ClayArena indique la proportion de compétitions dans lesquelles un tireur a terminé dans les dix premiers. Il dépend non seulement du score mais aussi du plateau de concurrents : finir dans les dix premiers d'une grande épreuve internationale est bien plus difficile que lors d'un concours de club. Lisez-le donc avec la liste des compétitions auxquelles le tireur a participé. Il reflète bien la régularité des tireurs expérimentés, mais pour un débutant il est plus utile de suivre sa propre précision."
+   "short": "La fréquence à laquelle un tireur termine dans les dix premiers de sa catégorie ou du classement général.",
+   "long": "Ce chiffre du profil ClayArena indique la proportion de compétitions dans lesquelles un tireur a terminé dans les dix premiers, de sa catégorie ou du classement général. Il dépend non seulement du score mais aussi du plateau de concurrents : finir dans les dix premiers d'une grande épreuve internationale est bien plus difficile que lors d'un concours de club, et une petite catégorie avec peu de tireurs rend le top 10 plus facile à atteindre. Lisez-le donc avec la liste des compétitions auxquelles le tireur a participé. Il reflète bien la régularité des tireurs expérimentés, mais pour un débutant il est plus utile de suivre sa propre précision."
   },
   "performance-index": {
    "term_local": "Indice de performance",
@@ -2193,13 +2191,13 @@ window.GLOSSARY_I18N.fr = {
   },
   "european-firearms-pass": {
    "term_local": "Carte européenne d'arme à feu",
-   "short": "Document délivré par un pays de l'UE aux détenteurs d'armes qui y résident pour voyager avec leurs armes vers d'autres pays de l'UE ; valable jusqu'à cinq ans.",
-   "long": "La carte européenne d'arme à feu (CEAF) est délivrée par une autorité du pays de l'UE où réside le détenteur de l'arme et est généralement valable jusqu'à cinq ans. Des armes précises y sont inscrites ; avant de voyager, vérifiez donc que le fusil que vous emportez y figure et que la carte n'expirera pas en cours de route. Les tireurs sportifs munis d'une CEAF et d'un justificatif du motif du voyage, le plus souvent une lettre d'invitation de l'organisateur, peuvent généralement emporter un fusil dans un autre pays de l'UE sans autorisation préalable distincte. Les pays peuvent toutefois avoir leurs propres exceptions, et la CEAF ne prime pas sur les règles locales de port, de stockage et d'achat de cartouches. Elle n'est pas délivrée aux résidents de pays hors UE ; vérifiez les règles en vigueur des pays de destination et de transit."
+   "short": "Document qu'un pays de l'UE, ou la Suisse, la Norvège, l'Islande ou le Liechtenstein, délivre aux détenteurs d'armes qui y résident pour voyager avec leurs propres armes dans cet espace ; valable jusqu'à cinq ans.",
+   "long": "La carte européenne d'arme à feu (CEAF) est délivrée par le service chargé des autorisations d'armes du pays où réside le détenteur, et elle est généralement valable jusqu'à cinq ans. Outre les pays de l'UE, la Suisse, la Norvège, l'Islande et le Liechtenstein, qui appliquent les mêmes règles européennes sur les armes, la délivrent aussi à leurs résidents ; les résidents d'autres pays ne peuvent pas l'obtenir. Des armes précises y sont inscrites : avant de partir, vérifiez que le fusil que vous emportez y figure et que la carte n'expirera pas en route. Les tireurs sportifs munis d'une CEAF et d'un justificatif du motif du voyage, le plus souvent une lettre d'invitation de l'organisateur, peuvent en général emporter leur fusil dans un autre de ces pays sans autorisation préalable distincte. Les pays peuvent toutefois avoir leurs propres exceptions, et la CEAF ne remplace pas les règles locales sur le port, le stockage et l'achat de cartouches ; vérifiez les règles en vigueur des pays de destination et de transit."
   },
   "jet-lag": {
    "term_local": "Décalage horaire",
-   "short": "Perturbation du sommeil et de la vigilance après un vol traversant plusieurs fuseaux horaires ; elle passe généralement en quelques jours.",
-   "long": "Après un vol à travers plusieurs fuseaux horaires, l'horloge biologique ne correspond plus à l'heure locale : on a sommeil le jour, on dort mal la nuit, et les réflexes et la concentration en pâtissent. C'est important pour le tir, car la précision et la concentration sont les premières touchées. Pour les compétitions lointaines, on conseille donc d'arriver quelques jours à l'avance, de passer tout de suite à l'heure locale, de s'exposer à la lumière du jour et de boire de l'eau. Le programme d'un tour ClayAway (en préparation) donnera les horaires dans le fuseau horaire du lieu, avec l'indication du fuseau, pour éviter de confondre l'emploi du temps. Parlez des aides au sommeil ou des médicaments avec un médecin."
+   "short": "Sommeil et vigilance perturbés après un voyage rapide à travers plusieurs fuseaux horaires ; cela peut durer de quelques jours à une semaine ou plus, environ un jour par fuseau après un vol vers l'est.",
+   "long": "Après un voyage rapide à travers au moins trois fuseaux horaires, l'horloge interne est encore à l'heure de chez soi : sommeil, appétit, humeur et vigilance sont décalés par rapport à l'heure locale jusqu'à ce qu'elle se recale. Un repère courant est d'environ un jour par fuseau après un vol vers l'est et d'environ une demi-journée par fuseau après un vol vers l'ouest ; chacun est différent. La lumière du jour au bon moment de la journée est le principal signal qui recale l'horloge : dès le premier jour, vivez à l'heure locale et, après un long vol vers l'est, prévoyez une journée libre et légère avant de tirer pour le classement. La fatigue due au trajet lui-même (fatigue du voyage) est autre chose. Le programme d'un séjour ClayAway (en préparation) donnera les horaires dans le fuseau du lieu, avec le fuseau indiqué. Parlez des somnifères, de la mélatonine ou d'autres médicaments avec un médecin."
   },
   "invitation-letter": {
    "term_local": "Lettre d'invitation",
@@ -2240,7 +2238,7 @@ window.GLOSSARY_I18N.fr = {
    "note": "Termes du règlement FITASC (position d'attente).",
    "conf": "high",
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
-   "short": "Busc dont la hauteur et l'avantage peuvent être réglés."
+   "short": "Busc de crosse que l'on peut monter, descendre ou déplacer latéralement, pour que l'œil regarde exactement dans l'axe de la bande."
   },
   "grip": {
    "term_local": "poignée",
@@ -2283,7 +2281,7 @@ window.GLOSSARY_I18N.fr = {
    ],
    "conf": "high",
    "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
-   "short": "Le tampon en caoutchouc au bout de la crosse qui amortit le recul."
+   "short": "Plaque en caoutchouc ou en gel au bout de la crosse qui amortit le recul ; elle modifie aussi la longueur de crosse."
   },
   "chandelle": {
    "term_local": "chandelle (sens anglais)",
@@ -2356,12 +2354,12 @@ window.GLOSSARY_I18N.fr = {
   "soft-focus": {
    "term_local": "regard large",
    "conf": "low",
-   "short": "Un regard détendu et large en attendant au point de prise."
+   "short": "Regard détendu et large sur la zone où le plateau va apparaître, pendant que les yeux attendent au point de prise, sans fixer les détails."
   },
   "hard-focus": {
    "term_local": "regard focalisé",
    "conf": "low",
-   "short": "Une concentration nette et intense sur le plateau lui-même, souvent sur son bord avant."
+   "short": "Regard net sur le plateau lui-même, souvent sur son bord avant, du moment où on le voit clairement jusqu'au tir."
   },
   "leading-edge": {
    "term_local": "bord avant du plateau",
@@ -2470,7 +2468,8 @@ window.GLOSSARY_I18N.fr = {
   "overhead": {
    "term_local": "plateau au-dessus de la tête",
    "conf": "low",
-   "short": "Plateau qui passe juste au-dessus de la tête du tireur, venant de derrière ou de devant."
+   "short": "Plateau qui passe au-dessus de la tête du tireur ; le mot désigne surtout un plateau qui arrive de derrière et s'éloigne, tandis qu'un plateau venant de face est un plateau à la tête (type faisan).",
+   "long": "Un plateau au-dessus de la tête venant de derrière passe au-dessus de votre dos et s'éloigne. On le voit tard, c'est pourquoi beaucoup d'entraîneurs conseillent de regarder derrière soi avant l'appel. Épaulez pendant qu'il passe au-dessus de vous, tirez quand les canons atteignent son bord avant et continuez à bouger le fusil après le tir. Les noms varient : certains entraîneurs disent aussi « overhead » pour un plateau venant de face, que ce glossaire appelle plateau à la tête (type faisan) ; en cas de doute, demandez."
   },
   "bolting-rabbit": {
    "term_local": "lapin qui déboule",
@@ -2505,7 +2504,7 @@ window.GLOSSARY_I18N.fr = {
   "interpreter": {
    "term_local": "interprète",
    "conf": "high",
-   "short": "Personne qui traduit les propos entre l'entraîneur, l'arbitre et les tireurs pendant un tour ; elle connaît la terminologie du tir."
+   "short": "Personne qui interprète entre l'entraîneur, l'arbitre et les tireurs, par exemple aux entraînements et dans le programme d'un séjour, et qui connaît la terminologie du tir."
   },
   "chuchotage": {
    "term_local": "chuchotage",
@@ -2525,7 +2524,7 @@ window.GLOSSARY_I18N.fr = {
   "smoked-it": {
    "term_local": "pulvérisé",
    "conf": "low",
-   "short": "Expression d'entraîneur pour un tir bien centré qui réduit le plateau en poussière ; à ne pas confondre avec « seulement de la poussière ou de la fumée » du règlement, qui vaut zéro."
+   "short": "Argot d'entraîneur pour un plateau réduit en poussière. Selon les règles, un plateau réduit en poussière en tout ou en partie est BON ; un plateau resté entier qui ne lâche que de la poussière ou de la fumée, sans morceau visible, est ZÉRO."
   },
   "peg": {
    "term_local": "peg (emplacement de tir)",
@@ -2540,7 +2539,7 @@ window.GLOSSARY_I18N.fr = {
   "english-sporting": {
    "term_local": "English Sporting",
    "conf": "low",
-   "short": "La forme britannique du sporting selon les règles de la CPSA, généralement avec des doublés et le départ fusil épaulé autorisé."
+   "short": "La forme britannique du sporting, organisée en Angleterre par la CPSA à côté du Sporting™ FITASC ; elle a ses propres règles : les paires sont fréquentes et les tireurs commencent souvent fusil épaulé."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2570,7 +2569,7 @@ window.GLOSSARY_I18N.fr = {
   "ambush": {
    "term_local": "tir en embuscade",
    "conf": "low",
-   "short": "Méthode où les canons attendent en un point devant le plateau et où le coup part à son arrivée, avec peu ou pas de mouvement."
+   "short": "Méthode où les canons attendent immobiles en un point devant le plateau et où l'on presse la détente avant que le plateau n'y arrive, si bien qu'il vole dans la gerbe."
   },
   "instinctive-shooting": {
    "term_local": "tir instinctif",
@@ -2580,7 +2579,7 @@ window.GLOSSARY_I18N.fr = {
   "national-federation": {
    "term_local": "fédération nationale",
    "conf": "low",
-   "short": "L'instance dirigeante du sport dans un pays ; membre de la FITASC, elle homologue les installations nationales et certifie les arbitres."
+   "short": "L'organe directeur du sport dans un pays : il réunit clubs et tireurs, organise les compétitions nationales et les formations d'arbitres et représente le pays à la FITASC."
   },
   "blazed-target": {
    "term_local": "plateau à dôme fluo",
@@ -2596,6 +2595,347 @@ window.GLOSSARY_I18N.fr = {
    "term_local": "lancement manuel",
    "conf": "low",
    "short": "Lancement d'un plateau par une personne (pulleur ou arbitre) qui appuie sur un bouton à l'appel du tireur."
+  },
+  "anti-doping": {
+   "term_local": "antidopage",
+   "alt": [
+    "lutte antidopage",
+    "contrôle antidopage"
+   ],
+   "conf": "high",
+   "short": "Règles et contrôles contre les substances et méthodes interdites dans le sport ; les règles internationales et la Liste des interdictions annuelle viennent de l'Agence mondiale antidopage (AMA/WADA).",
+   "long": "Lors des championnats et des grandes compétitions, un tireur peut être soumis à un contrôle antidopage. L'AMA publie chaque année, généralement vers septembre, une nouvelle Liste des interdictions, applicable à partir du 1er janvier. Au tir, les bêtabloquants sont interdits en permanence. Les stimulants et le THC (cannabis) sont interdits en compétition, et la période « en compétition » commence à 23 h 59 la veille de l'épreuve. Un médicament prescrit par un médecin peut quand même être interdit : vérifiez-le dans Global DRO ou auprès de votre agence nationale antidopage et, si vous en avez besoin, demandez une AUT à l'avance. Les compléments alimentaires peuvent être contaminés : choisissez des produits dont les lots sont contrôlés par un laboratoire indépendant. Ceci n'est pas un avis médical : parlez-en à votre médecin."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "autorisation d'usage à des fins thérapeutiques (AUT)",
+   "alt": [
+    "AUT",
+    "TUE"
+   ],
+   "conf": "high",
+   "short": "Autorisation officielle pour un sportif d'utiliser, pour une raison médicale, un médicament autrement interdit ; elle se demande à l'avance.",
+   "long": "Une ordonnance ne suffit pas : une substance interdite reste interdite même si un médecin l'a prescrite. Un tireur qui a besoin d'un tel médicament, par exemple un bêtabloquant contre l'hypertension, un trouble du rythme cardiaque ou la migraine, demande donc une AUT à l'avance, en général à l'agence nationale antidopage ; la fédération nationale indique l'organisme compétent. N'arrêtez pas seul un médicament prescrit : parlez bien avant la compétition à votre médecin d'une alternative autorisée ou d'une AUT. Ceci n'est pas un avis médical."
+  },
+  "beta-blocker": {
+   "term_local": "bêtabloquant",
+   "alt": [
+    "bêta-bloquant"
+   ],
+   "conf": "high",
+   "short": "Médicament cardiaque qui ralentit le cœur et réduit les tremblements ; selon la liste de l'AMA, il est interdit au tir en permanence, en et hors compétition.",
+   "long": "Exemples : propranolol, aténolol, bisoprolol et métoprolol. Ils sont interdits dans les sports de précision, car un cœur plus lent et moins de tremblements peuvent stabiliser le fusil. La liste de l'AMA nomme le tir par la fédération olympique (ISSF) et le para-tir (IPC), pas par la FITASC ; considérez pourtant les bêtabloquants comme interdits aussi en Sporting™ et en Compak® Sporting : les agences nationales antidopage peuvent contrôler lors des compétitions nationales, les organisateurs peuvent appliquer la liste de l'AMA, et beaucoup de tireurs participent aussi à des épreuves ISSF. Si un médecin vous a prescrit un bêtabloquant, ne l'arrêtez pas seul ; demandez bien à l'avance une alternative autorisée ou une AUT. Ceci n'est pas un avis médical."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Service en ligne de vérification des médicaments géré par plusieurs agences nationales antidopage : il indique si un médicament vendu dans leurs pays est interdit dans le sport.",
+   "long": "Global DRO ne contient que les médicaments vendus dans les pays partenaires, comme le Royaume-Uni, les États-Unis, le Canada et la Suisse. Cherchez par la substance active, pas seulement par le nom commercial. Si votre médicament n'y figure pas, demandez à votre agence nationale antidopage ou à votre fédération. Vérifiez de nouveau chaque année, car la Liste des interdictions de l'AMA change."
+  },
+  "box-breathing": {
+   "term_local": "respiration carrée",
+   "alt": [
+    "box breathing"
+   ],
+   "conf": "medium",
+   "short": "Schéma respiratoire : inspirer, retenir, expirer et retenir, en comptant jusqu'à 4 à chaque fois ; une option à essayer, peu étudiée dans le sport.",
+   "long": "Dans les études menées jusqu'ici, la respiration carrée n'a pas fait mieux que d'autres façons de respirer ; dans une étude, simplement expirer plus longtemps qu'on n'inspire a donné de meilleurs résultats. Voyez-la donc comme une option, pas comme une règle. La respiration lente convient avant le poste et entre les postes. Juste avant l'appel, beaucoup d'entraîneurs conseillent une seule expiration naturelle, car une respiration très lente peut ralentir la réaction au plateau. Si vous avez des vertiges, revenez à une respiration normale. Ceci n'est pas un avis médical."
+  },
+  "quiet-eye": {
+   "term_local": "quiet eye (regard calme)",
+   "alt": [
+    "œil calme"
+   ],
+   "conf": "medium",
+   "short": "Le dernier regard stable sur le plateau avant le mouvement ; chez les tireurs expérimentés, il commence en général plus tôt et dure plus longtemps.",
+   "long": "Les chercheurs mesurent le quiet eye comme le dernier regard stable avant le début d'un mouvement. Par rapport à des tireurs moins expérimentés, les tireurs d'élite en fosse et en skeet le commencent plus tôt et le tiennent plus longtemps, et il est en général plus long sur les plateaux cassés que sur les manqués. Sous l'effet du stress, il raccourcit souvent. Il n'y a pas de nombre magique de millisecondes à viser : au tir aux plateaux, cela veut dire voir le plateau tôt et nettement et garder les yeux dessus pendant tout le tir. La plupart des données viennent de la fosse et du skeet olympiques ; cela se transpose probablement au Sporting™ et au Compak® Sporting."
+  },
+  "self-talk": {
+   "term_local": "discours interne",
+   "alt": [
+    "dialogue interne",
+    "self-talk"
+   ],
+   "conf": "medium",
+   "short": "Ce que vous vous dites, à voix haute ou dans votre tête ; dans le sport, souvent de courtes consignes comme « vois le plateau » ou « souple ».",
+   "long": "Dans de nombreuses études, les sportifs qui s'étaient entraînés à ce qu'ils se disent ont obtenu des résultats un peu meilleurs. Dans les tâches de précision, de courtes consignes ont davantage aidé que les encouragements du type « allez ». Dites ce qu'il faut faire, pas ce qu'il faut éviter : « reste sur la ligne » plutôt que « n'arrête pas le fusil ». Sur le poste, une consigne courte convient généralement mieux ; les phrases de motivation conviennent plutôt au trajet entre les postes. Les études ne portent pas sur le tir aux plateaux ; cela se transpose probablement au Sporting™ et au Compak® Sporting."
+  },
+  "cue-word": {
+   "term_local": "mot-clé",
+   "alt": [
+    "mot déclencheur"
+   ],
+   "conf": "medium",
+   "short": "Consigne très courte, comme « bord avant » ou « souple », qui dirige l'attention sur une seule chose avant le tir.",
+   "long": "Beaucoup d'entraîneurs conseillent de choisir deux ou trois mots-clés avec son entraîneur à l'entraînement et de garder les mêmes mots en compétition. Les mots-clés sur le plateau ou sa ligne, comme « vois-le » ou « reste sur la ligne », conviennent en général mieux au poste que les consignes sur le corps comme « coude haut », qui relèvent de l'entraînement. Beaucoup de tireurs disent le mot au même moment de leur routine de pré-tir, juste avant l'appel. Un interprète qui traduit le mot-clé d'un entraîneur peut garder un même équivalent court pendant toute la séance, pour que le tireur puisse l'utiliser dans son discours interne."
+  },
+  "imagery": {
+   "term_local": "imagerie mentale",
+   "alt": [
+    "visualisation",
+    "répétition mentale"
+   ],
+   "conf": "medium",
+   "short": "Répétition mentale : voir et sentir un tir dans sa tête, à la vitesse du vrai tir et avec ses propres yeux, sans le faire.",
+   "long": "Les études montrent que l'imagerie mentale aide généralement, surtout en complément d'un vrai entraînement, mais personne ne sait exactement dans quelle mesure. Elle semble mieux fonctionner quand elle est proche de la réalité : le même poste, les mêmes plateaux, la vraie vitesse et son propre point de vue. Après la présentation, beaucoup de tireurs repassent chaque plateau une ou deux fois : point d'attente, point de prise, le fusil qui rejoint la ligne, la casse. Répétez dans la tête, pas avec le fusil : épauler et suivre la ligne d'un plateau, c'est un simulacre de tir, que les règles limitent. La recherche ne porte pas sur le tir aux plateaux ; elle se transpose probablement au Sporting™ et au Compak® Sporting."
+  },
+  "choking": {
+   "term_local": "craquer sous la pression",
+   "alt": [
+    "choking"
+   ],
+   "conf": "medium",
+   "short": "Tirer nettement en dessous de son niveau habituel à cause de la pression, souvent quand on se met à piloter consciemment un geste qui d'habitude se fait tout seul.",
+   "long": "À ne pas confondre avec le choke du canon. Sous la pression, un tireur peut se mettre à contrôler pas à pas l'épaulé ou le swing, et l'inquiétude détourne les yeux du plateau. Signes : un tempo qui change, l'épaulé qu'on vérifie, les yeux sur le canon ou le guidon, les scores qu'on surveille. Ce qui peut aider : la routine de pré-tir et le tempo habituels, un seul mot-clé simple sur le plateau, des objectifs de processus et un entraînement sous une pression qui augmente pas à pas. La plupart des recherches viennent d'autres sports et de la fosse et du skeet olympiques ; cela se transpose probablement au Sporting™ et au Compak® Sporting. Si la pression gâche régulièrement vos compétitions, un psychologue du sport peut vous aider."
+  },
+  "reset-routine": {
+   "term_local": "routine de réinitialisation",
+   "alt": [
+    "reset"
+   ],
+   "conf": "low",
+   "short": "Courte routine fixe pour repartir : après un plateau manqué (expirer, une correction, routine suivante) ou quand on est dérangé avant l'appel.",
+   "long": "Une réinitialisation habituelle après un manqué dure environ 5 à 10 secondes : mettre le fusil en sécurité comme l'exigent les règles, expirer lentement une fois, se donner une correction en deux ou trois mots, voir le bon tir, puis commencer la routine de pré-tir suivante. Gardez le « pourquoi » pour après la série : décortiquer un geste pas à pas sous la pression peut le perturber. La réinitialisation doit tenir dans le temps imparti entre les plateaux. Si vous êtes dérangé avant l'appel, beaucoup d'entraîneurs conseillent d'expirer et de recommencer la routine. La même réinitialisation peut aider après une décision d'arbitre qui ne vous plaît pas."
+  },
+  "mobility": {
+   "term_local": "mobilité",
+   "alt": [
+    "mobilité articulaire"
+   ],
+   "conf": "medium",
+   "short": "La liberté de mouvement des articulations : pouvoir tourner la tête, lever les bras et tourner le tronc autant que le tir l'exige, sans forcer.",
+   "long": "Pour un tireur, les zones clés sont le cou (la tête vient sur la crosse), les épaules (l'épaulé), le haut du dos et les hanches, qui font tourner le corps avec le plateau, et les chevilles, qui assurent la stabilité de la position. Beaucoup d'entraîneurs conseillent avant le tir des mouvements dynamiques doux, comme tourner lentement la tête, faire des cercles d'épaules et des rotations du tronc, et gardent les longs étirements statiques pour après le tir. Bougez en douceur et arrêtez si cela fait mal. En cas de blessure ou de douleur durable, établissez votre programme avec un médecin ou un kinésithérapeute. Ceci n'est pas un avis médical."
+  },
+  "gun-rental": {
+   "term_local": "location de fusil",
+   "alt": [
+    "fusil de prêt"
+   ],
+   "conf": "medium",
+   "short": "Utiliser contre paiement un fusil du stand, souvent avec une première leçon, des cartouches et des protections, pour tirer sans acheter de fusil."
+  },
+  "third-party-insurance": {
+   "term_local": "assurance responsabilité civile",
+   "alt": [
+    "RC"
+   ],
+   "conf": "high",
+   "short": "Assurance qui couvre les dommages que vous pourriez causer à autrui ou à ses biens ; beaucoup de pays ou de clubs l'exigent des tireurs."
+  },
+  "proof-mark": {
+   "term_local": "poinçon d'épreuve",
+   "alt": [
+    "banc d'épreuve"
+   ],
+   "conf": "high",
+   "short": "Poinçon apposé sur une arme par un banc d'épreuve officiel après un tir d'épreuve avec une charge renforcée ; dans beaucoup de pays, cette épreuve est obligatoire."
+  },
+  "club-membership": {
+   "term_local": "adhésion au club",
+   "alt": [
+    "cotisation"
+   ],
+   "conf": "high",
+   "short": "Adhésion à un club de tir : en général une cotisation annuelle qui donne souvent des plateaux moins chers et l'accès aux entraînements et aux concours du club."
+  },
+  "reloaded-cartridge": {
+   "term_local": "cartouche rechargée",
+   "alt": [
+    "rechargement"
+   ],
+   "conf": "high",
+   "short": "Douille déjà tirée, remplie à nouveau de poudre, de bourre et de plombs, souvent à la maison ; interdite en compétition de Sporting™ et de Compak® Sporting."
+  },
+  "taster-session": {
+   "term_local": "séance découverte",
+   "alt": [
+    "baptême de tir"
+   ],
+   "conf": "medium",
+   "short": "Séance d'initiation pour débutants sur un stand : un entraîneur, le fusil du stand, des cartouches et des plateaux pour essayer le tir pour la première fois."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "perte auditive due au bruit",
+   "alt": [
+    "surdité due au bruit"
+   ],
+   "conf": "high",
+   "short": "Atteinte progressive et définitive de l'oreille interne causée par des sons forts comme les coups de feu ; elle commence souvent par les sons aigus, et l'audition perdue ne revient pas."
+  },
+  "tinnitus": {
+   "term_local": "acouphènes",
+   "conf": "high",
+   "short": "Sifflements, bourdonnements ou tintements dans les oreilles sans source extérieure ; après le tir, souvent un premier signal que la protection auditive était insuffisante."
+  },
+  "double-hearing-protection": {
+   "term_local": "double protection auditive",
+   "conf": "medium",
+   "short": "Bouchons d'oreilles et casque antibruit portés ensemble pour une marge supplémentaire, surtout pour les enfants et aux postes bruyants ou couverts."
+  },
+  "presbyopia": {
+   "term_local": "presbytie",
+   "conf": "high",
+   "short": "Baisse de la vision de près liée à l'âge : vers 40 ans, voir de près devient plus difficile alors que la vision de loin peut rester bonne ; le guidon peut devenir flou."
+  },
+  "lead-hygiene": {
+   "term_local": "hygiène du plomb",
+   "conf": "medium",
+   "short": "Habitudes qui limitent l'entrée du plomb dans le corps : se laver les mains et le visage, ne pas manger ni fumer au poste, des vêtements réservés au tir."
+  },
+  "heat-exhaustion": {
+   "term_local": "épuisement dû à la chaleur",
+   "alt": [
+    "coup de chaleur (début)"
+   ],
+   "conf": "medium",
+   "short": "Surchauffe du corps avec fatigue, vertiges, maux de tête ou nausées ; il faut de l'ombre, de l'eau, du rafraîchissement et du repos, et une aide médicale si cela ne passe pas vite."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "tir aux pigeons vivants",
+   "conf": "medium",
+   "short": "Tir historique sur des pigeons vivants lâchés de boîtes devant le tireur, ancêtre du tir aux plateaux ; en 2003, la FITASC a suspendu toutes les épreuves avec des animaux vivants comme cibles."
+  },
+  "glass-ball": {
+   "term_local": "boule de verre",
+   "conf": "medium",
+   "short": "Boule de verre lancée en l'air comme cible au XIXe siècle, première alternative aux oiseaux vivants ; le plateau d'argile l'a ensuite remplacée."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Fédération internationale de tir sportif"
+   ],
+   "conf": "high",
+   "short": "La Fédération internationale de tir sportif, qui régit les disciplines olympiques de tir, dont la fosse et le skeet olympiques ; le Sporting™ et le Compak® Sporting relèvent de la FITASC."
+  },
+  "hydration": {
+   "term_local": "hydratation",
+   "conf": "high",
+   "short": "Boire assez d'eau ; sur le stand, cela veut dire de petites gorgées régulières toute la journée, pas seulement quand on a très soif."
+  },
+  "travel-fatigue": {
+   "term_local": "fatigue du voyage",
+   "conf": "medium",
+   "short": "Fatigue due au trajet lui-même : muscles raides, peu de sommeil et air sec ; contrairement au décalage horaire, elle ne dépend pas des fuseaux et passe souvent après du repos."
+  },
+  "referee-certificate": {
+   "term_local": "carte d'arbitre",
+   "alt": [
+    "diplôme d'arbitre",
+    "licence d'arbitre"
+   ],
+   "conf": "medium",
+   "short": "Le diplôme ou la carte qu'une fédération nationale délivre après une formation et un examen, et qui donne le droit d'arbitrer ; l'arbitre en chef d'une épreuve internationale doit avoir une qualification FITASC."
+  },
+  "assistant-referee": {
+   "term_local": "arbitre assistant",
+   "alt": [
+    "aide-arbitre"
+   ],
+   "conf": "medium",
+   "short": "Aide de l'arbitre ; en Sporting™, une personne sans la carte d'arbitre requise ne peut tenir que ce rôle, et seulement avec l'accord préalable du jury."
+  },
+  "coaching-qualification": {
+   "term_local": "diplôme d'entraîneur",
+   "alt": [
+    "brevet d'entraîneur",
+    "qualification d'entraîneur"
+   ],
+   "conf": "medium",
+   "short": "Preuve qu'une personne a suivi une formation d'entraîneur ; qui la délivre, ses niveaux et son caractère obligatoire dépendent du pays."
+  },
+  "volunteer": {
+   "term_local": "bénévole",
+   "conf": "high",
+   "short": "Personne qui aide bénévolement lors d'une compétition : inscriptions, chargement des lanceurs, parking, photos, rangement ou, si les règles le permettent, marque sous le contrôle de l'arbitre."
+  },
+  "tour-package": {
+   "term_local": "forfait du séjour",
+   "alt": [
+    "package"
+   ],
+   "conf": "medium",
+   "short": "Tout ce qu'un tireur achètera en un seul paiement pour un séjour ClayAway : entraînement sur des stands, hébergement, transferts, programme commun et, si besoin, un interprète (ClayAway est en préparation)."
+  },
+  "scoreboard": {
+   "term_local": "tableau des résultats",
+   "alt": [
+    "tableau d'affichage"
+   ],
+   "conf": "medium",
+   "short": "Le tableau des résultats : un panneau ou un écran où s'affichent les scores par série et les totaux des tireurs pendant et après une compétition."
+  },
+  "spectator-area": {
+   "term_local": "zone des spectateurs",
+   "alt": [
+    "espace public"
+   ],
+   "conf": "medium",
+   "short": "L'endroit que l'organisateur réserve aux spectateurs, en général derrière le poste ou derrière une clôture ou une corde, d'où l'on peut regarder, photographier et filmer en sécurité."
+  },
+  "derogation": {
+   "term_local": "dérogation",
+   "conf": "medium",
+   "short": "Autorisation, dans des cas particuliers, de s'écarter d'une règle, par exemple de concourir dans une autre catégorie que celle de son âge ; renseignez-vous auprès de votre fédération nationale."
+  },
+  "pitch": {
+   "term_local": "pente de crosse",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low",
+   "short": "L'angle sous lequel l'extrémité de la crosse (la plaque de couche) est coupée par rapport aux canons ; il décide si la crosse repose à plat sur l'épaule ou appuie par la pointe ou le talon."
+  },
+  "gas-operated": {
+   "term_local": "à emprunt de gaz",
+   "alt": [
+    "semi-automatique à emprunt de gaz"
+   ],
+   "conf": "high",
+   "short": "Système semi-automatique dans lequel une partie des gaz de la poudre recharge l'arme ; il étale le recul dans le temps, si bien que beaucoup de tireurs le trouvent plus doux."
+  },
+  "ladies-cut": {
+   "term_local": "coupe femme",
+   "conf": "medium",
+   "short": "Coupe de gilet ou de veste de tir qui tient compte de la poitrine et de la largeur des épaules, pour que la protection soit à l'endroit où vient la crosse."
+  },
+  "ladies-day": {
+   "term_local": "journée féminine",
+   "alt": [
+    "ladies' day"
+   ],
+   "conf": "medium",
+   "short": "Journée au club où les femmes s'entraînent ou découvrent le tir, souvent avec un entraîneur et des fusils de prêt."
+  },
+  "snap-cap": {
+   "term_local": "douille amortisseur",
+   "alt": [
+    "snap cap"
+   ],
+   "conf": "medium",
+   "short": "Fausse cartouche qui protège les percuteurs quand on appuie sur la détente d'un fusil vide ; pour l'entraînement à vide, selon les conseils d'un entraîneur ou d'un armurier."
+  },
+  "blot-out": {
+   "term_local": "masquer le plateau (blot out)",
+   "conf": "low",
+   "short": "Laisser les canons cacher le plateau au moment du tir, comme souvent sur les plateaux venant de face et ceux qui passent au-dessus de la tête ; c'est en général voulu, pas une erreur."
+  },
+  "show-pair": {
+   "term_local": "show pair",
+   "conf": "low",
+   "short": "Nom britannique pour la présentation d'une paire de plateaux avant le tir ; dans les termes de la FITASC, la présentation d'un doublé."
+  },
+  "perfect-round": {
+   "term_local": "série parfaite",
+   "alt": [
+    "25 sur 25"
+   ],
+   "conf": "medium",
+   "short": "Une série sans manqué : en Sporting™ et en Compak® Sporting, les 25 plateaux cassés ; un profil ClayArena compte combien un tireur en a."
+  },
+  "visitors-permit": {
+   "term_local": "permis de visiteur (visitor's permit)",
+   "conf": "low",
+   "short": "Permis britannique qui autorise un visiteur venu de l'étranger à détenir un fusil en Grande-Bretagne ; un garant qui y vit en fait la demande à la police locale."
   }
  }
 };

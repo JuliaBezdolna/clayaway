@@ -1,0 +1,526 @@
+{
+  "id": "gear-ear-protection",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 7,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "ENT doctor or audiologist (hearing paragraphs)",
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gear-ear-protection",
+      "health-hearing"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "hearing-protection",
+    "earplugs",
+    "passive-ear-muffs",
+    "electronic-ear-muffs",
+    "referee",
+    "stock"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    }
+  ],
+  "facts": [
+    "gear.gunshot-peak-db",
+    "gear.impulse-noise-limits"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "NHCA — Recreational firearm noise, position statement (2017): 160–170 dB peak for shotguns, 140 dB limit for adults, 120 dB for children, double protection",
+        "uk": "NHCA — шум від рекреаційної стрільби, позиція асоціації (2017): 160–170 дБ пікового рівня для рушниць, межа 140 дБ для дорослих і 120 дБ для дітей, подвійний захист"
+      },
+      "url": "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NIOSH (USA) — Reducing exposure to lead and noise at outdoor firing ranges (2013-104): 140 dB limit, double hearing protection",
+        "uk": "NIOSH (США) — як зменшити вплив свинцю й шуму на відкритих стрільбищах (2013-104): межа 140 дБ, подвійний захист слуху"
+      },
+      "url": "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "WHO — Deafness and hearing loss: noise-induced hearing loss is permanent but preventable",
+        "uk": "ВООЗ — глухота й утрата слуху: утрата слуху від шуму незворотна, але їй можна запобігти"
+      },
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NHS — Hearing loss: get urgent help if you lose hearing suddenly",
+        "uk": "NHS — утрата слуху: якщо слух раптово погіршився, потрібна термінова допомога"
+      },
+      "url": "https://www.nhs.uk/conditions/hearing-loss/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Ear protection: plugs and muffs",
+    "uk": "Захист слуху: беруші й навушники"
+  },
+  "summary": {
+    "en": "Why a shot can damage hearing for good, which plugs and muffs exist, and why many {{tm:sporting}} and {{tm:compak}} shooters wear both on loud ranges.",
+    "uk": "Чому постріл може незворотно пошкодити слух, які бувають беруші й навушники і чому багато стрільців {{tm:sporting}} і {{tm:compak}} на гучних стендах носять обидва."
+  },
+  "body": [
+    {
+      "k": "gear-ear-protection-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "{{term:hearing-protection|Hearing protection}} is compulsory in {{tm:sporting}} and {{tm:compak}} for everyone on or near a layout: shooters, referees, staff and spectators. A shooter who comes to the stand without it is treated as absent and does not shoot.",
+      "uk": "{{term:hearing-protection|Захист слуху}} у {{tm:sporting}} і {{tm:compak}} обов’язковий для всіх, хто на майданчику чи поруч: стрільців, суддів, персоналу й глядачів. Стрільця, який прийшов на стрілецьке місце без нього, вважають відсутнім, і він не стріляє."
+    },
+    {
+      "k": "health-hearing-p1",
+      "t": "p",
+      "anchor": "health-hearing",
+      "en": "A shotgun shot is very loud: {{fact:gear.gunshot-peak-db}}. For short, sudden noises like a bang (impulse noise) the usual safe limit is {{fact:gear.impulse-noise-limits}}. So each shot without protection is over the limit, and a day at the ground means hundreds of shots, yours and other people's.",
+      "uk": "Постріл із рушниці дуже гучний: {{fact:gear.gunshot-peak-db}}. Для коротких раптових звуків, як-от постріл (імпульсний шум), прийнята безпечна межа — {{fact:gear.impulse-noise-limits}}. Тож кожен постріл без захисту перевищує межу, а за день на стенді таких пострілів сотні — своїх і чужих."
+    },
+    {
+      "k": "health-hearing-p2",
+      "t": "p",
+      "en": "Noise-induced hearing loss builds up gradually and without pain. Tiny sensitive cells in the inner ear die, and they do not grow back. It usually starts with high sounds: speech, especially in a noisy place, becomes less clear, and many people do not notice it at first. With further unprotected shooting the loss spreads to more sounds. Lost hearing cannot be restored; it can only be protected.",
+      "uk": "Утрата слуху від шуму накопичується поступово й безболісно. Гинуть дрібні чутливі клітини внутрішнього вуха, і вони не відновлюються. Зазвичай спершу страждають високі звуки: мова, особливо в галасливому місці, стає менш розбірливою, і багато хто спочатку цього не помічає. Якщо й далі стріляти без захисту, утрата поширюється на інші звуки. Утрачене не повернути — слух можна лише вберегти."
+    },
+    {
+      "k": "health-hearing-p3",
+      "t": "warn",
+      "en": "Ringing or buzzing in the ears (tinnitus) after shooting is a common first warning: your protection was not enough. Check how your plugs and muffs fit, or choose stronger ones. If your ears ring or sounds seem muffled after shooting, have your hearing tested by an ear, nose and throat doctor or an audiologist. If your hearing drops suddenly, get medical help urgently.",
+      "uk": "Шум або дзвін у вухах (тинітус) після стрільби — частий перший сигнал: захисту було недосить. Перевірте, як сидять беруші й навушники, або виберіть сильніші. Якщо після стрільби дзвенить у вухах чи звуки здаються приглушеними, перевірте слух у лікаря-отоларинголога (ЛОР) чи аудіолога. Якщо слух раптово погіршився, терміново зверніться по медичну допомогу."
+    },
+    {
+      "k": "gear-ear-protection-p2",
+      "t": "p",
+      "en": "{{term:earplugs|Earplugs}} are the simplest option. Foam plugs are cheap: you roll them thin, insert them into the ear and let them expand. There are also reusable silicone plugs and custom plugs moulded to your ear. Plugs that seal the ear canal protect well; badly fitted ones protect very little, so ask your coach to show you.",
+      "uk": "{{term:earplugs|Беруші}} — найпростіший варіант. Пінні беруші дешеві: їх скручують тонко, вставляють у вухо й чекають, поки вони розширяться. Є також багаторазові силіконові та індивідуальні беруші, виготовлені за зліпком вуха. Беруші, що щільно закривають слуховий прохід, захищають добре, а погано вставлені — дуже мало, тож нехай тренер покаже, як їх вставляти."
+    },
+    {
+      "k": "gear-ear-protection-p3",
+      "t": "p",
+      "en": "{{term:passive-ear-muffs|Passive ear muffs}} simply cover the ears with tight cups. They are easy to put on and take off, but voices are harder to hear through them. For a shotgun choose muffs with slim cups, because thick ones can hit the {{term:stock|stock}} as you mount the gun.",
+      "uk": "{{term:passive-ear-muffs|Пасивні навушники}} просто закривають вуха щільними чашками. Їх легко вдягати й знімати, але крізь них гірше чути голоси. Для рушниці обирайте навушники з тонкими чашками, бо товсті можуть зачіпати {{term:stock|приклад}}, коли ви вкладаєте рушницю."
+    },
+    {
+      "k": "gear-ear-protection-p4",
+      "t": "p",
+      "en": "{{term:electronic-ear-muffs|Electronic ear muffs}} have microphones and speakers. They amplify quiet sounds, such as the referee's voice and commands, and cut a loud sound instantly at the moment of the shot. They help safety and communication, but they cost more and need batteries or charging.",
+      "uk": "{{term:electronic-ear-muffs|Активні (електронні) навушники}} мають мікрофони й динаміки. Вони підсилюють тихі звуки — голос судді, команди, — а в момент пострілу миттєво приглушують гучний звук. Це допомагає безпеці й спілкуванню, але вони дорожчі й потребують батарейок або заряджання."
+    },
+    {
+      "k": "gear-ear-protection-p5",
+      "t": "p",
+      "en": "Protection is rated with a number, SNR in Europe and NRR in the USA: the higher the number, the stronger the reduction. On loud ranges, such as under a roof or near walls, plugs and muffs worn together give an extra margin. You cannot simply add the two numbers together, but a US workplace-safety institute (NIOSH) measured roughly 15–20 dB more protection with both than with one alone.",
+      "uk": "Ступінь захисту позначають числом — SNR у Європі, NRR у США: що більше число, то сильніше заглушення. На гучних стендах, наприклад під навісом чи біля стін, беруші й навушники разом дають додатковий запас. Два числа не можна просто скласти, але американський інститут охорони праці NIOSH виміряв приблизно на 15–20 дБ більше захисту з обома засобами, ніж з одним."
+    },
+    {
+      "k": "health-hearing-p7",
+      "t": "tip",
+      "en": "Protection works only when it fits well. Plugs go in deep enough to seal the ear canal, and glasses arms or a hat must not break the seal of the muffs. Custom plugs are comfortable and fit the same way each time; use the SNR on the pack as a guide.",
+      "uk": "Захист працює, лише коли добре сидить. Беруші вставляють настільки глибоко, щоб вони закривали слуховий прохід, а дужки окулярів чи шапка не мають порушувати прилягання навушників. Індивідуальні беруші зручні й щоразу сідають однаково; орієнтуйтеся на SNR на упаковці."
+    },
+    {
+      "k": "gear-ear-protection-p6",
+      "t": "p",
+      "en": "For children and juniors hearing protection matters even more: their ears are damaged more easily, so the safe noise limit for children is set lower than for adults ({{fact:gear.impulse-noise-limits}}).",
+      "uk": "Для дітей і юніорів захист слуху ще важливіший: їхні вуха пошкоджуються легше, тому безпечну межу шуму для дітей беруть нижчу, ніж для дорослих ({{fact:gear.impulse-noise-limits}})."
+    },
+    {
+      "k": "gear-ear-protection-children-coaches",
+      "t": "p",
+      "en": "Many coaches suggest plugs and muffs together for children. Put protection on before you walk up to the stand, and keep it on while anyone nearby is shooting.",
+      "uk": "Багато тренерів радять дітям беруші й навушники разом. Вдягайте захист до того, як підійдете до стрілецького місця, і не знімайте його, поки поруч стріляють."
+    }
+  ],
+  "note": [
+    {
+      "k": "gear-ear-protection-n1",
+      "for": "interpreter",
+      "en": "Electronic muffs let you hear the coach and the referee while your hearing stays protected. Many interpreters find them a good choice for long days on the stand.",
+      "uk": "Активні навушники дають змогу чути тренера й суддю, а слух при цьому захищений. Багатьом перекладачам вони здаються добрим вибором для довгих днів на стенді."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gear-ear-protection-kp1",
+      "en": "Hearing protection is compulsory for everyone near the stand.",
+      "uk": "Захист слуху обов’язковий для всіх біля стрілецького місця.",
+      "checklist": true
+    },
+    {
+      "k": "health-hearing-kp1",
+      "en": "A shot is {{fact:gear.gunshot-peak-db}}; noise damage adds up and does not heal.",
+      "uk": "Постріл — це {{fact:gear.gunshot-peak-db}}; шкода від шуму накопичується й не минає."
+    },
+    {
+      "k": "gear-ear-protection-kp2",
+      "en": "Plugs protect only when they seal the ear canal.",
+      "uk": "Беруші захищають лише тоді, коли щільно закривають слуховий прохід."
+    },
+    {
+      "k": "health-hearing-kp2",
+      "en": "Ringing ears after shooting mean the protection was not enough.",
+      "uk": "Дзвін у вухах після стрільби означає, що захисту було недосить."
+    },
+    {
+      "k": "gear-ear-protection-kp5",
+      "en": "On loud ranges plugs and muffs together give extra protection; many coaches suggest both for children.",
+      "uk": "На гучних стендах беруші й навушники разом дають додатковий захист; багато тренерів радять обидва засоби дітям."
+    }
+  ],
+  "did_you_know": {
+    "k": "gear-ear-protection-dyk",
+    "en": "Foam earplugs are meant for one or a few uses: worn and dirty plugs seal less well and protect less.",
+    "uk": "Пінні беруші розраховані на одне чи кілька використань: зношені й брудні вони гірше прилягають і захищають слабше."
+  },
+  "quiz": [
+    {
+      "k": "gear-ear-protection-q1",
+      "q": {
+        "en": "What do electronic ear muffs do?",
+        "uk": "Що роблять активні (електронні) навушники?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Amplify quiet sounds and cut the shot",
+          "uk": "Підсилюють тихі звуки й приглушують постріл"
+        },
+        {
+          "k": "b",
+          "en": "Count how many shots you have fired",
+          "uk": "Рахують, скільки пострілів ви зробили"
+        },
+        {
+          "k": "c",
+          "en": "Replace the need for safety glasses",
+          "uk": "Замінюють захисні окуляри"
+        },
+        {
+          "k": "d",
+          "en": "Play music between the rounds",
+          "uk": "Вмикають музику між раундами"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "You hear the referee and commands while your hearing is protected.",
+        "uk": "Так ви чуєте суддю й команди, а слух захищений."
+      }
+    },
+    {
+      "k": "gear-ear-protection-q2",
+      "q": {
+        "en": "Why are slim-cup muffs better for a shotgun?",
+        "uk": "Чому для рушниці краще навушники з тонкими чашками?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They let more of the bang through",
+          "uk": "Вони пропускають більше звуку пострілу"
+        },
+        {
+          "k": "b",
+          "en": "Thick cups can hit the stock",
+          "uk": "Товсті чашки можуть зачіпати приклад"
+        },
+        {
+          "k": "c",
+          "en": "The dress code asks for slim cups",
+          "uk": "Дрес-код вимагає тонких чашок"
+        },
+        {
+          "k": "d",
+          "en": "They need no batteries at all",
+          "uk": "Їм зовсім не потрібні батарейки"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The stock comes up to the cheek, and a thick cup can get in the way of the mount.",
+        "uk": "Приклад підходить до щоки, і товста чашка може заважати вкладці."
+      }
+    },
+    {
+      "k": "gear-ear-protection-q3",
+      "q": {
+        "en": "What is sensible on a very loud stand, for example under a roof?",
+        "uk": "Що розумно робити на дуже гучному стенді, наприклад під навісом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Shoot unprotected to hear better",
+          "uk": "Стріляти без захисту, щоб краще чути"
+        },
+        {
+          "k": "b",
+          "en": "Wear just one of the earplugs",
+          "uk": "Вдягати лише одну берушу"
+        },
+        {
+          "k": "c",
+          "en": "Wear plugs and muffs together",
+          "uk": "Вдягати беруші й навушники разом"
+        },
+        {
+          "k": "d",
+          "en": "Stand closer to the trap house",
+          "uk": "Стати ближче до будки з машинкою"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Double protection reduces sound more than either one alone.",
+        "uk": "Подвійний захист заглушує звук сильніше, ніж кожен засіб окремо."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "health-hearing-q1",
+      "q": {
+        "en": "Does hearing damaged by noise recover?",
+        "uk": "Чи відновлюється слух, пошкоджений шумом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, within a few weeks of rest",
+          "uk": "Так, за кілька тижнів відпочинку"
+        },
+        {
+          "k": "b",
+          "en": "No, inner-ear cells do not grow back",
+          "uk": "Ні, клітини внутрішнього вуха не відновлюються"
+        },
+        {
+          "k": "c",
+          "en": "Yes, if you take the right vitamins",
+          "uk": "Так, якщо пити потрібні вітаміни"
+        },
+        {
+          "k": "d",
+          "en": "Yes, after a quiet holiday or two",
+          "uk": "Так, після однієї-двох тихих відпусток"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Noise-induced hearing loss is permanent, so protect your hearing from the first shot.",
+        "uk": "Утрата слуху від шуму незворотна, тож слух треба берегти з першого пострілу."
+      }
+    },
+    {
+      "k": "health-hearing-q2",
+      "q": {
+        "en": "What is double hearing protection?",
+        "uk": "Що таке подвійний захист слуху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Two pairs of earplugs at once",
+          "uk": "Дві пари берушів одночасно"
+        },
+        {
+          "k": "b",
+          "en": "Ear muffs worn over a warm hat",
+          "uk": "Навушники поверх теплої шапки"
+        },
+        {
+          "k": "c",
+          "en": "Earplugs and ear muffs together",
+          "uk": "Беруші й навушники одночасно"
+        },
+        {
+          "k": "d",
+          "en": "Muffs with two volume settings",
+          "uk": "Навушники з двома рівнями гучності"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Earplugs under ear muffs give an extra margin of protection.",
+        "uk": "Беруші під навушниками дають додатковий запас захисту."
+      }
+    },
+    {
+      "k": "health-hearing-q3",
+      "disc": "both",
+      "q": {
+        "en": "Under FITASC rules, what happens to a shooter who comes to the stand without hearing protection?",
+        "uk": "Що за правилами FITASC буде зі стрільцем, який вийшов на стрілецьке місце без захисту слуху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "He is treated as absent",
+          "uk": "Його вважають відсутнім"
+        },
+        {
+          "k": "b",
+          "en": "He shoots, with a warning",
+          "uk": "Він стріляє, але з попередженням"
+        },
+        {
+          "k": "c",
+          "en": "Nothing: it is his choice",
+          "uk": "Нічого: це його вибір"
+        },
+        {
+          "k": "d",
+          "en": "He loses one target",
+          "uk": "Він втрачає одну мішень"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Hearing protection is compulsory; without it the shooter is treated as absent and does not shoot.",
+        "uk": "Захист слуху обов’язковий; без нього стрільця вважають відсутнім, і він не стріляє."
+      },
+      "rule_ref": "sporting:ch8-hearing-protection"
+    }
+  ],
+  "evidence": [
+    {
+      "for": "health-hearing-p1",
+      "level": "strong",
+      "sources": [
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+        "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf"
+      ]
+    },
+    {
+      "for": "health-hearing-p2",
+      "level": "strong",
+      "sources": [
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+        "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+      ]
+    },
+    {
+      "for": "health-hearing-p3",
+      "level": "strong",
+      "sources": [
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+        "https://www.nhs.uk/conditions/hearing-loss/"
+      ]
+    },
+    {
+      "for": "gear-ear-protection-p2",
+      "level": "strong",
+      "sources": [
+        "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf"
+      ]
+    },
+    {
+      "for": "gear-ear-protection-p5",
+      "level": "strong",
+      "sources": [
+        "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf",
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf"
+      ]
+    },
+    {
+      "for": "gear-ear-protection-p6",
+      "level": "strong",
+      "sources": [
+        "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf"
+      ]
+    },
+    {
+      "for": "gear-ear-protection-children-coaches",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "75285726",
+    "summary": "421d3d7c",
+    "gear-ear-protection-p1": "2f889d9a",
+    "health-hearing-p1": "c5e83728",
+    "health-hearing-p2": "5950fe63",
+    "health-hearing-p3": "15ceace6",
+    "gear-ear-protection-p2": "a6697be0",
+    "gear-ear-protection-p3": "5a06946e",
+    "gear-ear-protection-p4": "3e54664f",
+    "gear-ear-protection-p5": "3d827721",
+    "health-hearing-p7": "082a4d13",
+    "gear-ear-protection-p6": "d4b58ab9",
+    "gear-ear-protection-children-coaches": "cc213d05",
+    "gear-ear-protection-n1": "3d9a92ee",
+    "gear-ear-protection-kp1": "101cc3a2",
+    "health-hearing-kp1": "9e0ba6c6",
+    "gear-ear-protection-kp2": "e04c6675",
+    "health-hearing-kp2": "20b51dcc",
+    "gear-ear-protection-kp5": "68dbf6b8",
+    "gear-ear-protection-dyk": "4b7cea0c",
+    "gear-ear-protection-q1": "a42f3b0c",
+    "gear-ear-protection-q2": "8dec0d1f",
+    "gear-ear-protection-q3": "d1ec972e",
+    "health-hearing-q1": "ac2e313f",
+    "health-hearing-q2": "414c31e1",
+    "health-hearing-q3": "8a986efd"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

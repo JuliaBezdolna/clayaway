@@ -1,0 +1,364 @@
+{
+  "id": "intro-disciplines",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 1,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "fan"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "intro-disciplines"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "sporting",
+    "compak-sporting",
+    "layout",
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "single-target",
+    "round",
+    "trap",
+    "fitasc",
+    "olympic-trap",
+    "skeet",
+    "gun-mount",
+    "shooting-stand"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch1-definition"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-traps-table"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-single-target"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "compak",
+      "id": "ch1-discipline"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-traps"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-trajectory-variety"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch5-competition-layouts"
+    }
+  ],
+  "facts": [
+    "basics.compak-field",
+    "basics.international-targets",
+    "rules.round-targets",
+    "targets.sporting-layout-targets",
+    "community.compak-created"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — Sports disciplines: presentation",
+        "uk": "FITASC — спортивні дисципліни: представлення"
+      },
+      "url": "https://www.fitasc.com/en/sports-disciplines/presentation",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "The main disciplines",
+    "uk": "Основні дисципліни"
+  },
+  "summary": {
+    "en": "A short guide to {{tm:sporting}} and {{tm:compak}}, plus Trap and Skeet: what they share and how they differ.",
+    "uk": "Коротко про {{tm:sporting}} і {{tm:compak}}, а також про Trap і Skeet: що в них спільного і чим вони відрізняються."
+  },
+  "body": [
+    {
+      "k": "intro-disciplines-p1",
+      "t": "p",
+      "disc": "sporting",
+      "en": "{{tm:sporting}} imitates hunting. {{term:shooting-stand|Shooting stands}}, the marked spots you shoot from, are set out over natural ground: in fields, by woods, on slopes. Targets fly the way a partridge, a duck or a pheasant would, or roll like a hare. Each {{term:layout|layout}}, a group of stands, gives {{fact:targets.sporting-layout-targets}} (a double is two targets, so 10 more). The two targets of a {{term:double|double}} fly together or one after the other.",
+      "uk": "{{tm:sporting}} імітує полювання. {{term:shooting-stand|Стрілецькі місця}} розставлені на природній місцевості: у полі, біля лісу, на схилах. Мішені летять так, як летіли б куріпка, качка чи фазан, або котяться, як заєць. Кожен {{term:layout|майданчик}} (layout), тобто група стрілецьких місць, дає {{fact:targets.sporting-layout-targets}} (дуплет — це дві мішені, тобто ще 10). Дві мішені {{term:double|дуплета}} летять одночасно або одна за одною."
+    },
+    {
+      "k": "intro-disciplines-p2",
+      "t": "p",
+      "disc": "compak",
+      "en": "{{tm:compak}} is the compact version. Everything happens on one field with {{fact:basics.compak-field}}. The shooter moves through all five stations and shoots 5 targets at each, 25 per {{term:round|round}}. A Compak field needs little space, so it is easy for a club to build one.",
+      "uk": "{{tm:compak}} — компактна версія. Усе відбувається на одному полі, де є {{fact:basics.compak-field}}. Стрілець проходить усі п’ять номерів і на кожному стріляє 5 мішеней — 25 за {{term:round|раунд}}. Поле Compak займає мало місця, тож клубові нескладно його облаштувати."
+    },
+    {
+      "k": "intro-disciplines-cmp",
+      "t": "compare",
+      "disc": "both",
+      "en": "How a round feels",
+      "uk": "Як проходить раунд",
+      "sporting": {
+        "en": "You walk a course from stand to stand, and each stand has its own targets. A double can be {{term:double-on-report|on report}}, where your first shot releases the second target, or {{term:simultaneous-double|simultaneous}}, where both fly at once. A {{term:rafale-double|rafale}} is two targets from the same trap, one right after the other.",
+        "uk": "Ви йдете маршрутом від одного стрілецького місця до іншого, і на кожному — свої мішені. Дуплет буває {{term:double-on-report|на постріл}}, коли друга мішень вилітає на звук вашого першого пострілу. Він буває й {{term:simultaneous-double|одночасним}}, коли обидві мішені летять разом. {{term:rafale-double|Рафаль}} — це дві мішені з однієї машинки, одна одразу за одною."
+      },
+      "compak": {
+        "en": "You stay on one field and, after each turn, move one station to the right. A double is {{term:double-on-report|on report}}, where your first shot releases the second target, or {{term:simultaneous-double|simultaneous}}, where both fly at once.",
+        "uk": "Ви залишаєтеся на одному полі й після кожної своєї черги переходите на номер праворуч. Дуплет буває {{term:double-on-report|на постріл}}, коли друга мішень вилітає на звук вашого першого пострілу, або {{term:simultaneous-double|одночасним}}, коли обидві мішені летять разом."
+      }
+    },
+    {
+      "k": "intro-disciplines-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "International competitions in both disciplines are usually {{fact:basics.international-targets}}. In both, you may fire two shots at a {{term:single-target|single target}}: if the first shot misses, the second can still break it.",
+      "uk": "Міжнародні змагання з обох дисциплін зазвичай складаються з {{fact:basics.international-targets}}. В обох дисциплінах по {{term:single-target|одиночній мішені}} можна зробити два постріли: якщо перший не влучив, другий ще може її розбити."
+    },
+    {
+      "k": "intro-disciplines-p4",
+      "t": "p",
+      "en": "Trap is a different family of disciplines. The shooter stands at one of five stations in a row, and targets fly away out of a trench (a sunken pit in front of the stations) at changing angles. The shooter does not know exactly where the next target will go. In {{term:olympic-trap|Olympic Trap}}, two shots may be fired at each target.",
+      "uk": "Trap — інша група дисциплін. Стрілець стоїть на одному з п’яти місць у ряд, а мішені вилітають від нього з траншеї (заглибленої ями перед цими місцями) під різними кутами. Стрілець не знає заздалегідь, куди саме полетить наступна мішень. В {{term:olympic-trap|олімпійському трапі}} (Olympic Trap) по кожній мішені можна зробити два постріли."
+    },
+    {
+      "k": "intro-disciplines-p5",
+      "t": "p",
+      "en": "In {{term:skeet|Skeet}} the targets come from two houses (small buildings that hold the traps) facing each other, a high one and a low one. The shooter moves between stations on a half-circle between the houses, plus one in the middle. The trajectories do not change, so precise, well-drilled technique matters a lot.",
+      "uk": "У {{term:skeet|скиті}} (Skeet) мішені вилітають із двох будиночків (невеликих споруд, де стоять машинки) один навпроти одного: високого й низького. Стрілець переходить між стрілецькими місцями, розташованими півколом між будиночками, і ще одним посередині. Траєкторії не змінюються, тому тут дуже важлива точна, відпрацьована техніка."
+    },
+    {
+      "k": "intro-disciplines-p6",
+      "t": "p",
+      "en": "Olympic Trap and Skeet are on the Olympic programme and belong to another international federation, ISSF. But {{term:fitasc|FITASC}} also has trap and skeet disciplines of its own, such as Universal Trench and Universal Skeet. The ClayArena Academy is mostly about {{tm:sporting}} and {{tm:compak}}. The basics are shared by all disciplines: safety, the {{term:gun-mount|gun mount}} (bringing the gun to cheek and shoulder) and reading the target.",
+      "uk": "Olympic Trap і Skeet входять до програми Олімпійських ігор і належать іншій міжнародній федерації — ISSF. Але й {{term:fitasc|FITASC}} має власні дисципліни типу трапу й скиту, як-от Universal Trench і Universal Skeet. Академія ClayArena здебільшого про {{tm:sporting}} і {{tm:compak}}. Основи спільні для всіх дисциплін: безпека, {{term:gun-mount|вкладка}} (рух, яким рушницю підносять до щоки й плеча) і вміння «прочитати» мішень."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "intro-disciplines-kp1",
+      "en": "{{tm:sporting}}: a course over natural ground; each layout gives {{fact:rules.round-targets}}.",
+      "uk": "{{tm:sporting}} — маршрут природною місцевістю; кожен майданчик дає {{fact:rules.round-targets}}."
+    },
+    {
+      "k": "intro-disciplines-kp2",
+      "en": "{{tm:compak}}: one field with {{fact:basics.compak-field}}.",
+      "uk": "{{tm:compak}} — одне поле, на якому {{fact:basics.compak-field}}."
+    },
+    {
+      "k": "intro-disciplines-kp3",
+      "en": "An international competition is usually {{fact:basics.international-targets}}; you may fire twice at a single target.",
+      "uk": "Міжнародне змагання — зазвичай {{fact:basics.international-targets}}; по одиночній мішені можна стріляти двічі."
+    },
+    {
+      "k": "intro-disciplines-kp4",
+      "en": "In Trap targets fly away from the shooter; in Skeet they cross between two houses.",
+      "uk": "У Trap мішені летять від стрільця; у Skeet вони перетинають поле між двома будиночками."
+    }
+  ],
+  "did_you_know": {
+    "k": "intro-disciplines-dyk",
+    "en": "{{tm:compak}} was {{fact:community.compak-created}}.",
+    "uk": "Дисципліну {{tm:compak}} {{fact:community.compak-created}}."
+  },
+  "quiz": [
+    {
+      "k": "intro-disciplines-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "How many targets does one {{tm:sporting}} layout give?",
+        "uk": "Скільки мішеней дає один майданчик (layout) у {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "10",
+          "uk": "10"
+        },
+        {
+          "k": "b",
+          "en": "25",
+          "uk": "25"
+        },
+        {
+          "k": "c",
+          "en": "50",
+          "uk": "50"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Each layout gives {{fact:targets.sporting-layout-targets}} (a double is two targets, so 10 more).",
+        "uk": "Кожен майданчик дає {{fact:targets.sporting-layout-targets}} (дуплет — це дві мішені, тобто ще 10)."
+      }
+    },
+    {
+      "k": "intro-disciplines-q2",
+      "disc": "compak",
+      "q": {
+        "en": "How many traps are there on one Compak field?",
+        "uk": "Скільки машинок на одному полі Compak?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Six, lettered A to F",
+          "uk": "Шість, з літерами від A до F"
+        },
+        {
+          "k": "b",
+          "en": "Two, a high and a low one",
+          "uk": "Дві: висока й низька"
+        },
+        {
+          "k": "c",
+          "en": "Fifteen, in a trench",
+          "uk": "П’ятнадцять, у траншеї"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A {{tm:compak}} field has {{fact:basics.compak-field}}.",
+        "uk": "На полі {{tm:compak}} є {{fact:basics.compak-field}}."
+      }
+    },
+    {
+      "k": "intro-disciplines-q3",
+      "q": {
+        "en": "In which discipline do targets come from two houses, a high one and a low one?",
+        "uk": "У якій дисципліні мішені вилітають із двох будиночків — високого й низького?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Trap",
+          "uk": "Trap"
+        },
+        {
+          "k": "b",
+          "en": "{{tm:sporting}}",
+          "uk": "{{tm:sporting}}"
+        },
+        {
+          "k": "c",
+          "en": "Skeet",
+          "uk": "Skeet"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Skeet has a high house and a low house, with the stations on a half-circle between them.",
+        "uk": "Саме в Skeet є високий і низький будиночки, а стрілецькі місця стоять півколом між ними."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "intro-disciplines-q-second-shot",
+      "disc": "both",
+      "q": {
+        "en": "Your first shot misses a single target. What does the rule allow?",
+        "uk": "Першим пострілом ви не влучили в одиночну мішень. Що дозволяють правила?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The referee repeats the target",
+          "uk": "Суддя повторює мішень"
+        },
+        {
+          "k": "b",
+          "en": "You must open the gun at once",
+          "uk": "Ви мусите одразу відкрити рушницю"
+        },
+        {
+          "k": "c",
+          "en": "You may fire the second barrel",
+          "uk": "Ви можете вистрілити з другого ствола"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:sporting}} and {{tm:compak}} a single target must allow two shots, so a miss with the first can still be followed by the second.",
+        "uk": "У {{tm:sporting}} і {{tm:compak}} по одиночній мішені має бути час на два постріли, тож після промаху першим можна стріляти другим."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "dac19506",
+    "summary": "58295a84",
+    "intro-disciplines-p1": "79e1fd27",
+    "intro-disciplines-p2": "bad18039",
+    "intro-disciplines-cmp": "1ddbb76f",
+    "intro-disciplines-p3": "f274bc4d",
+    "intro-disciplines-p4": "072bf2ee",
+    "intro-disciplines-p5": "c1fef81a",
+    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-kp1": "b3f7bab6",
+    "intro-disciplines-kp2": "634ce41c",
+    "intro-disciplines-kp3": "fec76055",
+    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-dyk": "0aa60887",
+    "intro-disciplines-q1": "f150b65a",
+    "intro-disciplines-q2": "40032e9f",
+    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q-second-shot": "ecd0ab34"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

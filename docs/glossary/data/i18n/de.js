@@ -303,7 +303,7 @@ window.GLOSSARY_I18N.de = {
   "double": {
    "term_local": "Doublette",
    "short": "Zwei Scheiben, die gleichzeitig oder nacheinander geworfen und als eine Einheit beschossen werden.",
-   "long": "Es gibt drei Arten von Doubletten: auf Schuss, simultan und, nur im Sporting, Rafale. Im Sporting hat der Schütze für eine Doublette zwei Patronen und darf beide auf dieselbe Scheibe abgeben; zwischen der ersten und zweiten Scheibe ist die Flintenhaltung frei. Im Compak darf auf jede Scheibe einer Doublette nur eine Patrone abgegeben werden, und auf einem Compak muss der Doublettentyp an allen 5 Positionen gleich sein; die erste Scheibe jeder Doublette ist die letzte Scheibe der vorherigen Position. Zerbricht ein Schuss beide Scheiben, wertet Sporting einen und einen Treffer, während Compak die Doublette wiederholt.",
+   "long": "Es gibt drei Arten von Doubletten: auf Schuss, simultan und, nur im Sporting, Rafale. Im Sporting hat der Schütze für eine Doublette zwei Patronen und darf beide auf dieselbe Scheibe abgeben; zwischen der ersten und zweiten Scheibe ist die Flintenhaltung frei. Im Compak darf auf jede Scheibe einer Doublette nur eine Patrone abgegeben werden, und auf einem Compak muss der Doublettentyp an allen 5 Positionen gleich sein; die erste Scheibe jeder Doublette ist die letzte Scheibe der vorherigen Position. Zerbricht ein Schuss beide Scheiben, wertet Sporting einen und einen Treffer. Im Compak zählen sie nicht als zwei Treffer: Bei einer Doublette auf Schuss bleibt das erste Ergebnis bestehen, und die Doublette wird für die zweite Scheibe wiederholt; bei einer Simultandoublette ist es ein No Bird, die Doublette wird wiederholt, und beim dritten Mal wird sie als Null-Null gewertet.",
    "disciplines": {
     "sporting": "5 Doubletten pro Layout, nur aus Scheiben, die von diesem Stand bereits als Einzelscheiben geschossen wurden; beide Patronen dürfen auf eine Scheibe gehen.",
     "compak": "Eine Patrone pro Scheibe; wer absichtlich beide Schüsse auf eine Scheibe abgibt, erhält Null-Null."
@@ -389,10 +389,10 @@ window.GLOSSARY_I18N.de = {
   "target-presentation": {
    "term_local": "Vorwerfen der Scheiben",
    "short": "Das Zeigen der Scheiben eines Standes oder einer Position an die Schützen vor dem Schießen.",
-   "long": "Im Sporting werden alle Flugbahnen eines Standes dem ersten Schützen der Rotte gezeigt, der schussbereit auf dem Stand stehen muss; auf Wunsch kann jede Scheibe bis zu 2 Mal erneut gezeigt werden. Doubletten auf Schuss werden nicht gezeigt; Simultan- und Rafale-Doubletten schon, mit bis zu 2 Wiederholungen. Im Compak in der Rotte werden die Scheiben nur einmal morgens der ersten Rotte gezeigt; in Linie wird die erste Scheibe jeder Doublette jedem neuen Schützen an Position 1 gezeigt. Während jeder Vorführung sind die Flinten geöffnet und entladen, und Schießen oder Scheinanschläge sind verboten. Nach einer Unterbrechung von mehr als 10 Minuten werden die Scheiben erneut gezeigt.",
+   "long": "Im Sporting™ werden alle Flugbahnen eines Standes dem ersten Schützen der Rotte gezeigt, der schussbereit auf dem Stand stehen muss; auf Wunsch kann jede Scheibe bis zu 2 Mal erneut gezeigt werden. Doubletten auf Schuss werden nicht gezeigt; Simultan- und Rafale-Doubletten schon, mit bis zu 2 Wiederholungen. Während des Vorwerfens darf niemand schießen oder Scheinanschläge machen, und nach einem Maschinenausfall oder einer Unterbrechung von mehr als 10 Minuten werden die Scheiben des Standes erneut gezeigt. Im Compak® Sporting in der Rotte sieht die erste Rotte des Tages die Scheiben einmal, früh am Morgen: Einzelscheiben A bis F, dann die Simultandoubletten der Positionen 1 bis 5; nach einer Pause von mehr als 10 Minuten werden die sechs Einzelscheiben erneut gezeigt. In Linie sieht jeder neue Schütze an Position 1 die erste Scheibe seiner Doublette. In beiden Disziplinen bleiben die Flinten während des Vorwerfens geöffnet und entladen und werden nur mit Erlaubnis des Schiedsrichters geschlossen. Im Compak® Sporting sind Scheinanschläge außerhalb der Schießpositionen und während ein anderes Rottenmitglied schießt nicht erlaubt.",
    "disciplines": {
-    "sporting": "An jedem Stand dem ersten Schützen der Rotte gezeigt; bis zu 2 Wiederholungen pro Scheibe.",
-    "compak": "In der Rotte: einmal morgens der ersten Rotte (Einzelscheiben A–F, dann Simultandoubletten); nach einer Unterbrechung von über 10 Minuten werden die 6 Einzelscheiben erneut gezeigt."
+    "sporting": "An jedem Stand dem ersten Schützen der Rotte gezeigt; bis zu 2 Wiederholungen pro Scheibe; während des Vorwerfens kein Schuss und kein Scheinanschlag.",
+    "compak": "In der Rotte: einmal, früh am Morgen, für die erste Rotte des Tages (Einzelscheiben A–F, dann Simultandoubletten); nach einer Unterbrechung von über 10 Minuten werden die 6 Einzelscheiben erneut gezeigt."
    },
    "alt": [
     "Vorwerfen",
@@ -977,7 +977,7 @@ window.GLOSSARY_I18N.de = {
   },
   "group": {
    "term_local": "Gruppe (in Linie)",
-   "short": "Bei Compak in Linie die einem Compak zugeteilten Schützen: Gesamtmeldungen geteilt durch die Zahl der Compaks.",
+   "short": "Bei Compak® Sporting in Linie: die einer Anlage zugeteilten Schützen; Gesamtmeldungen geteilt durch die Zahl der Anlagen.",
    "long": "Bei Compak in Linie ergibt sich die Gruppengröße aus der Gesamtzahl der Schützen geteilt durch die Zahl der genutzten Compaks. Jeder Schütze der Gruppe beginnt an Position 1 und endet an Position 5. Eine Flinte darf nur von einem Schützen außerhalb der eigenen Gruppe geliehen werden, und mehrere Schützen derselben Gruppe dürfen sich keine Flinte teilen. Ein verspäteter Schütze, dessen Einspruch angenommen wird, darf die Serie mit einer anderen Gruppe schießen.",
    "disciplines": {
     "compak": "Nur Compak in Linie."
@@ -1034,7 +1034,7 @@ window.GLOSSARY_I18N.de = {
   },
   "countback": {
    "term_local": "Rückwärtszählung",
-   "short": "Rangierung bei Gleichstand durch Vergleich der Ergebnisse auf dem letzten Layout oder Compak, dann dem davor und so weiter.",
+   "short": "Rangierung bei Gleichstand durch Vergleich der Ergebnisse auf dem 8. Layout oder Compak, dann dem 7. und so weiter bis zum 1.",
    "long": "Unterhalb des dritten Platzes gibt es kein Stechen: Gleichauf liegende Schützen werden gleich platziert und durch Rückwärtszählen ihrer Ergebnisse vom 8. Layout (Compak) bis zum 1. gereiht. Gleichauf liegende Mannschaften werden nach dem gemeinsamen Ergebnis ihrer Mitglieder auf dem 8. Layout oder Compak gereiht; bei weiterem Gleichstand nach dem 7., 6. und so weiter bis zum 1. Ein Mannschaftsstechen gibt es nicht.",
    "alt": [
     "Rückwärtsvergleich"
@@ -1540,8 +1540,8 @@ window.GLOSSARY_I18N.de = {
   },
   "standard-target": {
    "term_local": "Standardscheibe",
-   "short": "Die gewöhnliche gewölbte Scheibe, etwa 110 mm Durchmesser, die häufigste Wurfscheibe.",
-   "long": "Die Standardscheibe ist eine gewölbte Scheibe von etwa 110 mm Durchmesser. Sie ist relativ schwer, hält daher lange ihre Geschwindigkeit und Linie, und ihr Verhalten ist am leichtesten vorherzusagen. Anfänger beginnen meist mit ihr. Im Sporting™ und Compak® Sporting wird die Standardscheibe mit Spezialscheiben gemischt: Midi, Mini, Battue, Rabbit, Rocket und weitere. Wirft eine Maschine eine Scheibe anderer Größe oder anderen Typs als auf dem Wurfplan, sagt der Schiedsrichter No Bird an.",
+   "short": "Die gewöhnliche gewölbte Scheibe, etwa 108–110 mm Durchmesser, die häufigste Wurfscheibe.",
+   "long": "Die Standardscheibe ist eine gewölbte Scheibe von etwa 108–110 mm Durchmesser. Ihr Flug ist relativ leicht zu lesen, daher beginnen Anfänger meist mit ihr; eine Midi von 90 mm hält ihre Geschwindigkeit besser. Im Sporting™ und Compak® Sporting wird die Standardscheibe mit Spezialscheiben wie Midi, Mini, Battue und Rollhase gemischt; die Liste des Compak® Sporting nennt außerdem die Rocket. Im Sporting™ ist eine Scheibe anderer Farbe, Größe oder Art als auf dem Wurfplan ein No Bird; im Compak® Sporting ist eine Scheibe falscher Farbe ein No Bird.",
    "alt": [
     "Standardwurfscheibe",
     "Standardtaube"
@@ -1551,8 +1551,8 @@ window.GLOSSARY_I18N.de = {
   },
   "rocket-target": {
    "term_local": "Rocket",
-   "short": "Eine Scheibe mit besonderem Profil, die ihre Geschwindigkeit und Linie länger hält als eine Standardscheibe.",
-   "long": "Eine Rocket sieht aus wie eine Standardscheibe, hat aber ein anderes, stromlinienförmigeres Profil. Dadurch bremst sie in der Luft allmählicher ab und fliegt länger gerade, sodass sie sich im hinteren Teil der Flugbahn schneller bewegt, als das Auge erwartet. Anfänger schießen oft hinter ihr vorbei, weil sie sie wie eine normale Scheibe einschätzen. Die Regeln für Compak® Sporting nennen die Rocket unter den zugelassenen Scheiben, die Sporting™-Liste erwähnt sie nicht gesondert. In der Praxis hängen Form und Name vom Scheibenhersteller ab.",
+   "short": "Eine Spezialscheibe, die in der Scheibenliste des Compak® Sporting genannt wird; ihre genaue Form und ihr Flug hängen vom Hersteller ab.",
+   "long": "Die Rocket ist eine der Spezialscheiben, die die Regeln des Compak® Sporting unter den zugelassenen Scheiben nennen; die Liste des Sporting™ nennt sie nicht gesondert. Eine gemeinsame Spezifikation gibt es nicht, daher hängen ihre Form und ihr Flug vom Scheibenhersteller ab. Wie bei jeder Spezialscheibe sollte man sie beim Vorwerfen genau beobachten und nicht annehmen, dass sie wie eine Standardscheibe fliegt.",
    "disciplines": {
     "sporting": "In der Sporting-Scheibenliste nicht gesondert genannt.",
     "compak": "Ausdrücklich unter den Spezialscheiben zugelassen."
@@ -1656,7 +1656,7 @@ window.GLOSSARY_I18N.de = {
   "looper": {
    "term_local": "Looper",
    "short": "Eine Scheibe, die einen Bogen durch die Luft fliegt und die Richtung ändert.",
-   "long": "Ein Looper fliegt einen weiten Bogen: Er steigt, kippt über den Scheitelpunkt und fällt, während er sich seitlich bewegt. Für solche Flugbahnen werden oft Battue-Scheiben verwendet, die sich im Flug drehen und erst die Kante, dann die Fläche zeigen. Die Hauptschwierigkeit ist der ständige Wechsel von Richtung und Geschwindigkeit, daher müssen die Läufe der Kurve folgen, statt sie abzuschneiden. Viele Schützen nehmen einen Looper nahe dem Scheitelpunkt, wo er sich am langsamsten bewegt. Die Namen sind von Land zu Land verschieden: Eine Chandelle ist eine andere, steilere Flugbahn, und im Französischen heißt „chandelle“ oft eine fast senkrecht steigende Scheibe (Teal). Die Vorführung genau beobachten und einen Treffpunkt wählen.",
+   "long": "Ein Looper fliegt einen weiten Bogen: Er steigt, kippt über den Scheitelpunkt und fällt, während er sich seitlich bewegt. Meist ist es eine Standardscheibe; manche Parcoursbauer werfen auf einer solchen Linie auch eine Battue, die dann beim Drehen ihre Fläche zeigt. Die Hauptschwierigkeit ist der ständige Wechsel von Richtung und Geschwindigkeit, daher folgen die Läufe der Kurve, vor und unter der Scheibe, statt sie abzuschneiden. Viele Schützen nehmen einen Looper nahe dem Scheitelpunkt, wo er sich am langsamsten bewegt. Die Namen sind von Land zu Land verschieden: Eine Chandelle ist eine andere, steilere Flugbahn, und im Französischen heißt „chandelle“ oft eine fast senkrecht steigende Scheibe (Teal). Die Vorführung genau beobachten und einen Treffpunkt wählen.",
    "alt": [
     "Bogentaube"
    ],
@@ -1677,7 +1677,7 @@ window.GLOSSARY_I18N.de = {
   "lead": {
    "term_local": "Vorhalt",
    "short": "Der Abstand, um den der Schütze vor die Scheibe zielt, damit der Schrot sie trifft.",
-   "long": "Während der Schrot zur Scheibe fliegt, bewegt sich die Scheibe weiter, daher muss die Flinte im Moment des Schusses vor ihr sein. Dieser Abstand ist der Vorhalt. Er hängt von Geschwindigkeit, Entfernung und Flugwinkel der Scheibe ab: Weite kreuzende Scheiben brauchen den meisten Vorhalt, gerade gehende fast keinen. Wie ein Schütze den Vorhalt wahrnimmt, ist subjektiv, daher beschreiben ihn verschiedene Menschen unterschiedlich. Es gibt mehrere Vorhaltemethoden, Maintained Lead (mitgehender Vorhalt), Pull-Away und Swing-Through, und ein Trainer hilft bei der Wahl der eigenen.",
+   "long": "Während der Schrot zur Scheibe fliegt, bewegt sich die Scheibe weiter, daher muss die Flinte im Moment des Schusses vor ihr sein. Dieser Abstand ist der Vorhalt. Er hängt von Geschwindigkeit, Entfernung und Flugwinkel der Scheibe ab: Weite kreuzende Scheiben brauchen den meisten Vorhalt, gerade gehende fast keinen. Wie ein Schütze den Vorhalt wahrnimmt, ist subjektiv, daher beschreiben ihn verschiedene Menschen unterschiedlich. Es gibt mehrere Vorhaltemethoden, Maintained Lead (mitgehender Vorhalt), Pull-Away, Swing-Through und Ambush, und ein Trainer hilft bei der Wahl der eigenen.",
    "alt": [
     "Vorhaltemaß"
    ],
@@ -1768,8 +1768,8 @@ window.GLOSSARY_I18N.de = {
   },
   "maintained-lead": {
    "term_local": "Maintained Lead",
-   "short": "Eine Vorhaltemethode, bei der sich die Läufe die ganze Zeit mit der Geschwindigkeit der Scheibe vor ihr bewegen.",
-   "long": "Beim mitgehenden Vorhalt setzt der Schütze die Läufe sofort vor die Scheibe und bewegt sie mit derselben Geschwindigkeit, hält den nötigen Vorhalt und schießt. Das funktioniert gut auf weite, vorhersehbare Scheiben, weil es Zeit gibt, den Vorhalt zu lesen. Die Schwierigkeit: Das Auge muss auf der Scheibe bleiben, nicht auf den Läufen, sonst stoppt die Bewegung. Anfänger finden die Methode manchmal einfach, sie erfordert aber ein gutes Gefühl für Geschwindigkeit. Ein Trainer schlägt vor, für welche Scheiben sie bei einem passt.",
+   "short": "Eine Vorhaltemethode, bei der die Läufe vor der Scheibe bleiben und sich im Moment des Schusses mit ihrer Geschwindigkeit bewegen, sodass der Abstand gleich bleibt.",
+   "long": "Beim mitgehenden Vorhalt kommen die Mündungen vor der Scheibe auf ihre Linie, nicht dahinter. Zuerst bewegen sie sich etwas langsamer als die Scheibe, sodass sie aufholt, bis der Abstand passt; dann bewegen sich die Läufe mit der Geschwindigkeit der Scheibe, der Abstand bleibt gleich, und der Schuss fällt, während sich die Flinte noch bewegt. Das passt oft zu weiten, vorhersehbaren Scheiben wie weiten Querreitern, weil man Zeit hat, den Vorhalt zu lesen. Der typische Fehler ist das Abmessen des Abstands: Das Auge wandert zu den Läufen, und die Flinte wird langsamer oder bleibt stehen. Die Methode gilt oft als die am schwersten zu erlernende; fragen Sie daher einen Trainer, für welche Scheiben sie bei Ihnen passt.",
    "alt": [
     "konstanter Vorhalt",
     "Sustained Lead"
@@ -1861,14 +1861,14 @@ window.GLOSSARY_I18N.de = {
   "warm-up": {
    "term_local": "Aufwärmen",
    "short": "Vorbereitung vor dem Schießen: Bewegung und einige leichte Scheiben.",
-   "long": "Das Aufwärmen bereitet Körper und Augen auf das Schießen vor. Einige Minuten Bewegung für Nacken, Schultern, Rücken und Hüften senken das Verletzungsrisiko und machen die Flintenbewegung flüssiger. Wenn die Anlage es erlaubt, eine Einheit mit einigen leichten Scheiben beginnen, um Rhythmus und Selbstvertrauen zu finden, bevor man zu schweren übergeht. Vor einem Wettkampf hängen die Regeln von der Disziplin ab. Im Sporting™ darf niemand auf den Wettkampf-Parcours trainieren, daher auf anderen Ständen aufwärmen. Im Compak® Sporting ist Training auf den Wettkampfflugbahnen erlaubt, aber mit anderen Einstelltabellen; bei Kontinental- und Weltmeisterschaften beginnt das offizielle Training erst am Samstag vor dem Start. Trockenanschläge nur dort, wo das erlaubt ist, mit entladener, geprüfter Flinte."
+   "long": "Das Aufwärmen weckt Körper und Augen für das Schießen. Viele Trainer empfehlen etwa 10–15 Minuten leichte, dynamische Bewegung für Nacken, Schultern, Rücken, Hüften und Sprunggelenke, damit sich die Flinte flüssiger bewegt; zum Aufwärmen im Wurfscheibenschießen gibt es wenig Forschung, diese Hinweise stammen aus der Erfahrung von Trainern. Wenn die Anlage es erlaubt, kann man eine Einheit mit einigen leichten Scheiben beginnen, um den Rhythmus zu finden, bevor man zu schweren übergeht. Vor einem Wettkampf hängen die Regeln von der Disziplin ab. Im Sporting™ darf niemand auf den Wettkampf-Layouts trainieren, daher wird auf anderen Layouts eingeschossen. Im Compak® Sporting ist Training auf den Wettkampfflugbahnen erlaubt, aber mit anderen Einstelltabellen; bei Kontinental- und Weltmeisterschaften beginnt das offizielle Training erst am Samstag vor dem Start. Im Wettkampf empfehlen viele Trainer, sich ohne Flinte aufzuwärmen; Trockentraining gehört nach Hause oder ins Training, wo es erlaubt ist."
   },
   "dry-mounting": {
    "term_local": "Trockentraining",
    "short": "Den Anschlag ohne Schuss üben, mit entladener, geprüfter Flinte, wo das Gesetz es erlaubt.",
-   "long": "Trockenanschläge gehören zu den nützlichsten Trainingsformen für zu Hause: Einige Minuten täglich machen die Bewegung konstant. Vor Beginn sicherstellen, dass die Flinte entladen ist und keine Patronen im Raum sind, und die Mündung in eine sichere Richtung halten. Viele Schützen verwenden Pufferpatronen (Exerzierpatronen), um den Mechanismus beim Trockenabschlagen zu schonen. Auf der Anlage sind die Regeln strenger: Scheinanschläge außerhalb der Schießposition sind verboten, und im Sporting™ bringt Anschlagen und Mitschwingen entlang der gedachten Linie einer Scheibe vor dem Abruf eine Verwarnung. Das örtliche Recht zum Umgang mit Waffen zu Hause prüfen.",
+   "long": "Trockentraining heißt, den Anschlag mit entladener, geprüfter Flinte ohne Schuss zu üben. Viele Trainer empfehlen einige Minuten zu Hause, wo das Gesetz es erlaubt, damit die Bewegung vertraut wird. Vor Beginn sicherstellen, dass die Flinte entladen ist und keine Patronen im Raum sind, und die Mündungen in eine sichere Richtung halten. Wer bei leerer Flinte abzieht, verwendet Pufferpatronen (Exerzierpatronen), um die Schlagbolzen zu schonen, wie ein Trainer oder Büchsenmacher empfiehlt. Auf der Anlage hängen die Regeln von der Disziplin ab. Im Sporting™ sind Scheinanschläge (Anschlagen und Mitschwingen entlang der Linie einer Scheibe) während eines Wettkampfs nirgends auf der Anlage erlaubt. Im Compak® Sporting sind sie außerhalb der Schießpositionen und während ein anderes Rottenmitglied schießt nicht erlaubt. Das örtliche Recht zum Umgang mit Waffen zu Hause prüfen.",
    "disciplines": {
-    "sporting": "Scheinanschläge sind auf und neben den Ständen verboten; Verwarnung vor dem Abruf, Wiederholungen werden bestraft.",
+    "sporting": "Scheinanschläge sind nirgends auf der Anlage erlaubt: zuerst eine Verwarnung, danach zählt jede Wiederholung als Null bei der nächsten getroffenen Scheibe.",
     "compak": "Scheinanschläge sind außerhalb der Schießpositionen und während ein Rottenmitglied schießt verboten."
    },
    "alt": [
@@ -2094,7 +2094,7 @@ window.GLOSSARY_I18N.de = {
   "shooter-profile": {
    "term_local": "Schützenprofil",
    "short": "Die Seite eines Schützen auf ClayArena mit seinen Wettkämpfen und wichtigen Kennzahlen.",
-   "long": "Ein Schützenprofil bündelt die Wettkämpfe im Sporting™ und Compak® Sporting, deren Ergebnisse auf ClayArena stehen, und zeigt wichtige Kennzahlen wie Trefferquote und Bestergebnis. Man erreicht es über die Ergebnistabelle eines Wettkampfs oder findet es über die Namenssuche. Namen auf der Website werden in lateinischen Buchstaben geschrieben, wie in den Wettkampfunterlagen; lässt sich ein Nachname unterschiedlich transliterieren, mehrere Schreibweisen ausprobieren. Die Daten stammen aus den Schießzetteln der Wettkämpfe; prüfen Sie Ihren Schießzettel deshalb schon auf der Anlage: Im Profil steht, was der Schiedsrichter notiert hat. Ein Profil eignet sich gut, um sich über eine Saison mit sich selbst zu vergleichen."
+   "long": "Ein Schützenprofil bündelt die Wettkämpfe im Sporting™ und Compak® Sporting, deren Ergebnisse auf ClayArena stehen, und zeigt wichtige Kennzahlen wie Trefferquote und Bestergebnis. Man erreicht es über die Ergebnistabelle eines Wettkampfs oder findet es über die Namenssuche. Namen werden wie in den Wettkampfunterlagen geschrieben: Bei internationalen Wettkämpfen meist in lateinischen Buchstaben, bei nationalen Wettkämpfen auch im örtlichen Alphabet, zum Beispiel in kyrillischen Buchstaben bei ukrainischen Wettkämpfen. Wer sich nicht findet, probiert die örtliche Schreibweise und verschiedene lateinische Schreibweisen seines Namens. Die Daten stammen aus den Schießzetteln der Wettkämpfe; prüfen Sie Ihren Schießzettel deshalb schon auf der Anlage: Im Profil steht, was der Schiedsrichter notiert hat. Ein Profil eignet sich gut, um sich über eine Saison mit sich selbst zu vergleichen."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2113,8 +2113,8 @@ window.GLOSSARY_I18N.de = {
   },
   "top-10-rate": {
    "term_local": "Top-10-Quote",
-   "short": "Wie oft ein Schütze unter den ersten zehn landet.",
-   "long": "Dieser Wert im ClayArena-Profil zeigt den Anteil der Wettkämpfe, in denen ein Schütze unter die ersten zehn kam. Er hängt nicht nur vom Ergebnis ab, sondern auch vom Teilnehmerfeld: Eine Top-10-Platzierung bei einem großen internationalen Wettkampf ist viel schwerer als bei einem Vereinsschießen. Daher zusammen mit der Liste der Wettkämpfe lesen, an denen der Schütze teilgenommen hat. Er zeigt die Konstanz erfahrener Schützen gut, für Anfänger ist es aber nützlicher, die eigene Trefferquote zu beobachten."
+   "short": "Wie oft ein Schütze unter den ersten zehn seiner Klasse oder der Gesamtwertung landet.",
+   "long": "Dieser Wert im ClayArena-Profil zeigt den Anteil der Wettkämpfe, in denen ein Schütze unter die ersten zehn kam, in seiner Klasse oder in der Gesamtwertung. Er hängt nicht nur vom Ergebnis ab, sondern auch vom Teilnehmerfeld: Eine Top-10-Platzierung bei einem großen internationalen Wettkampf ist viel schwerer als bei einem Vereinsschießen, und in einer kleinen Klasse mit nur wenigen Schützen sind die ersten zehn leichter zu erreichen. Daher zusammen mit der Liste der Wettkämpfe lesen, an denen der Schütze teilgenommen hat. Er zeigt die Konstanz erfahrener Schützen gut, für Anfänger ist es aber nützlicher, die eigene Trefferquote zu beobachten."
   },
   "performance-index": {
    "term_local": "Leistungsindex",
@@ -2148,13 +2148,13 @@ window.GLOSSARY_I18N.de = {
   },
   "european-firearms-pass": {
    "term_local": "Europäischer Feuerwaffenpass",
-   "short": "Ein Dokument, das ein EU-Land in ihm ansässigen Waffenbesitzern für Reisen mit ihren Waffen in andere EU-Länder ausstellt; gültig bis zu fünf Jahre.",
-   "long": "Der Europäische Feuerwaffenpass (EFP) wird von einer Behörde des EU-Landes ausgestellt, in dem der Waffenbesitzer wohnt, und gilt meist bis zu fünf Jahre. Darin sind bestimmte Waffen eingetragen, daher vor der Reise prüfen, dass die mitgenommene Flinte aufgeführt ist und der Pass unterwegs nicht abläuft. Sportschützen mit EFP und einem Nachweis des Reisezwecks, meist einem Einladungsschreiben des Veranstalters, können in der Regel ohne gesonderte Vorab-Erlaubnis eine Flinte in ein anderes EU-Land mitnehmen. Länder können dennoch eigene Ausnahmen haben, und der EFP setzt örtliche Regeln zu Führen, Aufbewahrung und Patronenkauf nicht außer Kraft. Einwohnern von Nicht-EU-Ländern wird er nicht ausgestellt; die aktuellen Regeln der Ziel- und Transitländer prüfen."
+   "short": "Ein Dokument, das ein EU-Land oder die Schweiz, Norwegen, Island oder Liechtenstein dort ansässigen Waffenbesitzern für Reisen mit der eigenen Waffe innerhalb dieses Raums ausstellt; gültig bis zu fünf Jahre.",
+   "long": "Der Europäische Feuerwaffenpass (EFP) wird von der Waffenbehörde des Landes ausgestellt, in dem der Besitzer wohnt, und gilt meist bis zu fünf Jahre. Außer den EU-Ländern stellen ihn auch die Schweiz, Norwegen, Island und Liechtenstein, die dieselben EU-Waffenregeln anwenden, ihren Einwohnern aus; Einwohner anderer Länder können ihn nicht bekommen. Darin sind bestimmte Waffen eingetragen, daher vor der Reise prüfen, dass die mitgenommene Flinte aufgeführt ist und der Pass unterwegs nicht abläuft. Sportschützen mit EFP und einem Nachweis des Reisezwecks, meist einem Einladungsschreiben des Veranstalters, können ihre Flinte in der Regel ohne gesonderte Vorab-Erlaubnis in ein anderes dieser Länder mitnehmen. Länder können dennoch eigene Ausnahmen haben, und der EFP setzt örtliche Regeln zu Führen, Aufbewahrung und Patronenkauf nicht außer Kraft; die aktuellen Regeln der Ziel- und Transitländer prüfen."
   },
   "jet-lag": {
    "term_local": "Jetlag",
-   "short": "Gestörter Schlaf und verminderte Wachheit nach einem Flug über mehrere Zeitzonen; vergeht meist in einigen Tagen.",
-   "long": "Nach einem Flug über mehrere Zeitzonen passt die innere Uhr nicht zur Ortszeit: Man ist tagsüber müde, schläft nachts schwer, und Reaktion und Konzentration leiden. Das ist beim Schießen wichtig, denn Präzision und Konzentration lassen als Erstes nach. Daher wird für weit entfernte Wettkämpfe geraten, einige Tage früher anzureisen, sofort auf Ortszeit umzustellen, Zeit bei Tageslicht zu verbringen und Wasser zu trinken. Ein ClayAway-Tourprogramm (in Vorbereitung) wird die Zeiten in der Zeitzone des Veranstaltungsortes mit Angabe der Zone nennen, damit man den Zeitplan nicht verwechselt. Schlafmittel oder Medikamente mit einem Arzt besprechen."
+   "short": "Gestörter Schlaf und verminderte Wachheit nach einer schnellen Reise über mehrere Zeitzonen; er kann einige Tage bis eine Woche oder länger dauern, nach Flügen nach Osten etwa einen Tag pro Zeitzone.",
+   "long": "Nach einer schnellen Reise über mindestens drei Zeitzonen läuft die innere Uhr noch nach Heimatzeit: Schlaf, Appetit, Stimmung und Wachheit passen nicht zur Ortszeit, bis sie aufgeholt hat. Als grobe Faustregel gilt etwa ein Tag pro Zeitzone nach Flügen nach Osten und etwa ein halber Tag pro Zone nach Flügen nach Westen; Menschen sind verschieden. Tageslicht zur richtigen Tageszeit ist das wichtigste Signal, das die Uhr umstellt; leben Sie daher vom ersten Tag an nach Ortszeit und planen Sie nach einem langen Flug nach Osten einen freien, leichten Tag vor dem Schießen auf Wertung ein. Müdigkeit von der Reise selbst (Reisemüdigkeit) ist etwas anderes. Ein ClayAway-Tourprogramm (in Vorbereitung) wird die Zeiten in der Zeitzone des Veranstaltungsortes mit Angabe der Zone nennen. Schlafmittel, Melatonin oder andere Medikamente mit einem Arzt besprechen."
   },
   "invitation-letter": {
    "term_local": "Einladungsschreiben",
@@ -2194,7 +2194,7 @@ window.GLOSSARY_I18N.de = {
    "note": "Frankonia: 'mit verstellbaren Schaftrücken'.",
    "conf": "high",
    "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329",
-   "short": "Schaftrücken, dessen Höhe und Schränkung sich verstellen lassen."
+   "short": "Ein Schaftrücken, der sich anheben, absenken oder seitlich verschieben lässt, damit das Auge genau entlang der Schiene blickt."
   },
   "grip": {
    "term_local": "Pistolengriff",
@@ -2233,7 +2233,7 @@ window.GLOSSARY_I18N.de = {
     "Recoil Pad"
    ],
    "conf": "medium",
-   "short": "Gummikappe am Schaftende, die den Rückstoß dämpft."
+   "short": "Eine Gummi- oder Gelkappe am Schaftende, die den Rückstoß dämpft; sie verändert auch die Schaftlänge."
   },
   "chandelle": {
    "term_local": "chandelle",
@@ -2303,12 +2303,12 @@ window.GLOSSARY_I18N.de = {
   "soft-focus": {
    "term_local": "weicher Fokus (Soft Focus)",
    "conf": "low",
-   "short": "Entspannter, weiter Blick beim Warten am Aufnahmepunkt."
+   "short": "Ein entspannter, weiter Blick auf den Bereich, in dem die Scheibe erscheinen wird, während die Augen am Aufnahmepunkt warten, ohne auf Einzelheiten zu starren."
   },
   "hard-focus": {
    "term_local": "harter Fokus (Hard Focus)",
    "conf": "low",
-   "short": "Scharfer, konzentrierter Blick auf die Scheibe selbst, oft auf ihre Vorderkante."
+   "short": "Ein scharfer Blick auf die Scheibe selbst, oft auf ihre Vorderkante, vom Moment, in dem man sie klar sieht, bis zum Schuss."
   },
   "leading-edge": {
    "term_local": "Vorderkante",
@@ -2414,7 +2414,8 @@ window.GLOSSARY_I18N.de = {
   "overhead": {
    "term_local": "Überkopf-Scheibe",
    "conf": "low",
-   "short": "Scheibe, die direkt über den Kopf des Schützen fliegt, von hinten oder von vorn."
+   "short": "Eine Scheibe, die über den Kopf des Schützen fliegt; meist ist eine gemeint, die von hinten kommt und sich entfernt, während eine von vorn eine überfliegende Taube (Driven) ist.",
+   "long": "Eine Überkopf-Scheibe von hinten kommt über den Rücken und fliegt von einem weg. Man sieht sie spät, daher empfehlen viele Trainer, sich schon vor dem Abruf nach ihr umzusehen. Die Flinte in den Anschlag bringen, während die Scheibe über einen hinwegzieht, schießen, wenn die Mündungen ihre Vorderkante erreichen, und die Flinte nach dem Schuss weiterbewegen. Die Namen sind verschieden: Manche Trainer sagen „Overhead“ auch zu einer Scheibe von vorn, die dieses Glossar überfliegende Taube (Driven) nennt; im Zweifel nachfragen."
   },
   "bolting-rabbit": {
    "term_local": "flüchtender Hase",
@@ -2449,7 +2450,7 @@ window.GLOSSARY_I18N.de = {
   "interpreter": {
    "term_local": "Dolmetscher",
    "conf": "low",
-   "short": "Eine Person, die auf einer Reise zwischen Trainer, Schiedsrichter und Schützen dolmetscht und die Fachsprache des Schießens kennt."
+   "short": "Eine Person, die zwischen Trainer, Schiedsrichter und Schützen dolmetscht, etwa bei Trainingseinheiten und im Programm einer Reise, und die Fachsprache des Schießens kennt."
   },
   "chuchotage": {
    "term_local": "Flüsterdolmetschen (Chuchotage)",
@@ -2469,7 +2470,7 @@ window.GLOSSARY_I18N.de = {
   "smoked-it": {
    "term_local": "pulverisiert (Smoked it)",
    "conf": "low",
-   "short": "Trainerjargon für einen sauberen, zentralen Treffer, der die Scheibe zu Staub macht; nicht dasselbe wie „nur Staub oder Rauch“ in den Regeln, was als Fehler (Null) gilt."
+   "short": "Trainerjargon für einen Treffer, der die Scheibe zu Staub macht. Nach den Regeln ist eine ganz oder teilweise zu Staub zerfallene Scheibe ein Treffer; eine ganze Scheibe, die nur Staub oder Rauch abgibt, ohne sichtbares Stück, ist eine Null."
   },
   "peg": {
    "term_local": "Peg (Schießstelle)",
@@ -2484,7 +2485,7 @@ window.GLOSSARY_I18N.de = {
   "english-sporting": {
    "term_local": "English Sporting",
    "conf": "low",
-   "short": "Die britische Form des Sportings nach CPSA-Regeln, meist mit Doubletten und erlaubtem Voranschlag."
+   "short": "Die britische Form des Parcoursschießens, in England von der CPSA neben dem FITASC Sporting™ ausgerichtet; sie hat eigene Regeln: Doubletten sind häufig, und Schützen beginnen oft mit bereits angeschlagener Flinte."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2514,7 +2515,7 @@ window.GLOSSARY_I18N.de = {
   "ambush": {
    "term_local": "Ambush (Erwarten)",
    "conf": "low",
-   "short": "Methode, bei der die Mündungen an einem Punkt vor der Scheibe warten und der Schuss bricht, wenn die Scheibe ankommt, mit wenig oder ohne Schwung."
+   "short": "Eine Vorhaltemethode, bei der die Mündungen ruhig an einem Punkt vor der Scheibe warten und abgezogen wird, bevor die Scheibe ihn erreicht, sodass sie in den Schuss fliegt."
   },
   "instinctive-shooting": {
    "term_local": "instinktives Schießen",
@@ -2524,7 +2525,7 @@ window.GLOSSARY_I18N.de = {
   "national-federation": {
    "term_local": "nationaler Verband",
    "conf": "low",
-   "short": "Der Dachverband eines Landes für diesen Sport; Mitglied der FITASC, genehmigt nationale Parcours und zertifiziert Schiedsrichter."
+   "short": "Der Dachverband eines Landes für diesen Sport: Er vereint Vereine und Schützen, richtet nationale Wettkämpfe und Schiedsrichterlehrgänge aus und vertritt das Land in der FITASC."
   },
   "blazed-target": {
    "term_local": "orange Scheibe (Blaze)",
@@ -2540,6 +2541,351 @@ window.GLOSSARY_I18N.de = {
    "term_local": "manuelle Auslösung",
    "conf": "low",
    "short": "Auslösen einer Scheibe durch eine Person (Werfer oder Schiedsrichter) per Knopfdruck auf den Abruf des Schützen."
+  },
+  "anti-doping": {
+   "term_local": "Anti-Doping",
+   "alt": [
+    "Dopingkontrolle"
+   ],
+   "conf": "high",
+   "short": "Regeln und Kontrollen gegen verbotene Substanzen und Methoden im Sport; die internationalen Regeln und die jährliche Verbotsliste kommen von der Welt-Anti-Doping-Agentur (WADA).",
+   "long": "Bei Meisterschaften und großen Wettkämpfen kann ein Schütze zu einer Dopingkontrolle gebeten werden. Die WADA veröffentlicht jedes Jahr, meist um September, eine neue Verbotsliste, die ab dem 1. Januar gilt. Im Schießsport sind Betablocker jederzeit verboten. Stimulanzien und THC (Cannabis) sind im Wettkampf verboten, und der Wettkampfzeitraum beginnt um 23:59 Uhr am Tag vor dem Wettkampf. Auch ein vom Arzt verschriebenes Medikament kann verboten sein: Prüfen Sie es in Global DRO oder bei Ihrer nationalen Anti-Doping-Agentur und beantragen Sie, falls Sie es brauchen, rechtzeitig eine TUE. Nahrungsergänzungsmittel können verunreinigt sein; wählen Sie daher Produkte, deren Chargen ein unabhängiges Labor prüft. Dies ist keine medizinische Beratung: Sprechen Sie mit Ihrem Arzt."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "Medizinische Ausnahmegenehmigung (TUE)",
+   "alt": [
+    "TUE",
+    "ATZ"
+   ],
+   "conf": "high",
+   "short": "Offizielle Erlaubnis für einen Athleten, aus medizinischen Gründen ein sonst verbotenes Medikament zu verwenden; sie wird im Voraus beantragt.",
+   "long": "Ein Rezept allein genügt nicht: Eine verbotene Substanz bleibt verboten, auch wenn ein Arzt sie verschrieben hat. Ein Schütze, der ein solches Medikament braucht, etwa einen Betablocker gegen Bluthochdruck, Herzrhythmusstörungen oder Migräne, beantragt daher rechtzeitig eine TUE, meist bei der nationalen Anti-Doping-Agentur; der nationale Verband sagt, welche Stelle zuständig ist. Setzen Sie ein verschriebenes Medikament nicht selbst ab: Sprechen Sie lange vor dem Wettkampf mit Ihrem Arzt über eine erlaubte Alternative oder eine TUE. Dies ist keine medizinische Beratung."
+  },
+  "beta-blocker": {
+   "term_local": "Betablocker",
+   "conf": "high",
+   "short": "Ein Herzmedikament, das den Herzschlag verlangsamt und das Zittern verringert; nach der WADA-Liste ist es im Schießsport jederzeit verboten, im und außerhalb des Wettkampfs.",
+   "long": "Beispiele sind Propranolol, Atenolol, Bisoprolol und Metoprolol. In Präzisionssportarten sind sie verboten, weil ein langsamerer Herzschlag und weniger Zittern die Flinte ruhiger machen können. Die WADA-Liste nennt den Schießsport über den olympischen Verband (ISSF) und das Para-Schießen (IPC), nicht über die FITASC; behandeln Sie Betablocker trotzdem auch im Sporting™ und im Compak® Sporting als verboten: Nationale Anti-Doping-Agenturen können bei nationalen Wettkämpfen kontrollieren, Veranstalter können die WADA-Liste anwenden, und viele Schützen starten auch bei ISSF-Wettkämpfen. Hat Ihnen ein Arzt einen Betablocker verschrieben, setzen Sie ihn nicht selbst ab; fragen Sie rechtzeitig nach einer erlaubten Alternative oder einer TUE. Dies ist keine medizinische Beratung."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Ein Online-Medikamentencheck mehrerer nationaler Anti-Doping-Agenturen: Er zeigt, ob ein in ihren Ländern verkauftes Medikament im Sport verboten ist.",
+   "long": "Global DRO enthält nur Medikamente, die in den Partnerländern verkauft werden, etwa im Vereinigten Königreich, in den USA, in Kanada und in der Schweiz. Suchen Sie nach dem Wirkstoff, nicht nur nach dem Markennamen. Ist Ihr Medikament nicht aufgeführt, fragen Sie Ihre nationale Anti-Doping-Agentur oder Ihren Verband. Prüfen Sie jedes Jahr erneut, denn die WADA-Verbotsliste ändert sich."
+  },
+  "box-breathing": {
+   "term_local": "Box-Atmung",
+   "alt": [
+    "Quadratatmung",
+    "Box Breathing"
+   ],
+   "conf": "medium",
+   "short": "Ein Atemmuster: einatmen, anhalten, ausatmen und anhalten, jeweils bis 4 zählen; eine Möglichkeit zum Ausprobieren, im Sport wenig erforscht.",
+   "long": "In den bisherigen Studien war die Box-Atmung nicht besser als andere Atemweisen; in einer Studie wirkte es besser, einfach länger aus- als einzuatmen. Sehen Sie sie also als eine Möglichkeit, nicht als Regel. Langsames Atmen passt vor dem Stand und zwischen den Ständen. Unmittelbar vor dem Abruf empfehlen viele Trainer nur ein natürliches Ausatmen, weil sehr langsames Atmen die Reaktion auf die Scheibe verzögern kann. Wird Ihnen schwindlig, kehren Sie zur normalen Atmung zurück. Dies ist keine medizinische Beratung."
+  },
+  "quiet-eye": {
+   "term_local": "Quiet Eye",
+   "alt": [
+    "ruhiger Blick"
+   ],
+   "conf": "medium",
+   "short": "Der letzte ruhige Blick auf die Scheibe vor der Bewegung; bei geübten Schützen beginnt er meist früher und dauert länger.",
+   "long": "Forscher messen das Quiet Eye als letzten ruhigen Blick, bevor eine Bewegung beginnt. Im Vergleich zu weniger geübten Schützen beginnen Spitzenschützen im Trap und Skeet ihn früher und halten ihn länger, und bei Treffern ist er meist länger als bei Fehlern. Unter Anspannung wird er oft kürzer. Eine magische Zahl an Millisekunden gibt es nicht: Beim Wurfscheibenschießen heißt es, die Scheibe früh und klar zu sehen und die Augen bis durch den Schuss auf ihr zu halten. Die meisten Daten stammen aus dem olympischen Trap und Skeet; vermutlich lässt sich das auf Sporting™ und Compak® Sporting übertragen."
+  },
+  "self-talk": {
+   "term_local": "Selbstgespräch",
+   "alt": [
+    "innerer Dialog",
+    "Self-Talk"
+   ],
+   "conf": "medium",
+   "short": "Was Sie sich selbst sagen, laut oder im Kopf; im Sport oft kurze Anweisungen wie „Scheibe sehen“ oder „weich“.",
+   "long": "In vielen Studien schnitten Athleten, die geübt hatten, was sie sich sagen, etwas besser ab. Bei Aufgaben, die Genauigkeit verlangen, halfen kurze Anweisungen mehr als Anfeuerungen wie „komm schon“. Sagen Sie, was zu tun ist, nicht was zu vermeiden ist: „auf der Linie bleiben“ statt „die Flinte nicht anhalten“. Auf dem Stand passt meist eine kurze Anweisung besser; motivierende Sätze eignen sich eher für den Weg zwischen den Ständen. Die Studien stammen nicht aus dem Wurfscheibenschießen; vermutlich lässt sich das auf Sporting™ und Compak® Sporting übertragen."
+  },
+  "cue-word": {
+   "term_local": "Schlüsselwort",
+   "alt": [
+    "Cue-Wort",
+    "Stichwort"
+   ],
+   "conf": "medium",
+   "short": "Eine sehr kurze Anweisung wie „Vorderkante“ oder „weich“, die die Aufmerksamkeit vor dem Schuss auf eine Sache lenkt.",
+   "long": "Viele Trainer empfehlen, im Training mit dem Trainer zwei oder drei Schlüsselwörter auszuwählen und im Wettkampf dieselben Wörter zu verwenden. Schlüsselwörter zur Scheibe oder ihrer Linie, etwa „sehen“ oder „auf der Linie bleiben“, passen auf dem Stand meist besser als Körperhinweise wie „Ellbogen hoch“, die ins Training gehören. Viele Schützen sagen das Wort an derselben Stelle der Schussroutine, kurz vor dem Abruf. Ein Dolmetscher, der das Schlüsselwort eines Trainers übersetzt, kann für die ganze Einheit eine kurze Entsprechung beibehalten, damit der Schütze sie im Selbstgespräch nutzen kann."
+  },
+  "imagery": {
+   "term_local": "mentales Training",
+   "alt": [
+    "Vorstellungstraining",
+    "Visualisierung"
+   ],
+   "conf": "medium",
+   "short": "Gedankliches Durchspielen: einen Schuss im Kopf sehen und fühlen, im Tempo des echten Schusses und aus eigener Sicht, ohne ihn abzugeben.",
+   "long": "Studien zeigen, dass mentales Training meist hilft, besonders zusammen mit echtem Training; wie viel genau, weiß niemand. Es scheint besser zu wirken, je näher es am Echten ist: derselbe Stand, dieselben Scheiben, das echte Tempo und die eigene Sicht. Nach dem Vorwerfen gehen viele Schützen jede Scheibe ein- oder zweimal durch: Haltepunkt, Aufnahmepunkt, die Flinte kommt auf die Linie, der Treffer. Üben Sie im Kopf, nicht mit der Flinte: Anschlagen und Mitschwingen entlang der Linie einer Scheibe ist ein Scheinanschlag, den die Regeln einschränken. Die Forschung stammt nicht aus dem Wurfscheibenschießen; vermutlich lässt sie sich auf Sporting™ und Compak® Sporting übertragen."
+  },
+  "choking": {
+   "term_local": "Versagen unter Druck",
+   "alt": [
+    "Choking"
+   ],
+   "conf": "medium",
+   "short": "Deutlich schlechter schießen als sonst, weil der Druck groß ist, oft wenn man beginnt, eine sonst automatische Fertigkeit bewusst zu steuern.",
+   "long": "Nicht zu verwechseln mit dem Choke des Laufs. Unter Druck beginnt ein Schütze womöglich, Anschlag oder Schwung Schritt für Schritt zu kontrollieren, und Sorgen ziehen die Augen von der Scheibe weg. Anzeichen sind ein verändertes Tempo, das Kontrollieren des Anschlags, der Blick auf Lauf oder Korn und das Schielen auf die Ergebnisse. Was helfen kann: die gewohnte Schussroutine und das gewohnte Tempo, ein einfaches Schlüsselwort zur Scheibe, Prozessziele und Training unter schrittweise steigendem Druck. Die meisten Studien stammen aus anderen Sportarten und aus dem olympischen Trap und Skeet; vermutlich lässt sich das auf Sporting™ und Compak® Sporting übertragen. Verdirbt der Druck immer wieder Ihre Wettkämpfe, kann ein Sportpsychologe helfen."
+  },
+  "reset-routine": {
+   "term_local": "Reset-Routine",
+   "alt": [
+    "Neustart-Routine"
+   ],
+   "conf": "low",
+   "short": "Eine kurze, feste Routine zum Neubeginn: nach einem Fehler (ausatmen, eine Korrektur, nächste Routine) oder wenn man vor dem Abruf gestört wird.",
+   "long": "Ein üblicher Reset nach einem Fehler dauert etwa 5–10 Sekunden: die Flinte sichern, wie es die Regeln verlangen, einmal langsam ausatmen, sich eine Korrektur in zwei oder drei Worten geben, den richtigen Schuss vor sich sehen und dann die nächste Schussroutine beginnen. Das „Warum“ gehört in die Zeit nach der Runde: Wer unter Druck eine Fertigkeit Schritt für Schritt zerlegt, kann sie stören. Der Reset muss in das Zeitlimit zwischen den Scheiben passen. Wird man vor dem Abruf gestört, empfehlen viele Trainer, auszuatmen und die Routine neu zu beginnen. Derselbe Reset kann auch nach einer Schiedsrichterentscheidung helfen, die einem nicht gefällt."
+  },
+  "mobility": {
+   "term_local": "Beweglichkeit",
+   "alt": [
+    "Mobilität"
+   ],
+   "conf": "medium",
+   "short": "Wie frei sich die Gelenke bewegen: ob man Kopf drehen, Arme heben und den Rumpf so weit drehen kann, wie der Schuss es verlangt, ohne Anstrengung.",
+   "long": "Für Schützen zählen vor allem der Nacken (der Kopf kommt an den Schaft), die Schultern (der Anschlag), der obere Rücken und die Hüften, die den Körper mit der Scheibe drehen, sowie die Sprunggelenke, die den Stand stabil halten. Viele Trainer empfehlen vor dem Schießen sanfte dynamische Bewegungen wie langsames Kopfdrehen, Schulterkreisen und Rumpfdrehen und heben langes statisches Dehnen für nach dem Schießen auf. Bewegen Sie sich ruhig und hören Sie auf, wenn es schmerzt. Bei einer Verletzung oder anhaltenden Schmerzen stellen Sie Ihr Programm mit einem Arzt oder Physiotherapeuten zusammen. Dies ist keine medizinische Beratung."
+  },
+  "gun-rental": {
+   "term_local": "Leihflinte",
+   "alt": [
+    "Flinte leihen",
+    "Waffenverleih"
+   ],
+   "conf": "medium",
+   "short": "Gegen Gebühr eine Flinte der Anlage nutzen, oft zusammen mit einer ersten Stunde, Patronen und Schutzausrüstung, damit ein Anfänger schießen kann, ohne eine Flinte zu kaufen."
+  },
+  "third-party-insurance": {
+   "term_local": "Haftpflichtversicherung",
+   "conf": "high",
+   "short": "Eine Versicherung für Schäden, die man anderen Menschen oder ihrem Eigentum zufügen kann; viele Länder oder Vereine verlangen sie von Schützen."
+  },
+  "proof-mark": {
+   "term_local": "Beschusszeichen",
+   "alt": [
+    "Beschussstempel",
+    "Beschussamt"
+   ],
+   "conf": "high",
+   "short": "Ein Stempel, den ein amtliches Beschussamt nach dem Beschuss mit einer überhöhten Ladung auf eine Waffe setzt; in vielen Ländern ist dieser Beschuss Pflicht."
+  },
+  "club-membership": {
+   "term_local": "Vereinsmitgliedschaft",
+   "conf": "high",
+   "short": "Mitgliedschaft in einem Schützenverein: meist ein Jahresbeitrag, der oft günstigere Scheibenpreise und Zugang zu Training und Vereinsschießen bringt."
+  },
+  "reloaded-cartridge": {
+   "term_local": "wiedergeladene Patrone",
+   "alt": [
+    "Wiederladung"
+   ],
+   "conf": "medium",
+   "short": "Eine abgeschossene Hülse, die erneut mit Pulver, Zwischenmittel und Schrot gefüllt wird, oft zu Hause; bei Wettkämpfen im Sporting™ und Compak® Sporting nicht erlaubt."
+  },
+  "taster-session": {
+   "term_local": "Schnupperschießen",
+   "alt": [
+    "Schnupperstunde"
+   ],
+   "conf": "medium",
+   "short": "Eine Einführung für Anfänger auf einer Anlage: ein Trainer, die Flinte der Anlage, Patronen und Scheiben, um das Schießen zum ersten Mal auszuprobieren."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "Lärmschwerhörigkeit",
+   "conf": "high",
+   "short": "Allmähliche, bleibende Schädigung des Innenohrs durch laute Geräusche wie Schüsse; sie beginnt oft bei hohen Tönen, und verlorenes Gehör kommt nicht zurück."
+  },
+  "tinnitus": {
+   "term_local": "Tinnitus",
+   "alt": [
+    "Ohrgeräusch",
+    "Ohrenklingeln"
+   ],
+   "conf": "high",
+   "short": "Klingeln, Brummen oder Pfeifen in den Ohren ohne äußere Quelle; nach dem Schießen oft ein frühes Warnzeichen, dass der Gehörschutz nicht ausgereicht hat."
+  },
+  "double-hearing-protection": {
+   "term_local": "doppelter Gehörschutz",
+   "conf": "medium",
+   "short": "Ohrstöpsel und Kapselgehörschutz zusammen getragen, für zusätzliche Sicherheit, besonders bei Kindern und an lauten oder überdachten Ständen."
+  },
+  "presbyopia": {
+   "term_local": "Alterssichtigkeit",
+   "alt": [
+    "Presbyopie"
+   ],
+   "conf": "high",
+   "short": "Altersbedingte Weitsichtigkeit: etwa ab 40 fällt das Sehen in der Nähe schwerer, während das Sehen in die Ferne gut bleiben kann; das Korn kann verschwimmen."
+  },
+  "lead-hygiene": {
+   "term_local": "Bleihygiene",
+   "conf": "medium",
+   "short": "Gewohnheiten, die weniger Blei in den Körper gelangen lassen: Hände und Gesicht waschen, auf dem Stand nicht essen oder rauchen, eigene Schießkleidung."
+  },
+  "heat-exhaustion": {
+   "term_local": "Hitzeerschöpfung",
+   "conf": "high",
+   "short": "Überhitzung des Körpers mit Müdigkeit, Schwindel, Kopfschmerzen oder Übelkeit; sie braucht Schatten, Wasser, Kühlung und Ruhe und ärztliche Hilfe, wenn sie nicht rasch nachlässt."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "Lebendtaubenschießen",
+   "alt": [
+    "Schießen auf lebende Tauben"
+   ],
+   "conf": "medium",
+   "short": "Historisches Schießen auf lebende Tauben, die vor dem Schützen aus Kästen freigelassen wurden, Vorläufer des Wurfscheibenschießens; 2003 setzte die FITASC alle Wettbewerbe mit lebenden Tieren als Ziel aus."
+  },
+  "glass-ball": {
+   "term_local": "Glaskugel",
+   "conf": "medium",
+   "short": "Eine Glaskugel, die im 19. Jahrhundert als Ziel in die Luft geworfen wurde, eine frühe Alternative zu lebenden Vögeln; später ersetzte sie die Wurfscheibe."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Internationaler Schießsportverband"
+   ],
+   "conf": "high",
+   "short": "Die International Shooting Sport Federation, die die olympischen Schießdisziplinen regelt, darunter das olympische Trap und Skeet; Sporting™ und Compak® Sporting gehören zur FITASC."
+  },
+  "hydration": {
+   "term_local": "Flüssigkeitszufuhr",
+   "alt": [
+    "Trinken"
+   ],
+   "conf": "medium",
+   "short": "Genug Wasser trinken; auf der Anlage heißt das kleine, regelmäßige Schlucke über den Tag, nicht erst bei großem Durst."
+  },
+  "travel-fatigue": {
+   "term_local": "Reisemüdigkeit",
+   "conf": "medium",
+   "short": "Müdigkeit von der Reise selbst: steife Muskeln, wenig Schlaf und trockene Luft; anders als Jetlag hängt sie nicht von Zeitzonen ab und lässt nach Erholung oft nach."
+  },
+  "referee-certificate": {
+   "term_local": "Schiedsrichterausweis",
+   "alt": [
+    "Schiedsrichterlizenz"
+   ],
+   "conf": "medium",
+   "short": "Der Ausweis oder die Lizenz, die ein nationaler Verband nach Lehrgang und Prüfung ausstellt und die zum Schiedsrichtern berechtigt; der Oberschiedsrichter eines internationalen Wettkampfs braucht eine FITASC-Qualifikation."
+  },
+  "assistant-referee": {
+   "term_local": "Hilfsschiedsrichter",
+   "alt": [
+    "Schiedsrichterassistent"
+   ],
+   "conf": "medium",
+   "short": "Ein Helfer des Schiedsrichters; im Sporting™ darf eine Person ohne den nötigen Schiedsrichterausweis nur in dieser Rolle tätig sein und nur, wenn die Jury vorher zustimmt."
+  },
+  "coaching-qualification": {
+   "term_local": "Trainerlizenz",
+   "alt": [
+    "Trainerqualifikation"
+   ],
+   "conf": "medium",
+   "short": "Nachweis, dass jemand eine Trainerausbildung abgeschlossen hat; wer ihn ausstellt, welche Stufen es gibt und ob er Pflicht ist, hängt vom Land ab."
+  },
+  "volunteer": {
+   "term_local": "freiwilliger Helfer",
+   "alt": [
+    "Ehrenamtlicher",
+    "Helfer"
+   ],
+   "conf": "medium",
+   "short": "Eine Person, die bei einem Wettkampf unentgeltlich hilft: Anmeldung, Maschinen befüllen, Parken, Fotos, Aufräumen oder, wo die Regeln es erlauben, Schreiben unter Aufsicht des Schiedsrichters."
+  },
+  "tour-package": {
+   "term_local": "Reisepaket",
+   "alt": [
+    "Tourpaket"
+   ],
+   "conf": "medium",
+   "short": "Alles, was ein Schütze bei einer ClayAway-Reise mit einer Zahlung kaufen wird: Training auf Schießanlagen, Unterkunft, Transfers, ein gemeinsames Programm und bei Bedarf einen Dolmetscher (ClayAway ist in Vorbereitung)."
+  },
+  "scoreboard": {
+   "term_local": "Ergebnistafel",
+   "alt": [
+    "Anzeigetafel"
+   ],
+   "conf": "medium",
+   "short": "Die Ergebnistafel: eine Tafel oder ein Bildschirm, auf dem die Rundenergebnisse und Gesamtergebnisse der Schützen während und nach einem Wettkampf angezeigt werden."
+  },
+  "spectator-area": {
+   "term_local": "Zuschauerbereich",
+   "conf": "high",
+   "short": "Der Bereich, den der Veranstalter für Zuschauer vorsieht, meist hinter dem Stand oder hinter einem Zaun oder Seil, von dem aus man sicher zuschauen, fotografieren und filmen kann."
+  },
+  "derogation": {
+   "term_local": "Ausnahmegenehmigung",
+   "alt": [
+    "Derogation"
+   ],
+   "conf": "low",
+   "short": "Die Erlaubnis, in besonderen Fällen von einer Regel abzuweichen, etwa in einer anderen Klasse zu starten, als das Alter vorgibt; fragen Sie Ihren nationalen Verband."
+  },
+  "pitch": {
+   "term_local": "Schaftkappenwinkel",
+   "alt": [
+    "Pitch"
+   ],
+   "conf": "low",
+   "short": "Der Winkel, in dem das Schaftende (die Schaftkappe) zu den Läufen geschnitten ist; er entscheidet, ob die Schaftkappe flach an der Schulter liegt oder mit Spitze oder Ferse drückt."
+  },
+  "gas-operated": {
+   "term_local": "Gasdrucklader",
+   "alt": [
+    "gasbetätigt"
+   ],
+   "conf": "medium",
+   "short": "Ein Selbstladesystem, bei dem ein Teil des Pulvergases die Flinte nachlädt; es verteilt den Rückstoß über eine längere Zeit, sodass viele Schützen ihn als weicher empfinden."
+  },
+  "ladies-cut": {
+   "term_local": "Damenschnitt",
+   "conf": "medium",
+   "short": "Ein Schnitt der Schießweste oder -jacke, der Brust und Schulterbreite berücksichtigt, damit das Polster dort sitzt, wo der Schaft anliegt."
+  },
+  "ladies-day": {
+   "term_local": "Damentag",
+   "alt": [
+    "Ladies Day"
+   ],
+   "conf": "medium",
+   "short": "Ein Tag im Verein, an dem Frauen trainieren oder das Schießen ausprobieren, oft mit Trainer und Leihflinten."
+  },
+  "snap-cap": {
+   "term_local": "Pufferpatrone",
+   "alt": [
+    "Exerzierpatrone",
+    "Snap Cap"
+   ],
+   "conf": "medium",
+   "short": "Eine Übungspatrone, die die Schlagbolzen schont, wenn bei leerer Flinte abgezogen wird; für Trockentraining, wie ein Trainer oder Büchsenmacher empfiehlt."
+  },
+  "blot-out": {
+   "term_local": "Abdecken (Blot out)",
+   "conf": "low",
+   "short": "Die Läufe im Moment des Schusses die Scheibe verdecken lassen, wie es bei kommenden und überfliegenden Scheiben oft geschieht; meist gewollt, kein Fehler."
+  },
+  "show-pair": {
+   "term_local": "Show Pair",
+   "conf": "low",
+   "short": "Britischer Name für das Vorwerfen eines Scheibenpaars vor dem Schießen; in FITASC-Begriffen das Vorwerfen einer Doublette."
+  },
+  "perfect-round": {
+   "term_local": "volle Runde",
+   "alt": [
+    "25 von 25"
+   ],
+   "conf": "medium",
+   "short": "Eine Runde ohne Fehler: im Sporting™ und Compak® Sporting alle 25 Scheiben getroffen; ein ClayArena-Profil zählt, wie viele ein Schütze hat."
+  },
+  "visitors-permit": {
+   "term_local": "Besuchergenehmigung (Visitor's Permit)",
+   "conf": "low",
+   "short": "Eine britische Erlaubnis, mit der ein Besucher aus dem Ausland in Großbritannien eine Flinte besitzen darf; ein dort lebender Bürge beantragt sie bei der örtlichen Polizei."
   }
  }
 };

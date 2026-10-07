@@ -1,0 +1,370 @@
+{
+  "id": "chokes-names-and-marks",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "chokes-names-and-marks"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "choke",
+    "constriction",
+    "cylinder",
+    "skeet-choke",
+    "improved-cylinder",
+    "light-modified",
+    "modified",
+    "improved-modified",
+    "full-choke",
+    "star-marks",
+    "gunsmith"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Briley — Understanding chokes: 12-gauge constriction chart (inches)",
+        "uk": "Briley — як влаштовані чоки: таблиця звужень для 12 калібру (у дюймах)"
+      },
+      "url": "https://www.briley.com/c-456-understanding-chokes.aspx",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Beretta — choke tube identification: stars, notches and codes",
+        "uk": "Beretta — як розпізнати чоки: зірочки, насічки й коди"
+      },
+      "url": "https://estore.beretta.com/en-gb/utility/choke-tubes-identification",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Choke names, constrictions and markings",
+    "uk": "Назви чоків, звуження і маркування"
+  },
+  "summary": {
+    "en": "From cylinder to full: typical constrictions in millimetres and thou, the 1/4–1/2–3/4 fractions and the star marks used in {{tm:sporting}} and {{tm:compak}}. Values are approximate and differ between makers.",
+    "uk": "Від циліндра до повного чока: типові звуження в міліметрах і тисячних дюйма, частки 1/4–1/2–3/4 і зірочки, якими користуються в {{tm:sporting}} і {{tm:compak}}. Значення приблизні й різняться між виробниками."
+  },
+  "body": [
+    {
+      "k": "gear-chokes-p3",
+      "t": "p",
+      "core": true,
+      "en": "Names come from English, from open to tight: cylinder, skeet, improved cylinder, light modified, modified, improved modified, full. Europeans often say them as fractions: quarter (improved cylinder), half (modified), three-quarter (improved modified) and full. Many Italian guns mark chokes with stars, and there the rule is upside down: more stars means a more open choke.",
+      "uk": "Назви прийшли з англійської, від відкритого до найщільнішого: cylinder ({{term:cylinder|циліндр}}), skeet, improved cylinder, light modified, modified, improved modified, full. Європейці часто кажуть частками: quarter — «чверть» ({{term:improved-cylinder|improved cylinder}}), half — «пів», «півчок» ({{term:modified|modified}}), three-quarter — «три чверті» ({{term:improved-modified|improved modified}}) і full — «повний» ({{term:full-choke|full}}). На багатьох італійських рушницях чоки позначають {{term:star-marks|зірочками}}, і там логіка навпаки: більше зірочок — відкритіший чок."
+    },
+    {
+      "k": "chokes-names-and-marks-p1",
+      "t": "p",
+      "en": "Below are typical {{term:constriction|constrictions}} for 12 gauge. One thou is a thousandth of an inch, about 0.025 mm. Real values depend on the maker and even on the bore of the particular barrel.",
+      "uk": "Нижче — типові {{term:constriction|звуження}} для 12 калібру. Один thou — це тисячна дюйма, приблизно 0,025 мм. Реальні значення залежать від виробника й навіть від каналу конкретного ствола."
+    },
+    {
+      "k": "chokes-names-and-marks-p2",
+      "t": "steps",
+      "en": [
+        "Cylinder: no constriction, 0 mm.",
+        "Skeet: a very light constriction, about 0.1–0.15 mm (4–6 thou); in Europe sometimes called 1/8.",
+        "Improved cylinder (IC): about 0.25 mm (around 10 thou), in Europe 1/4, a quarter choke.",
+        "Light modified (LM): about 0.35–0.4 mm (around 15 thou), sometimes marked 3/8.",
+        "Modified (M): about 0.5 mm (around 20 thou), 1/2, a half choke.",
+        "Improved modified (IM): about 0.65–0.75 mm (25–30 thou), 3/4.",
+        "Full: about 0.9–1 mm (35–40 thou), 1/1 or simply Full. Tighter chokes (extra full) exist, but clay shooting rarely needs them."
+      ],
+      "uk": [
+        "Cylinder (циліндр): без звуження, 0 мм.",
+        "Skeet: дуже легке звуження, приблизно 0,1–0,15 мм (4–6 thou); у Європі його іноді звуть 1/8.",
+        "Improved cylinder (IC): приблизно 0,25 мм (близько 10 thou), у Європі — 1/4, «чверть».",
+        "Light modified (LM): приблизно 0,35–0,4 мм (близько 15 thou), іноді позначають 3/8.",
+        "Modified (M): приблизно 0,5 мм (близько 20 thou), 1/2, «пів», «півчок».",
+        "Improved modified (IM): приблизно 0,65–0,75 мм (25–30 thou), 3/4.",
+        "Full: приблизно 0,9–1 мм (35–40 thou), 1/1 або просто Full. Існують і щільніші чоки (extra full), але для стендової стрільби вони потрібні рідко."
+      ]
+    },
+    {
+      "k": "chokes-names-and-marks-p5",
+      "t": "p",
+      "en": "The fractions are handy in conversation, but they are not exact millimetres: one maker's 1/2 may differ slightly from another's.",
+      "uk": "Частки зручні в розмові, але це не точні міліметри: «1/2» одного виробника може трохи відрізнятися від «1/2» іншого."
+    },
+    {
+      "k": "chokes-names-and-marks-p6",
+      "t": "p",
+      "en": "Italian makers, Beretta for example, use {{term:star-marks|star marks}}: five stars for cylinder, four for improved cylinder (1/4), three for modified (1/2), two for improved modified (3/4) and one for full. Skeet chokes carry no stars. Other makers cut notches on the rim of the tube, use coloured bands or print the name (IC, M, LM).",
+      "uk": "Італійські виробники, наприклад Beretta, ставлять {{term:star-marks|зірочки}}: п’ять — cylinder, чотири — improved cylinder (1/4), три — modified (1/2), дві — improved modified (3/4), одна — full. Чоки skeet зірочок не мають. Інші виробники вирізають насічки на краю трубки, наносять кольорові смужки або пишуть назву (IC, M, LM)."
+    },
+    {
+      "k": "chokes-names-and-marks-p7",
+      "t": "tip",
+      "en": "The most reliable source is the marking on the choke itself or the gun's manual. If in doubt, a {{term:gunsmith|gunsmith}} can measure the constriction with a gauge in a minute.",
+      "uk": "Найнадійніше — прочитати маркування на самому чоку або в інструкції до рушниці. Якщо сумніваєтеся, {{term:gunsmith|зброяр}} виміряє звуження спеціальним калібром за хвилину."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "chokes-names-and-marks-kp1",
+      "en": "Cylinder 0 · Skeet ~0.1–0.15 mm · IC ~0.25 mm (1/4) · LM ~0.35–0.4 mm",
+      "uk": "Cylinder 0 · Skeet ~0,1–0,15 мм · IC ~0,25 мм (1/4) · LM ~0,35–0,4 мм"
+    },
+    {
+      "k": "chokes-names-and-marks-kp2",
+      "en": "M ~0.5 mm (1/2) · IM ~0.65–0.75 mm (3/4) · Full ~0.9–1 mm (1/1)",
+      "uk": "M ~0,5 мм (1/2) · IM ~0,65–0,75 мм (3/4) · Full ~0,9–1 мм (1/1)"
+    },
+    {
+      "k": "gear-chokes-kp3",
+      "core": true,
+      "en": "Fractions: quarter = improved cylinder, half = modified, three-quarter = improved modified, full.",
+      "uk": "Частки: чверть = improved cylinder, пів = modified, три чверті = improved modified, повний = full."
+    },
+    {
+      "k": "chokes-names-and-marks-kp4",
+      "en": "Stars: the more stars, the more open the choke.",
+      "uk": "Зірочки: що більше зірочок, то відкритіший чок."
+    },
+    {
+      "k": "chokes-names-and-marks-kp5",
+      "en": "Values are approximate and differ between makers.",
+      "uk": "Значення приблизні й різняться між виробниками."
+    }
+  ],
+  "did_you_know": {
+    "k": "chokes-names-and-marks-dyk",
+    "en": "Modern competition barrels are often 'overbored': the inside is made slightly wider than the standard for the gauge. So the same choke with the same name can give a slightly different constriction in different guns: what counts is the difference between bore and choke.",
+    "uk": "Сучасні спортивні стволи часто мають трохи розширений канал (overbore) — ширший за стандарт для цього калібру. Тому той самий чок з однаковою назвою в різних рушницях може давати трохи різне звуження: важить різниця між каналом і чоком."
+  },
+  "quiz": [
+    {
+      "k": "chokes-names-and-marks-q1",
+      "q": {
+        "en": "What is the approximate constriction of a modified (1/2) choke in 12 gauge?",
+        "uk": "Яке приблизне звуження в чока modified (1/2) для 12 калібру?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "0 mm",
+          "uk": "0 мм"
+        },
+        {
+          "k": "b",
+          "en": "About 0.25 mm",
+          "uk": "Близько 0,25 мм"
+        },
+        {
+          "k": "c",
+          "en": "About 0.5 mm",
+          "uk": "Близько 0,5 мм"
+        },
+        {
+          "k": "d",
+          "en": "About 1 mm",
+          "uk": "Близько 1 мм"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Modified is about 0.5 mm, or around 20 thou.",
+        "uk": "Modified — приблизно 0,5 мм, або близько 20 thou."
+      }
+    },
+    {
+      "k": "chokes-names-and-marks-q2",
+      "q": {
+        "en": "What does a choke marked with four stars mean on a Beretta gun?",
+        "uk": "Що означає чок із чотирма зірочками на рушниці Beretta?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Full",
+          "uk": "Full"
+        },
+        {
+          "k": "b",
+          "en": "Improved cylinder (1/4)",
+          "uk": "Improved cylinder (1/4)"
+        },
+        {
+          "k": "c",
+          "en": "Modified (1/2)",
+          "uk": "Modified (1/2)"
+        },
+        {
+          "k": "d",
+          "en": "Improved modified (3/4)",
+          "uk": "Improved modified (3/4)"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In the star system, the more stars the more open the choke: four stars is improved cylinder.",
+        "uk": "У системі зірочок що більше зірочок, то відкритіший чок: чотири зірочки — improved cylinder."
+      }
+    },
+    {
+      "k": "chokes-names-and-marks-q4",
+      "q": {
+        "en": "In European usage, which choke is a 'half'?",
+        "uk": "Який чок у європейській звичці називають «пів»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Modified",
+          "uk": "Modified"
+        },
+        {
+          "k": "b",
+          "en": "Improved cylinder",
+          "uk": "Improved cylinder"
+        },
+        {
+          "k": "c",
+          "en": "Full",
+          "uk": "Full"
+        },
+        {
+          "k": "d",
+          "en": "Skeet",
+          "uk": "Skeet"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Half (1/2) is modified; quarter is improved cylinder, three-quarter is improved modified.",
+        "uk": "«Пів» (1/2) — це modified; «чверть» — improved cylinder, «три чверті» — improved modified."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "chokes-names-and-marks-q3",
+      "q": {
+        "en": "Which choke is the most open?",
+        "uk": "Який чок найвідкритіший?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Full",
+          "uk": "Full"
+        },
+        {
+          "k": "b",
+          "en": "Improved modified",
+          "uk": "Improved modified"
+        },
+        {
+          "k": "c",
+          "en": "Modified",
+          "uk": "Modified"
+        },
+        {
+          "k": "d",
+          "en": "Cylinder",
+          "uk": "Cylinder"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Cylinder has no constriction at all.",
+        "uk": "Cylinder не має звуження взагалі."
+      }
+    },
+    {
+      "k": "gear-chokes-q3",
+      "q": {
+        "en": "On an Italian gun, a choke with five stars is…",
+        "uk": "На італійській рушниці чок із п’ятьма зірочками — це…"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "the most open",
+          "uk": "найвідкритіший"
+        },
+        {
+          "k": "b",
+          "en": "the tightest",
+          "uk": "найщільніший"
+        },
+        {
+          "k": "c",
+          "en": "a broken choke",
+          "uk": "пошкоджений чок"
+        },
+        {
+          "k": "d",
+          "en": "a rifle barrel",
+          "uk": "нарізний ствол"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "With star markings, more stars mean a more open choke.",
+        "uk": "У маркуванні зірочками більше зірочок — відкритіший чок."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "e7b2ef05",
+    "summary": "22d688ff",
+    "gear-chokes-p3": "dc515f35",
+    "chokes-names-and-marks-p1": "81bdc547",
+    "chokes-names-and-marks-p2": "ef07b37b",
+    "chokes-names-and-marks-p5": "b6f30907",
+    "chokes-names-and-marks-p6": "1b8fdee5",
+    "chokes-names-and-marks-p7": "c0e23a16",
+    "chokes-names-and-marks-kp1": "5c513a88",
+    "chokes-names-and-marks-kp2": "76965b4c",
+    "gear-chokes-kp3": "93bc009b",
+    "chokes-names-and-marks-kp4": "8755ddeb",
+    "chokes-names-and-marks-kp5": "07a69a82",
+    "chokes-names-and-marks-dyk": "7ad51e91",
+    "chokes-names-and-marks-q1": "c8c32e0e",
+    "chokes-names-and-marks-q2": "daf50685",
+    "chokes-names-and-marks-q4": "4f31ea8b",
+    "chokes-names-and-marks-q3": "9a68ecf3",
+    "gear-chokes-q3": "ded3001e"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "id": "targets-special-presentations",
+  "rev": 3,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "targets-special-presentations"
+    ],
+    "interpreter": [
+      "flight-teal-chandelle-looper"
+    ]
+  },
+  "terms": [
+    "trajectory",
+    "teal",
+    "springing-target",
+    "chandelle",
+    "looper",
+    "standard-target",
+    "battue",
+    "dropping-target"
+  ],
+  "rule_refs": [
+    {
+      "book": "compak",
+      "id": "ch3-trajectory-variety"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-targets"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "Shooting UK — How to shoot an on-report pair of springing teal"
+      },
+      "url": "https://www.shootinguk.co.uk/shooting/shotgun/how-to-shoot-an-on-report-pair-of-springing-teal/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Shotgun Life — How to shoot a chandelle target"
+      },
+      "url": "https://www.shotgunlife.com/briefs/how-to-shoot-a-chandelle-target.html",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "NSSA-NSCA — Ask the instructor: battues"
+      },
+      "url": "https://nssa-nsca.org/blog/2017/07/18/ask-the-instructor-battues/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Special presentations: teal, chandelle, looper and dropping targets",
+    "uk": "Особливі траєкторії: тіл, шандель, лупер і мішені на падінні"
+  },
+  "summary": {
+    "en": "Targets that spring up, climb on a curve, arc over or fall: how to tell a teal, a chandelle and a looper apart, and why their names vary between countries.",
+    "uk": "Мішені, що злітають угору, піднімаються по дузі, перевалюють через вершину або падають: як відрізнити тіл, шандель і лупер і чому їхні назви в різних країнах різні."
+  },
+  "body": [
+    {
+      "k": "flight-teal-chandelle-looper-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "anchor": "flight-teal-chandelle-looper",
+      "en": "The presentations in this lesson are about height and curve rather than angle. Their names are words used by course setters (the people who set up the traps), not rulebook terms. The rules list target types, and the {{tm:compak}} rules ask for a variety of flights: rising, dropping and high, looping ones.",
+      "uk": "У траєкторіях цього уроку головне — висота і крива, а не кут. Їхні назви — слова постановників (тих, хто ставить машинки й задає траєкторії), а не терміни правил. Правила перелічують типи мішеней, а правила {{tm:compak}} вимагають різноманітних траєкторій: на підйомі, на падінні, високих навісних."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:teal|teal}} (also springing or rising teal, named after the small duck) is thrown almost straight up: it slows, hangs still for a moment at the top and falls back. Shoot it either on the way up, moving the gun up through it from below, or at the top while it hangs. A common mistake is to stop the gun and jab at it while it hangs at the top. Some course setters use “springing” for a target that climbs at an angle rather than straight up, like a bird startled out of the grass.",
+      "uk": "Тіл, або чирок ({{term:teal|teal}}, springing чи rising teal — від назви невеликої качки), кидають майже вертикально вгору: він сповільнюється, на мить зависає нагорі й падає назад. Його беруть або на підйомі, ведучи стволи знизу крізь мішень, або на вершині, поки мішень зависла. Поширена помилка — зупинити рушницю й «тицяти» в мішень нагорі, прицілюючись. Дехто з постановників називає springing («злітаюча мішень») мішень, що злітає не вертикально, а під кутом, як птах, що зривається з трави."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:chandelle|chandelle}} (French for “candle”) rises steeply on a slight curve, arcs over and drops almost vertically. Many shooters find it easiest to hit on the way up. Once it curls over and starts to fall, shoot in front of it (on the side it is moving towards) and below it.",
+      "uk": "Шандель ({{term:chandelle|chandelle}}, з французької — «свічка») круто злітає ледь вигнутою лінією, перевалює через вершину і падає майже вертикально. Багатьом стрільцям найлегше влучити в неї на підйомі. Коли вона загинається й починає падати, стріляйте попереду неї (з того боку, куди вона рухається) і нижче."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:looper|looper}} flies a wide arc across the sky, like a rainbow: it climbs, rolls over the top and falls. It is usually a standard target; some course setters also throw a battue on such a line, and it then shows its face as it turns. Follow the curve with the gun, staying ahead of the target and below it.",
+      "uk": "Лупер, або дуга ({{term:looper|looper}}), летить широкою дугою через небо, як веселка: злітає, перевалює через вершину й падає. Зазвичай це стандартна мішень; дехто з постановників кидає на такій лінії й батю, і тоді вона, перевертаючись, показує площину. Ведіть рушницю за кривою, тримаючись попереду мішені й нижче від неї."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:dropping-target|dropping target}} is any target in the falling part of its flight. Because it is moving down as well as along, shoot below it and in front of it, with the gun moving.",
+      "uk": "{{term:dropping-target|Мішень на падінні}} (dropping, падаюча мішень) — будь-яка мішень у низхідній частині польоту. Вона рухається і вниз, і вперед, тож стріляйте нижче від неї і попереду, не зупиняючи рушниці."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-p6",
+      "t": "tip",
+      "core": true,
+      "disc": "both",
+      "en": "Careful: names vary between countries. Many French speakers use “chandelle” for a target that goes almost straight up, which an English coach calls a teal. In other languages a word for “candle” may mean either. Whenever you hear chandelle or candle, ask: straight up or arcing over?",
+      "uk": "Обережно: назви в різних країнах різняться. Багато франкомовних стрільців називають «chandelle» мішень, що летить майже вертикально вгору, — англійський тренер скаже teal. Українські стрільці можуть сказати «свічка» про обидві. Щойно чуєте chandelle, candle чи «свічка», уточніть: прямо вгору чи дугою?"
+    },
+    {
+      "k": "flight-teal-chandelle-looper-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "teal",
+        "also": [
+          "chandelle",
+          "looper",
+          "dropping"
+        ]
+      },
+      "ready": true
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "flight-teal-chandelle-looper-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Take the teal on the way up — keep the barrels moving above it.",
+      "meaning": {
+        "en": "Break the rising teal before the peak; the gun keeps rising past it.",
+        "uk": "Розбийте тіл до вершини; стволи продовжують іти вгору повз мішень."
+      },
+      "say": {
+        "uk": "Беріть тіл на підйомі — ведіть стволи вгору понад ним."
+      }
+    },
+    {
+      "k": "flight-teal-chandelle-looper-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Don't poke at it on the top.",
+      "meaning": {
+        "en": "Do not stop and aim at the target while it stalls at the peak.",
+        "uk": "Не зупиняйтеся і не прицілюйтеся, коли мішень зависла на вершині."
+      },
+      "say": {
+        "uk": "Не тицяйте в неї нагорі — не прицілюйтеся."
+      }
+    },
+    {
+      "k": "flight-teal-chandelle-looper-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "The looper's turning over — underneath and in front.",
+      "meaning": {
+        "en": "The target is rolling over the top of its arc and starting to fall; the lead goes below and ahead of it.",
+        "uk": "Мішень перевалює через вершину дуги й починає падати; винос — знизу і попереду."
+      },
+      "say": {
+        "uk": "Лупер перевертається — знизу і попереду."
+      }
+    },
+    {
+      "k": "flight-teal-chandelle-looper-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Second bird's dropping — go under it and keep the gun moving.",
+      "meaning": {
+        "en": "The second target of the pair is falling; shoot below it with the gun in motion.",
+        "uk": "Друга мішень дуплета падає; стріляйте під неї, не зупиняючи рушниці."
+      },
+      "say": {
+        "uk": "Друга мішень падає — під неї, і не зупиняйте рушницю."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "flight-teal-chandelle-looper-kp1",
+      "core": true,
+      "en": "Teal: almost vertical up, stalls, falls; take it rising or at the peak.",
+      "uk": "Тіл: майже вертикально вгору, зависає, падає; беріть на підйомі або на вершині."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-kp2",
+      "core": true,
+      "en": "Chandelle: steep curving climb, arcs over, drops almost vertically.",
+      "uk": "Шандель: крутий вигнутий підйом, перевалює через вершину, падає майже вертикально."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-kp3",
+      "core": true,
+      "en": "Looper: wide rainbow arc across, usually a standard target that rolls over the top and falls.",
+      "uk": "Лупер (дуга): широка дуга-веселка впоперек, зазвичай стандартна мішень, що перевалює через вершину й падає."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-kp4",
+      "core": true,
+      "en": "Dropping: lead underneath and in front; keep the gun moving.",
+      "uk": "На падінні: винос знизу і попереду; рушниця в русі."
+    },
+    {
+      "k": "flight-teal-chandelle-looper-kp5",
+      "core": true,
+      "en": "Names vary: French speakers often say “chandelle” for a teal, so ask what is meant.",
+      "uk": "Назви різняться: франкомовні стрільці часто кажуть «chandelle» про тіл, а «свічка» теж неоднозначна, тож уточнюйте."
+    }
+  ],
+  "did_you_know": {
+    "k": "targets-special-presentations-dyk",
+    "en": "The French word chandelle means “candle”; it is also the name of an aerobatic manoeuvre in which a plane climbs steeply while turning.",
+    "uk": "Слово chandelle французькою означає «свічка»: так називають і фігуру вищого пілотажу, коли літак круто набирає висоту з розворотом."
+  },
+  "quiz": [
+    {
+      "k": "flight-teal-chandelle-looper-q1",
+      "q": {
+        "en": "Which target is thrown almost straight up, stalls at the top and falls back?",
+        "uk": "Яку мішень кидають майже вертикально вгору, вона зависає нагорі й падає назад?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Looper",
+          "uk": "Лупер"
+        },
+        {
+          "k": "b",
+          "en": "Quartering away",
+          "uk": "Навскіс від стрільця"
+        },
+        {
+          "k": "c",
+          "en": "Rabbit",
+          "uk": "Кролик"
+        },
+        {
+          "k": "d",
+          "en": "Teal",
+          "uk": "Тіл"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "That is the teal (springing or rising teal). A looper flies a wide arc across the sky.",
+        "uk": "Це тіл (springing або rising teal). Лупер летить широкою дугою через небо."
+      }
+    },
+    {
+      "k": "flight-teal-chandelle-looper-q2",
+      "q": {
+        "en": "Where does the lead usually go on a dropping target?",
+        "uk": "Куди зазвичай іде винос на мішені, що падає?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Above and behind",
+          "uk": "Зверху і позаду"
+        },
+        {
+          "k": "b",
+          "en": "Underneath and in front",
+          "uk": "Знизу і попереду"
+        },
+        {
+          "k": "c",
+          "en": "Straight at the target",
+          "uk": "Прямо в мішень"
+        },
+        {
+          "k": "d",
+          "en": "Only to the side, not down",
+          "uk": "Лише вбік, не вниз"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A falling target moves down as well as along, so part of the lead is vertical: below and ahead.",
+        "uk": "Мішень, що падає, рухається і вниз, і вздовж, тож частина виносу вертикальна: знизу і попереду."
+      }
+    },
+    {
+      "k": "flight-teal-chandelle-looper-q3",
+      "q": {
+        "en": "A French-speaking coach says “chandelle”. What is the safest thing to do?",
+        "uk": "Франкомовний тренер каже «chandelle». Що найбезпечніше зробити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Check: straight up, or an arc over the top?",
+          "uk": "Уточнити: прямо вгору чи дугою через вершину?"
+        },
+        {
+          "k": "b",
+          "en": "Assume it is a looper",
+          "uk": "Вважати, що це лупер"
+        },
+        {
+          "k": "c",
+          "en": "Assume it is a teal",
+          "uk": "Вважати, що це тіл"
+        },
+        {
+          "k": "d",
+          "en": "Ignore it, since it is not a rulebook term",
+          "uk": "Пропустити, бо це не термін правил"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "French speakers often mean an almost vertical target (an English teal), while an English setter’s chandelle climbs on a curve and arcs over; a quick check avoids a wrong plan.",
+        "uk": "Франкомовні часто мають на увазі майже вертикальну мішень (англійський teal), а англійська chandelle злітає по кривій і перевалює через вершину; коротке уточнення вбереже від хибного плану."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "targets-special-presentations-q-looper",
+      "q": {
+        "en": "Which target flies a wide arc across the sky, like a rainbow?",
+        "uk": "Яка мішень летить широкою дугою через небо, як веселка?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Looper",
+          "uk": "Лупер"
+        },
+        {
+          "k": "b",
+          "en": "Teal",
+          "uk": "Тіл"
+        },
+        {
+          "k": "c",
+          "en": "Rabbit",
+          "uk": "Кролик"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A looper climbs, rolls over the top and falls on a wide arc. A teal goes almost straight up.",
+        "uk": "Лупер піднімається, перевалює через вершину й падає широкою дугою. Тіл летить майже вертикально вгору."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "9bef6588",
+    "summary": "9f74be7b",
+    "flight-teal-chandelle-looper-p1": "457f0510",
+    "flight-teal-chandelle-looper-p2": "c9b60978",
+    "flight-teal-chandelle-looper-p3": "89fc5e9c",
+    "flight-teal-chandelle-looper-p4": "e07ea0fd",
+    "flight-teal-chandelle-looper-p5": "b5048fad",
+    "flight-teal-chandelle-looper-p6": "4c7908ec",
+    "flight-teal-chandelle-looper-ph1": "f0be9839",
+    "flight-teal-chandelle-looper-ph2": "5e8e2de3",
+    "flight-teal-chandelle-looper-ph3": "9b4b7e93",
+    "flight-teal-chandelle-looper-ph4": "eae08448",
+    "flight-teal-chandelle-looper-kp1": "5cd2ef1f",
+    "flight-teal-chandelle-looper-kp2": "b510d557",
+    "flight-teal-chandelle-looper-kp3": "214b61ab",
+    "flight-teal-chandelle-looper-kp4": "c6bdb9fc",
+    "flight-teal-chandelle-looper-kp5": "9d0848d2",
+    "flight-teal-chandelle-looper-q1": "55b44cab",
+    "flight-teal-chandelle-looper-q2": "e96cb96b",
+    "flight-teal-chandelle-looper-q3": "f8b61474",
+    "targets-special-presentations-q-looper": "5e4df62a",
+    "targets-special-presentations-dyk": "3315164b"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: flight-teal-chandelle-looper-p1, flight-teal-chandelle-looper-p6, flight-teal-chandelle-looper-kp4, flight-teal-chandelle-looper-kp5, flight-teal-chandelle-looper-q3.",
+      "Overlays: remove keys deleted as duplicates or merged in the master: flight-teal-chandelle-looper-title.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: flight-teal-chandelle-looper-p1, flight-teal-chandelle-looper-p2, flight-teal-chandelle-looper-p3, flight-teal-chandelle-looper-p4, flight-teal-chandelle-looper-p5, flight-teal-chandelle-looper-q2.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in flight-teal-chandelle-looper-p1 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

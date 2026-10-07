@@ -1,0 +1,95 @@
+{
+  "id": "clayarena-find-your-results",
+  "lang": "de",
+  "base_rev": 2,
+  "h": {
+    "title": "f29a933a",
+    "summary": "ed2bf53b",
+    "clayarena-find-your-results-p1": "69523ad7",
+    "clayarena-find-your-results-p2": "338f1be0",
+    "clayarena-find-your-results-p3": "fb84bb29",
+    "clayarena-find-your-results-p4": "a1d793aa",
+    "clayarena-find-your-results-p5": "39d5a08a",
+    "clayarena-find-your-results-compare": "fe15e030",
+    "clayarena-find-your-results-p6": "5d841323",
+    "clayarena-find-your-results-kp1": "6aa41141",
+    "clayarena-find-your-results-kp2": "6f357ccc",
+    "clayarena-find-your-results-kp3": "59eb82ec",
+    "clayarena-find-your-results-kp4": "bd3d6a0c",
+    "clayarena-find-your-results-q1": "a2cbfcfd",
+    "clayarena-find-your-results-q2": "0299b2de",
+    "clayarena-find-your-results-q3": "e749bf73",
+    "clayarena-find-your-results-q4": "fda6128c",
+    "clayarena-find-your-results-q5": "bcae2181"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Wie man seine Ergebnisse und sein Profil findet",
+  "summary": "Finden Sie den Wettkampf, an dem Sie teilgenommen haben, und Ihren Namen in der Ergebnistabelle; von dort aus öffnen Sie Ihr Schützenprofil.",
+  "body": {
+    "clayarena-find-your-results-p1": "Nach einem Wettkampf in {{tm:sporting}} oder {{tm:compak}} erscheinen seine Ergebnisse auf ClayArena. Bei manchen Wettkämpfen werden sie schon während der laufenden Strecke aktualisiert. Am einfachsten öffnen Sie diesen Wettkampf und suchen Ihren Namen in der Ergebnistabelle. Den Wettkampf finden Sie in der Wettkampfliste oder im Kalender, der auch beendete Wettkämpfe zeigt.",
+    "clayarena-find-your-results-p2": "Die Tabelle zeigt Ihren Platz und wie viele Scheiben Sie getroffen haben. Eine {{term:round|Runde}} sind {{fact:rules.round-targets}}, und Ihr Gesamtergebnis ist die Summe Ihrer Runden. Ein internationaler {{tm:sporting}}-Wettkampf umfasst meist {{fact:basics.international-targets}}. {{term:club-shoot|Vereinsschießen}} haben oft weniger Scheiben: Das Format legt der Veranstalter fest. Wie man die Tabelle liest: {{lesson:watching-reading-results}}.",
+    "clayarena-find-your-results-p3": "Von der Ergebnistabelle aus öffnen Sie Ihr {{term:shooter-profile|Schützenprofil}}. Es sammelt Ihre Wettkämpfe, die auf ClayArena erfasst sind, und Ihre wichtigsten Kennzahlen. Sie können sich auch in der Schützenliste suchen, die sich nach Land filtern lässt.",
+    "clayarena-find-your-results-p4": "Namen stehen auf der Website so, wie in den Wettkampfdokumenten. Bei internationalen Wettkämpfen ist das meist die lateinische Schrift. Bei nationalen Wettkämpfen kann es die örtliche Schrift sein, etwa kyrillische Buchstaben bei ukrainischen Wettkämpfen. Finden Sie sich nicht, versuchen Sie die örtliche Schreibweise Ihres Namens und verschiedene lateinische Schreibweisen.",
+    "clayarena-find-your-results-p5": "ClayArena übernimmt die Ergebnisse aus den {{term:score-sheet|Ergebnislisten}} des Wettkampfs: den offiziellen Blättern, auf denen der {{term:referee|Schiedsrichter}} jede Scheibe als Treffer oder Fehlwurf einträgt. Die wichtigste Kontrolle findet also am Stand statt, nicht auf der Website. Ihr Profil zeigt genau das, was der Schiedsrichter aufgeschrieben hat.",
+    "clayarena-find-your-results-compare": {
+      "sporting": "Prüfen Sie Ihr Ergebnis auf der Karte (bei {{tm:sporting}} ist das die Ergebnisliste der Rotte), wenn Sie jeden Stand verlassen. Ist es falsch, sagen Sie es sofort dem Schiedsrichter: Nur er entscheidet, und seine Entscheidung kann nicht angefochten werden.",
+      "compak": "Unterschreiben Sie die Ergebnisliste am Ende jeder Runde. Verweigern Sie die Unterschrift, kann später keine Beschwerde angenommen werden."
+    },
+    "clayarena-find-your-results-p6": "Sehen Sie trotzdem einen Fehler auf der Website? Wenden Sie sich zuerst an den {{term:organiser|Veranstalter}} des Wettkampfs: Er ist für die offiziellen Ergebnisse verantwortlich, die Website zeigt sie nur an. Liegt das Problem an der Website selbst, etwa ein falsch geschriebener Name, schreiben Sie dem ClayArena-Team über die Kontaktdaten auf der Website."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-find-your-results-kp1": "Öffnen Sie den Wettkampf und suchen Sie sich in der Ergebnistabelle.",
+    "clayarena-find-your-results-kp2": "Von der Tabelle aus öffnen Sie Ihr Schützenprofil.",
+    "clayarena-find-your-results-kp3": "Suchen Sie Ihren Namen so, wie er in den Wettkampfdokumenten steht: in der örtlichen Schrift oder in lateinischen Buchstaben.",
+    "clayarena-find-your-results-kp4": "Prüfen Sie Ihr Ergebnis noch am Stand: bei {{tm:sporting}}, wenn Sie jeden Stand verlassen, bei {{tm:compak}}, wenn Sie die Ergebnisliste unterschreiben."
+  },
+  "quiz": {
+    "clayarena-find-your-results-q1": {
+      "q": "Woher kommen die Ergebnisse auf ClayArena?",
+      "options": {
+        "a": "Die Schützen tragen sie selbst ein",
+        "b": "Aus den Ergebnislisten",
+        "c": "Ein Trainer berechnet sie"
+      },
+      "explain": "Die Ergebnisse stammen aus den Ergebnislisten, prüfen Sie Ihr Ergebnis also schon am Stand."
+    },
+    "clayarena-find-your-results-q2": {
+      "q": "Wie viele Scheiben hat ein internationaler {{tm:sporting}}-Wettkampf meist?",
+      "options": {
+        "a": "200, in Runden zu 25",
+        "b": "100, in Runden zu 10",
+        "c": "50, ohne Runden"
+      },
+      "explain": "Die FITASC-Regeln legen für internationale Wettkämpfe 200 Scheiben in Runden zu 25 fest."
+    },
+    "clayarena-find-your-results-q3": {
+      "q": "Sie finden Ihren Namen nicht. Was können Sie versuchen?",
+      "options": {
+        "a": "Nach der Marke Ihrer Flinte suchen",
+        "b": "Den Namen in Großbuchstaben eingeben",
+        "c": "Andere Schreibweisen des Namens"
+      },
+      "explain": "Namen stehen so, wie in den Wettkampfdokumenten: in lateinischen Buchstaben oder in der örtlichen Schrift. Derselbe Nachname lässt sich auch lateinisch auf mehr als eine Art schreiben."
+    },
+    "clayarena-find-your-results-q4": {
+      "q": "Wann unterschreibt ein {{tm:compak}}-Schütze die Ergebnisliste?",
+      "options": {
+        "a": "Am Ende jeder Runde",
+        "b": "Erst nach dem letzten Tag",
+        "c": "Der Schiedsrichter unterschreibt, nicht der Schütze"
+      },
+      "explain": "Der Schütze unterschreibt am Ende jeder Runde; ohne Unterschrift wird später keine Beschwerde angenommen."
+    },
+    "clayarena-find-your-results-q5": {
+      "q": "Wann sollten Sie bei {{tm:sporting}} Ihr Ergebnis auf der Karte prüfen?",
+      "options": {
+        "a": "Am Ende der Saison",
+        "b": "Wenn Sie jeden Stand verlassen",
+        "c": "Erst nach der Siegerehrung"
+      },
+      "explain": "Prüfen Sie es, wenn Sie jeden Stand verlassen, und sagen Sie dem Schiedsrichter sofort, wenn etwas nicht stimmt."
+    }
+  }
+}

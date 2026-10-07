@@ -1,0 +1,78 @@
+{
+  "id": "nextstep-becoming-coach",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "54a57df7",
+    "summary": "db776fb5",
+    "nextstep-becoming-coach-p1": "d5f8293f",
+    "nextstep-becoming-coach-p2": "11d74f79",
+    "nextstep-becoming-coach-p3": "c0a073a0",
+    "nextstep-becoming-coach-p4": "1173fad2",
+    "nextstep-becoming-coach-p5": "4199dec1",
+    "nextstep-becoming-coach-p6": "f9f9d3bc",
+    "nextstep-becoming-coach-p7": "3fd58b14",
+    "nextstep-becoming-coach-academy": "4ff073ed",
+    "nextstep-becoming-coach-kp1": "725c46b3",
+    "nextstep-becoming-coach-kp2": "1d93642f",
+    "nextstep-becoming-coach-kp3": "e6dd5089",
+    "nextstep-becoming-coach-kp4": "b081b1b0",
+    "nextstep-becoming-coach-kp5": "c35ee532",
+    "nextstep-becoming-coach-dyk": "c3743c9b",
+    "nextstep-becoming-coach-q1": "6cc38296",
+    "nextstep-becoming-coach-q2": "01918c6f",
+    "nextstep-becoming-coach-q3": "751b5b45"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Hogyan legyen edző",
+  "summary": "Egy jó lövő még nem edző. Hogyan találjon edzőképzést, miért különböznek a képesítések országonként, és mire van szüksége egy edzőnek a technikán túl.",
+  "body": {
+    "nextstep-becoming-coach-p1": "Sok lövő egyszer eltöri a fejét azon, hogy elkezdjen másokat tanítani. Ez szép cél, de jól lőni és jól tanítani különböző képességek. Az {{term:coach|edző}} egyszerűen magyaráz, kívülről meglátja a hibát, és az adott emberhez választ gyakorlatot.",
+    "nextstep-becoming-coach-p2": "Az edzői képesítések országonként eltérnek. Néhol a {{term:national-federation|nemzeti szövetség}} tart edzőtanfolyamokat több szinten (1. szint, 2. szint és így tovább). Máshol egy lövészeti szövetség vagy egy sportiskola. A fizetős edzéshez szükség lehet hivatalos dokumentumra, biztosításra vagy engedélyre. Ezért kezdje azzal, hogy megtudja a saját országa szabályait.",
+    "nextstep-becoming-coach-p3": "Az edzőképzés általában a lőtéri biztonsággal és a fegyverrel magával kezdődik. Majd jön a {{term:gun-fit|tusméret beállítása}} (hogy a fegyver oda lőjön, ahova néz) és a {{term:master-eye|vezérszem}} megtalálása (az a szem, amely célzáskor vezet). A tanfolyamok a technika alapjaival és a kezdőkkel, gyerekekkel való munkával is foglalkoznak. Gyakran gyakorlati vizsgával zárulnak.",
+    "nextstep-becoming-coach-p4": "A {{term:safety|biztonság}} mindenekelőtt. Az edző többért felel, mint a technikáért. A tanulónak helyesen kell kezelnie a fegyvert, {{term:safety-glasses|szemüveget}} és {{term:hearing-protection|fülvédőt}} kell viselnie, és ismernie kell a fegyverekre és töltényekre vonatkozó helyi törvényeket.",
+    "nextstep-becoming-coach-p5": "Hasznos út, hogy egy tapasztalt edző mellett dolgozik: segít az edzéseken, figyel, és kérdéseket tesz fel. Olyat tanul, amit a könyvek nem tanítanak, például hogyan nyugtasson meg egy ideges tanulót, vagy hogyan magyarázzon el egy dolgot háromféleképpen.",
+    "nextstep-becoming-coach-p6": "Mindkét versenyszámban, a {{tm:sporting}} és a {{tm:compak}} esetében is, a lövő {{term:coaching|edzése}} (tanácsadás) nem megengedett a verseny alatt. A lövő {{term:yellow-card|sárga lapot}} kap (formális figyelmeztetést), és a bíró kiküldi a tanácsot adó személyt a lövészeti területről. Az edző a verseny előtt és után dolgozik.",
+    "nextstep-becoming-coach-p7": "Miután edző lett, a ClayArena edzőkatalógusa segít a tanulóknak megtalálni önt. Megmutatja, ki ön, és milyen versenyszámokat tanít: {{lesson:clayarena-coaches-grounds-tours}}.",
+    "nextstep-becoming-coach-academy": "Az Akadémia tréner-kezdő útvonala felkészülést segít, de nem edzői képesítés."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "nextstep-becoming-coach-kp1": "Jól lőni és jól tanítani különböző képességek.",
+    "nextstep-becoming-coach-kp2": "Az edzői képesítések az országtól függnek: tudja meg a helyi szabályokat.",
+    "nextstep-becoming-coach-kp3": "Az edzőképzés kiterjed a biztonságra, a tusméret beállítására, a vezérszemre és a kezdőkkel való munkára.",
+    "nextstep-becoming-coach-kp4": "A lövő edzése verseny alatt egyik versenyszámban sem megengedett.",
+    "nextstep-becoming-coach-kp5": "Egy tapasztalt edző mellett dolgozva sokat tanul."
+  },
+  "did_you_know": "A szabály a tanácsra vonatkozik, nem a beosztásra. Egy barát vagy egy szülő tanácsa a verseny alatt is számíthat edzői irányításnak.",
+  "quiz": {
+    "nextstep-becoming-coach-q1": {
+      "q": "Ugyanazok az edzői képesítések minden országban?",
+      "options": {
+        "a": "Igen, mindet a FITASC adja ki",
+        "b": "Nem, az országtól függenek",
+        "c": "Egyáltalán nincsenek képesítések"
+      },
+      "explain": "Az edzőképzés és az edzőkre vonatkozó szabályok országonként eltérnek."
+    },
+    "nextstep-becoming-coach-q2": {
+      "q": "Mi történik, ha valaki edzi a lövőt a verseny alatt?",
+      "options": {
+        "a": "Sárga lap a lövőnek; az edzőt kiküldik",
+        "b": "Semmi, ha ezt az edző teszi",
+        "c": "A lövő extra korongot kap"
+      },
+      "explain": "A versenyszám alatti edzés sem {{tm:sporting}}, sem {{tm:compak}} esetében nem megengedett."
+    },
+    "nextstep-becoming-coach-q3": {
+      "q": "Mi az első egy edző számára?",
+      "options": {
+        "a": "Egy drága fegyver",
+        "b": "A tanulók száma",
+        "c": "A tanuló biztonsága"
+      },
+      "explain": "A biztonság megelőzi a technikát és mindent mást."
+    }
+  }
+}

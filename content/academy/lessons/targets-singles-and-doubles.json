@@ -1,0 +1,573 @@
+{
+  "id": "targets-singles-and-doubles",
+  "rev": 3,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 7,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "fan"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "targets-singles-and-doubles"
+    ],
+    "interpreter": [
+      "flight-pairs"
+    ]
+  },
+  "terms": [
+    "single-target",
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "true-pair",
+    "rafale-double",
+    "english-sporting",
+    "one",
+    "zero-zero",
+    "no-bird",
+    "target-presentation",
+    "layout",
+    "round"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch4-single-target"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-doubles-general"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-double-on-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-simultaneous-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-rafale-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-traps-table"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-doubles-composition"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-singles-then-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-two-with-one-shot"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-double-on-report"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-simultaneous-double"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-one-cartridge-per-target"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-two-with-one-report"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-two-with-one-simultaneous"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-presentation-doubles"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-trajectory-variety"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    }
+  ],
+  "facts": [
+    "targets.sporting-layout-targets",
+    "targets.compak-station-menus"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Mid Valley Clays — Terminology"
+      },
+      "url": "https://midvalleyclays.com/terminology/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Singles and doubles",
+    "uk": "Одиночні мішені й дуплети"
+  },
+  "summary": {
+    "en": "What a single, a double on report, a simultaneous double and a rafale are, how many cartridges you may fire, and where {{tm:sporting}} and {{tm:compak}} differ.",
+    "uk": "Що таке одиночна мішень, дуплет на постріл, одночасний дуплет і рафаль, скільки патронів можна витратити і чим тут різняться {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "flight-pairs-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "anchor": "flight-pairs",
+      "en": "A single is one target from one trap. In both disciplines two shots may be fired at it, so if you miss you may fire again with the second barrel. A pair, or double, is two targets that go together: one call, and you shoot both.",
+      "uk": "Одиночна мішень (single) — одна мішень з однієї машинки. В обох дисциплінах по ній можна вистрілити двічі, тож після промаху можна вистрілити ще раз другим стволом. Дуплет (pair, double) — дві мішені, які йдуть разом: одна команда, і ви стріляєте обидві."
+    },
+    {
+      "k": "flight-pairs-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Report pair (double on report): the call releases the first target, and the shot at it releases the second. In {{tm:sporting}} the second comes 0 to 3 seconds after that shot. The order is fixed. “Report” means the sound of the shot, not a written report.",
+      "uk": "Дуплет на постріл (report pair, double on report): команда випускає першу мішень, а постріл по ній — другу. У {{tm:sporting}} друга вилітає через 0–3 секунди після цього пострілу. Порядок фіксований. «Report» тут — звук пострілу, а не «звіт»."
+    },
+    {
+      "k": "flight-pairs-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Simultaneous pair (“simo”; in {{term:english-sporting|English Sporting}} a “{{term:true-pair|true pair}}”): both targets leave at the same moment and may be shot in any order. They come from one or two traps; in {{tm:compak}} always from two different traps.",
+      "uk": "Одночасний дуплет (simultaneous, «simo»; в {{term:english-sporting|English Sporting}} — «{{term:true-pair|true pair}}»): обидві мішені вилітають одночасно, і їх можна стріляти в будь-якому порядку. Вони летять з однієї або двох машинок; у {{tm:compak}} — завжди з двох різних."
+    },
+    {
+      "k": "flight-pairs-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Following pair, which FITASC calls rafale: two targets from the same trap on the same flight path, the second leaving as soon as the trap has reloaded. You may shoot either one first. It exists only in {{tm:sporting}}: a {{tm:compak}} double is on report or simultaneous.",
+      "uk": "Following pair, яку FITASC називає рафаль (rafale): дві мішені з однієї машинки по одній траєкторії, друга вилітає, щойно машинка перезарядилася. Стріляти можна в будь-якому порядку. Рафаль є лише в {{tm:sporting}}: дуплет у {{tm:compak}} буває на постріл або одночасний."
+    },
+    {
+      "k": "targets-singles-and-doubles-cartridges",
+      "t": "compare",
+      "disc": "both",
+      "en": "Cartridges in a double",
+      "uk": "Патрони в дуплеті",
+      "sporting": {
+        "en": "Two cartridges for the double, and both may be fired at one target. If one shot breaks both targets, both count as hits (the referee calls “one” for each).",
+        "uk": "На дуплет два патрони, і обидва можна витратити на одну мішень. Якщо один постріл розбив обидві мішені, зараховують обидві як влучання (суддя каже «one» за кожну)."
+      },
+      "compak": {
+        "en": "One cartridge per target. Deliberately firing both shots at one target is scored {{term:zero-zero|zero-zero}} (both targets counted as missed). If one shot breaks both targets, they do not count as two hits. On a double on report, the first target's result stands and the double is thrown again for the second. On a simultaneous double, it is a No Bird and the double is repeated; the third time it happens, it is scored zero-zero.",
+        "uk": "Один патрон на мішень. Навмисно вистрілити обома в одну мішень — це {{term:zero-zero|zero-zero}} (обидві мішені — промах). Якщо один постріл розбив обидві мішені, це не два влучання. У дуплеті на постріл результат першої мішені лишається, а дуплет подають знову, щоб відстріляти другу. В одночасному дуплеті це No Bird, і дуплет повторюють; коли таке стається втретє, записують zero-zero."
+      }
+    },
+    {
+      "k": "targets-singles-and-doubles-p6",
+      "t": "tip",
+      "disc": "both",
+      "en": "How doubles are scored, including zero-zero and a No Bird in a pair, is explained in {{lesson:rules-doubles}}.",
+      "uk": "Як рахують дуплети, зокрема zero-zero і No Bird у дуплеті, пояснює урок {{lesson:rules-doubles}}."
+    },
+    {
+      "k": "flight-pairs-p6",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation-doubles",
+      "en": "On a {{tm:sporting}} stand the squad shoots the singles first, then the doubles. Before shooting, simultaneous and rafale doubles are thrown so the shooters can see them (they are shown to the first shooter of the squad); report pairs are not shown.",
+      "uk": "На стрілецькому місці {{tm:sporting}} група спершу стріляє одиночні, потім дуплети. Перед стрільбою одночасні дуплети й рафаль запускають, щоб стрільці їх побачили (їх показують першому стрільцеві групи); дуплети на постріл не показують."
+    },
+    {
+      "k": "targets-singles-and-doubles-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "A {{tm:sporting}} layout gives {{fact:targets.sporting-layout-targets}}, and the doubles use only targets already shown as singles from the same stand. A {{tm:compak}} round is also 25 targets, five per station, in one of three mixes: {{fact:targets.compak-station-menus}}.",
+      "uk": "Майданчик {{tm:sporting}} дає {{fact:targets.sporting-layout-targets}}, і дуплети складають лише з мішеней, які вже показали як одиночні з того самого місця. Раунд {{tm:compak}} — теж 25 мішеней, по п’ять на номері за одним із трьох варіантів: {{fact:targets.compak-station-menus}}."
+    },
+    {
+      "k": "targets-singles-and-doubles-tip1",
+      "t": "tip",
+      "disc": "both",
+      "en": "Before you call for a double, many coaches suggest planning both targets: which one first, where you break each, and where your eyes go for the second. More in {{lesson:faults-pairs-transition}}.",
+      "uk": "Перш ніж покликати дуплет, багато тренерів радять спланувати обидві мішені: яку першою, де розбити кожну і куди перевести погляд для другої. Докладніше — в уроці {{lesson:faults-pairs-transition}}."
+    },
+    {
+      "k": "flight-pairs-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "crosser-lr",
+        "pairs": [
+          "report",
+          "simultaneous",
+          "rafale"
+        ]
+      },
+      "ready": true
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "flight-pairs-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "It's on report — finish the first one properly, the second waits for your shot.",
+      "meaning": {
+        "en": "The second target only comes when the shooter fires at the first, so there is no need to rush the first.",
+        "uk": "Друга мішень вилетить лише після пострілу по першій, тож першу не треба квапити."
+      },
+      "say": {
+        "uk": "Це дуплет на постріл — спокійно розбийте першу, друга чекає на ваш постріл."
+      }
+    },
+    {
+      "k": "flight-pairs-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Simo: take the rabbit first, the teal will wait for you.",
+      "meaning": {
+        "en": "In the simultaneous pair shoot the rabbit first, because the teal stays in the air longer.",
+        "uk": "В одночасному дуплеті першим стріляйте кролика, бо тіл довше лишається в повітрі."
+      },
+      "say": {
+        "uk": "Одночасний: спершу кролик, тіл вас почекає."
+      }
+    },
+    {
+      "k": "flight-pairs-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Rafale — after the first, come straight back to the trap for the second.",
+      "meaning": {
+        "en": "Both targets come from the same trap; after the first shot, return eyes and gun towards the trap to pick up the second.",
+        "uk": "Обидві мішені з однієї машинки; після першого пострілу поверніть очі й стволи до машинки, щоб підхопити другу."
+      },
+      "say": {
+        "uk": "Рафаль — після першої одразу назад до машинки по другу."
+      }
+    },
+    {
+      "k": "flight-pairs-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "True pair from the tower, five of them.",
+      "meaning": {
+        "en": "Five simultaneous pairs thrown from the tower (English Sporting wording).",
+        "uk": "П’ять одночасних дуплетів з вишки (термінологія English Sporting)."
+      },
+      "say": {
+        "uk": "П’ять одночасних дуплетів з вишки."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "flight-pairs-kp1",
+      "core": true,
+      "en": "Single: one target, two shots allowed.",
+      "uk": "Одиночна: одна мішень, два постріли дозволені."
+    },
+    {
+      "k": "flight-pairs-kp2",
+      "core": true,
+      "en": "Report pair: the shot at the first releases the second; order fixed.",
+      "uk": "На постріл: постріл по першій випускає другу; порядок фіксований."
+    },
+    {
+      "k": "flight-pairs-kp3",
+      "core": true,
+      "en": "Rafale (following pair): same trap, same line, {{tm:sporting}} only.",
+      "uk": "Рафаль (following pair): одна машинка, одна лінія, лише {{tm:sporting}}."
+    },
+    {
+      "k": "flight-pairs-kp4",
+      "core": true,
+      "en": "Simultaneous (true pair): both at once, any order.",
+      "uk": "Одночасний (true pair): обидві разом, порядок довільний."
+    },
+    {
+      "k": "flight-pairs-kp5",
+      "core": true,
+      "en": "{{tm:sporting}}: both cartridges may go at one target; {{tm:compak}}: one per target.",
+      "uk": "{{tm:sporting}}: обидва патрони можна в одну мішень; {{tm:compak}}: один на мішень."
+    }
+  ],
+  "did_you_know": {
+    "k": "targets-singles-and-doubles-dyk",
+    "en": "Rafale is French for a “burst” or “gust”: the targets leave one after the other as fast as the trap can reload.",
+    "uk": "Rafale французькою — «шквал» або «черга»: мішені вилітають одна за одною так швидко, як машинка встигає перезарядитися."
+  },
+  "quiz": [
+    {
+      "k": "flight-pairs-q1",
+      "q": {
+        "en": "In a report pair, what releases the second target?",
+        "uk": "Що в дуплеті на постріл випускає другу мішень?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A second call",
+          "uk": "Друга команда"
+        },
+        {
+          "k": "b",
+          "en": "The referee's signal",
+          "uk": "Сигнал судді"
+        },
+        {
+          "k": "c",
+          "en": "The shot at the first target",
+          "uk": "Постріл по першій мішені"
+        },
+        {
+          "k": "d",
+          "en": "A timer of exactly 5 seconds",
+          "uk": "Таймер рівно на 5 секунд"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "“On report” means on the sound of the shot: firing at the first target releases the second.",
+        "uk": "«On report» — на звук пострілу: постріл по першій мішені випускає другу."
+      }
+    },
+    {
+      "k": "flight-pairs-q2",
+      "q": {
+        "en": "In {{tm:compak}} a shooter deliberately fires both cartridges at the first target of a simultaneous double. Result?",
+        "uk": "У {{tm:compak}} стрілець навмисно вистрілив обома патронами в першу мішень одночасного дуплета. Результат?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Allowed, as in {{tm:sporting}}",
+          "uk": "Дозволено, як у {{tm:sporting}}"
+        },
+        {
+          "k": "b",
+          "en": "Zero-zero",
+          "uk": "Zero-zero"
+        },
+        {
+          "k": "c",
+          "en": "No Bird and repeat",
+          "uk": "No Bird і повтор"
+        },
+        {
+          "k": "d",
+          "en": "Only the second target is zero",
+          "uk": "Промах лише за другу мішень"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "{{tm:compak}} allows one cartridge per target of a double; deliberately firing both at one target is scored zero-zero. In {{tm:sporting}} it would be allowed.",
+        "uk": "{{tm:compak}} дозволяє один патрон на кожну мішень дуплета; навмисні два постріли в одну мішень — zero-zero. У {{tm:sporting}} це було б дозволено."
+      }
+    },
+    {
+      "k": "targets-singles-and-doubles-q2",
+      "q": {
+        "en": "In which discipline are there rafale doubles?",
+        "uk": "У якій дисципліні бувають дуплети рафаль?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only in {{tm:sporting}}",
+          "uk": "Лише в {{tm:sporting}}"
+        },
+        {
+          "k": "b",
+          "en": "Only in {{tm:compak}}",
+          "uk": "Лише в {{tm:compak}}"
+        },
+        {
+          "k": "c",
+          "en": "In both",
+          "uk": "В обох"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A rafale is two targets from one trap on one trajectory, a {{tm:sporting}} double. {{tm:compak}} has only doubles on report and simultaneous doubles.",
+        "uk": "Рафаль — дві мішені з однієї машинки по одній траєкторії; це дуплет {{tm:sporting}}. У {{tm:compak}} є лише дуплети на постріл і одночасні."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "flight-pairs-q3",
+      "q": {
+        "en": "A British coach says “true pair”. How do you translate it?",
+        "uk": "Британський тренер каже «true pair». Як перекласти?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A correct, fair pair",
+          "uk": "Правильний, чесний дуплет"
+        },
+        {
+          "k": "b",
+          "en": "A pair of real birds",
+          "uk": "Дуплет зі справжніх птахів"
+        },
+        {
+          "k": "c",
+          "en": "A rafale",
+          "uk": "Рафаль"
+        },
+        {
+          "k": "d",
+          "en": "A simultaneous pair",
+          "uk": "Одночасний дуплет"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "“True pair” is the English Sporting name for a simultaneous pair; “true” has nothing to do with correctness.",
+        "uk": "«True pair» — назва одночасного дуплета в English Sporting; «true» тут не про правильність."
+      }
+    },
+    {
+      "k": "targets-singles-and-doubles-q1",
+      "q": {
+        "en": "How many targets does one {{tm:sporting}} layout give?",
+        "uk": "Скільки мішеней дає один майданчик {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "20: 10 singles and 5 doubles",
+          "uk": "20: 10 одиночних і 5 дуплетів"
+        },
+        {
+          "k": "b",
+          "en": "25: 15 singles and 5 doubles",
+          "uk": "25: 15 одиночних і 5 дуплетів"
+        },
+        {
+          "k": "c",
+          "en": "25: 25 singles",
+          "uk": "25: 25 одиночних"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Each {{tm:sporting}} layout type gives 25 targets: 15 singles and 5 doubles.",
+        "uk": "Кожен тип майданчика {{tm:sporting}} дає 25 мішеней: 15 одиночних і 5 дуплетів."
+      }
+    },
+    {
+      "k": "targets-singles-and-doubles-q-two-with-one",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}} one shot breaks both targets of a double. How is it scored?",
+        "uk": "У {{tm:sporting}} один постріл розбив обидві мішені дуплета. Як це зарахують?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "“One” and “one”",
+          "uk": "«One» і «one»"
+        },
+        {
+          "k": "b",
+          "en": "No Bird, the double is repeated",
+          "uk": "No Bird, дуплет повторюють"
+        },
+        {
+          "k": "c",
+          "en": "“One” and “zero”",
+          "uk": "«One» і «zero»"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:sporting}} both targets count when one shot breaks them. {{tm:compak}} has different rules.",
+        "uk": "У {{tm:sporting}} зараховують обидві мішені, якщо їх розбив один постріл. У {{tm:compak}} правила інші."
+      },
+      "rule_ref": "sporting:ch6-two-with-one-shot"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "474629da",
+    "summary": "8c511174",
+    "flight-pairs-p1": "de3af0f1",
+    "flight-pairs-p2": "4807909e",
+    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p3": "5326e900",
+    "targets-singles-and-doubles-cartridges": "9881669e",
+    "targets-singles-and-doubles-p6": "563c8328",
+    "flight-pairs-p6": "8dc7cb7e",
+    "targets-singles-and-doubles-p5": "e2032dad",
+    "targets-singles-and-doubles-tip1": "6c39d145",
+    "flight-pairs-ph1": "9a849839",
+    "flight-pairs-ph2": "113027fe",
+    "flight-pairs-ph3": "07db0d22",
+    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-kp1": "ef123d9b",
+    "flight-pairs-kp2": "3dee0536",
+    "flight-pairs-kp3": "dd039d2b",
+    "flight-pairs-kp4": "1fdf0730",
+    "flight-pairs-kp5": "73168bb5",
+    "flight-pairs-q1": "ebe2b5dc",
+    "flight-pairs-q2": "f669f8a6",
+    "targets-singles-and-doubles-q2": "69c2d15d",
+    "flight-pairs-q3": "424310f9",
+    "targets-singles-and-doubles-q1": "de200647",
+    "targets-singles-and-doubles-q-two-with-one": "e024bf17",
+    "targets-singles-and-doubles-dyk": "9a88d811"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: flight-pairs-p4, flight-pairs-q2.",
+      "Overlays: remove keys deleted as duplicates or merged in the master: flight-pairs-title, flight-pairs-p5.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: flight-pairs-p1, flight-pairs-p3, targets-singles-and-doubles-cartridges, flight-pairs-p6, targets-singles-and-doubles-p5.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in flight-pairs-p2, flight-pairs-p3, flight-pairs-p6, flight-pairs-kp3, flight-pairs-kp5, flight-pairs-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

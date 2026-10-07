@@ -1,0 +1,727 @@
+[
+  {
+    "id": "basics",
+    "order": 1,
+    "icon": "flag",
+    "title": {
+      "uk": "Основи",
+      "en": "Basics"
+    },
+    "purpose": {
+      "uk": "Що це за спорт, дисципліни, FITASC, стрільбище, хто стріляє, як почати, скільки це коштує і як почати дитині.",
+      "en": "What the sport is, the disciplines, FITASC, the shooting ground, who shoots, how to start, what it costs and how a child can start."
+    },
+    "starters": [
+      "intro-what-is-clay-shooting",
+      "intro-disciplines",
+      "intro-how-to-start"
+    ],
+    "sections": [
+      {
+        "id": "what",
+        "title": {
+          "uk": "Що це за спорт",
+          "en": "What the sport is"
+        },
+        "lessons": [
+          "intro-what-is-clay-shooting",
+          "intro-disciplines",
+          "intro-fitasc-and-organisation",
+          "intro-shooting-ground",
+          "intro-who-shoots"
+        ]
+      },
+      {
+        "id": "start",
+        "title": {
+          "uk": "Як почати",
+          "en": "How to start"
+        },
+        "lessons": [
+          "intro-how-to-start",
+          "budget-what-it-costs",
+          "budget-how-to-save",
+          "budget-first-year-plan"
+        ]
+      },
+      {
+        "id": "kids",
+        "title": {
+          "uk": "Дитині",
+          "en": "For a child"
+        },
+        "lessons": [
+          "juniors-starting-age",
+          "juniors-documents-licences"
+        ]
+      }
+    ],
+    "practice": [
+      "term-cards"
+    ],
+    "glossary_category": null
+  },
+  {
+    "id": "safety",
+    "order": 2,
+    "icon": "shield",
+    "title": {
+      "uk": "Етикет і безпека",
+      "en": "Safety & etiquette"
+    },
+    "purpose": {
+      "uk": "Звички безпеки, захист очей і слуху, свинець, діти; поведінка на стрілецькому місці й у групі, повага до судді, глядачі.",
+      "en": "Safety habits, eye and ear protection, lead, children; behaviour on the stand and in the group, respect for the referee, spectators."
+    },
+    "starters": [
+      "safety-core-rules",
+      "safety-eye-ear-protection"
+    ],
+    "sections": [
+      {
+        "id": "safety",
+        "title": {
+          "uk": "Безпека",
+          "en": "Safety"
+        },
+        "lessons": [
+          "safety-core-rules",
+          "safety-handling-carrying",
+          "safety-eye-ear-protection",
+          "health-lead-hygiene",
+          "juniors-safety-supervision"
+        ]
+      },
+      {
+        "id": "etiquette",
+        "title": {
+          "uk": "Етикет",
+          "en": "Etiquette"
+        },
+        "lessons": [
+          "safety-stand-etiquette",
+          "culture-sportsmanship-referee",
+          "watching-at-the-ground"
+        ]
+      }
+    ],
+    "practice": [],
+    "glossary_category": null
+  },
+  {
+    "id": "gear",
+    "order": 3,
+    "icon": "tool",
+    "title": {
+      "uk": "Спорядження",
+      "en": "Gear"
+    },
+    "purpose": {
+      "uk": "Рушниця, чоки, патрони, захист і одяг: як це називається, як працює, що і коли купувати.",
+      "en": "The gun, chokes, cartridges, protection and clothing: what things are called, how they work, what to buy and when."
+    },
+    "starters": [
+      "gun-parts",
+      "chokes-what-is-a-choke",
+      "cartridges-anatomy",
+      "gear-what-to-buy-first"
+    ],
+    "sections": [
+      {
+        "id": "gun",
+        "title": {
+          "uk": "Рушниця",
+          "en": "The gun"
+        },
+        "lessons": [
+          "gun-types",
+          "gun-parts",
+          "gun-gauge-and-barrels",
+          "gun-first-gun",
+          "gun-fit",
+          "juniors-equipment-fit",
+          "gun-care",
+          "gun-transport-documents"
+        ]
+      },
+      {
+        "id": "chokes",
+        "title": {
+          "uk": "Чоки",
+          "en": "Chokes"
+        },
+        "lessons": [
+          "chokes-what-is-a-choke",
+          "chokes-fixed-and-multichoke",
+          "chokes-names-and-marks",
+          "chokes-choosing-for-distance",
+          "chokes-steel-shot",
+          "chokes-pattern-testing-and-care"
+        ]
+      },
+      {
+        "id": "cartridges",
+        "title": {
+          "uk": "Патрони",
+          "en": "Cartridges"
+        },
+        "lessons": [
+          "cartridges-anatomy",
+          "cartridges-load-weight",
+          "cartridges-shot-size",
+          "cartridges-velocity-recoil",
+          "cartridges-lead-and-steel",
+          "cartridges-choosing-and-storage"
+        ]
+      },
+      {
+        "id": "kit",
+        "title": {
+          "uk": "Екіпірування",
+          "en": "Kit"
+        },
+        "lessons": [
+          "gear-what-to-buy-first",
+          "gear-shooting-glasses",
+          "gear-ear-protection",
+          "gear-shooting-vest",
+          "gear-clothing-and-shoes",
+          "gear-bags-cases-accessories"
+        ]
+      }
+    ],
+    "practice": [
+      "term-cards"
+    ],
+    "glossary_category": null
+  },
+  {
+    "id": "targets",
+    "order": 4,
+    "icon": "target",
+    "title": {
+      "uk": "Мішені і траєкторії",
+      "en": "Targets & flight lines"
+    },
+    "purpose": {
+      "uk": "Мішені, машинки, майданчики {{tm:sporting}} і {{tm:compak}}, меню, траєкторії, дуплети і як читати мішень.",
+      "en": "Targets, traps, {{tm:sporting}} and {{tm:compak}} layouts, menus, flight lines, doubles and how to read a target."
+    },
+    "starters": [
+      "targets-target-types",
+      "targets-basic-presentations"
+    ],
+    "sections": [
+      {
+        "id": "clays",
+        "title": {
+          "uk": "Мішені й машинки",
+          "en": "Targets and traps"
+        },
+        "lessons": [
+          "targets-target-types",
+          "targets-colours-visibility",
+          "targets-traps"
+        ]
+      },
+      {
+        "id": "layouts",
+        "title": {
+          "uk": "Майданчики",
+          "en": "Layouts"
+        },
+        "lessons": [
+          "targets-sporting-layout",
+          "targets-compak-layout",
+          "targets-menu"
+        ]
+      },
+      {
+        "id": "flight",
+        "title": {
+          "uk": "Траєкторії",
+          "en": "Flight lines"
+        },
+        "lessons": [
+          "targets-basic-presentations",
+          "flight-incomer-going-away",
+          "targets-special-presentations",
+          "flight-rabbit"
+        ]
+      },
+      {
+        "id": "pairs",
+        "title": {
+          "uk": "Дуплети і читання мішені",
+          "en": "Doubles and reading a target"
+        },
+        "lessons": [
+          "targets-singles-and-doubles",
+          "targets-reading-a-target"
+        ]
+      }
+    ],
+    "practice": [
+      "name-the-flight"
+    ],
+    "glossary_category": null
+  },
+  {
+    "id": "technique",
+    "order": 5,
+    "icon": "stance",
+    "title": {
+      "uk": "Техніка і винос",
+      "en": "Technique & lead"
+    },
+    "purpose": {
+      "uk": "Стійка, вкладка, очі, три точки, проводка, віддача; чотири методи виносу; розбір промахів.",
+      "en": "Stance, gun mount, eyes, the three points, follow-through, recoil; the four lead methods; reading misses."
+    },
+    "starters": [
+      "technique-stance",
+      "technique-gun-mount",
+      "technique-lead-methods"
+    ],
+    "sections": [
+      {
+        "id": "fundamentals",
+        "title": {
+          "uk": "Основи пострілу",
+          "en": "Fundamentals of a shot"
+        },
+        "lessons": [
+          "technique-stance",
+          "technique-gun-mount",
+          "technique-master-eye",
+          "technique-hold-pickup-break-points",
+          "technique-follow-through-and-mistakes",
+          "health-recoil-shoulder-neck"
+        ]
+      },
+      {
+        "id": "lead",
+        "title": {
+          "uk": "Винос",
+          "en": "Lead"
+        },
+        "lessons": [
+          "technique-lead-methods",
+          "lead-maintained",
+          "lead-swing-through",
+          "lead-pull-away",
+          "lead-ambush-instinctive"
+        ]
+      },
+      {
+        "id": "faults",
+        "title": {
+          "uk": "Помилки",
+          "en": "Faults"
+        },
+        "lessons": [
+          "faults-behind-in-front",
+          "faults-head-lift-stopping",
+          "faults-mount-errors",
+          "faults-pairs-transition"
+        ]
+      }
+    ],
+    "practice": [
+      "lead-lab",
+      "name-the-flight"
+    ],
+    "glossary_category": null
+  },
+  {
+    "id": "training",
+    "order": 6,
+    "icon": "calendar",
+    "title": {
+      "uk": "Тренування",
+      "en": "Training"
+    },
+    "purpose": {
+      "uk": "Тренер, структура й обсяг тренувань, розминка, сухе тренування вкладки, підготовка до змагань, щоденник.",
+      "en": "The coach, how to structure and dose training, warm-up, dry mount practice, preparing for a competition, a training diary."
+    },
+    "starters": [
+      "training-first-lessons-and-coach"
+    ],
+    "sections": [
+      {
+        "id": "main",
+        "title": {
+          "uk": "Тренування",
+          "en": "Training"
+        },
+        "lessons": [
+          "training-first-lessons-and-coach",
+          "training-session-structure",
+          "training-how-much-how-often",
+          "mind-warm-up-mobility",
+          "training-dry-mount-practice",
+          "training-for-competition",
+          "training-diary-and-progress"
+        ]
+      }
+    ],
+    "practice": [],
+    "glossary_category": null
+  },
+  {
+    "id": "mind",
+    "order": 7,
+    "icon": "mind",
+    "title": {
+      "uk": "Психологія і підготовка",
+      "en": "Mind & preparation"
+    },
+    "purpose": {
+      "uk": "Передпостріловий ритуал, увага, дихання, слова-підказки, уявна репетиція, хвилювання, тиск, перезапуск після промаху, цілі, день змагань, антидопінг, юніори.",
+      "en": "Pre-shot routine, attention, breathing, cue words, imagery, nerves, pressure, resetting after a miss, goals, competition day, anti-doping, juniors."
+    },
+    "starters": [
+      "mind-routine-under-pressure",
+      "mind-reset-after-miss"
+    ],
+    "sections": [
+      {
+        "id": "before",
+        "title": {
+          "uk": "Перед пострілом",
+          "en": "Before the shot"
+        },
+        "lessons": [
+          "mind-routine-under-pressure",
+          "mind-concentration-focus",
+          "mind-breathing",
+          "mind-cue-words-self-talk",
+          "mind-imagery"
+        ]
+      },
+      {
+        "id": "pressure",
+        "title": {
+          "uk": "Під тиском",
+          "en": "Under pressure"
+        },
+        "lessons": [
+          "mind-competition-nerves",
+          "mind-pressure-choking",
+          "mind-reset-after-miss",
+          "mind-process-goals"
+        ]
+      },
+      {
+        "id": "day",
+        "title": {
+          "uk": "День змагань",
+          "en": "Competition day"
+        },
+        "lessons": [
+          "mind-long-day-energy-sleep",
+          "mind-anti-doping"
+        ]
+      },
+      {
+        "id": "juniors",
+        "title": {
+          "uk": "Юніори",
+          "en": "Juniors"
+        },
+        "lessons": [
+          "juniors-support-without-pressure"
+        ]
+      }
+    ],
+    "practice": [],
+    "glossary_category": null
+  },
+  {
+    "id": "rules",
+    "order": 8,
+    "icon": "whistle",
+    "title": {
+      "uk": "Правила",
+      "en": "Rules"
+    },
+    "purpose": {
+      "uk": "Правила FITASC простими словами, коротко і своїми словами; у кожного правила позначка {{tm:sporting}} або {{tm:compak}} і посилання на довідник правил.",
+      "en": "FITASC rules in plain words, short and in our own words; every rule is marked {{tm:sporting}} or {{tm:compak}} and links to the rules guide."
+    },
+    "starters": [
+      "rules-hit-and-no-bird"
+    ],
+    "sections": [
+      {
+        "id": "main",
+        "title": {
+          "uk": "Правила",
+          "en": "Rules"
+        },
+        "lessons": [
+          "rules-gun-position",
+          "rules-call-and-time",
+          "rules-viewing-targets",
+          "rules-hit-and-no-bird",
+          "rules-malfunctions",
+          "rules-doubles",
+          "rules-cards-and-appeals",
+          "rules-dress-and-safety"
+        ]
+      }
+    ],
+    "practice": [
+      "referees-call",
+      "rules-exam"
+    ],
+    "glossary_category": null
+  },
+  {
+    "id": "competitions",
+    "order": 9,
+    "icon": "trophy",
+    "title": {
+      "uk": "Змагання",
+      "en": "Competitions"
+    },
+    "purpose": {
+      "uk": "Види змагань, заявка, день змагань, картка і результати, категорії й перестрілки, протести, юніори.",
+      "en": "Types of competition, entering, competition day, the score card and results, categories and shoot-offs, protests, juniors."
+    },
+    "starters": [
+      "competitions-competition-day"
+    ],
+    "sections": [
+      {
+        "id": "main",
+        "title": {
+          "uk": "Змагання",
+          "en": "Competitions"
+        },
+        "lessons": [
+          "competitions-types-of-events",
+          "competitions-how-to-enter",
+          "competitions-competition-day",
+          "watching-reading-results",
+          "competitions-categories-and-shoot-offs",
+          "competitions-results-and-protests",
+          "juniors-competitions-and-costs"
+        ]
+      }
+    ],
+    "practice": [],
+    "glossary_category": null
+  },
+  {
+    "id": "travel",
+    "order": 10,
+    "icon": "plane",
+    "title": {
+      "uk": "Подорожі",
+      "en": "Travel"
+    },
+    "purpose": {
+      "uk": "Поїздка, рушниця в ЄС і за його межами, літак, набої на місці, зміна часових поясів; тури ClayAway (готується).",
+      "en": "Planning a trip, the gun in the EU and outside it, flying, cartridges at the destination, jet lag; ClayAway tours (coming soon)."
+    },
+    "starters": [
+      "travel-planning-trip"
+    ],
+    "sections": [
+      {
+        "id": "main",
+        "title": {
+          "uk": "Подорожі",
+          "en": "Travel"
+        },
+        "lessons": [
+          "travel-planning-trip",
+          "travel-gun-in-eu",
+          "travel-gun-outside-eu",
+          "travel-flying-with-guns",
+          "travel-cartridges-at-destination",
+          "travel-jet-lag",
+          "travel-clayaway-tour"
+        ]
+      }
+    ],
+    "practice": [],
+    "glossary_category": null
+  },
+  {
+    "id": "stand-talk",
+    "order": 11,
+    "icon": "speech",
+    "title": {
+      "uk": "Мова стенду",
+      "en": "Stand Talk"
+    },
+    "purpose": {
+      "uk": "Як говорять тренер, суддя і стрільці; робота перекладача; для всіх, хто тренується з тренером, який говорить іншою мовою.",
+      "en": "How the coach, the referee and shooters talk; the interpreter's work; for everyone who trains with a coach who speaks another language."
+    },
+    "starters": [
+      "interpreter-role",
+      "referee-calls"
+    ],
+    "sections": [
+      {
+        "id": "role",
+        "title": {
+          "uk": "Роль",
+          "en": "The role"
+        },
+        "lessons": [
+          "interpreter-role",
+          "interpreter-position"
+        ]
+      },
+      {
+        "id": "said",
+        "title": {
+          "uk": "Що кажуть на стенді",
+          "en": "What is said on the stand"
+        },
+        "lessons": [
+          "referee-calls",
+          "stand-talk-shooter-phrases",
+          "faults-reading-the-coach",
+          "lead-how-coaches-say-it",
+          "stand-talk-mental-game"
+        ]
+      },
+      {
+        "id": "traps",
+        "title": {
+          "uk": "Пастки перекладу",
+          "en": "Translation traps"
+        },
+        "lessons": [
+          "interpreter-false-friends",
+          "interpreter-numbers-and-units",
+          "interpreter-english-sporting-vs-fitasc"
+        ]
+      },
+      {
+        "id": "work",
+        "title": {
+          "uk": "Робота",
+          "en": "On the job"
+        },
+        "lessons": [
+          "stand-talk-foreign-coach",
+          "interpreter-session-script"
+        ]
+      }
+    ],
+    "practice": [
+      "translate-the-coach",
+      "phrasebook"
+    ],
+    "glossary_category": null
+  },
+  {
+    "id": "watch",
+    "order": 12,
+    "icon": "eye",
+    "title": {
+      "uk": "Дивитися і стежити",
+      "en": "Watch & follow"
+    },
+    "purpose": {
+      "uk": "Як дивитися стрільбу і відео; ClayArena: результати, профіль, цифри, каталоги.",
+      "en": "How to watch shooting and videos; ClayArena: results, profile, numbers, catalogues."
+    },
+    "starters": [
+      "watching-what-to-look-at"
+    ],
+    "sections": [
+      {
+        "id": "watch",
+        "title": {
+          "uk": "Дивитися",
+          "en": "Watching"
+        },
+        "lessons": [
+          "watching-what-to-look-at"
+        ]
+      },
+      {
+        "id": "clayarena",
+        "title": {
+          "uk": "ClayArena",
+          "en": "ClayArena"
+        },
+        "lessons": [
+          "clayarena-what-is-clayarena",
+          "clayarena-find-your-results",
+          "clayarena-profile-numbers",
+          "clayarena-videos-recaps-calendar",
+          "clayarena-coaches-grounds-tours"
+        ]
+      }
+    ],
+    "practice": [
+      "name-the-flight"
+    ],
+    "glossary_category": null
+  },
+  {
+    "id": "community",
+    "order": 13,
+    "icon": "people",
+    "title": {
+      "uk": "Спільнота та історія",
+      "en": "Community & history"
+    },
+    "purpose": {
+      "uk": "Історія, традиції, природа, клуб; як стати суддею чи тренером; клубний турнір.",
+      "en": "History, traditions, nature, the club; how to become a referee or a coach; a club shoot."
+    },
+    "starters": [],
+    "sections": [
+      {
+        "id": "history",
+        "title": {
+          "uk": "Історія",
+          "en": "History"
+        },
+        "lessons": [
+          "history-live-birds-to-clays",
+          "history-fitasc-founding",
+          "history-birth-of-sporting",
+          "history-compak-sporting",
+          "history-olympics-and-world"
+        ]
+      },
+      {
+        "id": "culture",
+        "title": {
+          "uk": "Культура",
+          "en": "Culture"
+        },
+        "lessons": [
+          "culture-traditions",
+          "culture-environment",
+          "culture-club-life"
+        ]
+      },
+      {
+        "id": "next",
+        "title": {
+          "uk": "Наступний крок",
+          "en": "The next step"
+        },
+        "lessons": [
+          "nextstep-becoming-referee",
+          "nextstep-becoming-coach",
+          "nextstep-club-shoot-and-volunteering"
+        ]
+      }
+    ],
+    "practice": [],
+    "glossary_category": null
+  }
+]

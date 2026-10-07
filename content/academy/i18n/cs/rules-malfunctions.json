@@ -1,0 +1,239 @@
+{
+  "id": "rules-malfunctions",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "42ad182b",
+    "summary": "9f55921b",
+    "sporting-malfunctions-p1": "41a008e3",
+    "sporting-malfunctions-p2": "d3532cc1",
+    "safety-malfunction-p3": "21d65653",
+    "rules-malfunctions-cmp1": "f79b0f17",
+    "sporting-malfunctions-p4": "4eef43d0",
+    "sporting-malfunctions-p5": "1a92fd88",
+    "compak-malfunctions-p3": "a9c8fd76",
+    "compak-malfunctions-p4": "a0165b36",
+    "compak-malfunctions-p5": "6c9dff80",
+    "rules-malfunctions-p7": "b2c06d3e",
+    "rules-malfunctions-n1": "0b3b256f",
+    "sporting-malfunctions-ph1": "c9bdfb88",
+    "sporting-malfunctions-ph2": "af62cc6a",
+    "sporting-malfunctions-ph3": "b1131f9c",
+    "sporting-malfunctions-ph4": "57b5468e",
+    "compak-malfunctions-ph1": "970afde6",
+    "compak-malfunctions-ph2": "b20b6941",
+    "compak-malfunctions-ph3": "4503ddd1",
+    "compak-malfunctions-ph4": "8cf9d336",
+    "sporting-malfunctions-kp1": "849f2ecd",
+    "sporting-malfunctions-kp2": "ebfb6f3d",
+    "compak-malfunctions-kp1": "13690047",
+    "sporting-malfunctions-kp4": "103b47fd",
+    "rules-malfunctions-kp5": "86bbb46b",
+    "safety-malfunction-dyk": "1e8c958c",
+    "rules-malfunctions-q1": "a05aaec5",
+    "rules-malfunctions-q2": "516fa443",
+    "rules-malfunctions-q3": "99323093",
+    "safety-malfunction-q1": "a94af216",
+    "safety-malfunction-q2": "016e7972",
+    "safety-malfunction-q3": "9d5fedce",
+    "competitions-scoring-basics-q2": "90ddf735",
+    "sporting-malfunctions-q1": "332f9baa",
+    "sporting-malfunctions-q2": "4028e248",
+    "sporting-malfunctions-q3": "772d233e",
+    "compak-malfunctions-q1": "8716abe3",
+    "compak-malfunctions-q2": "6d7c5bb8",
+    "compak-malfunctions-q3": "33252bbe"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Poruchy zbraně nebo náboje",
+  "summary": "Co dělat, když zbraň nevystřelí, a jak se porucha hodnotí ve {{tm:sporting}} a {{tm:compak}}.",
+  "body": {
+    "sporting-malfunctions-p1": "{{term:malfunction|Porucha}} je selhání zbraně nebo náboje: selhání výstřelu, nefunkční druhá hlaveň nebo současný výstřel obou hlavní ({{term:double-discharge|double discharge}}).",
+    "sporting-malfunctions-p2": "Nejdřív, co musí střelec udělat: zůstat na místě, zbraň namířená do prostoru střelby. Neotvírejte ji a nesahejte na {{term:safety-catch|pojistku}}, dokud ji rozhodčí neprohlédne. Otevření zbraně nebo dotyk pojistky předtím znamená, že terč nebo terče se hodnotí nulou. Nepokoušejte se nabitou zbraň na stanovišti sami rozebírat.",
+    "safety-malfunction-p3": "Proč zbraň neotvírat hned? Občas náboj vystřelí se zpožděním, zlomek sekundy nebo i později po stisknutí spouště: {{term:hang-fire|selhání náboje}}. Pokud je v tu chvíli zbraň otevřená nebo namířená do strany, je to nebezpečné. Proto na tréninku bez rozhodčího vyčkejte se zbraní namířenou bezpečným směrem, než ji otevřete; jak dlouho, poradí instruktor nebo pravidla střelnice.",
+    "rules-malfunctions-cmp1": {
+      "sporting": "V rámci {{term:round|položky}} {{fact:rules.round-targets}}. První incident je No Bird s napomenutím a terč se opakuje. Od druhého se terč už neopakuje, ale hodnotí se nulou.",
+      "compak": "V rámci položky {{fact:rules.round-targets}}. První incident je No Bird se {{term:yellow-card|žlutou kartou}}. Druhý téhož typu přináší {{term:red-card|červenou kartu}}, a terče, na které se nestřílelo, jsou nula."
+    },
+    "sporting-malfunctions-p4": "Vaše první porucha v položce, případ od případu. (1) Selže první rána: jednotlivý terč nebo dvojstřel střílíte znovu. Pokud jste přesto vystřelili i druhou ranu, její výsledek platí. (2) U jednotlivého terče selže druhá rána: terč střílíte znovu, a na opakování se počítá jen zásah druhou ranou. Proto první ranou úmyslně mimo. (3) Obě hlavně vystřelí současně u jednotlivého terče, nebo u prvního terče dvojstřelu: No Bird, nic se nezapisuje a střílíte znovu. Jak se opakuje každý druh dvojstřelu, najdete v průvodci pravidly ({{rule:sporting:ch6-malfunction-second-shot}}).",
+    "sporting-malfunctions-p5": "Pokud je vaše zbraň opravena dřív, než skupina dostřílí stanoviště, můžete se svolením rozhodčího střílet poslední. Pokud se opravit nedá, můžete okamžitě přejít na jinou zbraň se souhlasem rozhodčího, nebo dostřílet později v jiné skupině, pokud to dovolí jury. Mimo případ poruchy nelze na stanovišti měnit zbraň, zahrdlení ani hlavně.",
+    "compak-malfunctions-p3": "Vaše první porucha v položce. Pokud obě hlavně vystřelí současně nebo selže první náboj, jednotlivý terč nebo dvojstřel se hází znovu a nepovedený pokus se nezapočítává. Pokud u jednotlivého terče selže druhý náboj, terč se hází znovu, ale započítat ho může jen druhá rána. Proto první ranou úmyslně mimo. U dvojstřelů viz průvodce pravidly ({{rule:compak:ch20-gun-failure-second-shot}}).",
+    "compak-malfunctions-p4": "Po poruše máte {{fact:rules.compak-repair-time}}, abyste zbraň opravili nebo vyměnili. Výjimečně si můžete půjčit zbraň od někoho mimo vaši skupinu, se souhlasem majitele a rozhodčího. Bez funkční zbraně se zbývající terče hodnotí nulou. Jinak se zbraň, zahrdlení ani hlaveň v průběhu položky nesmí měnit.",
+    "compak-malfunctions-p5": "{{term:rabbit|Zajíc}} je terč, který se kutálí po zemi. V obou disciplínách platí: pokud ho minete první ranou a on se sám rozbije ještě před druhou ranou, je to No Bird. Může se to stát, když narazí na kámen. Při opakování se počítá jen druhá rána, stejně jako po poruše na druhé ráně.",
+    "rules-malfunctions-p7": "Zkontrolujte zbraň a náboje před položkou, na {{term:gun-test|zkušebním stanovišti}} u klubovny, pokud existuje. Zkušební výstřely na stanovišti nejsou povoleny v žádné z disciplín."
+  },
+  "note": {
+    "rules-malfunctions-n1": "Slova rozhodčího předejte okamžitě a slovo od slova: „zůstaňte tam, neotvírejte zbraň“. Vysvětlení až po kontrole."
+  },
+  "phrases": {
+    "sporting-malfunctions-ph1": {
+      "meaning": "Rozhodčí: čekejte na kontrolu; otevření předtím stojí terč.",
+      "say": "Zůstaňte stát, zbraň neotevírejte."
+    },
+    "sporting-malfunctions-ph2": {
+      "meaning": "Rozhodčí prohlíží zbraň nebo náboj.",
+      "say": "Ukažte mi zbraň."
+    },
+    "sporting-malfunctions-ph3": {
+      "meaning": "První incident v položce: terč se opakuje.",
+      "say": "Porucha. No Bird, první napomenutí."
+    },
+    "sporting-malfunctions-ph4": {
+      "meaning": "Tentokrát bez opakování; terč je ztracen.",
+      "say": "Druhá porucha v této položce. Nula."
+    },
+    "compak-malfunctions-ph1": {
+      "meaning": "Rozhodčí: po selhání čekejte na kontrolu.",
+      "say": "Nehýbejte se, zbraň nechte zavřenou."
+    },
+    "compak-malfunctions-ph2": {
+      "meaning": "První incident tohoto typu v položce; terč se hází znovu.",
+      "say": "První porucha. Žlutá karta, No Bird."
+    },
+    "compak-malfunctions-ph3": {
+      "meaning": "Čas na opravu nebo výměnu zbraně.",
+      "say": "Máte dvě minuty."
+    },
+    "compak-malfunctions-ph4": {
+      "meaning": "Opakování po selhání druhého náboje: první ranou úmyslně mimo.",
+      "say": "U tohoto terče se počítá jen druhá rána."
+    }
+  },
+  "key_points": {
+    "sporting-malfunctions-kp1": "Po selhání zůstaňte na místě se zbraní zavřenou a namířenou do prostoru střelby; otevření před kontrolou rozhodčím stojí terč.",
+    "sporting-malfunctions-kp2": "První incident v položce: No Bird a napomenutí (v {{tm:compak}} žlutá karta).",
+    "compak-malfunctions-kp1": "Druhý incident ve stejné položce: bez opakování. Ve {{tm:sporting}} je terč nula. V {{tm:compak}} druhé selhání stejného typu přináší červenou kartu, a terče, na které se nestřílelo, jsou nula.",
+    "sporting-malfunctions-kp4": "Selže druhá rána na jednotlivém terči: při opakování se počítá jen zásah druhou ranou.",
+    "rules-malfunctions-kp5": "{{tm:compak}}: {{fact:rules.compak-repair-time}} na opravu nebo výměnu zbraně."
+  },
+  "did_you_know": "Některé „poruchy“ u nováčků jsou jen nevypnutá pojistka. Trenér vás naučí zkontrolovat ji ještě před zavoláním terče.",
+  "quiz": {
+    "rules-malfunctions-q1": {
+      "q": "Váš náboj selhal. Co uděláte jako první?",
+      "options": {
+        "a": "Otevřít zbraň a zkontrolovat náboj",
+        "b": "Hned znovu nabít a zavolat terč",
+        "c": "Zůstat na místě, zbraň zavřená, a čekat na rozhodčího"
+      },
+      "explain": "Otevření zbraně nebo dotyk pojistky před kontrolou rozhodčím znamená, že se terč hodnotí nulou."
+    },
+    "rules-malfunctions-q2": {
+      "q": "Ve {{tm:sporting}} nastane ve stejné položce druhá porucha zbraně, u jednotlivého terče. Jaký je výsledek?",
+      "options": {
+        "a": "Nula",
+        "b": "No Bird",
+        "c": "Zásah"
+      },
+      "explain": "Jen první porucha v položce je No Bird; od druhé se terč hodnotí nulou."
+    },
+    "rules-malfunctions-q3": {
+      "q": "Kolik času máte v {{tm:compak}} na opravu nebo výměnu zbraně?",
+      "options": {
+        "a": "30 sekund",
+        "b": "2 minuty",
+        "c": "10 minut"
+      },
+      "explain": "Máte {{fact:rules.compak-repair-time}}; bez funkční zbraně jsou neodstřílené terče nula."
+    },
+    "safety-malfunction-q1": {
+      "q": "Na tréninku bez rozhodčího zbraň cvakne, ale nevystřelí. Co máte udělat?",
+      "options": {
+        "a": "Hned ji otevřít a podívat se",
+        "b": "Nechat ji namířenou bezpečným směrem a před otevřením čekat",
+        "c": "Otočit se a ukázat ji trenérovi"
+      },
+      "explain": "Náboj může vystřelit se zpožděním (selhání náboje), proto držte ústí hlavně bezpečným směrem a před otevřením zbraně čekejte. Jak dlouho, poradí instruktor nebo pravidla střelnice."
+    },
+    "safety-malfunction-q2": {
+      "q": "Po selhání výstřelu zapnete pojistku dřív, než zbraň prohlédl rozhodčí. Co se stane?",
+      "options": {
+        "a": "Terč se hodnotí nulou",
+        "b": "Dostanete terč navíc",
+        "c": "Nic: zbraň je tak bezpečnější"
+      },
+      "explain": "Dotyk pojistky před kontrolou rozhodčím stojí terč, stejně jako otevření zbraně. Čekejte, zbraň namířená do prostoru střelby."
+    },
+    "safety-malfunction-q3": {
+      "q": "Proč se porouchaná zbraň neotvírá hned?",
+      "options": {
+        "a": "Aby se nezašpinil náboj",
+        "b": "Protože náboj může vystřelit se zpožděním",
+        "c": "Protože to lépe vypadá"
+      },
+      "explain": "Zpožděný výstřel je vzácný, ale nebezpečný, proto musí zbraň zůstat namířená bezpečným směrem."
+    },
+    "competitions-scoring-basics-q2": {
+      "q": "{{tm:sporting}}: vaše zbraň se porouchá na stanovišti (první incident) a je opravena, zatímco vaše skupina na tomto stanovišti ještě střílí. Co můžete udělat?",
+      "options": {
+        "a": "Odstřílet stanoviště poslední, pokud to dovolí rozhodčí",
+        "b": "Nic: zbývající terče jsou nula",
+        "c": "Odstřílet ho druhý den"
+      },
+      "explain": "Pokud je zbraň opravena dřív, než skupina dostřílí stanoviště, můžete tam střílet poslední se svolením rozhodčího."
+    },
+    "sporting-malfunctions-q1": {
+      "q": "První problém se zbraní v položce: u jednotlivého terče selže první náboj. Střelec čeká se zbraní namířenou do prostoru střelby na rozhodčího. Rozhodnutí?",
+      "options": {
+        "a": "Nula",
+        "b": "No Bird s napomenutím; terč se opakuje",
+        "c": "Zásah",
+        "d": "Žlutá karta a nula"
+      },
+      "explain": "První incident zbraně nebo munice v položce je No Bird s napomenutím a jednotlivý terč se opakuje."
+    },
+    "sporting-malfunctions-q2": {
+      "q": "Náboj selže a rozzlobený střelec zbraň zlomí, aby se podíval na zápalku, dřív než přijde rozhodčí. Rozhodnutí?",
+      "options": {
+        "a": "No Bird",
+        "b": "Terč se po napomenutí opakuje",
+        "c": "Nula",
+        "d": "Červená karta a terč se opakuje"
+      },
+      "explain": "Otevření zbraně nebo dotyk pojistky před kontrolou rozhodčím znamená, že se terč hodnotí nulou."
+    },
+    "sporting-malfunctions-q3": {
+      "q": "Jednotlivý terč, první incident: první rána mine a druhý náboj selže, takže se terč opakuje. Při opakování ho střelec rozbije první ranou. Rozhodnutí?",
+      "options": {
+        "a": "Zásah",
+        "b": "Znovu No Bird",
+        "c": "Zásah s napomenutím",
+        "d": "Nula"
+      },
+      "explain": "Po selhání druhé rány smí být opakovaný jednotlivý terč rozbit jen druhou ranou, takže první rána musí být úmyslně mimo."
+    },
+    "compak-malfunctions-q1": {
+      "q": "První incident položky v {{tm:compak}}: u jednotlivého terče selže první náboj. Střelec správně čeká. Rozhodnutí?",
+      "options": {
+        "a": "No Bird se žlutou kartou",
+        "b": "Nula, bez opakování",
+        "c": "Červená karta a nula",
+        "d": "Zásah, rána se počítá"
+      },
+      "explain": "První incident zbraně nebo náboje v položce je No Bird s prvním napomenutím, které ukazuje žlutá karta."
+    },
+    "compak-malfunctions-q2": {
+      "q": "Střelci se porouchá zbraň a chce si půjčit zbraň spoluhráče ze skupiny. Je to povoleno?",
+      "options": {
+        "a": "Ano, se souhlasem majitele",
+        "b": "Ano, pokud souhlasí rozhodčí",
+        "c": "Ano, bez podmínek",
+        "d": "Ne, jen od někoho mimo skupinu"
+      },
+      "explain": "{{tm:compak}} zakazuje sdílet zbraň v rámci skupiny. Výjimečné půjčení je možné jen mimo ni, se souhlasem majitele i rozhodčího."
+    },
+    "compak-malfunctions-q3": {
+      "q": "Druhé selhání zbraně stejného typu v této položce, u jednotlivého terče, na který střelec nemohl vystřelit. Rozhodnutí?",
+      "options": {
+        "a": "Znovu No Bird",
+        "b": "No Bird a napomenutí",
+        "c": "Nula s červenou kartou",
+        "d": "Terč se ukáže znovu"
+      },
+      "explain": "Od druhého incidentu stejného typu se terče, na které se nestřílelo, hodnotí nulou."
+    }
+  }
+}

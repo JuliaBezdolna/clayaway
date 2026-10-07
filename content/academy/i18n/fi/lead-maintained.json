@@ -1,0 +1,106 @@
+{
+ "id": "lead-maintained",
+ "lang": "fi",
+ "base_rev": 2,
+ "h": {
+  "title": "74619e7f",
+  "summary": "f3c3a529",
+  "lead-maintained-p1": "d4a9e8a1",
+  "lead-maintained-p2": "b85af489",
+  "lead-maintained-p3": "ef94419f",
+  "lead-maintained-p4": "369d9fb1",
+  "lead-maintained-p5": "280dfd7e",
+  "lead-maintained-sim": "610438f9",
+  "lead-maintained-ph1": "2a28e944",
+  "lead-maintained-ph2": "8b99224a",
+  "lead-maintained-ph3": "932d48b0",
+  "lead-maintained-ph4": "01d64d37",
+  "lead-maintained-kp1": "33b5f739",
+  "lead-maintained-kp2": "e6e1add7",
+  "lead-maintained-kp3": "a0fcec1e",
+  "lead-maintained-kp4": "c71a2713",
+  "lead-maintained-kp5": "d2a618a9",
+  "lead-maintained-q1": "b2b35185",
+  "lead-maintained-q2": "fcdfd85a",
+  "lead-maintained-q3": "b033e96b"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Pysyvä ennakko: mene eteen, pysy edessä",
+ "summary": "Miten pysyvä ennakko toimii vaihe vaiheelta sivukiekossa, mihin kiekkoihin se usein sopii ja mikä on sen tyypillinen virhe: välin mittaaminen.",
+ "body": {
+  "lead-maintained-p1": "{{term:maintained-lead|Pysyvä ennakko}} (Yhdysvalloissa sustained lead) pitää piipunsuut kiekon edellä alusta laukaukseen asti. Tässä se näyttää vaihe vaiheelta {{term:crosser|sivukiekossa}} (kiekossa, joka lentää poikittain edessäsi):",
+  "lead-maintained-p2": [
+   "Aloitus: piiput odottavat {{term:hold-point|aloituskohdassa}}, selvästi ulompana kiekon reitillä, niin kiekko lentää niitä kohti; silmät katsovat taaksepäin kohti {{term:pick-up-point|katsepistettä}}.",
+   "Liittyminen: kiekon tullessa ase liikkuu, ja piipunsuut liittyvät linjalle sen eteen, eivät sen taakse; tämä on {{term:insertion-point|liittymiskohta}}.",
+   "Seuranta: aluksi piiput liikkuvat hieman kiekkoa hitaammin, niin kiekko saavuttaa niitä, kunnes väli niiden välillä on haluamasi kokoinen. Sitten liikuta piippuja kiekon nopeudella, ja väli pysyy samana.",
+   "Laukaus: liipaisinta painetaan, kun väli on oikea ja ase on yhä liikkeessä.",
+   "Laukauksen jälkeen ase jatkaa liikettä ({{term:follow-through|saatto}})."
+  ],
+  "lead-maintained-p3": "Vahvuudet: tarkka, vähän aseen liikettä, nopea kiekkojen välillä, ja ennakkoa on helppo säätää. Se sopii tasaisille, ennustettaville kiekoille: kaukaisille sivukiekoille, tasaisille korkeille kiekoille.",
+  "lead-maintained-p4": "Heikkoudet: sitä kuvataan usein vaikeimmaksi opittavaksi menetelmäksi, ja ampujan täytyy tietää kiekon nopeus ja linja etukäteen. Koska ase ei ole kiekkoa nopeampi, ampuja näkee liikkuvan aseen menetelmistä suurimman välin. Se houkuttaa monia ampujia mittaamaan sitä, hidastamaan ja pysähtymään.",
+  "lead-maintained-p5": "Valmentajat sanovat ”insert the gun in front” (vie ase eteen), ”stay ahead of it” (pysy sen edellä), ”match its speed” (liiku sen nopeudella).",
+  "lead-maintained-sim": "Animaatio: piipunsuut odottavat edessä, ja kiekko kurottaa välin umpeen. Laukaise, kun väli näyttää oikealta, ja ase pitää sen jälkeen ennakon samana. ”Vuorosi”-osassa väärään aikaan ammuttu laukaus menee ohi."
+ },
+ "note": {},
+ "phrases": {
+  "lead-maintained-ph1": {
+   "meaning": "Vie piipunsuut kiekon eteen ja pidä ne siellä laukauksen jälkeenkin.",
+   "say": "Mene eteen ja pysy edessä."
+  },
+  "lead-maintained-ph2": {
+   "meaning": "Piipunsuut liittyivät linjalle kiekon taakse; niiden on liityttävä sen eteen.",
+   "say": "Sisäänvientisi on kiekon takana – vie ase sen eteen."
+  },
+  "lead-maintained-ph3": {
+   "meaning": "Liikuta asetta kiekon nopeudella, jotta väli ei kutistu.",
+   "say": "Liiku sen nopeudella – älä päästä sitä kiinni."
+  },
+  "lead-maintained-ph4": {
+   "meaning": "Ampuja hidastaa tarkistaakseen välin; laukaise heti, kun kuva on oikea.",
+   "say": "Mittaat sitä – luota kuvaan ja laukaise."
+  }
+ },
+ "key_points": {
+  "lead-maintained-kp1": "Piipunsuut lähtevät edeltä ja liittyvät linjalle kiekon eteen.",
+  "lead-maintained-kp2": "Kun väli on oikea, aseen nopeus = kiekon nopeus, niin väli pysyy vakiona.",
+  "lead-maintained-kp3": "Liipaisu, kun väli on oikea ja ase liikkuu; sitten saatto.",
+  "lead-maintained-kp4": "Sopii usein kaukaisiin, ennustettaviin kiekkoihin.",
+  "lead-maintained-kp5": "Suurin riski: välin mittaaminen ja aseen pysäyttäminen."
+ },
+ "quiz": {
+  "lead-maintained-q1": {
+   "q": "Pysyvässä ennakossa, missä kohdassa piipunsuut liittyvät kiekon linjalle?",
+   "options": {
+    "a": "Kiekon takana",
+    "b": "Kiekon kohdalla",
+    "c": "Kiekon edessä",
+    "d": "Heittimen alapuolella"
+   },
+   "explain": "Piipunsuut viedään kiekon eteen ja ne pysyvät edellä; takaa on läpiveto, kiekon kohdalta edestä irtiveto."
+  },
+  "lead-maintained-q2": {
+   "q": "Mikä on pysyvää ennakkoa käyttävien ampujien tyypillinen virhe?",
+   "options": {
+    "a": "Aloittaminen liian kaukaa takaa",
+    "b": "Välin mittaaminen ja aseen pysäyttäminen",
+    "c": "Nosto lonkalta",
+    "d": "Liian aikainen laukaus heittimelle"
+   },
+   "explain": "Väli on suuri ja näkyvä, joten ampujat houkuttuvat tarkistamaan sen; ase hidastuu tai pysähtyy, ja laukaus menee taakse."
+  },
+  "lead-maintained-q3": {
+   "q": "Mihin kiekkoon pysyvää ennakkoa suositellaan usein?",
+   "options": {
+    "a": "Kaukaiseen, ennustettavaan sivukiekkoon",
+    "b": "Pomppivaan jäniskiekkoon lyhyessä aukossa",
+    "c": "Yllättävään takaa tulevaan kiekkoon",
+    "d": "ZZ-kiekkoon"
+   },
+   "explain": "Menetelmä vaatii tunnetun nopeuden ja linjan, jotka kaukaiset, tasaiset sivukiekot antavat; epäsäännöllisiin tai yllättäviin kiekkoihin sopivat muut menetelmät."
+  }
+ }
+}

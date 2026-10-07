@@ -1,0 +1,83 @@
+{
+  "id": "juniors-equipment-fit",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "ca46943c",
+    "summary": "eb881e58",
+    "juniors-equipment-fit-p1": "b6402cc3",
+    "juniors-equipment-fit-p2": "0b937322",
+    "juniors-equipment-fit-p3": "62ae0190",
+    "juniors-equipment-fit-p4": "b7289c0c",
+    "juniors-equipment-fit-p7": "62dba988",
+    "juniors-equipment-fit-p5": "97c97871",
+    "juniors-equipment-fit-p6": "e0618cad",
+    "juniors-equipment-fit-kp1": "34b77035",
+    "juniors-equipment-fit-kp2": "5bf72aa4",
+    "juniors-equipment-fit-kp3": "ed30b802",
+    "juniors-equipment-fit-kp4": "072ab1c0",
+    "juniors-equipment-fit-kp5": "8087d16c",
+    "juniors-equipment-fit-dyk": "854a04c5",
+    "juniors-equipment-fit-q1": "cedce39c",
+    "juniors-equipment-fit-q2": "9fbee996",
+    "juniors-equipment-fit-q3": "a37e7a90"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "A gyerekre méretezett felszerelés",
+  "summary": "Egy felnőtt fegyver rendszerint túl hosszú és túl nehéz egy gyereknek. Egy rövidebb tus, egy könnyű fegyver, puha töltények és gyerekméretű védőfelszerelés biztonságosabbá és élvezetesebbé teszi a {{tm:sporting}}-ot és a {{tm:compak}}-ot.",
+  "body": {
+    "juniors-equipment-fit-p1": "Egy felnőtt fegyver rendszerint túl hosszú és túl nehéz egy gyereknek. A gyerek hátradől, hogy tartani tudja, a tus üti az arcát és a lapockáját, és néhány lövés után félelem jelenhet meg. Ezért a {{term:gun-fit|tusbeállítás}} (gun fit) a fiatal lövészeknél még fontosabb, mint a felnőtteknél.",
+    "juniors-equipment-fit-p2": "A legfontosabb mérték a {{term:length-of-pull|tushossz}} (length of pull): {{fact:gear.length-of-pull}}. Az {{term:youth-gun|ifjúsági modelleknek}} (youth gun) rövidebb, könnyebb tusuk van, és néhány fegyvernek állítható tusa és {{term:comb|pofadéka}} van. Ahogy a gyerek nő, a tust közbetétekkel hosszabbítják, tehát minden szezonban ellenőrizd a beállítást az edzővel vagy egy {{term:gun-fitter|tusbeállító szakemberrel}}.",
+    "juniors-equipment-fit-p3": "Gyakran egy könnyű 20-as kaliberű fegyvert választanak — egy {{term:over-and-under|bockot}} vagy egy {{term:semi-automatic|félautomatát}}. Egy gázüzemű félautomata hosszabb időre osztja el a visszarúgást, ezért sok lövésznek lágyabbnak tűnik. A könnyű töltetű töltények is csökkentik a visszarúgást, és kellemesebbé teszik a lövést.",
+    "juniors-equipment-fit-p4": "A védőfelszerelésnek is illeni kell: gyerek fülvédő vagy füldugó, ütésálló lencséjű {{term:safety-glasses|lövészszemüveg}} és egy ellenzős sapka. Egy {{term:shooting-vest|lőmellény}} nem lehet túl nagy, mert a fegyver beleakad a vállba vétel közben.",
+    "juniors-equipment-fit-p7": "A {{tm:sporting}}-ban a szabályok még egy pontot hozzátesznek: a lőtéren, a klubházon kívül tartózkodó gyerekeknek mindig {{term:hearing-protection|fülvédőt}} kell hordaniuk. Sok család bármelyik lőtéren fenntartja ezt a szokást.",
+    "juniors-equipment-fit-p5": "A ruhának kényelmesnek és az időjáráshoz illőnek kell lennie. Versenyeken mindkét versenyszámban a szandál tilos, és a rövidnadrágnak hosszúnak kell lennie, {{fact:rules.dress-shorts-length}}. Edzésen is jó fogású, zárt cipő szükséges. Bővebben: {{lesson:gear-clothing-and-shoes}}.",
+    "juniors-equipment-fit-p6": "Ne rohanj drága felszerelés vásárlásával. Kezdd egy bérelhető klubfegyverrel, majd nézz használt ifjúsági modelleket. Saját fegyvert érdemes venni, amikor a gyerek érdeklődése már stabil, az edző tanácsával. Általános tusbeállítás: {{lesson:gun-fit}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "juniors-equipment-fit-kp1": "Egy felnőtt fegyver rendszerint túl hosszú és nehéz egy gyereknek.",
+    "juniors-equipment-fit-kp2": "A tushossz a beállítás kulcsa; ellenőrizd minden szezonban.",
+    "juniors-equipment-fit-kp3": "Könnyű, 20-as kaliberű fegyver és könnyű töltetű töltények.",
+    "juniors-equipment-fit-kp4": "Fülvédő, szemüveg és mellény gyerekméretben.",
+    "juniors-equipment-fit-kp5": "Előbb bérlés; vásárlás, amikor az érdeklődés stabil."
+  },
+  "did_you_know": "A FITASC szabályai a kalibert csak felülről korlátozzák ({{fact:gear.fitasc-max-gauge}}), tehát a 20-as kaliberű fegyver versenyen mindkét versenyszámban megengedett.",
+  "quiz": {
+    "juniors-equipment-fit-q1": {
+      "q": "Mi történik, amikor egy gyerek egy túl hosszú fegyverrel lő?",
+      "options": {
+        "a": "Hátradől, és erősebben érzi a visszarúgást",
+        "b": "Semmi nem változik; így még könnyebb",
+        "c": "A korongok lassabban repülnek",
+        "d": "A sörétkép sokkal sűrűbbé válik"
+      },
+      "explain": "Egy túl hosszú fegyver elrontja a testhelyzetet, erősíti a visszarúgás hatását, és megijesztheti a gyereket."
+    },
+    "juniors-equipment-fit-q2": {
+      "q": "Mi a tushossz (length of pull)?",
+      "options": {
+        "a": "A csövek hossza a csőtorkolatig",
+        "b": "Az elsütő billentyűtől a talp közepéig",
+        "c": "A fegyver súlya a szűkületekkel együtt",
+        "d": "A sín és a pofadék teteje közti távolság"
+      },
+      "explain": "Ezt a mértéket változtatják meg leggyakrabban, hogy a fegyver illeszkedjen a gyerekhez."
+    },
+    "juniors-equipment-fit-q3": {
+      "q": "Mikor érdemes a gyereknek saját fegyvert venni?",
+      "options": {
+        "a": "Már az első foglalkozás előtt a lőtéren",
+        "b": "Csak egy új és nagyon drága modellt",
+        "c": "Amikor az érdeklődés stabil, az edző tanácsával",
+        "d": "Amint a gyerek fel tud emelni egy felnőtt fegyvert"
+      },
+      "explain": "Előbb bérlés és használt modellek; a vásárlás akkor jön, amikor világos, hogy a gyerek folytatja."
+    }
+  }
+}

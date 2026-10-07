@@ -1,0 +1,84 @@
+{
+  "id": "clayarena-what-is-clayarena",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "bc76e59e",
+    "summary": "761d8c91",
+    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p2": "771824c6",
+    "clayarena-what-is-clayarena-p3": "17d83580",
+    "clayarena-what-is-clayarena-p4": "3d7784c7",
+    "clayarena-what-is-clayarena-p5": "48af0ac3",
+    "clayarena-what-is-clayarena-p6": "e3c600a3",
+    "clayarena-what-is-clayarena-kp1": "05ba9974",
+    "clayarena-what-is-clayarena-kp2": "3d5950a3",
+    "clayarena-what-is-clayarena-kp3": "5567e510",
+    "clayarena-what-is-clayarena-kp4": "702367ff",
+    "clayarena-what-is-clayarena-q1": "25b43879",
+    "clayarena-what-is-clayarena-q2": "565010d9",
+    "clayarena-what-is-clayarena-q4": "08498f4c",
+    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Co je ClayArena",
+  "summary": "ClayArena je web o stendové střelbě zaměřený na {{tm:sporting}} a {{tm:compak}}: výsledky soutěží, profily střelců, kalendář, videa, shrnutí sezóny, střelnice a trenéry.",
+  "body": {
+    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) je web o brokové střelbě na asfaltové terče, zaměřený na {{tm:sporting}} a {{tm:compak}}. Ukazuje, kdo a jak stříleli, kde budou další soutěže a kde se lze trénovat. Objevují se tam i další disciplíny, například trap a skeet.",
+    "clayarena-what-is-clayarena-p2": "Jádrem ClayArena jsou výsledky soutěží. Každá soutěž má výsledkovou tabulku s pořadím a počtem zasažených terčů. Na některých akcích se výsledky aktualizují ještě během střelby. Z těchto výsledků vznikají {{term:shooter-profile|profily střelců}}.",
+    "clayarena-what-is-clayarena-p3": "Profil střelce je stránka jedné osoby: její soutěže a klíčová čísla, jako {{term:accuracy|úspěšnost}}. Co tato čísla znamenají, vysvětluje lekce {{lesson:clayarena-profile-numbers}}.",
+    "clayarena-what-is-clayarena-p4": "ClayArena má také kalendář soutěží, videa ze soutěží a {{term:season-recap|shrnutí sezóny}}. Jsou tam i katalogy střelnic a trenérů. Víc v lekcích {{lesson:clayarena-videos-recaps-calendar}} a {{lesson:clayarena-coaches-grounds-tours}}.",
+    "clayarena-what-is-clayarena-p5": "ClayArena také připravuje {{term:clayaway|ClayAway}}: tréninkové zájezdy s trenérem. Ještě nebyly spuštěny a začnou později: {{lesson:travel-clayaway-tour}}.",
+    "clayarena-what-is-clayarena-p6": "ClayArena je i místo pro učení: tato Akademie, slovník termínů a srozumitelný průvodce pravidly {{term:fitasc|FITASC}} s tréninkem pravidel."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-what-is-clayarena-kp1": "ClayArena je web o brokové střelbě na asfaltové terče, zaměřený na {{tm:sporting}} a {{tm:compak}}.",
+    "clayarena-what-is-clayarena-kp2": "Jejím jádrem jsou výsledky soutěží; z nich vznikají profily střelců.",
+    "clayarena-what-is-clayarena-kp3": "Má také kalendář, videa, shrnutí sezóny a katalogy střelnic a trenérů.",
+    "clayarena-what-is-clayarena-kp4": "Tréninkové zájezdy ClayAway se připravují a ještě nebyly spuštěny."
+  },
+  "quiz": {
+    "clayarena-what-is-clayarena-q1": {
+      "q": "Z čeho vznikají profily střelců na ClayArena?",
+      "options": {
+        "a": "Z formulářů, které střelci vyplňují",
+        "b": "Z výsledků soutěží",
+        "c": "Z recenzí trenérů"
+      },
+      "explain": "Profil shromažďuje soutěže střelce, tedy výsledky soutěží."
+    },
+    "clayarena-what-is-clayarena-q2": {
+      "q": "Co je ClayAway dnes?",
+      "options": {
+        "a": "Samostatná disciplína FITASC",
+        "b": "Internetový obchod s náboji",
+        "c": "Zájezdy s trenérem, které se připravují"
+      },
+      "explain": "ClayAway budou organizované tréninkové zájezdy ClayArena s trenérem; ještě nebyly spuštěny."
+    },
+    "clayarena-what-is-clayarena-q4": {
+      "q": "Kde hledat soutěže, které ještě neproběhly?",
+      "options": {
+        "a": "V kalendáři soutěží",
+        "b": "Ve shrnutí sezóny",
+        "c": "V profilu střelce"
+      },
+      "explain": "Kalendář uvádí plánované, probíhající i skončené soutěže s daty a místy konání."
+    },
+    "clayarena-what-is-clayarena-q3": {
+      "q": "Na kterých disciplínách je ClayArena zaměřená?",
+      "options": {
+        "a": "Biatlon a lukostřelba",
+        "b": "{{tm:sporting}} a {{tm:compak}}",
+        "c": "Jen olympijský trap"
+      },
+      "explain": "ClayArena je zaměřená na tyto dvě disciplíny FITASC; objevují se tam i další disciplíny."
+    }
+  }
+}

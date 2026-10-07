@@ -1,0 +1,290 @@
+{
+  "id": "history-fitasc-founding",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "fan",
+    "interpreter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "history-fitasc-founding"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "fitasc",
+    "national-federation",
+    "sporting",
+    "compak-sporting",
+    "chief-referee",
+    "championship",
+    "layout",
+    "olympic-trap",
+    "skeet"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch5-referee-certificate"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-qualification"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-layout-approval"
+    }
+  ],
+  "facts": [
+    "community.fitasc-founded",
+    "community.fitasc-renamed",
+    "community.olympic-to-uit"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — History of the Federation",
+        "uk": "FITASC — історія федерації"
+      },
+      "url": "https://www.fitasc.com/en/organization/history/fitasc-history",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "FITASC: how the international federation was born",
+    "uk": "FITASC: як з’явилася міжнародна федерація"
+  },
+  "summary": {
+    "en": "FITASC was founded in 1921 and is based in Paris today. What the federation does for {{tm:sporting}} and {{tm:compak}}, and why it matters to a beginner.",
+    "uk": "FITASC заснували 1921 року, а сьогодні її дім — Париж. Що федерація робить для {{tm:sporting}} і {{tm:compak}} і чому це важливо для новачка."
+  },
+  "body": [
+    {
+      "k": "history-fitasc-founding-p1",
+      "t": "p",
+      "en": "{{term:fitasc|FITASC}} is short for the French name Fédération Internationale de Tir aux Armes Sportives de Chasse. In English that is roughly the International Federation for Shooting with Sporting Hunting Guns. The name shows its roots in hunting.",
+      "uk": "{{term:fitasc|FITASC}} — це скорочення французької назви Fédération Internationale de Tir aux Armes Sportives de Chasse. Українською це приблизно Міжнародна федерація стрільби з мисливської спортивної зброї. Уже з назви видно її мисливське коріння."
+    },
+    {
+      "k": "history-fitasc-founding-p2",
+      "t": "p",
+      "en": "The federation was founded {{fact:community.fitasc-founded}}. Its first name was the International Union of Hunting (UIC). National groups from ten countries in Europe, Africa and America took part in the first meeting. They wanted one set of rules, so that shooters from different countries could compete against each other on equal terms.",
+      "uk": "Федерацію заснували {{fact:community.fitasc-founded}}. Спершу вона називалася Міжнародним союзом мисливства (UIC). В установчих зборах узяли участь національні об’єднання з десяти країн Європи, Африки й Америки. Вони хотіли мати спільні правила, щоб стрільці з різних країн могли змагатися між собою на рівних."
+    },
+    {
+      "k": "history-fitasc-founding-p3",
+      "t": "p",
+      "en": "The General Assembly (the meeting of all its member organisations) renamed the union FITASC {{fact:community.fitasc-renamed}}, and the name has stayed. Its headquarters are in Paris. That is why some sources say FITASC was founded in Paris: Paris is its home, but the founding meeting was held in Lausanne.",
+      "uk": "Генеральна асамблея (зібрання всіх організацій-членів) перейменувала союз на FITASC {{fact:community.fitasc-renamed}}, і ця назва лишилася досі. Штаб-квартира федерації — у Парижі. Тому в деяких джерелах пишуть, що FITASC заснували в Парижі: Париж — її дім, але установчі збори відбулися в Лозанні."
+    },
+    {
+      "k": "history-fitasc-founding-p4",
+      "t": "p",
+      "en": "FITASC brings together the national federations of many countries. A shooter is usually not a direct member: you join a club and a {{term:national-federation|national federation}}, and the federation is a member of FITASC.",
+      "uk": "FITASC об’єднує національні федерації багатьох країн. Стрілець зазвичай не є її членом напряму: ви вступаєте до клубу й {{term:national-federation|національної федерації}}, а вже федерація є членом FITASC."
+    },
+    {
+      "k": "history-fitasc-founding-p5",
+      "t": "p",
+      "en": "FITASC's main job is the rules. It writes and updates the international rules of {{tm:sporting}} and {{tm:compak}}. It does the same for other disciplines, such as Universal Trench (a trap-style discipline with five machines in a trench) and Helice (shot at spinning plastic targets with wings). Many national federations base their own events on these rules.",
+      "uk": "Головна справа FITASC — правила. Федерація пише й оновлює міжнародні правила {{tm:sporting}} і {{tm:compak}}. Те саме вона робить для інших дисциплін, як-от Universal Trench (схожа на трап, із п’ятьма машинками в траншеї) і Helice (пластикові мішені з крильцями, що обертаються в польоті). Багато національних федерацій будують на цих правилах і свої змагання."
+    },
+    {
+      "k": "history-fitasc-founding-p6",
+      "t": "p",
+      "en": "FITASC also keeps the international calendar and decides where and when the World and European {{term:championship|Championships}} are held. It approves the {{term:layout|layouts}} of international {{tm:sporting}} competitions. And it keeps an eye on the referees: the {{term:chief-referee|chief referee}} of an international event needs a FITASC qualification.",
+      "uk": "Ще FITASC веде міжнародний календар і вирішує, де й коли проходитимуть {{term:championship|чемпіонати}} світу та Європи. Вона затверджує {{term:layout|майданчики}} міжнародних змагань з {{tm:sporting}}. І наглядає за суддями: {{term:chief-referee|головному судді}} міжнародного змагання потрібна кваліфікація FITASC."
+    },
+    {
+      "k": "history-fitasc-founding-p7",
+      "t": "p",
+      "en": "Do not confuse FITASC with the ISSF, the International Shooting Sport Federation. The ISSF governs the Olympic disciplines, including {{term:olympic-trap|Olympic Trap}} and {{term:skeet|Skeet}}. FITASC's own history page says that {{fact:community.olympic-to-uit}} both Olympic clay disciplines have been run by the ISSF (which was then called the UIT).",
+      "uk": "Не плутайте FITASC з ISSF — Міжнародною федерацією стрілецького спорту. ISSF керує олімпійськими дисциплінами, зокрема {{term:olympic-trap|олімпійським трапом}} і {{term:skeet|скітом}}. На сторінці історії FITASC сказано, що {{fact:community.olympic-to-uit}} обома олімпійськими стендовими дисциплінами опікується ISSF (тоді вона називалася UIT)."
+    },
+    {
+      "k": "history-fitasc-founding-tip",
+      "t": "tip",
+      "en": "How the sport is organised today, from the club to world level: {{lesson:intro-fitasc-and-organisation}}.",
+      "uk": "Як спорт організований сьогодні, від клубу до світового рівня: {{lesson:intro-fitasc-and-organisation}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "history-fitasc-founding-kp1",
+      "en": "FITASC was founded {{fact:community.fitasc-founded}}; its headquarters are in Paris.",
+      "uk": "FITASC заснували {{fact:community.fitasc-founded}}; штаб-квартира — у Парижі."
+    },
+    {
+      "k": "history-fitasc-founding-kp2",
+      "en": "Its members are national federations, not individual shooters.",
+      "uk": "Її члени — національні федерації, а не окремі стрільці."
+    },
+    {
+      "k": "history-fitasc-founding-kp3",
+      "en": "FITASC writes the rules of {{tm:sporting}} and {{tm:compak}} and keeps the international calendar.",
+      "uk": "FITASC пише правила {{tm:sporting}} і {{tm:compak}} та веде міжнародний календар."
+    },
+    {
+      "k": "history-fitasc-founding-kp4",
+      "en": "Olympic Trap and Skeet are governed by the ISSF, not by FITASC.",
+      "uk": "Олімпійськими трапом і скітом керує ISSF, а не FITASC."
+    }
+  ],
+  "did_you_know": {
+    "k": "history-fitasc-founding-dyk",
+    "en": "FITASC got its present name {{fact:community.fitasc-renamed}}. For its first 17 years it was the International Union of Hunting.",
+    "uk": "Свою теперішню назву FITASC отримала {{fact:community.fitasc-renamed}}. Перші 17 років вона була Міжнародним союзом мисливства."
+  },
+  "quiz": [
+    {
+      "k": "history-fitasc-founding-q1",
+      "q": {
+        "en": "Where was the founding meeting of FITASC held in 1921?",
+        "uk": "Де 1921 року відбулися установчі збори FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In Paris, France",
+          "uk": "У Парижі (Франція)"
+        },
+        {
+          "k": "b",
+          "en": "In Lausanne, Switzerland",
+          "uk": "У Лозанні (Швейцарія)"
+        },
+        {
+          "k": "c",
+          "en": "In London, England",
+          "uk": "У Лондоні (Англія)"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The founding meeting was in Lausanne on 4 June 1921; Paris is FITASC's home today.",
+        "uk": "Установчі збори відбулися в Лозанні 4 червня 1921 року; Париж — дім FITASC сьогодні."
+      }
+    },
+    {
+      "k": "history-fitasc-founding-q2",
+      "q": {
+        "en": "Who are the members of FITASC?",
+        "uk": "Хто є членами FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Individual shooters",
+          "uk": "Окремі стрільці"
+        },
+        {
+          "k": "b",
+          "en": "Gun makers",
+          "uk": "Виробники рушниць"
+        },
+        {
+          "k": "c",
+          "en": "National federations",
+          "uk": "Національні федерації"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "FITASC unites national federations; a shooter belongs to a club and to their own federation.",
+        "uk": "FITASC об’єднує національні федерації, а стрілець належить до клубу і своєї федерації."
+      }
+    },
+    {
+      "k": "history-fitasc-founding-q3",
+      "q": {
+        "en": "Which federation governs Olympic Trap and Skeet?",
+        "uk": "Яка федерація керує олімпійськими трапом і скітом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The ISSF",
+          "uk": "ISSF"
+        },
+        {
+          "k": "b",
+          "en": "FITASC",
+          "uk": "FITASC"
+        },
+        {
+          "k": "c",
+          "en": "Each national club",
+          "uk": "Кожен національний клуб"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The ISSF governs the Olympic disciplines; FITASC governs {{tm:sporting}}, {{tm:compak}} and other non-Olympic ones.",
+        "uk": "Олімпійськими дисциплінами керує ISSF, а FITASC — {{tm:sporting}}, {{tm:compak}} та іншими неолімпійськими."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "7badbdfc",
+    "summary": "56281c5b",
+    "history-fitasc-founding-p1": "b9348cc5",
+    "history-fitasc-founding-p2": "41d16f55",
+    "history-fitasc-founding-p3": "349b4acd",
+    "history-fitasc-founding-p4": "b91d9303",
+    "history-fitasc-founding-p5": "cea3034e",
+    "history-fitasc-founding-p6": "36f65938",
+    "history-fitasc-founding-p7": "367280bd",
+    "history-fitasc-founding-tip": "b2fb8b64",
+    "history-fitasc-founding-kp1": "5c15bbb0",
+    "history-fitasc-founding-kp2": "71a0f042",
+    "history-fitasc-founding-kp3": "bd682721",
+    "history-fitasc-founding-kp4": "072c9259",
+    "history-fitasc-founding-dyk": "bcdb5449",
+    "history-fitasc-founding-q1": "cd408368",
+    "history-fitasc-founding-q2": "e69d4f96",
+    "history-fitasc-founding-q3": "1edaf8cf"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

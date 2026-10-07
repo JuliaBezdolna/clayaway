@@ -1,0 +1,416 @@
+{
+  "id": "faults-reading-the-coach",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "faults-reading-the-coach"
+    ]
+  },
+  "terms": [
+    "coach",
+    "miss-behind",
+    "miss-in-front",
+    "miss-over",
+    "miss-under",
+    "hand-signal",
+    "lead",
+    "coaching",
+    "yellow-card",
+    "jury",
+    "referee",
+    "pick-up-point"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Reading the coach: short commands and signals",
+    "uk": "Як читати тренера: короткі команди й жести"
+  },
+  "summary": {
+    "en": "On the stand a coach speaks in fragments and gestures. What the short words and common hand signals mean, and how to answer the coach’s questions.",
+    "uk": "На стрілецькому місці тренер говорить уривками й жестами. Що означають короткі слова й поширені жести і як відповідати на запитання тренера."
+  },
+  "body": [
+    {
+      "k": "faults-reading-the-coach-p1",
+      "t": "p",
+      "core": true,
+      "en": "On the stand a {{term:coach|coach}} speaks in fragments: “Behind.” “Head.” “More.” “Again.” There are only a few seconds between targets, so the short words are deliberate. Each one points to a single thing to change or to keep.",
+      "uk": "На стрілецькому місці {{term:coach|тренер}} говорить уривками: «Behind.» «Head.» «More.» «Again.» Між мішенями лише кілька секунд, тож стислість навмисна. Кожне таке слово вказує на одну річ, яку треба змінити або зберегти."
+    },
+    {
+      "k": "faults-reading-the-coach-words",
+      "t": "p",
+      "en": "Many fragments say where the shot went: {{term:miss-behind|behind}}, {{term:miss-in-front|in front}}, {{term:miss-over|over}} or {{term:miss-under|under}} the target. Others name what to fix: “head” means keep your cheek on the stock, and “feet” means check your stance.",
+      "uk": "Багато таких слів кажуть, куди пішов постріл: {{term:miss-behind|behind}} (позаду), {{term:miss-in-front|in front}} (попереду), {{term:miss-over|over}} (вище) чи {{term:miss-under|under}} (нижче) мішені. Інші називають, що виправити: «head» — тримайте щоку на прикладі, «feet» — перевірте стійку."
+    },
+    {
+      "k": "faults-reading-the-coach-p2",
+      "t": "p",
+      "core": true,
+      "en": "Many coaches ask before they tell: “Where did it go?” or “What did you see?” This is a teaching question, not a test. Answer with what you really saw, even if you are not sure: “I think behind” or “I lost it at the end”. The coach needs your picture (what you saw at the shot) to find the cause.",
+      "uk": "Багато тренерів спершу запитують, а потім пояснюють: «Where did it go?» («Куди пішов постріл?») чи «What did you see?» («Що ви бачили?»). Це навчальне запитання, а не перевірка. Відповідайте тим, що справді бачили, навіть якщо не впевнені: «здається, позаду» чи «я втратив її наприкінці». Тренерові потрібна ваша картинка (те, що ви бачили в мить пострілу), щоб знайти причину."
+    },
+    {
+      "k": "faults-reading-the-coach-p3",
+      "t": "p",
+      "core": true,
+      "en": "{{term:hand-signal|Hand signals}} carry a lot. Hands moving apart or together usually mean more or less {{term:lead|lead}}. A flat hand moving down means “lower”, and a tap on the cheek means “head down on the stock”. A finger may trace the target’s line, and a thumbs-up means “same again”. Signals differ between coaches, so agree on them before the session.",
+      "uk": "{{term:hand-signal|Жести}} кажуть дуже багато. Руки, що розходяться чи сходяться, зазвичай означають більший чи менший {{term:lead|винос}}. Долоня, що опускається, — «нижче», а доторк до щоки — «щокою на приклад». Палець може накреслити лінію мішені, а великий палець угору означає «так само ще раз». У різних тренерів жести різні, тож домовтеся про них до заняття."
+    },
+    {
+      "k": "faults-reading-the-coach-p4",
+      "t": "p",
+      "core": true,
+      "en": "Some words are rhythm and encouragement rather than technique: “commit”, “trust it”, “smooth”, “good, same again”. “Bad luck” after a miss is kindness, not a comment on the referee. More phrases like these: {{lesson:stand-talk-mental-game}}.",
+      "uk": "Деякі слова — це ритм і підтримка, а не техніка: «commit» («наважуйтеся»), «trust it» («довіртеся»), «smooth» («плавно»), «good, same again» («добре, так само»). «Bad luck» після промаху — це співчуття, а не оцінка рішення судді. Більше таких фраз — {{lesson:stand-talk-mental-game}}."
+    },
+    {
+      "k": "faults-reading-the-coach-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch8-coaching",
+      "en": "In competition {{term:coaching|coaching}} is forbidden: the {{term:referee|referee}} gives the competitor a {{term:yellow-card|yellow card}} and sends the coach out of the shooting area ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). So all this coach language belongs to training. The rules do not say whether an interpreter may relay a coach’s advice during a competition. The safe practice is to interpret only for the referee, the {{term:jury|jury}} and the organiser.",
+      "uk": "На змаганнях {{term:coaching|підказувати}} заборонено: {{term:referee|суддя}} дає стрільцеві {{term:yellow-card|жовту картку}} й видаляє тренера із зони стрільби ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}). Тож уся ця мова тренера — для тренувань. Чи може перекладач передавати поради тренера під час змагань, правила не кажуть. Безпечна практика — перекладати лише для судді, {{term:jury|журі}} та організатора."
+    }
+  ],
+  "note": [
+    {
+      "k": "faults-reading-the-coach-n1",
+      "for": "interpreter",
+      "core": true,
+      "en": "Translate the coach’s question, let the shooter answer, and translate the answer back exactly, even if it sounds wrong. Keep your words as short as the coach’s: a long sentence arrives after the next call.",
+      "uk": "Перекладіть запитання тренера, дайте стрільцеві відповісти й точно перекладіть відповідь назад, навіть якщо вона здається хибною. Говоріть так само стисло, як тренер: довге речення прозвучить уже після наступної команди."
+    },
+    {
+      "k": "faults-reading-the-coach-n2",
+      "for": "interpreter",
+      "core": true,
+      "en": "Do not translate a gesture the shooter has already seen. Keep the coach’s tone: encouragement stays warm, and safety stays firm.",
+      "uk": "Не перекладайте жест, який стрілець уже бачив. Зберігайте тон тренера: підтримка лишається теплою, а безпека — твердою."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "faults-reading-the-coach-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Where did it go?",
+      "meaning": {
+        "en": "The coach asks where the shooter thinks the shot went; a teaching question.",
+        "uk": "Тренер питає, куди, на думку стрільця, пішов дріб; це навчальне запитання."
+      },
+      "say": {
+        "uk": "Куди пішов постріл?"
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "What did you see?",
+      "meaning": {
+        "en": "Describe the picture at the moment of the shot.",
+        "uk": "Описати картинку в момент пострілу."
+      },
+      "say": {
+        "uk": "Що ви бачили?"
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "More.",
+      "meaning": {
+        "en": "In context it often means “more lead”; if unsure, ask one word: “Lead?”",
+        "uk": "У контексті часто означає «більше виносу»; якщо не впевнені, перепитайте: «Lead?»"
+      },
+      "say": {
+        "uk": "Більше."
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Good, same again.",
+      "meaning": {
+        "en": "Repeat exactly what you just did.",
+        "uk": "Повторити точно те саме."
+      },
+      "say": {
+        "uk": "Добре, так само ще раз."
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "Trust it, commit to it.",
+      "meaning": {
+        "en": "Stop hesitating; decide and fire.",
+        "uk": "Не вагатися; вирішити й стріляти."
+      },
+      "say": {
+        "uk": "Довіртеся — і стріляйте рішуче."
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-ph6",
+      "speaker": "coach",
+      "core": true,
+      "en": "Bad luck.",
+      "meaning": {
+        "en": "Sympathy after a miss; not a complaint about the referee.",
+        "uk": "Співчуття після промаху; не скарга на суддю."
+      },
+      "say": {
+        "uk": "Не пощастило."
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-ph-head",
+      "speaker": "coach",
+      "en": "Head!",
+      "meaning": {
+        "en": "Your head came off the stock: keep your cheek down on it through the shot.",
+        "uk": "Голова відірвалася від приклада: тримайте щоку на ньому й під час пострілу."
+      },
+      "say": {
+        "uk": "Щокою на приклад!"
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-ph-pickup",
+      "speaker": "coach",
+      "en": "Where did you first see it clearly?",
+      "meaning": {
+        "en": "The coach wants your {{term:pick-up-point|pick-up point}}: the place where your eyes first found the target sharply.",
+        "uk": "Тренер питає про вашу {{term:pick-up-point|точку підхоплення}}: місце, де ви вперше чітко побачили мішень."
+      },
+      "say": {
+        "uk": "Де ви вперше чітко її побачили?"
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "faults-reading-the-coach-kp1",
+      "core": true,
+      "en": "Coaches speak in fragments; each word points to one thing to change or keep.",
+      "uk": "Тренер говорить уривками; кожне слово вказує на одну річ, яку треба змінити чи зберегти."
+    },
+    {
+      "k": "faults-reading-the-coach-kp2",
+      "core": true,
+      "en": "“Where did it go?” is a teaching question: answer with what you really saw.",
+      "uk": "«Where did it go?» — навчальне запитання: відповідайте тим, що справді бачили."
+    },
+    {
+      "k": "faults-reading-the-coach-kp3",
+      "core": true,
+      "en": "Agree on hand signals before the session.",
+      "uk": "Домовтеся про жести до заняття."
+    },
+    {
+      "k": "faults-reading-the-coach-kp4",
+      "core": true,
+      "en": "No coaching in competition; interpret only for the referee, jury and organiser.",
+      "uk": "На змаганнях підказок немає; перекладайте лише для судді, журі та організатора."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "faults-reading-the-coach-q1",
+      "q": {
+        "en": "The coach asks the shooter “Where did it go?”. What should the interpreter do?",
+        "uk": "Тренер питає стрільця «Where did it go?». Що має зробити перекладач?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Answer for the shooter",
+          "uk": "Відповісти замість стрільця"
+        },
+        {
+          "k": "b",
+          "en": "Translate the question, then the shooter’s answer exactly",
+          "uk": "Перекласти запитання, а потім точно — відповідь стрільця"
+        },
+        {
+          "k": "c",
+          "en": "Explain the miss in your own words",
+          "uk": "Пояснити промах своїми словами"
+        },
+        {
+          "k": "d",
+          "en": "Say nothing: it is a rhetorical question",
+          "uk": "Нічого не казати: це риторичне запитання"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The coach wants to hear what the shooter actually saw, so the answer must reach him unchanged.",
+        "uk": "Тренерові треба почути, що саме бачив стрілець, тож відповідь має дійти без змін."
+      }
+    },
+    {
+      "k": "faults-reading-the-coach-q2",
+      "disc": "both",
+      "q": {
+        "en": "During a competition the shooter’s coach asks you to pass on: “Give the next one more lead.” What is the safe practice?",
+        "uk": "Під час змагань тренер просить вас передати стрільцеві: «Give the next one more lead». Яка безпечна практика?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Pass it on quietly, in a whisper",
+          "uk": "Тихо передати пошепки"
+        },
+        {
+          "k": "b",
+          "en": "Pass it on, but only between stands",
+          "uk": "Передати, але лише між стрілецькими місцями"
+        },
+        {
+          "k": "c",
+          "en": "Decline: coaching is not allowed in competition",
+          "uk": "Відмовитися: на змаганнях підказувати не можна"
+        },
+        {
+          "k": "d",
+          "en": "Ask the other shooters first",
+          "uk": "Спершу запитати інших стрільців"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Coaching in competition is forbidden, and the rules do not say whether an interpreter may relay it; staying out of it protects the shooter.",
+        "uk": "Підказки на змаганнях заборонені, а правила не кажуть, чи може їх передавати перекладач; утриматися — значить захистити стрільця."
+      },
+      "rule_ref": "sporting:ch8-coaching"
+    },
+    {
+      "k": "faults-reading-the-coach-q3",
+      "disc": "both",
+      "q": {
+        "en": "What do the rules say happens if the referee judges that a competitor is being coached?",
+        "uk": "Що передбачають правила, якщо суддя вирішить, що стрільцеві підказують?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yellow card; the coach is sent away",
+          "uk": "Жовта картка; тренера видаляють"
+        },
+        {
+          "k": "b",
+          "en": "Nothing: coaching is allowed",
+          "uk": "Нічого: підказувати дозволено"
+        },
+        {
+          "k": "c",
+          "en": "The target is thrown again",
+          "uk": "Мішень запускають знову"
+        },
+        {
+          "k": "d",
+          "en": "The whole squad is disqualified",
+          "uk": "Усю групу дискваліфікують"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Both rulebooks give the competitor a yellow card, with heavier penalties for repeats, and the referee removes the coach from the shooting area.",
+        "uk": "Обидва регламенти передбачають жовту картку стрільцеві, суворіші санкції за повтор, а тренера суддя видаляє із зони стрільби."
+      },
+      "rule_ref": "compak:ch21-coaching"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "940acb75",
+    "summary": "26760992",
+    "faults-reading-the-coach-p1": "6290cb49",
+    "faults-reading-the-coach-words": "fb0ab9e8",
+    "faults-reading-the-coach-p2": "f4caa574",
+    "faults-reading-the-coach-p3": "a14ae255",
+    "faults-reading-the-coach-p4": "f3cd77ab",
+    "faults-reading-the-coach-p5": "a89ad704",
+    "faults-reading-the-coach-n1": "be642758",
+    "faults-reading-the-coach-n2": "be49f837",
+    "faults-reading-the-coach-ph1": "858e0d2e",
+    "faults-reading-the-coach-ph2": "d36138b7",
+    "faults-reading-the-coach-ph3": "c59be77c",
+    "faults-reading-the-coach-ph4": "a83d3189",
+    "faults-reading-the-coach-ph5": "6a0c429a",
+    "faults-reading-the-coach-ph6": "ff7d2bd0",
+    "faults-reading-the-coach-ph-head": "ec1b0088",
+    "faults-reading-the-coach-ph-pickup": "6192046c",
+    "faults-reading-the-coach-kp1": "524eba7d",
+    "faults-reading-the-coach-kp2": "b462a879",
+    "faults-reading-the-coach-kp3": "362826fd",
+    "faults-reading-the-coach-kp4": "8d315d84",
+    "faults-reading-the-coach-q1": "6b1a54f4",
+    "faults-reading-the-coach-q2": "9c01d7d6",
+    "faults-reading-the-coach-q3": "dc2cf3ee"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays (9 languages): the interpreter advice of the old p1, p2 and p3 is now in the notes faults-reading-the-coach-n1 and -n2; the body now speaks to the shooter. Retranslate p1–p4 and add the notes."
+    ]
+  }
+}

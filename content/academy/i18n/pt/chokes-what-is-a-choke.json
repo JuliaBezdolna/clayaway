@@ -1,0 +1,81 @@
+{
+  "id": "chokes-what-is-a-choke",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "5540ef8d",
+    "summary": "88b2a88a",
+    "gear-chokes-p1": "ab9985d7",
+    "gear-chokes-p2": "efeb2936",
+    "gear-chokes-p4": "63aca5f5",
+    "gear-chokes-p5": "7fd87dba",
+    "gear-chokes-kp1": "db22b78a",
+    "gear-chokes-kp2": "412d5a76",
+    "gear-chokes-kp5": "95ab00ad",
+    "gear-chokes-ph1": "2fd5680f",
+    "gear-chokes-ph2": "cbf6d0d6",
+    "gear-chokes-ph3": "8fe50fed",
+    "gear-chokes-ph4": "c907a6c7",
+    "gear-chokes-q1": "a199b993",
+    "gear-chokes-q2": "f8e45ec9"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "O que é um choke",
+  "summary": "Um choke é um estreitamento do cano junto à boca que mantém o chumbo junto. Decide a largura da chumbada no prato, e as regras de {{tm:sporting}} e {{tm:compak}} dizem quando pode mudá-lo.",
+  "body": {
+    "gear-chokes-p1": "Um {{term:choke|choke}} é um ligeiro estreitamento do cano junto à boca. Controla a rapidez com que o chumbo se espalha. Um choke mais fechado mantém o chumbo junto durante mais tempo, dando uma chumbada mais densa para pratos distantes; um choke mais aberto deixa-o espalhar-se mais cedo, dando uma chumbada mais larga e mais tolerante para pratos próximos.",
+    "gear-chokes-p2": "A maioria das armas de competição tem chokes intermutáveis: tubos curtos que se enroscam na boca do cano com uma chave de chokes. As armas mais antigas podem ter chokes fixos, maquinados no próprio cano. Os tubos de marcas diferentes muitas vezes não são compatíveis, e os fabricantes avisam que não se deve disparar uma arma de chokes intermutáveis sem os tubos.",
+    "gear-chokes-p4": "Os treinadores dizem coisas como «quarter and half» (um quarto e meio), «open up the bottom barrel» (abrir mais o cano de baixo), «go tighter in the top» (apertar mais no cano de cima) ou «change chokes for this stand» (trocar os chokes para este posto). Os nomes de cylinder a full, as frações e as marcações: {{lesson:chokes-names-and-marks}}.",
+    "gear-chokes-p5": "As regras diferem entre as disciplinas. No {{tm:sporting}} os chokes podem ser trocados entre postos, ou entre os simples e os doubles, se isso não causar atraso. Depois de o atirador ter entrado no posto, já não podem ser trocados. No {{tm:compak}} a arma, os canos e os chokes não podem ser trocados de todo dentro de uma série, só entre séries, exceto depois de uma avaria."
+  },
+  "note": {},
+  "phrases": {
+    "gear-chokes-ph1": {
+      "meaning": "Improved cylinder num cano, modified no outro.",
+      "say": "Que chokes está a usar? — Um quarto e meio."
+    },
+    "gear-chokes-ph2": {
+      "meaning": "Choke mais aberto para o primeiro prato, mais próximo; mais apertado para o segundo, mais distante.",
+      "say": "Ponha um quarto no cano de baixo e meio no de cima — o segundo prato está mais longe."
+    },
+    "gear-chokes-ph3": {
+      "meaning": "Monte chokes mais abertos, porque os pratos estão perto.",
+      "say": "Abra os chokes — estes estão todos perto."
+    },
+    "gear-chokes-ph4": {
+      "meaning": "Confirme que os tubos de choke não se desapertaram.",
+      "say": "Verifique se os chokes estão bem apertados antes da série."
+    }
+  },
+  "key_points": {
+    "gear-chokes-kp1": "O choke estreita a boca do cano: mais apertado para pratos distantes, mais aberto para pratos próximos.",
+    "gear-chokes-kp2": "Os tubos intermutáveis enroscam-se com uma chave de chokes; os fabricantes avisam que não se deve disparar sem eles.",
+    "gear-chokes-kp5": "{{tm:sporting}}: trocar os chokes entre postos, não no posto; {{tm:compak}}: nenhuma troca dentro de uma série."
+  },
+  "quiz": {
+    "gear-chokes-q1": {
+      "q": "Que choke dá a chumbada mais larga?",
+      "options": {
+        "a": "Full",
+        "b": "Improved modified",
+        "c": "Modified",
+        "d": "Cylinder"
+      },
+      "explain": "O cylinder (cilíndrico) não tem estrangulamento, por isso o chumbo espalha-se mais cedo."
+    },
+    "gear-chokes-q2": {
+      "q": "No Sporting™, um atirador que já está no posto quer trocar um choke. É permitido?",
+      "options": {
+        "a": "Sim, desde que não cause atraso",
+        "b": "Não, depois de estar no posto já não",
+        "c": "Sim, mas só antes dos doubles",
+        "d": "Só com autorização do júri"
+      },
+      "explain": "As trocas são permitidas entre postos ou entre simples e doubles, sem atraso, mas não depois de o atirador ter entrado no posto."
+    }
+  }
+}

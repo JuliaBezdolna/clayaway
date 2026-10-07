@@ -1,0 +1,99 @@
+{
+ "id": "gun-care",
+ "lang": "de",
+ "base_rev": 1,
+ "h": {
+  "title": "42bc807c",
+  "summary": "53ea9070",
+  "gun-care-p1": "e7fec0b7",
+  "gun-care-p2": "311dadd8",
+  "gun-care-p3": "5d55cf61",
+  "gun-care-p4": "3cd3a115",
+  "gun-care-p5": "520c5e84",
+  "gun-care-p6": "4866d6ad",
+  "gun-care-p7": "8dcf8861",
+  "gun-care-kp1": "9aa8a796",
+  "gun-care-kp2": "cabb28f0",
+  "gun-care-kp3": "12d97280",
+  "gun-care-kp4": "51137384",
+  "gun-care-kp5": "9b69a2ed",
+  "gun-care-dyk": "8beaba79",
+  "gun-care-q1": "77aa2722",
+  "gun-care-q2": "8bd12cd7",
+  "gun-care-q3": "c3f948e6",
+  "gun-care-q4": "5fd25464"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": null
+ },
+ "title": "Pflege und Reinigung",
+ "summary": "Wie man eine Flinte nach dem Schießen und nach Regen sicher reinigt, wie man sie aufbewahrt, und warum Schützen bei {{tm:sporting}} und {{tm:compak}} eine jährliche Wartung einplanen.",
+ "body": {
+  "gun-care-p1": "Reinigung beginnt mit Sicherheit. Stellen Sie sicher, dass die Flinte ungeladen ist: Öffnen Sie sie und schauen Sie in beide {{term:chamber|Patronenlager}}. Entfernen Sie alle Patronen aus Ihrem Arbeitsbereich, damit Sie keine versehentlich in die Flinte geben.",
+  "gun-care-p2": "Zerlegen Sie die Flinte: Nehmen Sie den {{term:fore-end|Vorderschaft}} ab, dann die Läufe von der {{term:receiver|Basküle}}. Haben Sie Wechselchokes, schrauben Sie sie mit dem {{term:choke-key|Chokeschlüssel}} heraus; sie werden separat gereinigt (siehe {{lesson:chokes-pattern-testing-and-care}}).",
+  "gun-care-p3": [
+   "Reinigen Sie die Läufe nach jedem Schießtag.",
+   "Feuchten Sie sie mit einem Reinigungslösemittel an, und ziehen Sie mehrmals eine Laufbürste (eine kleine Drahtbürste an einem Stab) durch.",
+   "Schieben Sie saubere Stoffquadrate (Patches) mit dem Putzstock durch, bis sie fast sauber herauskommen.",
+   "Schließen Sie mit einem sehr dünnen Ölfilm ab, und wischen Sie den Lauf trocken, bevor Sie wieder schießen."
+  ],
+  "gun-care-p4": "Wischen Sie das Metall außen mit einem Tuch und einem Tropfen Öl ab, um es vor Fingerabdrücken und Feuchtigkeit zu schützen. Tränken Sie einen Holzschaft nicht in Öl, da es ins Holz einzieht. Fetten Sie das Scharnier und die Stellen, an denen die Läufe in die Basküle verriegeln, leicht mit Waffenfett ein.",
+  "gun-care-p5": "Trocknen Sie die Flinte nach Regen sofort, am Schießstand oder im Hotel. Lassen Sie eine nasse Flinte nicht über Nacht in einem weichen {{term:gun-slip|Futteral}} oder einem geschlossenen {{term:hard-case|Waffenkoffer}}: Die Feuchtigkeit bleibt dort lange erhalten, und Rost folgt. Trocknen, abwischen, einölen.",
+  "gun-care-p6": "Bewahren Sie die Flinte trocken auf, in einem Waffenschrank oder wie es das Gesetz Ihres Landes verlangt; viele Gesetze verlangen auch, Patronen getrennt aufzubewahren. Viele Büchsenmacher empfehlen, eine Flinte waagerecht oder mit den Mündungen nach unten zu lagern, damit kein Öl in einen Holzschaft läuft. Verwenden Sie keine Stahlwolle oder Scheuermittel: Sie verkratzen die Oberfläche.",
+  "gun-care-p7": "Einmal im Jahr oder nach vielen Schüssen bringen Sie die Flinte zu einem {{term:gunsmith|Büchsenmacher}} zur Wartung. Nach dem Zusammenbau testen Sie die Flinte nicht auf einem Wettkampfstand. Bei {{tm:sporting}} und {{tm:compak}} wird ein {{term:gun-test|Probeschuss}} nur auf einem eigenen Probeschussstand abgegeben, falls der Schießstand einen hat."
+ },
+ "note": {},
+ "phrases": {},
+ "key_points": {
+  "gun-care-kp1": "Stellen Sie zuerst sicher, dass die Flinte ungeladen ist und die Patronen entfernt sind.",
+  "gun-care-kp2": "Reinigen Sie die Läufe nach jedem Schießtag; ölen Sie leicht.",
+  "gun-care-kp3": "Trocknen Sie eine nasse Flinte sofort; lassen Sie sie nicht über Nacht im Futteral.",
+  "gun-care-kp4": "Bewahren Sie sie trocken und verschlossen auf, waagerecht oder mit den Mündungen nach unten.",
+  "gun-care-kp5": "Eine jährliche Wartung beim Büchsenmacher; Probeschüsse nur auf einem Probeschussstand."
+ },
+ "did_you_know": "Zündhütchen enthielten früher korrosive Salze, und eine Flinte musste noch am selben Tag gereinigt werden, sonst rostete der Lauf. Moderne Zündhütchen sind nicht korrosiv, aber die Reinigung nach dem Schießen bleibt eine gute Gewohnheit.",
+ "quiz": {
+  "gun-care-q1": {
+   "q": "Was müssen Sie vor der Reinigung einer Flinte zuerst tun?",
+   "options": {
+    "a": "Das Scharnier und die Haken fetten",
+    "b": "Beide Chokes herausschrauben",
+    "c": "Prüfen, dass die Flinte ungeladen ist",
+    "d": "Die Schaftkappe abnehmen"
+   },
+   "explain": "Sicherheit zuerst: die Flinte öffnen und beide Patronenlager prüfen."
+  },
+  "gun-care-q2": {
+   "q": "Was sollten Sie nach dem Schießen im Regen nicht tun?",
+   "options": {
+    "a": "Die Flinte mit einem trockenen Tuch abwischen",
+    "b": "Sie über Nacht im Futteral lassen",
+    "c": "Die Läufe innen und außen trocknen",
+    "d": "Einen dünnen Ölfilm auf das Metall geben"
+   },
+   "explain": "In einem geschlossenen Futteral bleibt Feuchtigkeit lange erhalten, und Rost folgt."
+  },
+  "gun-care-q3": {
+   "q": "Wo können Sie Ihre Flinte vor einem Wettkampf probeweise abfeuern?",
+   "options": {
+    "a": "Auf einem Probeschussstand, falls der Schießstand einen hat",
+    "b": "Auf dem ersten Wettkampfstand",
+    "c": "Überall auf dem Gelände, abseits von Menschen",
+    "d": "Auf dem Parkplatz beim Vereinshaus"
+   },
+   "explain": "Die Regeln verbieten Probeschüsse auf dem Wettkampfstand; dafür wird ein eigener Probeschussstand genutzt."
+  },
+  "gun-care-q4": {
+   "q": "Warum empfehlen viele Büchsenmacher, eine Flinte mit den Mündungen nach unten zu lagern?",
+   "options": {
+    "a": "Damit sie später schneller zu laden ist",
+    "b": "Damit sich die Chokes nicht lösen",
+    "c": "Damit die Läufe schneller abkühlen",
+    "d": "Damit kein Öl in den Schaft läuft"
+   },
+   "explain": "Öl, das in einen Holzschaft läuft, kann das Holz mit der Zeit schädigen."
+  }
+ }
+}

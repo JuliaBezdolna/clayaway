@@ -1,0 +1,771 @@
+{
+  "id": "competitions-competition-day",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 1,
+  "minutes": 7,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "parent",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "competitions-competition-day"
+    ],
+    "interpreter": [
+      "sport-competition-day"
+    ]
+  },
+  "terms": [
+    "entry",
+    "competitor-number",
+    "squad",
+    "shooting-times",
+    "hearing-protection",
+    "safety-glasses",
+    "semi-automatic",
+    "gun-test",
+    "practice",
+    "trajectory-setting-table",
+    "single-target",
+    "double",
+    "rotation",
+    "compak-in-line",
+    "round",
+    "layout",
+    "score-sheet",
+    "jury",
+    "shoot-off",
+    "countback",
+    "prize-giving",
+    "coaching"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch17-competitor-number"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-competition-numbers"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-dress-code"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-dress-code"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-gun-handling"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-carrying"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-testing-guns"
+    },
+    {
+      "book": "compak",
+      "id": "ch11-testing-guns"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-no-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-championship-practice"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-singles-then-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-presentation"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch8-shooting-times"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-ready"
+    },
+    {
+      "book": "compak",
+      "id": "ch16-squad-group"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-model"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-signing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-late-shooter"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-late-excuse"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-late-squad"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-late-inline"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-late-appeal"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-top-three"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-sudden-death"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-squad-and-timing"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-countback"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-availability"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-ceremonies"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-ceremonies"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-waiting-positions"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-medals"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-empty-station"
+    }
+  ],
+  "facts": [
+    "rules.dress-shorts-length",
+    "training.compak-championship-practice",
+    "competitions.compak-late-zeros",
+    "rules.shootoff-ready-time",
+    "competitions.shoot-off-format",
+    "competitions.countback-order"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Competition day from start to finish",
+    "uk": "День змагань від початку до кінця"
+  },
+  "summary": {
+    "en": "What happens on a competition day in {{tm:sporting}} and {{tm:compak}}: registration, your number, squads and rotation, lateness, scores and the end of the day.",
+    "uk": "Що відбувається в день змагань із {{tm:sporting}} і {{tm:compak}}: реєстрація, стартовий номер, групи й черговість, запізнення, результати й завершення дня."
+  },
+  "body": [
+    {
+      "k": "sport-competition-day-p1",
+      "t": "p",
+      "anchor": "sport-competition-day",
+      "core": true,
+      "disc": "both",
+      "en": "The day starts at registration: the shooter confirms the entry, receives a competitor number and pins it on the upper back, fully visible. Then everyone checks the squad lists and the shooting times. A squad is a group of up to six shooters, drawn by lot, who shoot together. Keeping to the timetable is the shooter’s own responsibility.",
+      "uk": "День починається з реєстрації: стрілець підтверджує {{term:entry|заявку}}, отримує {{term:competitor-number|стартовий номер}} і кріпить його на верхній частині спини так, щоб його було повністю видно. Потім усі перевіряють списки {{term:squad|груп}} і {{term:shooting-times|розклад стрільби}}. Група (squad) — це до шести стрільців, визначених жеребкуванням, які стріляють разом. Стежити за розкладом — обов’язок самого стрільця."
+    },
+    {
+      "k": "competitions-competition-day-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "Arrive early: registration, finding your squad and getting ready all take time. The {{term:competitor-number|number}} goes between the shoulders and the waist, not folded or cut. Put on {{term:hearing-protection|hearing protection}} and {{term:safety-glasses|safety glasses}} before you go to the stand. In both disciplines a shooter who turns up without them counts as absent, and the rules for late shooters apply (see below).",
+      "uk": "Приїжджайте заздалегідь: реєстрація, пошук своєї групи й підготовка забирають час. Стартовий {{term:competitor-number|номер}} кріплять між плечима і поясом, не складаючи й не обрізаючи. Вдягніть {{term:hearing-protection|засоби захисту слуху}} і {{term:safety-glasses|стрілецькі окуляри}} ще до виходу на стрілецьке місце. В обох дисциплінах стрільця без них вважають відсутнім, і до нього застосовують правила про запізнення (див. нижче)."
+    },
+    {
+      "k": "competitions-competition-day-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "Dress neatly and safely: shorts may end {{fact:rules.dress-shorts-length}}, tops need sleeves and sandals are not allowed. Carry your gun open (broken at the hinge, so everyone can see it is not loaded) and without a sling. A {{term:semi-automatic|semi-automatic}} is carried with its breech open (the bolt held back). All the rules: {{lesson:rules-dress-and-safety}}.",
+      "uk": "Одягніться охайно й безпечно: шорти мають закінчуватися {{fact:rules.dress-shorts-length}}, на футболці чи сорочці потрібен рукав, сандалії заборонені. Рушницю носять відкритою (переламаною, щоб усі бачили, що вона не заряджена) і без ременя. {{term:semi-automatic|Напівавтомат}} носять із відкритим затвором (відведеним назад). Усі правила: {{lesson:rules-dress-and-safety}}."
+    },
+    {
+      "k": "competitions-competition-day-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "Want to check that your gun works? Do it before the round, at a special {{term:gun-test|test stand}} if the ground has one. Test shots on a competition stand are not allowed.",
+      "uk": "Хочете перевірити, чи працює рушниця? Зробіть це до раунду, на спеціальному місці для {{term:gun-test|пробного пострілу}}, якщо воно є на стрільбищі. Пробні постріли на змагальному стрілецькому місці заборонені."
+    },
+    {
+      "k": "competitions-competition-day-practice",
+      "t": "compare",
+      "disc": "both",
+      "en": "Practice before the event",
+      "uk": "Тренування перед змаганнями",
+      "sporting": {
+        "en": "Nobody may practise on the competition layouts before the event. Practise on other ranges.",
+        "uk": "Тренуватися на змагальних майданчиках до змагань не можна нікому. Тренуйтеся на інших стендах."
+      },
+      "compak": {
+        "en": "You may {{term:practice|practise}} on the same target flights (trajectories) as in the competition, but the {{term:trajectory-setting-table|trajectory setting table}} must be a different one. This table is the scheme that says which traps are shot from each station. At continental and world championships official practice opens {{fact:training.compak-championship-practice}}.",
+        "uk": "{{term:practice|Тренуватися}} на тих самих польотах мішеней (траєкторіях), що й на змаганнях, можна, але за іншою {{term:trajectory-setting-table|таблицею налаштування траєкторій}}. Ця таблиця — схема, яка визначає, з яких машинок стріляють на кожному номері. На чемпіонатах континенту й світу офіційне тренування починається {{fact:training.compak-championship-practice}}."
+      }
+    },
+    {
+      "k": "sport-competition-day-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "In {{tm:sporting}} the squad shoots all the singles of a stand first, then the doubles, and at each new stand a different shooter goes first. Before anyone shoots, the first shooter of the squad is shown the targets: each one is thrown so that its flight can be seen.",
+      "uk": "У {{tm:sporting}} група спершу стріляє всі {{term:single-target|одиночні мішені}} стрілецького місця, потім {{term:double|дуплети}}, а на кожному новому місці першим стріляє інший стрілець ({{term:rotation|порядок стрільби}} змінюється). Перш ніж хтось почне стріляти, першому стрільцеві групи показують мішені: кожну запускають, щоб було видно, як вона летить."
+    },
+    {
+      "k": "competitions-competition-day-p5",
+      "t": "rule",
+      "disc": "compak",
+      "rule_ref": "compak:ch17-squad-rotation",
+      "en": "When {{tm:compak}} is shot by squad, a full squad has six shooters: five stand on the five stations and the sixth waits behind station 1. With fewer shooters one station stays empty. When everyone has shot their targets from their station, the squad moves one station to the right. The shooter from station 5 goes to wait behind station 1, and the waiting shooter steps onto station 1. This goes on until each shooter has shot from all five stations. Before your round, go to the Compak field you have been assigned to and report to the referee: this is compulsory. In {{term:compak-in-line|Compak in line}} shooters do not move as a squad: they enter station 1 one by one and walk along the line to station 5.",
+      "uk": "Коли {{tm:compak}} стріляють групами, у повній групі шестеро стрільців: п’ятеро стоять на п’яти номерах, а шостий чекає позаду номера 1. Якщо стрільців менше, один номер лишається порожнім. Коли всі відстріляли свої мішені на своєму номері, група переходить на один номер праворуч. Стрілець із номера 5 іде чекати позаду номера 1, а той, хто чекав, стає на номер 1. Так триває, доки кожен не відстріляє з усіх п’яти номерів. Перед своїм раундом прийдіть на поле Compak, яке вам призначили, і відмітьтеся в судді: це обов’язково. У {{term:compak-in-line|Compak у лінію}} стрільці не переходять групою: вони по одному заходять на номер 1 і проходять лінію до номера 5."
+    },
+    {
+      "k": "competitions-competition-day-ready",
+      "t": "tip",
+      "disc": "both",
+      "en": "When your turn comes, be ready at once, with cartridges for the whole round. In {{tm:compak}} the referee does not have to look for a missing shooter. How the stands work: {{lesson:targets-sporting-layout}} and {{lesson:targets-compak-layout}}.",
+      "uk": "Коли настає ваша черга, будьте готові одразу, з набоями на весь раунд. У {{tm:compak}} суддя не зобов’язаний шукати відсутнього стрільця. Як улаштовані майданчики: {{lesson:targets-sporting-layout}} і {{lesson:targets-compak-layout}}."
+    },
+    {
+      "k": "sport-competition-day-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A round is 25 targets: one layout in {{tm:sporting}}, one field in {{tm:compak}}. An international competition is 200 targets, so eight rounds over several days. The referee marks each target on the score sheet, usually X for a hit and O for a miss. In {{tm:sporting}} shooters check their score when leaving a stand; in {{tm:compak}} they sign the sheet at the end of the round.",
+      "uk": "{{term:round|Раунд}} — це 25 мішеней: один {{term:layout|майданчик}} у {{tm:sporting}} або одне поле в {{tm:compak}}. Міжнародні змагання — 200 мішеней, тобто вісім раундів за кілька днів. Суддя позначає кожну мішень у {{term:score-sheet|протоколі}}, зазвичай X — влучання, O — промах. У {{tm:sporting}} стрільці перевіряють свій результат, сходячи зі стрілецького місця, а в {{tm:compak}} підписують протокол наприкінці раунду."
+    },
+    {
+      "k": "sport-competition-day-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Being late is costly. In {{tm:sporting}} the referee calls the shooter’s name three times within one minute; a shooter who misses their turn gets zeros for the targets not shot. In {{tm:compak}} a shooter who turns up once the first shooter of the squad has already called for the first target (asked for it to be thrown) gets {{fact:competitions.compak-late-zeros}}.",
+      "uk": "Запізнення дорого коштує. У {{tm:sporting}} суддя тричі викликає стрільця протягом хвилини; якщо стрілець пропустив свою чергу, невідстріляні мішені зараховують йому як промахи. У {{tm:compak}} стрілець, який прийшов, коли перший стрілець групи вже подав команду на першу мішень (попросив її запустити), отримує {{fact:competitions.compak-late-zeros}}."
+    },
+    {
+      "k": "competitions-competition-day-late-inline",
+      "t": "rule",
+      "disc": "compak",
+      "rule_ref": "compak:ch9-late-inline",
+      "en": "In {{term:compak-in-line|Compak in line}} you count as late when two things have happened: the computer system has cancelled your competitor number, and the next shooter is on station 1. The penalty is the same: {{fact:competitions.compak-late-zeros}}.",
+      "uk": "У {{term:compak-in-line|Compak у лінію}} вас вважають запізнілим, коли збіглися дві умови: комп’ютерна система вже скасувала ваш стартовий номер, а наступний стрілець стоїть на номері 1. Покарання те саме — {{fact:competitions.compak-late-zeros}}."
+    },
+    {
+      "k": "competitions-competition-day-late",
+      "t": "tip",
+      "disc": "both",
+      "en": "Late for a reason outside your control? Do not rejoin the squad on your own: appeal in writing to the {{term:jury|jury}} (the panel in charge of the competition), in {{tm:compak}} on the same day. If the jury agrees, you shoot the round with another squad. Details: {{lesson:rules-call-and-time}}.",
+      "uk": "Запізнилися з причини, яку не могли контролювати? Не повертайтеся до групи самостійно: письмово зверніться до {{term:jury|журі}} (органу, що керує змаганнями), у {{tm:compak}} — того самого дня. Якщо журі погодиться, ви відстріляєте раунд з іншою групою. Докладніше: {{lesson:rules-call-and-time}}."
+    },
+    {
+      "k": "sport-competition-day-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "If shooters tie for one of the top three places, the tie is settled by {{fact:competitions.shoot-off-format}}. In sudden death they keep shooting, and the first one to miss is out. Below third place there is no shoot-off: tied shooters share the place. {{term:countback|Countback}} sets their order in the list: their scores are compared {{fact:competitions.countback-order}}. The day ends with the results board and the prize-giving.",
+      "uk": "Рівність за одне з перших трьох місць розв’язує {{fact:competitions.shoot-off-format}}: хто перший промахнеться, той вибуває. Нижче третього місця перестрілки немає: стрільці з рівним результатом ділять місце. Порядок у списку визначає {{term:countback|каунтбек}} (countback): їхні результати порівнюють {{fact:competitions.countback-order}}. День завершується таблицею результатів і нагородженням."
+    },
+    {
+      "k": "competitions-competition-day-end",
+      "t": "tip",
+      "disc": "both",
+      "en": "Might you be in a shoot-off? Stay close and reachable: you may have to shoot {{fact:rules.shootoff-ready-time}}. At international events all prize winners must attend the {{term:prize-giving|prize giving}}, in team outfit or smart trousers and a blazer. How to read the results: {{lesson:watching-reading-results}}.",
+      "uk": "Можете потрапити в перестрілку? Будьте поруч і на зв’язку: стріляти, можливо, доведеться {{fact:rules.shootoff-ready-time}}. На міжнародних змаганнях кожен призер мусить бути на {{term:prize-giving|нагородженні}} — у формі збірної або в охайних штанях і блейзері. Як читати результати: {{lesson:watching-reading-results}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "competitions-competition-day-n1",
+      "for": "interpreter",
+      "en": "ClayAway tours, which are being prepared, will also use “squad” for a subgroup of a tour. At a competition it means the shooting group, so make clear which one you mean.",
+      "uk": "У турах ClayAway, які зараз готуються, словом «squad» називатимуть і підгрупу туру. На змаганнях воно завжди означає групу, що стріляє разом, тож уточнюйте, про що йдеться."
+    },
+    {
+      "k": "competitions-competition-day-n-parent",
+      "for": "parent",
+      "en": "Watch from the spectators’ area and stay quiet near the stand. Advice called out during the round counts as {{term:coaching|coaching}}: the referee can give your child a yellow card for it. More: {{lesson:juniors-support-without-pressure}}.",
+      "uk": "Дивіться з місця для глядачів і поводьтеся тихо біля стрілецького місця. Порада, яку гукають під час раунду, вважається {{term:coaching|підказкою}} (coaching), і суддя може дати за неї дитині жовту картку. Докладніше: {{lesson:juniors-support-without-pressure}}."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "sport-competition-day-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "You’re in squad twelve, starting on layout five at nine-thirty.",
+      "meaning": {
+        "en": "Squad number, start layout and start time.",
+        "uk": "Номер групи, стартовий майданчик і час старту."
+      },
+      "say": {
+        "uk": "Ви у дванадцятій групі, старт на п’ятому майданчику о дев’ятій тридцять."
+      },
+      "from": "sport-competition-day"
+    },
+    {
+      "k": "sport-competition-day-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Check your card before you leave the stand.",
+      "meaning": {
+        "en": "{{tm:sporting}}: make sure the referee recorded your score correctly now; later it is too late.",
+        "uk": "{{tm:sporting}}: переконайтеся, що суддя правильно записав результат, — пізніше вже не виправлять."
+      },
+      "say": {
+        "uk": "Перевірте протокол, перш ніж сходити зі стрілецького місця."
+      },
+      "from": "sport-competition-day"
+    },
+    {
+      "k": "sport-competition-day-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Twenty-two in the first round is fine — seven more to go.",
+      "meaning": {
+        "en": "22 out of 25 in the first round; seven rounds remain in a 200-target event.",
+        "uk": "22 з 25 у першому раунді; на змаганнях на 200 мішеней лишається ще сім раундів."
+      },
+      "say": {
+        "uk": "Двадцять дві в першому раунді — нормально, попереду ще сім."
+      },
+      "from": "sport-competition-day"
+    },
+    {
+      "k": "sport-competition-day-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Stay close — if it’s a tie, you shoot within fifteen minutes of the call.",
+      "meaning": {
+        "en": "A shooter who may be in a shoot-off must be ready soon after being called.",
+        "uk": "Стрілець, який може потрапити в перестрілку, має бути готовий невдовзі після виклику."
+      },
+      "say": {
+        "uk": "Будьте поруч: якщо буде нічия, стрілятимете протягом п’ятнадцяти хвилин після виклику."
+      },
+      "from": "sport-competition-day"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "sport-competition-day-kp1",
+      "core": true,
+      "en": "Registration, competitor number on the back, squad lists and times.",
+      "uk": "Реєстрація, стартовий номер на спині, списки груп і розклад.",
+      "checklist": true
+    },
+    {
+      "k": "competitions-competition-day-kp1",
+      "en": "Without hearing protection and safety glasses on the stand you are treated as absent.",
+      "uk": "Без захисту слуху й стрілецьких окулярів на стрілецькому місці вас вважають відсутнім.",
+      "checklist": true
+    },
+    {
+      "k": "competitions-competition-day-kp-ready",
+      "en": "Be ready at your turn, with cartridges for the whole round; test the gun only at the test stand.",
+      "uk": "Будьте готові у свою чергу, з набоями на весь раунд; рушницю перевіряйте лише на місці для пробного пострілу.",
+      "checklist": true
+    },
+    {
+      "k": "sport-competition-day-kp4",
+      "core": true,
+      "en": "Lateness costs zeros; in {{tm:compak}} {{fact:competitions.compak-late-zeros}}.",
+      "uk": "Запізнення коштує промахів; у {{tm:compak}} — {{fact:competitions.compak-late-zeros}}.",
+      "checklist": true
+    },
+    {
+      "k": "sport-competition-day-kp5",
+      "core": true,
+      "en": "Top-three ties: shoot-off of 25, then sudden death; lower ties: countback.",
+      "uk": "Рівність за 1–3 місця: перестрілка на 25 мішеней, потім до першого промаху; нижче — каунтбек."
+    }
+  ],
+  "did_you_know": {
+    "k": "competitions-competition-day-dyk",
+    "en": "In {{tm:sporting}} the squad waits as close to the stand as possible, but in a place where it does not distract the person shooting.",
+    "uk": "У {{tm:sporting}} група чекає якомога ближче до стрілецького місця, але там, де не заважає тому, хто стріляє."
+  },
+  "quiz": [
+    {
+      "k": "competitions-competition-day-q-protection",
+      "disc": "both",
+      "q": {
+        "en": "What happens if you come to the stand without hearing protection or safety glasses?",
+        "uk": "Що буде, якщо ви прийдете на стрілецьке місце без захисту слуху чи стрілецьких окулярів?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "You may shoot, but you get a warning",
+          "uk": "Стріляти можна, але буде попередження"
+        },
+        {
+          "k": "b",
+          "en": "You are treated as absent and may not shoot",
+          "uk": "Вас вважають відсутнім, і стріляти не можна"
+        },
+        {
+          "k": "c",
+          "en": "The referee gives you a spare set",
+          "uk": "Суддя видасть вам запасні"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In both disciplines a shooter without hearing protection or safety glasses is treated as absent, and the lateness rules apply.",
+        "uk": "В обох дисциплінах стрільця без захисту слуху чи окулярів вважають відсутнім, і діють правила про запізнення."
+      },
+      "rule_ref": "sporting:ch8-hearing-protection"
+    },
+    {
+      "k": "competitions-competition-day-q2",
+      "disc": "both",
+      "q": {
+        "en": "Where may you check that your gun works?",
+        "uk": "Де можна перевірити, чи працює рушниця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the first competition stand, before the round",
+          "uk": "На першому змагальному місці, перед раундом"
+        },
+        {
+          "k": "b",
+          "en": "Anywhere on the ground, if the area is clear",
+          "uk": "Будь-де на стрільбищі, якщо поруч нікого немає"
+        },
+        {
+          "k": "c",
+          "en": "At a special test stand, if the ground has one",
+          "uk": "На спеціальному місці для пробного пострілу, якщо воно є"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Test shots on a competition stand are not allowed in either discipline; use the test stand.",
+        "uk": "Пробні постріли на змагальному стрілецькому місці заборонені в обох дисциплінах; для цього є окреме місце."
+      },
+      "rule_ref": "sporting:ch3-testing-guns"
+    },
+    {
+      "k": "sport-competition-day-q2",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}} shot by squad, a shooter arrives after the first shooter has called for the first target. What happens?",
+        "uk": "У {{tm:compak}} групою стрілець прийшов після того, як перший дав команду на першу мішень. Що буде?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing, he joins in",
+          "uk": "Нічого, він приєднується"
+        },
+        {
+          "k": "b",
+          "en": "He gets 25 zeros for that round",
+          "uk": "Йому зараховують 25 промахів за цей раунд"
+        },
+        {
+          "k": "c",
+          "en": "He shoots the round alone later without penalty",
+          "uk": "Він пізніше стріляє раунд сам без штрафу"
+        },
+        {
+          "k": "d",
+          "en": "He loses one target",
+          "uk": "Він втрачає одну мішень"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:compak}} shot by squad, arriving after the first call costs {{fact:competitions.compak-late-zeros}}. For a reason outside your control, you can appeal to the jury in writing on the same day.",
+        "uk": "У {{tm:compak}} групою запізнення після першої команди коштує {{fact:competitions.compak-late-zeros}}. Якщо причина не залежала від вас, можна письмово звернутися до журі того самого дня."
+      },
+      "rule_ref": "compak:ch9-late-squad",
+      "from": "sport-competition-day"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "competitions-competition-day-q1",
+      "q": {
+        "en": "What is the largest number of shooters in a squad?",
+        "uk": "Скільки щонайбільше стрільців у групі (squad)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "4",
+          "uk": "4"
+        },
+        {
+          "k": "b",
+          "en": "6",
+          "uk": "6"
+        },
+        {
+          "k": "c",
+          "en": "8",
+          "uk": "8"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In both {{tm:sporting}} and {{tm:compak}} a squad has at most 6 shooters.",
+        "uk": "І в {{tm:sporting}}, і в {{tm:compak}} група — щонайбільше 6 стрільців."
+      },
+      "rule_ref": "sporting:ch16-squads"
+    },
+    {
+      "k": "sport-competition-day-q3",
+      "q": {
+        "en": "Two shooters tie for 5th place. How are they ranked?",
+        "uk": "Двоє стрільців поділили 5-те місце. Як їх розставляють?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "By a 25-target shoot-off for that place",
+          "uk": "Перестрілкою на 25 мішеней за це місце"
+        },
+        {
+          "k": "b",
+          "en": "By drawing lots after the event has ended",
+          "uk": "Жеребкуванням після завершення змагань"
+        },
+        {
+          "k": "c",
+          "en": "They share it; countback from the 8th layout or Compak sets the order",
+          "uk": "Ділять місце; порядок визначає каунтбек від 8-го майданчика чи Compak"
+        },
+        {
+          "k": "d",
+          "en": "By age, with the younger shooter placed higher",
+          "uk": "За віком: молодшого ставлять вище"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Shoot-offs are only for the top three. Below that, tied shooters share the place, and countback compares the 8th layout or Compak, then the 7th, and so on.",
+        "uk": "Перестрілки — лише за перші три місця. Нижче стрільці ділять місце, а каунтбек порівнює 8-й майданчик чи Compak, потім 7-й і так далі."
+      },
+      "from": "sport-competition-day",
+      "rule_ref": "sporting:ch18-top-three"
+    },
+    {
+      "k": "competitions-competition-day-q-inline-late",
+      "disc": "compak",
+      "q": {
+        "en": "In Compak in line, when do you count as late?",
+        "uk": "Коли в Compak у лінію вас вважають запізнілим?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "When your number is cancelled in the system and the next shooter is on station 1",
+          "uk": "Коли ваш номер скасовано в системі, а наступний стрілець уже на номері 1"
+        },
+        {
+          "k": "b",
+          "en": "As soon as the referee has called out your name for the first time",
+          "uk": "Щойно суддя вперше вигукнув ваше ім’я"
+        },
+        {
+          "k": "c",
+          "en": "Only after the whole group has finished shooting the round",
+          "uk": "Лише коли вся ваша група відстріляла раунд"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Both things must have happened: your number is already cancelled in the computer system, and the next shooter stands on station 1. The penalty is {{fact:competitions.compak-late-zeros}}.",
+        "uk": "Мають збігтися дві умови: ваш номер уже скасовано в комп’ютерній системі, а наступний стрілець стоїть на номері 1. Покарання — {{fact:competitions.compak-late-zeros}}."
+      },
+      "rule_ref": "compak:ch9-late-inline"
+    },
+    {
+      "k": "competitions-competition-day-q-carry",
+      "disc": "both",
+      "q": {
+        "en": "How do you carry your gun between stands?",
+        "uk": "Як носити рушницю між стрілецькими місцями?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Open, so everyone can see it is not loaded, and without a sling",
+          "uk": "Відкритою, щоб усі бачили, що вона не заряджена, і без ременя"
+        },
+        {
+          "k": "b",
+          "en": "Closed and unloaded, on a sling over your shoulder",
+          "uk": "Закритою й незарядженою, на ремені через плече"
+        },
+        {
+          "k": "c",
+          "en": "Closed, with the safety catch on, pointing at the ground",
+          "uk": "Закритою, на запобіжнику, стволами донизу"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Guns are carried open and slings are not allowed; a semi-automatic is carried with its breech open.",
+        "uk": "Рушницю носять відкритою, ремені заборонені; напівавтомат — із відкритим затвором."
+      },
+      "rule_ref": "sporting:ch7-gun-handling"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "da330bf4",
+    "summary": "03f0d6e8",
+    "sport-competition-day-p1": "fe775f1f",
+    "competitions-competition-day-p1": "1637c3ac",
+    "competitions-competition-day-p2": "67e7bbfe",
+    "competitions-competition-day-p3": "f4441a9d",
+    "competitions-competition-day-practice": "8b778fed",
+    "sport-competition-day-p2": "e6be5fdb",
+    "competitions-competition-day-p5": "dd34255e",
+    "competitions-competition-day-ready": "b0097c3e",
+    "sport-competition-day-p3": "1c827ea1",
+    "sport-competition-day-p4": "31ca987d",
+    "competitions-competition-day-late-inline": "b5ebbfb9",
+    "competitions-competition-day-late": "29daedd5",
+    "sport-competition-day-p5": "88bcdcdc",
+    "competitions-competition-day-end": "d5f38b62",
+    "sport-competition-day-kp1": "1253bc50",
+    "competitions-competition-day-kp1": "d0538c31",
+    "competitions-competition-day-kp-ready": "4fd327b5",
+    "sport-competition-day-kp4": "05da6963",
+    "sport-competition-day-kp5": "8745608e",
+    "competitions-competition-day-dyk": "bee33939",
+    "competitions-competition-day-n1": "2c5d9407",
+    "competitions-competition-day-n-parent": "416800c4",
+    "sport-competition-day-ph1": "aca8882e",
+    "sport-competition-day-ph2": "19bd30f0",
+    "sport-competition-day-ph3": "c9b8e464",
+    "sport-competition-day-ph4": "2f81332b",
+    "competitions-competition-day-q-protection": "52593bf2",
+    "competitions-competition-day-q2": "ee8d9127",
+    "sport-competition-day-q2": "1bccddb2",
+    "competitions-competition-day-q1": "2e3a9e98",
+    "sport-competition-day-q3": "7ccca26d",
+    "competitions-competition-day-q-inline-late": "ba6595e7",
+    "competitions-competition-day-q-carry": "861a9947"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Translation wave: the English of the core paragraph sport-competition-day-p2 changed (the ClayAway sentence was taken out; ClayAway is not launched and now appears only in the interpreter note competitions-competition-day-n1, in the future tense). Update the 9 overlays i18n/<lang>/competitions-competition-day.json for this key; their texts stay valid apart from that sentence.",
+      "Overlay keys no longer in this master (the merged title and the duplicate key points): sport-competition-day-title, sport-competition-day-kp2, sport-competition-day-kp3. Remove them from the overlays during the next translation wave.",
+      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/competitions-competition-day.json: sport-competition-day-p1 (now also defines the squad; the definition moved here from p2), sport-competition-day-p2 (definition removed; plain wording of rotation and the showing of targets), sport-competition-day-p4 (“called for the first target”, explained), sport-competition-day-p5 (countback by the 8th layout or Compak, places below 3rd are shared; sudden death explained), sport-competition-day-q2 (now in the quiz; explanation rewritten), sport-competition-day-q3 (option c and the explanation: 8th layout or Compak; question “How are they ranked?”), sport-competition-day-ph2 (meaning labelled Sporting™).",
+      "Core keys whose English changed only in form (trade-mark tokens {{tm:…}} instead of the literal names, fact tokens, curly apostrophe ’): sport-competition-day-p3, sport-competition-day-kp4, sport-competition-day-ph1, sport-competition-day-ph4. The translations stay valid: in the overlays put the new hash and, where the name is written out, keep it as it is.",
+      "Removed duplicate questions (route exams showed them twice): sport-competition-day-q1 (the same as competitions-types-of-events-q1) and competitions-competition-day-q3 (the same as sport-competition-day-q2). Remove sport-competition-day-q1 from the 9 overlays during the next translation wave. New exam questions to translate: competitions-competition-day-q-inline-late, competitions-competition-day-q-carry."
+    ]
+  }
+}

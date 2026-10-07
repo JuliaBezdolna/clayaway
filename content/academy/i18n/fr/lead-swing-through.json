@@ -1,0 +1,108 @@
+{
+ "id": "lead-swing-through",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "6da1ccb6",
+  "summary": "a7be86d1",
+  "lead-swing-through-p1": "c6e995f6",
+  "lead-swing-through-p2": "460ccdc7",
+  "lead-swing-through-delay": "646e110b",
+  "lead-swing-through-p3": "5591e8be",
+  "lead-swing-through-p4": "56ddd9af",
+  "lead-swing-through-p5": "7af5a14c",
+  "lead-swing-through-n1": "5b292c5e",
+  "lead-swing-through-ph1": "bafebb3a",
+  "lead-swing-through-ph2": "2d3aa2ff",
+  "lead-swing-through-ph3": "da25ee4d",
+  "lead-swing-through-ph4": "892d2466",
+  "lead-swing-through-kp1": "dd1d9624",
+  "lead-swing-through-kp2": "c9f0e48f",
+  "lead-swing-through-kp3": "21f6b8c9",
+  "lead-swing-through-kp4": "0c9a1c39",
+  "lead-swing-through-kp5": "17c6a436",
+  "lead-swing-through-q1": "1b70a4e7",
+  "lead-swing-through-q2": "229c9781",
+  "lead-swing-through-q3": "e7ce5191"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Swing-through : de l'arrière, à travers le plateau",
+ "summary": "Comment fonctionne le swing-through étape par étape, pourquoi vous voyez peu ou pas d'écart, et à quels plateaux il convient souvent.",
+ "body": {
+  "lead-swing-through-p1": "Dans le {{term:swing-through|swing-through}}, les canons démarrent derrière le plateau et le dépassent. Les entraîneurs résument cela par « butt, belly, beak, bang » : queue, corps, bec, feu. Étape par étape, cela donne :",
+  "lead-swing-through-p2": [
+   "Départ : les canons rejoignent la ligne du plateau derrière lui, sur sa queue.",
+   "Dépassement : le fusil se déplace plus vite que le plateau, le long de sa ligne, à travers son corps.",
+   "Tir : la détente part quand les canons dépassent l'avant du plateau, juste devant lui.",
+   "Le swing continue après le tir."
+  ],
+  "lead-swing-through-delay": "Il y a un court délai entre la décision de tirer et la sortie du coup des canons. Comme le fusil va plus vite que le plateau, pendant cet instant les canons avancent encore, d'eux-mêmes. Vous appuyez donc sur la détente quand vous voyez un petit écart ou aucun, et la vitesse du fusil ajoute le reste. L'avance réelle au moment du tir est plus grande que ce que vous avez vu.",
+  "lead-swing-through-p3": "Atouts : naturel et rapide, bien adapté aux débutants. Il convient aux plateaux proches et rapides, aux {{term:driven-target|plateaux à la tête}} (driven, qui viennent vers vous et passent au-dessus de votre tête), aux {{term:overhead|plateaux au-dessus de la tête}} venant de derrière, et aux plateaux irréguliers ou surprise.",
+  "lead-swing-through-p4": "Faiblesses : la fenêtre pour la détente est très courte. Sur les traversards longs, le tireur peut manquer de temps, perdre la ligne ou dépasser le plateau. Ralentir quand les canons arrivent sur le plateau donne un tir derrière.",
+  "lead-swing-through-p5": "Les sources ne s'accordent pas sur le nom « CPSA method » (CPSA, Clay Pigeon Shooting Association, est la fédération de tir aux plateaux d'Angleterre). Certains l'utilisent pour le swing-through, alors que l'enseignement actuel de la CPSA est décrit comme du pull-away. Si un entraîneur dit « CPSA method », demandez-lui de quelle méthode il parle."
+ },
+ "note": {
+  "lead-swing-through-n1": "En anglais britannique, on peut entendre « bum » à la place de « butt ». Cela désigne la queue du plateau ; traduisez-le par un mot neutre."
+ },
+ "phrases": {
+  "lead-swing-through-ph1": {
+   "meaning": "Démarrez derrière le plateau, traversez-le et tirez dès qu'un espace apparaît devant.",
+   "say": "Venez de derrière, traversez le plateau, et tirez dès que vous voyez le jour."
+  },
+  "lead-swing-through-ph2": {
+   "meaning": "Moyen mnémotechnique : queue, corps, avant du plateau, puis tir.",
+   "say": "Queue, corps, bec : feu."
+  },
+  "lead-swing-through-ph3": {
+   "meaning": "Le fusil a perdu de la vitesse en arrivant sur le plateau, donc le tir est parti derrière.",
+   "say": "Vous avez ralenti en arrivant sur lui."
+  },
+  "lead-swing-through-ph4": {
+   "meaning": "Traversez le plateau comme pour l'effacer du ciel, sans vous arrêter.",
+   "say": "Balayez-le et continuez."
+  }
+ },
+ "key_points": {
+  "lead-swing-through-kp1": "Les canons démarrent derrière, sur la ligne du plateau.",
+  "lead-swing-through-kp2": "Fusil plus rapide que le plateau : queue, corps, avant, feu.",
+  "lead-swing-through-kp3": "Détente quand les canons dépassent l'avant ; l'avance réelle est plus grande que l'avance vue.",
+  "lead-swing-through-kp4": "Bon pour les plateaux proches, rapides, à la tête et surprise ; plus difficile sur les traversards longs.",
+  "lead-swing-through-kp5": "« CPSA method » peut désigner deux méthodes différentes : demandez laquelle est visée."
+ },
+ "quiz": {
+  "lead-swing-through-q1": {
+   "q": "Où démarrent les canons dans le swing-through ?",
+   "options": {
+    "a": "Devant le plateau",
+    "b": "Sur le bord avant du plateau",
+    "c": "En un point fixe, au point de casse",
+    "d": "Derrière le plateau, sur sa ligne"
+   },
+   "explain": "Le swing-through démarre derrière et dépasse le plateau ; démarrer devant, c'est l'avance maintenue, un point fixe, c'est le tir en embuscade."
+  },
+  "lead-swing-through-q2": {
+   "q": "Pourquoi un tireur en swing-through voit-il peu ou pas d'avance ?",
+   "options": {
+    "a": "Les plateaux sont plus lents",
+    "b": "C'est la vitesse du fusil qui crée l'avance",
+    "c": "Le règlement interdit un écart visible",
+    "d": "Le tireur ferme les deux yeux"
+   },
+   "explain": "Le fusil va plus vite que le plateau, donc entre la décision et le tir, il avance seul."
+  },
+  "lead-swing-through-q3": {
+   "q": "Un entraîneur dit « bum, belly, beak, bang ». Que signifie « bum » ici ?",
+   "options": {
+    "a": "La queue du plateau",
+    "b": "Une remarque grossière à votre égard",
+    "c": "Le bruit du tir",
+    "d": "Un mot à ne pas traduire"
+   },
+   "explain": "Cela signifie la queue du plateau. Un mot neutre pour « queue » garde à la fois le sens et le rythme du moyen mnémotechnique."
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "cartridges-velocity-recoil",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "a3ab7761",
+    "summary": "d266928f",
+    "cartridges-velocity-recoil-p1": "35b2ccfa",
+    "cartridges-velocity-recoil-p2": "3211df5c",
+    "cartridges-velocity-recoil-p7": "54198ca9",
+    "cartridges-velocity-recoil-p3": "ba5cadf4",
+    "cartridges-velocity-recoil-p4": "85c0baf5",
+    "cartridges-velocity-recoil-p5": "9137f3f8",
+    "cartridges-velocity-recoil-p6": "8cd7145a",
+    "cartridges-velocity-recoil-kp1": "e918f2e4",
+    "cartridges-velocity-recoil-kp2": "ef5b2407",
+    "cartridges-velocity-recoil-kp3": "d7496c84",
+    "cartridges-velocity-recoil-kp4": "7436d207",
+    "cartridges-velocity-recoil-kp5": "66db2bf2",
+    "cartridges-velocity-recoil-dyk": "7f953a03",
+    "cartridges-velocity-recoil-q1": "2af1818b",
+    "cartridges-velocity-recoil-q2": "e0186827",
+    "cartridges-velocity-recoil-q3": "6832d842"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Lähtönopeus ja rekyyli",
+  "summary": "Mitä patruunarasian lähtönopeus tarkoittaa, miksi nopeampi ei ole välttämättä parempi, ja mistä rekyyli riippuu — {{tm:sporting}}- ja {{tm:compak}}-ampujille.",
+  "body": {
+    "cartridges-velocity-recoil-p1": "Rasiassa näkyy usein haulien {{term:velocity|lähtönopeus}} (velocity), metreinä sekunnissa tai jalkoina sekunnissa (fps). Kiekkoammunnan patruunoissa se on tavallisesti {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-p2": "Vertaile nopeuksia varovasti. Haulit hidastuvat nopeasti lähdettyään piipusta, niin merkitsevää on, mistä nopeus mitataan. Eurooppalaiset valmistajat (C.I.P.-koestussääntöjen mukaan) mittaavat tavallisesti 2,5 m:n päästä piipunsuusta ja kirjoittavat ”V2,5”; jotkin kirjoittavat ”V1”, mitattuna 1 m:n päästä, joka antaa suuremman luvun. Merkinnät eivät ole aina yhtenäisiä, niin pidä lukua suuntaa antavana.",
+    "cartridges-velocity-recoil-p7": "Amerikkalaiset valmistajat antavat jalkoja sekunnissa, mitattuna noin 3 jalan (0,9 m) päästä piipunsuusta. Brittiläisissä rasioissa mainitaan toisinaan arvioitu piipunsuun nopeus. Niin sama luku ei välttämättä tarkoita samaa nopeutta.",
+    "cartridges-velocity-recoil-p3": "Nopeampi patruuna lyhentää hieman haulien matka-aikaa kiekkoon, mutta se potkii voimakkaammin, eikä sen osumakuvio ole välttämättä parempi. Monet valmentajat ehdottavat, että ei kannata jahdata nopeutta, vaan valita patruuna, jolla ampuu tasaisesti ja joka ei väsytä.",
+    "cartridges-velocity-recoil-p4": "{{term:recoil|Rekyyli}} (recoil) on aseen työntö olkapäähän laukeamisen aikana. Se kasvaa raskaamman latauksen ja suuremman lähtönopeuden myötä ja pienenee raskaamman aseen myötä. Kaasutoiminen {{term:semi-automatic|puoliautomaatti}} jakaa työnnön pidemmälle ajalle, niin monista se tuntuu pehmeämmältä.",
+    "cartridges-velocity-recoil-p5": "{{term:gun-fit|Aseen sovitus}} ja oikea {{term:gun-mount|aseen nosto}} merkitsevät jopa enemmän. Ase, joka sopii sinulle ja lepää tiukasti olkapäässä, tuntuu paljon pehmeämmältä kuin käsivarteen tai luuhun nojaava. Hyvä perälevy ja vakaa asento auttavat myös. Lisää: {{lesson:gun-fit}} ja {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p6": "{{tm:sporting}}- tai {{tm:compak}}-päivänä voit ampua 100–200 laukausta. Voimakas rekyyli väsyttää ja voi vähitellen opettaa {{term:flinch|säpsähtämään}} ennen laukausta. Niin kevyempi patruuna harjoituksessa, esimerkiksi 24 g, on järkevä valinta, ei heikkous."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "cartridges-velocity-recoil-kp1": "Tyypillinen kiekkoammunnan patruunan lähtönopeus: {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-kp2": "Valmistajat mittaavat nopeutta eri tavoin (V1, V2,5, fps).",
+    "cartridges-velocity-recoil-kp3": "Nopeampi tarkoittaa voimakkaampaa rekyyliä, mutta ei välttämättä parempaa tulosta.",
+    "cartridges-velocity-recoil-kp4": "Rekyyli kasvaa latauksen ja nopeuden myötä ja pienenee aseen painon myötä.",
+    "cartridges-velocity-recoil-kp5": "Hyvä sovitus ja oikea nosto vähentävät tuntuvaa rekyyliä."
+  },
+  "did_you_know": "Hauli saapuu 30 m:n päässä olevaan kiekkoon noin kymmenesosasekunnissa. Siinä ajassa poikittain lentävä kiekko ehtii siirtyä metrin pari, minkä takia ampujat antavat sille {{term:lead|ennakkoa}}.",
+  "quiz": {
+    "cartridges-velocity-recoil-q1": {
+      "q": "Mikä tekee rekyylistä heikomman?",
+      "options": {
+        "a": "Raskaampi lataus",
+        "b": "Suurempi lähtönopeus",
+        "c": "Raskaampi ase",
+        "d": "Liian lyhyt tukki"
+      },
+      "explain": "Raskaampi ase vaimentaa työnnön paremmin; raskaampi lataus ja suurempi nopeus lisäävät rekyyliä."
+    },
+    "cartridges-velocity-recoil-q2": {
+      "q": "Miksi ei kannata verrata eri valmistajien nopeuksia suoraan?",
+      "options": {
+        "a": "Valmistajat mittaavat niitä eri tavoin",
+        "b": "Rasian luku on yleensä keksitty",
+        "c": "Kaikilla patruunoilla on sama nopeus",
+        "d": "Nopeudella ei ole lainkaan merkitystä"
+      },
+      "explain": "V1, V2,5 ja fps 3 jalan päästä ovat eri mittaustapoja, niin sama luku ei tarkoita samaa patruunaa."
+    },
+    "cartridges-velocity-recoil-q3": {
+      "q": "Mikä on tyypillinen kiekkoammunnan patruunan lähtönopeus?",
+      "options": {
+        "a": "Noin 100 m/s",
+        "b": "Noin 360–430 m/s",
+        "c": "Noin 900 m/s",
+        "d": "Yli 1500 m/s"
+      },
+      "explain": "Useimmat kiekkoammunnan patruunat ovat noin 360–430 m/s."
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "technique-gun-mount",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "1a9423c6",
+  "summary": "0dff53c3",
+  "basics-mount-p3": "3c828d7e",
+  "technique-gun-mount-p2": "a669016b",
+  "basics-mount-p1": "320e2f63",
+  "basics-mount-p2": "552e7a83",
+  "basics-mount-p4": "3ee4e21b",
+  "technique-gun-mount-mock": "4b1942aa",
+  "technique-gun-mount-p5": "5561100e",
+  "basics-mount-ph1": "08e98f0b",
+  "basics-mount-ph2": "383cc8b0",
+  "basics-mount-ph3": "38c5cb43",
+  "basics-mount-ph4": "97ca795a",
+  "basics-mount-kp4": "ba2ac5e4",
+  "basics-mount-kp1": "f80dac2d",
+  "basics-mount-kp3": "2dfe15c1",
+  "basics-mount-kp5": "5686165d",
+  "technique-gun-mount-kp5": "ec2b65c5",
+  "technique-gun-mount-dyk": "558c3f6f",
+  "basics-mount-q1": "c3f6ce15",
+  "basics-mount-q2": "762ce7af",
+  "basics-mount-q3": "15cf4d84",
+  "technique-gun-mount-q1": "ba8d031d",
+  "technique-gun-mount-q2": "64782fe4",
+  "technique-gun-mount-q3": "8a6856dc"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "L'épaulé : le fusil vient au visage",
+ "summary": "Comment amener le fusil à la joue et à l'épaule toujours de la même façon, et en quoi les règles de position du fusil diffèrent entre {{tm:sporting}} et {{tm:compak}}.",
+ "body": {
+  "basics-mount-p3": "L'{{term:gun-mount|épaulé}} est le mouvement qui amène le fusil à la joue et à l'épaule. Les entraîneurs enseignent « muzzles first », « les canons d'abord » : la main avant lance les canons le long de la trajectoire du plateau. Pendant qu'ils se déplacent, la crosse monte vers la joue et se loge dans le creux de l'épaule, entre la clavicule et l'articulation de l'épaule. « Bouger, épauler, tirer » forme un seul mouvement fluide, et non trois mouvements séparés. Amenez le fusil au visage, pas le visage au fusil. Gardez la joue sur le {{term:comb|busc}}, le bord supérieur de la crosse. Un fusil n'a pas de hausse arrière : c'est l'œil qui tient ce rôle, il doit donc se trouver au même endroit à chaque fois.",
+  "technique-gun-mount-p2": "Un bon épaulé est toujours identique. La tête reste droite et immobile, et la joue se pose sur le {{term:comb|busc}} de la crosse. Si vous baissez ou inclinez la tête pour aller à la rencontre de la crosse, l'œil se retrouve à un endroit différent à chaque tir. Les défauts d'épaulé et leurs corrections sont dans la leçon {{lesson:faults-mount-errors}}.",
+  "basics-mount-p1": "En {{tm:sporting}}, on part fusil bas. Avant d'annoncer, le talon de la crosse (le coin supérieur de son extrémité arrière) touche le corps. Il reste sous une ligne tracée sur le gilet dans une couleur qui tranche, {{fact:rules.sporting-jacket-line}}. On garde cette position jusqu'à ce que le plateau soit sorti et visible. Épauler plus tôt vaut un avertissement verbal de l'arbitre avec un {{term:yellow-card|carton jaune}}. Recommencer sur le même parcours vaut un {{term:red-card|carton rouge}}. Un plateau simple est alors compté zéro ; pour un doublé, le règlement fixe le score des deux plateaux ({{rule:sporting:ch12-red-card}}).",
+  "basics-mount-p2": "En {{tm:compak}}, la position du fusil au moment de l'annonce est libre : il peut donc déjà être à l'épaule. Dans les deux disciplines, chaque plateau est tiré fusil à l'épaule, et en {{tm:sporting}} la position du fusil est libre entre les deux plateaux d'un doublé.",
+  "basics-mount-p4": "Un entraîneur britannique peut dire « gun up » ou « pre-mount this one », « épaulez celui-ci à l'avance ». C'est interdit en compétition FITASC {{tm:sporting}}, normal en {{tm:compak}}, et seulement un exercice à l'entraînement. Épauler et suivre une trajectoire imaginaire avant d'annoncer ({{term:mock-shooting|simulacre de tir}}, mock shooting) est interdit en {{tm:sporting}} : d'abord un avertissement, puis un zéro.",
+  "technique-gun-mount-mock": "En dehors du poste, gardez le fusil ouvert et ne le faites pas suivre des plateaux imaginaires. En {{tm:compak}}, épauler et suivre une trajectoire n'est pas permis non plus pendant qu'un autre membre de la planche tire.",
+  "technique-gun-mount-p5": "La conformation du fusil compte aussi. Une crosse de longueur ou de hauteur de busc inadaptée rend l'épaulé difficile à répéter ; un entraîneur ou un {{term:gun-fitter|conformateur}} peut le vérifier ({{lesson:gun-fit}}). S'exercer à épauler chez soi, avec un fusil vérifié et déchargé, n'est possible que là où la loi de votre pays le permet, et seulement comme votre entraîneur vous le montre ({{lesson:training-dry-mount-practice}})."
+ },
+ "note": {},
+ "phrases": {
+  "basics-mount-ph1": {
+   "meaning": "Soulevez la crosse vers la joue ; ne baissez pas la tête à la rencontre du fusil.",
+   "say": "Le fusil vers le visage, pas le visage vers le fusil."
+  },
+  "basics-mount-ph2": {
+   "meaning": "Lancez d'abord les canons avec le plateau, épaulez pendant le mouvement, tirez une fois l'épaulé terminé.",
+   "say": "Les canons d'abord : bouger, épauler, tirer."
+  },
+  "basics-mount-ph3": {
+   "meaning": "Le fusil monte trop tard et avec un à-coup ; la main avant doit lancer le mouvement plus tôt.",
+   "say": "Votre épaulé est tardif et brusque : lancez-le avec la main avant."
+  },
+  "basics-mount-ph4": {
+   "meaning": "Partez avec la crosse sous la ligne du gilet, comme l'exigent les règles FITASC {{tm:sporting}}.",
+   "say": "Celui-ci, fusil bas, comme en compétition."
+  }
+ },
+ "key_points": {
+  "basics-mount-kp4": "Les canons d'abord, le fusil vers le visage, la joue sur le busc : bouger, épauler, tirer.",
+  "basics-mount-kp1": "{{tm:sporting}} : crosse sous la ligne du gilet (25 cm sous l'axe de l'épaule) jusqu'à ce que le plateau soit visible.",
+  "basics-mount-kp3": "{{tm:compak}} : position du fusil libre à l'annonce ; on tire toujours depuis l'épaule.",
+  "basics-mount-kp5": "{{tm:sporting}} : fusil épaulé à l'avance, uniquement comme exercice à l'entraînement ; en {{tm:compak}} le fusil peut déjà être épaulé à l'annonce.",
+  "technique-gun-mount-kp5": "Faites vérifier la conformation par un entraîneur ; ne vous exercez chez vous que là où la loi le permet."
+ },
+ "did_you_know": "La règle de la ligne du gilet s'applique à tout type de crosse, y compris les busc réglables et les crosses Monte-Carlo (à busc surélevé). Ce qui compte, c'est le point le plus haut à l'arrière de la crosse.",
+ "quiz": {
+  "basics-mount-q1": {
+   "q": "En {{tm:sporting}}, jusqu'à quel moment la crosse doit-elle rester sous la ligne du gilet ?",
+   "options": {
+    "a": "Jusqu'à ce que le tireur ait annoncé le plateau",
+    "b": "Jusqu'à ce que l'arbitre fasse un signe",
+    "c": "Jusqu'à ce que le plateau soit sorti et visible",
+    "d": "Jusqu'au premier coup de feu"
+   },
+   "explain": "La position d'attente se garde jusqu'à ce que le plateau soit lancé et visible ; ce n'est qu'alors que le fusil peut être épaulé."
+  },
+  "basics-mount-q2": {
+   "q": "En {{tm:compak}}, le tireur peut-il annoncer le plateau avec le fusil déjà à l'épaule ?",
+   "options": {
+    "a": "Non : cela vaut un carton jaune",
+    "b": "Seulement pour les rabbits et autres plateaux bas",
+    "c": "Seulement entre les deux plateaux d'un doublé",
+    "d": "Oui : la position du fusil à l'annonce est libre"
+   },
+   "explain": "En {{tm:compak}}, il n'y a pas de règle du fusil bas : le fusil peut être épaulé ou non à l'annonce, mais chaque plateau est tiré depuis l'épaule."
+  },
+  "basics-mount-q3": {
+   "q": "Pourquoi les entraîneurs insistent-ils pour que la joue reste sur le busc ?",
+   "options": {
+    "a": "L'œil joue le rôle de hausse arrière, il doit donc rester au même endroit",
+    "b": "Pour réduire le bruit qui atteint l'oreille",
+    "c": "Parce que les règlements des deux disciplines l'exigent",
+    "d": "Pour cacher le visage à l'arbitre"
+   },
+   "explain": "Un fusil n'a pas de hausse arrière : c'est l'œil qui tient ce rôle, donc une joue décollée envoie le tir trop haut."
+  },
+  "technique-gun-mount-q1": {
+   "q": "Que faut-il faire pendant l'épaulé ?",
+   "options": {
+    "a": "Le visage va vers le fusil",
+    "b": "Le fusil vient vers le visage",
+    "c": "La tête se penche vers la bande"
+   },
+   "explain": "La tête reste droite, et c'est le fusil qui vient à la joue et à l'épaule."
+  },
+  "technique-gun-mount-q2": {
+   "q": "À quelle distance sous l'axe de l'épaule la ligne du gilet est-elle tracée en {{tm:sporting}} ?",
+   "options": {
+    "a": "10 cm",
+    "b": "25 cm",
+    "c": "40 cm"
+   },
+   "explain": "La ligne est tracée 25 cm sous l'axe de l'épaule, parallèlement à celui-ci."
+  },
+  "technique-gun-mount-q3": {
+   "q": "En {{tm:compak}}, peut-on annoncer le plateau avec le fusil déjà épaulé ?",
+   "options": {
+    "a": "Oui, la position à l'annonce est libre",
+    "b": "Non, uniquement depuis une position basse",
+    "c": "Seulement sur les doublés simultanés"
+   },
+   "explain": "En {{tm:compak}}, la position du fusil à l'annonce est libre ; le fusil bas avec ligne du gilet est une règle du {{tm:sporting}}."
+  }
+ }
+}

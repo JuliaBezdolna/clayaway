@@ -1,0 +1,369 @@
+{
+  "id": "targets-colours-visibility",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "targets-colours-visibility"
+    ]
+  },
+  "terms": [
+    "target",
+    "no-bird",
+    "blazed-target",
+    "background",
+    "lens-tint"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-targets"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-target-no-bird-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-bad-weather"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-weather-interruption"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-weather-interruption"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "The Country Girls UK — Clay shooting terminology"
+      },
+      "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Shotgun Sports USA — How to read sporting clays targets"
+      },
+      "url": "https://shotgunsportsusa.com/how-to-read-sporting-clays-targets/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Colours, light and visibility",
+    "uk": "Кольори, світло й видимість"
+  },
+  "summary": {
+    "en": "Why a target's colour must stand out, how light and background change what you see, and when the weather does or does not lead to a No Bird.",
+    "uk": "Чому колір мішені має вирізнятися, як світло й тло змінюють те, що ви бачите, і коли погода дає або не дає підстав для No Bird."
+  },
+  "body": [
+    {
+      "k": "targets-colours-visibility-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Both rulebooks ask the same thing: a target's colour must stand out clearly against the background. Two-colour targets are not recommended. So colour is not a type of target. The course setter (the person who places the traps and sets the flight paths) picks a colour for each flight path so that you can see the target.",
+      "uk": "Обидва регламенти вимагають одного: колір мішені має чітко вирізнятися на тлі. Двоколірні мішені не рекомендовані. Отже, колір — не тип мішені. Постановник (той, хто розставляє машинки й задає траєкторії) обирає колір для кожної траєкторії так, щоб мішень було видно."
+    },
+    {
+      "k": "targets-colours-visibility-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "You will hear black, orange, white, yellow and pink targets. Many course setters use black against the sky and orange against trees and grass. A 'blazed' target has a bright orange painted dome. Careful: when a coach says 'the orange one', he means a colour, not a size. A black midi and an orange standard can come from the same stand.",
+      "uk": "Ви почуєте про чорні, помаранчеві, білі, жовті й рожеві мішені. Багато постановників беруть чорні мішені на тлі неба, а помаранчеві — на тлі дерев і трави. «Blazed» — мішень із яскраво-помаранчевим пофарбованим куполом. Обережно: коли тренер каже «the orange one», він має на увазі колір, а не розмір. Чорна міді й помаранчевий стандарт можуть летіти з одного стрілецького місця."
+    },
+    {
+      "k": "targets-colours-visibility-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "If a target of the wrong colour is thrown, the referee calls No Bird and it is thrown again. In both disciplines shooting may be stopped for a sudden heavy downpour or a violent storm that looks short. In {{tm:sporting}} the referee decides this, in {{tm:compak}} the Head Referee; if the stop may last long, the jury is told. The {{tm:compak}} rules add that bad weather itself is not a reason for a No Bird: a hit counts and a miss is a miss, whatever the weather.",
+      "uk": "Якщо кинули мішень не того кольору, суддя оголошує No Bird: мішень повторюють. В обох дисциплінах стрільбу можуть зупинити через раптову сильну зливу чи грозу, яка, схоже, буде короткою. У {{tm:sporting}} це вирішує суддя, у {{tm:compak}} — головний суддя; якщо перерва може затягнутися, повідомляють журі. Правила {{tm:compak}} додають, що сама погана погода не є підставою для No Bird: влучання зараховують, а промах лишається промахом, хоч би яка була погода."
+    },
+    {
+      "k": "targets-colours-visibility-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Light changes everything. Coaches talk about backlight (the sun behind the target), flat light on grey days, shadows under trees and the background behind the target: sky, tree line or ground. A target can 'disappear' against dark trees and 'pop out' against the sky. This is why shooters change the lens colour of their shooting glasses during the day.",
+      "uk": "Світло змінює все. Тренери говорять про контрове світло (backlight, сонце за мішенню), пласке світло в сірий день (flat light), тіні під деревами й тло за мішенню: небо, лінію дерев чи землю. Мішень може «зникнути» на тлі темних дерев і «вискочити» на тлі неба. Тому стрільці протягом дня міняють колір лінз в окулярах."
+    },
+    {
+      "k": "targets-colours-visibility-tip1",
+      "t": "tip",
+      "disc": "both",
+      "en": "On a new ground, many shooters try two {{term:lens-tint|lens tints}} on the first stand and keep the one that shows the target most clearly. See {{lesson:gear-shooting-glasses}}.",
+      "uk": "На новому стрільбищі багато стрільців пробують на першому місці лінзи двох {{term:lens-tint|кольорів}} і лишають ті, з якими мішень видно найчіткіше. Див. урок {{lesson:gear-shooting-glasses}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "targets-colours-visibility-p5",
+      "for": "interpreter",
+      "en": "When you translate, keep colour words and light words exact and short: 'it's coming out of the dark trees', 'you lose it in the sun'. They explain why a shooter missed, so they matter.",
+      "uk": "Перекладаючи, передавайте слова про колір і світло точно й коротко: «вона виходить із темних дерев», «ви губите її в сонці». Вони пояснюють, чому стрілець промахнувся, тож вони важливі."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "targets-colours-visibility-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "The black one is the midi, the orange one is the standard — don't mix them up.",
+      "meaning": {
+        "en": "Two targets on the stand differ in colour and size.",
+        "uk": "Дві мішені на цьому місці різняться кольором і розміром."
+      },
+      "say": {
+        "uk": "Чорна — це міді, помаранчева — стандарт, не переплутайте."
+      }
+    },
+    {
+      "k": "targets-colours-visibility-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "You lose it against the trees — pick it up later, in the sky.",
+      "meaning": {
+        "en": "The target is hard to see in front of trees; start watching where the sky is behind it.",
+        "uk": "На тлі дерев мішень погано видно; починайте стежити там, де за нею небо."
+      },
+      "say": {
+        "uk": "На тлі дерев ви її губите — ловіть поглядом пізніше, на тлі неба."
+      }
+    },
+    {
+      "k": "targets-colours-visibility-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Flat light today — put the yellow lens in.",
+      "meaning": {
+        "en": "Grey light with little contrast; a yellow lens makes the target stand out more.",
+        "uk": "Сіре світло з малим контрастом; із жовтою лінзою мішень помітніша."
+      },
+      "say": {
+        "uk": "Сьогодні пласке світло — поставте жовту лінзу."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "targets-colours-visibility-kp1",
+      "core": true,
+      "en": "A target's colour must stand out against the background; two-colour targets are not recommended.",
+      "uk": "Колір мішені має вирізнятися на тлі; двоколірні мішені не рекомендовані."
+    },
+    {
+      "k": "targets-colours-visibility-kp2",
+      "core": true,
+      "en": "Colour is not type: 'the orange one' is a colour, not a size.",
+      "uk": "Колір — не тип: «the orange one» — це колір, а не розмір."
+    },
+    {
+      "k": "targets-colours-visibility-kp3",
+      "core": true,
+      "en": "Wrong colour = No Bird.",
+      "uk": "Не той колір — No Bird."
+    },
+    {
+      "k": "targets-colours-visibility-kp4",
+      "core": true,
+      "en": "Both disciplines: shooting may be paused for a short, violent storm. {{tm:compak}}: bad weather itself is not a reason for a No Bird.",
+      "uk": "Обидві дисципліни: стрільбу можуть призупинити на коротку сильну грозу. {{tm:compak}}: сама погана погода не є підставою для No Bird."
+    },
+    {
+      "k": "targets-colours-visibility-kp5",
+      "core": true,
+      "en": "Backlight, flat light and the background change how a target looks.",
+      "uk": "Контрове світло, пласке світло й тло змінюють те, як виглядає мішень."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "targets-colours-visibility-q1",
+      "q": {
+        "en": "What do the rules require of a target's colour?",
+        "uk": "Чого правила вимагають від кольору мішені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It must always be orange or white",
+          "uk": "Вона завжди має бути помаранчевою чи білою"
+        },
+        {
+          "k": "b",
+          "en": "It must stand out against the background",
+          "uk": "Вона має вирізнятися на тлі"
+        },
+        {
+          "k": "c",
+          "en": "It must be two colours for contrast",
+          "uk": "Вона має бути двоколірною для контрасту"
+        },
+        {
+          "k": "d",
+          "en": "Any colour: the rules say nothing",
+          "uk": "Будь-яка: правила про це мовчать"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Visibility against the background is the requirement; two-colour targets are not recommended.",
+        "uk": "Вимога — видимість на тлі; двоколірні мішені не рекомендовані."
+      }
+    },
+    {
+      "k": "targets-colours-visibility-q2",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}} it starts to rain hard and a shooter misses. Can he ask for a No Bird because of the weather?",
+        "uk": "У {{tm:compak}} почалася сильна злива, і стрілець промахнувся. Чи може він вимагати No Bird через погоду?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, weather always justifies one",
+          "uk": "Так, погода завжди є підставою"
+        },
+        {
+          "k": "b",
+          "en": "Only for the first target of a double",
+          "uk": "Лише на першу мішень дуплета"
+        },
+        {
+          "k": "c",
+          "en": "Only if the jury agrees to it",
+          "uk": "Лише якщо на це погодиться журі"
+        },
+        {
+          "k": "d",
+          "en": "No, weather is not a reason for a No Bird",
+          "uk": "Ні, погода не є підставою для No Bird"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The {{tm:compak}} rules say bad weather is not a reason for a No Bird: the miss stays a miss. Separately, the Head Referee may stop the shoot for a sudden storm that looks short.",
+        "uk": "Правила {{tm:compak}} кажуть, що погана погода не є підставою для No Bird: промах лишається промахом. Окремо від цього головний суддя може зупинити стрільбу через раптову грозу, яка, схоже, буде короткою."
+      },
+      "rule_ref": "compak:ch20-bad-weather"
+    },
+    {
+      "k": "targets-colours-visibility-q3",
+      "q": {
+        "en": "A coach says 'Watch the orange one.' What is he describing?",
+        "uk": "Тренер каже «Watch the orange one». Що він описує?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The colour of a target",
+          "uk": "Колір мішені"
+        },
+        {
+          "k": "b",
+          "en": "A target size of 90 mm",
+          "uk": "Розмір мішені 90 мм"
+        },
+        {
+          "k": "c",
+          "en": "A rabbit",
+          "uk": "Кролика"
+        },
+        {
+          "k": "d",
+          "en": "A broken target",
+          "uk": "Розбиту мішень"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Colour is chosen for visibility and says nothing about size or type.",
+        "uk": "Колір обирають для видимості, він нічого не каже про розмір чи тип."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "8c696079",
+    "summary": "aca9ca06",
+    "targets-colours-visibility-p1": "81efcda8",
+    "targets-colours-visibility-p2": "638eead2",
+    "targets-colours-visibility-p3": "acc51b17",
+    "targets-colours-visibility-p4": "ead4c165",
+    "targets-colours-visibility-tip1": "5270b687",
+    "targets-colours-visibility-p5": "972f2cd7",
+    "targets-colours-visibility-ph1": "b63763e8",
+    "targets-colours-visibility-ph2": "d2038cbe",
+    "targets-colours-visibility-ph3": "d5b725ff",
+    "targets-colours-visibility-kp1": "d068d843",
+    "targets-colours-visibility-kp2": "420a4408",
+    "targets-colours-visibility-kp3": "e833b1d0",
+    "targets-colours-visibility-kp4": "3a3dbf8a",
+    "targets-colours-visibility-kp5": "7d16c0f8",
+    "targets-colours-visibility-q1": "fe081d8b",
+    "targets-colours-visibility-q2": "ee00f6a9",
+    "targets-colours-visibility-q3": "5abc47c8"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: targets-colours-visibility-kp5, targets-colours-visibility-q1.",
+      "Overlays: move ov.body[k] to ov.note[k] (paragraph became an interpreter note): targets-colours-visibility-p5.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-colours-visibility-p1, targets-colours-visibility-p3, targets-colours-visibility-p4, targets-colours-visibility-ph3, targets-colours-visibility-kp4, targets-colours-visibility-q2.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in targets-colours-visibility-p3, targets-colours-visibility-kp4, targets-colours-visibility-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

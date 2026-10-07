@@ -1,0 +1,37 @@
+{
+  "compak-round": {
+    "text": {
+      "en": "25 targets, 5 at each of the 5 stations",
+      "uk": "25 мішеней, по 5 на кожному з 5 номерів"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch17-round-combinations",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ],
+    "checked": "2026-10-07"
+  },
+  "compak-championship-practice": {
+    "text": {
+      "en": "on the Saturday before the championship",
+      "uk": "в суботу перед чемпіонатом"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch6-championship-practice",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ],
+    "checked": "2026-10-07"
+  },
+  "cartridge-box": {
+    "text": {
+      "en": "usually 25 in a box",
+      "uk": "зазвичай по 25 у коробці"
+    },
+    "note": "Packaging convention, not a rule: target cartridges are usually sold in boxes of 25 (10 boxes to a case). Source: a beginners' guide of Gunmart magazine.",
+    "sources": [
+      "https://www.gunmart.net/shooting-advice/getting-started/advice-shotgun/getting-started-in-clay-shooting"
+    ],
+    "checked": "2026-10-07"
+  }
+}

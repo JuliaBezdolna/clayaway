@@ -172,7 +172,7 @@ window.GLOSSARY_I18N.pt = {
    "note": "Shops (esp. BR) advertise 'coronha ajustável'.",
    "conf": "medium",
    "src": "https://www.prohunters.com.br/armas/armas-de-fogo/espingardas-sobrepostasparalelas/espingarda-sobreposta-ata-sp-sporter-coronha-grade-2-ajustavel-cal-1276-76-cm-oxidada",
-   "short": "Crista cuja altura e desvio lateral podem ser regulados."
+   "short": "Crista da coronha que se pode subir, baixar ou deslocar para o lado, para que o olho veja exatamente ao longo da fita."
   },
   "fore-end": {
    "term_local": "fuste",
@@ -256,7 +256,7 @@ window.GLOSSARY_I18N.pt = {
    "note": "FPTAC: 'chapa de coice'; BR often 'soleira'.",
    "conf": "high",
    "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
-   "short": "Almofada de borracha na ponta da coronha que suaviza o recuo."
+   "short": "Chapa de coice de borracha ou gel na ponta da coronha que amortece o recuo; também altera o comprimento da coronha."
   },
   "choke": {
    "term_local": "choke",
@@ -688,8 +688,8 @@ window.GLOSSARY_I18N.pt = {
    ],
    "conf": "high",
    "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
-   "short": "O prato comum, em forma de cúpula, com cerca de 110 mm de diâmetro; o prato mais usado.",
-   "long": "O prato normal é um disco abaulado com cerca de 110 mm de diâmetro. É relativamente pesado, por isso mantém a velocidade e a linha durante muito tempo, e o seu comportamento é o mais fácil de prever. Os principiantes começam normalmente por ele. No Sporting™ e no Compak® Sporting o prato normal mistura-se com pratos especiais: midi, mini, batida, coelho, rocket e outros. Se uma máquina lançar um prato de tamanho ou tipo diferente do do menu, o árbitro declara NULO."
+   "short": "O prato abaulado comum, com cerca de 108–110 mm de diâmetro, o mais usado.",
+   "long": "O prato standard é um disco abaulado com cerca de 108–110 mm de diâmetro. O seu voo é relativamente fácil de ler, por isso os principiantes costumam começar por ele; um midi de 90 mm mantém melhor a velocidade. No Sporting™ e no Compak® Sporting, o standard mistura-se com pratos especiais como o midi, o mini, a batida e o coelho; a lista do Compak® Sporting refere também o rocket. No Sporting™, um prato de cor, tamanho ou tipo diferentes dos do menu é NULO; no Compak® Sporting, é NULO um prato da cor errada."
   },
   "midi": {
    "term_local": "midi",
@@ -743,8 +743,8 @@ window.GLOSSARY_I18N.pt = {
    ],
    "note": "Anglicism.",
    "conf": "low",
-   "short": "Prato de perfil especial que mantém a velocidade e a linha durante mais tempo do que um prato normal.",
-   "long": "Um rocket parece um prato normal, mas tem um perfil diferente, mais aerodinâmico. Por isso abranda de forma mais gradual no ar e voa a direito durante mais tempo, e na parte afastada da trajetória move-se mais depressa do que o olho espera. Os principiantes atiram muitas vezes atrás dele, por o avaliarem como um prato comum. As regras do Compak® Sporting incluem o rocket entre os pratos permitidos, enquanto a lista do Sporting™ não o menciona à parte. Na prática a sua forma e o seu nome dependem do fabricante de pratos.",
+   "short": "Prato especial referido na lista de pratos do Compak® Sporting; a sua forma exata e o seu voo dependem do fabricante.",
+   "long": "O rocket é um dos pratos especiais que as regras do Compak® Sporting referem entre os pratos permitidos; a lista do Sporting™ não o refere à parte. Não existe uma especificação comum, por isso a sua forma e a maneira como voa dependem do fabricante. Como com qualquer prato especial, observe-o com atenção durante a mostra e não parta do princípio de que voa como um standard.",
    "disciplines": {
     "sporting": "Não é referido à parte na lista de pratos do Sporting.",
     "compak": "Expressamente permitido entre os pratos especiais."
@@ -926,7 +926,7 @@ window.GLOSSARY_I18N.pt = {
    "conf": "high",
    "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato que faz um arco no ar e muda de direção.",
-   "long": "Um prato em arco descreve um arco largo: sobe, passa o topo e cai enquanto se desloca para o lado. Para estas trajetórias usam-se muitas vezes pratos de batida (battue), que rodam em voo e mostram primeiro a aresta e depois a face. A principal dificuldade é a mudança constante de direção e de velocidade, por isso os canos têm de seguir a curva em vez de a cortar. Muitos atiradores atiram ao looper perto do topo, onde se move mais devagar. Os nomes variam de país para país: a chandelle é outra trajetória, mais íngreme, e os francófonos chamam muitas vezes «chandelle» a um prato que sobe quase na vertical (um teal). Observe com atenção a mostra e escolha um só ponto de tiro."
+   "long": "Um prato em arco descreve um arco largo: sobe, passa o topo e cai enquanto se desloca para o lado. Normalmente é um prato standard; alguns montadores de percursos lançam também uma batida (battue) numa linha destas, que então mostra a face ao rodar. A principal dificuldade é a mudança constante de direção e de velocidade, por isso os canos seguem a curva, à frente e por baixo do prato, em vez de a cortar. Muitos atiradores atiram ao looper perto do topo, onde se move mais devagar. Os nomes variam de país para país: a chandelle é outra trajetória, mais íngreme, e os francófonos chamam muitas vezes «chandelle» a um prato que sobe quase na vertical (um teal). Observe com atenção a mostra e escolha um só ponto de tiro."
   },
   "chandelle": {
    "term_local": "chandelle",
@@ -963,7 +963,7 @@ window.GLOSSARY_I18N.pt = {
    "conf": "high",
    "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Dois pratos apresentados juntos ou um a seguir ao outro, atirados como uma unidade.",
-   "long": "Há três tipos de double: ao tiro, simultâneo e, só no Sporting, rafale. No Sporting, o atirador tem dois cartuchos para um double e pode disparar os dois ao mesmo prato; entre o primeiro e o segundo prato a posição da arma é livre. No Compak só se pode disparar um cartucho a cada prato de um double, e num mesmo Compak o tipo de double tem de ser igual nos 5 postos; o primeiro prato de cada double é o último prato do posto anterior. Se um só tiro partir os dois pratos, o Sporting marca one e one, enquanto o Compak repete o double.",
+   "long": "Há três tipos de double: ao tiro, simultâneo e, só no Sporting, rafale. No Sporting, o atirador tem dois cartuchos para um double e pode disparar os dois ao mesmo prato; entre o primeiro e o segundo prato a posição da arma é livre. No Compak só se pode disparar um cartucho a cada prato de um double, e num mesmo Compak o tipo de double tem de ser igual nos 5 postos; o primeiro prato de cada double é o último prato do posto anterior. Se um só tiro partir os dois pratos, o Sporting marca one e one. No Compak não contam como dois pratos partidos: num double ao tiro, o resultado do primeiro mantém-se e o double repete-se para o segundo; num double simultâneo é NULO e o double repete-se, e à terceira vez marca-se ZERO-ZERO.",
    "disciplines": {
     "sporting": "5 doubles por percurso, feitos só com pratos já atirados como simples nesse posto; os dois cartuchos podem ir para um só prato.",
     "compak": "Um cartucho por prato; disparar de propósito os dois tiros a um só prato dá zero-zero."
@@ -1012,10 +1012,10 @@ window.GLOSSARY_I18N.pt = {
    "conf": "high",
    "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Mostrar os pratos de um posto aos atiradores antes de atirarem.",
-   "long": "No Sporting, todas as trajetórias de um posto são mostradas ao primeiro atirador da esquadra, que tem de estar pronto no posto; a pedido, cada prato pode ser mostrado de novo até 2 vezes. Os doubles ao tiro não são mostrados; os simultâneos e os rafale são, com até 2 repetições da mostra. No Compak por esquadras, os pratos são mostrados só uma vez, de manhã, à primeira esquadra; em linha, o primeiro prato de cada double é mostrado a cada novo atirador no posto 1. Durante qualquer mostra as armas estão abertas e descarregadas, e é proibido atirar ou fazer simulacro de tiro. Depois de uma paragem de mais de 10 minutos, os pratos são mostrados de novo.",
+   "long": "No Sporting™, todas as trajetórias de um posto são mostradas ao primeiro atirador da esquadra, que tem de estar pronto no posto; a pedido, cada prato pode ser mostrado de novo até 2 vezes. Os doubles ao tiro não são mostrados; os simultâneos e os rafale são, com até 2 repetições da mostra. Durante a mostra ninguém pode atirar nem fazer simulacro de tiro, e depois de uma avaria da máquina ou de uma paragem de mais de 10 minutos os pratos do posto são mostrados de novo. No Compak® Sporting por esquadras, a primeira esquadra do dia vê os pratos uma vez, de manhã cedo: os simples de A a F, depois os doubles simultâneos dos postos 1 a 5; depois de uma pausa de mais de 10 minutos, os seis simples voltam a ser mostrados. Em linha, cada novo atirador no posto 1 vê o primeiro prato do seu double. Nas duas disciplinas as armas ficam abertas e descarregadas durante a mostra e só se fecham com autorização do árbitro. No Compak® Sporting, o simulacro de tiro é proibido fora dos postos e enquanto atira outro membro da esquadra.",
    "disciplines": {
-    "sporting": "Mostra em cada posto ao primeiro atirador da esquadra; até 2 repetições por prato.",
-    "compak": "Por esquadras: uma vez de manhã à primeira esquadra (simples A–F, depois doubles simultâneos); depois de uma paragem de mais de 10 minutos, os 6 simples voltam a ser mostrados."
+    "sporting": "Mostra em cada posto ao primeiro atirador da esquadra; até 2 repetições por prato; durante a mostra não se atira nem se faz simulacro de tiro.",
+    "compak": "Por esquadras: uma vez, de manhã cedo, para a primeira esquadra do dia (simples A–F, depois doubles simultâneos); depois de uma paragem de mais de 10 minutos, os 6 simples voltam a ser mostrados."
    }
   },
   "target-menu": {
@@ -1040,7 +1040,7 @@ window.GLOSSARY_I18N.pt = {
    "conf": "medium",
    "src": "http://www.apaginadomonteiro.net/como_atirar.htm",
    "short": "A distância a que o atirador aponta à frente do prato para que o chumbo o encontre.",
-   "long": "Enquanto o chumbo viaja até ao prato, o prato continua a mover-se, por isso no momento do disparo a arma tem de estar à frente dele. Essa distância é o avanço. Depende da velocidade do prato, da sua distância e do ângulo em que voa: os transversais longos precisam de mais avanço, enquanto os pratos de saída a direito quase não precisam. A forma como um atirador percebe o avanço é subjetiva, por isso pessoas diferentes descrevem-no de maneira diferente. Há vários métodos de avanço, o avanço mantido, o pull-away e o swing, e um treinador ajuda-o a escolher o seu."
+   "long": "Enquanto o chumbo viaja até ao prato, o prato continua a mover-se, por isso no momento do disparo a arma tem de estar à frente dele. Essa distância é o avanço. Depende da velocidade do prato, da sua distância e do ângulo em que voa: os transversais longos precisam de mais avanço, enquanto os pratos de saída a direito quase não precisam. A forma como um atirador percebe o avanço é subjetiva, por isso pessoas diferentes descrevem-no de maneira diferente. Há vários métodos de avanço, o avanço mantido, o pull-away, o swing e o ambush (tiro de espera), e um treinador ajuda-o a escolher o seu."
   },
   "maintained-lead": {
    "term_local": "avanço mantido",
@@ -1049,8 +1049,8 @@ window.GLOSSARY_I18N.pt = {
     "maintained lead"
    ],
    "conf": "medium",
-   "short": "Método de avanço em que os canos se movem à frente do prato, à velocidade dele, durante todo o movimento.",
-   "long": "No avanço mantido o atirador põe logo os canos à frente do prato e move-os à mesma velocidade, mantendo o avanço necessário, e depois dispara. Funciona bem em pratos longos e previsíveis, porque dá tempo para ler o avanço. A dificuldade é que o olho tem de ficar no prato e não nos canos, senão o movimento para. Aos principiantes parece por vezes simples, mas exige um bom sentido da velocidade. Um treinador sugere em que pratos lhe serve."
+   "short": "Método de avanço em que os canos ficam à frente do prato e, no momento do tiro, se movem à sua velocidade, mantendo a distância.",
+   "long": "No avanço mantido, as bocas dos canos entram na linha do prato à frente dele e não atrás. Primeiro movem-se um pouco mais devagar do que o prato, que se aproxima até a distância parecer certa; depois os canos movem-se à velocidade do prato, a distância mantém-se e o tiro sai com a arma ainda em movimento. Costuma servir para pratos longos e previsíveis, como os transversais longos, porque dá tempo para ler o avanço. O erro típico é medir a distância: o olho desliza para os canos e a arma abranda ou para. É muitas vezes descrito como o método mais difícil de aprender; pergunte por isso a um treinador em que pratos lhe serve."
   },
   "swing-through": {
    "term_local": "swing",
@@ -1223,9 +1223,9 @@ window.GLOSSARY_I18N.pt = {
    ],
    "conf": "low",
    "short": "Treinar o movimento de pôr a arma à cara sem disparar, com a arma descarregada e verificada, onde a lei o permitir.",
-   "long": "O treino em seco é uma das formas mais úteis de treinar em casa: alguns minutos por dia tornam o movimento constante. Antes de começar, certifique-se de que a arma está descarregada e de que não há cartuchos na sala, e mantenha a boca do cano numa direção segura. Muitos atiradores usam cartuchos de treino (snap caps) para proteger o mecanismo ao disparar em seco. No campo de tiro as regras são mais rigorosas: simular o tiro fora do posto é proibido, e no Sporting™ pôr a arma à cara e acompanhar a linha imaginária de um prato antes de chamar dá direito a uma advertência. Verifique a lei local sobre o manuseamento de armas em casa.",
+   "long": "O treino em seco consiste em treinar o gesto de pôr a arma à cara com a arma descarregada e verificada, sem disparar. Muitos treinadores aconselham alguns minutos em casa, onde a lei o permite, para que o movimento se torne familiar. Antes de começar, certifique-se de que a arma está descarregada e de que não há cartuchos na sala, e mantenha os canos numa direção segura. Se premir o gatilho com a arma vazia, use cartuchos de treino (snap caps) para proteger os percutores, como aconselhar o seu treinador ou armeiro. No campo de tiro, as regras dependem da disciplina. No Sporting™, o simulacro de tiro (pôr a arma à cara e seguir a linha de um prato) não é permitido em lado nenhum do campo durante uma prova. No Compak® Sporting é proibido fora dos postos e enquanto atira outro membro da esquadra. Verifique a lei local sobre o manuseamento de armas em casa.",
    "disciplines": {
-    "sporting": "Simular o tiro é proibido dentro e fora do campo; antes da chamada há advertência, e a repetição é penalizada.",
+    "sporting": "O simulacro de tiro não é permitido em lado nenhum do campo: primeiro uma advertência, depois cada repetição dá ZERO no prato seguinte que for partido.",
     "compak": "Simular o tiro é proibido fora dos postos e enquanto atira um membro da esquadra."
    }
   },
@@ -1566,7 +1566,7 @@ window.GLOSSARY_I18N.pt = {
    "note": "FPTAC (teams): 'subindo as pranchadas na ordem inversa do tiro'.",
    "conf": "medium",
    "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
-   "short": "Ordenar resultados empatados comparando os resultados no último percurso ou Compak, depois no anterior, e assim por diante.",
+   "short": "Desempate de resultados iguais comparando os resultados no 8.º percurso ou Compak, depois no 7.º e assim por diante até ao 1.º.",
    "long": "Abaixo do terceiro lugar não há desempate: os atiradores empatados ficam ex aequo e são ordenados contando os resultados para trás, do 8.º percurso (Compak) ao 1.º. As equipas empatadas são ordenadas pela soma dos resultados dos seus membros no 8.º percurso ou Compak; se continuarem empatadas, no 7.º, no 6.º e assim sucessivamente até ao 1.º. Não há desempate por equipas."
   },
   "firing-time": {
@@ -2074,7 +2074,7 @@ window.GLOSSARY_I18N.pt = {
   "group": {
    "term_local": "grupo",
    "conf": "low",
-   "short": "No Compak em linha, os atiradores atribuídos a um Compak: total de inscritos a dividir pelo número de Compaks.",
+   "short": "No Compak® Sporting em linha, os atiradores atribuídos a um mesmo campo: total de inscritos a dividir pelo número de campos.",
    "long": "No Compak em linha, o tamanho de um grupo é o número total de atiradores a dividir pelo número de Compaks em uso. Cada atirador do grupo começa no posto 1 e termina no posto 5. Só se pode pedir emprestada uma arma a um atirador de fora do próprio grupo, e vários atiradores do mesmo grupo não podem partilhar uma arma. Um atirador atrasado cujo recurso seja aceite pode atirar a série com outro grupo.",
    "disciplines": {
     "compak": "Só no Compak em linha."
@@ -2225,7 +2225,7 @@ window.GLOSSARY_I18N.pt = {
    "term_local": "aquecimento",
    "conf": "low",
    "short": "Preparação antes de atirar: movimento e alguns pratos fáceis.",
-   "long": "O aquecimento prepara o corpo e os olhos para o tiro. Alguns minutos de movimento para o pescoço, os ombros, as costas e as ancas reduzem o risco de lesão e tornam o movimento da arma mais suave. Se o campo de tiro o permitir, comece o treino com alguns pratos fáceis, para encontrar ritmo e confiança antes de passar aos difíceis. Antes de uma prova, as regras dependem da disciplina. No Sporting™ ninguém pode treinar nos percursos da competição, por isso aqueça noutros. No Compak® Sporting é permitido treinar nas trajetórias da competição, mas com outras tabelas de regulação; nos campeonatos continentais e mundiais o treino oficial só abre no sábado antes do início. Faça treino em seco só onde for permitido, com a arma descarregada e verificada."
+   "long": "O aquecimento acorda o corpo e os olhos antes do tiro. Muitos treinadores aconselham cerca de 10–15 minutos de movimento leve e dinâmico para o pescoço, os ombros, as costas, as ancas e os tornozelos, para que a arma se mova com mais fluidez; há pouca investigação sobre o aquecimento no tiro aos pratos, por isso estes conselhos vêm da experiência dos treinadores. Se o campo de tiro o permitir, pode começar o treino com alguns pratos fáceis para encontrar o ritmo antes de passar aos difíceis. Antes de uma prova, as regras dependem da disciplina. No Sporting™ ninguém pode treinar nos percursos da competição, por isso aquece-se a atirar noutros percursos. No Compak® Sporting é permitido treinar nas trajetórias da competição, mas com outras grelhas de tiro; nos campeonatos continentais e mundiais o treino oficial só abre no sábado antes do início. Em competição, muitos treinadores aconselham aquecer sem a arma; o treino em seco faz-se em casa ou no treino, onde for permitido."
   },
   "training-diary": {
    "term_local": "diário de treino",
@@ -2314,7 +2314,7 @@ window.GLOSSARY_I18N.pt = {
    "term_local": "perfil do atirador",
    "conf": "low",
    "short": "A página de um atirador na ClayArena, com as suas competições e números principais.",
-   "long": "Um perfil do atirador reúne as competições de Sporting™ e Compak® Sporting cujos resultados estão na ClayArena e mostra números principais como a precisão e o melhor resultado. Pode chegar a ele a partir da tabela de resultados de uma competição ou encontrá-lo pesquisando o nome. Os nomes no site estão escritos em letras latinas como nos documentos da competição, por isso, se um apelido puder ser transliterado de formas diferentes, experimente várias grafias. Os dados vêm das folhas de pontuação das competições, por isso verifique a sua folha ainda no campo de tiro: o perfil vai mostrar o que o árbitro registou. Um perfil é útil para se comparar consigo mesmo ao longo de uma época."
+   "long": "Um perfil do atirador reúne as competições de Sporting™ e Compak® Sporting cujos resultados estão na ClayArena e mostra números principais como a precisão e o melhor resultado. Pode chegar a ele a partir da tabela de resultados de uma competição ou encontrá-lo pesquisando o nome. Os nomes estão escritos como nos documentos da competição: nas provas internacionais, normalmente em letras latinas, mas nas provas nacionais também no alfabeto local, por exemplo em cirílico nas provas ucranianas. Se não se encontrar, experimente a grafia local e várias grafias latinas do seu nome. Os dados vêm das folhas de pontuação das competições, por isso verifique a sua folha ainda no campo de tiro: o perfil vai mostrar o que o árbitro registou. Um perfil é útil para se comparar consigo mesmo ao longo de uma época."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2337,8 +2337,8 @@ window.GLOSSARY_I18N.pt = {
   "top-10-rate": {
    "term_local": "taxa de top 10",
    "conf": "low",
-   "short": "Com que frequência um atirador termina entre os dez primeiros.",
-   "long": "Este número do perfil na ClayArena mostra a percentagem de competições em que o atirador ficou entre os dez primeiros. Depende não só da pontuação, mas também do nível dos participantes: ficar nos dez primeiros numa grande prova internacional é muito mais difícil do que numa prova de clube. Por isso leia-o junto com a lista de competições em que o atirador participou. Mostra bem a regularidade dos atiradores experientes, mas para um principiante é mais útil acompanhar a própria precisão."
+   "short": "Com que frequência um atirador termina entre os dez primeiros da sua categoria ou da classificação geral.",
+   "long": "Este número do perfil na ClayArena mostra a percentagem de competições em que o atirador ficou entre os dez primeiros, na sua categoria ou na classificação geral. Depende não só da pontuação, mas também do nível dos participantes: ficar nos dez primeiros numa grande prova internacional é muito mais difícil do que numa prova de clube, e numa categoria pequena, com poucos atiradores, é mais fácil entrar nos dez primeiros. Por isso leia-o junto com a lista de competições em que o atirador participou. Mostra bem a regularidade dos atiradores experientes, mas para um principiante é mais útil acompanhar a própria precisão."
   },
   "performance-index": {
    "term_local": "índice de desempenho",
@@ -2385,14 +2385,14 @@ window.GLOSSARY_I18N.pt = {
   "european-firearms-pass": {
    "term_local": "Cartão Europeu de Arma de Fogo",
    "conf": "low",
-   "short": "Documento que um país da UE emite aos proprietários de armas aí residentes para viajarem com as suas armas para outros países da UE; válido até cinco anos.",
-   "long": "O Cartão Europeu de Arma de Fogo (EFP) é emitido por uma autoridade do país da UE onde vive o dono da arma e é normalmente válido até cinco anos. Nele são registadas armas concretas, por isso antes de viajar verifique se a arma que leva está registada e se o cartão não caduca durante a viagem. Os atiradores desportivos com EFP e um comprovativo do motivo da viagem, quase sempre uma carta-convite do organizador, podem normalmente levar uma arma para outro país da UE sem autorização prévia separada. Os países podem ainda ter as suas exceções, e o EFP não se sobrepõe às regras locais sobre porte, guarda e compra de cartuchos. Não é emitido a residentes de países fora da UE; verifique as regras atuais dos países de destino e de trânsito."
+   "short": "Documento que um país da UE, ou a Suíça, a Noruega, a Islândia ou o Liechtenstein, emite aos detentores de armas que lá residem para viajarem com as suas armas dentro deste espaço; válido até cinco anos.",
+   "long": "O Cartão Europeu de Arma de Fogo é emitido pelo serviço que trata das licenças de armas no país onde o detentor reside e costuma ser válido até cinco anos. Além dos países da UE, emitem-no também aos seus residentes a Suíça, a Noruega, a Islândia e o Liechtenstein, que aplicam as mesmas regras europeias sobre armas; os residentes de outros países não o podem obter. Nele são inscritas armas concretas, por isso antes da viagem verifique que a espingarda que leva está lá e que o cartão não caduca pelo caminho. Os atiradores desportivos com o cartão e uma prova do motivo da viagem, quase sempre uma carta-convite do organizador, podem em regra levar a sua arma para outro destes países sem uma autorização prévia separada. Os países podem, ainda assim, ter as suas próprias exceções, e o cartão não substitui as regras locais sobre porte, guarda e compra de cartuchos; verifique as regras em vigor nos países de destino e de trânsito."
   },
   "jet-lag": {
    "term_local": "jet lag",
    "conf": "low",
-   "short": "Perturbação do sono e da atenção depois de voar através de vários fusos horários; normalmente passa em poucos dias.",
-   "long": "Depois de um voo que atravessa vários fusos horários, o relógio biológico não bate certo com a hora local: tem sono de dia, custa-lhe dormir à noite e os reflexos e a concentração ressentem-se. Isto conta no tiro, porque a precisão e a concentração são as primeiras a falhar. Por isso, para competições distantes aconselha-se chegar alguns dias antes, passar logo para a hora local, apanhar luz do dia e beber água. O programa de uma viagem ClayAway (em preparação) vai dar os horários no fuso horário do local, com o fuso indicado, para não confundir o horário. Fale com um médico sobre ajudas para dormir ou medicação."
+   "short": "Sono e vigilância perturbados depois de uma viagem rápida através de vários fusos horários; pode durar de alguns dias a uma semana ou mais, cerca de um dia por fuso depois de voar para leste.",
+   "long": "Depois de uma viagem rápida através de pelo menos três fusos horários, o relógio interno ainda está na hora de casa: o sono, o apetite, o humor e a vigilância não batem certo com a hora local até ele se ajustar. Uma referência aproximada comum é cerca de um dia por fuso depois de voar para leste e cerca de meio dia por fuso depois de voar para oeste; as pessoas são diferentes. A luz do dia à hora certa é o principal sinal que acerta o relógio: desde o primeiro dia viva pela hora local e, depois de um voo longo para leste, planeie um dia livre e leve antes de atirar para a classificação. O cansaço da própria viagem (cansaço da viagem) é outra coisa. O programa de uma viagem ClayAway (em preparação) dará os horários no fuso horário do local, com o fuso indicado. Fale com um médico sobre comprimidos para dormir, melatonina ou outros medicamentos."
   },
   "invitation-letter": {
    "term_local": "carta-convite",
@@ -2439,7 +2439,7 @@ window.GLOSSARY_I18N.pt = {
   "soft-focus": {
    "term_local": "foco suave",
    "conf": "low",
-   "short": "Foco descontraído e amplo dos olhos enquanto se espera no ponto de visão."
+   "short": "Olhar relaxado e largo para a zona onde o prato vai aparecer, enquanto os olhos esperam no ponto de visão, sem fixar pormenores."
   },
   "hard-focus": {
    "term_local": "foco intenso",
@@ -2447,7 +2447,7 @@ window.GLOSSARY_I18N.pt = {
     "foco no prato"
    ],
    "conf": "low",
-   "short": "Foco nítido e intenso no próprio prato, muitas vezes no seu bordo da frente."
+   "short": "Olhar nítido para o próprio prato, muitas vezes para a sua borda da frente, desde que o vê com clareza até ao tiro."
   },
   "leading-edge": {
    "term_local": "bordo da frente",
@@ -2559,7 +2559,8 @@ window.GLOSSARY_I18N.pt = {
   "overhead": {
    "term_local": "por cima da cabeça",
    "conf": "low",
-   "short": "Prato que passa diretamente por cima da cabeça do atirador, de trás ou da frente."
+   "short": "Prato que passa por cima da cabeça do atirador; normalmente quer dizer um prato que vem de trás e se afasta, enquanto um que vem de frente é um prato de batida.",
+   "long": "Um prato por cima da cabeça vindo de trás passa sobre as suas costas e afasta-se. Vê-se tarde, por isso muitos treinadores aconselham olhar para trás antes de pedir o prato. Ponha a arma à cara enquanto ele passa por cima, atire quando as bocas dos canos chegarem à sua borda da frente e continue a mover a arma depois do tiro. Os nomes variam: alguns treinadores dizem «overhead» também a um prato vindo de frente, a que este glossário chama prato de batida; em caso de dúvida, pergunte."
   },
   "bolting-rabbit": {
    "term_local": "coelho a fugir",
@@ -2606,7 +2607,7 @@ window.GLOSSARY_I18N.pt = {
   "interpreter": {
    "term_local": "intérprete",
    "conf": "low",
-   "short": "Pessoa que traduz oralmente entre o treinador, o árbitro e os atiradores numa viagem; conhece a terminologia do tiro."
+   "short": "Pessoa que faz a interpretação entre o treinador, o árbitro e os atiradores, por exemplo nos treinos e no programa de uma viagem, e conhece a terminologia do tiro."
   },
   "chuchotage": {
    "term_local": "chuchotage",
@@ -2632,7 +2633,7 @@ window.GLOSSARY_I18N.pt = {
     "fazer pó"
    ],
    "conf": "low",
-   "short": "Gíria de treinador para um acerto bem centrado que desfaz o prato em pó; não é o 'só pó ou fumo' das regras, que é um zero."
+   "short": "Gíria de treinador para um prato desfeito em pó. Pelas regras, um prato desfeito em pó, no todo ou em parte, é BOM; um prato que continua inteiro e só solta pó ou fumo, sem pedaço visível, é ZERO."
   },
   "peg": {
    "term_local": "peg",
@@ -2653,7 +2654,7 @@ window.GLOSSARY_I18N.pt = {
   "english-sporting": {
    "term_local": "English Sporting",
    "conf": "low",
-   "short": "A forma britânica de sporting clays segundo as regras da CPSA, normalmente com pares e arma à cara permitida."
+   "short": "A forma britânica do sporting, organizada em Inglaterra pela CPSA a par do Sporting™ FITASC; tem regras próprias: os pares são frequentes e os atiradores começam muitas vezes com a arma já à cara."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2692,7 +2693,7 @@ window.GLOSSARY_I18N.pt = {
     "ambush"
    ],
    "conf": "low",
-   "short": "Método em que a boca dos canos espera num ponto à frente do prato e o tiro sai quando o prato chega, com pouco ou nenhum swing."
+   "short": "Método em que os canos esperam imóveis num ponto à frente do prato e se prime o gatilho antes de o prato lá chegar, para que ele entre no tiro."
   },
   "instinctive-shooting": {
    "term_local": "tiro instintivo",
@@ -2702,7 +2703,7 @@ window.GLOSSARY_I18N.pt = {
   "national-federation": {
    "term_local": "federação nacional",
    "conf": "low",
-   "short": "O organismo que rege a modalidade num país; membro da FITASC, aprova os percursos nacionais e certifica os árbitros."
+   "short": "O órgão que dirige a modalidade num país: reúne clubes e atiradores, organiza provas nacionais e cursos de árbitros e representa o país na FITASC."
   },
   "blazed-target": {
    "term_local": "prato de cúpula pintada",
@@ -2721,6 +2722,354 @@ window.GLOSSARY_I18N.pt = {
    "term_local": "lançamento manual",
    "conf": "low",
    "short": "Lançamento de um prato por uma pessoa (pulleur ou árbitro) que carrega num botão quando o atirador pede o prato."
+  },
+  "anti-doping": {
+   "term_local": "antidopagem",
+   "alt": [
+    "controlo antidopagem",
+    "antidoping"
+   ],
+   "conf": "high",
+   "short": "Regras e controlos contra substâncias e métodos proibidos no desporto; as regras internacionais e a Lista de Substâncias e Métodos Proibidos anual vêm da Agência Mundial Antidopagem (AMA/WADA).",
+   "long": "Nos campeonatos e grandes provas, um atirador pode ser chamado a um controlo antidopagem. A AMA publica todos os anos, normalmente por volta de setembro, uma nova Lista de Substâncias e Métodos Proibidos, que se aplica a partir de 1 de janeiro. No tiro, os betabloqueadores são proibidos sempre. Os estimulantes e o THC (canábis) são proibidos em competição, e o período «em competição» começa às 23:59 da véspera da prova. Mesmo um medicamento receitado pelo médico pode ser proibido: verifique-o no Global DRO ou junto da sua agência nacional antidopagem e, se precisar dele, peça com antecedência uma AUT. Os suplementos podem estar contaminados; escolha produtos cujos lotes são analisados por um laboratório independente. Isto não é aconselhamento médico: fale com o seu médico."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "autorização de utilização terapêutica (AUT)",
+   "alt": [
+    "AUT",
+    "TUE"
+   ],
+   "conf": "high",
+   "short": "Autorização oficial para um praticante usar, por razões médicas, um medicamento que de outro modo é proibido; pede-se com antecedência.",
+   "long": "Uma receita não basta: uma substância proibida continua proibida mesmo que um médico a tenha receitado. Por isso, um atirador que precise de um medicamento assim, por exemplo um betabloqueador para a tensão alta, o ritmo cardíaco ou a enxaqueca, pede com antecedência uma AUT, normalmente à agência nacional antidopagem; a federação nacional indica qual é a entidade competente. Não deixe de tomar sozinho um medicamento receitado: fale com o médico, muito antes da prova, sobre uma alternativa permitida ou uma AUT. Isto não é aconselhamento médico."
+  },
+  "beta-blocker": {
+   "term_local": "betabloqueador",
+   "alt": [
+    "beta-bloqueante"
+   ],
+   "conf": "high",
+   "short": "Medicamento para o coração que abranda o batimento e reduz o tremor; segundo a lista da AMA, no tiro é proibido sempre, em competição e fora dela.",
+   "long": "Exemplos: propranolol, atenolol, bisoprolol e metoprolol. São proibidos nos desportos de precisão porque um coração mais lento e menos tremor podem estabilizar a arma. A lista da AMA refere o tiro através da federação olímpica (ISSF) e do tiro paralímpico (IPC), não da FITASC; mesmo assim, considere os betabloqueadores proibidos também no Sporting™ e no Compak® Sporting: as agências nacionais antidopagem podem fazer controlos em provas nacionais, os organizadores podem aplicar a lista da AMA e muitos atiradores competem também em provas ISSF. Se um médico lhe receitou um betabloqueador, não o deixe de tomar sozinho; pergunte com antecedência por uma alternativa permitida ou por uma AUT. Isto não é aconselhamento médico."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Serviço online de verificação de medicamentos gerido por várias agências nacionais antidopagem: indica se um medicamento vendido nos seus países é proibido no desporto.",
+   "long": "O Global DRO só inclui medicamentos vendidos nos países parceiros, como o Reino Unido, os EUA, o Canadá e a Suíça. Pesquise pela substância ativa e não só pelo nome comercial. Se o seu medicamento não estiver lá, pergunte à sua agência nacional antidopagem ou à federação. Volte a verificar todos os anos, porque a Lista de Substâncias e Métodos Proibidos da AMA muda."
+  },
+  "box-breathing": {
+   "term_local": "respiração quadrada",
+   "alt": [
+    "box breathing"
+   ],
+   "conf": "medium",
+   "short": "Padrão de respiração: inspirar, reter, expirar e reter, contando até 4 em cada fase; uma opção a experimentar, pouco estudada no desporto.",
+   "long": "Nos estudos feitos até agora, a respiração quadrada não foi melhor do que outras formas de respirar; num estudo funcionou melhor simplesmente expirar durante mais tempo do que se inspira. Encare-a por isso como uma opção, não como uma regra. A respiração lenta encaixa antes do posto e entre postos. Mesmo antes de pedir o prato, muitos treinadores aconselham só uma expiração natural, porque uma respiração muito lenta pode atrasar a reação ao prato. Se sentir tonturas, volte à respiração normal. Isto não é aconselhamento médico."
+  },
+  "quiet-eye": {
+   "term_local": "quiet eye (olhar calmo)",
+   "alt": [
+    "olho quieto"
+   ],
+   "conf": "medium",
+   "short": "O último olhar estável para o prato antes do movimento; nos atiradores experientes costuma começar mais cedo e durar mais.",
+   "long": "Os investigadores medem o quiet eye como o último olhar estável antes de um movimento começar. Em comparação com atiradores menos experientes, os atiradores de elite de fosso e skeet começam-no mais cedo e mantêm-no mais tempo, e costuma ser mais longo nos pratos partidos do que nos falhados. Sob ansiedade, encurta muitas vezes. Não há um número mágico de milissegundos a atingir: no tiro aos pratos significa ver o prato cedo e com nitidez e manter os olhos nele durante todo o tiro. A maior parte dos dados vem do fosso olímpico e do skeet; provavelmente aplica-se também ao Sporting™ e ao Compak® Sporting."
+  },
+  "self-talk": {
+   "term_local": "diálogo interno",
+   "alt": [
+    "autodiálogo",
+    "self-talk"
+   ],
+   "conf": "medium",
+   "short": "O que diz a si próprio, em voz alta ou mentalmente; no desporto, muitas vezes instruções curtas como «vê o prato» ou «suave».",
+   "long": "Em muitos estudos, os atletas que treinaram o que dizer a si próprios tiveram resultados um pouco melhores. Nas tarefas de precisão, as instruções curtas ajudaram mais do que os incentivos do tipo «vamos». Diga o que fazer e não o que evitar: «fica na linha» em vez de «não pares a arma». No posto, uma instrução curta costuma resultar melhor; as frases de motivação servem mais para o caminho entre postos. Os estudos não são do tiro aos pratos; provavelmente aplicam-se também ao Sporting™ e ao Compak® Sporting."
+  },
+  "cue-word": {
+   "term_local": "palavra-chave",
+   "alt": [
+    "palavra de foco"
+   ],
+   "conf": "medium",
+   "short": "Instrução muito curta, como «borda da frente» ou «suave», que dirige a atenção para uma só coisa antes do tiro.",
+   "long": "Muitos treinadores aconselham escolher no treino, com o treinador, duas ou três palavras-chave e usar as mesmas palavras em competição. As palavras sobre o prato ou a sua linha, como «vê-o» ou «fica na linha», costumam resultar melhor no posto do que as indicações sobre o corpo, como «cotovelo para cima», que pertencem ao treino. Muitos atiradores dizem a palavra no mesmo passo da rotina pré-tiro, mesmo antes de pedir o prato. Um intérprete que traduz a palavra-chave de um treinador pode manter um só equivalente curto durante toda a sessão, para que o atirador o use no seu diálogo interno."
+  },
+  "imagery": {
+   "term_local": "visualização",
+   "alt": [
+    "imagética",
+    "treino mental"
+   ],
+   "conf": "medium",
+   "short": "Ensaio mental: ver e sentir um tiro na mente, à velocidade do tiro real e com os próprios olhos, sem o fazer.",
+   "long": "Os estudos mostram que a visualização costuma ajudar, sobretudo junto com o treino real, mas ninguém sabe exatamente quanto. Parece funcionar melhor quando está próxima da realidade: o mesmo posto, os mesmos pratos, a velocidade real e o próprio ponto de vista. Depois da mostra, muitos atiradores percorrem cada prato mentalmente uma ou duas vezes: ponto de espera, ponto de visão, a arma a entrar na linha, o tiro. Ensaie na cabeça e não com a arma: pôr a arma à cara e seguir a linha de um prato é um simulacro de tiro, que as regras limitam. A investigação não é do tiro aos pratos; provavelmente aplica-se também ao Sporting™ e ao Compak® Sporting."
+  },
+  "choking": {
+   "term_local": "bloquear sob pressão",
+   "alt": [
+    "choking"
+   ],
+   "conf": "medium",
+   "short": "Atirar claramente abaixo do nível habitual por causa da pressão, muitas vezes quando se começa a controlar conscientemente um gesto que normalmente sai sozinho.",
+   "long": "Não confundir com o choke do cano. Sob pressão, um atirador pode começar a controlar passo a passo o gesto de pôr a arma à cara ou o swing, e a preocupação afasta os olhos do prato. Sinais: o ritmo muda, verifica-se a montagem da arma, os olhos vão para o cano ou para a mira, olha-se para as pontuações. O que pode ajudar: a rotina pré-tiro e o ritmo habituais, uma só palavra-chave simples sobre o prato, objetivos de processo e treino sob uma pressão que cresce passo a passo. A maior parte da investigação vem de outros desportos e do fosso olímpico e do skeet; provavelmente aplica-se também ao Sporting™ e ao Compak® Sporting. Se a pressão estraga repetidamente as suas provas, um psicólogo do desporto pode ajudar."
+  },
+  "reset-routine": {
+   "term_local": "rotina de recomeço",
+   "alt": [
+    "reset"
+   ],
+   "conf": "low",
+   "short": "Rotina curta e fixa para recomeçar: depois de um prato falhado (expirar, uma correção, próxima rotina) ou quando é perturbado antes de pedir o prato.",
+   "long": "Um recomeço habitual depois de um falhanço dura cerca de 5–10 segundos: pôr a arma em segurança como as regras exigem, expirar devagar uma vez, dar a si próprio uma correção em duas ou três palavras, ver o tiro certo e depois começar a rotina pré-tiro seguinte. Deixe o «porquê» para depois da série: analisar um gesto passo a passo sob pressão pode perturbá-lo. O recomeço tem de caber no tempo permitido entre pratos. Se for perturbado antes de pedir o prato, muitos treinadores aconselham expirar e recomeçar a rotina. O mesmo recomeço pode ajudar depois de uma decisão do árbitro de que não gostou."
+  },
+  "mobility": {
+   "term_local": "mobilidade",
+   "alt": [
+    "mobilidade articular"
+   ],
+   "conf": "medium",
+   "short": "A liberdade de movimento das articulações: poder rodar a cabeça, levantar os braços e rodar o tronco tanto quanto o tiro exige, sem esforço.",
+   "long": "Para um atirador, as zonas-chave são o pescoço (a cabeça vai à coronha), os ombros (pôr a arma à cara), a parte de cima das costas e as ancas, que rodam o corpo com o prato, e os tornozelos, que mantêm a posição estável. Muitos treinadores aconselham antes de atirar movimentos dinâmicos suaves, como rodar a cabeça devagar, fazer círculos com os ombros e rotações do tronco, e deixam os alongamentos estáticos longos para depois do tiro. Mexa-se com suavidade e pare se doer. Com uma lesão ou dor persistente, monte a sua rotina com um médico ou fisioterapeuta. Isto não é aconselhamento médico."
+  },
+  "gun-rental": {
+   "term_local": "aluguer de arma",
+   "alt": [
+    "arma de aluguer"
+   ],
+   "conf": "medium",
+   "short": "Usar uma arma do campo de tiro mediante pagamento, muitas vezes com uma primeira aula, cartuchos e proteções, para atirar sem comprar arma."
+  },
+  "third-party-insurance": {
+   "term_local": "seguro de responsabilidade civil",
+   "conf": "high",
+   "short": "Seguro que cobre os danos que possa causar a outras pessoas ou aos seus bens; muitos países ou clubes exigem-no aos atiradores."
+  },
+  "proof-mark": {
+   "term_local": "punção de prova",
+   "alt": [
+    "marca de prova",
+    "banco de provas"
+   ],
+   "conf": "medium",
+   "short": "Marca que um banco de provas oficial coloca numa arma depois de a testar com uma carga reforçada; em muitos países esta prova é obrigatória."
+  },
+  "club-membership": {
+   "term_local": "sócio do clube",
+   "alt": [
+    "quota de sócio"
+   ],
+   "conf": "high",
+   "short": "Ser sócio de um clube de tiro: normalmente uma quota anual que muitas vezes dá pratos mais baratos e acesso a treinos e provas do clube."
+  },
+  "reloaded-cartridge": {
+   "term_local": "cartucho recarregado",
+   "alt": [
+    "recarga"
+   ],
+   "conf": "high",
+   "short": "Invólucro já disparado, cheio de novo com pólvora, bucha e chumbo, muitas vezes em casa; não é permitido em provas de Sporting™ e Compak® Sporting."
+  },
+  "taster-session": {
+   "term_local": "aula experimental",
+   "alt": [
+    "sessão de experiência"
+   ],
+   "conf": "medium",
+   "short": "Sessão de iniciação para principiantes num campo de tiro: um treinador, a arma do campo, cartuchos e pratos para experimentar atirar pela primeira vez."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "perda auditiva induzida pelo ruído",
+   "alt": [
+    "surdez pelo ruído"
+   ],
+   "conf": "high",
+   "short": "Lesão gradual e permanente do ouvido interno causada por sons fortes como os tiros; começa muitas vezes pelos sons agudos, e a audição perdida não volta."
+  },
+  "tinnitus": {
+   "term_local": "acufeno",
+   "alt": [
+    "zumbido nos ouvidos",
+    "tinnitus"
+   ],
+   "conf": "high",
+   "short": "Zumbido, apito ou silvo nos ouvidos sem fonte exterior; depois do tiro é muitas vezes um primeiro aviso de que a proteção auditiva não chegou."
+  },
+  "double-hearing-protection": {
+   "term_local": "proteção auditiva dupla",
+   "conf": "medium",
+   "short": "Tampões e abafadores usados em conjunto para uma margem extra, sobretudo em crianças e em postos ruidosos ou cobertos."
+  },
+  "presbyopia": {
+   "term_local": "presbiopia",
+   "alt": [
+    "vista cansada"
+   ],
+   "conf": "high",
+   "short": "Perda da visão ao perto ligada à idade: por volta dos 40 anos, ver ao perto torna-se mais difícil enquanto a visão ao longe pode manter-se boa; a mira pode ficar desfocada."
+  },
+  "lead-hygiene": {
+   "term_local": "higiene do chumbo",
+   "conf": "medium",
+   "short": "Hábitos que reduzem a entrada de chumbo no corpo: lavar as mãos e a cara, não comer nem fumar no posto, roupa só para o tiro."
+  },
+  "heat-exhaustion": {
+   "term_local": "exaustão pelo calor",
+   "conf": "high",
+   "short": "Sobreaquecimento do corpo com cansaço, tonturas, dor de cabeça ou náuseas; precisa de sombra, água, arrefecimento e repouso, e de ajuda médica se não passar depressa."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "tiro aos pombos",
+   "alt": [
+    "tiro ao pombo vivo"
+   ],
+   "conf": "high",
+   "short": "Tiro histórico a pombos vivos soltos de caixas à frente do atirador, antecessor do tiro aos pratos; em 2003 a FITASC suspendeu todas as provas com animais vivos como alvo."
+  },
+  "glass-ball": {
+   "term_local": "bola de vidro",
+   "conf": "medium",
+   "short": "Bola de vidro lançada ao ar como alvo no século XIX, uma primeira alternativa às aves vivas; mais tarde foi substituída pelo prato."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Federação Internacional de Tiro Desportivo"
+   ],
+   "conf": "high",
+   "short": "A International Shooting Sport Federation, que dirige as disciplinas olímpicas de tiro, incluindo o fosso olímpico e o skeet; o Sporting™ e o Compak® Sporting pertencem à FITASC."
+  },
+  "hydration": {
+   "term_local": "hidratação",
+   "conf": "high",
+   "short": "Beber água suficiente; no campo de tiro significa pequenos goles regulares ao longo do dia, e não só quando se tem muita sede."
+  },
+  "travel-fatigue": {
+   "term_local": "cansaço da viagem",
+   "conf": "medium",
+   "short": "Cansaço causado pela própria viagem: músculos rígidos, pouco sono e ar seco; ao contrário do jet lag, não depende dos fusos horários e passa muitas vezes com descanso."
+  },
+  "referee-certificate": {
+   "term_local": "cartão de árbitro",
+   "alt": [
+    "certificado de árbitro",
+    "licença de árbitro"
+   ],
+   "conf": "medium",
+   "short": "O certificado ou cartão que uma federação nacional emite depois de um curso e de um exame e que dá o direito de arbitrar; o árbitro-chefe de uma prova internacional precisa de uma qualificação FITASC."
+  },
+  "assistant-referee": {
+   "term_local": "árbitro assistente",
+   "alt": [
+    "ajudante de árbitro"
+   ],
+   "conf": "medium",
+   "short": "Ajudante do árbitro; no Sporting™, uma pessoa sem o cartão de árbitro exigido só pode exercer esta função, e só com o acordo prévio do júri."
+  },
+  "coaching-qualification": {
+   "term_local": "qualificação de treinador",
+   "alt": [
+    "cédula de treinador"
+   ],
+   "conf": "medium",
+   "short": "Prova de que uma pessoa concluiu uma formação de treinador; quem a emite, os níveis e se é obrigatória dependem do país."
+  },
+  "volunteer": {
+   "term_local": "voluntário",
+   "conf": "high",
+   "short": "Pessoa que ajuda numa prova sem ser paga: inscrições, abastecer as máquinas, estacionamento, fotos, arrumação ou, onde as regras o permitem, marcação sob o olhar do árbitro."
+  },
+  "tour-package": {
+   "term_local": "pacote da viagem",
+   "alt": [
+    "pacote"
+   ],
+   "conf": "medium",
+   "short": "Tudo o que um atirador vai comprar numa viagem ClayAway com um só pagamento: treino em campos de tiro, alojamento, transferes, um programa comum e, se necessário, um intérprete (a ClayAway está em preparação)."
+  },
+  "scoreboard": {
+   "term_local": "quadro de resultados",
+   "alt": [
+    "placar"
+   ],
+   "conf": "medium",
+   "short": "O quadro de resultados: um painel ou ecrã onde se publicam as pontuações por série e os totais dos atiradores durante e depois de uma prova."
+  },
+  "spectator-area": {
+   "term_local": "zona do público",
+   "alt": [
+    "zona de espectadores"
+   ],
+   "conf": "medium",
+   "short": "O local que o organizador reserva ao público, normalmente atrás do posto ou atrás de uma vedação ou corda, de onde se pode ver, fotografar e filmar em segurança."
+  },
+  "derogation": {
+   "term_local": "derrogação",
+   "alt": [
+    "exceção"
+   ],
+   "conf": "low",
+   "short": "Autorização, em casos especiais, para fugir a uma regra, por exemplo competir numa categoria diferente da que a idade dá; pergunte à sua federação nacional."
+  },
+  "pitch": {
+   "term_local": "ângulo da chapa de coice",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low",
+   "short": "O ângulo com que a ponta da coronha (a chapa de coice) é cortada em relação aos canos; decide se a coronha assenta plana no ombro ou faz pressão com a ponta ou o calcanhar."
+  },
+  "gas-operated": {
+   "term_local": "de tomada de gases",
+   "alt": [
+    "semi-automática de gases"
+   ],
+   "conf": "medium",
+   "short": "Sistema semi-automático em que parte dos gases da pólvora recarrega a arma; espalha o recuo por mais tempo, por isso muitos atiradores sentem-no mais suave."
+  },
+  "ladies-cut": {
+   "term_local": "corte feminino",
+   "conf": "medium",
+   "short": "Corte de colete ou casaco de tiro que tem em conta o peito e a largura dos ombros, para que a almofada fique onde assenta a coronha."
+  },
+  "ladies-day": {
+   "term_local": "dia das senhoras",
+   "alt": [
+    "ladies' day"
+   ],
+   "conf": "medium",
+   "short": "Dia no clube em que as mulheres treinam ou experimentam o tiro, muitas vezes com um treinador e armas emprestadas."
+  },
+  "snap-cap": {
+   "term_local": "cartucho de treino",
+   "alt": [
+    "snap cap"
+   ],
+   "conf": "medium",
+   "short": "Cartucho falso que protege os percutores quando se prime o gatilho com a arma vazia; para o treino em seco, como aconselhar um treinador ou armeiro."
+  },
+  "blot-out": {
+   "term_local": "tapar o prato (blot out)",
+   "conf": "low",
+   "short": "Deixar que os canos tapem o prato no momento do tiro, como acontece muitas vezes nos pratos de entrada e de batida; normalmente é intencional, não um erro."
+  },
+  "show-pair": {
+   "term_local": "show pair",
+   "conf": "low",
+   "short": "Nome britânico para a mostra de um par de pratos antes do tiro; nos termos da FITASC, a mostra de um double."
+  },
+  "perfect-round": {
+   "term_local": "série limpa",
+   "alt": [
+    "25 em 25"
+   ],
+   "conf": "medium",
+   "short": "Uma série sem falhanços: no Sporting™ e no Compak® Sporting, os 25 pratos partidos; um perfil da ClayArena conta quantas o atirador tem."
+  },
+  "visitors-permit": {
+   "term_local": "licença de visitante (visitor's permit)",
+   "conf": "low",
+   "short": "Licença britânica que permite a um visitante estrangeiro ter uma espingarda na Grã-Bretanha; quem a pede à polícia local é um patrocinador que lá vive."
   }
  }
 };

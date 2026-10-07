@@ -1,0 +1,165 @@
+{
+ "id": "competitions-competition-day",
+ "lang": "fi",
+ "base_rev": 2,
+ "h": {
+  "title": "da330bf4",
+  "summary": "03f0d6e8",
+  "sport-competition-day-p1": "fe775f1f",
+  "competitions-competition-day-p1": "1637c3ac",
+  "competitions-competition-day-p2": "67e7bbfe",
+  "competitions-competition-day-p3": "f4441a9d",
+  "competitions-competition-day-practice": "8b778fed",
+  "sport-competition-day-p2": "e6be5fdb",
+  "competitions-competition-day-p5": "dd34255e",
+  "competitions-competition-day-ready": "b0097c3e",
+  "sport-competition-day-p3": "1c827ea1",
+  "sport-competition-day-p4": "31ca987d",
+  "competitions-competition-day-late-inline": "b5ebbfb9",
+  "competitions-competition-day-late": "29daedd5",
+  "sport-competition-day-p5": "88bcdcdc",
+  "competitions-competition-day-end": "d5f38b62",
+  "competitions-competition-day-n1": "2c5d9407",
+  "competitions-competition-day-n-parent": "416800c4",
+  "sport-competition-day-ph1": "aca8882e",
+  "sport-competition-day-ph2": "19bd30f0",
+  "sport-competition-day-ph3": "c9b8e464",
+  "sport-competition-day-ph4": "2f81332b",
+  "sport-competition-day-kp1": "1253bc50",
+  "competitions-competition-day-kp1": "d0538c31",
+  "competitions-competition-day-kp-ready": "4fd327b5",
+  "sport-competition-day-kp4": "05da6963",
+  "sport-competition-day-kp5": "8745608e",
+  "competitions-competition-day-dyk": "bee33939",
+  "competitions-competition-day-q-protection": "52593bf2",
+  "competitions-competition-day-q2": "ee8d9127",
+  "sport-competition-day-q2": "1bccddb2",
+  "competitions-competition-day-q1": "2e3a9e98",
+  "sport-competition-day-q3": "7ccca26d",
+  "competitions-competition-day-q-inline-late": "ba6595e7",
+  "competitions-competition-day-q-carry": "861a9947"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Kilpailupäivä alusta loppuun",
+ "summary": "Mitä kilpailupäivänä tapahtuu {{tm:sporting}}- ja {{tm:compak}}-lajeissa: ilmoittautuminen, numerosi, erät ja kierto, myöhästyminen, tulokset ja päivän päättyminen.",
+ "body": {
+  "sport-competition-day-p1": "Päivä alkaa ilmoittautumisella: ampuja vahvistaa osallistumisensa, saa kilpailunumeron ja kiinnittää sen yläselkään, kokonaan näkyviin. Sitten kaikki tarkistavat erälistat ja ampuma-ajat. Erä on enintään kuuden arvalla valitun ampujan ryhmä, joka ampuu yhdessä. Aikataulussa pysyminen on ampujan omalla vastuulla.",
+  "competitions-competition-day-p1": "Saavu ajoissa: ilmoittautuminen, oman erän löytäminen ja valmistautuminen vievät kaikki aikaa. {{term:competitor-number|Numero}} kiinnitetään hartioiden ja vyötärön väliin, ei taitettuna tai leikattuna. Pue {{term:hearing-protection|kuulosuojaimet}} ja {{term:safety-glasses|ampumalasit}} ennen kuin menet ampumapaikalle. Molemmissa lajeissa ampuja, joka saapuu niitä ilman, lasketaan poissaolevaksi, ja myöhästymissäännöt pätevät (ks. alla).",
+  "competitions-competition-day-p2": "Pukeudu siististi ja turvallisesti: shortsit voivat ulottua {{fact:rules.dress-shorts-length}}, yläosissa täytyy olla hihat, ja sandaalit eivät ole sallittuja. Kanna asetta avoimena (taitettuna saranasta, niin että kaikki näkevät sen olevan tyhjä) ja ilman hihnaa. {{term:semi-automatic|Puoliautomaatti}} kannetaan lukko auki (sulkusuoja vedettynä taakse). Kaikki säännöt: {{lesson:rules-dress-and-safety}}.",
+  "competitions-competition-day-p3": "Haluatko tarkistaa, että aseesi toimii? Tee se ennen kierrosta, erityisellä {{term:gun-test|koelaukauspaikalla}}, jos radalla on sellainen. Koelaukaukset kilpailupaikalla eivät ole sallittuja.",
+  "competitions-competition-day-practice": {
+   "sporting": "Kukaan ei saa harjoitella kilpailun rataosuuksilla ennen kilpailua. Harjoittele muilla radoilla.",
+   "compak": "Saat {{term:practice|harjoitella}} samoilla kiekkojen lentoradoilla kuin kilpailussa, mutta {{term:trajectory-setting-table|lentoratojen asetustaulukon}} täytyy olla eri. Tämä taulukko kertoo, mitkä heittimet laukaisevat kiekot joka numerolla. Maanosien ja maailmanmestaruuskilpailuissa virallinen harjoitus avautuu {{fact:training.compak-championship-practice}}."
+  },
+  "sport-competition-day-p2": "Erä (squad) on enintään kuuden arvalla valitun ampujan ryhmä, joka ampuu yhdessä. ClayAwayssa sana tarkoittaa myös matkan alaryhmää, joten tee selväksi, kumpaa tarkoitat. {{tm:sporting}}-lajissa erä ampuu ensin ampumapaikan kaikki yksittäiskiekot ja sitten kaksoiskiekot, ja ensimmäinen ampuja vaihtuu joka uudella paikalla. Ennen kuin kukaan ampuu, erän ensimmäiselle ampujalle näytetään kiekot: joka kiekko heitetään niin, että sen lentorata näkyy.",
+  "competitions-competition-day-p5": "Kun {{tm:compak}} ammutaan ryhmissä, täysi erä on kuusi ampujaa: viisi seisoo viidellä numerolla ja kuudes odottaa ensimmäisen numeron takana. Vajaammalla erällä yksi numero jää tyhjäksi. Kun kaikki ovat ampuneet kiekkonsa omalta numerolta, erä siirtyy yhden numeron oikealle. Numerolta 5 ampuja siirtyy odottamaan ensimmäisen numeron takana, ja odottanut ampuja astuu numerolle 1. Tämä jatkuu, kunnes joka ampuja on ampunut kaikilta viideltä numerolta. Ennen kierrostasi mene sinulle osoitetulle Compak-kentälle ja ilmoittaudu tuomarille: se on pakollista. {{term:compak-in-line|Compak linjassa}} -formaatissa ampujat eivät liiku erässä: he tulevat numerolle 1 yksi kerrallaan ja kävelevät linjaa pitkin numerolle 5.",
+  "competitions-competition-day-ready": "Kun vuorosi tulee, ole valmis välittömästi, patruunat koko kierrokselle mukana. {{tm:compak}}-lajissa tuomarin ei tarvitse etsiä puuttuvaa ampujaa. Miten ampumapaikat toimivat: {{lesson:targets-sporting-layout}} ja {{lesson:targets-compak-layout}}.",
+  "sport-competition-day-p3": "Kierros on 25 kiekkoa: yksi rataosuus {{tm:sporting}}-lajissa, yksi kenttä {{tm:compak}}-lajissa. Kansainvälinen kilpailu on 200 kiekkoa, eli kahdeksan kierrosta useana päivänä. Tuomari merkitsee joka kiekon tulospöytäkirjaan, yleensä X osumasta ja O ohilaukauksesta. {{tm:sporting}}-lajissa ampujat tarkistavat tuloksensa poistuessaan ampumapaikalta; {{tm:compak}}-lajissa he allekirjoittavat pöytäkirjan kierroksen lopussa.",
+  "sport-competition-day-p4": "Myöhästyminen tulee kalliiksi. {{tm:sporting}}-lajissa tuomari kutsuu ampujan nimeä kolme kertaa yhden minuutin aikana; vuoronsa menettävä ampuja saa ampumatta jääneistä kiekoista nollat. {{tm:compak}}-lajissa ampuja, joka saapuu sen jälkeen, kun erän ensimmäinen ampuja on jo pyytänyt ensimmäistä kiekkoa (pyytänyt sen heittoa), saa {{fact:competitions.compak-late-zeros}}.",
+  "competitions-competition-day-late-inline": "{{term:compak-in-line|Compak linjassa}} -formaatissa olet myöhässä, kun kaksi asiaa on tapahtunut: tietokonejärjestelmä on peruuttanut kilpailunumerosi, ja seuraava ampuja on numerolla 1. Rangaistus on sama: {{fact:competitions.compak-late-zeros}}.",
+  "competitions-competition-day-late": "Myöhästyitkö syystä, johon et voinut vaikuttaa? Älä liity erään omin päin: valita kirjallisesti {{term:jury|jurylle}} (kilpailua johtavalle elimelle), {{tm:compak}}-lajissa samana päivänä. Jos jury on samaa mieltä, ammut kierroksen toisessa erässä. Lisää: {{lesson:rules-call-and-time}}.",
+  "sport-competition-day-p5": "Jos ampujat ovat tasapisteissä yhdestä kolmesta kärkisijasta, tasatilanne ratkaistaan {{fact:competitions.shoot-off-format}}. Sudden deathissa ammutaan, kunnes ensimmäinen ampuja osuu ohi ja putoaa. Kolmannen sijan alapuolella uusintakierrosta ei ole: tasatilanteessa olevat jakavat sijan. {{term:countback|Countback}} asettaa heidät järjestykseen listalla: tuloksia verrataan {{fact:competitions.countback-order}}. Päivä päättyy tulostauluun ja palkintojenjakoon.",
+  "competitions-competition-day-end": "Saatatko joutua uusintakierrokseen? Pysy lähellä ja tavoitettavissa: sinun saattaa täytyä ampua {{fact:rules.shootoff-ready-time}}. Kansainvälisissä kilpailuissa kaikkien palkittujen täytyy osallistua {{term:prize-giving|palkintojenjakoon}}, joukkueasussa tai siisteissä housuissa ja bleiserissä. Miten tuloksia luetaan: {{lesson:watching-reading-results}}."
+ },
+ "note": {
+  "competitions-competition-day-n1": "Valmisteilla olevissa ClayAway-tuureissa sanaa ”squad” käytetään myös tuurin alaryhmästä. Kilpailussa se tarkoittaa ampumaryhmää, niin tee selväksi, kumpaa tarkoitat.",
+  "competitions-competition-day-n-parent": "Katso katsojien alueelta ja pysy hiljaa ampumapaikan lähellä. Raundin aikana huudettu neuvo lasketaan {{term:coaching|valmentamiseksi}}: tuomari voi antaa lapsellesi siitä keltaisen kortin. Lisää: {{lesson:juniors-support-without-pressure}}."
+ },
+ "phrases": {
+  "sport-competition-day-ph1": {
+   "meaning": "Erän numero, aloitusrataosuus ja aloitusaika.",
+   "say": "Olet erässä kaksitoista, aloitat rataosuudelta viisi klo 9.30."
+  },
+  "sport-competition-day-ph2": {
+   "meaning": "{{tm:sporting}}: varmista nyt, että tuomari kirjasi tuloksesi oikein; myöhemmin on liian myöhäistä.",
+   "say": "Tarkista pöytäkirjasi ennen kuin lähdet ampumapaikalta."
+  },
+  "sport-competition-day-ph3": {
+   "meaning": "22/25 ensimmäisellä kierroksella; 200 kiekon kilpailussa on jäljellä seitsemän kierrosta.",
+   "say": "Kaksikymmentäkaksi ensimmäisellä kierroksella on hyvä – seitsemän vielä jäljellä."
+  },
+  "sport-competition-day-ph4": {
+   "meaning": "Ampujan, joka saattaa joutua uusintakierrokseen, täytyy olla valmiina pian kutsun jälkeen.",
+   "say": "Pysy lähellä – jos tulee tasapisteet, ammut viidentoista minuutin kuluessa kutsusta."
+  }
+ },
+ "key_points": {
+  "sport-competition-day-kp1": "Ilmoittautuminen, kilpailunumero selkään, erälistat ja ajat.",
+  "competitions-competition-day-kp1": "Ampumapaikalla ilman kuulosuojaimia ja ampumalaseja sinua kohdellaan poissaolevana.",
+  "competitions-competition-day-kp-ready": "Ole valmis vuorollasi, patruunat koko kierrokselle mukana; testaa ase vain koelaukauspaikalla.",
+  "sport-competition-day-kp4": "Myöhästyminen maksaa nollia; {{tm:compak}}-lajissa {{fact:competitions.compak-late-zeros}}.",
+  "sport-competition-day-kp5": "Kolmen kärkisijan tasatilanne: 25 kiekon uusinta, sitten sudden death; alemmat: Count Back."
+ },
+ "quiz": {
+  "competitions-competition-day-q-protection": {
+   "q": "Mitä tapahtuu, jos saavut ampumapaikalle ilman kuulosuojaimia tai ampumalaseja?",
+   "options": {
+    "a": "Voit ampua, mutta saat varoituksen",
+    "b": "Sinua kohdellaan poissaolevana, ja et saa ampua",
+    "c": "Tuomari antaa sinulle varapaketin"
+   },
+   "explain": "Molemmissa lajeissa ampujaa, jolla ei ole kuulosuojaimia tai ampumalaseja, kohdellaan poissaolevana, ja myöhästymissäännöt pätevät."
+  },
+  "competitions-competition-day-q2": {
+   "q": "Missä voit tarkistaa, että aseesi toimii?",
+   "options": {
+    "a": "Ensimmäisellä kilpailupaikalla, ennen kierrosta",
+    "b": "Missä tahansa radalla, jos alue on tyhjä",
+    "c": "Erityisellä koelaukauspaikalla, jos radalla on sellainen"
+   },
+   "explain": "Koelaukaukset kilpailupaikalla eivät ole sallittuja missään lajissa; käytä koelaukauspaikkaa."
+  },
+  "sport-competition-day-q2": {
+   "q": "{{tm:compak}}-lajissa erissä ammuttaessa ampuja saapuu sen jälkeen, kun ensimmäinen ampuja on pyytänyt ensimmäistä kiekkoa. Mitä tapahtuu?",
+   "options": {
+    "a": "Ei mitään, hän liittyy mukaan",
+    "b": "Hän saa kierrokselta 25 nollaa",
+    "c": "Hän ampuu kierroksen myöhemmin yksin ilman rangaistusta",
+    "d": "Hän menettää yhden kiekon"
+   },
+   "explain": "{{tm:compak}}-lajissa erissä ammuttaessa ensimmäisen pyynnön jälkeen saapuminen maksaa {{fact:competitions.compak-late-zeros}}. Syystä, johon ei voinut vaikuttaa, voi valittaa jurylle kirjallisesti samana päivänä."
+  },
+  "competitions-competition-day-q1": {
+   "q": "Mikä on suurin ampujamäärä erässä?",
+   "options": {
+    "a": "4",
+    "b": "6",
+    "c": "8"
+   },
+   "explain": "Molemmissa lajeissa, {{tm:sporting}} ja {{tm:compak}}, erässä on enintään 6 ampujaa."
+  },
+  "sport-competition-day-q3": {
+   "q": "Kaksi ampujaa on tasapisteissä 5. sijasta. Miten heidät erotetaan?",
+   "options": {
+    "a": "25 kiekon uusintakierroksella",
+    "b": "Arpomalla kilpailun jälkeen",
+    "c": "Countback-säännöllä kahdeksannesta rataosuudesta tai Compakista alkaen",
+    "d": "Iän mukaan, nuorempi ensin"
+   },
+   "explain": "Uusintakierrokset ammutaan vain kolmesta kärkisijasta; sen alapuolella countback vertaa kahdeksatta rataosuutta tai Compakia, sitten seitsemättä, ja niin edelleen."
+  },
+  "competitions-competition-day-q-inline-late": {
+   "q": "Compak linjassa -formaatissa, milloin olet myöhässä?",
+   "options": {
+    "a": "Kun numerosi on peruutettu järjestelmässä ja seuraava ampuja on numerolla 1",
+    "b": "Heti, kun tuomari on kutsunut nimesi ensimmäisen kerran",
+    "c": "Vasta sitten, kun koko ryhmä on lopettanut kierroksen ampumisen"
+   },
+   "explain": "Molempien asioiden täytyy olla tapahtunut: numerosi on jo peruutettu tietokonejärjestelmässä, ja seuraava ampuja seisoo numerolla 1. Rangaistus on {{fact:competitions.compak-late-zeros}}."
+  },
+  "competitions-competition-day-q-carry": {
+   "q": "Miten asetta kannetaan ampumapaikkojen välillä?",
+   "options": {
+    "a": "Avoimena, niin että kaikki näkevät sen olevan tyhjä, ja ilman hihnaa",
+    "b": "Suljettuna ja tyhjänä, hihnassa olalla",
+    "c": "Suljettuna, varmistin päällä, piiput maahan"
+   },
+   "explain": "Aseita kannetaan avoimina, eikä hihnoja sallita; puoliautomaatti kannetaan lukko auki."
+  }
+ },
+ "did_you_know": "{{tm:sporting}}-lajissa erä odottaa niin lähellä ampumapaikkaa kuin mahdollista, mutta paikassa, joka ei häiritse ampuvaa."
+}

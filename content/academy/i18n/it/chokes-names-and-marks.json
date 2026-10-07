@@ -1,0 +1,111 @@
+{
+  "id": "chokes-names-and-marks",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "e7b2ef05",
+    "summary": "22d688ff",
+    "gear-chokes-p3": "dc515f35",
+    "chokes-names-and-marks-p1": "81bdc547",
+    "chokes-names-and-marks-p2": "ef07b37b",
+    "chokes-names-and-marks-p5": "b6f30907",
+    "chokes-names-and-marks-p6": "1b8fdee5",
+    "chokes-names-and-marks-p7": "c0e23a16",
+    "chokes-names-and-marks-kp1": "5c513a88",
+    "chokes-names-and-marks-kp2": "76965b4c",
+    "gear-chokes-kp3": "93bc009b",
+    "chokes-names-and-marks-kp4": "8755ddeb",
+    "chokes-names-and-marks-kp5": "07a69a82",
+    "chokes-names-and-marks-dyk": "7ad51e91",
+    "chokes-names-and-marks-q1": "c8c32e0e",
+    "chokes-names-and-marks-q2": "daf50685",
+    "chokes-names-and-marks-q4": "4f31ea8b",
+    "chokes-names-and-marks-q3": "9a68ecf3",
+    "gear-chokes-q3": "ded3001e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Nomi, strozzature e marcature degli strozzatori",
+  "summary": "Dal cylinder al full: strozzature tipiche in millimetri e thou, le frazioni 1/4–1/2–3/4 e le marcature a stelle usate in {{tm:sporting}} e {{tm:compak}}. I valori sono approssimativi e variano tra produttori.",
+  "body": {
+    "gear-chokes-p3": "I nomi vengono dall'inglese, dall'aperto allo stretto: cylinder ({{term:cylinder|cilindrico}}), skeet, improved cylinder, light modified, modified, improved modified, full. Gli europei li dicono spesso in frazioni: quarto (improved cylinder), mezzo (modified), tre quarti (improved modified) e pieno (full). Molti fucili italiani segnano gli strozzatori con stelle, e lì la regola è invertita: più stelle significa strozzatore più aperto.",
+    "chokes-names-and-marks-p1": "Di seguito trovi le {{term:constriction|strozzature}} tipiche per il calibro 12. Un thou è un millesimo di pollice, circa 0,025 mm. I valori reali dipendono dal produttore e anche dal foro della canna specifica.",
+    "chokes-names-and-marks-p2": [
+      "Cylinder: nessuna strozzatura, 0 mm.",
+      "Skeet: una strozzatura molto leggera, circa 0,1–0,15 mm (4–6 thou); in Europa chiamato talvolta 1/8.",
+      "Improved cylinder (IC): circa 0,25 mm (circa 10 thou), in Europa 1/4, un quarto di strozzatura.",
+      "Light modified (LM): circa 0,35–0,4 mm (circa 15 thou), talvolta segnato 3/8.",
+      "Modified (M): circa 0,5 mm (circa 20 thou), 1/2, mezza strozzatura.",
+      "Improved modified (IM): circa 0,65–0,75 mm (25–30 thou), 3/4.",
+      "Full: circa 0,9–1 mm (35–40 thou), 1/1 o semplicemente Full. Esistono strozzatori ancora più stretti (extra full), ma nel tiro a volo servono raramente."
+    ],
+    "chokes-names-and-marks-p5": "Le frazioni sono comode nella conversazione, ma non sono millimetri esatti: il 1/2 di un produttore può differire leggermente da quello di un altro.",
+    "chokes-names-and-marks-p6": "I produttori italiani, per esempio Beretta, usano le {{term:star-marks|stelle}}: cinque per il cylinder, quattro per l'improved cylinder (1/4), tre per il modified (1/2), due per l'improved modified (3/4) e una per il full. Gli strozzatori skeet non hanno stelle. Altri produttori intagliano tacche sul bordo del tubo, usano fasce colorate o stampano il nome (IC, M, LM).",
+    "chokes-names-and-marks-p7": "La fonte più sicura è la marcatura sullo strozzatore stesso o il manuale del fucile. In caso di dubbio, un {{term:gunsmith|armaiolo}} può misurare la strozzatura con un calibro in un minuto."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-names-and-marks-kp1": "Cylinder 0 · Skeet ~0,1–0,15 mm · IC ~0,25 mm (1/4) · LM ~0,35–0,4 mm",
+    "chokes-names-and-marks-kp2": "M ~0,5 mm (1/2) · IM ~0,65–0,75 mm (3/4) · Full ~0,9–1 mm (1/1)",
+    "gear-chokes-kp3": "Frazioni: quarto = improved cylinder, mezzo = modified, tre quarti = improved modified, pieno = full.",
+    "chokes-names-and-marks-kp4": "Stelle: più stelle ci sono, più aperto è lo strozzatore.",
+    "chokes-names-and-marks-kp5": "I valori sono approssimativi e variano tra produttori."
+  },
+  "did_you_know": "Le canne da gara moderne sono spesso «overbored»: l'interno è fatto un po' più largo dello standard per quel calibro. Quindi lo stesso strozzatore con lo stesso nome può dare una strozzatura leggermente diversa in fucili diversi: conta la differenza tra canna e strozzatore.",
+  "quiz": {
+    "chokes-names-and-marks-q1": {
+      "q": "Qual è la strozzatura approssimativa di un modified (1/2) per il calibro 12?",
+      "options": {
+        "a": "0 mm",
+        "b": "Circa 0,25 mm",
+        "c": "Circa 0,5 mm",
+        "d": "Circa 1 mm"
+      },
+      "explain": "Modified è circa 0,5 mm, cioè circa 20 thou."
+    },
+    "chokes-names-and-marks-q2": {
+      "q": "Cosa significa uno strozzatore con quattro stelle su un fucile Beretta?",
+      "options": {
+        "a": "Full",
+        "b": "Improved cylinder (1/4)",
+        "c": "Modified (1/2)",
+        "d": "Improved modified (3/4)"
+      },
+      "explain": "Nel sistema a stelle, più stelle ci sono più aperto è lo strozzatore: quattro stelle è improved cylinder."
+    },
+    "chokes-names-and-marks-q4": {
+      "q": "Nell'uso europeo, quale strozzatore è «mezzo»?",
+      "options": {
+        "a": "Modified",
+        "b": "Improved cylinder",
+        "c": "Full",
+        "d": "Skeet"
+      },
+      "explain": "«Mezzo» (1/2) è modified; «quarto» è improved cylinder, «tre quarti» è improved modified."
+    },
+    "chokes-names-and-marks-q3": {
+      "q": "Quale strozzatore è il più aperto?",
+      "options": {
+        "a": "Full",
+        "b": "Improved modified",
+        "c": "Modified",
+        "d": "Cylinder"
+      },
+      "explain": "Il cylinder non ha alcuna strozzatura."
+    },
+    "gear-chokes-q3": {
+      "q": "Su un fucile italiano, uno strozzatore con cinque stelle è…",
+      "options": {
+        "a": "il più aperto",
+        "b": "il più stretto",
+        "c": "uno strozzatore rotto",
+        "d": "una canna rigata"
+      },
+      "explain": "Nella marcatura a stelle, più stelle significano uno strozzatore più aperto."
+    }
+  }
+}

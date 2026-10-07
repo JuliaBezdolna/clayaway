@@ -1,0 +1,127 @@
+{
+  "id": "gear-ear-protection",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "75285726",
+    "summary": "421d3d7c",
+    "gear-ear-protection-p1": "2f889d9a",
+    "health-hearing-p1": "c5e83728",
+    "health-hearing-p2": "5950fe63",
+    "health-hearing-p3": "15ceace6",
+    "gear-ear-protection-p2": "a6697be0",
+    "gear-ear-protection-p3": "5a06946e",
+    "gear-ear-protection-p4": "3e54664f",
+    "gear-ear-protection-p5": "3d827721",
+    "health-hearing-p7": "082a4d13",
+    "gear-ear-protection-p6": "d4b58ab9",
+    "gear-ear-protection-children-coaches": "cc213d05",
+    "gear-ear-protection-n1": "3d9a92ee",
+    "gear-ear-protection-kp1": "101cc3a2",
+    "health-hearing-kp1": "9e0ba6c6",
+    "gear-ear-protection-kp2": "e04c6675",
+    "health-hearing-kp2": "20b51dcc",
+    "gear-ear-protection-kp5": "68dbf6b8",
+    "gear-ear-protection-dyk": "4b7cea0c",
+    "gear-ear-protection-q1": "a42f3b0c",
+    "gear-ear-protection-q2": "8dec0d1f",
+    "gear-ear-protection-q3": "d1ec972e",
+    "health-hearing-q1": "ac2e313f",
+    "health-hearing-q2": "414c31e1",
+    "health-hearing-q3": "8a986efd"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Kuulosuojaus: tulpat ja kuulosuojaimet",
+  "summary": "Miksi laukaus voi vahingoittaa kuuloa pysyvästi, millaisia tulppia ja kuulosuojaimia on olemassa ja miksi moni {{tm:sporting}}- ja {{tm:compak}}-ampuja käyttää äänekkäillä radoilla molempia.",
+  "body": {
+    "gear-ear-protection-p1": "{{term:hearing-protection|Kuulosuojaimet}} ovat pakolliset {{tm:sporting}}- ja {{tm:compak}}-lajeissa kaikille, jotka ovat radalla tai sen lähellä: ampujille, tuomareille, henkilökunnalle ja katsojille. Ampuja, joka tulee ampumapaikalle ilman niitä, katsotaan poissaolevaksi, eikä hän ammu.",
+    "health-hearing-p1": "Haulikon laukaus on hyvin äänekäs: {{fact:gear.gunshot-peak-db}}. Lyhyille, äkillisille äänille kuten laukaukselle (impulssimelu) tavallinen turvaraja on {{fact:gear.impulse-noise-limits}}. Siis jokainen laukaus ilman suojaa ylittää rajan, ja päivä radalla tarkoittaa satoja laukauksia, sekä omia että muiden.",
+    "health-hearing-p2": "Melun aiheuttama kuulovaurio kehittyy vähitellen ja kivuttomasti. Sisäkorvan pienet herkät solut kuolevat, eivätkä ne uudistu. Se alkaa yleensä korkeista äänistä: puhe, varsinkin meluisassa paikassa, muuttuu vaikeammin erottuvaksi, eikä moni huomaa sitä aluksi. Jos ampuu edelleen ilman suojaa, vaurio leviää muihinkin ääniin. Menetettyä kuuloa ei saa takaisin – sitä voi vain suojata.",
+    "health-hearing-p3": "Korvien soiminen tai humina (tinnitus) ampumisen jälkeen on yleinen ensimmäinen varoitusmerkki: suoja ei ollut riittävä. Tarkista, miten korvatulpat ja kuulosuojaimet istuvat, tai valitse tehokkaammat. Jos korvasi soivat tai äänet tuntuvat vaimeilta ampumisen jälkeen, mene kuulontutkimukseen korva-, nenä- ja kurkkutautien lääkärille tai audiologille. Jos kuulosi heikkenee äkillisesti, hakeudu kiireesti lääkäriin.",
+    "gear-ear-protection-p2": "{{term:earplugs|Korvatulpat}} ovat yksinkertaisin vaihtoehto. Vaahtomuovitulpat ovat halpoja: ne rullataan ohuiksi, työnnetään korvaan ja annetaan laajentua. On myös uudelleenkäytettäviä silikonitulppia ja korvan muotoon valettuja yksilöllisiä tulppia. Korvakäytävän tiiviisti sulkevat tulpat suojaavat hyvin, huonosti istuvat hyvin vähän, joten pyydä valmentajaa näyttämään, miten ne laitetaan.",
+    "gear-ear-protection-p3": "{{term:passive-ear-muffs|Passiiviset kuulosuojaimet}} peittävät korvat yksinkertaisesti tiiviillä kuvuilla. Niitä on helppo laittaa ja riisua, mutta niiden läpi on vaikeampi kuulla puhetta. Haulikkoon valitse kuulosuojaimet, joissa on ohuet kuvut, sillä paksut voivat osua {{term:stock|tukkiin}}, kun nostat aseen.",
+    "gear-ear-protection-p4": "{{term:electronic-ear-muffs|Aktiivikuulosuojaimissa}} on mikrofonit ja kaiuttimet. Ne vahvistavat hiljaisia ääniä, kuten tuomarin ääntä ja komentoja, ja vaimentavat kovan äänen hetkessä laukauksen aikana. Ne auttavat turvallisuudessa ja viestinnässä, mutta ovat kalliimpia ja tarvitsevat paristot tai latauksen.",
+    "gear-ear-protection-p5": "Suojausta mitataan luvulla, Euroopassa SNR ja Yhdysvalloissa NRR: mitä suurempi luku, sitä voimakkaampi vaimennus. Äänekkäillä radoilla, esimerkiksi katoksen alla tai seinien lähellä, korvatulpat ja kuulosuojaimet yhdessä antavat lisävaraa. Kahta lukua ei voi vain laskea yhteen, mutta yhdysvaltalainen työturvallisuuslaitos (NIOSH) mittasi, että molemmat yhdessä suojaavat karkeasti 15–20 dB enemmän kuin kumpikaan yksinään.",
+    "health-hearing-p7": "Suoja toimii vain, kun se istuu hyvin. Tulpat työnnetään tarpeeksi syvälle, jotta ne sulkevat korvakäytävän, eivätkä lasien sangat tai lippis saa rikkoa kuulosuojainten tiiviyttä. Yksilölliset tulpat ovat mukavat ja istuvat joka kerta samalla tavalla; käytä pakkauksen SNR-lukua apuna.",
+    "gear-ear-protection-p6": "Lapsille ja junioreille kuulosuojaus on vielä tärkeämpää: heidän korvansa vaurioituvat herkemmin, joten lasten turvallinen meluraja asetetaan alemmaksi kuin aikuisten ({{fact:gear.impulse-noise-limits}}).",
+    "gear-ear-protection-children-coaches": "Moni valmentaja suosittelee lapsille korvatulppia ja kuulosuojaimia yhdessä. Laita suojaimet ennen kuin menet ampumapaikalle, ja pidä ne päässä niin kauan kuin lähistöllä joku ampuu."
+  },
+  "note": {
+    "gear-ear-protection-n1": "Aktiivikuulosuojaimilla kuulet valmentajan ja tuomarin, kun kuulosi pysyy silti suojattuna. Moni tulkki pitää niitä hyvänä valintana pitkille päiville ampumapaikalla."
+  },
+  "phrases": {},
+  "key_points": {
+    "gear-ear-protection-kp1": "Kuulosuojaimet ovat pakolliset kaikille ampumapaikan lähellä.",
+    "health-hearing-kp1": "Laukaus on {{fact:gear.gunshot-peak-db}}; melun aiheuttama vaurio kasautuu eikä parane.",
+    "gear-ear-protection-kp2": "Korvatulpat suojaavat vain, kun ne sulkevat korvakäytävän tiiviisti.",
+    "health-hearing-kp2": "Korvien soiminen ampumisen jälkeen tarkoittaa, että suoja ei ollut riittävä.",
+    "gear-ear-protection-kp5": "Äänekkäillä radoilla korvatulpat ja kuulosuojaimet yhdessä antavat lisäsuojaa; moni valmentaja suosittelee molempia lapsille."
+  },
+  "quiz": {
+    "gear-ear-protection-q1": {
+      "q": "Mitä aktiivikuulosuojaimet tekevät?",
+      "options": {
+        "a": "Vahvistavat hiljaisia ääniä ja vaimentavat laukauksen",
+        "b": "Laskevat, montako laukausta olet ampunut",
+        "c": "Korvaavat ampumalasit",
+        "d": "Soittavat musiikkia raundien välillä"
+      },
+      "explain": "Kuulet tuomarin ja komennot, kun kuulosi on silti suojattu."
+    },
+    "gear-ear-protection-q2": {
+      "q": "Miksi ohutkupuiset kuulosuojaimet sopivat haulikolle paremmin?",
+      "options": {
+        "a": "Ne päästävät läpi enemmän laukauksen ääntä",
+        "b": "Paksut kuvut voivat osua tukkiin",
+        "c": "Pukeutumissäännöt vaativat ohuita kupuja",
+        "d": "Ne eivät tarvitse lainkaan paristoja"
+      },
+      "explain": "Tukki nousee poskea vasten, ja paksu kupu voi haitata nostoa."
+    },
+    "gear-ear-protection-q3": {
+      "q": "Mikä on järkevää hyvin äänekkäällä stendillä, esimerkiksi katoksen alla?",
+      "options": {
+        "a": "Ampua ilman suojaa, jotta kuulee paremmin",
+        "b": "Käyttää vain toista korvatulppaa",
+        "c": "Käyttää korvatulppia ja kuulosuojaimia yhdessä",
+        "d": "Seistä lähempänä heitinkoppia"
+      },
+      "explain": "Kaksinkertainen suoja vaimentaa ääntä enemmän kuin kumpikaan yksinään."
+    },
+    "health-hearing-q1": {
+      "q": "Palautuuko melun vaurioittama kuulo ennalleen?",
+      "options": {
+        "a": "Kyllä, muutaman viikon levolla",
+        "b": "Ei, sisäkorvan solut eivät uudistu",
+        "c": "Kyllä, jos syö oikeita vitamiineja",
+        "d": "Kyllä, yhden tai kahden hiljaisen loman jälkeen"
+      },
+      "explain": "Melun aiheuttama kuulovaurio on pysyvä, joten suojaa kuuloasi jo ensimmäisestä laukauksesta lähtien."
+    },
+    "health-hearing-q2": {
+      "q": "Mitä tarkoittaa kaksinkertainen kuulosuojaus?",
+      "options": {
+        "a": "Kaksi paria korvatulppia yhtä aikaa",
+        "b": "Kuulosuojaimet lämpimän pipon päällä",
+        "c": "Korvatulpat ja kuulosuojaimet yhdessä",
+        "d": "Kuulosuojaimet, joissa on kaksi äänenvoimakkuustasoa"
+      },
+      "explain": "Korvatulpat kuulosuojainten alla antavat lisävaraa suojaan."
+    },
+    "health-hearing-q3": {
+      "q": "Mitä FITASC-säännöissä tapahtuu ampujalle, joka tulee ampumapaikalle ilman kuulosuojaimia?",
+      "options": {
+        "a": "Hänet katsotaan poissaolevaksi",
+        "b": "Hän ampuu, mutta saa varoituksen",
+        "c": "Ei mitään: se on hänen valintansa",
+        "d": "Hän menettää yhden kiekon"
+      },
+      "explain": "Kuulosuojaimet ovat pakolliset; ilman niitä ampuja katsotaan poissaolevaksi, eikä hän ammu."
+    }
+  },
+  "did_you_know": "Vaahtomuoviset korvatulpat on tarkoitettu yhteen tai muutamaan käyttökertaan: kuluneet ja likaiset tulpat sulkevat huonommin ja suojaavat vähemmän."
+}

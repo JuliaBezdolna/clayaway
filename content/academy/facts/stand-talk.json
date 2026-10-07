@@ -1,0 +1,49 @@
+{
+  "_note": "Facts of the block “Мова стенду / Stand Talk” (design §6.5: one number in one place). Used in lesson texts as {{fact:stand-talk.<id>}}; each text is a fragment that fits into a sentence in each language. Rule numbers are checked against docs/rules/data (FITASC editions of 01/01/2025); unit conversions against NIST SP 811, Appendix B.8. Rule numbers are not repeated here: since 2026-10-07 the Stand Talk lessons use the shared facts rules.release-within-3s, rules.sonopull-delay, rules.sporting-time-between-targets, rules.compak-time-to-call, rules.squad-max-shooters, rules.sporting-jacket-line, rules.reshow-after-interruption, gear.fitasc-max-gauge, gear.fitasc-min-barrel, gear.fitasc-shot-load and gear.fitasc-shot-diameter (one id per number).",
+  "sporting-reshow-limit": {
+    "text": {
+      "en": "up to two times",
+      "uk": "до двох разів"
+    },
+    "note": "Rule ch16-presentation: on request, no more than two targets are shown again for each target of the menu, so each target of the menu can be repeated up to two times.",
+    "scope": "sporting",
+    "rule_ref": "sporting:ch16-presentation",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ],
+    "checked": "2026-10-07"
+  },
+  "unit-foot": {
+    "text": {
+      "en": "about 30 cm",
+      "uk": "близько 30 см"
+    },
+    "note": "1 ft = 0.3048 m exactly (NIST SP 811, Appendix B.8).",
+    "sources": [
+      "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+    ],
+    "checked": "2026-10-07"
+  },
+  "unit-yard": {
+    "text": {
+      "en": "about 0.9 m",
+      "uk": "близько 0,9 м"
+    },
+    "note": "1 yd = 0.9144 m exactly (NIST SP 811, Appendix B.8).",
+    "sources": [
+      "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+    ],
+    "checked": "2026-10-07"
+  },
+  "unit-ounce": {
+    "text": {
+      "en": "about 28.3 g",
+      "uk": "близько 28,3 г"
+    },
+    "note": "1 oz (avoirdupois) = 28.349 52 g (NIST SP 811, Appendix B.8).",
+    "sources": [
+      "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b8"
+    ],
+    "checked": "2026-10-07"
+  }
+}

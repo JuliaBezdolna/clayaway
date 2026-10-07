@@ -1,0 +1,493 @@
+{
+  "id": "travel-jet-lag",
+  "rev": 2,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "doctor (sports medicine)",
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "travel block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "background",
+    "jet-lag",
+    "lens-tint",
+    "shooting-times",
+    "safety-glasses"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "travel.jet-lag-east-limit",
+    "travel.jet-lag-east-west",
+    "travel.jet-lag-zones"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Managing travel fatigue and jet lag in athletes: a review and consensus statement (Sports Medicine, 2021)"
+      },
+      "url": "https://doi.org/10.1007/s40279-021-01502-0",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Wu Tsai Human Performance Alliance — Beating jet lag: a guide to strategic light exposure"
+      },
+      "url": "https://humanperformancealliance.org/playbook/beating-jet-lag-a-guide-to-strategic-light-exposure/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Sleep and the athlete: narrative review and 2021 expert consensus recommendations (British Journal of Sports Medicine, 2021)"
+      },
+      "url": "https://doi.org/10.1136/bjsports-2020-102025",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Alcohol: impact on sports performance and recovery in male athletes (Sports Medicine, 2014)"
+      },
+      "url": "https://doi.org/10.1007/s40279-014-0192-8",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Effect of caffeine ingestion on competitive rifle shooting performance (PLoS ONE, 2019)"
+      },
+      "url": "https://doi.org/10.1371/journal.pone.0224596",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "ISSF Medical Committee — Is caffeine consumption recommended for shooting sport athletes? (2018)"
+      },
+      "url": "https://www.issf-sports.org/news/3065",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Jet lag and the first days at a new ground",
+    "uk": "Зміна часових поясів і перші дні на новому стенді"
+  },
+  "summary": {
+    "en": "How long jet lag lasts, how light, sleep and a spare day can help, and how to start shooting at a new ground after a long flight.",
+    "uk": "Скільки триває джетлаг, як можуть допомогти світло, сон і запасний день і як почати стрільбу на новому стенді після довгого перельоту."
+  },
+  "body": [
+    {
+      "k": "travel-jet-lag-p1",
+      "t": "p",
+      "en": "{{term:jet-lag|Jet lag}} happens when your body clock is still on home time after a fast trip across {{fact:travel.jet-lag-zones}}. Sleep, appetite, mood and alertness are out of step with local time until the clock catches up.",
+      "uk": "{{term:jet-lag|Джетлаг}} виникає, коли після швидкої подорожі через {{fact:travel.jet-lag-zones}} ваш внутрішній годинник ще живе за домашнім часом. Сон, апетит, настрій і бадьорість не збігаються з місцевим часом, доки годинник не підлаштується."
+    },
+    {
+      "k": "travel-jet-lag-p2",
+      "t": "p",
+      "en": "Tiredness from the journey itself is a different thing. A long trip by car, train or plane brings stiff muscles, short sleep and dry air, even with no time difference. It often eases after rest, while jet lag lasts until the body clock has adjusted.",
+      "uk": "Утома від самої дороги — інша річ. Довга поїздка автомобілем, потягом чи літаком дає затерплі м’язи, короткий сон і сухе повітря навіть без різниці в часі. Вона часто минає після відпочинку, а джетлаг триває, доки внутрішній годинник не підлаштується."
+    },
+    {
+      "k": "travel-jet-lag-p3",
+      "t": "p",
+      "en": "A common rough guide to how long jet lag lasts: {{fact:travel.jet-lag-east-west}}. The more time zones you cross, the stronger the symptoms tend to be. People differ, so treat these numbers as an estimate.",
+      "uk": "Скільки триває джетлаг — поширений орієнтир: {{fact:travel.jet-lag-east-west}}. Що більше часових поясів ви перетинаєте, то сильнішими зазвичай бувають симптоми. Люди різні, тож сприймайте ці цифри як приблизні."
+    },
+    {
+      "k": "travel-planning-trip-dyk",
+      "t": "p",
+      "en": "Many people find flying east harder than flying west. After a flight east you have to fall asleep earlier than your body is used to, and that is harder than going to bed later. Early risers often adapt to flights east more easily, and night owls to flights west.",
+      "uk": "Багатьом людям переліт на схід дається важче, ніж на захід. Після перельоту на схід доводиться засинати раніше, ніж звик організм, а це важче, ніж лягти пізніше. «Жайворонкам» часто легше пристосуватися до перельотів на схід, а «совам» — на захід."
+    },
+    {
+      "k": "travel-jet-lag-p5",
+      "t": "p",
+      "en": "Light is the main signal that sets the body clock. After a flight a few time zones east ({{fact:travel.jet-lag-east-limit}}), get daylight in the morning and keep the evening dim. After flying west, do the opposite: avoid bright morning light and get light in the late afternoon and evening. After a longer flight east, it may work better to move the body clock later instead of earlier, and light at the wrong hours can shift it the wrong way. So before such a trip, you can ask a sports doctor for a plan.",
+      "uk": "Світло — головний сигнал, за яким налаштовується внутрішній годинник. Після перельоту на кілька часових поясів на схід ({{fact:travel.jet-lag-east-limit}}) бувайте на денному світлі вранці, а ввечері приглушуйте світло. Після перельоту на захід — навпаки: уникайте яскравого ранкового світла і бувайте на світлі пізно вдень та ввечері. Після довшого перельоту на схід інколи краще зсувати внутрішній годинник на пізніше, а не на раніше, а світло в невдалі години може зсунути його не в той бік. Тож перед такою поїздкою можна попросити спортивного лікаря скласти план."
+    },
+    {
+      "k": "travel-jet-lag-p6",
+      "t": "p",
+      "en": "Before a flight about two time zones east, you can start adjusting at home. For 2–3 days before you leave, go to bed and get up 30–60 minutes earlier, and go out into bright light soon after waking. Before longer flights east, it is better to ask a sports doctor for a plan.",
+      "uk": "Перед перельотом приблизно на два часові пояси на схід можна почати підлаштовуватися ще вдома. За 2–3 дні до від’їзду лягайте й вставайте на 30–60 хвилин раніше і невдовзі після пробудження виходьте на яскраве світло. Перед довшими перельотами на схід краще попросити план у спортивного лікаря."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-p6",
+      "t": "p",
+      "en": "From the first day, live on local time: eat, sleep and plan the day by it, and spend time in daylight. A short nap early in the day can help; keep it short, so that night sleep does not suffer.",
+      "uk": "З першого дня живіть за місцевим часом: їжте, спіть і плануйте день за ним, більше бувайте на денному світлі. Короткий денний сон у першій половині дня може допомогти; лише не затягуйте його, щоб не постраждав нічний сон."
+    },
+    {
+      "k": "travel-jet-lag-p8",
+      "t": "p",
+      "en": "Protect your sleep: a cool, dark and quiet room, no late heavy dinners, and no alcohol on the evening before a shooting day. More in {{lesson:mind-long-day-energy-sleep}}.",
+      "uk": "Бережіть сон: прохолодна, темна й тиха кімната, без пізньої ситної вечері й без алкоголю ввечері перед днем стрільби. Докладніше — {{lesson:mind-long-day-energy-sleep}}."
+    },
+    {
+      "k": "travel-jet-lag-coffee",
+      "t": "p",
+      "en": "Coffee in the local morning can help you feel more awake, but keep to your usual amount and do not add an extra dose on a shooting day. For shooters, research sees little benefit in caffeine, and large doses can make your hands less steady. Avoid coffee from the late afternoon, so that it does not spoil your sleep.",
+      "uk": "Кава вранці за місцевим часом може додати бадьорості, але пийте її стільки, скільки звикли, і не додавайте ще порції в день стрільби. За дослідженнями, стрільцям кофеїн мало допомагає, а великі дози можуть спричиняти тремтіння рук. З другої половини дня каву краще не пити, щоб не зіпсувати сон."
+    },
+    {
+      "k": "travel-jet-lag-p9",
+      "t": "p",
+      "en": "Some sports doctors use melatonin — a substance the body makes in the evening and at night, also sold as tablets — to help the body clock adjust. As with the other methods in this lesson, research in athletes is limited. Ask a doctor before you try it: the time of day you take it matters, and the rules for selling it differ between countries. Supplements can contain banned substances: see {{lesson:mind-anti-doping}}. If you have a health condition or take medicines, talk to a doctor before a long trip.",
+      "uk": "Деякі спортивні лікарі застосовують мелатонін — речовину, яку організм виробляє ввечері та вночі (її продають і в таблетках), — щоб допомогти внутрішньому годиннику. Як і для інших способів із цього уроку, досліджень на спортсменах поки мало. Перш ніж пробувати, порадьтеся з лікарем: важить, о котрій годині його приймати, а правила продажу в різних країнах різні. Харчові добавки можуть містити заборонені речовини: див. {{lesson:mind-anti-doping}}. Якщо у вас є хвороба або ви приймаєте ліки, перед далекою поїздкою порадьтеся з лікарем."
+    },
+    {
+      "k": "travel-jet-lag-p10",
+      "t": "p",
+      "en": "After a long flight east, plan a spare day before shooting for score. Use it for an easy session, not hard training: sports doctors suggest a light or medium workload on the first day, nothing heavy. This advice comes from other sports; it probably applies to clay shooting too.",
+      "uk": "Після довгого перельоту на схід заплануйте запасний день перед стрільбою на рахунок. Проведіть його в легкому тренуванні, а не у важкому: лікарі спортивної медицини радять у перший день легке або помірне навантаження, без важкого. Ці поради походять з інших видів спорту; імовірно, вони стосуються і стендової стрільби."
+    },
+    {
+      "k": "travel-jet-lag-p11",
+      "t": "p",
+      "en": "A new ground needs getting used to as well. The {{term:background|backgrounds}} (what you see behind the target — sky, trees, a hillside), the light and the target colours differ from your home ground. You can try starting with a few easy targets, just to see how they look against the new background. Where you may practise before a competition depends on the discipline: {{lesson:travel-planning-trip}}.",
+      "uk": "До нового стенду теж треба звикнути. {{term:background|Тло}} (те, що видно за мішенню, — небо, дерева, схил), світло й кольори мішеней тут інші, ніж удома. Можна почати з кількох легких мішеней, щоб просто побачити, як вони виглядають на новому тлі. Де можна тренуватися перед змаганням, залежить від дисципліни: {{lesson:travel-planning-trip}}."
+    },
+    {
+      "k": "travel-jet-lag-tip",
+      "t": "tip",
+      "en": "Check your {{term:lens-tint|lens tint}} — the colour of your shooting-glasses lenses — on each new layout: a tint that works on one stand may not work on the next. More in {{lesson:gear-shooting-glasses}}.",
+      "uk": "Перевіряйте {{term:lens-tint|колір лінз}} стрілецьких окулярів на кожному новому майданчику: відтінок, що підходить на одному стрілецькому місці, може не підійти на наступному. Докладніше — {{lesson:gear-shooting-glasses}}."
+    },
+    {
+      "k": "travel-jet-lag-organisers",
+      "t": "tip",
+      "en": "If you organise a tour, put a spare day into the programme after long flights east, before any shooting for score. Make the first session easy, give the timetable in the venue's time zone with the zone labelled, and avoid late dinners or alcohol events before shooting days.",
+      "uk": "Якщо ви організовуєте тур, після довгих перельотів на схід закладіть у програму запасний день перед стрільбою на рахунок. Перше тренування зробіть легким, розклад давайте за часовим поясом місця проведення з підписом поясу і не плануйте пізніх вечер чи вечірок з алкоголем перед днями стрільби."
+    }
+  ],
+  "note": [
+    {
+      "k": "travel-jet-lag-n1",
+      "for": "coach",
+      "en": "A useful habit on a tour: on the first day, run a short lens and background check, and let the group note which tint worked on which stand.",
+      "uk": "Корисна звичка в турі: у перший день проведіть коротку перевірку лінз і тла, а група хай записує, який відтінок підійшов на якому стрілецькому місці."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "travel-jet-lag-kp1",
+      "en": "How long it lasts, roughly: {{fact:travel.jet-lag-east-west}}.",
+      "uk": "Скільки триває, орієнтовно: {{fact:travel.jet-lag-east-west}}."
+    },
+    {
+      "k": "travel-jet-lag-kp2",
+      "en": "After a flight a few time zones east ({{fact:travel.jet-lag-east-limit}}): daylight in the morning, dim evenings; after flying west, the opposite.",
+      "uk": "Після перельоту на кілька поясів на схід ({{fact:travel.jet-lag-east-limit}}) — денне світло вранці й приглушене ввечері; після перельоту на захід — навпаки."
+    },
+    {
+      "k": "mind-long-day-energy-sleep-kp4",
+      "en": "After the journey: local time from the first day, water and an easy first session.",
+      "uk": "Після дороги — місцевий час із першого дня, вода й легке перше тренування."
+    },
+    {
+      "k": "travel-jet-lag-kp4",
+      "en": "Plan a spare day before shooting for score after a long flight east.",
+      "uk": "Після довгого перельоту на схід заплануйте запасний день перед стрільбою на рахунок."
+    },
+    {
+      "k": "travel-jet-lag-kp5",
+      "en": "On a new ground, you can start with a few easy targets; check your lens tint.",
+      "uk": "На новому стенді можна почати з кількох легких мішеней; перевірте колір лінз."
+    }
+  ],
+  "did_you_know": {
+    "k": "travel-jet-lag-dyk",
+    "en": "Your phone usually switches to local time by itself, but a watch or the clock in your own car may not. Check them after landing, because shooting times are given in local time.",
+    "uk": "Телефон зазвичай сам переходить на місцевий час, а наручний годинник чи годинник у вашому власному авто — не завжди. Перевірте їх після прильоту, адже розклад стрільби оголошують за місцевим часом."
+  },
+  "quiz": [
+    {
+      "k": "travel-jet-lag-q1",
+      "q": {
+        "en": "After a flight a few time zones east ({{fact:travel.jet-lag-east-limit}}), which light pattern helps the body clock adjust?",
+        "uk": "Яке світло допомагає внутрішньому годиннику після перельоту на кілька часових поясів на схід ({{fact:travel.jet-lag-east-limit}})?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Bright light in the evening and dark mornings",
+          "uk": "Яскраве світло ввечері й темні ранки"
+        },
+        {
+          "k": "b",
+          "en": "Daylight in the morning and a dim evening",
+          "uk": "Денне світло вранці й приглушене ввечері"
+        },
+        {
+          "k": "c",
+          "en": "A dark room for the whole first day",
+          "uk": "Темна кімната протягом усього першого дня"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "After such a flight the body clock has to move earlier, and morning light helps it do that. For very long flights east, a doctor may suggest a different plan.",
+        "uk": "Після такого перельоту внутрішній годинник має перейти на раніший час, і ранкове світло в цьому допомагає. Для дуже далеких перельотів на схід лікар може запропонувати інший план."
+      }
+    },
+    {
+      "k": "travel-jet-lag-q2",
+      "q": {
+        "en": "What is a common rough guide for jet lag after flying east?",
+        "uk": "Який поширений орієнтир для джетлагу після перельоту на схід?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "About one hour in total, whatever the distance",
+          "uk": "Приблизно година загалом, хоч би яка була відстань"
+        },
+        {
+          "k": "b",
+          "en": "About one week, whatever the distance",
+          "uk": "Приблизно тиждень, хоч би яка була відстань"
+        },
+        {
+          "k": "c",
+          "en": "About one day per time zone crossed",
+          "uk": "Приблизно день на кожен перетнутий часовий пояс"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A common rough guide: jet lag lasts about a day per time zone after flying east and about half a day per time zone after flying west.",
+        "uk": "Поширений орієнтир: джетлаг триває приблизно день на кожен пояс після перельоту на схід і приблизно пів дня на пояс після перельоту на захід."
+      }
+    },
+    {
+      "k": "travel-jet-lag-q3",
+      "q": {
+        "en": "What is a sensible first session at a new ground?",
+        "uk": "Яким розумно зробити перше тренування на новому стенді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A few easy targets to see the new background",
+          "uk": "Кілька легких мішеней, щоб побачити нове тло"
+        },
+        {
+          "k": "b",
+          "en": "A full competition round, to test yourself",
+          "uk": "Повний змагальний раунд, щоб себе перевірити"
+        },
+        {
+          "k": "c",
+          "en": "No shooting at all until the jet lag has gone",
+          "uk": "Не стріляти зовсім, доки не мине джетлаг"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Easy targets first let you see how targets look against the new background and light.",
+        "uk": "Легкі мішені на початку дають змогу побачити, як мішені виглядають на новому тлі й при новому світлі."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-long-day-energy-sleep-q2",
+      "q": {
+        "en": "After a flight a few time zones west, what helps the body clock adjust?",
+        "uk": "Що допомагає внутрішньому годиннику після перельоту на кілька часових поясів на захід?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Local time from day one, light in the evening",
+          "uk": "Місцевий час із першого дня й світло ввечері"
+        },
+        {
+          "k": "b",
+          "en": "Bright light early in the morning, dim evenings",
+          "uk": "Яскраве світло рано вранці й приглушені вечори"
+        },
+        {
+          "k": "c",
+          "en": "Long daytime naps and coffee late in the evening",
+          "uk": "Довгий денний сон і кава пізно ввечері"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "After flying west the body clock has to move later: live on local time from the first day, get light in the late afternoon and evening, and avoid bright morning light. After flying east it is the other way round.",
+        "uk": "Після перельоту на захід внутрішній годинник має перейти на пізніший час: живіть за місцевим часом із першого дня, бувайте на світлі пізно вдень і ввечері та уникайте яскравого ранкового світла. Після перельоту на схід — навпаки."
+      },
+      "from": "mind-long-day-energy-sleep"
+    }
+  ],
+  "evidence": [
+    {
+      "for": "travel-jet-lag-p1",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-p2",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-p3",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0",
+        "https://humanperformancealliance.org/playbook/beating-jet-lag-a-guide-to-strategic-light-exposure/"
+      ]
+    },
+    {
+      "for": "travel-planning-trip-dyk",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-p5",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0",
+        "https://humanperformancealliance.org/playbook/beating-jet-lag-a-guide-to-strategic-light-exposure/"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-p6",
+      "level": "little",
+      "sources": [
+        "https://humanperformancealliance.org/playbook/beating-jet-lag-a-guide-to-strategic-light-exposure/"
+      ]
+    },
+    {
+      "for": "mind-long-day-energy-sleep-p6",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0",
+        "https://doi.org/10.1136/bjsports-2020-102025"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-p8",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1136/bjsports-2020-102025",
+        "https://doi.org/10.1007/s40279-014-0192-8"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-coffee",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0",
+        "https://doi.org/10.1371/journal.pone.0224596",
+        "https://www.issf-sports.org/news/3065"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-p9",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-p10",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0"
+      ]
+    },
+    {
+      "for": "travel-jet-lag-tip",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "travel-jet-lag-organisers",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1007/s40279-021-01502-0"
+      ]
+    }
+  ],
+  "h_uk": {
+    "title": "091a3e5a",
+    "summary": "806e36d8",
+    "travel-jet-lag-p1": "96768561",
+    "travel-jet-lag-p2": "49da9c16",
+    "travel-jet-lag-p3": "92e7774a",
+    "travel-planning-trip-dyk": "1b7f0096",
+    "travel-jet-lag-p5": "6e47cc61",
+    "travel-jet-lag-p6": "8544513b",
+    "mind-long-day-energy-sleep-p6": "1605ace6",
+    "travel-jet-lag-p8": "8cdb5b00",
+    "travel-jet-lag-coffee": "bc5c3005",
+    "travel-jet-lag-p9": "bbf4b472",
+    "travel-jet-lag-p10": "c094f6fd",
+    "travel-jet-lag-p11": "3319d667",
+    "travel-jet-lag-tip": "3e020859",
+    "travel-jet-lag-organisers": "78893f7f",
+    "travel-jet-lag-n1": "4aa381da",
+    "travel-jet-lag-kp1": "f40aa32a",
+    "travel-jet-lag-kp2": "491adc3c",
+    "mind-long-day-energy-sleep-kp4": "44f7877a",
+    "travel-jet-lag-kp4": "cbe266a9",
+    "travel-jet-lag-kp5": "585e6622",
+    "travel-jet-lag-dyk": "7f850ed0",
+    "travel-jet-lag-q1": "119844f3",
+    "travel-jet-lag-q2": "6bdeca91",
+    "travel-jet-lag-q3": "37352b34",
+    "mind-long-day-energy-sleep-q2": "fb995686"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the doctor (sports medicine) named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
+      "Specialist check of the evidence badges: interventions (light timing p5, shifting sleep before the flight p6, naps, coffee, melatonin p9, easy first days p10, organiser tip) are all \"little\", because the consensus statement (doi 10.1007/s40279-021-01502-0) calls the evidence for jet-lag interventions low quality; descriptions (p1-p3, east harder than west) are \"some\". Confirm or change these levels as one set, not one by one.",
+      "Glossary: the term travel-fatigue is not in the glossary yet (it was not among the ids added on 2026-10-07). When it is added to docs/glossary/data/learn_terms.js (+ i18n), add it to terms and link \"Tiredness from the journey itself\" / «Утома від самої дороги» in travel-jet-lag-p2. Proposed entry: en \"Travel fatigue\" — Tiredness from the journey itself: stiff muscles, lack of sleep, dry air; unlike jet lag, it is not about time zones. uk «Утома від дороги» — Утома від дороги: затерплі м’язи, недосипання, сухе повітря; на відміну від jet lag, не пов’язана з часовими поясами."
+    ]
+  }
+}

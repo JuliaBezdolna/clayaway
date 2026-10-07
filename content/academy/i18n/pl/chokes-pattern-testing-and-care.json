@@ -1,0 +1,98 @@
+{
+  "id": "chokes-pattern-testing-and-care",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "e8a9ef43",
+    "summary": "457efd60",
+    "chokes-pattern-testing-and-care-p1": "b61918b4",
+    "chokes-pattern-testing-and-care-p2": "b17fe320",
+    "chokes-pattern-testing-and-care-p3": "bef2177f",
+    "chokes-pattern-testing-and-care-p4": "20c97038",
+    "chokes-pattern-testing-and-care-p5": "8e1dfb17",
+    "chokes-pattern-testing-and-care-p6": "77e552fb",
+    "chokes-pattern-testing-and-care-p7": "de997f66",
+    "chokes-pattern-testing-and-care-kp1": "1299ab0c",
+    "chokes-pattern-testing-and-care-kp2": "f2cb603c",
+    "chokes-pattern-testing-and-care-kp3": "c1da7fc6",
+    "chokes-pattern-testing-and-care-kp4": "9c490994",
+    "chokes-pattern-testing-and-care-kp5": "3a56bafc",
+    "chokes-pattern-testing-and-care-dyk": "dfbbac7a",
+    "chokes-pattern-testing-and-care-q1": "3e05c144",
+    "chokes-pattern-testing-and-care-q2": "3b814f97",
+    "chokes-pattern-testing-and-care-q3": "c4b54f8b",
+    "chokes-pattern-testing-and-care-q4": "47bdd55d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Sprawdzanie rozrzutu i pielęgnacja czoków",
+  "summary": "Jak sprawdzić rozrzut na tarczy, jak czyścić i smarować czoki oraz czemu strzelcy {{tm:sporting}} i {{tm:compak}} nie strzelają z broni z czokami wymiennymi bez czoka.",
+  "body": {
+    "chokes-pattern-testing-and-care-p1": "By zobaczyć, co twój czok naprawdę robi, strzela się do {{term:pattern-plate|tarczy do sprawdzania rozrzutu}}: dużej stalowej płyty, pomalowanej albo nasmarowanej, tak by śruciny zostawiały ślady. Dobrze sprawdza się też duży arkusz papieru, około 1 × 1 m. Robi się to tylko na strzelnicy, która ma taką tarczę, i za zgodą obsługi.",
+    "chokes-pattern-testing-and-care-p2": "By sprawdzić {{term:gun-fit|dopasowanie strzelby}}, strzela się z bliskiej odległości, {{fact:gear.fit-plate-distance}}: tam liczy się, gdzie jest środek rozrzutu. By ocenić sam czok, odległość jest większa — klasycznie 35 m albo 40 jardów (około 36,6 m). Na papierze rysuje się okrąg o średnicy 75–76 cm wokół najgęstszej części i liczy otwory po śrucinach w jego wnętrzu. Potem porównuje się tę liczbę z liczbą śrucin w naboju (orientacyjnie 350–400 dla 28 g nr 7½; zob. {{lesson:cartridges-shot-size}}).",
+    "chokes-pattern-testing-and-care-p3": "Orientacyjnie na tej odległości {{term:cylinder|cylinder}} kładzie w okręgu około 40% śrutu, improved cylinder około 50%, modified około 60%, improved modified około 65%, a full 70% i więcej. Te liczby zależą od naboju, więc twoja para broń + nabój może dać inny wynik.",
+    "chokes-pattern-testing-and-care-p4": "Jeden strzał mało udowadnia: rozrzuty zauważalnie różnią się nawet z identycznymi nabojami. Oddaj co najmniej 3–5 strzałów na każdą kombinację. Patrz też na równomierność: dobry rozrzut jest równy, bez dużych dziur i bez gęstej plamy w środku.",
+    "chokes-pattern-testing-and-care-p5": [
+      "Po strzelaniu wykręć czoki {{term:choke-key|kluczem do czoków}}.",
+      "Wyczyść je wewnątrz i zewnątrz płynem do czyszczenia i szczotką, i przetrzyj gwint w wylocie lufy.",
+      "Zanim je wkręcisz z powrotem, nałóż na gwint cienką warstwę {{term:choke-grease|smaru do czoków}}: chroni on przed rdzą i nie dopuszcza, by czok się zapiekł."
+    ],
+    "chokes-pattern-testing-and-care-p6": "Przed każdymi zajęciami sprawdzaj, czy czoki są dokręcone: strzelanie może je z czasem poluzować. Dokręcaj je kluczem do oporu, ale bez nadmiernej siły.",
+    "chokes-pattern-testing-and-care-p7": "Nigdy nie strzelaj z broni z {{term:multichoke|czokami wymiennymi}} bez czoka albo z czokiem wkręconym tylko do połowy. Śrut i {{term:wad|przybitka}} mogą uszkodzić gwint w wylocie lufy, a naprawa jest kosztowna. Przechowuj zapasowe czoki w osobnym pudełku, by ich nie zgubić."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-pattern-testing-and-care-kp1": "Rozrzut sprawdza się na tarczy: dopasowanie z {{fact:gear.fit-plate-distance}}, czoki z 35 m albo 40 jardów.",
+    "chokes-pattern-testing-and-care-kp2": "Licz udział śrutu w okręgu 75–76 cm; oddaj 3–5 strzałów.",
+    "chokes-pattern-testing-and-care-kp3": "Czyść czoki po strzelaniu i smaruj gwinty smarem do czoków.",
+    "chokes-pattern-testing-and-care-kp4": "Przed każdymi zajęciami sprawdzaj, czy czoki są dokręcone.",
+    "chokes-pattern-testing-and-care-kp5": "Unikaj strzelania z broni z czokami wymiennymi bez czoka."
+  },
+  "did_you_know": "Po każdym strzale tarczę do sprawdzania rozrzutu maluje się albo smaruje ponownie, wałkiem albo szczotką, by nowe ślady nie zmieszały się z poprzednimi.",
+  "quiz": {
+    "chokes-pattern-testing-and-care-q1": {
+      "q": "Czemu nie wolno strzelać z broni z czokami wymiennymi bez czoka?",
+      "options": {
+        "a": "Jest to zakazane tylko na zawodach",
+        "b": "Śrut i przybitka mogą uszkodzić gwint w wylocie lufy",
+        "c": "Broń wtedy wcale nie wystrzeli",
+        "d": "Rozrzut staje się dużo za wąski"
+      },
+      "explain": "Bez czoka gwint jest odkryty, i śrut z przybitką mogą go uszkodzić."
+    },
+    "chokes-pattern-testing-and-care-q2": {
+      "q": "Na jakiej klasycznej odległości ocenia się rozrzut czoka?",
+      "options": {
+        "a": "5 m (około 5½ jarda)",
+        "b": "15 m (około 16 jardów)",
+        "c": "35 m albo 40 jardów (około 37 m)",
+        "d": "80 m (około 87 jardów)"
+      },
+      "explain": "Udział śrutu w okręgu 75–76 cm klasycznie liczy się na 35 m albo 40 jardach."
+    },
+    "chokes-pattern-testing-and-care-q3": {
+      "q": "Ile strzałów warto oddać, by ocenić rozrzut?",
+      "options": {
+        "a": "Co najmniej 3–5 na każdą parę",
+        "b": "Jeden strzał w tym wystarczy",
+        "c": "Dokładnie dwa, jeden na lufę",
+        "d": "Sto, tego samego dnia"
+      },
+      "explain": "Rozrzuty różnią się od strzału do strzału, więc dla każdej pary broń + czok + nabój potrzebna jest seria."
+    },
+    "chokes-pattern-testing-and-care-q4": {
+      "q": "Do czego służy smar do czoków?",
+      "options": {
+        "a": "By rozrzut był trochę węższy",
+        "b": "By wyczyścić przewód lufy po strzelaniu",
+        "c": "By nie było rdzy i czok się nie zapiekł",
+        "d": "By złagodzić odrzut broni"
+      },
+      "explain": "Cienka warstwa na gwincie chroni go przed rdzą i pozwala potem wykręcić czok."
+    }
+  }
+}

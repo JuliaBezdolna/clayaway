@@ -1,0 +1,436 @@
+{
+  "id": "technique-master-eye",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "technique-master-eye"
+    ],
+    "interpreter": [
+      "basics-eyes"
+    ]
+  },
+  "terms": [
+    "master-eye",
+    "eye-dominance",
+    "cross-dominance",
+    "central-vision",
+    "rib",
+    "gun-mount",
+    "safety-glasses",
+    "soft-focus",
+    "hard-focus",
+    "leading-edge",
+    "pick-up-point"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    }
+  ],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Master eye and cross-dominance",
+    "uk": "Провідне око і перехресна домінантність"
+  },
+  "summary": {
+    "en": "Which eye leads when you shoot, how to check it in a minute, and what to do if your master eye is on the other side from your gun shoulder.",
+    "uk": "Яке око «веде» під час пострілу, як перевірити це за хвилину і що робити, якщо провідне око з іншого боку, ніж плече, до якого ви вкладаєте рушницю."
+  },
+  "body": [
+    {
+      "k": "basics-eyes-p1",
+      "t": "p",
+      "core": true,
+      "en": "Most people have a {{term:master-eye|dominant (master) eye}} that the brain trusts more, usually on the same side as the dominant hand. The dominant eye should be the one looking along the {{term:rib|rib}}, the flat strip on top of the barrels. With {{term:cross-dominance|cross-dominance}} the dominant eye is on the other side from the shooting shoulder; with {{term:central-vision|central vision}} neither eye clearly dominates. In both cases the gun points somewhere other than where you feel you are looking, often off to one side, so you miss without knowing why.",
+      "uk": "Більшість людей має {{term:master-eye|провідне (домінантне) око}} (master eye), якому мозок довіряє більше; зазвичай воно з того самого боку, що й провідна рука. Уздовж {{term:rib|планки}} — смужки зверху на стволах — має дивитися саме провідне око. За {{term:cross-dominance|перехресної домінантності}} (cross-dominance) провідне око з протилежного боку від плеча, з якого стріляють; за {{term:central-vision|центрального зору}} (central vision) жодне око чітко не домінує. В обох випадках рушниця дивиться не туди, куди, як вам здається, дивитеся ви, часто вбік, і ви промахуєтеся, не розуміючи чому.",
+      "anchor": "basics-eyes"
+    },
+    {
+      "k": "basics-eyes-p2",
+      "t": "p",
+      "core": true,
+      "en": "A simple test: with both eyes open, frame a distant object in a small triangle made with the hands. Then close each eye in turn: the eye that keeps the object in the triangle is dominant. A coach may also stand in front of the shooter and look through the triangle.",
+      "uk": "Простий тест: дивлячись обома очима, «візьміть» далекий предмет у невеликий трикутник із долонь. Потім по черзі заплющте кожне око: око, яким предмет лишається в трикутнику, і є провідним. Тренер також може стати навпроти й подивитися крізь трикутник."
+    },
+    {
+      "k": "basics-eyes-p3",
+      "t": "p",
+      "core": true,
+      "en": "If eye and shoulder match, you can usually shoot with both eyes open. If not, the coach chooses a remedy. You can close or squint the other eye as the gun mounts, or put a small dot on the safety glasses. You can also learn to shoot from the other shoulder or, more rarely, use a cross-over stock, bent sideways so the other eye looks along the rib. The choice depends on age, experience and how strong the dominance is. Where possible, many coaches prefer both eyes open, because two eyes judge speed, angle and distance better.",
+      "uk": "Якщо око і плече збігаються, зазвичай можна стріляти з обома відкритими очима. Якщо ні, спосіб корекції обирає тренер. Можна заплющувати або примружувати інше око під час вкладки чи наклеїти маленьку точку на захисні окуляри. Можна також навчитися стріляти з іншого плеча або, рідше, узяти рушницю з вигнутим прикладом (cross-over stock): його зміщено вбік так, щоб уздовж планки дивилося інше око. Вибір залежить від віку, досвіду і того, наскільки сильна домінантність. Де можливо, багато тренерів радять стріляти з обома відкритими очима: двома очима швидкість, кут і відстань оцінюються краще."
+    },
+    {
+      "k": "basics-eyes-p5",
+      "t": "p",
+      "core": true,
+      "en": "Safety glasses are compulsory for shooters in both disciplines, so the dot goes on them.",
+      "uk": "Захисні окуляри обов’язкові для стрільців в обох дисциплінах, тож точку клеять саме на них.",
+      "disc": "both"
+    },
+    {
+      "k": "technique-master-eye-age",
+      "t": "p",
+      "en": "Coaches often notice that a shooter’s eye dominance changes over the years, and some shooters feel a difference when they are tired. If you suddenly start missing to the same side again and again, recheck your master eye with your coach.",
+      "uk": "Тренери нерідко помічають, що з роками домінантність ока в стрільця змінюється, а дехто відчуває різницю, коли втомлений. Якщо ви раптом почали раз у раз промахуватися в той самий бік, перевірте провідне око ще раз разом із тренером."
+    },
+    {
+      "k": "technique-master-eye-focus",
+      "t": "p",
+      "en": "Where to look during the shot, a {{term:soft-focus|soft focus}} at the pick-up point and then a {{term:hard-focus|hard focus}} on the target, is explained in {{lesson:mind-concentration-focus}}.",
+      "uk": "Куди дивитися під час пострілу — {{term:soft-focus|м’який фокус}} у точці підхоплення, потім {{term:hard-focus|жорсткий фокус}} на мішені, — пояснює урок {{lesson:mind-concentration-focus}}."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "basics-eyes-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Close your left eye as the gun comes up.",
+      "meaning": {
+        "en": "Shut the left eye during the mount, not before, so the right eye controls the gun.",
+        "uk": "Заплющте ліве око під час вкладки, а не раніше, щоб рушницею керувало праве."
+      },
+      "say": {
+        "uk": "Заплющуйте ліве око, коли рушниця йде вгору."
+      }
+    },
+    {
+      "k": "basics-eyes-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Eyes on the clay, not the barrel.",
+      "meaning": {
+        "en": "Keep looking at the target; checking the barrel usually slows or stops the gun.",
+        "uk": "Дивіться на мішень; погляд на стволи зазвичай сповільнює чи зупиняє рушницю."
+      },
+      "say": {
+        "uk": "Очі на мішень, а не на стволи."
+      }
+    },
+    {
+      "k": "basics-eyes-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Look at the leading edge.",
+      "meaning": {
+        "en": "Focus on the front edge of the moving target, not its middle.",
+        "uk": "Фокусуйтеся на передньому краї мішені, а не на її середині."
+      },
+      "say": {
+        "uk": "Дивіться на передній край."
+      }
+    },
+    {
+      "k": "basics-eyes-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Don't look at the trap — look out to your pick-up point.",
+      "meaning": {
+        "en": "Wait with the eyes a little out along the line, where the target is first seen clearly.",
+        "uk": "Чекайте поглядом трохи далі на лінії, там, де мішень уперше видно чітко."
+      },
+      "say": {
+        "uk": "Не дивіться на машинку — дивіться у свою точку підхоплення."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "basics-eyes-kp1",
+      "core": true,
+      "en": "The dominant eye must look along the rib.",
+      "uk": "Уздовж планки має дивитися провідне око."
+    },
+    {
+      "k": "basics-eyes-kp2",
+      "core": true,
+      "en": "Cross-dominance and central vision make the gun point off target.",
+      "uk": "Через перехресну домінантність і центральний зір рушниця «показує» повз мішень."
+    },
+    {
+      "k": "basics-eyes-kp3",
+      "core": true,
+      "en": "Test with a hand triangle; the coach chooses the remedy.",
+      "uk": "Тест — трикутник із долонь; спосіб корекції обирає тренер."
+    },
+    {
+      "k": "basics-eyes-kp5",
+      "core": true,
+      "en": "Safety glasses are compulsory in both disciplines.",
+      "uk": "Захисні окуляри обов’язкові в обох дисциплінах."
+    },
+    {
+      "k": "technique-master-eye-kp5",
+      "en": "Dominance can change; repeat the test.",
+      "uk": "Домінантність може змінюватися; тест варто повторювати."
+    }
+  ],
+  "did_you_know": {
+    "k": "technique-master-eye-dyk",
+    "en": "The hand-triangle test works because, with both eyes open, the brain takes the aiming picture mostly from one eye. Close that eye and the object jumps out of the triangle.",
+    "uk": "Тест із трикутником працює тому, що за двох відкритих очей мозок бере «прицільну» картинку переважно з одного ока. Заплющте це око — і предмет «вистрибне» з трикутника."
+  },
+  "quiz": [
+    {
+      "k": "basics-eyes-q1",
+      "q": {
+        "en": "A right-handed shooter has a left dominant eye. What is this called?",
+        "uk": "Праворукий стрілець має провідне ліве око. Як це називається?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Central vision",
+          "uk": "Центральний зір"
+        },
+        {
+          "k": "b",
+          "en": "Hard focus",
+          "uk": "Жорсткий фокус"
+        },
+        {
+          "k": "c",
+          "en": "Cross-dominance",
+          "uk": "Перехресна домінантність"
+        },
+        {
+          "k": "d",
+          "en": "Leading edge",
+          "uk": "Передній край"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Cross-dominance is a dominant eye on the opposite side to the shooting shoulder.",
+        "uk": "Перехресна домінантність — провідне око з протилежного боку від плеча, з якого стріляють."
+      }
+    },
+    {
+      "k": "basics-eyes-q2",
+      "q": {
+        "en": "Why is looking back at the bead to check the lead a fault?",
+        "uk": "Чому погляд на мушку, щоб перевірити винос, — помилка?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It is forbidden by the rules of both disciplines",
+          "uk": "Це заборонено правилами обох дисциплін"
+        },
+        {
+          "k": "b",
+          "en": "It usually slows or stops the gun, so the shot goes behind",
+          "uk": "Рушниця зазвичай сповільнюється чи зупиняється, і дріб іде позаду"
+        },
+        {
+          "k": "c",
+          "en": "The bead reflects the sun into the eye",
+          "uk": "Мушка відбиває сонце просто в око"
+        },
+        {
+          "k": "d",
+          "en": "It makes the target change colour in flight",
+          "uk": "Мішень через це змінює колір у польоті"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "When you look at the gun instead of the target, the swing tends to slow or stop. The target slips to the edge of your vision, and the shot goes behind.",
+        "uk": "Коли ви дивитеся на рушницю, а не на мішень, проводка зазвичай сповільнюється чи зупиняється. Мішень лишається лише краєм ока, і дріб іде позаду."
+      }
+    },
+    {
+      "k": "basics-eyes-q3",
+      "q": {
+        "en": "Where does the anti-dominance dot usually go?",
+        "uk": "Куди зазвичай клеять точку проти домінантності?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the safety glasses, in front of one eye",
+          "uk": "На захисні окуляри, перед оком, яке треба «вимкнути»"
+        },
+        {
+          "k": "b",
+          "en": "On the bead at the end of the rib",
+          "uk": "На мушку на кінці планки"
+        },
+        {
+          "k": "c",
+          "en": "On the rib, halfway along it",
+          "uk": "На планку, посередині"
+        },
+        {
+          "k": "d",
+          "en": "On the vest line, below the shoulder",
+          "uk": "На лінію на жилеті, під плечем"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Safety glasses are compulsory anyway, so a small dot on the lens in front of the non-dominant eye is the simplest remedy.",
+        "uk": "Захисні окуляри й так обов’язкові, тож маленька точка на склі перед непровідним оком — найпростіший спосіб."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "technique-master-eye-q1",
+      "q": {
+        "en": "What does the hand-triangle test show?",
+        "uk": "Що показує тест із трикутником із долонь?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Which eye is dominant",
+          "uk": "Яке око провідне"
+        },
+        {
+          "k": "b",
+          "en": "Whether the gun fits",
+          "uk": "Чи підходить рушниця"
+        },
+        {
+          "k": "c",
+          "en": "How far the target flies",
+          "uk": "Як далеко летить мішень"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The eye that keeps the object in the triangle is the master eye.",
+        "uk": "Око, яким предмет лишається в трикутнику, — провідне."
+      }
+    },
+    {
+      "k": "technique-master-eye-q2",
+      "q": {
+        "en": "A right-handed shooter has a left master eye. What is it called?",
+        "uk": "Праворукий стрілець має провідне ліве око. Як це називають?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Cross-dominance",
+          "uk": "Перехресна домінантність"
+        },
+        {
+          "k": "b",
+          "en": "A flinch",
+          "uk": "Смикання (flinch)"
+        },
+        {
+          "k": "c",
+          "en": "Follow-through",
+          "uk": "Продовження руху (follow-through)"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A master eye on the other side from the stock is cross-dominance.",
+        "uk": "Провідне око з протилежного від приклада боку — це перехресна домінантність (cross-dominance)."
+      }
+    },
+    {
+      "k": "technique-master-eye-q3",
+      "q": {
+        "en": "Who should help you decide how to shoot with cross-dominance?",
+        "uk": "Хто має допомогти вам вирішити, як стріляти при перехресній домінантності?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Another squad member during a competition",
+          "uk": "Інший учасник групи під час змагань"
+        },
+        {
+          "k": "b",
+          "en": "A qualified coach",
+          "uk": "Кваліфікований тренер"
+        },
+        {
+          "k": "c",
+          "en": "The referee on the stand",
+          "uk": "Суддя на стрілецькому місці"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A coach will take into account your age, experience and how strong the dominance is. Besides, coaching during a competition is not allowed.",
+        "uk": "Тренер урахує ваш вік, досвід і силу домінантності. До того ж підказувати стрільцеві під час змагань заборонено."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "5a202c9d",
+    "summary": "b9aa7544",
+    "basics-eyes-p1": "6bbbb5a5",
+    "basics-eyes-p2": "9a89ff20",
+    "basics-eyes-p3": "b69b8da8",
+    "basics-eyes-p5": "bb42dd9f",
+    "technique-master-eye-age": "6b79c71a",
+    "technique-master-eye-focus": "8574fbc8",
+    "basics-eyes-kp1": "fa375444",
+    "basics-eyes-kp2": "6c6da24d",
+    "basics-eyes-kp3": "655af970",
+    "basics-eyes-kp5": "2a360689",
+    "technique-master-eye-kp5": "a5125500",
+    "technique-master-eye-dyk": "966fca8e",
+    "basics-eyes-ph1": "c45fe863",
+    "basics-eyes-ph2": "0c224c95",
+    "basics-eyes-ph3": "5be51db3",
+    "basics-eyes-ph4": "6f17081c",
+    "basics-eyes-q1": "d850d634",
+    "basics-eyes-q2": "42b13f11",
+    "basics-eyes-q3": "660915ca",
+    "technique-master-eye-q1": "0d45fe76",
+    "technique-master-eye-q2": "d3342627",
+    "technique-master-eye-q3": "5bfa0c92"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Moved out to mind-concentration-focus (design §3.2, basics-eyes → soft and hard focus): body basics-eyes-p4 and the animation basics-eyes-sim {type: flight, preset: going-away, focus: eyes}. Their English and Ukrainian are in the frozen old source (lesson basics-eyes in docs/interpreter/src/missions/basics.json); the 9 translations stay in i18n/<lang>/technique-master-eye.json under key basics-eyes-p4 until they are moved. Phrases basics-eyes-ph2…ph4 and quiz basics-eyes-q2 stay in this lesson.",
+      "Overlays i18n/<lang>/technique-master-eye.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): basics-eyes-p2, basics-eyes-q3; translate again (meaning or audit fix changed): basics-eyes-p3; move basics-eyes-p4 to i18n/<lang>/mind-concentration-focus.json; no longer used (delete from the overlays): basics-eyes-kp4, basics-eyes-title.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-master-eye.json (9 languages): translate again (meaning or wording changed for readers): basics-eyes-p1, technique-master-eye-age, basics-eyes-ph2, basics-eyes-q2.",
+      "Glossary (learn_terms.js, not a lesson file): master-eye and cross-dominance short_uk/long_uk say «головне око»; the lessons and the glossary term_local (i18n/uk.js) use «провідне око»: use «провідне око» everywhere."
+    ]
+  }
+}

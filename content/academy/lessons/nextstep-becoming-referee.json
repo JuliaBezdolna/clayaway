@@ -1,0 +1,287 @@
+{
+  "id": "nextstep-becoming-referee",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "organiser",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "nextstep-becoming-referee"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "referee",
+    "national-federation",
+    "jury",
+    "chief-referee",
+    "fitasc",
+    "club-shoot",
+    "sporting",
+    "compak-sporting"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch5-referee-certificate"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-referee-oath"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-qualification"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-pledge"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-referee-alone"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How to become a referee",
+    "uk": "Як стати суддею"
+  },
+  "summary": {
+    "en": "You become a referee through a course and an exam at your national federation. International events ask for more: experience and, for the chief referee, a FITASC qualification.",
+    "uk": "Суддею стають через курс та іспит у національній федерації. Міжнародні змагання вимагають більшого: досвіду, а від головного судді — кваліфікації FITASC."
+  },
+  "body": [
+    {
+      "k": "nextstep-becoming-referee-p1",
+      "t": "p",
+      "en": "The {{term:referee|referee}} is central to any competition. The referee looks after safety and order on the stand and decides, on their own, whether a target was hit. Without referees there is no event, so clubs and federations welcome new people.",
+      "uk": "{{term:referee|Суддя}} — ключова людина будь-якого змагання. Він стежить за безпекою й порядком на стрілецькому місці та сам вирішує, чи влучено мішень. Без суддів не буде змагань, тож клуби й федерації раді новим людям."
+    },
+    {
+      "k": "nextstep-becoming-referee-p2",
+      "t": "p",
+      "en": "The first step is your country's {{term:national-federation|national federation}}. It usually runs referee courses: rules theory, practice on the stand and an exam. After the exam you get a referee certificate or card. The procedure, length and requirements differ by country, so ask your federation or club first.",
+      "uk": "Перший крок — {{term:national-federation|національна федерація}} вашої країни. Саме вона зазвичай проводить курси суддів: теорія правил, практика на стенді й іспит. Після іспиту ви отримуєте суддівський сертифікат або картку. Порядок, тривалість і вимоги в кожній країні свої, тож спершу запитайте у своїй федерації чи клубі."
+    },
+    {
+      "k": "nextstep-becoming-referee-cmp",
+      "t": "compare",
+      "disc": "both",
+      "en": "What the FITASC rules ask of a referee",
+      "uk": "Чого правила FITASC вимагають від судді",
+      "sporting": {
+        "rule_ref": "sporting:ch5-referee-certificate",
+        "en": "Each referee holds a valid certificate from their national federation. Without it, a person may only be an assistant referee, and only if the {{term:jury|jury}} agrees in advance. The jury is the small group of officials who oversee the competition and settle disputes. The {{term:chief-referee|chief referee}} of an international event needs an international certificate issued by FITASC.",
+        "uk": "Кожен суддя має чинний сертифікат своєї національної федерації. Без нього людина може бути лише помічником судді, і то якщо {{term:jury|журі}} погодить це заздалегідь. Журі — це кілька офіційних осіб, які наглядають за змаганням і розглядають спірні питання. {{term:chief-referee|Головному судді}} міжнародного змагання потрібен міжнародний сертифікат, виданий FITASC."
+      },
+      "compak": {
+        "rule_ref": "compak:ch19-referee-qualification",
+        "en": "The jury approves each referee before the start, and each holds a valid card from their national federation. Referees with little international experience work under the eye of international referees. The chief referee (the {{tm:compak}} rules call this person the Head Referee) needs an international card and the FITASC qualification for that role.",
+        "uk": "Журі затверджує кожного суддю до старту, і кожен має чинну картку своєї національної федерації. Судді з невеликим міжнародним досвідом працюють під наглядом міжнародних суддів. Головному судді (у правилах {{tm:compak}} — Head Referee) потрібні міжнародна картка й кваліфікація FITASC для цієї ролі."
+      }
+    },
+    {
+      "k": "nextstep-becoming-referee-p5",
+      "t": "p",
+      "en": "International refereeing is the next level. Your federation will explain what it requires.",
+      "uk": "Наступний рівень — міжнародне суддівство. Що для нього потрібно, пояснить ваша федерація."
+    },
+    {
+      "k": "nextstep-becoming-referee-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "At international events referees make a formal promise. They promise to apply the rules, to judge honestly and impartially, and to set aside their own nationality and federation. That sums up the job: calm, knowledge of the rules and respect for each shooter.",
+      "uk": "На міжнародних змаганнях судді дають урочисту обіцянку. Вони обіцяють застосовувати правила, судити чесно й неупереджено та забути про власну національність і федерацію. Це добре підсумовує суть роботи: спокій, знання правил і повага до кожного стрільця."
+    },
+    {
+      "k": "nextstep-becoming-referee-p7",
+      "t": "tip",
+      "en": "A tip to start: ask to help an experienced referee at {{term:club-shoot|club shoots}}. You will see the work from the inside, and the rules will stick much faster. The decisions themselves, in plain words: {{lesson:rules-hit-and-no-bird}}.",
+      "uk": "Порада для початку: попросіться допомагати досвідченому судді на {{term:club-shoot|клубних змаганнях}}. Ви побачите роботу зсередини, а правила запам’ятаються набагато швидше. Самі рішення судді простими словами: {{lesson:rules-hit-and-no-bird}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "nextstep-becoming-referee-kp1",
+      "en": "Referee courses are usually run by the national federation.",
+      "uk": "Курси суддів зазвичай проводить національна федерація."
+    },
+    {
+      "k": "nextstep-becoming-referee-kp2",
+      "en": "At FITASC events each referee holds a valid federation certificate or card.",
+      "uk": "На змаганнях FITASC кожен суддя має чинний сертифікат або картку федерації."
+    },
+    {
+      "k": "nextstep-becoming-referee-kp3",
+      "en": "In {{tm:sporting}}, a person without a certificate can only be an assistant referee, and only if the jury agrees.",
+      "uk": "У {{tm:sporting}} людина без сертифіката може бути лише помічником судді, і лише з дозволу журі."
+    },
+    {
+      "k": "nextstep-becoming-referee-kp4",
+      "en": "The chief referee of an international event needs a FITASC qualification.",
+      "uk": "Головному судді міжнародного змагання потрібна кваліфікація FITASC."
+    },
+    {
+      "k": "nextstep-becoming-referee-kp5",
+      "en": "Start by helping an experienced referee at club shoots.",
+      "uk": "Почніть із допомоги досвідченому судді на клубних змаганнях."
+    }
+  ],
+  "did_you_know": {
+    "k": "nextstep-becoming-referee-dyk",
+    "en": "In both disciplines a referee at an international event must carry the current rules in the FITASC official languages.",
+    "uk": "В обох дисциплінах суддя на міжнародному змаганні має мати при собі чинні правила офіційними мовами FITASC."
+  },
+  "quiz": [
+    {
+      "k": "nextstep-becoming-referee-q1",
+      "q": {
+        "en": "Where do people usually train to become a referee?",
+        "uk": "Де зазвичай навчаються на суддю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At their national federation",
+          "uk": "У своїй національній федерації"
+        },
+        {
+          "k": "b",
+          "en": "Only at the ISSF in person",
+          "uk": "Лише особисто в ISSF"
+        },
+        {
+          "k": "c",
+          "en": "Nowhere: reading the rules is enough",
+          "uk": "Ніде: досить прочитати правила"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Courses and exams are usually run by the national federation.",
+        "uk": "Курси й іспити зазвичай проводить національна федерація."
+      }
+    },
+    {
+      "k": "nextstep-becoming-referee-q2",
+      "q": {
+        "en": "Who may help without the required certificate at a {{tm:sporting}} event?",
+        "uk": "Хто може допомагати без потрібного сертифіката на змаганні з {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Any spectator who knows the rules",
+          "uk": "Будь-який глядач, що знає правила"
+        },
+        {
+          "k": "b",
+          "en": "An assistant referee, with prior jury approval",
+          "uk": "Помічник судді, якщо журі погодило заздалегідь"
+        },
+        {
+          "k": "c",
+          "en": "The shooter's own coach",
+          "uk": "Тренер самого стрільця"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Without a certificate, only the assistant role is possible, and the jury must approve it in advance.",
+        "uk": "Без сертифіката можлива лише роль помічника, і журі має погодити її заздалегідь."
+      }
+    },
+    {
+      "k": "nextstep-becoming-referee-q3",
+      "q": {
+        "en": "What does the chief referee of an international {{tm:sporting}} event need?",
+        "uk": "Що потрібно головному судді міжнародного змагання з {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only long shooting experience",
+          "uk": "Лише великий досвід стрільця"
+        },
+        {
+          "k": "b",
+          "en": "A recommendation from the shooters",
+          "uk": "Рекомендація від стрільців"
+        },
+        {
+          "k": "c",
+          "en": "An international FITASC certificate",
+          "uk": "Міжнародний сертифікат FITASC"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The {{tm:sporting}} rules ask for an international certificate issued by FITASC.",
+        "uk": "Правила {{tm:sporting}} вимагають міжнародного сертифіката, виданого FITASC."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "aa1c63b4",
+    "summary": "686901b3",
+    "nextstep-becoming-referee-p1": "39de6b1d",
+    "nextstep-becoming-referee-p2": "ce43e3f4",
+    "nextstep-becoming-referee-cmp": "aef87821",
+    "nextstep-becoming-referee-p5": "5a834631",
+    "nextstep-becoming-referee-p6": "af337454",
+    "nextstep-becoming-referee-p7": "9234eace",
+    "nextstep-becoming-referee-kp1": "7fc1005f",
+    "nextstep-becoming-referee-kp2": "3bc7903a",
+    "nextstep-becoming-referee-kp3": "ae4bfb27",
+    "nextstep-becoming-referee-kp4": "786f3d96",
+    "nextstep-becoming-referee-kp5": "cc288c13",
+    "nextstep-becoming-referee-dyk": "a34901c5",
+    "nextstep-becoming-referee-q1": "e5cf6ef2",
+    "nextstep-becoming-referee-q2": "b6159042",
+    "nextstep-becoming-referee-q3": "e1b15cfb"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

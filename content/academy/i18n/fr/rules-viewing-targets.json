@@ -1,0 +1,162 @@
+{
+ "id": "rules-viewing-targets",
+ "lang": "fr",
+ "base_rev": 1,
+ "h": {
+  "title": "0064d55d",
+  "summary": "520117f9",
+  "rules-viewing-targets-p1": "ad9aaf1c",
+  "rules-viewing-targets-cmp1": "81f7ebe1",
+  "sporting-viewing-p2": "91e5fef1",
+  "sporting-viewing-p3": "41aa2110",
+  "compak-gun-and-call-p4": "94cbc3de",
+  "rules-viewing-targets-inline": "36aba8bb",
+  "rules-viewing-targets-open": "e72630ec",
+  "sporting-viewing-p4": "fe023af6",
+  "rules-viewing-targets-cmp2": "91c6febf",
+  "rules-viewing-targets-cmp3": "a954b0b5",
+  "rules-viewing-targets-tip1": "dbc75fed",
+  "rules-viewing-targets-more": "f764fc23",
+  "sporting-viewing-p6": "0980466b",
+  "sporting-viewing-ph1": "1df1c5f9",
+  "sporting-viewing-ph2": "f2d71d4d",
+  "sporting-viewing-ph3": "7dd75e34",
+  "sporting-viewing-ph4": "e39faadc",
+  "compak-gun-and-call-ph1": "6126c547",
+  "sporting-viewing-kp1": "cf204807",
+  "sporting-viewing-kp2": "1f60b759",
+  "sporting-viewing-kp3": "d07a0eb2",
+  "compak-gun-and-call-kp4": "cde28806",
+  "sporting-viewing-kp4": "7f195256",
+  "rules-viewing-targets-dyk": "d3836026",
+  "sporting-viewing-q1": "8dc8d7ba",
+  "rules-viewing-targets-q2": "8a902885",
+  "sporting-viewing-q3": "442066c3",
+  "sporting-viewing-q2": "7517024b",
+  "rules-viewing-targets-q4": "9490a582",
+  "rules-viewing-targets-q5": "004cd4f0"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "La présentation des plateaux",
+ "summary": "Comment les plateaux sont montrés avant le tir en {{tm:sporting}} et en {{tm:compak}}, quels doublés vous voyez, et ce que vous pouvez faire pendant qu'ils volent.",
+ "body": {
+  "rules-viewing-targets-p1": "Avant le tir, les plateaux sont montrés : c'est la {{term:target-presentation|présentation}}. En {{tm:sporting}}, cela se passe sur chaque poste. En {{tm:compak}} par {{term:squad|planche}}, où une planche de {{fact:rules.squad-max-shooters}} se déplace de poste en poste, cela n'a lieu qu'une fois par jour, pour la première planche. En ligne, l'ordre est différent (voir ci-dessous). La présentation permet de lire chaque plateau : sa ligne, sa vitesse, sa distance, et ce qu'il fait en l'air.",
+  "rules-viewing-targets-cmp1": {
+   "sporting": "Sur chaque poste, le premier tireur de la planche voit toutes les trajectoires, debout, prêt sur le poste.",
+   "compak": "Par planche : seulement une fois par jour, le matin, pour la première planche de la journée. Le tireur au poste 1 annonce les simples A à F. En ligne : voir ci-dessous."
+  },
+  "sporting-viewing-p2": "Vous pouvez demander à l'arbitre de remontrer un plateau : au maximum deux fois de plus pour chaque plateau du menu du poste.",
+  "sporting-viewing-p3": "Les {{term:double-on-report|doublés coup de fusil}} (le second plateau part quand vous tirez sur le premier) ne sont pas montrés. Mais vous avez déjà vu leurs plateaux : un doublé n'utilise que des plateaux déjà lancés comme simples sur ce poste. Le premier tireur de chaque planche voit les {{term:simultaneous-double|doublés simultanés}} (les deux plateaux partent ensemble) et les {{term:rafale-double|doublés rafale}} (deux plateaux du même lanceur, l'un après l'autre). Sur demande, ils sont remontrés, au maximum deux fois.",
+  "compak-gun-and-call-p4": "Par planche, les simples sont suivis des doublés simultanés des postes 1 à 5. Ensuite, vous entendrez l'arbitre dire « start » ou « competition », et le tir sur résultat commence.",
+  "rules-viewing-targets-inline": "Le {{tm:compak}} peut aussi se tirer {{term:compak-in-line|en ligne}} : les tireurs entrent un par un au poste 1 et avancent le long de la ligne jusqu'au poste 5. Avant le départ, le premier tireur peut demander à voir les simples A à F ; avec des doublés simultanés, les doublés de chaque poste sont aussi montrés. Pendant que la ligne se remplit, chaque nouveau tireur au poste 1 voit d'abord le premier plateau de son doublé. Quand la ligne se vide, l'arbitre fait de même aux derniers postes. Détails : {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+  "rules-viewing-targets-open": "Dans les deux disciplines, les fusils restent ouverts et déchargés pendant la présentation et toute interruption. Ne fermez le vôtre que lorsque l'arbitre l'autorise.",
+  "sporting-viewing-p4": "Tirer, ou faire un {{term:mock-shooting|simulacre de tir}} (épauler et suivre la ligne du plateau sans tirer), pendant la présentation est interdit. C'est sanctionné comme une infraction de position du fusil : d'abord un avertissement, puis un carton rouge.",
+  "rules-viewing-targets-cmp2": {
+   "sporting": "Si un lanceur tombe en panne ou si le tir s'arrête pendant {{fact:rules.reshow-after-interruption}}, les plateaux du poste sont remontrés.",
+   "compak": "Après une interruption de {{fact:rules.reshow-after-interruption}}, l'arbitre remontre les six simples."
+  },
+  "rules-viewing-targets-cmp3": {
+   "sporting": "Personne ne peut s'entraîner sur les parcours de la compétition.",
+   "compak": "Vous pouvez vous entraîner sur les trajectoires de la compétition, mais pas avec les menus de la compétition. Les {{term:trajectory-setting-table|tableaux de réglage des trajectoires}} (menus prêts à l'emploi qui indiquent quels lanceurs sont utilisés à chaque poste) doivent être différents pour l'entraînement. Aux championnats continentaux et mondiaux, l'entraînement officiel commence le samedi précédant l'épreuve."
+  },
+  "rules-viewing-targets-tip1": "Utilisez la présentation pour planifier chaque plateau. Notez où vous le verrez net pour la première fois, le {{term:pick-up-point|point de prise}}, et où vous le casserez, le {{term:break-point|point de casse}}. Beaucoup d'entraîneurs suggèrent aussi de choisir l'ordre d'un doublé simultané pendant que vous regardez.",
+  "rules-viewing-targets-more": "Comment « lire » un plateau pendant la présentation : voir la leçon {{lesson:targets-reading-a-target}}."
+ },
+ "note": {
+  "sporting-viewing-p6": "À l'entraînement, le visionnage est le moment préféré de l'entraîneur : « regardez où il tourne ». En compétition, la présentation fait partie de l'épreuve, donc l'interdiction du coaching s'applique aussi : restez silencieux, sauf si l'arbitre ou le tireur a besoin d'une traduction sur la procédure."
+ },
+ "phrases": {
+  "sporting-viewing-ph1": {
+   "meaning": "Le tireur demande à l'arbitre de commencer la présentation.",
+   "say": "Montrez-moi les plateaux, s'il vous plaît."
+  },
+  "sporting-viewing-ph2": {
+   "meaning": "Demande de répéter un seul plateau du menu.",
+   "say": "Encore une fois, s'il vous plaît, seulement B."
+  },
+  "sporting-viewing-ph3": {
+   "meaning": "Arbitre : ouvrez et déchargez jusqu'à ce que l'arbitre autorise à fermer.",
+   "say": "Fusils ouverts pendant la présentation."
+  },
+  "sporting-viewing-ph4": {
+   "meaning": "Entraîneur à l'entraînement : remarquez l'endroit où le plateau change de direction ou de position.",
+   "say": "Regardez où il tourne."
+  },
+  "compak-gun-and-call-ph1": {
+   "meaning": "Arbitre : la présentation est terminée, le tir sur résultat commence.",
+   "say": "Start ! Compétition !"
+  }
+ },
+ "key_points": {
+  "sporting-viewing-kp1": "{{tm:sporting}} : sur chaque poste, le premier tireur de la planche voit toutes les trajectoires, debout, prêt.",
+  "sporting-viewing-kp2": "{{tm:sporting}} : sur demande, jusqu'à deux répétitions pour chaque plateau du menu.",
+  "sporting-viewing-kp3": "{{tm:sporting}} : les doublés coup de fusil ne sont pas présentés ; le premier tireur de chaque planche voit les doublés simultanés et rafale.",
+  "compak-gun-and-call-kp4": "{{tm:compak}} par planche : les plateaux sont présentés une fois par jour, le matin, pour la première planche seulement. Après une interruption de {{fact:rules.reshow-after-interruption}}, l'arbitre présente à nouveau les six simples. En ligne, l'ordre est différent.",
+  "sporting-viewing-kp4": "Les fusils restent ouverts pendant la présentation ; en {{tm:sporting}}, tirer ou faire un simulacre de tir à ce moment est sanctionné."
+ },
+ "did_you_know": "En {{tm:sporting}}, le menu devant chaque poste liste les lanceurs dans l'ordre de tir et signale les plateaux spéciaux, comme une {{term:battue|battue}} ou un {{term:rabbit|rabbit}}.",
+ "quiz": {
+  "sporting-viewing-q1": {
+   "q": "En {{tm:sporting}}, quels doublés ne sont PAS montrés à la présentation ?",
+   "options": {
+    "a": "Simultanés",
+    "b": "Rafale",
+    "c": "Coup de fusil",
+    "d": "Aucun"
+   },
+   "explain": "En {{tm:sporting}}, les doublés coup de fusil ne sont pas présentés ; les doublés simultanés et rafale le sont. Un doublé n'utilise que des plateaux déjà lancés comme simples sur ce poste."
+  },
+  "rules-viewing-targets-q2": {
+   "q": "En {{tm:compak}} par planche, à quelle fréquence les plateaux sont-ils présentés ?",
+   "options": {
+    "a": "Avant chaque planche, à chaque poste",
+    "b": "Une fois par jour, pour la première planche",
+    "c": "Seulement si un tireur le demande"
+   },
+   "explain": "Il y a une présentation par jour, le matin, pour la première planche ; après une interruption de {{fact:rules.reshow-after-interruption}}, l'arbitre présente à nouveau les six simples."
+  },
+  "sporting-viewing-q3": {
+   "q": "En {{tm:sporting}}, pendant la présentation, un tireur ferme son fusil et le fait suivre la ligne d'un plateau. Que s'applique-t-il ?",
+   "options": {
+    "a": "Interdit : un avertissement, puis un carton rouge",
+    "b": "Permis : la présentation est un entraînement libre",
+    "c": "Le plateau est remontré",
+    "d": "Seul l'entraîneur reçoit un avertissement"
+   },
+   "explain": "Les fusils restent ouverts pendant la présentation, et tirer ou faire un simulacre de tir est sanctionné comme une infraction de position du fusil."
+  },
+  "sporting-viewing-q2": {
+   "q": "En {{tm:sporting}}, combien de répétitions le tireur au poste peut-il demander ?",
+   "options": {
+    "a": "Aucune",
+    "b": "Deux par plateau du menu",
+    "c": "Autant que nécessaire",
+    "d": "Une par poste"
+   },
+   "explain": "Sur demande, l'arbitre remontre un plateau, au maximum deux fois pour chaque plateau du menu."
+  },
+  "rules-viewing-targets-q4": {
+   "q": "{{tm:compak}} en ligne, avec des doublés coup de fusil. Pendant que la ligne se remplit, un nouveau tireur entre au poste 1. Que lui montre l'arbitre ?",
+   "options": {
+    "a": "Le premier plateau de son doublé",
+    "b": "Rien du tout",
+    "c": "Tous les simples A à F",
+    "d": "Tout le menu à nouveau"
+   },
+   "explain": "En ligne, les simples A à F sont montrés au premier tireur avant le départ. Ensuite, chaque nouveau tireur au poste 1 voit le premier plateau de son doublé."
+  },
+  "rules-viewing-targets-q5": {
+   "q": "Peut-on s'entraîner sur les trajectoires de la compétition avant une épreuve de {{tm:compak}} ?",
+   "options": {
+    "a": "Non, pas du tout",
+    "b": "Seulement le matin de l'épreuve",
+    "c": "Oui, avec des tableaux de réglage différents"
+   },
+   "explain": "Le {{tm:compak}} permet de s'entraîner sur les trajectoires de la compétition, mais les tableaux de réglage (menus) pour l'entraînement doivent être différents ; en {{tm:sporting}}, s'entraîner sur les parcours de la compétition n'est permis à personne."
+  }
+ }
+}

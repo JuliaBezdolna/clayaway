@@ -1,0 +1,98 @@
+{
+  "id": "targets-traps",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "ef239114",
+    "summary": "2ab98c5a",
+    "targets-traps-p1": "e299fc57",
+    "targets-traps-p2": "230871a5",
+    "targets-traps-p3": "0f4722a7",
+    "targets-traps-p4": "5f6e72fc",
+    "targets-traps-p5": "a5d1400f",
+    "targets-traps-n1": "0941d9af",
+    "targets-traps-n2": "dfb58822",
+    "targets-traps-ph1": "5b0d7a5c",
+    "targets-traps-ph2": "4e6e8b21",
+    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-kp1": "5d8f8aa8",
+    "targets-traps-kp2": "9837dbae",
+    "targets-traps-kp3": "2aaf4d92",
+    "targets-traps-kp4": "13f08f48",
+    "targets-traps-kp5": "d64923f1",
+    "targets-traps-q1": "20533e21",
+    "targets-traps-q2": "9529d885",
+    "targets-traps-q3": "ad85f910"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Heittimet, kiekon lähetys ja heittäjä",
+  "summary": "Mikä on heitin, miten heittimet merkitään, miten kutsu laukaisee kiekon {{tm:sporting}}- ja {{tm:compak}}-lajeissa, ja mitkä heitinvirheet ovat No Bird.",
+  "body": {
+    "targets-traps-p1": "{{term:trap|Heitin}} (trap) on kone, joka heittää kiekkoja. Heittimet voivat olla käsikäyttöisiä tai automaattisia ({{tm:compak}}-säännöt mainitsevat myös puoliautomaattiset). {{tm:sporting}}-lajissa ampumapaikan heittimet merkitään kirjaimilla vasemmalta oikealle, ampumapaikalta katsottuna: A, B, C ja niin edelleen (sääntökirja nimeää A–D). {{tm:compak}}-lajissa kuusi heitintä ovat A–F, ja kunkin kohdalla on kirjainkilpi.",
+    "targets-traps-p2": "Ampuja pyytää kiekkoa {{term:call|kutsulla}} (call): säännöt mainitsevat sanat ”pull” tai ”ready”, vaikka käytännössä sanat vaihtelevat. {{tm:sporting}}-lajissa tuomari antaa kutsun jälkeen äänimerkin {{term:trapper|heitinten operaattorille}} (trapper), henkilölle, joka laukaisee kiekot. Kiekon on lähdettävä kolmen sekunnin kuluessa tästä merkistä.",
+    "targets-traps-p3": "{{tm:compak}}-lajissa kiekko voidaan laukaista kolmella tavalla: käsin, kaukosäätimellä tai {{term:sonopull|mikrofonilähdöllä}} (sonopull). Mikrofonilähtö kuulee ampujan kutsun ja laukaisee kiekon itse. Käsilaukaisussa kiekko lähtee 0–3 sekunnin kuluessa kutsusta; mikrofonilähtö odottaa kiinteät 0,5 sekuntia. Kansainvälisissä {{term:compak-in-line|”linjassa”}} kilpailuissa, joissa kukin ampuja käy vuorollaan läpi numerot 1–5, käytetään vain mikrofonilähtöä yhdessä FITASC:n hyväksymän {{term:electronic-refereeing|elektronisen tuomaroinnin}} ja tuloslaskennan kanssa.",
+    "targets-traps-p4": "Äänilaukaisussa on mikrofoni ampumapaikalla. Myös oma äänesi voi laukaista sen. Tällaisella paikalla ole hiljaa, kun ampuja on valmiina: kuiskaa kiekkojen välissä tai astu taaemmas.",
+    "targets-traps-p5": "Heittimen virheet ovat {{term:no-bird|No Bird}} molemmissa lajeissa. Esimerkkejä: kiekko rikkoutuu heitettäessä, se tulee väärästä heittimestä, se heitetään ilman kutsua, tai se laukaistaan yli kolme sekuntia myöhässä. {{tm:sporting}}-lajissa No Bird on myös, jos saman ampumapaikan heittimistä tulee kaksi kiekkoa, kun piti tulla yksi. {{tm:compak}}-lajissa No Bird on, jos toinen kentän heitin heittää kiekon vahingossa."
+  },
+  "note": {
+    "targets-traps-n1": "Säilytä heittimien latinalaiset kirjaimet kääntäessäsi: niitä käytetään kiekkoluettelossa ja pöytäkirjassa.",
+    "targets-traps-n2": "Itse kutsua ei käännetä: se on merkki koneelle, ei lause."
+  },
+  "phrases": {
+    "targets-traps-ph1": {
+      "meaning": "Koneen lentorata on muuttunut; ampujan pitäisi ilmoittaa siitä ennen ampumista.",
+      "say": "Heitin B heittää matalammalta kuin näytössä – kerro tuomarille."
+    },
+    "targets-traps-ph2": {
+      "meaning": "Mikrofoni lähettää kiekot; puhuminen voi laukaista kiekon.",
+      "say": "Täällä on äänilähtö – älä juttele ampumapaikalla."
+    },
+    "targets-traps-ph3": {
+      "meaning": "Kiekko lähti yli kolme sekuntia pyynnön jälkeen.",
+      "say": "Heittäjä oli myöhässä tuossa – se on no bird."
+    }
+  },
+  "key_points": {
+    "targets-traps-kp1": "Heittimet: A, B, C… {{tm:sporting}}-ampumapaikalla (sääntökirja nimeää A–D), A–F {{tm:compak}}-kentällä; kirjaimet pysyvät latinalaisina.",
+    "targets-traps-kp2": "Kutsu (”pull”, ”ready”) laukaisee kiekon.",
+    "targets-traps-kp3": "{{tm:sporting}}: tuomari antaa merkin operaattorille; kiekko kolmen sekunnin kuluessa.",
+    "targets-traps-kp4": "{{tm:compak}}: käsin 0–3 s, kaukosäätimellä tai mikrofonilähdöllä, jonka viive on kiinteä 0,5 s.",
+    "targets-traps-kp5": "Myöhäiset, väärästä heittimestä tulevat tai pyytämättömät kiekot ovat No Birdejä; mikrofoni voi kuulla sinut."
+  },
+  "quiz": {
+    "targets-traps-q1": {
+      "q": "Kuinka kauan Sporting™-lajissa kiekon lähtö saa kestää tuomarin merkistä?",
+      "options": {
+        "a": "Enintään 1 sekunnin",
+        "b": "Enintään 3 sekuntia",
+        "c": "Enintään 10 sekuntia",
+        "d": "Kuinka kauan tahansa"
+      },
+      "explain": "Yli kolme sekuntia myöhemmin lähtevä kiekko on No Bird."
+    },
+    "targets-traps-q2": {
+      "q": "Mikä on Compak®-lajin mikrofonilähdön kiinteä viive?",
+      "options": {
+        "a": "0 sekuntia",
+        "b": "3 sekuntia",
+        "c": "0,5 sekuntia",
+        "d": "Kukin ampuja säätää sen itse"
+      },
+      "explain": "Mikrofonilähdön on käytettävä kiinteää, muuttumatonta 0,5 sekunnin viivettä."
+    },
+    "targets-traps-q3": {
+      "q": "Olet ampumapaikalla, jossa on äänilähtö, ja ampuja on valmiina. Mitä teet?",
+      "options": {
+        "a": "Käännän kovaa, jotta hän kuulee minut",
+        "b": "Pyydän heittäjää odottamaan hetken",
+        "c": "Toistan pyyntösanan hänen puolestaan",
+        "d": "Olen hiljaa; kuiskaan vain kiekkojen välillä"
+      },
+      "explain": "Äänesi voi laukaista mikrofonin ja lähettää kiekon, jota kukaan ei pyytänyt."
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "id": "rules-viewing-targets",
+  "lang": "pl",
+  "base_rev": 2,
+  "h": {
+    "title": "0064d55d",
+    "summary": "520117f9",
+    "rules-viewing-targets-p1": "ad9aaf1c",
+    "rules-viewing-targets-cmp1": "81f7ebe1",
+    "sporting-viewing-p2": "91e5fef1",
+    "sporting-viewing-p3": "41aa2110",
+    "compak-gun-and-call-p4": "94cbc3de",
+    "rules-viewing-targets-inline": "36aba8bb",
+    "rules-viewing-targets-open": "e72630ec",
+    "sporting-viewing-p4": "fe023af6",
+    "rules-viewing-targets-cmp2": "91c6febf",
+    "rules-viewing-targets-cmp3": "a954b0b5",
+    "rules-viewing-targets-tip1": "dbc75fed",
+    "rules-viewing-targets-more": "f764fc23",
+    "sporting-viewing-p6": "0980466b",
+    "sporting-viewing-ph1": "1df1c5f9",
+    "sporting-viewing-ph2": "f2d71d4d",
+    "sporting-viewing-ph3": "7dd75e34",
+    "sporting-viewing-ph4": "e39faadc",
+    "compak-gun-and-call-ph1": "6126c547",
+    "sporting-viewing-kp1": "cf204807",
+    "sporting-viewing-kp2": "1f60b759",
+    "sporting-viewing-kp3": "d07a0eb2",
+    "compak-gun-and-call-kp4": "cde28806",
+    "sporting-viewing-kp4": "7f195256",
+    "rules-viewing-targets-dyk": "d3836026",
+    "sporting-viewing-q1": "8dc8d7ba",
+    "rules-viewing-targets-q2": "8a902885",
+    "sporting-viewing-q3": "442066c3",
+    "sporting-viewing-q2": "7517024b",
+    "rules-viewing-targets-q4": "9490a582",
+    "rules-viewing-targets-q5": "004cd4f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Pokaz rzutków",
+  "summary": "Jak rzutki są pokazywane przed strzelaniem w {{tm:sporting}} i {{tm:compak}}, które dublety widzisz i co możesz robić, gdy lecą.",
+  "body": {
+    "rules-viewing-targets-p1": "Przed strzelaniem rzutki są pokazywane: to {{term:target-presentation|pokaz}}. W {{tm:sporting}} odbywa się na każdym stanowisku. W {{tm:compak}} grupowym, gdzie {{term:squad|grupa}} {{fact:rules.squad-max-shooters}} przechodzi od numeru do numeru, odbywa się tylko raz dziennie, dla pierwszej grupy. In line działa inaczej (patrz poniżej). Pokaz pozwala odczytać każdy rzutek: jego linię, prędkość i odległość, oraz co rzutek robi w powietrzu.",
+    "rules-viewing-targets-cmp1": {
+      "sporting": "Na każdym stanowisku pierwszy strzelec grupy widzi wszystkie trajektorie, stojąc w gotowości na stanowisku.",
+      "compak": "Grupowo: tylko raz dziennie, rano, dla pierwszej grupy dnia. Strzelec na numerze 1 woła pojedyncze rzutki A do F. In line: patrz poniżej."
+    },
+    "sporting-viewing-p2": "Możesz poprosić sędziego o ponowny pokaz rzutka: najwyżej dwa razy więcej na każdy rzutek z menu stanowiska.",
+    "sporting-viewing-p3": "{{term:double-on-report|Dublety na zawołanie}} (drugi rzutek wylatuje, gdy strzelasz do pierwszego) nie są pokazywane. Ich rzutki już widziałeś: dublet używa tylko rzutków już wyrzuconych jako pojedyncze z tego stanowiska. Pierwszemu strzelcowi każdej grupy pokazuje się {{term:simultaneous-double|dublety symultaniczne}} (oba rzutki wylatują razem) i {{term:rafale-double|dublety rafale}} (dwa rzutki z tej samej wyrzutni, jeden po drugim). Na prośbę pokazuje się je ponownie, najwyżej dwa razy.",
+    "compak-gun-and-call-p4": "Grupowo, po pojedynczych rzutkach następują dublety symultaniczne numerów 1 do 5. Po tym usłyszysz od sędziego „start” albo „competition”, i zaczyna się strzelanie na wynik.",
+    "rules-viewing-targets-inline": "{{tm:compak}} można też strzelać {{term:compak-in-line|in line}}: strzelcy wchodzą na numer 1 jeden po drugim i przechodzą wzdłuż linii do numeru 5. Przed startem pierwszy strzelec może poprosić o pokaz pojedynczych rzutków A do F; przy dubletach symultanicznych pokazuje się też dublety każdego numeru. Kiedy linia się wypełnia, każdy nowy strzelec na numerze 1 najpierw widzi otwierający rzutek swojego dubletu. Kiedy linia się opróżnia, sędzia robi to samo na kolejnych numerach. Szczegóły: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+    "rules-viewing-targets-open": "W obu dyscyplinach broń zostaje otwarta i rozładowana podczas pokazu i każdej przerwy. Zamknij swoją tylko wtedy, gdy sędzia pozwoli.",
+    "sporting-viewing-p4": "Strzelanie albo {{term:mock-shooting|imitacja strzelania}} (złożenie się i prowadzenie broni wzdłuż linii rzutka bez strzału) w czasie pokazu rzutków jest zabronione. Jest karane jak wykroczenie dotyczące pozycji broni: najpierw ostrzeżenie, potem czerwona kartka.",
+    "rules-viewing-targets-cmp2": {
+      "sporting": "Jeśli wyrzutnia się zepsuje albo strzelanie przerwie się na {{fact:rules.reshow-after-interruption}}, rzutki stanowiska pokazuje się jeszcze raz.",
+      "compak": "Po przerwie {{fact:rules.reshow-after-interruption}}, sędzia pokazuje jeszcze raz sześć pojedynczych rzutków."
+    },
+    "rules-viewing-targets-cmp3": {
+      "sporting": "Nikt nie może trenować na zawodowych osiach.",
+      "compak": "Możesz trenować na zawodowych trajektoriach, ale nie z zawodowymi menu. {{term:trajectory-setting-table|Tabele ustawień trajektorii}} (gotowe menu, które mówią, które wyrzutnie strzela się z każdego numeru) muszą być inne na trening. Na mistrzostwach kontynentalnych i świata oficjalny trening zaczyna się w sobotę przed zawodami."
+    },
+    "rules-viewing-targets-tip1": "Wykorzystaj pokaz, żeby zaplanować każdy rzutek. Zauważ, gdzie pierwszy raz zobaczysz go wyraźnie — {{term:pick-up-point|punkt podjęcia rzutka}} — i gdzie go rozbijesz — {{term:break-point|punkt strzału}}. Wielu trenerów poleca też wybrać kolejność dla dubletu symultanicznego już podczas obserwacji.",
+    "rules-viewing-targets-more": "Jak odczytać rzutek z pokazu: {{lesson:targets-reading-a-target}}."
+  },
+  "note": {
+    "sporting-viewing-p6": "Na treningu pokaz to ulubiony moment trenera: „zobacz, gdzie się obraca”. Na zawodach pokaz jest częścią zawodów, więc obowiązuje zakaz podpowiadania: zostań cicho, jeśli sędzia albo strzelec nie potrzebuje tłumaczenia procedury."
+  },
+  "phrases": {
+    "sporting-viewing-ph1": {
+      "meaning": "Strzelec do sędziego: zacznij pokaz.",
+      "say": "Pokaż mi rzutki, proszę."
+    },
+    "sporting-viewing-ph2": {
+      "meaning": "Prośba o powtórzenie jednego rzutka z menu.",
+      "say": "Jeszcze raz, proszę, tylko B."
+    },
+    "sporting-viewing-ph3": {
+      "meaning": "Sędzia: otwarta i rozładowana, aż sędzia pozwoli zamknąć.",
+      "say": "Broń otwarta w czasie pokazu."
+    },
+    "sporting-viewing-ph4": {
+      "meaning": "Trener na treningu: zauważ punkt, gdzie rzutek zmienia kierunek albo kształt.",
+      "say": "Zobacz, gdzie się obraca."
+    },
+    "compak-gun-and-call-ph1": {
+      "meaning": "Sędzia: pokaz się skończył i zaczyna się strzelanie na wynik.",
+      "say": "Start! / Competition!"
+    }
+  },
+  "key_points": {
+    "sporting-viewing-kp1": "{{tm:sporting}}: na każdym stanowisku pierwszy strzelec grupy widzi wszystkie trajektorie, stojąc w gotowości.",
+    "sporting-viewing-kp2": "{{tm:sporting}}: na prośbę, do dwóch powtórzeń na każdy rzutek z menu.",
+    "sporting-viewing-kp3": "{{tm:sporting}}: dublety na zawołanie nie są pokazywane; pierwszy strzelec każdej grupy widzi dublety symultaniczne i rafale.",
+    "compak-gun-and-call-kp4": "{{tm:compak}} grupowy: rzutki pokazuje się raz dziennie, rano, tylko dla pierwszej grupy. Po przerwie {{fact:rules.reshow-after-interruption}} sędzia pokazuje jeszcze raz sześć pojedynczych rzutków. In line ma swoją kolejność.",
+    "sporting-viewing-kp4": "Broń zostaje otwarta podczas pokazu; w {{tm:sporting}} strzelanie albo imitacja strzelania w tym czasie jest karane."
+  },
+  "did_you_know": "W {{tm:sporting}} menu przed każdym stanowiskiem wymienia wyrzutnie w kolejności strzelania i oznacza specjalne rzutki, jak {{term:battue|battue}} albo {{term:rabbit|rabbit}}.",
+  "quiz": {
+    "sporting-viewing-q1": {
+      "q": "W {{tm:sporting}}, które dublety NIE są pokazywane podczas pokazu?",
+      "options": {
+        "a": "Symultaniczne",
+        "b": "Rafale",
+        "c": "Na zawołanie",
+        "d": "Żadne z nich"
+      },
+      "explain": "W {{tm:sporting}} dublety na zawołanie nie są pokazywane; symultaniczne i rafale są. Dublet używa tylko rzutków już wyrzuconych jako pojedyncze na tym stanowisku."
+    },
+    "rules-viewing-targets-q2": {
+      "q": "W {{tm:compak}} grupowym, jak często pokazuje się rzutki?",
+      "options": {
+        "a": "Przed każdą grupą, na każdym numerze",
+        "b": "Raz dziennie, dla pierwszej grupy",
+        "c": "Tylko kiedy strzelec o to poprosi"
+      },
+      "explain": "Jest jeden pokaz dziennie, rano, dla pierwszej grupy; po przerwie {{fact:rules.reshow-after-interruption}} sędzia pokazuje jeszcze raz sześć pojedynczych rzutków."
+    },
+    "sporting-viewing-q3": {
+      "q": "W {{tm:sporting}}, w czasie pokazu strzelec zamyka broń i prowadzi nią wzdłuż linii rzutka. Co ma zastosowanie?",
+      "options": {
+        "a": "Zabronione: ostrzeżenie, potem czerwona kartka",
+        "b": "Dozwolone: pokaz to darmowy trening",
+        "c": "Rzutek jest pokazywany jeszcze raz",
+        "d": "Tylko trener otrzymuje ostrzeżenie"
+      },
+      "explain": "Broń zostaje otwarta podczas pokazu, a strzelanie albo imitacja strzelania jest karana jak wykroczenie dotyczące pozycji broni."
+    },
+    "sporting-viewing-q2": {
+      "q": "W {{tm:sporting}}, o ile powtórzeń może poprosić strzelec na stanowisku?",
+      "options": {
+        "a": "Wcale",
+        "b": "Dwa na rzutek z menu",
+        "c": "Tyle, ile potrzeba",
+        "d": "Jedno na stanowisko"
+      },
+      "explain": "Na prośbę sędzia pokazuje rzutek jeszcze raz, najwyżej dwa razy na każdy rzutek z menu."
+    },
+    "rules-viewing-targets-q4": {
+      "q": "{{tm:compak}} in line, z dubletami na zawołanie. Kiedy linia się wypełnia, nowy strzelec wchodzi na numer 1. Co sędzia pokazuje temu strzelcowi?",
+      "options": {
+        "a": "Pierwszy rzutek jego dubletu",
+        "b": "Nic",
+        "c": "Wszystkie pojedyncze A do F",
+        "d": "Całe menu jeszcze raz"
+      },
+      "explain": "In line pojedyncze A do F są pokazywane pierwszemu strzelcowi przed startem. Potem każdy nowy strzelec na numerze 1 widzi otwierający rzutek swojego dubletu."
+    },
+    "rules-viewing-targets-q5": {
+      "q": "Czy można trenować na zawodowych trajektoriach przed zawodami {{tm:compak}}?",
+      "options": {
+        "a": "Nie, wcale",
+        "b": "Tylko rano w dniu zawodów",
+        "c": "Tak, z innymi tabelami ustawień"
+      },
+      "explain": "{{tm:compak}} dopuszcza trening na zawodowych trajektoriach, ale tabele ustawień (menu) na trening muszą się różnić; w {{tm:sporting}} trening na zawodowych osiach jest niedozwolony dla nikogo."
+    }
+  }
+}

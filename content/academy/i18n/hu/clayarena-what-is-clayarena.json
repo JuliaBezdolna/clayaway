@@ -1,0 +1,80 @@
+{
+  "id": "clayarena-what-is-clayarena",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "bc76e59e",
+    "summary": "761d8c91",
+    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p2": "771824c6",
+    "clayarena-what-is-clayarena-p3": "17d83580",
+    "clayarena-what-is-clayarena-p4": "3d7784c7",
+    "clayarena-what-is-clayarena-p5": "48af0ac3",
+    "clayarena-what-is-clayarena-p6": "e3c600a3",
+    "clayarena-what-is-clayarena-kp1": "05ba9974",
+    "clayarena-what-is-clayarena-kp2": "3d5950a3",
+    "clayarena-what-is-clayarena-kp3": "5567e510",
+    "clayarena-what-is-clayarena-kp4": "702367ff",
+    "clayarena-what-is-clayarena-q1": "25b43879",
+    "clayarena-what-is-clayarena-q2": "565010d9",
+    "clayarena-what-is-clayarena-q4": "08498f4c",
+    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Mi a ClayArena",
+  "summary": "A ClayArena egy agyagkorong-lövészeti weboldal, amely főként {{tm:sporting}} és {{tm:compak}} versenyekre összpontosít: versenyeredmények, lövőprofilok, naptár, videók, szezonösszefoglalók, lőterek és edzők.",
+  "body": {
+    "clayarena-what-is-clayarena-p1": "A ClayArena (clayarena.com) egy agyagkorong-lövészetről szóló weboldal, amely főként {{tm:sporting}} és {{tm:compak}} versenyekre összpontosít. Megmutatja, ki és hogyan lőtt, hol lesznek a következő versenyek, és hol lehet edzeni. Néhány más versenyszám, például a trap és a skeet, is megjelenik rajta.",
+    "clayarena-what-is-clayarena-p2": "A ClayArena magját a versenyeredmények jelentik. Minden versenyhez van egy eredménytáblázat a helyezésekkel és az eltalált korongok számával. Néhány rendezvényen az eredmények már a lövészet közben frissülnek. Ezekből az eredményekből épülnek fel a {{term:shooter-profile|lövőprofilok}}.",
+    "clayarena-what-is-clayarena-p3": "A lövőprofil egy ember saját oldala: a versenyei és a fő mutatói, például a {{term:accuracy|találati arány}}. Mit jelentenek ezek a számok, azt a {{lesson:clayarena-profile-numbers}} lecke magyarázza el.",
+    "clayarena-what-is-clayarena-p4": "A ClayArenán van versenynaptár, videók a versenyekről és {{term:season-recap|szezonösszefoglalók}} is. Vannak lőtér- és edzőkatalógusok is. Többet: {{lesson:clayarena-videos-recaps-calendar}} és {{lesson:clayarena-coaches-grounds-tours}}.",
+    "clayarena-what-is-clayarena-p5": "A ClayArena a {{term:clayaway|ClayAway}} szolgáltatást is előkészíti: edzőtúrákat egy edzővel. Ez még nem indult el, később kezdődik: {{lesson:travel-clayaway-tour}}.",
+    "clayarena-what-is-clayarena-p6": "A ClayArena a tanulás helye is: ez az Akadémia, egy fogalomtár és a {{term:fitasc|FITASC}} szabályainak egyszerű nyelvű útmutatója egy szabálygyakorlóval."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-what-is-clayarena-kp1": "A ClayArena egy agyagkorong-lövészeti weboldal, amely főként {{tm:sporting}} és {{tm:compak}} versenyekre összpontosít.",
+    "clayarena-what-is-clayarena-kp2": "A magja a versenyeredmények; ezekből épülnek fel a lövőprofilok.",
+    "clayarena-what-is-clayarena-kp3": "Van rajta naptár, videók, szezonösszefoglalók és lőtér- és edzőkatalógusok is.",
+    "clayarena-what-is-clayarena-kp4": "A ClayAway edzőtúrákat előkészítik, de még nem indultak el."
+  },
+  "quiz": {
+    "clayarena-what-is-clayarena-q1": {
+      "q": "Miből épülnek fel a lövőprofilok a ClayArenán?",
+      "options": {
+        "a": "A lövők által kitöltött kérdőívekből",
+        "b": "Versenyeredményekből",
+        "c": "Edzők által írt véleményekből"
+      },
+      "explain": "A profil a lövő versenyeit gyűjti össze, tehát versenyeredményeket."
+    },
+    "clayarena-what-is-clayarena-q2": {
+      "q": "Mi a ClayAway jelenleg?",
+      "options": {
+        "a": "Egy külön FITASC-versenyszám",
+        "b": "Egy online tölténybolt",
+        "c": "Edzővel vezetett túrák, amelyeket előkészítenek"
+      },
+      "explain": "A ClayAway a ClayArena edzővel vezetett, szervezett edzőtúrái lesznek; még nem indult el."
+    },
+    "clayarena-what-is-clayarena-q4": {
+      "q": "Hol keresse a még nem lezajlott versenyeket?",
+      "options": {
+        "a": "A versenynaptárban",
+        "b": "A szezonösszefoglalóban",
+        "c": "A lövőprofilban"
+      },
+      "explain": "A naptár felsorolja a tervezett, folyamatban lévő és lezajlott versenyeket dátumokkal és helyszínekkel."
+    },
+    "clayarena-what-is-clayarena-q3": {
+      "q": "Mely versenyszámokra összpontosít a ClayArena?",
+      "options": {
+        "a": "Biatlon és íjászat",
+        "b": "{{tm:sporting}} és {{tm:compak}}",
+        "c": "Csak olimpiai trap"
+      },
+      "explain": "A ClayArena ezekre a két FITASC-versenyszámra összpontosít; néhány más versenyszám is megjelenik rajta."
+    }
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "id": "technique-hold-pickup-break-points",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "technique-hold-pickup-break-points"
+    ],
+    "interpreter": [
+      "basics-three-points"
+    ]
+  },
+  "terms": [
+    "pick-up-point",
+    "hold-point",
+    "break-point",
+    "stance",
+    "poking",
+    "stopping-the-gun",
+    "maintained-lead",
+    "swing-through",
+    "target-presentation",
+    "shooting-limit",
+    "target-line"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-visible-break"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-presentation"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-show-targets"
+    }
+  ],
+  "facts": [
+    "rules.reshow-after-interruption"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Three points: pick-up, hold and break",
+    "uk": "Три точки: підхоплення, утримання і постріл"
+  },
+  "summary": {
+    "en": "Where to look, where to hold the barrels and where to break the target: three points to plan before each shot.",
+    "uk": "Куди дивитися, де тримати стволи і де розбити мішень: три точки, які варто спланувати перед кожним пострілом."
+  },
+  "body": [
+    {
+      "k": "basics-three-points-p1",
+      "t": "p",
+      "core": true,
+      "en": "Before each target the shooter sets three points. The {{term:pick-up-point|pick-up point}} is where the eyes first see the target clearly. It is a little way out from the trap, not right next to it, where the clay is still only a blur. The {{term:hold-point|hold point}} is where the muzzles wait at the call, usually on or just under the target's line, between the pick-up point and the break point. The {{term:break-point|break point}} is where the shooter plans to break the target.",
+      "uk": "Перед кожною мішенню стрілець розставляє три точки. Перша — {{term:pick-up-point|точка підхоплення}} (pick-up point): там очі вперше чітко бачать мішень. Вона трохи далі від машинки, а не одразу біля неї, де мішень — лише розмита смуга. Друга — {{term:hold-point|точка утримання}} (hold point): там стволи чекають під час команди, зазвичай на лінії мішені або трохи нижче, між точкою підхоплення і точкою пострілу. Третя — {{term:break-point|точка пострілу}} (break point): там стрілець планує розбити мішень.",
+      "anchor": "basics-three-points"
+    },
+    {
+      "k": "basics-three-points-p2",
+      "t": "p",
+      "core": true,
+      "en": "Plan in this order. First choose the break point and set your feet for it. Then turn your upper body back and point the barrels at the hold point. Last, put your eyes on the pick-up point. In {{tm:sporting}} the stock stays down until the target appears, so there the hold point is simply where the barrels point while the gun is still low.",
+      "uk": "Порядок такий. Спершу оберіть точку пострілу й поставте під неї ноги. Потім поверніть корпус назад і наведіть стволи на точку утримання. Наостанок — очі в точку підхоплення. У {{tm:sporting}} приклад лишається внизу, доки мішень не з’явиться, тож точка утримання там — це просто те, куди дивляться стволи опущеної рушниці."
+    },
+    {
+      "k": "basics-three-points-p3",
+      "t": "p",
+      "core": true,
+      "en": "Typical errors with the break point: too far away means a fast, uncontrolled swing or a target already dropping. Too close, and there is too little movement: the shooter “pokes” at the target, pointing the gun slowly like a rifle instead of swinging it. With the hold point: too near the trap, the target overtakes the muzzles and the gun has to chase it. Too far out, there is too little room to move with the target, and the shooter pokes or stops the gun.",
+      "uk": "Типові помилки з точкою пострілу: задалеко — проводка швидка й неконтрольована або мішень уже падає. Заблизько — руху замало, і стрілець «тицяє»: наводить рушницю повільно, наче гвинтівку, замість вести її. З точкою утримання: надто близько до машинки — мішень обганяє стволи, і рушниці доводиться її доганяти. Надто далеко — для руху разом із мішенню лишається мало місця, і стрілець «тицяє» або зупиняє рушницю."
+    },
+    {
+      "k": "technique-hold-pickup-break-points-p3",
+      "t": "tip",
+      "en": "The exact hold point depends on the target and on your lead method. With {{term:maintained-lead|maintained lead}} (barrels kept in front of the target the whole time) it is usually further out along the line. With {{term:swing-through|swing-through}} (barrels start behind the target and overtake it) it is closer to the trap. Choose the break point where you see the target clearly and steadily, before it drops behind trees. Your coach will help you set all three points.",
+      "uk": "Точне місце утримання стволів залежить від мішені й від методу виносу. За {{term:maintained-lead|постійного виносу}} (стволи весь час попереду мішені) воно зазвичай далі на лінії. За {{term:swing-through|протяжки}} (стволи стартують позаду й обганяють мішень) — ближче до машинки. Точку пострілу обирайте там, де мішень видно чітко й вона летить рівно, ще до того, як вона впаде за дерева. Розставити всі три точки допоможе тренер."
+    },
+    {
+      "k": "basics-three-points-p4",
+      "t": "p",
+      "core": true,
+      "en": "You “read” a target, that is, work out its path, speed and distance, while it is shown before shooting (the {{term:target-presentation|presentation}}). In {{tm:sporting}} the referee shows each trajectory to the first shooter of the squad. On request, the shooter on the stand can see each target of the menu again, at most twice. In {{tm:compak}} by squad, the singles and then the simultaneous doubles are shown only once a day, in the morning, for the first squad. After a break of {{fact:rules.reshow-after-interruption}}, the singles are shown again. More on viewing: {{lesson:rules-viewing-targets}}.",
+      "uk": "Мішень «читають» — тобто визначають її лінію, швидкість і відстань — під час {{term:target-presentation|показу мішеней}} перед стрільбою. У {{tm:sporting}} суддя показує всі траєкторії першому стрільцеві групи. На прохання стрільця на стрілецькому місці кожну мішень меню можуть показати ще раз, щонайбільше двічі. У {{tm:compak}} у форматі by squad одиночні, а потім одночасні дуплети показують лише раз на день, уранці, для першої групи. Після перерви {{fact:rules.reshow-after-interruption}} одиночні показують знову. Докладніше про показ: {{lesson:rules-viewing-targets}}.",
+      "disc": "both"
+    },
+    {
+      "k": "technique-hold-pickup-break-points-limit",
+      "t": "rule",
+      "en": "In {{tm:sporting}} it is up to you to break each target where the referee can see it. Watch for {{term:shooting-limit|shooting limits}}: a target broken beyond such a boundary, or behind a natural obstacle, does not count. The referee decides this alone, and the decision cannot be appealed.",
+      "uk": "У {{tm:sporting}} саме стрілець відповідає за те, щоб розбити кожну мішень там, де її бачить суддя. Зважайте на {{term:shooting-limit|межі зони стрільби}}: мішень, розбиту за такою межею або за природною перешкодою, не зараховують. Це вирішує лише суддя, і його рішення не оскаржують.",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch9-visible-break"
+    },
+    {
+      "k": "basics-three-points-sim",
+      "t": "sim",
+      "sim": {
+        "type": "flight",
+        "preset": "quartering-away",
+        "focus": "points"
+      },
+      "ready": true,
+      "en": "Animation: the labels show the pick-up point, the hold point and the break point; the target breaks at the break point.",
+      "uk": "Анімація: підписи показують точку підхоплення, точку утримання і точку пострілу; мішень розбивається в точці пострілу."
+    }
+  ],
+  "note": [
+    {
+      "k": "basics-three-points-p5",
+      "for": "interpreter",
+      "en": "“Where are you taking it?” asks for the break point; “kill point” is a neutral synonym.",
+      "uk": "«Where are you taking it?» — питання про точку пострілу; «kill point» — нейтральний синонім.",
+      "core": true
+    }
+  ],
+  "phrases": [
+    {
+      "k": "basics-three-points-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Where are you taking it?",
+      "meaning": {
+        "en": "The coach asks where the shooter plans to break the target.",
+        "uk": "Тренер питає, де стрілець планує розбити мішень."
+      },
+      "say": {
+        "uk": "Де ви плануєте її розбити?"
+      }
+    },
+    {
+      "k": "basics-three-points-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Move your hold point halfway back to the trap.",
+      "meaning": {
+        "en": "Hold the muzzles closer to the trap, at half of the current distance.",
+        "uk": "Тримайте стволи ближче до машинки — на половині нинішньої відстані."
+      },
+      "say": {
+        "uk": "Перенесіть точку утримання вдвічі ближче до машинки."
+      }
+    },
+    {
+      "k": "basics-three-points-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Look further out — pick it up where it's sharp.",
+      "meaning": {
+        "en": "Move the eyes away from the trap to where the target is first seen clearly.",
+        "uk": "Перенесіть погляд далі від машинки, туди, де мішень уперше видно чітко."
+      },
+      "say": {
+        "uk": "Дивіться далі — підхоплюйте її поглядом там, де вона чітка."
+      }
+    },
+    {
+      "k": "basics-three-points-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Hold a little lower, just under the line.",
+      "meaning": {
+        "en": "Keep the muzzles slightly below the target's path at the call.",
+        "uk": "Під час команди тримайте стволи трохи нижче лінії мішені."
+      },
+      "say": {
+        "uk": "Стволи трохи нижче, під лінією."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "basics-three-points-kp1",
+      "core": true,
+      "en": "Pick-up = eyes; hold = muzzles; break = where the target is broken.",
+      "uk": "Підхоплення — очі; утримання — стволи; постріл — де мішень розбивають."
+    },
+    {
+      "k": "basics-three-points-kp2",
+      "core": true,
+      "en": "Plan from the break point backwards: feet, hold, eyes.",
+      "uk": "План від точки пострілу назад: ноги, утримання, очі."
+    },
+    {
+      "k": "basics-three-points-kp3",
+      "core": true,
+      "en": "The hold point is usually between pick-up and break, on or just under the line.",
+      "uk": "Точка утримання зазвичай між підхопленням і пострілом, на лінії або трохи нижче."
+    },
+    {
+      "k": "technique-hold-pickup-break-points-kp4",
+      "en": "Hold too near the trap and the gun chases; too far out and it has no room to move.",
+      "uk": "Утримання надто близько до машинки — рушниця доганяє; надто далеко — їй бракує місця для руху."
+    },
+    {
+      "k": "basics-three-points-kp4",
+      "core": true,
+      "en": "Read targets while they are shown; in {{tm:sporting}} break them where the referee can see, inside the shooting limits.",
+      "uk": "Мішені читають під час показу; у {{tm:sporting}} розбивайте їх там, де бачить суддя, у межах зони стрільби."
+    }
+  ],
+  "did_you_know": {
+    "k": "technique-hold-pickup-break-points-dyk",
+    "en": "If you look too close to the trap, the target looks like a streak because the eye has not yet locked on. That is why the pick-up point is a little away from the trap.",
+    "uk": "Якщо дивитися надто близько до машинки, мішень здається смугою: око ще не встигло «схопити» її. Тому точка підхоплення трохи далі від машинки."
+  },
+  "quiz": [
+    {
+      "k": "basics-three-points-q1",
+      "q": {
+        "en": "Which point is about the eyes, not the gun?",
+        "uk": "Яка точка стосується очей, а не рушниці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Hold point",
+          "uk": "Точка утримання"
+        },
+        {
+          "k": "b",
+          "en": "Break point",
+          "uk": "Точка пострілу"
+        },
+        {
+          "k": "c",
+          "en": "Pick-up point",
+          "uk": "Точка підхоплення"
+        },
+        {
+          "k": "d",
+          "en": "Insertion point",
+          "uk": "Точка входу"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The pick-up point is where the eyes first see the target clearly; the hold point is for the muzzles.",
+        "uk": "Точка підхоплення — де очі вперше чітко бачать мішень; точка утримання — для стволів."
+      }
+    },
+    {
+      "k": "basics-three-points-q2",
+      "q": {
+        "en": "What usually happens if the hold point is too close to the trap?",
+        "uk": "Що зазвичай стається, якщо точка утримання надто близько до машинки?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The referee calls No Bird",
+          "uk": "Суддя оголошує No Bird"
+        },
+        {
+          "k": "b",
+          "en": "The gun has to chase the target",
+          "uk": "Рушниці доводиться доганяти мішень"
+        },
+        {
+          "k": "c",
+          "en": "The gun has almost no room to move",
+          "uk": "Рушниці майже немає де рухатися"
+        },
+        {
+          "k": "d",
+          "en": "The target slows down",
+          "uk": "Мішень сповільнюється"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Too near the trap, the target leaves at full speed past the muzzles, so the gun has to chase it. Too little room to move is the problem of a hold point too far out.",
+        "uk": "Біля машинки мішень проскакує повз стволи на повній швидкості, тож рушниці доводиться її доганяти. Брак місця для руху — проблема точки утримання, що надто далеко."
+      }
+    },
+    {
+      "k": "basics-three-points-q3",
+      "q": {
+        "en": "In {{tm:sporting}}, the shooter on the stand asks to see the presentation again. What is the maximum per target of the menu?",
+        "uk": "У {{tm:sporting}} стрілець на стрілецькому місці просить повторити показ. Який максимум на кожну мішень меню?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Two targets",
+          "uk": "Дві мішені"
+        },
+        {
+          "k": "b",
+          "en": "None: no repeats are allowed",
+          "uk": "Жодної: повтори заборонені"
+        },
+        {
+          "k": "c",
+          "en": "As many as the shooter wants",
+          "uk": "Скільки захоче стрілець"
+        },
+        {
+          "k": "d",
+          "en": "Exactly five",
+          "uk": "Рівно п’ять"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The referee will show it again if asked, but no more than twice per target on the menu.",
+        "uk": "Якщо попросити, суддя покаже ще раз, але не більше ніж двічі на кожну мішень меню."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "technique-hold-pickup-break-points-q1",
+      "q": {
+        "en": "What is the hold point?",
+        "uk": "Що таке точка утримання (hold point)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Where the barrels wait when you call",
+          "uk": "Де чекають стволи, коли ви кличете мішень"
+        },
+        {
+          "k": "b",
+          "en": "Where the cartridges are kept",
+          "uk": "Де лежать патрони"
+        },
+        {
+          "k": "c",
+          "en": "Where the target lands",
+          "uk": "Де мішень падає на землю"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The hold point is where you hold the muzzles before calling.",
+        "uk": "Точка утримання — місце, де ви тримаєте дульні зрізи стволів перед командою."
+      }
+    },
+    {
+      "k": "technique-hold-pickup-break-points-q2",
+      "q": {
+        "en": "Where do your eyes go before calling?",
+        "uk": "Куди спрямовують очі перед командою?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the barrels",
+          "uk": "На стволи"
+        },
+        {
+          "k": "b",
+          "en": "To the pick-up point",
+          "uk": "У точку підхоплення"
+        },
+        {
+          "k": "c",
+          "en": "On the target menu",
+          "uk": "На меню мішеней"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Your eyes wait where the target first becomes clearly visible.",
+        "uk": "Очі чекають там, де мішень уперше стає чітко видно."
+      }
+    },
+    {
+      "k": "technique-hold-pickup-break-points-q3",
+      "q": {
+        "en": "Which point are your feet set for?",
+        "uk": "Під яку точку ставлять ноги?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The pick-up point",
+          "uk": "Під точку підхоплення"
+        },
+        {
+          "k": "b",
+          "en": "The hold point",
+          "uk": "Під точку утримання"
+        },
+        {
+          "k": "c",
+          "en": "The break point",
+          "uk": "Під точку пострілу"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Feet are set for the break point, so the body is most comfortable there.",
+        "uk": "Ноги ставлять під точку пострілу, щоб там корпусу було найзручніше."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "998b7ebb",
+    "summary": "9d2896f9",
+    "basics-three-points-p1": "1c55087e",
+    "basics-three-points-p2": "3c7a3032",
+    "basics-three-points-p3": "0624c4a9",
+    "technique-hold-pickup-break-points-p3": "60fa622f",
+    "basics-three-points-p4": "b7db9c25",
+    "technique-hold-pickup-break-points-limit": "5586588d",
+    "basics-three-points-sim": "31bc4087",
+    "basics-three-points-p5": "386e6dc9",
+    "basics-three-points-kp1": "4ef85b29",
+    "basics-three-points-kp2": "99cd94a9",
+    "basics-three-points-kp3": "1ebe16e0",
+    "technique-hold-pickup-break-points-kp4": "d9502cad",
+    "basics-three-points-kp4": "89fcf8ae",
+    "technique-hold-pickup-break-points-dyk": "d1e6badc",
+    "basics-three-points-ph1": "79a592aa",
+    "basics-three-points-ph2": "4e474642",
+    "basics-three-points-ph3": "6f04d4b1",
+    "basics-three-points-ph4": "417babd2",
+    "basics-three-points-q1": "a27518da",
+    "basics-three-points-q2": "57e44f1a",
+    "basics-three-points-q3": "32777e83",
+    "technique-hold-pickup-break-points-q1": "365f44cf",
+    "technique-hold-pickup-break-points-q2": "9326e420",
+    "technique-hold-pickup-break-points-q3": "04498068"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/technique-hold-pickup-break-points.json (9 languages): translate again (meaning or audit fix changed): basics-three-points-p3, basics-three-points-p4, basics-three-points-q2; moved from body to note, text unchanged: basics-three-points-p5; no longer used (delete from the overlays): basics-three-points-kp5, basics-three-points-title.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/technique-hold-pickup-break-points.json (9 languages): translate again (meaning or wording changed for readers): basics-three-points-p1, basics-three-points-p2, basics-three-points-p3, technique-hold-pickup-break-points-p3, basics-three-points-p4, basics-three-points-kp4, basics-three-points-q3; new keys to translate: technique-hold-pickup-break-points-limit.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in basics-three-points-kp4, basics-three-points-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash.",
+      "Overlays (9 languages), 2026-10-07: basics-three-points-p4 now names the {{tm:compak}} format “by squad” (as the rules lessons do) and uses the fact token for the 10-minute break; check the wording and re-sign the hash."
+    ]
+  }
+}

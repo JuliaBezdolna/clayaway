@@ -1,0 +1,135 @@
+{
+  "id": "targets-compak-layout",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "8c3ae343",
+    "summary": "79d4f1ae",
+    "sport-compak-layout-p1": "dcbe6c7b",
+    "sport-compak-layout-p2": "203222f1",
+    "sport-compak-layout-p3": "a25065ef",
+    "sport-compak-layout-p5": "0c81f17c",
+    "sport-compak-layout-ph1": "3f2accee",
+    "sport-compak-layout-ph2": "28df18bc",
+    "sport-compak-layout-ph3": "23025c04",
+    "sport-compak-layout-q1": "9c205cde",
+    "sport-compak-layout-q2": "ce882cb5",
+    "sport-compak-layout-q3": "55f9413f",
+    "compak-layout-rotation-p3": "7b59eb23",
+    "compak-layout-rotation-p4": "1748eaf4",
+    "compak-layout-rotation-kp1": "135742ac",
+    "compak-layout-rotation-kp2": "6d1c22f7",
+    "compak-layout-rotation-kp3": "f95e51ba",
+    "compak-layout-rotation-kp5": "8b9d487a",
+    "compak-layout-rotation-ph1": "200b9712",
+    "compak-layout-rotation-ph2": "70621467",
+    "compak-layout-rotation-ph3": "cfd3fd74",
+    "compak-layout-rotation-ph4": "19e4256f",
+    "compak-layout-rotation-q2": "120fb8bb",
+    "compak-layout-rotation-q3": "ceaca12d"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Como funciona um percurso de {{tm:compak}}",
+  "summary": "Cinco postos, seis máquinas de A a F, um retângulo marcado e um menu em cada posto: como funciona uma série de {{tm:compak}} e como a esquadra se desloca.",
+  "body": {
+    "sport-compak-layout-p1": "O {{tm:compak}} cabe num único campo. À frente dos atiradores marca-se um retângulo com 35 a 40 m de largura e 25 m de profundidade, com uma estaca com bandeira em cada canto. As regras exigem-no em cada campo. Sem vento, cada prato tem de o sobrevoar em algum momento do seu voo.",
+    "sport-compak-layout-p2": "Cinco postos de tiro, cada um um quadrado de 1 m, estão em linha, com 2 a 5 m entre os seus centros. São numerados de 1 a 5 da esquerda para a direita. Cada posto tem um {{term:firing-angle-limiter|Limitador de Ângulo de Tiro}} (Firing Angle Limiter), uma estrutura de tubos. Limita até onde a arma pode rodar para os lados, para cima ou para baixo, e impede o atirador de se inclinar ou avançar.",
+    "sport-compak-layout-p3": "Seis máquinas, de A a F da esquerda para a direita, têm cada uma um painel com a sua letra. Podem estar à frente, dos lados ou atrás dos atiradores; uma máquina atrás da linha fica numa {{term:tower|torre}}, {{fact:targets.compak-tower-height}}. Cada campo de Compak tem de ter três trajetórias obrigatórias. Duas são {{term:crosser|transversais}}: uma atravessa da esquerda para a direita, a outra da direita para a esquerda, e ambas passam sobre os lados AB e CD. A terceira é um {{term:going-away|prato de saída}}, que se afasta dos atiradores sobre o lado BC. O organizador escolhe as outras trajetórias; mantêm-se curtas para não chegarem ao campo seguinte.",
+    "sport-compak-layout-p5": "Algumas provas atiram o {{tm:compak}} em linha: cada atirador começa no posto 1 e termina no posto 5. Pergunte ao organizador qual é o sistema usado, porque o procedimento difere.",
+    "compak-layout-rotation-p3": "Uma {{term:round|série}} tem 25 pratos, cinco em cada posto. Os cinco pratos de um posto seguem uma de três combinações: {{fact:targets.compak-station-menus}}. Num mesmo campo, todos os doubles são do mesmo tipo: ao tiro (o segundo prato sai quando dispara ao primeiro) ou simultâneo (os dois saem juntos). O {{term:target-menu|menu}}, a lista dos pratos do posto por ordem, está afixado em cada posto. Os postos estão ligados numa cadeia: {{fact:targets.compak-double-chain}}.",
+    "compak-layout-rotation-p4": "Como uma esquadra de até seis se move ao longo dos postos: o atirador do posto 1 atira primeiro, e um sexto atirador espera atrás do posto 1. Quando o atirador do posto 5 termina, todos avançam um posto para a direita. O atirador do posto 5 vai esperar atrás do posto 1, e o atirador que estava à espera entra no posto 1. Muda-se de posto com a arma aberta e descarregada, sem perturbar quem ainda está a atirar."
+  },
+  "note": {},
+  "phrases": {
+    "sport-compak-layout-ph1": {
+      "meaning": "A esquadra roda; o atirador do posto 5 vai para trás do posto 1.",
+      "say": "Todos um posto para a direita. O número cinco, para a posição de espera."
+    },
+    "sport-compak-layout-ph2": {
+      "meaning": "O prato da máquina E é lançado de uma torre alta e passa por cima da cabeça.",
+      "say": "A máquina E é a da torre — o prato passa-lhe por cima da cabeça."
+    },
+    "sport-compak-layout-ph3": {
+      "meaning": "Respeite o limitador de ângulo de tiro; não rode a arma para lá dele.",
+      "say": "Atenção à estrutura — não passe com a arma para lá do tubo."
+    },
+    "compak-layout-rotation-ph1": {
+      "meaning": "Rotação depois de o atirador do posto 5 ter terminado.",
+      "say": "Avancem um posto para a direita."
+    },
+    "compak-layout-rotation-ph2": {
+      "meaning": "Entre postos a arma está aberta e descarregada.",
+      "say": "Arma aberta quando mudar de posto."
+    },
+    "compak-layout-rotation-ph3": {
+      "meaning": "A regra do encadeamento do menu de Compak®.",
+      "say": "O seu double começa com o último prato do posto anterior."
+    },
+    "compak-layout-rotation-ph4": {
+      "meaning": "O sexto atirador fica atrás do posto 1.",
+      "say": "Está à espera atrás do um."
+    }
+  },
+  "key_points": {
+    "compak-layout-rotation-kp1": "Retângulo de 35–40 m × 25 m; cinco postos de 1 m; seis máquinas A–F.",
+    "compak-layout-rotation-kp2": "Obrigatórios: transversal da esquerda para a direita, transversal da direita para a esquerda, prato de saída.",
+    "compak-layout-rotation-kp3": "Série = 25 pratos, 5 por posto; um único tipo de double em todo o campo.",
+    "compak-layout-rotation-kp5": "Depois do posto 5: esperar atrás do posto 1; todos avançam um posto para a direita."
+  },
+  "quiz": {
+    "sport-compak-layout-q1": {
+      "q": "Quantas máquinas e quantos postos tem um campo de Compak® Sporting?",
+      "options": {
+        "a": "4 máquinas, 3 postos",
+        "b": "6 máquinas, 5 postos",
+        "c": "5 máquinas, 6 postos",
+        "d": "8 máquinas, 8 postos"
+      },
+      "explain": "Máquinas de A a F e postos de 1 a 5."
+    },
+    "sport-compak-layout-q2": {
+      "q": "Numa esquadra de seis, onde está o sexto atirador enquanto os outros atiram?",
+      "options": {
+        "a": "Na sede do clube",
+        "b": "Ao lado do árbitro, no posto 5",
+        "c": "Atrás da máquina F",
+        "d": "À espera atrás do posto 1"
+      },
+      "explain": "O atirador em espera fica atrás do posto 1 e entra nele depois de cada rotação."
+    },
+    "sport-compak-layout-q3": {
+      "q": "Para que serve o limitador de ângulo de tiro?",
+      "options": {
+        "a": "Limita o movimento da arma e impede o atirador de avançar",
+        "b": "Mede a velocidade de cada prato lançado",
+        "c": "Guarda os cartuchos para toda a série",
+        "d": "Lança os pratos quando o atirador os pede"
+      },
+      "explain": "É uma estrutura de segurança em cada posto que limita o movimento lateral e vertical da arma."
+    },
+    "compak-layout-rotation-q2": {
+      "q": "O atirador do posto 5 terminou o seu menu. Para onde vai?",
+      "options": {
+        "a": "Para o posto 1",
+        "b": "Fica no posto 5",
+        "c": "Para trás do posto 1, à espera",
+        "d": "Para junto do árbitro, assinar a folha"
+      },
+      "explain": "Passa a ser o atirador em espera atrás do posto 1, enquanto todos os outros avançam um posto para a direita."
+    },
+    "compak-layout-rotation-q3": {
+      "q": "Num campo de Compak®, o primeiro prato de cada double é…",
+      "options": {
+        "a": "qualquer prato à escolha do atirador",
+        "b": "sempre a máquina A",
+        "c": "um prato mostrado só a pedido",
+        "d": "o último prato atirado no posto anterior"
+      },
+      "explain": "O menu encadeia os postos: cada double começa com o prato que terminou o posto anterior."
+    }
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "id": "gun-fit",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 8,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "coach",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gun-fit",
+      "women-gun-fit"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "gun-fit",
+    "length-of-pull",
+    "comb",
+    "adjustable-comb",
+    "cast",
+    "stock",
+    "rib",
+    "bead",
+    "recoil-pad",
+    "grip",
+    "fore-end",
+    "gun-fitter",
+    "pattern-plate",
+    "master-eye",
+    "recoil",
+    "gauge",
+    "coach"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-permitted-guns"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    }
+  ],
+  "facts": [
+    "gear.fit-plate-distance",
+    "gear.fitasc-max-gauge",
+    "gear.length-of-pull"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Example of a factory specification: length of pull 14¾ in (Browning Citori 725 Sporting)",
+        "uk": "Приклад заводської специфікації: довжина приклада 14¾ дюйма (Browning Citori 725 Sporting)"
+      },
+      "url": "https://www.browning.com/products/firearms/shotguns/citori-725/citori-725-sporting.html",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Shooting UK — Why you should always pattern your shotgun (pattern plate at 16 yards to check gun fit)",
+        "uk": "Shooting UK — навіщо перевіряти осип рушниці (пристрілювальна плита на 16 ярдах для перевірки підгонки)"
+      },
+      "url": "https://www.shootinguk.co.uk/answers/why-you-should-always-pattern-your-shotgun-16881/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Gun fit basics",
+    "uk": "Підгонка рушниці"
+  },
+  "summary": {
+    "en": "Length of pull, comb height, cast, pitch and weight: why a gun has to fit the shooter, whatever their build, and how fit is checked in {{tm:sporting}} and {{tm:compak}}.",
+    "uk": "Довжина приклада, висота гребеня, відведення, нахил і вага: чому рушниця має пасувати стрільцю будь-якої статури і як підгонку перевіряють у {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "gun-fit-p1",
+      "t": "p",
+      "en": "In clay shooting you do not aim a shotgun like a rifle, you point it. You look at the target, the gun comes up to the cheek and the shot follows almost at once. A rifle has a rear sight that you line up with the front one. A shotgun has no rear sight: your eye does that job. So if the stock does not put your eye in the right place above the barrels, the shot goes where the gun points, not where you look.",
+      "uk": "У стендовій стрільбі рушницю не прицілюють, як гвинтівку, а наводять. Ви дивитеся на мішень, рушниця підходить до щоки, і постріл звучить майже одразу. У гвинтівки є задній приціл (цілик), який суміщають із мушкою. У рушниці його немає — його роль виконує ваше око. Тож якщо приклад не ставить око в потрібне місце над стволами, дріб летить туди, куди дивиться рушниця, а не туди, куди дивитеся ви."
+    },
+    {
+      "k": "gun-fit-p2",
+      "t": "p",
+      "en": "{{term:length-of-pull|Length of pull}} is {{fact:gear.length-of-pull}}. For adults it is often about 36–38 cm (14¼–15 in), and many factory competition guns come at about 37.5 cm (14¾ in). This is only a guide.",
+      "uk": "{{term:length-of-pull|Довжина приклада}} (length of pull) — це {{fact:gear.length-of-pull}}. У дорослих вона часто становить приблизно 36–38 см (14¼–15 дюймів), а в багатьох заводських спортивних рушниць — близько 37,5 см (14¾ дюйма). Це лише орієнтир."
+    },
+    {
+      "k": "women-gun-fit-p2",
+      "t": "p",
+      "en": "A stock that is too long catches on your clothes as you mount the gun and may land on the arm instead of the shoulder. One that is too short lets the thumb of the trigger hand hit your nose under recoil. A stock is shortened, or fitted with a thinner or thicker pad.",
+      "uk": "Задовгий приклад чіпляється за одяг, коли ви вкладаєте рушницю, і може лягти на руку замість плеча. Закороткий — і великий палець руки на спуску від віддачі б’є по носі. Приклад укорочують або ставлять тонший чи товщий затильник."
+    },
+    {
+      "k": "gun-fit-p3",
+      "t": "p",
+      "en": "{{term:comb|Comb}} height (gun fitters also say 'drop', meaning how far the comb sits below the line of the {{term:rib|rib}}) decides how high your eye sits above the rib. Many {{tm:sporting}} and {{tm:compak}} shooters like to see a little of the rib in front of the {{term:bead|bead}}. A higher comb moves the point of impact up, a lower one down.",
+      "uk": "Висота {{term:comb|гребеня}} (comb; підгонщики ще кажуть drop — наскільки гребінь нижчий за лінію {{term:rib|планки}}) визначає, наскільки високо око над планкою. Багато стрільців у {{tm:sporting}} і {{tm:compak}} люблять бачити трохи планки перед {{term:bead|мушкою}}. Вищий гребінь зміщує влучання вгору, нижчий — униз."
+    },
+    {
+      "k": "women-gun-fit-p3",
+      "t": "p",
+      "en": "Faces and necks differ a lot, so the comb height that suits one shooter may not suit another. That is why many competition guns have an {{term:adjustable-comb|adjustable comb}}, which is raised or lowered without remaking the stock.",
+      "uk": "Обличчя й шиї в людей дуже різні, тож висота гребеня, яка пасує одному стрільцю, може не пасувати іншому. Тому багато спортивних рушниць мають {{term:adjustable-comb|регульований гребінь}}, який піднімають чи опускають без переробки приклада."
+    },
+    {
+      "k": "gun-fit-p4",
+      "t": "p",
+      "en": "{{term:cast|Cast}} is a slight sideways bend in the stock, so that the eye sits exactly over the rib. For a right-handed shooter the stock bends to the right (cast off), for a left-hander to the left (cast on). It is a matter of a few millimetres, but without it a gun may keep shooting to one side.",
+      "uk": "{{term:cast|Відведення}} (cast) — легкий вигин приклада вбік, щоб око опинилося точно над планкою. Для праворукого стрільця приклад відводять управо (cast off), для ліворукого — уліво (cast on). Ідеться про кілька міліметрів, але без них рушниця може раз у раз бити вбік."
+    },
+    {
+      "k": "women-gun-fit-p1",
+      "t": "p",
+      "anchor": "women-gun-fit",
+      "en": "Factory stocks are made to average dimensions, and many shooters are not average. People with shorter arms, a longer neck or a different chest shape often have to reach forward for the grip and crane the neck down to the comb. They also feel more recoil. Often the cause is the gun's dimensions rather than the shooter's strength.",
+      "uk": "Заводські приклади роблять під середні розміри, а багато стрільців — не «середні». Люди з коротшими руками, довшою шиєю чи іншою формою грудей у такій рушниці часто мусять тягнутися до шийки приклада й згинати шию до гребеня. Віддачу вони теж відчувають сильніше. Часто причина не в силі, а в розмірах рушниці."
+    },
+    {
+      "k": "women-gun-fit-p4",
+      "t": "p",
+      "en": "Pitch is the angle at which the end of the stock (the butt) is cut, compared with the barrels. It decides whether the whole butt rests flat on your shoulder or only its top or bottom corner. If the lower corner (the toe) digs into your chest, it hurts; a fitter can change the pitch or turn the toe slightly outwards.",
+      "uk": "Нахил затильника (pitch) — під яким кутом зрізано задній край приклада відносно стволів. Від цього залежить, чи приклад лягає на плече всією площиною, чи лише верхнім або нижнім кутом. Якщо нижній кут (toe) впирається в груди, це боляче; майстер може змінити нахил або злегка розвернути цей кут назовні."
+    },
+    {
+      "k": "women-gun-fit-p5",
+      "t": "p",
+      "en": "The {{term:grip|grip}} and {{term:fore-end|fore-end}} must suit the hand. A grip that is too thick is hard to hold with a small hand, and the finger struggles to sit properly on the trigger.",
+      "uk": "{{term:grip|Шийка приклада}} (пістолетне руків’я, grip) і {{term:fore-end|цівка}} мають відповідати долоні. Затовсту шийку важко тримати маленькою рукою, і пальцю важко правильно лягти на спусковий гачок."
+    },
+    {
+      "k": "women-gun-fit-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "Weight is a compromise. A light gun tires the arms less but pushes harder into the shoulder; a heavier one swings more steadily and recoils more softly but is tiring over a long day. The rules allow guns {{fact:gear.fitasc-max-gauge}}, so a 20 gauge is fine; a lighter 12 gauge with lighter cartridges is another option.",
+      "uk": "Вага — компроміс. Легка рушниця менше втомлює руки, але сильніше штовхає в плече; важча рухається стабільніше й м’якше віддає, але втомлює за довгий день. Правила дозволяють рушниці, у яких {{fact:gear.fitasc-max-gauge}}, тож 20 калібр підходить; ще один варіант — легша рушниця 12 калібру й легші патрони."
+    },
+    {
+      "k": "gun-fit-p5",
+      "t": "p",
+      "en": "Fit also depends on your {{term:master-eye|master eye}}. If it is on the other side from the shoulder you shoot from, your coach will suggest what to do. How to check it: {{lesson:technique-master-eye}}.",
+      "uk": "Підгонка залежить і від вашого {{term:master-eye|провідного ока}}. Якщо воно не з того боку, з якого ви стріляєте, тренер підкаже, що робити. Як його перевірити: {{lesson:technique-master-eye}}."
+    },
+    {
+      "k": "gun-fit-p6",
+      "t": "p",
+      "en": "Fitting is done by a coach or a {{term:gun-fitter|gun fitter}}. Often you fire at a {{term:pattern-plate|pattern plate}} from {{fact:gear.fit-plate-distance}}, to see whether the centre of the pattern matches where you were looking. Some fitters use a try gun with a fully adjustable stock.",
+      "uk": "Підгонку робить тренер або {{term:gun-fitter|майстер-підгонщик}} (gun fitter). Часто для цього стріляють по {{term:pattern-plate|пристрілювальній плиті}} з відстані {{fact:gear.fit-plate-distance}} і дивляться, чи збігається центр осипу з точкою, куди дивився стрілець. Деякі підгонщики користуються пробною рушницею (try gun) з повністю регульованим прикладом."
+    },
+    {
+      "k": "gun-fit-p7",
+      "t": "tip",
+      "en": "Fit changes with you. With experience your stance and mount become more consistent, and thick winter clothing makes the stock effectively longer. So do not buy your first gun by eye or change everything yourself after reading the internet: shoot several guns, then adjust step by step with an expert.",
+      "uk": "Підгонка змінюється разом із вами. З досвідом стійка й вкладка стають стабільнішими, а товстий зимовий одяг фактично подовжує приклад. Тож не купуйте першу рушницю «на око» і не міняйте все самі за порадами з інтернету: постріляйте з кількох рушниць, а потім підганяйте поступово з фахівцем."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gun-fit-kp1",
+      "en": "A shotgun is pointed, not aimed. It has no rear sight: your eye is the sight, so the stock must put it in the right place.",
+      "uk": "Рушницю наводять, а не прицілюють. У неї немає заднього прицілу: ним є ваше око, тож приклад має ставити його на місце."
+    },
+    {
+      "k": "gun-fit-kp2",
+      "en": "Length of pull is {{fact:gear.length-of-pull}}.",
+      "uk": "Довжина приклада — це {{fact:gear.length-of-pull}}."
+    },
+    {
+      "k": "gun-fit-kp3",
+      "en": "Comb height moves the point of impact up or down, cast moves it sideways.",
+      "uk": "Висота гребеня зміщує влучання вгору чи вниз, відведення — убік."
+    },
+    {
+      "k": "women-gun-fit-kp3",
+      "en": "Pitch, grip size and weight also matter, whatever your build.",
+      "uk": "Нахил приклада, товщина шийки й вага теж важливі — для будь-якої статури."
+    },
+    {
+      "k": "gun-fit-kp5",
+      "en": "Fitting is done with a coach or a fitter, checked on a plate and changed step by step.",
+      "uk": "Підгонку роблять із тренером або підгонщиком, перевіряють на плиті й змінюють поступово."
+    }
+  ],
+  "did_you_know": {
+    "k": "gun-fit-dyk",
+    "en": "A try gun has a stock on hinges and sliders, so a fitter can change its length, height and cast right on the ground, between shots.",
+    "uk": "Пробна рушниця (try gun) має приклад на шарнірах і повзунах, тож підгонщик може змінювати довжину, висоту й відведення просто на стенді, між пострілами."
+  },
+  "quiz": [
+    {
+      "k": "gun-fit-q1",
+      "q": {
+        "en": "What is the length of pull?",
+        "uk": "Що таке довжина приклада (length of pull)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The length of the barrels from chamber to muzzle",
+          "uk": "Довжина стволів від патронника до дула"
+        },
+        {
+          "k": "b",
+          "en": "From the trigger to the middle of the butt pad",
+          "uk": "Відстань від спускового гачка до середини затильника"
+        },
+        {
+          "k": "c",
+          "en": "The height of the comb above the rib",
+          "uk": "Висота гребеня над планкою"
+        },
+        {
+          "k": "d",
+          "en": "From the rib to the bead at the muzzle",
+          "uk": "Відстань від планки до мушки біля дула"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Length of pull is measured from the trigger to the middle of the butt pad.",
+        "uk": "Довжину приклада вимірюють від спускового гачка до середини затильника."
+      }
+    },
+    {
+      "k": "gun-fit-q2",
+      "q": {
+        "en": "Which way is the stock bent for a right-handed shooter?",
+        "uk": "Куди відводять приклад для праворукого стрільця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To the left (cast on)",
+          "uk": "Уліво (cast on)"
+        },
+        {
+          "k": "b",
+          "en": "Upwards, towards the eye",
+          "uk": "Угору, до ока"
+        },
+        {
+          "k": "c",
+          "en": "Nowhere: cast is for left-handers",
+          "uk": "Ніяк: відведення лише для ліворуких"
+        },
+        {
+          "k": "d",
+          "en": "To the right (cast off)",
+          "uk": "Управо (cast off)"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "For right-handers it is cast off, to the right; for left-handers cast on, to the left.",
+        "uk": "Для праворуких — cast off, управо; для ліворуких — cast on, уліво."
+      }
+    },
+    {
+      "k": "gun-fit-q3",
+      "q": {
+        "en": "Why does gun fit matter?",
+        "uk": "Чому підгонка рушниці важлива?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Your eye is the sight, so the stock must place it right",
+          "uk": "Око — це приціл, тож приклад має ставити його на місце"
+        },
+        {
+          "k": "b",
+          "en": "The FITASC rules require a fitting certificate",
+          "uk": "Правила FITASC вимагають довідку про підгонку"
+        },
+        {
+          "k": "c",
+          "en": "Fit decides which gauge you may shoot",
+          "uk": "Від підгонки залежить, яким калібром можна стріляти"
+        },
+        {
+          "k": "d",
+          "en": "It matters for hunters only, not for clays",
+          "uk": "Вона важлива лише мисливцям, а не на стенді"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A shotgun has no rear sight: it is pointed with the eye, and a badly fitted gun keeps shooting away from where you look.",
+        "uk": "У рушниці немає заднього прицілу: її наводять поглядом, і погано підігнана рушниця раз у раз б’є повз точку погляду."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "women-gun-fit-q1",
+      "q": {
+        "en": "The stock catches on clothing and lands on the arm during the mount. What is usually changed?",
+        "uk": "Під час вкладки приклад чіпляється за одяг і лягає на руку. Що зазвичай змінюють?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The length of pull: the stock is shortened",
+          "uk": "Довжину приклада: його вкорочують"
+        },
+        {
+          "k": "b",
+          "en": "The chokes in both of the barrels",
+          "uk": "Чоки в обох стволах"
+        },
+        {
+          "k": "c",
+          "en": "The tint of the lenses in the glasses",
+          "uk": "Колір лінз в окулярах"
+        },
+        {
+          "k": "d",
+          "en": "The shot load of the cartridges used",
+          "uk": "Наважку патронів, якими стріляють"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A length of pull that is too long is a common problem; the stock is shortened or a thinner pad is fitted.",
+        "uk": "Задовгий приклад — поширена проблема; його вкорочують або ставлять тонший затильник."
+      }
+    },
+    {
+      "k": "women-gun-fit-q2",
+      "q": {
+        "en": "What is an adjustable comb for?",
+        "uk": "Навіщо регульований гребінь?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To make the gun lighter to carry",
+          "uk": "Щоб рушницю було легше носити"
+        },
+        {
+          "k": "b",
+          "en": "To set where the eye sits above the rib",
+          "uk": "Щоб налаштувати, де око над планкою"
+        },
+        {
+          "k": "c",
+          "en": "To change the gauge of the gun",
+          "uk": "Щоб змінювати калібр рушниці"
+        },
+        {
+          "k": "d",
+          "en": "To hold spare chokes in the stock",
+          "uk": "Щоб тримати в прикладі запасні чоки"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Comb height decides how the eye looks along the rib.",
+        "uk": "Висота гребеня визначає, як око дивиться вздовж планки."
+      }
+    },
+    {
+      "k": "women-gun-fit-q3",
+      "disc": "both",
+      "q": {
+        "en": "Do the FITASC rules allow 20-gauge guns?",
+        "uk": "Чи дозволяють правила FITASC рушниці 20 калібру?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, only 12 gauge is allowed",
+          "uk": "Ні, лише 12 калібр"
+        },
+        {
+          "k": "b",
+          "en": "Only for juniors under 18",
+          "uk": "Лише для юніорів до 18 років"
+        },
+        {
+          "k": "c",
+          "en": "Yes: the gauge may not exceed 12",
+          "uk": "Так: калібр не може бути більшим за 12"
+        },
+        {
+          "k": "d",
+          "en": "Only in {{tm:compak}}",
+          "uk": "Лише в {{tm:compak}}"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "FITASC sets an upper limit only: no larger than 12 gauge.",
+        "uk": "FITASC обмежує калібр лише зверху: не більший за 12."
+      },
+      "rule_ref": "sporting:ch7-permitted-guns"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "ec52b8ab",
+    "summary": "33509b15",
+    "gun-fit-p1": "c6c0db7f",
+    "gun-fit-p2": "c7cd3a3a",
+    "women-gun-fit-p2": "8c17ef7d",
+    "gun-fit-p3": "64d5efd6",
+    "women-gun-fit-p3": "fca10114",
+    "gun-fit-p4": "6f9c4ae8",
+    "women-gun-fit-p1": "6297d7ad",
+    "women-gun-fit-p4": "9a937e9c",
+    "women-gun-fit-p5": "c70b77ad",
+    "women-gun-fit-p6": "43abc9c7",
+    "gun-fit-p5": "5e2c1a5e",
+    "gun-fit-p6": "c5e5387a",
+    "gun-fit-p7": "51b400cc",
+    "gun-fit-kp1": "50158774",
+    "gun-fit-kp2": "826551a7",
+    "gun-fit-kp3": "9d601618",
+    "women-gun-fit-kp3": "dba012d1",
+    "gun-fit-kp5": "059bac85",
+    "gun-fit-dyk": "c28917f3",
+    "gun-fit-q1": "cc075b4c",
+    "gun-fit-q2": "a9fbe1c8",
+    "gun-fit-q3": "f400b706",
+    "women-gun-fit-q1": "6b6f1f5b",
+    "women-gun-fit-q2": "04cb5ba1",
+    "women-gun-fit-q3": "2410a1bb"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

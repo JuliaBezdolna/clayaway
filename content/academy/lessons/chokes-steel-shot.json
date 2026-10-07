@@ -1,0 +1,349 @@
+{
+  "id": "chokes-steel-shot",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "chokes-steel-shot"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "steel-shot",
+    "soft-iron-shot",
+    "lead-shot",
+    "choke",
+    "modified",
+    "improved-cylinder",
+    "full-choke",
+    "pattern",
+    "fixed-choke",
+    "gunsmith"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "gear.steel-vs-lead-weight"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "C.I.P. — proof marks in force, including the steel shot proof mark",
+        "uk": "C.I.P. — чинні клейма випробувань, зокрема клеймо для сталевого дробу"
+      },
+      "url": "https://www.cip-bobp.org/en/proof-marks-in-force",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Eley Hawk — Proof and C.I.P.: high performance steel only in guns with the fleur-de-lis steel shot proof",
+        "uk": "Eley Hawk — випробування і C.I.P.: потужні сталеві патрони лише для рушниць із клеймом-лілією"
+      },
+      "url": "https://www.eleyhawkltd.com/insight/proof-and-cip",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "GMK (UK distributor of Beretta) — advice on steel shot and chokes",
+        "uk": "GMK (дистриб’ютор Beretta у Великій Британії) — поради щодо сталевого дробу й чоків"
+      },
+      "url": "https://www.gmk.co.uk/news/gmk-advice-on-steel-shot",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Teague Chokes — FAQ: chokes for steel shot (standard steel up to 1/2, high performance up to 1/4)",
+        "uk": "Teague Chokes — відповіді на запитання: чоки для сталевого дробу (стандартна сталь — до 1/2, потужна — до 1/4)"
+      },
+      "url": "https://www.teaguechokes.com/faq",
+      "rel": "noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Steel shot and chokes",
+    "uk": "Сталевий дріб і чоки"
+  },
+  "summary": {
+    "en": "Steel shot is hard and does not squeeze in the choke, so it patterns tighter. Which chokes suit it, how to read the proof marks, and what this means at {{tm:sporting}} and {{tm:compak}} grounds that require steel.",
+    "uk": "Сталевий дріб твердий і не стискається в чоку, тож осип у нього щільніший. Які чоки з ним підходять, як читати клейма і що це означає на стендах {{tm:sporting}} і {{tm:compak}}, де вимагають сталь."
+  },
+  "body": [
+    {
+      "k": "chokes-steel-shot-p1",
+      "t": "p",
+      "en": "Some grounds, especially near water or in protected areas, allow only lead-free shot, most often {{term:steel-shot|steel}} or {{term:soft-iron-shot|soft iron}}. The shot itself is covered in {{lesson:cartridges-lead-and-steel}}. Here we look at what it means for chokes.",
+      "uk": "Деякі стенди, особливо біля води чи в природоохоронних зонах, дозволяють лише безсвинцевий дріб — найчастіше {{term:steel-shot|сталевий}} або з {{term:soft-iron-shot|м’якого заліза}}. Про сам дріб ідеться в уроці {{lesson:cartridges-lead-and-steel}}. Тут — що він означає для чоків."
+    },
+    {
+      "k": "chokes-steel-shot-p2",
+      "t": "p",
+      "en": "A {{term:lead-shot|lead}} pellet is soft and deforms slightly as it passes through the choke. A steel pellet is hard and does not squeeze. So the same choke gives a noticeably tighter {{term:pattern|pattern}} with steel, and many shooters fit a choke one step more open: 1/4 instead of 1/2.",
+      "uk": "{{term:lead-shot|Свинцева}} дробина м’яка й трохи деформується, проходячи крізь чок. Сталева — тверда й не стискається. Тому той самий чок зі сталлю дає помітно щільніший {{term:pattern|осип}}, і багато стрільців ставлять чок на крок відкритіший: 1/4 замість 1/2."
+    },
+    {
+      "k": "chokes-steel-shot-p3",
+      "t": "p",
+      "en": "Hard steel also puts more stress on the choke. Many makers and distributors advise chokes no tighter than {{term:modified|modified}} (1/2) with standard steel loads. For high performance steel (the more powerful kind, explained below) some suggest 1/4 at most. A {{term:full-choke|full choke}} with steel is mostly not advised. The exact limit depends on the gun, so read the maker's manual.",
+      "uk": "Тверда сталь ще й сильніше навантажує чок. Багато виробників і дистриб’юторів радять зі стандартними сталевими патронами чоки не щільніші за {{term:modified|півчок}} (1/2). Для потужніших патронів (high performance, про них нижче) дехто радить щонайбільше 1/4. {{term:full-choke|Повний чок}} зі сталлю здебільшого не радять. Точна межа залежить від рушниці, тож читайте інструкцію виробника."
+    },
+    {
+      "k": "chokes-steel-shot-p4",
+      "t": "p",
+      "en": "Chokes made for steel are often marked 'Steel' or 'Steel OK', and some carry 'Lead only'. If a choke has no marking and you have no manual, ask a {{term:gunsmith|gunsmith}}.",
+      "uk": "Чоки для сталі часто мають напис «Steel» або «Steel OK», а деякі — «Lead only» (лише свинець). Якщо на чоку нічого не написано й інструкції немає, запитайте {{term:gunsmith|зброяра}}."
+    },
+    {
+      "k": "chokes-steel-shot-p5",
+      "t": "steps",
+      "en": [
+        "Old thin-walled barrels, especially with a {{term:fixed-choke|fixed}} full choke, can be damaged by steel: a ring bulge may appear near the muzzle.",
+        "Steel cartridges come in two classes under the C.I.P. rules (the common test standards for guns and cartridges used in most of Europe): standard steel and high performance steel.",
+        "Standard steel may be fired in a gun in good condition with the usual proof marks. These are the stamps a testing station (proof house) puts on a gun after test-firing it.",
+        "High performance steel may be fired only in a gun that has passed a separate steel-shot test; its barrels carry a lily-shaped stamp (fleur-de-lis), often with the words 'Steel Shot'.",
+        "Steel clay loads are usually standard steel. Check the box and your gun's papers; if in doubt, ask a gunsmith."
+      ],
+      "uk": [
+        "Старі тонкостінні стволи, особливо з {{term:fixed-choke|фіксованим}} повним чоком, сталь може пошкодити: біля дула з’являється кільцеве здуття.",
+        "За правилами C.I.P. (спільними нормами випробувань зброї й патронів, які діють у більшості країн Європи) сталеві патрони бувають двох класів: стандартні (standard steel) і потужні (high performance steel).",
+        "Стандартні можна стріляти з рушниці в доброму стані зі звичайними клеймами. Це відбитки, які ставить випробувальна станція (proof house) після перевірного відстрілу.",
+        "Потужні — лише з рушниці, що пройшла окреме випробування для сталевого дробу; на її стволах стоїть клеймо у формі лілії (fleur-de-lis), часто з написом «Steel Shot».",
+        "Спортивні сталеві патрони зазвичай стандартні. Перевірте коробку й документи рушниці, а в разі сумніву запитайте зброяра."
+      ]
+    },
+    {
+      "k": "chokes-steel-shot-p6",
+      "t": "tip",
+      "en": "Going to a ground that requires steel? Find out in advance which cartridges are allowed and bring chokes made for steel. Before a competition, shoot those cartridges in practice to see how your pattern changes.",
+      "uk": "Їдете на стенд, де вимагають сталь? З’ясуйте заздалегідь, які патрони дозволено, і візьміть чоки, придатні для сталі. Перед змаганням постріляйте цими патронами на тренуванні, щоб побачити, як змінився осип."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "chokes-steel-shot-kp1",
+      "en": "Steel shot does not squeeze in the choke and patterns tighter.",
+      "uk": "Сталевий дріб не стискається в чоку й дає щільніший осип."
+    },
+    {
+      "k": "chokes-steel-shot-kp2",
+      "en": "With steel, many shooters go one choke more open.",
+      "uk": "Зі сталлю багато стрільців ставлять чок на крок відкритіший."
+    },
+    {
+      "k": "chokes-steel-shot-kp3",
+      "en": "Many makers advise no tighter than 1/2 with steel; full is mostly not advised.",
+      "uk": "Багато виробників радять зі сталлю не щільніше за 1/2; повний чок здебільшого не радять."
+    },
+    {
+      "k": "chokes-steel-shot-kp4",
+      "en": "Look for a 'Steel' marking on the choke and read the manual.",
+      "uk": "Шукайте маркування «Steel» на чоку й читайте інструкцію."
+    },
+    {
+      "k": "chokes-steel-shot-kp5",
+      "en": "Old thin-walled barrels can be damaged; high performance steel needs the fleur-de-lis proof.",
+      "uk": "Старі тонкостінні стволи можуть постраждати; потужна сталь потребує клейма-лілії."
+    }
+  ],
+  "did_you_know": {
+    "k": "chokes-steel-shot-dyk",
+    "en": "A steel pellet is {{fact:gear.steel-vs-lead-weight}}, so it loses speed sooner. That is why steel users often choose slightly larger shot, where the ground's rules allow it.",
+    "uk": "Сталева дробина {{fact:gear.steel-vs-lead-weight}}, тож швидше втрачає швидкість. Тому зі сталлю часто беруть трохи більший дріб, якщо правила стенду це дозволяють."
+  },
+  "quiz": [
+    {
+      "k": "chokes-steel-shot-q1",
+      "q": {
+        "en": "Why does steel shot pattern tighter than lead through the same choke?",
+        "uk": "Чому зі сталевим дробом осип щільніший, ніж зі свинцевим, через той самий чок?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Steel is heavier than lead shot",
+          "uk": "Сталь важча за свинцевий дріб"
+        },
+        {
+          "k": "b",
+          "en": "Hard steel pellets do not squeeze in the choke",
+          "uk": "Тверді сталеві дробини не стискаються в чоку"
+        },
+        {
+          "k": "c",
+          "en": "Steel cartridges hold many more pellets",
+          "uk": "Сталеві патрони мають значно більше дробин"
+        },
+        {
+          "k": "d",
+          "en": "Steel shot leaves the barrel faster",
+          "uk": "Сталевий дріб вилітає зі ствола швидше"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Soft lead deforms slightly in the choke; hard steel does not, so it stays more compact.",
+        "uk": "М’який свинець трохи деформується в чоку, тверда сталь — ні, тому вона летить купніше."
+      }
+    },
+    {
+      "k": "chokes-steel-shot-q2",
+      "q": {
+        "en": "Which choke is mostly not advised with steel shot?",
+        "uk": "Який чок здебільшого не радять використовувати зі сталевим дробом?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Cylinder",
+          "uk": "Циліндр"
+        },
+        {
+          "k": "b",
+          "en": "Improved cylinder",
+          "uk": "Improved cylinder (1/4)"
+        },
+        {
+          "k": "c",
+          "en": "Modified",
+          "uk": "Півчок (1/2)"
+        },
+        {
+          "k": "d",
+          "en": "Full",
+          "uk": "Повний чок"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Full choke with steel is mostly not advised; the exact limit is in the maker's manual.",
+        "uk": "Повний чок зі сталлю здебільшого не радять; точна межа — в інструкції виробника."
+      }
+    },
+    {
+      "k": "chokes-steel-shot-q3",
+      "q": {
+        "en": "How do you find out whether a choke suits steel?",
+        "uk": "Як дізнатися, чи придатний чок для сталі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "From its marking and the maker's manual",
+          "uk": "За маркуванням і інструкцією виробника"
+        },
+        {
+          "k": "b",
+          "en": "From the colour of the barrel finish",
+          "uk": "За кольором покриття ствола"
+        },
+        {
+          "k": "c",
+          "en": "By firing a shot and looking at it",
+          "uk": "Вистрілити й подивитися"
+        },
+        {
+          "k": "d",
+          "en": "No need: all modern chokes are",
+          "uk": "Не треба: усі сучасні чоки придатні"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Look for the marking on the choke and check the manual; if in doubt, ask a gunsmith.",
+        "uk": "Шукайте напис на чоку й перевіряйте інструкцію; у разі сумніву — до зброяра."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "chokes-steel-shot-q4",
+      "q": {
+        "en": "Which steel cartridges need a gun with the fleur-de-lis steel-shot proof?",
+        "uk": "Для яких сталевих патронів потрібна рушниця з клеймом-лілією для сталевого дробу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Standard steel clay loads",
+          "uk": "Стандартні сталеві спортивні патрони"
+        },
+        {
+          "k": "b",
+          "en": "High performance steel loads",
+          "uk": "Потужні сталеві патрони (high performance)"
+        },
+        {
+          "k": "c",
+          "en": "Lead loads with a fibre wad",
+          "uk": "Свинцеві патрони з фібровим пижем"
+        },
+        {
+          "k": "d",
+          "en": "Soft iron loads for practice",
+          "uk": "Тренувальні патрони з м’якого заліза"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Standard steel may be fired in a gun in good condition with the usual proof; high performance steel needs the special steel-shot proof.",
+        "uk": "Стандартну сталь можна стріляти з рушниці в доброму стані зі звичайними клеймами; потужна сталь потребує окремого випробування для сталевого дробу."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "fedccba2",
+    "summary": "4c8df65a",
+    "chokes-steel-shot-p1": "6e1820a5",
+    "chokes-steel-shot-p2": "a5964f74",
+    "chokes-steel-shot-p3": "80065cba",
+    "chokes-steel-shot-p4": "6938f339",
+    "chokes-steel-shot-p5": "27ec5c98",
+    "chokes-steel-shot-p6": "ccecd577",
+    "chokes-steel-shot-kp1": "cf25ddca",
+    "chokes-steel-shot-kp2": "26616153",
+    "chokes-steel-shot-kp3": "568670ff",
+    "chokes-steel-shot-kp4": "cb2ee2d8",
+    "chokes-steel-shot-kp5": "4e8f1749",
+    "chokes-steel-shot-dyk": "2cdebfbb",
+    "chokes-steel-shot-q1": "125543e4",
+    "chokes-steel-shot-q2": "e0224987",
+    "chokes-steel-shot-q3": "7bcf1c52",
+    "chokes-steel-shot-q4": "0ff453e4"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

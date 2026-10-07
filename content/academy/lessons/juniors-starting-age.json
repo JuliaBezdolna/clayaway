@@ -1,0 +1,345 @@
+{
+  "id": "juniors-starting-age",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "parent",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/categories-2027",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "juniors-starting-age"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "junior",
+    "coach",
+    "master-eye",
+    "gauge",
+    "recoil",
+    "load-weight",
+    "low-recoil-cartridge",
+    "youth-gun",
+    "going-away",
+    "hearing-protection",
+    "safety-glasses"
+  ],
+  "rule_refs": [
+    {
+      "book": "categories",
+      "id": "junior"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    }
+  ],
+  "facts": [
+    "basics.fitasc-junior-age",
+    "competitions.categories-from"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — Categories (valid from 1 January 2027)",
+        "uk": "FITASC — категорії (чинні з 1 січня 2027 року)"
+      },
+      "url": "https://www.fitasc.com/competitions/categories",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Wikipedia — Gauge (firearms): how the gauge number was defined",
+        "uk": "Вікіпедія — калібр гладкоствольної зброї (gauge): як визначали номер калібру"
+      },
+      "url": "https://en.wikipedia.org/wiki/Gauge_(firearms)",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "When a child can start",
+    "uk": "З якого віку починати"
+  },
+  "summary": {
+    "en": "The minimum age for {{tm:sporting}} and {{tm:compak}} depends on the country's law and the club's rules. The child's readiness matters more, and the start is with a coach, a light gun and soft cartridges.",
+    "uk": "Мінімальний вік для {{tm:sporting}} і {{tm:compak}} залежить від закону країни і правил клубу. Важливіша готовність дитини, а починають із тренером, легкою рушницею і м’якими набоями."
+  },
+  "body": [
+    {
+      "k": "juniors-starting-age-p1",
+      "t": "p",
+      "en": "Parents often ask at what age a child can try {{tm:sporting}} or {{tm:compak}}. There is no single answer: the minimum age is set by the country's law, the ground's rules and its insurance. Many clubs start children at around 10–12; this is club practice, not a rule, so check local law and ask the club first.",
+      "uk": "Батьки часто запитують, з якого віку дитині можна спробувати {{tm:sporting}} чи {{tm:compak}}. Єдиної відповіді немає: мінімальний вік визначають закони країни, правила стенду і його страхування. Багато клубів починають заняття з дітьми приблизно з 10–12 років; це практика клубів, а не правило, тож спершу перевірте місцевий закон і запитайте в клубі."
+    },
+    {
+      "k": "juniors-starting-age-p7",
+      "t": "p",
+      "en": "Under the FITASC category table valid from {{fact:competitions.categories-from}}, boys and girls are in the {{term:junior|Junior}} category {{fact:basics.fitasc-junior-age}}. This is a competition category, not a minimum age for starting to shoot.",
+      "uk": "За таблицею категорій FITASC, чинною з {{fact:competitions.categories-from}}, хлопці й дівчата належать до категорії {{term:junior|Junior}} {{fact:basics.fitasc-junior-age}}. Це категорія змагань, а не мінімальний вік, з якого можна починати стріляти."
+    },
+    {
+      "k": "juniors-starting-age-p2",
+      "t": "p",
+      "en": "The age on paper matters less than readiness. Can the child hold a gun steadily? Do they listen carefully and follow an adult's commands each time? Can they stay focused for a whole short session? If a child is easily distracted or treats a gun like a toy, it is better to wait a few months.",
+      "uk": "Вік у документах важить менше, ніж готовність. Чи може дитина впевнено тримати рушницю? Чи уважно слухає і щоразу виконує команди дорослого? Чи може зосереджуватися протягом усього короткого заняття? Якщо дитина легко відволікається або сприймає рушницю як іграшку, краще почекати кілька місяців."
+    },
+    {
+      "k": "juniors-starting-age-p3",
+      "t": "p",
+      "en": "The first sessions are run only by a qualified {{term:coach|coach}} or instructor, if possible one to one. The coach explains the safety rules, checks which eye leads (the {{term:master-eye|master eye}}) and decides when the first shot can be fired. Parents do not replace the coach, even if they shoot well themselves.",
+      "uk": "Перші заняття проводить лише кваліфікований {{term:coach|тренер}} або інструктор, по змозі сам на сам із дитиною. Він пояснює правила безпеки, перевіряє, яке око провідне ({{term:master-eye|провідне око}}), і вирішує, коли можна зробити перший постріл. Батьки не замінюють тренера, навіть якщо самі добре стріляють."
+    },
+    {
+      "k": "juniors-starting-age-p4",
+      "t": "p",
+      "en": "A child usually starts with a light gun, often a 20 {{term:gauge|gauge}}; the bigger the gauge number, the narrower the barrel. Many makers offer a {{term:youth-gun|youth gun}} with a shorter stock. Pair it with soft {{term:low-recoil-cartridge|low-recoil cartridges}}, for example 21–24 g of shot. A very light gun with a heavy load can still kick hard, so the load matters as much as the gauge. The aim is that the shot neither frightens nor hurts. Fitting a gun to a child: {{lesson:juniors-equipment-fit}}.",
+      "uk": "Дитина зазвичай починає з легкої рушниці, часто 20 {{term:gauge|калібру}}; що більше число калібру, то вужчий ствол. Багато виробників пропонують {{term:youth-gun|юніорську рушницю}} з коротшим прикладом. До неї добирають м’які {{term:low-recoil-cartridge|набої зі зменшеною віддачею}}, наприклад із {{term:load-weight|наважкою}} 21–24 г дробу. Дуже легка рушниця з важким набоєм усе одно може сильно бити, тож набій важить не менше, ніж калібр. Мета — щоб постріл не налякав і не завдав болю. Як підігнати рушницю під дитину: {{lesson:juniors-equipment-fit}}."
+    },
+    {
+      "k": "juniors-starting-age-p5",
+      "t": "p",
+      "en": "The first targets should be simple and slow, for example a target flying straight away from the shooter (a {{term:going-away|going-away}} target). A session has few shots and ends on a good one, so that the child leaves the ground smiling.",
+      "uk": "Перші мішені мають бути простими й повільними, наприклад {{term:going-away|мішень від стрільця}}, що летить прямо вперед. Пострілів за заняття небагато, а завершують заняття вдалим пострілом, щоб дитина пішла зі стенду з усмішкою."
+    },
+    {
+      "k": "juniors-starting-age-warn",
+      "t": "warn",
+      "en": "A child needs {{term:safety-glasses|safety glasses}} and {{term:hearing-protection|hearing protection}} that fit a small head, from the very first shot. Adult ear muffs can sit loosely on a child; check the fit before shooting starts. More: {{lesson:safety-eye-ear-protection}}.",
+      "uk": "Дитині з першого пострілу потрібні {{term:safety-glasses|стрілецькі окуляри}} й {{term:hearing-protection|засоби захисту слуху}}, що пасують до невеликої голови. Дорослі навушники можуть сидіти на дитині нещільно; перевірте посадку до початку стрільби. Докладніше: {{lesson:safety-eye-ear-protection}}."
+    },
+    {
+      "k": "juniors-starting-age-rule",
+      "t": "rule",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch8-hearing-protection",
+      "en": "At {{tm:sporting}} competitions the rules also require children on the range, outside the clubhouse, to wear hearing protection.",
+      "uk": "На змаганнях {{tm:sporting}} правила також вимагають, щоб діти на території стрільбища поза клубним будинком були в засобах захисту слуху."
+    },
+    {
+      "k": "juniors-starting-age-p6",
+      "t": "p",
+      "en": "Before the first visit, call the ground and ask: from what age do they take children? Is there a junior programme, a coach for children and a 20 gauge gun to hire? The answers tell you quickly whether the club suits you.",
+      "uk": "Перед першим візитом зателефонуйте на стенд і запитайте: з якого віку тут приймають дітей? Чи є юніорська програма, тренер для дітей і рушниця 20 калібру напрокат? Відповіді швидко покажуть, чи підходить вам цей клуб."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "juniors-starting-age-kp1",
+      "checklist": true,
+      "en": "The minimum age is set by the country's law and the club's rules: check them.",
+      "uk": "Мінімальний вік визначають закон країни і правила клубу — перевірте їх."
+    },
+    {
+      "k": "juniors-starting-age-kp2",
+      "en": "The child's readiness matters more than age.",
+      "uk": "Готовність дитини важливіша за вік."
+    },
+    {
+      "k": "juniors-starting-age-kp3",
+      "checklist": true,
+      "en": "Start only with a coach, if possible one to one.",
+      "uk": "Починають лише з тренером, по змозі сам на сам."
+    },
+    {
+      "k": "juniors-starting-age-kp4",
+      "checklist": true,
+      "en": "A light gun, often 20 gauge, with soft cartridges; glasses and ear protection that fit.",
+      "uk": "Легка рушниця, часто 20 калібру, з м’якими набоями; окуляри й захист слуху за розміром."
+    },
+    {
+      "k": "juniors-starting-age-kp5",
+      "en": "Simple targets, few shots, finish on a good shot.",
+      "uk": "Прості мішені, мало пострілів, завершення на вдалому пострілі."
+    }
+  ],
+  "did_you_know": {
+    "k": "juniors-starting-age-dyk",
+    "en": "Gauge is historically defined by how many equal lead balls the size of the bore (the inside of the barrel) can be made from one English pound of lead. That is why a 20 gauge has a narrower bore than a 12.",
+    "uk": "Калібр рушниці історично визначають тим, скільки однакових свинцевих куль діаметром зі ствол виходить з одного англійського фунта свинцю. Тому в 20 калібру ствол вужчий, ніж у 12."
+  },
+  "quiz": [
+    {
+      "k": "juniors-starting-age-q1",
+      "q": {
+        "en": "Who sets the minimum age at which a child may shoot?",
+        "uk": "Хто визначає мінімальний вік, з якого дитина може стріляти?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "National law and the ground's rules",
+          "uk": "Закони країни і правила стенду"
+        },
+        {
+          "k": "b",
+          "en": "The parents alone, as they wish",
+          "uk": "Лише батьки, на власний розсуд"
+        },
+        {
+          "k": "c",
+          "en": "The company that made the gun",
+          "uk": "Компанія — виробник рушниці"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The age depends on the country's law, the club's rules and its insurance, so check them first.",
+        "uk": "Вік залежить від закону країни, правил клубу і його страхування, тож їх перевіряють заздалегідь."
+      }
+    },
+    {
+      "k": "juniors-starting-age-q2",
+      "q": {
+        "en": "What gun is a child often given in the first sessions?",
+        "uk": "Яку рушницю часто дають дитині на перших заняттях?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A heavy 12 gauge with long barrels",
+          "uk": "Важку 12 калібру з довгими стволами"
+        },
+        {
+          "k": "b",
+          "en": "A light 20 gauge with soft cartridges",
+          "uk": "Легку 20 калібру з м’якими набоями"
+        },
+        {
+          "k": "c",
+          "en": "Any gun the family has at home",
+          "uk": "Будь-яку, що є вдома"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A 20 gauge suits a smaller body and is fired with light cartridges; it is the light cartridge, not the light gun, that makes the recoil softer.",
+        "uk": "Рушниця 20 калібру зручніша для невеликої статури, і з неї стріляють легкими набоями; віддачу робить м’якшою саме легкий набій, а не легка рушниця."
+      }
+    },
+    {
+      "k": "juniors-starting-age-q3",
+      "q": {
+        "en": "How should a child's first session end?",
+        "uk": "Як варто завершити перше заняття дитини?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "With the hardest target of the day",
+          "uk": "Найскладнішою мішенню дня"
+        },
+        {
+          "k": "b",
+          "en": "When the box of cartridges is empty",
+          "uk": "Коли закінчаться всі набої в коробці"
+        },
+        {
+          "k": "c",
+          "en": "On a good shot, before the child tires",
+          "uk": "Вдалим пострілом, поки дитина не втомилася"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Ending on a success leaves a good memory and the wish to come back.",
+        "uk": "Завершення на успіху залишає приємне враження і бажання прийти знову."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "juniors-starting-age-q-junior",
+      "q": {
+        "en": "What does the FITASC Junior category tell a parent?",
+        "uk": "Що каже батькам категорія Junior у FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The youngest age to start shooting",
+          "uk": "З якого віку можна починати стріляти"
+        },
+        {
+          "k": "b",
+          "en": "The competition class for ages 13 to 20",
+          "uk": "Категорію змагань для 13–20 років"
+        },
+        {
+          "k": "c",
+          "en": "The age at which a gun may be bought",
+          "uk": "З якого віку можна купити рушницю"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Junior is a competition category (from 2027: from the year a shooter turns 13 to the year they turn 20); it says nothing about the age to start.",
+        "uk": "Junior — категорія змагань (з 2027 року: від року, коли виповнюється 13, до року, коли виповнюється 20); про вік початку занять вона нічого не каже."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "4a8c0a8b",
+    "summary": "98588b99",
+    "juniors-starting-age-p1": "905c4bfb",
+    "juniors-starting-age-p7": "7376195e",
+    "juniors-starting-age-p2": "5d2f0072",
+    "juniors-starting-age-p3": "c07f9e7a",
+    "juniors-starting-age-p4": "2b5d3e18",
+    "juniors-starting-age-p5": "9cc04bc8",
+    "juniors-starting-age-warn": "d5225787",
+    "juniors-starting-age-rule": "b9484b41",
+    "juniors-starting-age-p6": "8ebb8e3d",
+    "juniors-starting-age-kp1": "14d498de",
+    "juniors-starting-age-kp2": "e01e59a1",
+    "juniors-starting-age-kp3": "1c3a4b28",
+    "juniors-starting-age-kp4": "789fc0f8",
+    "juniors-starting-age-kp5": "fc9a9b6f",
+    "juniors-starting-age-dyk": "95535d4d",
+    "juniors-starting-age-q1": "1395b13a",
+    "juniors-starting-age-q2": "ecc5cd49",
+    "juniors-starting-age-q3": "f5275c52",
+    "juniors-starting-age-q-junior": "10536d3a"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

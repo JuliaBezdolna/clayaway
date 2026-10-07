@@ -1,0 +1,85 @@
+{
+  "id": "targets-reading-a-target",
+  "lang": "it",
+  "base_rev": 3,
+  "h": {
+    "title": "c58ee91b",
+    "summary": "08a6882a",
+    "targets-reading-a-target-p1": "73f7f627",
+    "targets-reading-a-target-p2": "46d7b9fe",
+    "targets-reading-a-target-p3": "b1333ac7",
+    "targets-reading-a-target-points": "77c58330",
+    "targets-reading-a-target-p4": "5f61914c",
+    "targets-reading-a-target-p5": "2d04761d",
+    "targets-reading-a-target-mock": "af5065d8",
+    "targets-reading-a-target-p6": "c0465e01",
+    "targets-reading-a-target-kp1": "f556dd7a",
+    "targets-reading-a-target-kp2": "640ea1f0",
+    "targets-reading-a-target-kp3": "0d490d3c",
+    "targets-reading-a-target-kp4": "8050f3c2",
+    "targets-reading-a-target-kp5": "4bc4579e",
+    "targets-reading-a-target-dyk": "10d8c94e",
+    "targets-reading-a-target-q1": "f67e3bfa",
+    "targets-reading-a-target-q2": "07ba1296",
+    "targets-reading-a-target-q3": "a8d476d2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Come «leggere» un piattello",
+  "summary": "Cosa guardare durante la presentazione dei piattelli: dove appare un piattello, dove va, dove lo romperai e cosa non devi fare.",
+  "body": {
+    "targets-reading-a-target-p1": "«Leggere» un piattello significa capire, prima di tirare, come vola: dove appare, quanto velocemente si muove, dove gira, sale o scende. I tiratori esperti lo fanno a ogni pedana, ed è spesso quello che fa la differenza tra un colpo a segno e un errore. Conta sia nello {{tm:sporting}} sia nel {{tm:compak}}.",
+    "targets-reading-a-target-p2": "Comincia dal {{term:target-menu|menu}}: quali macchine, in quale ordine, e se ci sono piattelli speciali. Poi osserva con attenzione mentre i piattelli vengono mostrati (la {{term:target-presentation|presentazione}}). Nello {{tm:sporting}} i piattelli di una pedana si mostrano prima del tiro al primo tiratore della batteria. I doppi allo sparo non si mostrano. Il {{tm:compak}} ha un modo proprio di mostrare i piattelli. I dettagli sono in {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Fai a te stesso domande semplici. Dove vedo per la prima volta il piattello con chiarezza? Questo è il tuo {{term:pick-up-point|punto di presa}} (pick-up point), dove gli occhi cominciano a seguirlo. Dove è più facile romperlo? Questo è il tuo {{term:break-point|punto di rottura}} (break point). Lì il piattello dovrebbe essere ancora ben visibile, non in caduta dietro gli alberi o in volo oltre un {{term:shooting-limit|limite di tiro}}.",
+    "targets-reading-a-target-points": "Come funzionano insieme il {{term:hold-point|punto di attesa}} (hold point), il punto di presa e il punto di rottura è spiegato in {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p4": "Nota velocità, distanza e angolo, e cosa sta facendo il piattello: sale, rallenta o cade. Il vento può alzare un piattello o spingerlo giù, e una linea di alberi scura o un cielo luminoso cambiano come lo vedi. Un piattello che rallenta richiede meno {{term:lead|anticipo}} di uno a piena velocità.",
+    "targets-reading-a-target-p5": "Guarda come tirano gli altri, ma pensa con la tua testa: ogni tiratore ha il proprio tempo. Mentre i piattelli vengono mostrati, molti istruttori suggeriscono di seguirli solo con gli occhi.",
+    "targets-reading-a-target-mock": {
+      "sporting": "Non è ammessa in nessun punto del campo. La prima volta, l'arbitro dà un avvertimento. Se lo ripeti, il prossimo piattello che colpisci viene contato come mancato (zero).",
+      "compak": "Non è ammessa fuori dalle pedane di tiro, né mentre tira un altro membro della batteria. Mentre i piattelli vengono mostrati, il fucile è aperto e scarico."
+    },
+    "targets-reading-a-target-p6": "Le traiettorie {{tm:sporting}} sono classificate per {{term:difficulty-class|classe di difficoltà}}: {{fact:targets.sporting-difficulty-classes}}. Non te la prendere se manchi un piattello di classe C: è pensato per essere difficile. Leggere i piattelli si impara più facilmente con un istruttore qualificato che ti mostra cosa guardare."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "targets-reading-a-target-kp1": "Prima il menu, poi osserva con attenzione la presentazione dei piattelli.",
+    "targets-reading-a-target-kp2": "Trova dove vedi per la prima volta il piattello con chiarezza e dove lo romperai.",
+    "targets-reading-a-target-kp3": "Nota velocità, angolo, vento, sfondo e se il piattello sta rallentando.",
+    "targets-reading-a-target-kp4": "Segui solo con gli occhi; nello {{tm:sporting}} la simulazione di tiro non è ammessa in nessun punto del campo, nel {{tm:compak}} fuori dalle pedane e mentre tira qualcun altro.",
+    "targets-reading-a-target-kp5": "Classi di difficoltà {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
+  },
+  "did_you_know": "Nello {{tm:sporting}} i doppi allo sparo non si mostrano, ma hai già visto entrambi i piattelli: i doppi sono fatti solo di piattelli già mostrati come singoli dalla stessa pedana.",
+  "quiz": {
+    "targets-reading-a-target-q1": {
+      "q": "Cos'è il punto di rottura (break point)?",
+      "options": {
+        "a": "Dove pensi di rompere il piattello",
+        "b": "Dove sta la macchina che lo lancia",
+        "c": "Dove il piattello cade a terra"
+      },
+      "explain": "Il punto di rottura è il punto sulla traiettoria che scegli in anticipo."
+    },
+    "targets-reading-a-target-q2": {
+      "q": "Nello {{tm:sporting}}, durante la presentazione dei piattelli, puoi imbracciare il fucile e seguirne la linea?",
+      "options": {
+        "a": "Sì, è una buona preparazione",
+        "b": "No, è simulazione di tiro",
+        "c": "Sì, se il fucile è scarico"
+      },
+      "explain": "Segui solo con gli occhi. Nessuno può sparare o fingere di sparare durante la presentazione, e i fucili restano aperti e scarichi finché l'arbitro non permette di chiuderli."
+    },
+    "targets-reading-a-target-q3": {
+      "q": "Quale quota di piattelli di classe C rompe un tiratore medio nello {{tm:sporting}}?",
+      "options": {
+        "a": "Più dell'80%",
+        "b": "Dal 60 all'80%",
+        "c": "Dal 40 al 60%"
+      },
+      "explain": "La classe C è la più difficile: 40–60%. La classe A è oltre l'80%, la classe B 60–80%."
+    }
+  }
+}

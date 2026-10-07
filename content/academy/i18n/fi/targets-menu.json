@@ -1,0 +1,100 @@
+{
+  "id": "targets-menu",
+  "lang": "fi",
+  "base_rev": 3,
+  "h": {
+    "title": "744c4dd7",
+    "summary": "97cd40e7",
+    "targets-menu-p1": "3f14bae6",
+    "targets-menu-p2": "e79c6d7a",
+    "targets-menu-p3": "4c1f1230",
+    "targets-menu-ex1": "aa643ef1",
+    "targets-menu-p4": "8d8e6b9e",
+    "targets-menu-tip1": "225fbc0d",
+    "targets-menu-n1": "e810bd84",
+    "targets-menu-p5": "d09ec478",
+    "targets-menu-ph1": "bd4b48d5",
+    "targets-menu-ph2": "e9f0ce43",
+    "targets-menu-ph3": "012cd5f5",
+    "targets-menu-kp1": "46ec13eb",
+    "targets-menu-kp2": "ae9c7733",
+    "targets-menu-kp3": "dc3aa01c",
+    "targets-menu-kp4": "3008ddb0",
+    "targets-menu-kp5": "f1caa6ca",
+    "targets-menu-q1": "c3048623",
+    "targets-menu-q2": "5bf0bf71",
+    "targets-menu-q3": "312040f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Kiekkoluettelon lukeminen",
+  "summary": "Miten lukea kiekkoluetteloa {{tm:sporting}}-ampumapaikalla ja {{tm:compak}}-numerolla: heittimien järjestys, erikoiskiekot ja kunkin kaksoiskiekon tyyppi.",
+  "body": {
+    "targets-menu-p1": "{{term:target-menu|Kiekkoluettelo}} (target menu) on ampumapaikan taulu, joka kertoo ampujalle, mitä on tulossa: mitkä heittimet, missä järjestyksessä ja millaiset kaksoiskiekot.",
+    "targets-menu-p2": "{{tm:sporting}}-lajissa kiekkoluettelo luettelee heittimet ampumajärjestyksessä ja siinä on mainittava mahdolliset erikoiskiekot: {{fact:targets.sporting-menu-special-targets}}. Tuomarit tarkistavat etukäteen, että heittimet vastaavat kiekkoluetteloa. Lentorata antaa {{fact:targets.sporting-layout-targets}}. Kaksoiskiekoissa saa käyttää vain kiekkoja, jotka on jo näytetty yksittäiskiekkoina samalta ampumapaikalta, ja erä ampuu ensin yksittäiskiekot.",
+    "targets-menu-p3": "Kukin kaksoiskiekko merkitään tyypillään. {{term:double-on-report|Laukauksesta lähtevä}} (on report): toinen kiekko lähtee ensimmäisen laukauksen äänestä. {{term:simultaneous-double|Yhtäaikainen}} (simultaneous): molemmat kiekot lähtevät yhdessä. {{term:rafale-double|Peräkkäinen}} (rafale): kaksi kiekkoa samasta heittimestä peräjälkeen, vain {{tm:sporting}}-lajissa. Kiekkoluettelot näyttävät erilaisilta radasta riippuen, joten lue sanat, älä vain kirjaimia.",
+    "targets-menu-ex1": "Esimerkki: neljän ampumapaikan linjalla yhdellä paikalla on vain 3 heitintä, ja siellä ammutaan 3 yksittäiskiekkoa ja 2 kaksoiskiekkoa. Sen kiekkoluettelo voisi olla: yksittäiset A, B, C, sitten yhtäaikainen kaksoiskiekko A + B ja peräkkäinen C + C (kirjaimet ovat heittimiä). Tällä ampumapaikalla ainakin yhden kaksoiskiekon on oltava yhtäaikainen tai peräkkäinen: kahta laukauksesta lähtevää kaksoiskiekkoa ei sallita ({{rule:sporting:ch2-doubles-three-traps}}).",
+    "targets-menu-p4": "{{tm:compak}}-lajissa kiekkoluettelo on nähtävillä kaikilla viidellä ampumapaikalla. Jokaisella ampumapaikalla on viisi kiekkoa yhdellä kolmesta tavasta: {{fact:targets.compak-station-menus}}. Yksittäiskiekot voivat tulla heittimistä missä järjestyksessä tahansa. Kaikilla viidellä ampumapaikalla on samanlainen kaksoiskiekko, ja ampumapaikat ovat ketjussa: {{fact:targets.compak-double-chain}}. Kilpailuihin FITASC tarjoaa {{fact:targets.compak-setting-tables}}.",
+    "targets-menu-tip1": "Ennen {{tm:compak}}-ampumapaikalle astumista moni ampuja hiljaa toistaa itselleen sen kiekkoluettelon: ”A, sitten F, sitten B, sitten C ja E laukauksesta lähtevänä.” Tämä voi auttaa muistamaan järjestyksen."
+  },
+  "note": {
+    "targets-menu-n1": "Ampujat sanovat todella ”menu”, joten säilytä sana kääntäessäsi.",
+    "targets-menu-p5": "Ennen kuin ampujasi astuu paikalle, lue kiekkoluettelo hänelle ääneen hänen kielellään, kirjain kirjaimelta: ”A, sitten F, sitten B, sitten laukauksesta lähtevä pari C ja E.”"
+  },
+  "phrases": {
+    "targets-menu-ph1": {
+      "meaning": "Ampumapaikka 3: kolme yksittäiskiekkoa, sitten laukauksesta lähtevä kaksoiskiekko; yhteensä viisi kiekkoa.",
+      "say": "Lue kiekkoluettelo: ampumapaikalla kolme sinulla on A, sitten F, sitten B, sitten laukauksesta lähtevä pari C ja E."
+    },
+    "targets-menu-ph2": {
+      "meaning": "Järjestys on muuttunut edellisen kierroksen jälkeen.",
+      "say": "Samat heittimet, uusi kiekkoluettelo – älä ammu muistin varassa."
+    },
+    "targets-menu-ph3": {
+      "meaning": "”Simo” on lyhenne yhtäaikaisesta kaksoiskiekosta.",
+      "say": "Kolme yksittäistä, sitten yhtäaikainen pari."
+    }
+  },
+  "key_points": {
+    "targets-menu-kp1": "Lue kiekkoluettelo, ennen kuin astut paikalle: heittimien järjestys, erikoiskiekot, kunkin kaksoiskiekon tyyppi.",
+    "targets-menu-kp2": "{{tm:sporting}}-kiekkoluettelo: heittimet järjestyksessä sekä erikoiskiekot ({{fact:targets.sporting-menu-special-targets}}).",
+    "targets-menu-kp3": "{{tm:sporting}}-lentorata antaa {{fact:targets.sporting-layout-targets}}; kaksoiskiekoissa käytetään jo yksittäisinä näytettyjä kiekkoja; ensin yksittäiskiekot.",
+    "targets-menu-kp4": "Kaksoiskiekot: laukauksesta lähtevä, yhtäaikainen, peräkkäinen (vain {{tm:sporting}}).",
+    "targets-menu-kp5": "{{tm:compak}}: viisi kiekkoa ampumapaikkaa kohden, samanlainen kaksoiskiekko kaikilla paikoilla, kukin kaksoiskiekko alkaa edellisen paikan viimeisellä kiekolla."
+  },
+  "quiz": {
+    "targets-menu-q1": {
+      "q": "Mitkä erikoiskiekot Sporting™-kiekkoluettelossa on näytettävä?",
+      "options": {
+        "a": "Vain kiekkojen värit",
+        "b": "90 mm, 70 mm, 60 mm, battue tai jäniskiekko",
+        "c": "Vain jänis- ja battue-kiekot",
+        "d": "Ei mitään; tuomari ilmoittaa ne"
+      },
+      "explain": "Kiekkoluettelossa on lueteltava heittimet järjestyksessä ja mahdolliset erikoiskiekkotyypit."
+    },
+    "targets-menu-q2": {
+      "q": "Millä kiekolla Compak® Sporting -lajissa jokainen kaksoiskiekko alkaa?",
+      "options": {
+        "a": "Aina heittimellä A",
+        "b": "Kiekolla, jota ei ole nähty aiemmin",
+        "c": "Edellisen ampumapaikan viimeisenä ammutulla kiekolla",
+        "d": "Millä tahansa ampujan valitsemalla kiekolla"
+      },
+      "explain": "Kaksoiskiekot ketjuttuvat ampumapaikalta toiselle: jokainen alkaa edellisen ampumapaikan viimeisellä kiekolla."
+    },
+    "targets-menu-q3": {
+      "q": "Mikä kaksoiskiekkotyyppi on olemassa vain Sporting™-lajissa?",
+      "options": {
+        "a": "Rafale",
+        "b": "Laukauksesta lähtevä",
+        "c": "Yhtäaikainen",
+        "d": "Ei mikään"
+      },
+      "explain": "Compak®-kaksoiskiekot ovat laukauksesta lähteviä tai yhtäaikaisia; rafale on Sporting™-lajin kaksoiskiekko."
+    }
+  }
+}

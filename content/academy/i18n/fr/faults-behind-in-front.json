@@ -1,0 +1,115 @@
+{
+ "id": "faults-behind-in-front",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "b5df14ce",
+  "summary": "75c43d32",
+  "faults-behind-in-front-p1": "0b3085f2",
+  "faults-behind-in-front-p2": "1087c812",
+  "faults-behind-in-front-p3": "90288cbf",
+  "faults-behind-in-front-p4": "368d7282",
+  "technique-follow-through-and-mistakes-p5": "decef069",
+  "faults-behind-in-front-n1": "0d081d1d",
+  "faults-behind-in-front-p5": "93f73996",
+  "faults-behind-in-front-ph1": "302a05fc",
+  "faults-behind-in-front-ph2": "4775abe0",
+  "faults-behind-in-front-ph3": "d0e89681",
+  "faults-behind-in-front-ph4": "56766df6",
+  "faults-behind-in-front-ph5": "06d1d8f8",
+  "faults-behind-in-front-ph6": "3c2964ab",
+  "faults-behind-in-front-kp1": "4321a867",
+  "faults-behind-in-front-kp2": "8165b0c9",
+  "faults-behind-in-front-kp3": "05239828",
+  "faults-behind-in-front-kp4": "00dbf6c4",
+  "faults-behind-in-front-kp5": "6f1da694",
+  "technique-follow-through-and-mistakes-dyk": "fdee6ee7",
+  "faults-behind-in-front-q1": "3145b989",
+  "faults-behind-in-front-q2": "6abd227d",
+  "faults-behind-in-front-q3": "282762b6"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Derrière, devant, dessus, dessous, éclat",
+ "summary": "Ce que signifient « derrière », « devant », « dessus », « dessous » et « éclat », ce qui cause en général chaque raté, et comment un plateau éclaté est compté.",
+ "body": {
+  "faults-behind-in-front-p1": "Chaque raté a une direction. Un entraîneur qui observe depuis l'arrière du tireur dit généralement d'abord où le tir est passé par rapport au plateau, et seulement ensuite pourquoi.",
+  "faults-behind-in-front-p2": "{{term:miss-behind|Derrière}} signifie que le tir est passé derrière un plateau en mouvement : pas assez d'avance, ou un fusil qui a ralenti. C'est un raté très courant sur les traversards. {{term:miss-in-front|Devant}}, c'est l'inverse : trop d'avance, souvent après une surcorrection du tireur. Beaucoup d'entraîneurs apprécient un raté devant : cela montre que le fusil a continué de bouger.",
+  "faults-behind-in-front-p3": "{{term:miss-over|Dessus}} (aussi « high », « over the top ») et {{term:miss-under|dessous}} (« low ») décrivent le raté vertical. Dessus est fréquent sur les plateaux {{term:dropping-target|descendants}}, les rabbits et les rentrants, et souvent lié à une tête qui se décolle de la crosse. Dessous est typique sur les plateaux montants encore en train de grimper au moment du tir.",
+  "faults-behind-in-front-p4": "{{term:chip|Éclat}} (chipped) signifie que seul un petit morceau s'est détaché. Pour l'entraîneur, c'est à moitié un compliment, à moitié une correction : le plateau a été touché par le bord de la {{term:pattern|gerbe}}, le nuage de plombs. Pour l'arbitre, c'est un plateau touché, tant que le morceau est visible. Attention à un détail du règlement. Un plateau qui se casse, même s'il se transforme en totalité ou en partie en poussière, est touché dans les deux disciplines. Un plateau qui continue de voler en un seul morceau et ne produit qu'un nuage de poussière ou de fumée, sans aucun morceau visible, est un zéro. Dans le jargon des entraîneurs, « smoked it » (« {{term:smoked-it|pulvérisé}} ») désigne un tir parfait et centré qui réduit le plateau en poussière, et « dusted it » s'entend dans les deux sens : demandez si vous avez un doute.",
+  "technique-follow-through-and-mistakes-p5": "Beaucoup de ces ratés sont faciles à voir de l'extérieur. Un entraîneur placé derrière vous voit où le tir est passé et ce qu'ont fait votre tête, vos mains et vos pieds. Seul, vous risquez de corriger la mauvaise chose : un tir derrière causé par un fusil arrêté ne se soigne pas avec plus d'avance."
+ },
+ "note": {
+  "faults-behind-in-front-n1": "Transmettez la direction tout de suite : le tireur se prépare déjà pour le plateau suivant.",
+  "faults-behind-in-front-p5": "Gardez l'ordre de l'entraîneur : direction, cause, correction. Si l'entraîneur dit « behind, you stopped », la cause compte plus que la direction : un tireur qui n'entend que « derrière » ajoutera de l'avance, ce qui ne soigne pas un fusil arrêté."
+ },
+ "phrases": {
+  "faults-behind-in-front-ph1": {
+   "meaning": "Le tir est passé derrière le plateau ; augmentez l'avance.",
+   "say": "Derrière : donnez-en plus."
+  },
+  "faults-behind-in-front-ph2": {
+   "meaning": "Le tir est passé au-dessus parce que le plateau tombait déjà ; tirer plus bas et devant.",
+   "say": "Un peu au-dessus : il tombait déjà."
+  },
+  "faults-behind-in-front-ph3": {
+   "meaning": "Trop d'avance, mais le fusil bougeait ; réduisez un peu l'avance.",
+   "say": "Devant, cette fois, c'est bien : un peu moins maintenant."
+  },
+  "faults-behind-in-front-ph4": {
+   "meaning": "Touché sur le bord de la gerbe ; un peu plus d'avance le centrera.",
+   "say": "Juste un éclat : un peu plus devant."
+  },
+  "faults-behind-in-front-ph5": {
+   "meaning": "Un tir parfait et centré (jargon, pas le « smoke » du règlement) ; refaites exactement pareil.",
+   "say": "Pulvérisé ! Pareil encore une fois."
+  },
+  "faults-behind-in-front-ph6": {
+   "meaning": "La cause est un fusil arrêté ; plus d'avance seule n'aidera pas.",
+   "say": "Derrière, mais vous avez arrêté le fusil : n'ajoutez pas juste de l'avance."
+  }
+ },
+ "key_points": {
+  "faults-behind-in-front-kp1": "L'entraîneur nomme d'abord la direction : derrière, devant, dessus, dessous.",
+  "faults-behind-in-front-kp2": "Derrière = pas assez d'avance ou fusil qui ralentit ; devant = trop d'avance.",
+  "faults-behind-in-front-kp3": "Un éclat visible, ou un plateau réduit en poussière, c'est touché ; un plateau intact qui ne produit que poussière ou fumée, c'est un zéro.",
+  "faults-behind-in-front-kp4": "« Smoked it » est un compliment d'entraîneur, pas la « fumée » du règlement : ne confondez pas les deux.",
+  "faults-behind-in-front-kp5": "Corrigez la cause, pas seulement la direction : plus d'avance ne soigne pas un fusil arrêté."
+ },
+ "did_you_know": "Un entraîneur se place souvent un peu en arrière et sur le côté du tireur. De là, il voit mieux la trace du tir dans l'air et l'endroit où il est passé par rapport au plateau.",
+ "quiz": {
+  "faults-behind-in-front-q1": {
+   "q": "L'entraîneur s'exclame : « Behind, you stopped ! » Qu'est-ce qui compte le plus pour le prochain tir ?",
+   "options": {
+    "a": "La cause : le fusil s'est arrêté",
+    "b": "Seulement la direction « derrière »",
+    "c": "Rien : vous avez vu le raté vous-même",
+    "d": "Une demande d'ajouter beaucoup plus d'avance"
+   },
+   "explain": "Ajouter de l'avance ne soigne pas un fusil arrêté ; c'est la cause que le tireur doit corriger."
+  },
+  "faults-behind-in-front-q2": {
+   "q": "Un petit morceau, mais bien visible, se détache du plateau. L'entraîneur dit « just chipped it ». Comment l'arbitre le compte-t-il ?",
+   "options": {
+    "a": "Perdu, car la plus grande partie du plateau a continué de voler",
+    "b": "No bird",
+    "c": "Touché (one)",
+    "d": "Touché seulement si l'entraîneur est d'accord"
+   },
+   "explain": "Au moins un morceau visible fait de ce plateau un plateau touché, aussi bien en {{tm:sporting}} qu'en {{tm:compak}} ; seul l'arbitre décide."
+  },
+  "faults-behind-in-front-q3": {
+   "q": "Après un tir réussi, l'entraîneur s'exclame « Smoked it ! ». Que veut-il dire ?",
+   "options": {
+    "a": "Seule de la poussière s'est détachée, donc c'est perdu",
+    "b": "Un tir parfait et centré",
+    "c": "C'était un plateau flash",
+    "d": "Le tireur devrait changer de cartouches"
+   },
+   "explain": "Dans le jargon des entraîneurs, « smoked it » est un compliment pour un plateau réduit en poussière, et le règlement compte aussi cela comme touché. Seul un plateau intact qui ne produit qu'un nuage de poussière ou de fumée, sans morceau visible, est un zéro."
+  }
+ }
+}

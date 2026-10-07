@@ -1,0 +1,78 @@
+{
+  "id": "intro-how-to-start",
+  "lang": "it",
+  "base_rev": 2,
+  "h": {
+    "title": "a300459d",
+    "summary": "520c217f",
+    "intro-how-to-start-p1": "300f4253",
+    "intro-how-to-start-p2": "793a0173",
+    "intro-how-to-start-p3": "34e0a999",
+    "intro-how-to-start-p4": "4f81056b",
+    "intro-how-to-start-warn": "6813df25",
+    "intro-how-to-start-p5": "5dc9f970",
+    "intro-how-to-start-p6": "d37bb6a9",
+    "intro-how-to-start-kp1": "1028266a",
+    "intro-how-to-start-kp2": "b4742211",
+    "intro-how-to-start-kp3": "83e57897",
+    "intro-how-to-start-kp4": "25c7088a",
+    "intro-how-to-start-dyk": "a3136282",
+    "intro-how-to-start-q1": "443b3782",
+    "intro-how-to-start-q2": "3e54e5e8",
+    "intro-how-to-start-q3": "fe33e0cc"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Come iniziare",
+  "summary": "Un club, un istruttore, una prima lezione e un fucile a noleggio: un piano passo per passo per chi vuole provare {{tm:sporting}} o {{tm:compak}}.",
+  "body": {
+    "intro-how-to-start-p1": "Comincia cercando un campo di tiro o un club vicino a te. Telefona o scrivi e chiedi se organizzano sessioni per principianti. Molti campi offrono una lezione di prova con un {{term:coach|istruttore}}, fucile e cartucce incluse.",
+    "intro-how-to-start-p2": "È saggio fare la prima sessione con un istruttore. Un istruttore spiega le regole di sicurezza e sceglie un fucile adatto alla tua taglia. Ti mostra anche come stare in piedi e come fare l'{{term:gun-mount|imbracciata}}: portare il {{term:stock|calcio}} (la parte posteriore del fucile) alla guancia e alla spalla. Si comincia con piattelli semplici e lenti, così vedi progressi in fretta ed eviti cattive abitudini. Di più: {{lesson:training-first-lessons-and-coach}}.",
+    "intro-how-to-start-p3": "All'inizio non serve un fucile proprio. In molti campi puoi noleggiare un fucile e tirare sotto la supervisione di un istruttore. Le leggi su armi e munizioni variano da paese a paese. In alcuni, un principiante può tirare con il fucile del club sotto supervisione senza licenza; in altri servono documenti. Chiedilo al campo in anticipo.",
+    "intro-how-to-start-p4": "Cosa portare: vestiti comodi adatti al meteo, scarpe chiuse e un cappellino. Porta un documento d'identità se il campo lo richiede.",
+    "intro-how-to-start-warn": "Indossa {{term:safety-glasses|occhiali di protezione}} e {{term:hearing-protection|protezioni auditive}} (cuffie o {{term:earplugs|tappi auricolari}}) dal primo colpo. Il regolamento di gara li rende entrambi obbligatori. Se non li hai, il campo di solito può prestarteli. Di più: {{lesson:safety-eye-ear-protection}}.",
+    "intro-how-to-start-p5": "Non avere fretta di comprare un fucile. Prima provane diversi modelli e chiedi al tuo istruttore. Per le gare FITASC serve un fucile a canna liscia (senza rigatura all'interno delle canne), {{fact:gear.fitasc-max-gauge}}; sono ammessi calibri più stretti come il 20 o il 28. Le canne devono essere {{fact:gear.fitasc-min-barrel}}, e i fucili a pompa (ricaricati facendo scorrere l'astina) non sono ammessi. Di più: {{lesson:gun-first-gun}}.",
+    "intro-how-to-start-p6": "Dopo qualche lezione, prova una {{term:club-shoot|gara di club}} per principianti. È un buon modo per sentire l'atmosfera dello sport, conoscere gente e vedere come lavorano {{term:referee|arbitri}} e {{term:squad|batterie}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-how-to-start-kp1": "Comincia in un campo con un istruttore e una lezione di prova.",
+    "intro-how-to-start-kp2": "Puoi noleggiare un fucile; le leggi sulle armi dipendono dal paese.",
+    "intro-how-to-start-kp3": "Occhiali di protezione e protezioni auditive dal primo colpo.",
+    "intro-how-to-start-kp4": "Compra un fucile solo dopo averne testati diversi e aver chiesto al tuo istruttore."
+  },
+  "did_you_know": "I fucili da tiro a volo sono spesso adattati al tiratore: si regolano lunghezza e altezza del calcio perché il fucile si imbracci in modo naturale. Si chiama {{term:gun-fit|calciatura su misura}}.",
+  "quiz": {
+    "intro-how-to-start-q1": {
+      "q": "Quale primo passo suggerisce questa lezione?",
+      "options": {
+        "a": "Comprare un fucile e allenarsi da solo",
+        "b": "Una lezione di prova con un istruttore",
+        "c": "Guardare video, poi iscriversi a un campionato"
+      },
+      "explain": "Un istruttore insegna la sicurezza e le basi corrette fin dall'inizio."
+    },
+    "intro-how-to-start-q2": {
+      "q": "Un principiante ha bisogno di un fucile proprio?",
+      "options": {
+        "a": "Sì, i campi non prestano fucili",
+        "b": "Sì, e deve essere a pompa",
+        "c": "No, molti campi noleggiano fucili"
+      },
+      "explain": "Molti campi hanno fucili del club con cui si tira sotto supervisione; le regole dipendono dalla legge nazionale."
+    },
+    "intro-how-to-start-q3": {
+      "q": "Quale fucile NON è ammesso nelle gare FITASC?",
+      "options": {
+        "a": "Un fucile a pompa",
+        "b": "Un sovrapposto calibro 12",
+        "c": "Un semiautomatico"
+      },
+      "explain": "I fucili a pompa non sono ammessi. Il {{term:semi-automatic|semiautomatico}} è ammesso, ma si può caricare con al massimo due cartucce."
+    }
+  }
+}

@@ -11,7 +11,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "high",
    "src": "https://www.vle.lt/straipsnis/saudymas-1/",
-   "short": "Lygiavamzdis medžioklinis šautuvas, naudojamas sportinge ir Compak.",
+   "short": "Lygiavamzdis medžioklinis šautuvas, naudojamas Sporting™ ir Compak® Sporting varžybose.",
    "long": "Galima naudoti bet kurį medžioklinį lygiavamzdį šautuvą, taip pat pusiau automatinį, ne didesnio kaip 12 kalibro ir su ne trumpesniais kaip 66 cm (26 colių) vamzdžiais. Pompiniai šautuvai neleidžiami, o Compak taisyklės draudžia ir trivamzdžius (drilingus). Draudžiami diržai, prie ginklo tvirtinamos mikrokameros ir bet kokie dirbtiniai taikymo prietaisai. Niekas negali liesti kito šaulio šautuvo be leidimo, o du tos pačios grupės šauliai negali naudotis vienu šautuvu. Compak® Sporting šūviai, iššauti iš reikalavimų neatitinkančio šautuvo ar šoviniais prieš patikrinimą, vertinami nuliu.",
    "disciplines": {
     "sporting": "Šautuvą, čoką ar vamzdį galima keisti be delsimo tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų; niekada šaudymo vietoje.",
@@ -151,7 +151,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "medium",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Skruostinė atrama, kurios aukštį ir šoninį išlinkimą galima reguliuoti."
+   "short": "Skruostinė atrama, kurią galima pakelti, nuleisti ar pastumti į šoną, kad akis žiūrėtų tiksliai išilgai taikymo juostos."
   },
   "fore-end": {
    "term_local": "lovelis",
@@ -226,7 +226,7 @@ window.GLOSSARY_I18N.lt = {
    "note": "Taisyklėse 'šautuvo buožės padas'.",
    "conf": "medium",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Guminis padas buožės gale, sušvelninantis atatranką."
+   "short": "Guminis arba gelinis padas buožės gale, slopinantis atatranką; jis taip pat keičia buožės ilgį."
   },
   "choke": {
    "term_local": "čokas",
@@ -600,8 +600,8 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "high",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Įprastas kupolo formos taikinys, apie 110 mm skersmens, dažniausia lėkštelė.",
-   "long": "Standartinis taikinys yra apie 110 mm skersmens gaubtas diskas. Jis gana sunkus, todėl ilgai išlaiko greitį ir liniją, o jo elgesį lengviausia numatyti. Pradedantieji paprastai pradeda nuo jo. Sporting™ ir Compak® Sporting standartiniai taikiniai maišomi su specialiaisiais: midi, mini, battue, triušiu, rocket ir kitais. Jei mašinėlė išmeta kitokio dydžio ar tipo taikinį, nei nurodyta taikinių apraše, teisėjas skelbia „kartoti“ (No Bird)."
+   "short": "Įprastas išgaubtas taikinys, maždaug 108–110 mm skersmens, dažniausiai naudojamas.",
+   "long": "Standartinis taikinys – tai išgaubtas maždaug 108–110 mm skersmens diskas. Jo skrydį palyginti lengva „perskaityti“, todėl pradedantieji paprastai pradeda nuo jo; 90 mm midi geriau išlaiko greitį. Sporting™ ir Compak® Sporting rungtyse standartas derinamas su specialiaisiais taikiniais, tokiais kaip midi, mini, battue ir triušis; Compak® Sporting sąraše minimas ir rocket. Sporting™ rungtyje kitos spalvos, dydžio ar tipo taikinys, nei nurodyta meniu, yra „kartoti“ (No Bird); Compak® Sporting rungtyje „kartoti“ (No Bird) skelbiama dėl netinkamos spalvos taikinio."
   },
   "midi": {
    "term_local": "midi",
@@ -656,8 +656,8 @@ window.GLOSSARY_I18N.lt = {
    "note": "Taisyklėse paliktas angliškas 'rocket'.",
    "conf": "high",
    "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
-   "short": "Ypatingo profilio taikinys, ilgiau už standartinį išlaikantis greitį ir kryptį.",
-   "long": "Rocket atrodo kaip standartinis taikinys, bet turi kitokį, aptakesnį profilį. Todėl ore jis lėtėja palaipsniui ir ilgiau skrenda tiesiai, tad tolimoje trajektorijos dalyje juda greičiau, nei tikisi akis. Pradedantieji dažnai šauna už jo, vertindami jį kaip įprastą taikinį. Compak® Sporting taisyklės rocket nurodo tarp leidžiamų taikinių, o Sporting™ sąraše jis atskirai neminimas. Praktikoje jo forma ir pavadinimas priklauso nuo taikinių gamintojo.",
+   "short": "Specialusis taikinys, minimas Compak® Sporting taikinių sąraše; jo tiksli forma ir skrydis priklauso nuo gamintojo.",
+   "long": "Rocket – vienas iš specialiųjų taikinių, kuriuos Compak® Sporting taisyklės mini tarp leidžiamų; Sporting™ sąraše jis atskirai neminimas. Bendros specifikacijos nėra, todėl jo forma ir tai, kaip jis skrenda, priklauso nuo taikinių gamintojo. Kaip ir bet kurį specialųjį taikinį, per pristatymą jį atidžiai stebėkite ir nemanykite, kad jis skrenda kaip standartinis.",
    "disciplines": {
     "sporting": "Sporting taikinių sąraše atskirai neminimas.",
     "compak": "Aiškiai leidžiamas tarp specialiųjų taikinių."
@@ -801,7 +801,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "low",
    "short": "Taikinys, skrendantis lanku ir keičiantis kryptį.",
-   "long": "Lankiniu kreiviu skrendantis taikinys (looper) skrenda plačiu lanku: kyla, persisverčia per viršūnę ir krinta, tuo pat metu judėdamas į šoną. Tokioms trajektorijoms dažnai naudojami battue taikiniai, kurie skrisdami apsisuka ir pirmiau rodo kraštą, o paskui plokštumą. Pagrindinis sunkumas – nuolatinis krypties ir greičio kitimas, todėl vamzdžiai turi sekti lanku, o ne jį trumpinti. Daug šaulių šauna į looper prie viršūnės, kur jis juda lėčiausiai. Pavadinimai skirtingose šalyse skiriasi: chandelle yra kita, statesnė trajektorija, o prancūziškai kalbantys dažnai „chandelle“ vadina beveik vertikaliai kylantį taikinį (teal). Atidžiai stebėkite pristatymą ir pasirinkite vieną sudaužymo tašką."
+   "long": "Lankiniu kreiviu skrendantis taikinys (looper) skrenda plačiu lanku: kyla, persisverčia per viršūnę ir krinta, tuo pat metu judėdamas į šoną. Paprastai tai standartinis taikinys; kai kurie išdėstymų kūrėjai tokia linija meta ir battue, kuris tada, apsisukdamas, parodo plokštumą. Pagrindinis sunkumas – nuolatinis krypties ir greičio kitimas, todėl vamzdžiai seka lanku, laikydamiesi priešais taikinį ir žemiau jo, o ne jį trumpina. Daug šaulių šauna į looper prie viršūnės, kur jis juda lėčiausiai. Pavadinimai skirtingose šalyse skiriasi: chandelle yra kita, statesnė trajektorija, o prancūziškai kalbantys dažnai „chandelle“ vadina beveik vertikaliai kylantį taikinį (teal). Atidžiai stebėkite pristatymą ir pasirinkite vieną sudaužymo tašką."
   },
   "chandelle": {
    "term_local": "chandelle",
@@ -837,7 +837,7 @@ window.GLOSSARY_I18N.lt = {
    "conf": "high",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Du kartu arba vienas po kito išmetami taikiniai, šaudomi kaip vienas vienetas.",
-   "long": "Yra trys dubletų rūšys: pagal šūvio garsą, vienalaikis ir (tik sportinge) savaiminis (rafale). Sportinge dubletui šaulys turi du šovinius ir gali abu iššauti į tą patį taikinį; tarp pirmo ir antro taikinio šautuvo padėtis laisva. Compak į kiekvieną dubleto taikinį galima iššauti tik vieną šovinį, o vienoje Compak aikštelėje dubleto tipas visose 5 šaudymo vietose turi būti vienodas; pirmas kiekvieno dubleto taikinys yra paskutinis ankstesnės šaudymo vietos taikinys. Jei vienas šūvis sudaužo abu taikinius, sportinge užskaitoma pataikyta ir pataikyta, o Compak dubletas kartojamas.",
+   "long": "Yra trys dubletų rūšys: pagal šūvio garsą, vienalaikis ir (tik sportinge) savaiminis (rafale). Sportinge dubletui šaulys turi du šovinius ir gali abu iššauti į tą patį taikinį; tarp pirmo ir antro taikinio šautuvo padėtis laisva. Compak į kiekvieną dubleto taikinį galima iššauti tik vieną šovinį, o vienoje Compak aikštelėje dubleto tipas visose 5 šaudymo vietose turi būti vienodas; pirmas kiekvieno dubleto taikinys yra paskutinis ankstesnės šaudymo vietos taikinys. Jei vienas šūvis sudaužo abu taikinius, sportinge užskaitoma pataikyta ir pataikyta. Compak rungtyje tai neskaičiuojama kaip du pataikymai: dublete pagal šūvio garsą pirmojo taikinio rezultatas lieka, o dubletas kartojamas dėl antrojo; vienalaikiame dublete skelbiama „kartoti“ ir dubletas kartojamas, o trečią kartą užskaitoma nulis–nulis.",
    "disciplines": {
     "sporting": "Išdėstyme 5 dubletai, sudaryti tik iš taikinių, jau šaudytų kaip pavieniai iš tos šaudymo vietos; abu šovinius galima iššauti į vieną taikinį.",
     "compak": "Vienas šovinys vienam taikiniui; tyčia iššovus abu šūvius į vieną taikinį – nulis-nulis."
@@ -876,7 +876,7 @@ window.GLOSSARY_I18N.lt = {
    "note": "Neįprastas oficialaus vertimo terminas.",
    "conf": "high",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Sportingo dubletas iš dviejų tos pačios mašinėlės taikinių ta pačia trajektorija, vienas po kito.",
+   "short": "Sporting™ dubletas iš dviejų tos pačios mašinėlės taikinių ta pačia trajektorija, vienas po kito.",
    "long": "Savaiminiame (rafale) dublete antras taikinys išskrenda taip greitai, kaip mašinėlės svirtis spėja persikrauti, ir pirmiausia galima šauti į bet kurį taikinį. Pristatymo metu jis parodomas kaip ir vienalaikis dubletas. Nuobaudų ir sutrikimų taisyklės jį vertina kaip vienalaikį dubletą: netaisyklingas taikinys reiškia, kad dubletas kartojamas be rezultato, o raudonosios kortelės nuobauda – nulis ir nulis. Pozicijoje su 3 mašinėlėmis ir 2 dubletais dubletai gali būti vienalaikiai, savaiminiai arba abiejų rūšių.",
    "disciplines": {
     "sporting": "Tik Sporting; Compak taisyklėse rafale dubleto nėra."
@@ -890,10 +890,10 @@ window.GLOSSARY_I18N.lt = {
    "conf": "high",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šaudymo vietos taikinių parodymas šauliams prieš jiems šaudant.",
-   "long": "Sportinge visos šaudymo vietos trajektorijos parodomos pirmam grupės šauliui, kuris turi stovėti pasirengęs šaudymo vietoje; paprašius kiekvienas taikinys gali būti parodytas dar iki 2 kartų. Dubletai pagal šūvio garsą neparodomi; vienalaikiai ir savaiminiai (rafale) – parodomi, su ne daugiau kaip 2 pakartojimais. Compak šaudant grupėmis taikiniai parodomi tik kartą ryte pirmai grupei; šaudant linija pirmas kiekvieno dubleto taikinys parodomas kiekvienam naujam šauliui 1-oje šaudymo vietoje. Bet kokio pristatymo metu šautuvai atlaužti ir neužtaisyti, o šaudyti ar imituoti šaudymą draudžiama. Po ilgesnės nei 10 minučių pertraukos taikiniai parodomi iš naujo.",
+   "long": "Sporting™ rungtyje visos šaudymo vietos trajektorijos parodomos pirmam grupės šauliui, kuris turi stovėti pasirengęs šaudymo vietoje; paprašius kiekvienas taikinys gali būti parodytas dar iki 2 kartų. Dubletai pagal šūvio garsą neparodomi; vienalaikiai ir savaiminiai (rafale) – parodomi, su ne daugiau kaip 2 pakartojimais. Pristatymo metu niekas negali šaudyti ar imituoti šaudymo, o sugedus mašinėlei ar po ilgesnės nei 10 minučių pertraukos šaudymo vietos taikiniai parodomi iš naujo. Compak® Sporting šaudant grupėmis pirmoji dienos grupė taikinius mato vieną kartą, anksti ryte: pavienius nuo A iki F, tada 1–5 šaudymo vietų vienalaikius dubletus; po ilgesnės nei 10 minučių pertraukos šeši pavieniai taikiniai parodomi iš naujo. Šaudant linija kiekvienas naujas šaulys 1-oje šaudymo vietoje mato pirmą savo dubleto taikinį. Abiejose rungtyse pristatymo metu šautuvai lieka atlaužti ir neužtaisyti, o uždaromi tik teisėjui leidus. Compak® Sporting rungtyje šaudymo imitavimas draudžiamas už šaudymo vietų ir tada, kai šaudo kitas grupės narys.",
    "disciplines": {
-    "sporting": "Kiekvienoje šaudymo vietoje parodoma pirmajam grupės šauliui; ne daugiau kaip 2 kartojimai vienam taikiniui.",
-    "compak": "Šaudant grupėmis: kartą ryte pirmajai grupei (pavieniai A–F, tada vienalaikiai dubletai); po ilgesnės nei 10 minučių pertraukos 6 pavieniai taikiniai parodomi iš naujo."
+    "sporting": "Kiekvienoje šaudymo vietoje parodoma pirmajam grupės šauliui; ne daugiau kaip 2 kartojimai vienam taikiniui; pristatymo metu nešaudoma ir šaudymas neimituojamas.",
+    "compak": "Šaudant grupėmis: vieną kartą, anksti ryte, pirmajai dienos grupei (pavieniai A–F, tada vienalaikiai dubletai); po ilgesnės nei 10 minučių pertraukos 6 pavieniai taikiniai parodomi iš naujo."
    }
   },
   "target-menu": {
@@ -911,7 +911,7 @@ window.GLOSSARY_I18N.lt = {
    "note": "Dokumentuoto sporto termino nerasta.",
    "conf": "low",
    "short": "Atstumas, kuriuo šaulys nukreipia šautuvą prieš taikinį, kad šratai jį pasiektų.",
-   "long": "Kol šratai skrenda link taikinio, taikinys toliau juda, todėl šūvio akimirką šautuvas turi būti priešais jį. Šis atstumas yra pralenkimas. Jis priklauso nuo taikinio greičio, atstumo ir kampo, kuriuo jis skrenda: ilgiems kertantiems taikiniams reikia daugiausia pralenkimo, o tiesiai tolstantiems – beveik jokio. Tai, kaip šaulys suvokia pralenkimą, yra subjektyvu, todėl skirtingi žmonės jį apibūdina skirtingai. Yra keli pralenkimo metodai – pastovus pralenkimas (maintained lead), atitraukimas nuo taikinio (pull-away) ir pravedimas pro taikinį (swing-through), – ir treneris padės jums pasirinkti savąjį."
+   "long": "Kol šratai skrenda link taikinio, taikinys toliau juda, todėl šūvio akimirką šautuvas turi būti priešais jį. Šis atstumas yra pralenkimas. Jis priklauso nuo taikinio greičio, atstumo ir kampo, kuriuo jis skrenda: ilgiems kertantiems taikiniams reikia daugiausia pralenkimo, o tiesiai tolstantiems – beveik jokio. Tai, kaip šaulys suvokia pralenkimą, yra subjektyvu, todėl skirtingi žmonės jį apibūdina skirtingai. Yra keli pralenkimo metodai – pastovus pralenkimas (maintained lead), atitraukimas nuo taikinio (pull-away), pravedimas pro taikinį (swing-through) ir šaudymas į tašką (ambush), – ir treneris padės jums pasirinkti savąjį."
   },
   "maintained-lead": {
    "term_local": "pastovus pralenkimas",
@@ -919,8 +919,8 @@ window.GLOSSARY_I18N.lt = {
     "maintained lead"
    ],
    "conf": "low",
-   "short": "Pralenkimo būdas, kai vamzdžiai visą laiką juda prieš taikinį jo greičiu.",
-   "long": "Taikant pastovų pralenkimą šaulys iš karto nukreipia vamzdžius priešais taikinį ir veda juos tuo pačiu greičiu, išlaikydamas reikiamą pralenkimą, o tada šauna. Tai gerai veikia ilgiems, nuspėjamiems taikiniams, nes duoda laiko įvertinti pralenkimą. Sunkumas tas, kad akis turi likti ant taikinio, o ne ant vamzdžių, antraip judesys sustoja. Pradedantiesiems metodas kartais atrodo paprastas, bet reikalauja gero greičio pojūčio. Treneris patars, kokiems taikiniams jis jums tinka."
+   "short": "Pralenkimo metodas, kai vamzdžiai laikosi priešais taikinį, o šūvio akimirką juda jo greičiu, išlaikydami tarpą.",
+   "long": "Taikant pastovų pralenkimą, vamzdžių žiotys išeina į taikinio liniją priešais jį, o ne už jo. Iš pradžių jos juda šiek tiek lėčiau nei taikinys, kuris artėja, kol tarpas atrodo tinkamas; tada vamzdžiai juda taikinio greičiu, tarpas nesikeičia, o šūvis iššaunamas šautuvui dar judant. Metodas dažnai tinka toliems ir nuspėjamiems taikiniams, pavyzdžiui, ilgiems kertantiems, nes duoda laiko „perskaityti“ pralenkimą. Tipiška klaida – matuoti tarpą: žvilgsnis nukrypsta į vamzdžius, o šautuvas sulėtėja ar sustoja. Jis dažnai vadinamas sunkiausiai išmokstamu metodu, todėl paklauskite trenerio, kokiems taikiniams jis jums tinka."
   },
   "swing-through": {
    "term_local": "pravedimas pro taikinį",
@@ -969,7 +969,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "high",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Sportingo pradinė padėtis: buožė liečia kūną žemiau linijos ant liemenės, kol pasirodo taikinys.",
+   "short": "Sporting™ pradinė padėtis: buožė liečia kūną žemiau linijos ant liemenės, kol pasirodo taikinys.",
    "long": "Prieš prašydamas taikinio, sportingo šaulys stovi abiem kojomis šaudymo vietos ribose, buožės kulnas liečia kūną, o aukščiausios buožės dalies galas yra žemiau ant liemenės pažymėtos linijos. Tai galioja bet kokio tipo buožei, taip pat su reguliuojama atrama. Ši padėtis išlaikoma, kol taikinys išmestas ir matomas. Už pirmą pažeidimą skiriamas įspėjimas su geltonąja kortele; už kitą toje pačioje aikštelėje – raudonoji kortelė, o taikinys vertinamas. Dubletuose tarp pirmo ir antro taikinio šautuvą galima laikyti laisvai.",
    "disciplines": {
     "sporting": "Privaloma pozicija nuleistu šautuvu (3.1).",
@@ -1055,9 +1055,9 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "low",
    "short": "Prisidėjimo pratimai nešaunant, su neužtaisytu, patikrintu šautuvu, kur tai leidžia įstatymai.",
-   "long": "Sausas treniravimasis yra vienas naudingiausių būdų treniruotis namuose: kelios minutės per dieną padaro judesį pastovų. Prieš pradėdami įsitikinkite, kad šautuvas neužtaisytas, o kambaryje nėra šovinių, ir laikykite vamzdžio žiotis nukreiptas saugia kryptimi. Daug šaulių naudoja mokomuosius šovinius (snap caps), kad saugotų mechanizmą spaudžiant gaiduką tuščiai. Šaudykloje taisyklės griežtesnės: šaudymo imitavimas už šaudymo vietos draudžiamas, o Sporting™ už šautuvo atrėmimą ir vedimą įsivaizduojama taikinio linija prieš iškvietimą skiriamas įspėjimas. Pasitikrinkite vietos įstatymus dėl elgesio su ginklu namuose.",
+   "long": "Sausas treniravimasis – tai šautuvo atrėmimo į petį pratimai su neužtaisytu, patikrintu šautuvu, nešaunant. Daug trenerių pataria kelias minutes namuose, kur tai leidžia įstatymai, kad judesys taptų įprastas. Prieš pradėdami įsitikinkite, kad šautuvas neužtaisytas, o kambaryje nėra šovinių, ir laikykite vamzdžius nukreiptus saugia kryptimi. Jei spaudžiate tuščio šautuvo gaiduką, naudokite mokomuosius šovinius (snap caps), kurie saugo skiltuvus, kaip pataria treneris ar ginklininkas. Šaudykloje taisyklės priklauso nuo rungties. Sporting™ rungtyje šaudymo imitavimas (šautuvo atrėmimas ir vedimas taikinio linija) varžybų metu neleidžiamas niekur šaudykloje. Compak® Sporting rungtyje jis draudžiamas už šaudymo vietų ir tada, kai šaudo kitas grupės narys. Pasitikrinkite vietos įstatymus dėl elgesio su ginklu namuose.",
    "disciplines": {
-    "sporting": "Šaudymo imitavimas draudžiamas šaudykloje ir už jos ribų; prieš iškvietimą – įspėjimas, pakartojimas baudžiamas.",
+    "sporting": "Šaudymo imitavimas neleidžiamas niekur šaudykloje: pirmiausia įspėjimas, vėliau kiekvienas pakartojimas – nulis už kitą pataikytą taikinį.",
     "compak": "Šaudymo imitavimas draudžiamas už šaudymo vietų ir kol šaudo grupės narys."
    }
   },
@@ -1222,7 +1222,7 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "linija",
    "conf": "high",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Naujesnis sportingo aikštelės tipas, kai 4 arba 5 šaudymo pozicijos stovi greta ir dalijasi mašinėlėmis.",
+   "short": "Naujesnis Sporting™ aikštelės tipas, kai 4 arba 5 šaudymo pozicijos stovi greta ir dalijasi mašinėlėmis.",
    "long": "Naujosios sistemos linijoje su 4 pozicijomis trys pozicijos turi po 4 mašinėles, o viena (2-oji arba 3-ioji) – 3 mašinėles; 2 iš 5 dubletų šaudomi 3 mašinėlių pozicijoje. Linijoje su 5 pozicijomis – po 3 mašinėles kiekvienai pozicijai. Pajėgumo lentelėse skaičiuojama 10–13 minučių vienai grupei linijoje; turint 4 linijas po 10 minučių, per dvi dienas galima priimti 336 šaulius, per keturias – iki 816. 3 pozicijų linija su 5 mašinėlėmis kiekvienoje leidžiama tik Grand Prix.",
    "disciplines": {
     "sporting": "Tik Sporting; Compak „linija“ reiškia ką kita – šaudymo būdą."
@@ -1355,7 +1355,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "medium",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Lygių rezultatų rikiavimas lyginant rezultatus paskutinėje aikštelėje ar Compak aikštelėje, tada priešpaskutinėje ir t. t.",
+   "short": "Vienodų rezultatų išrikiavimas lyginant rezultatus 8-ajame išdėstyme ar Compak aikštelėje, paskui 7-ajame ir taip toliau iki 1-ojo.",
    "long": "Žemiau trečios vietos atkrintamųjų varžybų nėra: lygūs šauliai užima vienodą vietą ir surašomi skaičiuojant jų rezultatus atbuline tvarka nuo 8-os aikštelės (Compak) iki 1-os. Lygios komandos rikiuojamos pagal narių bendrą rezultatą 8-oje aikštelėje ar Compak; jei vis dar lygu – 7-oje, 6-oje ir t. t. iki 1-os. Komandinių atkrintamųjų varžybų nėra."
   },
   "firing-time": {
@@ -1612,13 +1612,13 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "FITASC",
    "conf": "high",
    "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
-   "short": "Tarptautinė federacija, valdanti sportingą ir Compak® Sporting ir skelbianti jų taisykles.",
+   "short": "Tarptautinė federacija, valdanti Sporting™ ir Compak® Sporting ir skelbianti jų taisykles.",
    "long": "FITASC – tarptautinė medžioklinio tipo šaudymo disciplinų federacija, kuriai priklauso ir sportingas bei Compak® Sporting. Ji tvirtina tarptautinių varžybų aikšteles, išduoda tarptautinius teisėjų pažymėjimus ir penkerius metus saugo įrašus apie pašalinimus. Šiame vadove naudojamos dabartinės taisyklių redakcijos, galiojančios nuo 2025-01-01. Privalomas tik oficialus FITASC tekstas; ClayArena pateikia savo paprastą santrauką su nuorodomis į šaltinį."
   },
   "grand-prix": {
    "term_local": "Grand Prix",
    "conf": "low",
-   "short": "Sportingo varžybų lygis, kuriam leidžiama speciali 3 pozicijų linija su 5 mašinėlėmis kiekvienoje pozicijoje.",
+   "short": "Sporting™ varžybų lygis, kuriam leidžiama speciali 3 pozicijų linija su 5 mašinėlėmis kiekvienoje pozicijoje.",
    "long": "Sportingo taisyklėse šis terminas svarbus daugiausia dėl aikštelės: linija su 3 šaudymo pozicijomis ir 5 mašinėlėmis kiekvienoje leidžiama tik Grand Prix varžyboms. Visų kitų tipų aikštelėse vis tiek – įprasti 25 taikiniai: 15 pavienių ir 5 dubletai. Kitas Grand Prix sąlygas nustato varžybų programa.",
    "disciplines": {
     "sporting": "3 šaudymo vietų × 5 mašinėlių linija leidžiama tik Grand Prix varžybose."
@@ -1627,7 +1627,7 @@ window.GLOSSARY_I18N.lt = {
   "hunting-ethics": {
    "term_local": "medžioklės etika",
    "conf": "low",
-   "short": "Principas, kad sportingo taikiniai išdėstomi tokiais atstumais, kokiais šautų tikras medžiotojas.",
+   "short": "Principas, kad Sporting™ taikiniai išdėstomi tokiais atstumais, kokiais šautų tikras medžiotojas.",
    "long": "Sportingo aikštelės turi atitikti medžioklės etiką. Taikinys neturi būti toks artimas, kad tikras laimikis būtų sugadintas, nei toks tolimas, kad tikras gyvūnas būtų tik sužeistas, t. y. už efektyvaus šautuvo ir šovinio nuotolio. Kiekvienas pavienis taikinys turi palikti pakankamai laiko dviem šūviams. Trasų projektuotojai ir žiuri remiasi šiuo principu nustatydami ir tikrindami trajektorijas.",
    "disciplines": {
     "sporting": "Įrašyta į Sporting taisykles (2.5.1)."
@@ -1675,7 +1675,7 @@ window.GLOSSARY_I18N.lt = {
   "difficulty-class": {
    "term_local": "sudėtingumo klasė",
    "conf": "low",
-   "short": "Sportingo trajektorijos vertinimas pagal tai, kiek taikinių sudaužo vidutinis šaulys.",
+   "short": "Sporting™ trajektorijos vertinimas pagal tai, kiek taikinių sudaužo vidutinis šaulys.",
    "long": "A klasė – sudaužoma daugiau nei 80 %, B klasė – nuo 60 % iki 80 %, C klasė – nuo 40 % iki 60 %. Rekomenduojamas šaudymo vietos derinys: viena A, dvi B ir viena C trajektorija; penktas pavienis taikinys gali būti tik A arba B klasės. Dubletuose C klasės trajektorija vienoje šaudymo vietoje gali būti tik kartą, geriausia su A; dubletas gali būti B + B arba B + A.",
    "disciplines": {
     "sporting": "Tik Sporting (2.5)."
@@ -1687,7 +1687,7 @@ window.GLOSSARY_I18N.lt = {
     "žyma ant liemenės"
    ],
    "conf": "low",
-   "short": "Kontrastinga linija ant sportingo šaulio liemenės, 25 cm žemiau pečių linijos, žemiau kurios turi likti buožė.",
+   "short": "Kontrastinga linija ant Sporting™ šaulio liemenės, 25 cm žemiau pečių linijos, žemiau kurios turi likti buožė.",
    "long": "Linija brėžiama ant striukės ar liemenės 25 cm (9,85 colio) žemiau pečių ašies ir lygiagrečiai jai, su liemene kontrastuojančia spalva, kad teisėjas ją matytų. Parengties pozicijoje aukščiausios buožės dalies galas turi likti žemiau jos, kol pasirodo taikinys. Sportingo taisyklėse yra liemenės ir trijų buožės tipų schema. Compak taisyklėse tokios žymos nėra.",
    "disciplines": {
     "sporting": "Privaloma; 25 cm žemiau pečių ašies.",
@@ -1976,7 +1976,7 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "apšilimas",
    "conf": "low",
    "short": "Pasiruošimas prieš šaudymą: judesiai ir keli lengvi taikiniai.",
-   "long": "Apšilimas paruošia kūną ir akis šaudymui. Kelios minutės judesių kaklui, pečiams, nugarai ir klubams mažina traumų riziką ir daro šautuvo judesį sklandesnį. Jei šaudykla leidžia, pradėkite treniruotę nuo kelių lengvų taikinių, kad rastumėte ritmą ir pasitikėjimą, prieš pereidami prie sunkių. Prieš varžybas taisyklės priklauso nuo rungties. Sporting™ niekas negali treniruotis varžybų išdėstymuose, todėl apšilkite kitose aikštelėse. Compak® Sporting treniruotis varžybų trajektorijose leidžiama, bet su kitomis nustatymo lentelėmis; žemynų ir pasaulio čempionatuose oficiali treniruotė prasideda tik šeštadienį prieš startą. Sausus atrėmimus darykite tik ten, kur tai leidžiama, su neužtaisytu, patikrintu šautuvu."
+   "long": "Apšilimas pažadina kūną ir akis prieš šaudymą. Daug trenerių pataria apie 10–15 minučių lengvų dinaminių judesių kaklui, pečiams, nugarai, klubams ir čiurnoms, kad šautuvas judėtų sklandžiau; apšilimo šaudant į skraidančius taikinius tyrimų mažai, todėl šie patarimai remiasi trenerių patirtimi. Jei šaudykla leidžia, treniruotę galite pradėti nuo kelių lengvų taikinių, kad rastumėte ritmą, ir tik tada pereiti prie sunkių. Prieš varžybas taisyklės priklauso nuo rungties. Sporting™ rungtyje niekas negali treniruotis varžybų išdėstymuose, todėl apšilimo šūviai šaudomi kituose išdėstymuose. Compak® Sporting rungtyje treniruotis varžybų trajektorijose leidžiama, bet su kitomis trajektorijų nustatymo lentelėmis; žemynų ir pasaulio čempionatuose oficiali treniruotė prasideda tik šeštadienį prieš startą. Varžybose daug trenerių pataria apšilti be šautuvo; sausas treniravimasis skirtas namams ar treniruotei, kur jis leidžiamas."
   },
   "training-diary": {
    "term_local": "treniruočių dienoraštis",
@@ -2061,7 +2061,7 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "šaulio profilis",
    "conf": "low",
    "short": "Šaulio puslapis ClayArena su jo varžybomis ir pagrindiniais rodikliais.",
-   "long": "Šaulio profilis surenka Sporting™ ir Compak® Sporting varžybas, kurių rezultatai yra ClayArena, ir rodo pagrindinius skaičius, tokius kaip tikslumas ir geriausias rezultatas. Į jį galima patekti iš varžybų rezultatų lentelės arba rasti ieškant pagal vardą. Vardai svetainėje parašyti lotyniškomis raidėmis, kaip varžybų dokumentuose, todėl jei pavardę galima transliteruoti skirtingai, išbandykite kelis variantus. Duomenys gaunami iš varžybų rezultatų lapų, todėl savo lapą patikrinkite dar šaudykloje: profilyje bus tai, ką užrašė teisėjas. Profilis naudingas norint lyginti save su savimi per sezoną."
+   "long": "Šaulio profilis surenka Sporting™ ir Compak® Sporting varžybas, kurių rezultatai yra ClayArena, ir rodo pagrindinius skaičius, tokius kaip tikslumas ir geriausias rezultatas. Į jį galima patekti iš varžybų rezultatų lentelės arba rasti ieškant pagal vardą. Vardai parašyti taip, kaip varžybų dokumentuose: tarptautinėse varžybose dažniausiai lotyniškomis raidėmis, o nacionalinėse – ir vietine abėcėle, pavyzdžiui, kirilica Ukrainos varžybose. Jei negalite savęs rasti, išbandykite vietinę rašybą ir skirtingus savo vardo rašymo lotyniškomis raidėmis variantus. Duomenys gaunami iš varžybų rezultatų lapų, todėl savo lapą patikrinkite dar šaudykloje: profilyje bus tai, ką užrašė teisėjas. Profilis naudingas norint lyginti save su savimi per sezoną."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2087,8 +2087,8 @@ window.GLOSSARY_I18N.lt = {
   "top-10-rate": {
    "term_local": "patekimo į dešimtuką dažnis",
    "conf": "low",
-   "short": "Kaip dažnai šaulys užima vietą pirmajame dešimtuke.",
-   "long": "Šis ClayArena profilio skaičius rodo, kurioje varžybų dalyje šaulys pateko į dešimtuką. Jis priklauso ne tik nuo rezultato, bet ir nuo dalyvių sudėties: patekti į dešimtuką didelėse tarptautinėse varžybose daug sunkiau nei klubo varžybose. Todėl skaitykite jį kartu su varžybų, kuriose šaulys dalyvavo, sąrašu. Jis gerai parodo patyrusių šaulių pastovumą, bet pradedančiajam naudingiau stebėti savo tikslumą."
+   "short": "Kaip dažnai šaulys patenka į savo kategorijos arba bendrosios įskaitos dešimtuką.",
+   "long": "Šis ClayArena profilio skaičius rodo, kurioje varžybų dalyje šaulys pateko į savo kategorijos arba bendrosios įskaitos dešimtuką. Jis priklauso ne tik nuo rezultato, bet ir nuo dalyvių sudėties: patekti į dešimtuką didelėse tarptautinėse varžybose daug sunkiau nei klubo varžybose, o mažoje kategorijoje, kur tik keli šauliai, į dešimtuką patekti lengviau. Todėl skaitykite jį kartu su varžybų, kuriose šaulys dalyvavo, sąrašu. Jis gerai parodo patyrusių šaulių pastovumą, bet pradedančiajam naudingiau stebėti savo tikslumą."
   },
   "performance-index": {
    "term_local": "rezultatyvumo indeksas",
@@ -2141,8 +2141,8 @@ window.GLOSSARY_I18N.lt = {
     "EFP"
    ],
    "conf": "low",
-   "short": "Dokumentas, kurį ES šalis išduoda joje gyvenantiems ginklų savininkams keliauti su ginklais į kitas ES šalis; galioja iki penkerių metų.",
-   "long": "Europos šaunamojo ginklo leidimą (EFP) išduoda tos ES šalies institucija, kurioje gyvena ginklo savininkas, ir jis paprastai galioja iki penkerių metų. Į jį įrašomi konkretūs ginklai, todėl prieš kelionę patikrinkite, ar vežamas šautuvas įrašytas ir ar leidimas nepasibaigs kelionės metu. Sporto šauliai su EFP ir kelionės priežastį patvirtinančiu dokumentu, dažniausiai organizatoriaus kvietimo laišku, paprastai gali vežtis ginklą į kitą ES šalį be atskiro išankstinio leidimo. Šalys vis dėlto gali turėti savų išimčių, o EFP nepanaikina vietos taisyklių dėl nešiojimo, laikymo ir šovinių pirkimo. Jis neišduodamas ne ES šalių gyventojams; pasitikrinkite aktualias paskirties ir tranzito šalių taisykles."
+   "short": "Dokumentas, kurį ES šalis arba Šveicarija, Norvegija, Islandija ar Lichtenšteinas išduoda ten gyvenantiems ginklų savininkams kelionėms su savo ginklais šioje erdvėje; galioja iki penkerių metų.",
+   "long": "Europos šaunamojo ginklo leidimą išduoda šalies, kurioje gyvena savininkas, ginklų leidimus tvarkanti institucija, ir jis paprastai galioja iki penkerių metų. Be ES šalių, jį savo gyventojams išduoda ir Šveicarija, Norvegija, Islandija bei Lichtenšteinas, kurie taiko tas pačias ES ginklų taisykles; kitų šalių gyventojai jo gauti negali. Į jį įrašomi konkretūs ginklai, todėl prieš kelionę patikrinkite, ar jūsų vežamas šautuvas įrašytas ir ar leidimas nesibaigs kelionėje. Sportiniai šauliai, turintys leidimą ir kelionės tikslą patvirtinantį dokumentą, dažniausiai organizatoriaus kvietimo laišką, paprastai gali vežtis savo ginklą į kitą iš šių šalių be atskiro išankstinio leidimo. Vis dėlto šalys gali turėti savų išimčių, o šis leidimas nepanaikina vietos taisyklių dėl nešiojimo, laikymo ir šovinių pirkimo; pasitikrinkite galiojančias paskirties ir tranzito šalių taisykles."
   },
   "jet-lag": {
    "term_local": "laiko juostų kaitos sindromas",
@@ -2150,8 +2150,8 @@ window.GLOSSARY_I18N.lt = {
     "jet lag"
    ],
    "conf": "low",
-   "short": "Sutrikęs miegas ir budrumas po skrydžio per kelias laiko juostas; paprastai praeina per kelias dienas.",
-   "long": "Perskridus kelias laiko juostas vidinis laikrodis nesutampa su vietos laiku: dieną norisi miegoti, naktį sunku užmigti, nukenčia reakcija ir susikaupimas. Šaudymui tai svarbu, nes pirmiausia nukenčia tikslumas ir koncentracija. Todėl į tolimas varžybas patariama atvykti keliomis dienomis anksčiau, iš karto pereiti prie vietos laiko, būti dienos šviesoje ir gerti vandenį. ClayAway turo programoje (rengiama) laikas bus nurodomas renginio vietos laiko juostoje, pažymint juostą, kad nesupainiotumėte tvarkaraščio. Migdomuosius ar kitus vaistus aptarkite su gydytoju."
+   "short": "Sutrikęs miegas ir budrumas po greitos kelionės per kelias laiko juostas; gali trukti nuo kelių dienų iki savaitės ar ilgiau, skrendant į rytus – maždaug dieną kiekvienai juostai.",
+   "long": "Po greitos kelionės per ne mažiau kaip tris laiko juostas vidinis laikrodis dar gyvena pagal namų laiką: miegas, apetitas, nuotaika ir budrumas neatitinka vietos laiko, kol laikrodis prisitaiko. Paplitęs apytikris orientyras – maždaug diena kiekvienai laiko juostai skrendant į rytus ir maždaug pusė dienos juostai skrendant į vakarus; žmonės skiriasi. Dienos šviesa tinkamu paros metu yra pagrindinis signalas, perstatantis laikrodį, todėl nuo pirmos dienos gyvenkite pagal vietos laiką, o po ilgo skrydžio į rytus suplanuokite laisvą, lengvą dieną prieš šaudymą dėl rezultato. Nuovargis nuo pačios kelionės (kelionės nuovargis) – kitas dalykas. ClayAway kelionės programoje (rengiama) laikas bus nurodomas vietos laiko juosta, pažymint juostą. Migdomuosius, melatoniną ar kitus vaistus aptarkite su gydytoju."
   },
   "invitation-letter": {
    "term_local": "kvietimo laiškas",
@@ -2198,12 +2198,12 @@ window.GLOSSARY_I18N.lt = {
   "soft-focus": {
    "term_local": "švelnus fokusavimas",
    "conf": "low",
-   "short": "Atpalaiduotas, platus akių fokusas laukiant taikinio pastebėjimo taške."
+   "short": "Atpalaiduotas, platus žvilgsnis į sritį, kurioje pasirodys taikinys, akims laukiant pastebėjimo taške, neįsižiūrint į smulkmenas."
   },
   "hard-focus": {
    "term_local": "aštrus fokusavimas",
    "conf": "low",
-   "short": "Aštrus, intensyvus fokusavimas į patį taikinį, dažnai į jo priekinį kraštą."
+   "short": "Aštrus žvilgsnis į patį taikinį, dažnai į jo priekinį kraštą, nuo akimirkos, kai jį aiškiai pamatote, iki šūvio."
   },
   "leading-edge": {
    "term_local": "priekinis taikinio kraštas",
@@ -2324,7 +2324,8 @@ window.GLOSSARY_I18N.lt = {
     "overhead"
    ],
    "conf": "low",
-   "short": "Taikinys, praskrendantis tiesiai virš šaulio galvos, iš už nugaros ar iš priekio."
+   "short": "Virš šaulio galvos praskrendantis taikinys; dažniausiai taip vadinamas taikinys, kuris atskrenda iš už nugaros ir tolsta, o atskrendantis iš priekio yra virš galvos skrendantis artėjantis taikinys (driven).",
+   "long": "Iš už nugaros skrendantis taikinys praskrenda virš jūsų nugaros ir tolsta. Jį pamatote vėlai, todėl daug trenerių pataria atsigręžti dar prieš taikinio iškvietimą. Atremkite šautuvą į petį, kol taikinys skrenda virš jūsų, nuspauskite gaiduką, kai vamzdžių žiotys pasiekia jo priekinį kraštą, ir po šūvio toliau veskite šautuvą. Pavadinimai skiriasi: kai kurie treneriai „overhead“ vadina ir iš priekio atskrendantį taikinį, kurį šis žodynas vadina virš galvos skrendančiu artėjančiu taikiniu (driven); jei abejojate, paklauskite."
   },
   "bolting-rabbit": {
    "term_local": "staiga iššokantis triušis",
@@ -2359,7 +2360,7 @@ window.GLOSSARY_I18N.lt = {
   "interpreter": {
    "term_local": "vertėjas",
    "conf": "low",
-   "short": "Asmuo, verčiantis kalbą tarp trenerio, teisėjo ir šaulių ture; išmano šaudymo terminologiją."
+   "short": "Žmogus, kuris žodžiu verčia tarp trenerio, teisėjo ir šaulių, pavyzdžiui, treniruotėse ir kelionės programoje, ir išmano šaudymo terminiją."
   },
   "chuchotage": {
    "term_local": "šnibždamasis vertimas (chuchotage)",
@@ -2385,7 +2386,7 @@ window.GLOSSARY_I18N.lt = {
     "smoked it"
    ],
    "conf": "low",
-   "short": "Trenerių žargonas švariam, centriniam pataikymui, kai taikinys virsta dulkėmis; tai ne taisyklių „tik dulkės ar dūmai“, kuris yra nulis."
+   "short": "Trenerių žargonas pataikymui, po kurio taikinys virsta dulkėmis. Pagal taisykles visiškai ar iš dalies į dulkes subyrėjęs taikinys yra pataikytas; sveikas taikinys, iš kurio pasirodo tik dulkės ar dūmai be matomo gabalo, yra nulis."
   },
   "peg": {
    "term_local": "šaudymo vieta (peg)",
@@ -2400,7 +2401,7 @@ window.GLOSSARY_I18N.lt = {
   "english-sporting": {
    "term_local": "anglų sportingas (English Sporting)",
    "conf": "low",
-   "short": "Britų sporting clays forma pagal CPSA taisykles, paprastai su poromis ir leidžiamu „gun up“."
+   "short": "Britiška sportingo atmaina, kurią Anglijoje rengia CPSA greta FITASC Sporting™; turi savas taisykles: dažni taikinių dubletai, o šauliai dažnai pradeda jau atrėmę šautuvą į petį."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2439,7 +2440,7 @@ window.GLOSSARY_I18N.lt = {
     "šaudymas į tašką"
    ],
    "conf": "low",
-   "short": "Būdas, kai vamzdžių žiotys laukia taške prieš taikinį ir šaunama taikiniui atskrendant, beveik be vedimo arba visai be jo."
+   "short": "Metodas, kai vamzdžiai nejudėdami laukia taške priešais taikinį, o gaidukas nuspaudžiamas dar taikiniui ten neatskridus, todėl jis įskrenda į šratų debesį."
   },
   "instinctive-shooting": {
    "term_local": "instinktyvusis šaudymas",
@@ -2449,7 +2450,7 @@ window.GLOSSARY_I18N.lt = {
   "national-federation": {
    "term_local": "nacionalinė federacija",
    "conf": "low",
-   "short": "Šalies sporto valdymo organas; FITASC narė, tvirtinanti nacionalines aikšteles ir atestuojanti teisėjus."
+   "short": "Šalies sporto šakos valdymo organas: vienija klubus ir šaulius, rengia nacionalines varžybas ir teisėjų kursus bei atstovauja šaliai FITASC."
   },
   "blazed-target": {
    "term_local": "ryškiai nudažytas taikinys",
@@ -2465,6 +2466,342 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "rankinis paleidimas",
    "conf": "low",
    "short": "Taikinio paleidimas, kai žmogus (traperis ar teisėjas) šaulio komandą išgirdęs paspaudžia mygtuką."
+  },
+  "anti-doping": {
+   "term_local": "antidopingas",
+   "alt": [
+    "dopingo kontrolė"
+   ],
+   "conf": "high",
+   "short": "Taisyklės ir kontrolė prieš sporte draudžiamas medžiagas ir metodus; tarptautines taisykles ir kasmetinį Draudžiamų medžiagų ir metodų sąrašą skelbia Pasaulinė antidopingo agentūra (WADA).",
+   "long": "Čempionatuose ir didelėse varžybose šaulio gali būti paprašyta pateikti dopingo mėginį. WADA kasmet, dažniausiai apie rugsėjį, paskelbia naują Draudžiamų medžiagų ir metodų sąrašą, kuris galioja nuo sausio 1 d. Šaudyme beta adrenoblokatoriai draudžiami visada. Stimuliantai ir THC (kanapės) draudžiami varžybų metu, o „varžybų laikotarpis“ prasideda 23.59 val. dieną prieš varžybas. Net gydytojo paskirti vaistai gali būti draudžiami: patikrinkite juos Global DRO arba savo šalies antidopingo agentūroje ir, jei jų reikia, iš anksto pateikite prašymą dėl TUE. Maisto papildai gali būti užteršti, todėl rinkitės produktus, kurių partijas tikrina nepriklausoma laboratorija. Tai nėra medicininė konsultacija: pasitarkite su savo gydytoju."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "leidimas vartoti gydymo tikslais (TUE)",
+   "alt": [
+    "TUE",
+    "terapinio vartojimo išimtis"
+   ],
+   "conf": "high",
+   "short": "Oficialus leidimas sportininkui dėl medicininių priežasčių vartoti vaistą, kuris kitu atveju draudžiamas; prašymas teikiamas iš anksto.",
+   "long": "Vien recepto nepakanka: draudžiama medžiaga lieka draudžiama, net jei ją paskyrė gydytojas. Todėl šaulys, kuriam reikia tokio vaisto, pavyzdžiui, beta adrenoblokatoriaus nuo aukšto kraujospūdžio, širdies ritmo sutrikimo ar migrenos, iš anksto teikia prašymą dėl TUE, dažniausiai savo šalies antidopingo agentūrai; nacionalinė federacija patars, kuri institucija už tai atsakinga. Nenustokite vartoti paskirto vaisto savavališkai: gerokai prieš varžybas pasitarkite su gydytoju dėl leidžiamos alternatyvos arba TUE. Tai nėra medicininė konsultacija."
+  },
+  "beta-blocker": {
+   "term_local": "beta adrenoblokatorius",
+   "alt": [
+    "beta blokatorius"
+   ],
+   "conf": "high",
+   "short": "Širdies vaistas, kuris lėtina širdies ritmą ir mažina drebulį; pagal WADA sąrašą šaudyme jis draudžiamas visada – ir varžybų metu, ir ne varžybų metu.",
+   "long": "Pavyzdžiai: propranololis, atenololis, bisoprololis ir metoprololis. Taiklumo sporto šakose jie draudžiami, nes lėtesnis širdies ritmas ir mažesnis drebulys gali nuraminti šautuvą. WADA sąraše šaudymas įvardytas per olimpinę federaciją (ISSF) ir parašaudymą (IPC), o ne per FITASC; vis dėlto beta adrenoblokatorius laikykite draudžiamais ir Sporting™ bei Compak® Sporting rungtyse: nacionalinės antidopingo agentūros gali tikrinti nacionalinėse varžybose, organizatoriai gali taikyti WADA sąrašą, o daug šaulių varžosi ir ISSF rungtyse. Jei gydytojas jums paskyrė beta adrenoblokatorių, nenustokite jo vartoti savavališkai; iš anksto paklauskite apie leidžiamą alternatyvą arba TUE. Tai nėra medicininė konsultacija."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Kelių nacionalinių antidopingo agentūrų internetinė vaistų paieška: ji parodo, ar jų šalyse parduodamas vaistas sporte draudžiamas.",
+   "long": "Global DRO yra tik partnerių šalyse parduodami vaistai, pavyzdžiui, Jungtinėje Karalystėje, JAV, Kanadoje ir Šveicarijoje. Ieškokite pagal veikliąją medžiagą, ne tik pagal prekės pavadinimą. Jei jūsų vaisto ten nėra, klauskite savo šalies antidopingo agentūros arba federacijos. Tikrinkite kasmet iš naujo, nes WADA draudžiamų medžiagų sąrašas keičiasi."
+  },
+  "box-breathing": {
+   "term_local": "kvadratinis kvėpavimas",
+   "alt": [
+    "box breathing"
+   ],
+   "conf": "medium",
+   "short": "Kvėpavimo schema: įkvėpimas, sulaikymas, iškvėpimas ir sulaikymas, kiekvienas skaičiuojant iki 4; viena iš išbandytinų galimybių, sporte mažai tirta.",
+   "long": "Iki šiol atliktuose tyrimuose kvadratinis kvėpavimas nebuvo geresnis už kitus kvėpavimo būdus; viename tyrime geriau veikė tiesiog ilgesnis iškvėpimas nei įkvėpimas. Todėl laikykite jį viena iš galimybių, o ne taisykle. Lėtas kvėpavimas tinka prieš šaudymo vietą ir tarp šaudymo vietų. Prieš pat taikinio iškvietimą daug trenerių pataria tik vieną natūralų iškvėpimą, nes labai lėtas kvėpavimas gali sulėtinti reakciją į taikinį. Jei pradeda svaigti galva, grįžkite prie įprasto kvėpavimo. Tai nėra medicininė konsultacija."
+  },
+  "quiet-eye": {
+   "term_local": "quiet eye (ramus žvilgsnis)",
+   "alt": [
+    "ramioji akis"
+   ],
+   "conf": "medium",
+   "short": "Paskutinis ramus žvilgsnis į taikinį prieš judesį; patyrusių šaulių jis paprastai prasideda anksčiau ir trunka ilgiau.",
+   "long": "Tyrėjai quiet eye matuoja kaip paskutinį ramų žvilgsnį prieš judesio pradžią. Palyginti su mažiau patyrusiais šauliais, elitiniai trapo ir skito šauliai jį pradeda anksčiau ir išlaiko ilgiau, o pataikius jis paprastai būna ilgesnis nei nepataikius. Esant nerimui jis dažnai sutrumpėja. Jokio stebuklingo milisekundžių skaičiaus nėra: šaudant į skraidančius taikinius tai reiškia anksti ir aiškiai pamatyti taikinį ir laikyti akis į jį nukreiptas per visą šūvį. Dauguma duomenų gauti olimpiniame trape ir skite; tikėtina, kad tai tinka ir Sporting™ bei Compak® Sporting."
+  },
+  "self-talk": {
+   "term_local": "vidinis kalbėjimas",
+   "alt": [
+    "kalbėjimas su savimi",
+    "self-talk"
+   ],
+   "conf": "medium",
+   "short": "Tai, ką sakote sau garsiai arba mintyse; sporte dažnai trumpi nurodymai, pavyzdžiui, „matau taikinį“ ar „sklandžiai“.",
+   "long": "Daugelyje tyrimų sportininkai, kurie mokėsi, ką sakyti sau, pasirodė šiek tiek geriau. Atliekant tikslumo reikalaujančias užduotis trumpi nurodymai padėjo labiau nei paraginimai, pavyzdžiui, „pirmyn“. Sakykite, ką daryti, o ne ko vengti: „laikyk liniją“, o ne „nesustabdyk šautuvo“. Šaudymo vietoje paprastai geriau tinka trumpas nurodymas, o motyvuojančios frazės – einant tarp šaudymo vietų. Tyrimai atlikti ne šaudant į skraidančius taikinius; tikėtina, kad tai tinka ir Sporting™ bei Compak® Sporting."
+  },
+  "cue-word": {
+   "term_local": "raktinis žodis",
+   "alt": [
+    "užuominos žodis"
+   ],
+   "conf": "medium",
+   "short": "Labai trumpas nurodymas, pavyzdžiui, „priekinis kraštas“ ar „sklandžiai“, kuris prieš šūvį nukreipia dėmesį į vieną dalyką.",
+   "long": "Daug trenerių pataria per treniruotę kartu su treneriu išsirinkti du ar tris raktinius žodžius ir varžybose vartoti tuos pačius žodžius. Žodžiai apie taikinį ar jo liniją, pavyzdžiui, „matau“ ar „laikyk liniją“, šaudymo vietoje paprastai tinka geriau nei nurodymai apie kūną, pavyzdžiui, „alkūnė aukščiau“, kurie skirti treniruotei. Daug šaulių ištaria žodį tame pačiame pasiruošimo šūviui ritualo žingsnyje, prieš pat taikinio iškvietimą. Vertėjas, verčiantis trenerio raktinį žodį, per visą treniruotę gali laikytis vieno trumpo atitikmens, kad šaulys galėtų jį vartoti vidiniame kalbėjime."
+  },
+  "imagery": {
+   "term_local": "mintinė repeticija",
+   "alt": [
+    "vizualizacija",
+    "vaizdinė treniruotė"
+   ],
+   "conf": "medium",
+   "short": "Repeticija mintyse: matyti ir jausti šūvį vaizduotėje tikro šūvio greičiu ir savo akimis, jo neatliekant.",
+   "long": "Tyrimai rodo, kad mintinė repeticija paprastai padeda, ypač kartu su tikra treniruote, bet niekas tiksliai nežino, kiek. Atrodo, ji geriau veikia, kai yra artima tikrovei: ta pati šaudymo vieta, tie patys taikiniai, tikras greitis ir savas žvilgsnis. Po taikinių pristatymo daug šaulių kiekvieną taikinį mintyse pereina vieną ar du kartus: laikymo taškas, pastebėjimo taškas, šautuvas išeina į liniją, sudaužymas. Repetuokite galvoje, ne su šautuvu: šautuvo atrėmimas į petį ir vedimas taikinio linija yra šaudymo imitavimas, kurį taisyklės riboja. Tyrimai atlikti ne šaudant į skraidančius taikinius; tikėtina, kad jie tinka ir Sporting™ bei Compak® Sporting."
+  },
+  "choking": {
+   "term_local": "palūžimas dėl spaudimo",
+   "alt": [
+    "choking"
+   ],
+   "conf": "medium",
+   "short": "Šaudymas gerokai prasčiau nei įprastai dėl spaudimo, dažnai kai pradedate sąmoningai valdyti įgūdį, kuris paprastai veikia savaime.",
+   "long": "Nepainiokite su vamzdžio čoku. Esant spaudimui šaulys gali pradėti žingsnis po žingsnio tikrinti šautuvo atrėmimą ar vedimą, o nerimas atitraukia akis nuo taikinio. Požymiai: pasikeitęs tempas, atrėmimo tikrinimas, žvilgsnis į vamzdį ar mušį, rezultatų sekimas. Kas gali padėti: įprastas pasiruošimo šūviui ritualas ir tempas, vienas paprastas raktinis žodis apie taikinį, proceso tikslai ir treniruotės, kai spaudimas didėja palaipsniui. Dauguma tyrimų atlikti kitose sporto šakose ir olimpiniame trape bei skite; tikėtina, kad tai tinka ir Sporting™ bei Compak® Sporting. Jei spaudimas vis gadina jūsų varžybas, gali padėti sporto psichologas."
+  },
+  "reset-routine": {
+   "term_local": "persikrovimo ritualas",
+   "alt": [
+    "reset"
+   ],
+   "conf": "low",
+   "short": "Trumpas, pastovus ritualas pradėti iš naujo: po nepataikymo (iškvėpimas, viena pataisa, kitas ritualas) arba kai jus sutrukdo prieš taikinio iškvietimą.",
+   "long": "Įprastas persikrovimas po nepataikymo trunka apie 5–10 sekundžių: padarykite šautuvą saugų, kaip reikalauja taisyklės, vieną kartą lėtai iškvėpkite, duokite sau vieną pataisą dviem ar trimis žodžiais, įsivaizduokite teisingą šūvį ir pradėkite kitą pasiruošimo šūviui ritualą. Klausimą „kodėl“ palikite po serijos: įgūdžio skaidymas žingsnis po žingsnio esant spaudimui gali jį sutrikdyti. Persikrovimas turi tilpti į laiko tarpą tarp taikinių. Jei jus sutrukdo prieš taikinio iškvietimą, daug trenerių pataria iškvėpti ir pradėti ritualą iš naujo. Toks pats persikrovimas gali padėti ir po jums nepatikusio teisėjo sprendimo."
+  },
+  "mobility": {
+   "term_local": "paslankumas",
+   "alt": [
+    "sąnarių paslankumas",
+    "mobilumas"
+   ],
+   "conf": "medium",
+   "short": "Kaip laisvai juda sąnariai: ar galite pasukti galvą, pakelti rankas ir pasukti liemenį tiek, kiek reikia šūviui, be įtampos.",
+   "long": "Šauliui svarbiausi yra kaklas (galva nusileidžia ant buožės), pečiai (šautuvo atrėmimas), viršutinė nugaros dalis ir klubai, kurie suka kūną paskui taikinį, bei čiurnos, kurios palaiko stabilią stovėseną. Daug trenerių prieš šaudymą pataria švelnius dinaminius judesius, pavyzdžiui, lėtus galvos pasukimus, pečių sukimus ir liemens pasukimus, o ilgą statinį tempimą palikti po šaudymo. Judėkite sklandžiai ir sustokite, jei skauda. Jei turite traumą ar ilgalaikį skausmą, pratimus sudarykite su gydytoju arba kineziterapeutu. Tai nėra medicininė konsultacija."
+  },
+  "gun-rental": {
+   "term_local": "šautuvo nuoma",
+   "alt": [
+    "nuomojamas šautuvas"
+   ],
+   "conf": "medium",
+   "short": "Šaudyklos šautuvo naudojimas už mokestį, dažnai kartu su pirmąja pamoka, šoviniais ir apsaugos priemonėmis, kad pradedantysis galėtų šaudyti nepirkdamas šautuvo."
+  },
+  "third-party-insurance": {
+   "term_local": "civilinės atsakomybės draudimas",
+   "conf": "high",
+   "short": "Draudimas nuo žalos, kurią galite padaryti kitiems žmonėms ar jų turtui; daug šalių ar klubų jo reikalauja iš šaulių."
+  },
+  "proof-mark": {
+   "term_local": "bandymo žymė",
+   "alt": [
+    "patikros ženklas"
+   ],
+   "conf": "low",
+   "short": "Žymė, kurią oficiali ginklų bandymo įstaiga įspaudžia ginkle po bandomojo šūvio sustiprintu užtaisu; daugelyje šalių toks bandymas privalomas."
+  },
+  "club-membership": {
+   "term_local": "narystė klube",
+   "alt": [
+    "nario mokestis"
+   ],
+   "conf": "high",
+   "short": "Narystė šaudymo klube: dažniausiai metinis mokestis, už kurį dažnai gaunami pigesni taikiniai ir galimybė dalyvauti treniruotėse bei klubo varžybose."
+  },
+  "reloaded-cartridge": {
+   "term_local": "perkrautas šovinys",
+   "alt": [
+    "pakartotinai užtaisytas šovinys"
+   ],
+   "conf": "medium",
+   "short": "Iššauta tūtelė, iš naujo pripildyta parako, kamštelio ir šratų, dažnai namuose; Sporting™ ir Compak® Sporting varžybose neleidžiama."
+  },
+  "taster-session": {
+   "term_local": "bandomoji pamoka",
+   "alt": [
+    "pažintinė treniruotė"
+   ],
+   "conf": "medium",
+   "short": "Įvadinė pamoka pradedantiesiems šaudykloje: treneris, šaudyklos šautuvas, šoviniai ir taikiniai, kad pirmą kartą išbandytumėte šaudymą."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "triukšmo sukeltas klausos pažeidimas",
+   "conf": "high",
+   "short": "Laipsniškas ir negrįžtamas vidinės ausies pažeidimas dėl garsių garsų, pavyzdžiui, šūvių; dažnai prasideda nuo aukštų garsų, o prarasta klausa nebegrįžta."
+  },
+  "tinnitus": {
+   "term_local": "spengimas ausyse",
+   "alt": [
+    "tinitas"
+   ],
+   "conf": "high",
+   "short": "Spengimas, ūžimas ar švilpimas ausyse be išorinio šaltinio; po šaudymo dažnai pirmas įspėjimas, kad klausos apsaugos nepakako."
+  },
+  "double-hearing-protection": {
+   "term_local": "dviguba klausos apsauga",
+   "conf": "medium",
+   "short": "Ausų kamštukai ir ausinės, dėvimi kartu dėl papildomos atsargos, ypač vaikams ir triukšmingose ar dengtose šaudymo vietose."
+  },
+  "presbyopia": {
+   "term_local": "presbiopija",
+   "alt": [
+    "su amžiumi atsirandanti toliaregystė"
+   ],
+   "conf": "high",
+   "short": "Su amžiumi susijęs artimo regėjimo silpnėjimas: maždaug nuo 40 metų sunkiau matyti iš arti, o regėjimas į tolį gali likti geras; mušis gali tapti neryškus."
+  },
+  "lead-hygiene": {
+   "term_local": "švino higiena",
+   "conf": "medium",
+   "short": "Įpročiai, mažinantys švino patekimą į organizmą: rankų ir veido plovimas, jokio valgymo ir rūkymo šaudymo vietoje, atskiri drabužiai šaudymui."
+  },
+  "heat-exhaustion": {
+   "term_local": "šiluminis išsekimas",
+   "conf": "high",
+   "short": "Kūno perkaitimas su nuovargiu, galvos svaigimu, galvos skausmu ar pykinimu; reikia šešėlio, vandens, vėsinimo ir poilsio, o jei greitai nepraeina – medicininės pagalbos."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "šaudymas į gyvus balandžius",
+   "conf": "medium",
+   "short": "Istorinis šaudymas į gyvus balandžius, paleidžiamus iš dėžučių priešais šaulį, šaudymo į skraidančius taikinius pirmtakas; 2003 m. FITASC sustabdė visas varžybas, kuriose taikiniai buvo gyvi gyvūnai."
+  },
+  "glass-ball": {
+   "term_local": "stiklinis rutulys",
+   "conf": "medium",
+   "short": "Stiklinis rutulys, XIX a. metamas į orą kaip taikinys, ankstyva gyvų paukščių alternatyva; vėliau jį pakeitė molinis taikinys."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Tarptautinė sportinio šaudymo federacija"
+   ],
+   "conf": "high",
+   "short": "International Shooting Sport Federation, valdanti olimpines šaudymo rungtis, tarp jų olimpinį trapą ir skitą; Sporting™ ir Compak® Sporting priklauso FITASC."
+  },
+  "hydration": {
+   "term_local": "skysčių vartojimas",
+   "alt": [
+    "hidratacija"
+   ],
+   "conf": "medium",
+   "short": "Pakankamas vandens gėrimas; šaudykloje tai reiškia mažus, reguliarius gurkšnius visą dieną, o ne tik tada, kai labai ištroškote."
+  },
+  "travel-fatigue": {
+   "term_local": "kelionės nuovargis",
+   "conf": "medium",
+   "short": "Nuovargis nuo pačios kelionės: sustingę raumenys, trumpas miegas ir sausas oras; kitaip nei laiko juostų kaitos sindromas, nepriklauso nuo laiko juostų ir dažnai praeina pailsėjus."
+  },
+  "referee-certificate": {
+   "term_local": "teisėjo pažymėjimas",
+   "alt": [
+    "teisėjo licencija"
+   ],
+   "conf": "medium",
+   "short": "Pažymėjimas ar kortelė, kurią nacionalinė federacija išduoda po kursų ir egzamino ir kuri suteikia teisę teisėjauti; tarptautinių varžybų vyriausiajam teisėjui reikia FITASC kvalifikacijos."
+  },
+  "assistant-referee": {
+   "term_local": "teisėjo padėjėjas",
+   "conf": "medium",
+   "short": "Teisėjo pagalbininkas; Sporting™ rungtyje asmuo be reikiamo teisėjo pažymėjimo gali atlikti tik šį vaidmenį ir tik iš anksto gavęs žiuri sutikimą."
+  },
+  "coaching-qualification": {
+   "term_local": "trenerio kvalifikacija",
+   "alt": [
+    "trenerio licencija"
+   ],
+   "conf": "medium",
+   "short": "Įrodymas, kad asmuo baigė trenerių mokymą; kas ją išduoda, kokie yra lygiai ir ar ji privaloma, priklauso nuo šalies."
+  },
+  "volunteer": {
+   "term_local": "savanoris",
+   "conf": "high",
+   "short": "Žmogus, kuris neatlygintinai padeda varžybose: registracija, mašinėlių pildymas, automobilių statymas, nuotraukos, tvarkymas arba, kur leidžia taisyklės, rezultatų žymėjimas prižiūrint teisėjui."
+  },
+  "tour-package": {
+   "term_local": "kelionės paketas",
+   "alt": [
+    "paketas"
+   ],
+   "conf": "medium",
+   "short": "Viskas, ką šaulys ClayAway kelionėje pirks vienu mokėjimu: treniruotės šaudyklose, apgyvendinimas, pervežimai, bendra programa ir, prireikus, vertėjas (ClayAway rengiamas)."
+  },
+  "scoreboard": {
+   "term_local": "rezultatų lenta",
+   "alt": [
+    "švieslentė"
+   ],
+   "conf": "medium",
+   "short": "Rezultatų lenta: lenta ar ekranas, kuriame per varžybas ir po jų skelbiami šaulių serijų rezultatai ir sumos."
+  },
+  "spectator-area": {
+   "term_local": "žiūrovų zona",
+   "conf": "high",
+   "short": "Organizatoriaus žiūrovams skirta vieta, dažniausiai už šaudymo vietos arba už tvoros ar virvės, iš kurios saugu stebėti, fotografuoti ir filmuoti."
+  },
+  "derogation": {
+   "term_local": "išimties leidimas",
+   "alt": [
+    "derogacija"
+   ],
+   "conf": "low",
+   "short": "Leidimas ypatingais atvejais nukrypti nuo taisyklės, pavyzdžiui, varžytis kitoje kategorijoje, nei lemia amžius; kreipkitės į nacionalinę federaciją."
+  },
+  "pitch": {
+   "term_local": "buožės pado kampas",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low",
+   "short": "Kampas, kuriuo nupjautas buožės galas (buožės padas) vamzdžių atžvilgiu; nuo jo priklauso, ar buožė prie peties prigula visu paviršiumi, ar spaudžia smaigaliu arba kulnu."
+  },
+  "gas-operated": {
+   "term_local": "dujinis",
+   "alt": [
+    "dujinis pusiau automatinis šautuvas"
+   ],
+   "conf": "medium",
+   "short": "Pusiau automatinė sistema, kurioje dalis parako dujų perkrauna ginklą; ji paskirsto atatranką ilgesniam laikui, todėl daug šaulių ją jaučia kaip švelnesnę."
+  },
+  "ladies-cut": {
+   "term_local": "moteriškas kirpimas",
+   "conf": "medium",
+   "short": "Šaudymo liemenės ar striukės kirpimas, atsižvelgiantis į krūtinę ir pečių plotį, kad pagalvėlė būtų ten, kur remiasi buožė."
+  },
+  "ladies-day": {
+   "term_local": "moterų diena",
+   "alt": [
+    "ladies' day"
+   ],
+   "conf": "medium",
+   "short": "Diena klube, kai moterys treniruojasi ar išbando šaudymą, dažnai su treneriu ir skolintais šautuvais."
+  },
+  "snap-cap": {
+   "term_local": "mokomasis šovinys",
+   "alt": [
+    "snap cap"
+   ],
+   "conf": "medium",
+   "short": "Šovinio imitacija, sauganti skiltuvus, kai nuleidžiamas tuščio šautuvo gaidukas; sausam treniravimuisi, kaip pataria treneris ar ginklininkas."
+  },
+  "blot-out": {
+   "term_local": "uždengti taikinį vamzdžiais (blot out)",
+   "conf": "low",
+   "short": "Leisti vamzdžiams šūvio akimirką uždengti taikinį, kaip dažnai būna su artėjančiais ir virš galvos skrendančiais taikiniais; paprastai tai tyčia, ne klaida."
+  },
+  "show-pair": {
+   "term_local": "show pair",
+   "conf": "low",
+   "short": "Britiškas taikinių poros parodymo prieš šaudymą pavadinimas; FITASC terminais – dubleto pristatymas."
+  },
+  "perfect-round": {
+   "term_local": "švari serija",
+   "alt": [
+    "25 iš 25"
+   ],
+   "conf": "medium",
+   "short": "Serija be nepataikymų: Sporting™ ir Compak® Sporting – visi 25 taikiniai sudaužyti; ClayArena profilis skaičiuoja, kiek tokių serijų turi šaulys."
+  },
+  "visitors-permit": {
+   "term_local": "lankytojo leidimas (visitor's permit)",
+   "conf": "low",
+   "short": "Britiškas leidimas, kuriuo užsienio lankytojas gali turėti lygiavamzdį šautuvą Didžiojoje Britanijoje; prašymą vietos policijai teikia ten gyvenantis laiduotojas."
   }
  }
 };

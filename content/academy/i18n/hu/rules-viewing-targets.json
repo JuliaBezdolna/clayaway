@@ -1,0 +1,162 @@
+{
+  "id": "rules-viewing-targets",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "0064d55d",
+    "summary": "520117f9",
+    "rules-viewing-targets-p1": "ad9aaf1c",
+    "rules-viewing-targets-cmp1": "81f7ebe1",
+    "sporting-viewing-p2": "91e5fef1",
+    "sporting-viewing-p3": "41aa2110",
+    "compak-gun-and-call-p4": "94cbc3de",
+    "rules-viewing-targets-inline": "36aba8bb",
+    "rules-viewing-targets-open": "e72630ec",
+    "sporting-viewing-p4": "fe023af6",
+    "rules-viewing-targets-cmp2": "91c6febf",
+    "rules-viewing-targets-cmp3": "a954b0b5",
+    "rules-viewing-targets-tip1": "dbc75fed",
+    "rules-viewing-targets-more": "f764fc23",
+    "sporting-viewing-p6": "0980466b",
+    "sporting-viewing-ph1": "1df1c5f9",
+    "sporting-viewing-ph2": "f2d71d4d",
+    "sporting-viewing-ph3": "7dd75e34",
+    "sporting-viewing-ph4": "e39faadc",
+    "compak-gun-and-call-ph1": "6126c547",
+    "sporting-viewing-kp1": "cf204807",
+    "sporting-viewing-kp2": "1f60b759",
+    "sporting-viewing-kp3": "d07a0eb2",
+    "compak-gun-and-call-kp4": "cde28806",
+    "sporting-viewing-kp4": "7f195256",
+    "rules-viewing-targets-dyk": "d3836026",
+    "sporting-viewing-q1": "8dc8d7ba",
+    "rules-viewing-targets-q2": "8a902885",
+    "sporting-viewing-q3": "442066c3",
+    "sporting-viewing-q2": "7517024b",
+    "rules-viewing-targets-q4": "9490a582",
+    "rules-viewing-targets-q5": "004cd4f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "rules-viewing-targets-p1": "Lövés előtt megmutatják a korongokat: ez a {{term:target-presentation|bemutatás}}. A {{tm:sporting}}-ban minden lőálláson megtörténik. A {{tm:compak}}-ban by {{term:squad|rotte}} formátumban, ahol egy {{fact:rules.squad-max-shooters}} fős rotte halad a lőállásokon, csak naponta egyszer, az első rottének. In line formátumban ez másként megy (lásd lent). A bemutatás lehetővé teszi, hogy „kiolvasd” minden korongot: a vonalát, sebességét, távolságát, és hogy mit csinál a korong a levegőben.",
+    "rules-viewing-targets-cmp1": {
+      "sporting": "Minden lőálláson a rotte első lövésze látja az összes röppályát, készenléti helyzetben állva a lőálláson.",
+      "compak": "By squad: csak naponta egyszer, reggel, a nap első rottéjának. Az 1. lőálláson álló lövész kéri az A-tól F-ig tartó szóló korongokat. In line: lásd lent."
+    },
+    "sporting-viewing-p2": "Megkérheted a bírót, hogy mutassa meg újra a korongot: legfeljebb kétszer minden korongra a lőállás kottájából.",
+    "sporting-viewing-p3": "A {{term:double-on-report|vadászdublékat}} (ahol a második korong akkor indul, amikor rálősz az elsőre) nem mutatják be. Ám a korongjaikat már láttad: egy dublé a {{tm:sporting}}-ban csak olyan korongokat használ, amelyeket már szólóként kidobtak ugyanezen a lőálláson. Minden rotte első lövészének megmutatják a {{term:simultaneous-double|szimultán dubléket}} (mindkét korong egyszerre indul) és a {{term:rafale-double|rafale dubléket}} (két korong ugyanabból a dobógépből, egymás után). Kérésre legfeljebb kétszer mutatják meg újra.",
+    "compak-gun-and-call-p4": "By squad formátumban a szóló korongok után az 1–5. lőállás szimultán dublé-i következnek. Utána hallod a bírótól a „start” vagy „competition” szót, és kezdődik az eredményt adó lövészet.",
+    "rules-viewing-targets-inline": "A {{tm:compak}}-ot {{term:compak-in-line|in line}} formátumban is lehet lőni: a lövészek egyenként lépnek az 1. lőállásra, és a vonal mentén haladnak az 5.-ig. A kezdés előtt az első lövész kérheti az A-tól F-ig tartó szóló korongok bemutatását; szimultán dubléknál minden lőállás dubléját is megmutatják. Amíg a vonal feltöltődik, minden új, az 1. lőállásra érkező lövész előbb a dublé-je első korongját látja. Amikor a vonal kiürül, a bíró ugyanezt teszi a következő lőállásokon. Részletek: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+    "rules-viewing-targets-open": "Mindkét versenyszámban a bemutatás és bármely megszakítás alatt a fegyverek nyitva és kiürítve maradnak. Csak akkor zárd be a tiédet, amikor a bíró engedi.",
+    "sporting-viewing-p4": "A bemutatás alatt lőni, vagy {{term:mock-shooting|lövés imitálását}} végezni (a fegyvert vállba venni és a korong vonala mentén lendíteni, lövés nélkül), tilos. Úgy büntetik, mint egy fegyverhelyzet-szabálysértést: előbb figyelmeztetés, majd piros lap.",
+    "rules-viewing-targets-cmp2": {
+      "sporting": "Ha egy dobógép elromlik, vagy a lövészet {{fact:rules.reshow-after-interruption}} szünetel, a lőállás korongjait újra megmutatják.",
+      "compak": "{{fact:rules.reshow-after-interruption}} szünet után a bíró még egyszer megmutatja a hat szóló korongot."
+    },
+    "rules-viewing-targets-cmp3": {
+      "sporting": "Senki nem gyakorolhat a verseny lőpályáin.",
+      "compak": "Gyakorolhatsz a verseny röppályáin, de nem a verseny kottái szerint. A gyakorláshoz használt {{term:trajectory-setting-table|röppálya-beállítási táblázatoknak}} (kész kottáknak, amelyek megmondják, melyik dobógépből lőnek minden lőálláson) másnak kell lenniük. A kontinentális és világbajnokságok előtt a hivatalos gyakorlás a verseny előtti szombaton kezdődik."
+    },
+    "rules-viewing-targets-tip1": "Használd a bemutatást minden korong megtervezésére. Figyeld meg, hol látod először tisztán (a {{term:pick-up-point|korongfelvételi pontot}}), és hol töröd el (a {{term:break-point|lövési pontot}}). Sok edző azt is javasolja, hogy a bemutatás alatt válaszd ki egy szimultán dublé sorrendjét is.",
+    "rules-viewing-targets-more": "Hogyan olvasd ki a korongot a bemutatásból: {{lesson:targets-reading-a-target}}."
+  },
+  "note": {
+    "sporting-viewing-p6": "Edzésen a bemutatás a tréner kedvenc pillanata: „figyeld, hol fordul”. Versenyen a bemutatás a verseny része, így a coaching-tilalom itt is érvényes: maradj csendben, hacsak a bíró vagy a lövész nem igényel fordítást az eljárásról."
+  },
+  "phrases": {
+    "sporting-viewing-ph1": {
+      "meaning": "A lövész a bírónak: kezdje el a bemutatást.",
+      "say": "Kérem, mutassa be a korongokat."
+    },
+    "sporting-viewing-ph2": {
+      "meaning": "Kérés a kotta egy korongjának megismétlésére.",
+      "say": "Még egyszer, kérem, csak a B-t."
+    },
+    "sporting-viewing-ph3": {
+      "meaning": "Bíró: nyisd ki és üresítsd ki, amíg a bíró nem engedi a bezárást.",
+      "say": "A bemutatás alatt a fegyverek nyitva."
+    },
+    "sporting-viewing-ph4": {
+      "meaning": "Az edző edzésen: figyeld meg azt a pontot, ahol a korong irányt vagy alakot vált.",
+      "say": "Figyeld, hol fordul."
+    },
+    "compak-gun-and-call-ph1": {
+      "meaning": "Bíró: a bemutatás véget ért, kezdődik az eredményt adó lövészet.",
+      "say": "Start! Kezdjük a versenyt!"
+    }
+  },
+  "key_points": {
+    "sporting-viewing-kp1": "{{tm:sporting}}: minden lőálláson a rotte első lövésze látja az összes röppályát, készenléti helyzetben állva.",
+    "sporting-viewing-kp2": "{{tm:sporting}}: kérésre legfeljebb kétszeri ismétlés minden korongra a kottából.",
+    "sporting-viewing-kp3": "{{tm:sporting}}: a vadászdubléket nem mutatják be; a szimultán és a rafale dubléket minden rotte első lövésze látja.",
+    "compak-gun-and-call-kp4": "{{tm:compak}} by squad: a korongokat naponta egyszer, reggel mutatják be, csak az első rottének. {{fact:rules.reshow-after-interruption}} szünet után a bíró még egyszer megmutatja a hat szóló korongot. In line formátumban más a sorrend.",
+    "sporting-viewing-kp4": "A bemutatás alatt a fegyverek nyitva maradnak; a {{tm:sporting}}-ban a lövés vagy a lövés imitálása ekkor büntetendő."
+  },
+  "quiz": {
+    "sporting-viewing-q1": {
+      "q": "A {{tm:sporting}}-ban mely dubléket NEM mutatják be a bemutatáson?",
+      "options": {
+        "a": "Szimultán",
+        "b": "Rafale",
+        "c": "Vadászdublé",
+        "d": "Semelyiket"
+      },
+      "explain": "A {{tm:sporting}}-ban a vadászdubléket nem mutatják be; a szimultán és a rafale dubléket igen. Egy dublé csak olyan korongokat használ, amelyeket már szólóként kidobtak azon a lőálláson."
+    },
+    "rules-viewing-targets-q2": {
+      "q": "A {{tm:compak}}-ban by squad formátumban milyen gyakran mutatják be a korongokat?",
+      "options": {
+        "a": "Minden rotte előtt, minden lőálláson",
+        "b": "Naponta egyszer, az első rottének",
+        "c": "Csak ha egy lövész kéri"
+      },
+      "explain": "Naponta egy bemutatás van, reggel, az első rottének; {{fact:rules.reshow-after-interruption}} szünet után a bíró még egyszer megmutatja a hat szóló korongot."
+    },
+    "sporting-viewing-q3": {
+      "q": "A {{tm:sporting}}-ban a bemutatás alatt egy lövész bezárja a fegyverét, és egy korong vonala mentén lendíti. Mi történik?",
+      "options": {
+        "a": "Tilos: figyelmeztetés, majd piros lap",
+        "b": "Megengedett: a bemutatás szabad gyakorlás",
+        "c": "A korongot újra bemutatják",
+        "d": "Csak az edző kap figyelmeztetést"
+      },
+      "explain": "A bemutatás alatt a fegyverek nyitva maradnak, és a lövést vagy a lövés imitálását fegyverhelyzet-szabálysértésként büntetik."
+    },
+    "sporting-viewing-q2": {
+      "q": "A {{tm:sporting}}-ban hány ismétlést kérhet a lőálláson álló lövész?",
+      "options": {
+        "a": "Egyet se",
+        "b": "Kettőt minden korongra a kottából",
+        "c": "Ahányat kell",
+        "d": "Egyet lőállásonként"
+      },
+      "explain": "Kérésre a bíró újra megmutatja a korongot, legfeljebb kétszer minden korongra a kottából."
+    },
+    "rules-viewing-targets-q4": {
+      "q": "{{tm:compak}} in line, vadászdublékkel. Amíg a vonal feltöltődik, egy új lövész lép az 1. lőállásra. Mit mutat meg neki a bíró?",
+      "options": {
+        "a": "A dublé-je első korongját",
+        "b": "Semmit",
+        "c": "Minden szóló korongot A-tól F-ig",
+        "d": "Az egész kottát újra"
+      },
+      "explain": "In line formátumban az A-tól F-ig tartó szóló korongokat az első lövésznek mutatják meg a kezdés előtt. Utána minden új, az 1. lőállásra érkező lövésznek a dublé-je első korongját mutatják meg."
+    },
+    "rules-viewing-targets-q5": {
+      "q": "Gyakorolhatsz-e a verseny röppályáin egy {{tm:compak}} verseny előtt?",
+      "options": {
+        "a": "Nem, egyáltalán nem",
+        "b": "Csak a verseny napjának reggelén",
+        "c": "Igen, más beállítási táblázatokkal"
+      },
+      "explain": "A {{tm:compak}} megengedi a gyakorlást a verseny röppályáin, de a beállítási táblázatoknak (kottáknak) a gyakorláson másnak kell lenniük; a {{tm:sporting}}-ban senki nem gyakorolhat a verseny lőpályáin."
+    }
+  },
+  "title": "A korongok bemutatása",
+  "summary": "Hogyan mutatják be a korongokat lövés előtt a {{tm:sporting}}-ban és a {{tm:compak}}-ban, mely dublékat látod, és mit tehetsz, amíg repülnek.",
+  "did_you_know": "A {{tm:sporting}}-ban a lőállás előtti kotta a lövés sorrendjében listázza a dobógépeket, és megjelöli a különleges korongokat, mint a {{term:battue|battue}} vagy a {{term:rabbit|nyúl}}."
+}

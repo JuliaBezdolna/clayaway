@@ -1,0 +1,136 @@
+{
+  "id": "targets-target-types",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "28358913",
+    "summary": "307eb780",
+    "targets-target-types-p1": "8f568cc9",
+    "targets-types-p1": "4bdf6c0a",
+    "targets-types-p2": "db411c19",
+    "targets-types-p3": "6743e89b",
+    "targets-types-p4": "1e284f9f",
+    "targets-target-types-p6": "fe4ceb52",
+    "targets-types-p5": "9cda795a",
+    "targets-target-types-p7": "94d03c28",
+    "targets-types-ph1": "4c73e2c2",
+    "targets-types-ph2": "caeb6425",
+    "targets-types-ph3": "55e04db1",
+    "targets-types-ph4": "957b2cb1",
+    "targets-types-kp2": "53c9bc3e",
+    "targets-types-kp3": "68456af5",
+    "targets-types-kp4": "55e8efac",
+    "targets-types-kp1": "bd17bcb4",
+    "targets-types-kp5": "ed68daa2",
+    "targets-target-types-dyk": "c46a8bf2",
+    "targets-target-types-q1": "3518f8eb",
+    "targets-types-q3": "13a02bc3",
+    "targets-types-q1": "ed953260",
+    "targets-types-q2": "571354c5",
+    "targets-target-types-q-battue": "8773cf12",
+    "targets-target-types-q-flash": "283d5036"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Milyen korongtípusok vannak",
+  "summary": "Standard, midi, mini, battue, nyúl, flash, ZZ és rocket: miben különböznek a korongok, hogyan repülnek, és miért nevezi meg a kotta minden különleges korongot.",
+  "body": {
+    "targets-target-types-p1": "A {{term:target|korong}} (target), amelyet gyakran „clay”-nek is hívnak, egy törékeny korong, amelyet egy {{term:trap|dobógép}} (trap) nevű gép dob ki. A korong típusának ismerete segít megtervezni a lövést még a hívás előtt.",
+    "targets-types-p1": "A FITASC {{tm:sporting}} listája hét korongtípust nevez meg: standard, midi, szuper mini, battue, nyúl, flash és ZZ. A {{tm:compak}} bármilyen standard vagy különleges korongot megenged, és listája a rocketet is megnevezi. Minden típus másképp repül.",
+    "targets-types-p2": "A {{term:standard-target|standard}}, a leggyakoribb korong, egy kupola, kb. 108–110 mm átmérőjű; a kezdők rendszerint ezzel kezdenek. A {{term:midi|midi}} 90 mm: jól tartja a sebességét, és messzebb néz ki, mint van. A {{term:mini|mini}} rendszerint 60 mm: gyorsan hagyja el a dobógépet, és gyorsan lassul. Ezért a lövészek gyakran túl nagy elétartást adnak neki, azaz túl messze lőnek elé. A kis korongok nevei változnak: a {{tm:sporting}} listája „super mini”-t mond, és a kotta mutathat 70 mm-t vagy 60 mm-t. A kottán írt milliméter szerint igazodj.",
+    "targets-types-p3": "A {{term:battue|battue}} egy lapos, vékony, 110 mm-es korong. Élével repül, majdnem láthatatlanul, majd megfordul, hogy megmutassa a felszínét, és gyorsan esik. A {{tm:compak}} szabályai nem javasolják a battue-t nagyon rövid röppályákon. A {{term:rabbit|nyúl}} egy 110 mm-es korong vastag, erős peremmel, amelyet élén gurítanak a földön; pattog, és átugorhat az egyenetlenségeken. Lásd még: {{lesson:flight-rabbit}}.",
+    "targets-types-p4": "A {{term:flash-target|flash korong}} színes porral van megtöltve, amely találatkor fényes felhőt hagy; ugyanúgy pontozzák, mint bármely másik korongot. A {{term:zz-target|ZZ korong}}, más néven helice, egy fehér középső sapkás műanyag propeller, amely szabálytalanul repül. A {{term:rocket-target|rocket}} egy másik különleges korong, amelyet csak a {{tm:compak}} listája nevez meg.",
+    "targets-target-types-p6": "A {{tm:sporting}}-ban a minden lőállás (az a hely, ahonnan lősz) előtti {{term:target-menu|kottának}} meg kell neveznie minden különleges korongot: {{fact:targets.sporting-menu-special-targets}}. Olvasd el, mielőtt a lőállásra lépsz.",
+    "targets-types-p5": "A {{tm:sporting}}-ban egy nem megfelelő színű, méretű vagy típusú korong No Bird-nek számít (a korong nem számít), és újra kidobják.",
+    "targets-target-types-p7": "A szín nem a korong típusa: azt úgy választják, hogy a korong jól kitűnjön a háttér előtt. Lásd: {{lesson:targets-colours-visibility}}."
+  },
+  "note": {},
+  "phrases": {
+    "targets-types-ph1": {
+      "meaning": "Az edző javítása ehhez a koronghoz: távolabbinak látszik, mint van, ezért ez a lövész nagyobb elétartást ad neki (nagyobb távolságot elé), mint kellene. Ez javítás ehhez a helyzethez, nem általános szabály.",
+      "say": "A midi távolinak látszik, de nem az – ne adj neki túl nagy elétartást."
+    },
+    "targets-types-ph2": {
+      "meaning": "Akkor lődd a battue-t, amikor a lapos oldalát feléd fordítja.",
+      "say": "A battue a végén megfordul és esik – akkor lődd, amikor megmutatja a hasát."
+    },
+    "targets-types-ph3": {
+      "meaning": "A kis korong gyorsan veszít a sebességéből; ne várj.",
+      "say": "A mini gyorsan hal el – lődd korán."
+    },
+    "targets-types-ph4": {
+      "meaning": "Tartsd a fegyvert alacsonyan a guruló korongon, hogy ha felpattan, az beleugorjon a sörétbe.",
+      "say": "A nyúl felpattan azon a dudoron – maradj alatta."
+    }
+  },
+  "key_points": {
+    "targets-types-kp2": "Standard kb. 108–110 mm, midi 90 mm, mini rendszerint 60 mm; a kotta mutathat 70 mm-t is, tehát a milliméter szerint igazodj.",
+    "targets-types-kp3": "Battue: lapos, élével repül, megfordul és esik; nyúl: vastag perem, gurul és ugrik.",
+    "targets-types-kp4": "A flash porfelhőt hagy; a ZZ propeller alakú korong.",
+    "targets-types-kp1": "{{tm:sporting}} lista: standard, midi, szuper mini, battue, nyúl, flash, ZZ; a {{tm:compak}} bármilyen típust megenged, a rocketet is beleértve.",
+    "targets-types-kp5": "{{tm:sporting}}: nem megfelelő szín, méret vagy típus = No Bird."
+  },
+  "did_you_know": "A mini könnyűnek tűnik, mert kicsi, de sok lövész szerint ez egyike a legcsalárdabbaknak: nagyon gyorsan indul, majd hirtelen lelassul.",
+  "quiz": {
+    "targets-target-types-q1": {
+      "q": "Milyen méretű rendszerint egy mini korong?",
+      "options": {
+        "a": "90 mm",
+        "b": "Körülbelül 60 mm",
+        "c": "Körülbelül 110 mm"
+      },
+      "explain": "Egy mini rendszerint 60 mm, egy midi 90 mm. A kis korongok nevei változnak, tehát a kottán lévő milliméterek szerint igazodj."
+    },
+    "targets-types-q3": {
+      "q": "Egy {{tm:sporting}} lőálláson a dobógép midit dob a kottán jelzett standard helyett. Mi történik?",
+      "options": {
+        "a": "No Bird, a korongot megismétlik",
+        "b": "Találatnak számít",
+        "c": "A lövész elveszíti a korongot",
+        "d": "A kört törlik"
+      },
+      "explain": "A {{tm:sporting}}-ban egy nem megfelelő színű, méretű vagy típusú korong No Bird (nem számít), és újra kidobják."
+    },
+    "targets-types-q1": {
+      "q": "Melyik korong gurul a földön?",
+      "options": {
+        "a": "Midi",
+        "b": "Battue",
+        "c": "Nyúl",
+        "d": "Flash"
+      },
+      "explain": "A nyúlnak vastag pereme van, és élére állítva dobják a földön."
+    },
+    "targets-types-q2": {
+      "q": "A kottán az áll: „70 mm”. Az edző mininek hívja. Mit fordíts?",
+      "options": {
+        "a": "Javítsd 60 mm-re, mert a mini 60 mm-es",
+        "b": "Tartsd meg az edző szavát és a kottán szereplő 70 mm-t",
+        "c": "Nevezd midinek, mert 60 mm fölött van",
+        "d": "Kérd meg az edzőt, hogy inkább „super mini”-t mondjon"
+      },
+      "explain": "A szabályok 70 mm-es és 60 mm-es méretet, valamint a „super mini” nevet is megnevezik; bízz a kottán lévő milliméterben, és ne javítsd ki az edzőt."
+    },
+    "targets-target-types-q-battue": {
+      "q": "Melyik korong repül élével, majd megfordul, hogy megmutassa a felszínét, és esik?",
+      "options": {
+        "a": "Battue",
+        "b": "Midi",
+        "c": "Nyúl"
+      },
+      "explain": "A battue lapos és vékony: élével repül, majd megfordul és gyorsan esik."
+    },
+    "targets-target-types-q-flash": {
+      "q": "Melyik korong hagy színes porfelhőt találat esetén?",
+      "options": {
+        "a": "ZZ korong",
+        "b": "Rocket",
+        "c": "Flash korong"
+      },
+      "explain": "A flash korong színes porral van megtöltve. Ugyanúgy pontozzák, mint bármely másik korongot."
+    }
+  }
+}

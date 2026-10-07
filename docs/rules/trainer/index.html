@@ -69,6 +69,8 @@ p{margin:0 0 10px;max-width:70ch}
 .mode span{font-size:13.5px;color:var(--soft)}
 .mode small{font-size:12px;color:var(--muted)}
 .mode[disabled]{opacity:.45;cursor:not-allowed}
+.mode.rec{border-color:var(--em);box-shadow:inset 0 0 0 1px var(--em)}
+.mode small{display:block}
 .filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0 4px;font-size:13px;color:var(--muted)}
 .chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 11px;font-size:13px;color:var(--soft)}
 .chip[aria-pressed="true"]{background:var(--em-soft);border-color:rgba(52,211,153,.5);color:var(--em);font-weight:600}
@@ -130,10 +132,16 @@ p{margin:0 0 10px;max-width:70ch}
 /* ClayArena · FITASC rules trainer.
    Questions: docs/rules/data/quiz-<key>.js (format QUIZ_SCHEMA.md); every question cites rule item ids (refs)
    from docs/rules/data/<key>.js, so each explanation links to the item in the rules guide and to the FITASC PDF page.
-   Modes: quick (10 random), exam (30 random, results only at the end, pass mark 80%), mistakes (questions answered
+   Modes: quick (10 random), short (10 random, results only at the end, pass mark 80%: the short rules test of the
+   Academy route "Перші змагання"), exam (30 random, results only at the end, pass mark 80%), mistakes (questions answered
    wrong before). Progress is stored per browser in localStorage "clayarena-trainer" (builds before 10.2026 used a
    legacy key, see OLD and migrate() below: copied over once and still read as a fallback). In production: the ClayArena
-   user profile.
+   user profile. The ClayArena Academy READS this key (docs/shared/progress.js, ClayProgress.trainerPass): stats[disc].best =
+   best exam in %, stats[disc].short_best / short_at = best short test in % and its date. Only this page writes them.
+   Opened from the Academy (?lang=<l>&from=learn[&mode=short]): a "← Академія" link back (the Academy page the reader came from,
+   else the Academy home of the language; docs/shared/nav.js knows which Academy languages are published), the short test is
+   offered first, and changing the language keeps ?lang in the address (history.replaceState), so a reload or a shared link
+   stays in that language. ClayArena naming only (audit R-02): no other service name in texts, JSON-LD or storage keys.
    Answer order: the options of a question are shuffled for every run (except true/false), so the right answer cannot
    be guessed by its place. The trainer never reorders the data: it only maps display order -> option index (run.ord),
    and every comparison uses the data index (q.answer), so the language overlays (same option order as the data) stay valid.
@@ -154,15 +162,28 @@ const T={
    decision:"Рішення судді",number:"Цифри",truefalse:"Правда чи ні",choice:"Вибір",open:"Пункт у довіднику",pdf:"PDF, стор.",
    res:"Результат",pass:"Іспит складено",fail:"Ще трохи — і складете",again:"Ще раз",home:"До вибору режиму",review:"Розбір відповідей",
    sAns:"Відповідей",sAcc:"Точність",sBest:"Найкращий іспит",sMist:"Помилок для повторення",none:"Питань для цієї дисципліни ще немає.",noMist:"Помилок немає — чудово!",
-   back:"← Довідник правил",disc:"Тренажер побудований на нашому переказі регламенту FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",count:"питань у банку"},
+   back:"← Довідник правил",disc:"Тренажер побудований на нашому переказі регламенту FITASC. Чинним є лише офіційний текст FITASC. Parcours de Chasse – Sporting™ і Compak® Sporting — торговельні марки FITASC.",count:"питань у банку",
+   short:"Короткий тест",shortS:"10 питань, результат у кінці, прохідний бал 80%",sBestShort:"Найкращий короткий тест",passShort:"Тест складено",learn:"Академія",forLearn:"Зараховується в Академії ClayArena"},
  en:{svc:"Rules trainer",svcS:"ClayArena · FITASC",title:"{d} rules trainer",lead:"Test your knowledge of the rules: situations on the stand, numbers and limits, true or false. After every answer you get an explanation and a link to the rule in the guide and to the official PDF page.",
    quick:"Quick test",quickS:"10 random questions, explanation straight away",exam:"Exam",examS:"30 questions, result at the end, pass mark 80%",mist:"My mistakes",mistS:"questions you answered wrong",
    level:"Level",all:"all",l1:"basic",l2:"organizer",l3:"referee",q:"Question",of:"of",next:"Next",finish:"Finish",right:"Correct!",wrong:"Wrong.",
    decision:"Referee's decision",number:"Numbers",truefalse:"True or false",choice:"Choice",open:"Rule in the guide",pdf:"PDF, p.",
    res:"Result",pass:"Exam passed",fail:"Almost there",again:"Try again",home:"Back to modes",review:"Answer review",
    sAns:"Answers",sAcc:"Accuracy",sBest:"Best exam",sMist:"Mistakes to repeat",none:"No questions for this discipline yet.",noMist:"No mistakes — well done!",
-   back:"← Rules guide",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",count:"questions in the bank"}
+   back:"← Rules guide",disc:"The trainer is based on our summary of the FITASC rulebook. Only the official FITASC text applies. Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC.",count:"questions in the bank",
+   short:"Short test",shortS:"10 questions, result at the end, pass mark 80%",sBestShort:"Best short test",passShort:"Test passed",learn:"Academy",forLearn:"Counts in the ClayArena Academy"}
 };
+/* Strings added in 10.2026 for the other ClayArena languages (until the next translation wave moves them into
+   docs/rules/data/i18n/quiz-<lang>.json "ui"). "shortS" is derived from the translated "examS" (30 → 10, see t()); "learn" comes
+   from the project bar (ClayNav.link), the same word as its "Академія" item. */
+const TX={
+ short:{de:"Kurztest",fr:"Test court",it:"Test breve",cs:"Krátký test",pl:"Krótki test",pt:"Teste curto",hu:"Rövid teszt",fi:"Lyhyt testi",lt:"Trumpas testas"},
+ forLearn:{de:"Zählt in der ClayArena Akademie",fr:"Compte dans l'Académie ClayArena",it:"Conta nell'Accademia ClayArena",cs:"Započítává se v Akademii ClayArena",pl:"Liczy się w Akademii ClayArena",pt:"Conta na Academia ClayArena",hu:"Beszámít a ClayArena Akadémián",fi:"Lasketaan ClayArena Akatemiassa",lt:"Įskaitoma ClayArena akademijoje"}
+};
+TX.sBestShort=TX.short; // stats card "best short test": the card shows the best %, so the test name is enough
+/* Opened from the ClayArena Academy: ?from=learn (link back) and ?mode=short (the short test of a route requirement). */
+const QS=new URLSearchParams(location.search), FROM_LEARN=QS.get("from")==="learn", WANT_MODE=QS.get("mode");
+const EXAMLIKE=m=>m==="exam"||m==="short"; // results only at the end, pass mark PASS
 /* Storage keys follow the ClayArena naming: this trainer is a ClayArena tool. OLD = legacy keys of builds before 10.2026.
    One-time migration: when the new key is still empty, the legacy value is copied over.
    - progress: the legacy key is kept and read as a fallback (store.get), so nothing is lost if the copy fails;
@@ -186,7 +207,19 @@ function saveRun(){ try{ if(S.view==="run"&&S.run){ const r=S.run; localStorage.
   else { localStorage.removeItem(RUNKEY); window.ClayNav&&ClayNav.clearResume("trainer"); } }catch(e){} }
 if(location.hash==="#compak")P.disc="compak"; if(location.hash==="#sporting")P.disc="sporting";
 const L=()=>P.lang;
-const t=k=>(T[L()]&&T[L()][k])||(OV.ui&&OV.ui[k])||T.en[k];
+const t=k=>(T[L()]&&T[L()][k])||(OV.ui&&OV.ui[k])||(TX[k]&&TX[k][L()])
+  ||(k==="shortS"&&OV.ui&&/\b30\b/.test(OV.ui.examS||"")?OV.ui.examS.replace(/\b30\b/,"10"):"")||T.en[k];
+/* "← Академія": back to the Academy page the reader came from (same language), else the Academy home of the current language
+   from the project bar (ClayNav.link knows which Academy languages are published: learn/data/languages.json), else /learn/ (uk)
+   or /en/learn/. The links carry data-learn and are refreshed when nav.js reports ("claynav:update"). */
+function learnHref(){ const l=L();
+  try{ const r=document.referrer?new URL(document.referrer):null; if(r&&r.origin===location.origin&&/\/learn\//.test(r.pathname)){ const m=/\/([a-z]{2})\/learn\//.exec(r.pathname), rl=m&&LANGS.includes(m[1])?m[1]:"uk"; if(rl===l) return r.href; } }catch(e){}
+  const N=window.ClayNav&&ClayNav.link&&ClayNav.link("learn",l); if(N&&N.url) return N.url;
+  return "../../"+(l==="uk"?"":"en/")+"learn/"; }
+function learnName(){ const N=window.ClayNav&&ClayNav.link&&ClayNav.link("learn",L()); return (N&&N.name)||t("learn"); }
+const learnA=(cls)=>`<a class="${cls}" data-learn href="${esc(learnHref())}">← ${esc(learnName())}</a>`;
+document.addEventListener("claynav:update",()=>document.querySelectorAll("a[data-learn]").forEach(a=>{ a.href=learnHref(); a.textContent="← "+learnName(); }));
+const today=()=>{ const d=new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
 /* tx(obj, field): question text / explanation / rule title in the current language (overlay for languages beyond uk/en) */
 const tx=(o,k)=>{ if(o[k+"_"+L()]) return o[k+"_"+L()]; const v=o.id&&OV.questions[o.id]; if(v){ if(k==="q"&&v.q) return v.q; if(k==="explain"&&v.explain) return v.explain; } return o[k+"_en"]||""; };
 const optText=(q,o,i)=>o[L()]||((OV.questions[q.id]||{}).options||[])[i]||o.en;
@@ -202,7 +235,7 @@ function optOrder(q){ const a=q.options.map((_,i)=>i); if(q.type==="truefalse") 
 function validOrd(o,q){ return Array.isArray(o)&&o.length===q.options.length&&o.slice().sort((x,y)=>x-y).every((v,i)=>v===i); }
 function start(mode){
   let qs = mode==="mistakes" ? (QUIZ[P.disc]||[]).filter(q=>st().wrong.includes(q.id)) : pool();
-  qs = shuffle(qs).slice(0, mode==="exam"?30:mode==="quick"?10:qs.length);
+  qs = shuffle(qs).slice(0, mode==="exam"?30:mode==="quick"||mode==="short"?10:qs.length);
   if(!qs.length) return;
   S.run={mode,qs,ord:qs.map(optOrder),i:0,ans:[],picked:null}; S.view="run"; render(); scrollTo(0,0);
 }
@@ -219,22 +252,26 @@ function qCard(q,picked,reveal,idx,total,ord){
 function homeView(){
   const d=P.disc==="sporting"?"Sporting™":"Compak® Sporting", qs=QUIZ[P.disc]||[], s=st();
   if(!qs.length) return `<h1>${t("title").replace("{d}",d)}</h1><div class="empty">${t("none")}</div>`;
-  const acc=s.ans?Math.round(s.ok/s.ans*100):0;
-  return `<a class="small" href="../#${P.disc}">${t("back")}</a><div class="eyebrow" style="margin-top:12px">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>
-   <div class="stats"><div><small>${t("sAns")}</small><b>${s.ans}</b></div><div><small>${t("sAcc")}</small><b>${acc}%</b></div><div><small>${t("sBest")}</small><b>${s.best}%</b></div><div><small>${t("sMist")}</small><b>${s.wrong.length}</b></div></div>
+  const acc=s.ans?Math.round(s.ok/s.ans*100):0, rec=FROM_LEARN&&WANT_MODE==="short";
+  const quick=`<button class="mode" data-start="quick"><b>${t("quick")}</b><span>${t("quickS")}</span></button>`;
+  const short=`<button class="mode${rec?" rec":""}" data-start="short"><b>${t("short")}</b><span>${t("shortS")}</span>${FROM_LEARN?`<small>🎓 ${t("forLearn")}</small>`:""}</button>`;
+  return `<p class="small">${FROM_LEARN?learnA("")+" · ":""}<a href="../#${P.disc}">${t("back")}</a></p><div class="eyebrow" style="margin-top:12px">FITASC · ${d}</div><h1>${t("title").replace("{d}",d)}</h1><p class="muted">${t("lead")}</p>
+   <div class="stats"><div><small>${t("sAns")}</small><b>${s.ans}</b></div><div><small>${t("sAcc")}</small><b>${acc}%</b></div><div><small>${t("sBest")}</small><b>${s.best}%</b></div>${s.short_best!=null||FROM_LEARN?`<div><small>${t("sBestShort")}</small><b>${s.short_best||0}%</b></div>`:""}<div><small>${t("sMist")}</small><b>${s.wrong.length}</b></div></div>
    <div class="filters">${t("level")}: ${[0,1,2,3].map(l=>`<button class="chip" data-level="${l}" aria-pressed="${S.level===l}">${l?t("l"+l):t("all")}</button>`).join("")}<span>· ${pool().length} ${t("count")}</span></div>
-   <div class="modes"><button class="mode" data-start="quick"><b>${t("quick")}</b><span>${t("quickS")}</span></button><button class="mode" data-start="exam"><b>${t("exam")}</b><span>${t("examS")}</span></button><button class="mode" data-start="mistakes" ${s.wrong.length?"":"disabled"}><b>${t("mist")}</b><span>${s.wrong.length?t("mistS"):t("noMist")}</span><small>${s.wrong.length||""}</small></button></div>
+   <div class="modes">${rec?short+quick:quick+short}<button class="mode" data-start="exam"><b>${t("exam")}</b><span>${t("examS")}</span></button><button class="mode" data-start="mistakes" ${s.wrong.length?"":"disabled"}><b>${t("mist")}</b><span>${s.wrong.length?t("mistS"):t("noMist")}</span><small>${s.wrong.length||""}</small></button></div>
    <div class="disclaimer">${t("disc")}</div>`;
 }
 function runView(){
-  const r=S.run, q=r.qs[r.i], exam=r.mode==="exam", answered=r.picked!=null;
+  const r=S.run, q=r.qs[r.i], exam=EXAMLIKE(r.mode), answered=r.picked!=null;
   return `<div class="bar"><i style="width:${(r.i/r.qs.length)*100}%"></i></div>${qCard(q,r.picked,answered&&!exam,r.i,r.qs.length,(r.ord||[])[r.i])}
     <div class="qfoot"><button class="btn" data-home="1">${t("home")}</button>${answered?`<button class="btn primary" data-next="1">${r.i+1<r.qs.length?t("next"):t("finish")}</button>`:""}</div>`;
 }
 function resultView(){
-  const r=S.run, ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length, pct=Math.round(ok/r.qs.length*100), exam=r.mode==="exam";
-  return `<div class="result"><div class="eyebrow">${t("res")} · ${t(r.mode==="mistakes"?"mist":r.mode)}</div><div class="score ${!exam||pct>=PASS*100?"pass":"fail"}">${ok} / ${r.qs.length}</div><p class="muted" style="margin:0 auto 14px">${pct}%${exam?" · "+(pct>=PASS*100?t("pass"):t("fail")):""}</p>
-    <button class="btn primary" data-start="${r.mode}">${t("again")}</button> <button class="btn" data-home="1">${t("home")}</button></div>
+  const r=S.run, ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length, pct=Math.round(ok/r.qs.length*100), exam=EXAMLIKE(r.mode), passed=pct>=PASS*100;
+  const back=FROM_LEARN&&r.mode==="short"?learnA(passed?"btn primary":"btn")+" ":"";
+  const passKey=r.mode==="short"&&(T[L()]||{}).passShort?"passShort":"pass"; // other languages: their "exam passed"
+  return `<div class="result"><div class="eyebrow">${t("res")} · ${t(r.mode==="mistakes"?"mist":r.mode)}</div><div class="score ${!exam||passed?"pass":"fail"}">${ok} / ${r.qs.length}</div><p class="muted" style="margin:0 auto 14px">${pct}%${exam?" · "+(passed?t(passKey):t("fail")):""}</p>
+    ${back}<button class="btn${back&&passed?"":" primary"}" data-start="${r.mode}">${t("again")}</button> <button class="btn" data-home="1">${t("home")}</button></div>
     ${exam||r.ans.some((a,i)=>a!==r.qs[i].answer)?`<h2 style="margin-top:24px">${t("review")}</h2><div class="review">${r.qs.map((q,i)=>exam||r.ans[i]!==q.answer?qCard(q,r.ans[i],true,i,r.qs.length,(r.ord||[])[i]):"").join("")}</div>`:""}`;
 }
 function render(){
@@ -258,9 +295,14 @@ document.addEventListener("click",e=>{
     const r=S.run, q=r.qs[r.i], pick=+d.opt, s=st(); r.picked=pick; r.ans[r.i]=pick; s.ans++;
     if(pick===q.answer){ s.ok++; s.wrong=s.wrong.filter(id=>id!==q.id); } else if(!s.wrong.includes(q.id)) s.wrong.push(q.id);
     store.set(P); render(); return; }
-  if(d.next){ const r=S.run; r.i++; r.picked=null; if(r.i>=r.qs.length){ const ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length; if(r.mode==="exam"){ st().best=Math.max(st().best,Math.round(ok/r.qs.length*100)); store.set(P);} S.view="result"; } render(); scrollTo(0,0); return; }
+  if(d.next){ const r=S.run; r.i++; r.picked=null; if(r.i>=r.qs.length){ const ok=r.ans.filter((a,i)=>a===r.qs[i].answer).length, pct=Math.round(ok/r.qs.length*100);
+      if(r.mode==="exam"){ st().best=Math.max(st().best,pct); store.set(P);}
+      if(r.mode==="short"){ const s=st(); if(s.short_best==null||pct>=s.short_best){ s.short_best=pct; s.short_at=today(); } store.set(P);} // read by the Academy (progress.js)
+      S.view="result"; } render(); scrollTo(0,0); return; }
 });
-document.getElementById("tlang").addEventListener("change",async e=>{ P.lang=e.target.value; store.set(P); await loadLang(P.lang); render(); });
+document.getElementById("tlang").addEventListener("change",async e=>{ P.lang=e.target.value; store.set(P);
+  try{ const u=new URL(location.href); u.searchParams.set("lang",P.lang); history.replaceState(null,"",u.pathname+u.search+u.hash); }catch(_){} // keep ?lang (and from/mode)
+  await loadLang(P.lang); render(); });
 loadLang(P.lang).then(render);
 </script>
 </body>

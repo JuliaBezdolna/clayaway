@@ -1,0 +1,638 @@
+{
+  "id": "competitions-results-and-protests",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "competitions-results-and-protests"
+    ],
+    "interpreter": [
+      "referee-appeals"
+    ]
+  },
+  "terms": [
+    "protest",
+    "referee",
+    "trapper",
+    "shooting-limit",
+    "jury",
+    "deposit",
+    "appeal-jury",
+    "refusal-to-comply",
+    "attempt-to-influence"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-signing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-how-to-appeal"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-protest"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-no-checking-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-consultation"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-consultation"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-powers"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-visible-break"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-jury-appeal"
+    },
+    {
+      "book": "compak",
+      "id": "ch4-complaint-limits"
+    },
+    {
+      "book": "compak",
+      "id": "ch4-complaint-procedure"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-deposit-outcome"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-appeal-jury"
+    },
+    {
+      "book": "compak",
+      "id": "ch4-appeal-jury"
+    },
+    {
+      "book": "sporting",
+      "id": "ch10-resume-15s"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-refusal-to-comply"
+    },
+    {
+      "book": "sporting",
+      "id": "ch11-influence"
+    },
+    {
+      "book": "compak",
+      "id": "ch22-influence"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-jury-penalties"
+    },
+    {
+      "book": "compak",
+      "id": "ch23-jury-sanctions"
+    }
+  ],
+  "facts": [
+    "rules.sporting-jury-deposit"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Results, protests and appeals",
+    "uk": "Результати, протести й апеляції"
+  },
+  "summary": {
+    "en": "How to protest on the stand in {{tm:sporting}} and {{tm:compak}}, what can go to the jury, and how to carry on after a ruling.",
+    "uk": "Як заявити протест на стрілецькому місці в {{tm:sporting}} і {{tm:compak}}, що можна оскаржити в журі і як стріляти далі після рішення."
+  },
+  "body": [
+    {
+      "k": "competitions-results-and-protests-score",
+      "t": "tip",
+      "disc": "both",
+      "en": "It starts with the score: in {{tm:sporting}} check your card when you leave each stand, and in {{tm:compak}} sign the sheet after each round. How to read it: {{lesson:watching-reading-results}}.",
+      "uk": "Усе починається з результату: у {{tm:sporting}} перевіряйте протокол, сходячи з кожного стрілецького місця, а в {{tm:compak}} підписуйте його після кожного раунду. Як його читати: {{lesson:watching-reading-results}}."
+    },
+    {
+      "k": "referee-appeals-p1",
+      "t": "p",
+      "anchor": "referee-appeals",
+      "core": true,
+      "disc": "both",
+      "en": "A protest must be made on the spot. Raise a hand and say “Protest!” or “Appeal!” while you are still on the stand. In {{tm:sporting}} do it before you call for the next target (ask for it to be thrown, for example “pull”): once you call, you have accepted the previous ruling. In {{tm:compak}} do it before the next shooter calls. The referee stops the shooting and listens to your reason.",
+      "uk": "{{term:protest|Протест}} заявляють негайно. Підніміть руку й скажіть «Protest!» або «Appeal!», поки ви ще на стрілецькому місці. У {{tm:sporting}} це треба зробити до того, як ви подасте команду на наступну мішень (попросите її запустити, наприклад словом «pull»): подавши команду, ви погоджуєтеся з попереднім рішенням. У {{tm:compak}} — до команди наступного стрільця. {{term:referee|Суддя}} зупиняє стрільбу й вислуховує причину."
+    },
+    {
+      "k": "referee-appeals-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "If the referee is sure, the decision stands and is final. If in doubt, the referee may ask another referee, the {{term:trapper|trapper}} (the person who releases the targets) or the shooters of the squad, for advice only, and then decides alone. You may not walk off the stand or go and pick up a target to check it. In {{tm:sporting}} you must break targets where the referee can see them. If the referee rules that a target was broken behind a bush, a tree or another natural obstacle, or beyond the {{term:shooting-limit|shooting limit}}, that ruling cannot be appealed. The shooting limit is a line past which hits do not count.",
+      "uk": "Якщо суддя впевнений, рішення залишається і є остаточним. Якщо є сумнів, суддя може запитати іншого суддю, {{term:trapper|оператора машинки}} (людину, яка запускає мішені) або стрільців групи — лише для поради — і вирішує сам. Сходити зі стрілецького місця чи йти піднімати мішень, щоб її перевірити, не можна. У {{tm:sporting}} ви мусите розбивати мішені там, де їх бачить суддя. Якщо суддя вирішив, що мішень розбито за кущем, деревом чи іншою природною перешкодою або за {{term:shooting-limit|межею зони стрільби}}, це рішення судді не оскаржують. Межа зони стрільби — це лінія, за якою влучання не зараховують."
+    },
+    {
+      "k": "referee-appeals-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Some decisions cannot be taken to the jury at all. In {{tm:sporting}} these are “one or zero” (hit or miss), a No Bird call (the target is thrown again), and whether the target flew correctly. In {{tm:compak}} they are hit or miss, a defective target (a broken or faulty one), and a target that flew off its set path. Any other decision of the referee can be appealed to the {{term:jury|jury}} in writing, with a {{term:deposit|deposit}} (money you leave with the appeal). In {{tm:sporting}} the deposit is {{fact:rules.sporting-jury-deposit}}. In {{tm:compak}} it is the amount that applies on the day of the competition, and you can appeal only about something that happened that same day. If the jury agrees with you, you get the deposit back.",
+      "uk": "Деякі рішення взагалі не можна оскаржити в журі. У {{tm:sporting}} це «one» чи «zero» (влучання чи промах), рішення No Bird (мішень запускають ще раз) і те, чи правильно летіла мішень. У {{tm:compak}} — влучання чи промах, дефектна мішень (розбита чи несправна) і мішень, що полетіла не за заданою траєкторією. Будь-яке інше рішення судді можна оскаржити в {{term:jury|журі}} письмово, із {{term:deposit|заставою}} (грошима, які вносять разом зі скаргою). У {{tm:sporting}} застава — {{fact:rules.sporting-jury-deposit}}. У {{tm:compak}} — сума, чинна в день змагань, і скаржитися можна лише на те, що сталося того самого дня. Якщо журі погодиться з вами, заставу повернуть."
+    },
+    {
+      "k": "competitions-results-and-protests-p4",
+      "t": "compare",
+      "disc": "both",
+      "en": "When the jury agrees with the shooter",
+      "uk": "Коли журі погоджується зі стрільцем",
+      "sporting": {
+        "en": "The jury may tell the referee to change the ruling, appoint another referee or change the ruling itself.",
+        "uk": "Журі може доручити судді змінити рішення, призначити іншого суддю або змінити рішення саме."
+      },
+      "compak": {
+        "en": "The jury may instruct the referee for future decisions or appoint another referee.",
+        "uk": "Журі може дати судді вказівки щодо майбутніх рішень або призначити іншого суддю."
+      }
+    },
+    {
+      "k": "competitions-results-and-protests-appeal-jury",
+      "t": "p",
+      "disc": "both",
+      "en": "International events may also have an {{term:appeal-jury|appeal jury}}: a second panel you can turn to if you disagree with a decision of the jury itself. In {{tm:compak}} one is set up at each international competition. In {{tm:sporting}} it is optional; where there is none, the jury’s decisions are final.",
+      "uk": "На міжнародних змаганнях може бути ще й {{term:appeal-jury|апеляційне журі}} — ще один орган, до якого можна звернутися, якщо ви не згодні з рішенням самого журі. У {{tm:compak}} його створюють на кожних міжнародних змаганнях. У {{tm:sporting}} воно необов’язкове; якщо його немає, рішення журі остаточні."
+    },
+    {
+      "k": "referee-appeals-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "After the final ruling you must carry on shooting within fifteen seconds in {{tm:sporting}} and ten in {{tm:compak}}. If you do not, it counts as a {{term:refusal-to-comply|refusal to comply}} (not obeying the referee), which is punished. Arguing on, making a show of disagreeing, or other people openly criticising the ruling counts as an {{term:attempt-to-influence|attempt to influence}} the referee, and that is punished too.",
+      "uk": "Після остаточного рішення ви маєте продовжити стрільбу протягом п’ятнадцяти секунд у {{tm:sporting}} і десяти в {{tm:compak}}. Якщо ні — це {{term:refusal-to-comply|відмова виконувати вимоги судді}}, за яку карають. Подальші суперечки, показна незгода або відкрита критика рішення з боку інших людей — це {{term:attempt-to-influence|спроба вплинути на суддю}}, і за неї карають теж."
+    },
+    {
+      "k": "competitions-results-and-protests-p5",
+      "t": "p",
+      "disc": "both",
+      "en": "So protest calmly and politely. For a refusal to comply or an attempt to influence the referee, the jury can take away a target or a whole round, or exclude the shooter from the competition. Cards and penalties: {{lesson:rules-cards-and-appeals}}.",
+      "uk": "Тож протестуйте спокійно й ввічливо. Журі може зняти мішень або цілий раунд чи виключити стрільця зі змагань за відмову виконувати вимоги судді чи за спробу вплинути на суддю. Картки й покарання: {{lesson:rules-cards-and-appeals}}."
+    },
+    {
+      "k": "competitions-results-and-protests-tip",
+      "t": "tip",
+      "en": "Before you protest, take a breath and be clear about what you saw. Once the ruling is final, let it go and return to your routine for the next target: {{lesson:mind-reset-after-miss}}.",
+      "uk": "Перш ніж заявити протест, зробіть вдих і чітко сформулюйте, що ви бачили. Коли рішення остаточне, відпустіть його й поверніться до свого ритуалу перед наступною мішенню: {{lesson:mind-reset-after-miss}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "competitions-results-and-protests-n1",
+      "for": "interpreter",
+      "core": true,
+      "en": "Keep “protest” and “appeal” as the formal words of the rules. Be fast here: the protest has to come before the next call. Pass on the referee’s answer at once and in full, without your own view of it. Your job is to translate the protest and the answer accurately, not to argue the case.",
+      "uk": "Залишайте «protest» і «appeal» формальними словами правил. Тут треба бути швидким: протест має прозвучати до наступної команди. Відповідь судді передавайте одразу й повністю, без власної оцінки. Ваше завдання — точно перекласти протест і відповідь, а не відстоювати позицію."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "referee-appeals-ph1",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Protest! The target was broken before I fired.",
+      "meaning": {
+        "en": "The shooter formally challenges the ruling and gives the reason (here: a broken target was thrown).",
+        "uk": "Стрілець офіційно оскаржує рішення й називає причину (тут: вилетіла вже розбита мішень)."
+      },
+      "say": {
+        "uk": "Протест! Мішень була розбита ще до пострілу."
+      },
+      "from": "referee-appeals"
+    },
+    {
+      "k": "referee-appeals-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "I’m certain — the decision stands.",
+      "meaning": {
+        "en": "The referee confirms; the ruling is final.",
+        "uk": "Суддя підтверджує; рішення остаточне."
+      },
+      "say": {
+        "uk": "Я впевнений — рішення залишається в силі."
+      },
+      "from": "referee-appeals"
+    },
+    {
+      "k": "referee-appeals-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Did anyone see a piece come off?",
+      "meaning": {
+        "en": "The referee is in doubt and asks the squad for advice only; the referee still decides.",
+        "uk": "Суддя сумнівається й питає групу лише для поради; вирішує все одно він."
+      },
+      "say": {
+        "uk": "Хтось бачив, чи відлетів шматок?"
+      },
+      "from": "referee-appeals"
+    },
+    {
+      "k": "referee-appeals-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "You can take it to the jury in writing, with the deposit.",
+      "meaning": {
+        "en": "This decision is appealable; a written appeal and a deposit are needed.",
+        "uk": "Це рішення можна оскаржити; потрібна письмова скарга й застава."
+      },
+      "say": {
+        "uk": "Можете письмово звернутися до журі, внісши заставу."
+      },
+      "from": "referee-appeals"
+    },
+    {
+      "k": "referee-appeals-ph5",
+      "speaker": "referee",
+      "core": true,
+      "en": "Please carry on shooting.",
+      "meaning": {
+        "en": "The ruling is final; resume now or it becomes a refusal to comply.",
+        "uk": "Рішення остаточне; продовжуйте зараз, інакше це буде відмова виконувати вимоги судді."
+      },
+      "say": {
+        "uk": "Продовжуйте стрільбу, будь ласка."
+      },
+      "from": "referee-appeals"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "referee-appeals-kp1",
+      "core": true,
+      "en": "Protest immediately, on the stand, hand raised: “Protest!” / “Appeal!”",
+      "uk": "Протест — одразу, на стрілецькому місці, з піднятою рукою: «Protest!» / «Appeal!»",
+      "checklist": true
+    },
+    {
+      "k": "referee-appeals-kp2",
+      "core": true,
+      "en": "Protest before your next call: calling accepts the ruling ({{tm:compak}}: before the next shooter calls)",
+      "uk": "Протест — до вашої наступної команди: команда означає згоду з рішенням (у {{tm:compak}} — до команди наступного стрільця)",
+      "checklist": true
+    },
+    {
+      "k": "referee-appeals-kp3",
+      "core": true,
+      "en": "Not for the jury: one/zero (hit or miss), No Bird, trajectory ({{tm:compak}}: hit or miss, defective or off-trajectory target)",
+      "uk": "Не для журі: one/zero (влучання чи промах), No Bird, траєкторія (у {{tm:compak}}: влучання чи промах, дефектна мішень або мішень не за траєкторією)"
+    },
+    {
+      "k": "referee-appeals-kp4",
+      "core": true,
+      "en": "Written appeal to the jury with a deposit ({{tm:sporting}}: {{fact:rules.sporting-jury-deposit}})",
+      "uk": "Письмова скарга в журі із заставою ({{tm:sporting}}: {{fact:rules.sporting-jury-deposit}})"
+    },
+    {
+      "k": "referee-appeals-kp5",
+      "core": true,
+      "en": "Resume within 15 s ({{tm:sporting}}) or 10 s ({{tm:compak}}); further arguing = an attempt to influence the referee",
+      "uk": "Продовжити за 15 с ({{tm:sporting}}) або 10 с ({{tm:compak}}); подальші суперечки — спроба вплинути на суддю",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "competitions-results-and-protests-dyk",
+    "en": "In {{tm:sporting}} a deposit from a rejected appeal does not vanish: it goes to a charity chosen by the FITASC Chairman.",
+    "uk": "У {{tm:sporting}} застава за відхилену апеляцію не зникає: її передають на благодійність, яку обирає голова FITASC."
+  },
+  "quiz": [
+    {
+      "k": "competitions-results-and-protests-q1",
+      "disc": "both",
+      "q": {
+        "en": "How do you protest correctly?",
+        "uk": "Як правильно заявити протест?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "After the round, at the competition office",
+          "uk": "Після раунду, у секретаріаті змагань"
+        },
+        {
+          "k": "b",
+          "en": "Call the next target, then explain why",
+          "uk": "Покликати наступну мішень, а потім пояснити"
+        },
+        {
+          "k": "c",
+          "en": "At once on the stand: hand up, say “protest”",
+          "uk": "Одразу на місці: рука вгору, сказати «protest»"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A protest is made immediately on the stand; in {{tm:sporting}} calling the next target means accepting the previous ruling.",
+        "uk": "Протест заявляють негайно на стрілецькому місці; у {{tm:sporting}} команда на наступну мішень означає згоду з попереднім рішенням."
+      },
+      "rule_ref": "sporting:ch9-how-to-appeal"
+    },
+    {
+      "k": "competitions-results-and-protests-q2",
+      "disc": "both",
+      "q": {
+        "en": "Which decision cannot be appealed to the jury?",
+        "uk": "Яке рішення не можна оскаржити в журі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A penalty for being late",
+          "uk": "Покарання за запізнення"
+        },
+        {
+          "k": "b",
+          "en": "Whether a target was one or zero",
+          "uk": "Чи мішень була «one» чи «zero»"
+        },
+        {
+          "k": "c",
+          "en": "A warning about your dress",
+          "uk": "Попередження щодо вашого одягу"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Hit or miss is decided by the stand referee alone, in both disciplines. Other referee decisions can go to the jury in writing.",
+        "uk": "Влучання чи промах в обох дисциплінах вирішує лише суддя на місці. Інші рішення судді можна оскаржити в журі письмово."
+      },
+      "rule_ref": "sporting:ch9-jury-appeal"
+    },
+    {
+      "k": "referee-appeals-q3",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, how big is the deposit for a written appeal to the jury?",
+        "uk": "Яка застава за письмову скаргу до журі в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "40% of the entry fee",
+          "uk": "40% стартового внеску"
+        },
+        {
+          "k": "b",
+          "en": "The full entry fee",
+          "uk": "Повний стартовий внесок"
+        },
+        {
+          "k": "c",
+          "en": "A fixed 50 euros",
+          "uk": "Фіксовані 50 євро"
+        },
+        {
+          "k": "d",
+          "en": "No deposit is needed",
+          "uk": "Застава не потрібна"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The {{tm:sporting}} rules set the deposit at 40% of the entry fee; it is returned if the jury agrees with the shooter.",
+        "uk": "Правила {{tm:sporting}} встановлюють заставу 40% стартового внеску; її повертають, якщо журі погодиться зі стрільцем."
+      },
+      "rule_ref": "sporting:ch9-jury-appeal",
+      "from": "referee-appeals"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "referee-appeals-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, your shooter thinks a target scored zero was hit, but has already called the next target. Can he still protest that ruling?",
+        "uk": "У {{tm:sporting}} ваш стрілець вважає, що мішень, зараховану як промах, він збив, але вже подав команду на наступну. Чи може він ще заявити протест щодо того рішення?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, at the end of the round",
+          "uk": "Так, наприкінці раунду"
+        },
+        {
+          "k": "b",
+          "en": "Yes, in writing to the jury",
+          "uk": "Так, письмово в журі"
+        },
+        {
+          "k": "c",
+          "en": "No: calling the next target means accepting the previous ruling",
+          "uk": "Ні: команда на наступну мішень означає згоду з попереднім рішенням"
+        },
+        {
+          "k": "d",
+          "en": "Yes, if the squad agrees",
+          "uk": "Так, якщо група погодиться"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "By calling the next target the shooter accepts the previous ruling, and one/zero decisions cannot go to the jury at all.",
+        "uk": "Подавши команду на наступну мішень, стрілець приймає попереднє рішення, а рішення one/zero до журі не подають узагалі."
+      },
+      "rule_ref": "sporting:ch9-no-checking-targets",
+      "from": "referee-appeals"
+    },
+    {
+      "k": "referee-appeals-q2",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, which decision CAN be appealed to the jury?",
+        "uk": "Яке рішення в {{tm:sporting}} МОЖНА оскаржити в журі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Whether a target was one or zero",
+          "uk": "Чи мішень one чи zero"
+        },
+        {
+          "k": "b",
+          "en": "A No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "c",
+          "en": "Whether a trajectory was correct",
+          "uk": "Чи правильна траєкторія"
+        },
+        {
+          "k": "d",
+          "en": "Another referee decision, such as a lateness penalty",
+          "uk": "Інше рішення судді, наприклад штраф за запізнення"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "In {{tm:sporting}} one/zero, No Bird and trajectory decisions are final; other referee decisions may go to the jury in writing with a deposit.",
+        "uk": "У {{tm:sporting}} рішення щодо one/zero, No Bird і траєкторії остаточні; інші рішення судді можна оскаржити в журі письмово із заставою."
+      },
+      "rule_ref": "sporting:ch9-jury-appeal",
+      "from": "referee-appeals"
+    },
+    {
+      "k": "competitions-results-and-protests-q-deposit-back",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, what happens to the deposit if the jury agrees with the shooter?",
+        "uk": "Що буває із заставою в {{tm:sporting}}, якщо журі погоджується зі стрільцем?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It goes to a charity",
+          "uk": "Її передають на благодійність"
+        },
+        {
+          "k": "b",
+          "en": "It is returned to the shooter",
+          "uk": "Її повертають стрільцеві"
+        },
+        {
+          "k": "c",
+          "en": "It is shared with the referee",
+          "uk": "Її ділять із суддею"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "An upheld appeal gets the deposit back; a rejected one sends it to a charity chosen by the FITASC Chairman.",
+        "uk": "Якщо апеляцію задоволено, заставу повертають; якщо відхилено — її передають на благодійність, яку обирає голова FITASC."
+      },
+      "rule_ref": "sporting:ch9-deposit-outcome"
+    },
+    {
+      "k": "competitions-results-and-protests-q-resume",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, how soon must you resume shooting after the referee’s final decision?",
+        "uk": "Як швидко в {{tm:compak}} треба продовжити стрільбу після остаточного рішення судді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Within 10 seconds",
+          "uk": "Протягом 10 секунд"
+        },
+        {
+          "k": "b",
+          "en": "Within 1 minute",
+          "uk": "Протягом 1 хвилини"
+        },
+        {
+          "k": "c",
+          "en": "When you feel ready",
+          "uk": "Коли почуваєтеся готовими"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:compak}} you resume within 10 seconds, in {{tm:sporting}} within 15; otherwise it counts as a refusal to comply.",
+        "uk": "У {{tm:compak}} стрільбу продовжують протягом 10 секунд, у {{tm:sporting}} — протягом 15; інакше це відмова виконувати вимоги судді."
+      },
+      "rule_ref": "compak:ch21-refusal-to-comply"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "92c589e0",
+    "summary": "cc04aea0",
+    "competitions-results-and-protests-score": "6bfc0893",
+    "referee-appeals-p1": "c481bf3c",
+    "referee-appeals-p2": "62f9c17d",
+    "referee-appeals-p3": "4078bdf2",
+    "competitions-results-and-protests-p4": "200ec448",
+    "competitions-results-and-protests-appeal-jury": "ad7f895c",
+    "referee-appeals-p4": "0eb7ecaf",
+    "competitions-results-and-protests-p5": "35c73034",
+    "competitions-results-and-protests-tip": "8500abfd",
+    "referee-appeals-kp1": "7874080b",
+    "referee-appeals-kp2": "f8ae3d26",
+    "referee-appeals-kp3": "2b74952e",
+    "referee-appeals-kp4": "856101f8",
+    "referee-appeals-kp5": "62f644dc",
+    "competitions-results-and-protests-dyk": "9a7f7d0c",
+    "competitions-results-and-protests-n1": "f2dc209a",
+    "referee-appeals-ph1": "199309e7",
+    "referee-appeals-ph2": "44c28146",
+    "referee-appeals-ph3": "2fa7947a",
+    "referee-appeals-ph4": "51aec161",
+    "referee-appeals-ph5": "b96f2290",
+    "competitions-results-and-protests-q1": "1de685bd",
+    "competitions-results-and-protests-q2": "ead6a62d",
+    "referee-appeals-q3": "17ca6bb3",
+    "referee-appeals-q1": "6f352a05",
+    "referee-appeals-q2": "941e0c96",
+    "competitions-results-and-protests-q-deposit-back": "a4c129fb",
+    "competitions-results-and-protests-q-resume": "1fb092a3"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Translation wave: the English of two core paragraphs changed for discipline accuracy (system problem 1). referee-appeals-p2: the rule on targets broken behind an obstacle or beyond a shooting limit is now marked as Parcours de Chasse – Sporting™ only (sporting:ch9-visible-break). referee-appeals-p3: split into short sentences, with the non-appealable decisions given per discipline (sporting:ch9-jury-appeal, compak:ch4-complaint-limits) and the deposit as a fact token. Update these two keys in the 9 overlays i18n/<lang>/competitions-results-and-protests.json.",
+      "Overlay keys no longer in this master: referee-appeals-title (the merged heading; the anchor #referee-appeals is now on referee-appeals-p1). Remove it during the next translation wave.",
+      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/competitions-results-and-protests.json: referee-appeals-p1 (the deadline per discipline; “call” explained; the interpreter advice moved to the note competitions-results-and-protests-n1, which is now core), referee-appeals-p2 (Sporting™: break targets where the referee can see them, and the ruling on a target behind an obstacle or beyond the shooting limit cannot be appealed; trapper and shooting limit explained), referee-appeals-p3 (plain wording: hit or miss, No Bird, deposit; Compak® deposit “the amount that applies on the day”), referee-appeals-p4 (plain wording; “Your job is to translate…” moved to the note n1 — split the old overlay text), referee-appeals-kp2 and referee-appeals-kp3 (now labelled per discipline; no “never”), referee-appeals-q1 and referee-appeals-q2 (now Sporting™ questions; q1 explanation without “never”).",
+      "Core keys whose English changed only in form (trade-mark and fact tokens instead of the literal names and numbers): referee-appeals-kp4, referee-appeals-kp5, referee-appeals-q3. Put the new hash in the overlays; the translations stay valid. competitions-results-and-protests-n1 is now core: translate it into the 9 languages (its last sentences come from the old texts of referee-appeals-p1 and referee-appeals-p4).",
+      "Ukrainian wording of {{term:refusal-to-comply}} is now «відмова виконувати вимоги судді», after the glossary's uk_usage «відмова виконувати вимоги» (glossary.js). The glossary entry itself still says «відмова підкоритися» in long_uk, and its uk_usage for attempt-to-influence is «тиск на суддю» while short_uk and long_uk say «спроба вплинути»: reconcile them in the glossary cleanup and then check this lesson again."
+    ]
+  }
+}

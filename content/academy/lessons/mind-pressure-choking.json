@@ -1,0 +1,551 @@
+{
+  "id": "mind-pressure-choking",
+  "rev": 2,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "gun-mount",
+    "bead",
+    "pre-shot-routine",
+    "shoot-off",
+    "choking"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch18-squad-and-timing"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-availability"
+    }
+  ],
+  "facts": [
+    "rules.shootoff-ready-time"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Choking under pressure: self-consciousness and paradoxical effects of incentives on skillful performance (Journal of Personality and Social Psychology, 1984)"
+      },
+      "url": "https://doi.org/10.1037/0022-3514.46.3.610",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "On the fragility of skilled performance: what governs choking under pressure? (Journal of Experimental Psychology: General, 2001)"
+      },
+      "url": "https://www.apa.org/pubs/journals/releases/xge-1304701.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Knowledge, knerves and know-how: the role of explicit versus implicit knowledge in the breakdown of a complex motor skill under pressure (British Journal of Psychology, 1992)"
+      },
+      "url": "https://doi.org/10.1111/j.2044-8295.1992.tb02446.x",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The theory of reinvestment (International Review of Sport and Exercise Psychology, 2008)"
+      },
+      "url": "https://doi.org/10.1080/17509840802287218",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Anxiety, movement kinematics, and visual attention in elite-level performers (Emotion, 2011)"
+      },
+      "url": "https://doi.org/10.1037/a0023225",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Anxiety and cognitive performance: attentional control theory (Emotion, 2007)"
+      },
+      "url": "https://doi.org/10.1037/1528-3542.7.2.336",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Choking interventions in sports: a systematic review (International Review of Sport and Exercise Psychology, 2019)"
+      },
+      "url": "https://doi.org/10.1080/1750984X.2017.1408134",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "A pre-performance routine to alleviate choking in “choking-susceptible” athletes (The Sport Psychologist, 2008)"
+      },
+      "url": "https://doi.org/10.1123/tsp.22.4.439",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Alleviating choking: the sounds of distraction (Journal of Applied Sport Psychology, 2009)"
+      },
+      "url": "https://doi.org/10.1080/10413200902795091",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Pressure training for performance domains: a meta-analysis (Sport, Exercise, and Performance Psychology, 2021)"
+      },
+      "url": "https://doi.org/10.1037/spy0000202",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Training with anxiety has a positive effect on expert perceptual–motor performance under pressure (Quarterly Journal of Experimental Psychology, 2009)"
+      },
+      "url": "https://doi.org/10.1080/17470210802557702",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Avoidance motivation and choking under pressure in soccer penalty shootouts (Journal of Sport and Exercise Psychology, 2008)"
+      },
+      "url": "https://doi.org/10.1123/jsep.30.4.450",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The performance and psychological effects of goal setting in sport: a systematic review and meta-analysis (International Review of Sport and Exercise Psychology, 2024)"
+      },
+      "url": "https://doi.org/10.1080/1750984X.2022.2116723",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Pressure and choking: why easy targets get missed",
+    "uk": "Тиск і зрив: чому мажуть легку мішень"
+  },
+  "summary": {
+    "en": "Under pressure, skilled shooters sometimes start steering a shot they usually make without thinking. How to spot the signs and what can help.",
+    "uk": "Під тиском досвідчені стрільці іноді починають свідомо керувати пострілом, який зазвичай роблять не думаючи. Як помітити ознаки і що може допомогти."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "Signs: rushing or delaying the call, consciously checking the gun mount, looking at the bead, watching the score and rivals, tension, misses on easy targets.",
+        "What can help: the usual routine and tempo, one simple cue, process goals, training under moderate pressure (link: training-for-competition).",
+        "In a shoot-off: the same routine and the same tempo.",
+        "Evidence: some research (moderate); research is mostly from Olympic trap and skeet, so for {{tm:sporting}} and {{tm:compak}} write 'probably transfers'."
+      ],
+      "uk": [
+        "Ознаки: поспіх або затягування команди, свідома перевірка вкладки, погляд на мушку, стеження за рахунком і суперниками, скутість, промахи по легких мішенях.",
+        "Що може допомогти: звичний ритуал і темп, одна проста підказка, цілі процесу, тренування під помірним тиском (посилання: training-for-competition).",
+        "У перестрілці — той самий ритуал і той самий темп.",
+        "Доказовість: є дослідження (помірна); дослідження здебільшого на олімпійському трапі й скиті, тому про {{tm:sporting}} і {{tm:compak}} писати «імовірно, переноситься»."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-pressure-choking-p1",
+      "t": "p",
+      "en": "{{term:choking|Choking}} means shooting clearly below your usual level because of pressure. One common explanation: under pressure you start checking, step by step, a skill that normally runs on its own, and that disrupts it.",
+      "uk": "{{term:choking|Зрив}} — це коли через тиск ви стріляєте помітно гірше, ніж зазвичай. Одне з поширених пояснень: під тиском ви починаєте крок за кроком перевіряти навичку, яка зазвичай працює сама, і цим її порушуєте."
+    },
+    {
+      "k": "mind-pressure-choking-p2",
+      "t": "p",
+      "en": "Worry also pulls attention away from the target. In one study of elite shotgun shooters under anxiety, the final look at the target got shorter, the gun moved less smoothly, and they hit fewer targets.",
+      "uk": "Тривога ще й відтягує увагу від мішені. В одному дослідженні з елітними стрільцями з рушниці під тривогою останній погляд на мішень ставав коротшим, рушниця рухалася менш плавно, і влучань було менше."
+    },
+    {
+      "k": "mind-pressure-choking-p3",
+      "t": "p",
+      "en": "Signs you can notice on the stand:",
+      "uk": "Ознаки, які можна помітити на стрілецькому місці:"
+    },
+    {
+      "k": "mind-pressure-choking-signs",
+      "t": "steps",
+      "en": [
+        "Your tempo changes: you rush the call, or stand too long.",
+        "You consciously check the {{term:gun-mount|gun mount}} or the swing.",
+        "Your eyes go to the barrel or the {{term:bead|bead}} instead of the target.",
+        "You keep looking at the scores or at your rivals.",
+        "Your grip and shoulders get tighter.",
+        "You miss targets that are usually easy for you."
+      ],
+      "uk": [
+        "Змінюється темп: ви поспішаєте з командою або занадто довго стоїте.",
+        "Ви свідомо перевіряєте {{term:gun-mount|вкладку}} чи рух рушниці.",
+        "Погляд іде на стволи чи {{term:bead|мушку}} замість мішені.",
+        "Ви раз у раз дивитеся на результати чи на суперників.",
+        "Хват і плечі стають напруженішими.",
+        "Ви мажете мішені, які зазвичай для вас легкі."
+      ]
+    },
+    {
+      "k": "mind-pressure-choking-p4",
+      "t": "p",
+      "en": "What can help: your usual {{term:pre-shot-routine|routine}} and tempo, and one simple cue about the target. A review of 47 studies on choking found that a routine and one simple cue word for the whole shot are among the things that help. More in {{lesson:mind-routine-under-pressure}} and {{lesson:mind-cue-words-self-talk}}.",
+      "uk": "Що може допомогти: звичний {{term:pre-shot-routine|ритуал}} і темп та одна проста підказка про мішень. Огляд 47 досліджень про зрив показав, що ритуал і одне просте слово-підказка на весь постріл — серед того, що допомагає. Докладніше — {{lesson:mind-routine-under-pressure}} і {{lesson:mind-cue-words-self-talk}}."
+    },
+    {
+      "k": "mind-pressure-choking-p5",
+      "t": "p",
+      "en": "Process goals keep your mind on what you do rather than on the result: see {{lesson:mind-process-goals}}.",
+      "uk": "Цілі процесу тримають думки на тому, що ви робите, а не на результаті: див. {{lesson:mind-process-goals}}."
+    },
+    {
+      "k": "mind-pressure-choking-p6",
+      "t": "p",
+      "en": "Training under mild pressure that grows step by step can prepare you for the real thing. Examples: “five in a row”, a scored practice round, a practice shoot-off, a few spectators, a time limit. More in {{lesson:training-for-competition}}.",
+      "uk": "Тренування під помірним тиском, який зростає поступово, може підготувати до справжніх змагань. Наприклад: «п’ять поспіль», тренувальний раунд на рахунок, тренувальна перестрілка, кілька глядачів, ліміт часу. Докладніше — {{lesson:training-for-competition}}."
+    },
+    {
+      "k": "mind-pressure-choking-p7",
+      "t": "p",
+      "en": "A skill you learned mostly by doing, without many spoken rules about elbows and feet, tends to hold up better under pressure. That is one reason many coaches keep technical talk for training and give only short cue words at competitions.",
+      "uk": "Навичка, яку ви засвоїли переважно на практиці, без довгих пояснень про лікті й ноги, зазвичай краще тримається під тиском. Це одна з причин, чому багато тренерів залишають технічні пояснення для тренувань, а на змаганнях дають лише короткі слова-підказки."
+    },
+    {
+      "k": "mind-pressure-choking-p8",
+      "t": "p",
+      "en": "In a {{term:shoot-off|shoot-off}}, keep the same routine and the same tempo. Rushing under pressure has been linked with worse results, for example in football penalties.",
+      "uk": "У {{term:shoot-off|перестрілці}} тримайте той самий ритуал і той самий темп. Поспіх під тиском пов’язували з гіршими результатами, наприклад у футбольних пенальті."
+    },
+    {
+      "k": "mind-pressure-choking-tip",
+      "t": "tip",
+      "disc": "both",
+      "en": "If you may be in a shoot-off, stay warm, drink water and stay close. In both disciplines you may have to shoot {{fact:rules.shootoff-ready-time}} ({{rule:sporting:ch18-squad-and-timing}}, {{rule:compak:ch14-shootoff-availability}}).",
+      "uk": "Якщо можлива перестрілка, тримайтеся в теплі, пийте воду й будьте поруч. В обох дисциплінах стріляти, можливо, доведеться {{fact:rules.shootoff-ready-time}} ({{rule:sporting:ch18-squad-and-timing}}, {{rule:compak:ch14-shootoff-availability}})."
+    },
+    {
+      "k": "mind-pressure-choking-p9",
+      "t": "p",
+      "en": "Most of this research comes from lab tasks and other sports; the shotgun data come from Olympic trap and skeet. So most likely it works the same way in {{tm:sporting}} and {{tm:compak}}.",
+      "uk": "Більшість цих досліджень проводили в лабораторії та в інших видах спорту; дані про стрільбу з рушниці — з олімпійських трапу й скиту. Тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+    },
+    {
+      "k": "mind-pressure-choking-p10",
+      "t": "p",
+      "en": "If pressure keeps spoiling your competitions over a long time, a sport psychologist can help you build a plan.",
+      "uk": "Якщо тиск довго й раз у раз псує вам змагання, спортивний психолог може допомогти скласти план."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-pressure-choking-n1",
+      "for": "coach",
+      "en": "Raise the pressure in training a little at a time, and stop a pressure drill before technique breaks down. Notice which targets fail first under pressure: they show what to train.",
+      "uk": "Підвищуйте тиск на тренуваннях потроху й зупиняйте вправу під тиском раніше, ніж зламається техніка. Помічайте, які мішені першими «сиплються» під тиском: вони підказують, що тренувати."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-pressure-choking-kp1",
+      "en": "Choking often comes from consciously steering a skill that usually runs on its own.",
+      "uk": "Зрив часто виникає, коли ви свідомо керуєте навичкою, яка зазвичай працює сама."
+    },
+    {
+      "k": "mind-pressure-choking-kp2",
+      "en": "Signs: a changed tempo, checking the mount, eyes on the bead, watching the scores.",
+      "uk": "Ознаки: змінений темп, перевірка вкладки, погляд на мушку, стеження за результатами."
+    },
+    {
+      "k": "mind-pressure-choking-kp3",
+      "en": "Keep your usual routine, tempo and one simple cue.",
+      "uk": "Тримайте звичний ритуал, темп і одну просту підказку.",
+      "checklist": true
+    },
+    {
+      "k": "mind-pressure-choking-kp4",
+      "en": "Train under pressure that grows step by step.",
+      "uk": "Тренуйтеся під тиском, що зростає поступово."
+    },
+    {
+      "k": "mind-pressure-choking-kp5",
+      "en": "In a shoot-off: the same routine and the same tempo.",
+      "uk": "У перестрілці — той самий ритуал і той самий темп.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-pressure-choking-dyk",
+    "en": "Some athletes keep a song running in their head during a competition. In one small study, this kind of distraction helped athletes who tended to choke.",
+    "uk": "Деякі спортсмени під час змагань прокручують у голові пісню. В одному невеликому дослідженні такий спосіб відволіктися допомагав спортсменам, схильним до зривів."
+  },
+  "quiz": [
+    {
+      "k": "mind-pressure-choking-q1",
+      "q": {
+        "en": "Which is a typical sign of choking on the stand?",
+        "uk": "Яка типова ознака зриву на стрілецькому місці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Your tempo stays just as in training",
+          "uk": "Темп такий самий, як на тренуванні"
+        },
+        {
+          "k": "b",
+          "en": "You start consciously checking your mount",
+          "uk": "Ви починаєте свідомо перевіряти вкладку"
+        },
+        {
+          "k": "c",
+          "en": "You drink a little water between the stands",
+          "uk": "Ви п’єте трохи води між місцями"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Consciously checking a skill that usually runs on its own is a common sign of choking.",
+        "uk": "Свідома перевірка навички, яка зазвичай працює сама, — поширена ознака зриву."
+      }
+    },
+    {
+      "k": "mind-pressure-choking-q2",
+      "q": {
+        "en": "What tends to help under pressure?",
+        "uk": "Що зазвичай допомагає під тиском?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Changing your technique on the day itself",
+          "uk": "Змінити техніку просто в день змагань"
+        },
+        {
+          "k": "b",
+          "en": "Checking the scores after each stand",
+          "uk": "Перевіряти результати після кожного місця"
+        },
+        {
+          "k": "c",
+          "en": "Your usual routine and one simple cue",
+          "uk": "Звичний ритуал і одна проста підказка"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "A review of choking studies found that a routine and one simple cue are among the things that help.",
+        "uk": "Огляд досліджень про зрив показав, що ритуал і одна проста підказка — серед того, що допомагає."
+      }
+    },
+    {
+      "k": "mind-pressure-choking-q3",
+      "q": {
+        "en": "How can you shoot a shoot-off?",
+        "uk": "Як стріляти перестрілку?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "With your usual routine and tempo",
+          "uk": "Зі звичним ритуалом і темпом"
+        },
+        {
+          "k": "b",
+          "en": "Faster, to get it over with",
+          "uk": "Швидше, щоб скоріше закінчити"
+        },
+        {
+          "k": "c",
+          "en": "Slower, checking each movement twice",
+          "uk": "Повільніше, двічі перевіряючи кожен рух"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Rushing and over-checking are both signs of pressure; your usual routine and tempo are a good default.",
+        "uk": "Поспіх і зайві перевірки — обидва ознаки тиску; звичний ритуал і темп — добрий вибір за замовчуванням."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-pressure-choking-q4",
+      "q": {
+        "en": "Which kind of practice can prepare you for pressure?",
+        "uk": "Яке тренування може підготувати до тиску?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only easy targets, without a score",
+          "uk": "Лише легкі мішені, без рахунку"
+        },
+        {
+          "k": "b",
+          "en": "Pressure that grows step by step",
+          "uk": "Тиск, що зростає поступово"
+        },
+        {
+          "k": "c",
+          "en": "A new technique each week",
+          "uk": "Нова техніка щотижня"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In a review of studies, training under pressure that grows step by step helped a fair amount.",
+        "uk": "Тренування під помірним тиском, що зростає поступово, в огляді досліджень давало помірну користь."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-pressure-choking-p1",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1037/0022-3514.46.3.610",
+        "https://www.apa.org/pubs/journals/releases/xge-1304701.pdf"
+      ]
+    },
+    {
+      "for": "mind-pressure-choking-p2",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1037/a0023225",
+        "https://doi.org/10.1037/1528-3542.7.2.336"
+      ]
+    },
+    {
+      "for": "mind-pressure-choking-signs",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-pressure-choking-p4",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/1750984X.2017.1408134",
+        "https://doi.org/10.1123/tsp.22.4.439"
+      ]
+    },
+    {
+      "for": "mind-pressure-choking-p5",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/1750984X.2022.2116723"
+      ]
+    },
+    {
+      "for": "mind-pressure-choking-p6",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1037/spy0000202",
+        "https://doi.org/10.1080/17470210802557702"
+      ]
+    },
+    {
+      "for": "mind-pressure-choking-p7",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1111/j.2044-8295.1992.tb02446.x",
+        "https://doi.org/10.1080/17509840802287218"
+      ]
+    },
+    {
+      "for": "mind-pressure-choking-p8",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1123/jsep.30.4.450"
+      ]
+    }
+  ],
+  "h_uk": {
+    "title": "04495f7f",
+    "summary": "e075f54f",
+    "mind-pressure-choking-p1": "84cf63e0",
+    "mind-pressure-choking-p2": "170c6388",
+    "mind-pressure-choking-p3": "b611399c",
+    "mind-pressure-choking-signs": "8dd41c26",
+    "mind-pressure-choking-p4": "1551f96e",
+    "mind-pressure-choking-p5": "461a47c3",
+    "mind-pressure-choking-p6": "f070830c",
+    "mind-pressure-choking-p7": "02a2f93f",
+    "mind-pressure-choking-p8": "f384a5ee",
+    "mind-pressure-choking-tip": "a6b201fc",
+    "mind-pressure-choking-p9": "2bdb5b09",
+    "mind-pressure-choking-p10": "98a211b7",
+    "mind-pressure-choking-n1": "bc01255d",
+    "mind-pressure-choking-kp1": "5e78a42c",
+    "mind-pressure-choking-kp2": "d7912361",
+    "mind-pressure-choking-kp3": "070d5532",
+    "mind-pressure-choking-kp4": "e2d58b07",
+    "mind-pressure-choking-kp5": "d9c4ccf8",
+    "mind-pressure-choking-dyk": "3a9367ca",
+    "mind-pressure-choking-q1": "96e1e034",
+    "mind-pressure-choking-q2": "19ca5c6a",
+    "mind-pressure-choking-q3": "a8d3c7f6",
+    "mind-pressure-choking-q4": "c8221a14"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\"."
+    ]
+  }
+}

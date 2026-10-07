@@ -1,0 +1,146 @@
+{
+  "_note": "Registry of Practice games (/learn/practice/<id>/). xp:false while a known issue from the audit is open (the page then shows the ui string practice_known_issue). index 'fitasc' follows the FITASC_INDEX switch (false until written FITASC permission). Lead lab (S-01) and Name the flight (S-04, S-05) were fixed in 10.2026: xp is on and their route/badge requirements count.",
+  "games": [
+    {
+      "id": "lead-lab",
+      "legacy": "lead",
+      "title": {
+        "uk": "Лабораторія виносу",
+        "en": "Lead lab"
+      },
+      "index": "always",
+      "xp": true,
+      "known_issues": [
+        "S-03",
+        "S-11",
+        "S-12"
+      ],
+      "blocks": [
+        "technique"
+      ]
+    },
+    {
+      "id": "name-the-flight",
+      "legacy": "flight",
+      "title": {
+        "uk": "Назви траєкторію",
+        "en": "Name the flight"
+      },
+      "index": "always",
+      "xp": true,
+      "known_issues": [],
+      "blocks": [
+        "targets",
+        "technique",
+        "watch"
+      ]
+    },
+    {
+      "id": "translate-the-coach",
+      "legacy": "coach",
+      "title": {
+        "uk": "Зрозумійте / перекладіть тренера",
+        "en": "Understand / translate the coach"
+      },
+      "index": "always",
+      "xp": true,
+      "modes": [
+        "meaning",
+        "translate"
+      ],
+      "source": "phrases of all lessons (filter by block)",
+      "known_issues": [],
+      "blocks": [
+        "stand-talk"
+      ]
+    },
+    {
+      "id": "referees-call",
+      "legacy": "call",
+      "title": {
+        "uk": "Рішення судді",
+        "en": "Referee's call"
+      },
+      "index": "fitasc",
+      "xp": true,
+      "source": "question bank of the rules trainer (docs/rules/data/quiz-*.js), filter by discipline",
+      "known_issues": [
+        "R-03",
+        "R-04",
+        "R-05"
+      ],
+      "blocks": [
+        "rules"
+      ]
+    },
+    {
+      "id": "term-cards",
+      "legacy": "terms",
+      "title": {
+        "uk": "Картки термінів",
+        "en": "Term cards"
+      },
+      "index": "always",
+      "xp": true,
+      "source": "glossary terms of the lessons done; Leitner boxes on the device",
+      "known_issues": [],
+      "blocks": [
+        "basics",
+        "gear"
+      ]
+    },
+    {
+      "id": "phrasebook",
+      "legacy": null,
+      "title": {
+        "uk": "Розмовник",
+        "en": "Phrasebook"
+      },
+      "index": "always",
+      "xp": false,
+      "source": "phrases with core:true; print and local voice only",
+      "known_issues": [],
+      "blocks": [
+        "stand-talk"
+      ]
+    },
+    {
+      "id": "rules-exam",
+      "legacy": null,
+      "title": {
+        "uk": "Іспит з правил",
+        "en": "Rules exam"
+      },
+      "index": "fitasc",
+      "xp": true,
+      "external": "/rules/trainer/?lang={lang}&from=learn",
+      "storage_key": "clayarena-trainer",
+      "storage_key_old": "clayaway-trainer",
+      "known_issues": [
+        "R-02"
+      ],
+      "blocks": [
+        "rules"
+      ]
+    },
+    {
+      "id": "routine",
+      "legacy": null,
+      "title": {
+        "uk": "Мій ритуал",
+        "en": "My routine"
+      },
+      "index": "always",
+      "xp": false,
+      "later": true,
+      "timers_s": {
+        "sporting": 15,
+        "compak": 10
+      },
+      "known_issues": [],
+      "blocks": [
+        "mind"
+      ]
+    }
+  ]
+}

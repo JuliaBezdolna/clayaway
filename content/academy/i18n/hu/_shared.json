@@ -1,0 +1,264 @@
+{
+  "lang": "hu",
+  "blocks": {
+    "basics": {
+      "title": "Alapok",
+      "purpose": "Mi ez a sport, a versenyszámok, a FITASC, a lőtér, ki lő, hogyan kezdje, mennyibe kerül, és hogyan kezdhet egy gyerek.",
+      "sections": {
+        "what": "Mi ez a sport",
+        "start": "Hogyan kezdje",
+        "kids": "Gyereknek"
+      }
+    },
+    "safety": {
+      "title": "Biztonság és etikett",
+      "purpose": "Biztonsági szokások, szem- és fülvédelem, ólom, gyerekek; viselkedés a lőálláson és a csoportban, tisztelet a bíró felé, nézők.",
+      "sections": {
+        "safety": "Biztonság",
+        "etiquette": "Etikett"
+      }
+    },
+    "gear": {
+      "title": "Felszerelés",
+      "purpose": "A fegyver, a szűkületek, a töltények, a védőfelszerelés és a ruházat: hogyan hívják a dolgokat, hogyan működnek, mit és mikor vegyen.",
+      "sections": {
+        "gun": "A fegyver",
+        "chokes": "Szűkületek",
+        "cartridges": "Töltények",
+        "kit": "Felszerelés"
+      }
+    },
+    "targets": {
+      "title": "Korongok és röppályák",
+      "purpose": "Korongok, dobógépek, {{tm:sporting}} és {{tm:compak}} lőpályák, menük, röppályák, dublék és hogyan olvasson egy korongot.",
+      "sections": {
+        "clays": "Korongok és dobógépek",
+        "layouts": "Lőpályák",
+        "flight": "Röppályák",
+        "pairs": "Dublék és a korong olvasása"
+      }
+    },
+    "technique": {
+      "title": "Technika és elétartás",
+      "purpose": "Beállás, vállba vétel, szem, a három pont, elkísérés, visszarúgás; a négy elétartási módszer; a hibák olvasása.",
+      "sections": {
+        "fundamentals": "A lövés alapjai",
+        "lead": "Elétartás",
+        "faults": "Hibák"
+      }
+    },
+    "training": {
+      "title": "Edzés",
+      "purpose": "Az edző, hogyan strukturálja és adagolja az edzést, bemelegítés, száraz vállba vételi gyakorlás, felkészülés egy versenyre, edzésnapló.",
+      "sections": {
+        "main": "Edzés"
+      }
+    },
+    "mind": {
+      "title": "Mentális felkészülés",
+      "purpose": "Lövés előtti rutin, figyelem, légzés, kulcsszavak, elképzelés, idegesség, nyomás, újrakezdés hiba után, célok, versenynap, doppingellenesség, junior lövők.",
+      "sections": {
+        "before": "A lövés előtt",
+        "pressure": "Nyomás alatt",
+        "day": "Versenynap",
+        "juniors": "Junior lövők"
+      }
+    },
+    "rules": {
+      "title": "Szabályok",
+      "purpose": "A FITASC szabályai egyszerű szavakkal, röviden és saját megfogalmazásunkban; minden szabály {{tm:sporting}} vagy {{tm:compak}} jelöléssel van ellátva, és a szabálykönyvhöz vezet.",
+      "sections": {
+        "main": "Szabályok"
+      }
+    },
+    "competitions": {
+      "title": "Versenyek",
+      "purpose": "Versenytípusok, nevezés, versenynap, az eredménykártya és az eredmények, kategóriák és szétlövések, óvások, junior lövők.",
+      "sections": {
+        "main": "Versenyek"
+      }
+    },
+    "travel": {
+      "title": "Utazás",
+      "purpose": "Az utazás megtervezése, a fegyver az EU-ban és azon kívül, repülés, töltények a célhelyen, jet lag; ClayAway túrák (hamarosan).",
+      "sections": {
+        "main": "Utazás"
+      }
+    },
+    "stand-talk": {
+      "title": "A lőállás nyelve",
+      "purpose": "Hogyan beszél az edző, a bíró és a lövők; a tolmács munkája; mindenkinek, aki egy másik nyelvet beszélő edzővel edz.",
+      "sections": {
+        "role": "A szerep",
+        "said": "Mi hangzik el a lőálláson",
+        "traps": "Fordítási csapdák",
+        "work": "Munka közben"
+      }
+    },
+    "watch": {
+      "title": "Nézze és kövesse",
+      "purpose": "Hogyan nézze a lövészetet és a videókat; ClayArena: eredmények, profil, számok, katalógusok.",
+      "sections": {
+        "watch": "Nézés",
+        "clayarena": "ClayArena"
+      }
+    },
+    "community": {
+      "title": "Közösség és történelem",
+      "purpose": "Történelem, hagyományok, természet, a klub; hogyan legyen bíró vagy edző; egy klubverseny.",
+      "sections": {
+        "history": "Történelem",
+        "culture": "Kultúra",
+        "next": "A következő lépés"
+      }
+    }
+  },
+  "routes": {
+    "beginner": {
+      "title": "Kezdő",
+      "for": "Annak, aki még soha nem lőtt.",
+      "certificate": "Első lépés",
+      "stages": {
+        "first-visit": "Az első látogatás előtt",
+        "first-shots": "Az első lövések"
+      }
+    },
+    "first-competition": {
+      "title": "Az első verseny",
+      "for": "Egy lövőnek néhány edzés után.",
+      "checklist": "Versenynapi ellenőrzőlista",
+      "stages": {
+        "ready": "Felkészülés",
+        "rules": "Szabályok, amelyeket ismernie kell",
+        "head": "Fej és test",
+        "day": "Versenynap"
+      }
+    },
+    "interpreter": {
+      "title": "Tolmács",
+      "for": "Lőállási tolmácsoknak; helyettesíti a Tolmács Akadémiát.",
+      "stages": {
+        "day-one": "Az első nap a lőálláson",
+        "sport": "A sport és a lőpályák",
+        "gear-targets": "Fegyver és korongok",
+        "technique": "Technika",
+        "lead": "Elétartás",
+        "coach-talk": "Hibák és az edző nyelve",
+        "rules": "Szabályok a lőálláson",
+        "referee": "Bíró, lapok és eredmények",
+        "mastery": "Mesterfokon"
+      }
+    },
+    "junior-parent": {
+      "title": "Junior lövő szülei",
+      "for": "Szülőknek, akiknek gyereke lőni szeretne.",
+      "checklist": "Ellenőrzőlista szülőknek",
+      "stages": {
+        "is-it-for-my-child": "Megfelelő ez a gyerekemnek",
+        "safe-start": "Biztonságos kezdés",
+        "support": "Támogatás és versenyek"
+      }
+    },
+    "new-coach": {
+      "title": "Kezdő edző",
+      "for": "Annak, aki elkezd másokat edzeni.",
+      "disclaimer": "Nem edzői képesítés.",
+      "stages": {
+        "role": "Az edző szerepe",
+        "diagnosis": "Alapok és diagnózis",
+        "mental": "Edzés és a mentális oldal"
+      }
+    },
+    "organiser": {
+      "title": "Rendező",
+      "for": "Klubversenyek és utazások rendezőinek.",
+      "stages": {
+        "club-events": "Versenyek és a klub",
+        "trips": "Utazások és túrák"
+      }
+    },
+    "fan": {
+      "title": "Szurkoló és család",
+      "for": "Lövők szurkolóinak, családjának és barátainak.",
+      "stages": {
+        "watch": "Nézés és megértés",
+        "results": "Eredmények és a ClayArena"
+      }
+    }
+  },
+  "practice": {
+    "lead-lab": "Elétartás-labor",
+    "name-the-flight": "Nevezd meg a röppályát",
+    "translate-the-coach": "Értsd meg / fordítsd le az edzőt",
+    "referees-call": "A bíró döntése",
+    "term-cards": "Fogalomkártyák",
+    "phrasebook": "Kifejezéstár",
+    "rules-exam": "Szabályvizsga",
+    "routine": "A rutinom"
+  },
+  "levels": {
+    "guest": "Vendég",
+    "learner": "Tanuló",
+    "practitioner": "Gyakorló",
+    "specialist": "Szakértő",
+    "expert": "Mester",
+    "mentor": "Mentor"
+  },
+  "badges": {
+    "block-basics": "Alapok blokk",
+    "block-safety": "Biztonság és etikett blokk",
+    "block-gear": "Felszerelés blokk",
+    "block-targets": "Korongok és röppályák blokk",
+    "block-technique": "Technika és elétartás blokk",
+    "block-training": "Edzés blokk",
+    "block-mind": "Mentális felkészülés blokk",
+    "block-rules": "Szabályok blokk",
+    "block-competitions": "Versenyek blokk",
+    "block-travel": "Utazás blokk",
+    "block-stand-talk": "A lőállás nyelve blokk",
+    "block-watch": "Nézze és kövesse blokk",
+    "block-community": "Közösség és történelem blokk",
+    "route-beginner": "Kezdő útvonal",
+    "route-first-competition": "Az első verseny útvonal",
+    "route-interpreter": "Tolmács útvonal",
+    "route-junior-parent": "Junior lövő szülei útvonal",
+    "route-new-coach": "Kezdő edző útvonal",
+    "route-organiser": "Rendező útvonal",
+    "route-fan": "Szurkoló és család útvonal",
+    "stage-beginner-first-visit": "Kezdő: az első látogatás előtt",
+    "stage-beginner-first-shots": "Kezdő: az első lövések",
+    "stage-first-competition-ready": "Az első verseny: felkészülés",
+    "stage-first-competition-rules": "Az első verseny: szabályok, amelyeket ismernie kell",
+    "stage-first-competition-head": "Az első verseny: fej és test",
+    "stage-first-competition-day": "Az első verseny: versenynap",
+    "stage-interpreter-day-one": "Tolmács: az első nap a lőálláson",
+    "stage-interpreter-sport": "Tolmács: a sport és a lőpályák",
+    "stage-interpreter-gear-targets": "Tolmács: fegyver és korongok",
+    "stage-interpreter-technique": "Tolmács: technika",
+    "stage-interpreter-lead": "Tolmács: elétartás",
+    "stage-interpreter-coach-talk": "Tolmács: hibák és az edző nyelve",
+    "stage-interpreter-rules": "Tolmács: szabályok a lőálláson",
+    "stage-interpreter-referee": "Tolmács: bíró, lapok és eredmények",
+    "stage-interpreter-mastery": "Tolmács: mesterfokon",
+    "stage-junior-parent-is-it-for-my-child": "Junior lövő szülei: megfelelő ez a gyerekemnek",
+    "stage-junior-parent-safe-start": "Junior lövő szülei: biztonságos kezdés",
+    "stage-junior-parent-support": "Junior lövő szülei: támogatás és versenyek",
+    "stage-new-coach-role": "Kezdő edző: az edző szerepe",
+    "stage-new-coach-diagnosis": "Kezdő edző: alapok és diagnózis",
+    "stage-new-coach-mental": "Kezdő edző: edzés és a mentális oldal",
+    "stage-organiser-club-events": "Rendező: versenyek és a klub",
+    "stage-organiser-trips": "Rendező: utazások és túrák",
+    "stage-fan-watch": "Szurkoló és család: nézés és megértés",
+    "stage-fan-results": "Szurkoló és család: eredmények és a ClayArena",
+    "four-methods": "Négy módszer",
+    "name-the-flight-10": "Nevezd meg a röppályát 10/10",
+    "coach-translator-20": "Edzőfordító 20",
+    "referees-call-20": "A bíró döntése 20",
+    "terms-50": "50 fogalom",
+    "rules-exam-sporting": "Szabályvizsga Sporting™",
+    "rules-exam-compak": "Szabályvizsga Compak® Sporting",
+    "first": "Első lecke",
+    "returning": "Visszatérő",
+    "interpreter-academy-2026": "Tolmács Akadémia 2026"
+  }
+}

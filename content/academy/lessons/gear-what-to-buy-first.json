@@ -1,0 +1,292 @@
+{
+  "id": "gear-what-to-buy-first",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 1,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gear-what-to-buy-first"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "safety-glasses",
+    "hearing-protection",
+    "earplugs",
+    "passive-ear-muffs",
+    "electronic-ear-muffs",
+    "shooting-vest",
+    "jacket-line",
+    "cartridge-bag",
+    "hard-case",
+    "gun-fit",
+    "shotgun",
+    "coach"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    }
+  ],
+  "facts": [
+    "rules.sporting-jacket-line"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "What to buy first and what later",
+    "uk": "Що купити першим, а що згодом"
+  },
+  "summary": {
+    "en": "A sensible buying order for a beginner in {{tm:sporting}} and {{tm:compak}}: protection and comfort first, the gun only after lessons and a fitting.",
+    "uk": "Розумний порядок покупок для новачка в {{tm:sporting}} і {{tm:compak}}: спершу захист і зручність, рушниця — після уроків і підгонки."
+  },
+  "body": [
+    {
+      "k": "gear-what-to-buy-first-p1",
+      "t": "p",
+      "en": "A beginner does not need to buy everything at once. At the first lessons the ground or the coach usually lends you a gun, glasses, plugs and muffs. First find out whether you enjoy shooting, then buy gear step by step.",
+      "uk": "Новачкові не потрібно купувати все одразу. На перших уроках стенд або тренер зазвичай дадуть рушницю, окуляри, беруші й навушники. Спершу з’ясуйте, чи подобається вам стрільба, а потім купуйте спорядження поступово."
+    },
+    {
+      "k": "gear-what-to-buy-first-p2",
+      "t": "p",
+      "en": "First, your own eye and ear protection. Glasses that fit well and plugs or muffs that feel comfortable are a matter of both hygiene and safety. To start, impact-resistant {{term:safety-glasses|shooting glasses}} with an interchangeable lens and {{term:passive-ear-muffs|passive muffs}} or good {{term:earplugs|earplugs}} are enough.",
+      "uk": "Перше — власний захист очей і слуху. Окуляри, що добре сидять, і беруші чи навушники, у яких зручно, — це і гігієна, і безпека. Для початку вистачить ударостійких {{term:safety-glasses|стрілецьких окулярів}} зі змінною лінзою та {{term:passive-ear-muffs|пасивних навушників}} або якісних {{term:earplugs|берушів}}."
+    },
+    {
+      "k": "gear-what-to-buy-first-p3",
+      "t": "p",
+      "en": "Second, comfortable closed shoes and clothes in layers that let you mount the gun freely. You probably already have most of this at home.",
+      "uk": "Друге — зручне закрите взуття й одяг шарами, у яких легко вкладати рушницю. Більшість цього, імовірно, вже є у вашій шафі."
+    },
+    {
+      "k": "gear-what-to-buy-first-p4",
+      "t": "p",
+      "en": "Third, a {{term:shooting-vest|vest}}, as soon as you shoot regularly. For {{tm:sporting}} choose a vest with the {{term:jacket-line|jacket line}}: a contrasting stripe {{fact:rules.sporting-jacket-line}} and parallel to it. Before you call for the target, and until the target appears, the top of the stock must stay below this line, and the referee checks it. The same vest works in {{tm:compak}}, where no line is needed.",
+      "uk": "Третє — {{term:shooting-vest|жилет}}, щойно ви почнете стріляти регулярно. Для {{tm:sporting}} обирайте жилет із {{term:jacket-line|лінією}} (jacket line) — контрастною смужкою {{fact:rules.sporting-jacket-line}} й паралельно їй. До команди й доки не з’явиться мішень, верх приклада має бути нижче цієї лінії, і суддя це перевіряє. Такий жилет підійде й для {{tm:compak}}, де лінія не потрібна."
+    },
+    {
+      "k": "gear-what-to-buy-first-p5",
+      "t": "p",
+      "en": "Later: the gun, a {{term:cartridge-bag|cartridge bag}}, a {{term:hard-case|hard case}}, {{term:electronic-ear-muffs|electronic muffs}} and extra lenses. Do not buy a gun before a few lessons: the coach will help you see which model and dimensions suit you and suggest a {{term:gun-fit|gun fit}}. More: {{lesson:gun-first-gun}}.",
+      "uk": "Згодом — рушниця, {{term:cartridge-bag|сумка для набоїв}}, {{term:hard-case|кейс для рушниці}}, {{term:electronic-ear-muffs|активні навушники}}, додаткові лінзи. Рушницю не варто купувати до кількох уроків: тренер допоможе зрозуміти, яка модель і розміри вам підходять, і порадить {{term:gun-fit|підгонку}}. Докладніше: {{lesson:gun-first-gun}}."
+    },
+    {
+      "k": "gear-what-to-buy-first-p7",
+      "t": "p",
+      "en": "Buying, storing and transporting a gun are governed by your country's law, so find out about licences in advance.",
+      "uk": "Купівлю, зберігання й перевезення зброї регулює закон вашої країни, тож дізнайтеся про дозволи заздалегідь."
+    },
+    {
+      "k": "gear-what-to-buy-first-p6",
+      "t": "tip",
+      "en": "Do not chase expensive items: expensive gear does not replace lessons with a coach. Spend money on training and cartridges, and upgrade your gear once you know exactly what you need.",
+      "uk": "Не женіться за дорогими речами: дороге спорядження не замінить уроків із тренером. Витрачайте гроші на тренування й патрони, а спорядження оновлюйте тоді, коли точно знаєте, що вам потрібно."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gear-what-to-buy-first-kp1",
+      "en": "At the first lessons the ground usually lends you gear.",
+      "uk": "На перших уроках спорядження зазвичай дають на стенді."
+    },
+    {
+      "k": "gear-what-to-buy-first-kp2",
+      "en": "Buy your own eye and ear protection first.",
+      "uk": "Першим купуйте власний захист очей і слуху.",
+      "checklist": true
+    },
+    {
+      "k": "gear-what-to-buy-first-kp3",
+      "en": "Then comfortable shoes, clothing and a vest.",
+      "uk": "Потім зручне взуття, одяг і жилет."
+    },
+    {
+      "k": "gear-what-to-buy-first-kp4",
+      "en": "The gun only after a few lessons and a fitting.",
+      "uk": "Рушницю — лише після кількох уроків і підгонки."
+    },
+    {
+      "k": "gear-what-to-buy-first-kp5",
+      "en": "Money spent on lessons often helps more than expensive gear.",
+      "uk": "Гроші на уроки часто дають більше, ніж дороге спорядження."
+    }
+  ],
+  "did_you_know": {
+    "k": "gear-what-to-buy-first-dyk",
+    "en": "Many grounds hire out guns, so a beginner can try several models before choosing their own.",
+    "uk": "Багато стендів дають рушниці напрокат, тож новачок може спробувати кілька моделей, перш ніж обрати свою."
+  },
+  "quiz": [
+    {
+      "k": "gear-what-to-buy-first-q1",
+      "q": {
+        "en": "What should a beginner buy first?",
+        "uk": "Що новачкові варто купити першим?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "An expensive gun of their own",
+          "uk": "Дорогу власну рушницю"
+        },
+        {
+          "k": "b",
+          "en": "Their own eye and ear protection",
+          "uk": "Власний захист очей і слуху"
+        },
+        {
+          "k": "c",
+          "en": "A full set of coloured lenses",
+          "uk": "Повний набір кольорових лінз"
+        },
+        {
+          "k": "d",
+          "en": "A large cartridge bag",
+          "uk": "Велику сумку для набоїв"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Protection is needed from the first shot, and your own is more comfortable and hygienic.",
+        "uk": "Захист потрібен з першого пострілу, а власний зручніший і гігієнічніший."
+      }
+    },
+    {
+      "k": "gear-what-to-buy-first-q2",
+      "q": {
+        "en": "When is it sensible to buy a gun?",
+        "uk": "Коли розумно купувати рушницю?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "After some lessons and a fitting",
+          "uk": "Після кількох уроків і підгонки"
+        },
+        {
+          "k": "b",
+          "en": "Before the very first lesson",
+          "uk": "Ще до першого уроку"
+        },
+        {
+          "k": "c",
+          "en": "On the first day at the ground",
+          "uk": "Першого ж дня на стенді"
+        },
+        {
+          "k": "d",
+          "en": "Whenever a shop has a good sale",
+          "uk": "Щойно в магазині гарний розпродаж"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The coach helps choose a model and dimensions, and the law tells you which licences you need.",
+        "uk": "Тренер допоможе підібрати модель і розміри, а закон підкаже, які потрібні дозволи."
+      }
+    },
+    {
+      "k": "gear-what-to-buy-first-q3",
+      "q": {
+        "en": "Which vest works for both disciplines?",
+        "uk": "Який жилет підійде для обох дисциплін?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A vest with no pockets at all",
+          "uk": "Жилет зовсім без кишень"
+        },
+        {
+          "k": "b",
+          "en": "A thick winter jumper instead",
+          "uk": "Товстий зимовий светр замість жилета"
+        },
+        {
+          "k": "c",
+          "en": "A vest with the 25 cm jacket line",
+          "uk": "Жилет із лінією на 25 см нижче осі плеча"
+        },
+        {
+          "k": "d",
+          "en": "Any vest, as long as it is bright",
+          "uk": "Будь-який жилет, аби яскравий"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The line is needed in {{tm:sporting}} and does no harm in {{tm:compak}}.",
+        "uk": "Лінія потрібна в {{tm:sporting}} і не заважає в {{tm:compak}}."
+      },
+      "rule_ref": "sporting:ch3-jacket-line"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "328ee56b",
+    "summary": "69525c12",
+    "gear-what-to-buy-first-p1": "739e41f2",
+    "gear-what-to-buy-first-p2": "d059298e",
+    "gear-what-to-buy-first-p3": "965a72a7",
+    "gear-what-to-buy-first-p4": "762bf4a2",
+    "gear-what-to-buy-first-p5": "f868929a",
+    "gear-what-to-buy-first-p7": "ec62b7f2",
+    "gear-what-to-buy-first-p6": "e49a5606",
+    "gear-what-to-buy-first-kp1": "0bf8ca0a",
+    "gear-what-to-buy-first-kp2": "1ffbf697",
+    "gear-what-to-buy-first-kp3": "c236f3c6",
+    "gear-what-to-buy-first-kp4": "71692597",
+    "gear-what-to-buy-first-kp5": "f919d152",
+    "gear-what-to-buy-first-dyk": "03a4b718",
+    "gear-what-to-buy-first-q1": "4b1f927d",
+    "gear-what-to-buy-first-q2": "67a1ee5c",
+    "gear-what-to-buy-first-q3": "9e554fe9"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

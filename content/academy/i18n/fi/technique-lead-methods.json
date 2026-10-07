@@ -1,0 +1,153 @@
+{
+ "id": "technique-lead-methods",
+ "lang": "fi",
+ "base_rev": 2,
+ "h": {
+  "title": "d892a662",
+  "summary": "8091b4d1",
+  "lead-why-p1": "de41baf7",
+  "lead-why-p2": "1960eeb7",
+  "lead-why-p3": "67cd8204",
+  "lead-why-p4": "721ef044",
+  "lead-why-p5": "7b44aeff",
+  "technique-lead-methods-p2": "bc0cf37a",
+  "technique-lead-methods-p3": "ed9c1930",
+  "technique-lead-methods-p4": "7278ba46",
+  "technique-lead-methods-p5": "90f7570b",
+  "technique-lead-methods-ambush": "9ed427d6",
+  "technique-lead-methods-p6": "00dcd054",
+  "lead-why-sim": "ed852e6b",
+  "technique-lead-methods-n1": "a587017e",
+  "lead-why-ph1": "25aa89ad",
+  "lead-why-ph2": "cd893131",
+  "lead-why-ph3": "95a1b2e5",
+  "lead-why-kp1": "06585b31",
+  "lead-why-kp2": "69c874f3",
+  "lead-why-kp3": "cb78f765",
+  "lead-why-kp4": "737a337d",
+  "technique-lead-methods-kp5": "e5824828",
+  "technique-lead-methods-dyk": "fbc40ca6",
+  "lead-why-q1": "f079984b",
+  "lead-why-q2": "f2d646e0",
+  "lead-why-q3": "ffd07423",
+  "technique-lead-methods-q1": "f8af648e",
+  "technique-lead-methods-q2": "6931f0e4",
+  "technique-lead-methods-q3": "c657bbdb",
+  "technique-lead-methods-q4": "c6090152"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Ennakko: miksi ampuu kiekon edelle",
+ "summary": "Miksi laukaus täytyy suunnata liikkuvan kiekon edelle, miten todellinen ja havaittu ennakko eroavat, ja miten neljä ennakkomenetelmää toimivat.",
+ "body": {
+  "lead-why-p1": "Hauleilta kuluu sekunnin murto-osa kiekon luo, ja sinä aikana kiekko liikkuu eteenpäin. Niin jos ase osoittaa suoraan {{term:crosser|sivukiekkoon}} (kiekkoon, joka lentää poikittain edessäsi) ja pysähtyy siihen, laukaus menee sen taakse. Aseen täytyy osoittaa edelle, jotta haulit ja kiekko kohtaavat. Tämä väli on {{term:lead|ennakko}}, brittienglanniksi myös ”forward allowance”.",
+  "lead-why-p2": "Ennakko kasvaa kiekon nopeuden, etäisyyden ja kulman mukana. Samalla nopeudella ja etäisyydellä täysi sivukiekko tarvitsee enimmän. Suoraan ampujaa kohti tai hänestä poispäin lentävä kiekko tarvitsee tuskin lainkaan sivuttaista ennakkoa, mutta nousevat ja laskevat kiekot tarvitsevat pystysuuntaista ennakkoa (ylä- tai alapuolelle).",
+  "lead-why-p3": "Todelliset luvut yllättävät. Suuntaa antavana esimerkkinä noin 20 metrin päässä olevan sivukiekon todellinen ennakko arvioidaan usein {{fact:technique.crosser-lead-20m}}. Ennakko kasvaa nopeasti etäisyyden mukana, jopa hieman nopeammin kuin etäisyys itse, koska haulit hidastuvat lentäessään. Niin jos kaukainen kiekko näyttää piipunsuulla samanlaiselta etäisyydeltä kuin läheinen, todellinen ennakko ilmassa on paljon suurempi.",
+  "lead-why-p4": "Todellinen ennakko on todellinen etäisyys kiekon edessä ilmassa. Väliä, jonka ampuja näkee piipunsuun ja kiekon välillä, kutsutaan {{term:perceived-lead|havaituksi ennakoksi}}, myös ”lead picture” tai ”sight picture”. Metri 20 metrin päässä näyttää piipunsuulla muutamalta senttimetriltä. Käyttämäsi menetelmä muuttaa tätä kuvaa. Jos piiput liikkuvat kiekon nopeudella (pysyvä ennakko), näet koko välin. Jos ne liikkuvat kiekkoa nopeammin (läpiveto), näet vain pienen välin tai ei lainkaan. Sillä sekunnin murto-osalla ennen laukauksen lähtöä nopeasti liikkuva ase kulkee loppumatkan itsestään edelle. Väijytyksessä ase ei liiku, niin sinun täytyy nähdä vielä suurempi väli kuin todellinen ennakko, koska kiekko lentää eteenpäin, kun reagoit.",
+  "lead-why-p5": "Moni oikeakätinen ampuja tuntee, että vasemmalta oikealle lentävä sivukiekko tarvitsee enemmän ennakkoa kuin oikealta vasemmalle lentävä. Todellinen ennakko on sama; vain havainto eroaa. Niin valmentajan ”four feet” kuvaa näkemäänsä kuvaa, ei mittausta.",
+  "technique-lead-methods-p2": "Valmentajat opettavat ennakkoa menetelmän kautta: tapaa, jolla piiput saadaan kiekon eteen. Neljä menetelmää on yleisiä. Samalle kiekolle todellinen ennakko on sama jokaisella niistä; se, mikä muuttuu, on kuva, jonka näet.",
+  "technique-lead-methods-p3": "{{term:maintained-lead|Pysyvä ennakko}}: piiput alkavat kiekon edessä, antavat sen saavuttaa haluamasi välin, liikkuvat sitten sen nopeudella pitäen välin samana. Moni valmentaja ehdottaa sitä kaukaisiin, ennustettaviin kiekkoihin. Lisää: {{lesson:lead-maintained}}.",
+  "technique-lead-methods-p4": "{{term:pull-away|Edestä irtiveto}}: osoitat piiput kiekkoon (tai juuri sen etureunaan), liikut sen mukana hetken, vedät sitten tasaisesti edelle ja laukaiset. Moni valmentaja aloittaa aloittelijat sillä, ja se sopii usein viistokiekoihin (jotka lentävät kulmassa poispäin tai sinua kohti) ja nouseviin kiekkoihin. Lisää: {{lesson:lead-pull-away}}.",
+  "technique-lead-methods-p5": "{{term:swing-through|Läpiveto}}: piiput alkavat takaa, liikkuvat kiekkoa nopeammin, kulkevat sen läpi ja laukaisevat, kun ne tulevat esiin edestä. Se sopii usein läheisiin, nopeisiin ja ylilentäviin kiekkoihin. Lisää: {{lesson:lead-swing-through}}.",
+  "technique-lead-methods-ambush": "{{term:ambush|Väijytys}}: piiput odottavat liikkumatta pisteessä edessä, ja liipaisinta painetaan ennen kuin kiekko saavuttaa sen. Se voi auttaa kiekossa, joka näkyy vain hetken. Lisää: {{lesson:lead-ambush-instinctive}}.",
+  "technique-lead-methods-p6": "Mikään menetelmä ei ole ”oikeampi” kuin muut. Kokeneet ampujat valitsevat usein menetelmän joka kiekolle. Aloittelijalle toimii yleensä paremmin, kun opettelee ensin yhden menetelmän valmentajan kanssa. Kaikissa kolmessa liikkuvan aseen menetelmässä ase jatkaa liikettä laukauksen jälkeen; ks. {{lesson:technique-follow-through-and-mistakes}}.",
+  "lead-why-sim": "Animaatio: yksi sivukiekko, neljä menetelmää. Taulukko näyttää, että todellinen ennakko pysyy samana, mutta näkemäsi ennakko muuttuu menetelmän mukana."
+ },
+ "note": {
+  "technique-lead-methods-n1": "Valmentajat antavat ennakon jalkoina, kiekonleveyksinä tai kuvana. Käännä yksikkö niin kuin se sanotaan: ”four feet” muuttaminen metreiksi keskellä ohjetta muuttaa kuvan mittaukseksi."
+ },
+ "phrases": {
+  "lead-why-ph1": {
+   "meaning": "Älä ajattele metrejä ilmassa; muista se väli, jonka näit piipunsuulla osuessasi.",
+   "say": "Unohda todellinen etäisyys – ratkaisevaa on näkemäsi kuva."
+  },
+  "lead-why-ph2": {
+   "meaning": "Ennakko oli tuossa osumassa oikea; pidä sama ennakkokuva.",
+   "say": "Tuo on oikea kuva – muista se."
+  },
+  "lead-why-ph3": {
+   "meaning": "Todellinen ennakko on molempiin suuntiin sama; vain havainto muuttuu.",
+   "say": "Sama ennakko oikealta vasemmalle, se vain näyttää erilaiselta."
+  }
+ },
+ "key_points": {
+  "lead-why-kp1": "Ennakkoa tarvitaan, koska kiekko liikkuu haulien lentäessä.",
+  "lead-why-kp2": "Suurempi nopeus, etäisyys ja kulma tarkoittavat enemmän ennakkoa.",
+  "lead-why-kp3": "Todellinen ennakko on usein metri tai enemmän ilmassa kiekon kohdalla; piipunsuulla kuva on vain senttejä, koska piipunsuu on lähellä silmää.",
+  "lead-why-kp4": "Menetelmä muuttaa kuvaa: liikkuvalla aseella pysyvässä ennakossa näkyy eniten, läpivedossa vähiten; väijytyksessä (ase paikallaan) väli on vielä suurempi.",
+  "technique-lead-methods-kp5": "Neljä menetelmää: pysyvä ennakko, edestä irtiveto, läpiveto ja väijytys; opettele ensin yksi valmentajan kanssa."
+ },
+ "quiz": {
+  "lead-why-q1": {
+   "q": "Mitä havaittu ennakko on?",
+   "options": {
+    "a": "Todellinen etäisyys kiekon edessä ilmassa",
+    "b": "Väli, jonka ampuja näkee piipunsuun ja kiekon välillä",
+    "c": "Kiekkoluetteloon kirjattu ennakko",
+    "d": "Etäisyys ampumapaikalta heittimelle"
+   },
+   "explain": "Havaittu ennakko on kuva piipunsuulla; todellinen ennakko on todellinen etäisyys ilmassa ja paljon suurempi."
+  },
+  "lead-why-q2": {
+   "q": "Mikä liikkuvan aseen menetelmistä antaa yleensä suurimman havaitun ennakon?",
+   "options": {
+    "a": "Läpiveto",
+    "b": "Edestä irtiveto",
+    "c": "Pysyvä ennakko",
+    "d": "Kaikki ovat samanlaisia"
+   },
+   "explain": "Pysyvässä ennakossa ase ei liiku kiekkoa nopeammin, niin aseen nopeus ei lisää mitään itsestään, ja koko väli täytyy nähdä. Väijytyksessä, jossa ase ei liiku, nähty väli on vielä suurempi."
+  },
+  "lead-why-q3": {
+   "q": "Mikä kiekko ei tarvitse juuri lainkaan sivuttaista ennakkoa?",
+   "options": {
+    "a": "Suoraan poispäin lentävä kiekko",
+    "b": "Kaukainen sivukiekko",
+    "c": "45°:n viistokiekko poispäin",
+    "d": "40 m:n päässä oleva sivukiekko"
+   },
+   "explain": "Suoraan poispäin lentävällä kiekolla ei ole sivuttaisliikettä; sen tarvitsema ennakko on pystysuuntaista."
+  },
+  "technique-lead-methods-q1": {
+   "q": "Miksi ennakkoa tarvitaan?",
+   "options": {
+    "a": "Jotta haulit ja kiekko kohtaavat",
+    "b": "Rekyylin vähentämiseksi",
+    "c": "Jotta kiekko lentäisi hitaammin"
+   },
+   "explain": "Haulien lentäessä kiekko liikkuu eteenpäin, niin ampuu sen edelle."
+  },
+  "technique-lead-methods-q2": {
+   "q": "Missä menetelmässä piiput pysyvät koko ajan kiekon edessä?",
+   "options": {
+    "a": "Läpiveto",
+    "b": "Pysyvä ennakko",
+    "c": "Edestä irtiveto"
+   },
+   "explain": "Pysyvässä ennakossa piiput alkavat edessä ja pitävät välin."
+  },
+  "technique-lead-methods-q3": {
+   "q": "Mikä kiekko tarvitsee vähiten ennakkoa?",
+   "options": {
+    "a": "Kaukainen, nopea sivukiekko",
+    "b": "Suoraan poispäin lentävä kiekko",
+    "c": "Korkea poikittainen kiekko"
+   },
+   "explain": "Suoraan poispäin lentävä tai suoraan tuleva kiekko liikkuu tuskin sivuttain piippuihin nähden."
+  },
+  "technique-lead-methods-q4": {
+   "q": "Missä menetelmässä ampujan täytyy nähdä suurin väli päätöksen hetkellä?",
+   "options": {
+    "a": "Läpiveto",
+    "b": "Edestä irtiveto",
+    "c": "Pysyvä ennakko",
+    "d": "Väijytys"
+   },
+   "explain": "Väijytyksessä ase ei liiku, ja kiekko liikkuu yhä reaktioajan kuluessa. Niin päätöksen hetkellä nähdyn välin täytyy olla suurempi kuin todellinen ennakko."
+  }
+ },
+ "did_you_know": "Kaksi ampujaa voi rikkoa saman kiekon ja kuvata ennakon täysin eri tavoin: toinen ”näkee” metrin, toinen puoli metriä. Ero on siinä, kuinka nopeasti kukin liikuttaa asetta."
+}

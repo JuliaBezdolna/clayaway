@@ -1,0 +1,97 @@
+{
+  "id": "cartridges-load-weight",
+  "lang": "pt",
+  "base_rev": 2,
+  "h": {
+    "title": "1f80569e",
+    "summary": "ed7b9a72",
+    "cartridges-load-weight-p1": "decdd26e",
+    "gear-cartridges-p4": "0bf10f58",
+    "cartridges-load-weight-cmp1": "4195ccb1",
+    "cartridges-load-weight-p3": "cc37e571",
+    "cartridges-load-weight-p4": "d0a3299d",
+    "cartridges-load-weight-p7": "fe983bcf",
+    "cartridges-load-weight-p6": "1e71519f",
+    "gear-cartridges-ph2": "c9f34404",
+    "cartridges-load-weight-kp1": "17adb00e",
+    "gear-cartridges-kp4": "17ffb11e",
+    "cartridges-load-weight-kp3": "4dfbe326",
+    "cartridges-load-weight-kp4": "d0986a33",
+    "gear-cartridges-q2": "3bce4d71",
+    "cartridges-load-weight-q2": "af9002a3",
+    "cartridges-load-weight-q3": "c9a85ba3",
+    "cartridges-load-weight-q1": "caa212d8",
+    "cartridges-load-weight-dyk": "a4b09827"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Carga de chumbo",
+  "summary": "O que é a carga, em que diferem os cartuchos de 24 g e 28 g, que limite estabelecem as regras do {{tm:sporting}} e do {{tm:compak}}, e como se verificam os cartuchos.",
+  "body": {
+    "cartridges-load-weight-p1": "A {{term:load-weight|carga}} é o peso do chumbo num cartucho, em gramas. A caixa mostra-a em números grandes, por exemplo «24 g» ou «28 g». Nos EUA e no Reino Unido às vezes dá-se em onças: 1 onça é cerca de 28 g.",
+    "gear-cartridges-p4": "As regras do {{tm:sporting}} e do {{tm:compak}} estabelecem os mesmos limites. A carga é {{fact:gear.fitasc-shot-load}}, portanto até cerca de 28,6 g, seja qual for o calibre. O chumbo tem de ser {{fact:gear.fitasc-shot-diameter}}. Os cartuchos recarregados, os dispersores, a mistura de números de chumbo, a pólvora negra e os traçadores são proibidos.",
+    "cartridges-load-weight-cmp1": {
+      "sporting": "Antes de começar num posto, o {{term:referee|árbitro}} pode pedir-lhe dois cartuchos para verificar: um do bolso direito do colete e um do esquerdo.",
+      "compak": "Se uma verificação mostrar que os seus cartuchos não cumprem as regras, todos os tiros que disparou com eles antes dessa verificação contam como {{term:zero|ZERO}}, isto é, como falha. O júri pode manter os resultados se o atirador não pudesse saber e não tiver obtido qualquer vantagem, desde que a falha seja corrigida logo que detetada."
+    },
+    "cartridges-load-weight-p3": "Muitos atiradores de {{tm:sporting}} usam 28 g em competição: mais grãos dão uma chumbada mais densa, especialmente em pratos distantes. A desvantagem é um {{term:recoil|recuo}} mais forte, e ao longo de um dia de 100 a 200 pratos sente-se.",
+    "cartridges-load-weight-p4": "Os cartuchos de 24 g são mais leves, empurram menos e costumam ser um pouco mais baratos. Para treino e para pratos próximos e médios costumam bastar e cansam menos; em pratos distantes, os 28 g dão uma chumbada mais densa. Existem até cargas ainda mais leves, de 21 g, sobretudo para calibre 20 ou para o ensino.",
+    "cartridges-load-weight-p7": "Nas provas olímpicas de tiro de arma lisa da ISSF, o trap por exemplo, o limite é mais baixo: 24 g, com uma tolerância de +0,5 g.",
+    "cartridges-load-weight-p6": "Muitos treinadores sugerem que os principiantes comecem com 24 g. Menos recuo significa menos fadiga e menos risco de aprender a ter um {{term:flinch|tique}} antes do tiro. Pode passar a 28 g mais tarde, quando a sua técnica estiver consistente."
+  },
+  "note": {},
+  "phrases": {
+    "gear-cartridges-ph2": {
+      "meaning": "O limite de carga da competição, como nas regras da FITASC.",
+      "say": "Máximo de vinte e oito gramas nesta prova."
+    }
+  },
+  "key_points": {
+    "cartridges-load-weight-kp1": "A carga é o peso do chumbo em gramas; 1 onça é cerca de 28 g.",
+    "gear-cartridges-kp4": "Limites: 28 g de chumbo (+2%), grãos de 2,0–2,5 mm; sem recargas, mistura de chumbo, pólvora negra ou traçadores.",
+    "cartridges-load-weight-kp3": "28 g dá uma chumbada mais densa em pratos distantes; 24 g é mais suave para treino e principiantes.",
+    "cartridges-load-weight-kp4": "{{tm:sporting}}: o árbitro pode verificar dois cartuchos; {{tm:compak}}: os tiros com cartuchos não conformes contam como zero."
+  },
+  "did_you_know": "1 onça são 28,35 g, por isso o clássico cartucho britânico «1 oz» corresponde quase exatamente ao limite de 28 g da FITASC.",
+  "quiz": {
+    "gear-cartridges-q2": {
+      "q": "Qual é a carga máxima de chumbo segundo as regras da FITASC?",
+      "options": {
+        "a": "24 g, sem tolerância",
+        "b": "28 g, com uma tolerância de +2%",
+        "c": "32 g só para pratos longos",
+        "d": "Sem limite, qualquer carga é permitida"
+      },
+      "explain": "As duas disciplinas permitem no máximo 28 g de chumbo, +2%."
+    },
+    "cartridges-load-weight-q2": {
+      "q": "Porque sugerem muitos treinadores cartuchos de 24 g para principiantes?",
+      "options": {
+        "a": "Empurram menos e cansam menos",
+        "b": "Só eles são permitidos para principiantes",
+        "c": "Dão a chumbada mais densa",
+        "d": "Voam mais longe do que cargas mais pesadas"
+      },
+      "explain": "Menos recuo ajuda a manter uma boa técnica e a evitar um tique."
+    },
+    "cartridges-load-weight-q3": {
+      "q": "Quantos cartuchos pode o árbitro levar para verificação no {{tm:sporting}}?",
+      "options": {
+        "a": "Nenhum: as verificações não são permitidas",
+        "b": "Um, de qualquer bolso do colete",
+        "c": "Dois, um de cada bolso do colete",
+        "d": "A caixa inteira do saco"
+      },
+      "explain": "O árbitro pode levar dois cartuchos, um de cada bolso do colete."
+    },
+    "cartridges-load-weight-q1": {
+      "q": "No {{tm:compak}} uma verificação mostra que os cartuchos de um atirador não cumprem as regras. Como são pontuados os tiros disparados com eles antes da verificação?",
+      "options": {
+        "a": "Repetem-se mais tarde",
+        "b": "Contam como No Bird",
+        "c": "Contam normalmente",
+        "d": "Contam como zero"
+      },
+      "explain": "Todos os tiros disparados com armas ou cartuchos não conformes antes da verificação contam como zero, isto é, como falha; o júri só pode aceitar os resultados em casos especiais."
+    }
+  }
+}

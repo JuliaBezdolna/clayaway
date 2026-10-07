@@ -1,0 +1,151 @@
+{
+  "id": "technique-lead-methods",
+  "lang": "lt",
+  "base_rev": 2,
+  "h": {
+    "title": "d892a662",
+    "summary": "8091b4d1",
+    "lead-why-p1": "de41baf7",
+    "lead-why-p2": "1960eeb7",
+    "lead-why-p3": "67cd8204",
+    "lead-why-p4": "721ef044",
+    "lead-why-p5": "7b44aeff",
+    "technique-lead-methods-p2": "bc0cf37a",
+    "technique-lead-methods-p3": "ed9c1930",
+    "technique-lead-methods-p4": "7278ba46",
+    "technique-lead-methods-p5": "90f7570b",
+    "technique-lead-methods-ambush": "9ed427d6",
+    "technique-lead-methods-p6": "00dcd054",
+    "technique-lead-methods-n1": "a587017e",
+    "lead-why-ph1": "25aa89ad",
+    "lead-why-ph2": "cd893131",
+    "lead-why-ph3": "95a1b2e5",
+    "lead-why-kp1": "06585b31",
+    "lead-why-kp2": "69c874f3",
+    "lead-why-kp3": "cb78f765",
+    "lead-why-kp4": "737a337d",
+    "technique-lead-methods-kp5": "e5824828",
+    "technique-lead-methods-dyk": "fbc40ca6",
+    "lead-why-q1": "f079984b",
+    "lead-why-q2": "f2d646e0",
+    "lead-why-q3": "ffd07423",
+    "technique-lead-methods-q1": "f8af648e",
+    "technique-lead-methods-q2": "6931f0e4",
+    "technique-lead-methods-q3": "c657bbdb",
+    "technique-lead-methods-q4": "c6090152"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Pralenkimas: kodėl šaudoma priekyje taikinio",
+  "summary": "Kodėl dribsnis turi skrieti priekyje judančio taikinio, kuo skiriasi tikrasis ir matomas pralenkimas ir kaip veikia keturi pralenkimo metodai.",
+  "body": {
+    "lead-why-p1": "Dribsniui reikia sekundės dalies, kol jis pasiekia taikinį, ir per tą laiką taikinys pasislenka toliau. Todėl jei šautuvas nukreiptas tiesiai į {{term:crosser|kertantį taikinį}} (taikinį, skriejantį skersai priešais jus) ir ten sustoja, dribsnis praskrieja už jo. Vamzdžių galai turi būti nukreipti priekyje, kad dribsnis ir taikinys susitiktų. Šis tarpas yra {{term:lead|pralenkimas}}, angliškai lead, britų anglų kalboje dar – „forward allowance“.",
+    "lead-why-p2": "Pralenkimas auga su taikinio greičiu, atstumu ir kampu. Tuo pačiu greičiu ir atstumu daugiausia pralenkimo reikia visiškai skersai skriejančiam taikiniui. Taikiniui, skriejančiam tiesiai į šaulį ar nuo jo, šoninio pralenkimo beveik nereikia, tačiau kylantiems ir krintantiems taikiniams reikia vertikalaus pralenkimo (virš ar žemiau).",
+    "lead-why-p3": "Tikri skaičiai stebina. Dėl orientacijos tikrasis pralenkimas kertančiam taikiniui apie 20 m atstumu dažnai vertinamas taip: {{fact:technique.crosser-lead-20m}}. Pralenkimas sparčiai auga su atstumu, net kiek sparčiau nei pats atstumas, nes dribsnis skriedamas lėtėja. Tad jei tolimas taikinys akimis atrodo toks pat nutolęs nuo vamzdžių, kaip ir artimas, tikrasis pralenkimas ore yra daug didesnis.",
+    "lead-why-p4": "Tikrasis pralenkimas – reali atstumo dalis ore priekyje lėkštelės. Tarpas, kurį šaulys mato tarp vamzdžio galo ir taikinio, yra {{term:perceived-lead|matomas pralenkimas}} (perceived lead), dar vadinamas „lead picture“ arba „sight picture“. Metras 20 m atstumu prie vamzdžio galo atrodo kaip keli centimetrai. Vaizdą keičia metodas. Jei vamzdžių galai juda taikinio greičiu (pastovus pralenkimas), matote visą tarpą. Jei greičiau už taikinį (pravedimas pro taikinį) – tik mažą tarpą arba nė vieno. Per tą akimirkos dalį, kol dribsnis neišlėkė, greitai judantis šautuvas pats nueina likusį kelią priekyje. Taikant pasalą (ambush) šautuvas nejuda, tad tarpą reikia matyti net didesnį už tikrąjį pralenkimą, nes taikinys skrenda toliau, kol jūs reaguojate.",
+    "lead-why-p5": "Daugeliui dešiniarankių šaulių atrodo, kad kertančiam taikiniui, skriejančiam iš kairės į dešinę, reikia didesnio pralenkimo nei iš dešinės į kairę. Tikrasis pralenkimas vienodas, skiriasi tik suvokimas. Todėl trenerio „four feet“ apibūdina vaizdą, o ne matavimą.",
+    "technique-lead-methods-p2": "Treneriai moko pralenkimo per metodą – būdą, kuriuo vamzdžių galai atsiduria priekyje taikinio. Dažni keturi metodai. Tam pačiam taikiniui tikrasis pralenkimas vienodas visais jais; kinta tik vaizdas, kurį matote.",
+    "technique-lead-methods-p3": "{{term:maintained-lead|Pastovus pralenkimas}}: vamzdžių galai iš karto priekyje taikinio; jie leidžia taikiniui priartėti iki norimo tarpo, tada juda jo greičiu, laikydami tą tarpą. Nemažai trenerių jį rekomenduoja tolimiems, nuspėjamiems taikiniams. Daugiau: {{lesson:lead-maintained}}.",
+    "technique-lead-methods-p4": "{{term:pull-away|Atitraukimas nuo taikinio}} (pull-away): vamzdžių galai nukreipiami į taikinį (arba į jo priekinį kraštą), mirksnį juda su juo, tada sklandžiai išeina priekyje – ir šūvis. Nemažai trenerių juo pradeda mokyti pradedančiuosius; jis dažnai tinka įstrižiems taikiniams (skriejantiems kampu nuo jūsų ar į jus) ir kylantiems taikiniams. Daugiau: {{lesson:lead-pull-away}}.",
+    "technique-lead-methods-p5": "{{term:swing-through|Pravedimas pro taikinį}} (swing-through): vamzdžių galai startuoja atsilikę, juda greičiau už taikinį, praeina pro jį, ir šūvis nuskamba, kai jie atsiduria priekyje. Jis dažnai tinka artimiems, greitiems ir virš galvos skriejantiems taikiniams. Daugiau: {{lesson:lead-swing-through}}.",
+    "technique-lead-methods-ambush": "{{term:ambush|Pasala}} (ambush): vamzdžių galai nejudėdami laukia taške priekyje, o į gaiduką spaudžiama anksčiau, nei taikinys tą tašką pasiekia. Tai gali padėti su taikiniu, kurį matote vos mirksnį. Daugiau: {{lesson:lead-ambush-instinctive}}.",
+    "technique-lead-methods-p6": "Nė vienas metodas nėra „teisingesnis“ už kitą. Patyrę šauliai dažnai renkasi metodą pagal konkretų taikinį. Pradedančiajam paprastai geriau pirma įsisavinti vieną metodą su treneriu. Visais trimis judančio šautuvo metodais šautuvas juda ir po šūvio; žr. {{lesson:technique-follow-through-and-mistakes}}."
+  },
+  "note": {
+    "technique-lead-methods-n1": "Treneriai pralenkimą nurodo pėdomis, taikinio pločiais arba kaip vaizdą. Verskite vienetą taip, kaip jis pasakytas: jei „four feet“ nurodymo viduryje pervesite į metrus, vaizdas pavirs matavimu."
+  },
+  "phrases": {
+    "lead-why-ph1": {
+      "meaning": "Negalvokite metrais ore; prisiminkite tarpą, kurį matėte prie vamzdžio žiočių, kai pataikėte.",
+      "say": "Pamirškite tikrą atstumą — svarbu, ką jūs matote."
+    },
+    "lead-why-ph2": {
+      "meaning": "Per šį pataikymą pralenkimas buvo teisingas; išlaikykite tą patį vaizdą.",
+      "say": "Štai šitas vaizdas — įsiminkite jį."
+    },
+    "lead-why-ph3": {
+      "meaning": "Tikrasis pralenkimas abiem kryptimis vienodas; keičiasi tik suvokimas.",
+      "say": "Iš dešinės į kairę pralenkimas toks pat, tik atrodo kitaip."
+    }
+  },
+  "key_points": {
+    "lead-why-kp1": "Pralenkimo reikia, nes taikinys juda, kol skrenda šratai.",
+    "lead-why-kp2": "Didesnis greitis, atstumas ir kampas reiškia didesnį pralenkimą.",
+    "lead-why-kp3": "Tikrasis pralenkimas prie taikinio dažnai yra metras ir daugiau; prie vamzdžio galo vaizdas – tik keli centimetrai, nes vamzdžio galas arti akies.",
+    "lead-why-kp4": "Metodas keičia vaizdą: kai šautuvas juda, daugiausia matoma taikant maintained lead, mažiausiai taikant swing-through; taikant ambush (šautuvas nejuda) tarpas dar didesnis.",
+    "technique-lead-methods-kp5": "Keturi metodai: pastovus pralenkimas, atitraukimas nuo taikinio, pravedimas pro taikinį ir pasala; pirma su treneriu įsisavinkite vieną."
+  },
+  "did_you_know": "Du šauliai gali sudaužyti tą pačią mišenę, o pralenkimą aprašyti visiškai skirtingai: vienas „mato“ metrą, kitas – pusę metro. Skirtumas – kaip greitai kiekvienas juda šautuvu.",
+  "quiz": {
+    "lead-why-q1": {
+      "q": "Kas yra matomas pralenkimas?",
+      "options": {
+        "a": "Tikras atstumas ore prieš taikinį",
+        "b": "Tarpas, kurį šaulys mato tarp vamzdžio žiočių ir taikinio",
+        "c": "Pralenkimas, įrašytas taikinių apraše",
+        "d": "Atstumas nuo šaudymo vietos iki mašinėlės"
+      },
+      "explain": "Matomas pralenkimas yra vaizdas prie vamzdžio žiočių; tikrasis pralenkimas yra tikras atstumas ore ir jis daug didesnis."
+    },
+    "lead-why-q2": {
+      "q": "Kuris iš judančio šautuvo metodų paprastai duoda didžiausią matomą pralenkimą?",
+      "options": {
+        "a": "Pravedimas pro taikinį (swing-through)",
+        "b": "Atitraukimas nuo taikinio (pull-away)",
+        "c": "Pastovus pralenkimas (maintained lead)",
+        "d": "Visi vienodi"
+      },
+      "explain": "Taikant pastovų pralenkimą, šautuvas juda ne greičiau už taikinį, tad pats nieko neprideda, ir reikia matyti visą tarpą. Taikant pasalą, kai šautuvas nejuda, matomas tarpas yra net didesnis."
+    },
+    "lead-why-q3": {
+      "q": "Kuriam taikiniui beveik nereikia šoninio pralenkimo?",
+      "options": {
+        "a": "Tiesiai tolstančiam taikiniui",
+        "b": "Tolimam kertančiam taikiniui (long crosser)",
+        "c": "Įstrižai tolstančiam taikiniui 45° kampu",
+        "d": "Kertančiam taikiniui 40 m atstumu"
+      },
+      "explain": "Tiesiai tolstantis taikinys nejuda į šoną; jei jam reikia pralenkimo, tai tik vertikalaus."
+    },
+    "technique-lead-methods-q1": {
+      "q": "Kam reikalingas pralenkimas?",
+      "options": {
+        "a": "Kad dribsnis ir taikinys susitiktų",
+        "b": "Kad sumažėtų atatranka",
+        "c": "Kad taikinys skriestų lėčiau"
+      },
+      "explain": "Kol dribsnis skrieja, taikinys pasislenka, todėl šaunama priekyje jo."
+    },
+    "technique-lead-methods-q2": {
+      "q": "Kuriuo metodu vamzdžių galai visą laiką priekyje taikinio?",
+      "options": {
+        "a": "Swing-through",
+        "b": "Maintained lead",
+        "c": "Pull-away"
+      },
+      "explain": "Maintained lead – vamzdžių galai iš karto priekyje ir laiko tarpą."
+    },
+    "technique-lead-methods-q3": {
+      "q": "Kuriam taikiniui reikia mažiausio pralenkimo?",
+      "options": {
+        "a": "Tolimam, greitam kertančiam taikiniui",
+        "b": "Taikiniui, skriejančiam tiesiai nuo jūsų",
+        "c": "Aukštam kertančiam taikiniui"
+      },
+      "explain": "Taikinys, skriejantis tiesiai nuo jūsų ar į jus, beveik nesislenka į šoną vamzdžių galų atžvilgiu."
+    },
+    "technique-lead-methods-q4": {
+      "q": "Kuriuo metodu šaulys sprendimo akimirką turi matyti didžiausią tarpą?",
+      "options": {
+        "a": "Swing-through",
+        "b": "Pull-away",
+        "c": "Maintained lead",
+        "d": "Ambush"
+      },
+      "explain": "Taikant ambush šautuvas nejuda, o taikinys skrieja toliau ir reakcijos metu. Todėl sprendimo akimirką matomas tarpas turi būti didesnis už tikrąjį pralenkimą."
+    }
+  }
+}

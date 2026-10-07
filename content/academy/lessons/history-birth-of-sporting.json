@@ -1,0 +1,297 @@
+{
+  "id": "history-birth-of-sporting",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting"
+  ],
+  "audiences": [
+    "fan",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "history-birth-of-sporting"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "sporting",
+    "fitasc",
+    "layout",
+    "single-target",
+    "double",
+    "ready-position",
+    "gun-mount",
+    "english-sporting",
+    "nsca",
+    "championship",
+    "stock"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch1-definition"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-layout"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    }
+  ],
+  "facts": [
+    "community.sporting-rules-dates",
+    "community.sporting-championships",
+    "basics.international-targets",
+    "rules.sporting-jacket-line",
+    "targets.sporting-layout-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ (edition 01/01/2025)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ (редакція 01/01/2025)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — History of the Federation",
+        "uk": "FITASC — історія федерації"
+      },
+      "url": "https://www.fitasc.com/en/organization/history/fitasc-history",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How {{tm:sporting}} was born",
+    "uk": "Як народився {{tm:sporting}}"
+  },
+  "summary": {
+    "en": "{{tm:sporting}} grew from hunters who wanted to practise on targets that fly like game. FITASC turned it into an international discipline in the 1960s.",
+    "uk": "{{tm:sporting}} виріс із бажання мисливців тренуватися на мішенях, що летять, як дичина. У 1960-х роках FITASC зробила його міжнародною дисципліною."
+  },
+  "body": [
+    {
+      "k": "history-birth-of-sporting-p1",
+      "t": "p",
+      "en": "The official name of the discipline is {{tm:sporting}}. Parcours de Chasse is French for «hunting course». Targets move the way real game (the birds and animals people hunt) flies or runs: towards the shooter, away, across, high or low, sometimes between trees. So hunters could practise without shooting a live animal.",
+      "uk": "Офіційна назва дисципліни — {{tm:sporting}}. Parcours de Chasse французькою означає «мисливський маршрут». Мішені рухаються так, як летить або біжить справжня дичина: на стрільця, від нього, упоперек, високо чи низько, часом між деревами. Так мисливці могли тренуватися без пострілу по живій тварині."
+    },
+    {
+      "k": "history-birth-of-sporting-p2",
+      "t": "p",
+      "en": "Hunters practised like this over natural ground long before any official rules, especially in Great Britain. There the format is called {{term:english-sporting|English Sporting}}, and it has its own rules today. Each club built its course its own way, so scores from different events were hard to compare.",
+      "uk": "Мисливці тренувалися так на природному рельєфі задовго до офіційних правил, особливо у Великій Британії. Там цей формат називають {{term:english-sporting|English Sporting}}, і сьогодні він має власні правила. Кожен клуб облаштовував маршрут і майданчики по-своєму, тож результати різних змагань було важко порівнювати."
+    },
+    {
+      "k": "history-birth-of-sporting-p3",
+      "t": "p",
+      "en": "{{term:fitasc|FITASC}} turned this idea into an international discipline with common rules. FITASC's own documents give two different years. The current rulebook (2025 edition) says {{fact:community.sporting-rules-dates}}, and the FITASC history page says 1967. So the honest answer is: it became a FITASC discipline some time in the 1960s.",
+      "uk": "{{term:fitasc|FITASC}} перетворила цю ідею на міжнародну дисципліну зі спільними правилами. Документи FITASC називають різні роки. У чинних правилах (редакція 2025 року) стоїть {{fact:community.sporting-rules-dates}}, а на сторінці історії FITASC — 1967 рік. Тож чесна відповідь така: дисципліною FITASC вона стала десь у 1960-х роках."
+    },
+    {
+      "k": "history-birth-of-sporting-p4",
+      "t": "p",
+      "en": "After that the discipline grew fast. FITASC has held {{fact:community.sporting-championships}}. In the USA a related format is known as sporting clays; it is run by the {{term:nsca|NSCA}} under rules of its own.",
+      "uk": "Після цього дисципліна швидко зростала. FITASC проводить {{fact:community.sporting-championships}}. У США схожий формат відомий як sporting clays; ним опікується {{term:nsca|NSCA}} за власними правилами."
+    },
+    {
+      "k": "history-birth-of-sporting-p5",
+      "t": "p",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-format",
+      "en": "Today's rulebook still says it plainly: the discipline copies hunting situations. You shoot a hunting gun at targets thrown over real countryside. A course is made up of several {{term:layout|layouts}}, and on each layout you shoot {{fact:targets.sporting-layout-targets}} (a double is two targets, so 10 more). An international competition is {{fact:basics.international-targets}}.",
+      "uk": "У сучасних правилах так і написано: ця дисципліна відтворює ситуації полювання. Стріляють із мисливської рушниці по мішенях, які летять над справжнім рельєфом. Маршрут складається з кількох {{term:layout|майданчиків}}, і на кожному стріляють {{fact:targets.sporting-layout-targets}} (дуплет — це дві мішені, тобто ще 10). Міжнародне змагання — це {{fact:basics.international-targets}}."
+    },
+    {
+      "k": "history-birth-of-sporting-p6",
+      "t": "p",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-ready-position",
+      "en": "The hunting roots show in the details. In the {{term:ready-position|ready position}} the {{term:stock|stock}} (the back part of the gun that goes to the shoulder) touches the body. But its top stays below a line marked on the jacket, {{fact:rules.sporting-jacket-line}}. It looks like the gun of a hunter waiting for a bird. The shooter {{term:gun-mount|mounts the gun}} (brings it up to the shoulder) only once the target has been released and can be seen.",
+      "uk": "Мисливське коріння видно й у деталях. У {{term:ready-position|вихідному положенні}} {{term:stock|приклад}} (задня частина рушниці, яку притискають до плеча) торкається тіла. Але його верх лишається нижче лінії на жилеті — {{fact:rules.sporting-jacket-line}}. Так тримає рушницю мисливець, що чекає на птаха. {{term:gun-mount|Вкладку}} — рух рушниці до плеча — стрілець робить лише тоді, коли мішень уже вилетіла і її видно."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "history-birth-of-sporting-kp1",
+      "en": "Parcours de Chasse means «hunting course»: targets move like game.",
+      "uk": "Parcours de Chasse означає «мисливський маршрут»: мішені рухаються, як дичина."
+    },
+    {
+      "k": "history-birth-of-sporting-kp2",
+      "en": "Similar shooting existed long before the rules, especially in Great Britain.",
+      "uk": "Подібна стрільба існувала задовго до правил, особливо у Великій Британії."
+    },
+    {
+      "k": "history-birth-of-sporting-kp3",
+      "en": "FITASC documents give 1960 or 1967 as the start; the honest answer is the 1960s.",
+      "uk": "Документи FITASC називають початком 1960 або 1967 рік; чесна відповідь — 1960-ті роки."
+    },
+    {
+      "k": "history-birth-of-sporting-kp4",
+      "en": "On one layout you shoot {{fact:targets.sporting-layout-targets}} (a double is two targets, so 10 more); an international competition is {{fact:basics.international-targets}}.",
+      "uk": "На одному майданчику стріляють {{fact:targets.sporting-layout-targets}} (дуплет — це дві мішені, тобто ще 10); міжнародне змагання — {{fact:basics.international-targets}}."
+    },
+    {
+      "k": "history-birth-of-sporting-kp5",
+      "en": "FITASC has held {{fact:community.sporting-championships}}.",
+      "uk": "FITASC проводить {{fact:community.sporting-championships}}."
+    }
+  ],
+  "did_you_know": {
+    "k": "history-birth-of-sporting-dyk",
+    "en": "The rules of {{tm:sporting}} belong to FITASC: the cover says so, next to the year the discipline was created.",
+    "uk": "Правила {{tm:sporting}} належать FITASC: про це сказано на обкладинці, поруч із роком створення дисципліни."
+  },
+  "quiz": [
+    {
+      "k": "history-birth-of-sporting-q1",
+      "q": {
+        "en": "What does Parcours de Chasse mean?",
+        "uk": "Що означає Parcours de Chasse?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "«Olympic stand»",
+          "uk": "«Олімпійський стенд»"
+        },
+        {
+          "k": "b",
+          "en": "«Fast shooting»",
+          "uk": "«Швидка стрільба»"
+        },
+        {
+          "k": "c",
+          "en": "«Hunting course»",
+          "uk": "«Мисливський маршрут»"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The name reflects the idea: targets move like game on a hunt.",
+        "uk": "Назва відображає ідею: мішені рухаються, як дичина на полюванні."
+      }
+    },
+    {
+      "k": "history-birth-of-sporting-q2",
+      "q": {
+        "en": "Which years do FITASC documents give for the start of {{tm:sporting}}?",
+        "uk": "Які роки початку {{tm:sporting}} називають документи FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "1960 and 1967",
+          "uk": "1960 і 1967"
+        },
+        {
+          "k": "b",
+          "en": "1921 and 1938",
+          "uk": "1921 і 1938"
+        },
+        {
+          "k": "c",
+          "en": "1989 and 1991",
+          "uk": "1989 і 1991"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The rules give 1960 on the cover and 1967 on the last page, so we say: the 1960s.",
+        "uk": "Правила називають 1960 рік на обкладинці та 1967 на останній сторінці, тому кажемо: 1960-ті роки."
+      }
+    },
+    {
+      "k": "history-birth-of-sporting-q3",
+      "q": {
+        "en": "How many targets do you shoot on one {{tm:sporting}} layout?",
+        "uk": "Скільки мішеней стріляють на одному майданчику {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "10",
+          "uk": "10"
+        },
+        {
+          "k": "b",
+          "en": "25",
+          "uk": "25"
+        },
+        {
+          "k": "c",
+          "en": "100",
+          "uk": "100"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "On each layout you shoot {{fact:targets.sporting-layout-targets}} (a double is two targets, so 10 more).",
+        "uk": "На кожному майданчику стріляють {{fact:targets.sporting-layout-targets}} (дуплет — це дві мішені, тобто ще 10)."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "d92fe81b",
+    "summary": "f633fd17",
+    "history-birth-of-sporting-p1": "282f3285",
+    "history-birth-of-sporting-p2": "814ae394",
+    "history-birth-of-sporting-p3": "e368624c",
+    "history-birth-of-sporting-p4": "08b95be1",
+    "history-birth-of-sporting-p5": "1d7a59ca",
+    "history-birth-of-sporting-p6": "7287ddf1",
+    "history-birth-of-sporting-kp1": "6e6d6fe6",
+    "history-birth-of-sporting-kp2": "0d64ee8d",
+    "history-birth-of-sporting-kp3": "65569687",
+    "history-birth-of-sporting-kp4": "09496634",
+    "history-birth-of-sporting-kp5": "a5533b1d",
+    "history-birth-of-sporting-dyk": "b3159068",
+    "history-birth-of-sporting-q1": "da705507",
+    "history-birth-of-sporting-q2": "84cb530c",
+    "history-birth-of-sporting-q3": "50e67c53"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

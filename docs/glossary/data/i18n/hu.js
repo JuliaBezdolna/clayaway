@@ -12,7 +12,7 @@ window.GLOSSARY_I18N.hu = {
    ],
    "conf": "high",
    "src": "http://www.harmonia91.hu/shop_ordered/65949/pic/Beretta-Bock_kezelesi_utasitas.pdf",
-   "short": "A Sportingban és a Compakban használt sima csövű vadászpuska.",
+   "short": "A Sporting™ és a Compak® Sporting versenyszámban használt sima csövű vadászpuska.",
    "long": "Bármilyen vadászpuska használható, a félautomatát is beleértve, legfeljebb 12-es kaliberrel és legalább 66 cm (26 hüvelyk) hosszú csövekkel. A pumpás puska nem megengedett, a Compak szabályzat a drillinget is tiltja. Tilos a fegyverszíj, a fegyverre szerelt mikrokamera és minden mesterséges célzóeszköz. Senki sem nyúlhat engedély nélkül más lövő fegyveréhez, és ugyanannak a rottének két lövője nem használhat közös fegyvert. A Compak® Sportingban a nem megfelelő fegyverrel vagy lőszerrel az ellenőrzés előtt leadott lövések nullát érnek.",
    "disciplines": {
     "sporting": "Fegyvert, szűkületet vagy csövet késedelem nélkül lőállások között, illetve a szólók és a dublék között lehet cserélni; a lőálláson soha.",
@@ -165,7 +165,7 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "állítható pofadék",
    "conf": "high",
    "src": "https://fitascsporting.hu/szabalyzatok/Sporting_2019_HUN.pdf",
-   "short": "Pofadék, amelynek magassága és kiforgatása állítható."
+   "short": "Pofadék, amely emelhető, süllyeszthető vagy oldalra tolható, hogy a szem pontosan a sín mentén nézzen."
   },
   "fore-end": {
    "term_local": "előagy",
@@ -245,7 +245,7 @@ window.GLOSSARY_I18N.hu = {
    ],
    "conf": "high",
    "src": "https://magnumvadasz.hu/termekek/Felszerelesek_5/Tusgumi_431",
-   "short": "Gumipárna a tus végén, amely tompítja a visszarúgást."
+   "short": "Gumi- vagy géltalp a tus végén, amely tompítja a visszarúgást; a tushosszt is megváltoztatja."
   },
   "choke": {
    "term_local": "szűkület",
@@ -633,8 +633,8 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "standard korong",
    "conf": "high",
    "src": "https://fitascsporting.hu/szabalyzatok/Sporting_2019_HUN.pdf",
-   "short": "A szokásos, kupola alakú, kb. 110 mm átmérőjű korong, a leggyakoribb típus.",
-   "long": "A standard korong kb. 110 mm átmérőjű, kupola alakú korong. Viszonylag nehéz, ezért sokáig tartja a sebességét és a vonalát, és viselkedése a legkönnyebben kiszámítható. A kezdők általában ezzel kezdenek. Sporting™ és Compak® Sporting versenyen a standard korongot különleges korongokkal keverik: midi, mini, battue, nyúl, rakéta és mások. Ha a dobógép a kottán szereplőtől eltérő méretű vagy fajtájú korongot dob, a bíró „No bird”-öt hirdet."
+   "short": "A szokásos domború korong, körülbelül 108–110 mm átmérővel, a leggyakoribb.",
+   "long": "A standard korong körülbelül 108–110 mm átmérőjű domború korong. Repülése viszonylag könnyen kiolvasható, ezért a kezdők általában ezzel kezdik; a 90 mm-es midi jobban tartja a sebességét. Sporting™-ban és Compak® Sportingban a standardot különleges korongokkal keverik, például midivel, minivel, battue-val és nyúllal; a Compak® Sporting listája a rakéta korongot is megnevezi. Sporting™-ban a menütől eltérő színű, méretű vagy típusú korong „No bird”; Compak® Sportingban a rossz színű korong „No bird”."
   },
   "midi": {
    "term_local": "midi korong",
@@ -687,8 +687,8 @@ window.GLOSSARY_I18N.hu = {
     "rocket"
    ],
    "conf": "low",
-   "short": "Különleges profilú korong, amely a standardnál tovább tartja a sebességét és az irányát.",
-   "long": "A rakéta korong úgy néz ki, mint a standard, de más, áramvonalasabb a profilja. Ezért a levegőben fokozatosabban lassul, és tovább repül egyenesen, így a röppálya távoli részén gyorsabban halad, mint ahogy a szem várja. A kezdők gyakran mögé lőnek, mert szokásos korongként ítélik meg. A Compak® Sporting szabályai a rakétát az engedélyezett korongok között említik, a Sporting™ listája pedig külön nem említi. A gyakorlatban formája és neve a korong gyártójától függ.",
+   "short": "A Compak® Sporting korongjainak listájában szereplő különleges korong; pontos formája és repülése a gyártótól függ.",
+   "long": "A rakéta korong egyike azoknak a különleges korongoknak, amelyeket a Compak® Sporting szabályai a megengedettek között neveznek meg; a Sporting™ listája külön nem említi. Közös előírás nincs rá, így formája és repülése a korong gyártójától függ. Mint minden különleges korongot, a bemutatáskor figyelje meg alaposan, és ne feltételezze, hogy úgy repül, mint egy standard.",
    "disciplines": {
     "sporting": "A Sporting korongjainak listája külön nem nevezi meg.",
     "compak": "Kifejezetten engedélyezett a különleges korongok között."
@@ -857,7 +857,7 @@ window.GLOSSARY_I18N.hu = {
    "conf": "medium",
    "src": "https://fitascsporting.hu/szabalyzatok/Kombi_2019_HUN.pdf",
    "short": "Ívet leíró korong, amely irányt változtat a levegőben.",
-   "long": "Az íves korong széles ívben repül: emelkedik, átbillen a tetőponton, és leesik, közben oldalra halad. Ilyen röppályákhoz gyakran battue korongot használnak, amely repülés közben elfordul, és előbb az élét, majd a lapját mutatja. A fő nehézség az irány és a sebesség állandó változása, ezért a csöveknek az ívet kell követniük, nem levágniuk. Sok lövő a tetőpont közelében lövi, ahol a leglassabban halad. A nevek országonként eltérnek: a chandelle egy másik, meredekebb röppálya, a francia ajkúak pedig gyakran „chandelle”-nek hívják a szinte függőlegesen felszálló korongot (teal). Figyelje meg alaposan a bemutatást, és válasszon egyetlen lövési pontot."
+   "long": "Az íves korong széles ívben repül: emelkedik, átbillen a tetőponton, és leesik, közben oldalra halad. Általában standard korong; egyes pályaépítők ilyen vonalon battue-t is dobnak, amely fordulás közben a lapját mutatja. A fő nehézség az irány és a sebesség állandó változása, ezért a csövek követik az ívet, a korong előtt és alatta maradva, nem vágják le. Sok lövő a tetőpont közelében lövi, ahol a leglassabban halad. A nevek országonként eltérnek: a chandelle egy másik, meredekebb röppálya, a francia ajkúak pedig gyakran „chandelle”-nek hívják a szinte függőlegesen felszálló korongot (teal). Figyelje meg alaposan a bemutatást, és válasszon egyetlen lövési pontot."
   },
   "chandelle": {
    "term_local": "chandelle",
@@ -897,7 +897,7 @@ window.GLOSSARY_I18N.hu = {
    "conf": "high",
    "src": "https://fitascsporting.hu/szabalyzatok/Sporting_2019_HUN.pdf",
    "short": "Két korong, amelyet együtt vagy egymás után dobnak ki, és egy egységként lőnek.",
-   "long": "Háromféle dublé van: vadászdublé, szimultán dublé és – csak Sportingban – rafale dublé. Sportingban a lövőnek két tölténye van egy dubléra, és mindkettőt ugyanarra a korongra is kilőheti; az első és a második korong között a fegyvertartás szabad. Compakban a dublé minden korongjára csak egy töltényt szabad kilőni, és egy Compakon mind az 5 lőálláson azonos típusú dublénak kell lennie; minden dublé első korongja az előző lőállás utolsó korongja. Ha egy lövés mindkét korongot eltalálja, Sportingban egy és egy, Compakban viszont a dublét megismétlik.",
+   "long": "Háromféle dublé van: vadászdublé, szimultán dublé és – csak Sportingban – rafale dublé. Sportingban a lövőnek két tölténye van egy dubléra, és mindkettőt ugyanarra a korongra is kilőheti; az első és a második korong között a fegyvertartás szabad. Compakban a dublé minden korongjára csak egy töltényt szabad kilőni, és egy Compakon mind az 5 lőálláson azonos típusú dublénak kell lennie; minden dublé első korongja az előző lőállás utolsó korongja. Ha egy lövés mindkét korongot eltalálja, Sportingban egy és egy. Compakban ez nem két találat: vadászdublénál az első korong eredménye megmarad, és a második miatt a dublét megismétlik; szimultán dublénál „No bird”, a dublét megismétlik, harmadszorra pedig „Nulla-Nulla”.",
    "disciplines": {
     "sporting": "Lőpályánként 5 dublé, csak az adott lőállásról szólóként már lőtt korongokból; mindkét töltény mehet egy korongra.",
     "compak": "Korongonként egy töltény; ha szándékosan mindkét lövést egy korongra adja le, nulla-nulla az eredmény."
@@ -947,10 +947,10 @@ window.GLOSSARY_I18N.hu = {
    "conf": "high",
    "src": "https://fitascsporting.hu/szabalyzatok/Sporting_2019_HUN.pdf",
    "short": "Egy lőállás korongjainak bemutatása a lövőknek, mielőtt lőnének.",
-   "long": "Sportingban egy lőállás összes röppályáját a rotte első lövőjének mutatják be, akinek készen kell állnia a lőállásban; kérésre minden korong legfeljebb 2-szer újra bemutatható. A vadászdublét nem mutatják be; a szimultán és a rafale dublét igen, legfeljebb 2 ismétléssel. Rottés Compakban a korongokat csak egyszer, reggel mutatják be az első rottének; soros lövésnél minden dublé első korongját minden új lövőnek bemutatják az 1. lőállásnál. Bemutatás alatt a fegyverek nyitva és üresen vannak, a lövés és a lövés imitálása tilos. 10 percnél hosszabb szünet után a korongokat újra bemutatják.",
+   "long": "Sporting™-ban egy lőállás összes röppályáját a rotte első lövőjének mutatják be, akinek készen kell állnia a lőállásban; kérésre minden korong legfeljebb 2-szer újra bemutatható. A vadászdublét nem mutatják be; a szimultán és a rafale dublét igen, legfeljebb 2 ismétléssel. Bemutatás közben senki sem lőhet és nem imitálhat lövést, gépmeghibásodás vagy 10 percnél hosszabb megszakítás után pedig a lőállás korongjait újra bemutatják. Rottés Compak® Sportingban a nap első rottéje egyszer, kora reggel látja a korongokat: az A–F szóló korongokat, majd az 1–5. lőállás szimultán dubléit; 10 percnél hosszabb szünet után a hat szóló korongot újra bemutatják. Soros lövésnél minden új lövő az 1. lőállásnál látja a saját dubléja első korongját. Mindkét szakágban a fegyverek a bemutatás alatt nyitva és üresen maradnak, és csak a bíró engedélyével csukhatók be. Compak® Sportingban a lövés imitálása tilos a lőállásokon kívül és akkor, amikor a rotte egy másik tagja lő.",
    "disciplines": {
-    "sporting": "Minden lőálláson a rotte első lövőjének mutatják be; korongonként legfeljebb 2 ismétlés.",
-    "compak": "Rottés lövésnél: reggel egyszer az első rottének (szólók A–F, majd szimultán dublék); 10 percnél hosszabb szünet után a 6 szóló korongot újra bemutatják."
+    "sporting": "Minden lőálláson a rotte első lövőjének mutatják be; korongonként legfeljebb 2 ismétlés; bemutatás közben nincs lövés és lövésimitálás.",
+    "compak": "Rottés lövésnél: egyszer, kora reggel, a nap első rottéjének (szólók A–F, majd szimultán dublék); 10 percnél hosszabb szünet után a 6 szóló korongot újra bemutatják."
    }
   },
   "target-menu": {
@@ -971,7 +971,7 @@ window.GLOSSARY_I18N.hu = {
    "conf": "high",
    "src": "https://gyulajzrt.hu/cikkek_soretlovesrol",
    "short": "Az a távolság, amennyivel a lövő a korong elé céloz, hogy a sörét eltalálja.",
-   "long": "Amíg a sörét a korong felé repül, a korong tovább mozog, ezért a lövés pillanatában a fegyvernek előtte kell lennie. Ez a távolság az elétartás. A korong sebességétől, távolságától és repülési szögétől függ: a hosszú keresztező korongok kívánják a legtöbb elétartást, az egyenesen elmenők szinte semennyit. Hogy a lövő hogyan érzékeli az elétartást, az szubjektív, ezért különböző emberek különbözőképpen írják le. Több elétartási módszer van, az elévezetés (maintained lead), a „mutass oda és lendíts” (pull-away) és az áthúzás (swing-through), és egy edző segít kiválasztani az Önét."
+   "long": "Amíg a sörét a korong felé repül, a korong tovább mozog, ezért a lövés pillanatában a fegyvernek előtte kell lennie. Ez a távolság az elétartás. A korong sebességétől, távolságától és repülési szögétől függ: a hosszú keresztező korongok kívánják a legtöbb elétartást, az egyenesen elmenők szinte semennyit. Hogy a lövő hogyan érzékeli az elétartást, az szubjektív, ezért különböző emberek különbözőképpen írják le. Több elétartási módszer van, az elévezetés (maintained lead), a „mutass oda és lendíts” (pull-away), az áthúzás (swing-through) és a lesből lövés (ambush), és egy edző segít kiválasztani az Önét."
   },
   "maintained-lead": {
    "term_local": "elévezetés",
@@ -980,8 +980,8 @@ window.GLOSSARY_I18N.hu = {
    ],
    "conf": "medium",
    "src": "https://gyulajzrt.hu/cikkek_soretlovesrol",
-   "short": "Elétartási módszer, amelyben a csövek végig a korong előtt, annak sebességével mozognak.",
-   "long": "Elévezetésnél a lövő a csöveket azonnal a korong elé helyezi, és ugyanolyan sebességgel viszi, tartva a szükséges elétartást, majd lő. Hosszú, kiszámítható korongokon jól működik, mert időt ad az elétartás leolvasására. A nehézség az, hogy a szemnek a korongon kell maradnia, nem a csöveken, különben a mozgás megáll. Kezdőknek néha egyszerűnek tűnik, de jó sebességérzéket kíván. Az edző megmondja, mely korongokon illik Önhöz."
+   "short": "Elétartási módszer, amelynél a csövek a korong előtt maradnak, és a lövés pillanatában annak sebességével mozognak, megtartva a távolságot.",
+   "long": "Elévezetésnél a csőtorkolatok a korong előtt futnak rá a vonalára, nem mögötte. Előbb kicsit lassabban mozognak, mint a korong, amely így felzárkózik, amíg a távolság megfelelőnek nem látszik; ezután a csövek a korong sebességével haladnak, a távolság nem változik, és a lövés akkor dördül, amikor a fegyver még mozgásban van. Gyakran a távoli, kiszámítható korongokhoz illik, például a hosszú keresztezőkhöz, mert időt ad az elétartás leolvasására. Tipikus hibája a távolság méregetése: a szem a csövekre siklik, és a fegyver lelassul vagy megáll. Gyakran a legnehezebben megtanulható módszernek tartják, ezért kérdezze meg edzőjét, mely korongokhoz illik Önnek."
   },
   "swing-through": {
    "term_local": "áthúzás",
@@ -1157,9 +1157,9 @@ window.GLOSSARY_I18N.hu = {
    ],
    "conf": "low",
    "short": "A vállba vétel gyakorlása lövés nélkül, üres, ellenőrzött fegyverrel, ahol a jogszabály megengedi.",
-   "long": "A szárazgyakorlás az otthoni edzés egyik leghasznosabb módja: napi néhány perc egyenletessé teszi a mozdulatot. Kezdés előtt győződjön meg róla, hogy a fegyver töltetlen, és nincs töltény a szobában, a csőtorkolatot pedig tartsa biztonságos irányba. Sok lövő gyakorlótöltényt (snap cap) használ, hogy kímélje a szerkezetet a szárazelsütésnél. A lőtéren a szabályok szigorúbbak: a lövés utánzása a lőálláson kívül tilos, Sporting™-ban pedig a hívás előtti vállba vétel és a korong képzeletbeli vonalán való lendítés figyelmeztetéssel jár. Ellenőrizze a fegyver otthoni kezelésére vonatkozó helyi jogszabályokat.",
+   "long": "A szárazgyakorlás a vállba vétel gyakorlása üres, ellenőrzött fegyverrel, lövés nélkül. Sok edző néhány percet javasol otthon, ahol a jogszabály megengedi, hogy a mozdulat megszokottá váljon. Kezdés előtt győződjön meg róla, hogy a fegyver üres, és nincs töltény a szobában, a csöveket pedig tartsa biztonságos irányba. Ha üres fegyverrel húzza el a ravaszt, használjon gyakorlótöltényt (snap cap), hogy kímélje az ütőszegeket, ahogy edzője vagy puskaművese javasolja. A lőtéren a szabályok a szakágtól függenek. Sporting™-ban a lövés imitálása (vállba vétel és lendítés a korong vonalán) verseny alatt a lőtér egyetlen pontján sem megengedett. Compak® Sportingban tilos a lőállásokon kívül és akkor, amikor a rotte egy másik tagja lő. Ellenőrizze a fegyver otthoni kezelésére vonatkozó helyi jogszabályokat.",
    "disciplines": {
-    "sporting": "A lövés utánzása a lőtéren és azon kívül is tilos; hívás előtt figyelmeztetés, az ismétlés büntetendő.",
+    "sporting": "A lövés imitálása a lőtér egyetlen pontján sem megengedett: először figyelmeztetés, utána minden ismétlés „Nulla” a következő eltalált korongnál.",
     "compak": "A lövés utánzása tilos a lőállásokon kívül és amíg a rotte egy tagja lő."
    }
   },
@@ -1344,7 +1344,7 @@ window.GLOSSARY_I18N.hu = {
    ],
    "conf": "high",
    "src": "https://fitascsporting.hu/szabalyzatok/Sporting_2019_HUN.pdf",
-   "short": "Egy lőpályán, vonalon vagy Compakon lőtt 25 korongos egység.",
+   "short": "Egy lőpályán, vonalon vagy Compak® Sporting pályán lőtt 25 korongos egység.",
    "long": "Mindkét szabályzatban egy kör 25 korong. A nemzetközi verseny 200 korong, vagyis 8 kör. A fegyver- és lőszerhibákat körönként számolják: az első No Bird, az ugyanabban a körben később bekövetkezők nullát érnek. Compakban egy kör az öt lőállás mindegyikén öt korong; körön belül a fegyver, a szűkület vagy a cső nem cserélhető, a röppályák és kották pedig csak egy teljes forduló után változnak. A zsűri büntetése lehet egy teljes 25 korongos kör elvesztése is.",
    "disciplines": {
     "sporting": "Fegyvert, szűkületet vagy csövet lőállások között, illetve a szólók és a dublék között lehet cserélni.",
@@ -1470,7 +1470,7 @@ window.GLOSSARY_I18N.hu = {
    "note": "Rules: decided by the better result on layouts in reverse order.",
    "conf": "medium",
    "src": "https://fitascsporting.hu/szabalyzatok/Sporting_2019_HUN.pdf",
-   "short": "Az azonos eredmények rangsorolása az utolsó lőpályán vagy Compakon, majd az azt megelőzőn és így tovább elért eredmények összevetésével.",
+   "short": "Holtverseny eldöntése a 8. lőpályán vagy a 8. Compak® Sporting pályán elért eredmény összevetésével, majd a 7.-en és így tovább az 1.-ig.",
    "long": "A harmadik hely alatt nincs szétlövés: az azonos eredményű lövők azonos helyezést kapnak, és eredményeik fordított sorrendű összevetésével szerepelnek a 8. lőpályától (Compaktól) az 1.-ig. Az azonos eredményű csapatokat a tagjaik 8. lőpályán vagy Compakon elért közös eredménye alapján rangsorolják; ha ez is egyenlő, a 7., 6. és így tovább az 1.-ig. Csapat-szétlövés nincs."
   },
   "firing-time": {
@@ -1922,7 +1922,7 @@ window.GLOSSARY_I18N.hu = {
   "group": {
    "term_local": "csoport (soros lövésnél)",
    "conf": "low",
-   "short": "Soros Compakban az egy Compakra beosztott lövők: az összes nevező osztva a Compakok számával.",
+   "short": "Soros lövésnél a Compak® Sporting versenyszámban az egy pályára beosztott lövők: az összes nevező osztva a pályák számával.",
    "long": "Soros Compakban a csoport létszáma a lövők összes száma osztva a használt Compakok számával. A csoport minden lövője az 1. lőállásnál kezd és az 5.-nél fejez be. Fegyvert csak a saját csoporton kívüli lövőtől lehet kölcsönkérni, és ugyanannak a csoportnak több lövője nem használhat közös fegyvert. Az a késő lövő, akinek fellebbezését elfogadják, egy másik csoporttal lőheti le a kört.",
    "disciplines": {
     "compak": "Csak soros (in line) Compakban."
@@ -2044,7 +2044,7 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "bemelegítés",
    "conf": "low",
    "short": "Felkészülés a lövés előtt: mozgás és néhány könnyű korong.",
-   "long": "A bemelegítés felkészíti a testet és a szemet a lövésre. Néhány perc mozgás a nyaknak, a vállnak, a hátnak és a csípőnek csökkenti a sérülés kockázatát, és simábbá teszi a fegyver mozgását. Ha a lőtér megengedi, kezdje az edzést néhány könnyű koronggal, hogy megtalálja a ritmust és a magabiztosságot, mielőtt a nehezekre tér. Verseny előtt a szabályok a szakágtól függenek. Sporting™-ban senki sem edzhet a versenypályákon, ezért máshol melegítsen be. Compak® Sportingban a verseny röppályáin szabad edzeni, de más beállítási táblázatokkal; a kontinens- és világbajnokságokon a hivatalos edzés csak a rajt előtti szombaton kezdődik. Szárazgyakorlást csak ott végezzen, ahol megengedett, töltetlen, ellenőrzött fegyverrel."
+   "long": "A bemelegítés felébreszti a testet és a szemet a lövés előtt. Sok edző nagyjából 10–15 perc könnyű, dinamikus mozgást javasol a nyaknak, a vállnak, a hátnak, a csípőnek és a bokának, hogy a fegyver simábban mozogjon; a korongvadászlövészetben kevés kutatás foglalkozik a bemelegítéssel, ezek a tanácsok tehát az edzők tapasztalatán alapulnak. Ha a lőtér megengedi, az edzést kezdheti néhány könnyű koronggal, hogy megtalálja a ritmust, mielőtt a nehezekre tér. Verseny előtt a szabályok a szakágtól függenek. Sporting™-ban senki sem edzhet a verseny lőpályáin, ezért más lőpályákon lőnek be. Compak® Sportingban a verseny röppályáin szabad edzeni, de más röppálya-beállítási táblázatokkal; a kontinens- és világbajnokságokon a hivatalos edzés csak a rajt előtti szombaton kezdődik. Versenyen sok edző azt javasolja, hogy fegyver nélkül melegítsen be; a szárazgyakorlás otthonra vagy edzésre való, ahol megengedett."
   },
   "training-diary": {
    "term_local": "edzésnapló",
@@ -2126,7 +2126,7 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "lövőprofil",
    "conf": "low",
    "short": "A lövő oldala a ClayArenán a versenyeivel és a fő mutatóival.",
-   "long": "A lövőprofil összegyűjti azokat a Sporting™ és Compak® Sporting versenyeket, amelyek eredményei a ClayArenán vannak, és fő számokat mutat, például a találati arányt és a legjobb eredményt. Egy verseny eredménytáblájából juthat el hozzá, vagy név szerinti kereséssel találhatja meg. A neveket az oldalon latin betűkkel írják, ahogy a versenydokumentumokban, ezért ha egy vezetéknév többféleképpen átírható, próbáljon ki több változatot. Az adatok a versenyek lőlapjairól származnak, ezért a saját lőlapját még a lőtéren ellenőrizze: a profilban az lesz, amit a bíró felírt. A profil arra hasznos, hogy egy szezon során önmagához hasonlítsa magát."
+   "long": "A lövőprofil összegyűjti azokat a Sporting™ és Compak® Sporting versenyeket, amelyek eredményei a ClayArenán vannak, és fő számokat mutat, például a találati arányt és a legjobb eredményt. Egy verseny eredménytáblájából juthat el hozzá, vagy név szerinti kereséssel találhatja meg. A neveket úgy írják, ahogy a versenydokumentumokban: nemzetközi versenyeken általában latin betűkkel, hazai versenyeken a helyi ábécével is, például ukrán versenyeken cirill betűkkel. Ha nem találja magát, próbálja ki a helyi írásmódot és a neve különböző latin betűs átírásait. Az adatok a versenyek lőlapjairól származnak, ezért a saját lőlapját még a lőtéren ellenőrizze: a profilban az lesz, amit a bíró felírt. A profil arra hasznos, hogy egy szezon során önmagához hasonlítsa magát."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2149,8 +2149,8 @@ window.GLOSSARY_I18N.hu = {
   "top-10-rate": {
    "term_local": "top 10-es arány",
    "conf": "low",
-   "short": "Milyen gyakran végez a lövő az első tízben.",
-   "long": "Ez a szám a ClayArena-profilban azt mutatja, hogy a versenyek mekkora részén végzett a lövő az első tízben. Nemcsak az eredménytől, hanem a mezőnytől is függ: egy nagy nemzetközi versenyen sokkal nehezebb az első tízbe kerülni, mint egy klubversenyen. Ezért azoknak a versenyeknek a listájával együtt olvassa, amelyeken a lövő indult. Jól mutatja a tapasztalt lövők egyenletességét, de kezdőnek hasznosabb a saját találati arányát figyelni."
+   "short": "Milyen gyakran végez a lövő az első tízben a kategóriájában vagy az összetett versenyben.",
+   "long": "Ez a szám a ClayArena-profilban azt mutatja, hogy a versenyek mekkora részén végzett a lövő az első tízben, a kategóriájában vagy az összetett versenyben. Nemcsak az eredménytől, hanem a mezőnytől is függ: egy nagy nemzetközi versenyen sokkal nehezebb az első tízbe kerülni, mint egy klubversenyen, egy kevés lövőből álló kis kategóriában pedig könnyebb az első tízbe jutni. Ezért azoknak a versenyeknek a listájával együtt olvassa, amelyeken a lövő indult. Jól mutatja a tapasztalt lövők egyenletességét, de kezdőnek hasznosabb a saját találati arányát figyelni."
   },
   "performance-index": {
    "term_local": "teljesítményindex",
@@ -2191,14 +2191,14 @@ window.GLOSSARY_I18N.hu = {
   "european-firearms-pass": {
    "term_local": "európai lőfegyvertartási engedély",
    "conf": "low",
-   "short": "Dokumentum, amelyet egy EU-ország a területén élő fegyvertulajdonosoknak ad ki, hogy fegyverükkel más EU-országokba utazhassanak; legfeljebb öt évig érvényes.",
-   "long": "Az európai lőfegyvertartási engedélyt (EFP) annak az uniós országnak a hatósága adja ki, ahol a fegyver tulajdonosa él, és általában legfeljebb öt évig érvényes. Konkrét fegyvereket vezetnek be bele, ezért utazás előtt ellenőrizze, hogy a magával vitt fegyver szerepel-e benne, és hogy az engedély nem jár-e le útközben. Az EFP-vel és az utazás okát igazoló dokumentummal, leggyakrabban a szervező meghívólevelével rendelkező sportlövők általában külön előzetes engedély nélkül vihetnek fegyvert egy másik uniós országba. Az országoknak azonban lehetnek saját kivételeik, és az EFP nem írja felül a viselésre, tárolásra és töltényvásárlásra vonatkozó helyi szabályokat. Nem uniós országok lakóinak nem adják ki; ellenőrizze a cél- és a tranzitországok aktuális szabályait."
+   "short": "Okmány, amelyet egy uniós ország, illetve Svájc, Norvégia, Izland vagy Liechtenstein ad ki az ott élő fegyvertartóknak a saját fegyverükkel való utazáshoz ezen a térségen belül; legfeljebb öt évig érvényes.",
+   "long": "Az európai lőfegyvertartási engedélyt annak az országnak a fegyverengedélyekért felelős hatósága adja ki, ahol a tulajdonos él, és általában legfeljebb öt évig érvényes. Az uniós országokon kívül Svájc, Norvégia, Izland és Liechtenstein is kiadja a lakosainak, mivel ugyanazokat az uniós fegyverszabályokat alkalmazzák; más országok lakosai nem kaphatják meg. Konkrét fegyvereket jegyeznek be bele, ezért utazás előtt ellenőrizze, hogy a magával vitt puska szerepel-e benne, és hogy az engedély nem jár-e le útközben. Az engedéllyel és az utazás céljának igazolásával, többnyire a rendező meghívólevelével rendelkező sportlövők általában külön előzetes engedély nélkül vihetik a fegyverüket egy másik ilyen országba. Az országoknak azonban lehetnek saját kivételeik, és az engedély nem írja felül a viselésre, tárolásra és töltényvásárlásra vonatkozó helyi szabályokat; ellenőrizze a cél- és tranzitországok aktuális szabályait."
   },
   "jet-lag": {
    "term_local": "jet lag",
    "conf": "low",
-   "short": "Az alvás és az éberség zavara több időzóna átrepülése után; általában néhány nap alatt elmúlik.",
-   "long": "Több időzónán átrepülve a belső óra nem egyezik a helyi idővel: napközben álmos, éjjel nehezen alszik el, és a reakciók és a figyelem is romlanak. Ez a lövésnél számít, mert a pontosság és a koncentráció romlik elsőként. Ezért távoli versenyekre azt tanácsolják, hogy néhány nappal korábban érkezzen, azonnal álljon át a helyi időre, töltsön időt nappali fényben, és igyon vizet. Egy ClayAway-túra programja (előkészítés alatt) a helyszín időzónájában, az időzóna megjelölésével adja majd meg az időpontokat, hogy ne keverje össze a menetrendet. Altatót vagy gyógyszert orvossal beszéljen meg."
+   "short": "Zavart alvás és éberség több időzóna gyors átszelése után; néhány naptól egy hétig vagy tovább tarthat, keleti irányú repülés után nagyjából zónánként egy napig.",
+   "long": "Legalább három időzóna gyors átszelése után a belső óra még a hazai időt követi: az alvás, az étvágy, a hangulat és az éberség nem igazodik a helyi időhöz, amíg az óra be nem áll. Elterjedt durva ökölszabály: keleti irányú repülés után zónánként körülbelül egy nap, nyugati irányú után zónánként körülbelül fél nap; az emberek különböznek. A megfelelő napszakban kapott nappali fény a legfontosabb jel, amely átállítja az órát, ezért az első naptól éljen a helyi idő szerint, és hosszú keleti repülés után tervezzen egy szabad, könnyű napot az eredményre menő lövészet elé. Magától az úttól való fáradtság (utazási fáradtság) más dolog. A ClayAway-túra programja (előkészítés alatt) a helyszín időzónája szerint adja meg az időpontokat, a zóna feltüntetésével. Altatókat, melatonint vagy más gyógyszert orvossal beszéljen meg."
   },
   "invitation-letter": {
    "term_local": "meghívólevél",
@@ -2242,12 +2242,12 @@ window.GLOSSARY_I18N.hu = {
   "soft-focus": {
    "term_local": "laza fókusz",
    "conf": "low",
-   "short": "A szem laza, széles fókusza várakozás közben a korongfelvételi pontnál."
+   "short": "Laza, széles tekintet arra a területre, ahol a korong megjelenik, miközben a szem a korongfelvételi pontnál vár, részletek bámulása nélkül."
   },
   "hard-focus": {
    "term_local": "éles fókusz",
    "conf": "low",
-   "short": "Éles, intenzív fókusz magára a korongra, gyakran annak elülső élére."
+   "short": "Éles tekintet magára a korongra, gyakran az elülső élére, attól a pillanattól, hogy tisztán látja, a lövésig."
   },
   "leading-edge": {
    "term_local": "elülső él",
@@ -2356,7 +2356,8 @@ window.GLOSSARY_I18N.hu = {
   "overhead": {
    "term_local": "fej feletti korong",
    "conf": "low",
-   "short": "Korong, amely közvetlenül a lövő feje felett halad el, hátulról vagy elölről."
+   "short": "A lövő feje fölött elrepülő korong; általában azt értik rajta, amelyik hátulról jön és távolodik, míg az elölről érkező magasan berepülő korong (driven).",
+   "long": "A hátulról érkező fej feletti korong átrepül a háta fölött, és távolodik. Későn látni, ezért sok edző azt javasolja, hogy már a korong kérése előtt nézzen hátra. Vegye vállba a fegyvert, miközben a korong átrepül Ön fölött, lőjön, amikor a csőtorkolatok elérik a korong elülső élét, és a lövés után is mozgassa tovább a fegyvert. A nevek eltérnek: egyes edzők az elölről érkező korongra is azt mondják, „overhead”, ezt a szótár magasan berepülő korongnak (driven) hívja; ha bizonytalan, kérdezzen rá."
   },
   "bolting-rabbit": {
    "term_local": "kiugró nyúl",
@@ -2366,17 +2367,17 @@ window.GLOSSARY_I18N.hu = {
   "fur-and-feather": {
    "term_local": "fur and feather (nyúl és madár)",
    "conf": "low",
-   "short": "Angol Sporting szleng egy nyúlból és egy légi korongból álló párra."
+   "short": "Angol sporting szleng egy nyúlból és egy légi korongból álló párra."
   },
   "true-pair": {
    "term_local": "true pair (szimultán dublé)",
    "conf": "low",
-   "short": "Az angol Sportingban a szimultán pár neve: mindkét korongot ugyanabban a pillanatban dobják ki."
+   "short": "Az angol sportingban a szimultán pár neve: mindkét korongot ugyanabban a pillanatban dobják ki."
   },
   "shell-catcher": {
    "term_local": "hüvelyfogó",
    "conf": "low",
-   "short": "Eszköz a félautomatán, amely megakadályozza, hogy a kivetett hüvelyek a szomszéd lövőt eltalálják; Compak® Sportingban kötelező."
+   "short": "Eszköz a félautomatán, amely megakadályozza, hogy a kivetett hüvelyek a szomszéd lövőt eltalálják; a Compak® Sporting versenyszámban kötelező."
   },
   "top-lever": {
    "term_local": "nyitókar",
@@ -2391,7 +2392,7 @@ window.GLOSSARY_I18N.hu = {
   "interpreter": {
    "term_local": "tolmács",
    "conf": "low",
-   "short": "Az a személy, aki egy túrán az edző, a bíró és a lövők között tolmácsol; ismeri a lövészeti szakkifejezéseket."
+   "short": "Személy, aki szóban tolmácsol az edző, a bíró és a lövők között, például edzéseken és egy túra programjában, és ismeri a lövészet szakszókincsét."
   },
   "chuchotage": {
    "term_local": "suttogó tolmácsolás",
@@ -2411,7 +2412,7 @@ window.GLOSSARY_I18N.hu = {
   "smoked-it": {
    "term_local": "porrá lőtte (smoke)",
    "conf": "low",
-   "short": "Edzői szleng a tiszta, középre ült találatra, amelytől a korong porrá válik; nem a szabályok „csak por vagy füst” esete, amely nulla."
+   "short": "Edzői szleng a porrá lőtt korongra. A szabályok szerint a teljesen vagy részben porrá tört korong találat; az ép korong, amelyből csak por vagy füst száll fel, látható darab nélkül, „Nulla”."
   },
   "peg": {
    "term_local": "peg (lőhely)",
@@ -2421,12 +2422,12 @@ window.GLOSSARY_I18N.hu = {
   "gun-up": {
    "term_local": "vállba vett fegyverrel (gun up)",
    "conf": "low",
-   "short": "Indulás már vállba vett fegyverrel a korong kérése előtt; az angol Sportingban, az NSCA-ban és a Compak®-ban megengedett, a FITASC Sporting™-ban nem."
+   "short": "Indulás már vállba vett fegyverrel a korong kérése előtt; az angol sportingban, az NSCA-ban és a Compak® Sporting versenyszámban megengedett, a FITASC Sporting™ versenyszámban nem."
   },
   "english-sporting": {
    "term_local": "English Sporting (angol sporting)",
    "conf": "low",
-   "short": "A sporting korong brit formája a CPSA szabályai szerint, általában párokkal és vállba vett fegyveres indulással."
+   "short": "A sporting brit változata, amelyet Angliában a CPSA rendez a FITASC Sporting™ mellett; saját szabályai vannak: gyakoriak a párok, és a lövők sokszor már vállba vett fegyverrel kezdenek."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2456,7 +2457,7 @@ window.GLOSSARY_I18N.hu = {
   "ambush": {
    "term_local": "lesből lövés (ambush)",
    "conf": "low",
-   "short": "Módszer, amelynél a csőtorkolat a korong előtti ponton vár, és a lövés akkor dördül, amikor a korong odaér, kevés vagy semmi lendítéssel."
+   "short": "Módszer, amelynél a csövek mozdulatlanul várnak egy ponton a korong előtt, és a ravaszt azelőtt húzzák el, hogy a korong odaérne, így az belerepül a lövésbe."
   },
   "instinctive-shooting": {
    "term_local": "ösztönös lövés",
@@ -2466,7 +2467,7 @@ window.GLOSSARY_I18N.hu = {
   "national-federation": {
    "term_local": "nemzeti szövetség",
    "conf": "low",
-   "short": "Egy ország sportágának irányító testülete; a FITASC tagja, jóváhagyja a nemzeti lőpályákat és minősíti a bírókat."
+   "short": "Egy ország sportirányító szervezete: összefogja a klubokat és a lövőket, hazai versenyeket és bírói tanfolyamokat rendez, és képviseli az országot a FITASC-ban."
   },
   "blazed-target": {
    "term_local": "festett tetejű korong",
@@ -2482,6 +2483,347 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "kézi indítás",
    "conf": "low",
    "short": "A korong kidobása egy személy (puller vagy bíró) által, aki a lövő kérésére megnyom egy gombot."
+  },
+  "anti-doping": {
+   "term_local": "antidopping",
+   "alt": [
+    "doppingellenes küzdelem",
+    "doppingellenőrzés"
+   ],
+   "conf": "high",
+   "short": "Szabályok és ellenőrzések a sportban tiltott szerek és módszerek ellen; a nemzetközi szabályokat és az évente megjelenő tiltólistát a Nemzetközi Doppingellenes Ügynökség (WADA) adja ki.",
+   "long": "Bajnokságokon és nagy versenyeken a lövőt doppingellenőrzésre kérhetik. A WADA minden évben, általában szeptember táján, új tiltólistát tesz közzé, amely január 1-jétől érvényes. A sportlövészetben a béta-blokkolók mindig tiltottak. A stimulánsok és a THC (kannabisz) verseny idején tiltottak, és a „versenyidőszak” a verseny előtti napon 23:59-kor kezdődik. Még az orvos által felírt gyógyszer is lehet tiltott: ellenőrizze a Global DRO-ban vagy a nemzeti doppingellenes szervezetnél, és ha szüksége van rá, időben kérjen TUE-t. A táplálékkiegészítők szennyezettek lehetnek, ezért olyan terméket válasszon, amelynek tételeit független laboratórium vizsgálja. Ez nem orvosi tanács: beszéljen az orvosával."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "gyógyászati célú mentesség (TUE)",
+   "alt": [
+    "TUE"
+   ],
+   "conf": "high",
+   "short": "Hivatalos engedély arra, hogy egy sportoló orvosi okból egyébként tiltott gyógyszert használjon; előre kell kérvényezni.",
+   "long": "A recept önmagában nem elég: a tiltott szer akkor is tiltott marad, ha orvos írta fel. Ezért az a lövő, akinek ilyen gyógyszerre van szüksége, például magas vérnyomás, szívritmuszavar vagy migrén miatt béta-blokkolóra, előre kér TUE-t, általában a nemzeti doppingellenes szervezettől; a nemzeti szövetség megmondja, melyik szerv az illetékes. Felírt gyógyszert ne hagyjon abba magától: jóval a verseny előtt beszéljen orvosával egy engedélyezett alternatíváról vagy a TUE-ről. Ez nem orvosi tanács."
+  },
+  "beta-blocker": {
+   "term_local": "béta-blokkoló",
+   "alt": [
+    "bétablokkoló"
+   ],
+   "conf": "high",
+   "short": "Szívgyógyszer, amely lassítja a szívverést és csökkenti a remegést; a WADA-lista szerint a sportlövészetben mindig tiltott, versenyen és azon kívül is.",
+   "long": "Példák: propranolol, atenolol, bisoprolol és metoprolol. A pontosságot igénylő sportágakban azért tiltottak, mert a lassabb szív és a kisebb remegés nyugodtabbá teheti a fegyvert. A WADA-lista a sportlövészetet az olimpiai szövetségen (ISSF) és a parasportlövészeten (IPC) keresztül nevezi meg, nem a FITASC-on keresztül; ennek ellenére tekintse a béta-blokkolókat tiltottnak Sporting™-ban és Compak® Sportingban is: a nemzeti doppingellenes szervezetek ellenőrizhetnek a hazai versenyeken, a rendezők alkalmazhatják a WADA-listát, és sok lövő ISSF-versenyeken is indul. Ha orvos írt fel Önnek béta-blokkolót, ne hagyja abba magától; időben kérdezzen engedélyezett alternatíváról vagy TUE-ről. Ez nem orvosi tanács."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Több nemzeti doppingellenes szervezet online gyógyszerkeresője: megmutatja, hogy az országaikban kapható gyógyszer tiltott-e a sportban.",
+   "long": "A Global DRO csak a partnerországokban kapható gyógyszereket tartalmazza, például az Egyesült Királyságban, az Egyesült Államokban, Kanadában és Svájcban forgalmazottakat. A hatóanyagra keressen, ne csak a márkanévre. Ha a gyógyszere nincs benne, kérdezze meg a nemzeti doppingellenes szervezetet vagy a szövetségét. Évente ellenőrizze újra, mert a WADA tiltólistája változik."
+  },
+  "box-breathing": {
+   "term_local": "négyszöglégzés",
+   "alt": [
+    "box breathing",
+    "doboz légzés"
+   ],
+   "conf": "medium",
+   "short": "Légzési minta: belégzés, bent tartás, kilégzés és kint tartás, mindegyik 4-ig számolva; kipróbálható lehetőség, a sportban kevéssé kutatott.",
+   "long": "Az eddigi vizsgálatokban a négyszöglégzés nem volt jobb más légzésmódoknál; egy vizsgálatban jobban működött egyszerűen hosszabban kilélegezni, mint belélegezni. Tekintse tehát egy lehetőségnek, ne szabálynak. A lassú légzés a lőállás előtt és a lőállások között illik ide. Közvetlenül a korong kérése előtt sok edző csak egy természetes kilégzést javasol, mert a nagyon lassú légzés lassíthatja a reakciót a korongra. Ha szédülni kezd, térjen vissza a normál légzéshez. Ez nem orvosi tanács."
+  },
+  "quiet-eye": {
+   "term_local": "quiet eye (nyugodt tekintet)",
+   "alt": [
+    "nyugodt szem"
+   ],
+   "conf": "medium",
+   "short": "Az utolsó nyugodt pillantás a korongra a mozdulat előtt; tapasztalt lövőknél általában korábban kezdődik és tovább tart.",
+   "long": "A kutatók a quiet eye-t a mozdulat kezdete előtti utolsó nyugodt pillantásként mérik. A kevésbé tapasztalt lövőkhöz képest az élvonalbeli trap- és skeetlövők korábban kezdik és tovább tartják, és találatnál általában hosszabb, mint hibánál. Szorongás alatt gyakran megrövidül. Nincs bűvös ezredmásodperc-szám, amelyre törekedni kellene: a korongvadászlövészetben azt jelenti, hogy a lövő korán és tisztán látja a korongot, és a lövés végéig rajta tartja a szemét. Az adatok nagy része az olimpiai trapből és skeetből származik; valószínűleg Sporting™-ra és Compak® Sportingra is érvényes."
+  },
+  "self-talk": {
+   "term_local": "belső beszéd",
+   "alt": [
+    "önbeszéd",
+    "self-talk"
+   ],
+   "conf": "medium",
+   "short": "Amit magának mond, hangosan vagy fejben; a sportban gyakran rövid utasítások, például „lásd a korongot” vagy „simán”.",
+   "long": "Sok vizsgálatban azok a sportolók, akik gyakorolták, mit mondjanak maguknak, valamivel jobban teljesítettek. Pontosságot igénylő feladatoknál a rövid utasítások többet segítettek, mint a buzdítások, például „hajrá”. Azt mondja, mit kell tenni, ne azt, mit kell kerülni: „maradj a vonalon”, ne „ne állítsd meg a fegyvert”. A lőállásban általában a rövid utasítás illik jobban; a motiváló mondatok inkább a lőállások közti útra valók. A vizsgálatok nem a korongvadászlövészetből származnak; valószínűleg Sporting™-ra és Compak® Sportingra is érvényesek."
+  },
+  "cue-word": {
+   "term_local": "kulcsszó",
+   "alt": [
+    "indítószó"
+   ],
+   "conf": "medium",
+   "short": "Nagyon rövid utasítás, például „elülső él” vagy „simán”, amely lövés előtt egyetlen dologra irányítja a figyelmet.",
+   "long": "Sok edző azt javasolja, hogy edzésen az edzővel együtt válasszon két-három kulcsszót, és versenyen ugyanezeket a szavakat használja. A korongra vagy a vonalára vonatkozó kulcsszavak, például „látom” vagy „maradj a vonalon”, a lőállásban általában jobban beválnak, mint a testre vonatkozó utasítások, például „könyök fel”, amelyek az edzésre valók. Sok lövő a lövés előtti rutin ugyanazon pontján, közvetlenül a korong kérése előtt mondja ki a szót. Az a tolmács, aki az edző kulcsszavát fordítja, az egész edzésen ugyanazt a rövid megfelelőt használhatja, hogy a lövő a belső beszédében alkalmazhassa."
+  },
+  "imagery": {
+   "term_local": "mentális gyakorlás",
+   "alt": [
+    "vizualizáció",
+    "elképzelés"
+   ],
+   "conf": "medium",
+   "short": "Gondolatbeli próba: a lövést fejben látni és érezni, a valódi lövés tempójában és saját szemmel, anélkül hogy végrehajtanánk.",
+   "long": "A vizsgálatok szerint a mentális gyakorlás általában segít, főleg a valódi edzéssel együtt, de hogy pontosan mennyit, azt senki sem tudja. Úgy tűnik, jobban működik, ha közel áll a valósághoz: ugyanaz a lőállás, ugyanazok a korongok, a valódi tempó és a saját nézőpont. A bemutatás után sok lövő fejben egyszer-kétszer végigveszi az egyes korongokat: fegyvertartási pont, korongfelvételi pont, a fegyver ráfut a vonalra, a találat. Fejben gyakoroljon, ne a fegyverrel: a vállba vétel és a korong vonalán való lendítés a lövés imitálása, amelyet a szabályok korlátoznak. A kutatás nem a korongvadászlövészetből származik; valószínűleg Sporting™-ra és Compak® Sportingra is érvényes."
+  },
+  "choking": {
+   "term_local": "nyomás alatti összeomlás",
+   "alt": [
+    "choking",
+    "beragadás"
+   ],
+   "conf": "medium",
+   "short": "A szokásos szintnél jóval gyengébb lövés a nyomás miatt, gyakran amikor a lövő tudatosan kezdi irányítani azt a mozdulatot, amely máskor magától megy.",
+   "long": "Nem tévesztendő össze a cső szűkületével (choke). Nyomás alatt a lövő lépésről lépésre ellenőrizni kezdheti a vállba vételt vagy a lendítést, az aggodalom pedig elvonja a szemét a korongról. Jelek: megváltozott tempó, a vállba vétel ellenőrzése, a cső vagy a célgömb nézése, az eredmények figyelése. Ami segíthet: a megszokott lövés előtti rutin és tempó, egyetlen egyszerű kulcsszó a korongról, folyamatcélok és lépésről lépésre növekvő nyomás alatti edzés. A kutatások többsége más sportágakból, valamint az olimpiai trapből és skeetből származik; valószínűleg Sporting™-ra és Compak® Sportingra is érvényes. Ha a nyomás újra meg újra elrontja a versenyeit, sportpszichológus segíthet."
+  },
+  "reset-routine": {
+   "term_local": "újraindító rutin",
+   "alt": [
+    "reset"
+   ],
+   "conf": "low",
+   "short": "Rövid, állandó rutin az újrakezdéshez: hibázott korong után (kilégzés, egy javítás, következő rutin), vagy ha a korong kérése előtt megzavarják.",
+   "long": "Hiba után a szokásos újraindítás körülbelül 5–10 másodperc: tegye biztonságossá a fegyvert, ahogy a szabályok előírják, egyszer lassan lélegezzen ki, adjon magának egy javítást két-három szóban, képzelje el a helyes lövést, majd kezdje a következő lövés előtti rutint. A „miért” kérdést hagyja a kör utánra: ha nyomás alatt lépésről lépésre szedi szét a mozdulatot, megzavarhatja. Az újraindításnak bele kell férnie a korongok közötti időkorlátba. Ha a korong kérése előtt megzavarják, sok edző azt javasolja, hogy lélegezzen ki és kezdje újra a rutint. Ugyanez az újraindítás segíthet egy olyan bírói döntés után is, amely nem tetszik."
+  },
+  "mobility": {
+   "term_local": "mozgékonyság",
+   "alt": [
+    "mobilitás",
+    "ízületi mozgékonyság"
+   ],
+   "conf": "medium",
+   "short": "Mennyire szabadon mozognak az ízületek: el tudja-e fordítani a fejét, fel tudja-e emelni a karját és el tudja-e fordítani a törzsét annyira, amennyire a lövéshez kell, erőlködés nélkül.",
+   "long": "A lövő számára a legfontosabb a nyak (a fej a tusra kerül), a váll (a vállba vétel), a hát felső része és a csípő, amelyek a korong után fordítják a testet, valamint a boka, amely stabilan tartja a beállást. Sok edző lövés előtt finom dinamikus mozdulatokat javasol, például lassú fejfordítást, vállkörzést és törzsfordítást, a hosszú statikus nyújtást pedig a lövés utánra hagyja. Mozogjon egyenletesen, és hagyja abba, ha fáj. Sérülés vagy tartós fájdalom esetén orvossal vagy gyógytornásszal állítsa össze a gyakorlatait. Ez nem orvosi tanács."
+  },
+  "gun-rental": {
+   "term_local": "fegyverbérlés",
+   "alt": [
+    "bérfegyver",
+    "kölcsönfegyver"
+   ],
+   "conf": "medium",
+   "short": "A lőtér fegyverének díj ellenében való használata, gyakran első órával, töltényekkel és védőfelszereléssel együtt, hogy a kezdő fegyvervásárlás nélkül lőhessen."
+  },
+  "third-party-insurance": {
+   "term_local": "felelősségbiztosítás",
+   "conf": "high",
+   "short": "Biztosítás azokra a károkra, amelyeket másoknak vagy a vagyonuknak okozhat; sok ország vagy klub megköveteli a lövőktől."
+  },
+  "proof-mark": {
+   "term_local": "próbabélyeg",
+   "alt": [
+    "fegyverpróba-jel"
+   ],
+   "conf": "medium",
+   "short": "Bélyegzés, amelyet hivatalos fegyverpróba-hivatal üt a fegyverre, miután megerősített töltettel próbalövést végzett vele; sok országban ez a próba kötelező."
+  },
+  "club-membership": {
+   "term_local": "klubtagság",
+   "alt": [
+    "tagdíj"
+   ],
+   "conf": "high",
+   "short": "Tagság egy lövészklubban: általában éves tagdíj, amely gyakran olcsóbb korongot, valamint hozzáférést ad az edzésekhez és a klubversenyekhez."
+  },
+  "reloaded-cartridge": {
+   "term_local": "újratöltött lőszer",
+   "alt": [
+    "újratöltött töltény"
+   ],
+   "conf": "medium",
+   "short": "Kilőtt hüvely, amelyet újra megtöltenek lőporral, fojtással és sörétekkel, gyakran otthon; Sporting™ és Compak® Sporting versenyeken nem megengedett."
+  },
+  "taster-session": {
+   "term_local": "kipróbáló alkalom",
+   "alt": [
+    "próbalövészet"
+   ],
+   "conf": "medium",
+   "short": "Bevezető alkalom kezdőknek egy lőtéren: edző, a lőtér fegyvere, töltények és korongok, hogy először kipróbálhassa a lövészetet."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "zaj okozta halláskárosodás",
+   "conf": "high",
+   "short": "A belső fül fokozatos, maradandó károsodása hangos zajok, például lövések miatt; gyakran a magas hangokkal kezdődik, és az elvesztett hallás nem tér vissza."
+  },
+  "tinnitus": {
+   "term_local": "fülzúgás",
+   "alt": [
+    "tinnitus"
+   ],
+   "conf": "high",
+   "short": "Csengés, zúgás vagy sípolás a fülben külső hangforrás nélkül; lövészet után gyakran első figyelmeztetés, hogy a hallásvédelem nem volt elég."
+  },
+  "double-hearing-protection": {
+   "term_local": "kettős hallásvédelem",
+   "conf": "medium",
+   "short": "Füldugó és fültok együtt viselve, nagyobb biztonsági tartalékért, főleg gyerekeknél és hangos vagy fedett lőállásokon."
+  },
+  "presbyopia": {
+   "term_local": "öregszeműség",
+   "alt": [
+    "presbiópia"
+   ],
+   "conf": "high",
+   "short": "Korral járó közeli látásromlás: nagyjából 40 éves kortól nehezebb közelre látni, míg a távoli látás jó maradhat; a célgömb elmosódhat."
+  },
+  "lead-hygiene": {
+   "term_local": "ólomhigiénia",
+   "conf": "medium",
+   "short": "Szokások, amelyek csökkentik a szervezetbe jutó ólmot: kéz- és arcmosás, nincs evés és dohányzás a lőállásban, külön lövészruha."
+  },
+  "heat-exhaustion": {
+   "term_local": "hőkimerülés",
+   "conf": "high",
+   "short": "A test túlhevülése fáradtsággal, szédüléssel, fejfájással vagy hányingerrel; árnyék, víz, hűtés és pihenés kell, és orvosi segítség, ha nem múlik el gyorsan."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "élőgalamb-lövészet",
+   "conf": "medium",
+   "short": "Történeti lövészet élő galambokra, amelyeket a lövő előtt dobozokból engedtek el, a korongvadászlövészet elődje; 2003-ban a FITASC felfüggesztette az összes olyan versenyt, ahol élő állat volt a cél."
+  },
+  "glass-ball": {
+   "term_local": "üveggolyó",
+   "conf": "medium",
+   "short": "A 19. században célként a levegőbe dobott üveggolyó, az élő madarak korai helyettesítője; később az agyagkorong váltotta fel."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Nemzetközi Sportlövő Szövetség"
+   ],
+   "conf": "high",
+   "short": "Az International Shooting Sport Federation, amely az olimpiai lövészszámokat irányítja, köztük az olimpiai trapet és a skeetet; a Sporting™ és a Compak® Sporting a FITASC-hoz tartozik."
+  },
+  "hydration": {
+   "term_local": "folyadékpótlás",
+   "alt": [
+    "hidratálás"
+   ],
+   "conf": "high",
+   "short": "Elegendő víz ivása; a lőtéren ez apró, rendszeres kortyokat jelent egész nap, nem csak nagy szomjúság esetén."
+  },
+  "travel-fatigue": {
+   "term_local": "utazási fáradtság",
+   "conf": "medium",
+   "short": "Magától az úttól való fáradtság: merev izmok, kevés alvás és száraz levegő; a jet laggel szemben nem függ az időzónáktól, és pihenés után gyakran elmúlik."
+  },
+  "referee-certificate": {
+   "term_local": "bírói igazolvány",
+   "alt": [
+    "bírói minősítés",
+    "bírói engedély"
+   ],
+   "conf": "medium",
+   "short": "Az az igazolás vagy kártya, amelyet a nemzeti szövetség tanfolyam és vizsga után ad ki, és amely bíráskodásra jogosít; nemzetközi verseny vezetőbírójának FITASC-minősítés kell."
+  },
+  "assistant-referee": {
+   "term_local": "segédbíró",
+   "conf": "medium",
+   "short": "A bíró segítője; Sporting™-ban a szükséges bírói igazolvány nélküli személy csak ebben a szerepben működhet, és csak a zsűri előzetes hozzájárulásával."
+  },
+  "coaching-qualification": {
+   "term_local": "edzői képesítés",
+   "alt": [
+    "edzői engedély"
+   ],
+   "conf": "medium",
+   "short": "Igazolás arról, hogy valaki edzőképzést végzett; hogy ki adja ki, milyen szintjei vannak és kötelező-e, az országtól függ."
+  },
+  "volunteer": {
+   "term_local": "önkéntes",
+   "conf": "high",
+   "short": "Olyan személy, aki díjazás nélkül segít egy versenyen: nevezés, a dobógépek feltöltése, parkolás, fotók, rendrakás, vagy ahol a szabályok megengedik, eredményírás a bíró felügyelete alatt."
+  },
+  "tour-package": {
+   "term_local": "túracsomag",
+   "alt": [
+    "csomag"
+   ],
+   "conf": "medium",
+   "short": "Minden, amit a lövő egy ClayAway-túrán egyetlen fizetéssel megvesz majd: edzés lőtereken, szállás, transzferek, közös program és szükség esetén tolmács (a ClayAway előkészítés alatt áll)."
+  },
+  "scoreboard": {
+   "term_local": "eredménytábla",
+   "conf": "high",
+   "short": "Az eredménytábla: tábla vagy képernyő, amelyen a verseny alatt és után megjelennek a lövők körönkénti és összesített eredményei."
+  },
+  "spectator-area": {
+   "term_local": "nézőtér",
+   "alt": [
+    "nézők helye"
+   ],
+   "conf": "medium",
+   "short": "A rendező által a nézőknek kijelölt hely, általában a lőállás mögött vagy kerítés, illetve kötél mögött, ahonnan biztonságosan lehet nézni, fényképezni és filmezni."
+  },
+  "derogation": {
+   "term_local": "eltérési engedély",
+   "alt": [
+    "derogáció"
+   ],
+   "conf": "low",
+   "short": "Engedély arra, hogy különleges esetben el lehessen térni egy szabálytól, például más kategóriában induljon valaki, mint amit a kora megad; kérdezze a nemzeti szövetségét."
+  },
+  "pitch": {
+   "term_local": "tushajlásszög",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low",
+   "short": "Az a szög, amelyben a tus vége (a tustalp) a csövekhez képest le van vágva; ettől függ, hogy a tus teljes felülettel fekszik-e a vállon, vagy az orrával, illetve a sarkával nyomja."
+  },
+  "gas-operated": {
+   "term_local": "gázelvezetéses",
+   "alt": [
+    "gázüzemű félautomata"
+   ],
+   "conf": "medium",
+   "short": "Félautomata rendszer, amelyben a lőporgázok egy része tölti újra a fegyvert; a visszarúgást hosszabb időre osztja el, ezért sok lövő lágyabbnak érzi."
+  },
+  "ladies-cut": {
+   "term_local": "női szabás",
+   "conf": "medium",
+   "short": "Lőmellény vagy lövészkabát szabása, amely figyelembe veszi a mellkast és a vállszélességet, hogy a betét ott legyen, ahová a tus kerül."
+  },
+  "ladies-day": {
+   "term_local": "női nap",
+   "alt": [
+    "ladies' day"
+   ],
+   "conf": "medium",
+   "short": "Nap a klubban, amikor nők edzenek vagy kipróbálják a lövészetet, gyakran edzővel és kölcsönfegyverrel."
+  },
+  "snap-cap": {
+   "term_local": "gyakorlótöltény",
+   "alt": [
+    "snap cap",
+    "csappantyúkímélő"
+   ],
+   "conf": "medium",
+   "short": "Töltényutánzat, amely kíméli az ütőszegeket, ha üres fegyverrel húzzák el a ravaszt; szárazgyakorláshoz, az edző vagy a puskaműves tanácsa szerint."
+  },
+  "blot-out": {
+   "term_local": "korong eltakarása (blot out)",
+   "conf": "low",
+   "short": "Hagyni, hogy a csövek a lövés pillanatában eltakarják a korongot, ahogy a bejövő és a magasan berepülő korongoknál gyakran történik; általában szándékos, nem hiba."
+  },
+  "show-pair": {
+   "term_local": "show pair",
+   "conf": "low",
+   "short": "Egy korongpár lövés előtti bemutatásának brit neve; a FITASC fogalmaival egy dublé bemutatása."
+  },
+  "perfect-round": {
+   "term_local": "hibátlan kör",
+   "alt": [
+    "25/25"
+   ],
+   "conf": "medium",
+   "short": "Kör hiba nélkül: a Sporting™ és a Compak® Sporting versenyszámban mind a 25 korong eltalálva; a ClayArena-profil számolja, hány ilyen köre van a lövőnek."
+  },
+  "visitors-permit": {
+   "term_local": "látogatói engedély (visitor's permit)",
+   "conf": "low",
+   "short": "Brit engedély, amellyel külföldi látogató sörétes puskát tarthat Nagy-Britanniában; a kérelmet egy ott élő kezes nyújtja be a helyi rendőrségnek."
   }
  }
 };

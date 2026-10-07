@@ -1,0 +1,344 @@
+{
+  "id": "gear-shooting-vest",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gear-shooting-vest"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "shooting-vest",
+    "shoulder-pad",
+    "jacket-line",
+    "ready-position",
+    "gun-position",
+    "dress-code",
+    "recoil",
+    "empties",
+    "master-eye"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-dress-code"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-dress-code"
+    }
+  ],
+  "facts": [
+    "rules.sporting-jacket-line"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "The shooting vest",
+    "uk": "Стрілецький жилет"
+  },
+  "summary": {
+    "en": "Why a shooter wears a vest, what it has (pockets, shoulder pad, the {{tm:sporting}} jacket line), why {{tm:compak}} needs no line and how to choose your first vest.",
+    "uk": "Навіщо стрільцю жилет, що в ньому є (кишені, наплічник, лінія на жилеті для {{tm:sporting}}), чому в {{tm:compak}} лінія не потрібна і як вибрати перший жилет."
+  },
+  "body": [
+    {
+      "k": "gear-shooting-vest-p1",
+      "t": "p",
+      "en": "The {{term:shooting-vest|shooting vest}} is the most visible part of a shooter's gear. It is not about fashion: the vest keeps cartridges at hand, protects the shoulder from {{term:recoil|recoil}} and helps you mount the gun the same way each time.",
+      "uk": "{{term:shooting-vest|Стрілецький жилет}} — найпомітніша частина спорядження. Річ не в моді: жилет тримає патрони під рукою, захищає плече від {{term:recoil|віддачі}} й допомагає щоразу однаково вкладати рушницю."
+    },
+    {
+      "k": "gear-shooting-vest-p2",
+      "t": "p",
+      "en": "Pockets are the heart of a vest. There are usually two large front pockets for cartridges, left and right, so you can load with either hand. Often there is a separate pocket or mesh bag for {{term:empties|empty cases}}, and small pockets for chokes, a choke key and earplugs. Cartridges must not fall out when you bend down.",
+      "uk": "Головне в жилеті — кишені. Зазвичай є дві великі передні кишені для патронів, ліворуч і праворуч, щоб заряджати будь-якою рукою. Часто є окрема кишеня або сітка для {{term:empties|порожніх гільз}}, маленькі кишені для чоків, ключа й берушів. Патрони не повинні випадати, коли ви нахиляєтеся."
+    },
+    {
+      "k": "gear-shooting-vest-p3",
+      "t": "p",
+      "en": "On the shoulder there is a {{term:shoulder-pad|shoulder pad}}, a smooth insert of softer or firmer material. The stock sits on it: the smooth surface does not snag on the fabric during the mount, and the padding softens recoil a little. The pad must be on the shoulder you shoot from, and many vests have one on both sides.",
+      "uk": "На плечі є {{term:shoulder-pad|наплічник}} (shoulder pad) — гладка вставка з м’якшого або щільнішого матеріалу. Приклад лягає саме на нього: гладка поверхня не чіпляється за тканину під час вкладки, а м’який шар трохи пом’якшує віддачу. Наплічник має бути на тому плечі, з якого ви стріляєте, і багато жилетів мають його з обох боків."
+    },
+    {
+      "k": "gear-protection-clothes-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "For {{tm:sporting}} the vest carries a contrasting horizontal {{term:jacket-line|line}} {{fact:rules.sporting-jacket-line}} and parallel to it. Before you call for the target, and until the target appears, the top of the stock must stay below it, and the referee checks this. In {{tm:compak}} there is no such line, because the {{term:gun-position|gun position}} at the call is free.",
+      "uk": "Для {{tm:sporting}} на жилеті є контрастна горизонтальна {{term:jacket-line|лінія}} {{fact:rules.sporting-jacket-line}} й паралельно їй. До команди й доки не з’явиться мішень, верх приклада має бути нижче неї, і суддя це перевіряє. У {{tm:compak}} такої лінії немає, бо {{term:gun-position|положення рушниці}} під час команди вільне."
+    },
+    {
+      "k": "gear-shooting-vest-p4",
+      "t": "tip",
+      "en": "Many vests are sold with the line already sewn on; if not, you can sew or stick one on. If you plan to shoot both disciplines, choose a vest with the line: it works everywhere.",
+      "uk": "Багато жилетів продаються з уже нашитою лінією; якщо ні, її можна нашити або наклеїти. Якщо плануєте стріляти обидві дисципліни, беріть жилет із лінією — він підійде всюди."
+    },
+    {
+      "k": "women-clothing-community-start-p1",
+      "t": "p",
+      "en": "Vests come in different cuts, including cuts made for women, which allow for the chest and narrower shoulders. When the vest fits, the pad sits exactly where the stock goes and does not get in the way of the mount. In a vest that does not fit, the stock may catch on the fabric or seams.",
+      "uk": "Жилети бувають різного крою, зокрема жіночого (ladies' cut), який враховує форму грудей і вужчі плечі. Коли жилет пасує, наплічник опиняється саме там, де стає приклад, і не заважає вкладці. У жилеті не за розміром приклад може чіплятися за тканину чи шви."
+    },
+    {
+      "k": "gear-shooting-vest-p6",
+      "t": "p",
+      "disc": "both",
+      "en": "How to choose your first vest: it should fit loosely but not flap, so try it on over the clothes you will shoot in. Mount an empty, checked gun, or at least copy the movement with your arms: the fabric must not bunch up and catch the stock. Summer vests have a mesh back; heavier ones are for the cold. In both disciplines a vest may not be worn over a bare chest.",
+      "uk": "Як вибрати перший жилет: він має сидіти вільно, але не бовтатися, тож міряйте його поверх того одягу, у якому стрілятимете. Вкладіть порожню рушницю, яку ви щойно перевірили, або хоча б повторіть рух руками: тканина не повинна збиратися й чіплятися за приклад. Літні жилети мають сітчасту спинку, щільніші — для холоду. В обох дисциплінах жилет на голе тіло вдягати не можна."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "gear-shooting-vest-kp1",
+      "en": "A vest keeps cartridges at hand, protects the shoulder and helps a consistent mount.",
+      "uk": "Жилет тримає патрони під рукою, захищає плече й допомагає однаково вкладати рушницю."
+    },
+    {
+      "k": "women-clothing-community-start-kp1",
+      "en": "A vest cut for your build puts the shoulder pad in the right place.",
+      "uk": "Жилет, скроєний під вашу статуру, ставить наплічник у правильне місце."
+    },
+    {
+      "k": "gear-shooting-vest-kp3",
+      "en": "The shoulder pad goes on the shoulder you shoot from.",
+      "uk": "Наплічник — на тому плечі, з якого ви стріляєте."
+    },
+    {
+      "k": "gear-shooting-vest-kp4",
+      "en": "{{tm:sporting}} needs a contrasting line {{fact:rules.sporting-jacket-line}} and parallel to it; {{tm:compak}} does not.",
+      "uk": "Для {{tm:sporting}} потрібна контрастна лінія {{fact:rules.sporting-jacket-line}} й паралельно їй; для {{tm:compak}} — ні.",
+      "checklist": true
+    },
+    {
+      "k": "gear-shooting-vest-kp5",
+      "en": "Try the vest on over your shooting clothes; do not wear it over a bare chest.",
+      "uk": "Міряйте жилет поверх свого стрілецького одягу; на голе тіло його не вдягають."
+    }
+  ],
+  "did_you_know": {
+    "k": "gear-shooting-vest-dyk",
+    "en": "Vests often have pads on both shoulders, because many shooters are left-handed or shoot from the left shoulder because of their {{term:master-eye|master eye}}.",
+    "uk": "Жилети часто мають наплічники з обох боків, бо серед стрільців чимало ліворуких і тих, хто стріляє з лівого плеча через {{term:master-eye|провідне око}}."
+  },
+  "quiz": [
+    {
+      "k": "gear-shooting-vest-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "Where must the contrasting line be on a {{tm:sporting}} vest?",
+        "uk": "Де на жилеті для {{tm:sporting}} має бути контрастна лінія?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At the level of the belt",
+          "uk": "На рівні пояса"
+        },
+        {
+          "k": "b",
+          "en": "25 cm below the shoulder axis",
+          "uk": "На 25 см нижче від осі плеча"
+        },
+        {
+          "k": "c",
+          "en": "Across the middle of the back",
+          "uk": "Посередині спини"
+        },
+        {
+          "k": "d",
+          "en": "Along the edge of the pocket",
+          "uk": "Уздовж краю кишені"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The {{tm:sporting}} rules require a line 25 cm below the shoulder axis and parallel to it.",
+        "uk": "Правила {{tm:sporting}} вимагають лінію на 25 см нижче від осі плеча, паралельну їй."
+      },
+      "rule_ref": "sporting:ch3-jacket-line"
+    },
+    {
+      "k": "gear-shooting-vest-q2",
+      "q": {
+        "en": "What is the shoulder pad on a vest for?",
+        "uk": "Навіщо наплічник на жилеті?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "So the stock slides into place smoothly",
+          "uk": "Щоб приклад рівно ставав на місце"
+        },
+        {
+          "k": "b",
+          "en": "To carry spare chokes and a key",
+          "uk": "Щоб носити запасні чоки й ключ"
+        },
+        {
+          "k": "c",
+          "en": "To show the shooter's number",
+          "uk": "Щоб показувати стартовий номер"
+        },
+        {
+          "k": "d",
+          "en": "To keep the vest warm in winter",
+          "uk": "Щоб жилет грів узимку"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A smooth pad helps a clean mount and absorbs a little recoil.",
+        "uk": "Гладкий наплічник допомагає рівній вкладці й трохи гасить віддачу."
+      }
+    },
+    {
+      "k": "gear-shooting-vest-q3",
+      "disc": "compak",
+      "q": {
+        "en": "Do the {{tm:compak}} rules require a jacket line?",
+        "uk": "Чи вимагають правила {{tm:compak}} лінії на жилеті?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, exactly as in {{tm:sporting}}",
+          "uk": "Так, так само як у {{tm:sporting}}"
+        },
+        {
+          "k": "b",
+          "en": "Yes, but only for junior shooters",
+          "uk": "Так, але лише для юніорів"
+        },
+        {
+          "k": "c",
+          "en": "No: the gun position at the call is free",
+          "uk": "Ні: положення рушниці під час команди вільне"
+        },
+        {
+          "k": "d",
+          "en": "Only at world championships",
+          "uk": "Лише на чемпіонатах світу"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:compak}} the gun may already be mounted before the call, so no line is required.",
+        "uk": "У {{tm:compak}} рушницю можна вкласти ще до команди, тому лінії не вимагають."
+      },
+      "rule_ref": "compak:ch17-gun-position"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "women-clothing-community-start-q1",
+      "q": {
+        "en": "Why does a vest cut for your build help?",
+        "uk": "Чим допомагає жилет, скроєний під вашу статуру?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The pad sits where the stock goes",
+          "uk": "Наплічник стоїть там, де стає приклад"
+        },
+        {
+          "k": "b",
+          "en": "It has far more cartridge pockets",
+          "uk": "У ньому значно більше кишень для патронів"
+        },
+        {
+          "k": "c",
+          "en": "It is the cheapest model in the shop",
+          "uk": "Це найдешевша модель у магазині"
+        },
+        {
+          "k": "d",
+          "en": "It replaces the line in {{tm:sporting}}",
+          "uk": "Він замінює лінію в {{tm:sporting}}"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A cut that allows for the chest and shoulders keeps the pad in place, so it does not hinder the mount.",
+        "uk": "Крій, що враховує груди й плечі, тримає наплічник на місці, і він не заважає вкладці."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "e386de34",
+    "summary": "744f29b7",
+    "gear-shooting-vest-p1": "9f81d350",
+    "gear-shooting-vest-p2": "cc5c16bb",
+    "gear-shooting-vest-p3": "ee5354fb",
+    "gear-protection-clothes-p3": "6deb8cfc",
+    "gear-shooting-vest-p4": "5491dae3",
+    "women-clothing-community-start-p1": "a57f4897",
+    "gear-shooting-vest-p6": "f7a017d1",
+    "gear-shooting-vest-kp1": "b64056c9",
+    "women-clothing-community-start-kp1": "2d26989a",
+    "gear-shooting-vest-kp3": "702e0c7c",
+    "gear-shooting-vest-kp4": "57e7b3e6",
+    "gear-shooting-vest-kp5": "5c168208",
+    "gear-shooting-vest-dyk": "ccc96138",
+    "gear-shooting-vest-q1": "6a2ebc6a",
+    "gear-shooting-vest-q2": "ff660905",
+    "gear-shooting-vest-q3": "cf58a05a",
+    "women-clothing-community-start-q1": "5965662b"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Glossary: the term ladies-cut (moved in with women-clothing-community-start-p1) is not in the glossary yet. When it is added, link \"ladies' cut\" / «жіночого крою» in that paragraph. Proposed entry: en \"Ladies' cut\" — A cut of a shooting vest or jacket that allows for the chest and shoulder width, so the pad sits where the stock goes. uk «Жіночий крій» — Крій стрілецького жилета чи куртки з урахуванням форми грудей і ширини плечей, щоб наплічник був там, де стає приклад."
+    ]
+  }
+}

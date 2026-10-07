@@ -1,0 +1,264 @@
+{
+  "lang": "it",
+  "blocks": {
+    "basics": {
+      "title": "Le basi",
+      "purpose": "Che cos'è questo sport, le discipline, la FITASC, il campo di tiro, chi tira, come iniziare, quanto costa e come può iniziare un bambino.",
+      "sections": {
+        "what": "Che cos'è questo sport",
+        "start": "Come iniziare",
+        "kids": "Per un bambino"
+      }
+    },
+    "safety": {
+      "title": "Sicurezza ed etichetta",
+      "purpose": "Abitudini di sicurezza, protezione di occhi e orecchie, piombo, bambini; comportamento in pedana e nel gruppo, rispetto per l'arbitro, spettatori.",
+      "sections": {
+        "safety": "Sicurezza",
+        "etiquette": "Etichetta"
+      }
+    },
+    "gear": {
+      "title": "Equipaggiamento",
+      "purpose": "Il fucile, gli strozzatori, le cartucce, la protezione e l'abbigliamento: come si chiamano le cose, come funzionano, cosa comprare e quando.",
+      "sections": {
+        "gun": "Il fucile",
+        "chokes": "Strozzatori",
+        "cartridges": "Cartucce",
+        "kit": "Equipaggiamento personale"
+      }
+    },
+    "targets": {
+      "title": "Piattelli e traiettorie",
+      "purpose": "Piattelli, macchine lanciapiattelli, percorsi di {{tm:sporting}} e {{tm:compak}}, menu, traiettorie, doppietti e come leggere un piattello.",
+      "sections": {
+        "clays": "Piattelli e macchine",
+        "layouts": "Percorsi",
+        "flight": "Traiettorie",
+        "pairs": "Doppietti e lettura di un piattello"
+      }
+    },
+    "technique": {
+      "title": "Tecnica e anticipo",
+      "purpose": "Posizione, imbracciata, occhi, i tre punti, accompagnamento, rinculo; i quattro metodi di anticipo; capire gli errori di tiro.",
+      "sections": {
+        "fundamentals": "Le basi del tiro",
+        "lead": "Anticipo",
+        "faults": "Errori"
+      }
+    },
+    "training": {
+      "title": "Allenamento",
+      "purpose": "L'istruttore, come strutturare e dosare l'allenamento, il riscaldamento, l'esercizio di imbracciata a secco, la preparazione a una gara, un diario di allenamento.",
+      "sections": {
+        "main": "Allenamento"
+      }
+    },
+    "mind": {
+      "title": "Mente e preparazione",
+      "purpose": "Routine pre-tiro, attenzione, respirazione, parole-chiave, visualizzazione, nervosismo, pressione, ripartire dopo un errore, obiettivi, giorno di gara, antidoping, juniores.",
+      "sections": {
+        "before": "Prima del tiro",
+        "pressure": "Sotto pressione",
+        "day": "Giorno di gara",
+        "juniors": "Juniores"
+      }
+    },
+    "rules": {
+      "title": "Regolamento",
+      "purpose": "Il regolamento FITASC in parole semplici, breve e con parole nostre; ogni regola è contrassegnata {{tm:sporting}} o {{tm:compak}} e rimanda alla guida al regolamento.",
+      "sections": {
+        "main": "Regolamento"
+      }
+    },
+    "competitions": {
+      "title": "Gare",
+      "purpose": "Tipi di gara, iscrizione, giorno di gara, lo statino e i risultati, categorie e spareggi, reclami, juniores.",
+      "sections": {
+        "main": "Gare"
+      }
+    },
+    "travel": {
+      "title": "Viaggi",
+      "purpose": "Organizzare un viaggio, il fucile nell'UE e fuori dall'UE, il volo in aereo, le cartucce a destinazione, il jet lag; i tour ClayAway (in arrivo).",
+      "sections": {
+        "main": "Viaggi"
+      }
+    },
+    "stand-talk": {
+      "title": "La lingua della pedana",
+      "purpose": "Come parlano l'istruttore, l'arbitro e i tiratori; il lavoro dell'interprete; per chiunque si alleni con un istruttore che parla un'altra lingua.",
+      "sections": {
+        "role": "Il ruolo",
+        "said": "Cosa si dice in pedana",
+        "traps": "Trappole di traduzione",
+        "work": "Sul campo"
+      }
+    },
+    "watch": {
+      "title": "Guardare e seguire",
+      "purpose": "Come guardare il tiro e i video; ClayArena: risultati, profilo, numeri, catalogo.",
+      "sections": {
+        "watch": "Guardare",
+        "clayarena": "ClayArena"
+      }
+    },
+    "community": {
+      "title": "Comunità e storia",
+      "purpose": "Storia, tradizioni, natura, il club; come diventare arbitro o istruttore; una gara di club.",
+      "sections": {
+        "history": "Storia",
+        "culture": "Cultura",
+        "next": "Il prossimo passo"
+      }
+    }
+  },
+  "routes": {
+    "beginner": {
+      "title": "Principiante",
+      "for": "Per chi non ha mai tirato.",
+      "certificate": "Primo passo",
+      "stages": {
+        "first-visit": "Prima della tua prima visita",
+        "first-shots": "I primi tiri"
+      }
+    },
+    "first-competition": {
+      "title": "Prima gara",
+      "for": "Per un tiratore dopo alcune sessioni.",
+      "checklist": "Lista di controllo del giorno di gara",
+      "stages": {
+        "ready": "Prepararsi",
+        "rules": "Le regole da conoscere",
+        "head": "Mente e corpo",
+        "day": "Giorno di gara"
+      }
+    },
+    "interpreter": {
+      "title": "Interprete",
+      "for": "Per gli interpreti in pedana; sostituisce la Interpreter Academy.",
+      "stages": {
+        "day-one": "Primo giorno in pedana",
+        "sport": "Lo sport e i percorsi",
+        "gear-targets": "Fucile e piattelli",
+        "technique": "Tecnica",
+        "lead": "Anticipo",
+        "coach-talk": "Errori e il linguaggio dell'istruttore",
+        "rules": "Le regole in pedana",
+        "referee": "Arbitro, cartellini e risultati",
+        "mastery": "Padronanza"
+      }
+    },
+    "junior-parent": {
+      "title": "Genitori di un junior",
+      "for": "Per i genitori il cui figlio vuole tirare.",
+      "checklist": "Lista di controllo per i genitori",
+      "stages": {
+        "is-it-for-my-child": "È adatto a mio figlio",
+        "safe-start": "Un inizio sicuro",
+        "support": "Supporto e gare"
+      }
+    },
+    "new-coach": {
+      "title": "Istruttore alle prime armi",
+      "for": "Per chi inizia ad allenare altre persone.",
+      "disclaimer": "Non è un'abilitazione da istruttore.",
+      "stages": {
+        "role": "Il ruolo dell'istruttore",
+        "diagnosis": "Basi e diagnosi",
+        "mental": "Allenamento e mente"
+      }
+    },
+    "organiser": {
+      "title": "Organizzatore",
+      "for": "Per gli organizzatori di gare di club e viaggi.",
+      "stages": {
+        "club-events": "Gare e il club",
+        "trips": "Viaggi e tour"
+      }
+    },
+    "fan": {
+      "title": "Appassionati e famiglia",
+      "for": "Per appassionati, familiari e amici dei tiratori.",
+      "stages": {
+        "watch": "Guardare e capire",
+        "results": "Risultati e ClayArena"
+      }
+    }
+  },
+  "practice": {
+    "lead-lab": "Laboratorio dell'anticipo",
+    "name-the-flight": "Riconosci la traiettoria",
+    "translate-the-coach": "Capire / tradurre l'istruttore",
+    "referees-call": "Decisione dell'arbitro",
+    "term-cards": "Schede dei termini",
+    "phrasebook": "Vocabolario",
+    "rules-exam": "Esame di regolamento",
+    "routine": "La mia routine"
+  },
+  "levels": {
+    "guest": "Ospite",
+    "learner": "Apprendista",
+    "practitioner": "Praticante",
+    "specialist": "Specialista",
+    "expert": "Esperto",
+    "mentor": "Mentore"
+  },
+  "badges": {
+    "block-basics": "Blocco Le basi",
+    "block-safety": "Blocco Sicurezza ed etichetta",
+    "block-gear": "Blocco Equipaggiamento",
+    "block-targets": "Blocco Piattelli e traiettorie",
+    "block-technique": "Blocco Tecnica e anticipo",
+    "block-training": "Blocco Allenamento",
+    "block-mind": "Blocco Mente e preparazione",
+    "block-rules": "Blocco Regolamento",
+    "block-competitions": "Blocco Gare",
+    "block-travel": "Blocco Viaggi",
+    "block-stand-talk": "Blocco La lingua della pedana",
+    "block-watch": "Blocco Guardare e seguire",
+    "block-community": "Blocco Comunità e storia",
+    "route-beginner": "Percorso Principiante",
+    "route-first-competition": "Percorso Prima gara",
+    "route-interpreter": "Percorso Interprete",
+    "route-junior-parent": "Percorso Genitori di un junior",
+    "route-new-coach": "Percorso Istruttore alle prime armi",
+    "route-organiser": "Percorso Organizzatore",
+    "route-fan": "Percorso Appassionati e famiglia",
+    "stage-beginner-first-visit": "Principiante: prima della tua prima visita",
+    "stage-beginner-first-shots": "Principiante: i primi tiri",
+    "stage-first-competition-ready": "Prima gara: prepararsi",
+    "stage-first-competition-rules": "Prima gara: le regole da conoscere",
+    "stage-first-competition-head": "Prima gara: mente e corpo",
+    "stage-first-competition-day": "Prima gara: giorno di gara",
+    "stage-interpreter-day-one": "Interprete: primo giorno in pedana",
+    "stage-interpreter-sport": "Interprete: lo sport e i percorsi",
+    "stage-interpreter-gear-targets": "Interprete: fucile e piattelli",
+    "stage-interpreter-technique": "Interprete: tecnica",
+    "stage-interpreter-lead": "Interprete: anticipo",
+    "stage-interpreter-coach-talk": "Interprete: errori e il linguaggio dell'istruttore",
+    "stage-interpreter-rules": "Interprete: le regole in pedana",
+    "stage-interpreter-referee": "Interprete: arbitro, cartellini e risultati",
+    "stage-interpreter-mastery": "Interprete: padronanza",
+    "stage-junior-parent-is-it-for-my-child": "Genitori di un junior: è adatto a mio figlio",
+    "stage-junior-parent-safe-start": "Genitori di un junior: un inizio sicuro",
+    "stage-junior-parent-support": "Genitori di un junior: supporto e gare",
+    "stage-new-coach-role": "Istruttore alle prime armi: il ruolo dell'istruttore",
+    "stage-new-coach-diagnosis": "Istruttore alle prime armi: basi e diagnosi",
+    "stage-new-coach-mental": "Istruttore alle prime armi: allenamento e mente",
+    "stage-organiser-club-events": "Organizzatore: gare e il club",
+    "stage-organiser-trips": "Organizzatore: viaggi e tour",
+    "stage-fan-watch": "Appassionati e famiglia: guardare e capire",
+    "stage-fan-results": "Appassionati e famiglia: risultati e ClayArena",
+    "four-methods": "Quattro metodi",
+    "name-the-flight-10": "Riconosci la traiettoria 10/10",
+    "coach-translator-20": "Traduttore dell'istruttore 20",
+    "referees-call-20": "Decisione dell'arbitro 20",
+    "terms-50": "50 termini",
+    "rules-exam-sporting": "Esame di regolamento Sporting™",
+    "rules-exam-compak": "Esame di regolamento Compak® Sporting",
+    "first": "Prima lezione",
+    "returning": "Di ritorno",
+    "interpreter-academy-2026": "Interpreter Academy 2026"
+  }
+}

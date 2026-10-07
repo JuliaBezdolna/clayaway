@@ -1,0 +1,91 @@
+{
+  "id": "chokes-fixed-and-multichoke",
+  "lang": "cs",
+  "base_rev": 1,
+  "h": {
+    "title": "bde7f021",
+    "summary": "ccf70477",
+    "chokes-fixed-and-multichoke-p1": "23ae3c30",
+    "chokes-fixed-and-multichoke-p2": "e7103ab0",
+    "chokes-fixed-and-multichoke-p3": "204a8f9d",
+    "chokes-fixed-and-multichoke-p4": "5a913245",
+    "chokes-fixed-and-multichoke-cmp1": "33d955d7",
+    "chokes-fixed-and-multichoke-kp1": "373ad63b",
+    "chokes-fixed-and-multichoke-kp2": "02e18af9",
+    "chokes-fixed-and-multichoke-kp3": "208bc5ab",
+    "chokes-fixed-and-multichoke-kp4": "d1799e1f",
+    "chokes-fixed-and-multichoke-dyk": "51b43287",
+    "chokes-fixed-and-multichoke-q1": "2c83214f",
+    "chokes-fixed-and-multichoke-q2": "23f75281",
+    "chokes-fixed-and-multichoke-q3": "f6b1189d",
+    "chokes-fixed-and-multichoke-q4": "14c51674"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "body": {
+    "chokes-fixed-and-multichoke-p1": "{{term:fixed-choke|Pevné zahrdlení}} (fixed choke) je vytočené v hlavni už v továrně a změnit ho může jen {{term:gunsmith|puškař}}. Takhle je vyrobeno mnoho starších a klasických zbraní. Taková kozlice má obvykle dvě různá zúžení, například 1/4 a 1/2, a střelec pracuje s tím, co má.",
+    "chokes-fixed-and-multichoke-p2": "{{term:multichoke|Výměnné zahrdlení}} (multichoke) jsou krátké trubičky se závitem, které se šroubují do ústí {{term:choke-key|klíčem na zahrdlení}} (choke key). Mají ho většina moderních soutěžních zbraní. Ke zbrani se dodává sada několika zahrdlení a střelec nasadí ta, která sedí k terčům.",
+    "chokes-fixed-and-multichoke-p3": "Trubičky jsou buď v jedné rovině s koncem hlavně (flush), nebo {{term:extended-choke|vyčnívající}} (extended): vystupují za ústí, často o 1–5 cm. Mnoho vyčnívajících zahrdlení lze odšroubovat rukou a jejich značení je vidět i bez vyjmutí.",
+    "chokes-fixed-and-multichoke-p4": "Závity a rozměry se liší mezi výrobci i mezi modely stejného výrobce. Zahrdlení z jiného systému nemusí sednout nebo se zašroubuje nesprávně, což je nebezpečné. Kupujte jen zahrdlení vyrobená pro vaši zbraň.",
+    "chokes-fixed-and-multichoke-cmp1": {
+      "sporting": "Zahrdlení, celou zbraň nebo hlaveň můžete měnit mezi stanovišti nebo mezi jednotlivými terči a dvojstřely, pokud to nezpůsobí zpoždění. Jakmile vstoupíte na stanoviště, už žádné změny.",
+      "compak": "V rámci položky nesmíte měnit zbraň, hlavně ani zahrdlení. Mění se jen mezi položkami; výjimkou je porucha zbraně. Proto volte zahrdlení, která zvládnou všechny terče položky."
+    }
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-fixed-and-multichoke-kp1": "Pevné zahrdlení je vytočené v hlavni; výměnné se šroubuje klíčem.",
+    "chokes-fixed-and-multichoke-kp2": "Zahrdlení různých systémů nejsou zaměnitelná.",
+    "chokes-fixed-and-multichoke-kp3": "{{tm:sporting}}: zahrdlení měnit mezi stanovišti, ne na stanovišti.",
+    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}}: v rámci položky se zahrdlení nemění."
+  },
+  "quiz": {
+    "chokes-fixed-and-multichoke-q1": {
+      "q": "Kdy můžete v {{tm:sporting}} vyměnit zahrdlení?",
+      "options": {
+        "a": "Mezi stanovišti, pokud to nezpůsobí zpoždění",
+        "b": "Na stanovišti, těsně před dvojstřelem",
+        "c": "Jen před prvním stanovištěm dne",
+        "d": "Jen s písemným souhlasem jury"
+      },
+      "explain": "Měnit můžete mezi stanovišti nebo mezi jednotlivými terči a dvojstřely, ale ne poté, co jste na stanovišti."
+    },
+    "chokes-fixed-and-multichoke-q2": {
+      "q": "Smíte v {{tm:compak}} měnit zahrdlení v rámci položky?",
+      "options": {
+        "a": "Ano, při přechodu mezi stanovišti",
+        "b": "Ano, pokud jsou další terče daleko",
+        "c": "Ne, jen mezi položkami",
+        "d": "Ano, kdykoli během položky"
+      },
+      "explain": "V {{tm:compak}} je měnit zbraň, hlavně nebo zahrdlení v rámci položky zakázáno; výjimkou je porucha."
+    },
+    "chokes-fixed-and-multichoke-q3": {
+      "q": "Proč nemáte nasazovat zahrdlení z jiného systému?",
+      "options": {
+        "a": "Kazí to vzhled zbraně",
+        "b": "Závit nemusí sedět, což je nebezpečné",
+        "c": "Rozhodčí nemůže zkontrolovat jeho značení",
+        "d": "Měnilo by to ráži hlavně"
+      },
+      "explain": "Systémy zahrdlení se liší; nesprávné zahrdlení může poškodit hlaveň."
+    },
+    "chokes-fixed-and-multichoke-q4": {
+      "q": "Co je vyčnívající zahrdlení (extended choke)?",
+      "options": {
+        "a": "Zahrdlení těsnější než plné",
+        "b": "Zahrdlení vytočené v hlavni",
+        "c": "Zahrdlení jen pro ocelové broky",
+        "d": "Trubička, která vystupuje za ústí"
+      },
+      "explain": "Vyčnívající zahrdlení vystupují za ústí, takže jejich značení je vidět i bez vyjmutí."
+    }
+  },
+  "title": "Pevné a výměnné zahrdlení",
+  "summary": "Zahrdlení je buď trvale vytočené v hlavni, nebo šroubovací trubičky, které lze měnit. O obou variantách i o tom, kdy je pravidla {{tm:sporting}} a {{tm:compak}} dovolují měnit.",
+  "did_you_know": "Někteří střelci v {{tm:sporting}} během závodu zahrdlení vůbec nemění a spoléhají na jeden pár, například 1/4 a 1/2. Tak myslí méně na vybavení a víc na terče."
+}

@@ -1,0 +1,86 @@
+{
+  "id": "intro-shooting-ground",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "b20666cd",
+    "summary": "6bd14e2a",
+    "intro-shooting-ground-p1": "5342d490",
+    "intro-shooting-ground-p2": "9e155a13",
+    "intro-shooting-ground-p3": "527179db",
+    "intro-shooting-ground-p4": "62bf704a",
+    "intro-shooting-ground-p5": "088fa7b4",
+    "intro-shooting-ground-p6": "4b44ec73",
+    "intro-shooting-ground-kp1": "9781dc63",
+    "intro-shooting-ground-kp2": "d96d7209",
+    "intro-shooting-ground-kp3": "a4b0be72",
+    "intro-shooting-ground-kp4": "f581af87",
+    "intro-shooting-ground-dyk": "91d2d74b",
+    "intro-shooting-ground-q1": "f5876e96",
+    "intro-shooting-ground-q2": "e656c81f",
+    "intro-shooting-ground-q3": "9394e7e4",
+    "intro-shooting-ground-q-fal": "4b082e3b"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Hogyan néz ki egy lőtér",
+  "summary": "A klubház, a {{tm:sporting}} lőpályái, a {{tm:compak}} mezője és a dobógépek: mit látsz az első látogatásodkor.",
+  "body": {
+    "intro-shooting-ground-p1": "A {{term:range|lőtérnek}}, amelyet köznyelven gyakran egyszerűen „stendnek” hívnak, általában van klubháza regisztrációval, kávézóval és {{term:gun-rack|fegyvertartókkal}}, gyakorlómezői és a versenyekhez használt pályái.",
+    "intro-shooting-ground-p2": "A {{tm:sporting}} esetén a terepet {{term:layout|lőpályákra}} osztják: {{term:shooting-stand|lőállások}} csoportjaira, ahonnan egy {{fact:rules.round-targets}} kört lőnek. A dobógépeket gyakran bokrok mögé vagy árkokba rejtik, vagy toronyra állítják. A korongok akkor úgy repülnek, mint a vadászható állatok (madarak és nyulak): mező fölött, fák közül, víz fölött. Hogyan működik egy lőpálya és egy kör: {{lesson:targets-sporting-layout}}.",
+    "intro-shooting-ground-p3": "Egy {{tm:sporting}} lőállás {{fact:basics.sporting-stand-size}}. Lehetőség szerint síknak kell lennie, és nem lehet csúszós, mert ez biztonsági kérdés. A lőállás előtt találod a {{term:target-menu|kottát}}: ez felsorolja a dobógépeket lövési sorrendben, és a különleges korongokat.",
+    "intro-shooting-ground-p4": "A {{tm:compak}} egyetlen mezőn áll fel, amelyen {{fact:basics.compak-field}}. Minden lőállás 1 × 1 m, a szomszédos lőállások középpontjai között 2–5 m van. A dobógépek állhatnak a lőállások előtt vagy mellett; a mögöttük álló dobógép legalább 4 m magas {{term:tower|toronyra}} kerül. Minden lőálláson van egy {{term:firing-angle-limiter|lőszögkorlátozó}}, egy keret, amely megakadályozza, hogy a fegyver nem biztonságos irányba mozduljon. Bővebben: {{lesson:targets-compak-layout}}.",
+    "intro-shooting-ground-p5": "A korongoknak több fajtája van: {{term:standard-target|standard}}, {{term:midi|midi}}, {{term:mini|mini}} (más néven szuper mini), {{term:battue|battue}} (vékony és lapos), {{term:rabbit|nyúl}} (a földön gurul) és {{term:flash-target|flash}}. A flash korong találatkor élénk porfelhőt bocsát ki. A színét úgy választják, hogy a korong jól kitűnjön az égbolt vagy a fák előtt.",
+    "intro-shooting-ground-p6": "Első látogatásodkor figyeld a táblákat és a jelzéseket: hol szabad járni, hol állnak a nézők, és hol engedik a lövést. Minden lőtérnek saját szabályai vannak, ezért kérdezd meg őket az első lövésed előtt. Az alapvető biztonsági szokásokat a {{lesson:safety-core-rules}} óra tartalmazza."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-shooting-ground-kp1": "Egy {{tm:sporting}} lőpálya lőállások csoportja a természetes terepen.",
+    "intro-shooting-ground-kp2": "Egy {{tm:sporting}} lőállás {{fact:basics.sporting-stand-size}}, sík és nem csúszós.",
+    "intro-shooting-ground-kp3": "{{tm:compak}}: egy mező, amelyen {{fact:basics.compak-field}}, és minden lőálláson lőszögkorlátozó.",
+    "intro-shooting-ground-kp4": "Olvasd el a kottát minden lőálláson, és ismerd meg a lőtér szabályait, mielőtt lősz."
+  },
+  "did_you_know": "A flash korong élénk port tartalmaz, így a találat még messziről is jól látszik. A nézők kedvelik.",
+  "quiz": {
+    "intro-shooting-ground-q1": {
+      "q": "Mekkora egy {{tm:sporting}} lőállás?",
+      "options": {
+        "a": "1 m-es négyzet vagy 1 m-es kör",
+        "b": "3 m-es négyzet kerítéssel",
+        "c": "Bármekkora, ahogy a klub dönt"
+      },
+      "explain": "A szabályok rögzítik a méretet: {{fact:basics.sporting-stand-size}}."
+    },
+    "intro-shooting-ground-q2": {
+      "q": "Mit mutat a kotta (target menu)?",
+      "options": {
+        "a": "A kávézó árait",
+        "b": "A dobógépeket lövési sorrendben",
+        "c": "A rotte eredményeit"
+      },
+      "explain": "A lőállás előtti kotta felsorolja a dobógépeket lövési sorrendben, és a különleges korongokat."
+    },
+    "intro-shooting-ground-q3": {
+      "q": "Melyik korong gurul a földön?",
+      "options": {
+        "a": "Battue",
+        "b": "Midi",
+        "c": "Nyúl (rabbit)"
+      },
+      "explain": "A nyúl korong a földön gurul, és felpattan az egyenetlenségeken."
+    },
+    "intro-shooting-ground-q-fal": {
+      "q": "Mire szolgál a keret minden {{tm:compak}} lőálláson?",
+      "options": {
+        "a": "Rajta lóg a kotta",
+        "b": "Korlátozza a fegyver mozgását",
+        "c": "Jelöli a nézők helyét"
+      },
+      "explain": "A lőszögkorlátozó megakadályozza, hogy a fegyver nem biztonságos irányba mutasson, és a lövészt a lőálláson belül tartja."
+    }
+  }
+}

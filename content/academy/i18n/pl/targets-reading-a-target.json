@@ -1,0 +1,85 @@
+{
+  "id": "targets-reading-a-target",
+  "lang": "pl",
+  "base_rev": 3,
+  "h": {
+    "title": "c58ee91b",
+    "summary": "08a6882a",
+    "targets-reading-a-target-p1": "73f7f627",
+    "targets-reading-a-target-p2": "46d7b9fe",
+    "targets-reading-a-target-p3": "b1333ac7",
+    "targets-reading-a-target-points": "77c58330",
+    "targets-reading-a-target-p4": "5f61914c",
+    "targets-reading-a-target-p5": "2d04761d",
+    "targets-reading-a-target-mock": "af5065d8",
+    "targets-reading-a-target-p6": "c0465e01",
+    "targets-reading-a-target-kp1": "f556dd7a",
+    "targets-reading-a-target-kp2": "640ea1f0",
+    "targets-reading-a-target-kp3": "0d490d3c",
+    "targets-reading-a-target-kp4": "8050f3c2",
+    "targets-reading-a-target-kp5": "4bc4579e",
+    "targets-reading-a-target-dyk": "10d8c94e",
+    "targets-reading-a-target-q1": "f67e3bfa",
+    "targets-reading-a-target-q2": "07ba1296",
+    "targets-reading-a-target-q3": "a8d476d2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Jak „przeczytać” rzutek",
+  "summary": "Na co zwracać uwagę podczas pokazu rzutków: skąd rzutek się pojawia, dokąd leci, gdzie go rozbijesz i czego nie można robić.",
+  "body": {
+    "targets-reading-a-target-p1": "„Przeczytać” rzutek znaczy zrozumieć, jeszcze przed strzałem, jak on leci: skąd się pojawia, jak szybko się rusza, gdzie zakręca, wznosi się czy opada. Doświadczeni strzelcy robią to na każdym stanowisku, i to często decyduje o różnicy między trafieniem a pudłem. Ma to znaczenie tak samo w {{tm:sporting}}, jak i w {{tm:compak}}.",
+    "targets-reading-a-target-p2": "Zacznij od {{term:target-menu|menu rzutków}}: które wyrzutnie, w jakiej kolejności i czy są rzutki specjalne. Potem uważnie obejrzyj {{term:target-presentation|pokaz rzutków}} (presentation). W {{tm:sporting}} rzutki stanowiska pokazuje się przed strzelaniem pierwszemu strzelcowi grupy. Dubletów na zawołanie nie pokazuje się. {{tm:compak}} ma własny sposób pokazywania rzutków. Szczegóły są w lekcji {{lesson:rules-viewing-targets}}.",
+    "targets-reading-a-target-p3": "Zadaj sobie proste pytania. Gdzie pierwszy raz widzę rzutek wyraźnie? To twój {{term:pick-up-point|punkt podjęcia rzutka}} (pick-up point), od którego oczy zaczynają go śledzić. Gdzie najłatwiej go rozbić? To twój {{term:break-point|punkt strzału}} (break point). Tam rzutek powinien być jeszcze dobrze widoczny — nie opadać za drzewa i nie lecieć poza {{term:shooting-limit|granicę strzelania}}.",
+    "targets-reading-a-target-points": "Jak razem działają {{term:hold-point|punkt wyjściowy lufy}} (hold point), punkt podjęcia rzutka i punkt strzału, wyjaśnia lekcja {{lesson:technique-hold-pickup-break-points}}.",
+    "targets-reading-a-target-p4": "Zwróć uwagę na prędkość, odległość i kąt, a także na to, co rzutek robi: wznosi się, zwalnia czy opada. Wiatr może podnieść rzutek albo go zepchnąć, a ciemna linia drzew lub jasne niebo zmieniają to, jak go widzisz. Rzutek, który zwalnia, potrzebuje mniejszego {{term:lead|wyprzedzenia}} niż ten lecący z pełną prędkością.",
+    "targets-reading-a-target-p5": "Obserwuj, jak strzelają inni, ale myśl własną głową: każdy strzelec ma swoje tempo. Podczas pokazu rzutków wielu trenerów radzi śledzić je tylko oczami.",
+    "targets-reading-a-target-mock": {
+      "sporting": "Niedozwolone nigdzie na strzelnicy. Pierwszy raz sędzia daje ostrzeżenie. Jeśli zrobisz to ponownie, twój następny trafiony rzutek liczy się jako pudło (zero).",
+      "compak": "Niedozwolone poza stanowiskami strzeleckimi albo gdy strzela inny członek grupy. Podczas pokazu rzutków broń jest otwarta i rozładowana."
+    },
+    "targets-reading-a-target-p6": "Trajektorie {{tm:sporting}} mają {{term:difficulty-class|klasy trudności}}: {{fact:targets.sporting-difficulty-classes}}. Nie zniechęcaj się, jeśli nie trafisz rzutka klasy C: ma być trudny. Czytanie rzutków łatwiej opanować z wykwalifikowanym trenerem, który pokaże, na co patrzeć."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "targets-reading-a-target-kp1": "Najpierw menu, potem uważnie obejrzyj pokaz rzutków.",
+    "targets-reading-a-target-kp2": "Znajdź punkt podjęcia rzutka, gdzie pierwszy raz widzisz go wyraźnie, i punkt strzału, gdzie go rozbijesz.",
+    "targets-reading-a-target-kp3": "Zwróć uwagę na prędkość, kąt, wiatr, tło i to, czy rzutek zwalnia.",
+    "targets-reading-a-target-kp4": "Śledź oczami; w {{tm:sporting}} ćwiczenia celowania są niedozwolone nigdzie na strzelnicy, w {{tm:compak}} — poza stanowiskami i gdy strzela ktoś inny.",
+    "targets-reading-a-target-kp5": "Klasy trudności {{tm:sporting}}: {{fact:targets.sporting-difficulty-classes}}."
+  },
+  "did_you_know": "W {{tm:sporting}} dubletów na zawołanie nie pokazuje się, ale oba rzutki już widziałeś: dublety składa się tylko z rzutków pokazanych jako pojedyncze z tego samego stanowiska.",
+  "quiz": {
+    "targets-reading-a-target-q1": {
+      "q": "Co to punkt strzału (break point)?",
+      "options": {
+        "a": "Miejsce, gdzie planujesz rozbić rzutek",
+        "b": "Miejsce, gdzie stoi wyrzutnia, która go wyrzuca",
+        "c": "Miejsce, gdzie rzutek pada na ziemię"
+      },
+      "explain": "Punkt strzału (break point) to miejsce na trajektorii, które wybierasz z wyprzedzeniem."
+    },
+    "targets-reading-a-target-q2": {
+      "q": "Czy w {{tm:sporting}} podczas pokazu rzutków można złożyć broń i prowadzić nią po linii rzutka?",
+      "options": {
+        "a": "Tak, to dobre przygotowanie",
+        "b": "Nie, to ćwiczenia celowania",
+        "c": "Tak, jeśli broń jest rozładowana"
+      },
+      "explain": "Śledź tylko oczami. Nikt nie może strzelać ani udawać strzału podczas pokazu rzutków, a broń zostaje otwarta i rozładowana, dopóki sędzia nie pozwoli ją zamknąć."
+    },
+    "targets-reading-a-target-q3": {
+      "q": "Jaki odsetek rzutków klasy C rozbija przeciętny strzelec w {{tm:sporting}}?",
+      "options": {
+        "a": "Ponad 80%",
+        "b": "Od 60 do 80%",
+        "c": "Od 40 do 60%"
+      },
+      "explain": "Klasa C jest najtrudniejsza: 40–60%. Klasa A to ponad 80%, klasa B 60–80%."
+    }
+  }
+}

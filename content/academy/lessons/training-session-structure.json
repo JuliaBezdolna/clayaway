@@ -1,0 +1,262 @@
+{
+  "id": "training-session-structure",
+  "rev": 4,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "coach",
+    "shooter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "training-session-structure"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "warm-up",
+    "crosser",
+    "incomer",
+    "hold-point",
+    "double",
+    "single-target",
+    "coach",
+    "break-point",
+    "training-diary",
+    "trajectory"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "How to structure a training session",
+    "uk": "Як побудувати тренування"
+  },
+  "summary": {
+    "en": "A plan for one session: a short warm-up, one or two kinds of target, doubles after singles and a finish on targets that go well.",
+    "uk": "План одного тренування: коротка розминка, один-два типи мішеней, дуплети після одиночних і завершення мішенями, які вже виходять."
+  },
+  "body": [
+    {
+      "k": "training-session-structure-p1",
+      "t": "p",
+      "en": "A session with a plan usually does more than shooting whatever is on offer. Without a plan you tire sooner and repeat the same faults. With a coach the plan is usually theirs, but it helps to know what a session is made of.",
+      "uk": "Тренування з планом зазвичай дає більше, ніж стрільба по всьому, що є на стенді. Без плану ви швидше втомлюєтеся й повторюєте ті самі помилки. З тренером план зазвичай складає він, але корисно розуміти, з чого складається тренування."
+    },
+    {
+      "k": "training-session-structure-p2",
+      "t": "p",
+      "en": "Start with a {{term:warm-up|warm-up}}: light movement for the neck, shoulders, back and wrists, then a few easy targets to find your rhythm. This way the movement is more likely to be smooth from the first target. How to do it: {{lesson:mind-warm-up-mobility}}.",
+      "uk": "Почніть із {{term:warm-up|розминки}}: легкі рухи для шиї, плечей, спини й кистей, а потім кілька простих мішеней, щоб увійти в ритм. Так рух, найімовірніше, буде плавним уже з першої мішені. Як її робити — в уроці {{lesson:mind-warm-up-mobility}}."
+    },
+    {
+      "k": "training-session-structure-p3",
+      "t": "p",
+      "en": "The main part is usually one or two kinds of target, that is, one or two {{term:trajectory|flight lines}} (the paths the targets fly), which you shoot again and again. For example, today a {{term:crosser|crosser}} from left to right, which flies across in front of you, and an {{term:incomer|incomer}}, which flies towards you. You shoot each of them many times. Meanwhile the coach corrects your stance, your {{term:hold-point|hold point}} (where the barrels wait as you call) and the way you move the gun from that point onto the target. Deep work on one kind of target often teaches a beginner more than one shot at each of twenty different targets. Once a target goes well, the next step is to mix it with others, as in a competition.",
+      "uk": "Основна частина — зазвичай один-два типи мішеней, тобто одна-дві {{term:trajectory|траєкторії}} (шляхи, якими летять мішені), по яких ви стріляєте знову й знову. Наприклад, сьогодні — {{term:crosser|поперечна мішень}} зліва направо, що летить перед вами, і {{term:incomer|зустрічна мішень}}, що летить на вас. Ви стріляєте кожну з них багато разів. Тим часом тренер виправляє стійку, {{term:hold-point|точку утримання}} (де стволи чекають, поки ви кличете мішень) і те, як ви ведете рушницю з цієї точки на мішень. Глибока робота над одним типом мішені часто дає новачкові більше, ніж по одному пострілу по двадцяти різних мішенях. Коли мішень уже виходить, наступний крок — змішувати її з іншими, як на змаганні."
+    },
+    {
+      "k": "training-session-structure-p4",
+      "t": "p",
+      "en": "{{term:double|Doubles}} come after singles. First break each target of the pair on its own as a {{term:single-target|single}}. Then shoot them together: you already know where you will break each target, so you do not have to search for the second one.",
+      "uk": "{{term:double|Дуплети}} — після одиночних. Спершу розбийте кожну мішень дуплета окремо як {{term:single-target|одиночну}}. Потім стріляйте їх разом: ви вже знаєте, де розіб’єте кожну мішень, і другу не доведеться шукати."
+    },
+    {
+      "k": "training-session-structure-pressure",
+      "t": "tip",
+      "en": "If you are preparing for a competition, you can add a short task under mild pressure near the end, for example five targets in a row. How to build this up step by step: {{lesson:training-for-competition}}.",
+      "uk": "Якщо ви готуєтеся до змагань, ближче до кінця можна додати коротке завдання під легким тиском, наприклад п’ять мішеней поспіль. Як нарощувати це поступово — в уроці {{lesson:training-for-competition}}."
+    },
+    {
+      "k": "training-session-structure-p5",
+      "t": "p",
+      "en": "Finish on targets that are already going well. You then leave with the picture of a good shot rather than your last miss. Confidence is part of technique too, as coaches often say.",
+      "uk": "Завершуйте мішенями, які вже виходять добре. Так ви йдете з тренування з картинкою вдалого пострілу, а не з останнім промахом у голові. Як часто кажуть тренери, упевненість — теж частина техніки."
+    },
+    {
+      "k": "training-session-structure-p6",
+      "t": "p",
+      "en": "After the session take a few minutes, alone or with your coach: what worked, what did not, what to work on next time. Write it in your {{term:training-diary|training diary}}; how to keep one is explained in {{lesson:training-diary-and-progress}}.",
+      "uk": "Після тренування приділіть кілька хвилин розбору, самі або з тренером: що вийшло, що ні, над чим працювати наступного разу. Запишіть це в {{term:training-diary|щоденник тренувань}}; як його вести — в уроці {{lesson:training-diary-and-progress}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "training-session-structure-n-coach",
+      "for": "coach",
+      "en": "Agree on one or two aims at the start of the session and check them together at the end. One short tip after a target often works better than a long explanation.",
+      "uk": "Домовтеся з учнем про одну-дві цілі на початку тренування й разом перевірте їх наприкінці. Одна коротка порада після мішені часто дає більше, ніж довге пояснення."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "training-session-structure-kp1",
+      "en": "Warm-up: light movement and a few easy targets",
+      "uk": "Розминка: легкі рухи й кілька простих мішеней"
+    },
+    {
+      "k": "training-session-structure-kp2",
+      "en": "Main part: one or two kinds of target, many repetitions",
+      "uk": "Основна частина — один-два типи мішеней, багато повторень"
+    },
+    {
+      "k": "training-session-structure-kp3",
+      "en": "Doubles only after each target is broken on its own",
+      "uk": "Дуплети — після того, як кожну мішень розбито окремо"
+    },
+    {
+      "k": "training-session-structure-kp4",
+      "en": "Finish with targets that are going well",
+      "uk": "Завершуйте мішенями, що виходять добре"
+    },
+    {
+      "k": "training-session-structure-kp5",
+      "en": "After the session: a short review and a note in your diary",
+      "uk": "Після тренування — короткий розбір і запис у щоденник"
+    }
+  ],
+  "did_you_know": {
+    "k": "training-session-structure-dyk",
+    "en": "Many coaches ask the shooter to name the {{term:break-point|break point}}, the place where they plan to break the target, before calling: the plan becomes clearer.",
+    "uk": "Багато тренерів просять стрільця ще до виклику назвати вголос {{term:break-point|точку пострілу}} — місце, де він збирається розбити мішень: так план стає чіткішим."
+  },
+  "quiz": [
+    {
+      "k": "training-session-structure-q1",
+      "disc": "both",
+      "q": {
+        "en": "How many kinds of target does a beginner usually work on in the main part of a session?",
+        "uk": "Зі скількома типами мішеней новачок зазвичай працює в основній частині тренування?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "All the targets the ground has",
+          "uk": "З усіма мішенями, які є на стенді"
+        },
+        {
+          "k": "b",
+          "en": "Doubles only, with no singles",
+          "uk": "Лише з дуплетами, без одиночних"
+        },
+        {
+          "k": "c",
+          "en": "One or two, shot many times",
+          "uk": "З однією-двома, багато разів"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Many coaches find that deep work on one or two kinds of target brings a beginner more progress than single shots at many. Mixing targets comes later, once they go well.",
+        "uk": "Багато тренерів вважають, що глибока робота над одним-двома типами мішеней дає новачкові більший поступ, ніж поодинокі постріли по багатьох. Змішувати мішені варто пізніше, коли вони вже виходять."
+      }
+    },
+    {
+      "k": "training-session-structure-q2",
+      "disc": "both",
+      "q": {
+        "en": "How do many coaches suggest approaching a double?",
+        "uk": "Як багато тренерів радять підходити до дуплета?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Break each target alone first, then both together",
+          "uk": "Спершу розбити кожну мішень окремо, потім обидві разом"
+        },
+        {
+          "k": "b",
+          "en": "Shoot both targets together from the start",
+          "uk": "Із самого початку стріляти обидві мішені разом"
+        },
+        {
+          "k": "c",
+          "en": "Practise only the second target of the pair",
+          "uk": "Відпрацьовувати лише другу мішень дуплета"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Then you already know where you will break each target of the double.",
+        "uk": "Так ви вже знаєте, де розіб’єте кожну мішень дуплета."
+      }
+    },
+    {
+      "k": "training-session-structure-q3",
+      "disc": "both",
+      "q": {
+        "en": "Which targets do many coaches suggest for the end of a session?",
+        "uk": "Якими мішенями багато тренерів радять завершувати тренування?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The hardest target of the day",
+          "uk": "Найважчою мішенню всього дня"
+        },
+        {
+          "k": "b",
+          "en": "Targets that are already going well",
+          "uk": "Мішенями, що вже вдаються"
+        },
+        {
+          "k": "c",
+          "en": "A long series until you are tired",
+          "uk": "Довгою серією аж до втоми"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Ending on success builds confidence for the next session.",
+        "uk": "Завершення на успіху додає впевненості перед наступним тренуванням."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "3e6bc146",
+    "summary": "7c5ccecd",
+    "training-session-structure-p1": "8dfc4de5",
+    "training-session-structure-p2": "308d0f92",
+    "training-session-structure-p3": "e4323a7e",
+    "training-session-structure-p4": "b1b183dc",
+    "training-session-structure-pressure": "cc6f894a",
+    "training-session-structure-p5": "a72fd006",
+    "training-session-structure-p6": "b1c156ad",
+    "training-session-structure-n-coach": "5c23c4c7",
+    "training-session-structure-kp1": "e0a64c64",
+    "training-session-structure-kp2": "0f626e45",
+    "training-session-structure-kp3": "d00f29a0",
+    "training-session-structure-kp4": "d68dbeeb",
+    "training-session-structure-kp5": "8ff35da0",
+    "training-session-structure-dyk": "e408d872",
+    "training-session-structure-q1": "f0ba93f4",
+    "training-session-structure-q2": "96841592",
+    "training-session-structure-q3": "c62a09f7"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

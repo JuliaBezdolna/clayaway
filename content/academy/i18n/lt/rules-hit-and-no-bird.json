@@ -1,0 +1,150 @@
+{
+  "id": "rules-hit-and-no-bird",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "4794c74b",
+    "summary": "3e83dc06",
+    "rules-hit-and-no-bird-p1": "277f0b67",
+    "targets-hit-or-lost-p1": "b9ef7e75",
+    "targets-hit-or-lost-p2": "79ab83c6",
+    "targets-hit-or-lost-p3": "5d73bfd4",
+    "rules-hit-and-no-bird-cmp1": "53b14c69",
+    "rules-hit-and-no-bird-p5": "0ade6c15",
+    "rules-hit-and-no-bird-cmp2": "f1a043d3",
+    "rules-hit-and-no-bird-p6": "c54645e2",
+    "rules-hit-and-no-bird-p7": "f9ae3e0e",
+    "rules-hit-and-no-bird-cmp3": "b6fc783c",
+    "rules-hit-and-no-bird-tip1": "24b646d0",
+    "rules-hit-and-no-bird-n1": "ab0492bb",
+    "targets-hit-or-lost-p5": "ffcca686",
+    "targets-hit-or-lost-ph2": "fc9b62f4",
+    "targets-hit-or-lost-ph3": "c4348d9e",
+    "targets-hit-or-lost-ph4": "9b667f8d",
+    "targets-hit-or-lost-kp1": "bdfb734e",
+    "targets-hit-or-lost-kp2": "13eb98a1",
+    "targets-hit-or-lost-kp3": "92a918aa",
+    "rules-hit-and-no-bird-kp3": "2a1721c2",
+    "rules-hit-and-no-bird-kp5": "349a6284",
+    "rules-hit-and-no-bird-dyk": "d7a6a51a",
+    "rules-hit-and-no-bird-q1": "3cd36c18",
+    "rules-hit-and-no-bird-q2": "bfbdfb6e",
+    "rules-hit-and-no-bird-q3": "bdbc54bd",
+    "competitions-scoring-basics-q3": "aa26aace",
+    "targets-hit-or-lost-q1": "dc9c7876",
+    "targets-hit-or-lost-q3": "73a4d8e6"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Kas vertinama kaip pataikymas ir kas yra No Bird",
+  "summary": "{{tm:sporting}} ir {{tm:compak}} rungtyse taikinys yra pataikymas, jei nuo jo atskyla bent vienas matomas gabalas; vien dulkės – promašymas. No Bird nevertinamas ir paleidžiamas iš naujo.",
+  "body": {
+    "rules-hit-and-no-bird-p1": "{{tm:sporting}} ir {{tm:compak}} rungtyse kiekvienas taikinys turi tik du rezultatus: „one“ (pataikyta) arba „zero“ (promašyta). Pusių balų nėra.",
+    "targets-hit-or-lost-p1": "Taikinys vertinamas „one“, kai teisingi trys dalykai. Jis buvo taisyklingai paleistas, šaulys šovė taip, kaip reikalauja taisyklės, ir nuo jo atskilo bent vienas {{term:visible-piece|matomas gabalas}} (taikinys, sudužęs visiškai, taip pat skaitomas). Ta pati taisyklė taikoma {{term:flash-target|flash taikiniams}} (taikiniams, kurie pataikius išleidžia spalvoto miltelio debesėlį). Taikinys yra „zero“ (promašytas), kai matomo gabalo nėra, o yra tik dulkės ar dūmai.",
+    "targets-hit-or-lost-p2": "Tad visa taisyklė nusileidžia iki vieno dalyko, kurį galima pamatyti: nulūžtančio gabalo. Mažas nulėkęs {{term:chip|nuskeltas gabalėlis}} vertinamas kaip pataikymas. Dulkių debesėlis, kai taikinys skrenda toliau vienu kūnu, – promašymas.",
+    "targets-hit-or-lost-p3": "Ar pataikyta į taikinį, sprendžia tik {{term:referee|teisėjas}}. Grupės nariai negali reikšti nuomonės, ir niekas negali pakelti taikinio jo patikrinti.",
+    "rules-hit-and-no-bird-cmp1": {
+      "sporting": "Sudaužykite taikinius ten, kur teisėjas mato sudaužymą. Jei taikinys sudūžta už kliūties ar už {{term:shooting-limit|šaudymo ribos}} (zonos, kurioje sudaužymas skaičiuojamas, krašto), sprendžia teisėjas. Šio sprendimo apskųsti negalima. Paprašę kito taikinio, jūs sutinkate su sprendimu dėl ankstesnio.",
+      "compak": "Kiekvieną zero teisėjas skelbia garsiai arba garso signalu. Prieštaraukite iškart, iki kito šaulio komandos."
+    },
+    "rules-hit-and-no-bird-p5": "{{term:no-bird|No Bird}} – taikinys, kuris nevertinamas ir paleidžiamas iš naujo. Teisėjas skelbia No Bird, kai taikinys paleistas sudužęs, iš netinkamos mašinėlės arba netinkamos spalvos ({{tm:sporting}} rungtyje – ir netinkamo dydžio ar tipo). Kitos priežastys – netaisyklinga trajektorija, paleidimas vėliau nei po 3 sekundžių (žr. {{lesson:rules-call-and-time}}) arba taikinys, kurio neprašėte. No Bird skelbiamas ir tada, kai kažkas jums akivaizdžiai sutrikdė, arba kai teisėjas negali nustatyti rezultato.",
+    "rules-hit-and-no-bird-cmp2": {
+      "sporting": "Jei dvi mišenės vienu metu išskrenda iš to pačio šaudymo vietos mašinėlių, tai taip pat No Bird.",
+      "compak": "Bloga oro sąlyga No Bird nesukelia, kad ir kokie orai. Taikinys ar jo gabalai, atskridę iš kaimyninio {{tm:compak}} {{term:layout|aikštelės}} (šalia esančio lauko), taip pat No Bird nesukelia. O klaidinga mišenė iš jūsų pačios aikštelės mašinėlės – sukelia."
+    },
+    "rules-hit-and-no-bird-p6": "Po No Bird pavienis taikinys tiesiog paleidžiamas iš naujo. Dublete viskas priklauso nuo to, kuris taikinys buvo netaisyklingas: žr. {{lesson:rules-doubles}}.",
+    "rules-hit-and-no-bird-p7": "Teisėjui paskelbus No Bird, į tą taikinį šauti negalima. Po pirmo įspėjimo tai baudžiama abiejose rungtyse; kaip tada vertinami taikiniai, nurodyta taisyklių vadove.",
+    "rules-hit-and-no-bird-cmp3": {
+      "sporting": "Dėl staigios smarkios liūties ar audros, kuri, panašu, truks neilgai, teisėjas gali sustabdyti šaudymą. Jei pertrauka užsitęsia, teisėjas informuoja žiuri.",
+      "compak": "Sustabdyti šaudymą dėl staigios liūties ar audros gali tik vyriausiasis teisėjas. Jei pertrauka gali užsitęsti, informuojamas žiuri."
+    },
+    "rules-hit-and-no-bird-tip1": "Jei manote, kad sprendimas buvo klaidingas, pakelkite ranką ir pasakykite tai iki kitos komandos. Ginčas vėliau rezultato nepakeis; kaip veikia protestas – pamokoje {{lesson:competitions-results-and-protests}}."
+  },
+  "note": {
+    "rules-hit-and-no-bird-n1": "Trenerio žargonas gali reikšti priešingai nei taisyklės. {{term:smoked-it|„Smoked it“}} giria labai švarų pataikymą, o taisyklėse „tik dulkės ar dūmai“ reiškia promašytą taikinį. Daugiau – {{lesson:interpreter-false-friends}}.",
+    "targets-hit-or-lost-p5": "Dar du žodžiai: „dead“ teisėjo lūpose reiškia pataikymą (ne „mirę“), o „lost“ – promašymą (ne „pamesta“)."
+  },
+  "phrases": {
+    "targets-hit-or-lost-ph2": {
+      "meaning": "Atskilo mažas matomas gabalėlis, todėl tai pataikymas.",
+      "say": "Pataikyta — tik gabalėlis, bet įskaitoma."
+    },
+    "targets-hit-or-lost-ph3": {
+      "meaning": "Nepataikyta; šratai praskriejo už taikinio.",
+      "say": "Nepataikyta — buvote truputį už jo."
+    },
+    "targets-hit-or-lost-ph4": {
+      "meaning": "Prieštaravimą reikia pareikšti iš karto; prašant kito taikinio sutinkama su sprendimu.",
+      "say": "Vėliau su manimi nesiginčykite — sakykite dabar, prieš duodami komandą."
+    }
+  },
+  "key_points": {
+    "targets-hit-or-lost-kp1": "„One“: nuo taikinio atskilo bent vienas matomas gabalas, arba jis visiškai sudužo.",
+    "targets-hit-or-lost-kp2": "„Zero“: matomo gabalo nėra, tik dulkės ar dūmai.",
+    "targets-hit-or-lost-kp3": "Sprendžia tik teisėjas; taikinio kelti patikrinti negalima; prieštarauti – iškart.",
+    "rules-hit-and-no-bird-kp3": "No Bird nevertinamas ir paleidžiamas iš naujo; šauti į paskelbtą No Bird negalima.",
+    "rules-hit-and-no-bird-kp5": "{{tm:compak}}: bloga oro sąlyga No Bird nesukelia."
+  },
+  "did_you_know": "{{tm:compak}} rezultatų kortelėse pataikymas žymimas X, o promašymas – O.",
+  "quiz": {
+    "rules-hit-and-no-bird-q1": {
+      "q": "Po šūvio nuo taikinio pakyla tik dulkės, gabalo nematyti. Koks rezultatas?",
+      "options": {
+        "a": "One",
+        "b": "No Bird",
+        "c": "Zero"
+      },
+      "explain": "Pataikymui reikia bent vieno matomo gabalo; vien dulkės ar dūmai – tai zero."
+    },
+    "rules-hit-and-no-bird-q2": {
+      "q": "Kas sprendžia, ar pataikyta į taikinį?",
+      "options": {
+        "a": "Tik teisėjas",
+        "b": "Grupės balsavimas",
+        "c": "Pats šaulys"
+      },
+      "explain": "Teisėjas sprendžia vienas ir gali pasitarti su kitais tik savo iniciatyva."
+    },
+    "rules-hit-and-no-bird-q3": {
+      "q": "{{tm:compak}} rungtyje prasidėjo stipri liūtis, ir jūs promašote. Koks rezultatas?",
+      "options": {
+        "a": "Tai No Bird",
+        "b": "Tai zero",
+        "c": "No Bird, jei paprašysite"
+      },
+      "explain": "{{tm:compak}} rungtyje sudužęs taikinys yra „one“, o promašymas – „zero“ bet kokiu oru. Sustabdyti šaudymą dėl staigios audros gali tik vyriausiasis teisėjas."
+    },
+    "competitions-scoring-basics-q3": {
+      "q": "Iš mašinėlės išskrenda netinkamos spalvos taikinys. Kas tai?",
+      "options": {
+        "a": "No Bird",
+        "b": "Zero",
+        "c": "One"
+      },
+      "explain": "Netinkamos spalvos taikinys abiejose rungtyse yra No Bird, jį paleidžia iš naujo."
+    },
+    "targets-hit-or-lost-q1": {
+      "q": "Nuo taikinio nulekia menkas gabalėlis, o likusi dalis skrenda toliau. Koks rezultatas?",
+      "options": {
+        "a": "Zero (promašyta)",
+        "b": "One (pataikyta)",
+        "c": "No Bird",
+        "d": "Pusė taško"
+      },
+      "explain": "Bet kuris matomas gabalas, kad ir koks mažas, reiškia pataikymą."
+    },
+    "targets-hit-or-lost-q3": {
+      "q": "Po sprendimo „lost“ grupės narys eina pakelti taikinio, kad parodytų teisėjui nuskeltą gabalėlį. Ką sako taisyklės?",
+      "options": {
+        "a": "Teisėjas turi jį apžiūrėti",
+        "b": "Grupė balsuoja",
+        "c": "Negalima: taikinių nekelia",
+        "d": "Sprendžia treneris"
+      },
+      "explain": "Niekas negali kelti taikinio patikrinti, ir grupės nariai negali kištis: sprendžia tik teisėjas."
+    }
+  }
+}

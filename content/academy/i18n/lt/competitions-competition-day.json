@@ -1,0 +1,165 @@
+{
+  "id": "competitions-competition-day",
+  "lang": "lt",
+  "base_rev": 2,
+  "h": {
+    "title": "da330bf4",
+    "summary": "03f0d6e8",
+    "sport-competition-day-p1": "fe775f1f",
+    "competitions-competition-day-p1": "1637c3ac",
+    "competitions-competition-day-p2": "67e7bbfe",
+    "competitions-competition-day-p3": "f4441a9d",
+    "competitions-competition-day-practice": "8b778fed",
+    "sport-competition-day-p2": "e6be5fdb",
+    "competitions-competition-day-p5": "dd34255e",
+    "competitions-competition-day-ready": "b0097c3e",
+    "sport-competition-day-p3": "1c827ea1",
+    "sport-competition-day-p4": "31ca987d",
+    "competitions-competition-day-late-inline": "b5ebbfb9",
+    "competitions-competition-day-late": "29daedd5",
+    "sport-competition-day-p5": "88bcdcdc",
+    "competitions-competition-day-end": "d5f38b62",
+    "competitions-competition-day-n1": "2c5d9407",
+    "competitions-competition-day-n-parent": "416800c4",
+    "sport-competition-day-ph1": "aca8882e",
+    "sport-competition-day-ph2": "19bd30f0",
+    "sport-competition-day-ph3": "c9b8e464",
+    "sport-competition-day-ph4": "2f81332b",
+    "sport-competition-day-kp1": "1253bc50",
+    "competitions-competition-day-kp1": "d0538c31",
+    "competitions-competition-day-kp-ready": "4fd327b5",
+    "sport-competition-day-kp4": "05da6963",
+    "sport-competition-day-kp5": "8745608e",
+    "competitions-competition-day-dyk": "bee33939",
+    "competitions-competition-day-q-protection": "52593bf2",
+    "competitions-competition-day-q2": "ee8d9127",
+    "sport-competition-day-q2": "1bccddb2",
+    "competitions-competition-day-q1": "2e3a9e98",
+    "sport-competition-day-q3": "7ccca26d",
+    "competitions-competition-day-q-inline-late": "ba6595e7",
+    "competitions-competition-day-q-carry": "861a9947"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Varžybų diena nuo pradžios iki pabaigos",
+  "summary": "Kas vyksta varžybų dieną {{tm:sporting}} ir {{tm:compak}} rungtyse: registracija, numeris, grupės ir šaudymo tvarka, vėlavimas, rezultatai ir dienos pabaiga.",
+  "body": {
+    "sport-competition-day-p1": "Diena prasideda registracija: šaulys patvirtina {{term:entry|registraciją}}, gauna {{term:competitor-number|varžybų numerį}} ir prisisega jį viršutinėje nugaros dalyje, kad būtų visiškai matomas. Tada visi pasitikrina {{term:squad|grupių}} sąrašus ir {{term:shooting-times|šaudymo laiką}}. Grupė – tai iki šešių burtų keliu sudarytų šaulių, kurie šaudo kartu. Laikytis tvarkaraščio – paties šaulio atsakomybė.",
+    "competitions-competition-day-p1": "Atvykite anksčiau: registracija, savo grupės paieška ir pasiruošimas užima laiko. {{term:competitor-number|Numeris}} tvirtinamas tarp pečių ir juosmens, nesulankstytas ir nenukarpytas. Užsidėkite {{term:hearing-protection|klausos apsaugą}} ir {{term:safety-glasses|saugos akinius}} prieš eidami į šaudymo vietą. Abiejose rungtyse šaulys, atėjęs be jų, laikomas neatvykusiu, ir jam taikomos vėlavimo taisyklės (žr. žemiau).",
+    "competitions-competition-day-p2": "Rengtis tvarkingai ir saugiai: šortai gali siekti {{fact:rules.dress-shorts-length}}, viršus turi būti su rankovėmis, sandalai neleidžiami. Šautuvą neškite atvertą (perlaužtą ties šarnyru, kad visi matytų, jog jis neužtaisytas) ir be dirželio. {{term:semi-automatic|Pusiau automatinis šautuvas}} nešiojamas su atidarytu spynos mechanizmu (spyna atitraukta atgal). Visos taisyklės: {{lesson:rules-dress-and-safety}}.",
+    "competitions-competition-day-p3": "Norite patikrinti, ar šautuvas veikia? Padarykite tai prieš seriją, specialioje {{term:gun-test|bandymo vietoje}}, jei tokia yra stende. Bandomieji šūviai varžybų šaudymo vietoje neleidžiami.",
+    "competitions-competition-day-practice": {
+      "sporting": "Treniruotis varžybų aikštelėse prieš renginį draudžiama visiems. Treniruokitės kitose šaudyklose.",
+      "compak": "{{term:practice|Treniruotis}} ant tų pačių taikinių skrydžių (trajektorijų), kaip ir varžybose, galima, bet {{term:trajectory-setting-table|trajektorijų nustatymo lentelė}} turi būti kita. Ši lentelė – schema, kuri nustato, iš kurių mašinėlių šaudoma kiekviename numeryje. Žemyno ir pasaulio čempionatuose oficiali treniruotė prasideda {{fact:training.compak-championship-practice}}."
+    },
+    "sport-competition-day-p2": "{{tm:sporting}} rungtyje grupė pirmiausia šaudo visus šaudymo vietos {{term:single-target|pavienius taikinius}}, tada {{term:double|dubletus}}, o kiekvienoje naujoje šaudymo vietoje pirmas šaudo kitas šaulys ({{term:rotation|šaudymo tvarka}} keičiasi). Prieš kam nors pradedant šaudyti, pirmajam grupės šauliui parodomi taikiniai: kiekvienas paleidžiamas, kad būtų matyti jo skrydis.",
+    "competitions-competition-day-p5": "Kai {{tm:compak}} šaudoma grupėmis, pilnoje grupėje yra šeši šauliai: penki stovi penkiuose numeriuose, o šeštas laukia už 1 numerio. Kai šaulių mažiau, vienas numeris lieka tuščias. Kai visi atšaudo savo taikinius iš savo numerio, grupė pasislenka vienu numeriu į dešinę. Šaulys nuo 5 numerio eina laukti už 1 numerio, o laukiantis šaulys užima 1 numerį. Tai kartojama, kol kiekvienas atšaudo iš visų penkių numerių. Prieš savo seriją nueikite į jums priskirtą Compak lauką ir prisistatykite teisėjui: tai privaloma. {{term:compak-in-line|Compak linijoje}} šauliai nesijudina grupe: jie po vieną užima 1 numerį ir eina linija iki 5 numerio.",
+    "competitions-competition-day-ready": "Kai ateina jūsų eilė, būkite pasiruošę iš karto, su šoviniais visai serijai. {{tm:compak}} rungtyje teisėjas neprivalo ieškoti trūkstamo šaulio. Kaip įrengtos šaudymo vietos: {{lesson:targets-sporting-layout}} ir {{lesson:targets-compak-layout}}.",
+    "sport-competition-day-p3": "{{term:round|Serija}} – tai 25 taikiniai: viena {{term:layout|aikštelė}} {{tm:sporting}} rungtyje, vienas laukas {{tm:compak}} rungtyje. Tarptautinės varžybos – 200 taikinių, taigi aštuonios serijos per kelias dienas. Teisėjas kiekvieną taikinį pažymi {{term:score-sheet|rezultatų kortelėje}}, paprastai X – pataikyta, O – nepataikyta. {{tm:sporting}} rungtyje šauliai pasitikrina savo rezultatą, paliekant šaudymo vietą; {{tm:compak}} rungtyje jie pasirašo kortelę serijos pabaigoje.",
+    "sport-competition-day-p4": "Vėlavimas kainuoja brangiai. {{tm:sporting}} rungtyje teisėjas per vieną minutę tris kartus pašaukia šaulio pavardę; praleidęs savo eilę šaulys gauna nulius už nešaudytus taikinius. {{tm:compak}} rungtyje šaulys, kuris atvyksta, kai pirmasis grupės šaulys jau paprašė pirmojo taikinio (paprašė jį paleisti), gauna {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late-inline": "{{term:compak-in-line|Compak linijoje}} jus laiko vėlavusiu, kai įvyksta du dalykai: kompiuterinė sistema jau atšaukė jūsų varžybų numerį, o kitas šaulys stovi 1 numeryje. Bauda ta pati: {{fact:competitions.compak-late-zeros}}.",
+    "competitions-competition-day-late": "Vėlavote dėl priežasties, kurios negalėjote kontroliuoti? Nesijunkite prie grupės savavališkai: raštu apskųskite tai {{term:jury|žiuri}} (komisijai, kuri vadovauja varžyboms), {{tm:compak}} rungtyje – tą pačią dieną. Jei žiuri sutiks, seriją atšaudysite su kita grupe. Daugiau: {{lesson:rules-call-and-time}}.",
+    "sport-competition-day-p5": "Jei šauliai lygiomis pretenduoja į vieną iš trijų pirmų vietų, lygybę sprendžia {{fact:competitions.shoot-off-format}}. Iki pirmos klaidos (sudden death) jie toliau šaudo, ir pirmas, kuris nepataiko, iškrenta. Žemiau trečios vietos atkrintamųjų nėra: šauliai lygiomis dalijasi vieta. Jų vietą sąraše nustato {{term:countback|skaičiavimas atbuline tvarka}} (countback): jų rezultatai lyginami {{fact:competitions.countback-order}}. Diena baigiasi rezultatų lenta ir {{term:prize-giving|apdovanojimais}}.",
+    "competitions-competition-day-end": "Galite patekti į atkrintamąsias varžybas? Būkite netoliese ir pasiekiami: galbūt teks šaudyti {{fact:rules.shootoff-ready-time}}. Tarptautiniuose renginiuose visi prizininkai privalo dalyvauti {{term:prize-giving|apdovanojimuose}} – su komandos apranga arba tvarkingomis kelnėmis ir švarku. Kaip skaityti rezultatus: {{lesson:watching-reading-results}}."
+  },
+  "note": {
+    "competitions-competition-day-n1": "ClayAway turuose, kurie dabar ruošiami, žodis „squad“ reikš ir turo pogrupį. Varžybose jis visada reiškia šaudymo grupę, tad aiškiai nurodykite, kurį turite omenyje.",
+    "competitions-competition-day-n-parent": "Žiūrėkite iš žiūrovams skirtos vietos ir tylėkite šalia šaudymo vietos. Patarimas, šaukiamas serijos metu, laikomas {{term:coaching|trenerio patarimu varžybų metu}} (coaching), ir teisėjas už tai gali duoti jūsų vaikui geltonąją kortelę. Daugiau: {{lesson:juniors-support-without-pressure}}."
+  },
+  "phrases": {
+    "sport-competition-day-ph1": {
+      "meaning": "Grupės numeris, pradžios aikštelė ir pradžios laikas.",
+      "say": "Jūs dvyliktoje grupėje, pradedate penktoje aikštelėje devintą trisdešimt."
+    },
+    "sport-competition-day-ph2": {
+      "meaning": "{{tm:sporting}}: įsitikinkite dabar, kad teisėjas teisingai užrašė rezultatą; vėliau bus per vėlu.",
+      "say": "Pasitikrinkite kortelę prieš palikdami šaudymo vietą."
+    },
+    "sport-competition-day-ph3": {
+      "meaning": "22 iš 25 pirmoje serijoje; 200 taikinių varžybose liko septynios serijos.",
+      "say": "Dvidešimt du pirmoje serijoje – gerai, liko dar septynios."
+    },
+    "sport-competition-day-ph4": {
+      "meaning": "Šaulys, kuris gali patekti į atkrintamąsias varžybas, turi būti pasiruošęs netrukus po pašaukimo.",
+      "say": "Būkite netoliese – jei bus lygybė, šaudysite per penkiolika minučių nuo pašaukimo."
+    }
+  },
+  "key_points": {
+    "sport-competition-day-kp1": "Registracija, varžybų numeris ant nugaros, grupių sąrašai ir laikas.",
+    "competitions-competition-day-kp1": "Be klausos apsaugos ir saugos akinių šaudymo vietoje jūs laikomas neatvykusiu.",
+    "competitions-competition-day-kp-ready": "Būkite pasiruošę savo eilėje, su šoviniais visai serijai; šautuvą tikrinkite tik bandymo vietoje.",
+    "sport-competition-day-kp4": "Už vėlavimą – nuliai; {{tm:compak}} rungtyje {{fact:competitions.compak-late-zeros}}.",
+    "sport-competition-day-kp5": "Lygybė dėl pirmųjų trijų vietų: 25 taikinių atkrintamosios varžybos, tada iki pirmos klaidos; žemesnės vietos – skaičiavimas atbuline tvarka."
+  },
+  "did_you_know": "{{tm:sporting}} rungtyje grupė laukia kiek galima arčiau šaudymo vietos, tačiau tokioje vietoje, kuri netrukdo šaudančiajam.",
+  "quiz": {
+    "competitions-competition-day-q-protection": {
+      "q": "Kas nutinka, jei atvykstate į šaudymo vietą be klausos apsaugos ar saugos akinių?",
+      "options": {
+        "a": "Šaudyti galima, bet gausite įspėjimą",
+        "b": "Jūs laikomas neatvykusiu ir šaudyti negalite",
+        "c": "Teisėjas duos jums atsarginį komplektą"
+      },
+      "explain": "Abiejose rungtyse šaulys be klausos apsaugos ar saugos akinių laikomas neatvykusiu, ir jam taikomos vėlavimo taisyklės."
+    },
+    "competitions-competition-day-q2": {
+      "q": "Kur galima patikrinti, ar šautuvas veikia?",
+      "options": {
+        "a": "Pirmoje varžybų šaudymo vietoje, prieš seriją",
+        "b": "Bet kur stende, jei aplinkui nėra žmonių",
+        "c": "Specialioje bandymo vietoje, jei tokia yra"
+      },
+      "explain": "Bandomieji šūviai varžybų šaudymo vietoje neleidžiami nei vienoje rungtyje; naudokitės bandymo vieta."
+    },
+    "sport-competition-day-q2": {
+      "q": "{{tm:compak}} rungtyje, šaudant grupėmis, šaulys atvyksta po to, kai pirmasis šaulys jau paprašė pirmojo taikinio. Kas nutinka?",
+      "options": {
+        "a": "Nieko, jis prisijungia",
+        "b": "Jis gauna 25 nulius už tą seriją",
+        "c": "Jis vėliau atšaudo seriją vienas be nuobaudos",
+        "d": "Jis praranda vieną taikinį"
+      },
+      "explain": "{{tm:compak}} rungtyje, šaudant grupėmis, atvykimas po pirmosios komandos kainuoja {{fact:competitions.compak-late-zeros}}. Jei priežastis nepriklausė nuo jūsų, tą pačią dieną raštu galite apskųsti sprendimą žiuri."
+    },
+    "competitions-competition-day-q1": {
+      "q": "Kiek daugiausia šaulių gali būti grupėje?",
+      "options": {
+        "a": "4",
+        "b": "6",
+        "c": "8"
+      },
+      "explain": "Ir {{tm:sporting}}, ir {{tm:compak}} rungtyje grupėje daugiausia 6 šauliai."
+    },
+    "sport-competition-day-q3": {
+      "q": "Du šauliai lygiomis dalijasi 5 vietą. Kaip jie išskiriami?",
+      "options": {
+        "a": "25 taikinių atkrintamosiomis varžybomis dėl tos vietos",
+        "b": "Burtais po renginio pabaigos",
+        "c": "Jie dalijasi vieta; tvarką nustato skaičiavimas atbuline tvarka nuo 8-osios aikštelės ar Compak",
+        "d": "Pagal amžių: jaunesnis šaulys rikiuojamas aukščiau"
+      },
+      "explain": "Atkrintamosios varžybos rengiamos tik dėl trijų pirmų vietų. Žemiau šauliai lygiomis dalijasi vieta, o skaičiavimas atbuline tvarka lygina 8-ąją aikštelę ar Compak, tada 7-ąją ir taip toliau."
+    },
+    "competitions-competition-day-q-inline-late": {
+      "q": "Kada jus laiko vėlavusiu Compak linijoje?",
+      "options": {
+        "a": "Kai jūsų numeris atšaukiamas sistemoje, o kitas šaulys stovi 1 numeryje",
+        "b": "Kai teisėjas pirmą kartą pašaukia jūsų vardą",
+        "c": "Tik kai visa jūsų grupė baigia šaudyti seriją"
+      },
+      "explain": "Turi įvykti du dalykai: jūsų numeris jau atšauktas kompiuterinėje sistemoje, o kitas šaulys stovi 1 numeryje. Bauda – {{fact:competitions.compak-late-zeros}}."
+    },
+    "competitions-competition-day-q-carry": {
+      "q": "Kaip nešioti šautuvą tarp šaudymo vietų?",
+      "options": {
+        "a": "Atvertą, kad visi matytų, jog jis neužtaisytas, ir be dirželio",
+        "b": "Užvertą ir neužtaisytą, ant dirželio per petį",
+        "c": "Užvertą, su užraktu, vamzdžiais žemyn"
+      },
+      "explain": "Šautuvai nešiojami atverti, dirželiai neleidžiami; pusiau automatinis šautuvas nešiojamas su atidarytu spynos mechanizmu."
+    }
+  }
+}

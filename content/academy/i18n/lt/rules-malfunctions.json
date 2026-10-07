@@ -1,0 +1,239 @@
+{
+  "id": "rules-malfunctions",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "42ad182b",
+    "summary": "9f55921b",
+    "sporting-malfunctions-p1": "41a008e3",
+    "sporting-malfunctions-p2": "d3532cc1",
+    "safety-malfunction-p3": "21d65653",
+    "rules-malfunctions-cmp1": "f79b0f17",
+    "sporting-malfunctions-p4": "4eef43d0",
+    "sporting-malfunctions-p5": "1a92fd88",
+    "compak-malfunctions-p3": "a9c8fd76",
+    "compak-malfunctions-p4": "a0165b36",
+    "compak-malfunctions-p5": "6c9dff80",
+    "rules-malfunctions-p7": "b2c06d3e",
+    "rules-malfunctions-n1": "0b3b256f",
+    "sporting-malfunctions-ph1": "c9bdfb88",
+    "sporting-malfunctions-ph2": "af62cc6a",
+    "sporting-malfunctions-ph3": "b1131f9c",
+    "sporting-malfunctions-ph4": "57b5468e",
+    "compak-malfunctions-ph1": "970afde6",
+    "compak-malfunctions-ph2": "b20b6941",
+    "compak-malfunctions-ph3": "4503ddd1",
+    "compak-malfunctions-ph4": "8cf9d336",
+    "sporting-malfunctions-kp1": "849f2ecd",
+    "sporting-malfunctions-kp2": "ebfb6f3d",
+    "compak-malfunctions-kp1": "13690047",
+    "sporting-malfunctions-kp4": "103b47fd",
+    "rules-malfunctions-kp5": "86bbb46b",
+    "safety-malfunction-dyk": "1e8c958c",
+    "rules-malfunctions-q1": "a05aaec5",
+    "rules-malfunctions-q2": "516fa443",
+    "rules-malfunctions-q3": "99323093",
+    "safety-malfunction-q1": "a94af216",
+    "safety-malfunction-q2": "016e7972",
+    "safety-malfunction-q3": "9d5fedce",
+    "competitions-scoring-basics-q2": "90ddf735",
+    "sporting-malfunctions-q1": "332f9baa",
+    "sporting-malfunctions-q2": "4028e248",
+    "sporting-malfunctions-q3": "772d233e",
+    "compak-malfunctions-q1": "8716abe3",
+    "compak-malfunctions-q2": "6d7c5bb8",
+    "compak-malfunctions-q3": "33252bbe"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Šautuvo ar šovinio gedimai",
+  "summary": "Ką daryti, kai šautuvas neiššauna, ir kaip gedimas vertinamas {{tm:sporting}} ir {{tm:compak}} rungtyse.",
+  "body": {
+    "sporting-malfunctions-p1": "{{term:malfunction|Gedimas}} – tai šautuvo ar šovinio sutrikimas: šovinys neiššauna, antras vamzdis nešauna arba abu vamzdžiai iššauna kartu ({{term:double-discharge|dvigubas paleidimas}}).",
+    "sporting-malfunctions-p2": "Pirmiausia – ką turi padaryti šaulys: likite vietoje, šautuvą nukreipę į šaudymo lauką. Neatverkite jo ir nelieskite {{term:safety-catch|saugiklio}}, kol teisėjas jo nepatikrino. Jei atversite šautuvą ar paliesite saugiklį anksčiau, taikinys ar taikiniai vertinami nuliu. Nebandykite patys išrinkti užtaisyto šautuvo šaudymo vietoje.",
+    "safety-malfunction-p3": "Kodėl šautuvo neatidaryti iškart? Kartais šovinys iššauna vėliau – per sekundės dalį ar ilgiau po gaiduko nuspaudimo: {{term:hang-fire|neiššauna laiku}} (hang fire). Jei tą akimirką šautuvas atvertas ar nukreiptas į šoną, tai pavojinga. Tad treniruotėje be teisėjo palaukite, laikydami šautuvą saugia kryptimi, ir tik tada atverkite; kiek laukti, pasakys instruktorius ar stendo taisyklės.",
+    "rules-malfunctions-cmp1": {
+      "sporting": "{{term:round|Serijos}} ribose iš {{fact:rules.round-targets}}. Pirmas incidentas – No Bird su įspėjimu, ir taikinys kartojamas. Nuo antro taikinys nekartojamas, bet vertinamas nuliu.",
+      "compak": "Serijos ribose iš {{fact:rules.round-targets}}. Pirmas incidentas – No Bird su {{term:yellow-card|geltonąja kortele}}. Antras to pačio tipo – {{term:red-card|raudonoji kortelė}}, o taikiniai, į kuriuos nešauta, vertinami nuliu."
+    },
+    "sporting-malfunctions-p4": "Jūsų pirmasis gedimas serijoje, atvejis po atvejo. (1) Nesuveikia pirmas šūvis: pavienę mišenę ar dubletą šaudote iš naujo. Jei vis tiek iššovėte antrą šūvį, jo rezultatas skaičiuojamas. (2) Pavienei mišenei nesuveikia antras šūvis: šaudote ją iš naujo, ir pakartojime skaičiuojamas tik antro šūvio pataikymas. Tad pirmu šūviu tyčia promašykite. (3) Abu vamzdžiai iššauna kartu į pavienę mišenę arba į dubleto pirmą taikinį: No Bird, nieko neįrašoma, šaudote iš naujo. Kaip kartojamas kiekvienas dubleto tipas – taisyklių vadove ({{rule:sporting:ch6-malfunction-second-shot}}).",
+    "sporting-malfunctions-p5": "Jei šautuvas sutaisomas, kol grupė dar nebaigė šaudymo vietos, galite šaudyti tą vietą paskutinis, teisėjui leidus. Jei sutaisyti nepavyksta, galite iškart persijungti prie kito šautuvo, teisėjui sutikus, arba baigti vėliau kitoje grupėje, jei leidžia žiuri. Be gedimo atvejo, šaudymo vietoje pakeisti šautuvo, čoko ar vamzdžių negalima.",
+    "compak-malfunctions-p3": "Jūsų pirmasis gedimas serijoje. Jei abu vamzdžiai iššauna kartu arba nesuveikia pirmas šovinys, pavienė mišenė ar dubletas paleidžiami iš naujo, o nepavykęs bandymas nieko nereiškia. Jei pavienei mišenei nesuveikia antras šovinys, taikinys paleidžiamas iš naujo, bet jį įskaityti gali tik antras šūvis. Tad pirmu šūviu tyčia promašykite. Dėl dubletų – žr. taisyklių vadovą ({{rule:compak:ch20-gun-failure-second-shot}}).",
+    "compak-malfunctions-p4": "Po gedimo turite {{fact:rules.compak-repair-time}} šautuvui sutaisyti ar pakeisti. Išimties tvarka galite pasiskolinti šautuvą iš šaulio, kuris nėra jūsų grupėje, savininkui ir teisėjui sutikus. Be veikiančio šautuvo likę taikiniai vertinami nuliu. Kitais atvejais serijos metu keisti šautuvo, čoko ar vamzdžių negalima.",
+    "compak-malfunctions-p5": "{{term:rabbit|Triušis}} – tai lėkštelė, kuri ritasi žeme. Abiejose rungtyse, jei promašote pirmu šūviu, o triušis sudūžta pats dar iki antro šūvio, tai yra No Bird. Taip atsitinka, kai jis atsitrenkia į akmenį. Pakartojime skaičiuojamas tik antras šūvis, kaip ir po gedimo prie antro šūvio.",
+    "rules-malfunctions-p7": "Patikrinkite šautuvą ir šovinius prieš seriją, {{term:gun-test|bandymo vietoje}} netoli klubo, jei tokia yra. Bandomieji šūviai šaudymo vietoje draudžiami abiejose rungtyse."
+  },
+  "note": {
+    "rules-malfunctions-n1": "Teisėjo žodžius perduokite iškart ir pažodžiui: „stovėkite, neatverkite šautuvo“. Priežastis aiškinkite tik po patikros."
+  },
+  "phrases": {
+    "sporting-malfunctions-ph1": {
+      "meaning": "Teisėjas: laukite apžiūros; jei pirmiau atlaušite, prarasite taikinį.",
+      "say": "Stovėkite, neatlaužkite šautuvo."
+    },
+    "sporting-malfunctions-ph2": {
+      "meaning": "Teisėjas apžiūri šautuvą ar šovinį.",
+      "say": "Leiskite pažiūrėti šautuvą."
+    },
+    "sporting-malfunctions-ph3": {
+      "meaning": "Pirmasis incidentas serijoje: taikinys kartojamas.",
+      "say": "Gedimas. Kartoti, pirmas įspėjimas."
+    },
+    "sporting-malfunctions-ph4": {
+      "meaning": "Šį kartą be pakartojimo; taikinys prarastas.",
+      "say": "Antras gedimas šioje serijoje. Nulis."
+    },
+    "compak-malfunctions-ph1": {
+      "meaning": "Teisėjas: po gedimo laukite apžiūros.",
+      "say": "Nejudėkite, šautuvo neatlaužkite."
+    },
+    "compak-malfunctions-ph2": {
+      "meaning": "Pirmasis šio tipo incidentas serijoje; taikinys paleidžiamas iš naujo.",
+      "say": "Pirmasis gedimas. Geltonoji kortelė, kartoti."
+    },
+    "compak-malfunctions-ph3": {
+      "meaning": "Laikas šautuvui sutaisyti ar pakeisti.",
+      "say": "Turite dvi minutes."
+    },
+    "compak-malfunctions-ph4": {
+      "meaning": "Kartojimas po antrojo šovinio gedimo: pirmuoju šūviu tyčia nepataikykite.",
+      "say": "Šitame įskaitomas tik antrasis šūvis."
+    }
+  },
+  "key_points": {
+    "sporting-malfunctions-kp1": "Po gedimo: likite vietoje, šautuvas nukreiptas į šaudymo lauką, neatverkite jo ir nelieskite saugiklio.",
+    "sporting-malfunctions-kp2": "Pirmas incidentas serijoje: No Bird ir įspėjimas (su taikinio pakartojimu).",
+    "compak-malfunctions-kp1": "Antras incidentas toje pačioje serijoje – be pakartojimo. {{tm:sporting}} rungtyje taikinys – nulis. {{tm:compak}} rungtyje antras to pačio tipo gedimas – raudonoji kortelė, o taikiniai, į kuriuos nešauta, – nuliai.",
+    "sporting-malfunctions-kp4": "Nesuveikė antras šūvis pavienei mišenei: pakartojime skaičiuojamas tik antro šūvio pataikymas.",
+    "rules-malfunctions-kp5": "{{tm:compak}}: {{fact:rules.compak-repair-time}} šautuvui sutaisyti ar pakeisti."
+  },
+  "did_you_know": "Dalis pradedančiųjų „gedimų“ – tiesiog neatlaisvintas saugiklis. Treneris išmokys jį patikrinti dar prieš komandą.",
+  "quiz": {
+    "rules-malfunctions-q1": {
+      "q": "Jūsų šovinys nesuveikia. Ką daryti pirmiausia?",
+      "options": {
+        "a": "Atverti šautuvą ir patikrinti šovinį",
+        "b": "Iškart užtaisyti iš naujo ir vėl pakviesti taikinį",
+        "c": "Likti vietoje, šautuvas uždarytas, laukti teisėjo"
+      },
+      "explain": "Jei atversite šautuvą ar palietote saugiklį iki teisėjo patikros, taikinys vertinamas nuliu."
+    },
+    "rules-malfunctions-q2": {
+      "q": "{{tm:sporting}} rungtyje toje pačioje serijoje įvyksta antras šautuvo gedimas, ant pavienės mišenės. Koks rezultatas?",
+      "options": {
+        "a": "Zero",
+        "b": "No Bird",
+        "c": "One"
+      },
+      "explain": "No Bird skiriamas tik už pirmą gedimą serijoje; nuo antro taikinys vertinamas nuliu."
+    },
+    "rules-malfunctions-q3": {
+      "q": "Kiek laiko {{tm:compak}} rungtyje turite šautuvui sutaisyti ar pakeisti?",
+      "options": {
+        "a": "30 sekundžių",
+        "b": "2 minutės",
+        "c": "10 minučių"
+      },
+      "explain": "Jūs turite {{fact:rules.compak-repair-time}}; be veikiančio šautuvo neatšaudyti taikiniai vertinami nuliu."
+    },
+    "safety-malfunction-q1": {
+      "q": "Treniruotėje, be teisėjo, šautuvas spragtelėjo, bet nešovė. Ką daryti?",
+      "options": {
+        "a": "Iškart atverti ir pažiūrėti",
+        "b": "Laikyti saugia kryptimi ir palaukti, prieš atverti",
+        "c": "Atsisukti ir parodyti treneriui"
+      },
+      "explain": "Šovinys gali iššauti su vėlavimu (hang fire), tad laikykite vamzdžių galus saugia kryptimi ir palaukite, prieš atversdami šautuvą. Kiek laukti, pasakys instruktorius ar stendo taisyklės."
+    },
+    "safety-malfunction-q2": {
+      "q": "Po gedimo jūs įjungiate saugiklį, kol teisėjas dar nepažiūrėjo šautuvo. Kas atsitiks?",
+      "options": {
+        "a": "Taikinys vertinamas nuliu",
+        "b": "Duos papildomą taikinį",
+        "c": "Nieko: šautuvas taip saugesnis"
+      },
+      "explain": "Palietus saugiklį iki teisėjo patikros, taikinys prarandamas – lygiai taip pat, kaip ir atvėrus šautuvą. Laukite, šautuvas nukreiptas į lauką."
+    },
+    "safety-malfunction-q3": {
+      "q": "Kodėl sugedusio šautuvo neatidaro iškart?",
+      "options": {
+        "a": "Kad nesuteptumėte šovinio",
+        "b": "Nes šovinys gali iššauti vėliau",
+        "c": "Nes taip atrodo geriau"
+      },
+      "explain": "Pavėluotas šūvis (hang fire) retas, bet pavojingas, tad šautuvas turi likti nukreiptas saugia kryptimi."
+    },
+    "competitions-scoring-basics-q2": {
+      "q": "{{tm:sporting}}: jūsų šautuvas sugedo vietoje (pirmas incidentas), ir jis sutaisomas, kol jūsų grupė tą vietą tebešaudo. Ką galite padaryti?",
+      "options": {
+        "a": "Šaudyti vietą paskutinis, jei leis teisėjas",
+        "b": "Nieko: likusios mišenės – zero",
+        "c": "Šaudyti kitą dieną"
+      },
+      "explain": "Jei šautuvas sutaisomas, kol grupė tebešaudo vietą, galite ją šaudyti paskutinis, teisėjui leidus."
+    },
+    "sporting-malfunctions-q1": {
+      "q": "Pirma serijos šautuvo problema: pavienei mišenei neiššauna pirmas šovinys. Šaulys laukia teisėjo, šautuvas nukreiptas į lauką. Sprendimas?",
+      "options": {
+        "a": "Zero",
+        "b": "No Bird ir įspėjimas",
+        "c": "One",
+        "d": "Geltonoji kortelė ir zero"
+      },
+      "explain": "Serijos pirmas gedimas su šautuvu ar šoviniais – No Bird su įspėjimu, pavienė mišenė kartojama."
+    },
+    "sporting-malfunctions-q2": {
+      "q": "Šovinys neiššauna, ir susierzinęs šaulys, teisėjui dar neatėjus, atlaužia šautuvą pažiūrėti kapsulės. Sprendimas?",
+      "options": {
+        "a": "No Bird",
+        "b": "Taikinys kartojamas po įspėjimo",
+        "c": "Nulis",
+        "d": "Raudonoji kortelė, ir taikinys kartojamas"
+      },
+      "explain": "Atlaužus šautuvą ar palietus saugiklį iki teisėjo apžiūros, taikinys įskaitomas kaip nulis."
+    },
+    "sporting-malfunctions-q3": {
+      "q": "Pavienė mišenė, pirmas incidentas: pirmas šūvis – promašymas, antras šovinys nesuveikia, tad taikinys kartojamas. Pakartojime šaulys sudaužo jį pirmu šūviu. Sprendimas?",
+      "options": {
+        "a": "One",
+        "b": "Vėl No Bird",
+        "c": "One, su įspėjimu",
+        "d": "Zero"
+      },
+      "explain": "Po antro šūvio gedimo pakartotą pavienę mišenę galima sudaužyti tik antru šūviu, tad pirmu reikia sąmoningai promašyti."
+    },
+    "compak-malfunctions-q1": {
+      "q": "Pirmas incidentas serijoje {{tm:compak}} rungtyje: pavienei mišenei nesuveikia pirmas šovinys. Šaulys taisyklingai laukia. Sprendimas?",
+      "options": {
+        "a": "No Bird ir geltonoji kortelė",
+        "b": "Zero, be pakartojimo",
+        "c": "Raudonoji kortelė ir zero",
+        "d": "One, šūvis įskaitomas"
+      },
+      "explain": "Pirmas šautuvo ar šovinio incidentas serijoje – No Bird su pirmu įspėjimu, parodomu geltonąja kortele."
+    },
+    "compak-malfunctions-q2": {
+      "q": "Šaulio šautuvas sugedo, ir jis norėtų pasiskolinti grupės draugo šautuvą. Ar galima?",
+      "options": {
+        "a": "Taip, su savininko sutikimu",
+        "b": "Taip, jei sutinka teisėjas",
+        "c": "Taip, be jokių sąlygų",
+        "d": "Ne: skolintis galima tik iš kito, ne savo grupės, šaulio"
+      },
+      "explain": "{{tm:compak}} draudžia keliems grupės šauliams naudotis vienu šautuvu. Išimties tvarka skolintis galima tik iš kitos grupės šaulio, gavus savininko ir teisėjo sutikimą."
+    },
+    "compak-malfunctions-q3": {
+      "q": "Antrasis to paties tipo šautuvo gedimas šioje serijoje, šaudant į pavienį taikinį, į kurį šaulys negalėjo iššauti. Sprendimas?",
+      "options": {
+        "a": "Vėl No Bird",
+        "b": "No Bird ir įspėjimas",
+        "c": "Nulis su raudonąja kortele",
+        "d": "Taikinys parodomas dar kartą"
+      },
+      "explain": "Nuo antrojo to paties tipo incidento taikiniai, į kuriuos nešauta, įskaitomi kaip nuliai."
+    }
+  }
+}

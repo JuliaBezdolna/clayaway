@@ -1,0 +1,165 @@
+{
+ "id": "competitions-competition-day",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "da330bf4",
+  "summary": "03f0d6e8",
+  "sport-competition-day-p1": "fe775f1f",
+  "competitions-competition-day-p1": "1637c3ac",
+  "competitions-competition-day-p2": "67e7bbfe",
+  "competitions-competition-day-p3": "f4441a9d",
+  "competitions-competition-day-practice": "8b778fed",
+  "sport-competition-day-p2": "e6be5fdb",
+  "competitions-competition-day-p5": "dd34255e",
+  "competitions-competition-day-ready": "b0097c3e",
+  "sport-competition-day-p3": "1c827ea1",
+  "sport-competition-day-p4": "31ca987d",
+  "competitions-competition-day-late-inline": "b5ebbfb9",
+  "competitions-competition-day-late": "29daedd5",
+  "sport-competition-day-p5": "88bcdcdc",
+  "competitions-competition-day-end": "d5f38b62",
+  "competitions-competition-day-n1": "2c5d9407",
+  "competitions-competition-day-n-parent": "416800c4",
+  "sport-competition-day-ph1": "aca8882e",
+  "sport-competition-day-ph2": "19bd30f0",
+  "sport-competition-day-ph3": "c9b8e464",
+  "sport-competition-day-ph4": "2f81332b",
+  "sport-competition-day-kp1": "1253bc50",
+  "competitions-competition-day-kp1": "d0538c31",
+  "competitions-competition-day-kp-ready": "4fd327b5",
+  "sport-competition-day-kp4": "05da6963",
+  "sport-competition-day-kp5": "8745608e",
+  "competitions-competition-day-dyk": "bee33939",
+  "competitions-competition-day-q-protection": "52593bf2",
+  "competitions-competition-day-q2": "ee8d9127",
+  "sport-competition-day-q2": "1bccddb2",
+  "competitions-competition-day-q1": "2e3a9e98",
+  "sport-competition-day-q3": "7ccca26d",
+  "competitions-competition-day-q-inline-late": "ba6595e7",
+  "competitions-competition-day-q-carry": "861a9947"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Le jour des compétitions, du début à la fin",
+ "summary": "Ce qui se passe le jour d'une compétition de {{tm:sporting}} et de {{tm:compak}} : l'enregistrement, votre dossard, les planches et la rotation, le retard, les résultats et la fin de la journée.",
+ "body": {
+  "sport-competition-day-p1": "La journée commence par l'enregistrement : le tireur confirme son {{term:entry|inscription}}, reçoit un {{term:competitor-number|dossard}} et l'épingle en haut du dos, entièrement visible. Ensuite, chacun vérifie les listes de {{term:squad|planches}} et les {{term:shooting-times|horaires de tir}}. Une planche est un groupe d'au plus six tireurs, tirés au sort, qui tirent ensemble. Suivre le programme horaire est la propre responsabilité du tireur.",
+  "competitions-competition-day-p1": "Arrivez tôt : l'enregistrement, la recherche de votre planche et la préparation prennent du temps. Le {{term:competitor-number|dossard}} se porte entre les épaules et la taille, ni plié ni coupé. Mettez vos {{term:hearing-protection|protections auditives}} et vos {{term:safety-glasses|lunettes de protection}} avant d'aller au poste. Dans les deux disciplines, un tireur qui arrive sans elles est considéré comme absent, et les règles sur le retard s'appliquent (voir plus bas).",
+  "competitions-competition-day-p2": "Habillez-vous proprement et de façon sûre : les shorts peuvent s'arrêter {{fact:rules.dress-shorts-length}}, le haut doit avoir des manches, et les sandales ne sont pas permises. Portez votre fusil ouvert (cassé à la bascule, pour que tout le monde voie qu'il n'est pas chargé) et sans bretelle. Un {{term:semi-automatic|semi-automatique}} se porte culasse ouverte (le mécanisme tenu en arrière). Toutes les règles : {{lesson:rules-dress-and-safety}}.",
+  "competitions-competition-day-p3": "Vous voulez vérifier que votre fusil fonctionne ? Faites-le avant la série, sur un {{term:gun-test|poste d'essai}} spécial si le stand en a un. Les coups d'essai sur un poste de compétition ne sont pas permis.",
+  "competitions-competition-day-practice": {
+   "sporting": "Personne ne peut s'entraîner sur les parcours de la compétition avant l'épreuve. Entraînez-vous sur d'autres stands.",
+   "compak": "Vous pouvez vous {{term:practice|entraîner}} sur les mêmes trajectoires de plateaux qu'à la compétition, mais avec un {{term:trajectory-setting-table|tableau de réglage des trajectoires}} différent. Ce tableau est le schéma qui indique quels lanceurs envoient les plateaux à chaque poste. Aux championnats continentaux et du monde, l'entraînement officiel ouvre {{fact:training.compak-championship-practice}}."
+  },
+  "sport-competition-day-p2": "En {{tm:sporting}}, la planche tire d'abord tous les {{term:single-target|plateaux simples}} d'un poste, puis les {{term:double|doublés}}, et à chaque nouveau poste un tireur différent commence ({{term:rotation|décalage d'un tireur}}). Avant que quiconque ne tire, on montre les plateaux au premier tireur de la planche : chacun est lancé pour qu'on voie sa trajectoire.",
+  "competitions-competition-day-p5": "Quand le {{tm:compak}} se tire par planche, une planche complète compte six tireurs : cinq se tiennent sur les cinq postes, et le sixième attend derrière le poste 1. S'il y a moins de tireurs, un poste reste vide. Quand tout le monde a tiré ses plateaux depuis son poste, la planche se décale d'un poste vers la droite. Le tireur du poste 5 va attendre derrière le poste 1, et celui qui attendait prend le poste 1. Cela continue jusqu'à ce que chaque tireur ait tiré depuis les cinq postes. Avant votre série, rendez-vous sur le terrain de Compak qui vous a été attribué et présentez-vous à l'arbitre : c'est obligatoire. En {{term:compak-in-line|Compak en ligne}}, les tireurs ne se déplacent pas en planche : ils entrent au poste 1 un par un et avancent le long de la ligne jusqu'au poste 5.",
+  "competitions-competition-day-ready": "Quand votre tour arrive, soyez prêt tout de suite, avec des cartouches pour toute la série. En {{tm:compak}}, l'arbitre n'est pas tenu de chercher un tireur absent. Comment fonctionnent les terrains : voir les leçons {{lesson:targets-sporting-layout}} et {{lesson:targets-compak-layout}}.",
+  "sport-competition-day-p3": "Une {{term:round|série}} fait 25 plateaux : un {{term:layout|parcours}} en {{tm:sporting}}, un terrain en {{tm:compak}}. Une compétition internationale compte 200 plateaux, donc huit séries sur plusieurs jours. L'arbitre marque chaque plateau sur la {{term:score-sheet|feuille de marque}}, généralement X pour un touché et O pour un raté. En {{tm:sporting}}, les tireurs vérifient leur résultat en quittant un poste ; en {{tm:compak}}, ils signent la feuille à la fin de la série.",
+  "sport-competition-day-p4": "Être en retard coûte cher. En {{tm:sporting}}, l'arbitre appelle le nom du tireur trois fois en une minute ; un tireur qui manque son tour reçoit des zéros pour les plateaux non tirés. En {{tm:compak}}, un tireur qui arrive après que le premier tireur de la planche a déjà annoncé le premier plateau (demandé qu'on le lance) reçoit {{fact:competitions.compak-late-zeros}}.",
+  "competitions-competition-day-late-inline": "En {{term:compak-in-line|Compak en ligne}}, vous êtes considéré comme en retard quand deux conditions sont réunies : le système informatique a annulé votre dossard, et le tireur suivant est au poste 1. La pénalité est la même : {{fact:competitions.compak-late-zeros}}.",
+  "competitions-competition-day-late": "En retard pour une raison hors de votre contrôle ? Ne rejoignez pas votre planche de vous-même : faites appel par écrit au {{term:jury|jury}} (l'organe qui dirige la compétition), en {{tm:compak}} le jour même. Si le jury vous donne raison, vous tirez la série avec une autre planche. Détails : voir la leçon {{lesson:rules-call-and-time}}.",
+  "sport-competition-day-p5": "Si des tireurs sont à égalité pour l'une des trois premières places, l'égalité se tranche par {{fact:competitions.shoot-off-format}}. En mort subite, ils continuent de tirer, et le premier qui rate est éliminé. Sous la troisième place, il n'y a pas de barrage : les tireurs à égalité partagent la place. Le {{term:countback|départage}} fixe leur ordre dans la liste : leurs résultats sont comparés {{fact:competitions.countback-order}}. La journée se termine par le tableau des résultats et la {{term:prize-giving|remise des prix}}.",
+  "competitions-competition-day-end": "Vous pourriez être en barrage ? Restez proche et joignable : il faudra peut-être tirer {{fact:rules.shootoff-ready-time}}. Aux épreuves internationales, tous les lauréats doivent assister à la {{term:prize-giving|remise des prix}}, en tenue d'équipe ou en pantalon habillé et veste. Comment lire les résultats : voir la leçon {{lesson:watching-reading-results}}."
+ },
+ "note": {
+  "competitions-competition-day-n1": "Les tours ClayAway, en préparation, utiliseront aussi le mot « squad » pour un sous-groupe de tour. En compétition, il désigne le groupe qui tire ensemble : précisez donc toujours de quoi vous parlez.",
+  "competitions-competition-day-n-parent": "Regardez depuis la zone des spectateurs et restez silencieux près du poste. Un conseil crié pendant la série compte comme du {{term:coaching|coaching}} : l'arbitre peut donner un carton jaune à votre enfant pour cela. Plus de détails : voir la leçon {{lesson:juniors-support-without-pressure}}."
+ },
+ "phrases": {
+  "sport-competition-day-ph1": {
+   "meaning": "Numéro de planche, parcours et heure de départ.",
+   "say": "Vous êtes dans la planche douze, départ sur le parcours cinq à neuf heures trente."
+  },
+  "sport-competition-day-ph2": {
+   "meaning": "{{tm:sporting}} : assurez-vous maintenant que l'arbitre a bien noté votre résultat ; plus tard, ce sera trop tard.",
+   "say": "Vérifiez votre feuille avant de quitter le poste."
+  },
+  "sport-competition-day-ph3": {
+   "meaning": "22 sur 25 à la première série ; il reste sept séries sur une épreuve de 200 plateaux.",
+   "say": "Vingt-deux à la première série, c'est bien — il en reste sept."
+  },
+  "sport-competition-day-ph4": {
+   "meaning": "Un tireur susceptible d'être en barrage doit être prêt peu après l'appel.",
+   "say": "Restez à proximité : en cas d'égalité, vous tirerez dans les quinze minutes après l'appel."
+  }
+ },
+ "key_points": {
+  "sport-competition-day-kp1": "Enregistrement, dossard sur le dos, listes de planches et horaires.",
+  "competitions-competition-day-kp1": "Sans protections auditives ni lunettes de protection sur le poste, vous êtes considéré comme absent.",
+  "competitions-competition-day-kp-ready": "Soyez prêt à votre tour, avec des cartouches pour toute la série ; testez le fusil seulement sur le poste d'essai.",
+  "sport-competition-day-kp4": "Le retard coûte des zéros ; en {{tm:compak}}, {{fact:competitions.compak-late-zeros}}.",
+  "sport-competition-day-kp5": "Égalité dans les trois premiers : barrage de 25 plateaux, puis mort subite ; plus bas : départage."
+ },
+ "did_you_know": "En {{tm:sporting}}, la planche attend aussi près du poste que possible, mais à un endroit où elle ne distrait pas celui qui tire.",
+ "quiz": {
+  "competitions-competition-day-q-protection": {
+   "q": "Que se passe-t-il si vous arrivez au poste sans protections auditives ni lunettes de protection ?",
+   "options": {
+    "a": "Vous pouvez tirer, mais vous recevez un avertissement",
+    "b": "Vous êtes considéré comme absent et ne pouvez pas tirer",
+    "c": "L'arbitre vous en prête une paire"
+   },
+   "explain": "Dans les deux disciplines, un tireur sans protections auditives ni lunettes de protection est considéré comme absent, et les règles sur le retard s'appliquent."
+  },
+  "competitions-competition-day-q2": {
+   "q": "Où pouvez-vous vérifier que votre fusil fonctionne ?",
+   "options": {
+    "a": "Sur le premier poste de compétition, avant la série",
+    "b": "N'importe où sur le stand, si la zone est dégagée",
+    "c": "Sur un poste d'essai spécial, si le stand en a un"
+   },
+   "explain": "Les coups d'essai sur un poste de compétition ne sont permis dans aucune des deux disciplines ; utilisez le poste d'essai."
+  },
+  "sport-competition-day-q2": {
+   "q": "En {{tm:compak}} tiré par planche, un tireur arrive après que le premier tireur a annoncé le premier plateau. Que se passe-t-il ?",
+   "options": {
+    "a": "Rien, il se joint au groupe",
+    "b": "Il reçoit 25 zéros pour cette série",
+    "c": "Il tire la série seul plus tard, sans pénalité",
+    "d": "Il perd un seul plateau"
+   },
+   "explain": "En {{tm:compak}} tiré par planche, arriver après la première annonce coûte {{fact:competitions.compak-late-zeros}}. Pour une raison hors de votre contrôle, vous pouvez faire appel au jury par écrit le jour même."
+  },
+  "competitions-competition-day-q1": {
+   "q": "Quel est le nombre maximal de tireurs dans une planche ?",
+   "options": {
+    "a": "4",
+    "b": "6",
+    "c": "8"
+   },
+   "explain": "Aussi bien en {{tm:sporting}} qu'en {{tm:compak}}, une planche compte au plus 6 tireurs."
+  },
+  "sport-competition-day-q3": {
+   "q": "Deux tireurs sont à égalité pour la 5e place. Comment sont-ils classés ?",
+   "options": {
+    "a": "Par un barrage de 25 plateaux pour cette place",
+    "b": "Par tirage au sort après la fin de l'épreuve",
+    "c": "Ils la partagent ; le départage à partir du 8e parcours ou Compak fixe l'ordre",
+    "d": "Par âge, le plus jeune étant classé devant"
+   },
+   "explain": "Les barrages ne concernent que les trois premières places. En dessous, les tireurs à égalité partagent la place, et le départage compare le 8e parcours ou Compak, puis le 7e, et ainsi de suite."
+  },
+  "competitions-competition-day-q-inline-late": {
+   "q": "En Compak en ligne, quand êtes-vous considéré comme en retard ?",
+   "options": {
+    "a": "Quand votre dossard est annulé dans le système et que le tireur suivant est au poste 1",
+    "b": "Dès que l'arbitre a appelé votre nom pour la première fois",
+    "c": "Seulement quand tout le groupe a fini de tirer la série"
+   },
+   "explain": "Les deux conditions doivent être réunies : votre dossard est déjà annulé dans le système informatique, et le tireur suivant se tient au poste 1. La pénalité est {{fact:competitions.compak-late-zeros}}."
+  },
+  "competitions-competition-day-q-carry": {
+   "q": "Comment porte-t-on son fusil entre les postes ?",
+   "options": {
+    "a": "Ouvert, pour que tout le monde voie qu'il n'est pas chargé, et sans bretelle",
+    "b": "Fermé et déchargé, en bretelle sur l'épaule",
+    "c": "Fermé, avec la sûreté mise, pointé vers le sol"
+   },
+   "explain": "Les fusils se portent ouverts, et les bretelles ne sont pas permises ; un semi-automatique se porte culasse ouverte."
+  }
+ }
+}

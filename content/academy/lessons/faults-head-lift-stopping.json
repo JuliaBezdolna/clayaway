@@ -1,0 +1,354 @@
+{
+  "id": "faults-head-lift-stopping",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "faults-head-lift-stopping"
+    ]
+  },
+  "terms": [
+    "head-lift",
+    "stopping-the-gun",
+    "checking",
+    "riding-the-target",
+    "poking",
+    "follow-through",
+    "break-point",
+    "teal",
+    "flinch",
+    "recoil"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Head lift, stopping, riding, poking",
+    "uk": "Підняв голову, зупинив рушницю, довго вів, цілився"
+  },
+  "summary": {
+    "en": "Four common causes of misses, head lift, stopping or checking the gun, riding the target and poking, with what each looks like and the usual cure.",
+    "uk": "Чотири часті причини промахів — піднята голова, зупинка чи пригальмовування рушниці, задовге ведення і «тицяння»: як вони виглядають і як їх зазвичай виправляють."
+  },
+  "body": [
+    {
+      "k": "faults-head-lift-stopping-p1",
+      "t": "p",
+      "core": true,
+      "en": "After the direction, the coach names the cause. Four causes come up in most training sessions, each with its own short word. Learn them in pairs: the fault and the cure.",
+      "uk": "Після напряму промаху тренер називає причину. Чотири причини звучать майже на кожному тренуванні, і для кожної є коротке слово. Вчіть їх парами: помилка — і виправлення, якого попросить тренер."
+    },
+    {
+      "k": "faults-head-lift-stopping-p2",
+      "t": "p",
+      "core": true,
+      "en": "Head lift: the cheek leaves the stock at or just before the shot, often because the shooter wants to see the clay break. Your eye does the job of a rear sight (a shotgun has none). So when the head comes up, the eye moves, the gun points higher than you think, and the shot usually goes over the top. Cure: 'head down', 'cheek on the stock', 'stay in the gun'.",
+      "uk": "Head lift («підняли голову»): щока відривається від приклада в момент пострілу або трохи раніше — часто тому, що стрілець хоче побачити, як мішень розлітається. Око виконує роль заднього прицілу (цілика), якого в рушниці немає. Тож коли голова піднімається, око зміщується, рушниця дивиться вище, ніж вам здається, і дріб зазвичай іде над мішенню. Виправлення: «head down» («голову на приклад»), «cheek on the stock» («щока на прикладі»), «stay in the gun» («не відривайтеся від приклада»)."
+    },
+    {
+      "k": "faults-head-lift-stopping-p3",
+      "t": "p",
+      "core": true,
+      "en": "Stopping the gun: the barrels stop at the shot, usually because the shooter glances at the barrel to check the gap in front of the target. The shot goes behind. A lighter version is checking: the swing hesitates for a split second. Cure: 'keep the gun moving', 'follow through', 'finish the shot'.",
+      "uk": "Stopping the gun («зупинили рушницю»): стволи завмирають у момент пострілу, здебільшого тому, що стрілець зиркає на стволи, щоб перевірити проміжок перед мішенню. Дріб іде позаду. Легший варіант — checking («пригальмували»): проводка на частку секунди вагається. Виправлення: «keep the gun moving» («не зупиняйте рушницю»), «follow through» («ведіть далі»), «finish the shot» («доведіть постріл»)."
+    },
+    {
+      "k": "faults-head-lift-stopping-p4",
+      "t": "p",
+      "core": true,
+      "en": "Riding the target: following the clay too long before firing, so it slows, drops or curls away and the shooter loses the line. Cure: 'take it earlier', 'commit to it'. Poking (also 'aiming', 'measuring'): pointing the shotgun slowly like a rifle, eyes on the bead (the small dot at the end of the barrels) instead of the clay. It is typical when the break point is too close, or on a {{term:teal|teal}} (a target thrown almost straight up) at the top of its climb. Cure: 'eyes on the clay', 'let the gun go'.",
+      "uk": "Riding the target («надто довго ведете мішень»): стрілець супроводжує мішень задовго до пострілу, вона сповільнюється, падає чи завертає, і лінію втрачено. Виправлення: «take it earlier» («беріть раніше»), «commit to it» («наважуйтеся»). Poking (також aiming, measuring — «цілитеся», «вимірюєте»): повільно наводити рушницю, наче гвинтівку, дивлячись на мушку (маленьку кульку на кінці стволів), а не на мішень. Типово, коли точка пострілу надто близько, або на {{term:teal|чирку}} (teal — мішені, що летить майже вертикально вгору) у найвищій точці. Виправлення: «eyes on the clay» («очі на мішень»), «let the gun go» («відпустіть рушницю»)."
+    },
+    {
+      "k": "technique-follow-through-and-mistakes-p4",
+      "t": "tip",
+      "en": "A related fault is the {{term:flinch|flinch}}: an involuntary jerk just before the shot, often from expecting the {{term:recoil|recoil}}. A gun that fits, lighter cartridges and work with a coach usually help; see {{lesson:health-recoil-shoulder-neck}}.",
+      "uk": "Схожа помилка — {{term:flinch|смикання}} (flinch): мимовільний ривок перед самим пострілом, часто через очікування {{term:recoil|віддачі}}. Зазвичай допомагають підігнана рушниця, легші набої й робота з тренером; див. {{lesson:health-recoil-shoulder-neck}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "faults-head-lift-stopping-p5",
+      "for": "interpreter",
+      "en": "Coaches often name the cause before the shooter has even lowered the gun. Translate it in the same breath and with the same verb: 'you stopped' is not 'you missed'. A word like 'aiming' is almost always a criticism, so avoid turning it into advice such as 'aim better'.",
+      "uk": "Тренери часто називають причину ще до того, як стрілець опустив рушницю. Перекладайте на тому самому подиху й тим самим дієсловом: «you stopped» — це не «ви промахнулися». Слово «aiming» у тренера майже завжди критика, тож не перетворюйте його на пораду на кшталт «цільтеся краще».",
+      "core": true
+    }
+  ],
+  "phrases": [
+    {
+      "k": "faults-head-lift-stopping-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "You lifted your head, that's why it went over.",
+      "meaning": {
+        "en": "The cheek left the stock, so the shot went above the clay.",
+        "uk": "Щока відірвалася від приклада, тому дріб пішов над мішенню."
+      },
+      "say": {
+        "uk": "Ви підняли голову — тому дріб пішов вище."
+      }
+    },
+    {
+      "k": "faults-head-lift-stopping-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Keep the gun moving, you stopped on it.",
+      "meaning": {
+        "en": "The swing halted at the shot; continue moving through and after it.",
+        "uk": "Проводка зупинилася на пострілі; треба рухатися й під час, і після пострілу."
+      },
+      "say": {
+        "uk": "Не зупиняйте рушницю — ви на ній зупинилися."
+      }
+    },
+    {
+      "k": "faults-head-lift-stopping-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "You checked just before the shot, commit to it.",
+      "meaning": {
+        "en": "A brief hesitation before firing; decide and shoot without slowing.",
+        "uk": "Коротке вагання перед пострілом; вирішити й стріляти, не сповільнюючись."
+      },
+      "say": {
+        "uk": "Ви пригальмували перед пострілом — наважуйтеся."
+      }
+    },
+    {
+      "k": "faults-head-lift-stopping-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Stop aiming, look at the bird and let the gun go.",
+      "meaning": {
+        "en": "Criticism: the shooter is pointing like a rifle; focus on the target and swing freely.",
+        "uk": "Критика: стрілець наводить, як із гвинтівки; дивитися на мішень і вільно вести."
+      },
+      "say": {
+        "uk": "Не цільтеся — дивіться на мішень і відпустіть рушницю."
+      }
+    },
+    {
+      "k": "faults-head-lift-stopping-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "You rode it too long, take it earlier.",
+      "meaning": {
+        "en": "The shooter followed the clay too long; break it sooner.",
+        "uk": "Стрілець надто довго вів мішень; розбивати раніше."
+      },
+      "say": {
+        "uk": "Ви надто довго її вели — беріть раніше."
+      }
+    },
+    {
+      "k": "faults-head-lift-stopping-ph6",
+      "speaker": "coach",
+      "core": true,
+      "en": "Stay in the gun.",
+      "meaning": {
+        "en": "Keep the cheek on the stock until after the shot.",
+        "uk": "Тримати щоку на прикладі до кінця пострілу."
+      },
+      "say": {
+        "uk": "Щока на прикладі до кінця пострілу."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "faults-head-lift-stopping-kp1",
+      "core": true,
+      "en": "Head lift: shot usually over; cure: head down, stay in the gun.",
+      "uk": "Підняли голову — дріб зазвичай вище; виправлення: голову на приклад."
+    },
+    {
+      "k": "faults-head-lift-stopping-kp2",
+      "core": true,
+      "en": "Stopping or checking: shot behind; cure: keep the gun moving, follow through.",
+      "uk": "Зупинили чи пригальмували — дріб позаду; виправлення: не зупиняйте рушницю, ведіть далі."
+    },
+    {
+      "k": "faults-head-lift-stopping-kp3",
+      "core": true,
+      "en": "Riding: the clay slows or drops away; cure: take it earlier, commit.",
+      "uk": "Довго вели — мішень сповільнилася чи впала; виправлення: беріть раніше, наважуйтеся."
+    },
+    {
+      "k": "faults-head-lift-stopping-kp4",
+      "core": true,
+      "en": "Poking or aiming: slow rifle-like pointing; cure: eyes on the clay.",
+      "uk": "Цілилися — повільне наведення, як із гвинтівки; виправлення: очі на мішень."
+    },
+    {
+      "k": "faults-head-lift-stopping-kp5",
+      "core": true,
+      "en": "Flinch: a jerk before the shot, often from recoil; check gun fit and cartridges.",
+      "uk": "Смикання (flinch) — ривок перед пострілом, часто через віддачу; перевірте підгонку рушниці й набої."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "faults-head-lift-stopping-q1",
+      "q": {
+        "en": "The coach says 'You lifted your head'. Where did the shot most likely go?",
+        "uk": "Тренер каже «You lifted your head». Куди найімовірніше пішов дріб?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Behind",
+          "uk": "Позаду"
+        },
+        {
+          "k": "b",
+          "en": "Over the top",
+          "uk": "Вище мішені"
+        },
+        {
+          "k": "c",
+          "en": "Under",
+          "uk": "Нижче"
+        },
+        {
+          "k": "d",
+          "en": "In front",
+          "uk": "Попереду"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Your eye does the job of a rear sight (a shotgun has none): when the head lifts, the shot usually goes over.",
+        "uk": "Око виконує роль заднього прицілу (цілика), якого в рушниці немає: коли голова піднімається, дріб зазвичай іде вище."
+      }
+    },
+    {
+      "k": "faults-head-lift-stopping-q2",
+      "q": {
+        "en": "A coach shouts 'Stop aiming!'. What does he want?",
+        "uk": "Тренер вигукує «Stop aiming!». Чого він хоче?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Don't point like a rifle: look at the target and swing",
+          "uk": "Не наводьте, як із гвинтівки: дивіться на мішень і ведіть"
+        },
+        {
+          "k": "b",
+          "en": "Aim more carefully along the rib at the clay",
+          "uk": "Цільтеся уважніше вздовж планки на мішень"
+        },
+        {
+          "k": "c",
+          "en": "Stop shooting and open the gun at once",
+          "uk": "Припиніть стрільбу й одразу відкрийте рушницю"
+        },
+        {
+          "k": "d",
+          "en": "Lower the gun and wait for the referee",
+          "uk": "Опустіть рушницю й чекайте на суддю"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "'Aiming' in a coach's mouth is a fault (poking); the cure is eyes on the clay and a free swing.",
+        "uk": "«Aiming» у тренера — це помилка (poking); виправлення — очі на мішень і вільна проводка."
+      }
+    },
+    {
+      "k": "faults-head-lift-stopping-q3",
+      "q": {
+        "en": "'You rode it too long' means…",
+        "uk": "«You rode it too long» означає…"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The shooter fired too early",
+          "uk": "Стрілець вистрілив зарано"
+        },
+        {
+          "k": "b",
+          "en": "The trap threw the target too slowly",
+          "uk": "Машинка кинула мішень надто повільно"
+        },
+        {
+          "k": "c",
+          "en": "The shooter started too far behind",
+          "uk": "Стрілець почав надто далеко позаду"
+        },
+        {
+          "k": "d",
+          "en": "The shooter followed the clay too long",
+          "uk": "Стрілець надто довго вів мішень"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Riding the target means following it too long, so it slows or drops and the line is lost.",
+        "uk": "Riding the target — надто довге супроводження: мішень сповільнюється чи падає, і лінію втрачено."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "3de77b04",
+    "summary": "6687c483",
+    "faults-head-lift-stopping-p1": "20fed38f",
+    "faults-head-lift-stopping-p2": "093a96a2",
+    "faults-head-lift-stopping-p3": "cbd80554",
+    "faults-head-lift-stopping-p4": "1d4e7ba7",
+    "technique-follow-through-and-mistakes-p4": "4ffcbf20",
+    "faults-head-lift-stopping-p5": "126edda3",
+    "faults-head-lift-stopping-kp1": "ff1df477",
+    "faults-head-lift-stopping-kp2": "879a7776",
+    "faults-head-lift-stopping-kp3": "e544f966",
+    "faults-head-lift-stopping-kp4": "935cef51",
+    "faults-head-lift-stopping-kp5": "881b8519",
+    "faults-head-lift-stopping-ph1": "31a09895",
+    "faults-head-lift-stopping-ph2": "7cc2f04c",
+    "faults-head-lift-stopping-ph3": "0b39e7a2",
+    "faults-head-lift-stopping-ph4": "25c7bc83",
+    "faults-head-lift-stopping-ph5": "a55c21ac",
+    "faults-head-lift-stopping-ph6": "e3784571",
+    "faults-head-lift-stopping-q1": "78a782da",
+    "faults-head-lift-stopping-q2": "d65ac876",
+    "faults-head-lift-stopping-q3": "f4a07216"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/faults-head-lift-stopping.json (9 languages): translate again (meaning or audit fix changed): faults-head-lift-stopping-kp5, faults-head-lift-stopping-q2, faults-head-lift-stopping-q3; moved from body to note, text unchanged: faults-head-lift-stopping-p5.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/faults-head-lift-stopping.json (9 languages): translate again (meaning or wording changed for readers): faults-head-lift-stopping-p2, faults-head-lift-stopping-p3, faults-head-lift-stopping-p4; re-sign the hash only (wording changed, meaning not): faults-head-lift-stopping-p1, faults-head-lift-stopping-p5, faults-head-lift-stopping-q1."
+    ]
+  }
+}

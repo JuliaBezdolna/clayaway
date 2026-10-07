@@ -1,0 +1,510 @@
+{
+  "id": "intro-fitasc-and-organisation",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter",
+    "organiser",
+    "fan"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block basics)"
+  },
+  "legacy": {
+    "learn": [
+      "intro-fitasc-and-organisation"
+    ],
+    "interpreter": [
+      "sport-fitasc"
+    ]
+  },
+  "terms": [
+    "fitasc",
+    "sporting",
+    "compak-sporting",
+    "national-federation",
+    "layout",
+    "referee",
+    "chief-referee",
+    "jury",
+    "grand-prix",
+    "championship",
+    "open-ranking",
+    "category",
+    "team",
+    "cpsa",
+    "nsca",
+    "english-sporting",
+    "simultaneous-double",
+    "expulsion",
+    "clayaway",
+    "protest"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch15-layout-approval"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-delegation"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-referee-certificate"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-jury-role"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "sporting",
+      "id": "ch13-expulsion-record"
+    },
+    {
+      "book": "compak",
+      "id": "ch1-discipline"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-qualification"
+    },
+    {
+      "book": "compak",
+      "id": "ch4-jury-role"
+    },
+    {
+      "book": "compak",
+      "id": "ch23-exclusion-record"
+    }
+  ],
+  "facts": [
+    "basics.international-targets"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — Sports disciplines: presentation",
+        "uk": "FITASC — спортивні дисципліни: представлення"
+      },
+      "url": "https://www.fitasc.com/en/sports-disciplines/presentation",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "FITASC and how international shooting is organised",
+    "uk": "FITASC і як влаштований міжнародний спорт"
+  },
+  "summary": {
+    "en": "Who writes the rules of {{tm:sporting}} and {{tm:compak}}, and how clubs, national federations and international events fit together.",
+    "uk": "Хто пише правила {{tm:sporting}} і {{tm:compak}} і як пов’язані клуби, національні федерації та міжнародні змагання."
+  },
+  "body": [
+    {
+      "k": "sport-fitasc-p1",
+      "t": "p",
+      "core": true,
+      "anchor": "sport-fitasc",
+      "en": "FITASC is the international federation for hunting-style clay shooting. It writes and updates the rules of {{tm:sporting}} and {{tm:compak}}; the editions we follow are dated 01/01/2025. FITASC also governs other disciplines, such as Universal Trench, Universal Skeet and Helice (ZZ); this Academy covers two of them. {{tm:compak}} is also a trade mark protected by FITASC, which is why the name is always written with ®.",
+      "uk": "{{term:fitasc|FITASC}} — міжнародна федерація «мисливських» дисциплін стендової стрільби. Вона пише й оновлює правила {{tm:sporting}} і {{tm:compak}}; чинні редакції, на які ми спираємося, датовані 01.01.2025. FITASC керує й іншими дисциплінами, як-от Universal Trench, Universal Skeet і Helice (ZZ); ця Академія розповідає про дві з них. {{tm:compak}} — ще й торговельна марка, яку захищає FITASC, тому назву завжди пишуть із ®."
+    },
+    {
+      "k": "sport-fitasc-p2",
+      "t": "p",
+      "core": true,
+      "en": "The sport is built like a pyramid. Clubs and shooting grounds are at the bottom, national federations above them, and the national federations are members of FITASC. The {{term:layout|layouts}} (groups of stands with their traps) for national competitions are approved by the national federation, those for international competitions by FITASC. A federation may hand an event to a club, but it stays responsible for applying the rules.",
+      "uk": "Спорт побудований як піраміда. Унизу — клуби й стрільбища, над ними — {{term:national-federation|національні федерації}}, а національні федерації є членами FITASC. {{term:layout|Майданчики}} (групи стрілецьких місць із їхніми машинками) для національних змагань затверджує національна федерація, для міжнародних — FITASC. Федерація може доручити змагання клубу, але відповідальність за дотримання правил лишається на ній."
+    },
+    {
+      "k": "intro-fitasc-and-organisation-p6",
+      "t": "p",
+      "en": "What this means for a beginner: at international competitions the FITASC rules are the same in all countries, and many national federations build their own rules on them. National and club events may still use rules of their own, so read the programme of each competition.",
+      "uk": "Що це означає для новачка: на міжнародних змаганнях правила FITASC однакові в усіх країнах, і багато національних федерацій будують на них власні правила. Проте національні й клубні змагання можуть мати свої правила, тож читайте програму кожного змагання."
+    },
+    {
+      "k": "sport-fitasc-p3",
+      "t": "p",
+      "core": true,
+      "en": "At the shooting ground the rules are applied by {{term:referee|referees}}. Each referee holds a certificate from a national federation, and the {{term:chief-referee|chief referee}} needs an international FITASC certificate. At international events, a {{term:jury|jury}} (a small panel of officials) handles {{term:protest|protests}} (formal complaints about a decision), penalties and technical problems.",
+      "uk": "На стрільбищі правила застосовують {{term:referee|судді}} (referee). Кожен суддя має посвідчення національної федерації, а {{term:chief-referee|головний суддя}} (chief referee) — міжнародне посвідчення FITASC. На міжнародних змаганнях {{term:protest|протести}} (офіційні скарги на рішення), покарання й технічні питання розглядає {{term:jury|журі}} (jury) — невелика комісія."
+    },
+    {
+      "k": "intro-fitasc-and-organisation-p5",
+      "t": "p",
+      "en": "International competitions come at different levels: {{term:grand-prix|Grand Prix}} events, and continental and world {{term:championship|championships}}. They are usually {{fact:basics.international-targets}}, over several days. Results are counted three ways: in the {{term:open-ranking|open ranking}} (everyone together), by {{term:category|category}} (age and gender groups) and by national {{term:team|team}}.",
+      "uk": "Міжнародні змагання бувають різного рівня: {{term:grand-prix|Гран-прі}} (Grand Prix), а також {{term:championship|чемпіонати}} континенту й світу. Зазвичай це {{fact:basics.international-targets}}, протягом кількох днів. Результати рахують трьома способами: у {{term:open-ranking|загальному заліку}} (усі разом), у {{term:category|категоріях}} (за віком і статтю) і в національних {{term:team|командах}}."
+    },
+    {
+      "k": "sport-fitasc-p4",
+      "t": "p",
+      "core": true,
+      "en": "Other organisations exist too. In Britain and the USA, associations such as {{term:cpsa|CPSA}} and {{term:nsca|NSCA}} run their own versions of the sport, with different rules and words. One of them is {{term:english-sporting|English Sporting}}. A British or American coach may use those words at a FITASC event; {{lesson:interpreter-english-sporting-vs-fitasc}} shows how to handle that.",
+      "uk": "Є й інші організації. У Британії та США асоціації, як-от {{term:cpsa|CPSA}} і {{term:nsca|NSCA}}, проводять власні різновиди спорту з іншими правилами й словами. Один із них — {{term:english-sporting|English Sporting}}. Британський чи американський тренер може вживати ці слова й на змаганнях FITASC; як із цим працювати, пояснює урок {{lesson:interpreter-english-sporting-vs-fitasc}}."
+    },
+    {
+      "k": "sport-fitasc-p5",
+      "t": "p",
+      "core": true,
+      "en": "ClayArena is the platform behind this course. It publishes competition calendars, a glossary and a plain-language summary of the FITASC rules. {{term:clayaway|ClayAway}}, its service for training tours, is being prepared. Remember: only the official FITASC text counts (it is binding); a summary is a guide, not the rule itself.",
+      "uk": "ClayArena — платформа, на якій створено цей курс. Вона публікує календарі змагань, глосарій і переказ правил FITASC простою мовою. {{term:clayaway|ClayAway}}, її напрям тренувальних турів, готується до запуску. Пам’ятайте: обов’язковим є лише офіційний текст FITASC; переказ — це путівник, а не саме правило."
+    }
+  ],
+  "note": [
+    {
+      "k": "intro-fitasc-and-organisation-n1",
+      "for": "interpreter",
+      "en": "You will translate for referees, the chief referee and the jury, so learn these titles in both languages. The {{tm:compak}} rulebook calls the chief referee the Head Referee.",
+      "uk": "Ви перекладатимете для суддів, головного судді й журі, тож вивчіть ці посади обома мовами. У правилах {{tm:compak}} головного суддю називають Head Referee."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "sport-fitasc-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "That's a CPSA term — under FITASC it's a simultaneous double.",
+      "meaning": {
+        "en": "The coach switches from British vocabulary to the FITASC name.",
+        "uk": "Тренер переходить від британської термінології до назви за FITASC."
+      },
+      "say": {
+        "uk": "Це термін британських правил, за FITASC це одночасний дуплет."
+      },
+      "from": "sport-fitasc"
+    },
+    {
+      "k": "sport-fitasc-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Ask the chief referee, not the stand referee.",
+      "meaning": {
+        "en": "The question is for the senior official of the competition.",
+        "uk": "Питання — до старшого судді змагань, а не до судді на стрілецькому місці."
+      },
+      "say": {
+        "uk": "Запитайте головного суддю, а не суддю на стрілецькому місці."
+      },
+      "from": "sport-fitasc"
+    },
+    {
+      "k": "sport-fitasc-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "The jury will decide this one.",
+      "meaning": {
+        "en": "The matter goes beyond the stand referee, to the competition jury.",
+        "uk": "Питання виходить за межі рішення судді на стрілецькому місці й переходить до журі."
+      },
+      "say": {
+        "uk": "Це вирішуватиме журі."
+      },
+      "from": "sport-fitasc"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "sport-fitasc-kp1",
+      "core": true,
+      "en": "FITASC writes the rules of {{tm:sporting}} and {{tm:compak}} (editions of 01/01/2025).",
+      "uk": "FITASC пише правила {{tm:sporting}} і {{tm:compak}} (редакції від 01.01.2025).",
+      "from": "sport-fitasc"
+    },
+    {
+      "k": "sport-fitasc-kp2",
+      "core": true,
+      "en": "Clubs belong to national federations, and federations to FITASC. A federation approves the layouts for its own competitions; FITASC approves them for international ones.",
+      "uk": "Клуби входять до національних федерацій, а федерації — до FITASC. Майданчики для національних змагань затверджує федерація, для міжнародних — FITASC.",
+      "from": "sport-fitasc"
+    },
+    {
+      "k": "sport-fitasc-kp3",
+      "core": true,
+      "en": "Referees hold national certificates; the chief referee holds a FITASC international one; the jury hears protests.",
+      "uk": "Судді мають національні посвідчення, головний суддя — міжнародне посвідчення FITASC; протести розглядає журі.",
+      "from": "sport-fitasc"
+    },
+    {
+      "k": "intro-fitasc-and-organisation-kp5",
+      "en": "International events use the same FITASC rules; national and club events may have their own, so read the programme.",
+      "uk": "На міжнародних змаганнях діють ті самі правила FITASC; національні й клубні можуть мати власні, тож читайте програму."
+    },
+    {
+      "k": "sport-fitasc-kp4",
+      "core": true,
+      "en": "Only the official FITASC text is binding; ClayArena offers a summary.",
+      "uk": "Обов’язковий лише офіційний текст FITASC; ClayArena дає його переказ.",
+      "from": "sport-fitasc"
+    }
+  ],
+  "did_you_know": {
+    "k": "intro-fitasc-and-organisation-dyk",
+    "en": "When a shooter is {{term:expulsion|expelled}} (sent away from a FITASC competition), this is reported to FITASC headquarters, which keeps it on record for five years.",
+    "uk": "Коли стрільця {{term:expulsion|виключають}} зі змагань FITASC, про це повідомляють у штаб-квартиру FITASC, і там цей запис зберігається п’ять років."
+  },
+  "quiz": [
+    {
+      "k": "sport-fitasc-q1",
+      "q": {
+        "en": "Who approves the layouts for an international {{tm:sporting}} competition?",
+        "uk": "Хто затверджує майданчики для міжнародних змагань із {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The local club",
+          "uk": "Місцевий клуб"
+        },
+        {
+          "k": "b",
+          "en": "The national federation",
+          "uk": "Національна федерація"
+        },
+        {
+          "k": "c",
+          "en": "The referee on the day",
+          "uk": "Суддя в день змагань"
+        },
+        {
+          "k": "d",
+          "en": "FITASC",
+          "uk": "FITASC"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "National layouts are approved by the national federation, international ones by FITASC.",
+        "uk": "Національні майданчики затверджує національна федерація, міжнародні — FITASC."
+      },
+      "from": "sport-fitasc",
+      "disc": "sporting"
+    },
+    {
+      "k": "sport-fitasc-q2",
+      "q": {
+        "en": "What certificate must the chief referee hold?",
+        "uk": "Яке посвідчення має мати головний суддя?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "An international FITASC certificate",
+          "uk": "Міжнародне посвідчення FITASC"
+        },
+        {
+          "k": "b",
+          "en": "A club membership card, nothing more",
+          "uk": "Лише членський квиток клубу"
+        },
+        {
+          "k": "c",
+          "en": "A national coaching licence from his club",
+          "uk": "Тренерську ліцензію свого клубу"
+        },
+        {
+          "k": "d",
+          "en": "None: any experienced shooter can do it",
+          "uk": "Жодного: це може будь-який досвідчений стрілець"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Stand referees need a national certificate; the chief referee needs an international one from FITASC.",
+        "uk": "Суддям на стрілецьких місцях потрібне національне посвідчення, головному судді — міжнародне посвідчення FITASC."
+      },
+      "from": "sport-fitasc"
+    },
+    {
+      "k": "sport-fitasc-q3",
+      "q": {
+        "en": "During an argument about a referee's decision, someone shows ClayArena's rules summary. How much does it count?",
+        "uk": "Під час суперечки про рішення судді хтось показує переказ правил на ClayArena. Чи має він силу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It counts more than the official FITASC text",
+          "uk": "Він важить більше, ніж офіційний текст FITASC"
+        },
+        {
+          "k": "b",
+          "en": "It is only a guide; the FITASC text decides",
+          "uk": "Це лише путівник; вирішує текст FITASC"
+        },
+        {
+          "k": "c",
+          "en": "It is binding, but only in {{tm:compak}}",
+          "uk": "Він обов’язковий, але лише в {{tm:compak}}"
+        },
+        {
+          "k": "d",
+          "en": "It replaces the referee's decision on the stand",
+          "uk": "Він замінює рішення судді на стрілецькому місці"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A summary helps you understand the rules, but the referee and jury apply the official FITASC text.",
+        "uk": "Переказ допомагає зрозуміти правила, але суддя й журі застосовують офіційний текст FITASC."
+      },
+      "from": "sport-fitasc"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "intro-fitasc-and-organisation-q1",
+      "q": {
+        "en": "A national competition is announced. Which rules will apply?",
+        "uk": "Оголосили національне змагання. За якими правилами воно пройде?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "FITASC rules only, word for word",
+          "uk": "Лише правила FITASC, слово в слово"
+        },
+        {
+          "k": "b",
+          "en": "Whatever each shooter prefers",
+          "uk": "Як забажає кожен стрілець"
+        },
+        {
+          "k": "c",
+          "en": "The rules named in its programme",
+          "uk": "За правилами, названими в програмі"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "National competitions follow FITASC rules or the country's own rules; the programme says which.",
+        "uk": "Національні змагання проводять за правилами FITASC або за власними правилами країни; яке саме — сказано в програмі."
+      }
+    },
+    {
+      "k": "intro-fitasc-and-organisation-q2",
+      "q": {
+        "en": "A federation hands a competition to a club. Who stays responsible for applying the rules?",
+        "uk": "Федерація доручила змагання клубу. Хто відповідає за дотримання правил?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The club, and only the club",
+          "uk": "Клуб, і лише клуб"
+        },
+        {
+          "k": "b",
+          "en": "The federation that handed it over",
+          "uk": "Федерація, яка доручила змагання"
+        },
+        {
+          "k": "c",
+          "en": "The shooters who enter the event",
+          "uk": "Стрільці, які беруть участь"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A federation may delegate an event to a club, but it stays fully responsible to FITASC.",
+        "uk": "Федерація може доручити змагання клубу, але повну відповідальність перед FITASC несе вона."
+      }
+    },
+    {
+      "k": "intro-fitasc-and-organisation-q3",
+      "q": {
+        "en": "What does the jury do at an international competition?",
+        "uk": "Що робить журі на міжнародних змаганнях?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Hears protests and decides penalties",
+          "uk": "Розглядає протести й вирішує про покарання"
+        },
+        {
+          "k": "b",
+          "en": "Throws the targets from the traps",
+          "uk": "Запускає мішені з машинок"
+        },
+        {
+          "k": "c",
+          "en": "Coaches the host nation's shooters",
+          "uk": "Тренує стрільців країни-господарки"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The jury checks that the rules are applied, settles technical problems, hears appeals and sets penalties.",
+        "uk": "Журі стежить за дотриманням правил, вирішує технічні питання, розглядає апеляції й призначає покарання."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "025e7808",
+    "summary": "636716cd",
+    "sport-fitasc-p1": "df0d172c",
+    "sport-fitasc-p2": "73c5138d",
+    "intro-fitasc-and-organisation-p6": "2d88b1bd",
+    "sport-fitasc-p3": "397a2fe7",
+    "intro-fitasc-and-organisation-p5": "8476f6e5",
+    "sport-fitasc-p4": "d38ca7e8",
+    "sport-fitasc-p5": "20961f0f",
+    "intro-fitasc-and-organisation-n1": "b1934554",
+    "sport-fitasc-ph1": "c49e69a2",
+    "sport-fitasc-ph2": "b9de7aaa",
+    "sport-fitasc-ph3": "81a3c971",
+    "sport-fitasc-kp1": "1884be7b",
+    "sport-fitasc-kp2": "a42dc3b2",
+    "sport-fitasc-kp3": "0ab616c8",
+    "intro-fitasc-and-organisation-kp5": "c021f418",
+    "sport-fitasc-kp4": "2ec09e65",
+    "intro-fitasc-and-organisation-dyk": "a6bb5f17",
+    "sport-fitasc-q1": "18d416cb",
+    "sport-fitasc-q2": "9a9e9f2d",
+    "sport-fitasc-q3": "ed6b26f5",
+    "intro-fitasc-and-organisation-q1": "9fc0c67a",
+    "intro-fitasc-and-organisation-q2": "c13eeffd",
+    "intro-fitasc-and-organisation-q3": "5608b99c"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays de fr it cs pl pt hu fi lt: retranslate the core items sport-fitasc-p1, -p2, -p3, -p4, -p5 and -kp2 from the current English (review round 2: FITASC also governs other disciplines; layouts glossed; jury and protests glossed; ClayAway \"is being prepared\"; link to interpreter-english-sporting-vs-fitasc) before any language page of this lesson is published. Do not just copy the new h hashes: the old texts still carry the present-tense ClayAway claim (audit A-09) and the link to the old Interpreter Academy missions. Also remove the orphan key sport-fitasc-title from the overlays.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in sport-fitasc-p1, sport-fitasc-kp1, sport-fitasc-q1, sport-fitasc-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

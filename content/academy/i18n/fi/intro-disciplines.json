@@ -1,0 +1,91 @@
+{
+  "id": "intro-disciplines",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "dac19506",
+    "summary": "58295a84",
+    "intro-disciplines-p1": "79e1fd27",
+    "intro-disciplines-p2": "bad18039",
+    "intro-disciplines-cmp": "1ddbb76f",
+    "intro-disciplines-p3": "f274bc4d",
+    "intro-disciplines-p4": "072bf2ee",
+    "intro-disciplines-p5": "c1fef81a",
+    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-kp1": "b3f7bab6",
+    "intro-disciplines-kp2": "634ce41c",
+    "intro-disciplines-kp3": "fec76055",
+    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-dyk": "0aa60887",
+    "intro-disciplines-q1": "f150b65a",
+    "intro-disciplines-q2": "40032e9f",
+    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q-second-shot": "ecd0ab34"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Tärkeimmät lajit",
+  "summary": "Lyhyt opas lajeihin {{tm:sporting}} ja {{tm:compak}} sekä Trapiin ja Skeetiin: mitä niillä on yhteistä ja miten ne eroavat toisistaan.",
+  "body": {
+    "intro-disciplines-p1": "{{tm:sporting}} jäljittelee metsästystä. {{term:shooting-stand|Ampumapaikat}}, merkityt paikat, joista ammutaan, sijaitsevat luonnonmaastossa: pelloilla, metsän reunassa, rinteillä. Kiekot lentävät niin kuin peltopyy, sorsa tai pyy lentäisi, tai vierivät kuin jänis. Jokainen {{term:layout|rataosuus}} (layout), ampumapaikkojen ryhmä, antaa {{fact:targets.sporting-layout-targets}} ({{term:double|kaksoiskiekko}} on kaksi kiekkoa, joten niitä on 10 lisää). Kaksoiskiekon kaksi kiekkoa lentävät yhtä aikaa tai peräkkäin.",
+    "intro-disciplines-p2": "{{tm:compak}} on tiivis versio. Kaikki tapahtuu yhdellä kentällä, jossa on {{fact:basics.compak-field}}. Ampuja kiertää kaikki viisi ampumapaikkaa ja ampuu joka paikassa 5 kiekkoa, 25 per {{term:round|kierros}}. Compak-kenttä vie vähän tilaa, joten seuran on helppo rakentaa sellainen.",
+    "intro-disciplines-cmp": {
+      "sporting": "Kävelet rataa ampumapaikalta toiselle, ja joka paikassa on omat kiekkonsa. Kaksoiskiekko voi olla {{term:double-on-report|laukauksesta lähtevä}}, jolloin ensimmäinen laukauksesi laukaisee toisen kiekon, tai {{term:simultaneous-double|yhtäaikainen}}, jolloin molemmat lentävät samalla kertaa. {{term:rafale-double|Peräkkäinen kaksoiskiekko}} (rafale) tarkoittaa kahta kiekkoa samasta heittimestä, toinen heti toisen jälkeen.",
+      "compak": "Pysyt samalla kentällä ja siirryt vuorosi jälkeen yhden ampumapaikan oikealle. Kaksoiskiekko on {{term:double-on-report|laukauksesta lähtevä}}, jolloin ensimmäinen laukauksesi laukaisee toisen kiekon, tai {{term:simultaneous-double|yhtäaikainen}}, jolloin molemmat lentävät samalla kertaa."
+    },
+    "intro-disciplines-p3": "Molempien lajien kansainväliset kilpailut koostuvat tavallisesti {{fact:basics.international-targets}}. Molemmissa lajeissa {{term:single-target|yksittäiskiekkoon}} saa ampua kaksi laukausta: jos ensimmäinen ei osu, toinen voi yhä rikkoa sen.",
+    "intro-disciplines-p4": "Trap on toinen lajiperhe. Ampuja seisoo yhdellä viidestä ampumapaikasta rivissä, ja kiekot lentävät poispäin kuopasta (ampumapaikkojen edessä olevasta syvennyksestä) vaihtelevissa kulmissa. Ampuja ei tiedä tarkalleen, minne seuraava kiekko lentää. {{term:olympic-trap|Olympiatrapissa}} joka kiekkoon saa ampua kaksi laukausta.",
+    "intro-disciplines-p5": "{{term:skeet|Skeetissä}} kiekot tulevat kahdesta vastakkain olevasta tornista (pienistä rakennuksista, joissa heittimet ovat): korkeasta ja matalasta. Ampuja siirtyy ampumapaikkojen välillä puoliympyrässä tornien välissä, plus yksi paikka keskellä. Lentoradat eivät muutu, joten tarkka, hyvin harjoiteltu tekniikka on tärkeää.",
+    "intro-disciplines-p6": "Olympiatrap ja Skeet ovat olympiaohjelmassa ja kuuluvat toiselle kansainväliselle liitolle, ISSF:lle. Mutta myös {{term:fitasc|FITASCilla}} on omat trap- ja skeet-lajinsa, kuten Universal Trench ja Universal Skeet. ClayArena-akatemia käsittelee pääosin lajeja {{tm:sporting}} ja {{tm:compak}}. Perusteet ovat yhteiset kaikille lajeille: turvallisuus, {{term:gun-mount|aseen nosto}} (aseen tuominen poskelle ja olkapäälle) ja kiekon lukeminen."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-disciplines-kp1": "{{tm:sporting}}: rata luonnonmaastossa; joka rataosuus antaa {{fact:rules.round-targets}}.",
+    "intro-disciplines-kp2": "{{tm:compak}}: yksi kenttä, jossa on {{fact:basics.compak-field}}.",
+    "intro-disciplines-kp3": "Kansainvälinen kilpailu koostuu tavallisesti {{fact:basics.international-targets}}; yksittäiskiekkoon saa ampua kahdesti.",
+    "intro-disciplines-kp4": "Trapissa kiekot lentävät poispäin ampujasta; Skeetissä ne risteävät kahden tornin välillä."
+  },
+  "did_you_know": "{{tm:compak}} {{fact:community.compak-created}}.",
+  "quiz": {
+    "intro-disciplines-q1": {
+      "q": "Montako kiekkoa yksi {{tm:sporting}}-rataosuus (layout) antaa?",
+      "options": {
+        "a": "10",
+        "b": "25",
+        "c": "50"
+      },
+      "explain": "Joka rataosuus antaa {{fact:targets.sporting-layout-targets}} (kaksoiskiekko on kaksi kiekkoa, joten niitä on 10 lisää)."
+    },
+    "intro-disciplines-q2": {
+      "q": "Montako heitintä on yhdellä Compak-kentällä?",
+      "options": {
+        "a": "Kuusi, merkitty kirjaimin A–F",
+        "b": "Kaksi: korkea ja matala",
+        "c": "Viisitoista, kuopassa"
+      },
+      "explain": "{{tm:compak}}-kentällä on {{fact:basics.compak-field}}."
+    },
+    "intro-disciplines-q3": {
+      "q": "Missä lajissa kiekot tulevat kahdesta tornista, korkeasta ja matalasta?",
+      "options": {
+        "a": "Trap",
+        "b": "{{tm:sporting}}",
+        "c": "Skeet"
+      },
+      "explain": "Skeetissä on korkea ja matala torni, ja ampumapaikat ovat puoliympyrässä niiden välillä."
+    },
+    "intro-disciplines-q-second-shot": {
+      "q": "Ensimmäinen laukauksesi ei osu yksittäiskiekkoon. Mitä sääntö sallii?",
+      "options": {
+        "a": "Tuomari heittää kiekon uudelleen",
+        "b": "Sinun on avattava ase välittömästi",
+        "c": "Saat ampua toisella piipulla"
+      },
+      "explain": "{{tm:sporting}}- ja {{tm:compak}}-lajeissa yksittäiskiekkoon on aina mahdollisuus ampua kaksi laukausta, joten ensimmäisen laukauksen jälkeen voi ampua toisellakin."
+    }
+  }
+}

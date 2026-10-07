@@ -1,0 +1,86 @@
+{
+  "_note": "Facts of the ClayArena Academy block 'Basics' (Основи): one number in one place (design §6.5). Used in lesson texts as {{fact:basics.<id>}}; the text is a fragment that fits into a sentence in each language (Ukrainian in the nominative) and is also used by lessons of other blocks, so change its grammar only together with them. Every number is checked against docs/rules/data (FITASC editions of 01/01/2025; categories.js valid from 2027-01-01). Dates are not repeated here: the start of the new category table is competitions.categories-from. scope = sporting | compak | both; rule_ref = the main rules guide item, rule_refs = all items behind the number (one per book when both disciplines share it); note = what the editors checked. The squad size, the load limit, the gun rules and the Sporting™ layout were merged on 2026-10-07 into rules.squad-max-shooters, gear.fitasc-shot-load, gear.fitasc-max-gauge + gear.fitasc-min-barrel and targets.sporting-layout-targets.",
+  "compak-field": {
+    "text": {
+      "en": "6 traps lettered A to F and 5 shooting stations in a line",
+      "uk": "6 машинок, позначених літерами від A до F, і 5 номерів у лінію"
+    },
+    "scope": "compak",
+    "rule_ref": "compak:ch2-traps",
+    "rule_refs": [
+      "compak:ch2-traps",
+      "compak:ch2-shooting-positions"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "international-targets": {
+    "text": {
+      "en": "200 targets, shot in rounds of 25",
+      "uk": "200 мішеней, які стріляють раундами по 25"
+    },
+    "scope": "both",
+    "rule_ref": "sporting:ch16-format",
+    "rule_refs": [
+      "sporting:ch16-format",
+      "compak:ch5-competition-layouts"
+    ],
+    "note": "Sporting™: 16.1 states 200 targets in rounds of 25 (the jury may change the number in exceptional cases). Compak®: 200 is our own calculation from Chapter 5 (eight Compaks of 25 targets; the rulebook lists only the four kinds of Compak), so lessons say 'usually' when the fact covers both disciplines.",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "sporting-stand-size": {
+    "text": {
+      "en": "a 1 m square or a circle 1 m across",
+      "uk": "квадрат 1 × 1 м або коло діаметром 1 м"
+    },
+    "scope": "sporting",
+    "rule_ref": "sporting:ch2-shooting-stands",
+    "rule_refs": [
+      "sporting:ch2-shooting-stands"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "fitasc-categories-2027": {
+    "text": {
+      "en": "Junior (13–20), Lady (from 13), Men (21–55), Senior (56–65), Veteran (66–72) and Master (from 73), counted by year of birth, not by birthday",
+      "uk": "Junior (13–20 років), Lady (від 13), Men (21–55), Senior (56–65), Veteran (66–72) і Master (від 73); вік рахують за роком народження, а не за днем народження"
+    },
+    "rule_ref": "categories:junior",
+    "rule_refs": [
+      "categories:junior",
+      "categories:lady"
+    ],
+    "note": "Category table valid from 1 January 2027 (categories.js valid_from). The date is not part of this text: lessons give it next to the fact (literally or as {{fact:competitions.categories-from}}).",
+    "sources": [
+      "https://www.fitasc.com/competitions/categories"
+    ]
+  },
+  "fitasc-junior-age": {
+    "text": {
+      "en": "from 1 January of the year they turn 13 until the end of the year they turn 20",
+      "uk": "з 1 січня року, у якому їм виповнюється 13, до кінця року, у якому виповнюється 20"
+    },
+    "rule_ref": "categories:junior",
+    "rule_refs": [
+      "categories:junior"
+    ],
+    "note": "From the category table valid from 1 January 2027 (categories.js valid_from). Every sentence that uses this fact must say so: 'From {{fact:competitions.categories-from}} …' or 'from 2027'.",
+    "sources": [
+      "https://www.fitasc.com/competitions/categories"
+    ]
+  },
+  "efp-validity": {
+    "text": {
+      "en": "up to five years",
+      "uk": "до п’яти років"
+    },
+    "sources": [
+      "https://eur-lex.europa.eu/eli/dir/2021/555/oj/eng"
+    ]
+  }
+}

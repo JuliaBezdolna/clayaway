@@ -1,0 +1,153 @@
+{
+  "id": "technique-lead-methods",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "d892a662",
+    "summary": "8091b4d1",
+    "lead-why-p1": "de41baf7",
+    "lead-why-p2": "1960eeb7",
+    "lead-why-p3": "67cd8204",
+    "lead-why-p4": "721ef044",
+    "lead-why-p5": "7b44aeff",
+    "technique-lead-methods-p2": "bc0cf37a",
+    "technique-lead-methods-p3": "ed9c1930",
+    "technique-lead-methods-p4": "7278ba46",
+    "technique-lead-methods-p5": "90f7570b",
+    "technique-lead-methods-ambush": "9ed427d6",
+    "technique-lead-methods-p6": "00dcd054",
+    "lead-why-sim": "ed852e6b",
+    "technique-lead-methods-n1": "a587017e",
+    "lead-why-ph1": "25aa89ad",
+    "lead-why-ph2": "cd893131",
+    "lead-why-ph3": "95a1b2e5",
+    "lead-why-kp1": "06585b31",
+    "lead-why-kp2": "69c874f3",
+    "lead-why-kp3": "cb78f765",
+    "lead-why-kp4": "737a337d",
+    "technique-lead-methods-kp5": "e5824828",
+    "technique-lead-methods-dyk": "fbc40ca6",
+    "lead-why-q1": "f079984b",
+    "lead-why-q2": "f2d646e0",
+    "lead-why-q3": "ffd07423",
+    "technique-lead-methods-q1": "f8af648e",
+    "technique-lead-methods-q2": "6931f0e4",
+    "technique-lead-methods-q3": "c657bbdb",
+    "technique-lead-methods-q4": "c6090152"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "lead-why-p1": "A sörétnek a másodperc törtrészére van szüksége, hogy elérje a korongot, és ezalatt a korong továbbhalad. Ha a fegyver pontosan egy {{term:crosser|keresztező korongra}} (korong, amely előtted keresztben repül) mutat, és ott is marad, a sörét mögötte halad el. A csöveknek előre kell mutatniuk, hogy a sörét és a korong találkozzon. Ez a távolság az {{term:lead|elétartás}}, brit angolul „forward allowance” is.",
+    "lead-why-p2": "Az elétartás a korong sebességével, távolságával és szögével nő. Azonos sebesség és távolság mellett a legnagyobb elétartás egy teljesen keresztező korongnál (full crosser) kell. Az egyenesen a lövész felé vagy tőle elrepülő korongnak alig kell oldalirányú elétartás, bár az emelkedő és eső korongoknak függőleges elétartás kell (fölé vagy alá).",
+    "lead-why-p3": "A valós számok meglepők. Tájékoztatásul: egy kb. 20 m-es keresztező korong valós elétartását gyakran így becsülik: {{fact:technique.crosser-lead-20m}}. Az elétartás gyorsan nő a távolsággal – még valamivel gyorsabban is, mint a távolság maga –, mert a sörét lassul repülés közben. Így ha egy távoli korong a csöveidtől nézve ugyanolyan messze tűnik, mint egy közeli, a valós elétartás a levegőben sokkal nagyobb.",
+    "lead-why-p4": "A valós elétartás a korong előtti valódi távolság a levegőben. Azt a távolságot, amelyet a lövész a csőtorkolat és a korong között lát, {{term:perceived-lead|látott elétartásnak}} (perceived lead) hívják, más néven „lead picture” vagy „sight picture”. Egy méter 20 m-en csak néhány centiméternek látszik a torkolatnál. A választott módszer megváltoztatja ezt a képet. Ha a csövek a korong sebességével mozognak (elévezetés), a teljes távolságot látod. Ha gyorsabban mozognak, mint a korong (áthúzás), csak egy kis távolságot látsz, vagy semmit. Abban a pillanatban, mielőtt a lövés kilép, a gyorsan mozgó fegyver magától megteszi a hátralévő utat előre. Lesből lövésnél a fegyver nem mozog, ezért a valós elétartásnál is nagyobb távolságot kell látnod, mert a korong tovább repül, amíg reagálsz.",
+    "lead-why-p5": "Sok jobbkezes lövész úgy érzi, hogy egy balról jobbra tartó keresztező korongnak nagyobb elétartás kell, mint egy jobbról balra tartónak. A valós elétartás ugyanakkora, csak az érzékelés más. Az edző „four feet”-je tehát egy képet ír le, nem mérést.",
+    "technique-lead-methods-p2": "Az edzők az elétartást egy módszer segítségével tanítják: ez egy mód arra, hogy a csövek a korong elé kerüljenek. Négy módszer a legelterjedtebb. Egy adott korongnál a valós elétartás mindegyiknél azonos; csak a kép változik, amelyet látsz.",
+    "technique-lead-methods-p3": "{{term:maintained-lead|Elévezetés}}: a csövek kezdettől a korong előtt vannak, hagyják, hogy a korong a kívánt távolságra közelítsen, majd a sebességével mozognak, tartva ezt a távolságot. Sok edző ezt ajánlja hosszú, kiszámítható korongokhoz. Bővebben: {{lesson:lead-maintained}}.",
+    "technique-lead-methods-p4": "{{term:pull-away|Mutass oda és lendíts}} (pull-away): a csöveket a korongra (vagy annak elülső szélére) irányítod, egy pillanatig együtt mozogsz vele, majd simán előrelendíted a csöveket, és lősz. Sok edző ezzel kezdi a kezdők tanítását, és gyakran illik a rézsútos korongokhoz (amelyek szögben távolodnak vagy közelednek hozzád) és az emelkedő korongokhoz. Bővebben: {{lesson:lead-pull-away}}.",
+    "technique-lead-methods-p5": "{{term:swing-through|Áthúzás}} (swing-through): a csövek hátul indulnak, gyorsabban mozognak, mint a korong, áthaladnak rajta, és a lövés akkor dördül, amikor már elé kerülnek. Gyakran illik közeli, gyors és fej feletti korongokhoz. Bővebben: {{lesson:lead-swing-through}}.",
+    "technique-lead-methods-ambush": "{{term:ambush|Lesből lövés}} (ambush): a csövek mozdulatlanul várnak egy ponton elöl, és az elsütés még azelőtt megtörténik, hogy a korong odaérne. Segíthet olyan korongnál, amelyet csak egy pillanatra látsz. Bővebben: {{lesson:lead-ambush-instinctive}}.",
+    "technique-lead-methods-p6": "Semelyik módszer nem „helyesebb” a másiknál. A tapasztalt lövészek gyakran minden korongnál más módszert választanak. Kezdőknek általában jobban működik, ha először egy módszert tanulnak meg az edzővel. A három mozgó fegyveres módszernél a fegyver a lövés után is mozog tovább; lásd: {{lesson:technique-follow-through-and-mistakes}}.",
+    "lead-why-sim": "Animáció: egy keresztező korong, négy módszer. A táblázat mutatja, hogy a valós elétartás nem változik, a látott elétartás viszont a módszertől függ."
+  },
+  "note": {
+    "technique-lead-methods-n1": "Az edzők az elétartást lábban, korongszélességben vagy képként mondják meg. Fordítsd az egységet úgy, ahogy mondták: ha egy utasítás közben a „four feet”-et méterre váltod, a képből mérés lesz."
+  },
+  "phrases": {
+    "lead-why-ph1": {
+      "meaning": "Ne a levegőben lévő méterekben gondolkodj; arra a távolságra emlékezz, amelyet a torkolatnál láttál, amikor eltaláltad.",
+      "say": "Felejtsd el a valós távolságot – a képed számít."
+    },
+    "lead-why-ph2": {
+      "meaning": "Ennél a találatnál jó volt az elétartás; tartsd meg ugyanazt a képet.",
+      "say": "Ez az a kép – jegyezd meg."
+    },
+    "lead-why-ph3": {
+      "meaning": "A valós elétartás mindkét irányban egyenlő; csak az érzékelés változik.",
+      "say": "A jobbról balrára ugyanannyi elétartás, csak másnak látszik."
+    }
+  },
+  "key_points": {
+    "lead-why-kp1": "Az elétartás azért létezik, mert a korong mozog, amíg a sörét halad.",
+    "lead-why-kp2": "Nagyobb sebesség, távolság és szög = több elétartás.",
+    "lead-why-kp3": "A valós elétartás a korongnál a levegőben gyakran egy méter vagy több; a torkolatnál a kép csak néhány centiméter, mert a torkolat közel van a szemedhez.",
+    "lead-why-kp4": "A módszer megváltoztatja a képet: mozgó fegyvernél elévezetésnél látod a legtöbbet, áthúzásnál a legkevesebbet; lesből lövésnél (álló fegyver) a távolság még nagyobb.",
+    "technique-lead-methods-kp5": "Négy módszer: elévezetés, mutass oda és lendíts, áthúzás és lesből lövés; először egyet tanulj meg az edzővel."
+  },
+  "quiz": {
+    "lead-why-q1": {
+      "q": "Mi az érzékelt elétartás?",
+      "options": {
+        "a": "A korong előtti valós távolság a levegőben",
+        "b": "Az a távolság, amelyet a lövész a csőtorkolat és a korong között lát",
+        "c": "A kottára írt elétartás",
+        "d": "A lőállás és a dobógép közötti távolság"
+      },
+      "explain": "Az érzékelt elétartás a kép a torkolatnál; a valós elétartás a tényleges távolság a levegőben, és sokkal nagyobb."
+    },
+    "lead-why-q2": {
+      "q": "A mozgó fegyveres módszerek közül melyik ad általában a legnagyobb látott elétartást?",
+      "options": {
+        "a": "Áthúzás (swing-through)",
+        "b": "Mutass oda és lendíts (pull-away)",
+        "c": "Elévezetés (maintained lead)",
+        "d": "Mind egyforma"
+      },
+      "explain": "Elévezetésnél a fegyver nem mozog gyorsabban, mint a korong, tehát magától semmit nem ad hozzá, és a teljes távolságot látnod kell. Lesből lövésnél, ahol a fegyver mozdulatlan, a látott távolság még nagyobb."
+    },
+    "lead-why-q3": {
+      "q": "Melyik koronghoz nem kell szinte semmilyen oldalirányú elétartás?",
+      "options": {
+        "a": "Egyenesen elmenő korong",
+        "b": "Messzi keresztező",
+        "c": "45°-ban rézsútosan elmenő korong",
+        "d": "Keresztező 40 m-en"
+      },
+      "explain": "Az egyenesen elmenő korongnak nincs oldalirányú mozgása; amire szüksége van, az függőleges elétartás."
+    },
+    "technique-lead-methods-q1": {
+      "q": "Miért van szükség elétartásra?",
+      "options": {
+        "a": "Hogy a sörét és a korong találkozzon",
+        "b": "Hogy csökkenjen a visszarúgás",
+        "c": "Hogy a korong lassabban repüljön"
+      },
+      "explain": "Amíg a sörét repül, a korong tovább mozog, ezért elé kell lőni."
+    },
+    "technique-lead-methods-q2": {
+      "q": "Melyik módszernél vannak a csövek végig a korong előtt?",
+      "options": {
+        "a": "Swing-through",
+        "b": "Maintained lead",
+        "c": "Pull-away"
+      },
+      "explain": "Maintained lead (elévezetés): a csövek kezdettől elöl vannak, és tartják a távolságot."
+    },
+    "technique-lead-methods-q3": {
+      "q": "Melyik korongnak van szüksége a legkisebb elétartásra?",
+      "options": {
+        "a": "Egy távoli, gyors keresztező",
+        "b": "Egy egyenesen távolodó korong",
+        "c": "Egy magas keresztező"
+      },
+      "explain": "Az egyenesen távolodó vagy közeledő korong a csövekhez képest alig mozog oldalra."
+    },
+    "technique-lead-methods-q4": {
+      "q": "Melyik módszernél kell a lövésznek a döntés pillanatában a legnagyobb távolságot látnia?",
+      "options": {
+        "a": "Swing-through",
+        "b": "Pull-away",
+        "c": "Maintained lead",
+        "d": "Ambush"
+      },
+      "explain": "A lesből lövésnél (ambush) a fegyver mozdulatlan, a korong pedig a reakcióidő alatt is tovább repül. Így a döntés pillanatában látott távolságnak nagyobbnak kell lennie a valós elétartásnál."
+    }
+  },
+  "title": "Elétartás: miért a korong elé kell lőni",
+  "summary": "Miért kell a sörétnek a mozgó korong elé mennie, miben különbözik a valós és a látott elétartás, és hogyan működik a négy elétartási módszer.",
+  "did_you_know": "Két lövész eltörhet ugyanazt a korongot, és teljesen másként írja le az elétartást: egyik „lát” egy métert, a másik fél métert. A különbség abban van, mennyire gyorsan mozgatja mindegyik a fegyvert."
+}

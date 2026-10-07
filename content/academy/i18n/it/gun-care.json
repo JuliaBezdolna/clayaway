@@ -1,0 +1,99 @@
+{
+  "id": "gun-care",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "42bc807c",
+    "summary": "53ea9070",
+    "gun-care-p1": "e7fec0b7",
+    "gun-care-p2": "311dadd8",
+    "gun-care-p3": "5d55cf61",
+    "gun-care-p4": "3cd3a115",
+    "gun-care-p5": "520c5e84",
+    "gun-care-p6": "4866d6ad",
+    "gun-care-p7": "8dcf8861",
+    "gun-care-kp1": "9aa8a796",
+    "gun-care-kp2": "cabb28f0",
+    "gun-care-kp3": "12d97280",
+    "gun-care-kp4": "51137384",
+    "gun-care-kp5": "9b69a2ed",
+    "gun-care-dyk": "8beaba79",
+    "gun-care-q1": "77aa2722",
+    "gun-care-q2": "8bd12cd7",
+    "gun-care-q3": "c3f948e6",
+    "gun-care-q4": "5fd25464"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Cura e pulizia",
+  "summary": "Come pulire un fucile in sicurezza dopo il tiro e dopo la pioggia, come conservarlo, e perché i tiratori di {{tm:sporting}} e {{tm:compak}} prenotano una revisione annuale.",
+  "body": {
+    "gun-care-p1": "La pulizia comincia con la sicurezza. Assicurati che il fucile sia scarico: aprilo e guarda in entrambe le {{term:chamber|camere di scoppio}}. Allontana tutte le cartucce dalla tua area di lavoro, così non puoi inserirne una per errore.",
+    "gun-care-p2": "Smonta il fucile: togli l'{{term:fore-end|astina}}, poi le canne dalla {{term:receiver|bascula}}. Se hai strozzatori intercambiabili, svitali con la {{term:choke-key|chiave per strozzatori}}; si puliscono separatamente (vedi {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p3": [
+      "Pulisci l'interno delle canne dopo ogni giornata di tiro.",
+      "Bagnalo con un solvente per pulizia e passa qualche volta uno scovolo (una piccola spazzola metallica su un'asta).",
+      "Fai passare sull'asta dei quadratini di stoffa pulita (patches) finché non esce quasi pulita.",
+      "Finisci con una pellicola molto sottile d'olio, e asciuga l'interno della canna prima di tirare di nuovo."
+    ],
+    "gun-care-p4": "Pulisci il metallo esterno con un panno e una goccia d'olio per proteggerlo da impronte e umidità. Non inzuppare d'olio un calcio in legno, perché l'olio si assorbe nel legno. Ingrassa leggermente la cerniera e i punti dove le canne si bloccano nella bascula, con grasso per armi.",
+    "gun-care-p5": "Dopo la pioggia, asciuga il fucile subito, al campo o in hotel. Non lasciare un fucile bagnato per la notte in un {{term:gun-slip|fodero}} morbido o in una {{term:hard-case|valigetta}} chiusa: l'umidità resta a lungo e segue la ruggine. Asciugalo, pulisci, lubrifica.",
+    "gun-care-p6": "Conserva il fucile asciutto, in una cassaforte o come richiede la legge del tuo paese; molte leggi chiedono anche di tenere le cartucce separate. Molti armaioli consigliano di conservare il fucile in orizzontale o con le volate in basso, perché l'olio non scorra nel calcio in legno. Non usare lana d'acciaio o abrasivi: graffiano la finitura.",
+    "gun-care-p7": "Una volta all'anno, o dopo un gran numero di colpi, porta il fucile a un {{term:gunsmith|armaiolo}} per una revisione. Dopo averlo rimontato, non provare il fucile su una pedana di gara. Nello {{tm:sporting}} e nel {{tm:compak}} un {{term:gun-test|colpo di prova}} si spara solo su una pedana di prova separata, dove il campo ne ha una."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "gun-care-kp1": "Prima assicurati che il fucile sia scarico e le cartucce lontane.",
+    "gun-care-kp2": "Pulisci l'interno delle canne dopo ogni giornata di tiro; lubrifica leggermente.",
+    "gun-care-kp3": "Asciuga subito un fucile bagnato; non lasciarlo per la notte nel fodero.",
+    "gun-care-kp4": "Conservalo asciutto e chiuso a chiave, in orizzontale o con le volate in basso.",
+    "gun-care-kp5": "Revisione annuale da un armaiolo; colpi di prova solo su una pedana di prova."
+  },
+  "did_you_know": "Gli {{term:primer|inneschi}} contenevano un tempo sali corrosivi, e il fucile andava pulito lo stesso giorno o la canna arrugginiva. Gli inneschi moderni non sono corrosivi, ma pulire dopo il tiro resta una buona abitudine.",
+  "quiz": {
+    "gun-care-q1": {
+      "q": "Cosa bisogna fare per primo prima di pulire un fucile?",
+      "options": {
+        "a": "Ingrassare la cerniera e i gancetti",
+        "b": "Svitare entrambi gli strozzatori",
+        "c": "Controllare che il fucile sia scarico",
+        "d": "Togliere il calciolo"
+      },
+      "explain": "La sicurezza prima di tutto: apri il fucile e controlla entrambe le camere."
+    },
+    "gun-care-q2": {
+      "q": "Cosa non bisogna fare dopo aver tirato sotto la pioggia?",
+      "options": {
+        "a": "Pulire il fucile con un panno asciutto",
+        "b": "Lasciarlo per la notte nel fodero",
+        "c": "Asciugare le canne dentro e fuori",
+        "d": "Mettere sul metallo una pellicola sottile d'olio"
+      },
+      "explain": "In un fodero chiuso l'umidità resta a lungo, e segue la ruggine."
+    },
+    "gun-care-q3": {
+      "q": "Dove puoi provare il fucile con un colpo prima di una gara?",
+      "options": {
+        "a": "Sulla pedana di prova, se il campo ne ha una",
+        "b": "Sulla prima pedana di gara",
+        "c": "Ovunque nel campo, lontano dalle persone",
+        "d": "Nel parcheggio vicino al clubhouse"
+      },
+      "explain": "Il regolamento vieta colpi di prova sulla pedana di gara; per questo c'è una pedana separata."
+    },
+    "gun-care-q4": {
+      "q": "Perché molti armaioli consigliano di conservare il fucile con le volate in basso?",
+      "options": {
+        "a": "Per caricarlo più in fretta dopo",
+        "b": "Perché gli strozzatori non si allentino",
+        "c": "Perché le canne si raffreddino più in fretta",
+        "d": "Perché l'olio non scorra nel calcio"
+      },
+      "explain": "L'olio che scorre in un calcio di legno può danneggiare il legno col tempo."
+    }
+  }
+}

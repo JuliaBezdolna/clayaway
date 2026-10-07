@@ -1,0 +1,91 @@
+{
+  "id": "intro-disciplines",
+  "lang": "lt",
+  "base_rev": 1,
+  "h": {
+    "title": "dac19506",
+    "summary": "58295a84",
+    "intro-disciplines-p1": "79e1fd27",
+    "intro-disciplines-p2": "bad18039",
+    "intro-disciplines-cmp": "1ddbb76f",
+    "intro-disciplines-p3": "f274bc4d",
+    "intro-disciplines-p4": "072bf2ee",
+    "intro-disciplines-p5": "c1fef81a",
+    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-kp1": "b3f7bab6",
+    "intro-disciplines-kp2": "634ce41c",
+    "intro-disciplines-kp3": "fec76055",
+    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-dyk": "0aa60887",
+    "intro-disciplines-q1": "f150b65a",
+    "intro-disciplines-q2": "40032e9f",
+    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q-second-shot": "ecd0ab34"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Pagrindinės disciplinos",
+  "summary": "Trumpas gidas apie {{tm:sporting}} ir {{tm:compak}}, taip pat apie Trap ir Skeet: kas jose bendra ir kuo jos skiriasi.",
+  "body": {
+    "intro-disciplines-p1": "{{tm:sporting}} imituoja medžioklę. {{term:shooting-stand|Šaudymo vietos}} – pažymėti taškai, iš kurių šaudoma – išdėstytos natūralioje vietovėje: laukuose, prie miško, ant šlaitų. Taikiniai skrenda taip, kaip skristų kurapka, antis ar fazanas, arba rieda kaip triušis. Kiekvienas {{term:layout|išdėstymas}} (layout), tai yra grupė šaudymo vietų, duoda {{fact:targets.sporting-layout-targets}} (dubletas yra du taikiniai, tad dar 10 papildomai). Du {{term:double|dubleto}} taikiniai skrenda kartu arba vienas po kito.",
+    "intro-disciplines-p2": "{{tm:compak}} yra kompaktiška versija. Visa tai vyksta viename lauke, kuriame yra {{fact:basics.compak-field}}. Šaulys pereina visus penkis numerius ir kiekviename sušaudo 5 taikinius – 25 per {{term:round|seriją}}. Compak laukui reikia nedaug vietos, todėl klubui nesudėtinga jį įrengti.",
+    "intro-disciplines-cmp": {
+      "sporting": "Trasą einate nuo vienos šaudymo vietos iki kitos, ir kiekvienoje – savi taikiniai. Dubletas gali būti {{term:double-on-report|pagal šūvio garsą}} (pirmas šūvis paleidžia antrą taikinį) arba {{term:simultaneous-double|vienalaikis}}, kai abu taikiniai skrenda tuo pačiu metu. {{term:rafale-double|Savaiminis dubletas}} – du taikiniai iš tos pačios mašinėlės, vienas iškart po kito.",
+      "compak": "Likote viename lauke ir po kiekvieno savo ėjimo pereinate vienu numeriu į dešinę. Dubletas būna {{term:double-on-report|pagal šūvio garsą}} arba {{term:simultaneous-double|vienalaikis}}, kai abu taikiniai skrenda tuo pačiu metu."
+    },
+    "intro-disciplines-p3": "Tarptautinės varžybos abiejose disciplinose dažniausiai apima {{fact:basics.international-targets}}. Abiejose į {{term:single-target|pavienį taikinį}} leidžiama šauti du kartus: jei pirmas šūvis nepataiko, antru jį vis tiek galima sudaužyti.",
+    "intro-disciplines-p4": "Trap – kita disciplinų grupė. Šaulys stovi vienoje iš penkių vietų, išdėstytų eilėje, o taikiniai nuo jo tolsta iš tranšėjos (įgilintos duobės prieš šaudymo vietas) kintančiais kampais. Šaulys iš anksto tiksliai nežino, kur skries kitas taikinys. {{term:olympic-trap|Olimpiniame trape}} (Olympic Trap) į kiekvieną taikinį leidžiama šauti du kartus.",
+    "intro-disciplines-p5": "{{term:skeet|Skeet}} disciplinoje taikiniai skrenda iš dviejų vienas priešais kitą stovinčių namelių (nedidelių pastatų, kuriuose stovi mašinėlės) – aukšto ir žemo. Šaulys pereina tarp šaudymo vietų, išdėstytų pusračiu tarp namelių, plius viena vieta viduryje. Trajektorijos nekinta, todėl labai svarbi tiksli, iki smulkmenų išlavinta technika.",
+    "intro-disciplines-p6": "Olimpinis trapas ir Skeet yra olimpinės programos dalis ir priklauso kitai tarptautinei federacijai – ISSF. Bet ir {{term:fitasc|FITASC}} turi savų trapo ir skeet tipo disciplinų, pavyzdžiui, Universal Trench ir Universal Skeet. ClayArena Academy daugiausia skirta {{tm:sporting}} ir {{tm:compak}}. Pagrindai bendri visoms disciplinoms: sauga, {{term:gun-mount|šautuvo atrėmimas į petį}} (ginklo pakėlimas prie skruosto ir pečio) ir taikinio „skaitymas“."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "intro-disciplines-kp1": "{{tm:sporting}}: trasa natūralioje vietovėje; kiekvienas išdėstymas duoda {{fact:rules.round-targets}}.",
+    "intro-disciplines-kp2": "{{tm:compak}}: vienas laukas, kuriame yra {{fact:basics.compak-field}}.",
+    "intro-disciplines-kp3": "Tarptautinės varžybos dažniausiai apima {{fact:basics.international-targets}}; į pavienį taikinį leidžiama šauti du kartus.",
+    "intro-disciplines-kp4": "Trap taikiniai tolsta nuo šaulio; Skeet jie kryžiuojasi tarp dviejų namelių."
+  },
+  "did_you_know": "{{tm:compak}} {{fact:community.compak-created}}.",
+  "quiz": {
+    "intro-disciplines-q1": {
+      "q": "Kiek taikinių duoda vienas {{tm:sporting}} išdėstymas (layout)?",
+      "options": {
+        "a": "10",
+        "b": "25",
+        "c": "50"
+      },
+      "explain": "Kiekvienas išdėstymas duoda {{fact:targets.sporting-layout-targets}} (dubletas yra du taikiniai, tad dar 10 papildomai)."
+    },
+    "intro-disciplines-q2": {
+      "q": "Kiek mašinėlių yra viename Compak lauke?",
+      "options": {
+        "a": "Šešios, pažymėtos raidėmis nuo A iki F",
+        "b": "Dvi: aukšta ir žema",
+        "c": "Penkiolika, tranšėjoje"
+      },
+      "explain": "{{tm:compak}} lauke yra {{fact:basics.compak-field}}."
+    },
+    "intro-disciplines-q3": {
+      "q": "Kurioje disciplinoje taikiniai skrenda iš dviejų namelių – aukšto ir žemo?",
+      "options": {
+        "a": "Trap",
+        "b": "{{tm:sporting}}",
+        "c": "Skeet"
+      },
+      "explain": "Tik Skeet turi aukštą ir žemą namelį, o šaudymo vietos išdėstytos pusračiu tarp jų."
+    },
+    "intro-disciplines-q-second-shot": {
+      "q": "Pirmas šūvis nepataikė į pavienį taikinį. Ką leidžia taisyklės?",
+      "options": {
+        "a": "Teisėjas pakartoja taikinį",
+        "b": "Turite nedelsdami atidaryti šautuvą",
+        "c": "Galite šauti iš antro vamzdžio"
+      },
+      "explain": "{{tm:sporting}} ir {{tm:compak}} pavienis taikinys turi leisti du šūvius, tad nepataikius pirmu, vis tiek galima šauti antru."
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "cartridges-load-weight",
+  "lang": "hu",
+  "base_rev": 2,
+  "h": {
+    "title": "1f80569e",
+    "summary": "ed7b9a72",
+    "cartridges-load-weight-p1": "decdd26e",
+    "gear-cartridges-p4": "0bf10f58",
+    "cartridges-load-weight-cmp1": "4195ccb1",
+    "cartridges-load-weight-p3": "cc37e571",
+    "cartridges-load-weight-p4": "d0a3299d",
+    "cartridges-load-weight-p7": "fe983bcf",
+    "cartridges-load-weight-p6": "1e71519f",
+    "gear-cartridges-ph2": "c9f34404",
+    "cartridges-load-weight-kp1": "17adb00e",
+    "gear-cartridges-kp4": "17ffb11e",
+    "cartridges-load-weight-kp3": "4dfbe326",
+    "cartridges-load-weight-kp4": "d0986a33",
+    "cartridges-load-weight-dyk": "a4b09827",
+    "gear-cartridges-q2": "3bce4d71",
+    "cartridges-load-weight-q2": "af9002a3",
+    "cartridges-load-weight-q3": "c9a85ba3",
+    "cartridges-load-weight-q1": "caa212d8"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Töltetsúly",
+  "summary": "Mi a töltetsúly, miben különböznek a 24 g-os és 28 g-os töltények, milyen határt szabnak a {{tm:sporting}} és a {{tm:compak}} szabályai, és hogyan ellenőrzik a töltényeket.",
+  "body": {
+    "cartridges-load-weight-p1": "A {{term:load-weight|töltetsúly}} (load) a töltényben lévő sörét tömege, grammban. A dobozon nagy számokkal van feltüntetve, például „24 g” vagy „28 g”. Az USA-ban és az Egyesült Királyságban néha unciában adják meg: 1 uncia kb. 28 g.",
+    "gear-cartridges-p4": "A {{tm:sporting}} és a {{tm:compak}} szabályai ugyanazt a határt szabják. A töltetsúly {{fact:gear.fitasc-shot-load}}, tehát legfeljebb kb. 28,6 g, bármilyen is a kaliber. A sörétnek {{fact:gear.fitasc-shot-diameter}} kell lennie. Az újratöltött töltények, a szórók, a vegyes sörétméretek, a fekete lőpor és a nyomjelzők tilosak.",
+    "cartridges-load-weight-cmp1": {
+      "sporting": "Mielőtt elkezdesz lőni egy lőálláson, a {{term:referee|bíró}} kérhet két töltényt ellenőrzésre: egyet a mellény jobb zsebéből, egyet a balból.",
+      "compak": "Ha egy ellenőrzés kimutatja, hogy a töltényeid megsértik a szabályokat, minden velük leadott lövésed az ellenőrzésig {{term:zero|nullának}} számít, azaz hibának. A zsűri hagyhatja érvényben az eredményeket, ha nem tudhattad, és nem volt előnyöd belőle, feltéve hogy a hibát azonnal kijavítják, amint felfedezik."
+    },
+    "cartridges-load-weight-p3": "Sok {{tm:sporting}} lövész 28 g-ot használ versenyen: több szem sűrűbb sörétképet ad, különösen a távoli korongoknál. A hátránya az erősebb {{term:recoil|visszarúgás}}, és egy 100–200 korongos nap alatt ezt érzed.",
+    "cartridges-load-weight-p4": "A 24 g-os töltények könnyebbek, kevésbé lökik meg, és rendszerint kicsit olcsóbbak is. Edzéshez, valamint közeli és közepes korongokhoz rendszerint elegendők, és kevésbé fárasztanak; távoli korongoknál a 28 g sűrűbb sörétképet ad. Léteznek még könnyebb, 21 g-os töltetek is, főleg 20-as kaliberhez vagy oktatáshoz.",
+    "cartridges-load-weight-p7": "Az ISSF olimpiai sörétes versenyszámaiban, például a trapben, a határ alacsonyabb: 24 g, +0,5 g tűréssel.",
+    "cartridges-load-weight-p6": "Sok edző azt tanácsolja, hogy a kezdők 24 g-mal induljanak. A kisebb visszarúgás kevesebb fáradtságot és kisebb kockázatot jelent arra, hogy megszokd a lövés előtti {{term:flinch|rándulást}}. Később, amikor a technikád stabilabb, áttérhetsz a 28 g-ra."
+  },
+  "note": {},
+  "phrases": {
+    "gear-cartridges-ph2": {
+      "meaning": "A verseny töltetsúly-korlátja, ahogy a FITASC szabályaiban szerepel.",
+      "say": "Ezen a versenyen legfeljebb huszonnyolc gramm."
+    }
+  },
+  "key_points": {
+    "cartridges-load-weight-kp1": "A töltetsúly a sörét tömege grammban; 1 uncia kb. 28 g.",
+    "gear-cartridges-kp4": "Határok: 28 g ólom (+2%), szemek 2,0–2,5 mm; nincs újratöltött töltény, vegyes sörét, fekete lőpor vagy nyomjelző.",
+    "cartridges-load-weight-kp3": "A 28 g sűrűbb sörétképet ad a távoli korongoknál; a 24 g lágyabb edzéshez és kezdőknek.",
+    "cartridges-load-weight-kp4": "{{tm:sporting}}: a bíró két töltényt ellenőrizhet; {{tm:compak}}: a nem megfelelő töltényekkel leadott lövések nullának számítanak."
+  },
+  "did_you_know": "1 uncia 28,35 g, tehát a klasszikus brit „1 oz” töltény majdnem pontosan megegyezik a FITASC 28 g-os határával.",
+  "quiz": {
+    "gear-cartridges-q2": {
+      "q": "Mennyi a maximális sörétterhelés a FITASC szabályai szerint?",
+      "options": {
+        "a": "24 g, tűrés nélkül",
+        "b": "28 g, +2% tűréssel",
+        "c": "32 g, csak távoli korongokhoz",
+        "d": "Nincs határ, bármilyen töltetsúly megengedett"
+      },
+      "explain": "Mindkét versenyszám legfeljebb 28 g ólomsörétet enged, +2%-kal."
+    },
+    "cartridges-load-weight-q2": {
+      "q": "Miért tanácsol sok edző 24 g-os töltényeket kezdőknek?",
+      "options": {
+        "a": "Kevésbé löknek, és kevésbé fárasztanak",
+        "b": "Csak ezeket engedik meg kezdőknek",
+        "c": "A legsűrűbb sörétképet adják",
+        "d": "Messzebbre repülnek a nehezebb töltényeknél"
+      },
+      "explain": "A kisebb visszarúgás segít megőrizni a jó technikát, és elkerülni a rándulást."
+    },
+    "cartridges-load-weight-q3": {
+      "q": "Hány töltényt vehet el ellenőrzésre a bíró a {{tm:sporting}}-ban?",
+      "options": {
+        "a": "Egyet sem: az ellenőrzés tilos",
+        "b": "Egyet, bármelyik mellényzsebből",
+        "c": "Kettőt, egyet minden mellényzsebből",
+        "d": "Az egész dobozt a táskából"
+      },
+      "explain": "A bíró két töltényt vehet el, egyet mindkét mellényzsebből."
+    },
+    "cartridges-load-weight-q1": {
+      "q": "A {{tm:compak}}-ban egy ellenőrzés kimutatja, hogy egy lövész töltényei megsértik a szabályokat. Hogyan számolják az ezekkel az ellenőrzés előtt leadott lövéseket?",
+      "options": {
+        "a": "Később újra lövik őket",
+        "b": "No Birdnek számítanak",
+        "c": "Rendesen számítanak",
+        "d": "Nullának számítanak"
+      },
+      "explain": "Minden nem megfelelő fegyverrel vagy töltényekkel az ellenőrzés előtt leadott lövés nullának, azaz hibának számít; a zsűri csak különleges esetekben fogadhatja el az eredményeket."
+    }
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "id": "culture-sportsmanship-referee",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "fan"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "culture-sportsmanship-referee"
+    ],
+    "interpreter": [
+      "etiquette-squad"
+    ]
+  },
+  "terms": [
+    "referee",
+    "squad",
+    "lateness",
+    "rotation",
+    "protest",
+    "appeal",
+    "attempt-to-influence",
+    "conduct",
+    "jury",
+    "expulsion",
+    "coaching",
+    "yellow-card",
+    "score-sheet",
+    "trapper",
+    "round"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch6-referee-alone"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-how-to-appeal"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-no-checking-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch11-influence"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loss-of-control"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-late-shooter"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-referee-powers"
+    },
+    {
+      "book": "compak",
+      "id": "ch19-protest"
+    },
+    {
+      "book": "compak",
+      "id": "ch22-influence"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-loss-of-control"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch8-shooting-times"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-late-squad"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squads-groups"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-signing"
+    }
+  ],
+  "facts": [
+    "rules.squad-max-shooters"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — International sports rules: Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — міжнародні правила: Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Sportsmanship and manners in the squad",
+    "uk": "Спортивна поведінка і манери в групі"
+  },
+  "summary": {
+    "en": "The referee decides alone and the decision is final. How to disagree properly, why punctuality and self-control matter, and which customs a squad keeps.",
+    "uk": "Суддя вирішує сам, і його рішення остаточне. Як правильно не погодитися, чому важать пунктуальність і самоконтроль і яких звичаїв дотримується група."
+  },
+  "body": [
+    {
+      "k": "culture-sportsmanship-referee-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "On the stand the key person is the {{term:referee|referee}}. The referee looks after safety and order and judges each target.",
+      "uk": "На стрілецькому місці головна людина — {{term:referee|суддя}}. Він стежить за безпекою й порядком і оцінює кожну мішень."
+    },
+    {
+      "k": "etiquette-squad-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "anchor": "etiquette-squad",
+      "en": "The referee decides alone. Squad members do not say whether a target was hit unless the referee asks them. If other shooters openly criticise a decision (in {{tm:compak}}, spectators too), the rules call it an {{term:attempt-to-influence|attempt to influence}} the referee, and it is penalised. Losing self-control, such as throwing a gun or insulting anyone, is reported to the {{term:jury|jury}} (the officials in charge of the competition). The jury can {{term:expulsion|expel}} the shooter from the competition.",
+      "uk": "Суддя вирішує сам. Учасники групи не кажуть, чи було влучання, якщо суддя їх не запитав. Якщо інші стрільці (а в {{tm:compak}} — і глядачі) відкрито критикують рішення, правила називають це {{term:attempt-to-influence|спробою вплинути на суддю}}, і за це карають. Про втрату самоконтролю — кидання рушниці чи образи — суддя повідомляє {{term:jury|журі}} (комісію, що керує змаганням). Журі може {{term:expulsion|виключити}} стрільця зі змагання."
+    },
+    {
+      "k": "culture-sportsmanship-referee-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "Disagree with a decision? Raise your hand at once, on the stand, and say “{{term:protest|protest}}” or “{{term:appeal|appeal}}”. In {{tm:compak}} do it before the next shooter calls for a target. If the referee is sure of what they saw, the decision stays as it is, and that is the end of it. The full procedure is in {{lesson:competitions-results-and-protests}}.",
+      "uk": "Не згодні з рішенням? Одразу, на стрілецькому місці, підніміть руку й скажіть «{{term:protest|protest}}» або «{{term:appeal|appeal}}». У {{tm:compak}} зробіть це до того, як наступний стрілець подасть команду на мішень. Якщо суддя певен у тому, що бачив, рішення залишається, і на цьому все. Повний порядок дій — в уроці {{lesson:competitions-results-and-protests}}."
+    },
+    {
+      "k": "culture-sportsmanship-referee-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "Then carry on shooting calmly. Arguing further, by words or gestures, or challenging decisions for show, counts as an {{term:attempt-to-influence|attempt to influence}} the referee, and penalties apply.",
+      "uk": "Після цього спокійно стріляйте далі. Подальші суперечки словами чи жестами або демонстративне оскарження рішень правила вважають {{term:attempt-to-influence|спробою вплинути на суддю}}, і за це карають."
+    },
+    {
+      "k": "culture-sportsmanship-referee-score",
+      "t": "rule",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-results-check",
+      "en": "In {{tm:sporting}}, check your score on the card when you leave each stand. Raise any disagreement with the referee at once: the referee alone decides, and there is no appeal afterwards.",
+      "uk": "У {{tm:sporting}} перевіряйте свій результат у картці, сходячи з кожного стрілецького місця. Будь-яку незгоду висловлюйте судді одразу: вирішує лише суддя, і оскаржити це потім не можна."
+    },
+    {
+      "k": "compak-dress-and-conduct-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch15-signing",
+      "en": "In {{tm:compak}}, nobody may {{term:coaching|coach}} a shooter during the competition: the shooter gets a {{term:yellow-card|yellow card}}, and the adviser is sent out of the shooting area. Once shooting has started again after a decision, arguing about it counts as trying to influence the referee. So does open criticism of a decision by a shooter or a spectator. Either can get you excluded from the competition. At the end of each round you sign the {{term:score-sheet|score sheet}} (the card with your results). If you refuse to sign, no complaint from you can be accepted afterwards.",
+      "uk": "У {{tm:compak}} підказувати стрільцеві під час змагання не можна: стрілець отримує {{term:yellow-card|жовту картку}}, а порадника виводять із зони стрільби. Якщо після рішення стрільба вже відновилася, суперечка про нього — це спроба вплинути на суддю. Так само оцінюють відкриту критику рішення з боку стрільця чи глядача. За це можуть виключити зі змагання. Наприкінці кожного раунду стрілець підписує {{term:score-sheet|протокол}} (картку зі своїми результатами). Якщо відмовитися підписати, жодної скарги потім не приймуть."
+    },
+    {
+      "k": "culture-sportsmanship-referee-squad",
+      "t": "p",
+      "disc": "both",
+      "en": "Punctuality is the first courtesy in a {{term:squad|squad}}, the group of {{fact:rules.squad-max-shooters}} you shoot with. Being late is also against the rules, and targets you miss while late can be scored as zeros: see {{lesson:rules-call-and-time}}. In {{tm:compak}} you must report to the referee before the round. The shooting order changes during the round, so follow the {{term:rotation|rotation}} (the order in which the squad takes turns) and step up only when the stand is free.",
+      "uk": "Пунктуальність — перша ввічливість у {{term:squad|групі}} ({{fact:rules.squad-max-shooters}}), з якою ви стріляєте. Запізнення ще й порушує правила: пропущені через нього мішені можуть записати як промахи — див. {{lesson:rules-call-and-time}}. У {{tm:compak}} перед раундом треба відмітитися в судді. Порядок стрільби під час раунду змінюється, тож стежте за {{term:rotation|черговістю}} (порядком, у якому група виходить стріляти) і виходьте на стрілецьке місце, лише коли воно вільне."
+    },
+    {
+      "k": "etiquette-squad-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Beyond the rules there are customs. Shooters usually greet the referee and the squad at the start. They say “good shot” or “well shot” after a good stand and “bad luck” after a miss. Comments on someone’s technique, unless they ask, are usually not welcome. A word of thanks to the trapper and referee at the end, a handshake, and calm when results go up are common at many shooting grounds.",
+      "uk": "Крім правил, є звичаї. Стрільці зазвичай вітаються із суддею та групою на початку. Після вдалого стрілецького місця кажуть «good shot» або «well shot», після промаху — «bad luck». Коментарі щодо чужої техніки, якщо людина не просила, зазвичай недоречні. Подяка операторові машинки й судді наприкінці, рукостискання й спокій, коли вивішують результати, — звичні на багатьох стрільбищах."
+    },
+    {
+      "k": "culture-sportsmanship-referee-p5",
+      "t": "p",
+      "en": "Referees often work all day in sun or rain, and at club shoots many referees are volunteers. Thanking them after the round is a small habit that means a lot. In clay shooting, rivals are often friends too.",
+      "uk": "Судді часто працюють цілий день на сонці чи під дощем, а на клубних змаганнях багато суддів — волонтери. Подякувати їм після раунду — дрібна звичка, яка багато важить. У стендовій стрільбі суперники часто ще й друзі."
+    }
+  ],
+  "note": [
+    {
+      "k": "culture-sportsmanship-referee-n1",
+      "for": "interpreter",
+      "en": "Translate these courtesies warmly: they matter to the squad. Pass on the referee’s decisions at once and word for word, and do not add your own opinion of them.",
+      "uk": "Перекладайте ці ввічливості тепло: для групи вони важать. Рішення судді передавайте одразу й дослівно, без власної оцінки."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "etiquette-squad-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Number twelve — last call!",
+      "meaning": {
+        "en": "The referee is calling a missing shooter; if he does not come, his targets will be zeros.",
+        "uk": "Суддя викликає відсутнього стрільця; якщо той не прийде, його мішені зарахують як промахи."
+      },
+      "say": {
+        "uk": "Номер дванадцять — останній виклик!"
+      },
+      "from": "etiquette-squad"
+    },
+    {
+      "k": "etiquette-squad-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "You’re next — get ready.",
+      "meaning": {
+        "en": "Prepare now: glasses, ears, cartridges, but do not step up until the stand is free.",
+        "uk": "Готуйтеся: окуляри, навушники, набої, але не ступайте на стрілецьке місце, доки воно не звільниться."
+      },
+      "say": {
+        "uk": "Ви наступні — готуйтеся."
+      },
+      "from": "etiquette-squad"
+    },
+    {
+      "k": "etiquette-squad-ph3",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Well shot!",
+      "meaning": {
+        "en": "Sincere praise after a good target or stand.",
+        "uk": "Щира похвала після вдалої мішені чи стрілецького місця."
+      },
+      "say": {
+        "uk": "Чудовий постріл!"
+      },
+      "from": "etiquette-squad"
+    },
+    {
+      "k": "etiquette-squad-ph4",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Bad luck.",
+      "meaning": {
+        "en": "Friendly sympathy after a miss, not criticism.",
+        "uk": "Дружнє співчуття після промаху, а не критика."
+      },
+      "say": {
+        "uk": "Не пощастило."
+      },
+      "from": "etiquette-squad"
+    },
+    {
+      "k": "etiquette-squad-ph5",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Thanks, ref — thanks for pulling.",
+      "meaning": {
+        "en": "Thanking the referee and the trapper at the end of the round.",
+        "uk": "Подяка судді й операторові машинки наприкінці раунду."
+      },
+      "say": {
+        "uk": "Дякуємо судді й операторові машинки!"
+      },
+      "from": "etiquette-squad"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "culture-sportsmanship-referee-kp1",
+      "en": "The referee decides alone, and the decision is final",
+      "uk": "Суддя вирішує сам, і його рішення остаточне"
+    },
+    {
+      "k": "culture-sportsmanship-referee-kp2",
+      "en": "Disagree? Raise your hand at once and say “protest” or “appeal”",
+      "uk": "Не згодні — одразу підніміть руку й скажіть «protest» або «appeal»",
+      "checklist": true
+    },
+    {
+      "k": "culture-sportsmanship-referee-kp3",
+      "en": "Further arguing counts as an attempt to influence the referee",
+      "uk": "Подальші суперечки вважаються спробою вплинути на суддю"
+    },
+    {
+      "k": "etiquette-squad-kp1",
+      "core": true,
+      "en": "Be on time (in {{tm:compak}}, report to the referee before the round): if you are late, missed targets can count as zeros",
+      "uk": "Приходьте вчасно (у {{tm:compak}} — відмітьтеся в судді перед раундом): через запізнення пропущені мішені можуть зарахувати як промахи",
+      "checklist": true
+    },
+    {
+      "k": "etiquette-squad-kp5",
+      "core": true,
+      "en": "Customs: greet, “well shot”, thank the trapper and referee",
+      "uk": "Звичаї: привітатися, «well shot», подякувати операторові й судді",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "culture-sportsmanship-referee-dyk",
+    "en": "In both disciplines a shooter may not go and pick up a target to check whether it was hit: only the referee decides. In {{tm:sporting}}, calling for the next target counts as accepting the last decision.",
+    "uk": "В обох дисциплінах стрільцеві заборонено йти й підбирати мішень, щоб перевірити, чи влучив він: вирішує лише суддя. У {{tm:sporting}} команда на наступну мішень означає згоду з попереднім рішенням."
+  },
+  "quiz": [
+    {
+      "k": "culture-sportsmanship-referee-q1",
+      "q": {
+        "en": "Who decides whether a target was hit?",
+        "uk": "Хто вирішує, чи влучили в мішень?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The squad, by a show of hands",
+          "uk": "Група, підняттям рук"
+        },
+        {
+          "k": "b",
+          "en": "The referee, and the referee alone",
+          "uk": "Суддя, і лише суддя"
+        },
+        {
+          "k": "c",
+          "en": "The shooter, by checking the pieces",
+          "uk": "Стрілець, оглянувши уламки"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Only the referee decides; the squad does not step in unless the referee asks.",
+        "uk": "Рішення ухвалює лише суддя; група не втручається, якщо суддя не запитає."
+      }
+    },
+    {
+      "k": "culture-sportsmanship-referee-q2",
+      "q": {
+        "en": "How do you properly disagree with a referee’s decision?",
+        "uk": "Як правильно висловити незгоду з рішенням судді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At once on the stand: raise your hand and say “protest”",
+          "uk": "Одразу на стрілецькому місці: підняти руку й сказати «protest»"
+        },
+        {
+          "k": "b",
+          "en": "After the round, with a post on social media",
+          "uk": "Після раунду, дописом у соцмережах"
+        },
+        {
+          "k": "c",
+          "en": "By arguing until the referee changes his mind",
+          "uk": "Сперечатися, доки суддя не змінить думку"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A protest is made at once, on the stand; arguing afterwards counts as an attempt to influence.",
+        "uk": "Протест заявляють одразу, на стрілецькому місці; суперечки потім — спроба вплинути на суддю."
+      }
+    },
+    {
+      "k": "etiquette-squad-q2",
+      "q": {
+        "en": "A squad-mate loudly tells the referee he is wrong about a hit. How do the rules see this?",
+        "uk": "Учасник групи голосно каже судді, що той помилився щодо влучання. Як це оцінюють правила?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "As useful information for the referee",
+          "uk": "Як корисну інформацію для судді"
+        },
+        {
+          "k": "b",
+          "en": "As a formal protest by the squad",
+          "uk": "Як офіційний протест групи"
+        },
+        {
+          "k": "c",
+          "en": "As an attempt to influence the referee",
+          "uk": "Як спробу вплинути на суддю"
+        },
+        {
+          "k": "d",
+          "en": "As normal chat with no consequence",
+          "uk": "Як звичайну розмову без наслідків"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Others openly criticising a ruling without the referee’s permission count as an attempt to influence; only the shooter concerned may protest.",
+        "uk": "Відкрита критика рішення іншими без дозволу судді — спроба вплинути на суддю; протест може заявити лише сам стрілець."
+      },
+      "from": "etiquette-squad"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "culture-sportsmanship-referee-q3",
+      "q": {
+        "en": "What can happen after aggressive behaviour towards the referee?",
+        "uk": "Що може статися за агресивну поведінку щодо судді?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing, if the shooter apologises later",
+          "uk": "Нічого, якщо стрілець потім вибачиться"
+        },
+        {
+          "k": "b",
+          "en": "The jury may expel the shooter",
+          "uk": "Журі може виключити стрільця"
+        },
+        {
+          "k": "c",
+          "en": "The shooter shoots the next target again",
+          "uk": "Стрілець перестрілює наступну мішень"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The referee reports it to the jury, which may expel the shooter from the competition.",
+        "uk": "Суддя повідомляє журі, а журі може виключити стрільця зі змагання."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "d648c7f5",
+    "summary": "e0e75aa9",
+    "culture-sportsmanship-referee-p1": "4b9cbccd",
+    "etiquette-squad-p3": "6d620fcc",
+    "culture-sportsmanship-referee-p2": "ad367ea8",
+    "culture-sportsmanship-referee-p3": "cf2ca6db",
+    "culture-sportsmanship-referee-score": "c8c9c44c",
+    "compak-dress-and-conduct-p4": "351404f1",
+    "culture-sportsmanship-referee-squad": "32dde850",
+    "etiquette-squad-p4": "e4959add",
+    "culture-sportsmanship-referee-p5": "3e80b131",
+    "culture-sportsmanship-referee-n1": "92d758ee",
+    "etiquette-squad-ph1": "f415a5b5",
+    "etiquette-squad-ph2": "a230a2e1",
+    "etiquette-squad-ph3": "642dbe97",
+    "etiquette-squad-ph4": "3996c09e",
+    "etiquette-squad-ph5": "c55cbf3d",
+    "culture-sportsmanship-referee-kp1": "dad67d9e",
+    "culture-sportsmanship-referee-kp2": "ca5632fb",
+    "culture-sportsmanship-referee-kp3": "1eeea0e6",
+    "etiquette-squad-kp1": "b3335532",
+    "etiquette-squad-kp5": "f6389bcd",
+    "culture-sportsmanship-referee-dyk": "99c5bca8",
+    "culture-sportsmanship-referee-q1": "ee76e115",
+    "culture-sportsmanship-referee-q2": "a1643ac0",
+    "etiquette-squad-q2": "c5a9e488",
+    "culture-sportsmanship-referee-q3": "34852d4c"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Coordination: etiquette-squad-p1 (lateness) and etiquette-squad-p2 (shooting order) were removed from this master; their facts belong to rules-call-and-time and the two layout lessons (design §3.2). Their translations are in i18n/<lang>/culture-sportsmanship-referee.json.",
+      "Overlays (9 languages), i18n/<lang>/culture-sportsmanship-referee.json: the exam question etiquette-squad-q3 (Sporting™ shooting order) moved to targets-sporting-layout on 2026-10-07 (copy its entry to i18n/<lang>/targets-sporting-layout.json; the English is unchanged). etiquette-squad-q1 (Compak® lateness, 25 zeros) was deleted as a duplicate of compak-dress-and-conduct-q2 in rules-call-and-time: remove it from the overlays."
+    ]
+  }
+}

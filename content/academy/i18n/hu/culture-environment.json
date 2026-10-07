@@ -1,0 +1,72 @@
+{
+  "id": "culture-environment",
+  "lang": "hu",
+  "base_rev": 3,
+  "h": {
+    "title": "46947236",
+    "summary": "1c9a11bd",
+    "culture-environment-p1": "39f15ae3",
+    "culture-environment-p2": "01f16fa3",
+    "culture-environment-p3": "18adbcb3",
+    "culture-environment-p4": "afef74a7",
+    "culture-environment-p5": "c01cc92f",
+    "culture-environment-p6": "8bb0a89e",
+    "culture-environment-kp1": "06ff5fd8",
+    "culture-environment-kp2": "3dca208b",
+    "culture-environment-kp3": "fa61eba8",
+    "culture-environment-kp4": "2287dfa2",
+    "culture-environment-dyk": "72216fc3",
+    "culture-environment-q1": "f1f15aa4",
+    "culture-environment-q2": "d259c5af",
+    "culture-environment-q3": "76f91560"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "A környezet védelme",
+  "summary": "A lőtér a természet része. A kiürült hüvelyek a kukába kerülnek, környezetbarát korongok, ólommentes sörét ott, ahol a törvény ezt kéri, és tisztelet a terület iránt.",
+  "body": {
+    "culture-environment-p1": "A {{tm:sporting}} szabályai ebben egyértelműek. Amikor egy lőpályát felállítanak, az emberek biztonsága az első, és mellette azonnal ott van a növények és a környezet védelme. Élő állatra lőni nem megengedett.",
+    "culture-environment-p2": "A legegyszerűbb, amit tehet, hogy eltakarítja magát. Ahol van kuka a kiürült {{term:hull|hüvelyekhez}}, használja. Ha {{term:semi-automatic|félautomatával}} lő, az minden hüvelyt oldalra dob ki, ezért szedje fel a sajátjait, amikor elhagyja a lőállást. Mindkét versenyszámban, a {{tm:sporting}} és a {{tm:compak}} esetében is, ez szabály, nem csak jó modor.",
+    "culture-environment-p3": "A {{term:target|korongok}} is változnak. A hagyományos korongokat pek, egy kátrányszerű kötőanyag tartja össze. Egyre több gyártó kínál pekmentes {{term:biodegradable-target|lebomló korongokat}}, amelyek könnyebben lebomlanak a természetben. Hogy egy lőtér használ-e ilyeneket, az a lőtértől és a helyi szabályoktól függ.",
+    "culture-environment-p4": "A FITASC versenyszabályai {{term:lead-shot|ólomsörétre}} (a töltényben lévő kicsi ólomszemekre) vannak kiírva. De sok ország és régió korlátozza az ólmot, különösen a vizes élőhelyeken (mocsarak, tavak, folyópartok) és azok közelében. Ott a lőterek {{term:steel-shot|acél}} vagy más ólommentes sörétet használnak. Az EU-ban például ez a szabály: {{fact:gear.eu-wetland-lead}}. Utazás előtt ellenőrizze a törvényt és a lőtér szabályait. Országonkénti törvények, köztük az újabb és közelgő tilalmak: {{lesson:cartridges-lead-and-steel}}.",
+    "culture-environment-p5": "A lőterek gyakran szép vidéken fekszenek: mezőkön, erdőszéleken, dombokon. Csak az engedélyezett ösvényeken járjon, és vigye el a szemetét. Ne törjön le ágakat, és csak ott vezessen autóval, ahol megengedett.",
+    "culture-environment-p6": "Sok lőtér gondozza a saját területét: fákat telepít, összegyűjti a koronghulladékot, és újrahasznosítja a hüvelyeket. Ha a klubja tart ilyen napot, csatlakozzon. Ez a sport kultúrájának része, és jó alkalom az ismerkedésre: {{lesson:culture-club-life}}."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "culture-environment-kp1": "Az emberek biztonsága az első, és mellette azonnal a természet védelme.",
+    "culture-environment-kp2": "A kiürült hüvelyek a kukába kerülnek; a félautomata-használók felszedik a sajátjukat.",
+    "culture-environment-kp3": "A pekmentes korongok könnyebben lebomlanak a természetben.",
+    "culture-environment-kp4": "Ahol a törvény korlátozza az ólmot, a lőterek acélt használnak: ellenőrizze utazás előtt."
+  },
+  "did_you_know": "A {{tm:sporting}} szabályai megkövetelik, hogy a lőpályák tiszteletben tartsák a {{term:hunting-ethics|vadászetikát}}. A korongnak vadászathoz hasonló távolságban kell repülnie. Nem lehet olyan közel, hogy egy valódi madár ehetetlenül megsérülne, és nem lehet olyan messze, hogy csak megsebesülne.",
+  "quiz": {
+    "culture-environment-q1": {
+      "q": "Mit tesz a kiürült hüvelyekkel egy kör után?",
+      "options": {
+        "a": "Ott hagyja, ahova leesnek",
+        "b": "A kijelölt kukába teszi",
+        "c": "Belerúgja a lőállás alá"
+      },
+      "explain": "A hüvelyek a kukába kerülnek, ahol van ilyen, a félautomata-használók pedig felszedik a kidobott hüvelyeiket."
+    },
+    "culture-environment-q2": {
+      "q": "Hol kérhet egy lőtér acélsörétet?",
+      "options": {
+        "a": "Ahol a törvény korlátozza az ólmot",
+        "b": "Csak olimpiai versenyeken",
+        "c": "Csak nagyon szeles napokon"
+      },
+      "explain": "Az ólomszabályok az országtól és a területtől függenek, gyakran víz közelében; érdeklődjön előre."
+    },
+    "culture-environment-q3": {
+      "q": "Mi különleges a lebomló korongokban?",
+      "options": {
+        "a": "Nehezebbek a standard korongoknál",
+        "b": "Szürkületben világítanak a jobb láthatóságért",
+        "c": "Nincs bennük pek, és könnyebben lebomlanak"
+      },
+      "explain": "Pek nélkül készülnek, ezért kevesebb marad belőle a talajban."
+    }
+  }
+}

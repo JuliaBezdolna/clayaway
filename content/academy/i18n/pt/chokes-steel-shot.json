@@ -1,0 +1,89 @@
+{
+  "id": "chokes-steel-shot",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "fedccba2",
+    "summary": "4c8df65a",
+    "chokes-steel-shot-p1": "6e1820a5",
+    "chokes-steel-shot-p2": "a5964f74",
+    "chokes-steel-shot-p3": "80065cba",
+    "chokes-steel-shot-p4": "6938f339",
+    "chokes-steel-shot-p5": "27ec5c98",
+    "chokes-steel-shot-p6": "ccecd577",
+    "chokes-steel-shot-kp1": "cf25ddca",
+    "chokes-steel-shot-kp2": "26616153",
+    "chokes-steel-shot-kp3": "568670ff",
+    "chokes-steel-shot-kp4": "cb2ee2d8",
+    "chokes-steel-shot-kp5": "4e8f1749",
+    "chokes-steel-shot-q1": "125543e4",
+    "chokes-steel-shot-q2": "e0224987",
+    "chokes-steel-shot-q3": "7bcf1c52",
+    "chokes-steel-shot-q4": "0ff453e4",
+    "chokes-steel-shot-dyk": "2cdebfbb"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Chumbo de aço e chokes",
+  "summary": "O chumbo de aço é duro e não se comprime no choke, por isso dá uma chumbada mais fechada. Que chokes lhe convêm, como ler as marcas de prova, e o que isto significa em campos de {{tm:sporting}} e {{tm:compak}} que exigem aço.",
+  "body": {
+    "chokes-steel-shot-p1": "Alguns campos, especialmente perto de água ou em zonas protegidas, só permitem chumbo sem chumbo (lead-free), mais frequentemente {{term:steel-shot|aço}} ou {{term:soft-iron-shot|ferro macio}}. O chumbo em si é tratado em {{lesson:cartridges-lead-and-steel}}. Aqui vemos o que isso significa para os chokes.",
+    "chokes-steel-shot-p2": "Um grão de {{term:lead-shot|chumbo}} é mole e deforma-se ligeiramente ao passar pelo choke. Um grão de aço é duro e não se comprime. Por isso o mesmo choke dá uma {{term:pattern|chumbada}} visivelmente mais fechada com aço, e muitos atiradores montam um choke um passo mais aberto: 1/4 em vez de 1/2.",
+    "chokes-steel-shot-p3": "O aço duro também sujeita o choke a mais esforço. Muitos fabricantes e distribuidores aconselham chokes no máximo tão fechados como {{term:modified|modified}} (1/2) com cartuchos de aço padrão. Para o aço de alto desempenho (o tipo mais potente, explicado abaixo), alguns sugerem no máximo 1/4. Um {{term:full-choke|full choke}} com aço geralmente não é aconselhado. O limite exato depende da arma, por isso leia o manual do fabricante.",
+    "chokes-steel-shot-p4": "Os chokes feitos para aço estão muitas vezes marcados «Steel» ou «Steel OK», e alguns têm «Lead only». Se um choke não tiver marcação e não tiver o manual, pergunte a um {{term:gunsmith|armeiro}}.",
+    "chokes-steel-shot-p5": [
+      "Canos antigos de parede fina, especialmente com um full choke {{term:fixed-choke|fixo}}, podem ser danificados pelo aço: pode aparecer um abaulamento em anel perto da boca.",
+      "Os cartuchos de aço têm duas classes segundo as regras da C.I.P. (as normas de ensaio comuns para armas e cartuchos, usadas na maior parte da Europa): aço padrão e aço de alto desempenho.",
+      "O aço padrão pode disparar-se numa arma em bom estado, com as marcas de prova habituais. São os selos que uma estação de ensaio (proof house) põe numa arma depois de a testar.",
+      "O aço de alto desempenho só pode disparar-se numa arma que tenha passado um ensaio próprio para chumbo de aço; os seus canos têm um selo em forma de flor-de-lis, muitas vezes com as palavras «Steel Shot».",
+      "Os cartuchos de aço para tiro aos pratos são normalmente aço padrão. Verifique a caixa e os documentos da sua arma; em caso de dúvida, pergunte a um armeiro."
+    ],
+    "chokes-steel-shot-p6": "Vai a um campo que exige aço? Informe-se com antecedência sobre que cartuchos são permitidos e leve chokes feitos para aço. Antes de uma competição, atire com esses cartuchos no treino para ver como muda a sua chumbada."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-steel-shot-kp1": "O chumbo de aço não se comprime no choke e dá uma chumbada mais fechada.",
+    "chokes-steel-shot-kp2": "Com aço, muitos atiradores usam um choke um passo mais aberto.",
+    "chokes-steel-shot-kp3": "Muitos fabricantes aconselham no máximo 1/2 com aço; full geralmente não é aconselhado.",
+    "chokes-steel-shot-kp4": "Procure a marcação «Steel» no choke e leia o manual.",
+    "chokes-steel-shot-kp5": "Canos antigos de parede fina podem ser danificados; o aço de alto desempenho precisa da prova de flor-de-lis."
+  },
+  "did_you_know": "Um grão de aço é {{fact:gear.steel-vs-lead-weight}}, por isso perde velocidade mais cedo. É por isso que quem usa aço escolhe muitas vezes chumbo um pouco maior, onde as regras do campo o permitirem.",
+  "quiz": {
+    "chokes-steel-shot-q1": {
+      "q": "Porque dá o chumbo de aço uma chumbada mais fechada do que o chumbo normal através do mesmo choke?",
+      "options": {
+        "a": "O aço é mais pesado do que o chumbo",
+        "b": "Os grãos duros de aço não se comprimem no choke",
+        "c": "Os cartuchos de aço têm muitos mais grãos",
+        "d": "O chumbo de aço sai do cano mais rápido"
+      },
+      "explain": "O chumbo mole deforma-se ligeiramente no choke; o aço duro não, por isso fica mais compacto."
+    },
+    "chokes-steel-shot-q2": {
+      "q": "Que choke geralmente não é aconselhado com chumbo de aço?",
+      "options": { "a": "Cylinder", "b": "Improved cylinder", "c": "Modified", "d": "Full" },
+      "explain": "O full choke com aço geralmente não é aconselhado; o limite exato está no manual do fabricante."
+    },
+    "chokes-steel-shot-q3": {
+      "q": "Como descobre se um choke é adequado para aço?",
+      "options": {
+        "a": "Pela sua marcação e pelo manual do fabricante",
+        "b": "Pela cor do acabamento do cano",
+        "c": "Disparando um tiro e observando-o",
+        "d": "Não é preciso: todos os chokes modernos são"
+      },
+      "explain": "Procure a marcação no choke e verifique o manual; em caso de dúvida, pergunte a um armeiro."
+    },
+    "chokes-steel-shot-q4": {
+      "q": "Que cartuchos de aço precisam de uma arma com a prova de chumbo de aço em flor-de-lis?",
+      "options": {
+        "a": "Cartuchos de aço padrão para tiro aos pratos",
+        "b": "Cartuchos de aço de alto desempenho",
+        "c": "Cartuchos de chumbo com bucha de fibra",
+        "d": "Cartuchos de ferro macio para treino"
+      },
+      "explain": "O aço padrão pode disparar-se numa arma em bom estado com a prova habitual; o aço de alto desempenho precisa da prova especial de chumbo de aço."
+    }
+  }
+}

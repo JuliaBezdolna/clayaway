@@ -1,0 +1,264 @@
+{
+  "lang": "de",
+  "blocks": {
+    "basics": {
+      "title": "Grundlagen",
+      "purpose": "Was dieser Sport ist, die Disziplinen, FITASC, der Schießstand, wer schießt, wie man anfängt, was es kostet und wie ein Kind beginnen kann.",
+      "sections": {
+        "what": "Was dieser Sport ist",
+        "start": "Wie man anfängt",
+        "kids": "Für ein Kind"
+      }
+    },
+    "safety": {
+      "title": "Sicherheit & Etikette",
+      "purpose": "Sicherheitsgewohnheiten, Augen- und Gehörschutz, Blei, Kinder; Verhalten am Stand und in der Gruppe, Respekt vor dem Schiedsrichter, Zuschauer.",
+      "sections": {
+        "safety": "Sicherheit",
+        "etiquette": "Etikette"
+      }
+    },
+    "gear": {
+      "title": "Ausrüstung",
+      "purpose": "Die Flinte, Chokes, Patronen, Schutzausrüstung und Kleidung: wie die Dinge heißen, wie sie funktionieren, was man kaufen sollte und wann.",
+      "sections": {
+        "gun": "Die Flinte",
+        "chokes": "Chokes",
+        "cartridges": "Patronen",
+        "kit": "Ausstattung"
+      }
+    },
+    "targets": {
+      "title": "Scheiben & Flugbahnen",
+      "purpose": "Scheiben, Wurfmaschinen, {{tm:sporting}}- und {{tm:compak}}-Layouts, Menüs, Flugbahnen, Doubletten und wie man eine Scheibe liest.",
+      "sections": {
+        "clays": "Scheiben und Wurfmaschinen",
+        "layouts": "Layouts",
+        "flight": "Flugbahnen",
+        "pairs": "Doubletten und das Lesen einer Scheibe"
+      }
+    },
+    "technique": {
+      "title": "Technik & Vorhalt",
+      "purpose": "Stand, Anschlag, Augen, die drei Punkte, Nachschwingen, Rückstoß; die vier Vorhaltmethoden; Fehlschüsse lesen.",
+      "sections": {
+        "fundamentals": "Grundlagen eines Schusses",
+        "lead": "Vorhalt",
+        "faults": "Fehler"
+      }
+    },
+    "training": {
+      "title": "Training",
+      "purpose": "Der Trainer, wie man Training strukturiert und dosiert, Aufwärmen, Trockenübung des Anschlags, Vorbereitung auf einen Wettkampf, ein Trainingstagebuch.",
+      "sections": {
+        "main": "Training"
+      }
+    },
+    "mind": {
+      "title": "Psychologie & Vorbereitung",
+      "purpose": "Schussroutine, Aufmerksamkeit, Atmung, Signalwörter, Visualisierung, Nervosität, Druck, Neustart nach einem Fehlschuss, Ziele, Wettkampftag, Antidoping, Junioren.",
+      "sections": {
+        "before": "Vor dem Schuss",
+        "pressure": "Unter Druck",
+        "day": "Wettkampftag",
+        "juniors": "Junioren"
+      }
+    },
+    "rules": {
+      "title": "Regeln",
+      "purpose": "Die FITASC-Regeln in einfachen Worten, kurz und in eigenen Worten; jede Regel ist mit {{tm:sporting}} oder {{tm:compak}} markiert und verlinkt zum Regelführer.",
+      "sections": {
+        "main": "Regeln"
+      }
+    },
+    "competitions": {
+      "title": "Wettkämpfe",
+      "purpose": "Arten von Wettkämpfen, Anmeldung, Wettkampftag, die Ergebniskarte und Ergebnisse, Kategorien und Stechen, Proteste, Junioren.",
+      "sections": {
+        "main": "Wettkämpfe"
+      }
+    },
+    "travel": {
+      "title": "Reisen",
+      "purpose": "Eine Reise planen, die Flinte innerhalb und außerhalb der EU, Fliegen, Patronen am Zielort, Jetlag; ClayAway-Touren (in Vorbereitung).",
+      "sections": {
+        "main": "Reisen"
+      }
+    },
+    "stand-talk": {
+      "title": "Sprache am Stand",
+      "purpose": "Wie Trainer, Schiedsrichter und Schützen sprechen; die Arbeit des Dolmetschers; für alle, die mit einem Trainer trainieren, der eine andere Sprache spricht.",
+      "sections": {
+        "role": "Die Rolle",
+        "said": "Was am Stand gesagt wird",
+        "traps": "Übersetzungsfallen",
+        "work": "Bei der Arbeit"
+      }
+    },
+    "watch": {
+      "title": "Zuschauen & verfolgen",
+      "purpose": "Wie man Schießen und Videos verfolgt; ClayArena: Ergebnisse, Profil, Zahlen, Kataloge.",
+      "sections": {
+        "watch": "Zuschauen",
+        "clayarena": "ClayArena"
+      }
+    },
+    "community": {
+      "title": "Gemeinschaft & Geschichte",
+      "purpose": "Geschichte, Traditionen, Natur, der Verein; wie man Schiedsrichter oder Trainer wird; ein Vereinsschießen.",
+      "sections": {
+        "history": "Geschichte",
+        "culture": "Kultur",
+        "next": "Der nächste Schritt"
+      }
+    }
+  },
+  "routes": {
+    "beginner": {
+      "title": "Einsteiger",
+      "for": "Für jemanden, der noch nie geschossen hat.",
+      "certificate": "Erster Schritt",
+      "stages": {
+        "first-visit": "Vor Ihrem ersten Besuch",
+        "first-shots": "Erste Schüsse"
+      }
+    },
+    "first-competition": {
+      "title": "Erster Wettkampf",
+      "for": "Für einen Schützen nach ein paar Trainingseinheiten.",
+      "checklist": "Checkliste für den Wettkampftag",
+      "stages": {
+        "ready": "Sich vorbereiten",
+        "rules": "Regeln, die Sie kennen müssen",
+        "head": "Kopf und Körper",
+        "day": "Wettkampftag"
+      }
+    },
+    "interpreter": {
+      "title": "Dolmetscher",
+      "for": "Für Dolmetscher am Stand; ersetzt die Interpreter Academy.",
+      "stages": {
+        "day-one": "Erster Tag am Stand",
+        "sport": "Der Sport und die Layouts",
+        "gear-targets": "Flinte und Scheiben",
+        "technique": "Technik",
+        "lead": "Vorhalt",
+        "coach-talk": "Fehler und die Sprache des Trainers",
+        "rules": "Regeln am Stand",
+        "referee": "Schiedsrichter, Karten und Ergebnisse",
+        "mastery": "Meisterschaft"
+      }
+    },
+    "junior-parent": {
+      "title": "Eltern eines Junioren",
+      "for": "Für Eltern, deren Kind schießen möchte.",
+      "checklist": "Checkliste für Eltern",
+      "stages": {
+        "is-it-for-my-child": "Ist es das Richtige für mein Kind",
+        "safe-start": "Ein sicherer Start",
+        "support": "Unterstützung und Wettkämpfe"
+      }
+    },
+    "new-coach": {
+      "title": "Neuer Trainer",
+      "for": "Für jemanden, der beginnt, andere zu trainieren.",
+      "disclaimer": "Keine Trainerqualifikation.",
+      "stages": {
+        "role": "Die Rolle des Trainers",
+        "diagnosis": "Grundlagen und Diagnose",
+        "mental": "Training und Psychologie"
+      }
+    },
+    "organiser": {
+      "title": "Veranstalter",
+      "for": "Für Veranstalter von Vereinsschießen und Reisen.",
+      "stages": {
+        "club-events": "Wettkämpfe und der Verein",
+        "trips": "Reisen und Touren"
+      }
+    },
+    "fan": {
+      "title": "Fan & Familie",
+      "for": "Für Fans, Familien und Freunde von Schützen.",
+      "stages": {
+        "watch": "Zuschauen und verstehen",
+        "results": "Ergebnisse und ClayArena"
+      }
+    }
+  },
+  "practice": {
+    "lead-lab": "Vorhalt-Labor",
+    "name-the-flight": "Nenne die Flugbahn",
+    "translate-the-coach": "Trainer verstehen / übersetzen",
+    "referees-call": "Entscheidung des Schiedsrichters",
+    "term-cards": "Begriffskarten",
+    "phrasebook": "Sprachführer",
+    "rules-exam": "Regelprüfung",
+    "routine": "Meine Routine"
+  },
+  "levels": {
+    "guest": "Gast",
+    "learner": "Lernender",
+    "practitioner": "Praktiker",
+    "specialist": "Kenner",
+    "expert": "Experte",
+    "mentor": "Mentor"
+  },
+  "badges": {
+    "block-basics": "Block „Grundlagen“",
+    "block-safety": "Block „Sicherheit & Etikette“",
+    "block-gear": "Block „Ausrüstung“",
+    "block-targets": "Block „Scheiben & Flugbahnen“",
+    "block-technique": "Block „Technik & Vorhalt“",
+    "block-training": "Block „Training“",
+    "block-mind": "Block „Psychologie & Vorbereitung“",
+    "block-rules": "Block „Regeln“",
+    "block-competitions": "Block „Wettkämpfe“",
+    "block-travel": "Block „Reisen“",
+    "block-stand-talk": "Block „Sprache am Stand“",
+    "block-watch": "Block „Zuschauen & verfolgen“",
+    "block-community": "Block „Gemeinschaft & Geschichte“",
+    "route-beginner": "Lernpfad „Einsteiger“",
+    "route-first-competition": "Lernpfad „Erster Wettkampf“",
+    "route-interpreter": "Lernpfad „Dolmetscher“",
+    "route-junior-parent": "Lernpfad „Eltern eines Junioren“",
+    "route-new-coach": "Lernpfad „Neuer Trainer“",
+    "route-organiser": "Lernpfad „Veranstalter“",
+    "route-fan": "Lernpfad „Fan & Familie“",
+    "stage-beginner-first-visit": "Einsteiger: Vor Ihrem ersten Besuch",
+    "stage-beginner-first-shots": "Einsteiger: Erste Schüsse",
+    "stage-first-competition-ready": "Erster Wettkampf: Sich vorbereiten",
+    "stage-first-competition-rules": "Erster Wettkampf: Regeln, die Sie kennen müssen",
+    "stage-first-competition-head": "Erster Wettkampf: Kopf und Körper",
+    "stage-first-competition-day": "Erster Wettkampf: Wettkampftag",
+    "stage-interpreter-day-one": "Dolmetscher: Erster Tag am Stand",
+    "stage-interpreter-sport": "Dolmetscher: Der Sport und die Layouts",
+    "stage-interpreter-gear-targets": "Dolmetscher: Flinte und Scheiben",
+    "stage-interpreter-technique": "Dolmetscher: Technik",
+    "stage-interpreter-lead": "Dolmetscher: Vorhalt",
+    "stage-interpreter-coach-talk": "Dolmetscher: Fehler und die Sprache des Trainers",
+    "stage-interpreter-rules": "Dolmetscher: Regeln am Stand",
+    "stage-interpreter-referee": "Dolmetscher: Schiedsrichter, Karten und Ergebnisse",
+    "stage-interpreter-mastery": "Dolmetscher: Meisterschaft",
+    "stage-junior-parent-is-it-for-my-child": "Eltern eines Junioren: Ist es das Richtige für mein Kind",
+    "stage-junior-parent-safe-start": "Eltern eines Junioren: Ein sicherer Start",
+    "stage-junior-parent-support": "Eltern eines Junioren: Unterstützung und Wettkämpfe",
+    "stage-new-coach-role": "Neuer Trainer: Die Rolle des Trainers",
+    "stage-new-coach-diagnosis": "Neuer Trainer: Grundlagen und Diagnose",
+    "stage-new-coach-mental": "Neuer Trainer: Training und Psychologie",
+    "stage-organiser-club-events": "Veranstalter: Wettkämpfe und der Verein",
+    "stage-organiser-trips": "Veranstalter: Reisen und Touren",
+    "stage-fan-watch": "Fan & Familie: Zuschauen und verstehen",
+    "stage-fan-results": "Fan & Familie: Ergebnisse und ClayArena",
+    "four-methods": "Vier Methoden",
+    "name-the-flight-10": "Nenne die Flugbahn 10/10",
+    "coach-translator-20": "Trainer-Übersetzer 20",
+    "referees-call-20": "Entscheidung des Schiedsrichters 20",
+    "terms-50": "50 Begriffe",
+    "rules-exam-sporting": "Regelprüfung Sporting™",
+    "rules-exam-compak": "Regelprüfung Compak® Sporting",
+    "first": "Erste Lektion",
+    "returning": "Wieder da",
+    "interpreter-academy-2026": "Dolmetscherakademie 2026"
+  }
+}

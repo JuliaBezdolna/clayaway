@@ -1,0 +1,150 @@
+{
+  "id": "rules-hit-and-no-bird",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "4794c74b",
+    "summary": "3e83dc06",
+    "rules-hit-and-no-bird-p1": "277f0b67",
+    "targets-hit-or-lost-p1": "b9ef7e75",
+    "targets-hit-or-lost-p2": "79ab83c6",
+    "targets-hit-or-lost-p3": "5d73bfd4",
+    "rules-hit-and-no-bird-cmp1": "53b14c69",
+    "rules-hit-and-no-bird-p5": "0ade6c15",
+    "rules-hit-and-no-bird-cmp2": "f1a043d3",
+    "rules-hit-and-no-bird-p6": "c54645e2",
+    "rules-hit-and-no-bird-p7": "f9ae3e0e",
+    "rules-hit-and-no-bird-cmp3": "b6fc783c",
+    "rules-hit-and-no-bird-tip1": "24b646d0",
+    "rules-hit-and-no-bird-n1": "ab0492bb",
+    "targets-hit-or-lost-p5": "ffcca686",
+    "targets-hit-or-lost-ph2": "fc9b62f4",
+    "targets-hit-or-lost-ph3": "c4348d9e",
+    "targets-hit-or-lost-ph4": "9b667f8d",
+    "targets-hit-or-lost-kp1": "bdfb734e",
+    "targets-hit-or-lost-kp2": "13eb98a1",
+    "targets-hit-or-lost-kp3": "92a918aa",
+    "rules-hit-and-no-bird-kp3": "2a1721c2",
+    "rules-hit-and-no-bird-kp5": "349a6284",
+    "rules-hit-and-no-bird-dyk": "d7a6a51a",
+    "rules-hit-and-no-bird-q1": "3cd36c18",
+    "rules-hit-and-no-bird-q2": "bfbdfb6e",
+    "rules-hit-and-no-bird-q3": "bdbc54bd",
+    "competitions-scoring-basics-q3": "aa26aace",
+    "targets-hit-or-lost-q1": "dc9c7876",
+    "targets-hit-or-lost-q3": "73a4d8e6"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "O que conta como acerto, e o que é um No Bird",
+  "summary": "Em {{tm:sporting}} e {{tm:compak}} um prato é acerto se se soltar pelo menos um pedaço visível; só pó é falha. Um No Bird não conta e é lançado outra vez.",
+  "body": {
+    "rules-hit-and-no-bird-p1": "Em {{tm:sporting}} e {{tm:compak}} cada prato só tem dois resultados: «one» (acerto) ou «zero» (falha). Não há meios pontos.",
+    "targets-hit-or-lost-p1": "Um prato conta como «one» quando três coisas são verdade: foi lançado corretamente, o atirador disparou de acordo com as regras, e soltou-se pelo menos um {{term:visible-piece|pedaço visível}} (um prato totalmente destruído também conta). A mesma regra aplica-se aos {{term:flash-target|pratos flash}} (pratos que largam uma nuvem de pó colorido quando são atingidos). Um prato é «zero» (perdido) quando não se solta nenhum pedaço visível e há apenas pó ou fumo.",
+    "targets-hit-or-lost-p2": "Assim, toda a regra se resume a uma única coisa que se pode ver: um pedaço a soltar-se. Uma pequena {{term:chip|lasca}} que salta conta como acerto. Uma nuvem de pó, com o prato a continuar a voar inteiro, é perdido.",
+    "targets-hit-or-lost-p3": "Só o {{term:referee|árbitro}} decide se um prato foi acertado. Os membros da esquadra não podem dar opiniões, e ninguém pode apanhar um prato para o verificar.",
+    "rules-hit-and-no-bird-cmp1": {
+      "sporting": "Parta os seus pratos onde o árbitro possa ver a quebra. Se um prato se partir atrás de um obstáculo ou fora do {{term:shooting-limit|limite da zona de tiro}} (a margem da área em que uma quebra conta), decide o árbitro. Essa decisão não pode ser recorrida. A partir do momento em que pede o prato seguinte, aceitou a decisão sobre o anterior.",
+      "compak": "O árbitro anuncia cada zero em voz alta ou com um sinal sonoro. Objete de imediato, antes de o atirador seguinte pedir o prato."
+    },
+    "rules-hit-and-no-bird-p5": "Um {{term:no-bird|No Bird}} é um prato que não conta e é lançado outra vez. O árbitro declara-o quando o prato sai já partido, vem da máquina errada, ou tem a cor errada (em {{tm:sporting}} também o tamanho ou o tipo errados). Outros motivos são uma trajetória irregular, um lançamento com mais de 3 segundos de atraso (veja {{lesson:rules-call-and-time}}) ou um prato que não pediu. Também se dá No Bird quando algo o perturbou claramente, ou quando o árbitro não consegue avaliar o resultado.",
+    "rules-hit-and-no-bird-cmp2": {
+      "sporting": "Dois pratos a saírem ao mesmo tempo das máquinas do mesmo posto também é No Bird.",
+      "compak": "O mau tempo não dá No Bird, sejam quais forem as condições. Um prato ou pedaços vindos do {{term:layout|percurso}} {{tm:compak}} vizinho (o campo ao lado do seu) também não dão No Bird. Já um prato perdido de uma máquina do seu próprio percurso dá."
+    },
+    "rules-hit-and-no-bird-p6": "Depois de um No Bird, um prato simples é simplesmente lançado outra vez. Num double depende de qual dos pratos foi irregular: veja {{lesson:rules-doubles}}.",
+    "rules-hit-and-no-bird-p7": "Depois de o árbitro declarar No Bird, não pode disparar a esse prato. Depois de uma primeira advertência, fazê-lo é penalizado nas duas disciplinas; como os pratos são então pontuados está no guia de regras.",
+    "rules-hit-and-no-bird-cmp3": {
+      "sporting": "Para uma chuvada súbita e forte ou uma tempestade violenta que pareça breve, o árbitro pode interromper o tiro. Se durar mais, o árbitro informa o júri.",
+      "compak": "Só o árbitro-chefe pode interromper o tiro por uma chuvada súbita ou tempestade. Se puder durar, o júri é informado."
+    },
+    "rules-hit-and-no-bird-tip1": "Se pensa que uma decisão estava errada, levante a mão e diga-o antes do pedido seguinte. Discutir depois não muda a pontuação; como funciona um protesto está em {{lesson:competitions-results-and-protests}}."
+  },
+  "note": {
+    "rules-hit-and-no-bird-n1": "A gíria dos treinadores pode significar o oposto das regras. {{term:smoked-it|«Pulverizado»}} elogia uma quebra muito limpa, enquanto nas regras «só pó ou fumo» é um prato perdido. Mais em {{lesson:interpreter-false-friends}}.",
+    "targets-hit-or-lost-p5": "Também: «dead» significa acerto, e «lost» significa falha; não os traduza à letra."
+  },
+  "phrases": {
+    "targets-hit-or-lost-ph2": {
+      "meaning": "Soltou-se um pequeno pedaço visível, por isso é acerto.",
+      "say": "Bom — só uma lasca, mas conta."
+    },
+    "targets-hit-or-lost-ph3": {
+      "meaning": "Uma falha; o chumbo passou atrás do prato.",
+      "say": "Zero — ficou mesmo atrás dele."
+    },
+    "targets-hit-or-lost-ph4": {
+      "meaning": "Uma objeção tem de ser feita de imediato; pedir o prato seguinte é aceitar a decisão.",
+      "say": "Não venha discutir comigo depois — diga agora, antes de pedir o prato."
+    }
+  },
+  "key_points": {
+    "targets-hit-or-lost-kp1": "«One»: soltou-se pelo menos um pedaço visível do prato, ou ele foi completamente destruído.",
+    "targets-hit-or-lost-kp2": "«Zero»: nenhum pedaço visível, apenas pó ou fumo.",
+    "targets-hit-or-lost-kp3": "Só o árbitro decide; ninguém apanha um prato para o verificar; objete de imediato.",
+    "rules-hit-and-no-bird-kp3": "Um No Bird não conta e é lançado outra vez; não pode disparar a um No Bird declarado.",
+    "rules-hit-and-no-bird-kp5": "{{tm:compak}}: o mau tempo não dá No Bird."
+  },
+  "did_you_know": "Nas folhas de marcação de {{tm:compak}}, um acerto marca-se com X e uma falha com O.",
+  "quiz": {
+    "rules-hit-and-no-bird-q1": {
+      "q": "Depois do tiro, o prato só larga pó, e não se vê nenhum pedaço. Qual é o resultado?",
+      "options": {
+        "a": "One",
+        "b": "No Bird",
+        "c": "Zero"
+      },
+      "explain": "Um acerto precisa de pelo menos um pedaço visível; só pó ou fumo é zero."
+    },
+    "rules-hit-and-no-bird-q2": {
+      "q": "Quem decide se um prato foi acertado?",
+      "options": {
+        "a": "Só o árbitro",
+        "b": "Uma votação da esquadra",
+        "c": "O atirador"
+      },
+      "explain": "O árbitro decide sozinho e só pode pedir a opinião de outros por iniciativa própria."
+    },
+    "rules-hit-and-no-bird-q3": {
+      "q": "Em {{tm:compak}} começa a chover com força, e falha o tiro. Qual é o resultado?",
+      "options": {
+        "a": "É No Bird",
+        "b": "É zero",
+        "c": "No Bird, se o pedir"
+      },
+      "explain": "Em {{tm:compak}} um prato partido é «one» e uma falha é «zero» em qualquer condição meteorológica. Só o árbitro-chefe pode interromper o tiro por uma tempestade súbita."
+    },
+    "competitions-scoring-basics-q3": {
+      "q": "Sai da máquina um prato da cor errada. O que é?",
+      "options": {
+        "a": "No Bird",
+        "b": "Zero",
+        "c": "One"
+      },
+      "explain": "Um prato da cor errada é No Bird nas duas disciplinas e é lançado outra vez."
+    },
+    "targets-hit-or-lost-q1": {
+      "q": "Uma pequena lasca salta do prato, e o resto continua a voar. Qual é a pontuação?",
+      "options": {
+        "a": "Zero (falha)",
+        "b": "One (acerto)",
+        "c": "No Bird",
+        "d": "Meio ponto"
+      },
+      "explain": "Qualquer pedaço visível que se solte torna-o acerto, seja ele qual for o tamanho."
+    },
+    "targets-hit-or-lost-q3": {
+      "q": "Depois de uma decisão de «lost», um membro da esquadra sai para apanhar o prato e mostrar ao árbitro uma lasca nele. O que dizem as regras?",
+      "options": {
+        "a": "O árbitro tem de o examinar",
+        "b": "A esquadra vota",
+        "c": "Não é permitido: os pratos não se apanham",
+        "d": "O treinador decide"
+      },
+      "explain": "Ninguém pode apanhar um prato para o verificar, e os membros da esquadra não podem intervir: o árbitro decide sozinho."
+    }
+  }
+}

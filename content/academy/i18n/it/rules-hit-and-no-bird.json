@@ -1,0 +1,120 @@
+{
+  "id": "rules-hit-and-no-bird",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "4794c74b",
+    "summary": "3e83dc06",
+    "rules-hit-and-no-bird-p1": "277f0b67",
+    "targets-hit-or-lost-p1": "b9ef7e75",
+    "targets-hit-or-lost-p2": "79ab83c6",
+    "targets-hit-or-lost-p3": "5d73bfd4",
+    "rules-hit-and-no-bird-cmp1": "53b14c69",
+    "rules-hit-and-no-bird-p5": "0ade6c15",
+    "rules-hit-and-no-bird-cmp2": "f1a043d3",
+    "rules-hit-and-no-bird-p6": "c54645e2",
+    "rules-hit-and-no-bird-p7": "f9ae3e0e",
+    "rules-hit-and-no-bird-cmp3": "b6fc783c",
+    "rules-hit-and-no-bird-tip1": "24b646d0",
+    "rules-hit-and-no-bird-n1": "ab0492bb",
+    "targets-hit-or-lost-p5": "ffcca686",
+    "targets-hit-or-lost-ph2": "fc9b62f4",
+    "targets-hit-or-lost-ph3": "c4348d9e",
+    "targets-hit-or-lost-ph4": "9b667f8d",
+    "targets-hit-or-lost-kp1": "bdfb734e",
+    "targets-hit-or-lost-kp2": "13eb98a1",
+    "targets-hit-or-lost-kp3": "92a918aa",
+    "rules-hit-and-no-bird-kp3": "2a1721c2",
+    "rules-hit-and-no-bird-kp5": "349a6284",
+    "rules-hit-and-no-bird-dyk": "d7a6a51a",
+    "rules-hit-and-no-bird-q1": "3cd36c18",
+    "rules-hit-and-no-bird-q2": "bfbdfb6e",
+    "rules-hit-and-no-bird-q3": "bdbc54bd",
+    "competitions-scoring-basics-q3": "aa26aace",
+    "targets-hit-or-lost-q1": "dc9c7876",
+    "targets-hit-or-lost-q3": "73a4d8e6"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "Cosa conta come colpito, e cos'è un No bird",
+  "summary": "Nel {{tm:sporting}} e nel {{tm:compak}} un piattello è colpito se si stacca almeno un pezzo visibile; solo polvere è un errore. Un No bird non conta e viene lanciato di nuovo.",
+  "body": {
+    "rules-hit-and-no-bird-p1": "Nel {{tm:sporting}} e nel {{tm:compak}} ogni piattello ha solo due risultati: «one» (colpito) o «zero» (mancato). Non esistono mezzi punti.",
+    "targets-hit-or-lost-p1": "Un piattello vale «one» quando sono vere tre cose. È stato lanciato correttamente, il tiratore ha sparato come richiedono le regole, e almeno un {{term:visible-piece|pezzo visibile}} si è staccato (anche un piattello che si frantuma del tutto conta). La stessa regola vale per i {{term:flash-target|piattelli flash}} (piattelli che rilasciano una nuvola di polvere colorata quando vengono colpiti). Un piattello è «zero» (perso) quando non si stacca nessun pezzo visibile e c'è solo polvere o fumo.",
+    "targets-hit-or-lost-p2": "Quindi tutta la regola si riduce a una sola cosa visibile: un pezzo che si stacca. Una piccola {{term:chip|scheggia}} che vola via conta come colpito. Uno sbuffo di polvere, con il piattello che continua a volare intero, è perso.",
+    "targets-hit-or-lost-p3": "Decide solo l'{{term:referee|arbitro}} se un piattello è stato colpito. I membri della batteria non possono esprimere opinioni, e nessuno può raccogliere un piattello per controllarlo.",
+    "rules-hit-and-no-bird-cmp1": {
+      "sporting": "Rompete i piattelli dove l'arbitro può vedere la rottura. Se un piattello si rompe dietro un ostacolo o oltre il {{term:shooting-limit|limite di tiro}} (il confine dell'area entro cui una rottura è valida), decide l'arbitro. Quella decisione non si può appellare. Chiamando il piattello successivo, avete accettato la decisione su quello precedente.",
+      "compak": "L'arbitro annuncia ogni zero ad alta voce o con un segnale acustico. Fate obiezione subito, prima che il tiratore successivo chiami."
+    },
+    "rules-hit-and-no-bird-p5": "Un {{term:no-bird|No bird}} è un piattello che non conta e viene lanciato di nuovo. L'arbitro lo dichiara quando il piattello parte già rotto, viene da una macchina diversa o ha il colore sbagliato (nel {{tm:sporting}} anche la misura o il tipo sbagliato). Altre ragioni sono una traiettoria irregolare, un lancio con più di 3 secondi di ritardo (vedi {{lesson:rules-call-and-time}}) o un piattello che non avete chiamato. Un No bird viene dato anche quando qualcosa vi ha chiaramente disturbato, o quando l'arbitro non può giudicare il risultato.",
+    "rules-hit-and-no-bird-cmp2": {
+      "sporting": "Anche due piattelli che partono insieme dalle macchine della stessa pedana sono un No bird.",
+      "compak": "Il brutto tempo non dà diritto a un No bird, in nessuna condizione. Nemmeno un piattello o dei pezzi che arrivano dal {{term:layout|percorso}} {{tm:compak}} vicino (il campo accanto al vostro) lo danno. Un piattello vagante da una macchina del vostro stesso percorso, invece, sì."
+    },
+    "rules-hit-and-no-bird-p6": "Dopo un No bird, un piattello singolo viene semplicemente lanciato di nuovo. In un doppio dipende da quale piattello era irregolare: vedi {{lesson:rules-doubles}}.",
+    "rules-hit-and-no-bird-p7": "Una volta che l'arbitro ha dichiarato No bird, non potete sparare a quel piattello. Dopo un primo avvertimento, farlo viene punito in entrambe le discipline; come vengono poi conteggiati i piattelli è nella guida alle regole.",
+    "rules-hit-and-no-bird-cmp3": {
+      "sporting": "Per un acquazzone improvviso o un temporale violento che sembra breve, l'arbitro può fermare il tiro. Se dura più a lungo, l'arbitro informa la giuria.",
+      "compak": "Solo l'arbitro capo può fermare il tiro per un acquazzone o un temporale improvviso. Se può durare, viene informata la giuria."
+    },
+    "rules-hit-and-no-bird-tip1": "Se pensate che una decisione sia stata sbagliata, alzate la mano e ditelo prima della chiamata successiva. Discuterne dopo non cambia il punteggio; come funziona un reclamo è in {{lesson:competitions-results-and-protests}}."
+  },
+  "note": {
+    "rules-hit-and-no-bird-n1": "Il gergo degli istruttori può significare il contrario delle regole. {{term:smoked-it|«Polverizzato»}} elogia una rottura molto netta, mentre nelle regole «solo polvere o fumo» è un piattello perso. Per saperne di più: {{lesson:interpreter-false-friends}}.",
+    "targets-hit-or-lost-p5": "Inoltre: «dead» significa colpito, e «lost» significa mancato; non traduceteli alla lettera."
+  },
+  "phrases": {
+    "targets-hit-or-lost-ph2": {
+      "meaning": "Si è staccato un piccolo pezzo visibile, quindi è colpito.",
+      "say": "Buono: solo una scheggia, ma conta."
+    },
+    "targets-hit-or-lost-ph3": {
+      "meaning": "Un errore; la rosata è passata dietro il piattello.",
+      "say": "Zero: eri appena dietro."
+    },
+    "targets-hit-or-lost-ph4": {
+      "meaning": "Un'obiezione va fatta subito; chiamando il piattello successivo si accetta la decisione.",
+      "say": "Non venire a discutere dopo: dimmelo adesso, prima di chiamare."
+    }
+  },
+  "key_points": {
+    "targets-hit-or-lost-kp1": "«One»: dal piattello si è staccato almeno un pezzo visibile, oppure si è frantumato del tutto.",
+    "targets-hit-or-lost-kp2": "«Zero»: nessun pezzo visibile, solo polvere o fumo.",
+    "targets-hit-or-lost-kp3": "Decide solo l'arbitro; nessuno raccoglie un piattello per controllarlo; fate obiezione subito.",
+    "rules-hit-and-no-bird-kp3": "Un No bird non conta e viene lanciato di nuovo; non potete sparare a un No bird già dichiarato.",
+    "rules-hit-and-no-bird-kp5": "{{tm:compak}}: il brutto tempo non dà diritto a un No bird."
+  },
+  "did_you_know": "Sugli statini del {{tm:compak}} un colpito si segna con una X e un mancato con una O.",
+  "quiz": {
+    "rules-hit-and-no-bird-q1": {
+      "q": "Dopo il colpo il piattello produce solo polvere, e non si vede nessun pezzo. Qual è il risultato?",
+      "options": { "a": "Uno", "b": "No bird", "c": "Zero" },
+      "explain": "Un colpito richiede almeno un pezzo visibile; solo polvere o fumo è uno zero."
+    },
+    "rules-hit-and-no-bird-q2": {
+      "q": "Chi decide se un piattello è stato colpito?",
+      "options": { "a": "Solo l'arbitro", "b": "Una votazione della batteria", "c": "Il tiratore stesso" },
+      "explain": "L'arbitro decide da solo e può chiedere consiglio ad altri solo di propria iniziativa."
+    },
+    "rules-hit-and-no-bird-q3": {
+      "q": "Nel {{tm:compak}} inizia a piovere forte, e sbagliate il colpo. Qual è il risultato?",
+      "options": { "a": "È un No bird", "b": "È uno zero", "c": "Un No bird, se lo chiedete" },
+      "explain": "Nel {{tm:compak}} un piattello rotto è «one» e un mancato è «zero» con qualsiasi tempo. Solo l'arbitro capo può fermare il tiro per un temporale improvviso."
+    },
+    "competitions-scoring-basics-q3": {
+      "q": "Dalla macchina esce un piattello del colore sbagliato. Che cos'è?",
+      "options": { "a": "No bird", "b": "Zero", "c": "Uno" },
+      "explain": "Un piattello del colore sbagliato è un No bird in entrambe le discipline e viene lanciato di nuovo."
+    },
+    "targets-hit-or-lost-q1": {
+      "q": "Una minuscola scheggia vola via dal piattello, e il resto continua a volare. Qual è il punteggio?",
+      "options": { "a": "Zero (perso)", "b": "Uno (colpito)", "c": "No bird", "d": "Mezzo punto" },
+      "explain": "Qualsiasi pezzo visibile che si stacca rende il piattello colpito, per quanto piccolo sia."
+    },
+    "targets-hit-or-lost-q3": {
+      "q": "Dopo una decisione «lost», un membro della batteria esce a raccogliere il piattello per mostrare all'arbitro una scheggia su di esso. Che cosa dicono le regole?",
+      "options": { "a": "L'arbitro deve esaminarlo", "b": "La batteria vota", "c": "Non è permesso: i piattelli non si raccolgono", "d": "Decide l'istruttore" },
+      "explain": "Nessuno può raccogliere un piattello per controllarlo, e i membri della batteria non possono intervenire: decide solo l'arbitro."
+    }
+  }
+}

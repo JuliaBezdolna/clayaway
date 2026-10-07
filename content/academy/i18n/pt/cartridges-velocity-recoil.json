@@ -1,0 +1,79 @@
+{
+  "id": "cartridges-velocity-recoil",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "a3ab7761",
+    "summary": "d266928f",
+    "cartridges-velocity-recoil-p1": "35b2ccfa",
+    "cartridges-velocity-recoil-p2": "3211df5c",
+    "cartridges-velocity-recoil-p7": "54198ca9",
+    "cartridges-velocity-recoil-p3": "ba5cadf4",
+    "cartridges-velocity-recoil-p4": "85c0baf5",
+    "cartridges-velocity-recoil-p5": "9137f3f8",
+    "cartridges-velocity-recoil-p6": "8cd7145a",
+    "cartridges-velocity-recoil-kp1": "e918f2e4",
+    "cartridges-velocity-recoil-kp2": "ef5b2407",
+    "cartridges-velocity-recoil-kp3": "d7496c84",
+    "cartridges-velocity-recoil-kp4": "7436d207",
+    "cartridges-velocity-recoil-kp5": "66db2bf2",
+    "cartridges-velocity-recoil-dyk": "7f953a03",
+    "cartridges-velocity-recoil-q1": "2af1818b",
+    "cartridges-velocity-recoil-q2": "e0186827",
+    "cartridges-velocity-recoil-q3": "6832d842"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Velocidade e recuo",
+  "summary": "O que significa a velocidade indicada na caixa de cartuchos, por que razão a velocidade mais alta nem sempre compensa, e de que depende o recuo, para atiradores de {{tm:sporting}} e {{tm:compak}}.",
+  "body": {
+    "cartridges-velocity-recoil-p1": "A caixa costuma indicar a {{term:velocity|velocidade}} do chumbo (velocity), em metros por segundo ou em pés por segundo (fps). Nos cartuchos para tiro aos pratos é geralmente {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-p2": "Compare velocidades com cuidado. O chumbo perde velocidade rapidamente depois de sair do cano, por isso importa onde é medida. Os fabricantes europeus (segundo as regras de ensaio da C.I.P.) medem geralmente a 2,5 m da boca do cano e escrevem «V2,5»; alguns escrevem «V1», medida a 1 m, o que dá um número mais alto. As indicações não são sempre consistentes, por isso trate o número como uma referência aproximada.",
+    "cartridges-velocity-recoil-p7": "Os fabricantes americanos indicam pés por segundo medidos a cerca de 3 pés (0,9 m) da boca do cano. Nas caixas britânicas por vezes indica-se uma velocidade estimada à boca do cano. Por isso o mesmo número nem sempre significa a mesma velocidade.",
+    "cartridges-velocity-recoil-p3": "Um cartucho mais rápido encurta um pouco o tempo que o chumbo leva a chegar ao prato, mas dá mais coice, e isso não torna a chumbada mais eficaz. Muitos treinadores aconselham a não perseguir a velocidade, mas a escolher um cartucho com que atire de forma regular e sem se cansar.",
+    "cartridges-velocity-recoil-p4": "O {{term:recoil|recuo}} é o empurrão da arma contra o ombro ao disparar. Aumenta com uma carga mais pesada e maior velocidade, e diminui com uma arma mais pesada. Uma {{term:semi-automatic|semi-automática}} a gás distribui o empurrão no tempo, por isso muitos atiradores sentem-no mais suave.",
+    "cartridges-velocity-recoil-p5": "Ainda mais importa a {{term:gun-fit|adaptação da coronha}} e um {{term:gun-mount|pôr a arma à cara}} correto. Uma arma que lhe serve bem e assenta firme no ombro sente-se muito mais suave do que uma apoiada no braço ou no osso. Também ajudam uma boa chapa de coice e uma posição estável. Mais: {{lesson:gun-fit}} e {{lesson:health-recoil-shoulder-neck}}.",
+    "cartridges-velocity-recoil-p6": "Num dia de {{tm:sporting}} ou {{tm:compak}} pode disparar 100 a 200 tiros. Um recuo forte cansa e pode, pouco a pouco, ensinar-lhe um {{term:flinch|tique}} antes do tiro. Por isso um cartucho mais leve no treino, por exemplo 24 g, é uma escolha sensata, não uma fraqueza."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "cartridges-velocity-recoil-kp1": "Velocidade típica dos cartuchos de tiro aos pratos: {{fact:gear.shot-velocity}}.",
+    "cartridges-velocity-recoil-kp2": "Os fabricantes medem a velocidade de maneiras diferentes (V1, V2,5, fps).",
+    "cartridges-velocity-recoil-kp3": "Mais rápido significa mais recuo, mas não garante resultados mais consistentes.",
+    "cartridges-velocity-recoil-kp4": "O recuo aumenta com a carga e a velocidade e diminui com o peso da arma.",
+    "cartridges-velocity-recoil-kp5": "Uma boa adaptação e um pôr a arma à cara correto reduzem o recuo sentido."
+  },
+  "did_you_know": "O chumbo chega a um prato a 30 m em aproximadamente uma décima de segundo. Nesse tempo, um prato em cruzamento chega a deslocar-se um a dois metros, por isso os atiradores disparam com {{term:lead|avanço}}.",
+  "quiz": {
+    "cartridges-velocity-recoil-q1": {
+      "q": "O que torna o recuo mais fraco?",
+      "options": {
+        "a": "Uma carga mais pesada",
+        "b": "Uma velocidade mais alta",
+        "c": "Uma arma mais pesada",
+        "d": "Uma coronha demasiado curta"
+      },
+      "explain": "Uma arma mais pesada absorve o empurrão com mais eficácia; uma carga mais pesada e uma velocidade mais alta aumentam o recuo."
+    },
+    "cartridges-velocity-recoil-q2": {
+      "q": "Por que razão não se devem comparar diretamente as velocidades de fabricantes diferentes?",
+      "options": {
+        "a": "Os fabricantes medem-nas de maneiras diferentes",
+        "b": "O número da caixa é normalmente inventado",
+        "c": "Todos os cartuchos têm a mesma velocidade",
+        "d": "A velocidade não tem qualquer efeito"
+      },
+      "explain": "V1, V2,5 e fps a 3 pés são medições diferentes, por isso o mesmo número não significa o mesmo cartucho."
+    },
+    "cartridges-velocity-recoil-q3": {
+      "q": "Qual é uma velocidade típica dos cartuchos de tiro aos pratos?",
+      "options": {
+        "a": "Cerca de 100 m/s",
+        "b": "Aproximadamente 360–430 m/s",
+        "c": "Cerca de 900 m/s",
+        "d": "Mais de 1500 m/s"
+      },
+      "explain": "A maioria dos cartuchos de tiro aos pratos tem cerca de 360–430 m/s."
+    }
+  }
+}

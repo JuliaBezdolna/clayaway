@@ -1,0 +1,91 @@
+{
+  "id": "chokes-fixed-and-multichoke",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "bde7f021",
+    "summary": "ccf70477",
+    "chokes-fixed-and-multichoke-p1": "23ae3c30",
+    "chokes-fixed-and-multichoke-p2": "e7103ab0",
+    "chokes-fixed-and-multichoke-p3": "204a8f9d",
+    "chokes-fixed-and-multichoke-p4": "5a913245",
+    "chokes-fixed-and-multichoke-cmp1": "33d955d7",
+    "chokes-fixed-and-multichoke-kp1": "373ad63b",
+    "chokes-fixed-and-multichoke-kp2": "02e18af9",
+    "chokes-fixed-and-multichoke-kp3": "208bc5ab",
+    "chokes-fixed-and-multichoke-kp4": "d1799e1f",
+    "chokes-fixed-and-multichoke-dyk": "51b43287",
+    "chokes-fixed-and-multichoke-q1": "2c83214f",
+    "chokes-fixed-and-multichoke-q2": "23f75281",
+    "chokes-fixed-and-multichoke-q3": "f6b1189d",
+    "chokes-fixed-and-multichoke-q4": "14c51674"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Kiinteät ja vaihdettavat supistajat",
+  "summary": "Supistajat ovat joko pysyvästi piippuun koneistettuja tai vaihdettavia kierrettäviä putkia. Molemmat vaihtoehdot, ja milloin {{tm:sporting}}- ja {{tm:compak}}-säännöt antavat vaihtaa niitä.",
+  "body": {
+    "chokes-fixed-and-multichoke-p1": "{{term:fixed-choke|Kiinteä supistaja}} (fixed choke) koneistetaan piippuun tehtaalla, ja sen voi muuttaa vain {{term:gunsmith|aseseppä}}. Monet vanhemmat ja klassiset aseet on tehty näin. Tällaisessa päällekkäispiippuisessa on tavallisesti kaksi eri supistusta, esimerkiksi 1/4 ja 1/2, ja ampuja toimii sillä, mitä on.",
+    "chokes-fixed-and-multichoke-p2": "{{term:multichoke|Vaihtosupistajat}} (multichoke) ovat lyhyitä kierteellisiä putkia, jotka kierretään piipunsuuhun {{term:choke-key|supistaja-avaimella}}. Useimmissa nykyaikaisissa kilpailuaseissa on niitä. Aseen mukana tulee useiden supistajien sarja, ja ampuja asentaa kiekkoihin sopivat.",
+    "chokes-fixed-and-multichoke-p3": "Putket ovat joko tasan (flush, piipun pään tasalla) tai {{term:extended-choke|pidennettyjä}} (extended): ne työntyvät piipunsuun ulkopuolelle, usein 1–5 cm. Monia pidennettyjä supistajia voi kiertää käsin, ja niiden merkinnän voi lukea irrottamatta niitä.",
+    "chokes-fixed-and-multichoke-p4": "Kierteet ja koot vaihtelevat valmistajien välillä ja myös saman valmistajan eri mallien välillä. Toisen järjestelmän supistaja ei välttämättä sovi, tai se kiertyy väärin, mikä on vaarallista. Osta vain aseeseesi tehtyjä supistajia.",
+    "chokes-fixed-and-multichoke-cmp1": {
+      "sporting": "Supistajan, koko aseen tai piipun voi vaihtaa ampumapaikkojen välillä, tai yksittäis- ja kaksoiskiekkojen välillä, jos se ei viivytä kilpailua. Kun olet astunut ampumapaikalle, vaihtoja ei enää tehdä.",
+      "compak": "Kierroksen aikana asetta, piippuja tai supistajia ei saa vaihtaa. Niitä vaihdetaan vain kierrosten välillä; poikkeus on aseen rikkoutuminen. Valitse siis supistajat, jotka toimivat kierroksen kaikkiin kiekkoihin."
+    }
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-fixed-and-multichoke-kp1": "Kiinteä supistaja on koneistettu piippuun; vaihdettava kierretään avaimella.",
+    "chokes-fixed-and-multichoke-kp2": "Eri järjestelmien supistajat eivät ole vaihdettavissa keskenään.",
+    "chokes-fixed-and-multichoke-kp3": "{{tm:sporting}}: vaihda supistajat ampumapaikkojen välillä, ei ampumapaikalla.",
+    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}}: supistajia ei vaihdeta kierroksen aikana."
+  },
+  "did_you_know": "Jotkin {{tm:sporting}}-ampujat eivät vaihda supistajia kilpailun aikana lainkaan ja luottavat yhteen pariin, esimerkiksi 1/4 ja 1/2. Niin he ajattelevat vähemmän varustetta ja enemmän kiekkoja.",
+  "quiz": {
+    "chokes-fixed-and-multichoke-q1": {
+      "q": "Milloin supistajan voi vaihtaa {{tm:sporting}}-lajissa?",
+      "options": {
+        "a": "Ampumapaikkojen välillä, jos se ei viivytä",
+        "b": "Ampumapaikalla, juuri ennen kaksoiskiekkoa",
+        "c": "Vain ennen päivän ensimmäistä ampumapaikkaa",
+        "d": "Vain juryn kirjallisella luvalla"
+      },
+      "explain": "Voit vaihtaa ampumapaikkojen välillä tai yksittäis- ja kaksoiskiekkojen välillä, mutta ei enää ampumapaikalla."
+    },
+    "chokes-fixed-and-multichoke-q2": {
+      "q": "Saako supistajia vaihtaa {{tm:compak}}-kierroksen aikana?",
+      "options": {
+        "a": "Kyllä, siirtyessä paikkojen välillä",
+        "b": "Kyllä, jos seuraavat kiekot ovat kaukana",
+        "c": "Ei, vain kierrosten välillä",
+        "d": "Kyllä, milloin tahansa kierroksen aikana"
+      },
+      "explain": "{{tm:compak}}-lajissa aseen, piippujen tai supistajien vaihtaminen kierroksen aikana on kielletty; poikkeus on rikkoutuminen."
+    },
+    "chokes-fixed-and-multichoke-q3": {
+      "q": "Miksi ei pidä asentaa toisen järjestelmän supistajaa?",
+      "options": {
+        "a": "Se pilaa aseen ulkonäön",
+        "b": "Kierre ei välttämättä täsmää, mikä on vaarallista",
+        "c": "Tuomari ei voi tarkistaa sen merkintää",
+        "d": "Se muuttaa piipun kaliiperia"
+      },
+      "explain": "Supistajajärjestelmät eroavat; väärä supistaja voi vahingoittaa piippua."
+    },
+    "chokes-fixed-and-multichoke-q4": {
+      "q": "Mikä on pidennetty supistaja?",
+      "options": {
+        "a": "Supistaja, joka on tiiviimpi kuin täysi",
+        "b": "Piippuun koneistettu supistaja",
+        "c": "Supistaja vain teräshauleille",
+        "d": "Putki, joka työntyy piipunsuun ulkopuolelle"
+      },
+      "explain": "Pidennetyt supistajat työntyvät piipunsuun ulkopuolelle, niin niiden merkinnän voi lukea irrottamatta niitä."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "chokes-steel-shot",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "fedccba2",
+    "summary": "4c8df65a",
+    "chokes-steel-shot-p1": "6e1820a5",
+    "chokes-steel-shot-p2": "a5964f74",
+    "chokes-steel-shot-p3": "80065cba",
+    "chokes-steel-shot-p4": "6938f339",
+    "chokes-steel-shot-p5": "27ec5c98",
+    "chokes-steel-shot-p6": "ccecd577",
+    "chokes-steel-shot-kp1": "cf25ddca",
+    "chokes-steel-shot-kp2": "26616153",
+    "chokes-steel-shot-kp3": "568670ff",
+    "chokes-steel-shot-kp4": "cb2ee2d8",
+    "chokes-steel-shot-kp5": "4e8f1749",
+    "chokes-steel-shot-dyk": "2cdebfbb",
+    "chokes-steel-shot-q1": "125543e4",
+    "chokes-steel-shot-q2": "e0224987",
+    "chokes-steel-shot-q3": "7bcf1c52",
+    "chokes-steel-shot-q4": "0ff453e4"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Śrut stalowy i czoki",
+  "summary": "Śrut stalowy jest twardy i nie ściska się w czoku, więc daje węższy rozrzut. Jakie czoki mu odpowiadają, jak czytać cechy probiercze i co to znaczy na strzelnicach {{tm:sporting}} i {{tm:compak}}, które wymagają stali.",
+  "body": {
+    "chokes-steel-shot-p1": "Niektóre strzelnice, zwłaszcza blisko wody albo na obszarach chronionych, dopuszczają tylko śrut bezołowiowy, najczęściej {{term:steel-shot|stalowy}} albo {{term:soft-iron-shot|z miękkiego żelaza}}. O samym śrucie jest w lekcji {{lesson:cartridges-lead-and-steel}}. Tu zobaczymy, co to znaczy dla czoków.",
+    "chokes-steel-shot-p2": "Śrucina {{term:lead-shot|ołowiana}} jest miękka i lekko się deformuje, przechodząc przez czok. Śrucina stalowa jest twarda i nie ściska się. Więc ten sam czok ze stalą daje zauważalnie węższy {{term:pattern|rozrzut}}, i wielu strzelców montuje czok o stopień bardziej otwarty: 1/4 zamiast 1/2.",
+    "chokes-steel-shot-p3": "Twarda stal też silniej obciąża czok. Wielu producentów i dystrybutorów radzi ze standardowymi nabojami stalowymi czoki nie węższe niż {{term:modified|modified}} (1/2). Przy nabojach high performance (mocniejszych, wyjaśnionych poniżej) niektórzy radzą co najwyżej 1/4. {{term:full-choke|Pełnego czoka}} ze stalą zwykle się nie radzi. Dokładna granica zależy od broni, więc czytaj instrukcję producenta.",
+    "chokes-steel-shot-p4": "Czoki przeznaczone do stali są często oznaczone „Steel” albo „Steel OK”, a niektóre mają napis „Lead only”. Jeśli czok nie ma oznaczenia i nie masz instrukcji, zapytaj {{term:gunsmith|rusznikarza}}.",
+    "chokes-steel-shot-p5": [
+      "Stare lufy o cienkich ściankach, zwłaszcza z {{term:fixed-choke|stałym}} pełnym czokiem, stal może uszkodzić: blisko wylotu może powstać pierścieniowe wybrzuszenie.",
+      "Według przepisów C.I.P. (wspólnych norm badania broni i naboi stosowanych w większości Europy) naboje stalowe dzielą się na dwie klasy: steel standard i steel high performance.",
+      "Standard steel można strzelać z broni w dobrym stanie, z normalnymi cechami probierczymi. To stemple, które stacja probiercza (proof house) nakłada na broń po próbnym odstrzale.",
+      "High performance steel można strzelać tylko z broni, która przeszła osobne badanie na śrut stalowy; jej lufy mają stempel w kształcie lilii (fleur-de-lis), często z napisem „Steel Shot”.",
+      "Sportowe naboje stalowe to zwykle standard steel. Sprawdź pudełko i dokumenty broni; w razie wątpliwości zapytaj rusznikarza."
+    ],
+    "chokes-steel-shot-p6": "Jedziesz na strzelnicę, która wymaga stali? Dowiedz się wcześniej, jakie naboje są dozwolone, i weź czoki przeznaczone do stali. Przed zawodami postrzelaj tymi nabojami na treningu, by zobaczyć, jak zmienia się twój rozrzut."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-steel-shot-kp1": "Śrut stalowy nie ściska się w czoku i daje węższy rozrzut.",
+    "chokes-steel-shot-kp2": "Ze stalą wielu strzelców wybiera czok o stopień bardziej otwarty.",
+    "chokes-steel-shot-kp3": "Wielu producentów radzi ze stalą nie węższy czok niż 1/2; pełnego czoka zwykle się nie radzi.",
+    "chokes-steel-shot-kp4": "Szukaj oznaczenia „Steel” na czoku i czytaj instrukcję.",
+    "chokes-steel-shot-kp5": "Stare lufy o cienkich ściankach może uszkodzić; high performance steel wymaga cechy fleur-de-lis."
+  },
+  "did_you_know": "Śrucina stalowa jest {{fact:gear.steel-vs-lead-weight}}, więc szybciej traci prędkość. Dlatego ze stalą często wybiera się trochę większy numer śrutu, gdzie dopuszczają to przepisy strzelnicy.",
+  "quiz": {
+    "chokes-steel-shot-q1": {
+      "q": "Czemu śrut stalowy daje węższy rozrzut niż ołowiany przez ten sam czok?",
+      "options": {
+        "a": "Stal jest cięższa niż śrut ołowiany",
+        "b": "Twarde śruciny stalowe nie ściskają się w czoku",
+        "c": "Naboje stalowe mają znacznie więcej śrucin",
+        "d": "Śrut stalowy wylatuje z lufy szybciej"
+      },
+      "explain": "Miękki ołów lekko deformuje się w czoku, twarda stal nie, więc leci bardziej skupiona."
+    },
+    "chokes-steel-shot-q2": {
+      "q": "Którego czoka zwykle nie radzi się używać ze śrutem stalowym?",
+      "options": {
+        "a": "Cylinder",
+        "b": "Improved cylinder (1/4)",
+        "c": "Półczok (1/2)",
+        "d": "Pełny czok"
+      },
+      "explain": "Pełnego czoka ze stalą zwykle się nie radzi; dokładną granicę podaje instrukcja producenta."
+    },
+    "chokes-steel-shot-q3": {
+      "q": "Jak sprawdzić, czy czok odpowiada stali?",
+      "options": {
+        "a": "Z jego oznaczenia i instrukcji producenta",
+        "b": "Z koloru wykończenia lufy",
+        "c": "Oddając strzał i patrząc na wynik",
+        "d": "Nie trzeba: wszystkie nowoczesne czoki są odpowiednie"
+      },
+      "explain": "Sprawdź oznaczenie na czoku i instrukcję; w razie wątpliwości zapytaj rusznikarza."
+    },
+    "chokes-steel-shot-q4": {
+      "q": "Do jakich naboi stalowych potrzebna jest broń z cechą-lilią na śrut stalowy?",
+      "options": {
+        "a": "Standardowych sportowych naboi stalowych",
+        "b": "Naboi stalowych high performance",
+        "c": "Naboi ołowianych z pyżem z włókna",
+        "d": "Treningowych naboi z miękkiego żelaza"
+      },
+      "explain": "Standard steel można strzelać z broni w dobrym stanie z normalną cechą; high performance steel wymaga specjalnego badania na śrut stalowy."
+    }
+  }
+}

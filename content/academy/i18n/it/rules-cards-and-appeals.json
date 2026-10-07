@@ -1,0 +1,129 @@
+{
+  "id": "rules-cards-and-appeals",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "688dfc58",
+    "summary": "e42defbb",
+    "referee-cards-p1": "9c0f6536",
+    "rules-cards-and-appeals-cmp1": "6761ba5e",
+    "referee-cards-p2": "066b3ddf",
+    "referee-cards-p3": "0d19cdbe",
+    "referee-cards-p4": "b40e619c",
+    "rules-cards-and-appeals-p7": "824a9edf",
+    "rules-cards-and-appeals-protest": "35246f32",
+    "rules-cards-and-appeals-tip1": "8413bfae",
+    "rules-cards-and-appeals-n1": "864947a9",
+    "rules-cards-and-appeals-n2": "690ebb29",
+    "referee-cards-ph1": "1a48df10",
+    "referee-cards-ph2": "3e46c255",
+    "referee-cards-ph3": "be7e02d8",
+    "referee-cards-ph4": "b4286983",
+    "referee-cards-ph5": "95051542",
+    "compak-dress-and-conduct-ph4": "da427310",
+    "referee-cards-kp1": "10e87324",
+    "referee-cards-kp2": "0dceb8a6",
+    "referee-cards-kp3": "739d4465",
+    "referee-cards-kp4": "08f3d2e1",
+    "rules-cards-and-appeals-kp3": "572d305f",
+    "rules-cards-and-appeals-dyk": "a83091ff",
+    "referee-cards-q2": "b5bdf416",
+    "referee-cards-q1": "bbb27c08",
+    "referee-cards-q3": "d442fc6b",
+    "rules-cards-and-appeals-q1": "873592e0",
+    "rules-cards-and-appeals-q2": "2fe5929a",
+    "rules-cards-and-appeals-q3": "80d0488b",
+    "compak-dress-and-conduct-q3": "6e9b94e2"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "Avvertimenti, cartellini e penalizzazioni",
+  "summary": "Come funzionano le penalizzazioni nel {{tm:sporting}} e nel {{tm:compak}}. Prima un avvertimento con cartellino giallo; un cartellino rosso per la recidiva di un'infrazione in pedana; sanzioni della giuria, fino all'espulsione, per altre recidive e comportamenti gravi.",
+  "body": {
+    "referee-cards-p1": "Le penalizzazioni FITASC si fanno più pesanti gradino per gradino. Iscrivendovi a una gara, accettate il regolamento e le sanzioni. La prima volta che infrangete una regola, normalmente ricevete un {{term:warning|avvertimento}}, mostrato con un {{term:yellow-card|cartellino giallo}}. Nel {{tm:sporting}} un esempio classico è la posizione del fucile. Un calcio sopra la linea del gilet, o un fucile imbracciato prima che compaia il piattello, vale un avvertimento verbale e un cartellino giallo.",
+    "rules-cards-and-appeals-cmp1": {
+      "sporting": "Ripetere un'infrazione in pedana sullo stesso {{term:layout|percorso}} dopo l'avvertimento (posizione del fucile o imbracciata anticipata, limite di tempo, sparare a un No bird dichiarato) porta un {{term:red-card|cartellino rosso}}. Un singolo vale zero; i doppi seguono la tabella nella guida alle regole.",
+      "compak": "Ripetere un'infrazione in pedana sullo stesso percorso {{tm:compak}} (il campo dove state tirando) dopo l'avvertimento porta un cartellino rosso. Questo riguarda il limite di tempo, il rifiuto di un piattello, lo sparare a un No bird dichiarato e le regole sui malfunzionamenti. Un singolo vale zero; i doppi seguono la tabella nella guida alle regole."
+    },
+    "referee-cards-p2": "La stessa scala si applica a chi spara a un No bird dichiarato e a chi supera il limite di tempo; vedi {{lesson:rules-call-and-time}}.",
+    "referee-cards-p3": "Viene punita anche l'{{term:coaching|assistenza tecnica (coaching)}}, cioè quando qualcuno vi dà consigli o istruzioni mentre competete. Ricevete un cartellino giallo, le recidive sono sanzionate dalla giuria, e l'arbitro allontana dall'area di tiro la persona che vi ha dato i consigli.",
+    "referee-cards-p4": "Altre infrazioni ripetute (per esempio abbigliamento, numero di gara, coaching o condotta) vanno alla {{term:jury|giuria}}, il collegio di ufficiali della gara. Lo stesso vale per il {{term:refusal-to-comply|rifiuto di obbedire}} (non seguire le decisioni dell'arbitro) e per un {{term:attempt-to-influence|tentativo di influenzare}} l'arbitro. La giuria può contare un piattello come perso, annullare un'intera serie di {{fact:rules.round-targets}}, oppure escludervi dalla gara. Lanciare il fucile, insulti o violenza, e sparare deliberatamente ad animali vivi possono significare l'{{term:expulsion|espulsione}} immediata. Un'espulsione resta nel registro della FITASC per cinque anni e non dà diritto a un rimborso.",
+    "rules-cards-and-appeals-p7": "Dopo una decisione definitiva, riprendete a tirare e lasciate correre. Discutere la decisione dopo che il tiro è ripreso, o criticarla apertamente, conta come un tentativo di influenzare l'arbitro.",
+    "rules-cards-and-appeals-protest": "Se non siete d'accordo con una decisione, fate {{term:protest|reclamo}} subito in pedana: alzate la mano e dite «protest» o «appeal». Come funzionano le proteste e i ricorsi alla giuria è in {{lesson:competitions-results-and-protests}}.",
+    "rules-cards-and-appeals-tip1": "Un cartellino giallo non è la fine della vostra serie. Molti istruttori consigliano un respiro calmo, un rapido sguardo a cosa l'ha causato, e poi la vostra routine abituale. Per saperne di più: {{lesson:mind-reset-after-miss}}."
+  },
+  "note": {
+    "rules-cards-and-appeals-n1": "Per un interprete, il cartellino del coaching è il più importante: in gara, traducete solo le parole ufficiali, non i consigli.",
+    "rules-cards-and-appeals-n2": "Traducete «warning», «yellow card» e «red card» alla lettera, con calma e subito."
+  },
+  "phrases": {
+    "referee-cards-ph1": {
+      "meaning": "{{tm:sporting}}: il fucile era troppo alto prima che comparisse il piattello; la prossima volta su questo percorso costa il piattello.",
+      "say": "Avvertimento — il calcio era sopra la linea."
+    },
+    "referee-cards-ph2": {
+      "meaning": "Un primo avvertimento ufficiale; viene registrato.",
+      "say": "Questo è un cartellino giallo."
+    },
+    "referee-cards-ph3": {
+      "meaning": "Una recidiva in pedana: il piattello viene contato come perso.",
+      "say": "Cartellino rosso — il piattello è zero."
+    },
+    "referee-cards-ph4": {
+      "meaning": "Il tiratore ha impiegato più tempo di quanto consentito (nel {{tm:sporting}} 15 s tra un piattello e l'altro, nel {{tm:compak}} 10 s per chiamare).",
+      "say": "Avete superato il tempo."
+    },
+    "referee-cards-ph5": {
+      "meaning": "L'arbitro sta allontanando qualcuno, per esempio una persona sorpresa a dare consigli tecnici.",
+      "say": "Signore, per favore lasci l'area di tiro."
+    },
+    "compak-dress-and-conduct-ph4": {
+      "meaning": "Avvertimento dell'arbitro: il coaching è proibito in gara.",
+      "say": "Niente coaching in pedana."
+    }
+  },
+  "key_points": {
+    "referee-cards-kp1": "Prima infrazione: un avvertimento con cartellino giallo.",
+    "referee-cards-kp2": "Ripetere un'infrazione in pedana sullo stesso percorso (per esempio la posizione del fucile o il limite di tempo): un cartellino rosso, e il piattello viene contato come perso. Altre recidive vanno alla giuria.",
+    "referee-cards-kp3": "Coaching in gara: un cartellino giallo per il tiratore, e chi ha dato i consigli deve lasciare l'area di tiro.",
+    "referee-cards-kp4": "Le sanzioni della giuria vanno dalla perdita di un piattello o di una serie fino all'espulsione, che resta nel registro per cinque anni.",
+    "rules-cards-and-appeals-kp3": "Non siete d'accordo? Fate reclamo subito in pedana, mano alzata, prima della chiamata successiva."
+  },
+  "did_you_know": "Una seconda espulsione entro tre anni dalla prima può portare la FITASC a vietare per sempre a un tiratore le sue gare.",
+  "quiz": {
+    "referee-cards-q2": {
+      "q": "L'arbitro vede un istruttore che dà consigli a un tiratore durante una gara. Che cosa dice il regolamento?",
+      "options": { "a": "Niente, i consigli sono permessi", "b": "Un cartellino rosso per l'istruttore", "c": "Un cartellino giallo per il tiratore", "d": "La serie viene annullata" },
+      "explain": "Entrambi i regolamenti danno al tiratore un cartellino giallo, e chi ha dato i consigli deve lasciare l'area di tiro."
+    },
+    "referee-cards-q1": {
+      "q": "{{tm:sporting}}: dopo un cartellino giallo per un'imbracciata anticipata, il tiratore imbraccia di nuovo in anticipo sullo stesso percorso, su un singolo. Cosa segue?",
+      "options": { "a": "Solo un altro avvertimento", "b": "Un cartellino rosso e uno zero", "c": "Un No bird, si tira di nuovo", "d": "Espulsione immediata" },
+      "explain": "Dopo il primo avvertimento, ripeterlo sullo stesso percorso significa un cartellino rosso; su un singolo il piattello è zero."
+    },
+    "referee-cards-q3": {
+      "q": "Quale di queste la giuria NON può imporre secondo la scala delle sanzioni?",
+      "options": { "a": "La perdita di un piattello", "b": "La perdita di una serie", "c": "L'espulsione dalla gara", "d": "Una multa in denaro all'arbitro" },
+      "explain": "La giuria può togliere un piattello o un'intera serie, oppure escludere il tiratore; non esiste una multa all'arbitro."
+    },
+    "rules-cards-and-appeals-q1": {
+      "q": "Come si fa reclamo correttamente in pedana?",
+      "options": { "a": "Andare dalla giuria dopo la serie", "b": "Chiamare il piattello successivo e poi dirlo all'arbitro", "c": "Alzare subito la mano e dire «protest» o «appeal»" },
+      "explain": "Si fa reclamo subito, prima della chiamata successiva; chiamare il piattello successivo significa accettare la decisione."
+    },
+    "rules-cards-and-appeals-q2": {
+      "q": "Cosa si può appellare alla giuria?",
+      "options": { "a": "Le altre decisioni, non se il piattello è colpito, mancato o la sua traiettoria", "b": "Se avete davvero colpito il piattello o no", "c": "Se la traiettoria era corretta o no" },
+      "explain": "Colpito, mancato, No bird e traiettoria li decide solo l'arbitro, e quella decisione è definitiva."
+    },
+    "rules-cards-and-appeals-q3": {
+      "q": "Qual è la cauzione per un ricorso alla giuria nel {{tm:sporting}}?",
+      "options": { "a": "10% della quota d'iscrizione", "b": "40% della quota d'iscrizione", "c": "Tutta la quota d'iscrizione" },
+      "explain": "È {{fact:rules.sporting-jury-deposit}}; i soldi vengono restituiti se la giuria decide a favore del tiratore."
+    },
+    "compak-dress-and-conduct-q3": {
+      "q": "{{tm:compak}}: dopo la serie, un tiratore si rifiuta di firmare lo statino perché non è d'accordo con una decisione. Qual è la conseguenza?",
+      "options": { "a": "Perde il diritto di reclamare", "b": "L'arbitro deve cambiare il risultato", "c": "La serie si tira di nuovo", "d": "Non succede nulla" },
+      "explain": "Nel {{tm:compak}} il tiratore firma lo statino alla fine di ogni serie; senza la firma, nessun reclamo può essere accettato."
+    }
+  }
+}

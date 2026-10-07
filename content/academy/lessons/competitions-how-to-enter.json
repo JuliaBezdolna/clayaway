@@ -1,0 +1,424 @@
+{
+  "id": "competitions-how-to-enter",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "parent",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "competitions-how-to-enter"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "entry-fee",
+    "category",
+    "entry",
+    "deposit",
+    "national-federation",
+    "sports-licence",
+    "european-firearms-pass",
+    "release-trigger",
+    "shooting-times",
+    "squad",
+    "compak-in-line",
+    "jury"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "compak",
+      "id": "ch8-shooting-times"
+    },
+    {
+      "book": "compak",
+      "id": "ch10-absence"
+    },
+    {
+      "book": "sporting",
+      "id": "ch9-jury-appeal"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-release-trigger-marking"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-release-trigger-marking"
+    }
+  ],
+  "facts": [
+    "rules.sporting-jury-deposit"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "EU: Directive (EU) 2021/555 on control of the acquisition and possession of weapons — European Firearms Pass (EUR-Lex)",
+        "uk": "ЄС: Директива (ЄС) 2021/555 про контроль за придбанням і зберіганням зброї — Європейський вогнепальний паспорт (EUR-Lex)"
+      },
+      "url": "https://eur-lex.europa.eu/eli/dir/2021/555/oj/eng",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How to enter a competition",
+    "uk": "Як записатися на змагання"
+  },
+  "summary": {
+    "en": "Where to find a competition in {{tm:sporting}} or {{tm:compak}}, what the programme says, how to enter and which documents to check.",
+    "uk": "Де знайти змагання з {{tm:sporting}} чи {{tm:compak}}, що є в програмі, як подати заявку і які документи перевірити."
+  },
+  "body": [
+    {
+      "k": "competitions-how-to-enter-p1",
+      "t": "p",
+      "en": "Competition calendars are published by clubs, national federations and FITASC, and you can also find events on ClayArena. Once you have chosen an event in {{tm:sporting}} or {{tm:compak}}, read its programme first. It usually tells you:",
+      "uk": "Календарі змагань публікують клуби, національні федерації та FITASC, а ще змагання можна знайти на ClayArena. Обравши змагання з {{tm:sporting}} чи {{tm:compak}}, насамперед прочитайте його програму. Зазвичай у ній є:"
+    },
+    {
+      "k": "competitions-how-to-enter-programme",
+      "t": "steps",
+      "en": [
+        "the dates, the place and the discipline;",
+        "the number of targets and the format;",
+        "the schedule, the entry deadline and the {{term:entry-fee|entry fee}};",
+        "the {{term:category|categories}} and the prizes;",
+        "the organiser’s contacts and any local rules."
+      ],
+      "uk": [
+        "дати, місце й дисципліна;",
+        "кількість мішеней і формат;",
+        "розклад, кінцевий термін заявок і {{term:entry-fee|стартовий внесок}};",
+        "{{term:category|категорії}} та призи;",
+        "контакти організатора й місцеві правила, якщо вони є."
+      ]
+    },
+    {
+      "k": "competitions-how-to-enter-p2",
+      "t": "p",
+      "en": "An {{term:entry|entry}} is your registration for the competition. It is often made online in advance and confirmed at the desk on the day. The entry fee is paid with the entry or at registration. Ask early whether the fee is refunded if you cannot come.",
+      "uk": "{{term:entry|Заявка}} — це ваша реєстрація на змагання (entry). Її часто подають заздалегідь онлайн, а на місці лише підтверджують у секретаріаті. Стартовий внесок сплачують разом із заявкою або під час реєстрації. Заздалегідь запитайте, чи повертають внесок, якщо ви не зможете приїхати."
+    },
+    {
+      "k": "competitions-how-to-enter-fee-rules",
+      "t": "rule",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch9-jury-appeal",
+      "en": "Keep the amount of the fee in mind. Some referee decisions can be appealed in writing to the {{term:jury|jury}} (the panel in charge of the competition). In {{tm:sporting}} you then leave a {{term:deposit|deposit}} of {{fact:rules.sporting-jury-deposit}}; you get it back if the jury agrees with you. How appeals work: {{lesson:competitions-results-and-protests}}.",
+      "uk": "Запам’ятайте розмір внеску. Деякі рішення судді можна письмово оскаржити в {{term:jury|журі}} (органі, що керує змаганнями). У {{tm:sporting}} тоді треба внести {{term:deposit|заставу}} — {{fact:rules.sporting-jury-deposit}}; її повернуть, якщо журі погодиться з вами. Як працюють апеляції: {{lesson:competitions-results-and-protests}}."
+    },
+    {
+      "k": "competitions-how-to-enter-p3",
+      "t": "p",
+      "en": "For official competitions you usually need to be a member of a club or of the {{term:national-federation|national federation}}. Some federations also issue a {{term:sports-licence|sports licence}}, which is not a gun permit. Shooters for European and World Championships are usually entered by their national federation. These rules differ between countries, so check them early with your federation or the organiser.",
+      "uk": "Для офіційних змагань зазвичай треба бути членом клубу або {{term:national-federation|національної федерації}}. Деякі федерації видають ще й {{term:sports-licence|спортивну ліцензію}}, але це не дозвіл на зброю. На чемпіонати Європи і світу стрільців зазвичай заявляє національна федерація. Ці правила в різних країнах різні, тож уточніть їх заздалегідь у своїй федерації чи в організатора."
+    },
+    {
+      "k": "competitions-how-to-enter-p4",
+      "t": "p",
+      "en": "Gun laws differ from country to country. You must own your gun and cartridges legally at home and take them legally to where you shoot. If you live in the EU and take your own gun to another EU country, you usually need a {{term:european-firearms-pass|European Firearms Pass}}. Each country’s own rules still apply. Details: {{lesson:travel-gun-in-eu}}.",
+      "uk": "Закони про зброю в різних країнах різні. Рушницею і набоями треба законно володіти вдома і законно довезти їх туди, де ви стрілятимете. Якщо ви живете в ЄС і везете власну рушницю до іншої країни ЄС, зазвичай потрібен {{term:european-firearms-pass|Європейський вогнепальний паспорт}}. Правила кожної країни все одно діють. Докладніше: {{lesson:travel-gun-in-eu}}."
+    },
+    {
+      "k": "competitions-how-to-enter-efp-residents",
+      "t": "tip",
+      "en": "The pass is issued only to residents of EU countries and of the Schengen states that apply the EU firearms rules (Switzerland, Norway, Iceland and Liechtenstein). If you live elsewhere, read {{lesson:travel-gun-outside-eu}}, or ask the organiser whether you can hire a gun at the ground.",
+      "uk": "Цей паспорт видають лише мешканцям країн ЄС, а також Швейцарії, Норвегії, Ісландії та Ліхтенштейну — країн Шенгену, які застосовують правила ЄС щодо зброї. Якщо ви живете деінде, прочитайте урок {{lesson:travel-gun-outside-eu}} або запитайте організатора, чи можна взяти рушницю напрокат на стрільбищі."
+    },
+    {
+      "k": "competitions-how-to-enter-release",
+      "t": "p",
+      "disc": "both",
+      "en": "This concerns only guns fitted with a {{term:release-trigger|release trigger}}. It fires when the finger lets go, not when it pulls. If the law of the host country bans such triggers, the programme of an international competition must say so.",
+      "uk": "Це стосується лише рушниць із {{term:release-trigger|релізним спуском}} (release trigger). Він спрацьовує, коли палець відпускає спуск, а не тисне на нього. Якщо закон країни, де проходять змагання, забороняє такі спуски, програма міжнародних змагань має про це повідомити."
+    },
+    {
+      "k": "competitions-how-to-enter-p5",
+      "t": "p",
+      "en": "After entries close, the organiser publishes the {{term:shooting-times|shooting times}} and the {{term:squad|squad}} lists. A squad is a small group of up to six shooters who shoot each round together; the list tells you which squad you are in and when it starts. Keeping to the schedule is your own responsibility, including any delays or changes during the event.",
+      "uk": "Після закриття заявок організатор публікує {{term:shooting-times|розклад стрільби}} (shooting times) і списки {{term:squad|груп}}. Група (squad) — це до шести стрільців, які стріляють раунд разом; зі списку ви дізнаєтеся, у якій ви групі й коли вона стартує. Стежити за розкладом, зокрема за затримками чи змінами під час змагань, — ваша власна відповідальність."
+    },
+    {
+      "k": "competitions-how-to-enter-absent-day-one",
+      "t": "rule",
+      "disc": "compak",
+      "rule_ref": "compak:ch10-absence",
+      "en": "{{tm:compak}} can be shot {{term:compak-in-line|in line}}: shooters enter station 1 one by one and move along the line to station 5. In this format a shooter who misses the first day is taken off the start list from the second day. To shoot after all, that shooter must appeal to the {{term:jury|jury}}.",
+      "uk": "{{tm:compak}} можна стріляти {{term:compak-in-line|у лінію}}: стрільці по одному заходять на номер 1 і проходять лінію до номера 5. У цьому форматі того, хто пропустив перший день, з другого дня знімають зі списку. Щоб усе ж стріляти, треба звернутися до {{term:jury|журі}}."
+    },
+    {
+      "k": "competitions-how-to-enter-tip",
+      "t": "tip",
+      "en": "Before your first event, write down the date, your squad’s start time, the address of the ground and the organiser’s phone number. Keep the confirmation you received and any gun documents with your kit.",
+      "uk": "Перед першими змаганнями запишіть дату, час старту вашої групи, адресу стрільбища й телефон організатора. Підтвердження заявки й документи на рушницю, якщо вони потрібні, тримайте разом зі спорядженням."
+    }
+  ],
+  "note": [
+    {
+      "k": "competitions-how-to-enter-n-parent",
+      "for": "parent",
+      "en": "For a junior, ask the organiser in advance whether a parent’s written consent or a federation licence is needed, and who may supervise the child at the ground.",
+      "uk": "Для юніора заздалегідь запитайте організатора, чи потрібні письмова згода батьків або ліцензія федерації і хто може наглядати за дитиною на стрільбищі."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "competitions-how-to-enter-kp1",
+      "en": "Read the programme first: dates, targets, schedule, fee, categories, contacts.",
+      "uk": "Спершу прочитайте програму: дати, мішені, розклад, внесок, категорії, контакти.",
+      "checklist": true
+    },
+    {
+      "k": "competitions-how-to-enter-kp2",
+      "en": "Entries are often made online and confirmed at the desk on the day.",
+      "uk": "Заявку часто подають онлайн, а на місці підтверджують у секретаріаті."
+    },
+    {
+      "k": "competitions-how-to-enter-kp3",
+      "en": "Official events usually need club or federation membership; for European and World Championships your federation enters you.",
+      "uk": "Для офіційних змагань зазвичай треба бути членом клубу чи федерації; на чемпіонати Європи і світу вас заявляє федерація."
+    },
+    {
+      "k": "competitions-how-to-enter-kp4",
+      "en": "Taking your own gun to another EU country usually needs a European Firearms Pass; only residents of the EU and of Switzerland, Norway, Iceland and Liechtenstein can get it.",
+      "uk": "Щоб везти власну рушницю до іншої країни ЄС, зазвичай потрібен Європейський вогнепальний паспорт; його видають лише мешканцям ЄС, Швейцарії, Норвегії, Ісландії та Ліхтенштейну."
+    },
+    {
+      "k": "competitions-how-to-enter-kp5",
+      "en": "Keeping to the schedule is your own responsibility.",
+      "uk": "Стежити за розкладом — ваша власна відповідальність.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "competitions-how-to-enter-dyk",
+    "en": "Where release triggers are allowed, a gun with one carries a fluorescent sticker with a large “R” on the outside of the stock, so that everyone on the stand knows.",
+    "uk": "Там, де релізні спуски дозволені, рушницю з таким спуском позначають флуоресцентною наліпкою з великою літерою «R» на зовнішньому боці приклада, щоб про це знали всі на стрілецькому місці."
+  },
+  "quiz": [
+    {
+      "k": "competitions-how-to-enter-q1",
+      "q": {
+        "en": "What should you read first once you have chosen a competition?",
+        "uk": "Що варто прочитати насамперед, обравши змагання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The results of last year’s event",
+          "uk": "Результати минулорічних змагань"
+        },
+        {
+          "k": "b",
+          "en": "The programme of the competition",
+          "uk": "Програму цих змагань"
+        },
+        {
+          "k": "c",
+          "en": "The weather forecast for the day",
+          "uk": "Прогноз погоди на цей день"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The programme gives the dates, targets, schedule, fee, categories and contacts.",
+        "uk": "У програмі є дати, мішені, розклад, внесок, категорії й контакти."
+      }
+    },
+    {
+      "k": "competitions-how-to-enter-q2",
+      "q": {
+        "en": "Who is responsible for knowing when your squad shoots?",
+        "uk": "Хто відповідає за те, щоб ви знали, коли стріляє ваша група?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The referee of the first stand",
+          "uk": "Суддя першого стрілецького місця"
+        },
+        {
+          "k": "b",
+          "en": "The organiser, who will phone you",
+          "uk": "Організатор, який вам зателефонує"
+        },
+        {
+          "k": "c",
+          "en": "You yourself, as the shooter",
+          "uk": "Ви самі як стрілець"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The schedule is published in advance, and following it, including changes during the event, is the shooter’s responsibility.",
+        "uk": "Розклад публікують заздалегідь, а стежити за ним, зокрема за змінами під час змагань, — відповідальність стрільця."
+      },
+      "rule_ref": "compak:ch8-shooting-times"
+    },
+    {
+      "k": "competitions-how-to-enter-q-efp",
+      "q": {
+        "en": "When do you usually need a European Firearms Pass?",
+        "uk": "Коли зазвичай потрібен Європейський вогнепальний паспорт?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "When an EU resident takes their own gun to another EU country",
+          "uk": "Коли мешканець ЄС везе власну рушницю до іншої країни ЄС"
+        },
+        {
+          "k": "b",
+          "en": "Whenever you enter any competition, even in your own country",
+          "uk": "Щоразу, коли ви заявляєтеся на змагання, навіть у своїй країні"
+        },
+        {
+          "k": "c",
+          "en": "Only when you hire a gun from a ground in another country",
+          "uk": "Лише коли берете рушницю напрокат на стрільбищі за кордоном"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The pass is for residents of the EU and of Switzerland, Norway, Iceland and Liechtenstein who travel with their own gun to another of these countries. People who live elsewhere are not issued one.",
+        "uk": "Паспорт потрібен мешканцям ЄС, Швейцарії, Норвегії, Ісландії та Ліхтенштейну, які їдуть із власною рушницею до іншої з цих країн. Тим, хто живе деінде, його не видають."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "competitions-how-to-enter-q3",
+      "q": {
+        "en": "What must the organiser do if the host country bans release triggers?",
+        "uk": "Що має зробити організатор, якщо в країні змагань заборонено релізні спуски?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Nothing; shooters must check the law",
+          "uk": "Нічого: закон мають перевіряти стрільці"
+        },
+        {
+          "k": "b",
+          "en": "Announce it in the competition programme",
+          "uk": "Повідомити про це в програмі змагань"
+        },
+        {
+          "k": "c",
+          "en": "Tell only the referees on the day",
+          "uk": "Сказати лише суддям у день змагань"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The rules require such a ban to be announced in the programme of an international competition.",
+        "uk": "Правила вимагають оголосити таку заборону в програмі міжнародних змагань."
+      },
+      "rule_ref": "sporting:ch7-release-trigger-marking"
+    },
+    {
+      "k": "competitions-how-to-enter-q-absent",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}} shot in line, a shooter misses the first day. What happens?",
+        "uk": "У {{tm:compak}} у лінію стрілець пропустив перший день. Що далі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The name is taken off the list; only the jury can allow a return",
+          "uk": "Ім’я знімають зі списку; повернутися можна лише з дозволу журі"
+        },
+        {
+          "k": "b",
+          "en": "The missed round is shot at the end of the last day",
+          "uk": "Пропущений раунд він стріляє наприкінці останнього дня"
+        },
+        {
+          "k": "c",
+          "en": "Nothing happens, as long as the fee was paid",
+          "uk": "Нічого, якщо внесок сплачено"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "From the second day the shooter is off the list; to shoot later, they must appeal to the jury.",
+        "uk": "З другого дня стрільця знімають зі списку; щоб стріляти далі, він має звернутися до журі."
+      },
+      "rule_ref": "compak:ch10-absence"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "b933b0aa",
+    "summary": "be5cccf6",
+    "competitions-how-to-enter-p1": "c4c1619a",
+    "competitions-how-to-enter-programme": "0438af5e",
+    "competitions-how-to-enter-p2": "8d83dceb",
+    "competitions-how-to-enter-fee-rules": "2da7529e",
+    "competitions-how-to-enter-p3": "3f86642e",
+    "competitions-how-to-enter-p4": "1ca6eaa7",
+    "competitions-how-to-enter-efp-residents": "bbcf814d",
+    "competitions-how-to-enter-release": "d38a7b60",
+    "competitions-how-to-enter-p5": "9cbb3bd0",
+    "competitions-how-to-enter-absent-day-one": "65084264",
+    "competitions-how-to-enter-tip": "baa25695",
+    "competitions-how-to-enter-kp1": "e7b4bb76",
+    "competitions-how-to-enter-kp2": "3123a4f3",
+    "competitions-how-to-enter-kp3": "85927a4e",
+    "competitions-how-to-enter-kp4": "ab938e8e",
+    "competitions-how-to-enter-kp5": "17fc3794",
+    "competitions-how-to-enter-dyk": "e3887519",
+    "competitions-how-to-enter-n-parent": "99d1d3b2",
+    "competitions-how-to-enter-q1": "a6a0185c",
+    "competitions-how-to-enter-q2": "b29ac1d3",
+    "competitions-how-to-enter-q-efp": "dc18251f",
+    "competitions-how-to-enter-q3": "3a6a99ba",
+    "competitions-how-to-enter-q-absent": "aba755c8"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "EUR-Lex source (Directive (EU) 2021/555): checked on 2026-10-07 through the official ELI resolver (data.europa.eu/eli/dir/2021/555/oj redirects to this EUR-Lex address). EUR-Lex blocks automated readers, so an editor should open the page once in a browser and confirm that the Schengen states (Iceland, Norway, Switzerland, Liechtenstein) are named in its recitals; if not, add an official national source (for example the Swiss fedpol page on the European Firearms Pass)."
+    ]
+  }
+}

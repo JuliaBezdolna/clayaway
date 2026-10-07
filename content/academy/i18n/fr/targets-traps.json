@@ -1,0 +1,98 @@
+{
+  "id": "targets-traps",
+  "lang": "fr",
+  "base_rev": 3,
+  "h": {
+    "title": "ef239114",
+    "summary": "2ab98c5a",
+    "targets-traps-p1": "e299fc57",
+    "targets-traps-p2": "230871a5",
+    "targets-traps-p3": "0f4722a7",
+    "targets-traps-p4": "5f6e72fc",
+    "targets-traps-p5": "a5d1400f",
+    "targets-traps-n1": "0941d9af",
+    "targets-traps-n2": "dfb58822",
+    "targets-traps-ph1": "5b0d7a5c",
+    "targets-traps-ph2": "4e6e8b21",
+    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-kp1": "5d8f8aa8",
+    "targets-traps-kp2": "9837dbae",
+    "targets-traps-kp3": "2aaf4d92",
+    "targets-traps-kp4": "13f08f48",
+    "targets-traps-kp5": "d64923f1",
+    "targets-traps-q1": "20533e21",
+    "targets-traps-q2": "9529d885",
+    "targets-traps-q3": "ad85f910"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Lanceurs, déclenchement et le pulleur",
+  "summary": "Ce qu'est un lanceur, comment les lanceurs sont désignés par des lettres, comment un appel déclenche le plateau au {{tm:sporting}} et au {{tm:compak}}, et quelles erreurs de lanceur donnent un No Bird.",
+  "body": {
+    "targets-traps-p1": "Un {{term:trap|lanceur}} (trap) est la machine qui lance les plateaux. Les lanceurs peuvent être manuels ou automatiques (le règlement du {{tm:compak}} nomme aussi des semi-automatiques). Au {{tm:sporting}}, les lanceurs d'un poste sont désignés par des lettres de gauche à droite, vus depuis le poste : A, B, C, etc. (le règlement nomme A à D). Au {{tm:compak}}, les six lanceurs vont de A à F, chacun avec un panneau à lettre.",
+    "targets-traps-p2": "Le tireur demande le plateau par un {{term:call|appel}} (call) : le règlement nomme « pull » ou « ready », bien qu'en pratique les mots varient. Au {{tm:sporting}}, l'arbitre donne alors un signal sonore au {{term:trapper|pulleur}} (trapper), la personne qui déclenche les plateaux. Le plateau doit partir dans les trois secondes suivant ce signal.",
+    "targets-traps-p3": "Au {{tm:compak}}, le plateau peut être déclenché de trois façons : à la main, par télécommande ou par {{term:sonopull|sonopull}}. Un sonopull est un microphone qui entend l'appel du tireur et déclenche le plateau de lui-même. Avec un déclenchement à la main, le plateau part entre 0 et 3 secondes après l'appel ; un sonopull attend un délai fixe de 0,5 seconde. Aux épreuves internationales {{term:compak-in-line|« en ligne »}}, où chaque tireur passe à son tour par les postes 1 à 5, seul le sonopull est utilisé, avec un {{term:electronic-refereeing|arbitrage électronique}} et un comptage approuvés par la FITASC.",
+    "targets-traps-p4": "Un déclenchement vocal a un microphone au poste. Votre propre voix peut le déclencher. Sur un tel poste, restez silencieux quand le tireur est prêt : chuchotez entre les plateaux ou reculez.",
+    "targets-traps-p5": "Les erreurs de lanceur sont un {{term:no-bird|No Bird}} dans les deux disciplines. Par exemple : un plateau cassé au lancement, un plateau venu du mauvais lanceur, un plateau lancé sans appel, ou un plateau lancé avec plus de trois secondes de retard. Au {{tm:sporting}}, c'est aussi un No Bird si deux plateaux sortent des lanceurs du même poste alors qu'un seul était attendu. Au {{tm:compak}}, c'est un No Bird si une autre machine du même terrain lance un plateau par erreur."
+  },
+  "note": {
+    "targets-traps-n1": "Conservez les lettres latines des lanceurs en traduisant : le menu et la feuille de marque les utilisent.",
+    "targets-traps-n2": "Ne traduisez pas l'appel lui-même : c'est un signal pour la machine, pas une phrase."
+  },
+  "phrases": {
+    "targets-traps-ph1": {
+      "meaning": "La trajectoire de la machine a changé ; le tireur doit le signaler avant de tirer.",
+      "say": "Le lanceur B lance plus bas que lors de la présentation — dites-le à l'arbitre."
+    },
+    "targets-traps-ph2": {
+      "meaning": "Un microphone déclenche les plateaux ; parler peut en lancer un.",
+      "say": "Ici, c'est un déclenchement vocal — ne bavardez pas au poste."
+    },
+    "targets-traps-ph3": {
+      "meaning": "Le plateau est parti plus de trois secondes après l'appel.",
+      "say": "Le pulleur a été en retard sur ce coup — c'est un no bird."
+    }
+  },
+  "key_points": {
+    "targets-traps-kp1": "Lanceurs : A, B, C… sur un poste de {{tm:sporting}} (le règlement nomme A–D), A–F sur un terrain de Compak ; gardez les lettres latines.",
+    "targets-traps-kp2": "L'appel (« pull », « ready ») déclenche le plateau.",
+    "targets-traps-kp3": "{{tm:sporting}} : l'arbitre signale au pulleur ; le plateau part dans les 3 secondes.",
+    "targets-traps-kp4": "{{tm:compak}} : manuel 0-3 s, télécommande, ou sonopull avec un délai fixe de 0,5 s.",
+    "targets-traps-kp5": "Un plateau en retard, venu du mauvais lanceur ou lancé sans appel est un No Bird ; un microphone peut vous entendre aussi."
+  },
+  "quiz": {
+    "targets-traps-q1": {
+      "q": "Au {{tm:sporting}}, combien de temps au maximum le plateau peut-il partir après le signal de l'arbitre ?",
+      "options": {
+        "a": "Jusqu'à 1 seconde",
+        "b": "Jusqu'à 3 secondes",
+        "c": "Jusqu'à 10 secondes",
+        "d": "N'importe quel délai"
+      },
+      "explain": "Un plateau lancé plus de trois secondes après est un No Bird."
+    },
+    "targets-traps-q2": {
+      "q": "Quel est le délai fixe d'un sonopull au {{tm:compak}} ?",
+      "options": {
+        "a": "0 seconde",
+        "b": "3 secondes",
+        "c": "0,5 seconde",
+        "d": "Il est réglé par chaque tireur"
+      },
+      "explain": "Le sonopull doit appliquer un délai fixe et invariable de 0,5 seconde."
+    },
+    "targets-traps-q3": {
+      "q": "Vous êtes sur un poste à déclenchement vocal et le tireur est prêt. Que faites-vous ?",
+      "options": {
+        "a": "Donner un dernier conseil au tireur à voix haute",
+        "b": "Demander au pulleur d'attendre un instant",
+        "c": "Répéter l'appel à sa place",
+        "d": "Rester silencieux ; chuchoter seulement entre les plateaux"
+      },
+      "explain": "Votre voix peut déclencher le microphone et lancer un plateau que personne n'a appelé."
+    }
+  }
+}

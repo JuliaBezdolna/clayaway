@@ -9,7 +9,8 @@
 // ({t}/{n} placeholders, "cat", "ch", "pg", "learn", "acad_en", "ia"). Only ClayArena languages — never others.
 // Every index page is fully localised (audit G-02): category names come from CAT/ui-<lang>.json ("Academy" included) and
 // a category without a translated term is not printed at all.
-// Also writes docs/en/learn/index.html — a static English landing of ClayArena Academy (modules + lessons).
+// "Learn it" links: the Academy lessons that teach the term (scripts/build_academy.mjs learnLinks): the lesson in this language
+// when it exists, else the English lesson labelled "(in English)". The Academy pages themselves are written by build_academy.mjs.
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 
 const UI = {
@@ -31,7 +32,7 @@ for (const U of Object.values(UI)) {
 const fill = (s, k, v) => s.replace(`{${k}}`, v);
 
 export async function buildI18n() {
-  const { BASE, BOOKS, NAMES, GLOSS, GBY, LEARN, LESSON, INTERP = {}, CSS, NF, esc, tm, dispTerm, fitTitle, fitDesc, legal, rid, interpUrl } = globalThis.SEO;
+  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -49,10 +50,6 @@ export async function buildI18n() {
   // Which terms each language really has (a page needs a translated definition). uk/en have every term.
   const HAS = Object.fromEntries(langs.map(l => [l, new Set(Object.entries(window.GLOSSARY_I18N[l].terms).filter(([, x]) => x.short).map(([id]) => id))]));
   const has = (l, id) => l === "uk" || l === "en" || (HAS[l] && HAS[l].has(id));
-  // Interpreter Academy lesson titles per language (docs/interpreter/src/i18n/<lang>.json; English master as fallback).
-  const IT = {};
-  for (const l of langs) { try { const j = JSON.parse(readFileSync(`docs/interpreter/src/i18n/${l}.json`, "utf8")); IT[l] = {};
-    for (const m of Object.values(j.missions || {})) for (const [id, x] of Object.entries(m.lessons || {})) if (x.title) IT[l][id] = x.title; } catch (e) { IT[l] = {}; } }
   const termUrl = (lang, id) => lang === "uk" ? `${BASE}glossary/${id}/` : `${BASE}${lang}/glossary/${id}/`;
   const listUrl = lang => lang === "uk" ? `${BASE}glossary/` : `${BASE}${lang}/glossary/`;
   const ALL = ["uk", "en", ...langs];
@@ -77,13 +74,15 @@ export async function buildI18n() {
         const x = D[t.id]; if (!x) continue;
         const url = termUrl(lang, t.id), name = dispTerm(t);
         const title = fitTitle(fill(U.title, "t", name), `${name} | ${U.site}`);
-        const desc = fitDesc(tm(`${t.term}: ${x.short}`), ctx);
+        // meta + og:description from the translated definition. Declined marks ("Compaku", "Sportingban") are not caught by tm(); the
+        // definitions use the base form ("Sporting™", "Compak® Sporting"), and fitDesc() runs tmMeta(), the safety net of build_seo.mjs (audit legal-02).
+        const desc = fitDesc(tm(`${t.term}: ${x.short}`), ctx, `${lang}/glossary/${t.id}/`);
         const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/#${r.id}">${CHW[lang]} ${chapOf(r)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, ${PG[lang]} ${r.page}</a></li>`).join("");
         const disc = Object.entries(x.disciplines || {}).filter(([, v]) => v).map(([k, v]) => `<div class="box"><b>${NAMES[k] || k}</b><p>${esc(v)}</p></div>`).join("");
         const rel = (t.related || []).map(rid).filter(r => GBY[r] && D[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${termUrl(lang, r)}">${esc(dispTerm(GBY[r]))}</a>`).join(" ");
-        const learn = (t.learn || []).filter(id => LESSON[id]).slice(0, 4).map(id => `<li><a href="${BASE}en/learn/${id}/" hreflang="en" lang="en">${esc(tm(LESSON[id].title_en))}</a> · ${esc(U.acad_en)}</li>`).join("")
-          + (t.interp || []).filter(id => INTERP[id]).slice(0, 3).map(id => `<li><a href="${interpUrl(lang, id)}">${esc(tm(IT[lang][id] || INTERP[id].title_en))}</a> · ${esc(U.ia)}</li>`).join("");
-        const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, x.term_local].filter(Boolean))].filter(a => a !== name), description: tm(x.short), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: lang }];
+        const learn = ACADEMY.learnLinks(t.id, lang).slice(0, 5).map(x => x.lang === lang ? `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`
+          : `<li><a href="${esc(x.url)}" hreflang="${x.lang}" lang="${x.lang}">${esc(x.title)}</a> · ${esc(U.acad_en || x.context)}</li>`).join("");
+        const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, x.term_local].filter(Boolean))].filter(a => a !== name), description: tmMeta(x.short, `${lang}/glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: lang }];
         const html = `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -111,8 +110,8 @@ ${refs ? `<h2>${U.rules}</h2><ul>${refs}</ul>` : ""}
 ${learn ? `<h2>${U.learn}</h2><ul>${learn}</ul>` : ""}
 ${rel ? `<h2>${U.rel}</h2><p>${rel}</p>` : ""}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`;
-        mkdirSync(`docs/${lang}/glossary/${t.id}`, { recursive: true });
-        writeFileSync(`docs/${lang}/glossary/${t.id}/index.html`, html);
+        mkdirSync(`${DOCS}/${lang}/glossary/${t.id}`, { recursive: true });
+        writeFileSync(`${DOCS}/${lang}/glossary/${t.id}/index.html`, html);
         out.push(url);
       }
       // Index: only categories that have at least one translated term; every heading in the page language.
@@ -121,7 +120,7 @@ ${rel ? `<h2>${U.rel}</h2><p>${rel}</p>` : ""}
       if (missing.length) console.log(`WARNING: glossary ${lang}: no category name for ${missing.join(", ")} (add it to ui-${lang}.json "cat")`);
       const n = GLOSS.terms.filter(t => D[t.id]).length;
       const title = `${fill(U.list, "n", n)} | ClayArena`, desc = fill(U.intro, "n", n), url = listUrl(lang);
-      writeFileSync(`docs/${lang}/glossary/index.html`, `<!doctype html>
+      writeFileSync(`${DOCS}/${lang}/glossary/index.html`, `<!doctype html>
 <html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(title)}</title><meta name="description" content="${esc(desc)}">
 <meta name="robots" content="index, follow, max-image-preview:large"><link rel="canonical" href="${url}">
@@ -138,32 +137,10 @@ ${cats.map(c => `<h2>${esc((CAT[lang] || {})[c] || c)}</h2><div class="list">${G
       out.push(url);
     }
     // refresh hreflang on uk + en glossary pages: only the languages that have the term
-    for (const t of GLOSS.terms) { patch(`docs/glossary/${t.id}/index.html`, l => termUrl(l, t.id), t.id); patch(`docs/en/glossary/${t.id}/index.html`, l => termUrl(l, t.id), t.id); }
-    patch("docs/glossary/index.html", listUrl); patch("docs/en/glossary/index.html", listUrl);
+    for (const t of GLOSS.terms) { patch(`${DOCS}/glossary/${t.id}/index.html`, l => termUrl(l, t.id), t.id); patch(`${DOCS}/en/glossary/${t.id}/index.html`, l => termUrl(l, t.id), t.id); }
+    patch(`${DOCS}/glossary/index.html`, listUrl); patch(`${DOCS}/en/glossary/index.html`, listUrl);
   }
 
-  // English Academy landing (static, indexable): modules with their lessons.
-  const enUrl = `${BASE}en/learn/`;
-  const lt = "ClayArena Academy — clay shooting from zero";
-  const ld = "Free beginner lessons on clay shooting: Sporting™ and Compak® Sporting, safety, shotguns, chokes, cartridges, targets, technique, competitions, FITASC rules and culture.";
-  mkdirSync("docs/en/learn", { recursive: true });
-  writeFileSync("docs/en/learn/index.html", `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>${lt}</title>
-<meta name="description" content="${ld}">
-<meta name="robots" content="index, follow, max-image-preview:large"><link rel="canonical" href="${enUrl}">
-<link rel="alternate" hreflang="uk" href="${BASE}learn/"><link rel="alternate" hreflang="en" href="${enUrl}"><link rel="alternate" hreflang="x-default" href="${enUrl}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="ClayArena"><meta property="og:title" content="${lt}"><meta property="og:description" content="${ld}"><meta property="og:url" content="${enUrl}">
-<meta property="og:image" content="${BASE}og/learn.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png">
-<meta property="og:locale" content="en_GB"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${BASE}og/learn.png">
-<meta name="theme-color" content="#030712"><link rel="icon" type="image/png" href="${BASE}og/favicon.png">
-<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Course", name: lt, description: ld, url: enUrl, inLanguage: "en", isAccessibleForFree: true, provider: { "@type": "Organization", name: "ClayArena", url: "https://clayarena.com/" }, hasPart: LEARN.flatMap(m => m.lessons.map(l => ({ "@type": "LearningResource", name: tm(l.title_en), url: `${BASE}en/learn/${l.id}/` }))) })}</script>
-<style>${CSS}.mods{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}.mod{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}.mod ol{margin:6px 0 0;padding-left:20px;font-size:14px}</style></head>
-<body><header><div class="in"><a class="logo" href="${enUrl}"><b>ClayArena</b></a><nav class="crumbs">ClayArena Academy</nav><span style="flex:1"></span><a class="btn" hreflang="uk" href="${BASE}learn/">Українською</a></div></header>
-<main style="max-width:1040px;margin:0 auto;padding:20px 16px 72px"><h1>${lt}</h1>
-<p>${LEARN.reduce((s, m) => s + m.lessons.length, 0)} short lessons in ${LEARN.length} modules. Interactive version with quizzes and badges: <a href="${BASE}learn/">open the Academy</a> (switch to EN in the header).</p>
-<div class="mods">${LEARN.map(m => `<div class="mod"><b>${m.order}. ${esc(tm(m.title_en))}</b><p class="ref">${esc(m.intro_en)}</p><ol>${m.lessons.map(l => `<li><a href="${BASE}en/learn/${l.id}/">${esc(tm(l.title_en))}</a></li>`).join("")}</ol></div>`).join("")}</div>
-<div class="disc">Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC. Only the official FITASC text applies.</div>${legal("en")}</main></body></html>`);
-  out.push(enUrl);
+  // (The English Academy home /en/learn/ is written by scripts/build_academy.mjs.)
   return out;
 }

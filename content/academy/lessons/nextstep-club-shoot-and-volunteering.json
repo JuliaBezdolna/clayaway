@@ -1,0 +1,390 @@
+{
+  "id": "nextstep-club-shoot-and-volunteering",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "organiser",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "nextstep-club-shoot-and-volunteering"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "club-shoot",
+    "organiser",
+    "category",
+    "entry-fee",
+    "course-designer",
+    "jury",
+    "chief-referee",
+    "practice",
+    "referee",
+    "trapper",
+    "squad",
+    "hearing-protection",
+    "safety-glasses",
+    "prize-giving",
+    "score-sheet",
+    "trajectory-setting-table"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch15-layout-officials"
+    },
+    {
+      "book": "compak",
+      "id": "ch5-who-sets-layouts"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-no-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-practice"
+    },
+    {
+      "book": "sporting",
+      "id": "ch1-safety-environment"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-who-keeps-score"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How to run a club shoot",
+    "uk": "Як провести клубне змагання"
+  },
+  "summary": {
+    "en": "How to organise a small {{tm:sporting}} or {{tm:compak}} club shoot step by step: venue, format, layouts, people, safety and results, with your volunteers planned in.",
+    "uk": "Як крок за кроком організувати невелике клубне змагання з {{tm:sporting}} чи {{tm:compak}}: місце, формат, майданчики, люди, безпека й результати, а також волонтери."
+  },
+  "body": [
+    {
+      "k": "nextstep-club-shoot-and-volunteering-p1",
+      "t": "p",
+      "en": "A {{term:club-shoot|club shoot}} is a good way to bring people together and give beginners a first taste of competition. A club, a shooting ground or a group of shooters can organise one. Start with the basics: agree the date and terms with the ground owner. Then find out which permits, insurance and safety rules apply in your country.",
+      "uk": "{{term:club-shoot|Клубне змагання}} — добрий спосіб зібрати людей і дати новачкам перший досвід змагань. Його може організувати клуб, стенд або група стрільців. Почніть із головного: домовтеся з власником стенду про дату й умови. Потім дізнайтеся, які дозволи, страхування й правила безпеки діють у вашій країні."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-p2",
+      "t": "p",
+      "en": "Next, decide the format: {{tm:sporting}} or {{tm:compak}}, the number of targets, the {{term:category|categories}} (who competes against whom, for example by age) and the {{term:entry-fee|entry fee}}. You can use the FITASC rules as a basis. Announce in advance which rules you will shoot under, and any local changes.",
+      "uk": "Далі визначте формат: {{tm:sporting}} чи {{tm:compak}}, кількість мішеней, {{term:category|категорії}} (хто з ким змагається, наприклад за віком) та {{term:entry-fee|стартовий внесок}}. Правила FITASC можна взяти за основу. Заздалегідь оголосіть, за якими правилами ви стріляєте і що змінено на місці."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-cmp-layouts",
+      "t": "compare",
+      "disc": "both",
+      "en": "Who sets and checks the layouts at international events",
+      "uk": "Хто готує й перевіряє майданчики на міжнародних змаганнях",
+      "sporting": {
+        "rule_ref": "sporting:ch15-layout-officials",
+        "en": "The {{term:course-designer|course designers}} (the people who decide where each target flies) show the layouts and targets to the {{term:jury|jury}} members in charge and to the {{term:chief-referee|chief referee}}. Those officials can ask for changes for safety, for easier refereeing or to protect nature before they approve the layouts.",
+        "uk": "{{term:course-designer|Автори майданчиків}} (course designers — ті, хто вирішує, як полетить кожна мішень) показують майданчики й мішені відповідальним членам {{term:jury|журі}} та {{term:chief-referee|головному судді}}. Ті можуть вимагати змін заради безпеки, зручності суддівства чи захисту природи, перш ніж затвердять майданчики."
+      },
+      "compak": {
+        "rule_ref": "compak:ch5-who-sets-layouts",
+        "en": "The layouts are set before the start, with the person in charge of the ground present. FITASC technical committee members, or the jury if none is there, check that the trajectories are safe, varied and balanced.",
+        "uk": "Майданчики налаштовують до старту в присутності відповідального за стенд. Члени технічного комітету FITASC, а якщо їх немає — журі, перевіряють, щоб траєкторії були безпечними, різноманітними й збалансованими."
+      }
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-p3",
+      "t": "tip",
+      "en": "For a club event, follow the same idea on a small scale. Ask an experienced referee to look at the trajectories before the start, with safety first.",
+      "uk": "Для клубного змагання пройдіть той самий шлях у малому. Попросіть досвідченого суддю подивитися траєкторії до старту, насамперед з погляду безпеки."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-cmp-practice",
+      "t": "compare",
+      "disc": "both",
+      "en": "Practice on the competition targets",
+      "uk": "Тренування на мішенях змагання",
+      "sporting": {
+        "rule_ref": "sporting:ch15-no-practice",
+        "en": "Before the event nobody may practise on the competition layouts, not even the organisers.",
+        "uk": "До змагання ніхто не може тренуватися на його майданчиках, навіть організатори."
+      },
+      "compak": {
+        "rule_ref": "compak:ch6-practice",
+        "en": "Shooters may practise on the competition trajectories, but with the targets combined differently. The {{term:trajectory-setting-table|setting table}} (the written plan of which traps are shot from each station) used for practice must differ from the competition one.",
+        "uk": "Стрільці можуть тренуватися на траєкторіях змагання, але мішені поєднують інакше. {{term:trajectory-setting-table|Таблиця налаштування}} (запис, з яких машинок стріляють на кожному номері) для тренування має відрізнятися від змагальної."
+      }
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-p-practice",
+      "t": "p",
+      "en": "At a club shoot you set your own {{term:practice|practice}} rule. Write it in the programme so that everyone has the same chance.",
+      "uk": "На клубному змаганні правило щодо {{term:practice|тренування}} встановлюєте ви. Напишіть його в програмі, щоб усі мали однакові шанси."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-p4",
+      "t": "p",
+      "en": "Look after the people: {{term:referee|referees}}, {{term:trapper|trappers}}, registration and scoring. Make up the {{term:squad|squads}} (who shoots with whom) and a timetable, and publish both in advance.",
+      "uk": "Подбайте про людей: {{term:referee|суддів}}, {{term:trapper|операторів машинок}}, реєстрацію й підрахунок результатів. Складіть {{term:squad|групи}} (хто з ким стріляє) й розклад та опублікуйте їх заздалегідь."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-protection",
+      "t": "warn",
+      "disc": "both",
+      "en": "Under FITASC rules, everyone near the shooting wears {{term:hearing-protection|hearing protection}}, spectators included. Shooters, referees and staff also wear {{term:safety-glasses|safety glasses}}; in {{tm:sporting}}, so does anyone close to a stand. At a club shoot, many organisers simply ask everyone to wear both.",
+      "uk": "За правилами FITASC {{term:hearing-protection|захист слуху}} носять усі, хто поруч зі стрільбою, зокрема глядачі. Стрільці, судді й персонал носять ще й {{term:safety-glasses|стрілецькі окуляри}}, а в {{tm:sporting}} — і всі, хто поблизу стрілецького місця. На клубному змаганні багато організаторів просто просять усіх носити і те, і те."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-p5",
+      "t": "p",
+      "en": "End the day with the {{term:prize-giving|prize giving}} and a thank-you to all helpers. Then publish the results: tidy {{term:score-sheet|score sheets}} and a clear results table show respect for the participants. If you want the results on ClayArena, contact ClayArena and ask in what form to send them.",
+      "uk": "Завершіть день {{term:prize-giving|нагородженням}} і подякою всім помічникам. Потім опублікуйте результати: акуратні {{term:score-sheet|протоколи}} й зрозуміла таблиця — це повага до учасників. Якщо хочете, щоб результати з’явилися на ClayArena, зверніться до ClayArena й уточніть, у якому вигляді їх передати."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-p6",
+      "t": "p",
+      "en": "Plan your volunteers early. They can register shooters, help with scoring under the referee's eye, look after parking, take photos and clear up cases and target fragments. Give a safety briefing to anyone who will work near a trap. The helper's side of the story: {{lesson:culture-club-life}}.",
+      "uk": "Сплануйте волонтерів заздалегідь. Вони можуть реєструвати учасників, допомагати з підрахунком під наглядом судді, стежити за парковкою, фотографувати й прибирати гільзи та уламки мішеней. Проведіть інструктаж з безпеки для всіх, хто працюватиме біля машинки. Погляд з боку помічника: {{lesson:culture-club-life}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "nextstep-club-shoot-and-volunteering-kp1",
+      "en": "Start by agreeing terms with the ground and checking local rules, permits and insurance.",
+      "uk": "Почніть із домовленості зі стендом і з перевірки місцевих правил, дозволів і страхування."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-kp2",
+      "en": "Announce the format, the rules and the practice rule in advance.",
+      "uk": "Заздалегідь оголосіть формат, правила й порядок тренування."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-kp3",
+      "en": "Ask an experienced referee to check the trajectories before the start.",
+      "uk": "Попросіть досвідченого суддю перевірити траєкторії до старту."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-kp-protection",
+      "en": "Ask everyone near the shooting to wear hearing protection and glasses.",
+      "uk": "Попросіть усіх поруч зі стрільбою носити захист слуху й окуляри."
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-kp4",
+      "en": "Plan referees, trappers, registration, results and volunteers, with a safety briefing.",
+      "uk": "Сплануйте суддів, операторів, реєстрацію, результати й волонтерів, з інструктажем з безпеки."
+    }
+  ],
+  "did_you_know": {
+    "k": "nextstep-club-shoot-and-volunteering-dyk",
+    "en": "Under the {{tm:sporting}} rules, squad lists and start times for international events are published in advance. Doing the same at a club shoot saves many questions on the day.",
+    "uk": "За правилами {{tm:sporting}} списки груп і час старту на міжнародних змаганнях публікують заздалегідь. Якщо зробити так само на клубному змаганні, у день старту буде набагато менше запитань."
+  },
+  "quiz": [
+    {
+      "k": "nextstep-club-shoot-and-volunteering-q1",
+      "q": {
+        "en": "Where do you start when organising a club shoot?",
+        "uk": "З чого почати організацію клубного змагання?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "By buying the trophies",
+          "uk": "З купівлі кубків"
+        },
+        {
+          "k": "b",
+          "en": "By publishing the results",
+          "uk": "З публікації результатів"
+        },
+        {
+          "k": "c",
+          "en": "By agreeing terms with the ground",
+          "uk": "З домовленості зі стендом"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "First come the venue, the terms, the permits and safety.",
+        "uk": "Спершу — місце, умови, дозволи й безпека."
+      }
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-q2",
+      "q": {
+        "en": "Who designs the layouts of an international {{tm:sporting}} competition?",
+        "uk": "Хто розробляє майданчики міжнародного змагання з {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The course designer",
+          "uk": "Course designer, автор майданчиків"
+        },
+        {
+          "k": "b",
+          "en": "The spectators",
+          "uk": "Глядачі"
+        },
+        {
+          "k": "c",
+          "en": "Each shooter for themselves",
+          "uk": "Кожен стрілець для себе"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:sporting}} the course designer prepares the layouts, and officials check them before the start. In {{tm:compak}} the jury can instead pick ready-made setting tables.",
+        "uk": "У {{tm:sporting}} майданчики готує course designer, а офіційні особи перевіряють їх до старту. У {{tm:compak}} журі може натомість обрати готові таблиці налаштування."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch15-layout-officials"
+    },
+    {
+      "k": "nextstep-club-shoot-and-volunteering-q-practice",
+      "q": {
+        "en": "Where may shooters practise on the competition trajectories before the event?",
+        "uk": "Де стрільці можуть тренуватися на траєкторіях змагання до його початку?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In {{tm:sporting}}, on the competition layouts",
+          "uk": "У {{tm:sporting}} — на майданчиках змагання"
+        },
+        {
+          "k": "b",
+          "en": "In {{tm:compak}}, with the targets combined differently",
+          "uk": "У {{tm:compak}} — з іншим поєднанням мішеней"
+        },
+        {
+          "k": "c",
+          "en": "In neither discipline",
+          "uk": "У жодній дисципліні"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:sporting}} nobody may practise on the competition layouts. In {{tm:compak}} practice is allowed, but with a different setting table, so the targets are combined differently.",
+        "uk": "У {{tm:sporting}} ніхто не може тренуватися на майданчиках змагання. У {{tm:compak}} тренування дозволене, але з іншою таблицею налаштування, тож мішені поєднують інакше."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "nextstep-club-shoot-and-volunteering-q3",
+      "q": {
+        "en": "Can someone who does not shoot help at a competition?",
+        "uk": "Чи може допомогти на змаганні людина, яка не стріляє?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, only shooters may help",
+          "uk": "Ні, допомагати можуть лише стрільці"
+        },
+        {
+          "k": "b",
+          "en": "Only as a certified referee",
+          "uk": "Лише як суддя із сертифікатом"
+        },
+        {
+          "k": "c",
+          "en": "Yes, as a volunteer: registration, photos and more",
+          "uk": "Так, волонтером: реєстрація, фото тощо"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Volunteers are needed at nearly all competitions, and many of them do not shoot.",
+        "uk": "Волонтери потрібні майже на кожному змаганні, і багато з них не стріляють."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "8be99d6f",
+    "summary": "93d0a624",
+    "nextstep-club-shoot-and-volunteering-p1": "cfa29559",
+    "nextstep-club-shoot-and-volunteering-p2": "786abb17",
+    "nextstep-club-shoot-and-volunteering-cmp-layouts": "6eeb5f21",
+    "nextstep-club-shoot-and-volunteering-p3": "4bc37e10",
+    "nextstep-club-shoot-and-volunteering-cmp-practice": "2f009fe6",
+    "nextstep-club-shoot-and-volunteering-p-practice": "08e086d8",
+    "nextstep-club-shoot-and-volunteering-p4": "05f4d07f",
+    "nextstep-club-shoot-and-volunteering-protection": "dd1152cf",
+    "nextstep-club-shoot-and-volunteering-p5": "29e1a64b",
+    "nextstep-club-shoot-and-volunteering-p6": "aef9e169",
+    "nextstep-club-shoot-and-volunteering-kp1": "de1e02b5",
+    "nextstep-club-shoot-and-volunteering-kp2": "5317eb34",
+    "nextstep-club-shoot-and-volunteering-kp3": "85c87906",
+    "nextstep-club-shoot-and-volunteering-kp-protection": "2dd00e6d",
+    "nextstep-club-shoot-and-volunteering-kp4": "d0dfe1d8",
+    "nextstep-club-shoot-and-volunteering-dyk": "80e34b34",
+    "nextstep-club-shoot-and-volunteering-q1": "be2d56c4",
+    "nextstep-club-shoot-and-volunteering-q2": "c997b191",
+    "nextstep-club-shoot-and-volunteering-q-practice": "87207c35",
+    "nextstep-club-shoot-and-volunteering-q3": "b5e37179"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

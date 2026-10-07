@@ -1,0 +1,143 @@
+{
+  "id": "rules-dress-and-safety",
+  "lang": "it",
+  "base_rev": 1,
+  "h": {
+    "title": "c731aafd",
+    "summary": "ae3da601",
+    "culture-dress-code-p1": "9e0775c4",
+    "gear-protection-clothes-p4": "3e1cab97",
+    "rules-dress-and-safety-cmp1": "b186cdbf",
+    "culture-dress-code-p4": "d20c8cdd",
+    "gear-protection-clothes-p5": "0e28b350",
+    "rules-dress-and-safety-cmp2": "e40d0c0b",
+    "rules-dress-and-safety-p6": "de5cadff",
+    "rules-dress-and-safety-p3": "32c29f59",
+    "rules-dress-and-safety-cmp3": "ea2c8461",
+    "rules-dress-and-safety-p4": "4f27a383",
+    "rules-dress-and-safety-p5": "6c50af6c",
+    "rules-dress-and-safety-cmp4": "c6b05acd",
+    "rules-dress-and-safety-p7": "19b095c5",
+    "compak-dress-and-conduct-p5": "e92ab8a6",
+    "gear-protection-clothes-ph1": "82dc2bb2",
+    "compak-dress-and-conduct-ph1": "bbef650e",
+    "compak-dress-and-conduct-ph2": "b0e6a2f4",
+    "culture-dress-code-kp1": "9c8b2f3b",
+    "rules-dress-and-safety-kp2": "8d14f459",
+    "rules-dress-and-safety-kp3": "167efa2e",
+    "rules-dress-and-safety-kp4": "24263c64",
+    "rules-dress-and-safety-kp5": "497a2e54",
+    "rules-dress-and-safety-dyk": "4a570728",
+    "rules-dress-and-safety-q1": "9e82402d",
+    "rules-dress-and-safety-q2": "68da8bc1",
+    "rules-dress-and-safety-q4": "a0a0f82d",
+    "rules-dress-and-safety-q3": "4be4f4c3",
+    "culture-dress-code-q2": "a1c683e9",
+    "culture-dress-code-q3": "f64ea223",
+    "gear-protection-clothes-q1": "f30ce4e9",
+    "gear-protection-clothes-q3": "6ecfcb44",
+    "compak-dress-and-conduct-q1": "940076d2"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "Il dress code e la sicurezza in pedana",
+  "summary": "Cosa indossare alle gare di {{tm:sporting}} e {{tm:compak}}, dove va il pettorale, come si portano e si caricano i fucili, e chi deve indossare protezioni per udito e occhi.",
+  "body": {
+    "culture-dress-code-p1": "Il tiro al piattello è uno sport pubblico, e i regolamenti del {{tm:sporting}} e del {{tm:compak}} chiedono ai tiratori di vestirsi in modo ordinato e pratico. Le regole sull'{{term:dress-code|abbigliamento}} hanno due scopi: la sicurezza e il rispetto per la gara.",
+    "gear-protection-clothes-p4": "Le regole sull'abbigliamento sono quasi le stesse in entrambe le discipline. I pantaloncini devono essere lunghi: {{fact:rules.dress-shorts-length}}. La parte superiore deve avere le maniche, anche corte vanno bene, e deve arrivare al collo, con colletto o scollo rotondo. Un gilet sul petto nudo non è permesso, e i sandali sono vietati per sicurezza.",
+    "rules-dress-and-safety-cmp1": {
+      "sporting": "In gara. I sandali lì sono vietati perché non sono sicuri.",
+      "compak": "Sulla postazione, in allenamento e in gara: i sandali sono vietati in entrambi i casi."
+    },
+    "culture-dress-code-p4": "Il {{term:competitor-number|pettorale}} va sulla schiena, da qualche parte tra le spalle e la vita. Deve essere completamente visibile: non piegato e non tagliato. Una violazione delle regole sull'abbigliamento o sul pettorale porta prima un avvertimento; se non viene corretta, la giuria può arrivare fino all'espulsione.",
+    "gear-protection-clothes-p5": "Molti tiratori portano anche un cappellino con visiera contro il sole e la pioggia, i guanti, e hanno una borsa portacartucce per la scorta della giornata. Queste sono abitudini, non regole.",
+    "rules-dress-and-safety-cmp2": {
+      "sporting": "Protezione per l'udito: per chiunque sia sul percorso o nei dintorni, spettatori compresi; i bambini sul campo devono indossarla ovunque fuori dal clubhouse. Occhiali: per tiratori, arbitri e personale, e per chiunque sia vicino a una pedana.",
+      "compak": "Protezione per l'udito: per tiratori, arbitri, personale e spettatori vicino alla gara. Occhiali: per tiratori, arbitri e personale."
+    },
+    "rules-dress-and-safety-p6": "In entrambe le discipline, un tiratore che arriva in pedana senza {{term:hearing-protection|protezione per l'udito}} o {{term:safety-glasses|occhiali di protezione}} è considerato assente e non può tirare. Come sceglierli: {{lesson:safety-eye-ear-protection}}.",
+    "rules-dress-and-safety-p3": "Portate il fucile aperto (così tutti vedono che non può sparare), anche quando è scarico. Un {{term:semi-automatic|semiautomatico}} si porta con l'otturatore aperto: la culatta è bloccata indietro, così si vede che la camera è vuota. La sua volata (l'estremità anteriore della canna) punta dritta verso l'alto o verso il basso. Quando non serve, il fucile sta in piedi in una {{term:gun-rack|rastrelliera}}. Nessuno tocca il fucile di un altro tiratore senza permesso. Cinghie e tracolle non sono permesse in nessuna delle due discipline.",
+    "rules-dress-and-safety-cmp3": {
+      "sporting": "Solo in pedana, canna verso il campo, dopo che l'arbitro ha detto che si può iniziare a tirare.",
+      "compak": "Solo sulla propria postazione, dopo che l'inizio è permesso. Tenete il fucile aperto, canna verso i piattelli e dentro il {{term:firing-angle-limiter|Limitatore dell'angolo di tiro (FAL)}} (la struttura attorno alla postazione che impedisce alle canne di oscillare troppo). Chiudetelo solo quando è il vostro turno."
+    },
+    "rules-dress-and-safety-p4": "In entrambe le discipline potete inserire {{fact:rules.semi-auto-cartridges}} in un semiautomatico. Dopo aver lasciato la pedana, chi lo usa raccoglie i bossoli vuoti che il fucile ha espulso. I bossoli vuoti vanno nel bidone, dove ce n'è uno.",
+    "rules-dress-and-safety-p5": "Prima di girarvi in pedana, aprite il fucile e togliete tutte le cartucce, sparate o no. Durante la presentazione e ogni interruzione, il fucile è aperto e scarico. Sparate solo al vostro turno, solo al vostro piattello, e non agli animali.",
+    "rules-dress-and-safety-cmp4": {
+      "sporting": "Non è permessa in nessun punto del campo di tiro, compreso seguire con la canna la linea di un piattello prima di chiamare.",
+      "compak": "Non è permessa fuori dalle postazioni di tiro, né mentre tira qualcun altro della vostra batteria."
+    },
+    "rules-dress-and-safety-p7": "Le leggi su armi e munizioni variano da paese a paese. Le regole FITASC valgono in gara, ma non sostituiscono le leggi locali sul trasporto e la conservazione di un fucile. Prima di un viaggio all'estero, vedi {{lesson:travel-gun-in-eu}}."
+  },
+  "note": {
+    "compak-dress-and-conduct-p5": "Vicino alla pedana fate parte del pubblico: indossate le protezioni, state in silenzio durante la chiamata, e non commentate una decisione. Le regole non parlano di interpreti, ma trasmettere il consiglio di un istruttore durante una gara può essere giudicato come coaching. In quel caso il tiratore riceve un cartellino giallo e voi venite allontanati dall'area di tiro. Traducete solo le parole ufficiali, per l'arbitro, la giuria e l'organizzatore."
+  },
+  "phrases": {
+    "gear-protection-clothes-ph1": {
+      "meaning": "Metti protezioni auditive e occhiali prima di avvicinarti alla pedana.",
+      "say": "Cuffie e occhiali prima di salire."
+    },
+    "compak-dress-and-conduct-ph1": {
+      "meaning": "Arbitro: il pettorale deve essere ben visibile sulla schiena.",
+      "say": "Il pettorale sulla schiena, per favore."
+    },
+    "compak-dress-and-conduct-ph2": {
+      "meaning": "Metti le protezioni auditive e gli occhiali prima di salire in pedana.",
+      "say": "Cuffie e occhiali."
+    }
+  },
+  "key_points": {
+    "culture-dress-code-kp1": "Solo pantaloncini lunghi ({{fact:rules.dress-shorts-length}}); maglie con maniche (corte vanno bene); niente sandali.",
+    "rules-dress-and-safety-kp2": "Il pettorale va sulla schiena, completamente visibile.",
+    "rules-dress-and-safety-kp3": "Portate il fucile aperto, senza cinghia; caricatelo solo in pedana, una volta che l'arbitro lo permette.",
+    "rules-dress-and-safety-kp4": "Prima di girarvi, aprite il fucile e togliete tutte le cartucce.",
+    "rules-dress-and-safety-kp5": "Senza protezione per l'udito o occhiali, un tiratore è considerato assente, in entrambe le discipline."
+  },
+  "did_you_know": "Ogni postazione del {{tm:compak}} ha una struttura, il Limitatore dell'angolo di tiro (FAL). Impedisce al fucile di oscillare troppo e mantiene il tiratore dentro la posizione.",
+  "quiz": {
+    "rules-dress-and-safety-q1": {
+      "q": "Quali pantaloncini sono permessi alle gare FITASC?",
+      "options": { "a": "Qualsiasi pantaloncino sportivo", "b": "Nessun pantaloncino corto", "c": "Lunghi, vicino al ginocchio" },
+      "explain": "I pantaloncini corti sono vietati; quelli lunghi sono permessi se finiscono {{fact:rules.dress-shorts-length}}."
+    },
+    "rules-dress-and-safety-q2": {
+      "q": "Quante cartucce può contenere un semiautomatico in pedana?",
+      "options": { "a": "Una", "b": "Al massimo due", "c": "Al massimo tre", "d": "Quante ce ne stanno" },
+      "explain": "Entrambi i regolamenti limitano un semiautomatico a {{fact:rules.semi-auto-cartridges}}."
+    },
+    "rules-dress-and-safety-q4": {
+      "q": "Le cinghie per il fucile sono permesse nel {{tm:compak}}?",
+      "options": { "a": "No, in nessuna delle due discipline", "b": "Sì, solo nel {{tm:compak}}", "c": "Solo tra le postazioni" },
+      "explain": "Cinghie e tracolle sono vietate in entrambe le discipline; i fucili si portano aperti."
+    },
+    "rules-dress-and-safety-q3": {
+      "q": "Un tiratore arriva in pedana senza occhiali di protezione. Cosa succede?",
+      "options": { "a": "Solo un avvertimento", "b": "Permesso se ha la protezione per l'udito", "c": "Considerato assente" },
+      "explain": "Occhiali e protezione per l'udito sono obbligatori; senza di essi il tiratore non può tirare."
+    },
+    "culture-dress-code-q2": {
+      "q": "Perché i sandali sono vietati?",
+      "options": { "a": "Per motivi di sicurezza", "b": "Perché non sono di moda", "c": "Non sono vietati" },
+      "explain": "Le scarpe chiuse proteggono i piedi, quindi i sandali sono vietati."
+    },
+    "culture-dress-code-q3": {
+      "q": "Dove si porta il pettorale?",
+      "options": { "a": "Sulla manica sinistra", "b": "Davanti sul cappellino", "c": "Sulla schiena" },
+      "explain": "Il pettorale si porta sulla schiena, in qualsiasi punto dalle spalle alla vita, e niente può coprirne alcuna parte."
+    },
+    "gear-protection-clothes-q1": {
+      "q": "Sei un interprete e stai vicino alla pedana. Devi indossare le protezioni auditive?",
+      "options": { "a": "No, solo i tiratori in pedana", "b": "Solo durante le finali e gli spareggi", "c": "Sì, tutti quelli che si trovano su un campo o vicino", "d": "Solo se te lo chiede l'arbitro" },
+      "explain": "Le protezioni auditive sono obbligatorie per tiratori, arbitri, personale e spettatori."
+    },
+    "gear-protection-clothes-q3": {
+      "q": "Quali calzature sono vietate in entrambe le discipline?",
+      "options": { "a": "Scarpe da trail", "b": "Sandali", "c": "Scarponcini", "d": "Scarpe da ginnastica" },
+      "explain": "I sandali sono vietati per motivi di sicurezza."
+    },
+    "compak-dress-and-conduct-q1": {
+      "q": "Un tiratore si presenta sulla postazione in sandali per una serie di allenamento. È permesso?",
+      "options": { "a": "Sì, solo in allenamento", "b": "No, nemmeno in allenamento", "c": "Sì, con i calzini", "d": "Solo con il permesso dell'arbitro" },
+      "explain": "Il dress code del {{tm:compak}} vieta i sandali per sicurezza, in allenamento e in gara."
+    }
+  }
+}

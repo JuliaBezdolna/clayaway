@@ -1,0 +1,99 @@
+{
+  "id": "gun-care",
+  "lang": "fi",
+  "base_rev": 1,
+  "h": {
+    "title": "42bc807c",
+    "summary": "53ea9070",
+    "gun-care-p1": "e7fec0b7",
+    "gun-care-p2": "311dadd8",
+    "gun-care-p3": "5d55cf61",
+    "gun-care-p4": "3cd3a115",
+    "gun-care-p5": "520c5e84",
+    "gun-care-p6": "4866d6ad",
+    "gun-care-p7": "8dcf8861",
+    "gun-care-kp1": "9aa8a796",
+    "gun-care-kp2": "cabb28f0",
+    "gun-care-kp3": "12d97280",
+    "gun-care-kp4": "51137384",
+    "gun-care-kp5": "9b69a2ed",
+    "gun-care-dyk": "8beaba79",
+    "gun-care-q1": "77aa2722",
+    "gun-care-q2": "8bd12cd7",
+    "gun-care-q3": "c3f948e6",
+    "gun-care-q4": "5fd25464"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Hoito ja puhdistus",
+  "summary": "Miten asetta puhdistetaan turvallisesti ampumisen ja sateen jälkeen, miten sitä säilytetään ja miksi {{tm:sporting}}- ja {{tm:compak}}-ampujat varaavat vuosittaisen huollon.",
+  "body": {
+    "gun-care-p1": "Puhdistus alkaa turvallisuudesta. Varmista, että ase on tyhjä: avaa se ja katso molempiin {{term:chamber|patruunapesiin}}. Vie kaikki patruunat pois työpisteeltä, jotta et vahingossa laita yhtä takaisin aseeseen.",
+    "gun-care-p2": "Pura ase: irrota {{term:fore-end|etutukki}}, sitten piiput {{term:receiver|lukonkehyksestä}}. Jos sinulla on vaihtosupistajat, kierrä ne irti {{term:choke-key|supistaja-avaimella}}; ne puhdistetaan erikseen (katso {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p3": [
+      "Puhdista piippujen sisäpinnat joka ampumapäivän jälkeen.",
+      "Kostuta ne puhdistusaineella ja vedä piippuharja (pieni teräsharja tangossa) läpi muutaman kerran.",
+      "Vedä tangolla puhtaita kangaspaloja (patches) läpi, kunnes ne tulevat ulos melko puhtaina.",
+      "Lopuksi jätä erittäin ohut öljykerros, ja pyyhi piippu kuivaksi ennen seuraavaa ampumista."
+    ],
+    "gun-care-p4": "Pyyhi ulkopuoliset metalliosat liinalla ja tipalla öljyä suojaksi sormenjälkiä ja kosteutta vastaan. Älä kastele puutukkia öljyllä, koska se imeytyy puuhun. Voitele saranat ja kohdat, joissa piiput lukkiutuvat lukonkehykseen, kevyesti asevoiteella.",
+    "gun-care-p5": "Sateen jälkeen kuivaa ase heti, radalla tai hotellissa. Älä jätä kosteaa asetta yöksi {{term:gun-slip|asepussiin}} tai suljettuun {{term:hard-case|koteloon}}: kosteus pysyy siellä pitkään, ja ruostetta seuraa. Kuivaa, pyyhi, öljyä.",
+    "gun-care-p6": "Säilytä ase kuivana, kassakaapissa tai maasi lain vaatimalla tavalla; monet lait vaativat myös patruunoiden erillisen säilytyksen. Monet aseseppät ehdottavat aseen säilyttämistä vaakatasossa tai piiput alaspäin, jotta öljy ei valu puutukkiin. Älä käytä teräsvillaa tai hankausaineita: ne naarmuttavat pintakäsittelyä.",
+    "gun-care-p7": "Kerran vuodessa, tai suuren laukausmäärän jälkeen, vie ase {{term:gunsmith|aseseppälle}} huoltoon. Kokoamisen jälkeen älä testaa asetta kilpailun ampumapaikalla. {{tm:sporting}}- ja {{tm:compak}}-lajeissa {{term:gun-test|koelaukaus}} ammutaan vain erillisellä koeampumapaikalla, jos radalla on sellainen."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "gun-care-kp1": "Varmista ensin, että ase on tyhjä ja patruunat ovat poissa.",
+    "gun-care-kp2": "Puhdista piiput joka ampumapäivän jälkeen; öljyä kevyesti.",
+    "gun-care-kp3": "Kuivaa kostea ase heti; älä jätä sitä yöksi pussiin.",
+    "gun-care-kp4": "Säilytä kuivana ja lukkojen takana, vaakatasossa tai piiput alaspäin.",
+    "gun-care-kp5": "Vuosittainen huolto aseseppällä; koelaukaukset vain koeampumapaikalla."
+  },
+  "did_you_know": "{{term:primer|Nallit}} sisälsivät ennen syövyttäviä suoloja, ja ase piti puhdistaa samana päivänä, tai piippu ruostui. Nykyaikaiset nallit eivät syövytä, mutta puhdistus ampumisen jälkeen on yhä hyvä tapa.",
+  "quiz": {
+    "gun-care-q1": {
+      "q": "Mitä on tehtävä ensin, ennen aseen puhdistamista?",
+      "options": {
+        "a": "Voidella sarana ja koukut",
+        "b": "Kiertää molemmat supistajat irti",
+        "c": "Tarkistaa, että ase on tyhjä",
+        "d": "Irrottaa perälevy"
+      },
+      "explain": "Turvallisuus ensin: avaa ase ja tarkista molemmat patruunapesät."
+    },
+    "gun-care-q2": {
+      "q": "Mitä ei pidä tehdä sateessa ampumisen jälkeen?",
+      "options": {
+        "a": "Pyyhkiä asetta kuivalla liinalla",
+        "b": "Jättää se yöksi pussiin",
+        "c": "Kuivata piiput sisältä ja ulkoa",
+        "d": "Laittaa metallille ohut öljykerros"
+      },
+      "explain": "Kosteus pysyy suljetussa pussissa pitkään, ja ruostetta seuraa."
+    },
+    "gun-care-q3": {
+      "q": "Missä voi koelaukaista aseen ennen kilpailua?",
+      "options": {
+        "a": "Koeampumapaikalla, jos radalla on sellainen",
+        "b": "Ensimmäisellä kilpailun ampumapaikalla",
+        "c": "Missä tahansa radalla, poissa ihmisten luota",
+        "d": "Seuratalon pysäköintialueella"
+      },
+      "explain": "Säännöt kieltävät koelaukaukset kilpailun ampumapaikalla; sitä varten on erillinen koeampumapaikka."
+    },
+    "gun-care-q4": {
+      "q": "Miksi monet aseseppät ehdottavat aseen säilyttämistä piiput alaspäin?",
+      "options": {
+        "a": "Jotta sen voi latata nopeammin myöhemmin",
+        "b": "Jotta supistajat eivät löysty",
+        "c": "Jotta piiput jäähtyvät nopeammin",
+        "d": "Jotta öljy ei valu tukkiin"
+      },
+      "explain": "Puutukkiin valuva öljy voi ajan myötä vahingoittaa puuta."
+    }
+  }
+}

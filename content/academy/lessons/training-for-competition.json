@@ -1,0 +1,682 @@
+{
+  "id": "training-for-competition",
+  "rev": 5,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 7,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": "2027-10-01",
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist (pressure training, routine); certified referee (rules part)",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "training-for-competition"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "round",
+    "layout",
+    "pre-shot-routine",
+    "jacket-line",
+    "ready-position",
+    "trapper",
+    "firing-time",
+    "shoot-off",
+    "choke",
+    "coaching",
+    "yellow-card",
+    "practice",
+    "call",
+    "sonopull",
+    "referee",
+    "target-menu",
+    "stock",
+    "sudden-death",
+    "trajectory-setting-table"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-traps-table"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-jacket-line"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-fifteen-seconds"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-call-and-release"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-firing-time"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trigger-manual"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-no-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-championship-practice"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-top-three"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-sudden-death"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-medals"
+    }
+  ],
+  "facts": [
+    "training.compak-round",
+    "training.compak-championship-practice",
+    "targets.sporting-layout-targets",
+    "rules.sporting-jacket-line",
+    "rules.sporting-time-between-targets",
+    "rules.release-within-3s",
+    "rules.compak-time-to-call",
+    "rules.sonopull-delay"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Rupprecht A. G. O., Tran U. S., Gröpel P. (2024; online 2021). The effectiveness of pre-performance routines in sports: a meta-analysis. International Review of Sport and Exercise Psychology 17(1), 39–64",
+        "uk": "Rupprecht A. G. O., Tran U. S., Gröpel P. (2024; онлайн 2021). Ефективність ритуалів перед виконанням у спорті: метааналіз. International Review of Sport and Exercise Psychology 17(1), 39–64"
+      },
+      "url": "https://doi.org/10.1080/1750984X.2021.1944271",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only (citation)"
+    },
+    {
+      "title": {
+        "en": "Lonsdale C., Tam J. T. M. (2008). On the temporal and behavioural consistency of pre-performance routines: an intra-individual analysis of elite basketball players' free throw shooting accuracy. Journal of Sports Sciences 26(3), 259–266",
+        "uk": "Lonsdale C., Tam J. T. M. (2008). Про сталість ритуалів перед виконанням у часі й у діях: індивідуальний аналіз точності штрафних кидків елітних баскетболістів. Journal of Sports Sciences 26(3), 259–266"
+      },
+      "url": "https://doi.org/10.1080/02640410701473962",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only (citation)"
+    },
+    {
+      "title": {
+        "en": "Low W. R. et al. (2021). Pressure training for performance domains: a meta-analysis. Sport, Exercise, and Performance Psychology 10(1), 149–163",
+        "uk": "Low W. R. та ін. (2021). Тренування під тиском у різних видах діяльності: метааналіз. Sport, Exercise, and Performance Psychology 10(1), 149–163"
+      },
+      "url": "https://doi.org/10.1037/spy0000202",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only (citation)"
+    },
+    {
+      "title": {
+        "en": "Oudejans R. R. D., Pijpers J. R. (2009). Training with anxiety has a positive effect on expert perceptual–motor performance under pressure. Quarterly Journal of Experimental Psychology 62(8), 1631–1647",
+        "uk": "Oudejans R. R. D., Pijpers J. R. (2009). Тренування з тривогою покращує виконання рухових навичок експертами під тиском. Quarterly Journal of Experimental Psychology 62(8), 1631–1647"
+      },
+      "url": "https://doi.org/10.1080/17470210802557702",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only (citation)"
+    },
+    {
+      "title": {
+        "en": "Gröpel P., Mesagno C. (2019). Choking interventions in sports: a systematic review. International Review of Sport and Exercise Psychology 12(1), 176–201",
+        "uk": "Gröpel P., Mesagno C. (2019). Способи запобігти «зриву» під тиском у спорті: систематичний огляд. International Review of Sport and Exercise Psychology 12(1), 176–201"
+      },
+      "url": "https://doi.org/10.1080/1750984X.2017.1408134",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only (citation)"
+    }
+  ],
+  "title": {
+    "en": "Training for competition",
+    "uk": "Тренування під змагання"
+  },
+  "summary": {
+    "en": "How to bring competition into training: full rounds, your own routine, the time limits of your discipline and mild pressure that grows step by step.",
+    "uk": "Як перенести змагання в тренування: повні раунди, власний ритуал, ліміти часу вашої дисципліни й легкий тиск, що зростає поступово."
+  },
+  "brief": {
+    "title": {
+      "en": "Training for competition",
+      "uk": "Тренування під змагання"
+    },
+    "points": {
+      "en": [
+        "Add training under moderate pressure that grows step by step: '5 in a row', a practice round and a shoot-off run as in competition, spectators, a time limit.",
+        "How to fit this into normal training without disturbing technique.",
+        "Time limits per discipline (link to the rules lessons)."
+      ],
+      "uk": [
+        "Додати тренування під помірним тиском, який зростає поступово: «5 поспіль», тренувальний раунд і перестрілка як на змаганнях, глядачі, ліміт часу.",
+        "Як вставити це у звичайне тренування, не заважаючи техніці.",
+        "Ліміти часу за дисциплінами (посилання на уроки правил)."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "training-for-competition-p1",
+      "t": "p",
+      "en": "A competition feels different: new targets, shooters you do not know, a referee and nerves. To make this feel familiar, many coaches suggest running some sessions as if they were a competition.",
+      "uk": "На змаганнях усе інакше: нові мішені, незнайомі стрільці поруч, суддя, хвилювання. Щоб це стало звичним, багато тренерів радять частину тренувань проводити так, ніби це вже змагання."
+    },
+    {
+      "k": "training-for-competition-p2",
+      "t": "p",
+      "en": "Shoot full {{term:round|rounds}} and keep score. Do not ask for a target again after you miss it, and shoot the targets in the order of the {{term:target-menu|menu}}.",
+      "uk": "Стріляйте повні {{term:round|раунди}} й рахуйте результат. Не просіть подати мішень ще раз після промаху й стріляйте мішені в порядку {{term:target-menu|меню}}."
+    },
+    {
+      "k": "training-for-competition-p2-why",
+      "t": "p",
+      "disc": "both",
+      "en": "That is how a competition runs: a missed target is not thrown again, and the targets come in the order the menu lists them. The menu is the board that shows which targets you shoot and in what order.",
+      "uk": "Саме так відбуваються змагання: мішень, по якій ви промахнулися, повторно не подають, а мішені йдуть у тому порядку, у якому їх перелічує меню. Меню — це табличка, яка показує, які мішені й у якому порядку стріляють."
+    },
+    {
+      "k": "training-for-competition-round",
+      "t": "compare",
+      "disc": "both",
+      "sporting": {
+        "en": "A round on one {{term:layout|layout}} is {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}}).",
+        "uk": "Раунд на одному {{term:layout|майданчику}} — це {{fact:targets.sporting-layout-targets}} ({{rule:sporting:ch2-traps-table}})."
+      },
+      "compak": {
+        "en": "A round is {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}}).",
+        "uk": "Раунд — це {{fact:training.compak-round}} ({{rule:compak:ch17-round-combinations}})."
+      }
+    },
+    {
+      "k": "training-for-competition-p3",
+      "t": "p",
+      "en": "Use your {{term:pre-shot-routine|pre-shot routine}} on each target: the same steps in the same order. Studies of routines, mostly in other sports, suggest that athletes who use one do better, also when they are nervous. This probably applies to clay shooting too. More in {{lesson:mind-routine-under-pressure}}.",
+      "uk": "Виконуйте свій {{term:pre-shot-routine|передпостріловий ритуал}} перед кожною мішенню: ті самі кроки в тому самому порядку. Дослідження ритуалів, переважно в інших видах спорту, свідчать, що спортсмени з ритуалом виступають краще, зокрема й тоді, коли хвилюються. Найімовірніше, це стосується й стендової стрільби. Докладніше — в уроці {{lesson:mind-routine-under-pressure}}."
+    },
+    {
+      "k": "training-for-competition-order",
+      "t": "p",
+      "en": "Doing the steps in the same order each time seems to matter more than taking exactly the same number of seconds. That suits clay shooting, because the time between your call and the target can differ from target to target. In {{tm:sporting}} a person releases the target, and so it is in {{tm:compak}} with a manual release. The rules set only an upper limit for this delay. Only a {{term:sonopull|sonopull}} in {{tm:compak}}, a device that releases the target when it hears your call, keeps the delay fixed. The exact times are below.",
+      "uk": "Схоже, що робити кроки щоразу в тому самому порядку важливіше, ніж витрачати на них рівно стільки ж секунд. Це добре пасує до стендової стрільби, бо час між вашим викликом і вильотом мішені може щоразу бути іншим. У {{tm:sporting}} мішень запускає людина, так само як і в {{tm:compak}} при ручному запуску. Правила обмежують цю затримку лише зверху. Сталою її тримає тільки {{term:sonopull|сонопул}} у {{tm:compak}} — пристрій, який запускає мішень, щойно почує ваш виклик. Точний час — нижче."
+    },
+    {
+      "k": "training-for-competition-p4",
+      "t": "compare",
+      "disc": "both",
+      "critical": true,
+      "sporting": {
+        "en": "Before the {{term:call|call}} the gun is not mounted. The heel of the {{term:stock|stock}}, the top corner of the end that goes into your shoulder, touches your body. The top of the stock stays below the {{term:jacket-line|jacket line}}. It is a line marked across your vest or jacket {{fact:rules.sporting-jacket-line}}; the shoulder axis is an imaginary horizontal line through both shoulders. Keep this {{term:ready-position|ready position}} (gun down, ready to mount) until the target is released and you can see it ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}}).",
+        "uk": "До {{term:call|виклику мішені}} рушниця не вкладена. П’ятка {{term:stock|приклада}} — верхній кут того кінця, що лягає в плече, — торкається тіла. Верх приклада залишається нижче від {{term:jacket-line|лінії на жилеті}}. Це смуга, яку наносять на жилет чи куртку {{fact:rules.sporting-jacket-line}}; вісь плеча — уявна горизонтальна лінія через обидва плечі. Це {{term:ready-position|вихідне положення}} (рушниця внизу, готова до вкладки) тримають, доки мішень не вилетить і ви її не побачите ({{rule:sporting:ch3-ready-position}}, {{rule:sporting:ch3-jacket-line}})."
+      },
+      "compak": {
+        "en": "The gun position at the call is free: mounted or not. Each target is shot with the gun at the shoulder. There is no jacket line ({{rule:compak:ch17-gun-position}}).",
+        "uk": "Положення рушниці під час виклику вільне: вкладена вона чи ні. Кожну мішень стріляють із рушницею біля плеча. Лінії на жилеті немає ({{rule:compak:ch17-gun-position}})."
+      }
+    },
+    {
+      "k": "training-for-competition-train-start",
+      "t": "p",
+      "en": "Practise the way each shot begins in your discipline: the gun position, the call and the wait for the target.",
+      "uk": "Відпрацьовуйте те, як у вашій дисципліні починається кожен постріл: положення рушниці, виклик мішені й очікування, поки вона вилетить."
+    },
+    {
+      "k": "training-for-competition-p5",
+      "t": "compare",
+      "disc": "both",
+      "critical": true,
+      "sporting": {
+        "en": "You have {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). After your call the referee gives a signal to the {{term:trapper|trapper}}, the person who releases the targets. The target comes {{fact:rules.release-within-3s}} of the referee's signal ({{rule:sporting:ch5-call-and-release}}).",
+        "uk": "У вас є {{fact:rules.sporting-time-between-targets}} ({{rule:sporting:ch7-fifteen-seconds}}). Після вашого виклику суддя подає сигнал {{term:trapper|операторові}} — людині, яка запускає мішені. Мішень вилітає {{fact:rules.release-within-3s}} після сигналу судді ({{rule:sporting:ch5-call-and-release}})."
+      },
+      "compak": {
+        "en": "You have {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). The target leaves {{fact:rules.release-within-3s}} of the call with a manual release, or {{fact:rules.sonopull-delay}} after it with a sonopull (voice release) ({{rule:compak:ch2-trigger-manual}}).",
+        "uk": "У вас є {{fact:rules.compak-time-to-call}} ({{rule:compak:ch21-firing-time}}). Мішень вилітає {{fact:rules.release-within-3s}} після виклику при ручному запуску або через {{fact:rules.sonopull-delay}} із сонопулом (голосовим запуском) ({{rule:compak:ch2-trigger-manual}})."
+      }
+    },
+    {
+      "k": "training-for-competition-time-it",
+      "t": "p",
+      "en": "Time your routine in training: it should fit the {{term:firing-time|time limit}} without rushing. If the targets are released by hand, ask the trapper to vary the delay a little, so you learn to stay ready while you wait. More about the rules: {{lesson:rules-call-and-time}}.",
+      "uk": "На тренуванні засікайте час свого ритуалу: він має вкладатися в {{term:firing-time|ліміт часу}} без поспіху. Якщо мішені запускають вручну, попросіть оператора трохи змінювати затримку, щоб звикнути залишатися готовим, поки чекаєте. Більше про правила — в уроці {{lesson:rules-call-and-time}}."
+    },
+    {
+      "k": "training-for-competition-pressure",
+      "t": "p",
+      "en": "Add mild pressure, step by step: a score that counts, someone watching, a small stake. Research on pressure training suggests that people who practise under mild pressure keep their skill better when the pressure is real. The studies come from other sports and tasks, so this probably applies to clay shooting too.",
+      "uk": "Додавайте легкий тиск поступово: рахунок, який має значення, глядач, невелика ставка. Дослідження тренування під тиском дають підстави вважати, що ті, хто тренується під легким тиском, краще зберігають навичку, коли тиск справжній. Ці дослідження зроблено в інших видах спорту й завданнях, тож, найімовірніше, це стосується й стендової стрільби."
+    },
+    {
+      "k": "training-for-competition-pressure-steps",
+      "t": "steps",
+      "en": [
+        "Five in a row: choose one target and stay with it until you break five in a row; a miss starts the count again.",
+        "A test round: a full round with a score, in the menu order, with no repeated targets and with the time limit of your discipline.",
+        "An audience: ask a friend to watch, act as the referee and announce the results aloud.",
+        "A small stake: a friendly match in which, for example, the loser buys the coffee.",
+        "A {{term:shoot-off|shoot-off}} drill. A shoot-off is the extra shooting that decides a tie. After a round, at short notice, shoot one more full round and, if you like, a {{term:sudden-death|sudden-death}} series that ends at the first miss."
+      ],
+      "uk": [
+        "П’ять поспіль: виберіть одну мішень і працюйте з нею, доки не розіб’єте п’ять поспіль; промах починає відлік заново.",
+        "Контрольний раунд: повний раунд із рахунком, у порядку меню, без повторних мішеней і з лімітом часу вашої дисципліни.",
+        "Глядачі: попросіть друга подивитися, побути суддею й оголошувати результат уголос.",
+        "Невелика ставка: дружній матч, у якому, наприклад, той, хто програв, купує каву.",
+        "Тренувальна {{term:shoot-off|перестрілка}}. Перестрілка — це додаткова стрільба, яка вирішує нічию. Одразу після раунду й без довгої підготовки — ще один повний раунд, а за бажання й серія {{term:sudden-death|sudden death}} до першого промаху."
+      ]
+    },
+    {
+      "k": "training-for-competition-shoot-off",
+      "t": "p",
+      "disc": "both",
+      "en": "A real shoot-off is held only for the first three places. In both disciplines it is 25 targets and, if the shooters are still level, sudden death: the first to miss is out ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}}).",
+      "uk": "Справжню перестрілку проводять лише за перші три місця. В обох дисциплінах це 25 мішеней, а якщо рахунок і далі рівний — {{term:sudden-death|sudden death}}: хто першим промахнеться, той вибуває ({{rule:sporting:ch18-top-three}}, {{rule:sporting:ch18-sudden-death}}, {{rule:compak:ch14-shootoff-medals}})."
+    },
+    {
+      "k": "training-for-competition-fit-in",
+      "t": "p",
+      "en": "How to fit this into normal training. Many coaches keep technique work for the first part of a session and add one pressure task near the end, once or twice a week. While you are learning a new movement, leave the pressure out until it feels settled. If technique falls apart, make the task easier rather than pushing on.",
+      "uk": "Як поєднати це зі звичайним тренуванням. Багато тренерів залишають роботу над технікою на першу частину тренування, а одне завдання під тиском додають ближче до кінця, раз-два на тиждень. Поки ви вчите новий рух, не додавайте тиску, доки рух не закріпиться. Якщо техніка розсипається, полегшіть завдання, а не тисніть далі."
+    },
+    {
+      "k": "training-for-competition-no-new-kit",
+      "t": "tip",
+      "en": "A competition is a poor place for experiments. Test a new {{term:choke|choke}}, cartridge or lens in training first.",
+      "uk": "Змагання — невдале місце для експериментів. Новий {{term:choke|чок}}, набої чи лінзу спершу випробуйте на тренуванні."
+    },
+    {
+      "k": "training-for-competition-p6",
+      "t": "p",
+      "disc": "both",
+      "rule_ref": "sporting:ch8-coaching",
+      "critical": true,
+      "en": "Agree on the plan in advance. {{term:coaching|Coaching}}, giving a competitor advice during a competition, is not allowed in either discipline. If the {{term:referee|referee}} decides that coaching is happening, the shooter gets a {{term:yellow-card|yellow card}}, and the person coaching is sent out of the shooting area ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}}).",
+      "uk": "Домовтеся про план заздалегідь. {{term:coaching|Підказки тренера}} учасникові під час змагань заборонені в обох дисциплінах. Якщо {{term:referee|суддя}} вирішить, що стрільцеві підказують, стрілець отримує {{term:yellow-card|жовту картку}}, а того, хто підказує, виводять зі стрілецької зони ({{rule:sporting:ch8-coaching}}, {{rule:compak:ch21-coaching}})."
+    },
+    {
+      "k": "training-for-competition-practice",
+      "t": "compare",
+      "disc": "both",
+      "critical": true,
+      "sporting": {
+        "en": "Before the event nobody may practise on the competition layouts, so practise on other ones ({{rule:sporting:ch15-no-practice}}).",
+        "uk": "До змагань ніхто не може тренуватися на змагальних майданчиках, тож тренуйтеся на інших ({{rule:sporting:ch15-no-practice}})."
+      },
+      "compak": {
+        "en": "Before the event you may practise on the competition trajectories, but with a different {{term:trajectory-setting-table|trajectory setting table}}: a ready-made menu that says which traps throw the targets at each station. So during {{term:practice|practice}} you see the same targets, but in other combinations than on the day ({{rule:compak:ch6-practice}}). At continental and world championships official practice opens {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}}).",
+        "uk": "Перед змаганням тренуватися на змагальних траєкторіях можна, але з іншою {{term:trajectory-setting-table|таблицею налаштування траєкторій}} — готовим меню, яке каже, з яких машинок стріляють на кожному номері. Тож на {{term:practice|тренуванні}} ви бачите ті самі мішені, але в інших поєднаннях, ніж у день змагань ({{rule:compak:ch6-practice}}). На континентальних і світових чемпіонатах офіційне тренування відкривається {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+      }
+    }
+  ],
+  "note": [
+    {
+      "k": "training-for-competition-n-coach",
+      "for": "coach",
+      "en": "Raise the pressure only as fast as the shooter's technique holds. If the mount or the tempo changes, step back to an easier task. Before the event, agree on the plan; during it you may not coach.",
+      "uk": "Підвищуйте тиск лише так швидко, як тримається техніка стрільця. Якщо змінюється вкладка чи темп, поверніться до легшого завдання. Перед змаганням домовтеся про план; під час змагань підказувати не можна."
+    },
+    {
+      "k": "training-for-competition-n-interpreter",
+      "for": "interpreter",
+      "en": "During a competition, pass on only what the referee and the officials say. Translating a coach's tips to a shooter can count as coaching.",
+      "uk": "Під час змагань перекладайте лише те, що кажуть суддя й офіційні особи. Переклад підказок тренера стрільцеві можуть вважати забороненим підказуванням (coaching)."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "training-for-competition-kp1",
+      "en": "Run some sessions as a competition: full rounds, a score and no repeated targets",
+      "uk": "Частину тренувань проводьте як змагання: повні раунди, рахунок і без повторних мішеней"
+    },
+    {
+      "k": "training-for-competition-kp2",
+      "en": "The same routine on each target, timed against the limit of your discipline",
+      "uk": "Однаковий ритуал перед кожною мішенню, що вкладається в ліміт часу вашої дисципліни"
+    },
+    {
+      "k": "training-for-competition-kp3",
+      "en": "{{tm:sporting}}: gun down, stock below the jacket line until the target appears; {{tm:compak}}: gun position free",
+      "uk": "{{tm:sporting}}: рушниця внизу, приклад нижче від лінії на жилеті, доки не з’явиться мішень; {{tm:compak}}: положення рушниці вільне"
+    },
+    {
+      "k": "training-for-competition-kp-pressure",
+      "en": "Add mild pressure step by step, once or twice a week",
+      "uk": "Додавайте легкий тиск поступово, раз-два на тиждень"
+    },
+    {
+      "k": "training-for-competition-kp5",
+      "en": "No coaching during a competition: agree on the plan before the start",
+      "uk": "Під час змагань підказки заборонені — домовтеся про план до старту",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "training-for-competition-dyk",
+    "en": "Many shooters use small local competitions as training: they practise their routine and find out which targets break down under pressure.",
+    "uk": "Багато стрільців використовують невеликі місцеві змагання як тренування: відпрацьовують ритуал і з’ясовують, які мішені «розсипаються» під тиском."
+  },
+  "quiz": [
+    {
+      "k": "training-for-competition-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, how much time do you have between singles?",
+        "uk": "Скільки часу у вас є між одиночними мішенями в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At most 15 seconds",
+          "uk": "Щонайбільше 15 секунд"
+        },
+        {
+          "k": "b",
+          "en": "At most 60 seconds",
+          "uk": "Щонайбільше 60 секунд"
+        },
+        {
+          "k": "c",
+          "en": "As long as you need",
+          "uk": "Скільки знадобиться"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Going over the limit earns a warning first, then penalties. In {{tm:compak}} you have at most 10 seconds to call.",
+        "uk": "За перевищення спершу попередження, далі покарання. У {{tm:compak}} на виклик мішені — щонайбільше 10 секунд."
+      },
+      "rule_ref": "sporting:ch7-fifteen-seconds"
+    },
+    {
+      "k": "training-for-competition-q2",
+      "disc": "both",
+      "q": {
+        "en": "In which discipline must the stock stay below the jacket line until the target appears?",
+        "uk": "У якій дисципліні приклад має бути нижче від лінії на жилеті, доки не з’явиться мішень?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In both disciplines",
+          "uk": "В обох дисциплінах"
+        },
+        {
+          "k": "b",
+          "en": "Only in {{tm:sporting}}",
+          "uk": "Лише в {{tm:sporting}}"
+        },
+        {
+          "k": "c",
+          "en": "Only in {{tm:compak}}",
+          "uk": "Лише в {{tm:compak}}"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In {{tm:compak}} the gun position at the call is free, and there is no jacket line.",
+        "uk": "У {{tm:compak}} положення рушниці під час виклику вільне, і лінії на жилеті немає."
+      },
+      "rule_ref": "sporting:ch3-ready-position"
+    },
+    {
+      "k": "training-for-competition-q-pressure",
+      "disc": "both",
+      "q": {
+        "en": "How do studies suggest adding pressure to training?",
+        "uk": "Як, за дослідженнями, варто додавати тиск у тренування?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "As much as possible from the first session",
+          "uk": "Якомога більше з першого ж тренування"
+        },
+        {
+          "k": "b",
+          "en": "Only in the week before the competition",
+          "uk": "Лише за тиждень до змагань"
+        },
+        {
+          "k": "c",
+          "en": "Mild at first, then growing step by step",
+          "uk": "Спершу легкий, а далі поступово більший"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Mild pressure that grows slowly lets technique hold while you get used to it.",
+        "uk": "Легкий тиск, що зростає поступово, дає техніці втриматися, поки ви до нього звикаєте."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "training-for-competition-q3",
+      "disc": "both",
+      "q": {
+        "en": "May a coach advise a shooter during a competition?",
+        "uk": "Чи може тренер підказувати стрільцеві під час змагань?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, but only between the stands",
+          "uk": "Так, але лише між стрілецькими місцями"
+        },
+        {
+          "k": "b",
+          "en": "Yes, but only with hand signals",
+          "uk": "Так, але лише жестами"
+        },
+        {
+          "k": "c",
+          "en": "No: the shooter can get a yellow card",
+          "uk": "Ні: стрілець може отримати жовту картку"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Coaching during a competition is not allowed in either discipline, so the plan is agreed in advance.",
+        "uk": "Підказки під час змагань заборонені в обох дисциплінах, тому план обговорюють заздалегідь."
+      },
+      "rule_ref": "sporting:ch8-coaching"
+    },
+    {
+      "k": "training-for-competition-q-compak-time",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, how long do you have to call after the previous station's target has been shot?",
+        "uk": "Скільки часу у вас є в {{tm:compak}} на виклик мішені після пострілу на попередньому номері?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "At most 10 seconds",
+          "uk": "Щонайбільше 10 секунд"
+        },
+        {
+          "k": "b",
+          "en": "At most 30 seconds",
+          "uk": "Щонайбільше 30 секунд"
+        },
+        {
+          "k": "c",
+          "en": "There is no limit",
+          "uk": "Обмеження немає"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The first time you go over the limit you get a warning, written on the score sheet; if it happens again in the same round, you are penalised.",
+        "uk": "За перше порушення — попередження із записом у протоколі; за повторне в тому самому раунді карають."
+      },
+      "rule_ref": "compak:ch21-firing-time"
+    }
+  ],
+  "evidence": [
+    {
+      "for": "training-for-competition-p1",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "training-for-competition-p2",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "training-for-competition-p3",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1080/1750984X.2021.1944271"
+      ]
+    },
+    {
+      "for": "training-for-competition-order",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1080/02640410701473962"
+      ]
+    },
+    {
+      "for": "training-for-competition-train-start",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "training-for-competition-time-it",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "training-for-competition-pressure",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1037/spy0000202",
+        "https://doi.org/10.1080/17470210802557702",
+        "https://doi.org/10.1080/1750984X.2017.1408134"
+      ]
+    },
+    {
+      "for": "training-for-competition-pressure-steps",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "training-for-competition-fit-in",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "training-for-competition-no-new-kit",
+      "level": "coaches",
+      "sources": []
+    }
+  ],
+  "h_uk": {
+    "title": "15f6d0f5",
+    "summary": "2e1e817a",
+    "training-for-competition-p1": "2be3e003",
+    "training-for-competition-p2": "818a1fa4",
+    "training-for-competition-round": "2f2cdb37",
+    "training-for-competition-p3": "6fa2036e",
+    "training-for-competition-order": "4b2487e6",
+    "training-for-competition-p4": "2b629bad",
+    "training-for-competition-train-start": "b60eb1b8",
+    "training-for-competition-p5": "489f87b0",
+    "training-for-competition-time-it": "dcfb6fea",
+    "training-for-competition-pressure": "9a1d343a",
+    "training-for-competition-pressure-steps": "0cc980b4",
+    "training-for-competition-fit-in": "d20c63c1",
+    "training-for-competition-no-new-kit": "796fdd5a",
+    "training-for-competition-p6": "44c51a6a",
+    "training-for-competition-practice": "cf9329ef",
+    "training-for-competition-n-coach": "8ee43684",
+    "training-for-competition-n-interpreter": "592f0e7b",
+    "training-for-competition-kp1": "c3cded19",
+    "training-for-competition-kp2": "5a904122",
+    "training-for-competition-kp3": "b70b637e",
+    "training-for-competition-kp-pressure": "87e0f74f",
+    "training-for-competition-kp5": "72fb9966",
+    "training-for-competition-dyk": "27a4b5f2",
+    "training-for-competition-q1": "a832b9bb",
+    "training-for-competition-q2": "5eb21bb6",
+    "training-for-competition-q-pressure": "e3dc29d0",
+    "training-for-competition-q3": "2586076a",
+    "training-for-competition-q-compak-time": "2e75b105",
+    "training-for-competition-p2-why": "b885b16c",
+    "training-for-competition-shoot-off": "bf65f20f"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Referee reviewer: training-for-competition-p4 now uses the shared fact rules.sporting-jacket-line (“25 cm below the shoulder axis”) and the same gloss as rules-gun-position and interpreter-numbers-and-units: “an imaginary horizontal line through both shoulders” (the old gloss “the line across the top of your shoulder” is gone). Confirm it together with the open referee item of rules-gun-position."
+    ]
+  }
+}

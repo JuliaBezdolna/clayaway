@@ -1,0 +1,356 @@
+{
+  "id": "lead-swing-through",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": null,
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "lead-swing-through"
+    ]
+  },
+  "terms": [
+    "swing-through",
+    "gun-speed",
+    "perceived-lead",
+    "driven-target",
+    "overhead",
+    "follow-through"
+  ],
+  "rule_refs": [],
+  "facts": [],
+  "sources": [],
+  "title": {
+    "en": "Swing-through: from behind, through the bird",
+    "uk": "Протяжка: з-позаду, крізь мішень"
+  },
+  "summary": {
+    "en": "How swing-through works step by step, why you see little or no gap, and which targets it often suits.",
+    "uk": "Як працює протяжка (swing-through) крок за кроком, чому проміжку майже не видно і яким мішеням вона часто пасує."
+  },
+  "body": [
+    {
+      "k": "lead-swing-through-p1",
+      "t": "p",
+      "core": true,
+      "en": "In {{term:swing-through|swing-through}} the muzzles start behind the target and overtake it. Coaches sum it up as “butt, belly, beak, bang”: tail, body, front, fire. Step by step, it looks like this:",
+      "uk": "У протяжці ({{term:swing-through|swing-through}}) стволи стартують позаду мішені й обганяють її. Тренери підсумовують це підказкою «butt, belly, beak, bang»: хвіст, тулуб, дзьоб — постріл. Крок за кроком це виглядає так:"
+    },
+    {
+      "k": "lead-swing-through-p2",
+      "t": "steps",
+      "core": true,
+      "en": [
+        "Start: the muzzles join the target’s line behind it, on its tail.",
+        "Overtaking: the gun moves faster than the target, along its line, through its body.",
+        "Shot: the trigger is pulled as the muzzles pass the front of the target, just ahead of it.",
+        "The swing continues after the shot."
+      ],
+      "uk": [
+        "Старт: стволи виходять на лінію мішені позаду неї, на її «хвіст».",
+        "Обгін: рушниця рухається швидше за мішень, уздовж її лінії, крізь її «тіло».",
+        "Постріл: спуск натискають, коли стволи проходять передній край мішені, трохи попереду неї.",
+        "Проводка триває й після пострілу."
+      ]
+    },
+    {
+      "k": "lead-swing-through-delay",
+      "t": "p",
+      "en": "There is a short delay between deciding to fire and the shot leaving the barrels. Because the gun is moving faster than the target, in that moment the barrels travel further ahead on their own. So you pull the trigger when you see little or no gap, and the gun’s speed adds the rest. The real lead at the shot is bigger than what you saw.",
+      "uk": "Між рішенням і пострілом є коротка затримка. Рушниця рухається швидше за мішень, тож за цю мить стволи самі йдуть далі вперед. Тому ви тиснете на спуск, коли бачите малий проміжок або жодного, а решту додає швидкість рушниці. Справжній винос у момент пострілу більший за той, що ви бачили."
+    },
+    {
+      "k": "lead-swing-through-p3",
+      "t": "p",
+      "core": true,
+      "en": "Strengths: it is natural and fast, and good for beginners. It suits close fast targets, {{term:driven-target|driven targets}} (coming towards you and passing over your head), {{term:overhead|overheads}} from behind, and erratic or surprise targets.",
+      "uk": "Переваги: природно і швидко, добре для новачків. Протяжка пасує близьким швидким мішеням, {{term:driven-target|зустрічним мішеням над головою}} (driven), {{term:overhead|мішеням над головою}} ззаду, а також непередбачуваним і несподіваним мішеням."
+    },
+    {
+      "k": "lead-swing-through-p4",
+      "t": "p",
+      "core": true,
+      "en": "Weaknesses: the window for the trigger is very short. On long crossers the shooter can run out of time, lose the line or overshoot. Slowing down as the muzzles reach the target gives a miss behind.",
+      "uk": "Слабкі місця: «вікно» для спуску дуже коротке. На далеких поперечних мішенях стрільцеві може забракнути часу, він губить лінію або проскакує. Сповільнення, коли стволи доходять до мішені, дає промах позаду."
+    },
+    {
+      "k": "lead-swing-through-p5",
+      "t": "p",
+      "core": true,
+      "en": "Sources disagree on the name “CPSA method” (CPSA, the Clay Pigeon Shooting Association, is the clay shooting body of England). Some use it for swing-through, while CPSA coaching today is described as teaching pull-away. If a coach says “CPSA method”, ask which one they mean.",
+      "uk": "Джерела розходяться щодо назви «CPSA method» (CPSA, Clay Pigeon Shooting Association, — асоціація стендової стрільби Англії). Одні так називають swing-through, а сучасне навчання CPSA описують як pull-away. Якщо тренер каже «CPSA method», уточніть, який саме метод мають на увазі."
+    },
+    {
+      "k": "lead-swing-through-sim",
+      "t": "sim",
+      "sim": {
+        "type": "lead",
+        "method": "swing-through",
+        "preset": "crosser-lr",
+        "muzzle_start": "behind",
+        "gun_speed": "faster",
+        "trigger": "passing-front",
+        "follow_through": true
+      },
+      "ready": true,
+      "en": "Animation: the muzzles start behind, overtake the target and fire as they pass its front. The freeze-frame shows that the actual lead is bigger than the gap you saw.",
+      "uk": "Анімація: стволи стартують позаду, обганяють мішень і стріляють, проходячи її передній край. Стоп-кадр показує, що справжній винос більший за проміжок, який ви бачили."
+    }
+  ],
+  "note": [
+    {
+      "k": "lead-swing-through-n1",
+      "for": "interpreter",
+      "en": "In British English you may hear “bum” instead of “butt”. It means the tail of the target, so translate it with a neutral word.",
+      "uk": "У британській англійській можна почути «bum» замість «butt». Ідеться про хвіст мішені, тож перекладайте нейтрально — «хвіст»."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "lead-swing-through-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Come from behind, through the bird, and shoot as you see daylight.",
+      "meaning": {
+        "en": "Start behind the target, swing through it and fire as a gap appears in front.",
+        "uk": "Почніть позаду мішені, проведіть крізь неї і стріляйте, щойно попереду з’явиться просвіт."
+      },
+      "say": {
+        "uk": "З-позаду, крізь мішень — і постріл, щойно побачите просвіт."
+      }
+    },
+    {
+      "k": "lead-swing-through-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Butt, belly, beak, bang.",
+      "meaning": {
+        "en": "Memory aid: tail, body, front of the target, then fire.",
+        "uk": "Підказка: хвіст, тулуб, передній край мішені — і постріл."
+      },
+      "say": {
+        "uk": "Хвіст, тулуб, дзьоб — постріл."
+      }
+    },
+    {
+      "k": "lead-swing-through-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "You slowed down as you got to it.",
+      "meaning": {
+        "en": "The gun lost speed when it reached the target, so the shot went behind.",
+        "uk": "Рушниця втратила швидкість, коли дійшла до мішені, тож дріб пішов позаду."
+      },
+      "say": {
+        "uk": "Ви пригальмували, коли дійшли до мішені."
+      }
+    },
+    {
+      "k": "lead-swing-through-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Brush it out and keep going.",
+      "meaning": {
+        "en": "Swing through the target as if wiping it out of the sky, without stopping.",
+        "uk": "Проведіть крізь мішень, ніби стираєте її з неба, не зупиняючись."
+      },
+      "say": {
+        "uk": "Проведіть крізь неї і не зупиняйтеся."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "lead-swing-through-kp1",
+      "core": true,
+      "en": "Muzzles start behind, on the target's line.",
+      "uk": "Стволи стартують позаду, на лінії мішені."
+    },
+    {
+      "k": "lead-swing-through-kp2",
+      "core": true,
+      "en": "Gun faster than the target: tail, body, front, bang.",
+      "uk": "Рушниця швидша за мішень: хвіст, тулуб, дзьоб — постріл."
+    },
+    {
+      "k": "lead-swing-through-kp3",
+      "core": true,
+      "en": "Trigger as the muzzles pass the front; the actual lead is bigger than the lead seen.",
+      "uk": "Спуск, коли стволи проходять передній край; справжній винос більший за видимий."
+    },
+    {
+      "k": "lead-swing-through-kp4",
+      "core": true,
+      "en": "Good for close, fast, driven and surprise targets; harder on long crossers.",
+      "uk": "Добре для близьких, швидких, «над головою» і несподіваних мішеней; важче на далеких поперечних мішенях."
+    },
+    {
+      "k": "lead-swing-through-kp5",
+      "core": true,
+      "en": "“CPSA method” can mean two different methods: ask which one is meant.",
+      "uk": "«CPSA method» може означати два різні методи: уточнюйте, який саме."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "lead-swing-through-q1",
+      "q": {
+        "en": "Where do the muzzles start in swing-through?",
+        "uk": "Де стартують стволи у swing-through?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In front of the target",
+          "uk": "Попереду мішені"
+        },
+        {
+          "k": "b",
+          "en": "On the target's front edge",
+          "uk": "На передньому краї мішені"
+        },
+        {
+          "k": "c",
+          "en": "At a fixed point at the break point",
+          "uk": "У нерухомій точці на місці пострілу"
+        },
+        {
+          "k": "d",
+          "en": "Behind the target, on its line",
+          "uk": "Позаду мішені, на її лінії"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Swing-through starts behind and overtakes the target; starting in front is maintained lead, a fixed point is ambush.",
+        "uk": "Swing-through стартує позаду й обганяє мішень; старт попереду — maintained lead, нерухома точка — ambush."
+      }
+    },
+    {
+      "k": "lead-swing-through-q2",
+      "q": {
+        "en": "Why does a swing-through shooter see little or no lead?",
+        "uk": "Чому стрілець зі swing-through бачить малий винос або жодного?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The targets are slower",
+          "uk": "Мішені повільніші"
+        },
+        {
+          "k": "b",
+          "en": "The gun's speed creates the lead",
+          "uk": "Винос створює швидкість стволів"
+        },
+        {
+          "k": "c",
+          "en": "The rules forbid a visible gap",
+          "uk": "Правила забороняють видимий проміжок"
+        },
+        {
+          "k": "d",
+          "en": "The shooter closes both eyes",
+          "uk": "Стрілець заплющує обидва ока"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The gun moves faster than the target, so between deciding and firing it travels ahead by itself.",
+        "uk": "Рушниця рухається швидше за мішень, тож між рішенням і пострілом сама виходить уперед."
+      }
+    },
+    {
+      "k": "lead-swing-through-q3",
+      "q": {
+        "en": "A coach says “bum, belly, beak, bang”. What does “bum” mean here?",
+        "uk": "Тренер каже «bum, belly, beak, bang». Що тут означає «bum»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The tail of the target",
+          "uk": "Хвіст мішені"
+        },
+        {
+          "k": "b",
+          "en": "A rude remark about you",
+          "uk": "Груба репліка на вашу адресу"
+        },
+        {
+          "k": "c",
+          "en": "The sound of the shot",
+          "uk": "Звук пострілу"
+        },
+        {
+          "k": "d",
+          "en": "A word to leave out",
+          "uk": "Слово, яке можна пропустити"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "It means the tail of the target. A neutral word for “tail” keeps both the meaning and the rhythm of the memory aid.",
+        "uk": "Ідеться про хвіст мішені. Нейтральне «хвіст» зберігає і зміст, і ритм підказки."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "6da1ccb6",
+    "summary": "a7be86d1",
+    "lead-swing-through-p1": "c6e995f6",
+    "lead-swing-through-p2": "460ccdc7",
+    "lead-swing-through-delay": "646e110b",
+    "lead-swing-through-p3": "5591e8be",
+    "lead-swing-through-p4": "56ddd9af",
+    "lead-swing-through-p5": "7af5a14c",
+    "lead-swing-through-sim": "d91e6e21",
+    "lead-swing-through-n1": "5b292c5e",
+    "lead-swing-through-kp1": "dd1d9624",
+    "lead-swing-through-kp2": "c9f0e48f",
+    "lead-swing-through-kp3": "21f6b8c9",
+    "lead-swing-through-kp4": "0c9a1c39",
+    "lead-swing-through-kp5": "17c6a436",
+    "lead-swing-through-ph1": "bafebb3a",
+    "lead-swing-through-ph2": "2d3aa2ff",
+    "lead-swing-through-ph3": "da25ee4d",
+    "lead-swing-through-ph4": "892d2466",
+    "lead-swing-through-q1": "1b70a4e7",
+    "lead-swing-through-q2": "229c9781",
+    "lead-swing-through-q3": "e7ce5191"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/lead-swing-through.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): lead-swing-through-p1, lead-swing-through-p4, lead-swing-through-p5, lead-swing-through-q2; translate again (meaning or audit fix changed): lead-swing-through-p2, lead-swing-through-q3.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/lead-swing-through.json (9 languages): translate again (meaning or wording changed for readers): lead-swing-through-p1, lead-swing-through-p2, lead-swing-through-delay, lead-swing-through-p3, lead-swing-through-p5, lead-swing-through-kp5; lead-swing-through-p2 is now t:\"steps\" (4 steps; the memory aid moved to the end of lead-swing-through-p1): split the overlay value into a list and translate the new sentences of p1; lead-swing-through-p1 (uk): the extra sentence about the name was removed."
+    ]
+  }
+}

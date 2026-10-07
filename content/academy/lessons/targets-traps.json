@@ -1,0 +1,383 @@
+{
+  "id": "targets-traps",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "targets-traps"
+    ]
+  },
+  "terms": [
+    "trap",
+    "trapper",
+    "call",
+    "sonopull",
+    "manual-release",
+    "semi-automatic",
+    "compak-in-line",
+    "electronic-refereeing",
+    "no-bird"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-trap-letters"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-traps"
+    },
+    {
+      "book": "sporting",
+      "id": "ch5-call-and-release"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trigger-manual"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trigger-inline"
+    },
+    {
+      "book": "compak",
+      "id": "ch16-terms"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-target-no-bird-cases"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "The Country Girls UK — Clay shooting terminology"
+      },
+      "url": "https://thecountrygirlsuk.com/coachs-corner/clay-shooting-terminology/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Traps, release and the trapper",
+    "uk": "Машинки, запуск мішені й оператор"
+  },
+  "summary": {
+    "en": "What a trap is, how traps are lettered, how a call releases the target in {{tm:sporting}} and {{tm:compak}}, and which trap mistakes are a No Bird.",
+    "uk": "Що таке машинка, як позначають машинки, як команда запускає мішень у {{tm:sporting}} і {{tm:compak}} і які помилки машинки дають No Bird."
+  },
+  "body": [
+    {
+      "k": "targets-traps-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:trap|trap}} is the machine that throws targets. Traps can be manual or automatic (the {{tm:compak}} rules also name semi-automatic ones). In {{tm:sporting}} the traps of a stand are lettered from left to right, as seen from the stand: A, B, C and so on (the rulebook names A to D). In {{tm:compak}} the six traps are A to F, each with a letter panel.",
+      "uk": "{{term:trap|Машинка}} (trap) — механізм, що кидає мішені. Машинки бувають ручні й автоматичні (правила {{tm:compak}} називають ще й напівавтоматичні). У {{tm:sporting}} машинки стрілецького місця позначають літерами зліва направо, якщо дивитися з місця: A, B, C і далі (правила називають A–D). У {{tm:compak}} шість машинок — від A до F, біля кожної табличка з літерою."
+    },
+    {
+      "k": "targets-traps-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch5-call-and-release",
+      "en": "The shooter asks for the target with a {{term:call|call}}: the rules name “pull” or “ready”, though in practice the words vary. In {{tm:sporting}} the referee then gives a sound signal to the {{term:trapper|trapper}}, the person who releases the targets. The target must leave within three seconds of that signal.",
+      "uk": "Стрілець просить мішень командою — {{term:call|викликом мішені}} (call): у правилах це «pull» або «ready», хоча на практиці слова бувають різні. У {{tm:sporting}} суддя після команди дає звуковий сигнал {{term:trapper|операторові}} (trapper) — людині, яка запускає мішені. Мішень має вилетіти протягом трьох секунд після цього сигналу."
+    },
+    {
+      "k": "targets-traps-p3",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch2-trigger-manual",
+      "en": "In {{tm:compak}} the target can be released in three ways: by hand, by remote control or by a {{term:sonopull|sonopull}}. A sonopull is a microphone that hears the shooter's call and releases the target by itself. With release by hand the target leaves 0 to 3 seconds after the call; a sonopull waits a fixed 0.5 seconds. At international {{term:compak-in-line|“in line”}} events, where each shooter goes through stations 1 to 5 in turn, only the sonopull is used, with FITASC-approved {{term:electronic-refereeing|electronic refereeing}} and scoring.",
+      "uk": "У {{tm:compak}} мішень запускають трьома способами: вручну, з пульта або через {{term:sonopull|sonopull}} (сонопул). Sonopull — це мікрофон, який чує команду стрільця і сам запускає мішень. За ручного запуску мішень вилітає через 0–3 секунди після команди; sonopull чекає рівно 0,5 секунди. На міжнародних змаганнях {{term:compak-in-line|«у лінію»}}, де кожен стрілець по черзі проходить номери з 1-го по 5-й, використовують лише sonopull разом зі схваленими FITASC системами {{term:electronic-refereeing|електронного суддівства}} й підрахунку результатів."
+    },
+    {
+      "k": "targets-traps-p4",
+      "t": "tip",
+      "core": true,
+      "disc": "both",
+      "en": "A voice release has a microphone at the station. Your own voice can trigger it. On such a stand, stay silent while the shooter is ready: whisper between targets or step back.",
+      "uk": "Голосовий запуск має мікрофон на номері. Ваш власний голос теж може запустити мішень. На такому місці мовчіть, коли стрілець готовий: шепочіть між мішенями або відійдіть."
+    },
+    {
+      "k": "targets-traps-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Trap mistakes are a {{term:no-bird|No Bird}} in both disciplines. Examples: a target broken as it is thrown, one from the wrong trap, one thrown without a call, or one released more than three seconds late. In {{tm:sporting}} it is also a No Bird if two targets come out from the traps of the same stand when one was expected. In {{tm:compak}} it is a No Bird if another machine of the same field throws a target by mistake.",
+      "uk": "Помилки машинки — це {{term:no-bird|No Bird}} (мішень повторюють) в обох дисциплінах. Наприклад: мішень розбилася під час вильоту, вилетіла з іншої машинки, вилетіла без команди або пізніше ніж через три секунди. У {{tm:sporting}} No Bird буде й тоді, коли з машинок одного стрілецького місця вилетіли дві мішені замість однієї. У {{tm:compak}} — коли інша машинка того самого поля помилково викинула мішень."
+    },
+    {
+      "k": "targets-traps-sim",
+      "t": "sim",
+      "sim": {
+        "type": "call"
+      },
+      "ready": false
+    }
+  ],
+  "note": [
+    {
+      "k": "targets-traps-n1",
+      "for": "interpreter",
+      "en": "Keep the Latin letters of the traps when you translate: the menu and the score sheet use them.",
+      "uk": "Перекладаючи, лишайте латинські літери машинок: їх використовують меню і протокол."
+    },
+    {
+      "k": "targets-traps-n2",
+      "for": "interpreter",
+      "en": "Do not translate the call itself: it is a signal for the machine, not a sentence.",
+      "uk": "Саму команду не перекладайте: це сигнал для машинки, а не речення."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "targets-traps-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Trap B is throwing lower than in the showing — tell the referee.",
+      "meaning": {
+        "en": "The machine's trajectory has changed; the shooter should report it before shooting.",
+        "uk": "Траєкторія машинки змінилася; стрілець має сказати про це судді до пострілу."
+      },
+      "say": {
+        "uk": "Машинка B кидає нижче, ніж на показі, — скажіть судді."
+      }
+    },
+    {
+      "k": "targets-traps-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "It's voice release here — don't chat on the stand.",
+      "meaning": {
+        "en": "A microphone releases targets; talking can launch one.",
+        "uk": "Мікрофон запускає мішені; розмова може випустити мішень."
+      },
+      "say": {
+        "uk": "Тут голосовий запуск — не розмовляйте на номері."
+      }
+    },
+    {
+      "k": "targets-traps-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "The trapper was late on that one — that's a no bird.",
+      "meaning": {
+        "en": "The target left more than three seconds after the call.",
+        "uk": "Мішень вилетіла пізніше ніж через три секунди після команди."
+      },
+      "say": {
+        "uk": "Оператор запізнився — це No Bird."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "targets-traps-kp1",
+      "core": true,
+      "en": "Traps: A, B, C… on a {{tm:sporting}} stand (the rulebook names A–D), A–F on a Compak field; keep Latin letters.",
+      "uk": "Машинки: A, B, C… на стрілецькому місці {{tm:sporting}} (правила називають A–D), A–F на полі Compak; літери латинські."
+    },
+    {
+      "k": "targets-traps-kp2",
+      "core": true,
+      "en": "The call (“pull”, “ready”) releases the target.",
+      "uk": "Команда («pull», «ready») запускає мішень."
+    },
+    {
+      "k": "targets-traps-kp3",
+      "core": true,
+      "en": "{{tm:sporting}}: referee signals the trapper; target within 3 seconds.",
+      "uk": "{{tm:sporting}}: суддя дає сигнал операторові; мішень — протягом 3 секунд."
+    },
+    {
+      "k": "targets-traps-kp4",
+      "core": true,
+      "en": "{{tm:compak}}: manual 0–3 s, remote, or sonopull with a fixed 0.5 s delay.",
+      "uk": "{{tm:compak}}: вручну 0–3 с, пульт або sonopull із фіксованою затримкою 0,5 с."
+    },
+    {
+      "k": "targets-traps-kp5",
+      "core": true,
+      "en": "Late, wrong-trap or uncalled targets are No Birds; a microphone can hear you.",
+      "uk": "Запізніла мішень, мішень з іншої машинки чи без команди — No Bird; мікрофон чує й вас."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "targets-traps-q1",
+      "q": {
+        "en": "In {{tm:sporting}}, how long may it take for the target to leave after the referee's signal?",
+        "uk": "Скільки часу в {{tm:sporting}} може минути від сигналу судді до вильоту мішені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Up to 1 second",
+          "uk": "До 1 секунди"
+        },
+        {
+          "k": "b",
+          "en": "Up to 3 seconds",
+          "uk": "До 3 секунд"
+        },
+        {
+          "k": "c",
+          "en": "Up to 10 seconds",
+          "uk": "До 10 секунд"
+        },
+        {
+          "k": "d",
+          "en": "Any time",
+          "uk": "Скільки завгодно"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "A target released later than three seconds is a No Bird.",
+        "uk": "Мішень, що вилетіла пізніше ніж через три секунди, — No Bird."
+      }
+    },
+    {
+      "k": "targets-traps-q2",
+      "q": {
+        "en": "What is the fixed delay of a sonopull in {{tm:compak}}?",
+        "uk": "Яка фіксована затримка sonopull у {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "0 seconds",
+          "uk": "0 секунд"
+        },
+        {
+          "k": "b",
+          "en": "3 seconds",
+          "uk": "3 секунди"
+        },
+        {
+          "k": "c",
+          "en": "0.5 seconds",
+          "uk": "0,5 секунди"
+        },
+        {
+          "k": "d",
+          "en": "It is set by each shooter",
+          "uk": "Її обирає кожен стрілець"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The sonopull must apply a fixed, unchangeable delay of 0.5 seconds.",
+        "uk": "Sonopull має фіксовану незмінну затримку 0,5 секунди."
+      }
+    },
+    {
+      "k": "targets-traps-q3",
+      "q": {
+        "en": "You are on a stand with voice release and the shooter is ready. What do you do?",
+        "uk": "Ви на стрілецькому місці з голосовим запуском, і стрілець готовий. Що робите?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Give the shooter a last tip aloud",
+          "uk": "Даєте стрільцеві останню пораду вголос"
+        },
+        {
+          "k": "b",
+          "en": "Ask the trapper to wait a moment",
+          "uk": "Просите оператора зачекати"
+        },
+        {
+          "k": "c",
+          "en": "Repeat the call word for him",
+          "uk": "Повторюєте за нього команду"
+        },
+        {
+          "k": "d",
+          "en": "Stay silent; whisper only between targets",
+          "uk": "Мовчите; шепочете лише між мішенями"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Your voice can trigger the microphone and release a target nobody called.",
+        "uk": "Ваш голос може спрацювати на мікрофон і запустити мішень, якої ніхто не викликав."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "ef239114",
+    "summary": "2ab98c5a",
+    "targets-traps-p1": "e299fc57",
+    "targets-traps-p2": "230871a5",
+    "targets-traps-p3": "0f4722a7",
+    "targets-traps-p4": "5f6e72fc",
+    "targets-traps-p5": "a5d1400f",
+    "targets-traps-n1": "0941d9af",
+    "targets-traps-n2": "dfb58822",
+    "targets-traps-ph1": "5b0d7a5c",
+    "targets-traps-ph2": "4e6e8b21",
+    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-kp1": "5d8f8aa8",
+    "targets-traps-kp2": "9837dbae",
+    "targets-traps-kp3": "2aaf4d92",
+    "targets-traps-kp4": "13f08f48",
+    "targets-traps-kp5": "d64923f1",
+    "targets-traps-q1": "20533e21",
+    "targets-traps-q2": "9529d885",
+    "targets-traps-q3": "ad85f910"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: targets-traps-p1, targets-traps-p2, targets-traps-p4, targets-traps-p5, targets-traps-kp2, targets-traps-q3.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-traps-p1, targets-traps-p2, targets-traps-p3, targets-traps-p5, targets-traps-kp1.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in targets-traps-p3, targets-traps-kp1, targets-traps-kp3, targets-traps-kp4, targets-traps-q1, targets-traps-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

@@ -1,0 +1,931 @@
+{
+  "_note": "Archive, not read by the build: titles and intros of the old Academy modules and Interpreter Academy missions, copied byte for byte from docs/learn/data/*.js and docs/interpreter/src/{missions,i18n}. 'now' = where the old hash link goes (id-map.json).",
+  "learn_modules": [
+    {
+      "id": "budget",
+      "order": 19,
+      "now": "topics/basics",
+      "title": {
+        "en": "What it costs to start",
+        "uk": "Скільки коштує почати"
+      },
+      "intro": {
+        "en": "After this module you will know what the costs of clay shooting are made of, when to rent a gun and when to buy, how to save without compromising safety and how to plan your first year.",
+        "uk": "Після цього модуля ви знатимете, з чого складаються витрати на стендову стрільбу, коли краще орендувати рушницю, а коли купувати, як заощадити без шкоди для безпеки і як спланувати перший рік."
+      },
+      "lessons": [
+        "budget-what-it-costs",
+        "budget-rent-or-buy",
+        "budget-how-to-save",
+        "budget-first-year-plan"
+      ]
+    },
+    {
+      "id": "cartridges",
+      "order": 5,
+      "now": "topics/gear#cartridges",
+      "title": {
+        "en": "Cartridges and shot",
+        "uk": "Патрони і дріб"
+      },
+      "intro": {
+        "en": "What a cartridge is made of, what load weight, shot size and velocity mean, how lead and steel shot differ, which cartridges to choose for Sporting™, Compak® Sporting and practice, and how to store and transport them.",
+        "uk": "З чого складається патрон, що означають навіска, номер дробу й швидкість, чим відрізняються свинцевий і сталевий дріб, які патрони обрати для Sporting™, Compak® Sporting і тренувань та як їх зберігати й перевозити."
+      },
+      "lessons": [
+        "cartridges-anatomy",
+        "cartridges-load-weight",
+        "cartridges-shot-size",
+        "cartridges-velocity-recoil",
+        "cartridges-lead-and-steel",
+        "cartridges-choosing-and-storage"
+      ]
+    },
+    {
+      "id": "chokes",
+      "order": 4,
+      "now": "topics/gear#chokes",
+      "title": {
+        "en": "Chokes",
+        "uk": "Чоки"
+      },
+      "intro": {
+        "en": "What a choke is, how it shapes the shot pattern, how to read the markings, which choke to use for close and far targets, what steel shot changes, and how to look after chokes.",
+        "uk": "Що таке чок, як він формує осип дробу, як читати маркування, який чок обрати для близьких і далеких мішеней, що змінює сталевий дріб і як доглядати за чоками."
+      },
+      "lessons": [
+        "chokes-what-is-a-choke",
+        "chokes-fixed-and-multichoke",
+        "chokes-names-and-marks",
+        "chokes-choosing-for-distance",
+        "chokes-steel-shot",
+        "chokes-pattern-testing-and-care"
+      ]
+    },
+    {
+      "id": "clayarena",
+      "order": 11,
+      "now": "topics/watch#clayarena",
+      "title": {
+        "en": "ClayArena for shooters",
+        "uk": "ClayArena для стрільця"
+      },
+      "intro": {
+        "en": "How to use ClayArena: find your results and profile, understand the numbers in it, watch videos and season recaps, and look for competitions, coaches, shooting grounds and ClayAway tours.",
+        "uk": "Як користуватися ClayArena: знайти свої результати й профіль, зрозуміти цифри в профілі, дивитися відео й підсумки сезону, шукати змагання, тренерів, стенди і тури ClayAway."
+      },
+      "lessons": [
+        "clayarena-what-is-clayarena",
+        "clayarena-find-your-results",
+        "clayarena-profile-numbers",
+        "clayarena-videos-recaps-calendar",
+        "clayarena-coaches-grounds-tours"
+      ]
+    },
+    {
+      "id": "competitions",
+      "order": 8,
+      "now": "topics/competitions",
+      "title": {
+        "en": "Competitions",
+        "uk": "Змагання"
+      },
+      "intro": {
+        "en": "You will learn which competitions exist, how to enter, what happens on the day, how targets are scored, what categories and classes are, how shoot-offs work and what to do if you disagree with the referee.",
+        "uk": "Ви дізнаєтеся, які бувають змагання, як на них записатися, що відбувається в день стрільби, як рахують мішені, хто такі категорії й класи, як проходять перестрілки і що робити, якщо ви не згодні з суддею."
+      },
+      "lessons": [
+        "competitions-types-of-events",
+        "competitions-how-to-enter",
+        "competitions-competition-day",
+        "competitions-scoring-basics",
+        "competitions-categories-and-shoot-offs",
+        "competitions-results-and-protests"
+      ]
+    },
+    {
+      "id": "culture",
+      "order": 10,
+      "now": "topics/community#culture",
+      "title": {
+        "en": "The culture of the sport",
+        "uk": "Культура спорту"
+      },
+      "intro": {
+        "en": "After this module you will understand the written and unwritten traditions of clay shooting: respect for the referee, dress code, shoot-offs and prize giving, care for the environment, club life and spectator etiquette.",
+        "uk": "Після цього модуля ви зрозумієте неписані й писані традиції стендової стрільби: повагу до судді, дрес-код, перестрілки й нагородження, турботу про довкілля, клубне життя та етикет глядача."
+      },
+      "lessons": [
+        "culture-sportsmanship-referee",
+        "culture-dress-code",
+        "culture-traditions",
+        "culture-environment",
+        "culture-club-life",
+        "culture-spectator-photo"
+      ]
+    },
+    {
+      "id": "gear",
+      "order": 12,
+      "now": "topics/gear#kit",
+      "title": {
+        "en": "Shooter's gear",
+        "uk": "Спорядження стрільця"
+      },
+      "intro": {
+        "en": "After this module you will know what a shooter's gear includes: vest, glasses, hearing protection, clothing, bags and cases, and what to buy first and what can wait.",
+        "uk": "Після цього модуля ви знатимете, що входить до спорядження стрільця: жилет, окуляри, захист слуху, одяг, сумки й чохли, а також що варто купити першим, а що може зачекати."
+      },
+      "lessons": [
+        "gear-shooting-vest",
+        "gear-shooting-glasses",
+        "gear-ear-protection",
+        "gear-clothing-and-shoes",
+        "gear-bags-cases-accessories",
+        "gear-what-to-buy-first"
+      ]
+    },
+    {
+      "id": "gun",
+      "order": 3,
+      "now": "topics/gear#gun",
+      "title": {
+        "en": "The gun",
+        "uk": "Рушниця"
+      },
+      "intro": {
+        "en": "What kinds of shotgun are used for clay shooting, what they are made of, what the FITASC rules allow, and how to choose, fit, look after and transport your first gun.",
+        "uk": "Які бувають рушниці для стендової стрільби, з чого вони складаються, що дозволяють правила FITASC і як обрати, підігнати, доглядати та перевозити свою першу рушницю."
+      },
+      "lessons": [
+        "gun-types",
+        "gun-parts",
+        "gun-gauge-and-barrels",
+        "gun-first-gun",
+        "gun-fit",
+        "gun-care",
+        "gun-transport-documents"
+      ]
+    },
+    {
+      "id": "health",
+      "order": 17,
+      "now": "topics/safety",
+      "title": {
+        "en": "Shooter's health",
+        "uk": "Здоров’я стрільця"
+      },
+      "intro": {
+        "en": "After this module you will know how to protect your hearing and eyes, how to avoid lead exposure, how to prevent shoulder and neck pain from recoil, why alcohol and some medicines do not mix with shooting, and how to protect yourself from sun and weather.",
+        "uk": "Після цього модуля ви знатимете, як берегти слух і зір, як не наражатися на свинець, як уникнути болю в плечі й шиї від віддачі, чому алкоголь і деякі ліки несумісні зі стрільбою і як захиститися від сонця й негоди."
+      },
+      "lessons": [
+        "health-hearing",
+        "health-eyes-vision",
+        "health-lead-hygiene",
+        "health-recoil-shoulder-neck",
+        "health-alcohol-medication-weather"
+      ]
+    },
+    {
+      "id": "history",
+      "order": 20,
+      "now": "topics/community#history",
+      "title": {
+        "en": "History of the sport",
+        "uk": "Історія спорту"
+      },
+      "intro": {
+        "en": "After this module you will know how clay shooting went from live-bird shooting to clay targets, when FITASC, Sporting™ and Compak® Sporting appeared, and how the sport became international.",
+        "uk": "Після цього модуля ви знатимете, як стендова стрільба пройшла шлях від стрільби по живих птахах до глиняних мішеней, коли з’явилися FITASC, Sporting™ і Compak® Sporting і як цей спорт став міжнародним."
+      },
+      "lessons": [
+        "history-live-birds-to-clays",
+        "history-fitasc-founding",
+        "history-birth-of-sporting",
+        "history-compak-sporting",
+        "history-olympics-and-world"
+      ]
+    },
+    {
+      "id": "intro",
+      "order": 1,
+      "now": "topics/basics",
+      "title": {
+        "en": "Getting to know the sport",
+        "uk": "Знайомство зі спортом"
+      },
+      "intro": {
+        "en": "After this module you will know what clay shooting is, how the main disciplines differ, what a shooting ground looks like and how to take your first steps in the sport.",
+        "uk": "Після цього модуля ви знатимете, що таке стендова стрільба, чим відрізняються основні дисципліни, як влаштований стенд і з чого почати власний шлях у спорті."
+      },
+      "lessons": [
+        "intro-what-is-clay-shooting",
+        "intro-disciplines",
+        "intro-fitasc-and-organisation",
+        "intro-shooting-ground",
+        "intro-who-shoots",
+        "intro-how-to-start"
+      ]
+    },
+    {
+      "id": "juniors",
+      "order": 14,
+      "now": "routes/junior-parent",
+      "title": {
+        "en": "Juniors and parents",
+        "uk": "Юніори і батьки"
+      },
+      "intro": {
+        "en": "A module for parents and young shooters: when and how a child can start, how to look after safety, documents and properly sized equipment, how to support without pressure and what juniors can expect at competitions.",
+        "uk": "Модуль для батьків і юних стрільців: коли і як дитині починати, як подбати про безпеку, документи й спорядження за розміром, як підтримувати без тиску і що чекає на юніорів на змаганнях."
+      },
+      "lessons": [
+        "juniors-starting-age",
+        "juniors-safety-supervision",
+        "juniors-documents-licences",
+        "juniors-equipment-fit",
+        "juniors-support-without-pressure",
+        "juniors-competitions-and-costs"
+      ]
+    },
+    {
+      "id": "mind",
+      "order": 16,
+      "now": "topics/mind",
+      "title": {
+        "en": "Mind and body",
+        "uk": "Голова і тіло"
+      },
+      "intro": {
+        "en": "After this module you will know how to warm up before shooting, how to keep your focus, what to do with nerves in competition, how to keep your routine under pressure and how not to run out of energy over a long day or after travelling.",
+        "uk": "Після цього модуля ви знатимете, як розім’ятися перед стрільбою, як тримати увагу, що робити з хвилюванням на змаганнях, як зберегти свій ритуал під тиском і як не втратити сили за довгий день чи після дороги."
+      },
+      "lessons": [
+        "mind-warm-up-mobility",
+        "mind-concentration-focus",
+        "mind-competition-nerves",
+        "mind-routine-under-pressure",
+        "mind-long-day-energy-sleep"
+      ]
+    },
+    {
+      "id": "nextstep",
+      "order": 22,
+      "now": "topics/community#next",
+      "title": {
+        "en": "The next step",
+        "uk": "Наступний крок"
+      },
+      "intro": {
+        "en": "After this module you will know how to become a referee or a coach, how to organise a club shoot, how to help as a volunteer and how to organise a ClayAway tour.",
+        "uk": "Після цього модуля ви знатимете, як стати суддею чи тренером, як організувати клубне змагання, як допомагати волонтером і як організувати тур ClayAway."
+      },
+      "lessons": [
+        "nextstep-becoming-referee",
+        "nextstep-becoming-coach",
+        "nextstep-club-shoot-and-volunteering",
+        "nextstep-organising-clayaway-tour"
+      ]
+    },
+    {
+      "id": "rules",
+      "order": 9,
+      "now": "topics/rules",
+      "title": {
+        "en": "The rules in plain words",
+        "uk": "Правила простими словами"
+      },
+      "intro": {
+        "en": "The ten rules every beginner must know in Sporting™ and Compak® Sporting, from gun position to appeals and safety on the stand. After this module you will understand what happens on the stand and why the referee rules the way they do.",
+        "uk": "Десять правил, які мусить знати кожен початківець у Sporting™ і Compak® Sporting: від положення рушниці до апеляції та безпеки на номері. Після модуля ви розумітимете, що відбувається на стенді і чому рефері ухвалює саме таке рішення."
+      },
+      "lessons": [
+        "rules-gun-position",
+        "rules-call-and-time",
+        "rules-hit-and-no-bird",
+        "rules-malfunctions",
+        "rules-doubles",
+        "rules-cards-and-appeals",
+        "rules-dress-and-safety"
+      ]
+    },
+    {
+      "id": "safety",
+      "order": 2,
+      "now": "topics/safety",
+      "title": {
+        "en": "Safety and etiquette",
+        "uk": "Безпека і етикет"
+      },
+      "intro": {
+        "en": "After this module you will know the core safety rules at a ground, how to handle a gun, what to do in a malfunction and how to behave on the stand and behind it.",
+        "uk": "Після цього модуля ви знатимете головні правила безпеки на стенді, як поводитися з рушницею, що робити при несправності та як поводитися на стрілецькому місці й позаду нього."
+      },
+      "lessons": [
+        "safety-core-rules",
+        "safety-eye-ear-protection",
+        "safety-handling-carrying",
+        "safety-stand-etiquette",
+        "safety-malfunction",
+        "safety-spectators"
+      ]
+    },
+    {
+      "id": "targets",
+      "order": 6,
+      "now": "topics/targets",
+      "title": {
+        "en": "Targets and trajectories",
+        "uk": "Мішені і траєкторії"
+      },
+      "intro": {
+        "en": "You will learn which targets exist, how they fly over a layout, how singles differ from doubles and how to “read” a target before you shoot.",
+        "uk": "Ви дізнаєтеся, які бувають мішені, як вони летять над стендом, чим поодинокі мішені відрізняються від дуплетів і як «прочитати» мішень до пострілу."
+      },
+      "lessons": [
+        "targets-target-types",
+        "targets-basic-presentations",
+        "targets-special-presentations",
+        "targets-singles-and-doubles",
+        "targets-compak-layout",
+        "targets-reading-a-target"
+      ]
+    },
+    {
+      "id": "technique",
+      "order": 7,
+      "now": "topics/technique",
+      "title": {
+        "en": "First steps in technique",
+        "uk": "Перші кроки в техніці"
+      },
+      "intro": {
+        "en": "You will understand the basics: how to stand, how to mount the gun, which eye leads, where to hold the barrels, what lead is and how to build a pre-shot routine. Technique is taught by a qualified coach; this module helps you understand what the coach explains.",
+        "uk": "Ви зрозумієте основи: як стояти, як приставляти рушницю, яке око головне, де тримати стволи, що таке винос і як побудувати ритуал перед пострілом. Техніку ставить кваліфікований тренер — цей модуль допоможе розуміти, що він пояснює."
+      },
+      "lessons": [
+        "technique-stance",
+        "technique-gun-mount",
+        "technique-master-eye",
+        "technique-hold-pickup-break-points",
+        "technique-lead-methods",
+        "technique-follow-through-and-mistakes",
+        "technique-routine-and-coach"
+      ]
+    },
+    {
+      "id": "training",
+      "order": 13,
+      "now": "topics/training",
+      "title": {
+        "en": "How to train",
+        "uk": "Як тренуватися"
+      },
+      "intro": {
+        "en": "After this module you will know how to choose a coach, how to structure a session, how much and how often to shoot, how to practise the mount safely, how to prepare for competition and how to measure your progress.",
+        "uk": "Після цього модуля ви знатимете, як вибрати тренера, як побудувати тренування, скільки й як часто стріляти, як безпечно відпрацьовувати вкладку, як готуватися до змагань і як вимірювати свій прогрес."
+      },
+      "lessons": [
+        "training-first-lessons-and-coach",
+        "training-session-structure",
+        "training-how-much-how-often",
+        "training-dry-mount-practice",
+        "training-for-competition",
+        "training-diary-and-progress"
+      ]
+    },
+    {
+      "id": "travel",
+      "order": 15,
+      "now": "topics/travel",
+      "title": {
+        "en": "Travelling to competitions",
+        "uk": "Подорожі на змагання"
+      },
+      "intro": {
+        "en": "After this module you will know how to plan a trip to a competition, which documents a gun usually needs inside and outside the EU, how to fly with a gun, where to get cartridges and how to travel with a coach on a ClayAway tour.",
+        "uk": "Після цього модуля ви знатимете, як спланувати поїздку на змагання, які документи зазвичай потрібні для рушниці в ЄС і поза ним, як летіти з рушницею, де взяти набої і як поїхати з тренером у турі ClayAway."
+      },
+      "lessons": [
+        "travel-planning-trip",
+        "travel-gun-in-eu",
+        "travel-gun-outside-eu",
+        "travel-flying-with-guns",
+        "travel-cartridges-at-destination",
+        "travel-clayaway-tour"
+      ]
+    },
+    {
+      "id": "watching",
+      "order": 21,
+      "now": "topics/watch",
+      "title": {
+        "en": "How to watch clay shooting",
+        "uk": "Як дивитися стрільбу"
+      },
+      "intro": {
+        "en": "After this module you will know what to look at during a competition, how to read results, how to get the most from ClayArena videos and season recaps, and how to behave as a spectator at the ground.",
+        "uk": "Після цього модуля ви знатимете, на що дивитися під час змагання, як читати результати, як із користю переглядати відео й підсумки сезону на ClayArena і як поводитися глядачеві на стенді."
+      },
+      "lessons": [
+        "watching-what-to-look-at",
+        "watching-reading-results",
+        "watching-videos-and-recaps",
+        "watching-at-the-ground"
+      ]
+    },
+    {
+      "id": "women",
+      "order": 18,
+      "now": "topics/basics",
+      "title": {
+        "en": "Women in shooting",
+        "uk": "Жінки у стрільбі"
+      },
+      "intro": {
+        "en": "After this module you will know what the Lady category is, how to fit a gun to a woman's build, how to manage recoil, what to wear and how a woman who wants to try clay shooting can get started.",
+        "uk": "Після цього модуля ви знатимете, що таке категорія Lady, як підігнати рушницю під жіночу статуру, як упоратися з віддачею, що вдягати і з чого почати жінці, яка хоче спробувати стендову стрільбу."
+      },
+      "lessons": [
+        "women-lady-category",
+        "women-gun-fit",
+        "women-recoil-management",
+        "women-clothing-community-start"
+      ]
+    }
+  ],
+  "interpreter_missions": [
+    {
+      "id": "sport",
+      "order": 1,
+      "icon": "flag",
+      "now": "topics/basics",
+      "title": {
+        "en": "The sport in ten minutes",
+        "uk": "Цей спорт за десять хвилин",
+        "de": "Der Sport in zehn Minuten",
+        "fr": "Le sport en dix minutes",
+        "it": "Questo sport in dieci minuti",
+        "cs": "Sport za deset minut",
+        "pl": "Ten sport w dziesięć minut",
+        "pt": "A modalidade em dez minutos",
+        "hu": "A sport tíz percben",
+        "fi": "Laji kymmenessä minuutissa",
+        "lt": "Sportas per dešimt minučių"
+      },
+      "intro": {
+        "en": "Before you translate a single coaching tip, you need the big picture: what people actually shoot at, who writes the rules, what a Parcours de Chasse – Sporting™ course and a Compak® Sporting field look like, and how a competition day runs. Five short lessons give you the map; every later mission fills in the details.",
+        "uk": "Перш ніж перекладати першу пораду тренера, треба побачити загальну картину: у що саме стріляють, хто пише правила, як виглядають майданчик Parcours de Chasse – Sporting™ і поле Compak® Sporting і як минає день змагань. П’ять коротких уроків дають вам мапу, а наступні місії додають подробиці.",
+        "de": "Bevor Sie auch nur einen Tipp des Trainers übersetzen, brauchen Sie das Gesamtbild: worauf eigentlich geschossen wird, wer die Regeln schreibt, wie ein Parcours in Parcours de Chasse – Sporting™ und ein Feld im Compak® Sporting aussehen und wie ein Wettkampftag abläuft. Fünf kurze Lektionen geben Ihnen die Landkarte; jede spätere Mission füllt die Details aus.",
+        "fr": "Avant de traduire le moindre conseil de moniteur, il vous faut une vue d'ensemble : sur quoi l'on tire vraiment, qui écrit le règlement, à quoi ressemblent un parcours de Parcours de Chasse – Sporting™ et un terrain de Compak® Sporting, et comment se déroule une journée de compétition. Cinq courtes leçons vous donnent la carte ; chaque mission suivante complète les détails.",
+        "it": "Prima di tradurre anche un solo consiglio tecnico, ti serve il quadro generale: a che cosa si spara davvero, chi scrive le regole, com'è fatto un percorso di Parcours de Chasse – Sporting™ e un campo di Compak® Sporting, e come si svolge una giornata di gara. Cinque brevi lezioni ti danno la mappa; ogni missione successiva aggiunge i dettagli.",
+        "cs": "Než přeložíte jedinou trenérovu radu, potřebujete celkový obraz: na co se vlastně střílí, kdo píše pravidla, jak vypadá trať Parcours de Chasse – Sporting™ a střeliště Compak® Sporting a jak probíhá závodní den. Pět krátkých lekcí vám dá mapu; každá další mise doplní podrobnosti.",
+        "pl": "Zanim przetłumaczysz pierwszą wskazówkę trenera, potrzebujesz ogólnego obrazu: do czego naprawdę się strzela, kto pisze przepisy, jak wygląda parcours Parcours de Chasse – Sporting™ i pole Compak® Sporting oraz jak przebiega dzień zawodów. Pięć krótkich lekcji daje ci mapę; każda kolejna misja uzupełnia szczegóły.",
+        "pt": "Antes de traduzir um único conselho do treinador, precisa de ter a visão geral: a que se atira realmente, quem escreve as regras, como são um percurso de Parcours de Chasse – Sporting™ e um campo de Compak® Sporting, e como decorre um dia de competição. Cinco lições curtas dão-lhe o mapa; cada missão seguinte preenche os pormenores.",
+        "hu": "Mielőtt egyetlen edzői tanácsot lefordítanál, szükséged van az összképre: mire lőnek valójában, ki írja a szabályokat, hogyan néz ki egy Parcours de Chasse – Sporting™ pálya és egy Compak® Sporting lőtér, és hogyan zajlik egy versenynap. Öt rövid lecke adja meg a térképet; a későbbi küldetések töltik ki a részleteket.",
+        "fi": "Ennen kuin käännät yhtäkään valmennusvinkkiä, tarvitset kokonaiskuvan: mihin oikeastaan ammutaan, kuka kirjoittaa säännöt, miltä Parcours de Chasse – Sporting™ -rata ja Compak® Sporting -kenttä näyttävät ja miten kilpailupäivä etenee. Viisi lyhyttä oppituntia antaa sinulle kartan; jokainen myöhempi tehtävä täydentää yksityiskohtia.",
+        "lt": "Prieš verčiant pirmąjį trenerio patarimą, reikia matyti visą vaizdą: į ką iš tikrųjų šaudoma, kas rašo taisykles, kaip atrodo Parcours de Chasse – Sporting™ trasa ir Compak® Sporting aikštelė ir kaip vyksta varžybų diena. Penkios trumpos pamokos duos jums žemėlapį, o kitos misijos užpildys detales."
+      },
+      "lessons": [
+        "sport-what-is-clay",
+        "sport-fitasc",
+        "sport-sporting-layout",
+        "sport-compak-layout",
+        "sport-competition-day"
+      ]
+    },
+    {
+      "id": "gear",
+      "order": 2,
+      "icon": "tool",
+      "now": "topics/gear",
+      "title": {
+        "en": "Gun and equipment",
+        "uk": "Рушниця і спорядження",
+        "de": "Flinte und Ausrüstung",
+        "fr": "Le fusil et l'équipement",
+        "it": "Fucile ed equipaggiamento",
+        "cs": "Zbraň a vybavení",
+        "pl": "Broń i wyposażenie",
+        "pt": "Arma e equipamento",
+        "hu": "Fegyver és felszerelés",
+        "fi": "Ase ja varusteet",
+        "lt": "Šautuvas ir įranga"
+      },
+      "intro": {
+        "en": "Coaches talk about the gun all day: 'raise the comb', 'check your selector', 'change chokes', 'nines in the bottom'. This mission gives you the words for the gun, its parts, chokes, cartridges and protective gear, together with the few equipment rules every interpreter must know.",
+        "uk": "Тренери весь день говорять про рушницю: «підніміть гребінь», «перевірте селектор», «змініть чоки», «дев’ятку в нижній». Ця місія дає вам слова для рушниці, її частин, чоків, патронів і захисного спорядження, а також кілька правил щодо обладнання, які має знати кожен перекладач.",
+        "de": "Trainer reden den ganzen Tag über die Flinte: „raise the comb“, „check your selector“, „change chokes“, „nines in the bottom“. Diese Mission gibt Ihnen die Wörter für die Flinte, ihre Teile, Chokes, Patronen und Schutzausrüstung, zusammen mit den wenigen Ausrüstungsregeln, die jeder Dolmetscher kennen muss.",
+        "fr": "Les moniteurs parlent du fusil toute la journée : « raise the comb », « check your selector », « change chokes », « nines in the bottom ». Cette mission vous donne les mots pour le fusil, ses pièces, les chokes, les cartouches et les équipements de protection, ainsi que les quelques règles sur le matériel que tout interprète doit connaître.",
+        "it": "Gli istruttori parlano del fucile tutto il giorno: «raise the comb» (alza il nasello), «check your selector» (controlla il selettore), «change chokes» (cambia gli strozzatori), «nines in the bottom» (il 9 nella canna inferiore). Questa missione ti dà le parole per il fucile, le sue parti, gli strozzatori, le cartucce e le protezioni, insieme alle poche regole sull'equipaggiamento che ogni interprete deve conoscere.",
+        "cs": "Trenéři mluví o zbrani celý den: „raise the comb“, „check your selector“, „change chokes“, „nines in the bottom“. Tato mise vám dá slova pro zbraň, její části, zahrdlení, náboje a ochranné pomůcky, spolu s několika pravidly o vybavení, která musí znát každý tlumočník.",
+        "pl": "Trenerzy mówią o broni przez cały dzień: „raise the comb”, „check your selector”, „change chokes”, „nines in the bottom”. Ta misja daje ci słowa na broń, jej części, czoki, naboje i środki ochrony, a także kilka przepisów o wyposażeniu, które musi znać każdy tłumacz.",
+        "pt": "Os treinadores falam da arma o dia inteiro: «raise the comb» (subir a crista), «check your selector» (verificar o seletor), «change chokes» (trocar os chokes), «nines in the bottom» (nove em baixo). Esta missão dá-lhe as palavras para a arma, as suas peças, os chokes, os cartuchos e o equipamento de proteção, juntamente com as poucas regras de equipamento que qualquer intérprete tem de conhecer.",
+        "hu": "Az edzők egész nap a fegyverről beszélnek: „raise the comb” (emeld a pofadékot), „check your selector” (nézd meg a sorrendváltót), „change chokes” (cserélj szűkületet), „nines in the bottom” (kilences sörét az alsó csőbe). Ez a küldetés megadja a szavakat a fegyverhez, a részeihez, a szűkületekhez, a töltényekhez és a védőfelszereléshez, valamint azt a néhány felszerelési szabályt, amelyet minden tolmácsnak ismernie kell.",
+        "fi": "Valmentajat puhuvat aseesta koko päivän: ”raise the comb”, ”check your selector”, ”change chokes”, ”nines in the bottom”. Tässä tehtävässä saat sanat aseelle, sen osille, supistajille, patruunoille ja suojavarusteille sekä ne muutamat varustesäännöt, jotka jokaisen tulkin on tiedettävä.",
+        "lt": "Treneriai visą dieną kalba apie šautuvą: „raise the comb“ (pakelkite skruostinę atramą), „check your selector“ (patikrinkite perjungiklį), „change chokes“ (pakeiskite čokus), „nines in the bottom“ (devintukai apatiniame vamzdyje). Ši misija suteiks jums žodžius apie šautuvą, jo dalis, čokus, šovinius ir apsaugos priemones, kartu su keliomis įrangos taisyklėmis, kurias turi žinoti kiekvienas vertėjas."
+      },
+      "lessons": [
+        "gear-gun-types",
+        "gear-gun-parts",
+        "gear-chokes",
+        "gear-cartridges",
+        "gear-protection-clothes"
+      ]
+    },
+    {
+      "id": "targets",
+      "order": 3,
+      "icon": "target",
+      "now": "topics/targets",
+      "title": {
+        "en": "Targets",
+        "uk": "Мішені",
+        "de": "Wurfscheiben",
+        "fr": "Les plateaux",
+        "it": "I piattelli",
+        "cs": "Terče",
+        "pl": "Rzutki",
+        "pt": "Pratos",
+        "hu": "Korongok",
+        "fi": "Kiekot",
+        "lt": "Taikiniai"
+      },
+      "intro": {
+        "en": "A coach who says 'it's a midi off the tower, then a rabbit on report' assumes you can picture it. This mission teaches the target types, how colour and light change what the shooter sees, how traps release targets, how to read a target menu, and the one scoring question that decides everything: hit or lost.",
+        "uk": "Тренер, який каже «міді з вежі, потім кролик за пострілом», розраховує, що ви це уявляєте. Ця місія вчить типів мішеней, того, як колір і світло змінюють те, що бачить стрілець, як машинки запускають мішені, як читати меню і як вирішують головне питання підрахунку: влучання чи промах.",
+        "de": "Ein Trainer, der sagt „it's a midi off the tower, then a rabbit on report“, geht davon aus, dass Sie es sich vorstellen können. Diese Mission lehrt die Scheibentypen, wie Farbe und Licht verändern, was der Schütze sieht, wie Maschinen die Scheiben auslösen, wie man ein Wurfschema liest und die eine Wertungsfrage, die alles entscheidet: Treffer oder verloren.",
+        "fr": "Un moniteur qui dit « it's a midi off the tower, then a rabbit on report » suppose que vous voyez la scène. Cette mission vous apprend les types de plateaux, comment la couleur et la lumière changent ce que voit le tireur, comment les lanceurs libèrent les plateaux, comment lire un menu, et la seule question de comptage qui décide de tout : bon ou perdu.",
+        "it": "Un istruttore che dice «it's a midi off the tower, then a rabbit on report» (un midi dalla torre, poi una lepre allo sparo) dà per scontato che tu riesca a immaginarlo. Questa missione ti insegna i tipi di piattello, come il colore e la luce cambiano ciò che vede il tiratore, come le macchine lanciano i piattelli, come si legge un menu e l'unica domanda di punteggio che decide tutto: colpito o perso.",
+        "cs": "Trenér, který řekne „it's a midi off the tower, then a rabbit on report“, předpokládá, že si to dokážete představit. Tato mise učí druhy terčů, jak barva a světlo mění to, co střelec vidí, jak vrhačky terče vypouštějí, jak číst menu terčů a jedinou otázku hodnocení, která rozhoduje o všem: zásah, nebo chyba.",
+        "pl": "Trener, który mówi „it's a midi off the tower, then a rabbit on report”, zakłada, że potrafisz to sobie wyobrazić. Ta misja uczy rodzajów rzutków, tego, jak kolor i światło zmieniają to, co widzi strzelec, jak wyrzutnie zwalniają rzutki, jak czytać menu rzutków, i jednego pytania o punktację, które rozstrzyga wszystko: trafiony czy chybiony.",
+        "pt": "Um treinador que diz «it's a midi off the tower, then a rabbit on report» (é um midi da torre e depois um coelho ao tiro) parte do princípio de que consegue imaginar a cena. Esta missão ensina os tipos de prato, como a cor e a luz mudam o que o atirador vê, como as máquinas lançam os pratos, como ler um menu de tiro e a única questão de pontuação que decide tudo: acerto ou falha.",
+        "hu": "Az az edző, aki azt mondja: „it's a midi off the tower, then a rabbit on report” (egy midi a toronyból, aztán egy nyúl vadászdubléban), feltételezi, hogy el tudod képzelni. Ez a küldetés megtanítja a korongtípusokat, azt, hogy a szín és a fény hogyan változtatja meg, amit a lövész lát, hogyan indítják a dobógépek a korongokat, hogyan kell kiolvasni a kottát, és azt az egyetlen pontozási kérdést, amely mindent eldönt: találat vagy hiba.",
+        "fi": "Valmentaja, joka sanoo ”it's a midi off the tower, then a rabbit on report”, olettaa sinun pystyvän kuvittelemaan sen. Tässä tehtävässä opit kiekkotyypit, miten väri ja valo muuttavat ampujan näkemää, miten heittimet lähettävät kiekot, miten kiekkoluetteloa luetaan ja sen yhden pisteytyskysymyksen, joka ratkaisee kaiken: osuma vai ohi.",
+        "lt": "Treneris, sakantis „it's a midi off the tower, then a rabbit on report“ (midi iš bokšto, tada rabbit pagal šūvio garsą), tikisi, kad tai įsivaizduojate. Ši misija moko taikinių tipų, kaip spalva ir šviesa keičia tai, ką mato šaulys, kaip mašinėlės paleidžia taikinius, kaip skaityti taikinių aprašą ir vieno vertinimo klausimo, kuris lemia viską: pataikyta ar nepataikyta."
+      },
+      "lessons": [
+        "targets-types",
+        "targets-colours-visibility",
+        "targets-traps",
+        "targets-menu",
+        "targets-hit-or-lost"
+      ]
+    },
+    {
+      "id": "flight",
+      "order": 4,
+      "icon": "trajectory",
+      "now": "topics/targets#flight",
+      "title": {
+        "en": "How targets fly (presentations)",
+        "uk": "Як летять мішені (траєкторії)",
+        "de": "Wie Scheiben fliegen (Präsentationen)",
+        "fr": "Comment volent les plateaux (présentations)",
+        "it": "Come volano i piattelli (le presentazioni)",
+        "cs": "Jak létají terče (dráhy)",
+        "pl": "Jak latają rzutki (prezentacje)",
+        "pt": "Como voam os pratos (mostras)",
+        "hu": "Hogyan repülnek a korongok (bemutatások)",
+        "fi": "Miten kiekot lentävät (kiekkotyypit)",
+        "lt": "Kaip skrenda taikiniai (pristatymai)"
+      },
+      "intro": {
+        "en": "Coaches name every target by how it flies: crosser, incomer, teal, looper, rabbit, report pair. In six short lessons you will learn what each name means, what the shooter has to do with it and which words are easy to mistranslate.",
+        "uk": "Тренери називають кожну мішень за тим, як вона летить: кросер, зустрічна, тіл, лупер, кролик, дуплет за пострілом. За шість коротких уроків ви дізнаєтеся, що означає кожна назва, що з такою мішенню має зробити стрілець і які слова легко перекласти неправильно.",
+        "de": "Trainer benennen jede Scheibe danach, wie sie fliegt: Crosser, kommende Taube, Teal, Looper, Rollhase, Doublette auf Schuss. In sechs kurzen Lektionen lernen Sie, was jeder Name bedeutet, was der Schütze damit tun muss und welche Wörter leicht falsch übersetzt werden.",
+        "fr": "Les moniteurs nomment chaque plateau d'après sa façon de voler : crosser, incomer, teal, looper, rabbit, report pair. En six courtes leçons, vous apprendrez ce que signifie chaque nom, ce que le tireur doit en faire et quels mots sont faciles à mal traduire.",
+        "it": "Gli istruttori chiamano ogni piattello in base a come vola: crosser, incomer, teal, looper, rabbit, report pair. In sei brevi lezioni imparerai che cosa significa ciascun nome, che cosa deve fare il tiratore con quel piattello e quali parole è facile tradurre male.",
+        "cs": "Trenéři pojmenovávají každý terč podle toho, jak letí: crosser, incomer, teal, looper, rabbit, report pair. V šesti krátkých lekcích se naučíte, co každé jméno znamená, co s takovým terčem musí střelec udělat a která slova se snadno přeloží špatně.",
+        "pl": "Trenerzy nazywają każdy rzutek według tego, jak leci: crosser, incomer, teal, looper, rabbit, report pair. W sześciu krótkich lekcjach poznasz znaczenie każdej nazwy, to, co strzelec ma z danym rzutkiem zrobić, i słowa, które łatwo źle przetłumaczyć.",
+        "pt": "Os treinadores dão nome a cada prato pela forma como voa: crosser, incomer, teal, looper, rabbit, report pair. Em seis lições curtas vai aprender o que significa cada nome, o que o atirador tem de fazer com cada prato e que palavras é fácil traduzir mal.",
+        "hu": "Az edzők minden korongot aszerint neveznek meg, hogyan repül: keresztező (crosser), bejövő (incomer), teal, íves (looper), nyúl (rabbit), vadászdublé (report pair). Hat rövid leckében megtanulod, mit jelentenek ezek a nevek, mit kell velük kezdenie a lövésznek, és melyik szavakat könnyű félrefordítani.",
+        "fi": "Valmentajat nimeävät jokaisen kiekon sen lennon mukaan: crosser, incomer, teal, looper, rabbit, report pair. Kuudessa lyhyessä oppitunnissa opit, mitä kukin nimi tarkoittaa, mitä ampujan on sen kanssa tehtävä ja mitkä sanat on helppo kääntää väärin.",
+        "lt": "Treneriai kiekvieną taikinį vadina pagal tai, kaip jis skrenda: crosser, incomer, teal, looper, rabbit, report pair. Per šešias trumpas pamokas sužinosite, ką reiškia kiekvienas pavadinimas, ką su tokiu taikiniu turi daryti šaulys ir kuriuos žodžius lengva išversti klaidingai."
+      },
+      "lessons": [
+        "flight-crosser",
+        "flight-incomer-going-away",
+        "flight-quartering",
+        "flight-teal-chandelle-looper",
+        "flight-rabbit",
+        "flight-pairs"
+      ]
+    },
+    {
+      "id": "basics",
+      "order": 5,
+      "icon": "stance",
+      "now": "topics/technique#fundamentals",
+      "title": {
+        "en": "Fundamentals of a shot",
+        "uk": "Основи пострілу",
+        "de": "Grundlagen des Schusses",
+        "fr": "Les fondamentaux du tir",
+        "it": "I fondamentali del tiro",
+        "cs": "Základy výstřelu",
+        "pl": "Podstawy strzału",
+        "pt": "Fundamentos do tiro",
+        "hu": "A lövés alapjai",
+        "fi": "Laukauksen perusteet",
+        "lt": "Šūvio pagrindai"
+      },
+      "intro": {
+        "en": "Before any talk about lead, a coach fixes the basics: feet, gun mount, eyes, a three-point plan and a gun that keeps moving. These five lessons give you the coach's words for each step and the rules that limit what the shooter may do.",
+        "uk": "Перш ніж говорити про винос, тренер налаштовує основу: ноги, вкладку, очі, план із трьох точок і рушницю, що не зупиняється. Ці п’ять уроків дають вам слова тренера для кожного кроку і правила, які обмежують, що стрілець може робити.",
+        "de": "Bevor überhaupt vom Vorhalt die Rede ist, legt der Trainer die Grundlagen fest: Füße, Anschlag, Augen, ein Plan aus drei Punkten und eine Flinte, die in Bewegung bleibt. Diese fünf Lektionen geben Ihnen die Worte des Trainers für jeden Schritt und die Regeln, die festlegen, was der Schütze darf.",
+        "fr": "Avant de parler d'avance, le moniteur règle les bases : les pieds, l'épaulé, les yeux, un plan en trois points et un fusil qui ne s'arrête pas. Ces cinq leçons vous donnent les mots du moniteur pour chaque étape et les règles qui limitent ce que le tireur a le droit de faire.",
+        "it": "Prima di parlare di anticipo, l'istruttore sistema le basi: piedi, imbracciata, occhi, un piano in tre punti e un fucile che non smette di muoversi. Queste cinque lezioni ti danno le parole dell'istruttore per ogni passaggio e le regole che limitano che cosa può fare il tiratore.",
+        "cs": "Než začne řeč o předsazení, trenér upraví základy: nohy, zalícení, oči, plán tří bodů a zbraň, která se nepřestává pohybovat. Těchto pět lekcí vám dá trenérova slova pro každý krok i pravidla, která omezují, co střelec smí dělat.",
+        "pl": "Zanim padnie choć słowo o wyprzedzeniu, trener ustawia podstawy: stopy, złożenie się do strzału, oczy, plan trzech punktów i broń, która nie przestaje się poruszać. Te pięć lekcji daje ci słowa trenera na każdy krok oraz przepisy, które określają, co strzelcowi wolno.",
+        "pt": "Antes de qualquer conversa sobre o avanço, o treinador trata do básico: pés, pôr a arma à cara, olhos, um plano de três pontos e uma arma que nunca para. Estas cinco lições dão-lhe as palavras do treinador para cada passo e as regras que limitam o que o atirador pode fazer.",
+        "hu": "Mielőtt bármi szóba kerülne az elétartásról, az edző rendbe teszi az alapokat: a lábakat, a vállba vételt, a szemet, a háromlépéses tervet és a mozgásban maradó fegyvert. Ez az öt lecke megadja az edző szavait minden lépéshez, és azokat a szabályokat, amelyek korlátozzák, mit tehet a lövész.",
+        "fi": "Ennen kuin ennakosta puhutaan sanaakaan, valmentaja laittaa perusasiat kuntoon: jalat, aseen noston, silmät, kolmen pisteen suunnitelman ja liikkeessä pysyvän aseen. Näissä viidessä oppitunnissa opit valmentajan sanat jokaiseen vaiheeseen sekä säännöt, jotka rajaavat, mitä ampuja saa tehdä.",
+        "lt": "Prieš kalbėdamas apie pralenkimą, treneris sutvarko pagrindus: kojas, šautuvo prisidėjimą, akis, trijų taškų planą ir nesustojantį šautuvą. Šiose penkiose pamokose rasite trenerio žodžius kiekvienam žingsniui ir taisykles, ribojančias, ką šaulys gali daryti."
+      },
+      "lessons": [
+        "basics-stance",
+        "basics-mount",
+        "basics-eyes",
+        "basics-three-points",
+        "basics-follow-through"
+      ]
+    },
+    {
+      "id": "lead",
+      "order": 6,
+      "icon": "lead",
+      "now": "topics/technique#lead",
+      "title": {
+        "en": "Lead (forward allowance) and shooting methods",
+        "uk": "Винос (упередження) і методи стрільби",
+        "de": "Vorhalt und Schießmethoden",
+        "fr": "L'avance et les méthodes de tir",
+        "it": "L'anticipo (lead) e i metodi di tiro",
+        "cs": "Předsazení (lead) a metody střelby",
+        "pl": "Wyprzedzenie (lead) i metody strzelania",
+        "pt": "Avanço e métodos de tiro",
+        "hu": "Elétartás és lövési módszerek",
+        "fi": "Ennakko ja ampumamenetelmät",
+        "lt": "Pralenkimas (forward allowance) ir šaudymo metodai"
+      },
+      "intro": {
+        "en": "Lead is what coaches talk about most: why the gun must point ahead of a moving target, the four ways of getting it there, and the strange units they use to describe it. This mission shows each method step by step and teaches you to translate “four foot”, “half a bird” or “double it” without changing the meaning.",
+        "uk": "Про винос тренери говорять найбільше: чому рушниця має дивитися попереду мішені, чотири способи вивести її туди і дивні одиниці, якими це описують. Ця місія крок за кроком показує кожен метод і вчить перекладати «four foot», «half a bird» чи «double it», не змінюючи змісту.",
+        "de": "Über den Vorhalt reden Trainer am meisten: warum die Flinte vor eine fliegende Scheibe zeigen muss, die vier Wege, dorthin zu kommen, und die seltsamen Einheiten, mit denen sie ihn beschreiben. Diese Mission zeigt jede Methode Schritt für Schritt und lehrt Sie, „four foot“, „half a bird“ oder „double it“ zu übersetzen, ohne die Bedeutung zu verändern.",
+        "fr": "L'avance est le sujet dont les moniteurs parlent le plus : pourquoi le fusil doit pointer devant un plateau en mouvement, les quatre façons d'y arriver, et les unités étranges qu'ils emploient pour la décrire. Cette mission montre chaque méthode étape par étape et vous apprend à traduire « four foot », « half a bird » ou « double it » sans en changer le sens.",
+        "it": "L'anticipo è l'argomento di cui gli istruttori parlano di più: perché il fucile deve puntare davanti a un piattello in movimento, i quattro modi per arrivarci e le strane unità con cui lo descrivono. Questa missione mostra ogni metodo passo per passo e ti insegna a tradurre «four foot», «half a bird» o «double it» senza cambiarne il significato.",
+        "cs": "O předsazení mluví trenéři nejvíc: proč musí zbraň mířit před letící terč, čtyři způsoby, jak toho dosáhnout, a podivné jednotky, kterými ho popisují. Tato mise ukazuje každou metodu krok za krokem a učí vás přeložit „four foot“, „half a bird“ nebo „double it“, aniž byste změnili význam.",
+        "pl": "O wyprzedzeniu trenerzy mówią najwięcej: dlaczego broń musi wskazywać przed lecącym rzutkiem, cztery sposoby, by się tam znaleźć, i dziwne jednostki, którymi je opisują. Ta misja pokazuje każdą metodę krok po kroku i uczy tłumaczyć „four foot”, „half a bird” czy „double it” bez zmiany sensu.",
+        "pt": "O avanço (lead) é o assunto de que os treinadores mais falam: porque é que a arma tem de apontar à frente de um prato em movimento, as quatro maneiras de lá chegar e as estranhas unidades que usam para o descrever. Esta missão mostra cada método passo a passo e ensina-o a traduzir «four foot», «half a bird» ou «double it» sem mudar o sentido.",
+        "hu": "Az elétartásról (lead, forward allowance) beszélnek az edzők a legtöbbet: miért kell a fegyvernek a mozgó korong elé mutatnia, mi a négy módja annak, hogy odakerüljön, és milyen furcsa mértékegységekkel írják le. Ez a küldetés lépésről lépésre bemutatja az egyes módszereket, és megtanítja, hogyan fordítsd a „four foot”, „half a bird” vagy „double it” kifejezést úgy, hogy a jelentés ne változzon.",
+        "fi": "Ennakko (lead, brittienglanniksi myös forward allowance) on se, mistä valmentajat puhuvat eniten: miksi aseen on osoitettava liikkuvan kiekon edelle, neljä tapaa saada se sinne ja ne oudot yksiköt, joilla sitä kuvataan. Tämä tehtävä näyttää jokaisen menetelmän vaihe vaiheelta ja opettaa kääntämään ilmaukset ”four foot”, ”half a bird” tai ”double it” muuttamatta merkitystä.",
+        "lt": "Apie pralenkimą treneriai kalba dažniausiai: kodėl šautuvas turi būti nukreiptas prieš judantį taikinį, kokie yra keturi būdai tai padaryti ir kokiais keistais vienetais jį apibūdina. Šioje misijoje kiekvienas metodas parodytas žingsnis po žingsnio, o jūs išmoksite išversti „four foot“, „half a bird“ ar „double it“ nepakeisdami prasmės."
+      },
+      "lessons": [
+        "lead-why",
+        "lead-maintained",
+        "lead-swing-through",
+        "lead-pull-away",
+        "lead-ambush-instinctive",
+        "lead-how-coaches-say-it"
+      ]
+    },
+    {
+      "id": "faults",
+      "order": 7,
+      "icon": "search",
+      "now": "topics/technique#faults",
+      "title": {
+        "en": "Faults and how coaches diagnose them",
+        "uk": "Помилки та як тренер їх діагностує",
+        "de": "Fehler und wie Trainer sie erkennen",
+        "fr": "Les fautes et comment les moniteurs les diagnostiquent",
+        "it": "Gli errori e come li diagnostica l'istruttore",
+        "cs": "Chyby a jak je trenéři diagnostikují",
+        "pl": "Błędy i jak trenerzy je diagnozują",
+        "pt": "Erros e como os treinadores os diagnosticam",
+        "hu": "Hibák és ahogyan az edzők diagnosztizálják őket",
+        "fi": "Virheet ja miten valmentajat tunnistavat ne",
+        "lt": "Klaidos ir kaip treneriai jas nustato"
+      },
+      "intro": {
+        "en": "When a target is missed, the coach names the miss in one or two words and then the cause. This mission teaches the words for misses and faults, what each one really means, and how to pass a coach's diagnosis to the shooter quickly and exactly.",
+        "uk": "Коли мішень не розбито, тренер одним-двома словами називає промах, а потім його причину. У цій місії ви вивчите слова для промахів і помилок, їхнє справжнє значення та навчитеся швидко й точно передавати стрільцеві діагноз тренера.",
+        "de": "Wenn eine Scheibe gefehlt wird, benennt der Trainer den Fehlschuss in ein oder zwei Worten und dann die Ursache. Diese Mission lehrt die Wörter für Fehlschüsse und Fehler, was jedes davon wirklich bedeutet und wie Sie die Diagnose des Trainers schnell und genau an den Schützen weitergeben.",
+        "fr": "Quand un plateau est manqué, le moniteur nomme le manqué en un ou deux mots, puis la cause. Cette mission vous apprend les mots des manqués et des fautes, ce que chacun signifie vraiment, et comment transmettre le diagnostic du moniteur au tireur rapidement et avec exactitude.",
+        "it": "Quando un piattello viene mancato, l'istruttore nomina l'errore con una o due parole e poi la causa. Questa missione ti insegna le parole per gli errori e i difetti, che cosa significa davvero ciascuna e come passare al tiratore la diagnosi dell'istruttore in modo rapido ed esatto.",
+        "cs": "Když střelec terč chybí, trenér chybu pojmenuje jedním nebo dvěma slovy a pak řekne příčinu. Tato mise učí slova pro chyby a vady techniky, co každé z nich skutečně znamená a jak trenérovu diagnózu předat střelci rychle a přesně.",
+        "pl": "Gdy rzutek zostaje chybiony, trener nazywa pudło jednym lub dwoma słowami, a potem jego przyczynę. Ta misja uczy słów na pudła i błędy, ich prawdziwego znaczenia oraz tego, jak szybko i dokładnie przekazać strzelcowi diagnozę trenera.",
+        "pt": "Quando um prato é falhado, o treinador dá nome à falha em uma ou duas palavras e depois à causa. Esta missão ensina as palavras para as falhas e os erros, o que cada uma quer realmente dizer, e como passar o diagnóstico do treinador ao atirador de forma rápida e exata.",
+        "hu": "Amikor egy korong hibázott, az edző egy-két szóval megnevezi a hibát, aztán az okát. Ez a küldetés megtanítja a hibák és lövéshibák szavait, azt, hogy mit jelentenek valójában, és hogyan add tovább az edző diagnózisát a lövésznek gyorsan és pontosan.",
+        "fi": "Kun kiekko menee ohi, valmentaja nimeää ohilaukauksen yhdellä tai kahdella sanalla ja sitten sen syyn. Tässä tehtävässä opit ohilaukausten ja virheiden sanat, mitä kukin oikeasti tarkoittaa ja miten välität valmentajan diagnoosin ampujalle nopeasti ja tarkasti.",
+        "lt": "Kai taikinys nepataikytas, treneris vienu ar dviem žodžiais įvardija nepataikymą, o paskui – priežastį. Ši misija moko nepataikymų ir klaidų žodžių, ką kiekvienas iš jų iš tikrųjų reiškia ir kaip greitai bei tiksliai perduoti trenerio diagnozę šauliui."
+      },
+      "lessons": [
+        "faults-behind-in-front",
+        "faults-head-lift-stopping",
+        "faults-mount-errors",
+        "faults-pairs-transition",
+        "faults-reading-the-coach"
+      ]
+    },
+    {
+      "id": "sporting",
+      "order": 8,
+      "icon": "flag",
+      "now": "topics/rules",
+      "title": {
+        "en": "Parcours de Chasse – Sporting™ rules",
+        "uk": "Правила Parcours de Chasse – Sporting™",
+        "de": "Regeln von Parcours de Chasse – Sporting™",
+        "fr": "Le règlement du Parcours de Chasse – Sporting™",
+        "it": "Il regolamento del Parcours de Chasse – Sporting™",
+        "cs": "Pravidla Parcours de Chasse – Sporting™",
+        "pl": "Przepisy Parcours de Chasse – Sporting™",
+        "pt": "Regras do Parcours de Chasse – Sporting™",
+        "hu": "A Parcours de Chasse – Sporting™ szabályai",
+        "fi": "Parcours de Chasse – Sporting™ -säännöt",
+        "lt": "Parcours de Chasse – Sporting™ taisyklės"
+      },
+      "intro": {
+        "en": "Parcours de Chasse – Sporting™ is the FITASC discipline that imitates hunting over natural ground. This mission walks you through its rules the way a referee applies them: rounds and stands, the gun-down start, singles and doubles, target viewing, malfunctions and time limits. Everything here is a paraphrase; the rule references open ClayArena's rules guide.",
+        "uk": "Parcours de Chasse – Sporting™ — дисципліна FITASC, що імітує полювання на природному рельєфі. У цій місії ви пройдете її правила так, як їх застосовує суддя: раунди й місця, старт з опущеною рушницею, одиночні мішені й дуплети, показ мішеней, несправності та ліміти часу. Усе тут — переказ; посилання на правила відкривають довідник правил ClayArena.",
+        "de": "Parcours de Chasse – Sporting™ ist die FITASC-Disziplin, die die Jagd im natürlichen Gelände nachahmt. Diese Mission führt Sie durch ihre Regeln so, wie ein Schiedsrichter sie anwendet: Runden und Stände, der Beginn mit tiefer Flinte, Einzelscheiben und Doubletten, das Vorwerfen der Scheiben, Funktionsstörungen und Zeitlimits. Alles hier ist eine Zusammenfassung; die Regelverweise öffnen den Regelführer von ClayArena.",
+        "fr": "Le Parcours de Chasse – Sporting™ est la discipline FITASC qui imite la chasse en terrain naturel. Cette mission vous guide dans son règlement tel que l'arbitre l'applique : séries et postes, départ fusil bas, plateaux simples et doublés, présentation des plateaux, incidents de tir et délais. Tout ce qui suit est une reformulation ; les références au règlement ouvrent le guide des règles de ClayArena.",
+        "it": "Il Parcours de Chasse – Sporting™ è la disciplina FITASC che imita la caccia su terreno naturale. Questa missione ti guida nelle sue regole così come le applica un arbitro: serie e pedane, la partenza con il fucile non imbracciato, singoli e doppi, la presentazione dei piattelli, i malfunzionamenti e i limiti di tempo. Tutto è una parafrasi; i riferimenti alle regole aprono la guida al regolamento di ClayArena.",
+        "cs": "Parcours de Chasse – Sporting™ je disciplína FITASC, která napodobuje lov v přírodním terénu. Tato mise vás provede jejími pravidly tak, jak je uplatňuje rozhodčí: položky a stanoviště, start se zbraní dole, jednotlivé terče a dvojstřely, předvedení terčů, poruchy a časové limity. Vše je zde převyprávěno vlastními slovy; odkazy na pravidla otevírají průvodce pravidly ClayArena.",
+        "pl": "Parcours de Chasse – Sporting™ to dyscyplina FITASC, która naśladuje polowanie w naturalnym terenie. Ta misja prowadzi cię przez jej przepisy tak, jak stosuje je sędzia: serie i stanowiska, start z bronią opuszczoną, rzutki pojedyncze i dublety, pokaz rzutków, awarie i limity czasu. Wszystko to jest omówienie własnymi słowami; odnośniki do przepisów otwierają przewodnik po przepisach ClayArena.",
+        "pt": "O Parcours de Chasse – Sporting™ é a disciplina da FITASC que imita a caça em terreno natural. Esta missão percorre as suas regras tal como um árbitro as aplica: séries e postos, a partida com arma em baixo, simples e doubles, a mostra dos pratos, as deficiências e os limites de tempo. Tudo aqui é uma paráfrase; as referências às regras abrem o guia de regras da ClayArena.",
+        "hu": "A Parcours de Chasse – Sporting™ az a FITASC-versenyszám, amely természetes terepen a vadászatot utánozza. Ez a küldetés úgy vezet végig a szabályain, ahogyan egy bíró alkalmazza őket: körök és lőállások, leengedett fegyveres kezdés, szóló korongok és dublék, a korongok bemutatása, hibás működés és időkorlátok. Itt minden összefoglalás; a szabályhivatkozások a ClayArena szabályútmutatóját nyitják meg.",
+        "fi": "Parcours de Chasse – Sporting™ on FITASCin laji, joka jäljittelee metsästystä luonnonmaastossa. Tässä tehtävässä käydään sen säännöt läpi niin kuin tuomari niitä soveltaa: kierrokset ja ampumapaikat, ase alhaalla -aloitus, yksittäis- ja kaksoiskiekot, näytekiekot, häiriöt ja aikarajat. Kaikki tässä on omin sanoin kerrottua; sääntöviittaukset avaavat ClayArenan sääntöoppaan.",
+        "lt": "Parcours de Chasse – Sporting™ yra FITASC disciplina, imituojanti medžioklę natūralioje vietovėje. Šioje misijoje jos taisykles aptarsime taip, kaip jas taiko teisėjas: serijos ir šaudymo vietos, pradžia nuleistu šautuvu, pavieniai taikiniai ir dubletai, taikinių parodymas, gedimai ir laiko ribos. Viskas čia yra perpasakojimas; nuorodos į taisykles atveria ClayArena taisyklių vadovą."
+      },
+      "lessons": [
+        "sporting-rounds-stands",
+        "sporting-gun-position",
+        "sporting-singles-doubles",
+        "sporting-viewing",
+        "sporting-malfunctions",
+        "sporting-time-and-lateness"
+      ]
+    },
+    {
+      "id": "compak",
+      "order": 9,
+      "icon": "grid",
+      "now": "topics/rules",
+      "title": {
+        "en": "Compak® Sporting rules",
+        "uk": "Правила Compak® Sporting",
+        "de": "Regeln des Compak® Sporting",
+        "fr": "Le règlement du Compak® Sporting",
+        "it": "Il regolamento del Compak® Sporting",
+        "cs": "Pravidla Compak® Sporting",
+        "pl": "Przepisy Compak® Sporting",
+        "pt": "Regras do Compak® Sporting",
+        "hu": "A Compak® Sporting szabályai",
+        "fi": "Compak® Sporting -säännöt",
+        "lt": "Compak® Sporting taisyklės"
+      },
+      "intro": {
+        "en": "Compak® Sporting packs the variety of Parcours de Chasse – Sporting™ into a small field: five stations in a line, six traps and a fixed rectangle the targets must fly over. Many rules look the same, but gun position, time limits, doubles and penalties differ. An interpreter who mixes the two disciplines up gives a shooter wrong information.",
+        "uk": "Compak® Sporting вміщує розмаїття Parcours de Chasse – Sporting™ на невеликому полі: п’ять місць у лінію, шість машинок і чітко визначений прямокутник, над яким мають пролітати мішені. Багато правил схожі, але положення рушниці, ліміти часу, дуплети й санкції відрізняються. Перекладач, який плутає ці дві дисципліни, дає стрільцеві хибну інформацію.",
+        "de": "Compak® Sporting bringt die Vielfalt von Parcours de Chasse – Sporting™ auf ein kleines Feld: fünf Schießpositionen in einer Reihe, sechs Wurfmaschinen und ein festes Rechteck, über das die Scheiben fliegen müssen. Viele Regeln sehen gleich aus, aber Flintenhaltung, Zeitlimits, Doubletten und Strafen unterscheiden sich. Ein Dolmetscher, der die beiden Disziplinen verwechselt, gibt dem Schützen falsche Informationen.",
+        "fr": "Le Compak® Sporting concentre la variété du Parcours de Chasse – Sporting™ sur un petit terrain : cinq pas de tir alignés, six lanceurs et un rectangle fixe que les plateaux doivent survoler. Beaucoup de règles se ressemblent, mais la position du fusil, les délais, les doublés et les pénalités diffèrent. Un interprète qui confond les deux disciplines donne au tireur de fausses informations.",
+        "it": "Il Compak® Sporting concentra la varietà del Parcours de Chasse – Sporting™ in un piccolo campo: cinque pedane in linea, sei macchine e un rettangolo fisso che i piattelli devono sorvolare. Molte regole sembrano uguali, ma posizione del fucile, limiti di tempo, doppi e penalizzazioni sono diversi. Un interprete che confonde le due discipline dà al tiratore informazioni sbagliate.",
+        "cs": "Compak® Sporting vměstná pestrost Parcours de Chasse – Sporting™ na malou plochu: pět stanovišť v řadě, šest vrhaček a pevný obdélník, nad kterým musí terče letět. Mnohá pravidla vypadají stejně, ale poloha zbraně, časové limity, dvojstřely a sankce se liší. Tlumočník, který si obě disciplíny splete, dá střelci chybné informace.",
+        "pl": "Compak® Sporting mieści różnorodność Parcours de Chasse – Sporting™ na małym polu: pięć stanowisk w linii, sześć wyrzutni i stały prostokąt, nad którym muszą przelatywać rzutki. Wiele przepisów wygląda tak samo, ale pozycja broni, limity czasu, dublety i kary są inne. Tłumacz, który pomyli obie dyscypliny, poda strzelcowi błędne informacje.",
+        "pt": "O Compak® Sporting concentra a variedade do Parcours de Chasse – Sporting™ num campo pequeno: cinco postos em linha, seis máquinas e um retângulo fixo que os pratos têm de sobrevoar. Muitas regras parecem iguais, mas a posição da arma, os limites de tempo, os doubles e as penalizações são diferentes. Um intérprete que confunda as duas disciplinas dá ao atirador informação errada.",
+        "hu": "A Compak® Sporting a Parcours de Chasse – Sporting™ változatosságát egy kis területre sűríti: öt lőállás egy vonalban, hat dobógép és egy kijelölt téglalap, amely fölött a korongoknak át kell repülniük. Sok szabály ugyanolyannak látszik, de a fegyver helyzete, az időkorlátok, a dublék és a büntetések eltérnek. Az a tolmács, aki összekeveri a két versenyszámot, téves információt ad a lövésznek.",
+        "fi": "Compak® Sporting tiivistää Parcours de Chasse – Sporting™ -lajin monipuolisuuden pienelle kentälle: viisi ampumapaikkaa rivissä, kuusi heitintä ja kiinteä suorakaide, jonka yli kiekkojen on lennettävä. Monet säännöt näyttävät samoilta, mutta aseen asento, aikarajat, kaksoiskiekot ja rangaistukset eroavat. Tulkki, joka sekoittaa nämä kaksi lajia, antaa ampujalle väärää tietoa.",
+        "lt": "Compak® Sporting sutalpina Parcours de Chasse – Sporting™ įvairovę į nedidelę aikštelę: penkios šaudymo vietos vienoje linijoje, šešios mašinėlės ir nustatytas stačiakampis, virš kurio turi skristi taikiniai. Daug taisyklių atrodo vienodai, bet šautuvo padėtis, laiko ribos, dubletai ir nuobaudos skiriasi. Vertėjas, supainiojęs šias dvi rungtis, pateikia šauliui klaidingą informaciją."
+      },
+      "lessons": [
+        "compak-layout-rotation",
+        "compak-gun-and-call",
+        "compak-singles-doubles",
+        "compak-malfunctions",
+        "compak-dress-and-conduct"
+      ]
+    },
+    {
+      "id": "referee",
+      "order": 10,
+      "icon": "whistle",
+      "now": "topics/rules",
+      "title": {
+        "en": "Referee, scoring and penalties",
+        "uk": "Суддя, підрахунок і покарання",
+        "de": "Schiedsrichter, Wertung und Strafen",
+        "fr": "Arbitre, comptage et pénalités",
+        "it": "Arbitro, punteggio e penalizzazioni",
+        "cs": "Rozhodčí, hodnocení a sankce",
+        "pl": "Sędzia, punktacja i kary",
+        "pt": "Árbitro, pontuação e penalizações",
+        "hu": "Bíró, pontozás és büntetések",
+        "fi": "Tuomari, pisteytys ja rangaistukset",
+        "lt": "Teisėjas, rezultatų skaičiavimas ir nuobaudos"
+      },
+      "intro": {
+        "en": "In a competition the referee is the person whose words you will translate most often and most carefully. This mission gives you the spoken calls, the score card, the cards and penalties, the protest procedure and the age categories, so that every decision reaches your shooter exactly as it was made.",
+        "uk": "На змаганнях саме слова судді ви перекладатимете найчастіше й найуважніше. У цій місії — команди на позиції, картка результатів, картки й покарання, порядок протесту та вікові категорії, щоб кожне рішення доходило до вашого стрільця точно таким, яким його ухвалили.",
+        "de": "Im Wettkampf ist der Schiedsrichter die Person, deren Worte Sie am häufigsten und am sorgfältigsten übersetzen werden. Diese Mission gibt Ihnen die gesprochenen Kommandos, die Ergebniskarte, die Karten und Strafen, das Protestverfahren und die Altersklassen, damit jede Entscheidung Ihren Schützen genau so erreicht, wie sie getroffen wurde.",
+        "fr": "En compétition, l'arbitre est la personne dont vous traduirez les paroles le plus souvent et avec le plus de soin. Cette mission vous donne les annonces orales, la feuille de marque, les cartons et pénalités, la procédure de réclamation et les catégories d'âge, pour que chaque décision parvienne à votre tireur exactement telle qu'elle a été prise.",
+        "it": "In gara l'arbitro è la persona di cui tradurrai le parole più spesso e con più attenzione. Questa missione ti dà le chiamate verbali, lo statino, i cartellini e le penalizzazioni, la procedura di reclamo e le categorie d'età, perché ogni decisione arrivi al tuo tiratore esattamente come è stata presa.",
+        "cs": "V soutěži je rozhodčí člověk, jehož slova budete překládat nejčastěji a nejpečlivěji. Tato mise vám dá jeho povely, položkový list, karty a sankce, postup při protestu a věkové kategorie, aby každé rozhodnutí dorazilo k vašemu střelci přesně tak, jak padlo.",
+        "pl": "Na zawodach to sędzia jest osobą, której słowa będziesz tłumaczyć najczęściej i najstaranniej. Ta misja daje ci wypowiadane komendy i decyzje, kartę wyników, kartki i kary, procedurę protestu i kategorie wiekowe, żeby każda decyzja docierała do twojego strzelca dokładnie taka, jaka zapadła.",
+        "pt": "Numa competição, o árbitro é a pessoa cujas palavras vai traduzir com mais frequência e mais cuidado. Esta missão dá-lhe as vozes de comando, a folha de marcação, os cartões e as penalizações, o procedimento de protesto e as categorias de idade, para que cada decisão chegue ao seu atirador exatamente como foi tomada.",
+        "hu": "Versenyen a bíró az, akinek a szavait a leggyakrabban és a legnagyobb gondossággal fogod fordítani. Ez a küldetés megadja az elhangzó bírói szavakat, az eredménylapot, a lapokat és büntetéseket, az óvási eljárást és a korcsoportokat, hogy minden döntés pontosan úgy jusson el a lövészedhez, ahogy meghozták.",
+        "fi": "Kilpailussa tuomari on se henkilö, jonka sanoja käännät useimmin ja huolellisimmin. Tässä tehtävässä opit suulliset ilmoitukset, tulospöytäkirjan, kortit ja rangaistukset, protestimenettelyn ja ikäsarjat, jotta jokainen ratkaisu tavoittaa ampujasi täsmälleen sellaisena kuin se tehtiin.",
+        "lt": "Varžybose teisėjas yra žmogus, kurio žodžius versite dažniausiai ir atidžiausiai. Ši misija supažindina su sakytinėmis komandomis, rezultatų kortele, kortelėmis ir nuobaudomis, protesto tvarka ir amžiaus kategorijomis, kad kiekvienas sprendimas pasiektų jūsų šaulį tiksliai toks, koks buvo priimtas."
+      },
+      "lessons": [
+        "referee-calls",
+        "referee-scoring",
+        "referee-cards",
+        "referee-appeals",
+        "referee-categories"
+      ]
+    },
+    {
+      "id": "etiquette",
+      "order": 11,
+      "icon": "shield",
+      "now": "topics/safety",
+      "title": {
+        "en": "Safety and etiquette",
+        "uk": "Безпека й етикет",
+        "de": "Sicherheit und Etikette",
+        "fr": "Sécurité et étiquette",
+        "it": "Sicurezza ed etichetta",
+        "cs": "Bezpečnost a etiketa",
+        "pl": "Bezpieczeństwo i etykieta",
+        "pt": "Segurança e etiqueta",
+        "hu": "Biztonság és etikett",
+        "fi": "Turvallisuus ja etiketti",
+        "lt": "Sauga ir etiketas"
+      },
+      "intro": {
+        "en": "On a shooting ground safety comes before any translation, and good manners keep the squad calm and focused. This mission shows how guns are handled, how people behave around the stand and in a squad, and what everyone, including you, must wear.",
+        "uk": "На стрільбищі безпека важливіша за будь-який переклад, а добрі манери тримають групу спокійною й зосередженою. У цій місії — як поводяться з рушницею, як поводяться біля позиції й у групі та що мусять носити всі, зокрема й ви.",
+        "de": "Auf einer Schießanlage geht die Sicherheit jeder Übersetzung vor, und gute Umgangsformen halten die Rotte ruhig und konzentriert. Diese Mission zeigt, wie mit Flinten umgegangen wird, wie man sich am Stand und in der Rotte verhält und was alle tragen müssen – auch Sie.",
+        "fr": "Sur un stand de tir, la sécurité passe avant toute traduction, et les bonnes manières gardent la planche calme et concentrée. Cette mission montre comment on manipule les fusils, comment on se comporte autour du poste et dans une planche, et ce que chacun, vous compris, doit porter.",
+        "it": "Su un campo di tiro la sicurezza viene prima di qualsiasi traduzione, e le buone maniere mantengono la batteria calma e concentrata. Questa missione mostra come si maneggiano i fucili, come ci si comporta intorno alla pedana e in una batteria, e che cosa devono indossare tutti, te compreso.",
+        "cs": "Na střelnici má bezpečnost přednost před jakýmkoli překladem a dobré způsoby udržují skupinu klidnou a soustředěnou. Tato mise ukazuje, jak se zachází se zbraní, jak se lidé chovají u stanoviště a ve skupině a co musí mít na sobě všichni, včetně vás.",
+        "pl": "Na strzelnicy bezpieczeństwo jest ważniejsze od każdego tłumaczenia, a dobre maniery utrzymują w grupie spokój i skupienie. Ta misja pokazuje, jak obchodzi się z bronią, jak zachowywać się przy stanowisku i w grupie oraz co musi nosić każdy, łącznie z tobą.",
+        "pt": "Num campo de tiro, a segurança vem antes de qualquer tradução, e as boas maneiras mantêm a esquadra calma e concentrada. Esta missão mostra como se manuseiam as armas, como as pessoas se comportam à volta do posto e numa esquadra, e o que todos, incluindo o intérprete, têm de usar.",
+        "hu": "A lőtéren a biztonság minden fordítást megelőz, a jó modor pedig nyugodtan és koncentráltan tartja a rottét. Ez a küldetés megmutatja, hogyan kell bánni a fegyverekkel, hogyan viselkednek az emberek a lőállás körül és a rottében, és mit kell viselnie mindenkinek – neked is.",
+        "fi": "Ampumaradalla turvallisuus menee kaiken kääntämisen edelle, ja hyvät tavat pitävät erän rauhallisena ja keskittyneenä. Tässä tehtävässä näet, miten aseita käsitellään, miten ampumapaikan lähellä ja erässä käyttäydytään ja mitä kaikkien, myös sinun, on pidettävä yllä.",
+        "lt": "Šaudykloje sauga svarbiau už bet kokį vertimą, o geros manieros padeda grupei išlikti ramiai ir susikaupusiai. Ši misija parodo, kaip elgiamasi su šautuvais, kaip žmonės elgiasi prie šaudymo vietos ir grupėje ir ką turi dėvėti visi, įskaitant jus."
+      },
+      "lessons": [
+        "etiquette-gun-safety",
+        "etiquette-on-the-stand",
+        "etiquette-squad",
+        "etiquette-protection-and-dress"
+      ]
+    },
+    {
+      "id": "interpreter",
+      "order": 12,
+      "icon": "speech",
+      "now": "topics/stand-talk",
+      "title": {
+        "en": "The interpreter at work",
+        "uk": "Перекладач за роботою",
+        "de": "Der Dolmetscher im Einsatz",
+        "fr": "L'interprète au travail",
+        "it": "L'interprete al lavoro",
+        "cs": "Tlumočník při práci",
+        "pl": "Tłumacz przy pracy",
+        "pt": "O intérprete em ação",
+        "hu": "A tolmács munka közben",
+        "fi": "Tulkki työssä",
+        "lt": "Vertėjas darbe"
+      },
+      "intro": {
+        "en": "Everything you have learned comes together here: what you may and may not say, where to stand, the words that trick even experienced linguists, numbers and units, British and American vocabulary, and finally a full training session from the first “good morning” to the debrief.",
+        "uk": "Тут сходиться все, що ви вивчили: що можна й чого не можна казати, де стояти, слова, на яких помиляються навіть досвідчені лінгвісти, числа й одиниці, британська та американська лексика і, нарешті, ціле тренування — від першого «доброго ранку» до розбору.",
+        "de": "Hier kommt alles zusammen, was Sie gelernt haben: was Sie sagen dürfen und was nicht, wo Sie stehen, die Wörter, die selbst erfahrene Sprachprofis hereinlegen, Zahlen und Einheiten, britischer und amerikanischer Wortschatz und schließlich ein ganzes Training vom ersten „Guten Morgen“ bis zur Nachbesprechung.",
+        "fr": "Tout ce que vous avez appris se rejoint ici : ce que vous pouvez dire ou non, où vous placer, les mots qui piègent même les linguistes expérimentés, les nombres et les unités, le vocabulaire britannique et américain, et enfin une séance d'entraînement complète, du premier « bonjour » au débriefing.",
+        "it": "Qui si unisce tutto ciò che hai imparato: che cosa puoi e non puoi dire, dove metterti, le parole che ingannano anche i linguisti esperti, numeri e unità di misura, il lessico britannico e americano e, infine, un'intera sessione di allenamento dal primo «buongiorno» al resoconto finale.",
+        "cs": "Tady se spojí vše, co jste se naučili: co smíte a nesmíte říkat, kde stát, slova, která nachytají i zkušené lingvisty, čísla a jednotky, britská a americká slovní zásoba a nakonec celý trénink od prvního „dobré ráno“ po závěrečný rozbor.",
+        "pl": "Tutaj łączy się wszystko, czego się nauczyłeś: co wolno, a czego nie wolno ci mówić, gdzie stać, słowa, które zwodzą nawet doświadczonych lingwistów, liczby i jednostki, słownictwo brytyjskie i amerykańskie, a na koniec cały trening, od pierwszego „dzień dobry” do podsumowania.",
+        "pt": "Tudo o que aprendeu junta-se aqui: o que pode e não pode dizer, onde se colocar, as palavras que enganam até linguistas experientes, números e unidades, o vocabulário britânico e americano e, por fim, uma sessão de treino completa, do primeiro «bom dia» à análise final.",
+        "hu": "Itt áll össze minden, amit eddig megtanultál: mit mondhatsz és mit nem, hol állj, mely szavak csapják be még a tapasztalt nyelvészeket is, számok és mértékegységek, brit és amerikai szókincs, végül pedig egy teljes edzés az első „jó reggelt”-től a záró megbeszélésig.",
+        "fi": "Tässä kaikki oppimasi kokoontuu yhteen: mitä saat sanoa ja mitä et, missä seistä, sanat, jotka hämäävät kokeneitakin kielenammattilaisia, luvut ja yksiköt, brittiläinen ja amerikkalainen sanasto ja lopuksi kokonainen harjoitus ensimmäisestä ”huomenta” -tervehdyksestä loppukeskusteluun.",
+        "lt": "Čia susijungia viskas, ką išmokote: ką galima ir ko negalima sakyti, kur stovėti, žodžiai, kurie suklaidina net patyrusius kalbininkus, skaičiai ir matavimo vienetai, britų ir amerikiečių žodynas ir galiausiai visa treniruotė nuo pirmojo „labas rytas“ iki aptarimo."
+      },
+      "lessons": [
+        "interpreter-role",
+        "interpreter-position",
+        "interpreter-false-friends",
+        "interpreter-numbers-and-units",
+        "interpreter-english-sporting-vs-fitasc",
+        "interpreter-session-script"
+      ]
+    }
+  ]
+}

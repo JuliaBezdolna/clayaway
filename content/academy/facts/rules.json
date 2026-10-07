@@ -1,0 +1,205 @@
+{
+  "_note": "Rules facts of the ClayArena Academy: one number in one place (design §6.5). Used in lesson texts as {{fact:rules.<id>}}; the text is a fragment that fits into a sentence in each language. Every number is checked against docs/rules/data (FITASC editions of 01/01/2025) and the official FITASC rules page. scope = sporting | compak | both; rule_refs = the rules guide items behind the number (one per book when both disciplines share it). These are the shared rule facts of all blocks: on 2026-10-07 the duplicates kept in other block files (mind, safety, stand-talk, technique, training, watch, basics) were merged here, and the gun and cartridge limits stay in the gear block (gear.fitasc-max-gauge, gear.fitasc-min-barrel, gear.fitasc-shot-load, gear.fitasc-shot-diameter). Before adding a number, look for it here and in gear.json.",
+  "sporting-jacket-line": {
+    "text": {
+      "en": "25 cm below the shoulder axis",
+      "uk": "на 25 см нижче осі плеча"
+    },
+    "scope": "sporting",
+    "rule_refs": [
+      "sporting:ch3-jacket-line"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "release-within-3s": {
+    "text": {
+      "en": "within 3 seconds",
+      "uk": "протягом 3 секунд"
+    },
+    "scope": "both",
+    "rule_refs": [
+      "sporting:ch5-call-and-release",
+      "compak:ch2-trigger-manual"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "sporting-time-between-targets": {
+    "text": {
+      "en": "at most 15 seconds between singles or between doubles",
+      "uk": "щонайбільше 15 секунд між одиночними мішенями або між дуплетами"
+    },
+    "scope": "sporting",
+    "rule_refs": [
+      "sporting:ch7-fifteen-seconds"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-time-to-call": {
+    "text": {
+      "en": "at most 10 seconds to call, counted from the shot at the previous station's target",
+      "uk": "щонайбільше 10 секунд на команду, рахуючи від пострілу по мішені попереднього номера"
+    },
+    "scope": "compak",
+    "rule_refs": [
+      "compak:ch21-firing-time"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "sporting-resume-after-ruling": {
+    "text": {
+      "en": "within 15 seconds",
+      "uk": "протягом 15 секунд"
+    },
+    "scope": "sporting",
+    "rule_refs": [
+      "sporting:ch10-resume-15s"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-resume-after-ruling": {
+    "text": {
+      "en": "within 10 seconds",
+      "uk": "протягом 10 секунд"
+    },
+    "scope": "compak",
+    "rule_refs": [
+      "compak:ch21-refusal-to-comply"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "shootoff-ready-time": {
+    "text": {
+      "en": "within 15 minutes of the call",
+      "uk": "протягом 15 хвилин після виклику"
+    },
+    "scope": "both",
+    "rule_refs": [
+      "sporting:ch18-squad-and-timing",
+      "compak:ch14-shootoff-availability"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "round-targets": {
+    "text": {
+      "en": "25 targets",
+      "uk": "25 мішеней"
+    },
+    "scope": "both",
+    "rule_refs": [
+      "sporting:ch16-format",
+      "compak:ch17-round-combinations"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "reshow-after-interruption": {
+    "text": {
+      "en": "more than 10 minutes",
+      "uk": "понад 10 хвилин"
+    },
+    "scope": "both",
+    "rule_refs": [
+      "sporting:ch16-long-interruption",
+      "compak:ch17-squad-show-targets"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "dress-shorts-length": {
+    "text": {
+      "en": "no more than 5 cm above the knee",
+      "uk": "не вище ніж на 5 см над коліном"
+    },
+    "scope": "both",
+    "rule_refs": [
+      "sporting:ch17-dress-code",
+      "compak:ch7-dress-code"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "semi-auto-cartridges": {
+    "text": {
+      "en": "no more than two cartridges",
+      "uk": "не більше двох патронів"
+    },
+    "scope": "both",
+    "rule_refs": [
+      "sporting:ch8-loading",
+      "compak:ch18-semi-auto"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "sporting-jury-deposit": {
+    "text": {
+      "en": "40% of the entry fee",
+      "uk": "40% стартового внеску"
+    },
+    "scope": "sporting",
+    "rule_refs": [
+      "sporting:ch9-jury-appeal"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "squad-max-shooters": {
+    "text": {
+      "en": "at most six shooters",
+      "uk": "щонайбільше шість стрільців"
+    },
+    "scope": "both",
+    "rule_refs": [
+      "sporting:ch16-squads",
+      "compak:ch17-squads-groups"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "sonopull-delay": {
+    "text": {
+      "en": "half a second",
+      "uk": "пів секунди"
+    },
+    "scope": "compak",
+    "rule_refs": [
+      "compak:ch2-trigger-manual"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "compak-repair-time": {
+    "text": {
+      "en": "two minutes",
+      "uk": "дві хвилини"
+    },
+    "scope": "compak",
+    "rule_refs": [
+      "compak:ch21-malfunction"
+    ],
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "targets-traps",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "ef239114",
+    "targets-traps-p1": "e299fc57",
+    "targets-traps-p2": "230871a5",
+    "targets-traps-p3": "0f4722a7",
+    "targets-traps-p4": "5f6e72fc",
+    "targets-traps-p5": "a5d1400f",
+    "targets-traps-kp1": "5d8f8aa8",
+    "targets-traps-kp2": "9837dbae",
+    "targets-traps-kp3": "2aaf4d92",
+    "targets-traps-kp4": "13f08f48",
+    "targets-traps-kp5": "d64923f1",
+    "targets-traps-ph1": "5b0d7a5c",
+    "targets-traps-ph2": "4e6e8b21",
+    "targets-traps-ph3": "0d6b05e9",
+    "targets-traps-q1": "9c53805a",
+    "targets-traps-q2": "9973e825",
+    "targets-traps-q3": "731ef20b",
+    "summary": "2ab98c5a"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Máquinas, lançamento e o operador",
+  "body": {
+    "targets-traps-p1": "Uma {{term:trap|máquina}} é o aparelho que lança os pratos. As máquinas podem ser manuais ou automáticas (as regras do {{tm:compak}} mencionam também as semi-automáticas). No {{tm:sporting}} as máquinas de um posto têm letras da esquerda para a direita, vistas do posto: A, B, C e assim por diante (o regulamento nomeia de A a D). No {{tm:compak}} as seis máquinas vão de A a F, cada uma com um painel com a letra.",
+    "targets-traps-p2": "O atirador pede o prato com um {{term:call|pedido}}: as regras indicam «pull» ou «ready», embora na prática as palavras variem. No {{tm:sporting}} o árbitro dá então um sinal sonoro ao {{term:trapper|operador da máquina}}, a pessoa que lança os pratos. O prato tem de sair no prazo de três segundos a partir desse sinal.",
+    "targets-traps-p3": "No {{tm:compak}} o prato pode ser lançado de três formas: à mão, por telecomando ou por um {{term:sonopull|sonopull}}. Um sonopull é um microfone que ouve o pedido do atirador e lança o prato sozinho. Com lançamento à mão, o prato sai 0 a 3 segundos depois do pedido; um sonopull espera sempre 0,5 segundos fixos. Nas provas internacionais «{{term:compak-in-line|em linha}}», em que cada atirador passa pelos postos 1 a 5 por ordem, usa-se apenas o sonopull, com {{term:electronic-refereeing|arbitragem eletrónica}} aprovada pela FITASC.",
+    "targets-traps-p4": "Um lançamento por voz tem um microfone no posto. A sua própria voz pode acioná-lo. Num posto assim, mantenha-se em silêncio enquanto o atirador está pronto: sussurre entre pratos ou afaste-se.",
+    "targets-traps-p5": "Os erros da máquina são No Bird nas duas disciplinas. Exemplos: um prato partido ao ser lançado, um da máquina errada, um lançado sem pedido, ou um lançado mais de três segundos tarde. No {{tm:sporting}} também é No Bird se saírem dois pratos das máquinas do mesmo posto quando se esperava um. No {{tm:compak}} é No Bird se outra máquina do mesmo campo lançar um prato por engano."
+  },
+  "note": {},
+  "phrases": {
+    "targets-traps-ph1": {
+      "meaning": "A trajetória da máquina mudou; o atirador deve comunicá-lo antes de atirar.",
+      "say": "A máquina B está a lançar mais baixo do que na mostra — diga ao árbitro."
+    },
+    "targets-traps-ph2": {
+      "meaning": "Um microfone lança os pratos; falar pode fazer sair um.",
+      "say": "Aqui o lançamento é por voz — nada de conversa no posto."
+    },
+    "targets-traps-ph3": {
+      "meaning": "O prato saiu mais de três segundos depois do pedido.",
+      "say": "O operador atrasou-se nesse — é nulo."
+    }
+  },
+  "key_points": {
+    "targets-traps-kp1": "Máquinas: A, B, C… num posto de {{tm:sporting}} (o regulamento nomeia de A a D), A–F num campo de Compak; mantenha as letras latinas.",
+    "targets-traps-kp2": "O pedido («pull», «ready») lança o prato.",
+    "targets-traps-kp3": "{{tm:sporting}}: o árbitro sinaliza o operador; o prato sai em 3 segundos.",
+    "targets-traps-kp4": "{{tm:compak}}: manual 0–3 s, telecomando, ou sonopull com atraso fixo de 0,5 s.",
+    "targets-traps-kp5": "Pratos atrasados, da máquina errada ou sem pedido são NULOS; um microfone pode ouvi-lo."
+  },
+  "quiz": {
+    "targets-traps-q1": {
+      "q": "No Sporting™, quanto tempo pode o prato demorar a sair depois do sinal do árbitro?",
+      "options": {
+        "a": "Até 1 segundo",
+        "b": "Até 3 segundos",
+        "c": "Até 10 segundos",
+        "d": "Qualquer tempo"
+      },
+      "explain": "Um prato lançado mais de três segundos depois é NULO."
+    },
+    "targets-traps-q2": {
+      "q": "Qual é o atraso fixo de um phono-pull de Compak®?",
+      "options": {
+        "a": "0 segundos",
+        "b": "3 segundos",
+        "c": "0,5 segundos",
+        "d": "É definido por cada atirador"
+      },
+      "explain": "O phono-pull tem de aplicar um atraso fixo e inalterável de 0,5 segundos."
+    },
+    "targets-traps-q3": {
+      "q": "Está num posto com lançamento por voz e o atirador está pronto. O que faz?",
+      "options": {
+        "a": "Traduz em voz alta para que ele o ouça",
+        "b": "Pede ao operador que espere um momento",
+        "c": "Repete por ele a voz de comando",
+        "d": "Fica em silêncio; só sussurra entre pratos"
+      },
+      "explain": "A sua voz pode acionar o microfone e lançar um prato que ninguém pediu."
+    }
+  },
+  "summary": "O que é uma máquina, como são identificadas por letras, como um pedido lança o prato no {{tm:sporting}} e no {{tm:compak}}, e que erros da máquina são No Bird."
+}

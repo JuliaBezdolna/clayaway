@@ -1,0 +1,139 @@
+{
+ "id": "technique-stance",
+ "lang": "fi",
+ "base_rev": 2,
+ "h": {
+  "title": "d1753cc6",
+  "summary": "cb1ee8e1",
+  "basics-stance-p1": "f095dc75",
+  "basics-stance-p3": "e41ec5a4",
+  "basics-stance-p2": "183cf7c1",
+  "basics-stance-p4": "26cfa672",
+  "technique-stance-balance": "9375aeba",
+  "technique-stance-safety": "b6090803",
+  "technique-stance-p5": "5f2cb1ca",
+  "basics-stance-sim": "63127f72",
+  "basics-stance-p5": "6bcb4702",
+  "basics-stance-ph1": "1ccb8c80",
+  "basics-stance-ph2": "6bb84eed",
+  "basics-stance-ph3": "d01ade1f",
+  "basics-stance-ph4": "6d8b4572",
+  "basics-stance-kp4": "d427448c",
+  "basics-stance-kp3": "ec040c37",
+  "basics-stance-kp1": "fa08b3eb",
+  "basics-stance-kp2": "f400f31a",
+  "technique-stance-kp4": "e97e74f4",
+  "technique-stance-dyk": "681e9e7b",
+  "basics-stance-q1": "4dda1d84",
+  "basics-stance-q2": "d0ec971c",
+  "basics-stance-q3": "182f6286",
+  "technique-stance-q1": "87e9a8fc",
+  "technique-stance-q2": "69f96e18",
+  "technique-stance-q3": "d6b8cb79"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Ampuma-asento: miten seisoa ampumapaikalla",
+ "summary": "Jalat, paino, polvet ja vartalon kierto: yksinkertainen, kompakti asento, joka antaa viedä asetta sujuvasti kiekon mukana.",
+ "body": {
+  "basics-stance-p1": "Ampuma-asento (stance) tarkoittaa sitä, miten ampuja seisoo ennen laukausta. Tilaa on vähän: {{tm:sporting}}-lajissa ampumapaikka on 1 m:n neliö tai ympyrä, ja molempien jalkojen täytyy olla sen sisällä ennen komentoa. {{tm:compak}}-lajissa joka numero on 1 m:n neliö, jossa on ampumakulman rajoitin (Firing Angle Limiter) — kehikko, joka estää ampujaa astumasta eteenpäin ja rajoittaa heilautusta.",
+  "basics-stance-p3": "Tärkein ohje: käännä etujalka kohti {{term:break-point|osumapistettä}}, kohtaa, jossa aiot rikkoa kiekon. Silloin vartalosi on rento ja osoittaa oikeaan suuntaan laukaushetkellä. Ennen komentoa kierrä ylävartalo lantiosta taaksepäin kohti {{term:hold-point|aloituskohtaa}}, paikkaa, jossa piiput odottavat kiekkoa. Kun kiekko lentää, kierryt yksinkertaisesti takaisin samaa tietä, kuin jousi, joka purkautuu. Jos jalkasi osoittavat heittimeen päin, valmentajat varoittavat, vartalosi ei pääse kiertymään tarpeeksi pitkälle osumapisteeseen asti, ja ase pysähtyy tai pääsi nousee.",
+  "basics-stance-p2": "Tavallinen perusasento: jalat suunnilleen hartioiden leveydellä, ja oikeakätisellä vasen jalka hieman edessä (vasenkätisellä päinvastoin). Polvet ovat joustavina, ei lukittuina. Paino on hieman edessä, noin 60 prosenttia etujalalla. Valmentajat sanovat ”nose over toes” — nenä varpaiden päällä.",
+  "basics-stance-p4": "Vartalo kiertyy lantiosta, ei käsistä. Jalkojen asento voi olla hieman erilainen joka kiekolle.",
+  "technique-stance-balance": "Hyvä asento pitää sinut tasapainossa, kun vartalo kiertyy kiekon mukana. Hieman eteenpäin nojaaminen auttaa myös ottamaan {{term:recoil|rekyylin}} vastaan sen sijaan, että se heittäisi sinua taaksepäin; ks. {{lesson:health-recoil-shoulder-neck}}.",
+  "technique-stance-safety": "Turvallisuus menee mukavuuden edelle. Pysy ampumapaikan sisällä, ja avaa ja tyhjennä ase, ennen kuin käännyt sillä. Tämä sääntö on sama molemmissa lajeissa.",
+  "technique-stance-p5": "Asento ei ole valokuvausasento. Valmentaja katsoo, miten seisot, ja korjaa yksityiskohdat: jalkojen leveyden, kulman ja nojan. Tämä oppitunti selittää perusteet; opettele itse tekniikka pätevän valmentajan kanssa.",
+  "basics-stance-sim": "Animaatio: pisteviivat näyttävät, miten etujalka osoittaa osumapisteeseen ja vartalo kiertyy taaksepäin aloituskohtaan."
+ },
+ "note": {
+  "basics-stance-p5": "Käännä ”front foot” ja ”back foot” etu- ja takajalkana, ei vasempana ja oikeana: ampujasi voi olla vasenkätinen."
+ },
+ "phrases": {
+  "basics-stance-ph1": {
+   "meaning": "Käännä etujalan kärki kohti kohtaa, jossa kiekko rikotaan.",
+   "say": "Etujalka kohti osumapistettä."
+  },
+  "basics-stance-ph2": {
+   "meaning": "Aseta ensin jalat osumapisteen mukaan ja kierrä sitten ylävartalo takaisin aloituskohtaan.",
+   "say": "Jalat osumapisteeseen, sitten kierrä takaisin aloituskohtaan."
+  },
+  "basics-stance-ph3": {
+   "meaning": "Nojaa hieman etujalan päälle äläkä lukitse polvia.",
+   "say": "Paino eteen, polvet joustaviksi."
+  },
+  "basics-stance-ph4": {
+   "meaning": "Koko ylävartalo kiertyy; kädet eivät heilauta asetta yksinään.",
+   "say": "Käänny lantiosta, älä käsistä."
+  }
+ },
+ "key_points": {
+  "basics-stance-kp4": "Etujalka osoittaa osumapisteeseen; kierry lantiosta taaksepäin aloituskohtaan.",
+  "basics-stance-kp3": "Jalat hartioiden leveydellä, polvet joustavina, paino hieman edessä.",
+  "basics-stance-kp1": "{{tm:sporting}}: molemmat jalat 1 m:n ampumapaikan sisällä ennen komentoa.",
+  "basics-stance-kp2": "{{tm:compak}}: 1 m:n numero, jossa on ampumakulman rajoitin.",
+  "technique-stance-kp4": "Avaa ja tyhjennä ase, ennen kuin käännyt sillä ampumapaikalla."
+ },
+ "quiz": {
+  "basics-stance-q1": {
+   "q": "Mihin valmentaja yleensä haluaa etujalan osoittavan?",
+   "options": {
+    "a": "Heittimeen",
+    "b": "Katsepisteeseen",
+    "c": "Tuomariin",
+    "d": "Osumapisteeseen"
+   },
+   "explain": "Osumapisteen mukaan asetetut jalat pitävät vartalon rentona siellä, missä laukaus tapahtuu; jos jalat osoittavat heittimeen, kierto loppuu kesken."
+  },
+  "basics-stance-q2": {
+   "q": "Mitä {{tm:sporting}}-säännöt vaativat jaloilta ennen komentoa?",
+   "options": {
+    "a": "Molemmat jalat ampumapaikan sisällä",
+    "b": "Etujalka ampumapaikan rajaviivalla",
+    "c": "Jalat yhdessä",
+    "d": "Ei mitään vaatimusta"
+   },
+   "explain": "Valmiusasennon sääntö vaatii, että molemmat jalat ovat 1 m:n ampumapaikan sisällä, ennen kuin pyydät kiekkoa."
+  },
+  "basics-stance-q3": {
+   "q": "Vasenkätinen ampuja. Valmentaja sanoo ”Open your front foot”. Kumpi jalka se on?",
+   "options": {
+    "a": "Vasen, kätisyydestä riippumatta",
+    "b": "Oikea: vasenkätisen etujalka",
+    "c": "Takajalka, lähempänä heitintä",
+    "d": "Molemmat jalat yhdessä"
+   },
+   "explain": "Vasenkätisellä etujalka on oikea jalka. Kun käännät ”front foot” sanalla ”etujalka”, vältät virheen."
+  },
+  "technique-stance-q1": {
+   "q": "Miten oikeakätinen ampuja yleensä asettaa jalkansa?",
+   "options": {
+    "a": "Vasen jalka hieman edessä",
+    "b": "Oikea jalka kaukana edessä",
+    "c": "Jalat yhdessä, kantapäät kiinni"
+   },
+   "explain": "Oikeakätinen laittaa vasemman jalan hieman edemmäs, vasenkätinen oikean."
+  },
+  "technique-stance-q2": {
+   "q": "Mihin pisteeseen jalat kannattaa asettaa?",
+   "options": {
+    "a": "Heittimen kohdalle",
+    "b": "Osumapisteeseen",
+    "c": "Erän odotuspaikkaan"
+   },
+   "explain": "Niin vartalo kiertyy helposti juuri siihen, missä rikot kiekon."
+  },
+  "technique-stance-q3": {
+   "q": "Missä ampujan jalkojen täytyy olla {{tm:sporting}}-lajissa ennen komentoa?",
+   "options": {
+    "a": "Missä tahansa lähellä paikkaa",
+    "b": "Molemmat ampumapaikan sisällä",
+    "c": "Toinen sisällä, toinen ulkona"
+   },
+   "explain": "{{tm:sporting}}-säännöt vaativat molempien jalkojen olevan ampumapaikan sisällä ennen komentoa."
+  }
+ },
+ "did_you_know": "{{tm:compak}}-numerolla ampumakulman rajoitin on usein yksinkertainen kehikko värillisistä muoviputkista. Se rajoittaa, kuinka kauas ase voi kiertyä sivulle, ylös ja alas."
+}

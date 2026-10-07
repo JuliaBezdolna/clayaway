@@ -1,0 +1,89 @@
+{
+  "id": "travel-planning-trip",
+  "lang": "cs",
+  "base_rev": 2,
+  "h": {
+    "title": "3c396c70",
+    "summary": "c6e3f110",
+    "travel-planning-trip-p1": "c93a0a65",
+    "travel-planning-trip-p2": "1b85f3fa",
+    "travel-planning-trip-p3": "93b81088",
+    "travel-planning-trip-p4": "c60f44f9",
+    "travel-planning-trip-p5": "93c19ef3",
+    "travel-planning-trip-p8": "82c3eb25",
+    "travel-planning-trip-p6": "1c509a78",
+    "travel-planning-trip-p7": "bc355698",
+    "travel-planning-trip-tip": "b26ab163",
+    "travel-planning-trip-kp1": "d64c61ea",
+    "travel-planning-trip-kp2": "2e3aa923",
+    "travel-planning-trip-kp3": "8e0514ca",
+    "travel-planning-trip-kp4": "4b5a3954",
+    "travel-planning-trip-kp5": "5946202c",
+    "travel-planning-trip-kp6": "dbb1c2c7",
+    "travel-planning-trip-dyk2": "6f6b5a5c",
+    "travel-planning-trip-q1": "880026b9",
+    "travel-planning-trip-q2": "aecc4829",
+    "travel-planning-trip-q3": "ad4ffcea"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Plánování cesty",
+  "summary": "Přihláška, ubytování blízko střelnice, transfery, doklady a včasný příjezd: z čeho se skládá dobrá cesta na soutěž {{tm:sporting}} nebo {{tm:compak}}.",
+  "body": {
+    "travel-planning-trip-p1": "Cesta na soutěž {{tm:sporting}} nebo {{tm:compak}} začíná jejím programem. Uvádí termíny, disciplíny, uzávěrku {{term:entry|přihlášek}} a {{term:entry-fee|startovné}}. Přihlašujete se přes {{term:organiser|pořadatele}}. Oblíbené soutěže se mohou naplnit dlouho před uzávěrkou, takže to neodkládejte.",
+    "travel-planning-trip-p2": "Hledejte ubytování blízko střelnice. Střelba často začíná brzy ráno a dlouhá cesta autem každý den bere síly. Pořadatelé často doporučují partnerské hotely. Rezervujte včas a zeptejte se v hotelu, zda přijímá hosty se sportovními zbraněmi a kde lze zbraň bezpečně uložit.",
+    "travel-planning-trip-p3": "Naplánujte transfery: z letiště do hotelu a každý den z hotelu na střelnici. Půjčené auto dává svobodu, ale přeprava zbraně autem má v každé zemi svá vlastní pravidla. Taxi může odmítnout cestujícího se zbraní a některé soutěže mají pro střelce kyvadlovou dopravu.",
+    "travel-planning-trip-p4": "Nejdéle trvá příprava dokladů na zbraň a náboje. Začněte několik týdnů předem, a pro cestu mimo EU ještě dřív: {{lesson:travel-gun-in-eu}}, {{lesson:travel-gun-outside-eu}} a {{lesson:travel-flying-with-guns}}. Pokud je vzít si vlastní zbraň příliš složité, zeptejte se na střelnici, zda zbraně půjčuje.",
+    "travel-planning-trip-p5": "Snažte se přijet o den až dva dřív. {{term:shooting-times|Časy střelby}} se udávají místním časem. Po letu přes několik časových pásem může tělo potřebovat víc dní: viz {{lesson:travel-jet-lag}}.",
+    "travel-planning-trip-p8": "Včasný příjezd dává i čas na trénink. Kde smíte trénovat, záleží na disciplíně.",
+    "travel-planning-trip-p6": {
+      "sporting": "Před soutěží nesmí nikdo trénovat na soutěžních {{term:layout|střelištích}} — stanovištích připravených pro akci. Trénovat můžete na jiných částech střelnice ({{rule:sporting:ch15-no-practice}}).",
+      "compak": "Trénovat smíte na letech terčů (trajektoriích) soutěže, ale podle jiné {{term:trajectory-setting-table|tabulky nastavení}}: schématu, které vrhačky se střílí z kterého stanoviště. Takže přesnou kombinaci, kterou budete střílet, netrénujete ({{rule:compak:ch6-practice}}). Na kontinentálních a světových {{term:championship|mistrovstvích}} se oficiální {{term:practice|trénink}} otevírá {{fact:training.compak-championship-practice}} ({{rule:compak:ch6-championship-practice}})."
+    },
+    "travel-planning-trip-p7": "Každý den střílení přijeďte na střelnici včas, protože {{term:lateness|pozdní příchod}} znamená ztracené terče. V {{tm:sporting}} se terče, na které jste nestihli, počítají jako nuly ({{rule:sporting:ch16-late-shooter}}). V {{tm:compak}} je to přísnější: pozdě příchozí střelec dostane 25 nul, celé kolo. Když střílíte ve {{term:squad|skupině}} (ta prochází kolo společně), jste pozdě ve chvíli, kdy první střelec vaší skupiny už vyvolal první terč ({{rule:compak:ch9-late-squad}}).",
+    "travel-planning-trip-tip": "Krátký seznam: doklady, pojištění, chrániče sluchu a brýle, oblečení podle počasí, program v místním čase a kontakty na pořadatele. Rezerva času je taky dobré pojištění."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "travel-planning-trip-kp1": "Přihlaste se včas: oblíbené soutěže se naplní.",
+    "travel-planning-trip-kp2": "Ubytujte se blízko střelnice a zeptejte se v hotelu, kde uložit zbraň.",
+    "travel-planning-trip-kp3": "S doklady na zbraň začněte týdny dopředu, pro cesty mimo EU ještě dřív.",
+    "travel-planning-trip-kp4": "Přijeďte o den až dva dřív; časy střelby jsou v místním čase.",
+    "travel-planning-trip-kp5": "Trénink před soutěží: v {{tm:sporting}} mimo soutěžní střeliště; v {{tm:compak}} na soutěžních terčích, ale podle jiné tabulky nastavení (schéma vrhaček na stanoviště).",
+    "travel-planning-trip-kp6": "Vezměte si doklady, pojištění, chrániče sluchu a brýle a oblečení podle počasí."
+  },
+  "did_you_know": "Časy střelby se během akce mohou posouvat, pokud dojde ke zpoždění. V {{tm:compak}} pravidla ukládají sledování těchto změn samotnému střelci ({{rule:compak:ch8-shooting-times}}).",
+  "quiz": {
+    "travel-planning-trip-q1": {
+      "q": "Které tvrzení o tréninku před soutěží je pravdivé?",
+      "options": {
+        "a": "V {{tm:sporting}} smíte trénovat na soutěžních střelištích",
+        "b": "V {{tm:compak}} se před soutěží nesmí trénovat vůbec",
+        "c": "V {{tm:sporting}} se smí trénovat jen na jiných částech střelnice"
+      },
+      "explain": "V {{tm:sporting}} jsou soutěžní střeliště pro trénink uzavřená, takže se trénuje na jiných částech střelnice. V {{tm:compak}} smíte trénovat na soutěžních letech terčů podle jiné tabulky nastavení; na mistrovstvích se oficiální trénink otevírá {{fact:training.compak-championship-practice}}."
+    },
+    "travel-planning-trip-q2": {
+      "q": "Proč plánovat příjezd den až dva před soutěží?",
+      "options": {
+        "a": "Abyste se zabydleli, přizpůsobili místnímu času a potrénovali",
+        "b": "Abyste zaplatili nižší startovné za včasný příjezd",
+        "c": "Abyste si sami vybrali skupinu a čas startu"
+      },
+      "explain": "Tělo po dlouhé cestě potřebuje čas a včasný příjezd umožňuje klidně se připravit."
+    },
+    "travel-planning-trip-q3": {
+      "q": "V jakém čase se udává harmonogram střelby?",
+      "options": {
+        "a": "V čase vaší domovské země",
+        "b": "V místním čase místa konání",
+        "c": "V UTC, stejném ve všech zemích"
+      },
+      "explain": "Rozvrh je v místním čase, takže si po letu zkontrolujte hodiny v telefonu."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_note": "Record of the one-time migration (scripts/migrate_academy.mjs). The old sources docs/learn/data and docs/interpreter/src are frozen from now on: edit content/academy only.",
+  "date": "2026-10-07",
+  "counts": {
+    "old_lessons": {
+      "learn": 123,
+      "interpreter": 63
+    },
+    "masters": 142,
+    "new_lessons": 13,
+    "merged": {
+      "learn": 16,
+      "interpreter": 41
+    },
+    "merge_targets": 45,
+    "lessons_with_overlays": 56,
+    "overlay_files": 504,
+    "draft_blocks": 408,
+    "new_terms_pending": 35,
+    "term_defs_to_compare": 17,
+    "law_tables": 5,
+    "redirect_stubs": 737,
+    "badges": 55
+  },
+  "warnings": []
+}

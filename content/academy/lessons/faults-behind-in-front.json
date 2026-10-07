@@ -1,0 +1,402 @@
+{
+  "id": "faults-behind-in-front",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "faults-behind-in-front"
+    ]
+  },
+  "terms": [
+    "lead",
+    "crosser",
+    "dropping-target",
+    "visible-piece",
+    "one",
+    "zero",
+    "miss-behind",
+    "miss-in-front",
+    "miss-over",
+    "miss-under",
+    "chip",
+    "smoked-it",
+    "pattern"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch6-target-one"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-target-zero"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-one"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-zero"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Behind, in front, over, under, chipped",
+    "uk": "Позаду, попереду, вище, нижче, зачепив"
+  },
+  "summary": {
+    "en": "What “behind”, “in front”, “over”, “under” and “chipped” mean, what usually causes each miss, and how a chipped target is scored.",
+    "uk": "Що означають «позаду», «попереду», «вище», «нижче» і «зачепив», що зазвичай спричиняє кожен промах і як зараховують мішень зі сколом."
+  },
+  "body": [
+    {
+      "k": "faults-behind-in-front-p1",
+      "t": "p",
+      "core": true,
+      "en": "Each miss has a direction. A coach watching from behind the shooter usually says first where the shot went compared with the clay, and only then why.",
+      "uk": "Кожен промах має напрям. Тренер, який стоїть позаду стрільця, зазвичай спершу каже, куди пішов дріб відносно мішені, і лише потім — чому."
+    },
+    {
+      "k": "faults-behind-in-front-p2",
+      "t": "p",
+      "core": true,
+      "en": "Behind means the shot passed behind a moving target: not enough lead, or a gun that slowed down. It is a very common miss on crossers. In front is the opposite: too much lead, often after the shooter over-corrected. Many coaches like a miss in front: it shows the gun kept moving.",
+      "uk": "Behind («позаду») — дріб пройшов позаду рухомої мішені: забракло виносу (упередження) або рушниця сповільнилася. Це дуже частий промах на поперечних мішенях. In front («попереду») — навпаки: завеликий винос, часто після того, як стрілець перестарався з виправленням. Багатьох тренерів промах попереду навіть тішить: отже, рушниця не зупинялася."
+    },
+    {
+      "k": "faults-behind-in-front-p3",
+      "t": "p",
+      "core": true,
+      "en": "Over (also 'high', 'over the top') and under ('low') describe the vertical miss. Over is common on dropping targets, rabbits and incomers, and is often linked to the head coming off the stock. Under is typical on rising targets that are still climbing at the shot.",
+      "uk": "Over («вище»; також high, over the top) і under («нижче», low) — промахи по вертикалі. Вище — частий промах на мішенях, що падають, на кролику (rabbit) і на зустрічних мішенях; часто його спричиняє голова, яка відривається від приклада. Нижче — типово на мішенях, які ще набирають висоту в момент пострілу."
+    },
+    {
+      "k": "faults-behind-in-front-p4",
+      "t": "p",
+      "core": true,
+      "en": "Chipped means only a small piece came off. For the coach it is half praise, half correction: the clay was caught by the edge of the {{term:pattern|pattern}}, the cloud of shot. For the referee it is a hit, as long as the piece is visible. Watch out for one rule detail. A clay that breaks, even if it turns wholly or partly to dust, is a hit in both disciplines. A clay that flies on in one piece and gives off only a puff of dust or smoke, with no visible piece, is a miss (zero). In coach slang 'smoked it' means a perfect, centred hit that turns the clay to dust, and 'dusted it' is heard in both senses, so ask when unsure.",
+      "uk": "Chipped («зачепив», «скол») — відлетів лише маленький уламок. Для тренера це наполовину похвала, наполовину зауваження: мішень зачепило краєм {{term:pattern|осипу}} — хмари дробу. Для судді це влучання, якщо уламок видно. Тут є одна тонкість правил. Мішень, яка розбилася, навіть якщо вона повністю чи частково перетворилася на пил, — влучання в обох дисциплінах. Мішень, що летить далі цілою й лише пускає хмарку пилу чи диму без жодного видимого уламка, — промах (zero). Тренерським сленгом «smoked it» — влучання точно по центру, коли мішень розлітається на пил, а «dusted it» вживають в обох значеннях, тож перепитайте.",
+      "disc": "both"
+    },
+    {
+      "k": "technique-follow-through-and-mistakes-p5",
+      "t": "tip",
+      "en": "Many of these misses are easy to see from outside. A coach standing behind you sees where the shot went and what your head, hands and feet did. On your own you may fix the wrong thing: a shot behind from a stopped gun is not cured by more lead.",
+      "uk": "Багато з цих промахів добре видно збоку. Тренер, який стоїть позаду, бачить, куди пішов дріб і що зробили ваші голова, руки й ноги. Самостійно легко «лікувати» не ту помилку: промах позаду через зупинену рушницю більшим виносом не виправити."
+    }
+  ],
+  "note": [
+    {
+      "k": "faults-behind-in-front-n1",
+      "for": "interpreter",
+      "en": "Pass the direction on at once: the shooter is already preparing for the next target.",
+      "uk": "Передавайте напрям миттєво й без прикрас: стрілець уже готується до наступної мішені."
+    },
+    {
+      "k": "faults-behind-in-front-p5",
+      "for": "interpreter",
+      "en": "Keep the coach's order: direction, cause, fix. If the coach says 'behind, you stopped', the cause matters more: a shooter who hears only 'behind' will add lead, which does not cure a stopped gun.",
+      "uk": "Зберігайте порядок тренера: напрям, причина, виправлення. Якщо тренер каже «behind, you stopped», причина важливіша за напрям: стрілець, який почує лише «позаду», додасть виносу, а це не вилікує зупинену рушницю.",
+      "core": true
+    }
+  ],
+  "phrases": [
+    {
+      "k": "faults-behind-in-front-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Behind, give it more.",
+      "meaning": {
+        "en": "The shot passed behind the clay; increase the lead.",
+        "uk": "Дріб пройшов позаду мішені; треба більший винос."
+      },
+      "say": {
+        "uk": "Позаду — дайте більший винос."
+      }
+    },
+    {
+      "k": "faults-behind-in-front-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Just over the top, it was already dropping.",
+      "meaning": {
+        "en": "The shot went above because the clay was falling; shoot lower and in front.",
+        "uk": "Дріб пішов вище, бо мішень уже падала; стріляти нижче й попереду."
+      },
+      "say": {
+        "uk": "Трохи вище — вона вже падала."
+      }
+    },
+    {
+      "k": "faults-behind-in-front-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "In front this time, good, now a touch less.",
+      "meaning": {
+        "en": "Too much lead, but the gun was moving; reduce the lead slightly.",
+        "uk": "Завеликий винос, але рушниця рухалася; трохи зменшити винос."
+      },
+      "say": {
+        "uk": "Цього разу попереду — добре, тепер трохи менше."
+      }
+    },
+    {
+      "k": "faults-behind-in-front-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "You just chipped it, a little more in front.",
+      "meaning": {
+        "en": "Hit on the edge of the pattern; a bit more lead centres it.",
+        "uk": "Влучання краєм осипу; трохи більший винос — і буде по центру."
+      },
+      "say": {
+        "uk": "Зачепили краєм — трохи більше вперед."
+      }
+    },
+    {
+      "k": "faults-behind-in-front-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "Smoked it! Same again.",
+      "meaning": {
+        "en": "A perfect centred hit (slang, not the rules' 'smoke'); repeat exactly.",
+        "uk": "Влучання точно по центру (сленг, а не «дим» із правил); повторити так само."
+      },
+      "say": {
+        "uk": "Вщент! Так само ще раз."
+      }
+    },
+    {
+      "k": "faults-behind-in-front-ph6",
+      "speaker": "coach",
+      "core": true,
+      "en": "Behind, but you stopped, so don't just add lead.",
+      "meaning": {
+        "en": "The cause is a stopped gun; more lead alone will not help.",
+        "uk": "Причина — зупинена рушниця; самим виносом не допомогти."
+      },
+      "say": {
+        "uk": "Позаду, але ви зупинили рушницю — тож не просто додавайте винос."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "faults-behind-in-front-kp1",
+      "core": true,
+      "en": "The coach names the direction first: behind, in front, over, under.",
+      "uk": "Тренер спершу називає напрям: позаду, попереду, вище, нижче."
+    },
+    {
+      "k": "faults-behind-in-front-kp2",
+      "core": true,
+      "en": "Behind = too little lead or a slowing gun; in front = too much lead.",
+      "uk": "Позаду — замалий винос або рушниця сповільнилася; попереду — завеликий винос."
+    },
+    {
+      "k": "faults-behind-in-front-kp3",
+      "core": true,
+      "en": "A visible chip, or a clay turned to dust, is a hit; an intact clay giving off only dust or smoke is a zero.",
+      "uk": "Видимий скол чи мішень, розбита на пил, — влучання; ціла мішень лише з пилом чи димом — промах."
+    },
+    {
+      "k": "faults-behind-in-front-kp4",
+      "core": true,
+      "en": "'Smoked it' is coach praise, not the 'smoke' of the rules: do not mix them up.",
+      "uk": "«Smoked it» — похвала тренера, а не «дим» із правил: не плутайте їх."
+    },
+    {
+      "k": "faults-behind-in-front-kp5",
+      "core": true,
+      "en": "Fix the cause, not only the direction: more lead does not cure a stopped gun.",
+      "uk": "Виправляйте причину, а не лише напрям: більший винос не вилікує зупинену рушницю."
+    }
+  ],
+  "did_you_know": {
+    "k": "technique-follow-through-and-mistakes-dyk",
+    "en": "A coach often stands slightly behind and to one side of the shooter. From there it is easier to see the shot’s trail in the air and where it passed the target.",
+    "uk": "Тренер часто стоїть трохи позаду й збоку від стрільця. Звідти краще видно «слід» дробу в повітрі і те, де він пройшов відносно мішені."
+  },
+  "quiz": [
+    {
+      "k": "faults-behind-in-front-q1",
+      "q": {
+        "en": "The coach calls: 'Behind, you stopped!' What matters most for the next shot?",
+        "uk": "Тренер вигукує: «Behind, you stopped!» Що найважливіше для наступного пострілу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The cause: the gun stopped",
+          "uk": "Причину: рушниця зупинилася"
+        },
+        {
+          "k": "b",
+          "en": "Only the direction 'behind'",
+          "uk": "Лише напрям «позаду»"
+        },
+        {
+          "k": "c",
+          "en": "Nothing: you saw the miss yourself",
+          "uk": "Нічого: ви й так бачили промах"
+        },
+        {
+          "k": "d",
+          "en": "A request to add a lot more lead",
+          "uk": "Прохання додати набагато більше виносу"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Adding lead does not cure a stopped gun; the cause is what the shooter has to fix.",
+        "uk": "Додатковий винос не вилікує зупинену рушницю; виправляти треба саме причину."
+      }
+    },
+    {
+      "k": "faults-behind-in-front-q2",
+      "q": {
+        "en": "A small but clearly visible piece breaks off the clay. The coach says 'just chipped it'. How does the referee score it?",
+        "uk": "Від мішені відлетів маленький, але добре видимий уламок. Тренер каже «just chipped it». Як зарахує суддя?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Lost, because most of the clay flew on",
+          "uk": "Промах, бо більша частина мішені полетіла далі"
+        },
+        {
+          "k": "b",
+          "en": "No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "c",
+          "en": "Hit (one)",
+          "uk": "Влучання (one)"
+        },
+        {
+          "k": "d",
+          "en": "Hit only if the coach agrees",
+          "uk": "Влучання, лише якщо тренер погодиться"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "At least one visible piece makes the target a hit in both {{tm:sporting}} and {{tm:compak}}; the referee decides alone.",
+        "uk": "Хоча б один видимий уламок — це влучання і в {{tm:sporting}}, і в {{tm:compak}}; вирішує лише суддя."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch6-target-one"
+    },
+    {
+      "k": "faults-behind-in-front-q3",
+      "q": {
+        "en": "After a hit the coach shouts 'Smoked it!'. What does he mean?",
+        "uk": "Після влучання тренер вигукує «Smoked it!». Що він має на увазі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only dust came off, so it is lost",
+          "uk": "Піднявся лише пил, тож мішень не зараховано"
+        },
+        {
+          "k": "b",
+          "en": "A perfect, centred hit",
+          "uk": "Влучання точно по центру"
+        },
+        {
+          "k": "c",
+          "en": "It was a flash target",
+          "uk": "Це була мішень flash"
+        },
+        {
+          "k": "d",
+          "en": "The shooter should change cartridges",
+          "uk": "Стрільцеві варто змінити патрони"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In coach slang 'smoked it' is praise for a clay turned to dust, and the rules count that as a hit too. Only an intact clay that gives off a puff of dust or smoke, with no visible piece, is a zero.",
+        "uk": "Тренерським сленгом «smoked it» — похвала за мішень, розбиту на пил, і за правилами це теж влучання. Промах (zero) — лише ціла мішень, від якої піднялася хмарка пилу чи диму без видимого уламка."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "b5df14ce",
+    "summary": "75c43d32",
+    "faults-behind-in-front-p1": "0b3085f2",
+    "faults-behind-in-front-p2": "1087c812",
+    "faults-behind-in-front-p3": "90288cbf",
+    "faults-behind-in-front-p4": "368d7282",
+    "technique-follow-through-and-mistakes-p5": "decef069",
+    "faults-behind-in-front-n1": "0d081d1d",
+    "faults-behind-in-front-p5": "93f73996",
+    "faults-behind-in-front-kp1": "4321a867",
+    "faults-behind-in-front-kp2": "8165b0c9",
+    "faults-behind-in-front-kp3": "05239828",
+    "faults-behind-in-front-kp4": "00dbf6c4",
+    "faults-behind-in-front-kp5": "6f1da694",
+    "technique-follow-through-and-mistakes-dyk": "fdee6ee7",
+    "faults-behind-in-front-ph1": "302a05fc",
+    "faults-behind-in-front-ph2": "4775abe0",
+    "faults-behind-in-front-ph3": "d0e89681",
+    "faults-behind-in-front-ph4": "56766df6",
+    "faults-behind-in-front-ph5": "06d1d8f8",
+    "faults-behind-in-front-ph6": "3c2964ab",
+    "faults-behind-in-front-q1": "3145b989",
+    "faults-behind-in-front-q2": "6abd227d",
+    "faults-behind-in-front-q3": "282762b6"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/faults-behind-in-front.json (9 languages): re-sign the hash only, the translation stays valid (wording changed, meaning not): faults-behind-in-front-kp4; translate again (meaning or audit fix changed): faults-behind-in-front-p1, faults-behind-in-front-kp1, faults-behind-in-front-kp5, faults-behind-in-front-q1; moved from body to note, text unchanged: faults-behind-in-front-p5.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/faults-behind-in-front.json (9 languages): translate again (meaning or wording changed for readers): faults-behind-in-front-p4, faults-behind-in-front-kp3, faults-behind-in-front-q3; re-sign the hash only (wording changed, meaning not): faults-behind-in-front-p2.",
+      "Glossary (learn_terms.js + i18n, not a lesson file): align smoked-it with faults-behind-in-front-p4: a clay turned wholly or partly to dust is a hit in both disciplines (sporting:ch6-target-one, compak:ch20-one); only an intact clay that gives off a puff of dust or smoke with no visible piece is a zero (sporting:ch6-target-zero, compak:ch20-zero).",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in faults-behind-in-front-q2 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+ "id": "rules-hit-and-no-bird",
+ "lang": "fi",
+ "base_rev": 1,
+ "h": {
+  "title": "4794c74b",
+  "summary": "3e83dc06",
+  "rules-hit-and-no-bird-p1": "277f0b67",
+  "targets-hit-or-lost-p1": "b9ef7e75",
+  "targets-hit-or-lost-p2": "79ab83c6",
+  "targets-hit-or-lost-p3": "5d73bfd4",
+  "rules-hit-and-no-bird-cmp1": "53b14c69",
+  "rules-hit-and-no-bird-p5": "0ade6c15",
+  "rules-hit-and-no-bird-cmp2": "f1a043d3",
+  "rules-hit-and-no-bird-p6": "c54645e2",
+  "rules-hit-and-no-bird-p7": "f9ae3e0e",
+  "rules-hit-and-no-bird-cmp3": "b6fc783c",
+  "rules-hit-and-no-bird-tip1": "24b646d0",
+  "rules-hit-and-no-bird-n1": "ab0492bb",
+  "targets-hit-or-lost-p5": "ffcca686",
+  "targets-hit-or-lost-ph2": "fc9b62f4",
+  "targets-hit-or-lost-ph3": "c4348d9e",
+  "targets-hit-or-lost-ph4": "9b667f8d",
+  "targets-hit-or-lost-kp1": "bdfb734e",
+  "targets-hit-or-lost-kp2": "13eb98a1",
+  "targets-hit-or-lost-kp3": "92a918aa",
+  "rules-hit-and-no-bird-kp3": "2a1721c2",
+  "rules-hit-and-no-bird-kp5": "349a6284",
+  "rules-hit-and-no-bird-dyk": "d7a6a51a",
+  "rules-hit-and-no-bird-q1": "3cd36c18",
+  "rules-hit-and-no-bird-q2": "bfbdfb6e",
+  "rules-hit-and-no-bird-q3": "bdbc54bd",
+  "competitions-scoring-basics-q3": "aa26aace",
+  "targets-hit-or-lost-q1": "dc9c7876",
+  "targets-hit-or-lost-q3": "73a4d8e6"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Mikä lasketaan osumaksi ja mikä on uusi kiekko",
+ "summary": "{{tm:sporting}}- ja {{tm:compak}}-lajeissa kiekko on osuma, jos siitä irtoaa ainakin yksi näkyvä pala; pelkkä pöly on ohilaukaus. Uusi kiekko ei lasketa, ja se heitetään uudelleen.",
+ "body": {
+  "rules-hit-and-no-bird-p1": "{{tm:sporting}}- ja {{tm:compak}}-lajeissa joka kiekolla on vain kaksi mahdollista tulosta: ”one” (osuma) tai ”zero” (ohilaukaus). Puolipisteitä ei ole.",
+  "targets-hit-or-lost-p1": "Kiekko merkitään ”one”, kun kolme asiaa pätee. Se heitettiin oikein, ampuja ampui sääntöjen mukaan, ja siitä irtosi ainakin yksi {{term:visible-piece|näkyvä pala}} (myös täysin hajonnut kiekko lasketaan). Sama sääntö pätee {{term:flash-target|pölykiekkoihin}} (kiekkoihin, joista irtoaa värillistä pölypilveä osuman yhteydessä). Kiekko on ”zero” (ohilaukaus), kun siitä ei irtoa näkyvää palaa ja on vain pölyä tai savua.",
+  "targets-hit-or-lost-p2": "Koko sääntö kääntyy siis yhden näkymän varaan: irtoava pala. Pieni {{term:chip|sirpale}}, joka lentää irti, lasketaan osumaksi. Pölypilvi, jonka jälkeen kiekko lentää eteenpäin ehjänä, on ohilaukaus.",
+  "targets-hit-or-lost-p3": "Vain {{term:referee|tuomari}} ratkaisee, oliko kiekko osuma. Erän jäsenet eivät saa esittää mielipiteitään, eikä kukaan saa nostaa kiekkoa tarkistaakseen sitä.",
+  "rules-hit-and-no-bird-cmp1": {
+   "sporting": "Riko kiekkosi paikassa, jossa tuomari näkee osuman. Jos kiekko hajoaa esteen takana tai {{term:shooting-limit|takarajan}} (alueen reunan, jonka sisällä osuma lasketaan) ulkopuolella, tuomari ratkaisee. Siitä ratkaisusta ei voi valittaa. Pyytämällä seuraavaa kiekkoa hyväksyt edellistä koskevan ratkaisun.",
+   "compak": "Tuomari ilmoittaa joka nollan ääneen tai äänimerkillä. Vastusta heti, ennen kuin seuraava ampuja pyytää kiekkoa."
+  },
+  "rules-hit-and-no-bird-p5": "{{term:no-bird|Uusi kiekko}} on kiekko, jota ei lasketa ja joka heitetään uudelleen. Tuomari ilmoittaa sen, kun kiekko heitetään rikkinäisenä, väärästä heittimestä tai väärän värisenä ({{tm:sporting}}-lajissa myös väärän kokoisena tai tyyppisenä). Muita syitä ovat epäsäännöllinen lentorata, yli 3 sekuntia myöhässä laukaistu kiekko (ks. {{lesson:rules-call-and-time}}) tai kiekko, jota ei pyydetty. Uusi kiekko ilmoitetaan myös, kun jokin selvästi häiritsi ampujaa, tai kun tuomari ei voi arvioida tulosta.",
+  "rules-hit-and-no-bird-cmp2": {
+   "sporting": "Kaksi kiekkoa, jotka lähtevät saman ampumapaikan heittimistä yhtä aikaa, on myös uusi kiekko.",
+   "compak": "Huono sää ei anna uutta kiekkoa, olivat olosuhteet mitkä tahansa. Kiekko tai palat, jotka lentävät viereiseltä {{tm:compak}}-{{term:layout|rataosuudelta}} (vierestä kentästä), eivät sitäkään anna. Eksynyt kiekko omalta rataosuudeltasi antaa."
+  },
+  "rules-hit-and-no-bird-p6": "Uuden kiekon jälkeen yksittäiskiekko heitetään yksinkertaisesti uudelleen. Kaksoiskiekossa se riippuu siitä, kumpi kiekko oli epäsäännöllinen: ks. {{lesson:rules-doubles}}.",
+  "rules-hit-and-no-bird-p7": "Kun tuomari on ilmoittanut uuden kiekon, siihen ei saa ampua. Ensimmäisen varoituksen jälkeen tämän tekemisestä rangaistaan molemmissa lajeissa; miten kiekot sitten pisteytetään, kerrotaan säännöt-oppaassa.",
+  "rules-hit-and-no-bird-cmp3": {
+   "sporting": "Äkillisen, lyhyeksi näyttävän voimakkaan sateen tai myrskyn aikana tuomari voi keskeyttää ampumisen. Jos se kestää pidempään, tuomari ilmoittaa asiasta jurylle.",
+   "compak": "Vain ylituomari saa keskeyttää ampumisen äkillisen rankkasateen tai myrskyn vuoksi. Jos se voi kestää pidempään, jurylle ilmoitetaan."
+  },
+  "rules-hit-and-no-bird-tip1": "Jos mielestäsi ratkaisu oli väärä, nosta käsi ja sano se ennen seuraavaa komentoa. Myöhempi riitely ei muuta tulosta; miten protesti toimii, kerrotaan {{lesson:competitions-results-and-protests}}."
+ },
+ "note": {
+  "rules-hit-and-no-bird-n1": "Valmentajien slangi voi tarkoittaa sääntöjen vastakohtaa. {{term:smoked-it|”Smoked it”}} kuvaa erittäin siistiä osumaa, kun säännöissä ”vain pölyä tai savua” on ohilaukaus. Lisää: {{lesson:interpreter-false-friends}}.",
+  "targets-hit-or-lost-p5": "Myös: ”dead” tarkoittaa osumaa ja ”lost” ohilaukausta; älä käännä niitä sana sanasta."
+ },
+ "phrases": {
+  "targets-hit-or-lost-ph2": {
+   "meaning": "Pieni näkyvä pala irtosi, joten se on osuma.",
+   "say": "Osuma – vain sirpale, mutta se lasketaan."
+  },
+  "targets-hit-or-lost-ph3": {
+   "meaning": "Ohi; laukaus meni kiekon taakse.",
+   "say": "Ohi – olit juuri sen takana."
+  },
+  "targets-hit-or-lost-ph4": {
+   "meaning": "Vastalause on tehtävä heti; seuraavan kiekon pyytäminen hyväksyy ratkaisun.",
+   "say": "Älä väittele kanssani myöhemmin – sano se nyt, ennen kuin pyydät."
+  }
+ },
+ "key_points": {
+  "targets-hit-or-lost-kp1": "”One”: ainakin yksi näkyvä pala irtosi kiekosta, tai se hajosi kokonaan.",
+  "targets-hit-or-lost-kp2": "”Zero”: ei näkyvää palaa, vain pölyä tai savua.",
+  "targets-hit-or-lost-kp3": "Vain tuomari ratkaisee; kiekkoa ei nosteta tarkistettavaksi; vastusta heti.",
+  "rules-hit-and-no-bird-kp3": "Uusi kiekko ei lasketa, ja se heitetään uudelleen; ilmoitettuun uuteen kiekkoon ei saa ampua.",
+  "rules-hit-and-no-bird-kp5": "{{tm:compak}}: huono sää ei anna uutta kiekkoa."
+ },
+ "quiz": {
+  "rules-hit-and-no-bird-q1": {
+   "q": "Laukauksen jälkeen kiekosta nousee vain pölyä, eikä palaa näy. Mikä on tulos?",
+   "options": {
+    "a": "One",
+    "b": "Uusi kiekko",
+    "c": "Zero"
+   },
+   "explain": "Osuma vaatii ainakin yhden näkyvän palan; pelkkä pöly tai savu on zero."
+  },
+  "rules-hit-and-no-bird-q2": {
+   "q": "Kuka ratkaisee, oliko kiekko osuma?",
+   "options": {
+    "a": "Vain tuomari",
+    "b": "Erän äänestys",
+    "c": "Ampuja itse"
+   },
+   "explain": "Tuomari ratkaisee yksin ja voi kysyä muilta neuvoa vain omasta aloitteestaan."
+  },
+  "rules-hit-and-no-bird-q3": {
+   "q": "{{tm:compak}}-lajissa alkaa rankkasade, ja osut ohi. Mikä on tulos?",
+   "options": {
+    "a": "Se on uusi kiekko",
+    "b": "Se on zero",
+    "c": "Uusi kiekko, jos pyydät sitä"
+   },
+   "explain": "{{tm:compak}}-lajissa rikottu kiekko on ”one” ja ohilaukaus ”zero” säässä kuin säässä. Vain ylituomari saa keskeyttää ampumisen äkillisen myrskyn vuoksi."
+  },
+  "competitions-scoring-basics-q3": {
+   "q": "Heittimestä tulee väärän värinen kiekko. Mikä se on?",
+   "options": {
+    "a": "Uusi kiekko",
+    "b": "Zero",
+    "c": "One"
+   },
+   "explain": "Väärän värinen kiekko on uusi kiekko molemmissa lajeissa, ja se heitetään uudelleen."
+  },
+  "targets-hit-or-lost-q1": {
+   "q": "Pieni sirpale lentää irti kiekosta, ja loppuosa lentää eteenpäin. Mikä on tulos?",
+   "options": {
+    "a": "Zero (ohilaukaus)",
+    "b": "One (osuma)",
+    "c": "Uusi kiekko",
+    "d": "Puoli pistettä"
+   },
+   "explain": "Mikä tahansa irtoava näkyvä pala tekee siitä osuman, vaikka se olisi kuinka pieni."
+  },
+  "targets-hit-or-lost-q3": {
+   "q": "”Ohi”-ilmoituksen jälkeen erän jäsen kävelee nostamaan kiekon ja näyttää tuomarille siinä olevan sirpaleen. Mitä säännöt sanovat?",
+   "options": {
+    "a": "Tuomarin täytyy katsoa sitä",
+    "b": "Erä äänestää asiasta",
+    "c": "Ei sallittua: kiekkoja ei nosteta",
+    "d": "Valmentaja ratkaisee"
+   },
+   "explain": "Kukaan ei saa nostaa kiekkoa tarkistaakseen sitä, eivätkä erän jäsenet saa puuttua asiaan: tuomari ratkaisee yksin."
+  }
+ },
+ "did_you_know": "{{tm:compak}}-lajin tulospöytäkirjoissa osuma merkitään X:llä ja ohilaukaus O:lla."
+}

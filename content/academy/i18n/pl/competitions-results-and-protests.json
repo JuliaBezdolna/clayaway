@@ -1,0 +1,159 @@
+{
+  "id": "competitions-results-and-protests",
+  "lang": "pl",
+  "base_rev": 2,
+  "h": {
+    "title": "92c589e0",
+    "summary": "cc04aea0",
+    "competitions-results-and-protests-score": "6bfc0893",
+    "referee-appeals-p1": "c481bf3c",
+    "referee-appeals-p2": "62f9c17d",
+    "referee-appeals-p3": "4078bdf2",
+    "competitions-results-and-protests-p4": "200ec448",
+    "competitions-results-and-protests-appeal-jury": "ad7f895c",
+    "referee-appeals-p4": "0eb7ecaf",
+    "competitions-results-and-protests-p5": "35c73034",
+    "competitions-results-and-protests-tip": "8500abfd",
+    "competitions-results-and-protests-n1": "f2dc209a",
+    "referee-appeals-ph1": "199309e7",
+    "referee-appeals-ph2": "44c28146",
+    "referee-appeals-ph3": "2fa7947a",
+    "referee-appeals-ph4": "51aec161",
+    "referee-appeals-ph5": "b96f2290",
+    "referee-appeals-kp1": "7874080b",
+    "referee-appeals-kp2": "f8ae3d26",
+    "referee-appeals-kp3": "2b74952e",
+    "referee-appeals-kp4": "856101f8",
+    "referee-appeals-kp5": "62f644dc",
+    "competitions-results-and-protests-dyk": "9a7f7d0c",
+    "competitions-results-and-protests-q1": "1de685bd",
+    "competitions-results-and-protests-q2": "ead6a62d",
+    "referee-appeals-q3": "17ca6bb3",
+    "referee-appeals-q1": "6f352a05",
+    "referee-appeals-q2": "941e0c96",
+    "competitions-results-and-protests-q-deposit-back": "a4c129fb",
+    "competitions-results-and-protests-q-resume": "1fb092a3"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Wyniki, protesty i odwołania",
+  "summary": "Jak zgłosić protest na stanowisku w {{tm:sporting}} i {{tm:compak}}, co można zaskarżyć do jury i jak kontynuować strzelanie po decyzji.",
+  "body": {
+    "competitions-results-and-protests-score": "Wszystko zaczyna się od wyniku: w {{tm:sporting}} sprawdzaj kartę, schodząc z każdego stanowiska, a w {{tm:compak}} podpisuj kartę po każdej serii. Jak ją czytać: {{lesson:watching-reading-results}}.",
+    "referee-appeals-p1": "{{term:protest|Protest}} trzeba zgłosić na miejscu. Unieś rękę i powiedz „Protest!” albo „Appeal!”, gdy jeszcze jesteś na stanowisku. W {{tm:sporting}} zrób to, zanim podasz komendę na następny rzutek (poprosisz o jego wypuszczenie, na przykład słowem „pull”): podając komendę, akceptujesz poprzednią decyzję. W {{tm:compak}} — zanim komendę poda następny strzelec. {{term:referee|Sędzia}} przerywa strzelanie i wysłuchuje powodu.",
+    "referee-appeals-p2": "Jeśli sędzia jest pewien, decyzja zostaje i jest ostateczna. W razie wątpliwości sędzia może zapytać innego sędziego, {{term:trapper|operatora wyrzutni}} (osobę, która wypuszcza rzutki) albo strzelców grupy — wyłącznie o opinię — a potem decyduje sam. Nie można zejść ze stanowiska ani pójść podnieść rzutka, by go sprawdzić. W {{tm:sporting}} rzutki trzeba rozbijać tam, gdzie widzi je sędzia. Jeśli sędzia uzna, że rzutek rozbito za krzakiem, drzewem albo inną naturalną przeszkodą, albo za {{term:shooting-limit|granicą strzelania}}, tej decyzji nie można zaskarżyć. Granica strzelania to linia, za którą trafienia się nie liczą.",
+    "referee-appeals-p3": "Niektórych decyzji nie można zaskarżyć do jury w żadnym wypadku. W {{tm:sporting}} to „one” albo „zero” (trafienie albo pudło), decyzja No Bird (rzutek wypuszcza się ponownie) i to, czy rzutek leciał prawidłowo. W {{tm:compak}} to trafienie albo pudło, rzutek wadliwy (rozbity albo niesprawny) i rzutek, który poleciał poza wyznaczonym torem. Każdą inną decyzję sędziego można zaskarżyć do {{term:jury|jury}} na piśmie, wraz z {{term:deposit|kaucją}} (pieniędzmi, które wnosi się razem z odwołaniem). W {{tm:sporting}} kaucja to {{fact:rules.sporting-jury-deposit}}. W {{tm:compak}} to suma obowiązująca w dniu zawodów, a zaskarżyć można tylko to, co zdarzyło się tego samego dnia. Jeśli jury przyzna ci rację, kaucja wraca.",
+    "competitions-results-and-protests-p4": {
+      "sporting": "Jury może nakazać sędziemu zmianę decyzji, wyznaczyć innego sędziego albo samo zmienić decyzję.",
+      "compak": "Jury może dać sędziemu wskazówki na przyszłe decyzje albo wyznaczyć innego sędziego."
+    },
+    "competitions-results-and-protests-appeal-jury": "Na zawodach międzynarodowych może być jeszcze {{term:appeal-jury|jury odwoławcze}}: drugi organ, do którego można się zwrócić, jeśli nie zgadzasz się z decyzją samego jury. W {{tm:compak}} powołuje się je na każdych zawodach międzynarodowych. W {{tm:sporting}} jest ono opcjonalne; gdzie go nie ma, decyzje jury są ostateczne.",
+    "referee-appeals-p4": "Po ostatecznej decyzji musisz wznowić strzelanie w ciągu piętnastu sekund w {{tm:sporting}} i dziesięciu w {{tm:compak}}. Jeśli nie, liczy się to jako {{term:refusal-to-comply|odmowa podporządkowania się}} (niewykonanie polecenia sędziego), co jest karane. Dalsze spieranie się, demonstracyjne wyrażanie niezgody albo otwarta krytyka decyzji przez inne osoby to {{term:attempt-to-influence|próba wywierania wpływu}} na sędziego, i to również jest karane.",
+    "competitions-results-and-protests-p5": "Protestuj więc spokojnie i uprzejmie. Za odmowę podporządkowania się albo próbę wywierania wpływu na sędziego jury może odebrać rzutek albo całą serię, albo wykluczyć strzelca z zawodów. Kartki i kary: {{lesson:rules-cards-and-appeals}}.",
+    "competitions-results-and-protests-tip": "Przed zgłoszeniem protestu weź oddech i jasno określ, co widziałeś. Gdy decyzja jest już ostateczna, odpuść ją i wróć do swojego rytuału przed kolejnym rzutkiem: {{lesson:mind-reset-after-miss}}."
+  },
+  "note": {
+    "competitions-results-and-protests-n1": "Zachowuj „protest” i „appeal” jako formalne słowa przepisów. Tu trzeba być szybkim: protest musi zabrzmieć przed następną komendą. Odpowiedź sędziego przekazuj od razu i w całości, bez własnej oceny. Twoim zadaniem jest dokładnie przetłumaczyć protest i odpowiedź, a nie oceniać sprawę."
+  },
+  "phrases": {
+    "referee-appeals-ph1": {
+      "meaning": "Strzelec formalnie kwestionuje decyzję i podaje powód (tu: wyrzucono rozbity rzutek).",
+      "say": "Protest! Rzutek był rozbity, zanim strzeliłem."
+    },
+    "referee-appeals-ph2": {
+      "meaning": "Sędzia potwierdza; decyzja jest ostateczna.",
+      "say": "Jestem pewien — decyzja zostaje."
+    },
+    "referee-appeals-ph3": {
+      "meaning": "Sędzia ma wątpliwości i pyta grupę wyłącznie o opinię; decyduje nadal sędzia.",
+      "say": "Czy ktoś widział, że odpadł kawałek?"
+    },
+    "referee-appeals-ph4": {
+      "meaning": "Od tej decyzji można się odwołać; potrzebne jest pisemne odwołanie i kaucja.",
+      "say": "Może pan to skierować do jury na piśmie, z kaucją."
+    },
+    "referee-appeals-ph5": {
+      "meaning": "Decyzja jest ostateczna; wznów teraz, inaczej będzie to odmowa podporządkowania się.",
+      "say": "Proszę kontynuować strzelanie."
+    }
+  },
+  "key_points": {
+    "referee-appeals-kp1": "Protest natychmiast, na stanowisku, z uniesioną ręką: „Protest!” / „Appeal!”",
+    "referee-appeals-kp2": "Protest zgłoś przed swoją następną komendą: komenda oznacza akceptację decyzji (w {{tm:compak}}: przed komendą następnego strzelca)",
+    "referee-appeals-kp3": "Nie dla jury: one/zero (trafienie czy pudło), No Bird, tor lotu (w {{tm:compak}}: trafienie czy pudło, rzutek wadliwy albo poza torem)",
+    "referee-appeals-kp4": "Pisemne odwołanie do jury z kaucją ({{tm:sporting}}: {{fact:rules.sporting-jury-deposit}})",
+    "referee-appeals-kp5": "Wznów w ciągu 15 s ({{tm:sporting}}) lub 10 s ({{tm:compak}}); dalsze spieranie się = próba wywierania wpływu na sędziego"
+  },
+  "did_you_know": "W {{tm:sporting}} kaucja za odrzucone odwołanie nie przepada bez celu: trafia na cel charytatywny wybrany przez przewodniczącego FITASC.",
+  "quiz": {
+    "competitions-results-and-protests-q1": {
+      "q": "Jak prawidłowo zgłosić protest?",
+      "options": {
+        "a": "Po serii, w sekretariacie zawodów",
+        "b": "Zawołać następny rzutek, a potem wyjaśnić",
+        "c": "Od razu na stanowisku: ręka w górę, powiedzieć „protest”"
+      },
+      "explain": "Protest zgłasza się natychmiast na stanowisku; w {{tm:sporting}} komenda na następny rzutek oznacza akceptację poprzedniej decyzji."
+    },
+    "competitions-results-and-protests-q2": {
+      "q": "Jakiej decyzji nie można zaskarżyć do jury?",
+      "options": {
+        "a": "Kary za spóźnienie",
+        "b": "Czy rzutek był „one” czy „zero”",
+        "c": "Ostrzeżenia dotyczącego stroju"
+      },
+      "explain": "Trafienie czy pudło w obu dyscyplinach decyduje wyłącznie sędzia na stanowisku. Inne decyzje sędziego można zaskarżyć do jury na piśmie."
+    },
+    "referee-appeals-q3": {
+      "q": "Jak wysoka jest w {{tm:sporting}} kaucja za pisemne odwołanie do jury?",
+      "options": {
+        "a": "40% wpisowego",
+        "b": "Całe wpisowe",
+        "c": "Stałe 50 euro",
+        "d": "Kaucja nie jest potrzebna"
+      },
+      "explain": "Przepisy {{tm:sporting}} ustalają kaucję na 40% wpisowego; jest zwracana, jeśli jury przyzna rację strzelcowi."
+    },
+    "referee-appeals-q1": {
+      "q": "W {{tm:sporting}} twój strzelec uważa, że rzutek zaliczony jako zero był trafiony, ale już podał komendę na następny. Czy może jeszcze zaprotestować przeciw tej decyzji?",
+      "options": {
+        "a": "Tak, na koniec serii",
+        "b": "Tak, na piśmie do jury",
+        "c": "Nie: komenda na następny rzutek oznacza akceptację poprzedniej decyzji",
+        "d": "Tak, jeśli grupa się zgodzi"
+      },
+      "explain": "Podając komendę na następny rzutek, strzelec akceptuje poprzednią decyzję, a decyzje one/zero nie trafiają do jury w żadnym wypadku."
+    },
+    "referee-appeals-q2": {
+      "q": "Jaką decyzję w {{tm:sporting}} MOŻNA zaskarżyć do jury?",
+      "options": {
+        "a": "Czy rzutek był „one” czy „zero”",
+        "b": "No Bird",
+        "c": "Czy tor lotu był prawidłowy",
+        "d": "Inną decyzję sędziego, na przykład karę za spóźnienie"
+      },
+      "explain": "W {{tm:sporting}} decyzje o one/zero, No Bird i torze lotu są ostateczne; inne decyzje sędziego można zaskarżyć do jury na piśmie z kaucją."
+    },
+    "competitions-results-and-protests-q-deposit-back": {
+      "q": "Co dzieje się z kaucją w {{tm:sporting}}, jeśli jury przyzna rację strzelcowi?",
+      "options": {
+        "a": "Trafia na cel charytatywny",
+        "b": "Jest zwracana strzelcowi",
+        "c": "Jest dzielona z sędzią"
+      },
+      "explain": "Uwzględnione odwołanie oznacza zwrot kaucji; odrzucone — trafia na cel charytatywny wybrany przez przewodniczącego FITASC."
+    },
+    "competitions-results-and-protests-q-resume": {
+      "q": "Jak szybko w {{tm:compak}} trzeba wznowić strzelanie po ostatecznej decyzji sędziego?",
+      "options": {
+        "a": "W ciągu 10 sekund",
+        "b": "W ciągu 1 minuty",
+        "c": "Gdy poczujesz się gotowy"
+      },
+      "explain": "W {{tm:compak}} wznawia się strzelanie w ciągu 10 sekund, w {{tm:sporting}} w ciągu 15; inaczej liczy się to jako odmowa podporządkowania się."
+    }
+  }
+}

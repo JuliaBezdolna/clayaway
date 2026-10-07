@@ -1,0 +1,723 @@
+{
+  "id": "targets-compak-layout",
+  "rev": 3,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 8,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "targets-compak-layout"
+    ],
+    "interpreter": [
+      "sport-compak-layout",
+      "compak-layout-rotation"
+    ]
+  },
+  "terms": [
+    "compak-sporting",
+    "fly-over-zone",
+    "shooting-stand",
+    "firing-angle-limiter",
+    "trap",
+    "tower",
+    "crosser",
+    "going-away",
+    "round",
+    "double",
+    "target-menu",
+    "trajectory-setting-table",
+    "squad",
+    "rotation",
+    "waiting-position",
+    "compak-in-line",
+    "group",
+    "gun-position",
+    "jacket-line"
+  ],
+  "rule_refs": [
+    {
+      "book": "compak",
+      "id": "ch1-discipline"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-terrain"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-shooting-positions"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-fal"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-traps"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-trap-placement"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-compulsory-trajectories"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-double-chain"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-annex3-tables"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-call-time-and-changeover"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    },
+    {
+      "book": "compak",
+      "id": "ch16-squad-group"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-free-trajectories"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-menu"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squads-groups"
+    },
+    {
+      "book": "compak",
+      "id": "ch9-ready"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    }
+  ],
+  "facts": [
+    "targets.compak-tower-height",
+    "targets.compak-station-menus",
+    "targets.compak-double-chain",
+    "targets.compak-setting-tables",
+    "community.compak-created"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Wikipedia — Compak Sporting"
+      },
+      "url": "https://en.wikipedia.org/wiki/Compak_Sporting",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — Sports disciplines: presentation"
+      },
+      "url": "https://www.fitasc.com/en/sports-disciplines/presentation",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How a {{tm:compak}} layout works",
+    "uk": "Як влаштований майданчик {{tm:compak}}"
+  },
+  "summary": {
+    "en": "Five stations, six traps A to F, a marked rectangle and a menu at each station: how a {{tm:compak}} round works and how the squad moves.",
+    "uk": "П’ять номерів, шість машинок A–F, розмічений прямокутник і меню на кожному номері: як проходить раунд {{tm:compak}} і як переходить група."
+  },
+  "body": [
+    {
+      "k": "targets-compak-layout-p1",
+      "t": "p",
+      "disc": "compak",
+      "rule_ref": "compak:ch1-discipline",
+      "en": "{{tm:compak}} is a compact FITASC discipline. It was {{fact:community.compak-created}}. Unlike {{tm:sporting}}, which spreads over natural ground, a Compak field is built to one set plan with fixed sizes.",
+      "uk": "{{tm:compak}} — компактна дисципліна FITASC. Її {{fact:community.compak-created}}. На відміну від {{tm:sporting}}, що розкинутий по природній місцевості, поле Compak будують за однією схемою, з визначеними розмірами."
+    },
+    {
+      "k": "sport-compak-layout-p1",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch2-terrain",
+      "anchor": "sport-compak-layout",
+      "en": "{{tm:compak}} fits on one field. In front of the shooters, a rectangle 35 to 40 m wide and 25 m deep is marked out, with a flagged stake at each corner. The rules require it on each field. When there is no wind, each target must pass over this rectangle at some point of its flight.",
+      "uk": "{{tm:compak}} вміщається на одному полі. Перед стрільцями розмічено прямокутник 35–40 м завширшки й 25 м завглибшки, з кілочком і прапорцем у кожному куті. Правила вимагають його на кожному полі. У безвітряну погоду кожна мішень має в якийсь момент пролетіти над цим прямокутником."
+    },
+    {
+      "k": "targets-compak-layout-p2",
+      "t": "rule",
+      "disc": "compak",
+      "rule_ref": "compak:ch2-shooting-positions",
+      "en": "The corner stakes are about 50 cm high. The sides of the {{term:fly-over-zone|rectangle}} are called AB, BC, CD and AD, and AD is the side facing the shooters. The line of stations is parallel to AD and 4 to 8 m behind it, with station 3 opposite its middle.",
+      "uk": "Кілочки в кутах — заввишки близько 50 см. Сторони {{term:fly-over-zone|прямокутника}} називають AB, BC, CD і AD, і AD — сторона, звернена до стрільців. Лінія номерів паралельна AD і розташована на 4–8 м позаду неї, а номер 3 — навпроти її середини."
+    },
+    {
+      "k": "sport-compak-layout-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch2-fal",
+      "en": "Five shooting stations, each a 1 m square, stand in a line with 2 to 5 m between their centres. They are numbered 1 to 5 from left to right. Each station has a {{term:firing-angle-limiter|Firing Angle Limiter}}, a frame of tubes. It limits how far the gun can swing to the sides, up or down, and stops the shooter leaning or stepping forward.",
+      "uk": "П’ять номерів (так у {{tm:compak}} називають стрілецькі місця) — це квадрати 1 × 1 м у лінію, 2–5 м між центрами. Їх нумерують від 1 до 5 зліва направо. На кожному номері стоїть {{term:firing-angle-limiter|обмежувач кута стрільби}} (Firing Angle Limiter) — рамка з трубок. Він обмежує, наскільки далеко можна повести рушницю вбік, угору чи вниз, і не дає стрільцеві нахилитися або вийти вперед."
+    },
+    {
+      "k": "sport-compak-layout-p3",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch3-compulsory-trajectories",
+      "en": "Six traps, A to F from left to right, each carry a panel with their letter. They may be in front, at the sides or behind the shooters; a trap behind the line stands on a {{term:tower|tower}}, {{fact:targets.compak-tower-height}}. Each Compak field must have three required flight paths. Two are {{term:crosser|crossers}}: one flies across from left to right, the other from right to left, and both pass over sides AB and CD. The third is a {{term:going-away|going-away target}}, flying away from the shooters over side BC. The organiser chooses the other flight paths; they stay short so as not to reach the next field.",
+      "uk": "Шість машинок, від A до F зліва направо, мають таблички з літерами. Вони можуть стояти попереду, збоку або позаду стрільців; машинка позаду лінії стоїть на {{term:tower|вишці}} (tower), {{fact:targets.compak-tower-height}}. На кожному полі Compak обов’язкові три траєкторії. Дві з них — {{term:crosser|кросери}} (поперечні мішені): одна летить зліва направо, друга справа наліво, і обидві перетинають сторони AB і CD. Третя — {{term:going-away|мішень від стрільця}}, що летить через сторону BC. Інші траєкторії обирає організатор; вони короткі, щоб не залітати на сусіднє поле."
+    },
+    {
+      "k": "compak-layout-rotation-p3",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch17-round-combinations",
+      "anchor": "compak-layout-rotation",
+      "en": "A {{term:round|round}} is 25 targets, five at each station. A station's five targets come in one of three mixes: {{fact:targets.compak-station-menus}}. On one field all the doubles are of the same kind: either on report (the second target leaves when you fire at the first) or simultaneous (both leave together). The {{term:target-menu|menu}}, the list of the station's targets in order, is posted at each station. The stations are linked in a chain: {{fact:targets.compak-double-chain}}.",
+      "uk": "{{term:round|Раунд}} — 25 мішеней, по п’ять на кожному номері. П’ять мішеней номера складають за одним із трьох варіантів: {{fact:targets.compak-station-menus}}. На одному полі всі дуплети одного виду: або на постріл (друга мішень вилітає, коли ви стріляєте по першій), або одночасні (обидві вилітають разом). На кожному номері вивішено {{term:target-menu|меню}} — перелік мішеней цього номера по порядку. Номери зв’язані в ланцюжок: {{fact:targets.compak-double-chain}}."
+    },
+    {
+      "k": "targets-compak-layout-p5",
+      "t": "tip",
+      "disc": "compak",
+      "rule_ref": "compak:ch17-annex3-tables",
+      "en": "FITASC offers {{fact:targets.compak-setting-tables}} and advises using them in competitions. How to read a menu card is explained in {{lesson:targets-menu}}.",
+      "uk": "FITASC пропонує {{fact:targets.compak-setting-tables}} і радить використовувати їх на змаганнях. Як читати меню, пояснює урок {{lesson:targets-menu}}."
+    },
+    {
+      "k": "compak-layout-rotation-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch17-squad-rotation",
+      "en": "How a squad of up to six moves along the stations: the shooter on station 1 shoots first, and a sixth shooter waits behind station 1. When the shooter on station 5 has finished, everyone moves one station to the right. The shooter from station 5 goes to wait behind station 1, and the shooter who was waiting steps onto station 1. Change stations with the gun open and unloaded, without disturbing anyone who is still shooting.",
+      "uk": "Як переходить група до шести стрільців: першим стріляє той, хто стоїть на номері 1, а шостий стрілець чекає позаду номера 1. Коли стрілець на номері 5 закінчив, усі переходять на один номер праворуч. Стрілець із номера 5 іде чекати за номер 1, а той, хто чекав, стає на номер 1. Переходьте з відкритою й розрядженою рушницею, не заважаючи тому, хто ще стріляє."
+    },
+    {
+      "k": "targets-compak-layout-p6",
+      "t": "rule",
+      "disc": "compak",
+      "rule_ref": "compak:ch17-call-time-and-changeover",
+      "en": "You have up to 10 seconds to call for your target after the target of the previous station has been shot. When your turn comes, be ready at once, with cartridges for the whole round.",
+      "uk": "Щоб покликати мішень, у вас до 10 секунд після пострілу по мішені попереднього номера. Коли настає ваша черга, будьте готові одразу, з патронами на весь раунд."
+    },
+    {
+      "k": "sport-compak-layout-p5",
+      "t": "p",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch16-squad-group",
+      "en": "Some events shoot {{tm:compak}} in line instead: every shooter starts on station 1 and finishes on station 5. Ask the organiser which system is used, because the procedure differs.",
+      "uk": "На деяких змаганнях {{tm:compak}} стріляють у лінію (in line): кожен стрілець починає на першому номері й закінчує на п’ятому. Уточніть в організатора, яка система діє, бо порядок відрізняється."
+    },
+    {
+      "k": "targets-compak-layout-p7",
+      "t": "compare",
+      "disc": "both",
+      "en": "{{term:gun-position|Gun position}} at the call",
+      "uk": "{{term:gun-position|Положення рушниці}} на момент команди",
+      "sporting": {
+        "en": "The gun starts low: the top of the stock stays below the {{term:jacket-line|line on the jacket}} until the target appears.",
+        "uk": "Рушниця внизу: верхня частина приклада лишається нижче {{term:jacket-line|лінії на жилеті}}, доки не з’явиться мішень."
+      },
+      "compak": {
+        "en": "The position is free: the gun may already be at your shoulder (mounted). Each target is still shot with the gun at the shoulder.",
+        "uk": "Положення вільне: рушницю можна приставити до плеча заздалегідь. Але кожну мішень стріляють із рушницею біля плеча."
+      }
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "sport-compak-layout-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Everybody move one to the right. Number five, to the waiting position.",
+      "meaning": {
+        "en": "The squad rotates; the shooter from station 5 goes behind station 1.",
+        "uk": "Група переходить далі; стрілець із п’ятого номера йде чекати за перший."
+      },
+      "say": {
+        "uk": "Усі на один номер праворуч. П’ятий — на місце очікування."
+      }
+    },
+    {
+      "k": "sport-compak-layout-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Trap E is the tower — it comes over your head.",
+      "meaning": {
+        "en": "The target from trap E is thrown from a high tower and passes overhead.",
+        "uk": "Мішень із машинки E кидають із високої вишки, і вона пролітає над головою."
+      },
+      "say": {
+        "uk": "Машинка E — на вишці, мішень летить над головою."
+      }
+    },
+    {
+      "k": "sport-compak-layout-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Mind the frame — don't swing past the post.",
+      "meaning": {
+        "en": "Respect the Firing Angle Limiter; do not swing the gun beyond it.",
+        "uk": "Не виводьте рушницю за межі обмежувача кута стрільби."
+      },
+      "say": {
+        "uk": "Обережно з рамкою — не ведіть рушницю за стійку."
+      }
+    },
+    {
+      "k": "compak-layout-rotation-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Move one station to the right.",
+      "meaning": {
+        "en": "Rotation after the shooter on station 5 has finished.",
+        "uk": "Ротація після того, як стрілець на номері 5 закінчив."
+      },
+      "say": {
+        "uk": "Переходимо на один номер праворуч."
+      }
+    },
+    {
+      "k": "compak-layout-rotation-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Gun open when you change stations.",
+      "meaning": {
+        "en": "Between stations the gun is open and unloaded.",
+        "uk": "Між номерами рушниця відкрита й розряджена."
+      },
+      "say": {
+        "uk": "Між номерами рушниця відкрита."
+      }
+    },
+    {
+      "k": "compak-layout-rotation-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Your double starts with the last target of the previous station.",
+      "meaning": {
+        "en": "The first target of your double is the same target that was shot last at the station before yours.",
+        "uk": "Перша мішень вашого дуплета — та сама, яку останньою стріляли на попередньому номері."
+      },
+      "say": {
+        "uk": "Ваш дуплет починається з останньої мішені попереднього номера."
+      }
+    },
+    {
+      "k": "compak-layout-rotation-ph4",
+      "speaker": "referee",
+      "core": true,
+      "en": "You're waiting behind one.",
+      "meaning": {
+        "en": "The sixth shooter stands behind station 1.",
+        "uk": "Шостий стрілець стоїть позаду номера 1."
+      },
+      "say": {
+        "uk": "Ви чекаєте за першим номером."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "compak-layout-rotation-kp1",
+      "core": true,
+      "en": "Rectangle 35–40 m × 25 m; five 1 m stations; six traps A–F.",
+      "uk": "Прямокутник 35–40 × 25 м; п’ять номерів по 1 м; шість машинок A–F."
+    },
+    {
+      "k": "compak-layout-rotation-kp2",
+      "core": true,
+      "en": "Compulsory: left-to-right crosser, right-to-left crosser, going-away target.",
+      "uk": "Обов’язкові: поперечна зліва направо, поперечна справа наліво, мішень від стрільця."
+    },
+    {
+      "k": "compak-layout-rotation-kp3",
+      "core": true,
+      "en": "Round = 25 targets, 5 per station; one kind of double on the whole field.",
+      "uk": "Раунд — 25 мішеней, по 5 на номері; один вид дуплета на все поле."
+    },
+    {
+      "k": "compak-layout-rotation-kp5",
+      "core": true,
+      "en": "After station 5: wait behind station 1; everyone moves one station right.",
+      "uk": "Після номера 5 — чекати за номером 1; усі переходять на один номер праворуч."
+    },
+    {
+      "k": "targets-compak-layout-kp5",
+      "en": "Gun position at the call is free; you have up to 10 seconds to call.",
+      "uk": "Положення рушниці на момент команди вільне; на виклик мішені — до 10 секунд."
+    }
+  ],
+  "did_you_know": {
+    "k": "targets-compak-layout-dyk",
+    "en": "Because of the chain of doubles, the referee can show the next shooter the target their double starts with: the last target of the previous station.",
+    "uk": "Завдяки ланцюжку дуплетів суддя може показати наступному стрільцеві ту мішень, з якої починається його дуплет: останню мішень попереднього номера."
+  },
+  "quiz": [
+    {
+      "k": "sport-compak-layout-q1",
+      "q": {
+        "en": "How many traps and stations does one {{tm:compak}} field have?",
+        "uk": "Скільки машинок і номерів на одному полі {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "4 traps, 3 stations",
+          "uk": "4 машинки, 3 номери"
+        },
+        {
+          "k": "b",
+          "en": "6 traps, 5 stations",
+          "uk": "6 машинок, 5 номерів"
+        },
+        {
+          "k": "c",
+          "en": "5 traps, 6 stations",
+          "uk": "5 машинок, 6 номерів"
+        },
+        {
+          "k": "d",
+          "en": "8 traps, 8 stations",
+          "uk": "8 машинок, 8 номерів"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Traps A to F and stations 1 to 5.",
+        "uk": "Машинки від A до F і номери від 1 до 5."
+      }
+    },
+    {
+      "k": "compak-layout-rotation-q2",
+      "q": {
+        "en": "The shooter on station 5 has finished his menu. Where does he go?",
+        "uk": "Стрілець на номері 5 відстріляв своє меню. Куди він іде?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "To station 1",
+          "uk": "На номер 1"
+        },
+        {
+          "k": "b",
+          "en": "He stays on station 5",
+          "uk": "Залишається на номері 5"
+        },
+        {
+          "k": "c",
+          "en": "Behind station 1, to wait",
+          "uk": "За номер 1, чекати"
+        },
+        {
+          "k": "d",
+          "en": "To the referee to sign the sheet",
+          "uk": "До судді підписувати протокол"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "He becomes the waiting shooter behind station 1 while everyone else moves one station to the right.",
+        "uk": "Він стає тим, хто чекає за номером 1, а решта переходить на один номер праворуч."
+      }
+    },
+    {
+      "k": "targets-compak-layout-q3",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, how may the gun be held when you call for the target?",
+        "uk": "Як у {{tm:compak}} можна тримати рушницю, коли ви кличете мішень?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Free: it may already be mounted",
+          "uk": "Вільно: можна вже біля плеча"
+        },
+        {
+          "k": "b",
+          "en": "Only low, below the line on the vest",
+          "uk": "Тільки внизу, нижче лінії на жилеті"
+        },
+        {
+          "k": "c",
+          "en": "Only on the shoulder, muzzles up",
+          "uk": "Тільки на плечі, стволами вгору"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:compak}} the gun position at the call is free, but you always shoot with the gun mounted. The low gun with a vest line is a {{tm:sporting}} rule.",
+        "uk": "У {{tm:compak}} положення рушниці на момент команди вільне, але стріляють завжди з рушницею біля плеча. Низьке положення з лінією на жилеті — правило {{tm:sporting}}."
+      },
+      "rule_ref": "compak:ch17-gun-position"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "sport-compak-layout-q2",
+      "q": {
+        "en": "In a squad of six, where is the sixth shooter while the others shoot?",
+        "uk": "Де шостий стрілець групи, поки інші стріляють?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "In the clubhouse",
+          "uk": "У клубному будинку"
+        },
+        {
+          "k": "b",
+          "en": "Next to the referee at station 5",
+          "uk": "Біля судді на п’ятому номері"
+        },
+        {
+          "k": "c",
+          "en": "Behind trap F",
+          "uk": "За машинкою F"
+        },
+        {
+          "k": "d",
+          "en": "Waiting behind station 1",
+          "uk": "Чекає за першим номером"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The waiting shooter stands behind station 1 and steps onto it after each rotation.",
+        "uk": "Той, хто чекає, стоїть за першим номером і стає на нього після кожного переходу."
+      }
+    },
+    {
+      "k": "sport-compak-layout-q3",
+      "q": {
+        "en": "What is the Firing Angle Limiter for?",
+        "uk": "Для чого обмежувач кута стрільби?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It limits the swing and stops stepping forward",
+          "uk": "Обмежує рух рушниці й не дає вийти вперед"
+        },
+        {
+          "k": "b",
+          "en": "It measures the speed of each target thrown",
+          "uk": "Вимірює швидкість кожної мішені"
+        },
+        {
+          "k": "c",
+          "en": "It holds the cartridges for the whole round",
+          "uk": "Тримає патрони на весь раунд"
+        },
+        {
+          "k": "d",
+          "en": "It releases the targets on the shooter's call",
+          "uk": "Запускає мішені на команду стрільця"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "It is a safety frame at each station limiting sideways and vertical swing.",
+        "uk": "Це безпекова рамка на кожному номері, що обмежує рух рушниці вбік і по вертикалі."
+      }
+    },
+    {
+      "k": "compak-layout-rotation-q3",
+      "q": {
+        "en": "On a Compak, the first target of each double is…",
+        "uk": "На полі Compak перша мішень кожного дуплета — це…"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "any target the shooter wants to start with",
+          "uk": "будь-яка мішень, з якої стрілець хоче почати"
+        },
+        {
+          "k": "b",
+          "en": "always the target from trap A",
+          "uk": "завжди мішень із машинки A"
+        },
+        {
+          "k": "c",
+          "en": "a target shown only on the shooter's request",
+          "uk": "мішень, яку показують лише на прохання стрільця"
+        },
+        {
+          "k": "d",
+          "en": "the last target shot at the previous station",
+          "uk": "остання мішень, яку стріляли на попередньому номері"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "The menu chains the stations: each double begins with the target that ended the station before.",
+        "uk": "Меню пов’язує номери «ланцюжком»: кожен дуплет починається з мішені, якою закінчився попередній номер."
+      }
+    },
+    {
+      "k": "targets-compak-layout-q-rectangle",
+      "q": {
+        "en": "In still air, what must each {{tm:compak}} target do?",
+        "uk": "Що в безвітряну погоду має зробити кожна мішень {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Land inside the marked rectangle",
+          "uk": "Упасти всередині розміченого прямокутника"
+        },
+        {
+          "k": "b",
+          "en": "Fly over the marked rectangle",
+          "uk": "Пролетіти над розміченим прямокутником"
+        },
+        {
+          "k": "c",
+          "en": "Pass right over station 3",
+          "uk": "Пролетіти точно над номером 3"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In still air each target must pass over the rectangle at some point of its flight.",
+        "uk": "У безвітряну погоду кожна мішень має в якийсь момент пролетіти над прямокутником."
+      }
+    },
+    {
+      "k": "targets-compak-layout-q-line",
+      "q": {
+        "en": "Where is the line of stations on a Compak?",
+        "uk": "Де на полі Compak розташована лінія номерів?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "4 to 8 m behind side AD, parallel to it",
+          "uk": "На 4–8 м позаду сторони AD, паралельно їй"
+        },
+        {
+          "k": "b",
+          "en": "Inside the rectangle, near side BC",
+          "uk": "Усередині прямокутника, біля сторони BC"
+        },
+        {
+          "k": "c",
+          "en": "On the tower, behind trap F",
+          "uk": "На вишці, позаду машинки F"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The stations stand in a line 4 to 8 m behind side AD, with station 3 opposite its middle.",
+        "uk": "Номери стоять у лінію на 4–8 м позаду сторони AD, а номер 3 — навпроти її середини."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "8c3ae343",
+    "summary": "79d4f1ae",
+    "targets-compak-layout-p1": "98dc18bc",
+    "sport-compak-layout-p1": "dcbe6c7b",
+    "targets-compak-layout-p2": "e7df6adb",
+    "sport-compak-layout-p2": "203222f1",
+    "sport-compak-layout-p3": "a25065ef",
+    "compak-layout-rotation-p3": "7b59eb23",
+    "targets-compak-layout-p5": "a2c4429e",
+    "compak-layout-rotation-p4": "1748eaf4",
+    "targets-compak-layout-p6": "896b9587",
+    "sport-compak-layout-p5": "0c81f17c",
+    "targets-compak-layout-p7": "6bb72ced",
+    "sport-compak-layout-ph1": "3f2accee",
+    "sport-compak-layout-ph2": "28df18bc",
+    "sport-compak-layout-ph3": "23025c04",
+    "compak-layout-rotation-ph1": "200b9712",
+    "compak-layout-rotation-ph2": "70621467",
+    "compak-layout-rotation-ph3": "cfd3fd74",
+    "compak-layout-rotation-ph4": "19e4256f",
+    "compak-layout-rotation-kp1": "135742ac",
+    "compak-layout-rotation-kp2": "6d1c22f7",
+    "compak-layout-rotation-kp3": "f95e51ba",
+    "compak-layout-rotation-kp5": "8b9d487a",
+    "targets-compak-layout-kp5": "c85a6da1",
+    "sport-compak-layout-q1": "05577122",
+    "compak-layout-rotation-q2": "120fb8bb",
+    "targets-compak-layout-q3": "4704300b",
+    "sport-compak-layout-q2": "ce882cb5",
+    "sport-compak-layout-q3": "55f9413f",
+    "compak-layout-rotation-q3": "78b9098d",
+    "targets-compak-layout-q-rectangle": "1273dd61",
+    "targets-compak-layout-q-line": "bce53ef3",
+    "targets-compak-layout-dyk": "89d1cb81"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: sport-compak-layout-p2, sport-compak-layout-p3, compak-layout-rotation-p3, compak-layout-rotation-q3.",
+      "Overlays: remove keys deleted as duplicates or merged in the master: sport-compak-layout-title, sport-compak-layout-p4, sport-compak-layout-kp1, sport-compak-layout-kp2, sport-compak-layout-kp3, sport-compak-layout-kp4, sport-compak-layout-kp5, compak-layout-rotation-title, compak-layout-rotation-p1, compak-layout-rotation-p2, compak-layout-rotation-p5, compak-layout-rotation-kp4, compak-layout-rotation-q1.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-compak-layout-p1, sport-compak-layout-p1, sport-compak-layout-p2, sport-compak-layout-p3, compak-layout-rotation-p3, compak-layout-rotation-p4, targets-compak-layout-p7, compak-layout-rotation-ph3, compak-layout-rotation-kp3.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in sport-compak-layout-p1, sport-compak-layout-p3, sport-compak-layout-p5, sport-compak-layout-q1, compak-layout-rotation-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "id": "interpreter-false-friends",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "interpreter",
+    "shooter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "interpreter-false-friends"
+    ]
+  },
+  "terms": [
+    "false-friend",
+    "smoked-it",
+    "visible-piece",
+    "zero",
+    "chip",
+    "one",
+    "trap",
+    "shooting-stand",
+    "peg",
+    "call",
+    "pull-away",
+    "length-of-pull",
+    "score-sheet",
+    "double-on-report",
+    "squad",
+    "teal",
+    "chandelle",
+    "driven-target",
+    "battue",
+    "trapper"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch6-target-one"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-target-zero"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-glossary"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-double-on-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-squads"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-one"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-zero"
+    },
+    {
+      "book": "compak",
+      "id": "ch16-squad-group"
+    }
+  ],
+  "facts": [
+    "rules.squad-max-shooters"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "False friends on the shooting ground",
+    "uk": "Хибні друзі на стрільбищі"
+  },
+  "summary": {
+    "en": "Shooting words that look familiar but mean something else: smoke and dust, scoring words, “trap”, “stand” and “squad”, and traps from French, Italian and Portuguese.",
+    "uk": "Стрілецькі слова, які здаються знайомими, але означають інше: дим і пил, слова підрахунку, «trap», «stand» і «squad», а також пастки французької, італійської й португальської."
+  },
+  "body": [
+    {
+      "k": "interpreter-false-friends-intro",
+      "t": "p",
+      "en": "A {{term:false-friend|false friend}} is a word that looks familiar but means something else on the shooting ground. Some of them change the score, so they are worth learning first.",
+      "uk": "{{term:false-friend|Хибний друг}} — це слово, яке здається знайомим, але на стрільбищі означає інше. Деякі з них змінюють рахунок, тож їх варто вивчити насамперед."
+    },
+    {
+      "k": "interpreter-false-friends-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch6-target-zero",
+      "en": "The biggest pitfall is smoke. A coach’s “{{term:smoked-it|Smoked it!}}” (or “inked it”, “powdered it”) praises a perfect hit: the target vanished in a cloud. In the rules, a target that gives off only dust or smoke, with no {{term:visible-piece|visible piece}}, is a {{term:zero|zero}}. A “{{term:chip|chip}}”, a small visible piece, is a hit ({{term:one|one}}). “Dusted it” is risky: it can mean that only dust came off (a zero) or, for some coaches, a smashed target. So translate the coach’s “smoked it” as a full, clean hit and the referee’s “only dust” as a zero, and ask what “dusted it” means.",
+      "uk": "Найбільша пастка — дим. Коли тренер вигукує «{{term:smoked-it|Smoked it!}}» (або «inked it», «powdered it»), це похвала за чисте влучання: мішень зникла в хмарі. За правилами ж мішень, від якої лише пил чи дим без {{term:visible-piece|видимого уламка}}, — {{term:zero|промах}} (zero). «{{term:chip|Chip}}», маленький видимий уламок, — це влучання ({{term:one|one}}). «Dusted it» — ризиковане слово: воно може означати, що піднявся лише пил (промах), а в декого з тренерів — що мішень розбито вщент. Тож «smoked it» тренера перекладайте «розбили вщент», «only dust» судді — «лише пил — промах», а що означає «dusted it», перепитайте."
+    },
+    {
+      "k": "interpreter-false-friends-p2",
+      "t": "p",
+      "core": true,
+      "en": "Scoring words are not literal. “Dead” and “kill” mean a hit, with nothing about death. “Lost” means a miss, not something lost. “Dropped two” means two targets missed. “Straight” in “25 straight” means a perfect run with no target missed.",
+      "uk": "Слова підрахунку не дослівні. «Dead» і «kill» означають влучання, а не «мертва» чи «вбивство». «Lost» — промах, а не «загублена». «Dropped two» — дві мішені пропущено. «Straight» у «25 straight» — бездоганна серія без жодного промаху, а не «прямо»."
+    },
+    {
+      "k": "interpreter-false-friends-p3",
+      "t": "p",
+      "core": true,
+      "en": "Equipment and place words. A “{{term:trap|trap}}” is the throwing machine, not a snare; Trap is also an Olympic discipline. A “stand” is a single shooting place, the {{term:shooting-stand|shooting stand}}, not the whole ground; in {{tm:compak}} the places are often called stations. A “{{term:peg|peg}}” is the shooting position. The name comes from the numbered stake that marks each shooter’s place at a driven game shoot, so do not translate it as a stake. A “broken gun” is an open gun. “Pull!” is the {{term:call|call}}, “{{term:pull-away|pull-away}}” is a lead method and “{{term:length-of-pull|length of pull}}” is the length of the stock, from the trigger to the butt pad.",
+      "uk": "Слова про обладнання й місце. «Trap» — це метальна {{term:trap|машинка}}, а не «пастка»; Trap — ще й олімпійська дисципліна. «Stand» — одне місце для стрільби, {{term:shooting-stand|стрілецьке місце}}, а не весь стенд; у {{tm:compak}} такі місця називають номерами. «{{term:peg|Peg}}» — місце стрільця: назва походить від номерного кілочка, яким на загінному полюванні позначають номер кожного стрільця, тож не перекладайте її як «кілок». «Broken gun» — відкрита (переламана) рушниця. «Pull!» — це {{term:call|команда}}, «{{term:pull-away|pull-away}}» — метод виносу (вихід з мішені), а «{{term:length-of-pull|length of pull}}» — довжина приклада."
+    },
+    {
+      "k": "interpreter-false-friends-cards",
+      "t": "p",
+      "core": true,
+      "en": "A “card” is a {{term:score-sheet|score card}}, or a yellow or red card. “On report” means at the sound of the shot, as in a {{term:double-on-report|double on report}}. A “{{term:squad|squad}}” is the competition group of {{fact:rules.squad-max-shooters}}. ClayAway tours, which are coming soon, will also use the word for a sub-group of a tour.",
+      "uk": "«Card» — це і {{term:score-sheet|протокол}} (картка результатів), і жовта чи червона картка. «On report» — на звук пострілу, як у {{term:double-on-report|дуплеті на постріл}}, а не «звіт». «{{term:squad|Squad}}» — змагальна група, у якій {{fact:rules.squad-max-shooters}}. У турах ClayAway, які готуються, так називатимуть і підгрупу туру."
+    },
+    {
+      "k": "interpreter-false-friends-p4",
+      "t": "p",
+      "core": true,
+      "en": "Other languages have their own traps. French “chandelle” is a target that springs almost straight up, which English calls a {{term:teal|teal}}. It is not the English {{term:chandelle|chandelle}}, a target that climbs steeply in a curve and then drops. French “en battue” and Italian “in battuta” mean {{term:driven-target|driven}} game, not the {{term:battue|battue}} target. In Portuguese, “batida” is the battue target, while “de batida” means driven. For a hit a French referee says “Bon” and an Italian “Buono”, and the {{term:trapper|trapper}} is often a “pulleur” or “puller”. Words for the squad also differ, so use the word of the event’s own rulebook.",
+      "uk": "Інші мови мають свої пастки. Французьке «chandelle» — мішень, що злітає майже вертикально вгору; англійською це {{term:teal|teal}} (чирок). Це не англійська {{term:chandelle|chandelle}} — мішень, що круто набирає висоту по дузі й потім падає. Французьке «en battue» та італійське «in battuta» означають загінне полювання ({{term:driven-target|driven}}), а не мішень {{term:battue|батю}}. У португальській «batida» — це мішень батю, а «de batida» — загінна. Французький суддя на влучання каже «Bon», італійський — «Buono», а {{term:trapper|оператора машинки}} часто називають «pulleur» або «puller». Слова для групи теж різняться, тож уживайте те, яке є в регламенті змагань."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "interpreter-false-friends-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Smoked it!",
+      "meaning": {
+        "en": "Perfect hit, the target turned to dust. Not the rules’ “smoke only”.",
+        "uk": "Чисте повне влучання, мішень розлетілася на пил. Не плутати з «лише дим» у правилах."
+      },
+      "say": {
+        "uk": "Розбили вщент!"
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Only dust — zero.",
+      "meaning": {
+        "en": "Referee: no visible piece came off, so it is a miss.",
+        "uk": "Суддя: видимого шматка не відлетіло, отже промах."
+      },
+      "say": {
+        "uk": "Лише пил — промах."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Just a chip, but it’s dead.",
+      "meaning": {
+        "en": "A small visible piece broke off: it counts as a hit.",
+        "uk": "Відлетів маленький видимий уламок: це влучання."
+      },
+      "say": {
+        "uk": "Лише уламок, але зараховано."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Break your gun.",
+      "meaning": {
+        "en": "Open the gun. Nothing to do with breaking it.",
+        "uk": "Відкрийте рушницю. Нічого спільного з поломкою."
+      },
+      "say": {
+        "uk": "Відкрийте (переламайте) рушницю."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "Step into the peg.",
+      "meaning": {
+        "en": "Stand on the marked shooting spot.",
+        "uk": "Станьте на позначене стрілецьке місце."
+      },
+      "say": {
+        "uk": "Ставайте на стрілецьке місце."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph6",
+      "speaker": "coach",
+      "core": true,
+      "en": "The second one’s on report.",
+      "meaning": {
+        "en": "The second target is released by the sound of your first shot.",
+        "uk": "Другу мішень випускають на звук вашого першого пострілу."
+      },
+      "say": {
+        "uk": "Друга — за пострілом."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "interpreter-false-friends-kp1",
+      "core": true,
+      "en": "Coach “smoked it” = perfect hit; rules “only dust or smoke” = zero",
+      "uk": "«Smoked it» тренера — чисте повне влучання; «only dust or smoke» у правилах — промах"
+    },
+    {
+      "k": "interpreter-false-friends-kp2",
+      "core": true,
+      "en": "Dead / kill = hit; lost / dropped = miss; straight = perfect run",
+      "uk": "Dead / kill — влучання; lost / dropped — промах; straight — бездоганна серія"
+    },
+    {
+      "k": "interpreter-false-friends-kp3",
+      "core": true,
+      "en": "Trap = machine; stand = a single position; peg = the spot; broken gun = open gun",
+      "uk": "Trap — машинка; stand — одне стрілецьке місце; peg — місце стрільця; broken gun — відкрита рушниця"
+    },
+    {
+      "k": "interpreter-false-friends-kp4",
+      "core": true,
+      "en": "Pull, card, report and squad each have several meanings",
+      "uk": "Pull, card, report і squad мають кілька значень"
+    },
+    {
+      "k": "interpreter-false-friends-kp5",
+      "core": true,
+      "en": "French chandelle and “en battue” differ from the English words",
+      "uk": "Французькі chandelle та «en battue» не збігаються з англійськими словами"
+    },
+    {
+      "k": "interpreter-false-friends-kp6",
+      "en": "“Dusted it” can mean either: ask",
+      "uk": "«Dusted it» може означати і те, і те: перепитайте"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "interpreter-false-friends-q1",
+      "disc": "both",
+      "q": {
+        "en": "The coach shouts “Smoked it!” after a shot. What happened?",
+        "uk": "Після пострілу тренер вигукує «Smoked it!». Що сталося?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only smoke came off: a zero",
+          "uk": "Лише дим: промах"
+        },
+        {
+          "k": "b",
+          "en": "The target was destroyed: a perfect hit",
+          "uk": "Мішень знищено: чисте влучання"
+        },
+        {
+          "k": "c",
+          "en": "The cartridge misfired",
+          "uk": "Набій дав осічку"
+        },
+        {
+          "k": "d",
+          "en": "The target was a flash target",
+          "uk": "Це була мішень flash"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "In coach slang “smoked it” is a perfect hit; in the rules “only dust or smoke” is a zero. The meanings are opposite.",
+        "uk": "На сленгу тренерів «smoked it» — чисте повне влучання; у правилах «лише пил чи дим» — промах. Значення протилежні."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-q2",
+      "q": {
+        "en": "The referee says “Lost.” What does it mean?",
+        "uk": "Суддя каже «Lost.». Що це означає?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The target flew out of sight",
+          "uk": "Мішень зникла з поля зору"
+        },
+        {
+          "k": "b",
+          "en": "The shooter ran out of time",
+          "uk": "У стрільця вийшов час"
+        },
+        {
+          "k": "c",
+          "en": "The target left its usual line",
+          "uk": "Мішень зійшла зі звичної лінії"
+        },
+        {
+          "k": "d",
+          "en": "A miss: the target is a zero",
+          "uk": "Промах: мішень не зараховано"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "“Lost” is the scoring word for a miss (zero), not something lost.",
+        "uk": "«Lost» — слово підрахунку для промаху (zero), а не щось загублене."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-q3",
+      "q": {
+        "en": "A French guest says he loves shooting “en battue”. What does he mean?",
+        "uk": "Французький гість каже, що любить стріляти «en battue». Що він має на увазі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Driven game (birds driven over the guns)",
+          "uk": "Загінне полювання (птахів женуть на стрільців)"
+        },
+        {
+          "k": "b",
+          "en": "The thin battue target that turns",
+          "uk": "Тонку мішень батю, що розвертається"
+        },
+        {
+          "k": "c",
+          "en": "A target thrown as part of a pair",
+          "uk": "Мішень, яку запускають у дуплеті"
+        },
+        {
+          "k": "d",
+          "en": "A target that breaks into dust",
+          "uk": "Мішень, що розлітається на пил"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "French “en battue” (Italian “in battuta”) means driven game; the battue target is a separate thing.",
+        "uk": "Французьке «en battue» (італійське «in battuta») — загінне полювання; мішень батю — інше."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "93be8a38",
+    "summary": "2c55b920",
+    "interpreter-false-friends-intro": "39c55cd5",
+    "interpreter-false-friends-p1": "3e0535c1",
+    "interpreter-false-friends-p2": "3cf9ded2",
+    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-cards": "3645d5da",
+    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-ph1": "7ff90f13",
+    "interpreter-false-friends-ph2": "3677adad",
+    "interpreter-false-friends-ph3": "f46276ac",
+    "interpreter-false-friends-ph4": "d629b25a",
+    "interpreter-false-friends-ph5": "1a9f89c1",
+    "interpreter-false-friends-ph6": "17d1f7d8",
+    "interpreter-false-friends-kp1": "6cad2a11",
+    "interpreter-false-friends-kp2": "aaa1da92",
+    "interpreter-false-friends-kp3": "2fc47aba",
+    "interpreter-false-friends-kp4": "c8245804",
+    "interpreter-false-friends-kp5": "df7d4fa7",
+    "interpreter-false-friends-kp6": "19cf2f99",
+    "interpreter-false-friends-q1": "4fa72f2b",
+    "interpreter-false-friends-q2": "d58615b3",
+    "interpreter-false-friends-q3": "3c4d036d"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays (9 languages): p3 was split (the second half is now interpreter-false-friends-cards); the Italian squad sentence of p4 was removed (audit I-09) and quiz q2 is now language-neutral. Retranslate these items. The Italian overlay must not teach a batteria / squadra di tiro split any more."
+    ]
+  }
+}

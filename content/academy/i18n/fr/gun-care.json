@@ -1,0 +1,99 @@
+{
+  "id": "gun-care",
+  "lang": "fr",
+  "base_rev": 1,
+  "h": {
+    "title": "42bc807c",
+    "summary": "53ea9070",
+    "gun-care-p1": "e7fec0b7",
+    "gun-care-p2": "311dadd8",
+    "gun-care-p3": "5d55cf61",
+    "gun-care-p4": "3cd3a115",
+    "gun-care-p5": "520c5e84",
+    "gun-care-p6": "4866d6ad",
+    "gun-care-p7": "8dcf8861",
+    "gun-care-kp1": "9aa8a796",
+    "gun-care-kp2": "cabb28f0",
+    "gun-care-kp3": "12d97280",
+    "gun-care-kp4": "51137384",
+    "gun-care-kp5": "9b69a2ed",
+    "gun-care-dyk": "8beaba79",
+    "gun-care-q1": "77aa2722",
+    "gun-care-q2": "8bd12cd7",
+    "gun-care-q3": "c3f948e6",
+    "gun-care-q4": "5fd25464"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Entretien et nettoyage",
+  "summary": "Comment nettoyer un fusil en toute sécurité après le tir et après la pluie, comment le ranger, et pourquoi les tireurs de {{tm:sporting}} et {{tm:compak}} font un entretien annuel.",
+  "body": {
+    "gun-care-p1": "Le nettoyage commence par la sécurité. Assurez-vous que le fusil est déchargé : ouvrez-le et regardez dans les deux {{term:chamber|chambres}}. Éloignez toutes les cartouches de votre plan de travail, pour ne pas en introduire une par erreur.",
+    "gun-care-p2": "Démontez le fusil : retirez le {{term:fore-end|devant}}, puis les canons de la {{term:receiver|bascule}}. Si vous avez des chokes interchangeables, dévissez-les avec la {{term:choke-key|clé à choke}} ; ils se nettoient séparément (voir {{lesson:chokes-pattern-testing-and-care}}).",
+    "gun-care-p3": [
+      "Nettoyez les âmes après chaque journée de tir.",
+      "Humidifiez-les avec un solvant de nettoyage et passez-y quelques fois un écouvillon (une petite brosse métallique montée sur une baguette).",
+      "Faites passer des carrés de tissu propres (des patchs) sur la baguette jusqu'à ce qu'ils ressortent presque propres.",
+      "Terminez par un film d'huile très fin, et essuyez l'âme à sec avant de tirer à nouveau."
+    ],
+    "gun-care-p4": "Essuyez le métal extérieur avec un chiffon et une goutte d'huile pour le protéger des traces de doigts et de l'humidité. N'imbibez pas une crosse en bois d'huile, car elle s'infiltre dans le bois. Graissez légèrement la charnière et les points où les canons se verrouillent sur la bascule, avec une graisse spéciale.",
+    "gun-care-p5": "Après la pluie, séchez le fusil immédiatement, sur le stand ou à l'hôtel. Ne laissez pas un fusil humide toute la nuit dans un {{term:gun-slip|fourreau}} souple ou une {{term:hard-case|mallette}} fermée : l'humidité y reste longtemps et la rouille s'installe. Séchez-le, essuyez-le, graissez-le.",
+    "gun-care-p6": "Rangez le fusil au sec, dans un coffre-fort ou comme l'exige la loi de votre pays ; beaucoup de lois demandent aussi de conserver les cartouches séparément. Beaucoup d'armuriers conseillent de ranger un fusil à l'horizontale ou bouches vers le bas, pour que l'huile ne coule pas dans une crosse en bois. N'utilisez pas de laine d'acier ni d'abrasifs : ils rayent la finition.",
+    "gun-care-p7": "Une fois par an, ou après un grand nombre de coups, confiez le fusil à un {{term:gunsmith|armurier}} pour un entretien. Après le remontage, ne testez pas le fusil sur un poste de compétition. Au {{tm:sporting}} et au {{tm:compak}}, un {{term:gun-test|coup d'essai}} ne se tire que sur un poste d'essai séparé, là où le stand en propose un."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "gun-care-kp1": "Assurez-vous d'abord que le fusil est déchargé et que les cartouches sont rangées.",
+    "gun-care-kp2": "Nettoyez les âmes après chaque journée de tir ; huilez légèrement.",
+    "gun-care-kp3": "Séchez immédiatement un fusil humide ; ne le laissez pas dans un fourreau toute la nuit.",
+    "gun-care-kp4": "Rangez-le au sec et sous clé, à l'horizontale ou bouches vers le bas.",
+    "gun-care-kp5": "Un entretien annuel chez un armurier ; les coups d'essai seulement sur un poste d'essai."
+  },
+  "quiz": {
+    "gun-care-q1": {
+      "q": "Que faut-il faire en premier avant de nettoyer un fusil ?",
+      "options": {
+        "a": "Graisser la charnière et les crochets",
+        "b": "Dévisser les deux chokes",
+        "c": "Vérifier que le fusil est déchargé",
+        "d": "Retirer la plaque de couche"
+      },
+      "explain": "La sécurité avant tout : ouvrez le fusil et vérifiez les deux chambres."
+    },
+    "gun-care-q2": {
+      "q": "Que ne faut-il pas faire après avoir tiré sous la pluie ?",
+      "options": {
+        "a": "Essuyer le fusil avec un chiffon sec",
+        "b": "Le laisser dans son fourreau toute la nuit",
+        "c": "Sécher les canons à l'intérieur et à l'extérieur",
+        "d": "Mettre un film d'huile fin sur le métal"
+      },
+      "explain": "L'humidité reste longtemps dans un fourreau fermé, et la rouille s'installe."
+    },
+    "gun-care-q3": {
+      "q": "Où peut-on tirer un coup d'essai avant une compétition ?",
+      "options": {
+        "a": "Sur un poste d'essai, si le stand en a un",
+        "b": "Sur le premier poste de compétition",
+        "c": "N'importe où sur le stand, loin des gens",
+        "d": "Sur le parking près du club-house"
+      },
+      "explain": "Le règlement interdit les coups d'essai sur le poste de compétition ; un poste d'essai séparé est prévu à cet effet."
+    },
+    "gun-care-q4": {
+      "q": "Pourquoi beaucoup d'armuriers conseillent-ils de ranger un fusil bouches vers le bas ?",
+      "options": {
+        "a": "Pour le charger plus vite ensuite",
+        "b": "Pour que les chokes ne se desserrent pas",
+        "c": "Pour que les canons refroidissent plus vite",
+        "d": "Pour que l'huile ne coule pas dans la crosse"
+      },
+      "explain": "L'huile qui coule dans une crosse en bois peut endommager le bois avec le temps."
+    }
+  },
+  "did_you_know": "Les {{term:primer|amorces}} contenaient autrefois des sels corrosifs, et il fallait nettoyer le fusil le jour même, sinon l'âme rouillait. Les amorces modernes ne sont pas corrosives, mais nettoyer après le tir reste une bonne habitude."
+}

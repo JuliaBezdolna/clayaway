@@ -1,0 +1,381 @@
+{
+  "id": "interpreter-position",
+  "rev": 1,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js and compak.js (FITASC editions of 01/01/2025)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "interpreter-position"
+    ]
+  },
+  "terms": [
+    "coach",
+    "shooting-stand",
+    "cage",
+    "consecutive-interpreting",
+    "chuchotage",
+    "pre-shot-routine",
+    "hand-signal",
+    "squad",
+    "waiting-position",
+    "no-bird",
+    "quiet-on-stand",
+    "hearing-protection"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-waiting-positions"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-fifteen-seconds"
+    },
+    {
+      "book": "sporting",
+      "id": "ch6-nobird-target-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-fal"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-firing-time"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    },
+    {
+      "book": "compak",
+      "id": "ch20-target-no-bird-cases"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    }
+  ],
+  "facts": [
+    "rules.sporting-time-between-targets",
+    "rules.compak-time-to-call"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Where to stand and when to speak",
+    "uk": "Де стояти й коли говорити"
+  },
+  "summary": {
+    "en": "Where an interpreter stands in training and in competition, which mode of interpreting suits which moment, and why you speak only when the gun is open.",
+    "uk": "Де стоїть перекладач на тренуванні й на змаганнях, який спосіб перекладу пасує до якої ситуації і чому говорити можна лише тоді, коли рушниця відкрита."
+  },
+  "body": [
+    {
+      "k": "interpreter-position-p1",
+      "t": "p",
+      "core": true,
+      "en": "In training, stand directly behind the shooter, next to the {{term:coach|coach}}, behind the {{term:shooting-stand|stand}} or {{term:cage|cage}} and out of any line of the barrels. From there you see what the coach sees, the target and the muzzles together, and the coach can talk to you quietly. Beside the shooter you are close to the swinging gun and the ejected cases, and nobody may be in front of the stand at all.",
+      "uk": "На тренуванні стійте просто за стрільцем, поруч із {{term:coach|тренером}}, позаду {{term:shooting-stand|стрілецького місця}} чи {{term:cage|рами (cage)}} й поза будь-якою лінією стволів. Звідти ви бачите те саме, що й тренер, — мішень і стволи разом, а тренер може тихо говорити до вас. Збоку від стрільця ви близько до руху рушниці й гільз, а попереду стрілецького місця не можна стояти нікому."
+    },
+    {
+      "k": "interpreter-position-p2",
+      "t": "p",
+      "core": true,
+      "en": "Choose the mode for the moment. {{term:consecutive-interpreting|Consecutive interpreting}} (the coach speaks, pauses, you speak) suits the safety briefing, the walk between stands and the debrief. Whispered interpreting, {{term:chuchotage|chuchotage}}, lets the coach keep talking while you whisper into the shooter’s ear from behind. This works with electronic {{term:hearing-protection|hearing protection}}; with passive ear defenders, wait until the gun is open and the shooter can hear you. Whispering is tiring, so alternate the two modes. Agree on a “pause, I’m translating” sign, such as a raised palm.",
+      "uk": "Обирайте режим під ситуацію. {{term:consecutive-interpreting|Послідовний переклад}} (тренер говорить, робить паузу, говорите ви) пасує до інструктажу з безпеки, переходів між стрілецькими місцями й розбору. Шепітний переклад, {{term:chuchotage|шушотаж}} (chuchotage), дає тренерові говорити без зупинок, а ви шепочете стрільцеві на вухо ззаду. Так виходить з електронними {{term:hearing-protection|навушниками}}; зі звичайними навушниками зачекайте, поки рушниця відкрита і стрілець може вас почути. Шепіт виснажує, тож чергуйте обидва режими. Домовтеся про знак «пауза, перекладаю», наприклад підняту долоню."
+    },
+    {
+      "k": "interpreter-position-p3",
+      "t": "p",
+      "core": true,
+      "en": "Timing matters most. The shooter’s {{term:pre-shot-routine|routine}} ends with the shot, and by the time the gun is closed it is well under way. So speak only when the gun is open: between targets, between pairs, after the stand. Between pairs, repeat the coach’s short cues in your language, just as short, such as “more in front”, “head down” or “same again”. Keep the long explanations for later. In training many coaches keep the competition rhythm. At a competition a shooter in {{tm:sporting}} has {{fact:rules.sporting-time-between-targets}}. In {{tm:compak}} the shooter has {{fact:rules.compak-time-to-call}}. Keep your words short, so the shooter can practise that rhythm.",
+      "uk": "Найважливіше — вчасність. {{term:pre-shot-routine|Передпостріловий ритуал}} стрільця закінчується пострілом, і коли рушницю закрито, він уже в розпалі. Тож говоріть лише тоді, коли рушниця відкрита: між мішенями, між дуплетами, після стрілецького місця. Між дуплетами повторюйте короткі підказки тренера так само коротко, як-от «більше вперед», «щокою на приклад» чи «так само». Довгі пояснення залиште на потім. На тренуванні багато тренерів тримають змагальний ритм. На змаганнях у {{tm:sporting}} стрілець має {{fact:rules.sporting-time-between-targets}}. У {{tm:compak}} стрілець має {{fact:rules.compak-time-to-call}}. Говоріть стисло, щоб стрілець міг тренувати цей ритм."
+    },
+    {
+      "k": "interpreter-position-signals",
+      "t": "tip",
+      "en": "Learn the coach’s {{term:hand-signal|hand signals}} at the start and translate them once for your guests. After that they will need you less, and that is a good sign.",
+      "uk": "На початку вивчіть {{term:hand-signal|жести}} тренера й один раз перекладіть їх гостям. Далі ви їм будете потрібні менше — і це добрий знак."
+    },
+    {
+      "k": "interpreter-position-ph5",
+      "t": "tip",
+      "en": "Not sure what the coach said? Ask back with the two options you heard: “Sorry — did you say ‘under it’ or ‘on it’?” It is faster than “Could you repeat that?”",
+      "uk": "Не впевнені, що сказав тренер? Перепитайте, назвавши два варіанти, які почули: «Sorry — did you say ‘under it’ or ‘on it’?» Так швидше, ніж «Could you repeat that?»."
+    },
+    {
+      "k": "interpreter-position-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_ref": "sporting:ch2-waiting-positions",
+      "en": "In competition, wait where the {{term:squad|squad}} waits, at the {{term:waiting-position|waiting position}} close to the stand, but out of the shooter’s way. If the referee sees that a shooter was clearly disturbed, the target is a {{term:no-bird|No Bird}} and is thrown again. Nobody wants to be the cause, so keep {{term:quiet-on-stand|silence}} while anyone is shooting.",
+      "uk": "На змаганнях чекайте там, де чекає {{term:squad|група}}, — на {{term:waiting-position|місці очікування}} поблизу стрілецького місця, але так, щоб не заважати стрільцеві. Якщо суддя бачить, що стрільцеві явно завадили, мішень оголошують {{term:no-bird|No Bird}} і запускають знову. Ніхто не хоче бути причиною, тож дотримуйтеся {{term:quiet-on-stand|тиші}}, поки хтось стріляє."
+    }
+  ],
+  "note": [],
+  "phrases": [
+    {
+      "k": "interpreter-position-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Stand right behind me.",
+      "meaning": {
+        "en": "Behind the coach and the shooter, out of the swing.",
+        "uk": "Позаду тренера й стрільця, поза рухом рушниці."
+      },
+      "say": {
+        "uk": "Станьте просто за мною."
+      }
+    },
+    {
+      "k": "interpreter-position-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Head on the stock — just whisper it to him, I’ll keep going.",
+      "meaning": {
+        "en": "Switch to chuchotage and pass the cue on quietly; the coach will not pause. With passive ear defenders, wait until the gun is open.",
+        "uk": "Перейдіть на шушотаж і тихо передайте підказку; тренер не робитиме пауз. Зі звичайними навушниками зачекайте, поки рушниця відкрита."
+      },
+      "say": {
+        "uk": "(пошепки) Щокою на приклад."
+      }
+    },
+    {
+      "k": "interpreter-position-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "When I do this — hands apart — it means more in front.",
+      "meaning": {
+        "en": "The coach explains a hand signal; translate it once for the group.",
+        "uk": "Тренер пояснює жест; перекладіть його групі один раз."
+      },
+      "say": {
+        "uk": "Коли тренер розводить руки — це означає «більше вперед»."
+      }
+    },
+    {
+      "k": "interpreter-position-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Wait — let him finish the pair.",
+      "meaning": {
+        "en": "Hold the advice until the gun is open again.",
+        "uk": "Притримайте пораду, доки рушниця знову не буде відкрита."
+      },
+      "say": {
+        "uk": "Зачекайте — нехай дострілить дуплет."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "interpreter-position-kp1",
+      "core": true,
+      "en": "Training: directly behind the shooter, next to the coach, out of the barrels’ line",
+      "uk": "Тренування: просто за стрільцем, поруч із тренером, поза лінією стволів"
+    },
+    {
+      "k": "interpreter-position-kp2",
+      "core": true,
+      "en": "Consecutive for briefings and debriefs; chuchotage on the stand; alternate",
+      "uk": "Послідовний — для інструктажу й розбору; шушотаж — на стрілецькому місці; чергуйте"
+    },
+    {
+      "k": "interpreter-position-kp3",
+      "core": true,
+      "en": "Speak only when the gun is open",
+      "uk": "Говоріть лише тоді, коли рушниця відкрита"
+    },
+    {
+      "k": "interpreter-position-kp4",
+      "core": true,
+      "en": "Training: short cues between pairs, at the competition rhythm ({{tm:sporting}} 15 s, {{tm:compak}} 10 s)",
+      "uk": "Тренування: короткі підказки між дуплетами, у змагальному ритмі ({{tm:sporting}} 15 с, {{tm:compak}} 10 с)"
+    },
+    {
+      "k": "interpreter-position-kp5",
+      "core": true,
+      "en": "Competition: wait with the squad and keep out of the shooter’s way",
+      "uk": "Змагання: чекайте з групою й не заважайте стрільцеві"
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "interpreter-position-q1",
+      "disc": "sporting",
+      "q": {
+        "en": "Where should you stand during a training session on a {{tm:sporting}} stand?",
+        "uk": "Де вам стояти під час тренування на стрілецькому місці {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Beside the shooter, to see his eyes",
+          "uk": "Збоку від стрільця, щоб бачити його очі"
+        },
+        {
+          "k": "b",
+          "en": "Behind the shooter, next to the coach",
+          "uk": "Позаду стрільця, поруч із тренером"
+        },
+        {
+          "k": "c",
+          "en": "In front of the cage, facing him",
+          "uk": "Перед рамою (cage), обличчям до нього"
+        },
+        {
+          "k": "d",
+          "en": "Next to the trap, to watch the target",
+          "uk": "Біля машинки, щоб бачити мішень"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "From behind, out of the barrels’ line, you see what the coach sees and stay safe; beside or in front is dangerous.",
+        "uk": "Ззаду, поза лінією стволів, ви бачите те саме, що й тренер, і в безпеці; збоку чи попереду — небезпечно."
+      }
+    },
+    {
+      "k": "interpreter-position-q2",
+      "q": {
+        "en": "What is chuchotage?",
+        "uk": "Що таке шушотаж (chuchotage)?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Interpreting after the speaker pauses",
+          "uk": "Переклад після паузи мовця"
+        },
+        {
+          "k": "b",
+          "en": "A written translation of the rules",
+          "uk": "Письмовий переклад правил"
+        },
+        {
+          "k": "c",
+          "en": "Translating the coach’s hand signals",
+          "uk": "Переклад жестів тренера"
+        },
+        {
+          "k": "d",
+          "en": "Whispering the translation into the ear",
+          "uk": "Переклад пошепки на вухо"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Chuchotage means whispering the translation into the shooter’s ear while the coach keeps talking. Consecutive interpreting is the pause-and-speak mode: the coach says a sentence, pauses, and you translate it.",
+        "uk": "Шушотаж — це переклад пошепки на вухо, поки тренер говорить далі. Послідовний переклад — режим «пауза — переклад»: тренер каже речення, зупиняється, і ви перекладаєте."
+      }
+    },
+    {
+      "k": "interpreter-position-q3",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}}, how long does a shooter have to call after the previous station’s target was shot?",
+        "uk": "Скільки часу в {{tm:compak}} має стрілець на команду після того, як відстріляли мішень попереднього номера?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "10 seconds",
+          "uk": "10 секунд"
+        },
+        {
+          "k": "b",
+          "en": "15 seconds",
+          "uk": "15 секунд"
+        },
+        {
+          "k": "c",
+          "en": "30 seconds",
+          "uk": "30 секунд"
+        },
+        {
+          "k": "d",
+          "en": "No limit",
+          "uk": "Без обмежень"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "{{tm:compak}} gives at most 10 seconds to call; {{tm:sporting}} allows at most 15 seconds between singles or between doubles.",
+        "uk": "У {{tm:compak}} на команду щонайбільше 10 секунд; у {{tm:sporting}} — щонайбільше 15 секунд між одиночними мішенями або між дуплетами."
+      },
+      "rule_ref": "compak:ch21-firing-time"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "1843f92b",
+    "summary": "575302e9",
+    "interpreter-position-p1": "0d3cb318",
+    "interpreter-position-p2": "c8e0a00e",
+    "interpreter-position-p3": "b535f690",
+    "interpreter-position-signals": "2a90b6e5",
+    "interpreter-position-ph5": "6de3a842",
+    "interpreter-position-p4": "06769351",
+    "interpreter-position-ph1": "f3cd76fb",
+    "interpreter-position-ph2": "b990f4c9",
+    "interpreter-position-ph3": "e1772733",
+    "interpreter-position-ph4": "f12eccbb",
+    "interpreter-position-kp1": "b23a3e0f",
+    "interpreter-position-kp2": "ce320a90",
+    "interpreter-position-kp3": "7af0a9d3",
+    "interpreter-position-kp4": "ba033858",
+    "interpreter-position-kp5": "5d8306aa",
+    "interpreter-position-q1": "93f5bdf7",
+    "interpreter-position-q2": "d99e7d3c",
+    "interpreter-position-q3": "c569b016"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays (9 languages): the interpreter’s clarifying question interpreter-position-ph5 moved from phrases to the body as a tip; the second half of the old interpreter-position-p4 (hand signals) is now the tip interpreter-position-signals. Move or retranslate these entries when the overlays are updated.",
+      "Overlays (9 languages), fact clean-up of 2026-10-07 (one number in one place): interpreter-position-p3 now use the shared fact tokens of the rules/gear/community blocks instead of duplicate facts or written-out numbers. The meaning is unchanged, so check the wording and re-sign the hash.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in interpreter-position-kp4 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

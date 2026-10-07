@@ -1,0 +1,132 @@
+{
+  "fitasc-max-gauge": {
+    "text": {
+      "en": "no larger than 12 gauge",
+      "uk": "калібр не більший за 12"
+    },
+    "scope": "both",
+    "rule_ref": "sporting:ch7-permitted-guns",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "fitasc-min-barrel": {
+    "text": {
+      "en": "at least 66 cm (26 in) long",
+      "uk": "завдовжки щонайменше 66 см (26 дюймів)"
+    },
+    "scope": "both",
+    "rule_ref": "sporting:ch7-permitted-guns",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "fitasc-shot-load": {
+    "text": {
+      "en": "at most 28 g of lead shot (up to 2% more is tolerated)",
+      "uk": "щонайбільше 28 г свинцевого дробу (допускається до 2 % більше)"
+    },
+    "scope": "both",
+    "rule_ref": "sporting:ch7-cartridges",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "fitasc-shot-diameter": {
+    "text": {
+      "en": "round pellets of one size, 2.0 to 2.5 mm across (±0.1 mm)",
+      "uk": "круглі дробини одного розміру, діаметром від 2,0 до 2,5 мм (±0,1 мм)"
+    },
+    "scope": "both",
+    "rule_ref": "sporting:ch7-cartridges",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ]
+  },
+  "gunshot-peak-db": {
+    "text": {
+      "en": "about 160–170 dB at the shooter's ear at its loudest instant",
+      "uk": "близько 160–170 дБ біля вуха стрільця в найгучнішу мить"
+    },
+    "evidence": "strong",
+    "sources": [
+      "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+      "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf"
+    ]
+  },
+  "impulse-noise-limits": {
+    "text": {
+      "en": "140 dB for adults and 120 dB for children",
+      "uk": "140 дБ для дорослих і 120 дБ для дітей"
+    },
+    "evidence": "strong",
+    "sources": [
+      "https://www.hearingconservation.org/assets/docs/NHCA_position_paper_on_firea.pdf",
+      "https://www.cdc.gov/niosh/docs/wp-solutions/2013-104/pdfs/2013-104.pdf"
+    ]
+  },
+  "iata-ammunition": {
+    "text": {
+      "en": "in checked baggage only, with the airline's approval, up to 5 kg per person including packaging, for your own use",
+      "uk": "лише в зареєстрованому багажі, з дозволу авіакомпанії, до 5 кг на людину разом з упаковкою, для власного використання"
+    },
+    "sources": [
+      "https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/dgr-67-en-2.3.a.pdf"
+    ]
+  },
+  "eu-wetland-lead": {
+    "text": {
+      "en": "since 15 February 2023, no shot with 1% lead or more in wetlands or within 100 m of them",
+      "uk": "з 15 лютого 2023 року — жодного дробу з 1 % свинцю й більше у водно-болотних угіддях і ближче ніж 100 м від них"
+    },
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg/2021/57/oj/eng"
+    ]
+  },
+  "uk-lead-shot-2029": {
+    "text": {
+      "en": "from 1 April 2029, including clay shooting",
+      "uk": "з 1 квітня 2029 року, зокрема на стендах"
+    },
+    "sources": [
+      "https://www.gov.uk/government/news/toxic-lead-ammunition-banned-to-protect-britains-countryside",
+      "https://www.cpsa.co.uk/shotchange/faqs"
+    ]
+  },
+  "shot-velocity": {
+    "text": {
+      "en": "about 360–430 m/s (roughly 1,200–1,400 fps)",
+      "uk": "приблизно 360–430 м/с (близько 1200–1400 fps)"
+    },
+    "sources": [
+      "https://gamebore.com/cartridge/clay/12g-white-gold",
+      "https://rc-cartridges.com/en/prodotto/rc-4-champion-sporting-fibre/"
+    ]
+  },
+  "steel-vs-lead-weight": {
+    "text": {
+      "en": "about 30% lighter than a lead pellet of the same size",
+      "uk": "приблизно на 30 % легша за свинцеву дробину того самого розміру"
+    },
+    "sources": [
+      "https://www.rsc.org/periodic-table/element/82/lead",
+      "https://www.rsc.org/periodic-table/element/26/iron"
+    ]
+  },
+  "length-of-pull": {
+    "text": {
+      "en": "the distance from the trigger to the middle of the butt pad",
+      "uk": "відстань від спускового гачка до середини затильника"
+    },
+    "sources": []
+  },
+  "fit-plate-distance": {
+    "text": {
+      "en": "about 15 m (16 yards)",
+      "uk": "приблизно 15 м (16 ярдів)"
+    },
+    "sources": [
+      "https://www.shootinguk.co.uk/answers/why-you-should-always-pattern-your-shotgun-16881/"
+    ]
+  }
+}

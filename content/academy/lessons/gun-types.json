@@ -1,0 +1,511 @@
+{
+  "id": "gun-types",
+  "rev": 1,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 6,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "gear block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "gun-types"
+    ],
+    "interpreter": [
+      "gear-gun-types"
+    ]
+  },
+  "terms": [
+    "shotgun",
+    "over-and-under",
+    "side-by-side",
+    "semi-automatic",
+    "pump-action",
+    "choke",
+    "gauge",
+    "barrel-length",
+    "shell-catcher",
+    "steel-shot"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-permitted-guns"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-semi-auto"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loading"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-gun-handling"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-carrying"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Types of shotgun",
+    "uk": "Типи рушниць"
+  },
+  "summary": {
+    "en": "Over-and-under, side-by-side or semi-automatic: how they differ, what the rules allow and why most shooters in {{tm:sporting}} and {{tm:compak}} use an over-and-under.",
+    "uk": "Вертикалка, горизонталка чи напівавтомат: чим вони відрізняються, що дозволяють правила і чому в {{tm:sporting}} і {{tm:compak}} більшість стріляє з вертикалок."
+  },
+  "body": [
+    {
+      "k": "gun-types-p1",
+      "t": "p",
+      "en": "Clay shooting uses a {{term:shotgun|shotgun}}. The inside of its barrel (the bore) is smooth, with none of the spiral grooves (rifling) a rifle has. It fires a cloud of small pellets called shot, not a single bullet. In {{tm:sporting}} and {{tm:compak}} you will meet three main types of gun.",
+      "uk": "Для стендової стрільби використовують гладкоствольну {{term:shotgun|рушницю}}. Канал ствола (bore) у неї гладкий, без спіральних нарізів, які є в гвинтівки. Стріляє вона не однією кулею, а хмарою дрібних кульок — дробом. У {{tm:sporting}} і {{tm:compak}} ви побачите три основні типи рушниць."
+    },
+    {
+      "k": "gear-gun-types-p1",
+      "t": "p",
+      "core": true,
+      "anchor": "gear-gun-types",
+      "en": "All the guns you will see on the stand are smooth-bore shotguns. At competitions it is mostly an {{term:over-and-under|over-and-under}} (O/U): two barrels one above the other, opened by 'breaking' the gun on its hinge. Each barrel can carry its own {{term:choke|choke}}, which matters for doubles.",
+      "uk": "Усі рушниці, які ви побачите на стрілецькому місці, — гладкоствольні. На змаганнях це здебільшого {{term:over-and-under|вертикалка}} (over-and-under, O/U): два стволи один над одним, рушницю відкривають, «переламуючи» її на шарнірі. На кожен ствол можна поставити свій {{term:choke|чок}}, що важливо для дуплетів."
+    },
+    {
+      "k": "gear-gun-types-p2",
+      "t": "p",
+      "core": true,
+      "en": "A {{term:side-by-side|side-by-side}} has two barrels next to each other. It is the classic game gun and is allowed, but rarely seen in competition. Many shooters find that the wide top of two barrels gives the eye a less clear line, and few modern competition models are made.",
+      "uk": "{{term:side-by-side|Горизонталка}} (side-by-side) має два стволи поруч. Це класична мисливська рушниця; її дозволено, але на змаганнях вона трапляється рідко. Багатьом стрільцям здається, що широка площина двох стволів дає оку менш чітку лінію, а сучасних спортивних моделей такого типу мало."
+    },
+    {
+      "k": "gear-gun-types-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "A {{term:semi-automatic|semi-automatic}} has one barrel and reloads itself after each shot, throwing the empty case to the side. FITASC allows it with conditions. It may hold no more than two cartridges, and its breech (the opening at the back of the barrel where the cartridge goes in) stays open whenever it is carried. In {{tm:compak}} it also needs a {{term:shell-catcher|shell catcher}}, so that cases do not hit the neighbour.",
+      "uk": "{{term:semi-automatic|Напівавтомат}} (semi-automatic, самозарядна рушниця) має один ствол і сам перезаряджається після кожного пострілу, викидаючи гільзу вбік. FITASC його дозволяє за певних умов. У ньому може бути не більше двох патронів, а затвор відкритий щоразу, коли рушницю несуть. У {{tm:compak}} потрібен ще {{term:shell-catcher|уловлювач гільз}}, щоб гільзи не летіли в сусіда."
+    },
+    {
+      "k": "gun-types-p4",
+      "t": "p",
+      "en": "A semi-automatic reloads itself using either some of the gas from the shot or the kick of the recoil. Many shooters find a gas-operated one softer in the shoulder than an over-and-under, and semi-automatics often cost less.",
+      "uk": "Напівавтомат перезаряджається сам — або частиною порохових газів від пострілу, або поштовхом віддачі. Газовий напівавтомат багатьом стрільцям здається м’якшим у плече, ніж вертикалка, і напівавтомати часто коштують дешевше."
+    },
+    {
+      "k": "gear-gun-types-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "{{term:pump-action|Pump-action}} guns, reloaded by sliding the fore-end by hand, are not allowed in {{tm:sporting}} or in {{tm:compak}}. The rulebooks state the ban without giving a reason. {{tm:compak}} also bans drillings, guns that combine shotgun and rifle barrels.",
+      "uk": "{{term:pump-action|Помпові рушниці}} (pump-action), які перезаряджають рухом цівки рукою, заборонені і в {{tm:sporting}}, і в {{tm:compak}}. Правила встановлюють заборону без пояснень. У {{tm:compak}} також заборонені комбіновані рушниці (drillings) з дробовими й нарізним стволами."
+    },
+    {
+      "k": "gear-gun-types-p5",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Two more limits apply in both disciplines: the gauge may not be larger than 12 (so 20 gauge is fine), and barrels must be at least 66 cm long. Slings, gun-mounted cameras and any artificial aiming device are forbidden.",
+      "uk": "В обох дисциплінах діють ще два обмеження: {{term:gauge|калібр}} не більший за 12 (тож 20-й калібр підходить), а {{term:barrel-length|стволи}} завдовжки щонайменше 66 см. Ремені, камери на рушниці й будь-які штучні прицільні пристрої заборонені."
+    },
+    {
+      "k": "gun-types-p6",
+      "t": "p",
+      "en": "So why do most competition shooters use an over-and-under? First, safety: an open O/U is easy to see from a distance, so everyone knows it is empty. Second, two barrels mean two chokes: in a double the first target may be close and the second far.",
+      "uk": "Чому ж більшість спортсменів стріляє з вертикалок? По-перше, безпека: відкриту вертикалку добре видно здалеку, і кожен бачить, що вона порожня. По-друге, два стволи — це два чоки: у дуплеті перша мішень може бути близькою, а друга далекою."
+    },
+    {
+      "k": "gun-types-p7",
+      "t": "p",
+      "en": "Third, an over-and-under does not use the cartridge to reload, so light loads do not cause jams and no cases fly around. Finally, the narrow rib over the barrels gives the eye a clean line.",
+      "uk": "По-третє, вертикалка не перезаряджається енергією патрона, тож легкі патрони не спричиняють затримок, а гільзи не розлітаються навколо. І нарешті, вузька планка над стволами дає оку чітку лінію."
+    },
+    {
+      "k": "gun-types-p8",
+      "t": "tip",
+      "en": "A gas-operated semi-automatic can be a good choice for a beginner or for someone who is bothered by recoil. Many shooters who stay with {{tm:sporting}} and {{tm:compak}} later move to a 12-gauge competition over-and-under, a 'sporter'.",
+      "uk": "Газовий напівавтомат може бути добрим вибором для початку або для стрільця, якого турбує віддача. Багато хто, хто залишається в {{tm:sporting}} і {{tm:compak}}, згодом переходить на спортивну вертикалку 12 калібру (sporter)."
+    },
+    {
+      "k": "gun-types-p9",
+      "t": "tip",
+      "en": "More and more grounds and some countries require {{term:steel-shot|steel shot}}. Before you buy a gun, check whether it has the steel-shot (fleur-de-lis) proof, which high performance steel loads require, and which chokes the maker allows for steel. Details: {{lesson:cartridges-lead-and-steel}} and {{lesson:chokes-steel-shot}}.",
+      "uk": "Дедалі більше стендів і деяких країн вимагають {{term:steel-shot|сталевий дріб}}. Перш ніж купувати рушницю, перевірте, чи має вона клеймо-лілію випробування для сталевого дробу (його потребують потужні сталеві патрони, high performance) і які чоки виробник дозволяє для сталі. Докладніше: {{lesson:cartridges-lead-and-steel}} і {{lesson:chokes-steel-shot}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "gun-types-n1",
+      "for": "interpreter",
+      "en": "Over-and-under is one specific type of gun. Translate it with your language's word for this type, not with a general word for any double-barrelled gun.",
+      "uk": "Перекладайте over-and-under як «вертикалка», а не «двостволка»: «двостволка» означає обидва типи — і вертикалку, і горизонталку."
+    },
+    {
+      "k": "gun-types-n2",
+      "for": "interpreter",
+      "en": "If a client asks why pump-action guns are banned, say that it is the rule. The rulebooks give no reason, so do not invent one.",
+      "uk": "Якщо клієнт питає, чому заборонені помпові рушниці, скажіть, що таке правило. Правила причини не називають, тож не вигадуйте її."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "gear-gun-types-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Bring your over-and-under and a spare set of chokes.",
+      "meaning": {
+        "en": "The two-barrel competition gun plus extra choke tubes.",
+        "uk": "Змагальну рушницю з вертикальними стволами й запасні чоки."
+      },
+      "say": {
+        "uk": "Беріть свою вертикалку й запасний комплект чоків."
+      }
+    },
+    {
+      "k": "gear-gun-types-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "With a semi-auto, keep the bolt open until you're on the stand.",
+      "meaning": {
+        "en": "Safety rule: a semi-automatic is carried with the breech open.",
+        "uk": "Правило безпеки: напівавтомат носять із відкритим затвором."
+      },
+      "say": {
+        "uk": "З напівавтоматом тримайте затвор відкритим, доки не станете на стрілецьке місце."
+      }
+    },
+    {
+      "k": "gear-gun-types-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "No pumps on this ground.",
+      "meaning": {
+        "en": "Pump-action guns are not accepted.",
+        "uk": "Помпові рушниці тут не допускають."
+      },
+      "say": {
+        "uk": "Помпові рушниці тут заборонені."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "gear-gun-types-kp1",
+      "core": true,
+      "en": "Most competitors shoot an over-and-under.",
+      "uk": "Більшість стрільців стріляє з вертикалки."
+    },
+    {
+      "k": "gear-gun-types-kp2",
+      "core": true,
+      "en": "Semi-automatics are allowed: at most two cartridges, breech open when carried, shell catcher in {{tm:compak}}.",
+      "uk": "Напівавтомати дозволені: щонайбільше два патрони, затвор відкритий під час перенесення, у {{tm:compak}} — уловлювач гільз."
+    },
+    {
+      "k": "gear-gun-types-kp3",
+      "core": true,
+      "en": "Pump-action guns are banned in both disciplines; the rules give no reason.",
+      "uk": "Помпові рушниці заборонені в обох дисциплінах; правила не пояснюють чому."
+    },
+    {
+      "k": "gear-gun-types-kp4",
+      "core": true,
+      "en": "Gauge no larger than 12, barrels at least 66 cm, no slings or aiming devices.",
+      "uk": "Калібр не більший за 12, стволи від 66 см, без ременів і прицільних пристроїв."
+    }
+  ],
+  "did_you_know": {
+    "k": "gun-types-dyk",
+    "en": "Many shooters set the selector so that the lower barrel of an over-and-under fires first. It sits closer to the line of the shoulder, so many people feel the gun lift a little less.",
+    "uk": "Багато стрільців ставлять перемикач так, щоб першим стріляв нижній ствол вертикалки. Він ближчий до лінії плеча, тож багатьом здається, що рушницю тоді менше підкидає."
+  },
+  "quiz": [
+    {
+      "k": "gear-gun-types-q1",
+      "disc": "both",
+      "q": {
+        "en": "Which gun is NOT allowed in FITASC {{tm:sporting}} and {{tm:compak}}?",
+        "uk": "Яка рушниця НЕ дозволена в {{tm:sporting}} і {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A 20-gauge over-and-under",
+          "uk": "Вертикалка 20-го калібру"
+        },
+        {
+          "k": "b",
+          "en": "A side-by-side",
+          "uk": "Горизонталка"
+        },
+        {
+          "k": "c",
+          "en": "A pump-action",
+          "uk": "Помпова рушниця"
+        },
+        {
+          "k": "d",
+          "en": "A semi-automatic with two cartridges",
+          "uk": "Напівавтомат із двома патронами"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Pump-action guns are banned; the others are allowed if they meet the gauge and barrel limits.",
+        "uk": "Помпові рушниці заборонені; інші дозволені, якщо відповідають обмеженням калібру й довжини стволів."
+      },
+      "rule_ref": "sporting:ch7-permitted-guns"
+    },
+    {
+      "k": "gear-gun-types-q2",
+      "disc": "both",
+      "q": {
+        "en": "How many cartridges may a semi-automatic hold?",
+        "uk": "Скільки патронів може бути в напівавтоматі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One",
+          "uk": "Один"
+        },
+        {
+          "k": "b",
+          "en": "Two",
+          "uk": "Два"
+        },
+        {
+          "k": "c",
+          "en": "Three",
+          "uk": "Три"
+        },
+        {
+          "k": "d",
+          "en": "As many as the magazine takes",
+          "uk": "Скільки вміщує магазин"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Both rulebooks limit a semi-automatic to two cartridges.",
+        "uk": "Обидва регламенти обмежують напівавтомат двома патронами."
+      },
+      "rule_ref": "compak:ch18-semi-auto"
+    },
+    {
+      "k": "gun-types-q3",
+      "q": {
+        "en": "Why do most competition shooters choose an over-and-under?",
+        "uk": "Чому більшість спортсменів обирає вертикалку?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It has the softest recoil of any type of gun",
+          "uk": "Вона має найм’якшу віддачу з усіх типів рушниць"
+        },
+        {
+          "k": "b",
+          "en": "The rules allow no other type of competition gun",
+          "uk": "Правила не дозволяють інших змагальних рушниць"
+        },
+        {
+          "k": "c",
+          "en": "It is the cheapest gun that you can buy",
+          "uk": "Це найдешевша рушниця, яку можна купити"
+        },
+        {
+          "k": "d",
+          "en": "An open O/U is easy to check and takes two chokes",
+          "uk": "Відкриту вертикалку легко перевірити, і в неї два чоки"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "Visible safety, two chokes and reliability are the main reasons. Many shooters find a gas semi-automatic softer.",
+        "uk": "Головні причини — видима безпека, два чоки й надійність. Газовий напівавтомат багатьом стрільцям здається м’якшим."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "gun-types-q1",
+      "disc": "compak",
+      "q": {
+        "en": "What must a semi-automatic have in {{tm:compak}}?",
+        "uk": "Що обов’язково має бути на напівавтоматі в {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A device that stops cases hitting the neighbour",
+          "uk": "Пристрій, що не дає гільзам летіти в сусіда"
+        },
+        {
+          "k": "b",
+          "en": "A sling so it can be carried safely",
+          "uk": "Ремінь, щоб безпечно її носити"
+        },
+        {
+          "k": "c",
+          "en": "A magazine for at least five cartridges",
+          "uk": "Магазин щонайменше на п’ять патронів"
+        },
+        {
+          "k": "d",
+          "en": "A red sticker with the letter 'S'",
+          "uk": "Червона наліпка з літерою «S»"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In {{tm:compak}} a shell catcher or deflector is compulsory, and slings are banned.",
+        "uk": "У {{tm:compak}} уловлювач або відбивач гільз обов’язковий, а ремені заборонені."
+      },
+      "rule_ref": "compak:ch18-semi-auto"
+    },
+    {
+      "k": "gun-types-q2",
+      "disc": "both",
+      "q": {
+        "en": "What is the shortest barrel length the FITASC rules allow?",
+        "uk": "Яку найменшу довжину стволів дозволяють правила FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "56 cm (22 in)",
+          "uk": "56 см (22 дюйми)"
+        },
+        {
+          "k": "b",
+          "en": "61 cm (24 in)",
+          "uk": "61 см (24 дюйми)"
+        },
+        {
+          "k": "c",
+          "en": "66 cm (26 in)",
+          "uk": "66 см (26 дюймів)"
+        },
+        {
+          "k": "d",
+          "en": "76 cm (30 in)",
+          "uk": "76 см (30 дюймів)"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Barrels must be at least 66 cm long in both disciplines.",
+        "uk": "В обох дисциплінах стволи мають бути завдовжки щонайменше 66 см."
+      },
+      "rule_ref": "compak:ch18-gun"
+    },
+    {
+      "k": "gear-gun-types-q3",
+      "q": {
+        "en": "A client asks why pumps are banned. What is the honest answer?",
+        "uk": "Клієнт питає, чому заборонені помпові рушниці. Яка чесна відповідь?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The rules state the ban without explaining it",
+          "uk": "Правила встановлюють заборону без пояснень"
+        },
+        {
+          "k": "b",
+          "en": "The rulebook says they are too slow for doubles",
+          "uk": "Правила кажуть, що вони заповільні для дуплетів"
+        },
+        {
+          "k": "c",
+          "en": "The rulebook says they are less safe",
+          "uk": "Правила кажуть, що вони менш безпечні"
+        },
+        {
+          "k": "d",
+          "en": "They are in fact allowed in {{tm:compak}}",
+          "uk": "Насправді в {{tm:compak}} їх дозволено"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The rulebooks give no reason; as an interpreter, report the rule and do not invent explanations.",
+        "uk": "Правила причини не називають; перекладач передає правило й не вигадує пояснень."
+      }
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "b7180dcf",
+    "summary": "6f5dd551",
+    "gun-types-p1": "f109846c",
+    "gear-gun-types-p1": "32697179",
+    "gear-gun-types-p2": "c60ff9d8",
+    "gear-gun-types-p3": "3faf164f",
+    "gun-types-p4": "e6c81922",
+    "gear-gun-types-p4": "f8b2a1ea",
+    "gear-gun-types-p5": "9528babb",
+    "gun-types-p6": "c9389025",
+    "gun-types-p7": "4c3e1df9",
+    "gun-types-p8": "5a3076c1",
+    "gun-types-p9": "c0d3639a",
+    "gun-types-n1": "316035f0",
+    "gun-types-n2": "f1502778",
+    "gear-gun-types-kp1": "f56225bf",
+    "gear-gun-types-kp2": "7127c2eb",
+    "gear-gun-types-kp3": "339a544e",
+    "gear-gun-types-kp4": "51b4613a",
+    "gun-types-dyk": "fd6d148c",
+    "gear-gun-types-ph1": "970a6f1a",
+    "gear-gun-types-ph2": "1a33ee99",
+    "gear-gun-types-ph3": "0692e48f",
+    "gear-gun-types-q1": "9a2b0e10",
+    "gear-gun-types-q2": "12735e64",
+    "gun-types-q3": "71e1d928",
+    "gun-types-q1": "b538eeb6",
+    "gun-types-q2": "9b76c0d0",
+    "gear-gun-types-q3": "146dc9f1"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

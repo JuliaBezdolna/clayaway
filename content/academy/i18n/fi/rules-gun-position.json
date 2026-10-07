@@ -1,0 +1,181 @@
+{
+ "id": "rules-gun-position",
+ "lang": "fi",
+ "base_rev": 1,
+ "h": {
+  "title": "217daa8e",
+  "summary": "5f71387a",
+  "rules-gun-position-p1": "308382b7",
+  "rules-gun-position-cmp1": "95b76718",
+  "sporting-gun-position-p1": "8e9645ae",
+  "sporting-gun-position-p2": "d0d75e51",
+  "sporting-gun-position-p3": "c4416d62",
+  "rules-gun-position-p5": "408e96a9",
+  "sporting-gun-position-p4": "0a3425cb",
+  "sporting-gun-position-p5": "42345a8d",
+  "rules-gun-position-tip1": "2c6ec53c",
+  "rules-gun-position-n1": "c8357a04",
+  "sporting-gun-position-ph1": "1832c42b",
+  "sporting-gun-position-ph2": "2cf35975",
+  "sporting-gun-position-ph3": "fc05482d",
+  "sporting-gun-position-ph4": "8cfb394e",
+  "gear-protection-clothes-ph2": "75e93376",
+  "gear-protection-clothes-ph3": "6807ee7b",
+  "compak-gun-and-call-ph2": "08c2e3d7",
+  "sporting-gun-position-kp1": "825abaaa",
+  "sporting-gun-position-kp2": "b4b04213",
+  "sporting-gun-position-kp3": "ac9132d3",
+  "sporting-gun-position-kp4": "061fc1d9",
+  "rules-gun-position-kp4": "feed9af0",
+  "rules-gun-position-dyk": "71e12e41",
+  "rules-gun-position-q1": "bddb82a6",
+  "rules-gun-position-q2": "251e5a7f",
+  "rules-gun-position-q3": "3ac89e7f",
+  "sporting-gun-position-q1": "bbb625d7",
+  "sporting-gun-position-q2": "76c39e80",
+  "sporting-gun-position-q3": "a26941d8",
+  "compak-gun-and-call-q1": "f5376923",
+  "gear-protection-clothes-q2": "2223479a"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Aseen asento ennen kiekon ilmestymistä",
+ "summary": "{{tm:sporting}}-lajissa tukki pysyy liivin viivan alapuolella, kunnes kiekko ilmestyy. {{tm:compak}}-lajissa aseen asento komennon aikaan on vapaa.",
+ "body": {
+  "rules-gun-position-p1": "{{tm:sporting}}-kilpailussa ampujat pyytävät kiekkoa ase alhaalla. Tämä on sääntö, ei tyylikysymys. {{tm:compak}}-lajissa tällaista sääntöä ei ole.",
+  "rules-gun-position-cmp1": {
+   "sporting": "Ase alhaalla: tukin takaosan yläkohta pysyy liivin viivan alapuolella, kunnes näet kiekon.",
+   "compak": "Vapaa: ase voi olla jo olalla, tai alempana. Liivin viivaa ei ole, mutta laukaus ammutaan yhä olalta."
+  },
+  "sporting-gun-position-p1": "{{tm:sporting}}-lajissa, ennen kuin pyydät kiekkoa, molemmat jalat ovat {{term:shooting-stand|ampumapaikan}} sisällä. Tukin kanta (sen yläperäkulma, se osa, joka tulee olkapäähän) koskettaa vartaloa. Tukin takaosan ylin kohta, yleensä kanta itse, pysyy liivin viivan alapuolella. Tätä {{term:ready-position|valmiusasentoa}} pidetään, kunnes kiekko on lähtenyt heittimestä ja näet sen.",
+  "sporting-gun-position-p2": "{{term:jacket-line|Viiva}} merkitään liiviin tai takkiin {{fact:rules.sporting-jacket-line}} (kuvitellun vaakasuoran linjan kautta molempien olkapäiden), sen suuntaisesti. Sen väri erottuu liivistä, jotta tuomari näkee sen. Sääntö koskee kaikkia tukkityyppejä: vakiotukkia, Monte Carloa (korotettu poskipakka, tukin yläreuna, jolle poski lepää) ja {{term:adjustable-comb|säädettävää poskipakkaa}}.",
+  "sporting-gun-position-p3": "Aseen saa nostaa olalle vasta, kun kiekko ilmestyy. Kaikki kiekot, myös {{term:rabbit|jäniskiekko}}, ammutaan ase olalla; lonkalta ampuminen ei ole sallittua.",
+  "rules-gun-position-p5": "Yksi helpotus: {{term:double|kaksoiskiekossa}} asetta saa pitää niin kuin haluaa ensimmäisen ja toisen kiekon välillä. Ennen ensimmäistä kiekkoa valmiusasento on yhä voimassa.",
+  "sporting-gun-position-p4": "Rangaistukset: kun pyydät kiekkoa ensimmäisen kerran väärässä asennossa tai nostat aseen liian aikaisin, tuomari antaa suullisen varoituksen ja näyttää {{term:yellow-card|keltaisen kortin}}. Saman toistaminen samalla {{term:layout|rataosuudella}} tuo {{term:red-card|punaisen kortin}}: yksittäiskiekko merkitään nollaksi, ja kaksoiskiekoille pätee säännöt-oppaan taulukko ({{rule:sporting:ch12-red-card}}).",
+  "sporting-gun-position-p5": "Aseen nostaminen ja vieminen odotetun kiekon linjaa pitkin ennen komentoa on {{term:mock-shooting|tähtäysharjoittelua}}, ja se on myös kiellettyä. Ensimmäisellä kerralla seuraa varoitus. Jos se toistuu, seuraava kiekko, jonka osut, merkitään nollaksi.",
+  "rules-gun-position-tip1": "Jos ammut molempia lajeja, moni valmentaja ehdottaa ase alhaalla -aloituksen harjoittelua ennen {{tm:sporting}}-kilpailua, vaikka pyytäisit kiekkoa ase ylhäällä {{tm:compak}}-lajissa."
+ },
+ "note": {
+  "rules-gun-position-n1": "Jos valmentaja harjoituttaa ase ylhäällä -aloitusta ennen {{tm:sporting}}-kilpailua, käännä myös sana ”drill” (harjoite): se on harjoitus, ei kilpailun aloitus."
+ },
+ "phrases": {
+  "sporting-gun-position-ph1": {
+   "meaning": "Tuomari: tuo tukki liivin merkkiviivan alapuolelle ennen kiekon pyytämistä.",
+   "say": "Ase alas, kiitos."
+  },
+  "sporting-gun-position-ph2": {
+   "meaning": "Ensimmäinen aseen asentoa koskeva rike: suullinen varoitus ja keltainen kortti.",
+   "say": "Tukkisi oli viivan yläpuolella. Tämä on varoitus."
+  },
+  "sporting-gun-position-ph3": {
+   "meaning": "Aseen saa nostaa vasta, kun kiekko näkyy.",
+   "say": "Älä nosta asetta ennen kuin kiekko ilmestyy."
+  },
+  "sporting-gun-position-ph4": {
+   "meaning": "Toistuva rike samalla rataosuudella; yksittäiskiekko on menetetty.",
+   "say": "Punainen kortti, nolla."
+  },
+  "gear-protection-clothes-ph2": {
+   "meaning": "{{tm:sporting}} ase alhaalla -sääntö: tukki pysyy liivin viivan alapuolella, kunnes kiekko ilmestyy.",
+   "say": "Perä nauhan alla, kunnes näet kiekon."
+  },
+  "gear-protection-clothes-ph3": {
+   "meaning": "{{tm:compak}}-lajissa ei ole liivin viivaa koskevaa vaatimusta.",
+   "say": "Ei merkkiä tarvita tässä — tämä on Compak."
+  },
+  "compak-gun-and-call-ph2": {
+   "meaning": "Valmentaja: {{tm:compak}}-lajissa aseen asento komennon aikaan on vapaa.",
+   "say": "Ase ylhäällä tai alhaalla, oma valintasi tässä."
+  }
+ },
+ "key_points": {
+  "sporting-gun-position-kp1": "{{tm:sporting}}: ennen komentoa molemmat jalat ampumapaikalla, tukin kanta (sen yläperäkulma) vartaloa vasten ja liivin viivan alapuolella.",
+  "sporting-gun-position-kp2": "{{tm:sporting}}: liivin viiva on {{fact:rules.sporting-jacket-line}} (viiva molempien olkapäiden kautta), kontrastivärillä.",
+  "sporting-gun-position-kp3": "{{tm:sporting}}: nosta vasta, kun kiekko ilmestyy; aseen asento on vapaa vain kaksoiskiekon kahden kiekon välillä.",
+  "sporting-gun-position-kp4": "{{tm:sporting}}: ensimmäinen rike tuo varoituksen ja keltaisen kortin, seuraava samalla rataosuudella punaisen kortin.",
+  "rules-gun-position-kp4": "{{tm:compak}}: asento komennon aikaan on vapaa, eikä liivin viivaa ole; laukaus ammutaan yhä olalta."
+ },
+ "quiz": {
+  "rules-gun-position-q1": {
+   "q": "Kuinka kaukana olkapääakselin (kuvitellun linjan molempien olkapäiden kautta) alapuolella liivin viiva on {{tm:sporting}}-lajissa?",
+   "options": {
+    "a": "10 cm",
+    "b": "25 cm",
+    "c": "40 cm"
+   },
+   "explain": "Viiva kulkee {{fact:rules.sporting-jacket-line}}, sen suuntaisesti."
+  },
+  "rules-gun-position-q2": {
+   "q": "Saako {{tm:compak}}-lajissa pyytää kiekkoa ase jo olalla?",
+   "options": {
+    "a": "Ei, aseen täytyy lähteä alhaalta",
+    "b": "Vain kaksoiskiekkoa ammuttaessa",
+    "c": "Kyllä, asento on vapaa"
+   },
+   "explain": "{{tm:compak}}-lajissa ei ole ase alhaalla -sääntöä eikä liivin viivaa; vain itse laukaus täytyy ampua olalta."
+  },
+  "rules-gun-position-q3": {
+   "q": "Milloin asetta saa pitää {{tm:sporting}}-lajissa niin kuin haluaa?",
+   "options": {
+    "a": "Kaksoiskiekon kahden kiekon välillä",
+    "b": "Ennen kaksoiskiekon ensimmäistä kiekkoa",
+    "c": "Jäniskiekkoa odottaessa"
+   },
+   "explain": "Vapaa asento on sallittu vain kaksoiskiekon kahden kiekon välillä; ennen ensimmäistä valmiusasento pätee."
+  },
+  "sporting-gun-position-q1": {
+   "q": "Ensimmäinen ampumapaikka. Ampuja pyytää kiekkoa ase jo olalla. Se on hänen ensimmäinen rikkeensä tällä rataosuudella. Mikä on tuomarin ratkaisu?",
+   "options": {
+    "a": "Kiekko merkitään nollaksi",
+    "b": "Suullinen varoitus ja keltainen kortti",
+    "c": "Uusi kiekko (No Bird) eikä muuta",
+    "d": "Kilpailusta sulkeminen"
+   },
+   "explain": "Ensimmäinen aseen asentoa koskeva rike on suullinen varoitus, jota tukee keltainen kortti."
+  },
+  "sporting-gun-position-q2": {
+   "q": "Sama rataosuus, kaksi ampumapaikkaa myöhemmin: sama ampuja pyytää yksittäiskiekkoa tukki liivin viivan yläpuolella. Ratkaisu?",
+   "options": {
+    "a": "Uusi keltainen kortti",
+    "b": "Uusi kiekko (No Bird)",
+    "c": "Punainen kortti, ja kiekko uusitaan",
+    "d": "Punainen kortti, ja yksittäiskiekko merkitään nollaksi"
+   },
+   "explain": "Varoituksen jälkeen uusi rike samalla rataosuudella on punainen kortti: yksittäiskiekossa nolla."
+  },
+  "sporting-gun-position-q3": {
+   "q": "{{tm:sporting}}. Tuomari on jo varoittanut ampujaa kerran tähtäysharjoittelusta. Ennen seuraavaa komentoa ampuja nostaa aseen ja vie sitä kiekon linjaa pitkin uudelleen, sitten rikkoo kiekon. Miten se pisteytetään?",
+   "options": {
+    "a": "Osuma, ja toinen varoitus",
+    "b": "Nolla",
+    "c": "Uusi kiekko, ammutaan uudelleen",
+    "d": "Osuma, ei rangaistusta"
+   },
+   "explain": "Ensimmäisen tähtäysharjoitteluvaroituksen jälkeen toisto maksaa seuraavan kiekon, jonka ampuja osuu: se merkitään nollaksi."
+  },
+  "compak-gun-and-call-q1": {
+   "q": "{{tm:compak}}-lajissa ampuja pyytää kiekkoa ase alhaalla ja, kun jäniskiekko ilmestyy, ampuu lonkalta nostamatta asetta. Onko se sallittua?",
+   "options": {
+    "a": "Kyllä, aseen asento on vapaa",
+    "b": "Ei, joka laukaus ammutaan olalta",
+    "c": "Kyllä, mutta vain jäniskiekkoon",
+    "d": "Vain toiseen laukaukseen"
+   },
+   "explain": "{{tm:compak}}-lajissa saa pyytää kiekkoa ase ylhäällä tai alhaalla, mutta joka kiekko täytyy ampua ase olalla."
+  },
+  "gear-protection-clothes-q2": {
+   "q": "{{tm:sporting}}-ampuja käyttää Monte Carlo -tukkia, jossa on korotettu poskipakka. Pätee liivin viiva -sääntö?",
+   "options": {
+    "a": "Kyllä, se koskee kaikkia tukkityyppejä",
+    "b": "Ei, vain vakiotukkeja",
+    "c": "Vain säädettävää poskipakkaa",
+    "d": "Vain finaaleissa"
+   },
+   "explain": "Sääntö koskee vakio-, Monte Carlo- ja säädettävän poskipakan tukkeja: ennen kiekon ilmestymistä tukin takaosa pysyy liivin viivan alapuolella, joka kulkee {{fact:rules.sporting-jacket-line}}."
+  }
+ },
+ "did_you_know": "Ase alhaalla -aloitusta selitetään usein {{tm:sporting}}-lajin metsästysjuurilla: metsästäjä harvoin odottaa lintua ase jo olalla."
+}

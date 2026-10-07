@@ -1,0 +1,523 @@
+{
+  "id": "watching-reading-results",
+  "rev": 2,
+  "status": "ready",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "fan",
+    "parent"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "watching-reading-results"
+    ],
+    "interpreter": [
+      "referee-scoring"
+    ]
+  },
+  "terms": [
+    "round",
+    "score-sheet",
+    "referee",
+    "electronic-refereeing",
+    "countback",
+    "open-ranking",
+    "category",
+    "junior",
+    "lady",
+    "senior",
+    "veteran",
+    "team",
+    "shooter-profile",
+    "accuracy",
+    "best-score",
+    "compak-in-line"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-format"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-who-keeps-score"
+    },
+    {
+      "book": "sporting",
+      "id": "ch14-model"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-results-check"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-who-keeps"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-zero-announce"
+    },
+    {
+      "book": "compak",
+      "id": "ch15-signing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch18-top-three"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-countback"
+    },
+    {
+      "book": "compak",
+      "id": "ch14-shootoff-medals"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-difficulty-classes"
+    }
+  ],
+  "facts": [
+    "rules.round-targets",
+    "basics.international-targets",
+    "competitions.shoot-off-format"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "How to read a scoreboard and results",
+    "uk": "Як читати табло і результати"
+  },
+  "summary": {
+    "en": "What X and O mean on a score sheet, how a total out of 200 is built, how ties are settled and how to read a results table on ClayArena.",
+    "uk": "Що означають X і O у протоколі, як складається сума з 200 мішеней, як розв’язують рівні результати і як читати таблицю результатів на ClayArena."
+  },
+  "body": [
+    {
+      "k": "watching-reading-results-p1",
+      "t": "p",
+      "disc": "both",
+      "en": "In clay shooting the score is simple: the number of targets broken. A {{term:round|round}} is {{fact:rules.round-targets}} in both {{tm:sporting}} and {{tm:compak}}, and an international competition is {{fact:basics.international-targets}}. So the highest possible score is 200 out of 200.",
+      "uk": "Результат у стендовій стрільбі рахують просто: скільки мішеней розбито. {{term:round|Раунд}} і в {{tm:sporting}}, і в {{tm:compak}} — це {{fact:rules.round-targets}}, а міжнародне змагання — {{fact:basics.international-targets}}. Тож найвищий можливий результат — 200 із 200."
+    },
+    {
+      "k": "referee-scoring-p1",
+      "t": "rule",
+      "anchor": "referee-scoring",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch14-model",
+      "en": "Each target ends up on a score card. In {{tm:sporting}} the referee keeps the card, or someone working under the referee’s eye. On the standard FITASC card each target is listed by the letter of its trap (A, B, C…), with X for a hit and O for a miss. The card also has a total and a column for signatures. Before the squad moves to the next stand, the referee photographs the card.",
+      "uk": "Кожна мішень потрапляє до {{term:score-sheet|протоколу}} (score card). У {{tm:sporting}} протокол веде {{term:referee|суддя}} або людина під його наглядом. У стандартному протоколі FITASC біля кожної мішені стоїть літера машинки, з якої вона вилетіла (A, B, C…), X — влучання, O — промах. Є ще сума й місце для підписів. Перш ніж група перейде на наступне місце, суддя фотографує протокол."
+    },
+    {
+      "k": "watching-reading-results-compak",
+      "t": "rule",
+      "disc": "compak",
+      "rule_ref": "compak:ch15-zero-announce",
+      "en": "In {{tm:compak}} shot by squad the referee keeps the score sheet and marks a hit X and a miss O. The referee announces each zero aloud or with a sound signal, so that a shooter who disagrees can protest at once. In {{term:compak-in-line|Compak in line}}, where an approved electronic system records the scores ({{term:electronic-refereeing|electronic refereeing}}), the results appear on a screen.",
+      "uk": "У {{tm:compak}} групою протокол веде суддя: влучання позначає X, промах — O. Кожен промах суддя оголошує вголос або звуковим сигналом, щоб незгодний стрілець міг одразу заявити протест. У {{term:compak-in-line|Compak у лінію}}, де результати фіксує схвалена електронна система ({{term:electronic-refereeing|електронне суддівство}}), їх видно на екрані."
+    },
+    {
+      "k": "referee-scoring-p2",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "In {{tm:sporting}} you must check your score when you leave each stand. If you disagree with a mark, tell the referee at once: the referee decides, perhaps after asking others, and that decision cannot be appealed. In {{tm:compak}} you sign the score sheet at the end of the round; if you refuse to sign, you lose the right to complain.",
+      "uk": "У {{tm:sporting}} ви мусите перевірити свій результат, сходячи з кожного стрілецького місця. Якщо не згодні з позначкою, скажіть судді одразу: суддя вирішує, за потреби порадившись з іншими, і це рішення вже не оскаржують. У {{tm:compak}} ви підписуєте протокол наприкінці раунду; відмовитеся підписати — втратите право на скаргу."
+    },
+    {
+      "k": "watching-reading-results-p3",
+      "t": "p",
+      "disc": "both",
+      "en": "At international events the round scores go to a central scoreboard or an electronic system. Next to each name you usually see the score of each round and the total. So you can see not only who is leading, but also who shoots steadily and who had a bad round.",
+      "uk": "На міжнародних змаганнях результати раундів зводять на центральне табло (scoreboard) або в електронну систему. Біля кожного імені зазвичай видно результат кожного раунду й загальну суму. Тож видно не лише лідера, а й те, хто стріляє рівно, а в кого був невдалий раунд."
+    },
+    {
+      "k": "watching-reading-results-p4",
+      "t": "p",
+      "disc": "both",
+      "en": "Equal totals are common. Ties for the first three places are settled by {{fact:competitions.shoot-off-format}} (in sudden death the first shooter to miss is out). Below third place tied shooters share the place, and {{term:countback|countback}} sets their order in the list. How both work: {{lesson:competitions-categories-and-shoot-offs}}.",
+      "uk": "Однакові суми трапляються часто. Рівність за перші три місця розв’язує {{fact:competitions.shoot-off-format}}: хто перший промахнеться, той вибуває. Нижче третього місця стрільці з рівним результатом ділять місце, а порядок у списку визначає {{term:countback|каунтбек}} (countback). Як це працює: {{lesson:competitions-categories-and-shoot-offs}}."
+    },
+    {
+      "k": "watching-reading-results-p5",
+      "t": "p",
+      "en": "Besides the {{term:open-ranking|open ranking}} there are {{term:category|categories}}, such as {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} and {{term:veteran|Veteran}}, and a {{term:team|team}} ranking. So a prize giving can have several winners, one in each ranking.",
+      "uk": "Окрім {{term:open-ranking|загального заліку}}, є {{term:category|категорії}}, як-от {{term:junior|Junior}}, {{term:lady|Lady}}, {{term:senior|Senior}} і {{term:veteran|Veteran}}, а також {{term:team|командний}} залік. Тому на нагородженні буває кілька переможців — по одному в кожному заліку."
+    },
+    {
+      "k": "watching-reading-results-p6",
+      "t": "p",
+      "en": "After a competition the results appear on ClayArena. The table shows each shooter’s place and the number of targets broken. From there you can open the {{term:shooter-profile|shooter profile}}, with their competitions and figures such as {{term:accuracy|accuracy}} and {{term:best-score|best score}}. More: {{lesson:clayarena-find-your-results}}.",
+      "uk": "Після змагань результати з’являються на ClayArena. У таблиці видно місце кожного стрільця й кількість розбитих мішеней. Звідти можна перейти до {{term:shooter-profile|профілю стрільця}} з його змаганнями й показниками, як-от {{term:accuracy|точність}} і {{term:best-score|найвищий результат}}. Докладніше: {{lesson:clayarena-find-your-results}}."
+    },
+    {
+      "k": "watching-reading-results-same-targets",
+      "t": "tip",
+      "en": "Compare scores only over the same number of targets, and preferably from the same event: layouts at different grounds differ in difficulty. 90 out of 100 and 180 out of 200 are the same percentage, but a longer event is a different test.",
+      "uk": "Порівнюйте результати лише за однакової кількості мішеней і бажано з тих самих змагань: майданчики на різних стрільбищах різні за складністю. 90 із 100 і 180 із 200 — однаковий відсоток, але довше змагання — інше випробування."
+    }
+  ],
+  "note": [
+    {
+      "k": "watching-reading-results-n-card",
+      "for": "interpreter",
+      "core": true,
+      "en": "Translate “check your card” as an urgent instruction, not a polite remark: once the shooter has left the stand, a wrong mark can no longer be challenged.",
+      "uk": "Перекладайте «check your card» як термінову вказівку, а не як ввічливе зауваження: коли стрілець зійде з місця, неправильну позначку вже не оскаржити."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "referee-scoring-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Check your card before you leave the stand.",
+      "meaning": {
+        "en": "{{tm:sporting}}: look at your marks now; later objections are not accepted.",
+        "uk": "{{tm:sporting}}: перевірте позначки зараз; пізніші заперечення не приймають."
+      },
+      "say": {
+        "uk": "Перевірте протокол, поки не зійшли зі стрілецького місця."
+      },
+      "from": "referee-scoring"
+    },
+    {
+      "k": "referee-scoring-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Sign here, please.",
+      "meaning": {
+        "en": "{{tm:compak}}: signing confirms the score; refusing means losing the right to complain.",
+        "uk": "{{tm:compak}}: підпис підтверджує результат; відмова означає втрату права на скаргу."
+      },
+      "say": {
+        "uk": "Підпишіть тут, будь ласка."
+      },
+      "from": "referee-scoring"
+    },
+    {
+      "k": "referee-scoring-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Twenty-three — you dropped two.",
+      "meaning": {
+        "en": "Score 23 of 25; two targets were lost.",
+        "uk": "Результат 23 з 25; дві мішені — промахи."
+      },
+      "say": {
+        "uk": "Двадцять три — два промахи."
+      },
+      "from": "referee-scoring"
+    }
+  ],
+  "key_points": [
+    {
+      "k": "watching-reading-results-kp1",
+      "en": "The score is the number of targets broken; an international event is {{fact:basics.international-targets}}.",
+      "uk": "Результат — це кількість розбитих мішеней; міжнародне змагання — {{fact:basics.international-targets}}."
+    },
+    {
+      "k": "referee-scoring-kp1",
+      "core": true,
+      "en": "X = hit, O = miss on FITASC score cards",
+      "uk": "У протоколах FITASC: X — влучання, O — промах"
+    },
+    {
+      "k": "referee-scoring-kp2",
+      "core": true,
+      "en": "{{tm:sporting}}: check your score when leaving each stand; {{tm:compak}}: sign the sheet or lose the right to complain",
+      "uk": "{{tm:sporting}}: перевіряйте результат, сходячи з кожного стрілецького місця; {{tm:compak}}: підпишіть протокол, інакше втратите право на скаргу",
+      "checklist": true
+    },
+    {
+      "k": "watching-reading-results-kp4",
+      "en": "Categories and the team ranking mean several winners at one prize giving.",
+      "uk": "Категорії й командний залік означають кількох переможців на одному нагородженні."
+    },
+    {
+      "k": "watching-reading-results-kp5",
+      "en": "Compare scores over the same number of targets, preferably from the same event.",
+      "uk": "Порівнюйте результати за однакової кількості мішеней, бажано з тих самих змагань."
+    }
+  ],
+  "did_you_know": {
+    "k": "watching-reading-results-dyk",
+    "en": "In {{tm:sporting}} each stand of a layout has its own pencil colour on the score card. When the squad moves on, an asterisk marks the shooter who carries the card to the next stand.",
+    "uk": "У {{tm:sporting}} кожне стрілецьке місце майданчика має в протоколі свій колір олівця. Коли група переходить далі, зірочкою позначають стрільця, який несе протокол на наступне місце."
+  },
+  "quiz": [
+    {
+      "k": "referee-scoring-q1",
+      "disc": "both",
+      "q": {
+        "en": "On a FITASC score card, what does O mean?",
+        "uk": "Що означає O у протоколі FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "A hit",
+          "uk": "Влучання"
+        },
+        {
+          "k": "b",
+          "en": "A No Bird",
+          "uk": "No Bird"
+        },
+        {
+          "k": "c",
+          "en": "A miss",
+          "uk": "Промах"
+        },
+        {
+          "k": "d",
+          "en": "An empty stand",
+          "uk": "Порожнє стрілецьке місце"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "On the standard FITASC card a hit is marked X and a miss O.",
+        "uk": "У стандартному протоколі FITASC влучання позначають X, а промах — O."
+      },
+      "rule_ref": "sporting:ch14-model",
+      "from": "referee-scoring"
+    },
+    {
+      "k": "referee-scoring-q3",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}} your shooter refuses to sign the score sheet. What is the consequence?",
+        "uk": "У {{tm:compak}} ваш стрілець відмовляється підписати протокол. Який наслідок?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "He loses the right to make any complaint",
+          "uk": "Він втрачає право на будь-яку скаргу"
+        },
+        {
+          "k": "b",
+          "en": "The round is shot again",
+          "uk": "Раунд перестрілюють"
+        },
+        {
+          "k": "c",
+          "en": "The referee signs and nothing changes",
+          "uk": "Підписує суддя, нічого не змінюється"
+        },
+        {
+          "k": "d",
+          "en": "He gets 25 zeros automatically",
+          "uk": "Йому автоматично зараховують 25 промахів"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The {{tm:compak}} rules say a shooter who refuses to sign loses the right to complain.",
+        "uk": "За правилами {{tm:compak}} стрілець, який відмовився підписати протокол, втрачає право на скаргу."
+      },
+      "rule_ref": "compak:ch15-signing",
+      "from": "referee-scoring"
+    },
+    {
+      "k": "watching-reading-results-q3",
+      "q": {
+        "en": "You want to compare the scores of two shooters. What is a fair way to do it?",
+        "uk": "Ви хочете порівняти результати двох стрільців. Як це зробити чесно?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Compare the percentages, whatever the length of the event",
+          "uk": "Порівняти відсотки, хай якої довжини були змагання"
+        },
+        {
+          "k": "b",
+          "en": "Compare only the highest round each of them shot",
+          "uk": "Порівняти лише найвищий результат раунду в кожного"
+        },
+        {
+          "k": "c",
+          "en": "Compare them over the same number of targets, preferably at one event",
+          "uk": "Порівняти їх за однакової кількості мішеней, бажано на одних змаганнях"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The same percentage over a different number of targets, or at other grounds, is not the same test: layouts differ in difficulty.",
+        "uk": "Однаковий відсоток за різної кількості мішеней чи на інших стрільбищах — не те саме випробування: майданчики різні за складністю."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "watching-reading-results-q2",
+      "q": {
+        "en": "How are ties for the top three places settled?",
+        "uk": "Як розв’язують рівність за перші три місця?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "By drawing lots",
+          "uk": "Жеребкуванням"
+        },
+        {
+          "k": "b",
+          "en": "By a shoot-off",
+          "uk": "Перестрілкою (shoot-off)"
+        },
+        {
+          "k": "c",
+          "en": "By the shooter’s age",
+          "uk": "За віком стрільця"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "For the top three there is a 25-target shoot-off, then sudden death.",
+        "uk": "За перші три місця проводять перестрілку на 25 мішеней, а далі — до першого промаху."
+      },
+      "rule_ref": "sporting:ch18-top-three"
+    },
+    {
+      "k": "watching-reading-results-q4",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, when must you check your score on the card?",
+        "uk": "Коли в {{tm:sporting}} треба перевірити свій результат у протоколі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "When you leave each stand",
+          "uk": "Сходячи з кожного стрілецького місця"
+        },
+        {
+          "k": "b",
+          "en": "Only at the end of the day",
+          "uk": "Лише наприкінці дня"
+        },
+        {
+          "k": "c",
+          "en": "When the results go online",
+          "uk": "Коли результати з’являться онлайн"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Check your score when leaving each stand and raise any disagreement at once; later there is no appeal.",
+        "uk": "Перевіряйте результат, сходячи з кожного стрілецького місця, і одразу кажіть про незгоду; пізніше оскарження немає."
+      },
+      "rule_ref": "sporting:ch16-results-check"
+    },
+    {
+      "k": "watching-reading-results-q-photo",
+      "disc": "sporting",
+      "q": {
+        "en": "In {{tm:sporting}}, what does the referee do with the score card before the squad moves to the next stand?",
+        "uk": "Що в {{tm:sporting}} робить суддя з протоколом, перш ніж група перейде на наступне місце?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Takes a photo of it",
+          "uk": "Фотографує його"
+        },
+        {
+          "k": "b",
+          "en": "Takes it to the jury straight away",
+          "uk": "Одразу відносить його до журі"
+        },
+        {
+          "k": "c",
+          "en": "Pins it on the central scoreboard",
+          "uk": "Вивішує його на центральному табло"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Before the squad moves on, the referee photographs the card and marks with an asterisk the shooter who carries it to the next stand.",
+        "uk": "Перш ніж група перейде далі, суддя фотографує протокол і позначає зірочкою стрільця, який понесе його на наступне місце."
+      },
+      "rule_ref": "sporting:ch14-who-keeps-score"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "d5e0cd26",
+    "summary": "00bcb825",
+    "watching-reading-results-p1": "a593aad6",
+    "referee-scoring-p1": "67cd20f8",
+    "watching-reading-results-compak": "20ba60c6",
+    "referee-scoring-p2": "9eed775d",
+    "watching-reading-results-p3": "e5bd1066",
+    "watching-reading-results-p4": "bf2a6fc6",
+    "watching-reading-results-p5": "7203bf5f",
+    "watching-reading-results-p6": "55a141b2",
+    "watching-reading-results-same-targets": "5b63d50c",
+    "watching-reading-results-kp1": "e95f9f8e",
+    "referee-scoring-kp1": "3bd23aa1",
+    "referee-scoring-kp2": "760f6af6",
+    "watching-reading-results-kp4": "8a7110a4",
+    "watching-reading-results-kp5": "3c60cad8",
+    "watching-reading-results-dyk": "6e9971df",
+    "watching-reading-results-n-card": "b967a8d7",
+    "referee-scoring-ph1": "78d746b9",
+    "referee-scoring-ph2": "85a7e77e",
+    "referee-scoring-ph3": "5ceb7683",
+    "referee-scoring-q1": "5fd1535a",
+    "referee-scoring-q3": "6893a814",
+    "watching-reading-results-q3": "8365a697",
+    "watching-reading-results-q2": "cebf173c",
+    "watching-reading-results-q4": "ebf532a0",
+    "watching-reading-results-q-photo": "9d644b18"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Glossary: the term 'scoreboard' (results board) is not in the glossary yet. When it is added to docs/glossary/data/learn_terms.js (+ i18n), add it to terms and link “scoreboard” / «табло» in watching-reading-results-p3.",
+      "Moved to competitions-categories-and-shoot-offs (design §3.2): referee-scoring-p3, referee-scoring-p4, referee-scoring-ph4, referee-scoring-ph5, referee-scoring-kp3, referee-scoring-kp4, referee-scoring-kp5 and the exam question referee-scoring-q2. Move their entries from i18n/<lang>/watching-reading-results.json to i18n/<lang>/competitions-categories-and-shoot-offs.json (9 languages).",
+      "Overlay keys no longer in this master: referee-scoring-title (the merged heading; the anchor #referee-scoring is now on referee-scoring-p1). Remove it from the overlays during the next translation wave.",
+      "Review fixes (rev 2). Core keys whose English changed in meaning — update them in the 9 overlays i18n/<lang>/watching-reading-results.json: referee-scoring-p1 (plain wording: standard card, letter of the trap, photo before the next stand), referee-scoring-p2 (now labelled per discipline: checking when leaving each stand is a Sporting™ rule; the interpreter advice moved out of it into the new core note watching-reading-results-n-card, so split the old overlay text between the two keys), referee-scoring-q1 (now in the quiz; explanation reworded), referee-scoring-ph1 (meaning labelled Sporting™).",
+      "Core keys whose English changed only in form (trade-mark tokens {{tm:…}} instead of the literal names): referee-scoring-kp2, referee-scoring-ph2, referee-scoring-q3. The translations stay valid: put the new hash in the overlays.",
+      "Removed duplicate question watching-reading-results-q1 (the same as referee-scoring-q1, which stays). New exam question to translate: watching-reading-results-q-photo."
+    ]
+  }
+}

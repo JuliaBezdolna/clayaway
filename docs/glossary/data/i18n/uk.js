@@ -142,12 +142,12 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
   },
   "grip": {
-   "term_local": "пістолетне руків'я",
+   "term_local": "пістолетне руків’я",
    "alt": [
-    "напівпістолетне руків'я",
+    "напівпістолетне руків’я",
     "шийка приклада"
    ],
-   "note": "Catalogues: «приклад з напівпістолетним руків'ям».",
+   "note": "Catalogues: «приклад з напівпістолетним руків’ям».",
    "conf": "medium",
    "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/"
   },
@@ -368,18 +368,19 @@ window.GLOSSARY_I18N.uk = {
     "розмір дробу",
     "діаметр дробинок"
    ],
-   "note": "Said as «сьомий/дев'ятий дріб» or «7,5».",
+   "note": "Said as «сьомий/дев’ятий дріб» or «7,5».",
    "conf": "medium",
    "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
   },
   "load-weight": {
-   "term_local": "наважка дробу",
+   "term_local": "наважка",
    "alt": [
+    "наважка дробу",
     "заряд дробу",
     "24-ка",
     "28-ка"
    ],
-   "note": "Rules say «заряд дробу» (24 г). On ranges loads are named by grams: «24-ка», «28-ка».",
+   "note": "«Наважка», as in the official translation of the rules; loads are also named by grams: «24-ка», «28-ка». The older spelling with «-віс-» is not used.",
    "conf": "medium",
    "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
   },
@@ -400,7 +401,7 @@ window.GLOSSARY_I18N.uk = {
   },
   "recoil": {
    "term_local": "віддача",
-   "note": "Colloquially «б'є в плече».",
+   "note": "Colloquially «б’є в плече».",
    "conf": "medium",
    "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
   },
@@ -484,7 +485,7 @@ window.GLOSSARY_I18N.uk = {
    "conf": "medium"
   },
   "gun-slip": {
-   "term_local": "м'який чохол",
+   "term_local": "м’який чохол",
    "alt": [
     "чохол"
    ],
@@ -553,11 +554,12 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://safari-stend.com/uk/stendovaya-strelba/"
   },
   "rabbit": {
-   "term_local": "заєць",
+   "term_local": "кролик",
    "alt": [
-    "кролик",
+    "заєць",
     "rabbit"
    ],
+   "note": "Owner decision: «кролик» in every ClayArena text; «заєць» is still heard on some grounds.",
    "conf": "medium",
    "src": "https://safari-stend.com/uk/stendovaya-strelba/"
   },
@@ -666,9 +668,10 @@ window.GLOSSARY_I18N.uk = {
    "conf": "low"
   },
   "driven-target": {
-   "term_local": "мішень над головою",
+   "term_local": "мішень над головою спереду",
    "alt": [
-    "драйв"
+    "драйв",
+    "driven"
    ],
    "conf": "low"
   },
@@ -689,8 +692,12 @@ window.GLOSSARY_I18N.uk = {
    "conf": "low"
   },
   "looper": {
-   "term_local": "дуга",
-   "note": "Not a chandelle: names vary between countries.",
+   "term_local": "лупер",
+   "alt": [
+    "дуга",
+    "looper"
+   ],
+   "note": "The Academy writes «лупер, або дуга»; not a chandelle: names vary between countries.",
    "conf": "low"
   },
   "chandelle": {
@@ -790,11 +797,11 @@ window.GLOSSARY_I18N.uk = {
    "conf": "low"
   },
   "hold-point": {
-   "term_local": "точка утримання стволів",
+   "term_local": "точка утримання",
    "alt": [
-    "точка утримання"
+    "точка утримання стволів"
    ],
-   "conf": "low"
+   "conf": "medium"
   },
   "pick-up-point": {
    "term_local": "точка підхоплення",
@@ -826,11 +833,13 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "follow-through": {
-   "term_local": "проводка",
+   "term_local": "продовження руху",
    "alt": [
-    "супровід після пострілу"
+    "супровід після пострілу",
+    "follow-through"
    ],
-   "conf": "low"
+   "note": "In the Academy «проводка» is the swing itself, so it is not used for the follow-through.",
+   "conf": "medium"
   },
   "stance": {
    "term_local": "стійка",
@@ -917,22 +926,20 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "one": {
-   "term_local": "уражена",
+   "term_local": "влучання",
    "alt": [
-    "є",
-    "влучив"
+    "уражена мішень"
    ],
-   "note": "Rules: «уражена мішень».",
+   "note": "Owner decision: uk «влучання»; the referee's call stays as it is said on the stand («one», «dead»). Rules: «уражена мішень».",
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "zero": {
    "term_local": "промах",
    "alt": [
-    "неуражена",
-    "нуль"
+    "неуражена мішень"
    ],
-   "note": "Rules: команда «ПРОМАХ».",
+   "note": "Owner decision: uk «промах»; the referee's call stays as it is said on the stand («zero», «lost»). Rules: команда «ПРОМАХ».",
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
@@ -945,11 +952,11 @@ window.GLOSSARY_I18N.uk = {
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "no-bird": {
-   "term_local": "немає мішені",
+   "term_local": "No Bird",
    "alt": [
-    "ноу бьорд"
+    "немає мішені"
    ],
-   "note": "Official: команда «НЕМАЄ МІШЕНІ»; English «no bird» also heard.",
+   "note": "Owner decision: the referee's call stays English «No Bird» in every language, with a short local explanation (uk: «мішень повторюють»). The official Ukrainian command «НЕМАЄ МІШЕНІ» is kept as alt.",
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
@@ -990,6 +997,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "номер"
    ],
+   "note": "Academy usage: «стрілецьке місце»; for the stations of Compak® Sporting always «номер» (owner decision), never «місце».",
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
@@ -1038,7 +1046,8 @@ window.GLOSSARY_I18N.uk = {
     "група стрільців"
    ],
    "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
+   "note": "Owner decision: uk «група»; the English word «squad» is not used in Ukrainian texts."
   },
   "referee": {
    "term_local": "суддя",
@@ -1258,6 +1267,539 @@ window.GLOSSARY_I18N.uk = {
    ],
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+  },
+  "anti-doping": {
+   "term_local": "антидопінг",
+   "alt": [
+    "антидопінгові правила",
+    "допінг-контроль"
+   ],
+   "conf": "high"
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "дозвіл на терапевтичне використання (TUE)",
+   "alt": [
+    "TUE"
+   ],
+   "conf": "high"
+  },
+  "beta-blocker": {
+   "term_local": "бета-блокатор",
+   "alt": [
+    "бета-блокатори"
+   ],
+   "conf": "high"
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high"
+  },
+  "box-breathing": {
+   "term_local": "квадратне дихання",
+   "alt": [
+    "box breathing"
+   ],
+   "conf": "medium"
+  },
+  "quiet-eye": {
+   "term_local": "тихе око",
+   "alt": [
+    "quiet eye"
+   ],
+   "note": "Research term; the Academy writes «тихе око» (quiet eye).",
+   "conf": "medium"
+  },
+  "self-talk": {
+   "term_local": "розмова з собою",
+   "alt": [
+    "внутрішній діалог"
+   ],
+   "conf": "medium"
+  },
+  "cue-word": {
+   "term_local": "слово-підказка",
+   "alt": [
+    "підказка"
+   ],
+   "conf": "medium"
+  },
+  "imagery": {
+   "term_local": "уявна репетиція",
+   "alt": [
+    "візуалізація"
+   ],
+   "conf": "medium"
+  },
+  "choking": {
+   "term_local": "зрив",
+   "alt": [
+    "зрив під тиском"
+   ],
+   "conf": "medium"
+  },
+  "reset-routine": {
+   "term_local": "ритуал перезапуску",
+   "alt": [
+    "перезапуск"
+   ],
+   "conf": "medium"
+  },
+  "mobility": {
+   "term_local": "рухливість",
+   "alt": [
+    "мобільність"
+   ],
+   "conf": "medium"
+  },
+  "gun-rental": {
+   "term_local": "прокат рушниці",
+   "alt": [
+    "рушниця напрокат"
+   ],
+   "conf": "medium"
+  },
+  "third-party-insurance": {
+   "term_local": "страхування цивільної відповідальності",
+   "alt": [
+    "страховка"
+   ],
+   "conf": "high"
+  },
+  "proof-mark": {
+   "term_local": "клеймо випробування",
+   "alt": [
+    "клеймо"
+   ],
+   "conf": "medium"
+  },
+  "club-membership": {
+   "term_local": "членство в клубі",
+   "alt": [
+    "членський внесок"
+   ],
+   "conf": "medium"
+  },
+  "reloaded-cartridge": {
+   "term_local": "переспоряджений набій",
+   "alt": [
+    "перезаряджений набій"
+   ],
+   "conf": "medium"
+  },
+  "taster-session": {
+   "term_local": "пробне заняття",
+   "conf": "medium"
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "утрата слуху від шуму",
+   "alt": [
+    "шумова приглухуватість"
+   ],
+   "conf": "medium"
+  },
+  "tinnitus": {
+   "term_local": "шум у вухах",
+   "alt": [
+    "дзвін у вухах",
+    "тинітус"
+   ],
+   "conf": "high"
+  },
+  "double-hearing-protection": {
+   "term_local": "подвійний захист слуху",
+   "conf": "medium"
+  },
+  "presbyopia": {
+   "term_local": "вікова далекозорість",
+   "alt": [
+    "пресбіопія"
+   ],
+   "conf": "high"
+  },
+  "lead-hygiene": {
+   "term_local": "гігієна при роботі зі свинцем",
+   "conf": "medium"
+  },
+  "heat-exhaustion": {
+   "term_local": "теплове виснаження",
+   "alt": [
+    "перегрів"
+   ],
+   "conf": "high"
+  },
+  "live-pigeon-shooting": {
+   "term_local": "стрільба по живих голубах",
+   "conf": "medium"
+  },
+  "glass-ball": {
+   "term_local": "скляна куля",
+   "conf": "medium"
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Міжнародна федерація стрілецького спорту"
+   ],
+   "conf": "high"
+  },
+  "hydration": {
+   "term_local": "водний режим",
+   "alt": [
+    "пиття"
+   ],
+   "conf": "medium"
+  },
+  "travel-fatigue": {
+   "term_local": "утома від дороги",
+   "conf": "medium"
+  },
+  "referee-certificate": {
+   "term_local": "суддівський сертифікат",
+   "alt": [
+    "суддівська картка"
+   ],
+   "conf": "medium"
+  },
+  "assistant-referee": {
+   "term_local": "помічник судді",
+   "conf": "high"
+  },
+  "coaching-qualification": {
+   "term_local": "кваліфікація тренера",
+   "alt": [
+    "тренерська ліцензія"
+   ],
+   "conf": "medium"
+  },
+  "volunteer": {
+   "term_local": "волонтер",
+   "conf": "high"
+  },
+  "tour-package": {
+   "term_local": "пакет туру",
+   "conf": "medium"
+  },
+  "scoreboard": {
+   "term_local": "табло результатів",
+   "alt": [
+    "табло"
+   ],
+   "conf": "high"
+  },
+  "spectator-area": {
+   "term_local": "зона для глядачів",
+   "conf": "medium"
+  },
+  "derogation": {
+   "term_local": "дерогація",
+   "alt": [
+    "виняток"
+   ],
+   "conf": "low"
+  },
+  "pitch": {
+   "term_local": "нахил потилиці приклада",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low"
+  },
+  "gas-operated": {
+   "term_local": "газовідвідна система",
+   "alt": [
+    "газовідвідний напівавтомат"
+   ],
+   "conf": "medium"
+  },
+  "ladies-cut": {
+   "term_local": "жіночий крій",
+   "conf": "medium"
+  },
+  "ladies-day": {
+   "term_local": "жіночий день",
+   "conf": "medium"
+  },
+  "snap-cap": {
+   "term_local": "навчальний патрон",
+   "alt": [
+    "snap cap"
+   ],
+   "conf": "medium"
+  },
+  "blot-out": {
+   "term_local": "закрити стволами",
+   "conf": "low"
+  },
+  "show-pair": {
+   "term_local": "показ дуплета",
+   "alt": [
+    "show pair"
+   ],
+   "conf": "low"
+  },
+  "perfect-round": {
+   "term_local": "чистий раунд",
+   "alt": [
+    "25 із 25"
+   ],
+   "conf": "medium"
+  },
+  "visitors-permit": {
+   "term_local": "дозвіл для відвідувача",
+   "alt": [
+    "visitor's permit"
+   ],
+   "conf": "low"
+  },
+  "ambush": {
+   "term_local": "стрільба в точку",
+   "alt": [
+    "ambush",
+    "spot shooting"
+   ],
+   "conf": "medium"
+  },
+  "chuchotage": {
+   "term_local": "шушотаж",
+   "alt": [
+    "шепітний переклад",
+    "chuchotage"
+   ],
+   "conf": "medium"
+  },
+  "overhead": {
+   "term_local": "мішень над головою ззаду",
+   "alt": [
+    "overhead"
+   ],
+   "conf": "low"
+  },
+  "european-firearms-pass": {
+   "term_local": "Європейський вогнепальний паспорт",
+   "alt": [
+    "EFP",
+    "європейський паспорт на зброю"
+   ],
+   "note": "Approved Academy term (owner decision).",
+   "conf": "high"
+  },
+  "jet-lag": {
+   "term_local": "джетлаг",
+   "alt": [
+    "зміна часових поясів",
+    "jet lag"
+   ],
+   "conf": "medium"
+  },
+  "shooter-profile": {
+   "term_local": "профіль стрільця",
+   "alt": [
+    "профіль"
+   ],
+   "conf": "medium"
+  },
+  "top-10-rate": {
+   "term_local": "частка топ-10",
+   "alt": [
+    "топ-10"
+   ],
+   "conf": "medium"
+  },
+  "refusal-to-comply": {
+   "term_local": "відмова виконувати вимоги судді",
+   "alt": [],
+   "conf": "medium",
+   "note": "Owner decision: «відмова виконувати вимоги судді» (not «відмова підкорятися»)."
+  },
+  "attempt-to-influence": {
+   "term_local": "спроба вплинути на суддю",
+   "alt": [
+    "тиск на суддю"
+   ],
+   "conf": "medium"
+  },
+  "warm-up": {
+   "term_local": "розминка",
+   "conf": "high"
+  },
+  "national-federation": {
+   "term_local": "національна федерація",
+   "conf": "high"
+  },
+  "soft-focus": {
+   "term_local": "м’який фокус",
+   "alt": [
+    "soft focus"
+   ],
+   "conf": "medium"
+  },
+  "hard-focus": {
+   "term_local": "жорсткий фокус",
+   "alt": [
+    "hard focus"
+   ],
+   "conf": "medium"
+  },
+  "leading-edge": {
+   "term_local": "передній край",
+   "conf": "medium"
+  },
+  "interpreter": {
+   "term_local": "перекладач",
+   "conf": "high"
+  },
+  "instinctive-shooting": {
+   "term_local": "інстинктивна стрільба",
+   "conf": "medium"
+  },
+  "insertion-point": {
+   "term_local": "точка входу",
+   "conf": "low"
+  },
+  "central-vision": {
+   "term_local": "центральний зір",
+   "conf": "low"
+  },
+  "gun-speed": {
+   "term_local": "швидкість стволів",
+   "conf": "low"
+  },
+  "perceived-lead": {
+   "term_local": "видимий винос",
+   "conf": "low"
+  },
+  "shoulder-pad": {
+   "term_local": "наплічник",
+   "conf": "high"
+  },
+  "jacket-line": {
+   "term_local": "лінія на жилеті",
+   "alt": [
+    "мітка"
+   ],
+   "conf": "medium"
+  },
+  "gun-fitter": {
+   "term_local": "майстер-підгонщик",
+   "alt": [
+    "підгонщик",
+    "майстер з підгонки"
+   ],
+   "conf": "medium"
+  },
+  "firing-angle-limiter": {
+   "term_local": "обмежувач кута стрільби",
+   "alt": [
+    "рамка-обмежувач"
+   ],
+   "conf": "medium"
+  },
+  "low-recoil-cartridge": {
+   "term_local": "набій зі зменшеною віддачею",
+   "alt": [
+    "набій зі зниженою віддачею",
+    "легкий набій"
+   ],
+   "conf": "medium"
+  },
+  "youth-gun": {
+   "term_local": "юніорська рушниця",
+   "alt": [
+    "юнацька модель",
+    "двадцятка"
+   ],
+   "conf": "medium"
+  },
+  "training-diary": {
+   "term_local": "щоденник тренувань",
+   "conf": "high"
+  },
+  "guardian-consent": {
+   "term_local": "згода батьків або опікунів",
+   "alt": [
+    "згода батьків"
+   ],
+   "conf": "high"
+  },
+  "sports-licence": {
+   "term_local": "спортивна ліцензія",
+   "alt": [
+    "ліцензія"
+   ],
+   "conf": "high"
+  },
+  "open-ranking": {
+   "term_local": "загальний залік",
+   "alt": [
+    "абсолютний залік",
+    "open"
+   ],
+   "conf": "high"
+  },
+  "club-shoot": {
+   "term_local": "клубні змагання",
+   "alt": [
+    "клубний старт"
+   ],
+   "conf": "high"
+  },
+  "grand-prix": {
+   "term_local": "Гран-прі",
+   "conf": "high"
+  },
+  "championship": {
+   "term_local": "чемпіонат",
+   "conf": "high"
+  },
+  "invitation-letter": {
+   "term_local": "лист-запрошення",
+   "alt": [
+    "запрошення"
+   ],
+   "conf": "high"
+  },
+  "temporary-import-permit": {
+   "term_local": "тимчасовий дозвіл на ввезення",
+   "alt": [
+    "тимчасовий дозвіл"
+   ],
+   "conf": "medium"
+  },
+  "customs-declaration": {
+   "term_local": "митна декларація",
+   "conf": "high"
+  },
+  "lens-tint": {
+   "term_local": "колір лінзи",
+   "alt": [
+    "колір лінз",
+    "фільтр"
+   ],
+   "conf": "medium"
+  },
+  "background": {
+   "term_local": "тло",
+   "conf": "medium"
+  },
+  "organiser": {
+   "term_local": "організатор",
+   "conf": "high"
+  },
+  "lateness": {
+   "term_local": "запізнення",
+   "conf": "high"
+  },
+  "trajectory-setting-table": {
+   "term_local": "таблиця налаштування траєкторій",
+   "alt": [
+    "таблиця налаштування",
+    "таблиця"
+   ],
+   "conf": "medium"
+  },
+  "process-goal": {
+   "term_local": "ціль процесу",
+   "conf": "medium"
   }
  }
 };

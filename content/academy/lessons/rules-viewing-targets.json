@@ -1,0 +1,644 @@
+{
+  "id": "rules-viewing-targets",
+  "rev": 1,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "beginner",
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "certified FITASC referee",
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js (FITASC edition 01/01/2025, file of 2026-03-29), compak.js (edition 01/01/2025, file of 2026-02-02)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "sporting-viewing"
+    ]
+  },
+  "terms": [
+    "target-presentation",
+    "compak-in-line",
+    "mock-shooting",
+    "trajectory-setting-table",
+    "pick-up-point",
+    "break-point",
+    "battue",
+    "rabbit",
+    "sporting",
+    "compak-sporting",
+    "target-menu",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "practice",
+    "interruption",
+    "squad",
+    "red-card",
+    "coaching"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch16-presentation"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-squad-show-targets"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-presentation-doubles"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-inline-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-presentation-interruption"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-open-gun"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-long-interruption"
+    },
+    {
+      "book": "sporting",
+      "id": "ch15-no-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-practice"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-yellow-card"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-red-card"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-coaching"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-inline-simultaneous"
+    },
+    {
+      "book": "compak",
+      "id": "ch6-championship-practice"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-coaching"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-target-menu"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-inline-closing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-doubles-composition"
+    }
+  ],
+  "facts": [
+    "rules.squad-max-shooters",
+    "rules.reshow-after-interruption"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Viewing the targets",
+    "uk": "Показ мішеней перед стрільбою"
+  },
+  "summary": {
+    "en": "How the targets are shown before shooting in {{tm:sporting}} and {{tm:compak}}, which doubles you see, and what you may do while they fly.",
+    "uk": "Як показують мішені перед стрільбою в {{tm:sporting}} і {{tm:compak}}, які дуплети показують і що можна робити під час показу."
+  },
+  "body": [
+    {
+      "k": "rules-viewing-targets-p1",
+      "t": "p",
+      "en": "Before shooting, the targets are shown: this is the {{term:target-presentation|presentation}}. In {{tm:sporting}} it happens on each stand. In {{tm:compak}} by {{term:squad|squad}}, where a squad of {{fact:rules.squad-max-shooters}} moves along the stations, it happens only once a day, for the first squad. In line it works differently (see below). The presentation lets you read each target: its line, speed and distance, and what the clay does in the air.",
+      "uk": "Перед стрільбою мішені показують — це {{term:target-presentation|показ мішеней}}. У {{tm:sporting}} його проводять на кожному місці. У {{tm:compak}} у форматі by squad, де {{term:squad|група}} ({{fact:rules.squad-max-shooters}}) переходить із номера на номер, показ буває лише раз на день — для першої групи. У форматі in line порядок інший (див. нижче). Показ дає змогу «прочитати» кожну мішень: лінію, швидкість, відстань і поведінку в польоті."
+    },
+    {
+      "k": "rules-viewing-targets-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "anchor": "sporting-viewing",
+      "en": "Who sees the targets, and when",
+      "uk": "Кому й коли показують мішені",
+      "sporting": {
+        "rule_ref": "sporting:ch16-presentation",
+        "en": "On each stand, the first shooter of the squad sees all the trajectories, standing ready on the stand.",
+        "uk": "На кожному стрілецькому місці всі траєкторії показують першому стрільцеві групи, який стоїть напоготові на місці."
+      },
+      "compak": {
+        "rule_ref": "compak:ch17-squad-show-targets",
+        "en": "By squad: only once a day, in the morning, for the day's first squad. The shooter on station 1 calls singles A to F. In line: see below.",
+        "uk": "By squad: лише раз на день, уранці, для першої групи дня. Стрілець на номері 1 кличе одиночні мішені від A до F. In line — див. нижче."
+      }
+    },
+    {
+      "k": "sporting-viewing-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation",
+      "en": "You may ask the referee to show a target again: at most two more times for each target on the stand's menu.",
+      "uk": "Ви можете попросити суддю показати мішень ще раз: не більше ніж двічі для кожної мішені з меню місця."
+    },
+    {
+      "k": "sporting-viewing-p3",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation-doubles",
+      "uk": "{{term:double-on-report|Дуплети на постріл}} (друга мішень вилітає на ваш постріл по першій) не показують. Але їхні мішені ви вже бачили: дуплети в {{tm:sporting}} беруть лише з тих мішеней, що вже летіли як одиночні на цьому місці. Першому стрільцеві кожної групи показують {{term:simultaneous-double|одночасні дуплети}} (обидві мішені вилітають разом) і {{term:rafale-double|рафаль}} (дві мішені з однієї машинки, одна за одною). На прохання їх показують ще раз, не більше двох разів.",
+      "en": "{{term:double-on-report|Doubles on report}} (the second target leaves when you fire at the first) are not shown. You have already seen their targets, though: a double only uses targets thrown as singles from the same stand. The first shooter of each squad is shown the {{term:simultaneous-double|simultaneous doubles}} (both targets leave together) and {{term:rafale-double|rafale doubles}} (two targets from the same trap, one after the other). On request they are shown again, at most twice."
+    },
+    {
+      "k": "compak-gun-and-call-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch17-squad-show-targets",
+      "en": "By squad, the singles are followed by the simultaneous doubles of stations 1 to 5. After that you will hear 'start' or 'competition' from the referee, and the scored shooting begins.",
+      "uk": "У форматі by squad після одиночних мішеней суддя показує одночасні дуплети номерів 1–5. Після цього суддя каже «start» або «competition», і починається стрільба на результат."
+    },
+    {
+      "k": "rules-viewing-targets-inline",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch17-inline-report",
+      "en": "{{tm:compak}} can also be shot {{term:compak-in-line|in line}}: shooters step onto station 1 one by one and move along the line to station 5. Before the start, the first shooter may ask to see singles A to F; with simultaneous doubles, the doubles of each station are shown too. While the line fills up, each new shooter on station 1 first sees the opening target of their double. As the line empties, the referee does the same at the later stations. Details: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}.",
+      "uk": "{{tm:compak}} можна стріляти й {{term:compak-in-line|in line}}: стрільці по одному заходять на номер 1 і рухаються лінією до номера 5. Перед стартом перший стрілець може попросити показати одиночні мішені від A до F; якщо дуплети одночасні, показують ще й дуплети кожного номера. Поки лінія заповнюється, кожен новий стрілець на номері 1 спершу бачить першу мішень свого дуплета. Коли лінія звільняється, суддя робить те саме на наступних номерах. Подробиці: {{rule:compak:ch17-inline-report}}, {{rule:compak:ch17-inline-simultaneous}}, {{rule:compak:ch17-inline-closing}}."
+    },
+    {
+      "k": "rules-viewing-targets-open",
+      "t": "warn",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch8-presentation-interruption",
+        "compak:ch21-open-gun"
+      ],
+      "en": "In both disciplines, guns stay open and unloaded during the presentation and any interruption. Close yours only when the referee allows it.",
+      "uk": "В обох дисциплінах під час показу і будь-якої перерви рушниці відкриті й розряджені. Закривайте свою, лише коли дозволить суддя."
+    },
+    {
+      "k": "sporting-viewing-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation",
+      "en": "Firing, or {{term:mock-shooting|mock shooting}} (mounting and swinging the gun along the target's line without a shot), while the targets are shown is forbidden. It is penalised like a gun-position offence: a warning first, then a red card.",
+      "uk": "Стріляти чи робити {{term:mock-shooting|імітацію стрільби}} (вкладати рушницю й вести нею по лінії мішені без пострілу) під час показу заборонено. Карають за це, як за порушення положення рушниці: спершу попередження, потім червона картка."
+    },
+    {
+      "k": "rules-viewing-targets-cmp2",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "After a long break",
+      "uk": "Після довгої перерви",
+      "sporting": {
+        "rule_ref": "sporting:ch16-long-interruption",
+        "en": "If a trap breaks down or shooting stops for {{fact:rules.reshow-after-interruption}}, the stand's targets are shown again.",
+        "uk": "Якщо зламалася машинка або перерва в стрільбі триває {{fact:rules.reshow-after-interruption}}, мішені цього місця показують знову."
+      },
+      "compak": {
+        "rule_ref": "compak:ch17-squad-show-targets",
+        "en": "After a break of {{fact:rules.reshow-after-interruption}}, the referee shows the six singles once more.",
+        "uk": "Після перерви {{fact:rules.reshow-after-interruption}} суддя ще раз показує шість одиночних мішеней."
+      }
+    },
+    {
+      "k": "rules-viewing-targets-cmp3",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "Practice before the event",
+      "uk": "Тренування перед змаганням",
+      "sporting": {
+        "rule_ref": "sporting:ch15-no-practice",
+        "en": "Nobody may practise on the competition layouts.",
+        "uk": "Тренуватися на змагальних майданчиках не можна нікому."
+      },
+      "compak": {
+        "rule_ref": "compak:ch6-practice",
+        "en": "You may practise on the competition trajectories, but not with the competition menus. The {{term:trajectory-setting-table|trajectory setting tables}} (ready-made menus that say which traps are shot from each station) must be different for practice. At continental and world championships, the official practice starts on the Saturday before the event.",
+        "uk": "Тренуватися на змагальних траєкторіях можна, але не за змагальними меню. {{term:trajectory-setting-table|Таблиці налаштування траєкторій}} (готові меню, які визначають, з яких машинок стріляють на кожному номері) на тренуванні мають бути іншими. Перед чемпіонатами континенту й світу офіційне тренування відкривається в суботу, що передує змаганню."
+      }
+    },
+    {
+      "k": "rules-viewing-targets-tip1",
+      "t": "tip",
+      "en": "Use the presentation to plan each target. Note where you will first see it clearly, the {{term:pick-up-point|pick-up point}}, and where you will break it, the {{term:break-point|break point}}. Many coaches suggest also choosing the order for a simultaneous double while you watch.",
+      "uk": "Використайте показ, щоб спланувати кожну мішень. Зверніть увагу, де ви вперше чітко її побачите ({{term:pick-up-point|точка підхоплення}}) і де розіб’єте ({{term:break-point|точка пострілу}}). Багато тренерів радять ще під час показу вирішити, в якому порядку стріляти одночасний дуплет."
+    },
+    {
+      "k": "rules-viewing-targets-more",
+      "t": "p",
+      "en": "How to read a target from the presentation: {{lesson:targets-reading-a-target}}.",
+      "uk": "Як «прочитати» мішень під час показу: {{lesson:targets-reading-a-target}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "sporting-viewing-p6",
+      "for": "interpreter",
+      "en": "In training, viewing is the coach's favourite moment: 'watch where it turns'. In competition the presentation is part of the event, so the coaching ban applies: stay quiet unless the referee or the shooter needs a translation of procedure.",
+      "uk": "На тренуванні показ — улюблена мить тренера: «watch where it turns» («дивіться, де вона повертає»). На змаганні показ — частина змагання, тож заборона підказок діє і тут: мовчіть, якщо суддя чи стрілець не потребує перекладу щодо процедури."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "sporting-viewing-ph1",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Show me the targets, please.",
+      "meaning": {
+        "en": "Shooter to referee: start the presentation.",
+        "uk": "Стрілець судді: почніть показ."
+      },
+      "say": {
+        "uk": "Покажіть, будь ласка, мішені."
+      }
+    },
+    {
+      "k": "sporting-viewing-ph2",
+      "speaker": "shooter",
+      "core": true,
+      "en": "Again, please, B only.",
+      "meaning": {
+        "en": "Request to repeat one target of the menu.",
+        "uk": "Прохання повторити одну мішень меню."
+      },
+      "say": {
+        "uk": "Ще раз, будь ласка, — лише B."
+      }
+    },
+    {
+      "k": "sporting-viewing-ph3",
+      "speaker": "referee",
+      "core": true,
+      "en": "Guns open during the show.",
+      "meaning": {
+        "en": "Referee: open and unload until the referee allows closing.",
+        "uk": "Суддя: відкрити й розрядити рушниці, доки суддя не дозволить закрити."
+      },
+      "say": {
+        "uk": "Під час показу рушниці відкриті."
+      }
+    },
+    {
+      "k": "sporting-viewing-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Watch where it turns.",
+      "meaning": {
+        "en": "Coach in training: notice the point where the clay changes direction or shape.",
+        "uk": "Тренер на тренуванні: зверніть увагу, де мішень змінює напрям чи положення."
+      },
+      "say": {
+        "uk": "Дивіться, де вона повертає."
+      }
+    },
+    {
+      "k": "compak-gun-and-call-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Start! / Competition!",
+      "meaning": {
+        "en": "Referee: the presentation is over and scored shooting begins.",
+        "uk": "Суддя: показ завершено, починається стрільба на результат."
+      },
+      "say": {
+        "uk": "Старт! Починаємо змагання!"
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "sporting-viewing-kp1",
+      "en": "{{tm:sporting}}: on each stand, the first shooter of the squad sees all the trajectories, standing ready.",
+      "uk": "{{tm:sporting}}: на кожному місці всі траєкторії показують першому стрільцеві групи, який стоїть напоготові."
+    },
+    {
+      "k": "sporting-viewing-kp2",
+      "en": "{{tm:sporting}}: on request, up to two repeats for each target of the menu.",
+      "uk": "{{tm:sporting}}: на прохання — до двох повторів на кожну мішень меню."
+    },
+    {
+      "k": "sporting-viewing-kp3",
+      "en": "{{tm:sporting}}: doubles on report are not presented; the first shooter of each squad sees the simultaneous and rafale doubles.",
+      "uk": "{{tm:sporting}}: дуплети на постріл не показують; одночасні дуплети й рафаль бачить перший стрілець кожної групи."
+    },
+    {
+      "k": "compak-gun-and-call-kp4",
+      "en": "{{tm:compak}} by squad: the targets are presented once a day, in the morning, for the first squad only. After a break of {{fact:rules.reshow-after-interruption}}, the referee presents the six singles once more. In line has its own order.",
+      "uk": "{{tm:compak}} у форматі by squad: мішені показують раз на день, уранці, лише першій групі. Після перерви {{fact:rules.reshow-after-interruption}} шість одиночних показують знову. У форматі in line порядок інший."
+    },
+    {
+      "k": "sporting-viewing-kp4",
+      "en": "Guns stay open during the presentation; in {{tm:sporting}}, firing or mock shooting at that time is penalised.",
+      "uk": "Під час показу рушниці відкриті; у {{tm:sporting}} постріл чи імітація стрільби в цей час караються.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "rules-viewing-targets-dyk",
+    "en": "In {{tm:sporting}} the menu in front of each stand lists the traps in shooting order and marks special targets, such as a {{term:battue|battue}} or a {{term:rabbit|rabbit}}.",
+    "uk": "У {{tm:sporting}} меню перед кожним місцем показує машинки в порядку стрільби й позначає особливі мішені, наприклад {{term:battue|батю}} чи {{term:rabbit|кролика}}."
+  },
+  "quiz": [
+    {
+      "k": "sporting-viewing-q1",
+      "q": {
+        "en": "In {{tm:sporting}}, which doubles are NOT shown at the presentation?",
+        "uk": "Які дуплети в {{tm:sporting}} НЕ показують під час показу?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Simultaneous",
+          "uk": "Одночасні"
+        },
+        {
+          "k": "b",
+          "en": "Rafale",
+          "uk": "Рафаль"
+        },
+        {
+          "k": "c",
+          "en": "On report",
+          "uk": "На постріл"
+        },
+        {
+          "k": "d",
+          "en": "None of them",
+          "uk": "Таких немає"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "In {{tm:sporting}} doubles on report are not presented; simultaneous and rafale doubles are. A double only uses targets already thrown as singles on that stand.",
+        "uk": "У {{tm:sporting}} дуплети на постріл не показують, а одночасні й рафаль — показують. У дуплетах бувають лише мішені, які вже летіли як одиночні на цьому місці."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation-doubles"
+    },
+    {
+      "k": "rules-viewing-targets-q2",
+      "disc": "compak",
+      "q": {
+        "en": "In {{tm:compak}} by squad, how often are the targets presented?",
+        "uk": "Як часто показують мішені в {{tm:compak}} у форматі by squad?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Before each squad, on each station",
+          "uk": "Перед кожною групою, на кожному номері"
+        },
+        {
+          "k": "b",
+          "en": "Once a day, for the first squad",
+          "uk": "Раз на день, для першої групи"
+        },
+        {
+          "k": "c",
+          "en": "Only when a shooter asks for it",
+          "uk": "Лише коли попросить стрілець"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "There is one presentation a day, in the morning, for the first squad; after a break of {{fact:rules.reshow-after-interruption}} the referee presents the six singles once more.",
+        "uk": "Показ один на день, уранці, для першої групи; після перерви {{fact:rules.reshow-after-interruption}} шість одиночних мішеней показують знову."
+      },
+      "rule_ref": "compak:ch17-squad-show-targets"
+    },
+    {
+      "k": "sporting-viewing-q3",
+      "q": {
+        "en": "In {{tm:sporting}}, during the presentation a shooter closes the gun and swings along a target's line. What applies?",
+        "uk": "У {{tm:sporting}} під час показу стрілець закриває рушницю й веде нею по лінії мішені. Що застосовують?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Forbidden: a warning, then a red card",
+          "uk": "Заборонено: попередження, потім червона картка"
+        },
+        {
+          "k": "b",
+          "en": "Allowed: viewing is free practice",
+          "uk": "Дозволено: показ — це вільне тренування"
+        },
+        {
+          "k": "c",
+          "en": "The target is shown again",
+          "uk": "Мішень показують знову"
+        },
+        {
+          "k": "d",
+          "en": "Only the coach gets a warning",
+          "uk": "Попередження отримує лише тренер"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Guns stay open during the presentation, and firing or mock shooting is penalised like a gun-position offence.",
+        "uk": "Під час показу рушниці відкриті, а постріл чи імітацію стрільби карають, як порушення положення рушниці."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "sporting-viewing-q2",
+      "q": {
+        "en": "In {{tm:sporting}}, how many repeats may the shooter on the stand ask for?",
+        "uk": "Скільки повторів може попросити стрілець на місці в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "None at all",
+          "uk": "Жодного"
+        },
+        {
+          "k": "b",
+          "en": "Two per menu target",
+          "uk": "Два на кожну мішень меню"
+        },
+        {
+          "k": "c",
+          "en": "As many as needed",
+          "uk": "Скільки потрібно"
+        },
+        {
+          "k": "d",
+          "en": "One per stand",
+          "uk": "Один на місце"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "On request the referee shows a target again, at most twice for each target on the menu.",
+        "uk": "На прохання суддя показує мішень ще раз — не більше двох разів для кожної мішені меню."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch16-presentation"
+    },
+    {
+      "k": "rules-viewing-targets-q4",
+      "disc": "compak",
+      "q": {
+        "en": "{{tm:compak}} in line, with doubles on report. While the line is filling, a new shooter steps onto station 1. What does the referee show this shooter?",
+        "uk": "{{tm:compak}} in line, дуплети на постріл. Поки лінія заповнюється, на номер 1 стає новий стрілець. Що показує йому суддя?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The first target of their double",
+          "uk": "Першу мішень його дуплета"
+        },
+        {
+          "k": "b",
+          "en": "Nothing at all",
+          "uk": "Нічого"
+        },
+        {
+          "k": "c",
+          "en": "All singles A to F",
+          "uk": "Усі одиночні від A до F"
+        },
+        {
+          "k": "d",
+          "en": "The whole menu again",
+          "uk": "Усе меню заново"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In line, the singles A to F are shown to the first shooter before the start. After that, each new shooter on station 1 is shown the opening target of their double.",
+        "uk": "In line одиночні від A до F показують першому стрільцеві перед стартом. Далі кожному новому стрільцеві на номері 1 показують першу мішень його дуплета."
+      },
+      "rule_ref": "compak:ch17-inline-report"
+    },
+    {
+      "k": "rules-viewing-targets-q5",
+      "disc": "compak",
+      "q": {
+        "en": "May you practise on the competition trajectories before a {{tm:compak}} event?",
+        "uk": "Чи можна тренуватися на змагальних траєкторіях перед змаганням із {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, not at all",
+          "uk": "Ні, зовсім не можна"
+        },
+        {
+          "k": "b",
+          "en": "Only on the morning of the event",
+          "uk": "Лише вранці в день змагання"
+        },
+        {
+          "k": "c",
+          "en": "Yes, with different setting tables",
+          "uk": "Так, з іншими таблицями налаштування"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "{{tm:compak}} allows practice on the competition trajectories, but the setting tables (menus) for practice must differ; in {{tm:sporting}} practising on the competition layouts is not allowed for anyone.",
+        "uk": "{{tm:compak}} дозволяє тренуватися на змагальних траєкторіях, але таблиці налаштування (меню) на тренуванні мають бути іншими; у {{tm:sporting}} тренуватися на змагальних майданчиках не можна нікому."
+      },
+      "rule_ref": "compak:ch6-practice"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "0064d55d",
+    "summary": "520117f9",
+    "rules-viewing-targets-p1": "ad9aaf1c",
+    "rules-viewing-targets-cmp1": "81f7ebe1",
+    "sporting-viewing-p2": "91e5fef1",
+    "sporting-viewing-p3": "41aa2110",
+    "compak-gun-and-call-p4": "94cbc3de",
+    "rules-viewing-targets-inline": "36aba8bb",
+    "rules-viewing-targets-open": "e72630ec",
+    "sporting-viewing-p4": "fe023af6",
+    "rules-viewing-targets-cmp2": "91c6febf",
+    "rules-viewing-targets-cmp3": "a954b0b5",
+    "rules-viewing-targets-tip1": "dbc75fed",
+    "rules-viewing-targets-more": "f764fc23",
+    "sporting-viewing-p6": "0980466b",
+    "sporting-viewing-ph1": "1df1c5f9",
+    "sporting-viewing-ph2": "f2d71d4d",
+    "sporting-viewing-ph3": "7dd75e34",
+    "sporting-viewing-ph4": "e39faadc",
+    "compak-gun-and-call-ph1": "6126c547",
+    "sporting-viewing-kp1": "cf204807",
+    "sporting-viewing-kp2": "1f60b759",
+    "sporting-viewing-kp3": "d07a0eb2",
+    "compak-gun-and-call-kp4": "cde28806",
+    "sporting-viewing-kp4": "7f195256",
+    "rules-viewing-targets-dyk": "d3836026",
+    "sporting-viewing-q1": "8dc8d7ba",
+    "rules-viewing-targets-q2": "8a902885",
+    "sporting-viewing-q3": "442066c3",
+    "sporting-viewing-q2": "7517024b",
+    "rules-viewing-targets-q4": "9490a582",
+    "rules-viewing-targets-q5": "004cd4f0"
+  },
+  "todo": {
+    "tasks": [
+      "Referee: confirm the in-line summary in rules-viewing-targets-inline (17.5.1–17.5.3) and the by-squad wording of compak-gun-and-call-kp4 (17.4).",
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+    ]
+  }
+}

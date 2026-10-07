@@ -1,0 +1,372 @@
+{
+  "id": "faults-mount-errors",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "faults-mount-errors"
+    ]
+  },
+  "terms": [
+    "gun-mount",
+    "late-mount",
+    "move-mount-shoot",
+    "recoil",
+    "comb",
+    "canting",
+    "gun-fit",
+    "ready-position",
+    "yellow-card",
+    "dry-mounting"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-mounting"
+    },
+    {
+      "book": "sporting",
+      "id": "ch12-yellow-card"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-gun-position"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Mount errors: late, face to the gun, canting",
+    "uk": "Помилки вкладки: запізно, обличчям до рушниці, завал"
+  },
+  "summary": {
+    "en": "Mount faults that cause misses: a late or early mount, the face going to the gun and a canted gun, plus the gun position rules in {{tm:sporting}} and {{tm:compak}}.",
+    "uk": "Помилки вкладки, через які промахуються: запізня чи зарання вкладка, обличчя до рушниці й завал, а також правила положення рушниці в {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "faults-mount-errors-p1",
+      "t": "p",
+      "core": true,
+      "en": "Many misses start before the swing, in the gun mount: the movement that brings the gun to cheek and shoulder. The coach's words for it are short and about the body: head, cheek, shoulder, hands.",
+      "uk": "Багато промахів починаються ще до проводки — у вкладці (gun mount), тобто русі, яким рушницю підводять до щоки й плеча. Слова тренера про неї короткі й про тіло: голова, щока, плече, руки."
+    },
+    {
+      "k": "faults-mount-errors-p2",
+      "t": "p",
+      "core": true,
+      "en": "Late mount: the gun reaches the shoulder after the moment the shot should have been fired, so the shooter rushes or fires before the cheek is down. The opposite fault is a mount finished too early, after which the gun waits, still and heavy. Cure: 'move, mount, shoot', where the muzzles start with the target and the mount is completed as the shot comes.",
+      "uk": "Late mount («запізня вкладка»): рушниця опиняється на плечі тоді, коли вже мав пролунати постріл, тож стрілець поспішає або стріляє, ще не поклавши щоку на приклад. Протилежна помилка — вкладка, завершена зарано: далі рушниця стоїть нерухома й важка. Виправлення: «move, mount, shoot» («рух, вкладка, постріл»): стволи рушають разом із мішенню, а вкладка завершується разом із пострілом."
+    },
+    {
+      "k": "faults-mount-errors-p3",
+      "t": "p",
+      "core": true,
+      "en": "Face to the gun: instead of bringing the stock up to the face, the shooter drops the head to meet it. The eye ends up in a different place each time, and recoil hits the cheek. Coaches say: 'bring the gun to your face, not your face to the gun'. A stock landing on the arm instead of the shoulder pocket hurts too.",
+      "uk": "Face to the gun («обличчям до рушниці»): замість підняти приклад до обличчя стрілець опускає голову йому назустріч. Око щоразу опиняється в іншому місці, а віддача б’є в щоку. Тренери кажуть: «bring the gun to your face, not your face to the gun» («рушницю до обличчя, а не обличчя до рушниці»). Боляче й тоді, коли приклад лягає на руку, а не в «кишеню» плеча."
+    },
+    {
+      "k": "faults-mount-errors-p4",
+      "t": "p",
+      "core": true,
+      "en": "Canting: the gun is tilted sideways at the shot, and the shot drifts off the line. It often comes with a dropped shoulder. Cure: 'keep the gun level', 'turn from the hips'.",
+      "uk": "Canting («завал рушниці»): у момент пострілу рушниця нахилена вбік, і дріб зноситься з лінії. Часто це йде разом з опущеним плечем. Виправлення: «keep the gun level» («тримайте рушницю рівно»), «turn from the hips» («повертайтеся стегнами»)."
+    },
+    {
+      "k": "faults-mount-errors-p5",
+      "t": "p",
+      "core": true,
+      "en": "In FITASC {{tm:sporting}} competitions the gun may not be mounted before the target appears, so 'pre-mount this one' is a training drill only. Mounting early in a {{tm:sporting}} competition brings a warning and a yellow card. In {{tm:compak}} the gun may already be at the shoulder at the call.",
+      "uk": "На змаганнях FITASC {{tm:sporting}} рушницю не можна вкладати до появи мішені, тож «pre-mount this one» («цю — з рушницею на плечі») — лише тренувальна вправа. Рання вкладка на змаганнях {{tm:sporting}} означає попередження й жовту картку. У {{tm:compak}} під час команди рушниця може вже бути на плечі.",
+      "disc": "both"
+    },
+    {
+      "k": "faults-mount-errors-more",
+      "t": "tip",
+      "en": "How a good mount works, step by step, is in {{lesson:technique-gun-mount}}.",
+      "uk": "Як виглядає добра вкладка крок за кроком — в уроці {{lesson:technique-gun-mount}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "faults-mount-errors-n1",
+      "for": "interpreter",
+      "en": "Translate the drill as a drill and add nothing of your own.",
+      "uk": "Перекладайте вправу саме як вправу й нічого не додавайте від себе."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "faults-mount-errors-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Bring the gun to your face, not your face to the gun.",
+      "meaning": {
+        "en": "Lift the stock to the cheek; do not lower the head to the stock.",
+        "uk": "Піднімати приклад до щоки, а не опускати голову до приклада."
+      },
+      "say": {
+        "uk": "Рушницю — до обличчя, а не обличчя — до рушниці."
+      }
+    },
+    {
+      "k": "faults-mount-errors-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Move, mount, shoot, all in one.",
+      "meaning": {
+        "en": "Start moving with the target, finish the mount as you fire, in one flowing action.",
+        "uk": "Рушати з мішенню й завершувати вкладку разом із пострілом — одним плавним рухом."
+      },
+      "say": {
+        "uk": "Рух, вкладка, постріл — одним рухом."
+      }
+    },
+    {
+      "k": "faults-mount-errors-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "You canted the gun, keep it level.",
+      "meaning": {
+        "en": "The gun was tilted sideways at the shot.",
+        "uk": "У момент пострілу рушниця була нахилена вбік."
+      },
+      "say": {
+        "uk": "Ви завалили рушницю вбік — тримайте її рівно."
+      }
+    },
+    {
+      "k": "faults-mount-errors-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Mount on the line.",
+      "meaning": {
+        "en": "The gun should come up already on the target's path.",
+        "uk": "Рушниця має підніматися одразу на лінію польоту мішені."
+      },
+      "say": {
+        "uk": "Вкладайте одразу на лінію мішені."
+      }
+    },
+    {
+      "k": "faults-mount-errors-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "Pre-mount this one, just for practice.",
+      "meaning": {
+        "en": "Training drill with the gun already at the shoulder; not allowed in a {{tm:sporting}} competition.",
+        "uk": "Тренувальна вправа з рушницею на плечі; на змаганнях {{tm:sporting}} так не можна."
+      },
+      "say": {
+        "uk": "Цю мішень — з рушницею на плечі, лише для тренування."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "faults-mount-errors-kp1",
+      "core": true,
+      "en": "Late mount: a rushed shot; cure: move, mount, shoot.",
+      "uk": "Запізня вкладка — поспішний постріл; виправлення: рух, вкладка, постріл."
+    },
+    {
+      "k": "faults-mount-errors-kp2",
+      "core": true,
+      "en": "Face to the gun: the eye moves and recoil hurts; bring the gun to the face.",
+      "uk": "Обличчям до рушниці — око зміщується, віддача болить; рушницю — до обличчя."
+    },
+    {
+      "k": "faults-mount-errors-kp3",
+      "core": true,
+      "en": "Canting: the shot drifts off the line; keep the gun level, turn from the hips.",
+      "uk": "Завал — дріб зноситься з лінії; рушницю рівно, повертайтеся стегнами."
+    },
+    {
+      "k": "faults-mount-errors-kp4",
+      "core": true,
+      "en": "{{tm:sporting}}: pre-mount only as a training drill (in competition, mount after the target appears); in {{tm:compak}} the gun may be mounted at the call.",
+      "uk": "{{tm:sporting}}: рушниця на плечі заздалегідь — лише тренувальна вправа (на змаганнях вкладаються після появи мішені); у {{tm:compak}} під час команди рушниця може вже бути на плечі."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "faults-mount-errors-q1",
+      "q": {
+        "en": "In training, a coach tells a shooter preparing for a FITASC {{tm:sporting}} competition: 'Pre-mount this one.' What is true?",
+        "uk": "На тренуванні тренер каже стрільцеві, який готується до змагань FITASC {{tm:sporting}}: «Pre-mount this one». Що з цього правда?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Allowed in competition too, if the referee is told first",
+          "uk": "Так можна і на змаганнях, якщо попередити суддю"
+        },
+        {
+          "k": "b",
+          "en": "A rule change: the low gun is no longer needed in {{tm:sporting}}",
+          "uk": "Зміна правил: низька рушниця в {{tm:sporting}} більше не потрібна"
+        },
+        {
+          "k": "c",
+          "en": "A training drill; in competition, mount after the target appears",
+          "uk": "Тренувальна вправа; на змаганнях вкладаються після появи мішені"
+        },
+        {
+          "k": "d",
+          "en": "A {{tm:compak}} rule that applies to all FITASC disciplines",
+          "uk": "Правило {{tm:compak}}, що діє в усіх дисциплінах FITASC"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "{{tm:sporting}} requires the gun-down ready position until the target appears; a pre-mount in competition earns a warning with a yellow card.",
+        "uk": "{{tm:sporting}} вимагає вихідного положення з опущеною рушницею до появи мішені; вкладка заздалегідь на змаганнях — попередження з жовтою карткою."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-mounting"
+    },
+    {
+      "k": "faults-mount-errors-q2",
+      "q": {
+        "en": "'You canted the gun' means…",
+        "uk": "«You canted the gun» означає…"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "The gun was tilted sideways at the shot",
+          "uk": "У момент пострілу рушниця була нахилена вбік"
+        },
+        {
+          "k": "b",
+          "en": "The gun reached the shoulder too late",
+          "uk": "Рушниця дійшла до плеча запізно"
+        },
+        {
+          "k": "c",
+          "en": "The gun stopped moving at the shot",
+          "uk": "Рушниця зупинилася в момент пострілу"
+        },
+        {
+          "k": "d",
+          "en": "The safety catch was still on at the call",
+          "uk": "Під час команди запобіжник був увімкнений"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Canting is a sideways tilt of the gun, which pulls the shot off the line.",
+        "uk": "Canting — нахил рушниці вбік, через який дріб зноситься з лінії."
+      }
+    },
+    {
+      "k": "faults-mount-errors-q3",
+      "q": {
+        "en": "Which instruction cures 'face to the gun'?",
+        "uk": "Яка вказівка виправляє помилку «face to the gun»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Push the head down harder",
+          "uk": "Сильніше опустіть голову"
+        },
+        {
+          "k": "b",
+          "en": "Bring the gun to your face",
+          "uk": "Підніміть рушницю до обличчя"
+        },
+        {
+          "k": "c",
+          "en": "Close one eye",
+          "uk": "Заплющте одне око"
+        },
+        {
+          "k": "d",
+          "en": "Hold the gun lower on the arm",
+          "uk": "Тримайте рушницю нижче на руці"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The stock should come up to the face, so the eye is in the same place each time.",
+        "uk": "Приклад має підніматися до обличчя, тоді око щоразу на тому самому місці."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "55d5aa6d",
+    "summary": "c2c673f8",
+    "faults-mount-errors-p1": "b8ba5327",
+    "faults-mount-errors-p2": "fa82c702",
+    "faults-mount-errors-p3": "68bf23c0",
+    "faults-mount-errors-p4": "70edb212",
+    "faults-mount-errors-p5": "3fbd6b9d",
+    "faults-mount-errors-more": "35a0c751",
+    "faults-mount-errors-n1": "a4fa7fac",
+    "faults-mount-errors-kp1": "4848cb5d",
+    "faults-mount-errors-kp2": "61307077",
+    "faults-mount-errors-kp3": "d2ae876c",
+    "faults-mount-errors-kp4": "b62326d1",
+    "faults-mount-errors-ph1": "edb132c9",
+    "faults-mount-errors-ph2": "30777418",
+    "faults-mount-errors-ph3": "44c17f37",
+    "faults-mount-errors-ph4": "c485f42f",
+    "faults-mount-errors-ph5": "cc9bdf34",
+    "faults-mount-errors-q1": "6b0f9d92",
+    "faults-mount-errors-q2": "8caf3e1d",
+    "faults-mount-errors-q3": "520c83b8"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/faults-mount-errors.json (9 languages): translate again (meaning or audit fix changed): faults-mount-errors-p5, faults-mount-errors-q1, faults-mount-errors-q2.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/faults-mount-errors.json (9 languages): translate again (meaning or wording changed for readers): faults-mount-errors-p1, faults-mount-errors-kp4; re-sign the hash only (wording changed, meaning not): faults-mount-errors-p3, faults-mount-errors-q3.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in faults-mount-errors-p5, faults-mount-errors-ph5, faults-mount-errors-kp4, faults-mount-errors-q1 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

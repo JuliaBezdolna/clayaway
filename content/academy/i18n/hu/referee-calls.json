@@ -1,0 +1,105 @@
+{
+  "id": "referee-calls",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Mit mond a bíró a lőálláson",
+  "summary": "A lőállás rövid szavai: a korong kérése, a töltés és a nyitott fegyverek, az „one”, a „zero” és a „No Bird”, valamint a lövő formális szava egy óváshoz.",
+  "body": {
+    "referee-calls-p1": "A lőállásnak saját rövid nyelve van. Amikor készen áll, a lövő megadja a {{term:call|korong kérését}}, általában „Pull!” vagy „Ready!”. {{tm:sporting}} esetében a {{term:referee|bíró}} hangjelzéssel adja tovább a kérést a {{term:trapper|pullernek}}. A korongnak {{fact:rules.release-within-3s}} ezen a jelzésen kell elindulnia; egy később érkező korong {{term:no-bird|„No Bird”}}. {{tm:compak}} esetében egy kézi indításnak is {{fact:rules.release-within-3s}} a kérésen kell megtörténnie. Egy hangvezérelt indításnak ({{term:sonopull|sonopull}}: egy mikrofon, amely elindítja a korongot, amikor meghallja a kérést) fix {{fact:rules.sonopull-delay}} késleltetése van.",
+    "referee-calls-p2": "Mielőtt bárki lő, a bíró dönti el, mikor lehet a fegyvereket megtölteni és zárni. A szabályok csak a lőálláson engedik a {{term:loading|töltést}}, a fegyverrel a lőtér felé, miután a bíró kimondta, hogy kezdődhet a lövészet. A korongok bemutatása alatt ({{term:target-presentation|bemutatás}}), és minden megszakításkor a fegyverek nyitva és üresen vannak. Újra csak a bíró engedélyével zárják be őket. {{tm:compak}} esetében a bíró a „Start” vagy „Competition” szóval indítja a kört.",
+    "referee-calls-p3": "Minden korong után a szabálykönyv szerint csak három eredmény lehet: „{{term:one|one}}” (találat), „{{term:zero|zero}}” (elveszett) és „No Bird” (a korong nem számít, és újra kidobják). A lőtéren azt is hallhatja: „dead” vagy „good” találatra, és „lost” hibára; néhány bíró találat után semmit nem mond. {{tm:compak}} esetében a bíró minden nullát hangosan vagy hangjelzéssel bejelent, hogy az egyet nem értő lövő azonnal óvást tehessen.",
+    "referee-calls-p4": "A lövőnek is van egy formális szava. Ha nem egyezik egy döntéssel, azonnal, a lőálláson, emelje fel a kezét, és mondja: „{{term:protest|Protest!}}” vagy „{{term:appeal|Appeal!}}” ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Több kifejezés, amelyre a lövőnek szüksége van: {{lesson:stand-talk-shooter-phrases}}."
+  },
+  "note": {
+    "referee-calls-n1": "Tartsa ezeket a jelzéseket röviden és mindig ugyanúgy. A kör előtt egyezzen meg a lövőjével, milyen szavakat fognak használni. A korong kérése és a lövés között ne tegyen hozzá semmit magától."
+  },
+  "phrases": {
+    "referee-calls-ph1": {
+      "meaning": "A bíró engedélyezi a lövészet kezdetét: most töltse be a töltényeket, a fegyverrel a lőtér felé.",
+      "say": "Tölthet."
+    },
+    "referee-calls-ph2": {
+      "meaning": "Az a korong nem számít; ne lőjön rá. Újra kidobják.",
+      "say": "No Bird — ne lőjön, a korongot megismétlik."
+    },
+    "referee-calls-ph3": {
+      "meaning": "A bíró a korongot hibának (nullának) értékelte.",
+      "say": "Elveszett."
+    },
+    "referee-calls-ph4": {
+      "meaning": "A korong találat (egy).",
+      "say": "Eltalálva. Jó."
+    },
+    "referee-calls-ph5": {
+      "meaning": "Mindenki kinyitja és kiüríti a fegyverét; a bíró bemutatásra dobja a korongokat.",
+      "say": "Nyissák ki a fegyvert, kérem — bemutatjuk a korongokat."
+    },
+    "referee-calls-ph6": {
+      "meaning": "{{tm:compak}}: a bemutatás véget ért, mostantól számít a kör.",
+      "say": "Start. Megy az eredménybe."
+    }
+  },
+  "key_points": {
+    "referee-calls-kp1": "A lövő „Pull!”-t vagy „Ready!”-t mond; a korongnak 3 másodpercen belül jönnie kell",
+    "referee-calls-kp2": "Tölteni csak a lőálláson és csak a bíró engedélyével; a bemutatás és a megszakítások alatt a fegyverek nyitva vannak",
+    "referee-calls-kp3": "A szabályok szavai: one = találat, zero = elveszett, No Bird = újra kidobva",
+    "referee-calls-kp4": "{{tm:compak}}: minden nullát hangosan vagy hangjelzéssel bejelentenek",
+    "referee-calls-kp5": "Óvás = felemelt kéz + „Protest!” vagy „Appeal!”"
+  },
+  "quiz": {
+    "referee-calls-q1": {
+      "q": "{{tm:sporting}} esetében a korong öt másodperccel a bíró jelzése után indul el. Mi a bíró döntése?",
+      "options": {
+        "a": "Rendesen számít",
+        "b": "No Bird",
+        "c": "Nulla, mert a lövő túl korán kért korongot",
+        "d": "Csak figyelmeztetés a pullernek"
+      },
+      "explain": "A korongnak három másodpercen belül el kell indulnia a bíró jelzésétől; a később elindított korong No Bird, és újra kidobják."
+    },
+    "referee-calls-q2": {
+      "q": "Versenyen mikor töltheti meg a lövő a fegyvert?",
+      "options": {
+        "a": "A következő lőállásra menet",
+        "b": "A lőállás mögött, várakozás közben",
+        "c": "A lőálláson, a bíró engedélye után",
+        "d": "Amint az edző ezt mondja"
+      },
+      "explain": "A töltés csak a lőálláson engedett, a fegyverrel a lőtér felé, és csak azután, hogy a bíró kimondta, hogy kezdődhet a lövészet."
+    },
+    "referee-calls-q3": {
+      "q": "Milyen szavakkal kezdődik egy formális óvás a lőálláson?",
+      "options": {
+        "a": "„Protest!”, felemelt kézzel",
+        "b": "„No Bird!”, felemelt kézzel",
+        "c": "„Bíró, nézze azt a korongot!”",
+        "d": "„Várjon!”, a következő korong után"
+      },
+      "explain": "Mindkét szabálykönyv a „protest” vagy „appeal” szót nevezi meg, felemelt kézzel, azonnal; a „No Bird” a bíró szava."
+    }
+  }
+}

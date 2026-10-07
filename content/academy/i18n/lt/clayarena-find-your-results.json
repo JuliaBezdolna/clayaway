@@ -1,0 +1,99 @@
+{
+  "id": "clayarena-find-your-results",
+  "lang": "lt",
+  "base_rev": 2,
+  "h": {
+    "title": "f29a933a",
+    "summary": "ed2bf53b",
+    "clayarena-find-your-results-p1": "69523ad7",
+    "clayarena-find-your-results-p2": "338f1be0",
+    "clayarena-find-your-results-p3": "fb84bb29",
+    "clayarena-find-your-results-p4": "a1d793aa",
+    "clayarena-find-your-results-p5": "39d5a08a",
+    "clayarena-find-your-results-compare": "fe15e030",
+    "clayarena-find-your-results-p6": "5d841323",
+    "clayarena-find-your-results-kp1": "6aa41141",
+    "clayarena-find-your-results-kp2": "6f357ccc",
+    "clayarena-find-your-results-kp3": "59eb82ec",
+    "clayarena-find-your-results-kp4": "bd3d6a0c",
+    "clayarena-find-your-results-q1": "a2cbfcfd",
+    "clayarena-find-your-results-q2": "0299b2de",
+    "clayarena-find-your-results-q3": "e749bf73",
+    "clayarena-find-your-results-q4": "fda6128c",
+    "clayarena-find-your-results-q5": "bcae2181"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Kaip rasti savo rezultatus ir savo profilį",
+  "summary": "Raskite varžybas, kuriose dalyvavote, ir savo vardą jų rezultatų lentelėje; iš tenai galite atsidaryti savo šaulio profilį.",
+  "body": {
+    "clayarena-find-your-results-p1": "Po {{tm:sporting}} ar {{tm:compak}} varžybų jų rezultatai pasirodo ClayArena, o kai kuriuose renginiuose atnaujinami, kol dar vyksta šaudymas. Paprasčiausia — atidaryti tas varžybas ir rasti savo vardą rezultatų lentelėje. Varžybas galima rasti varžybų sąraše arba kalendoriuje: jame yra ir pasibaigusios varžybos.",
+    "clayarena-find-your-results-p2": "Lentelėje matoma jūsų vieta ir kiek taikinių sudaužėte. {{term:round|Serija}} yra {{fact:rules.round-targets}}, o bendras rezultatas — jūsų serijų suma. Tarptautinės {{tm:sporting}} varžybos dažniausiai yra {{fact:basics.international-targets}}. {{term:club-shoot|Klubo varžybose}} taikinių dažnai mažiau: formatą nustato organizatorius. Kaip skaityti lentelę — {{lesson:watching-reading-results}}.",
+    "clayarena-find-your-results-p3": "Iš rezultatų lentelės galite pereiti į savo {{term:shooter-profile|šaulio profilį}}. Jame sukauptos jūsų varžybos, kurios yra ClayArena, ir jūsų pagrindiniai rodikliai. Savęs galima pasiieškoti ir šaulių sąraše, kurį galima filtruoti pagal šalį.",
+    "clayarena-find-your-results-p4": "Vardai svetainėje užrašyti taip, kaip varžybų dokumentuose. Tarptautiniuose renginiuose dažniausiai naudojama lotynų abėcėlė. Nacionaliniuose renginiuose gali būti vietinė abėcėlė, pavyzdžiui, kirilica ukrainiečių varžybose. Jei nerandate savęs, pabandykite vietinį vardo rašymą ir skirtingus lotyniškus variantus.",
+    "clayarena-find-your-results-p5": "ClayArena ima rezultatus iš varžybų {{term:score-sheet|protokolų}}: oficialių lapų, kuriuose {{term:referee|teisėjas}} užrašo kiekvieną pataikymą ar nepataikymą. Todėl svarbiausia patikra vyksta stende, o ne svetainėje. Jūsų profilyje bus tiksliai tai, ką užrašė teisėjas.",
+    "clayarena-find-your-results-compare": {
+      "sporting": "Patikrinkite savo rezultatą kortelėje ({{tm:sporting}} taip vadinamas grupės protokolas), kai palikenate kiekvieną šaudymo vietą. Jei jis neteisingas, iškart pasakykite teisėjui: sprendžia tik teisėjas, ir jo sprendimo apskųsti negalima.",
+      "compak": "Pasirašykite protokolą kiekvienos serijos pabaigoje. Jei atsisakysite pasirašyti, jokio vėlesnio skundo nepriims."
+    },
+    "clayarena-find-your-results-p6": "Vis tiek matote klaidą svetainėje? Pirmiausia susisiekite su varžybų {{term:organiser|organizatoriumi}}: oficialius rezultatus veda organizatorius, o svetainė juos tik rodo. Jei problema pačioje svetainėje, pavyzdžiui, vardas įrašytas su klaida, rašykite ClayArena komandai per svetainės kontaktus."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "clayarena-find-your-results-kp1": "Atidarykite varžybas ir raskite save rezultatų lentelėje.",
+    "clayarena-find-your-results-kp2": "Iš lentelės galite pereiti į savo šaulio profilį.",
+    "clayarena-find-your-results-kp3": "Ieškokite savo vardo taip, kaip jis užrašytas varžybų dokumentuose: vietine abėcėle arba lotyniškai.",
+    "clayarena-find-your-results-kp4": "Tikrinkite rezultatą dar stende: {{tm:sporting}} — paliekant kiekvieną šaudymo vietą, {{tm:compak}} — pasirašant protokolą."
+  },
+  "quiz": {
+    "clayarena-find-your-results-q1": {
+      "q": "Iš kur gaunami rezultatai ClayArena?",
+      "options": {
+        "a": "Juos įveda patys šauliai",
+        "b": "Iš varžybų protokolų",
+        "c": "Juos apskaičiuoja treneris"
+      },
+      "explain": "Rezultatai gaunami iš protokolų, tad tikrinkite savo rezultatą, kol tebesate stende."
+    },
+    "clayarena-find-your-results-q2": {
+      "q": "Kiek taikinių dažniausiai turi tarptautinės {{tm:sporting}} varžybos?",
+      "options": {
+        "a": "200, serijomis po 25",
+        "b": "100, serijomis po 10",
+        "c": "50, be serijų"
+      },
+      "explain": "FITASC taisyklės tarptautiniams renginiams nustato 200 taikinių serijomis po 25."
+    },
+    "clayarena-find-your-results-q3": {
+      "q": "Nerandate savo vardo. Ką galite pabandyti?",
+      "options": {
+        "a": "Ieškoti pagal šautuvo markę",
+        "b": "Rašyti vardą didžiosiomis raidėmis",
+        "c": "Kitus vardo rašymo variantus"
+      },
+      "explain": "Vardai užrašyti taip, kaip varžybų dokumentuose: lotyniškai arba vietine abėcėle. Tą pačią pavardę lotyniškai galima užrašyti keliais būdais."
+    },
+    "clayarena-find-your-results-q4": {
+      "q": "Kada {{tm:compak}} šaulys pasirašo protokolą?",
+      "options": {
+        "a": "Kiekvienos serijos pabaigoje",
+        "b": "Tik po paskutinės dienos",
+        "c": "Pasirašo teisėjas, o ne šaulys"
+      },
+      "explain": "Šaulys pasirašo kiekvienos serijos pabaigoje; be parašo jokio vėlesnio skundo nepriims."
+    },
+    "clayarena-find-your-results-q5": {
+      "q": "Kada {{tm:sporting}} reikia tikrinti savo rezultatą kortelėje?",
+      "options": {
+        "a": "Sezono pabaigoje",
+        "b": "Paliekant kiekvieną šaudymo vietą",
+        "c": "Tik po apdovanojimų"
+      },
+      "explain": "Tikrinkite, paliekant kiekvieną vietą, ir iškart pasakykite teisėjui, jei kažkas neteisinga."
+    }
+  }
+}

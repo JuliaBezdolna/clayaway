@@ -1,8 +1,13 @@
 /* ClayArena project bar — ONE navigation for all projects in this repo (rules guide, rules trainer, glossary,
-   ClayArena Academy, Interpreter Academy, ClayAway tours). Include on every page:
+   Академія ClayArena, ClayAway tours). Include on every page:
      <script src="<relative path>/shared/nav.js" defer></script>
    It finds the site root from its own URL, reads the page language from <html lang>, highlights the current project
    and shows a tooltip (title + aria-description) with what each project is for. Names follow ClayArena wording.
+   One "Академія" item (design §7.2): the merged Academy at /learn/ (uk) and /<lang>/learn/ (the other 10 languages) — but only in
+   a language the build lists as published (learn/data/languages.json); otherwise it opens /en/learn/ (see learnLang). The old
+   Interpreter Academy (/interpreter/) is the Academy's "Interpreter" route now and belongs to the same section.
+   API for pages: ClayNav.setResume / clearResume ("where was I"), ClayNav.link(id, lang) (the bar's link of a project) and the
+   document event "claynav:update" after every redraw.
    In production this becomes the section menu of clayarena.com (same items, same order, same texts). */
 (function () {
   const me = document.currentScript || [...document.scripts].find(s => /shared\/nav\.js/.test(s.src));
@@ -17,40 +22,76 @@
     {id: "glossary", path: "glossary/", n: {en: "Glossary", uk: "Глосарій", de: "Glossar", fr: "Glossaire", it: "Glossario", cs: "Slovník", pl: "Słownik", pt: "Glossário", hu: "Szójegyzék", fi: "Sanasto", lt: "Žodynas"},
      d: {en: "Clay shooting terms with plain explanations and how shooters say them in each ClayArena language", uk: "Терміни стендової стрільби з поясненнями і тим, як їх кажуть стрільці кожною мовою ClayArena", de: "Begriffe des Wurfscheibenschießens, einfach erklärt, und wie Schützen sie in jeder ClayArena-Sprache sagen", fr: "Les termes du ball-trap expliqués simplement, et comment les tireurs les disent dans chaque langue de ClayArena", it: "I termini del tiro a volo spiegati in modo semplice e come li dicono i tiratori in ogni lingua di ClayArena", cs: "Pojmy brokové střelby jednoduše vysvětlené a jak je střelci říkají v každém jazyce ClayArena", pl: "Pojęcia strzelectwa do rzutków prosto wyjaśnione i jak mówią je strzelcy w każdym języku ClayArena", pt: "Termos do tiro aos pratos explicados de forma simples e como os atiradores os dizem em cada língua da ClayArena", hu: "A korongvadászat kifejezései egyszerűen magyarázva, és hogyan mondják a lövészek a ClayArena minden nyelvén", fi: "Haulikkoammunnan termit selkokielellä ja miten ampujat sanovat ne kullakin ClayArenan kielellä", lt: "Lėkštelių šaudymo terminai paprastai ir kaip juos sako šauliai kiekviena ClayArena kalba"}},
     {id: "learn", path: "learn/", n: {en: "Academy", uk: "Академія", de: "Akademie", fr: "Académie", it: "Accademia", cs: "Akademie", pl: "Akademia", pt: "Academia", hu: "Akadémia", fi: "Akatemia", lt: "Akademija"},
-     d: {en: "ClayArena Academy: clay shooting from zero for beginners — safety, guns, cartridges, technique, competitions", uk: "Академія ClayArena: стендова стрільба з нуля для початківців — безпека, рушниці, набої, техніка, змагання", de: "ClayArena Akademie: Wurfscheibenschießen von null für Einsteiger — Sicherheit, Flinten, Patronen, Technik, Wettkämpfe", fr: "Académie ClayArena : le ball-trap à partir de zéro pour débutants — sécurité, fusils, cartouches, technique, compétitions", it: "Accademia ClayArena: il tiro a volo da zero per principianti — sicurezza, fucili, cartucce, tecnica, gare", cs: "Akademie ClayArena: broková střelba od nuly pro začátečníky — bezpečnost, zbraně, náboje, technika, závody", pl: "Akademia ClayArena: strzelectwo do rzutków od zera dla początkujących — bezpieczeństwo, broń, amunicja, technika, zawody", pt: "Academia ClayArena: tiro aos pratos do zero para principiantes — segurança, armas, cartuchos, técnica, competições", hu: "ClayArena Akadémia: korongvadászat a nulláról kezdőknek — biztonság, fegyverek, lőszer, technika, versenyek", fi: "ClayArena Akatemia: haulikkoammunta alusta aloittelijoille — turvallisuus, aseet, patruunat, tekniikka, kilpailut", lt: "ClayArena akademija: lėkštelių šaudymas nuo nulio pradedantiesiems — sauga, šautuvai, šoviniai, technika, varžybos"}},
-    {id: "interpreter", path: "interpreter/", n: {en: "Interpreter Academy", uk: "Академія перекладача", de: "Dolmetscher-Akademie", fr: "Académie des interprètes", it: "Accademia per interpreti", cs: "Akademie tlumočníka", pl: "Akademia tłumacza", pt: "Academia de Intérpretes", hu: "Tolmácsakadémia", fi: "Tulkkiakatemia", lt: "Vertėjo akademija"},
-     d: {en: "A game-course for interpreters: terms, target flights, lead and technique, rules, referee calls and etiquette", uk: "Гра-курс для перекладачів: терміни, траєкторії мішеней, винос і техніка, правила, команди судді та етикет", de: "Ein Lernspiel für Dolmetscher: Begriffe, Flugbahnen, Vorhalt und Technik, Regeln, Kommandos des Schiedsrichters und Etikette", fr: "Un cours-jeu pour interprètes : termes, trajectoires, avance et technique, règles, annonces de l'arbitre et étiquette", it: "Un corso-gioco per interpreti: termini, traiettorie, anticipo e tecnica, regole, chiamate dell'arbitro ed etichetta", cs: "Kurz-hra pro tlumočníky: pojmy, dráhy terčů, předstih a technika, pravidla, povely rozhodčího a etiketa", pl: "Kurs-gra dla tłumaczy: pojęcia, tory rzutków, wyprzedzenie i technika, przepisy, komendy sędziego i etykieta", pt: "Um curso-jogo para intérpretes: termos, trajetórias, avanço e técnica, regras, decisões do árbitro e etiqueta", hu: "Játékos kurzus tolmácsoknak: kifejezések, röppályák, elétartás és technika, szabályok, bírói jelzések és etikett", fi: "Pelillinen kurssi tulkeille: termit, kiekkojen lentoradat, ennakko ja tekniikka, säännöt, tuomarin ilmoitukset ja etiketti", lt: "Žaidimas-kursas vertėjams: terminai, taikinių trajektorijos, išankstinis taikymas ir technika, taisyklės, teisėjo komandos ir etiketas"}},
+     d: {en: "ClayArena Academy: one place to learn clay shooting — routes for beginners, competitors, interpreters, parents, coaches, organisers and fans; topics, practice games and certificates",
+         uk: "Академія ClayArena: усе навчання в одному місці — маршрути для новачків, стрільців, перекладачів, батьків, тренерів, організаторів і вболівальників; теми, практика й сертифікати",
+         de: "ClayArena Akademie: alles Lernen an einem Ort — Lernwege für Einsteiger, Wettkampfschützen, Dolmetscher, Eltern, Trainer, Veranstalter und Fans; Themen, Übungsspiele und Zertifikate",
+         fr: "Académie ClayArena : tout l'apprentissage au même endroit — parcours pour débutants, compétiteurs, interprètes, parents, entraîneurs, organisateurs et supporters ; thèmes, jeux d'entraînement et certificats",
+         it: "Accademia ClayArena: tutto l'apprendimento in un unico posto — percorsi per principianti, tiratori in gara, interpreti, genitori, allenatori, organizzatori e tifosi; temi, giochi di allenamento e certificati",
+         cs: "Akademie ClayArena: všechno učení na jednom místě — cesty pro začátečníky, závodníky, tlumočníky, rodiče, trenéry, pořadatele a fanoušky; témata, cvičné hry a certifikáty",
+         pl: "Akademia ClayArena: cała nauka w jednym miejscu — ścieżki dla początkujących, zawodników, tłumaczy, rodziców, trenerów, organizatorów i kibiców; tematy, gry treningowe i certyfikaty",
+         pt: "Academia ClayArena: toda a aprendizagem num só lugar — percursos para principiantes, atiradores de competição, intérpretes, pais, treinadores, organizadores e adeptos; temas, jogos de treino e certificados",
+         hu: "ClayArena Akadémia: minden tanulás egy helyen — útvonalak kezdőknek, versenyzőknek, tolmácsoknak, szülőknek, edzőknek, szervezőknek és szurkolóknak; témák, gyakorlójátékok és tanúsítványok",
+         fi: "ClayArena Akatemia: kaikki oppiminen yhdessä paikassa — polut aloittelijoille, kilpailijoille, tulkeille, vanhemmille, valmentajille, järjestäjille ja faneille; aiheet, harjoituspelit ja todistukset",
+         lt: "ClayArena akademija: visas mokymasis vienoje vietoje — maršrutai pradedantiesiems, varžybų dalyviams, vertėjams, tėvams, treneriams, organizatoriams ir sirgaliams; temos, treniruočių žaidimai ir sertifikatai"}},
     {id: "tours", path: "", n: {en: "ClayAway tours", uk: "Тури ClayAway", de: "ClayAway Reisen", fr: "Séjours ClayAway", it: "Viaggi ClayAway", cs: "Zájezdy ClayAway", pl: "Wyjazdy ClayAway", pt: "Viagens ClayAway", hu: "ClayAway utak", fi: "ClayAway-matkat", lt: "ClayAway kelionės"},
      d: {en: "ClayAway: clay shooting trips with top coaches — the project, its spec and tour examples", uk: "ClayAway: тури зі стендової стрільби з тренерами — проєкт, ТЗ і приклади турів", de: "ClayAway: Wurfscheiben-Reisen mit Top-Trainern — das Projekt, die Spezifikation und Beispielreisen", fr: "ClayAway : séjours de ball-trap avec de grands entraîneurs — le projet, le cahier des charges et des exemples", it: "ClayAway: viaggi di tiro a volo con grandi allenatori — il progetto, le specifiche ed esempi", cs: "ClayAway: střelecké zájezdy se špičkovými trenéry — projekt, zadání a ukázky", pl: "ClayAway: wyjazdy strzeleckie z czołowymi trenerami — projekt, specyfikacja i przykłady", pt: "ClayAway: viagens de tiro com grandes treinadores — o projeto, a especificação e exemplos", hu: "ClayAway: lövészutak csúcsedzőkkel — a projekt, a specifikáció és példák", fi: "ClayAway: ammuntamatkat huippuvalmentajien kanssa — projekti, määrittely ja esimerkit", lt: "ClayAway: šaudymo kelionės su aukščiausio lygio treneriais — projektas, specifikacija ir pavyzdžiai"}},
   ];
   // Section identity: each project has its own colour and icon, so a visitor sees at once that they changed section.
-  const LOOK = {rules: ["#22D3EE", "📘"], trainer: ["#FBBF24", "🎯"], glossary: ["#A78BFA", "📖"], learn: ["#34D399", "🎓"], interpreter: ["#FB923C", "🗣️"], tours: ["#F472B6", "✈️"]};
+  const LOOK = {rules: ["#22D3EE", "📘"], trainer: ["#FBBF24", "🎯"], glossary: ["#A78BFA", "📖"], learn: ["#34D399", "🎓"], tours: ["#F472B6", "✈️"]};
+  // "where was I" entries written before the merge used the section "interpreter": it is the Academy now
+  const secOf = s => s === "interpreter" ? "learn" : s;
   // Short texts of the bar itself (all ClayArena languages).
   const TX = {
     back: {en: "Back to", uk: "Повернутися:", de: "Zurück zu", fr: "Revenir à", it: "Torna a", cs: "Zpět na", pl: "Wróć do", pt: "Voltar a", hu: "Vissza ide:", fi: "Takaisin:", lt: "Grįžti į"},
     close: {en: "Close", uk: "Закрити", de: "Schließen", fr: "Fermer", it: "Chiudi", cs: "Zavřít", pl: "Zamknij", pt: "Fechar", hu: "Bezárás", fi: "Sulje", lt: "Uždaryti"},
     mistakes: {en: "You have {n} mistakes to repeat in the rules trainer", uk: "У тренажері правил на вас чекають {n} помилок для повторення", de: "Im Regeltrainer warten {n} Fehler auf Wiederholung", fr: "{n} erreurs à revoir dans l'entraîneur des règles", it: "Hai {n} errori da ripassare nell'allenatore delle regole", cs: "V trenažéru pravidel máte {n} chyb k zopakování", pl: "W trenerze przepisów czeka {n} błędów do powtórki", pt: "Tem {n} erros para rever no Treinador de regras", hu: "{n} hibát érdemes átismételni a szabálytrénerben", fi: "Sääntövalmentajassa on {n} virhettä kerrattavana", lt: "Taisyklių treniruoklyje laukia {n} klaidų pakartojimui"},
-    interp: {en: "Continue the Interpreter Academy: {d} of {t} lessons done", uk: "Продовжіть Академію перекладача: пройдено {d} з {t} уроків", de: "Weiter mit der Dolmetscher-Akademie: {d} von {t} Lektionen", fr: "Continuez l'Académie des interprètes : {d} leçons sur {t}", it: "Continua l'Accademia per interpreti: {d} lezioni su {t}", cs: "Pokračujte v Akademii tlumočníka: hotovo {d} z {t} lekcí", pl: "Kontynuuj Akademię tłumacza: ukończono {d} z {t} lekcji", pt: "Continue a Academia de Intérpretes: {d} de {t} lições", hu: "Folytassa a Tolmácsakadémiát: {d}/{t} lecke kész", fi: "Jatka Tulkkiakatemiaa: {d}/{t} oppituntia tehty", lt: "Tęskite Vertėjo akademiją: atlikta {d} iš {t} pamokų"},
+    route: {en: "Continue the Academy route “{r}”: {d} of {t} lessons done", uk: "Продовжте маршрут «{r}» в Академії: пройдено {d} з {t} уроків", de: "Weiter mit dem Lernweg „{r}“ der Akademie: {d} von {t} Lektionen", fr: "Continuez le parcours « {r} » de l'Académie : {d} leçons sur {t}", it: "Continua il percorso “{r}” dell'Accademia: {d} lezioni su {t}", cs: "Pokračujte v cestě „{r}“ v Akademii: hotovo {d} z {t} lekcí", pl: "Kontynuuj ścieżkę „{r}” w Akademii: ukończono {d} z {t} lekcji", pt: "Continue o percurso «{r}» da Academia: {d} de {t} lições", hu: "Folytassa az Akadémia „{r}” útvonalát: {d}/{t} lecke kész", fi: "Jatka Akatemian polkua ”{r}”: {d}/{t} oppituntia tehty", lt: "Tęskite Akademijos maršrutą „{r}“: atlikta {d} iš {t} pamokų"},
+    route_any: {en: "Continue your Academy route: {d} of {t} lessons done", uk: "Продовжте свій маршрут в Академії: пройдено {d} з {t} уроків", de: "Weiter mit Ihrem Lernweg in der Akademie: {d} von {t} Lektionen", fr: "Continuez votre parcours de l'Académie : {d} leçons sur {t}", it: "Continua il tuo percorso dell'Accademia: {d} lezioni su {t}", cs: "Pokračujte ve své cestě v Akademii: hotovo {d} z {t} lekcí", pl: "Kontynuuj swoją ścieżkę w Akademii: ukończono {d} z {t} lekcji", pt: "Continue o seu percurso da Academia: {d} de {t} lições", hu: "Folytassa az Akadémián az útvonalát: {d}/{t} lecke kész", fi: "Jatka polkuasi Akatemiassa: {d}/{t} oppituntia tehty", lt: "Tęskite savo maršrutą Akademijoje: atlikta {d} iš {t} pamokų"},
+    interp_moved: {en: "The Interpreter Academy is now the “Interpreter” route of the ClayArena Academy; your progress moves with you", uk: "Академія перекладача тепер — маршрут «Перекладач» в Академії ClayArena; ваш прогрес переходить разом із вами", de: "Die Dolmetscher-Akademie ist jetzt der Lernweg „Dolmetscher“ der ClayArena Akademie; Ihr Fortschritt kommt mit", fr: "L'Académie des interprètes est désormais le parcours « Interprète » de l'Académie ClayArena ; votre progression vous suit", it: "L'Accademia per interpreti ora è il percorso “Interprete” dell'Accademia ClayArena; i tuoi progressi ti seguono", cs: "Akademie tlumočníka je teď cesta „Tlumočník“ v Akademii ClayArena; váš pokrok se přenese", pl: "Akademia tłumacza jest teraz ścieżką „Tłumacz” w Akademii ClayArena; twój postęp przechodzi razem z tobą", pt: "A Academia de Intérpretes é agora o percurso «Intérprete» da Academia ClayArena; o seu progresso acompanha-o", hu: "A Tolmácsakadémia mostantól a ClayArena Akadémia „Tolmács” útvonala; a haladása átkerül", fi: "Tulkkiakatemia on nyt ClayArena Akatemian ”Tulkki”-polku; edistymisesi siirtyy mukana", lt: "Vertėjo akademija dabar yra ClayArena akademijos maršrutas „Vertėjas“; jūsų pažanga persikelia kartu"},
     tip_glossary: {en: "Tip: press 🔊 to hear the English term; target flights and pairs are shown as animations.", uk: "Підказка: натисніть 🔊, щоб почути термін англійською; траєкторії й дуплети показано анімацією.", de: "Tipp: 🔊 spielt den englischen Begriff ab; Flugbahnen und Doubletten sind animiert.", fr: "Astuce : 🔊 fait entendre le terme anglais ; les trajectoires et doublés sont animés.", it: "Suggerimento: 🔊 fa sentire il termine inglese; traiettorie e doppietti sono animati.", cs: "Tip: 🔊 přehraje anglický výraz; dráhy terčů a dvojstřely jsou animované.", pl: "Wskazówka: 🔊 odtwarza angielski termin; tory i dublety są pokazane w animacji.", pt: "Dica: 🔊 faz ouvir o termo inglês; trajetórias e duplas aparecem em animação.", hu: "Tipp: a 🔊 lejátssza az angol kifejezést; a röppályák és duplák animációban láthatók.", fi: "Vinkki: 🔊 toistaa englanninkielisen termin; lentoradat ja parit näkyvät animaatioina.", lt: "Patarimas: 🔊 paleidžia angliško termino tarimą; trajektorijos ir dubletai rodomi animacija."},
     tip_trainer: {en: "Tip: choose a level and a mode; after each answer you see why, with a link to the rule.", uk: "Підказка: оберіть рівень і режим; після кожної відповіді — пояснення з посиланням на правило.", de: "Tipp: Niveau und Modus wählen; nach jeder Antwort folgt die Begründung mit Link zur Regel.", fr: "Astuce : choisissez un niveau et un mode ; après chaque réponse, l'explication et le lien vers la règle.", it: "Suggerimento: scegli livello e modalità; dopo ogni risposta trovi la spiegazione e il link alla regola.", cs: "Tip: zvolte úroveň a režim; po každé odpovědi uvidíte vysvětlení s odkazem na pravidlo.", pl: "Wskazówka: wybierz poziom i tryb; po każdej odpowiedzi zobaczysz wyjaśnienie z linkiem do przepisu.", pt: "Dica: escolha o nível e o modo; depois de cada resposta vê a explicação com ligação à regra.", hu: "Tipp: válasszon szintet és módot; minden válasz után jön a magyarázat a szabály hivatkozásával.", fi: "Vinkki: valitse taso ja tila; jokaisen vastauksen jälkeen näet perustelun ja linkin sääntöön.", lt: "Patarimas: pasirinkite lygį ir režimą; po kiekvieno atsakymo – paaiškinimas su nuoroda į taisyklę."},
     tip_rules: {en: "Tip: search in your own words — “double”, “gun malfunction”, “late shooter”.", uk: "Підказка: шукайте своїми словами — «дуплет», «несправність рушниці», «запізнення».", de: "Tipp: Suchen Sie mit eigenen Worten — „Doublette“, „Waffenstörung“, „Verspätung“.", fr: "Astuce : cherchez avec vos mots — « doublé », « incident d'arme », « retard ».", it: "Suggerimento: cerca con parole tue — “doppietto”, “inceppamento”, “ritardo”.", cs: "Tip: hledejte vlastními slovy — „dvojstřel“, „závada zbraně“, „zpoždění“.", pl: "Wskazówka: szukaj własnymi słowami — „dublet”, „zacięcie broni”, „spóźnienie”.", pt: "Dica: pesquise com as suas palavras — “dupla”, “avaria da arma”, “atraso”.", hu: "Tipp: keressen saját szavaival — „dupla”, „fegyverhiba”, „késés”.", fi: "Vinkki: hae omin sanoin — ”pari”, ”asehäiriö”, ”myöhästyminen”.", lt: "Patarimas: ieškokite savais žodžiais — „dubletas“, „ginklo gedimas“, „vėlavimas“."},
-    tip_learn: {en: "Tip: start with the first module; your progress is saved on this device.", uk: "Підказка: почніть з першого модуля; прогрес зберігається на цьому пристрої.", de: "Tipp: Beginnen Sie mit dem ersten Modul; der Fortschritt wird auf diesem Gerät gespeichert.", fr: "Astuce : commencez par le premier module ; la progression est enregistrée sur cet appareil.", it: "Suggerimento: inizia dal primo modulo; i progressi restano su questo dispositivo.", cs: "Tip: začněte prvním modulem; pokrok se ukládá v tomto zařízení.", pl: "Wskazówka: zacznij od pierwszego modułu; postęp zapisuje się na tym urządzeniu.", pt: "Dica: comece pelo primeiro módulo; o progresso fica guardado neste dispositivo.", hu: "Tipp: kezdje az első modullal; a haladás ezen az eszközön mentődik.", fi: "Vinkki: aloita ensimmäisestä moduulista; edistyminen tallentuu tälle laitteelle.", lt: "Patarimas: pradėkite nuo pirmo modulio; pažanga išsaugoma šiame įrenginyje."},
-    tip_interpreter: {en: "Tip: turn the sound on — the coach's phrases are spoken in English.", uk: "Підказка: увімкніть звук — фрази тренера звучать англійською.", de: "Tipp: Ton einschalten — die Sätze des Trainers werden auf Englisch gesprochen.", fr: "Astuce : activez le son — les phrases de l'entraîneur sont dites en anglais.", it: "Suggerimento: attiva l'audio — le frasi dell'allenatore sono in inglese.", cs: "Tip: zapněte zvuk — věty trenéra zazní anglicky.", pl: "Wskazówka: włącz dźwięk — zdania trenera są czytane po angielsku.", pt: "Dica: ligue o som — as frases do treinador são ditas em inglês.", hu: "Tipp: kapcsolja be a hangot — az edző mondatai angolul szólnak.", fi: "Vinkki: laita ääni päälle — valmentajan lauseet kuuluvat englanniksi.", lt: "Patarimas: įjunkite garsą — trenerio frazės skamba angliškai."},
+    tip_learn: {en: "Tip: choose the route that fits who you are; your progress is saved on this device.", uk: "Підказка: оберіть маршрут під себе; прогрес зберігається на цьому пристрої.", de: "Tipp: Wählen Sie den Lernweg, der zu Ihnen passt; der Fortschritt wird auf diesem Gerät gespeichert.", fr: "Astuce : choisissez le parcours qui vous correspond ; la progression est enregistrée sur cet appareil.", it: "Suggerimento: scegli il percorso adatto a te; i progressi restano su questo dispositivo.", cs: "Tip: vyberte si cestu, která vám sedí; pokrok se ukládá v tomto zařízení.", pl: "Wskazówka: wybierz ścieżkę dla siebie; postęp zapisuje się na tym urządzeniu.", pt: "Dica: escolha o percurso que lhe convém; o progresso fica guardado neste dispositivo.", hu: "Tipp: válassza ki az önnek való útvonalat; a haladás ezen az eszközön mentődik.", fi: "Vinkki: valitse itsellesi sopiva polku; edistyminen tallentuu tälle laitteelle.", lt: "Patarimas: pasirinkite jums tinkantį maršrutą; pažanga išsaugoma šiame įrenginyje."},
   };
   const pick = o => o[L] || o.en;
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
   const here = location.href.replace(ROOT, "").replace(/[?#].*$/, "");
-  // current section: by path; /<lang>/glossary/ and /en/learn/ are language versions; rules-spec/ is the spec of the rules guide;
+  // current section: by path; /<lang>/glossary/ and /<lang>/learn/ are language versions; /interpreter/ (old Interpreter Academy,
+  // now a redirect to the Academy's interpreter route) belongs to the Academy; rules-spec/ is the spec of the rules guide;
   // the repo home and the ClayAway pages (concept, tour examples) belong to tours
-  const cur = ITEMS.filter(i => i.path && here.startsWith(i.path) || /^[a-z]{2}\/glossary\//.test(here) && i.id === "glossary" || /^en\/learn\//.test(here) && i.id === "learn"
-                   || /^rules-spec\//.test(here) && i.id === "rules")
-                   .sort((a, b) => b.path.length - a.path.length)[0] || (/^(|index\.html|concept\/|dornsberg\/|sologne\/)$/.test(here) ? ITEMS[5] : null);
-  /* Links in the page language where that version exists: glossary (uk at /glossary/, others at /<lang>/glossary/), Academy
-     (uk at /learn/, others at /en/learn/), Interpreter Academy and rules trainer (?lang=, all 11 languages), rules guide
-     (?lang=uk|en: the guide has Ukrainian and English only; rules/index.html reads the parameter). */
-  const href = i => i.id === "glossary" && L !== "uk" ? `${ROOT}${L}/glossary/`
-                  : i.id === "learn" && L !== "uk" ? `${ROOT}en/learn/` : i.id === "interpreter" ? `${ROOT}interpreter/?lang=${L}`
-                  : i.id === "trainer" ? `${ROOT}rules/trainer/?lang=${L}` : i.id === "rules" ? `${ROOT}rules/?lang=${L === "uk" ? "uk" : "en"}` : ROOT + i.path;
+  const cur = ITEMS.filter(i => i.path && here.startsWith(i.path) || /^[a-z]{2}\/glossary\//.test(here) && i.id === "glossary"
+                   || (/^[a-z]{2}\/learn\//.test(here) || /^interpreter\//.test(here)) && i.id === "learn" || /^rules-spec\//.test(here) && i.id === "rules")
+                   .sort((a, b) => b.path.length - a.path.length)[0] || (/^(|index\.html|concept\/|dornsberg\/|sologne\/)$/.test(here) ? ITEMS.find(i => i.id === "tours") : null);
+  /* Academy languages: the Academy is published language by language (translation waves), so the "Академія" item links
+     /<lang>/learn/ only when that home exists. scripts/build_academy.mjs writes the list to learn/data/languages.json
+     ({published: ["uk", "en", …], fallback: "en"}). It is fetched only when a language other than uk/en needs it, once per browser
+     session (sessionStorage "clayarena-learn-langs"), and the bar is redrawn when it arrives. Until then, or if the file is missing,
+     uk → /learn/ and every other language → /en/learn/ (English is the master language): never a guessed page that may not exist.
+     In production the section menu comes from the server, which knows the published languages itself. */
+  const LKEY = "clayarena-learn-langs";
+  let LEARN = null, learnAsked = false;
+  try { const c = JSON.parse(sessionStorage.getItem(LKEY) || "null"); if (c && Array.isArray(c.published)) LEARN = c; } catch (e) {}
+  function askLearn() {
+    if (LEARN || learnAsked || typeof fetch !== "function") return; learnAsked = true;
+    fetch(ROOT + "learn/data/languages.json", {cache: "no-cache"}).then(r => (r.ok ? r.json() : null)).then(j => {
+      if (!j || !Array.isArray(j.published)) return;
+      LEARN = {published: j.published.filter(x => typeof x === "string"), fallback: typeof j.fallback === "string" ? j.fallback : "en"};
+      try { sessionStorage.setItem(LKEY, JSON.stringify(LEARN)); } catch (e) {}
+      draw();
+    }).catch(() => {});
+  }
+  const learnLang = l => {
+    if (!LEARN) { if (l !== "uk" && l !== "en") askLearn(); return l === "uk" ? "uk" : "en"; }
+    const p = LEARN.published; return p.includes(l) ? l : p.includes(LEARN.fallback) ? LEARN.fallback : p.includes("en") ? "en" : "uk";
+  };
+  /* Links in a language l: glossary (uk at /glossary/, the other 10 languages at /<lang>/glossary/), Academy (see learnLang),
+     rules trainer (?lang=, all 11 languages; from an Academy page also &from=learn, so the trainer offers the way back),
+     rules guide (?lang=uk|en: the guide has Ukrainian and English only; rules/index.html reads the parameter). */
+  const hrefFor = (i, l) => i.id === "glossary" && l !== "uk" ? `${ROOT}${l}/glossary/`
+                  : i.id === "learn" ? `${ROOT}${learnLang(l) === "uk" ? "" : learnLang(l) + "/"}learn/`
+                  : i.id === "trainer" ? `${ROOT}rules/trainer/?lang=${l}${cur && cur.id === "learn" ? "&from=learn" : ""}`
+                  : i.id === "rules" ? `${ROOT}rules/?lang=${l === "uk" ? "uk" : "en"}` : ROOT + i.path;
+  const href = i => hrefFor(i, L);
   const [color, icon] = cur ? LOOK[cur.id] : ["#34D399", ""];
   const css = `.ca-bar{background:#000;border-bottom:1px solid rgba(255,255,255,.1);border-top:3px solid ${color};font:13px/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;position:relative;z-index:30}
 .ca-bar nav{max-width:1100px;margin:0 auto;padding:6px 12px;display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none}
@@ -79,6 +120,11 @@
   window.ClayNav = {
     setResume: r => ls.set(RKEY, Object.assign({ts: Date.now(), lang: (document.documentElement.lang || "en").slice(0, 2)}, r)),
     clearResume: section => { const r = ls.get(RKEY); if (r && (!section || r.section === section)) try { localStorage.removeItem(RKEY); } catch (e) {} },
+    /* link("learn", "de") → {url, name, lang}: the bar's own link of a project in a language (lang = the language the link really
+       opens, e.g. "en" while the German Academy is not published). Used by the rules trainer for its "← Академія" link. Pages that
+       render such links listen to the "claynav:update" event (fired after every redraw of the bar) and ask again. */
+    link: (id, l) => { const i = ITEMS.find(x => x.id === id); if (!i) return null; l = i.n[l] ? l : L;
+      return {url: hrefFor(i, l), name: i.n[l] || i.n.en, lang: id === "learn" ? learnLang(l) : l}; },
   };
 
   /* Personal hints (one at a time; dismissed hints are remembered on this device). Order: way back > own mistakes >
@@ -88,24 +134,31 @@
   function hintHTML(){
     const seen = ls.get("clayarena-hints") || {};
     const item = id => ITEMS.find(i => i.id === id);
-    const r = ls.get(RKEY), closed = r && seen["resume:" + r.section];
-    if (r && cur && r.section !== cur.id && Date.now() - r.ts < 7 * DAY && !(closed && Date.now() - closed < 7 * DAY))
-      return ["resume:" + r.section, `<span class="ca-dot" style="background:${LOOK[r.section] ? LOOK[r.section][0] : color}"></span>↩ ${esc(pick(TX.back))} <a href="${esc(safeUrl(r.url))}">${LOOK[r.section] ? LOOK[r.section][1] + " " : ""}${esc(r.lang && r.lang !== L && item(r.section) ? pick(item(r.section).n) : r.label)}</a>`, Date.now()];
+    const r = ls.get(RKEY), rs = r && secOf(r.section), closed = r && (seen["resume:" + rs] || seen["resume:" + r.section]);
+    if (r && cur && rs !== cur.id && Date.now() - r.ts < 7 * DAY && !(closed && Date.now() - closed < 7 * DAY))
+      return ["resume:" + rs, `<span class="ca-dot" style="background:${LOOK[rs] ? LOOK[rs][0] : color}"></span>↩ ${esc(pick(TX.back))} <a href="${esc(safeUrl(r.url))}">${LOOK[rs] ? LOOK[rs][1] + " " : ""}${esc(r.lang && r.lang !== L && item(rs) ? pick(item(rs).n) : r.label)}</a>`, Date.now()];
     // rules trainer progress: key "clayarena-trainer" (older builds: "clayaway-trainer")
     const tr = ls.get("clayarena-trainer") || ls.get("clayaway-trainer"), wrong = tr && tr.stats ? Object.values(tr.stats).reduce((s, x) => s + ((x && x.wrong) || []).length, 0) : 0;
     if (wrong >= 3 && cur && cur.id !== "trainer" && !seen["mistakes:" + wrong])
       return ["mistakes:" + wrong, `${LOOK.trainer[1]} <a href="${esc(href(item("trainer")))}">${esc(pick(TX.mistakes).replace("{n}", wrong))}</a>`];
-    // Interpreter Academy progress; the course stores its lesson count in "total" (63 when this was written)
-    const ia = ls.get("clayarena-interpreter"), done = ia && ia.done ? Object.keys(ia.done).length : 0, total = ia && ia.total > 0 ? ia.total : 63;
-    if (done > 0 && done < total && cur && cur.id !== "interpreter" && !seen["interp:" + done])
-      return ["interp:" + done, `${LOOK.interpreter[1]} <a href="${esc(href(item("interpreter")))}">${esc(pick(TX.interp).replace("{d}", done).replace("{t}", total))}</a>`];
+    // Academy route in progress: docs/shared/progress.js keeps a summary in "clayarena-academy".nav = {route, title, lang, d, t, url}
+    // (written by docs/learn/app/academy.js; null when there is no current route or its lessons are all done)
+    const ac = ls.get("clayarena-academy"), nv = ac && ac.nav, learnUrl = href(item("learn"));
+    if (nv && nv.t > 0 && nv.d < nv.t && cur && cur.id !== "learn" && !seen["route:" + nv.route + ":" + nv.d])
+      return ["route:" + nv.route + ":" + nv.d, `${LOOK.learn[1]} <a href="${esc(safeUrl(nv.url || learnUrl))}">${esc((nv.lang === L && nv.title ? pick(TX.route).replace("{r}", nv.title) : pick(TX.route_any)).replace("{d}", nv.d).replace("{t}", nv.t))}</a>`];
+    // progress of the old Interpreter Academy that the Academy has not moved yet (it moves on the first Academy visit)
+    const ia = ls.get("clayarena-interpreter"), iaDone = ia && ia.done ? Object.keys(ia.done).length : 0;
+    if (iaDone > 0 && !(ac && ac.migrated && ac.migrated["clayarena-interpreter"]) && cur && cur.id !== "learn" && !seen["interp-moved"])
+      return ["interp-moved", `${LOOK.learn[1]} <a href="${esc(learnUrl)}routes/interpreter/">${esc(pick(TX.interp_moved))}</a>`];
     const tip = cur && TX["tip_" + cur.id];
     if (tip && !seen["tip:" + cur.id]) return ["tip:" + cur.id, `${icon} ${esc(pick(tip))}`];
     return null;
   }
   function draw(){
+    try { document.dispatchEvent(new CustomEvent("claynav:update", {detail: {lang: L, learn: LEARN ? LEARN.published : null}})); } catch (e) {} // see ClayNav.link
+    const ll = learnLang(L); // the Academy item opens English (hreflang="en") while this language is not published
     bar.innerHTML = `<nav aria-label="${pick(label)}"><a class="ca-home" href="https://clayarena.com/" rel="noopener" title="clayarena.com">ClayArena</a>${ITEMS.map(i =>
-      `<a href="${href(i)}" title="${pick(i.d).replace(/"/g, "&quot;")}" aria-description="${pick(i.d).replace(/"/g, "&quot;")}"${cur === i ? ' aria-current="page"' : ""}>${LOOK[i.id][1]} ${pick(i.n)}</a>`).join("")}</nav>`;
+      `<a href="${href(i)}" title="${pick(i.d).replace(/"/g, "&quot;")}" aria-description="${pick(i.d).replace(/"/g, "&quot;")}"${i.id === "learn" && ll !== L ? ` hreflang="${ll}"` : ""}${cur === i ? ' aria-current="page"' : ""}>${LOOK[i.id][1]} ${pick(i.n)}</a>`).join("")}</nav>`;
     const curA = bar.querySelector("[aria-current]"), nv = bar.querySelector("nav"); // keep the current section visible on narrow screens
     if (curA && nv) requestAnimationFrame(() => { nv.scrollLeft = Math.max(0, curA.offsetLeft - 60); });
     const h = hintHTML();
@@ -115,7 +168,7 @@
     if (!hint.isConnected) bar.after(hint);
   }
   document.body.insertBefore(bar, document.body.firstChild); draw();
-  // apps that switch language without reloading (Interpreter Academy, rules trainer) change <html lang>: follow it
+  // apps that switch language without reloading (rules trainer) change <html lang>: follow it
   new MutationObserver(() => { const n = (document.documentElement.lang || "en").slice(0, 2).toLowerCase(); if (n !== L) { L = n; draw(); } })
     .observe(document.documentElement, {attributes: true, attributeFilter: ["lang"]});
 })();

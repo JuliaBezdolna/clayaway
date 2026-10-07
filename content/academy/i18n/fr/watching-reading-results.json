@@ -1,0 +1,135 @@
+{
+ "id": "watching-reading-results",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "d5e0cd26",
+  "summary": "00bcb825",
+  "watching-reading-results-p1": "a593aad6",
+  "referee-scoring-p1": "67cd20f8",
+  "watching-reading-results-compak": "20ba60c6",
+  "referee-scoring-p2": "9eed775d",
+  "watching-reading-results-p3": "e5bd1066",
+  "watching-reading-results-p4": "bf2a6fc6",
+  "watching-reading-results-p5": "7203bf5f",
+  "watching-reading-results-p6": "55a141b2",
+  "watching-reading-results-same-targets": "5b63d50c",
+  "watching-reading-results-n-card": "b967a8d7",
+  "referee-scoring-ph1": "78d746b9",
+  "referee-scoring-ph2": "85a7e77e",
+  "referee-scoring-ph3": "5ceb7683",
+  "watching-reading-results-kp1": "e95f9f8e",
+  "referee-scoring-kp1": "3bd23aa1",
+  "referee-scoring-kp2": "760f6af6",
+  "watching-reading-results-kp4": "8a7110a4",
+  "watching-reading-results-kp5": "3c60cad8",
+  "watching-reading-results-dyk": "6e9971df",
+  "referee-scoring-q1": "5fd1535a",
+  "referee-scoring-q3": "6893a814",
+  "watching-reading-results-q3": "8365a697",
+  "watching-reading-results-q2": "cebf173c",
+  "watching-reading-results-q4": "ebf532a0",
+  "watching-reading-results-q-photo": "9d644b18"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Comment lire un tableau de scores et des résultats",
+ "summary": "Ce que signifient X et O sur une feuille de marque, comment se construit un total sur 200, comment on départage les égalités et comment lire un tableau de résultats sur ClayArena.",
+ "body": {
+  "watching-reading-results-p1": "Au tir aux plateaux, le résultat se compte simplement : le nombre de plateaux cassés. Une {{term:round|série}}, en {{tm:sporting}} comme en {{tm:compak}}, fait {{fact:rules.round-targets}}, et une compétition internationale fait {{fact:basics.international-targets}}. Le résultat le plus élevé possible est donc 200 sur 200.",
+  "referee-scoring-p1": "Chaque plateau finit sur une feuille de marque. En {{tm:sporting}}, la feuille est tenue par l'{{term:referee|arbitre}}, ou par une personne sous son regard. Sur la {{term:score-sheet|feuille}} FITASC standard, chaque plateau est repéré par la lettre de son lanceur (A, B, C…), avec X pour un touché et O pour un raté. La feuille comporte aussi un total et une colonne pour les signatures. Avant que la planche ne passe au poste suivant, l'arbitre photographie la feuille.",
+  "watching-reading-results-compak": "En {{tm:compak}} tiré par planche, l'arbitre tient la feuille de marque et note X pour un touché, O pour un raté. L'arbitre annonce chaque zéro à voix haute ou par un signal sonore, pour qu'un tireur en désaccord puisse réclamer tout de suite. En {{term:compak-in-line|Compak en ligne}}, où un système électronique homologué enregistre les résultats ({{term:electronic-refereeing|arbitrage électronique}}), on les voit sur un écran.",
+  "referee-scoring-p2": "En {{tm:sporting}}, vous devez vérifier votre résultat en quittant chaque poste. Si vous n'êtes pas d'accord avec une marque, dites-le tout de suite à l'arbitre : il décide, au besoin après avoir demandé l'avis d'autres personnes, et cette décision ne peut faire l'objet d'aucune réclamation. En {{tm:compak}}, vous signez la feuille de marque à la fin de la série ; si vous refusez de signer, vous perdez le droit de réclamer.",
+  "watching-reading-results-p3": "Aux épreuves internationales, les résultats des séries remontent sur un tableau central ou dans un système électronique. À côté de chaque nom, on voit généralement le résultat de chaque série et le total. On voit donc non seulement qui est en tête, mais aussi qui tire régulièrement et qui a eu une mauvaise série.",
+  "watching-reading-results-p4": "Les totaux égaux sont fréquents. L'égalité pour l'une des trois premières places se tranche par {{fact:competitions.shoot-off-format}} (en mort subite, le premier tireur qui rate est éliminé). Sous la troisième place, les tireurs à égalité partagent la place, et le {{term:countback|départage}} fixe leur ordre dans la liste. Comment l'un et l'autre fonctionnent : voir la leçon {{lesson:competitions-categories-and-shoot-offs}}.",
+  "watching-reading-results-p5": "En plus du {{term:open-ranking|classement scratch}}, il existe des {{term:category|catégories}}, comme {{term:junior|Junior}}, {{term:lady|Dame}}, {{term:senior|Senior}} et {{term:veteran|Vétéran}}, ainsi qu'un classement par {{term:team|équipe}}. Une remise des prix peut donc avoir plusieurs vainqueurs, un par classement.",
+  "watching-reading-results-p6": "Après une compétition, les résultats apparaissent sur ClayArena. Le tableau montre la place de chaque tireur et le nombre de plateaux cassés. De là, vous pouvez ouvrir le {{term:shooter-profile|profil du tireur}}, avec ses compétitions et des chiffres comme la {{term:accuracy|précision}} et le {{term:best-score|meilleur score}}. Plus de détails : voir la leçon {{lesson:clayarena-find-your-results}}.",
+  "watching-reading-results-same-targets": "Comparez les résultats seulement sur un même nombre de plateaux, et de préférence pour la même épreuve : les parcours diffèrent en difficulté selon les stands. 90 sur 100 et 180 sur 200 sont le même pourcentage, mais une épreuve plus longue est un test différent."
+ },
+ "note": {
+  "watching-reading-results-n-card": "Traduisez « check your card » comme une consigne urgente, pas comme une remarque courtoise : une fois que le tireur a quitté le poste, une marque erronée ne peut plus être contestée."
+ },
+ "phrases": {
+  "referee-scoring-ph1": {
+   "meaning": "{{tm:sporting}} : regardez vos marques maintenant ; les objections plus tard ne sont pas acceptées.",
+   "say": "Vérifiez votre feuille avant de quitter le poste."
+  },
+  "referee-scoring-ph2": {
+   "meaning": "{{tm:compak}} : signer confirme le résultat ; refuser signifie perdre le droit de réclamer.",
+   "say": "Signez ici, s'il vous plaît."
+  },
+  "referee-scoring-ph3": {
+   "meaning": "Résultat 23 sur 25 ; deux plateaux sont des ratés.",
+   "say": "Vingt-trois — vous en avez perdu deux."
+  }
+ },
+ "key_points": {
+  "watching-reading-results-kp1": "Le résultat est le nombre de plateaux cassés ; une épreuve internationale compte {{fact:basics.international-targets}}.",
+  "referee-scoring-kp1": "Sur les feuilles de marque FITASC : X = touché, O = raté",
+  "referee-scoring-kp2": "{{tm:sporting}} : vérifiez votre résultat en quittant chaque poste ; {{tm:compak}} : signez la feuille, sinon vous perdez le droit de réclamer",
+  "watching-reading-results-kp4": "Les catégories et le classement par équipe signifient plusieurs vainqueurs à une même remise des prix.",
+  "watching-reading-results-kp5": "Comparez les résultats sur un même nombre de plateaux, de préférence pour la même épreuve."
+ },
+ "did_you_know": "En {{tm:sporting}}, chaque poste d'un parcours a sa propre couleur de crayon sur la feuille de marque. Quand la planche passe au poste suivant, un astérisque marque le tireur qui porte la feuille jusque-là.",
+ "quiz": {
+  "referee-scoring-q1": {
+   "q": "Sur une feuille de marque FITASC, que signifie O ?",
+   "options": {
+    "a": "Un touché",
+    "b": "Un No Bird",
+    "c": "Un raté",
+    "d": "Un poste vide"
+   },
+   "explain": "Sur la feuille FITASC standard, un touché est marqué X et un raté O."
+  },
+  "referee-scoring-q3": {
+   "q": "En {{tm:compak}}, votre tireur refuse de signer la feuille de marque. Quelle est la conséquence ?",
+   "options": {
+    "a": "Il perd le droit de faire quelque réclamation que ce soit",
+    "b": "La série est rejouée",
+    "c": "L'arbitre signe et rien ne change",
+    "d": "Il reçoit automatiquement 25 zéros"
+   },
+   "explain": "Le règlement {{tm:compak}} dit qu'un tireur qui refuse de signer perd le droit de réclamer."
+  },
+  "watching-reading-results-q3": {
+   "q": "Vous voulez comparer les résultats de deux tireurs. Quelle est une façon honnête de le faire ?",
+   "options": {
+    "a": "Comparer les pourcentages, quelle que soit la durée de l'épreuve",
+    "b": "Comparer seulement la série la plus élevée de chacun",
+    "c": "Les comparer sur le même nombre de plateaux, de préférence à une même épreuve"
+   },
+   "explain": "Le même pourcentage sur un nombre de plateaux différent, ou sur d'autres stands, n'est pas le même test : les parcours diffèrent en difficulté."
+  },
+  "watching-reading-results-q2": {
+   "q": "Comment départage-t-on l'égalité pour les trois premières places ?",
+   "options": {
+    "a": "Par tirage au sort",
+    "b": "Par un barrage (shoot-off)",
+    "c": "Par l'âge du tireur"
+   },
+   "explain": "Pour les trois premières places, il y a un barrage de 25 plateaux, puis la mort subite."
+  },
+  "watching-reading-results-q4": {
+   "q": "En {{tm:sporting}}, quand devez-vous vérifier votre résultat sur la feuille ?",
+   "options": {
+    "a": "En quittant chaque poste",
+    "b": "Seulement à la fin de la journée",
+    "c": "Quand les résultats paraissent en ligne"
+   },
+   "explain": "Vérifiez votre résultat en quittant chaque poste, et signalez tout désaccord tout de suite ; plus tard, il n'y a plus de réclamation possible."
+  },
+  "watching-reading-results-q-photo": {
+   "q": "En {{tm:sporting}}, que fait l'arbitre de la feuille de marque avant que la planche ne passe au poste suivant ?",
+   "options": {
+    "a": "Il la photographie",
+    "b": "Il l'apporte tout de suite au jury",
+    "c": "Il l'affiche sur le tableau central"
+   },
+   "explain": "Avant que la planche ne passe au poste suivant, l'arbitre photographie la feuille et marque d'un astérisque le tireur qui la porte jusque-là."
+  }
+ }
+}

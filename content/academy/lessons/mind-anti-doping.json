@@ -1,0 +1,535 @@
+{
+  "id": "mind-anti-doping",
+  "rev": 3,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": "medical",
+  "review_by": "2027-01-01",
+  "review": {
+    "status": "pending",
+    "specialist": "doctor (sports medicine)",
+    "facts": "2026-10-06",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "health-alcohol-medication-weather"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "championship",
+    "anti-doping",
+    "therapeutic-use-exemption",
+    "beta-blocker",
+    "global-dro"
+  ],
+  "rule_refs": [],
+  "facts": [
+    "mind.alcohol-wada-2018",
+    "mind.beta-blockers-wada"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "WADA — Prohibited List 2026 (in force from 1 January 2026), section P1 Beta-blockers",
+        "uk": "WADA — Заборонений список 2026 (чинний з 1 січня 2026 року), розділ P1 «Бета-блокатори»"
+      },
+      "url": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "WADA — 2027 Prohibited List (in force from 1 January 2027)",
+        "uk": "WADA — Заборонений список 2027 (чинний з 1 січня 2027 року)"
+      },
+      "url": "https://www.wada-ama.org/en/resources/2027-prohibited-list",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "ISSF — Anti-doping FAQ: prescribed medicines, TUE, supplements",
+        "uk": "ISSF — питання про антидопінг: ліки за призначенням, TUE, добавки"
+      },
+      "url": "https://www.issf-sports.org/issf/anti-doping/faq",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Global DRO — medication check (Swiss Sport Integrity page)",
+        "uk": "Global DRO — перевірка ліків (сторінка Swiss Sport Integrity)"
+      },
+      "url": "https://www.sportintegrity.ch/en/anti-doping/medicine/medication-inquiry-service",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "USADA — 2018 Prohibited List: summary of major changes (alcohol removed from the list)",
+        "uk": "USADA — зміни у Забороненому списку 2018 року (алкоголь вилучено зі списку)"
+      },
+      "url": "https://www.usada.org/athlete-advisory/2018-prohibited-list-summary-of-major-changes/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "WADA — Code signatories (checked 6 October 2026)",
+        "uk": "WADA — підписанти Кодексу (перевірено 6 жовтня 2026 року)"
+      },
+      "url": "https://www.wada-ama.org/en/code-signatories",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Medicines and anti-doping: beta-blockers, TUE, supplements",
+    "uk": "Ліки й антидопінг: бета-блокатори, TUE, добавки"
+  },
+  "summary": {
+    "en": "The WADA list bans beta-blockers at all times in Olympic and para shooting (ISSF, IPC); treat them as prohibited in {{tm:sporting}} and {{tm:compak}} too. How to check a medicine, when you need a TUE, and what to know about supplements, CBD and alcohol.",
+    "uk": "Список WADA забороняє бета-блокатори в будь-який час в олімпійській і паралімпійській стрільбі (ISSF, IPC); вважайте їх забороненими і в {{tm:sporting}} та {{tm:compak}}. Як перевірити ліки, коли потрібен TUE і що знати про добавки, CBD та алкоголь."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "The WADA Prohibited Lists for 2026 and 2027 prohibit beta-blockers in shooting (ISSF, IPC) at all times, in and out of competition. FITASC is not named there; the project rule is to treat them as prohibited for every clay shooter.",
+        "Do not stop a prescribed medicine on your own: talk to your doctor and your federation in advance about an alternative or a TUE (Therapeutic Use Exemption).",
+        "Check medicines in Global DRO.",
+        "Stimulants in some cold and ADHD medicines are prohibited in competition.",
+        "THC is prohibited. CBD is not, but CBD products can contain THC.",
+        "Supplements only with batch testing. Caffeine is not prohibited.",
+        "Alcohol has not been on the WADA list since 2018, but do not shoot after drinking alcohol.",
+        "End of the lesson: 'not medical advice'; review_by 2027-01-01; check against the WADA list every September. Replaces the text flagged in audit A-03.",
+        "Verify every statement against the current WADA list and cite it in sources before writing."
+      ],
+      "uk": [
+        "Списки заборонених речовин WADA на 2026 і 2027 роки забороняють бета-блокатори у стрільбі (ISSF, IPC) завжди — і на змаганнях, і поза ними. FITASC там не названо; правило проєкту — вважати їх забороненими для кожного стендовика.",
+        "Призначені ліки не скасовувати самостійно: заздалегідь поговорити з лікарем і федерацією про альтернативу або TUE (дозвіл на терапевтичне використання).",
+        "Перевіряти ліки в Global DRO.",
+        "Стимулятори з деяких ліків від застуди і СДУГ заборонені під час змагань.",
+        "THC заборонений. CBD не заборонений, але продукти з CBD можуть містити THC.",
+        "Добавки — лише з перевіркою партії. Кофеїн не заборонений.",
+        "Алкоголю немає у списку WADA з 2018 року, але після алкоголю не стріляють.",
+        "Наприкінці уроку: «не є медичною порадою»; review_by 2027-01-01; звіряти зі списком WADA щовересня. Замінює текст, позначений в аудиті A-03.",
+        "Перед написанням звірити кожне твердження з чинним списком WADA і дати його в джерелах."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "health-alcohol-medication-weather-p3",
+      "t": "p",
+      "anchor": "health-alcohol-medication-weather",
+      "critical": true,
+      "en": "At {{term:championship|championships}} and major events you may be tested for doping. The international rules come from the World Anti-Doping Agency (WADA), which publishes a new Prohibited List each year.",
+      "uk": "На {{term:championship|чемпіонатах}} і великих змаганнях у вас можуть узяти допінг-пробу. Міжнародні правила встановлює Всесвітнє антидопінгове агентство (WADA), яке щороку публікує новий Заборонений список."
+    },
+    {
+      "k": "mind-anti-doping-beta",
+      "t": "warn",
+      "critical": true,
+      "en": "{{term:beta-blocker|Beta-blockers}} are heart medicines that slow the heartbeat and reduce shaking; examples are propranolol, atenolol, bisoprolol and metoprolol. Note that {{fact:mind.beta-blockers-wada}}.",
+      "uk": "{{term:beta-blocker|Бета-блокатори}} — серцеві ліки, які сповільнюють серцебиття й зменшують тремтіння; приклади — пропранолол, атенолол, бісопролол, метопролол. Важливо: {{fact:mind.beta-blockers-wada}}."
+    },
+    {
+      "k": "mind-anti-doping-p2",
+      "t": "p",
+      "critical": true,
+      "en": "In the list, “shooting” means the Olympic shooting federation (ISSF) and para shooting (IPC); FITASC is not named. Treat beta-blockers as prohibited in {{tm:sporting}} and {{tm:compak}} too. Your national {{term:anti-doping|anti-doping}} agency can test at national events, organisers may apply the WADA list, and many shooters also compete in ISSF events.",
+      "uk": "У списку «стрільба» означає олімпійську федерацію стрільби (ISSF) і паралімпійську стрільбу (IPC); FITASC там не названо. Однак вважайте бета-блокатори забороненими і в {{tm:sporting}} та {{tm:compak}}. Національна {{term:anti-doping|антидопінгова}} агенція може проводити контроль на національних змаганнях, організатори можуть застосовувати список WADA, а багато стрільців виступають і на змаганнях ISSF."
+    },
+    {
+      "k": "mind-anti-doping-p3",
+      "t": "p",
+      "en": "They are prohibited in precision sports because a slower heart and less tremor can steady the gun.",
+      "uk": "У видах спорту на влучність їх заборонено, бо повільніше серце й менше тремтіння можуть зробити рушницю стійкішою."
+    },
+    {
+      "k": "mind-anti-doping-warn",
+      "t": "warn",
+      "critical": true,
+      "en": "If a doctor has prescribed you a beta-blocker, for example for blood pressure, heart rhythm, migraine or tremor, do not stop it on your own. Talk to your doctor and your federation well before the competition about a permitted alternative or a TUE.",
+      "uk": "Якщо лікар призначив вам бета-блокатор, наприклад від тиску, порушень ритму серця, мігрені чи тремору, не скасовуйте його самостійно. Задовго до змагань поговоріть із лікарем і своєю федерацією про дозволену альтернативу або TUE."
+    },
+    {
+      "k": "mind-anti-doping-p4",
+      "t": "p",
+      "critical": true,
+      "en": "A {{term:therapeutic-use-exemption|TUE}} (Therapeutic Use Exemption) is official permission to use a prohibited medicine for a medical reason. A prescription alone is not enough: a prohibited substance stays prohibited, so you apply in advance, usually to your national anti-doping agency (your federation can tell you which one).",
+      "uk": "{{term:therapeutic-use-exemption|TUE}} (дозвіл на терапевтичне використання) — офіційний дозвіл приймати заборонені ліки з медичних причин. Самого рецепта недостатньо: заборонена речовина залишається забороненою, тож заявку подають заздалегідь, зазвичай до національної антидопінгової агенції (федерація підкаже, до якої саме)."
+    },
+    {
+      "k": "mind-anti-doping-p5",
+      "t": "p",
+      "critical": true,
+      "en": "Check each medicine, including those you buy without a prescription. {{term:global-dro|Global DRO}} is an online medicine check run by several national anti-doping agencies. It lists only medicines sold in its partner countries, such as the UK, the USA, Canada and Switzerland. Search by the active ingredient; if your medicine is not listed, ask your national anti-doping agency or your federation. Check again each year, because the list changes.",
+      "uk": "Перевіряйте кожні ліки, зокрема ті, що купуєте без рецепта. {{term:global-dro|Global DRO}} — онлайн-сервіс перевірки ліків, який ведуть кілька національних антидопінгових агенцій. У ньому є лише ліки, які продають у країнах-партнерах, наприклад у Великій Британії, США, Канаді та Швейцарії. Шукайте за діючою речовиною; якщо ваших ліків там немає, запитайте національну антидопінгову агенцію або свою федерацію. Перевіряйте щороку знову, бо список змінюється."
+    },
+    {
+      "k": "mind-anti-doping-p6",
+      "t": "p",
+      "critical": true,
+      "en": "Some cold remedies and ADHD medicines (for attention deficit hyperactivity disorder) contain stimulants, substances that make you more alert. Examples: pseudoephedrine (prohibited above a set amount in your sample) and methylphenidate. Stimulants are prohibited in competition.",
+      "uk": "Деякі ліки від застуди й від СДУГ (розладу дефіциту уваги з гіперактивністю) містять стимулятори — речовини, які підвищують бадьорість. Приклади: псевдоефедрин (заборонений, якщо його в пробі більше за встановлену межу) і метилфенідат. Стимулятори заборонені під час змагань."
+    },
+    {
+      "k": "mind-anti-doping-p7",
+      "t": "p",
+      "critical": true,
+      "en": "“In competition” starts at 23:59 on the day before the event and lasts until the event and any doping test after it are over. So whatever you take from that evening onwards counts as “in competition”.",
+      "uk": "«Під час змагань» починається о 23:59 дня перед змаганнями й триває, доки не закінчаться змагання і відбір проб після них. Тож усе, що ви приймаєте з того вечора, вважається прийнятим «під час змагань»."
+    },
+    {
+      "k": "mind-anti-doping-p8",
+      "t": "p",
+      "critical": true,
+      "en": "THC, the active substance in cannabis, is prohibited in competition. CBD is not prohibited, but CBD products can contain THC.",
+      "uk": "THC, діюча речовина канабісу, заборонена під час змагань. CBD не заборонений, але продукти з CBD можуть містити THC."
+    },
+    {
+      "k": "mind-anti-doping-p9",
+      "t": "p",
+      "critical": true,
+      "en": "Supplements can be contaminated or wrongly labelled. If you take any, choose products whose maker says, on the pack or website, that each production batch has been tested for banned substances by an independent lab.",
+      "uk": "Добавки можуть бути забруднені або неправильно марковані. Якщо ви їх приймаєте, обирайте продукти, виробник яких зазначає на упаковці чи сайті, що кожну партію протестувала на заборонені речовини незалежна лабораторія."
+    },
+    {
+      "k": "mind-anti-doping-p10",
+      "t": "p",
+      "en": "Caffeine is not prohibited; WADA only monitors it. Your usual coffee is fine as far as the rules go.",
+      "uk": "Кофеїн не заборонений; WADA лише стежить за ним. Звична кава з погляду правил — не проблема."
+    },
+    {
+      "k": "mind-anti-doping-p11",
+      "t": "p",
+      "en": "Note that {{fact:mind.alcohol-wada-2018}}. That is not permission: do not drink before or during shooting, and grounds and national law have their own rules. More in {{lesson:mind-long-day-energy-sleep}}.",
+      "uk": "Варто знати: {{fact:mind.alcohol-wada-2018}}. Це не дозвіл: не пийте перед стрільбою і під час неї, а в стендів і законів країн є власні правила. Докладніше — {{lesson:mind-long-day-energy-sleep}}."
+    },
+    {
+      "k": "health-alcohol-medication-weather-p2",
+      "t": "warn",
+      "critical": true,
+      "en": "Some medicines, such as allergy tablets, sedatives, sleeping pills and strong painkillers, can make you drowsy or dizzy. Ask your doctor or pharmacist whether you can shoot and drive with them. If you feel drowsy or dizzy, do not shoot that day.",
+      "uk": "Деякі ліки — від алергії, заспокійливі, снодійні, сильні знеболювальні — можуть викликати сонливість чи запаморочення. Запитайте лікаря чи фармацевта, чи можна з ними стріляти й керувати автомобілем. Якщо відчуваєте сонливість чи запаморочення, того дня не стріляйте."
+    },
+    {
+      "k": "mind-anti-doping-p12",
+      "t": "p",
+      "en": "This lesson was checked against the WADA Prohibited Lists for 2026 and 2027 on 6 October 2026. The 2027 list applies from 1 January 2027.",
+      "uk": "Цей урок звірено із Забороненими списками WADA на 2026 і 2027 роки 6 жовтня 2026 року. Список на 2027 рік діє з 1 січня 2027 року."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-anti-doping-n1",
+      "for": "coach",
+      "en": "Ask new shooters early whether they take any regular medicine, and point them to their doctor and Global DRO. Do not give medical advice yourself.",
+      "uk": "Завчасно запитайте нових стрільців, чи приймають вони якісь ліки постійно, і порадьте звернутися до лікаря та в Global DRO. Самі медичних порад не давайте."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "health-alcohol-medication-weather-kp3",
+      "en": "Beta-blockers are prohibited in shooting at all times; treat them as prohibited in clay shooting too.",
+      "uk": "Бета-блокатори у стрільбі заборонені в будь-який час; вважайте їх забороненими і в стендовій стрільбі.",
+      "checklist": true,
+      "from": "health-alcohol-medication-weather"
+    },
+    {
+      "k": "mind-anti-doping-kp2",
+      "en": "A prescribed medicine: do not stop it yourself; ask your doctor about an alternative or a TUE well in advance.",
+      "uk": "Ліки за призначенням: не скасовуйте їх самі; задовго до змагань запитайте лікаря про альтернативу або TUE."
+    },
+    {
+      "k": "mind-anti-doping-kp3",
+      "en": "Check each medicine in Global DRO by its active ingredient, or ask your national anti-doping agency; check again each year.",
+      "uk": "Перевіряйте кожні ліки в Global DRO за діючою речовиною або запитайте національну антидопінгову агенцію; повторюйте це щороку.",
+      "checklist": true
+    },
+    {
+      "k": "health-alcohol-medication-weather-kp2",
+      "en": "A medicine makes you drowsy or dizzy: ask a doctor, and do not shoot while you feel it.",
+      "uk": "Ліки викликають сонливість чи запаморочення: порадьтеся з лікарем і не стріляйте, поки це відчуваєте.",
+      "from": "health-alcohol-medication-weather"
+    },
+    {
+      "k": "mind-anti-doping-kp5",
+      "en": "Supplements: only products with lab-tested batches; CBD products can contain THC.",
+      "uk": "Добавки — лише продукти з протестованими партіями; продукти з CBD можуть містити THC."
+    }
+  ],
+  "did_you_know": {
+    "k": "health-alcohol-medication-weather-dyk",
+    "en": "The WADA Prohibited List is updated each year, and the next list is usually published around September. A medicine that was allowed last season is worth checking again.",
+    "uk": "Заборонений список WADA оновлюють щороку, а наступний список зазвичай публікують близько вересня. Ліки, дозволені минулого сезону, варто перевірити знову."
+  },
+  "quiz": [
+    {
+      "k": "mind-anti-doping-q1",
+      "q": {
+        "en": "Under the WADA list, when are beta-blockers prohibited in shooting?",
+        "uk": "Коли за списком WADA бета-блокатори заборонені у стрільбі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only on the days of a competition",
+          "uk": "Лише в дні самих змагань"
+        },
+        {
+          "k": "b",
+          "en": "Only at Olympic Games and world championships",
+          "uk": "Лише на Олімпійських іграх і чемпіонатах світу"
+        },
+        {
+          "k": "c",
+          "en": "At all times, in and out of competition",
+          "uk": "У будь-який час, на змаганнях і поза ними"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The 2026 and 2027 lists mark shooting as prohibited at all times. Treat this as the rule in clay shooting too.",
+        "uk": "Списки 2026 і 2027 років позначають стрільбу як вид, де вони заборонені в будь-який час. Вважайте це правилом і в стендовій стрільбі."
+      }
+    },
+    {
+      "k": "health-alcohol-medication-weather-q2",
+      "q": {
+        "en": "You need a prescribed medicine and are going to a championship. What should you do?",
+        "uk": "Вам потрібні ліки за призначенням, а ви їдете на чемпіонат. Що робити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Check early with your doctor; ask about a TUE",
+          "uk": "Завчасно перевірити з лікарем і запитати про TUE"
+        },
+        {
+          "k": "b",
+          "en": "Nothing: a prescription always makes it allowed",
+          "uk": "Нічого: рецепт завжди робить їх дозволеними"
+        },
+        {
+          "k": "c",
+          "en": "Stop taking it before the event on your own",
+          "uk": "Самому перестати приймати їх перед стартом"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "A prohibited substance stays prohibited with a prescription. Do not stop a medicine yourself; ask early about alternatives or a TUE.",
+        "uk": "Заборонена речовина залишається забороненою й за рецептом. Не скасовуйте ліки самі; завчасно запитайте про альтернативу або TUE."
+      },
+      "from": "health-alcohol-medication-weather"
+    },
+    {
+      "k": "mind-anti-doping-q2",
+      "q": {
+        "en": "Where can you check whether a medicine is prohibited?",
+        "uk": "Де можна перевірити, чи заборонені ліки?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the box the medicine came in",
+          "uk": "На коробці, у якій продають ліки"
+        },
+        {
+          "k": "b",
+          "en": "In Global DRO, an online check",
+          "uk": "У Global DRO, онлайн-перевірці"
+        },
+        {
+          "k": "c",
+          "en": "With the referee on the day of the event",
+          "uk": "У судді в день самих змагань"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Global DRO is run by several national anti-doping agencies; search by the active ingredient, and if your medicine is not listed, ask your national anti-doping agency or your federation.",
+        "uk": "Global DRO ведуть кілька національних антидопінгових агенцій; шукайте за діючою речовиною, а якщо ваших ліків немає, запитайте національну антидопінгову агенцію або федерацію."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-anti-doping-q3",
+      "q": {
+        "en": "Is caffeine prohibited?",
+        "uk": "Чи заборонений кофеїн?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, WADA only monitors it",
+          "uk": "Ні, WADA лише стежить за ним"
+        },
+        {
+          "k": "b",
+          "en": "Yes, in competition",
+          "uk": "Так, під час змагань"
+        },
+        {
+          "k": "c",
+          "en": "Yes, above two cups a day",
+          "uk": "Так, понад дві чашки на день"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Caffeine is not prohibited; it is in the WADA Monitoring Program.",
+        "uk": "Кофеїн не заборонений; він у програмі моніторингу WADA."
+      }
+    },
+    {
+      "k": "mind-anti-doping-q4",
+      "q": {
+        "en": "Why can a CBD product be risky for a competing shooter?",
+        "uk": "Чому продукт із CBD може бути ризикованим для стрільця на змаганнях?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "CBD itself is prohibited at all times",
+          "uk": "Сам CBD заборонений у будь-який час"
+        },
+        {
+          "k": "b",
+          "en": "It can contain THC, which is prohibited",
+          "uk": "Він може містити THC, а THC заборонений"
+        },
+        {
+          "k": "c",
+          "en": "It makes the gun much harder to hold steady",
+          "uk": "Через нього набагато важче втримати рушницю"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "CBD is not prohibited, but CBD products can contain THC, which is prohibited in competition.",
+        "uk": "CBD не заборонений, але продукти з CBD можуть містити THC, заборонений під час змагань."
+      }
+    },
+    {
+      "k": "mind-anti-doping-q5",
+      "q": {
+        "en": "Which medicines can contain stimulants that are prohibited in competition?",
+        "uk": "Які ліки можуть містити стимулятори, заборонені під час змагань?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only sleeping pills and sedatives",
+          "uk": "Лише снодійні й заспокійливі"
+        },
+        {
+          "k": "b",
+          "en": "Only eye drops for dry eyes",
+          "uk": "Лише краплі від сухості очей"
+        },
+        {
+          "k": "c",
+          "en": "Some cold and ADHD medicines",
+          "uk": "Деякі ліки від застуди та СДУГ"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Some cold and ADHD medicines contain stimulants such as pseudoephedrine or methylphenidate.",
+        "uk": "Деякі ліки від застуди та СДУГ містять стимулятори, наприклад псевдоефедрин чи метилфенідат."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-anti-doping-p3",
+      "level": "some",
+      "sources": [
+        "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf"
+      ]
+    },
+    {
+      "for": "mind-anti-doping-p9",
+      "level": "some",
+      "sources": [
+        "https://www.issf-sports.org/issf/anti-doping/faq"
+      ]
+    }
+  ],
+  "h_uk": {
+    "title": "16e7c3d5",
+    "summary": "15628df1",
+    "health-alcohol-medication-weather-p3": "7d3312cb",
+    "mind-anti-doping-beta": "a3dbe7f2",
+    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p3": "2159fe5b",
+    "mind-anti-doping-warn": "7781e027",
+    "mind-anti-doping-p4": "819dcebb",
+    "mind-anti-doping-p5": "bf9d4d06",
+    "mind-anti-doping-p6": "d4aab36c",
+    "mind-anti-doping-p7": "1a04a8a3",
+    "mind-anti-doping-p8": "17f58e71",
+    "mind-anti-doping-p9": "d14b7643",
+    "mind-anti-doping-p10": "7fa2f60d",
+    "mind-anti-doping-p11": "181e87d0",
+    "health-alcohol-medication-weather-p2": "23558c46",
+    "mind-anti-doping-p12": "8aa6cd7e",
+    "mind-anti-doping-n1": "f68a061a",
+    "health-alcohol-medication-weather-kp3": "834632a3",
+    "mind-anti-doping-kp2": "bd1c92a0",
+    "mind-anti-doping-kp3": "e18296f0",
+    "health-alcohol-medication-weather-kp2": "8b1405eb",
+    "mind-anti-doping-kp5": "32cc0b29",
+    "health-alcohol-medication-weather-dyk": "42389f2b",
+    "mind-anti-doping-q1": "21c3c7e9",
+    "health-alcohol-medication-weather-q2": "835e2905",
+    "mind-anti-doping-q2": "aec055ab",
+    "mind-anti-doping-q3": "e11e2c63",
+    "mind-anti-doping-q4": "f1f5932d",
+    "mind-anti-doping-q5": "19947db3"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the doctor (sports medicine) named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\".",
+      "Audit facts-01 (10.2026): the research badges were removed from the WADA-rule paragraphs (health-alcohol-medication-weather-p3, mind-anti-doping-beta, p2, p4–p8, p10, p11); only p3 and p9 keep \"some\". The schema has no non-research label yet: when the build supports one (for example level \"rule\" shown as \"Official rule (WADA list)\" / \"Офіційне правило (список WADA)\"), give it to those paragraphs with the WADA list as the source. Never mark p2 \"strong\": it is a precaution, not a research finding."
+    ]
+  }
+}

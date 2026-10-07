@@ -1,0 +1,94 @@
+{
+  "id": "chokes-pattern-testing-and-care",
+  "lang": "pt",
+  "base_rev": 1,
+  "h": {
+    "title": "e8a9ef43",
+    "summary": "457efd60",
+    "chokes-pattern-testing-and-care-p1": "b61918b4",
+    "chokes-pattern-testing-and-care-p2": "b17fe320",
+    "chokes-pattern-testing-and-care-p3": "bef2177f",
+    "chokes-pattern-testing-and-care-p4": "20c97038",
+    "chokes-pattern-testing-and-care-p5": "8e1dfb17",
+    "chokes-pattern-testing-and-care-p6": "77e552fb",
+    "chokes-pattern-testing-and-care-p7": "de997f66",
+    "chokes-pattern-testing-and-care-kp1": "1299ab0c",
+    "chokes-pattern-testing-and-care-kp2": "f2cb603c",
+    "chokes-pattern-testing-and-care-kp3": "c1da7fc6",
+    "chokes-pattern-testing-and-care-kp4": "9c490994",
+    "chokes-pattern-testing-and-care-kp5": "3a56bafc",
+    "chokes-pattern-testing-and-care-q1": "3e05c144",
+    "chokes-pattern-testing-and-care-q2": "3b814f97",
+    "chokes-pattern-testing-and-care-q3": "c4b54f8b",
+    "chokes-pattern-testing-and-care-q4": "47bdd55d",
+    "chokes-pattern-testing-and-care-dyk": "dfbbac7a"
+  },
+  "review": { "by": null, "date": null, "origin": null },
+  "title": "Teste de chumbada e cuidados com os chokes",
+  "summary": "Como verificar a sua chumbada numa placa, como limpar e lubrificar os chokes, e porque é que os atiradores de {{tm:sporting}} e {{tm:compak}} não disparam uma arma de chokes intermutáveis sem um choke colocado.",
+  "body": {
+    "chokes-pattern-testing-and-care-p1": "Para ver o que o seu choke realmente faz, atira para uma {{term:pattern-plate|placa de chumbada}}: uma grande chapa de aço pintada ou engraxada para os grãos deixarem marcas. Uma grande folha de papel, de cerca de 1 × 1 m, também serve. Faça isto só num campo que tenha uma placa dessas, e com a autorização do pessoal.",
+    "chokes-pattern-testing-and-care-p2": "Para verificar a {{term:gun-fit|adaptação da coronha}} atira-se a curta distância, {{fact:gear.fit-plate-distance}}: o que importa aí é onde fica o centro da chumbada. Para avaliar o choke em si a distância é maior, classicamente 35 m ou 40 jardas (cerca de 36,6 m). No papel desenha-se um círculo com 75–76 cm de diâmetro em torno da parte mais densa, e contam-se os furos dos grãos dentro dele. Depois compara-se esse número com o número de grãos no cartucho (cerca de 350–400 para 28 g de n.º 7½; ver {{lesson:cartridges-shot-size}}).",
+    "chokes-pattern-testing-and-care-p3": "De forma aproximada, a essa distância o {{term:cylinder|cylinder}} coloca cerca de 40% do chumbo dentro do círculo, o improved cylinder cerca de 50%, o modified cerca de 60%, o improved modified cerca de 65%, e o full 70% ou mais. Os valores dependem do cartucho, por isso a sua arma e o seu cartucho podem dar resultados diferentes.",
+    "chokes-pattern-testing-and-care-p4": "Um único tiro prova pouco: as chumbadas variam de forma notável mesmo com cartuchos idênticos. Dispare pelo menos 3 a 5 tiros para cada combinação. Observe também a uniformidade: uma boa chumbada é uniforme, sem grandes falhas e sem uma mancha densa no meio.",
+    "chokes-pattern-testing-and-care-p5": [
+      "Depois de atirar, desaperte os chokes com a {{term:choke-key|chave de chokes}}.",
+      "Limpe-os por dentro e por fora com solvente e uma escova, e limpe a rosca na boca do cano.",
+      "Antes de os voltar a aparafusar, ponha uma fina camada de {{term:choke-grease|massa para chokes}} na rosca: evita a ferrugem e impede que o choke fique preso."
+    ],
+    "chokes-pattern-testing-and-care-p6": "Verifique se os chokes estão bem apertados antes de cada sessão, porque o tiro pode desapertá-los lentamente. Aparafuse-os totalmente com a chave, mas sem força excessiva.",
+    "chokes-pattern-testing-and-care-p7": "Nunca dispare uma arma de {{term:multichoke|chokes intermutáveis}} sem um choke colocado, ou com um choke só a meio aparafusado. O chumbo e a {{term:wad|bucha}} podem danificar a rosca da boca, e a reparação é cara. Guarde chokes sobresselentes numa caixa separada para não se perderem."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-pattern-testing-and-care-kp1": "As chumbadas verificam-se numa placa: a adaptação a {{fact:gear.fit-plate-distance}}, os chokes a 35 m ou 40 jardas.",
+    "chokes-pattern-testing-and-care-kp2": "Conte a percentagem de chumbo num círculo de 75–76 cm; dispare 3 a 5 tiros.",
+    "chokes-pattern-testing-and-care-kp3": "Limpe os chokes depois de atirar e lubrifique as roscas com massa para chokes.",
+    "chokes-pattern-testing-and-care-kp4": "Verifique se os chokes estão bem apertados antes de cada sessão.",
+    "chokes-pattern-testing-and-care-kp5": "Não dispare uma arma de chokes intermutáveis sem um choke colocado."
+  },
+  "did_you_know": "Depois de cada tiro, a placa de chumbada é pintada ou engraxada de novo, com um rolo ou um pincel, para que as marcas seguintes não se misturem com as anteriores.",
+  "quiz": {
+    "chokes-pattern-testing-and-care-q1": {
+      "q": "Porque não deve disparar uma arma de chokes intermutáveis sem um choke colocado?",
+      "options": {
+        "a": "É proibido só em competições",
+        "b": "O chumbo e a bucha podem danificar a rosca da boca",
+        "c": "A arma simplesmente não dispara",
+        "d": "A chumbada fica demasiado fechada"
+      },
+      "explain": "Sem um choke a rosca fica exposta, e o chumbo e a bucha podem danificá-la."
+    },
+    "chokes-pattern-testing-and-care-q2": {
+      "q": "A que distância clássica se avalia a chumbada de um choke?",
+      "options": {
+        "a": "5 m (cerca de 5½ jardas)",
+        "b": "15 m (cerca de 16 jardas)",
+        "c": "35 m ou 40 jardas (cerca de 37 m)",
+        "d": "80 m (cerca de 87 jardas)"
+      },
+      "explain": "A percentagem de chumbo num círculo de 75–76 cm conta-se classicamente a 35 m ou 40 jardas."
+    },
+    "chokes-pattern-testing-and-care-q3": {
+      "q": "Quantos tiros deve disparar para avaliar uma chumbada?",
+      "options": {
+        "a": "Pelo menos 3 a 5 por cada par",
+        "b": "Um só tiro já basta",
+        "c": "Exatamente dois, um por cano",
+        "d": "Cem, no mesmo dia"
+      },
+      "explain": "As chumbadas variam de tiro para tiro, por isso precisa de uma série para cada arma, choke e cartucho."
+    },
+    "chokes-pattern-testing-and-care-q4": {
+      "q": "Para que serve a massa para chokes?",
+      "options": {
+        "a": "Para fechar um pouco a chumbada",
+        "b": "Para limpar o cano depois de atirar",
+        "c": "Para evitar a ferrugem e impedir que o choke fique preso",
+        "d": "Para suavizar o recuo da arma"
+      },
+      "explain": "Uma camada fina na rosca protege-a da ferrugem e permite desapertar o choke mais tarde."
+    }
+  }
+}

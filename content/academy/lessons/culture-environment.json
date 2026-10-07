@@ -1,0 +1,277 @@
+{
+  "id": "culture-environment",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 4,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "organiser",
+    "shooter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": "2027-04-01",
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": "AI author (block community), 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "culture-environment"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "hull",
+    "semi-automatic",
+    "target",
+    "biodegradable-target",
+    "lead-shot",
+    "steel-shot",
+    "hunting-ethics",
+    "sporting"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch1-safety-environment"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-trajectories-ethics"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-turning-empties"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-empty-cases"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-cartridges"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-load"
+    }
+  ],
+  "facts": [
+    "gear.eu-wetland-lead"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "EUR-Lex — Commission Regulation (EU) 2021/57 on lead in gunshot in or around wetlands",
+        "uk": "EUR-Lex — Регламент Комісії (ЄС) 2021/57 про свинець у дробі у водно-болотних угіддях і біля них"
+      },
+      "url": "https://eur-lex.europa.eu/eli/reg/2021/57/oj/eng",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Caring for the environment",
+    "uk": "Турбота про довкілля"
+  },
+  "summary": {
+    "en": "A shooting ground is part of nature. Empty cases in the bin, eco-friendly targets, lead-free shot where the law asks for it, and respect for the land.",
+    "uk": "Стенд — це частина природи. Гільзи в кошик, екологічні мішені, безсвинцевий дріб там, де цього вимагає закон, і повага до землі."
+  },
+  "body": [
+    {
+      "k": "culture-environment-p1",
+      "t": "p",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch1-safety-environment",
+      "en": "The rules of {{tm:sporting}} are clear about this. When a layout is set up, people's safety comes first, and protecting plants and the environment stands right beside it. Shooting at live animals is not allowed.",
+      "uk": "Правила {{tm:sporting}} кажуть про це прямо. Коли облаштовують майданчик, на першому місці безпека людей, а поруч із нею — захист рослин і довкілля. Стріляти по живих тваринах заборонено."
+    },
+    {
+      "k": "culture-environment-p2",
+      "t": "p",
+      "disc": "both",
+      "en": "The simplest thing you can do is clean up after yourself. Where there is a bin for empty {{term:hull|cases}}, use it. If you shoot a {{term:semi-automatic|semi-automatic}}, it throws each empty case out to the side, so pick yours up when you leave the stand. In both {{tm:sporting}} and {{tm:compak}} this is a rule, not only good manners.",
+      "uk": "Найпростіше, що ви можете зробити, — прибрати за собою. Якщо є кошик для стріляних {{term:hull|гільз}}, кладіть їх туди. У {{term:semi-automatic|напівавтомата}} гільза після пострілу сама вилітає вбік, тож підберіть свої, коли сходите зі стрілецького місця. І в {{tm:sporting}}, і в {{tm:compak}} це правило, а не лише добрі манери."
+    },
+    {
+      "k": "culture-environment-p3",
+      "t": "p",
+      "en": "{{term:target|Targets}} are changing too. Traditional targets are held together by pitch, a tar-like binder. More makers now offer pitch-free {{term:biodegradable-target|biodegradable targets}}, which break down more easily in nature. Whether a ground uses them depends on the ground and on local rules.",
+      "uk": "{{term:target|Мішені}} теж змінюються. У традиційних мішенях усе тримає разом пек — смолиста речовина, схожа на дьоготь. Дедалі більше виробників пропонує {{term:biodegradable-target|біорозкладні мішені}} без пеку, які легше розкладаються в природі. Чи використовує їх стенд, залежить від самого стенду й місцевих вимог."
+    },
+    {
+      "k": "culture-environment-p4",
+      "t": "p",
+      "en": "The FITASC competition rules are written for {{term:lead-shot|lead shot}} (the small lead pellets inside a cartridge). But many countries and regions restrict lead, especially in and around wetlands (marshes, lakes and river banks). There, grounds use {{term:steel-shot|steel}} or another lead-free shot. In the EU, for example, the rule is: {{fact:gear.eu-wetland-lead}}. Check the law and the ground's rules before you go. Laws by country, including newer and upcoming bans: {{lesson:cartridges-lead-and-steel}}.",
+      "uk": "Правила FITASC для змагань написані під {{term:lead-shot|свинцевий дріб}}. Але багато країн і регіонів обмежують свинець, особливо у водно-болотних угіддях (болота, озера, береги річок) і біля них. Там стенди переходять на {{term:steel-shot|сталевий}} чи інший безсвинцевий дріб. У ЄС, наприклад, діє правило: {{fact:gear.eu-wetland-lead}}. Перевірте закон і правила стенду до поїздки. Закони за країнами, зокрема новіші й майбутні заборони: {{lesson:cartridges-lead-and-steel}}."
+    },
+    {
+      "k": "culture-environment-p5",
+      "t": "p",
+      "en": "Grounds often lie in beautiful countryside: meadows, woodland edges, hills. Walk only on the permitted paths and take your litter with you. Do not break branches, and drive only where it is allowed.",
+      "uk": "Стенди часто розташовані в гарних місцях: на луках, біля лісу, на пагорбах. Ходіть лише дозволеними стежками й забирайте своє сміття. Не ламайте гілок і їздьте автомобілем лише там, де можна."
+    },
+    {
+      "k": "culture-environment-p6",
+      "t": "p",
+      "en": "Many grounds look after their land: they plant trees, collect target fragments and recycle cases. If your club holds such a day, join in. It is part of the culture of the sport and a good way to meet people: {{lesson:culture-club-life}}.",
+      "uk": "Чимало стендів доглядає свою територію: висаджує дерева, збирає уламки мішеней, переробляє гільзи. Якщо ваш клуб влаштовує такий день, долучайтеся. Це частина культури спорту і добра нагода познайомитися з людьми: {{lesson:culture-club-life}}."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "culture-environment-kp1",
+      "en": "People's safety first, and care for nature right beside it.",
+      "uk": "Спершу безпека людей, а поруч із нею — турбота про природу."
+    },
+    {
+      "k": "culture-environment-kp2",
+      "en": "Empty cases go in the bin; semi-automatic users pick up theirs.",
+      "uk": "Гільзи — у кошик; власники напівавтоматів підбирають свої."
+    },
+    {
+      "k": "culture-environment-kp3",
+      "en": "Pitch-free targets break down more easily in nature.",
+      "uk": "Мішені без пеку легше розкладаються в природі."
+    },
+    {
+      "k": "culture-environment-kp4",
+      "en": "Where the law restricts lead, grounds use steel: check before you go.",
+      "uk": "Там, де закон обмежує свинець, стріляють сталевим дробом: перевірте заздалегідь."
+    }
+  ],
+  "did_you_know": {
+    "k": "culture-environment-dyk",
+    "en": "The {{tm:sporting}} rules ask layouts to respect {{term:hunting-ethics|hunting ethics}}. A target should fly at a hunting-like distance. It should not be so close that a real bird would be too damaged to eat, or so far that it would only be wounded.",
+    "uk": "Правила {{tm:sporting}} вимагають, щоб майданчики відповідали {{term:hunting-ethics|мисливській етиці}}. Мішень має летіти на мисливській відстані: не надто близько, бо справжній птах став би непридатним до їжі, і не надто далеко, бо його лише поранило б."
+  },
+  "quiz": [
+    {
+      "k": "culture-environment-q1",
+      "q": {
+        "en": "What do you do with empty cases after a round?",
+        "uk": "Що робити з гільзами після раунду?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Leave them where they fall",
+          "uk": "Залишити там, де впали"
+        },
+        {
+          "k": "b",
+          "en": "Put them in the bin provided",
+          "uk": "Покласти в кошик для гільз"
+        },
+        {
+          "k": "c",
+          "en": "Kick them under the stand",
+          "uk": "Відкинути під стрілецьке місце"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Cases go in the bin where there is one, and semi-automatic users pick up their ejected cases.",
+        "uk": "Гільзи кладуть у кошик, якщо він є, а власники напівавтоматів підбирають викинуті гільзи."
+      }
+    },
+    {
+      "k": "culture-environment-q2",
+      "q": {
+        "en": "Where might a ground require steel shot?",
+        "uk": "Де стенд може вимагати сталевий дріб?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Where the law restricts lead",
+          "uk": "Там, де закон обмежує свинець"
+        },
+        {
+          "k": "b",
+          "en": "Only at Olympic events",
+          "uk": "Лише на олімпійських змаганнях"
+        },
+        {
+          "k": "c",
+          "en": "Only on very windy days",
+          "uk": "Лише в дуже вітряні дні"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Lead rules depend on the country and the area, often near water; check in advance.",
+        "uk": "Обмеження свинцю залежать від країни й місцевості, часто це місця біля води; дізнавайтеся заздалегідь."
+      }
+    },
+    {
+      "k": "culture-environment-q3",
+      "q": {
+        "en": "What is special about biodegradable targets?",
+        "uk": "Чим особливі біорозкладні мішені?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "They are heavier than standard ones",
+          "uk": "Вони важчі за стандартні"
+        },
+        {
+          "k": "b",
+          "en": "They glow at dusk for visibility",
+          "uk": "Вони світяться в сутінках"
+        },
+        {
+          "k": "c",
+          "en": "They have no pitch and break down more easily",
+          "uk": "Вони без пеку й легше розкладаються"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "They are made without pitch, so they leave less of it in the soil.",
+        "uk": "Їх роблять без пеку, тож у ґрунті його лишається менше."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "46947236",
+    "summary": "1c9a11bd",
+    "culture-environment-p1": "39f15ae3",
+    "culture-environment-p2": "01f16fa3",
+    "culture-environment-p3": "18adbcb3",
+    "culture-environment-p4": "afef74a7",
+    "culture-environment-p5": "c01cc92f",
+    "culture-environment-p6": "8bb0a89e",
+    "culture-environment-kp1": "06ff5fd8",
+    "culture-environment-kp2": "3dca208b",
+    "culture-environment-kp3": "fa61eba8",
+    "culture-environment-kp4": "2287dfa2",
+    "culture-environment-dyk": "72216fc3",
+    "culture-environment-q1": "f1f15aa4",
+    "culture-environment-q2": "d259c5af",
+    "culture-environment-q3": "76f91560"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

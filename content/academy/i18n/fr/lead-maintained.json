@@ -1,0 +1,104 @@
+{
+ "id": "lead-maintained",
+ "lang": "fr",
+ "base_rev": 2,
+ "h": {
+  "title": "74619e7f",
+  "summary": "f3c3a529",
+  "lead-maintained-p1": "d4a9e8a1",
+  "lead-maintained-p2": "b85af489",
+  "lead-maintained-p3": "ef94419f",
+  "lead-maintained-p4": "369d9fb1",
+  "lead-maintained-p5": "280dfd7e",
+  "lead-maintained-ph1": "2a28e944",
+  "lead-maintained-ph2": "8b99224a",
+  "lead-maintained-ph3": "932d48b0",
+  "lead-maintained-ph4": "01d64d37",
+  "lead-maintained-kp1": "33b5f739",
+  "lead-maintained-kp2": "e6e1add7",
+  "lead-maintained-kp3": "a0fcec1e",
+  "lead-maintained-kp4": "c71a2713",
+  "lead-maintained-kp5": "d2a618a9",
+  "lead-maintained-q1": "b2b35185",
+  "lead-maintained-q2": "fcdfd85a",
+  "lead-maintained-q3": "b033e96b"
+ },
+ "review": {
+  "by": null,
+  "date": null,
+  "origin": "interpreter-academy"
+ },
+ "title": "Avance maintenue : passer devant, rester devant",
+ "summary": "Comment fonctionne l'avance maintenue, étape par étape, sur un traversard, à quels plateaux elle convient souvent, et son erreur typique : mesurer l'écart.",
+ "body": {
+  "lead-maintained-p1": "L'{{term:maintained-lead|avance maintenue}} (maintained lead, aux États-Unis sustained lead) garde les canons devant le plateau du début jusqu'au tir. Voici, étape par étape, comment cela se passe sur un {{term:crosser|traversard}} (un plateau qui traverse devant vous) :",
+  "lead-maintained-p2": [
+   "Départ : les canons attendent au {{term:hold-point|point d'attente}}, bien avancés sur la trajectoire du plateau, pour que celui-ci vole vers eux ; les yeux regardent en arrière, vers le {{term:pick-up-point|point de prise}}.",
+   "Insertion : quand le plateau arrive, le fusil se met en mouvement et les canons rejoignent la ligne devant lui, pas derrière ; c'est le {{term:insertion-point|point d'insertion}}.",
+   "Suivi : au début, les canons se déplacent un peu plus lentement que le plateau, qui se rapproche donc jusqu'à l'écart voulu. Déplacez ensuite les canons à la vitesse du plateau, et l'écart reste constant.",
+   "Tir : la détente part pendant que l'écart est bon et que le fusil est encore en mouvement.",
+   "Après le tir, le fusil continue de bouger ({{term:follow-through|accompagnement}})."
+  ],
+  "lead-maintained-p3": "Atouts : précision, peu de mouvement du fusil, transition rapide entre les plateaux, et une avance facile à ajuster. Elle convient aux plateaux réguliers et prévisibles : traversards lointains, hauts plateaux stables.",
+  "lead-maintained-p4": "Faiblesses : on la décrit souvent comme la méthode la plus difficile à apprendre, et le tireur doit connaître à l'avance la vitesse et la ligne du plateau. Comme le fusil n'est pas plus rapide que le plateau, le tireur voit le plus grand écart de toutes les méthodes à fusil mobile. Beaucoup sont alors tentés de le mesurer, de ralentir et de s'arrêter.",
+  "lead-maintained-p5": "Les entraîneurs disent « insert the gun in front » (« insérez le fusil devant »), « stay ahead of it » (« restez devant lui »), « match its speed » (« calez-vous sur sa vitesse »)."
+ },
+ "note": {},
+ "phrases": {
+  "lead-maintained-ph1": {
+   "meaning": "Placez les canons devant le plateau et gardez-les là jusqu'après le tir.",
+   "say": "Passez devant et restez devant."
+  },
+  "lead-maintained-ph2": {
+   "meaning": "Les canons ont rejoint la ligne derrière le plateau ; ils doivent la rejoindre devant.",
+   "say": "Votre point d'insertion est derrière le plateau : mettez le fusil devant."
+  },
+  "lead-maintained-ph3": {
+   "meaning": "Déplacez le fusil à la vitesse du plateau pour que l'écart ne se réduise pas.",
+   "say": "Calez-vous sur sa vitesse : ne le laissez pas vous rattraper."
+  },
+  "lead-maintained-ph4": {
+   "meaning": "Le tireur ralentit pour vérifier l'écart ; tirez dès que l'image est bonne.",
+   "say": "Vous le mesurez : faites confiance à l'image et tirez."
+  }
+ },
+ "key_points": {
+  "lead-maintained-kp1": "Les canons démarrent devant et rejoignent la ligne en avant du plateau.",
+  "lead-maintained-kp2": "Une fois l'écart bon, la vitesse du fusil égale celle du plateau, et l'écart reste constant.",
+  "lead-maintained-kp3": "Détente pendant que l'écart est bon et que le fusil bouge ; puis accompagnement.",
+  "lead-maintained-kp4": "Convient souvent aux plateaux longs et prévisibles.",
+  "lead-maintained-kp5": "Risque principal : mesurer l'écart et arrêter le fusil."
+ },
+ "quiz": {
+  "lead-maintained-q1": {
+   "q": "Dans l'avance maintenue, où les canons rejoignent-ils la ligne du plateau ?",
+   "options": {
+    "a": "Derrière le plateau",
+    "b": "Sur le plateau",
+    "c": "Devant le plateau",
+    "d": "Sous le lanceur"
+   },
+   "explain": "Les canons s'insèrent devant le plateau et y restent ; derrière, c'est le swing-through, sur le plateau, c'est le pull-away."
+  },
+  "lead-maintained-q2": {
+   "q": "Quelle est l'erreur typique des tireurs qui utilisent l'avance maintenue ?",
+   "options": {
+    "a": "Démarrer trop loin derrière",
+    "b": "Mesurer l'écart et arrêter le fusil",
+    "c": "Épauler depuis la hanche",
+    "d": "Tirer trop tôt, près du lanceur"
+   },
+   "explain": "L'écart est grand et visible, ce qui tente de le vérifier ; le fusil ralentit ou s'arrête, et le tir part derrière."
+  },
+  "lead-maintained-q3": {
+   "q": "Pour quel plateau l'avance maintenue est-elle souvent recommandée ?",
+   "options": {
+    "a": "Un traversard lointain et prévisible",
+    "b": "Un rabbit qui bondit dans un espace court",
+    "c": "Un plateau surprise venant de derrière",
+    "d": "Un plateau ZZ"
+   },
+   "explain": "La méthode a besoin d'une vitesse et d'une ligne connues, ce que donnent les traversards longs et réguliers ; les plateaux irréguliers ou surprise conviennent à d'autres méthodes."
+  }
+ }
+}

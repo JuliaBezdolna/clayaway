@@ -1,0 +1,91 @@
+{
+  "id": "chokes-fixed-and-multichoke",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "bde7f021",
+    "summary": "ccf70477",
+    "chokes-fixed-and-multichoke-p1": "23ae3c30",
+    "chokes-fixed-and-multichoke-p2": "e7103ab0",
+    "chokes-fixed-and-multichoke-p3": "204a8f9d",
+    "chokes-fixed-and-multichoke-p4": "5a913245",
+    "chokes-fixed-and-multichoke-cmp1": "33d955d7",
+    "chokes-fixed-and-multichoke-kp1": "373ad63b",
+    "chokes-fixed-and-multichoke-kp2": "02e18af9",
+    "chokes-fixed-and-multichoke-kp3": "208bc5ab",
+    "chokes-fixed-and-multichoke-kp4": "d1799e1f",
+    "chokes-fixed-and-multichoke-dyk": "51b43287",
+    "chokes-fixed-and-multichoke-q1": "2c83214f",
+    "chokes-fixed-and-multichoke-q2": "23f75281",
+    "chokes-fixed-and-multichoke-q3": "f6b1189d",
+    "chokes-fixed-and-multichoke-q4": "14c51674"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Fix és cserélhető szűkületek",
+  "summary": "A szűkületek vagy véglegesen a csőbe vannak megmunkálva, vagy becsavarható, cserélhető tubusok. Mindkét lehetőségről, és arról, mikor engedik meg a {{tm:sporting}} és a {{tm:compak}} szabályai a cseréjüket.",
+  "body": {
+    "chokes-fixed-and-multichoke-p1": "A {{term:fixed-choke|fix szűkületet}} (fixed choke) a gyárban munkálják bele a csőbe, és csak egy {{term:gunsmith|puskaműves}} tudja megváltoztatni. Sok régebbi és klasszikus fegyver így készül. Egy ilyen bocknak rendszerint két különböző szűkítése van, például 1/4 és 1/2, és a lövész azzal dolgozik, amije van.",
+    "chokes-fixed-and-multichoke-p2": "A {{term:multichoke|cserélhető szűkületek}} (multichoke) rövid, menetes tubusok, amelyeket egy {{term:choke-key|szűkületkulccsal}} csavarnak a torkolatba. A legtöbb modern versenyfegyvernek ilyen van. A fegyverhez egy több szűkületből álló készlet jár, és a lövész azokat szereli be, amelyek illenek a korongokhoz.",
+    "chokes-fixed-and-multichoke-p3": "A tubusok vagy sík felületűek (flush, egy szintben a cső végével), vagy {{term:extended-choke|kiállóak}} (extended): kiállnak a torkolatból, gyakran 1–5 cm-rel. Sok kiálló szűkület kézzel is elforgatható, és a jelölésük leolvasható anélkül, hogy kivennéd őket.",
+    "chokes-fixed-and-multichoke-p4": "A menetek és méretek eltérnek a gyártók között, és akár ugyanazon gyártó modelljei között is. Egy másik rendszerből származó szűkület nem feltétlenül illik, vagy rosszul csavarodhat be, ami veszélyes. Csak a fegyveredhez készült szűkületeket vedd meg.",
+    "chokes-fixed-and-multichoke-cmp1": {
+      "sporting": "A lőállások között, vagy a szóló korongok és a dublék között cserélheted a szűkületet, az egész fegyvert vagy egy csövet, ha ez nem okoz késlekedést. Amint felléptél a lőállásra, már nincs több csere.",
+      "compak": "Egy körön belül nem cserélheted a fegyvert, a csöveket vagy a szűkületeket. Ezeket csak körök között cserélik; kivéve egy fegyvermeghibásodás esetén. Tehát olyan szűkületeket válassz, amelyek megbírják a kör minden korongját."
+    }
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "chokes-fixed-and-multichoke-kp1": "A fix szűkület a csőbe van megmunkálva; a cserélhetőt egy kulccsal csavarják be.",
+    "chokes-fixed-and-multichoke-kp2": "A különböző rendszerű szűkületek nem helyettesíthetik egymást.",
+    "chokes-fixed-and-multichoke-kp3": "{{tm:sporting}}: a szűkületeket a lőállások között cseréld, nem a lőálláson.",
+    "chokes-fixed-and-multichoke-kp4": "{{tm:compak}}: egy körön belül nincs szűkületcsere."
+  },
+  "did_you_know": "Néhány {{tm:sporting}} lövész egyáltalán nem cserél szűkületet egy verseny alatt, és egyetlen párra hagyatkozik, például 1/4-re és 1/2-re. Így kevesebbet gondolnak a felszerelésre, és többet a korongokra.",
+  "quiz": {
+    "chokes-fixed-and-multichoke-q1": {
+      "q": "Mikor cserélhetsz szűkületet a {{tm:sporting}}-ban?",
+      "options": {
+        "a": "A lőállások között, ha ez nem okoz késlekedést",
+        "b": "A lőálláson, közvetlenül a dublé előtt",
+        "c": "Csak a nap első lőállása előtt",
+        "d": "Csak a zsűri írásos beleegyezésével"
+      },
+      "explain": "A lőállások között, vagy a szólók és a dublék között cserélhetsz, de nem akkor, ha már a lőálláson vagy."
+    },
+    "chokes-fixed-and-multichoke-q2": {
+      "q": "Cserélhetsz-e szűkületet egy {{tm:compak}} körön belül?",
+      "options": {
+        "a": "Igen, amikor lőállások között mozogsz",
+        "b": "Igen, ha a következő korongok távoliak",
+        "c": "Nem, csak körök között",
+        "d": "Igen, a kör bármely pillanatában"
+      },
+      "explain": "A {{tm:compak}}-ban a fegyver, a csövek vagy a szűkületek cseréje egy körön belül tilos; a kivétel egy meghibásodás."
+    },
+    "chokes-fixed-and-multichoke-q3": {
+      "q": "Miért ne tegyél fel egy másik rendszerből származó szűkületet?",
+      "options": {
+        "a": "Elrontja a fegyver kinézetét",
+        "b": "A menet nem biztos, hogy illik, ami veszélyes",
+        "c": "A bíró nem tudja ellenőrizni a jelölését",
+        "d": "Megváltoztatja a cső kaliberét"
+      },
+      "explain": "A szűkületrendszerek eltérnek; egy rossz szűkület károsíthatja a csövet."
+    },
+    "chokes-fixed-and-multichoke-q4": {
+      "q": "Mi az a kiálló szűkület (extended choke)?",
+      "options": {
+        "a": "Egy szűkebb szűkület, mint a full",
+        "b": "Egy a csőbe megmunkált szűkület",
+        "c": "Egy csak acélsörétre készült szűkület",
+        "d": "Egy tubus, amely kiáll a torkolatból"
+      },
+      "explain": "A kiálló szűkületek kiállnak a torkolatból, tehát a jelölésük leolvasható anélkül, hogy kivennéd őket."
+    }
+  }
+}

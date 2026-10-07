@@ -1,0 +1,791 @@
+{
+  "id": "rules-dress-and-safety",
+  "rev": 1,
+  "status": "review",
+  "plan": "rewrite",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": true,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "certified FITASC referee",
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting.js (FITASC edition 01/01/2025, file of 2026-03-29), compak.js (edition 01/01/2025, file of 2026-02-02)",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [
+      "rules-dress-and-safety",
+      "culture-dress-code"
+    ],
+    "interpreter": [
+      "gear-protection-clothes",
+      "compak-dress-and-conduct"
+    ]
+  },
+  "terms": [
+    "dress-code",
+    "competitor-number",
+    "hearing-protection",
+    "safety-glasses",
+    "semi-automatic",
+    "gun-rack",
+    "firing-angle-limiter",
+    "sporting",
+    "compak-sporting",
+    "safety",
+    "gun-handling",
+    "mock-shooting",
+    "target-presentation",
+    "interruption",
+    "warning",
+    "jury",
+    "shooting-vest",
+    "earplugs",
+    "electronic-ear-muffs",
+    "cartridge-bag",
+    "empties",
+    "quiet-on-stand"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch17-dress-code"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-dress-code"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-competitor-number"
+    },
+    {
+      "book": "compak",
+      "id": "ch7-competition-numbers"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-hearing-protection"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-hearing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-safety-glasses"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-eyewear"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-gun-handling"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-carrying"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-loading"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-on-the-stand"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-semi-auto"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-turning-empties"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-open-gun"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-mock-shooting"
+    },
+    {
+      "book": "compak",
+      "id": "ch24-dry-mounting"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-gun"
+    },
+    {
+      "book": "sporting",
+      "id": "ch17-dress-penalties"
+    },
+    {
+      "book": "sporting",
+      "id": "ch7-touching-sharing"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-own-turn-live-animals"
+    },
+    {
+      "book": "sporting",
+      "id": "ch8-presentation-interruption"
+    },
+    {
+      "book": "sporting",
+      "id": "ch1-safety-environment"
+    },
+    {
+      "book": "compak",
+      "id": "ch21-shooting-conduct"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-empty-cases"
+    },
+    {
+      "book": "compak",
+      "id": "ch2-fal"
+    }
+  ],
+  "facts": [
+    "rules.dress-shorts-length",
+    "rules.semi-auto-cartridges"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting (editions of 01/01/2025, as summarised in the ClayArena rules guide)",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting (редакції від 01.01.2025, як їх переказано в довіднику правил ClayArena)"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Dress code and safety on the stand",
+    "uk": "Дрес-код і безпека на стрілецькому місці"
+  },
+  "summary": {
+    "en": "What to wear at {{tm:sporting}} and {{tm:compak}} competitions, where the number goes, how guns are carried and loaded, and who must wear ear and eye protection.",
+    "uk": "Що вдягати на змагання з {{tm:sporting}} і {{tm:compak}}, де кріпити номер, як носити й заряджати рушницю і хто мусить мати захист слуху й очей."
+  },
+  "body": [
+    {
+      "k": "culture-dress-code-p1",
+      "t": "p",
+      "anchor": "culture-dress-code",
+      "en": "Clay shooting is a public sport, and the rules of {{tm:sporting}} and {{tm:compak}} ask shooters to dress neatly and practically. The {{term:dress-code|dress code}} has two purposes: safety and respect for the competition.",
+      "uk": "Стендова стрільба — публічний спорт, і правила {{tm:sporting}} та {{tm:compak}} вимагають від стрільців охайного й практичного одягу. {{term:dress-code|Дрес-код}} має два сенси: безпека і повага до змагання."
+    },
+    {
+      "k": "gear-protection-clothes-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch17-dress-code",
+        "compak:ch7-dress-code"
+      ],
+      "en": "The dress rules are almost the same in both disciplines. Shorts must be long: {{fact:rules.dress-shorts-length}}. A top needs sleeves, short ones are enough, and has to come up to the neck, with a collar or a round neck. A vest over a bare chest is not allowed, and sandals are banned for safety.",
+      "uk": "Правила одягу в обох дисциплінах майже однакові. Шорти — лише довгі, {{fact:rules.dress-shorts-length}}. Верх має бути з рукавами (досить коротких) і доходити до шиї: з коміром або круглим вирізом. Жилет на голе тіло не дозволено, а сандалі заборонені з міркувань безпеки."
+    },
+    {
+      "k": "rules-dress-and-safety-cmp1",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "anchor": "compak-dress-and-conduct",
+      "en": "Where the dress code applies",
+      "uk": "Де діє дрес-код",
+      "sporting": {
+        "rule_ref": "sporting:ch17-dress-code",
+        "en": "At the competition. Sandals are banned there because they are unsafe.",
+        "uk": "На змаганні. Сандалі там заборонені, бо вони небезпечні."
+      },
+      "compak": {
+        "rule_ref": "compak:ch7-dress-code",
+        "en": "At the station, in practice and in competition: sandals are banned in both.",
+        "uk": "На номері — і на тренуванні, і на змаганні: сандалі заборонені в обох випадках."
+      }
+    },
+    {
+      "k": "culture-dress-code-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch17-competitor-number",
+        "compak:ch7-competition-numbers"
+      ],
+      "en": "The {{term:competitor-number|competitor number}} goes on your back, somewhere between the shoulders and the waist. It must be fully visible: not folded and not cut. A breach of the dress or number rules first brings a warning; if it is not put right, the jury can go as far as exclusion.",
+      "uk": "{{term:competitor-number|Стартовий номер}} кріплять на спину — десь між плечима й поясом. Він має бути повністю видимим: не складеним і не обрізаним. За порушення правил одягу чи номера спершу роблять попередження; якщо його не виправити, журі може дійти аж до виключення."
+    },
+    {
+      "k": "gear-protection-clothes-p5",
+      "t": "tip",
+      "core": true,
+      "disc": "both",
+      "en": "Many shooters also wear a cap with a peak against sun and rain, gloves, and carry a cartridge bag for the day's supply. These are custom, not rules.",
+      "uk": "Багато стрільців носять ще кепку з козирком від сонця й дощу, рукавички, а для денного запасу патронів беруть сумку для патронів. Це звичай, а не правило."
+    },
+    {
+      "k": "rules-dress-and-safety-cmp2",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "anchor": "gear-protection-clothes",
+      "en": "Hearing protection and safety glasses",
+      "uk": "Захист слуху й захисні окуляри",
+      "sporting": {
+        "rule_ref": "sporting:ch8-hearing-protection",
+        "en": "Hearing protection: for everyone on or near the layout, spectators included; children on the ground must wear it everywhere outside the clubhouse. Glasses: for shooters, referees and staff, and for anyone near a stand.",
+        "uk": "Захист слуху — для всіх на майданчику й поруч, зокрема глядачів; діти на стрільбищі мають носити його скрізь поза клубним будинком. Окуляри — для стрільців, суддів і персоналу, а також для всіх, хто поруч зі стрілецьким місцем."
+      },
+      "compak": {
+        "rule_ref": "compak:ch18-hearing",
+        "en": "Hearing protection: for shooters, referees, staff and spectators near the event. Glasses: for shooters, referees and staff.",
+        "uk": "Захист слуху — для стрільців, суддів, персоналу й глядачів поблизу. Окуляри — для стрільців, суддів і персоналу."
+      }
+    },
+    {
+      "k": "rules-dress-and-safety-p6",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch8-safety-glasses",
+        "compak:ch18-eyewear"
+      ],
+      "en": "In both disciplines, a shooter who comes to the stand without {{term:hearing-protection|hearing protection}} or {{term:safety-glasses|safety glasses}} is treated as absent and cannot shoot. How to choose them: {{lesson:safety-eye-ear-protection}}.",
+      "uk": "В обох дисциплінах стрільця, який прийшов на місце без {{term:hearing-protection|захисту слуху}} чи {{term:safety-glasses|стрілецьких окулярів}}, вважають відсутнім, і стріляти він не може. Як їх обрати: {{lesson:safety-eye-ear-protection}}."
+    },
+    {
+      "k": "rules-dress-and-safety-p3",
+      "t": "warn",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch7-gun-handling",
+        "compak:ch24-carrying"
+      ],
+      "en": "Carry the gun open (so that everyone can see it cannot fire), even when it is unloaded. A {{term:semi-automatic|semi-automatic}} is carried with the breech open: the bolt is locked back, so you can see the chamber is empty. Its muzzle (the front end of the barrel) points straight up or down. When not in use, the gun stands upright in a {{term:gun-rack|gun rack}}. Nobody touches another shooter's gun without permission. Slings and straps are not allowed in either discipline.",
+      "uk": "Рушницю носять відкритою (щоб усі бачили, що вона не може вистрілити), навіть розряджену. {{term:semi-automatic|Напівавтомат}} носять із відкритим затвором: затвор відведено назад, і видно, що патронник порожній. Дуло (передній кінець ствола) спрямоване прямо вгору або вниз. Коли рушниця не потрібна, вона стоїть вертикально в {{term:gun-rack|стійці}}. Чужу рушницю без дозволу не чіпають. Ремені для перенесення заборонені в обох дисциплінах."
+    },
+    {
+      "k": "rules-dress-and-safety-cmp3",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "Loading",
+      "uk": "Заряджання",
+      "sporting": {
+        "rule_ref": "sporting:ch8-loading",
+        "en": "Only on the stand, muzzle down the range, after the referee says shooting may start.",
+        "uk": "Лише на стрілецькому місці, стволами в бік поля, після того як суддя дозволив починати стрільбу."
+      },
+      "compak": {
+        "rule_ref": "compak:ch24-on-the-stand",
+        "en": "Only on your own station, after the start is allowed. Keep the gun open, muzzle towards the targets and inside the {{term:firing-angle-limiter|Firing Angle Limiter}} (the frame around the station that stops the barrels swinging too far). Close it only when it is your turn.",
+        "uk": "Лише на своєму номері, після дозволу почати. Рушниця відкрита, стволи в бік поля всередині {{term:firing-angle-limiter|обмежувача кута стрільби}} (рамки навколо номера, яка не дає стволам відхилитися надто далеко). Закривають її лише у свою чергу."
+      }
+    },
+    {
+      "k": "rules-dress-and-safety-p4",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch8-loading",
+        "compak:ch18-semi-auto"
+      ],
+      "en": "In both disciplines you may put {{fact:rules.semi-auto-cartridges}} into a semi-automatic. After leaving the stand, its user picks up the empty cases the gun has thrown out. Empty cases go in the bin where there is one.",
+      "uk": "В обох дисциплінах у напівавтомат можна заряджати {{fact:rules.semi-auto-cartridges}}. Зійшовши з місця, його власник збирає гільзи, які викинула рушниця. Порожні гільзи кидають у контейнер, якщо він є."
+    },
+    {
+      "k": "rules-dress-and-safety-p5",
+      "t": "warn",
+      "core": true,
+      "disc": "both",
+      "rule_refs": [
+        "sporting:ch8-turning-empties",
+        "compak:ch21-open-gun"
+      ],
+      "en": "Before turning around on the stand, open the gun and take out all cartridges, fired or not. During the presentation and any interruption, the gun is open and unloaded. Shoot only in your turn, only at your own target, and not at animals.",
+      "uk": "Перш ніж обернутися на місці, відкрийте рушницю й вийміть усі патрони, стріляні й нестріляні. Під час показу мішеней і будь-якої перерви рушниця відкрита й розряджена. Стріляють лише у свою чергу, лише по своїй мішені і не по тваринах."
+    },
+    {
+      "k": "rules-dress-and-safety-cmp4",
+      "t": "compare",
+      "core": true,
+      "disc": "both",
+      "en": "Mock shooting",
+      "uk": "Імітація стрільби",
+      "sporting": {
+        "rule_ref": "sporting:ch8-mock-shooting",
+        "en": "Not allowed anywhere at the shooting ground, including swinging along a target's line before you call.",
+        "uk": "Заборонена будь-де на стрільбищі, зокрема ведення рушниці по лінії мішені перед командою."
+      },
+      "compak": {
+        "rule_ref": "compak:ch24-dry-mounting",
+        "en": "Not allowed off the shooting positions, nor while someone else in your squad is shooting.",
+        "uk": "Заборонена поза стрілецькими номерами, а також тоді, коли стріляє хтось інший із вашої групи."
+      }
+    },
+    {
+      "k": "rules-dress-and-safety-p7",
+      "t": "p",
+      "disc": "both",
+      "en": "Gun and ammunition laws differ from country to country. The FITASC rules apply at the competition, but they do not replace local laws on carrying and storing a shotgun. Before a trip abroad, see {{lesson:travel-gun-in-eu}}.",
+      "uk": "Закони про зброю й набої в кожній країні різні. Правила FITASC діють на змаганні, але не замінюють місцевих законів про перевезення і зберігання рушниці. Перед поїздкою за кордон перегляньте {{lesson:travel-gun-in-eu}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "compak-dress-and-conduct-p5",
+      "for": "interpreter",
+      "en": "Near the stand you are part of the public: wear protection, keep quiet during the call, and do not comment on a decision. The rules do not mention interpreters, but passing on a coach's advice during a competition can be judged as coaching. Then the shooter gets a yellow card and you are sent out of the shooting area. Interpret only official words for the referee, jury and organiser.",
+      "uk": "Біля місця ви — частина публіки: майте захист, мовчіть під час команди й не коментуйте рішення судді. Правила не згадують перекладачів, але передавання порад тренера під час змагання можуть визнати підказуванням. Тоді стрілець отримає жовту картку, а вас видалять із зони стрільби. Перекладайте лише офіційне — для судді, журі та організатора."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "gear-protection-clothes-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Ears and eyes on before you walk up.",
+      "meaning": {
+        "en": "Put on hearing protection and glasses before approaching the stand.",
+        "uk": "Надягніть захист слуху й окуляри, перш ніж підходити до стрілецького місця."
+      },
+      "say": {
+        "uk": "Навушники й окуляри — до того, як підійдете."
+      }
+    },
+    {
+      "k": "compak-dress-and-conduct-ph1",
+      "speaker": "referee",
+      "core": true,
+      "en": "Number on your back, please.",
+      "meaning": {
+        "en": "Referee: the competition number must be fully visible on the back.",
+        "uk": "Суддя: номер учасника має бути повністю видно на спині."
+      },
+      "say": {
+        "uk": "Номер — на спину, будь ласка."
+      }
+    },
+    {
+      "k": "compak-dress-and-conduct-ph2",
+      "speaker": "referee",
+      "core": true,
+      "en": "Ears and eyes on.",
+      "meaning": {
+        "en": "Put on hearing protection and glasses before the station.",
+        "uk": "Вдягніть захист слуху й окуляри, перш ніж стати на місце."
+      },
+      "say": {
+        "uk": "Навушники й окуляри — вдягніть."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "culture-dress-code-kp1",
+      "en": "Long shorts only ({{fact:rules.dress-shorts-length}}); tops with sleeves (short is fine); no sandals.",
+      "uk": "Шорти — лише довгі ({{fact:rules.dress-shorts-length}}); верх із рукавами (можна короткими); без сандалів.",
+      "checklist": true
+    },
+    {
+      "k": "rules-dress-and-safety-kp2",
+      "en": "The competitor number goes on the back, fully visible.",
+      "uk": "Стартовий номер — на спині, повністю видимий.",
+      "checklist": true
+    },
+    {
+      "k": "rules-dress-and-safety-kp3",
+      "en": "Carry the gun open, without a sling; load only on the stand once the referee allows it.",
+      "uk": "Рушницю носять відкритою і без ременя; заряджають лише на місці після дозволу судді."
+    },
+    {
+      "k": "rules-dress-and-safety-kp4",
+      "en": "Before turning around, open the gun and take out all cartridges.",
+      "uk": "Перш ніж обернутися, відкрийте рушницю й вийміть усі патрони."
+    },
+    {
+      "k": "rules-dress-and-safety-kp5",
+      "en": "Without hearing protection or glasses, a shooter is treated as absent, in both disciplines.",
+      "uk": "Без захисту слуху чи окулярів стрільця вважають відсутнім — в обох дисциплінах.",
+      "checklist": true
+    }
+  ],
+  "did_you_know": {
+    "k": "rules-dress-and-safety-dyk",
+    "en": "Each {{tm:compak}} station has a frame, the Firing Angle Limiter. It stops the gun from swinging too far and keeps the shooter inside the position.",
+    "uk": "На кожному номері {{tm:compak}} стоїть рамка — обмежувач кута стрільби. Вона не дає рушниці відхилитися надто далеко і тримає стрільця в межах номера."
+  },
+  "quiz": [
+    {
+      "k": "rules-dress-and-safety-q1",
+      "disc": "both",
+      "q": {
+        "en": "Which shorts are allowed at FITASC competitions?",
+        "uk": "Які шорти дозволені на змаганнях FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Any sports shorts",
+          "uk": "Будь-які спортивні"
+        },
+        {
+          "k": "b",
+          "en": "No shorts at all",
+          "uk": "Жодних шортів"
+        },
+        {
+          "k": "c",
+          "en": "Long ones, near the knee",
+          "uk": "Довгі, майже до коліна"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Short shorts are banned; long ones are allowed if they end {{fact:rules.dress-shorts-length}}.",
+        "uk": "Короткі шорти заборонені; довгі дозволені, якщо вони {{fact:rules.dress-shorts-length}}."
+      },
+      "rule_ref": "sporting:ch17-dress-code"
+    },
+    {
+      "k": "rules-dress-and-safety-q2",
+      "disc": "both",
+      "q": {
+        "en": "How many cartridges may a semi-automatic hold on the stand?",
+        "uk": "Скільки патронів може бути в напівавтоматі на місці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "One",
+          "uk": "Один"
+        },
+        {
+          "k": "b",
+          "en": "Two at most",
+          "uk": "Щонайбільше два"
+        },
+        {
+          "k": "c",
+          "en": "Three at most",
+          "uk": "Щонайбільше три"
+        },
+        {
+          "k": "d",
+          "en": "As many as fit",
+          "uk": "Скільки вміститься"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Both rulebooks limit a semi-automatic to {{fact:rules.semi-auto-cartridges}}.",
+        "uk": "Правила обох дисциплін дозволяють у напівавтоматі {{fact:rules.semi-auto-cartridges}}."
+      },
+      "rule_ref": "sporting:ch8-loading"
+    },
+    {
+      "k": "rules-dress-and-safety-q4",
+      "disc": "both",
+      "q": {
+        "en": "Are gun slings allowed in {{tm:compak}}?",
+        "uk": "Чи дозволені ремені на рушниці в {{tm:compak}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, in neither discipline",
+          "uk": "Ні, в жодній дисципліні"
+        },
+        {
+          "k": "b",
+          "en": "Yes, only in {{tm:compak}}",
+          "uk": "Так, лише в {{tm:compak}}"
+        },
+        {
+          "k": "c",
+          "en": "Only between stations",
+          "uk": "Лише між номерами"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Slings and straps are banned in both disciplines; guns are carried open.",
+        "uk": "Ремені для перенесення заборонені в обох дисциплінах; рушницю носять відкритою."
+      },
+      "rule_ref": "compak:ch18-gun"
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "rules-dress-and-safety-q3",
+      "q": {
+        "en": "A shooter arrives on the stand without safety glasses. What happens?",
+        "uk": "Стрілець прийшов на місце без захисних окулярів. Що буде?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only a warning",
+          "uk": "Лише попередження"
+        },
+        {
+          "k": "b",
+          "en": "Allowed with ear protection on",
+          "uk": "Можна, якщо є захист слуху"
+        },
+        {
+          "k": "c",
+          "en": "Treated as absent",
+          "uk": "Його вважають відсутнім"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Glasses and ear protection are compulsory; without them the shooter may not shoot.",
+        "uk": "Окуляри й навушники обов’язкові; без них стрілець не може стріляти."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch8-safety-glasses"
+    },
+    {
+      "k": "culture-dress-code-q2",
+      "q": {
+        "en": "Why are sandals banned?",
+        "uk": "Чому заборонені сандалі?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "For safety reasons",
+          "uk": "З міркувань безпеки"
+        },
+        {
+          "k": "b",
+          "en": "Because they are unfashionable",
+          "uk": "Бо вони немодні"
+        },
+        {
+          "k": "c",
+          "en": "They are not banned",
+          "uk": "Їх не заборонено"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Closed shoes protect the feet, so sandals are banned.",
+        "uk": "Закрите взуття захищає ноги, тому сандалі заборонені."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch17-dress-code"
+    },
+    {
+      "k": "culture-dress-code-q3",
+      "q": {
+        "en": "Where is the competitor number worn?",
+        "uk": "Де носять номер учасника?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On the left sleeve",
+          "uk": "На лівому рукаві"
+        },
+        {
+          "k": "b",
+          "en": "On the front of the cap",
+          "uk": "Спереду на кепці"
+        },
+        {
+          "k": "c",
+          "en": "On the back",
+          "uk": "На спині"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The number is worn on your back, anywhere from the shoulders down to the waist, and nothing may hide any part of it.",
+        "uk": "Номер кріплять на спину — від плечей до пояса, — і жодна його частина не має бути закрита."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch17-competitor-number"
+    },
+    {
+      "k": "gear-protection-clothes-q1",
+      "q": {
+        "en": "You are an interpreter standing near the stand. Must you wear ear protection?",
+        "uk": "Ви перекладач і стоїте біля стрілецького місця. Чи мусите мати захист слуху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "No, only the shooters on the stand",
+          "uk": "Ні, лише стрільці на стрілецькому місці"
+        },
+        {
+          "k": "b",
+          "en": "Only during finals and shoot-offs",
+          "uk": "Лише у фіналах і перестрілках"
+        },
+        {
+          "k": "c",
+          "en": "Yes, everyone on or near a layout",
+          "uk": "Так, усі на майданчику чи поруч"
+        },
+        {
+          "k": "d",
+          "en": "Only if the referee asks you to",
+          "uk": "Лише якщо суддя попросить"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Hearing protection is compulsory for shooters, referees, staff and spectators.",
+        "uk": "Захист слуху обов’язковий для стрільців, суддів, персоналу й глядачів."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch8-hearing-protection"
+    },
+    {
+      "k": "gear-protection-clothes-q3",
+      "q": {
+        "en": "Which footwear is banned in both disciplines?",
+        "uk": "Яке взуття заборонене в обох дисциплінах?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Trail shoes",
+          "uk": "Трекінгові кросівки"
+        },
+        {
+          "k": "b",
+          "en": "Sandals",
+          "uk": "Сандалії"
+        },
+        {
+          "k": "c",
+          "en": "Boots",
+          "uk": "Черевики"
+        },
+        {
+          "k": "d",
+          "en": "Trainers",
+          "uk": "Кросівки"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Sandals are forbidden for safety reasons.",
+        "uk": "Сандалії заборонені з міркувань безпеки."
+      },
+      "disc": "both",
+      "rule_ref": "sporting:ch17-dress-code"
+    },
+    {
+      "k": "compak-dress-and-conduct-q1",
+      "q": {
+        "en": "A shooter comes to the station in sandals for a practice round. Is it allowed?",
+        "uk": "Стрілець приходить на номер у сандалях на тренувальний раунд. Чи можна?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, in practice only",
+          "uk": "Так, лише на тренуванні"
+        },
+        {
+          "k": "b",
+          "en": "No, not in practice either",
+          "uk": "Ні, і на тренуванні теж"
+        },
+        {
+          "k": "c",
+          "en": "Yes, with socks",
+          "uk": "Так, якщо в шкарпетках"
+        },
+        {
+          "k": "d",
+          "en": "Only with the referee's permission",
+          "uk": "Лише з дозволу судді"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The {{tm:compak}} dress code bans sandals for safety, in practice and in competition.",
+        "uk": "Правила одягу {{tm:compak}} з міркувань безпеки забороняють сандалі і на тренуванні, і на змаганні."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch7-dress-code"
+    }
+  ],
+  "evidence": null,
+  "h_uk": {
+    "title": "c731aafd",
+    "summary": "ae3da601",
+    "culture-dress-code-p1": "9e0775c4",
+    "gear-protection-clothes-p4": "3e1cab97",
+    "rules-dress-and-safety-cmp1": "b186cdbf",
+    "culture-dress-code-p4": "d20c8cdd",
+    "gear-protection-clothes-p5": "0e28b350",
+    "rules-dress-and-safety-cmp2": "e40d0c0b",
+    "rules-dress-and-safety-p6": "de5cadff",
+    "rules-dress-and-safety-p3": "32c29f59",
+    "rules-dress-and-safety-cmp3": "ea2c8461",
+    "rules-dress-and-safety-p4": "4f27a383",
+    "rules-dress-and-safety-p5": "6c50af6c",
+    "rules-dress-and-safety-cmp4": "c6b05acd",
+    "rules-dress-and-safety-p7": "19b095c5",
+    "compak-dress-and-conduct-p5": "e92ab8a6",
+    "gear-protection-clothes-ph1": "82dc2bb2",
+    "compak-dress-and-conduct-ph1": "bbef650e",
+    "compak-dress-and-conduct-ph2": "b0e6a2f4",
+    "culture-dress-code-kp1": "9c8b2f3b",
+    "rules-dress-and-safety-kp2": "8d14f459",
+    "rules-dress-and-safety-kp3": "167efa2e",
+    "rules-dress-and-safety-kp4": "24263c64",
+    "rules-dress-and-safety-kp5": "497a2e54",
+    "rules-dress-and-safety-dyk": "4a570728",
+    "rules-dress-and-safety-q1": "9e82402d",
+    "rules-dress-and-safety-q2": "68da8bc1",
+    "rules-dress-and-safety-q4": "a0a0f82d",
+    "rules-dress-and-safety-q3": "4be4f4c3",
+    "culture-dress-code-q2": "a1c683e9",
+    "culture-dress-code-q3": "f64ea223",
+    "gear-protection-clothes-q1": "f30ce4e9",
+    "gear-protection-clothes-q3": "6ecfcb44",
+    "compak-dress-and-conduct-q1": "940076d2"
+  },
+  "todo": {
+    "tasks": [
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
+    ]
+  }
+}

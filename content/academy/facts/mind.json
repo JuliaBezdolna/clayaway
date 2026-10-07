@@ -1,0 +1,81 @@
+{
+  "sporting-ready-position": {
+    "text": {
+      "en": "the heel of the stock touches your body, and the top of the stock stays below the line on your vest until the target is visible",
+      "uk": "п’ятка приклада торкається тіла, а верх приклада залишається нижче від лінії на жилеті, доки мішень не стане видимою"
+    },
+    "scope": "sporting",
+    "rule_ref": "sporting:ch3-ready-position",
+    "sources": [
+      "https://www.fitasc.com/disciplines-sportives/reglements-sportifs"
+    ],
+    "checked": "2026-10-07"
+  },
+  "slow-breathing-rate": {
+    "text": {
+      "en": "about 6 breaths a minute",
+      "uk": "приблизно 6 вдихів за хвилину"
+    },
+    "evidence": "strong",
+    "sources": [
+      "https://doi.org/10.1016/j.neubiorev.2022.104711",
+      "https://doi.org/10.1007/s10484-020-09466-z"
+    ],
+    "checked": "2026-10-06"
+  },
+  "sleep-window": {
+    "text": {
+      "en": "7–9 hours",
+      "uk": "7–9 годин"
+    },
+    "evidence": "some",
+    "sources": [
+      "https://doi.org/10.1136/bjsports-2020-102025"
+    ],
+    "checked": "2026-10-06"
+  },
+  "caffeine-half-life": {
+    "text": {
+      "en": "about 5 hours",
+      "uk": "приблизно 5 годин"
+    },
+    "evidence": "some",
+    "sources": [
+      "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine"
+    ],
+    "checked": "2026-10-06"
+  },
+  "dehydration-2pct": {
+    "text": {
+      "en": "losing more than about 2% of your body weight in fluid",
+      "uk": "втрата рідини понад приблизно 2 % маси тіла"
+    },
+    "evidence": "some",
+    "sources": [
+      "https://www.researchgate.net/publication/325936696"
+    ],
+    "checked": "2026-10-06"
+  },
+  "beta-blockers-wada": {
+    "text": {
+      "en": "under the WADA Prohibited Lists for 2026 and 2027, beta-blockers are prohibited in shooting at all times, in and out of competition",
+      "uk": "за Забороненими списками WADA на 2026 і 2027 роки бета-блокатори у стрільбі заборонені в будь-який час — і на змаганнях, і поза ними"
+    },
+    "sources": [
+      "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+      "https://www.wada-ama.org/en/resources/2027-prohibited-list"
+    ],
+    "checked": "2026-10-06",
+    "review_by": "2027-01-01"
+  },
+  "alcohol-wada-2018": {
+    "text": {
+      "en": "alcohol has not been on the WADA Prohibited List since 1 January 2018",
+      "uk": "алкоголю немає в Забороненому списку WADA з 1 січня 2018 року"
+    },
+    "sources": [
+      "https://www.usada.org/athlete-advisory/2018-prohibited-list-summary-of-major-changes/"
+    ],
+    "checked": "2026-10-06"
+  }
+}

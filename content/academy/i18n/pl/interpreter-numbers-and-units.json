@@ -1,0 +1,106 @@
+{
+  "id": "interpreter-numbers-and-units",
+  "lang": "pl",
+  "base_rev": 1,
+  "h": {
+    "title": "27ce2b02",
+    "summary": "57f2da6e",
+    "interpreter-numbers-and-units-p1": "c2bc2ad1",
+    "interpreter-numbers-and-units-p2": "fad676a6",
+    "interpreter-numbers-and-units-p3": "8353a9eb",
+    "interpreter-numbers-and-units-p4": "d88b4af0",
+    "interpreter-numbers-and-units-chokes": "a828e484",
+    "interpreter-numbers-and-units-ph1": "cbc38942",
+    "interpreter-numbers-and-units-ph2": "8c188306",
+    "interpreter-numbers-and-units-ph3": "328b9d6d",
+    "interpreter-numbers-and-units-ph4": "86325b8e",
+    "interpreter-numbers-and-units-ph5": "be5f2b18",
+    "interpreter-numbers-and-units-kp1": "2bdc5697",
+    "interpreter-numbers-and-units-kp2": "328aa381",
+    "interpreter-numbers-and-units-kp3": "58c502e4",
+    "interpreter-numbers-and-units-kp4": "cff0fd20",
+    "interpreter-numbers-and-units-kp5": "45efd965",
+    "interpreter-numbers-and-units-q1": "1f0cc95c",
+    "interpreter-numbers-and-units-q2": "862c2542",
+    "interpreter-numbers-and-units-q3": "58baa361"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "pl-wave-2026-10"
+  },
+  "title": "Liczby i jednostki: stopy, jardy, kalibry, numery śrutu",
+  "summary": "Jardy i metry, kierunki według cyferblatu, numery kalibrów, naważki, numery śrutu i czoki: które liczby przeliczać, które zachować tak, jak powiedziano, i jakie są limity FITASC.",
+  "body": {
+    "interpreter-numbers-and-units-p1": "Najpierw wyprzedzenie. Brytyjscy i amerykańscy {{term:coach|trenerzy}} podają {{term:lead|wyprzedzenie}} w stopach albo jardach: „give it three feet”, „a yard in front”. To obraz (odstęp, który strzelec powinien widzieć w chwili strzału), nie pomiar. Zachowujcie jednostkę taką, jak powiedziano, i nie przeliczajcie jej w połowie instrukcji. Więcej o słowach wyprzedzenia: {{lesson:lead-how-coaches-say-it}}.",
+    "interpreter-numbers-and-units-p2": "Odległość do rzutka to inna sprawa. „It’s about thirty yards” można przekazać jako „około 27 metrów”, bo jard to {{fact:stand-talk.unit-yard}}. Słowo „około” zachowujcie. Kierunki często podaje się według {{term:clock-face|tarczy zegara}} nałożonej na pole: prosto przed strzelcem to 12, więc „pick it up at eleven o’clock” znaczy trochę w lewo. Zachowujcie zegar; nie zmieniajcie go na stopnie kątowe.",
+    "interpreter-numbers-and-units-p3": "{{term:gauge|Kaliber}} liczy się odwrotnie. „12-bore” albo „12 gauge” to nie 12 mm: im mniejsza liczba, tym szersza lufa, więc kaliber 20 jest węższy. Oba regulaminy FITASC ({{rule:sporting:ch7-permitted-guns}}, {{rule:compak:ch18-gun}}) dopuszczają broń, w której {{fact:gear.fitasc-max-gauge}}, a {{term:barrel-length|lufy}} {{fact:gear.fitasc-min-barrel}}. W {{tm:sporting}} linia na kamizelce przebiega {{fact:rules.sporting-jacket-line}}; Brytyjczycy mogą to nazwać „trochę mniej niż dziesięć cali”. Oś barkowa to wyobrażona linia przechodząca przez oba barki.",
+    "interpreter-numbers-and-units-p4": "{{term:cartridge|Naboje}}: oba regulaminy dopuszczają {{term:load-weight|naważkę}} {{fact:gear.fitasc-shot-load}}. To zbliżone do „one-ounce load”, o którym mówią Brytyjczycy, bo jedna uncja to {{fact:stand-talk.unit-ounce}}. Śrut musi mieć {{fact:gear.fitasc-shot-diameter}}. {{term:shot-size|Numery śrutu}} różnią się między krajami. Numer 9 to prawie wszędzie około 2 mm, ale inne numery nieco się różnią w systemie brytyjskim, amerykańskim i kontynentalnym. Gdy to ma znaczenie, proście o milimetry ({{lesson:cartridges-shot-size}}).",
+    "interpreter-numbers-and-units-chokes": "{{term:choke|Czoki}} (zwężenie na wylotowym końcu lufy) podaje się nazwami, w ułamkach albo w „thou” (tysięcznych cala). Tłumaczcie w systemie, którego użył trener, i nie przeliczajcie jednego systemu na inny."
+  },
+  "note": {},
+  "phrases": {
+    "interpreter-numbers-and-units-ph1": {
+      "meaning": "Obraz wyprzedzenia, jakiego chce trener; widziany odstęp, nie zmierzona odległość.",
+      "say": "Wyprzedzenie — trzy stopy."
+    },
+    "interpreter-numbers-and-units-ph2": {
+      "meaning": "Użyjcie połowy poprzedniego wyprzedzenia.",
+      "say": "O połowę mniej."
+    },
+    "interpreter-numbers-and-units-ph3": {
+      "meaning": "Szukajcie rzutka trochę w lewo od kierunku prosto przed sobą.",
+      "say": "Podejmujcie go na jedenastej godzinie."
+    },
+    "interpreter-numbers-and-units-ph4": {
+      "meaning": "Rzutek jest w przybliżeniu 37 metrów od was.",
+      "say": "Jest w przybliżeniu czterdzieści jardów — to około 37 metrów."
+    },
+    "interpreter-numbers-and-units-ph5": {
+      "meaning": "Do dolnej lufy, która zwykle strzela jako pierwsza, włóżcie nabój z śrutem nr 9 (około 2 mm).",
+      "say": "W dolną lufę — dziewiątkę."
+    }
+  },
+  "key_points": {
+    "interpreter-numbers-and-units-kp1": "Wyprzedzenie w stopach to obraz: zachowujcie jednostkę, nie przeliczajcie w połowie instrukcji",
+    "interpreter-numbers-and-units-kp2": "Odległość do rzutka: jardy można przekazać jako „około … metrów”",
+    "interpreter-numbers-and-units-kp3": "Kierunek według tarczy zegara: 12 = prosto przed sobą",
+    "interpreter-numbers-and-units-kp4": "12 gauge ≠ 12 mm; w FITASC maksymalny kaliber 12, lufy ≥ 66 cm (26 cali)",
+    "interpreter-numbers-and-units-kp5": "28 g ≈ jedna uncja; śrut 2,0–2,5 mm; numery śrutu różnią się między krajami — proście o mm"
+  },
+  "did_you_know": null,
+  "quiz": {
+    "interpreter-numbers-and-units-q1": {
+      "q": "Trener mówi „It’s about thirty yards”. Jak to przekazać strzelcowi, który myśli w metrach?",
+      "options": {
+        "a": "„Około 27 metrów”",
+        "b": "„Dokładnie 27,43 metra”",
+        "c": "„Około 33 metry”",
+        "d": "„Około 3 metry”"
+      },
+      "explain": "Jard jest odrobinę krótszy od metra (około 0,9 m), więc trzydzieści jardów to około 27 m. Zachowujcie „około”: liczba trenera jest oceną."
+    },
+    "interpreter-numbers-and-units-q2": {
+      "q": "Jaki jest największy kaliber dopuszczony w {{tm:sporting}} i {{tm:compak}}?",
+      "options": {
+        "a": "10",
+        "b": "16",
+        "c": "20",
+        "d": "12"
+      },
+      "explain": "Oba regulaminy dopuszczają co najwyżej kaliber 12; mniejsza liczba kalibru znaczy szerszą lufę, więc 10 nie jest dopuszczony.",
+      "rule_ref": "sporting:ch7-permitted-guns"
+    },
+    "interpreter-numbers-and-units-q3": {
+      "q": "Brytyjski gość pyta, czy jego naboje „one-ounce” są legalne na zawodach FITASC. Co wiecie?",
+      "options": {
+        "a": "Do 36 g, około 1¼ uncji",
+        "b": "Każda naważka: nie ma limitu",
+        "c": "Naważka 28 g (+2%), około jednej uncji",
+        "d": "Dozwolona jest tylko naważka 24 g"
+      },
+      "explain": "Przepisy dopuszczają naważkę do 28 g z tolerancją +2%, a jedna uncja to około 28,3 g. Rozmiar śrutu (2,0–2,5 mm) też musi się zgadzać.",
+      "rule_ref": "sporting:ch7-cartridges"
+    }
+  }
+}

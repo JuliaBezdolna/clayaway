@@ -1,0 +1,390 @@
+{
+  "id": "faults-pairs-transition",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2025/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "faults-pairs-transition"
+    ]
+  },
+  "terms": [
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "transition",
+    "recovery",
+    "recoil",
+    "stance",
+    "dropping-target"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch3-between-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-doubles-general"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-one-cartridge-per-target"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-double-on-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-simultaneous-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-rafale-double"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-double-on-report"
+    },
+    {
+      "book": "compak",
+      "id": "ch3-simultaneous-double"
+    }
+  ],
+  "facts": [],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": null,
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Pairs: the second target",
+    "uk": "Дуплети: друга мішень"
+  },
+  "summary": {
+    "en": "Why the second target of a pair is often missed: transition, recovery and planning the order, plus the cartridge rules for doubles in {{tm:sporting}} and {{tm:compak}}.",
+    "uk": "Чому другу мішень дуплета часто втрачають: перехід, відновлення і план порядку, а також правила щодо патронів на дуплетах у {{tm:sporting}} і {{tm:compak}}."
+  },
+  "body": [
+    {
+      "k": "faults-pairs-transition-p1",
+      "t": "p",
+      "core": true,
+      "en": "On a pair (a {{term:double|double}}) many shooters break the first target and miss the second. The coach then uses two words. The first is {{term:transition|transition}}: moving your eyes, and then the gun, from the first target to the second. The second is {{term:recovery|recovery}}: getting the gun and your head back under control after the first shot.",
+      "uk": "На {{term:double|дуплеті}} (double) багато стрільців розбивають першу мішень і промахуються по другій. Тоді тренер вживає два слова. Перше — {{term:transition|transition}} («перехід»): перенесення спершу погляду, а потім рушниці з першої мішені на другу. Друге — {{term:recovery|recovery}} («відновлення»): повернення рушниці й голови під контроль після першого пострілу."
+    },
+    {
+      "k": "faults-pairs-transition-p2",
+      "t": "p",
+      "core": true,
+      "en": "The golden rule is 'eyes first, then the gun'. The eyes leave the broken first clay and find the second; the gun follows. A shooter who watches the first clay break, or swings the gun before finding the second, loses time. Coaches say 'eyes to the second' or simply point.",
+      "uk": "Золоте правило: «eyes first, then the gun» — «спершу очі, потім рушниця». Очі залишають розбиту першу мішень і знаходять другу, а рушниця йде за ними. Хто дивиться, як розлітається перша мішень, або рушає рушницею, ще не знайшовши другу, втрачає час. Тренер каже «eyes to the second» («очі — на другу») або просто показує рукою."
+    },
+    {
+      "k": "faults-pairs-transition-p3",
+      "t": "p",
+      "core": true,
+      "en": "Recovery: recoil lifts the muzzles and sometimes the head. 'Let the gun recover, then go' means: cheek back down and gun back on line before going after the second target. A good stance with the weight forward makes recovery faster.",
+      "uk": "Recovery: віддача підкидає стволи, а інколи й голову. «Let the gun recover, then go» означає: поверніть щоку на приклад і рушницю на лінію, а вже тоді йдіть до другої мішені. Правильна стійка з вагою на передній нозі пришвидшує відновлення."
+    },
+    {
+      "k": "faults-pairs-transition-p4",
+      "t": "p",
+      "core": true,
+      "en": "Planning: on a {{term:simultaneous-double|simultaneous pair}}, and on a {{term:rafale-double|rafale}} in {{tm:sporting}}, the shooter may take either target first. While reading such a pair, the shooter (in training, with the coach) decides which to take first and where to break it, so the second is easy to find. On a {{term:double-on-report|double on report}} the order is fixed: the call releases the first target, and the shot at it releases the second. Typical phrases: 'take the dropping one first', 'break the first early', 'stick to the plan'. A shooter who changes the planned order on the stand 'went for the wrong one'.",
+      "uk": "План: на {{term:simultaneous-double|одночасному дуплеті}}, а в {{tm:sporting}} ще й на {{term:rafale-double|рафалі}}, стрілець може брати мішені в будь-якому порядку. Читаючи такий дуплет, стрілець (на тренуванні — разом із тренером) вирішує, яку мішень брати першою і де її розбити, щоб другу було легко знайти. На {{term:double-on-report|дуплеті на постріл}} (on report) порядок заданий: команда запускає першу мішень, а постріл по ній — другу. Типові фрази: «take the dropping one first» («першою — ту, що падає»), «break the first early» («першу розбивайте рано»), «stick to the plan» («тримайтеся плану»). Хто на місці змінив запланований порядок, той «went for the wrong one» — «почав не з тієї».",
+      "disc": "both"
+    },
+    {
+      "k": "faults-pairs-transition-p5",
+      "t": "p",
+      "core": true,
+      "en": "Rules matter here. In {{tm:sporting}} the gun position is free between the two targets of any double. The shooter has two cartridges for a double, and both may go at the same target. In {{tm:compak}} only one cartridge per target is allowed in a double.",
+      "uk": "Тут важливі правила. У {{tm:sporting}} між двома мішенями будь-якого дуплета рушницю можна тримати як завгодно. На дуплет стрілець має два патрони, і обидва можна випустити по одній мішені. У {{tm:compak}} на дуплеті дозволено лише один патрон на кожну мішень.",
+      "disc": "both"
+    },
+    {
+      "k": "faults-pairs-transition-more",
+      "t": "tip",
+      "en": "The kinds of doubles and how they are thrown are in {{lesson:targets-singles-and-doubles}}; the rules for doubles are in {{lesson:rules-doubles}}.",
+      "uk": "Які бувають дуплети і як їх запускають — в уроці {{lesson:targets-singles-and-doubles}}; правила дуплетів — в уроці {{lesson:rules-doubles}}."
+    }
+  ],
+  "note": [
+    {
+      "k": "faults-pairs-transition-n1",
+      "for": "interpreter",
+      "en": "Do not explain penalties yourself: translate the coach and leave rule questions to the referee.",
+      "uk": "Про штрафи від себе не пояснюйте: перекладайте тренера, а питання правил залиште судді."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "faults-pairs-transition-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Eyes first to the second bird, then the gun.",
+      "meaning": {
+        "en": "Find the second target with the eyes before moving the gun.",
+        "uk": "Спершу знайти другу мішень очима, а вже потім рушати рушницею."
+      },
+      "say": {
+        "uk": "Спершу очі на другу мішень, потім рушниця."
+      }
+    },
+    {
+      "k": "faults-pairs-transition-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Let the gun recover, then go to the second.",
+      "meaning": {
+        "en": "After the recoil, settle gun and cheek before the second shot.",
+        "uk": "Після віддачі повернути рушницю й щоку на місце, а тоді другий постріл."
+      },
+      "say": {
+        "uk": "Дайте рушниці відновитися — потім на другу."
+      }
+    },
+    {
+      "k": "faults-pairs-transition-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Take the dropping one first.",
+      "meaning": {
+        "en": "Shoot first the target that will disappear or fall soonest.",
+        "uk": "Першою стріляти мішень, яка найшвидше впаде чи зникне."
+      },
+      "say": {
+        "uk": "Першою беріть ту, що падає."
+      }
+    },
+    {
+      "k": "faults-pairs-transition-ph4",
+      "speaker": "coach",
+      "core": true,
+      "en": "Don't watch the first one break.",
+      "meaning": {
+        "en": "Move the eyes on to the second target at once.",
+        "uk": "Одразу переводити погляд на другу мішень."
+      },
+      "say": {
+        "uk": "Не дивіться, як розлітається перша."
+      }
+    },
+    {
+      "k": "faults-pairs-transition-ph5",
+      "speaker": "coach",
+      "core": true,
+      "en": "You went for the wrong one first, stick to the plan.",
+      "meaning": {
+        "en": "The shooter changed the planned order of a pair whose order is free; a technique remark, not a rule breach.",
+        "uk": "Стрілець змінив запланований порядок на дуплеті з вільним порядком; це зауваження щодо техніки, а не порушення правил."
+      },
+      "say": {
+        "uk": "Ви почали не з тієї — тримайтеся плану."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "faults-pairs-transition-kp1",
+      "core": true,
+      "en": "Eyes first, then the gun.",
+      "uk": "Спершу очі, потім рушниця."
+    },
+    {
+      "k": "faults-pairs-transition-kp2",
+      "core": true,
+      "en": "Recovery: cheek back on the stock and gun on line before the second target.",
+      "uk": "Відновлення: щока на прикладі й рушниця на лінії — і лише тоді друга мішень."
+    },
+    {
+      "k": "faults-pairs-transition-kp3",
+      "core": true,
+      "en": "Plan the order and break points while reading the pair (in training, with your coach).",
+      "uk": "Порядок і точки пострілу дуплета плануйте, коли читаєте мішені (на тренуванні — разом із тренером)."
+    },
+    {
+      "k": "faults-pairs-transition-kp4",
+      "core": true,
+      "en": "{{tm:sporting}}: free gun position between the targets, and both cartridges may go at one target; {{tm:compak}}: one cartridge per target.",
+      "uk": "{{tm:sporting}}: між мішенями рушниця в довільному положенні, обидва патрони можна по одній мішені; {{tm:compak}}: один патрон на мішень."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "faults-pairs-transition-q1",
+      "q": {
+        "en": "What does 'eyes first, then the gun' mean on a pair?",
+        "uk": "Що означає «eyes first, then the gun» на дуплеті?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Close the eyes after the first shot",
+          "uk": "Заплющити очі після першого пострілу"
+        },
+        {
+          "k": "b",
+          "en": "Look at the barrel before the second shot",
+          "uk": "Глянути на ствол перед другим пострілом"
+        },
+        {
+          "k": "c",
+          "en": "Mount the gun before calling for the pair",
+          "uk": "Вкласти рушницю до команди на дуплет"
+        },
+        {
+          "k": "d",
+          "en": "Find the second target with the eyes first",
+          "uk": "Спершу знайти другу мішень очима"
+        }
+      ],
+      "correct": "d",
+      "explain": {
+        "en": "In a good transition the eyes lead and the gun follows.",
+        "uk": "У правильному переході ведуть очі, а рушниця йде за ними."
+      }
+    },
+    {
+      "k": "faults-pairs-transition-q2",
+      "q": {
+        "en": "In a {{tm:compak}} double, the shooter misses the first target and wants to fire the second cartridge at it too. Is that allowed?",
+        "uk": "На дуплеті {{tm:compak}} стрілець промахнувся по першій мішені й хоче випустити по ній і другий патрон. Чи можна?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, the same as in {{tm:sporting}}",
+          "uk": "Так, так само, як у {{tm:sporting}}"
+        },
+        {
+          "k": "b",
+          "en": "Yes, but only on a simultaneous double",
+          "uk": "Так, але лише на дуплеті simultaneous"
+        },
+        {
+          "k": "c",
+          "en": "No: only one cartridge per target",
+          "uk": "Ні: лише один патрон на мішень"
+        },
+        {
+          "k": "d",
+          "en": "Only with the referee's permission",
+          "uk": "Лише з дозволу судді"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "{{tm:compak}} forbids doubling the first target in a double; {{tm:sporting}} allows both cartridges at one target.",
+        "uk": "{{tm:compak}} забороняє стріляти двічі по першій мішені дуплета; {{tm:sporting}} дозволяє обидва патрони по одній мішені."
+      },
+      "disc": "compak",
+      "rule_ref": "compak:ch3-one-cartridge-per-target"
+    },
+    {
+      "k": "faults-pairs-transition-q3",
+      "q": {
+        "en": "In a {{tm:sporting}} double, may the shooter lower the gun between the first and the second target?",
+        "uk": "Чи може стрілець у дуплеті {{tm:sporting}} опустити рушницю між першою і другою мішенню?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Yes, it is free between the two targets",
+          "uk": "Так, між двома мішенями воно довільне"
+        },
+        {
+          "k": "b",
+          "en": "No, the gun must stay at the shoulder",
+          "uk": "Ні, рушниця має лишатися на плечі"
+        },
+        {
+          "k": "c",
+          "en": "Only on a double on report",
+          "uk": "Лише на дуплеті on report"
+        },
+        {
+          "k": "d",
+          "en": "Only if the referee allows it",
+          "uk": "Лише з дозволу судді"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "The free position applies between the targets of any double, but not before the first one.",
+        "uk": "Довільне положення діє між мішенями будь-якого дуплета, але не перед першою."
+      },
+      "disc": "sporting",
+      "rule_ref": "sporting:ch3-between-doubles"
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "8b43bcd2",
+    "summary": "0199fab1",
+    "faults-pairs-transition-p1": "a6e60e5e",
+    "faults-pairs-transition-p2": "6e90a1bf",
+    "faults-pairs-transition-p3": "dc130651",
+    "faults-pairs-transition-p4": "e93dbcab",
+    "faults-pairs-transition-p5": "b9a99144",
+    "faults-pairs-transition-more": "a3cfaaa7",
+    "faults-pairs-transition-n1": "f4a97cb3",
+    "faults-pairs-transition-kp1": "81c2480b",
+    "faults-pairs-transition-kp2": "6230ceb3",
+    "faults-pairs-transition-kp3": "7f6e324c",
+    "faults-pairs-transition-kp4": "70a5f7bc",
+    "faults-pairs-transition-ph1": "d2704c99",
+    "faults-pairs-transition-ph2": "290f4272",
+    "faults-pairs-transition-ph3": "90c33e64",
+    "faults-pairs-transition-ph4": "68476043",
+    "faults-pairs-transition-ph5": "115367ec",
+    "faults-pairs-transition-q1": "c73e5b4d",
+    "faults-pairs-transition-q2": "d89d53c0",
+    "faults-pairs-transition-q3": "1925a304"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Overlays i18n/<lang>/faults-pairs-transition.json (9 languages): translate again (meaning or audit fix changed): faults-pairs-transition-p5, faults-pairs-transition-q1, faults-pairs-transition-q2, faults-pairs-transition-q3.",
+      "Review round 2 (2026-10-07), overlays i18n/<lang>/faults-pairs-transition.json (9 languages): translate again (meaning or wording changed for readers): faults-pairs-transition-p1, faults-pairs-transition-p4, faults-pairs-transition-kp3, faults-pairs-transition-ph5.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in faults-pairs-transition-p5, faults-pairs-transition-kp4, faults-pairs-transition-q2, faults-pairs-transition-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

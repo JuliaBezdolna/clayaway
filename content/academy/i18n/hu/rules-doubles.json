@@ -1,0 +1,226 @@
+{
+  "id": "rules-doubles",
+  "lang": "hu",
+  "base_rev": 1,
+  "h": {
+    "title": "bf6d3d5f",
+    "summary": "dfdb2ad6",
+    "rules-doubles-p1": "f5cf641d",
+    "sporting-singles-doubles-p1": "b6444c9c",
+    "rules-doubles-p2": "c6919899",
+    "rules-doubles-cmp1": "350fd347",
+    "sporting-singles-doubles-p2": "5a56411c",
+    "rules-doubles-cmp2": "24dc2faf",
+    "rules-doubles-accidental": "2cbe5f9a",
+    "rules-doubles-cmp3": "0437dae8",
+    "rules-doubles-cmp4": "2d15fb86",
+    "sporting-singles-doubles-p4": "88696d63",
+    "rules-doubles-p7": "5bdcbd0b",
+    "sporting-singles-doubles-sim": "da39a3ee",
+    "compak-singles-doubles-sim": "da39a3ee",
+    "compak-singles-doubles-p1": "329c4e29",
+    "sporting-singles-doubles-p5": "4b1860bf",
+    "sporting-singles-doubles-ph1": "934fba36",
+    "sporting-singles-doubles-ph2": "c178e9f1",
+    "sporting-singles-doubles-ph3": "ca41eb94",
+    "sporting-singles-doubles-ph4": "95a6f236",
+    "compak-singles-doubles-ph1": "70594be5",
+    "compak-singles-doubles-ph2": "188b25c7",
+    "compak-singles-doubles-ph3": "56ec4bfd",
+    "compak-singles-doubles-ph4": "806b2e03",
+    "rules-doubles-kp1": "db855605",
+    "sporting-singles-doubles-kp2": "322f41a9",
+    "compak-singles-doubles-kp2": "dce8c621",
+    "compak-singles-doubles-kp1": "77c28c5b",
+    "sporting-singles-doubles-kp3": "7de76b48",
+    "rules-doubles-dyk": "c0b4d4b3",
+    "rules-doubles-q1": "5a5e9eaa",
+    "rules-doubles-q2": "ab4333ed",
+    "rules-doubles-q3": "783fc72a",
+    "sporting-singles-doubles-q1": "12970eeb",
+    "sporting-singles-doubles-q2": "507f2951",
+    "sporting-singles-doubles-q3": "d1d794df",
+    "compak-singles-doubles-q1": "c458b419",
+    "compak-singles-doubles-q2": "afbfdbad",
+    "compak-singles-doubles-q3": "04513eaa",
+    "rules-doubles-q4": "0493a8c2"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "body": {
+    "rules-doubles-p1": "Egy {{term:double|dublé}} két korong, amelyet egy kérésre lősz. Mindkét versenyszámban van vadászdublé és szimultán dublé; csak a {{tm:sporting}}-ban van rafale is. Néhány pontozási szabály eltér. Amikor egy dublé mindkét korongját mellőlövésnek értékelik, ezt {{term:zero-zero|nulla-nullának}} (zero-zero) hívják.",
+    "sporting-singles-doubles-p1": "Először a szóló korongokról. Mindkét versenyszámban két patront lőhetsz egy {{term:single-target|szóló korongra}}, így az első cső mellőlövését még a második mentheti. A lőpályának időt kell hagynia két lövésre minden szóló korongon.",
+    "rules-doubles-p2": "Egy {{term:double-on-report|vadászdublénál}} a kérésed elindítja az első korongot, a rálőtt lövésed pedig a második korongot. Egy {{term:simultaneous-double|szimultán dublénál}} mindkét korong egyszerre indul, és bármelyik sorrendben lőheted őket.",
+    "rules-doubles-cmp1": {
+      "sporting": "Három fajta: vadászdublé, szimultán (egy vagy két dobógépből) és {{term:rafale-double|rafale}}. Egy rafalénál két korong ugyanabból a dobógépből indul, ugyanazon a vonalon, egymás után.",
+      "compak": "Két fajta: vadászdublé és szimultán. Egy szimultán dublé két különböző dobógépből jön. Rafale nincs."
+    },
+    "sporting-singles-doubles-p2": "A {{tm:sporting}}-ban a vadászdublé második korongja 0–3 másodperccel az első korongra leadott lövésed után indul. Rafalénál akkor jön, amint a dobógép újratöltött. Egy dublé csak olyan korongokat használ, amelyeket már szólóként kidobtak azon a lőálláson, így láttad is repülni őket.",
+    "rules-doubles-cmp2": {
+      "sporting": "Két patron az egész dublére, és mindkettő mehet egy korongra.",
+      "compak": "Egy patron minden korongra. Mindkettőt az első korongra lőni nem megengedett; szándékos esetben nulla-nulla."
+    },
+    "rules-doubles-accidental": "Mindkét cső véletlen egyszerre sülése nem szándékos dupla lövés: ez fegyverhiba, {{term:double-discharge|beduplázás}}. Hogyan pontozzák: {{lesson:rules-malfunctions}}.",
+    "rules-doubles-cmp3": {
+      "sporting": "Amikor a saját lövésed magában mindkét korongot eltöri, mindkettő számít: „one” és „one”, bármelyik dublétípusnál. Vadászdublénál előfordulhat, hogy az első korong vagy annak darabjai a második lövésed előtt szétrobbantják a másodikat. Ez No Bird: a dublét megismétlik, és az első eredményt megtartják.",
+      "compak": "Vadászdublénál: az első eredmény megmarad, a második No Bird, és a dublét újra lövik. Szimultánnál: No Bird, újra lövöd a dublét; ha harmadszor is megtörténik, mindkét korongot nullának értékelik."
+    },
+    "rules-doubles-cmp4": {
+      "sporting": "Nincs lövés egy szimultán vagy rafale dublére megalapozott ok nélkül: nulla-nulla. Vadászdublénál, ha nem lősz az első korongra, azt nullának értékelik, és a dublét újra kidobják, hogy lőhess a másodikra (bírói gyorsútmutató).",
+      "compak": "Egy szimultán dublé visszautasítása: nulla-nulla. Vadászdublénál: egy visszautasított első korong nulla; a dublét újra kidobják, hogy lőhess a másodikra, és csak azt értékelik."
+    },
+    "sporting-singles-doubles-p4": "Egy szabálytalan korong az, amelyre a bíró No Birdet mond, például törötten kijövő, a vonaláról letérő vagy rossz dobógépből érkező korong ({{lesson:rules-hit-and-no-bird}}). Egy vadászdublénál a szabálytalan első korong azt jelenti, hogy az egész dublét megismétlik. Ha a második korong szabálytalan, újra lövöd a dublét, és az első eredményedet megtartják. Ugyanez érvényes, ha az első korong vagy annak darabjai a második lövésed előtt eltörik a másodikat. Egy szimultán dublénál, és a {{tm:sporting}}-ban egy rafalénál, egy szabálytalan korong zárás nélküli ismétlést jelent. Más eset, amikor egy lövés mindkét korongot eltöri: lásd fent.",
+    "rules-doubles-p7": "Figyeld a bemutatást, és olvasd ki a lőállás {{term:target-menu|kottáját}}, hogy tudd, milyen dublék jönnek. Sok edző azt javasolja, hogy a korong kérése előtt válaszd ki egy szimultán dublé sorrendjét.",
+    "sporting-singles-doubles-sim": "",
+    "compak-singles-doubles-sim": ""
+  },
+  "note": {
+    "compak-singles-doubles-p1": "A {{tm:compak}} ugyanazokat a neveket használja a vadászdublékra és a szimultán dublékra, mint a {{tm:sporting}} (rafaléja nincs), de a dublé-szabályai eltérnek. Egy tolmács, aki a {{tm:sporting}} szabályait hozza ide, hibás válaszokat ad.",
+    "sporting-singles-doubles-p5": "Add tovább egy dublé eredményét párban, abban a sorrendben, amelyben a bíró mondta."
+  },
+  "phrases": {
+    "sporting-singles-doubles-ph1": {
+      "meaning": "Edző: a második korongot az elsőre leadott lövés indítja.",
+      "say": "Vadászdublé: a második a lövésedre jön."
+    },
+    "sporting-singles-doubles-ph2": {
+      "meaning": "Edző: egy rafale dublénál a sorrend szabad.",
+      "say": "A rafalén bármelyiket lőheted előbb."
+    },
+    "sporting-singles-doubles-ph3": {
+      "meaning": "Bíró: a dublé mindkét korongja találat.",
+      "say": "Egy és egy."
+    },
+    "sporting-singles-doubles-ph4": {
+      "meaning": "Szabálytalan korong; a dublét újra dobják.",
+      "say": "No bird, ismételjük a dublét."
+    },
+    "compak-singles-doubles-ph1": {
+      "meaning": "Edző: a {{tm:compak}}-ban a dublé minden korongjára csak egy patron jár.",
+      "say": "Itt a dubléknál korongonként egy lövés."
+    },
+    "compak-singles-doubles-ph2": {
+      "meaning": "Bíró szimultán dublénál: semmit nem értékelnek, ismétlés.",
+      "say": "Mindkettő egy lövéssel. „No bird”, lődd újra a dublét."
+    },
+    "compak-singles-doubles-ph3": {
+      "meaning": "Edző: a bemutatás közben döntsd el, melyik szimultán korongot lövöd először.",
+      "say": "A bemutatáson válaszd ki a sorrendet."
+    },
+    "compak-singles-doubles-ph4": {
+      "meaning": "Bíró: a dublé egyik korongja sem találat.",
+      "say": "Nulla, nulla."
+    }
+  },
+  "key_points": {
+    "rules-doubles-kp1": "Vadászdublénál a második korongot a lövésed indítja el az elsőre.",
+    "sporting-singles-doubles-kp2": "{{tm:sporting}}: két patron a dublére, és mindkettő mehet egy korongra; fajtái a vadász-, a szimultán és a rafale dublé.",
+    "compak-singles-doubles-kp2": "{{tm:compak}}: egy patron minden korongra; a szándékos két lövés egy korongra nulla-nulla.",
+    "compak-singles-doubles-kp1": "A {{tm:compak}}-ban kétféle dublé van, vadász- és szimultán; a rafale csak a {{tm:sporting}}-ban létezik.",
+    "sporting-singles-doubles-kp3": "Egy lövés mindkét korongot eltöri: a {{tm:sporting}} one-t és one-t ad; a {{tm:compak}}-ban a dublét újra lövik."
+  },
+  "quiz": {
+    "rules-doubles-q1": {
+      "q": "Mi indítja el a második korongot egy vadászdublénál?",
+      "options": {
+        "a": "A lövés az első korongra",
+        "b": "A lövész második kérése",
+        "c": "A bíró, kézzel"
+      },
+      "explain": "A kérés indítja el az első korongot, és a rálőtt lövés a másodikat."
+    },
+    "rules-doubles-q2": {
+      "q": "A {{tm:compak}}-ban kilőheted-e mindkét patront a dublé első korongjára?",
+      "options": {
+        "a": "Igen, mint a {{tm:sporting}}-ban",
+        "b": "Csak szimultán dublénál",
+        "c": "Nem, egy patron minden korongra"
+      },
+      "explain": "A {{tm:compak}}-ban egy patron jár minden korongra, és a szándékos két lövés egy korongra nulla-nulla; a {{tm:sporting}}-ban mindkettő mehet egy korongra."
+    },
+    "rules-doubles-q3": {
+      "q": "A {{tm:sporting}}-ban egy lövés eltöri a dublé mindkét korongját. Hogyan pontozzák?",
+      "options": {
+        "a": "Nulla és No Bird",
+        "b": "One és one",
+        "c": "No Bird, újra lövik"
+      },
+      "explain": "A {{tm:sporting}}-ban mindkét korong számít; a {{tm:compak}}-ban más a szabály."
+    },
+    "sporting-singles-doubles-q1": {
+      "q": "{{tm:sporting}}, szimultán dublé. A lövész elhibázza az egyik korongot az első lövéssel, a második patront is arra lövi, és eltalálja. A másik korong tovább repül. Döntés?",
+      "options": {
+        "a": "One és nulla",
+        "b": "Nulla és nulla",
+        "c": "No Bird, a dublét megismétlik",
+        "d": "One és No Bird"
+      },
+      "explain": "A {{tm:sporting}}-ban a dublé mindkét patronja mehet egy korongra, így az eltalált korong „one”, a másik „nulla”. A {{tm:compak}}-ban a szándékos két lövés egy korongra nulla-nulla."
+    },
+    "sporting-singles-doubles-q2": {
+      "q": "{{tm:sporting}}, vadászdublé. A lövész eltalálja az első korongot, és egy darabja a második lövés előtt szétrobbantja a másodikat. Döntés?",
+      "options": {
+        "a": "One és one",
+        "b": "Megismétlik, az első eredményt megtartják",
+        "c": "Nulla a második korongra",
+        "d": "One és nulla"
+      },
+      "explain": "Amikor az első korong vagy annak darabjai a második lövés előtt eltörik a másodikat, a dublét megismétlik, és az első eredmény érvényben marad."
+    },
+    "sporting-singles-doubles-q3": {
+      "q": "{{tm:sporting}}, rafale dublé. Mindkét korong szabályosan repül, de a lövész leereszti a fegyvert, és egyikre sem lő, megalapozott ok nélkül. Döntés?",
+      "options": {
+        "a": "No Bird",
+        "b": "Nulla és No Bird",
+        "c": "Csak sárga lap",
+        "d": "Nulla és nulla"
+      },
+      "explain": "Egy szabályos korong, amelyre megalapozott ok nélkül nem lősz, mellőlövésnek számít; rafalénál vagy szimultán dublénál ez nulla és nulla."
+    },
+    "compak-singles-doubles-q1": {
+      "q": "Szimultán dublé a {{tm:compak}}-ban. Egy lövés mindkét korongot eltöri; ez most fordul elő először. Döntés?",
+      "options": {
+        "a": "One és one",
+        "b": "No Bird, újra lövik",
+        "c": "One és No Bird",
+        "d": "Nulla és nulla"
+      },
+      "explain": "A {{tm:compak}}-ban egy lövéssel eltört szimultán dublé első és második alkalommal No Bird, harmadszor nulla és nulla."
+    },
+    "compak-singles-doubles-q2": {
+      "q": "Vadászdublé a {{tm:compak}}-ban. Egy lövés mindkét korongot eltöri. Döntés?",
+      "options": {
+        "a": "One és one, mindkettő számít",
+        "b": "Nulla és nulla mindkettőre",
+        "c": "Az első eredmény megmarad; a dublét megismétlik",
+        "d": "No Bird, semmit nem értékelnek"
+      },
+      "explain": "Egy vadászdublénál az első korong eredményét feljegyzik, a második No Bird, és a dublét újra lövik, hogy értékelhessék."
+    },
+    "compak-singles-doubles-q3": {
+      "q": "{{tm:compak}}, vadászdublé. Az első korong szabályosan repül, de a lövész nem lő rá. Döntés?",
+      "options": {
+        "a": "Az első nulla, a dublét a második miatt megismétlik",
+        "b": "Nulla és nulla a dublére",
+        "c": "No Bird, a dublét újra kidobják",
+        "d": "Nulla, és a második korongot már nem lövik"
+      },
+      "explain": "Ha nem lősz egy szabályosan kidobott első korongra, az nulla. A dublét ezután újra kidobják, hogy a második korongot értékelhessék (bírói gyorsútmutató)."
+    },
+    "rules-doubles-q4": {
+      "q": "A {{tm:compak}}-ban a dublé első korongjánál mindkét cső véletlenül egyszerre süt el. Ez a kör első fegyverproblémája. Mi ez?",
+      "options": {
+        "a": "Fegyverhiba: No Bird, új dublé",
+        "b": "Szándékos dupla lövés: nulla-nulla",
+        "c": "One és nulla"
+      },
+      "explain": "A véletlen beduplázás hibás működés, nem szándékos dupla lövés; nulla-nulla csak a szándékos két lövésre jár egy korongra."
+    }
+  },
+  "title": "Dublék: hogyan lövik és pontozzák őket",
+  "summary": "A dublék típusai a {{tm:sporting}}-ban és a {{tm:compak}}-ban, hány patront lőhetsz minden korongra, és mi történik, ha egy lövés mindkettőt eltöri.",
+  "did_you_know": "A {{tm:compak}}-ban minden lőállás dubléja az előző lőállás utolsó korongjával kezdődik."
+}

@@ -1,0 +1,397 @@
+{
+  "id": "targets-menu",
+  "rev": 3,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "interpreter"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "docs/rules/data: sporting 01/01/2025, compak 01/01/2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": [
+      "targets-menu"
+    ]
+  },
+  "terms": [
+    "target-menu",
+    "layout",
+    "single-target",
+    "double",
+    "double-on-report",
+    "simultaneous-double",
+    "rafale-double",
+    "trajectory-setting-table"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch2-target-menu"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-traps-table"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-doubles-composition"
+    },
+    {
+      "book": "sporting",
+      "id": "ch2-doubles-three-traps"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-singles-then-doubles"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-double-on-report"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-simultaneous-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-rafale-double"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-menu"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-round-combinations"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-double-chain"
+    },
+    {
+      "book": "compak",
+      "id": "ch17-annex3-tables"
+    }
+  ],
+  "facts": [
+    "targets.sporting-menu-special-targets",
+    "targets.sporting-layout-targets",
+    "targets.compak-station-menus",
+    "targets.compak-double-chain",
+    "targets.compak-setting-tables"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Reading the target menu",
+    "uk": "Як читати меню мішеней"
+  },
+  "summary": {
+    "en": "How to read the target menu at a {{tm:sporting}} stand and a {{tm:compak}} station: the order of traps, special targets and the type of each double.",
+    "uk": "Як читати меню мішеней на стрілецькому місці {{tm:sporting}} і на номері {{tm:compak}}: порядок машинок, особливі мішені й тип кожного дуплета."
+  },
+  "body": [
+    {
+      "k": "targets-menu-p1",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "The {{term:target-menu|target menu}} is the board at the stand that tells the shooter what is coming: which traps, in what order, and what kind of doubles.",
+      "uk": "{{term:target-menu|Меню мішеней}} (target menu) — табличка на стрілецькому місці, яка каже стрільцеві, що на нього чекає: які машинки, у якому порядку і які дуплети."
+    },
+    {
+      "k": "targets-menu-p2",
+      "t": "rule",
+      "core": true,
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-target-menu",
+      "en": "In {{tm:sporting}} the menu lists the traps in shooting order and must name any special targets: {{fact:targets.sporting-menu-special-targets}}. Referees check beforehand that the traps match the menu. A layout gives {{fact:targets.sporting-layout-targets}}. The doubles may only use targets already shown as singles from the same stand, and the squad shoots the singles first.",
+      "uk": "У {{tm:sporting}} меню перелічує машинки в порядку стрільби й обов’язково називає особливі мішені: {{fact:targets.sporting-menu-special-targets}}. Перед змаганнями судді перевіряють, чи машинки відповідають меню. Майданчик дає {{fact:targets.sporting-layout-targets}}. Дуплети складають лише з мішеней, які вже показали як одиночні з того самого місця, і група спершу стріляє одиночні."
+    },
+    {
+      "k": "targets-menu-p3",
+      "t": "p",
+      "core": true,
+      "disc": "both",
+      "en": "Each double is marked with its type. {{term:double-on-report|On report}}: the second target leaves on the sound of the first shot. {{term:simultaneous-double|Simultaneous}}: both targets leave together. {{term:rafale-double|Rafale}}: two targets from the same trap, one after the other, in {{tm:sporting}} only. Menus look different from ground to ground, so read the words, not just the letters.",
+      "uk": "Кожен дуплет позначають за типом. {{term:double-on-report|Дуплет на постріл}} (on report): друга мішень вилітає на звук першого пострілу. {{term:simultaneous-double|Одночасний дуплет}} (simultaneous): обидві мішені вилітають разом. {{term:rafale-double|Рафаль}} (rafale): дві мішені з однієї машинки одна за одною — лише в {{tm:sporting}}. Меню на різних стрільбищах виглядають по-різному, тож читайте слова, а не лише літери."
+    },
+    {
+      "k": "targets-menu-ex1",
+      "t": "tip",
+      "disc": "sporting",
+      "rule_ref": "sporting:ch2-doubles-three-traps",
+      "en": "Example: on a line of 4 stands, one stand has only 3 traps, and 3 singles and 2 doubles are shot there. Its menu might read: singles A, B, C, then a simultaneous double A + B and a rafale C + C (the letters are traps). On this stand at least one double must be simultaneous or rafale: two doubles on report are not allowed ({{rule:sporting:ch2-doubles-three-traps}}).",
+      "uk": "Приклад: на лінії з 4 місць одне місце має лише 3 машинки, і на ньому стріляють 3 одиночні й 2 дуплети. Його меню може бути таким: одиночні A, B, C, потім одночасний дуплет A + B і рафаль C + C (літери — це машинки). На такому місці щонайменше один дуплет має бути одночасним або рафалем: два дуплети на постріл не дозволені ({{rule:sporting:ch2-doubles-three-traps}})."
+    },
+    {
+      "k": "targets-menu-p4",
+      "t": "rule",
+      "core": true,
+      "disc": "compak",
+      "rule_ref": "compak:ch17-menu",
+      "en": "In {{tm:compak}} a menu is posted at each of the five stations. Each station has five targets, in one of three mixes: {{fact:targets.compak-station-menus}}. The singles may come from the traps in any order. All five stations have the same kind of double, and the stations are linked in a chain: {{fact:targets.compak-double-chain}}. For competitions FITASC offers {{fact:targets.compak-setting-tables}}.",
+      "uk": "У {{tm:compak}} меню вивішено на кожному з п’яти номерів. На кожному номері п’ять мішеней за одним із трьох варіантів: {{fact:targets.compak-station-menus}}. Одиночні можуть іти з машинок у будь-якому порядку. На всіх п’яти номерах дуплети одного виду, а номери зв’язані в ланцюжок: {{fact:targets.compak-double-chain}}. Для змагань FITASC пропонує {{fact:targets.compak-setting-tables}}."
+    },
+    {
+      "k": "targets-menu-tip1",
+      "t": "tip",
+      "disc": "compak",
+      "en": "Before stepping onto a {{tm:compak}} station, many shooters say its menu quietly to themselves: “A, then F, then B, then C and E on report.” This can help them remember the order.",
+      "uk": "Перш ніж стати на номер {{tm:compak}}, багато стрільців тихо проговорюють його меню: «A, потім F, потім B, потім C і E на постріл». Це може допомогти запам’ятати порядок."
+    }
+  ],
+  "note": [
+    {
+      "k": "targets-menu-n1",
+      "for": "interpreter",
+      "en": "Shooters really say “menu”, so keep the word when you translate.",
+      "uk": "Стрільці справді кажуть «меню», тож лишайте це слово."
+    },
+    {
+      "k": "targets-menu-p5",
+      "for": "interpreter",
+      "en": "Before your shooter steps up, read the menu aloud to them in their language, letter by letter: 'A, then F, then B, then the pair C and E on report.'",
+      "uk": "Перш ніж ваш стрілець стане на номер, прочитайте йому меню вголос його мовою, літера за літерою: «A, потім F, потім B, потім дуплет C і E на постріл»."
+    }
+  ],
+  "phrases": [
+    {
+      "k": "targets-menu-ph1",
+      "speaker": "coach",
+      "core": true,
+      "en": "Read the menu: on station three you have A, then F, then B, then the pair C and E on report.",
+      "meaning": {
+        "en": "Station 3: three singles, then a double on report; five targets in all.",
+        "uk": "Третій номер: три одиночні, потім дуплет на постріл; разом п’ять мішеней."
+      },
+      "say": {
+        "uk": "Прочитайте меню: на третьому номері A, потім F, потім B, потім дуплет C–E на постріл."
+      }
+    },
+    {
+      "k": "targets-menu-ph2",
+      "speaker": "coach",
+      "core": true,
+      "en": "Same traps, new menu — don't shoot from memory.",
+      "meaning": {
+        "en": "The order has changed since the last round.",
+        "uk": "Порядок змінився з минулого раунду."
+      },
+      "say": {
+        "uk": "Машинки ті самі, меню нове, — не стріляйте з пам’яті."
+      }
+    },
+    {
+      "k": "targets-menu-ph3",
+      "speaker": "coach",
+      "core": true,
+      "en": "Three singles, then a simo pair.",
+      "meaning": {
+        "en": "'Simo' is short for a simultaneous double.",
+        "uk": "«Simo» — скорочення від одночасного дуплета."
+      },
+      "say": {
+        "uk": "Три одиночні, потім одночасний дуплет."
+      }
+    }
+  ],
+  "key_points": [
+    {
+      "k": "targets-menu-kp1",
+      "core": true,
+      "en": "Read the menu before you step up: trap order, special targets, type of each double.",
+      "uk": "Прочитайте меню, перш ніж стати на місце: порядок машинок, особливі мішені, тип кожного дуплета.",
+      "checklist": true
+    },
+    {
+      "k": "targets-menu-kp2",
+      "core": true,
+      "en": "{{tm:sporting}} menu: traps in order plus special targets ({{fact:targets.sporting-menu-special-targets}}).",
+      "uk": "Меню {{tm:sporting}}: машинки по черзі плюс особливі мішені ({{fact:targets.sporting-menu-special-targets}})."
+    },
+    {
+      "k": "targets-menu-kp3",
+      "core": true,
+      "en": "A {{tm:sporting}} layout gives {{fact:targets.sporting-layout-targets}}; doubles use targets already shown as singles; singles first.",
+      "uk": "Майданчик {{tm:sporting}} дає {{fact:targets.sporting-layout-targets}}; дуплети — з уже показаних одиночних; спершу одиночні."
+    },
+    {
+      "k": "targets-menu-kp4",
+      "core": true,
+      "en": "Doubles: on report, simultaneous, rafale ({{tm:sporting}} only).",
+      "uk": "Дуплети: на постріл, одночасний, рафаль (лише {{tm:sporting}})."
+    },
+    {
+      "k": "targets-menu-kp5",
+      "core": true,
+      "en": "{{tm:compak}}: five targets per station, same double type on all stations, each double starts with the previous station's last target.",
+      "uk": "{{tm:compak}}: п’ять мішеней на номер, один тип дуплета на всіх номерах, дуплет починається з останньої мішені попереднього номера."
+    }
+  ],
+  "did_you_know": null,
+  "quiz": [
+    {
+      "k": "targets-menu-q1",
+      "q": {
+        "en": "Which special targets must a {{tm:sporting}} menu show?",
+        "uk": "Які особливі мішені обов’язково називає меню {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Only the colours of the targets",
+          "uk": "Лише кольори мішеней"
+        },
+        {
+          "k": "b",
+          "en": "90 mm, 70 mm, 60 mm, battue or rabbit",
+          "uk": "90 мм, 70 мм, 60 мм, батю чи кролика"
+        },
+        {
+          "k": "c",
+          "en": "Only rabbits and battues",
+          "uk": "Лише кроликів і батю"
+        },
+        {
+          "k": "d",
+          "en": "None; the referee announces them",
+          "uk": "Жодних, їх оголошує суддя"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "The menu must list the traps in order and any special target types.",
+        "uk": "Меню має перелічити машинки по черзі та всі особливі типи мішеней."
+      }
+    },
+    {
+      "k": "targets-menu-q2",
+      "q": {
+        "en": "In {{tm:compak}}, with which target does each double start?",
+        "uk": "З якої мішені в {{tm:compak}} починається кожен дуплет?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Always the target from trap A",
+          "uk": "Завжди з мішені машинки A"
+        },
+        {
+          "k": "b",
+          "en": "A new target that was not shown before",
+          "uk": "З нової мішені, якої ще не показували"
+        },
+        {
+          "k": "c",
+          "en": "The last target shot at the previous station",
+          "uk": "З останньої мішені попереднього номера"
+        },
+        {
+          "k": "d",
+          "en": "Any target the shooter chooses first",
+          "uk": "З будь-якої, яку стрілець обере першою"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "The doubles chain across stations: each begins with the last target of the station before.",
+        "uk": "Дуплети утворюють ланцюжок: кожен починається з останньої мішені попереднього номера."
+      }
+    },
+    {
+      "k": "targets-menu-q3",
+      "q": {
+        "en": "Which type of double exists only in {{tm:sporting}}?",
+        "uk": "Який тип дуплета є лише в {{tm:sporting}}?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Rafale",
+          "uk": "Рафаль"
+        },
+        {
+          "k": "b",
+          "en": "On report",
+          "uk": "На постріл"
+        },
+        {
+          "k": "c",
+          "en": "Simultaneous",
+          "uk": "Одночасний"
+        },
+        {
+          "k": "d",
+          "en": "None",
+          "uk": "Жоден"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "{{tm:compak}} doubles are on report or simultaneous; rafale is a {{tm:sporting}} double.",
+        "uk": "У {{tm:compak}} дуплети на постріл або одночасні; рафаль — дуплет {{tm:sporting}}."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "744c4dd7",
+    "summary": "97cd40e7",
+    "targets-menu-p1": "3f14bae6",
+    "targets-menu-p2": "e79c6d7a",
+    "targets-menu-p3": "4c1f1230",
+    "targets-menu-ex1": "aa643ef1",
+    "targets-menu-p4": "8d8e6b9e",
+    "targets-menu-tip1": "225fbc0d",
+    "targets-menu-n1": "e810bd84",
+    "targets-menu-p5": "d09ec478",
+    "targets-menu-ph1": "bd4b48d5",
+    "targets-menu-ph2": "e9f0ce43",
+    "targets-menu-ph3": "012cd5f5",
+    "targets-menu-kp1": "46ec13eb",
+    "targets-menu-kp2": "ae9c7733",
+    "targets-menu-kp3": "dc3aa01c",
+    "targets-menu-kp4": "3008ddb0",
+    "targets-menu-kp5": "f1caa6ca",
+    "targets-menu-q1": "c3048623",
+    "targets-menu-q2": "5bf0bf71",
+    "targets-menu-q3": "312040f0"
+  },
+  "todo": {
+    "tasks": [
+      "Overlays (9 languages): English changed, re-translate and re-hash: targets-menu-p1, targets-menu-p2, targets-menu-p3, targets-menu-p4, targets-menu-kp1, targets-menu-kp2, targets-menu-kp3, targets-menu-q2.",
+      "Overlays: move ov.body[k] to ov.note[k] (paragraph became an interpreter note): targets-menu-p5.",
+      "Overlays (9 languages): English changed by the TGT review fixes (2026-10-07), re-translate and re-hash: targets-menu-ex1, targets-menu-p4.",
+      "Overlays (9 languages), trade-mark tokens of 2026-10-07: in targets-menu-kp2, targets-menu-kp3, targets-menu-kp4, targets-menu-kp5, targets-menu-q1, targets-menu-q2, targets-menu-q3 the written-out names Parcours de Chasse – Sporting™ / Sporting™ / Compak® Sporting were replaced by {{tm:sporting}} / {{tm:compak}} (and «Compak» as the noun for one field lost its ®). Only the form changed: keep the names as they are in the translations and re-sign the hash."
+    ]
+  }
+}

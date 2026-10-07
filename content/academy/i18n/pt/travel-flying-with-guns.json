@@ -1,0 +1,90 @@
+{
+  "id": "travel-flying-with-guns",
+  "lang": "pt",
+  "base_rev": 2,
+  "h": {
+    "title": "3c25034e",
+    "summary": "e4f9ad92",
+    "travel-flying-with-guns-p1": "01a54b09",
+    "travel-flying-with-guns-p2": "14f74903",
+    "travel-flying-with-guns-p3": "4b9ad99e",
+    "travel-flying-with-guns-p4": "6ce48786",
+    "travel-flying-with-guns-p7": "505685a2",
+    "travel-flying-with-guns-p5": "ce139713",
+    "travel-flying-with-guns-p6": "a96493cb",
+    "travel-flying-with-guns-kp1": "c19a4a66",
+    "travel-flying-with-guns-kp2": "9fffee64",
+    "travel-flying-with-guns-kp3": "04d953d9",
+    "travel-flying-with-guns-kp4": "daf9a6ab",
+    "travel-flying-with-guns-kp5": "3fab2e88",
+    "travel-flying-with-guns-dyk": "dbdfe495",
+    "travel-flying-with-guns-q1": "d933ed06",
+    "gun-transport-documents-q3": "cb2be92c",
+    "travel-flying-with-guns-q3": "a062b945",
+    "travel-flying-with-guns-q2": "1866728e"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
+  "title": "Viajar de avião com uma arma",
+  "summary": "Avise a companhia aérea com antecedência, leve a arma descarregada numa mala rígida com fecho, e mantenha os cartuchos dentro dos limites da IATA e da companhia aérea.",
+  "body": {
+    "travel-flying-with-guns-p1": "Comece pela companhia aérea, mesmo antes de comprar o bilhete. Nem todas transportam armas de desporto, e algumas só o fazem em certos voos. A maioria pede aviso com antecedência, muitas vezes pelo menos um ou dois dias antes. Pode haver uma taxa. Leia as regras da companhia no seu site e peça confirmação por escrito.",
+    "travel-flying-with-guns-p2": "A arma viaja só no porão, não na cabine. Tem de estar descarregada, normalmente desmontada (os canos separados da coronha), e dentro de uma {{term:hard-case|mala rígida}} com fecho. Uma {{term:gun-slip|capa}} de material mole normalmente não é aceite num voo. As regras sobre fechos e sobre quem fica com as chaves variam, por isso verifique-as.",
+    "travel-flying-with-guns-p3": "Chegue ao aeroporto mais cedo do que o habitual. No check-in, diga que leva uma arma de desporto. O pessoal muitas vezes abre a mala para a verificar, entrega-lhe um papel próprio para ela, e envia a mala para o balcão de bagagem volumosa em vez da tira normal. Depois de aterrar, pode ter de recolher a arma num balcão separado, por vezes na presença de um polícia.",
+    "travel-flying-with-guns-p4": "Os cartuchos contam como «mercadorias perigosas» (coisas arriscadas de transportar num avião), por isso têm as suas próprias regras. As regras da {{term:iata|IATA}} (a associação internacional das companhias aéreas) permitem {{term:cartridge|cartuchos}} de desporto {{fact:gear.iata-ammunition}}. «Bruto» significa que o peso das caixas também conta. Embale-os firmemente, normalmente nas caixas do fabricante. Dois passageiros não podem juntar os seus limites numa única embalagem.",
+    "travel-flying-with-guns-p7": "Uma caixa de 25 cartuchos de {{term:gauge|calibre 12}} pesa {{fact:travel.cartridge-box-weight}}, por isso o limite é de cerca de cinco caixas. Uma grande competição internacional são {{fact:basics.international-targets}}, por isso precisa de muito mais do que cinco caixas; é por isso que os cartuchos costumam ser comprados no destino: ver {{lesson:travel-cartridges-at-destination}}.",
+    "travel-flying-with-guns-p5": "Muitas companhias aéreas são mais estritas: um limite menor, cartuchos embalados separados da arma, ou nenhum cartucho. Verifique antes de cada voo, e não assuma que as regras do ano passado ainda se aplicam.",
+    "travel-flying-with-guns-p6": "Vai fazer escala? Confirme que a arma é despachada até ao destino final, e pergunte se vai ter de a recolher e voltar a despachá-la. Guarde os documentos na bagagem de mão, não na mala: a licença da arma, o {{term:european-firearms-pass|Cartão Europeu de Arma de Fogo}} ou a {{term:temporary-import-permit|autorização temporária}}, a {{term:invitation-letter|carta-convite}} e a confirmação da companhia aérea."
+  },
+  "note": {},
+  "phrases": {},
+  "key_points": {
+    "travel-flying-with-guns-kp1": "Avise a companhia aérea com antecedência e peça confirmação por escrito.",
+    "travel-flying-with-guns-kp2": "A arma: descarregada, normalmente desmontada, numa mala rígida com fecho, só no porão.",
+    "travel-flying-with-guns-kp3": "Os cartuchos viajam {{fact:gear.iata-ammunition}}; as companhias aéreas podem ser mais estritas.",
+    "travel-flying-with-guns-kp4": "Chegue ao aeroporto com antecedência.",
+    "travel-flying-with-guns-kp5": "Os documentos vão na bagagem de mão."
+  },
+  "did_you_know": "Segundo as regras da IATA, os cartuchos de desporto pertencem à Divisão 1.4S: explosivos que representam apenas um pequeno risco, cujo efeito fica contido dentro da embalagem. É por isso que uma quantidade limitada pode ir no porão.",
+  "quiz": {
+    "travel-flying-with-guns-q1": {
+      "q": "Onde viaja a arma num voo?",
+      "options": {
+        "a": "Na cabine, num compartimento superior",
+        "b": "Na bagagem de mão, numa capa de material mole",
+        "c": "No porão, numa mala rígida"
+      },
+      "explain": "As armas viajam só no porão, descarregadas, numa mala rígida com fecho."
+    },
+    "gun-transport-documents-q3": {
+      "q": "Como viajam os cartuchos de avião?",
+      "options": {
+        "a": "No porão, bem embalados, com aprovação da companhia aérea",
+        "b": "Na bagagem de mão, para a segurança poder verificá-los",
+        "c": "Nos bolsos do casaco, para poupar peso na bagagem"
+      },
+      "explain": "As regras da IATA só permitem cartuchos no porão, bem embalados e com aprovação da companhia aérea, e as companhias podem ser mais estritas."
+    },
+    "travel-flying-with-guns-q3": {
+      "q": "Onde deve guardar os documentos da arma durante o voo?",
+      "options": {
+        "a": "Na mala da arma, junto com ela",
+        "b": "Na bagagem de mão, consigo",
+        "c": "Na mala despachada"
+      },
+      "explain": "Os documentos podem ser necessários no check-in, na fronteira e depois de aterrar, por isso mantenha-os consigo."
+    },
+    "travel-flying-with-guns-q2": {
+      "q": "Que limite de cartuchos as regras da IATA costumam permitir a um passageiro?",
+      "options": {
+        "a": "Sem limite, se os cartuchos estiverem em caixas",
+        "b": "Até 50 kg, partilhados com o grupo",
+        "c": "Até 5 kg brutos, para uso próprio"
+      },
+      "explain": "Até 5 kg brutos por pessoa é o limite da IATA, mas uma companhia aérea pode reduzi-lo ou não aceitar cartuchos."
+    }
+  }
+}

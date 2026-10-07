@@ -1,0 +1,284 @@
+{
+  "id": "travel-cartridges-at-destination",
+  "rev": 2,
+  "status": "ready",
+  "plan": "keep",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "organiser"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": null,
+  "review_by": null,
+  "review": {
+    "status": "none",
+    "specialist": null,
+    "facts": "2026-10-07",
+    "rules_data": "sporting 01/01/2025, compak 01/01/2025",
+    "editor": "travel block editor, 2026-10-07"
+  },
+  "legacy": {
+    "learn": [
+      "travel-cartridges-at-destination"
+    ],
+    "interpreter": []
+  },
+  "terms": [
+    "cartridge",
+    "choke",
+    "european-firearms-pass",
+    "gunsmith",
+    "load-weight",
+    "steel-shot",
+    "lead-shot",
+    "gauge",
+    "organiser",
+    "sporting",
+    "compak-sporting"
+  ],
+  "rule_refs": [
+    {
+      "book": "sporting",
+      "id": "ch7-cartridges"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-load"
+    },
+    {
+      "book": "compak",
+      "id": "ch18-cartridge-bans"
+    }
+  ],
+  "facts": [
+    "gear.fitasc-shot-diameter",
+    "gear.fitasc-shot-load",
+    "gear.steel-vs-lead-weight"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Buying cartridges at the destination",
+    "uk": "Набої на місці"
+  },
+  "summary": {
+    "en": "Buying cartridges at the destination is often easier than carrying them. Mind the local purchase rules, the FITASC cartridge rules and grounds that allow steel shot only.",
+    "uk": "Купити набої на місці часто простіше, ніж везти. Зважайте на місцеві правила купівлі, вимоги FITASC до набоїв і стенди, де дозволено лише сталевий дріб."
+  },
+  "body": [
+    {
+      "k": "travel-cartridges-at-destination-p1",
+      "t": "p",
+      "en": "A {{tm:sporting}} or {{tm:compak}} competition needs hundreds of {{term:cartridge|cartridges}}, but airline limits allow only a few boxes: see {{lesson:travel-flying-with-guns}}. So cartridges are usually bought at the destination: in the ground's shop, from a local dealer or through the organiser, who often has a supplier.",
+      "uk": "На змаганнях із {{tm:sporting}} чи {{tm:compak}} потрібні сотні {{term:cartridge|набоїв}}, а ліміти авіакомпаній дозволяють узяти лише кілька коробок: див. {{lesson:travel-flying-with-guns}}. Тому набої зазвичай купують на місці: у магазині стенду, у місцевого продавця або через організатора, який часто має постачальника."
+    },
+    {
+      "k": "travel-cartridges-at-destination-p2",
+      "t": "p",
+      "en": "Order cartridges in advance, especially if you need a particular brand, a particular {{term:load-weight|load}} (the weight of shot in the cartridge) or 20 gauge. Popular cartridges can run out during a big competition. Ask where and when you can collect them.",
+      "uk": "Замовте набої заздалегідь, особливо якщо вам потрібна певна марка, {{term:load-weight|наважка}} (вага дробу в набої) чи 20 калібр. Під час великих змагань популярні набої можуть закінчитися. Запитайте, де і коли їх можна забрати."
+    },
+    {
+      "k": "travel-cartridges-at-destination-p3",
+      "t": "p",
+      "en": "Buying cartridges is governed by law too. In many countries the seller asks to see a gun permit, the {{term:european-firearms-pass|European Firearms Pass}} or a temporary permit. The rules for foreigners can differ from those for locals, so check with the organiser or the ground.",
+      "uk": "Купівлю набоїв теж регулює закон. У багатьох країнах продавець просить показати дозвіл на зброю, {{term:european-firearms-pass|Європейський вогнепальний паспорт}} або тимчасовий дозвіл. Для іноземців правила можуть відрізнятися від правил для місцевих, тож уточніть їх в організатора чи на стенді."
+    },
+    {
+      "k": "travel-cartridges-at-destination-p4",
+      "t": "p",
+      "disc": "both",
+      "rule_ref": "compak:ch18-cartridge-load",
+      "en": "FITASC competitions have cartridge rules, the same in both disciplines. A cartridge may hold {{fact:gear.fitasc-shot-load}}. The shot must be {{fact:gear.fitasc-shot-diameter}}. Not allowed: reloads (cartridges refilled at home) and dispersers (inserts that make the shot spread wider). Also banned: mixed shot (pellets of different sizes or kinds in one cartridge), black powder and tracers (cartridges that show the path of the shot) ({{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}}).",
+      "uk": "На змаганнях FITASC діють вимоги до набоїв, однакові для обох дисциплін. У набої може бути {{fact:gear.fitasc-shot-load}}. Дріб — {{fact:gear.fitasc-shot-diameter}}. Заборонено: перезаряджені набої (споряджені вдома повторно) і розсіювачі (пристрої в набої, через які дріб розлітається ширше). Також заборонені змішаний дріб (дробини різних розмірів чи видів в одному набої), чорний порох і трасувальні набої (які показують шлях дробу) ({{rule:sporting:ch7-cartridges}}, {{rule:compak:ch18-cartridge-bans}})."
+    },
+    {
+      "k": "travel-cartridges-at-destination-p7",
+      "t": "p",
+      "en": "Read the label on the box, and try unfamiliar cartridges in practice before the competition. More about loads: {{lesson:cartridges-load-weight}}.",
+      "uk": "Читайте маркування на коробці, а незнайомі набої спершу випробуйте на тренуванні, до змагань. Докладніше про наважку: {{lesson:cartridges-load-weight}}."
+    },
+    {
+      "k": "travel-cartridges-at-destination-p5",
+      "t": "p",
+      "en": "Some grounds allow only {{term:steel-shot|steel shot}} or other lead-free shot, because of environmental rules. Steel does not suit all guns and {{term:choke|chokes}}. Look on the barrels for a proof mark for steel shot (small stamped marks that show what the gun was tested for), and ask a {{term:gunsmith|gunsmith}} ({{lesson:chokes-steel-shot}}). Ask about such limits before the trip: they can apply on practice days too.",
+      "uk": "Деякі стенди через екологічні правила дозволяють лише {{term:steel-shot|сталевий дріб}} чи інший безсвинцевий дріб. Сталь підходить не до кожної рушниці й не до кожного {{term:choke|чока}}. Пошукайте на стволах клеймо про сталевий дріб (вибиті позначки показують, на що випробувано рушницю) і запитайте {{term:gunsmith|зброяра}} ({{lesson:chokes-steel-shot}}). Дізнайтеся про такі обмеження до поїздки: вони можуть діяти і в дні тренувань."
+    },
+    {
+      "k": "travel-cartridges-at-destination-p6",
+      "t": "p",
+      "en": "Work out how many cartridges you need, with a small margin. Taking leftovers home can be difficult, and in many countries you may not sell or hand cartridges to another person, so check the local law first. At the hotel, store cartridges as the country's rules require, and do not leave them in the car.",
+      "uk": "Розрахуйте, скільки набоїв потрібно, з невеликим запасом. Повезти залишки додому буває складно, а продавати чи віддавати набої іншим у багатьох країнах не можна — спершу перевірте місцевий закон. У готелі зберігайте набої так, як вимагають правила країни, і не залишайте їх в авто."
+    }
+  ],
+  "note": [],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "travel-cartridges-at-destination-kp1",
+      "en": "Competition cartridges are usually bought at the destination: order ahead.",
+      "uk": "Набої для змагань зазвичай купують на місці: замовте заздалегідь."
+    },
+    {
+      "k": "travel-cartridges-at-destination-kp2",
+      "en": "Buying may need documents: check the local rules.",
+      "uk": "Для купівлі можуть знадобитися документи: перевірте місцеві правила."
+    },
+    {
+      "k": "travel-cartridges-at-destination-kp3",
+      "en": "FITASC rules: {{fact:gear.fitasc-shot-load}}, and no reloads.",
+      "uk": "Правила FITASC: {{fact:gear.fitasc-shot-load}}, перезаряджені набої заборонено."
+    },
+    {
+      "k": "travel-cartridges-at-destination-kp4",
+      "en": "Some grounds allow steel shot only: check your gun and chokes.",
+      "uk": "Деякі стенди дозволяють лише сталевий дріб: перевірте рушницю й чоки."
+    },
+    {
+      "k": "travel-cartridges-at-destination-kp5",
+      "en": "Work out the quantity so that little is left over.",
+      "uk": "Розрахуйте кількість так, щоб майже нічого не залишилося."
+    }
+  ],
+  "did_you_know": {
+    "k": "travel-cartridges-at-destination-dyk",
+    "en": "A steel pellet is {{fact:gear.steel-vs-lead-weight}}, so it loses speed faster in flight.",
+    "uk": "Сталева дробина {{fact:gear.steel-vs-lead-weight}}, тому в польоті вона швидше втрачає швидкість."
+  },
+  "quiz": [
+    {
+      "k": "travel-cartridges-at-destination-q1",
+      "q": {
+        "en": "Why are competition cartridges usually bought at the destination?",
+        "uk": "Чому набої для змагань зазвичай купують на місці?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Because FITASC asks for cartridges from the host",
+          "uk": "Бо FITASC вимагає набоїв від господарів"
+        },
+        {
+          "k": "b",
+          "en": "Because cartridges are always cheaper abroad",
+          "uk": "Бо за кордоном набої завжди дешевші"
+        },
+        {
+          "k": "c",
+          "en": "Because airlines allow only a few boxes",
+          "uk": "Бо авіакомпанії дозволяють лише кілька коробок"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "Baggage allows only a few kilograms of cartridges, and a competition needs hundreds of them.",
+        "uk": "У багажі можна везти лише кілька кілограмів набоїв, а для змагань потрібні сотні."
+      }
+    },
+    {
+      "k": "travel-cartridges-at-destination-q2",
+      "disc": "both",
+      "q": {
+        "en": "What is the most shot a cartridge may hold under the FITASC rules?",
+        "uk": "Скільки дробу щонайбільше може бути в набої за правилами FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "28 g of lead, with a +2% tolerance",
+          "uk": "28 г свинцю з допуском +2 %"
+        },
+        {
+          "k": "b",
+          "en": "24 g of lead, with no tolerance",
+          "uk": "24 г свинцю без допуску"
+        },
+        {
+          "k": "c",
+          "en": "32 g of lead, with a +5% tolerance",
+          "uk": "32 г свинцю з допуском +5 %"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "In both disciplines the limit is 28 g of lead with a +2% tolerance.",
+        "uk": "В обох дисциплінах межа — 28 г свинцевого дробу з допуском +2 %."
+      },
+      "rule_ref": "sporting:ch7-cartridges"
+    },
+    {
+      "k": "travel-cartridges-at-destination-q3",
+      "q": {
+        "en": "A ground allows steel shot only. What should you check?",
+        "uk": "Стенд дозволяє лише сталевий дріб. Що варто перевірити?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Whether the shop sells reloaded cartridges",
+          "uk": "Чи продає магазин перезаряджені набої"
+        },
+        {
+          "k": "b",
+          "en": "Whether your gun and chokes suit steel",
+          "uk": "Чи підходять до сталі ваші рушниця й чоки"
+        },
+        {
+          "k": "c",
+          "en": "Whether lead is still fine for practice",
+          "uk": "Чи можна все ж тренуватися зі свинцем"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Steel shot does not suit all guns and chokes, so check in advance.",
+        "uk": "Сталевий дріб підходить не до кожної рушниці й чока, тож перевірте це заздалегідь."
+      }
+    }
+  ],
+  "exam_pool": [],
+  "evidence": null,
+  "h_uk": {
+    "title": "f08c6bad",
+    "summary": "e60935ca",
+    "travel-cartridges-at-destination-p1": "25fae8a5",
+    "travel-cartridges-at-destination-p2": "e84062f4",
+    "travel-cartridges-at-destination-p3": "0ed7f512",
+    "travel-cartridges-at-destination-p4": "9a32288d",
+    "travel-cartridges-at-destination-p7": "e3929665",
+    "travel-cartridges-at-destination-p5": "1698d6ad",
+    "travel-cartridges-at-destination-p6": "802d5f99",
+    "travel-cartridges-at-destination-kp1": "63a7a983",
+    "travel-cartridges-at-destination-kp2": "bd15862c",
+    "travel-cartridges-at-destination-kp3": "b814d099",
+    "travel-cartridges-at-destination-kp4": "19bd8bbe",
+    "travel-cartridges-at-destination-kp5": "aabfa884",
+    "travel-cartridges-at-destination-dyk": "b304c242",
+    "travel-cartridges-at-destination-q1": "cf88dff3",
+    "travel-cartridges-at-destination-q2": "553c3403",
+    "travel-cartridges-at-destination-q3": "7c381d8f"
+  },
+  "todo": {
+    "audit": [],
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": []
+  }
+}

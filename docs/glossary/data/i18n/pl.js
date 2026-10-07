@@ -11,7 +11,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "high",
    "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
-   "short": "Gładkolufowa broń myśliwska używana w Sporting™ i Compaku.",
+   "short": "Gładkolufowa broń myśliwska używana w Sporting™ i Compak® Sporting.",
    "long": "Można używać każdej strzelby myśliwskiej, także półautomatów, o kalibrze nie większym niż 12 i z lufami o długości co najmniej 66 cm (26 cali). Pompki są niedozwolone, a przepisy Compaku zakazują też drylingów. Zabronione są pasy i paski nośne, mikrokamery zamocowane na broni oraz wszelkie sztuczne urządzenia celownicze. Nikt nie może dotykać broni innego zawodnika bez pozwolenia, a dwóch zawodników z tej samej grupy nie może dzielić jednej broni. W Compak® Sporting strzały oddane z niezgodnej z przepisami broni lub amunicji przed kontrolą liczą się jako zero.",
    "disciplines": {
     "sporting": "Broń, czok lub lufę można bez opóźnienia zmienić między stanowiskami albo między rzutkami pojedynczymi a dubletami; nigdy na stanowisku.",
@@ -151,7 +151,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "high",
    "src": "https://gunmonkey.pl/pl/p/Strzelba-Bock-ATA-SP-SPORTER-kal.-1276-czarna-baskila%2C-reg.-baka-l.-76cm.-wym.czoki/6022",
-   "short": "Grzbiet kolby z regulowaną wysokością i odchyleniem."
+   "short": "Grzbiet kolby, który można podnieść, obniżyć albo przesunąć w bok, tak by oko patrzyło dokładnie wzdłuż szyny."
   },
   "fore-end": {
    "term_local": "czółenko",
@@ -231,7 +231,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "high",
    "src": "https://www.omnisarma.pl/188_051:_Jak_wybrac_/_dopasowac_strzelbe",
-   "short": "Gumowa stopka na końcu kolby, która łagodzi odrzut."
+   "short": "Gumowa lub żelowa stopka na końcu kolby, która łagodzi odrzut; zmienia też długość kolby."
   },
   "choke": {
    "term_local": "czok",
@@ -613,8 +613,8 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "high",
    "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
-   "short": "Zwykły wypukły rzutek o średnicy około 110 mm, najczęściej używany.",
-   "long": "Rzutek standardowy to kopułkowy krążek o średnicy około 110 mm. Jest stosunkowo ciężki, więc długo utrzymuje prędkość i linię, a jego zachowanie najłatwiej przewidzieć. Początkujący zwykle od niego zaczynają. W Sporting™ i Compak® Sporting standard łączy się z rzutkami specjalnymi: midi, mini, battue, rabbitem, rocketem i innymi. Jeśli wyrzutnia wyrzuci rzutek innej wielkości lub innego typu niż w menu, sędzia ogłasza NO BIRD."
+   "short": "Zwykły, wypukły rzutek o średnicy około 108–110 mm, najczęściej używany.",
+   "long": "Rzutek standardowy to wypukły krążek o średnicy około 108–110 mm. Jego lot stosunkowo łatwo odczytać, dlatego początkujący zwykle od niego zaczynają; midi o średnicy 90 mm lepiej utrzymuje prędkość. W Sporting™ i Compak® Sporting standard łączy się z rzutkami specjalnymi, takimi jak midi, mini, battue i rabbit; lista Compak® Sporting wymienia też rocket. W Sporting™ rzutek innego koloru, rozmiaru lub typu niż w menu to NO BIRD; w Compak® Sporting NO BIRD to rzutek w złym kolorze."
   },
   "midi": {
    "term_local": "midi",
@@ -670,8 +670,8 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "medium",
    "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
-   "short": "Rzutek o specjalnym profilu, który dłużej niż standardowy utrzymuje prędkość i tor lotu.",
-   "long": "Rocket wygląda jak rzutek standardowy, ale ma inny, bardziej opływowy profil. Dlatego wolniej wytraca prędkość w powietrzu i dłużej leci prosto, więc na dalszym odcinku trajektorii porusza się szybciej, niż oczekuje oko. Początkujący często strzelają za nim, oceniając go jak zwykły rzutek. Przepisy Compak® Sporting wymieniają rocket wśród dozwolonych rzutków, a lista Sporting™ nie wymienia go osobno. W praktyce jego kształt i nazwa zależą od producenta rzutków.",
+   "short": "Rzutek specjalny wymieniony na liście rzutków Compak® Sporting; jego dokładny kształt i lot zależą od producenta.",
+   "long": "Rocket to jeden z rzutków specjalnych, które przepisy Compak® Sporting wymieniają wśród dozwolonych; lista Sporting™ nie wymienia go osobno. Nie ma wspólnej specyfikacji, więc jego kształt i sposób lotu zależą od producenta rzutków. Jak przy każdym rzutku specjalnym, obserwuj go uważnie podczas pokazu i nie zakładaj, że leci jak standard.",
    "disciplines": {
     "sporting": "Nie jest osobno wymieniony na liście rzutków Sporting.",
     "compak": "Wyraźnie dozwolony wśród rzutków specjalnych."
@@ -716,7 +716,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "wieża",
    "conf": "medium",
    "src": "https://www.termedia.pl/doi_ft/10.5114/amsik.2020.97802",
-   "short": "Podwyższone miejsce wyrzutni za stanowiskami Compaku, co najmniej 4 m nad nimi.",
+   "short": "Podwyższone miejsce wyrzutni za stanowiskami w Compak® Sporting, co najmniej 4 m nad nimi.",
    "long": "Wyrzutnie w Compaku można ustawiać dowolnie, o ile żaden rzutek, nawet No Bird, nie może nikomu zagrozić. Wyrzutnia ustawiona za stanowiskami strzeleckimi musi być co najmniej 4 m wyżej niż stanowiska. Obowiązkowa trajektoria odlatująca przez bok BC może wychodzić z takiej wieży albo z wyrzutni w rowie lub na ziemi przed stanowiskami.",
    "disciplines": {
     "compak": "Zasada 4 m jest w przepisach Compak (2.4)."
@@ -834,7 +834,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "low",
    "short": "Rzutek, który leci łukiem i zmienia kierunek.",
-   "long": "Looper leci szerokim łukiem: wznosi się, przechyla przez szczyt i opada, jednocześnie przesuwając się w bok. Do takich trajektorii często używa się rzutków battue, które w locie się obracają i pokazują najpierw krawędź, a potem płaszczyznę. Główną trudnością jest ciągła zmiana kierunku i prędkości, więc lufy muszą iść po łuku, a nie go skracać. Wielu zawodników bierze loopera przy szczycie, gdzie porusza się najwolniej. Nazwy różnią się w zależności od kraju: chandelle to inna, bardziej stroma trajektoria, a Francuzi często mówią „chandelle” na rzutek lecący prawie pionowo w górę (teal). Uważnie obejrzyj pokaz i wybierz jeden punkt strzału."
+   "long": "Looper leci szerokim łukiem: wznosi się, przechyla przez szczyt i opada, jednocześnie przesuwając się w bok. Zwykle jest to rzutek standardowy; niektórzy budowniczowie osi wyrzucają na takiej linii także battue, który obracając się, pokazuje wtedy płaszczyznę. Główną trudnością jest ciągła zmiana kierunku i prędkości, więc lufy idą po łuku, przed rzutkiem i poniżej niego, a nie go skracają. Wielu zawodników bierze loopera przy szczycie, gdzie porusza się najwolniej. Nazwy różnią się w zależności od kraju: chandelle to inna, bardziej stroma trajektoria, a Francuzi często mówią „chandelle” na rzutek lecący prawie pionowo w górę (teal). Uważnie obejrzyj pokaz i wybierz jeden punkt strzału."
   },
   "chandelle": {
    "term_local": "chandelle",
@@ -866,7 +866,7 @@ window.GLOSSARY_I18N.pl = {
    "conf": "high",
    "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Dwa rzutki pokazane razem lub jeden po drugim, strzelane jako jedna całość.",
-   "long": "Są trzy rodzaje dubletu: na zawołanie, symultaniczny i, tylko w Sporting™, rafale. W Sporting™ zawodnik ma na dublet dwa naboje i może oddać oba do tego samego rzutka; między pierwszym a drugim rzutkiem pozycja broni jest dowolna. W Compaku do każdego rzutka dubletu można oddać tylko jeden strzał, a na jednym Compaku rodzaj dubletu musi być taki sam na wszystkich 5 stanowiskach; pierwszy rzutek każdego dubletu to ostatni rzutek poprzedniego stanowiska. Jeśli jeden strzał rozbije oba rzutki, w Sporting™ liczy się one i one, a w Compaku dublet się powtarza.",
+   "long": "Są trzy rodzaje dubletu: na zawołanie, symultaniczny i, tylko w Sporting™, rafale. W Sporting™ zawodnik ma na dublet dwa naboje i może oddać oba do tego samego rzutka; między pierwszym a drugim rzutkiem pozycja broni jest dowolna. W Compaku do każdego rzutka dubletu można oddać tylko jeden strzał, a na jednym Compaku rodzaj dubletu musi być taki sam na wszystkich 5 stanowiskach; pierwszy rzutek każdego dubletu to ostatni rzutek poprzedniego stanowiska. Jeśli jeden strzał rozbije oba rzutki, w Sporting™ liczy się one i one. W Compaku nie liczą się jako dwa trafienia: w dublecie na zawołanie wynik pierwszego rzutka zostaje, a dublet powtarza się dla drugiego; w dublecie symultanicznym jest to NO BIRD i dublet się powtarza, a za trzecim razem liczy się zero-zero.",
    "disciplines": {
     "sporting": "5 dubletów na oś, tylko z rzutków już strzelanych jako pojedyncze z tego stanowiska; oba naboje można oddać do jednego rzutka.",
     "compak": "Jeden nabój na rzutek; celowe oddanie obu strzałów do jednego rzutka daje zero-zero."
@@ -918,10 +918,10 @@ window.GLOSSARY_I18N.pl = {
    "conf": "high",
    "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Pokazanie zawodnikom rzutków ze stanowiska przed strzelaniem.",
-   "long": "W Sporting™ wszystkie trajektorie stanowiska pokazuje się pierwszemu zawodnikowi grupy, który musi stać gotowy na stanowisku; na prośbę każdy rzutek można pokazać ponownie do 2 razy. Dubletów na zawołanie się nie pokazuje; symultaniczne i rafale tak, z najwyżej 2 powtórzeniami. W Compaku przy strzelaniu w grupach rzutki pokazuje się tylko raz rano pierwszej grupie; „in line” pierwszy rzutek każdego dubletu pokazuje się każdemu nowemu zawodnikowi na stanowisku 1. Podczas każdego pokazu broń jest otwarta i rozładowana, a strzelanie i strzelanie na sucho są zabronione. Po przerwie dłuższej niż 10 minut rzutki pokazuje się ponownie.",
+   "long": "W Sporting™ wszystkie trajektorie stanowiska pokazuje się pierwszemu zawodnikowi grupy, który musi stać gotowy na stanowisku; na prośbę każdy rzutek można pokazać ponownie do 2 razy. Dubletów na zawołanie się nie pokazuje; symultaniczne i rafale tak, z najwyżej 2 powtórzeniami. Podczas pokazu nikt nie może strzelać ani symulować strzelania, a po awarii wyrzutni albo przerwie dłuższej niż 10 minut rzutki stanowiska pokazuje się ponownie. W Compak® Sporting przy strzelaniu w grupach pierwsza grupa dnia widzi rzutki raz, wcześnie rano: pojedyncze od A do F, potem dublety symultaniczne stanowisk 1–5; po przerwie dłuższej niż 10 minut sześć rzutków pojedynczych pokazuje się ponownie. „In line” każdy nowy zawodnik na stanowisku 1 widzi pierwszy rzutek swojego dubletu. W obu konkurencjach broń podczas pokazu jest otwarta i rozładowana i zamyka się ją tylko za zgodą sędziego. W Compak® Sporting symulowanie strzelania jest zabronione poza stanowiskami i wtedy, gdy strzela inny członek grupy.",
    "disciplines": {
-    "sporting": "Pokaz na każdym stanowisku dla pierwszego zawodnika grupy; najwyżej 2 powtórki na rzutek.",
-    "compak": "W grupach: raz rano pierwszej grupie (pojedyncze A–F, potem dublety jednoczesne); po przerwie dłuższej niż 10 minut 6 rzutków pojedynczych pokazuje się ponownie."
+    "sporting": "Pokaz na każdym stanowisku dla pierwszego zawodnika grupy; najwyżej 2 powtórki na rzutek; podczas pokazu bez strzałów i bez symulowania strzelania.",
+    "compak": "W grupach: raz, wcześnie rano, dla pierwszej grupy dnia (pojedyncze A–F, potem dublety symultaniczne); po przerwie dłuższej niż 10 minut 6 rzutków pojedynczych pokazuje się ponownie."
    }
   },
   "target-menu": {
@@ -936,13 +936,13 @@ window.GLOSSARY_I18N.pl = {
    "conf": "high",
    "src": "https://www.pzss.org.pl/assets/files/biblioteka-trenera/2010/15_2010_mlodzianowski-robert-metodyka-nauczania-i-technika-strzelania-konkurencji-trap.pdf",
    "short": "Odległość, o jaką zawodnik celuje przed rzutek, żeby śrut go dosięgnął.",
-   "long": "Gdy śrut leci do rzutka, rzutek dalej się porusza, więc w chwili strzału broń musi być przed nim. Ta odległość to wyprzedzenie. Zależy od prędkości rzutka, jego odległości i kąta, pod jakim leci: długie rzutki poprzeczne potrzebują największego wyprzedzenia, a rzutki odlatujące prosto prawie żadnego. To, jak zawodnik postrzega wyprzedzenie, jest subiektywne, więc różni ludzie opisują je różnie. Jest kilka metod wyprzedzenia: stałe wyprzedzenie (maintained lead), pull away i przeciągnięcie (swing-through), a trener pomoże ci wybrać twoją."
+   "long": "Gdy śrut leci do rzutka, rzutek dalej się porusza, więc w chwili strzału broń musi być przed nim. Ta odległość to wyprzedzenie. Zależy od prędkości rzutka, jego odległości i kąta, pod jakim leci: długie rzutki poprzeczne potrzebują największego wyprzedzenia, a rzutki odlatujące prosto prawie żadnego. To, jak zawodnik postrzega wyprzedzenie, jest subiektywne, więc różni ludzie opisują je różnie. Jest kilka metod wyprzedzenia: stałe wyprzedzenie (maintained lead), pull away, przeciągnięcie (swing-through) i ambush (strzał z zasadzki), a trener pomoże ci wybrać twoją."
   },
   "maintained-lead": {
    "term_local": "stałe wyprzedzenie",
    "conf": "low",
-   "short": "Metoda wyprzedzenia, w której lufy przez cały czas poruszają się przed rzutkiem z jego prędkością.",
-   "long": "Przy stałym wyprzedzeniu zawodnik od razu ustawia lufy przed rzutkiem i prowadzi je z tą samą prędkością, utrzymując potrzebne wyprzedzenie, a potem strzela. Dobrze działa na długich, przewidywalnych rzutkach, bo daje czas na odczytanie wyprzedzenia. Trudność polega na tym, że oko musi zostać na rzutku, a nie na lufach, bo inaczej ruch się zatrzyma. Początkującym metoda czasem wydaje się prosta, ale wymaga dobrego wyczucia prędkości. Trener podpowie, na jakie rzutki ci pasuje."
+   "short": "Metoda wyprzedzenia, w której lufy pozostają przed rzutkiem, a w chwili strzału poruszają się z jego prędkością, zachowując odstęp.",
+   "long": "Przy stałym wyprzedzeniu wyloty luf wchodzą na linię rzutka przed nim, a nie za nim. Najpierw poruszają się trochę wolniej niż rzutek, który się zbliża, aż odstęp wygląda właściwie; potem lufy poruszają się z prędkością rzutka, odstęp się nie zmienia, a strzał pada, gdy broń jest jeszcze w ruchu. Metoda często pasuje do dalekich i przewidywalnych rzutków, takich jak długie rzutki poprzeczne, bo daje czas na odczytanie wyprzedzenia. Typowy błąd to mierzenie odstępu: wzrok przeskakuje na lufy, a broń zwalnia lub się zatrzymuje. Często opisuje się ją jako najtrudniejszą do opanowania, więc zapytaj trenera, przy jakich rzutkach ci pasuje."
   },
   "swing-through": {
    "term_local": "przeciągnięcie",
@@ -1091,9 +1091,9 @@ window.GLOSSARY_I18N.pl = {
    "conf": "medium",
    "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Ćwiczenie składania się bez strzału, z rozładowaną, sprawdzoną bronią, tam gdzie pozwala na to prawo.",
-   "long": "Składanie się na sucho to jeden z najbardziej przydatnych sposobów treningu w domu: kilka minut dziennie sprawia, że ruch staje się powtarzalny. Przed rozpoczęciem upewnij się, że broń jest rozładowana i w pomieszczeniu nie ma nabojów, a wylot lufy trzymaj w bezpiecznym kierunku. Wielu zawodników używa zbijaków (snap caps), żeby chronić mechanizm przy suchym spuście. Na strzelnicy zasady są surowsze: symulowanie strzelania poza stanowiskiem jest zabronione, a w Sporting™ złożenie i prowadzenie broni po wyobrażonej linii rzutka przed wywołaniem kończy się upomnieniem. Sprawdź lokalne przepisy dotyczące obchodzenia się z bronią w domu.",
+   "long": "Składanie się na sucho to ćwiczenie złożenia się z rozładowaną, sprawdzoną bronią, bez strzału. Wielu trenerów radzi kilka minut w domu, tam gdzie pozwala prawo, by ruch stał się naturalny. Przed rozpoczęciem upewnij się, że broń jest rozładowana i w pomieszczeniu nie ma nabojów, a lufy trzymaj w bezpiecznym kierunku. Jeśli naciskasz spust nienaładowanej broni, używaj zbijaków (snap caps), które chronią iglice, zgodnie z radą trenera albo rusznikarza. Na strzelnicy zasady zależą od konkurencji. W Sporting™ symulowanie strzelania (złożenie się i prowadzenie broni po linii rzutka) w czasie zawodów jest niedozwolone w żadnym miejscu strzelnicy. W Compak® Sporting jest zabronione poza stanowiskami i wtedy, gdy strzela inny członek grupy. Sprawdź lokalne przepisy dotyczące obchodzenia się z bronią w domu.",
    "disciplines": {
-    "sporting": "Symulowanie strzelania jest zabronione na strzelnicy i poza nią; przed wywołaniem upomnienie, powtórzenie jest karane.",
+    "sporting": "Symulowanie strzelania jest niedozwolone w żadnym miejscu strzelnicy: najpierw ostrzeżenie, potem każde powtórzenie to zero przy następnym trafionym rzutku.",
     "compak": "Symulowanie strzelania jest zabronione poza stanowiskami i podczas strzelania członka grupy."
    }
   },
@@ -1264,7 +1264,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "high",
    "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
-   "short": "Jednostka 25 rzutków strzelanych na jednej osi, linii lub Compaku.",
+   "short": "Jednostka 25 rzutków strzelanych na jednej osi, linii lub strzelnicy Compak® Sporting.",
    "long": "W obu regulaminach seria to 25 rzutków. Zawody międzynarodowe to 200 rzutków, czyli 8 serii. Awarie broni i amunicji liczy się w ramach serii: pierwsza daje No Bird, kolejne w tej samej serii dają zero. W Compaku seria (runda) to pięć rzutków na każdym z pięciu stanowisk; w jej trakcie nie można zmieniać broni, czoka ani lufy, a trajektorie i menu zmienia się dopiero po pełnej rundzie. Karą jury może być utrata całej serii 25 rzutków.",
    "disciplines": {
     "sporting": "Broń, czok lub lufę można zmienić między stanowiskami albo między rzutkami pojedynczymi a dubletami.",
@@ -1384,7 +1384,7 @@ window.GLOSSARY_I18N.pl = {
     "countback"
    ],
    "conf": "low",
-   "short": "Ustalanie kolejności przy równych wynikach przez porównanie wyników na ostatniej osi lub Compaku, potem na przedostatniej i tak dalej.",
+   "short": "Ustalanie kolejności przy równych wynikach przez porównanie wyników na 8. osi lub 8. strzelnicy Compak® Sporting, potem na 7. i tak dalej aż do 1.",
    "long": "Poniżej trzeciego miejsca nie ma dogrywki: zawodnicy z równym wynikiem zajmują to samo miejsce i są wymienieni według wyników liczonych wstecz od 8. osi (Compaku) do 1. Drużyny z równym wynikiem klasyfikuje się według łącznego wyniku członków na 8. osi lub Compaku; jeśli nadal jest remis, na 7., 6. i tak dalej, aż do 1. Nie ma dogrywki drużynowej."
   },
   "firing-time": {
@@ -1607,7 +1607,7 @@ window.GLOSSARY_I18N.pl = {
   "compak-in-line": {
    "term_local": "Compak in line",
    "conf": "low",
-   "short": "Sposób prowadzenia Compaku, w którym zawodnicy wchodzą kolejno na stanowisko 1 i przesuwają się wzdłuż linii do stanowiska 5.",
+   "short": "Sposób prowadzenia zawodów w Compak® Sporting, w którym zawodnicy wchodzą kolejno na stanowisko 1 i przesuwają się wzdłuż linii do stanowiska 5.",
    "long": "Przy strzelaniu „in line” każdy zawodnik grupy zaczyna na stanowisku 1 i kończy na stanowisku 5, a nowy zawodnik wchodzi, gdy linia się przesuwa. Liczebność grupy to łączna liczba zawodników podzielona przez liczbę używanych Compaków. Na poziomie międzynarodowym stosuje się tylko zwalnianie sonopull z zatwierdzonym przez FITASC elektronicznym sędziowaniem i liczeniem wyników. Rzutki pokazuje się w stałej kolejności, gdy linia się zapełnia i zamyka. Spóźniony zawodnik, którego numer został już anulowany w systemie, gdy następny zawodnik jest na stanowisku 1, dostaje 25 zer.",
    "disciplines": {
     "compak": "Tylko w Compak® Sporting; alternatywa dla strzelania w grupach (by squad)."
@@ -1640,7 +1640,7 @@ window.GLOSSARY_I18N.pl = {
   "fly-over-zone": {
    "term_local": "strefa przelotu (prostokąt ABCD)",
    "conf": "low",
-   "short": "Obowiązkowy prostokąt, nad którym musi przelecieć każdy rzutek w Compaku.",
+   "short": "Obowiązkowy prostokąt, nad którym musi przelecieć każdy rzutek w Compak® Sporting.",
    "long": "Każdy Compak ma prostokątną strefę o szerokości 35–40 m i głębokości 25 m. Jej narożniki wyznaczają cztery paliki o wysokości około 50 cm z chorągiewką lub innym znacznikiem. Idąc zgodnie z ruchem wskazówek zegara od lewej, boki to AB, BC, CD i DA, a DA jest zwrócony do zawodników. Przy bezwietrznej pogodzie każdy rzutek musi w którymś momencie przelecieć nad prostokątem. Trzy obowiązkowe trajektorie określa się przez boki, które przecinają.",
    "disciplines": {
     "compak": "Tylko w Compak® Sporting."
@@ -1652,7 +1652,7 @@ window.GLOSSARY_I18N.pl = {
   "firing-angle-limiter": {
    "term_local": "ogranicznik kąta strzału (FAL)",
    "conf": "low",
-   "short": "Rama na każdym stanowisku Compaku, która ogranicza prowadzenie broni i utrzymuje zawodnika na stanowisku.",
+   "short": "Rama na każdym stanowisku w Compak® Sporting, która ogranicza prowadzenie broni i utrzymuje zawodnika na stanowisku.",
    "long": "Każde stanowisko strzeleckie w Compaku musi mieć ze względów bezpieczeństwa ogranicznik kąta strzału (FAL). Ogranicza on ruch broni na boki i w pionie oraz nie pozwala zawodnikowi pochylać się ani wychodzić do przodu. Regulamin zaleca ramę z kolorowych rur PVC o średnicy 50 mm z kolankami, z podstawą wypełnioną wodą lub piaskiem albo przymocowaną do podłoża. Podczas ładowania lufa musi być skierowana w strefę strzału wewnątrz FAL.",
    "disciplines": {
     "compak": "Obowiązkowy na każdym stanowisku Compaku; nie występuje w przepisach Sporting."
@@ -1661,7 +1661,7 @@ window.GLOSSARY_I18N.pl = {
   "trajectory-setting-table": {
    "term_local": "tabela ustawień trajektorii",
    "conf": "low",
-   "short": "Jedno z 40 gotowych menu Compaku, które określa, z których wyrzutni strzela się na każdym stanowisku.",
+   "short": "Jedno z 40 gotowych menu dla Compak® Sporting, które określa, z których wyrzutni strzela się na każdym stanowisku.",
    "long": "Załącznik 3 przepisów Compaku zawiera 40 tabel: 1–8 z 5 rzutkami pojedynczymi na stanowisko, 9–16 z 3 pojedynczymi i dubletem na zawołanie, 17–24 z 3 pojedynczymi i dubletem symultanicznym, 25–32 z 1 pojedynczym i 2 dubletami na zawołanie, 33–40 z 1 pojedynczym i 2 dubletami symultanicznymi. FITASC zaleca ich używanie na zawodach, ale dozwolona jest każda kombinacja zgodna z przepisami. Tabele używane na treningu muszą różnić się od tabel zawodów.",
    "disciplines": {
     "compak": "Tylko w Compak® Sporting (Załącznik 3)."
@@ -1714,7 +1714,7 @@ window.GLOSSARY_I18N.pl = {
   "electronic-refereeing": {
    "term_local": "elektroniczne sędziowanie",
    "conf": "low",
-   "short": "Zatwierdzone przez FITASC systemy elektroniczne, które rejestrują wyniki w Compaku „in line”.",
+   "short": "Zatwierdzone przez FITASC systemy elektroniczne, które rejestrują wyniki w Compak® Sporting „in line”.",
    "long": "W Compaku „in line” na zawodach międzynarodowych rzutki zwalnia się tylko przez sonopull, a sędziowanie i obsługa wyników muszą korzystać z systemów zatwierdzonych przez FITASC. W systemie elektronicznym wyniki pojawiają się na ekranie. Przepisy Compaku pokazują przykładowy wydruk z kolumnami: numer startowy, kraj, kategoria, pierwsza kara, druga kara, wynik, nazwisko i podpis zawodnika.",
    "disciplines": {
     "compak": "Tylko w Compaku w linii."
@@ -1815,7 +1815,7 @@ window.GLOSSARY_I18N.pl = {
   "group": {
    "term_local": "grupa (in line)",
    "conf": "low",
-   "short": "W Compaku „in line”: zawodnicy przydzieleni do jednego Compaku, czyli liczba zgłoszeń podzielona przez liczbę Compaków.",
+   "short": "W Compak® Sporting „in line”: zawodnicy przydzieleni do jednej strzelnicy; ich liczba to liczba zgłoszeń podzielona przez liczbę strzelnic.",
    "long": "W Compaku „in line” liczebność grupy to łączna liczba zawodników podzielona przez liczbę używanych Compaków. Każdy zawodnik grupy zaczyna na stanowisku 1 i kończy na stanowisku 5. Broń można pożyczyć tylko od zawodnika spoza własnej grupy, a kilku zawodników tej samej grupy nie może dzielić jednej broni. Spóźniony zawodnik, którego odwołanie zostanie przyjęte, może strzelać serię z inną grupą.",
    "disciplines": {
     "compak": "Tylko w Compaku w linii."
@@ -1937,7 +1937,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "rozgrzewka",
    "conf": "low",
    "short": "Przygotowanie przed strzelaniem: ruch i kilka łatwych rzutków.",
-   "long": "Rozgrzewka przygotowuje ciało i oczy do strzelania. Kilka minut ruchu dla szyi, barków, pleców i bioder zmniejsza ryzyko kontuzji i sprawia, że ruch broni jest płynniejszy. Jeśli strzelnica na to pozwala, zacznij trening od kilku łatwych rzutków, żeby złapać rytm i pewność, zanim przejdziesz do trudnych. Przed zawodami zasady zależą od konkurencji. W Sporting™ nikt nie może trenować na osiach zawodów, więc rozgrzewaj się na innych. W Compak® Sporting trening na trajektoriach zawodów jest dozwolony, ale z innymi tabelami ustawień; na mistrzostwach kontynentu i świata oficjalny trening zaczyna się dopiero w sobotę przed startem. Składanie się na sucho rób tylko tam, gdzie jest to dozwolone, z rozładowaną, sprawdzoną bronią."
+   "long": "Rozgrzewka budzi ciało i oczy przed strzelaniem. Wielu trenerów radzi około 10–15 minut lekkiego, dynamicznego ruchu dla szyi, barków, pleców, bioder i kostek, by broń poruszała się płynniej; badań nad rozgrzewką w strzelectwie do rzutków jest mało, więc te wskazówki pochodzą z doświadczenia trenerów. Jeśli strzelnica na to pozwala, możesz zacząć trening od kilku łatwych rzutków, żeby złapać rytm, zanim przejdziesz do trudnych. Przed zawodami zasady zależą od konkurencji. W Sporting™ nikt nie może trenować na osiach zawodów, więc rozstrzeliwuje się na innych osiach. W Compak® Sporting trening na trajektoriach zawodów jest dozwolony, ale z innymi tabelami ustawień trajektorii; na mistrzostwach kontynentu i świata oficjalny trening zaczyna się dopiero w sobotę przed startem. Na zawodach wielu trenerów radzi rozgrzewać się bez broni; składanie się na sucho zostaw na dom lub trening, tam gdzie jest dozwolone."
   },
   "training-diary": {
    "term_local": "dziennik treningowy",
@@ -2019,7 +2019,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "profil zawodnika",
    "conf": "low",
    "short": "Strona zawodnika w ClayArena z jego zawodami i najważniejszymi danymi.",
-   "long": "Profil zawodnika zbiera zawody Sporting™ i Compak® Sporting, których wyniki są na ClayArena, i pokazuje główne liczby, takie jak skuteczność i najlepszy wynik. Można do niego przejść z tabeli wyników zawodów albo znaleźć go, wyszukując nazwisko. Nazwiska na stronie są zapisane alfabetem łacińskim tak jak w dokumentach zawodów, więc jeśli nazwisko można transliterować różnie, spróbuj kilku wariantów. Dane pochodzą z kart wyników zawodów, więc sprawdzaj swoją kartę jeszcze na strzelnicy: w profilu będzie to, co zapisał sędzia. Profil przydaje się do porównywania siebie z samym sobą w ciągu sezonu."
+   "long": "Profil zawodnika zbiera zawody Sporting™ i Compak® Sporting, których wyniki są na ClayArena, i pokazuje główne liczby, takie jak skuteczność i najlepszy wynik. Można do niego przejść z tabeli wyników zawodów albo znaleźć go, wyszukując nazwisko. Nazwiska są zapisane tak jak w dokumentach zawodów: na zawodach międzynarodowych zwykle alfabetem łacińskim, a na krajowych także miejscowym alfabetem, na przykład cyrylicą na zawodach ukraińskich. Jeśli nie możesz się znaleźć, spróbuj miejscowej pisowni i różnych zapisów swojego nazwiska alfabetem łacińskim. Dane pochodzą z kart wyników zawodów, więc sprawdzaj swoją kartę jeszcze na strzelnicy: w profilu będzie to, co zapisał sędzia. Profil przydaje się do porównywania siebie z samym sobą w ciągu sezonu."
   },
   "clayaway": {
    "term_local": "ClayAway",
@@ -2042,8 +2042,8 @@ window.GLOSSARY_I18N.pl = {
   "top-10-rate": {
    "term_local": "odsetek miejsc w top 10",
    "conf": "low",
-   "short": "Jak często zawodnik kończy zawody w pierwszej dziesiątce.",
-   "long": "Ta liczba w profilu na ClayArena pokazuje odsetek zawodów, w których zawodnik zajął miejsce w pierwszej dziesiątce. Zależy nie tylko od wyniku, ale też od obsady: miejsce w pierwszej dziesiątce na dużych zawodach międzynarodowych jest dużo trudniejsze niż na zawodach klubowych. Dlatego czytaj ją razem z listą zawodów, w których zawodnik startował. Dobrze pokazuje regularność doświadczonych zawodników, ale początkującemu bardziej przyda się obserwowanie własnej skuteczności."
+   "short": "Jak często zawodnik kończy zawody w pierwszej dziesiątce swojej kategorii albo klasyfikacji generalnej.",
+   "long": "Ta liczba w profilu na ClayArena pokazuje odsetek zawodów, w których zawodnik zajął miejsce w pierwszej dziesiątce swojej kategorii albo klasyfikacji generalnej. Zależy nie tylko od wyniku, ale też od obsady: miejsce w pierwszej dziesiątce na dużych zawodach międzynarodowych jest dużo trudniejsze niż na zawodach klubowych, a w małej kategorii z kilkoma zawodnikami łatwiej trafić do pierwszej dziesiątki. Dlatego czytaj ją razem z listą zawodów, w których zawodnik startował. Dobrze pokazuje regularność doświadczonych zawodników, ale początkującemu bardziej przyda się obserwowanie własnej skuteczności."
   },
   "performance-index": {
    "term_local": "wskaźnik formy",
@@ -2084,14 +2084,14 @@ window.GLOSSARY_I18N.pl = {
   "european-firearms-pass": {
    "term_local": "Europejska Karta Broni Palnej",
    "conf": "low",
-   "short": "Dokument wydawany przez państwo UE mieszkającym w nim posiadaczom broni do podróży z bronią do innych państw UE; ważny do pięciu lat.",
-   "long": "Europejską Kartę Broni Palnej (EFP) wydaje urząd państwa UE, w którym mieszka właściciel broni, i zwykle jest ważna do pięciu lat. Wpisuje się do niej konkretne egzemplarze broni, więc przed podróżą sprawdź, czy broń, którą zabierasz, jest w niej wpisana i czy karta nie straci ważności w trakcie wyjazdu. Strzelcy sportowi z EFP i dokumentem potwierdzającym cel podróży, najczęściej zaproszeniem od organizatora, zwykle mogą zabrać broń do innego kraju UE bez osobnego wcześniejszego pozwolenia. Kraje mogą jednak mieć własne wyjątki, a EFP nie zastępuje lokalnych zasad noszenia, przechowywania i kupowania nabojów. Nie wydaje się jej mieszkańcom krajów spoza UE; sprawdź aktualne zasady kraju docelowego i tranzytowych."
+   "short": "Dokument, który kraj UE albo Szwajcaria, Norwegia, Islandia lub Liechtenstein wydaje mieszkającym tam posiadaczom broni na podróże z własną bronią w tym obszarze; ważny do pięciu lat.",
+   "long": "Europejską Kartę Broni Palnej (EKBP) wydaje urząd zajmujący się pozwoleniami na broń w kraju, w którym mieszka posiadacz, i zwykle jest ważna do pięciu lat. Oprócz krajów UE wydają ją swoim mieszkańcom także Szwajcaria, Norwegia, Islandia i Liechtenstein, które stosują te same unijne przepisy o broni; mieszkańcy innych krajów nie mogą jej dostać. Wpisuje się do niej konkretne egzemplarze broni, więc przed wyjazdem sprawdź, czy strzelba, którą zabierasz, jest w karcie, i czy karta nie straci ważności w trakcie podróży. Strzelcy sportowi z EKBP i dokumentem potwierdzającym cel podróży, najczęściej zaproszeniem od organizatora, mogą zwykle zabrać swoją broń do innego z tych krajów bez osobnego wcześniejszego zezwolenia. Kraje mogą jednak mieć własne wyjątki, a EKBP nie zastępuje lokalnych zasad noszenia, przechowywania i kupowania nabojów; sprawdzaj aktualne przepisy krajów docelowych i tranzytowych."
   },
   "jet-lag": {
    "term_local": "jet lag",
    "conf": "low",
-   "short": "Zaburzenia snu i czujności po locie przez kilka stref czasowych; zwykle mijają po kilku dniach.",
-   "long": "Po locie przez kilka stref czasowych zegar biologiczny nie zgadza się z czasem lokalnym: w dzień chce się spać, w nocy trudno zasnąć, a cierpią reakcje i skupienie. Dla strzelania to ważne, bo celność i koncentracja słabną najpierw. Dlatego na odległe zawody radzi się przylecieć kilka dni wcześniej, od razu przejść na czas lokalny, przebywać w świetle dziennym i pić wodę. Program wyjazdu ClayAway (w przygotowaniu) będzie podawał godziny w strefie czasowej miejsca wydarzenia z oznaczeniem strefy, żeby nie pomylić harmonogramu. Środki nasenne czy leki omów z lekarzem."
+   "short": "Zaburzony sen i czujność po szybkiej podróży przez kilka stref czasowych; może trwać od kilku dni do tygodnia lub dłużej, mniej więcej dzień na każdą strefę po locie na wschód.",
+   "long": "Po szybkiej podróży przez co najmniej trzy strefy czasowe zegar biologiczny wciąż chodzi według czasu domowego: sen, apetyt, nastrój i czujność nie zgadzają się z czasem miejscowym, dopóki się nie dostosuje. Popularna przybliżona reguła to mniej więcej jeden dzień na każdą strefę po locie na wschód i około pół dnia na strefę po locie na zachód; ludzie się różnią. Światło dzienne o właściwej porze dnia jest głównym sygnałem, który przestawia zegar, więc od pierwszego dnia żyj według czasu miejscowego, a po długim locie na wschód zaplanuj wolny, lekki dzień przed strzelaniem na wynik. Zmęczenie samą podróżą (zmęczenie podróżą) to co innego. Program wyjazdu ClayAway (w przygotowaniu) będzie podawać godziny w strefie czasowej miejsca zawodów, z oznaczeniem strefy. Leki nasenne, melatoninę czy inne leki omów z lekarzem."
   },
   "invitation-letter": {
    "term_local": "zaproszenie",
@@ -2135,12 +2135,12 @@ window.GLOSSARY_I18N.pl = {
   "soft-focus": {
    "term_local": "miękkie skupienie wzroku",
    "conf": "low",
-   "short": "Rozluźnione, szerokie skupienie wzroku podczas czekania w punkcie podjęcia rzutka."
+   "short": "Rozluźnione, szerokie spojrzenie na obszar, w którym pojawi się rzutek, gdy wzrok czeka w punkcie podjęcia, bez wpatrywania się w szczegóły."
   },
   "hard-focus": {
    "term_local": "twarde skupienie wzroku",
    "conf": "low",
-   "short": "Ostre, intensywne skupienie wzroku na samym rzutku, często na jego przedniej krawędzi."
+   "short": "Ostre spojrzenie na sam rzutek, często na jego przednią krawędź, od chwili, gdy wyraźnie go widzisz, aż do strzału."
   },
   "leading-edge": {
    "term_local": "przednia krawędź rzutka",
@@ -2249,7 +2249,8 @@ window.GLOSSARY_I18N.pl = {
   "overhead": {
    "term_local": "rzutek nad głową",
    "conf": "low",
-   "short": "Rzutek przelatujący bezpośrednio nad głową zawodnika, z tyłu lub z przodu."
+   "short": "Rzutek przelatujący nad głową zawodnika; zwykle chodzi o rzutek, który nadlatuje z tyłu i się oddala, a rzutek z przodu to przelot nad głową (driven).",
+   "long": "Rzutek nad głową z tyłu przelatuje nad plecami i się oddala. Widać go późno, dlatego wielu trenerów radzi obejrzeć się za nim jeszcze przed wywołaniem. Złóż się, gdy przelatuje nad tobą, strzelaj, gdy wyloty luf dojdą do jego przedniej krawędzi, i prowadź broń dalej po strzale. Nazwy bywają różne: niektórzy trenerzy mówią „overhead” także o rzutku z przodu, który ten słownik nazywa przelotem nad głową (driven); w razie wątpliwości dopytaj."
   },
   "bolting-rabbit": {
    "term_local": "wyskakujący rabbit",
@@ -2259,12 +2260,12 @@ window.GLOSSARY_I18N.pl = {
   "fur-and-feather": {
    "term_local": "fur and feather",
    "conf": "low",
-   "short": "Żargon angielskiego Sportingu na parę złożoną z rabbita i rzutka powietrznego."
+   "short": "Żargon English Sporting na parę złożoną z rabbita i rzutka powietrznego."
   },
   "true-pair": {
    "term_local": "true pair",
    "conf": "low",
-   "short": "Angielska nazwa pary symultanicznej w Sportingu: oba rzutki wyrzucane w tym samym momencie."
+   "short": "Nazwa pary symultanicznej w English Sporting: oba rzutki wyrzucane w tym samym momencie."
   },
   "shell-catcher": {
    "term_local": "łapacz łusek",
@@ -2284,7 +2285,7 @@ window.GLOSSARY_I18N.pl = {
   "interpreter": {
    "term_local": "tłumacz",
    "conf": "low",
-   "short": "Osoba, która podczas wyjazdu tłumaczy wypowiedzi między trenerem, sędzią i zawodnikami; zna terminologię strzelecką."
+   "short": "Osoba, która tłumaczy ustnie między trenerem, sędzią i zawodnikami, na przykład na treningach i w programie wyjazdu, i zna terminologię strzelecką."
   },
   "chuchotage": {
    "term_local": "szeptanka (chuchotage)",
@@ -2304,7 +2305,7 @@ window.GLOSSARY_I18N.pl = {
   "smoked-it": {
    "term_local": "smoked it",
    "conf": "low",
-   "short": "Trenerski żargon na czyste, centralne trafienie, po którym rzutek zamienia się w pył; to nie „sam pył lub dym” z przepisów, co oznacza zero."
+   "short": "Trenerski slang na trafienie, po którym rzutek zamienia się w pył. Według przepisów rzutek rozbity na pył w całości lub części to trafienie; cały rzutek, z którego leci tylko pył lub dym, bez widocznego odprysku, to pudło (zero)."
   },
   "peg": {
    "term_local": "peg",
@@ -2319,7 +2320,7 @@ window.GLOSSARY_I18N.pl = {
   "english-sporting": {
    "term_local": "English Sporting",
    "conf": "low",
-   "short": "Brytyjska odmiana sporting clays według przepisów CPSA, zwykle z parami i dozwolonym gun-up."
+   "short": "Brytyjska odmiana sportingu, prowadzona w Anglii przez CPSA obok FITASC Sporting™; ma własne przepisy: często strzela się pary, a zawodnicy często zaczynają z bronią już złożoną."
   },
   "cpsa": {
    "term_local": "CPSA",
@@ -2349,7 +2350,7 @@ window.GLOSSARY_I18N.pl = {
   "ambush": {
    "term_local": "zasadzka (ambush)",
    "conf": "low",
-   "short": "Metoda, w której wyloty luf czekają w punkcie przed rzutkiem, a strzał pada, gdy rzutek tam dolatuje, przy niewielkim ruchu broni albo bez niego."
+   "short": "Metoda, w której lufy nieruchomo czekają w punkcie przed rzutkiem, a spust naciska się, zanim rzutek tam doleci, więc wlatuje w śrut."
   },
   "instinctive-shooting": {
    "term_local": "strzelanie instynktowne",
@@ -2359,7 +2360,7 @@ window.GLOSSARY_I18N.pl = {
   "national-federation": {
    "term_local": "federacja krajowa",
    "conf": "low",
-   "short": "Krajowy organ zarządzający danym sportem; członek FITASC, zatwierdza osie krajowe i certyfikuje sędziów."
+   "short": "Organ kierujący sportem w kraju: zrzesza kluby i zawodników, organizuje zawody krajowe i kursy sędziowskie oraz reprezentuje kraj w FITASC."
   },
   "blazed-target": {
    "term_local": "rzutek z pomarańczową kopułką",
@@ -2375,6 +2376,346 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "zwalnianie ręczne",
    "conf": "low",
    "short": "Wyrzucenie rzutka przez osobę (operatora wyrzutni lub sędziego), która na zawołanie zawodnika naciska przycisk."
+  },
+  "anti-doping": {
+   "term_local": "antydoping",
+   "alt": [
+    "kontrola antydopingowa"
+   ],
+   "conf": "high",
+   "short": "Przepisy i kontrole przeciw zabronionym substancjom i metodom w sporcie; międzynarodowe przepisy i coroczną Listę zabronionych substancji wydaje Światowa Agencja Antydopingowa (WADA).",
+   "long": "Na mistrzostwach i dużych zawodach zawodnik może zostać poproszony o kontrolę antydopingową. WADA co roku, zwykle około września, publikuje nową Listę zabronionych substancji i metod, obowiązującą od 1 stycznia. W strzelectwie beta-blokery są zabronione zawsze. Stymulanty i THC (konopie) są zabronione w czasie zawodów, a okres „w zawodach” zaczyna się o 23:59 dzień przed startem. Nawet lek przepisany przez lekarza może być zabroniony: sprawdź go w Global DRO albo w krajowej agencji antydopingowej i, jeśli go potrzebujesz, z wyprzedzeniem złóż wniosek o TUE. Suplementy mogą być zanieczyszczone, dlatego wybieraj produkty, których partie bada niezależne laboratorium. To nie jest porada medyczna: porozmawiaj z lekarzem."
+  },
+  "therapeutic-use-exemption": {
+   "term_local": "wyłączenie dla celów terapeutycznych (TUE)",
+   "alt": [
+    "TUE"
+   ],
+   "conf": "high",
+   "short": "Oficjalna zgoda dla sportowca na stosowanie z przyczyn medycznych leku, który poza tym jest zabroniony; wniosek składa się z wyprzedzeniem.",
+   "long": "Sama recepta nie wystarcza: zabroniona substancja pozostaje zabroniona, nawet jeśli przepisał ją lekarz. Dlatego zawodnik, który potrzebuje takiego leku, na przykład beta-blokera na nadciśnienie, zaburzenia rytmu serca czy migrenę, z wyprzedzeniem składa wniosek o TUE, zwykle do krajowej agencji antydopingowej; krajowa federacja podpowie, kto jest właściwy. Nie odstawiaj sam przepisanego leku: na długo przed zawodami porozmawiaj z lekarzem o dozwolonej alternatywie albo o TUE. To nie jest porada medyczna."
+  },
+  "beta-blocker": {
+   "term_local": "beta-bloker",
+   "alt": [
+    "beta-adrenolityk"
+   ],
+   "conf": "high",
+   "short": "Lek nasercowy, który zwalnia pracę serca i zmniejsza drżenie; według listy WADA w strzelectwie jest zabroniony zawsze, w zawodach i poza nimi.",
+   "long": "Przykłady to propranolol, atenolol, bisoprolol i metoprolol. W sportach precyzyjnych są zabronione, bo wolniejsze serce i mniejsze drżenie mogą uspokoić broń. Lista WADA wymienia strzelectwo przez federację olimpijską (ISSF) i strzelectwo paraolimpijskie (IPC), a nie FITASC; mimo to traktuj beta-blokery jako zabronione także w Sporting™ i Compak® Sporting: krajowe agencje antydopingowe mogą kontrolować na zawodach krajowych, organizatorzy mogą stosować listę WADA, a wielu zawodników startuje też w konkurencjach ISSF. Jeśli lekarz przepisał ci beta-bloker, nie odstawiaj go sam; z wyprzedzeniem zapytaj o dozwoloną alternatywę albo o TUE. To nie jest porada medyczna."
+  },
+  "global-dro": {
+   "term_local": "Global DRO",
+   "conf": "high",
+   "short": "Internetowa wyszukiwarka leków prowadzona przez kilka krajowych agencji antydopingowych: pokazuje, czy lek sprzedawany w ich krajach jest zabroniony w sporcie.",
+   "long": "Global DRO zawiera tylko leki sprzedawane w krajach partnerskich, takich jak Wielka Brytania, USA, Kanada i Szwajcaria. Szukaj według substancji czynnej, nie tylko nazwy handlowej. Jeśli twojego leku tam nie ma, zapytaj krajową agencję antydopingową albo swoją federację. Sprawdzaj ponownie co roku, bo Lista zabronionych substancji WADA się zmienia."
+  },
+  "box-breathing": {
+   "term_local": "oddychanie kwadratowe",
+   "alt": [
+    "box breathing"
+   ],
+   "conf": "medium",
+   "short": "Schemat oddechu: wdech, zatrzymanie, wydech i zatrzymanie, każdy na 4; jedna z opcji do wypróbowania, w sporcie mało zbadana.",
+   "long": "W dotychczasowych badaniach oddychanie kwadratowe nie okazało się lepsze od innych sposobów oddychania; w jednym badaniu lepiej zadziałał po prostu wydech dłuższy od wdechu. Traktuj je więc jako jedną z opcji, a nie regułę. Wolny oddech pasuje przed stanowiskiem i między stanowiskami. Tuż przed wywołaniem wielu trenerów radzi tylko jeden naturalny wydech, bo bardzo wolne oddychanie może spowolnić reakcję na rzutek. Jeśli kręci ci się w głowie, wróć do normalnego oddechu. To nie jest porada medyczna."
+  },
+  "quiet-eye": {
+   "term_local": "quiet eye (spokojne spojrzenie)",
+   "alt": [
+    "spokojne oko"
+   ],
+   "conf": "medium",
+   "short": "Ostatnie stabilne spojrzenie na rzutek przed ruchem; u doświadczonych zawodników zwykle zaczyna się wcześniej i trwa dłużej.",
+   "long": "Badacze mierzą quiet eye jako ostatnie stabilne spojrzenie przed rozpoczęciem ruchu. W porównaniu z mniej doświadczonymi zawodnikami czołowi strzelcy trapu i skeetu zaczynają je wcześniej i utrzymują dłużej, a przy trafieniach zwykle jest dłuższe niż przy pudłach. Pod presją często się skraca. Nie ma magicznej liczby milisekund, do której trzeba dążyć: w strzelectwie do rzutków oznacza to zobaczyć rzutek wcześnie i wyraźnie i trzymać na nim wzrok przez cały strzał. Większość danych pochodzi z olimpijskiego trapu i skeetu; prawdopodobnie przenosi się to na Sporting™ i Compak® Sporting."
+  },
+  "self-talk": {
+   "term_local": "mowa wewnętrzna",
+   "alt": [
+    "rozmowa z samym sobą",
+    "self-talk"
+   ],
+   "conf": "medium",
+   "short": "To, co mówisz do siebie, na głos lub w myślach; w sporcie często krótkie polecenia, takie jak „widzę rzutek” czy „płynnie”.",
+   "long": "W wielu badaniach sportowcy, którzy ćwiczyli, co mówić do siebie, wypadali nieco lepiej. W zadaniach wymagających precyzji krótkie polecenia pomagały bardziej niż zachęty w rodzaju „dawaj”. Mów, co robić, a nie czego unikać: „trzymaj linię” zamiast „nie zatrzymuj broni”. Na stanowisku zwykle lepiej pasuje krótkie polecenie; zdania motywujące raczej na przejście między stanowiskami. Badania nie dotyczą strzelectwa do rzutków; prawdopodobnie przenosi się to na Sporting™ i Compak® Sporting."
+  },
+  "cue-word": {
+   "term_local": "słowo-klucz",
+   "alt": [
+    "słowo wyzwalające"
+   ],
+   "conf": "medium",
+   "short": "Bardzo krótkie polecenie, np. „przednia krawędź” albo „płynnie”, które przed strzałem kieruje uwagę na jedną rzecz.",
+   "long": "Wielu trenerów radzi wybrać na treningu razem z trenerem dwa lub trzy słowa-klucze i na zawodach używać tych samych słów. Słowa o rzutku albo jego linii, jak „widzę go” czy „trzymaj linię”, zwykle lepiej pasują na stanowisku niż wskazówki o ciele, jak „łokieć wyżej”, które należą do treningu. Wielu zawodników mówi słowo w tym samym momencie rutyny przedstrzałowej, tuż przed wywołaniem. Tłumacz, który tłumaczy słowo-klucz trenera, może przez cały trening trzymać się jednego krótkiego odpowiednika, by zawodnik mógł go używać w mowie wewnętrznej."
+  },
+  "imagery": {
+   "term_local": "trening wyobrażeniowy",
+   "alt": [
+    "wizualizacja"
+   ],
+   "conf": "medium",
+   "short": "Próba w myślach: widzieć i czuć strzał w wyobraźni, w tempie prawdziwego strzału i własnymi oczami, bez jego oddawania.",
+   "long": "Badania pokazują, że trening wyobrażeniowy zwykle pomaga, zwłaszcza razem z prawdziwym treningiem, ale nikt nie wie dokładnie, w jakim stopniu. Wydaje się działać lepiej, gdy jest bliski rzeczywistości: to samo stanowisko, te same rzutki, prawdziwe tempo i własny punkt widzenia. Po pokazie rzutków wielu zawodników przechodzi w myślach każdy rzutek raz lub dwa razy: punkt wyjściowy, punkt podjęcia, broń wchodzi na linię, strzał. Ćwicz w głowie, nie z bronią: złożenie się i prowadzenie broni po linii rzutka to symulowanie strzelania, które przepisy ograniczają. Badania nie dotyczą strzelectwa do rzutków; prawdopodobnie przenosi się to na Sporting™ i Compak® Sporting."
+  },
+  "choking": {
+   "term_local": "załamanie pod presją",
+   "alt": [
+    "choking"
+   ],
+   "conf": "medium",
+   "short": "Strzelanie wyraźnie poniżej zwykłego poziomu z powodu presji, często gdy zaczynasz świadomie sterować umiejętnością, która zwykle działa sama.",
+   "long": "Nie mylić z czokiem lufy. Pod presją zawodnik może zacząć krok po kroku kontrolować złożenie się albo prowadzenie broni, a niepokój odciąga wzrok od rzutka. Oznaki: zmienione tempo, sprawdzanie złożenia, wzrok na lufie albo muszce, zerkanie na wyniki. Co może pomóc: zwykła rutyna przedstrzałowa i tempo, jedno proste słowo-klucz o rzutku, cele procesowe i trening pod presją, która rośnie krok po kroku. Większość badań pochodzi z innych sportów oraz z olimpijskiego trapu i skeetu; prawdopodobnie przenosi się to na Sporting™ i Compak® Sporting. Jeśli presja raz po raz psuje ci zawody, pomóc może psycholog sportu."
+  },
+  "reset-routine": {
+   "term_local": "rutyna resetu",
+   "alt": [
+    "reset"
+   ],
+   "conf": "low",
+   "short": "Krótka, stała rutyna, by zacząć od nowa: po pudle (wydech, jedna poprawka, kolejna rutyna) albo gdy coś cię rozproszy przed wywołaniem.",
+   "long": "Typowy reset po pudle trwa około 5–10 sekund: zabezpiecz broń tak, jak wymagają przepisy, raz powoli wydychaj, daj sobie jedną poprawkę w dwóch–trzech słowach, wyobraź sobie dobry strzał i zacznij kolejną rutynę przedstrzałową. Pytanie „dlaczego” zostaw na czas po serii: rozkładanie umiejętności krok po kroku pod presją może ją zaburzyć. Reset musi się zmieścić w limicie czasu między rzutkami. Jeśli coś cię rozproszy przed wywołaniem, wielu trenerów radzi zrobić wydech i zacząć rutynę od nowa. Ten sam reset może pomóc po decyzji sędziego, która ci się nie podoba."
+  },
+  "mobility": {
+   "term_local": "mobilność",
+   "alt": [
+    "ruchomość stawów"
+   ],
+   "conf": "medium",
+   "short": "Jak swobodnie poruszają się stawy: czy możesz obrócić głowę, unieść ręce i skręcić tułów tak daleko, jak wymaga strzał, bez wysiłku.",
+   "long": "Dla zawodnika najważniejsze są szyja (głowa kładzie się na kolbie), barki (złożenie się), górna część pleców i biodra, które obracają ciało za rzutkiem, oraz kostki, które utrzymują stabilną postawę. Wielu trenerów radzi przed strzelaniem łagodne ćwiczenia dynamiczne, takie jak powolne skręty głowy, krążenia barków i skręty tułowia, a długie rozciąganie statyczne zostawia na czas po strzelaniu. Ruszaj się płynnie i przerwij, jeśli boli. Przy urazie lub długotrwałym bólu ułóż zestaw ćwiczeń z lekarzem albo fizjoterapeutą. To nie jest porada medyczna."
+  },
+  "gun-rental": {
+   "term_local": "wypożyczenie broni",
+   "alt": [
+    "broń z wypożyczalni"
+   ],
+   "conf": "medium",
+   "short": "Korzystanie odpłatnie z broni strzelnicy, często razem z pierwszą lekcją, nabojami i ochronnikami, by początkujący mógł strzelać bez kupowania broni."
+  },
+  "third-party-insurance": {
+   "term_local": "ubezpieczenie OC",
+   "alt": [
+    "ubezpieczenie od odpowiedzialności cywilnej"
+   ],
+   "conf": "high",
+   "short": "Ubezpieczenie od szkód, które możesz wyrządzić innym osobom lub ich mieniu; wiele krajów lub klubów wymaga go od strzelców."
+  },
+  "proof-mark": {
+   "term_local": "cecha próby",
+   "alt": [
+    "znak próby",
+    "stacja prób"
+   ],
+   "conf": "medium",
+   "short": "Znak, który urzędowa stacja prób umieszcza na broni po strzelaniu próbnym wzmocnionym ładunkiem; w wielu krajach ta próba jest obowiązkowa."
+  },
+  "club-membership": {
+   "term_local": "członkostwo w klubie",
+   "alt": [
+    "składka członkowska"
+   ],
+   "conf": "high",
+   "short": "Członkostwo w klubie strzeleckim: zwykle roczna składka, która często daje tańsze rzutki oraz dostęp do treningów i zawodów klubowych."
+  },
+  "reloaded-cartridge": {
+   "term_local": "nabój elaborowany",
+   "alt": [
+    "nabój przeładowany",
+    "elaboracja"
+   ],
+   "conf": "medium",
+   "short": "Wystrzelona łuska ponownie napełniona prochem, przybitką i śrutem, często w domu; na zawodach Sporting™ i Compak® Sporting niedozwolona."
+  },
+  "taster-session": {
+   "term_local": "lekcja próbna",
+   "alt": [
+    "strzelanie próbne"
+   ],
+   "conf": "medium",
+   "short": "Zajęcia wprowadzające dla początkujących na strzelnicy: trener, broń strzelnicy, naboje i rzutki, by pierwszy raz spróbować strzelania."
+  },
+  "noise-induced-hearing-loss": {
+   "term_local": "uszkodzenie słuchu przez hałas",
+   "alt": [
+    "ubytek słuchu z hałasu"
+   ],
+   "conf": "high",
+   "short": "Stopniowe, trwałe uszkodzenie ucha wewnętrznego przez głośne dźwięki, takie jak strzały; często zaczyna się od wysokich tonów, a utracony słuch nie wraca."
+  },
+  "tinnitus": {
+   "term_local": "szumy uszne",
+   "alt": [
+    "tinnitus",
+    "dzwonienie w uszach"
+   ],
+   "conf": "high",
+   "short": "Dzwonienie, buczenie lub świst w uszach bez zewnętrznego źródła; po strzelaniu często pierwszy sygnał, że ochrona słuchu nie wystarczyła."
+  },
+  "double-hearing-protection": {
+   "term_local": "podwójna ochrona słuchu",
+   "conf": "medium",
+   "short": "Zatyczki do uszu i nauszniki noszone razem dla dodatkowego zapasu, zwłaszcza u dzieci i na głośnych lub zadaszonych stanowiskach."
+  },
+  "presbyopia": {
+   "term_local": "prezbiopia",
+   "alt": [
+    "starczowzroczność"
+   ],
+   "conf": "high",
+   "short": "Związane z wiekiem pogorszenie widzenia z bliska: mniej więcej od 40. roku życia trudniej widzieć z bliska, a widzenie na odległość może pozostać dobre; muszka może się rozmywać."
+  },
+  "lead-hygiene": {
+   "term_local": "higiena przy ołowiu",
+   "conf": "medium",
+   "short": "Nawyki, które ograniczają przedostawanie się ołowiu do organizmu: mycie rąk i twarzy, bez jedzenia i palenia na stanowisku, osobne ubranie do strzelania."
+  },
+  "heat-exhaustion": {
+   "term_local": "wyczerpanie cieplne",
+   "conf": "high",
+   "short": "Przegrzanie organizmu ze zmęczeniem, zawrotami głowy, bólem głowy lub nudnościami; potrzebny jest cień, woda, schłodzenie i odpoczynek, a jeśli szybko nie mija, pomoc medyczna."
+  },
+  "live-pigeon-shooting": {
+   "term_local": "strzelanie do żywych gołębi",
+   "conf": "medium",
+   "short": "Historyczne strzelanie do żywych gołębi wypuszczanych ze skrzynek przed zawodnikiem, poprzednik strzelectwa do rzutków; w 2003 roku FITASC zawiesiła wszystkie zawody, w których celem były żywe zwierzęta."
+  },
+  "glass-ball": {
+   "term_local": "szklana kula",
+   "conf": "medium",
+   "short": "Szklana kula wyrzucana w powietrze jako cel w XIX wieku, wczesna alternatywa dla żywych ptaków; później zastąpił ją rzutek."
+  },
+  "issf": {
+   "term_local": "ISSF",
+   "alt": [
+    "Międzynarodowa Federacja Sportów Strzeleckich"
+   ],
+   "conf": "high",
+   "short": "International Shooting Sport Federation, która kieruje olimpijskimi konkurencjami strzeleckimi, w tym olimpijskim trapem i skeetem; Sporting™ i Compak® Sporting należą do FITASC."
+  },
+  "hydration": {
+   "term_local": "nawodnienie",
+   "conf": "high",
+   "short": "Picie wystarczającej ilości wody; na strzelnicy oznacza to małe, regularne łyki przez cały dzień, a nie dopiero przy silnym pragnieniu."
+  },
+  "travel-fatigue": {
+   "term_local": "zmęczenie podróżą",
+   "conf": "medium",
+   "short": "Zmęczenie samą drogą: sztywne mięśnie, krótki sen i suche powietrze; w odróżnieniu od jet lagu nie zależy od stref czasowych i często mija po odpoczynku."
+  },
+  "referee-certificate": {
+   "term_local": "licencja sędziowska",
+   "alt": [
+    "legitymacja sędziowska"
+   ],
+   "conf": "medium",
+   "short": "Certyfikat lub legitymacja, które krajowa federacja wydaje po kursie i egzaminie i które uprawniają do sędziowania; sędzia główny zawodów międzynarodowych potrzebuje kwalifikacji FITASC."
+  },
+  "assistant-referee": {
+   "term_local": "asystent sędziego",
+   "alt": [
+    "pomocnik sędziego"
+   ],
+   "conf": "medium",
+   "short": "Pomocnik sędziego; w Sporting™ osoba bez wymaganej licencji sędziowskiej może pełnić tylko tę rolę i tylko za wcześniejszą zgodą jury."
+  },
+  "coaching-qualification": {
+   "term_local": "uprawnienia trenerskie",
+   "alt": [
+    "licencja trenerska"
+   ],
+   "conf": "medium",
+   "short": "Dowód, że ktoś ukończył szkolenie trenerskie; kto je wydaje, jakie ma stopnie i czy jest obowiązkowe, zależy od kraju."
+  },
+  "volunteer": {
+   "term_local": "wolontariusz",
+   "conf": "high",
+   "short": "Osoba, która bezpłatnie pomaga na zawodach: rejestracja, ładowanie wyrzutni, parking, zdjęcia, sprzątanie albo, jeśli przepisy pozwalają, liczenie wyników pod okiem sędziego."
+  },
+  "tour-package": {
+   "term_local": "pakiet wyjazdu",
+   "alt": [
+    "pakiet"
+   ],
+   "conf": "medium",
+   "short": "Wszystko, co zawodnik kupi na wyjeździe ClayAway jedną płatnością: treningi na strzelnicach, nocleg, transfery, wspólny program i w razie potrzeby tłumacza (ClayAway jest w przygotowaniu)."
+  },
+  "scoreboard": {
+   "term_local": "tablica wyników",
+   "conf": "high",
+   "short": "Tablica wyników: tablica lub ekran, na którym w trakcie i po zawodach wyświetla się wyniki serii i sumy zawodników."
+  },
+  "spectator-area": {
+   "term_local": "strefa dla widzów",
+   "conf": "high",
+   "short": "Miejsce wyznaczone przez organizatora dla widzów, zwykle za stanowiskiem albo za płotem lub liną, skąd można bezpiecznie oglądać, fotografować i filmować."
+  },
+  "derogation": {
+   "term_local": "odstępstwo",
+   "alt": [
+    "derogacja"
+   ],
+   "conf": "low",
+   "short": "Zgoda, w szczególnych przypadkach, na odstępstwo od przepisu, na przykład start w innej kategorii niż wynika z wieku; zapytaj krajową federację."
+  },
+  "pitch": {
+   "term_local": "kąt stopki",
+   "alt": [
+    "pitch"
+   ],
+   "conf": "low",
+   "short": "Kąt, pod jakim ścięty jest koniec kolby (stopka) względem luf; decyduje, czy kolba przylega do barku całą powierzchnią, czy uciska noskiem albo piętką."
+  },
+  "gas-operated": {
+   "term_local": "z odprowadzeniem gazów",
+   "alt": [
+    "półautomat gazowy"
+   ],
+   "conf": "high",
+   "short": "Układ półautomatyczny, w którym część gazów prochowych przeładowuje broń; rozkłada odrzut w czasie, więc wielu zawodników odczuwa go jako łagodniejszy."
+  },
+  "ladies-cut": {
+   "term_local": "krój damski",
+   "conf": "medium",
+   "short": "Krój kamizelki lub kurtki strzeleckiej uwzględniający biust i szerokość barków, tak aby wkładka była tam, gdzie opiera się kolba."
+  },
+  "ladies-day": {
+   "term_local": "dzień dla pań",
+   "alt": [
+    "ladies' day"
+   ],
+   "conf": "medium",
+   "short": "Dzień w klubie, gdy kobiety trenują albo próbują strzelania, często z trenerem i bronią do wypożyczenia."
+  },
+  "snap-cap": {
+   "term_local": "zbijak",
+   "alt": [
+    "snap cap",
+    "nabój ćwiczebny"
+   ],
+   "conf": "medium",
+   "short": "Atrapa naboju, która chroni iglice, gdy naciska się spust nienaładowanej broni; do treningu na sucho, zgodnie z radą trenera albo rusznikarza."
+  },
+  "blot-out": {
+   "term_local": "zakrycie rzutka lufą (blot out)",
+   "conf": "low",
+   "short": "Pozwolić lufom zakryć rzutek w chwili strzału, jak często bywa przy rzutkach nadlatujących i przelotach nad głową; zwykle jest to zamierzone, a nie błąd."
+  },
+  "show-pair": {
+   "term_local": "show pair",
+   "conf": "low",
+   "short": "Brytyjska nazwa pokazu pary rzutków przed strzelaniem; w terminologii FITASC pokaz dubletu."
+  },
+  "perfect-round": {
+   "term_local": "czysta seria",
+   "alt": [
+    "25 na 25"
+   ],
+   "conf": "medium",
+   "short": "Seria bez pudła: w Sporting™ i Compak® Sporting wszystkie 25 rzutków trafione; profil na ClayArena liczy, ile ich ma zawodnik."
+  },
+  "visitors-permit": {
+   "term_local": "zezwolenie dla odwiedzającego (visitor's permit)",
+   "conf": "low",
+   "short": "Brytyjskie zezwolenie, na podstawie którego gość z zagranicy może posiadać strzelbę w Wielkiej Brytanii; wniosek do lokalnej policji składa mieszkający tam poręczyciel."
   }
  }
 };

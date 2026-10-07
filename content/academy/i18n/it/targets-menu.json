@@ -1,0 +1,100 @@
+{
+  "id": "targets-menu",
+  "lang": "it",
+  "base_rev": 3,
+  "h": {
+    "title": "744c4dd7",
+    "summary": "97cd40e7",
+    "targets-menu-p1": "3f14bae6",
+    "targets-menu-p2": "e79c6d7a",
+    "targets-menu-p3": "4c1f1230",
+    "targets-menu-ex1": "aa643ef1",
+    "targets-menu-p4": "8d8e6b9e",
+    "targets-menu-tip1": "225fbc0d",
+    "targets-menu-n1": "e810bd84",
+    "targets-menu-p5": "d09ec478",
+    "targets-menu-ph1": "bd4b48d5",
+    "targets-menu-ph2": "e9f0ce43",
+    "targets-menu-ph3": "012cd5f5",
+    "targets-menu-kp1": "46ec13eb",
+    "targets-menu-kp2": "ae9c7733",
+    "targets-menu-kp3": "dc3aa01c",
+    "targets-menu-kp4": "3008ddb0",
+    "targets-menu-kp5": "f1caa6ca",
+    "targets-menu-q1": "c3048623",
+    "targets-menu-q2": "5bf0bf71",
+    "targets-menu-q3": "312040f0"
+  },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
+  "title": "Leggere il menu dei piattelli",
+  "summary": "Come leggere il menu dei piattelli su una pedana {{tm:sporting}} e su una pedana {{tm:compak}}: l'ordine delle macchine, i piattelli speciali e il tipo di ogni doppio.",
+  "body": {
+    "targets-menu-p1": "Il {{term:target-menu|menu}} dei piattelli è il cartello sulla pedana che dice al tiratore cosa arriverà: quali macchine, in quale ordine, e quali tipi di doppi.",
+    "targets-menu-p2": "Nello {{tm:sporting}} il menu elenca le macchine nell'ordine di tiro e deve nominare eventuali piattelli speciali: {{fact:targets.sporting-menu-special-targets}}. Gli arbitri controllano in anticipo che le macchine corrispondano al menu. Un campo dà {{fact:targets.sporting-layout-targets}}. I doppi possono usare solo piattelli già presentati come singoli dalla stessa pedana, e la batteria tira prima i singoli.",
+    "targets-menu-p3": "Ogni doppio è indicato con il suo tipo. {{term:double-on-report|Allo sparo}}: il secondo piattello parte al suono del primo colpo. {{term:simultaneous-double|Simultaneo}}: entrambi i piattelli partono insieme. {{term:rafale-double|A raffica}}: due piattelli dalla stessa macchina, uno dopo l'altro, solo nello {{tm:sporting}}. I menu hanno un aspetto diverso da un campo all'altro, quindi leggi le parole, non solo le lettere.",
+    "targets-menu-ex1": "Esempio: su una linea di 4 pedane, una pedana ha solo 3 macchine, e lì si tirano 3 singoli e 2 doppi. Il suo menu potrebbe essere: singoli A, B, C, poi un doppio simultaneo A + B e un a raffica C + C (le lettere sono le macchine). Su questa pedana almeno un doppio deve essere simultaneo o a raffica: due doppi allo sparo non sono ammessi ({{rule:sporting:ch2-doubles-three-traps}}).",
+    "targets-menu-p4": "Nel {{tm:compak}} c'è un menu su ciascuna delle cinque pedane. Ogni pedana ha cinque piattelli, in uno di tre modi: {{fact:targets.compak-station-menus}}. I singoli possono venire dalle macchine in qualsiasi ordine. Tutte le cinque pedane hanno lo stesso tipo di doppio, e le pedane sono collegate in catena: {{fact:targets.compak-double-chain}}. Per le gare la FITASC offre {{fact:targets.compak-setting-tables}}.",
+    "targets-menu-tip1": "Prima di salire su una pedana {{tm:compak}}, molti tiratori si ripetono sottovoce il suo menu: «A, poi F, poi B, poi C ed E allo sparo». Questo può aiutarli a ricordare l'ordine."
+  },
+  "note": {
+    "targets-menu-n1": "I tiratori dicono davvero «menu», quindi mantieni la parola quando traduci.",
+    "targets-menu-p5": "Prima che il tuo tiratore salga in pedana, leggigli il menu ad alta voce nella sua lingua, lettera per lettera: «A, poi F, poi B, poi il doppio C ed E allo sparo»."
+  },
+  "phrases": {
+    "targets-menu-ph1": {
+      "meaning": "Pedana 3: tre singoli, poi un doppio allo sparo; cinque piattelli in tutto.",
+      "say": "Leggi il menu: alla pedana tre hai A, poi F, poi B, poi il doppio C ed E allo sparo."
+    },
+    "targets-menu-ph2": {
+      "meaning": "L'ordine è cambiato rispetto alla serie precedente.",
+      "say": "Stesse macchine, menu nuovo: non sparare a memoria."
+    },
+    "targets-menu-ph3": {
+      "meaning": "«Simo» è l'abbreviazione di doppio simultaneo.",
+      "say": "Tre singoli, poi un doppio simultaneo."
+    }
+  },
+  "key_points": {
+    "targets-menu-kp1": "Leggi il menu prima di salire in pedana: ordine delle macchine, piattelli speciali, tipo di ogni doppio.",
+    "targets-menu-kp2": "Menu {{tm:sporting}}: macchine in ordine più i piattelli speciali ({{fact:targets.sporting-menu-special-targets}}).",
+    "targets-menu-kp3": "Un campo {{tm:sporting}} dà {{fact:targets.sporting-layout-targets}}; i doppi usano piattelli già mostrati come singoli; prima i singoli.",
+    "targets-menu-kp4": "Doppi: allo sparo, simultaneo, a raffica (solo {{tm:sporting}}).",
+    "targets-menu-kp5": "{{tm:compak}}: cinque piattelli per pedana, stesso tipo di doppio su tutte le pedane, ogni doppio comincia con l'ultimo piattello della pedana precedente."
+  },
+  "quiz": {
+    "targets-menu-q1": {
+      "q": "Quali piattelli speciali deve indicare un menu {{tm:sporting}}?",
+      "options": {
+        "a": "Solo i colori dei piattelli",
+        "b": "90 mm, 70 mm, 60 mm, battuta o lepre",
+        "c": "Solo lepri e battute",
+        "d": "Nessuno; li annuncia l'arbitro"
+      },
+      "explain": "Il menu deve elencare le macchine in ordine e ogni tipo di piattello speciale."
+    },
+    "targets-menu-q2": {
+      "q": "Nel {{tm:compak}}, con quale piattello comincia ogni doppio?",
+      "options": {
+        "a": "Sempre con quello della macchina A",
+        "b": "Con un piattello non mostrato prima",
+        "c": "Con l'ultimo piattello tirato alla pedana precedente",
+        "d": "Con qualsiasi piattello scelga il tiratore"
+      },
+      "explain": "I doppi si concatenano tra le pedane: ognuno comincia con l'ultimo piattello della pedana precedente."
+    },
+    "targets-menu-q3": {
+      "q": "Quale tipo di doppio esiste solo nello {{tm:sporting}}?",
+      "options": {
+        "a": "A raffica",
+        "b": "Allo sparo",
+        "c": "Simultaneo",
+        "d": "Nessuno"
+      },
+      "explain": "I doppi del {{tm:compak}} sono allo sparo o simultanei; il doppio a raffica è dello {{tm:sporting}}."
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "referee-calls",
+  "lang": "de",
+  "base_rev": 1,
+  "h": {
+    "title": "8ec501ad",
+    "summary": "df0f3d9b",
+    "referee-calls-p1": "850b37d1",
+    "referee-calls-p2": "1edc7773",
+    "referee-calls-p3": "3db989ae",
+    "referee-calls-p4": "2278b1a6",
+    "referee-calls-n1": "dc0d2fcb",
+    "referee-calls-ph1": "f68d877b",
+    "referee-calls-ph2": "6bb7e6c4",
+    "referee-calls-ph3": "d06acd2f",
+    "referee-calls-ph4": "c6a8cda1",
+    "referee-calls-ph5": "dd369f7c",
+    "referee-calls-ph6": "b0ccd1a4",
+    "referee-calls-kp1": "58d5fc6d",
+    "referee-calls-kp2": "aca6f4c6",
+    "referee-calls-kp3": "acf3fc43",
+    "referee-calls-kp4": "d3a924fd",
+    "referee-calls-kp5": "485ac031",
+    "referee-calls-q1": "6a384d08",
+    "referee-calls-q2": "b4dbd757",
+    "referee-calls-q3": "f04cc074"
+  },
+  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "title": "Was der Schiedsrichter auf dem Stand sagt",
+  "summary": "Die kurzen Worte des Stands: der Abruf, Laden und offene Flinten, „one“, „zero“ und „No Bird“, sowie das förmliche Wort des Schützen für einen Protest.",
+  "body": {
+    "referee-calls-p1": "Ein Stand hat seine eigene kurze Sprache. Ist der Schütze bereit, gibt er den {{term:call|Abruf}}, meist „Pull!“ oder „Ready!“. Bei {{tm:sporting}} gibt der {{term:referee|Schiedsrichter}} den Abruf mit einem Signalton an den {{term:trapper|Puller}} weiter. Die Scheibe muss {{fact:rules.release-within-3s}} nach diesem Signal starten; eine spätere Scheibe ist ein {{term:no-bird|No Bird}}. Bei {{tm:compak}} muss auch eine manuelle Auslösung {{fact:rules.release-within-3s}} nach dem Abruf erfolgen. Eine sprachgesteuerte Auslösung ({{term:sonopull|Sonopull}}: ein Mikrofon, das die Scheibe startet, wenn es Ihren Abruf hört) hat eine feste Verzögerung von {{fact:rules.sonopull-delay}}.",
+    "referee-calls-p2": "Bevor jemand schießt, entscheidet der Schiedsrichter, wann Flinten geladen und geschlossen werden dürfen. Die Regeln erlauben das {{term:loading|Laden}} nur auf dem Stand, mit der Flinte in Schussrichtung, sobald der Schiedsrichter das Schießen freigegeben hat. Während Scheiben vorgeworfen werden ({{term:target-presentation|Vorwerfen}}) und bei jeder Unterbrechung sind die Flinten offen und leer. Geschlossen werden sie erst wieder, wenn der Schiedsrichter es erlaubt. Bei {{tm:compak}} beginnt der Schiedsrichter die Runde mit „Start“ oder „Competition“.",
+    "referee-calls-p3": "Nach jeder Scheibe kennt das Regelwerk nur drei Ergebnisse: „{{term:one|one}}“ (Treffer), „{{term:zero|zero}}“ (verloren) und „No Bird“ (die Scheibe zählt nicht und wird neu geworfen). Am Stand hören Sie außerdem „dead“ oder „good“ für einen Treffer und „lost“ für einen Fehlschuss; manche Schiedsrichter sagen nach einem Treffer gar nichts. Bei {{tm:compak}} sagt der Schiedsrichter jede Null laut oder mit einem Signalton an, damit ein Schütze, der nicht einverstanden ist, sofort protestieren kann.",
+    "referee-calls-p4": "Auch der Schütze hat ein förmliches Wort. Um einer Entscheidung zu widersprechen, heben Sie sofort, auf dem Stand, die Hand und sagen „{{term:protest|Protest!}}“ oder „{{term:appeal|Appeal!}}“ ({{rule:sporting:ch9-how-to-appeal}}, {{rule:compak:ch19-protest}}). Weitere Redewendungen, die ein Schütze braucht: {{lesson:stand-talk-shooter-phrases}}."
+  },
+  "note": {
+    "referee-calls-n1": "Halten Sie diese Kommandos kurz und jedes Mal gleich. Vereinbaren Sie mit Ihrem Schützen vor der Runde, welche Wörter Sie verwenden. Fügen Sie zwischen Abruf und Schuss nichts Eigenes hinzu."
+  },
+  "phrases": {
+    "referee-calls-ph1": {
+      "meaning": "Der Schiedsrichter gibt das Schießen frei: jetzt Patronen einlegen, Flinte in Schussrichtung.",
+      "say": "Sie dürfen laden."
+    },
+    "referee-calls-ph2": {
+      "meaning": "Diese Scheibe zählt nicht; nicht auf sie schießen. Sie wird neu geworfen.",
+      "say": "No Bird!"
+    },
+    "referee-calls-ph3": {
+      "meaning": "Der Schiedsrichter hat die Scheibe als Fehlschuss (Null) gewertet.",
+      "say": "Null."
+    },
+    "referee-calls-ph4": {
+      "meaning": "Die Scheibe ist ein Treffer (Eins).",
+      "say": "Treffer. / Gut."
+    },
+    "referee-calls-ph5": {
+      "meaning": "Alle öffnen und entladen; der Schiedsrichter wirft die Scheiben zum Ansehen vor.",
+      "say": "Flinten bitte auf – wir werfen die Scheiben vor."
+    },
+    "referee-calls-ph6": {
+      "meaning": "{{tm:compak}}: Das Vorwerfen ist vorbei, die Runde zählt ab jetzt.",
+      "say": "Start. / Wettkampf."
+    }
+  },
+  "key_points": {
+    "referee-calls-kp1": "Der Schütze ruft „Pull!“ oder „Ready!“; die Scheibe muss innerhalb von 3 Sekunden kommen",
+    "referee-calls-kp2": "Laden nur auf dem Stand und nur, wenn der Schiedsrichter es erlaubt; Flinten offen beim Vorwerfen und bei Unterbrechungen",
+    "referee-calls-kp3": "Wörter der Regeln: one = Treffer, zero = verloren, No Bird = wird neu geworfen",
+    "referee-calls-kp4": "{{tm:compak}}: Jede Null wird laut oder mit einem Signalton angesagt",
+    "referee-calls-kp5": "Protest = erhobene Hand + „Protest!“ oder „Appeal!“"
+  },
+  "quiz": {
+    "referee-calls-q1": {
+      "q": "Bei {{tm:sporting}} startet die Scheibe fünf Sekunden nach dem Signal des Schiedsrichters. Wie lautet seine Entscheidung?",
+      "options": {
+        "a": "Sie zählt normal",
+        "b": "No Bird",
+        "c": "Null, weil der Schütze zu früh abgerufen hat",
+        "d": "Nur eine Verwarnung für den Puller"
+      },
+      "explain": "Eine Scheibe muss innerhalb von drei Sekunden nach dem Signal des Schiedsrichters starten; eine später ausgelöste Scheibe ist ein No Bird und wird neu geworfen."
+    },
+    "referee-calls-q2": {
+      "q": "Wann darf ein Schütze im Wettkampf die Flinte laden?",
+      "options": {
+        "a": "Auf dem Weg zum nächsten Stand",
+        "b": "Hinter dem Stand, beim Warten",
+        "c": "Auf dem Stand, nachdem der Schiedsrichter es erlaubt hat",
+        "d": "Sobald der Trainer es sagt"
+      },
+      "explain": "Laden ist nur auf dem Stand erlaubt, Flinte in Schussrichtung, und erst, wenn der Schiedsrichter den Beginn freigegeben hat."
+    },
+    "referee-calls-q3": {
+      "q": "Mit welchen Worten beginnt man auf dem Stand einen förmlichen Protest?",
+      "options": {
+        "a": "„Protest!“, mit erhobener Hand",
+        "b": "„No Bird!“, mit erhobener Hand",
+        "c": "„Schiedsrichter, schauen Sie sich die Scheibe an!“",
+        "d": "„Warten Sie!“, nach der nächsten Scheibe"
+      },
+      "explain": "Beide Regelwerke nennen „Protest“ oder „Appeal“ mit erhobener Hand, sofort; „No Bird“ ist das Wort des Schiedsrichters."
+    }
+  }
+}

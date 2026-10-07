@@ -1,0 +1,514 @@
+{
+  "id": "mind-breathing",
+  "rev": 2,
+  "status": "review",
+  "plan": "new",
+  "level": 2,
+  "minutes": 5,
+  "disciplines": [
+    "sporting",
+    "compak"
+  ],
+  "audiences": [
+    "shooter",
+    "coach"
+  ],
+  "index": "always",
+  "critical": false,
+  "disclaimer": "medical",
+  "review_by": null,
+  "review": {
+    "status": "pending",
+    "specialist": "sport psychologist",
+    "facts": "2026-10-07",
+    "rules_data": "sporting-2026/compak-2025",
+    "editor": null
+  },
+  "legacy": {
+    "learn": [],
+    "interpreter": []
+  },
+  "terms": [
+    "pre-shot-routine",
+    "call",
+    "box-breathing"
+  ],
+  "rule_refs": [
+    {
+      "book": "compak",
+      "id": "ch17-squad-rotation"
+    }
+  ],
+  "facts": [
+    "mind.slow-breathing-rate"
+  ],
+  "sources": [
+    {
+      "title": {
+        "en": "Effects of voluntary slow breathing on heart rate and heart rate variability: a systematic review and a meta-analysis (Neuroscience & Biobehavioral Reviews, 2022)"
+      },
+      "url": "https://doi.org/10.1016/j.neubiorev.2022.104711",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Heart rate variability biofeedback improves emotional and physical health and performance: a systematic review and meta analysis (Applied Psychophysiology and Biofeedback, 2020)"
+      },
+      "url": "https://doi.org/10.1007/s10484-020-09466-z",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Can heart rate variability biofeedback improve athletic performance? A systematic review (Journal of Human Kinetics, 2020)"
+      },
+      "url": "https://doi.org/10.2478/hukin-2020-0004",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "A novel integrated training program for police pistol use across multiple operational scenarios: a randomized controlled trial of integrated psychological skill (Frontiers in Psychology, 2026)"
+      },
+      "url": "https://doi.org/10.3389/fpsyg.2026.1806651",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Emotions and ensuing motor performance are altered by regulating breathing frequency: implications for emotion regulation and sport performance (Frontiers in Psychology, 2022)"
+      },
+      "url": "https://doi.org/10.3389/fpsyg.2022.963711",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Brief structured respiration practices enhance mood and reduce physiological arousal (Cell Reports Medicine, 2023)"
+      },
+      "url": "https://doi.org/10.1016/j.xcrm.2022.100895",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "The effectiveness of combat tactical breathing as compared with prolonged exhalation (Applied Psychophysiology and Biofeedback, 2021)"
+      },
+      "url": "https://doi.org/10.1007/s10484-020-09485-w",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Inhalation/exhalation ratio modulates the effect of slow breathing on heart rate variability and relaxation (Applied Psychophysiology and Biofeedback, 2014)"
+      },
+      "url": "https://doi.org/10.1007/s10484-014-9253-x",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "Do longer exhalations increase HRV during slow-paced breathing? (Applied Psychophysiology and Biofeedback, 2024)"
+      },
+      "url": "https://doi.org/10.1007/s10484-024-09637-2",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "FITASC — official rules of Parcours de Chasse – Sporting™ and Compak® Sporting",
+        "uk": "FITASC — офіційні правила Parcours de Chasse – Sporting™ і Compak® Sporting"
+      },
+      "url": "https://www.fitasc.com/disciplines-sportives/reglements-sportifs",
+      "rel": "nofollow noopener noreferrer",
+      "checked": "2026-10-07",
+      "license": "link only"
+    }
+  ],
+  "title": {
+    "en": "Breathing: what to do and when",
+    "uk": "Дихання: що робити і коли"
+  },
+  "summary": {
+    "en": "Slow breathing calms the body, but timing matters. What you can try on training days, before the stand, at the call and after a miss.",
+    "uk": "Повільне дихання заспокоює тіло, але важливо, коли саме. Що можна спробувати в тренувальні дні, перед стрілецьким місцем, перед командою і після промаху."
+  },
+  "brief": {
+    "points": {
+      "en": [
+        "A table 'moment → what to do'.",
+        "On training days: 5–10 minutes of slow breathing, about 6 breaths a minute.",
+        "2–5 minutes before the stand: a few slow breaths, with a longer out-breath if that feels comfortable.",
+        "At the call: one normal breath out and loose shoulders, no long slow breathing (it may slow the reaction to the target).",
+        "After a miss: one slow breath out.",
+        "Box breathing and the 'physiological sigh' are options with limited data: present them as something you can try (audit A-04).",
+        "Evidence: the physiology is well researched; the effect on the score has little research. Receives the breathing paragraph of mind-competition-nerves."
+      ],
+      "uk": [
+        "Таблиця «момент → що робити».",
+        "У тренувальні дні: 5–10 хвилин повільного дихання, приблизно 6 вдихів за хвилину.",
+        "За 2–5 хвилин до стрілецького місця: кілька повільних вдихів, видих довший, якщо так зручно.",
+        "Перед командою: один звичайний видих і опущені плечі, без довгого повільного дихання (воно може сповільнити реакцію на мішень).",
+        "Після промаху: один повільний видих.",
+        "Box breathing і «фізіологічне зітхання» — варіанти з обмеженими даними: подавати як те, що можна спробувати (аудит A-04).",
+        "Доказовість: фізіологію добре досліджено; вплив на рахунок — мало досліджень. Сюди переходить абзац про дихання з mind-competition-nerves."
+      ]
+    }
+  },
+  "body": [
+    {
+      "k": "mind-breathing-p1",
+      "t": "p",
+      "en": "When you are stressed, your body reacts on its own: the heart beats faster and breathing gets shallow. Breathing is one of the few parts of this you can control directly. Many studies show that slow breathing, at {{fact:mind.slow-breathing-rate}}, calms the body: the heartbeat settles into a calmer, more flexible rhythm (researchers measure this as heart rate variability).",
+      "uk": "Коли ви у стресі, тіло реагує само: серце б’ється частіше, дихання стає поверхневим. Дихання — одна з небагатьох частин цієї реакції, якою можна керувати прямо. Багато досліджень показують, що повільне дихання, {{fact:mind.slow-breathing-rate}}, заспокоює тіло: серце переходить на спокійніший, гнучкіший ритм (дослідники вимірюють це як варіабельність серцевого ритму)."
+    },
+    {
+      "k": "mind-breathing-p2",
+      "t": "p",
+      "en": "Whether it raises your score is much less clear. Small studies with sport shooters and one study with police pistol shooters found it helped, but we found no study in {{tm:sporting}} or {{tm:compak}}.",
+      "uk": "Чи підвищує воно рахунок — набагато менш зрозуміло. Невеликі дослідження зі спортивними стрільцями й одне дослідження з поліцейськими, які стріляли з пістолета, показали користь, але досліджень у {{tm:sporting}} чи {{tm:compak}} ми не знайшли."
+    },
+    {
+      "k": "mind-breathing-steps",
+      "t": "steps",
+      "en": [
+        "Training days: 5–10 minutes of slow breathing at {{fact:mind.slow-breathing-rate}}, for example in for 4 seconds and out for 6.",
+        "2–5 minutes before the stand: 6–10 slow breaths, with a longer breath out if that feels comfortable.",
+        "In the {{term:pre-shot-routine|routine}}, just before the call: one natural breath out and loose shoulders, then the {{term:call|call}}.",
+        "After a lost target: one slow breath out as the signal to reset."
+      ],
+      "uk": [
+        "Тренувальні дні: 5–10 хвилин повільного дихання, {{fact:mind.slow-breathing-rate}}, наприклад вдих на 4 секунди й видих на 6.",
+        "За 2–5 хвилин до стрілецького місця: 6–10 повільних вдихів, видих довший, якщо так зручно.",
+        "У {{term:pre-shot-routine|ритуалі}}, перед самою командою: один звичайний видих і розслаблені плечі, потім {{term:call|команда}} (виклик мішені).",
+        "Після промаху: один повільний видих як сигнал до перезапуску."
+      ]
+    },
+    {
+      "k": "mind-breathing-p3",
+      "t": "p",
+      "en": "If you practise slow breathing on ordinary days, your body learns to calm down faster, so on competition day it may come more easily. A heart-rate sensor that shows your heart rhythm live (this is called biofeedback) can help, but you do not need one.",
+      "uk": "Якщо тренувати повільне дихання у звичайні дні, тіло вчиться заспокоюватися швидше, тож у день змагань це може приходити легше. Датчик пульсу, який показує ритм серця наживо (це називають біологічним зворотним зв’язком), може допомогти, але без нього теж можна."
+    },
+    {
+      "k": "mind-breathing-p4",
+      "t": "p",
+      "en": "Before the stand there is no time pressure, so a few slow breaths can lower tension without getting in the way. In {{tm:compak}}, if your squad has six shooters, the wait behind station 1 is a good moment ({{rule:compak:ch17-squad-rotation}}).",
+      "uk": "До стрілецького місця час не тисне, тож кілька повільних вдихів можуть зняти напругу, нічому не заважаючи. У {{tm:compak}}, якщо у вашій групі шість стрільців, для цього добре підходить очікування за першим номером ({{rule:compak:ch17-squad-rotation}})."
+    },
+    {
+      "k": "mind-breathing-p5",
+      "t": "p",
+      "en": "Just before the call, keep the breath short and natural. In one lab study, slow paced breathing slowed reaction time. Clay shooting starts with a reaction to the target, and the delay after the call is often hard to predict (in {{tm:sporting}}, and in {{tm:compak}} with a manual release). So one easy breath out is enough here.",
+      "uk": "Перед самою командою дихайте коротко й природно. В одному лабораторному дослідженні повільне дихання в заданому темпі сповільнювало реакцію. Стендова стрільба починається з реакції на мішень, а затримку після команди часто важко передбачити (у {{tm:sporting}}, а в {{tm:compak}} — при ручному запуску). Тож тут досить одного легкого видиху."
+    },
+    {
+      "k": "mind-breathing-p6",
+      "t": "p",
+      "en": "After a miss, one slow breath out can mark the end of that target. It works as a reset signal: see {{lesson:mind-reset-after-miss}}.",
+      "uk": "Після промаху один повільний видих може поставити крапку на цій мішені. Він працює як сигнал до перезапуску: див. {{lesson:mind-reset-after-miss}}."
+    },
+    {
+      "k": "mind-competition-nerves-p3",
+      "t": "p",
+      "en": "You may hear of {{term:box-breathing|box breathing}}: in, hold, out and hold, four counts each. It is one option you can try. When researchers compared it with other ways of breathing, it did no better; in one study, simply breathing out longer than you breathe in worked better.",
+      "uk": "Можливо, ви чули про «{{term:box-breathing|квадратне дихання}}» (box breathing): вдих, пауза, видих і пауза, кожен етап на 4 рахунки. Це один із варіантів, які можна спробувати. Коли дослідники порівнювали його з іншими способами дихання, кращим воно не виявилося; в одному дослідженні краще спрацював просто видих, довший за вдих."
+    },
+    {
+      "k": "mind-breathing-p7",
+      "t": "p",
+      "en": "The “physiological sigh” is two breaths in through the nose and one long breath out. In one study, five minutes a day of it improved mood. We found no study of it just before a shot.",
+      "uk": "«Фізіологічне зітхання» — це два вдихи носом і один довгий видих. В одному дослідженні п’ять хвилин такого дихання щодня покращували настрій. Досліджень про нього безпосередньо перед пострілом ми не знайшли."
+    },
+    {
+      "k": "mind-breathing-p8",
+      "t": "p",
+      "en": "Many people find a breath out that is longer than the breath in relaxing. Studies disagree on whether it adds anything, so choose the rhythm that feels comfortable.",
+      "uk": "Багатьом людям видих, довший за вдих, допомагає розслабитися. Дослідження розходяться в тому, чи дає це щось додаткове, тож обирайте ритм, який вам зручний."
+    },
+    {
+      "k": "mind-breathing-warn",
+      "t": "warn",
+      "en": "Breathing exercises should feel easy. If you feel dizzy or short of breath, return to normal breathing. If you have a heart or lung condition, ask your doctor first.",
+      "uk": "Дихальні вправи мають даватися легко. Якщо паморочиться в голові чи бракує повітря, поверніться до звичайного дихання. Якщо у вас є захворювання серця чи легень, спершу порадьтеся з лікарем."
+    }
+  ],
+  "note": [
+    {
+      "k": "mind-breathing-n1",
+      "for": "coach",
+      "en": "Teach slow breathing away from the stand, on training days. On the stand, keep only the short natural breath out before the call.",
+      "uk": "Навчайте повільного дихання поза стрілецьким місцем, у тренувальні дні. На місці залиште тільки короткий природний видих перед командою."
+    }
+  ],
+  "phrases": [],
+  "key_points": [
+    {
+      "k": "mind-breathing-kp1",
+      "en": "Slow breathing calms the body; you can practise it 5–10 minutes on training days.",
+      "uk": "Повільне дихання заспокоює тіло; його можна тренувати 5–10 хвилин у тренувальні дні."
+    },
+    {
+      "k": "mind-breathing-kp2",
+      "en": "Before the stand: a few slow breaths, with a comfortable longer breath out.",
+      "uk": "Перед стрілецьким місцем: кілька повільних вдихів, зручний довший видих.",
+      "checklist": true
+    },
+    {
+      "k": "mind-breathing-kp3",
+      "en": "At the call: one natural breath out and loose shoulders, not long slow breathing.",
+      "uk": "Перед командою: один звичайний видих і розслаблені плечі, без довгого повільного дихання.",
+      "checklist": true
+    },
+    {
+      "k": "mind-breathing-kp4",
+      "en": "After a miss: one slow breath out to start the reset.",
+      "uk": "Після промаху: один повільний видих, щоб почати перезапуск."
+    },
+    {
+      "k": "mind-breathing-kp5",
+      "en": "Box breathing and the physiological sigh are options to try; research on them is limited.",
+      "uk": "«Квадратне дихання» і «фізіологічне зітхання» — варіанти, які можна спробувати; досліджень про них мало."
+    }
+  ],
+  "did_you_know": {
+    "k": "mind-breathing-dyk",
+    "en": "Slow breathing at {{fact:mind.slow-breathing-rate}} is sometimes called resonance breathing: at this pace, heart rate and breathing tend to rise and fall together.",
+    "uk": "Повільне дихання, {{fact:mind.slow-breathing-rate}}, іноді називають резонансним: у такому темпі пульс і дихання зазвичай зростають і спадають разом."
+  },
+  "quiz": [
+    {
+      "k": "mind-breathing-q1",
+      "q": {
+        "en": "What can you try just before the call?",
+        "uk": "Що можна спробувати перед самою командою?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Ten slow breaths at six a minute",
+          "uk": "Десять повільних вдихів, шість за хвилину"
+        },
+        {
+          "k": "b",
+          "en": "One natural breath out, shoulders down",
+          "uk": "Один звичайний видих, плечі опущені"
+        },
+        {
+          "k": "c",
+          "en": "Holding your breath for a count of four",
+          "uk": "Затримати дихання на чотири рахунки"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "Long, slow breathing right before the call may slow your reaction; keep slow breaths for before the stand.",
+        "uk": "Довге повільне дихання перед самою командою може сповільнити реакцію; повільні вдихи залиште на час до стрілецького місця."
+      }
+    },
+    {
+      "k": "mind-competition-nerves-q1",
+      "q": {
+        "en": "What does research say about box breathing?",
+        "uk": "Що кажуть дослідження про «квадратне дихання»?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "It works clearly better than other methods",
+          "uk": "Воно явно краще за інші способи"
+        },
+        {
+          "k": "b",
+          "en": "It is not allowed in competitions",
+          "uk": "Воно заборонене на змаганнях"
+        },
+        {
+          "k": "c",
+          "en": "It is one option, with little research",
+          "uk": "Це один із варіантів, досліджень мало"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "When researchers compared box breathing with other ways of breathing, it was not better; you can try it, but it is not a sure fix.",
+        "uk": "Коли дослідники порівнювали квадратне дихання з іншими способами, кращим воно не виявилося; його можна спробувати, але це не гарантований засіб."
+      },
+      "from": "mind-competition-nerves"
+    },
+    {
+      "k": "mind-breathing-q2",
+      "q": {
+        "en": "When is slow breathing at about six breaths a minute a good fit?",
+        "uk": "Коли доречне повільне дихання, приблизно шість вдихів за хвилину?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "On training days and before the stand",
+          "uk": "У тренувальні дні й перед стрілецьким місцем"
+        },
+        {
+          "k": "b",
+          "en": "Right up to the very moment of the call",
+          "uk": "Аж до самого моменту команди"
+        },
+        {
+          "k": "c",
+          "en": "Only after the whole round is over",
+          "uk": "Лише після завершення всього раунду"
+        }
+      ],
+      "correct": "a",
+      "explain": {
+        "en": "Use slow breathing when there is no time pressure; at the call, one natural breath out is enough.",
+        "uk": "Повільне дихання доречне, коли час не тисне; перед командою досить одного звичайного видиху."
+      }
+    }
+  ],
+  "exam_pool": [
+    {
+      "k": "mind-breathing-q3",
+      "q": {
+        "en": "What can you do with your breath after a lost target?",
+        "uk": "Що можна зробити з диханням після промаху?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "en": "Hold your breath right up to the next call",
+          "uk": "Затримати дихання аж до наступної команди"
+        },
+        {
+          "k": "b",
+          "en": "One slow breath out to start the reset",
+          "uk": "Один повільний видих, щоб почати перезапуск"
+        },
+        {
+          "k": "c",
+          "en": "Breathe fast and hard to stay sharp",
+          "uk": "Дихати часто й сильно, щоб бути зібраним"
+        }
+      ],
+      "correct": "b",
+      "explain": {
+        "en": "One slow breath out marks the end of the lost target and starts your reset.",
+        "uk": "Один повільний видих ставить крапку на втраченій мішені й починає перезапуск."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "for": "mind-breathing-p1",
+      "level": "strong",
+      "sources": [
+        "https://doi.org/10.1016/j.neubiorev.2022.104711",
+        "https://doi.org/10.1007/s10484-020-09466-z"
+      ]
+    },
+    {
+      "for": "mind-breathing-p2",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.2478/hukin-2020-0004",
+        "https://doi.org/10.3389/fpsyg.2026.1806651"
+      ]
+    },
+    {
+      "for": "mind-breathing-steps",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-breathing-p3",
+      "level": "some",
+      "sources": [
+        "https://doi.org/10.1007/s10484-020-09466-z",
+        "https://doi.org/10.2478/hukin-2020-0004"
+      ]
+    },
+    {
+      "for": "mind-breathing-p4",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-breathing-p5",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.3389/fpsyg.2022.963711"
+      ]
+    },
+    {
+      "for": "mind-breathing-p6",
+      "level": "coaches",
+      "sources": []
+    },
+    {
+      "for": "mind-competition-nerves-p3",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1016/j.xcrm.2022.100895",
+        "https://doi.org/10.1007/s10484-020-09485-w"
+      ]
+    },
+    {
+      "for": "mind-breathing-p7",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1016/j.xcrm.2022.100895"
+      ]
+    },
+    {
+      "for": "mind-breathing-p8",
+      "level": "little",
+      "sources": [
+        "https://doi.org/10.1007/s10484-014-9253-x",
+        "https://doi.org/10.1007/s10484-024-09637-2"
+      ]
+    }
+  ],
+  "h_uk": {
+    "title": "926c9f8a",
+    "summary": "f0bdde03",
+    "mind-breathing-p1": "76e545be",
+    "mind-breathing-p2": "26eead03",
+    "mind-breathing-steps": "b68bd634",
+    "mind-breathing-p3": "f54f88a0",
+    "mind-breathing-p4": "14ca0639",
+    "mind-breathing-p5": "230d5c94",
+    "mind-breathing-p6": "8cf0f6bd",
+    "mind-competition-nerves-p3": "eed03068",
+    "mind-breathing-p7": "bfe98f79",
+    "mind-breathing-p8": "afec1368",
+    "mind-breathing-warn": "c8f6135d",
+    "mind-breathing-n1": "6a644e06",
+    "mind-breathing-kp1": "e497a7b5",
+    "mind-breathing-kp2": "2cf05753",
+    "mind-breathing-kp3": "5382ac94",
+    "mind-breathing-kp4": "d1e8868d",
+    "mind-breathing-kp5": "2e15775a",
+    "mind-breathing-dyk": "9a96120f",
+    "mind-breathing-q1": "b8decf71",
+    "mind-competition-nerves-q1": "180c2d71",
+    "mind-breathing-q2": "04c166a8",
+    "mind-breathing-q3": "0d2189cc"
+  },
+  "todo": {
+    "moves_out": [],
+    "moves_in": [],
+    "tasks": [
+      "Specialist check: review.status stays \"pending\" (the page shows \"Перевіряється\") until the sport psychologist named in review.specialist has checked the lesson; then set review.status \"done\", fill review.editor and move status to \"ready\"."
+    ]
+  }
+}
