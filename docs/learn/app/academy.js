@@ -250,6 +250,24 @@
     if (parts.length) setTimeout(() => toast(parts.join(" · ")), 900); }
 
   /* ================================ 7. Small components ================================ */
+  /* ---- The Academy mascot (docs/shared/mascot.js → window.ClayMascot, loaded by docs/shared/nav.js; DEVELOPERS.md §4j).
+     dog(pose, {bubble, size, anim, cls}) writes an EMPTY decorative slot (<span data-clay-mascot …>, aria-hidden); mascot.js fills it
+     as soon as it is in the page (MutationObserver), also when mascot.js loads after the view. Without mascot.js the slot stays empty
+     and takes no space (.ac-mascot:empty). BUBBLES ARE ENGLISH ONLY on every page language ("Good shot!" for a right answer or a pass,
+     "Safety first!" on the Safety block lessons): they are part of the picture, never translated, never UI text; "think" (a wrong
+     answer, a failed round, nothing found) and "sleep" (nothing done yet) have no words. Placements (owner 08.10.2026): lesson quiz
+     (next to the explanation of the last answer), route exam result, Practice games except the referee's call and the rules trainer
+     (kept serious: NO_DOG), top of the Safety block lessons, empty progress page, search without results, certificate corner.
+     anim:false = no entrance motion (the same state drawn again by a re-render). The dog is never shown in the rules guide or trainer. */
+  const GOOD = "Good shot!", SAFE = "Safety first!", NO_DOG = ["referees-call", "rules-exam"];
+  // When mascot.js is already loaded the slot is written FILLED (same SVG as ClayMascot.mount): a re-render (after every quiz answer)
+  // then never shows an empty slot for a moment, which made the browser's scroll anchoring move the page (quiz test 10.2026).
+  const dog = (pose, o = {}) => { const M = window.ClayMascot, fill = M && M.svg ? M.svg(pose, { size: o.size || 0, bubble: o.bubble || "", anim: o.anim !== false }) : "";
+    return `<span class="ac-mascot${o.cls ? " " + o.cls : ""}${fill ? " cm-host" : ""}" data-clay-mascot="${pose}"${o.bubble ? ` data-bubble="${esc(o.bubble)}"` : ""}${o.size ? ` data-size="${o.size}"` : ""}${o.anim === false ? ' data-anim="0"' : ""} aria-hidden="true">${fill}</span>`; };
+  const dogFor = (right, o = {}) => dog(right ? "happy" : "think", Object.assign({ bubble: right ? GOOD : "" }, o)); // right / wrong
+  const dogOk = g => !!g && !g.external && !NO_DOG.includes(g.id);                       // Practice games that may show the dog
+  /* Text of an element for the screen reader announcement, without decorative parts (the dog's SVG has the bubble text in it). */
+  const plainText = el => { const c = el.cloneNode(true); c.querySelectorAll('[aria-hidden="true"]').forEach(x => x.remove()); return c.textContent; };
   const ring = (d, n) => { const pct = n ? d / n : 0, C = 2 * Math.PI * 16;
     return `<svg class="ac-ring" viewBox="0 0 40 40" role="img" aria-label="${d} / ${n}"><circle cx="20" cy="20" r="16" class="bg"/><circle cx="20" cy="20" r="16" class="fg" stroke-dasharray="${(pct * C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 20 20)"/><text x="20" y="24" text-anchor="middle">${d}</text></svg>`; };
   const bar = (d, n, label) => `<span class="ac-pbar" role="progressbar" aria-label="${esc(label || "")}" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${d}"><i style="width:${n ? Math.round(d / n * 100) : 0}%"></i></span>`;
@@ -369,7 +387,10 @@
     const n = norm(q).trim(); if (n.length < 2) return "";
     const ls = Object.values(CAT.lessons).filter(c => c.status !== "draft" && (norm(c.title).includes(n) || norm(c.summary).includes(n))).slice(0, 8);
     const terms = GLO.ready ? GLO.search(n).slice(0, 6) : [];
-    if (!ls.length && !terms.length) return `<p class="ac-muted">${GLO.ready ? t("search_none") : t("loading")}</p>`;
+    if (!ls.length && !terms.length) { if (!GLO.ready) return `<p class="ac-muted">${t("loading")}</p>`;
+      const again = VIEW.qNone; VIEW.qNone = true; // the "think" dog moves only the first time, not on every key press
+      return `<div class="ac-empty">${dog("think", { size: 56, anim: !again })}<p class="ac-muted">${t("search_none")}</p></div>`; }
+    VIEW.qNone = false;
     return `${ls.length ? `<h3 class="ac-h3">${t("search_lessons")}</h3><ul class="ac-lessons">${ls.map(c => lessonRow(c.id, { summary: true })).join("")}</ul>` : ""}
       ${terms.length ? `<h3 class="ac-h3">${t("search_terms")}</h3><ul class="ac-terms">${terms.map(x => `<li><a href="${x.url}"><b>${esc(x.local)}</b>${x.local !== x.en ? ` <span lang="en">· ${esc(x.en)}</span>` : ""}<span class="ac-les-s">${esc(x.short)}</span></a></li>`).join("")}</ul>` : ""}`;
   }
@@ -435,7 +456,7 @@
   /* Certificate sheet (printable, A4). Name only from this device; no federation logos; the disclaimer is always on it (design §7.7). */
   function certHtml(r, cert) {
     const ex = (S.routes[r.id] || {}).exam;
-    return `<div class="ac-cert" id="cert-${esc(r.id)}"><div class="ac-cert-logo">ClayArena</div><div class="ac-cert-k">${t("cert_title")}</div>
+    return `<div class="ac-cert" id="cert-${esc(r.id)}">${dog("happy", { size: 56, anim: false, cls: "ac-cert-dog" })}<div class="ac-cert-logo">ClayArena</div><div class="ac-cert-k">${t("cert_title")}</div>
       <div class="ac-cert-name">${esc(S.name || "—")}</div><p>${t("cert_route", { route: r.title })}</p>
       <p class="ac-cert-meta">${cert ? esc(cert.date) : ""}${ex ? ` · ${t("route_exam")}: ${esc(ex.score)} %` : ""}${cert && cert.no ? ` · ${t("cert_no", { no: cert.no })}` : ""}</p>
       <p class="ac-cert-d">${t("cert_disclaimer")}${r.disclaimer ? " " + esc(r.disclaimer) : ""}</p>${cert && cert.legacy ? `<p class="ac-cert-d">${t("cert_legacy")}</p>` : ""}</div>`;
@@ -454,6 +475,7 @@
     const notesOpen = !!(inRoute && inRoute.notes_open), standOpen = notesOpen || c.block === "stand-talk";
     const cr = lessonCrumbs(c, b, sec, inRoute, so); // by where the reader came from (?route), else the topic path
     VIEW.phr = D.phrases || [];
+    if (c.block === "safety") after(() => { VIEW.safeDog = 1; }); // Safety block: "Safety first!" dog moves once, not on re-renders
     const ev = {}; for (const e of D.evidence || []) (ev[e.for] = ev[e.for] || []).push(e.level);
     for (const x of D.body || []) if (x.t === "evidence" && x.for) (ev[x.for] = ev[x.for] || []).push(x.level);
     const hero = heroBlock(D.body || []);
@@ -464,7 +486,7 @@
     ${inRoute && step >= 0 ? `<div class="ac-strip"><span>${esc(inRoute.title)} · ${t("step_of", { n: step + 1, t: req.length })}</span>${bar(req.filter(done).length, req.length, inRoute.title)}
       <span class="ac-strip-nav">${prev && lessonHref(prev) ? `<a href="${withRoute(lessonHref(prev).url, inRoute.id)}" data-nav aria-label="${t("prev_lesson")}">←</a>` : ""}${next && lessonHref(next) ? `<a href="${withRoute(lessonHref(next).url, inRoute.id)}" data-nav aria-label="${t("next_lesson")}">→</a>` : ""}</span></div>` : ""}
     <article class="ac-lesson" lang="${LANG}">
-    <header class="ac-head"><div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
+    <header class="ac-head">${c.block === "safety" ? dog("safety", { bubble: SAFE, size: 60, anim: !VIEW.safeDog, cls: "ac-mascot-head" }) : ""}<div class="ac-eyebrow">${b ? `<span aria-hidden="true">${icon(b.icon)}</span> ${esc(b.title)}` : ""}${sec ? " · " + esc(sec.title) : ""}</div>
       <h1 tabindex="-1">${esc(c.title)}</h1>
       <p class="ac-meta">⏱ ${c.minutes || 4} ${t("min")} · ${c.level === 1 ? "★ " + t("start_here") : t("go_deeper")} ${discChips(c.disciplines)}
         ${hero ? `<a class="ac-chip ac-animark" href="#anim-${esc(hero.k)}">▶ ${t("anim_marker")}</a>` : ""}
@@ -584,8 +606,9 @@
       return `<fieldset class="ac-q"><legend>${qi + 1}. ${esc(q.q)}</legend><div class="ac-opts">${ord.map(k => { const o = q.options.find(x => x.k === k);
         const cls = a == null ? "" : k === q.correct ? " right" : k === a ? " wrong" : "";
         return `<button type="button" class="ac-opt${cls}" data-act="ans" data-q="${esc(q.k)}" data-v="${esc(k)}"${a != null ? ' aria-disabled="true"' : ""} aria-pressed="${a === k}">${esc(o ? o.text : k)}</button>`; }).join("")}</div>
-        <div class="ac-explain" aria-live="polite">${a != null ? `<b>${a === q.correct ? t("correct") : t("wrong")}</b> ${esc(q.explain || "")}${q.rule_ref ? ` <a href="${esc(rulesUrl(...String(q.rule_ref).split(":")))}">${t("rules_where")} →</a>` : ""}` : ""}</div></fieldset>`; }).join("");
+        <div class="ac-explain ac-explain-q" aria-live="polite">${a != null ? `${VIEW.lastQ === q.k ? dogFor(a === q.correct, { size: 66, anim: VIEW.dogAnim === q.k, cls: "ac-mascot-ex" }) : ""}<b>${a === q.correct ? t("correct") : t("wrong")}</b> ${esc(q.explain || "")}${q.rule_ref ? ` <a href="${esc(rulesUrl(...String(q.rule_ref).split(":")))}">${t("rules_where")} →</a>` : ""}` : ""}</div></fieldset>`; }).join("");
     const all = qs.every(q => VIEW.ans[q.k] != null), score = qs.filter(q => VIEW.ans[q.k] === q.correct).length;
+    if (VIEW.dogAnim) after(() => { VIEW.dogAnim = null; }); // the dog of the last answer moves once (onAnswer), then stays still
     return html + (all ? `<p class="ac-qres"><b>${t("quiz_score", { n: score, t: qs.length })}</b> <button type="button" class="ac-btn" data-act="quizagain">${t("quiz_again")}</button></p>`
       : done(id) ? `<p class="ac-muted">✓ ${t("lesson_done")} · ${t("quiz_best", { n: S.done[id].q, t: qs.length })}</p>` : "");
   }
@@ -616,7 +639,7 @@
         <p><button type="button" class="ac-btn primary" data-act="exnext"${a == null ? " disabled" : ""}>${E.i + 1 < E.qs.length ? t("next") : t("exam_finish")} →</button></p>`; }
     const ok = E.qs.filter((q, i) => E.ans[i] === q.correct).length, score = Math.round(ok / E.qs.length * 100), pass = score >= cfg.pass_pct;
     const wrong = E.qs.map((q, i) => ({ q, a: E.ans[i] })).filter(x => x.a !== x.q.correct);
-    return `${head}<div class="ac-result ${pass ? "pass" : "fail"}"><div class="ac-score">${ok} / ${E.qs.length}</div><p>${pass ? t("exam_passed", { score }) : t("exam_failed", { score, p: cfg.pass_pct })}</p></div>
+    return `${head}<div class="ac-result ${pass ? "pass" : "fail"}">${dogFor(pass, { size: 84 })}<div class="ac-score">${ok} / ${E.qs.length}</div><p>${pass ? t("exam_passed", { score }) : t("exam_failed", { score, p: cfg.pass_pct })}</p></div>
       ${wrong.length ? `<h2>${t("exam_review")}</h2>${wrong.map(x => `<div class="ac-q is-review"><p><b>${esc(x.q.q)}</b></p><p class="ac-muted">${t("exam_your")}: ${esc((x.q.options.find(o => o.k === x.a) || {}).text || "—")}</p><p class="ac-ok">✓ ${esc((x.q.options.find(o => o.k === x.q.correct) || {}).text || "")}</p><p>${esc(x.q.explain || "")}</p>${x.q.lesson && L(x.q.lesson) && lessonHref(x.q.lesson) ? `<p><a href="${lessonHref(x.q.lesson).url}" data-nav>${esc(L(x.q.lesson).title)} →</a></p>` : ""}</div>`).join("")}` : ""}
       <p><a class="ac-btn primary" href="${pageLink(r, `routes/${r.id}/`).url}#certificate" data-nav>${t("to_route")}</a> <button type="button" class="ac-btn" data-act="examstart" data-v="${esc(r.id)}">${t("play_again")}</button></p>`;
   }
@@ -675,6 +698,7 @@
     return `${crumbs([home(), { label: u("progress") }])}<header class="ac-head"><h1 tabindex="-1">${t("progress")}</h1>
       <p class="ac-lead"><b>${esc(lv.level.title)}</b> · ${x.total} ${t("xp")}${lv.next ? ` · ${t("xp_to_next", { n: lv.next.min_xp - x.total, level: lv.next.title })}` : ""}</p>${bar(lv.pct, 100, u("level"))}
       <p class="ac-meta">${t("progress_lessons", { n: Object.keys(S.done).length, t: Object.keys(CAT.lessons).length })}</p>
+      ${!Object.keys(S.done).length && !certs.length && !x.total ? `<div class="ac-empty">${dog("sleep", { size: 110 })}</div>` : ""}
       ${!PERSIST ? `<p class="ac-note">${t("progress_not_saved")}</p>` : ""}</header>
     <section aria-labelledby="h-certs"><h2 id="h-certs">🎓 ${t("certificates")}</h2>${certs.length ? certs.map(r => certHtml(r, S.routes[r.id].cert) + `<p><button type="button" class="ac-btn" data-act="printcert" data-v="${esc(r.id)}">🖨 ${t("cert_print")}</button></p>`).join("") : `<p class="ac-muted">${t("cert_none")}</p>`}
       <p id="name"><label for="acName"><b>${t("cert_name")}</b></label><br><input id="acName" type="text" maxlength="80" autocomplete="name" value="${esc(S.name)}"> <button type="button" class="ac-btn" data-act="savename">${t("save")}</button><br><span class="ac-muted ac-small">${t("name_device_only")}</span></p></section>
@@ -755,7 +779,7 @@
     const reveal = (b, j, fresh) => { const it = items[k], right = j === it.answer; host.dataset.locked = "1";
       if (fresh) { if (right) ok++; answerXP(g, right); picked = j; keep(); }
       host.querySelectorAll(".ac-opt").forEach(x => { x.setAttribute("aria-disabled", "true"); if (+x.dataset.j === it.answer) x.classList.add("right"); }); if (!right && b) b.classList.add("wrong");
-      host.querySelector(".ac-explain").innerHTML = `<b>${right ? t("correct") : t("wrong")}</b> ${it.why || ""}<p><button type="button" class="ac-btn primary" data-k="next">${k + 1 < items.length ? t("next") : t("game_finish")} →</button></p>`;
+      host.querySelector(".ac-explain").innerHTML = `${dogOk(g) ? dogFor(right, { size: 66, anim: fresh, cls: "ac-mascot-ex" }) : ""}<b>${right ? t("correct") : t("wrong")}</b> ${it.why || ""}<p><button type="button" class="ac-btn primary" data-k="next">${k + 1 < items.length ? t("next") : t("game_finish")} →</button></p>`;
       const nb = host.querySelector('[data-k="next"]'); if (fresh) nb.focus();
       nb.onclick = () => { delete host.dataset.locked; try { ClaySims.stopSims(); } catch (e) {} k++; picked = null; if (k < items.length) { keep(); draw(); } else end(); }; };
     const draw = () => { const it = items[k]; gameResume(g, k, items.length);
@@ -766,7 +790,8 @@
       if (picked != null) reveal(host.querySelector(`.ac-opt[data-j="${picked}"]`), picked, false);
     };
     const end = () => { rounds.clear(g.id); if (window.ClayNav) ClayNav.clearResume("learn"); roundEnd(g, ok, items.length);
-      host.innerHTML = `<div class="ac-result ${ok / items.length >= .8 ? "pass" : ""}"><div class="ac-score">${ok} / ${items.length}</div></div><p><button type="button" class="ac-btn primary" data-k="again">${t("play_again")}</button> <a class="ac-btn" href="${href("practice/")}" data-nav>${t("practice")}</a></p>`;
+      const passed = ok / items.length >= .8; // same mark as the green result box
+      host.innerHTML = `<div class="ac-result ${passed ? "pass" : ""}">${dogOk(g) ? dogFor(passed, { size: 84 }) : ""}<div class="ac-score">${ok} / ${items.length}</div></div><p><button type="button" class="ac-btn primary" data-k="again">${t("play_again")}</button> <a class="ac-btn" href="${href("practice/")}" data-nav>${t("practice")}</a></p>`;
       host.querySelector('[data-k="again"]').onclick = () => { rounds.clear(g.id); (opts.again || (() => GAMES[g.id](host, g)))(); }; };
     if (!items.length) { host.innerHTML = `<p class="ac-note">${t("game_need_more")}</p>`; return; }
     keep(); draw();
@@ -791,10 +816,15 @@
   const GAMES = {
     /* Lead lab (sims.js leadLab). No XP while practice.json says xp:false (S-01 …). Each method hit is remembered for "Чотири методи". */
     "lead-lab"(host, g) { if (!window.ClaySims) { host.innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
+      /* After each hit of "Your turn" (sims.js calls onHit only for hits, right after it has written the result line; a miss shows
+         nothing) a small "happy" dog with "Good shot!" at the start of that result line ([data-k="out"]), floated right. The next run
+         clears the line, so the dog goes with it. Review 08.10.2026: as a sticky overlay at the bottom right it covered the label of
+         the "Your turn" button on a 375 px phone for 3.5 s, just when the learner looks for the next action. */
       host.innerHTML = '<div class="ac-labhost"></div>'; simsConfig([]);
       ClaySims.config({ t: k => U[k], onHit: info => { const m = info && info.method; if (!m) return;
         const G = S.games[g.id] = S.games[g.id] || { best: 0, best_pct: 0, correct: 0, plays: 0, xp: 0, day: today(), xp_day: 0 };
-        G.methods = G.methods || {}; const fresh = !G.methods[m]; G.methods[m] = 1; answerXP(g, fresh); refreshProgress(); } });
+        G.methods = G.methods || {}; const fresh = !G.methods[m]; G.methods[m] = 1; answerXP(g, fresh); refreshProgress();
+        const out = host.querySelector('[data-k="out"]'); if (out && dogOk(g)) out.insertAdjacentHTML("afterbegin", dog("happy", { bubble: GOOD, size: 56, cls: "ac-mascot-ex" })); } });
       ClaySims.leadLab(host.firstChild, "maintained", { focus: "perceived-vs-actual" }); },
     /* Name the flight: 10 animated presentations, 4 names each (badge "10/10"). */
     async "name-the-flight"(host, g) { if (!window.ClaySims) { host.innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
@@ -868,7 +898,7 @@
           S.cards[id] = { box, due: P.today(d) }; answerXP(g, know); k++; if (k < session.length) show(false); else fin(); };
         q("know").onclick = () => grade(true); q("again").onclick = () => grade(false); q("know").focus(); };
       const fin = () => { rounds.clear(g.id); if (window.ClayNav) ClayNav.clearResume("learn"); roundEnd(g, 0, 0);
-        host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p><p><button type="button" class="ac-btn primary" data-k="more">${t("play_again")}</button></p>`; host.querySelector('[data-k="more"]').onclick = () => { rounds.clear(g.id); GAMES[g.id](host, g); }; };
+        host.innerHTML = `<div class="ac-empty">${dogOk(g) ? dog("happy", { size: 64 }) : ""}<p class="ac-ok">✓ ${t("cards_done")}</p></div><p><button type="button" class="ac-btn primary" data-k="more">${t("play_again")}</button></p>`; host.querySelector('[data-k="more"]').onclick = () => { rounds.clear(g.id); GAMES[g.id](host, g); }; };
       if (!session.length) { rounds.clear(g.id); host.innerHTML = `<p class="ac-ok">✓ ${t("cards_done")}</p>`; return; }
       show(!!(sv && sv.flip)); },
     /* Phrasebook: the phrases of one block as a list to listen to and print. No XP. */
@@ -970,7 +1000,7 @@
     if (act === "say") { const p = (VIEW.phr || [])[+v]; if (p) say(p.en); return; }
     if (act === "sim") { const sim = VIEW.sims && VIEW.sims[v], host = $("sim-" + v); if (sim && host && window.ClaySims) { b.remove(); ClaySims.mount(host, sim); } return; }
     if (act === "ans") { onAnswer(b.dataset.q, v); return; }
-    if (act === "quizagain") { VIEW.ans = {}; VIEW.order = {}; rerender(); const q = $("quiz"); if (q) q.scrollIntoView(); return; }
+    if (act === "quizagain") { VIEW.ans = {}; VIEW.order = {}; VIEW.lastQ = VIEW.dogAnim = null; rerender(); const q = $("quiz"); if (q) q.scrollIntoView(); return; }
     if (act === "markdone") { finish(LOC.id, 0); rerender(); return; }
     if (act === "examstart") { startExam(v); return; }
     if (act === "exans") { VIEW.exam.ans[VIEW.exam.i] = v; rerender(); const n = document.querySelector('[data-act="exnext"]'); if (n) n.focus(); return; }
@@ -994,11 +1024,12 @@
   document.addEventListener("focusin", e => { if (e.target.id === "acLang") delete e.target.dataset.kbd; });
   function onAnswer(qk, ok) {
     VIEW.ans = VIEW.ans || {}; if (VIEW.ans[qk] != null) return; VIEW.ans[qk] = ok;
+    VIEW.lastQ = qk; VIEW.dogAnim = qk; // the mascot stands next to the explanation of THIS answer (quizHtml)
     const qs = (VIEW.data && VIEW.data.quiz) || [];
     if (qs.every(q => VIEW.ans[q.k] != null)) finish(LOC.id, qs.filter(q => VIEW.ans[q.k] === q.correct).length);
     rerender();
     const btn = document.querySelector(`[data-act="ans"][data-q="${CSS.escape(qk)}"][data-v="${CSS.escape(ok)}"]`); if (btn) btn.focus(); // keep the keyboard place
-    const fs = btn && btn.closest(".ac-q"); if (fs) { const ex = fs.querySelector(".ac-explain"); if (ex) announce(ex.textContent); }
+    const fs = btn && btn.closest(".ac-q"); if (fs) { const ex = fs.querySelector(".ac-explain"); if (ex) announce(plainText(ex)); } // without the dog's bubble
   }
   function finish(id, score) {
     const c = L(id), x0 = xp().total, res = P.finishLesson(S, id, score, c.rev), nq = ((VIEW.data && VIEW.data.quiz) || []).length;

@@ -294,3 +294,25 @@ fieldset.ac-q legend{font-weight:600;font-size:16.5px;padding:0 4px;max-width:10
 .ac-draft{border:1px dashed var(--clay);border-radius:12px;padding:8px 12px;margin:12px 0;opacity:.85}
 .ac-upd{border-left:3px solid var(--cyan);padding-left:12px;margin:12px 0}
 .ac-upd>.ac-tag{display:inline-block;margin-bottom:4px}
+/* The Academy mascot (docs/shared/mascot.js fills the slots that academy.js writes; DEVELOPERS.md §4j). Decorative (aria-hidden);
+   an empty slot (mascot.js not loaded) takes no space. The bubble is part of the picture (English only), never UI text. */
+.ac-mascot{display:inline-block;line-height:0;vertical-align:bottom}
+.ac-mascot:empty{display:none}
+.ac-mascot-ex{float:right;margin:-2px 0 6px 12px}                 /* next to the explanation of an answer (quiz, games) */
+.ac-explain::after{content:"";display:table;clear:both}
+/* Lesson quiz: the dog stands only at the LAST answer, so every answered explanation reserves the dog's box (62×92 px with the
+   bubble). When the dog moves to the next answer nothing above it changes height, so the page does not jump (quiz test 10.2026). */
+.ac-explain-q:not(:empty){position:relative;min-height:96px;padding-right:74px}
+.ac-explain-q .ac-mascot-ex{position:absolute;top:0;right:0;margin:0;float:none}
+.ac-mascot-head{float:right;margin:0 0 8px 14px}                  /* top of the Safety block lessons */
+.ac-result .ac-mascot{display:block;width:max-content;margin:0 auto 6px}
+.ac-empty{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:8px 0}
+.ac-empty>p{margin:0}
+.ac-cert{position:relative}
+.ac-cert-dog{position:absolute;top:10px;right:12px}               /* small happy dog in the corner of the certificate */
+.ac-labhost .cs-out::after{content:"";display:table;clear:both}  /* lead lab: the dog after a hit floats in the result line */
+@media (max-width:560px){
+  .ac-cert-dog{top:6px;right:6px}
+  .ac-cert-dog svg{width:auto;height:52px}
+  .ac-mascot-head svg{width:auto;height:82px}
+}

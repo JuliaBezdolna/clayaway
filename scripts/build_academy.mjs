@@ -30,6 +30,7 @@
      sitemap-learn-<lang>.xml    one sitemap per language (scripts/build_seo.mjs lists them in the sitemap index)
      og/og-list.json             the share pictures to draw (python scripts/make_og.py reads it)
      shared/sims-text.js         texts of the shared animations, from content/academy/ui/<lang>.json
+     shared/sims.min.js          the shared animations as the pages load them: docs/shared/sims.js minified (see minifySims())
 
    Checks (design §6.6): ERRORS stop the build — nothing is written and the exit code is 1. WARNINGS are listed.
    Content errors of lessons whose status is still "draft" never block: such lessons are not built (normal build) or are built
@@ -98,6 +99,20 @@ const SIM_SPEC = {
 const GAME_DESC = { lead: "game_lead_d", flight: "game_flight_d", coach: "game_coach_d", call: "game_call_d", terms: "game_terms_d" }; // ui keys by legacy game id
 const P = l => (l === "uk" ? "" : l + "/");
 export const sha8 = s => createHash("sha1").update(String(s), "utf8").digest("hex").slice(0, 8);
+/* The animation file the pages load (review 08.10.2026). docs/shared/sims.js is the ONE source of the animations (CLAUDE.md "Без
+   дублей") and keeps its many comments for the team: about 160 KB, over the size budget of the animation style 10.2026 (+36 KB raw /
+   +12 KB gzip over 92 KB). GitHub Pages serves docs/ as it is, so every build writes docs/shared/sims.min.js: the same code minified
+   (Bun's transpiler: comments and spaces out, local names shortened; ≈ 76 KB, gzip ≈ 28 KB) with a one-line header. Every page loads
+   sims.min.js (the Academy pages here; the glossary pages and the hand-written pages through scripts/build_seo.mjs). Edit only
+   sims.js and rebuild; never edit the .min file. Without Bun the source is copied as it is (warning "sims-min"), so a page never
+   loads a missing or stale file. The checks of this build (S-09 registry, kind()) read the source. Production (clayarena.com): the
+   front-end bundler minifies it the same way. */
+export function minifySims(docsRoot = DOCS) {
+  const src = readFileSync(path.join(docsRoot, "shared", "sims.js"), "utf8");
+  const head = `/* ${GEN} from docs/shared/sims.js (the source, with the comments for the team): the minified copy the pages load. Do not edit: change docs/shared/sims.js and rebuild. */\n`;
+  try { if (typeof Bun !== "undefined" && Bun.Transpiler) return { code: head + new Bun.Transpiler({ loader: "js", minify: true }).transformSync(src), minified: true }; } catch (e) {}
+  return { code: head + src, minified: false };
+}
 // The English text a translation hash "h" is taken of (SCHEMA.md §5). Pure: used here and by overlay-writing scripts
 // (import { enSrc, sha8 } from "./build_academy.mjs") so a hash is never hand-computed and guessed.
 export const enSrc = (part, it) => {
@@ -842,7 +857,7 @@ export async function buildAcademy(o = {}) {
 
   /* ---------- page shell: the page contract of docs/learn/app/academy.js ----------
      <link academy.css> · <header id="acTop"> · <main id="app"> static content </main> · <footer id="acFoot"> · #acLive · #acToast · scripts (defer):
-     shared/nav.js, shared/sims.js, shared/progress.js, learn/app/academy.js. The app replaces #app when its data has loaded;
+     shared/nav.js, shared/sims.min.js (= shared/sims.js minified, minifySims()), shared/progress.js, learn/app/academy.js. The app replaces #app when its data has loaded;
      without JavaScript (and for crawlers and share previews) the static content below is the page. Static classes are st-*,
      the app's are ac-*: the inline CSS below styles only the static content. The animation box (figure.st-anim) is hidden while its
      div.st-sim is empty: without JavaScript there is nothing to play, so no "▶ Watch …" heading over an empty box; academy.js replaces
@@ -919,7 +934,7 @@ ${pg.body}
 <div id="acLive" class="ac-sr" aria-live="polite"></div>
 <div id="acToast" class="ac-toast" role="status" aria-live="polite"></div>
 <script src="${up}shared/nav.js" defer></script>
-<script src="${up}shared/sims.js" defer></script>
+<script src="${up}shared/sims.min.js" defer></script>
 <script src="${up}shared/progress.js" defer></script>
 <script src="${up}learn/app/academy.js" defer></script>
 </body>
@@ -1250,6 +1265,12 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
     const tn = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(termIds.map(id => { const en = enTerm(id), lo = L === "en" ? "" : localTerm(L, id);
       return [id, lo && lo.trim().toLowerCase() !== en.trim().toLowerCase() ? [en, L === "uk" ? ukApos(lo) : lo] : [en]]; }))]));
     FILES.set("shared/sims-text.js", `/* ${GEN} from content/academy/ui/<lang>.json and the glossary — texts of docs/shared/sims.js (all 11 ClayArena languages; English where a translation is missing) and the names of the terms the animations show. Do not edit. */\nwindow.CLAYSIMS_TEXT = ${JSON.stringify(st)};\nwindow.CLAYSIMS_TERMS = ${JSON.stringify(tn)};\n`); }
+  // canvas words without room (review 08.10.2026): the "line" pill of the stand scenes sits between the referee and the shooter's vest
+  // (sims.js shooter()); a long word covers the people beside the shooter on a phone (the German "Markierung" did; now "Linie")
+  for (const L of LANGS) { const w = (ui[L] || {}).anim_line; if (w && [...w].length > 7) warn("canvas-word", `${L}: ui anim_line "${w}" has more than 7 letters: on a phone its pill covers the people beside the shooter; use the short word for "line"`, { lang: L }); }
+  // the animations as the pages load them (minifySims(): docs/shared/sims.js minified; the source is read from the repo, not from --out)
+  { const m = minifySims(); FILES.set("shared/sims.min.js", m.code);
+    if (!m.minified) warn("sims-min", "docs/shared/sims.min.js is an unminified copy of docs/shared/sims.js: run the build with Bun (bun scripts/build_seo.mjs)"); }
   // lesson animation captions that the 9 overlay languages show as the generic caption (see heroOf): one warning per language
   for (const L of OVERLAY_LANGS) { const sc = SIM_CAP[L]; if (!sc) continue; const mi = uniq(sc.missing), stl = uniq(sc.stale);
     if (mi.length || stl.length) warn("sim-caption", `${L}: ${mi.length + stl.length} lesson animation captions show the generic caption (anim_w_<kind>) — ${mi.length} not translated${stl.length ? `, ${stl.length} translated from an older English text (${stl.join(", ")})` : ""}: translate body["<key>-sim"] of i18n/${L}/<lesson>.json in the next wave`, { lang: L }); }

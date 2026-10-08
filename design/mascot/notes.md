@@ -75,4 +75,5 @@ With `prefers-reduced-motion`, show only the static pose for each state, with no
 ## Open points for the owner
 - The name (not chosen; nothing written on the sheet).
 - Should the dog always wear earmuffs in stand scenes? This sketch says yes; the ears still show the "alert" flick below the cups.
-- Which variant (A/B/C) goes forward, and then a clean master file for the site.
+- ~~Which variant (A/B/C) goes forward~~ Decided 08.10.2026: variant C. The master drawing for the site is now `docs/shared/mascot.js`
+  (one source for page SVGs and canvas animations; API, placements and rules: DEVELOPERS.md §4j). Change the dog there, not here.

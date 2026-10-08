@@ -19,7 +19,7 @@
 //   --draft           full-site preview with the Academy draft lessons (only together with --out; never into docs/)
 import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
-import { buildAcademy } from "./build_academy.mjs";
+import { buildAcademy, minifySims } from "./build_academy.mjs";
 
 // ⚠⚠ FITASC_INDEX — the FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
 // and llms.txt until FITASC gives WRITTEN permission (CLAUDE.md, rules-spec "Легальність контенту"). Only the project owner sets it
@@ -442,23 +442,31 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
 </sitemapindex>
 `);
 // ClayArena project bar (docs/shared/nav.js): one navigation for every page of every project; added here so new pages get it too.
+// The animations: every page loads docs/shared/sims.min.js, the minified copy of docs/shared/sims.js (the one source, with the
+// comments for the team; review 08.10.2026: 160 KB with comments, ≈ 76 KB minified). It is written here too (the Academy build writes
+// it as well; with --skip-academy it would be stale), and every <script src="…shared/sims.js"> of a page (hand-written ones such as
+// docs/learn/index.html and docs/rules/trainer/index.html, older generated pages) is pointed at it.
 {
+  const sm = minifySims(); mkdirSync(`${DOCS}/shared`, { recursive: true }); writeFileSync(`${DOCS}/shared/sims.min.js`, sm.code);
+  if (!sm.minified) console.log("WARNING: docs/shared/sims.min.js is an unminified copy of docs/shared/sims.js (run this build with Bun)");
+  const SIMS_SRC_RE = /(<script\b[^>]*\bsrc="[^"]*shared\/)sims\.js"/g;
   const walk = d => readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? (["data", "src", "shared", "og"].includes(e.name) ? [] : walk(`${d}/${e.name}`)) : e.name.endsWith(".html") ? [`${d}/${e.name}`] : []);
   for (const f of walk(DOCS)) {
     const rp = f.slice(DOCS.length + 1); // path inside the site root
     let h = readFileSync(f, "utf8"); const depth = rp.split("/").length - 1, rel = depth ? "../".repeat(depth) : "";
     if (h.includes('http-equiv="refresh"')) continue; // redirect stubs stay bare
     let changed = false;
+    { const h2 = h.replace(SIMS_SRC_RE, '$1sims.min.js"'); if (h2 !== h) { h = h2; changed = true; } } // the minified animations
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
     // Glossary term pages (all languages): English pronunciation + the shared animation for target / pair / lead terms
-    // (docs/shared/sims.js, TERM_SIMS decides which terms get one; other terms get an empty, invisible host).
+    // (docs/shared/sims.js → sims.min.js, TERM_SIMS decides which terms get one; other terms get an empty, invisible host).
     const gm = rp.match(/^(?:([a-z]{2})\/)?glossary\/([a-z0-9-]+)\/index\.html$/);
     if (gm && !h.includes("data-clay-term")) {
       const id = gm[2], term = (GBY[id] || {}).term || id, ui = gm[1] ? "English" : "Вимова англійською";
       h = h.replace(/<\/h1>/, `</h1><p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
       const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
       if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"></div>\n` + h.slice(second);
-      h = h.replace("</body>", `<script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.js"></script><script>ClaySims.auto()</script>\n</body>`);
+      h = h.replace("</body>", `<script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       changed = true;
     }
     if (changed) writeFileSync(f, h);

@@ -30,6 +30,12 @@ h2{font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute
 .grid a:hover,.grid a:focus-visible{border-color:var(--c,#34D399)}
 .grid b{font-size:17px}.grid span{font-size:13.5px;color:var(--muted)}
 footer{margin-top:36px;font-size:12px;color:var(--muted)}
+/* the Academy mascot (docs/shared/mascot.js, loaded by nav.js): "point" + the English bubble "Look!" next to the links; decorative */
+.nf-head{display:flex;align-items:flex-end;gap:10px;margin-top:20px}
+.nf-head h2{margin:0 0 12px}
+.nf-dog{flex:none;line-height:0}
+.nf-dog:empty{display:none}
+@media (max-width:560px){.nf-dog svg{width:auto;height:96px}}
 </style>
 </head>
 <body>
@@ -38,7 +44,8 @@ footer{margin-top:36px;font-size:12px;color:var(--muted)}
   <h1 id="nfH">Сторінку не знайдено · Page not found</h1>
   <p id="nfP">Такої адреси немає (вже немає): частина сторінок проєктів ClayArena переїхала. · This address does not exist (any more): some pages of the ClayArena projects have moved.</p>
   <div id="nfHint"></div>
-  <h2 id="nfS">ClayArena</h2>
+  <!-- The Academy mascot points at the sections: decorative (aria-hidden), its bubble is English on every language (DEVELOPERS.md §4j) -->
+  <div class="nf-head"><span class="nf-dog" data-clay-mascot="point" data-bubble="Look!" data-size="104" aria-hidden="true"></span><h2 id="nfS">ClayArena</h2></div>
   <ul class="grid" id="nfGrid">
     <li><a href="https://fenix-112323.github.io/clayaway/"><b>ClayArena</b><span>Проєкти ClayArena · ClayArena projects</span></a></li>
     <li><a href="https://fenix-112323.github.io/clayaway/learn/" style="--c:#34D399"><b>🎓 Академія · Academy</b></a></li>
