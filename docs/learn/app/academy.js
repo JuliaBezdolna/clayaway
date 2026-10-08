@@ -479,7 +479,7 @@
     const ev = {}; for (const e of D.evidence || []) (ev[e.for] = ev[e.for] || []).push(e.level);
     for (const x of D.body || []) if (x.t === "evidence" && x.for) (ev[x.for] = ev[x.for] || []).push(x.level);
     const hero = heroBlock(D.body || []);
-    const body = (narrow() ? heroUp(D.body || [], hero) : D.body || []).map(x => blockHtml(x, ev, D)).join("");
+    const body = foldRuns((narrow() ? heroUp(D.body || [], hero) : D.body || []).map(x => blockHtml(x, ev, D)));
     const navLink = (lid, cls, label) => { if (!lid) return ""; const h = lessonHref(lid); if (!h) return "";
       return `<a class="ac-btn ${cls}" href="${inRoute ? withRoute(h.url, inRoute.id) : h.url}"${h.en ? ' hreflang="en"' : " data-nav"}${inRoute ? ` data-route="${esc(inRoute.id)}"` : ""}>${label}: ${esc(L(lid).title)}${h.en ? " (EN)" : ""}</a>`; };
     return `${langBanner()}${crumbs(cr.filter(Boolean))}${lc.also ? alsoRoute(lc.also, id) : ""}
@@ -529,7 +529,7 @@
       case "warn": h = `<aside class="ac-warn" role="note"${id}><b>⚠ ${t("warn")}</b> ${x.html}</aside>`; break;
       case "compare": { const col = (d, html) => `<div class="ac-col ac-disc-${d}"><div class="ac-col-h">${discName(d)}</div>${html || ""}</div>`;
         const H = x.html && typeof x.html === "object" ? x.html : { sporting: x.sporting || "", compak: x.compak || "" };
-        const side = d => S.disc !== "both" && S.disc !== d ? `<details class="ac-other"><summary>${discName(d)}</summary>${col(d, H[d])}</details>` : col(d, H[d]);
+        const side = d => S.disc !== "both" && S.disc !== d ? `<details class="ac-other"><summary><b class="ac-other-d">${discName(d)}</b> · ${esc(foldPrev({ html: H[d] }))}</summary>${col(d, H[d])}</details>` : col(d, H[d]);
         h = `<div class="ac-compare"${id}>${side("sporting")}${side("compak")}</div>`; break; }
       case "rule": { const ref = x.rule_ref ? String(x.rule_ref).split(":") : null, rr = ref && (D.rule_refs || []).find(r => r.book === ref[0] && r.id === ref[1]);
         const link = ref ? `<a class="ac-rule-ref" href="${esc(fixUrl(rr && rr.url ? rr.url : rulesUrl(ref[0], ref[1])))}">${t("rules_where")}: ${esc(rr && rr.label ? rr.label : ref[1])} →</a>` : "";
@@ -544,9 +544,31 @@
     /* A stale critical paragraph (rules, safety, anti-doping) comes in English with "Переклад оновлюється" (SCHEMA.md §5) */
     if (x.updating || (x.lang && x.lang !== LANG)) h = `<div class="ac-upd" lang="${esc(x.lang || "en")}"><p class="ac-tag" lang="${LANG}">${t("translation_updating")}</p>${h}</div>`;
     /* "Моя дисципліна": a block of the other discipline is folded, never removed (design §7.3) */
+    // Folded blocks come back as {fold, html, prev}; foldRuns() merges a run of them into ONE <details> whose summary says what is
+    // inside: "Sporting™ · <start of the first block>… +N" (owner 10.2026: four identical "▶ Sporting™" lines told the reader nothing).
     if (x.t !== "compare" && (x.disc === "sporting" || x.disc === "compak") && S.disc !== "both" && S.disc !== x.disc)
-      h = `<details class="ac-other"${x.anchor ? ` data-anchor="${esc(x.anchor)}"` : ""}><summary>${discName(x.disc)}</summary>${h}</details>`;
+      return { fold: x.disc, html: h + evs, prev: foldPrev(x) };
     return h + evs;
+  }
+  /* Start of a folded block for its summary: the block's own text (tip / warning with their label), cut at a word near 80 characters */
+  function foldPrev(x) {
+    const div = document.createElement("div"); div.innerHTML = Array.isArray(x.html) ? x.html.join(" ") : typeof x.html === "string" ? x.html : "";
+    let s = ((x.t === "tip" ? t("tip") + " " : x.t === "warn" ? t("warn") + " " : "") + div.textContent).replace(/\s+/g, " ").trim();
+    return s.length > 80 ? s.slice(0, 80).replace(/\s+\S*$/, "").replace(/[\s.,;:!?…–—-]+$/, "") + "…" : s;
+  }
+  /* Join rendered blocks; a run of folded blocks of the same discipline (empty strings between them do not break the run) becomes one
+     <details class="ac-other">: the discipline, the start of the first block and "+N" for the others. Anchors inside still work:
+     render() opens the <details> that holds the #anchor before scrolling to it. */
+  function foldRuns(parts) {
+    let out = "", run = null;
+    const flush = () => { if (!run) return; const n = run.items.length;
+      out += `<details class="ac-other"><summary><b class="ac-other-d">${discName(run.d)}</b> · ${esc(run.items[0].prev)}${n > 1 ? ` <span class="ac-other-n">+${n - 1}</span>` : ""}</summary>${run.items.map(p => p.html).join("")}</details>`;
+      run = null; };
+    for (const p of parts) {
+      if (p && typeof p === "object") { if (run && run.d === p.fold) run.items.push(p); else { flush(); run = { d: p.fold, items: [p] }; } }
+      else if (p) { flush(); out += p; }
+    }
+    flush(); return out;
   }
   /* The lesson's animation (owner's rule: animations prominent). The build puts it right after the first paragraph
      (scripts/build_academy.mjs heroOrder/heroOf) and sends hero, kind, heading and html (the one line of "what to watch").

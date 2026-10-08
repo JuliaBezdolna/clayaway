@@ -159,6 +159,8 @@ details[open]>summary::after{content:"▴"}
 .ac-rule-ref{font-size:13.5px}
 .ac-other{border:1px dashed var(--line2);border-radius:12px;padding:4px 12px;margin:10px 0}
 .ac-other>summary{cursor:pointer;color:var(--muted);font-size:13.5px;padding:4px 0}
+.ac-other-d{color:var(--soft);font-weight:600}                    /* the discipline name in the summary of folded blocks */
+.ac-other-n{display:inline-block;margin-left:4px;padding:0 7px;border-radius:999px;border:1px solid var(--line2);font-size:12px;font-variant-numeric:tabular-nums}
 .ac-law{margin:14px 0}
 .ac-law h3{margin:16px 0 6px}
 .ac-law .law-note{font-size:13px;color:var(--muted)}
