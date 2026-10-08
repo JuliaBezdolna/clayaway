@@ -34,9 +34,13 @@
        pullaway   — the muzzles track the target, then accelerate smoothly ahead; the lead seen is smaller than the actual lead;
        ambush     — the muzzles wait still at a point ahead; the shooter must decide before the target gets there (lead seen =
                     actual lead + target speed × 0.15 s); a shot fired as the target arrives goes behind.
-   - standSim(host, kind, opts): a stand seen from the side (type "call"): the shooter, the referee, the trap with the trapper or a
-     sonopull microphone, a clock. Scenes (SCENES below): "signal" (Sporting™: the referee passes the call to the trapper with a sound
-     signal; the target leaves in time), "signal-late" (it leaves later than the limit: “No Bird”, thrown again; the shooter does not
+   - standSim(host, kind, opts): a stand seen from the side (type "call"): the shooter; behind the shooter the referee and the trapper
+     with a hand-held release button (its cable runs along the ground to the trap) — with a sonopull no trapper, but a microphone at
+     the front edge of the stand; downrange the trap, protected inside a trap house behind a screen that faces the stand; a clock.
+     Everyone wears safety glasses and ear muffs. SAFETY: nobody is ever drawn in front of the stand, no muzzle ever points at a
+     person or the trap house, an unbroken target comes down in the field, not at the stand (see "SAFETY" above SCENES).
+     Scenes (SCENES below): "signal" (Sporting™: the referee passes the call back to the trapper behind the stand with a sound
+     signal, the trapper presses the release button; the target leaves in time), "signal-late" (it leaves later than the limit: “No Bird”, thrown again; the shooter does not
      fire — the rulebooks do not say how a late target is scored when the shooter fires at it), "manual" (Compak® Sporting, released
      by hand 0–3 s after the call), "sonopull" (Compak® Sporting, a fixed delay after the call), "gun-ready" (Sporting™ ready position:
      stock below the line on the vest until the target appears, then the mount; the line is red only while the stock is above it
@@ -218,7 +222,9 @@ function autoStart(host, target, run, mode, done, onUser){
 
 /* Flight presets: p(t) = position in a 0..1 screen box (y down) for t = 0..1, s(t) = size scale, optional ar(t) = disc aspect
    (0.1 = edge-on, 1 = full face; default 0.38) and rot(t) = tilt in radians. The shooter stands bottom centre; the tree line is at
-   y ≈ 0.76. Shapes follow the lessons (flight mission) and the glossary definitions. */
+   y ≈ 0.76. Shapes follow the lessons (flight mission) and the glossary definitions. SAFETY: a flight may start beside the stand (a
+   trap house there), but it never ends on or next to the stand: it ends in the sky, off the screen or in the field at the tree line
+   (y ≤ 0.78), or (rabbit) rolls across at the edge of the wood. */
 const FLIGHTS = {
   "crosser-lr":   {p: t => [-.05 + 1.1*t, .5 - .22*Math.sin(Math.PI*t)], s: () => .8, term: "crosser"},
   "crosser-rl":   {p: t => [1.05 - 1.1*t, .5 - .22*Math.sin(Math.PI*t)], s: () => .8, term: "crosser"},
@@ -234,14 +240,17 @@ const FLIGHTS = {
   "quartering-towards": {p: t => [.9 - .55*t, .3 + .1*t - .25*Math.sin(Math.PI*t)], s: t => .4 + .9*t, term: "quartering-towards"},
   // teal: almost straight up, stalls at the peak (t ≈ 0.55) and falls back clearly
   "teal":         {p: t => [.6 + .05*t, .9 - .75*(1 - sq((t - .55) / .55))], s: () => .8, term: "teal"},
-  // chandelle: steep climb on a slight curve, arcs over at the top, drops almost vertically (a narrow, high arch)
-  "chandelle":    {p: t => [.32 + .13*(1 - Math.cos(Math.PI*t)), .86 - .72*Math.sin(Math.PI*t)], s: () => .8, term: "chandelle"},
+  // chandelle: steep climb on a slight curve, arcs over at the top, drops almost vertically (a narrow, high arch); it starts beside
+  // the stand (a trap house there) and an unbroken target comes down in the field, at the tree line, never on the stand
+  "chandelle":    {p: t => [.32 + .13*(1 - Math.cos(Math.PI*t)), .86 - .72*Math.sin(Math.PI*t) - .12*t], s: () => .8, term: "chandelle"},
   // looper: a wide rainbow arc across the sky; drawn as a standard target that shows more of its face as it turns over the top
   "looper":       {p: t => [.04 + .92*t, .78 - .62*Math.sin(Math.PI*t)], s: () => .8, ar: t => .3 + .35*Math.sin(Math.PI*t), rot: t => (t - .5)*.9, term: "looper"},
   // battue: a thin target flying fast and edge-on, then it turns over (shows its face) and drops steeply
   "battue":       {p: t => t < .6 ? [.05 + t, .45 - .12*t] : (u => [.65 + u - 1.1*u*u, .378 - .12*u + 2.6*u*u])(t - .6),
                    s: () => .8, ar: t => t < .55 ? .1 : Math.min(.7, .1 + (t - .55)*4), rot: t => t < .55 ? 0 : (t - .55)*5, term: "battue"},
-  "dropping":     {p: t => [.28 + .3*t, .08 + .8*t*t], s: () => .8, term: "dropping-target"},
+  // dropping: falls from high up, faster and faster; an unbroken target comes down in the field at the tree line (y .74), never on
+  // the stand (audit 08.10.2026: it ended at y .88, beside the shooter's mark)
+  "dropping":     {p: t => [.28 + .3*t, .08 + .66*t*t], s: () => .8, term: "dropping-target"},
   // rabbit: rolls and hops along the ground at the edge of the wood (y ≈ 0.76–0.8), clear of the shooter's mark at the bottom
   "rabbit":       {p: t => [1.05 - 1.1*t, .8 - .04*Math.abs(Math.sin(t*9))], s: () => .9, rabbit: 1, term: "rabbit"},
 };
@@ -504,20 +513,51 @@ function pairSim(host, kind, opts = {}){
      call), card (warning + yellow card), line (draw the line on the vest: red while the heel of the stock is above it before the
      target is out), mic (sonopull microphone instead of the trapper), timer ("signal" | "call": the clock counts from that moment),
      move [from, to] (the gun-mount scene: the muzzles turn onto the target's line before the stock comes up), words (the coach's
-     words “move · mount · shoot” above the canvas), cheek (mark the cheek on the comb when the mount is finished), end. */
+     words “move · mount · shoot” above the canvas), cheek (mark the cheek on the comb when the mount is finished), end.
+   SAFETY (owner, 08.10.2026; a hard rule for every ClayArena animation, not a style choice): nobody is in front of the shooting stand
+   while shooting is possible. The shooter faces right, down the range, so every person is drawn LEFT of BEHIND_X (behind the shooter;
+   person() moves anyone placed further right back there and warns in the console): the referee behind or beside the shooter (after a
+   misfire the referee walks up from behind, never past the muzzles), the trapper behind the referee. Downrange there are only
+   things: the trap inside a trap house behind a solid screen that faces the stand (trapHouse(); nobody is drawn there) and the flying
+   target. The trapper releases the target with a hand-held release button; its cable runs along the ground to the trap house, and
+   the release is drawn as a pulse running along that cable (releaseLine()). In Sporting™ the referee's sound signal goes BACK to
+   the trapper behind the stand. A sonopull (Compak® Sporting) is released by the microphone on the stand, at its front edge (MIC_X);
+   no trapper is drawn. The muzzles point only down the range: up at the target, or down to the ground in front of the stand after a
+   misfire (SAFE, ground at x ≈ 487, short of the trap house) — never at a person. They never wait, hold or mount onto the trap
+   house: with the gun up (Compak® Sporting) they wait at the hold point and only join the target once it has climbed to the hold
+   height (pose()). The only moment the barrel line crosses the (screened, empty) trap house is the ≈ 0.08 s sweep while the gun is
+   lowered after a misfire, from the target down to the ground in front. An unbroken target comes down in the field in front of
+   the stand (TP), never at the shooter. Everyone wears safety glasses and ear muffs (protection()). Real grounds differ (a release
+   console beside the referee, wireless remote controls, a loader sheltering inside the trap house between rounds); the scenes show
+   one common safe layout and make no rule claim about it. The scene timings are not affected: the button is pressed at pressT
+   (≤ 0.25 s before the release, after the signal) and the target leaves at "release".
+   Keep these true when a scene, a pose or TP changes (checked frame by frame, every 1/60 s of every scene, 08.10.2026): every
+   person stands at x < BEHIND_X; the barrel line beyond the muzzle never crosses a person, and crosses the trap house only during
+   that lowering sweep; with the gun up the barrels point up from the start to the shot; the target never enters the stand. */
 const CALL = {limit: 3, sonopull: .5};
 const SCENES = {
   signal:        {tab: "anim_t_signal",   timer: "signal", line: 1, call: .3, signal: .7, release: 1.7, mount: [1.82, 2.15], shot: 2.5, end: 4.4},
   "signal-late": {tab: "anim_t_late",     timer: "signal", line: 1, call: .3, signal: .7, release: .7 + 3.6, nobird: 4.5, end: 7},
   manual:        {tab: "anim_t_manual",   timer: "call", up: 1, call: .3, release: 1.7, shot: 2.45, end: 4.4},
-  sonopull:      {tab: "anim_t_sonopull", timer: "call", up: 1, mic: 1, call: .3, release: .3 + CALL.sonopull, shot: 1.25, end: 3.6},
+  sonopull:      {tab: "anim_t_sonopull", timer: "call", up: 1, mic: 1, call: .3, release: .3 + CALL.sonopull, shot: 1.5, end: 3.6},
   "gun-ready":   {tab: "anim_t_ready",    line: 1, call: .9, signal: 1.1, release: 1.5, mount: [1.62, 1.95], shot: 2.3, end: 4.3},
   "gun-early":   {tab: "anim_t_early",    line: 1, mount: [.4, .75], call: 1.2, card: 1.7, end: 4},
   misfire:       {tab: null,              call: .4, release: 1, mount: [1.1, 1.45], shot: 1.85, click: 1, safe: [2.2, 2.6], walk: [3.3, 4.3], end: 6.8},
   mount:         {tab: "anim_t_mount",    words: 1, cheek: 1, call: .3, release: .8, move: [1, 1.4], mount: [1.3, 1.85], shot: 1.9, end: 3.8},
 };
 const GY = 322, LINE_Y = 203, FLY = 2.2, SH = 380; // SH = scene height; narrow screens get a band for the clock above it
-const TP = u => [628 - 330 * u, 298 - 210 * Math.sin(Math.PI * .85 * u)]; // target path from the trap (u = 0…1 over FLY s)
+// SAFETY layout (see above): people only left of BEHIND_X (the shooter's back heel is at x ≈ 150, the stand starts at 126); the
+// referee stands at REF_X (walks up to 128 after a misfire), the trapper at TRAPPER_X; MIC_X = the sonopull microphone, on the stand
+// at its front edge (the stand is x 126–222; audit 08.10.2026: it stood in front of the stand); TH_X = the screen of the trap house
+const BEHIND_X = 130, REF_X = 84, TRAPPER_X = 32, MIC_X = 212, TH_X = 582;
+// target path from the trap (u = 0…1 over FLY s): it leaves over the screen of the trap house (TH_X…TH_X + 20, top at y 266; at its
+// back edge, x 602, the target is ≈ 33 px above it), climbs to the apex (≈ 513, 110) and, if nobody breaks it, comes down on the
+// ground in the field in front of the stand (u = 1 → x 392, y GY). SAFETY: an unbroken target never flies at the shooter or the stand
+// (audit 08.10.2026: the old path ended at chest height just past the muzzles). Shots of the scenes (u at the shot): signal and
+// gun-ready .364 → (542, 125), manual .341 → (548, 131), mount .5 → (510, 110), sonopull .318 → (553, 138), all in the sky.
+const TP = u => [628 - 236 * u, 298 - 200 * Math.sin(Math.PI * u) + 24 * u];
+// gun poses: LOW = Sporting™ ready position (stock low, muzzles up), SAFE = lowered after a misfire (closed, muzzles down the range to
+// the ground at x ≈ 487, in front of the stand and short of the trap house), AIM0 = the hold point (muzzles at the call)
 const LOW = {hx: 190, hy: 214, th: -.42}, SAFE = {hx: 192, hy: 204, th: .38}, AIM0 = [520, 150];
 const READY = {hx: 190, hy: 214, th: -.15}; // gun-mount scene: heel low, muzzles near the line where the target will come
 const upPose = (ax, ay) => ({hx: 190, hy: 186, th: Math.atan2(ay - 186, ax - 190)});
@@ -528,20 +568,65 @@ function sideBg(c, W, H){
   const gg = c.createLinearGradient(0, GY, 0, H); gg.addColorStop(0, "#14532d"); gg.addColorStop(1, "#0a2418"); c.fillStyle = gg; c.fillRect(0, GY, W, H - GY);
   c.fillStyle = "rgba(255,255,255,.12)"; c.fillRect(126, GY, 96, 5); // the shooting stand
 }
-function person(c, x, o = {}){ // the referee or the trapper, standing on the ground at x; o.hand = [x, y] of the right hand
+/* protection(c, x, y, r): the protection every person in a stand scene wears — compulsory for shooters, referees, staff and anyone
+   on or near the stand (lessons gear-ear-protection, gear-shooting-glasses; audit 08.10.2026: the shooter had a black ear dot that
+   read as an eye, the referee and the trapper wore nothing). Drawn on a head (centre x, y, radius r) that faces right, down the
+   range: ear muffs = a band over the head and a cup over the ear; safety glasses = a tinted lens in front of the eye, its arm to the
+   ear. Scales with r, so the shooter (r 13) and the people behind the stand (r ≈ 9–10) look the same. */
+function protection(c, x, y, r){
+  c.lineCap = "round"; c.strokeStyle = "#111827"; c.lineWidth = Math.max(2, r * .24);
+  c.beginPath(); c.arc(x, y, r, Math.PI * 1.15, Math.PI * 1.75); c.stroke(); // the band over the head
+  c.fillStyle = "#111827"; box(c, x - r * .7, y - r * .46, r * .78, r * 1.08, r * .3); c.fill(); // the cup over the ear
+  c.lineWidth = Math.max(1, r * .12); seg(c, x + r * .08, y - r * .23, x + r * .55, y - r * .3); // the arm of the glasses
+  c.fillStyle = "#38BDF8"; box(c, x + r * .53, y - r * .62, r * .62, r * .54, r * .15); c.fill(); // the tinted lens
+  c.lineCap = "butt"; c.lineWidth = 1;
+}
+/* person(c, x, o): a person BEHIND the stand (the referee, the trapper) standing on the ground at x, facing the range, with safety
+   glasses and ear muffs (protection()); o.hand = [x, y] of the right hand (returned). Safety net: a person is never drawn in front
+   of the stand — x right of BEHIND_X is moved back to BEHIND_X and a console warning tells the developer that the scene is wrong. */
+function person(c, x, o = {}){
+  if (x > BEHIND_X) { if (!person.warned) { person.warned = 1; try { console.warn("ClaySims: a person was placed in front of the stand (x " + x + "); drawn behind the shooter instead"); } catch (e) {} }
+    const d = BEHIND_X - x; x = BEHIND_X; if (o.hand) o = Object.assign({}, o, {hand: [o.hand[0] + d, o.hand[1]]}); }
   const s = o.s || 1, top = GY - 160 * s;
   c.strokeStyle = o.col; c.fillStyle = o.col; c.lineCap = "round"; c.lineWidth = 5 * s;
   seg(c, x, top + 22 * s, x, top + 90 * s); seg(c, x, top + 90 * s, x - 11 * s, GY); seg(c, x, top + 90 * s, x + 11 * s, GY);
   const hand = o.hand || [x + 16 * s, top + 70 * s]; seg(c, x, top + 34 * s, hand[0], hand[1]); seg(c, x, top + 34 * s, x - 9 * s, top + 70 * s);
   dot(c, x, top + 10 * s, 11 * s); if (o.cap) { c.fillStyle = o.cap; c.fillRect(x - 12 * s, top - 3 * s, 23 * s, 6 * s); }
+  protection(c, x, top + 10 * s, 11 * s); // glasses and ear muffs (over the cap: the band of the muffs goes over it)
   c.lineCap = "butt"; c.lineWidth = 1; return hand;
+}
+/* trapHouse(c, fire): the trap downrange, protected, seen from the side: a solid screen facing the stand (higher than the trap; the
+   target leaves over it), behind it the trap and a low roof and back wall (the throwing side stays open). The trap letter is on a
+   plate on the screen. fire = true at the release: the throwing arm swings and flashes. Nobody is drawn here. */
+function trapHouse(c, fire){
+  c.fillStyle = "#1F2937"; c.fillRect(TH_X + 16, 296, 98, GY - 296); // the low side wall of the house, behind the screen
+  c.fillStyle = "#4B5563"; c.fillRect(TH_X + 64, 282, 50, GY - 282); c.fillStyle = "#6B7280"; c.fillRect(TH_X + 60, 277, 58, 6); // back room, its roof
+  c.fillStyle = "#374151"; box(c, 610, 306, 32, 16, 3); c.fill(); // the trap
+  c.strokeStyle = fire ? "#FDE68A" : "#9CA3AF"; c.lineWidth = 3; c.lineCap = "round"; seg(c, 628, 306, fire ? 616 : 642, fire ? 298 : 302); c.lineCap = "butt"; // its throwing arm
+  c.fillStyle = "#6B7280"; box(c, TH_X, 266, 20, GY - 266, 2); c.fill(); // the screen facing the stand (the target clears its top by ≈ 33 px, see TP)
+  for (let i = 0; i < 4; i++) { c.fillStyle = i % 2 ? "#111827" : "#FBBF24"; c.fillRect(TH_X + i * 5, 266, 5, 5); } // its warning top band
+  c.strokeStyle = "rgba(17,24,39,.45)"; c.lineWidth = 1; for (let y = 281; y < GY - 3; y += 10) seg(c, TH_X + 2, y, TH_X + 18, y); // its boards
+  c.fillStyle = "#E5E7EB"; box(c, TH_X + 4, 285, 12, 15, 2); c.fill(); c.fillStyle = "#111827"; c.font = "bold 11px system-ui"; c.textAlign = "center"; c.fillText("A", TH_X + 10, 297); // trap letter
+}
+/* releaseLine(c, x, y, p): the cable of a release device (the trapper's button, the sonopull microphone) from (x, y) down to the
+   ground and along it, under the stand, to the trap house. p = null (idle, dim) or 0…1 = how far the release pulse has run (1 = it
+   has reached the trap house and the target leaves); the part it has run is lit, its head is a bright dot. */
+function releaseLine(c, x, y, p){
+  const pts = [[x, y], [x + 6, GY + 7], [TH_X + 8, GY + 7]], tot = pts.reduce((a, q, i) => i ? a + Math.hypot(q[0] - pts[i - 1][0], q[1] - pts[i - 1][1]) : 0, 0);
+  const trace = d => { c.beginPath(); c.moveTo(x, y); let at = pts[0];
+    for (let i = 1; i < pts.length && d > 0; i++) { const a = pts[i - 1], b = pts[i], L = Math.hypot(b[0] - a[0], b[1] - a[1]), k = Math.min(1, d / L);
+      at = [lerp(a[0], b[0], k), lerp(a[1], b[1], k)]; c.lineTo(at[0], at[1]); d -= L; }
+    c.stroke(); return at; };
+  c.lineWidth = 1.5; c.strokeStyle = "rgba(255,255,255,.25)"; c.setLineDash([5, 5]); trace(tot); c.setLineDash([]);
+  if (p != null) { c.strokeStyle = "#34D399"; c.lineWidth = 2.5; const h = trace(p * tot); if (p < 1) { c.fillStyle = "#ECFDF5"; dot(c, h[0], h[1], 4 * MK(c)); } }
+  c.lineWidth = 1;
 }
 function shooter(c, g, line){ // g = gun pose {hx, hy, th} (heel of the stock, angle); line: null | "ok" | "bad"; returns the muzzle
   c.lineCap = "round"; c.strokeStyle = "#9CA3AF"; c.lineWidth = 8; seg(c, 168, 240, 150, GY); seg(c, 175, 240, 196, GY); // legs
   c.fillStyle = "#4B5563"; box(c, 156, 174, 32, 70, 8); c.fill(); // vest
   if (line) { c.strokeStyle = line === "bad" ? "#F87171" : "#FBBF24"; c.lineWidth = 3; seg(c, 150, LINE_Y, 194, LINE_Y);
     label(c, T("anim_line"), 146, LINE_Y + 4 * FK(c), line === "bad" ? "#F87171" : "#FBBF24", "right"); }
-  c.fillStyle = "#E5E7EB"; dot(c, 176, 158, 13); c.fillStyle = "#111827"; dot(c, 172, 159, 4.5); // head, ear protection
+  c.fillStyle = "#E5E7EB"; dot(c, 176, 158, 13); protection(c, 176, 158, 13); // head with safety glasses and ear muffs
   const ux = Math.cos(g.th), uy = Math.sin(g.th);
   c.lineCap = "butt"; c.strokeStyle = "#A16207"; c.lineWidth = 8; seg(c, g.hx, g.hy, g.hx + 36 * ux, g.hy + 36 * uy); // stock
   c.strokeStyle = "#CBD5E1"; c.lineWidth = 4; seg(c, g.hx + 34 * ux, g.hy + 34 * uy, g.hx + 120 * ux, g.hy + 120 * uy); // barrels
@@ -566,12 +651,21 @@ function clock(c, v, sub, state, s = 1){ // the release clock at the top left, d
   c.fillStyle = "#9CA3AF"; c.font = "11px system-ui"; c.textAlign = "center"; c.fillText("0", x0, y + 27); c.fillText(`${CALL.limit} ${us}`, x0 + CALL.limit * k, y + 27);
   c.restore();
 }
+/* standSim(host, kind, opts): one stand scene (SCENES). Drawn back to front: sky and ground, the release cable on the ground, the
+   trap house, the sonopull microphone (front edge of the stand), the target, the trapper (behind the referee), the referee with the
+   sound signal back to the trapper / the yellow card / “No Bird!”, the shooter, the call, the shot; then the clock. People only
+   behind the shooter, and everyone (shooter, referee, trapper) wears safety glasses and ear muffs (SAFETY above SCENES). */
 function standSim(host, kind, opts = {}){
   const sc = SCENES[kind] || SCENES.signal, title = T(sc.tab || "anim_h_misfire");
   host.innerHTML = `<div class="cs-sim">${sc.words ? `<div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div>` : ""}<canvas width="720" height="${SH}" role="img" aria-label="${esc(title)}"></canvas><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}<b>${esc(title)}</b></div><div class="cs-say" aria-live="polite" data-k="say"></div></div>`;
   const cv = host.querySelector("canvas"), c = cv.getContext("2d"), W = cv.width, out = host.querySelector('[data-k="say"]');
   const words = sc.words ? wordsBar(host.querySelector('[data-k="words"]')) : null;
   const rel = sc.release, t0c = sc.timer === "signal" ? sc.signal : sc.call, hitT = sc.shot != null && !sc.click ? sc.shot : null;
+  // the trapper presses the release button at pressT: after the referee's signal (or the call), at most 0.25 s before the release;
+  // the pulse runs along the cable from pressT and reaches the trap house at the release (the scene times are unchanged)
+  const pressT = rel == null ? null : Math.max(rel - .25, sc.signal != null ? sc.signal + .15 : -1, sc.call != null ? sc.call + .05 : -1);
+  const pulse = (t, from) => (t >= from && t < rel + .3 ? clamp01((t - from) / Math.max(.05, rel - from)) : null);
+  const TR_HAND = [TRAPPER_X + 15, GY - 86]; // the trapper's hand with the release button
   // narrow screen: a band above the scene for a clock drawn ck times bigger (over the sky it would hide the target and the "Pull!")
   let band = 0, ck = 1;
   const layout = () => { const w = cv.clientWidth, k = w > 0 ? W / w : 1; ck = Math.max(1, Math.min(1.9, k * .95));
@@ -588,7 +682,10 @@ function standSim(host, kind, opts = {}){
   const pose = t => { // gun pose at time t, and the aim point
     const u = rel != null && t >= rel ? (t - rel) / FLY : null, flying = u != null && u <= 1 && (hitT == null || t < hitT + .25);
     const aim = flying ? TP(Math.min(1, u + .03)) : hitT != null && t >= hitT ? TP((hitT + .25 - rel) / FLY) : AIM0;
-    if (sc.up) return upPose(aim[0], aim[1]);
+    // Compak® Sporting gun-up (sc.up): the muzzles wait at the hold point AIM0 and never dip toward the trap house (a loader may
+    // shelter there); they join the target once it has climbed to the hold height (y ≤ AIM0[1]), so before the shot the barrels
+    // always point up (audit 08.10.2026: they used to snap down onto the trap at the release). SCENES: the shot comes ≥ 0.15 s later.
+    if (sc.up) return aim[1] > AIM0[1] ? upPose(AIM0[0], AIM0[1]) : upPose(aim[0], aim[1]);
     if (sc.move) { // muzzles first: the front hand turns the barrels onto the target's line (km), then the heel rises to the shoulder (ku)
       const km = ease(clamp01((t - sc.move[0]) / (sc.move[1] - sc.move[0]))), ku = ease(clamp01((t - sc.mount[0]) / (sc.mount[1] - sc.mount[0])));
       const hx = lerp(READY.hx, 190, ku), hy = lerp(READY.hy, 186, ku); return {hx, hy, th: lerp(READY.th, Math.atan2(aim[1] - hy, aim[0] - hx), km)}; }
@@ -603,24 +700,32 @@ function standSim(host, kind, opts = {}){
     lastT = t; fit(cv, c); const m = MK(c), k = FK(c);
     c.setTransform(1, 0, 0, 1, 0, 0); if (band) { c.fillStyle = "#0b2540"; c.fillRect(0, 0, W, band); c.translate(0, band); }
     sideBg(c, W, SH);
-    // trap (and trapper, or the sonopull microphone with its cable)
-    c.fillStyle = "#374151"; box(c, 606, 300, 44, 22, 4); c.fill(); c.fillStyle = "#E5E7EB"; c.font = "12px system-ui"; c.textAlign = "center"; c.fillText("A", 628, 316);
-    if (sc.mic) { const on = t >= sc.call && t < rel + .2; c.strokeStyle = on ? "#34D399" : "rgba(255,255,255,.22)"; c.setLineDash([5, 5]); seg(c, 236, GY + 3, 606, GY + 3); c.setLineDash([]);
-      c.strokeStyle = "#9CA3AF"; c.lineWidth = 2; seg(c, 236, GY, 236, 252); c.lineWidth = 1; c.fillStyle = on ? "#34D399" : "#9CA3AF"; dot(c, 236, 246, 6); } // microphone on a low stand in front of the shooter
-    else { const press = t >= rel - .05 && t < rel + .35; person(c, 678, {s: .8, col: "#9CA3AF", hand: press ? [652, GY - 44] : null}); }
+    // the release cable on the ground (from the sonopull microphone, or from the trapper's button), then the trap house over its end;
+    // nobody downrange: the trapper stands behind the referee (below), the trap is protected by the screen of the trap house
+    const pr = rel == null ? null : sc.mic ? pulse(t, rel - .15) : pulse(t, pressT);
+    if (sc.mic) releaseLine(c, MIC_X, GY, pr); else releaseLine(c, TR_HAND[0] + 1, TR_HAND[1] + 6, pr);
+    trapHouse(c, rel != null && t >= rel && t < rel + .12);
+    if (sc.mic) { const on = t >= sc.call && t < rel + .2; // the sonopull microphone on a low post at the front edge of the stand (on the stand, never downrange): it hears the call
+      c.strokeStyle = "#9CA3AF"; c.lineWidth = 2; seg(c, MIC_X, GY, MIC_X, 252); c.lineWidth = 1; c.fillStyle = on ? "#34D399" : "#9CA3AF"; dot(c, MIC_X, 246, 6); }
     // the target: in the air, broken by the shot, or (after a click) flying on unbroken
     if (rel != null && t >= rel) { const u = (t - rel) / FLY;
       if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
       else if (u <= 1) { const [x, y] = TP(u); clay(c, x, y, .75, {}, 0); } }
-    // referee: walks over after a misfire; presses the signal; raises the yellow card
-    const rx = sc.walk ? lerp(84, 128, ease(clamp01((t - sc.walk[0]) / (sc.walk[1] - sc.walk[0])))) : 84;
+    // the trapper (not with a sonopull): behind the referee, out of every line of fire, with the hand-held release button; it lights
+    // while pressed, and the pulse runs along the cable to the trap house (drawn above)
+    if (!sc.mic) { const h = person(c, TRAPPER_X, {s: .8, col: "#9CA3AF", hand: TR_HAND});
+      c.fillStyle = "#111827"; box(c, h[0] - 4 * m, h[1] - 9 * m, 10 * m, 15 * m, 2); c.fill(); c.fillStyle = pr != null ? "#34D399" : "#6B7280"; dot(c, h[0] + m, h[1] - 4 * m, 2.8 * m); }
+    // referee: behind the shooter; walks up from behind after a misfire (never past the muzzles); gives the sound signal back to the
+    // trapper; raises the yellow card
+    const rx = sc.walk ? lerp(REF_X, 128, ease(clamp01((t - sc.walk[0]) / (sc.walk[1] - sc.walk[0])))) : REF_X;
     const sig = sc.signal != null && t >= sc.signal && t < sc.signal + .6, card = sc.card != null && t >= sc.card;
-    const hand = person(c, rx, {s: .92, col: "#93C5FD", cap: "#1D4ED8", hand: card ? [rx + 12, GY - 176] : sig ? [rx + 22, GY - 104] : null});
+    const hand = person(c, rx, {s: .92, col: "#93C5FD", cap: "#1D4ED8", hand: card ? [rx + 12, GY - 176] : sig ? [rx - 18, GY - 122] : null});
     if (card) { c.fillStyle = "#FACC15"; c.fillRect(hand[0] - 6, hand[1] - 26, 14, 20); bubble(c, rx - 4, GY - 196, "!", {bg: "#FEF3C7"}); }
-    if (sig) { const q = t - sc.signal; c.strokeStyle = "rgba(34,211,238,.85)"; c.lineWidth = 2; // sound signal to the trapper
-      for (let i = 0; i < 3; i++) { const r = 8 + ((q * 70 + i * 12) % 36); c.beginPath(); c.arc(hand[0], hand[1], r, -.7, .7); c.stroke(); }
-      c.lineWidth = 1; c.setLineDash([4, 6]); const p = clamp01(q / .35); seg(c, hand[0], hand[1], lerp(hand[0], 652, p), lerp(hand[1], GY - 110, p)); c.setLineDash([]);
-      label(c, "♪", hand[0] + 6, hand[1] - 18, "#22D3EE"); }
+    if (sig) { const q = t - sc.signal, ear = [TRAPPER_X + 5, GY - 120]; c.strokeStyle = "rgba(34,211,238,.9)"; c.lineWidth = 2; // sound signal back to the trapper
+      c.fillStyle = "#111827"; dot(c, hand[0], hand[1], 4); // the signal device in the referee's hand
+      for (let i = 0; i < 3; i++) { const r = 7 + ((q * 60 + i * 8) % 24); c.beginPath(); c.arc(hand[0], hand[1], r, Math.PI - .7, Math.PI + .7); c.stroke(); }
+      c.lineWidth = 1; c.setLineDash([4, 5]); const p = clamp01(q / .2); seg(c, hand[0], hand[1], lerp(hand[0], ear[0], p), lerp(hand[1], ear[1], p)); c.setLineDash([]);
+      label(c, "♪", hand[0] - 10, hand[1] - 22, "#22D3EE"); }
     if (sc.nobird != null && t >= sc.nobird) bubble(c, rx + 6, GY - 186, "No Bird!", {bg: "#FEE2E2", fg: "#7F1D1D"});
     // the shooter and the line on the vest: red while the heel of the stock is above it BEFORE the target is out (the mount after the
     // release is correct, so the line turns amber again), the call, the shot

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<title>ClayArena Academy mascot sketch sheet, variant C: yellow Labrador, round cartoon</title>
+<!--
+  Sketch sheet, variant C. The character is 100 % our own design. No name is written on purpose (name not chosen yet).
+  Speech: English only, or silent ("Pull!", "Good shot!", "Safety first!") - the same bubbles on every page language.
+  Safety: near shooting the dog always sits BEHIND the stand, on a lead, next to its handler; never in front of the guns;
+  it never carries a gun or a cartridge.
+  Construction: every body part is a separate shape in <defs> (front view: origin = centre of the head, head 132 x 116 units),
+  so in production each part can become its own sprite / canvas path and move on its own (see notes.md).
+-->
+<style>
+  text{font-family:'Segoe UI',Inter,Roboto,Arial,sans-serif}
+  .fur{fill:#F4C460}.sh{fill:#D39338}.cr{fill:#FFEAC0}.ink{fill:#2A1A10}.em{fill:#10B981}.clay{fill:#FB923C}
+  .o{stroke:#2A1A10;stroke-linejoin:round;stroke-linecap:round}
+  .ln{fill:none;stroke:#2A1A10;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round}
+  .ln2{fill:none;stroke:#2A1A10;stroke-width:2.4;stroke-linecap:round}
+  .ttl{fill:#F3F4F6;font-weight:700}
+  .cap{fill:#9CA3AF}
+  .soft{fill:#D1D5DB}
+  .eye{fill:#34D399;font-weight:700;letter-spacing:.08em}
+  .panel{fill:#0F1A17;stroke:rgba(255,255,255,.10);stroke-width:1}
+  .call{fill:none;stroke:#34D399;stroke-width:1.2;opacity:.85}
+  .dot{fill:#34D399}
+  .bub{fill:#F3F4F6}
+  .btxt{fill:#0B1311;font-weight:800;text-anchor:middle}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121D1A"/><stop offset="1" stop-color="#0B1311"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1"><stop offset="0" stop-color="#064E3B" stop-opacity=".6"/><stop offset="1" stop-color="#064E3B" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b2540"/><stop offset="1" stop-color="#163C52"/></linearGradient>
+  <clipPath id="sceneClip"><rect width="692" height="500" rx="16"/></clipPath>
+  <clipPath id="avClip"><circle r="22.5"/></clipPath>
+  <path id="spark" d="M 0,-7 L 1.8,-1.8 L 7,0 L 1.8,1.8 L 0,7 L -1.8,1.8 L -7,0 L -1.8,-1.8 Z"/>
+
+  <!-- ===== FRONT VIEW PARTS (origin = centre of the head) ===== -->
+  <!-- drop ear; pivot for the ear flick = (-34,-50) -->
+  <path id="earL" class="sh o" d="M -30,-54 C -48,-60 -66,-50 -74,-32 C -80,-14 -78,8 -68,20 C -60,28 -50,24 -50,14 C -50,2 -48,-10 -42,-22 C -38,-34 -34,-46 -30,-54 Z"/>
+  <use id="earR" href="#earL" transform="scale(-1,1)"/>
+  <!-- wide oval head + bean muzzle -->
+  <g id="hd"><ellipse class="fur o" rx="66" ry="58"/><path class="cr" d="M -34,18 C -36,2 -20,-4 0,-4 C 20,-4 36,2 34,18 C 33,36 18,46 0,46 C -18,46 -33,36 -34,18 Z"/></g>
+  <g id="nose"><path class="ink" d="M -14,2 C -14,-5 14,-5 14,2 C 14,10 6,16 0,16 C -6,16 -14,10 -14,2 Z"/><ellipse cx="-5" cy="-0.5" rx="4" ry="2" fill="#fff" opacity=".7"/></g>
+  <g id="eyes"><ellipse class="ink" cx="-24" cy="-12" rx="7.5" ry="9.5"/><ellipse class="ink" cx="24" cy="-12" rx="7.5" ry="9.5"/><circle cx="-21.5" cy="-15.5" r="2.8" fill="#fff"/><circle cx="26.5" cy="-15.5" r="2.8" fill="#fff"/></g>
+  <g id="eyesAv"><ellipse class="ink" cx="-24" cy="-11" rx="10" ry="12.5"/><ellipse class="ink" cx="24" cy="-11" rx="10" ry="12.5"/><circle cx="-20.5" cy="-16" r="3.8" fill="#fff"/><circle cx="27.5" cy="-16" r="3.8" fill="#fff"/></g>
+  <g id="brows" class="ln"><path d="M -33,-29 Q -25,-34 -16,-30"/><path d="M 33,-29 Q 25,-34 16,-30"/></g>
+  <g id="smile" class="ln"><path d="M 0,16 V 23 M -15,24 C -10,31 -3,31 0,23 C 3,31 10,31 15,24"/></g>
+  <g id="mouthOpen"><path class="ink" d="M -16,24 C -10,30 -3,30 0,23 C 3,30 10,30 16,24 C 14,40 6,46 0,46 C -6,46 -14,40 -16,24 Z"/><path class="clay" d="M -9,40 C -9,34 9,34 9,40 C 8,44 4,45.6 0,45.7 C -4,45.6 -8,44 -9,40 Z"/><path class="ln" d="M 0,16 V 23"/></g>
+  <g id="mouthBig"><path class="ink" d="M -20,22 C -12,28 -4,28 0,21 C 4,28 12,28 20,22 C 19,44 8,52 0,52 C -8,52 -19,44 -20,22 Z"/><path class="clay" d="M -11,44 C -11,37 11,37 11,44 C 10,49 5,51.6 0,51.7 C -5,51.6 -10,49 -11,44 Z"/><path class="ln" d="M 0,16 V 21"/></g>
+  <g id="eyesHappy" class="ln" style="stroke-width:4.8"><path d="M -32,-9 Q -24,-23 -16,-9"/><path d="M 16,-9 Q 24,-23 32,-9"/></g>
+  <g id="eyesSleep" class="ln" style="stroke-width:4.4"><path d="M -32,-12 Q -24,-3 -16,-12"/><path d="M 16,-12 Q 24,-3 32,-12"/></g>
+  <!-- dog earmuffs: headband + two cups over the ear bases -->
+  <g id="muffs">
+    <path d="M -60,-40 C -56,-70 56,-70 60,-40" fill="none" stroke="#2A1A10" stroke-width="15" stroke-linecap="round"/>
+    <path d="M -60,-40 C -56,-70 56,-70 60,-40" fill="none" stroke="#10B981" stroke-width="8" stroke-linecap="round"/>
+    <ellipse class="em o" cx="-64" cy="-26" rx="16" ry="21"/><ellipse cx="-64" cy="-27" rx="7.5" ry="12" fill="#34D399"/>
+    <ellipse class="em o" cx="64" cy="-26" rx="16" ry="21"/><ellipse cx="64" cy="-27" rx="7.5" ry="12" fill="#34D399"/>
+  </g>
+
+  <!-- otter tail; pivot for the wag = (60,177) -->
+  <path id="tailF" class="fur o" d="M 58,194 C 104,200 140,178 146,138 C 148,126 134,122 131,133 C 124,158 98,166 60,160 Z"/>
+  <g id="haunch"><circle class="fur o" cx="-56" cy="160" r="38"/><circle class="fur o" cx="56" cy="160" r="38"/></g>
+  <path id="torsoF" class="fur o" d="M -38,44 C -58,72 -64,130 -58,172 C -52,206 52,206 58,172 C 64,130 58,72 38,44 Z"/>
+  <g id="hindPaws"><ellipse class="fur o" cx="-76" cy="202" rx="22" ry="12"/><ellipse class="fur o" cx="76" cy="202" rx="22" ry="12"/></g>
+  <g id="legL"><rect class="fur" x="-38" y="112" width="26" height="90"/><path class="ln" d="M -38,112 V 198 M -12,132 V 198"/><ellipse class="fur o" cx="-25" cy="204" rx="19" ry="12"/><path class="ln2" d="M -30,199 V 207 M -20,199 V 207"/></g>
+  <use id="legR" href="#legL" transform="scale(-1,1)"/>
+  <path id="bib" class="cr" d="M -22,74 C -22,60 22,60 22,74 C 22,110 8,140 0,150 C -8,140 -22,110 -22,74 Z"/>
+  <!-- emerald collar + mini clay-disc tag (signature detail) -->
+  <g id="collar"><path class="em o" d="M -44,54 C -22,70 22,70 44,54 L 46,66 C 22,84 -22,84 -46,66 Z"/><path class="ln2" d="M 0,78 V 84"/><ellipse class="clay" cx="0" cy="91" rx="11" ry="8" stroke="#2A1A10" stroke-width="3"/><ellipse cx="0" cy="90" rx="5" ry="3.2" fill="none" stroke="#2A1A10" stroke-width="1.8"/></g>
+  <g id="sitBody"><use href="#tailF"/><use href="#haunch"/><use href="#torsoF"/><use href="#hindPaws"/><use href="#legL"/><use href="#legR"/><use href="#bib"/><use href="#collar"/></g>
+  <g id="headMain"><use href="#hd"/><use href="#mouthOpen"/><use href="#nose"/><use href="#eyes"/><use href="#brows"/><use href="#earL"/><use href="#earR"/></g>
+
+  <!-- ===== POSE 1: happy jump (correct answer) ===== -->
+  <g id="jHindL">
+    <path d="M -26,170 C -32,196 -42,212 -50,224" fill="none" stroke="#2A1A10" stroke-width="32" stroke-linecap="round"/>
+    <path d="M -26,170 C -32,196 -42,212 -50,224" fill="none" stroke="#F4C460" stroke-width="24" stroke-linecap="round"/>
+    <ellipse class="fur o" cx="-55" cy="230" rx="16" ry="10" transform="rotate(35 -55 230)"/>
+  </g>
+  <g id="jFrontL">
+    <path d="M -38,92 C -54,82 -68,64 -76,42" fill="none" stroke="#2A1A10" stroke-width="31" stroke-linecap="round"/>
+    <path d="M -38,92 C -54,82 -68,64 -76,42" fill="none" stroke="#F4C460" stroke-width="23" stroke-linecap="round"/>
+    <circle class="fur o" cx="-78" cy="34" r="14"/><path class="ln2" d="M -84,26 L -82,32 M -76,24 L -76,30"/>
+  </g>
+  <g id="jump">
+    <path d="M 34,160 C 62,152 84,126 88,98" fill="none" stroke="#2A1A10" stroke-width="26" stroke-linecap="round"/>
+    <path d="M 34,160 C 62,152 84,126 88,98" fill="none" stroke="#F4C460" stroke-width="17" stroke-linecap="round"/>
+    <use href="#jHindL"/><use href="#jHindL" transform="scale(-1,1)"/>
+    <path class="fur o" d="M -36,46 C -54,76 -56,132 -44,168 C -34,194 34,194 44,168 C 56,132 54,76 36,46 Z"/>
+    <use href="#bib"/>
+    <use href="#jFrontL"/><use href="#jFrontL" transform="scale(-1,1)"/>
+    <use href="#collar"/>
+    <g transform="rotate(-4 0 56)">
+      <use href="#hd"/><use href="#mouthBig"/><use href="#nose"/><use href="#eyesHappy"/>
+      <g transform="translate(0,-6)"><use href="#brows"/></g>
+      <use href="#earL" transform="rotate(58 -36 -50)"/><use href="#earR" transform="rotate(-58 36 -50)"/>
+    </g>
+  </g>
+
+  <!-- ===== POSE 2: head tilt, thinking (wrong answer) ===== -->
+  <g id="think">
+    <use href="#sitBody"/>
+    <g transform="rotate(-14 0 56)">
+      <use href="#hd"/>
+      <path class="ln" d="M 0,16 V 22 M -12,29 C -6,24 0,32 6,27 C 9,25 12,26 14,28"/>
+      <use href="#nose"/>
+      <g transform="translate(3,-3)"><use href="#eyes"/></g>
+      <path class="ln" d="M -35,-34 Q -27,-45 -16,-38"/><path class="ln" d="M 16,-33 Q 25,-32 33,-27"/>
+      <use href="#earL"/><use href="#earR" transform="rotate(-28 34 -50)"/>
+    </g>
+  </g>
+
+  <!-- ===== POSE 3: pointing with a paw ===== -->
+  <g id="point">
+    <use href="#tailF"/><use href="#haunch"/><use href="#torsoF"/><use href="#hindPaws"/><use href="#legL"/><use href="#bib"/>
+    <path d="M 22,116 C 50,104 80,86 100,68" fill="none" stroke="#2A1A10" stroke-width="32" stroke-linecap="round"/>
+    <path d="M 22,116 C 50,104 80,86 100,68" fill="none" stroke="#F4C460" stroke-width="24" stroke-linecap="round"/>
+    <ellipse class="fur o" cx="106" cy="63" rx="17" ry="12" transform="rotate(-38 106 63)"/>
+    <use href="#collar"/>
+    <g transform="rotate(7 0 56)">
+      <use href="#hd"/><use href="#mouthOpen"/><use href="#nose"/>
+      <g transform="translate(6,-1)"><use href="#eyes"/></g><g transform="translate(4,-2)"><use href="#brows"/></g>
+      <use href="#earL"/><use href="#earR"/>
+    </g>
+  </g>
+
+  <!-- ===== POSE 4: earmuffs, "Safety first!" ===== -->
+  <g id="safe">
+    <use href="#sitBody"/>
+    <use href="#hd"/><use href="#smile"/><use href="#nose"/><use href="#eyes"/><use href="#brows"/>
+    <use href="#earL"/><use href="#earR"/><use href="#muffs"/>
+  </g>
+
+  <!-- ===== POSE 5: sleeping (empty states) ===== -->
+  <g id="sleep">
+    <ellipse cx="0" cy="52" rx="128" ry="15" fill="#10B981" opacity=".22"/>
+    <path class="fur o" d="M -50,-26 C -20,-56 64,-58 96,-18 C 114,6 106,44 70,46 L -40,46 C -76,46 -84,-6 -50,-26 Z"/>
+    <ellipse class="fur o" cx="58" cy="10" rx="38" ry="32"/>
+    <ellipse class="fur o" cx="24" cy="42" rx="22" ry="9"/>
+    <path d="M 94,28 C 106,50 70,56 34,54" fill="none" stroke="#2A1A10" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 94,28 C 106,50 70,56 34,54" fill="none" stroke="#F4C460" stroke-width="14" stroke-linecap="round"/>
+    <g transform="translate(-62,-4) rotate(-8) scale(.84)">
+      <use href="#hd"/><use href="#smile"/><use href="#nose"/><use href="#eyesSleep"/><use href="#earL"/><use href="#earR"/>
+    </g>
+    <ellipse class="fur o" cx="-96" cy="44" rx="20" ry="10"/><ellipse class="fur o" cx="-52" cy="46" rx="20" ry="10"/>
+  </g>
+
+  <!-- ===== SIDE VIEW, sitting, facing right (stand scene). origin = centre of the head, ground at y = 157 ===== -->
+  <g id="sideDog">
+    <path d="M -48,148 C -76,154 -98,148 -114,136" fill="none" stroke="#2A1A10" stroke-width="22" stroke-linecap="round"/>
+    <path d="M -48,148 C -76,154 -98,148 -114,136" fill="none" stroke="#F4C460" stroke-width="14" stroke-linecap="round"/>
+    <rect class="sh o" x="0" y="86" width="18" height="64" rx="8"/>
+    <path class="fur o" d="M -22,20 C 4,22 28,42 32,80 L 32,148 L -52,148 C -66,118 -54,58 -22,20 Z"/>
+    <circle class="fur o" cx="-30" cy="112" r="36"/>
+    <ellipse class="fur o" cx="-2" cy="150" rx="22" ry="8"/>
+    <rect class="fur" x="14" y="84" width="20" height="64"/><path class="ln" d="M 14,98 V 148 M 34,84 V 148"/>
+    <ellipse class="fur o" cx="30" cy="151" rx="16" ry="8"/>
+    <path class="cr" d="M 12,40 C 24,48 31,64 32,84 L 32,100 C 22,92 15,72 12,40 Z"/>
+    <path class="em o" d="M -20,18 C -6,30 14,32 26,24 L 28,36 C 14,46 -8,44 -22,30 Z"/>
+    <ellipse class="clay" cx="20" cy="46" rx="7" ry="5" stroke="#2A1A10" stroke-width="2.5"/>
+    <!-- head looks up at the clay; pivot = neck (0,24) -->
+    <g transform="rotate(-24 0 24)">
+      <path class="fur o" d="M -30,2 C -32,-20 -14,-34 4,-34 C 20,-34 30,-26 33,-14 C 42,-12 54,-12 62,-9 C 70,-6 72,8 67,16 C 62,24 52,26 40,26 C 28,27 18,32 4,32 C -16,32 -30,22 -30,2 Z"/>
+      <path class="cr" d="M 30,12 C 42,10 58,10 68,11 C 66,19 60,24 50,25.5 C 40,26.5 28,27.5 19,30.5 C 21,22 24,14 30,12 Z"/>
+      <ellipse class="ink" cx="65" cy="-4" rx="7" ry="6"/><ellipse cx="62.5" cy="-6" rx="2.6" ry="1.5" fill="#fff" opacity=".7"/>
+      <path class="ln" d="M 65,14 C 57,19 46,19 38,15 C 36,14 35,12 36,10"/>
+      <ellipse class="ink" cx="24" cy="-14" rx="5" ry="6.5"/><circle cx="25.6" cy="-16.6" r="1.9" fill="#fff"/>
+      <path class="ln" d="M 16,-25 Q 23,-30 31,-26"/>
+      <!-- ear flap, lifted (alert); pivot (2,-28) -->
+      <path class="sh o" transform="rotate(-16 2 -28)" d="M 8,-30 C -6,-36 -22,-28 -24,-10 C -26,8 -20,22 -10,24 C -2,25 2,16 4,4 C 6,-8 12,-22 8,-30 Z"/>
+      <!-- dog earmuffs -->
+      <path d="M -6,-30 C -2,-44 14,-46 22,-38" fill="none" stroke="#2A1A10" stroke-width="10" stroke-linecap="round"/>
+      <path d="M -6,-30 C -2,-44 14,-46 22,-38" fill="none" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+      <ellipse class="em" cx="-5" cy="-20" rx="12" ry="14.5" stroke="#2A1A10" stroke-width="3"/><ellipse cx="-6" cy="-21" rx="5.5" ry="8.5" fill="#34D399"/>
+    </g>
+  </g>
+
+  <!-- ===== PEOPLE + STAND for the scene (neutral flat figures, no real persons). origin = feet ===== -->
+  <g id="handler">
+    <rect x="-15" y="-94" width="13" height="94" rx="6" fill="#334155"/>
+    <rect x="2" y="-94" width="13" height="94" rx="6" fill="#3E4C61"/>
+    <ellipse cx="-8" cy="-2" rx="11" ry="5" fill="#0B0F14"/><ellipse cx="11" cy="-2" rx="11" ry="5" fill="#0B0F14"/>
+    <path d="M -2,-160 C -10,-140 -12,-122 -10,-104" fill="none" stroke="#3E4C61" stroke-width="11" stroke-linecap="round"/>
+    <rect x="-20" y="-172" width="40" height="90" rx="15" fill="#475569"/>
+    <path d="M 6,-158 C 14,-134 22,-118 30,-110" fill="none" stroke="#5B6B80" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="31" cy="-107" r="5.5" fill="#D9A77C"/>
+    <circle cx="4" cy="-190" r="16" fill="#D9A77C"/>
+    <path d="M -12,-192 C -12,-210 18,-212 20,-194 L 33,-192 L 20,-188 Z" fill="#334155"/>
+    <path d="M 1,-192 C 1,-204 6,-208 10,-206" fill="none" stroke="#10B981" stroke-width="3"/>
+    <ellipse cx="1" cy="-188" rx="5.5" ry="8" fill="#10B981"/>
+  </g>
+  <g id="stand">
+    <rect x="-64" y="0" width="128" height="7" rx="2" fill="#4B5563"/>
+    <path d="M -50,0 V -128 H 56 V 0 M -50,-72 H 56" fill="none" stroke="#6B7A8C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="shooter">
+    <rect x="-16" y="-94" width="13" height="94" rx="6" fill="#334155"/>
+    <rect x="2" y="-94" width="13" height="94" rx="6" fill="#3E4C61"/>
+    <ellipse cx="-9" cy="-2" rx="11" ry="5" fill="#0B0F14"/><ellipse cx="12" cy="-2" rx="11" ry="5" fill="#0B0F14"/>
+    <!-- far (trigger) arm, behind the body -->
+    <path d="M 0,-164 C 10,-188 32,-196 49,-187" fill="none" stroke="#3E4C61" stroke-width="10" stroke-linecap="round"/>
+    <g transform="rotate(10 0 -90)">
+      <rect x="-20" y="-172" width="40" height="88" rx="15" fill="#475569"/>
+      <rect x="-20" y="-160" width="40" height="62" rx="12" fill="#059669"/>
+    </g>
+    <circle cx="24" cy="-185" r="16" fill="#D9A77C"/>
+    <path d="M 8,-188 C 8,-206 38,-208 40,-190 L 52,-188 L 40,-184 Z" fill="#334155"/>
+    <rect x="31" y="-189" width="10" height="5" rx="2" fill="#22D3EE"/>
+    <path d="M 20,-192 C 20,-204 25,-208 29,-206" fill="none" stroke="#10B981" stroke-width="3"/>
+    <ellipse cx="20" cy="-184" rx="5.5" ry="8" fill="#10B981"/>
+    <!-- near arm, under the gun, hand on the fore-end -->
+    <path d="M 8,-156 C 36,-168 66,-200 90,-221" fill="none" stroke="#56657A" stroke-width="10" stroke-linecap="round"/>
+    <!-- shotgun, mounted, pointing at the clay (stock on the cheek) -->
+    <path d="M 16,-158 L 55.3,-192.1" stroke="#8B5A2B" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 55.3,-192.1 L 65.9,-201.2" stroke="#64748B" stroke-width="8"/>
+    <path d="M 65.9,-201.2 L 129.4,-256.3" stroke="#CBD5E1" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="49.3" cy="-186.8" r="5.5" fill="#D9A77C"/>
+    <circle cx="91.6" cy="-223.5" r="5.5" fill="#D9A77C"/>
+  </g>
+
+  <!-- ===== AVATAR (radius 24 = 48 px) ===== -->
+  <g id="avatar">
+    <circle r="24" fill="#0b2540"/>
+    <g clip-path="url(#avClip)">
+      <g transform="translate(0,-1.5) scale(.25)" stroke-width="9">
+        <use href="#torsoF"/><use href="#bib"/><use href="#collar"/>
+        <use href="#hd"/><use href="#mouthOpen"/><use href="#nose"/><use href="#eyesAv"/><use href="#earL"/><use href="#earR"/>
+      </g>
+    </g>
+    <circle r="23" fill="none" stroke="#10B981" stroke-width="2"/>
+  </g>
+</defs>
+
+<rect width="1600" height="1000" fill="url(#bg)"/>
+
+<g stroke-width="4">
+
+<!-- ===== HEADER ===== -->
+<text x="24" y="32" class="eye" font-size="12">CLAYARENA ACADEMY · MASCOT SKETCH SHEET · DRAFT</text>
+<text x="24" y="62" class="ttl" font-size="27">Variant C — yellow Labrador, round cartoon</text>
+<text x="1576" y="34" class="soft" font-size="13" text-anchor="end">Clay shooting school · Sporting™ · Compak® Sporting</text>
+<text x="1576" y="56" class="cap" font-size="13" text-anchor="end">Speech bubbles in English only, or silent · our own character · works on the dark site</text>
+
+<!-- ===== MAIN POSE ===== -->
+<rect class="panel" x="24" y="80" width="500" height="560" rx="18"/>
+<rect x="24" y="80" width="500" height="560" rx="18" fill="url(#glow)"/>
+<text x="44" y="110" class="eye" font-size="11">MAIN POSE</text>
+<text x="44" y="132" class="ttl" font-size="17">Sitting, friendly</text>
+<g transform="translate(286,282) scale(1.36)">
+  <ellipse cx="14" cy="214" rx="118" ry="9" fill="#000" opacity=".35"/>
+  <use href="#sitBody"/>
+  <g transform="rotate(3 0 56)"><use href="#headMain"/></g>
+</g>
+<!-- callouts -->
+<g font-size="12">
+  <text x="44" y="186" class="soft" font-weight="700">Big round head</text>
+  <text x="44" y="202" class="cap" font-size="11">≈ body size, reads at 48 px</text>
+  <path class="call" d="M 196,190 L 254,204"/><circle class="dot" cx="254" cy="204" r="3"/>
+  <text x="44" y="282" class="soft" font-weight="700">Short drop ears</text>
+  <text x="44" y="298" class="cap" font-size="11">flick on “Pull!”</text>
+  <path class="call" d="M 138,288 L 184,280"/><circle class="dot" cx="184" cy="280" r="3"/>
+  <text x="44" y="400" class="soft" font-weight="700">Emerald collar</text>
+  <text x="44" y="416" class="cap" font-size="11">+ mini clay-disc tag</text>
+  <path class="call" d="M 140,404 L 272,406"/><circle class="dot" cx="272" cy="406" r="3"/>
+  <text x="410" y="332" class="soft" font-weight="700">Kind eyes,</text>
+  <text x="410" y="348" class="cap" font-size="11">broad soft muzzle</text>
+  <path class="call" d="M 406,330 L 336,304"/><circle class="dot" cx="336" cy="304" r="3"/>
+  <text x="404" y="600" class="soft" font-weight="700">Otter tail</text>
+  <text x="404" y="616" class="cap" font-size="11">thick, wags in arcs</text>
+  <path class="call" d="M 456,586 L 474,470"/><circle class="dot" cx="474" cy="470" r="3"/>
+</g>
+
+<!-- ===== SHAPES + RULES ===== -->
+<rect class="panel" x="24" y="656" width="500" height="320" rx="18"/>
+<text x="44" y="686" class="eye" font-size="11">CONSTRUCTION</text>
+<text x="44" y="708" class="ttl" font-size="16">Built from simple shapes</text>
+<g transform="translate(100,790) scale(.5)">
+  <g opacity=".3"><use href="#sitBody"/><use href="#headMain"/></g>
+  <g fill="none" stroke="#34D399" stroke-width="3.2" stroke-dasharray="8 6">
+    <ellipse rx="66" ry="58"/>
+    <path d="M -30,-54 C -48,-60 -66,-50 -74,-32 C -80,-14 -78,8 -68,20 C -60,28 -50,24 -50,14 C -50,2 -48,-10 -42,-22 C -38,-34 -34,-46 -30,-54 Z"/>
+    <path transform="scale(-1,1)" d="M -30,-54 C -48,-60 -66,-50 -74,-32 C -80,-14 -78,8 -68,20 C -60,28 -50,24 -50,14 C -50,2 -48,-10 -42,-22 C -38,-34 -34,-46 -30,-54 Z"/>
+    <path d="M -34,18 C -36,2 -20,-4 0,-4 C 20,-4 36,2 34,18 C 33,36 18,46 0,46 C -18,46 -33,36 -34,18 Z"/>
+    <path d="M -38,44 C -58,72 -64,130 -58,172 C -52,206 52,206 58,172 C 64,130 58,72 38,44 Z"/>
+    <circle cx="-56" cy="160" r="38"/><circle cx="56" cy="160" r="38"/>
+    <rect x="-38" y="112" width="26" height="92" rx="13"/><rect x="12" y="112" width="26" height="92" rx="13"/>
+    <path d="M 58,194 C 104,200 140,178 146,138 C 148,126 134,122 131,133 C 124,158 98,166 60,160 Z"/>
+  </g>
+</g>
+<g font-size="11" class="soft">
+  <text x="188" y="756">oval head</text><path class="call" d="M 185,752 L 124,764"/>
+  <text x="188" y="780">drop ears</text><path class="call" d="M 185,776 L 142,782"/>
+  <text x="188" y="804">bean muzzle</text><path class="call" d="M 185,800 L 116,800"/>
+  <text x="188" y="828">pear body</text><path class="call" d="M 185,824 L 130,842"/>
+  <text x="188" y="852">circle haunches</text><path class="call" d="M 185,848 L 146,866"/>
+  <text x="188" y="876">otter tail</text><path class="call" d="M 185,872 L 172,858"/>
+</g>
+<text x="44" y="956" class="cap" font-size="11">Each shape is its own layer, so it can move alone in canvas.</text>
+
+<line x1="290" y1="676" x2="290" y2="956" stroke="rgba(255,255,255,.08)" stroke-width="1"/>
+<text x="308" y="686" class="eye" font-size="11">CHARACTER RULES</text>
+<g font-size="12.5">
+  <circle class="dot" cx="312" cy="716" r="4"/><text x="324" y="720" class="ttl">English only, or silent</text>
+  <text x="324" y="737" class="cap" font-size="11.5">Pull! · Good shot! · Safety first!</text>
+  <circle class="dot" cx="312" cy="764" r="4"/><text x="324" y="768" class="ttl">Behind the stand, on a lead</text>
+  <text x="324" y="785" class="cap" font-size="11.5">always next to its handler</text>
+  <circle class="dot" cx="312" cy="812" r="4"/><text x="324" y="816" class="ttl">Earmuffs near the guns</text>
+  <text x="324" y="833" class="cap" font-size="11.5">ears protected, eyes on the clay</text>
+  <circle cx="312" cy="860" r="4" fill="#F87171"/><text x="324" y="864" class="ttl">Never in front of the guns</text>
+  <text x="324" y="881" class="cap" font-size="11.5">never carries a gun or a cartridge</text>
+  <circle class="dot" cx="312" cy="908" r="4"/><text x="324" y="912" class="ttl">Our own design</text>
+  <text x="324" y="929" class="cap" font-size="11.5">round head, emerald collar, clay tag</text>
+</g>
+
+<!-- ===== 5 VARIANTS ===== -->
+<!-- 1 happy jump -->
+<g transform="translate(544,80)">
+  <rect class="panel" width="196" height="380" rx="16"/>
+  <text x="16" y="28" class="eye" font-size="10.5">1 · CORRECT ANSWER</text>
+  <text x="16" y="48" class="ttl" font-size="15">Happy jump</text>
+  <ellipse cx="96" cy="352" rx="40" ry="5" fill="#000" opacity=".35"/>
+  <path d="M 64,338 v 8 M 80,342 v 8 M 112,342 v 8 M 128,338 v 8" stroke="#34D399" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+  <g transform="translate(96,198) scale(.56)"><use href="#jump"/></g>
+  <use href="#spark" transform="translate(30,150)" fill="#34D399"/>
+  <use href="#spark" transform="translate(170,186) scale(.8)" fill="#FB923C"/>
+  <use href="#spark" transform="translate(162,138) scale(.6)" fill="#34D399"/>
+  <rect class="bub" x="44" y="64" width="112" height="36" rx="13"/>
+  <path class="bub" d="M 92,99 L 86,116 L 106,99 Z"/>
+  <text x="100" y="88" class="btxt" font-size="16">Good shot!</text>
+</g>
+<!-- 2 thinking -->
+<g transform="translate(753,80)">
+  <rect class="panel" width="196" height="380" rx="16"/>
+  <text x="16" y="28" class="eye" font-size="10.5">2 · WRONG ANSWER</text>
+  <text x="16" y="48" class="ttl" font-size="15">Head tilt, thinking</text>
+  <ellipse cx="96" cy="350" rx="70" ry="6" fill="#000" opacity=".35"/>
+  <g transform="translate(84,220) scale(.6)"><use href="#think"/></g>
+  <g class="bub"><circle cx="148" cy="96" r="22"/><circle cx="168" cy="106" r="16"/><circle cx="128" cy="106" r="16"/><circle cx="150" cy="116" r="16"/><circle cx="124" cy="140" r="6"/><circle cx="114" cy="155" r="4"/></g>
+  <text x="148" y="117" class="btxt" font-size="34" fill="#059669" style="fill:#059669">?</text>
+</g>
+<!-- 3 pointing -->
+<g transform="translate(962,80)">
+  <rect class="panel" width="196" height="380" rx="16"/>
+  <text x="16" y="28" class="eye" font-size="10.5">3 · TIP · LOOK HERE</text>
+  <text x="16" y="48" class="ttl" font-size="15">Pointing with a paw</text>
+  <ellipse cx="88" cy="350" rx="70" ry="6" fill="#000" opacity=".35"/>
+  <g transform="translate(70,220) scale(.6)"><use href="#point"/></g>
+  <circle cx="164" cy="196" r="20" fill="none" stroke="#34D399" stroke-width="2" stroke-dasharray="5 4"/>
+  <g transform="translate(164,196) rotate(-10)"><ellipse rx="12" ry="5" class="clay" stroke="#2A1A10" stroke-width="2"/><ellipse cy="-1.8" rx="6" ry="2.4" fill="#FDBA74"/></g>
+  <path d="M 164,166 v -8 M 186,176 l 6,-5 M 142,176 l -6,-5" stroke="#34D399" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+<!-- 4 earmuffs -->
+<g transform="translate(1171,80)">
+  <rect class="panel" width="196" height="380" rx="16"/>
+  <text x="16" y="28" class="eye" font-size="10.5">4 · SAFETY REMINDER</text>
+  <text x="16" y="48" class="ttl" font-size="15">Dog earmuffs on</text>
+  <ellipse cx="102" cy="350" rx="70" ry="6" fill="#000" opacity=".35"/>
+  <g transform="translate(92,220) scale(.6)"><use href="#safe"/></g>
+  <rect class="bub" x="30" y="66" width="140" height="36" rx="13" stroke="#10B981" stroke-width="2.5"/>
+  <path class="bub" d="M 92,100.5 L 88,124 L 108,100.5 Z"/>
+  <path d="M 92,102 L 88,124 L 108,102" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="91" y="98" width="16" height="4" class="bub"/>
+  <text x="100" y="90" class="btxt" font-size="16">Safety first!</text>
+</g>
+<!-- 5 sleeping -->
+<g transform="translate(1380,80)">
+  <rect class="panel" width="196" height="380" rx="16"/>
+  <text x="16" y="28" class="eye" font-size="10.5">5 · EMPTY STATE</text>
+  <text x="16" y="48" class="ttl" font-size="15">Sleeping</text>
+  <g transform="translate(108,315) scale(.66)"><use href="#sleep"/></g>
+  <g class="soft" font-weight="800"><text x="64" y="252" font-size="15">z</text><text x="80" y="226" font-size="20">z</text><text x="100" y="194" font-size="27">Z</text></g>
+</g>
+
+<!-- ===== STAND SCENE ===== -->
+<g transform="translate(544,476)">
+  <g clip-path="url(#sceneClip)">
+    <rect width="692" height="500" fill="url(#sky)"/>
+    <path d="M 0,372 C 30,350 60,356 84,344 C 110,330 140,350 168,340 C 200,326 226,346 256,338 C 290,328 316,348 350,342 C 384,334 420,352 452,344 C 486,334 520,350 556,340 C 590,330 630,348 692,338 L 692,404 L 0,404 Z" fill="#0C2A25"/>
+    <rect y="402" width="692" height="98" fill="#0F201B"/>
+    <rect y="400" width="692" height="4" fill="#065F46"/>
+    <!-- clay flight -->
+    <path d="M 700,250 Q 678,130 640,104" fill="none" stroke="#FB923C" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round" opacity=".8"/>
+    <path d="M 650,96 l 14,-4 M 652,108 l 14,-2" stroke="#FB923C" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+    <g transform="translate(634,104) rotate(-14)"><ellipse rx="13" ry="5.5" class="clay" stroke="#2A1A10" stroke-width="2"/><ellipse cy="-2" rx="6.5" ry="2.6" fill="#FDBA74"/></g>
+    <!-- figures, scaled 1.2 around the ground point (300,430) -->
+    <g transform="translate(300,430) scale(1.2) translate(-300,-430)">
+      <use href="#stand" transform="translate(430,430)"/>
+      <use href="#shooter" transform="translate(430,430)"/>
+      <rect class="bub" x="350" y="176" width="64" height="30" rx="11"/>
+      <path class="bub" d="M 396,204 L 442,232 L 408,204 Z"/>
+      <text x="382" y="197" class="btxt" font-size="15">Pull!</text>
+      <!-- handler + dog, behind the stand -->
+      <use href="#handler" transform="translate(150,430)"/>
+      <path d="M 181,324 C 194,368 220,376 240,364" fill="none" stroke="#D39338" stroke-width="3" stroke-linecap="round"/>
+      <g transform="translate(240,343) scale(.55)"><use href="#sideDog"/></g>
+      <!-- ear flick marks -->
+      <path d="M 220,316 q -7,-5 -6,-13 M 211,322 q -8,-3 -10,-11" fill="none" stroke="#34D399" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </g>
+  <rect width="692" height="500" rx="16" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1"/>
+  <text x="20" y="30" class="eye" font-size="11">STAND SCENE · SIDE VIEW</text>
+  <text x="20" y="54" class="ttl" font-size="17">Behind the stand, on a lead, eyes on the clay</text>
+  <text x="20" y="74" class="cap" font-size="12">Shooter calls “Pull!” → ears flick, head follows the clay. The dog never goes forward.</text>
+  <text x="20" y="466" fill="#34D399" font-size="12.5" font-weight="700">← Waiting area: behind the stand</text>
+  <text x="20" y="484" class="cap" font-size="11.5">on a lead, next to the handler, earmuffs on</text>
+  <text x="430" y="466" class="soft" font-size="12.5" font-weight="700" text-anchor="middle">Shooting stand</text>
+  <text x="430" y="484" class="cap" font-size="11.5" text-anchor="middle">guns point forward only</text>
+  <text x="676" y="466" fill="#F87171" font-size="12.5" font-weight="700" text-anchor="end">No one in front →</text>
+  <text x="676" y="484" class="cap" font-size="11.5" text-anchor="end">people and dogs</text>
+</g>
+
+<!-- ===== AVATAR ===== -->
+<rect class="panel" x="1252" y="476" width="324" height="220" rx="18"/>
+<text x="1270" y="504" class="eye" font-size="11">AVATAR</text>
+<text x="1270" y="524" class="ttl" font-size="15">48 px head badge</text>
+<use href="#avatar" transform="translate(1330,612) scale(2.5)"/>
+<rect x="1414" y="540" width="70" height="70" rx="12" fill="#0B1311" stroke="rgba(255,255,255,.12)" stroke-width="1"/>
+<use href="#avatar" transform="translate(1449,575)"/>
+<rect x="1494" y="540" width="70" height="70" rx="12" fill="#F3F4F6"/>
+<use href="#avatar" transform="translate(1529,575)"/>
+<text x="1449" y="626" class="cap" font-size="10.5" text-anchor="middle">48 px, dark</text>
+<text x="1529" y="626" class="cap" font-size="10.5" text-anchor="middle">48 px, light</text>
+<use href="#avatar" transform="translate(1436,660) scale(.6667)"/>
+<text x="1458" y="664" class="cap" font-size="10.5">32 px</text>
+<use href="#avatar" transform="translate(1502,660) scale(.5)"/>
+<text x="1520" y="664" class="cap" font-size="10.5">24 px</text>
+
+<!-- ===== PALETTE ===== -->
+<rect class="panel" x="1252" y="712" width="324" height="264" rx="18"/>
+<text x="1270" y="740" class="eye" font-size="11">PALETTE · 6 COLOURS</text>
+<g font-size="12.5" stroke="rgba(255,255,255,.25)" stroke-width="1">
+  <rect x="1270" y="756" width="36" height="36" rx="8" fill="#F4C460"/>
+  <rect x="1270" y="814" width="36" height="36" rx="8" fill="#D39338"/>
+  <rect x="1270" y="872" width="36" height="36" rx="8" fill="#FFEAC0"/>
+  <rect x="1418" y="756" width="36" height="36" rx="8" fill="#2A1A10"/>
+  <rect x="1418" y="814" width="36" height="36" rx="8" fill="#10B981"/>
+  <rect x="1418" y="872" width="36" height="36" rx="8" fill="#FB923C"/>
+</g>
+<g font-size="12.5">
+  <text x="1314" y="771" class="ttl">#F4C460</text><text x="1314" y="787" class="cap" font-size="11">fur</text>
+  <text x="1314" y="829" class="ttl">#D39338</text><text x="1314" y="845" class="cap" font-size="11">ears, lead, shade</text>
+  <text x="1314" y="887" class="ttl">#FFEAC0</text><text x="1314" y="903" class="cap" font-size="11">muzzle, chest</text>
+  <text x="1462" y="771" class="ttl">#2A1A10</text><text x="1462" y="787" class="cap" font-size="11">outline, eyes, nose</text>
+  <text x="1462" y="829" class="ttl">#10B981</text><text x="1462" y="845" class="cap" font-size="11">collar, earmuffs</text>
+  <text x="1462" y="887" class="ttl">#FB923C</text><text x="1462" y="903" class="cap" font-size="11">clay tag, tongue</text>
+</g>
+<text x="1270" y="936" class="cap" font-size="11">+ white eye shine, #34D399 muff shine</text>
+<text x="1270" y="954" class="cap" font-size="11">Checked on #0B1311 · #121D1A · #0b2540</text>
+<g transform="translate(1270,962)"><rect width="18" height="8" rx="2" fill="#0B1311" stroke="rgba(255,255,255,.2)" stroke-width="1"/><rect x="22" width="18" height="8" rx="2" fill="#121D1A" stroke="rgba(255,255,255,.2)" stroke-width="1"/><rect x="44" width="18" height="8" rx="2" fill="#0b2540" stroke="rgba(255,255,255,.2)" stroke-width="1"/></g>
+
+<text x="24" y="993" class="cap" font-size="10.5">Original character, sketch v1 for discussion · Sporting™ and Compak® Sporting are trade marks of FITASC.</text>
+</g>
+</svg>
