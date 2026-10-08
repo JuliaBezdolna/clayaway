@@ -255,21 +255,25 @@
       "options": [
         {
           "k": "a",
+          "term": "hold-point",
           "en": "Hold point",
           "uk": "Точка утримання"
         },
         {
           "k": "b",
+          "term": "break-point",
           "en": "Break point",
           "uk": "Точка пострілу"
         },
         {
           "k": "c",
+          "term": "pick-up-point",
           "en": "Pick-up point",
           "uk": "Точка підхоплення"
         },
         {
           "k": "d",
+          "term": "insertion-point",
           "en": "Insertion point",
           "uk": "Точка входу"
         }
@@ -419,16 +423,19 @@
       "options": [
         {
           "k": "a",
+          "term": "pick-up-point",
           "en": "The pick-up point",
           "uk": "Під точку підхоплення"
         },
         {
           "k": "b",
+          "term": "hold-point",
           "en": "The hold point",
           "uk": "Під точку утримання"
         },
         {
           "k": "c",
+          "term": "break-point",
           "en": "The break point",
           "uk": "Під точку пострілу"
         }

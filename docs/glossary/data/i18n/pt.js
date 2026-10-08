@@ -337,6 +337,16 @@ window.GLOSSARY_I18N.pt = {
    "short": "Cano ou choke sem estrangulamento; dá a chumbada mais aberta.",
    "long": "Cilíndrico significa estrangulamento zero: o interior junto à boca é igual ao do resto do cano. A nuvem de chumbo espalha-se mais depressa, por isso a chumbada é larga a curta distância e fica rala mais longe. Escolhe-se para pratos muito próximos, como alguns coelhos ou pratos que saltam perto do atirador. Nos chokes Beretta é marcado com cinco estrelas. Para a maioria dos pratos no Sporting™ e no Compak® Sporting os atiradores escolhem chokes um pouco mais apertados."
   },
+  "skeet-choke": {
+   "term_local": "skeet",
+   "alt": [
+    "choke de skeet"
+   ],
+   "note": "Anglicism used as is.",
+   "conf": "medium",
+   "short": "Estrangulamento muito leve, cerca de 0,1–0,15 mm (4–6 thou), para os pratos mais próximos.",
+   "long": "O choke skeet (marcação SK) é apenas um pouco mais apertado do que o cilíndrico: cerca de 0,1–0,15 mm de estrangulamento (4–6 thou), por vezes chamado 1/8 no uso europeu. A chumbada é larga a curta distância e perdoa pequenos erros. No Sporting™ e no Compak® Sporting usa-se para pratos próximos, coelhos e pratos que saltam perto. Os valores exatos dependem do fabricante."
+  },
   "improved-cylinder": {
    "term_local": "1/4 de choke",
    "alt": [
@@ -1042,11 +1052,11 @@ window.GLOSSARY_I18N.pt = {
    "long": "No avanço mantido, as bocas dos canos entram na linha do prato à frente dele e não atrás. Primeiro movem-se um pouco mais devagar do que o prato, que se aproxima até a distância parecer certa; depois os canos movem-se à velocidade do prato, a distância mantém-se e o tiro sai com a arma ainda em movimento. Costuma servir para pratos longos e previsíveis, como os transversais longos, porque dá tempo para ler o avanço. O erro típico é medir a distância: o olho desliza para os canos e a arma abranda ou para. É muitas vezes descrito como o método mais difícil de aprender; pergunte por isso a um treinador em que pratos lhe serve."
   },
   "swing-through": {
-   "term_local": "swing",
+   "term_local": "vir por trás",
    "alt": [
     "correr a mão",
-    "vir por trás",
-    "swing-through"
+    "swing-through",
+    "swing"
    ],
    "note": "'Correr a mão' is the traditional generic term for swinging; 'swing' anglicism common.",
    "conf": "medium",
@@ -1055,10 +1065,10 @@ window.GLOSSARY_I18N.pt = {
    "long": "No swing os canos começam atrás do prato, alcançam-no mais depressa do que ele se move, passam por ele e o tiro sai assim que ficam à frente. Como a arma se move mais depressa, o avanço parece menor ao olho. O método é natural para pratos por cima da cabeça e para trajetórias rápidas e próximas. O seu risco é a velocidade a mais e um falhanço à frente, se o movimento não for controlado. Como nos outros métodos, a arma tem de continuar a mover-se depois do tiro."
   },
   "pull-away": {
-   "term_local": "pull-away",
+   "term_local": "sair do prato",
    "alt": [
-    "sair do prato",
-    "arrancar do prato"
+    "arrancar do prato",
+    "pull-away"
    ],
    "note": "Usually the English term.",
    "conf": "low",

@@ -11,6 +11,7 @@ window.RULES_QUIZ.push({
    "q_uk": "Одиночна мішень. Стрілець стріляє, і суддя бачить лише хмарку пилу над мішенню; жоден уламок не відлітає. Яке рішення судді?",
    "options": [
     {
+     "term": "one",
      "en": "One (hit)",
      "uk": "One — мішень зарахована"
     },
@@ -19,6 +20,7 @@ window.RULES_QUIZ.push({
      "uk": "No Bird — мішень повторюють"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     }
@@ -40,6 +42,7 @@ window.RULES_QUIZ.push({
    "q_uk": "Одиночна мішень. Після пострілу від неї відлітає один маленький, але чітко видимий уламок, а решта летить далі. Яке рішення судді?",
    "options": [
     {
+     "term": "one",
      "en": "One (hit)",
      "uk": "One — мішень зарахована"
     },
@@ -48,6 +51,7 @@ window.RULES_QUIZ.push({
      "uk": "No Bird — мішень повторюють"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     }
@@ -68,6 +72,7 @@ window.RULES_QUIZ.push({
    "q_uk": "Стрілець командує «pull». Суддя передає сигнал, але мішень з’являється лише приблизно через п’ять секунд. Стрілець стріляє й промахується. Яке рішення судді?",
    "options": [
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     },
@@ -101,6 +106,7 @@ window.RULES_QUIZ.push({
      "uk": "No Bird — мішень повторюють"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     },
@@ -130,6 +136,7 @@ window.RULES_QUIZ.push({
      "uk": "Жовта картка, потім мішень повторюють"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     },
@@ -159,10 +166,12 @@ window.RULES_QUIZ.push({
      "uk": "No Bird — мішень повторюють"
     },
     {
+     "term": "one",
      "en": "One (hit)",
      "uk": "One — мішень зарахована"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     }
@@ -184,6 +193,7 @@ window.RULES_QUIZ.push({
    "q_uk": "Одиночна мішень із машинки B. У момент пострілу просто за стендом гучно дзвонить телефон глядача, стрілець помітно здригається й промахується. Яке рішення судді?",
    "options": [
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     },
@@ -216,6 +226,7 @@ window.RULES_QUIZ.push({
      "uk": "Запитати squad і зарахувати за більшістю голосів"
     },
     {
+     "term": "one",
      "en": "One (hit)",
      "uk": "One — мішень зарахована"
     },
@@ -224,6 +235,7 @@ window.RULES_QUIZ.push({
      "uk": "No Bird — мішень повторюють"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     }
@@ -277,6 +289,7 @@ window.RULES_QUIZ.push({
    "q_uk": "Rafale double. Обидві тарілки вилітають правильно, але стрілець опускає рушницю й не стріляє жодного разу, без поважної причини. Яке рішення судді?",
    "options": [
     {
+     "term": "zero-zero",
      "en": "Zero and zero",
      "uk": "Zero та zero"
     },
@@ -474,6 +487,7 @@ window.RULES_QUIZ.push({
      "uk": "No Bird — мішень повторюють"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     },
@@ -507,6 +521,7 @@ window.RULES_QUIZ.push({
      "uk": "No Bird, якщо це перша несправність у раунді"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     }
@@ -536,6 +551,7 @@ window.RULES_QUIZ.push({
      "uk": "Мішень повторюють з одним патроном"
     },
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     }
@@ -556,10 +572,12 @@ window.RULES_QUIZ.push({
    "q_uk": "Одиночна мішень. Перший постріл — промах, другий патрон дає осічку (перша несправність у раунді), тож мішень повторюють. На повторі стрілець розбиває тарілку першим пострілом. Яке рішення судді?",
    "options": [
     {
+     "term": "zero",
      "en": "Zero (lost)",
      "uk": "Zero — мішень не зарахована"
     },
     {
+     "term": "one",
      "en": "One (hit)",
      "uk": "One — мішень зарахована"
     },
@@ -592,6 +610,7 @@ window.RULES_QUIZ.push({
      "uk": "Весь дуплет повторюють, нічого не записують"
     },
     {
+     "term": "zero-zero",
      "en": "Zero and zero",
      "uk": "Zero та zero"
     }
@@ -616,6 +635,7 @@ window.RULES_QUIZ.push({
    "q_uk": "Simultaneous double. У стрільця вже була одна несправність раніше в цьому раунді. Тепер знову осічка першого пострілу, і він не стріляє. Яке рішення судді?",
    "options": [
     {
+     "term": "zero-zero",
      "en": "Zero and zero",
      "uk": "Zero та zero"
     },
@@ -715,6 +735,7 @@ window.RULES_QUIZ.push({
      "uk": "Червона картка: zero та No Bird"
     },
     {
+     "term": "zero-zero",
      "en": "Zero and zero",
      "uk": "Zero та zero"
     }
@@ -776,6 +797,7 @@ window.RULES_QUIZ.push({
      "uk": "Zero та No Bird"
     },
     {
+     "term": "zero-zero",
      "en": "Zero and zero",
      "uk": "Zero та zero"
     }
@@ -809,6 +831,7 @@ window.RULES_QUIZ.push({
      "uk": "Zero на наступній мішені"
     },
     {
+     "term": "warning",
      "en": "Warning",
      "uk": "Попередження"
     }

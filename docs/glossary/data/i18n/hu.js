@@ -317,6 +317,15 @@ window.GLOSSARY_I18N.hu = {
    "short": "Szűkítés nélküli cső vagy szűkület; a legszélesebb sörétképet adja.",
    "long": "A henger nulla szűkítést jelent: a furat a torkolatnál ugyanakkora, mint a csőben. A sörétfelhő itt szóródik a leggyorsabban, ezért a sörétkép közelről széles, távolabb pedig ritkává válik. Nagyon közeli korongokra választják, például egyes nyulakra vagy a lövő közelében felugró korongokra. Beretta szűkületeken öt csillag jelöli. Sporting™ és Compak® Sporting versenyen a legtöbb korongra a lövők valamivel szűkebb szűkületet választanak."
   },
+  "skeet-choke": {
+   "term_local": "skeet",
+   "alt": [
+    "skeet choke"
+   ],
+   "conf": "medium",
+   "short": "Nagyon enyhe szűkítés, kb. 0,1–0,15 mm (4–6 thou), a legközelebbi korongokhoz.",
+   "long": "A skeet szűkület (jelölése SK) csak kissé szűkebb a hengernél: kb. 0,1–0,15 mm szűkítés (4–6 thou), az európai szóhasználatban néha 1/8-nak hívják. A sörétkép közelről széles, és megbocsátja a kis hibákat. Sporting™ és Compak® Sporting versenyen közeli korongokra, nyulakra és a közelben felugró korongokra használják. A pontos értékek a gyártótól függenek."
+  },
   "improved-cylinder": {
    "term_local": "negyedes",
    "alt": [

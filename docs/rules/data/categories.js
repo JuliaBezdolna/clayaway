@@ -1,4 +1,7 @@
 // FITASC age categories (own wording; official source: source_url). Valid from 1 January 2027.
+// Names: name_en and the FITASC French name_fr only. The local words (uk «жінки», de «Herren», …) come from the glossary terms junior,
+// lady, men-category, senior, veteran, master-category (docs/glossary/data/i18n/<lang>.js) through docs/shared/terms.js; name_uk was removed
+// 08.10.2026 (one source). Pages: scripts/build_seo.mjs categoriesPage(), build_seo_en.mjs; rule references: scripts/build_academy.mjs.
 window.FITASC_CATEGORIES = {
  "source_url": "https://www.fitasc.com/competitions/categories",
  "valid_from": "2027-01-01",
@@ -9,7 +12,6 @@ window.FITASC_CATEGORIES = {
    "id": "junior",
    "name_en": "Junior",
    "name_fr": "Junior",
-   "name_uk": "Юніори",
    "from_age": 13,
    "to_age": 20,
    "born_from": "2007-01-01",
@@ -21,7 +23,6 @@ window.FITASC_CATEGORIES = {
    "id": "lady",
    "name_en": "Lady",
    "name_fr": "Dame",
-   "name_uk": "Жінки",
    "from_age": 13,
    "to_age": null,
    "born_from": null,
@@ -33,7 +34,6 @@ window.FITASC_CATEGORIES = {
    "id": "men",
    "name_en": "Men",
    "name_fr": "Homme",
-   "name_uk": "Чоловіки",
    "from_age": 21,
    "to_age": 55,
    "born_from": "1972-01-01",
@@ -45,7 +45,6 @@ window.FITASC_CATEGORIES = {
    "id": "senior",
    "name_en": "Senior",
    "name_fr": "Senior",
-   "name_uk": "Сеньйори",
    "from_age": 56,
    "to_age": 65,
    "born_from": "1962-01-01",
@@ -57,7 +56,6 @@ window.FITASC_CATEGORIES = {
    "id": "veteran",
    "name_en": "Veteran",
    "name_fr": "Vétéran",
-   "name_uk": "Ветерани",
    "from_age": 66,
    "to_age": 72,
    "born_from": "1955-01-01",
@@ -69,7 +67,6 @@ window.FITASC_CATEGORIES = {
    "id": "master",
    "name_en": "Master",
    "name_fr": "Master",
-   "name_uk": "Master",
    "from_age": 73,
    "to_age": null,
    "born_from": null,

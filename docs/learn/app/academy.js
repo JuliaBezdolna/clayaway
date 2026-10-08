@@ -33,11 +33,15 @@
      <data> = <site>/learn/data/ (override: window.ACADEMY_CONFIG = {dataBase: "…/"} before this script, e.g. on clayarena.com)
    Other ClayArena data used on demand: rules trainer bank docs/rules/data/quiz-*.js (+ i18n/quiz-<lang>.json) for "Рішення судді";
    glossary docs/glossary/data/glossary.js + learn_terms.js + i18n/<lang>.js for term cards, search and flight names.
+   TERM LABELS (owner rule 08.10.2026, step 1 = labels): a professional term NAMED as a label is "English (local)" in every language,
+   English only on English pages: term chips of a lesson (data terms[].en/local/label), the search results for terms, the answers of
+   "Назви траєкторію", the options of "Рішення судді" that carry "term", the names the animations show (ui.json "terms" + sims.js).
+   ONE helper makes them: docs/shared/terms.js (window.ClayTerms); this file never builds "en (local)" itself.
 
    PAGE CONTRACT (what every Academy page needs; the build writes the static pages, docs/learn/index.html is the uk home):
      <html lang="<lang>"> · <link rel="stylesheet" href="…/learn/app/academy.css">
      <header id="acTop"></header> <main id="app"> static content for no-JS readers and crawlers </main> <footer id="acFoot"></footer>
-     scripts (defer, in this order): shared/nav.js, shared/sims.js, shared/progress.js, learn/app/academy.js
+     scripts (defer, in this order): shared/nav.js, shared/terms.js, shared/sims.js, shared/progress.js, learn/app/academy.js
    The app replaces the static content of #app when its data has loaded; if the data cannot load, the static content stays
    (and on the shell page the <noscript> summary is shown instead), so a page never ends up empty.
 
@@ -106,6 +110,10 @@
     if (/^[a-z][a-z0-9+.-]*:/i.test(u) || u.startsWith("/") || u.startsWith("#")) return u; return SITE + u; };
   const rulesUrl = (book, id, l = LANG) => `${SITE}rules/${l === "uk" ? "" : "en/"}${book}/?lang=${l}#${encodeURIComponent(id)}`; // guide: uk + en pages
   const glossaryUrl = (id, l = LANG) => `${SITE}${pre(l)}glossary/${id}/`;
+  /* Term label as HTML: "<span lang=en>English</span> (local)" through docs/shared/terms.js (owner rule 08.10.2026); x = {en, local}
+     of the build data or of GLO.term(). Without the helper (an old cached page) the English name only. */
+  const termHtml = x => { const CT = window.ClayTerms; if (!x) return ""; if (!CT) return esc(x.en || x.label || "");
+    return CT.html(x.en, CT.local(x.local || "", LANG, [x.en]), LANG, esc); };
   function loadScript(src) { return new Promise((res, rej) => { if ([...document.scripts].some(s => s.src === src)) return res();
     const s = document.createElement("script"); s.src = src; s.onload = () => res(); s.onerror = () => rej(new Error(src)); document.head.appendChild(s); }); }
   const JSON_CACHE = new Map();
@@ -131,7 +139,7 @@
   const pathOf = v => v.view === "home" ? "" : v.view === "block" ? `topics/${v.id}/` : v.view === "route" ? `routes/${v.id}/` : v.view === "exam" ? `routes/${v.id}/exam/`
     : v.view === "practice" ? "practice/" : v.view === "game" ? `practice/${v.id}/` : v.view === "progress" ? "progress/" : `${v.id}/`;
 
-  let LANG = "uk", CAT = null, U = {}, LOC = null, PERSIST = true, S = null, TRAINER = null;
+  let LANG = "uk", CAT = null, U = {}, UT = {}, LOC = null, PERSIST = true, S = null, TRAINER = null; // UT = ui.json "terms" (names the animations show)
   /* Interface string; {name} placeholders are filled from vars. Missing keys fall back to the key itself (visible in tests). */
   const u = (k, vars) => { let s = U[k]; if (s == null) s = k; s = String(s); if (vars) s = s.replace(/\{(\w+)\}/g, (m, x) => (vars[x] != null ? vars[x] : m)); return s; };
   const t = (k, vars) => esc(u(k, vars));
@@ -394,7 +402,7 @@
       return `<div class="ac-empty">${dog("think", { size: 56, anim: !again })}<p class="ac-muted">${t("search_none")}</p></div>`; }
     VIEW.qNone = false;
     return `${ls.length ? `<h3 class="ac-h3">${t("search_lessons")}</h3><ul class="ac-lessons">${ls.map(c => lessonRow(c.id, { summary: true })).join("")}</ul>` : ""}
-      ${terms.length ? `<h3 class="ac-h3">${t("search_terms")}</h3><ul class="ac-terms">${terms.map(x => `<li><a href="${x.url}"><b>${esc(x.local)}</b>${x.local !== x.en ? ` <span lang="en">· ${esc(x.en)}</span>` : ""}<span class="ac-les-s">${esc(x.short)}</span></a></li>`).join("")}</ul>` : ""}`;
+      ${terms.length ? `<h3 class="ac-h3">${t("search_terms")}</h3><ul class="ac-terms">${terms.map(x => `<li><a href="${x.url}"><b>${termHtml(x)}</b><span class="ac-les-s">${esc(x.short)}</span></a></li>`).join("")}</ul>` : ""}`;
   }
 
   /* ---------- 8.2 Block ---------- */
@@ -506,7 +514,7 @@
     ${D.did_you_know ? `<aside class="ac-dyk"><b>${t("did_you_know")}</b> ${D.did_you_know.html}</aside>` : ""}
     ${(D.phrases || []).length ? `<details class="ac-panel ac-stand"${standOpen ? " open" : ""}><summary><h2>🗣 ${t("stand_talk")}</h2></summary>${D.phrases.map((p, i) => phraseHtml(p, i)).join("")}</details>` : ""}
     ${notesHtml(D.notes || [], notesOpen)}
-    ${(D.terms || []).length ? `<section aria-labelledby="h-terms"><h2 id="h-terms">${t("terms")}</h2><ul class="ac-chips">${D.terms.map(x => `<li><a class="ac-chip" href="${esc(fixUrl(x.url || glossaryUrl(x.id)))}">${esc(x.local || x.en)}${x.local && x.local !== x.en ? ` <span lang="en" class="ac-muted">· ${esc(x.en)}</span>` : ""}</a></li>`).join("")}</ul></section>` : ""}
+    ${(D.terms || []).length ? `<section aria-labelledby="h-terms"><h2 id="h-terms">${t("terms")}</h2><ul class="ac-chips">${D.terms.map(x => `<li><a class="ac-chip" href="${esc(fixUrl(x.url || glossaryUrl(x.id)))}">${termHtml(x)}</a></li>`).join("")}</ul></section>` : ""}
     ${(D.rule_refs || []).length ? `<section aria-labelledby="h-rules"><h2 id="h-rules">${t("rules_where")}</h2><ul class="ac-chips">${D.rule_refs.map(x => `<li><a class="ac-chip" href="${esc(fixUrl(x.url || rulesUrl(x.book, x.id)))}">${esc(x.label || x.id)}</a></li>`).join("")}</ul><p class="ac-muted ac-small">${t("rules_note")}</p></section>` : ""}
     ${(D.sources || []).length ? `<section aria-labelledby="h-src"><h2 id="h-src">${t("sources")}</h2><ul class="ac-src">${D.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="${s.fitasc || /fitasc\.com/i.test(s.url) ? "nofollow noopener noreferrer" : "noopener noreferrer"}">${esc(s.title)} ↗</a></li>`).join("")}</ul></section>` : ""}
     ${D.disclaimer === "medical" || c.disclaimer === "medical" ? `<p class="ac-disclaimer">⚕ ${t("not_medical_advice")}</p>` : ""}
@@ -738,21 +746,28 @@
     return `<header class="ac-head"><h1 tabindex="-1">${t("not_found")}</h1></header><p><a class="ac-btn primary" href="${href("")}" data-nav>${t("back_academy")}</a></p>`; }
 
   /* ================================ 9. Practice games ================================ */
-  /* Glossary on demand (term cards, search, flight names): the ONE term store of ClayArena, never copied into the Academy. */
+  /* Glossary on demand (term cards, search, flight names): the ONE term store of ClayArena, never copied into the Academy.
+     Names and labels through docs/shared/terms.js (loaded here too when a page lacks it). */
   const GLO = { ready: false, p: null, T: {},
     load() { if (this.p) return this.p; const base = SITE + "glossary/data/";
-      this.p = Promise.all([loadScript(base + "glossary.js"), loadScript(base + "learn_terms.js"), LANG !== "en" ? loadScript(base + `i18n/${LANG}.js`).catch(() => {}) : null])
+      this.p = Promise.all([loadScript(base + "glossary.js"), loadScript(base + "learn_terms.js"), LANG !== "en" ? loadScript(base + `i18n/${LANG}.js`).catch(() => {}) : null,
+        window.ClayTerms ? null : loadScript(SITE + "shared/terms.js").catch(() => {})])
         .then(() => { for (const x of [...((window.GLOSSARY || {}).terms || []), ...((window.GLOSSARY_LEARN || {}).terms || [])]) this.T[x.id] = this.T[x.id] || x; this.ready = true; })
         .catch(e => { this.p = null; throw e; }); return this.p; },
     i18n(id) { return ((window.GLOSSARY_I18N || {})[LANG] || { terms: {} }).terms[id] || null; },
-    term(id) { const x = this.T[id]; if (!x) return null; const o = this.i18n(id), en = x.display_term || x.term;
-      const local = LANG === "en" ? en : (o && o.term_local) || en;
+    /* term(id, en): {id, en, local, label, raw, short, url}; en = the English to show (default the headword; an option passes its
+       own English text), local = the local word to show in brackets ("" when it is the English word), raw = term_local as written. */
+    term(id, en) { const x = this.T[id]; if (!x) return null; const o = this.i18n(id), CT = window.ClayTerms;
+      const n = CT ? CT.of(x, o, LANG, { en }) : { en: en || x.display_term || x.term, local: "", label: en || x.display_term || x.term };
+      const raw = CT ? CT.termLocal(x, o, LANG) : (o && o.term_local) || "";
       const short = LANG === "uk" ? x.short_uk : LANG === "en" ? x.short_en : (o && o.short) || x.short_en;
       const own = LANG === "uk" || LANG === "en" || !!(o && o.short); // audit G-14: pages exist only where the term is translated
-      return { id, en, local, short: short || "", url: own ? glossaryUrl(id) : glossaryUrl(id, "en") }; },
-    /* Matches the English name, the local name and the search aliases of the language ("alt" in docs/glossary/data/i18n/<lang>.js,
-       e.g. uk «кролик» → rabbit, whose local name is «заєць»). Direct matches keep their order; alias-only matches come last. */
-    search(n) { const rank = x => { if (norm(x.en).includes(n) || norm(x.local).includes(n)) return norm(x.local).indexOf(n);
+      return { id, en: n.en, local: n.local, label: n.label, raw, short: short || "", url: own ? glossaryUrl(id) : glossaryUrl(id, "en") }; },
+    label(id, en) { const x = this.term(id, en); return x ? x.label : en || id; },
+    /* Matches the English name, the local name as written (term_local, also when the label shows it once: uk «батю» finds Battue),
+       and the search aliases of the language ("alt" in docs/glossary/data/i18n/<lang>.js, e.g. uk «кролик» → rabbit, whose local
+       name is «заєць»). Direct matches keep their order (by the position in the label); alias-only matches come last. */
+    search(n) { const rank = x => { if (norm(x.en).includes(n) || norm(x.raw).includes(n)) { const i = norm(x.label).indexOf(n); return i < 0 ? 500 : i; }
         const o = this.i18n(x.id); return ((o && o.alt) || []).some(a => norm(a).includes(n)) ? 1e6 : null; };
       return Object.keys(this.T).map(id => this.term(id)).filter(Boolean).map(x => [x, rank(x)]).filter(([, r]) => r !== null)
         .sort((a, b) => a[1] - b[1]).map(([x]) => x); } };
@@ -820,10 +835,12 @@
     if (!items.length) { host.innerHTML = `<p class="ac-note">${t("game_need_more")}</p>`; return; }
     keep(); draw();
   }
+  /* Texts and term names of the animations: the lesson's own terms (data terms[]), else ui.json "terms" (every term sims.js names:
+     flights, lead-lab methods, pairs, scene tabs), else the glossary when it is loaded. sims.js labels them with docs/shared/terms.js. */
   function simsConfig(termsList) {
     if (!window.ClaySims) return;
     const tm = {}; for (const x of termsList || []) tm[x.id] = x;
-    ClaySims.config({ t: k => U[k], term: id => { const x = tm[id] || (GLO.ready && GLO.term(id)); return x ? { en: x.en, local: LANG === "en" ? "" : x.local } : null; }, onHit: null });
+    ClaySims.config({ t: k => U[k], term: id => { const x = tm[id] || UT[id] || (GLO.ready && GLO.term(id)); return x ? { en: x.en, local: LANG === "en" ? "" : x.local || "" } : null; }, onHit: null });
   }
   /* Block filter for phrase games: lessons of one block (default "Мова стенду"), loaded on demand. */
   function blockFilter(sel) { return `<label class="ac-inline">${t("filter_block")} <select data-k="block">${blocksSorted().map(b => `<option value="${b.id}"${b.id === sel ? " selected" : ""}>${esc(b.title)}</option>`).join("")}</select></label>`; }
@@ -853,7 +870,8 @@
     /* Name the flight: 10 animated presentations, 4 names each (badge "10/10"). */
     async "name-the-flight"(host, g) { if (!window.ClaySims) { host.innerHTML = `<p class="ac-note">${t("data_error")}</p>`; return; }
       await GLO.load().catch(() => {}); simsConfig([]);
-      const F = ClaySims.FLIGHTS, keys = Object.keys(F), name = k => { const x = GLO.ready && GLO.term(F[k].term); const en = x ? x.en : (ClaySims.NAMES || {})[k] || k; return x && LANG !== "en" && norm(x.local) !== norm(en) ? `${en} · ${x.local}` : en; };
+      // answers: the term label of each flight ("Crosser (поперечна мішень)", English only in English), docs/shared/terms.js
+      const F = ClaySims.FLIGHTS, keys = Object.keys(F), name = k => GLO.ready ? GLO.label(F[k].term, null) : (ClaySims.NAMES || {})[k] || k;
       const names = [...new Set(keys.map(name))];
       const items = shuffle(keys).slice(0, 10).map(k => { const right = name(k), opts = shuffle([right, ...shuffle(names.filter(n => n !== right)).slice(0, 3)]);
         const x = GLO.ready && GLO.term(F[k].term);
@@ -883,7 +901,8 @@
       const bank = (window.RULES_QUIZ || []).filter(b => disc === "both" || b.key === disc).flatMap(b => b.questions.filter(q => q.type === "decision").map(q => Object.assign({ book: b.key }, q)));
       const OQ = (ov && ov.questions) || {}, tr = (q, k) => q[k + "_" + LANG] || ((OQ[q.id] || {})[k === "q" ? "q" : "explain"]) || q[k + "_en"];
       await GLO.load().catch(() => {}); simsConfig([]);
-      const items = shuffle(bank).slice(0, 10).map(q => { const ord = shuffle(q.options.map((o, i) => i)), txt = i => q.options[i][LANG] || ((OQ[q.id] || {}).options || [])[i] || q.options[i].en;
+      // an option that names a glossary term ("term", docs/rules/data/QUIZ_SCHEMA.md) shows its label: "ZERO" → uk "Zero (промах)"
+      const items = shuffle(bank).slice(0, 10).map(q => { const ord = shuffle(q.options.map((o, i) => i)), txt = i => (q.options[i].term && GLO.ready && GLO.T[q.options[i].term] ? GLO.label(q.options[i].term, q.options[i].en) : null) || q.options[i][LANG] || ((OQ[q.id] || {}).options || [])[i] || q.options[i].en;
         const refs = (q.refs || []).map(id => { const ch = /^ch(\d+)/.exec(id); return `<a href="${rulesUrl(q.book, id)}">${discName(q.book)}${ch ? " · " + t("rule_chapter", { n: ch[1] }) : ""}</a>`; }).join(", ");
         return { q: `<span class="ac-chip ac-disc-${q.book}">${discName(q.book)}</span> ${esc(tr(q, "q"))}`, options: ord.map(txt), answer: ord.indexOf(q.answer),
           why: `${esc(tr(q, "explain"))}${refs ? `<br><span class="ac-muted">${t("rules_where")}:</span> ${refs}` : ""}`,
@@ -913,7 +932,7 @@
         keep(flip); gameResume(g, k, session.length);
         host.innerHTML = `<p class="ac-meta">${t(own ? "cards_source" : "cards_source_all")} · ${t("cards_learnt", { n: learnt })} · ${k + 1}/${session.length}${c ? ` · ${t("cards_box", { n: c.box })}` : ""}</p>
           <div class="ac-flash"><p class="ac-flash-en" lang="en">${esc(x.en)}</p>${"speechSynthesis" in window ? `<button type="button" class="ac-btn ac-say" data-say="${esc(x.en)}">🔊 ${t("listen")}</button>` : ""}
-          ${flip ? `<p class="ac-flash-local"><b>${esc(x.local)}</b></p><p>${esc(x.short)}</p><p><a href="${x.url}">${t("glossary_page")} →</a></p>
+          ${flip ? `${x.local ? `<p class="ac-flash-local"><b>${esc(x.local)}</b></p>` : ""}<p>${esc(x.short)}</p><p><a href="${x.url}">${t("glossary_page")} →</a></p>
             <p><button type="button" class="ac-btn primary" data-k="know">✓ ${t("card_know")}</button> <button type="button" class="ac-btn" data-k="again">${t("card_again")}</button></p>`
           : `<p><button type="button" class="ac-btn primary" data-k="flip">${t("card_show")}</button></p>`}</div>`;
         const q = s => host.querySelector(`[data-k="${s}"]`);
@@ -1084,7 +1103,7 @@
     try { [CAT, UIF] = await Promise.all([getJSON(`${DATA}${LANG}/catalog.json`), getJSON(`${DATA}${LANG}/ui.json`).catch(() => null)]); }
     catch (e) { return bootFailed(); }
     if (!UIF && !CAT.ui && CAT.files && CAT.files.ui && dataUrl(CAT.files.ui) !== `${DATA}${LANG}/ui.json`) { try { UIF = await getJSON(dataUrl(CAT.files.ui)); } catch (e) {} }
-    U = (UIF && UIF.ui) || CAT.ui || {}; plainCatalog(CAT);
+    U = (UIF && UIF.ui) || CAT.ui || {}; UT = (UIF && UIF.terms) || {}; plainCatalog(CAT);
     /* Progress of the two old academies (design §7.8), once per device; the id map is fetched only when there is something to move. */
     const old = P.readOld();
     if (P.needsIdMap(S, old) || (old.resume && old.resume.section === "interpreter")) {

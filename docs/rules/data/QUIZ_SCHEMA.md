@@ -14,6 +14,7 @@ window.RULES_QUIZ.push({
       q_en: "...", q_uk: "...",    // the question; for "decision" a short concrete situation on the stand ending with
                                    // "What is the referee's decision?" / «Яке рішення судді?»
       options: [ {en: "Dead", uk: "Dead — мішень зарахована"}, ... ],   // 2 options for truefalse, 3-4 otherwise
+                                   // {term: "zero", en: "ZERO", uk: "…"}: see "Options that name a term" below
       answer: 0,                   // index of the correct option (original order, see "Answer order" below)
       explain_en: "...", explain_uk: "...",   // 1-3 sentences: why, with the exact number/limit
       refs: ["ch6-no-bird-..."],   // ids of items in docs/rules/data/<key>.js (must exist)
@@ -22,6 +23,19 @@ window.RULES_QUIZ.push({
   ]
 });
 ```
+
+## Options that name a term (`term`, optional; owner rule 08.10.2026)
+
+A professional term is always given in English in every language, the local word in brackets. An option whose WHOLE text names one
+glossary term ("ZERO", "ONE", "NO BIRD", "ZERO-ZERO", "Zero and zero", "Warning", "The trapper", or the call with an English gloss "Zero
+(lost)", "One (hit)") carries `term: "<glossary id>"`. The trainer (`optText()` in `docs/rules/trainer/index.html`, `ClayTerms.of()`) and the
+Academy game "Рішення судді" then show "<English> (<local word>)": the English option text without its article and in the glossary headword's
+spelling when it is the headword ("ZERO" and "Zero (lost)" → "Zero", "The trapper" → "Trapper"), so uk "Zero (промах)", "Trapper (оператор
+машинки)", de "Zero (Null)"; with no local word only the English ("Zero" in fr, never "Zero (lost)"). English pages show the option text as
+written ("ZERO", "The trapper"). The `uk` text and the overlay translations of that option are not shown. ONE helper makes the label: `docs/shared/terms.js` (window.ClayTerms); the local words come from the glossary
+(`docs/glossary/data/i18n/<lang>.js` term_local) through `docs/shared/sims-text.js` (window.CLAYSIMS_TERMS, written by scripts/build_academy.mjs,
+which reads the option terms of these files; an unknown id is a build warning). Not for answers with an explanation ("NO BIRD — a new target is
+thrown") or combinations ("ONE-ZERO", "Zero and No Bird", "ZERO (red card)"). DEVELOPERS.md §4l.
 
 ## Animation (`sim`, optional)
 

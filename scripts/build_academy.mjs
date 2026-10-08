@@ -13,6 +13,10 @@
      docs/rules/data/            FITASC rules data (sporting.js, compak.js, categories.js): rule_refs are checked against it
      docs/shared/sims.js         the animation registry (flight presets, pairs, stand scenes, kind()): unknown sim keys are build errors
                                  (audit S-09); a lesson's animation is shown big right after its first paragraph (heroOrder/heroOf)
+     docs/shared/terms.js        the ONE term-label helper (window.ClayTerms, owner rule 08.10.2026: a professional term is always
+                                 English, the local word in brackets): term chips, quiz options that name a term (option field "term"),
+                                 ui.json "terms" and CLAYSIMS_TERMS (the names the animations show), lesson data terms[].label
+     docs/rules/data/quiz-*.js   the rules trainer bank: only the glossary ids of its options with "term" (their names go to sims-text.js)
      rules/pdf/*.txt             local FITASC text cache (never published): the 10-word verbatim check (audit R-01)
      docs/ (or --docs-root)      only to see which old pages still exist (transition: they stay in the sitemap until replaced)
 
@@ -30,7 +34,8 @@
      <p>learn/<retired id>/      redirect stubs of retired lessons in every language (group H; their lessons/<id>.json is removed)
      sitemap-learn-<lang>.xml    one sitemap per language (scripts/build_seo.mjs lists them in the sitemap index)
      og/og-list.json             the share pictures to draw (python scripts/make_og.py reads it)
-     shared/sims-text.js         texts of the shared animations, from content/academy/ui/<lang>.json
+     shared/sims-text.js         texts of the shared animations, from content/academy/ui/<lang>.json, and the term names they (and the
+                                 rules trainer options) show: window.CLAYSIMS_TERMS = {lang: {id: [en, local?]}}
      shared/sims.min.js          the shared animations as the pages load them: docs/shared/sims.js minified (see minifySims())
 
    Checks (design §6.6): ERRORS stop the build — nothing is written and the exit code is 1. WARNINGS are listed.
@@ -85,8 +90,10 @@ const LANG_NAME = { en: "English", uk: "Українська", de: "Deutsch", fr
 const CHAPTER = { en: "Chapter", uk: "Розділ", de: "Kapitel", fr: "Chapitre", it: "Capitolo" }; // others: glossary ui-<lang>.json "ch"
 // Texts of docs/shared/sims.js copied into docs/shared/sims-text.js (for pages outside the Academy: glossary, rules trainer).
 // Every ui key that starts with "anim_" is copied too (play / replay / slow motion, hero headings and captions, stand scenes).
-const SIM_KEYS = ["launch", "method", "m_maintained", "m_swing", "m_pullaway", "m_ambush", "speed", "distance", "demo", "try", "shoot", "hit", "behind", "ahead",
-  "perceived", "actual", "lab_note", "decision", "shot_moment", "lead_word", "unit_m", "unit_ft", "unit_ms", "pair_report", "pair_sim", "pair_rafale", "listen",
+// The lead-lab method names (old keys m_*), the canvas words decision / shot_moment / lead_word / anim_line and the scene tabs
+// anim_t_mount / anim_t_ready are gone (08.10.2026): term names come from the glossary (docs/shared/terms.js), canvas words are English.
+const SIM_KEYS = ["launch", "method", "speed", "distance", "demo", "try", "shoot", "hit", "behind", "ahead",
+  "perceived", "actual", "lab_note", "unit_m", "unit_ft", "unit_ms", "pair_report", "pair_sim", "pair_rafale", "listen",
   "no_shot", "at_muzzle", "compare", "how_maintained", "how_swing", "how_pullaway", "how_ambush", "stop_gun", "clay_widths", "unit_cm", "unit_in"];
 // What docs/shared/sims.js understands (S-09). Lead keys muzzle_start, gun_speed, trigger, follow_through only describe the method
 // in words (sims.js header). Flight presets, pair kinds and stand scenes ("call": the call and the release, the Sporting™ ready
@@ -265,6 +272,17 @@ export async function buildAcademy(o = {}) {
     const x = ((GI[L] || {}).terms || {})[id];
     return x && x.term_local && x.conf !== "low" ? tm(x.term_local) : enTerm(id);
   };
+  // TERM LABELS (owner rule 08.10.2026, step 1 = labels only): wherever a term is NAMED as a label (term chips, quiz options with
+  // "term", the names the animations show), it is "English (local)" in every language and English only on English pages, made by
+  // the ONE helper docs/shared/terms.js (ClayTerms.of: English = display_term/term, or the English option text; local = term_local of
+  // i18n/<lang>.js, uk falls back to the first «…» of uk_usage; same word or plain transliteration → shown once). localTerm() above
+  // stays for the TEXT of {{term:id}} links in running text (step 2 will change running text).
+  const CT = runScripts([path.join(DOCS, "shared", "terms.js")]).ClayTerms;
+  if (!CT) throw new Error("docs/shared/terms.js did not define window.ClayTerms");
+  const termNames = (L, id, en) => { const t = GBY[termId(id) || id];
+    if (!t) { const e = en || enTerm(id); return { en: e, local: "", label: e }; }
+    return CT.of(t, ((GI[L] || {}).terms || {})[t.id], L, { en, mark: tm }); };
+  const termHtml = (L, id, en) => { const n = termNames(L, id, en); return CT.html(n.en, n.local, L, esc); };
   const glossUrl = (L, id) => { // a glossary page in that language, or null (uk/en: every term; others: terms with a translated definition)
     if (L === "uk" || L === "en") return GBY[id] || THIN.has(id) ? `${BASE}${L === "uk" ? "" : "en/"}glossary/${id}/` : null;
     return (((GI[L] || {}).terms || {})[id] || {}).short ? `${BASE}${L}/glossary/${id}/` : null;
@@ -272,11 +290,16 @@ export async function buildAcademy(o = {}) {
   const rw = runScripts(["sporting", "compak", "categories"].map(b => path.join(DOCS, "rules", "data", `${b}.js`)));
   const RULES = {};
   for (const b of rw.RULES || []) { RULES[b.key] = new Map(); for (const s of b.sections) for (const it of s.items) RULES[b.key].set(it.id, { chapter: s.chapter, en: it.title_en, uk: it.title_uk }); }
-  RULES.categories = new Map(((rw.FITASC_CATEGORIES || {}).categories || []).map(c => [c.id, { chapter: null, en: c.name_en, uk: c.name_uk || c.name_en }]));
+  // FITASC categories (docs/rules/data/categories.js): their names are glossary terms (junior, lady, men-category, senior, veteran,
+  // master-category), so a rule reference to a category is labelled like a term in every language ("Lady (жінки)", de "Men (Herren)",
+  // en "Lady"); categories.js keeps only name_en / name_fr (name_uk removed 08.10.2026: the glossary is the one source)
+  const CAT_GLOSS = { men: "men-category", master: "master-category" };
+  RULES.categories = new Map(((rw.FITASC_CATEGORIES || {}).categories || []).map(c => [c.id, { chapter: null, en: c.name_en, gid: CAT_GLOSS[c.id] || c.id }]));
   let SIMREG = null;
   try { const s = runScripts([path.join(DOCS, "shared", "sims.js")]).ClaySims;
     SIMREG = { FLIGHTS: new Set(Object.keys(s.FLIGHTS)), PAIRS: new Set(Object.keys(s.PAIRS)), SCENES: new Set(Object.keys(s.SCENES || {})), CALL: s.CALL || null, kind: s.kind || null,
-      TERMS: [...new Set(Object.values(s.FLIGHTS).map(f => f.term).filter(Boolean))] }; } // glossary ids of the flights (names for docs/shared/sims-text.js)
+      // glossary ids of every term the animations name (flights, canvas points, lead-lab methods, pairs, scene tabs): sims.js TERM_IDS
+      TERMS: s.TERM_IDS || [...new Set(Object.values(s.FLIGHTS).map(f => f.term).filter(Boolean))] }; }
   catch (e) { warn("sims-registry", `docs/shared/sims.js could not be read (${e.message}): animation presets are not checked`); }
   // What an animation teaches (sims.js kind(): flight, points, eyes, stance, pair, lead, mount, follow, call, gunpos, misfire): it picks
   // the heading "▶ <ui anim_h_<kind>>" and the generic caption anim_w_<kind> of the lesson's animation (see heroOf below).
@@ -288,6 +311,11 @@ export async function buildAcademy(o = {}) {
     if (!new RegExp(`(^|\\D)${SIMREG.CALL.limit}(\\D|$)`).test(lim)) warn("sim-facts", `docs/shared/sims.js CALL.limit is ${SIMREG.CALL.limit} s, but the fact rules.release-within-3s says "${lim}": change one of them`);
     if (sv !== SIMREG.CALL.sonopull) warn("sim-facts", `docs/shared/sims.js CALL.sonopull is ${SIMREG.CALL.sonopull} s, but the fact rules.sonopull-delay says "${sono}": change one of them`);
   }
+  // The rules trainer bank (docs/rules/data/quiz-*.js): options that name a glossary term carry "term" (docs/rules/data/QUIZ_SCHEMA.md);
+  // the trainer and the Practice game "Рішення судді" label them through docs/shared/terms.js, with the names from sims-text.js.
+  const qwin = runScripts(["sporting", "compak"].map(b => path.join(DOCS, "rules", "data", `quiz-${b}.js`)));
+  const TRAINER_TERMS = uniq((qwin.RULES_QUIZ || []).flatMap(b => b.questions.flatMap(q => (q.options || []).map(o => o.term).filter(Boolean))));
+  for (const id of TRAINER_TERMS) if (!termId(id)) warn("term-unknown", `docs/rules/data/quiz-*.js: option term "${id}" is not in the glossary`);
   const FC = lint.loadFitascCache(ROOT);
   if (!FC) warn("fitasc-cache-missing", "rules/pdf/*.txt not found: the 10-words-in-a-row FITASC check was skipped (keep the local cache; it is never published)");
 
@@ -522,6 +550,13 @@ export async function buildAcademy(o = {}) {
       if (new Set(keys).size !== keys.length) E("quiz-options-repeat", `${name} ${q.k}: option keys repeat`);
       for (const l of ["en", "uk"]) { const t = (q.options || []).map(x => String(x[l] || "").trim().toLowerCase()).filter(Boolean); if (new Set(t).size !== t.length) E("quiz-options-repeat", `${name} ${q.k}: two options have the same ${l} text`); }
       if (q.disc != null && !["sporting", "compak", "both"].includes(q.disc)) E("rule-no-disc", `${name} ${q.k}: disc "${q.disc}"`);
+      // an option that names a glossary term ("term": id) is shown as the term label in every language (docs/shared/terms.js):
+      // the id must exist and its English text (without an article) must be a name of that term (headword, display name, aka) or
+      // start with it ("A pump-action gun" → Pump-action)
+      for (const op of q.options || []) if (op.term != null) { const r = termId(op.term), bare = String(op.en || "").replace(/^(?:a|an|the)\s+/i, "");
+        if (!r) E("term-unknown", `${name} ${q.k} option ${op.k}: term "${op.term}" is not in the glossary`);
+        else if (![GBY[r].term, GBY[r].display_term, ...(GBY[r].aka || [])].filter(Boolean).some(n => CT.same(op.en, n) || CT.same(bare, n) || CT.same(n, op.en) || CT.same(n, bare)))
+          W("quiz-term-option", `${name} ${q.k} option ${op.k}: "${op.en}" is not a name of the term "${r}" (${GBY[r].term}): check the option's "term"`); }
       if (q.rule_ref) refOk(q.rule_ref, q.disc, `${name} ${q.k}`, ctx);
     }
     (m.quiz || []).forEach(q => {
@@ -642,8 +677,11 @@ export async function buildAcademy(o = {}) {
     for (const [L, x] of Object.entries(factsI18n)) od(`content/academy/i18n/${L}/_facts.json`, x);
     for (const [L, x] of Object.entries(shared)) od(`content/academy/i18n/${L}/_shared.json`, x);
     for (const f of ["blocks.json", "routes.json", "practice.json", "levels.json", "badges.json"]) od(`content/academy/${f}`, J(f));
-    for (const t of Object.values(GBY)) od(`glossary term ${t.id}`, t);
-    for (const [L, g] of Object.entries(GI)) for (const [id, t] of Object.entries((g || {}).terms || {})) od(`docs/glossary/data/i18n/${L}.js ${id}`, t);
+    // ONE exception (owner 08.10.2026, clarified): the glossary term skeet-choke (/glossary/skeet-choke/) stays — "Skeet"/SK is the
+    // NAME of a choke used in Sporting™ too. Only the choke-name words are allowed there; the rest of its text is still checked.
+    const CHOKE_NAME = /ske+t[\p{L}-]*|скіт\p{L}*/giu, noChokeName = t => JSON.parse(JSON.stringify(t).replace(CHOKE_NAME, ""));
+    for (const t of Object.values(GBY)) od(`glossary term ${t.id}`, t.id === "skeet-choke" ? noChokeName(t) : t);
+    for (const [L, g] of Object.entries(GI)) for (const [id, t] of Object.entries((g || {}).terms || {})) od(`docs/glossary/data/i18n/${L}.js ${id}`, id === "skeet-choke" ? noChokeName(t) : t);
     for (const [L, x] of Object.entries(GUI)) od(`docs/glossary/data/i18n/ui-${L}.json`, x);
   }
 
@@ -725,7 +763,7 @@ export async function buildAcademy(o = {}) {
   const upOf = rel => "../".repeat(rel.split("/").length - 1);
   const ruleLabel = (L, book, id) => {
     const r = RULES[book] && RULES[book].get(id); if (!r) return id;
-    const word = CHAPTER[L] || (GUI[L] || {}).ch || CHAPTER.en, name = L === "uk" ? r.uk : r.en;
+    const word = CHAPTER[L] || (GUI[L] || {}).ch || CHAPTER.en, name = r.gid && GBY[r.gid] ? termNames(L, r.gid).label : L === "uk" ? r.uk || r.en : r.en;
     return r.chapter ? (L === "uk" || L === "en" ? `${word} ${r.chapter} · ${name}` : `${word} ${r.chapter}`) : name;
   };
   const lessonTitle = (L, id) => { const A = (avail.get(id) || {})[L]; if (A && A.ok) return plainOf(A.title, L); const m = lessons.get(id); if (!m) return id;
@@ -872,7 +910,10 @@ export async function buildAcademy(o = {}) {
       : firstP ? plain(firstP.text, R) : `${V.title} — ${academyName(L)}`;
     if (sum.st !== "ok" && sum.st !== "stale") warnOnce(`sum:${m.id}:${L}`, "summary-missing", `${m.id} (${L}): no summary; the meta description uses the first paragraph`, { lesson: m.id, lang: L });
     if (V.desc.length > 300) V.desc = V.desc.slice(0, 297).replace(/\s+\S*$/, "") + "…";
-    V.terms = uniq((m.terms || []).map(anyTermId).filter(Boolean)).map(id => ({ id, en: enTerm(id), local: localTerm(L, id), url: glossUrl(L, id) }));
+    // term chips: label = "English (local)" (docs/shared/terms.js); local = "" when the local word is the English one
+    V.terms = uniq((m.terms || []).map(anyTermId).filter(Boolean)).map(id => { const n = termNames(L, id); return { id, en: n.en, local: n.local, label: n.label, url: glossUrl(L, id) }; });
+    // quiz options that name a term show its label (English master text + the local word); others their text
+    V.opt = (op, v, R, html) => op.term ? (html ? termHtml(L, op.term, op.en) : termNames(L, op.term, op.en).label) : html ? inline(v.options[op.k], R) : plain(v.options[op.k], R);
     V.refs = uniq((m.rule_refs || []).map(r => r.book + ":" + r.id)).map(s => { const i = s.indexOf(":"), book = s.slice(0, i), id = s.slice(i + 1); return { book, id, label: ruleLabel(L, book, id), url: U.rule(L, book, id) }; }).filter(r => RULES[r.book] && RULES[r.book].has(r.id));
     V.sources = (m.sources || []).filter(s => s.url).map(s => { const t = isObj(s.title) ? (s.title[L] || s.title.en) : s.title; return { title: t || s.url, lang: isObj(s.title) && !s.title[L] ? "en" : null, url: s.url, fitasc: isFitasc(s.url), checked: s.checked || null, license: s.license || null }; });
     V.R = R;
@@ -882,7 +923,7 @@ export async function buildAcademy(o = {}) {
 
   /* ---------- page shell: the page contract of docs/learn/app/academy.js ----------
      <link academy.css> · <header id="acTop"> · <main id="app"> static content </main> · <footer id="acFoot"> · #acLive · #acToast · scripts (defer):
-     shared/nav.js, shared/sims.min.js (= shared/sims.js minified, minifySims()), shared/progress.js, learn/app/academy.js. The app replaces #app when its data has loaded;
+     shared/nav.js, shared/terms.js (term labels, ClayTerms), shared/sims.min.js (= shared/sims.js minified, minifySims()), shared/progress.js, learn/app/academy.js. The app replaces #app when its data has loaded;
      without JavaScript (and for crawlers and share previews) the static content below is the page. Static classes are st-*,
      the app's are ac-*: the inline CSS below styles only the static content. The animation box (figure.st-anim) is hidden while its
      div.st-sim is empty: without JavaScript there is nothing to play, so no "▶ Watch …" heading over an empty box; academy.js replaces
@@ -959,6 +1000,7 @@ ${pg.body}
 <div id="acLive" class="ac-sr" aria-live="polite"></div>
 <div id="acToast" class="ac-toast" role="status" aria-live="polite"></div>
 <script src="${up}shared/nav.js" defer></script>
+<script src="${up}shared/terms.js" defer></script>
 <script src="${up}shared/sims.min.js" defer></script>
 <script src="${up}shared/progress.js" defer></script>
 <script src="${up}learn/app/academy.js" defer></script>
@@ -1010,11 +1052,11 @@ ${pg.body}
     const title = tm(V.title);
     const crumbs = [homeCrumb(L), blockUrl ? { name: tm(bt), url: blockUrl } : null, blockUrl && st && st !== bt ? { name: tm(st), url: `${blockUrl}#${sec.id}` } : null, { name: title, url }].filter(Boolean);
     const next = nextInBlock(m.id, L);
-    const terms = V.terms.map(t => `<li>${t.url ? `<a href="${esc(t.url)}" title="${esc(t.en)}">${esc(t.local)}</a>` : `<span title="${esc(t.en)}">${esc(t.local)}</span>`}</li>`).join("");
+    const terms = V.terms.map(t => { const h = CT.html(t.en, t.local, L, esc); return `<li>${t.url ? `<a href="${esc(t.url)}">${h}</a>` : `<span>${h}</span>`}</li>`; }).join("");
     const notesBy = {}; for (const n of V.notes) (notesBy[n.x.for || "interpreter"] ||= []).push(n);
     const noteLabel = f => S(L, f === "interpreter" ? "for_interpreter" : `for_${f}`);
     const qref = q => { if (!q.rule_ref) return ""; const i = q.rule_ref.indexOf(":"), bk = q.rule_ref.slice(0, i), rid = q.rule_ref.slice(i + 1); return `<p class="st-ref"><a href="${esc(U.rule(L, bk, rid))}">${esc(ruleLabel(L, bk, rid))}</a></p>`; };
-    const quiz = V.quiz.length ? `<details class="st-quiz"><summary>${esc(S(L, "quiz"))} · ${plural(L, "n_questions", V.quiz.length, "question")}</summary><ol>${V.quiz.map(({ q, v }) => `<li class="st-q" data-k="${esc(q.k)}"><p>${inline(v.q, R)}</p><ol class="st-opts">${(q.options || []).map(op => `<li>${inline(v.options[op.k], R)}</li>`).join("")}</ol><details><summary>${esc(S(L, "answer"))}</summary><p><b>${inline(v.options[q.correct], R)}</b></p><p>${inline(v.explain, R)}</p>${qref(q)}</details></li>`).join("")}</ol></details>` : "";
+    const quiz = V.quiz.length ? `<details class="st-quiz"><summary>${esc(S(L, "quiz"))} · ${plural(L, "n_questions", V.quiz.length, "question")}</summary><ol>${V.quiz.map(({ q, v }) => `<li class="st-q" data-k="${esc(q.k)}"><p>${inline(v.q, R)}</p><ol class="st-opts">${(q.options || []).map(op => `<li>${V.opt(op, v, R, true)}</li>`).join("")}</ol><details><summary>${esc(S(L, "answer"))}</summary><p><b>${V.opt((q.options || []).find(op => op.k === q.correct) || { k: q.correct }, v, R, true)}</b></p><p>${inline(v.explain, R)}</p>${qref(q)}</details></li>`).join("")}</ol></details>` : "";
     const brief = opt.draft && m.brief && m.brief.points && (m.brief.points[L] || m.brief.points.en) ? `<div class="st-draft"><div class="st-draft-h">${esc(S(L, "brief"))} · ${esc(m.plan || "")}</div><ul>${(m.brief.points[L] || m.brief.points.en).map(p => `<li>${esc(p)}</li>`).join("")}</ul></div>` : "";
     const hasLaw = (m.body || []).some(x => x.t === "law");
     const body = `<article class="st-body" id="lesson">
@@ -1037,8 +1079,9 @@ ${m.disclaimer === "medical" ? `<p class="st-small"><b>${esc(S(L, "not_medical_a
     const ldl = [{ "@context": "https://schema.org", "@type": "LearningResource", name: title, description: tm(V.desc), url, inLanguage: L, learningResourceType: "Lesson",
       educationalLevel: m.level === 1 ? "Beginner" : "Intermediate", timeRequired: `PT${m.minutes || 5}M`, isAccessibleForFree: true, dateModified: opt.today,
       ...(blockUrl ? { isPartOf: { "@type": "CollectionPage", name: tm(bt), url: blockUrl } } : {}),
-      // `about`: the glossary terms of the lesson; t.local already carries the FITASC marks (localTerm → tm, audit legal-01)
-      ...(V.terms.length ? { about: V.terms.map(t => ({ "@type": "DefinedTerm", name: tm(t.local), termCode: t.id, ...(t.url ? { url: t.url } : {}) })) } : {}),
+      // `about`: the glossary terms of the lesson, as on the glossary pages: name = the English term, alternateName = the local word
+      // when there is one (FITASC marks through tm(), audit legal-01)
+      ...(V.terms.length ? { about: V.terms.map(t => ({ "@type": "DefinedTerm", name: tm(t.en), ...(t.local ? { alternateName: tm(t.local) } : {}), termCode: t.id, ...(t.url ? { url: t.url } : {}) })) } : {}),
       provider: ld.org }, ld.crumbs([homeCrumb(L), blockUrl ? { name: tm(bt), url: blockUrl } : null, { name: title, url }])].filter(Boolean);
     shell({ kind: "lesson", lesson: m.id, L, url, title: fitTitle(title, L), h1: title, desc: tm(V.desc), index, alts, ogType: "article", img: ogImg(L, b.id), ld: ldl, crumbs, body,
       data: { page: "lesson", lang: L, id: m.id, rev: m.rev, block: b.id } });
@@ -1175,7 +1218,10 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
     // Interface strings: their own file ui.json (about 17 KB; changes rarely, so the browser keeps it cached), not inside the catalog
     // that every page reads. The app fetches both at once; "files" in the catalog names them (paths relative to the catalog).
     const uiL = Object.fromEntries(Object.keys(ui.en).map(k => [k, S(L, k)]));
-    json(`learn/data/${L}/ui.json`, { lang: L, rev: sha8(JSON.stringify(uiL)), ui: uiL, ui_fallback: [...uiFallback[L]].sort() });
+    // "terms": the names of the terms the animations show (docs/shared/sims.js TERM_IDS: flights, canvas points, lead-lab methods,
+    // pairs, scene tabs) = {id: {en, local?}}; sims.js labels them with docs/shared/terms.js (SCHEMA.md §8d)
+    const simTerms = Object.fromEntries(uniq((SIMREG && SIMREG.TERMS) || []).filter(id => GBY[id]).map(id => { const n = termNames(L, id); return [id, n.local ? { en: n.en, local: n.local } : { en: n.en }]; }));
+    json(`learn/data/${L}/ui.json`, { lang: L, rev: sha8(JSON.stringify([uiL, simTerms])), ui: uiL, ui_fallback: [...uiFallback[L]].sort(), terms: simTerms });
     const cat = {
       lang: L, generated: opt.today, base: BASE, ...(opt.draft ? { test: true } : {}), files: { ui: "ui.json", phrases: "phrases.json" }, fitasc_index: opt.fitascIndex,
       blocks: blocks.map(b => ({ id: b.id, order: b.order, icon: b.icon, title: SH.block(L, b, "title"), purpose: SH.block(L, b, "purpose"), url: built.block[b.id][L] ? U.block(L, b.id) : null,
@@ -1214,7 +1260,7 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
         phrases: V.phrases.map(p => ({ k: p.x.k, speaker: p.x.speaker || null, en: p.x.en, meaning: p.meaningText, say: L === "en" ? null : p.sayText })),
         key_points: V.kps.map(k => ({ k: k.x.k, html: k.html, checklist: !!k.x.checklist })),
         did_you_know: V.dyk ? { k: V.dyk.k, html: V.dyk.html } : null,
-        quiz: V.quiz.map(({ q, v }) => ({ k: q.k, q: plain(v.q, R), options: (q.options || []).map(op => ({ k: op.k, text: plain(v.options[op.k], R) })), correct: q.correct, explain: plain(v.explain, R), ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) })),
+        quiz: V.quiz.map(({ q, v }) => ({ k: q.k, q: plain(v.q, R), options: (q.options || []).map(op => ({ k: op.k, text: V.opt(op, v, R) })), correct: q.correct, explain: plain(v.explain, R), ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) })),
         terms: V.terms, rule_refs: V.refs, sources: V.sources.map(s => ({ title: s.title, url: s.url, fitasc: s.fitasc })),
         evidence: (m.evidence || []).map(e => ({ for: e.for, level: e.level })), more_in_en: V.more });
     }
@@ -1229,9 +1275,9 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
     for (const r of routes) {
       if (!built.exam[r.id][L]) continue;
       const ex = (r.certificate || {}).exam || (r.badge_only || {}).quiz, qs = [];
-      for (const id of routeLessons(r)) { if (!lessonBuilt(id, L)) continue; const m = lessons.get(id), R = view(m, L).R;
+      for (const id of routeLessons(r)) { if (!lessonBuilt(id, L)) continue; const m = lessons.get(id), Vm = view(m, L), R = Vm.R;
         for (const [list, part] of [[m.quiz || [], "quiz"], [m.exam_pool || [], "pool"]]) for (const q of list) { const v = valOf(m, { part, k: q.k, it: q }, L); if (v.st !== "ok") continue;
-          qs.push({ lesson: id, k: q.k, q: plain(v.v.q, R), options: (q.options || []).map(op => ({ k: op.k, text: plain(v.v.options[op.k], R) })), correct: q.correct, explain: plain(v.v.explain, R), ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) }); } }
+          qs.push({ lesson: id, k: q.k, q: plain(v.v.q, R), options: (q.options || []).map(op => ({ k: op.k, text: Vm.opt(op, v.v, R) })), correct: q.correct, explain: plain(v.v.explain, R), ...(q.rule_ref ? { rule_ref: q.rule_ref } : {}), ...(q.disc ? { disc: q.disc } : {}) }); } }
       json(`learn/data/${L}/exams/${r.id}.json`, { route: r.id, lang: L, n: ex.n, pass_pct: ex.pass_pct, questions: qs });
       if (qs.length < ex.n) warn("exam-bank-small", `${r.id} (${L}): ${qs.length} questions in the bank, the exam asks ${ex.n}`, { lang: L });
     }
@@ -1291,18 +1337,18 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
   json("learn/data/languages.json", { _note: `${GEN}: languages whose Academy home /<p>learn/ is published (uk at /learn/, others at /<lang>/learn/). docs/shared/nav.js links the Academy item there, else to English.`,
     generated: opt.today, langs: LANGS, published: LANGS.filter(L => built.home[L]), fallback: built.home.en ? "en" : "uk",
     lessons: Object.fromEntries(LANGS.map(L => [L, [...lessons.keys()].filter(id => lessonBuilt(id, L)).length])) });
-  // texts of the shared animations (docs/shared/sims-text.js), and the names of the terms they show: the flights (tab labels "Crosser →
-  // · <local>", the name under a flight) and the points drawn on the canvas (English there: the stand words the course teaches).
-  // window.CLAYSIMS_TERMS = {lang: {id: [en, local]}} — local only when it differs from the English name (glossary term_local, conf not low).
+  // texts of the shared animations (docs/shared/sims-text.js), and the names of the terms they show: flight, pair and scene tabs, the
+  // name under a flight, the lead-lab methods (labels "English (local)" made by docs/shared/terms.js on the page) and the points drawn
+  // on the canvas (English there), plus the terms of the rules trainer options (quiz-*.js "term").
+  // window.CLAYSIMS_TERMS = {lang: {id: [en, local]}} — local (ClayTerms.local, any confidence) only when it is not the English word.
   { const keys = uniq([...SIM_KEYS, ...Object.keys(ui.en).filter(k => k.startsWith("anim_"))]);
     const st = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(keys.filter(k => ui.en[k] != null).map(k => [k, L === "uk" ? ukApos(ui[L][k] || ui.en[k]) : ui[L][k] || ui.en[k]]))]));
-    const termIds = uniq([...((SIMREG && SIMREG.TERMS) || []), "pick-up-point", "hold-point", "break-point", "soft-focus", "hard-focus"]).filter(id => GBY[id]);
-    const tn = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(termIds.map(id => { const en = enTerm(id), lo = L === "en" ? "" : localTerm(L, id);
-      return [id, lo && lo.trim().toLowerCase() !== en.trim().toLowerCase() ? [en, L === "uk" ? ukApos(lo) : lo] : [en]]; }))]));
+    const termIds = uniq([...((SIMREG && SIMREG.TERMS) || []), "pick-up-point", "hold-point", "break-point", "soft-focus", "hard-focus", ...TRAINER_TERMS]).map(id => termId(id) || id).filter(id => GBY[id]);
+    const tn = Object.fromEntries(LANGS.map(L => [L, Object.fromEntries(termIds.map(id => { const n = termNames(L, id);
+      return [id, n.local ? [n.en, L === "uk" ? ukApos(n.local) : n.local] : [n.en]]; }))]));
     FILES.set("shared/sims-text.js", `/* ${GEN} from content/academy/ui/<lang>.json and the glossary — texts of docs/shared/sims.js (all 11 ClayArena languages; English where a translation is missing) and the names of the terms the animations show. Do not edit. */\nwindow.CLAYSIMS_TEXT = ${JSON.stringify(st)};\nwindow.CLAYSIMS_TERMS = ${JSON.stringify(tn)};\n`); }
-  // canvas words without room (review 08.10.2026): the "line" pill of the stand scenes sits between the referee and the shooter's vest
-  // (sims.js shooter()); a long word covers the people beside the shooter on a phone (the German "Markierung" did; now "Linie")
-  for (const L of LANGS) { const w = (ui[L] || {}).anim_line; if (w && [...w].length > 7) warn("canvas-word", `${L}: ui anim_line "${w}" has more than 7 letters: on a phone its pill covers the people beside the shooter; use the short word for "line"`, { lang: L }); }
+  // canvas words (review 08.10.2026): the "line" pill of the stand scenes sits between the referee and the shooter's vest; since
+  // 08.10.2026 it is the English "line" in every language (sims.js CANVAS_EN; the old ui key anim_line and its length check are gone)
   // the animations as the pages load them (minifySims(): docs/shared/sims.js minified; the source is read from the repo, not from --out)
   { const m = minifySims(); FILES.set("shared/sims.min.js", m.code);
     if (!m.minified) warn("sims-min", "docs/shared/sims.min.js is an unminified copy of docs/shared/sims.js: run the build with Bun (bun scripts/build_seo.mjs)"); }

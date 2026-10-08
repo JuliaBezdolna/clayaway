@@ -312,6 +312,15 @@ window.GLOSSARY_I18N.cs = {
    "short": "Hlaveň nebo zahrdlení bez zúžení; dává nejširší obrazec zásahu.",
    "long": "Válec znamená nulové zúžení: vývrt u ústí je stejný jako v hlavni. Roj broků se rozptyluje nejrychleji, takže obrazec je na blízko široký a dál řídne. Volí se pro velmi blízké terče, například některé zajíce nebo terče vyskakující blízko střelce. Na zahrdleních Beretta se značí pěti hvězdičkami. Na většinu terčů ve Sporting™ a Compak® Sporting volí střelci o něco užší zahrdlení."
   },
+  "skeet-choke": {
+   "term_local": "skeetové zahrdlení",
+   "alt": [
+    "skeet"
+   ],
+   "conf": "medium",
+   "short": "Velmi lehké zúžení, asi 0,1–0,15 mm (4–6 thou), pro nejbližší terče.",
+   "long": "Skeetové zahrdlení (označení SK) je jen o málo užší než válec: zúžení asi 0,1–0,15 mm (4–6 thou), v evropském úzu někdy označované jako 1/8. Obrazec je na blízko široký a odpouští malé chyby. Ve Sporting™ a Compak® Sporting se používá na blízké terče, zajíce a terče vyskakující nablízku. Přesné hodnoty závisejí na výrobci."
+  },
   "improved-cylinder": {
    "term_local": "čtvrtinové zahrdlení",
    "alt": [
@@ -964,9 +973,9 @@ window.GLOSSARY_I18N.cs = {
    "long": "Zatímco broky letí k terči, terč se dál pohybuje, takže v okamžiku výstřelu musí být zbraň před ním. Tato vzdálenost je předsazení. Závisí na rychlosti terče, jeho vzdálenosti a úhlu, pod kterým letí: dlouhé přeletové terče potřebují nejvíc předsazení, přímo se vzdalující terče skoro žádné. To, jak střelec předsazení vnímá, je subjektivní, takže ho různí lidé popisují různě. Existuje několik metod předsazení, stálé předsazení (maintained lead), pull-away, swing-through a ambush (střelba do bodu), a trenér vám pomůže zvolit tu vaši."
   },
   "maintained-lead": {
-   "term_local": "maintained lead",
+   "term_local": "udržované předsazení",
    "alt": [
-    "udržované předsazení"
+    "maintained lead"
    ],
    "note": "English names used by coaches.",
    "conf": "low",
@@ -974,9 +983,9 @@ window.GLOSSARY_I18N.cs = {
    "long": "Při stálém předsazení najíždějí ústí na linii terče před ním, ne za ním. Nejdřív se pohybují o něco pomaleji než terč, který se tak přibližuje, dokud odstup nevypadá správně; pak se hlavně pohybují rychlostí terče, odstup zůstává stejný a výstřel padne, zatímco se zbraň ještě pohybuje. Často se hodí na vzdálené a předvídatelné terče, například dlouhé přeletové, protože dává čas předsazení přečíst. Typickou chybou je měřit odstup: oko sklouzne na hlavně a zbraň zpomalí nebo se zastaví. Často se popisuje jako metoda, kterou je nejtěžší se naučit; zeptejte se proto trenéra, na které terče se vám hodí."
   },
   "swing-through": {
-   "term_local": "swing through",
+   "term_local": "přešvihnutí",
    "alt": [
-    "přešvihnutí"
+    "swing through"
    ],
    "note": "English names used by coaches.",
    "conf": "low",
@@ -984,9 +993,9 @@ window.GLOSSARY_I18N.cs = {
    "long": "Při metodě swing-through hlavně začínají za terčem, dohánějí ho rychleji, než se pohybuje, projdou jím a výstřel padne, jakmile se dostanou před něj. Protože se zbraň pohybuje rychleji, předsazení se oku zdá menší. Metoda je přirozená pro terče nad hlavou a pro rychlé, blízké dráhy. Jejím rizikem je přílišná rychlost a minutí vpředu, když pohyb není pod kontrolou. Stejně jako u jiných metod se zbraň musí po výstřelu dál pohybovat."
   },
   "pull-away": {
-   "term_local": "pull away",
+   "term_local": "odtažení",
    "alt": [
-    "odtažení"
+    "pull away"
    ],
    "note": "English names used by coaches.",
    "conf": "low",
@@ -2654,9 +2663,9 @@ window.GLOSSARY_I18N.cs = {
    "short": "Mezera mezi ústím a terčem, kterou střelec při výstřelu vidí; je mnohem menší než skutečné předsazení ve vzduchu."
   },
   "ambush": {
-   "term_local": "ambush",
+   "term_local": "čekání na terč",
    "alt": [
-    "čekání na terč"
+    "ambush"
    ],
    "conf": "low",
    "short": "Metoda, při níž hlavně nehybně čekají v bodě před terčem a spoušť se stiskne dřív, než tam terč doletí, takže vletí do střely."

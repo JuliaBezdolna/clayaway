@@ -9,6 +9,8 @@
 // ({t}/{n} placeholders, "cat", "ch", "pg", "learn", "acad_en", "ia"). Only ClayArena languages — never others.
 // Every index page is fully localised (audit G-02): category names come from CAT/ui-<lang>.json ("Academy" included) and
 // a category without a translated term is not printed at all.
+// Term labels (owner rule 08.10.2026): the headword (h1, title, breadcrumb), the index list and the related terms are "English (local)"
+// through the ONE helper docs/shared/terms.js (SEO.termLabel / termHtml of build_seo.mjs); "So sagt man" below the h1 stays.
 // "Learn it" links: the Academy lessons that teach the term (scripts/build_academy.mjs learnLinks): the lesson in this language
 // when it exists, else the English lesson labelled "(in English)". The Academy pages themselves are written by build_academy.mjs.
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
@@ -30,9 +32,14 @@ for (const U of Object.values(UI)) {
   U.kind = m[1]; U.site = m[2];
 }
 const fill = (s, k, v) => s.replace(`{${k}}`, v);
+// "So sagt man: …" under the h1 only when term_local adds something to the h1 label (review 08.10.2026): not for de "Rabbit (Rollhase)" +
+// "Rollhase", fr "Pull-away (départ sur le plateau)" + the same, or a local word the label does not show because it is the English one
+// ("Swing-Through"); yes for fr "Point de prise (d'acquisition)" (h1 "Pick-up point (point de prise)").
+const flatTL = s => String(s || "").normalize("NFC").toLowerCase().replace(/[™®]/g, "").replace(/\s+/g, " ").trim();
+const addsToH1 = (tl, lb) => !!tl && !!lb.local && flatTL(tl) !== flatTL(lb.local) && flatTL(tl) !== flatTL(lb.label);
 
 export async function buildI18n() {
-  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch } = globalThis.SEO;
+  const { BASE, DOCS = "docs", BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, crumbs, langSwitch, termLabel, termHtml } = globalThis.SEO;
   // Localised category names and the word "chapter" (rules and lessons exist only in UA/EN, so references show
   // "Kapitel 9" etc. and link to the English rules page; English rule headings are not printed on these pages).
   const CAT = {
@@ -77,15 +84,16 @@ export async function buildI18n() {
       const ctx = `${U.kind.charAt(0).toUpperCase() + U.kind.slice(1)} · ${U.site}.`;
       for (const t of GLOSS.terms) {
         const x = D[t.id]; if (!x) continue;
-        const url = termUrl(lang, t.id), name = dispTerm(t);
-        const title = fitTitle(fill(U.title, "t", name), `${name} | ${U.site}`);
+        const url = termUrl(lang, t.id), name = dispTerm(t), lb = termLabel(lang, t); // lb.label = "Rabbit (Rollhase)"
+        // <title> at most 65 characters (audit W-07): full, else "label | site", else "English | site" (h1 and og:title keep the label)
+        const title = fitTitle(fill(U.title, "t", lb.label), fitTitle(`${lb.label} | ${U.site}`, `${lb.head} | ${U.site}`));
         // meta + og:description from the translated definition. Declined marks ("Compaku", "Sportingban") are not caught by tm(); the
         // definitions use the base form ("Sporting™", "Compak® Sporting"), and fitDesc() runs tmMeta(), the safety net of build_seo.mjs (audit legal-02).
         const desc = fitDesc(tm(`${t.term}: ${x.short}`), ctx, `${lang}/glossary/${t.id}/`);
         // the rules exist in uk/en: the English rule page, with ?lang so the visitor language stays (docs/shared/nav.js)
         const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/en/${r.book}/?lang=${lang}#${r.id}" hreflang="en">${CHW[lang]} ${chapOf(r)}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, ${PG[lang]} ${r.page}</a></li>`).join("");
         const disc = Object.entries(x.disciplines || {}).filter(([, v]) => v).map(([k, v]) => `<div class="box"><b>${NAMES[k] || k}</b><p>${esc(v)}</p></div>`).join("");
-        const rel = (t.related || []).map(rid).filter(r => GBY[r] && D[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${termUrl(lang, r)}">${esc(dispTerm(GBY[r]))}</a>`).join(" ");
+        const rel = (t.related || []).map(rid).filter(r => GBY[r] && D[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${termUrl(lang, r)}">${termHtml(lang, GBY[r])}</a>`).join(" ");
         const learn = ACADEMY.learnLinks(t.id, lang).slice(0, 5).map(x => x.lang === lang ? `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`
           : `<li><a href="${esc(x.url)}" hreflang="${x.lang}" lang="${x.lang}">${esc(x.title)}</a> · ${esc(U.acad_en || x.context)}</li>`).join("");
         const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, x.term_local].filter(Boolean))].filter(a => a !== name), description: tmMeta(x.short, `${lang}/glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: lang }];
@@ -106,9 +114,9 @@ ${ld.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`
 <style>${CSS}.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}</style>
 </head>
 <body>
-<header><div class="in">${crumbs(lang, "📖", [{ label: U.gl, url: listUrl(lang) }, { label: name }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
+<header><div class="in">${crumbs(lang, "📖", [{ label: U.gl, url: listUrl(lang) }, { label: lb.label }])}<span style="flex:1"></span>${langBtns(lang, l => termUrl(l, t.id), t.id)}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
-<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${esc(name)}</h1>${x.term_local && x.term_local !== t.term ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}
+<div class="src">${esc((CAT[lang] || {})[t.cat] || t.cat)}</div><h1>${termHtml(lang, t)}</h1>${addsToH1(x.term_local, lb) ? `<p class="ref">${U.local}: ${esc(x.term_local)}</p>` : ""}
 <h2>${U.what}</h2><p><b>${esc(x.short)}</b></p>
 ${x.long ? `<h2>${U.detail}</h2><p>${esc(x.long)}</p>` : ""}
 ${disc ? `<h2>${U.disc}</h2>${disc}` : ""}
@@ -138,7 +146,7 @@ ${og({ lang, title, desc, url, U })}
 <style>${CSS}.list{columns:3 220px;column-gap:24px}.list a{display:block;padding:2px 0;text-decoration:none;color:var(--soft)}</style></head>
 <body><header><div class="in">${crumbs(lang, "📖", [{ label: U.gl }])}<span style="flex:1"></span>${langBtns(lang, listUrl)}</div></header>
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px"><div class="src">ClayArena</div><h1>${esc(fill(U.list, "n", n))}</h1><p>${esc(desc)}</p>
-${cats.map(c => `<h2>${esc((CAT[lang] || {})[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c && D[t.id]).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${termUrl(lang, t.id)}">${esc(dispTerm(t))}</a>`).join("")}</div>`).join("\n")}
+${cats.map(c => `<h2>${esc((CAT[lang] || {})[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c && D[t.id]).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${termUrl(lang, t.id)}">${termHtml(lang, t)}</a>`).join("")}</div>`).join("\n")}
 <div class="disc">${U.tm}</div>${legal(lang)}</main></body></html>`);
       out.push(url);
     }

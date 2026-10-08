@@ -255,6 +255,15 @@ window.GLOSSARY_I18N.uk = {
    "conf": "high",
    "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
   },
+  "skeet-choke": {
+   "term_local": "скіт",
+   "alt": [
+    "скітовий чок",
+    "SK"
+   ],
+   "conf": "medium",
+   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+  },
   "improved-cylinder": {
    "term_local": "1/4",
    "alt": [
@@ -1783,6 +1792,44 @@ window.GLOSSARY_I18N.uk = {
   },
   "process-goal": {
    "term_local": "ціль процесу",
+   "conf": "medium"
+  },
+  "miss-behind": {
+   "term_local": "позаду мішені",
+   "alt": [
+    "промах позаду",
+    "дріб пройшов позаду",
+    "позаду"
+   ],
+   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
+   "conf": "medium"
+  },
+  "miss-in-front": {
+   "term_local": "попереду мішені",
+   "alt": [
+    "промах попереду",
+    "дріб пройшов попереду",
+    "попереду"
+   ],
+   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
+   "conf": "medium"
+  },
+  "miss-over": {
+   "term_local": "вище мішені",
+   "alt": [
+    "над мішенню",
+    "зверху"
+   ],
+   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
+   "conf": "medium"
+  },
+  "miss-under": {
+   "term_local": "нижче мішені",
+   "alt": [
+    "під мішенню",
+    "знизу"
+   ],
+   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
    "conf": "medium"
   }
  }

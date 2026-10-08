@@ -317,6 +317,16 @@ window.GLOSSARY_I18N.fi = {
    "short": "Piippu tai supistaja ilman supistusta; antaa leveimmän osumakuvion.",
    "long": "Sylinteri tarkoittaa nollasupistusta: piipun sisähalkaisija on suulla sama kuin muualla. Hauliparvi leviää nopeimmin, joten osumakuvio on lähellä leveä ja harvenee kauempana. Se valitaan hyvin lähellä oleville kiekoille, kuten joillekin jäniskiekoille tai ampujan läheltä ponnahtaville kiekoille. Berettan supistajissa se merkitään viidellä tähdellä. Useimmille Sporting™- ja Compak® Sporting -kiekoille ampujat valitsevat hieman tiukemman supistajan."
   },
+  "skeet-choke": {
+   "term_local": "skeet-supistaja",
+   "alt": [
+    "skeet (SK)"
+   ],
+   "conf": "medium",
+   "src": "https://www.rihlatuote.fi/hscms/news/11/79/Haulikon-Supistukset.html",
+   "short": "Hyvin kevyt supistus, noin 0,1–0,15 mm (4–6 thou), lähimpiä kiekkoja varten.",
+   "long": "Skeet-supistaja (merkintä SK) on vain hieman sylinteriä tiukempi: supistus noin 0,1–0,15 mm (4–6 thou), eurooppalaisessa käytössä joskus 1/8. Osumakuvio on lähellä leveä ja antaa anteeksi pieniä virheitä. Sporting™- ja Compak® Sporting -lajeissa sitä käytetään lähikiekoille, jäniskiekoille ja läheltä ponnahtaville kiekoille. Tarkat arvot riippuvat valmistajasta."
+  },
   "improved-cylinder": {
    "term_local": "parannettu sylinteri (IC, 1/4)",
    "alt": [

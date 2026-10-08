@@ -156,13 +156,26 @@
               (ui keys anim_h_<kind> / anim_w_<kind>, kind = ClaySims.kind(sim)); used for the glossary term pages by auto().
    Lesson keys muzzle_start, gun_speed, trigger and follow_through only describe the method in words: the lab takes that behaviour
    from the method itself (see above), so they need no code.
-   Text keys (texts from the page; missing keys fall back to the English DEF below): launch, method, m_maintained, m_swing,
-   m_pullaway, m_ambush, speed, distance, demo, try, shoot, hit, behind, ahead, no_shot, perceived, actual, at_muzzle, compare,
-   how_maintained, how_swing, how_pullaway, how_ambush, stop_gun, clay_widths, lab_note, decision, shot_moment, lead_word,
-   unit_m, unit_ft, unit_cm, unit_in, unit_ms, pair_report, pair_sim, pair_rafale, and every key that starts with "anim_".
+   Text keys (texts from the page; missing keys fall back to the English DEF below): launch, method, speed, distance, demo, try,
+   shoot, hit, behind, ahead, no_shot, perceived, actual, at_muzzle, compare, how_maintained, how_swing, how_pullaway, how_ambush,
+   stop_gun, clay_widths, lab_note, unit_m, unit_ft, unit_cm, unit_in, unit_ms, pair_report, pair_sim, pair_rafale ("{term}" = the
+   pair's name), and every key that starts with "anim_" (anim_t_sonopull has "{term}" too).
+   TERM NAMES (owner rule 08.10.2026: a professional term is always in English, the local word in brackets: uk "Swing-through
+   (протяжка)", "Gun mount (вкладка)"; English pages: English only). Every term this file NAMES comes from the glossary through
+   CFG.term(id) = {en, local} and is labelled by the ONE helper docs/shared/terms.js (window.ClayTerms.label; without that file on
+   the page the English name is shown): the lead-lab method names (select, compare table, aria-label: glossary ids maintained-lead,
+   swing-through, pull-away, ambush; the old ui keys m_* are gone), the flight tabs and the name under a flight ("Crosser (<local>)
+   ->"), the pair tabs and captions (double-on-report, simultaneous-double, rafale-double), the stand-scene tabs gun-mount,
+   ready-position and sonopull. TERM_IDS (exported) lists them all; the build writes their names into ui.json "terms" (Academy) and
+   window.CLAYSIMS_TERMS (other pages). Words drawn ON the canvas stay English in every language, with no brackets (no room on a
+   phone; the stand words the course teaches): Pick-up point, Hold point, Break point, Soft focus, Hard focus, and the lab and scene
+   pills "decision", "shot", "lead", "line" (CANVAS_EN; until 08.10.2026 these four were translated: ui keys decision, shot_moment,
+   lead_word, anim_line, removed 08.10.2026). Plain words on the canvas ("front foot", "body", "cheek on the comb") stay in the page
+   language.
    The master texts are content/academy/ui/<lang>.json (11 languages); scripts/build_academy.mjs copies them into
    docs/shared/sims-text.js (list SIM_KEYS there) for pages outside the Academy (glossary, rules trainer), together with the names of
-   the terms the animations show (window.CLAYSIMS_TERMS = {lang: {id: [en, local]}}). The style 10.2026 added no text key: the only
+   the terms the animations show (window.CLAYSIMS_TERMS = {lang: {id: [en, local]}}, local = ClayTerms.local(): absent when it is the
+   same word as the English). The style 10.2026 added no text key: the only
    new canvas word is the scale key "2 <unit_m>". The ballistics review (10.2026) rewrote lab_note and added anim_scale (the caption
    under the stand scenes; as an "anim_" key the build copies it without a change to SIM_KEYS). Literal canvas words that are never
    translated: "Pull!", "No Bird!", "!", "BANG", "♪", "A" (the trap letter).
@@ -177,7 +190,7 @@ const CFG = {t: () => null, term: () => null, onHit: null, slow: false};
 const stat = (name, value) => { try { if (window.ClayStats) window.ClayStats.event(name, value); } catch (e) {} };
 /* English fallback texts (same as the "en" values in content/academy/ui/en.json). Used when a page has no text for a key yet. */
 const DEF = {
-  launch: "Launch", method: "Method", m_maintained: "Maintained lead", m_swing: "Swing-through", m_pullaway: "Pull-away", m_ambush: "Ambush",
+  launch: "Launch", method: "Method",
   speed: "Target speed", distance: "Distance", demo: "Watch the method", try: "Your turn: press when you would shoot", shoot: "Shoot",
   hit: "Hit! The target breaks.", behind: "Behind — the shot passed behind the target", ahead: "In front — the shot passed ahead of the target",
   no_shot: "No shot fired.", perceived: "Lead you see at the decision", actual: "Actual lead at the shot", at_muzzle: "seen at the muzzle",
@@ -188,10 +201,10 @@ const DEF = {
   how_ambush: "The muzzles wait still at a point ahead. Press Shoot before the target reaches that point: the shot needs time, so a shot fired as the target arrives goes behind.",
   stop_gun: "Stop the gun at the trigger (a fault)", clay_widths: "target widths",
   lab_note: "Slow motion, simplified physics for teaching. The shot slows down as it flies: on average about 330 m/s over 15 m, 300 m/s over 25 m and 255 m/s over 40 m (it leaves the barrel at about 360–430 m/s). It takes about 0.15 s from the decision to the shot (an average estimate). The ring marks the part of the pattern dense enough to break the target: a radius of about 33 cm at 15 m and 45 cm at 40 m. The muzzle is about 1 m from the eye. Distances along the target's line, the lead and the ring are to scale; the target is drawn larger than life so you can see it (about to scale where the lead is counted in target widths). The actual lead depends on the target's speed, distance and angle, the cartridge and the shooter.",
-  decision: "decision", shot_moment: "shot", lead_word: "lead", unit_m: "m", unit_ft: "ft", unit_cm: "cm", unit_in: "in", unit_ms: "m/s",
-  pair_report: "Report pair (on report): the 2nd target is released at the sound of the 1st shot",
-  pair_sim: "Simultaneous pair: both targets are released together",
-  pair_rafale: "Rafale (following pair): the 2nd target from the same trap, as soon as the trap has reloaded",
+  unit_m: "m", unit_ft: "ft", unit_cm: "cm", unit_in: "in", unit_ms: "m/s",
+  pair_report: "{term}: the 2nd target is released at the sound of the 1st shot",
+  pair_sim: "{term}: both targets are released together",
+  pair_rafale: "{term}: the 2nd target from the same trap, as soon as the trap has reloaded",
   // controls, hero headings and captions, stand scenes (ui keys anim_*)
   anim_play: "Play", anim_replay: "Replay", anim_stop: "Stop", anim_slow: "Slow motion",
   anim_h_flight: "Watch how the target flies", anim_h_points: "Watch the three points", anim_h_eyes: "Watch where the eyes look",
@@ -209,10 +222,10 @@ const DEF = {
   anim_w_call: "The clock shows when the target leaves after the call or the referee's signal; a late target is a No Bird.",
   anim_w_gunpos: "In Sporting™ the stock stays below the line on the vest until the target appears.",
   anim_w_misfire: "After a misfire, stay put: gun closed and pointing down the range until the referee has checked it.",
-  anim_unit_s: "s", anim_after_call: "after the call", anim_after_signal: "after the signal", anim_line: "line",
+  anim_unit_s: "s", anim_after_call: "after the call", anim_after_signal: "after the signal",
   anim_l_foot: "front foot", anim_l_body: "body", anim_cheek: "cheek on the comb",
   anim_t_signal: "Sporting™: referee's signal", anim_t_late: "Late target", anim_t_manual: "Compak® Sporting: by hand",
-  anim_t_sonopull: "Compak® Sporting: sonopull", anim_t_ready: "Ready position", anim_t_early: "Gun up at the call", anim_t_mount: "Gun mount",
+  anim_t_sonopull: "Compak® Sporting: {term}", anim_t_early: "Gun up at the call",
   anim_s_in_time: "The target leaves {n} s after the signal: in time (the limit is {max} s).",
   anim_s_late: "The target leaves {n} s after the signal, later than {max} s: the referee calls “No Bird” and the target is thrown again.",
   anim_s_manual: "Released by hand: the target leaves {n} s after the call (allowed: 0 to {max} s).",
@@ -232,11 +245,12 @@ const DEF = {
 };
 const T = k => { const v = CFG.t(k); return v == null || v === "" ? (DEF[k] ?? k) : v; };
 const TERM = id => CFG.term(id);
+/* Pills drawn on the canvas: English in every language (see TERM NAMES in the header). */
+const CANVAS_EN = {decision: "decision", shot: "shot", lead: "lead", line: "line"};
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
 const sq = x => x * x;
 const lerp = (a, b, k) => a + (b - a) * k, clamp01 = x => Math.max(0, Math.min(1, x)), ease = k => k * k * (3 - 2 * k);
 const fill = (s, v) => String(s).replace(/\{(\w+)\}/g, (m, k) => (v[k] != null ? v[k] : m));
-const low = s => String(s || "").trim().toLowerCase();
 const pageLang = () => { try { return (document.documentElement.lang || "en").slice(0, 2); } catch (e) { return "en"; } };
 const num1 = n => { try { return new Intl.NumberFormat(pageLang(), {minimumFractionDigits: 1, maximumFractionDigits: 1}).format(n); } catch (e) { return n.toFixed(1); } };
 const RM = () => { try { return matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { return false; } };
@@ -246,8 +260,8 @@ const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;ov
 .cs-sim canvas{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;touch-action:manipulation}
 .cs-words{padding:8px 12px 2px;font-size:14px;line-height:1.45;color:#6B7280}.cs-words b{color:#F3F4F6}
 .cs-ctl{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center;padding:10px 12px;border-top:1px solid rgba(255,255,255,.1);font-size:13.5px;color:#D1D5DB}
-.cs-ctl label{display:flex;gap:6px;align-items:center}.cs-ctl input[type=range]{width:110px;accent-color:#34D399}.cs-ctl input[type=checkbox]{accent-color:#FB923C}
-.cs-ctl select{background:#0B1120;color:#F3F4F6;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:5px 8px;font:inherit}
+.cs-ctl label{display:flex;gap:6px;align-items:center;min-width:0;max-width:100%}.cs-ctl input[type=range]{width:110px;accent-color:#34D399}.cs-ctl input[type=checkbox]{accent-color:#FB923C}
+.cs-ctl select{background:#0B1120;color:#F3F4F6;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:5px 8px;font:inherit;min-width:0;max-width:100%;flex:1 1 auto;text-overflow:ellipsis}
 .cs-btn{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#F3F4F6;border-radius:10px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
 .cs-btn:hover{border-color:rgba(52,211,153,.5)}.cs-primary{background:#059669;border-color:#059669;color:#fff;font-weight:600}.cs-btn[disabled]{opacity:.45;cursor:default}
 .cs-btn:focus-visible{outline:2px solid #34D399;outline-offset:2px}
@@ -708,9 +722,20 @@ function clock(c, v, sub, state, s = 1){
 }
 /* ======================= end of ART (the side-view people, gun, trap house and stand: next to SCENES below) ======================= */
 
-/* Term names on the canvas: the English term (the course teaches the English words), from the page's term list if it has one. */
-const TERM_EN = {"pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus"};
+/* Term names. termName(id): the English term, drawn on the canvas (the course teaches the English words), from the page's term
+   list if it has one. termLabel(id, en): the label outside the canvas (tabs, names, the method select): "English (local)" through
+   the ONE helper docs/shared/terms.js; English only on English pages or without that helper. TERM_EN = English names used only when
+   the page gives no term list (a page without glossary data); the glossary stays the source. */
+const TERM_EN = {"pick-up-point": "Pick-up point", "hold-point": "Hold point", "break-point": "Break point", "soft-focus": "Soft focus", "hard-focus": "Hard focus",
+  "maintained-lead": "Maintained lead", "swing-through": "Swing-through", "pull-away": "Pull-away", "ambush": "Ambush",
+  "double-on-report": "Double on report", "simultaneous-double": "Simultaneous double", "rafale-double": "Rafale double",
+  "gun-mount": "Gun mount", "ready-position": "Ready position", "sonopull": "Sonopull"};
+/* the lead lab's methods → their glossary terms (the names of the method select and the compare table) */
+const METHOD_TERM = {maintained: "maintained-lead", swing: "swing-through", pullaway: "pull-away", ambush: "ambush"};
 const termName = id => (TERM(id) && TERM(id).en) || TERM_EN[id] || id;
+// (CT.label also without a local word: on a page in another language an English headword's own brackets go, "Group (in line)" → "Group")
+const termLabel = (id, en) => { const t = TERM(id), e = (t && t.en) || en || TERM_EN[id] || id, CT = typeof window !== "undefined" && window.ClayTerms;
+  return CT ? CT.label(e, (t && t.local) || "", pageLang()) : e; };
 
 /* Teaching overlays of a flight (opts.focus). P(t) = canvas position of the target. Points along the flight: pick-up 0.2,
    hold 0.42 (on or just under the line, between pick-up and break), break 0.62. still = the poster (for "eyes": both stages). */
@@ -760,10 +785,10 @@ function overlay(c, f, P, t, focus, W, H, still){
    Frame order: background layer, flight line dots (poster: the whole line + a direction chevron; playing: the part flown), the shooter
    from behind, the overlay, the comet trail, the target or its burst. */
 function flightSim(host, preset, opts = {}){
-  const f = FLIGHTS[preset] || FLIGHTS["crosser-lr"], focus = opts.focus || "", tm = TERM(f.term);
-  const name = tm ? tm.en : NAME[preset] || preset;
+  const f = FLIGHTS[preset] || FLIGHTS["crosser-lr"], focus = opts.focus || "";
+  const name = termLabel(f.term, NAME[preset] || preset); // "Crosser (поперечна мішень)": English, the local word in brackets
   host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(opts.hideName ? "" : name)}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}
-  ${opts.hideName ? "" : `<b>${esc(name)}</b>${tm && tm.local && tm.local !== tm.en ? ` <span class="cs-muted">· ${esc(tm.local)}</span>` : ""}`}</div></div>`;
+  ${opts.hideName ? "" : `<b>${esc(name)}</b>`}</div></div>`;
   const cv = logical(host.querySelector("canvas"), 720, 380), c = cv.getContext("2d"), W = 720, H = 380; let raf = 0, t0 = 0, dur = 2400;
   const P = t => { const [x, y] = f.p(t); return [x*W, y*H]; };
   const brk = focus === "points" || focus === "stance" ? BR : null; // with these overlays the clay is broken at the break point
@@ -812,12 +837,13 @@ function leadLab(host, method = "maintained", opts = {}){
   if (!opts || typeof opts !== "object") opts = {};
   const TR = .15, EYE = 1, CLAY = .11, METHODS = ["maintained", "swing", "pullaway", "ambush"];
   const norm = m => ({"swing-through": "swing", "pull-away": "pullaway"})[m] || (METHODS.includes(m) ? m : "maintained");
+  const mName = m => termLabel(METHOD_TERM[m]); // the method's glossary term: uk "Swing-through (протяжка)", en "Swing-through"
   const rl = /-rl$/.test(opts.preset || ""), rabbit = opts.preset === "rabbit", focus = opts.focus || "";
   // speed slider: min, max, default (m/s). The rabbit's 11 m/s is an EXAMPLE value for the lab (no published source gives a typical
   // rabbit speed): never quote it as a typical speed in a text
   const VR = rabbit ? [6, 18, 11] : [10, 25, 17];
-  host.innerHTML = `<div class="cs-sim"><div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div><canvas width="720" height="300" role="img" aria-label="${esc(T("method") + ": " + T("m_" + norm(method)))}"></canvas>
-  <div class="cs-ctl"><label>${esc(T("method"))} <select data-k="m">${METHODS.map(m => `<option value="${m}"${m === norm(method) ? " selected" : ""}>${esc(T("m_" + m))}</option>`).join("")}</select></label>
+  host.innerHTML = `<div class="cs-sim"><div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div><canvas width="720" height="300" role="img" aria-label="${esc(T("method") + ": " + mName(norm(method)))}"></canvas>
+  <div class="cs-ctl"><label>${esc(T("method"))} <select data-k="m">${METHODS.map(m => `<option value="${m}"${m === norm(method) ? " selected" : ""}>${esc(mName(m))}</option>`).join("")}</select></label>
   <label>${esc(T("speed"))} <input data-k="v" type="range" min="${VR[0]}" max="${VR[1]}" value="${VR[2]}"><span data-k="vv"></span></label>
   <label>${esc(T("distance"))} <input data-k="d" type="range" min="15" max="40" value="25"><span data-k="dv"></span></label>
   ${focus === "follow-through" || opts.stop ? `<label><input data-k="stop" type="checkbox"${opts.stop ? " checked" : ""}> ${esc(T("stop_gun"))}</label>` : ""}</div>
@@ -905,25 +931,25 @@ function leadLab(host, method = "maintained", opts = {}){
       if (!sh.hit && !broken && !TRUE) { c.fillStyle = "#fff"; dot(c, px(xT), TY, 1.4 * m); } }
     muzzleMark(c, aim[0], aim[1]);
     let shotBox = null; const ys = TY - 18 * m - 8 - 14 * k - 4 * k;
-    if (sh && freeze) shotBox = pillBox(c, T("shot_moment"), px(sh.xM), ys, "center", 12, "650");
+    if (sh && freeze) shotBox = pillBox(c, CANVAS_EN.shot, px(sh.xM), ys, "center", 12, "650");
     if (sh && t >= sh.td) { // decision point marker (where the muzzle was when the shooter decided); its pill moves aside if it meets the "shot" pill
       let xd = px(mz(sh.td, sh.td)); const yc = TY - 12 * m, yl = yc - 6 * m - 4 - 4 * k;
       c.strokeStyle = ART.amber; c.lineWidth = 1.8 * m; c.fillStyle = "rgba(251,191,36,.18)";
       c.beginPath(); c.moveTo(xd, yc - 6 * m); c.lineTo(xd + 6 * m, yc); c.lineTo(xd, yc + 6 * m); c.lineTo(xd - 6 * m, yc); c.closePath(); c.fill(); c.stroke(); c.lineWidth = 1;
-      const db = pillBox(c, T("decision"), xd, yl, "center", 12, "650");
+      const db = pillBox(c, CANVAS_EN.decision, xd, yl, "center", 12, "650");
       if (overlap(db, shotBox)) { const left = db.x + db.w / 2 < shotBox.x + shotBox.w / 2, d = left ? db.x + db.w - shotBox.x : shotBox.x + shotBox.w - db.x; xd += (left ? -1 : 1) * (d + 6 * k); }
-      label(c, T("decision"), xd, yl, ART.amber); }
+      label(c, CANVAS_EN.decision, xd, yl, ART.amber); }
     if (sh && freeze) { // frozen at the moment of the shot: bracket = actual lead between the clay and the muzzle
       const a = px(tx(sh.ts)), b = px(sh.xM), y = rabbit ? TY - 18*m - 26*k - 26 : TY + 26 + 18*m, tk = 5 * m;
       c.strokeStyle = rgba(ART.em, .45); c.lineWidth = m; c.setLineDash([2 * m, 3 * m]); seg(c, a, TY, a, y); seg(c, b, TY, b, y); c.setLineDash([]);
       c.strokeStyle = ART.em; c.lineWidth = 2.2 * m; c.lineCap = "round"; seg(c, a, y, b, y); seg(c, a, y - tk, a, y + tk); seg(c, b, y - tk, b, y + tk); c.lineCap = "butt"; c.lineWidth = 1;
-      const txt = `${T("lead_word")} ${num1(sh.actual)} ${T("unit_m")} · ${num1(sh.actual * 3.281)} ${T("unit_ft")}`, ty = rabbit ? y - 10*k : y + 20*k;
+      const txt = `${CANVAS_EN.lead} ${num1(sh.actual)} ${T("unit_m")} · ${num1(sh.actual * 3.281)} ${T("unit_ft")}`, ty = rabbit ? y - 10*k : y + 20*k;
       let vx = (a + b) / 2; const vb = pillBox(c, txt, vx, ty, "center", 13, "750");
       // the line of fire (tip → aim) must not cross the value pill: slide it along the bracket toward the target
       if (aim[1] < vb.y + vb.h && tip[1] > vb.y) { const xl = yy => tip[0] + (aim[0] - tip[0]) * (yy - tip[1]) / (aim[1] - tip[1] || 1), lo = Math.min(xl(vb.y), xl(vb.y + vb.h)), hi = Math.max(xl(vb.y), xl(vb.y + vb.h));
         if (hi > vb.x - 3 && lo < vb.x + vb.w + 3) vx += a < b ? lo - 4 * k - (vb.x + vb.w) : hi + 4 * k - vb.x; }
       label(c, txt, vx, ty, ART.em, "center", {size: 13, weight: "750"});
-      label(c, T("shot_moment"), b, ys, ART.ink, "center", {border: "rgba(255,255,255,.3)"}); }
+      label(c, CANVAS_EN.shot, b, ys, ART.ink, "center", {border: "rgba(255,255,255,.3)"}); }
     if (sh && (freeze || (t >= sh.ts && t <= sh.ts + .06))) flash(c, tip, Math.atan2(TY - tip[1], aim[0] - tip[0]), freeze ? .25 : (t - sh.ts) / .06);
     // phase words above the canvas: “butt · belly · beak · bang” etc.; with focus "mount" “move · mount · shoot” (muzzles first, then the stock)
     const ph = sim.phase(t, td, sh ? sh.ts : Infinity), mountW = focus === "mount" && sim.m !== "ambush";
@@ -960,7 +986,7 @@ function leadLab(host, method = "maintained", opts = {}){
     if (sh.hit && mode === "try" && CFG.onHit) CFG.onHit({method: sim.m, v: sim.v, d: sim.d});
   }
   function compare(){ const box = q("cmp"); if (!box) return; // the same target with each method, decided on time
-    const rows = METHODS.map(m => { const s = setup(m, true), sh = shotAt(s, s.auto); return `<tr><td>${esc(T("m_" + m))}</td><td>${r1(sh.perceived)} ${esc(T("unit_m"))}</td><td>${esc(atMuzzle(sh.perceived, s.d))}</td><td>${r1(sh.actual)} ${esc(T("unit_m"))}</td></tr>`; });
+    const rows = METHODS.map(m => { const s = setup(m, true), sh = shotAt(s, s.auto); return `<tr><td>${esc(mName(m))}</td><td>${r1(sh.perceived)} ${esc(T("unit_m"))}</td><td>${esc(atMuzzle(sh.perceived, s.d))}</td><td>${r1(sh.actual)} ${esc(T("unit_m"))}</td></tr>`; });
     box.innerHTML = `<b>${esc(T("compare"))}</b><table><tr><th>${esc(T("method"))}</th><th>${esc(T("perceived"))}</th><th>${esc(T("at_muzzle"))}</th><th>${esc(T("actual"))}</th></tr>${rows.join("")}</table>`; }
   const how = () => { q("how").textContent = T("how_" + q("m").value); };
   // the still picture: the method's own freeze-frame at the shot (target, muzzles and the lead between them), flight line dotted
@@ -985,13 +1011,13 @@ function leadLab(host, method = "maintained", opts = {}){
    simultaneous = both released together, from two traps; rafale (following pair) = 2nd from the SAME trap on the same line,
    as soon as the trap has reloaded (FITASC Sporting™ only). Delays are in units of the 2.4 s flight (0.5 ≈ 1.2 s). */
 const PAIRS = {
-  report:       {a: "crosser-lr", b: "incomer", delay: .45, label: "pair_report", bang: true},
-  simultaneous: {a: "crosser-lr", b: "quartering-away", delay: 0, label: "pair_sim"},
-  rafale:       {a: "crosser-lr", b: "crosser-lr", delay: .5, label: "pair_rafale"},
+  report:       {a: "crosser-lr", b: "incomer", delay: .45, label: "pair_report", term: "double-on-report", bang: true},
+  simultaneous: {a: "crosser-lr", b: "quartering-away", delay: 0, label: "pair_sim", term: "simultaneous-double"},
+  rafale:       {a: "crosser-lr", b: "crosser-lr", delay: .5, label: "pair_rafale", term: "rafale-double"},
 };
 function pairSim(host, kind, opts = {}){
   const P = PAIRS[kind] || PAIRS.report, fa = FLIGHTS[P.a], fb = FLIGHTS[P.b];
-  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(pairName(kind))}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}<b>${esc(T(P.label))}</b></div></div>`;
+  host.innerHTML = `<div class="cs-sim"><canvas width="720" height="380" role="img" aria-label="${esc(pairName(kind))}"></canvas><div class="cs-ctl">${playBtn("launch")}${slowBtn()}<b>${esc(fill(T(P.label), {term: pairName(kind)}))}</b></div></div>`;
   const cv = logical(host.querySelector("canvas"), 720, 380), c = cv.getContext("2d"), W = 720, H = 380; let raf = 0, t0 = 0, dur = 2400;
   const Pa = u => { const [x, y] = fa.p(u); return [x*W, y*H]; }, Pb = u => { const [x, y] = fb.p(u); return [x*W, y*H]; };
   // the shooter from behind: ready at the 1st target's hold point; in a report pair mounted on its break point around the shot
@@ -1063,11 +1089,11 @@ const SCENES = {
   signal:        {tab: "anim_t_signal",   timer: "signal", line: 1, call: .3, signal: .7, release: 1.7, mount: [1.82, 2.15], shot: 2.5, end: 4.4},
   "signal-late": {tab: "anim_t_late",     timer: "signal", line: 1, call: .3, signal: .7, release: .7 + 3.6, nobird: 4.5, end: 7},
   manual:        {tab: "anim_t_manual",   timer: "call", up: 1, call: .3, release: 1.7, shot: 2.45, end: 4.4},
-  sonopull:      {tab: "anim_t_sonopull", timer: "call", up: 1, mic: 1, call: .3, release: .3 + CALL.sonopull, shot: 1.5, end: 3.6},
-  "gun-ready":   {tab: "anim_t_ready",    line: 1, call: .9, signal: 1.1, release: 1.5, mount: [1.62, 1.95], shot: 2.3, end: 4.3},
+  sonopull:      {tab: "anim_t_sonopull", term: "sonopull", timer: "call", up: 1, mic: 1, call: .3, release: .3 + CALL.sonopull, shot: 1.5, end: 3.6},
+  "gun-ready":   {term: "ready-position", line: 1, call: .9, signal: 1.1, release: 1.5, mount: [1.62, 1.95], shot: 2.3, end: 4.3},
   "gun-early":   {tab: "anim_t_early",    line: 1, mount: [.4, .75], call: 1.2, card: 1.7, end: 4},
   misfire:       {tab: null,              call: .4, release: 1, mount: [1.1, 1.45], shot: 1.85, click: 1, safe: [2.2, 2.6], walk: [3.3, 4.3], end: 6.8},
-  mount:         {tab: "anim_t_mount",    words: 1, cheek: 1, call: .3, release: .8, move: [1, 1.4], mount: [1.3, 1.85], shot: 1.9, end: 3.8},
+  mount:         {term: "gun-mount",      words: 1, cheek: 1, call: .3, release: .8, move: [1, 1.4], mount: [1.3, 1.85], shot: 1.9, end: 3.8},
 };
 const GY = 322, LINE_Y = 203, FLY = 2.2, SH = 380; // SH = scene height; narrow screens get a band for the clock above it
 // SAFETY layout (see above): people only left of BEHIND_X (the shooter's back heel is at x ≈ 150, the stand starts at 126); the
@@ -1092,9 +1118,8 @@ const REF_H = 174, TRAPPER_H = 170;
 //   - REF_X − TRAPPER_X = 52 as before: the referee's body (from REF_X − 14) never covers the trapper's button hand (≈ TRAPPER_X + 26),
 //     and the sound signal, its "♪" and the dashed line back to the trapper's ear keep the geometry the safety check passed
 //     (on a phone the bigger "♪" stays off the trapper's lens);
-//   - the referee's near arm (≈ REF_X + 2 … + 13 at the height of the line on the vest) is left of the English "line" pill (from
-//     x ≈ 116 on wide screens); longer words (hu 105.6 … cs 113) touch the front of his jacket there, his head, protection and
-//     score sheet stay visible. The score sheet (to REF_X + 29) is left of the shooter (x ≈ 148). On a phone the pill is about twice
+//   - the English "line" pill is drawn RIGHT of the stand with a dashed leader (09.10.2026), so it never covers the referee;
+//     before that it sat left of the vest over the referee's jacket (and most of him on a phone). The score sheet (to REF_X + 29) is left of the shooter (x ≈ 148). On a phone the pill is about twice
 //     as big and covers part of the referee's body (it did before too); his head, cap, glasses and ear muffs stay visible (safety
 //     check E5). On a phone (FK > 1.35, the clock-band threshold) the pill is NOT drawn during the referee's 0.6 s sound signal:
 //     his signalling hand and the sound device (REF_X − 0.10 REF_H, GY − 0.70 REF_H ≈ 81.6, 200) would be under it (review
@@ -1310,7 +1335,12 @@ function shooter(c, g, line, noPill){
   limb(c, shN, 5.6, elN, 4.4, PAL.shirt); limb(c, elN, 4.4, wr, 3.5, PAL.shirt); hand(c, wr, g.th + 1.25, 1, PAL.skin, 5.4);
   // its pill ends left of the vest (x ≈ 158), so it never covers the line it names (review 08.10.2026; spec §10). noPill: on a
   // phone the pill is hidden while the referee gives the sound signal (it would cover his signalling hand); the stripe stays
-  if (line && !noPill) label(c, T("anim_line"), 150 - 7 * FK(c), LINE_Y + 4 * FK(c), line === "bad" ? ART.red : ART.amber, "right");
+  // The "line" pill sits to the RIGHT of the stand (free ground, x ≈ 238…, y ≈ 266) with a dashed leader to the end of the stripe:
+  // on the left it covered the referee, on a phone (pill ×2) most of him (owner 09.10.2026). The sonopull microphone (MIC_X) is
+  // never in a scene that draws the line.
+  if (line && !noPill) { const k = FK(c), col = line === "bad" ? ART.red : ART.amber, px = 238, py = 266 + 2 * k;
+    c.strokeStyle = rgba(col, .75); c.lineWidth = 1.2; c.setLineDash([3, 3]); seg(c, 200, LINE_Y, px - 3, py - 5 * k); c.setLineDash([]); c.lineWidth = 1;
+    label(c, CANVAS_EN.line, px, py, col, "left"); }
   return muzzle;
 }
 /* MASCOT: the ClayArena dog through docs/shared/mascot.js (window.ClayMascot.draw(ctx, pose, x, y, scale, state) → {head, collar,
@@ -1341,7 +1371,7 @@ function whenMascot(cb){ if (typeof document === "undefined" || window.ClayMasco
    trapper, handler) wears safety glasses and ear muffs (SAFETY above SCENES). Under the canvas a small caption (ui anim_scale) says
    that only the shooter and the stand are to scale and the field and the target's flight are shortened (kept in print). */
 function standSim(host, kind, opts = {}){
-  const sc = SCENES[kind] || SCENES.signal, title = T(sc.tab || "anim_h_misfire");
+  const sc = SCENES[kind] || SCENES.signal, title = sceneTitle(sc);
   host.innerHTML = `<div class="cs-sim">${sc.words ? `<div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div>` : ""}<canvas width="720" height="${SH}" role="img" aria-label="${esc(title)}"></canvas><p class="cs-scale">${esc(T("anim_scale"))}</p><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}<b>${esc(title)}</b></div><div class="cs-say" aria-live="polite" data-k="say"></div></div>`;
   const cv = logical(host.querySelector("canvas"), 720, SH), c = cv.getContext("2d"), W = 720, out = host.querySelector('[data-k="say"]');
   const words = sc.words ? wordsBar(host.querySelector('[data-k="words"]')) : null;
@@ -1453,7 +1483,7 @@ function standSim(host, kind, opts = {}){
     if (sc.nobird != null && t >= sc.nobird) bubble(c, rx + 6, GY - REF_H - 14 - 10, "No Bird!", {bg: "#FEE2E2", fg: "#7F1D1D", age: t - sc.nobird});
     // the shooter and the line on the vest: red while the heel of the stock (as drawn) is above it BEFORE the target is out (the mount
     // after the release is correct, so the line turns amber again), the call, the shot
-    const g = pose(t), early = heelY(g) < LINE_Y && (rel == null || t < rel), muzzle = shooter(c, g, sc.line ? (early ? "bad" : "ok") : null, sig && k > 1.35);
+    const g = pose(t), early = heelY(g) < LINE_Y && (rel == null || t < rel), muzzle = shooter(c, g, sc.line ? (early ? "bad" : "ok") : null); // the "line" pill is right of the stand now: no need to hide it during the signal
     if (sc.call != null && t >= sc.call && t < sc.call + .9) bubble(c, 196, 128, "Pull!", {age: t - sc.call});
     if (sc.mic && t >= sc.call && t < rel) { c.strokeStyle = rgba(ART.em, .8); c.lineWidth = 1.5; for (let i = 0; i < 3; i++) { c.beginPath(); c.arc(206, 166, 10 + i * 8, .2, 1.2); c.stroke(); } c.lineWidth = 1; } // the call heard by the microphone
     if (hitT != null && t >= hitT) { if (t < hitT + .09) flash(c, muzzle, g.th, (t - hitT) / .09); smoke(c, GF(pose(hitT))(120, -BORE), t - hitT); }
@@ -1483,16 +1513,19 @@ function standSim(host, kind, opts = {}){
   const s = {stop: () => { off(); unwatch(); unmascot(); cancelAnimationFrame(raf); raf = 0; }, run}; SIMS.push(s); return s;
 }
 
-/* Tab label of a preset: the English term (the stand word, as the course teaches it) + direction arrow for left/right variants, and
-   the term's name in the page language when the page knows it and it differs ("Crosser → · <local>"); of a pair: its name in the page
-   language (the text before the colon of its description, e.g. "Report pair (on report)"). */
+/* Tab label of a preset: its term label (English, the local word in brackets when the page knows it and it differs, owner rule
+   08.10.2026) + the direction arrow of the left/right variants: "Crosser (поперечна мішень) →"; of a pair: the label of its glossary
+   term ("Double on report (дуплет на постріл)"); of a stand scene: sceneTitle(): the term label of mount / gun-ready, the ui text
+   with {term} filled in for sonopull, else the ui text. */
 const DIR = {"crosser-lr": "→", "crosser-rl": "←"};
 const NAME = {"crosser-lr": "Crosser", "crosser-rl": "Crosser", "incomer": "Incomer", "driven": "Driven target", "going-away": "Going away", "overhead": "Overhead",
   "quartering-away": "Quartering away", "quartering-towards": "Quartering towards", "teal": "Teal", "chandelle": "Chandelle", "looper": "Looper", "battue": "Battue",
   "dropping": "Dropping target", "rabbit": "Rabbit"};
-const tabLabel = p => { const t = TERM(FLIGHTS[p].term), en = t ? t.en : NAME[p] || p, loc = t && t.local && low(t.local) !== low(en) ? t.local : "";
-  return `${en}${DIR[p] ? " " + DIR[p] : ""}${loc ? " · " + loc : ""}`; };
-const pairName = k => String(T((PAIRS[k] || PAIRS.report).label)).split(/\s*:\s+/)[0];
+const tabLabel = p => `${termLabel(FLIGHTS[p].term, NAME[p] || p)}${DIR[p] ? " " + DIR[p] : ""}`;
+const pairName = k => termLabel((PAIRS[k] || PAIRS.report).term);
+const sceneTitle = sc => sc.tab ? fill(T(sc.tab), {term: sc.term ? termLabel(sc.term) : ""}) : sc.term ? termLabel(sc.term) : T("anim_h_misfire");
+/* the glossary ids of every term this file names (the build writes their names for the pages: ui.json "terms", CLAYSIMS_TERMS) */
+const TERM_IDS = [...new Set([...Object.values(FLIGHTS).map(f => f.term), ...Object.keys(TERM_EN)])].filter(Boolean);
 /* mount(host, sim, o): sim = {type: "flight", preset, also: [...], pairs: [...], focus} | {type: "lead", method, preset, focus, stop}
    | {type: "pair", kind, also: [...]} | {type: "call", kind, also: [...]}. Several presets, pairs or scenes get one tab each.
    o.autoplay: "view" (default) | "now" | false; o.onAutoplay(): called once when it played by itself (the Academy remembers it, so a
@@ -1505,7 +1538,7 @@ function mount(host, sim, o = {}){ if (!host || !sim) return;
   if (sim.type === "flight") tabs = [...[sim.preset, ...(sim.also || [])].filter(p => FLIGHTS[p]).map(p => ({k: "f:" + p, label: tabLabel(p)})),
                                    ...(sim.pairs || []).filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}))];
   else if (sim.type === "pair") tabs = [sim.kind, ...(sim.also || [])].filter(k => PAIRS[k]).map(k => ({k: "p:" + k, label: pairName(k)}));
-  else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: T(SCENES[k].tab || "anim_h_misfire")}));
+  else if (sim.type === "call") tabs = [sim.kind || "signal", ...(sim.also || [])].filter(k => SCENES[k]).map(k => ({k: "c:" + k, label: sceneTitle(SCENES[k])}));
   else return; // a type without an animation mounts nothing
   const show = (el, k, a) => { const x = k.slice(2), op = {autoplay: a, onAutoplay: done, onUser};
     return k.startsWith("p:") ? pairSim(el, x, op) : k.startsWith("c:") ? standSim(el, x, op) : flightSim(el, x, Object.assign({focus: sim.focus}, op)); };
@@ -1581,7 +1614,7 @@ function auto(){
     if (el.dataset.clayTerm || el.hasAttribute("data-clay-hero")) hero(el, sim); else mount(el, sim); });
 }
 window.ClaySims = {config: o => Object.assign(CFG, o, {_custom: true}), mount, hero, kind, auto, flightSim, leadLab, pairSim, standSim, stopSims,
-  FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, tabLabel};
+  FLIGHTS, PAIRS, SCENES, CALL, TERM_SIMS, NAMES: NAME, TERM_IDS, tabLabel};
 /* English pronunciation of a term (British English, Web Speech API). A voice that runs on the device (localService) is preferred;
    if the browser offers only online voices, its default voice is used, and that browser may send the text to its speech service. */
 const localVoice = () => { try { const vs = speechSynthesis.getVoices() || [];

@@ -294,6 +294,15 @@ window.GLOSSARY_I18N.lt = {
    "short": "Vamzdis ar čokas be susiaurinimo; duoda plačiausią šratų spiečių.",
    "long": "Cilindras reiškia nulinį susiaurinimą: vamzdžio kanalas prie žiočių toks pat kaip ir vamzdyje. Šratų debesis pasklinda greičiausiai, todėl spiečius arti platus, o toliau išretėja. Jis renkamasis labai artimiems taikiniams, pavyzdžiui, kai kuriems triušiams ar netoli šaulio iššokantiems taikiniams. Beretta čokuose jis žymimas penkiomis žvaigždutėmis. Daugumai taikinių Sporting™ ir Compak® Sporting šauliai renkasi šiek tiek siauresnius čokus."
   },
+  "skeet-choke": {
+   "term_local": "skeet čokas",
+   "alt": [
+    "skeet"
+   ],
+   "conf": "low",
+   "short": "Labai silpnas susiaurinimas, apie 0,1–0,15 mm (4–6 thou), artimiausiems taikiniams.",
+   "long": "Skeet čokas (žymimas SK) tik šiek tiek siauresnis už cilindrą: apie 0,1–0,15 mm susiaurinimo (4–6 thou), Europoje kartais vadinamas 1/8. Spiečius arti platus ir atleidžia mažas klaidas. Sporting™ ir Compak® Sporting jis naudojamas artimiems taikiniams, triušiams ir netoliese iššokantiems taikiniams. Tikslios vertės priklauso nuo gamintojo."
+  },
   "improved-cylinder": {
    "term_local": "ketvirtis skleistuvo (1/4)",
    "alt": [
@@ -763,7 +772,10 @@ window.GLOSSARY_I18N.lt = {
    "long": "Įstrižai artėjantis taikinys pasirodo priekyje ir iš šono, artėja ir praskrenda pro jus. Kol jis toli, pralenkimas mažas, bet kuo arčiau jis atskrenda, tuo greičiau juda skersai ir tuo daugiau pralenkimo reikia. Todėl sudaužymo tašką pasirinkite prieš iškviesdami taikinį ir nelaukite, kol taikinys bus per arti. Vesdami ginklą stebėkite, kad suktųsi visas kūnas, o ne tik rankos. Saugus šaudymo vietos sektorius riboja, kaip toli į šoną galite sekti tokį taikinį."
   },
   "driven-target": {
-   "term_local": "virš galvos skrendantis taikinys",
+   "term_local": "virš galvos iš priekio skrendantis taikinys",
+   "alt": [
+    "virš galvos skrendantis taikinys"
+   ],
    "conf": "low",
    "short": "Aukštas taikinys, kuris skrenda link šaulio ir praskrenda virš galvos, kaip varomas fazanas.",
    "long": "Pavadinimas kilęs iš varyminės medžioklės, kai paukščiai varomi virš medžiotojų linijos. Taikinys aukštai skrenda link jūsų ir praskrenda virš galvos. Kad jį sudaužytumėte, vamzdžiai juda iš apačios į viršų pro taikinį, o šūvis paleidžiamas, kai vamzdžiai uždengia taikinį ir šautuvas išeina į priekį nuo jo. Tam reikia stovėsenos, kai svoris ant priekinės kojos, o viršutinė kūno dalis gali laisvai judėti atgal. Per daug nesilenkite atgal: pusiausvyros praradimas yra tipiška nepataikymų į tokius taikinius priežastis."
@@ -785,9 +797,10 @@ window.GLOSSARY_I18N.lt = {
    "long": "Kylantis taikinys kyla nuo žemės kampu, kaip iš žolės pakeltas paukštis. Jis greitai praranda greitį ir paskui pradeda kristi, todėl savo kelyje elgiasi labai skirtingai. Kylant veskite šautuvą aukštyn ir šaukite virš jo, prie viršūnės jam beveik nereikia pralenkimo, o leidžiantis šaukite po juo. Nuspręskite iš anksto, kur jį sudaužysite, stebėdami taikinių pristatymą. Compak® Sporting taisyklės kylančius taikinius mini tarp įvairių trajektorijų pavyzdžių."
   },
   "looper": {
-   "term_local": "lankiniu kreiviu skrendantis taikinys",
+   "term_local": "lanku skrendantis taikinys",
    "alt": [
-    "looper"
+    "looper",
+    "lankiniu kreiviu skrendantis taikinys"
    ],
    "conf": "low",
    "short": "Taikinys, skrendantis lanku ir keičiantis kryptį.",
@@ -1864,19 +1877,18 @@ window.GLOSSARY_I18N.lt = {
    "long": "Men (pranc. Homme) – pagrindinė suaugusiųjų kategorija: nuo sausio 1 d. tų metų, kuriais šauliui sukanka 21, iki metų, kuriais sukanka 55, pabaigos. 2027 m. tai reiškia gimusius nuo 1972 m. sausio 1 d. iki 2006 m. gruodžio 31 d. Į Men komandą gali būti įtraukti vyrai, jaunuoliai ir Senior, Veteran bei Master kategorijų šauliai; joje 3 šauliai, o Parcours de Chasse – Sporting™ – 4. FITASC rezultatuose pagrindinė suaugusiųjų kategorija yra Men, o ne Senior."
   },
   "senior": {
-   "term_local": "Senior (56–65 m.)",
-   "alt": [
-    "senjorai"
-   ],
+   "term_local": "senjorai",
    "conf": "low",
    "short": "FITASC amžiaus kategorija nuo 56 iki 65 metų, ne pagrindinė suaugusiųjų kategorija.",
-   "long": "Senior kategorija – nuo sausio 1 d. tų metų, kuriais šauliui sukanka 56, iki metų, kuriais sukanka 65, pabaigos; 2027 m. tai gimusieji 1962–1971 m. Tai spąstai pradedantiesiems ir vertėjams: FITASC Senior reiškia ne suaugusiuosius apskritai, o 56–65 metų amžiaus grupę, o pagrindinė suaugusiųjų kategorija yra Men. Senior komandoje – 3 šauliai iš Senior, Veteran ar Master kategorijų. Kitose sporto šakose, senesniuose rezultatuose ir kai kuriose nacionalinėse programose senior gali reikšti suaugusiuosius apskritai, todėl tikrinkite konkretaus renginio lentelę."
+   "long": "Senior kategorija – nuo sausio 1 d. tų metų, kuriais šauliui sukanka 56, iki metų, kuriais sukanka 65, pabaigos; 2027 m. tai gimusieji 1962–1971 m. Tai spąstai pradedantiesiems ir vertėjams: FITASC Senior reiškia ne suaugusiuosius apskritai, o 56–65 metų amžiaus grupę, o pagrindinė suaugusiųjų kategorija yra Men. Senior komandoje – 3 šauliai iš Senior, Veteran ar Master kategorijų. Kitose sporto šakose, senesniuose rezultatuose ir kai kuriose nacionalinėse programose senior gali reikšti suaugusiuosius apskritai, todėl tikrinkite konkretaus renginio lentelę.",
+   "note": "FITASC age: 56–65 (the age range was in term_local before 08.10.2026)."
   },
   "master-category": {
-   "term_local": "Master (nuo 73 m.)",
+   "term_local": "Master",
    "conf": "low",
    "short": "Vyriausia FITASC amžiaus kategorija – nuo 73 metų, vyrams ir moterims.",
-   "long": "Master apima vyrus ir moteris nuo sausio 1 d. tų metų, kuriais jiems sukanka 73; 2027 m. tai gimusieji iki 1955 m. sausio 1 d. Master komandoje – 3 šios kategorijos šauliai; Master šauliai taip pat gali būti atrinkti į Veteran, Senior ir Men komandas. FITASC Master amžiaus kategorijos nepainiokite su amerikietiškos NSCA sistemos Master klase, kuri priklauso nuo rezultatų, ar su dominuojančia akimi (master eye) technikoje."
+   "long": "Master apima vyrus ir moteris nuo sausio 1 d. tų metų, kuriais jiems sukanka 73; 2027 m. tai gimusieji iki 1955 m. sausio 1 d. Master komandoje – 3 šios kategorijos šauliai; Master šauliai taip pat gali būti atrinkti į Veteran, Senior ir Men komandas. FITASC Master amžiaus kategorijos nepainiokite su amerikietiškos NSCA sistemos Master klase, kuri priklauso nuo rezultatų, ar su dominuojančia akimi (master eye) technikoje.",
+   "note": "FITASC age: from 73 (the age range was in term_local before 08.10.2026)."
   },
   "crimp": {
    "term_local": "tūtelės užsukimas",
@@ -2291,9 +2303,10 @@ window.GLOSSARY_I18N.lt = {
    "short": "Taikinio kelias ore, kaip jį mato šaulys; šautuvas turi judėti išilgai jo."
   },
   "overhead": {
-   "term_local": "virš galvos skrendantis taikinys",
+   "term_local": "virš galvos iš nugaros skrendantis taikinys",
    "alt": [
-    "overhead"
+    "overhead",
+    "virš galvos skrendantis taikinys"
    ],
    "conf": "low",
    "short": "Virš šaulio galvos praskrendantis taikinys; dažniausiai taip vadinamas taikinys, kuris atskrenda iš už nugaros ir tolsta, o atskrendantis iš priekio yra virš galvos skrendantis artėjantis taikinys (driven).",
@@ -2407,9 +2420,9 @@ window.GLOSSARY_I18N.lt = {
    "short": "Tarpas tarp vamzdžio žiočių ir taikinio, kurį šaulys mato šūvio metu; jis daug mažesnis už tikrąjį pralenkimą ore."
   },
   "ambush": {
-   "term_local": "pasala (ambush)",
+   "term_local": "šaudymas į tašką",
    "alt": [
-    "šaudymas į tašką"
+    "pasala"
    ],
    "conf": "low",
    "short": "Metodas, kai vamzdžiai nejudėdami laukia taške priešais taikinį, o gaidukas nuspaudžiamas dar taikiniui ten neatskridus, todėl jis įskrenda į šratų debesį."

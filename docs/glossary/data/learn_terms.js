@@ -471,7 +471,8 @@ window.GLOSSARY_LEARN = {
     "improved-cylinder",
     "modified",
     "full-choke",
-    "pattern"
+    "pattern",
+    "skeet-choke"
    ],
    "learn": [
     "chokes-names-and-marks",
@@ -496,7 +497,8 @@ window.GLOSSARY_LEARN = {
     "constriction",
     "improved-cylinder",
     "star-marks",
-    "pattern"
+    "pattern",
+    "skeet-choke"
    ],
    "learn": [
     "chokes-choosing-for-distance",
@@ -649,6 +651,32 @@ window.GLOSSARY_LEARN = {
    ]
   },
   {
+   "id": "skeet-choke",
+   "term": "Skeet choke",
+   "aka": [
+    "Skeet",
+    "SK",
+    "1/8"
+   ],
+   "cat": "Equipment",
+   "short_uk": "Дуже легке звуження, приблизно 0,1–0,15 мм (4–6 thou), для найближчих мішеней.",
+   "short_en": "A very light constriction, about 0.1–0.15 mm (4–6 thou), for the closest targets.",
+   "long_uk": "Чок skeet (маркування SK) лише трохи щільніший за cylinder: близько 0,1–0,15 мм звуження (4–6 thou), у європейській традиції його іноді називають 1/8. Осип на близькій відстані широкий і прощає невеликі помилки. У Sporting™ і Compak® Sporting його ставлять на близькі мішені, зайців і мішені, що злітають поруч. Точні значення залежать від виробника.",
+   "long_en": "The skeet choke (marked SK) is only slightly tighter than cylinder: about 0.1–0.15 mm of constriction (4–6 thou), sometimes called 1/8 in European usage. The pattern is wide at close range and forgives small errors. In Sporting™ and Compak® Sporting it is used for close targets, rabbits and targets springing up nearby. Exact values depend on the maker.",
+   "uk_usage": "«скіт», «скітовий чок»",
+   "rule_refs": [],
+   "related": [
+    "cylinder",
+    "improved-cylinder",
+    "constriction",
+    "pattern"
+   ],
+   "learn": [
+    "chokes-choosing-for-distance",
+    "chokes-names-and-marks"
+   ]
+  },
+  {
    "id": "improved-cylinder",
    "term": "Improved cylinder",
    "aka": [
@@ -667,7 +695,8 @@ window.GLOSSARY_LEARN = {
     "light-modified",
     "modified",
     "star-marks",
-    "constriction"
+    "constriction",
+    "skeet-choke"
    ],
    "learn": [
     "chokes-choosing-for-distance",

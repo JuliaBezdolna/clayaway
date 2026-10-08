@@ -292,6 +292,17 @@ window.GLOSSARY_I18N.pl = {
    "short": "Lufa lub czok bez zwężenia; daje najszerszy rozrzut.",
    "long": "Walec oznacza zerowe zwężenie: przewód przy wylocie jest taki sam jak w lufie. Chmura śrutu rozchodzi się najszybciej, więc rozrzut jest szeroki z bliska, a dalej robi się rzadki. Wybiera się go na bardzo bliskie rzutki, na przykład niektóre rabbity albo rzutki wyskakujące blisko zawodnika. Na czokach Beretty oznacza się go pięcioma gwiazdkami. Na większość rzutków w Sporting™ i Compak® Sporting zawodnicy wybierają nieco ciaśniejsze czoki."
   },
+  "skeet-choke": {
+   "term_local": "skeet",
+   "alt": [
+    "czok skeetowy",
+    "wiercenie skeet"
+   ],
+   "conf": "medium",
+   "src": "https://pl.wikipedia.org/wiki/Czok",
+   "short": "Bardzo słabe zwężenie, około 0,1–0,15 mm (4–6 thou), do najbliższych rzutków.",
+   "long": "Czok skeetowy (oznaczenie SK) jest tylko nieco ciaśniejszy od walca: zwężenie około 0,1–0,15 mm (4–6 thou), w europejskim zwyczaju czasem oznaczane jako 1/8. Rozrzut z bliska jest szeroki i wybacza drobne błędy. W Sporting™ i Compak® Sporting używa się go na bliskie rzutki, rabbity i rzutki wyskakujące blisko. Dokładne wartości zależą od producenta."
+  },
   "improved-cylinder": {
    "term_local": "ćwierćczok",
    "alt": [
@@ -840,11 +851,8 @@ window.GLOSSARY_I18N.pl = {
    }
   },
   "double-on-report": {
-   "term_local": "dublet na zawołanie",
-   "alt": [
-    "dublet po strzale"
-   ],
-   "note": "Compak rules: second target released on the shot; PZŁ uses «dublet po strzale».",
+   "term_local": "dublet po strzale",
+   "note": "Compak rules: second target released on the shot; PZŁ uses «dublet po strzale» (term_local since 08.10.2026; the earlier «dublet na zawołanie» means 'on call', which is wrong for 'on report').",
    "conf": "high",
    "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Dublet, w którym drugi rzutek wyrzuca dźwięk strzału do pierwszego.",

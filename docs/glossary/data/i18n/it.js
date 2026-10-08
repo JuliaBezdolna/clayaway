@@ -35,7 +35,7 @@ window.GLOSSARY_I18N.it = {
    }
   },
   "hunting-ethics": {
-   "term_local": "Etica venatoria",
+   "term_local": "etica venatoria",
    "short": "Il principio per cui i piattelli dello Sporting sono lanciati a distanze alle quali un vero cacciatore sparerebbe.",
    "long": "I campi Sporting devono rispettare l'etica venatoria. Un piattello non deve essere così vicino da rovinare la selvaggina vera, né così lontano che un animale vero verrebbe solo ferito, cioè oltre la portata utile di fucile e cartuccia. Ogni piattello singolo deve lasciare tempo sufficiente per due colpi. I tracciatori del percorso e la giuria applicano questo principio quando impostano e controllano le traiettorie.",
    "disciplines": {
@@ -152,7 +152,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
   },
   "fly-over-zone": {
-   "term_local": "Rettangolo di passaggio (ABCD)",
+   "term_local": "rettangolo di passaggio (ABCD)",
    "short": "Il rettangolo obbligatorio sopra il quale deve passare ogni piattello del Compak.",
    "long": "Ogni Compak ha una zona rettangolare larga 35–40 m e profonda 25 m. Gli angoli sono segnati da quattro paletti alti circa 50 cm con una bandierina o un altro segnale. Procedendo in senso orario da sinistra i lati sono AB, BC, CD e DA, e DA è rivolto verso i tiratori. In assenza di vento ogni piattello deve passare sopra il rettangolo in qualche punto. Le tre traiettorie obbligatorie sono definite dai lati che attraversano.",
    "disciplines": {
@@ -163,7 +163,7 @@ window.GLOSSARY_I18N.it = {
    ]
   },
   "firing-angle-limiter": {
-   "term_local": "Limitatore dell'angolo di tiro (FAL)",
+   "term_local": "limitatore dell'angolo di tiro (FAL)",
    "short": "Telaio presente su ogni pedana del Compak che limita il brandeggio del fucile e tiene il tiratore all'interno della postazione.",
    "long": "Ogni postazione di tiro del Compak deve avere, per sicurezza, un limitatore dell'angolo di tiro. Limita il brandeggio laterale e l'angolo verticale e impedisce al tiratore di sporgersi o di fare un passo avanti. Il regolamento raccomanda un telaio di tubi in PVC colorato del diametro di 50 mm con raccordi a gomito, con la base riempita d'acqua o di sabbia oppure fissata al suolo. Durante il caricamento la canna deve essere puntata verso il campo all'interno del FAL.",
    "disciplines": {
@@ -171,7 +171,7 @@ window.GLOSSARY_I18N.it = {
    }
   },
   "trajectory-setting-table": {
-   "term_local": "Tabella di impostazione delle traiettorie",
+   "term_local": "tabella di impostazione delle traiettorie",
    "short": "Uno dei 40 menu Compak già pronti che indicano quali macchine si tirano da ogni pedana.",
    "long": "L'Allegato 3 del regolamento Compak riporta 40 tabelle: 1–8 con 5 singoli per pedana, 9–16 con 3 singoli e un doppietto al colpo, 17–24 con 3 singoli e un doppietto simultaneo, 25–32 con 1 singolo e 2 doppietti al colpo, 33–40 con 1 singolo e 2 doppietti simultanei. La FITASC consiglia di usarle in gara, ma è ammessa qualsiasi combinazione che rispetti il regolamento. Le tabelle usate per l'allenamento devono essere diverse da quelle della gara.",
    "disciplines": {
@@ -245,7 +245,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
   },
   "zz-target": {
-   "term_local": "Piattello ZZ (elica)",
+   "term_local": "piattello ZZ (elica)",
    "short": "Piattello speciale con un'elica di plastica che vola in modo irregolare.",
    "long": "I piattelli ZZ sono tra quelli ammessi nello Sporting. Come ogni piattello speciale, il loro impiego segue il campo approvato dalla giuria e il menu mostrato ai tiratori. Il riassunto Sporting di questa guida non riporta altre regole specifiche per i piattelli ZZ.",
    "disciplines": {
@@ -267,7 +267,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "difficulty-class": {
-   "term_local": "Classe di difficoltà",
+   "term_local": "classe di difficoltà",
    "short": "La classificazione di una traiettoria Sporting in base a quanti piattelli rompe un tiratore medio.",
    "long": "La classe A significa oltre l'80% di piattelli rotti, la classe B dal 60% all'80%, la classe C dal 40% al 60%. La composizione consigliata per una pedana è una traiettoria A, due B e una C; un quinto singolo può essere solo di classe A o B. Nei doppietti una traiettoria di classe C può comparire una sola volta per pedana, preferibilmente con una A; un doppietto può essere B + B oppure B + A.",
    "disciplines": {
@@ -426,7 +426,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://riccardomonzoni.com/compak-sporting-linee-guida/"
   },
   "jacket-line": {
-   "term_local": "Linea sul giubbotto",
+   "term_local": "linea sul giubbotto",
    "short": "Linea di colore contrastante sul giubbotto del tiratore Sporting, 25 cm sotto l'asse delle spalle, sotto la quale deve restare il calcio.",
    "long": "La linea è tracciata sul giubbotto o sul gilet 25 cm (9,85 pollici) sotto l'asse della spalla e parallela a esso, in un colore che contrasti con il giubbotto in modo che l'arbitro possa vederla. In posizione di attesa la parte posteriore del punto più alto del calcio deve restare al di sotto della linea finché non compare il piattello. Il regolamento Sporting contiene un disegno del gilet e di tre tipi di calcio. Il regolamento Compak non prevede questo segno.",
    "disciplines": {
@@ -435,7 +435,7 @@ window.GLOSSARY_I18N.it = {
    }
   },
   "gun-position": {
-   "term_local": "Posizione del fucile",
+   "term_local": "posizione del fucile",
    "short": "Come il tiratore tiene il fucile prima e durante il colpo.",
    "long": "In entrambe le discipline ogni piattello, rabbit compresi, si tira con il fucile imbracciato alla spalla; non è ammesso sparare dall'anca. Nello Sporting il fucile non può essere imbracciato prima che compaia il piattello, e fino a quel momento è obbligatoria la posizione di attesa a fucile basso; solo tra i due piattelli di un doppietto la posizione è libera. Nel Compak la posizione del fucile alla chiamata è libera, quindi il tiratore può chiamare con il fucile già imbracciato. Imbracciare prima che compaia il piattello nello Sporting comporta il cartellino giallo.",
    "disciplines": {
@@ -573,12 +573,12 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "interruption": {
-   "term_local": "Interruzione",
+   "term_local": "interruzione",
    "short": "Una sosta nel tiro, per esempio per un temporale improvviso o il guasto di una macchina.",
    "long": "Nello Sporting l'arbitro, e nel Compak il Capo Arbitro, possono eccezionalmente sospendere il tiro per un forte acquazzone improvviso o un violento temporale che si prevede breve, e devono informare la giuria se durerà più a lungo. Durante qualsiasi interruzione i fucili vengono aperti e scaricati e si richiudono solo con il permesso dell'arbitro. Poi i piattelli vengono mostrati di nuovo: nello Sporting quelli della pedana, se una macchina si è guastata o il tiro si è fermato per più di 10 minuti; nel Compak i 6 singoli, se l'interruzione è durata più di 10 minuti."
   },
   "electronic-refereeing": {
-   "term_local": "Arbitraggio elettronico",
+   "term_local": "arbitraggio elettronico",
    "short": "Sistemi elettronici approvati dalla FITASC che registrano i risultati nel Compak in linea.",
    "long": "Per il Compak in linea alle gare internazionali il lancio avviene solo con sonopull, e arbitraggio e gestione dei punteggi devono usare sistemi approvati dalla FITASC. Con un sistema elettronico i risultati compaiono su uno schermo. Il regolamento Compak riporta un esempio di stampa con colonne per pettorale, nazione, categoria, prima penalità, seconda penalità, risultato, nome e firma del tiratore.",
    "disciplines": {
@@ -784,7 +784,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "coaching": {
-   "term_local": "Assistenza tecnica (coaching)",
+   "term_local": "assistenza tecnica (coaching)",
    "short": "Dare consigli a un concorrente durante la gara, cosa che non è consentita.",
    "long": "Un concorrente non può essere assistito tecnicamente durante la gara. Se l'arbitro ritiene che ciò stia avvenendo, il concorrente riceve il cartellino giallo, e le recidive dello stesso tipo comportano le penalità del capitolo sulle sanzioni (Sporting capitolo 13, Compak capitolo 23). La persona che dà i consigli viene allontanata dall'arbitro dalla zona di tiro. La regola è la stessa in entrambe le discipline."
   },
@@ -796,7 +796,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "warning": {
-   "term_local": "Avvertimento",
+   "term_local": "avvertimento",
    "short": "La prima sanzione per la violazione di una regola, data dall'arbitro o dalla giuria.",
    "long": "Per una prima violazione di qualsiasi articolo l'arbitro o la giuria danno un avvertimento; nel Compak viene mostrato con il cartellino giallo, e nello Sporting anche l'avvertimento per errori nella posizione di attesa è accompagnato dal cartellino giallo. Avvertimenti tipici: la prima volta oltre il tempo di tiro, il primo incidente di fucile o munizioni in una serie, il primo tiro simulato o il primo colpo a un No Bird, e le infrazioni su abbigliamento o numero di gara. Dopo un avvertimento, un'ulteriore infrazione sullo stesso campo o Compak è penalizzata secondo la tabella (cartellino rosso)."
   },
@@ -834,7 +834,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "expulsion": {
-   "term_local": "Espulsione",
+   "term_local": "espulsione",
    "short": "L'allontanamento di un tiratore dalla gara da parte della giuria.",
    "long": "La giuria può espellere un tiratore per recidive, rifiuto di obbedire o tentativi di influenzare un arbitro, e immediatamente, su rapporto di un arbitro, per perdita dell'autocontrollo, tentativi di influenza (nello Sporting anche rifiuto di obbedire) o tiro deliberato ad animali vivi. Ogni espulsione viene comunicata alla federazione del tiratore e alla sede della FITASC, che la tiene registrata per cinque anni. Una seconda espulsione entro tre anni può portare all'esclusione definitiva dalle gare FITASC, decisa dal Comitato Direttivo (Esecutivo) della FITASC. Il tiratore espulso non ha diritto a rimborsi né a risarcimenti.",
    "disciplines": {
@@ -843,7 +843,7 @@ window.GLOSSARY_I18N.it = {
    }
   },
   "refusal-to-comply": {
-   "term_local": "Rifiuto di obbedire",
+   "term_local": "rifiuto di obbedire",
    "short": "Non riprendere il tiro in tempo dopo una decisione definitiva, o temporeggiare deliberatamente.",
    "long": "Dopo la decisione definitiva dell'arbitro il tiratore deve riprendere a tirare entro 15 secondi nello Sporting o entro 10 secondi nel Compak. Non farlo è un rifiuto di obbedire, come lo è temporeggiare deliberatamente prima di sparare o comportarsi in modo palesemente scorretto, a giudizio dell'arbitro. Rientra nel capitolo sulle sanzioni: la giuria può infliggere la perdita di un piattello, la perdita di una serie o l'espulsione, e nello Sporting può espellere immediatamente.",
    "disciplines": {
@@ -852,12 +852,12 @@ window.GLOSSARY_I18N.it = {
    }
   },
   "attempt-to-influence": {
-   "term_local": "Tentativo di influenzare",
+   "term_local": "tentativo di influenzare",
    "short": "Cercare di cambiare la decisione di un arbitro con pressioni, discussioni o critiche pubbliche.",
    "long": "Contano tre situazioni: il tiratore continua a contestare una decisione definitiva con parole o atteggiamenti dopo la ripresa del tiro; il tiratore contesta o discute la decisione in modo vistoso; oppure altri tiratori (nel Compak anche gli spettatori) esprimono apertamente opinioni o critiche su una decisione senza il permesso dell'arbitro. La giuria può punirlo con la perdita di un piattello, la perdita di una serie o l'espulsione, anche immediata su rapporto di un arbitro."
   },
   "lateness": {
-   "term_local": "Ritardo",
+   "term_local": "ritardo",
    "short": "Non essere presente e pronto quando tocca al tiratore.",
    "long": "Nello Sporting, se manca un tiratore, l'arbitro chiama nome e numero tre volte nell'arco di un minuto. Chi arriva prima di aver perso il turno sui singoli della prima pedana non subisce penalità; altrimenti tutti i piattelli non tirati valgono zero, e un campo con pedane saltate non può mai essere tirato in un'altra squadra. Nel Compak a squadre arrivare dopo che il primo tiratore della squadra ha chiamato il primo piattello costa 25 zeri; in linea vale lo stesso una volta che il numero è stato annullato e il tiratore successivo è in pedana 1; l'arbitro non va a cercare i tiratori assenti. Il tiratore con un motivo valido deve ricorrere per iscritto alla giuria (Compak: lo stesso giorno, con la tassa); se il ricorso è accolto, tira in un'altra squadra. Il tiratore senza protezioni per udito o occhi è considerato assente.",
    "disciplines": {
@@ -892,7 +892,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "appeal-jury": {
-   "term_local": "Giuria d'appello",
+   "term_local": "giuria d'appello",
    "short": "L'organo che esamina i ricorsi contro le decisioni della giuria.",
    "long": "Una giuria d'appello viene costituita in una gara internazionale contemporaneamente alla giuria. È composta dal Presidente della FITASC (che la presiede), dal presidente della commissione tecnica e dal presidente della federazione organizzatrice, o dai loro rappresentanti; nel Compak nessun membro della giuria può farne parte. Esamina le proteste contro le decisioni della giuria presentate dai tiratori o dalla FITASC. Nello Sporting, se non c'è una giuria d'appello, le decisioni della giuria sono definitive; nel Compak le questioni disciplinari passano alla commissione disciplinare della FITASC.",
    "disciplines": {
@@ -901,7 +901,7 @@ window.GLOSSARY_I18N.it = {
    }
   },
   "deposit": {
-   "term_local": "Deposito (cauzione)",
+   "term_local": "deposito (cauzione)",
    "short": "Somma versata con un ricorso scritto, restituita se il ricorso viene accolto.",
    "long": "Nello Sporting un ricorso scritto alla giuria si presenta con un deposito pari al 40% della quota d'iscrizione; se la giuria dà ragione al tiratore viene rimborsato, altrimenti va a un ente benefico scelto dal Presidente della FITASC. Nel Compak il deposito è l'importo in vigore il giorno della gara e viene rimborsato se il reclamo è accolto. Per un ricorso relativo a un ritardo nel Compak la tassa viene restituita se il motivo è accolto e trattenuta in caso contrario.",
    "disciplines": {
@@ -924,17 +924,17 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "technical-commission": {
-   "term_local": "Commissione tecnica",
+   "term_local": "commissione tecnica",
    "short": "La commissione FITASC i cui membri controllano i campi e scelgono le impostazioni per gli spareggi.",
    "long": "I membri della Commissione tecnica presenti a una gara fanno parte della giuria. Nel Compak controllano i campi impostati prima della gara e possono modificarli per sicurezza, varietà ed equilibrio; scelgono anche il Compak e le impostazioni per gli spareggi, e se nessuno di loro è presente lo fa la giuria. Nello Sporting i membri della commissione tecnica in giuria controllano gli impianti e i campi prima del tiro. Il presidente della commissione fa parte della giuria d'appello."
   },
   "organiser": {
-   "term_local": "Organizzatore",
+   "term_local": "organizzatore",
    "short": "La federazione o il club che ospita e gestisce una gara.",
    "long": "Una federazione aderente alla FITASC può affidare l'organizzazione di una gara a uno dei suoi club, ma resta pienamente responsabile verso la FITASC dell'applicazione di tutto ciò che è stato approvato. Il comitato organizzatore pubblica in anticipo orari di tiro ed elenchi delle squadre, e l'organizzatore annuncia gli orari di tiro stabiliti dalla giuria dopo la cerimonia di apertura. Nel Compak l'organizzatore sceglie le traiettorie libere, che devono restare corte e sicure. Se il numero di piattelli viene ridotto, l'organizzatore rimborsa i piattelli non tirati al prezzo dei piattelli di allenamento."
   },
   "course-designer": {
-   "term_local": "Tracciatore del percorso",
+   "term_local": "tracciatore del percorso",
    "short": "La persona che progetta e allestisce i campi e le traiettorie.",
    "long": "La FITASC può chiedere a una federazione di nominare un tracciatore responsabile della progettazione e della gestione dei campi. Nei giorni che precedono una gara Sporting i tracciatori presentano campi, traiettorie e tipi di piattello ai membri della giuria responsabili dei campi e al capo arbitro; i campi diventano definitivi solo dopo la convalida. L'arbitro di pedana non può cambiare le traiettorie fissate dal tracciatore; dopo un guasto a una macchina o in condizioni meteo eccezionali una traiettoria ripristinata dovrebbe essere controllata dal tracciatore o da un membro della giuria. Nel Compak il responsabile dei campi può progettarli invece di usare le tabelle dell'Allegato 3."
   },
@@ -955,7 +955,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "group": {
-   "term_local": "Gruppo (in linea)",
+   "term_local": "gruppo (in linea)",
    "short": "Nel Compak® Sporting in linea, i tiratori assegnati a uno stesso campo: totale degli iscritti diviso per il numero di campi.",
    "long": "Nel Compak in linea il numero di tiratori di un gruppo è il totale dei tiratori diviso per il numero di Compak utilizzati. Ogni tiratore del gruppo comincia in pedana 1 e finisce in pedana 5. Un fucile si può prendere in prestito solo da un tiratore esterno al proprio gruppo, e più tiratori dello stesso gruppo non possono usare lo stesso fucile. Il tiratore in ritardo il cui ricorso viene accolto può tirare la serie con un altro gruppo.",
    "disciplines": {
@@ -963,7 +963,7 @@ window.GLOSSARY_I18N.it = {
    }
   },
   "shooting-times": {
-   "term_local": "Orari di tiro",
+   "term_local": "orari di tiro",
    "short": "Il programma pubblicato con gli orari in cui tira ogni squadra o gruppo.",
    "long": "La giuria stabilisce gli orari di tiro, nel Compak insieme alla segreteria di gara, e l'organizzatore li annuncia dopo la cerimonia di apertura. Vengono pubblicati su avvisi o in un programma stampato, e rispettarli è responsabilità del tiratore. Nel Compak i tiratori devono presentarsi all'arbitro dietro il loro Compak e confermare la propria presenza (obbligatorio), essere pronti senza ritardi e seguire eventuali ritardi o anticipi nel corso della giornata."
   },
@@ -1009,7 +1009,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "sudden-death": {
-   "term_local": "Morte improvvisa (sudden death)",
+   "term_local": "morte improvvisa (sudden death)",
    "short": "La seconda fase di uno spareggio, in cui il primo tiratore che fa zero viene eliminato.",
    "long": "Se i tiratori sono ancora in parità dopo la serie di spareggio da 25 piattelli, proseguono a morte improvvisa: il primo che fa zero viene eliminato, purché tutti abbiano tirato lo stesso numero di piattelli, e vince l'ultimo rimasto. Nello Sporting a morte improvvisa un doppietto al colpo conta come coppia, quindi uno-zero equivale a zero-uno. Nel Compak, dopo un sorteggio, i tiratori tirano il singolo, poi il primo e il secondo doppietto simultaneo a ogni pedana, alternando il tiratore che inizia (l'Allegato 5 riporta l'ordine per 2 e 3 tiratori).",
    "disciplines": {
@@ -1065,7 +1065,10 @@ window.GLOSSARY_I18N.it = {
    "long": "La categoria Lady (in francese Dame) comprende donne e ragazze dal 1° gennaio dell'anno in cui compiono 13 anni (salvo deroga); la tabella FITASC non fissa un limite massimo di età. Per il 2027 significa nate entro il 31 dicembre 2014. Una squadra Lady ha 3 tiratrici: lady o ragazze junior. La ragazza junior selezionata per la squadra Lady si iscrive anche individualmente alla categoria Lady. La tabella si applica dal 2027; le gare nazionali possono avere regole proprie."
   },
   "men-category": {
-   "term_local": "Men (Homme)",
+   "term_local": "uomini",
+   "alt": [
+    "Homme"
+   ],
    "short": "La principale categoria adulta FITASC: dai 21 ai 55 anni.",
    "long": "Men (in francese Homme) è la principale categoria adulta: dal 1° gennaio dell'anno in cui il tiratore compie 21 anni fino alla fine dell'anno in cui ne compie 55. Per il 2027 significa nati dal 1° gennaio 1972 al 31 dicembre 2006. La squadra Men può comprendere uomini, ragazzi junior e tiratori Senior, Veteran e Master; ha 3 tiratori, oppure 4 nel Parcours de Chasse – Sporting™. Nei risultati FITASC la categoria adulta principale è Men, non Senior."
   },
@@ -1138,7 +1141,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://michcimmino.wordpress.com/2017/10/17/come-e-composta-una-cartuccia-a-pallini/"
   },
   "crimp": {
-   "term_local": "Chiusura (stellare)",
+   "term_local": "chiusura (stellare)",
    "short": "La chiusura nella parte superiore del bossolo, quasi sempre a stella a 6 o 8 pieghe.",
    "long": "La chiusura trattiene i pallini nel bossolo fino allo sparo. Sui moderni bossoli in plastica è a stella: il bordo del tubo è piegato verso il centro in 6 o 8 pieghe. Le cartucce più vecchie e quelle in carta hanno a volte una chiusura orlata con un dischetto di cartone sopra. Allo sparo le pieghe si aprono e la carica esce nella canna. Una chiusura danneggiata o aperta è un buon motivo per mettere da parte quella cartuccia: i pallini possono uscire e il colpo può risultare debole."
   },
@@ -1154,7 +1157,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://blog.hunting-spot.com/guida-percorso-caccia-lanci-fucili-tecniche-di-sparo"
   },
   "velocity": {
-   "term_local": "Velocità",
+   "term_local": "velocità",
    "short": "La velocità dei pallini indicata sulla scatola (m/s o fps); i produttori la misurano a distanze diverse dalla volata.",
    "long": "Per le cartucce da tiro a volo la velocità è di solito intorno a 360–430 m/s (circa 1.200–1.400 fps). I produttori la misurano in modo diverso: secondo le regole C.I.P., seguite dai produttori europei, si misura a 2,5 m dalla volata (V2,5); alcune scatole indicano la V1, a 1 m, e i produttori americani danno i piedi al secondo misurati a circa 3 piedi (0,9 m) dalla volata. Lo stesso valore quindi non indica sempre la stessa cartuccia. Una cartuccia più veloce accorcia di poco il tempo di volo dei pallini, ma rincula di più, e la sua rosata non è necessariamente migliore. Molti istruttori consigliano di non inseguire la velocità ma di scegliere una cartuccia con cui si tira in modo costante e senza affaticarsi. Alcuni campi, soprattutto per i pallini d'acciaio, limitano la velocità delle cartucce."
   },
@@ -1176,7 +1179,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
   },
   "soft-iron-shot": {
-   "term_local": "Pallini di ferro dolce",
+   "term_local": "pallini di ferro dolce",
    "short": "Pallini senza piombo in ferro dolce, più morbidi dell'acciaio comune e meno aggressivi per le canne.",
    "long": "Il ferro dolce è un tipo di pallino senza piombo che i produttori propongono come compromesso tra piombo e acciaio. I pallini sono più morbidi dell'acciaio comune, quindi trattano meglio canne e strozzatori, ma per peso sono più vicini all'acciaio che al piombo. Nomi e caratteristiche dipendono dal produttore, e non tutte queste cartucce sono adatte a ogni fucile o strozzatore. Prima dell'uso controllate le indicazioni sulla scatola, i manuali del fucile e degli strozzatori e il regolamento del campo sui pallini senza piombo."
   },
@@ -1190,7 +1193,7 @@ window.GLOSSARY_I18N.it = {
    "conf": "medium"
   },
   "low-recoil-cartridge": {
-   "term_local": "Cartuccia a basso rinculo",
+   "term_local": "cartuccia a basso rinculo",
    "short": "Cartuccia con carica più leggera e rinculo più morbido; molto adatta a ragazzi e principianti.",
    "long": "Queste cartucce hanno una carica più leggera (spesso 21–24 g nel calibro 12) e una velocità moderata, quindi spingono contro la spalla in modo sensibilmente più morbido. Per un giovane tiratore o un principiante è importante: un forte rinculo lo stanca presto, e la paura del colpo crea l'abitudine di sussultare prima dello sparo. Sui piattelli vicini e a media distanza una carica leggera rompe i piattelli in modo del tutto affidabile. Se un semiautomatico funziona in modo affidabile con cariche leggere dipende dal modello, quindi provatelo in allenamento. È meglio scegliere la carica insieme a un istruttore."
   },
@@ -1202,7 +1205,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.armimagazine.it/lincidenza-della-strozzatura-sulla-velocita-della-rosata/"
   },
   "constriction": {
-   "term_local": "Strozzatura",
+   "term_local": "strozzatura",
    "short": "La differenza tra il diametro dell'anima e il punto più stretto dello strozzatore, in mm o in millesimi di pollice (thou).",
    "long": "La strozzatura indica quanto lo strozzatore restringe la nuvola di pallini all'uscita dalla canna. Si esprime in millimetri o in thou, millesimi di pollice (1 thou equivale a circa 0,025 mm). Per esempio, il cilindrico migliorato è circa 0,25 mm (10 thou), il modified circa 0,5 mm (20 thou), il full circa 0,9–1 mm. Sono valori tipici per il calibro 12: le misure reali dipendono dal produttore e persino dal diametro dell'anima della singola canna. Un armaiolo può misurare con precisione la strozzatura con un calibro."
   },
@@ -1255,7 +1258,7 @@ window.GLOSSARY_I18N.it = {
    "conf": "medium"
   },
   "extended-choke": {
-   "term_local": "Strozzatore esterno (extended)",
+   "term_local": "strozzatore esterno (extended)",
    "short": "Strozzatore intercambiabile che sporge oltre la volata, con la marcatura visibile.",
    "long": "Uno strozzatore esterno è più lungo di uno a filo e sporge di qualche centimetro oltre la volata. La sua strozzatura è di solito indicata sulla parte sporgente, e la zigrinatura permette di avvitarlo e svitarlo a mano. Molti tiratori di Sporting™ e Compak® Sporting li preferiscono perché vedono a colpo d'occhio che cosa è montato. I produttori sostengono che uno strozzatore più lungo formi la rosata in modo più graduale, ma la differenza dipende dal modello. Gli strozzatori esterni devono essere compatibili con il sistema multichoke del vostro fucile.",
    "alt": [
@@ -1263,6 +1266,15 @@ window.GLOSSARY_I18N.it = {
     "extended"
    ],
    "conf": "low"
+  },
+  "skeet-choke": {
+   "term_local": "skeet",
+   "short": "Strozzatura molto leggera, circa 0,1–0,15 mm (4–6 thou), per i piattelli più vicini.",
+   "long": "Lo strozzatore skeet (marcatura SK) è solo leggermente più chiuso del cilindrico: circa 0,1–0,15 mm di strozzatura (4–6 thou), talvolta indicato come 1/8 nell'uso europeo. La rosata è larga a breve distanza e perdona i piccoli errori. Nello Sporting™ e nel Compak® Sporting si usa per piattelli vicini, rabbit e piattelli che si alzano vicino. I valori esatti dipendono dal produttore.",
+   "alt": [
+    "strozzatura skeet"
+   ],
+   "conf": "medium"
   },
   "improved-cylinder": {
    "term_local": "4 stelle",
@@ -1278,7 +1290,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
   },
   "light-modified": {
-   "term_local": "Modified leggero (3/8)",
+   "term_local": "modified leggero (3/8)",
    "short": "Strozzatura tra IC e M, circa 0,35–0,4 mm (15 thou); talvolta '3/8'.",
    "long": "Il modified leggero (LM) si colloca tra il cilindrico migliorato e il modified. Una strozzatura di circa 0,35–0,4 mm (intorno a 15 thou) dà una rosata sensibilmente più densa dell'IC ma ancora abbastanza larga per le medie distanze. Si sceglie per piattelli un po' lontani per l'IC ma vicini per l'M. Talvolta è marcato 3/8, e alcuni produttori non lo offrono affatto. Controllate la marcatura sullo strozzatore stesso."
   },
@@ -1318,17 +1330,17 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
   },
   "star-marks": {
-   "term_local": "Stelle (marcatura degli strozzatori)",
+   "term_local": "stelle (marcatura degli strozzatori)",
    "short": "Marcatura degli strozzatori con stelle (in particolare Beretta): ***** cilindrico … * full; più stelle, più aperto lo strozzatore.",
    "long": "I produttori italiani, Beretta prima di tutti, indicano la strozzatura con stelle sullo strozzatore o sulla canna. Lo schema è: cinque stelle cilindrico, quattro cilindrico migliorato (1/4), tre modified (1/2), due improved modified (3/4), una full. La regola chiave: più stelle ci sono, più lo strozzatore è aperto. Altri produttori incidono tacche sul bordo dello strozzatore, usano fasce colorate o stampano semplicemente il nome (IC, M, LM). Se la marcatura si è consumata, un armaiolo può misurare la strozzatura."
   },
   "pattern-plate": {
-   "term_local": "Lastra di prova (per la rosata)",
+   "term_local": "lastra di prova (per la rosata)",
    "short": "Lastra d'acciaio che mostra dove colpiscono i pallini; serve a verificare strozzatori e calciatura.",
    "long": "La lastra di prova viene verniciata o ingrassata, e dopo un colpo l'impronta di ogni pallino è ben visibile. L'immagine mostra quanto è larga e uniforme la rosata a una data distanza con un certo strozzatore e una certa cartuccia. Ancora più importante, mostra dove spara il fucile rispetto al punto mirato: così si verifica la calciatura. È meglio farlo con un istruttore o un esperto di calciatura, perché un solo colpo dice poco. Non tutti i campi hanno una lastra, quindi chiedete in anticipo."
   },
   "choke-grease": {
-   "term_local": "Grasso per strozzatori",
+   "term_local": "grasso per strozzatori",
    "short": "Grasso speciale per le filettature degli strozzatori che previene ruggine e grippaggio.",
    "long": "Durante il tiro residui di combustione e plastica delle borre entrano nella filettatura degli strozzatori, e l'umidità provoca la ruggine. Di conseguenza uno strozzatore lasciato montato a lungo può bloccarsi nella canna. Un sottile strato di grasso speciale sulla filettatura lo impedisce e rende più facile il cambio. Prima di montarlo, pulite le filettature dello strozzatore e della canna, applicate un po' di grasso e serrate lo strozzatore con la chiave. Smontate regolarmente gli strozzatori per pulirli, anche se non li cambiate."
   },
@@ -1510,12 +1522,12 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.ilbraccoitaliano.net/forum/i-forum-sulle-armi-e-caricamenti/armi-polveri/51266-occhio-dominante"
   },
   "gun-fitter": {
-   "term_local": "Esperto di calciatura (gun fitter)",
+   "term_local": "esperto di calciatura (gun fitter)",
    "short": "Specialista che misura e adatta il calcio al tiratore.",
    "long": "L'esperto di calciatura osserva come imbracciate il fucile, misura viso, spalle e braccia, controlla la dominanza oculare e guarda dove spara il fucile sulla lastra di prova. Usa spesso un fucile di prova con calcio regolabile. Poi modifica lunghezza, nasello e deviazione, oppure consiglia come farlo. La calciatura è più utile quando l'imbracciata è ormai costante, per questo ai principianti si consiglia di solito di farla dopo i primi mesi di allenamento. Cercate un esperto su consiglio del vostro istruttore."
   },
   "youth-gun": {
-   "term_local": "Fucile per ragazzi",
+   "term_local": "fucile per ragazzi",
    "short": "Fucile per giovani tiratori: più leggero, con calcio più corto, spesso calibro 20.",
    "long": "Un fucile calibro 12 di dimensioni normali è difficile da usare per un bambino o un ragazzo: è pesante, il calcio è troppo lungo e il rinculo è forte. I fucili per ragazzi sono più leggeri, hanno un calcio più corto e spesso un calibro minore, come il 20. Il regolamento FITASC ammette fino al calibro 12, quindi anche un calibro 20 si può usare in gara. Alcuni modelli hanno un calcio che si può allungare man mano che il ragazzo cresce. Prima dell'acquisto fate provare al ragazzo diversi fucili sotto la supervisione di un istruttore, e rispettate le leggi locali su minori e armi."
   },
@@ -1562,7 +1574,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.cacciainfiera.it/il-tiro/il-compak-sporting/"
   },
   "quartering-away": {
-   "term_local": "Diagonale in allontanamento",
+   "term_local": "diagonale in allontanamento",
    "short": "Piattello che si allontana dal tiratore con un'angolazione.",
    "long": "Un piattello diagonale in allontanamento non vola dritto davanti ma si allontana con un'angolazione laterale. All'occhio sembra più lento di quanto sia, per questo i principianti spesso gli sparano dietro o sopra. Richiede meno anticipo di un traversone, ma un po' ne richiede, e il fucile deve muoversi lungo la linea di volo. Questi piattelli spesso scendono, quindi è importante non fermare il fucile. Il regolamento Sporting™ richiede che un percorso alterni traiettorie diverse, comprese le diagonali.",
    "alt": [
@@ -1573,7 +1585,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
   },
   "quartering-towards": {
-   "term_local": "Diagonale in arrivo",
+   "term_local": "diagonale in arrivo",
    "short": "Piattello che arriva verso il tiratore con un'angolazione e passa di lato.",
    "long": "Un piattello diagonale in arrivo compare davanti e di lato, si avvicina e vi passa accanto. Finché è lontano l'anticipo è piccolo, ma più si avvicina, più si muove velocemente di traverso e più anticipo richiede. Quindi scegliete il punto di rottura prima della chiamata e non aspettate che il piattello sia troppo vicino. Durante il brandeggio fate in modo che il corpo ruoti con il fucile, non solo le braccia. Il settore di tiro sicuro della pedana limita quanto lateralmente si può seguire un piattello del genere.",
    "alt": [
@@ -1582,7 +1594,7 @@ window.GLOSSARY_I18N.it = {
    "conf": "low"
   },
   "incomer": {
-   "term_local": "Piattello in arrivo",
+   "term_local": "piattello in arrivo",
    "short": "Piattello che vola verso il tiratore.",
    "long": "Il piattello in arrivo compare davanti e vola verso di voi, spesso scendendo. Sembra semplice ma è facile perderlo: le canne coprono il piattello e il tiratore non lo vede più. Per questo si consiglia spesso di prenderlo presto, quando è ancora lontano, e di muovere le canne esattamente lungo la sua linea. Se il piattello passa sopra la testa, diventa un piattello passante alto (driven). Il regolamento Sporting™ richiede che un percorso comprenda anche piattelli in arrivo.",
    "alt": [
@@ -1592,7 +1604,7 @@ window.GLOSSARY_I18N.it = {
    "conf": "low"
   },
   "going-away": {
-   "term_local": "Piattello in allontanamento (fuggente)",
+   "term_local": "piattello in allontanamento (fuggente)",
    "short": "Piattello che vola via dal tiratore.",
    "long": "Il piattello in allontanamento compare di lato, dall'alto o da dietro e si allontana, spesso salendo o scendendo leggermente. Per un principiante è uno dei piattelli più facili, per questo l'allenamento spesso comincia da lì. Però si allontana e rimpicciolisce in fretta, quindi il secondo colpo è già lungo, e lo strozzatore della seconda canna dovrebbe tenerne conto. Nel Compak® Sporting un piattello in allontanamento che attraversa il lato BC del rettangolo è una delle tre traiettorie obbligatorie. L'errore più comune è sparare sopra un piattello che sta già scendendo.",
    "alt": [
@@ -1602,7 +1614,7 @@ window.GLOSSARY_I18N.it = {
    "conf": "low"
   },
   "driven-target": {
-   "term_local": "Piattello passante alto (driven)",
+   "term_local": "piattello passante alto (driven)",
    "short": "Piattello alto che arriva verso il tiratore e gli passa sopra la testa, come un fagiano in battuta.",
    "long": "Il nome viene dalla caccia in battuta, in cui gli uccelli vengono spinti sopra una linea di fucili. Il piattello arriva verso di voi in alto e passa sopra la testa. Per romperlo, le canne salgono dal basso attraverso il piattello, e il colpo parte quando il piattello è coperto dalle canne e il fucile esce davanti a esso. Questo richiede una posizione con il peso sul piede anteriore e libertà di movimento della parte superiore del corpo all'indietro. Non inclinatevi troppo all'indietro: perdere l'equilibrio è una causa tipica di errori su questi piattelli.",
    "alt": [
@@ -1625,7 +1637,7 @@ window.GLOSSARY_I18N.it = {
    "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
   },
   "springing-target": {
-   "term_local": "Frullo (piattello in salita)",
+   "term_local": "frullo (piattello in salita)",
    "short": "Piattello che sale ripido con un'angolazione, come un uccello che si leva da terra.",
    "long": "Il frullo si alza da terra con un'angolazione, come un uccello che si leva dall'erba. Perde velocità rapidamente e poi comincia a scendere, quindi lungo il suo percorso si comporta in modo molto diverso. In salita si muove il fucile verso l'alto e si spara sopra, vicino al punto più alto non serve quasi anticipo, e in discesa si spara sotto. Decidete in anticipo dove romperlo, mentre osservate la presentazione dei piattelli. Il regolamento Compak® Sporting cita i piattelli in salita tra gli esempi di traiettorie varie.",
    "alt": [
@@ -1662,7 +1674,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://shootingpost.it/come-rompere-piu-piattelli/"
   },
   "pick-up-point": {
-   "term_local": "Punto di presa (visiva)",
+   "term_local": "punto di presa (visiva)",
    "short": "Il punto in cui il tiratore vede per la prima volta il piattello in modo nitido e comincia a seguirlo con gli occhi.",
    "long": "Di solito un piattello compare come una scia sfocata vicino alla macchina, e solo un attimo dopo l'occhio lo vede nitidamente. Questo punto della traiettoria è il punto di presa. Prima della chiamata guardate lì e non verso la macchina, per non scattare al primo movimento. Il tiratore sceglie insieme il punto di presa, il punto di attesa e il punto di rottura mentre osserva la presentazione. Scegliere in modo costante questi tre punti è la base della routine prima del colpo.",
    "alt": [
@@ -1713,7 +1725,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.ilbraccoitaliano.net/forum/i-forum-sulle-armi-e-caricamenti/armi-polveri/51266-occhio-dominante"
   },
   "cross-dominance": {
-   "term_local": "Dominanza crociata",
+   "term_local": "dominanza crociata",
    "short": "Quando l'occhio dominante è dal lato opposto rispetto alla spalla su cui il tiratore imbraccia il fucile.",
    "long": "Per esempio, un tiratore destrimano con l'occhio sinistro dominante ha una dominanza crociata. Tirando con entrambi gli occhi aperti, l'occhio sinistro prende il controllo dell'immagine e i colpi vanno di lato. Le soluzioni sono diverse: tirare dall'altra spalla, coprire o socchiudere l'occhio non dominante al momento del colpo, mettere un piccolo punto sulla lente degli occhiali da tiro e, a volte, usare un fucile con una speciale deviazione del calcio. Quale scegliere dipende dall'età, dal grado di dominanza e dalle abitudini, quindi decidete con un istruttore. Ai ragazzi si consiglia spesso di cambiare spalla finché le abitudini si stanno ancora formando.",
    "alt": [
@@ -1722,7 +1734,7 @@ window.GLOSSARY_I18N.it = {
    "conf": "low"
   },
   "hold-point": {
-   "term_local": "Punto di attesa (delle canne)",
+   "term_local": "punto di attesa (delle canne)",
    "short": "Il punto in cui il tiratore tiene le canne al momento della chiamata.",
    "long": "Il punto di attesa si trova di solito tra il punto di presa e il punto di rottura, sulla linea di volo del piattello o poco sotto. Se le canne sono troppo vicine alla macchina, il piattello le supera e il fucile deve inseguirlo; se sono troppo lontane, resta poco spazio per accompagnare il piattello, e il tiratore tende a puntare o a fermarsi. Un buon punto di attesa permette di partire insieme al piattello e di arrivarci sopra in modo fluido. Il punto esatto dipende dal piattello e dal metodo di anticipo, quindi chiedete al vostro istruttore. Nello Sporting™ il fucile è basso alla chiamata, mentre nel Compak® Sporting il tiratore può tenerlo già imbracciato, ma dove puntano le canne conta in entrambe le discipline.",
    "disciplines": {
@@ -1814,7 +1826,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://shootingpost.it/creare-routine-vincente-tiro-a-volo/"
   },
   "warm-up": {
-   "term_local": "Riscaldamento",
+   "term_local": "riscaldamento",
    "short": "La preparazione prima del tiro: movimento e qualche piattello facile.",
    "long": "Il riscaldamento risveglia corpo e occhi prima del tiro. Molti istruttori consigliano circa 10–15 minuti di movimento leggero e dinamico per collo, spalle, schiena, anche e caviglie, perché il fucile si muova in modo più fluido; sul riscaldamento nel tiro a volo ci sono poche ricerche, quindi questi consigli vengono dall'esperienza degli istruttori. Se il campo lo permette, potete cominciare la sessione con qualche piattello facile per trovare il ritmo prima di passare a quelli difficili. Prima di una gara le regole dipendono dalla disciplina. Nello Sporting™ nessuno può allenarsi sui percorsi di gara, quindi ci si scalda su altri percorsi. Nel Compak® Sporting allenarsi sulle traiettorie di gara è ammesso, ma con tabelle di impostazione diverse; ai campionati continentali e mondiali l'allenamento ufficiale apre solo il sabato prima dell'inizio. In gara molti istruttori consigliano di scaldarsi senza fucile; l'imbracciata in bianco va fatta a casa o in allenamento, dove è consentita."
   },
@@ -1833,7 +1845,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://shootingpost.it/come-rompere-piu-piattelli/"
   },
   "training-diary": {
-   "term_local": "Diario di allenamento",
+   "term_local": "diario di allenamento",
    "short": "Appunti dopo ogni sessione: piattelli, punteggio, consigli dell'istruttore, attrezzatura e sensazioni.",
    "long": "Un diario aiuta a vedere ciò che si dimentica in fretta: quali piattelli vanno bene e quali no, quali strozzatori e cartucce avete usato, che cosa ha consigliato l'istruttore e come vi sentivate. Scrivete brevemente subito dopo una sessione o una gara, finché le impressioni sono fresche. Dopo qualche mese gli appunti rivelano delle costanti: per esempio, che spesso sbagliate dietro sui traversoni lunghi. Confrontatevi con voi stessi: i risultati nel vostro profilo ClayArena sono un buon complemento ai vostri appunti. È utile anche mostrare il diario all'istruttore prima di una lezione."
   },
@@ -1849,12 +1861,12 @@ window.GLOSSARY_I18N.it = {
    "conf": "medium"
   },
   "process-goal": {
-   "term_local": "Obiettivo di processo",
+   "term_local": "obiettivo di processo",
    "short": "Un obiettivo che riguarda l'azione e non il risultato: per esempio, eseguire la routine su ogni piattello.",
    "long": "Un obiettivo di processo descrive qualcosa che il tiratore controlla completamente: tenere la guancia sul calcio, eseguire ogni volta la routine, scegliere il punto di rottura prima della chiamata. Gli obiettivi di risultato, come 'rompere 90 piattelli su 100' o 'arrivare tra i primi tre', dipendono anche dagli avversari, dal tempo e dal percorso. Concentrarsi sul processo riduce la pressione, soprattutto per i giovani tiratori, e aiuta a tornare al piattello successivo dopo un errore. A genitori e istruttori si consiglia di lodare le azioni, non solo il punteggio. Un buon risultato viene spesso da un processo eseguito bene."
   },
   "cease-fire": {
-   "term_local": "Cessate il fuoco",
+   "term_local": "cessate il fuoco",
    "short": "Comando di interrompere subito il tiro: i fucili vengono aperti e scaricati.",
    "long": "Il cessate il fuoco può essere dato dall'arbitro, da un istruttore o da chiunque veda un pericolo: una persona o un animale nel settore, una macchina guasta, un temporale improvviso. Quando lo sentite, fermatevi subito, aprite il fucile, togliete le cartucce e aspettate il permesso di continuare. Secondo il regolamento FITASC, durante qualsiasi interruzione i fucili devono essere aperti e scarichi e si possono richiudere solo con il permesso dell'arbitro. Insegnate questo comando fin dalla prima lezione, soprattutto ai bambini. Le parole e i segnali esatti possono variare da un campo all'altro, quindi imparateli durante il briefing sulla sicurezza.",
    "alt": [
@@ -1919,17 +1931,17 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
   },
   "shoulder-pad": {
-   "term_local": "Imbottitura della spalla (spallina)",
+   "term_local": "imbottitura della spalla (spallina)",
    "short": "Inserto liscio sulla spalla del gilet dove appoggia il calcio; attenua un po' il rinculo.",
    "long": "L'imbottitura della spalla è in materiale liscio, così il calcio non si impiglia nel tessuto durante l'imbracciata. Spesso contiene un inserto morbido che attenua leggermente il rinculo. Si trova sul lato della spalla su cui si imbraccia, quindi un tiratore mancino ha bisogno di un gilet per mancini o ambidestro. Non sostituisce un'imbracciata corretta e una buona calciatura, ma in una lunga giornata aiuta a ridurre la stanchezza. Per alcuni gilet si possono acquistare inserti aggiuntivi."
   },
   "lens-tint": {
-   "term_local": "Colore delle lenti",
+   "term_local": "colore delle lenti",
    "short": "Il colore della lente da tiro, scelto per aumentare il contrasto del piattello con una certa luce e un certo sfondo.",
    "long": "Il colore delle lenti non vi renderà tiratori migliori, ma aiuta a vedere il piattello su uno sfondo particolare. La lente gialla aumenta il contrasto con tempo grigio, nebbia e al crepuscolo. L'arancione è una lente universale che fa risaltare i piattelli arancioni contro il cielo e il verde. La viola rende più brillante un piattello arancione contro alberi ed erba, e la fumé (grigia) riduce semplicemente la luminosità con sole forte. A un principiante bastano occhiali con lenti intercambiabili: trasparente o gialla più una lente più scura. Nomi e tonalità dei colori variano tra i produttori."
   },
   "prescription-insert": {
-   "term_local": "Clip per lenti graduate",
+   "term_local": "clip per lenti graduate",
    "short": "Inserto con lenti graduate montato dietro la lente principale degli occhiali da tiro.",
    "long": "Se portate occhiali da vista, gli occhiali da tiro possono montare un inserto interno con lenti graduate. La lente principale resistente agli urti resta davanti e protegge gli occhi, mentre l'inserto dà una visione nitida. Un'altra soluzione è ordinare lenti da tiro graduate da un ottico che lavora con i tiratori. Gli occhiali di tutti i giorni sono adatti solo se le loro lenti sono certificate come resistenti agli urti. Prima dell'acquisto parlatene con un oculista e con il vostro istruttore, perché nel tiro si usa la parte superiore della lente."
   },
@@ -1944,7 +1956,7 @@ window.GLOSSARY_I18N.it = {
    "src": "https://www.armeriametelli.it/54-cuffie-e-tappi-per-il-tiro-a-volo"
   },
   "passive-ear-muffs": {
-   "term_local": "Cuffie passive",
+   "term_local": "cuffie passive",
    "short": "Cuffie senza elettronica che bloccano il suono con coppe a tenuta.",
    "long": "Le cuffie passive hanno coppe con imbottitura fonoassorbente e cuscinetti morbidi che aderiscono alla testa. Sono semplici, affidabili e non richiedono batterie, ma attutiscono anche la voce, quindi in pedana è più difficile sentire l'arbitro. Il livello di protezione è indicato sulla confezione; in Europa di solito come valore SNR, ma i sistemi di classificazione dipendono dal paese. Per il tiro scegliete modelli con coppe basse o sagomate, perché il calcio non le urti durante l'imbracciata. Occhiali con aste spesse possono compromettere la tenuta."
   },
@@ -1978,22 +1990,22 @@ window.GLOSSARY_I18N.it = {
    "conf": "medium"
   },
   "shooting-gloves": {
-   "term_local": "Guanti da tiro",
+   "term_local": "guanti da tiro",
    "short": "Guanti sottili per una presa migliore e per proteggersi dalle canne calde.",
    "long": "I guanti da tiro sono sottili per conservare la sensibilità del grilletto, spesso con il palmo in pelle. Migliorano la presa con il caldo, quando i palmi sudano, e con la pioggia, e proteggono la mano anteriore dalle canne che si scaldano dopo qualche serie. Alcuni tiratori portano il guanto solo sulla mano anteriore. In inverno i guanti caldi non devono essere troppo spessi, così il dito resta libero sul grilletto. Provate sempre a tirare con i guanti in allenamento prima di una gara."
   },
   "shooting-cap": {
-   "term_local": "Cappellino da tiro",
+   "term_local": "cappellino da tiro",
    "short": "Cappellino con visiera che ripara gli occhi e tiene la pioggia lontana dagli occhiali.",
    "long": "Un cappellino con visiera ripara gli occhi dal sole e riduce i riflessi sulle lenti, e con la pioggia tiene le gocce lontane dagli occhiali. La visiera non deve essere troppo lunga, altrimenti nasconde i piattelli alti. Il cappellino protegge anche un po' dai frammenti di piattello e dal sole forte durante una lunga giornata sul campo. Sotto le cuffie si adatta meglio un cappellino senza cuciture laterali alte. Il regolamento FITASC non disciplina i cappellini in quanto tali, ma l'abbigliamento deve essere ordinato e adeguato."
   },
   "club-shoot": {
-   "term_local": "Gara di club",
+   "term_local": "gara di club",
    "short": "Gara organizzata da un club o da un campo di tiro; l'organizzatore stabilisce formula e numero di piattelli.",
    "long": "La gara di club è un buon posto per una prima gara. Si svolgono spesso nei fine settimana, di solito con meno piattelli rispetto ai grandi eventi (per esempio 50 o 100), e l'atmosfera è più tranquilla. L'organizzatore decide formula, numero di piattelli, categorie e parte delle regole, quindi leggete con attenzione il programma. Le regole sono spesso vicine a quelle FITASC, ma possono esserci semplificazioni per i principianti o classi locali. È un modo semplice per abituarsi a orari, squadra e arbitro senza troppo stress."
   },
   "championship": {
-   "term_local": "Campionato",
+   "term_local": "campionato",
    "short": "Gara ufficiale per un titolo di campione: nazionale, continentale (europeo) o mondiale.",
    "long": "I campionati nazionali sono organizzati dalla federazione nazionale o da un club da essa incaricato. I Campionati Europei e Mondiali sono il livello più alto delle gare FITASC, con classifiche individuali, di categoria e a squadre. Una gara internazionale è di 200 piattelli in serie da 25: 8 campi nello Sporting™ e 8 campi nel Compak® Sporting. Ai campionati continentali e mondiali di Compak® Sporting, per garantire condizioni uguali, si usano 48 macchine nuove installate solo per il campionato, e l'allenamento ufficiale apre il sabato precedente. L'iscrizione avviene di solito tramite la federazione nazionale, quindi informatevi in anticipo sulla procedura di selezione.",
    "disciplines": {
@@ -2025,12 +2037,12 @@ window.GLOSSARY_I18N.it = {
    "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
   },
   "open-ranking": {
-   "term_local": "Classifica assoluta (open)",
+   "term_local": "classifica assoluta (open)",
    "short": "La classifica generale in cui tutti i concorrenti sono classificati insieme, indipendentemente dalla categoria.",
    "long": "Nella classifica assoluta tutti i tiratori sono ordinati in base ai piattelli rotti, indipendentemente da età o sesso. Accanto corrono le classifiche di categoria (Junior, Lady, Men, Senior, Veteran, Master), quindi lo stesso punteggio può valere una medaglia sia nell'assoluta sia in una categoria. Le parità per i primi tre posti si decidono con uno spareggio, e dal quarto posto in giù con il conteggio a ritroso a partire dall'ultimo campo. Nel Compak® Sporting gli spareggi decidono i primi tre posti sia nell'assoluta sia in ogni categoria. Le gare nazionali possono avere regole proprie, quindi controllate il programma."
   },
   "shooter-class": {
-   "term_local": "Classe",
+   "term_local": "classe",
    "short": "Un gruppo di tiratori di livello simile, stabilito in alcuni sistemi nazionali in base alla media (per esempio AA, A, B, C).",
    "long": "Le classi esistono perché si gareggi con altri di livello simile: un principiante non deve misurarsi con un campione. La classe viene assegnata in base alla media dei punteggi in un periodo stabilito, e man mano che i risultati migliorano il tiratore sale di classe. Nomi e limiti delle classi dipendono dal paese o dal club: AA, A, B, C è solo un esempio. Una classe non è la stessa cosa di una categoria: la categoria dipende dall'età o dal sesso, la classe dai risultati. Il regolamento internazionale FITASC non prevede classi; si tratta di sistemi nazionali."
   },
@@ -2042,7 +2054,7 @@ window.GLOSSARY_I18N.it = {
    "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
   },
   "shooter-profile": {
-   "term_local": "Profilo del tiratore",
+   "term_local": "profilo del tiratore",
    "short": "La pagina di un tiratore su ClayArena con le sue gare e i dati principali.",
    "long": "Il profilo del tiratore riunisce le gare di Sporting™ e Compak® Sporting i cui risultati sono su ClayArena e mostra dati principali come precisione e miglior punteggio. Ci si arriva dalla tabella dei risultati di una gara oppure cercando il nome. I nomi sono scritti come nei documenti di gara: di solito in caratteri latini nelle gare internazionali, ma nelle gare nazionali anche nell'alfabeto locale, per esempio in cirillico nelle gare ucraine. Se non vi trovate, provate la grafia locale e diverse grafie latine del vostro nome. I dati provengono dagli statini di gara: controllate quindi il vostro statino già sul campo, perché nel profilo comparirà ciò che ha scritto l'arbitro. Il profilo è utile per confrontarsi con se stessi nel corso di una stagione."
   },
@@ -2052,42 +2064,42 @@ window.GLOSSARY_I18N.it = {
    "long": "ClayAway è una parte di ClayArena in preparazione: un istruttore o un organizzatore riunisce un gruppo di tiratori per un tour di allenamento, e il tiratore acquista un unico pacchetto. Il pacchetto può comprendere allenamenti sui campi di tiro, alloggio, trasferimenti, un programma comune e, se necessario, un interprete. L'organizzatore può essere l'istruttore, ma anche un club, un campo di tiro o un'agenzia. I tour prendono il nome dall'istruttore o dal luogo più la formula, per esempio '<nome dell'istruttore> Training Week'. Gli orari nel programma di un tour sono indicati nel fuso orario del luogo, con il fuso indicato, e le regole per portare fucile e cartucce nel paese del tour vanno verificate in anticipo."
   },
   "accuracy": {
-   "term_local": "Precisione",
+   "term_local": "precisione",
    "short": "La percentuale di piattelli rotti sul totale dei piattelli tirati in gara.",
    "long": "La precisione è una percentuale: per esempio, 150 rotti su 200 fanno il 75%. Più è vicina al 100%, meglio è. Su ClayArena questo dato nel profilo riguarda le gare i cui risultati sono sul sito. Tenete conto del contesto: i percorsi possono essere facili o difficili, e il tempo influisce molto sui punteggi. Per questo la precisione su più gare è più affidabile del dato di un solo evento, e la cosa più utile è osservare come cambia nel corso di una stagione."
   },
   "best-score": {
-   "term_local": "Miglior punteggio",
+   "term_local": "miglior punteggio",
    "short": "Il risultato più alto di un tiratore tra le gare del suo profilo.",
    "long": "Il miglior punteggio è il numero più alto di piattelli rotti in una singola gara tra quelle presenti nel profilo ClayArena. Confrontatelo solo con risultati sullo stesso numero di piattelli: 90 su 100 e 180 su 200 sono cose diverse. Contano anche il livello dell'evento e la difficoltà del percorso. I tiratori lo chiamano spesso record personale. Per un principiante è una bella motivazione, ma i progressi si giudicano meglio dalla costanza che da una sola giornata buona."
   },
   "top-10-rate": {
-   "term_local": "Percentuale di top 10",
+   "term_local": "percentuale di top 10",
    "short": "Quante volte un tiratore si classifica tra i primi dieci della sua categoria o della classifica generale.",
    "long": "Questo dato nel profilo ClayArena mostra la percentuale di gare in cui un tiratore si è classificato tra i primi dieci, nella sua categoria o nella classifica generale. Dipende non solo dal punteggio ma anche dal livello dei partecipanti: un piazzamento tra i primi dieci in un grande evento internazionale è molto più difficile che in una gara di club, e in una categoria piccola con pochi tiratori entrare nei primi dieci è più facile. Per questo va letto insieme all'elenco delle gare a cui il tiratore ha partecipato. Mostra bene la costanza dei tiratori esperti, ma per un principiante è più utile osservare la propria precisione."
   },
   "performance-index": {
-   "term_local": "Indice di rendimento",
+   "term_local": "indice di rendimento",
    "short": "Un dato sintetico di rendimento che ClayArena calcola dai risultati di un tiratore.",
    "long": "L'indice di rendimento riassume i risultati di un tiratore in un unico numero, così è più facile vedere i progressi nel tempo e confrontare periodi diversi. ClayArena lo calcola dai risultati delle gare presenti sul sito. Non è una classifica ufficiale della FITASC o di una federazione nazionale, ma un dato di riferimento. Come gli altri numeri del profilo, dipende da quali gare sono sul sito, dalla loro difficoltà e dal tempo. La sua tendenza è più utile di qualsiasi singolo valore."
   },
   "season-recap": {
-   "term_local": "Riepilogo della stagione",
+   "term_local": "riepilogo della stagione",
    "short": "Un riassunto ClayArena della stagione: le gare principali dell'anno, i vincitori e le prestazioni.",
    "long": "I riepiloghi di stagione su ClayArena riuniscono i momenti salienti dell'anno nello Sporting™ e nel Compak® Sporting: gare principali, vincitori e prestazioni di rilievo. Per un principiante sono un modo semplice per sapere chi è in forma e quali eventi hanno contato di più. Insieme ai video delle gare e al calendario aiutano a orientarsi rapidamente nel mondo del tiro a volo. Dopo una vostra gara vale la pena dare un'occhiata: potrebbe esserci anche la vostra prestazione."
   },
   "guardian-consent": {
-   "term_local": "Consenso dei genitori (o tutori)",
+   "term_local": "consenso dei genitori (o tutori)",
    "short": "Consenso scritto dei genitori o dei tutori perché un minore pratichi il tiro; i club di solito lo richiedono.",
    "long": "La maggior parte dei club e dei campi chiede il consenso scritto dei genitori o dei tutori prima della prima sessione di un minore. Spesso servono anche l'iscrizione al club, un'assicurazione e un certificato medico. Per le gare e i viaggi all'estero può essere richiesto un consenso a parte, compreso il consenso all'espatrio del minore. I requisiti dipendono dal paese, dal club e dalla federazione, e questa non è una consulenza legale: verificate la legge locale e il regolamento del club. Preparate i documenti in anticipo, per non doverli sistemare accanto alla pedana il primo giorno."
   },
   "sports-licence": {
-   "term_local": "Tessera federale",
+   "term_local": "tessera federale",
    "short": "Documento di iscrizione alla federazione nazionale necessario per partecipare alle sue gare; non è un porto d'armi.",
    "long": "La tessera federale conferma che il tiratore è iscritto alla federazione nazionale e può partecipare alle sue gare. Spesso comprende un'assicurazione, e il suo numero si indica nelle iscrizioni alle gare. La tessera non dà il diritto di detenere o trasportare un fucile: si tratta di permessi distinti rilasciati dallo Stato. Come ottenerla, il costo e la validità dipendono dal paese, quindi chiedete al vostro club o alla federazione. Per i ragazzi la tessera si fa di solito insieme ai genitori."
   },
   "european-firearms-pass": {
-   "term_local": "Carta europea d'arma da fuoco",
+   "term_local": "carta europea d'arma da fuoco",
    "short": "Documento che un paese dell'UE, oppure Svizzera, Norvegia, Islanda o Liechtenstein, rilascia ai detentori di armi che vi risiedono per viaggiare con le proprie armi all'interno di quest'area; valido fino a cinque anni.",
    "long": "La Carta europea d'arma da fuoco (CEAF) è rilasciata dall'ufficio che gestisce i permessi per le armi nel paese in cui vive il detentore e di solito è valida fino a cinque anni. Oltre ai paesi dell'UE, la rilasciano ai propri residenti anche Svizzera, Norvegia, Islanda e Liechtenstein, che applicano le stesse regole europee sulle armi; i residenti di altri paesi non possono ottenerla. Vi sono iscritte armi precise, quindi prima di partire controllate che il fucile che portate sia elencato e che la carta non scada durante il viaggio. I tiratori sportivi con la CEAF e una prova del motivo del viaggio, di solito una lettera d'invito dell'organizzatore, possono in genere portare il proprio fucile in un altro di questi paesi senza un'autorizzazione preventiva separata. I paesi possono però avere eccezioni proprie, e la CEAF non sostituisce le regole locali su porto, custodia e acquisto di cartucce; verificate le regole aggiornate dei paesi di destinazione e di transito."
   },
@@ -2097,17 +2109,17 @@ window.GLOSSARY_I18N.it = {
    "long": "Dopo un viaggio veloce attraverso almeno tre fusi orari l'orologio interno è ancora sull'ora di casa: sonno, appetito, umore e vigilanza non coincidono con l'ora locale finché non si adegua. Un'indicazione approssimativa comune è circa un giorno per fuso dopo un volo verso est e circa mezza giornata per fuso dopo un volo verso ovest; le persone sono diverse. La luce del giorno all'ora giusta è il segnale principale che regola l'orologio: dal primo giorno vivete secondo l'ora locale e, dopo un lungo volo verso est, prevedete un giorno libero e leggero prima di tirare per la classifica. La stanchezza dovuta al viaggio stesso (stanchezza da viaggio) è un'altra cosa. Il programma di un tour ClayAway (in preparazione) indicherà gli orari nel fuso del luogo, con il fuso segnato. Parlate di sonniferi, melatonina o altri farmaci con un medico."
   },
   "invitation-letter": {
-   "term_local": "Lettera d'invito",
+   "term_local": "lettera d'invito",
    "short": "Lettera dell'organizzatore della gara o del campo con il vostro nome, l'evento, il luogo e le date; prova il motivo del viaggio con un'arma.",
    "long": "La lettera d'invito è il documento più comune per dimostrare il motivo del viaggio con un fucile. Riporta il vostro nome, il nome della gara o del tour, il luogo e le date, e talvolta i dati del fucile. Nell'UE si presenta insieme alla Carta europea d'arma da fuoco, e fuori dall'UE è spesso necessaria per un permesso di importazione temporanea. Viene richiesta di frequente alla frontiera o in aeroporto, quindi chiedetela in anticipo e tenetene una copia stampata con gli altri documenti. Gli organizzatori delle gare internazionali di solito sanno quale lettera serve."
   },
   "temporary-import-permit": {
-   "term_local": "Permesso di importazione temporanea",
+   "term_local": "permesso di importazione temporanea",
    "short": "Permesso del paese di destinazione per introdurre temporaneamente un'arma per gare o caccia; regole e tempi variano da paese a paese.",
    "long": "Se andate in un paese extra UE o vivete fuori dall'UE, la Carta europea d'arma da fuoco di solito non serve e occorre un permesso di importazione temporanea. Lo rilascia la polizia o un'altra autorità del paese di destinazione, e i tempi possono essere di settimane o anche mesi. A volte la domanda viene presentata da un referente locale, come un club, un campo o un organizzatore. I numeri di matricola del fucile sul permesso devono corrispondere ai documenti e al fucile stesso. Non cercate mai di portare un fucile senza i permessi necessari: se i documenti non saranno pronti, valutate di noleggiare un fucile sul posto."
   },
   "customs-declaration": {
-   "term_local": "Dichiarazione doganale",
+   "term_local": "dichiarazione doganale",
    "short": "Documento che dichiara il fucile alla dogana in entrata o in uscita; conservatelo fino al rientro a casa.",
    "long": "Quando si attraversa una frontiera fuori dallo spazio comune dell'UE, il fucile di solito si dichiara alla dogana. Il funzionario confronta i numeri di matricola del fucile con i documenti e timbra la dichiarazione. Conservatela fino al rientro: dimostra che avete introdotto e state portando fuori lo stesso fucile e vi aiuta a tornare a casa senza problemi. A volte anche il vostro paese richiede un timbro quando un'arma esce. Le procedure di dichiarazione variano da paese a paese, quindi verificatele in anticipo."
   },

@@ -41,6 +41,11 @@ const SKIP_ACADEMY = ARGS.includes("--skip-academy");
 const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date()); // project time zone (CLAUDE.md)
 globalThis.window = {};
 await import("../docs/rules/data/sporting.js");
+// Term labels (owner rule 08.10.2026): a professional term named as a label is "English (local)" in every language, English only on
+// English pages. ONE helper for the browser and the builds: docs/shared/terms.js (window.ClayTerms). Here: glossary headwords, titles,
+// breadcrumbs, index lists and related terms (uk here, other languages in build_seo_i18n.mjs) and the term links of the rule pages.
+await import("../docs/shared/terms.js");
+const CT = window.ClayTerms;
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
 
@@ -230,7 +235,7 @@ globalThis.termLinks = (it, lang) => {
   if (!GLOSS) return "";
   const ids = [...new Set((it.terms || []).map(t => ALIAS[t] || t).filter(id => GBY[id]))];
   if (!ids.length) return "";
-  return `<div class="ref">${lang === "uk" ? "Терміни" : "Terms"}: ${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${esc(dispTerm(GBY[id]))}</a>`).join(" · ")}</div>`;
+  return `<div class="ref">${lang === "uk" ? "Терміни" : "Terms"}: ${ids.map(id => `<a href="${BASE}${lang === "uk" ? "" : "en/"}glossary/${id}/">${termHtml(lang, GBY[id])}</a>`).join(" · ")}</div>`;
 };
 function glossaryPages() {
   if (!GLOSS) return [];
@@ -262,15 +267,16 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 </body></html>`;
   const SET = { "@type": "DefinedTermSet", name: "ClayArena clay shooting glossary", url: BASE + "glossary/" };
   for (const t of GLOSS.terms) {
-    const url = `${BASE}glossary/${t.id}/`, name = dispTerm(t);
-    const title = fitTitle(`${name} — термін стендової стрільби | Глосарій ClayArena`, `${name} | Глосарій ClayArena`);
+    const url = `${BASE}glossary/${t.id}/`, name = dispTerm(t), lb = termLabel("uk", t); // lb.label = "Rabbit (заєць)"
+    // <title> at most 65 characters (audit W-07): the full title, else "label | site", else "English | site" (the h1 and og:title keep the label)
+    const title = fitTitle(`${lb.label} — термін стендової стрільби | Глосарій ClayArena`, fitTitle(`${lb.label} | Глосарій ClayArena`, `${lb.head} | Глосарій ClayArena`));
     const desc = fitDesc(tm(`${t.term}: ${t.short_uk}`), "Термін стендової стрільби — глосарій ClayArena.", `glossary/${t.id}/`);
     const refs = (t.rule_refs || []).map(r => `<li><a href="${BASE}rules/${r.book}/#${r.id}">${esc(refUk(r))}</a> · ${NAMES[r.book]} · <a href="${esc(BOOKS[r.book].source.url)}#page=${r.page}" ${NF}>PDF, с. ${r.page}</a></li>`).join("");
     const disc = ["sporting", "compak"].filter(k => t.disciplines && t.disciplines[k]).map(k => `<div class="box"><b>${NAMES[k]}</b><p>${esc(t.disciplines[k])}</p></div>`).join("");
-    const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${esc(dispTerm(GBY[r]))}</a>`).join(" ");
+    const rel = (t.related || []).map(rid).filter(r => GBY[r] && r !== t.id).map(r => `<a class="btn" style="padding:3px 10px;font-size:13px" href="${BASE}glossary/${r}/">${termHtml("uk", GBY[r])}</a>`).join(" ");
     // "Де вивчити": Academy lessons that teach the term (final ids through id-map.json; old pages until they are replaced)
     const learn = ACADEMY.learnLinks(t.id, "uk").slice(0, 6).map(x => `<li><a href="${esc(x.url)}">${esc(x.title)}</a> · ${esc(x.context)}</li>`).join("");
-    const body = `<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${esc(name)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
+    const body = `<div class="src">${esc(CAT_UK[t.cat] || t.cat)}</div><h1>${termHtml("uk", t)}</h1>${t.aka?.length ? `<p class="ref">Також: ${esc(t.aka.join(", "))}</p>` : ""}
 <h2>Що це</h2><p><b>${esc(t.short_uk)}</b></p>
 ${t.long_uk ? `<h2>Детально</h2><p>${esc(t.long_uk)}</p>` : ""}
 ${disc ? `<h2>У Sporting™ і Compak® Sporting</h2>${disc}` : ""}
@@ -279,15 +285,15 @@ ${refs ? `<h2>Де це в правилах</h2><ul>${refs}</ul>` : ""}
 ${t.source_url ? `<p class="ref">Джерело: <a href="${esc(t.source_url)}" ${NF}>FITASC ↗</a>${t.source_url.includes("categories") ? ` · <a href="${BASE}rules/categories/">Категорії FITASC</a>` : ""}</p>` : ""}
 ${learn ? `<h2>Де вивчити</h2><ul>${learn}</ul>` : ""}
 ${rel ? `<h2>Повʼязані терміни</h2><p>${rel}</p>` : ""}`;
-    const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || [])])].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
-      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name, item: url }] }];
+    const ld = [{ "@context": "https://schema.org", "@type": "DefinedTerm", name, alternateName: [...new Set([t.term, ...(t.aka || []), lb.local].filter(Boolean))].filter(a => a !== name), description: tmMeta(t.short_uk, `glossary/${t.id}/`), termCode: t.id, url, inDefinedTermSet: SET, inLanguage: "uk" },
+      { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Глосарій", item: BASE + "glossary/" }, { "@type": "ListItem", position: 2, name: lb.label, item: url }] }];
     mkdirSync(`${DOCS}/glossary/${t.id}`, { recursive: true });
-    writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body, name, `${BASE}en/glossary/${t.id}/`));
+    writeFileSync(`${DOCS}/glossary/${t.id}/index.html`, shell(title, desc, url, ld, body, lb.label, `${BASE}en/glossary/${t.id}/`));
     out.push(url);
   }
   const cats = [...new Set(GLOSS.terms.map(t => t.cat))];
   const listBody = `<div class="src">ClayArena</div><h1>Глосарій стендової стрільби</h1><p>${GLOSS.terms.length} термінів Sporting™ і Compak® Sporting англійською — з поясненнями українською і посиланнями на пункти правил FITASC.</p>
-${cats.map(c => `<h2>${esc(CAT_UK[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${esc(dispTerm(t))}</a>`).join("")}</div>`).join("\n")}`;
+${cats.map(c => `<h2>${esc(CAT_UK[c] || c)}</h2><div class="list">${GLOSS.terms.filter(t => t.cat === c).sort((a, b) => a.term.localeCompare(b.term)).map(t => `<a href="${BASE}glossary/${t.id}/">${termHtml("uk", t)}</a>`).join("")}</div>`).join("\n")}`;
   writeFileSync(`${DOCS}/glossary/index.html`, shell(`Глосарій стендової стрільби — ${GLOSS.terms.length} термінів | ClayArena`, `Терміни Sporting™ і Compak® Sporting англійською з поясненнями українською і посиланнями на правила FITASC.`, BASE + "glossary/",
     [{ "@context": "https://schema.org", ...SET, hasDefinedTerm: GLOSS.terms.map(t => ({ "@type": "DefinedTerm", name: dispTerm(t), url: `${BASE}glossary/${t.id}/` })) }], listBody, null, `${BASE}en/glossary/`));
   return [BASE + "glossary/", ...out];
@@ -338,6 +344,13 @@ if (GLOSS && existsSync(LEGACY_LEARN)) {
 }
 // Ukrainian usage: researched local forms (docs/glossary/data/i18n/uk.js: term_local + alt, conf) win over the older uk_usage text.
 try { await import("../docs/glossary/data/i18n/uk.js"); } catch (e) {}
+// termLabel(lang, t): {en, local, label, head} of glossary entry t in lang (docs/shared/terms.js; the FITASC marks through tm()); head =
+// the English part alone as the page shows it ("Attempt to influence"; the last fallback of a long <title>). termHtml: the same as HTML,
+// "<span lang=en>English</span> (local)". English pages: English only. The i18n files of the other languages are loaded by
+// build_seo_i18n.mjs before it uses them; uk is loaded just below.
+const termLabel = (lang, t) => { const n = CT.of(t, (((window.GLOSSARY_I18N || {})[lang] || {}).terms || {})[t.id], lang, { en: dispTerm(t), mark: tm });
+  return { ...n, head: CT.label(n.en, "", lang) }; };
+const termHtml = (lang, t) => { const n = termLabel(lang, t); return CT.html(n.en, n.local, lang, esc); };
 const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}).terms[t.id];
   if (x && x.term_local && x.conf !== "low") return [x.term_local, ...(x.alt || [])].filter(v => v !== t.term).slice(0, 3).map(v => `«${v}»`).join(", ");
   return t.uk_usage && t.uk_usage !== "—" ? t.uk_usage : ""; };
@@ -350,13 +363,20 @@ const ukUsage = t => { const x = ((window.GLOSSARY_I18N || {}).uk || {terms: {}}
 // FITASC age categories (not in the discipline rulebooks; source: fitasc.com/competitions/categories).
 // Data: docs/rules/data/categories.js (window.FITASC_CATEGORIES). Output: docs/rules/categories/index.html.
 // The weekly checker (scripts/fitasc_check.py) watches the source page for changes.
+// FITASC category id (categories.js) → glossary id (the names and their local words come from the glossary, not from categories.js)
+const CAT_GLOSS = { men: "men-category", master: "master-category" };
+// the FITASC French name only when it is another word, not the English with accents ("Dame", "Homme"; not "Vétéran", "Junior")
+const frOwn = c => { const f = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); return !!c.name_fr && f(c.name_fr) !== f(c.name_en); };
 function categoriesPage() {
   try { /* loaded below */ } catch (e) {}
   const C = window.FITASC_CATEGORIES; if (!C) return [];
   const url = BASE + "rules/categories/";
   const title = "Категорії FITASC: Junior, Lady, Men, Senior, Veteran, Master — вік | ClayArena";
   const desc = `Хто такий Junior, Lady, Senior, Veteran і Master у Sporting™ і Compak® Sporting: вікові межі FITASC з ${C.valid_from.split("-").reverse().join(".")}, правила національних команд.`;
-  const rows = C.categories.map(c => `<tr><td><b>${esc(c.name_en)}</b> <span class="ref">(${esc(c.name_fr)} · ${esc(c.name_uk)})</span></td><td>${c.to_age ? `${c.from_age}–${c.to_age}` : `${c.from_age}+`}</td><td>${esc(c.rule_uk)}</td></tr>`).join("");
+  // the category name is the glossary term label (docs/shared/terms.js, owner rule 08.10.2026): "Lady (жінки)", "Junior"; the FITASC
+  // French name is added only when it differs from the English ("фр. Dame"). The glossary is the one source of the names (CAT_GLOSS).
+  const rows = C.categories.map(c => { const g = GBY[CAT_GLOSS[c.id] || c.id];
+    return `<tr><td><b>${g ? termHtml("uk", g) : esc(c.name_en)}</b>${frOwn(c) ? ` <span class="ref">· фр. ${esc(c.name_fr)}</span>` : ""}</td><td>${c.to_age ? `${c.from_age}–${c.to_age}` : `${c.from_age}+`}</td><td>${esc(c.rule_uk)}</td></tr>`; }).join("");
   const teams = (C.teams || []).map(t => `<tr><td><b>${esc(t.team)}</b></td><td>${esc(t.eligible_uk)}</td><td>${esc(String(t.size || ""))}</td><td>${esc(t.note_uk || "")}</td></tr>`).join("");
   const faq = C.categories.map(c => ({ "@type": "Question", name: `Хто такий ${c.name_en} у стендовій стрільбі (FITASC)?`, acceptedAnswer: { "@type": "Answer", text: c.rule_uk } }));
   const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, url, inLanguage: "uk", isBasedOn: { "@type": "WebPage", name: "FITASC — Catégories, limites d'âge", url: C.source_url } },
@@ -406,7 +426,7 @@ urls.push(...glossaryPages());
 // (docs/interpreter/index.html, design §5.2 group E): it is not listed in the sitemap.
 // The Academy lessons and the old Interpreter Academy pages that still exist are in the Academy sitemaps (sitemap-learn-<lang>.xml).
 // English versions of the glossary and categories + hreflang on both languages (scripts/build_seo_en.mjs).
-globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME };
+globalThis.SEO = { BASE, TODAY, DOCS, BOOKS, NAMES, GLOSS, GBY, ACADEMY, CSS, NF, esc, tm, tmMeta, dispTerm, fitTitle, fitDesc, legal, rid, ALIAS, crumbs, langSwitch, LANG_NAME, termLabel, termHtml, frOwn };
 const { buildEnglish } = await import("./build_seo_en.mjs");
 urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
@@ -457,7 +477,8 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
 // The animations: every page loads docs/shared/sims.min.js, the minified copy of docs/shared/sims.js (the one source, with the
 // comments for the team; review 08.10.2026: 160 KB with comments, ≈ 76 KB minified). It is written here too (the Academy build writes
 // it as well; with --skip-academy it would be stale), and every <script src="…shared/sims.js"> of a page (hand-written ones such as
-// docs/learn/index.html and docs/rules/trainer/index.html, older generated pages) is pointed at it.
+// docs/learn/index.html and docs/rules/trainer/index.html, older generated pages) is pointed at it. Every page that loads the
+// animations also loads docs/shared/terms.js (the term labels of the tabs and the lead-lab methods) right before them.
 {
   const sm = minifySims(); mkdirSync(`${DOCS}/shared`, { recursive: true }); writeFileSync(`${DOCS}/shared/sims.min.js`, sm.code);
   if (!sm.minified) console.log("WARNING: docs/shared/sims.min.js is an unminified copy of docs/shared/sims.js (run this build with Bun)");
@@ -469,6 +490,9 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
     if (h.includes('http-equiv="refresh"')) continue; // redirect stubs stay bare
     let changed = false;
     { const h2 = h.replace(SIMS_SRC_RE, '$1sims.min.js"'); if (h2 !== h) { h = h2; changed = true; } } // the minified animations
+    if (h.includes("shared/sims.min.js") && !h.includes("shared/terms.js")) { // the term helper before the animations, same defer
+      const h2 = h.replace(/<script\b([^>]*?)\bsrc="([^"]*?)shared\/sims\.min\.js"([^>]*)><\/script>/, (m, a, pre, b) => `<script${a}src="${pre}shared/terms.js"${b}></script>\n${m}`);
+      if (h2 !== h) { h = h2; changed = true; } }
     if (!h.includes("shared/nav.js")) { h = h.replace("</head>", `<script src="${rel}shared/nav.js" defer></script>\n</head>`); changed = true; }
     // Glossary term pages (all languages): English pronunciation + the shared animation for target / pair / lead terms
     // (docs/shared/sims.js → sims.min.js, TERM_SIMS decides which terms get one; other terms get an empty, invisible host).
@@ -478,7 +502,7 @@ ${SITEMAPS.map(f => `  <sitemap><loc>${BASE}${f}</loc><lastmod>${TODAY}</lastmod
       h = h.replace(/<\/h1>/, `</h1><p><button class="btn" type="button" onclick="ClaySpeak(${JSON.stringify(term).replace(/"/g, "&quot;")})" title="en-GB">🔊 ${ui}</button></p>`);
       const first = h.indexOf("<h2>"), second = first >= 0 ? h.indexOf("<h2>", first + 4) : -1;
       if (second > 0) h = h.slice(0, second) + `<div data-clay-term="${id}"></div>\n` + h.slice(second);
-      h = h.replace("</body>", `<script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
+      h = h.replace("</body>", `<script src="${rel}shared/terms.js"></script><script src="${rel}shared/sims-text.js"></script><script src="${rel}shared/sims.min.js"></script><script>ClaySims.auto()</script>\n</body>`);
       changed = true;
     }
     if (changed) writeFileSync(f, h);

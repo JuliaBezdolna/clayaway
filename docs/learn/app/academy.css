@@ -80,6 +80,8 @@ a.ac-chip{color:var(--em)}
 .ac-chip.is-on{background:var(--em-soft);border-color:rgba(52,211,153,.5);color:var(--em);font-weight:600}
 .ac-chips{list-style:none;margin:6px 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
 .ac-chips li{max-width:100%}
+/* lesson "Терміни" chips: a term label "English (local)" can be long (fi "Double discharge (molemmat piiput laukeavat samanaikaisesti)"): it wraps as one block of text (inline-block, not flex: the English part and the brackets stay one run of text) instead of losing the local word to "…" (review 08.10.2026); rule-reference chips keep one line with the ellipsis */
+#h-terms + .ac-chips .ac-chip{display:inline-block;white-space:normal;text-overflow:clip;border-radius:12px;text-align:left}
 .ac-disc-sporting{border-color:rgba(34,211,238,.45)}.ac-chip.ac-disc-sporting{color:var(--sp)}
 .ac-disc-compak{border-color:rgba(167,139,250,.45)}.ac-chip.ac-disc-compak{color:var(--cp)}
 .ac-review{border-color:rgba(251,191,36,.5);color:var(--amber)}

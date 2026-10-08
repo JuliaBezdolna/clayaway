@@ -139,6 +139,7 @@ p{margin:0 0 10px;max-width:70ch}
 <script src="../data/compak.js"></script>
 <script src="../data/quiz-sporting.js"></script>
 <script src="../data/quiz-compak.js"></script>
+<script src="../../shared/terms.js"></script>
 <script src="../../shared/sims-text.js"></script>
 <script src="../../shared/sims.min.js"></script>
 <script>
@@ -293,7 +294,15 @@ document.addEventListener("claynav:update",()=>{ document.querySelectorAll("a[da
 const today=()=>{ const d=new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
 /* tx(obj, field): question text / explanation / rule title in the current language (overlay for languages beyond uk/en) */
 const tx=(o,k)=>{ if(o[k+"_"+L()]) return o[k+"_"+L()]; const v=o.id&&OV.questions[o.id]; if(v){ if(k==="q"&&v.q) return v.q; if(k==="explain"&&v.explain) return v.explain; } return o[k+"_en"]||""; };
-const optText=(q,o,i)=>o[L()]||((OV.questions[q.id]||{}).options||[])[i]||o.en;
+/* optText: an option that names a glossary term ("term": id, docs/rules/data/QUIZ_SCHEMA.md) is shown as the term label in every
+   language (owner rule 08.10.2026): the English option text + the glossary's local word in brackets ("Warning (Verwarnung)"), English only on English
+   pages (the option text as written: "ZERO", "The trapper"). ONE helper: docs/shared/terms.js (ClayTerms.of: on other pages the English
+   article goes and the headword's spelling is used: "The trapper" → "Trapper (оператор машинки)", "ZERO" → "Zero (промах)", "Zero
+   (lost)" → fr "Zero"); the names come from the glossary through docs/shared/sims-text.js (window.CLAYSIMS_TERMS = {lang: {id:
+   [headword, local?]}}, written by scripts/build_academy.mjs). */
+const optText=(q,o,i)=>{ if(o.term&&window.ClayTerms){ const T=((window.CLAYSIMS_TERMS||{})[L()]||{})[o.term];
+    if(T) return ClayTerms.of({term:T[0]},{term_local:T[1]||""},L(),{en:o.en}).label; }
+  return o[L()]||((OV.questions[q.id]||{}).options||[])[i]||o.en; };
 async function loadLang(l){ OV={ui:{},questions:{}}; if(l==="uk"||l==="en") return; try{ const r=await fetch(`../data/i18n/quiz-${l}.json`); if(r.ok) OV=await r.json(); }catch(e){} }
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const st=()=>{ const s=P.stats[P.disc]=P.stats[P.disc]||{ans:0,ok:0,best:0,wrong:[]}; return s; };

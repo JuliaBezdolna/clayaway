@@ -35,7 +35,7 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "hunting-ethics": {
-   "term_local": "Éthique de chasse",
+   "term_local": "éthique de chasse",
    "short": "Principe selon lequel les plateaux de Parcours de Chasse sont placés à des distances auxquelles un vrai chasseur tirerait.",
    "long": "Les parcours doivent respecter l'éthique de chasse. Un plateau ne doit pas être si proche qu'un vrai gibier serait abîmé, ni si loin qu'un vrai animal serait seulement blessé, c'est-à-dire au-delà de la portée utile du fusil et de la cartouche. Chaque plateau simple doit laisser le temps de tirer deux coups. Les traceurs de parcours et le jury appliquent ce principe pour fixer et contrôler les trajectoires.",
    "disciplines": {
@@ -150,7 +150,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
   },
   "fly-over-zone": {
-   "term_local": "Zone de survol (rectangle ABCD)",
+   "term_local": "zone de survol (rectangle ABCD)",
    "short": "Le rectangle obligatoire que doit survoler chaque plateau du Compak.",
    "long": "Chaque Compak comporte une zone rectangulaire de 35 à 40 m de large et de 25 m de profondeur. Ses coins sont marqués par quatre piquets d'environ 50 cm de haut munis d'un fanion ou d'un autre repère. Dans le sens des aiguilles d'une montre en partant de la gauche, les côtés sont AB, BC, CD et DA, et DA fait face aux tireurs. Par temps calme, chaque plateau doit passer au-dessus du rectangle à un moment de sa course. Les trois trajectoires obligatoires sont définies par les côtés qu'elles traversent.",
    "disciplines": {
@@ -161,7 +161,7 @@ window.GLOSSARY_I18N.fr = {
    ]
   },
   "firing-angle-limiter": {
-   "term_local": "Limiteur d'angle de tir",
+   "term_local": "limiteur d'angle de tir",
    "short": "Cadre placé à chaque pas de tir du Compak qui limite le mouvement du fusil et maintient le tireur dans sa position.",
    "long": "Chaque pas de tir du Compak doit être équipé d'un limiteur d'angle de tir pour la sécurité. Il limite le balayage latéral et l'angle vertical et empêche le tireur de se pencher ou d'avancer. Le règlement recommande un cadre en tubes de PVC colorés de 50 mm de diamètre avec des coudes, dont la base est remplie d'eau ou de sable ou fixée au sol. Pendant le chargement, le canon doit être pointé vers le champ de tir à l'intérieur du limiteur.",
    "disciplines": {
@@ -169,7 +169,7 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "trajectory-setting-table": {
-   "term_local": "Tableau de réglage des trajectoires",
+   "term_local": "tableau de réglage des trajectoires",
    "short": "L'un des 40 menus prédéfinis du Compak qui indiquent quels lanceurs sont tirés depuis chaque pas de tir.",
    "long": "L'annexe 3 du règlement du Compak donne 40 tableaux : 1 à 8 avec 5 simples par pas de tir, 9 à 16 avec 3 simples et un doublé au coup de fusil, 17 à 24 avec 3 simples et un doublé simultané, 25 à 32 avec 1 simple et 2 doublés au coup de fusil, 33 à 40 avec 1 simple et 2 doublés simultanés. La FITASC conseille de les utiliser en compétition, mais toute combinaison conforme au règlement est autorisée. Les tableaux utilisés à l'entraînement doivent être différents de ceux de la compétition.",
    "disciplines": {
@@ -248,7 +248,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "zz-target": {
-   "term_local": "Plateau ZZ (hélice)",
+   "term_local": "plateau ZZ (hélice)",
    "short": "Plateau spécial muni d'une hélice en plastique, au vol erratique.",
    "long": "Les plateaux ZZ figurent parmi les plateaux autorisés en Parcours de Chasse. Comme tout plateau spécial, leur utilisation suit le parcours homologué par le jury et le menu présenté aux tireurs. Le résumé du Parcours de Chasse de ce guide ne donne pas d'autres règles propres aux plateaux ZZ.",
    "disciplines": {
@@ -271,7 +271,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "difficulty-class": {
-   "term_local": "Catégorie de difficulté",
+   "term_local": "catégorie de difficulté",
    "short": "Classement d'une trajectoire de Parcours de Chasse selon le nombre de plateaux qu'un tireur moyen casse.",
    "long": "La catégorie A correspond à plus de 80 % de plateaux cassés, la catégorie B à 60–80 %, la catégorie C à 40–60 %. La combinaison recommandée pour un poste est une trajectoire A, deux B et une C ; un cinquième simple ne peut être que de catégorie A ou B. En doublé, une trajectoire de catégorie C ne peut apparaître qu'une fois par poste, idéalement avec une A ; un doublé peut être B + B ou B + A.",
    "disciplines": {
@@ -429,7 +429,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "jacket-line": {
-   "term_local": "Ligne de veste (marque de repère)",
+   "term_local": "ligne de veste (marque de repère)",
    "short": "Ligne contrastée sur la veste du tireur de Parcours de Chasse, 25 cm sous l'axe de l'épaule, sous laquelle la crosse doit rester.",
    "long": "La ligne est tracée sur la veste ou le gilet à 25 cm (9,85 pouces) sous l'axe de l'épaule et parallèlement à celui-ci, dans une couleur qui contraste avec la veste pour que l'arbitre puisse la voir. En position d'attente, l'arrière de la partie la plus haute de la crosse doit rester en dessous jusqu'à l'apparition du plateau. Le règlement du Parcours de Chasse contient un schéma du gilet et de trois types de crosse. Le règlement du Compak ne prévoit pas ce repère.",
    "disciplines": {
@@ -438,7 +438,7 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "gun-position": {
-   "term_local": "Position du fusil",
+   "term_local": "position du fusil",
    "short": "La façon dont le tireur tient son fusil avant et pendant le tir.",
    "long": "Dans les deux disciplines, tous les plateaux, lapins compris, se tirent fusil épaulé ; le tir à la hanche est interdit. En Parcours de Chasse, le fusil ne peut pas être épaulé avant l'apparition du plateau, et la position d'attente fusil bas est obligatoire jusque-là ; la position n'est libre qu'entre les deux plateaux d'un doublé. En Compak, la position du fusil à l'appel est libre, le tireur peut donc appeler fusil déjà épaulé. Épauler avant l'apparition du plateau en Parcours de Chasse entraîne un carton jaune.",
    "disciplines": {
@@ -577,12 +577,12 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "interruption": {
-   "term_local": "Interruption",
+   "term_local": "interruption",
    "short": "Pause dans le tir, par exemple en cas d'orage soudain ou de panne de lanceur.",
    "long": "En Parcours de Chasse l'arbitre, et en Compak l'arbitre en chef, peuvent exceptionnellement arrêter le tir en cas de forte averse soudaine ou de violent orage supposé bref, et doivent informer le jury s'il doit durer plus longtemps. Pendant toute interruption, les fusils sont ouverts et déchargés et ne sont refermés qu'avec l'autorisation de l'arbitre. Ensuite, les plateaux sont montrés à nouveau : en Parcours de Chasse ceux du poste concerné, si un lanceur est tombé en panne ou si le tir s'est arrêté plus de 10 minutes ; en Compak les 6 simples, si l'interruption a duré plus de 10 minutes."
   },
   "electronic-refereeing": {
-   "term_local": "Arbitrage électronique",
+   "term_local": "arbitrage électronique",
    "short": "Systèmes électroniques homologués par la FITASC qui enregistrent les résultats en Compak en ligne.",
    "long": "Pour le Compak en ligne lors des compétitions internationales, le déclenchement se fait uniquement par sonopull et l'arbitrage comme la gestion des scores doivent utiliser des systèmes homologués par la FITASC. Avec un système électronique, les résultats s'affichent sur un écran. Le règlement du Compak montre un exemple d'impression avec des colonnes pour le dossard, la nation, la catégorie, la première pénalité, la deuxième pénalité, le résultat, le nom et la signature du tireur.",
    "disciplines": {
@@ -792,7 +792,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "coaching": {
-   "term_local": "Coaching",
+   "term_local": "coaching",
    "short": "Le fait de conseiller un concurrent pendant la compétition, ce qui est interdit.",
    "long": "Un concurrent ne peut pas être coaché pendant la compétition. Si l'arbitre estime qu'il y a coaching, le concurrent reçoit un carton jaune, et les récidives de même nature entraînent les pénalités du chapitre des sanctions (chapitre 13 du Parcours de Chasse, chapitre 23 du Compak). La personne qui coache est renvoyée de la zone de tir par l'arbitre. La règle est la même dans les deux disciplines."
   },
@@ -807,7 +807,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "warning": {
-   "term_local": "Avertissement",
+   "term_local": "avertissement",
    "short": "La première sanction pour une infraction au règlement, donnée par l'arbitre ou le jury.",
    "long": "Pour un premier manquement à n'importe quel article, l'arbitre ou le jury donne un avertissement ; en Compak, il est signifié par un carton jaune, et en Parcours de Chasse un avertissement pour faute de position d'attente s'accompagne aussi d'un carton jaune. Avertissements typiques : premier dépassement du temps de tir, premier incident de fusil ou de munitions dans une série, premier tir simulé ou premier tir sur un No Bird, et manquements à la tenue ou au port du dossard. Après un avertissement, un nouveau manquement sur le même parcours ou le même Compak est sanctionné selon le tableau (carton rouge)."
   },
@@ -839,7 +839,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "expulsion": {
-   "term_local": "Exclusion",
+   "term_local": "exclusion",
    "short": "Le retrait d'un tireur de la compétition par le jury.",
    "long": "Le jury peut exclure un tireur pour récidive, refus d'obtempérer ou tentative d'influencer un arbitre, et immédiatement, sur rapport d'un arbitre, pour perte du contrôle de soi, tentative d'influence (en Parcours de Chasse également refus d'obtempérer) ou tir délibéré sur des animaux vivants. Toute exclusion est signalée à la fédération du tireur et au siège de la FITASC, qui la conserve dans ses archives pendant cinq ans. Une seconde exclusion dans un délai de trois ans peut entraîner une interdiction définitive des compétitions FITASC, décidée par le Comité de direction (Comité exécutif) de la FITASC. Un tireur exclu n'a droit à aucun remboursement ni dédommagement.",
    "disciplines": {
@@ -848,7 +848,7 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "refusal-to-comply": {
-   "term_local": "Refus d'obtempérer",
+   "term_local": "refus d'obtempérer",
    "short": "Ne pas reprendre le tir à temps après une décision définitive, ou retarder volontairement le tir.",
    "long": "Après la décision définitive de l'arbitre, le tireur doit reprendre le tir dans les 15 secondes en Parcours de Chasse ou dans les 10 secondes en Compak. Ne pas le faire constitue un refus d'obtempérer, de même que retarder volontairement le tir ou agir de façon manifestement déloyale, selon l'appréciation de l'arbitre. Cela relève du chapitre des sanctions : le jury peut infliger la perte d'un plateau, la perte d'une série ou l'exclusion, et en Parcours de Chasse peut exclure immédiatement.",
    "disciplines": {
@@ -857,12 +857,12 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "attempt-to-influence": {
-   "term_local": "Tentative d'influence",
+   "term_local": "tentative d'influence",
    "short": "Chercher à faire changer une décision de l'arbitre par la pression, la discussion ou la critique publique.",
    "long": "Trois situations sont visées : le tireur continue de contester une décision définitive par ses paroles ou son attitude après la reprise du tir ; le tireur conteste ou discute la décision de manière ostentatoire ; ou d'autres tireurs (en Compak également des spectateurs) expriment ouvertement leur avis ou leurs critiques sur une décision sans l'autorisation de l'arbitre. Le jury peut la sanctionner par la perte d'un plateau, la perte d'une série ou l'exclusion, y compris l'exclusion immédiate sur rapport d'un arbitre."
   },
   "lateness": {
-   "term_local": "Retard",
+   "term_local": "retard",
    "short": "Ne pas être présent et prêt lorsque vient le tour du tireur.",
    "long": "En Parcours de Chasse, si un tireur manque, l'arbitre appelle son nom et son numéro trois fois en une minute. S'il arrive avant d'avoir manqué son tour sur les simples du premier poste, il n'y a pas de pénalité ; sinon tous les plateaux non tirés valent zéro, et un parcours dont des postes ont été manqués ne peut jamais être tiré dans une autre planche. En Compak par planche, arriver après que le premier tireur de la planche a appelé le premier plateau coûte 25 zéros ; en ligne, la même règle s'applique dès que le numéro est annulé et que le tireur suivant est au pas 1 ; l'arbitre ne va pas chercher les tireurs absents. Un tireur ayant un motif valable doit faire appel par écrit auprès du jury (Compak : le jour même, avec la caution) ; si son motif est accepté, il tire dans une autre planche. Un tireur sans protection auditive ou oculaire est considéré comme absent.",
    "disciplines": {
@@ -898,7 +898,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "appeal-jury": {
-   "term_local": "Jury d'appel",
+   "term_local": "jury d'appel",
    "short": "L'instance qui examine les contestations des décisions du jury.",
    "long": "Un jury d'appel est constitué lors d'une compétition internationale en même temps que le jury. Il se compose du Président de la FITASC (qui le préside), du président de la commission technique et du président de la fédération organisatrice, ou de leurs représentants ; en Compak, aucun membre du jury ne peut y siéger. Il examine les réclamations contre les décisions du jury émanant des tireurs ou de la FITASC. En Parcours de Chasse, en l'absence de jury d'appel, les décisions du jury sont définitives ; en Compak, les questions disciplinaires relèvent de la commission de discipline de la FITASC.",
    "disciplines": {
@@ -907,7 +907,7 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "deposit": {
-   "term_local": "Caution",
+   "term_local": "caution",
    "short": "Somme versée avec un appel écrit, restituée si l'appel est accueilli.",
    "long": "En Parcours de Chasse, un appel écrit auprès du jury est déposé avec une caution égale à 40 % du droit d'inscription ; si le jury donne raison au tireur, elle est remboursée, sinon elle est versée à une œuvre caritative choisie par le Président de la FITASC. En Compak, la caution correspond au montant en vigueur le jour de la compétition et elle est remboursée si la réclamation est acceptée. Pour un appel concernant un retard en Compak, la somme est restituée si le motif est accepté et conservée dans le cas contraire.",
    "disciplines": {
@@ -930,17 +930,17 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "technical-commission": {
-   "term_local": "Commission technique",
+   "term_local": "commission technique",
    "short": "La commission de la FITASC dont les membres contrôlent les parcours et choisissent les réglages des barrages.",
    "long": "Les membres de la Commission technique présents à une compétition siègent au jury. En Compak, ils contrôlent les parcours réglés avant la compétition et peuvent les modifier pour des raisons de sécurité, de variété et d'équilibre ; ils choisissent aussi le Compak et les réglages des barrages, et si aucun d'eux n'est présent, c'est le jury qui s'en charge. En Parcours de Chasse, les membres de la commission technique siégeant au jury contrôlent les installations et les parcours avant le tir. Le président de la commission siège au jury d'appel."
   },
   "organiser": {
-   "term_local": "Organisateur",
+   "term_local": "organisateur",
    "short": "La fédération ou le club qui accueille et organise une compétition.",
    "long": "Une fédération membre de la FITASC peut confier l'organisation d'une compétition à l'un de ses clubs, mais elle reste entièrement responsable devant la FITASC de l'application de tout ce qui a été approuvé. Le comité d'organisation publie à l'avance les horaires de tir et la composition des planches, et l'organisateur annonce après la cérémonie d'ouverture les horaires de tir fixés par le jury. En Compak, l'organisateur choisit les trajectoires libres, qui doivent rester courtes et sûres. Si le nombre de plateaux est réduit, l'organisateur rembourse les plateaux non tirés au prix des plateaux d'entraînement."
   },
   "course-designer": {
-   "term_local": "Traceur de parcours",
+   "term_local": "traceur de parcours",
    "short": "La personne qui conçoit et installe les parcours et les trajectoires.",
    "long": "La FITASC peut exiger d'une fédération qu'elle désigne un traceur de parcours chargé de concevoir et de faire fonctionner les parcours. Dans les jours précédant une compétition de Parcours de Chasse, les traceurs présentent les parcours, les trajectoires et les types de plateaux aux membres du jury responsables des parcours et à l'arbitre principal ; les parcours ne deviennent définitifs qu'après validation. Un arbitre de poste ne peut pas modifier les trajectoires fixées par le traceur ; après une panne de lanceur ou des conditions météo exceptionnelles, une trajectoire réglée à nouveau devrait être contrôlée par le traceur ou par un membre du jury. En Compak, le responsable des parcours peut les concevoir lui-même au lieu d'utiliser les tableaux de l'annexe 3."
   },
@@ -960,7 +960,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "group": {
-   "term_local": "Groupe (en ligne)",
+   "term_local": "groupe (en ligne)",
    "short": "En Compak® Sporting en ligne, les tireurs affectés à un même terrain : nombre total d'inscrits divisé par le nombre de terrains.",
    "long": "En Compak en ligne, la taille d'un groupe est égale au nombre total de tireurs divisé par le nombre de Compaks utilisés. Chaque tireur du groupe commence au pas 1 et termine au pas 5. Un fusil ne peut être emprunté qu'à un tireur extérieur à son propre groupe, et plusieurs tireurs d'un même groupe ne peuvent pas partager un fusil. Un tireur en retard dont l'appel est accepté peut tirer la série avec un autre groupe.",
    "disciplines": {
@@ -968,7 +968,7 @@ window.GLOSSARY_I18N.fr = {
    }
   },
   "shooting-times": {
-   "term_local": "Horaires de tir",
+   "term_local": "horaires de tir",
    "short": "Le programme publié indiquant quand chaque planche ou chaque groupe tire.",
    "long": "Le jury fixe les horaires de tir, en Compak avec le secrétariat de la compétition, et l'organisateur les annonce après la cérémonie d'ouverture. Ils sont publiés par voie d'affichage ou dans un programme imprimé, et il appartient au tireur de les respecter. En Compak, les tireurs doivent se présenter à l'arbitre derrière leur Compak et confirmer leur présence (obligatoire), être prêts sans délai et suivre les retards ou avances au cours de la journée."
   },
@@ -1008,7 +1008,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "sudden-death": {
-   "term_local": "Mort subite",
+   "term_local": "mort subite",
    "short": "La seconde phase d'un barrage, dans laquelle le premier tireur qui fait un zéro est éliminé.",
    "long": "Si des tireurs sont encore à égalité après la série de barrage de 25 plateaux, ils poursuivent en mort subite : le premier qui fait un zéro est éliminé, à condition que tous aient tiré le même nombre de plateaux, et le dernier restant gagne. En Parcours de Chasse, un doublé au coup de fusil compte comme une paire en mort subite, donc un-zéro équivaut à zéro-un. En Compak, après tirage au sort, les tireurs tirent le simple, puis le premier et le second doublé simultané à chaque pas de tir, le tireur qui commence changeant à chaque fois (l'annexe 5 donne l'ordre pour 2 et 3 tireurs).",
    "disciplines": {
@@ -1135,7 +1135,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "crimp": {
-   "term_local": "Sertissage",
+   "term_local": "sertissage",
    "short": "La fermeture du haut de la douille, le plus souvent une étoile à 6 ou 8 plis.",
    "long": "Le sertissage maintient les plombs dans la douille jusqu'au tir. Sur les douilles plastique modernes, c'est une étoile : le bord du tube est replié vers le centre en 6 ou 8 plis. Les cartouches anciennes ou en carton ont parfois un sertissage rond avec un opercule en carton par-dessus. Au départ du coup, les plis s'ouvrent et la charge passe dans le canon. Un sertissage abîmé ou ouvert est une raison de mettre la cartouche de côté : les plombs peuvent s'échapper et le coup peut être faible."
   },
@@ -1152,7 +1152,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "velocity": {
-   "term_local": "Vitesse (V0)",
+   "term_local": "vitesse (V0)",
    "short": "La vitesse des plombs indiquée sur la boîte (m/s ou fps) ; les fabricants la mesurent à différentes distances de la bouche.",
    "long": "Pour les cartouches de tir aux plateaux, la vitesse est généralement d'environ 360 à 430 m/s (environ 1 200 à 1 400 fps). Les fabricants la mesurent différemment : selon les règles de la C.I.P., suivies par les fabricants européens, elle est mesurée à 2,5 m de la bouche (V2,5) ; certaines boîtes indiquent la V1, à 1 m, et les fabricants américains donnent des pieds par seconde mesurés à environ 3 pieds (0,9 m) de la bouche. Un même chiffre ne désigne donc pas toujours la même cartouche. Une cartouche plus rapide raccourcit légèrement le temps de vol des plombs, mais elle recule plus fort et sa gerbe n'est pas forcément meilleure. Beaucoup d'entraîneurs conseillent de ne pas rechercher la vitesse, mais de choisir une cartouche avec laquelle on tire de façon régulière et sans fatigue. Certains stands, surtout pour l'acier, limitent la vitesse des cartouches."
   },
@@ -1177,7 +1177,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "soft-iron-shot": {
-   "term_local": "Plomb en fer doux",
+   "term_local": "plomb en fer doux",
    "short": "Grenaille sans plomb en fer doux, plus tendre que l'acier ordinaire et plus douce pour les canons.",
    "long": "Le fer doux est un type de grenaille sans plomb que les fabricants proposent comme compromis entre le plomb et l'acier. Les plombs sont plus tendres que l'acier ordinaire, ils ménagent donc mieux les canons et les chokes, mais leur poids est plus proche de celui de l'acier que de celui du plomb. Les dénominations et caractéristiques dépendent du fabricant, et toutes ces cartouches ne conviennent pas à tous les fusils ni à tous les chokes. Avant utilisation, vérifiez le marquage de la boîte, les notices du fusil et des chokes, ainsi que le règlement du stand sur la grenaille sans plomb."
   },
@@ -1194,7 +1194,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "low-recoil-cartridge": {
-   "term_local": "Cartouche à faible recul",
+   "term_local": "cartouche à faible recul",
    "short": "Cartouche à charge plus légère et au recul plus doux ; bien adaptée aux enfants et aux débutants.",
    "long": "Ces cartouches ont une charge plus légère (souvent 21–24 g en calibre 12) et une vitesse modérée, elles poussent donc nettement moins fort dans l'épaule. Pour un jeune tireur ou un débutant, c'est important : un fort recul le fatigue vite, et la peur du recul installe l'habitude de donner un coup d'épaule avant le tir. Sur les plateaux proches et moyens, une charge légère casse les plateaux de façon tout à fait fiable. Le bon fonctionnement d'un semi-automatique avec des charges légères dépend du modèle, testez-le donc à l'entraînement. Le mieux est de choisir la charge avec un entraîneur."
   },
@@ -1210,7 +1210,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://chasse-en-camargue.fr/tableau-de-correspondance-des-chokes/"
   },
   "constriction": {
-   "term_local": "Étranglement (constriction)",
+   "term_local": "étranglement (constriction)",
    "short": "La différence entre le diamètre de l'âme et le point le plus étroit du choke, en mm ou en millièmes de pouce (thou).",
    "long": "L'étranglement indique dans quelle mesure le choke resserre la gerbe à la sortie du canon. Il s'exprime en millimètres ou en thou, millièmes de pouce (1 thou vaut environ 0,025 mm). Par exemple, le quart de choke fait environ 0,25 mm (10 thou), le demi-choke environ 0,5 mm (20 thou), le full environ 0,9 à 1 mm. Ce sont des valeurs typiques du calibre 12 : les chiffres réels dépendent du fabricant et même du diamètre de l'âme du canon concerné. Un armurier peut mesurer l'étranglement avec précision à l'aide d'une jauge."
   },
@@ -1266,7 +1266,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "extended-choke": {
-   "term_local": "Choke extérieur (dépassant)",
+   "term_local": "choke extérieur (dépassant)",
    "short": "Choke interchangeable qui dépasse de la bouche du canon, avec un marquage visible.",
    "long": "Un choke extérieur est plus long qu'un choke affleurant et dépasse de quelques centimètres de la bouche du canon. Son étranglement est généralement marqué sur la partie qui dépasse, et un moletage permet de le visser et dévisser à la main. De nombreux tireurs de Sporting™ et de Compak® Sporting les préfèrent, car ils voient d'un coup d'œil ce qui est monté. Les fabricants affirment qu'un choke plus long forme la gerbe plus progressivement, mais la différence dépend du modèle. Les chokes extérieurs doivent correspondre au système multichoke de votre fusil.",
    "alt": [
@@ -1276,6 +1276,18 @@ window.GLOSSARY_I18N.fr = {
    ],
    "note": "Usage variable selon les marques.",
    "conf": "low"
+  },
+  "skeet-choke": {
+   "term_local": "skeet",
+   "short": "Étranglement très léger, d'environ 0,1 à 0,15 mm (4 à 6 thou), pour les plateaux les plus proches.",
+   "long": "Le choke skeet (marqué SK) est à peine plus serré que le cylindrique : environ 0,1 à 0,15 mm d'étranglement (4 à 6 thou), parfois appelé 1/8 dans l'usage européen. La gerbe est large à courte distance et pardonne les petites erreurs. En Sporting™ et en Compak® Sporting, on l'utilise pour les plateaux proches, les lapins et les plateaux qui jaillissent tout près. Les valeurs exactes dépendent du fabricant.",
+   "alt": [
+    "lisse amélioré",
+    "choke skeet"
+   ],
+   "note": "FFBT range « lisse amélioré » (1-2/10) ; dans le commerce « Skeet ».",
+   "conf": "medium",
+   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "improved-cylinder": {
    "term_local": "quart de choke",
@@ -1336,17 +1348,17 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
   "star-marks": {
-   "term_local": "Marquage par étoiles",
+   "term_local": "marquage par étoiles",
    "short": "Marquage des chokes par étoiles (notamment Beretta) : ***** cylindrique … * full ; plus il y a d'étoiles, plus le choke est ouvert.",
    "long": "Les fabricants italiens, Beretta en tête, marquent l'étranglement par des étoiles sur le choke ou sur le canon. Le schéma est le suivant : cinq étoiles cylindrique, quatre quart de choke (1/4), trois demi-choke (1/2), deux trois-quarts (3/4), une full. La règle essentielle : plus il y a d'étoiles, plus le choke est ouvert. D'autres fabricants gravent des encoches sur le bord du choke, utilisent des bagues de couleur ou impriment simplement le nom (IC, M, LM). Si le marquage s'est effacé, un armurier peut mesurer l'étranglement."
   },
   "pattern-plate": {
-   "term_local": "Plaque de gerbe (planche à gerbe)",
+   "term_local": "plaque de gerbe (planche à gerbe)",
    "short": "Plaque d'acier qui montre où les plombs ont frappé ; sert à contrôler les chokes et la conformation du fusil.",
    "long": "Une plaque de gerbe est peinte ou graissée, et après un coup l'impact de chaque plomb est bien visible. L'image montre la largeur et la régularité de la gerbe à une distance donnée avec un choke et une cartouche précis. Plus important encore, elle montre où le fusil tire par rapport au point visé : c'est ainsi que l'on contrôle la conformation du fusil. Il est préférable de le faire avec un entraîneur ou un spécialiste de la conformation, car un seul coup en dit peu. Tous les stands n'ont pas de plaque, renseignez-vous à l'avance."
   },
   "choke-grease": {
-   "term_local": "Graisse à chokes",
+   "term_local": "graisse à chokes",
    "short": "Graisse spéciale pour le filetage des chokes, qui empêche la rouille et le grippage.",
    "long": "Pendant le tir, les résidus de combustion et le plastique des bourres s'infiltrent dans le filetage des chokes, et l'humidité provoque de la rouille. Un choke laissé longtemps en place peut ainsi gripper dans le canon. Une fine couche de graisse spéciale sur le filetage l'empêche et facilite les changements. Avant le montage, essuyez le filetage du choke et du canon, appliquez un peu de graisse et serrez le choke avec la clé. Démontez régulièrement les chokes pour les nettoyer, même si vous ne les changez pas."
   },
@@ -1541,12 +1553,12 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "gun-fitter": {
-   "term_local": "Conformateur",
+   "term_local": "conformateur",
    "short": "Spécialiste qui mesure la crosse et l'adapte au tireur.",
    "long": "Un conformateur observe votre façon d'épauler, mesure votre visage, vos épaules et vos bras, vérifie votre œil directeur et regarde où le fusil tire sur une plaque de gerbe. Il utilise souvent un fusil d'essai à crosse réglable. Il modifie ensuite la longueur, le busc et l'avantage, ou conseille sur la façon de le faire. La conformation est la plus utile une fois que l'épaulé est régulier ; on conseille donc généralement aux débutants de la faire après les premiers mois d'entraînement. Trouvez un conformateur sur la recommandation de votre entraîneur."
   },
   "youth-gun": {
-   "term_local": "Fusil junior",
+   "term_local": "fusil junior",
    "short": "Fusil pour jeunes tireurs : plus léger, à crosse plus courte, souvent en calibre 20.",
    "long": "Un fusil de calibre 12 de taille adulte est difficile à manier pour un enfant ou un adolescent : il est lourd, la crosse est trop longue et le recul est fort. Les fusils juniors sont plus légers, ont une crosse plus courte et souvent un calibre plus petit, comme le 20. Le règlement FITASC autorise jusqu'au calibre 12, un calibre 20 peut donc aussi être utilisé en compétition. Certains modèles ont une crosse que l'on peut rallonger à mesure que l'enfant grandit. Avant d'acheter, laissez l'enfant essayer plusieurs fusils sous la surveillance d'un entraîneur, et respectez la législation locale sur les mineurs et les armes."
   },
@@ -1600,7 +1612,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt37.fr/decouvrir-le-cd37/"
   },
   "quartering-away": {
-   "term_local": "Fuyant en biais (sortant)",
+   "term_local": "fuyant en biais (sortant)",
    "short": "Plateau qui s'éloigne du tireur en biais.",
    "long": "Un fuyant en biais ne part pas tout droit mais s'éloigne en s'écartant sur le côté. À l'œil, il paraît plus lent qu'il ne l'est réellement ; les débutants tirent donc souvent derrière ou au-dessus. Il demande moins d'avance qu'un croisé, mais il en demande, et le fusil doit se déplacer le long de la ligne de vol. Ces plateaux plongent souvent, il est donc important de ne pas arrêter le fusil. Le règlement du Sporting™ exige qu'un parcours mêle différentes trajectoires, y compris en biais.",
    "alt": [
@@ -1610,7 +1622,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "low"
   },
   "quartering-towards": {
-   "term_local": "Venant en biais (rentrant)",
+   "term_local": "venant en biais (rentrant)",
    "short": "Plateau qui vient vers le tireur en biais et passe sur un côté.",
    "long": "Un venant en biais apparaît devant et sur un côté, se rapproche et passe à côté de vous. Tant qu'il est loin, l'avance est faible, mais plus il se rapproche, plus il se déplace vite latéralement et plus il faut d'avance. Choisissez donc votre point de casse avant l'appel et n'attendez pas que le plateau soit trop près. Pendant le swing, veillez à ce que le corps tourne avec le fusil, et pas seulement les bras. Le secteur de tir sûr du poste limite jusqu'où l'on peut suivre un tel plateau sur le côté.",
    "alt": [
@@ -1641,7 +1653,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt37.fr/decouvrir-le-cd37/"
   },
   "driven-target": {
-   "term_local": "Plateau à la tête (type faisan)",
+   "term_local": "plateau à la tête (type faisan)",
    "short": "Plateau haut qui vient vers le tireur et passe au-dessus de sa tête, comme un faisan en battue.",
    "long": "Le nom vient de la chasse en battue, où les oiseaux sont poussés au-dessus d'une ligne de fusils. Le plateau arrive vers vous en hauteur et passe au-dessus de la tête. Pour le casser, les canons montent par-dessous à travers le plateau, et le coup part lorsque le plateau est masqué par les canons et que le fusil le dépasse vers l'avant. Il faut pour cela une position avec le poids sur le pied avant et une liberté de mouvement du haut du corps vers l'arrière. Ne vous penchez pas trop en arrière : la perte d'équilibre est une cause typique de manqués sur ces plateaux.",
    "alt": [
@@ -1703,7 +1715,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "high"
   },
   "pick-up-point": {
-   "term_local": "Point de prise (d'acquisition)",
+   "term_local": "point de prise (d'acquisition)",
    "short": "L'endroit où le tireur voit nettement le plateau pour la première fois et commence à le suivre des yeux.",
    "long": "Un plateau apparaît généralement comme une traînée floue près du lanceur, et ce n'est qu'un instant plus tard que l'œil le voit nettement. Ce point de la trajectoire est le point de prise. Avant l'appel, regardez à cet endroit plutôt que vers le lanceur, pour ne pas sursauter au premier mouvement. Le tireur choisit ensemble le point de prise, le point d'attente des canons et le point de casse en regardant la présentation. Choisir ces trois points de façon systématique est la base d'une routine de pré-tir.",
    "alt": [
@@ -1756,7 +1768,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "cross-dominance": {
-   "term_local": "Dominance croisée",
+   "term_local": "dominance croisée",
    "short": "Lorsque l'œil directeur est du côté opposé à l'épaule sur laquelle le tireur épaule.",
    "long": "Par exemple, un tireur droitier dont l'œil gauche est directeur a une dominance croisée. En tirant les deux yeux ouverts, l'œil gauche prend le contrôle de l'image et les coups partent sur le côté. Il existe plusieurs solutions : tirer de l'autre épaule, masquer ou plisser l'œil non directeur au moment du tir, coller un petit point sur le verre des lunettes de tir, et parfois utiliser un fusil avec un avantage croisé spécial. Le choix dépend de l'âge, du degré de dominance et des habitudes ; décidez-en donc avec un entraîneur. On conseille souvent aux enfants de changer d'épaule tant que leurs habitudes sont encore en formation.",
    "alt": [
@@ -1848,7 +1860,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "high"
   },
   "pre-shot-routine": {
-   "term_local": "Routine de pré-tir",
+   "term_local": "routine de pré-tir",
    "short": "La même suite d'actions que le tireur répète avant chaque plateau.",
    "long": "Une routine comprend généralement la mise en place des pieds, le choix des points de prise, d'attente et de casse, la position du fusil, une respiration et l'appel. Lorsque ces étapes sont identiques à chaque fois, les décisions sont prises à l'avance et, pendant le coup, l'esprit est libre pour le plateau. Une routine aide aussi sous la pression de la compétition et après un manqué : au lieu de penser au score, le tireur déroule simplement les étapes. Respectez les limites de temps : en Sporting™, vous disposez au maximum de 15 secondes entre les plateaux, et en Compak® Sporting de 10 secondes pour appeler. Une routine se construit à l'entraînement avec un entraîneur.",
    "disciplines": {
@@ -1862,7 +1874,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "low"
   },
   "warm-up": {
-   "term_local": "Échauffement",
+   "term_local": "échauffement",
    "short": "Préparation avant le tir : mobilisation et quelques plateaux faciles.",
    "long": "L'échauffement réveille le corps et les yeux avant le tir. Beaucoup d'entraîneurs conseillent environ 10 à 15 minutes de mouvements légers et dynamiques pour le cou, les épaules, le dos, les hanches et les chevilles, afin que le fusil bouge plus facilement ; il y a peu de recherches sur l'échauffement au tir aux plateaux, ces conseils viennent donc de l'expérience des entraîneurs. Si le stand le permet, vous pouvez commencer la séance par quelques plateaux faciles pour trouver votre rythme avant de passer aux plus difficiles. Avant une compétition, les règles dépendent de la discipline. En Sporting™, personne ne peut s'entraîner sur les parcours de l'épreuve : on s'échauffe donc sur d'autres parcours. En Compak® Sporting, l'entraînement sur les trajectoires de l'épreuve est autorisé, mais avec d'autres tableaux de réglage ; aux championnats continentaux et du monde, l'entraînement officiel n'ouvre que le samedi précédant le début. En compétition, beaucoup d'entraîneurs conseillent de s'échauffer sans le fusil ; les épaulés à vide se font à la maison ou à l'entraînement, là où c'est autorisé."
   },
@@ -1881,7 +1893,7 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "training-diary": {
-   "term_local": "Carnet d'entraînement",
+   "term_local": "carnet d'entraînement",
    "short": "Notes après chaque séance : plateaux, score, conseils de l'entraîneur, équipement et sensations.",
    "long": "Un carnet aide à voir ce que l'on oublie vite : quels plateaux réussissent et lesquels non, quels chokes et quelles cartouches ont été utilisés, ce que l'entraîneur a conseillé et comment on s'est senti. Écrivez brièvement juste après une séance ou une compétition, tant que les impressions sont fraîches. Au bout de quelques mois, les notes font apparaître des tendances : par exemple, que vous manquez souvent derrière sur les croisés lointains. Comparez-vous à vous-même : les résultats de votre profil ClayArena complètent bien vos propres notes. Il est aussi utile de montrer le carnet à votre entraîneur avant une leçon."
   },
@@ -1896,12 +1908,12 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "process-goal": {
-   "term_local": "Objectif de processus",
+   "term_local": "objectif de processus",
    "short": "Objectif portant sur l'action plutôt que sur le résultat : par exemple, faire sa routine sur chaque plateau.",
    "long": "Un objectif de processus décrit quelque chose que le tireur maîtrise entièrement : garder la joue sur la crosse, faire sa routine à chaque fois, choisir le point de casse avant l'appel. Les objectifs de résultat, comme « casser 90 sur 100 » ou « finir dans les trois premiers », dépendent aussi des adversaires, de la météo et du parcours. Se concentrer sur le processus réduit la pression, surtout chez les jeunes tireurs, et aide à revenir au plateau suivant après un manqué. On conseille aux parents et aux entraîneurs de féliciter les actions, pas seulement le score. Un bon résultat découle souvent d'un processus bien exécuté."
   },
   "cease-fire": {
-   "term_local": "Cessez-le-feu",
+   "term_local": "cessez-le-feu",
    "short": "Ordre d'arrêter immédiatement le tir : les fusils sont ouverts et déchargés.",
    "long": "Un cessez-le-feu peut être ordonné par l'arbitre, un moniteur ou toute personne qui voit un danger : une personne ou un animal dans le secteur, un lanceur défectueux, un orage soudain. En l'entendant, arrêtez-vous immédiatement, ouvrez le fusil, retirez les cartouches et attendez l'autorisation de reprendre. Selon le règlement FITASC, pendant toute interruption, les fusils doivent être ouverts et déchargés et ne peuvent être refermés qu'avec l'autorisation de l'arbitre. Apprenez cet ordre dès la première leçon, surtout aux enfants. Les mots et signaux exacts peuvent varier d'un stand à l'autre ; apprenez-les lors de la consigne de sécurité.",
    "alt": [
@@ -1972,17 +1984,17 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shoulder-pad": {
-   "term_local": "Épaulière",
+   "term_local": "épaulière",
    "short": "Pièce lisse sur l'épaule du gilet où se cale la crosse ; elle atténue un peu le recul.",
    "long": "Une épaulière est faite d'un matériau lisse pour que la crosse n'accroche pas le tissu pendant l'épaulé. Elle contient souvent un insert souple qui atténue légèrement le recul. Elle se trouve du côté de l'épaule sur laquelle on épaule ; un tireur gaucher a donc besoin d'un gilet pour gaucher ou ambidextre. Elle ne remplace pas un épaulé correct ni la conformation du fusil, mais sur une longue journée elle aide à réduire la fatigue. Des inserts supplémentaires sont disponibles pour certains gilets."
   },
   "lens-tint": {
-   "term_local": "Teinte des verres",
+   "term_local": "teinte des verres",
    "short": "La couleur d'un verre de tir, choisie pour renforcer le contraste du plateau selon la lumière et le fond.",
    "long": "La couleur d'un verre ne fera pas de vous un meilleur tireur, mais elle aide à voir le plateau sur un fond donné. Un verre jaune renforce le contraste par temps couvert, dans le brouillard et au crépuscule. L'orange est polyvalent et fait ressortir les plateaux orange sur le ciel et la verdure. Le violet rend un plateau orange plus éclatant devant les arbres et l'herbe, et le fumé (gris) réduit simplement la luminosité en plein soleil. Un débutant n'a besoin que de lunettes à verres interchangeables : un verre clair ou jaune et un verre plus foncé. Les noms et nuances des teintes varient selon les fabricants."
   },
   "prescription-insert": {
-   "term_local": "Insert correcteur",
+   "term_local": "insert correcteur",
    "short": "Insert à verres correcteurs placé derrière le verre principal des lunettes de tir.",
    "long": "Si vous portez des lunettes de vue, les lunettes de tir peuvent recevoir un insert intérieur à verres correcteurs. Le verre principal résistant aux impacts reste devant et protège les yeux, tandis que l'insert assure une vision nette. Autre solution : commander des verres de tir correcteurs chez un opticien qui travaille avec des tireurs. Les lunettes de tous les jours ne conviennent que si leurs verres sont certifiés résistants aux impacts. Avant d'acheter, parlez-en à un ophtalmologiste et à votre entraîneur, car en tir on utilise la partie supérieure du verre."
   },
@@ -1998,7 +2010,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://www.decathlon.fr/tous-les-sports/tir-sportif/casques-bouchons-d-oreilles"
   },
   "passive-ear-muffs": {
-   "term_local": "Casque antibruit passif",
+   "term_local": "casque antibruit passif",
    "short": "Casque sans électronique qui bloque le son grâce à des coquilles étanches.",
    "long": "Un casque passif a des coquilles garnies d'un rembourrage insonorisant et des coussinets souples qui épousent la tête. Il est simple, fiable et ne demande pas de piles, mais il étouffe aussi la parole, ce qui rend plus difficile d'entendre l'arbitre sur le poste. Le niveau de protection est indiqué sur l'emballage ; en Europe, il est généralement exprimé par une valeur SNR, mais les systèmes de mesure dépendent du pays. Pour le tir, choisissez des modèles à coquilles basses ou échancrées afin que la crosse ne les accroche pas pendant l'épaulé. Des lunettes à branches épaisses peuvent nuire à l'étanchéité."
   },
@@ -2034,22 +2046,22 @@ window.GLOSSARY_I18N.fr = {
    "conf": "medium"
   },
   "shooting-gloves": {
-   "term_local": "Gants de tir",
+   "term_local": "gants de tir",
    "short": "Gants fins pour une meilleure prise en main et une protection contre les canons chauds.",
    "long": "Les gants de tir sont fins pour conserver la sensation de la détente, souvent avec une paume en cuir. Ils améliorent la prise en main par forte chaleur, quand les paumes transpirent, et sous la pluie, et protègent la main avant des canons qui chauffent après quelques séries. Certains tireurs ne portent un gant qu'à la main avant. En hiver, les gants chauds ne doivent pas être trop épais, pour que le doigt se pose librement sur la détente. Essayez toujours de tirer avec des gants à l'entraînement avant une compétition."
   },
   "shooting-cap": {
-   "term_local": "Casquette de tir",
+   "term_local": "casquette de tir",
    "short": "Casquette à visière qui protège les yeux du soleil et la pluie des lunettes.",
    "long": "Une casquette à visière protège les yeux du soleil et réduit les reflets sur les verres, et sous la pluie elle évite les gouttes sur les lunettes. La visière ne doit pas être trop longue, sinon elle cache les plateaux hauts. Une casquette protège aussi un peu des éclats de plateaux et du soleil intense pendant une longue journée sur le stand. Sous un casque antibruit, une casquette sans coutures latérales hautes est la plus confortable. Le règlement FITASC ne réglemente pas les casquettes en tant que telles, mais la tenue doit être correcte et adaptée."
   },
   "club-shoot": {
-   "term_local": "Concours de club",
+   "term_local": "concours de club",
    "short": "Compétition organisée par un club de tir ou un stand ; l'organisateur fixe le format et le nombre de plateaux.",
    "long": "Un concours de club est un bon endroit pour une première compétition. Ils ont souvent lieu le week-end, généralement avec moins de plateaux que les grandes épreuves (50 ou 100, par exemple), et l'ambiance y est plus détendue. L'organisateur décide du format, du nombre de plateaux, des catégories et d'une partie des règles ; lisez donc attentivement le programme. Les règles sont souvent proches de celles de la FITASC, mais il peut y avoir des simplifications pour les débutants ou des classes locales. C'est un moyen simple de s'habituer à l'horaire, à la planche et à l'arbitre sans trop de stress."
   },
   "championship": {
-   "term_local": "Championnat",
+   "term_local": "championnat",
    "short": "Compétition officielle décernant un titre de champion : national, continental (européen) ou mondial.",
    "long": "Les championnats nationaux sont organisés par la fédération nationale ou par un club qu'elle désigne. Les championnats d'Europe et du monde constituent le plus haut niveau de compétition FITASC, avec des classements individuels, par catégorie et par équipes. Une compétition internationale compte 200 plateaux en séries de 25 : 8 parcours en Sporting™ et 8 installations en Compak® Sporting. Aux championnats continentaux et du monde de Compak® Sporting, pour garantir l'égalité des conditions, on utilise 48 machines neuves installées uniquement pour le championnat, et l'entraînement officiel ouvre le samedi précédent. L'inscription passe généralement par la fédération nationale ; renseignez-vous donc à l'avance sur le processus de sélection.",
    "disciplines": {
@@ -2084,12 +2096,12 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "open-ranking": {
-   "term_local": "Classement scratch (général)",
+   "term_local": "classement scratch (général)",
    "short": "Le classement général dans lequel tous les concurrents sont classés ensemble, quelle que soit leur catégorie.",
    "long": "Au classement scratch, tous les tireurs sont classés selon le nombre de plateaux cassés, sans distinction d'âge ni de sexe. Les classements par catégorie (Junior, Dame, Homme, Senior, Vétéran, Master) se déroulent en parallèle, de sorte qu'un même score peut valoir une médaille à la fois au scratch et dans une catégorie. Les égalités pour les trois premières places sont départagées par un barrage, et au-delà de la troisième place en remontant les résultats depuis le dernier parcours. En Compak® Sporting, les barrages départagent les trois premières places au scratch comme dans chaque catégorie. Les épreuves nationales peuvent avoir leurs propres règles ; vérifiez donc le programme."
   },
   "shooter-class": {
-   "term_local": "Classe (niveau)",
+   "term_local": "classe (niveau)",
    "short": "Groupe de tireurs de niveau comparable, établi dans certains systèmes nationaux d'après la moyenne des scores (par exemple AA, A, B, C).",
    "long": "Les classes existent pour que chacun affronte des tireurs de niveau comparable : un débutant n'a pas à se mesurer à un champion. La classe est attribuée d'après la moyenne des scores sur une période donnée, et le tireur monte de classe à mesure que ses résultats progressent. Les noms et les seuils des classes dépendent du pays ou du club : AA, A, B, C n'est qu'un exemple. Une classe n'est pas une catégorie : la catégorie dépend de l'âge ou du sexe, la classe des résultats. Le règlement international de la FITASC ne prévoit pas de classes ; ce sont des systèmes nationaux."
   },
@@ -2104,7 +2116,7 @@ window.GLOSSARY_I18N.fr = {
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
   },
   "shooter-profile": {
-   "term_local": "Profil du tireur",
+   "term_local": "profil du tireur",
    "short": "La page d'un tireur sur ClayArena, avec ses compétitions et ses chiffres clés.",
    "long": "Le profil du tireur rassemble les compétitions de Sporting™ et de Compak® Sporting dont les résultats figurent sur ClayArena et affiche des chiffres clés comme la précision et le meilleur score. On y accède depuis le tableau des résultats d'une compétition ou en recherchant le nom. Les noms sont écrits comme dans les documents de la compétition : en général en caractères latins aux épreuves internationales, mais parfois dans l'alphabet local aux épreuves nationales, par exemple en cyrillique aux compétitions ukrainiennes. Si vous ne vous trouvez pas, essayez l'orthographe locale et différentes graphies latines de votre nom. Les données proviennent des feuilles de marque des compétitions : vérifiez donc votre feuille de marque dès le stand, car le profil reprendra ce que l'arbitre a noté. Un profil est utile pour se comparer à soi-même au fil d'une saison."
   },
@@ -2114,62 +2126,62 @@ window.GLOSSARY_I18N.fr = {
    "long": "ClayAway est une partie de ClayArena en préparation : un entraîneur ou un organisateur réunit un groupe de tireurs pour un tour d'entraînement, et le tireur achète un seul forfait. Le forfait peut comprendre l'entraînement sur des stands de tir, l'hébergement, les transferts, un programme commun et, si besoin, un interprète. L'organisateur peut être l'entraîneur, mais aussi un club, un stand ou une agence. Les tours portent le nom de l'entraîneur ou du lieu, suivi du format, par exemple « <nom de l'entraîneur> Training Week ». Les horaires du programme d'un tour sont donnés dans le fuseau horaire du lieu, avec l'indication du fuseau, et les règles d'entrée d'un fusil et de cartouches dans le pays du tour doivent être vérifiées à l'avance."
   },
   "accuracy": {
-   "term_local": "Précision (taux de réussite)",
+   "term_local": "précision (taux de réussite)",
    "short": "La proportion de plateaux cassés sur l'ensemble des plateaux tirés en compétition.",
    "long": "La précision est un pourcentage : par exemple, 150 plateaux cassés sur 200 font 75 %. Plus on s'approche de 100 %, mieux c'est. Sur ClayArena, ce chiffre du profil porte sur les compétitions dont les résultats figurent sur le site. Gardez le contexte en tête : les parcours peuvent être faciles ou difficiles, et la météo influe beaucoup sur les scores. La précision sur plusieurs compétitions est donc plus fiable que le chiffre d'une seule épreuve, et le plus utile est de suivre son évolution au cours d'une saison."
   },
   "best-score": {
-   "term_local": "Meilleur score",
+   "term_local": "meilleur score",
    "short": "Le résultat le plus élevé d'un tireur parmi les compétitions de son profil.",
    "long": "Le meilleur score est le plus grand nombre de plateaux cassés lors d'une seule compétition parmi celles du profil ClayArena. Ne le comparez qu'avec des résultats obtenus sur le même nombre de plateaux : 90 sur 100 et 180 sur 200, ce n'est pas la même chose. Le niveau de l'épreuve et la difficulté du parcours comptent aussi. Les tireurs parlent souvent de record personnel. Pour un débutant, c'est une belle motivation, mais la progression se juge mieux à la régularité qu'à une seule bonne journée."
   },
   "top-10-rate": {
-   "term_local": "Taux de top 10",
+   "term_local": "taux de top 10",
    "short": "La fréquence à laquelle un tireur termine dans les dix premiers de sa catégorie ou du classement général.",
    "long": "Ce chiffre du profil ClayArena indique la proportion de compétitions dans lesquelles un tireur a terminé dans les dix premiers, de sa catégorie ou du classement général. Il dépend non seulement du score mais aussi du plateau de concurrents : finir dans les dix premiers d'une grande épreuve internationale est bien plus difficile que lors d'un concours de club, et une petite catégorie avec peu de tireurs rend le top 10 plus facile à atteindre. Lisez-le donc avec la liste des compétitions auxquelles le tireur a participé. Il reflète bien la régularité des tireurs expérimentés, mais pour un débutant il est plus utile de suivre sa propre précision."
   },
   "performance-index": {
-   "term_local": "Indice de performance",
+   "term_local": "indice de performance",
    "short": "Un indicateur synthétique de performance que ClayArena calcule à partir des résultats d'un tireur.",
    "long": "L'indice de performance condense les résultats d'un tireur en un seul chiffre, ce qui permet de voir plus facilement la progression dans le temps et de comparer des périodes. ClayArena le calcule à partir des résultats de compétition présents sur le site. Ce n'est pas un classement officiel de la FITASC ni d'une fédération nationale, mais un chiffre de référence. Comme les autres chiffres du profil, il dépend des compétitions présentes sur le site, de leur difficulté et de la météo. Sa tendance est plus utile que n'importe quelle valeur isolée."
   },
   "season-recap": {
-   "term_local": "Bilan de la saison",
+   "term_local": "bilan de la saison",
    "short": "Un résumé de saison sur ClayArena : les compétitions clés de l'année, les vainqueurs et les performances.",
    "long": "Les bilans de saison de ClayArena rassemblent les temps forts de l'année en Sporting™ et en Compak® Sporting : compétitions clés, vainqueurs et performances marquantes. Pour un débutant, c'est un moyen simple de savoir qui est en forme et quelles épreuves ont le plus compté. Avec les vidéos de compétitions et le calendrier, ils aident à s'orienter rapidement dans le monde du tir sur plateaux. Après votre propre compétition, jetez-y un œil : votre performance y figure peut-être aussi."
   },
   "guardian-consent": {
-   "term_local": "Autorisation parentale",
+   "term_local": "autorisation parentale",
    "short": "Accord écrit des parents ou tuteurs pour qu'un mineur pratique le tir ; les clubs le demandent généralement.",
    "long": "La plupart des clubs et des stands demandent l'accord écrit des parents ou tuteurs avant la première séance d'un mineur. Une adhésion au club, une assurance et un certificat médical sont souvent nécessaires aussi. Pour les compétitions et les voyages à l'étranger, une autorisation distincte peut être exigée, y compris une autorisation de sortie du territoire pour l'enfant. Les exigences dépendent du pays, du club et de la fédération, et ceci n'est pas un conseil juridique : vérifiez la législation locale et le règlement du club. Préparez les documents à l'avance pour ne pas avoir à vous en occuper à côté du poste le premier jour."
   },
   "sports-licence": {
-   "term_local": "Licence sportive",
+   "term_local": "licence sportive",
    "short": "Document d'affiliation à la fédération nationale, nécessaire pour participer à ses compétitions ; ce n'est pas un permis de détention d'arme.",
    "long": "Une licence sportive atteste que le tireur est membre de la fédération nationale et peut participer à ses compétitions. Elle comprend souvent une assurance, et son numéro figure sur les inscriptions aux compétitions. Une licence ne donne pas le droit de posséder ni de transporter une arme : ce sont des autorisations distinctes délivrées par l'État. Les modalités d'obtention, le coût et la durée de validité dépendent du pays ; renseignez-vous auprès de votre club ou de votre fédération. Pour les enfants, la licence se fait généralement avec les parents."
   },
   "european-firearms-pass": {
-   "term_local": "Carte européenne d'arme à feu",
+   "term_local": "carte européenne d'arme à feu",
    "short": "Document qu'un pays de l'UE, ou la Suisse, la Norvège, l'Islande ou le Liechtenstein, délivre aux détenteurs d'armes qui y résident pour voyager avec leurs propres armes dans cet espace ; valable jusqu'à cinq ans.",
    "long": "La carte européenne d'arme à feu (CEAF) est délivrée par le service chargé des autorisations d'armes du pays où réside le détenteur, et elle est généralement valable jusqu'à cinq ans. Outre les pays de l'UE, la Suisse, la Norvège, l'Islande et le Liechtenstein, qui appliquent les mêmes règles européennes sur les armes, la délivrent aussi à leurs résidents ; les résidents d'autres pays ne peuvent pas l'obtenir. Des armes précises y sont inscrites : avant de partir, vérifiez que le fusil que vous emportez y figure et que la carte n'expirera pas en route. Les tireurs sportifs munis d'une CEAF et d'un justificatif du motif du voyage, le plus souvent une lettre d'invitation de l'organisateur, peuvent en général emporter leur fusil dans un autre de ces pays sans autorisation préalable distincte. Les pays peuvent toutefois avoir leurs propres exceptions, et la CEAF ne remplace pas les règles locales sur le port, le stockage et l'achat de cartouches ; vérifiez les règles en vigueur des pays de destination et de transit."
   },
   "jet-lag": {
-   "term_local": "Décalage horaire",
+   "term_local": "décalage horaire",
    "short": "Sommeil et vigilance perturbés après un voyage rapide à travers plusieurs fuseaux horaires ; cela peut durer de quelques jours à une semaine ou plus, environ un jour par fuseau après un vol vers l'est.",
    "long": "Après un voyage rapide à travers au moins trois fuseaux horaires, l'horloge interne est encore à l'heure de chez soi : sommeil, appétit, humeur et vigilance sont décalés par rapport à l'heure locale jusqu'à ce qu'elle se recale. Un repère courant est d'environ un jour par fuseau après un vol vers l'est et d'environ une demi-journée par fuseau après un vol vers l'ouest ; chacun est différent. La lumière du jour au bon moment de la journée est le principal signal qui recale l'horloge : dès le premier jour, vivez à l'heure locale et, après un long vol vers l'est, prévoyez une journée libre et légère avant de tirer pour le classement. La fatigue due au trajet lui-même (fatigue du voyage) est autre chose. Le programme d'un séjour ClayAway (en préparation) donnera les horaires dans le fuseau du lieu, avec le fuseau indiqué. Parlez des somnifères, de la mélatonine ou d'autres médicaments avec un médecin."
   },
   "invitation-letter": {
-   "term_local": "Lettre d'invitation",
+   "term_local": "lettre d'invitation",
    "short": "Lettre de l'organisateur de la compétition ou du stand indiquant votre nom, l'épreuve, le lieu et les dates ; elle justifie le motif du voyage avec une arme.",
    "long": "La lettre d'invitation est le document le plus courant pour justifier le motif d'un voyage avec une arme. Elle indique votre nom, le nom de la compétition ou du tour, le lieu et les dates, et parfois les caractéristiques du fusil. Dans l'UE, elle se présente avec la carte européenne d'arme à feu, et hors UE elle est souvent nécessaire pour obtenir une autorisation d'importation temporaire. Elle est fréquemment demandée à la frontière ou à l'aéroport ; demandez-la donc à l'avance et gardez-en une copie imprimée avec vos autres documents. Les organisateurs des compétitions internationales savent généralement quelle lettre est nécessaire."
   },
   "temporary-import-permit": {
-   "term_local": "Autorisation d'importation temporaire",
+   "term_local": "autorisation d'importation temporaire",
    "short": "Autorisation du pays de destination pour faire entrer temporairement une arme en vue d'une compétition ou d'une chasse ; les règles et les délais varient selon les pays.",
    "long": "Si vous vous rendez dans un pays hors UE ou si vous résidez hors de l'UE, la carte européenne d'arme à feu ne vous servira généralement pas et une autorisation d'importation temporaire est nécessaire. Elle est délivrée par la police ou une autre autorité du pays de destination, et l'instruction peut prendre des semaines, voire des mois. La demande est parfois déposée par un parrain local, comme un club, un stand ou un organisateur. Les numéros de série du fusil sur l'autorisation doivent correspondre aux documents et au fusil lui-même. N'essayez jamais d'emporter une arme sans les autorisations nécessaires : si les papiers ne sont pas prêts à temps, envisagez de louer un fusil sur place."
   },
   "customs-declaration": {
-   "term_local": "Déclaration en douane",
+   "term_local": "déclaration en douane",
    "short": "Document déclarant l'arme à la douane à l'entrée ou à la sortie ; conservez-le jusqu'à votre retour.",
    "long": "Lors du passage d'une frontière hors de l'espace commun de l'UE, une arme est généralement déclarée à la douane. L'agent vérifie les numéros de série du fusil par rapport aux documents et tamponne la déclaration. Conservez-la jusqu'à votre retour : elle prouve que vous avez fait entrer et que vous faites sortir le même fusil et vous aide à rentrer sans difficulté. Parfois, votre propre pays exige aussi un tampon à la sortie de l'arme. Les procédures de déclaration diffèrent selon les pays ; vérifiez-les à l'avance."
   },
@@ -2243,7 +2255,7 @@ window.GLOSSARY_I18N.fr = {
    "short": "Plaque en caoutchouc ou en gel au bout de la crosse qui amortit le recul ; elle modifie aussi la longueur de crosse."
   },
   "chandelle": {
-   "term_local": "chandelle (sens anglais)",
+   "term_local": "chandelle",
    "note": "Faux ami : en français « chandelle » désigne un plateau vertical (teal anglais). La « chandelle » anglaise monte en courbe puis retombe.",
    "conf": "medium",
    "short": "Plateau qui monte fortement en courbe puis retombe. À ne pas confondre avec la « chandelle » française, qui désigne une sarcelle verticale."

@@ -1079,7 +1079,10 @@ window.GLOSSARY_I18N.de = {
    "long": "Die Klasse Lady (französisch: Dame) umfasst Frauen und Mädchen ab dem 1. Januar des Jahres, in dem sie 13 werden (sofern keine Ausnahme gewährt wird); die FITASC-Tabelle setzt keine Altersobergrenze. Für 2027 heißt das: geboren am oder vor dem 31. Dezember 2014. Eine Lady-Mannschaft hat 3 Schützinnen: Damen oder Juniorinnen. Eine für die Lady-Mannschaft ausgewählte Juniorin startet auch einzeln in der Klasse Lady. Die Tabelle gilt ab 2027; nationale Wettkämpfe können eigene Regeln haben."
   },
   "men-category": {
-   "term_local": "Men (Herren, Homme)",
+   "term_local": "Herren",
+   "alt": [
+    "Homme"
+   ],
    "short": "Die Hauptklasse der Erwachsenen bei der FITASC: 21 bis 55 Jahre.",
    "long": "Men (französisch: Homme) ist die Hauptklasse der Erwachsenen: ab dem 1. Januar des Jahres, in dem ein Schütze 21 wird, bis zum Ende des Jahres, in dem er 55 wird. Für 2027 heißt das: geboren vom 1. Januar 1972 bis 31. Dezember 2006. Die Men-Mannschaft kann Männer, Junioren sowie Schützen der Klassen Senior, Veteran und Master umfassen; sie hat 3 Schützen bzw. 4 im Parcours de Chasse – Sporting™. In den FITASC-Ergebnissen ist die Hauptklasse der Erwachsenen Men, nicht Senior."
   },
@@ -1277,6 +1280,15 @@ window.GLOSSARY_I18N.de = {
     "außenliegender Choke"
    ],
    "note": "English 'Extended' common in catalogues.",
+   "conf": "medium"
+  },
+  "skeet-choke": {
+   "term_local": "Skeet",
+   "short": "Eine sehr leichte Engung, etwa 0,1–0,15 mm (4–6 thou), für die nächsten Scheiben.",
+   "long": "Der Skeet-Choke (Kennzeichnung SK) ist nur wenig enger als Zylinder: etwa 0,1–0,15 mm Engung (4–6 thou), im europäischen Sprachgebrauch manchmal 1/8 genannt. Die Garbe ist auf kurze Entfernung breit und verzeiht kleine Fehler. Im Sporting™ und Compak® Sporting wird er für nahe Scheiben, Rabbits und nah aufsteigende Scheiben verwendet. Die genauen Werte hängen vom Hersteller ab.",
+   "alt": [
+    "Skeet-Choke"
+   ],
    "conf": "medium"
   },
   "improved-cylinder": {
@@ -1556,7 +1568,7 @@ window.GLOSSARY_I18N.de = {
    "src": "https://www.flinten-und-buechsen-coach.de/sample-page/"
   },
   "quartering-away": {
-   "term_local": "Schräg gehende Scheibe",
+   "term_local": "schräg gehende Scheibe",
    "short": "Eine Scheibe, die sich schräg vom Schützen entfernt.",
    "long": "Eine schräg gehende Scheibe fliegt nicht geradeaus, sondern in einem Winkel zur Seite weg. Dem Auge erscheint sie langsamer, als sie wirklich ist, daher schießen Anfänger oft hinter oder über sie. Sie braucht weniger Vorhalt als eine kreuzende Scheibe, aber etwas schon, und die Flinte muss sich entlang der Fluglinie bewegen. Solche Scheiben fallen oft ab, daher ist es wichtig, die Flinte nicht anzuhalten. Die Sporting™-Regeln verlangen, dass ein Parcours verschiedene Flugbahnen mischt, auch schräge.",
    "alt": [
@@ -1565,7 +1577,7 @@ window.GLOSSARY_I18N.de = {
    "conf": "low"
   },
   "quartering-towards": {
-   "term_local": "Schräg kommende Scheibe",
+   "term_local": "schräg kommende Scheibe",
    "short": "Eine Scheibe, die schräg auf den Schützen zukommt und seitlich vorbeizieht.",
    "long": "Eine schräg kommende Scheibe erscheint vorn und seitlich, kommt näher und zieht an einem vorbei. Solange sie weit weg ist, ist der Vorhalt klein, doch je näher sie kommt, desto schneller bewegt sie sich quer und desto mehr Vorhalt braucht sie. Daher den Treffpunkt vor dem Abruf wählen und nicht warten, bis die Scheibe zu nah ist. Beim Schwingen darauf achten, dass sich der Körper mit der Flinte dreht, nicht nur die Arme. Der sichere Schusssektor des Standes begrenzt, wie weit man einer solchen Scheibe zur Seite folgen kann.",
    "alt": [
@@ -2479,7 +2491,10 @@ window.GLOSSARY_I18N.de = {
    "short": "Der Abstand zwischen Mündung und Scheibe, den der Schütze beim Schuss sieht; viel kleiner als der tatsächliche Vorhalt in der Luft."
   },
   "ambush": {
-   "term_local": "Ambush (Erwarten)",
+   "term_local": "Ambush (Abfangen)",
+   "alt": [
+    "Erwarten"
+   ],
    "conf": "low",
    "short": "Eine Vorhaltemethode, bei der die Mündungen ruhig an einem Punkt vor der Scheibe warten und abgezogen wird, bevor die Scheibe ihn erreicht, sodass sie in den Schuss fliegt."
   },

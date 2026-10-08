@@ -105,7 +105,7 @@ Compak® Sporting only; no other disciplines anywhere, §9). A retired lesson is
 | `phrases` | Stand Talk: `[{k, speaker: "coach"\|"referee"\|"shooter", core, en, meaning: {en, uk}, say: {uk}}]`. `en` is the English phrase as it is said on the stand (never translated; spoken only with a local voice). `say` = how to say it in your language. |
 | `key_points` | "Головне": `[{k, en, uk, checklist?}]`. `checklist: true` puts the point on the printable checklists of the routes. |
 | `did_you_know` | `{k, en, uk}` or null. |
-| `quiz` | exactly 3 questions shown in the lesson: `{k, disc?, q: {en, uk}, options: [{k: "a", en, uk}, …], correct: "<option key>", explain: {en, uk}, rule_ref?}`. The answer is stored by **option key**, never by position; options are shuffled on screen. |
+| `quiz` | exactly 3 questions shown in the lesson: `{k, disc?, q: {en, uk}, options: [{k: "a", term?, en, uk}, …], correct: "<option key>", explain: {en, uk}, rule_ref?}`. The answer is stored by **option key**, never by position; options are shuffled on screen. `term` (glossary id) on an option whose whole text NAMES that term ("Rabbit", "Swing-through", "Zero (lost)"): every language then shows the term label "<English> (<local word>)" made by `docs/shared/terms.js` (owner rule 08.10.2026, §9): the English option text without its article and in the headword's spelling when it is the headword ("The wad" → "Wad (пиж)", "ZERO" → "Zero (промах)", "Going-away" → "Going away (…)"; English pages: the text as written), and the option's translations are not shown. Mark every option of a question that names a term the same way, including those with an article ("A rabbit", "The pick-up point"). Not for numbers ("One" cartridge), colours ("Yellow"), combinations ("One and zero") or "name (1/4)" chokes. Unknown id: error `term-unknown`; English text that is not a name of the term: warning `quiz-term-option`. |
 | `exam_pool` | more questions of the same shape (from merged lessons): used by route exams and Practice. No question is lost. |
 | `evidence` | psychology/health: `[{for: "<body key>", level: "strong"\|"some"\|"little"\|"coaches", sources: [url]}]`, shown as "Добре досліджено" / "Є дослідження" / "Мало досліджень" / "Досвід тренерів". null for other lessons. |
 | `h_uk` | `{key: hash}` — hash of the English text the Ukrainian was written from (same rule as overlays). The build warns when en changed and uk did not. |
@@ -181,7 +181,7 @@ has `null` titles. Missing interface strings (`ui/<lang>.json`) fall back to Eng
 
 | Token | Output |
 |---|---|
-| `{{term:id\|form}}` | link to `/<p>glossary/<id>/` with the glossary's `term_local`; `form` is the inflected form (uk, lt, fi, cs, pl) |
+| `{{term:id\|form}}` | link to `/<p>glossary/<id>/` with the glossary's `term_local`; `form` is the inflected form (uk, lt, fi, cs, pl). Running text: unchanged in step 1 of the term rule (§9); the term chips of the lesson show the label “English (local)” |
 | `{{tm:sporting}}`, `{{tm:compak}}` | "Parcours de Chasse – Sporting™" (later in the same lesson "Sporting™") and "Compak® Sporting" |
 | `{{rule:book:id}}` | link to the rules guide item with `?lang=` (the guide itself is noindex) |
 | `{{lesson:id}}` | link to that lesson in the same language, with its title in that language |
@@ -239,7 +239,8 @@ games. Nothing is built twice.
  levels: {xp, levels: [{id, min_xp, title}]}, badges: [{id, kind, ref, rule, title}]}
 ```
 
-**b) `docs/learn/data/<lang>/lessons/<id>.json`** — the lesson itself (`lessons[id].data` is its URL), fetched when the lesson
+**b) `docs/learn/data/<lang>/lessons/<id>.json`** — the lesson itself (`terms[]`: `en` = English name, `local` = the word in brackets, "" when it
+is the English one, `label` = "English (local)" from `docs/shared/terms.js`; `quiz[].options[].text` of an option with `term` is that label) (`lessons[id].data` is its URL), fetched when the lesson
 page needs the interactive parts:
 
 ```
@@ -261,11 +262,13 @@ page needs the interactive parts:
 the `quiz` and `exam_pool` questions of the route's required lessons, same shape as `quiz` above plus `lesson`.
 
 **d) `docs/learn/data/<lang>/ui.json`** — the interface strings of `ui/<lang>.json` with the English fallback filled in
-(was `catalog.ui` until 10.2026; the app still accepts a catalog that carries `ui` itself, e.g. an API that keeps one response):
+(was `catalog.ui` until 10.2026; the app still accepts a catalog that carries `ui` itself, e.g. an API that keeps one response),
+and the names of the terms the animations show (`docs/shared/sims.js` `TERM_IDS`: flights, canvas points, lead-lab methods, pairs, scene tabs):
 
 ```
-{lang, rev, ui: {key: text}, ui_fallback: [keys shown in English]}
+{lang, rev, ui: {key: text}, ui_fallback: [keys shown in English], terms: {id: {en, local?}}}
 ```
+`local` = the word to show in brackets (`ClayTerms.local()`; absent when it is the English word); sims.js makes the label with `docs/shared/terms.js`.
 
 **e) `docs/learn/data/<lang>/phrases.json`** — the phrase index: every Stand Talk phrase of the lessons published in that language,
 in block and lesson order, for the Practice games "Зрозумійте / перекладіть тренера" and "Розмовник" (one request instead of one per
@@ -319,12 +322,16 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   links from the ids (`/<p>learn/<id>/`, `topics/<block>/`, `routes/<route>/`, `practice/<game>/`), so `url` fields are for the
   pages and SEO. `alt` may be `{lang: url}` or a list of language codes (a list keeps the catalog near the ~30 KB target).
 - Phrases have no `core` flag in the lesson file: the phrasebook shows every phrase of the lessons of the chosen block (from `phrases.json`).
-- **Languages inside the animations** (decision 10.2026, `docs/shared/sims.js` header): glossary terms drawn on the canvas (Pick-up point,
-  Hold point, Break point, Soft focus, Hard focus) and the coach's phase words above it (“move · mount · shoot”, “butt · belly · beak · bang”)
-  stay in English — the stand words the course teaches; every other word (buttons, status line, clock, “line”, “decision”, “shot”, “lead”,
-  “front foot”, “body”, “cheek on the comb”, scene and pair tabs) is in the page language (ui keys `anim_*` and the lab keys, 11 languages).
-  Flight tabs show the English stand word plus the local term when it differs (“Crosser → · <local>”). Outside the Academy the local term
-  names come from `docs/shared/sims-text.js` (`window.CLAYSIMS_TERMS`, written by the build next to `window.CLAYSIMS_TEXT`).
+- **Languages inside the animations** (decision 10.2026, `docs/shared/sims.js` header; terms: owner rule 08.10.2026, §9): words drawn ON the
+  canvas are English in every language, without brackets (no room on a phone): the glossary terms (Pick-up point, Hold point, Break point, Soft
+  focus, Hard focus) and the pills “decision”, “shot”, “lead”, “line” (until 08.10.2026 these four were translated; their ui keys are gone), and
+  the coach's phase words above it (“move · mount · shoot”, “butt · belly · beak · bang”). Term NAMES outside the canvas are “English (local)”
+  through `docs/shared/terms.js`: flight tabs and the name under a flight (“Crosser (поперечна мішень) →”), pair tabs and captions (ui `pair_*`
+  = “{term}: …”), the scene tabs Gun mount, Ready position and “Compak® Sporting: {term}” (Sonopull), the lead-lab methods (glossary ids, the old
+  ui keys `m_*` are gone). Every other word (buttons, status line, clock, units, “front foot”, “body”, “cheek on the comb”, the other scene tabs)
+  is in the page language (ui keys `anim_*` and the lab keys, 11 languages). Term names come from the lesson's `terms[]`, then `ui.json`
+  `terms` (Academy), outside the Academy from `docs/shared/sims-text.js` (`window.CLAYSIMS_TERMS = {lang: {id: [en, local?]}}`, written by the
+  build next to `window.CLAYSIMS_TEXT`).
 - **Ukrainian:** every uk file and page writes the apostrophe as ’ (U+2019) between Cyrillic letters, whatever the source used.
 - **Rules trainer result** (not a build file): the trainer `docs/rules/trainer/` writes `localStorage["clayarena-trainer"].stats[disc]`
   `{best, short_best, short_at, …}`; the app reads it through `docs/shared/progress.js` (`trainerPass`). A route practice item
@@ -350,6 +357,13 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   permission (`FITASC_INDEX = false` in `scripts/build_seo.mjs`; the same switch drives `index: "fitasc"` here). Only the project owner turns it on.**
   Academy lessons, including the "Правила" block, are our own teaching texts and are indexed: keep them short and practical; penalty tables only in the guide.
 - **Trademarks:** "Parcours de Chasse – Sporting™" / "Sporting™" and "Compak® Sporting" in titles, headings, meta and previews (`{{tm:…}}`).
+- **Terms in English (owner rule 08.10.2026):** a professional shooting term is always given in English in every language, the local word in
+  brackets as an explanation: uk «Swing-through (протяжка)», «Rabbit (заєць)», «Gun mount (вкладка)»; English pages: the English term only; a local
+  word that is the same as the English or a plain transliteration (uk «батю» = Battue) is not repeated. The English is the glossary's English term,
+  the local word the glossary's `term_local` (`docs/glossary/data/i18n/<lang>.js`), composed by ONE helper, `docs/shared/terms.js`. **Step 1
+  (08.10.2026): labels** — term chips, glossary headwords and lists, search results, animation tabs and names, lead-lab methods, quiz options with
+  `term` (§3), Practice answers. Words on the canvas: English only. **Step 2 (next): running text** of lessons (`{{term:id}}` tokens without a form
+  still show the local name, `localTerm()` in the build). DEVELOPERS.md §4l.
 - **Wording:** plain and cautious (no proven / best / ideal / never outside safety rules): "many coaches suggest", "you can try".
   A professional term plus a short plain explanation. Ukrainian terms: вкладка (gun mount), заєць (rabbit, owner decision 07.10.2026), дуплет, точка пострілу, точка підхоплення,
   точка утримання (hold point), провідне око (master eye), передпостріловий ритуал, стрілецьке місце (у Compak® — номер),
@@ -388,6 +402,10 @@ the 9 overlays, facts and their translations, `_shared.json`, `ui/*.json`, block
 entry (`glossary.js`, `learn_terms.js`, `i18n/<lang>.js`, `i18n/ui-<lang>.json`); ids, token ids, URLs, `src`, `sources` and
 aliases are not checked. The plain English "trap"/"trapper" (the machine and its operator) is allowed. Patterns:
 `OTHER_DISCIPLINE_RE` in `scripts/academy/lint.mjs`.
+
+Option terms (§3, owner rule 08.10.2026): an option `term` that is not in the glossary is an error (`term-unknown`); an option whose English text
+is not a name of its term (headword, display name, aka or their start) is a warning (`quiz-term-option`). The rules trainer bank (`docs/rules/data/
+quiz-*.js`) is read for its option terms too (an unknown one: warning `term-unknown`).
 
 Warnings: stop words in all 11 languages (`stop-word`: proven, best, ideal, never, every, most coaches, «перевірений», «найкращий»,
 «ідеальний», …; "never" is fine in `warn` blocks and the safety block; the check reads our own wording only: tokens with their ids and
