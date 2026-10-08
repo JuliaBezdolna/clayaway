@@ -1,25 +1,25 @@
 {
   "id": "chokes-choosing-for-distance",
   "lang": "fi",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "899ed9f0",
     "summary": "2433ecf5",
     "chokes-choosing-for-distance-p1": "18c7faa3",
     "chokes-choosing-for-distance-cmp1": "ed251d47",
-    "chokes-choosing-for-distance-p2": "0b25f4b2",
+    "chokes-choosing-for-distance-p2": "ab096462",
     "chokes-choosing-for-distance-p7": "bfeb8f32",
     "chokes-choosing-for-distance-p3": "8cd85c18",
     "chokes-choosing-for-distance-p4": "1bec6b23",
     "chokes-choosing-for-distance-p5": "c2793354",
     "chokes-choosing-for-distance-p6": "3a797ad0",
     "chokes-choosing-for-distance-kp1": "85a0aef4",
-    "chokes-choosing-for-distance-kp2": "7ef1ef53",
+    "chokes-choosing-for-distance-kp2": "e3ca528b",
     "chokes-choosing-for-distance-kp3": "316eb7bc",
     "chokes-choosing-for-distance-kp4": "a668cfcb",
     "chokes-choosing-for-distance-kp5": "42fc8973",
     "chokes-choosing-for-distance-dyk": "6d4e4236",
-    "chokes-choosing-for-distance-q1": "5f3c346d",
+    "chokes-choosing-for-distance-q1": "ba4efb0a",
     "chokes-choosing-for-distance-q2": "fa23b5d9",
     "chokes-choosing-for-distance-q3": "a8a0d8ea",
     "chokes-choosing-for-distance-q4": "ae2aa937"
@@ -38,7 +38,7 @@
       "compak": "Kiekot lentävät merkityn {{term:fly-over-zone|suorakulmion}} yllä, joka on 35–40 m leveä ja 25 m syvä ampumapaikkojen edessä."
     },
     "chokes-choosing-for-distance-p2": [
-      "Noin 20 metriin asti: sylinteri tai skeet.",
+      "Noin 20 metriin asti: sylinteri tai hyvin kevyt supistaja (1/8).",
       "Noin 20–30 m: improved cylinder (1/4) tai light modified.",
       "Noin 30–35 m: modified (1/2).",
       "Yli noin 35 m: improved modified (3/4), ja joskus full."
@@ -53,7 +53,7 @@
   "phrases": {},
   "key_points": {
     "chokes-choosing-for-distance-kp1": "Valitse supistaja sen etäisyyden mukaan, jolta ammut.",
-    "chokes-choosing-for-distance-kp2": "Karkea opas: 20 m:iin asti sylinteri tai skeet, 20–30 m IC tai LM, 30–35 m M, yli 35 m IM.",
+    "chokes-choosing-for-distance-kp2": "Karkea opas: 20 m:iin asti sylinteri tai 1/8, 20–30 m IC tai LM, 30–35 m M, yli 35 m IM.",
     "chokes-choosing-for-distance-kp3": "Avoimempi supistaja ensimmäiseen laukaukseen, tiiviimpi toiseen.",
     "chokes-choosing-for-distance-kp4": "IC ja M -pari on suosittu yleiskäyttöinen valinta.",
     "chokes-choosing-for-distance-kp5": "Aloittelijoilla menee usein paremmin avoimemmilla supistajilla lähi- ja keskikiekoissa."
@@ -64,7 +64,7 @@
       "q": "Mikä supistaja sopii karkeasti kiekkoon noin 30–35 m etäisyydellä?",
       "options": {
         "a": "Sylinteri",
-        "b": "Skeet",
+        "b": "Improved cylinder (1/4)",
         "c": "Modified (1/2)",
         "d": "Extra full"
       },

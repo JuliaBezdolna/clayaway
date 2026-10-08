@@ -2,8 +2,8 @@
 window.FITASC_CATEGORIES = {
  "source_url": "https://www.fitasc.com/competitions/categories",
  "valid_from": "2027-01-01",
- "scope_uk": "Міжнародні правила FITASC для Compak® Sporting, Parcours de Chasse – Sporting™ та інших дисциплін FITASC (крім комбінованої мисливської дисципліни, для якої таблиця інша).",
- "scope_en": "International FITASC rules for Compak® Sporting, Parcours de Chasse – Sporting™ and other FITASC disciplines (except the combined hunting discipline, which has a different table).",
+ "scope_uk": "Міжнародні правила FITASC для Compak® Sporting і Parcours de Chasse – Sporting™.",
+ "scope_en": "International FITASC rules for Compak® Sporting and Parcours de Chasse – Sporting™.",
  "categories": [
   {
    "id": "junior",
@@ -101,8 +101,8 @@ window.FITASC_CATEGORIES = {
    "eligible_en": "Men, junior boys, Senior, Veteran and Master",
    "size": 3,
    "size_sporting": 4,
-   "note_uk": "У Parcours de Chasse – Sporting™ команда Men складається з 4 стрільців, в інших дисциплінах — з 3.",
-   "note_en": "In Parcours de Chasse – Sporting™ the Men team has 4 shooters; in other disciplines, 3."
+   "note_uk": "У Parcours de Chasse – Sporting™ команда Men — 4 стрільці, у Compak® Sporting — 3.",
+   "note_en": "In Parcours de Chasse – Sporting™ the Men team has 4 shooters, in Compak® Sporting 3."
   },
   {
    "team": "Senior",
@@ -134,15 +134,13 @@ window.FITASC_CATEGORIES = {
   "Таблиця діє з 1 січня 2027 року. Межі за роками народження наведено для сезону 2027; щороку вони зсуваються на один рік. Для змагань до 1 січня 2027 року перевіряйте таблицю, чинну на той час, на сайті FITASC.",
   "Це міжнародні правила FITASC. Національні федерації, клуби й організатори національних змагань можуть мати власні категорії та вікові межі — їх указує програма змагань.",
   "Стрілець, якого включили до команди іншої категорії (наприклад, юніора до команди Men або юніорку до команди Lady), повинен виступати в цій категорії й в особистому заліку.",
-  "Senior у FITASC — це 56–65 років, а не основна доросла категорія; основна доросла — Men (Homme). У старих протоколах і деяких національних програмах можуть траплятися інші назви, наприклад Super Veteran.",
-  "Для комбінованої мисливської дисципліни (combined hunting) FITASC має окрему таблицю; тут її не наведено."
+  "Senior у FITASC — це 56–65 років, а не основна доросла категорія; основна доросла — Men (Homme). У старих протоколах і деяких національних програмах можуть бути й інші назви, наприклад Super Veteran."
  ],
  "notes_en": [
   "The category depends on the year of birth, not the date: a new category applies from 1 January of the year in which the shooter reaches the age.",
   "The table applies from 1 January 2027. The birth-year limits are given for the 2027 season and move on by one year each year. For competitions before 1 January 2027, check the table in force at the time on the FITASC website.",
   "These are international FITASC rules. National federations, clubs and organisers of national events may use their own categories and age limits; the competition programme states them.",
   "A shooter selected for a team of another category (for example a junior in the Men team or a junior girl in the Lady team) must also enter that category individually.",
-  "In FITASC Senior means 56–65, not the main adult category; the main adult category is Men (Homme). Older results and some national programmes may use other names, such as Super Veteran.",
-  "FITASC has a separate table for the combined hunting discipline; it is not given here."
+  "In FITASC Senior means 56–65, not the main adult category; the main adult category is Men (Homme). Older results and some national programmes may use other names, such as Super Veteran."
  ]
 };

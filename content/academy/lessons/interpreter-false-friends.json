@@ -1,6 +1,6 @@
 {
   "id": "interpreter-false-friends",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -106,7 +106,7 @@
     "uk": "Хибні друзі на стрільбищі"
   },
   "summary": {
-    "en": "Shooting words that look familiar but mean something else: smoke and dust, scoring words, “trap”, “stand” and “squad”, and traps from French, Italian and Portuguese.",
+    "en": "Shooting words that look familiar but mean something else: smoke and dust, scoring words, “trap”, “stand” and “squad”, and pitfalls from French, Italian and Portuguese.",
     "uk": "Стрілецькі слова, які здаються знайомими, але означають інше: дим і пил, слова підрахунку, «trap», «stand» і «squad», а також пастки французької, італійської й португальської."
   },
   "body": [
@@ -136,8 +136,8 @@
       "k": "interpreter-false-friends-p3",
       "t": "p",
       "core": true,
-      "en": "Equipment and place words. A “{{term:trap|trap}}” is the throwing machine, not a snare; Trap is also an Olympic discipline. A “stand” is a single shooting place, the {{term:shooting-stand|shooting stand}}, not the whole ground; in {{tm:compak}} the places are often called stations. A “{{term:peg|peg}}” is the shooting position. The name comes from the numbered stake that marks each shooter’s place at a driven game shoot, so do not translate it as a stake. A “broken gun” is an open gun. “Pull!” is the {{term:call|call}}, “{{term:pull-away|pull-away}}” is a lead method and “{{term:length-of-pull|length of pull}}” is the length of the stock, from the trigger to the butt pad.",
-      "uk": "Слова про обладнання й місце. «Trap» — це метальна {{term:trap|машинка}}, а не «пастка»; Trap — ще й олімпійська дисципліна. «Stand» — одне місце для стрільби, {{term:shooting-stand|стрілецьке місце}}, а не весь стенд; у {{tm:compak}} такі місця називають номерами. «{{term:peg|Peg}}» — місце стрільця: назва походить від номерного кілочка, яким на загінному полюванні позначають номер кожного стрільця, тож не перекладайте її як «кілок». «Broken gun» — відкрита (переламана) рушниця. «Pull!» — це {{term:call|команда}}, «{{term:pull-away|pull-away}}» — метод виносу (вихід з мішені), а «{{term:length-of-pull|length of pull}}» — довжина приклада."
+      "en": "Equipment and place words. A “{{term:trap|trap}}” is the throwing machine, not a snare. A “stand” is a single shooting place, the {{term:shooting-stand|shooting stand}}, not the whole ground; in {{tm:compak}} the places are often called stations. A “{{term:peg|peg}}” is the shooting position. The name comes from the numbered stake that marks each shooter’s place at a driven game shoot, so do not translate it as a stake. A “broken gun” is an open gun. “Pull!” is the {{term:call|call}}, “{{term:pull-away|pull-away}}” is a lead method and “{{term:length-of-pull|length of pull}}” is the length of the stock, from the trigger to the butt pad.",
+      "uk": "Слова про обладнання й місце. «Trap» — це метальна {{term:trap|машинка}}, а не «пастка». «Stand» — одне місце для стрільби, {{term:shooting-stand|стрілецьке місце}}, а не весь стенд; у {{tm:compak}} такі місця називають номерами. «{{term:peg|Peg}}» — місце стрільця: назва походить від номерного кілочка, яким на загінному полюванні позначають номер кожного стрільця, тож не перекладайте її як «кілок». «Broken gun» — відкрита (переламана) рушниця. «Pull!» — це {{term:call|команда}}, «{{term:pull-away|pull-away}}» — метод виносу (вихід з мішені), а «{{term:length-of-pull|length of pull}}» — довжина приклада."
     },
     {
       "k": "interpreter-false-friends-cards",
@@ -150,7 +150,7 @@
       "k": "interpreter-false-friends-p4",
       "t": "p",
       "core": true,
-      "en": "Other languages have their own traps. French “chandelle” is a target that springs almost straight up, which English calls a {{term:teal|teal}}. It is not the English {{term:chandelle|chandelle}}, a target that climbs steeply in a curve and then drops. French “en battue” and Italian “in battuta” mean {{term:driven-target|driven}} game, not the {{term:battue|battue}} target. In Portuguese, “batida” is the battue target, while “de batida” means driven. For a hit a French referee says “Bon” and an Italian “Buono”, and the {{term:trapper|trapper}} is often a “pulleur” or “puller”. Words for the squad also differ, so use the word of the event’s own rulebook.",
+      "en": "Other languages have their own pitfalls. French “chandelle” is a target that springs almost straight up, which English calls a {{term:teal|teal}}. It is not the English {{term:chandelle|chandelle}}, a target that climbs steeply in a curve and then drops. French “en battue” and Italian “in battuta” mean {{term:driven-target|driven}} game, not the {{term:battue|battue}} target. In Portuguese, “batida” is the battue target, while “de batida” means driven. For a hit a French referee says “Bon” and an Italian “Buono”, and the {{term:trapper|trapper}} is often a “pulleur” or “puller”. Words for the squad also differ, so use the word of the event’s own rulebook.",
       "uk": "Інші мови мають свої пастки. Французьке «chandelle» — мішень, що злітає майже вертикально вгору; англійською це {{term:teal|teal}} (чирок). Це не англійська {{term:chandelle|chandelle}} — мішень, що круто набирає висоту по дузі й потім падає. Французьке «en battue» та італійське «in battuta» означають загінне полювання ({{term:driven-target|driven}}), а не мішень {{term:battue|батю}}. У португальській «batida» — це мішень батю, а «de batida» — загінна. Французький суддя на влучання каже «Bon», італійський — «Buono», а {{term:trapper|оператора машинки}} часто називають «pulleur» або «puller». Слова для групи теж різняться, тож уживайте те, яке є в регламенті змагань."
     }
   ],
@@ -382,13 +382,13 @@
   "evidence": null,
   "h_uk": {
     "title": "93be8a38",
-    "summary": "2c55b920",
+    "summary": "65b49fa5",
     "interpreter-false-friends-intro": "39c55cd5",
     "interpreter-false-friends-p1": "3e0535c1",
     "interpreter-false-friends-p2": "3cf9ded2",
-    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-p3": "d259b08c",
     "interpreter-false-friends-cards": "3645d5da",
-    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-p4": "54eb687c",
     "interpreter-false-friends-ph1": "7ff90f13",
     "interpreter-false-friends-ph2": "3677adad",
     "interpreter-false-friends-ph3": "f46276ac",

@@ -114,7 +114,7 @@ window.GLOSSARY_I18N.it = {
   "tower": {
    "term_local": "torre",
    "short": "Posizione sopraelevata di una macchina dietro le pedane del Compak, almeno 4 m più in alto.",
-   "long": "Le macchine del Compak si possono collocare liberamente, purché nessun piattello, nemmeno un No Bird, possa mettere in pericolo qualcuno. Una macchina posta dietro le pedane di tiro deve essere almeno 4 m più alta delle pedane. La traiettoria obbligatoria in allontanamento che attraversa il lato BC può partire da una torre di questo tipo oppure da una macchina in fossa o a terra davanti alle pedane.",
+   "long": "Le macchine del Compak si possono collocare liberamente, purché nessun piattello, nemmeno un No Bird, possa mettere in pericolo qualcuno. Una macchina posta dietro le pedane di tiro deve essere almeno 4 m più alta delle pedane. La traiettoria obbligatoria in allontanamento che attraversa il lato BC può partire da una torre di questo tipo oppure da una macchina interrata o appoggiata a terra davanti alle pedane.",
    "disciplines": {
     "compak": "La regola dei 4 m è nel regolamento Compak (2.4)."
    },
@@ -1042,7 +1042,7 @@ window.GLOSSARY_I18N.it = {
   "category": {
    "term_local": "categoria",
    "short": "Una classifica separata per età e sesso accanto alla classifica assoluta; dal 2027 la FITASC usa Junior, Lady, Men, Senior, Veteran e Master.",
-   "long": "Dal 1° gennaio 2027 la FITASC stabilisce sei categorie per Compak® Sporting, Parcours de Chasse – Sporting™ e le altre sue discipline: Junior (13–20), Lady (da 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) e Master (da 73, uomini o donne). L'età si conta per anno di nascita: una nuova categoria si applica dal 1° gennaio dell'anno in cui il tiratore compie quell'età, qualunque sia il giorno del compleanno. Senior non è la categoria adulta principale, ma la fascia d'età 56–65; la categoria adulta principale è Men. Le squadre di categoria hanno 3 tiratori (la squadra Men dello Sporting ne ha 4), e il tiratore selezionato per una squadra di un'altra categoria deve iscriversi anche individualmente a quella categoria. Nel Compak le parità per i primi tre posti di ogni categoria si decidono con lo spareggio; quando i tiratori di uno spareggio della classifica assoluta appartengono alla stessa categoria, il risultato vale anche per quella categoria. Le gare nazionali e di club possono usare categorie proprie, indicate nel programma.",
+   "long": "Dal 1° gennaio 2027 la FITASC stabilisce sei categorie per Compak® Sporting e Parcours de Chasse – Sporting™: Junior (13–20), Lady (da 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) e Master (da 73, uomini o donne). L'età si conta per anno di nascita: una nuova categoria si applica dal 1° gennaio dell'anno in cui il tiratore compie quell'età, qualunque sia il giorno del compleanno. Senior non è la categoria adulta principale, ma la fascia d'età 56–65; la categoria adulta principale è Men. Le squadre di categoria hanno 3 tiratori (la squadra Men dello Sporting ne ha 4), e il tiratore selezionato per una squadra di un'altra categoria deve iscriversi anche individualmente a quella categoria. Nel Compak le parità per i primi tre posti di ogni categoria si decidono con lo spareggio; quando i tiratori di uno spareggio della classifica assoluta appartengono alla stessa categoria, il risultato vale anche per quella categoria. Le gare nazionali e di club possono usare categorie proprie, indicate nel programma.",
    "disciplines": {
     "sporting": "La squadra Men ha 4 tiratori; le squadre delle altre categorie ne hanno 3.",
     "compak": "Spareggi separati per il podio di ogni categoria."
@@ -1263,15 +1263,6 @@ window.GLOSSARY_I18N.it = {
     "extended"
    ],
    "conf": "low"
-  },
-  "skeet-choke": {
-   "term_local": "skeet",
-   "short": "Strozzatura molto leggera, circa 0,1–0,15 mm (4–6 thou), per i piattelli più vicini.",
-   "long": "Lo strozzatore skeet prende il nome dalla disciplina in cui i piattelli volano molto vicini. È solo leggermente più chiuso del cilindrico: circa 0,1–0,15 mm di strozzatura (4–6 thou), talvolta indicato come 1/8 nell'uso europeo. La rosata è larga a breve distanza e perdona i piccoli errori. Nello Sporting™ e nel Compak® Sporting si usa per piattelli vicini, rabbit e piattelli che si alzano vicino. I valori esatti dipendono dal produttore.",
-   "alt": [
-    "strozzatura skeet"
-   ],
-   "conf": "medium"
   },
   "improved-cylinder": {
    "term_local": "4 stelle",
@@ -1806,8 +1797,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "blocco"
    ],
-   "conf": "medium",
-   "src": "https://migratoria.it/threads/strappare-al-tiro-a-volo.50858/"
+   "conf": "medium"
   },
   "pre-shot-routine": {
    "term_local": "routine",
@@ -2085,16 +2075,6 @@ window.GLOSSARY_I18N.it = {
    "term_local": "Riepilogo della stagione",
    "short": "Un riassunto ClayArena della stagione: le gare principali dell'anno, i vincitori e le prestazioni.",
    "long": "I riepiloghi di stagione su ClayArena riuniscono i momenti salienti dell'anno nello Sporting™ e nel Compak® Sporting: gare principali, vincitori e prestazioni di rilievo. Per un principiante sono un modo semplice per sapere chi è in forma e quali eventi hanno contato di più. Insieme ai video delle gare e al calendario aiutano a orientarsi rapidamente nel mondo del tiro a volo. Dopo una vostra gara vale la pena dare un'occhiata: potrebbe esserci anche la vostra prestazione."
-  },
-  "olympic-trap": {
-   "term_local": "Fossa Olimpica",
-   "short": "Disciplina olimpica: i piattelli escono da una fossa e si allontanano dal tiratore con angolazioni variabili; a ciascuno si possono sparare due colpi.",
-   "long": "Nella Fossa Olimpica le macchine sono nascoste in una fossa davanti a una linea di cinque pedane di tiro, e i piattelli si allontanano dal tiratore ad alta velocità con angolazioni e altezze variabili. A ciascun piattello si possono sparare due colpi. Il tiratore chiama con il fucile già imbracciato, e il piattello parte alla chiamata. La disciplina è governata dall'ISSF, non dalla FITASC, e fa parte del programma olimpico. Per i tiratori di Sporting™ e Compak® Sporting la fossa è un utile allenamento per reagire rapidamente ai piattelli in allontanamento."
-  },
-  "skeet": {
-   "term_local": "Skeet",
-   "short": "Disciplina con due torri (alta e bassa) i cui piattelli attraversano il campo; le pedane sono disposte a semicerchio.",
-   "long": "Nello skeet due casotti di lancio si trovano alle estremità di un semicerchio: una torre alta da un lato e una bassa dall'altro. I piattelli volano uno verso l'altro lungo traiettorie fisse, e il tiratore si sposta tra le pedane del semicerchio tirando singoli e doppietti. Lo skeet olimpico è governato dall'ISSF; esistono anche varianti nazionali, come l'English Skeet, con regole in parte diverse. Le traiettorie dello skeet sono fisse, quindi la disciplina è adatta per sviluppare la tecnica sui piattelli traversanti. Da essa prende il nome il leggero strozzatore skeet."
   },
   "guardian-consent": {
    "term_local": "Consenso dei genitori (o tutori)",
@@ -2522,7 +2502,7 @@ window.GLOSSARY_I18N.it = {
    ],
    "conf": "high",
    "short": "Farmaco per il cuore che rallenta il battito e riduce il tremore; secondo la lista WADA nel tiro è proibito sempre, in gara e fuori gara.",
-   "long": "Esempi sono propranololo, atenololo, bisoprololo e metoprololo. Sono proibiti negli sport di precisione perché un cuore più lento e meno tremore possono rendere il fucile più fermo. La lista WADA nomina il tiro attraverso la federazione olimpica (ISSF) e il tiro paralimpico (IPC), non la FITASC; considerate comunque i betabloccanti proibiti anche nello Sporting™ e nel Compak® Sporting: le agenzie nazionali antidoping possono fare controlli nelle gare nazionali, gli organizzatori possono applicare la lista WADA e molti tiratori gareggiano anche in eventi ISSF. Se un medico vi ha prescritto un betabloccante, non sospendetelo da soli; chiedete per tempo un'alternativa consentita o una TUE. Questo non è un consiglio medico."
+   "long": "Esempi sono propranololo, atenololo, bisoprololo e metoprololo. Sono proibiti negli sport di precisione perché un cuore più lento e meno tremore possono rendere il fucile più fermo. La lista WADA non nomina a parte lo Sporting™ né il Compak® Sporting; considerate comunque i betabloccanti proibiti anche lì: le agenzie nazionali antidoping possono fare controlli nelle gare nazionali e gli organizzatori possono applicare la lista WADA. Se un medico vi ha prescritto un betabloccante, non sospendetelo da soli; chiedete per tempo un'alternativa consentita o una TUE. Questo non è un consiglio medico."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2545,8 +2525,8 @@ window.GLOSSARY_I18N.it = {
     "occhio quieto"
    ],
    "conf": "medium",
-   "short": "L'ultimo sguardo stabile sul piattello prima del movimento; nei tiratori esperti di solito inizia prima e dura di più.",
-   "long": "I ricercatori misurano il quiet eye come l'ultimo sguardo stabile prima che inizi un movimento. Rispetto ai tiratori meno esperti, i tiratori di vertice di fossa e skeet lo iniziano prima e lo tengono più a lungo, e di solito è più lungo sui piattelli colpiti che su quelli mancati. Sotto ansia spesso si accorcia. Non esiste un numero magico di millisecondi da raggiungere: nel tiro a volo significa vedere il piattello presto e chiaramente e tenerci gli occhi sopra per tutto il colpo. La maggior parte dei dati viene dalla fossa olimpica e dallo skeet; probabilmente vale anche per lo Sporting™ e il Compak® Sporting."
+   "short": "L'ultimo sguardo stabile sul piattello prima del movimento; negli atleti esperti di solito inizia prima e dura di più.",
+   "long": "I ricercatori misurano il quiet eye come l'ultimo sguardo stabile prima che inizi un movimento. Negli studi di molti sport, gli atleti più esperti di solito lo iniziano prima e lo tengono più a lungo, e di solito è più lungo nei tentativi riusciti che in quelli falliti. Sotto ansia spesso si accorcia. Non esiste un numero magico di millisecondi da raggiungere: nel tiro a volo significa vedere il piattello presto e chiaramente e tenerci gli occhi sopra per tutto il colpo. Nello Sporting™ e nel Compak® Sporting non è stato studiato; probabilmente funziona allo stesso modo."
   },
   "self-talk": {
    "term_local": "dialogo interno",
@@ -2583,7 +2563,7 @@ window.GLOSSARY_I18N.it = {
    ],
    "conf": "medium",
    "short": "Tirare nettamente sotto il proprio livello abituale a causa della pressione, spesso quando si inizia a guidare consapevolmente un gesto che di solito va da solo.",
-   "long": "Da non confondere con lo strozzatore della canna. Sotto pressione un tiratore può iniziare a controllare passo per passo l'imbracciata o il movimento, e la preoccupazione allontana gli occhi dal piattello. Segnali: un ritmo che cambia, l'imbracciata controllata, gli occhi sulla canna o sul mirino, i punteggi tenuti d'occhio. Cosa può aiutare: la solita routine e il solito ritmo, una sola parola chiave semplice sul piattello, obiettivi di processo e allenamento sotto una pressione che cresce poco a poco. La maggior parte delle ricerche viene da altri sport e dalla fossa olimpica e dallo skeet; probabilmente vale anche per lo Sporting™ e il Compak® Sporting. Se la pressione rovina spesso le vostre gare, uno psicologo dello sport può aiutarvi."
+   "long": "Da non confondere con lo strozzatore della canna. Sotto pressione un tiratore può iniziare a controllare passo per passo l'imbracciata o il movimento, e la preoccupazione allontana gli occhi dal piattello. Segnali: un ritmo che cambia, l'imbracciata controllata, gli occhi sulla canna o sul mirino, i punteggi tenuti d'occhio. Cosa può aiutare: la solita routine e il solito ritmo, una sola parola chiave semplice sul piattello, obiettivi di processo e allenamento sotto una pressione che cresce poco a poco. La maggior parte delle ricerche viene dal laboratorio e da altri sport, non dallo Sporting™ o dal Compak® Sporting; probabilmente funziona allo stesso modo anche lì. Se la pressione rovina spesso le vostre gare, uno psicologo dello sport può aiutarvi."
   },
   "reset-routine": {
    "term_local": "routine di ripartenza",
@@ -2704,14 +2684,6 @@ window.GLOSSARY_I18N.it = {
    ],
    "conf": "medium",
    "short": "Sfera di vetro lanciata in aria come bersaglio nell'Ottocento, prima alternativa agli uccelli vivi; in seguito l'ha sostituita il piattello."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Federazione internazionale di tiro sportivo"
-   ],
-   "conf": "high",
-   "short": "La International Shooting Sport Federation, che governa le discipline olimpiche di tiro, tra cui la fossa olimpica e lo skeet; lo Sporting™ e il Compak® Sporting fanno capo alla FITASC."
   },
   "hydration": {
    "term_local": "idratazione",

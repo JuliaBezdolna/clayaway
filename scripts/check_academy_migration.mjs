@@ -2,7 +2,7 @@
 /* =====================================================================================================
    ClayArena Academy — check the one-time migration (scripts/migrate_academy.mjs) against the OLD sources.
 
-   Independent of the migration code: it re-reads docs/learn/data/*.js and docs/interpreter/src/** and proves that
+   Independent of the migration code: it re-reads the old sources (since 08.10.2026 in archive/legacy-docs/: learn/data/*.js and interpreter/src/**) and proves that
      1. every file under content/academy/ parses as JSON (ids.lock too);
      2. there are 142 masters, file name = id, ids are unique, none is a reserved URL word, each sits in exactly
         one section of one block, every route lists existing ids, the interpreter route holds every lesson with
@@ -15,7 +15,7 @@
         first 8 hex of SHA-1 of the English text in the master; h_uk in the masters is right too;
      4c. every old term, rule_ref and source (title, url, rel) is in the master that holds the lesson; every old new_term is
         still pending in new_terms, already in the glossary with the same wording, or kept in todo.term_defs; law blocks keep
-        country and part, and laws/<CC>.json are byte copies of docs/learn/data/laws-<cc>.json; legacy/modules.json keeps
+        country and part, and laws/<CC>.json are byte copies of archive/legacy-docs/learn/data/laws-<cc>.json; legacy/modules.json keeps
         every module and mission title and intro (missions in 11 languages);
      6. keys "k" are unique in each master and in the whole Academy; quiz answers are given by option key;
      7. ids.lock, id-map.json (redirect groups A–G, 737 stubs), ui/<lang>.json (11 languages, incl. the law-table strings), facts.json;
@@ -81,10 +81,12 @@ const get = (rel) => { const v = all.get(rel); if (v === undefined) err(`missing
 
 /* ---------- old sources ---------- */
 const ctx = { window: {} }; vm.createContext(ctx);
-const LD = path.join(ROOT, "docs/learn/data");
+// The frozen old sources were moved out of docs/ (not published any more) to archive/legacy-docs/ on 08.10.2026 (owner decision:
+// the site names no other clay discipline; these files still did). Byte content unchanged, see archive/legacy-docs/README.md.
+const LD = path.join(ROOT, "archive/legacy-docs/learn/data");
 for (const f of fs.readdirSync(LD).filter((f) => f.endsWith(".js")).sort()) vm.runInContext(fs.readFileSync(path.join(LD, f), "utf8"), ctx);
 const OLD_L = new Map(ctx.window.LEARN.flatMap((m) => m.lessons).map((l) => [l.id, l]));
-const ID = path.join(ROOT, "docs/interpreter/src");
+const ID = path.join(ROOT, "archive/legacy-docs/interpreter/src");
 const missions = fs.readdirSync(path.join(ID, "missions")).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(fs.readFileSync(path.join(ID, "missions", f), "utf8")));
 const OLD_I = new Map(missions.flatMap((m) => m.lessons).map((l) => [l.id, l]));
 const TR = {}, TR_MISSIONS = {};
@@ -328,11 +330,11 @@ for (const [o, I] of OLD_I) {
       if (!b || b.country !== String(lt.code).toUpperCase() || b.part !== lt.part) err(`${o}-law${i + 1}: law block missing or changed`); });
   }
   for (const [o, I] of OLD_I) { const M = masters.get(owner[o]); if (M) lists(o, I, M, (I.sources || []).map((s) => ({ url: s.url, en: s.title }))); }
-  // law tables: byte copies of docs/learn/data/laws-<cc>.json, named by the ISO country code in capitals
+  // law tables: byte copies of archive/legacy-docs/learn/data/laws-<cc>.json, named by the ISO country code in capitals
   const lawFiles = fs.readdirSync(LD).filter((f) => /^laws-[a-z]{2}\.json$/.test(f));
   for (const f of lawFiles) { const cc = f.slice(5, 7).toUpperCase(), p = path.join(A, "laws", cc + ".json");
     if (!fs.existsSync(p)) { err(`laws/${cc}.json missing`); continue; }
-    if (fs.readFileSync(p, "utf8") !== fs.readFileSync(path.join(LD, f), "utf8")) err(`laws/${cc}.json is not a byte copy of docs/learn/data/${f}`);
+    if (fs.readFileSync(p, "utf8") !== fs.readFileSync(path.join(LD, f), "utf8")) err(`laws/${cc}.json is not a byte copy of archive/legacy-docs/learn/data/${f}`);
     if (JSON.stringify(all.get(`laws/${cc}.json`)) !== JSON.stringify(ctx.window.LAWS?.[cc.toLowerCase()])) err(`laws/${cc}.json differs from the published laws-${cc.toLowerCase()}.js`); }
   for (const rel of all.keys()) if (rel.startsWith("laws/") && !/^laws\/[A-Z]{2}\.json$/.test(rel)) err(`${rel}: law files are named <ISO country code in capitals>.json`);
   for (const M of masters.values()) for (const b of M.body) if ((b.t === "law" || b.role === "law") && !all.has(`laws/${b.country}.json`)) err(`${M.id} ${b.k}: no laws/${b.country}.json`);

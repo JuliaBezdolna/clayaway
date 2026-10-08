@@ -79,6 +79,19 @@ export function stopWords(text, lang, { allowNever = false } = {}) {
 const LT_LOANWORD_RE = new RegExp(B + "gilz\\p{L}*" + E, "iu");
 export const ltLoanword = text => { const m = String(text || "").match(LT_LOANWORD_RE); return m ? m[0] : null; };
 
+/* ---------- other clay disciplines (error "other-discipline"; owner decision 08.10.2026, SCHEMA.md §9 "Disciplines") ----------
+   The whole site is about Parcours de Chasse – Sporting™ and Compak® Sporting ONLY: no other clay discipline may be named in any
+   language. This list is a tool, not site text (scripts/ is not published). The English word "trap" / "trapper" is the FITASC word
+   for the throwing machine and its operator, so the plain word is NOT matched (only "double trap", "Doppeltrap", "ball-trap", …);
+   in Ukrainian no word may start with «трап» (the machine is «машинка», its operator «оператор машинки»; «трапляється» → «буває»),
+   so that stem IS matched. Lithuanian "skitas" (+ endings) is matched as a whole word. DTL and ABT only in capitals. The owner also
+   removed the federation of the Olympic shooting disciplines from the whole site (08.10.2026: "ISSF, «and other disciplines», …"):
+   its abbreviation (ISSF, Cyrillic ІССФ / ИССФ) and its old name UIT (capitals only) are matched too. The build runs it on the
+   texts (not on ids, URLs, src or aliases) of masters, overlays, facts, ui strings and the glossary. */
+export const OTHER_DISCIPLINE_RE = new RegExp(B + "(?:skeet|skit(?:as|o|ui|ą|e)" + E + "|olymp|olimp|олімп|down[- ]the[- ]line|double[- ]?trap|doppel-?trap|universal[- ]trench|ball-trap|fosse olympique|fosse universelle|fossa olimpica|fossa universale|trench|трап|скіт|скит|issf|ІССФ|ИССФ)", "iu");
+const OTHER_DISCIPLINE_CAPS_RE = new RegExp(B + "(?:DTL|ABT|UIT)" + E, "u");
+export const otherDiscipline = text => { const s = String(text || ""); const m = s.match(OTHER_DISCIPLINE_RE) || s.match(OTHER_DISCIPLINE_CAPS_RE); return m ? m[0] : null; };
+
 /* ---------- real people (warnings): lessons use fictional people or no names (owner decision) ---------- */
 // Names from the project research (psychology_science.md, psychology_practice.md, technique.md: coaches, champions, authors,
 // researchers) and the real people of the ClayAway tour mock-ups (allowed only there). Full names or distinctive surnames.

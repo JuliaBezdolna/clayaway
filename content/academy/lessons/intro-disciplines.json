@@ -1,6 +1,6 @@
 {
   "id": "intro-disciplines",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 1,
@@ -42,8 +42,6 @@
     "round",
     "trap",
     "fitasc",
-    "olympic-trap",
-    "skeet",
     "gun-mount",
     "shooting-stand"
   ],
@@ -119,12 +117,12 @@
     }
   ],
   "title": {
-    "en": "The main disciplines",
-    "uk": "Основні дисципліни"
+    "en": "The two disciplines",
+    "uk": "Дві дисципліни"
   },
   "summary": {
-    "en": "A short guide to {{tm:sporting}} and {{tm:compak}}, plus Trap and Skeet: what they share and how they differ.",
-    "uk": "Коротко про {{tm:sporting}} і {{tm:compak}}, а також про Trap і Skeet: що в них спільного і чим вони відрізняються."
+    "en": "A short guide to {{tm:sporting}} and {{tm:compak}}: what they share and how they differ.",
+    "uk": "Коротко про {{tm:sporting}} і {{tm:compak}}: що в них спільного і чим вони відрізняються."
   },
   "body": [
     {
@@ -164,22 +162,11 @@
       "uk": "Міжнародні змагання з обох дисциплін зазвичай складаються з {{fact:basics.international-targets}}. В обох дисциплінах по {{term:single-target|одиночній мішені}} можна зробити два постріли: якщо перший не влучив, другий ще може її розбити."
     },
     {
-      "k": "intro-disciplines-p4",
-      "t": "p",
-      "en": "Trap is a different family of disciplines. The shooter stands at one of five stations in a row, and targets fly away out of a trench (a sunken pit in front of the stations) at changing angles. The shooter does not know exactly where the next target will go. In {{term:olympic-trap|Olympic Trap}}, two shots may be fired at each target.",
-      "uk": "Trap — інша група дисциплін. Стрілець стоїть на одному з п’яти місць у ряд, а мішені вилітають від нього з траншеї (заглибленої ями перед цими місцями) під різними кутами. Стрілець не знає заздалегідь, куди саме полетить наступна мішень. В {{term:olympic-trap|олімпійському трапі}} (Olympic Trap) по кожній мішені можна зробити два постріли."
-    },
-    {
-      "k": "intro-disciplines-p5",
-      "t": "p",
-      "en": "In {{term:skeet|Skeet}} the targets come from two houses (small buildings that hold the traps) facing each other, a high one and a low one. The shooter moves between stations on a half-circle between the houses, plus one in the middle. The trajectories do not change, so precise, well-drilled technique matters a lot.",
-      "uk": "У {{term:skeet|скиті}} (Skeet) мішені вилітають із двох будиночків (невеликих споруд, де стоять машинки) один навпроти одного: високого й низького. Стрілець переходить між стрілецькими місцями, розташованими півколом між будиночками, і ще одним посередині. Траєкторії не змінюються, тому тут дуже важлива точна, відпрацьована техніка."
-    },
-    {
       "k": "intro-disciplines-p6",
       "t": "p",
-      "en": "Olympic Trap and Skeet are on the Olympic programme and belong to another international federation, ISSF. But {{term:fitasc|FITASC}} also has trap and skeet disciplines of its own, such as Universal Trench and Universal Skeet. The ClayArena Academy is mostly about {{tm:sporting}} and {{tm:compak}}. The basics are shared by all disciplines: safety, the {{term:gun-mount|gun mount}} (bringing the gun to cheek and shoulder) and reading the target.",
-      "uk": "Olympic Trap і Skeet входять до програми Олімпійських ігор і належать іншій міжнародній федерації — ISSF. Але й {{term:fitasc|FITASC}} має власні дисципліни типу трапу й скиту, як-от Universal Trench і Universal Skeet. Академія ClayArena здебільшого про {{tm:sporting}} і {{tm:compak}}. Основи спільні для всіх дисциплін: безпека, {{term:gun-mount|вкладка}} (рух, яким рушницю підносять до щоки й плеча) і вміння «прочитати» мішень."
+      "en": "Both disciplines belong to {{term:fitasc|FITASC}}, the international federation that writes their rules. They share the basics: safety, the {{term:gun-mount|gun mount}} (bringing the gun to cheek and shoulder) and reading the target.",
+      "uk": "Обидві дисципліни належать до {{term:fitasc|FITASC}} — міжнародної федерації, яка пише для них правила. Основи в них спільні: безпека, {{term:gun-mount|вкладка}} (рух, яким рушницю підносять до щоки й плеча) і вміння «прочитати» мішень.",
+      "disc": "both"
     }
   ],
   "note": [],
@@ -202,8 +189,8 @@
     },
     {
       "k": "intro-disciplines-kp4",
-      "en": "In Trap targets fly away from the shooter; in Skeet they cross between two houses.",
-      "uk": "У Trap мішені летять від стрільця; у Skeet вони перетинають поле між двома будиночками."
+      "en": "Both disciplines follow the FITASC rules and share the basics: safety, gun mount and reading the target.",
+      "uk": "Обидві дисципліни живуть за правилами FITASC і мають спільні основи: безпека, вкладка й читання мішені."
     }
   ],
   "did_you_know": {
@@ -257,13 +244,13 @@
         },
         {
           "k": "b",
-          "en": "Two, a high and a low one",
-          "uk": "Дві: висока й низька"
+          "en": "Four, lettered A to D",
+          "uk": "Чотири, з літерами від A до D"
         },
         {
           "k": "c",
-          "en": "Fifteen, in a trench",
-          "uk": "П’ятнадцять, у траншеї"
+          "en": "Ten, two at each station",
+          "uk": "Десять, по дві біля кожного номера"
         }
       ],
       "correct": "a",
@@ -273,32 +260,33 @@
       }
     },
     {
-      "k": "intro-disciplines-q3",
+      "k": "intro-disciplines-q-course",
+      "disc": "both",
       "q": {
-        "en": "In which discipline do targets come from two houses, a high one and a low one?",
-        "uk": "У якій дисципліні мішені вилітають із двох будиночків — високого й низького?"
+        "en": "In which discipline do you walk a course from stand to stand?",
+        "uk": "У якій дисципліні ви йдете маршрутом від одного стрілецького місця до іншого?"
       },
       "options": [
         {
           "k": "a",
-          "en": "Trap",
-          "uk": "Trap"
+          "en": "{{tm:compak}}",
+          "uk": "{{tm:compak}}"
         },
         {
           "k": "b",
-          "en": "{{tm:sporting}}",
-          "uk": "{{tm:sporting}}"
+          "en": "Both, in the same way",
+          "uk": "В обох однаково"
         },
         {
           "k": "c",
-          "en": "Skeet",
-          "uk": "Skeet"
+          "en": "{{tm:sporting}}",
+          "uk": "{{tm:sporting}}"
         }
       ],
       "correct": "c",
       "explain": {
-        "en": "Skeet has a high house and a low house, with the stations on a half-circle between them.",
-        "uk": "Саме в Skeet є високий і низький будиночки, а стрілецькі місця стоять півколом між ними."
+        "en": "In {{tm:sporting}} you move from stand to stand over natural ground; in {{tm:compak}} you stay on one field and move one station to the right.",
+        "uk": "У {{tm:sporting}} ви переходите від місця до місця природною місцевістю, а в {{tm:compak}} залишаєтеся на одному полі й переходите на номер праворуч."
       }
     }
   ],
@@ -336,24 +324,22 @@
   ],
   "evidence": null,
   "h_uk": {
-    "title": "dac19506",
-    "summary": "58295a84",
+    "title": "41ef701c",
+    "summary": "90e09529",
     "intro-disciplines-p1": "79e1fd27",
     "intro-disciplines-p2": "bad18039",
     "intro-disciplines-cmp": "1ddbb76f",
     "intro-disciplines-p3": "f274bc4d",
-    "intro-disciplines-p4": "072bf2ee",
-    "intro-disciplines-p5": "c1fef81a",
-    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-p6": "f3c62c58",
     "intro-disciplines-kp1": "b3f7bab6",
     "intro-disciplines-kp2": "634ce41c",
     "intro-disciplines-kp3": "fec76055",
-    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-kp4": "56e7d318",
     "intro-disciplines-dyk": "0aa60887",
     "intro-disciplines-q1": "f150b65a",
-    "intro-disciplines-q2": "40032e9f",
-    "intro-disciplines-q3": "6e16194d",
-    "intro-disciplines-q-second-shot": "ecd0ab34"
+    "intro-disciplines-q2": "7316a331",
+    "intro-disciplines-q-second-shot": "ecd0ab34",
+    "intro-disciplines-q-course": "30e84199"
   },
   "todo": {
     "audit": [],

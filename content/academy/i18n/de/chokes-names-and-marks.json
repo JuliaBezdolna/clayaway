@@ -1,17 +1,17 @@
 {
  "id": "chokes-names-and-marks",
  "lang": "de",
- "base_rev": 1,
+ "base_rev": 2,
  "h": {
   "title": "e7b2ef05",
   "summary": "22d688ff",
-  "gear-chokes-p3": "dc515f35",
+  "gear-chokes-p3": "4abeb666",
   "chokes-names-and-marks-p1": "81bdc547",
-  "chokes-names-and-marks-p2": "ef07b37b",
+  "chokes-names-and-marks-p2": "ee920fef",
   "chokes-names-and-marks-p5": "b6f30907",
-  "chokes-names-and-marks-p6": "1b8fdee5",
+  "chokes-names-and-marks-p6": "45f53a59",
   "chokes-names-and-marks-p7": "c0e23a16",
-  "chokes-names-and-marks-kp1": "5c513a88",
+  "chokes-names-and-marks-kp1": "bd2bbbd7",
   "chokes-names-and-marks-kp2": "76965b4c",
   "gear-chokes-kp3": "93bc009b",
   "chokes-names-and-marks-kp4": "8755ddeb",
@@ -19,7 +19,7 @@
   "chokes-names-and-marks-dyk": "7ad51e91",
   "chokes-names-and-marks-q1": "c8c32e0e",
   "chokes-names-and-marks-q2": "daf50685",
-  "chokes-names-and-marks-q4": "4f31ea8b",
+  "chokes-names-and-marks-q4": "8aac2eff",
   "chokes-names-and-marks-q3": "9a68ecf3",
   "gear-chokes-q3": "ded3001e"
  },
@@ -31,11 +31,11 @@
  "title": "Choke-Namen, Engungen und Markierungen",
  "summary": "Von Cylinder bis Full: typische Engungen in Millimetern und Thou, die Bruchzahlen 1/4–1/2–3/4 und die Sternmarkierungen, die bei {{tm:sporting}} und {{tm:compak}} verwendet werden. Die Werte sind ungefähr und unterscheiden sich zwischen den Herstellern.",
  "body": {
-  "gear-chokes-p3": "Die Namen stammen aus dem Englischen, von offen bis eng: Cylinder, Skeet, Improved Cylinder, Light Modified, Modified, Improved Modified, Full. In Europa sagt man oft die Bruchzahlen: Quarter (Improved Cylinder), Half (Modified), Three-Quarter (Improved Modified) und Full. Viele italienische Flinten markieren Chokes mit Sternen, und dort gilt die umgekehrte Regel: mehr Sterne bedeutet einen offeneren Choke.",
+  "gear-chokes-p3": "Die Namen stammen aus dem Englischen, von offen bis eng: Cylinder, Improved Cylinder, Light Modified, Modified, Improved Modified, Full. In Europa sagt man oft die Bruchzahlen: Quarter (Improved Cylinder), Half (Modified), Three-Quarter (Improved Modified) und Full. Viele italienische Flinten markieren Chokes mit Sternen, und dort gilt die umgekehrte Regel: mehr Sterne bedeutet einen offeneren Choke.",
   "chokes-names-and-marks-p1": "Im Folgenden typische {{term:constriction|Engungen}} für das 12er-Kaliber. Ein Thou ist ein Tausendstel Zoll, etwa 0,025 mm. Die tatsächlichen Werte hängen vom Hersteller und sogar von der Bohrung des jeweiligen Laufs ab.",
   "chokes-names-and-marks-p2": [
    "Cylinder: keine Engung, 0 mm.",
-   "Skeet: eine sehr leichte Engung, etwa 0,1–0,15 mm (4–6 Thou); in Europa manchmal 1/8 genannt.",
+   "1/8: eine sehr leichte Engung, etwa 0,1–0,15 mm (4–6 Thou), zwischen Cylinder und Improved Cylinder; die Hersteller benennen sie unterschiedlich.",
    "Improved Cylinder (IC): etwa 0,25 mm (rund 10 Thou), in Europa 1/4, ein Quarter-Choke.",
    "Light Modified (LM): etwa 0,35–0,4 mm (rund 15 Thou), manchmal mit 3/8 markiert.",
    "Modified (M): etwa 0,5 mm (rund 20 Thou), 1/2, ein Half-Choke.",
@@ -43,13 +43,13 @@
    "Full: etwa 0,9–1 mm (35–40 Thou), 1/1 oder einfach Full. Engere Chokes (Extra Full) gibt es, aber das Wurfscheibenschießen braucht sie selten."
   ],
   "chokes-names-and-marks-p5": "Die Bruchzahlen sind im Gespräch praktisch, aber sie sind keine exakten Millimeterangaben: Das 1/2 eines Herstellers kann leicht von dem eines anderen abweichen.",
-  "chokes-names-and-marks-p6": "Italienische Hersteller, zum Beispiel Beretta, verwenden {{term:star-marks|Sternmarkierungen}}: fünf Sterne für Cylinder, vier für Improved Cylinder (1/4), drei für Modified (1/2), zwei für Improved Modified (3/4) und einer für Full. Skeet-Chokes tragen keine Sterne. Andere Hersteller schneiden Kerben in den Rand der Hülse, verwenden farbige Ringe oder drucken den Namen (IC, M, LM).",
+  "chokes-names-and-marks-p6": "Italienische Hersteller, zum Beispiel Beretta, verwenden {{term:star-marks|Sternmarkierungen}}: fünf Sterne für Cylinder, vier für Improved Cylinder (1/4), drei für Modified (1/2), zwei für Improved Modified (3/4) und einer für Full. Andere Hersteller schneiden Kerben in den Rand der Hülse, verwenden farbige Ringe oder drucken den Namen (IC, M, LM).",
   "chokes-names-and-marks-p7": "Die verlässlichste Quelle ist die Markierung auf dem Choke selbst oder das Handbuch der Flinte. Im Zweifel kann ein {{term:gunsmith|Büchsenmacher}} die Engung in einer Minute mit einer Lehre messen."
  },
  "note": {},
  "phrases": {},
  "key_points": {
-  "chokes-names-and-marks-kp1": "Cylinder 0 · Skeet ~0,1–0,15 mm · IC ~0,25 mm (1/4) · LM ~0,35–0,4 mm",
+  "chokes-names-and-marks-kp1": "Cylinder 0 · 1/8 ~0,1–0,15 mm · IC ~0,25 mm (1/4) · LM ~0,35–0,4 mm",
   "chokes-names-and-marks-kp2": "M ~0,5 mm (1/2) · IM ~0,65–0,75 mm (3/4) · Full ~0,9–1 mm (1/1)",
   "gear-chokes-kp3": "Bruchzahlen: Quarter = Improved Cylinder, Half = Modified, Three-Quarter = Improved Modified, Full.",
   "chokes-names-and-marks-kp4": "Sterne: Je mehr Sterne, desto offener der Choke.",
@@ -83,7 +83,7 @@
     "a": "Modified",
     "b": "Improved Cylinder",
     "c": "Full",
-    "d": "Skeet"
+    "d": "Cylinder"
    },
    "explain": "Half (1/2) ist Modified; Quarter ist Improved Cylinder, Three-Quarter ist Improved Modified."
   },

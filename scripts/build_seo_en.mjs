@@ -99,7 +99,7 @@ ${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t
       ld: [{ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq }] }) + bar(crumbs("en", "📘", [{ label: "FITASC rules", url: `${BASE}rules/?lang=en`, vl: 1 }, { label: "Categories" }]), en, uk) + `
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div><h1>FITASC categories: who is a Junior, Lady, Senior, Veteran, Master</h1>
-<p>The age categories are the same for Parcours de Chasse – Sporting™, Compak® Sporting and other FITASC disciplines, valid from ${from}. Only the <b>year</b> of birth counts, not the day or month. National and club events may use their own categories — check the competition programme.</p>
+<p>The age categories are the same for Parcours de Chasse – Sporting™ and Compak® Sporting, valid from ${from}. Only the <b>year</b> of birth counts, not the day or month. National and club events may use their own categories — check the competition programme.</p>
 <h2>Categories and ages</h2><div class="tw"><table><thead><tr><th>Category</th><th>Age</th><th>Rule</th></tr></thead><tbody>${rows}</tbody></table></div>
 ${teams ? `<h2>National teams</h2><div class="tw"><table><thead><tr><th>Team</th><th>Eligible</th><th>Size</th><th>Note</th></tr></thead><tbody>${teams}</tbody></table></div>` : ""}
 ${(C.notes_en || []).length ? `<ul>${C.notes_en.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}

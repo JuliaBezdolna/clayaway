@@ -1,4 +1,7 @@
-"""Turn docs/learn/data/laws-<cc>.json into laws-<cc>.js (window.LAWS[cc]) for the Academy app and the static build.
+"""RETIRED (10.2026): the law tables now live in content/academy/laws/<CC>.json (scripts/build_academy.mjs). The old files were
+moved out of docs/ to archive/legacy-docs/learn/data/ on 08.10.2026; this script now only regenerates them there.
+
+Turn archive/legacy-docs/learn/data/laws-<cc>.json into laws-<cc>.js (window.LAWS[cc]) for the Academy app and the static build.
 
 Two JSON shapes are supported:
   - by state (Germany): {as_of, note_uk/en, states:[{state_uk, state_en, state_de, law, article, rule_uk/en, since, url, verified}]}
@@ -10,7 +13,7 @@ Run: python scripts/build_laws.py   (then bun scripts/build_seo.mjs)
 import glob, json, os
 from pathlib import Path
 
-D = Path(__file__).resolve().parent.parent / "docs" / "learn" / "data"
+D = Path(__file__).resolve().parent.parent / "archive" / "legacy-docs" / "learn" / "data"  # moved out of docs/ on 08.10.2026 (not published)
 for f in sorted(glob.glob(str(D / "laws-*.json"))):
     code = Path(f).stem.split("-", 1)[1]
     data = json.load(open(f, encoding="utf-8"))

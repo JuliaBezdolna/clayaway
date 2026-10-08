@@ -4065,7 +4065,7 @@ window.RULES.push({
      "page": 24,
      "title_en": "Dress code for competitors",
      "title_uk": "Вимоги до одягу учасників",
-     "summary_en": "Competitors have to be dressed properly. Short shorts are out: shorts are accepted only in the longer Bermuda style, ending at most 5 cm above the knee. A skeet vest may not be worn over a bare body. A shirt needs sleeves (short ones are enough) and a collar, or a round T-shirt neck. Sandals are banned because they are unsafe.",
+     "summary_en": "Competitors have to be dressed properly. Short shorts are out: shorts are accepted only in the longer Bermuda style, ending at most 5 cm above the knee. A shooting vest may not be worn over a bare body. A shirt needs sleeves (short ones are enough) and a collar, or a round T-shirt neck. Sandals are banned because they are unsafe.",
      "summary_uk": "Учасники мають бути охайно вдягнені. Короткі шорти не можна: шорти приймають лише довшого фасону «бермуди», що закінчуються щонайбільше за 5 см над коліном. Стрілецький жилет не можна вдягати на голе тіло. Сорочка має бути з рукавами (досить коротких) і з коміром або з круглим вирізом, як у футболки. Сандалі заборонені, бо вони небезпечні.",
      "points_en": [
       "No short shorts; Bermuda style ending at most 5 cm above the knee",

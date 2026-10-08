@@ -1,6 +1,6 @@
 {
   "id": "cartridges-load-weight",
-  "rev": 2,
+  "rev": 3,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -76,16 +76,6 @@
       "rel": "nofollow noopener noreferrer",
       "checked": "2026-10-07",
       "license": "link only"
-    },
-    {
-      "title": {
-        "en": "ISSF — Shotgun Equipment Control Guide (2026): shot charge up to 24.0 g (+0.5 g)",
-        "uk": "ISSF — посібник із контролю спорядження для дробових дисциплін (2026): заряд дробу до 24,0 г (+0,5 г)"
-      },
-      "url": "https://backoffice.issf-sports.org/getfile.aspx?mod=docf&pane=1&inst=31&iist=28&file=Shotgun-Equipment-Control-Guide-Edition-2026.pdf",
-      "rel": "noopener noreferrer",
-      "checked": null,
-      "license": "link only"
     }
   ],
   "title": {
@@ -135,12 +125,6 @@
       "t": "p",
       "en": "24 g cartridges are lighter, push less and are usually a little cheaper. For practice and for close and medium targets they are usually enough and less tiring; on far targets 28 g gives a denser pattern. Even lighter 21 g loads exist, mostly for 20 gauge or for teaching.",
       "uk": "Патрони 24 г легші, м’якше віддають і зазвичай трохи дешевші. Для тренувань і для близьких та середніх мішеней їх зазвичай досить, і вони менше втомлюють; на далеких мішенях 28 г дає щільніший осип. Існують і ще легші патрони 21 г — передусім для 20 калібру або для навчання."
-    },
-    {
-      "k": "cartridges-load-weight-p7",
-      "t": "p",
-      "en": "In the Olympic shotgun events of the ISSF, trap for example, the limit is lower: 24 g, with a +0.5 g tolerance.",
-      "uk": "В олімпійських дробових дисциплінах ISSF, наприклад у трапі, межа нижча: 24 г із допуском +0,5 г."
     },
     {
       "k": "cartridges-load-weight-p6",
@@ -348,7 +332,6 @@
     "cartridges-load-weight-cmp1": "4195ccb1",
     "cartridges-load-weight-p3": "cc37e571",
     "cartridges-load-weight-p4": "d0a3299d",
-    "cartridges-load-weight-p7": "fe983bcf",
     "cartridges-load-weight-p6": "1e71519f",
     "cartridges-load-weight-kp1": "17adb00e",
     "gear-cartridges-kp4": "17ffb11e",

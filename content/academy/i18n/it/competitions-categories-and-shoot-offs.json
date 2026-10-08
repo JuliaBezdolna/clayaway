@@ -19,8 +19,8 @@
     "competitions-categories-and-shoot-offs-p5": "d9c9ef08",
     "competitions-categories-and-shoot-offs-p6": "eced4c79",
     "competitions-categories-and-shoot-offs-calm": "9eb1d29d",
-    "referee-categories-p3": "90af6291",
-    "referee-scoring-p4": "44ba25f3",
+    "referee-categories-p3": "d2fe9e92",
+    "referee-scoring-p4": "6a63c3a5",
     "referee-categories-ph1": "ffa5dccf",
     "referee-categories-ph2": "e0b2d808",
     "referee-categories-ph3": "cc64c02a",
@@ -44,7 +44,11 @@
     "referee-categories-q2": "57e98ff8",
     "referee-categories-q3": "83bd1b3e"
   },
-  "review": { "by": null, "date": null, "origin": "interpreter-academy" },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": "interpreter-academy"
+  },
   "title": "Categorie, classi e spareggi",
   "summary": "La classifica assoluta e le categorie FITASC dal 2027, le squadre, le classi in alcuni paesi, e come si risolvono le parità nel {{tm:sporting}} e nel {{tm:compak}}.",
   "body": {
@@ -67,8 +71,8 @@
     "competitions-categories-and-shoot-offs-calm": "Molti istruttori consigliano di mantenere la vostra routine e il vostro ritmo abituali in uno spareggio, anche quando gli spettatori si raccolgono intorno. Per saperne di più: {{lesson:mind-pressure-choking}}."
   },
   "note": {
-    "referee-categories-p3": "La trappola più grande per l'interprete è «Senior». In molti sport «senior» significa il livello adulto (contrapposto a junior), ma nella FITASC Senior è la fascia d'età 56–65; la categoria principale degli adulti è Men. Non traducetelo con la parola per «adulti» nella vostra lingua. Anche «Master» è una trappola: la categoria d'età FITASC dai 73 anni non ha niente a che fare con la «Master class» {{term:nsca|NSCA}}, che è un livello di abilità.",
-    "referee-scoring-p4": "Gli spareggi portano un'altra trappola per l'interprete. Se non è stato fissato un orario, i tiratori devono essere pronti entro quindici minuti dalla chiamata. Un tiratore assente è «squalificato» nel regolamento {{tm:sporting}} ed è «considerato ritirato» nel regolamento {{tm:compak}}. Usate la parola della disciplina in cui vi trovate."
+    "referee-categories-p3": "La più grande insidia per l'interprete è «Senior». In molti sport «senior» significa il livello adulto (contrapposto a junior), ma nella FITASC Senior è la fascia d'età 56–65; la categoria principale degli adulti è Men. Non traducetelo con la parola per «adulti» nella vostra lingua. Anche «Master» è un'insidia: la categoria d'età FITASC dai 73 anni non ha niente a che fare con la «Master class» {{term:nsca|NSCA}}, che è un livello di abilità.",
+    "referee-scoring-p4": "Gli spareggi portano un'altra insidia per l'interprete. Se non è stato fissato un orario, i tiratori devono essere pronti entro quindici minuti dalla chiamata. Un tiratore assente è «squalificato» nel regolamento {{tm:sporting}} ed è «considerato ritirato» nel regolamento {{tm:compak}}. Usate la parola della disciplina in cui vi trovate."
   },
   "phrases": {
     "referee-categories-ph1": {
@@ -107,52 +111,96 @@
   "quiz": {
     "competitions-categories-and-shoot-offs-q1": {
       "q": "In cosa differisce una categoria da una classe?",
-      "options": { "a": "Nel regolamento significano la stessa cosa", "b": "Una categoria è per risultati, una classe per età", "c": "Una categoria è per età o sesso, una classe per risultati" },
+      "options": {
+        "a": "Nel regolamento significano la stessa cosa",
+        "b": "Una categoria è per risultati, una classe per età",
+        "c": "Una categoria è per età o sesso, una classe per risultati"
+      },
       "explain": "Junior, Lady, Senior e Veteran sono categorie per età o sesso; AA, A, B e C sono classi nazionali per punteggio medio."
     },
     "competitions-categories-and-shoot-offs-q3": {
       "q": "Come vengono classificati i tiratori a pari merito sotto il terzo posto?",
-      "options": { "a": "Condividono il posto; il countback dall'8º percorso stabilisce l'ordine", "b": "Con uno spareggio su 25 piattelli per il posto", "c": "Con un sorteggio dopo la fine della gara" },
+      "options": {
+        "a": "Condividono il posto; il countback dall'8º percorso stabilisce l'ordine",
+        "b": "Con uno spareggio su 25 piattelli per il posto",
+        "c": "Con un sorteggio dopo la fine della gara"
+      },
       "explain": "Non ci sono spareggi sotto il terzo posto: il posto si condivide e il countback stabilisce l'ordine, dall'8º percorso o campo Compak a ritroso fino al 1º."
     },
     "referee-categories-q1": {
       "q": "Un tiratore nato nel 1971 si iscrive a una gara FITASC nel 2027. In quale categoria?",
-      "options": { "a": "Men", "b": "Senior", "c": "Veteran", "d": "Master" },
+      "options": {
+        "a": "Men",
+        "b": "Senior",
+        "c": "Veteran",
+        "d": "Master"
+      },
       "explain": "Compie 56 anni nel 2027, quindi è Senior dal 1º gennaio, qualunque sia il suo compleanno."
     },
     "competitions-categories-and-shoot-offs-q2": {
       "q": "Quanti piattelli ci sono nel primo turno di uno spareggio?",
-      "options": { "a": "5", "b": "10", "c": "25" },
+      "options": {
+        "a": "5",
+        "b": "10",
+        "c": "25"
+      },
       "explain": "Uno spareggio è una serie di 25 piattelli; se i punteggi restano in parità, segue la morte improvvisa."
     },
     "referee-scoring-q2": {
       "q": "Due tiratori sono a pari merito per il 7º posto. Cosa succede?",
-      "options": { "a": "Uno spareggio su 25 piattelli", "b": "Subito la morte improvvisa", "c": "Un lancio di moneta della giuria", "d": "Condividono il posto e sono ordinati dal countback" },
+      "options": {
+        "a": "Uno spareggio su 25 piattelli",
+        "b": "Subito la morte improvvisa",
+        "c": "Un lancio di moneta della giuria",
+        "d": "Condividono il posto e sono ordinati dal countback"
+      },
       "explain": "Gli spareggi sono solo per i posti 1–3; sotto, i tiratori a pari merito sono classificati dal countback a partire dall'ottavo percorso o campo Compak."
     },
     "women-lady-category-q1": {
       "q": "Da quale età le donne e le ragazze possono entrare nella categoria Lady secondo il regolamento FITASC?",
-      "options": { "a": "Dal 1º gennaio dell'anno in cui compiono 13 anni", "b": "Dal giorno del loro 18º compleanno", "c": "Dal 1º gennaio dell'anno in cui compiono 21 anni" },
+      "options": {
+        "a": "Dal 1º gennaio dell'anno in cui compiono 13 anni",
+        "b": "Dal giorno del loro 18º compleanno",
+        "c": "Dal 1º gennaio dell'anno in cui compiono 21 anni"
+      },
       "explain": "Lady inizia dall'anno del 13º compleanno, contato per anno di nascita."
     },
     "women-lady-category-q2": {
       "q": "La categoria Lady ha un limite di età superiore?",
-      "options": { "a": "Sì, finisce a 55 anni", "b": "No, la tabella FITASC non ne stabilisce uno", "c": "Sì, finisce a 40 anni" },
+      "options": {
+        "a": "Sì, finisce a 55 anni",
+        "b": "No, la tabella FITASC non ne stabilisce uno",
+        "c": "Sì, finisce a 40 anni"
+      },
       "explain": "La tabella FITASC non stabilisce un limite superiore per Lady."
     },
     "women-lady-category-q3": {
       "q": "Le donne tirano traiettorie più corte o più facili?",
-      "options": { "a": "Sì, le traiettorie sono più corte", "b": "Solo nelle gare di {{tm:compak}}", "c": "No, i piattelli sono gli stessi per tutti" },
+      "options": {
+        "a": "Sì, le traiettorie sono più corte",
+        "b": "Solo nelle gare di {{tm:compak}}",
+        "c": "No, i piattelli sono gli stessi per tutti"
+      },
       "explain": "La categoria influisce solo sulla classifica, non sui piattelli."
     },
     "referee-categories-q2": {
       "q": "Come dovresti tradurre per un cliente la categoria FITASC «Senior»?",
-      "options": { "a": "«Adulti»", "b": "«Tiratori esperti»", "c": "«Prima categoria»", "d": "«La fascia d'età 56–65»" },
+      "options": {
+        "a": "«Adulti»",
+        "b": "«Tiratori esperti»",
+        "c": "«Prima categoria»",
+        "d": "«La fascia d'età 56–65»"
+      },
       "explain": "Nella FITASC Senior è la fascia d'età 56–65; la principale categoria degli adulti è Men."
     },
     "referee-categories-q3": {
       "q": "Quanti tiratori ci sono in una squadra Men nel {{tm:sporting}}?",
-      "options": { "a": "Quattro", "b": "Tre", "c": "Sei", "d": "Cinque" },
+      "options": {
+        "a": "Quattro",
+        "b": "Tre",
+        "c": "Sei",
+        "d": "Cinque"
+      },
       "explain": "Le squadre di solito hanno tre tiratori, ma la squadra Men nel {{tm:sporting}} ne ha quattro."
     }
   }

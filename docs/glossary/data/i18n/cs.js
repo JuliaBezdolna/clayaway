@@ -312,15 +312,6 @@ window.GLOSSARY_I18N.cs = {
    "short": "Hlaveň nebo zahrdlení bez zúžení; dává nejširší obrazec zásahu.",
    "long": "Válec znamená nulové zúžení: vývrt u ústí je stejný jako v hlavni. Roj broků se rozptyluje nejrychleji, takže obrazec je na blízko široký a dál řídne. Volí se pro velmi blízké terče, například některé zajíce nebo terče vyskakující blízko střelce. Na zahrdleních Beretta se značí pěti hvězdičkami. Na většinu terčů ve Sporting™ a Compak® Sporting volí střelci o něco užší zahrdlení."
   },
-  "skeet-choke": {
-   "term_local": "skeetové zahrdlení",
-   "alt": [
-    "skeet"
-   ],
-   "conf": "medium",
-   "short": "Velmi lehké zúžení, asi 0,1–0,15 mm (4–6 thou), pro nejbližší terče.",
-   "long": "Skeetové zahrdlení má název podle disciplíny, ve které terče letí velmi blízko. Je jen o málo užší než válec: zúžení asi 0,1–0,15 mm (4–6 thou), v evropském úzu někdy označované jako 1/8. Obrazec je na blízko široký a odpouští malé chyby. Ve Sporting™ a Compak® Sporting se používá na blízké terče, zajíce a terče vyskakující nablízku. Přesné hodnoty závisejí na výrobci."
-  },
   "improved-cylinder": {
    "term_local": "čtvrtinové zahrdlení",
    "alt": [
@@ -725,7 +716,7 @@ window.GLOSSARY_I18N.cs = {
    "conf": "high",
    "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Zvýšená pozice vrhačky za stanovišti v Compak® Sporting, nejméně 4 m nad nimi.",
-   "long": "Vrhačky Compaku lze umístit volně, pokud žádný terč, ani No Bird, nemůže nikoho ohrozit. Vrhačka umístěná za střeleckými pozicemi musí být nejméně o 4 m výš než stanoviště. Povinná vzdalující se dráha přes stranu BC může vycházet z takové věže nebo z vrhačky v zákopu či na zemi před stanovišti.",
+   "long": "Vrhačky Compaku lze umístit volně, pokud žádný terč, ani No Bird, nemůže nikoho ohrozit. Vrhačka umístěná za střeleckými pozicemi musí být nejméně o 4 m výš než stanoviště. Povinná vzdalující se dráha přes stranu BC může vycházet z takové věže nebo z vrhačky zapuštěné do země nebo postavené na zemi před stanovišti.",
    "disciplines": {
     "compak": "Pravidlo 4 m je v pravidlech Compak (2.4)."
    }
@@ -1551,7 +1542,7 @@ window.GLOSSARY_I18N.cs = {
    "conf": "high",
    "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Samostatné pořadí podle věku a pohlaví vedle absolutního pořadí; od roku 2027 FITASC používá Junior, Lady, Men, Senior, Veteran a Master.",
-   "long": "Od 1. ledna 2027 stanoví FITASC pro Compak® Sporting, Parcours de Chasse – Sporting™ a své další disciplíny šest kategorií: Junior (13–20), Lady (od 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) a Master (od 73, muži i ženy). Věk se počítá podle roku narození: nová kategorie platí od 1. ledna roku, v němž střelec věku dosáhne, bez ohledu na datum narozenin. Senior není hlavní kategorie dospělých, ale věková skupina 56–65; hlavní kategorií dospělých je Men. Družstva kategorií mají 3 střelce (družstvo Men ve Sporting má 4) a střelec vybraný do družstva jiné kategorie musí v této kategorii startovat i jako jednotlivec. V Compaku se shoda o první tři místa v každé kategorii rozhoduje rozstřelem; patří-li střelci v rozstřelu absolutního pořadí do stejné kategorie, výsledek platí i pro tuto kategorii. Národní a klubové akce mohou používat vlastní kategorie, uvedené v programu.",
+   "long": "Od 1. ledna 2027 stanoví FITASC pro Compak® Sporting a Parcours de Chasse – Sporting™ šest kategorií: Junior (13–20), Lady (od 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) a Master (od 73, muži i ženy). Věk se počítá podle roku narození: nová kategorie platí od 1. ledna roku, v němž střelec věku dosáhne, bez ohledu na datum narozenin. Senior není hlavní kategorie dospělých, ale věková skupina 56–65; hlavní kategorií dospělých je Men. Družstva kategorií mají 3 střelce (družstvo Men ve Sporting má 4) a střelec vybraný do družstva jiné kategorie musí v této kategorii startovat i jako jednotlivec. V Compaku se shoda o první tři místa v každé kategorii rozhoduje rozstřelem; patří-li střelci v rozstřelu absolutního pořadí do stejné kategorie, výsledek platí i pro tuto kategorii. Národní a klubové akce mohou používat vlastní kategorie, uvedené v programu.",
    "disciplines": {
     "sporting": "Družstvo Men má 4 střelce; družstva ostatních kategorií 3.",
     "compak": "Samostatné rozstřely o stupně vítězů v každé kategorii."
@@ -2286,21 +2277,6 @@ window.GLOSSARY_I18N.cs = {
    "short": "Shrnutí sezóny od ClayArena: klíčové závody roku, vítězové a výkony.",
    "long": "Shrnutí sezóny na ClayArena shromažďují hlavní momenty roku ve Sporting™ a Compak® Sporting: klíčové závody, vítěze a výrazné výkony. Pro začátečníka jsou snadným způsobem, jak zjistit, kdo je ve formě a které akce byly nejdůležitější. Spolu s videi ze závodů a kalendářem pomáhají rychle se zorientovat ve světě střelby na asfaltové terče. Po vlastním závodě se vyplatí se podívat: váš výkon tam může být také."
   },
-  "olympic-trap": {
-   "term_local": "olympijský trap",
-   "alt": [
-    "trap"
-   ],
-   "conf": "low",
-   "short": "Olympijská disciplína: terče vylétají od střelce z příkopu pod různými úhly a na každý lze vystřelit dvakrát.",
-   "long": "V olympijském trapu jsou vrhačky ukryté v příkopu před řadou pěti stanovišť a terče letí od střelce velkou rychlostí pod různými úhly a v různých výškách. Na každý terč lze vystřelit dvakrát. Střelec vyvolává se zbraní už zalícenou a terč se vypustí na vyvolání. Disciplínu řídí ISSF, ne FITASC, a je součástí olympijského programu. Pro střelce Sporting™ a Compak® Sporting je trap užitečným tréninkem rychlé reakce na vzdalující se terče."
-  },
-  "skeet": {
-   "term_local": "skeet",
-   "conf": "low",
-   "short": "Disciplína se dvěma budkami (vysokou a nízkou), jejichž terče křižují střeliště; stanoviště jsou v půlkruhu.",
-   "long": "Na skeetu stojí dvě věže s vrhačkami na koncích půlkruhu: vysoká věž na jedné straně a nízká na druhé. Terče letí proti sobě po pevných drahách a střelec přechází mezi stanovišti na půlkruhu a střílí jednotlivé terče a dvojstřely. Olympijský skeet řídí ISSF; existují i národní varianty, například English Skeet, s poněkud odlišnými pravidly. Dráhy skeetu jsou pevné, takže disciplína se hodí k rozvoji techniky na přeletových terčích. Podle ní dostalo název lehké skeetové zahrdlení."
-  },
   "guardian-consent": {
    "term_local": "souhlas zákonného zástupce",
    "conf": "low",
@@ -2735,7 +2711,7 @@ window.GLOSSARY_I18N.cs = {
    ],
    "conf": "high",
    "short": "Lék na srdce, který zpomaluje tep a snižuje třes; podle seznamu WADA je ve střelbě zakázán vždy, při soutěži i mimo ni.",
-   "long": "Příklady jsou propranolol, atenolol, bisoprolol a metoprolol. Ve sportech vyžadujících přesnost jsou zakázány, protože pomalejší srdce a menší třes mohou zbraň zklidnit. Seznam WADA uvádí střelbu prostřednictvím olympijské federace (ISSF) a parastřelby (IPC), ne FITASC; přesto považujte betablokátory za zakázané i ve Sporting™ a Compak® Sporting: národní antidopingové organizace mohou kontrolovat na národních závodech, pořadatelé mohou seznam WADA uplatnit a mnoho střelců závodí i v disciplínách ISSF. Pokud vám lékař betablokátor předepsal, nevysazujte ho sami; včas se zeptejte na povolenou alternativu nebo na TUE. Nejde o lékařskou radu."
+   "long": "Příklady jsou propranolol, atenolol, bisoprolol a metoprolol. Ve sportech vyžadujících přesnost jsou zakázány, protože pomalejší srdce a menší třes mohou zbraň zklidnit. Seznam WADA Sporting™ ani Compak® Sporting zvlášť neuvádí; přesto považujte betablokátory za zakázané i tam: národní antidopingové organizace mohou kontrolovat na národních závodech a pořadatelé mohou seznam WADA uplatnit. Pokud vám lékař betablokátor předepsal, nevysazujte ho sami; včas se zeptejte na povolenou alternativu nebo na TUE. Nejde o lékařskou radu."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2758,8 +2734,8 @@ window.GLOSSARY_I18N.cs = {
     "klidné oko"
    ],
    "conf": "medium",
-   "short": "Poslední klidný pohled na terč před pohybem; u zkušených střelců obvykle začíná dříve a trvá déle.",
-   "long": "Výzkumníci měří quiet eye jako poslední klidný pohled před začátkem pohybu. Ve srovnání s méně zkušenými střelci ho elitní střelci v trapu a skeetu začínají dříve a drží déle a u zásahů bývá delší než u minutí. Pod tlakem se často zkracuje. Žádný kouzelný počet milisekund, o který by se mělo usilovat, neexistuje: v brokové střelbě to znamená vidět terč brzy a zřetelně a držet na něm oči až do konce výstřelu. Většina dat pochází z olympijského trapu a skeetu; pravděpodobně to platí i pro Sporting™ a Compak® Sporting."
+   "short": "Poslední klidný pohled na terč před pohybem; u zkušených sportovců obvykle začíná dříve a trvá déle.",
+   "long": "Výzkumníci měří quiet eye jako poslední klidný pohled před začátkem pohybu. Ve studiích z mnoha sportů ho zkušenější sportovci obvykle začínají dříve a drží déle a u úspěšných pokusů bývá delší než u neúspěšných. Pod tlakem se často zkracuje. Žádný kouzelný počet milisekund, o který by se mělo usilovat, neexistuje: v brokové střelbě to znamená vidět terč brzy a zřetelně a držet na něm oči až do konce výstřelu. Přímo ve Sporting™ a Compak® Sporting se to nezkoumalo; pravděpodobně to tam funguje stejně."
   },
   "self-talk": {
    "term_local": "vnitřní řeč",
@@ -2797,7 +2773,7 @@ window.GLOSSARY_I18N.cs = {
    ],
    "conf": "medium",
    "short": "Střelba výrazně pod obvyklou úrovní kvůli tlaku, často když začnete vědomě řídit dovednost, která jinak běží sama.",
-   "long": "Nezaměňovat se zahrdlením hlavně. Pod tlakem může střelec začít krok za krokem kontrolovat zalícení nebo švih a obavy odvádějí oči od terče. Příznaky: změněné tempo, kontrola zalícení, oči na hlavni nebo mušce, sledování výsledků. Co může pomoci: obvyklá předstřelecká rutina a tempo, jedno jednoduché klíčové slovo o terči, procesní cíle a trénink pod tlakem, který roste postupně. Většina výzkumu pochází z jiných sportů a z olympijského trapu a skeetu; pravděpodobně to platí i pro Sporting™ a Compak® Sporting. Pokud vám tlak opakovaně kazí závody, může pomoci sportovní psycholog."
+   "long": "Nezaměňovat se zahrdlením hlavně. Pod tlakem může střelec začít krok za krokem kontrolovat zalícení nebo švih a obavy odvádějí oči od terče. Příznaky: změněné tempo, kontrola zalícení, oči na hlavni nebo mušce, sledování výsledků. Co může pomoci: obvyklá předstřelecká rutina a tempo, jedno jednoduché klíčové slovo o terči, procesní cíle a trénink pod tlakem, který roste postupně. Většina výzkumu pochází z laboratoře a z jiných sportů, ne ze Sporting™ nebo Compak® Sporting; pravděpodobně to tam funguje stejně. Pokud vám tlak opakovaně kazí závody, může pomoci sportovní psycholog."
   },
   "reset-routine": {
    "term_local": "rutina restartu",
@@ -2913,14 +2889,6 @@ window.GLOSSARY_I18N.cs = {
    "term_local": "skleněná koule",
    "conf": "medium",
    "short": "Skleněná koule vrhaná do vzduchu jako terč v 19. století, raná náhrada živých ptáků; později ji nahradil hliněný terč."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Mezinárodní sportovně střelecká federace"
-   ],
-   "conf": "high",
-   "short": "International Shooting Sport Federation, která řídí olympijské střelecké disciplíny, mezi nimi olympijský trap a skeet; Sporting™ a Compak® Sporting patří pod FITASC."
   },
   "hydration": {
    "term_local": "pitný režim",

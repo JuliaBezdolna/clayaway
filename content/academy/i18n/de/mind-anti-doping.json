@@ -1,13 +1,13 @@
 {
   "id": "mind-anti-doping",
   "lang": "de",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "15628df1",
+    "summary": "db8fb42a",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p2": "5031b8cc",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -27,7 +27,7 @@
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "21c3c7e9",
+    "mind-anti-doping-q1": "f7c71a6a",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -40,11 +40,11 @@
     "origin": null
   },
   "title": "Medikamente und Anti-Doping: Betablocker, TUE, Nahrungsergänzungsmittel",
-  "summary": "Die WADA-Liste verbietet Betablocker jederzeit im olympischen und paralympischen Schießsport (ISSF, IPC); behandeln Sie sie auch in {{tm:sporting}} und {{tm:compak}} als verboten. Wie Sie ein Medikament prüfen, wann Sie eine TUE brauchen, und was Sie über Nahrungsergänzungsmittel, CBD und Alkohol wissen sollten.",
+  "summary": "Die WADA-Liste verbietet Betablocker jederzeit im Schießsport; behandeln Sie sie auch in {{tm:sporting}} und {{tm:compak}} als verboten. Wie Sie ein Medikament prüfen, wann Sie eine TUE brauchen, und was Sie über Nahrungsergänzungsmittel, CBD und Alkohol wissen sollten.",
   "body": {
     "health-alcohol-medication-weather-p3": "Bei {{term:championship|Meisterschaften}} und großen Veranstaltungen können Sie auf Doping getestet werden. Die internationalen Regeln stammen von der Welt-Anti-Doping-Agentur (WADA), die jedes Jahr eine neue Verbotsliste veröffentlicht.",
     "mind-anti-doping-beta": "{{term:beta-blocker|Betablocker}} sind Herzmedikamente, die den Herzschlag verlangsamen und Zittern verringern; Beispiele sind Propranolol, Atenolol, Bisoprolol und Metoprolol. Beachten Sie, dass {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "In der Liste bedeutet „Schießsport“ den olympischen Schießsportverband (ISSF) und den Parasport (IPC); FITASC wird nicht genannt. Behandeln Sie Betablocker trotzdem auch in {{tm:sporting}} und {{tm:compak}} als verboten. Ihre nationale {{term:anti-doping|Anti-Doping}}-Agentur kann bei nationalen Veranstaltungen testen, Veranstalter können die WADA-Liste anwenden, und viele Schützen starten auch bei ISSF-Wettkämpfen.",
+    "mind-anti-doping-p2": "{{tm:sporting}} und {{tm:compak}} werden in der Liste nicht eigens genannt: Behandeln Sie Betablocker auch dort als verboten. Ihre nationale {{term:anti-doping|Anti-Doping}}-Agentur kann bei nationalen Veranstaltungen testen, und Veranstalter können die WADA-Liste anwenden.",
     "mind-anti-doping-p3": "Sie sind in Präzisionssportarten verboten, weil ein langsameres Herz und weniger Zittern die Flinte ruhiger halten können.",
     "mind-anti-doping-warn": "Hat Ihnen ein Arzt einen Betablocker verschrieben, zum Beispiel gegen Blutdruck, Herzrhythmusstörungen, Migräne oder Zittern, setzen Sie ihn nicht selbst ab. Sprechen Sie rechtzeitig vor dem Wettkampf mit Ihrem Arzt und Ihrem Verband über eine erlaubte Alternative oder eine TUE.",
     "mind-anti-doping-p4": "Eine {{term:therapeutic-use-exemption|TUE}} (Medizinische Ausnahmegenehmigung) ist die offizielle Erlaubnis, ein verbotenes Medikament aus medizinischen Gründen zu verwenden. Ein Rezept allein reicht nicht aus: Eine verbotene Substanz bleibt verboten, Sie beantragen die TUE also im Voraus, meist bei Ihrer nationalen Anti-Doping-Agentur (Ihr Verband sagt Ihnen, bei welcher).",
@@ -75,7 +75,7 @@
       "q": "Wann sind Betablocker laut WADA-Liste im Schießsport verboten?",
       "options": {
         "a": "Nur an den Tagen eines Wettkampfs",
-        "b": "Nur bei Olympischen Spielen und Weltmeisterschaften",
+        "b": "Nur bei Welt- und Europameisterschaften",
         "c": "Jederzeit, im und außerhalb des Wettkampfs"
       },
       "explain": "Die Listen für 2026 und 2027 kennzeichnen Schießsport als jederzeit verboten. Behandeln Sie das auch im Wurfscheibenschießen als Regel."

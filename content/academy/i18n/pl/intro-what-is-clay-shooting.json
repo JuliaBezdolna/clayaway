@@ -1,7 +1,7 @@
 {
   "id": "intro-what-is-clay-shooting",
   "lang": "pl",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "3ce678ed",
     "summary": "359557be",
@@ -9,7 +9,6 @@
     "sport-what-is-clay-p2": "54bc3515",
     "intro-what-is-clay-shooting-p2": "22c4489f",
     "sport-what-is-clay-p3": "aad8067c",
-    "sport-what-is-clay-p4": "6862a9dc",
     "sport-what-is-clay-p5": "52a34d7f",
     "intro-what-is-clay-shooting-p5": "9f7b18f6",
     "intro-what-is-clay-shooting-p6": "16cb66f9",
@@ -19,12 +18,11 @@
     "sport-what-is-clay-kp1": "fdfda924",
     "sport-what-is-clay-kp2": "e7d80445",
     "sport-what-is-clay-kp3": "c4886be6",
-    "sport-what-is-clay-kp4": "5aa7fa8d",
     "intro-what-is-clay-shooting-kp4": "5dcc36b1",
     "intro-what-is-clay-shooting-dyk": "a0d70d52",
     "sport-what-is-clay-q1": "e119f9b3",
     "sport-what-is-clay-q2": "79369cea",
-    "sport-what-is-clay-q3": "231a967e",
+    "sport-what-is-clay-q3": "741d6c62",
     "intro-what-is-clay-shooting-q1": "8867030b",
     "intro-what-is-clay-shooting-q2": "7fb50f25",
     "intro-what-is-clay-shooting-q3": "546c5d4e"
@@ -41,7 +39,6 @@
     "sport-what-is-clay-p2": "Każdy rzutek wyrzuca maszyna zwana wyrzutnią. Jego droga w powietrzu (lub po ziemi) to trajektoria. Broń to strzelba gładkolufowa (gładkolufowa: bez gwintowych rowków w lufie, w przeciwieństwie do karabinu). Wystrzeliwuje nabój pełen małych śrucin zwanych śrutem, które rozchodzą się w niewielką chmurę. Dlatego strzelec kieruje strzelbę tam, dokąd rzutek leci, a nie tam, gdzie jest teraz.",
     "intro-what-is-clay-shooting-p2": "Wyrzutnia obraca rzutek i wyrzuca go z ustaloną prędkością i pod ustalonym kątem. Trajektorie bywają bardzo różne: rzutek może lecieć w twoją stronę, od ciebie, przecinać twoją linię z boku, lecieć wysoko albo toczyć się po ziemi.",
     "sport-what-is-clay-p3": "Ten kurs dotyczy dwóch dyscyplin (dwóch odmian strzelania do rzutków) międzynarodowej federacji FITASC. Parcours de Chasse – Sporting™ (w skrócie Sporting™) naśladuje polowanie. Jej wyrzutnie są często skryte albo zasłonięte krzewami i drzewami, a rzutki lecą jak kuropatwa, kaczka czy bażant, albo toczą się jak zając. {{tm:compak}} to wersja zwarta: ta sama różnorodność rzutków, ale na jednym małym polu z pięcioma stanowiskami w linii i sześcioma wyrzutniami.",
-    "sport-what-is-clay-p4": "Usłyszysz też o Trapie i Skeecie. To inne dyscypliny ze stałymi trajektoriami. W Skeecie trajektorie są zawsze takie same; w Trapie rzutki lecą pod zmieniającymi się kątami z ustalonego zestawu, w kolejności, której strzelec nie zna. Olimpijski Trap i Skeet należą do innej federacji. Nie mieszaj ich przepisów z {{tm:sporting}} czy {{tm:compak}}.",
     "sport-what-is-clay-p5": "Trafienie widać od razu: rzutek pęka albo odpada od niego przynajmniej widoczny kawałek. Ta jasność sprawia, że sport łatwo się ogląda, a tobie łatwo go śledzić od pierwszego dnia.",
     "intro-what-is-clay-shooting-p5": "Ten sport wyrósł z polowania. Strzelcy kiedyś trenowali na żywych ptakach; od końca XIX wieku zaczęły je zastępować rzutki gliniane. Dziś strzelanie do rzutków jest samodzielnym sportem, z przepisami, sędziami i międzynarodowymi zawodami. Więcej o historii: {{lesson:history-live-birds-to-clays}}.",
     "intro-what-is-clay-shooting-p6": "Można strzelać czysto dla przyjemności albo startować w zawodach. Wiele osób przyjeżdża na strzelnicę, by spędzić dzień na świeżym powietrzu z przyjaciółmi; niektórzy później biorą udział w zawodach klubowych i mistrzostwach. Dyscypliny porównujemy w lekcji {{lesson:intro-disciplines}}."
@@ -65,7 +62,6 @@
     "sport-what-is-clay-kp1": "Strzela się do rzutków wyrzucanych przez wyrzutnie, a nie do żywych zwierząt.",
     "sport-what-is-clay-kp2": "Strzelba wystrzeliwuje chmurę małych śrucin (śrut), więc strzelec kieruje broń przed rzutek.",
     "sport-what-is-clay-kp3": "{{tm:sporting}} naśladuje polowanie w naturalnym terenie; {{tm:compak}} to jego zwarta wersja na jednym polu.",
-    "sport-what-is-clay-kp4": "Trap i skeet to inne dyscypliny z własnymi przepisami.",
     "intro-what-is-clay-shooting-kp4": "Trafienie widać natychmiast: rzutek się rozpada albo odlatuje od niego widoczny kawałek."
   },
   "did_you_know": "Rzutki są celowo robione tak, by były łamliwe, dlatego potrafi je rozbić nawet kilka śrucin.",
@@ -94,7 +90,7 @@
       "q": "Które stwierdzenie o {{tm:compak}} jest prawdziwe?",
       "options": {
         "a": "Wersja zwarta na jednym polu, ze stanowiskami w linii",
-        "b": "To olimpijska wersja dyscypliny Skeet",
+        "b": "To trasa stanowisk rozrzuconych po lesie",
         "c": "Strzela się w niej tylko do żywej dziczyzny w terenie",
         "d": "Używa jednej wyrzutni i jednego stanowiska"
       },

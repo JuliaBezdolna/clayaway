@@ -1,12 +1,12 @@
 {
   "id": "mind-routine-under-pressure",
   "lang": "it",
-  "base_rev": 1,
+  "base_rev": 4,
   "h": {
     "title": "48d27e7d",
     "summary": "b354d6b8",
     "mind-routine-under-pressure-p1": "b8212880",
-    "mind-routine-under-pressure-p9": "c5ba6764",
+    "mind-routine-under-pressure-p9": "d7f52174",
     "mind-routine-under-pressure-p2": "88fcebb5",
     "mind-routine-under-pressure-steps": "ccaf665a",
     "mind-routine-under-pressure-compare": "7b5bdd61",
@@ -34,12 +34,16 @@
     "technique-routine-and-coach-q2": "8d7176cf",
     "technique-routine-and-coach-q3": "5701ec1c"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Routine pre-tiro: gli stessi passaggi nello stesso ordine",
   "summary": "Una breve routine pre-tiro vi aiuta a tirare nello stesso modo in allenamento e in gara: sei passaggi che rientrano nei limiti di tempo del {{tm:sporting}} e del {{tm:compak}}.",
   "body": {
     "mind-routine-under-pressure-p1": "Una {{term:pre-shot-routine|routine pre-tiro}} è un insieme fisso di passaggi che ripetete prima di ogni piattello. Vi aiuta a leggere il piattello, prepararvi sempre nello stesso modo e chiamare solo quando siete pronti.",
-    "mind-routine-under-pressure-p9": "Gli studi sulle routine in molti sport mostrano un beneficio da piccolo a moderato, anche sotto pressione. Nel tiro al piattello questo è stato testato soprattutto nello skeet olimpico, quindi molto probabilmente funziona allo stesso modo nel {{tm:sporting}} e nel {{tm:compak}}.",
+    "mind-routine-under-pressure-p9": "Gli studi sulle routine in molti sport mostrano un beneficio da piccolo a moderato, anche sotto pressione. Non sono stati condotti nel {{tm:sporting}} o nel {{tm:compak}}, ma molto probabilmente qui funziona allo stesso modo.",
     "mind-routine-under-pressure-p2": "Sotto pressione molti tiratori cambiano il ritmo senza accorgersene: affrettano la chiamata, oppure restano troppo a lungo e controllano ogni dettaglio due volte. Una routine familiare vi dà invece qualcosa di semplice da fare.",
     "mind-routine-under-pressure-steps": [
       "Piedi: impostate la vostra {{term:stance|posizione}} per il {{term:break-point|punto di rottura}}, il posto in cui pensate di rompere il piattello.",
@@ -77,42 +81,74 @@
   "quiz": {
     "mind-routine-under-pressure-q4": {
       "q": "Cosa deve restare uguale nella vostra routine da un piattello all'altro?",
-      "options": { "a": "Il numero esatto di secondi", "b": "L'ordine dei passaggi", "c": "La cartuccia che caricate prima" },
+      "options": {
+        "a": "Il numero esatto di secondi",
+        "b": "L'ordine dei passaggi",
+        "c": "La cartuccia che caricate prima"
+      },
       "explain": "L'ordine dei passaggi conta più dei secondi; il ritardo dopo la chiamata può comunque variare (nel {{tm:sporting}}, e nel {{tm:compak}} con il lancio manuale)."
     },
     "mind-routine-under-pressure-q5": {
       "q": "Dove è il fucile quando chiamate nel {{tm:sporting}}?",
-      "options": { "a": "Già imbracciato saldamente alla spalla", "b": "Ovunque: la posizione del fucile è libera", "c": "Basso, il calcio sotto la linea sul gilet" },
+      "options": {
+        "a": "Già imbracciato saldamente alla spalla",
+        "b": "Ovunque: la posizione del fucile è libera",
+        "c": "Basso, il calcio sotto la linea sul gilet"
+      },
       "explain": "Nel {{tm:sporting}} il fucile resta basso finché il piattello non è visibile. Nel {{tm:compak}} la posizione del fucile alla chiamata è libera."
     },
     "mind-routine-under-pressure-q3": {
       "q": "Un rumore vi disturba prima di chiamare. Cosa potete fare?",
-      "options": { "a": "Abbassare il fucile, espirare e ricominciare", "b": "Chiamare in fretta, prima che lo stesso rumore torni", "c": "Chiedere all'arbitro di mostrare di nuovo il piattello" },
+      "options": {
+        "a": "Abbassare il fucile, espirare e ricominciare",
+        "b": "Chiamare in fretta, prima che lo stesso rumore torni",
+        "c": "Chiedere all'arbitro di mostrare di nuovo il piattello"
+      },
       "explain": "Finché non chiamate, potete ricominciare la vostra routine, purché restiate nel limite di tempo."
     },
     "mind-routine-under-pressure-q1": {
       "q": "Perché una routine pre-tiro è utile in gara?",
-      "options": { "a": "Per riempire il tempo prima della chiamata", "b": "Per ritrovare il vostro ritmo abituale", "c": "Per mostrare all'arbitro che siete pronti" },
+      "options": {
+        "a": "Per riempire il tempo prima della chiamata",
+        "b": "Per ritrovare il vostro ritmo abituale",
+        "c": "Per mostrare all'arbitro che siete pronti"
+      },
       "explain": "Una routine familiare vi aiuta a mantenere il vostro tempo e la vostra tecnica abituali sotto pressione."
     },
     "mind-routine-under-pressure-q2": {
       "q": "Quanto tempo avete tra un singolo e l'altro o tra un doppio e l'altro nel {{tm:sporting}}?",
-      "options": { "a": "Al massimo 10 secondi", "b": "Al massimo 30 secondi", "c": "Al massimo 15 secondi" },
+      "options": {
+        "a": "Al massimo 10 secondi",
+        "b": "Al massimo 30 secondi",
+        "c": "Al massimo 15 secondi"
+      },
       "explain": "Il limite nel {{tm:sporting}} è di 15 secondi; superarlo porta prima un avvertimento."
     },
     "technique-routine-and-coach-q1": {
       "q": "Nel {{tm:compak}}, quanto tempo avete per chiamare dopo il piattello della postazione precedente?",
-      "options": { "a": "Al massimo 10 secondi", "b": "Al massimo 15 secondi", "c": "Quanto ne avete bisogno" },
+      "options": {
+        "a": "Al massimo 10 secondi",
+        "b": "Al massimo 15 secondi",
+        "c": "Quanto ne avete bisogno"
+      },
       "explain": "Nel {{tm:compak}} avete al massimo 10 secondi; nel {{tm:sporting}} il limite è di 15 secondi tra un singolo e l'altro o tra un doppio e l'altro."
     },
     "technique-routine-and-coach-q2": {
       "q": "Quando potete caricare il fucile?",
-      "options": { "a": "Mentre andate verso la pedana, per non perdere tempo", "b": "In pedana, dopo che l'arbitro lo permette", "c": "Ovunque, purché la sicura sia inserita" },
+      "options": {
+        "a": "Mentre andate verso la pedana, per non perdere tempo",
+        "b": "In pedana, dopo che l'arbitro lo permette",
+        "c": "Ovunque, purché la sicura sia inserita"
+      },
       "explain": "Caricate solo in pedana, con il fucile puntato verso il campo, e solo dopo che l'arbitro ha permesso di iniziare a tirare."
     },
     "technique-routine-and-coach-q3": {
       "q": "Cosa succede se qualcuno fa coaching a un tiratore durante una gara?",
-      "options": { "a": "Niente: i consigli di un istruttore sono sempre permessi", "b": "Tutta la serie si ripete alla fine", "c": "Un cartellino giallo, e l'istruttore viene allontanato" },
+      "options": {
+        "a": "Niente: i consigli di un istruttore sono sempre permessi",
+        "b": "Tutta la serie si ripete alla fine",
+        "c": "Un cartellino giallo, e l'istruttore viene allontanato"
+      },
       "explain": "Il coaching durante una gara non è permesso in nessuna delle due discipline: il tiratore riceve un cartellino giallo e chi fa coaching viene allontanato dall'area di tiro."
     }
   }

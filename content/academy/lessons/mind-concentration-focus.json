@@ -1,6 +1,6 @@
 {
   "id": "mind-concentration-focus",
-  "rev": 3,
+  "rev": 4,
   "status": "review",
   "plan": "rewrite",
   "level": 2,
@@ -65,36 +65,9 @@
     },
     {
       "title": {
-        "en": "Quiet eye duration and gun motion in elite shotgun shooting (Medicine & Science in Sports & Exercise, 2010)"
-      },
-      "url": "https://doi.org/10.1249/MSS.0b013e3181d1b059",
-      "rel": "noopener noreferrer",
-      "checked": "2026-10-06",
-      "license": "link only"
-    },
-    {
-      "title": {
         "en": "Quiet eye and performance in sport: a meta-analysis (Journal of Sport and Exercise Psychology, 2016)"
       },
       "url": "https://portal.research.lu.se/en/publications/quiet-eye-and-performance-in-sport-a-meta-analysis/",
-      "rel": "noopener noreferrer",
-      "checked": "2026-10-06",
-      "license": "link only"
-    },
-    {
-      "title": {
-        "en": "Quiet eye training in a visuomotor control task (Medicine & Science in Sports & Exercise, 2011)"
-      },
-      "url": "https://doi.org/10.1249/MSS.0b013e3182035de6",
-      "rel": "noopener noreferrer",
-      "checked": "2026-10-06",
-      "license": "link only"
-    },
-    {
-      "title": {
-        "en": "Anxiety, movement kinematics, and visual attention in elite-level performers (Emotion, 2011)"
-      },
-      "url": "https://doi.org/10.1037/a0023225",
       "rel": "noopener noreferrer",
       "checked": "2026-10-06",
       "license": "link only"
@@ -208,14 +181,14 @@
     {
       "k": "mind-concentration-focus-p9",
       "t": "p",
-      "en": "Researchers call the last steady look before a movement the {{term:quiet-eye|quiet eye}}. Compared with less skilled shooters, elite trap and skeet shooters start it earlier and hold it longer, and it is longer on hits than on misses.",
-      "uk": "Останній стійкий погляд перед рухом дослідники називають «{{term:quiet-eye|тихим оком}}» (quiet eye). Порівняно з менш досвідченими стрільцями елітні стрільці у трапі й скиті починають його раніше й тримають довше, а при влучаннях він довший, ніж при промахах."
+      "en": "Researchers call the last steady look before a movement the {{term:quiet-eye|quiet eye}}. In studies across many sports, more skilled performers tend to start it earlier and hold it longer, and it is often longer on successful attempts than on failed ones.",
+      "uk": "Останній стійкий погляд перед рухом дослідники називають «{{term:quiet-eye|тихим оком}}» (quiet eye). У дослідженнях із багатьох видів спорту досвідченіші спортсмени зазвичай починають його раніше й тримають довше, а при вдалих спробах він часто довший, ніж при невдалих."
     },
     {
       "k": "mind-concentration-focus-p10",
       "t": "p",
-      "en": "There is no set number of milliseconds to hold. For you it simply means: see the target early and keep your eyes on it while the gun moves smoothly. In one study, 20 skeet shooters trained this while watching video of their own eyes and shots, and they hit more targets afterwards. The research is from Olympic trap and skeet; most likely it works the same way in {{tm:sporting}} and {{tm:compak}}.",
-      "uk": "Певної кількості мілісекунд, яку треба витримати, немає. Для вас це означає просто: рано побачити мішень і тримати на ній погляд, поки рушниця рухається плавно. В одному дослідженні 20 стрільців у скит тренували це, переглядаючи відео своїх очей і пострілів, і після цього влучали частіше. Дослідження проводили на олімпійських трапі й скиті; найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+      "en": "There is no set number of milliseconds to hold. For you it simply means: see the target early and keep your eyes on it while the gun moves smoothly. This has not been studied in {{tm:sporting}} or {{tm:compak}} itself; most likely it works the same way there.",
+      "uk": "Певної кількості мілісекунд, яку треба витримати, немає. Для вас це означає просто: рано побачити мішень і тримати на ній погляд, поки рушниця рухається плавно. У самих {{tm:sporting}} і {{tm:compak}} цього не досліджували; найімовірніше, там це працює так само."
     },
     {
       "k": "mind-concentration-focus-p5",
@@ -326,14 +299,14 @@
     {
       "k": "mind-concentration-focus-q4",
       "q": {
-        "en": "What does research say about the quiet eye in shotgun shooters?",
-        "uk": "Що кажуть дослідження про «тихе око» у стрільців із рушниці?"
+        "en": "What does research across many sports say about the quiet eye?",
+        "uk": "Що кажуть дослідження з різних видів спорту про «тихе око»?"
       },
       "options": [
         {
           "k": "a",
-          "en": "It starts earlier and lasts longer on hits",
-          "uk": "Воно починається раніше й триває довше при влучаннях"
+          "en": "Skilled performers tend to start it earlier and hold it longer",
+          "uk": "У досвідченіших спортсменів воно зазвичай починається раніше й триває довше"
         },
         {
           "k": "b",
@@ -348,8 +321,8 @@
       ],
       "correct": "a",
       "explain": {
-        "en": "On hits the final look starts earlier and lasts longer, but there is no universal number to aim for.",
-        "uk": "При влучаннях останній погляд починається раніше й триває довше, але універсального числа, до якого треба прагнути, немає."
+        "en": "Across many sports the final steady look tends to start earlier and last longer in skilled performers and on successful attempts, but there is no universal number to aim for.",
+        "uk": "У багатьох видах спорту останній стійкий погляд у досвідченіших спортсменів і при вдалих спробах зазвичай починається раніше й триває довше, але універсального числа, до якого треба прагнути, немає."
       }
     }
   ],
@@ -417,23 +390,19 @@
       "for": "mind-concentration-focus-p9",
       "level": "strong",
       "sources": [
-        "https://doi.org/10.1249/MSS.0b013e3181d1b059",
         "https://portal.research.lu.se/en/publications/quiet-eye-and-performance-in-sport-a-meta-analysis/"
       ]
     },
     {
       "for": "mind-concentration-focus-p10",
-      "level": "little",
-      "sources": [
-        "https://doi.org/10.1249/MSS.0b013e3182035de6"
-      ]
+      "level": "coaches",
+      "sources": []
     },
     {
       "for": "mind-concentration-focus-p5",
       "level": "some",
       "sources": [
-        "https://doi.org/10.1037/1528-3542.7.2.336",
-        "https://doi.org/10.1037/a0023225"
+        "https://doi.org/10.1037/1528-3542.7.2.336"
       ]
     },
     {
@@ -452,8 +421,8 @@
     "basics-eyes-p4": "980c7cb2",
     "mind-concentration-focus-sim": "452f875e",
     "mind-concentration-focus-p8": "72cebf0f",
-    "mind-concentration-focus-p9": "e0357652",
-    "mind-concentration-focus-p10": "f7366569",
+    "mind-concentration-focus-p9": "31722f51",
+    "mind-concentration-focus-p10": "188a0a26",
     "mind-concentration-focus-p5": "5c7d9e57",
     "mind-concentration-focus-p6": "32829321",
     "mind-concentration-focus-kp1": "ad64d958",
@@ -464,7 +433,7 @@
     "mind-concentration-focus-dyk": "a8e9ebb6",
     "mind-concentration-focus-q1": "f592a3e4",
     "mind-concentration-focus-q2": "3dd8e102",
-    "mind-concentration-focus-q4": "2ddaaf43",
+    "mind-concentration-focus-q4": "a7579c73",
     "mind-concentration-focus-q3": "741aa211"
   },
   "todo": {

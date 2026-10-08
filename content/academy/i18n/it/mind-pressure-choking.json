@@ -1,12 +1,12 @@
 {
   "id": "mind-pressure-choking",
   "lang": "it",
-  "base_rev": 1,
+  "base_rev": 3,
   "h": {
     "title": "04495f7f",
     "summary": "e075f54f",
     "mind-pressure-choking-p1": "84cf63e0",
-    "mind-pressure-choking-p2": "170c6388",
+    "mind-pressure-choking-p2": "242ae1d8",
     "mind-pressure-choking-p3": "b611399c",
     "mind-pressure-choking-signs": "8dd41c26",
     "mind-pressure-choking-p4": "1551f96e",
@@ -15,7 +15,7 @@
     "mind-pressure-choking-p7": "02a2f93f",
     "mind-pressure-choking-p8": "f384a5ee",
     "mind-pressure-choking-tip": "a6b201fc",
-    "mind-pressure-choking-p9": "2bdb5b09",
+    "mind-pressure-choking-p9": "e6fdd52e",
     "mind-pressure-choking-p10": "98a211b7",
     "mind-pressure-choking-n1": "bc01255d",
     "mind-pressure-choking-kp1": "5e78a42c",
@@ -29,12 +29,16 @@
     "mind-pressure-choking-q3": "a8d3c7f6",
     "mind-pressure-choking-q4": "c8221a14"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Pressione e crollo: perché si mancano i piattelli facili",
   "summary": "Sotto pressione, i tiratori esperti a volte iniziano a guidare consapevolmente un colpo che di solito fanno senza pensarci. Come individuare i segnali e cosa può aiutare.",
   "body": {
     "mind-pressure-choking-p1": "Il {{term:choking|crollo sotto pressione}} significa tirare chiaramente sotto il proprio livello abituale a causa della pressione. Una spiegazione comune: sotto pressione iniziate a controllare, passo dopo passo, un'abilità che normalmente funziona da sola, e questo la disturba.",
-    "mind-pressure-choking-p2": "La preoccupazione porta via anche l'attenzione dal piattello. In uno studio su tiratori d'élite con il fucile sotto ansia, l'ultimo sguardo sul piattello si è fatto più breve, il fucile si è mosso in modo meno fluido, e hanno colpito meno piattelli.",
+    "mind-pressure-choking-p2": "La preoccupazione porta via anche l'attenzione dal piattello. Sotto ansia, l'attenzione viene attirata dai pensieri preoccupati e dalle minacce, e ne resta meno per il compito.",
     "mind-pressure-choking-p3": "Segnali che potete notare in pedana:",
     "mind-pressure-choking-signs": [
       "Il vostro ritmo cambia: affrettate la chiamata, oppure restate troppo a lungo.",
@@ -50,7 +54,7 @@
     "mind-pressure-choking-p7": "Un'abilità che avete imparato soprattutto facendo, senza molte regole esplicite su gomiti e piedi, tende a tenere meglio sotto pressione. Questo è uno dei motivi per cui molti istruttori riservano i discorsi tecnici all'allenamento e nelle gare danno solo brevi parole chiave.",
     "mind-pressure-choking-p8": "In uno {{term:shoot-off|spareggio}}, mantenete la stessa routine e lo stesso ritmo. Affrettarsi sotto pressione è stato collegato a risultati peggiori, per esempio nei rigori nel calcio.",
     "mind-pressure-choking-tip": "Se potreste finire in uno spareggio, restate al caldo, bevete acqua e state nelle vicinanze. In entrambe le discipline potreste dover tirare {{fact:rules.shootoff-ready-time}} ({{rule:sporting:ch18-squad-and-timing}}, {{rule:compak:ch14-shootoff-availability}}).",
-    "mind-pressure-choking-p9": "La maggior parte di questa ricerca viene da compiti di laboratorio e altri sport; i dati sul fucile vengono dal trap e dallo skeet olimpico. Quindi molto probabilmente funziona allo stesso modo nel {{tm:sporting}} e nel {{tm:compak}}.",
+    "mind-pressure-choking-p9": "La maggior parte di questa ricerca viene da compiti di laboratorio e altri sport, non dal {{tm:sporting}} o dal {{tm:compak}}. Quindi molto probabilmente funziona allo stesso modo anche qui.",
     "mind-pressure-choking-p10": "Se la pressione continua a rovinarvi le gare per molto tempo, uno psicologo dello sport può aiutarvi a costruire un piano."
   },
   "note": {
@@ -68,22 +72,38 @@
   "quiz": {
     "mind-pressure-choking-q1": {
       "q": "Qual è un segnale tipico di crollo sotto pressione in pedana?",
-      "options": { "a": "Il vostro ritmo resta uguale a quello in allenamento", "b": "Iniziate a controllare consapevolmente l'imbracciata", "c": "Bevete un po' d'acqua tra una pedana e l'altra" },
+      "options": {
+        "a": "Il vostro ritmo resta uguale a quello in allenamento",
+        "b": "Iniziate a controllare consapevolmente l'imbracciata",
+        "c": "Bevete un po' d'acqua tra una pedana e l'altra"
+      },
       "explain": "Controllare consapevolmente un'abilità che di solito funziona da sola è un segnale comune di crollo sotto pressione."
     },
     "mind-pressure-choking-q2": {
       "q": "Cosa tende ad aiutare sotto pressione?",
-      "options": { "a": "Cambiare tecnica proprio il giorno della gara", "b": "Controllare i punteggi dopo ogni pedana", "c": "La vostra routine abituale e un'unica indicazione semplice" },
+      "options": {
+        "a": "Cambiare tecnica proprio il giorno della gara",
+        "b": "Controllare i punteggi dopo ogni pedana",
+        "c": "La vostra routine abituale e un'unica indicazione semplice"
+      },
       "explain": "Una revisione degli studi sul crollo sotto pressione ha trovato che una routine e un'unica indicazione semplice sono tra le cose che aiutano."
     },
     "mind-pressure-choking-q3": {
       "q": "Come potete tirare uno spareggio?",
-      "options": { "a": "Con la vostra routine e il vostro ritmo abituali", "b": "Più in fretta, per finirlo prima", "c": "Più lentamente, controllando ogni movimento due volte" },
+      "options": {
+        "a": "Con la vostra routine e il vostro ritmo abituali",
+        "b": "Più in fretta, per finirlo prima",
+        "c": "Più lentamente, controllando ogni movimento due volte"
+      },
       "explain": "Affrettarsi e controllare troppo sono entrambi segnali di pressione; la vostra routine e il vostro ritmo abituali sono una buona scelta predefinita."
     },
     "mind-pressure-choking-q4": {
       "q": "Quale tipo di allenamento può prepararvi alla pressione?",
-      "options": { "a": "Solo piattelli facili, senza punteggio", "b": "Pressione che cresce passo dopo passo", "c": "Una nuova tecnica ogni settimana" },
+      "options": {
+        "a": "Solo piattelli facili, senza punteggio",
+        "b": "Pressione che cresce passo dopo passo",
+        "c": "Una nuova tecnica ogni settimana"
+      },
       "explain": "In una revisione di studi, allenarsi sotto una pressione che cresce passo dopo passo ha aiutato in modo discreto."
     }
   }

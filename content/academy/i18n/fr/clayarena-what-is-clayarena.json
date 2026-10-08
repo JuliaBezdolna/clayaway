@@ -1,11 +1,11 @@
 {
   "id": "clayarena-what-is-clayarena",
   "lang": "fr",
-  "base_rev": 2,
+  "base_rev": 3,
   "h": {
     "title": "bc76e59e",
     "summary": "761d8c91",
-    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p1": "56e26387",
     "clayarena-what-is-clayarena-p2": "771824c6",
     "clayarena-what-is-clayarena-p3": "17d83580",
     "clayarena-what-is-clayarena-p4": "3d7784c7",
@@ -18,7 +18,7 @@
     "clayarena-what-is-clayarena-q1": "25b43879",
     "clayarena-what-is-clayarena-q2": "565010d9",
     "clayarena-what-is-clayarena-q4": "08498f4c",
-    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+    "clayarena-what-is-clayarena-q3": "db6bb2a0"
   },
   "review": {
     "by": null,
@@ -28,7 +28,7 @@
   "title": "Qu'est-ce que ClayArena",
   "summary": "ClayArena est un site de tir sur cibles d'argile centré sur le {{tm:sporting}} et le {{tm:compak}} : résultats de compétitions, profils de tireurs, calendrier, vidéos, bilans de saison, stands et entraîneurs.",
   "body": {
-    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) est un site consacré au tir sur cibles d'argile, centré sur le {{tm:sporting}} et le {{tm:compak}}. Il montre qui a tiré et comment, où se dérouleront les prochaines compétitions et où vous pouvez vous entraîner. Quelques autres disciplines, comme le trap et le skeet, y figurent aussi.",
+    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) est un site consacré au tir sur cibles d'argile : le {{tm:sporting}} et le {{tm:compak}}. Il montre qui a tiré et comment, où se dérouleront les prochaines compétitions et où vous pouvez vous entraîner.",
     "clayarena-what-is-clayarena-p2": "Le cœur de ClayArena, ce sont les résultats de compétitions. Chaque compétition a un tableau de résultats avec les places et le nombre de plateaux cassés. Pour certaines épreuves, les scores sont mis à jour pendant que le tir se poursuit encore. Les {{term:shooter-profile|profils de tireurs}} se construisent à partir de ces résultats.",
     "clayarena-what-is-clayarena-p3": "Un profil de tireur est la page d'une personne : ses compétitions et ses chiffres clés, comme la {{term:accuracy|précision}}. Ce que signifient ces chiffres est expliqué dans {{lesson:clayarena-profile-numbers}}.",
     "clayarena-what-is-clayarena-p4": "ClayArena a aussi un calendrier de compétitions, des vidéos de compétitions et des {{term:season-recap|bilans de saison}}. Il existe également des catalogues de stands et d'entraîneurs. Plus dans {{lesson:clayarena-videos-recaps-calendar}} et {{lesson:clayarena-coaches-grounds-tours}}.",
@@ -72,13 +72,13 @@
       "explain": "Le calendrier répertorie les compétitions prévues, en cours et terminées, avec les dates et les lieux."
     },
     "clayarena-what-is-clayarena-q3": {
-      "q": "Sur quelles disciplines ClayArena est-elle centrée ?",
+      "q": "De quelles disciplines parle ClayArena ?",
       "options": {
         "a": "Le biathlon et le tir à l'arc",
         "b": "{{tm:sporting}} et {{tm:compak}}",
-        "c": "Seulement le trap olympique"
+        "c": "Le tir à la carabine et au pistolet"
       },
-      "explain": "ClayArena est centrée sur ces deux disciplines FITASC ; quelques autres disciplines y figurent aussi."
+      "explain": "ClayArena est consacrée à ces deux disciplines FITASC."
     }
   }
 }

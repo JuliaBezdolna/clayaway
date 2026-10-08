@@ -115,7 +115,7 @@ window.GLOSSARY_I18N.de = {
   "tower": {
    "term_local": "Turm",
    "short": "Eine erhöhte Maschinenposition hinter den Compak-Positionen, mindestens 4 m über ihnen.",
-   "long": "Compak-Maschinen dürfen frei aufgestellt werden, solange keine Scheibe, auch kein No Bird, jemanden gefährden kann. Eine Maschine hinter den Schießpositionen muss mindestens 4 m höher als die Positionen stehen. Die vorgeschriebene gehende Flugbahn über die Seite BC kann von einem solchen Turm kommen oder von einer Maschine in einem Graben bzw. auf dem Boden vor den Positionen.",
+   "long": "Compak-Maschinen dürfen frei aufgestellt werden, solange keine Scheibe, auch kein No Bird, jemanden gefährden kann. Eine Maschine hinter den Schießpositionen muss mindestens 4 m höher als die Positionen stehen. Die vorgeschriebene gehende Flugbahn über die Seite BC kann von einem solchen Turm kommen oder von einer Maschine, die vor den Positionen in den Boden eingelassen ist oder auf dem Boden steht.",
    "disciplines": {
     "compak": "Die 4-m-Regel steht in den Compak-Regeln (2.4)."
    },
@@ -535,7 +535,7 @@ window.GLOSSARY_I18N.de = {
     "Hauptrichter",
     "Standaufsicht"
    ],
-   "note": "DSB (ISSF tradition) calls the stand referee 'Hauptrichter'.",
+   "note": "DSB rules call the stand referee 'Hauptrichter'.",
    "conf": "high",
    "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
   },
@@ -750,7 +750,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Loslass-Abzug"
    ],
-   "note": "Anglicism dominates. DSB defines it as 'Schuss bricht durch Loslassen des Abzuges' (banned in its ISSF disciplines).",
+   "note": "Anglicism dominates. DSB defines it as 'Schuss bricht durch Loslassen des Abzuges'.",
    "conf": "high",
    "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
   },
@@ -1055,7 +1055,7 @@ window.GLOSSARY_I18N.de = {
   "category": {
    "term_local": "Klasse",
    "short": "Eine eigene Alters- und Geschlechterwertung neben der offenen Wertung; ab 2027 verwendet die FITASC Junior, Lady, Men, Senior, Veteran und Master.",
-   "long": "Ab dem 1. Januar 2027 legt die FITASC sechs Klassen für Compak® Sporting, Parcours de Chasse – Sporting™ und ihre anderen Disziplinen fest: Junior (13–20), Lady (ab 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) und Master (ab 73, Männer oder Frauen). Das Alter zählt nach Geburtsjahr: Eine neue Klasse gilt ab dem 1. Januar des Jahres, in dem der Schütze das Alter erreicht, unabhängig vom Geburtstag. Senior ist nicht die Hauptklasse der Erwachsenen, sondern die Altersgruppe 56–65; die Hauptklasse der Erwachsenen ist Men. Klassenmannschaften haben 3 Schützen (die Men-Mannschaft im Sporting hat 4), und ein Schütze, der für eine Mannschaft einer anderen Klasse ausgewählt wird, muss auch einzeln in dieser Klasse starten. Im Compak werden Gleichstände um die ersten drei Plätze in jeder Klasse durch Stechen entschieden; gehören Schützen in einem Stechen der offenen Wertung derselben Klasse an, zählt das Ergebnis auch für diese Klasse. Nationale und Vereinswettkämpfe können eigene Klassen verwenden, wie in der Ausschreibung angegeben.",
+   "long": "Ab dem 1. Januar 2027 legt die FITASC sechs Klassen für Compak® Sporting und Parcours de Chasse – Sporting™ fest: Junior (13–20), Lady (ab 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) und Master (ab 73, Männer oder Frauen). Das Alter zählt nach Geburtsjahr: Eine neue Klasse gilt ab dem 1. Januar des Jahres, in dem der Schütze das Alter erreicht, unabhängig vom Geburtstag. Senior ist nicht die Hauptklasse der Erwachsenen, sondern die Altersgruppe 56–65; die Hauptklasse der Erwachsenen ist Men. Klassenmannschaften haben 3 Schützen (die Men-Mannschaft im Sporting hat 4), und ein Schütze, der für eine Mannschaft einer anderen Klasse ausgewählt wird, muss auch einzeln in dieser Klasse starten. Im Compak werden Gleichstände um die ersten drei Plätze in jeder Klasse durch Stechen entschieden; gehören Schützen in einem Stechen der offenen Wertung derselben Klasse an, zählt das Ergebnis auch für diese Klasse. Nationale und Vereinswettkämpfe können eigene Klassen verwenden, wie in der Ausschreibung angegeben.",
    "disciplines": {
     "sporting": "Die Men-Mannschaft hat 4 Schützen; Mannschaften der anderen Klassen haben 3.",
     "compak": "Eigene Stechen um das Podium in jeder Klasse."
@@ -1198,8 +1198,7 @@ window.GLOSSARY_I18N.de = {
     "Weicheisenschrot"
    ],
    "note": "Shops: 'stahlschrotgeeignet' (steel-proofed).",
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "low-recoil-cartridge": {
    "term_local": "Rückstoßarme Patrone (Light-Patrone)",
@@ -1280,15 +1279,6 @@ window.GLOSSARY_I18N.de = {
    "note": "English 'Extended' common in catalogues.",
    "conf": "medium"
   },
-  "skeet-choke": {
-   "term_local": "Skeet",
-   "short": "Eine sehr leichte Engung, etwa 0,1–0,15 mm (4–6 thou), für die nächsten Scheiben.",
-   "long": "Der Skeet-Choke ist nach der Disziplin benannt, in der die Scheiben sehr nah fliegen. Er ist nur wenig enger als Zylinder: etwa 0,1–0,15 mm Engung (4–6 thou), im europäischen Sprachgebrauch manchmal 1/8 genannt. Die Garbe ist auf kurze Entfernung breit und verzeiht kleine Fehler. Im Sporting™ und Compak® Sporting wird er für nahe Scheiben, Rabbits und nah aufsteigende Scheiben verwendet. Die genauen Werte hängen vom Hersteller ab.",
-   "alt": [
-    "Skeet-Choke"
-   ],
-   "conf": "medium"
-  },
   "improved-cylinder": {
    "term_local": "Improved Cylinder",
    "short": "Eine leichte Engung, etwa 0,25 mm (10 thou); in Europa „1/4“, vier Sterne.",
@@ -1325,8 +1315,7 @@ window.GLOSSARY_I18N.de = {
     "Dreiviertelchoke"
    ],
    "note": "Frankonia lists choke range as '¾–1/1'.",
-   "conf": "medium",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "medium"
   },
   "full-choke": {
    "term_local": "Vollchoke",
@@ -1336,8 +1325,7 @@ window.GLOSSARY_I18N.de = {
     "Full",
     "1/1"
    ],
-   "conf": "medium",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "medium"
   },
   "star-marks": {
    "term_local": "Sternmarkierung",
@@ -1363,8 +1351,7 @@ window.GLOSSARY_I18N.de = {
     "Bock"
    ],
    "note": "Shops write 'Bockdoppelflinte'; shooters say 'Bockflinte' or just 'Bock'.",
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "side-by-side": {
    "term_local": "Doppelflinte",
@@ -1397,8 +1384,7 @@ window.GLOSSARY_I18N.de = {
     "Hinterschaft",
     "Kolben"
    ],
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "comb": {
    "term_local": "Schaftrücken",
@@ -1407,8 +1393,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Schaftkamm"
    ],
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "receiver": {
    "term_local": "Basküle",
@@ -1419,8 +1404,7 @@ window.GLOSSARY_I18N.de = {
     "Verschlussgehäuse"
    ],
    "note": "'Basküle' for break-action guns; 'Gehäuse/System' for semi-autos.",
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "barrel-selector": {
    "term_local": "Laufwahl",
@@ -1456,8 +1440,7 @@ window.GLOSSARY_I18N.de = {
     "Visierschiene"
    ],
    "note": "Shops: '10 mm Laufschiene'.",
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "ejector": {
    "term_local": "Ejektor",
@@ -1468,15 +1451,13 @@ window.GLOSSARY_I18N.de = {
     "Hülsenauswerfer"
    ],
    "note": "'Ejektor' is the usual word for O/U guns.",
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "barrel-length": {
    "term_local": "Lauflänge",
    "short": "Die Länge der Läufe; die FITASC verlangt mindestens 66 cm (26 Zoll), typische Wettkampfflinten haben 28, 30 oder 32 Zoll.",
    "long": "Die FITASC-Regeln für Sporting™ und Compak® Sporting verlangen Läufe von mindestens 66 cm (26 Zoll) Länge. Sportingflinten haben meist Läufe von 28, 30 oder 32 Zoll (etwa 71, 76 und 81 cm). Längere Läufe schwingen ruhiger und halten die Linie besser; kürzere sind schneller und leichter. Für erwachsene Anfänger werden oft 30 Zoll empfohlen, für junge oder kleinere Schützen kürzere Läufe. Die endgültige Wahl mit einem Trainer treffen, denn auch die Gesamtbalance der Flinte zählt.",
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "gunsmith": {
    "term_local": "Büchsenmacher",
@@ -1499,8 +1480,7 @@ window.GLOSSARY_I18N.de = {
    "short": "Der Abstand vom Abzug bis zur Mitte der Schaftkappe.",
    "long": "Die Schaftlänge wird vom Abzug bis zur Mitte der Schaftkappe gemessen. Ist der Schaft zu lang, bleibt er beim Anschlagen an der Kleidung hängen und die Flinte wirkt kopflastig; ist er zu kurz, kann der Daumen der Abzugshand an die Nase schlagen und der Rückstoß fühlt sich stärker an. Geändert wird sie mit einer anderen Schaftkappe, Distanzstücken oder durch Kürzen des Schafts. Kinder und Jugendliche brauchen eine kürzere Länge als Erwachsene, die mit dem Wachstum überprüft wird. Das genaue Maß legt ein Trainer oder Schaftmacher fest.",
    "note": "Frankonia: '375 mm Schaftlänge'.",
-   "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "high"
   },
   "cast": {
    "term_local": "Schränkung",
@@ -1951,8 +1931,7 @@ window.GLOSSARY_I18N.de = {
     "Hartschalenkoffer"
    ],
    "note": "Frankonia: 'ABS Koffer'.",
-   "conf": "medium",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329"
+   "conf": "medium"
   },
   "shooting-vest": {
    "term_local": "Schießweste",
@@ -2126,16 +2105,6 @@ window.GLOSSARY_I18N.de = {
    "short": "Eine ClayArena-Zusammenfassung einer Saison: die wichtigsten Wettkämpfe, Sieger und Leistungen des Jahres.",
    "long": "Saisonrückblicke auf ClayArena bündeln die Höhepunkte des Jahres im Sporting™ und Compak® Sporting: wichtige Wettkämpfe, Sieger und herausragende Leistungen. Für Anfänger sind sie ein einfacher Weg zu erfahren, wer in Form ist und welche Wettkämpfe am wichtigsten waren. Zusammen mit Wettkampfvideos und dem Kalender helfen sie, sich schnell in der Welt des Wurfscheibenschießens zurechtzufinden. Nach dem eigenen Wettkampf lohnt sich ein Blick: Vielleicht taucht auch die eigene Leistung auf."
   },
-  "olympic-trap": {
-   "term_local": "Olympisch Trap (Trap)",
-   "short": "Eine olympische Disziplin: Die Scheiben fliegen in wechselnden Winkeln aus einem Graben vom Schützen weg, und auf jede dürfen zwei Schüsse abgegeben werden.",
-   "long": "Beim Olympischen Trap sind die Maschinen in einem Graben vor einer Linie aus fünf Schießpositionen verborgen, und die Scheiben fliegen mit hoher Geschwindigkeit in wechselnden Winkeln und Höhen vom Schützen weg. Auf jede Scheibe dürfen zwei Schüsse abgegeben werden. Der Schütze ruft mit bereits angeschlagener Flinte ab, und die Scheibe wird auf den Abruf ausgelöst. Die Disziplin wird von der ISSF geregelt, nicht von der FITASC, und gehört zum olympischen Programm. Für Schützen im Sporting™ und Compak® Sporting ist Trap ein gutes Training für schnelle Reaktionen auf gehende Scheiben."
-  },
-  "skeet": {
-   "term_local": "Skeet",
-   "short": "Eine Disziplin mit zwei Häusern (Hoch- und Niederhaus), deren Scheiben das Feld kreuzen; die Positionen stehen im Halbkreis.",
-   "long": "Beim Skeet stehen zwei Maschinenhäuser an den Enden eines Halbkreises: ein Hochhaus auf der einen und ein Niederhaus auf der anderen Seite. Die Scheiben fliegen auf festen Flugbahnen aufeinander zu, und der Schütze wechselt zwischen den Positionen auf dem Halbkreis und schießt Einzelscheiben und Doubletten. Olympisches Skeet wird von der ISSF geregelt; es gibt auch nationale Varianten wie English Skeet mit etwas anderen Regeln. Die Skeet-Flugbahnen sind fest, daher eignet sich die Disziplin gut, um die Technik auf kreuzende Scheiben zu entwickeln. Der leichte Skeet-Choke ist nach ihr benannt."
-  },
   "guardian-consent": {
    "term_local": "Einverständniserklärung der Erziehungsberechtigten",
    "short": "Schriftliche Zustimmung der Eltern oder Erziehungsberechtigten, dass ein Minderjähriger mit dem Schießen beginnt; Vereine verlangen sie meist.",
@@ -2193,7 +2162,6 @@ window.GLOSSARY_I18N.de = {
    ],
    "note": "Frankonia: 'mit verstellbaren Schaftrücken'.",
    "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329",
    "short": "Ein Schaftrücken, der sich anheben, absenken oder seitlich verschieben lässt, damit das Auge genau entlang der Schiene blickt."
   },
   "grip": {
@@ -2213,7 +2181,6 @@ window.GLOSSARY_I18N.de = {
    ],
    "note": "Abzugszüngel = trigger blade; 'selektiver Einabzug' = single selective trigger.",
    "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329",
    "short": "Hebel, mit dem der Schuss ausgelöst wird."
   },
   "safety-catch": {
@@ -2223,7 +2190,6 @@ window.GLOSSARY_I18N.de = {
     "Sicherungshebel"
    ],
    "conf": "high",
-   "src": "https://www.frankonia.de/p/beretta/bockdoppelflinte-694-trap/2005329",
    "short": "Schieber an der Flinte, der den Abzug blockiert."
   },
   "recoil-pad": {
@@ -2565,7 +2531,7 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Betablocker",
    "conf": "high",
    "short": "Ein Herzmedikament, das den Herzschlag verlangsamt und das Zittern verringert; nach der WADA-Liste ist es im Schießsport jederzeit verboten, im und außerhalb des Wettkampfs.",
-   "long": "Beispiele sind Propranolol, Atenolol, Bisoprolol und Metoprolol. In Präzisionssportarten sind sie verboten, weil ein langsamerer Herzschlag und weniger Zittern die Flinte ruhiger machen können. Die WADA-Liste nennt den Schießsport über den olympischen Verband (ISSF) und das Para-Schießen (IPC), nicht über die FITASC; behandeln Sie Betablocker trotzdem auch im Sporting™ und im Compak® Sporting als verboten: Nationale Anti-Doping-Agenturen können bei nationalen Wettkämpfen kontrollieren, Veranstalter können die WADA-Liste anwenden, und viele Schützen starten auch bei ISSF-Wettkämpfen. Hat Ihnen ein Arzt einen Betablocker verschrieben, setzen Sie ihn nicht selbst ab; fragen Sie rechtzeitig nach einer erlaubten Alternative oder einer TUE. Dies ist keine medizinische Beratung."
+   "long": "Beispiele sind Propranolol, Atenolol, Bisoprolol und Metoprolol. In Präzisionssportarten sind sie verboten, weil ein langsamerer Herzschlag und weniger Zittern die Flinte ruhiger machen können. Die WADA-Liste nennt Sporting™ und Compak® Sporting nicht eigens; behandeln Sie Betablocker trotzdem auch dort als verboten: Nationale Anti-Doping-Agenturen können bei nationalen Wettkämpfen kontrollieren, und Veranstalter können die WADA-Liste anwenden. Hat Ihnen ein Arzt einen Betablocker verschrieben, setzen Sie ihn nicht selbst ab; fragen Sie rechtzeitig nach einer erlaubten Alternative oder einer TUE. Dies ist keine medizinische Beratung."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2589,8 +2555,8 @@ window.GLOSSARY_I18N.de = {
     "ruhiger Blick"
    ],
    "conf": "medium",
-   "short": "Der letzte ruhige Blick auf die Scheibe vor der Bewegung; bei geübten Schützen beginnt er meist früher und dauert länger.",
-   "long": "Forscher messen das Quiet Eye als letzten ruhigen Blick, bevor eine Bewegung beginnt. Im Vergleich zu weniger geübten Schützen beginnen Spitzenschützen im Trap und Skeet ihn früher und halten ihn länger, und bei Treffern ist er meist länger als bei Fehlern. Unter Anspannung wird er oft kürzer. Eine magische Zahl an Millisekunden gibt es nicht: Beim Wurfscheibenschießen heißt es, die Scheibe früh und klar zu sehen und die Augen bis durch den Schuss auf ihr zu halten. Die meisten Daten stammen aus dem olympischen Trap und Skeet; vermutlich lässt sich das auf Sporting™ und Compak® Sporting übertragen."
+   "short": "Der letzte ruhige Blick auf die Scheibe vor der Bewegung; bei geübten Sportlern beginnt er meist früher und dauert länger.",
+   "long": "Forscher messen das Quiet Eye als letzten ruhigen Blick, bevor eine Bewegung beginnt. In Studien aus vielen Sportarten beginnen geübtere Sportler ihn meist früher und halten ihn länger, und bei gelungenen Versuchen ist er meist länger als bei misslungenen. Unter Anspannung wird er oft kürzer. Eine magische Zahl an Millisekunden gibt es nicht: Beim Wurfscheibenschießen heißt es, die Scheibe früh und klar zu sehen und die Augen bis durch den Schuss auf ihr zu halten. Im Sporting™ und Compak® Sporting selbst wurde das nicht untersucht; vermutlich funktioniert es dort genauso."
   },
   "self-talk": {
    "term_local": "Selbstgespräch",
@@ -2629,7 +2595,7 @@ window.GLOSSARY_I18N.de = {
    ],
    "conf": "medium",
    "short": "Deutlich schlechter schießen als sonst, weil der Druck groß ist, oft wenn man beginnt, eine sonst automatische Fertigkeit bewusst zu steuern.",
-   "long": "Nicht zu verwechseln mit dem Choke des Laufs. Unter Druck beginnt ein Schütze womöglich, Anschlag oder Schwung Schritt für Schritt zu kontrollieren, und Sorgen ziehen die Augen von der Scheibe weg. Anzeichen sind ein verändertes Tempo, das Kontrollieren des Anschlags, der Blick auf Lauf oder Korn und das Schielen auf die Ergebnisse. Was helfen kann: die gewohnte Schussroutine und das gewohnte Tempo, ein einfaches Schlüsselwort zur Scheibe, Prozessziele und Training unter schrittweise steigendem Druck. Die meisten Studien stammen aus anderen Sportarten und aus dem olympischen Trap und Skeet; vermutlich lässt sich das auf Sporting™ und Compak® Sporting übertragen. Verdirbt der Druck immer wieder Ihre Wettkämpfe, kann ein Sportpsychologe helfen."
+   "long": "Nicht zu verwechseln mit dem Choke des Laufs. Unter Druck beginnt ein Schütze womöglich, Anschlag oder Schwung Schritt für Schritt zu kontrollieren, und Sorgen ziehen die Augen von der Scheibe weg. Anzeichen sind ein verändertes Tempo, das Kontrollieren des Anschlags, der Blick auf Lauf oder Korn und das Schielen auf die Ergebnisse. Was helfen kann: die gewohnte Schussroutine und das gewohnte Tempo, ein einfaches Schlüsselwort zur Scheibe, Prozessziele und Training unter schrittweise steigendem Druck. Die meisten Studien stammen aus dem Labor und aus anderen Sportarten, nicht aus Sporting™ oder Compak® Sporting; vermutlich funktioniert es dort genauso. Verdirbt der Druck immer wieder Ihre Wettkämpfe, kann ein Sportpsychologe helfen."
   },
   "reset-routine": {
    "term_local": "Reset-Routine",
@@ -2742,14 +2708,6 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Glaskugel",
    "conf": "medium",
    "short": "Eine Glaskugel, die im 19. Jahrhundert als Ziel in die Luft geworfen wurde, eine frühe Alternative zu lebenden Vögeln; später ersetzte sie die Wurfscheibe."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Internationaler Schießsportverband"
-   ],
-   "conf": "high",
-   "short": "Die International Shooting Sport Federation, die die olympischen Schießdisziplinen regelt, darunter das olympische Trap und Skeet; Sporting™ und Compak® Sporting gehören zur FITASC."
   },
   "hydration": {
    "term_local": "Flüssigkeitszufuhr",

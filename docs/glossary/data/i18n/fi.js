@@ -199,7 +199,7 @@ window.GLOSSARY_I18N.fi = {
    "alt": [
     "release-liipaisin"
    ],
-   "note": "SAL H-säännöt: päästöliipaisimet kielletty trapissa/skeetissä.",
+   "note": "SAL:n haulikkosäännöissä käytetty termi.",
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/07/Haulikkosaannot-2026-2.pdf",
    "short": "Liipaisin, joka laukaisee aseen, kun se päästetään irti, eikä kun sitä painetaan.",
@@ -316,16 +316,6 @@ window.GLOSSARY_I18N.fi = {
    "src": "https://metsastajaliitto.fi/metsastajalle/hanki-tietoa/metsastysaseet/metsastyshaulikko",
    "short": "Piippu tai supistaja ilman supistusta; antaa leveimmän osumakuvion.",
    "long": "Sylinteri tarkoittaa nollasupistusta: piipun sisähalkaisija on suulla sama kuin muualla. Hauliparvi leviää nopeimmin, joten osumakuvio on lähellä leveä ja harvenee kauempana. Se valitaan hyvin lähellä oleville kiekoille, kuten joillekin jäniskiekoille tai ampujan läheltä ponnahtaville kiekoille. Berettan supistajissa se merkitään viidellä tähdellä. Useimmille Sporting™- ja Compak® Sporting -kiekoille ampujat valitsevat hieman tiukemman supistajan."
-  },
-  "skeet-choke": {
-   "term_local": "skeet-supistaja",
-   "alt": [
-    "skeet (SK)"
-   ],
-   "conf": "medium",
-   "src": "https://www.rihlatuote.fi/hscms/news/11/79/Haulikon-Supistukset.html",
-   "short": "Hyvin kevyt supistus, noin 0,1–0,15 mm (4–6 thou), lähimpiä kiekkoja varten.",
-   "long": "Skeet-supistaja on saanut nimensä lajista, jossa kiekot lentävät hyvin läheltä. Se on vain hieman sylinteriä tiukempi: supistus noin 0,1–0,15 mm (4–6 thou), eurooppalaisessa käytössä joskus 1/8. Osumakuvio on lähellä leveä ja antaa anteeksi pieniä virheitä. Sporting™- ja Compak® Sporting -lajeissa sitä käytetään lähikiekoille, jäniskiekoille ja läheltä ponnahtaville kiekoille. Tarkat arvot riippuvat valmistajasta."
   },
   "improved-cylinder": {
    "term_local": "parannettu sylinteri (IC, 1/4)",
@@ -752,7 +742,7 @@ window.GLOSSARY_I18N.fi = {
    "conf": "medium",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
    "short": "Korotettu heitinpaikka Compak® Sporting -radan ampumapaikkojen takana, vähintään 4 m niiden yläpuolella.",
-   "long": "Compakin heittimet voidaan sijoittaa vapaasti, kunhan mikään kiekko, ei edes No Bird, voi vaarantaa ketään. Ampumapaikkojen takana olevan heittimen on oltava vähintään 4 m ampumapaikkoja korkeammalla. Pakollinen, sivun BC yli poispäin lentävä lentorata voi tulla tällaisesta tornista tai ampumapaikkojen edessä olevasta kaivannosta tai maassa olevasta heittimestä.",
+   "long": "Compakin heittimet voidaan sijoittaa vapaasti, kunhan mikään kiekko, ei edes No Bird, voi vaarantaa ketään. Ampumapaikkojen takana olevan heittimen on oltava vähintään 4 m ampumapaikkoja korkeammalla. Pakollinen, sivun BC yli poispäin lentävä lentorata voi tulla tällaisesta tornista tai ampumapaikkojen edessä maahan upotetusta tai maassa olevasta heittimestä.",
    "disciplines": {
     "compak": "4 metrin sääntö on Compak-säännöissä (2.4)."
    }
@@ -1603,7 +1593,7 @@ window.GLOSSARY_I18N.fi = {
    "conf": "high",
    "src": "https://www.ampumaurheiluliitto.fi/content/uploads/2026/02/Sporting-2022-4.pdf",
    "short": "Erillinen ikä- ja sukupuolisarja yleisen sarjan rinnalla; vuodesta 2027 FITASC käyttää sarjoja Junior, Lady, Men, Senior, Veteran ja Master.",
-   "long": "1.1.2027 alkaen FITASC määrittää kuusi sarjaa Compak® Sportingiin, Parcours de Chasse – Sporting™ -lajiin ja muihin lajeihinsa: Junior (13–20), Lady (13 alkaen), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) ja Master (73 alkaen, miehet tai naiset). Ikä lasketaan syntymävuoden mukaan: uusi sarja on voimassa sen vuoden 1. tammikuuta alkaen, jona ampuja täyttää kyseisen iän, syntymäpäivästä riippumatta. Senior ei ole aikuisten pääsarja vaan 56–65-vuotiaiden ikäryhmä; aikuisten pääsarja on Men. Sarjajoukkueissa on 3 ampujaa (sportingin Men-joukkueessa 4), ja toisen sarjan joukkueeseen valitun ampujan on ilmoittauduttava myös henkilökohtaisesti kyseiseen sarjaan. Compakissa kunkin sarjan kolmen ensimmäisen sijan tasatilanteet ratkaistaan uusintakierroksella; kun yleisen sarjan uusintakierroksen ampujat kuuluvat samaan sarjaan, tulos lasketaan myös siihen sarjaan. Kansalliset ja seurakilpailut voivat käyttää omia sarjojaan ohjelman mukaisesti.",
+   "long": "1.1.2027 alkaen FITASC määrittää kuusi sarjaa Compak® Sportingiin ja Parcours de Chasse – Sporting™ -lajiin: Junior (13–20), Lady (13 alkaen), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) ja Master (73 alkaen, miehet tai naiset). Ikä lasketaan syntymävuoden mukaan: uusi sarja on voimassa sen vuoden 1. tammikuuta alkaen, jona ampuja täyttää kyseisen iän, syntymäpäivästä riippumatta. Senior ei ole aikuisten pääsarja vaan 56–65-vuotiaiden ikäryhmä; aikuisten pääsarja on Men. Sarjajoukkueissa on 3 ampujaa (sportingin Men-joukkueessa 4), ja toisen sarjan joukkueeseen valitun ampujan on ilmoittauduttava myös henkilökohtaisesti kyseiseen sarjaan. Compakissa kunkin sarjan kolmen ensimmäisen sijan tasatilanteet ratkaistaan uusintakierroksella; kun yleisen sarjan uusintakierroksen ampujat kuuluvat samaan sarjaan, tulos lasketaan myös siihen sarjaan. Kansalliset ja seurakilpailut voivat käyttää omia sarjojaan ohjelman mukaisesti.",
    "disciplines": {
     "sporting": "Men-joukkueessa on 4 ampujaa; muiden sarjojen joukkueissa 3.",
     "compak": "Jokaisessa sarjassa erilliset uusintakierrokset palkintosijoista."
@@ -2300,21 +2290,6 @@ window.GLOSSARY_I18N.fi = {
    "short": "ClayArenan kauden yhteenveto: vuoden tärkeimmät kilpailut, voittajat ja suoritukset.",
    "long": "ClayArenan kauden yhteenvedot kokoavat vuoden kohokohdat Sporting™- ja Compak® Sporting -lajeissa: tärkeimmät kilpailut, voittajat ja erottuvat suoritukset. Aloittelijalle ne ovat helppo tapa saada selville, kuka on vireessä ja mitkä kilpailut olivat tärkeimpiä. Kilpailuvideoiden ja kalenterin kanssa ne auttavat löytämään tiensä kiekkoammunnan maailmaan nopeasti. Oman kilpailusi jälkeen niihin kannattaa vilkaista: myös sinun suorituksesi voi olla mukana."
   },
-  "olympic-trap": {
-   "term_local": "trap",
-   "alt": [
-    "olympiatrap"
-   ],
-   "conf": "medium",
-   "short": "Olympialaji: kiekot lentävät ampujasta poispäin kaivannosta vaihtelevissa kulmissa, ja kuhunkin saa ampua kaksi laukausta.",
-   "long": "Olympiatrapissa heittimet on piilotettu kaivantoon viiden ampumapaikan rivin eteen, ja kiekot loittonevat ampujasta suurella nopeudella vaihtelevissa kulmissa ja korkeuksissa. Jokaista kiekkoa kohti saa ampua kaksi laukausta. Ampuja pyytää kiekon ase jo nostettuna, ja kiekko lähtee pyynnöstä. Lajia hallinnoi ISSF eikä FITASC, ja se kuuluu olympiaohjelmaan. Sporting™- ja Compak® Sporting -ampujille trap on hyödyllistä harjoitusta nopeaan reagointiin peräkiekkoihin."
-  },
-  "skeet": {
-   "term_local": "skeet",
-   "conf": "medium",
-   "short": "Laji, jossa on kaksi heitinkoppia (korkea ja matala), joiden kiekot risteävät kentän yli; ampumapaikat ovat puoliympyrässä.",
-   "long": "Skeetissä kaksi heitinkoppia on puoliympyrän päissä: korkea koppi toisella puolella ja matala toisella. Kiekot lentävät toisiaan kohti kiinteitä lentoratoja pitkin, ja ampuja siirtyy puoliympyrän ampumapaikoilta toisille ampuen yksittäis- ja kaksoiskiekkoja. Olympiaskeetiä hallinnoi ISSF; on myös kansallisia muunnelmia, kuten English Skeet, hieman erilaisin säännöin. Skeetin lentoradat ovat kiinteät, joten laji sopii hyvin sivukiekkojen tekniikan kehittämiseen. Kevyt skeet-supistaja on saanut nimensä siitä."
-  },
   "guardian-consent": {
    "term_local": "huoltajan suostumus",
    "conf": "medium",
@@ -2743,7 +2718,7 @@ window.GLOSSARY_I18N.fi = {
    "term_local": "beetasalpaaja",
    "conf": "high",
    "short": "Sydänlääke, joka hidastaa sykettä ja vähentää vapinaa; WADAn listan mukaan se on ammunnassa aina kielletty, kilpailussa ja sen ulkopuolella.",
-   "long": "Esimerkkejä ovat propranololi, atenololi, bisoprololi ja metoprololi. Ne on kielletty tarkkuuslajeissa, koska hitaampi syke ja vähäisempi vapina voivat rauhoittaa asetta. WADAn lista nimeää ammunnan olympialajien liiton (ISSF) ja para-ammunnan (IPC) kautta, ei FITASCin kautta; pidä beetasalpaajia silti kiellettyinä myös Sporting™- ja Compak® Sporting -lajeissa: kansalliset antidopingorganisaatiot voivat testata kansallisissa kilpailuissa, järjestäjät voivat soveltaa WADAn listaa, ja moni ampuja kilpailee myös ISSF-lajeissa. Jos lääkäri on määrännyt sinulle beetasalpaajan, älä lopeta sitä omin päin; kysy hyvissä ajoin sallitusta vaihtoehdosta tai erivapaudesta. Tämä ei ole lääketieteellinen neuvo."
+   "long": "Esimerkkejä ovat propranololi, atenololi, bisoprololi ja metoprololi. Ne on kielletty tarkkuuslajeissa, koska hitaampi syke ja vähäisempi vapina voivat rauhoittaa asetta. WADAn lista ei mainitse Sporting™- ja Compak® Sporting -lajeja erikseen; pidä beetasalpaajia silti kiellettyinä myös niissä: kansalliset antidopingorganisaatiot voivat testata kansallisissa kilpailuissa, ja järjestäjät voivat soveltaa WADAn listaa. Jos lääkäri on määrännyt sinulle beetasalpaajan, älä lopeta sitä omin päin; kysy hyvissä ajoin sallitusta vaihtoehdosta tai erivapaudesta. Tämä ei ole lääketieteellinen neuvo."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2766,8 +2741,8 @@ window.GLOSSARY_I18N.fi = {
     "hiljainen silmä"
    ],
    "conf": "medium",
-   "short": "Viimeinen vakaa katse kiekkoon ennen liikettä; kokeneilla ampujilla se alkaa yleensä aiemmin ja kestää pidempään.",
-   "long": "Tutkijat mittaavat quiet eyen viimeisenä vakaana katseena ennen liikkeen alkua. Vähemmän kokeneisiin verrattuna trapin ja skeetin huippuampujat aloittavat sen aiemmin ja pitävät sitä pidempään, ja osumissa se on yleensä pidempi kuin ohilaukauksissa. Jännittyneenä se usein lyhenee. Mitään taikalukua millisekunteina ei ole: haulikkoammunnassa se tarkoittaa, että näet kiekon aikaisin ja selvästi ja pidät katseen siinä koko laukauksen ajan. Suurin osa aineistosta on olympiatrapista ja -skeetistä; todennäköisesti tämä pätee myös Sporting™- ja Compak® Sporting -lajeihin."
+   "short": "Viimeinen vakaa katse kiekkoon ennen liikettä; kokeneilla urheilijoilla se alkaa yleensä aiemmin ja kestää pidempään.",
+   "long": "Tutkijat mittaavat quiet eyen viimeisenä vakaana katseena ennen liikkeen alkua. Monien urheilulajien tutkimuksissa kokeneemmat urheilijat aloittavat sen yleensä aiemmin ja pitävät sitä pidempään, ja onnistuneissa suorituksissa se on yleensä pidempi kuin epäonnistuneissa. Jännittyneenä se usein lyhenee. Mitään taikalukua millisekunteina ei ole: haulikkoammunnassa se tarkoittaa, että näet kiekon aikaisin ja selvästi ja pidät katseen siinä koko laukauksen ajan. Sporting™- ja Compak® Sporting -lajeissa tätä ei ole tutkittu; todennäköisesti se toimii niissä samoin."
   },
   "self-talk": {
    "term_local": "itsepuhelu",
@@ -2805,7 +2780,7 @@ window.GLOSSARY_I18N.fi = {
    ],
    "conf": "medium",
    "short": "Ampuminen selvästi tavallista tasoa heikommin paineen vuoksi, usein kun alat tietoisesti ohjata taitoa, joka yleensä sujuu itsestään.",
-   "long": "Ei pidä sekoittaa piipun supistajaan (choke). Paineen alla ampuja voi alkaa tarkistaa aseen nostoa tai heilautusta vaihe vaiheelta, ja huoli vie katseen pois kiekosta. Merkkejä ovat muuttunut tempo, aseen noston tarkistelu, katse piipussa tai jyvässä ja tulosten seuraaminen. Apua voivat tuoda tavallinen suoritusrutiini ja tempo, yksi yksinkertainen kiekkoon liittyvä avainsana, suoritustavoitteet ja harjoittelu vähitellen kasvavan paineen alla. Suurin osa tutkimuksista on muista lajeista sekä olympiatrapista ja -skeetistä; todennäköisesti tämä pätee myös Sporting™- ja Compak® Sporting -lajeihin. Jos paine pilaa kilpailusi yhä uudelleen, urheilupsykologi voi auttaa."
+   "long": "Ei pidä sekoittaa piipun supistajaan (choke). Paineen alla ampuja voi alkaa tarkistaa aseen nostoa tai heilautusta vaihe vaiheelta, ja huoli vie katseen pois kiekosta. Merkkejä ovat muuttunut tempo, aseen noston tarkistelu, katse piipussa tai jyvässä ja tulosten seuraaminen. Apua voivat tuoda tavallinen suoritusrutiini ja tempo, yksi yksinkertainen kiekkoon liittyvä avainsana, suoritustavoitteet ja harjoittelu vähitellen kasvavan paineen alla. Suurin osa tutkimuksista on tehty laboratoriossa ja muissa urheilulajeissa, ei Sporting™- tai Compak® Sporting -lajeissa; todennäköisesti se toimii niissä samoin. Jos paine pilaa kilpailusi yhä uudelleen, urheilupsykologi voi auttaa."
   },
   "reset-routine": {
    "term_local": "nollausrutiini",
@@ -2916,14 +2891,6 @@ window.GLOSSARY_I18N.fi = {
    "term_local": "lasipallo",
    "conf": "medium",
    "short": "1800-luvulla maaliksi ilmaan heitetty lasipallo, varhainen vaihtoehto eläville linnuille; myöhemmin savikiekko korvasi sen."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Kansainvälinen ampumaurheiluliitto"
-   ],
-   "conf": "high",
-   "short": "International Shooting Sport Federation, joka johtaa olympialaisten ammuntalajeja, myös olympiatrapia ja -skeetiä; Sporting™ ja Compak® Sporting kuuluvat FITASCille."
   },
   "hydration": {
    "term_local": "nesteytys",

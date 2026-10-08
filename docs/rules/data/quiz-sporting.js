@@ -123,7 +123,7 @@ window.RULES_QUIZ.push({
    "level": 1,
    "topic": "No Bird",
    "q_en": "While the shooter is still settling into the ready position and has not called, the trapper releases a target. The shooter does not fire. What is the referee's decision?",
-   "q_uk": "Стрілець ще стає в готову позицію й нічого не командував, а трапер уже випускає мішень. Стрілець не стріляє. Яке рішення судді?",
+   "q_uk": "Стрілець ще стає в готову позицію й нічого не командував, а оператор машинки вже випускає мішень. Стрілець не стріляє. Яке рішення судді?",
    "options": [
     {
      "en": "Yellow card, then the target is repeated",
@@ -2051,7 +2051,7 @@ window.RULES_QUIZ.push({
    "options": [
     {
      "en": "Other referee, trapper or squad; advice only",
-     "uk": "Інший суддя, трапер чи squad; лише порада"
+     "uk": "Інший суддя, оператор машинки чи squad; лише порада"
     },
     {
      "en": "Only the jury; its view is binding",
@@ -2068,7 +2068,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 0,
    "explain_en": "The referee may ask another referee, the trapper or the squad's shooters purely for advice, is not bound by their opinions, and his ruling is then final.",
-   "explain_uk": "Суддя може запитати поради в іншого судді, трапера чи стрільців squad, але не зобов’язаний слідувати їхній думці; після цього його рішення остаточне.",
+   "explain_uk": "Суддя може запитати поради в іншого судді, оператора машинки чи стрільців squad, але не зобов’язаний слідувати їхній думці; після цього його рішення остаточне.",
    "refs": [
     "ch9-consultation",
     "ch6-referee-alone"
@@ -2088,7 +2088,7 @@ window.RULES_QUIZ.push({
     },
     {
      "en": "Letters from right to left, as seen by the trapper",
-     "uk": "Літерами справа наліво, як бачить трапер"
+     "uk": "Літерами справа наліво, як бачить оператор машинки"
     },
     {
      "en": "Numbers 1–4 in shooting order",
@@ -2149,7 +2149,7 @@ window.RULES_QUIZ.push({
    "options": [
     {
      "en": "Class C appears at most once in the doubles",
-     "uk": "Клас C трапляється в дуплетах щонайбільше раз"
+     "uk": "Клас C буває в дуплетах щонайбільше раз"
     },
     {
      "en": "Doubles must always be on report",
@@ -2355,8 +2355,8 @@ window.RULES_QUIZ.push({
      "uk": "Бермуди на 4 см вище коліна, поло, закрите взуття"
     },
     {
-     "en": "A skeet vest with nothing underneath",
-     "uk": "Жилет для скіту на голе тіло"
+     "en": "A shooting vest with nothing underneath",
+     "uk": "Стрілецький жилет на голе тіло"
     }
    ],
    "answer": 2,

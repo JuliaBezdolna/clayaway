@@ -2,7 +2,8 @@
 
 One "Академія ClayArena" for everybody: beginners, shooters before a first competition, interpreters, parents of juniors,
 new coaches, organisers and fans. It replaces the ClayArena Academy (`docs/learn/data/*.js`) and the Interpreter Academy
-(`docs/interpreter/src/**`). **This folder is the only source of truth.** It lives outside `docs/`, so nothing here is
+(`docs/interpreter/src/**`); those frozen old sources were moved out of `docs/` to `archive/legacy-docs/` on 08.10.2026 (not published,
+see its README). **This folder is the only source of truth.** It lives outside `docs/`, so nothing here is
 published as is: the build (`scripts/build_academy.mjs`, called by `scripts/build_seo.mjs`) turns it into pages, `catalog.json` files, redirect
 stubs, sitemaps and the Open Graph list.
 
@@ -25,7 +26,7 @@ content/academy/
   ids.lock                  every id ever published (append only)
   levels.json badges.json practice.json   XP and levels, badges, Practice games registry
   migration.json            what the one-time migration did (counts, warnings)
-  lessons/<id>.json         142 masters: structure + en + uk
+  lessons/<id>.json         141 masters: structure + en + uk (142 published; history-olympics-and-world retired 08.10.2026, §2a)
   i18n/<lang>/<id>.json     overlays for de fr it cs pl pt hu fi lt: texts by key + hash of the English source
   i18n/<lang>/_facts.json   translations of the facts (same ids as the tokens; created with the first translated fact)
   i18n/<lang>/_shared.json  titles of blocks, sections, routes, stages, games, levels and badges in that language (§5a)
@@ -37,7 +38,7 @@ content/academy/
   ui/<lang>.json            interface strings, 11 languages (the build publishes them as docs/learn/data/<lang>/ui.json, §8d)
 ```
 
-- `laws/<CC>.json` are byte copies of `docs/learn/data/laws-<cc>.json` (the old `laws-<cc>.js` were generated from them by
+- `laws/<CC>.json` are byte copies of the old `docs/learn/data/laws-<cc>.json` (now in `archive/legacy-docs/learn/data/`; the old `laws-<cc>.js` were generated from them by
   `scripts/build_laws.py`). The file name is the **country** code in capitals, so the language check of the build never takes a
   country (`ES`) for a language code. Fields: `as_of`, `country_uk/en`, `note_uk/en`, and `lead[]`, `travel[]` or `states[]`
   (rows with `*_uk/*_en` texts, `law`, `article`, `url`, `since`, `verified`). Translations into the 9 languages come later as
@@ -57,6 +58,25 @@ content/academy/
 - `ids.lock` (JSON) lists every id ever published: the 123 old Academy ids, the 63 old Interpreter Academy ids, the 142
   Academy ids, blocks, routes and practice games. Removing an id that is in the lock without an entry in `id-map.json` is a build error.
 
+### 2a. Retiring a lesson (taking it off the site)
+
+Used once so far: `history-olympics-and-world`, 08.10.2026 (owner decision: the whole site is about Parcours de Chasse – Sporting™ and
+Compak® Sporting only; no other disciplines anywhere, §9). A retired lesson is not "moved": its text goes, its URL keeps working.
+1. **ids.lock is not touched** (append only): the id stays in `academy` (and in `learn`, if it was an old Academy id).
+2. **id-map.json `learn`:** add `"<id>": {"to": "<nearest lesson>", "retired": "<date>"}` (no `anchor`), and note it in `groups.H`.
+   The build sees an id of `ids.lock` "academy" without a master and writes redirect stubs (**group H**) `/<p>learn/<id>/` →
+   `/<p>learn/<target>/` in **every** language where the target exists (same language, never another one), lists them in
+   `learn/data/redirects.json` (real HTTP 301 on clayarena.com) and `learn/data/id-map.json` (the JS routers and the progress transfer),
+   and deletes the stale app file `learn/data/<lang>/lessons/<id>.json` from the output.
+3. **Remove the id** from `blocks.json` (its section) and `routes.json` (stages and extras). Its quiz and `exam_pool` questions leave the
+   route exams by themselves (the exams are built from the masters).
+4. **Delete** `lessons/<id>.json` and `i18n/<lang>/<id>.json` in all 9 languages; then delete facts (`facts/*.json` + `i18n/<lang>/_facts.json`)
+   and glossary terms that only this lesson used (a glossary id leaves through `docs/glossary/data/aliases.json`, which turns its pages
+   into redirect stubs; see DEVELOPERS.md).
+5. **Other lessons:** remove `{{lesson:<id>}}` tokens (the build fails on a dead token) and any text that sent readers there.
+6. Progress: a reader's mark on the retired lesson stays in the local progress store but belongs to no block or route any more;
+   progress of the old Academy (`clayarena-learn`) that pointed to it moves to the target through the id map, as for a merged lesson.
+
 ## 3. The master: `lessons/<id>.json`
 
 | Field | Meaning |
@@ -72,7 +92,7 @@ content/academy/
 | `disclaimer` | `medical` for psychology and health lessons: the page ends with "Не є медичною порадою". |
 | `review_by` | date by which the content must be checked again (anti-doping: every September against the WADA list). |
 | `review` | `{status, specialist, facts, rules_data, editor}`. `status: "pending"` shows "Перевіряється" (blocks "Психологія" and "Правила") until the named specialist has checked the lesson. |
-| `legacy` | `{learn: [...], interpreter: [...]}` — every old id whose text lives in this master (its own old id included). Each of the 186 old lessons is in exactly one master. |
+| `legacy` | `{learn: [...], interpreter: [...]}` — every old id whose text lives in this master (its own old id included). Each of the 186 old lessons is in exactly one master, except a retired one (§2a: `history-olympics-and-world`, which only id-map.json keeps). |
 | `terms` | glossary ids (`docs/glossary/data/glossary.js` + `learn_terms.js`); unknown ids are a build error. |
 | `new_terms` | only after the migration: terms not yet in the glossary. Move them to `learn_terms.js` (+ i18n) and delete the field; a lesson with `new_terms` is not published. |
 | `rule_refs` | `[{book: "sporting"\|"compak"\|"categories", id}]`, ids from `docs/rules/data/*.js`. |
@@ -192,7 +212,7 @@ One number in one place: every lesson that needs the number uses `{{fact:<id>}}`
 topic prefix (`gunshot-peak-db`, `sporting-jacket-line-25cm`). Every number is checked against its source (or `docs/rules/data`) before use.
 
 **`ui/<lang>.json`** — `{lang, strings: {key: text}}` for all 11 languages: the old Academy table (`academy_name`, `footer`, …),
-the headings and column names of the law tables (`law_*`, from `docs/learn/data/law-tables.js`, uk/en),
+the headings and column names of the law tables (`law_*`, from the old `law-tables.js`, now in `archive/legacy-docs/learn/data/`, uk/en),
 the Interpreter Academy `ui.json` with its 9 translations, and the new Academy keys (en + uk only for now; the other languages
 fall back to en with a build warning until the translation waves).
 
@@ -313,6 +333,16 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
 
 ## 9. Content rules (checked by the build where possible)
 
+- **Disciplines (owner decision 08.10.2026, firm):** the whole site is about Parcours de Chasse – Sporting™ and Compak® Sporting **only**. No other clay
+  discipline is named or described anywhere, in any language: not in lessons, overlays, quizzes, exam pools, phrases, key points, facts,
+  glossary terms, aliases and notes, the rules guide and trainer, interface strings, specs, tour pages, llms.txt or share texts. No
+  comparisons with other disciplines, no research examples from them and no “… and other disciplines”. **No shooting federation other
+  than FITASC is named** either (owner, again on 08.10.2026): not ISSF, not its old name UIT — e.g. anti-doping says “the WADA list
+  prohibits beta-blockers in shooting; it does not name Sporting™ or Compak® Sporting separately, so treat them as prohibited there”
+  (WADA stays as the source; sources of other federations are removed whole, a source title is never altered). Chokes are named by constriction (cylinder, 1/8, improved
+  cylinder, …), never after another discipline. The English word **trap** (and *trapper*) is the FITASC word for the **throwing machine** and
+  its operator (“trap A”, the trapper) and is used only in that meaning; in Ukrainian no word may begin with the Cyrillic spelling of that word (not even the verbs meaning “to happen”; write «буває», «стається»): the machine is
+  «машинка», the person «оператор машинки» (also in the glossary `term_local`/`alt`). Checked by the build: error `other-discipline` (§10).
 - **Languages:** only en uk de fr it cs pl pt hu fi lt. No other language code anywhere, no Spanish text. Never use the language of
   the restricted country and never name that country or show its flag; its athletes appear only as neutral (AIN).
 - **FITASC:** retelling in our own words only, never verbatim text or PDFs; links `rel="nofollow noopener noreferrer"`.
@@ -326,7 +356,8 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   імітація стрільби (mock shooting), Європейський вогнепальний паспорт, підгонка рушниці, наважка (load weight, as in the official
   rules translation), шушотаж (chuchotage). Ukrainian apostrophe: ’ (U+2019) everywhere (the build writes it so in every uk output).
 - **Psychology and health:** an evidence badge for every claim, "не є медичною порадою" at the end, `review_by` for anti-doping;
-  research is mostly from Olympic trap and skeet, so for Sporting™ and Compak® write "probably transfers".
+  the research comes from lab tasks and other sports, not from Sporting™ or Compak®, so write "probably transfers". Cite general-sport
+  studies; a study done only on shooters of other disciplines is not cited (owner decision 08.10.2026, see "Disciplines" below).
   Lessons of "Психологія", anti-doping and "Правила" carry "Перевіряється" until a specialist (sport psychologist, doctor, certified referee) has checked them.
 - **People:** no real people in lessons (fictional names or none); no living people quoted as authorities.
 - **ClayAway:** not launched — future tense ("готується"), no commission mechanics; `travel-clayaway-tour` is `preview` (noindex) until launch.
@@ -335,7 +366,7 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
 ## 10. Build checks (design §6.6) — `scripts/build_academy.mjs`
 
 Run: `bun scripts/build_academy.mjs --check` (checks only) · `--out <dir> --draft` (preview with the draft lessons, never into docs/) ·
-`--report <file.json>` (every finding). The real build runs from `bun scripts/build_seo.mjs`. Each finding has a type (shown in brackets);
+`--report <file.json>` (every finding) · `-h`/`--help` (the flags; an unknown option is an error and builds nothing). The real build runs from `bun scripts/build_seo.mjs`. Each finding has a type (shown in brackets);
 the console prints the counts per type: errors that block, errors of draft lessons (not built, do not block) and warnings.
 
 Errors: a lesson not in exactly one section (`lesson-sections`); unknown id in a route (`route-unknown-id`); id equal to a reserved
@@ -350,7 +381,13 @@ FITASC text in `rules/pdf/*.txt` (`fitasc-verbatim`; skipped with a warning when
 h1, og or description (`trademark`); hreflang to a missing version (`hreflang-dead`); the same title on two pages of one language
 (`title-duplicate`); a redirect stub in the sitemap (`stub-in-sitemap`). Also: the old link of a merged lesson must land on an
 `anchor` of the target (`dead-anchor`); `travel-clayaway-tour` must be `index: "preview"` (`clayaway-index`); media only from
-ClayArena with author and licence (`figure-media`).
+ClayArena with author and licence (`figure-media`); the name of another clay discipline (`other-discipline`, §9: skeet, olymp… / olimp… / олімп…,
+down-the-line, double trap, Doppeltrap, universal trench, trench, ball-trap, fosse/fossa olimpica/universale, Lithuanian
+"skitas", DTL and ABT in capitals, Ukrainian words starting with «трап» and «скіт»/«скит»; also ISSF / ІССФ / ИССФ and UIT in capitals) in the visible text of masters (en, uk),
+the 9 overlays, facts and their translations, `_shared.json`, `ui/*.json`, blocks/routes/practice/levels/badges and every glossary
+entry (`glossary.js`, `learn_terms.js`, `i18n/<lang>.js`, `i18n/ui-<lang>.json`); ids, token ids, URLs, `src`, `sources` and
+aliases are not checked. The plain English "trap"/"trapper" (the machine and its operator) is allowed. Patterns:
+`OTHER_DISCIPLINE_RE` in `scripts/academy/lint.mjs`.
 
 Warnings: stop words in all 11 languages (`stop-word`: proven, best, ideal, never, every, most coaches, «перевірений», «найкращий»,
 «ідеальний», …; "never" is fine in `warn` blocks and the safety block; the check reads our own wording only: tokens with their ids and
@@ -368,6 +405,6 @@ entry is missing or was translated from an older English text (`sim-caption`, on
 not `core`, so they never hold a page back — translate them in the next wave); interface strings shown in English (`ui-fallback`); no `_shared.json` for a language with
 lessons (`shared-missing`); missing summary (`summary-missing`); psychology/health lesson without evidence badges (`evidence-missing`).
 
-Redirect stubs (design §5.2): groups A–D are written only when the target page exists in **the same language** (else the old page stays
+Redirect stubs (design §5.2): groups A–D (and H, retired lessons, §2a) are written only when the target page exists in **the same language** (else the old page stays
 and the pair is listed as `pending` in `docs/learn/data/redirects.json`). E (`/interpreter/` app) and F (`/learn/#…`) are JavaScript
 routers of the app, fed by `docs/learn/data/id-map.json` (with `published` per language). Stubs have canonical + OG and no noindex.

@@ -317,15 +317,6 @@ window.GLOSSARY_I18N.hu = {
    "short": "Szűkítés nélküli cső vagy szűkület; a legszélesebb sörétképet adja.",
    "long": "A henger nulla szűkítést jelent: a furat a torkolatnál ugyanakkora, mint a csőben. A sörétfelhő itt szóródik a leggyorsabban, ezért a sörétkép közelről széles, távolabb pedig ritkává válik. Nagyon közeli korongokra választják, például egyes nyulakra vagy a lövő közelében felugró korongokra. Beretta szűkületeken öt csillag jelöli. Sporting™ és Compak® Sporting versenyen a legtöbb korongra a lövők valamivel szűkebb szűkületet választanak."
   },
-  "skeet-choke": {
-   "term_local": "skeet",
-   "alt": [
-    "skeet choke"
-   ],
-   "conf": "medium",
-   "short": "Nagyon enyhe szűkítés, kb. 0,1–0,15 mm (4–6 thou), a legközelebbi korongokhoz.",
-   "long": "A skeet szűkület arról a szakágról kapta a nevét, amelyben a korongok nagyon közel repülnek. Csak kissé szűkebb a hengernél: kb. 0,1–0,15 mm szűkítés (4–6 thou), az európai szóhasználatban néha 1/8-nak hívják. A sörétkép közelről széles, és megbocsátja a kis hibákat. Sporting™ és Compak® Sporting versenyen közeli korongokra, nyulakra és a közelben felugró korongokra használják. A pontos értékek a gyártótól függenek."
-  },
   "improved-cylinder": {
    "term_local": "negyedes",
    "alt": [
@@ -730,7 +721,7 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "torony",
    "conf": "medium",
    "short": "Emelt dobógép-hely a Compak lőállások mögött, legalább 4 m-rel felettük.",
-   "long": "A Compak dobógépei szabadon elhelyezhetők, ha egyetlen korong, még a No Bird sem veszélyeztethet senkit. A lőállások mögé helyezett dobógépnek legalább 4 m-rel magasabban kell lennie a lőállásoknál. A BC oldalt keresztező kötelező elmenő röppálya jöhet ilyen toronyból, vagy egy árokban, illetve a lőállások előtt a talajon elhelyezett dobógépből.",
+   "long": "A Compak dobógépei szabadon elhelyezhetők, ha egyetlen korong, még a No Bird sem veszélyeztethet senkit. A lőállások mögé helyezett dobógépnek legalább 4 m-rel magasabban kell lennie a lőállásoknál. A BC oldalt keresztező kötelező elmenő röppálya jöhet ilyen toronyból, vagy a lőállások előtt a talajba süllyesztett, illetve a talajon elhelyezett dobógépből.",
    "disciplines": {
     "compak": "A 4 m-es szabály a Compak szabályaiban szerepel (2.4)."
    }
@@ -1564,7 +1555,7 @@ window.GLOSSARY_I18N.hu = {
    "conf": "high",
    "src": "https://fitascsporting.hu/szabalyzatok/Kombi_2019_HUN.pdf",
    "short": "Külön kor és nem szerinti rangsor a nyílt rangsor mellett; 2027-től a FITASC a Junior, Lady, Men, Senior, Veteran és Master kategóriákat használja.",
-   "long": "2027. január 1-jétől a FITASC hat kategóriát határoz meg a Compak® Sporting, a Parcours de Chasse – Sporting™ és más szakágai számára: Junior (13–20), Lady (13 évtől), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) és Master (73 évtől, férfiak vagy nők). Az életkort a születési év szerint számolják: az új kategória annak az évnek a január 1-jétől érvényes, amelyben a lövő betölti az adott kort, a születésnaptól függetlenül. A Senior nem a fő felnőtt kategória, hanem az 56–65 éves korosztály; a fő felnőtt kategória a Men. A kategóriacsapatokban 3 lövő van (a Sporting Men csapatában 4), és a más kategória csapatába válogatott lövőnek egyéniben is be kell neveznie abba a kategóriába. Compakban az egyes kategóriák első három helyéért kialakult holtversenyt szétlövés dönti el; ha a nyílt rangsor szétlövésében részt vevő lövők ugyanabba a kategóriába tartoznak, az eredmény arra a kategóriára is számít. A nemzeti és klubversenyek saját kategóriákat is használhatnak, a versenykiírás szerint.",
+   "long": "2027. január 1-jétől a FITASC hat kategóriát határoz meg a Compak® Sporting és a Parcours de Chasse – Sporting™ számára: Junior (13–20), Lady (13 évtől), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) és Master (73 évtől, férfiak vagy nők). Az életkort a születési év szerint számolják: az új kategória annak az évnek a január 1-jétől érvényes, amelyben a lövő betölti az adott kort, a születésnaptól függetlenül. A Senior nem a fő felnőtt kategória, hanem az 56–65 éves korosztály; a fő felnőtt kategória a Men. A kategóriacsapatokban 3 lövő van (a Sporting Men csapatában 4), és a más kategória csapatába válogatott lövőnek egyéniben is be kell neveznie abba a kategóriába. Compakban az egyes kategóriák első három helyéért kialakult holtversenyt szétlövés dönti el; ha a nyílt rangsor szétlövésében részt vevő lövők ugyanabba a kategóriába tartoznak, az eredmény arra a kategóriára is számít. A nemzeti és klubversenyek saját kategóriákat is használhatnak, a versenykiírás szerint.",
    "disciplines": {
     "sporting": "A Men csapatban 4 lövő van; a többi kategória csapataiban 3.",
     "compak": "Minden kategóriában külön szétlövés a dobogóért."
@@ -2164,18 +2155,6 @@ window.GLOSSARY_I18N.hu = {
    "short": "A ClayArena összefoglalója egy szezonról: az év fő versenyei, győztesei és teljesítményei.",
    "long": "A ClayArena szezonösszefoglalói összegyűjtik az év legfontosabb eseményeit a Sporting™ és a Compak® Sporting szakágban: a fő versenyeket, a győzteseket és a kiemelkedő teljesítményeket. Kezdőknek könnyű módja annak, hogy megtudják, ki van formában, és mely versenyek voltak a legfontosabbak. A versenyvideókkal és a naptárral együtt segítenek gyorsan eligazodni a koronglövészet világában. Saját versenye után érdemes belenézni: lehet, hogy az Ön teljesítménye is szerepel benne."
   },
-  "olympic-trap": {
-   "term_local": "olimpiai trap",
-   "conf": "low",
-   "short": "Olimpiai szakág: a korongok egy árokból, változó szögben repülnek el a lövőtől, és mindegyikre két lövés adható le.",
-   "long": "Az olimpiai trapban a dobógépek egy árokban vannak elrejtve öt lőállásból álló sor előtt, a korongok pedig nagy sebességgel, változó szögben és magasságban távolodnak a lövőtől. Minden korongra két lövés adható le. A lövő már vállba vett fegyverrel hív, és a korong a hívásra indul. A szakágat az ISSF irányítja, nem a FITASC, és része az olimpiai programnak. A Sporting™ és Compak® Sporting lövőknek a trap hasznos gyakorlás az elmenő korongokra adott gyors reakcióhoz."
-  },
-  "skeet": {
-   "term_local": "skeet",
-   "conf": "low",
-   "short": "Szakág két toronnyal (magas és alacsony), amelyek korongjai keresztezik a pályát; a lőállások félkörben állnak.",
-   "long": "A skeetben két dobóház áll egy félkör két végén: az egyik oldalon magas, a másikon alacsony ház. A korongok rögzített röppályákon repülnek egymással szemben, a lövő pedig a félkör lőállásai között halad, szóló korongokat és dublékat lőve. Az olimpiai skeetet az ISSF irányítja; vannak nemzeti változatok is, például az English Skeet, kissé eltérő szabályokkal. A skeet röppályái rögzítettek, ezért a szakág jól használható a keresztező korongokon alkalmazott technika fejlesztésére. Róla kapta nevét a könnyű skeet szűkület."
-  },
   "guardian-consent": {
    "term_local": "szülői beleegyezés",
    "conf": "low",
@@ -2510,7 +2489,7 @@ window.GLOSSARY_I18N.hu = {
    ],
    "conf": "high",
    "short": "Szívgyógyszer, amely lassítja a szívverést és csökkenti a remegést; a WADA-lista szerint a sportlövészetben mindig tiltott, versenyen és azon kívül is.",
-   "long": "Példák: propranolol, atenolol, bisoprolol és metoprolol. A pontosságot igénylő sportágakban azért tiltottak, mert a lassabb szív és a kisebb remegés nyugodtabbá teheti a fegyvert. A WADA-lista a sportlövészetet az olimpiai szövetségen (ISSF) és a parasportlövészeten (IPC) keresztül nevezi meg, nem a FITASC-on keresztül; ennek ellenére tekintse a béta-blokkolókat tiltottnak Sporting™-ban és Compak® Sportingban is: a nemzeti doppingellenes szervezetek ellenőrizhetnek a hazai versenyeken, a rendezők alkalmazhatják a WADA-listát, és sok lövő ISSF-versenyeken is indul. Ha orvos írt fel Önnek béta-blokkolót, ne hagyja abba magától; időben kérdezzen engedélyezett alternatíváról vagy TUE-ről. Ez nem orvosi tanács."
+   "long": "Példák: propranolol, atenolol, bisoprolol és metoprolol. A pontosságot igénylő sportágakban azért tiltottak, mert a lassabb szív és a kisebb remegés nyugodtabbá teheti a fegyvert. A WADA-lista a Sporting™ és a Compak® Sporting szakágat külön nem nevezi meg; ennek ellenére tekintse a béta-blokkolókat ott is tiltottnak: a nemzeti doppingellenes szervezetek ellenőrizhetnek a hazai versenyeken, és a rendezők alkalmazhatják a WADA-listát. Ha orvos írt fel Önnek béta-blokkolót, ne hagyja abba magától; időben kérdezzen engedélyezett alternatíváról vagy TUE-ről. Ez nem orvosi tanács."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2534,8 +2513,8 @@ window.GLOSSARY_I18N.hu = {
     "nyugodt szem"
    ],
    "conf": "medium",
-   "short": "Az utolsó nyugodt pillantás a korongra a mozdulat előtt; tapasztalt lövőknél általában korábban kezdődik és tovább tart.",
-   "long": "A kutatók a quiet eye-t a mozdulat kezdete előtti utolsó nyugodt pillantásként mérik. A kevésbé tapasztalt lövőkhöz képest az élvonalbeli trap- és skeetlövők korábban kezdik és tovább tartják, és találatnál általában hosszabb, mint hibánál. Szorongás alatt gyakran megrövidül. Nincs bűvös ezredmásodperc-szám, amelyre törekedni kellene: a korongvadászlövészetben azt jelenti, hogy a lövő korán és tisztán látja a korongot, és a lövés végéig rajta tartja a szemét. Az adatok nagy része az olimpiai trapből és skeetből származik; valószínűleg Sporting™-ra és Compak® Sportingra is érvényes."
+   "short": "Az utolsó nyugodt pillantás a korongra a mozdulat előtt; tapasztalt sportolóknál általában korábban kezdődik és tovább tart.",
+   "long": "A kutatók a quiet eye-t a mozdulat kezdete előtti utolsó nyugodt pillantásként mérik. Sok sportág vizsgálataiban a tapasztaltabb sportolók általában korábban kezdik és tovább tartják, és sikeres kísérletnél általában hosszabb, mint sikertelennél. Szorongás alatt gyakran megrövidül. Nincs bűvös ezredmásodperc-szám, amelyre törekedni kellene: a korongvadászlövészetben azt jelenti, hogy a lövő korán és tisztán látja a korongot, és a lövés végéig rajta tartja a szemét. Magában a Sporting™-ban és a Compak® Sportingban ezt nem vizsgálták; valószínűleg ott is ugyanígy működik."
   },
   "self-talk": {
    "term_local": "belső beszéd",
@@ -2574,7 +2553,7 @@ window.GLOSSARY_I18N.hu = {
    ],
    "conf": "medium",
    "short": "A szokásos szintnél jóval gyengébb lövés a nyomás miatt, gyakran amikor a lövő tudatosan kezdi irányítani azt a mozdulatot, amely máskor magától megy.",
-   "long": "Nem tévesztendő össze a cső szűkületével (choke). Nyomás alatt a lövő lépésről lépésre ellenőrizni kezdheti a vállba vételt vagy a lendítést, az aggodalom pedig elvonja a szemét a korongról. Jelek: megváltozott tempó, a vállba vétel ellenőrzése, a cső vagy a célgömb nézése, az eredmények figyelése. Ami segíthet: a megszokott lövés előtti rutin és tempó, egyetlen egyszerű kulcsszó a korongról, folyamatcélok és lépésről lépésre növekvő nyomás alatti edzés. A kutatások többsége más sportágakból, valamint az olimpiai trapből és skeetből származik; valószínűleg Sporting™-ra és Compak® Sportingra is érvényes. Ha a nyomás újra meg újra elrontja a versenyeit, sportpszichológus segíthet."
+   "long": "Nem tévesztendő össze a cső szűkületével (choke). Nyomás alatt a lövő lépésről lépésre ellenőrizni kezdheti a vállba vételt vagy a lendítést, az aggodalom pedig elvonja a szemét a korongról. Jelek: megváltozott tempó, a vállba vétel ellenőrzése, a cső vagy a célgömb nézése, az eredmények figyelése. Ami segíthet: a megszokott lövés előtti rutin és tempó, egyetlen egyszerű kulcsszó a korongról, folyamatcélok és lépésről lépésre növekvő nyomás alatti edzés. A kutatások többsége laboratóriumi feladatokból és más sportágakból származik, nem a Sporting™-ból vagy a Compak® Sportingból; valószínűleg ott is ugyanígy működik. Ha a nyomás újra meg újra elrontja a versenyeit, sportpszichológus segíthet."
   },
   "reset-routine": {
    "term_local": "újraindító rutin",
@@ -2686,14 +2665,6 @@ window.GLOSSARY_I18N.hu = {
    "term_local": "üveggolyó",
    "conf": "medium",
    "short": "A 19. században célként a levegőbe dobott üveggolyó, az élő madarak korai helyettesítője; később az agyagkorong váltotta fel."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Nemzetközi Sportlövő Szövetség"
-   ],
-   "conf": "high",
-   "short": "Az International Shooting Sport Federation, amely az olimpiai lövészszámokat irányítja, köztük az olimpiai trapet és a skeetet; a Sporting™ és a Compak® Sporting a FITASC-hoz tartozik."
   },
   "hydration": {
    "term_local": "folyadékpótlás",

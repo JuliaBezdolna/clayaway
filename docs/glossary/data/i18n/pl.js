@@ -10,7 +10,6 @@ window.GLOSSARY_I18N.pl = {
     "broń gładkolufowa"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Gładkolufowa broń myśliwska używana w Sporting™ i Compak® Sporting.",
    "long": "Można używać każdej strzelby myśliwskiej, także półautomatów, o kalibrze nie większym niż 12 i z lufami o długości co najmniej 66 cm (26 cali). Pompki są niedozwolone, a przepisy Compaku zakazują też drylingów. Zabronione są pasy i paski nośne, mikrokamery zamocowane na broni oraz wszelkie sztuczne urządzenia celownicze. Nikt nie może dotykać broni innego zawodnika bez pozwolenia, a dwóch zawodników z tej samej grupy nie może dzielić jednej broni. W Compak® Sporting strzały oddane z niezgodnej z przepisami broni lub amunicji przed kontrolą liczą się jako zero.",
    "disciplines": {
@@ -68,7 +67,6 @@ window.GLOSSARY_I18N.pl = {
     "kal. 12"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Średnica przewodu lufy strzelby; maksymalny dozwolony kaliber to 12.",
    "long": "Oba regulaminy ograniczają broń do kalibru 12 lub mniejszego, z lufami o długości co najmniej 66 cm. Mniejsze kalibry są więc dozwolone, ale limit naważki 28 g ołowiu (+2%) obowiązuje dla każdej broni."
   },
@@ -78,7 +76,6 @@ window.GLOSSARY_I18N.pl = {
     "lufy (pl.)"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Rura, przez którą przechodzi śrut."
   },
   "barrel-length": {
@@ -112,7 +109,6 @@ window.GLOSSARY_I18N.pl = {
     "komora"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Tylna część lufy, w której leży nabój; ma oznaczoną długość.",
    "long": "Komora nabojowa jest nieco szersza od przewodu lufy, żeby zmieścił się w niej nabój. Jej długość jest wybita na lufie, na przykład 70 mm lub 76 mm. Długość podana na pudełku nabojów dotyczy łuski otwartej po strzale, więc nie może przekraczać długości komory: strzelanie dłuższymi nabojami jest niebezpieczne. Do rzutków najczęściej używa się nabojów 12/70. Przed treningiem na sucho lub transportem zawsze sprawdź, czy komory są puste."
   },
@@ -179,7 +175,6 @@ window.GLOSSARY_I18N.pl = {
     "język spustowy"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Dźwignia, którą się naciska, żeby oddać strzał."
   },
   "release-trigger": {
@@ -198,7 +193,7 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "zabezpieczenie"
    ],
-   "note": "ISSF Polish rules use «zabezpieczenie».",
+   "note": "Polish (PZSS) rules use «zabezpieczenie».",
    "conf": "high",
    "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Suwak na broni, który blokuje spust."
@@ -261,9 +256,8 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "multichoke"
    ],
-   "note": "ISSF rules: «wymiennych czoków».",
+   "note": "PZSS rules: «wymiennych czoków».",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "System gwintowanych czoków wkręcanych w wylot lufy.",
    "long": "W strzelbie z czokami wymiennymi wylot każdej lufy ma gwint, a w zestawie jest kilka czoków o różnym zwężeniu. Jedna broń nadaje się więc i na bliskie, i na dalekie rzutki. Systemy różnych producentów mają różne gwinty i długości, więc czoki jednej marki zwykle nie pasują do innej. Nigdy nie strzelaj z pustym gwintem bez wkręconego czoka: może to uszkodzić lufę. Zasady wymiany się różnią: w Sporting™ czok można zmienić między stanowiskami albo między rzutkami pojedynczymi a dubletami, jeśli nie powoduje to opóźnienia, a w Compak® Sporting tylko między seriami.",
    "disciplines": {
@@ -297,17 +291,6 @@ window.GLOSSARY_I18N.pl = {
    "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Lufa lub czok bez zwężenia; daje najszerszy rozrzut.",
    "long": "Walec oznacza zerowe zwężenie: przewód przy wylocie jest taki sam jak w lufie. Chmura śrutu rozchodzi się najszybciej, więc rozrzut jest szeroki z bliska, a dalej robi się rzadki. Wybiera się go na bardzo bliskie rzutki, na przykład niektóre rabbity albo rzutki wyskakujące blisko zawodnika. Na czokach Beretty oznacza się go pięcioma gwiazdkami. Na większość rzutków w Sporting™ i Compak® Sporting zawodnicy wybierają nieco ciaśniejsze czoki."
-  },
-  "skeet-choke": {
-   "term_local": "skeet",
-   "alt": [
-    "czok skeetowy",
-    "wiercenie skeet"
-   ],
-   "conf": "medium",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
-   "short": "Bardzo słabe zwężenie, około 0,1–0,15 mm (4–6 thou), do najbliższych rzutków.",
-   "long": "Czok skeetowy wziął nazwę od konkurencji, w której rzutki lecą bardzo blisko. Jest tylko nieco ciaśniejszy od walca: zwężenie około 0,1–0,15 mm (4–6 thou), w europejskim zwyczaju czasem oznaczane jako 1/8. Rozrzut z bliska jest szeroki i wybacza drobne błędy. W Sporting™ i Compak® Sporting używa się go na bliskie rzutki, rabbity i rzutki wyskakujące blisko. Dokładne wartości zależą od producenta."
   },
   "improved-cylinder": {
    "term_local": "ćwierćczok",
@@ -372,7 +355,6 @@ window.GLOSSARY_I18N.pl = {
     "naboje (pl.)"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Nabój do strzelby; FITASC ogranicza jego naważkę, śrut i konstrukcję.",
    "long": "Ładunek śrutu nie może przekraczać 28 g ołowiu, z tolerancją +2%. Śrut musi być kulisty, o średnicy od 2,0 do 2,5 mm (±0,1 mm). Zabronione są naboje elaborowane ponownie, rozpraszacze lub inne specjalne elementy ładunku, mieszany śrut różnej wielkości lub jakości, proch czarny i smugacze. W Sporting™ sędzia może pobrać do kontroli dwa naboje, po jednym z każdej kieszeni kamizelki. Na dublet zawodnik w Sporting™ ma łącznie dwa naboje; w Compaku jeden nabój na rzutek.",
    "disciplines": {
@@ -383,14 +365,12 @@ window.GLOSSARY_I18N.pl = {
   "hull": {
    "term_local": "łuska",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Łuska naboju: plastikowa lub papierowa tulejka z metalowym denkiem, w której mieszczą się wszystkie części naboju.",
    "long": "Łuska to korpus naboju. Rurka jest zwykle plastikowa, rzadziej papierowa; od dołu zamyka ją metalowe denko ze spłonką. W środku kolejno znajdują się proch, przybitka i śrut, a górę zamyka zawijka. Długość łuski musi pasować do komory nabojowej broni: w nabojach kalibru 12 do strzelań do rzutków to najczęściej 70 mm. Po strzelaniu puste łuski wrzuca się do przygotowanych na strzelnicy pojemników, a nie zostawia w trawie."
   },
   "primer": {
    "term_local": "spłonka",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Mała spłonka w denku łuski, która iskrzy po uderzeniu iglicy i zapala proch.",
    "long": "Spłonka znajduje się pośrodku metalowego denka łuski. Gdy uderzy w nią iglica, masa zapałowa się zapala, a płomień odpala ładunek prochu. Słaba lub powolna spłonka może spowodować niewypał albo opóźniony wystrzał. Dlatego po niewypale broni nie otwiera się od razu: pozostaje skierowana w bezpieczną stronę, dopóki nie sprawdzi jej sędzia. Wgniecenie spłonki bez wystrzału to typowy objaw wadliwego naboju lub zbyt słabego uderzenia iglicy."
   },
@@ -435,9 +415,8 @@ window.GLOSSARY_I18N.pl = {
     "24 g",
     "28 g"
    ],
-   "note": "ISSF rules: «masa ładunku śrutu».",
+   "note": "PZSS rules: «masa ładunku śrutu».",
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Masa śrutu w naboju; FITASC dopuszcza do 28 g ołowiu, z tolerancją +2%.",
    "long": "Naważka śrutu jest podana na pudełku w gramach, a w Wielkiej Brytanii i USA często w uncjach (1 oz to około 28 g). Przepisy FITASC dla Sporting™ i Compak® Sporting ograniczają naważkę do 28 g śrutu ołowianego z tolerancją +2%. Najczęstsze naważki do rzutków to 24 i 28 g; 21–24 g są popularne na treningach, u juniorów i początkujących. Cięższa naważka daje więcej śrucin w chmurze, ale też mocniej kopie, co przy 100–200 strzałach dziennie męczy. Sędzia może sprawdzić naboje zawodnika; w Compak® Sporting strzały oddane niezgodnymi nabojami przed kontrolą liczą się jako zero."
   },
@@ -462,7 +441,6 @@ window.GLOSSARY_I18N.pl = {
   "recoil": {
    "term_local": "odrzut",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/biblioteka-trenera/2010/15_2010_mlodzianowski-robert-metodyka-nauczania-i-technika-strzelania-konkurencji-trap.pdf",
    "short": "Pchnięcie broni w ramię przy strzale; zależy od naważki, prędkości, masy broni i jej dopasowania.",
    "long": "Odrzut jest silniejszy przy cięższej naważce i większej prędkości śrutu, a słabszy przy cięższej broni. Półautomat gazowy rozkłada pchnięcie w czasie, więc odczuwa się je łagodniej. Równie ważne są dopasowanie strzelby i prawidłowe złożenie: broń mocno osadzona w zagłębieniu barku kopie o wiele słabiej niż broń oparta o ramię lub kość. Silny odrzut męczy i stopniowo uczy szarpnięcia przed strzałem. Lżejsze naboje na treningu, dobra stopka i nakładka na ramię w kamizelce to rozsądny wybór, a nie słabość."
   },
@@ -507,7 +485,6 @@ window.GLOSSARY_I18N.pl = {
     "nauszniki"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Obowiązkowa ochrona uszu dla każdego na osi lub w jej pobliżu.",
    "long": "Zawodnicy, sędziowie, obsługa i widzowie na osi lub Compaku albo w ich pobliżu muszą nosić ochronniki słuchu. Zawodnik, który przychodzi na stanowisko bez nich, jest traktowany jak nieobecny: w Sporting™ stosuje się przepis o spóźnieniu/nieobecności z art. 16.7, a w Compaku nie może strzelać. W Sporting™ dzieci na strzelnicy poza budynkiem klubu muszą zawsze nosić ochronniki słuchu."
   },
@@ -533,7 +510,6 @@ window.GLOSSARY_I18N.pl = {
   "safety-glasses": {
    "term_local": "okulary strzeleckie",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Obowiązkowe okulary ochronne dla zawodników, sędziów i obsługi.",
    "long": "W Sporting™ okulary ochronne muszą nosić bez wyjątku zawodnicy, sędziowie, obsługa i każdy, kto jest blisko stanowiska. W Compaku zawodnicy, sędziowie i obsługa muszą nosić ochronę oczu. Zawodnik, który przychodzi na stanowisko bez nich, jest traktowany jak nieobecny; w Compaku nie może strzelać, a w Sporting™ stosuje się art. 16.7."
   },
@@ -543,7 +519,6 @@ window.GLOSSARY_I18N.pl = {
     "kamizelka"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Kamizelka strzelecka z kieszeniami na naboje i nakładką pod kolbę.",
    "long": "Kamizelka to pierwsza rzecz z wyposażenia, którą warto kupić po ochronie oczu i słuchu. Ma dwie duże kieszenie na naboje, kieszenie na puste łuski i czoki oraz gładką nakładkę na ramię, o którą opiera się kolba. Dobra kamizelka nie przeszkadza w złożeniu i nie krępuje ruchów. W Sporting™ kamizelka lub kurtka musi mieć kontrastową linię 25 cm poniżej osi barków do kontroli pozycji gotowości. Przepisy FITASC zabraniają noszenia kamizelki na gołe ciało, a sędzia może do kontroli wziąć po jednym naboju z prawej i lewej kieszeni.",
    "disciplines": {
@@ -582,16 +557,14 @@ window.GLOSSARY_I18N.pl = {
     "walizka na broń",
     "etui na broń"
    ],
-   "note": "ISSF rules: «zamknięte etui na broń».",
+   "note": "PZSS rules: «zamknięte etui na broń».",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Sztywny, zamykany futerał do przewożenia rozłożonej broni, zwłaszcza samolotem.",
    "long": "Futerał jest z aluminium, tworzywa ABS lub drewna i ma wyściełane przegrody na lufy, baskilę z kolbą, czółenko i czoki. Broń podróżuje w nim rozłożona, a futerał zamyka się na klucz lub szyfr. Do samolotu większość linii lotniczych wymaga właśnie takiego futerału, a zasady dotyczące zamków i tego, kto ma klucze, różnią się w zależności od kraju. Nawet we własnym samochodzie futerał chroni broń i pomaga spełnić lokalne przepisy transportu. Nie pakuj nabojów razem z bronią, jeśli linia lotnicza wymaga ich osobnego zapakowania."
   },
   "gun-rack": {
    "term_local": "stojak na broń",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Stojak, w którym nieużywaną broń stawia się pionowo.",
    "long": "Strzelnice mają stojaki na broń przy stanowiskach i przy budynku klubowym. Według przepisów FITASC nieużywaną broń stawia się pionowo w stojaku lub w innym wyznaczonym miejscu, półautomaty z otwartym zamkiem. Wstawiaj broń otwartą i rozładowaną i nigdy nie zostawiaj jej opartej o ścianę lub samochód, skąd może upaść. Nie bierz cudzej broni ze stojaka bez zgody właściciela. Zanim weźmiesz swoją, upewnij się, że to naprawdę twoja broń."
   },
@@ -602,7 +575,6 @@ window.GLOSSARY_I18N.pl = {
     "talerzyk"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Gliniany krążek wyrzucany przez wyrzutnię, który zawodnik ma rozbić.",
    "long": "Dozwolone rodzaje to rzutki standardowe, rabbit, midi, super mini, battue, flash i ZZ (Compak wymienia też rocket i inne). Kolor musi odróżniać się od tła; rzutki dwukolorowe nie są zalecane. Rzutek, który wylatuje z wyrzutni rozbity, z niewłaściwej wyrzutni lub w niewłaściwym kolorze, to No Bird. W słowniczkach obu regulaminów rzutek to po prostu „clay pigeon”."
   },
@@ -683,7 +655,6 @@ window.GLOSSARY_I18N.pl = {
     "flash"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Rzutek, który po trafieniu uwalnia widoczny obłok kolorowego proszku.",
    "long": "Rzutki flash są na liście rzutków dozwolonych w Sporting™. Zasada trafienia jest taka sama jak dla każdego rzutka: musi być prawidłowo wyrzucony, zawodnik musi strzelić zgodnie z przepisami, a co najmniej jeden widoczny kawałek musi odpaść albo rzutek musi zostać całkowicie lub częściowo rozbity. Przepisy Compaku stosują do rzutków flash tę samą zasadę „one”."
   },
@@ -704,7 +675,6 @@ window.GLOSSARY_I18N.pl = {
     "rzutnia"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Maszyna wyrzucająca rzutki.",
    "long": "Wyrzutnie mogą być ręczne, automatyczne lub mieszane (w Compaku także półautomatyczne). W Sporting™ oznacza się je literami A, B, C, D od lewej do prawej, patrząc ze stanowiska, i te litery są w menu i na karcie wyników. Compak ma 6 wyrzutni od A do F, każda z tabliczką z literą; wyrzutnia za stanowiskami musi być podniesiona co najmniej o 4 m. Na mistrzostwach kontynentu i świata w Compaku obowiązkowe jest 48 nowych wyrzutni zainstalowanych tylko na te zawody.",
    "disciplines": {
@@ -717,7 +687,7 @@ window.GLOSSARY_I18N.pl = {
    "conf": "medium",
    "src": "https://www.termedia.pl/doi_ft/10.5114/amsik.2020.97802",
    "short": "Podwyższone miejsce wyrzutni za stanowiskami w Compak® Sporting, co najmniej 4 m nad nimi.",
-   "long": "Wyrzutnie w Compaku można ustawiać dowolnie, o ile żaden rzutek, nawet No Bird, nie może nikomu zagrozić. Wyrzutnia ustawiona za stanowiskami strzeleckimi musi być co najmniej 4 m wyżej niż stanowiska. Obowiązkowa trajektoria odlatująca przez bok BC może wychodzić z takiej wieży albo z wyrzutni w rowie lub na ziemi przed stanowiskami.",
+   "long": "Wyrzutnie w Compaku można ustawiać dowolnie, o ile żaden rzutek, nawet No Bird, nie może nikomu zagrozić. Wyrzutnia ustawiona za stanowiskami strzeleckimi musi być co najmniej 4 m wyżej niż stanowiska. Obowiązkowa trajektoria odlatująca przez bok BC może wychodzić z takiej wieży albo z wyrzutni zagłębionej w ziemi lub stojącej na ziemi przed stanowiskami.",
    "disciplines": {
     "compak": "Zasada 4 m jest w przepisach Compak (2.4)."
    }
@@ -737,9 +707,8 @@ window.GLOSSARY_I18N.pl = {
     "system mikrofonowy",
     "zwalnianie głosem"
    ],
-   "note": "ISSF rules: «system mikrofonów».",
+   "note": "PZSS rules: «system mikrofonów».",
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Urządzenie uruchamiane głosem, które wyrzuca rzutek, gdy zawodnik zawoła.",
    "long": "W Compaku wyrzutnie można zwalniać ręcznie, pilotem lub przez sonopull. Urządzenie sonopull musi mieć stałe opóźnienie 0,5 sekundy bez możliwości regulacji, a na wszystkich wyrzutniach jednego Compaku zaleca się to samo opóźnienie. W Compaku „in line” na zawodach międzynarodowych używa się tylko sonopull, razem z zatwierdzonym przez FITASC elektronicznym sędziowaniem i liczeniem wyników.",
    "disciplines": {
@@ -752,7 +721,6 @@ window.GLOSSARY_I18N.pl = {
     "tor lotu"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Droga, którą rzutek pokonuje w powietrzu lub po ziemi.",
    "long": "Trajektorie w Sporting™ naśladują zwierzynę: nadlatujące, odlatujące, poprzeczne, skośne, wysokie i niskie, na otwartym terenie lub wśród drzew. Tylko sędzia decyduje, czy trajektoria jest prawidłowa, i od tej decyzji nie ma odwołania. Sędzia stanowiska nie może zmieniać trajektorii ustawionych przez jury lub projektantów osi, chyba że przywraca jedną po awarii wyrzutni lub w wyjątkowej pogodzie. Każdy Compak musi mieć trzy obowiązkowe trajektorie (z lewej na prawo przez AB i CD, z prawej na lewo przez CD i AB oraz rzutek odlatujący przez BC); pozostałe są dowolne, ale muszą być krótkie.",
    "disciplines": {
@@ -864,7 +832,6 @@ window.GLOSSARY_I18N.pl = {
   "double": {
    "term_local": "dublet",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Dwa rzutki pokazane razem lub jeden po drugim, strzelane jako jedna całość.",
    "long": "Są trzy rodzaje dubletu: na zawołanie, symultaniczny i, tylko w Sporting™, rafale. W Sporting™ zawodnik ma na dublet dwa naboje i może oddać oba do tego samego rzutka; między pierwszym a drugim rzutkiem pozycja broni jest dowolna. W Compaku do każdego rzutka dubletu można oddać tylko jeden strzał, a na jednym Compaku rodzaj dubletu musi być taki sam na wszystkich 5 stanowiskach; pierwszy rzutek każdego dubletu to ostatni rzutek poprzedniego stanowiska. Jeśli jeden strzał rozbije oba rzutki, w Sporting™ liczy się one i one. W Compaku nie liczą się jako dwa trafienia: w dublecie na zawołanie wynik pierwszego rzutka zostaje, a dublet powtarza się dla drugiego; w dublecie symultanicznym jest to NO BIRD i dublet się powtarza, a za trzecim razem liczy się zero-zero.",
    "disciplines": {
@@ -934,7 +901,6 @@ window.GLOSSARY_I18N.pl = {
   "lead": {
    "term_local": "wyprzedzenie",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/biblioteka-trenera/2010/15_2010_mlodzianowski-robert-metodyka-nauczania-i-technika-strzelania-konkurencji-trap.pdf",
    "short": "Odległość, o jaką zawodnik celuje przed rzutek, żeby śrut go dosięgnął.",
    "long": "Gdy śrut leci do rzutka, rzutek dalej się porusza, więc w chwili strzału broń musi być przed nim. Ta odległość to wyprzedzenie. Zależy od prędkości rzutka, jego odległości i kąta, pod jakim leci: długie rzutki poprzeczne potrzebują największego wyprzedzenia, a rzutki odlatujące prosto prawie żadnego. To, jak zawodnik postrzega wyprzedzenie, jest subiektywne, więc różni ludzie opisują je różnie. Jest kilka metod wyprzedzenia: stałe wyprzedzenie (maintained lead), pull away, przeciągnięcie (swing-through) i ambush (strzał z zasadzki), a trener pomoże ci wybrać twoją."
   },
@@ -967,9 +933,8 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "punkt zero"
    ],
-   "note": "Trap coaching uses «punkt zero» for the hold area.",
+   "note": "Some Polish coaches use «punkt zero» for the hold area.",
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/biblioteka-trenera/2010/15_2010_mlodzianowski-robert-metodyka-nauczania-i-technika-strzelania-konkurencji-trap.pdf",
    "short": "Miejsce, w którym zawodnik trzyma wyloty luf w chwili wołania rzutka.",
    "long": "Punkt wyjściowy lufy wybiera się zwykle między punktem podjęcia rzutka a punktem strzału, na linii lotu rzutka lub nieco poniżej. Jeśli wylot luf jest za blisko wyrzutni, rzutek im ucieka i broń musi go gonić; jeśli za daleko, zostaje mało miejsca na ruch razem z rzutkiem, a zawodnik ma skłonność do celowania albo zatrzymania broni. Dobry punkt wyjściowy pozwala ruszyć razem z rzutkiem i płynnie na niego wejść. Dokładne miejsce zależy od rzutka i od twojej metody wyprzedzenia, więc zapytaj trenera. W Sporting™ broń przy wywołaniu jest opuszczona, a w Compak® Sporting zawodnik może trzymać ją już złożoną, ale to, gdzie wskazują lufy, ma znaczenie w obu konkurencjach.",
    "disciplines": {
@@ -1023,7 +988,6 @@ window.GLOSSARY_I18N.pl = {
   "follow-through": {
    "term_local": "prowadzenie broni po strzale",
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/biblioteka-trenera/2010/15_2010_mlodzianowski-robert-metodyka-nauczania-i-technika-strzelania-konkurencji-trap.pdf",
    "short": "Kontynuowanie ruchu broni wzdłuż linii rzutka po strzale.",
    "long": "Strzał nie kończy ruchu. Jeśli broń zatrzyma się w chwili naciśnięcia spustu, śrut pójdzie za rzutkiem, nawet gdy wyprzedzenie było dobre. Dlatego lufy jeszcze przez chwilę po strzale poruszają się po linii rzutka, a policzek zostaje na kolbie. Dobre prowadzenie broni po strzale pomaga też w celnym drugim strzale. Trenerzy często proszą, by patrzeć na lecące odłamki bez podnoszenia policzka: to znak, że ruch nie został przerwany."
   },
@@ -1033,7 +997,6 @@ window.GLOSSARY_I18N.pl = {
     "postawa"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/biblioteka-trenera/2010/15_2010_mlodzianowski-robert-metodyka-nauczania-i-technika-strzelania-konkurencji-trap.pdf",
    "short": "Ustawienie stóp i ciała zawodnika przed strzałem.",
    "long": "Postawa to podstawa każdego strzału. Stopy są zwykle mniej więcej na szerokość barków, przednia stopa lekko z przodu i obciążona bardziej. Ciało powinno być rozluźnione i obracać się w biodrach, tak by broń poruszała się razem z ciałem, a nie tylko z rękami. Ustaw stopy tak, by w punkcie strzału ciało było w najwygodniejszej, neutralnej pozycji, a potem obróć się z powrotem do punktu wyjściowego lufy. W Sporting™ obie stopy muszą być wewnątrz kwadratu stanowiska, a w Compak® Sporting zawodnika ogranicza rama ogranicznika kąta strzału."
   },
@@ -1070,7 +1033,6 @@ window.GLOSSARY_I18N.pl = {
   "stopping-the-gun": {
    "term_local": "zatrzymanie broni",
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/biblioteka-trenera/2010/15_2010_mlodzianowski-robert-metodyka-nauczania-i-technika-strzelania-konkurencji-trap.pdf",
    "short": "Błąd, przy którym lufy zatrzymują się w chwili strzału i śrut idzie za rzutkiem.",
    "long": "Zatrzymanie broni to jedna z najczęstszych przyczyn pudeł z tyłu. Często zdarza się, gdy zawodnik zaczyna patrzeć na lufy lub sprawdzać wyprzedzenie zamiast rzutka albo zbyt długo jedzie za rzutkiem. Z boku wygląda to jak gwałtowne hamowanie luf przed strzałem. Pomaga skupienie na rzutku, swobodna postawa pozwalająca obracać się ciału i świadome prowadzenie broni po strzale. Trener stojący za tobą zwykle od razu widzi ten błąd."
   },
@@ -1113,7 +1075,6 @@ window.GLOSSARY_I18N.pl = {
     "instruktor"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Trener, który uczy zawodnika techniki, bezpieczeństwa i przygotowania do zawodów.",
    "long": "Trener od pierwszej lekcji buduje bezpieczne nawyki, sprawdza oko dominujące, ustawia postawę i złożenie, pomaga wybrać broń i naboje oraz planuje trening. Błędy dużo łatwiej zobaczyć z boku, dlatego nawet doświadczeni zawodnicy pracują z trenerem. Na zawodach FITASC podpowiadanie zawodnikowi w trakcie strzelania jest zabronione: zawodnik dostaje żółtą kartkę, a sędzia odsyła osobę podpowiadającą ze strefy strzelania. Katalog trenerów na ClayArena pomaga znaleźć trenera według konkurencji, a wyjazdy ClayAway (w przygotowaniu) pozwolą trenować z trenerem w podróży. Sprawdzaj kwalifikacje i referencje trenera."
   },
@@ -1131,7 +1092,6 @@ window.GLOSSARY_I18N.pl = {
   "one": {
    "term_local": "trafiony",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Rzutek zaliczony według przepisów jako rozbity.",
    "long": "Rzutek jest „one”, gdy został prawidłowo wyrzucony, zawodnik strzelił zgodnie z przepisami (w Sporting™ także z pozycji gotowości z art. 3.1), a co najmniej jeden widoczny kawałek odpadł lub rzutek został całkowicie lub częściowo rozbity. To samo dotyczy rzutków flash. Na karcie wyników trafienie oznacza się X. W każdym dublecie w Sporting™ jeden strzał rozbijający oba rzutki daje one i one. W Compaku zła pogoda niczego nie zmienia: każdy rozbity rzutek to one.",
    "disciplines": {
@@ -1142,7 +1102,6 @@ window.GLOSSARY_I18N.pl = {
   "zero": {
    "term_local": "chybiony",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Rzutek oceniony według przepisów jako chybiony lub stracony.",
    "long": "Rzutek to zero, gdy nie odpada od niego żaden widoczny kawałek albo pojawia się tylko pył lub dym. Jest też zero, gdy zawodnik bez uzasadnionego powodu nie strzela do prawidłowego rzutka, otwiera broń lub dotyka bezpiecznika, zanim sędzia sprawdzi awarię, albo ma drugą awarię broni lub amunicji w tej samej serii. Zero to także zwykły skutek kary za powtórne naruszenia (czerwona kartka). Na karcie wyników chybienie oznacza się O, a w Compaku sędzia ogłasza każde zero na głos lub sygnałem dźwiękowym, żeby zawodnik mógł od razu zaprotestować.",
    "disciplines": {
@@ -1156,7 +1115,6 @@ window.GLOSSARY_I18N.pl = {
     "widoczny kawałek"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Rzutek liczy się jako trafiony, jeśli odpadnie od niego co najmniej jeden widoczny kawałek."
   },
   "no-bird": {
@@ -1165,7 +1123,6 @@ window.GLOSSARY_I18N.pl = {
     "rzutek nieliczony"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Decyzja sędziego, że rzutek lub próba się nie liczy i musi zostać powtórzona.",
    "long": "No Bird ogłasza się z powodu rzutka (rozbity przy wyrzuceniu, z niewłaściwej wyrzutni lub w złym kolorze, nieregularna trajektoria, wyrzucony później niż 3 sekundy po zawołaniu lub sygnale, niezawołany, zawodnikowi wyraźnie przeszkodzono albo sędzia nie może rozstrzygnąć) lub z powodu pierwszej awarii broni lub amunicji w serii. Przy rzutku pojedynczym rzutek się powtarza; przy dubletach przepisy określają, kiedy powtarza się cały dublet, a kiedy zachowuje się pierwszy wynik. Tylko sędzia ogłasza No Bird i od tej decyzji nie ma odwołania. Do ogłoszonego No Bird nigdy nie wolno strzelać; zrobienie tego po ostrzeżeniu jest karane. W Compaku zła pogoda i rzutki z innego Compaku nigdy nie uzasadniają No Bird.",
    "disciplines": {
@@ -1179,7 +1136,6 @@ window.GLOSSARY_I18N.pl = {
     "zacięcie"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Awaria broni lub naboju, która uniemożliwia prawidłowy strzał.",
    "long": "Awarie liczy się w ramach serii 25 rzutków. Pierwsza awaria broni lub amunicji w serii oznacza ostrzeżenie i No Bird; od drugiej w tej samej serii rzutki liczy się jako zero zamiast je powtarzać. Po awarii zawodnik zostaje na miejscu z bronią skierowaną w strefę strzału, nie otwierając jej i nie dotykając bezpiecznika, dopóki sędzia jej nie sprawdzi; w przeciwnym razie rzutek lub rzutki to zero. W Sporting™ broń, której nie da się naprawić, można zastąpić pożyczoną za zgodą właściciela; w Compaku zawodnik ma dwie minuty na naprawę lub wymianę i może pożyczyć broń tylko spoza swojej grupy, za zgodą właściciela i sędziego.",
    "disciplines": {
@@ -1190,14 +1146,12 @@ window.GLOSSARY_I18N.pl = {
   "double-discharge": {
    "term_local": "podwójny wystrzał",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Usterka broni, przy której obie lufy wypalają jednocześnie.",
    "long": "Jeśli oba strzały padną jednocześnie przy rzutku pojedynczym lub pierwszym rzutku dubletu, sędzia ogłasza No Bird i nic nie jest zapisywane. Przy rzutku pojedynczym rzutek się powtarza; przy pierwszym rzutku dubletu na zawołanie, dublecie symultanicznym lub rafale powtarza się cały dublet. Liczy się to jako awaria broni, więc No Bird jest tylko przy pierwszej awarii w serii. Podwójny wystrzał jako druga awaria przy dublecie symultanicznym lub rafale daje zero i zero."
   },
   "refusal": {
    "term_local": "odmowa rzutka",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Niestrzelanie do rzutka, który został zawołany i prawidłowo wyrzucony.",
    "long": "Zawodnik może odrzucić tylko rzutek, którego nie zawołał. W Sporting™ prawidłowy rzutek, do którego zawodnik nie strzelił, liczy się jako zero; przy dublecie symultanicznym lub rafale zero i zero. W Compaku odmowa jest karana zgodnie z pkt 21.5: rzutek pojedynczy zero; pierwszy rzutek dubletu na zawołanie zero, a dublet powtarza się, żeby ocenić drugi; dublet symultaniczny zero-zero."
   },
@@ -1208,7 +1162,6 @@ window.GLOSSARY_I18N.pl = {
    ],
    "note": "«Niewypał» = misfire, not hang fire.",
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Opóźniony wystrzał: nabój odpala chwilę po naciśnięciu spustu. Dlatego broni, która zawiodła, nie otwiera się od razu.",
    "long": "Opóźniony wystrzał zdarza się rzadko, ale jest niebezpieczny: po naciśnięciu spustu nic się nie dzieje, a chwilę później nabój jednak wystrzeliwuje. Gdyby w tym momencie otworzyć broń, łuska może pęknąć przy twarzy i dłoniach. Dlatego po każdym niewypale trzymaj broń przy barku albo przynajmniej skierowaną w bezpieczną stronę i czekaj; wielu instruktorów radzi odczekać około 30 sekund. Na zawodach FITASC po niewypale nie otwiera się broni i nie dotyka bezpiecznika, dopóki nie sprawdzi jej sędzia, w przeciwnym razie rzutek liczy się jako stracony. Zasady bezpieczeństwa i sędziowania są tu zgodne."
   },
@@ -1218,7 +1171,6 @@ window.GLOSSARY_I18N.pl = {
     "stanowisko strzeleckie"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Wyznaczone miejsce o szerokości 1 m, w którym zawodnik stoi i strzela.",
    "long": "Stanowisko w Sporting™ to kwadrat 1 m albo koło o średnicy 1 m, w miarę możliwości poziome i nigdy śliskie. Przed nim stoi menu rzutków, a gdy zawodnik jest już na stanowisku, nie może zmieniać broni, czoka ani lufy. Compak ma 5 stanowisk o wymiarach 1 m × 1 m, oddalonych od siebie o 2–5 m, z przednią linią 4–8 m za bokiem AD i stanowiskiem 3 na jego środku; każde ma ogranicznik kąta strzału (FAL). Na stanowisku zawodów nigdy nie sprawdza się broni strzałem.",
    "disciplines": {
@@ -1244,7 +1196,6 @@ window.GLOSSARY_I18N.pl = {
   "range": {
    "term_local": "strzelnica",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Wszystkie obiekty sportowe strzelnicy.",
    "long": "W słowniczku Compaku „range” oznacza wszystkie obiekty sportowe, a Compak® Sporting to instalacja do tej dyscypliny. Słowo pojawia się też w przepisach bezpieczeństwa: broń ładuje się i trzyma skierowaną w strefę strzału, w stronę, gdzie lecą rzutki. Ochronniki słuchu są obowiązkowe dla każdego na strzelnicy lub w jej pobliżu."
   },
@@ -1263,7 +1214,6 @@ window.GLOSSARY_I18N.pl = {
     "runda"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Jednostka 25 rzutków strzelanych na jednej osi, linii lub strzelnicy Compak® Sporting.",
    "long": "W obu regulaminach seria to 25 rzutków. Zawody międzynarodowe to 200 rzutków, czyli 8 serii. Awarie broni i amunicji liczy się w ramach serii: pierwsza daje No Bird, kolejne w tej samej serii dają zero. W Compaku seria (runda) to pięć rzutków na każdym z pięciu stanowisk; w jej trakcie nie można zmieniać broni, czoka ani lufy, a trajektorie i menu zmienia się dopiero po pełnej rundzie. Karą jury może być utrata całej serii 25 rzutków.",
    "disciplines": {
@@ -1274,7 +1224,6 @@ window.GLOSSARY_I18N.pl = {
   "rotation": {
    "term_local": "kolejność strzelania",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Zmieniająca się kolejność, w jakiej członkowie grupy strzelają na każdym stanowisku lub przechodzą między stanowiskami.",
    "long": "W Sporting™ grupy po sześciu zawodników tworzy się w drodze losowania, a kolejność strzelania zmienia się na każdym stanowisku, także przy dubletach. W Compaku przy strzelaniu w grupach serię zawsze zaczyna stanowisko 1; gdy zawodnik ze stanowiska 5 skończy, idzie czekać za stanowiskiem 1, wszyscy przesuwają się o jedno stanowisko w prawo, a czekający wchodzi na stanowisko 1. Stanowiska zmienia się z otwartą i rozładowaną bronią, a zawodnik ma najwyżej 10 sekund na zawołanie po rzutku poprzedniego stanowiska.",
    "disciplines": {
@@ -1289,7 +1238,6 @@ window.GLOSSARY_I18N.pl = {
    ],
    "note": "PZŁ also «zmiana».",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Grupa najwyżej sześciu zawodników, wylosowanych do wspólnego strzelania.",
    "long": "W obu regulaminach grupa liczy najwyżej 6 zawodników, którzy razem strzelają tę samą serię na tej samej instalacji. W Sporting™ grupy tworzy się w drodze losowania, członków jednej reprezentacji w miarę możliwości rozdziela się do różnych grup, a godziny i grupy publikuje się z wyprzedzeniem. Członkowie grupy nie mogą wtrącać się w decyzje sędziego, choć sędzia może poprosić ich o radę. Dwóch zawodników z tej samej grupy nie może dzielić broni. Wolnych miejsc w grupie dogrywkowej się nie uzupełnia.",
    "disciplines": {
@@ -1300,7 +1248,6 @@ window.GLOSSARY_I18N.pl = {
   "referee": {
    "term_local": "sędzia",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Osoba urzędowa na stanowisku, która ocenia każdy rzutek i pilnuje porządku.",
    "long": "Na zawodach międzynarodowych każdy sędzia przyrzeka stosować przepisy uczciwie i bezstronnie, nie kierować się własną narodowością ani federacją, stać tam, skąd najlepiej ocenia, ogłaszać decyzje głośno i wyraźnie oraz mieć przy sobie aktualne przepisy w językach urzędowych FITASC. Tylko sędzia decyduje, czy rzutek był trafiony czy chybiony, czy trajektoria jest prawidłowa i czy rzutek to No Bird; tych decyzji nie można przekazać do jury. W razie wątpliwości sędzia może zapytać innego sędziego, operatora wyrzutni lub zawodników, ale nie jest związany ich zdaniem. Każdy sędzia potrzebuje ważnej licencji krajowej; osoba bez niej może pełnić tylko funkcję asystenta sędziego za uprzednią zgodą jury.",
    "disciplines": {
@@ -1311,7 +1258,6 @@ window.GLOSSARY_I18N.pl = {
   "chief-referee": {
    "term_local": "sędzia główny",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Najstarszy rangą sędzia zawodów, z międzynarodowymi kwalifikacjami FITASC.",
    "long": "W Sporting™ sędzia główny musi mieć międzynarodową licencję wydaną przez FITASC, uczestniczy w zatwierdzaniu osi z odpowiedzialnymi za nie członkami jury, a potem instruuje każdego sędziego stanowiska. Problemy techniczne, których sędzia główny nie rozstrzygnął, rozstrzyga jury. W Compaku sędzia główny musi mieć licencję międzynarodową i kwalifikację sędziego głównego FITASC; może przerwać strzelanie z powodu nagłej ulewy lub burzy, a nagła decyzja jury podjęta przez dwóch członków wymaga jego zgody.",
    "disciplines": {
@@ -1322,7 +1268,6 @@ window.GLOSSARY_I18N.pl = {
   "jury": {
    "term_local": "jury",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Organ, który prowadzi zawody międzynarodowe, rozpatruje odwołania i nakłada kary.",
    "long": "Jury tworzą obecni członkowie komisji technicznej (sportowej) FITASC, po jednym przedstawicielu każdego kraju zgłaszającego drużynę seniorów lub mężczyzn oraz obecni członkowie Komitetu Zarządzającego lub Wykonawczego FITASC, którzy nie zasiadają w jury odwoławczym; przewodniczy mu przedstawiciel federacji organizującej (Compak: Prezes lub przedstawiciel federacji organizującej). Decyduje większością obecnych członków, przy równej liczbie głosów rozstrzyga głos przewodniczącego, a kworum to przewodniczący i co najmniej jedna czwarta członków. W nagłych przypadkach mogą zdecydować dwaj członkowie wskazani przez przewodniczącego, z późniejszym zatwierdzeniem. Co najmniej dwóch członków jury musi zawsze być na strzelnicy, a członek, który zauważy nieprawidłowość, zgłasza ją jury, a nie sędziemu.",
    "disciplines": {
@@ -1337,7 +1282,6 @@ window.GLOSSARY_I18N.pl = {
    ],
    "note": "«Metryczka» used in hunting shoots.",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Oficjalny zapis wyników każdego zawodnika w serii.",
    "long": "W Sporting™ sędzia prowadzi kartę wyników albo nadzoruje jej prowadzenie, używając ołówka w innym kolorze na każdym stanowisku; zanim grupa przejdzie dalej, sędzia fotografuje kartę i stawia gwiazdkę przy nazwisku zawodnika, który ją niesie. Zawodnicy sprawdzają swój wynik, schodząc z każdego stanowiska, a niezgodność trzeba od razu zgłosić sędziemu. W Compaku sędzia prowadzi kartę przy strzelaniu w grupach lub ręcznie „in line”; w systemach elektronicznych wyniki pojawiają się na ekranie. Trafienie to X, a chybienie O. Zawodnik w Compaku musi podpisać kartę na koniec każdej rundy; odmowa podpisu odbiera prawo do skargi.",
    "disciplines": {
@@ -1348,14 +1292,12 @@ window.GLOSSARY_I18N.pl = {
   "protest": {
    "term_local": "protest",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Natychmiastowy sprzeciw na stanowisku wobec decyzji sędziego.",
    "long": "Zawodnik, który się nie zgadza, musi zaprotestować od razu, na stanowisku i przed zawołaniem następnego rzutka (w Compaku zanim zawoła następny zawodnik), podnosząc rękę i mówiąc „protest” lub „appeal”, i musi podać powód. Sędzia przerywa strzelanie. Jeśli sędzia jest pewien, od razu potwierdza decyzję i jest ona ostateczna; jeśli ma wątpliwości, może zapytać innego sędziego, operatora wyrzutni lub zawodników, ale decyzja podjęta potem jest wiążąca. Decyzji o trafieniu lub chybieniu, trajektorii i No Bird nie można dalej przekazać do jury."
   },
   "appeal": {
    "term_local": "odwołanie",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Zaskarżenie decyzji sędziego, najpierw na stanowisku, a potem na piśmie do jury.",
    "long": "Odwołanie zaczyna się na stanowisku, natychmiast, przez podniesienie ręki i słowa „appeal” lub „protest”. Decyzje o tym, czy rzutek był trafiony, wadliwy lub poza trajektorią, oraz o No Bird nie mogą trafić do jury. Od każdej innej decyzji sędziego można odwołać się do jury na piśmie z kaucją: 40% wpisowego w Sporting™, kwota obowiązująca w danym dniu w Compaku. W Compaku skarga musi dotyczyć zdarzenia z tego samego dnia, a zawodnik, który odmówił podpisania karty wyników, nie może się skarżyć. Jeśli jury uwzględni odwołanie, może zmienić decyzję, pouczyć lub zastąpić sędziego, a kaucja jest zwracana.",
    "disciplines": {
@@ -1393,7 +1335,6 @@ window.GLOSSARY_I18N.pl = {
     "limit czasu"
    ],
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Maksymalny czas, jaki zawodnik może poświęcić przed zawołaniem następnego rzutka.",
    "long": "W Sporting™ zawodnik ma najwyżej 15 sekund między rzutkami pojedynczymi lub między dubletami; przekroczenie oznacza najpierw ostrzeżenie, a potem kary z art. 12.2. Po ostatecznej decyzji sędziego w sporze strzelanie trzeba wznowić w ciągu 15 sekund, inaczej liczy się to jako odmowa podporządkowania się. W Compaku limit to 10 sekund na zawołanie po strzale do rzutka poprzedniego stanowiska; pierwsze naruszenie to ostrzeżenie odnotowane na karcie wyników, a powtórzenie w tej samej rundzie jest karane (pojedynczy zero, dublet na zawołanie zero / No Bird, symultaniczny zero / zero). Po ostatecznej decyzji zawodnik w Compaku musi wznowić strzelanie w ciągu 10 sekund.",
    "disciplines": {
@@ -1407,7 +1348,6 @@ window.GLOSSARY_I18N.pl = {
     "składanie się"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Składanie się i prowadzenie broni jak do strzału, bez prawdziwego rzutka w grze.",
    "long": "W Sporting™ strzelanie na sucho jest zabronione na osiach i poza nimi: złożenie się przed zawołaniem i prowadzenie broni po wyobrażonej linii rzutka albo niezamierzony strzał oznaczają ostrzeżenie; potem powtórzenie liczy się jako zero przy następnym trafionym rzutku. Strzelanie i strzelanie na sucho podczas pokazu rzutków też są zabronione. W Compaku strzelanie na sucho jest niedozwolone poza stanowiskami strzeleckimi oraz wtedy, gdy strzela inny członek grupy.",
    "disciplines": {
@@ -1430,7 +1370,6 @@ window.GLOSSARY_I18N.pl = {
   "gun-test": {
    "term_local": "strzał próbny",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Sprawdzenie działania broni strzałem na specjalnym stanowisku próbnym, nigdy na stanowisku zawodów.",
    "long": "Broni nigdy nie wolno sprawdzać strzałem na stanowisku strzeleckim. Zawodnik, który chce sprawdzić broń, robi to przed wyjściem na oś, na stanowisku próbnym przy klubie (Sporting™) lub przy przechowalni broni (Compak), jeśli takie jest. Jury może też sprawdzać broń, naboje i rzutki za pomocą sprzętu technicznego."
   },
@@ -1440,7 +1379,6 @@ window.GLOSSARY_I18N.pl = {
     "trening"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Strzelanie przed zawodami, które przepisy ograniczają.",
    "long": "W Sporting™ nikt nie może trenować na osiach zawodów przed ich rozpoczęciem; trening jest możliwy tylko na innych strzelnicach. W Compaku zawodnicy mogą trenować na trajektoriach zawodów, które później mogą jeszcze zostać zmienione, ale tabele ustawień trajektorii używane na treningu muszą różnić się od tabel zawodów. Na mistrzostwach kontynentu i świata w Compaku oficjalny trening zaczyna się w sobotę przed mistrzostwami i nikt nie może wcześniej trenować na wyrzutniach mistrzostw.",
    "disciplines": {
@@ -1451,30 +1389,26 @@ window.GLOSSARY_I18N.pl = {
   "yellow-card": {
    "term_local": "żółta kartka",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Kartka pokazywana z ostrzeżeniem za pierwsze naruszenie.",
    "long": "W Sporting™ sędzia udziela ustnego ostrzeżenia potwierdzonego żółtą kartką, gdy zawodnik nie przyjmuje wymaganej pozycji gotowości lub składa się, zanim pojawi się rzutek; żółtą kartkę dostaje się też za podpowiadanie (coaching) i naruszenia dotyczące pustych łusek. W Compaku żółtą kartką oznacza się pierwsze naruszenie przepisu, pierwszą awarię broni lub amunicji w rundzie, podpowiadanie i naruszenia dotyczące pustych łusek. Kolejne przewinienie prowadzi wtedy do czerwonej kartki."
   },
   "red-card": {
    "term_local": "czerwona kartka",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Kartka za powtórne naruszenie po ostrzeżeniu, z rzutkiem liczonym jako kara.",
    "long": "Po pierwszym ostrzeżeniu każde kolejne przewinienie na tej samej osi (Sporting™) lub Compaku oznacza czerwoną kartkę. Rzutek jest wtedy liczony: zero przy rzutku pojedynczym; zero i No Bird przy dublecie na zawołanie; zero i zero przy dublecie symultanicznym lub rafale. Przy awarii w Compaku na drugim rzutku dubletu pierwszy wynik zostaje, a drugi to zero. W Compaku druga awaria broni lub amunicji tego samego rodzaju także daje zero z czerwoną kartką."
   },
   "penalty": {
    "term_local": "kara",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Sankcja za złamanie przepisów, od ostrzeżenia aż do wykluczenia.",
    "long": "Zgłaszając się do zawodów, każdy zawodnik akceptuje przepisy FITASC i sankcje za ich łamanie, za ignorowanie poleceń sędziów lub nieprzyjmowanie ich decyzji. Skala zaczyna się od ostrzeżenia, potem są kary na stanowisku według tabeli (czerwona kartka, zero), a za powtórne przewinienia, odmowę podporządkowania się lub próby wywierania wpływu jury może nałożyć utratę jednego rzutka, utratę serii 25 rzutków lub wykluczenie. Za utratę panowania nad sobą, odmowę podporządkowania się, wywieranie wpływu lub celowe strzelanie do żywych zwierząt jury może na podstawie raportu sędziego wykluczyć natychmiast."
   },
   "category": {
    "term_local": "kategoria",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Osobna klasyfikacja według wieku i płci obok klasyfikacji open; od 2027 roku FITASC stosuje kategorie Junior, Lady, Men, Senior, Veteran i Master.",
-   "long": "Od 1 stycznia 2027 roku FITASC ustala sześć kategorii dla Compak® Sporting, Parcours de Chasse – Sporting™ i swoich innych dyscyplin: Junior (13–20), Lady (od 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) i Master (od 73, mężczyźni lub kobiety). Wiek liczy się według roku urodzenia: nowa kategoria obowiązuje od 1 stycznia roku, w którym zawodnik osiąga dany wiek, niezależnie od daty urodzin. Senior to nie główna kategoria dorosłych, lecz grupa wiekowa 56–65; główna kategoria dorosłych to Men. Drużyny kategorii mają 3 zawodników (drużyna Men w Sporting™ ma 4), a zawodnik wybrany do drużyny innej kategorii musi też zgłosić się indywidualnie w tej kategorii. W Compaku remisy o pierwsze trzy miejsca w każdej kategorii rozstrzyga dogrywka; gdy zawodnicy w dogrywce klasyfikacji open należą do tej samej kategorii, wynik liczy się także dla tej kategorii. Zawody krajowe i klubowe mogą stosować własne kategorie, podane w programie.",
+   "long": "Od 1 stycznia 2027 roku FITASC ustala sześć kategorii dla Compak® Sporting i Parcours de Chasse – Sporting™: Junior (13–20), Lady (od 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) i Master (od 73, mężczyźni lub kobiety). Wiek liczy się według roku urodzenia: nowa kategoria obowiązuje od 1 stycznia roku, w którym zawodnik osiąga dany wiek, niezależnie od daty urodzin. Senior to nie główna kategoria dorosłych, lecz grupa wiekowa 56–65; główna kategoria dorosłych to Men. Drużyny kategorii mają 3 zawodników (drużyna Men w Sporting™ ma 4), a zawodnik wybrany do drużyny innej kategorii musi też zgłosić się indywidualnie w tej kategorii. W Compaku remisy o pierwsze trzy miejsca w każdej kategorii rozstrzyga dogrywka; gdy zawodnicy w dogrywce klasyfikacji open należą do tej samej kategorii, wynik liczy się także dla tej kategorii. Zawody krajowe i klubowe mogą stosować własne kategorie, podane w programie.",
    "disciplines": {
     "sporting": "Drużyna Men ma 4 zawodników; drużyny innych kategorii po 3.",
     "compak": "Osobne dogrywki o podium w każdej kategorii."
@@ -1490,7 +1424,6 @@ window.GLOSSARY_I18N.pl = {
   "team": {
    "term_local": "drużyna",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Reprezentacja narodowa, której wyniki członków sumuje się w klasyfikacji drużynowej.",
    "long": "Wynik drużyny to suma wyników jej członków. Remisy rozstrzyga suma drużyny na 8. osi lub Compaku, potem na 7. i tak dalej aż do 1.; nie ma dogrywki drużynowej. Członków tej samej reprezentacji w miarę możliwości rozdziela się do różnych grup. Na paradzie otwarcia członkowie drużyn noszą strój reprezentacji albo eleganckie spodnie z marynarką. Drużyny tworzy się też według kategorii: Junior, Lady, Men, Senior, Veteran i Master, po 3 zawodników; tylko drużyna Men w Sporting™ ma 4."
   },
@@ -1516,7 +1449,6 @@ window.GLOSSARY_I18N.pl = {
   "competitor-number": {
    "term_local": "numer startowy",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Numer noszony na plecach zawodnika podczas zawodów.",
    "long": "Numer trzeba nosić na plecach, między barkami a pasem, w pełni widoczny i kompletny, niezłożony ani nieprzycięty. Pierwsze naruszenie oznacza ostrzeżenie od sędziego; jeśli nie zostanie poprawione, następują dalsze kary, aż do wykluczenia z zawodów przez jury. W Sporting™ brakującego zawodnika wywołuje się po nazwisku i numerze trzy razy w ciągu minuty."
   },
@@ -1532,7 +1464,6 @@ window.GLOSSARY_I18N.pl = {
   "safety": {
    "term_local": "bezpieczeństwo",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Zasady chroniące zawodników, sędziów, obsługę i widzów na strzelnicy.",
    "long": "Bezpieczeństwo jest najważniejsze przy projektowaniu osi i podczas strzelania. Broń przenosi się otwartą i rozładowaną, a ładuje tylko na stanowisku, skierowaną w strefę strzału, po zgodzie sędziego; półautomat mieści najwyżej dwa naboje. Przed odwróceniem się lub zejściem ze stanowiska broń się otwiera i wyjmuje wszystkie naboje, a podczas pokazów i przerw pozostaje otwarta. Po awarii zawodnik stoi w miejscu, nie otwierając broni, dopóki sędzia jej nie sprawdzi. Zawodnik strzela tylko w swojej kolejce, tylko do wyrzuconego rzutka, nigdy do rzutka innego zawodnika i nigdy świadomie do żywych zwierząt. Ochronniki słuchu i okulary ochronne są obowiązkowe, a sandały zakazane.",
    "disciplines": {
@@ -1545,14 +1476,12 @@ window.GLOSSARY_I18N.pl = {
     "broń otwarta"
    ],
    "conf": "medium",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Jak należy przenosić, przechowywać i obsługiwać broń poza stanowiskiem i na nim.",
    "long": "Z każdą bronią, nawet rozładowaną, obchodzi się z wielką ostrożnością. Broń przenosi się otwartą; półautomaty z otwartym zamkiem i wylotem lufy skierowanym pionowo w górę lub w dół. Pasy i paski nośne są niedozwolone. Nieużywana broń stoi pionowo w stojaku na broń lub w podobnym miejscu. Nikt nie może dotykać broni innego zawodnika bez pozwolenia."
   },
   "loading": {
    "term_local": "ładowanie / rozładowanie",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Wkładanie nabojów do broni tylko na stanowisku i wyjmowanie ich potem."
   },
   "cease-fire": {
@@ -1561,7 +1490,6 @@ window.GLOSSARY_I18N.pl = {
     "przerwać strzelanie"
    ],
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Komenda natychmiastowego przerwania strzelania: broń się otwiera i rozładowuje.",
    "long": "Wstrzymanie ognia może ogłosić sędzia, instruktor lub każdy, kto widzi zagrożenie: człowieka albo zwierzę w sektorze, niesprawną wyrzutnię, nagłą burzę. Gdy je usłyszysz, natychmiast przestań, otwórz broń, wyjmij naboje i czekaj na pozwolenie na dalsze strzelanie. Według przepisów FITASC podczas każdej przerwy broń musi być otwarta i rozładowana i można ją zamknąć tylko za zgodą sędziego. Ucz tej komendy od pierwszej lekcji, zwłaszcza dzieci. Dokładne słowa i sygnały mogą się różnić w zależności od strzelnicy, więc poznaj je na odprawie bezpieczeństwa."
   },
@@ -1582,14 +1510,12 @@ window.GLOSSARY_I18N.pl = {
   "dress-code": {
    "term_local": "kodeks ubioru",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Zasady ubioru zawodników na stanowisku i podczas ceremonii.",
    "long": "Krótkie spodenki są zabronione; akceptuje się tylko długie bermudy kończące się najwyżej 5 cm nad kolanem. Góra musi mieć co najmniej krótki rękaw i kołnierzyk lub okrągły dekolt, a kamizelka strzelecka bez niczego pod spodem jest niedozwolona. Sandały są zakazane ze względów bezpieczeństwa, na treningu i na zawodach. Na paradzie otwarcia i dekoracji członkowie drużyn noszą strój reprezentacji albo eleganckie spodnie z marynarką, a każdy nagrodzony musi być obecny na dekoracji. Pierwsze naruszenie oznacza ostrzeżenie; jeśli nie zostanie poprawione, dalsze kary aż do wykluczenia przez jury."
   },
   "empties": {
    "term_local": "puste łuski",
    "conf": "high",
-   "src": "https://www.pzss.org.pl/assets/files/dokumenty/przepisy/kolegium-sedziow/issf/rzutki-wersja-pl-1_2024.pdf",
    "short": "Wystrzelone łuski, które się zbiera i nie zostawia na ziemi."
   },
   "sporting": {
@@ -2057,18 +1983,6 @@ window.GLOSSARY_I18N.pl = {
    "short": "Podsumowanie sezonu w ClayArena: najważniejsze zawody roku, zwycięzcy i wyniki.",
    "long": "Podsumowania sezonu na ClayArena zbierają najważniejsze momenty roku w Sporting™ i Compak® Sporting: kluczowe zawody, zwycięzców i wyróżniające się występy. Dla początkującego to łatwy sposób, by dowiedzieć się, kto jest w formie i które imprezy były najważniejsze. Razem z filmami z zawodów i kalendarzem pomagają szybko odnaleźć się w świecie strzelectwa do rzutków. Po własnych zawodach warto zajrzeć: twój występ też może się tam pojawić."
   },
-  "olympic-trap": {
-   "term_local": "trap olimpijski",
-   "conf": "low",
-   "short": "Dyscyplina olimpijska: rzutki odlatują od zawodnika z rowu pod różnymi kątami, a do każdego można oddać dwa strzały.",
-   "long": "W trapie olimpijskim wyrzutnie są ukryte w rowie przed linią pięciu stanowisk, a rzutki odlatują od zawodnika z dużą prędkością pod różnymi kątami i na różnych wysokościach. Do każdego rzutka można oddać dwa strzały. Zawodnik wywołuje rzutek z bronią już złożoną, a rzutek zostaje wyrzucony na wywołanie. Konkurencją zarządza ISSF, a nie FITASC, i jest ona w programie olimpijskim. Dla zawodników Sporting™ i Compak® Sporting trap to przydatny trening szybkiej reakcji na rzutki odlatujące."
-  },
-  "skeet": {
-   "term_local": "skeet",
-   "conf": "low",
-   "short": "Dyscyplina z dwiema budkami (wysoką i niską), z których rzutki przecinają pole; stanowiska stoją w półkolu.",
-   "long": "W skeecie dwie budki z wyrzutniami stoją na końcach półkola: wysoka po jednej stronie i niska po drugiej. Rzutki lecą naprzeciw siebie po stałych trajektoriach, a zawodnik przechodzi między stanowiskami na półkolu, strzelając do rzutków pojedynczych i dubletów. Skeetem olimpijskim zarządza ISSF; są też odmiany krajowe, takie jak English Skeet, z nieco innymi zasadami. Trajektorie skeetu są stałe, więc konkurencja dobrze nadaje się do rozwijania techniki na rzutkach poprzecznych. Od niej wziął nazwę lekki czok skeetowy."
-  },
   "guardian-consent": {
    "term_local": "zgoda opiekuna",
    "conf": "low",
@@ -2402,7 +2316,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "high",
    "short": "Lek nasercowy, który zwalnia pracę serca i zmniejsza drżenie; według listy WADA w strzelectwie jest zabroniony zawsze, w zawodach i poza nimi.",
-   "long": "Przykłady to propranolol, atenolol, bisoprolol i metoprolol. W sportach precyzyjnych są zabronione, bo wolniejsze serce i mniejsze drżenie mogą uspokoić broń. Lista WADA wymienia strzelectwo przez federację olimpijską (ISSF) i strzelectwo paraolimpijskie (IPC), a nie FITASC; mimo to traktuj beta-blokery jako zabronione także w Sporting™ i Compak® Sporting: krajowe agencje antydopingowe mogą kontrolować na zawodach krajowych, organizatorzy mogą stosować listę WADA, a wielu zawodników startuje też w konkurencjach ISSF. Jeśli lekarz przepisał ci beta-bloker, nie odstawiaj go sam; z wyprzedzeniem zapytaj o dozwoloną alternatywę albo o TUE. To nie jest porada medyczna."
+   "long": "Przykłady to propranolol, atenolol, bisoprolol i metoprolol. W sportach precyzyjnych są zabronione, bo wolniejsze serce i mniejsze drżenie mogą uspokoić broń. Lista WADA nie wymienia osobno Sporting™ ani Compak® Sporting; mimo to traktuj beta-blokery jako zabronione także tam: krajowe agencje antydopingowe mogą kontrolować na zawodach krajowych, a organizatorzy mogą stosować listę WADA. Jeśli lekarz przepisał ci beta-bloker, nie odstawiaj go sam; z wyprzedzeniem zapytaj o dozwoloną alternatywę albo o TUE. To nie jest porada medyczna."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2426,7 +2340,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "medium",
    "short": "Ostatnie stabilne spojrzenie na rzutek przed ruchem; u doświadczonych zawodników zwykle zaczyna się wcześniej i trwa dłużej.",
-   "long": "Badacze mierzą quiet eye jako ostatnie stabilne spojrzenie przed rozpoczęciem ruchu. W porównaniu z mniej doświadczonymi zawodnikami czołowi strzelcy trapu i skeetu zaczynają je wcześniej i utrzymują dłużej, a przy trafieniach zwykle jest dłuższe niż przy pudłach. Pod presją często się skraca. Nie ma magicznej liczby milisekund, do której trzeba dążyć: w strzelectwie do rzutków oznacza to zobaczyć rzutek wcześnie i wyraźnie i trzymać na nim wzrok przez cały strzał. Większość danych pochodzi z olimpijskiego trapu i skeetu; prawdopodobnie przenosi się to na Sporting™ i Compak® Sporting."
+   "long": "Badacze mierzą quiet eye jako ostatnie stabilne spojrzenie przed rozpoczęciem ruchu. W badaniach z wielu sportów bardziej doświadczeni zawodnicy zwykle zaczynają je wcześniej i utrzymują dłużej, a przy udanych próbach jest zwykle dłuższe niż przy nieudanych. Pod presją często się skraca. Nie ma magicznej liczby milisekund, do której trzeba dążyć: w strzelectwie do rzutków oznacza to zobaczyć rzutek wcześnie i wyraźnie i trzymać na nim wzrok przez cały strzał. W samym Sporting™ i Compak® Sporting tego nie badano; prawdopodobnie działa to tam tak samo."
   },
   "self-talk": {
    "term_local": "mowa wewnętrzna",
@@ -2463,7 +2377,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "medium",
    "short": "Strzelanie wyraźnie poniżej zwykłego poziomu z powodu presji, często gdy zaczynasz świadomie sterować umiejętnością, która zwykle działa sama.",
-   "long": "Nie mylić z czokiem lufy. Pod presją zawodnik może zacząć krok po kroku kontrolować złożenie się albo prowadzenie broni, a niepokój odciąga wzrok od rzutka. Oznaki: zmienione tempo, sprawdzanie złożenia, wzrok na lufie albo muszce, zerkanie na wyniki. Co może pomóc: zwykła rutyna przedstrzałowa i tempo, jedno proste słowo-klucz o rzutku, cele procesowe i trening pod presją, która rośnie krok po kroku. Większość badań pochodzi z innych sportów oraz z olimpijskiego trapu i skeetu; prawdopodobnie przenosi się to na Sporting™ i Compak® Sporting. Jeśli presja raz po raz psuje ci zawody, pomóc może psycholog sportu."
+   "long": "Nie mylić z czokiem lufy. Pod presją zawodnik może zacząć krok po kroku kontrolować złożenie się albo prowadzenie broni, a niepokój odciąga wzrok od rzutka. Oznaki: zmienione tempo, sprawdzanie złożenia, wzrok na lufie albo muszce, zerkanie na wyniki. Co może pomóc: zwykła rutyna przedstrzałowa i tempo, jedno proste słowo-klucz o rzutku, cele procesowe i trening pod presją, która rośnie krok po kroku. Większość badań pochodzi z laboratorium i z innych sportów, a nie ze Sporting™ czy Compak® Sporting; prawdopodobnie działa to tam tak samo. Jeśli presja raz po raz psuje ci zawody, pomóc może psycholog sportu."
   },
   "reset-routine": {
    "term_local": "rutyna resetu",
@@ -2582,14 +2496,6 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "szklana kula",
    "conf": "medium",
    "short": "Szklana kula wyrzucana w powietrze jako cel w XIX wieku, wczesna alternatywa dla żywych ptaków; później zastąpił ją rzutek."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Międzynarodowa Federacja Sportów Strzeleckich"
-   ],
-   "conf": "high",
-   "short": "International Shooting Sport Federation, która kieruje olimpijskimi konkurencjami strzeleckimi, w tym olimpijskim trapem i skeetem; Sporting™ i Compak® Sporting należą do FITASC."
   },
   "hydration": {
    "term_local": "nawodnienie",

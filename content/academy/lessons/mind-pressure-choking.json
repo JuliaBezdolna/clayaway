@@ -1,6 +1,6 @@
 {
   "id": "mind-pressure-choking",
-  "rev": 2,
+  "rev": 3,
   "status": "review",
   "plan": "new",
   "level": 2,
@@ -81,15 +81,6 @@
         "en": "The theory of reinvestment (International Review of Sport and Exercise Psychology, 2008)"
       },
       "url": "https://doi.org/10.1080/17509840802287218",
-      "rel": "noopener noreferrer",
-      "checked": "2026-10-06",
-      "license": "link only"
-    },
-    {
-      "title": {
-        "en": "Anxiety, movement kinematics, and visual attention in elite-level performers (Emotion, 2011)"
-      },
-      "url": "https://doi.org/10.1037/a0023225",
       "rel": "noopener noreferrer",
       "checked": "2026-10-06",
       "license": "link only"
@@ -191,13 +182,13 @@
         "Signs: rushing or delaying the call, consciously checking the gun mount, looking at the bead, watching the score and rivals, tension, misses on easy targets.",
         "What can help: the usual routine and tempo, one simple cue, process goals, training under moderate pressure (link: training-for-competition).",
         "In a shoot-off: the same routine and the same tempo.",
-        "Evidence: some research (moderate); research is mostly from Olympic trap and skeet, so for {{tm:sporting}} and {{tm:compak}} write 'probably transfers'."
+        "Evidence: some research (moderate); research is from lab tasks and other sports, so for {{tm:sporting}} and {{tm:compak}} write 'probably transfers'."
       ],
       "uk": [
         "Ознаки: поспіх або затягування команди, свідома перевірка вкладки, погляд на мушку, стеження за рахунком і суперниками, скутість, промахи по легких мішенях.",
         "Що може допомогти: звичний ритуал і темп, одна проста підказка, цілі процесу, тренування під помірним тиском (посилання: training-for-competition).",
         "У перестрілці — той самий ритуал і той самий темп.",
-        "Доказовість: є дослідження (помірна); дослідження здебільшого на олімпійському трапі й скиті, тому про {{tm:sporting}} і {{tm:compak}} писати «імовірно, переноситься»."
+        "Доказовість: є дослідження (помірна); дослідження проводили в лабораторії та в інших видах спорту, тому про {{tm:sporting}} і {{tm:compak}} писати «імовірно, переноситься»."
       ]
     }
   },
@@ -211,8 +202,8 @@
     {
       "k": "mind-pressure-choking-p2",
       "t": "p",
-      "en": "Worry also pulls attention away from the target. In one study of elite shotgun shooters under anxiety, the final look at the target got shorter, the gun moved less smoothly, and they hit fewer targets.",
-      "uk": "Тривога ще й відтягує увагу від мішені. В одному дослідженні з елітними стрільцями з рушниці під тривогою останній погляд на мішень ставав коротшим, рушниця рухалася менш плавно, і влучань було менше."
+      "en": "Worry also pulls attention away from the target. Under anxiety, attention is drawn to worrying thoughts and threats, so less of it is left for the task.",
+      "uk": "Тривога ще й відтягує увагу від мішені. Коли ви хвилюєтеся, увагу перетягують тривожні думки й загрози, тож на саме завдання її лишається менше."
     },
     {
       "k": "mind-pressure-choking-p3",
@@ -280,8 +271,8 @@
     {
       "k": "mind-pressure-choking-p9",
       "t": "p",
-      "en": "Most of this research comes from lab tasks and other sports; the shotgun data come from Olympic trap and skeet. So most likely it works the same way in {{tm:sporting}} and {{tm:compak}}.",
-      "uk": "Більшість цих досліджень проводили в лабораторії та в інших видах спорту; дані про стрільбу з рушниці — з олімпійських трапу й скиту. Тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+      "en": "Most of this research comes from lab tasks and other sports, not from {{tm:sporting}} or {{tm:compak}}. So it most likely works the same way here too.",
+      "uk": "Більшість цих досліджень проводили в лабораторії та в інших видах спорту, а не в {{tm:sporting}} чи {{tm:compak}}. Тож, найімовірніше, тут це працює так само."
     },
     {
       "k": "mind-pressure-choking-p10",
@@ -466,7 +457,6 @@
       "for": "mind-pressure-choking-p2",
       "level": "some",
       "sources": [
-        "https://doi.org/10.1037/a0023225",
         "https://doi.org/10.1037/1528-3542.7.2.336"
       ]
     },
@@ -518,7 +508,7 @@
     "title": "04495f7f",
     "summary": "e075f54f",
     "mind-pressure-choking-p1": "84cf63e0",
-    "mind-pressure-choking-p2": "170c6388",
+    "mind-pressure-choking-p2": "242ae1d8",
     "mind-pressure-choking-p3": "b611399c",
     "mind-pressure-choking-signs": "8dd41c26",
     "mind-pressure-choking-p4": "1551f96e",
@@ -527,7 +517,7 @@
     "mind-pressure-choking-p7": "02a2f93f",
     "mind-pressure-choking-p8": "f384a5ee",
     "mind-pressure-choking-tip": "a6b201fc",
-    "mind-pressure-choking-p9": "2bdb5b09",
+    "mind-pressure-choking-p9": "e6fdd52e",
     "mind-pressure-choking-p10": "98a211b7",
     "mind-pressure-choking-n1": "bc01255d",
     "mind-pressure-choking-kp1": "5e78a42c",

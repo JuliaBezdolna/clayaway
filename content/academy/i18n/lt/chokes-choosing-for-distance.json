@@ -1,25 +1,25 @@
 {
   "id": "chokes-choosing-for-distance",
   "lang": "lt",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "899ed9f0",
     "summary": "2433ecf5",
     "chokes-choosing-for-distance-p1": "18c7faa3",
     "chokes-choosing-for-distance-cmp1": "ed251d47",
-    "chokes-choosing-for-distance-p2": "0b25f4b2",
+    "chokes-choosing-for-distance-p2": "ab096462",
     "chokes-choosing-for-distance-p7": "bfeb8f32",
     "chokes-choosing-for-distance-p3": "8cd85c18",
     "chokes-choosing-for-distance-p4": "1bec6b23",
     "chokes-choosing-for-distance-p5": "c2793354",
     "chokes-choosing-for-distance-p6": "3a797ad0",
     "chokes-choosing-for-distance-kp1": "85a0aef4",
-    "chokes-choosing-for-distance-kp2": "7ef1ef53",
+    "chokes-choosing-for-distance-kp2": "e3ca528b",
     "chokes-choosing-for-distance-kp3": "316eb7bc",
     "chokes-choosing-for-distance-kp4": "a668cfcb",
     "chokes-choosing-for-distance-kp5": "42fc8973",
     "chokes-choosing-for-distance-dyk": "6d4e4236",
-    "chokes-choosing-for-distance-q1": "5f3c346d",
+    "chokes-choosing-for-distance-q1": "ba4efb0a",
     "chokes-choosing-for-distance-q2": "fa23b5d9",
     "chokes-choosing-for-distance-q3": "a8a0d8ea",
     "chokes-choosing-for-distance-q4": "ae2aa937"
@@ -38,7 +38,7 @@
       "compak": "Taikiniai skrenda virš pažymėto {{term:fly-over-zone|stačiakampio}} 35–40 m pločio ir 25 m gylio prieš šaudymo vietas."
     },
     "chokes-choosing-for-distance-p2": [
-      "Iki apie 20 m: {{term:cylinder|cilindras}} arba {{term:skeet-choke|skiet}}.",
+      "Iki apie 20 m: {{term:cylinder|cilindras}} arba labai lengvas čokas (1/8).",
       "Apie 20–30 m: {{term:improved-cylinder|1/4}} (improved cylinder) arba light modified.",
       "Apie 30–35 m: {{term:modified|pusčokas}} (1/2, modified).",
       "Toliau nei apie 35 m: {{term:improved-modified|3/4}} (improved modified), o retkarčiais ir {{term:full-choke|pilnas čokas}}."
@@ -53,7 +53,7 @@
   "phrases": {},
   "key_points": {
     "chokes-choosing-for-distance-kp1": "Čoką rinkitės pagal atstumą, kuriuo šausite.",
-    "chokes-choosing-for-distance-kp2": "Orientyras: iki 20 m – cilindras ar skiet, 20–30 m – IC ar LM, 30–35 m – M, virš 35 m – IM.",
+    "chokes-choosing-for-distance-kp2": "Orientyras: iki 20 m – cilindras ar 1/8, 20–30 m – IC ar LM, 30–35 m – M, virš 35 m – IM.",
     "chokes-choosing-for-distance-kp3": "Atviresnis čokas – pirmam šūviui, tankesnis – antram.",
     "chokes-choosing-for-distance-kp4": "IC ir M pora – populiarus universalus pasirinkimas.",
     "chokes-choosing-for-distance-kp5": "Pradedantiesiems artimuose ir vidutiniuose taikiniuose dažniausiai geriau tinka atviresni čokai."
@@ -64,7 +64,7 @@
       "q": "Koks čokas apytiksliai tinka taikiniui apie 30–35 m?",
       "options": {
         "a": "Cilindras",
-        "b": "Skiet",
+        "b": "Ketvirtis (1/4)",
         "c": "Pusčokas (1/2)",
         "d": "Extra full"
       },

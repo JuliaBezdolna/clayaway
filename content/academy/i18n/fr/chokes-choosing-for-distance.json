@@ -1,25 +1,25 @@
 {
   "id": "chokes-choosing-for-distance",
   "lang": "fr",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "899ed9f0",
     "summary": "2433ecf5",
     "chokes-choosing-for-distance-p1": "18c7faa3",
     "chokes-choosing-for-distance-cmp1": "ed251d47",
-    "chokes-choosing-for-distance-p2": "0b25f4b2",
+    "chokes-choosing-for-distance-p2": "ab096462",
     "chokes-choosing-for-distance-p7": "bfeb8f32",
     "chokes-choosing-for-distance-p3": "8cd85c18",
     "chokes-choosing-for-distance-p4": "1bec6b23",
     "chokes-choosing-for-distance-p5": "c2793354",
     "chokes-choosing-for-distance-p6": "3a797ad0",
     "chokes-choosing-for-distance-kp1": "85a0aef4",
-    "chokes-choosing-for-distance-kp2": "7ef1ef53",
+    "chokes-choosing-for-distance-kp2": "e3ca528b",
     "chokes-choosing-for-distance-kp3": "316eb7bc",
     "chokes-choosing-for-distance-kp4": "a668cfcb",
     "chokes-choosing-for-distance-kp5": "42fc8973",
     "chokes-choosing-for-distance-dyk": "6d4e4236",
-    "chokes-choosing-for-distance-q1": "5f3c346d",
+    "chokes-choosing-for-distance-q1": "ba4efb0a",
     "chokes-choosing-for-distance-q2": "fa23b5d9",
     "chokes-choosing-for-distance-q3": "a8a0d8ea",
     "chokes-choosing-for-distance-q4": "ae2aa937"
@@ -38,7 +38,7 @@
       "compak": "Les plateaux survolent un {{term:fly-over-zone|rectangle}} balisé de 35 à 40 m de large et 25 m de profondeur, devant les postes de tir."
     },
     "chokes-choosing-for-distance-p2": [
-      "Jusqu'à environ 20 m : {{term:cylinder|cylindre}} ou {{term:skeet-choke|skeet}}.",
+      "Jusqu'à environ 20 m : {{term:cylinder|cylindre}} ou un choke très léger (1/8).",
       "Environ 20-30 m : {{term:improved-cylinder|1/4}} (improved cylinder) ou light modified.",
       "Environ 30-35 m : {{term:modified|demi-choke}} (1/2, modified).",
       "Au-delà d'environ 35 m : {{term:improved-modified|3/4}} (improved modified), et parfois full."
@@ -53,7 +53,7 @@
   "phrases": {},
   "key_points": {
     "chokes-choosing-for-distance-kp1": "Choisissez le choke selon la distance à laquelle vous allez tirer.",
-    "chokes-choosing-for-distance-kp2": "Un repère approximatif : jusqu'à 20 m cylinder ou skeet, 20-30 m IC ou LM, 30-35 m M, au-delà de 35 m IM.",
+    "chokes-choosing-for-distance-kp2": "Un repère approximatif : jusqu'à 20 m cylinder ou 1/8, 20-30 m IC ou LM, 30-35 m M, au-delà de 35 m IM.",
     "chokes-choosing-for-distance-kp3": "Choke plus ouvert pour le premier tir, plus serré pour le second.",
     "chokes-choosing-for-distance-kp4": "Une paire IC et M est un choix polyvalent populaire.",
     "chokes-choosing-for-distance-kp5": "Les débutants réussissent généralement mieux avec des chokes plus ouverts sur les plateaux proches et moyens."
@@ -63,7 +63,7 @@
       "q": "Quel choke convient approximativement à un plateau à environ 30-35 m ?",
       "options": {
         "a": "Cylindre",
-        "b": "Skeet",
+        "b": "Improved cylinder (1/4)",
         "c": "Modified (1/2)",
         "d": "Extra full"
       },

@@ -1,6 +1,6 @@
 {
   "id": "intro-what-is-clay-shooting",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "rewrite",
   "level": 1,
@@ -43,9 +43,7 @@
     "visible-piece",
     "sporting",
     "compak-sporting",
-    "fitasc",
-    "olympic-trap",
-    "skeet"
+    "fitasc"
   ],
   "rule_refs": [
     {
@@ -132,13 +130,6 @@
       "uk": "Цей курс присвячений двом дисциплінам (двом видам стендової стрільби) міжнародної федерації {{term:fitasc|FITASC}}. Parcours de Chasse – Sporting™ (коротко — Sporting™) відтворює полювання. Його машинки часто ховають або прикривають кущами й деревами, а мішені летять, як куріпка, качка чи фазан, або котяться по землі, як заєць. {{tm:compak}} — компактний варіант: така сама різноманітність мішеней, але на одному невеликому полі з п’ятьма номерами в лінію і шістьма машинками."
     },
     {
-      "k": "sport-what-is-clay-p4",
-      "t": "p",
-      "core": true,
-      "en": "You will also hear about Trap and Skeet. They are different disciplines with set trajectories. In Skeet the trajectories are always the same; in Trap the targets fly at changing angles from a fixed set, in an order the shooter does not know. Olympic Trap and Skeet belong to another federation. Do not mix their rules with {{tm:sporting}} or {{tm:compak}}.",
-      "uk": "Ви почуєте й про Trap та Skeet. Це інші дисципліни із заданими траєкторіями. У скиті траєкторії завжди однакові; у трапі мішені летять під різними кутами із заданого набору, і стрілець не знає, в якому порядку. Олімпійські {{term:olympic-trap|Trap}} і {{term:skeet|Skeet}} належать іншій федерації. Не переносьте їхні правила на {{tm:sporting}} чи {{tm:compak}}."
-    },
-    {
       "k": "sport-what-is-clay-p5",
       "t": "p",
       "core": true,
@@ -223,13 +214,6 @@
       "core": true,
       "en": "{{tm:sporting}} imitates hunting over natural ground; {{tm:compak}} is its compact version on one field.",
       "uk": "{{tm:sporting}} відтворює полювання на природному рельєфі; {{tm:compak}} — його компактний варіант на одному полі.",
-      "from": "sport-what-is-clay"
-    },
-    {
-      "k": "sport-what-is-clay-kp4",
-      "core": true,
-      "en": "Trap and Skeet are other disciplines with their own rules.",
-      "uk": "Trap і Skeet — інші дисципліни з власними правилами.",
       "from": "sport-what-is-clay"
     },
     {
@@ -329,8 +313,8 @@
         },
         {
           "k": "b",
-          "en": "It is the Olympic version of the Skeet discipline",
-          "uk": "Це олімпійський різновид дисципліни скіт"
+          "en": "It is a course of stands spread through a forest",
+          "uk": "Це маршрут стрілецьких місць, розкиданих лісом"
         },
         {
           "k": "c",
@@ -449,7 +433,6 @@
     "sport-what-is-clay-p2": "54bc3515",
     "intro-what-is-clay-shooting-p2": "22c4489f",
     "sport-what-is-clay-p3": "aad8067c",
-    "sport-what-is-clay-p4": "6862a9dc",
     "sport-what-is-clay-p5": "52a34d7f",
     "intro-what-is-clay-shooting-p5": "9f7b18f6",
     "intro-what-is-clay-shooting-p6": "16cb66f9",
@@ -459,12 +442,11 @@
     "sport-what-is-clay-kp1": "fdfda924",
     "sport-what-is-clay-kp2": "e7d80445",
     "sport-what-is-clay-kp3": "c4886be6",
-    "sport-what-is-clay-kp4": "5aa7fa8d",
     "intro-what-is-clay-shooting-kp4": "5dcc36b1",
     "intro-what-is-clay-shooting-dyk": "a0d70d52",
     "sport-what-is-clay-q1": "e119f9b3",
     "sport-what-is-clay-q2": "79369cea",
-    "sport-what-is-clay-q3": "231a967e",
+    "sport-what-is-clay-q3": "741d6c62",
     "intro-what-is-clay-shooting-q1": "8867030b",
     "intro-what-is-clay-shooting-q2": "7fb50f25",
     "intro-what-is-clay-shooting-q3": "546c5d4e"

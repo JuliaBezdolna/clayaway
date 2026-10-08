@@ -1,6 +1,6 @@
 {
   "id": "mind-long-day-energy-sleep",
-  "rev": 3,
+  "rev": 4,
   "status": "review",
   "plan": "rewrite",
   "level": 2,
@@ -93,15 +93,6 @@
         "en": "Effect of caffeine ingestion on competitive rifle shooting performance (PLoS ONE, 2019)"
       },
       "url": "https://doi.org/10.1371/journal.pone.0224596",
-      "rel": "noopener noreferrer",
-      "checked": "2026-10-06",
-      "license": "link only"
-    },
-    {
-      "title": {
-        "en": "ISSF Medical Committee — Is caffeine consumption recommended for shooting sport athletes? (2018)"
-      },
-      "url": "https://www.issf-sports.org/news/3065",
       "rel": "noopener noreferrer",
       "checked": "2026-10-06",
       "license": "link only"
@@ -224,8 +215,8 @@
     {
       "k": "mind-long-day-energy-sleep-p10",
       "t": "p",
-      "en": "Coffee: stick to your usual amount and do not try more on the day. In one study, a large dose (300 mg, about as much caffeine as three or four cups of brewed coffee) made rifle shooters score worse when shooting standing. The doctors of the international shooting federation (ISSF) see little benefit in extra caffeine.",
-      "uk": "Кава: тримайтеся звичної кількості й не пробуйте більшої дози в день змагань. В одному дослідженні велика доза (300 мг, приблизно стільки кофеїну, як у трьох-чотирьох чашках звареної кави) погіршила результати стрільців із гвинтівки в стрільбі стоячи. Лікарі міжнародної федерації стрільби (ISSF) не бачать у додатковому кофеїні великої користі."
+      "en": "Coffee: stick to your usual amount and do not try more on the day. In one study with competition shooters (not clay shooters), a large dose (300 mg, about as much caffeine as three or four cups of brewed coffee) made their scores worse. So extra caffeine is unlikely to help.",
+      "uk": "Кава: тримайтеся звичної кількості й не пробуйте більшої дози в день змагань. В одному дослідженні зі спортсменами-стрільцями (не стендовиками) велика доза (300 мг, приблизно стільки кофеїну, як у трьох-чотирьох чашках звареної кави) погіршила їхні результати. Тож додатковий кофеїн навряд чи допоможе."
     },
     {
       "k": "mind-long-day-energy-sleep-p11",
@@ -532,7 +523,6 @@
       "level": "little",
       "sources": [
         "https://doi.org/10.1371/journal.pone.0224596",
-        "https://www.issf-sports.org/news/3065",
         "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine"
       ]
     },
@@ -540,8 +530,7 @@
       "for": "mind-long-day-energy-sleep-p11",
       "level": "some",
       "sources": [
-        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine",
-        "https://www.issf-sports.org/news/3065"
+        "https://www.ausport.gov.au/ais/nutrition/supplements/group_a/performance-supplements2/caffeine"
       ]
     },
     {
@@ -586,7 +575,7 @@
     "mind-long-day-energy-sleep-p8": "2c0d1cd3",
     "mind-long-day-energy-sleep-p4": "0a9ac752",
     "mind-long-day-energy-sleep-p9": "3295225e",
-    "mind-long-day-energy-sleep-p10": "d2ec3848",
+    "mind-long-day-energy-sleep-p10": "23d78411",
     "mind-long-day-energy-sleep-p11": "f5e44883",
     "mind-long-day-energy-sleep-p2": "f0def611",
     "mind-long-day-energy-sleep-p3": "5ce01972",

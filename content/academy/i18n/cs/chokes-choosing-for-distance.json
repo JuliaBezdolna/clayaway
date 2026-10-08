@@ -1,25 +1,25 @@
 {
   "id": "chokes-choosing-for-distance",
   "lang": "cs",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "899ed9f0",
     "summary": "2433ecf5",
     "chokes-choosing-for-distance-p1": "18c7faa3",
     "chokes-choosing-for-distance-cmp1": "ed251d47",
-    "chokes-choosing-for-distance-p2": "0b25f4b2",
+    "chokes-choosing-for-distance-p2": "ab096462",
     "chokes-choosing-for-distance-p7": "bfeb8f32",
     "chokes-choosing-for-distance-p3": "8cd85c18",
     "chokes-choosing-for-distance-p4": "1bec6b23",
     "chokes-choosing-for-distance-p5": "c2793354",
     "chokes-choosing-for-distance-p6": "3a797ad0",
     "chokes-choosing-for-distance-kp1": "85a0aef4",
-    "chokes-choosing-for-distance-kp2": "7ef1ef53",
+    "chokes-choosing-for-distance-kp2": "e3ca528b",
     "chokes-choosing-for-distance-kp3": "316eb7bc",
     "chokes-choosing-for-distance-kp4": "a668cfcb",
     "chokes-choosing-for-distance-kp5": "42fc8973",
     "chokes-choosing-for-distance-dyk": "6d4e4236",
-    "chokes-choosing-for-distance-q1": "5f3c346d",
+    "chokes-choosing-for-distance-q1": "ba4efb0a",
     "chokes-choosing-for-distance-q2": "fa23b5d9",
     "chokes-choosing-for-distance-q3": "a8a0d8ea",
     "chokes-choosing-for-distance-q4": "ae2aa937"
@@ -36,7 +36,7 @@
       "compak": "Terče letí nad vyznačeným {{term:fly-over-zone|obdélníkem}} širokým 35–40 m a hlubokým 25 m před stanovišti."
     },
     "chokes-choosing-for-distance-p2": [
-      "Do přibližně 20 m: {{term:cylinder|cylinder}} nebo {{term:skeet-choke|skeet}}.",
+      "Do přibližně 20 m: {{term:cylinder|cylinder}} nebo velmi lehké zahrdlení (1/8).",
       "Přibližně 20–30 m: {{term:improved-cylinder|1/4}} (improved cylinder) nebo light modified.",
       "Přibližně 30–35 m: {{term:modified|půlčok}} (1/2, modified).",
       "Nad přibližně 35 m: {{term:improved-modified|3/4}} (improved modified), zřídka i {{term:full-choke|plné zahrdlení}}."
@@ -51,7 +51,7 @@
   "phrases": {},
   "key_points": {
     "chokes-choosing-for-distance-kp1": "Zahrdlení volte podle vzdálenosti, na kterou budete střílet.",
-    "chokes-choosing-for-distance-kp2": "Orientačně: do 20 m cylinder nebo skeet, 20–30 m IC nebo LM, 30–35 m M, nad 35 m IM.",
+    "chokes-choosing-for-distance-kp2": "Orientačně: do 20 m cylinder nebo 1/8, 20–30 m IC nebo LM, 30–35 m M, nad 35 m IM.",
     "chokes-choosing-for-distance-kp3": "Otevřenější zahrdlení na první výstřel, těsnější na druhý.",
     "chokes-choosing-for-distance-kp4": "Pár IC a M je oblíbená univerzální volba.",
     "chokes-choosing-for-distance-kp5": "Začátečníkům na blízkých a středních terčích obvykle lépe sedí otevřenější zahrdlení."
@@ -61,7 +61,7 @@
       "q": "Které zahrdlení orientačně sedí terči na přibližně 30–35 m?",
       "options": {
         "a": "Cylinder",
-        "b": "Skeet",
+        "b": "Improved cylinder (1/4)",
         "c": "Modified (1/2)",
         "d": "Extra full"
       },

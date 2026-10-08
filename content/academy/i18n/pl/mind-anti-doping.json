@@ -1,13 +1,13 @@
 {
   "id": "mind-anti-doping",
   "lang": "pl",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "15628df1",
+    "summary": "db8fb42a",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p2": "5031b8cc",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -27,7 +27,7 @@
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "21c3c7e9",
+    "mind-anti-doping-q1": "f7c71a6a",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -40,11 +40,11 @@
     "origin": "new"
   },
   "title": "Leki i antydoping: beta-blokery, TUE, suplementy",
-  "summary": "Lista WADA zakazuje beta-blokerów przez cały czas w strzelectwie olimpijskim i paraolimpijskim (ISSF, IPC); traktuj je jako zakazane także w {{tm:sporting}} i {{tm:compak}}. Jak sprawdzić lek, kiedy potrzebujesz TUE i co warto wiedzieć o suplementach, CBD i alkoholu.",
+  "summary": "Lista WADA zakazuje beta-blokerów przez cały czas w strzelectwie; traktuj je jako zakazane także w {{tm:sporting}} i {{tm:compak}}. Jak sprawdzić lek, kiedy potrzebujesz TUE i co warto wiedzieć o suplementach, CBD i alkoholu.",
   "body": {
     "health-alcohol-medication-weather-p3": "Na {{term:championship|mistrzostwach}} i dużych zawodach możesz być poddany kontroli antydopingowej. Międzynarodowe przepisy pochodzą od Światowej Agencji Antydopingowej (WADA), która każdego roku publikuje nową Listę Zakazanych Substancji i Metod.",
     "mind-anti-doping-beta": "{{term:beta-blocker|Beta-blokery}} to leki na serce, które zwalniają bicie serca i zmniejszają drżenie; przykłady to propranolol, atenolol, bisoprolol i metoprolol. Zwróć uwagę, że {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "Na liście „strzelectwo” znaczy olimpijską federację strzelectwa (ISSF) i strzelectwo paraolimpijskie (IPC); FITASC nie jest wymieniony. Traktuj beta-blokery jako zakazane też w {{tm:sporting}} i {{tm:compak}}. Twoja krajowa agencja {{term:anti-doping|antydopingowa}} może kontrolować na zawodach krajowych, organizatorzy mogą stosować listę WADA, a wielu strzelców startuje też w zawodach ISSF.",
+    "mind-anti-doping-p2": "Lista nie wymienia osobno {{tm:sporting}} ani {{tm:compak}}: traktuj beta-blokery jako zakazane także tam. Twoja krajowa agencja {{term:anti-doping|antydopingowa}} może kontrolować na zawodach krajowych, a organizatorzy mogą stosować listę WADA.",
     "mind-anti-doping-p3": "Są zakazane w sportach precyzyjnych, bo wolniejsze serce i mniejsze drżenie mogą ustabilizować broń.",
     "mind-anti-doping-warn": "Jeśli lekarz przepisał ci beta-bloker, na przykład na nadciśnienie, rytm serca, migrenę albo drżenie, nie przerywaj go samodzielnie. Rozmawiaj z lekarzem i federacją dobrze przed zawodami o dozwolonej alternatywie albo TUE.",
     "mind-anti-doping-p4": "{{term:therapeutic-use-exemption|TUE}} (Therapeutic Use Exemption, wyłączenie dla celów terapeutycznych) to urzędowe zezwolenie na użycie zakazanego leku z przyczyn medycznych. Sama recepta nie wystarczy: zakazana substancja zostaje zakazana, więc wnioskujesz z wyprzedzeniem, zwykle do swojej krajowej agencji antydopingowej (federacja powie ci, do której).",
@@ -75,7 +75,7 @@
       "q": "Według listy WADA, kiedy beta-blokery są zakazane w strzelectwie?",
       "options": {
         "a": "Tylko w dniach zawodów",
-        "b": "Tylko na igrzyskach olimpijskich i mistrzostwach świata",
+        "b": "Tylko na mistrzostwach świata i Europy",
         "c": "Przez cały czas, w trakcie zawodów i poza nimi"
       },
       "explain": "Listy na 2026 i 2027 rok oznaczają strzelectwo jako zakazane przez cały czas. Traktuj to jako przepis też w strzelectwie rzutkowym."

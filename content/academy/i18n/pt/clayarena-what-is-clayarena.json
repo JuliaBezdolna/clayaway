@@ -1,11 +1,11 @@
 {
   "id": "clayarena-what-is-clayarena",
   "lang": "pt",
-  "base_rev": 2,
+  "base_rev": 3,
   "h": {
     "title": "bc76e59e",
     "summary": "761d8c91",
-    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p1": "56e26387",
     "clayarena-what-is-clayarena-p2": "771824c6",
     "clayarena-what-is-clayarena-p3": "17d83580",
     "clayarena-what-is-clayarena-p4": "3d7784c7",
@@ -18,7 +18,7 @@
     "clayarena-what-is-clayarena-q1": "25b43879",
     "clayarena-what-is-clayarena-q2": "565010d9",
     "clayarena-what-is-clayarena-q4": "08498f4c",
-    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+    "clayarena-what-is-clayarena-q3": "db6bb2a0"
   },
   "review": {
     "by": null,
@@ -27,7 +27,7 @@
   },
   "title": "O que é a ClayArena",
   "body": {
-    "clayarena-what-is-clayarena-p1": "A ClayArena (clayarena.com) é um site sobre tiro aos pratos, centrado no {{tm:sporting}} e no {{tm:compak}}. Mostra quem atirou e como, onde são as próximas competições e onde se pode treinar. Também aparecem lá algumas outras disciplinas, como o fosso olímpico e o skeet.",
+    "clayarena-what-is-clayarena-p1": "A ClayArena (clayarena.com) é um site sobre tiro aos pratos: {{tm:sporting}} e {{tm:compak}}. Mostra quem atirou e como, onde são as próximas competições e onde se pode treinar.",
     "clayarena-what-is-clayarena-p2": "O núcleo da ClayArena são os resultados das competições. Cada competição tem uma tabela de resultados com os lugares e o número de pratos partidos. Em algumas provas os resultados são atualizados ainda durante o tiro. Os {{term:shooter-profile|perfis dos atiradores}} constroem-se a partir destes resultados.",
     "clayarena-what-is-clayarena-p3": "Um perfil de atirador é a página de uma pessoa: as suas competições e os números principais, como a {{term:accuracy|precisão}}. O que significam esses números explica-se em {{lesson:clayarena-profile-numbers}}.",
     "clayarena-what-is-clayarena-p4": "A ClayArena tem também um calendário de competições, vídeos de competições e {{term:season-recap|resumos de época}}. Há também catálogos de stands e de treinadores. Mais em {{lesson:clayarena-videos-recaps-calendar}} e {{lesson:clayarena-coaches-grounds-tours}}.",
@@ -71,13 +71,13 @@
       "explain": "O calendário lista as competições planeadas, em curso e terminadas, com datas e local."
     },
     "clayarena-what-is-clayarena-q3": {
-      "q": "Em que disciplinas está a ClayArena centrada?",
+      "q": "De que disciplinas trata a ClayArena?",
       "options": {
         "a": "Biatlo e tiro com arco",
         "b": "{{tm:sporting}} e {{tm:compak}}",
-        "c": "Só no fosso olímpico"
+        "c": "Tiro de carabina e pistola"
       },
-      "explain": "A ClayArena está centrada nestas duas disciplinas da FITASC; também aparecem lá algumas outras."
+      "explain": "A ClayArena trata destas duas disciplinas da FITASC."
     }
   },
   "summary": "A ClayArena é um site de tiro aos pratos centrado no {{tm:sporting}} e no {{tm:compak}}: resultados de competições, perfis de atiradores, calendário, vídeos, resumos de época, stands e treinadores."

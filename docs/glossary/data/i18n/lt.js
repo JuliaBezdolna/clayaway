@@ -294,15 +294,6 @@ window.GLOSSARY_I18N.lt = {
    "short": "Vamzdis ar čokas be susiaurinimo; duoda plačiausią šratų spiečių.",
    "long": "Cilindras reiškia nulinį susiaurinimą: vamzdžio kanalas prie žiočių toks pat kaip ir vamzdyje. Šratų debesis pasklinda greičiausiai, todėl spiečius arti platus, o toliau išretėja. Jis renkamasis labai artimiems taikiniams, pavyzdžiui, kai kuriems triušiams ar netoli šaulio iššokantiems taikiniams. Beretta čokuose jis žymimas penkiomis žvaigždutėmis. Daugumai taikinių Sporting™ ir Compak® Sporting šauliai renkasi šiek tiek siauresnius čokus."
   },
-  "skeet-choke": {
-   "term_local": "skeet čokas",
-   "alt": [
-    "skeet"
-   ],
-   "conf": "low",
-   "short": "Labai silpnas susiaurinimas, apie 0,1–0,15 mm (4–6 thou), artimiausiems taikiniams.",
-   "long": "Skeet čokas pavadintas pagal rungtį, kurioje taikiniai skrenda labai arti. Jis tik šiek tiek siauresnis už cilindrą: apie 0,1–0,15 mm susiaurinimo (4–6 thou), Europoje kartais vadinamas 1/8. Spiečius arti platus ir atleidžia mažas klaidas. Sporting™ ir Compak® Sporting jis naudojamas artimiems taikiniams, triušiams ir netoliese iššokantiems taikiniams. Tikslios vertės priklauso nuo gamintojo."
-  },
   "improved-cylinder": {
    "term_local": "ketvirtis skleistuvo (1/4)",
    "alt": [
@@ -609,7 +600,6 @@ window.GLOSSARY_I18N.lt = {
     "midi taikinys"
    ],
    "conf": "medium",
-   "src": "https://gunstalk.lt/stendinis-saudymas-trap-skeet-compak-sporting/",
    "short": "Už standartinį mažesnis taikinys, 90 mm skersmens.",
    "long": "Midi – specialusis taikinys, leidžiamas abiejose disciplinose. Sportinge taikinių apraše priešais šaudymo vietą jis turi būti nurodytas kaip 90 mm taikinys, kad šaulys žinotų, kas jo laukia. Iš mašinėlės išskridęs ne to dydžio taikinys yra No Bird."
   },
@@ -698,7 +688,7 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "bokštas",
    "conf": "low",
    "short": "Pakelta mašinėlės vieta už Compak šaudymo vietų, bent 4 m aukščiau už jas.",
-   "long": "Compak mašinėles galima statyti laisvai, jei joks taikinys, net ir No Bird, negali niekam kelti pavojaus. Už šaudymo vietų pastatyta mašinėlė turi būti bent 4 m aukščiau už šaudymo vietas. Privaloma tolstanti trajektorija per kraštinę BC gali būti iš tokio bokšto arba iš mašinėlės griovyje ar ant žemės priešais šaudymo vietas.",
+   "long": "Compak mašinėles galima statyti laisvai, jei joks taikinys, net ir No Bird, negali niekam kelti pavojaus. Už šaudymo vietų pastatyta mašinėlė turi būti bent 4 m aukščiau už šaudymo vietas. Privaloma tolstanti trajektorija per kraštinę BC gali būti iš tokio bokšto arba iš mašinėlės, įleistos į žemę ar pastatytos ant žemės priešais šaudymo vietas.",
    "disciplines": {
     "compak": "4 m taisyklė yra Compak taisyklėse (2.4)."
    }
@@ -1445,7 +1435,7 @@ window.GLOSSARY_I18N.lt = {
    "conf": "high",
    "src": "https://www.sporting.lt/2026/06/25/lietuvos-sportingo-cempionato-rezultatai/",
    "short": "Atskira amžiaus ir lyties įskaita šalia bendrosios įskaitos; nuo 2027 m. FITASC taiko Junior, Lady, Men, Senior, Veteran ir Master.",
-   "long": "Nuo 2027 m. sausio 1 d. FITASC nustato šešias kategorijas Compak® Sporting, Parcours de Chasse – Sporting™ ir kitoms savo disciplinoms: Junior (13–20), Lady (nuo 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) ir Master (nuo 73, vyrai arba moterys). Amžius skaičiuojamas pagal gimimo metus: nauja kategorija taikoma nuo sausio 1 d. tų metų, kuriais šaulys sulaukia amžiaus, nepriklausomai nuo gimtadienio. Senior yra ne pagrindinė suaugusiųjų kategorija, o 56–65 metų amžiaus grupė; pagrindinė suaugusiųjų kategorija – Men. Kategorijų komandose – po 3 šaulius (sportingo Men komandoje – 4), o į kitos kategorijos komandą atrinktas šaulys turi toje kategorijoje registruotis ir individualiai. Compak lygybė dėl pirmų trijų vietų kiekvienoje kategorijoje sprendžiama atkrintamosiomis varžybomis; kai bendrosios įskaitos atkrintamosiose varžybose dalyvaujantys šauliai priklauso tai pačiai kategorijai, rezultatas galioja ir tai kategorijai. Nacionalinės ir klubų varžybos gali taikyti savo kategorijas, kaip nurodyta programoje.",
+   "long": "Nuo 2027 m. sausio 1 d. FITASC nustato šešias kategorijas Compak® Sporting ir Parcours de Chasse – Sporting™: Junior (13–20), Lady (nuo 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) ir Master (nuo 73, vyrai arba moterys). Amžius skaičiuojamas pagal gimimo metus: nauja kategorija taikoma nuo sausio 1 d. tų metų, kuriais šaulys sulaukia amžiaus, nepriklausomai nuo gimtadienio. Senior yra ne pagrindinė suaugusiųjų kategorija, o 56–65 metų amžiaus grupė; pagrindinė suaugusiųjų kategorija – Men. Kategorijų komandose – po 3 šaulius (sportingo Men komandoje – 4), o į kitos kategorijos komandą atrinktas šaulys turi toje kategorijoje registruotis ir individualiai. Compak lygybė dėl pirmų trijų vietų kiekvienoje kategorijoje sprendžiama atkrintamosiomis varžybomis; kai bendrosios įskaitos atkrintamosiose varžybose dalyvaujantys šauliai priklauso tai pačiai kategorijai, rezultatas galioja ir tai kategorijai. Nacionalinės ir klubų varžybos gali taikyti savo kategorijas, kaip nurodyta programoje.",
    "disciplines": {
     "sporting": "Men komandoje 4 šauliai; kitų kategorijų komandose po 3.",
     "compak": "Kiekvienoje kategorijoje atskiros atkrintamosios dėl prizinių vietų."
@@ -2102,24 +2092,6 @@ window.GLOSSARY_I18N.lt = {
    "short": "ClayArena sezono santrauka: svarbiausios metų varžybos, nugalėtojai ir pasirodymai.",
    "long": "ClayArena sezono apžvalgos surenka metų akcentus Sporting™ ir Compak® Sporting rungtyse: svarbiausias varžybas, nugalėtojus ir išsiskiriančius pasirodymus. Pradedančiajam tai lengvas būdas sužinoti, kas yra geros formos ir kurios varžybos buvo svarbiausios. Kartu su varžybų vaizdo įrašais ir kalendoriumi jos padeda greitai susigaudyti šaudymo į lėkšteles pasaulyje. Po savo varžybų verta pažiūrėti: gal ten bus ir jūsų pasirodymas."
   },
-  "olympic-trap": {
-   "term_local": "tranšėjinis stendas (Olympic Trap)",
-   "alt": [
-    "trap"
-   ],
-   "conf": "low",
-   "short": "Olimpinė disciplina: taikiniai skrenda tolyn nuo šaulio iš tranšėjos įvairiais kampais, į kiekvieną galima šauti du kartus.",
-   "long": "Tranšėjiniame stende mašinėlės paslėptos tranšėjoje priešais penkių šaudymo vietų liniją, o taikiniai dideliu greičiu tolsta nuo šaulio įvairiais kampais ir aukščiais. Į kiekvieną taikinį galima šauti du kartus. Šaulys iškviečia taikinį jau atrėmęs šautuvą, o taikinys paleidžiamas iškvietus. Rungtį valdo ISSF, o ne FITASC, ir ji įtraukta į olimpinę programą. Sporting™ ir Compak® Sporting šauliams trap yra naudinga greitos reakcijos į tolstančius taikinius treniruotė."
-  },
-  "skeet": {
-   "term_local": "apskritasis stendas (skeet)",
-   "alt": [
-    "skeet"
-   ],
-   "conf": "low",
-   "short": "Disciplina su dviem bokšteliais (aukštu ir žemu), kurių taikiniai kerta aikštę; šaudymo vietos išdėstytos puslankiu.",
-   "long": "Apskritajame stende (skeet) du mašinėlių nameliai stovi pusapskritimio galuose: aukštas namelis vienoje pusėje ir žemas – kitoje. Taikiniai skrenda vienas priešais kitą fiksuotomis trajektorijomis, o šaulys eina tarp pusapskritimio šaudymo vietų ir šaudo pavienius taikinius ir dubletus. Olimpinį skeet valdo ISSF; yra ir nacionalinių atmainų, tokių kaip English Skeet, su šiek tiek kitokiomis taisyklėmis. Skeet trajektorijos fiksuotos, todėl rungtis tinka technikai lavinti į kertančius taikinius. Nuo jos pavadinimą gavo lengvas skeet čokas."
-  },
   "guardian-consent": {
    "term_local": "tėvų ar globėjų sutikimas",
    "conf": "low",
@@ -2493,7 +2465,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "high",
    "short": "Širdies vaistas, kuris lėtina širdies ritmą ir mažina drebulį; pagal WADA sąrašą šaudyme jis draudžiamas visada – ir varžybų metu, ir ne varžybų metu.",
-   "long": "Pavyzdžiai: propranololis, atenololis, bisoprololis ir metoprololis. Taiklumo sporto šakose jie draudžiami, nes lėtesnis širdies ritmas ir mažesnis drebulys gali nuraminti šautuvą. WADA sąraše šaudymas įvardytas per olimpinę federaciją (ISSF) ir parašaudymą (IPC), o ne per FITASC; vis dėlto beta adrenoblokatorius laikykite draudžiamais ir Sporting™ bei Compak® Sporting rungtyse: nacionalinės antidopingo agentūros gali tikrinti nacionalinėse varžybose, organizatoriai gali taikyti WADA sąrašą, o daug šaulių varžosi ir ISSF rungtyse. Jei gydytojas jums paskyrė beta adrenoblokatorių, nenustokite jo vartoti savavališkai; iš anksto paklauskite apie leidžiamą alternatyvą arba TUE. Tai nėra medicininė konsultacija."
+   "long": "Pavyzdžiai: propranololis, atenololis, bisoprololis ir metoprololis. Taiklumo sporto šakose jie draudžiami, nes lėtesnis širdies ritmas ir mažesnis drebulys gali nuraminti šautuvą. WADA sąraše Sporting™ ir Compak® Sporting rungtys atskirai neįvardytos; vis dėlto beta adrenoblokatorius laikykite draudžiamais ir jose: nacionalinės antidopingo agentūros gali tikrinti nacionalinėse varžybose, o organizatoriai gali taikyti WADA sąrašą. Jei gydytojas jums paskyrė beta adrenoblokatorių, nenustokite jo vartoti savavališkai; iš anksto paklauskite apie leidžiamą alternatyvą arba TUE. Tai nėra medicininė konsultacija."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2516,8 +2488,8 @@ window.GLOSSARY_I18N.lt = {
     "ramioji akis"
    ],
    "conf": "medium",
-   "short": "Paskutinis ramus žvilgsnis į taikinį prieš judesį; patyrusių šaulių jis paprastai prasideda anksčiau ir trunka ilgiau.",
-   "long": "Tyrėjai quiet eye matuoja kaip paskutinį ramų žvilgsnį prieš judesio pradžią. Palyginti su mažiau patyrusiais šauliais, elitiniai trapo ir skito šauliai jį pradeda anksčiau ir išlaiko ilgiau, o pataikius jis paprastai būna ilgesnis nei nepataikius. Esant nerimui jis dažnai sutrumpėja. Jokio stebuklingo milisekundžių skaičiaus nėra: šaudant į skraidančius taikinius tai reiškia anksti ir aiškiai pamatyti taikinį ir laikyti akis į jį nukreiptas per visą šūvį. Dauguma duomenų gauti olimpiniame trape ir skite; tikėtina, kad tai tinka ir Sporting™ bei Compak® Sporting."
+   "short": "Paskutinis ramus žvilgsnis į taikinį prieš judesį; patyrusių sportininkų jis paprastai prasideda anksčiau ir trunka ilgiau.",
+   "long": "Tyrėjai quiet eye matuoja kaip paskutinį ramų žvilgsnį prieš judesio pradžią. Daugelio sporto šakų tyrimuose labiau patyrę sportininkai jį paprastai pradeda anksčiau ir išlaiko ilgiau, o sėkmingų bandymų metu jis paprastai būna ilgesnis nei nesėkmingų. Esant nerimui jis dažnai sutrumpėja. Jokio stebuklingo milisekundžių skaičiaus nėra: šaudant į skraidančius taikinius tai reiškia anksti ir aiškiai pamatyti taikinį ir laikyti akis į jį nukreiptas per visą šūvį. Pačiose Sporting™ ir Compak® Sporting rungtyse to netyrė; tikėtina, kad ten tai veikia taip pat."
   },
   "self-talk": {
    "term_local": "vidinis kalbėjimas",
@@ -2555,7 +2527,7 @@ window.GLOSSARY_I18N.lt = {
    ],
    "conf": "medium",
    "short": "Šaudymas gerokai prasčiau nei įprastai dėl spaudimo, dažnai kai pradedate sąmoningai valdyti įgūdį, kuris paprastai veikia savaime.",
-   "long": "Nepainiokite su vamzdžio čoku. Esant spaudimui šaulys gali pradėti žingsnis po žingsnio tikrinti šautuvo atrėmimą ar vedimą, o nerimas atitraukia akis nuo taikinio. Požymiai: pasikeitęs tempas, atrėmimo tikrinimas, žvilgsnis į vamzdį ar mušį, rezultatų sekimas. Kas gali padėti: įprastas pasiruošimo šūviui ritualas ir tempas, vienas paprastas raktinis žodis apie taikinį, proceso tikslai ir treniruotės, kai spaudimas didėja palaipsniui. Dauguma tyrimų atlikti kitose sporto šakose ir olimpiniame trape bei skite; tikėtina, kad tai tinka ir Sporting™ bei Compak® Sporting. Jei spaudimas vis gadina jūsų varžybas, gali padėti sporto psichologas."
+   "long": "Nepainiokite su vamzdžio čoku. Esant spaudimui šaulys gali pradėti žingsnis po žingsnio tikrinti šautuvo atrėmimą ar vedimą, o nerimas atitraukia akis nuo taikinio. Požymiai: pasikeitęs tempas, atrėmimo tikrinimas, žvilgsnis į vamzdį ar mušį, rezultatų sekimas. Kas gali padėti: įprastas pasiruošimo šūviui ritualas ir tempas, vienas paprastas raktinis žodis apie taikinį, proceso tikslai ir treniruotės, kai spaudimas didėja palaipsniui. Dauguma tyrimų atlikti laboratorijoje ir kitose sporto šakose, o ne Sporting™ ar Compak® Sporting rungtyse; tikėtina, kad ten tai veikia taip pat. Jei spaudimas vis gadina jūsų varžybas, gali padėti sporto psichologas."
   },
   "reset-routine": {
    "term_local": "persikrovimo ritualas",
@@ -2666,14 +2638,6 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "stiklinis rutulys",
    "conf": "medium",
    "short": "Stiklinis rutulys, XIX a. metamas į orą kaip taikinys, ankstyva gyvų paukščių alternatyva; vėliau jį pakeitė molinis taikinys."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Tarptautinė sportinio šaudymo federacija"
-   ],
-   "conf": "high",
-   "short": "International Shooting Sport Federation, valdanti olimpines šaudymo rungtis, tarp jų olimpinį trapą ir skitą; Sporting™ ir Compak® Sporting priklauso FITASC."
   },
   "hydration": {
    "term_local": "skysčių vartojimas",

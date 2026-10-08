@@ -1,25 +1,23 @@
 {
   "id": "intro-disciplines",
   "lang": "cs",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
-    "title": "dac19506",
-    "summary": "58295a84",
+    "title": "41ef701c",
+    "summary": "90e09529",
     "intro-disciplines-p1": "79e1fd27",
     "intro-disciplines-p2": "bad18039",
     "intro-disciplines-cmp": "1ddbb76f",
     "intro-disciplines-p3": "f274bc4d",
-    "intro-disciplines-p4": "072bf2ee",
-    "intro-disciplines-p5": "c1fef81a",
-    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-p6": "f3c62c58",
     "intro-disciplines-kp1": "b3f7bab6",
     "intro-disciplines-kp2": "634ce41c",
     "intro-disciplines-kp3": "fec76055",
-    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-kp4": "56e7d318",
     "intro-disciplines-dyk": "0aa60887",
     "intro-disciplines-q1": "f150b65a",
-    "intro-disciplines-q2": "40032e9f",
-    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q2": "7316a331",
+    "intro-disciplines-q-course": "30e84199",
     "intro-disciplines-q-second-shot": "ecd0ab34"
   },
   "review": {
@@ -35,9 +33,7 @@
       "compak": "Zůstáváte na jednom poli a po každém svém kole se posunete o jedno stanoviště doprava. Dvojstřel je {{term:double-on-report|na hlášenou}}, kdy váš první výstřel uvolní druhý terč, nebo {{term:simultaneous-double|současný}}, kdy letí oba najednou."
     },
     "intro-disciplines-p3": "Mezinárodní závody v obou disciplínách bývají obvykle {{fact:basics.international-targets}}. V obou můžete na {{term:single-target|jednotlivý terč}} vystřelit dvakrát: pokud první rána mine, druhá ho ještě může rozbít.",
-    "intro-disciplines-p4": "Trap je jiná skupina disciplín. Střelec stojí na jednom z pěti stanovišť v řadě a terče vylétají z příkopu (zahloubené jámy před stanovišti) pod měnícími se úhly. Střelec přesně neví, kam příští terč poletí. V {{term:olympic-trap|olympijském trapu}} (Olympic Trap) lze na každý terč vystřelit dvakrát.",
-    "intro-disciplines-p5": "Ve {{term:skeet|skeetu}} (Skeet) terče vylétají ze dvou budek (malých staveb s vrhačkami) umístěných proti sobě – vysoké a nízké. Střelec přechází mezi stanovišti na půlkruhu mezi budkami, plus jedno uprostřed. Dráhy letu se nemění, takže hodně záleží na přesné, dobře nacvičené technice.",
-    "intro-disciplines-p6": "Olympijský trap a skeet jsou na programu olympijských her a patří jiné mezinárodní federaci – ISSF. Ale i {{term:fitasc|FITASC}} má vlastní disciplíny typu trapu a skeetu, například Universal Trench a Universal Skeet. Akademie ClayArena se věnuje hlavně {{tm:sporting}} a {{tm:compak}}. Základy jsou společné pro všechny disciplíny: bezpečnost, {{term:gun-mount|zalícení}} (pohyb, kterým se zbraň přiloží k líci a rameni) a schopnost „přečíst“ terč."
+    "intro-disciplines-p6": "Obě disciplíny patří pod {{term:fitasc|FITASC}}, mezinárodní federaci, která pro ně píše pravidla. Základy mají společné: bezpečnost, {{term:gun-mount|zalícení}} (pohyb, kterým se zbraň přiloží k líci a rameni) a schopnost „přečíst“ terč."
   },
   "note": {},
   "phrases": {},
@@ -45,7 +41,7 @@
     "intro-disciplines-kp1": "{{tm:sporting}}: trať v přírodním terénu; každé střeliště dává {{fact:rules.round-targets}}.",
     "intro-disciplines-kp2": "{{tm:compak}}: jedno pole, na kterém je {{fact:basics.compak-field}}.",
     "intro-disciplines-kp3": "Mezinárodní závod bývá obvykle {{fact:basics.international-targets}}; na jednotlivý terč lze vystřelit dvakrát.",
-    "intro-disciplines-kp4": "V trapu terče letí od střelce; ve skeetu přelétají mezi dvěma budkami."
+    "intro-disciplines-kp4": "Obě disciplíny se řídí pravidly FITASC a mají společné základy: bezpečnost, zalícení a čtení terče."
   },
   "quiz": {
     "intro-disciplines-q1": {
@@ -61,19 +57,19 @@
       "q": "Kolik vrhaček je na jednom poli Compak?",
       "options": {
         "a": "Šest, označených písmeny A až F",
-        "b": "Dvě: vysoká a nízká",
-        "c": "Patnáct, v příkopu"
+        "b": "Čtyři, označené písmeny A až D",
+        "c": "Deset, dvě u každého stanoviště"
       },
       "explain": "Pole {{tm:compak}} má {{fact:basics.compak-field}}."
     },
-    "intro-disciplines-q3": {
-      "q": "Ve které disciplíně vylétají terče ze dvou budek – vysoké a nízké?",
+    "intro-disciplines-q-course": {
+      "q": "Ve které disciplíně procházíte trať od stanoviště ke stanovišti?",
       "options": {
-        "a": "Trap",
-        "b": "{{tm:sporting}}",
-        "c": "Skeet"
+        "a": "{{tm:compak}}",
+        "b": "V obou stejně",
+        "c": "{{tm:sporting}}"
       },
-      "explain": "Právě ve skeetu jsou vysoká a nízká budka a stanoviště stojí na půlkruhu mezi nimi."
+      "explain": "Ve {{tm:sporting}} přecházíte od stanoviště ke stanovišti v přírodním terénu; v {{tm:compak}} zůstáváte na jednom poli a posouváte se o jedno stanoviště doprava."
     },
     "intro-disciplines-q-second-shot": {
       "q": "Prvním výstřelem jste minuli jednotlivý terč. Co dovolují pravidla?",
@@ -85,7 +81,7 @@
       "explain": "V {{tm:sporting}} i {{tm:compak}} musí jednotlivý terč umožnit dva výstřely, takže po minutí prvním může následovat druhý."
     }
   },
-  "title": "Hlavní disciplíny",
-  "summary": "Stručný průvodce {{tm:sporting}} a {{tm:compak}}, i disciplínami Trap a Skeet: co mají společné a čím se liší.",
+  "title": "Dvě disciplíny",
+  "summary": "Stručný průvodce disciplínami {{tm:sporting}} a {{tm:compak}}: co mají společné a čím se liší.",
   "did_you_know": "Disciplína {{tm:compak}} {{fact:community.compak-created}}."
 }

@@ -127,5 +127,5 @@ def build(per_lang, terms, langs):
             o = D / l / x["id"]; o.mkdir(parents=True, exist_ok=True)
             (o / "index.html").write_text(head(l, f'{x["title"]} — {app}', desc, url, alts_of(lambda z: lesson_url(z, x["id"])), ld, 3) + body, encoding="utf-8")
             urls.append(url)
-    (D / "data" / "urls.json").write_text(json.dumps(urls, indent=0), encoding="utf-8")  # read by build_seo.mjs for the sitemap
+    (ROOT / "archive" / "legacy-docs" / "interpreter" / "data" / "urls.json").write_text(json.dumps(urls, indent=0), encoding="utf-8")  # read by build_seo.mjs for the sitemap
     return urls

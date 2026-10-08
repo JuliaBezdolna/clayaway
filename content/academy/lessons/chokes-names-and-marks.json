@@ -1,6 +1,6 @@
 {
   "id": "chokes-names-and-marks",
-  "rev": 1,
+  "rev": 2,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -34,7 +34,6 @@
     "choke",
     "constriction",
     "cylinder",
-    "skeet-choke",
     "improved-cylinder",
     "light-modified",
     "modified",
@@ -80,8 +79,8 @@
       "k": "gear-chokes-p3",
       "t": "p",
       "core": true,
-      "en": "Names come from English, from open to tight: cylinder, skeet, improved cylinder, light modified, modified, improved modified, full. Europeans often say them as fractions: quarter (improved cylinder), half (modified), three-quarter (improved modified) and full. Many Italian guns mark chokes with stars, and there the rule is upside down: more stars means a more open choke.",
-      "uk": "Назви прийшли з англійської, від відкритого до найщільнішого: cylinder ({{term:cylinder|циліндр}}), skeet, improved cylinder, light modified, modified, improved modified, full. Європейці часто кажуть частками: quarter — «чверть» ({{term:improved-cylinder|improved cylinder}}), half — «пів», «півчок» ({{term:modified|modified}}), three-quarter — «три чверті» ({{term:improved-modified|improved modified}}) і full — «повний» ({{term:full-choke|full}}). На багатьох італійських рушницях чоки позначають {{term:star-marks|зірочками}}, і там логіка навпаки: більше зірочок — відкритіший чок."
+      "en": "Names come from English, from open to tight: cylinder, improved cylinder, light modified, modified, improved modified, full. Europeans often say them as fractions: quarter (improved cylinder), half (modified), three-quarter (improved modified) and full. Many Italian guns mark chokes with stars, and there the rule is upside down: more stars means a more open choke.",
+      "uk": "Назви прийшли з англійської, від відкритого до найщільнішого: cylinder ({{term:cylinder|циліндр}}), improved cylinder, light modified, modified, improved modified, full. Європейці часто кажуть частками: quarter — «чверть» ({{term:improved-cylinder|improved cylinder}}), half — «пів», «півчок» ({{term:modified|modified}}), three-quarter — «три чверті» ({{term:improved-modified|improved modified}}) і full — «повний» ({{term:full-choke|full}}). На багатьох італійських рушницях чоки позначають {{term:star-marks|зірочками}}, і там логіка навпаки: більше зірочок — відкритіший чок."
     },
     {
       "k": "chokes-names-and-marks-p1",
@@ -94,7 +93,7 @@
       "t": "steps",
       "en": [
         "Cylinder: no constriction, 0 mm.",
-        "Skeet: a very light constriction, about 0.1–0.15 mm (4–6 thou); in Europe sometimes called 1/8.",
+        "1/8: a very light constriction, about 0.1–0.15 mm (4–6 thou), between cylinder and improved cylinder; makers name it differently.",
         "Improved cylinder (IC): about 0.25 mm (around 10 thou), in Europe 1/4, a quarter choke.",
         "Light modified (LM): about 0.35–0.4 mm (around 15 thou), sometimes marked 3/8.",
         "Modified (M): about 0.5 mm (around 20 thou), 1/2, a half choke.",
@@ -103,7 +102,7 @@
       ],
       "uk": [
         "Cylinder (циліндр): без звуження, 0 мм.",
-        "Skeet: дуже легке звуження, приблизно 0,1–0,15 мм (4–6 thou); у Європі його іноді звуть 1/8.",
+        "1/8: дуже легке звуження, приблизно 0,1–0,15 мм (4–6 thou), між cylinder і improved cylinder; виробники називають його по-різному.",
         "Improved cylinder (IC): приблизно 0,25 мм (близько 10 thou), у Європі — 1/4, «чверть».",
         "Light modified (LM): приблизно 0,35–0,4 мм (близько 15 thou), іноді позначають 3/8.",
         "Modified (M): приблизно 0,5 мм (близько 20 thou), 1/2, «пів», «півчок».",
@@ -120,8 +119,8 @@
     {
       "k": "chokes-names-and-marks-p6",
       "t": "p",
-      "en": "Italian makers, Beretta for example, use {{term:star-marks|star marks}}: five stars for cylinder, four for improved cylinder (1/4), three for modified (1/2), two for improved modified (3/4) and one for full. Skeet chokes carry no stars. Other makers cut notches on the rim of the tube, use coloured bands or print the name (IC, M, LM).",
-      "uk": "Італійські виробники, наприклад Beretta, ставлять {{term:star-marks|зірочки}}: п’ять — cylinder, чотири — improved cylinder (1/4), три — modified (1/2), дві — improved modified (3/4), одна — full. Чоки skeet зірочок не мають. Інші виробники вирізають насічки на краю трубки, наносять кольорові смужки або пишуть назву (IC, M, LM)."
+      "en": "Italian makers, Beretta for example, use {{term:star-marks|star marks}}: five stars for cylinder, four for improved cylinder (1/4), three for modified (1/2), two for improved modified (3/4) and one for full. Other makers cut notches on the rim of the tube, use coloured bands or print the name (IC, M, LM).",
+      "uk": "Італійські виробники, наприклад Beretta, ставлять {{term:star-marks|зірочки}}: п’ять — cylinder, чотири — improved cylinder (1/4), три — modified (1/2), дві — improved modified (3/4), одна — full. Інші виробники вирізають насічки на краю трубки, наносять кольорові смужки або пишуть назву (IC, M, LM)."
     },
     {
       "k": "chokes-names-and-marks-p7",
@@ -135,8 +134,8 @@
   "key_points": [
     {
       "k": "chokes-names-and-marks-kp1",
-      "en": "Cylinder 0 · Skeet ~0.1–0.15 mm · IC ~0.25 mm (1/4) · LM ~0.35–0.4 mm",
-      "uk": "Cylinder 0 · Skeet ~0,1–0,15 мм · IC ~0,25 мм (1/4) · LM ~0,35–0,4 мм"
+      "en": "Cylinder 0 · 1/8 ~0.1–0.15 mm · IC ~0.25 mm (1/4) · LM ~0.35–0.4 mm",
+      "uk": "Cylinder 0 · 1/8 ~0,1–0,15 мм · IC ~0,25 мм (1/4) · LM ~0,35–0,4 мм"
     },
     {
       "k": "chokes-names-and-marks-kp2",
@@ -258,8 +257,8 @@
         },
         {
           "k": "d",
-          "en": "Skeet",
-          "uk": "Skeet"
+          "en": "Cylinder",
+          "uk": "Cylinder"
         }
       ],
       "correct": "a",
@@ -343,13 +342,13 @@
   "h_uk": {
     "title": "e7b2ef05",
     "summary": "22d688ff",
-    "gear-chokes-p3": "dc515f35",
+    "gear-chokes-p3": "4abeb666",
     "chokes-names-and-marks-p1": "81bdc547",
-    "chokes-names-and-marks-p2": "ef07b37b",
+    "chokes-names-and-marks-p2": "ee920fef",
     "chokes-names-and-marks-p5": "b6f30907",
-    "chokes-names-and-marks-p6": "1b8fdee5",
+    "chokes-names-and-marks-p6": "45f53a59",
     "chokes-names-and-marks-p7": "c0e23a16",
-    "chokes-names-and-marks-kp1": "5c513a88",
+    "chokes-names-and-marks-kp1": "bd2bbbd7",
     "chokes-names-and-marks-kp2": "76965b4c",
     "gear-chokes-kp3": "93bc009b",
     "chokes-names-and-marks-kp4": "8755ddeb",
@@ -357,7 +356,7 @@
     "chokes-names-and-marks-dyk": "7ad51e91",
     "chokes-names-and-marks-q1": "c8c32e0e",
     "chokes-names-and-marks-q2": "daf50685",
-    "chokes-names-and-marks-q4": "4f31ea8b",
+    "chokes-names-and-marks-q4": "8aac2eff",
     "chokes-names-and-marks-q3": "9a68ecf3",
     "gear-chokes-q3": "ded3001e"
   },

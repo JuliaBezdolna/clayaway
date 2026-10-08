@@ -272,6 +272,8 @@
     return `<svg class="ac-ring" viewBox="0 0 40 40" role="img" aria-label="${d} / ${n}"><circle cx="20" cy="20" r="16" class="bg"/><circle cx="20" cy="20" r="16" class="fg" stroke-dasharray="${(pct * C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 20 20)"/><text x="20" y="24" text-anchor="middle">${d}</text></svg>`; };
   const bar = (d, n, label) => `<span class="ac-pbar" role="progressbar" aria-label="${esc(label || "")}" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${d}"><i style="width:${n ? Math.round(d / n * 100) : 0}%"></i></span>`;
   const discChips = ds => (ds || []).map(d => `<span class="ac-chip ac-disc-${d}">${discName(d)}</span>`).join("");
+  // The lesson page reads it once per view (VIEW.upd): finishing the quiz must not remove the chip under the reader's eyes (the header
+  // got shorter and the page jumped, quiz test 10.2026); it is gone the next time the lesson is opened.
   const updated = id => { const d = S.done[id], c = L(id); return !!(d && c && (d.rev || 0) < (c.rev || 0)); };
   /* "▶ з анімацією" on a lesson card (topic and route lists, search): the catalog marks lessons that open with an animation (anim). */
   const animMark = c => c && c.anim ? `<span class="ac-animark">▶ ${t("anim_marker")}</span>` : "";
@@ -491,7 +493,7 @@
       <p class="ac-meta">⏱ ${c.minutes || 4} ${t("min")} · ${c.level === 1 ? "★ " + t("start_here") : t("go_deeper")} ${discChips(c.disciplines)}
         ${hero ? `<a class="ac-chip ac-animark" href="#anim-${esc(hero.k)}">▶ ${t("anim_marker")}</a>` : ""}
         ${D.review_flag === "pending" || c.review_flag === "pending" ? `<span class="ac-chip ac-review">${t("review_pending")}</span>` : ""}
-        ${updated(id) ? `<span class="ac-chip ac-upd" title="${t("lesson_updated_d")}">● ${t("lesson_updated")}</span>` : ""}
+        ${(VIEW.upd === undefined ? (VIEW.upd = updated(id)) : VIEW.upd) ? `<span class="ac-chip ac-upd" title="${t("lesson_updated_d")}">● ${t("lesson_updated")}</span>` : ""}
         ${done(id) ? `<span class="ac-chip is-on">✓ ${t("lesson_done")}</span>` : ""}</p>
       ${D.summary ? `<p class="ac-lead">${esc(D.summary)}</p>` : ""}</header>
     ${c.status === "preview" ? `<p class="ac-note">🛠 ${t("clayaway_preview")}</p>` : ""}

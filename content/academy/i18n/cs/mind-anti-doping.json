@@ -1,13 +1,13 @@
 {
   "id": "mind-anti-doping",
   "lang": "cs",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "15628df1",
+    "summary": "db8fb42a",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p2": "5031b8cc",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -27,7 +27,7 @@
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "21c3c7e9",
+    "mind-anti-doping-q1": "f7c71a6a",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -40,11 +40,11 @@
     "origin": null
   },
   "title": "Léky a antidoping: betablokátory, TUE, doplňky",
-  "summary": "Seznam WADA zakazuje betablokátory kdykoli v olympijské a paralympijské střelbě (ISSF, IPC); berte je jako zakázané i v {{tm:sporting}} a {{tm:compak}}. Jak si ověřit lék, kdy potřebujete TUE a co vědět o doplňcích, CBD a alkoholu.",
+  "summary": "Seznam WADA zakazuje betablokátory kdykoli ve střelbě; berte je jako zakázané i v {{tm:sporting}} a {{tm:compak}}. Jak si ověřit lék, kdy potřebujete TUE a co vědět o doplňcích, CBD a alkoholu.",
   "body": {
     "health-alcohol-medication-weather-p3": "Na {{term:championship|mistrovstvích}} a velkých závodech můžete být testováni na doping. Mezinárodní pravidla stanovuje Světová antidopingová agentura (WADA), která každoročně zveřejňuje nový Zakázaný seznam.",
     "mind-anti-doping-beta": "{{term:beta-blocker|Betablokátory}} jsou srdeční léky, které zpomalují tep a snižují třes; příklady jsou propranolol, atenolol, bisoprolol a metoprolol. Důležité: {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "V seznamu znamená „střelba“ olympijskou federaci střelby (ISSF) a para střelbu (IPC); FITASC tam uvedena není. Betablokátory ale berte jako zakázané i ve {{tm:sporting}} a {{tm:compak}}. Vaše národní {{term:anti-doping|antidopingová}} agentura může testovat na národních závodech, pořadatelé mohou používat seznam WADA a mnozí střelci startují i na závodech ISSF.",
+    "mind-anti-doping-p2": "{{tm:sporting}} ani {{tm:compak}} seznam zvlášť neuvádí: betablokátory berte jako zakázané i tam. Vaše národní {{term:anti-doping|antidopingová}} agentura může testovat na národních závodech a pořadatelé mohou používat seznam WADA.",
     "mind-anti-doping-p3": "V přesnostních sportech jsou zakázané, protože pomalejší srdce a méně třesu mohou zbraň udělat stabilnější.",
     "mind-anti-doping-warn": "Pokud vám lékař předepsal betablokátor, například proti tlaku, poruchám srdečního rytmu, migréně nebo třesu, nepřestávejte ho brát sami. Dlouho před závodem promluvte s lékařem i svou federací o povolené alternativě nebo o TUE.",
     "mind-anti-doping-p4": "{{term:therapeutic-use-exemption|TUE}} (výjimka pro terapeutické použití) je úřední povolení užívat zakázaný lék z léčebných důvodů. Samotný recept nestačí: zakázaná látka zůstává zakázaná, takže žádost se podává předem, obvykle národní antidopingové agentuře (federace vám poradí, které).",
@@ -75,7 +75,7 @@
       "q": "Kdy jsou podle seznamu WADA betablokátory ve střelbě zakázané?",
       "options": {
         "a": "Jen ve dnech samotného závodu",
-        "b": "Jen na olympijských hrách a mistrovstvích světa",
+        "b": "Jen na mistrovstvích světa a Evropy",
         "c": "Kdykoli, na závodech i mimo ně"
       },
       "explain": "Seznamy 2026 a 2027 označují střelbu jako disciplínu, kde jsou zakázané kdykoli. Považujte to za pravidlo i ve stendové střelbě."

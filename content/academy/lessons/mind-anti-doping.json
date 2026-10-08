@@ -1,6 +1,6 @@
 {
   "id": "mind-anti-doping",
-  "rev": 3,
+  "rev": 4,
   "status": "review",
   "plan": "new",
   "level": 2,
@@ -65,22 +65,22 @@
     },
     {
       "title": {
-        "en": "ISSF — Anti-doping FAQ: prescribed medicines, TUE, supplements",
-        "uk": "ISSF — питання про антидопінг: ліки за призначенням, TUE, добавки"
-      },
-      "url": "https://www.issf-sports.org/issf/anti-doping/faq",
-      "rel": "noopener noreferrer",
-      "checked": "2026-10-06",
-      "license": "link only"
-    },
-    {
-      "title": {
         "en": "Global DRO — medication check (Swiss Sport Integrity page)",
         "uk": "Global DRO — перевірка ліків (сторінка Swiss Sport Integrity)"
       },
       "url": "https://www.sportintegrity.ch/en/anti-doping/medicine/medication-inquiry-service",
       "rel": "noopener noreferrer",
       "checked": "2026-10-06",
+      "license": "link only"
+    },
+    {
+      "title": {
+        "en": "USADA — Supplement Connect: REALIZE that Safety Issues Exist",
+        "uk": "USADA — Supplement Connect: «REALIZE that Safety Issues Exist» (ризики добавок)"
+      },
+      "url": "https://www.usada.org/substances/supplement-connect/realize-safety-issues-exist/",
+      "rel": "noopener noreferrer",
+      "checked": "2026-10-08",
       "license": "link only"
     },
     {
@@ -119,13 +119,13 @@
     "uk": "Ліки й антидопінг: бета-блокатори, TUE, добавки"
   },
   "summary": {
-    "en": "The WADA list bans beta-blockers at all times in Olympic and para shooting (ISSF, IPC); treat them as prohibited in {{tm:sporting}} and {{tm:compak}} too. How to check a medicine, when you need a TUE, and what to know about supplements, CBD and alcohol.",
-    "uk": "Список WADA забороняє бета-блокатори в будь-який час в олімпійській і паралімпійській стрільбі (ISSF, IPC); вважайте їх забороненими і в {{tm:sporting}} та {{tm:compak}}. Як перевірити ліки, коли потрібен TUE і що знати про добавки, CBD та алкоголь."
+    "en": "The WADA list bans beta-blockers in shooting at all times; treat them as prohibited in {{tm:sporting}} and {{tm:compak}} too. How to check a medicine, when you need a TUE, and what to know about supplements, CBD and alcohol.",
+    "uk": "Список WADA забороняє бета-блокатори у стрільбі в будь-який час; вважайте їх забороненими і в {{tm:sporting}} та {{tm:compak}}. Як перевірити ліки, коли потрібен TUE і що знати про добавки, CBD та алкоголь."
   },
   "brief": {
     "points": {
       "en": [
-        "The WADA Prohibited Lists for 2026 and 2027 prohibit beta-blockers in shooting (ISSF, IPC) at all times, in and out of competition. FITASC is not named there; the project rule is to treat them as prohibited for every clay shooter.",
+        "The WADA Prohibited Lists for 2026 and 2027 prohibit beta-blockers in shooting at all times, in and out of competition. Sporting™ and Compak® Sporting are not named there separately; the project rule is to treat them as prohibited for every clay shooter (owner decision 08.10.2026: no other federations or disciplines are named).",
         "Do not stop a prescribed medicine on your own: talk to your doctor and your federation in advance about an alternative or a TUE (Therapeutic Use Exemption).",
         "Check medicines in Global DRO.",
         "Stimulants in some cold and ADHD medicines are prohibited in competition.",
@@ -136,7 +136,7 @@
         "Verify every statement against the current WADA list and cite it in sources before writing."
       ],
       "uk": [
-        "Списки заборонених речовин WADA на 2026 і 2027 роки забороняють бета-блокатори у стрільбі (ISSF, IPC) завжди — і на змаганнях, і поза ними. FITASC там не названо; правило проєкту — вважати їх забороненими для кожного стендовика.",
+        "Списки заборонених речовин WADA на 2026 і 2027 роки забороняють бета-блокатори у стрільбі завжди — і на змаганнях, і поза ними. Sporting™ і Compak® Sporting там окремо не названо; правило проєкту — вважати їх забороненими для кожного стендовика (рішення власника 08.10.2026: інших федерацій і дисциплін не називаємо).",
         "Призначені ліки не скасовувати самостійно: заздалегідь поговорити з лікарем і федерацією про альтернативу або TUE (дозвіл на терапевтичне використання).",
         "Перевіряти ліки в Global DRO.",
         "Стимулятори з деяких ліків від застуди і СДУГ заборонені під час змагань.",
@@ -168,8 +168,8 @@
       "k": "mind-anti-doping-p2",
       "t": "p",
       "critical": true,
-      "en": "In the list, “shooting” means the Olympic shooting federation (ISSF) and para shooting (IPC); FITASC is not named. Treat beta-blockers as prohibited in {{tm:sporting}} and {{tm:compak}} too. Your national {{term:anti-doping|anti-doping}} agency can test at national events, organisers may apply the WADA list, and many shooters also compete in ISSF events.",
-      "uk": "У списку «стрільба» означає олімпійську федерацію стрільби (ISSF) і паралімпійську стрільбу (IPC); FITASC там не названо. Однак вважайте бета-блокатори забороненими і в {{tm:sporting}} та {{tm:compak}}. Національна {{term:anti-doping|антидопінгова}} агенція може проводити контроль на національних змаганнях, організатори можуть застосовувати список WADA, а багато стрільців виступають і на змаганнях ISSF."
+      "en": "The list does not name {{tm:sporting}} or {{tm:compak}} separately: treat beta-blockers as prohibited there too. Your national {{term:anti-doping|anti-doping}} agency can test at national events, and organisers may apply the WADA list.",
+      "uk": "Окремо {{tm:sporting}} і {{tm:compak}} у списку не названо: вважайте бета-блокатори забороненими і там. Національна {{term:anti-doping|антидопінгова}} агенція може проводити контроль на національних змаганнях, а організатори можуть застосовувати список WADA."
     },
     {
       "k": "mind-anti-doping-p3",
@@ -312,8 +312,8 @@
         },
         {
           "k": "b",
-          "en": "Only at Olympic Games and world championships",
-          "uk": "Лише на Олімпійських іграх і чемпіонатах світу"
+          "en": "Only at world and European championships",
+          "uk": "Лише на чемпіонатах світу та Європи"
         },
         {
           "k": "c",
@@ -488,16 +488,16 @@
       "for": "mind-anti-doping-p9",
       "level": "some",
       "sources": [
-        "https://www.issf-sports.org/issf/anti-doping/faq"
+        "https://www.usada.org/substances/supplement-connect/realize-safety-issues-exist/"
       ]
     }
   ],
   "h_uk": {
     "title": "16e7c3d5",
-    "summary": "15628df1",
+    "summary": "db8fb42a",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p2": "5031b8cc",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -517,7 +517,7 @@
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "21c3c7e9",
+    "mind-anti-doping-q1": "f7c71a6a",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",

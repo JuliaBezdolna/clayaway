@@ -17,6 +17,7 @@
 //   --out <dir>       write the site into another folder (a copy of docs/ for a test build; data is read from the repo)
 //   --skip-academy    build the rest of the site although the Academy has blocking errors (its files on disk stay unchanged)
 //   --draft           full-site preview with the Academy draft lessons (only together with --out; never into docs/)
+//   -h, --help        print the flags and exit; any other unknown option stops with an error before anything is built
 import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
 import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
 import { buildAcademy, minifySims } from "./build_academy.mjs";
@@ -27,6 +28,14 @@ import { buildAcademy, minifySims } from "./build_academy.mjs";
 // (scripts/build_academy.mjs reads this line).
 const FITASC_INDEX = false;
 const ARGS = process.argv.slice(2), argVal = k => { const i = ARGS.indexOf(k); return i >= 0 ? ARGS[i + 1] : undefined; };
+// Only the flags above are accepted: -h / --help print them, any other unknown option (a typo) or "--out" without a folder stops
+// here, before anything is built — it never falls through to a real build into docs/ (review 08.10.2026).
+{ const HELP = "bun scripts/build_seo.mjs [--out <dir>] [--skip-academy] [--quiet] [--draft]   (without --out it WRITES INTO docs/)";
+  if (ARGS.includes("-h") || ARGS.includes("--help")) { console.log(HELP); process.exit(0); }
+  for (let i = 0; i < ARGS.length; i++) {
+    if (ARGS[i] === "--out") { if (i + 1 >= ARGS.length || /^--?[a-z]/i.test(ARGS[i + 1])) { console.error("ERROR: --out needs a folder. Nothing was built.\n" + HELP); process.exit(1); } i++; continue; }
+    if (!["--skip-academy", "--quiet", "--draft"].includes(ARGS[i])) { console.error(`ERROR: unknown option ${ARGS[i]}. Nothing was built.\n` + HELP); process.exit(1); }
+  } }
 const DOCS = (argVal("--out") || "docs").replace(/\\/g, "/").replace(/\/$/, ""); // site root to write (default docs)
 const SKIP_ACADEMY = ARGS.includes("--skip-academy");
 const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date()); // project time zone (CLAUDE.md)
@@ -311,18 +320,21 @@ if (GLOSS && window.GLOSSARY_LEARN) for (const full of window.GLOSSARY_LEARN.ter
   Object.assign(t, full, { source: "academy" });
 }
 // TRANSITION SAFETY NET (delete after the switch-over release): a thin Academy term that the lessons no longer list would turn its
-// published glossary page into a redirect stub. While the frozen old Academy sources (docs/learn/data/*.js) exist, such a term is kept
-// from there and listed in a warning: move it into docs/glossary/data/learn_terms.js (+ i18n) and this block finds nothing.
-if (GLOSS && existsSync("docs/learn/data")) {
+// published glossary page into a redirect stub. While the frozen old Academy sources exist, such a term is kept from there and
+// listed in a warning: move it into docs/glossary/data/learn_terms.js (+ i18n) and this block finds nothing. The old sources were
+// moved out of docs/ (not published any more) to archive/legacy-docs/learn/data/ on 08.10.2026 (owner decision: the site names no
+// other clay discipline; those files still did) — see archive/legacy-docs/README.md.
+const LEGACY_LEARN = "archive/legacy-docs/learn/data";
+if (GLOSS && existsSync(LEGACY_LEARN)) {
   window.LEARN = []; const kept = [];
-  for (const f of readdirSync("docs/learn/data").filter(f => f.endsWith(".js") && !/^law/.test(f))) { try { await import(`../docs/learn/data/${f}`); } catch (e) { /* frozen source */ } }
+  for (const f of readdirSync(LEGACY_LEARN).filter(f => f.endsWith(".js") && !/^law/.test(f))) { try { await import(`../${LEGACY_LEARN}/${f}`); } catch (e) { /* frozen source */ } }
   for (const m of window.LEARN || []) for (const l of m.lessons || []) for (const n0 of l.new_terms || []) {
     const id = rid(n0.id), page = `${DOCS}/glossary/${id}/index.html`;
     if (GBY[id] || !existsSync(page) || /http-equiv="refresh"/.test(readFileSync(page, "utf8"))) continue; // only terms whose page is live now
     const t = { id, term: n0.term, aka: [], cat: "Academy", short_uk: n0.short_uk, short_en: n0.short_en, long_uk: "", long_en: "", related: [], rule_refs: [], source: "academy-legacy" };
     GLOSS.terms.push(t); GBY[id] = t; kept.push(id);
   }
-  if (kept.length) console.log(`WARNING: ${kept.length} glossary terms are kept only through the frozen old Academy sources (docs/learn/data): add them to learn_terms.js (+ i18n) before the switch-over: ${kept.join(", ")}`);
+  if (kept.length) console.log(`WARNING: ${kept.length} glossary terms are kept only through the frozen old Academy sources (archive/legacy-docs/learn/data): add them to learn_terms.js (+ i18n) before the switch-over: ${kept.join(", ")}`);
 }
 // Ukrainian usage: researched local forms (docs/glossary/data/i18n/uk.js: term_local + alt, conf) win over the older uk_usage text.
 try { await import("../docs/glossary/data/i18n/uk.js"); } catch (e) {}
@@ -372,7 +384,7 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
 <main style="max-width:900px;margin:0 auto;padding:20px 16px 72px">
 <div class="src">FITASC · Sporting™ · Compak® Sporting</div>
 <h1>Категорії FITASC: хто такий Junior, Lady, Senior, Veteran, Master</h1>
-<p>Вікові категорії однакові для Parcours de Chasse – Sporting™, Compak® Sporting та інших дисциплін FITASC. Діють з ${C.valid_from.split("-").reverse().join(".")}. Значення має лише <b>рік</b> народження, а не день і місяць. Національні й клубні змагання можуть мати власні категорії — дивіться програму змагань.</p>
+<p>Вікові категорії однакові для Parcours de Chasse – Sporting™ і Compak® Sporting. Діють з ${C.valid_from.split("-").reverse().join(".")}. Значення має лише <b>рік</b> народження, а не день і місяць. Національні й клубні змагання можуть мати власні категорії — дивіться програму змагань.</p>
 <h2>Категорії і вік</h2><div class="tw"><table><thead><tr><th>Категорія</th><th>Вік</th><th>Правило</th></tr></thead><tbody>${rows}</tbody></table></div>
 ${teams ? `<h2>Національні команди</h2><div class="tw"><table><thead><tr><th>Команда</th><th>Хто може</th><th>Склад</th><th>Примітка</th></tr></thead><tbody>${teams}</tbody></table></div>` : ""}
 ${(C.notes_uk || []).length ? `<ul>${C.notes_uk.map(n => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}

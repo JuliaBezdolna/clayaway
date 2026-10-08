@@ -81,6 +81,10 @@
     "women-clothing-community-start": {
       "to": "intro-who-shoots",
       "anchor": "women-clothing-community-start"
+    },
+    "history-olympics-and-world": {
+      "to": "history-birth-of-sporting",
+      "retired": "2026-10-08"
     }
   },
   "interpreter": {
@@ -398,10 +402,18 @@
     },
     "G": {
       "from": "/interpreter/data/*, /interpreter/src/**",
-      "to": "removed at the switch (never indexed; content moved to content/academy)",
+      "to": "removed (never indexed; content moved to content/academy): the files were moved out of docs/ to archive/legacy-docs/ on 08.10.2026, before the switch, and these URLs now answer 404",
       "stubs": 0
     },
-    "total_stubs": 737,
+    "H": {
+      "from": "/<p>learn/<retired id>/ in all 11 languages (a lesson of this Academy taken off the site: a \"learn\" entry with \"retired\", its id stays in ids.lock; SCHEMA.md §2a)",
+      "to": "/<p>learn/<target>/ (same language)",
+      "stubs": 11,
+      "retired": {
+        "history-olympics-and-world": "2026-10-08: owner decision, the site is about Parcours de Chasse – Sporting™ and Compak® Sporting only"
+      }
+    },
+    "total_stubs": 748,
     "rules": [
       "<p> is empty for uk and '<lang>/' for the other 10 languages.",
       "Never redirect to another language.",

@@ -1,13 +1,13 @@
 {
   "id": "mind-anti-doping",
   "lang": "hu",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "15628df1",
+    "summary": "db8fb42a",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p2": "5031b8cc",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -27,7 +27,7 @@
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "21c3c7e9",
+    "mind-anti-doping-q1": "f7c71a6a",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -42,7 +42,7 @@
   "body": {
     "health-alcohol-medication-weather-p3": "{{term:championship|Bajnokságokon}} és nagy versenyeken dopping-vizsgálatra is kiválaszthatnak. A nemzetközi szabályok a Világ Doppingellenes Ügynökségtől (WADA) származnak, amely minden évben kiadja az új Tiltólistát.",
     "mind-anti-doping-beta": "A {{term:beta-blocker|béta-blokkolók}} szívgyógyszerek, amelyek lassítják a szívverést, és csökkentik a remegést; példák a propranolol, az atenolol, a biszoprolol és a metoprolol. Vedd figyelembe, hogy {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "A listán a „lövészet” az olimpiai lövészeti szövetséget (ISSF) és a parasportos lövészetet (IPC) jelenti; a FITASC-ot nem nevezik meg. A béta-blokkolókat a {{tm:sporting}}-ban és a {{tm:compak}}-ban is tiltottnak kezeld. A nemzeti {{term:anti-doping|antidopping}}-ügynökséged nemzeti versenyeken vizsgálhat, a szervezők alkalmazhatják a WADA listát, és sok lövész ISSF-versenyeken is indul.",
+    "mind-anti-doping-p2": "A lista a {{tm:sporting}} és a {{tm:compak}} szakágat külön nem nevezi meg: a béta-blokkolókat ott is tiltottnak kezeld. A nemzeti {{term:anti-doping|antidopping}}-ügynökséged nemzeti versenyeken vizsgálhat, és a szervezők alkalmazhatják a WADA listát.",
     "mind-anti-doping-p3": "A precíziós sportokban tiltottak, mert egy lassabb szív és kevesebb remegés megnyugtathatja a fegyvert.",
     "mind-anti-doping-warn": "Ha egy orvos béta-blokkolót írt fel neked, például vérnyomásra, szívritmusra, migrénre vagy remegésre, ne hagyd el saját döntésedből. Beszélj az orvosoddal és a szövetségeddel jóval a verseny előtt egy engedélyezett alternatíváról vagy egy TUE-ről.",
     "mind-anti-doping-p4": "A {{term:therapeutic-use-exemption|TUE}} (Therapeutic Use Exemption, gyógyászati célú mentesség) hivatalos engedély egy tiltott gyógyszer orvosi okból való használatára. Egy recept önmagában nem elég: egy tiltott anyag tiltott marad, ezért előre kell kérelmezned, rendszerint a nemzeti antidopping-ügynöködnél (a szövetséged megmondja, melyiknél).",
@@ -72,7 +72,7 @@
       "q": "A WADA listája szerint mikor tilosak a béta-blokkolók a lövészetben?",
       "options": {
         "a": "Csak a verseny napjain",
-        "b": "Csak olimpiai játékokon és világbajnokságokon",
+        "b": "Csak világ- és Európa-bajnokságokon",
         "c": "Mindig, versenyen és azon kívül is"
       },
       "explain": "A 2026-os és 2027-es listák a lövészetet mindig tiltottként jelölik. Ezt a koronglövészetben is szabálynak kezeld."
@@ -124,6 +124,6 @@
     }
   },
   "title": "Gyógyszerek és doppingellenes szabályok: béta-blokkolók, TUE, étrend-kiegészítők",
-  "summary": "A WADA listája mindig tiltja a béta-blokkolókat az olimpiai és paralimpiai lövészetben (ISSF, IPC); a {{tm:sporting}} és a {{tm:compak}} szakágban is kezeld őket tiltottként. Hogyan ellenőrizz egy gyógyszert, mikor van szükséged TUE-re, és mit kell tudnod az étrend-kiegészítőkről, a CBD-ről és az alkoholról.",
+  "summary": "A WADA listája mindig tiltja a béta-blokkolókat a lövészetben; a {{tm:sporting}} és a {{tm:compak}} szakágban is kezeld őket tiltottként. Hogyan ellenőrizz egy gyógyszert, mikor van szükséged TUE-re, és mit kell tudnod az étrend-kiegészítőkről, a CBD-ről és az alkoholról.",
   "did_you_know": "A WADA Tiltólistát minden évben frissítik, és a következő lista rendszerint szeptember körül jelenik meg. Egy gyógyszert, amely az előző szezonban megengedett volt, érdemes újra ellenőrizni."
 }

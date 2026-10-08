@@ -1,7 +1,7 @@
 {
   "id": "history-fitasc-founding",
   "lang": "de",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "7badbdfc",
     "summary": "56281c5b",
@@ -9,20 +9,22 @@
     "history-fitasc-founding-p2": "41d16f55",
     "history-fitasc-founding-p3": "349b4acd",
     "history-fitasc-founding-p4": "b91d9303",
-    "history-fitasc-founding-p5": "cea3034e",
+    "history-fitasc-founding-p5": "56f7243e",
     "history-fitasc-founding-p6": "36f65938",
-    "history-fitasc-founding-p7": "367280bd",
     "history-fitasc-founding-tip": "b2fb8b64",
     "history-fitasc-founding-kp1": "5c15bbb0",
     "history-fitasc-founding-kp2": "71a0f042",
     "history-fitasc-founding-kp3": "bd682721",
-    "history-fitasc-founding-kp4": "072c9259",
     "history-fitasc-founding-dyk": "bcdb5449",
     "history-fitasc-founding-q1": "cd408368",
     "history-fitasc-founding-q2": "e69d4f96",
-    "history-fitasc-founding-q3": "1edaf8cf"
+    "history-fitasc-founding-q-rules": "7dc0b428"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "FITASC: wie der internationale Verband entstand",
   "summary": "FITASC wurde 1921 gegründet und hat ihren Sitz heute in Paris. Was der Verband für {{tm:sporting}} und {{tm:compak}} tut und warum das für Einsteiger wichtig ist.",
   "body": {
@@ -30,9 +32,8 @@
     "history-fitasc-founding-p2": "Der Verband wurde {{fact:community.fitasc-founded}} gegründet. Sein erster Name war Internationale Jagdunion (UIC). An der Gründungsversammlung nahmen nationale Verbände aus zehn Ländern Europas, Afrikas und Amerikas teil. Sie wollten ein gemeinsames Regelwerk, damit Schützen aus verschiedenen Ländern unter gleichen Bedingungen gegeneinander antreten konnten.",
     "history-fitasc-founding-p3": "Die Generalversammlung (das Treffen aller Mitgliedsorganisationen) benannte die Union {{fact:community.fitasc-renamed}} in FITASC um, und bei diesem Namen ist es geblieben. Ihr Sitz ist Paris. Deshalb schreiben manche Quellen, FITASC sei in Paris gegründet worden: Paris ist ihr Sitz, die Gründungsversammlung fand aber in Lausanne statt.",
     "history-fitasc-founding-p4": "FITASC vereint die nationalen Verbände vieler Länder. Ein Schütze ist in der Regel kein direktes Mitglied: Man tritt einem Verein und einem {{term:national-federation|nationalen Verband}} bei, und dieser Verband ist Mitglied von FITASC.",
-    "history-fitasc-founding-p5": "Die Hauptaufgabe von FITASC sind die Regeln. Sie schreibt und aktualisiert das internationale Regelwerk von {{tm:sporting}} und {{tm:compak}}. Dasselbe tut sie für weitere Disziplinen wie Universal Trench (trapähnlich, mit fünf Maschinen in einem Graben) und Helice (geschossen wird auf rotierende Kunststoffscheiben mit Flügeln). Viele nationale Verbände richten ihre eigenen Wettkämpfe nach diesen Regeln aus.",
+    "history-fitasc-founding-p5": "Die Hauptaufgabe von FITASC sind die Regeln. Sie schreibt und aktualisiert das internationale Regelwerk von {{tm:sporting}} und {{tm:compak}}. Viele nationale Verbände richten ihre eigenen Wettkämpfe nach diesen Regeln aus.",
     "history-fitasc-founding-p6": "Außerdem führt FITASC den internationalen Kalender und entscheidet, wo und wann die {{term:championship|Weltmeisterschaften und Europameisterschaften}} stattfinden. Sie genehmigt die {{term:layout|Layouts}} internationaler {{tm:sporting}}-Wettkämpfe. Und sie behält die Schiedsrichter im Blick: Der {{term:chief-referee|Oberschiedsrichter}} eines internationalen Wettkampfs braucht eine FITASC-Qualifikation.",
-    "history-fitasc-founding-p7": "FITASC darf man nicht mit der ISSF verwechseln, der International Shooting Sport Federation. Die ISSF leitet die olympischen Disziplinen, darunter {{term:olympic-trap|Olympic Trap}} und {{term:skeet|Skeet}}. Auf der eigenen Geschichtsseite von FITASC steht, dass {{fact:community.olympic-to-uit}} beide olympischen Wurfscheibendisziplinen von der ISSF geleitet werden (die damals noch UIT hieß).",
     "history-fitasc-founding-tip": "Wie der Sport heute organisiert ist, vom Verein bis zur Weltebene: {{lesson:intro-fitasc-and-organisation}}."
   },
   "note": {},
@@ -40,8 +41,7 @@
   "key_points": {
     "history-fitasc-founding-kp1": "FITASC wurde {{fact:community.fitasc-founded}} gegründet; ihr Sitz ist Paris.",
     "history-fitasc-founding-kp2": "Ihre Mitglieder sind nationale Verbände, keine einzelnen Schützen.",
-    "history-fitasc-founding-kp3": "FITASC schreibt die Regeln von {{tm:sporting}} und {{tm:compak}} und führt den internationalen Kalender.",
-    "history-fitasc-founding-kp4": "Olympic Trap und Skeet werden von der ISSF geleitet, nicht von FITASC."
+    "history-fitasc-founding-kp3": "FITASC schreibt die Regeln von {{tm:sporting}} und {{tm:compak}} und führt den internationalen Kalender."
   },
   "did_you_know": "Ihren heutigen Namen erhielt FITASC {{fact:community.fitasc-renamed}}. In den ersten 17 Jahren war sie die Internationale Jagdunion.",
   "quiz": {
@@ -63,14 +63,14 @@
       },
       "explain": "FITASC vereint nationale Verbände; ein Schütze gehört einem Verein und seinem eigenen Verband an."
     },
-    "history-fitasc-founding-q3": {
-      "q": "Welcher Verband leitet Olympic Trap und Skeet?",
+    "history-fitasc-founding-q-rules": {
+      "q": "Was ist die Hauptaufgabe von FITASC?",
       "options": {
-        "a": "Die ISSF",
-        "b": "FITASC",
-        "c": "Jeder nationale Verein"
+        "a": "Scheiben und Patronen für Vereine herstellen",
+        "b": "Die Regeln von {{tm:sporting}} und {{tm:compak}} schreiben",
+        "c": "Die Wettkämpfe aller örtlichen Vereine ausrichten"
       },
-      "explain": "Die ISSF leitet die olympischen Disziplinen; FITASC leitet {{tm:sporting}}, {{tm:compak}} und andere nichtolympische Disziplinen."
+      "explain": "FITASC schreibt und aktualisiert das internationale Regelwerk von {{tm:sporting}} und {{tm:compak}}; die Wettkämpfe richten Vereine und nationale Verbände aus."
     }
   }
 }

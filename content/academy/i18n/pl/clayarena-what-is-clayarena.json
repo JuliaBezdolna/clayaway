@@ -1,11 +1,11 @@
 {
   "id": "clayarena-what-is-clayarena",
   "lang": "pl",
-  "base_rev": 2,
+  "base_rev": 3,
   "h": {
     "title": "bc76e59e",
     "summary": "761d8c91",
-    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p1": "56e26387",
     "clayarena-what-is-clayarena-p2": "771824c6",
     "clayarena-what-is-clayarena-p3": "17d83580",
     "clayarena-what-is-clayarena-p4": "3d7784c7",
@@ -18,7 +18,7 @@
     "clayarena-what-is-clayarena-q1": "25b43879",
     "clayarena-what-is-clayarena-q2": "565010d9",
     "clayarena-what-is-clayarena-q4": "08498f4c",
-    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+    "clayarena-what-is-clayarena-q3": "db6bb2a0"
   },
   "review": {
     "by": null,
@@ -28,7 +28,7 @@
   "title": "Czym jest ClayArena",
   "summary": "ClayArena to strona o strzelectwie rzutkowym, skupiona na {{tm:sporting}} i {{tm:compak}}: wyniki zawodów, profile zawodników, kalendarz, filmy, podsumowania sezonu, strzelnice i trenerzy.",
   "body": {
-    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) to strona o strzelectwie rzutkowym, skupiona na {{tm:sporting}} i {{tm:compak}}. Widać na niej, kto i jak strzelał, gdzie odbędą się kolejne zawody i gdzie można potrenować. Jest tam też kilka innych dyscyplin, na przykład trap i skeet.",
+    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) to strona o strzelectwie rzutkowym: {{tm:sporting}} i {{tm:compak}}. Widać na niej, kto i jak strzelał, gdzie odbędą się kolejne zawody i gdzie można potrenować.",
     "clayarena-what-is-clayarena-p2": "Podstawą ClayAreny są wyniki zawodów. Każde zawody mają tabelę wyników z miejscami i liczbą rozbitych rzutków. Na niektórych zawodach wyniki aktualizują się jeszcze w trakcie strzelania. Z tych wyników powstają {{term:shooter-profile|profile zawodników}}.",
     "clayarena-what-is-clayarena-p3": "Profil zawodnika to strona jednej osoby: jej starty i najważniejsze liczby, na przykład {{term:accuracy|skuteczność}}. Co znaczą te liczby, wyjaśnia lekcja {{lesson:clayarena-profile-numbers}}.",
     "clayarena-what-is-clayarena-p4": "ClayArena ma też kalendarz zawodów, filmy z zawodów i {{term:season-recap|podsumowania sezonu}}. Są też katalogi strzelnic i trenerów. Więcej w lekcjach {{lesson:clayarena-videos-recaps-calendar}} i {{lesson:clayarena-coaches-grounds-tours}}.",
@@ -73,13 +73,13 @@
       "explain": "Kalendarz pokazuje planowane, trwające i zakończone zawody z datami i miejscem."
     },
     "clayarena-what-is-clayarena-q3": {
-      "q": "Na jakich dyscyplinach skupiona jest ClayArena?",
+      "q": "Jakich dyscyplin dotyczy ClayArena?",
       "options": {
-        "a": "Na biathlonie i strzelectwie z łuku",
-        "b": "Na {{tm:sporting}} i {{tm:compak}}",
-        "c": "Tylko na trapie olimpijskim"
+        "a": "Biathlon i strzelectwo z łuku",
+        "b": "{{tm:sporting}} i {{tm:compak}}",
+        "c": "Strzelectwo z karabinu i pistoletu"
       },
-      "explain": "ClayArena skupia się na tych dwóch dyscyplinach FITASC; są tam też pewne inne dyscypliny."
+      "explain": "ClayArena dotyczy tych dwóch dyscyplin FITASC."
     }
   }
 }

@@ -46,7 +46,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "помпа"
    ],
-   "note": "Rules exclude «помпові» guns from ISSF events; colloquially «помпа».",
+   "note": "The Ukrainian competition rules exclude «помпові» guns; colloquially «помпа».",
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
@@ -166,7 +166,7 @@ window.GLOSSARY_I18N.uk = {
     "реліз",
     "спуск на відпускання"
    ],
-   "note": "Anglicism dominates; rare in Ukraine (mostly trap shooters).",
+   "note": "Anglicism dominates; rare in Ukraine.",
    "conf": "low"
   },
   "safety-catch": {
@@ -255,15 +255,6 @@ window.GLOSSARY_I18N.uk = {
    "conf": "high",
    "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
   },
-  "skeet-choke": {
-   "term_local": "скіт",
-   "alt": [
-    "скітовий чок",
-    "SK"
-   ],
-   "conf": "medium",
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
-  },
   "improved-cylinder": {
    "term_local": "1/4",
    "alt": [
@@ -322,7 +313,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "патрон"
    ],
-   "note": "Both are standard Ukrainian; the official ISSF rules translation uses «патрон», shops and clubs often «набої».",
+   "note": "Both are standard Ukrainian; the Ukrainian competition rules use «патрон», shops and clubs often «набої».",
    "conf": "high",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
@@ -602,14 +593,14 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "тауер"
    ],
-   "note": "In skeet rules «вишка» = high house; in sporting = tower.",
+   "note": "«Вишка» is the usual word; «тауер» is a loan from English.",
    "conf": "medium",
    "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
   },
   "trapper": {
-   "term_local": "оператор",
+   "term_local": "оператор машинки",
    "alt": [
-    "оператор машинки"
+    "оператор"
    ],
    "conf": "medium",
    "src": "https://safari-stend.com/uk/stendovaya-strelba/"
@@ -1434,13 +1425,6 @@ window.GLOSSARY_I18N.uk = {
   "glass-ball": {
    "term_local": "скляна куля",
    "conf": "medium"
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Міжнародна федерація стрілецького спорту"
-   ],
-   "conf": "high"
   },
   "hydration": {
    "term_local": "водний режим",

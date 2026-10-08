@@ -75,8 +75,7 @@ window.GLOSSARY_I18N.fr = {
    "short": "L'ensemble des installations sportives du stand de tir.",
    "long": "Dans le glossaire du Compak, le terme désigne l'ensemble des installations sportives, tandis qu'un Compak Sporting est l'installation propre à cette discipline. Le mot apparaît aussi dans les règles de sécurité : le fusil est chargé et maintenu pointé « vers le champ de tir », c'est-à-dire vers la zone où volent les plateaux. Le port d'une protection auditive est obligatoire pour toute personne présente sur le champ de tir ou à proximité.",
    "alt": [
-    "terrain",
-    "ball-trap (le club)"
+    "terrain"
    ],
    "conf": "high",
    "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
@@ -115,7 +114,7 @@ window.GLOSSARY_I18N.fr = {
   "tower": {
    "term_local": "tour",
    "short": "Position surélevée de lanceur derrière les pas de tir du Compak, au moins 4 m au-dessus d'eux.",
-   "long": "Les lanceurs du Compak peuvent être placés librement à condition qu'aucun plateau, même un No Bird, ne puisse mettre quelqu'un en danger. Un lanceur placé derrière les pas de tir doit être au moins 4 m plus haut que ceux-ci. La trajectoire fuyante obligatoire qui traverse le côté BC peut provenir d'une telle tour ou d'un lanceur placé dans une fosse ou au sol devant les pas de tir.",
+   "long": "Les lanceurs du Compak peuvent être placés librement à condition qu'aucun plateau, même un No Bird, ne puisse mettre quelqu'un en danger. Un lanceur placé derrière les pas de tir doit être au moins 4 m plus haut que ceux-ci. La trajectoire fuyante obligatoire qui traverse le côté BC peut provenir d'une telle tour ou d'un lanceur enterré ou posé au sol devant les pas de tir.",
    "disciplines": {
     "compak": "La règle des 4 m figure dans le règlement du Compak (2.4)."
    },
@@ -721,8 +720,7 @@ window.GLOSSARY_I18N.fr = {
     "plomb n° 7,5",
     "taille des plombs"
    ],
-   "conf": "high",
-   "src": "https://www.ball-trap-neuvy.fr/disciplines/les-munitions-clic/"
+   "conf": "high"
   },
   "release-trigger": {
    "term_local": "détente à relâche",
@@ -1041,7 +1039,7 @@ window.GLOSSARY_I18N.fr = {
   "category": {
    "term_local": "catégorie",
    "short": "Classement séparé par âge et par sexe, à côté du classement général ; à partir de 2027, la FITASC utilise Junior, Dame, Homme, Senior, Vétéran et Master.",
-   "long": "À partir du 1er janvier 2027, la FITASC fixe six catégories pour le Compak® Sporting, le Parcours de Chasse – Sporting™ et ses autres disciplines : Junior (13–20 ans), Dame (à partir de 13 ans), Homme (Men, 21–55 ans), Senior (56–65 ans), Vétéran (66–72 ans) et Master (à partir de 73 ans, hommes ou femmes). L'âge se compte par année de naissance : une nouvelle catégorie s'applique à partir du 1er janvier de l'année où le tireur atteint l'âge requis, quelle que soit sa date d'anniversaire. Senior n'est pas la principale catégorie adulte mais la tranche d'âge 56–65 ans ; la principale catégorie adulte est Homme. Les équipes de catégorie comptent 3 tireurs (l'équipe Homme du Parcours de Chasse en compte 4), et un tireur sélectionné dans l'équipe d'une autre catégorie doit aussi s'inscrire individuellement dans cette catégorie. En Compak, les égalités pour les trois premières places de chaque catégorie sont départagées par barrage ; lorsque des tireurs d'un barrage du classement général appartiennent à la même catégorie, le résultat vaut aussi pour cette catégorie. Les épreuves nationales et de club peuvent utiliser leurs propres catégories, telles qu'indiquées dans le programme.",
+   "long": "À partir du 1er janvier 2027, la FITASC fixe six catégories pour le Compak® Sporting et le Parcours de Chasse – Sporting™ : Junior (13–20 ans), Dame (à partir de 13 ans), Homme (Men, 21–55 ans), Senior (56–65 ans), Vétéran (66–72 ans) et Master (à partir de 73 ans, hommes ou femmes). L'âge se compte par année de naissance : une nouvelle catégorie s'applique à partir du 1er janvier de l'année où le tireur atteint l'âge requis, quelle que soit sa date d'anniversaire. Senior n'est pas la principale catégorie adulte mais la tranche d'âge 56–65 ans ; la principale catégorie adulte est Homme. Les équipes de catégorie comptent 3 tireurs (l'équipe Homme du Parcours de Chasse en compte 4), et un tireur sélectionné dans l'équipe d'une autre catégorie doit aussi s'inscrire individuellement dans cette catégorie. En Compak, les égalités pour les trois premières places de chaque catégorie sont départagées par barrage ; lorsque des tireurs d'un barrage du classement général appartiennent à la même catégorie, le résultat vaut aussi pour cette catégorie. Les épreuves nationales et de club peuvent utiliser leurs propres catégories, telles qu'indiquées dans le programme.",
    "disciplines": {
     "sporting": "L'équipe Homme compte 4 tireurs ; les équipes des autres catégories en comptent 3.",
     "compak": "Barrages séparés pour le podium de chaque catégorie."
@@ -1089,7 +1087,7 @@ window.GLOSSARY_I18N.fr = {
   "hull": {
    "term_local": "douille",
    "short": "L'étui de la cartouche : un tube en plastique ou en carton avec un culot métallique qui contient tous les éléments de la cartouche.",
-   "long": "La douille est le corps de la cartouche. Le tube est généralement en plastique, plus rarement en carton ; à sa base, il est fermé par un culot métallique qui porte l'amorce. À l'intérieur se trouvent, dans l'ordre, la poudre, la bourre et les plombs, et le haut est fermé par le sertissage. La longueur de la douille doit correspondre à la chambre du fusil : pour les cartouches de ball-trap en calibre 12, elle est le plus souvent de 70 mm. Après le tir, les douilles vides vont dans les poubelles prévues sur le stand et ne restent pas dans l'herbe.",
+   "long": "La douille est le corps de la cartouche. Le tube est généralement en plastique, plus rarement en carton ; à sa base, il est fermé par un culot métallique qui porte l'amorce. À l'intérieur se trouvent, dans l'ordre, la poudre, la bourre et les plombs, et le haut est fermé par le sertissage. La longueur de la douille doit correspondre à la chambre du fusil : pour les cartouches de tir aux plateaux en calibre 12, elle est le plus souvent de 70 mm. Après le tir, les douilles vides vont dans les poubelles prévues sur le stand et ne restent pas dans l'herbe.",
    "alt": [
     "étui",
     "tube"
@@ -1122,8 +1120,7 @@ window.GLOSSARY_I18N.fr = {
     "bourre grasse",
     "godet"
    ],
-   "conf": "high",
-   "src": "https://www.ball-trap-neuvy.fr/disciplines/les-munitions-clic/"
+   "conf": "high"
   },
   "fibre-wad": {
    "term_local": "bourre grasse",
@@ -1135,8 +1132,7 @@ window.GLOSSARY_I18N.fr = {
     "bourre biodégradable"
    ],
    "note": "« Bourre grasse » = bourre fibre/liège sans jupe ; sur les stands écologiques on dit aussi « bourre biodégradable ».",
-   "conf": "medium",
-   "src": "https://www.ball-trap-neuvy.fr/disciplines/les-munitions-clic/"
+   "conf": "medium"
   },
   "crimp": {
    "term_local": "Sertissage",
@@ -1146,7 +1142,7 @@ window.GLOSSARY_I18N.fr = {
   "load-weight": {
    "term_local": "charge",
    "short": "Le poids de plombs d'une cartouche ; la FITASC autorise jusqu'à 28 g de plomb, avec une tolérance de +2 %.",
-   "long": "La charge est imprimée sur la boîte en grammes, et au Royaume-Uni et aux États-Unis souvent en onces (1 oz correspond à environ 28 g). Le règlement FITASC du Sporting™ et du Compak® Sporting limite la charge à 28 g de plomb avec une tolérance de +2 %. Les charges les plus courantes au ball-trap sont 24 et 28 g ; 21–24 g sont appréciés pour l'entraînement, les juniors et les débutants. Une charge plus lourde met davantage de plombs dans la gerbe mais recule aussi plus fort, ce qui fatigue sur une journée de 100 à 200 coups. L'arbitre peut contrôler les cartouches d'un tireur ; en Compak® Sporting, les coups tirés avec des cartouches non conformes avant le contrôle comptent zéro.",
+   "long": "La charge est imprimée sur la boîte en grammes, et au Royaume-Uni et aux États-Unis souvent en onces (1 oz correspond à environ 28 g). Le règlement FITASC du Sporting™ et du Compak® Sporting limite la charge à 28 g de plomb avec une tolérance de +2 %. Les charges les plus courantes en tir aux plateaux sont 24 et 28 g ; 21–24 g sont appréciés pour l'entraînement, les juniors et les débutants. Une charge plus lourde met davantage de plombs dans la gerbe mais recule aussi plus fort, ce qui fatigue sur une journée de 100 à 200 coups. L'arbitre peut contrôler les cartouches d'un tireur ; en Compak® Sporting, les coups tirés avec des cartouches non conformes avant le contrôle comptent zéro.",
    "alt": [
     "grammage",
     "charge de plomb (24 g, 28 g)"
@@ -1158,7 +1154,7 @@ window.GLOSSARY_I18N.fr = {
   "velocity": {
    "term_local": "Vitesse (V0)",
    "short": "La vitesse des plombs indiquée sur la boîte (m/s ou fps) ; les fabricants la mesurent à différentes distances de la bouche.",
-   "long": "Pour les cartouches de ball-trap, la vitesse est généralement d'environ 360 à 430 m/s (environ 1 200 à 1 400 fps). Les fabricants la mesurent différemment : selon les règles de la C.I.P., suivies par les fabricants européens, elle est mesurée à 2,5 m de la bouche (V2,5) ; certaines boîtes indiquent la V1, à 1 m, et les fabricants américains donnent des pieds par seconde mesurés à environ 3 pieds (0,9 m) de la bouche. Un même chiffre ne désigne donc pas toujours la même cartouche. Une cartouche plus rapide raccourcit légèrement le temps de vol des plombs, mais elle recule plus fort et sa gerbe n'est pas forcément meilleure. Beaucoup d'entraîneurs conseillent de ne pas rechercher la vitesse, mais de choisir une cartouche avec laquelle on tire de façon régulière et sans fatigue. Certains stands, surtout pour l'acier, limitent la vitesse des cartouches."
+   "long": "Pour les cartouches de tir aux plateaux, la vitesse est généralement d'environ 360 à 430 m/s (environ 1 200 à 1 400 fps). Les fabricants la mesurent différemment : selon les règles de la C.I.P., suivies par les fabricants européens, elle est mesurée à 2,5 m de la bouche (V2,5) ; certaines boîtes indiquent la V1, à 1 m, et les fabricants américains donnent des pieds par seconde mesurés à environ 3 pieds (0,9 m) de la bouche. Un même chiffre ne désigne donc pas toujours la même cartouche. Une cartouche plus rapide raccourcit légèrement le temps de vol des plombs, mais elle recule plus fort et sa gerbe n'est pas forcément meilleure. Beaucoup d'entraîneurs conseillent de ne pas rechercher la vitesse, mais de choisir une cartouche avec laquelle on tire de façon régulière et sans fatigue. Certains stands, surtout pour l'acier, limitent la vitesse des cartouches."
   },
   "recoil": {
    "term_local": "recul",
@@ -1281,22 +1277,10 @@ window.GLOSSARY_I18N.fr = {
    "note": "Usage variable selon les marques.",
    "conf": "low"
   },
-  "skeet-choke": {
-   "term_local": "skeet",
-   "short": "Étranglement très léger, d'environ 0,1 à 0,15 mm (4 à 6 thou), pour les plateaux les plus proches.",
-   "long": "Le choke skeet doit son nom à la discipline dans laquelle les plateaux volent très près. Il est à peine plus serré que le cylindrique : environ 0,1 à 0,15 mm d'étranglement (4 à 6 thou), parfois appelé 1/8 dans l'usage européen. La gerbe est large à courte distance et pardonne les petites erreurs. En Sporting™ et en Compak® Sporting, on l'utilise pour les plateaux proches, les lapins et les plateaux qui jaillissent tout près. Les valeurs exactes dépendent du fabricant.",
-   "alt": [
-    "lisse amélioré",
-    "choke skeet"
-   ],
-   "note": "FFBT range « lisse amélioré » (1-2/10) ; dans le commerce « Skeet ».",
-   "conf": "medium",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
-  },
   "improved-cylinder": {
    "term_local": "quart de choke",
    "short": "Étranglement léger, d'environ 0,25 mm (10 thou) ; en Europe « 1/4 », quatre étoiles.",
-   "long": "L'improved cylinder (IC) est l'un des chokes les plus polyvalents en ball-trap. Un étranglement d'environ 0,25 mm (environ 10 thou) donne une gerbe large, déjà plus dense que celle du cylindrique. On l'utilise pour les plateaux proches et moyens ; de nombreux tireurs de Sporting™ et de Compak® Sporting gardent l'IC dans le canon inférieur par défaut. En Europe, on l'appelle « 1/4 » (quart de choke), et sur les chokes Beretta il est marqué de quatre étoiles. Les valeurs en millimètres dépendent du fabricant.",
+   "long": "L'improved cylinder (IC) est l'un des chokes les plus polyvalents en tir aux plateaux. Un étranglement d'environ 0,25 mm (environ 10 thou) donne une gerbe large, déjà plus dense que celle du cylindrique. On l'utilise pour les plateaux proches et moyens ; de nombreux tireurs de Sporting™ et de Compak® Sporting gardent l'IC dans le canon inférieur par défaut. En Europe, on l'appelle « 1/4 » (quart de choke), et sur les chokes Beretta il est marqué de quatre étoiles. Les valeurs en millimètres dépendent du fabricant.",
    "alt": [
     "1/4",
     "quart",
@@ -1341,7 +1325,7 @@ window.GLOSSARY_I18N.fr = {
   "full-choke": {
    "term_local": "full choke",
    "short": "Choke plein, d'environ 0,9 à 1 mm (35 à 40 thou) ; « 1/1 », une étoile.",
-   "long": "Le full est le plus serré des chokes courants de ball-trap. Un étranglement d'environ 0,9 à 1 mm (35 à 40 thou) maintient la gerbe groupée à longue distance. En Europe, il est marqué « 1/1 », et sur les chokes Beretta d'une étoile. En Sporting™ et en Compak® Sporting, le full est rarement nécessaire : seulement pour les plateaux très lointains, et sur les plateaux proches il donne une gerbe trop étroite. Il existe des chokes encore plus serrés (extra-full), mais le ball-trap n'en a presque jamais besoin. Avec l'acier, on n'utilise généralement pas de full sans l'accord du fabricant.",
+   "long": "Le full est le plus serré des chokes courants du tir aux plateaux. Un étranglement d'environ 0,9 à 1 mm (35 à 40 thou) maintient la gerbe groupée à longue distance. En Europe, il est marqué « 1/1 », et sur les chokes Beretta d'une étoile. En Sporting™ et en Compak® Sporting, le full est rarement nécessaire : seulement pour les plateaux très lointains, et sur les plateaux proches il donne une gerbe trop étroite. Il existe des chokes encore plus serrés (extra-full), mais le tir aux plateaux n'en a presque jamais besoin. Avec l'acier, on n'utilise généralement pas de full sans l'accord du fabricant.",
    "alt": [
     "choke",
     "full",
@@ -1384,7 +1368,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "fusil juxtaposé"
    ],
-   "note": "Rare en ball-trap.",
+   "note": "Rare en tir aux plateaux.",
    "conf": "high",
    "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
   },
@@ -1460,7 +1444,7 @@ window.GLOSSARY_I18N.fr = {
   "chamber": {
    "term_local": "chambre",
    "short": "La partie arrière du canon où se loge la cartouche ; sa longueur est marquée.",
-   "long": "La chambre est légèrement plus large que l'âme pour que la cartouche puisse s'y loger. Sa longueur est poinçonnée sur le canon, par exemple 70 mm ou 76 mm. La longueur indiquée sur une boîte de cartouches correspond à la douille ouverte après le tir ; elle ne doit donc pas dépasser la longueur de la chambre : tirer des cartouches plus longues est dangereux. Le ball-trap utilise le plus souvent des cartouches 12/70. Avant un entraînement à sec ou un transport, vérifiez toujours que les chambres sont vides.",
+   "long": "La chambre est légèrement plus large que l'âme pour que la cartouche puisse s'y loger. Sa longueur est poinçonnée sur le canon, par exemple 70 mm ou 76 mm. La longueur indiquée sur une boîte de cartouches correspond à la douille ouverte après le tir ; elle ne doit donc pas dépasser la longueur de la chambre : tirer des cartouches plus longues est dangereux. Le tir aux plateaux utilise le plus souvent des cartouches 12/70. Avant un entraînement à sec ou un transport, vérifiez toujours que les chambres sont vides.",
    "alt": [
     "chambrage (70 / 76 mm)"
    ],
@@ -1470,7 +1454,7 @@ window.GLOSSARY_I18N.fr = {
   "rib": {
    "term_local": "bande de visée",
    "short": "La bande de visée sur le dessus des canons, généralement ventilée, avec un guidon à son extrémité.",
-   "long": "La bande est une bande de métal le long du canon supérieur. Une bande ventilée comporte des ouvertures pour que l'air chaud au-dessus des canons déforme moins la vision. À l'extrémité de la bande se trouve un guidon, parfois complété d'un guidon intermédiaire. En ball-trap, on ne vise pas le long de la bande comme avec une carabine : on regarde le plateau et on perçoit la bande en vision périphérique. La quantité de bande que l'on voit fusil épaulé dépend de la hauteur du busc et constitue un élément important de la conformation du fusil.",
+   "long": "La bande est une bande de métal le long du canon supérieur. Une bande ventilée comporte des ouvertures pour que l'air chaud au-dessus des canons déforme moins la vision. À l'extrémité de la bande se trouve un guidon, parfois complété d'un guidon intermédiaire. En tir aux plateaux, on ne vise pas le long de la bande comme avec une carabine : on regarde le plateau et on perçoit la bande en vision périphérique. La quantité de bande que l'on voit fusil épaulé dépend de la hauteur du busc et constitue un élément important de la conformation du fusil.",
    "alt": [
     "bande",
     "bande ventilée",
@@ -1515,7 +1499,7 @@ window.GLOSSARY_I18N.fr = {
   "gun-fit": {
    "term_local": "conformation",
    "short": "Adapter un fusil au tireur (longueur de crosse, hauteur du busc, avantage) pour qu'il tire là où l'œil regarde.",
-   "long": "En ball-trap, l'œil fait office d'organe de visée ; le fusil doit donc s'épauler de façon que l'œil se retrouve chaque fois au même endroit au-dessus de la bande. La conformation porte sur la longueur de crosse, la hauteur du busc, l'avantage et d'autres dimensions. Un fusil bien conformé tire plus juste, frappe moins l'épaule et la joue et permet de se concentrer sur le plateau. La conformation se contrôle sur une plaque de gerbe et en tirant avec un entraîneur ou un conformateur. Les enfants grandissent : la conformation des jeunes tireurs doit être revue régulièrement.",
+   "long": "En tir aux plateaux, l'œil fait office d'organe de visée ; le fusil doit donc s'épauler de façon que l'œil se retrouve chaque fois au même endroit au-dessus de la bande. La conformation porte sur la longueur de crosse, la hauteur du busc, l'avantage et d'autres dimensions. Un fusil bien conformé tire plus juste, frappe moins l'épaule et la joue et permet de se concentrer sur le plateau. La conformation se contrôle sur une plaque de gerbe et en tirant avec un entraîneur ou un conformateur. Les enfants grandissent : la conformation des jeunes tireurs doit être revue régulièrement.",
    "alt": [
     "raccord",
     "crosse conformée",
@@ -1550,12 +1534,11 @@ window.GLOSSARY_I18N.fr = {
   "eye-dominance": {
    "term_local": "œil directeur",
    "short": "L'œil qui commande lorsqu'on regarde avec les deux yeux ; il influe sur la façon de tirer et sur la conformation du fusil.",
-   "long": "Lorsque nous regardons avec les deux yeux, le cerveau privilégie l'un d'eux, l'œil directeur. En ball-trap, c'est lui qui doit regarder le long de la bande ; la dominance oculaire détermine donc l'épaule sur laquelle on épaule et l'avantage nécessaire à la crosse. Le test le plus simple : tendez les bras, formez une petite ouverture entre vos mains, regardez un objet lointain à travers avec les deux yeux, puis fermez chaque œil tour à tour. L'œil qui voit encore l'objet est votre œil directeur. La dominance peut être partielle et évoluer avec l'âge ; refaites donc le test avec un entraîneur.",
+   "long": "Lorsque nous regardons avec les deux yeux, le cerveau privilégie l'un d'eux, l'œil directeur. En tir aux plateaux, c'est lui qui doit regarder le long de la bande ; la dominance oculaire détermine donc l'épaule sur laquelle on épaule et l'avantage nécessaire à la crosse. Le test le plus simple : tendez les bras, formez une petite ouverture entre vos mains, regardez un objet lointain à travers avec les deux yeux, puis fermez chaque œil tour à tour. L'œil qui voit encore l'objet est votre œil directeur. La dominance peut être partielle et évoluer avec l'âge ; refaites donc le test avec un entraîneur.",
    "alt": [
     "dominance oculaire"
    ],
-   "conf": "medium",
-   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
+   "conf": "medium"
   },
   "gun-fitter": {
    "term_local": "Conformateur",
@@ -1699,8 +1682,7 @@ window.GLOSSARY_I18N.fr = {
     "plateau en cloche"
    ],
    "note": "Ne pas traduire par « chandelle » (= vertical en français).",
-   "conf": "medium",
-   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
+   "conf": "medium"
   },
   "biodegradable-target": {
    "term_local": "plateau biodégradable",
@@ -1718,8 +1700,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "anticipation"
    ],
-   "conf": "high",
-   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
+   "conf": "high"
   },
   "pick-up-point": {
    "term_local": "Point de prise (d'acquisition)",
@@ -1738,8 +1719,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "zone de casse"
    ],
-   "conf": "medium",
-   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
+   "conf": "medium"
   },
   "stance": {
    "term_local": "position",
@@ -1749,8 +1729,7 @@ window.GLOSSARY_I18N.fr = {
     "placement des pieds",
     "posture"
    ],
-   "conf": "medium",
-   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
+   "conf": "medium"
   },
   "gun-mount": {
    "term_local": "épaulé",
@@ -1770,12 +1749,11 @@ window.GLOSSARY_I18N.fr = {
   "master-eye": {
    "term_local": "œil directeur",
    "short": "L'œil dominant, qui doit regarder le long de la bande du fusil.",
-   "long": "En ball-trap, on tire généralement les deux yeux ouverts, et l'œil directeur remplace l'organe de visée. Si l'œil directeur correspond à l'épaule sur laquelle on épaule (œil droit, épaule droite), tout est simple. Sinon, le cerveau bascule sur l'autre œil et le fusil tire sur le côté. C'est pourquoi un entraîneur vérifie l'œil directeur dès la première leçon. Des lunettes avec un petit point sur le verre, ou la fermeture d'un œil, aident lorsque la dominance est partielle ou croisée.",
+   "long": "En tir aux plateaux, on tire généralement les deux yeux ouverts, et l'œil directeur remplace l'organe de visée. Si l'œil directeur correspond à l'épaule sur laquelle on épaule (œil droit, épaule droite), tout est simple. Sinon, le cerveau bascule sur l'autre œil et le fusil tire sur le côté. C'est pourquoi un entraîneur vérifie l'œil directeur dès la première leçon. Des lunettes avec un petit point sur le verre, ou la fermeture d'un œil, aident lorsque la dominance est partielle ou croisée.",
    "alt": [
     "œil dominant"
    ],
-   "conf": "medium",
-   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
+   "conf": "medium"
   },
   "cross-dominance": {
    "term_local": "Dominance croisée",
@@ -1799,15 +1777,13 @@ window.GLOSSARY_I18N.fr = {
     "position des canons",
     "point de départ"
    ],
-   "conf": "medium",
-   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
+   "conf": "medium"
   },
   "maintained-lead": {
    "term_local": "avance maintenue",
    "short": "Méthode d'avance où les canons restent devant le plateau et, au moment du tir, se déplacent à sa vitesse en gardant l'écart.",
    "long": "Avec l'avance maintenue, les canons rejoignent la ligne du plateau devant lui, pas derrière. D'abord ils vont un peu moins vite que le plateau, qui se rapproche jusqu'à ce que l'écart paraisse juste ; ensuite les canons se déplacent à la vitesse du plateau, l'écart ne change plus, et le coup part pendant que le fusil bouge encore. Elle convient souvent aux plateaux lointains et prévisibles, comme les longs croisés, car elle laisse le temps de lire l'avance. Son défaut typique est de mesurer l'écart : l'œil glisse vers les canons et le fusil ralentit ou s'arrête. On la décrit souvent comme la méthode la plus difficile à apprendre ; demandez donc à un entraîneur sur quels plateaux elle vous convient.",
-   "conf": "medium",
-   "src": "https://leblogduballtrap.fr/site/parcours-expert-les-secrets-du-parcours-de-chasse-et-du-compak/"
+   "conf": "medium"
   },
   "pull-away": {
    "term_local": "Pull-away (départ sur le plateau)",
@@ -1829,8 +1805,7 @@ window.GLOSSARY_I18N.fr = {
     "rattrapage"
    ],
    "note": "« Swing » chez les entraîneurs français.",
-   "conf": "medium",
-   "src": "https://www.lemontagnard-outdoor.fr/actualites/tir-sportif/techniques-et-entrainement-au-ball-trap-maitrisez-lart-de-casser-plus-de-plateaux"
+   "conf": "medium"
   },
   "follow-through": {
    "term_local": "accompagnement",
@@ -1840,8 +1815,7 @@ window.GLOSSARY_I18N.fr = {
     "continuer le swing",
     "suivi"
    ],
-   "conf": "medium",
-   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
+   "conf": "medium"
   },
   "stopping-the-gun": {
    "term_local": "arrêter le fusil",
@@ -1851,8 +1825,7 @@ window.GLOSSARY_I18N.fr = {
     "arrêt du swing",
     "arrêter le mouvement"
    ],
-   "conf": "medium",
-   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
+   "conf": "medium"
   },
   "head-lift": {
    "term_local": "lever la tête",
@@ -1862,8 +1835,7 @@ window.GLOSSARY_I18N.fr = {
     "décoller la joue",
     "décrocher la joue"
    ],
-   "conf": "medium",
-   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
+   "conf": "medium"
   },
   "flinch": {
    "term_local": "coup de doigt",
@@ -1873,8 +1845,7 @@ window.GLOSSARY_I18N.fr = {
     "blocage"
    ],
    "note": "Terme FFBT pour le flinch (blocage du doigt / à-coup) ; « flinch » aussi connu.",
-   "conf": "high",
-   "src": "https://www.ffbt.asso.fr/pages/federation-de-ball-trap/medical/le-coup-de-doigt-une-hantise-pour-certains-tireurs.html"
+   "conf": "high"
   },
   "pre-shot-routine": {
    "term_local": "Routine de pré-tir",
@@ -1907,8 +1878,7 @@ window.GLOSSARY_I18N.fr = {
     "épauler à vide",
     "exercices à vide"
    ],
-   "conf": "medium",
-   "src": "https://www.lemontagnard-outdoor.fr/actualites/divers/ball-trap-maitrisez-les-7-fondamentaux-pour-ameliorer-votre-tir"
+   "conf": "medium"
   },
   "training-diary": {
    "term_local": "Carnet d'entraînement",
@@ -1994,7 +1964,7 @@ window.GLOSSARY_I18N.fr = {
     "compak": "Le règlement du Compak n'exige pas de ligne sur le gilet."
    },
    "alt": [
-    "gilet de ball-trap",
+    "gilet de tir",
     "veste de tir"
    ],
    "note": "FITASC : ligne tracée sur le gilet ; « veste de tir » aussi dans le texte.",
@@ -2061,8 +2031,7 @@ window.GLOSSARY_I18N.fr = {
     "poche à cartouches",
     "pochette de ceinture"
    ],
-   "conf": "medium",
-   "src": "https://www.cote-chasse.com/equipement-du-chasseur/tir-sportif/ball-trap.html"
+   "conf": "medium"
   },
   "shooting-gloves": {
    "term_local": "Gants de tir",
@@ -2168,16 +2137,6 @@ window.GLOSSARY_I18N.fr = {
    "term_local": "Bilan de la saison",
    "short": "Un résumé de saison sur ClayArena : les compétitions clés de l'année, les vainqueurs et les performances.",
    "long": "Les bilans de saison de ClayArena rassemblent les temps forts de l'année en Sporting™ et en Compak® Sporting : compétitions clés, vainqueurs et performances marquantes. Pour un débutant, c'est un moyen simple de savoir qui est en forme et quelles épreuves ont le plus compté. Avec les vidéos de compétitions et le calendrier, ils aident à s'orienter rapidement dans le monde du tir sur plateaux. Après votre propre compétition, jetez-y un œil : votre performance y figure peut-être aussi."
-  },
-  "olympic-trap": {
-   "term_local": "Fosse olympique",
-   "short": "Discipline olympique : les plateaux partent d'une fosse et s'éloignent du tireur selon des angles variables, et deux coups peuvent être tirés sur chacun.",
-   "long": "En fosse olympique, les lanceurs sont cachés dans une fosse devant une ligne de cinq postes de tir, et les plateaux s'éloignent du tireur à grande vitesse selon des angles et des hauteurs variables. Deux coups peuvent être tirés sur chaque plateau. Le tireur appelle fusil déjà épaulé, et le plateau part à l'appel. La discipline est régie par l'ISSF, et non par la FITASC, et fait partie du programme olympique. Pour les tireurs de Sporting™ et de Compak® Sporting, la fosse est un bon entraînement aux réactions rapides sur les plateaux fuyants."
-  },
-  "skeet": {
-   "term_local": "Skeet",
-   "short": "Discipline à deux cabanes (haute et basse) dont les plateaux se croisent ; les postes sont disposés en demi-cercle.",
-   "long": "Au skeet, deux cabanes de lancement se trouvent aux extrémités d'un demi-cercle : une cabane haute d'un côté et une cabane basse de l'autre. Les plateaux volent l'un vers l'autre selon des trajectoires fixes, et le tireur se déplace entre les postes du demi-cercle en tirant des simples et des doublés. Le skeet olympique est régi par l'ISSF ; il existe aussi des variantes nationales, comme l'English Skeet, aux règles un peu différentes. Les trajectoires du skeet étant fixes, la discipline convient bien pour travailler la technique sur les plateaux croisés. Le choke skeet, très ouvert, lui doit son nom."
   },
   "guardian-consent": {
    "term_local": "Autorisation parentale",
@@ -2623,7 +2582,7 @@ window.GLOSSARY_I18N.fr = {
    ],
    "conf": "high",
    "short": "Médicament cardiaque qui ralentit le cœur et réduit les tremblements ; selon la liste de l'AMA, il est interdit au tir en permanence, en et hors compétition.",
-   "long": "Exemples : propranolol, aténolol, bisoprolol et métoprolol. Ils sont interdits dans les sports de précision, car un cœur plus lent et moins de tremblements peuvent stabiliser le fusil. La liste de l'AMA nomme le tir par la fédération olympique (ISSF) et le para-tir (IPC), pas par la FITASC ; considérez pourtant les bêtabloquants comme interdits aussi en Sporting™ et en Compak® Sporting : les agences nationales antidopage peuvent contrôler lors des compétitions nationales, les organisateurs peuvent appliquer la liste de l'AMA, et beaucoup de tireurs participent aussi à des épreuves ISSF. Si un médecin vous a prescrit un bêtabloquant, ne l'arrêtez pas seul ; demandez bien à l'avance une alternative autorisée ou une AUT. Ceci n'est pas un avis médical."
+   "long": "Exemples : propranolol, aténolol, bisoprolol et métoprolol. Ils sont interdits dans les sports de précision, car un cœur plus lent et moins de tremblements peuvent stabiliser le fusil. La liste de l'AMA ne cite pas à part le Sporting™ ni le Compak® Sporting ; considérez pourtant les bêtabloquants comme interdits là aussi : les agences nationales antidopage peuvent contrôler lors des compétitions nationales, et les organisateurs peuvent appliquer la liste de l'AMA. Si un médecin vous a prescrit un bêtabloquant, ne l'arrêtez pas seul ; demandez bien à l'avance une alternative autorisée ou une AUT. Ceci n'est pas un avis médical."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2646,8 +2605,8 @@ window.GLOSSARY_I18N.fr = {
     "œil calme"
    ],
    "conf": "medium",
-   "short": "Le dernier regard stable sur le plateau avant le mouvement ; chez les tireurs expérimentés, il commence en général plus tôt et dure plus longtemps.",
-   "long": "Les chercheurs mesurent le quiet eye comme le dernier regard stable avant le début d'un mouvement. Par rapport à des tireurs moins expérimentés, les tireurs d'élite en fosse et en skeet le commencent plus tôt et le tiennent plus longtemps, et il est en général plus long sur les plateaux cassés que sur les manqués. Sous l'effet du stress, il raccourcit souvent. Il n'y a pas de nombre magique de millisecondes à viser : au tir aux plateaux, cela veut dire voir le plateau tôt et nettement et garder les yeux dessus pendant tout le tir. La plupart des données viennent de la fosse et du skeet olympiques ; cela se transpose probablement au Sporting™ et au Compak® Sporting."
+   "short": "Le dernier regard stable sur le plateau avant le mouvement ; chez les sportifs expérimentés, il commence en général plus tôt et dure plus longtemps.",
+   "long": "Les chercheurs mesurent le quiet eye comme le dernier regard stable avant le début d'un mouvement. Dans les études de nombreux sports, les sportifs plus expérimentés le commencent en général plus tôt et le tiennent plus longtemps, et il est en général plus long sur les essais réussis que sur les essais manqués. Sous l'effet du stress, il raccourcit souvent. Il n'y a pas de nombre magique de millisecondes à viser : au tir aux plateaux, cela veut dire voir le plateau tôt et nettement et garder les yeux dessus pendant tout le tir. Cela n'a pas été étudié en Sporting™ ni en Compak® Sporting ; cela y fonctionne probablement de la même façon."
   },
   "self-talk": {
    "term_local": "discours interne",
@@ -2685,7 +2644,7 @@ window.GLOSSARY_I18N.fr = {
    ],
    "conf": "medium",
    "short": "Tirer nettement en dessous de son niveau habituel à cause de la pression, souvent quand on se met à piloter consciemment un geste qui d'habitude se fait tout seul.",
-   "long": "À ne pas confondre avec le choke du canon. Sous la pression, un tireur peut se mettre à contrôler pas à pas l'épaulé ou le swing, et l'inquiétude détourne les yeux du plateau. Signes : un tempo qui change, l'épaulé qu'on vérifie, les yeux sur le canon ou le guidon, les scores qu'on surveille. Ce qui peut aider : la routine de pré-tir et le tempo habituels, un seul mot-clé simple sur le plateau, des objectifs de processus et un entraînement sous une pression qui augmente pas à pas. La plupart des recherches viennent d'autres sports et de la fosse et du skeet olympiques ; cela se transpose probablement au Sporting™ et au Compak® Sporting. Si la pression gâche régulièrement vos compétitions, un psychologue du sport peut vous aider."
+   "long": "À ne pas confondre avec le choke du canon. Sous la pression, un tireur peut se mettre à contrôler pas à pas l'épaulé ou le swing, et l'inquiétude détourne les yeux du plateau. Signes : un tempo qui change, l'épaulé qu'on vérifie, les yeux sur le canon ou le guidon, les scores qu'on surveille. Ce qui peut aider : la routine de pré-tir et le tempo habituels, un seul mot-clé simple sur le plateau, des objectifs de processus et un entraînement sous une pression qui augmente pas à pas. La plupart des recherches viennent du laboratoire et d'autres sports, pas du Sporting™ ni du Compak® Sporting ; cela y fonctionne probablement de la même façon. Si la pression gâche régulièrement vos compétitions, un psychologue du sport peut vous aider."
   },
   "reset-routine": {
    "term_local": "routine de réinitialisation",
@@ -2798,14 +2757,6 @@ window.GLOSSARY_I18N.fr = {
    "term_local": "boule de verre",
    "conf": "medium",
    "short": "Boule de verre lancée en l'air comme cible au XIXe siècle, première alternative aux oiseaux vivants ; le plateau d'argile l'a ensuite remplacée."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Fédération internationale de tir sportif"
-   ],
-   "conf": "high",
-   "short": "La Fédération internationale de tir sportif, qui régit les disciplines olympiques de tir, dont la fosse et le skeet olympiques ; le Sporting™ et le Compak® Sporting relèvent de la FITASC."
   },
   "hydration": {
    "term_local": "hydratation",

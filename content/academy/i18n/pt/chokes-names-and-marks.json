@@ -1,37 +1,41 @@
 {
   "id": "chokes-names-and-marks",
   "lang": "pt",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "e7b2ef05",
     "summary": "22d688ff",
-    "gear-chokes-p3": "dc515f35",
+    "gear-chokes-p3": "4abeb666",
     "chokes-names-and-marks-p1": "81bdc547",
-    "chokes-names-and-marks-p2": "ef07b37b",
+    "chokes-names-and-marks-p2": "ee920fef",
     "chokes-names-and-marks-p5": "b6f30907",
-    "chokes-names-and-marks-p6": "1b8fdee5",
+    "chokes-names-and-marks-p6": "45f53a59",
     "chokes-names-and-marks-p7": "c0e23a16",
-    "chokes-names-and-marks-kp1": "5c513a88",
+    "chokes-names-and-marks-kp1": "bd2bbbd7",
     "chokes-names-and-marks-kp2": "76965b4c",
     "gear-chokes-kp3": "93bc009b",
     "chokes-names-and-marks-kp4": "8755ddeb",
     "chokes-names-and-marks-kp5": "07a69a82",
     "chokes-names-and-marks-q1": "c8c32e0e",
     "chokes-names-and-marks-q2": "daf50685",
-    "chokes-names-and-marks-q4": "4f31ea8b",
+    "chokes-names-and-marks-q4": "8aac2eff",
     "chokes-names-and-marks-q3": "9a68ecf3",
     "gear-chokes-q3": "ded3001e",
     "chokes-names-and-marks-dyk": "7ad51e91"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Nomes, estrangulamentos e marcações dos chokes",
   "summary": "Do cilindro ao full: estrangulamentos típicos em milímetros e thou, as frações 1/4–1/2–3/4 e as marcações por estrelas usadas no {{tm:sporting}} e no {{tm:compak}}. Os valores são aproximados e variam entre fabricantes.",
   "body": {
-    "gear-chokes-p3": "Os nomes vêm do inglês, do mais aberto ao mais fechado: cylinder, skeet, improved cylinder, light modified, modified, improved modified, full. Na Europa dizem-se muitas vezes como frações: quarto (improved cylinder), meio (modified), três quartos (improved modified) e full. Muitas armas italianas marcam os chokes com estrelas, e aí a regra é ao contrário: quantas mais estrelas, mais aberto é o choke.",
+    "gear-chokes-p3": "Os nomes vêm do inglês, do mais aberto ao mais fechado: cylinder, improved cylinder, light modified, modified, improved modified, full. Na Europa dizem-se muitas vezes como frações: quarto (improved cylinder), meio (modified), três quartos (improved modified) e full. Muitas armas italianas marcam os chokes com estrelas, e aí a regra é ao contrário: quantas mais estrelas, mais aberto é o choke.",
     "chokes-names-and-marks-p1": "Abaixo estão {{term:constriction|estrangulamentos}} típicos para o calibre 12. Um thou é um milésimo de polegada, cerca de 0,025 mm. Os valores reais dependem do fabricante e até do diâmetro interno de cada cano em particular.",
     "chokes-names-and-marks-p2": [
       "Cylinder: sem estrangulamento, 0 mm.",
-      "Skeet: um estrangulamento muito ligeiro, cerca de 0,1–0,15 mm (4–6 thou); na Europa por vezes chamado 1/8.",
+      "1/8: um estrangulamento muito ligeiro, cerca de 0,1–0,15 mm (4–6 thou), entre cylinder e improved cylinder; os fabricantes dão-lhe nomes diferentes.",
       "Improved cylinder (IC): cerca de 0,25 mm (cerca de 10 thou), na Europa 1/4, um choke de quarto.",
       "Light modified (LM): cerca de 0,35–0,4 mm (cerca de 15 thou), por vezes marcado 3/8.",
       "Modified (M): cerca de 0,5 mm (cerca de 20 thou), 1/2, um choke de meio.",
@@ -39,13 +43,13 @@
       "Full: cerca de 0,9–1 mm (35–40 thou), 1/1 ou simplesmente Full. Existem chokes ainda mais fechados (extra full), mas o tiro aos pratos raramente precisa deles."
     ],
     "chokes-names-and-marks-p5": "As frações são práticas na conversa, mas não são milímetros exatos: o 1/2 de um fabricante pode diferir ligeiramente do de outro.",
-    "chokes-names-and-marks-p6": "Os fabricantes italianos, a Beretta por exemplo, usam {{term:star-marks|marcação por estrelas}}: cinco estrelas para cylinder, quatro para improved cylinder (1/4), três para modified (1/2), duas para improved modified (3/4) e uma para full. Os chokes skeet não têm estrelas. Outros fabricantes fazem entalhes no rebordo do tubo, usam faixas coloridas ou imprimem o nome (IC, M, LM).",
+    "chokes-names-and-marks-p6": "Os fabricantes italianos, a Beretta por exemplo, usam {{term:star-marks|marcação por estrelas}}: cinco estrelas para cylinder, quatro para improved cylinder (1/4), três para modified (1/2), duas para improved modified (3/4) e uma para full. Outros fabricantes fazem entalhes no rebordo do tubo, usam faixas coloridas ou imprimem o nome (IC, M, LM).",
     "chokes-names-and-marks-p7": "A fonte mais fiável é a marcação no próprio choke ou o manual da arma. Em caso de dúvida, um {{term:gunsmith|armeiro}} mede o estrangulamento com um calibrador num minuto."
   },
   "note": {},
   "phrases": {},
   "key_points": {
-    "chokes-names-and-marks-kp1": "Cylinder 0 · Skeet ~0,1–0,15 mm · IC ~0,25 mm (1/4) · LM ~0,35–0,4 mm",
+    "chokes-names-and-marks-kp1": "Cylinder 0 · 1/8 ~0,1–0,15 mm · IC ~0,25 mm (1/4) · LM ~0,35–0,4 mm",
     "chokes-names-and-marks-kp2": "M ~0,5 mm (1/2) · IM ~0,65–0,75 mm (3/4) · Full ~0,9–1 mm (1/1)",
     "gear-chokes-kp3": "Frações: quarto = improved cylinder, meio = modified, três quartos = improved modified, full.",
     "chokes-names-and-marks-kp4": "Estrelas: quantas mais, mais aberto é o choke.",
@@ -79,7 +83,7 @@
         "a": "Modified",
         "b": "Improved cylinder",
         "c": "Full",
-        "d": "Skeet"
+        "d": "Cylinder"
       },
       "explain": "Meio (1/2) é modified; quarto é improved cylinder, três quartos é improved modified."
     },

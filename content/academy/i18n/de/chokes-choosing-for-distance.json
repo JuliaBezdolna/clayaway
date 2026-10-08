@@ -1,25 +1,25 @@
 {
  "id": "chokes-choosing-for-distance",
  "lang": "de",
- "base_rev": 1,
+ "base_rev": 2,
  "h": {
   "title": "899ed9f0",
   "summary": "2433ecf5",
   "chokes-choosing-for-distance-p1": "18c7faa3",
   "chokes-choosing-for-distance-cmp1": "ed251d47",
-  "chokes-choosing-for-distance-p2": "0b25f4b2",
+  "chokes-choosing-for-distance-p2": "ab096462",
   "chokes-choosing-for-distance-p7": "bfeb8f32",
   "chokes-choosing-for-distance-p3": "8cd85c18",
   "chokes-choosing-for-distance-p4": "1bec6b23",
   "chokes-choosing-for-distance-p5": "c2793354",
   "chokes-choosing-for-distance-p6": "3a797ad0",
   "chokes-choosing-for-distance-kp1": "85a0aef4",
-  "chokes-choosing-for-distance-kp2": "7ef1ef53",
+  "chokes-choosing-for-distance-kp2": "e3ca528b",
   "chokes-choosing-for-distance-kp3": "316eb7bc",
   "chokes-choosing-for-distance-kp4": "a668cfcb",
   "chokes-choosing-for-distance-kp5": "42fc8973",
   "chokes-choosing-for-distance-dyk": "6d4e4236",
-  "chokes-choosing-for-distance-q1": "5f3c346d",
+  "chokes-choosing-for-distance-q1": "ba4efb0a",
   "chokes-choosing-for-distance-q2": "fa23b5d9",
   "chokes-choosing-for-distance-q3": "a8a0d8ea",
   "chokes-choosing-for-distance-q4": "ae2aa937"
@@ -38,7 +38,7 @@
    "compak": "Die Scheiben fliegen über ein markiertes {{term:fly-over-zone|Rechteck}}, 35–40 m breit und 25 m tief, vor den Schießpositionen."
   },
   "chokes-choosing-for-distance-p2": [
-   "Bis etwa 20 m: Cylinder oder Skeet.",
+   "Bis etwa 20 m: Cylinder oder ein sehr leichter Choke (1/8).",
    "Etwa 20–30 m: Improved Cylinder (1/4) oder Light Modified.",
    "Etwa 30–35 m: Modified (1/2).",
    "Über etwa 35 m: Improved Modified (3/4), gelegentlich Full."
@@ -53,7 +53,7 @@
  "phrases": {},
  "key_points": {
   "chokes-choosing-for-distance-kp1": "Wählen Sie den Choke für die Entfernung, auf die Sie schießen werden.",
-  "chokes-choosing-for-distance-kp2": "Grober Leitfaden: bis 20 m Cylinder oder Skeet, 20–30 m IC oder LM, 30–35 m M, über 35 m IM.",
+  "chokes-choosing-for-distance-kp2": "Grober Leitfaden: bis 20 m Cylinder oder 1/8, 20–30 m IC oder LM, 30–35 m M, über 35 m IM.",
   "chokes-choosing-for-distance-kp3": "Offenerer Choke für den ersten Schuss, engerer für den zweiten.",
   "chokes-choosing-for-distance-kp4": "Ein Paar IC und M ist eine beliebte Allround-Wahl.",
   "chokes-choosing-for-distance-kp5": "Einsteiger kommen bei nahen und mittleren Scheiben meist mit offeneren Chokes besser zurecht."
@@ -64,7 +64,7 @@
    "q": "Welcher Choke passt grob zu einer Scheibe auf etwa 30–35 m?",
    "options": {
     "a": "Cylinder",
-    "b": "Skeet",
+    "b": "Improved cylinder (1/4)",
     "c": "Modified (1/2)",
     "d": "Extra Full"
    },

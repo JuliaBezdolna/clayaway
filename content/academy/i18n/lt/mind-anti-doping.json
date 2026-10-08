@@ -1,13 +1,13 @@
 {
   "id": "mind-anti-doping",
   "lang": "lt",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "15628df1",
+    "summary": "db8fb42a",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p2": "5031b8cc",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -27,7 +27,7 @@
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "21c3c7e9",
+    "mind-anti-doping-q1": "f7c71a6a",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
@@ -40,11 +40,11 @@
     "origin": null
   },
   "title": "Vaistai ir antidopingas: beta adrenoblokatoriai, TUE, papildai",
-  "summary": "WADA sąrašas visą laiką draudžia beta adrenoblokatorius olimpiniame šaudyme ir parašaudyme (ISSF, IPC); laikykite juos draudžiamais ir {{tm:sporting}} bei {{tm:compak}} rungtyse. Kaip patikrinti vaistą, kada reikia TUE, ir ką žinoti apie papildus, CBD ir alkoholį.",
+  "summary": "WADA sąrašas visą laiką draudžia beta adrenoblokatorius šaudyme; laikykite juos draudžiamais ir {{tm:sporting}} bei {{tm:compak}} rungtyse. Kaip patikrinti vaistą, kada reikia TUE, ir ką žinoti apie papildus, CBD ir alkoholį.",
   "body": {
     "health-alcohol-medication-weather-p3": "{{term:championship|Čempionatuose}} ir didesnėse varžybose jūsų gali patikrinti dopingo kontrolė. Tarptautines taisykles nustato Pasaulinė antidopingo agentūra (WADA), kuri kasmet skelbia naują Draudžiamą sąrašą.",
     "mind-anti-doping-beta": "{{term:beta-blocker|Beta adrenoblokatoriai}} – širdies vaistai, kurie lėtina širdies plakimą ir mažina virpėjimą; pavyzdžiai – propranololis, atenololis, bisoprololis, metoprololis. Svarbu: {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "Sąraše „šaudymas“ reiškia olimpinę šaudymo federaciją (ISSF) ir parašaudymą (IPC); FITASC tenai nepaminėta. Vis tiek laikykite beta adrenoblokatorius draudžiamais ir {{tm:sporting}} bei {{tm:compak}} rungtyse. Jūsų šalies {{term:anti-doping|antidopingo}} agentūra gali tikrinti nacionaliniuose renginiuose, organizatoriai gali taikyti WADA sąrašą, o daug šaulių varžosi ir ISSF renginiuose.",
+    "mind-anti-doping-p2": "Sąraše {{tm:sporting}} ir {{tm:compak}} rungtys atskirai nepaminėtos: vis tiek laikykite beta adrenoblokatorius draudžiamais ir jose. Jūsų šalies {{term:anti-doping|antidopingo}} agentūra gali tikrinti nacionaliniuose renginiuose, o organizatoriai gali taikyti WADA sąrašą.",
     "mind-anti-doping-p3": "Jie draudžiami tikslumo sporto šakose, nes lėtesnė širdis ir mažesnis virpėjimas gali padaryti šautuvą stabilesnį.",
     "mind-anti-doping-warn": "Jei gydytojas jums paskyrė beta adrenoblokatorių, pavyzdžiui, nuo spaudimo, širdies ritmo sutrikimų, migrenos ar tremoro, patys jo nenutraukite. Gerai iš anksto prieš varžybas pasitarkite su gydytoju ir savo federacija apie leistiną alternatyvą arba TUE.",
     "mind-anti-doping-p4": "{{term:therapeutic-use-exemption|TUE}} (leidimas vartoti gydymo tikslais) – oficialus leidimas vartoti draudžiamą vaistą dėl medicininės priežasties. Vieno recepto nepakanka: draudžiama medžiaga lieka draudžiama, tad prašymą teikite iš anksto, dažniausiai savo šalies antidopingo agentūrai (federacija patars, kuriai konkrečiai).",
@@ -75,7 +75,7 @@
       "q": "Kada pagal WADA sąrašą beta adrenoblokatoriai draudžiami stendiniame šaudyme?",
       "options": {
         "a": "Tik varžybų dienomis",
-        "b": "Tik olimpinėse žaidynėse ir pasaulio čempionatuose",
+        "b": "Tik pasaulio ir Europos čempionatuose",
         "c": "Visą laiką, varžybų metu ir ne"
       },
       "explain": "2026 ir 2027 metų sąrašai šaudymą žymi kaip rungtį, kurioje jie draudžiami visą laiką. Laikykite tai taisykle ir stendiniame šaudyme."

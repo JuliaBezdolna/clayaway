@@ -1,6 +1,6 @@
 {
   "id": "history-fitasc-founding",
-  "rev": 3,
+  "rev": 4,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -38,9 +38,7 @@
     "compak-sporting",
     "chief-referee",
     "championship",
-    "layout",
-    "olympic-trap",
-    "skeet"
+    "layout"
   ],
   "rule_refs": [
     {
@@ -58,8 +56,7 @@
   ],
   "facts": [
     "community.fitasc-founded",
-    "community.fitasc-renamed",
-    "community.olympic-to-uit"
+    "community.fitasc-renamed"
   ],
   "sources": [
     {
@@ -119,20 +116,14 @@
     {
       "k": "history-fitasc-founding-p5",
       "t": "p",
-      "en": "FITASC's main job is the rules. It writes and updates the international rules of {{tm:sporting}} and {{tm:compak}}. It does the same for other disciplines, such as Universal Trench (a trap-style discipline with five machines in a trench) and Helice (shot at spinning plastic targets with wings). Many national federations base their own events on these rules.",
-      "uk": "Головна справа FITASC — правила. Федерація пише й оновлює міжнародні правила {{tm:sporting}} і {{tm:compak}}. Те саме вона робить для інших дисциплін, як-от Universal Trench (схожа на трап, із п’ятьма машинками в траншеї) і Helice (пластикові мішені з крильцями, що обертаються в польоті). Багато національних федерацій будують на цих правилах і свої змагання."
+      "en": "FITASC's main job is the rules. It writes and updates the international rules of {{tm:sporting}} and {{tm:compak}}. Many national federations base their own events on these rules.",
+      "uk": "Головна справа FITASC — правила. Федерація пише й оновлює міжнародні правила {{tm:sporting}} і {{tm:compak}}. Багато національних федерацій будують на цих правилах і свої змагання."
     },
     {
       "k": "history-fitasc-founding-p6",
       "t": "p",
       "en": "FITASC also keeps the international calendar and decides where and when the World and European {{term:championship|Championships}} are held. It approves the {{term:layout|layouts}} of international {{tm:sporting}} competitions. And it keeps an eye on the referees: the {{term:chief-referee|chief referee}} of an international event needs a FITASC qualification.",
       "uk": "Ще FITASC веде міжнародний календар і вирішує, де й коли проходитимуть {{term:championship|чемпіонати}} світу та Європи. Вона затверджує {{term:layout|майданчики}} міжнародних змагань з {{tm:sporting}}. І наглядає за суддями: {{term:chief-referee|головному судді}} міжнародного змагання потрібна кваліфікація FITASC."
-    },
-    {
-      "k": "history-fitasc-founding-p7",
-      "t": "p",
-      "en": "Do not confuse FITASC with the ISSF, the International Shooting Sport Federation. The ISSF governs the Olympic disciplines, including {{term:olympic-trap|Olympic Trap}} and {{term:skeet|Skeet}}. FITASC's own history page says that {{fact:community.olympic-to-uit}} both Olympic clay disciplines have been run by the ISSF (which was then called the UIT).",
-      "uk": "Не плутайте FITASC з ISSF — Міжнародною федерацією стрілецького спорту. ISSF керує олімпійськими дисциплінами, зокрема {{term:olympic-trap|олімпійським трапом}} і {{term:skeet|скітом}}. На сторінці історії FITASC сказано, що {{fact:community.olympic-to-uit}} обома олімпійськими стендовими дисциплінами опікується ISSF (тоді вона називалася UIT)."
     },
     {
       "k": "history-fitasc-founding-tip",
@@ -158,11 +149,6 @@
       "k": "history-fitasc-founding-kp3",
       "en": "FITASC writes the rules of {{tm:sporting}} and {{tm:compak}} and keeps the international calendar.",
       "uk": "FITASC пише правила {{tm:sporting}} і {{tm:compak}} та веде міжнародний календар."
-    },
-    {
-      "k": "history-fitasc-founding-kp4",
-      "en": "Olympic Trap and Skeet are governed by the ISSF, not by FITASC.",
-      "uk": "Олімпійськими трапом і скітом керує ISSF, а не FITASC."
     }
   ],
   "did_you_know": {
@@ -230,32 +216,33 @@
       }
     },
     {
-      "k": "history-fitasc-founding-q3",
+      "k": "history-fitasc-founding-q-rules",
+      "disc": "both",
       "q": {
-        "en": "Which federation governs Olympic Trap and Skeet?",
-        "uk": "Яка федерація керує олімпійськими трапом і скітом?"
+        "en": "What is FITASC's main job?",
+        "uk": "Яка головна справа FITASC?"
       },
       "options": [
         {
           "k": "a",
-          "en": "The ISSF",
-          "uk": "ISSF"
+          "en": "Making targets and cartridges for clubs",
+          "uk": "Виготовляти мішені й набої для клубів"
         },
         {
           "k": "b",
-          "en": "FITASC",
-          "uk": "FITASC"
+          "en": "Writing the rules of {{tm:sporting}} and {{tm:compak}}",
+          "uk": "Писати правила {{tm:sporting}} і {{tm:compak}}"
         },
         {
           "k": "c",
-          "en": "Each national club",
-          "uk": "Кожен національний клуб"
+          "en": "Running the shoots of all local clubs",
+          "uk": "Проводити змагання всіх місцевих клубів"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "explain": {
-        "en": "The ISSF governs the Olympic disciplines; FITASC governs {{tm:sporting}}, {{tm:compak}} and other non-Olympic ones.",
-        "uk": "Олімпійськими дисциплінами керує ISSF, а FITASC — {{tm:sporting}}, {{tm:compak}} та іншими неолімпійськими."
+        "en": "FITASC writes and updates the international rules of {{tm:sporting}} and {{tm:compak}}; clubs and national federations run the shoots.",
+        "uk": "FITASC пише й оновлює міжнародні правила {{tm:sporting}} і {{tm:compak}}, а змагання проводять клуби й національні федерації."
       }
     }
   ],
@@ -268,18 +255,16 @@
     "history-fitasc-founding-p2": "41d16f55",
     "history-fitasc-founding-p3": "349b4acd",
     "history-fitasc-founding-p4": "b91d9303",
-    "history-fitasc-founding-p5": "cea3034e",
+    "history-fitasc-founding-p5": "56f7243e",
     "history-fitasc-founding-p6": "36f65938",
-    "history-fitasc-founding-p7": "367280bd",
     "history-fitasc-founding-tip": "b2fb8b64",
     "history-fitasc-founding-kp1": "5c15bbb0",
     "history-fitasc-founding-kp2": "71a0f042",
     "history-fitasc-founding-kp3": "bd682721",
-    "history-fitasc-founding-kp4": "072c9259",
     "history-fitasc-founding-dyk": "bcdb5449",
     "history-fitasc-founding-q1": "cd408368",
     "history-fitasc-founding-q2": "e69d4f96",
-    "history-fitasc-founding-q3": "1edaf8cf"
+    "history-fitasc-founding-q-rules": "7dc0b428"
   },
   "todo": {
     "audit": [],

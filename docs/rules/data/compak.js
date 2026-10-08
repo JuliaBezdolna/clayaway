@@ -395,19 +395,19 @@ window.RULES.push({
      "page": 7,
      "title_en": "Three compulsory trajectories",
      "title_uk": "Три обов’язкові траєкторії",
-     "summary_en": "Every Compak must include three compulsory trajectories: one from left to right crossing sides AB and CD, one from right to left crossing sides CD and AB, and one going away that crosses side BC. The going-away target may come from a trap in a trench or on the ground in front of the stations, or from a raised trap (tower) behind them.",
-     "summary_uk": "Кожен Compak має містити три обов’язкові траєкторії: зліва направо через сторони AB і CD, справа наліво через сторони CD і AB, а також віддаляльну, що перетинає сторону BC. Віддаляльну мішень можна подавати з машинки в окопі або на землі перед місцями чи з піднятої машинки (вежі) позаду них.",
+     "summary_en": "Every Compak must include three compulsory trajectories: one from left to right crossing sides AB and CD, one from right to left crossing sides CD and AB, and one going away that crosses side BC. The going-away target may come from a trap sunk into the ground or standing on it in front of the stations, or from a raised trap (tower) behind them.",
+     "summary_uk": "Кожен Compak має містити три обов’язкові траєкторії: зліва направо через сторони AB і CD, справа наліво через сторони CD і AB, а також віддаляльну, що перетинає сторону BC. Віддаляльну мішень можна подавати з машинки, заглибленої в землю чи поставленої на землі перед місцями, або з піднятої машинки (вежі) позаду них.",
      "points_en": [
       "Left to right: crosses AB and CD.",
       "Right to left: crosses CD and AB.",
       "Receding: crosses BC.",
-      "Receding trap: trench/ground in front, or tower behind."
+      "Receding trap: sunk into or on the ground in front, or tower behind."
      ],
      "points_uk": [
       "Зліва направо: через AB і CD.",
       "Справа наліво: через CD і AB.",
       "Віддаляльна: через BC.",
-      "Машинка для віддаляльної: окоп/земля попереду або вежа позаду."
+      "Машинка для віддаляльної: у заглибленні чи на землі попереду або вежа позаду."
      ],
      "terms": [
       "trajectory",
@@ -420,11 +420,11 @@ window.RULES.push({
       "right to left",
       "receding",
       "going away",
-      "trench",
+      "pit",
       "обов’язкові траєкторії",
       "перетин",
       "віддаляльна",
-      "окоп",
+      "заглиблення",
       "вежа"
      ],
      "quick_guide": false
@@ -4979,8 +4979,8 @@ window.RULES.push({
   {
    "q_en": "Organiser: which trajectories are compulsory?",
    "q_uk": "Організатору: які траєкторії обов’язкові?",
-   "a_en": "Three: a left-to-right crosser over AB and CD, a right-to-left crosser over CD and AB, and a going-away target over BC (from a trench/ground trap in front or a tower behind). The rest are free but must stay short.",
-   "a_uk": "Три: перетин зліва направо через AB і CD, справа наліво через CD і AB та віддаляльна мішень через BC (з машинки в окопі/на землі попереду або з вежі позаду). Решта вільні, але мають бути короткими.",
+   "a_en": "Three: a left-to-right crosser over AB and CD, a right-to-left crosser over CD and AB, and a going-away target over BC (from a trap sunk into or standing on the ground in front, or from a tower behind). The rest are free but must stay short.",
+   "a_uk": "Три: перетин зліва направо через AB і CD, справа наліво через CD і AB та віддаляльна мішень через BC (з машинки в заглибленні чи на землі попереду або з вежі позаду). Решта вільні, але мають бути короткими.",
    "refs": [
     "ch3-compulsory-trajectories",
     "ch3-free-trajectories"

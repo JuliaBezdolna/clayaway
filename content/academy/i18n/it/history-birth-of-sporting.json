@@ -17,11 +17,15 @@
     "history-birth-of-sporting-kp4": "09496634",
     "history-birth-of-sporting-kp5": "a5533b1d",
     "history-birth-of-sporting-dyk": "b3159068",
-    "history-birth-of-sporting-q1": "da705507",
+    "history-birth-of-sporting-q1": "c6442731",
     "history-birth-of-sporting-q2": "84cb530c",
     "history-birth-of-sporting-q3": "50e67c53"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Come nacque il {{tm:sporting}}",
   "summary": "Il {{tm:sporting}} nasce dal desiderio dei cacciatori di allenarsi su piattelli che volano come la selvaggina. Negli anni '60 la FITASC ne fece una disciplina internazionale.",
   "body": {
@@ -45,17 +49,29 @@
   "quiz": {
     "history-birth-of-sporting-q1": {
       "q": "Cosa significa Parcours de Chasse?",
-      "options": { "a": "«Pedana olimpica»", "b": "«Tiro rapido»", "c": "«Percorso di caccia»" },
+      "options": {
+        "a": "«Poligono di tiro»",
+        "b": "«Tiro rapido»",
+        "c": "«Percorso di caccia»"
+      },
       "explain": "Il nome riflette l'idea: i piattelli si muovono come la selvaggina durante una battuta di caccia."
     },
     "history-birth-of-sporting-q2": {
       "q": "Quali anni indicano i documenti FITASC per l'inizio del {{tm:sporting}}?",
-      "options": { "a": "1960 e 1967", "b": "1921 e 1938", "c": "1989 e 1991" },
+      "options": {
+        "a": "1960 e 1967",
+        "b": "1921 e 1938",
+        "c": "1989 e 1991"
+      },
       "explain": "Il regolamento indica il 1960 in copertina e il 1967 nell'ultima pagina, quindi diciamo: gli anni '60."
     },
     "history-birth-of-sporting-q3": {
       "q": "Quanti piattelli si tirano su un percorso del {{tm:sporting}}?",
-      "options": { "a": "10", "b": "25", "c": "100" },
+      "options": {
+        "a": "10",
+        "b": "25",
+        "c": "100"
+      },
       "explain": "Su ogni percorso si tirano {{fact:targets.sporting-layout-targets}} (un doppietto conta due piattelli, quindi altri 10)."
     }
   }

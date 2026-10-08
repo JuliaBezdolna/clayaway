@@ -1,7 +1,7 @@
 {
   "id": "intro-what-is-clay-shooting",
   "lang": "hu",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "3ce678ed",
     "summary": "359557be",
@@ -9,7 +9,6 @@
     "sport-what-is-clay-p2": "54bc3515",
     "intro-what-is-clay-shooting-p2": "22c4489f",
     "sport-what-is-clay-p3": "aad8067c",
-    "sport-what-is-clay-p4": "6862a9dc",
     "sport-what-is-clay-p5": "52a34d7f",
     "intro-what-is-clay-shooting-p5": "9f7b18f6",
     "intro-what-is-clay-shooting-p6": "16cb66f9",
@@ -19,12 +18,11 @@
     "sport-what-is-clay-kp1": "fdfda924",
     "sport-what-is-clay-kp2": "e7d80445",
     "sport-what-is-clay-kp3": "c4886be6",
-    "sport-what-is-clay-kp4": "5aa7fa8d",
     "intro-what-is-clay-shooting-kp4": "5dcc36b1",
     "intro-what-is-clay-shooting-dyk": "a0d70d52",
     "sport-what-is-clay-q1": "e119f9b3",
     "sport-what-is-clay-q2": "79369cea",
-    "sport-what-is-clay-q3": "231a967e",
+    "sport-what-is-clay-q3": "741d6c62",
     "intro-what-is-clay-shooting-q1": "8867030b",
     "intro-what-is-clay-shooting-q2": "7fb50f25",
     "intro-what-is-clay-shooting-q3": "546c5d4e"
@@ -41,7 +39,6 @@
     "sport-what-is-clay-p2": "Minden korongot egy dobógép nevű gép dob ki. Útját a levegőben (vagy a földön) röppályának nevezzük. A fegyver sima furatú sörétes puska (smooth-bore): belül nincsenek csavart huzagok, mint a golyós fegyvereknél. Olyan töltényt lő ki, amely apró szemekből, sörétből áll, és ezek kis felhővé szóródnak szét. Ezért a lövész nem oda irányítja a fegyvert, ahol a korong éppen van, hanem ahová repül.",
     "intro-what-is-clay-shooting-p2": "A dobógép megpörgeti a korongot, és meghatározott sebességgel és szögben dobja ki. A röppályák nagyon változatosak lehetnek: a korong jöhet feléd, távolodhat tőled, keresztben repülhet előtted, magasan szállhat, vagy a földön gurulhat.",
     "sport-what-is-clay-p3": "Ez a kurzus a nemzetközi FITASC szövetség két versenyszámáról (a koronglövészet két fajtájáról) szól. A Parcours de Chasse – Sporting™ (röviden Sporting™) a vadászatot utánozza. Dobógépei gyakran rejtettek, bokrok vagy fák mögé bújtatottak, és a korongok úgy repülnek, mint egy fogoly, egy kacsa vagy egy fácán, vagy úgy gurulnak, mint egy nyúl. A {{tm:compak}} ennek kompakt változata: ugyanilyen változatos korongok, de egyetlen kis mezőn, öt egy vonalban álló lőállással és hat dobógéppel.",
-    "sport-what-is-clay-p4": "Hallani fogsz a Trapről és a Skeetről is. Ezek más versenyszámok, rögzített röppályákkal. A Skeetben a röppályák mindig ugyanazok; a Trapben a korongok egy rögzített készletből, változó szögben repülnek, olyan sorrendben, amelyet a lövész nem ismer előre. Az olimpiai Trap és Skeet egy másik szövetséghez tartozik. Ne keverd össze a szabályaikat a {{tm:sporting}} vagy a {{tm:compak}} szabályaival.",
     "sport-what-is-clay-p5": "A találat azonnal látható: a korong eltörik, vagy legalább egy látható darab leválik róla. Ez az egyértelműség teszi a sportot könnyen nézhetővé, és neked is könnyen követhetővé már az első naptól.",
     "intro-what-is-clay-shooting-p5": "A sport a vadászatból nőtt ki. A lövészek egykor élő madarakon gyakoroltak; az 1800-as évek végétől kezdték ezeket korongok felváltani. Mára a koronglövészet önálló sportág, saját szabályokkal, bírókkal és nemzetközi versenyekkel. Több a történetéről: {{lesson:history-live-birds-to-clays}}.",
     "intro-what-is-clay-shooting-p6": "Lőhetsz egyszerűen szórakozásból, vagy versenyezhetsz is. Sokan azért jönnek a lőtérre, hogy egy napot a szabadban töltsenek barátokkal; néhányan később klubversenyeken és bajnokságokon is indulnak. A versenyszámok összehasonlítását az {{lesson:intro-disciplines}} óra tartalmazza."
@@ -65,7 +62,6 @@
     "sport-what-is-clay-kp1": "Dobógépekkel kidobott korongokra lőnek, nem élő állatokra.",
     "sport-what-is-clay-kp2": "A sörétes puska apró szemek (sörét) felhőjét lövi ki, ezért a lövész a korong elé irányít.",
     "sport-what-is-clay-kp3": "A {{tm:sporting}} a vadászatot utánozza természetes terepen; a {{tm:compak}} ennek kompakt változata egyetlen mezőn.",
-    "sport-what-is-clay-kp4": "A trap és a skeet más versenyszámok, saját szabályokkal.",
     "intro-what-is-clay-shooting-kp4": "A találat azonnal látható: a korong eltörik, vagy látható darab válik le róla."
   },
   "did_you_know": "A korongokat szándékosan törékenyre készítik, így már néhány sörétszem is szét tudja törni őket.",
@@ -94,7 +90,7 @@
       "q": "Melyik állítás igaz a {{tm:compak}}-ra?",
       "options": {
         "a": "Kompakt változat egyetlen mezőn, lőállásokkal egy vonalban",
-        "b": "Ez a Skeet versenyszám olimpiai változata",
+        "b": "Erdőben szétszórt lőállásokból álló pálya",
         "c": "Csak élő vadra lőnek vele a terepen",
         "d": "Egyetlen dobógépet és egyetlen lőállást használ"
       },

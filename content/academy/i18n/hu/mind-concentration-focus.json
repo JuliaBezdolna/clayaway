@@ -1,7 +1,7 @@
 {
   "id": "mind-concentration-focus",
   "lang": "hu",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "9b84feba",
     "summary": "181d6e3f",
@@ -12,8 +12,8 @@
     "basics-eyes-p4": "980c7cb2",
     "mind-concentration-focus-sim": "e65f1a6a",
     "mind-concentration-focus-p8": "72cebf0f",
-    "mind-concentration-focus-p9": "e0357652",
-    "mind-concentration-focus-p10": "f7366569",
+    "mind-concentration-focus-p9": "31722f51",
+    "mind-concentration-focus-p10": "188a0a26",
     "mind-concentration-focus-p5": "5c7d9e57",
     "mind-concentration-focus-p6": "32829321",
     "mind-concentration-focus-kp1": "ad64d958",
@@ -24,7 +24,7 @@
     "mind-concentration-focus-dyk": "a8e9ebb6",
     "mind-concentration-focus-q1": "f592a3e4",
     "mind-concentration-focus-q2": "3dd8e102",
-    "mind-concentration-focus-q4": "2ddaaf43",
+    "mind-concentration-focus-q4": "a7579c73",
     "mind-concentration-focus-q3": "741aa211"
   },
   "review": {
@@ -40,8 +40,8 @@
     "basics-eyes-p4": "Fókusz: nyugodt, tág {{term:soft-focus|laza fókusz}}, amíg a szemed a korongfelvételi pontnál vár; majd {{term:hard-focus|éles fókusz}} a korongon magán, gyakran annak {{term:leading-edge|elülső élén}}. Néhány lövész visszanéz a csövekre vagy a {{term:bead|célgömbre}} (a sín végén lévő kis pöttyre), hogy ellenőrizze az {{term:lead|elétartását}}. Az elétartás az, mennyire mutatsz a korong elé; az ilyen ellenőrzés gyakran lelassítja vagy megállítja a fegyvert.",
     "mind-concentration-focus-sim": "Animáció: laza fókusz a korongfelvételi pont körül, majd éles fókusz a korong elülső élén.",
     "mind-concentration-focus-p8": "A csövek a látásod szélén maradnak. A tapasztalt lövészek gyakran azt mondják, lövés közben alig veszik észre a fegyvert, mert a szemük a korongon van.",
-    "mind-concentration-focus-p9": "A kutatók a mozdulat előtti utolsó nyugodt tekintetet {{term:quiet-eye|quiet eye}}-nak hívják. A kevésbé képzett lövészekhez képest az élvonalbeli trap- és skeet-lövészek korábban kezdik, és tovább tartják, és hosszabb találat esetén, mint mellőlövésnél.",
-    "mind-concentration-focus-p10": "Nincs rögzített milliszekundumszám, ameddig tartani kell. Számodra ez egyszerűen azt jelenti: lásd korán a korongot, és tartsd rajta a szemed, amíg a fegyver simán mozog. Egy tanulmányban 20 skeet-lövész gyakorolta ezt úgy, hogy nézte a saját szemének és lövéseinek videóját, és utána több korongot talált el. A kutatás az olimpiai trapből és skeetből származik; valószínűleg ugyanúgy működik a {{tm:sporting}}-ban és a {{tm:compak}}-ban is.",
+    "mind-concentration-focus-p9": "A kutatók a mozdulat előtti utolsó nyugodt tekintetet {{term:quiet-eye|quiet eye}}-nak hívják. Sok sportág kutatásai szerint a képzettebb sportolók általában korábban kezdik és tovább tartják, és a sikeres próbálkozásoknál gyakran hosszabb, mint a sikerteleneknél.",
+    "mind-concentration-focus-p10": "Nincs rögzített milliszekundumszám, ameddig tartani kell. Számodra ez egyszerűen azt jelenti: lásd korán a korongot, és tartsd rajta a szemed, amíg a fegyver simán mozog. Magában a {{tm:sporting}}-ban és a {{tm:compak}}-ban ezt nem vizsgálták; valószínűleg ott is ugyanúgy működik.",
     "mind-concentration-focus-p5": "A figyelmet gyakran gondolatok vonják el, nem a korong: „mi van, ha mellélövök”, „hányat hibáztam már”. Az aggodalom elveszi a figyelmet a feladattól, különösen nyomás alatt. Egy {{term:process-goal|folyamatcél}}, mint „lásd az elülső élt”, feladatot ad a figyelmednek: lásd {{lesson:mind-process-goals}}.",
     "mind-concentration-focus-p6": "A figyelem gyakorolható: rövid körök tiszta rutinnal, gyakorlás kis zavaró tényezőkkel, és olyan gyakorlatok, amelyekben mozgó dolgokat követsz a szemeddel. Ha a figyelmed több kör után elkalandozik, ez normális fáradtság; egy rövid szünet jobban segít, mint az erőltetés."
   },
@@ -74,13 +74,13 @@
       "explain": "A szemed a korongon marad, gyakran az elülső élén; a csövek és a célgömb a látásod szélén maradnak."
     },
     "mind-concentration-focus-q4": {
-      "q": "Mit mondanak a kutatások a nyugodt tekintetről sörétesfegyver-lövészeknél?",
+      "q": "Mit mondanak a sok sportágban végzett kutatások a nyugodt tekintetről?",
       "options": {
-        "a": "Korábban kezdődik, és tovább tart találatkor",
+        "a": "A képzettebb sportolók általában korábban kezdik és tovább tartják",
         "b": "Pontos milliszekundumszámig kell tartania",
         "c": "Csak a puska- és pisztolylövészetben számít"
       },
-      "explain": "Találatkor az utolsó tekintet korábban kezdődik, és tovább tart, de nincs egyetemes szám, amire célozni kellene."
+      "explain": "Sok sportágban az utolsó nyugodt tekintet a képzettebb sportolóknál és a sikeres próbálkozásoknál általában korábban kezdődik és tovább tart, de nincs egyetemes szám, amire törekedni kellene."
     },
     "mind-concentration-focus-q3": {
       "q": "Mi a folyamatcél?",

@@ -1,6 +1,6 @@
 {
   "id": "clayarena-what-is-clayarena",
-  "rev": 2,
+  "rev": 3,
   "status": "ready",
   "plan": "keep",
   "level": 2,
@@ -64,8 +64,8 @@
     {
       "k": "clayarena-what-is-clayarena-p1",
       "t": "p",
-      "en": "ClayArena (clayarena.com) is a website about clay shooting, focused on {{tm:sporting}} and {{tm:compak}}. It shows who shot and how, where the next competitions are and where you can train. Some other disciplines, such as trap and skeet, appear there too.",
-      "uk": "ClayArena (clayarena.com) — сайт про стендову стрільбу, передусім про {{tm:sporting}} і {{tm:compak}}. Тут видно, хто і як стріляв, де пройдуть наступні змагання і де можна потренуватися. Є там і деякі інші дисципліни, наприклад трап і скит."
+      "en": "ClayArena (clayarena.com) is a website about clay shooting: {{tm:sporting}} and {{tm:compak}}. It shows who shot and how, where the next competitions are and where you can train.",
+      "uk": "ClayArena (clayarena.com) — сайт про стендову стрільбу: {{tm:sporting}} і {{tm:compak}}. Тут видно, хто і як стріляв, де пройдуть наступні змагання і де можна потренуватися."
     },
     {
       "k": "clayarena-what-is-clayarena-p2",
@@ -216,8 +216,8 @@
     {
       "k": "clayarena-what-is-clayarena-q3",
       "q": {
-        "en": "Which disciplines is ClayArena focused on?",
-        "uk": "На яких дисциплінах зосереджена ClayArena?"
+        "en": "Which disciplines is ClayArena about?",
+        "uk": "Про які дисципліни ClayArena?"
       },
       "options": [
         {
@@ -232,14 +232,14 @@
         },
         {
           "k": "c",
-          "en": "Only Olympic trap",
-          "uk": "Лише олімпійський трап"
+          "en": "Rifle and pistol shooting",
+          "uk": "Стрільба з гвинтівки й пістолета"
         }
       ],
       "correct": "b",
       "explain": {
-        "en": "ClayArena is focused on these two FITASC disciplines; some other disciplines appear there too.",
-        "uk": "ClayArena зосереджена на цих двох дисциплінах FITASC; є там і деякі інші дисципліни."
+        "en": "ClayArena is about these two FITASC disciplines.",
+        "uk": "ClayArena — про ці дві дисципліни FITASC."
       }
     }
   ],
@@ -247,7 +247,7 @@
   "h_uk": {
     "title": "bc76e59e",
     "summary": "761d8c91",
-    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p1": "56e26387",
     "clayarena-what-is-clayarena-p2": "771824c6",
     "clayarena-what-is-clayarena-p3": "17d83580",
     "clayarena-what-is-clayarena-p4": "3d7784c7",
@@ -260,7 +260,7 @@
     "clayarena-what-is-clayarena-q1": "25b43879",
     "clayarena-what-is-clayarena-q2": "565010d9",
     "clayarena-what-is-clayarena-q4": "08498f4c",
-    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+    "clayarena-what-is-clayarena-q3": "db6bb2a0"
   },
   "todo": {
     "audit": [],

@@ -17,10 +17,14 @@
     "culture-environment-kp4": "2287dfa2",
     "culture-environment-dyk": "72216fc3",
     "culture-environment-q1": "f1f15aa4",
-    "culture-environment-q2": "d259c5af",
+    "culture-environment-q2": "04c72e94",
     "culture-environment-q3": "76f91560"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Prendersi cura dell'ambiente",
   "summary": "Uno stand è parte della natura. Bossoli nel cestino, piattelli ecologici, piombo assente dove lo richiede la legge, e rispetto per il terreno.",
   "body": {
@@ -43,17 +47,29 @@
   "quiz": {
     "culture-environment-q1": {
       "q": "Cosa si fa con i bossoli dopo una serie?",
-      "options": { "a": "Lasciarli dove sono caduti", "b": "Metterli nel cestino previsto", "c": "Scalciarli sotto la pedana" },
+      "options": {
+        "a": "Lasciarli dove sono caduti",
+        "b": "Metterli nel cestino previsto",
+        "c": "Scalciarli sotto la pedana"
+      },
       "explain": "I bossoli vanno nel cestino quando c'è, e chi usa un semiautomatico raccoglie i propri bossoli espulsi."
     },
     "culture-environment-q2": {
       "q": "Dove può uno stand richiedere pallini d'acciaio?",
-      "options": { "a": "Dove la legge limita il piombo", "b": "Solo alle gare olimpiche", "c": "Solo nei giorni molto ventosi" },
+      "options": {
+        "a": "Dove la legge limita il piombo",
+        "b": "Solo ai campionati internazionali",
+        "c": "Solo nei giorni molto ventosi"
+      },
       "explain": "Le regole sul piombo dipendono dal paese e dalla zona, spesso vicino all'acqua; informati in anticipo."
     },
     "culture-environment-q3": {
       "q": "Cosa c'è di speciale nei piattelli biodegradabili?",
-      "options": { "a": "Sono più pesanti di quelli standard", "b": "Brillano al crepuscolo per la visibilità", "c": "Non hanno pece e si decompongono più facilmente" },
+      "options": {
+        "a": "Sono più pesanti di quelli standard",
+        "b": "Brillano al crepuscolo per la visibilità",
+        "c": "Non hanno pece e si decompongono più facilmente"
+      },
       "explain": "Sono fatti senza pece, quindi ne lasciano meno nel terreno."
     }
   }

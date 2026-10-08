@@ -167,7 +167,7 @@ window.GLOSSARY = {
    "aliases": [
     "fitasc"
    ],
-   "cat": "Discipline",
+   "cat": "Organisation",
    "short_uk": "Міжнародна федерація, що керує дисциплінами Sporting і Compak Sporting та видає їхні правила.",
    "short_en": "The international federation that governs Sporting and Compak Sporting and publishes their rules.",
    "long_uk": "FITASC — міжнародна федерація мисливських стрілецьких дисциплін, зокрема Sporting і Compak Sporting. Вона затверджує layout для міжнародних змагань, видає міжнародні суддівські сертифікати й зберігає записи про виключення п’ять років. Цей довідник спирається на редакції правил від 01/01/2025. Чинним є лише офіційний текст FITASC; ClayArena подає власний переказ простими словами з посиланнями на джерело.",
@@ -402,7 +402,7 @@ window.GLOSSARY = {
    "cat": "Ground & layout",
    "short_uk": "Усі спортивні споруди стрілецького комплексу.",
    "short_en": "All the sporting installations of the shooting ground.",
-   "long_uk": "У глосарії Compak range — це всі спортивні споруди комплексу, а Compak Sporting — установка саме для цієї дисципліни. Слово трапляється й у правилах безпеки: рушницю заряджають і тримають «у бік поля» (down the range), туди, де летять мішені. Захист слуху обов’язковий для всіх, хто на стенді або поруч.",
+   "long_uk": "У глосарії Compak range — це всі спортивні споруди комплексу, а Compak Sporting — установка саме для цієї дисципліни. Слово є й у правилах безпеки: рушницю заряджають і тримають «у бік поля» (down the range), туди, де летять мішені. Захист слуху обов’язковий для всіх, хто на стенді або поруч.",
    "long_en": "In the Compak glossary the range means all the sporting installations, while a Compak Sporting is the installation for this discipline. The word also appears in safety rules: the gun is loaded and kept pointing 'down the range', towards the area where targets fly. Hearing protection is compulsory for everyone on or near the range.",
    "uk_usage": "«стенд», «стрілецький комплекс»",
    "rule_refs": [
@@ -599,8 +599,8 @@ window.GLOSSARY = {
    "cat": "Ground & layout",
    "short_uk": "Піднята позиція машинки позаду номерів Compak, щонайменше на 4 м вище за них.",
    "short_en": "A raised trap position behind the Compak stations, at least 4 m above them.",
-   "long_uk": "Машинки на Compak можна ставити вільно, якщо жодна мішень, навіть No Bird, не загрожує людям. Машинка позаду номерів має стояти щонайменше на 4 м вище за них. Обов’язкова траєкторія «від стрільця», що перетинає сторону BC, може йти з такої вежі або з машинки в окопі чи на землі перед номерами.",
-   "long_en": "Compak traps may be placed freely as long as no target, even a No Bird, can endanger anyone. A trap placed behind the shooting positions must be at least 4 m higher than the stations. The compulsory going-away trajectory crossing side BC may come from such a tower or from a trap in a trench or on the ground in front of the stations.",
+   "long_uk": "Машинки на Compak можна ставити вільно, якщо жодна мішень, навіть No Bird, не загрожує людям. Машинка позаду номерів має стояти щонайменше на 4 м вище за них. Обов’язкова траєкторія «від стрільця», що перетинає сторону BC, може йти з такої вежі або з машинки, заглибленої в землю чи поставленої на землі перед номерами.",
+   "long_en": "Compak traps may be placed freely as long as no target, even a No Bird, can endanger anyone. A trap placed behind the shooting positions must be at least 4 m higher than the stations. The compulsory going-away trajectory crossing side BC may come from such a tower or from a trap sunk into the ground or standing on it in front of the stations.",
    "disciplines": {
     "compak": "Правило 4 м записане в правилах Compak (2.4)."
    },
@@ -1012,7 +1012,7 @@ window.GLOSSARY = {
    "cat": "Targets",
    "short_uk": "Найменші спеціальні мішені, зазвичай діаметром 60 мм; виробники вживають «mini» і «super mini» по-різному, тож орієнтуйтеся на міліметри в меню.",
    "short_en": "The smallest special clays, usually 60 mm across; makers use 'mini' and 'super mini' differently, so go by the millimetres on the menu.",
-   "long_uk": "Правила Sporting™ називають «super mini» серед дозволених мішеней, але не вказують діаметра, а меню кожного місця має показувати спеціальні розміри, як-от 90, 70 і 60 мм. Правила Compak® Sporting дозволяють будь-які стандартні чи спеціальні мішені, зокрема 60 мм. У звичній мові міні — зазвичай 60 мм, але в меню трапляються й мішені 70 мм, а виробники вживають ці назви по-різному. Маленькі мішені здаються швидкими й далекими. Дивіться розмір у міліметрах у меню мішеней і уважно стежте за показом.",
+   "long_uk": "Правила Sporting™ називають «super mini» серед дозволених мішеней, але не вказують діаметра, а меню кожного місця має показувати спеціальні розміри, як-от 90, 70 і 60 мм. Правила Compak® Sporting дозволяють будь-які стандартні чи спеціальні мішені, зокрема 60 мм. У звичній мові міні — зазвичай 60 мм, але в меню бувають і мішені 70 мм, а виробники вживають ці назви по-різному. Маленькі мішені здаються швидкими й далекими. Дивіться розмір у міліметрах у меню мішеней і уважно стежте за показом.",
    "long_en": "The Sporting™ rules list 'super mini' among the permitted targets without giving a diameter, and the target menu of each stand must show special sizes such as 90, 70 and 60 mm. The Compak® Sporting rules allow any standard or special target, 60 mm included. In everyday use a mini is usually 60 mm, but some menus also show 70 mm targets, and makers do not use the names the same way. Small targets look fast and far away. Read the size in millimetres on the target menu and watch the presentation.",
    "uk_usage": "«міні», «супер-міні»",
    "rule_refs": [
@@ -1265,7 +1265,7 @@ window.GLOSSARY = {
    "cat": "Targets",
    "short_uk": "Оцінка траєкторії Sporting за тим, скільки мішеней розбиває середній стрілець.",
    "short_en": "The grading of a Sporting trajectory by how many targets an average shooter breaks.",
-   "long_uk": "Клас A — розбивають понад 80% мішеней, клас B — від 60% до 80%, клас C — від 40% до 60%. Рекомендований набір на місце — одна траєкторія A, дві B і одна C; п’ята одиночна може бути лише класу A або B. У дуплетах траєкторія класу C може трапитися лише раз на місці, бажано в парі з A; дуплет може бути B + B або B + A.",
+   "long_uk": "Клас A — розбивають понад 80% мішеней, клас B — від 60% до 80%, клас C — від 40% до 60%. Рекомендований набір на місце — одна траєкторія A, дві B і одна C; п’ята одиночна може бути лише класу A або B. У дуплетах траєкторія класу C може бути лише раз на місці, бажано в парі з A; дуплет може бути B + B або B + A.",
    "long_en": "Class A means more than 80% broken, class B from 60% to 80%, class C from 40% to 60%. The recommended mix for a stand is one A, two B and one C trajectory; a fifth single may only be class A or B. In doubles a class C trajectory may appear only once per stand, preferably with an A; a double may be B + B or B + A.",
    "disciplines": {
     "sporting": "Лише в Sporting (2.5)."
@@ -5390,8 +5390,8 @@ window.GLOSSARY = {
    "cat": "Results",
    "short_uk": "Окремий залік за віком і статтю поряд із загальним; у FITASC з 2027 року це Junior, Lady, Men, Senior, Veteran і Master.",
    "short_en": "A separate age and gender ranking alongside the open ranking; from 2027 FITASC uses Junior, Lady, Men, Senior, Veteran and Master.",
-   "long_uk": "З 1 січня 2027 року FITASC встановлює для Compak® Sporting, Parcours de Chasse – Sporting™ та інших своїх дисциплін шість категорій: Junior (13–20 років), Lady (з 13 років), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) і Master (з 73 років, чоловіки й жінки). Вік рахують за роком народження: нова категорія діє з 1 січня року, у якому стрільцеві виповнюється потрібний вік, незалежно від дня народження. Senior — не основна доросла категорія, а вікова група 56–65; основна доросла — Men. Командні заліки категорій мають по 3 стрільці (команда Men у Sporting — 4), а стрілець, включений до команди іншої категорії, мусить виступати в ній і особисто. У Compak рівність за перші три місця в кожній категорії розв’язують перестрілкою; якщо в перестрілці абсолютного заліку зійшлися стрільці однієї категорії, її результат зараховують і в категорії. Національні та клубні змагання можуть мати власні категорії — їх указує програма.",
-   "long_en": "From 1 January 2027 FITASC sets six categories for Compak® Sporting, Parcours de Chasse – Sporting™ and its other disciplines: Junior (13–20), Lady (from 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) and Master (from 73, men or women). Age counts by year of birth: a new category applies from 1 January of the year in which the shooter reaches the age, whatever the birthday. Senior is not the main adult category but the 56–65 age group; the main adult category is Men. Category teams have 3 shooters (the Men team in Sporting has 4), and a shooter selected for a team of another category must also enter that category individually. In Compak ties for the first three places in each category are decided by shoot-off; when shooters in an open-ranking shoot-off belong to the same category, the result also counts for that category. National and club events may use their own categories, as stated in the programme.",
+   "long_uk": "З 1 січня 2027 року FITASC встановлює для Compak® Sporting і Parcours de Chasse – Sporting™ шість категорій: Junior (13–20 років), Lady (з 13 років), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) і Master (з 73 років, чоловіки й жінки). Вік рахують за роком народження: нова категорія діє з 1 січня року, у якому стрільцеві виповнюється потрібний вік, незалежно від дня народження. Senior — не основна доросла категорія, а вікова група 56–65; основна доросла — Men. Командні заліки категорій мають по 3 стрільці (команда Men у Sporting — 4), а стрілець, включений до команди іншої категорії, мусить виступати в ній і особисто. У Compak рівність за перші три місця в кожній категорії розв’язують перестрілкою; якщо в перестрілці абсолютного заліку зійшлися стрільці однієї категорії, її результат зараховують і в категорії. Національні та клубні змагання можуть мати власні категорії — їх указує програма.",
+   "long_en": "From 1 January 2027 FITASC sets six categories for Compak® Sporting and Parcours de Chasse – Sporting™: Junior (13–20), Lady (from 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) and Master (from 73, men or women). Age counts by year of birth: a new category applies from 1 January of the year in which the shooter reaches the age, whatever the birthday. Senior is not the main adult category but the 56–65 age group; the main adult category is Men. Category teams have 3 shooters (the Men team in Sporting has 4), and a shooter selected for a team of another category must also enter that category individually. In Compak ties for the first three places in each category are decided by shoot-off; when shooters in an open-ranking shoot-off belong to the same category, the result also counts for that category. National and club events may use their own categories, as stated in the programme.",
    "disciplines": {
     "sporting": "Команда Men — 4 стрільці, команди інших категорій — по 3.",
     "compak": "Окремі перестрілки за призові місця в кожній категорії."
@@ -5523,7 +5523,7 @@ window.GLOSSARY = {
    "short_uk": "Вікова категорія FITASC від 56 до 65 років — не основна доросла.",
    "short_en": "The FITASC age category from 56 to 65, not the main adult category.",
    "long_uk": "Senior — з 1 січня року, у якому стрільцеві виповнюється 56, до кінця року, у якому виповнюється 65; для 2027 року це народжені з 1962 по 1971 рік. Це пастка для новачків і перекладачів: Senior у FITASC — не «дорослі взагалі», а вікова група 56–65, тоді як основна доросла категорія — Men. Команда Senior — 3 стрільці категорій Senior, Veteran або Master. В інших видах спорту, у старих протоколах і в деяких національних програмах senior може означати дорослих загалом, тож дивіться таблицю конкретних змагань.",
-   "long_en": "Senior runs from 1 January of the year a shooter turns 56 until the end of the year they turn 65; for 2027 that means born 1962 to 1971. It is a trap for newcomers and interpreters: in FITASC Senior does not mean adults in general but the 56–65 age group, while the main adult category is Men. A Senior team has 3 shooters from the Senior, Veteran or Master categories. In other sports, in older results and in some national programmes senior may mean adults in general, so check the table of the specific event.",
+   "long_en": "Senior runs from 1 January of the year a shooter turns 56 until the end of the year they turn 65; for 2027 that means born 1962 to 1971. It is a pitfall for newcomers and interpreters: in FITASC Senior does not mean adults in general but the 56–65 age group, while the main adult category is Men. A Senior team has 3 shooters from the Senior, Veteran or Master categories. In other sports, in older results and in some national programmes senior may mean adults in general, so check the table of the specific event.",
    "uk_usage": "«сеньйори»",
    "rule_refs": [],
    "source_url": "https://www.fitasc.com/competitions/categories",

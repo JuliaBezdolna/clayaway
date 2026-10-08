@@ -16,7 +16,7 @@
     "mind-competition-nerves-p6": "fbacd42d",
     "mind-competition-nerves-p7": "24970c51",
     "mind-competition-nerves-p12": "b47ddcc8",
-    "mind-competition-nerves-warn": "b8ab16da",
+    "mind-competition-nerves-warn": "b9745f9d",
     "mind-competition-nerves-n1": "a534c2ce",
     "mind-competition-nerves-kp1": "8b08e4d4",
     "mind-competition-nerves-kp6": "7e97881b",
@@ -29,7 +29,11 @@
     "mind-competition-nerves-q3": "853b453a",
     "mind-competition-nerves-q5": "e741d853"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Il nervosismo e la vostra zona",
   "summary": "Il nervosismo prima di una gara è normale. Come trovare il livello che vi si adatta, leggere un cuore che batte veloce come prontezza, e sapere quando chiedere aiuto.",
   "body": {
@@ -44,7 +48,7 @@
     "mind-competition-nerves-p6": "Dopo un errore, non litigate con voi stessi in pubblico. Lanciare il fucile, o l'aggressività o la violenza verso l'arbitro o altri tiratori, conta come perdita di autocontrollo; il {{tm:sporting}} nomina anche il linguaggio offensivo. L'arbitro lo segnala alla {{term:jury|giuria}}, che può espellere il tiratore ({{rule:sporting:ch8-loss-of-control}}, {{rule:compak:ch21-loss-of-control}}). Espirate e pensate al piattello successivo: vedi {{lesson:mind-reset-after-miss}}.",
     "mind-competition-nerves-p7": "Iniziate con le {{term:club-shoot|gare di club}}: l'atmosfera è più calma, e imparate la procedura con meno pressione. Con ogni gara, il nervosismo diventa più familiare.",
     "mind-competition-nerves-p12": "Se il nervosismo resta forte per settimane, rovina il sonno o l'umore, o vi tiene lontani dal tiro, parlate con uno psicologo dello sport o un medico. È un passo normale, come andare da un istruttore per la tecnica.",
-    "mind-competition-nerves-warn": "Non prendete nulla per calmare il nervosismo senza un medico. Secondo la lista WADA, i betabloccanti sono proibiti in ogni momento nel tiro olimpico e paralimpico (ISSF, IPC), anche su prescrizione, a meno che non abbiate una TUE, un'esenzione ufficiale per uso medico. Considerateli proibiti anche nel {{tm:sporting}} e nel {{tm:compak}}: vedi {{lesson:mind-anti-doping}}."
+    "mind-competition-nerves-warn": "Non prendete nulla per calmare il nervosismo senza un medico. Secondo la lista WADA, i betabloccanti sono proibiti in ogni momento nel tiro, anche su prescrizione, a meno che non abbiate una TUE, un'esenzione ufficiale per uso medico. Considerateli proibiti anche nel {{tm:sporting}} e nel {{tm:compak}}: vedi {{lesson:mind-anti-doping}}."
   },
   "note": {
     "mind-competition-nerves-n1": "Prima della gara di vostro figlio, mantenete la mattinata calma e parlate di cose ordinarie. Non chiedete del punteggio che vi aspettate."
@@ -61,22 +65,38 @@
   "quiz": {
     "mind-competition-nerves-q4": {
       "q": "Cosa dicono le ricerche sul livello giusto di nervosismo?",
-      "options": { "a": "Varia da tiratore a tiratore", "b": "Più siete calmi, meglio tirate", "c": "Cinque su dieci va bene per tutti i tiratori" },
+      "options": {
+        "a": "Varia da tiratore a tiratore",
+        "b": "Più siete calmi, meglio tirate",
+        "c": "Cinque su dieci va bene per tutti i tiratori"
+      },
       "explain": "Le ricerche suggeriscono zone personali: alcuni tirano bene un po' agitati, altri da calmi."
     },
     "mind-competition-nerves-q2": {
       "q": "Quale indicazione a voi stessi è più utile?",
-      "options": { "a": "Solo non mancare questo", "b": "Guarda il piattello, fluido", "c": "Lo rovinerò di nuovo" },
+      "options": {
+        "a": "Solo non mancare questo",
+        "b": "Guarda il piattello, fluido",
+        "c": "Lo rovinerò di nuovo"
+      },
       "explain": "Un'indicazione che descrive l'azione desiderata tende ad aiutare più di una su cosa evitare."
     },
     "mind-competition-nerves-q3": {
       "q": "Cosa può succedere se un tiratore lancia il fucile a terra o diventa aggressivo verso l'arbitro?",
-      "options": { "a": "Niente, è solo emozione", "b": "Il piattello si tira semplicemente di nuovo", "c": "La giuria può espellere il tiratore" },
+      "options": {
+        "a": "Niente, è solo emozione",
+        "b": "Il piattello si tira semplicemente di nuovo",
+        "c": "La giuria può espellere il tiratore"
+      },
       "explain": "La perdita di autocontrollo viene segnalata alla giuria, che può espellere subito il tiratore, in entrambe le discipline."
     },
     "mind-competition-nerves-q5": {
       "q": "Il cuore vi batte veloce prima della pedana. Cosa potete dirvi?",
-      "options": { "a": "C'è qualcosa che non va, dovrei fermarmi", "b": "Sono pronto, questa è energia", "c": "Devo prima calmarmi completamente" },
+      "options": {
+        "a": "C'è qualcosa che non va, dovrei fermarmi",
+        "b": "Sono pronto, questa è energia",
+        "c": "Devo prima calmarmi completamente"
+      },
       "explain": "Leggere un cuore che batte veloce come prontezza ha aiutato le persone a rendere sotto pressione in diversi studi; non dovete essere completamente calmi per tirare bene."
     }
   }

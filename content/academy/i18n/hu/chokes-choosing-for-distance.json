@@ -1,25 +1,25 @@
 {
   "id": "chokes-choosing-for-distance",
   "lang": "hu",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "899ed9f0",
     "summary": "2433ecf5",
     "chokes-choosing-for-distance-p1": "18c7faa3",
     "chokes-choosing-for-distance-cmp1": "ed251d47",
-    "chokes-choosing-for-distance-p2": "0b25f4b2",
+    "chokes-choosing-for-distance-p2": "ab096462",
     "chokes-choosing-for-distance-p7": "bfeb8f32",
     "chokes-choosing-for-distance-p3": "8cd85c18",
     "chokes-choosing-for-distance-p4": "1bec6b23",
     "chokes-choosing-for-distance-p5": "c2793354",
     "chokes-choosing-for-distance-p6": "3a797ad0",
     "chokes-choosing-for-distance-kp1": "85a0aef4",
-    "chokes-choosing-for-distance-kp2": "7ef1ef53",
+    "chokes-choosing-for-distance-kp2": "e3ca528b",
     "chokes-choosing-for-distance-kp3": "316eb7bc",
     "chokes-choosing-for-distance-kp4": "a668cfcb",
     "chokes-choosing-for-distance-kp5": "42fc8973",
     "chokes-choosing-for-distance-dyk": "6d4e4236",
-    "chokes-choosing-for-distance-q1": "5f3c346d",
+    "chokes-choosing-for-distance-q1": "ba4efb0a",
     "chokes-choosing-for-distance-q2": "fa23b5d9",
     "chokes-choosing-for-distance-q3": "a8a0d8ea",
     "chokes-choosing-for-distance-q4": "ae2aa937"
@@ -38,7 +38,7 @@
       "compak": "A korongok egy megjelölt, 35–40 m széles és 25 m mély {{term:fly-over-zone|téglalap}} fölött repülnek a lőállások előtt."
     },
     "chokes-choosing-for-distance-p2": [
-      "Kb. 20 m-ig: cylinder vagy skeet.",
+      "Kb. 20 m-ig: cylinder vagy nagyon enyhe szűkület (1/8).",
       "Kb. 20–30 m: improved cylinder (1/4) vagy light modified.",
       "Kb. 30–35 m: modified (1/2).",
       "Kb. 35 m fölött: improved modified (3/4), és néha full."
@@ -53,7 +53,7 @@
   "phrases": {},
   "key_points": {
     "chokes-choosing-for-distance-kp1": "A szűkületet az adott lövés távolságához válaszd.",
-    "chokes-choosing-for-distance-kp2": "Közelítő útmutató: 20 m-ig cylinder vagy skeet, 20–30 m IC vagy LM, 30–35 m M, 35 m fölött IM.",
+    "chokes-choosing-for-distance-kp2": "Közelítő útmutató: 20 m-ig cylinder vagy 1/8, 20–30 m IC vagy LM, 30–35 m M, 35 m fölött IM.",
     "chokes-choosing-for-distance-kp3": "Nyitottabb szűkület az első lövéshez, szűkebb a másodikhoz.",
     "chokes-choosing-for-distance-kp4": "Az IC és M páros népszerű univerzális választás.",
     "chokes-choosing-for-distance-kp5": "A kezdőknek rendszerint jobban megy nyitottabb szűkületekkel a közeli és közepes korongokon."
@@ -64,7 +64,7 @@
       "q": "Melyik szűkület illik közelítőleg egy 30–35 m-es korongra?",
       "options": {
         "a": "Cylinder",
-        "b": "Skeet",
+        "b": "Improved cylinder (1/4)",
         "c": "Modified (1/2)",
         "d": "Extra full"
       },

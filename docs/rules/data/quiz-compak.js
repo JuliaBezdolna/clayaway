@@ -257,7 +257,7 @@ window.RULES_QUIZ.push({
    "level": 2,
    "topic": "Simultaneous double",
    "q_en": "On a simultaneous double the shooter breaks both targets with the first cartridge. It is the first time this has happened to this shooter. What is the referee's decision?",
-   "q_uk": "На simultaneous double стрілець розбиває обидві мішені першим пострілом. З цим стрільцем таке трапилося вперше. Яке рішення судді?",
+   "q_uk": "На simultaneous double стрілець розбиває обидві мішені першим пострілом. З цим стрільцем таке сталося вперше. Яке рішення судді?",
    "options": [
     {
      "en": "ONE-ONE: both targets scored",
@@ -1781,7 +1781,7 @@ window.RULES_QUIZ.push({
    ],
    "answer": 3,
    "explain_en": "The NO BIRD table applies only to the first failure in a round. When the same kind of failure happens a second time, every target not yet shot at in that round is ZERO (red card).",
-   "explain_uk": "Таблиця NO BIRD діє лише для першої відмови в серії. Коли така сама відмова трапляється вдруге, усі мішені цієї серії, по яких ще не стріляли, — ZERO (червона картка).",
+   "explain_uk": "Таблиця NO BIRD діє лише для першої відмови в серії. Коли така сама відмова стається вдруге, усі мішені цієї серії, по яких ще не стріляли, — ZERO (червона картка).",
    "refs": [
     "ch20-gun-failure-principle"
    ]

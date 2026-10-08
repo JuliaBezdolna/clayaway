@@ -1,25 +1,23 @@
 {
  "id": "intro-disciplines",
  "lang": "pt",
- "base_rev": 1,
+ "base_rev": 2,
  "h": {
-  "title": "dac19506",
-  "summary": "58295a84",
+  "title": "41ef701c",
+  "summary": "90e09529",
   "intro-disciplines-p1": "79e1fd27",
   "intro-disciplines-p2": "bad18039",
   "intro-disciplines-cmp": "1ddbb76f",
   "intro-disciplines-p3": "f274bc4d",
-  "intro-disciplines-p4": "072bf2ee",
-  "intro-disciplines-p5": "c1fef81a",
-  "intro-disciplines-p6": "d725988e",
+  "intro-disciplines-p6": "f3c62c58",
   "intro-disciplines-kp1": "b3f7bab6",
   "intro-disciplines-kp2": "634ce41c",
   "intro-disciplines-kp3": "fec76055",
-  "intro-disciplines-kp4": "1a9cb8c0",
+  "intro-disciplines-kp4": "56e7d318",
   "intro-disciplines-dyk": "0aa60887",
   "intro-disciplines-q1": "f150b65a",
-  "intro-disciplines-q2": "40032e9f",
-  "intro-disciplines-q3": "6e16194d",
+  "intro-disciplines-q2": "7316a331",
+  "intro-disciplines-q-course": "30e84199",
   "intro-disciplines-q-second-shot": "ecd0ab34"
  },
  "review": {
@@ -27,8 +25,8 @@
   "date": null,
   "origin": null
  },
- "title": "As principais disciplinas",
- "summary": "Um guia breve sobre o {{tm:sporting}} e o {{tm:compak}}, mais o Trap e o Skeet: o que têm em comum e no que diferem.",
+ "title": "As duas disciplinas",
+ "summary": "Um guia breve sobre o {{tm:sporting}} e o {{tm:compak}}: o que têm em comum e no que diferem.",
  "body": {
   "intro-disciplines-p1": "O {{tm:sporting}} imita a caça. Os {{term:shooting-stand|postos de tiro}}, os pontos marcados de onde se dispara, estão espalhados por terreno natural: em campos, junto a bosques, em encostas. Os pratos voam como voaria uma perdiz, um pato ou um faisão, ou rolam como uma lebre. Cada {{term:layout|percurso}}, um conjunto de postos, dá {{fact:targets.sporting-layout-targets}} (um double conta como dois pratos, ou seja, mais 10). Os dois pratos de um {{term:double|double}} voam juntos ou um depois do outro.",
   "intro-disciplines-p2": "O {{tm:compak}} é a versão compacta. Tudo se passa num só campo com {{fact:basics.compak-field}}. O atirador passa pelos cinco postos e dispara 5 pratos em cada um, 25 por {{term:round|série}}. Um campo de Compak ocupa pouco espaço, por isso é fácil para um clube construir um.",
@@ -37,9 +35,7 @@
    "compak": "Fica num só campo e, depois de cada vez, avança um posto para a direita. Um double é {{term:double-on-report|ao tiro}}, em que o primeiro tiro liberta o segundo prato, ou {{term:simultaneous-double|simultâneo}}, em que os dois voam ao mesmo tempo."
   },
   "intro-disciplines-p3": "As competições internacionais das duas disciplinas são normalmente {{fact:basics.international-targets}}. Nas duas, pode disparar dois tiros sobre um {{term:single-target|prato simples}}: se o primeiro tiro falhar, o segundo ainda pode partir o prato.",
-  "intro-disciplines-p4": "O Trap é uma família diferente de disciplinas. O atirador fica num de cinco postos alinhados, e os pratos afastam-se dele a partir de uma trincheira (uma vala no solo à frente dos postos) com ângulos variáveis. O atirador não sabe exatamente para onde vai o próximo prato. No {{term:olympic-trap|Trap Olímpico}}, pode disparar-se duas vezes sobre cada prato.",
-  "intro-disciplines-p5": "No {{term:skeet|Skeet}} os pratos saem de duas casas (pequenas construções que abrigam as máquinas) uma de frente para a outra, uma alta e uma baixa. O atirador passa por postos dispostos num semicírculo entre as duas casas, mais um no meio. As trajetórias não mudam, por isso uma técnica precisa e bem treinada conta muito.",
-  "intro-disciplines-p6": "O Trap Olímpico e o Skeet fazem parte do programa olímpico e pertencem a outra federação internacional, a ISSF. Mas a {{term:fitasc|FITASC}} também tem disciplinas próprias de trap e skeet, como o Universal Trench e o Universal Skeet. A Academia ClayArena trata sobretudo do {{tm:sporting}} e do {{tm:compak}}. As bases são comuns a todas as disciplinas: a segurança, {{term:gun-mount|pôr a arma à cara}} (o movimento de levar a arma à face e ao ombro) e saber «ler» o prato."
+  "intro-disciplines-p6": "As duas disciplinas pertencem à {{term:fitasc|FITASC}}, a federação internacional que escreve as suas regras. As bases são comuns: a segurança, {{term:gun-mount|pôr a arma à cara}} (o movimento de levar a arma à face e ao ombro) e saber «ler» o prato."
  },
  "note": {},
  "phrases": {},
@@ -47,7 +43,7 @@
   "intro-disciplines-kp1": "{{tm:sporting}}: um percurso por terreno natural; cada percurso dá {{fact:rules.round-targets}}.",
   "intro-disciplines-kp2": "{{tm:compak}}: um só campo com {{fact:basics.compak-field}}.",
   "intro-disciplines-kp3": "Uma competição internacional é normalmente {{fact:basics.international-targets}}; pode disparar duas vezes sobre um prato simples.",
-  "intro-disciplines-kp4": "No Trap os pratos afastam-se do atirador; no Skeet cruzam o campo entre duas casas."
+  "intro-disciplines-kp4": "As duas disciplinas seguem as regras da FITASC e partilham as bases: segurança, pôr a arma à cara e ler o prato."
  },
  "did_you_know": "O {{tm:compak}} {{fact:community.compak-created}}.",
  "quiz": {
@@ -64,19 +60,19 @@
    "q": "Quantas máquinas há num campo de Compak?",
    "options": {
     "a": "Seis, com as letras de A a F",
-    "b": "Duas: uma alta e uma baixa",
-    "c": "Quinze, numa trincheira"
+    "b": "Quatro, com as letras de A a D",
+    "c": "Dez, duas em cada posto"
    },
    "explain": "Um campo de {{tm:compak}} tem {{fact:basics.compak-field}}."
   },
-  "intro-disciplines-q3": {
-   "q": "Em que disciplina os pratos saem de duas casas, uma alta e uma baixa?",
+  "intro-disciplines-q-course": {
+   "q": "Em que disciplina se percorre um trajeto de posto em posto?",
    "options": {
-    "a": "Trap",
-    "b": "{{tm:sporting}}",
-    "c": "Skeet"
+    "a": "{{tm:compak}}",
+    "b": "Em ambas, da mesma forma",
+    "c": "{{tm:sporting}}"
    },
-   "explain": "É no Skeet que há uma casa alta e uma casa baixa, com os postos num semicírculo entre elas."
+   "explain": "No {{tm:sporting}} passa-se de posto em posto em terreno natural; no {{tm:compak}} fica-se num só campo e avança-se um posto para a direita."
   },
   "intro-disciplines-q-second-shot": {
    "q": "O seu primeiro tiro falha um prato simples. O que permite a regra?",

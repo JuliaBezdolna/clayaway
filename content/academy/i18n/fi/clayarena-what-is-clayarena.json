@@ -1,11 +1,11 @@
 {
   "id": "clayarena-what-is-clayarena",
   "lang": "fi",
-  "base_rev": 2,
+  "base_rev": 3,
   "h": {
     "title": "bc76e59e",
     "summary": "761d8c91",
-    "clayarena-what-is-clayarena-p1": "b5e14807",
+    "clayarena-what-is-clayarena-p1": "56e26387",
     "clayarena-what-is-clayarena-p2": "771824c6",
     "clayarena-what-is-clayarena-p3": "17d83580",
     "clayarena-what-is-clayarena-p4": "3d7784c7",
@@ -18,7 +18,7 @@
     "clayarena-what-is-clayarena-q1": "25b43879",
     "clayarena-what-is-clayarena-q2": "565010d9",
     "clayarena-what-is-clayarena-q4": "08498f4c",
-    "clayarena-what-is-clayarena-q3": "aaee3e5b"
+    "clayarena-what-is-clayarena-q3": "db6bb2a0"
   },
   "review": {
     "by": null,
@@ -28,7 +28,7 @@
   "title": "Mikä ClayArena on",
   "summary": "ClayArena on haulikkoammunnan verkkosivusto, joka keskittyy lajeihin {{tm:sporting}} ja {{tm:compak}}: kilpailutulokset, ampujien profiilit, kalenteri, videot, kauden yhteenvedot, radat ja valmentajat.",
   "body": {
-    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) on haulikkoammunnan verkkosivusto, joka keskittyy lajeihin {{tm:sporting}} ja {{tm:compak}}. Se näyttää, kuka ampui ja miten, missä seuraavat kilpailut järjestetään ja missä voi harjoitella. Sivustolla näkyy myös joitakin muita lajeja, kuten trap ja skeet.",
+    "clayarena-what-is-clayarena-p1": "ClayArena (clayarena.com) on haulikkoammunnan verkkosivusto, joka on omistettu lajeille {{tm:sporting}} ja {{tm:compak}}. Se näyttää, kuka ampui ja miten, missä seuraavat kilpailut järjestetään ja missä voi harjoitella.",
     "clayarena-what-is-clayarena-p2": "ClayArenan ydin on kilpailutulokset. Jokaisella kilpailulla on tulostaulukko sijoituksineen ja rikottujen kiekkojen määrineen. Osassa kilpailuista tulokset päivittyvät jo ampumisen aikana. Näistä tuloksista rakentuvat {{term:shooter-profile|ampujien profiilit}}.",
     "clayarena-what-is-clayarena-p3": "Ampujan profiili on yhden henkilön sivu: hänen kilpailunsa ja tärkeimmät lukunsa, kuten {{term:accuracy|osumatarkkuus}}. Mitä luvut tarkoittavat, selitetään oppitunnilla {{lesson:clayarena-profile-numbers}}.",
     "clayarena-what-is-clayarena-p4": "ClayArenalla on myös kilpailukalenteri, videoita kilpailuista ja {{term:season-recap|kauden yhteenvetoja}}. Lisäksi löytyy ratojen ja valmentajien hakemistot. Lisää aiheesta oppitunneilla {{lesson:clayarena-videos-recaps-calendar}} ja {{lesson:clayarena-coaches-grounds-tours}}.",
@@ -72,13 +72,13 @@
       "explain": "Kalenteri listaa suunnitellut, käynnissä olevat ja päättyneet kilpailut päivämäärineen ja paikkoineen."
     },
     "clayarena-what-is-clayarena-q3": {
-      "q": "Mihin lajeihin ClayArena keskittyy?",
+      "q": "Mistä lajeista ClayArena kertoo?",
       "options": {
-        "a": "Biathloniin ja jousiammuntaan",
-        "b": "{{tm:sporting}} ja {{tm:compak}}",
-        "c": "Vain olympialaistrapiin"
+        "a": "Biathlonista ja jousiammunnasta",
+        "b": "Lajeista {{tm:sporting}} ja {{tm:compak}}",
+        "c": "Kivääri- ja pistooliammunnasta"
       },
-      "explain": "ClayArena keskittyy näihin kahteen FITASC-lajiin; sivustolla näkyy myös joitakin muita lajeja."
+      "explain": "ClayArena kertoo näistä kahdesta FITASC-lajista."
     }
   }
 }

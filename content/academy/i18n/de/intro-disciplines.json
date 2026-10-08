@@ -1,25 +1,23 @@
 {
  "id": "intro-disciplines",
  "lang": "de",
- "base_rev": 1,
+ "base_rev": 2,
  "h": {
-  "title": "dac19506",
-  "summary": "58295a84",
+  "title": "41ef701c",
+  "summary": "90e09529",
   "intro-disciplines-p1": "79e1fd27",
   "intro-disciplines-p2": "bad18039",
   "intro-disciplines-cmp": "1ddbb76f",
   "intro-disciplines-p3": "f274bc4d",
-  "intro-disciplines-p4": "072bf2ee",
-  "intro-disciplines-p5": "c1fef81a",
-  "intro-disciplines-p6": "d725988e",
+  "intro-disciplines-p6": "f3c62c58",
   "intro-disciplines-kp1": "b3f7bab6",
   "intro-disciplines-kp2": "634ce41c",
   "intro-disciplines-kp3": "fec76055",
-  "intro-disciplines-kp4": "1a9cb8c0",
+  "intro-disciplines-kp4": "56e7d318",
   "intro-disciplines-dyk": "0aa60887",
   "intro-disciplines-q1": "f150b65a",
-  "intro-disciplines-q2": "40032e9f",
-  "intro-disciplines-q3": "6e16194d",
+  "intro-disciplines-q2": "7316a331",
+  "intro-disciplines-q-course": "30e84199",
   "intro-disciplines-q-second-shot": "ecd0ab34"
  },
  "review": {
@@ -27,8 +25,8 @@
   "date": null,
   "origin": null
  },
- "title": "Die wichtigsten Disziplinen",
- "summary": "Ein kurzer Überblick über {{tm:sporting}} und {{tm:compak}} sowie Trap und Skeet: was sie gemeinsam haben und wie sie sich unterscheiden.",
+ "title": "Die zwei Disziplinen",
+ "summary": "Ein kurzer Überblick über {{tm:sporting}} und {{tm:compak}}: was sie gemeinsam haben und wie sie sich unterscheiden.",
  "body": {
   "intro-disciplines-p1": "{{tm:sporting}} ahmt die Jagd nach. {{term:shooting-stand|Standplätze}}, die markierten Stellen, von denen aus geschossen wird, liegen im natürlichen Gelände: auf Feldern, am Waldrand, an Hanglagen. Die Scheiben fliegen, wie es ein Rebhuhn, eine Ente oder ein Fasan täte, oder rollen wie ein Hase. Jedes {{term:layout|Layout}}, eine Gruppe von Standplätzen, ergibt {{fact:targets.sporting-layout-targets}} (eine Doublette zählt als zwei Scheiben, also 10 mehr). Die beiden Scheiben einer {{term:double|Doublette}} fliegen gleichzeitig oder kurz nacheinander.",
   "intro-disciplines-p2": "{{tm:compak}} ist die kompakte Version. Alles findet auf einem Feld statt, mit {{fact:basics.compak-field}}. Der Schütze durchläuft alle fünf Standplätze und schießt an jedem 5 Scheiben, also 25 pro {{term:round|Runde}}. Ein Compak-Feld braucht wenig Platz, deshalb kann ein Verein es leicht anlegen.",
@@ -37,9 +35,7 @@
    "compak": "Sie bleiben auf einem Feld und rücken nach jeder eigenen Runde um einen Standplatz nach rechts. Eine Doublette ist {{term:double-on-report|auf Schuss}}, wobei Ihr erster Schuss die zweite Scheibe auslöst, oder {{term:simultaneous-double|simultan}}, wobei beide zugleich fliegen."
   },
   "intro-disciplines-p3": "Internationale Wettkämpfe in beiden Disziplinen umfassen meist {{fact:basics.international-targets}}. In beiden darf man zweimal auf eine {{term:single-target|Einzelscheibe}} schießen: Verfehlt der erste Schuss, kann der zweite sie noch zerbrechen.",
-  "intro-disciplines-p4": "Trap ist eine andere Familie von Disziplinen. Der Schütze steht an einem von fünf Standplätzen in einer Reihe, und die Scheiben fliegen aus einem Graben (einer vertieften Grube vor den Standplätzen) in wechselnden Winkeln davon. Der Schütze weiß nicht genau, wohin die nächste Scheibe fliegen wird. Beim {{term:olympic-trap|Olympischen Trap}} dürfen auf jede Scheibe zwei Schüsse abgegeben werden.",
-  "intro-disciplines-p5": "Beim {{term:skeet|Skeet}} kommen die Scheiben aus zwei einander gegenüberstehenden Häusern (kleinen Gebäuden, die die Wurfmaschinen enthalten), einem hohen und einem niedrigen. Der Schütze wechselt zwischen Standplätzen auf einem Halbkreis zwischen den Häusern, plus einem in der Mitte. Die Flugbahnen ändern sich nicht, daher kommt es stark auf eine präzise, gut eingeübte Technik an.",
-  "intro-disciplines-p6": "Olympisches Trap und Skeet stehen auf dem olympischen Programm und gehören einem anderen internationalen Verband an, der ISSF. Aber auch {{term:fitasc|FITASC}} hat eigene Trap- und Skeet-Disziplinen, etwa Universal Trench und Universal Skeet. Die ClayArena Academy behandelt vor allem {{tm:sporting}} und {{tm:compak}}. Die Grundlagen teilen sich alle Disziplinen: Sicherheit, der {{term:gun-mount|Anschlag}} (die Flinte an Wange und Schulter bringen) und das Lesen der Scheibe."
+  "intro-disciplines-p6": "Beide Disziplinen gehören zur {{term:fitasc|FITASC}}, dem internationalen Verband, der ihre Regeln schreibt. Die Grundlagen sind gleich: Sicherheit, der {{term:gun-mount|Anschlag}} (die Flinte an Wange und Schulter bringen) und das Lesen der Scheibe."
  },
  "note": {},
  "phrases": {},
@@ -47,7 +43,7 @@
   "intro-disciplines-kp1": "{{tm:sporting}}: ein Parcours im natürlichen Gelände; jedes Layout ergibt {{fact:rules.round-targets}}.",
   "intro-disciplines-kp2": "{{tm:compak}}: ein Feld mit {{fact:basics.compak-field}}.",
   "intro-disciplines-kp3": "Ein internationaler Wettkampf umfasst meist {{fact:basics.international-targets}}; auf eine Einzelscheibe darf man zweimal schießen.",
-  "intro-disciplines-kp4": "Beim Trap fliegen die Scheiben vom Schützen weg; beim Skeet kreuzen sie zwischen zwei Häusern."
+  "intro-disciplines-kp4": "Beide Disziplinen folgen den FITASC-Regeln und teilen die Grundlagen: Sicherheit, Anschlag und das Lesen der Scheibe."
  },
  "did_you_know": "{{tm:compak}} wurde {{fact:community.compak-created}}.",
  "quiz": {
@@ -64,19 +60,19 @@
    "q": "Wie viele Wurfmaschinen gibt es auf einem Compak-Feld?",
    "options": {
     "a": "Sechs, mit den Buchstaben A bis F",
-    "b": "Zwei, eine hohe und eine niedrige",
-    "c": "Fünfzehn, in einem Graben"
+    "b": "Vier, mit den Buchstaben A bis D",
+    "c": "Zehn, zwei an jedem Standplatz"
    },
    "explain": "Ein {{tm:compak}}-Feld hat {{fact:basics.compak-field}}."
   },
-  "intro-disciplines-q3": {
-   "q": "In welcher Disziplin kommen die Scheiben aus zwei Häusern, einem hohen und einem niedrigen?",
+  "intro-disciplines-q-course": {
+   "q": "In welcher Disziplin gehen Sie einen Parcours von Standplatz zu Standplatz ab?",
    "options": {
-    "a": "Trap",
-    "b": "{{tm:sporting}}",
-    "c": "Skeet"
+    "a": "{{tm:compak}}",
+    "b": "In beiden gleich",
+    "c": "{{tm:sporting}}"
    },
-   "explain": "Skeet hat ein hohes Haus und ein niedriges Haus, mit den Standplätzen auf einem Halbkreis dazwischen."
+   "explain": "Bei {{tm:sporting}} gehen Sie im natürlichen Gelände von Standplatz zu Standplatz; bei {{tm:compak}} bleiben Sie auf einem Feld und rücken um einen Standplatz nach rechts."
   },
   "intro-disciplines-q-second-shot": {
    "q": "Ihr erster Schuss verfehlt eine Einzelscheibe. Was erlaubt die Regel?",

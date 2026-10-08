@@ -1,16 +1,16 @@
 {
   "id": "interpreter-false-friends",
   "lang": "hu",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
     "title": "93be8a38",
-    "summary": "2c55b920",
+    "summary": "65b49fa5",
     "interpreter-false-friends-intro": "39c55cd5",
     "interpreter-false-friends-p1": "3e0535c1",
     "interpreter-false-friends-p2": "3cf9ded2",
-    "interpreter-false-friends-p3": "d1d15c31",
+    "interpreter-false-friends-p3": "d259b08c",
     "interpreter-false-friends-cards": "3645d5da",
-    "interpreter-false-friends-p4": "5a31b9de",
+    "interpreter-false-friends-p4": "54eb687c",
     "interpreter-false-friends-ph1": "7ff90f13",
     "interpreter-false-friends-ph2": "3677adad",
     "interpreter-false-friends-ph3": "f46276ac",
@@ -27,14 +27,18 @@
     "interpreter-false-friends-q2": "d58615b3",
     "interpreter-false-friends-q3": "3c4d036d"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Hamis barátok a lőtéren",
   "summary": "Lövészeti szavak, amelyek ismerősnek tűnnek, de mást jelentenek: füst és por, pontozási szavak, a „trap”, a „stand” és a „squad”, valamint a francia, az olasz és a portugál nyelv csapdái.",
   "body": {
     "interpreter-false-friends-intro": "Egy {{term:false-friend|hamis barát}} egy olyan szó, amely ismerősnek tűnik, de a lőtéren mást jelent. Némelyikük megváltoztatja az eredményt, ezért ezeket érdemes elsőként megtanulni.",
     "interpreter-false-friends-p1": "A legnagyobb csapda a füst. Egy edző „{{term:smoked-it|Smoked it!}}”-je (vagy „inked it”, „powdered it”) egy tökéletes találatot dicsér: a korong egy felhőben szétrobbant. A szabályok szerint az a korong, amelyből csak por vagy füst száll fel, {{term:visible-piece|látható darab}} nélkül, {{term:zero|nulla}}. A „{{term:chip|chip}}”, egy kis látható darab, találat ({{term:one|one}}). A „dusted it” kockázatos: jelenthet azt, hogy csak por szállt fel (nulla), vagy néhány edzőnél azt, hogy a korong szétesett. Tehát az edző „smoked it”-jét fordítsa teljes, tiszta találatnak, a bíró „only dust”-ját nullának, és kérdezze meg, mit ért a „dusted it”-en.",
     "interpreter-false-friends-p2": "A pontozási szavak nem szó szerint értendők. A „dead” és a „kill” találatot jelent, és semmi köze a halálhoz. A „lost” hibát jelent, nem valami elveszettet. A „dropped two” azt jelenti, hogy két korongot elhibázott. A „straight” a „25 straight” kifejezésben egy hibátlan sorozatot jelent, nem „egyenest”.",
-    "interpreter-false-friends-p3": "Felszerelés- és helyszavak. A „{{term:trap|trap}}” a dobógépet jelenti, nem csapdát; a Trap egy olimpiai versenyszám is. A „stand” egyetlen lövőhelyet jelent, a {{term:shooting-stand|lőállást}}, nem az egész lőteret; {{tm:compak}} esetében a helyeket gyakran számoknak hívják. A „{{term:peg|peg}}” a lövőhelyet jelenti. A név a számozott cövektől ered, amely egy hajtóvadászaton minden lövő helyét jelöli, ezért ne fordítsa „cövek”-nek. A „broken gun” egy nyitott fegyvert jelent. A „Pull!” a {{term:call|korong kérése}}, a „{{term:pull-away|pull-away}}” egy elétartási módszer, és a „{{term:length-of-pull|length of pull}}” a tus hossza, a ravasztól a tusalap lemezig.",
+    "interpreter-false-friends-p3": "Felszerelés- és helyszavak. A „{{term:trap|trap}}” a dobógépet jelenti, nem csapdát. A „stand” egyetlen lövőhelyet jelent, a {{term:shooting-stand|lőállást}}, nem az egész lőteret; {{tm:compak}} esetében a helyeket gyakran számoknak hívják. A „{{term:peg|peg}}” a lövőhelyet jelenti. A név a számozott cövektől ered, amely egy hajtóvadászaton minden lövő helyét jelöli, ezért ne fordítsa „cövek”-nek. A „broken gun” egy nyitott fegyvert jelent. A „Pull!” a {{term:call|korong kérése}}, a „{{term:pull-away|pull-away}}” egy elétartási módszer, és a „{{term:length-of-pull|length of pull}}” a tus hossza, a ravasztól a tusalap lemezig.",
     "interpreter-false-friends-cards": "A „card” lehet {{term:score-sheet|eredménykártya}}, vagy egy sárga vagy piros lap. Az „on report” a lövés hangjára utal, mint a {{term:double-on-report|vadászdublénál}}. A „{{term:squad|squad}}” a versenyben {{fact:rules.squad-max-shooters}} csoportot jelenti. A hamarosan induló ClayAway túrák is ezt a szót fogják használni egy túra alcsoportjára.",
     "interpreter-false-friends-p4": "Más nyelveknek is megvannak a saját csapdáik. A francia „chandelle” egy majdnem egyenesen felfelé pattanó korongot jelent, amelyet angolul {{term:teal|tealnek}} hívnak. Ez nem azonos az angol {{term:chandelle|chandelle}}-lel, amely egy ívben meredeken emelkedő, majd leeső korong. A francia „en battue” és az olasz „in battuta” hajtásos vadászatot jelent ({{term:driven-target|driven}}), nem a {{term:battue|battue}} korongot. Portugálul a „batida” a battue korong, míg a „de batida” a hajtásost jelenti. Egy találatra a francia bíró „Bon”-t, az olasz „Buono”-t mond, és a {{term:trapper|pullert}} gyakran „pulleur”-nek vagy „puller”-nek hívják. A rotte szava is eltér, ezért az adott verseny saját szabálykönyvének szavát használja."
   },

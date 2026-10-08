@@ -1,6 +1,6 @@
 {
   "id": "mind-routine-under-pressure",
-  "rev": 3,
+  "rev": 4,
   "status": "review",
   "plan": "rewrite",
   "level": 1,
@@ -121,15 +121,6 @@
     },
     {
       "title": {
-        "en": "Quiet eye training in a visuomotor control task (Medicine & Science in Sports & Exercise, 2011)"
-      },
-      "url": "https://doi.org/10.1249/MSS.0b013e3182035de6",
-      "rel": "noopener noreferrer",
-      "checked": "2026-10-06",
-      "license": "link only"
-    },
-    {
-      "title": {
         "en": "On the temporal and behavioural consistency of pre-performance routines: an intra-individual analysis of elite basketball players' free throw shooting accuracy (Journal of Sports Sciences, 2008)"
       },
       "url": "https://doi.org/10.1080/02640410701473962",
@@ -180,8 +171,8 @@
     {
       "k": "mind-routine-under-pressure-p9",
       "t": "p",
-      "en": "Studies of routines in many sports show a small to moderate benefit, also under pressure. In clay shooting this was tested mainly in Olympic skeet, so most likely it works the same way in {{tm:sporting}} and {{tm:compak}}.",
-      "uk": "Дослідження ритуалів у багатьох видах спорту показують невелику або помірну користь, зокрема й під тиском. У стендовій стрільбі це перевіряли переважно на олімпійському скиті, тож, найімовірніше, це працює і в {{tm:sporting}} та {{tm:compak}}."
+      "en": "Studies of routines in many sports show a small to moderate benefit, also under pressure. They were not done in {{tm:sporting}} or {{tm:compak}}, but most likely it works the same way here.",
+      "uk": "Дослідження ритуалів у багатьох видах спорту показують невелику або помірну користь, зокрема й під тиском. У {{tm:sporting}} чи {{tm:compak}} їх не проводили, але, найімовірніше, тут це працює так само."
     },
     {
       "k": "mind-routine-under-pressure-p2",
@@ -579,8 +570,7 @@
       "for": "mind-routine-under-pressure-p9",
       "level": "some",
       "sources": [
-        "https://doi.org/10.1080/1750984X.2021.1944271",
-        "https://doi.org/10.1249/MSS.0b013e3182035de6"
+        "https://doi.org/10.1080/1750984X.2021.1944271"
       ]
     },
     {
@@ -625,7 +615,7 @@
     "title": "48d27e7d",
     "summary": "b354d6b8",
     "mind-routine-under-pressure-p1": "b8212880",
-    "mind-routine-under-pressure-p9": "c5ba6764",
+    "mind-routine-under-pressure-p9": "d7f52174",
     "mind-routine-under-pressure-p2": "88fcebb5",
     "mind-routine-under-pressure-steps": "ccaf665a",
     "mind-routine-under-pressure-compare": "7b5bdd61",

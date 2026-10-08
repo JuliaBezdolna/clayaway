@@ -3,18 +3,18 @@
    ClayArena Academy — ONE-TIME migration into the single content source `content/academy/`.
 
    What it does (project design "Академія ClayArena", §6 data format and §3 lesson mapping):
-     reads   docs/learn/data/*.js                 ClayArena Academy (beginners): 22 modules, 123 lessons, uk + en
-             docs/learn/data/laws-<cc>.json       country law tables of 3 lessons (+ UI strings of law-tables.js)
-             docs/interpreter/src/missions/*.json Interpreter Academy: 12 missions, 63 lessons, uk + en
-             docs/interpreter/src/i18n/<lang>.json  the Interpreter Academy in 9 more languages (de fr it cs pl pt hu fi lt)
-             docs/interpreter/src/ui.json         interface strings of the Interpreter Academy (en + uk)
+     reads   archive/legacy-docs/learn/data/*.js                 ClayArena Academy (beginners): 22 modules, 123 lessons, uk + en
+             archive/legacy-docs/learn/data/laws-<cc>.json       country law tables of 3 lessons (+ UI strings of law-tables.js)
+             archive/legacy-docs/interpreter/src/missions/*.json Interpreter Academy: 12 missions, 63 lessons, uk + en
+             archive/legacy-docs/interpreter/src/i18n/<lang>.json  the Interpreter Academy in 9 more languages (de fr it cs pl pt hu fi lt)
+             archive/legacy-docs/interpreter/src/ui.json         interface strings of the Interpreter Academy (en + uk)
              docs/learn/index.html                interface strings of the Academy (the `const T = {...}` table)
      writes  content/academy/
              lessons/<id>.json        142 masters (structure + en + uk); every text item has a stable key "k"
              i18n/<lang>/<id>.json    overlays for the 9 extra languages (texts by key + 8-hex SHA-1 of the English source)
              blocks.json routes.json id-map.json ids.lock levels.json badges.json practice.json
              facts.json               shared numbers and facts, one number in one place (empty at first; design §6.5)
-             laws/<CC>.json           country law tables (byte copy of docs/learn/data/laws-<cc>.json), used by body blocks t:"law"
+             laws/<CC>.json           country law tables (byte copy of archive/legacy-docs/learn/data/laws-<cc>.json), used by body blocks t:"law"
              legacy/modules.json      archive: titles and intros of the old modules and missions (11 languages); not read by the build
              ui/<lang>.json           interface strings for all 11 ClayArena languages
              migration.json           what this run did (counts, warnings) — for the team
@@ -43,8 +43,10 @@ import { createHash } from "node:crypto";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const SRC_LEARN = path.join(ROOT, "docs/learn/data");
-const SRC_INTERP = path.join(ROOT, "docs/interpreter/src");
+// The old sources were moved out of docs/ (no longer published) to archive/legacy-docs/ on 08.10.2026, byte for byte (owner
+// decision: the site names no other clay discipline; they still did). The record texts written below keep the paths of 10.2026.
+const SRC_LEARN = path.join(ROOT, "archive/legacy-docs/learn/data");
+const SRC_INTERP = path.join(ROOT, "archive/legacy-docs/interpreter/src");
 const OUT = path.join(ROOT, "content/academy");
 const ARGS = new Set(process.argv.slice(2));
 const DRY = ARGS.has("--dry");
@@ -351,7 +353,7 @@ const BLOCKS = [
     sections: [
       { id: "role", title: { uk: "Роль", en: "The role" }, lessons: ["interpreter-role", "interpreter-position"] },
       { id: "said", title: { uk: "Що кажуть на стенді", en: "What is said on the stand" }, lessons: ["referee-calls", "stand-talk-shooter-phrases", "faults-reading-the-coach", "lead-how-coaches-say-it", "stand-talk-mental-game"] },
-      { id: "traps", title: { uk: "Пастки перекладу", en: "Translation traps" }, lessons: ["interpreter-false-friends", "interpreter-numbers-and-units", "interpreter-english-sporting-vs-fitasc"] },
+      { id: "traps", title: { uk: "Пастки перекладу", en: "Translation pitfalls" }, lessons: ["interpreter-false-friends", "interpreter-numbers-and-units", "interpreter-english-sporting-vs-fitasc"] },
       { id: "work", title: { uk: "Робота", en: "On the job" }, lessons: ["stand-talk-foreign-coach", "interpreter-session-script"] }] },
   { id: "watch", icon: "eye", title: { uk: "Дивитися і стежити", en: "Watch & follow" },
     purpose: { uk: "Як дивитися стрільбу і відео; ClayArena: результати, профіль, цифри, каталоги.",
@@ -535,11 +537,11 @@ const NEW_LESSONS = {
       en: ["Signs: rushing or delaying the call, consciously checking the gun mount, looking at the bead, watching the score and rivals, tension, misses on easy targets.",
            "What can help: the usual routine and tempo, one simple cue, process goals, training under moderate pressure (link: training-for-competition).",
            "In a shoot-off: the same routine and the same tempo.",
-           "Evidence: some research (moderate); research is mostly from Olympic trap and skeet, so for {{tm:sporting}} and {{tm:compak}} write 'probably transfers'."],
+           "Evidence: some research (moderate); research is from lab tasks and other sports, so for {{tm:sporting}} and {{tm:compak}} write 'probably transfers'."],
       uk: ["Ознаки: поспіх або затягування команди, свідома перевірка вкладки, погляд на мушку, стеження за рахунком і суперниками, скутість, промахи по легких мішенях.",
            "Що може допомогти: звичний ритуал і темп, одна проста підказка, цілі процесу, тренування під помірним тиском (посилання: training-for-competition).",
            "У перестрілці — той самий ритуал і той самий темп.",
-           "Доказовість: є дослідження (помірна); дослідження здебільшого на олімпійському трапі й скиті, тому про {{tm:sporting}} і {{tm:compak}} писати «імовірно, переноситься»."] } },
+           "Доказовість: є дослідження (помірна); дослідження проводили в лабораторії та в інших видах спорту, тому про {{tm:sporting}} і {{tm:compak}} писати «імовірно, переноситься»."] } },
   "mind-reset-after-miss": {
     title: { en: "Reset after a miss", uk: "Перезапуск після промаху" },
     brief: {
@@ -613,7 +615,7 @@ const NEW_LESSONS = {
            "Complements referee-calls (what the referee says)."],
       uk: ["З тренером: описати, де бачили мішень і де був промах; попросити показати ще раз.",
            "Із суддею: команда; протест одразу, як вимагають правила, з піднятою рукою; ввічливе питання про No Bird; прохання про показ там, де правила це дозволяють.",
-           "З групою і трапером: привітання, «well shot», подяка.",
+           "З групою й оператором машинки: привітання, «well shot», подяка.",
            "Де починається «спроба вплинути на суддю».",
            "Англійські фрази озвучуються лише локальним голосом пристрою (аудит W-08).",
            "Доповнює referee-calls (що каже суддя)."] } },
@@ -880,7 +882,7 @@ const glossaryHasDef = (nt) => { const g = GLOSSARY_ENTRIES.get(nt.id); if (!g) 
   return [nt.short_en, nt.short_uk].every((t) => !t || s.includes(JSON.stringify(t).slice(1, -1))); };
 
 /* ---------- country law tables (lesson blocks t:"law") ----------
-   docs/learn/data/laws-<cc>.json is the edited source of the law tables (laws-<cc>.js is generated from it by
+   archive/legacy-docs/learn/data/laws-<cc>.json is the edited source of the law tables (laws-<cc>.js is generated from it by
    scripts/build_laws.py). They are copied BYTE FOR BYTE to content/academy/laws/<CC>.json; the file name is the ISO 3166
    country code in capitals, so the language check of the build never mistakes a country (ES) for a language code.   */
 function loadLaws() {
@@ -893,7 +895,7 @@ function loadLaws() {
   return out;
 }
 const LAWS = loadLaws();
-/* Interface strings of the law-table renderer docs/learn/data/law-tables.js (uk/en), kept as UI keys. Each text must
+/* Interface strings of the law-table renderer archive/legacy-docs/learn/data/law-tables.js (uk/en), kept as UI keys. Each text must
    occur in law-tables.js exactly, so nothing is retyped. */
 const LAW_UI = {
   law_unverified: { uk: "(не підтверджено офіційним текстом)", en: "(not confirmed by an official text)" },
@@ -1142,7 +1144,7 @@ for (const id of ORDER) {
   const ukText = ukStrings(M).join("\n"), ukTerms = [];
   for (const [use, re] of UK_TERMS) { const found = ukText.match(re); if (found) ukTerms.push({ use, found: [...new Set(found.map((x) => x.toLowerCase()))], n: found.length }); }
   if (ukTerms.length) tasks.push("Ukrainian terms (owner decision): replace the variants listed in todo.uk_terms with the approved term.");
-  for (const b of M.body) if ((b.t === "law" || b.role === "law") && !LAWS.has(b.country)) fail(`${id}: law block ${b.k} names ${b.country}, but there is no docs/learn/data/laws-${b.country.toLowerCase()}.json`);
+  for (const b of M.body) if ((b.t === "law" || b.role === "law") && !LAWS.has(b.country)) fail(`${id}: law block ${b.k} names ${b.country}, but there is no archive/legacy-docs/learn/data/laws-${b.country.toLowerCase()}.json`);
   M.todo = Object.assign({ audit, moves_out, moves_in, tasks }, termDefs.length ? { term_defs: termDefs } : {}, ukTerms.length ? { uk_terms: ukTerms } : {});
   for (const t of M.terms) if (!GLOSSARY_IDS.has(t) && !GLOSSARY_ALIASES[t] && !NEW_TERM_IDS.has(t)) warn(`${id}: term "${t}" is not in the glossary or in any new_terms`);
   for (const r of M.rule_refs) if (!RULE_IDS.has(r.book + ":" + r.id)) warn(`${id}: rule_ref ${r.book}:${r.id} not found in docs/rules/data`);

@@ -27,6 +27,7 @@
      learn/data/languages.json   in which languages the Academy home is published (docs/shared/nav.js links there, else to /en/learn/)
      learn/data/redirects.json, learn/data/id-map.json                       301 list for clayarena.com, JS routers
      interpreter/<lang>/<id>/, interpreter/<lang>/, learn/<merged id>/, en/learn/<merged id>/   redirect stubs (groups A–D)
+     <p>learn/<retired id>/      redirect stubs of retired lessons in every language (group H; their lessons/<id>.json is removed)
      sitemap-learn-<lang>.xml    one sitemap per language (scripts/build_seo.mjs lists them in the sitemap index)
      og/og-list.json             the share pictures to draw (python scripts/make_og.py reads it)
      shared/sims-text.js         texts of the shared animations, from content/academy/ui/<lang>.json
@@ -47,6 +48,8 @@
      --check            run the checks only, write nothing
      --own-home         let the build overwrite a hand-written docs/learn/index.html
      --quiet            print only the summary
+     -h, --help         print the flags and exit. Any other unknown option stops with an error before any work (it never
+                        falls through to a real build into docs/; see cliProblem() at the end)
 
    ⚠ FITASC: the rules guide (/rules/) and the rules trainer stay noindex until FITASC gives written permission. The switch is
    FITASC_INDEX in scripts/build_seo.mjs (read from there; never duplicated). Lessons with index:"fitasc" and the Practice game
@@ -55,7 +58,7 @@
    Production (clayarena.com): the same JSON (catalog, lesson, exam files) comes from the database through the API, the pages
    are server templates with the same markup and checks run in CI; redirects.json becomes real HTTP 301 responses.
    ===================================================================================================================== */
-import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from "node:fs";
+import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync, rmSync } from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import { createHash } from "node:crypto";
@@ -129,6 +132,9 @@ const isObj = x => x && typeof x === "object" && !Array.isArray(x);
 const stringsDeep = v => v == null ? [] : typeof v === "string" ? [v] : Array.isArray(v) ? v.flatMap(stringsDeep) : isObj(v) ? Object.values(v).flatMap(stringsDeep) : [];
 const nonEmpty = v => Array.isArray(v) ? v.length > 0 && v.every(x => String(x ?? "").trim() !== "") : isObj(v) ? Object.keys(v).length > 0 : String(v ?? "").trim() !== "";
 const TOKEN_RE = /\{\{([a-z]+):([^{}]*?)\}\}/g;
+// the visible text of a string for the "other-discipline" check: every token is replaced by its label (the part after "|"),
+// so ids such as {{term:<id>}} are never checked, only the words a reader sees
+const tokenLabels = s => String(s ?? "").replace(TOKEN_RE, (_, k, a) => " " + a.split("|").slice(1).join(" ") + " ");
 // Ukrainian apostrophe: ’ (U+2019) between two Cyrillic letters in every uk output (pages, catalog, lesson and phrase files,
 // share list, animation texts). Sources may still have ' (U+0027), ʼ (U+02BC), ` or ‘ — the glossary and the law tables do.
 const UK_APOS_RE = /(?<=\p{Script=Cyrillic})['ʼ`‘](?=\p{Script=Cyrillic})/gu;
@@ -546,6 +552,7 @@ export async function buildAcademy(o = {}) {
           for (const tk of String(s).matchAll(TOKEN_RE)) { const p = tokenProblem(tk[1], tk[2]); if (p) E("token-dead", `${x.part} ${x.k} (${L}): ${p}`); }
           if (lint.RU_WORD_RE.test(s)) E("lang-words", `${x.part} ${x.k} (${L}): words of the restricted language`);
           if (lint.isSpanish(s, L)) E("lang-spanish", `${x.part} ${x.k} (${L}): looks like Spanish text`);
+          { const od = lint.otherDiscipline(tokenLabels(s)); if (od) E("other-discipline", `${x.part} ${x.k} (${L}): "${od}" — the site is about Sporting™ and Compak® Sporting only, no other clay discipline (SCHEMA.md §9)`); }
           if (L === "lt") { const bad = lint.ltLoanword(s); if (bad) W("lt-loanword", `${x.part} ${x.k} (lt): "${bad}" — use "tūtelė", not the Russian-origin loanword`, { lang: "lt" }); }
           if (x.draft) continue; // wording warnings only for finished text
           for (const w of lint.stopWords(stopWordText(s, LABELS_RE[L]), L, { allowNever })) W("stop-word", `${x.part} ${x.k} (${L}): "${w}" — use plain, cautious wording ("many coaches suggest", "you can try")`, { lang: L });
@@ -621,6 +628,24 @@ export async function buildAcademy(o = {}) {
     if (L === "lt") { const bad = lint.ltLoanword(t); if (bad) warn("lt-loanword", `i18n/lt: shared/facts text uses "${bad}" — use "tūtelė"`, { lang: "lt" }); }
   }
   for (const [id, f] of Object.entries(facts)) { if (!/^(?:[a-z0-9-]+\.)?[a-z0-9]+(?:-[a-z0-9]+)+$/.test(id)) warn("fact-id", `fact "${id}": ids are kebab-case with a topic prefix`); if (f.rule_ref) refOk(f.rule_ref, f.scope, `facts.json ${id}`, {}); if (!(f.sources || []).length && !f.rule_ref) warn("numbers-no-sources", `facts.json "${id}" has no sources`); }
+  // Sporting™ and Compak® Sporting only (owner decision 08.10.2026, SCHEMA.md §9 "Disciplines"; error "other-discipline", blocks the
+  // build): no other clay discipline in any text of the Academy or of the glossary it reads. Lessons are checked in checkLesson();
+  // here the ui strings, facts, shared overlays, the registries and every glossary entry (all 11 languages). Not checked: ids,
+  // URLs, src, sources and aliases (keys in OD_SKIP), and token ids (tokenLabels()).
+  {
+    const OD_SKIP = new Set(["id", "k", "src", "url", "urls", "sources", "source", "source_url", "aliases", "rule_ref", "rule_refs", "ref", "to",
+      "from", "lessons", "extras", "related", "learn", "game", "enabled_after", "badge", "known_issues", "legacy", "blocks", "anchor", "conf"]);
+    const texts = (v, key = "", out = []) => { if (OD_SKIP.has(key)) return out; if (typeof v === "string") out.push(v); else if (Array.isArray(v)) v.forEach(x => texts(x, key, out)); else if (isObj(v)) for (const [k, x] of Object.entries(v)) texts(x, k, out); return out; };
+    const od = (where, v) => { for (const s of texts(v)) { const w = lint.otherDiscipline(tokenLabels(s)); if (w) err("other-discipline", `${where}: "${w}" — the site is about Sporting™ and Compak® Sporting only, no other clay discipline (SCHEMA.md §9): "${s.slice(0, 90)}"`); } };
+    for (const [L, x] of Object.entries(ui)) od(`content/academy/ui/${L}.json`, x);
+    for (const [id, f] of Object.entries(facts)) od(`fact ${id}`, f);
+    for (const [L, x] of Object.entries(factsI18n)) od(`content/academy/i18n/${L}/_facts.json`, x);
+    for (const [L, x] of Object.entries(shared)) od(`content/academy/i18n/${L}/_shared.json`, x);
+    for (const f of ["blocks.json", "routes.json", "practice.json", "levels.json", "badges.json"]) od(`content/academy/${f}`, J(f));
+    for (const t of Object.values(GBY)) od(`glossary term ${t.id}`, t);
+    for (const [L, g] of Object.entries(GI)) for (const [id, t] of Object.entries((g || {}).terms || {})) od(`docs/glossary/data/i18n/${L}.js ${id}`, t);
+    for (const [L, x] of Object.entries(GUI)) od(`docs/glossary/data/i18n/ui-${L}.json`, x);
+  }
 
   /* =================================================================================================================
      5. What gets built: lessons per language, then blocks, routes, home, practice
@@ -1211,7 +1236,7 @@ ${built.practice[L] ? `<section id="h-prac"><h2><a href="${esc(U.practice(L))}">
       if (qs.length < ex.n) warn("exam-bank-small", `${r.id} (${L}): ${qs.length} questions in the bank, the exam asks ${ex.n}`, { lang: L });
     }
   }
-  // redirect stubs (groups A–D); E (the /interpreter/ app router) and F (/learn/#… on the home) are JavaScript routers of the app
+  // redirect stubs (groups A–D and H); E (the /interpreter/ app router) and F (/learn/#… on the home) are JavaScript routers of the app
   const stubs = new Map(), pending = [];
   const byUrl = new Map([...PAGES.values()].map(p => [p.url, p])), pageInfo = url => byUrl.get(url);
   function stub(fromRel, group, L, target, anchor, page) {
@@ -1231,10 +1256,20 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
 </head><body><p><a href="${esc(to)}">${esc(title)}</a></p></body></html>
 ` });
   }
-  for (const [old, e] of Object.entries(learnMap)) for (const L of ["uk", "en"]) {
-    if (lessons.has(old)) { err("stub-collision", `id-map.json learn "${old}" is still a master`); continue; }
-    if (lessonBuilt(e.to, L)) stub(`${L === "uk" ? "" : "en/"}learn/${old}/index.html`, "A", L, U.lesson(L, e.to), e.anchor);
-    else pending.push({ from: `${BASE}${L === "uk" ? "" : "en/"}learn/${old}/`, to: U.lesson(L, e.to) + (e.anchor ? "#" + e.anchor : ""), group: "A", lang: L });
+  // Group A: an old Academy id (uk + en only) merged into another lesson. Group H: a RETIRED lesson of this Academy — an id in
+  // ids.lock "academy" that has no master any more (SCHEMA.md §2a, e.g. history-olympics-and-world, owner decision 08.10.2026:
+  // the site is about Sporting™ and Compak® Sporting only). It was published in every language, so its old URL /<p>learn/<id>/
+  // gets a stub in EVERY language where the target exists, and its stale app file learn/data/<lang>/lessons/<id>.json is
+  // removed from the output (RETIRED_FILES below). Production: answer these URLs with HTTP 301 (redirects.json lists them).
+  const lockAcademy = new Set(lock.academy || []), RETIRED_FILES = [];
+  for (const [old, e] of Object.entries(learnMap)) {
+    const retired = lockAcademy.has(old), group = retired ? "H" : "A";
+    for (const L of retired ? LANGS : ["uk", "en"]) {
+      if (lessons.has(old)) { err("stub-collision", `id-map.json learn "${old}" is still a master`); break; }
+      if (retired) RETIRED_FILES.push(`learn/data/${L}/lessons/${old}.json`);
+      if (lessonBuilt(e.to, L)) stub(`${P(L)}learn/${old}/index.html`, group, L, U.lesson(L, e.to), e.anchor);
+      else pending.push({ from: `${BASE}${P(L)}learn/${old}/`, to: U.lesson(L, e.to) + (e.anchor ? "#" + e.anchor : ""), group, lang: L });
+    }
   }
   for (const [old, e] of Object.entries(interpMap)) for (const L of LANGS) {
     const g = e.anchor ? "C" : "B";
@@ -1338,6 +1373,8 @@ ${STUB_NOINDEX ? '<meta name="robots" content="noindex, follow">\n' : ""}<link r
   for (const p of PAGES.values()) out(p.rel, p.html);
   for (const [rel, s] of stubs) out(rel, s.html);
   for (const [rel, s] of FILES) out(rel, s);
+  // stale app data of retired lessons (group H above): the build owns learn/data/, so a file it no longer writes is removed
+  for (const rel of RETIRED_FILES) { const f = path.join(opt.out, rel); if (!FILES.has(rel) && existsSync(f)) rmSync(f); }
   written = true;
   if (!opt.quiet) console.log(`written into ${opt.out}: ${PAGES.size} pages, ${stubs.size} redirect stubs, ${FILES.size} data files`);
   return result;
@@ -1387,8 +1424,33 @@ function printReport(r, opt) {
 }
 
 /* ---------- command line ---------- */
+/* Only the flags listed in the header are accepted. An unknown option (a typo such as "--chek", or "--help" before it existed)
+   used to fall through to a REAL build into docs/ (review 08.10.2026: it happened twice to agents); now -h / --help print the
+   flags and exit 0, and any other unknown option, or a value flag without its value, prints an error and exits 1 before any
+   work. Keep CLI_VALUED / CLI_FLAGS in step with the "Flags" list in the header comment. */
+const CLI_VALUED = new Set(["--out", "--docs-root", "--base", "--report"]), CLI_FLAGS = new Set(["--draft", "--check", "--quiet", "--own-home"]);
+const CLI_HELP = `bun scripts/build_academy.mjs [flags]   (without --check or --out it WRITES INTO docs/)
+  --out <dir>        site root to write into (default docs). Use a temp folder while developing.
+  --draft            also build draft lessons (preview: noindex). Refused for docs/.
+  --base <url>       absolute site URL (default the GitHub Pages URL)
+  --docs-root <dir>  where the old pages are looked up (default docs)
+  --report <file>    write every finding as JSON
+  --check            run the checks only, write nothing
+  --own-home         let the build overwrite a hand-written docs/learn/index.html
+  --quiet            print only the summary
+  -h, --help         print this list and exit (nothing is built)`;
+export function cliProblem(a) { // → null when the arguments are valid, else the message to print
+  for (let i = 0; i < a.length; i++) {
+    if (CLI_VALUED.has(a[i])) { if (i + 1 >= a.length || /^--?[a-z]/i.test(a[i + 1])) return `option ${a[i]} needs a value`; i++; continue; }
+    if (!CLI_FLAGS.has(a[i])) return `unknown option: ${a[i]}`;
+  }
+  return null;
+}
 if (import.meta.main) {
   const a = process.argv.slice(2), val = k => { const i = a.indexOf(k); return i >= 0 ? a[i + 1] : undefined; };
+  if (a.includes("-h") || a.includes("--help")) { console.log(CLI_HELP); process.exit(0); }
+  const bad = cliProblem(a);
+  if (bad) { console.error(`ERROR: ${bad}. Nothing was built or written.\n\n${CLI_HELP}`); process.exit(1); }
   try {
     const r = await buildAcademy({ out: val("--out"), docsRoot: val("--docs-root"), base: val("--base"), report: val("--report"), draft: a.includes("--draft"),
       write: !a.includes("--check"), quiet: a.includes("--quiet"), ownHome: a.includes("--own-home") });

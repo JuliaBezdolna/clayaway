@@ -1,7 +1,7 @@
 {
  "id": "mind-concentration-focus",
  "lang": "fi",
- "base_rev": 3,
+ "base_rev": 4,
  "h": {
   "title": "9b84feba",
   "summary": "181d6e3f",
@@ -12,8 +12,8 @@
   "basics-eyes-p4": "980c7cb2",
   "mind-concentration-focus-sim": "e65f1a6a",
   "mind-concentration-focus-p8": "72cebf0f",
-  "mind-concentration-focus-p9": "e0357652",
-  "mind-concentration-focus-p10": "f7366569",
+  "mind-concentration-focus-p9": "31722f51",
+  "mind-concentration-focus-p10": "188a0a26",
   "mind-concentration-focus-p5": "5c7d9e57",
   "mind-concentration-focus-p6": "32829321",
   "mind-concentration-focus-kp1": "ad64d958",
@@ -24,7 +24,7 @@
   "mind-concentration-focus-dyk": "a8e9ebb6",
   "mind-concentration-focus-q1": "f592a3e4",
   "mind-concentration-focus-q2": "3dd8e102",
-  "mind-concentration-focus-q4": "2ddaaf43",
+  "mind-concentration-focus-q4": "a7579c73",
   "mind-concentration-focus-q3": "741aa211"
  },
  "review": {
@@ -42,8 +42,8 @@
   "basics-eyes-p4": "Fokus: {{term:soft-focus|pehmeä katse}}, rauhallinen ja laaja, kun silmät odottavat katsepisteessä; sitten {{term:hard-focus|terävä katse}} itse kiekkoon, usein sen {{term:leading-edge|etureunaan}}. Osa ampujista siirtää katseen takaisin piippuihin tai {{term:bead|jyvään}} (pieneen pisteeseen kiskon päässä piipunsuulla) ”tarkistaakseen” {{term:lead|ennakkonsa}}. Ennakko on etäisyys, jonka verran asetta suunnataan kiekon edelle, ja tällainen tarkistus usein hidastaa asetta tai pysäyttää sen.",
   "mind-concentration-focus-sim": "Animaatio: pehmeä katse katsepisteen ympärillä, sitten terävä katse kiekon etureunaan.",
   "mind-concentration-focus-p8": "Piiput pysyvät näkökentän laidalla. Kokeneet ampujat sanovat usein, että he tuskin huomaavat asetta laukauksen aikana, koska katse on kiekossa.",
-  "mind-concentration-focus-p9": "Tutkijat kutsuvat viimeistä vakaata katsetta ennen liikettä {{term:quiet-eye|rauhalliseksi katseeksi}} (quiet eye). Verrattuna kokemattomampiin ampujiin huipputason trap- ja skeet-ampujat aloittavat sen aikaisemmin ja pitävät sitä kauemmin, ja osumissa se on pidempi kuin ohilaukauksissa.",
-  "mind-concentration-focus-p10": "Tarkkaa millisekuntimäärää, jonka pitäisi pitää, ei ole. Sinulle se tarkoittaa yksinkertaisesti: näe kiekko aikaisin ja pidä katse siinä, kun ase liikkuu sujuvasti. Yhdessä tutkimuksessa 20 skeet-ampujaa harjoitteli tätä katsomalla videota omista silmistään ja laukauksistaan, ja he osuivat sen jälkeen useammin. Tutkimus on olympialaisesta trapista ja skeetistä; todennäköisesti tämä toimii samaan tapaan {{tm:sporting}}- ja {{tm:compak}}-lajeissa.",
+  "mind-concentration-focus-p9": "Tutkijat kutsuvat viimeistä vakaata katsetta ennen liikettä {{term:quiet-eye|rauhalliseksi katseeksi}} (quiet eye). Monien urheilulajien tutkimuksissa taitavammat urheilijat aloittavat sen yleensä aikaisemmin ja pitävät sitä kauemmin, ja onnistuneissa suorituksissa se on usein pidempi kuin epäonnistuneissa.",
+  "mind-concentration-focus-p10": "Tarkkaa millisekuntimäärää, jonka pitäisi pitää, ei ole. Sinulle se tarkoittaa yksinkertaisesti: näe kiekko aikaisin ja pidä katse siinä, kun ase liikkuu sujuvasti. Lajeissa {{tm:sporting}} ja {{tm:compak}} tätä ei ole tutkittu suoraan; todennäköisesti se toimii niissä samaan tapaan.",
   "mind-concentration-focus-p5": "Huomion vie usein ajatus, ei kiekko: ”entä jos osun ohi”, ”montako olen jo hukannut”. Huoli vie huomion pois tehtävästä, varsinkin paineen alla. Yksi {{term:process-goal|suoritustavoite}}, kuten ”näe etureuna”, antaa huomiolle tehtävän: ks. {{lesson:mind-process-goals}}.",
   "mind-concentration-focus-p6": "Huomiota voi harjoitella: lyhyet kierrokset selkeällä rutiinilla, harjoittelu pienillä häiriötekijöillä ja harjoitukset, joissa seurataan silmillä liikkuvia kohteita. Jos huomio herpaantuu useiden kierrosten jälkeen, se on tavallista väsymystä; lyhyt tauko auttaa enemmän kuin väkisin jatkaminen."
  },
@@ -76,13 +76,13 @@
    "explain": "Katse pysyy kiekossa, usein sen etureunassa; piiput ja jyvä jäävät näkökentän laitaan."
   },
   "mind-concentration-focus-q4": {
-   "q": "Mitä tutkimukset kertovat rauhallisesta katseesta haulikkoampujilla?",
+   "q": "Mitä monien urheilulajien tutkimukset kertovat rauhallisesta katseesta?",
    "options": {
-    "a": "Se alkaa aikaisemmin ja kestää kauemmin osumissa",
+    "a": "Taitavammat urheilijat aloittavat sen yleensä aikaisemmin ja pitävät sitä kauemmin",
     "b": "Sen täytyy kestää tarkka määrä millisekunteja",
     "c": "Se on tärkeä vain kivääri- ja pistooliammunnassa"
    },
-   "explain": "Osumissa viimeinen katse alkaa aikaisemmin ja kestää kauemmin, mutta yleispätevää tavoitelukua ei ole."
+   "explain": "Monissa urheilulajeissa viimeinen vakaa katse alkaa taitavammilla urheilijoilla ja onnistuneissa suorituksissa yleensä aikaisemmin ja kestää kauemmin, mutta yleispätevää tavoitelukua ei ole."
   },
   "mind-concentration-focus-q3": {
    "q": "Mikä on suoritustavoite?",

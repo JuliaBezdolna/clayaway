@@ -1,25 +1,23 @@
 {
   "id": "intro-disciplines",
   "lang": "fr",
-  "base_rev": 1,
+  "base_rev": 2,
   "h": {
-    "title": "dac19506",
-    "summary": "58295a84",
+    "title": "41ef701c",
+    "summary": "90e09529",
     "intro-disciplines-p1": "79e1fd27",
     "intro-disciplines-p2": "bad18039",
     "intro-disciplines-cmp": "1ddbb76f",
     "intro-disciplines-p3": "f274bc4d",
-    "intro-disciplines-p4": "072bf2ee",
-    "intro-disciplines-p5": "c1fef81a",
-    "intro-disciplines-p6": "d725988e",
+    "intro-disciplines-p6": "f3c62c58",
     "intro-disciplines-kp1": "b3f7bab6",
     "intro-disciplines-kp2": "634ce41c",
     "intro-disciplines-kp3": "fec76055",
-    "intro-disciplines-kp4": "1a9cb8c0",
+    "intro-disciplines-kp4": "56e7d318",
     "intro-disciplines-dyk": "0aa60887",
     "intro-disciplines-q1": "f150b65a",
-    "intro-disciplines-q2": "40032e9f",
-    "intro-disciplines-q3": "6e16194d",
+    "intro-disciplines-q2": "7316a331",
+    "intro-disciplines-q-course": "30e84199",
     "intro-disciplines-q-second-shot": "ecd0ab34"
   },
   "review": {
@@ -27,8 +25,8 @@
     "date": null,
     "origin": null
   },
-  "title": "Les disciplines principales",
-  "summary": "Un bref aperçu du {{tm:sporting}} et du {{tm:compak}}, ainsi que du Trap et du Skeet : ce qu'ils ont en commun et ce qui les distingue.",
+  "title": "Les deux disciplines",
+  "summary": "Un bref aperçu du {{tm:sporting}} et du {{tm:compak}} : ce qu'ils ont en commun et ce qui les distingue.",
   "body": {
     "intro-disciplines-p1": "{{tm:sporting}} imite la chasse. Les {{term:shooting-stand|postes de tir}}, les emplacements balisés d'où l'on tire, sont installés en terrain naturel : dans les champs, près des bois, sur des pentes. Les plateaux volent comme le ferait une perdrix, un canard ou un faisan, ou roulent comme un lièvre. Chaque {{term:layout|parcours}}, un groupe de postes, donne {{fact:targets.sporting-layout-targets}} (un doublé compte deux plateaux, donc 10 de plus). Les deux plateaux d'un {{term:double|doublé}} volent ensemble ou l'un après l'autre.",
     "intro-disciplines-p2": "{{tm:compak}} en est la version compacte. Tout se passe sur un seul terrain, où l'on trouve {{fact:basics.compak-field}}. Le tireur passe par les cinq postes et tire 5 plateaux à chacun, soit 25 par {{term:round|série}}. Un terrain de Compak demande peu de place, ce qui permet à un club d'en installer un facilement.",
@@ -37,9 +35,7 @@
       "compak": "Vous restez sur un seul terrain et, après chaque passage, vous avancez d'un poste vers la droite. Un doublé est {{term:double-on-report|au coup de fusil}}, où votre premier tir libère le second plateau, ou {{term:simultaneous-double|simultané}}, où les deux partent ensemble."
     },
     "intro-disciplines-p3": "Les compétitions internationales des deux disciplines comptent généralement {{fact:basics.international-targets}}. Dans les deux cas, on peut tirer deux coups sur un {{term:single-target|plateau simple}} : si le premier manque, le second peut encore le casser.",
-    "intro-disciplines-p4": "Le Trap forme une autre famille de disciplines. Le tireur se place à l'un des cinq postes alignés, et les plateaux partent d'une fosse (une tranchée creusée devant les postes) sous des angles qui changent. Le tireur ne sait pas exactement où ira le prochain plateau. À la {{term:olympic-trap|Fosse olympique}} (Olympic Trap), deux coups peuvent être tirés sur chaque plateau.",
-    "intro-disciplines-p5": "Au {{term:skeet|Skeet}}, les plateaux partent de deux pylônes (de petites constructions qui abritent les lanceurs) placés face à face, l'un haut et l'un bas. Le tireur se déplace entre des postes disposés en demi-cercle entre les deux pylônes, plus un au centre. Les trajectoires ne changent pas, si bien qu'une technique précise et bien rodée compte énormément.",
-    "intro-disciplines-p6": "La Fosse olympique et le Skeet figurent au programme olympique et relèvent d'une autre fédération internationale, l'ISSF. Mais la {{term:fitasc|FITASC}} a aussi ses propres disciplines de fosse et de skeet, comme l'Universal Trench et l'Universal Skeet. L'Académie ClayArena porte surtout sur le {{tm:sporting}} et le {{tm:compak}}. Les bases sont communes à toutes les disciplines : la sécurité, l'{{term:gun-mount|épaulé}} (le geste qui amène le fusil à la joue et à l'épaule) et la lecture du plateau."
+    "intro-disciplines-p6": "Les deux disciplines relèvent de la {{term:fitasc|FITASC}}, la fédération internationale qui en rédige les règles. Les bases sont communes : la sécurité, l'{{term:gun-mount|épaulé}} (le geste qui amène le fusil à la joue et à l'épaule) et la lecture du plateau."
   },
   "note": {},
   "phrases": {},
@@ -47,7 +43,7 @@
     "intro-disciplines-kp1": "{{tm:sporting}} : un parcours en terrain naturel ; chaque parcours donne {{fact:rules.round-targets}}.",
     "intro-disciplines-kp2": "{{tm:compak}} : un seul terrain, où l'on trouve {{fact:basics.compak-field}}.",
     "intro-disciplines-kp3": "Une compétition internationale compte généralement {{fact:basics.international-targets}} ; on peut tirer deux coups sur un plateau simple.",
-    "intro-disciplines-kp4": "Au Trap, les plateaux s'éloignent du tireur ; au Skeet, ils traversent entre deux pylônes."
+    "intro-disciplines-kp4": "Les deux disciplines suivent les règles de la FITASC et partagent les bases : sécurité, épaulé et lecture du plateau."
   },
   "quiz": {
     "intro-disciplines-q1": {
@@ -63,19 +59,19 @@
       "q": "Combien de lanceurs y a-t-il sur un terrain de Compak ?",
       "options": {
         "a": "Six, désignés par les lettres A à F",
-        "b": "Deux : un haut et un bas",
-        "c": "Quinze, dans une fosse"
+        "b": "Quatre, désignés par les lettres A à D",
+        "c": "Dix, deux à chaque poste"
       },
       "explain": "Un terrain de {{tm:compak}} compte {{fact:basics.compak-field}}."
     },
-    "intro-disciplines-q3": {
-      "q": "Dans quelle discipline les plateaux partent-ils de deux pylônes, l'un haut et l'un bas ?",
+    "intro-disciplines-q-course": {
+      "q": "Dans quelle discipline parcourt-on un circuit de poste en poste ?",
       "options": {
-        "a": "Trap",
-        "b": "{{tm:sporting}}",
-        "c": "Skeet"
+        "a": "{{tm:compak}}",
+        "b": "Dans les deux, de la même façon",
+        "c": "{{tm:sporting}}"
       },
-      "explain": "Le Skeet a un pylône haut et un pylône bas, avec les postes disposés en demi-cercle entre eux."
+      "explain": "En {{tm:sporting}}, on va de poste en poste sur un terrain naturel ; en {{tm:compak}}, on reste sur un seul terrain et on avance d'un poste vers la droite."
     },
     "intro-disciplines-q-second-shot": {
       "q": "Votre premier coup manque un plateau simple. Que permet le règlement ?",

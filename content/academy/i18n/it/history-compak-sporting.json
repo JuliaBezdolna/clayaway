@@ -16,11 +16,15 @@
     "history-compak-sporting-kp3": "f9a1ca90",
     "history-compak-sporting-kp4": "f4441fd7",
     "history-compak-sporting-dyk": "1bc6f84a",
-    "history-compak-sporting-q1": "e113e7ed",
+    "history-compak-sporting-q1": "706b74f2",
     "history-compak-sporting-q2": "2c216314",
     "history-compak-sporting-q3": "438b5d84"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "{{tm:compak}}: il formato compatto",
   "summary": "Il {{tm:compak}} è nato alla fine del XX secolo come forma compatta del {{tm:sporting}}: meno terreno, tiro più rapido e più comodo per gli spettatori.",
   "body": {
@@ -43,17 +47,29 @@
   "quiz": {
     "history-compak-sporting-q1": {
       "q": "Perché è stato creato il {{tm:compak}}?",
-      "options": { "a": "Per far entrare piattelli vari su un'area piccola", "b": "Per far tornare il tiro ai piccioni vivi", "c": "Per sostituire le discipline olimpiche del tiro a volo" },
+      "options": {
+        "a": "Per far entrare piattelli vari su un'area piccola",
+        "b": "Per far tornare il tiro ai piccioni vivi",
+        "c": "Per sostituire del tutto il {{tm:sporting}}"
+      },
       "explain": "Il {{tm:compak}} richiede meno terreno ma mantiene traiettorie varie."
     },
     "history-compak-sporting-q2": {
       "q": "Quante postazioni e macchine ha un campo {{tm:compak}}?",
-      "options": { "a": "1 postazione e 15 macchine", "b": "5 postazioni e 6 macchine", "c": "8 postazioni e 2 macchine" },
+      "options": {
+        "a": "1 postazione e 15 macchine",
+        "b": "5 postazioni e 6 macchine",
+        "c": "8 postazioni e 2 macchine"
+      },
       "explain": "Cinque postazioni sono in linea, e sei macchine, da A a F, lanciano i piattelli."
     },
     "history-compak-sporting-q3": {
       "q": "Quando ha adottato il {{tm:compak}} la FITASC?",
-      "options": { "a": "Nel 1960", "b": "Nel 1921", "c": "Nel 1991" },
+      "options": {
+        "a": "Nel 1960",
+        "b": "Nel 1921",
+        "c": "Nel 1991"
+      },
       "explain": "La disciplina fu {{fact:community.compak-created}}."
     }
   }

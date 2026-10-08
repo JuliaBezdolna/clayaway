@@ -17,19 +17,38 @@
      and after a change of method, speed or distance) is that freeze-frame of the method: flight line, target, muzzles and lead apart.
      The canvas also shows where the muzzles have been (cyan rings at equal time steps: they spread out when the gun moves fast,
      they stack when it waits), a dashed ghost of the target where it was at the decision, the shot cloud from the barrels and the
-     dashed ring of the shot pattern at the impact (a hit = the target inside the ring), and a 2 m scale key.
+     dashed ring of the shot pattern at the impact (a hit = the target's centre inside the ring; on a miss a white dot marks that
+     centre, since the target is drawn larger than life), and a 2 m scale key.
      opts.preset: "crosser-rl" = target flies right to left, "rabbit" = target rolls along the ground (default: left to right;
-                  a rabbit is slower: 11 m/s by default, 6–18 m/s on the slider; it slows down on the ground, which the lab does
-                  not model — simplified physics, see below);
-     opts.focus: "perceived-vs-actual" = table of the four methods for the same target, "lead-units" = lead also in target widths,
+                  the rabbit's slider starts at 11 m/s, 6–18 m/s — an EXAMPLE value for the lab, no published source gives a
+                  typical rabbit speed, so no text may present 11 m/s as typical; it slows down on the ground, which the lab
+                  does not model — simplified physics, see below);
+     opts.focus: "perceived-vs-actual" = table of the four methods for the same target, "lead-units" = lead also in target widths
+                 (the target is then drawn to scale, see "Scale" below),
                  "follow-through" = option to stop the gun at the trigger (opts.stop: true = option on at the start),
                  "mount" = the phase words read “move · mount · shoot” instead of the method's words (kept for old data: the
                  gun-mount lesson now shows the stand scene "mount" below, which draws the shooter, the stock and the cheek).
      The coach's words for the phases of the method are shown in English above the canvas, as the lessons teach them
      (“insert in front · match its speed · shoot · keep moving”, “butt · belly · beak · bang”, “on it · with it · pull away · shoot”);
      the current one is highlighted. They are HTML text, so they stay readable on a phone.
-     Teaching physics (simplified; an explanation, not a ballistic calculator): ≈330 m/s average shot speed, 0.15 s from decision
-     to shot, effective pattern radius 0.10 m + 1.5 cm per metre of distance, muzzle ≈1 m from the shooter's eye.
+     Teaching physics (simplified; an explanation, not a ballistic calculator; revised 10.2026 after an independent check against
+     two drag models calibrated to the Lowry / NRA time-of-flight table for lead shot):
+       time of flight  tf = d / 330 · (1 + 0.0115 · (d − 15)) s — the shot slows down as it flies: on average ≈ 330 m/s over 15 m,
+                       ≈ 300 m/s over 25 m, ≈ 255 m/s over 40 m (it leaves the barrel at about 360–430 m/s; the old d / 330 gave
+                       too little lead at long range: 17 m/s at 40 m needs ≈ 2.65 m, not 2.06 m);
+       delay           TR = 0.15 s from the decision to the shot — an average estimate, not a measured constant (shooters differ);
+       hit zone        R = 0.25 m + 0.5 cm per metre of distance: the radius of the part of the pattern dense enough to break the
+                       target (0.325 m at 15 m, 0.375 m at 25 m, 0.45 m at 40 m); the dashed ring at the impact is drawn with R;
+       eye             the muzzle ≈ 1 m from the shooter's eye (the "seen at the muzzle" value).
+     Defaults 17 m/s at 25 m: actual lead 1.44 m (4.7 ft, about 13 target widths) with every method. Texts that quote a lab value
+     must follow these numbers (none does today: the lessons only describe the methods).
+     Scale: 720 px = 28 m (≈ 25.7 px per metre) ALONG the target's line: distances along that line (the 2 m ticks), the lead and
+     the ring are to scale. The shooting distance d (15–40 m) itself is not drawn (the shooter stands ≈ 126 px ≈ 5 m below the
+     line). The target is drawn larger than life so it can be seen: ≈ 6× on a wide screen (radius 9 px ≈ 0.35 m instead of
+     0.055 m), up to ≈ 10× on a phone (× MK, like every mark; the ring and the lead are not multiplied) — except with focus
+     "lead-units", where the lead is counted in target widths: there the target is to scale on a wide screen (radius CLAY / 2 =
+     1.4 px) and up to ≈ 1.6× on a phone (× MK, so it stays visible), with its normal glow. lab_note under the canvas says the same
+     in plain words in the page language.
      Each method moves the muzzle the way the lessons describe it, and every result (hit / behind / in front, lead seen and actual
      lead) is computed from the muzzle and target positions; nothing is scored as a hit by default:
        maintained — the muzzles wait in front and move slower than the target, so the gap closes; at the decision the gun takes the
@@ -45,7 +64,10 @@
      earth bank in front of the screen; a clock. Behind the stand, a little nearer the viewer, the ClayArena dog sits on a lead next to
      its handler (drawn only when docs/shared/mascot.js is on the page, see MASCOT below). Everyone wears safety glasses and ear muffs
      (the dog wears dog earmuffs). SAFETY: nobody is ever drawn in front of the stand, no muzzle ever points at a person or the trap
-     house, an unbroken target comes down in the field, not at the stand (see "SAFETY" above SCENES).
+     house, an unbroken target comes down in the field, not at the stand (see "SAFETY" above SCENES). Scale: only the shooter and
+     the stand are to scale (1 px ≈ 1 cm). The people behind the stand have real heights, but they stand closer together than in
+     life so that everyone fits behind the stand; the field (the trap house is about 4 m from the stand here) and the target's
+     flight are shortened. A small caption under the canvas says so (ui key anim_scale, 11 languages; owner's review 10.2026).
      Scenes (SCENES below): "signal" (Sporting™: the referee passes the call back to the trapper behind the stand with a sound
      signal, the trapper presses the release button; the target leaves in time), "signal-late" (it leaves later than the limit: “No Bird”, thrown again; the shooter does not
      fire — the rulebooks do not say how a late target is scored when the shooter fires at it), "manual" (Compak® Sporting, released
@@ -141,8 +163,9 @@
    The master texts are content/academy/ui/<lang>.json (11 languages); scripts/build_academy.mjs copies them into
    docs/shared/sims-text.js (list SIM_KEYS there) for pages outside the Academy (glossary, rules trainer), together with the names of
    the terms the animations show (window.CLAYSIMS_TERMS = {lang: {id: [en, local]}}). The style 10.2026 added no text key: the only
-   new canvas word is the scale key "2 <unit_m>". Literal canvas words that are never translated: "Pull!", "No Bird!", "!", "BANG",
-   "♪", "A" (the trap letter).
+   new canvas word is the scale key "2 <unit_m>". The ballistics review (10.2026) rewrote lab_note and added anim_scale (the caption
+   under the stand scenes; as an "anim_" key the build copies it without a change to SIM_KEYS). Literal canvas words that are never
+   translated: "Pull!", "No Bird!", "!", "BANG", "♪", "A" (the trap letter).
    The build (scripts/build_academy.mjs) runs this file in a sandbox without a DOM ({window: {}, console}): top-level code must not
    touch document, matchMedia, devicePixelRatio, Path2D or Intl without a guard; caches and gradients are made inside the drawing
    functions only.
@@ -164,7 +187,7 @@ const DEF = {
   how_pullaway: "The muzzles move with the target first, then accelerate ahead. Press Shoot while the gun is still accelerating: the lead you see is smaller than the actual lead.",
   how_ambush: "The muzzles wait still at a point ahead. Press Shoot before the target reaches that point: the shot needs time, so a shot fired as the target arrives goes behind.",
   stop_gun: "Stop the gun at the trigger (a fault)", clay_widths: "target widths",
-  lab_note: "Slow motion, simplified physics for teaching: about 330 m/s average shot speed, 0.15 s from decision to shot, a pattern radius of about 10 cm plus 1.5 cm per metre of distance, the muzzle about 1 m from the eye. The actual lead depends on target speed, distance, angle and cartridge; the lead you see also depends on the method and the shooter.",
+  lab_note: "Slow motion, simplified physics for teaching. The shot slows down as it flies: on average about 330 m/s over 15 m, 300 m/s over 25 m and 255 m/s over 40 m (it leaves the barrel at about 360–430 m/s). It takes about 0.15 s from the decision to the shot (an average estimate). The ring marks the part of the pattern dense enough to break the target: a radius of about 33 cm at 15 m and 45 cm at 40 m. The muzzle is about 1 m from the eye. Distances along the target's line, the lead and the ring are to scale; the target is drawn larger than life so you can see it (about to scale where the lead is counted in target widths). The actual lead depends on the target's speed, distance and angle, the cartridge and the shooter.",
   decision: "decision", shot_moment: "shot", lead_word: "lead", unit_m: "m", unit_ft: "ft", unit_cm: "cm", unit_in: "in", unit_ms: "m/s",
   pair_report: "Report pair (on report): the 2nd target is released at the sound of the 1st shot",
   pair_sim: "Simultaneous pair: both targets are released together",
@@ -205,6 +228,7 @@ const DEF = {
   anim_s_move: "Move: the front hand starts the muzzles along the target's line.",
   anim_s_mount: "Mount: the stock comes up to the cheek and into the shoulder; the head stays still.",
   anim_s_shoot: "Shoot: the mount is finished as the shot comes.",
+  anim_scale: "Only the shooter and the stand are to scale; the field and the target's flight are shortened.",
 };
 const T = k => { const v = CFG.t(k); return v == null || v === "" ? (DEF[k] ?? k) : v; };
 const TERM = id => CFG.term(id);
@@ -231,6 +255,7 @@ const CSS = `.cs-sim{border:1px solid rgba(255,255,255,.1);border-radius:14px;ov
 .cs-slow[aria-pressed="true"]{border-color:#34D399;color:#34D399;background:rgba(52,211,153,.12)}
 .cs-out{padding:0 12px 12px;font-size:14px;color:#D1D5DB}.cs-out:empty{display:none}.cs-note{font-size:12.5px;color:#9CA3AF}.cs-hit{color:#34D399}.cs-miss{color:#FB923C}.cs-muted{color:#9CA3AF}
 .cs-say{padding:10px 12px 12px;font-size:14.5px;line-height:1.5;color:#E5E7EB;min-height:3.2em;border-top:1px solid rgba(255,255,255,.06)}
+.cs-scale{margin:0;padding:5px 12px 7px;font-size:12.5px;line-height:1.4;color:#9CA3AF}
 .cs-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 -6px}.cs-tabs .cs-btn{min-height:40px}
 .cs-hero{margin:14px 0 20px}.cs-hero-h{font-weight:700;font-size:18px;color:#34D399;margin:0 0 4px}.cs-hero-w{font-size:14px;color:#9CA3AF;margin:4px 0 0}
 .cs-hero .cs-sim{margin:10px 0 0}
@@ -458,7 +483,9 @@ const KIND = {standard: {d: 1, h: .23}, midi: {d: .82, h: .25}, mini: {d: .55, h
 /* clay(c, x, y, s, f, t, o): the target. s = size scale (radius 9·s logical px × MK, as before the style), f = its flight (f.ar(t) =
    aspect, f.rot(t) = tilt, f.rabbit, f.term "battue" → the battue kind), t = flight time. o (optional): {spin (highlight angle),
    kind (KIND key), look ("dome" = black body + orange painted dome, the common target; "orange" = all-orange body, the battue's look,
-   so an edge-on battue never vanishes on the dark sky), ghost (dashed outline only: where the target was at the decision)}.
+   so an edge-on battue never vanishes on the dark sky), ghost (dashed outline only: where the target was at the decision), glow
+   (radius of the glow in logical px × MK; default 2.8 × the target's radius: the lead lab's true-scale target in "lead-units" keeps
+   the glow of a normal-size one, so a 1.4 px target stays visible)}.
    Order: glow, black body and rim, a light lower edge, the orange dome, its painted ring, a spinning highlight. */
 function clay(c, x, y, s, f, t = 0, o = {}){
   f = f || {}; o = o || {};
@@ -468,8 +495,8 @@ function clay(c, x, y, s, f, t = 0, o = {}){
   c.save(); c.translate(x, y); c.rotate(f.rot ? f.rot(t) : 0);
   if (o.ghost) { c.setLineDash([3 * m, 3 * m]); c.lineWidth = 1.4 * m; c.strokeStyle = "rgba(255,107,26,.8)"; c.fillStyle = "rgba(255,107,26,.15)";
     c.beginPath(); c.ellipse(0, rim / 2, r, ry + rim / 2, 0, 0, TAU); c.fill(); c.stroke(); c.setLineDash([]); c.restore(); return; }
-  const gl = c.createRadialGradient(0, rim / 2, 0, 0, rim / 2, r * 2.8); gl.addColorStop(0, "rgba(255,120,40,.34)"); gl.addColorStop(1, "rgba(255,120,40,0)");
-  c.fillStyle = gl; c.fillRect(-r * 3, -r * 3, r * 6, r * 6);                                            // glow: the brightest thing on screen
+  const gr = o.glow ? o.glow * m : r * 2.8, gl = c.createRadialGradient(0, rim / 2, 0, 0, rim / 2, gr); gl.addColorStop(0, "rgba(255,120,40,.34)"); gl.addColorStop(1, "rgba(255,120,40,0)");
+  const ge = o.glow ? gr * 1.08 : r * 3; c.fillStyle = gl; c.fillRect(-ge, -ge, ge * 2, ge * 2);           // glow: the brightest thing on screen
   c.fillStyle = look === "orange" ? ART.clayBody : ART.clayRim; c.beginPath(); c.ellipse(0, rim, r, ry, 0, 0, TAU); c.fill(); c.fillRect(-r, 0, 2 * r, rim);   // body, rim
   c.strokeStyle = "rgba(255,255,255,.16)"; c.lineWidth = .8 * m; c.beginPath(); c.ellipse(0, rim, r, ry, 0, .15 * Math.PI, .85 * Math.PI); c.stroke();
   const g = c.createLinearGradient(-r, -ry, r * .6, ry); g.addColorStop(0, ART.clayHi); g.addColorStop(.45, ART.clayTop); g.addColorStop(1, ART.clayLo);
@@ -774,8 +801,11 @@ function flightSim(host, preset, opts = {}){
 }
 
 /* Lead lab: a crossing target at distance d (m) and speed v (m/s), seen side-on. World x in metres (left to right; the drawing is
-   mirrored for a right-to-left target). Shot time of flight tf = d / 330; decision-to-shot delay TR = 0.15 s. The shot hits if
-   |muzzle(ts) − target(ts + tf)| < R (effective pattern radius). The method gives the muzzle path muzzle(t, td), td = decision time.
+   mirrored for a right-to-left target). Shot time of flight tf = d / 330 · (1 + 0.0115 · (d − 15)) (the shot slows down: average
+   ≈ 330 m/s over 15 m, ≈ 300 over 25 m, ≈ 255 over 40 m; see "Teaching physics" in the header); decision-to-shot delay TR = 0.15 s
+   (an average estimate). The shot hits if |muzzle(ts) − target(ts + tf)| < R, R = 0.25 + 0.005 · d (the radius of the part of the
+   pattern dense enough to break the target: 0.325 m at 15 m … 0.45 m at 40 m). Defaults 17 m/s at 25 m: actual lead 1.44 m.
+   The method gives the muzzle path muzzle(t, td), td = decision time.
    opts.autoplay (default false): "view" / "now" plays "Watch the method" once. Slow motion: the lab runs at 1/4 speed, 1/8 with 🐢.
    "Watch the method" turns into ⏹ stop while the demonstration runs. */
 function leadLab(host, method = "maintained", opts = {}){
@@ -783,7 +813,9 @@ function leadLab(host, method = "maintained", opts = {}){
   const TR = .15, EYE = 1, CLAY = .11, METHODS = ["maintained", "swing", "pullaway", "ambush"];
   const norm = m => ({"swing-through": "swing", "pull-away": "pullaway"})[m] || (METHODS.includes(m) ? m : "maintained");
   const rl = /-rl$/.test(opts.preset || ""), rabbit = opts.preset === "rabbit", focus = opts.focus || "";
-  const VR = rabbit ? [6, 18, 11] : [10, 25, 17]; // speed slider: min, max, default (m/s); a rabbit rolls slower than a crosser flies
+  // speed slider: min, max, default (m/s). The rabbit's 11 m/s is an EXAMPLE value for the lab (no published source gives a typical
+  // rabbit speed): never quote it as a typical speed in a text
+  const VR = rabbit ? [6, 18, 11] : [10, 25, 17];
   host.innerHTML = `<div class="cs-sim"><div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div><canvas width="720" height="300" role="img" aria-label="${esc(T("method") + ": " + T("m_" + norm(method)))}"></canvas>
   <div class="cs-ctl"><label>${esc(T("method"))} <select data-k="m">${METHODS.map(m => `<option value="${m}"${m === norm(method) ? " selected" : ""}>${esc(T("m_" + m))}</option>`).join("")}</select></label>
   <label>${esc(T("speed"))} <input data-k="v" type="range" min="${VR[0]}" max="${VR[1]}" value="${VR[2]}"><span data-k="vv"></span></label>
@@ -796,6 +828,12 @@ function leadLab(host, method = "maintained", opts = {}){
   const words = wordsBar(q("words"));
   const X0 = -14, X1 = 14, XS = X0 + 1, XD = -3; // the target starts at XS; the planned decision is when it reaches XD (left of centre)
   const px = x => { const u = (x - X0) / (X1 - X0) * W; return rl ? W - u : u; }, TY = rabbit ? H*.8 : H*.42;
+  // the target's size (Scale in the header): drawn larger than life so it can be seen (clay scale 1 = radius 9 px ≈ 0.35 m at 25.7
+  // px per metre: ≈ 6× on a wide screen, up to ≈ 10× on a phone with × MK); with "lead-units" (the lead in target widths) to scale
+  // on a wide screen: radius CLAY / 2 = 1.4 px (clay scale CS ≈ 0.157; × MK on a phone like every mark, up to ≈ 1.6×), with the glow of a normal-size target (GLOW) so it stays visible, a thinner comet trail and
+  // a ghost no smaller than 2.2 px (a 1.4 px dashed outline would not show)
+  const TRUE = focus === "lead-units", CS = TRUE ? CLAY / 2 / (X1 - X0) * W / 9 : 1, GLOW = TRUE ? 9 * 2.8 : 0, TRAIL = TRUE ? 3 : 7;
+  const clayO = o => (GLOW ? Object.assign({glow: GLOW}, o) : o), GHOST = TRUE ? Math.max(CS, 2.2 / 9) : 1;
   // coach's words for the phases of each method (English, as the lessons teach them); the current one is highlighted
   const WORDS = {maintained: ["insert in front", "match its speed", "shoot", "keep moving"], swing: ["butt", "belly", "beak", "bang"],
     pullaway: ["on it", "with it", "pull away", "shoot"], ambush: ["wait at the point", "shoot"]};
@@ -803,7 +841,9 @@ function leadLab(host, method = "maintained", opts = {}){
   const val = () => { q("vv").textContent = q("v").value + " " + T("unit_ms"); q("dv").textContent = q("d").value + " " + T("unit_m"); };
   function setup(m, plain){
     m = m || q("m").value;
-    const v = +q("v").value, d = +q("d").value, tf = d / 330, L = v * tf, R = .1 + .015 * d;
+    // TEACHING physics (header): time of flight of a shot that slows down, hit zone R (radius of the part of the pattern dense
+    // enough to break the target). L = the actual lead every method aims for (1.44 m at the defaults 17 m/s, 25 m).
+    const v = +q("v").value, d = +q("d").value, tf = d / 330 * (1 + .0115 * (d - 15)), L = v * tf, R = .25 + .005 * d;
     const tx = t => XS + v * t, tD = (XD - XS) / v;
     let base, auto, phase;
     if (m === "maintained") { const vc = .75 * v, g0 = L + (v - vc) * tD, pre = t => XS + g0 + vc * t; // gap g0 − (v − vc)·t closes
@@ -828,7 +868,9 @@ function leadLab(host, method = "maintained", opts = {}){
   /* still = the still picture (the method's freeze-frame with the flight line dotted). Draw order (style 10.2026): background,
      ground/flight line, 2 m ruler and scale key, comet trail, muzzle history, shooter (or the rabbit barrels) and the gun line,
      ghost of the target at the decision, shot cloud, target or burst, pattern ring at the impact, muzzle mark, decision, the
-     freeze-frame bracket with the lead, muzzle flash. Physics and numbers are unchanged. */
+     freeze-frame bracket with the lead, muzzle flash. The style changed no number; the ballistics review (10.2026) changed tf and R
+     in setup() and the target's size in "lead-units" (CS above); the ring follows R (Rpx); on a miss the target's centre is marked
+     (a white dot), because the target is drawn larger than the ring. */
   function draw(t, sh, still){
     last = [t, sh, still, freeze]; fit(cv, c); const m = MK(c), k = FK(c);
     const {tx, mz} = sim, td = sh ? sh.td : Infinity;
@@ -842,22 +884,25 @@ function leadLab(host, method = "maintained", opts = {}){
       seg(c, x0, y, x1, y); seg(c, x0, y - 4, x0, y + 4); seg(c, x1, y - 4, x1, y + 4); c.lineWidth = 1;
       font(c, 11.5, "600"); c.fillStyle = ART.muted; c.textAlign = "right"; c.textBaseline = "middle"; c.fillText(`2 ${T("unit_m")}`, x0 - 6, y); c.textBaseline = "alphabetic"; }
     const xT = tx(t), xM = mz(t, td), aim = [px(xM), TY], broken = !!(sh && sh.hit && t > sh.ti);
-    if (!broken) comet(c, u => [px(tx(u)), TY], t, .22, 7);
+    if (!broken) comet(c, u => [px(tx(u)), TY], t, .22, TRAIL);
     // where the muzzles have been (cyan rings every 0.05 s): spread out when the gun moves fast, stacked when it waits
     c.strokeStyle = ART.cyan; c.lineWidth = 1.3 * m;
     for (let i = 1; i <= 12; i++) { const u = t - .05 * i; if (u < 0) break; c.globalAlpha = .45 * (1 - i / 13); c.beginPath(); c.arc(px(mz(u, td)), TY, 3.2 * m, 0, TAU); c.stroke(); }
     c.globalAlpha = 1; c.lineWidth = 1;
     const tip = rabbit ? barrelsFromBelow(c, W/2 + 12, H + 4, aim) : shooterBack(c, W/2, H, aim, {s: .85, mounted: 1});
     c.strokeStyle = "rgba(34,211,238,.32)"; c.lineWidth = 1.2 * m; c.setLineDash([2 * m, 5 * m]); seg(c, tip[0], tip[1], aim[0], aim[1]); c.setLineDash([]); c.lineWidth = 1; // gun line
-    if (sh && t >= sh.td) clay(c, px(tx(sh.td)), TY, 1, rabbit ? {rabbit: 1} : {}, 0, {ghost: true}); // where the target was at the decision
-    const Rpx = sim.R / (X1 - X0) * W;
+    if (sh && t >= sh.td) clay(c, px(tx(sh.td)), TY, GHOST, rabbit ? {rabbit: 1} : {}, 0, {ghost: true}); // where the target was at the decision
+    const Rpx = sim.R / (X1 - X0) * W; // the hit zone R to scale (0.375 m = 9.6 px at 25 m): the radius of the shot cloud and the ring
     if (sh && t >= sh.ts) { const u = clamp01((t - sh.ts) / sim.tf), cx = lerp(tip[0], px(sh.xM), u), cy = lerp(tip[1], TY, u), rad = 3 + Rpx * u, Rn = rng(9); // shot cloud
       c.fillStyle = "rgba(226,232,240,.12)"; dot(c, cx, cy, rad * 1.6); c.fillStyle = "rgba(226,232,240,.8)";
       for (let i = 0; i < 20; i++) { const r = rad * Math.sqrt(Rn()), a = Rn() * TAU; dot(c, cx + Math.cos(a) * r, cy + Math.sin(a) * r, m); } }
-    if (broken) burst(c, px(sh.xI), TY, t - sh.ti); else clay(c, px(xT), TY, 1, rabbit ? {rabbit: 1} : {}, 0, {spin: RM() ? 0 : t * 9});
+    if (broken) burst(c, px(sh.xI), TY, t - sh.ti); else clay(c, px(xT), TY, CS, rabbit ? {rabbit: 1} : {}, 0, clayO({spin: RM() ? 0 : t * 9}));
     // the pattern at the impact, drawn over the target and its dust (review 08.10.2026: under the burst it was hidden): a hit = the
-    // target inside the ring
-    if (sh && t >= sh.ti) { c.strokeStyle = "rgba(34,211,238,.85)"; c.lineWidth = 1.2 * m; c.setLineDash([4 * m, 4 * m]); c.beginPath(); c.arc(px(sh.xM), TY, Rpx, 0, TAU); c.stroke(); c.setLineDash([]); c.lineWidth = 1; }
+    // target's CENTRE inside the ring. On a miss the target's centre is marked with a small white dot from the impact on: the target
+    // is drawn larger than life (about as big as the ring at 25–40 m, bigger on a phone), so on a near miss its drawing overlaps the
+    // ring while the result says "behind" (review 08.10.2026). Not with "lead-units": there the target itself is to scale.
+    if (sh && t >= sh.ti) { c.strokeStyle = "rgba(34,211,238,.85)"; c.lineWidth = 1.2 * m; c.setLineDash([4 * m, 4 * m]); c.beginPath(); c.arc(px(sh.xM), TY, Rpx, 0, TAU); c.stroke(); c.setLineDash([]); c.lineWidth = 1;
+      if (!sh.hit && !broken && !TRUE) { c.fillStyle = "#fff"; dot(c, px(xT), TY, 1.4 * m); } }
     muzzleMark(c, aim[0], aim[1]);
     let shotBox = null; const ys = TY - 18 * m - 8 - 14 * k - 4 * k;
     if (sh && freeze) shotBox = pillBox(c, T("shot_moment"), px(sh.xM), ys, "center", 12, "650");
@@ -1028,17 +1073,36 @@ const GY = 322, LINE_Y = 203, FLY = 2.2, SH = 380; // SH = scene height; narrow 
 // SAFETY layout (see above): people only left of BEHIND_X (the shooter's back heel is at x ≈ 150, the stand starts at 126); the
 // referee stands at REF_X (walks up to 128 after a misfire), the trapper at TRAPPER_X; MIC_X = the sonopull microphone, on the stand
 // at its front edge (the stand is x 126–222; audit 08.10.2026: it stood in front of the stand); TH_X = the screen of the trap house
-const BEHIND_X = 130, REF_X = 84, TRAPPER_X = 32, MIC_X = 212, TH_X = 582;
+const BEHIND_X = 130, REF_X = 99, TRAPPER_X = 47, MIC_X = 212, TH_X = 582;
 // people's heights (cm = px; style 10.2026: the old s .92 / .8 made the referee and the trapper look like children)
 const REF_H = 174, TRAPPER_H = 170;
-// the dog's handler and the dog (MASCOT), at the left edge, behind everyone on the range side: the handler stands just behind the
+// the dog's handler and the dog (MASCOT), at the left, behind everyone on the range side: the handler stands just behind the
 // trapper (a step farther from the viewer, feet dy px higher, drawn first and in the darker "far" colours, so he reads as one step
 // back and the trapper's head, button hand and cable stay in front); the dog sits at the handler's feet a step NEARER the viewer
-// (feet dy px lower on the grass), left of the trapper's cable (its right edge x ≈ 54 < the cable at x 54–56: the release pulse is
-// never hidden). Both left of BEHIND_X like every person. DOG.s = the scale passed to ClayMascot.draw (scale 1 ≈ 100 px: a sitting
-// dog about 66 px tall, ≈ 31 CSS px on a phone). HANDLER.x stays ≤ 9: further right his glasses go behind the trapper's head (the
-// protection must stay visible). Review 08.10.2026 (the dog was 56 px, ≈ 25 CSS px on a phone).
-const HANDLER = {x: 9, dy: -3, h: 168}, DOG = {x: 32, dy: 46, s: .66}, DOG_REST = -.12; // DOG_REST = head angle while it waits
+// (feet dy px lower on the grass), left of the trapper's cable, so the release pulse is never hidden. Both left of BEHIND_X like
+// every person. DOG.s = the scale passed to ClayMascot.draw (scale 1 ≈ 100 px: a sitting dog about 70 px tall — about a real
+// Labrador at 1 px ≈ 1 cm — ≈ 36 CSS px on a 375 px phone).
+// Layout of the people behind the stand (re-laid 10.2026: the owner saw the handler and the dog's tail cut by the left canvas edge;
+// before: handler 9, trapper 32, referee 84, dog 32 / .66). Every distance is a condition, keep them when a number changes:
+//   - nobody is cut at the left edge: the handler's back is at HANDLER.x − 0.08 h ≈ x − 13.4 (≥ 3); the dog's drawing (ClayMascot
+//     side box −125…72 units, k = DOG.s · 100 / 219) starts at DOG.x − 125 k ≈ 4 (its tail; the wag moves the tip < 1 px);
+//   - the handler's glasses stay visible: his lens ends ≈ HANDLER.x + 17, the trapper's head starts ≈ TRAPPER_X − 8 (≥ 4 px gap);
+//   - the dog stays left of the trapper's cable: its right edge DOG.x + 72 k ≈ 67, the cable at the dog's head height ≈ 69
+//     (TRAPPER_X + 22);
+//   - REF_X − TRAPPER_X = 52 as before: the referee's body (from REF_X − 14) never covers the trapper's button hand (≈ TRAPPER_X + 26),
+//     and the sound signal, its "♪" and the dashed line back to the trapper's ear keep the geometry the safety check passed
+//     (on a phone the bigger "♪" stays off the trapper's lens);
+//   - the referee's near arm (≈ REF_X + 2 … + 13 at the height of the line on the vest) is left of the English "line" pill (from
+//     x ≈ 116 on wide screens); longer words (hu 105.6 … cs 113) touch the front of his jacket there, his head, protection and
+//     score sheet stay visible. The score sheet (to REF_X + 29) is left of the shooter (x ≈ 148). On a phone the pill is about twice
+//     as big and covers part of the referee's body (it did before too); his head, cap, glasses and ear muffs stay visible (safety
+//     check E5). On a phone (FK > 1.35, the clock-band threshold) the pill is NOT drawn during the referee's 0.6 s sound signal:
+//     his signalling hand and the sound device (REF_X − 0.10 REF_H, GY − 0.70 REF_H ≈ 81.6, 200) would be under it (review
+//     08.10.2026: covered in 9 of 11 languages at 375 CSS px); the stripe on the vest stays (shooter(…, noPill)).
+// Measured (10.2026, frame by frame at 720 and 375 CSS px, with and without mascot.js): the leftmost pixel of the handler, the dog
+// and the lead is at x ≈ 1 (the handler's shadow on the grass), the handler's back at x ≈ 3.5, the dog's tail at x ≈ 5; nothing
+// touches column 0 (before the re-layout: thousands of rows did).
+const HANDLER = {x: 17, dy: -3, h: 168}, DOG = {x: 44, dy: 46, s: .7}, DOG_REST = -.12; // DOG_REST = head angle while it waits
 // target path from the trap (u = 0…1 over FLY s): it leaves over the screen of the trap house (TH_X…TH_X + 20, top at y 266; at its
 // back edge, x 602, the target is ≈ 33 px above it), climbs to the apex (≈ 513, 110) and, if nobody breaks it, comes down on the
 // ground in the field in front of the stand (u = 1 → x 392, y GY). SAFETY: an unbroken target never flies at the shooter or the stand
@@ -1215,14 +1279,15 @@ function gun(c, g, o = {}){
   c.restore(); c.lineWidth = 1;
   return GF(g)(120, -BORE);
 }
-/* shooter(c, g, line): the shooter on the stand, side view, facing the range (right-handed: the gun on the near, right shoulder).
+/* shooter(c, g, line, noPill): the shooter on the stand, side view, facing the range (right-handed: the gun on the near, right shoulder).
    g = gun pose {hx, hy, th} (see GF: every pose number is unchanged); line: null | "ok" | "bad" (the Sporting™ line on the vest,
-   amber / red). Legs in a Sporting™ stance (front foot forward), the far arm to the fore-end and the near arm to the grip by two-bone
-   IK, a vest with side panel, shoulder pad and shell pocket, collar, the head fixed at the eye point (cap, glasses, ear defenders),
-   the over-and-under. Draw order: far leg, far arm, near leg, hip, neck, vest, collar, head, gun, near arm, the "line" pill.
+   amber / red); noPill: draw the stripe but not the "line" pill (a phone during the referee's sound signal, see HANDLER). Legs in
+   a Sporting™ stance (front foot forward), the far arm to the fore-end and the near arm to the grip by two-bone IK, a vest with
+   side panel, shoulder pad and shell pocket, collar, the head fixed at the eye point (cap, glasses, ear defenders), the
+   over-and-under. Draw order: far leg, far arm, near leg, hip, neck, vest, collar, head, gun, near arm, the "line" pill.
    Returns the muzzle on the drawn bore (only the muzzle flash and the smoke use it). */
 const VEST = [[166, 179], [160, 193], [157.5, 214], [159, 236], [161, 252], [176, 254.5], [191, 251], [193.5, 232], [195, 212], [193, 193], [189.5, 181], [181, 175.5], [172, 175.5]];
-function shooter(c, g, line){
+function shooter(c, g, line, noPill){
   const F = GF(g), E = eyePt(), tilt = .26;
   leg(c, [176, 240], [190, 278], [197, 314], 1, PAL.trousersFar); shoe(c, [197, 314], 1, PAL.shoeFar, 26);                // far (left) leg forward
   const shF = [193, 182]; let uf = 60, hF = F(uf, -1.4); while (uf > 52 && Math.hypot(hF[0] - shF[0], hF[1] - shF[1]) > 57) { uf -= 1; hF = F(uf, -1.4); }
@@ -1243,8 +1308,9 @@ function shooter(c, g, line){
   const muzzle = gun(c, g);
   const wr = F(33.5, 1.5), shN = [181, 187], elN = ik(shN, wr, 30, 28, 1);                                               // near arm → grip
   limb(c, shN, 5.6, elN, 4.4, PAL.shirt); limb(c, elN, 4.4, wr, 3.5, PAL.shirt); hand(c, wr, g.th + 1.25, 1, PAL.skin, 5.4);
-  // its pill ends left of the vest (x ≈ 158), so it never covers the line it names (review 08.10.2026; spec §10)
-  if (line) label(c, T("anim_line"), 150 - 7 * FK(c), LINE_Y + 4 * FK(c), line === "bad" ? ART.red : ART.amber, "right");
+  // its pill ends left of the vest (x ≈ 158), so it never covers the line it names (review 08.10.2026; spec §10). noPill: on a
+  // phone the pill is hidden while the referee gives the sound signal (it would cover his signalling hand); the stripe stays
+  if (line && !noPill) label(c, T("anim_line"), 150 - 7 * FK(c), LINE_Y + 4 * FK(c), line === "bad" ? ART.red : ART.amber, "right");
   return muzzle;
 }
 /* MASCOT: the ClayArena dog through docs/shared/mascot.js (window.ClayMascot.draw(ctx, pose, x, y, scale, state) → {head, collar,
@@ -1272,10 +1338,11 @@ function whenMascot(cb){ if (typeof document === "undefined" || window.ClayMasco
    dog's handler, the trapper (behind the referee), the dog on its lead, the referee with the sound signal back to the trapper / the
    yellow card / “No Bird!”, the shooter, the call, the shot (flash, smoke), the cheek mark; then the clock. The people and the dog
    are sprites in the frames where they do not move (sprite()). People only behind the shooter, and everyone (shooter, referee,
-   trapper, handler) wears safety glasses and ear muffs (SAFETY above SCENES). */
+   trapper, handler) wears safety glasses and ear muffs (SAFETY above SCENES). Under the canvas a small caption (ui anim_scale) says
+   that only the shooter and the stand are to scale and the field and the target's flight are shortened (kept in print). */
 function standSim(host, kind, opts = {}){
   const sc = SCENES[kind] || SCENES.signal, title = T(sc.tab || "anim_h_misfire");
-  host.innerHTML = `<div class="cs-sim">${sc.words ? `<div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div>` : ""}<canvas width="720" height="${SH}" role="img" aria-label="${esc(title)}"></canvas><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}<b>${esc(title)}</b></div><div class="cs-say" aria-live="polite" data-k="say"></div></div>`;
+  host.innerHTML = `<div class="cs-sim">${sc.words ? `<div class="cs-words" lang="en" aria-hidden="true" data-k="words"></div>` : ""}<canvas width="720" height="${SH}" role="img" aria-label="${esc(title)}"></canvas><p class="cs-scale">${esc(T("anim_scale"))}</p><div class="cs-ctl">${playBtn("anim_play")}${slowBtn()}<b>${esc(title)}</b></div><div class="cs-say" aria-live="polite" data-k="say"></div></div>`;
   const cv = logical(host.querySelector("canvas"), 720, SH), c = cv.getContext("2d"), W = 720, out = host.querySelector('[data-k="say"]');
   const words = sc.words ? wordsBar(host.querySelector('[data-k="words"]')) : null;
   const rel = sc.release, t0c = sc.timer === "signal" ? sc.signal : sc.call, hitT = sc.shot != null && !sc.click ? sc.shot : null;
@@ -1344,7 +1411,6 @@ function standSim(host, kind, opts = {}){
     if (rel != null && t >= rel) { const u = (t - rel) / FLY;
       if (hitT != null && t >= hitT) { if (t < hitT + .9) { const [x, y] = TP((hitT - rel) / FLY); burst(c, x, y, (t - hitT) * .8); } }
       else if (u <= 1) { comet(c, TP, u, .10, 6.5); const [x, y] = TP(u); clay(c, x, y, .75, {}, 0, {spin: RM() ? 0 : t * 9}); } }
-    // the dog's handler (no gun; cap, glasses and ear defenders), a step behind the trapper; the lead in the hand (MASCOT: only with mascot.js)
     // the people behind the stand and the dog, back to front: the handler, the trapper, the dog, the referee. A part that does not
     // move in this frame is a cached sprite (sprite(): same picture, one drawImage; review 08.10.2026), the others are drawn directly.
     const withDog = !!window.ClayMascot && !dogBroken, LH = restHand(HANDLER.x, HANDLER.h); LH[1] += HANDLER.dy; // the handler's hand with the lead
@@ -1362,7 +1428,8 @@ function standSim(host, kind, opts = {}){
     if (withDog) { const st = dogState(t), paintDog = o => { const col = dog(o, DOG.x, GY + DOG.dy, DOG.s, st);
         if (col) { o.strokeStyle = PAL.lead; o.lineWidth = 1.6; o.lineCap = "round"; o.beginPath(); o.moveTo(LH[0], LH[1]);
           o.quadraticCurveTo((LH[0] + col[0]) / 2 - 4, Math.max(LH[1], col[1]) - 6, col[0], col[1]); o.stroke(); o.lineCap = "butt"; o.lineWidth = 1; } };
-      if (st.ear === 0 && st.wag === 0 && st.look === DOG_REST) sprite(c, "dog", DOG.x - 44, GY + DOG.dy - 140, 76, 150, paintDog); else paintDog(c); }
+      // sprite box: the dog (DOG.x − 40 … + 23 at s .7) and its lead from the handler's hand, with a margin
+      if (st.ear === 0 && st.wag === 0 && st.look === DOG_REST) sprite(c, "dog", DOG.x - 50, GY + DOG.dy - 140, 86, 150, paintDog); else paintDog(c); }
     // referee: behind the shooter; walks up from behind after a misfire (never past the muzzles); gives the sound signal back to the
     // trapper; raises the yellow card; holds the score sheet otherwise. A sprite while he stands still.
     const walking = !!sc.walk && t > sc.walk[0] && t < sc.walk[1];
@@ -1386,7 +1453,7 @@ function standSim(host, kind, opts = {}){
     if (sc.nobird != null && t >= sc.nobird) bubble(c, rx + 6, GY - REF_H - 14 - 10, "No Bird!", {bg: "#FEE2E2", fg: "#7F1D1D", age: t - sc.nobird});
     // the shooter and the line on the vest: red while the heel of the stock (as drawn) is above it BEFORE the target is out (the mount
     // after the release is correct, so the line turns amber again), the call, the shot
-    const g = pose(t), early = heelY(g) < LINE_Y && (rel == null || t < rel), muzzle = shooter(c, g, sc.line ? (early ? "bad" : "ok") : null);
+    const g = pose(t), early = heelY(g) < LINE_Y && (rel == null || t < rel), muzzle = shooter(c, g, sc.line ? (early ? "bad" : "ok") : null, sig && k > 1.35);
     if (sc.call != null && t >= sc.call && t < sc.call + .9) bubble(c, 196, 128, "Pull!", {age: t - sc.call});
     if (sc.mic && t >= sc.call && t < rel) { c.strokeStyle = rgba(ART.em, .8); c.lineWidth = 1.5; for (let i = 0; i < 3; i++) { c.beginPath(); c.arc(206, 166, 10 + i * 8, .2, 1.2); c.stroke(); } c.lineWidth = 1; } // the call heard by the microphone
     if (hitT != null && t >= hitT) { if (t < hitT + .09) flash(c, muzzle, g.th, (t - hitT) / .09); smoke(c, GF(pose(hitT))(120, -BORE), t - hitT); }

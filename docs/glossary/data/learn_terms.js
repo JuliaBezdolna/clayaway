@@ -468,7 +468,6 @@ window.GLOSSARY_LEARN = {
    "related": [
     "choke",
     "cylinder",
-    "skeet-choke",
     "improved-cylinder",
     "modified",
     "full-choke",
@@ -495,7 +494,6 @@ window.GLOSSARY_LEARN = {
    "rule_refs": [],
    "related": [
     "constriction",
-    "skeet-choke",
     "improved-cylinder",
     "star-marks",
     "pattern"
@@ -515,7 +513,7 @@ window.GLOSSARY_LEARN = {
    "cat": "Equipment",
    "short_uk": "Чок, вточений у ствол на заводі; змінити його може лише зброяр.",
    "short_en": "A choke machined into the barrel at the factory; only a gunsmith can change it.",
-   "long_uk": "У рушниці з фіксованими чоками звуження зроблене прямо в дульній частині стволів, і на кожному стволі воно своє, наприклад 1/4 і 1/2. Такі рушниці трапляються серед старіших моделей і серед рушниць для окремих дисциплін. Їхня перевага — простота: нічого не відкрутиться й не загубиться. Недолік — для різних мішеней звуження не змінити. Зброяр може розточити фіксований чок або нарізати різьбу під змінні чоки, але це незворотна робота, яку варто обговорити заздалегідь.",
+   "long_uk": "У рушниці з фіксованими чоками звуження зроблене прямо в дульній частині стволів, і на кожному стволі воно своє, наприклад 1/4 і 1/2. Такі рушниці бувають серед старіших моделей і серед рушниць для окремих дисциплін. Їхня перевага — простота: нічого не відкрутиться й не загубиться. Недолік — для різних мішеней звуження не змінити. Зброяр може розточити фіксований чок або нарізати різьбу під змінні чоки, але це незворотна робота, яку варто обговорити заздалегідь.",
    "long_en": "On a gun with fixed chokes the constriction is machined right into the muzzle end of the barrels, and each barrel has its own, for example 1/4 and 1/2. Such guns are found among older models and among guns for particular disciplines. Their advantage is simplicity: nothing can work loose or get lost. The drawback is that the constriction cannot be changed for different targets. A gunsmith can open up a fixed choke or thread the barrels for interchangeable chokes, but that is irreversible work worth discussing in advance.",
    "uk_usage": "«фіксовані чоки», «глухі чоки»",
    "rule_refs": [],
@@ -651,33 +649,6 @@ window.GLOSSARY_LEARN = {
    ]
   },
   {
-   "id": "skeet-choke",
-   "term": "Skeet (choke)",
-   "aka": [
-    "Skeet",
-    "SK",
-    "1/8"
-   ],
-   "cat": "Equipment",
-   "short_uk": "Дуже легке звуження, приблизно 0,1–0,15 мм (4–6 thou), для найближчих мішеней.",
-   "short_en": "A very light constriction, about 0.1–0.15 mm (4–6 thou), for the closest targets.",
-   "long_uk": "Чок skeet отримав назву від дисципліни, де мішені летять дуже близько. Він лише трохи щільніший за cylinder: близько 0,1–0,15 мм звуження (4–6 thou), у європейській традиції його іноді називають 1/8. Осип на близькій відстані широкий і прощає невеликі помилки. У Sporting™ і Compak® Sporting його ставлять на близькі мішені, зайців і мішені, що злітають поруч. Точні значення залежать від виробника.",
-   "long_en": "The skeet choke takes its name from the discipline in which targets fly very close. It is only slightly tighter than cylinder: about 0.1–0.15 mm of constriction (4–6 thou), sometimes called 1/8 in European usage. The pattern is wide at close range and forgives small errors. In Sporting™ and Compak® Sporting it is used for close targets, rabbits and targets springing up nearby. Exact values depend on the maker.",
-   "uk_usage": "«скіт», «скітовий чок»",
-   "rule_refs": [],
-   "related": [
-    "cylinder",
-    "improved-cylinder",
-    "constriction",
-    "skeet",
-    "pattern"
-   ],
-   "learn": [
-    "chokes-choosing-for-distance",
-    "chokes-names-and-marks"
-   ]
-  },
-  {
    "id": "improved-cylinder",
    "term": "Improved cylinder",
    "aka": [
@@ -693,7 +664,6 @@ window.GLOSSARY_LEARN = {
    "uk_usage": "«чверть», «1/4», «IC»",
    "rule_refs": [],
    "related": [
-    "skeet-choke",
     "light-modified",
     "modified",
     "star-marks",
@@ -937,7 +907,7 @@ window.GLOSSARY_LEARN = {
    "cat": "Gun",
    "short_uk": "Горизонталка: рушниця з двома стволами, розташованими поруч; класична мисливська рушниця.",
    "short_en": "A shotgun with two barrels next to each other; the classic game gun.",
-   "long_uk": "У горизонталки стволи лежать поруч, тому лінія прицілювання ширша, ніж у вертикалки. Це класична мисливська рушниця, часто легка й елегантна, нерідко з двома спусковими гачками. Правила FITASC дозволяють будь-яку мисливську рушницю, крім помпових, тож горизонталкою можна стріляти й на змаганнях. Проте в сучасному Sporting™ і Compak® Sporting вона трапляється рідко: більшість стрільців обирає вертикалку або напівавтомат. Дехто стріляє горизонталкою заради традиції чи в окремих аматорських класах на клубних змаганнях.",
+   "long_uk": "У горизонталки стволи лежать поруч, тому лінія прицілювання ширша, ніж у вертикалки. Це класична мисливська рушниця, часто легка й елегантна, нерідко з двома спусковими гачками. Правила FITASC дозволяють будь-яку мисливську рушницю, крім помпових, тож горизонталкою можна стріляти й на змаганнях. Проте в сучасному Sporting™ і Compak® Sporting вона зустрічається рідко: більшість стрільців обирає вертикалку або напівавтомат. Дехто стріляє горизонталкою заради традиції чи в окремих аматорських класах на клубних змаганнях.",
    "long_en": "On a side-by-side the barrels lie next to each other, so the sighting plane is wider than on an over-and-under. It is the classic game gun, often light and elegant, frequently with two triggers. The FITASC rules allow any hunting gun except pump-actions, so a side-by-side can be used in competition. In modern Sporting™ and Compak® Sporting, however, it is rare: most shooters choose an over-and-under or a semi-automatic. Some shoot a side-by-side for tradition or in special classes at club shoots.",
    "uk_usage": "«горизонталка»",
    "rule_refs": [
@@ -2838,7 +2808,6 @@ window.GLOSSARY_LEARN = {
    "id": "shooting-vest",
    "term": "Shooting vest",
    "aka": [
-    "Skeet vest",
     "Shooting gilet"
    ],
    "cat": "Equipment",
@@ -3685,54 +3654,6 @@ window.GLOSSARY_LEARN = {
    ],
    "learn": [
     "clayarena-videos-recaps-calendar"
-   ]
-  },
-  {
-   "id": "olympic-trap",
-   "term": "Olympic Trap",
-   "aka": [
-    "Fosse olympique",
-    "OT"
-   ],
-   "cat": "Discipline",
-   "short_uk": "Олімпійська дисципліна: мішені вилітають від стрільця з траншеї під різними кутами, по кожній можна зробити два постріли.",
-   "short_en": "An Olympic discipline: targets fly away from the shooter out of a trench at varying angles, and two shots may be fired at each.",
-   "long_uk": "В Olympic Trap машинки сховані в траншеї перед лінією з п’яти стрілецьких місць, а мішені вилітають від стрільця на великій швидкості під різними кутами й висотами. По кожній мішені можна зробити два постріли. Стрілець викликає мішень із уже вкладеною рушницею, і мішень летить, щойно він її викличе. Дисципліною опікується ISSF, а не FITASC, і вона входить до програми Олімпійських ігор. Для стрільців Sporting™ і Compak® Sporting трап — корисне тренування швидкої реакції на мішені від себе.",
-   "long_en": "In Olympic Trap the traps are hidden in a trench in front of a line of five shooting stations, and targets fly away from the shooter at high speed at varying angles and heights. Two shots may be fired at each target. The shooter calls with the gun already mounted, and the target is released at the call. The discipline is governed by ISSF, not FITASC, and is part of the Olympic programme. For Sporting™ and Compak® Sporting shooters, trap is useful practice for quick reactions to going-away targets.",
-   "uk_usage": "«трап», «олімпійський трап»",
-   "rule_refs": [],
-   "related": [
-    "skeet",
-    "sporting",
-    "compak-sporting",
-    "going-away"
-   ],
-   "learn": [
-    "intro-disciplines"
-   ]
-  },
-  {
-   "id": "skeet",
-   "term": "Skeet",
-   "aka": [
-    "Olympic Skeet",
-    "English Skeet"
-   ],
-   "cat": "Discipline",
-   "short_uk": "Дисципліна з двома будиночками (високим і низьким), з яких мішені перетинають майданчик; стрілецькі місця стоять півколом.",
-   "short_en": "A discipline with two houses (high and low) whose targets cross the field; the stations stand in a half-circle.",
-   "long_uk": "У скіті дві будки з машинками стоять на кінцях півкола: висока з одного боку, низька з іншого. Мішені летять назустріч одна одній по фіксованих траєкторіях, а стрілець переходить між місцями на півколі й стріляє одиночні мішені та дуплети. Олімпійським скітом опікується ISSF; є також національні варіанти, наприклад English Skeet, із дещо іншими правилами. Траєкторії скіту постійні, тож дисципліна добре розвиває техніку поперечних мішеней. Від цієї дисципліни походить і назва легкого чока skeet.",
-   "long_en": "In skeet two trap houses stand at the ends of a half-circle: a high house on one side and a low house on the other. Targets fly towards each other along fixed trajectories, and the shooter moves between stations on the half-circle, shooting singles and doubles. Olympic skeet is governed by ISSF; there are also national variants, such as English Skeet, with somewhat different rules. Skeet trajectories are fixed, so the discipline is good for developing technique on crossing targets. The light skeet choke takes its name from it.",
-   "uk_usage": "«скіт»",
-   "rule_refs": [],
-   "related": [
-    "olympic-trap",
-    "skeet-choke",
-    "crosser",
-    "sporting"
-   ],
-   "learn": [
-    "intro-disciplines"
    ]
   },
   {
@@ -4742,7 +4663,7 @@ window.GLOSSARY_LEARN = {
    "id": "national-federation",
    "term": "National federation",
    "aka": [],
-   "cat": "Discipline",
+   "cat": "Organisation",
    "short_uk": "Керівний орган спорту в країні: об’єднує клуби й стрільців, проводить національні змагання й курси суддів і представляє країну у FITASC.",
    "short_en": "A country's governing body for the sport: it unites clubs and shooters, runs national competitions and referee courses, and represents the country in FITASC.",
    "long_uk": "",
@@ -4846,15 +4767,14 @@ window.GLOSSARY_LEARN = {
    "cat": "Competition",
    "short_uk": "Бета-блокатор: серцеві ліки, що сповільнюють серцебиття й зменшують тремтіння; за списком WADA у стрільбі вони заборонені в будь-який час — і на змаганнях, і поза ними.",
    "short_en": "A heart medicine that slows the heartbeat and reduces tremor; under the WADA list it is prohibited in shooting at all times, in and out of competition.",
-   "long_uk": "Приклади — пропранолол, атенолол, бісопролол, метопролол. У видах спорту на влучність їх заборонено, бо повільніше серце й менше тремтіння можуть зробити рушницю стійкішою. У списку WADA стрільба названа через олімпійську федерацію (ISSF) і паралімпійську стрільбу (IPC), а не через FITASC, але вважайте бета-блокатори забороненими і в Sporting™ та Compak® Sporting: національні антидопінгові агенції можуть проводити контроль на національних змаганнях, організатори можуть застосовувати список WADA, а багато стрільців виступають і на змаганнях ISSF. Якщо лікар призначив вам бета-блокатор, не скасовуйте його самостійно; задовго до змагань запитайте про дозволену альтернативу або TUE. Це не медична порада.",
-   "long_en": "Examples are propranolol, atenolol, bisoprolol and metoprolol. They are prohibited in precision sports because a slower heart and less tremor can steady the gun. The WADA list names shooting through the Olympic federation (ISSF) and para shooting (IPC), not FITASC, but treat beta-blockers as prohibited in Sporting™ and Compak® Sporting too: national anti-doping agencies can test at national events, organisers may apply the WADA list, and many shooters also compete in ISSF events. If a doctor has prescribed one, do not stop it on your own; ask about a permitted alternative or a TUE well in advance. This is not medical advice.",
+   "long_uk": "Приклади — пропранолол, атенолол, бісопролол, метопролол. У видах спорту на влучність їх заборонено, бо повільніше серце й менше тремтіння можуть зробити рушницю стійкішою. У списку WADA Sporting™ і Compak® Sporting окремо не названо, але вважайте бета-блокатори забороненими і там: національні антидопінгові агенції можуть проводити контроль на національних змаганнях, а організатори можуть застосовувати список WADA. Якщо лікар призначив вам бета-блокатор, не скасовуйте його самостійно; задовго до змагань запитайте про дозволену альтернативу або TUE. Це не медична порада.",
+   "long_en": "Examples are propranolol, atenolol, bisoprolol and metoprolol. They are prohibited in precision sports because a slower heart and less tremor can steady the gun. The WADA list does not name Sporting™ or Compak® Sporting separately, but treat beta-blockers as prohibited there too: national anti-doping agencies can test at national events, and organisers may apply the WADA list. If a doctor has prescribed one, do not stop it on your own; ask about a permitted alternative or a TUE well in advance. This is not medical advice.",
    "uk_usage": "«бета-блокатор», «бета-блокатори»",
    "rule_refs": [],
    "related": [
     "anti-doping",
     "therapeutic-use-exemption",
-    "global-dro",
-    "issf"
+    "global-dro"
    ],
    "learn": [
     "mind-anti-doping"
@@ -4911,10 +4831,10 @@ window.GLOSSARY_LEARN = {
     "QE"
    ],
    "cat": "Technique",
-   "short_uk": "«Тихе око»: останній стійкий погляд на мішень перед рухом; у досвідчених стрільців він зазвичай починається раніше й триває довше.",
-   "short_en": "The last steady look at the target before the movement; in skilled shooters it tends to start earlier and last longer.",
-   "long_uk": "Дослідники вимірюють «тихе око» як останній стійкий погляд перед початком руху. Порівняно з менш досвідченими стрільцями елітні стрільці у трапі й скиті починають його раніше й тримають довше, а при влучаннях він зазвичай довший, ніж при промахах. Під тривогою він часто коротшає. Чарівного числа мілісекунд, до якого слід прагнути, немає: у стендовій стрільбі це означає рано й чітко побачити мішень і тримати на ній очі до кінця пострілу. Більшість даних отримано в олімпійських трапі й скиті, тож, імовірно, це стосується і Sporting™ та Compak® Sporting.",
-   "long_en": "Researchers measure the quiet eye as the final steady look before a movement starts. Compared with less skilled shooters, elite trap and skeet shooters start it earlier and hold it longer, and it tends to be longer on hits than on misses. Under anxiety it often gets shorter. There is no magic number of milliseconds to aim for: in clay terms it means seeing the target early and clearly and keeping your eyes on it through the shot. Most of the data come from Olympic trap and skeet, so it probably transfers to Sporting™ and Compak® Sporting.",
+   "short_uk": "«Тихе око»: останній стійкий погляд на мішень перед рухом; у досвідчених спортсменів він зазвичай починається раніше й триває довше.",
+   "short_en": "The last steady look at the target before the movement; in skilled performers it tends to start earlier and last longer.",
+   "long_uk": "Дослідники вимірюють «тихе око» як останній стійкий погляд перед початком руху. У дослідженнях з багатьох видів спорту досвідченіші спортсмени зазвичай починають його раніше й тримають довше, а при вдалих спробах він зазвичай довший, ніж при невдалих. Під тривогою він часто коротшає. Чарівного числа мілісекунд, до якого слід прагнути, немає: у стендовій стрільбі це означає рано й чітко побачити мішень і тримати на ній очі до кінця пострілу. У самих Sporting™ і Compak® Sporting цього не досліджували; імовірно, там це працює так само.",
+   "long_en": "Researchers measure the quiet eye as the final steady look before a movement starts. In studies across many sports, more skilled performers tend to start it earlier and hold it longer, and it tends to be longer on successful attempts than on failed ones. Under anxiety it often gets shorter. There is no magic number of milliseconds to aim for: in clay terms it means seeing the target early and clearly and keeping your eyes on it through the shot. There are no studies in Sporting™ or Compak® Sporting themselves; most likely it works the same way there.",
    "uk_usage": "«тихе око», «quiet eye»",
    "rule_refs": [],
    "related": [
@@ -5004,8 +4924,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Training",
    "short_uk": "Зрив: стрільба помітно гірша за звичну через тиск, часто коли ви починаєте свідомо керувати навичкою, яка зазвичай працює сама.",
    "short_en": "Shooting clearly below your usual level because of pressure, often when you start consciously steering a skill that usually runs on its own.",
-   "long_uk": "Не плутайте з чоком — звуженням ствола. Під тиском стрілець може почати крок за кроком перевіряти вкладку чи рух рушниці, а тривога відтягує очі від мішені. Ознаки: змінений темп, перевірка вкладки, погляд на стволи чи мушку, стеження за результатами. Що може допомогти: звичний передпостріловий ритуал і темп, одне просте слово-підказка про мішень, цілі процесу і тренування під тиском, який зростає крок за кроком. Більшість досліджень проведено в інших видах спорту та в олімпійських трапі й скиті, тож це, імовірно, стосується і Sporting™ та Compak® Sporting. Якщо тиск раз у раз псує вам змагання, допомогти може спортивний психолог.",
-   "long_en": "Not to be confused with the choke of a barrel. Under pressure a shooter may start checking the mount or the swing step by step, and worry pulls the eyes away from the target. Signs include a changed tempo, checking the gun mount, eyes on the barrel or bead, and watching the scores. What can help: the usual pre-shot routine and tempo, one simple cue word about the target, process goals, and training under pressure that grows step by step. Most of the research comes from other sports and from Olympic trap and skeet, so it probably transfers to Sporting™ and Compak® Sporting. If pressure keeps spoiling your competitions, a sport psychologist can help.",
+   "long_uk": "Не плутайте з чоком — звуженням ствола. Під тиском стрілець може почати крок за кроком перевіряти вкладку чи рух рушниці, а тривога відтягує очі від мішені. Ознаки: змінений темп, перевірка вкладки, погляд на стволи чи мушку, стеження за результатами. Що може допомогти: звичний передпостріловий ритуал і темп, одне просте слово-підказка про мішень, цілі процесу і тренування під тиском, який зростає крок за кроком. Більшість досліджень проведено в лабораторії та в інших видах спорту, а не в Sporting™ чи Compak® Sporting; імовірно, там це працює так само. Якщо тиск раз у раз псує вам змагання, допомогти може спортивний психолог.",
+   "long_en": "Not to be confused with the choke of a barrel. Under pressure a shooter may start checking the mount or the swing step by step, and worry pulls the eyes away from the target. Signs include a changed tempo, checking the gun mount, eyes on the barrel or bead, and watching the scores. What can help: the usual pre-shot routine and tempo, one simple cue word about the target, process goals, and training under pressure that grows step by step. Most of the research comes from lab tasks and other sports, not from Sporting™ or Compak® Sporting; most likely it works the same way there. If pressure keeps spoiling your competitions, a sport psychologist can help.",
    "uk_usage": "«зрив», «зрив під тиском»",
    "rule_refs": [],
    "related": [
@@ -5381,29 +5301,6 @@ window.GLOSSARY_LEARN = {
    ],
    "learn": [
     "history-live-birds-to-clays"
-   ]
-  },
-  {
-   "id": "issf",
-   "term": "ISSF",
-   "aka": [
-    "International Shooting Sport Federation"
-   ],
-   "cat": "Discipline",
-   "short_uk": "ISSF — Міжнародна федерація стрілецького спорту, що керує олімпійськими стрілецькими дисциплінами, зокрема олімпійським трапом і скітом; Sporting™ і Compak® Sporting належать до FITASC.",
-   "short_en": "The International Shooting Sport Federation, which governs the Olympic shooting disciplines, including Olympic trap and skeet; Sporting™ and Compak® Sporting belong to FITASC.",
-   "long_uk": "",
-   "long_en": "",
-   "uk_usage": "«ISSF»",
-   "rule_refs": [],
-   "related": [
-    "fitasc",
-    "olympic-trap",
-    "skeet"
-   ],
-   "learn": [
-    "history-fitasc-founding",
-    "history-olympics-and-world"
    ]
   },
   {

@@ -1,13 +1,13 @@
 {
   "id": "mind-anti-doping",
   "lang": "it",
-  "base_rev": 3,
+  "base_rev": 4,
   "h": {
     "title": "16e7c3d5",
-    "summary": "15628df1",
+    "summary": "db8fb42a",
     "health-alcohol-medication-weather-p3": "7d3312cb",
     "mind-anti-doping-beta": "a3dbe7f2",
-    "mind-anti-doping-p2": "5443f07f",
+    "mind-anti-doping-p2": "5031b8cc",
     "mind-anti-doping-p3": "2159fe5b",
     "mind-anti-doping-warn": "7781e027",
     "mind-anti-doping-p4": "819dcebb",
@@ -27,20 +27,24 @@
     "health-alcohol-medication-weather-kp2": "8b1405eb",
     "mind-anti-doping-kp5": "32cc0b29",
     "health-alcohol-medication-weather-dyk": "42389f2b",
-    "mind-anti-doping-q1": "21c3c7e9",
+    "mind-anti-doping-q1": "f7c71a6a",
     "health-alcohol-medication-weather-q2": "835e2905",
     "mind-anti-doping-q2": "aec055ab",
     "mind-anti-doping-q3": "e11e2c63",
     "mind-anti-doping-q4": "f1f5932d",
     "mind-anti-doping-q5": "19947db3"
   },
-  "review": { "by": null, "date": null, "origin": null },
+  "review": {
+    "by": null,
+    "date": null,
+    "origin": null
+  },
   "title": "Farmaci e antidoping: betabloccanti, TUE, integratori",
-  "summary": "La lista WADA vieta i betabloccanti in ogni momento nel tiro olimpico e paralimpico (ISSF, IPC); considerateli proibiti anche nel {{tm:sporting}} e nel {{tm:compak}}. Come controllare un farmaco, quando serve una TUE, e cosa sapere su integratori, CBD e alcol.",
+  "summary": "La lista WADA vieta i betabloccanti in ogni momento nel tiro; considerateli proibiti anche nel {{tm:sporting}} e nel {{tm:compak}}. Come controllare un farmaco, quando serve una TUE, e cosa sapere su integratori, CBD e alcol.",
   "body": {
     "health-alcohol-medication-weather-p3": "Ai {{term:championship|campionati}} e alle grandi gare potreste essere sottoposti a un controllo antidoping. Il regolamento internazionale viene dall'Agenzia mondiale antidoping (WADA), che pubblica ogni anno una nuova Lista delle sostanze proibite.",
     "mind-anti-doping-beta": "I {{term:beta-blocker|betabloccanti}} sono farmaci per il cuore che rallentano il battito cardiaco e riducono il tremore; esempi sono propranololo, atenololo, bisoprololo e metoprololo. Notate che {{fact:mind.beta-blockers-wada}}.",
-    "mind-anti-doping-p2": "Nella lista, «tiro» indica la federazione olimpica di tiro (ISSF) e il para tiro (IPC); la FITASC non è nominata. Trattate comunque i betabloccanti come proibiti anche nel {{tm:sporting}} e nel {{tm:compak}}. La vostra agenzia nazionale {{term:anti-doping|antidoping}} può effettuare controlli alle gare nazionali, gli organizzatori possono applicare la lista WADA, e molti tiratori competono anche in gare ISSF.",
+    "mind-anti-doping-p2": "La lista non nomina a parte il {{tm:sporting}} né il {{tm:compak}}: trattate comunque i betabloccanti come proibiti anche lì. La vostra agenzia nazionale {{term:anti-doping|antidoping}} può effettuare controlli alle gare nazionali, e gli organizzatori possono applicare la lista WADA.",
     "mind-anti-doping-p3": "Sono proibiti negli sport di precisione perché un cuore più lento e meno tremore possono rendere il fucile più stabile.",
     "mind-anti-doping-warn": "Se un medico vi ha prescritto un betabloccante, per esempio per la pressione, il ritmo cardiaco, la migrena o il tremore, non interrompetelo da soli. Parlate con il vostro medico e la vostra federazione ben prima della gara di un'alternativa permessa o di una TUE.",
     "mind-anti-doping-p4": "Una {{term:therapeutic-use-exemption|TUE}} (esenzione a fini terapeutici) è un permesso ufficiale per usare un farmaco proibito per un motivo medico. Una prescrizione da sola non basta: una sostanza proibita resta proibita, quindi si fa richiesta in anticipo, di solito alla propria agenzia nazionale antidoping (la vostra federazione può dirvi quale).",
@@ -69,32 +73,56 @@
   "quiz": {
     "mind-anti-doping-q1": {
       "q": "Secondo la lista WADA, quando sono proibiti i betabloccanti nel tiro?",
-      "options": { "a": "Solo nei giorni della gara", "b": "Solo alle Olimpiadi e ai campionati del mondo", "c": "In ogni momento, in gara e fuori gara" },
+      "options": {
+        "a": "Solo nei giorni della gara",
+        "b": "Solo ai campionati del mondo e d'Europa",
+        "c": "In ogni momento, in gara e fuori gara"
+      },
       "explain": "Le liste 2026 e 2027 segnano il tiro come proibito in ogni momento. Trattate questo come la regola anche nel tiro al piattello."
     },
     "health-alcohol-medication-weather-q2": {
       "q": "Avete bisogno di un farmaco prescritto e andate a un campionato. Cosa dovreste fare?",
-      "options": { "a": "Controllare presto con il vostro medico; chiedere di una TUE", "b": "Niente: una prescrizione lo rende sempre permesso", "c": "Smettere di prenderlo da soli prima della gara" },
+      "options": {
+        "a": "Controllare presto con il vostro medico; chiedere di una TUE",
+        "b": "Niente: una prescrizione lo rende sempre permesso",
+        "c": "Smettere di prenderlo da soli prima della gara"
+      },
       "explain": "Una sostanza proibita resta proibita anche con una prescrizione. Non interrompete un farmaco da soli; chiedete presto di alternative o di una TUE."
     },
     "mind-anti-doping-q2": {
       "q": "Dove potete controllare se un farmaco è proibito?",
-      "options": { "a": "Sulla scatola del farmaco", "b": "In Global DRO, un controllo online", "c": "Con l'arbitro il giorno della gara" },
+      "options": {
+        "a": "Sulla scatola del farmaco",
+        "b": "In Global DRO, un controllo online",
+        "c": "Con l'arbitro il giorno della gara"
+      },
       "explain": "Global DRO è gestito da diverse agenzie nazionali antidoping; cercate per principio attivo, e se il vostro farmaco non è elencato, chiedete alla vostra agenzia nazionale antidoping o alla vostra federazione."
     },
     "mind-anti-doping-q3": {
       "q": "La caffeina è proibita?",
-      "options": { "a": "No, WADA la tiene solo sotto osservazione", "b": "Sì, in gara", "c": "Sì, sopra due tazze al giorno" },
+      "options": {
+        "a": "No, WADA la tiene solo sotto osservazione",
+        "b": "Sì, in gara",
+        "c": "Sì, sopra due tazze al giorno"
+      },
       "explain": "La caffeina non è proibita; è nel Programma di monitoraggio WADA."
     },
     "mind-anti-doping-q4": {
       "q": "Perché un prodotto con CBD può essere rischioso per un tiratore in gara?",
-      "options": { "a": "Il CBD stesso è proibito in ogni momento", "b": "Può contenere THC, che è proibito", "c": "Rende molto più difficile tenere stabile il fucile" },
+      "options": {
+        "a": "Il CBD stesso è proibito in ogni momento",
+        "b": "Può contenere THC, che è proibito",
+        "c": "Rende molto più difficile tenere stabile il fucile"
+      },
       "explain": "Il CBD non è proibito, ma i prodotti con CBD possono contenere THC, proibito in gara."
     },
     "mind-anti-doping-q5": {
       "q": "Quali farmaci possono contenere stimolanti proibiti in gara?",
-      "options": { "a": "Solo sonniferi e sedativi", "b": "Solo gocce per occhi secchi", "c": "Alcuni farmaci per il raffreddore e l'ADHD" },
+      "options": {
+        "a": "Solo sonniferi e sedativi",
+        "b": "Solo gocce per occhi secchi",
+        "c": "Alcuni farmaci per il raffreddore e l'ADHD"
+      },
       "explain": "Alcuni farmaci per il raffreddore e l'ADHD contengono stimolanti come la pseudoefedrina o il metilfenidato."
     }
   }

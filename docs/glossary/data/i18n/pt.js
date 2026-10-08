@@ -337,16 +337,6 @@ window.GLOSSARY_I18N.pt = {
    "short": "Cano ou choke sem estrangulamento; dá a chumbada mais aberta.",
    "long": "Cilíndrico significa estrangulamento zero: o interior junto à boca é igual ao do resto do cano. A nuvem de chumbo espalha-se mais depressa, por isso a chumbada é larga a curta distância e fica rala mais longe. Escolhe-se para pratos muito próximos, como alguns coelhos ou pratos que saltam perto do atirador. Nos chokes Beretta é marcado com cinco estrelas. Para a maioria dos pratos no Sporting™ e no Compak® Sporting os atiradores escolhem chokes um pouco mais apertados."
   },
-  "skeet-choke": {
-   "term_local": "skeet",
-   "alt": [
-    "choke de skeet"
-   ],
-   "note": "Anglicism used as is.",
-   "conf": "medium",
-   "short": "Estrangulamento muito leve, cerca de 0,1–0,15 mm (4–6 thou), para os pratos mais próximos.",
-   "long": "O choke skeet tira o nome da disciplina em que os pratos voam muito perto. É apenas um pouco mais apertado do que o cilíndrico: cerca de 0,1–0,15 mm de estrangulamento (4–6 thou), por vezes chamado 1/8 no uso europeu. A chumbada é larga a curta distância e perdoa pequenos erros. No Sporting™ e no Compak® Sporting usa-se para pratos próximos, coelhos e pratos que saltam perto. Os valores exatos dependem do fabricante."
-  },
   "improved-cylinder": {
    "term_local": "1/4 de choke",
    "alt": [
@@ -683,8 +673,7 @@ window.GLOSSARY_I18N.pt = {
   "standard-target": {
    "term_local": "prato normal",
    "alt": [
-    "prato standard",
-    "prato de fosso"
+    "prato standard"
    ],
    "conf": "high",
    "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
@@ -789,7 +778,7 @@ window.GLOSSARY_I18N.pt = {
    "term_local": "torre",
    "conf": "medium",
    "short": "Posição elevada de uma máquina atrás dos postos do Compak, pelo menos 4 m acima deles.",
-   "long": "As máquinas do Compak podem ser colocadas livremente, desde que nenhum prato, nem mesmo um No Bird, possa pôr alguém em perigo. Uma máquina colocada atrás dos postos de tiro tem de estar pelo menos 4 m mais alta do que os postos. A trajetória de saída obrigatória que atravessa o lado BC pode vir de uma torre destas ou de uma máquina numa vala ou no chão à frente dos postos.",
+   "long": "As máquinas do Compak podem ser colocadas livremente, desde que nenhum prato, nem mesmo um No Bird, possa pôr alguém em perigo. Uma máquina colocada atrás dos postos de tiro tem de estar pelo menos 4 m mais alta do que os postos. A trajetória de saída obrigatória que atravessa o lado BC pode vir de uma torre destas ou de uma máquina enterrada ou pousada no chão à frente dos postos.",
    "disciplines": {
     "compak": "A regra dos 4 m está nas regras do Compak (2.4)."
    }
@@ -1667,7 +1656,7 @@ window.GLOSSARY_I18N.pt = {
    "conf": "medium",
    "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Uma classificação separada por idade e sexo, a par da classificação geral; a partir de 2027 a FITASC usa Júnior, Senhoras, Homens, Sénior, Veterano e Master.",
-   "long": "A partir de 1 de janeiro de 2027, a FITASC fixa seis categorias para o Compak® Sporting, o Parcours de Chasse – Sporting™ e as suas outras disciplinas: Júnior (13–20), Senhoras (a partir dos 13), Homens (Homme, 21–55), Sénior (56–65), Veterano (66–72) e Master (a partir dos 73, homens ou mulheres). A idade conta pelo ano de nascimento: uma nova categoria aplica-se a partir de 1 de janeiro do ano em que o atirador atinge a idade, seja qual for o dia de anos. Sénior não é a categoria principal de adultos, mas o escalão dos 56–65 anos; a categoria principal de adultos é Homens. As equipas por categoria têm 3 atiradores (a equipa de Homens no Sporting tem 4), e um atirador selecionado para uma equipa de outra categoria tem também de se inscrever individualmente nessa categoria. No Compak, os empates nos três primeiros lugares de cada categoria decidem-se por desempate; quando os atiradores num desempate da classificação geral pertencem à mesma categoria, o resultado conta também para essa categoria. As provas nacionais e de clube podem usar as suas próprias categorias, conforme o programa.",
+   "long": "A partir de 1 de janeiro de 2027, a FITASC fixa seis categorias para o Compak® Sporting e o Parcours de Chasse – Sporting™: Júnior (13–20), Senhoras (a partir dos 13), Homens (Homme, 21–55), Sénior (56–65), Veterano (66–72) e Master (a partir dos 73, homens ou mulheres). A idade conta pelo ano de nascimento: uma nova categoria aplica-se a partir de 1 de janeiro do ano em que o atirador atinge a idade, seja qual for o dia de anos. Sénior não é a categoria principal de adultos, mas o escalão dos 56–65 anos; a categoria principal de adultos é Homens. As equipas por categoria têm 3 atiradores (a equipa de Homens no Sporting tem 4), e um atirador selecionado para uma equipa de outra categoria tem também de se inscrever individualmente nessa categoria. No Compak, os empates nos três primeiros lugares de cada categoria decidem-se por desempate; quando os atiradores num desempate da classificação geral pertencem à mesma categoria, o resultado conta também para essa categoria. As provas nacionais e de clube podem usar as suas próprias categorias, conforme o programa.",
    "disciplines": {
     "sporting": "A equipa Men tem 4 atiradores; as equipas das outras categorias têm 3.",
     "compak": "Desempates separados para o pódio em cada categoria."
@@ -2352,21 +2341,6 @@ window.GLOSSARY_I18N.pt = {
    "short": "Resumo da ClayArena de uma época: as principais competições, vencedores e desempenhos do ano.",
    "long": "Os resumos da época na ClayArena reúnem os destaques do ano no Sporting™ e no Compak® Sporting: competições principais, vencedores e atuações marcantes. Para um principiante são uma forma fácil de saber quem está em forma e que provas foram mais importantes. Junto com os vídeos das competições e o calendário, ajudam a orientar-se depressa no mundo do tiro aos pratos. Depois da sua própria competição vale a pena espreitar: a sua atuação também pode aparecer."
   },
-  "olympic-trap": {
-   "term_local": "fosso olímpico",
-   "alt": [
-    "trap olímpico"
-   ],
-   "conf": "low",
-   "short": "Disciplina olímpica: os pratos afastam-se do atirador saindo de uma vala com ângulos variáveis, e podem disparar-se dois tiros a cada um.",
-   "long": "No fosso olímpico as máquinas estão escondidas numa vala à frente de uma linha de cinco postos, e os pratos afastam-se do atirador a grande velocidade, em ângulos e alturas variáveis. Podem dar-se dois tiros a cada prato. O atirador chama com a arma já à cara, e o prato sai na chamada. A disciplina é regida pela ISSF, não pela FITASC, e faz parte do programa olímpico. Para os atiradores de Sporting™ e Compak® Sporting, o fosso é um treino útil de reação rápida a pratos de saída."
-  },
-  "skeet": {
-   "term_local": "skeet",
-   "conf": "low",
-   "short": "Disciplina com duas casas (alta e baixa) cujos pratos atravessam o campo; os postos ficam em semicírculo.",
-   "long": "No skeet há duas casas de máquinas nas pontas de um semicírculo: uma casa alta de um lado e uma baixa do outro. Os pratos voam um em direção ao outro em trajetórias fixas, e o atirador desloca-se entre os postos do semicírculo, atirando a simples e doubles. O skeet olímpico é regido pela ISSF; há também variantes nacionais, como o English Skeet, com regras um pouco diferentes. As trajetórias do skeet são fixas, por isso a disciplina é boa para desenvolver a técnica em pratos transversais. O choke skeet, ligeiro, tira dele o nome."
-  },
   "guardian-consent": {
    "term_local": "autorização dos pais",
    "alt": [
@@ -2750,7 +2724,7 @@ window.GLOSSARY_I18N.pt = {
    ],
    "conf": "high",
    "short": "Medicamento para o coração que abranda o batimento e reduz o tremor; segundo a lista da AMA, no tiro é proibido sempre, em competição e fora dela.",
-   "long": "Exemplos: propranolol, atenolol, bisoprolol e metoprolol. São proibidos nos desportos de precisão porque um coração mais lento e menos tremor podem estabilizar a arma. A lista da AMA refere o tiro através da federação olímpica (ISSF) e do tiro paralímpico (IPC), não da FITASC; mesmo assim, considere os betabloqueadores proibidos também no Sporting™ e no Compak® Sporting: as agências nacionais antidopagem podem fazer controlos em provas nacionais, os organizadores podem aplicar a lista da AMA e muitos atiradores competem também em provas ISSF. Se um médico lhe receitou um betabloqueador, não o deixe de tomar sozinho; pergunte com antecedência por uma alternativa permitida ou por uma AUT. Isto não é aconselhamento médico."
+   "long": "Exemplos: propranolol, atenolol, bisoprolol e metoprolol. São proibidos nos desportos de precisão porque um coração mais lento e menos tremor podem estabilizar a arma. A lista da AMA não refere à parte o Sporting™ nem o Compak® Sporting; mesmo assim, considere os betabloqueadores proibidos também aí: as agências nacionais antidopagem podem fazer controlos em provas nacionais e os organizadores podem aplicar a lista da AMA. Se um médico lhe receitou um betabloqueador, não o deixe de tomar sozinho; pergunte com antecedência por uma alternativa permitida ou por uma AUT. Isto não é aconselhamento médico."
   },
   "global-dro": {
    "term_local": "Global DRO",
@@ -2773,8 +2747,8 @@ window.GLOSSARY_I18N.pt = {
     "olho quieto"
    ],
    "conf": "medium",
-   "short": "O último olhar estável para o prato antes do movimento; nos atiradores experientes costuma começar mais cedo e durar mais.",
-   "long": "Os investigadores medem o quiet eye como o último olhar estável antes de um movimento começar. Em comparação com atiradores menos experientes, os atiradores de elite de fosso e skeet começam-no mais cedo e mantêm-no mais tempo, e costuma ser mais longo nos pratos partidos do que nos falhados. Sob ansiedade, encurta muitas vezes. Não há um número mágico de milissegundos a atingir: no tiro aos pratos significa ver o prato cedo e com nitidez e manter os olhos nele durante todo o tiro. A maior parte dos dados vem do fosso olímpico e do skeet; provavelmente aplica-se também ao Sporting™ e ao Compak® Sporting."
+   "short": "O último olhar estável para o prato antes do movimento; nos atletas experientes costuma começar mais cedo e durar mais.",
+   "long": "Os investigadores medem o quiet eye como o último olhar estável antes de um movimento começar. Em estudos de muitos desportos, os atletas mais experientes costumam começá-lo mais cedo e mantê-lo mais tempo, e costuma ser mais longo nas tentativas bem-sucedidas do que nas falhadas. Sob ansiedade, encurta muitas vezes. Não há um número mágico de milissegundos a atingir: no tiro aos pratos significa ver o prato cedo e com nitidez e manter os olhos nele durante todo o tiro. Isto não foi estudado no próprio Sporting™ nem no Compak® Sporting; provavelmente funciona lá da mesma forma."
   },
   "self-talk": {
    "term_local": "diálogo interno",
@@ -2812,7 +2786,7 @@ window.GLOSSARY_I18N.pt = {
    ],
    "conf": "medium",
    "short": "Atirar claramente abaixo do nível habitual por causa da pressão, muitas vezes quando se começa a controlar conscientemente um gesto que normalmente sai sozinho.",
-   "long": "Não confundir com o choke do cano. Sob pressão, um atirador pode começar a controlar passo a passo o gesto de pôr a arma à cara ou o swing, e a preocupação afasta os olhos do prato. Sinais: o ritmo muda, verifica-se a montagem da arma, os olhos vão para o cano ou para a mira, olha-se para as pontuações. O que pode ajudar: a rotina pré-tiro e o ritmo habituais, uma só palavra-chave simples sobre o prato, objetivos de processo e treino sob uma pressão que cresce passo a passo. A maior parte da investigação vem de outros desportos e do fosso olímpico e do skeet; provavelmente aplica-se também ao Sporting™ e ao Compak® Sporting. Se a pressão estraga repetidamente as suas provas, um psicólogo do desporto pode ajudar."
+   "long": "Não confundir com o choke do cano. Sob pressão, um atirador pode começar a controlar passo a passo o gesto de pôr a arma à cara ou o swing, e a preocupação afasta os olhos do prato. Sinais: o ritmo muda, verifica-se a montagem da arma, os olhos vão para o cano ou para a mira, olha-se para as pontuações. O que pode ajudar: a rotina pré-tiro e o ritmo habituais, uma só palavra-chave simples sobre o prato, objetivos de processo e treino sob uma pressão que cresce passo a passo. A maior parte da investigação vem do laboratório e de outros desportos, não do Sporting™ nem do Compak® Sporting; provavelmente funciona lá da mesma forma. Se a pressão estraga repetidamente as suas provas, um psicólogo do desporto pode ajudar."
   },
   "reset-routine": {
    "term_local": "rotina de recomeço",
@@ -2930,14 +2904,6 @@ window.GLOSSARY_I18N.pt = {
    "term_local": "bola de vidro",
    "conf": "medium",
    "short": "Bola de vidro lançada ao ar como alvo no século XIX, uma primeira alternativa às aves vivas; mais tarde foi substituída pelo prato."
-  },
-  "issf": {
-   "term_local": "ISSF",
-   "alt": [
-    "Federação Internacional de Tiro Desportivo"
-   ],
-   "conf": "high",
-   "short": "A International Shooting Sport Federation, que dirige as disciplinas olímpicas de tiro, incluindo o fosso olímpico e o skeet; o Sporting™ e o Compak® Sporting pertencem à FITASC."
   },
   "hydration": {
    "term_local": "hidratação",
