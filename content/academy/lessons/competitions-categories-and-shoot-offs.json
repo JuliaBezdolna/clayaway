@@ -52,7 +52,6 @@
     "countback",
     "simultaneous-double",
     "jury",
-    "nsca",
     "double-on-report"
   ],
   "rule_refs": [
@@ -273,8 +272,8 @@
       "k": "referee-categories-p3",
       "for": "interpreter",
       "core": true,
-      "en": "The biggest interpreter pitfall is “Senior”. In many sports “senior” means the adult level (as opposed to junior), but in FITASC Senior is the 56–65 age group; the main adult category is Men. Do not translate it with the word for adults in your language. “Master” is another pitfall: the FITASC age category from 73 has nothing to do with the NSCA “Master class”, which is a skill level.",
-      "uk": "Найбільша пастка для перекладача — «Senior». У багатьох видах спорту «senior» означає дорослий рівень (на відміну від junior), але у FITASC Senior — це вікова група 56–65; основна доросла категорія — Men. Не перекладайте його словом «дорослі». «Master» — ще одна пастка: вікова категорія FITASC від 73 років не має нічого спільного з «Master class» {{term:nsca|NSCA}}, тобто рівнем майстерності."
+      "en": "The biggest interpreter pitfall is “Senior”. In many sports “senior” means the adult level (as opposed to junior), but in FITASC Senior is the 56–65 age group; the main adult category is Men. Do not translate it with the word for adults in your language. “Master” is another pitfall: in FITASC it is the age category from 73, not a skill level.",
+      "uk": "Найбільша пастка для перекладача — «Senior». У багатьох видах спорту «senior» означає дорослий рівень (на відміну від junior), але у FITASC Senior — це вікова група 56–65; основна доросла категорія — Men. Не перекладайте його словом «дорослі». «Master» — ще одна пастка: у FITASC це вікова категорія від 73 років, а не рівень майстерності."
     },
     {
       "k": "referee-scoring-p4",
@@ -761,7 +760,7 @@
     "referee-scoring-kp4": "dca59d1b",
     "competitions-categories-and-shoot-offs-kp4": "ae67f12a",
     "competitions-categories-and-shoot-offs-dyk": "6a21f6ed",
-    "referee-categories-p3": "d2fe9e92",
+    "referee-categories-p3": "f568a8c4",
     "referee-scoring-p4": "6a63c3a5",
     "referee-categories-ph1": "ffa5dccf",
     "referee-categories-ph2": "e0b2d808",

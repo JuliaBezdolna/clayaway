@@ -96,6 +96,8 @@ p{margin:0 0 10px;max-width:72ch}
 .item[open] summary::before{content:"–"}
 .item summary b{flex:1}
 .item summary .ref{font-size:12px;color:var(--muted);white-space:nowrap}
+/* narrow screens: a long citation ("Chapter 6, 6.5.1, table: …") wraps under the title instead of widening the page (375 px check 09.10.2026) */
+@media (max-width:480px){.item summary{flex-wrap:wrap}.item summary .ref{white-space:normal}}
 .item .body{padding:0 14px 14px 36px}
 .item .body p{color:var(--soft)}
 .item ul{margin:6px 0 10px;padding-left:18px;color:var(--soft)}
@@ -129,7 +131,7 @@ mark{background:rgba(52,211,153,.25);color:inherit;border-radius:3px;padding:0 2
 <script src="data/compak.js"></script>
 <script>
 /* ClayArena · FITASC rules guide (stage 1, static).
-   Data: docs/rules/data/<key>.js push one "book" each into window.RULES (format: data/SCHEMA.md).
+   Data: docs/rules/data/<key>.js push one "book" each into window.RULES (format: rules/SCHEMA.md in the repository, outside docs/).
    Flow: question -> toks() -> search() over rule items + FAQ -> answerHTML() shows the best FAQ answer
    (if it scores close to the best rule item) plus the most relevant rule items with PDF page links.
    Stage 2 replaces search() with POST /api/rules/ask on the ClayArena server (retrieval + Claude API),

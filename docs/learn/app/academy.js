@@ -1,7 +1,9 @@
 /* =====================================================================================================================
    Академія ClayArena — the ONE Academy app (PROJECT: to be moved into ClayArena and finished by the dev team).
    Replaces the two old apps (docs/learn/index.html "ClayArena Academy" and docs/interpreter/index.html "Interpreter Academy").
-   Design: scratchpad design §7 → in the repo: content/academy/SCHEMA.md (data contract) and DEVELOPERS.md §4e (this app).
+   Design: content/academy/SCHEMA.md (data contract) and DEVELOPERS.md §4e (this app). Comments that cite "design §N" refer to the
+   owner's working design notes of 10.2026, which are not part of the repository: the rule each of them stands for is in SCHEMA.md and
+   DEVELOPERS.md (§4d–§4l), which are the reference for the team (HANDOVER.md).
 
    WHAT IT DOES
    - Renders every Academy view from JSON (no text is ever built from raw strings: lesson "html" fields come escaped from the build):
@@ -285,7 +287,9 @@
   const bar = (d, n, label) => `<span class="ac-pbar" role="progressbar" aria-label="${esc(label || "")}" aria-valuemin="0" aria-valuemax="${n}" aria-valuenow="${d}"><i style="width:${n ? Math.round(d / n * 100) : 0}%"></i></span>`;
   const discChips = ds => (ds || []).map(d => `<span class="ac-chip ac-disc-${d}">${discName(d)}</span>`).join("");
   // The lesson page reads it once per view (VIEW.upd): finishing the quiz must not remove the chip under the reader's eyes (the header
-  // got shorter and the page jumped, quiz test 10.2026); it is gone the next time the lesson is opened.
+  // got shorter and the page jumped, quiz test 10.2026); it is gone the next time the lesson is opened. The same for the "✓ lesson done"
+  // chip (VIEW.done0): finishing the quiz must not ADD it under the reader's eyes (the meta line wrapped, the header grew by 31 px and the
+  // whole quiz jumped on 1126 of 1551 lesson pages at 1000 px; tools/checks/check_quiz.py, 09.10.2026). The score line says it already.
   const updated = id => { const d = S.done[id], c = L(id); return !!(d && c && (d.rev || 0) < (c.rev || 0)); };
   /* "▶ з анімацією" on a lesson card (topic and route lists, search): the catalog marks lessons that open with an animation (anim). */
   const animMark = c => c && c.anim ? `<span class="ac-animark">▶ ${t("anim_marker")}</span>` : "";
@@ -506,7 +510,7 @@
         ${hero ? `<a class="ac-chip ac-animark" href="#anim-${esc(hero.k)}">▶ ${t("anim_marker")}</a>` : ""}
         ${D.review_flag === "pending" || c.review_flag === "pending" ? `<span class="ac-chip ac-review">${t("review_pending")}</span>` : ""}
         ${(VIEW.upd === undefined ? (VIEW.upd = updated(id)) : VIEW.upd) ? `<span class="ac-chip ac-upd" title="${t("lesson_updated_d")}">● ${t("lesson_updated")}</span>` : ""}
-        ${done(id) ? `<span class="ac-chip is-on">✓ ${t("lesson_done")}</span>` : ""}</p>
+        ${(VIEW.done0 === undefined ? (VIEW.done0 = done(id)) : VIEW.done0) ? `<span class="ac-chip is-on">✓ ${t("lesson_done")}</span>` : ""}</p>
       ${D.summary ? `<p class="ac-lead">${esc(D.summary)}</p>` : ""}</header>
     ${c.status === "preview" ? `<p class="ac-note">🛠 ${t("clayaway_preview")}</p>` : ""}
     ${c.draft || D.draft ? `<p class="ac-note ac-draft-n">Draft preview — ${t("draft_soon_p")}</p>` : ""}
@@ -905,7 +909,7 @@
       const bank = (window.RULES_QUIZ || []).filter(b => disc === "both" || b.key === disc).flatMap(b => b.questions.filter(q => q.type === "decision").map(q => Object.assign({ book: b.key }, q)));
       const OQ = (ov && ov.questions) || {}, tr = (q, k) => q[k + "_" + LANG] || ((OQ[q.id] || {})[k === "q" ? "q" : "explain"]) || q[k + "_en"];
       await GLO.load().catch(() => {}); simsConfig([]);
-      // an option that names a glossary term ("term", docs/rules/data/QUIZ_SCHEMA.md) shows its label: "ZERO" → uk "Zero (промах)"
+      // an option that names a glossary term ("term", rules/QUIZ_SCHEMA.md) shows its label: "ZERO" → uk "Zero (промах)"
       const items = shuffle(bank).slice(0, 10).map(q => { const ord = shuffle(q.options.map((o, i) => i)), txt = i => (q.options[i].term && GLO.ready && GLO.T[q.options[i].term] ? GLO.label(q.options[i].term, q.options[i].en) : null) || q.options[i][LANG] || ((OQ[q.id] || {}).options || [])[i] || q.options[i].en;
         const refs = (q.refs || []).map(id => { const ch = /^ch(\d+)/.exec(id); return `<a href="${rulesUrl(q.book, id)}">${discName(q.book)}${ch ? " · " + t("rule_chapter", { n: ch[1] }) : ""}</a>`; }).join(", ");
         return { q: `<span class="ac-chip ac-disc-${q.book}">${discName(q.book)}</span> ${esc(tr(q, "q"))}`, options: ord.map(txt), answer: ord.indexOf(q.answer),

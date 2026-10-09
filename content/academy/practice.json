@@ -1,5 +1,5 @@
 {
-  "_note": "Registry of Practice games (/learn/practice/<id>/). xp:false while a known issue from the audit is open (the page then shows the ui string practice_known_issue). index 'fitasc' follows the FITASC_INDEX switch (false until written FITASC permission). Lead lab (S-01, S-03 compare table, S-11 hit zone, S-12 swing-through gap; physics re-checked by the ballistics review 10.2026) and Name the flight (S-04, S-05) were fixed in 10.2026: xp is on, known_issues empty, and their route/badge requirements count.",
+  "_note": "Registry of Practice games (/learn/practice/<id>/). A game gives XP when xp is true; while a known issue from the audit is open, set xp:false and list it in known_issues (the page then shows the ui string practice_known_issue; the app shows it only for xp:false). index 'fitasc' follows the FITASC_INDEX switch (false until written FITASC permission). Lead lab (S-01, S-03 compare table, S-11 hit zone, S-12 swing-through gap; physics re-checked by the ballistics review 10.2026) and Name the flight (S-04, S-05) were fixed in 10.2026. Referee's call and the rules exam: R-02 (ClayArena names in the trainer and the clayarena-trainer key), R-03 (sp-q071 rewritten), R-04 (cs-q057 and sp-q023 stand alone) and R-05 (the trainer shuffles the options) were checked in the code and data on 09.10.2026 (handover) and closed: known_issues empty, xp on. Phrasebook gives no XP by design; My routine comes later.",
   "games": [
     {
       "id": "lead-lab",
@@ -60,11 +60,7 @@
       "index": "fitasc",
       "xp": true,
       "source": "question bank of the rules trainer (docs/rules/data/quiz-*.js), filter by discipline",
-      "known_issues": [
-        "R-03",
-        "R-04",
-        "R-05"
-      ],
+      "known_issues": [],
       "blocks": [
         "rules"
       ]
@@ -112,9 +108,7 @@
       "external": "/rules/trainer/?lang={lang}&from=learn",
       "storage_key": "clayarena-trainer",
       "storage_key_old": "clayaway-trainer",
-      "known_issues": [
-        "R-02"
-      ],
+      "known_issues": [],
       "blocks": [
         "rules"
       ]

@@ -7,7 +7,7 @@
     "summary": "8c511174",
     "flight-pairs-p1": "de3af0f1",
     "flight-pairs-p2": "4807909e",
-    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p4": "2b3ac612",
     "flight-pairs-p3": "5326e900",
     "targets-singles-and-doubles-cartridges": "9881669e",
     "targets-singles-and-doubles-p6": "563c8328",
@@ -17,7 +17,7 @@
     "flight-pairs-ph1": "9a849839",
     "flight-pairs-ph2": "113027fe",
     "flight-pairs-ph3": "07db0d22",
-    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-ph4": "bc04a541",
     "flight-pairs-kp1": "ef123d9b",
     "flight-pairs-kp2": "3dee0536",
     "flight-pairs-kp3": "dd039d2b",
@@ -27,9 +27,10 @@
     "flight-pairs-q1": "ebe2b5dc",
     "flight-pairs-q2": "f669f8a6",
     "targets-singles-and-doubles-q2": "69c2d15d",
-    "flight-pairs-q3": "424310f9",
+    "flight-pairs-q3": "61892e73",
     "targets-singles-and-doubles-q1": "de200647",
-    "targets-singles-and-doubles-q-two-with-one": "e024bf17"
+    "targets-singles-and-doubles-q-two-with-one": "e024bf17",
+    "flight-pairs-sim": "cd49e005"
   },
   "review": {
     "by": null,
@@ -41,7 +42,7 @@
   "body": {
     "flight-pairs-p1": "A {{term:single-target|szóló korong}} egy korong egy {{term:trap|dobógépből}}. Mindkét versenyszámban két lövés adható le rá, tehát egy hiba után a második csővel még lehet lőni. A {{term:double|dublé}} két korong, amelyek együtt mennek: egy hívás, és mindkettőt lövöd.",
     "flight-pairs-p2": "A {{term:double-on-report|vadászdublé}}: a hívás indítja az első korongot, és az arra leadott lövés indítja a másodikat. A {{tm:sporting}}-ban a második 0–3 másodperccel a lövés után jön. A sorrend rögzített. A „report” itt a lövés hangját jelenti, nem egy írott jelentést.",
-    "flight-pairs-p4": "A szimultán dublé („simo”) neve az {{term:english-sporting|angol sportingban}} „{{term:true-pair|true pair}}”: mindkét korong egyszerre indul, és tetszőleges sorrendben lőhetők. Egy vagy két dobógépből jönnek; a {{tm:compak}}-ban mindig két különböző dobógépből.",
+    "flight-pairs-p4": "A szimultán dublé („simo”) neve a brit edzőknél „{{term:true-pair|true pair}}”: mindkét korong egyszerre indul, és tetszőleges sorrendben lőhetők. Egy vagy két dobógépből jönnek; a {{tm:compak}}-ban mindig két különböző dobógépből.",
     "flight-pairs-p3": "A following pair, amelyet a FITASC rafale-nak hív: két korong egyazon dobógépből, egyazon röppályán, a második azonnal indul, amint a dobógép újratöltött. Bármelyiket lőheted előbb. Csak a {{tm:sporting}}-ban létezik: egy {{tm:compak}} dublé on report vagy szimultán.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Két töltény a dublére, és mindkettő elhasználható egy koronghoz. Ha egy lövés mindkét korongot eltöri, mindkettő találatnak számít (a bíró mindegyikre „one”-t mond).",
@@ -50,7 +51,8 @@
     "targets-singles-and-doubles-p6": "Hogyan pontozzák a dubléket, a zero-zero-t és a dublén belüli No Birdöt is beleértve, az {{lesson:rules-doubles}} óra magyarázza el.",
     "flight-pairs-p6": "Egy {{tm:sporting}} lőálláson a rotte előbb a szóló korongokat lövi, majd a dubléket. A lövés előtt a szimultán és a rafale dubléket kidobják, hogy a lövészek lássák (a rotte első lövészének mutatják meg); a vadászdubléket nem mutatják.",
     "targets-singles-and-doubles-p5": "Egy {{tm:sporting}} {{term:layout|lőpálya}} {{fact:targets.sporting-layout-targets}} ad, és a dublék csak olyan korongokat használnak, amelyeket ugyanarról a lőállásról már szólóként megmutattak. Egy {{tm:compak}} kör is 25 korong, öt lőállásonként, a három keverék egyikéből: {{fact:targets.compak-station-menus}}.",
-    "targets-singles-and-doubles-tip1": "Mielőtt dublét kérsz, sok edző azt tanácsolja, hogy tervezd meg mindkét korongot: melyiket előbb, hol töröd el mindegyiket, és hová megy a szemed a másodikért. Bővebben: {{lesson:faults-pairs-transition}}."
+    "targets-singles-and-doubles-tip1": "Mielőtt dublét kérsz, sok edző azt tanácsolja, hogy tervezd meg mindkét korongot: melyiket előbb, hol töröd el mindegyiket, és hová megy a szemed a másodikért. Bővebben: {{lesson:faults-pairs-transition}}.",
+    "flight-pairs-sim": "Egy korong, majd a három dublé: vadászdublé, szimultán és rafale; figyeld, mikor indul a második korong."
   },
   "note": {},
   "phrases": {
@@ -67,7 +69,7 @@
       "say": "Rafale – az első után rögtön vissza a géphez a másodikért."
     },
     "flight-pairs-ph4": {
-      "meaning": "Öt szimultán dublé a {{term:tower|toronyból}} – angol sporting szóhasználat.",
+      "meaning": "Öt szimultán dublé a {{term:tower|toronyból}} – a brit edzők szóhasználata.",
       "say": "Szimultán dublé a toronyból, ötször."
     }
   },
@@ -117,7 +119,7 @@
         "c": "Rafale",
         "d": "Szimultán dublé"
       },
-      "explain": "A „true pair” a szimultán dublé angol sporting neve; a „true” itt semmi köze a helyességhez."
+      "explain": "A „true pair” a szimultán dublé neve a brit edzőknél; a „true” itt semmi köze a helyességhez."
     },
     "targets-singles-and-doubles-q1": {
       "q": "Hány korongot ad egy {{tm:sporting}} lőpálya?",

@@ -1,4 +1,4 @@
-/* ClayArena glossary — fr: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
+/* ClayArena glossary — fr: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/fr.json, not published); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.fr = {
  "lang": "fr",
@@ -53,8 +53,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "ligne de tir"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "line": {
    "term_local": "ligne de tir",
@@ -66,9 +65,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "ligne"
    ],
-   "note": "Nouveau système.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "range": {
    "term_local": "stand de tir",
@@ -77,8 +74,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "terrain"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "shooting-stand": {
    "term_local": "poste de tir",
@@ -92,9 +88,7 @@ window.GLOSSARY_I18N.fr = {
     "poste",
     "pas de tir"
    ],
-   "note": "« Pas de tir » plutôt pour l'aire de tir en général.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "trap": {
    "term_local": "lanceur",
@@ -108,8 +102,7 @@ window.GLOSSARY_I18N.fr = {
     "machine",
     "appareil lanceur"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "tower": {
    "term_local": "tour",
@@ -121,8 +114,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "pylône"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
+   "conf": "high"
   },
   "trapper": {
    "term_local": "pulleur",
@@ -131,9 +123,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "puller"
    ],
-   "note": "Terme FITASC ; « lanceur » désigne d'abord la machine.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "sonopull": {
    "term_local": "sonopull",
@@ -146,8 +136,7 @@ window.GLOSSARY_I18N.fr = {
     "commande vocale",
     "déclenchement à la voix"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
+   "conf": "high"
   },
   "fly-over-zone": {
    "term_local": "zone de survol (rectangle ABCD)",
@@ -183,9 +172,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "cible"
    ],
-   "note": "« Cible artificielle » dans la définition officielle.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "battue": {
    "term_local": "battue",
@@ -198,9 +185,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "plateau battue"
    ],
-   "note": "Attention : « en battue » désigne aussi une trajectoire de gibier rabattu.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "midi": {
    "term_local": "midi",
@@ -210,9 +195,7 @@ window.GLOSSARY_I18N.fr = {
     "90 mm",
     "plateau midi"
    ],
-   "note": "Le règlement désigne parfois par le diamètre (90 mm).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "mini": {
    "term_local": "mini",
@@ -223,8 +206,7 @@ window.GLOSSARY_I18N.fr = {
     "60 mm",
     "super mini"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "rabbit": {
    "term_local": "rabbit",
@@ -233,9 +215,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "lapin"
    ],
-   "note": "Anglicisme officiel FITASC ; « lapin » rare.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "flash-target": {
    "term_local": "plateau flash",
@@ -244,8 +224,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "flash"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "zz-target": {
    "term_local": "plateau ZZ (hélice)",
@@ -266,9 +245,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "tracé"
    ],
-   "note": "« Tracé » = dessin du parcours par le traceur.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "difficulty-class": {
    "term_local": "catégorie de difficulté",
@@ -289,8 +266,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "simple"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "double": {
    "term_local": "doublé",
@@ -300,8 +276,7 @@ window.GLOSSARY_I18N.fr = {
     "sporting": "5 doublés par parcours, composés uniquement de plateaux déjà tirés en simple depuis ce poste ; les deux cartouches peuvent viser le même plateau.",
     "compak": "Une cartouche par plateau ; tirer volontairement les deux coups sur un même plateau donne Zéro-Zéro."
    },
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "double-on-report": {
    "term_local": "doublé coup de fusil",
@@ -314,8 +289,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "doublé au coup de fusil"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "simultaneous-double": {
    "term_local": "doublé simultané",
@@ -328,8 +302,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "simultané"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "rafale-double": {
    "term_local": "doublé rafale",
@@ -341,9 +314,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "rafale"
    ],
-   "note": "Même lanceur, même trajectoire.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "target-menu": {
    "term_local": "menu",
@@ -352,8 +323,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "menu du poste"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "round": {
    "term_local": "série",
@@ -366,9 +336,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "série de 25 plateaux"
    ],
-   "note": "En Compak aussi « tour ».",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "target-presentation": {
    "term_local": "présentation des plateaux",
@@ -381,8 +349,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "présentation"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "rotation": {
    "term_local": "décalage d'un tireur",
@@ -396,9 +363,7 @@ window.GLOSSARY_I18N.fr = {
     "rotation",
     "ordre de tir"
    ],
-   "note": "FITASC : « avec décalage d'un tireur » à chaque poste.",
-   "conf": "medium",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "medium"
   },
   "call": {
    "term_local": "« Prêt ! »",
@@ -408,9 +373,7 @@ window.GLOSSARY_I18N.fr = {
     "« Pull ! »",
     "commander le plateau"
    ],
-   "note": "Le tireur annonce « Prêt » ou « Pull » (FITASC 5.4).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "ready-position": {
    "term_local": "position d'attente",
@@ -424,9 +387,7 @@ window.GLOSSARY_I18N.fr = {
     "fusil bas",
     "position de départ"
    ],
-   "note": "Termes du règlement FITASC (talon de crosse sous la ligne du gilet).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "jacket-line": {
    "term_local": "ligne de veste (marque de repère)",
@@ -457,9 +418,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "délai de tir"
    ],
-   "note": "15 s entre deux plateaux (PCh).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "mock-shooting": {
    "term_local": "simulacre de tir",
@@ -472,9 +431,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "simulacres"
    ],
-   "note": "Ne pas dire « tir à blanc » (= tir sans projectile).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "shooting-limit": {
    "term_local": "limite de tir",
@@ -486,8 +443,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "L.A.T. (Compak)"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "refusal": {
    "term_local": "refus de tirer un plateau",
@@ -496,8 +452,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "refus"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "gun-test": {
    "term_local": "essai de l'arme",
@@ -506,8 +461,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "essai des armes"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "referee": {
    "term_local": "arbitre",
@@ -520,8 +474,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "arbitre de poste"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "chief-referee": {
    "term_local": "chef arbitre",
@@ -534,8 +487,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "arbitre principal"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "no-bird": {
    "term_local": "No bird",
@@ -548,8 +500,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "plateau à remettre"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "malfunction": {
    "term_local": "mauvais fonctionnement",
@@ -563,8 +514,7 @@ window.GLOSSARY_I18N.fr = {
     "incident de tir",
     "enrayage"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "double-discharge": {
    "term_local": "double décharge",
@@ -573,8 +523,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "les deux coups partent en même temps"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "interruption": {
    "term_local": "interruption",
@@ -600,9 +549,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "cassé"
    ],
-   "note": "L'arbitre annonce « bon » ; pas « un ».",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "zero": {
    "term_local": "ZÉRO",
@@ -615,8 +562,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "manqué"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "zero-zero": {
    "term_local": "Zéro-Zéro",
@@ -634,8 +580,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "carton"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "shotgun": {
    "term_local": "fusil",
@@ -650,9 +595,7 @@ window.GLOSSARY_I18N.fr = {
     "fusil à canon lisse",
     "arme"
    ],
-   "note": "FITASC parle d'« armes de chasse » ; sur le stand on dit simplement « fusil ».",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "semi-automatic": {
    "term_local": "semi-automatique",
@@ -665,9 +608,7 @@ window.GLOSSARY_I18N.fr = {
     "semi-auto",
     "fusil semi-automatique"
    ],
-   "note": "Règlement : culasse ouverte, 2 cartouches max.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "gauge": {
    "term_local": "calibre",
@@ -677,8 +618,7 @@ window.GLOSSARY_I18N.fr = {
     "calibre 12",
     "calibre 20"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "choke": {
    "term_local": "choke",
@@ -694,9 +634,7 @@ window.GLOSSARY_I18N.fr = {
     "rétreint",
     "chokage"
    ],
-   "note": "Anglicisme dominant ; « forage » et « chokage » en langage technique FFBT.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "cartridge": {
    "term_local": "cartouche",
@@ -709,8 +647,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "munition"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "shot-size": {
    "term_local": "numéro de plomb",
@@ -729,9 +666,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "release trigger"
    ],
-   "note": "Terme officiel FITASC (art. 7.11, autocollant « R »). « Détente à lâcher » n'est pas le terme officiel.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "safety": {
    "term_local": "sécurité",
@@ -743,8 +678,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "règles de sécurité"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "gun-handling": {
    "term_local": "fusil ouvert",
@@ -754,8 +688,7 @@ window.GLOSSARY_I18N.fr = {
     "porter le fusil ouvert",
     "manipulation des armes"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "hearing-protection": {
    "term_local": "protections auditives",
@@ -765,9 +698,7 @@ window.GLOSSARY_I18N.fr = {
     "casque anti-bruit",
     "bouchons"
    ],
-   "note": "Terme du règlement FITASC.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "safety-glasses": {
    "term_local": "lunettes de protection",
@@ -776,9 +707,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "lunettes de tir"
    ],
-   "note": "Obligatoires (FITASC 8.10).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "conduct": {
    "term_local": "comportement",
@@ -788,8 +717,7 @@ window.GLOSSARY_I18N.fr = {
     "règles de conduite",
     "attitude antisportive"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "coaching": {
    "term_local": "coaching",
@@ -803,8 +731,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "tenue"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "warning": {
    "term_local": "avertissement",
@@ -818,15 +745,13 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "avertissement"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "red-card": {
    "term_local": "carton rouge",
    "short": "Carton sanctionnant un manquement répété après avertissement, le plateau étant compté comme pénalité.",
    "long": "Après le premier avertissement, toute nouvelle infraction sur le même parcours (Parcours de Chasse) ou le même Compak entraîne un carton rouge. Le plateau est alors compté : zéro sur un simple ; zéro et No Bird sur un doublé au coup de fusil ; zéro et zéro sur un doublé simultané ou en rafale. Pour un incident en Compak sur le second plateau d'un doublé, le premier résultat est conservé et le second vaut zéro. En Compak, un deuxième incident de fusil ou de munitions du même type donne aussi zéro avec un carton rouge.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "penalty": {
    "term_local": "pénalité",
@@ -835,8 +760,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "sanction"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "expulsion": {
    "term_local": "exclusion",
@@ -877,9 +801,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "« Réclamation ! »"
    ],
-   "note": "Le tireur lève le bras et dit « Réclamation », « Protest » ou « Appel ».",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "appeal": {
    "term_local": "protestation écrite au jury",
@@ -893,9 +815,7 @@ window.GLOSSARY_I18N.fr = {
     "appel",
     "faire appel auprès du jury"
    ],
-   "note": "Attention : « Appel » crié sur le poste = réclamation immédiate ; caution de 40 % de l'engagement.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "appeal-jury": {
    "term_local": "jury d'appel",
@@ -926,8 +846,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "jury d'appel"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "technical-commission": {
    "term_local": "commission technique",
@@ -956,8 +875,7 @@ window.GLOSSARY_I18N.fr = {
     "groupe",
     "planche de tir"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "group": {
    "term_local": "groupe (en ligne)",
@@ -983,15 +901,13 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "plateaux d'entraînement"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
+   "conf": "high"
   },
   "competitor-number": {
    "term_local": "dossard",
    "short": "Le numéro porté dans le dos du tireur pendant la compétition.",
    "long": "Le dossard doit être porté dans le dos, entre les épaules et la taille, entièrement visible et complet, ni plié ni découpé. Un premier manquement entraîne un avertissement de l'arbitre ; s'il n'est pas corrigé, d'autres pénalités suivent, jusqu'à l'exclusion de la compétition par le jury. En Parcours de Chasse, un tireur absent est appelé par son nom et son numéro trois fois en une minute.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "shoot-off": {
    "term_local": "barrage",
@@ -1004,8 +920,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "mort subite"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "sudden-death": {
    "term_local": "mort subite",
@@ -1023,8 +938,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "en remontant les parcours (du 8e au 1er)"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "team": {
    "term_local": "équipe",
@@ -1033,8 +947,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "équipe nationale"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "category": {
    "term_local": "catégorie",
@@ -1047,8 +960,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "classement par catégories"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
+   "conf": "high"
   },
   "junior": {
    "term_local": "Junior",
@@ -1082,7 +994,7 @@ window.GLOSSARY_I18N.fr = {
   "master-category": {
    "term_local": "Master",
    "short": "La catégorie d'âge la plus élevée de la FITASC, à partir de 73 ans, pour les hommes et les femmes.",
-   "long": "La catégorie Master regroupe les hommes et les femmes à partir du 1er janvier de l'année de leurs 73 ans ; pour 2027, cela correspond aux personnes nées avant le 1er janvier 1955. Une équipe Master compte 3 tireurs de cette catégorie ; les tireurs Master peuvent aussi être sélectionnés dans les équipes Vétéran, Senior et Homme. Ne confondez pas la catégorie d'âge Master de la FITASC avec la classe Master du système américain NSCA, qui dépend des résultats, ni avec l'œil directeur (master eye) en technique."
+   "long": "La catégorie Master regroupe les hommes et les femmes à partir du 1er janvier de l'année de leurs 73 ans ; pour 2027, cela correspond aux personnes nées avant le 1er janvier 1955. Une équipe Master compte 3 tireurs de cette catégorie ; les tireurs Master peuvent aussi être sélectionnés dans les équipes Vétéran, Senior et Homme. Ne confondez pas la catégorie d'âge Master de la FITASC avec une classe de niveau, qui dépend des résultats, ni avec l'œil directeur (master eye) en technique."
   },
   "hull": {
    "term_local": "douille",
@@ -1092,24 +1004,19 @@ window.GLOSSARY_I18N.fr = {
     "étui",
     "tube"
    ],
-   "note": "« Douilles vides » dans le règlement Compak ; culot = base métallique.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
+   "conf": "high"
   },
   "primer": {
    "term_local": "amorce",
    "short": "Petite capsule logée dans le culot de la douille qui produit une étincelle sous le choc du percuteur et enflamme la poudre.",
    "long": "L'amorce se trouve au centre du culot métallique de la douille. Lorsque le percuteur du fusil la frappe, la composition d'amorçage s'enflamme et la flamme allume la charge de poudre. Une amorce faible ou lente peut provoquer un raté ou un long feu. C'est pourquoi, après une défaillance, on n'ouvre pas le fusil tout de suite : il reste pointé dans une direction sûre jusqu'à ce que l'arbitre l'ait contrôlé. Une amorce marquée sans départ du coup est le signe typique d'une cartouche défectueuse ou d'une frappe trop faible du percuteur.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "powder": {
    "term_local": "poudre",
    "short": "Le propulseur qui brûle rapidement et produit le gaz qui pousse les plombs ; la poudre noire est interdite aux épreuves FITASC.",
    "long": "Les cartouches modernes utilisent de la poudre sans fumée. Elle brûle en une fraction de seconde, et le gaz qu'elle produit propulse la bourre et les plombs dans le canon. La quantité et le type de poudre influent sur la vitesse des plombs et, en partie, sur le recul ; c'est le fabricant de la cartouche qui les choisit. Le règlement FITASC du Sporting™ et du Compak® Sporting interdit la poudre noire, les cartouches traçantes et les cartouches rechargées. Conservez les cartouches au sec et à l'abri de la chaleur : l'humidité et les températures élevées dégradent le comportement de la poudre.",
-   "note": "La poudre noire est interdite (FITASC).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "wad": {
    "term_local": "bourre",
@@ -1131,7 +1038,6 @@ window.GLOSSARY_I18N.fr = {
     "bourre feutre",
     "bourre biodégradable"
    ],
-   "note": "« Bourre grasse » = bourre fibre/liège sans jupe ; sur les stands écologiques on dit aussi « bourre biodégradable ».",
    "conf": "medium"
   },
   "crimp": {
@@ -1147,9 +1053,7 @@ window.GLOSSARY_I18N.fr = {
     "grammage",
     "charge de plomb (24 g, 28 g)"
    ],
-   "note": "FITASC : charge limitée à 28 g de plomb.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "velocity": {
    "term_local": "vitesse (V0)",
@@ -1163,8 +1067,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "relèvement (du canon)"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "lead-shot": {
    "term_local": "plombs",
@@ -1173,8 +1076,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "grenaille de plomb"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "soft-iron-shot": {
    "term_local": "plomb en fer doux",
@@ -1190,7 +1092,6 @@ window.GLOSSARY_I18N.fr = {
     "grenaille d'acier",
     "plomb acier (familier)"
    ],
-   "note": "« Plomb acier » est courant mais impropre.",
    "conf": "medium"
   },
   "low-recoil-cartridge": {
@@ -1206,8 +1107,7 @@ window.GLOSSARY_I18N.fr = {
     "groupement",
     "gerbe de plombs"
    ],
-   "conf": "medium",
-   "src": "https://chasse-en-camargue.fr/tableau-de-correspondance-des-chokes/"
+   "conf": "medium"
   },
   "constriction": {
    "term_local": "étranglement (constriction)",
@@ -1223,9 +1123,7 @@ window.GLOSSARY_I18N.fr = {
     "choke lisse",
     "CYL"
    ],
-   "note": "FFBT : forage « lisse » ; 5 étoiles.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "fixed-choke": {
    "term_local": "choke fixe",
@@ -1235,8 +1133,7 @@ window.GLOSSARY_I18N.fr = {
     "forage fixe",
     "chokes fixes"
    ],
-   "conf": "medium",
-   "src": "https://chasse-en-camargue.fr/tableau-de-correspondance-des-chokes/"
+   "conf": "medium"
   },
   "multichoke": {
    "term_local": "chokes interchangeables",
@@ -1251,9 +1148,7 @@ window.GLOSSARY_I18N.fr = {
     "mobile choke",
     "chokes amovibles"
    ],
-   "note": "FITASC écrit « MOBILE CHOKE ».",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "choke-key": {
    "term_local": "clé à choke",
@@ -1274,7 +1169,6 @@ window.GLOSSARY_I18N.fr = {
     "choke dépassant",
     "extended"
    ],
-   "note": "Usage variable selon les marques.",
    "conf": "low"
   },
   "skeet-choke": {
@@ -1285,9 +1179,7 @@ window.GLOSSARY_I18N.fr = {
     "lisse amélioré",
     "choke skeet"
    ],
-   "note": "FFBT range « lisse amélioré » (1-2/10) ; dans le commerce « Skeet ».",
-   "conf": "medium",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "medium"
   },
   "improved-cylinder": {
    "term_local": "quart de choke",
@@ -1299,9 +1191,7 @@ window.GLOSSARY_I18N.fr = {
     "IC",
     "****"
    ],
-   "note": "4 étoiles.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "light-modified": {
    "term_local": "3/8 de choke",
@@ -1317,9 +1207,7 @@ window.GLOSSARY_I18N.fr = {
     "demi",
     "***"
    ],
-   "note": "3 étoiles.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "improved-modified": {
    "term_local": "trois-quarts de choke",
@@ -1330,9 +1218,7 @@ window.GLOSSARY_I18N.fr = {
     "trois-quarts",
     "**"
    ],
-   "note": "2 étoiles.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "full-choke": {
    "term_local": "full choke",
@@ -1343,9 +1229,7 @@ window.GLOSSARY_I18N.fr = {
     "full",
     "*"
    ],
-   "note": "FFBT distingue « choke » (9-10/10) et « full choke » (11/10) ; 1 étoile.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "star-marks": {
    "term_local": "marquage par étoiles",
@@ -1369,9 +1253,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "fusil superposé"
    ],
-   "note": "Type d'arme le plus utilisé sur les stands (FFBT).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "side-by-side": {
    "term_local": "juxtaposé",
@@ -1380,20 +1262,16 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "fusil juxtaposé"
    ],
-   "note": "Rare en tir aux plateaux.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "pump-action": {
    "term_local": "fusil à pompe",
    "short": "Fusil que l'on réarme en faisant coulisser le devant d'avant en arrière ; interdit par le règlement FITASC.",
-   "long": "Avec un fusil à pompe, le tireur éjecte la douille et introduit une nouvelle cartouche en faisant coulisser le devant vers l'arrière puis vers l'avant après chaque coup. Ces fusils sont courants à la chasse et dans certains autres sports de tir, mais le règlement FITASC du Sporting™ et du Compak® Sporting les interdit expressément. Les superposés, juxtaposés et semi-automatiques de calibre 12 ou plus petit sont autorisés. Si vous comptez faire de la compétition, n'achetez pas un fusil à pompe comme premier fusil. Le règlement de certains concours de club peut différer, vérifiez donc le programme.",
+   "long": "Avec un fusil à pompe, le tireur éjecte la douille et introduit une nouvelle cartouche en faisant coulisser le devant vers l'arrière puis vers l'avant après chaque coup. Ces fusils sont courants à la chasse, mais le règlement FITASC du Sporting™ et du Compak® Sporting les interdit expressément. Les superposés, juxtaposés et semi-automatiques de calibre 12 ou plus petit sont autorisés. Si vous comptez faire de la compétition, n'achetez pas un fusil à pompe comme premier fusil. Le règlement de certains concours de club peut différer, vérifiez donc le programme.",
    "alt": [
     "pompe"
    ],
-   "note": "Interdit en Parcours de Chasse / Compak.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "stock": {
    "term_local": "crosse",
@@ -1403,8 +1281,7 @@ window.GLOSSARY_I18N.fr = {
     "crosse pistolet",
     "crosse Monte-Carlo"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "comb": {
    "term_local": "busc",
@@ -1413,8 +1290,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "dessus de crosse"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "receiver": {
    "term_local": "bascule",
@@ -1423,9 +1299,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "boîtier (semi-auto)"
    ],
-   "note": "Pour un semi-automatique on parle plutôt de boîtier/carcasse et de culasse.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "barrel-selector": {
    "term_local": "sélecteur",
@@ -1436,9 +1310,7 @@ window.GLOSSARY_I18N.fr = {
     "inverseur",
     "mono-détente sélective"
    ],
-   "note": "FFBT : « inverseur de canon » ; en armurerie « sélecteur ».",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "fore-end": {
    "term_local": "devant",
@@ -1449,9 +1321,7 @@ window.GLOSSARY_I18N.fr = {
     "devant bois",
     "fût"
    ],
-   "note": "« Longuesse » plutôt pour mono-canon / semi-auto.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "chamber": {
    "term_local": "chambre",
@@ -1460,8 +1330,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "chambrage (70 / 76 mm)"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "rib": {
    "term_local": "bande de visée",
@@ -1472,8 +1341,7 @@ window.GLOSSARY_I18N.fr = {
     "bande ventilée",
     "bande pleine"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "ejector": {
    "term_local": "éjecteurs",
@@ -1483,9 +1351,7 @@ window.GLOSSARY_I18N.fr = {
     "éjecteurs automatiques",
     "extracteurs (si sans éjection)"
    ],
-   "note": "Distinguer éjecteur (rejette la douille) et extracteur (la soulève seulement).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "barrel-length": {
    "term_local": "longueur des canons",
@@ -1494,9 +1360,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "longueur de canon"
    ],
-   "note": "Exprimée en cm (70, 76, 81 cm).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf"
+   "conf": "high"
   },
   "gunsmith": {
    "term_local": "armurier",
@@ -1505,7 +1369,6 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "crossier (pour la crosse)"
    ],
-   "note": "Armurier = aussi le commerçant d'armes.",
    "conf": "medium"
   },
   "gun-fit": {
@@ -1517,9 +1380,7 @@ window.GLOSSARY_I18N.fr = {
     "crosse conformée",
     "adaptation du fusil"
    ],
-   "note": "FFBT : crosse « conformée » ; « raccord » usuel chez les armuriers.",
-   "conf": "high",
-   "src": "https://www.lemontagnard-outdoor.fr/actualites/tir-sportif/limportance-du-raccord-adapter-son-fusil-a-sa-morphologie"
+   "conf": "high"
   },
   "length-of-pull": {
    "term_local": "longueur de crosse",
@@ -1528,8 +1389,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "longueur de tirage"
    ],
-   "conf": "high",
-   "src": "https://www.chassepassion.net/fiche-chasse/armes-et-munitions/les-elements-dun-fusil/la-crosse//"
+   "conf": "high"
   },
   "cast": {
    "term_local": "avantage",
@@ -1539,9 +1399,7 @@ window.GLOSSARY_I18N.fr = {
     "déport",
     "cast"
    ],
-   "note": "Les pentes au busc / au talon = drop (autre réglage).",
-   "conf": "high",
-   "src": "https://www.chassepassion.net/fiche-chasse/armes-et-munitions/les-elements-dun-fusil/la-crosse//"
+   "conf": "high"
   },
   "eye-dominance": {
    "term_local": "œil directeur",
@@ -1569,9 +1427,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "bouche"
    ],
-   "note": "« la bouche dirigée vers le haut ou le bas » (FITASC).",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "standard-target": {
    "term_local": "plateau normal",
@@ -1581,8 +1437,7 @@ window.GLOSSARY_I18N.fr = {
     "plateau standard",
     "standard"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "rocket-target": {
    "term_local": "rocket",
@@ -1595,8 +1450,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "plateau rocket"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
+   "conf": "high"
   },
   "crosser": {
    "term_local": "traversard",
@@ -1607,9 +1461,7 @@ window.GLOSSARY_I18N.fr = {
     "traversier",
     "croisé"
    ],
-   "note": "FITASC écrit « traversiers » ; au stand « traversard ».",
-   "conf": "high",
-   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
+   "conf": "high"
   },
   "quartering-away": {
    "term_local": "fuyant en biais (sortant)",
@@ -1639,8 +1491,7 @@ window.GLOSSARY_I18N.fr = {
     "venant",
     "plateau qui rentre"
    ],
-   "conf": "high",
-   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
+   "conf": "high"
   },
   "going-away": {
    "term_local": "fuyant",
@@ -1649,8 +1500,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "sortant"
    ],
-   "conf": "high",
-   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
+   "conf": "high"
   },
   "driven-target": {
    "term_local": "plateau à la tête (type faisan)",
@@ -1660,7 +1510,6 @@ window.GLOSSARY_I18N.fr = {
     "passant au-dessus de la tête",
     "plateau de tête"
    ],
-   "note": "Calque du tir de chasse « en battue » ; ne pas confondre avec le plateau battue.",
    "conf": "low"
   },
   "teal": {
@@ -1671,9 +1520,7 @@ window.GLOSSARY_I18N.fr = {
     "montant vertical",
     "sarcelle (rare)"
    ],
-   "note": "En français « chandelle » = plateau qui monte à la verticale ; « sarcelle » quasi inusité.",
-   "conf": "medium",
-   "src": "https://ffbt37.fr/decouvrir-le-cd37/"
+   "conf": "medium"
   },
   "springing-target": {
    "term_local": "montant",
@@ -1682,8 +1529,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "plateau montant"
    ],
-   "conf": "medium",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf"
+   "conf": "medium"
   },
   "looper": {
    "term_local": "looper",
@@ -1693,7 +1539,6 @@ window.GLOSSARY_I18N.fr = {
     "parabole",
     "plateau en cloche"
    ],
-   "note": "Ne pas traduire par « chandelle » (= vertical en français).",
    "conf": "medium"
   },
   "biodegradable-target": {
@@ -1755,8 +1600,7 @@ window.GLOSSARY_I18N.fr = {
     "épauler",
     "mise en joue"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "master-eye": {
    "term_local": "œil directeur",
@@ -1805,7 +1649,6 @@ window.GLOSSARY_I18N.fr = {
     "partir du plateau",
     "sortir du plateau"
    ],
-   "note": "Anglicisme ; pas de terme français fixé.",
    "conf": "low"
   },
   "swing-through": {
@@ -1816,7 +1659,6 @@ window.GLOSSARY_I18N.fr = {
     "swing-through",
     "rattrapage"
    ],
-   "note": "« Swing » chez les entraîneurs français.",
    "conf": "medium"
   },
   "follow-through": {
@@ -1856,7 +1698,6 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "blocage"
    ],
-   "note": "Terme FFBT pour le flinch (blocage du doigt / à-coup) ; « flinch » aussi connu.",
    "conf": "high"
   },
   "pre-shot-routine": {
@@ -1904,7 +1745,6 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "coach"
    ],
-   "note": "Owner decision: coach = « entraîneur » everywhere; « moniteur » only for an instructor role (FFBT diplomas: initiateur, moniteur, entraîneur).",
    "conf": "medium"
   },
   "process-goal": {
@@ -1921,7 +1761,6 @@ window.GLOSSARY_I18N.fr = {
     "cessez-le-feu",
     "interrompre le tir"
    ],
-   "note": "Commande non normée ; le règlement parle d'interruption du tir.",
    "conf": "low"
   },
   "gun-rack": {
@@ -1931,8 +1770,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "râtelier à fusils"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "gun-slip": {
    "term_local": "fourreau",
@@ -1941,8 +1779,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "housse"
    ],
-   "conf": "medium",
-   "src": "https://www.chassemarket.com/tir-sportif/accessoires-tir-sportif.html"
+   "conf": "medium"
   },
   "hang-fire": {
    "term_local": "long feu",
@@ -1951,9 +1788,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "départ retardé"
    ],
-   "note": "« raté » = misfire (la cartouche ne part pas) ; « long feu » = départ retardé.",
-   "conf": "medium",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "medium"
   },
   "hard-case": {
    "term_local": "mallette",
@@ -1963,8 +1798,7 @@ window.GLOSSARY_I18N.fr = {
     "valise rigide",
     "mallette de transport"
    ],
-   "conf": "medium",
-   "src": "https://www.chassemarket.com/tir-sportif/accessoires-tir-sportif.html"
+   "conf": "medium"
   },
   "shooting-vest": {
    "term_local": "gilet de tir",
@@ -1978,9 +1812,7 @@ window.GLOSSARY_I18N.fr = {
     "gilet de tir",
     "veste de tir"
    ],
-   "note": "FITASC : ligne tracée sur le gilet ; « veste de tir » aussi dans le texte.",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "shoulder-pad": {
    "term_local": "épaulière",
@@ -2005,8 +1837,7 @@ window.GLOSSARY_I18N.fr = {
     "bouchons anti-bruit",
     "bouchons moulés"
    ],
-   "conf": "high",
-   "src": "https://www.decathlon.fr/tous-les-sports/tir-sportif/casques-bouchons-d-oreilles"
+   "conf": "high"
   },
   "passive-ear-muffs": {
    "term_local": "casque antibruit passif",
@@ -2021,8 +1852,7 @@ window.GLOSSARY_I18N.fr = {
     "casque électronique",
     "casque actif"
    ],
-   "conf": "high",
-   "src": "https://www.armurerie-lavaux.com/armes-categorie-b/protections-vetements-accessoires-tireur/casques-anti-bruit-electroniques/"
+   "conf": "high"
   },
   "cartridge-bag": {
    "term_local": "sac à cartouches",
@@ -2031,8 +1861,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "sac de tir"
    ],
-   "conf": "medium",
-   "src": "https://www.chassemarket.com/tir-sportif/accessoires-tir-sportif.html"
+   "conf": "medium"
   },
   "cartridge-pouch": {
    "term_local": "cartouchière",
@@ -2075,8 +1904,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "engagement"
    ],
-   "conf": "medium",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "medium"
   },
   "entry-fee": {
    "term_local": "engagement",
@@ -2090,9 +1918,7 @@ window.GLOSSARY_I18N.fr = {
     "droit d'engagement",
     "prix d'inscription"
    ],
-   "note": "FITASC : « montant de l'engagement ».",
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "open-ranking": {
    "term_local": "classement scratch (général)",
@@ -2111,8 +1937,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "cérémonie de clôture"
    ],
-   "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf"
+   "conf": "high"
   },
   "shooter-profile": {
    "term_local": "profil du tireur",
@@ -2195,9 +2020,7 @@ window.GLOSSARY_I18N.fr = {
     "canons",
     "canon supérieur / inférieur"
    ],
-   "note": "Au pluriel pour un superposé (« les canons »).",
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
    "short": "Le tube dans lequel circulent les plombs."
   },
   "adjustable-comb": {
@@ -2205,9 +2028,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "busc amovible"
    ],
-   "note": "Termes du règlement FITASC (position d'attente).",
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
    "short": "Busc de crosse que l'on peut monter, descendre ou déplacer latéralement, pour que l'œil regarde exactement dans l'axe de la bande."
   },
   "grip": {
@@ -2217,7 +2038,6 @@ window.GLOSSARY_I18N.fr = {
     "crosse pistolet / demi-pistolet"
    ],
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
    "short": "La partie de la crosse tenue par la main de la détente."
   },
   "trigger": {
@@ -2227,9 +2047,7 @@ window.GLOSSARY_I18N.fr = {
     "mono-détente sélective",
     "doubles détentes"
    ],
-   "note": "« Queue de détente » = la lame que touche le doigt.",
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
    "short": "La pièce que l'on presse pour faire partir le coup."
   },
   "safety-catch": {
@@ -2238,9 +2056,7 @@ window.GLOSSARY_I18N.fr = {
     "cran de sûreté",
     "sécurité"
    ],
-   "note": "« Cran de sûreté » dans le règlement FITASC.",
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
    "short": "Le curseur du fusil qui bloque la détente."
   },
   "recoil-pad": {
@@ -2250,12 +2066,10 @@ window.GLOSSARY_I18N.fr = {
     "sabot"
    ],
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/UV%20N%C2%B06%20TECHNIQUE%20ELEMENTAIRE%20DES%20ARMES%20ET%20DES%20MUNITIONS.pdf",
    "short": "Plaque en caoutchouc ou en gel au bout de la crosse qui amortit le recul ; elle modifie aussi la longueur de crosse."
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "Faux ami : en français « chandelle » désigne un plateau vertical (teal anglais). La « chandelle » anglaise monte en courbe puis retombe.",
    "conf": "medium",
    "short": "Plateau qui monte fortement en courbe puis retombe. À ne pas confondre avec la « chandelle » française, qui désigne une sarcelle verticale."
   },
@@ -2266,7 +2080,6 @@ window.GLOSSARY_I18N.fr = {
     "plongeant"
    ],
    "conf": "medium",
-   "src": "https://www.fitasc.com/upload/images/reglements/2025_rglt_cs_fra.pdf",
    "short": "Plateau tiré pendant sa descente."
   },
   "visible-piece": {
@@ -2274,9 +2087,7 @@ window.GLOSSARY_I18N.fr = {
    "alt": [
     "éclat visible"
    ],
-   "note": "Plateau fumant / épousseté = zéro.",
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
    "short": "Un plateau est compté touché si au moins un morceau visible s'en détache."
   },
   "loading": {
@@ -2285,7 +2096,6 @@ window.GLOSSARY_I18N.fr = {
     "chargement"
    ],
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
    "short": "On ne met les cartouches dans le fusil qu'au poste, et on les retire ensuite."
   },
   "quiet-on-stand": {
@@ -2303,7 +2113,6 @@ window.GLOSSARY_I18N.fr = {
     "étuis"
    ],
    "conf": "high",
-   "src": "https://ffbt.asso.fr/assets/filemanager/rglt_pch_2024_fr_20231108.pdf",
    "short": "Les douilles tirées, que l'on ramasse au lieu de les laisser par terre."
   },
   "move-mount-shoot": {
@@ -2449,12 +2258,12 @@ window.GLOSSARY_I18N.fr = {
   "fur-and-feather": {
    "term_local": "fur and feather (poil et plume)",
    "conf": "low",
-   "short": "Expression du Sporting anglais pour un doublé composé d'un lapin et d'un plateau aérien."
+   "short": "Expression des entraîneurs britanniques pour un doublé composé d'un lapin et d'un plateau aérien."
   },
   "true-pair": {
    "term_local": "true pair (doublé simultané)",
    "conf": "low",
-   "short": "Nom anglais du doublé simultané en Sporting : les deux plateaux partent au même instant."
+   "short": "Nom que les entraîneurs britanniques donnent au doublé simultané : les deux plateaux partent au même instant."
   },
   "shell-catcher": {
    "term_local": "récupérateur de douilles",
@@ -2504,27 +2313,7 @@ window.GLOSSARY_I18N.fr = {
   "gun-up": {
    "term_local": "fusil épaulé au départ",
    "conf": "low",
-   "short": "Partir avec le fusil déjà épaulé avant l'appel ; autorisé en English Sporting, NSCA et Compak®, pas en Sporting™ FITASC."
-  },
-  "english-sporting": {
-   "term_local": "English Sporting",
-   "conf": "low",
-   "short": "La forme britannique du sporting, organisée en Angleterre par la CPSA à côté du Sporting™ FITASC ; elle a ses propres règles : les paires sont fréquentes et les tireurs commencent souvent fusil épaulé."
-  },
-  "cpsa": {
-   "term_local": "CPSA",
-   "conf": "high",
-   "short": "Clay Pigeon Shooting Association, l'instance dirigeante du tir aux plateaux en Angleterre."
-  },
-  "nsca": {
-   "term_local": "NSCA",
-   "conf": "high",
-   "short": "National Sporting Clays Association, qui régit le Sporting Clays aux États-Unis."
-  },
-  "hoa": {
-   "term_local": "HOA (scratch)",
-   "conf": "low",
-   "short": "Le vainqueur général d'une épreuve, toutes catégories et classes confondues."
+   "short": "Partir avec le fusil déjà épaulé avant l'appel ; autorisé en Compak® Sporting, pas en Parcours de Chasse – Sporting™."
   },
   "clock-face": {
    "term_local": "cadran de l'horloge",

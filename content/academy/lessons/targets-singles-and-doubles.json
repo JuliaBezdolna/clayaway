@@ -40,7 +40,6 @@
     "simultaneous-double",
     "true-pair",
     "rafale-double",
-    "english-sporting",
     "one",
     "zero-zero",
     "no-bird",
@@ -174,8 +173,8 @@
       "t": "p",
       "core": true,
       "disc": "both",
-      "en": "Simultaneous pair (“simo”; in {{term:english-sporting|English Sporting}} a “{{term:true-pair|true pair}}”): both targets leave at the same moment and may be shot in any order. They come from one or two traps; in {{tm:compak}} always from two different traps.",
-      "uk": "{{term:simultaneous-double|Одночасний дуплет}}, коротко «simo», а в {{term:english-sporting|English Sporting}} — «{{term:true-pair|true pair}}»: обидві мішені вилітають одночасно, і їх можна стріляти в будь-якому порядку. Вони летять з однієї або двох машинок; у {{tm:compak}} — завжди з двох різних."
+      "en": "Simultaneous pair (“simo”; British coaches also say “{{term:true-pair|true pair}}”): both targets leave at the same moment and may be shot in any order. They come from one or two traps; in {{tm:compak}} always from two different traps.",
+      "uk": "{{term:simultaneous-double|Одночасний дуплет}}, коротко «simo», а британські тренери кажуть «{{term:true-pair|true pair}}»: обидві мішені вилітають одночасно, і їх можна стріляти в будь-якому порядку. Вони летять з однієї або двох машинок; у {{tm:compak}} — завжди з двох різних."
     },
     {
       "k": "flight-pairs-p3",
@@ -269,10 +268,10 @@
       "en": "Simo: take the rabbit first, the teal will wait for you.",
       "meaning": {
         "en": "In the simultaneous pair shoot the rabbit first, because the teal stays in the air longer.",
-        "uk": "В одночасному дуплеті першим стріляйте {{term:rabbit|зайця}}, бо тіл довше лишається в повітрі."
+        "uk": "В одночасному дуплеті першим стріляйте {{term:rabbit|зайця}}, бо {{term:teal|тіл}} довше лишається в повітрі."
       },
       "say": {
-        "uk": "Одночасний: спершу заєць, тіл вас почекає."
+        "uk": "Одночасний: спершу заєць, teal вас почекає."
       }
     },
     {
@@ -294,8 +293,8 @@
       "core": true,
       "en": "True pair from the tower, five of them.",
       "meaning": {
-        "en": "Five simultaneous pairs thrown from the tower (English Sporting wording).",
-        "uk": "П’ять одночасних дуплетів з {{term:tower|вишки}}; так кажуть в English Sporting."
+        "en": "Five simultaneous pairs thrown from the tower (British coaches’ wording).",
+        "uk": "П’ять одночасних дуплетів з {{term:tower|вишки}}; так кажуть британські тренери."
       },
       "say": {
         "uk": "П’ять одночасних дуплетів з вишки."
@@ -472,8 +471,8 @@
       ],
       "correct": "d",
       "explain": {
-        "en": "“True pair” is the English Sporting name for a simultaneous pair; “true” has nothing to do with correctness.",
-        "uk": "«True pair» — назва одночасного дуплета в English Sporting; «true» тут не про правильність."
+        "en": "“True pair” is what British coaches call a simultaneous pair; “true” has nothing to do with correctness.",
+        "uk": "«True pair» — так британські тренери називають одночасний дуплет; «true» тут не про правильність."
       }
     },
     {
@@ -543,7 +542,7 @@
     "summary": "8c511174",
     "flight-pairs-p1": "de3af0f1",
     "flight-pairs-p2": "4807909e",
-    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p4": "2b3ac612",
     "flight-pairs-p3": "5326e900",
     "targets-singles-and-doubles-cartridges": "9881669e",
     "targets-singles-and-doubles-p6": "563c8328",
@@ -553,7 +552,7 @@
     "flight-pairs-ph1": "9a849839",
     "flight-pairs-ph2": "113027fe",
     "flight-pairs-ph3": "07db0d22",
-    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-ph4": "bc04a541",
     "flight-pairs-kp1": "ef123d9b",
     "flight-pairs-kp2": "3dee0536",
     "flight-pairs-kp3": "dd039d2b",
@@ -562,15 +561,12 @@
     "flight-pairs-q1": "ebe2b5dc",
     "flight-pairs-q2": "f669f8a6",
     "targets-singles-and-doubles-q2": "69c2d15d",
-    "flight-pairs-q3": "424310f9",
+    "flight-pairs-q3": "61892e73",
     "targets-singles-and-doubles-q1": "de200647",
     "targets-singles-and-doubles-q-two-with-one": "e024bf17",
     "targets-singles-and-doubles-dyk": "9a88d811"
   },
   "todo": {
-    "tasks": [
-      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/targets-singles-and-doubles.json: translate the missing items targets-singles-and-doubles-cartridges, targets-singles-and-doubles-p6, targets-singles-and-doubles-p5, targets-singles-and-doubles-tip1, targets-singles-and-doubles-dyk, targets-singles-and-doubles-q2, targets-singles-and-doubles-q1, targets-singles-and-doubles-q-two-with-one; translate again (or only re-sign the hash where just the form changed) the items whose English changed: flight-pairs-q2.",
-      "Overlays, animation caption of 2026-10-07: body.flight-pairs-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_pair)."
-    ]
+    "tasks": []
   }
 }

@@ -202,7 +202,11 @@ export async function buildAcademy(o = {}) {
     base: String(o.base || SITE_BASE).replace(/\/?$/, "/"),
     draft: !!o.draft, write: o.write !== false, quiet: !!o.quiet, ownHome: !!o.ownHome, report: o.report || null, termReport: o.termReport || null,
     fitascIndex: typeof o.fitascIndex === "boolean" ? o.fitascIndex : readFitascIndex(ROOT),
-    today: o.today || new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date()) // project time zone (CLAUDE.md)
+    // now = the real date in the project time zone (CLAUDE.md), for the date checks (review-expired, law-old); today = the date stamped
+    // into the output (build_seo.mjs passes its TODAY; CLAY_BUILD_DATE=YYYY-MM-DD pins it for a reproducible rebuild)
+    now: new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date()),
+    today: o.today || (/^\d{4}-\d{2}-\d{2}$/.test(process.env.CLAY_BUILD_DATE || "") ? process.env.CLAY_BUILD_DATE : null)
+      || new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date())
   };
   if (opt.draft && opt.write && opt.out === path.resolve(DOCS))
     throw new Error("--draft builds a preview of unfinished lessons: write it into another folder (--out <dir>), never into docs/");
@@ -368,7 +372,7 @@ export async function buildAcademy(o = {}) {
     if (!new RegExp(`(^|\\D)${SIMREG.CALL.limit}(\\D|$)`).test(lim)) warn("sim-facts", `docs/shared/sims.js CALL.limit is ${SIMREG.CALL.limit} s, but the fact rules.release-within-3s says "${lim}": change one of them`);
     if (sv !== SIMREG.CALL.sonopull) warn("sim-facts", `docs/shared/sims.js CALL.sonopull is ${SIMREG.CALL.sonopull} s, but the fact rules.sonopull-delay says "${sono}": change one of them`);
   }
-  // The rules trainer bank (docs/rules/data/quiz-*.js): options that name a glossary term carry "term" (docs/rules/data/QUIZ_SCHEMA.md);
+  // The rules trainer bank (docs/rules/data/quiz-*.js): options that name a glossary term carry "term" (rules/QUIZ_SCHEMA.md);
   // the trainer and the Practice game "Рішення судді" label them through docs/shared/terms.js, with the names from sims-text.js.
   const qwin = runScripts(["sporting", "compak"].map(b => path.join(DOCS, "rules", "data", `quiz-${b}.js`)));
   const TRAINER_TERMS = uniq((qwin.RULES_QUIZ || []).flatMap(b => b.questions.flatMap(q => (q.options || []).map(o => o.term).filter(Boolean))));
@@ -549,7 +553,7 @@ export async function buildAcademy(o = {}) {
     if (m.disclaimer != null && m.disclaimer !== "medical") E("lesson-field", `disclaimer "${m.disclaimer}" (null | medical)`);
     for (const d of m.disciplines || []) if (!["sporting", "compak"].includes(d)) E("lesson-field", `discipline "${d}"`);
     if ((m.minutes || 0) > 8) W("lesson-too-long", `${m.minutes} minutes (more than 8: split it under a new id)`);
-    if (m.review_by && m.review_by < opt.today) W("review-expired", `review_by ${m.review_by} has passed`);
+    if (m.review_by && m.review_by < opt.now) W("review-expired", `review_by ${m.review_by} has passed`);
     if (!m.title || !nonEmpty(m.title.en)) E("en-missing", "no English title");
     if (!m.summary || !nonEmpty(m.summary.en)) W("summary-missing", "no English summary (meta description falls back to the first paragraph)");
     for (const k of Object.keys(m.title || {}).concat(Object.keys(m.summary || {}))) if (!["en", "uk"].includes(k)) E("lang-code", `title/summary key "${k}" (masters hold en + uk; other languages are overlays)`);
@@ -651,7 +655,8 @@ export async function buildAcademy(o = {}) {
           for (const w of lint.stopWords(stopWordText(s, LABELS_RE[L]), L, { allowNever })) W("stop-word", `${x.part} ${x.k} (${L}): "${w}" — use plain, cautious wording ("many coaches suggest", "you can try")`, { lang: L });
           const who = lint.peopleIn(s); if (who) W("living-people", `${x.part} ${x.k} (${L}): names "${who}" (lessons use fictional people or no names)`, { lang: L });
           if ((L === "en" || L === "uk") && x.part !== "pool") for (const sn of lint.longSentences(s)) W("long-sentence", `${x.part} ${x.k} (${L}): a sentence of ${sn.split(/\s+/).length} words (max 30): "${sn.slice(0, 70)}…"`, { lang: L });
-          if (L === "en" && /\d/.test(s) && x.part === "body") hasDigits = true;
+          // ("Step 1." … "Step 6." of a plan are labels, not numbers that need a source: budget-first-year-plan, handover 09.10.2026)
+          if (L === "en" && /\d/.test(s.replace(/\bStep \d+\b/g, "")) && x.part === "body") hasDigits = true;
           if (L === "en" && FC) { const f = lint.fitascMatch(s, FC); if (f) E("fitasc-verbatim", `${x.part} ${x.k}: ${f.words} words in a row equal to the FITASC text ("${f.text.slice(0, 80)}…"; audit R-01)`); }
         }
         if (L === "en" && strings.some(s => /ClayAway/.test(s)) && m.index !== "preview" && !strings.some(s => /coming|will|planned|being prepared/i.test(s)))
@@ -801,7 +806,7 @@ export async function buildAcademy(o = {}) {
         // the English name in quotes right before the token (fr "« move, mount, shoot » — {{term:move-mount-shoot|…}}")
         const quoted = /[«„“"‘]\s*([^«»„“”"‘’{}]{1,60}?)\s*[»”“"’]\s*[—–:,-]?\s*$/u.exec(str.slice(0, tk.index));
         // (the headword or display name only: an alias in quotes is another name the text explains — en "“Stop!” (cease fire)", the
-        // English Sporting "“Report pair”" next to the FITASC double on report)
+        // British coaches' "“Report pair”" next to the FITASC double on report)
         const headName = p => !!p && [t.display_term, t.term].filter(Boolean).some(n => CT.same(p, n) || CT.same(p, CT.core(n)));
         if (quoted && headName(quoted[1].replace(/[!?.]+$/, "")))
           warn("term-gloss-dup", `${m.id} ${where} (${L}): the English "${quoted[1]}" is written in quotes right before ${tk[0]}: the page now shows "${t.display_term || t.term} (…)" itself — delete the quoted English`,
@@ -830,7 +835,9 @@ export async function buildAcademy(o = {}) {
       const claimed = new Map(), found = new Map(), skipped = new Set(); // text index → [[start, end]] taken by a longer word; id → {where, hit}
       const chips = new Set((m.terms || []).map(x => termId(x) || x)), forms = tokForms(L), skipW = UNTOK_SKIP_W[L] || new Set();
       // quiz options are left out: they carry plain local words on purpose (term-quiz-giveaway; the explanation names the term)
-      const plainTexts = texts.map(x => ({ ...x, p: x.opt ? "" : x.s.replace(TOKEN_RE, t0 => "\u2063".repeat(t0.length)) })); // tokens: invisible, same length
+      // titles are left out too: they carry no tokens (they feed <title>, og and {{lesson:id}} links; a term-named lesson writes its title
+      // as "English (local): …" by hand, SCHEMA.md §9), so a hit there could not be fixed (73 such warnings until 09.10.2026)
+      const plainTexts = texts.map(x => ({ ...x, p: x.opt || x.where === "title" ? "" : x.s.replace(TOKEN_RE, t0 => "\u2063".repeat(t0.length)) })); // tokens: invisible, same length
       for (const c of untokCandidates(L)) // every match of a longer word is taken, also of a term the lesson links (no shorter hit inside it)
         for (const [i, { where, p }] of plainTexts.entries()) for (const mm of p.matchAll(c.re)) {
           const h = fw(mm[0]), sure = c.phrase || h === c.exact || (forms.get(c.id) || new Set()).has(h);
@@ -870,7 +877,7 @@ export async function buildAcademy(o = {}) {
       if (lint.RU_LETTERS_RE.test(t) || lint.RU_WORD_RE.test(t)) err("lang-words", `laws/${cc}.json: text of the restricted language`);
       if (lint.isSpanish(t)) err("lang-spanish", `laws/${cc}.json: Spanish text outside the "law"/"article" citations: "${t.slice(0, 60)}"`);
     }
-    if (D.as_of && /^\d{4}-\d{2}/.test(D.as_of) && D.as_of.slice(0, 7) < String(Number(opt.today.slice(0, 4)) - 1) + opt.today.slice(4, 7)) warn("law-old", `laws/${cc}.json as_of ${D.as_of} is more than a year old: check the official texts`);
+    if (D.as_of && /^\d{4}-\d{2}/.test(D.as_of) && D.as_of.slice(0, 7) < String(Number(opt.now.slice(0, 4)) - 1) + opt.now.slice(4, 7)) warn("law-old", `laws/${cc}.json as_of ${D.as_of} is more than a year old: check the official texts`);
   }
   for (const [L, j] of [...Object.entries(shared), ...Object.entries(factsI18n)]) {
     const t = JSON.stringify(j);
@@ -897,8 +904,9 @@ export async function buildAcademy(o = {}) {
     for (const [L, x] of Object.entries(factsI18n)) od(`content/academy/i18n/${L}/_facts.json`, x);
     for (const [L, x] of Object.entries(shared)) od(`content/academy/i18n/${L}/_shared.json`, x);
     for (const f of ["blocks.json", "routes.json", "practice.json", "levels.json", "badges.json"]) od(`content/academy/${f}`, J(f));
-    // ONE exception (owner 08.10.2026, clarified): the glossary term skeet-choke (/glossary/skeet-choke/) stays — "Skeet"/SK is the
-    // NAME of a choke used in Sporting™ too. Only the choke-name words are allowed there; the rest of its text is still checked.
+    // ONE exception (owner decision 09.10.2026; CLAUDE.md, DEVELOPERS.md §4k, SCHEMA.md §9): the glossary term skeet-choke
+    // (/glossary/skeet-choke/) stays — "Skeet"/SK is the NAME makers give a choke used in Sporting™ too. Only the choke-name words are
+    // allowed, and only in that glossary entry (all 11 languages); the rest of its text and every lesson are still checked.
     const CHOKE_NAME = /ske+t[\p{L}-]*|скіт\p{L}*/giu, noChokeName = t => JSON.parse(JSON.stringify(t).replace(CHOKE_NAME, ""));
     for (const t of Object.values(GBY)) od(`glossary term ${t.id}`, t.id === "skeet-choke" ? noChokeName(t) : t);
     for (const [L, g] of Object.entries(GI)) for (const [id, t] of Object.entries((g || {}).terms || {})) od(`docs/glossary/data/i18n/${L}.js ${id}`, id === "skeet-choke" ? noChokeName(t) : t);
@@ -1024,7 +1032,13 @@ export async function buildAcademy(o = {}) {
     // the dictionary form changes after this preposition: always after PREP_OBL; after the others (accusative) only for nouns in -а/-я
     // (uk, pl, cs: the accusative of other nouns often equals the nominative). Indeclinable uk loans in -і/-ї/-ю (міді, батю) never.
     const ws = flatW(raw || shown).split(" "), w0 = L === "lt" ? ws[ws.length - 1] : ws[0];
-    const changes = (isObl || /[аяa]$/u.test(w0)) && !(INDECL[L] && INDECL[L].test(w0)) && !(L === "lt" && /^(?:su|po)$/.test(prep) && /a$/u.test(w0));
+    // pl "od … po <X>" (a range: "od zawodów klubowych po mistrzostwa świata") takes the accusative, which equals the nominative of
+    // plurals such as «mistrzostwa»; cs feminine nouns in -e (soft declension: «baskule») have the same form in the genitive, so
+    // after the genitive prepositions (z, ze, do, od, u, bez, …) the dictionary form is right (handover 09.10.2026)
+    const sentence = String(before).split(/[.!?…]\s/).pop();
+    const plRange = L === "pl" && prep === "po" && /(?:^|[^\p{L}])od(?![\p{L}])/iu.test(sentence);
+    const csGenE = L === "cs" && /e$/u.test(w0) && /^(?:z|ze|do|od|u|bez|během|podle|kromě|místo|vedle|kolem|okolo|mimo)$/.test(prep);
+    const changes = (isObl || /[аяa]$/u.test(w0)) && !(INDECL[L] && INDECL[L].test(w0)) && !(L === "lt" && /^(?:su|po)$/.test(prep) && /a$/u.test(w0)) && !plRange && !csGenE;
     let why = null;
     if (!changes) return;
     if (!form) why = `no form: the brackets show the dictionary form «${shown}»`;

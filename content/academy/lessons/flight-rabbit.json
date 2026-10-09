@@ -37,8 +37,7 @@
     "break-point",
     "no-bird",
     "shooting-limit",
-    "fur-and-feather",
-    "english-sporting"
+    "fur-and-feather"
   ],
   "rule_refs": [
     {
@@ -103,7 +102,7 @@
   ],
   "title": {
     "en": "The rabbit: rolling, hopping and bolting",
-    "uk": "Заєць: котиться, підстрибує, вискакує"
+    "uk": "Rabbit (заєць): котиться, підстрибує, вискакує"
   },
   "summary": {
     "en": "The rabbit target: how it rolls, hops and bolts, why it often needs less lead than you expect, and the No Bird rule when it breaks by itself.",
@@ -156,8 +155,8 @@
       "t": "p",
       "core": true,
       "disc": "both",
-      "en": "“{{term:fur-and-feather|Fur and feather}}” is {{term:english-sporting|English Sporting}} slang for a pair of a rabbit (“fur”) and an aerial target (“feather”).",
-      "uk": "«{{term:fur-and-feather|Fur and feather}}» («хутро і пір’я») — сленг {{term:english-sporting|English Sporting}} для {{term:double|дуплета}} із зайця («fur») і повітряної мішені («feather»)."
+      "en": "“{{term:fur-and-feather|Fur and feather}}” is British coaches’ slang for a pair of a rabbit (“fur”) and an aerial target (“feather”).",
+      "uk": "«{{term:fur-and-feather|Fur and feather}}» («хутро і пір’я») — сленг британських тренерів для {{term:double|дуплета}} із зайця («fur») і повітряної мішені («feather»)."
     },
     {
       "k": "flight-rabbit-sim",
@@ -365,8 +364,8 @@
       ],
       "correct": "a",
       "explain": {
-        "en": "In English Sporting slang “fur” is the rabbit and “feather” the flying target.",
-        "uk": "У сленгу English Sporting «fur» — заєць, а «feather» — мішень, що летить."
+        "en": "In British coaches’ slang “fur” is the rabbit and “feather” the flying target.",
+        "uk": "У сленгу британських тренерів «fur» — заєць, а «feather» — мішень, що летить."
       }
     }
   ],
@@ -410,7 +409,7 @@
     "flight-rabbit-p3": "883ead58",
     "flight-rabbit-p4": "a5a8ef9d",
     "targets-special-presentations-p6": "12b9c470",
-    "flight-rabbit-p5": "5261bd5d",
+    "flight-rabbit-p5": "b037a262",
     "flight-rabbit-n1": "91be2b83",
     "flight-rabbit-ph1": "a69977e9",
     "flight-rabbit-ph2": "cddd4857",
@@ -423,13 +422,10 @@
     "flight-rabbit-kp5": "42c81da7",
     "flight-rabbit-q1": "6b4bdc6e",
     "flight-rabbit-q2": "cf03e3c9",
-    "flight-rabbit-q3": "99aedfe4",
+    "flight-rabbit-q3": "916bbf00",
     "targets-special-presentations-q2": "6ccebbf0"
   },
   "todo": {
-    "tasks": [
-      "Overlays, state of 2026-10-07 (the earlier overlay notes of this lesson are done in de fr it cs pl hu fi lt): i18n/pt/flight-rabbit.json: translate the missing items targets-special-presentations-p6, flight-rabbit-n1, targets-special-presentations-q2; translate again (or only re-sign the hash where just the form changed) the items whose English changed: flight-rabbit-q2.",
-      "Overlays, animation caption of 2026-10-07: body.flight-rabbit-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_flight)."
-    ]
+    "tasks": []
   }
 }

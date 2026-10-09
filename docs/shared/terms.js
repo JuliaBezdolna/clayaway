@@ -304,7 +304,7 @@
     if (enForm && o.quoted) { const lq = o.first ? STR(o.local) : "";
       return { en: form0, local: lq, text: form0, html: `<span lang="en">${esc(form0)}</span>`, after: lq ? ` (${lq})` : "", afterHtml: lq ? ` (${esc(lq)})` : "" }; }
     const form = enForm ? "" : form0;                          // an English form: as if the token had no form (glossary local word)
-    // the English name with a case ending (fi "FITASCille", "No Birdiksi", hu "English Sportingnak"): English already, as written
+    // the English name with a case ending (fi "FITASCille", "No Birdiksi", pl "FITASC-u"): English already, as written
     // (fi and hu add the ending to the word itself; other languages only after ":" "'" or "-", e.g. pl "FITASC-u": de "Doublette"
     // and "Proteste" are German words, not "Double" + ending)
     if (form && !CYR.test(form) && names.some(n => { const c = core(n).replace(/[™®]/g, "").trim();

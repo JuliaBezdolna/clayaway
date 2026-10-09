@@ -1,6 +1,7 @@
 """Canonical links + schema.org JSON-LD for the hand-made pages of the ClayArena projects site (ClayAway tours, rules, academies).
 
-Run from the project root (after make_og.py): python scripts/seo_meta.py
+Run from the project root (after make_og.py): python scripts/seo_meta.py [--docs <dir>]
+--docs <dir>: the site root to write (default docs), as in make_og.py, e.g. a full copy of docs/ for a test build.
 The rules pages get their markup from scripts/build_seo.mjs; this script covers the projects home (uk + en), the ClayAway
 start page /tours/, the specs and the tour examples.
 Tour EXAMPLES (docs/dornsberg, docs/sologne) show real ClayArena people with made-up dates, prices and messages
@@ -8,10 +9,11 @@ Tour EXAMPLES (docs/dornsberg, docs/sologne) show real ClayArena people with mad
 search engines, LLM crawlers and link previews cannot read them as a real sale. Real published tours get Event + Offer
 from tour data in production (tour spec, section «SEO, розмітка і превʼю»).
 """
-import json, re
+import json, re, sys
 from pathlib import Path
 
-DOCS = Path(__file__).resolve().parent.parent / "docs"
+# --docs <dir>: the site root to write (default docs), as in make_og.py (handover check 09.10.2026)
+DOCS = Path(sys.argv[sys.argv.index("--docs") + 1]).resolve() if "--docs" in sys.argv else Path(__file__).resolve().parent.parent / "docs"
 B = "https://fenix-112323.github.io/clayaway/"
 SITE = {"@type": "WebSite", "name": "ClayArena", "url": B}  # one site of ClayArena projects; ClayAway = the tours service inside it
 CLAYARENA = {"@type": "Organization", "name": "ClayArena", "url": "https://clayarena.com/"}
@@ -66,11 +68,16 @@ PAGES = {
 
 for path, blocks in PAGES.items():
     p = DOCS / path
+    if not p.exists():
+        print("skip (not in this site folder)", path)
+        continue
     s = p.read_text(encoding="utf-8")
+    if "\n<!-- share-preview -->" not in s:  # the JSON-LD goes right before the share tags: without them it would silently be dropped
+        sys.exit(f"ERROR: {path} has no share-preview block: run python scripts/make_og.py first (same --docs)")
     s = re.sub(r"\n<!-- seo -->.*?<!-- /seo -->", "", s, flags=re.S)
     url = B + path[: -len("index.html")]
     block = "\n<!-- seo -->\n" + f'<link rel="canonical" href="{url}">\n' + "\n".join(
         f'<script type="application/ld+json">{json.dumps(b, ensure_ascii=False)}</script>' for b in blocks) + "\n<!-- /seo -->"
     s = s.replace("\n<!-- share-preview -->", block + "\n<!-- share-preview -->", 1)
-    p.write_text(s, encoding="utf-8")
+    p.write_text(s, encoding="utf-8", newline="\n")  # LF on every OS (.gitattributes)
     print("ok", path)

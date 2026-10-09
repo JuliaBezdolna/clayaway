@@ -45,7 +45,7 @@
   "sources": [],
   "title": {
     "en": "Pull-away: on it, with it, pull away, shoot",
-    "uk": "Вихід з мішені: на неї, з нею, відрив, постріл"
+    "uk": "Pull-away (вихід з мішені): на неї, з нею, відрив, постріл"
   },
   "summary": {
     "en": "How pull-away works in four beats, which targets it often suits, and the two typical faults: riding the target and stopping the push.",
@@ -56,8 +56,8 @@
       "k": "lead-pull-away-p1",
       "t": "p",
       "core": true,
-      "en": "In {{term:pull-away|pull-away}} the muzzles first join the target, then pull ahead of it. It is widely taught in British coaching. Some sources call it the CPSA method (after the clay shooting association of England), while others use that name for swing-through, so ask your coach which is meant. Step by step, it looks like this:",
-      "uk": "У {{term:pull-away|виході з мішені}} стволи спершу «приєднуються» до мішені, а потім виходять уперед; сам ривок уперед називають «відрив». Метод широко викладають у британській школі. Одні джерела називають його методом CPSA (за назвою асоціації стендової стрільби Англії), інші так називають swing-through, тож уточнюйте в тренера, що мають на увазі. Крок за кроком це виглядає так:"
+      "en": "In {{term:pull-away|pull-away}} the muzzles first join the target, then pull ahead of it. It is widely taught by British coaches. Coaches do not all give the lead methods the same names. A name taken from a coaching school can mean pull-away for one coach and swing-through for another, so ask your coach which is meant. Step by step, it looks like this:",
+      "uk": "У {{term:pull-away|виході з мішені}} стволи спершу «приєднуються» до мішені, а потім виходять уперед; сам ривок уперед називають «відрив». Метод широко викладають британські тренери. Назви методів виносу в тренерів не однакові: назва за школою в одного тренера означає вихід з мішені, а в іншого — swing-through, тож уточнюйте в тренера, що мають на увазі. Крок за кроком це виглядає так:"
     },
     {
       "k": "lead-pull-away-p2",
@@ -314,7 +314,7 @@
   "h_uk": {
     "title": "b749d58c",
     "summary": "c61d97fc",
-    "lead-pull-away-p1": "26937ff1",
+    "lead-pull-away-p1": "6dd08510",
     "lead-pull-away-p2": "ec4835f6",
     "lead-pull-away-p3": "a962617b",
     "lead-pull-away-p4": "c2b3e18d",
@@ -337,8 +337,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Overlays, animation caption of 2026-10-07: body.lead-pull-away-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
-    ]
+    "tasks": []
   }
 }

@@ -144,7 +144,7 @@ p{margin:0 0 10px;max-width:70ch}
 <script src="../../shared/sims.min.js"></script>
 <script>
 /* ClayArena · FITASC rules trainer.
-   Questions: docs/rules/data/quiz-<key>.js (format QUIZ_SCHEMA.md); every question cites rule item ids (refs)
+   Questions: docs/rules/data/quiz-<key>.js (format rules/QUIZ_SCHEMA.md in the repository, outside docs/); every question cites rule item ids (refs)
    from docs/rules/data/<key>.js, so each explanation links to the item in the rules guide and to the FITASC PDF page.
    Modes: quick (10 random), short (10 random, results only at the end, pass mark 80%: the short rules test of the
    Academy route "Перші змагання"), exam (30 random, results only at the end, pass mark 80%), mistakes (questions answered
@@ -294,7 +294,7 @@ document.addEventListener("claynav:update",()=>{ document.querySelectorAll("a[da
 const today=()=>{ const d=new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; };
 /* tx(obj, field): question text / explanation / rule title in the current language (overlay for languages beyond uk/en) */
 const tx=(o,k)=>{ if(o[k+"_"+L()]) return o[k+"_"+L()]; const v=o.id&&OV.questions[o.id]; if(v){ if(k==="q"&&v.q) return v.q; if(k==="explain"&&v.explain) return v.explain; } return o[k+"_en"]||""; };
-/* optText: an option that names a glossary term ("term": id, docs/rules/data/QUIZ_SCHEMA.md) is shown as the term label in every
+/* optText: an option that names a glossary term ("term": id, rules/QUIZ_SCHEMA.md) is shown as the term label in every
    language (owner rule 08.10.2026): the English option text + the glossary's local word in brackets ("Warning (Verwarnung)"), English only on English
    pages (the option text as written: "ZERO", "The trapper"). ONE helper: docs/shared/terms.js (ClayTerms.of: on other pages the English
    article goes and the headword's spelling is used: "The trapper" → "Trapper (оператор машинки)", "ZERO" → "Zero (промах)", "Zero

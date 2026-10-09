@@ -92,7 +92,7 @@ ${cats.map(c => `<h2>${esc(c)}</h2><div class="list">${GLOSS.terms.filter(t => t
     const uk = BASE + "rules/categories/", en = BASE + "rules/en/categories/";
     const from = C.valid_from.split("-").reverse().join(".");
     // the FITASC French name only when it is another word (frOwn of build_seo.mjs): "Lady (Dame)", but "Junior" and "Veteran"
-    const rows = C.categories.map(c => `<tr><td><b>${esc(c.name_en)}</b>${frOwn(c) ? ` <span class="ref">(${esc(c.name_fr)})</span>` : ""}</td><td>${c.to_age ? `${c.from_age}–${c.to_age}` : `${c.from_age}+`}</td><td>${esc(c.rule_en)}</td></tr>`).join("");
+    const rows = C.categories.map(c => `<tr id="${esc(c.id)}"><td><b>${esc(c.name_en)}</b>${frOwn(c) ? ` <span class="ref">(${esc(c.name_fr)})</span>` : ""}</td><td>${c.to_age ? `${c.from_age}–${c.to_age}` : `${c.from_age}+`}</td><td>${esc(c.rule_en)}</td></tr>`).join("");
     const teams = (C.teams || []).map(t => `<tr><td><b>${esc(t.team)}</b></td><td>${esc(t.eligible_en)}</td><td>${esc(String(t.size || ""))}</td><td>${esc(t.note_en || "")}</td></tr>`).join("");
     const faq = C.categories.map(c => ({ "@type": "Question", name: `Who is a ${c.name_en} in clay shooting (FITASC)?`, acceptedAnswer: { "@type": "Answer", text: c.rule_en } }));
     const title = "FITASC categories: Junior, Lady, Men, Senior, Veteran, Master — ages | ClayArena";

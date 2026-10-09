@@ -25,7 +25,14 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -40,7 +47,8 @@
     "interpreter-false-friends-p2": "Rezultatų žodžiai nėra tiesmukai pažodiniai. „Dead“ ir „kill“ reiškia pataikymą, be jokios nuorodos į mirtį. „Lost“ reiškia nepataikymą, o ne kažką pamestą. „Dropped two“ reiškia, kad du taikiniai nepataikyti. „Straight“ junginyje „25 straight“ reiškia tobulą seriją be jokio nepataikymo.",
     "interpreter-false-friends-p3": "Įrangos ir vietos žodžiai. „{{term:trap|Trap}}“ yra metimo mašinėlė, o ne spąstai. „Stand“ yra viena {{term:shooting-stand|šaudymo vieta}}, o ne visa šaudykla; {{tm:compak}} tokias vietas dažnai vadina numeriais. „{{term:peg|Peg}}“ yra šaudymo vieta. Pavadinimas kilo iš sunumeruoto kuolelio, kuris žymi kiekvieno šaulio vietą varyminėje medžioklėje, tad nevadinkite jo kuolu. „Broken gun“ yra atidarytas šautuvas. „Pull!“ yra {{term:call|prašymas}}, „{{term:pull-away|pull-away}}“ yra pralenkimo metodas, o „{{term:length-of-pull|length of pull}}“ yra {{term:stock|buožės}} ilgis nuo gaiduko iki buožės galo.",
     "interpreter-false-friends-cards": "„Card“ yra arba {{term:score-sheet|rezultatų kortelė}}, arba geltona ar raudona kortelė. „On report“ reiškia pagal šūvio garsą, kaip {{term:double-on-report|dublete pagal šūvio garsą}}. „{{term:squad|Squad}}“ yra varžybų grupė, kurioje {{fact:rules.squad-max-shooters}}. ClayAway turuose, kurie ruošiami, tas pats žodis vadins ir turo pogrupį.",
-    "interpreter-false-friends-p4": "Kitos kalbos turi savų pinklių. Prancūziškas „chandelle“ yra taikinys, kuris šauna beveik tiesiai į viršų; angliškai tai {{term:teal|teal}}. Tai ne angliškas {{term:chandelle|chandelle}} — taikinys, kuris staigiai kyla lanku ir tada krenta. Prancūziškas „en battue“ ir itališkas „in battuta“ reiškia varyminę medžioklę (angl. „driven“), o ne {{term:battue|battue}} taikinį. Portugališkai „batida“ yra battue taikinys, o „de batida“ reiškia varyminį. Už pataikymą prancūzų teisėjas sako „Bon“, italų — „Buono“, o {{term:trapper|traperį}} dažnai vadina „pulleur“ ar „puller“. Žodžiai grupei taip pat skiriasi, tad naudokite tą, kuris nurodytas renginio reglamente."
+    "interpreter-false-friends-p4": "Kitos kalbos turi savų pinklių. Prancūziškas „chandelle“ yra taikinys, kuris šauna beveik tiesiai į viršų; angliškai tai {{term:teal|teal}}. Tai ne angliškas {{term:chandelle|chandelle}} — taikinys, kuris staigiai kyla lanku ir tada krenta. Prancūziškas „en battue“ ir itališkas „in battuta“ reiškia varyminę medžioklę (angl. „driven“), o ne {{term:battue|battue}} taikinį. Portugališkai „batida“ yra battue taikinys, o „de batida“ reiškia varyminį. Už pataikymą prancūzų teisėjas sako „Bon“, italų — „Buono“, o {{term:trapper|traperį}} dažnai vadina „pulleur“ ar „puller“. Žodžiai grupei taip pat skiriasi, tad naudokite tą, kuris nurodytas renginio reglamente.",
+    "interpreter-false-friends-pairs": "{{term:double|Dubletai|pl}} turi skirtingus pavadinimus. „{{term:true-pair|True pair}}“ (britiškai ir amerikietiškai) yra FITASC {{term:simultaneous-double|vienalaikis dubletas}}: abu taikiniai išlekia tuo pačiu metu. „Report pair“ yra {{term:double-on-report|dubletas pagal šūvio garsą}}: antrą taikinį paleidžia jūsų pirmojo šūvio garsas. „Following pair“ yra FITASC {{term:rafale-double|rafale}}: du taikiniai iš tos pačios {{term:trap|mašinėlės}}, vienas po kito. „Show pair“ yra dubleto {{term:target-presentation|parodymas}} prieš šaudymą. „{{term:peg|Peg}}“ yra {{term:shooting-stand|šaudymo vieta}}, „station“ — amerikietiškas šaudymo vietos žodis, o „{{term:cage|cage}}“ — rėmas aplink ją."
   },
   "note": {},
   "phrases": {
@@ -67,6 +75,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "Antrąjį taikinį paleidžia jūsų pirmojo šūvio garsas.",
       "say": "Antrasis — pagal šūvio garsą."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Treniruotės pratimas: pradėkite su šautuvu, jau atremtu į petį. {{tm:sporting}} varžybose to daryti negalima.",
+      "say": "Kol kas šitą — su prisidėtu šautuvu."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Abu taikiniai išlekia vienu metu (FITASC: vienalaikis dubletas).",
+      "say": "Tai vienalaikis dubletas."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Du taikiniai iš tos pačios mašinėlės vienas po kito (FITASC: rafale).",
+      "say": "Rafale iš kairiosios mašinėlės."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Paleiskite dubletą vieną kartą, kad visi jį pamatytų prieš šaudymą.",
+      "say": "Parodykite mums dubletą."
     }
   },
   "key_points": {
@@ -75,7 +99,8 @@
     "interpreter-false-friends-kp3": "Trap = mašinėlė; stand = viena šaudymo vieta; peg = vieta; broken gun = atidarytas šautuvas",
     "interpreter-false-friends-kp4": "Pull, card, report ir squad turi kelias reikšmes",
     "interpreter-false-friends-kp5": "Prancūziški chandelle ir „en battue“ skiriasi nuo angliškų žodžių",
-    "interpreter-false-friends-kp6": "„Dusted it“ gali reikšti bet kurį variantą: perklauskite"
+    "interpreter-false-friends-kp6": "„Dusted it“ gali reikšti bet kurį variantą: perklauskite",
+    "interpreter-false-friends-kp7": "True pair = vienalaikis; report pair = pagal šūvio garsą; following pair = rafale"
   },
   "quiz": {
     "interpreter-false-friends-q1": {
@@ -107,6 +132,16 @@
         "d": "Taikinį, kuris subyra į dulkes"
       },
       "explain": "Prancūziškas „en battue“ (itališkas „in battuta“) reiškia varyminę medžioklę; battue taikinys yra kas kita."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Britų treneris sako „It's a true pair.“ Koks FITASC terminas?",
+      "options": {
+        "a": "Dubletas pagal šūvio garsą",
+        "b": "Rafale dubletas",
+        "c": "Vienalaikis dubletas",
+        "d": "Taisyklingas dubletas"
+      },
+      "explain": "„True pair“ yra britiškas ir amerikietiškas pavadinimas dviem kartu paleidžiamiems taikiniams — FITASC vienalaikiam dubletui."
     }
   }
 }

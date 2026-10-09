@@ -1,4 +1,4 @@
-/* ClayArena glossary — uk: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); Ukrainian definitions live in the main entries (short_uk). */
+/* ClayArena glossary — uk: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/uk.json, not published); Ukrainian definitions live in the main entries (short_uk). */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.uk = {
  "lang": "uk",
@@ -9,9 +9,7 @@ window.GLOSSARY_I18N.uk = {
     "гладкоствольна рушниця",
     "гладкоствольна зброя"
    ],
-   "note": "Official rules: «гладкоствольні рушниці». Colloquially shooters also say «ствол».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "over-and-under": {
    "term_local": "вертикалка",
@@ -19,16 +17,13 @@ window.GLOSSARY_I18N.uk = {
     "рушниця з вертикальним розташуванням стволів",
     "вертикальна рушниця"
    ],
-   "note": "«Вертикалка» is the range word; catalogues use the long form.",
-   "conf": "medium",
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/"
+   "conf": "medium"
   },
   "side-by-side": {
    "term_local": "горизонталка",
    "alt": [
     "рушниця з горизонтальним розташуванням стволів"
    ],
-   "note": "Rare on sporting ranges; mostly a hunting gun.",
    "conf": "medium"
   },
   "semi-automatic": {
@@ -37,18 +32,14 @@ window.GLOSSARY_I18N.uk = {
     "напівавтоматична рушниця",
     "автомат (розм.)"
    ],
-   "note": "Rules: «напівавтоматична зброя/рушниці».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "pump-action": {
    "term_local": "помпова рушниця",
    "alt": [
     "помпа"
    ],
-   "note": "The Ukrainian competition rules exclude «помпові» guns; colloquially «помпа».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "gauge": {
    "term_local": "калібр",
@@ -56,18 +47,14 @@ window.GLOSSARY_I18N.uk = {
     "12-й калібр",
     "12/76"
    ],
-   "note": "Said as «12-й калібр»; chamber length added as 12/70, 12/76.",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "barrel": {
    "term_local": "ствол",
    "alt": [
     "стволи (мн.)"
    ],
-   "note": "On an O/U people say «стволи» (plural).",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "barrel-length": {
    "term_local": "довжина стволів",
@@ -75,7 +62,6 @@ window.GLOSSARY_I18N.uk = {
     "76 см",
     "30 дюймів"
    ],
-   "note": "Shops give cm (71/76/81 см); coaches often say inches.",
    "conf": "medium"
   },
   "rib": {
@@ -84,38 +70,29 @@ window.GLOSSARY_I18N.uk = {
     "вентильована планка",
     "планка"
    ],
-   "note": "Catalogues: «прицільна планка – вентильована».",
-   "conf": "medium",
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/"
+   "conf": "medium"
   },
   "muzzle": {
    "term_local": "дульний зріз",
    "alt": [
     "дуло"
    ],
-   "note": "«Дульний зріз» technical; «дуло» everyday.",
-   "conf": "medium",
-   "src": "https://uk.wikipedia.org/wiki/%D0%A7%D0%BE%D0%BA"
+   "conf": "medium"
   },
   "chamber": {
    "term_local": "патронник",
-   "note": "Rules: «в патроннику ... немає патронів».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "receiver": {
    "term_local": "колодка",
    "alt": [
     "ствольна коробка (у напівавтомата)"
    ],
-   "note": "«Колодка» for break-action guns; «ствольна коробка» for semi-autos.",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "stock": {
    "term_local": "приклад",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "comb": {
    "term_local": "гребінь приклада",
@@ -123,23 +100,18 @@ window.GLOSSARY_I18N.uk = {
     "щока приклада",
     "гребінь"
    ],
-   "note": "Coaches often say «щока» for the cheek area / adjustable comb.",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "adjustable-comb": {
    "term_local": "регульований гребінь",
    "alt": [
     "регульована щока"
    ],
-   "note": "Both forms heard; «регульована щока» common in shop specs.",
    "conf": "medium"
   },
   "fore-end": {
    "term_local": "цівка",
-   "note": "Universal; same word in catalogues and on the range.",
-   "conf": "high",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "high"
   },
   "grip": {
    "term_local": "пістолетне руків’я",
@@ -147,18 +119,14 @@ window.GLOSSARY_I18N.uk = {
     "напівпістолетне руків’я",
     "шийка приклада"
    ],
-   "note": "Catalogues: «приклад з напівпістолетним руків’ям».",
-   "conf": "medium",
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/"
+   "conf": "medium"
   },
   "trigger": {
    "term_local": "спусковий гачок",
    "alt": [
     "спуск"
    ],
-   "note": "Rules: «натискання на спусковий гачок»; «спуск» colloquial.",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "release-trigger": {
    "term_local": "релізний спуск",
@@ -166,14 +134,11 @@ window.GLOSSARY_I18N.uk = {
     "реліз",
     "спуск на відпускання"
    ],
-   "note": "Anglicism dominates; rare in Ukraine.",
    "conf": "low"
   },
   "safety-catch": {
    "term_local": "запобіжник",
-   "note": "Rules: «не зняв запобіжник».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "barrel-selector": {
    "term_local": "перемикач стволів",
@@ -187,9 +152,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "ежектори (мн.)"
    ],
-   "note": "Do not confuse with «екстрактор» (only pushes the case out).",
-   "conf": "medium",
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/"
+   "conf": "medium"
   },
   "recoil-pad": {
    "term_local": "затильник",
@@ -197,9 +160,7 @@ window.GLOSSARY_I18N.uk = {
     "потиличник",
     "амортизуючий затильник"
    ],
-   "note": "Both «затильник» and «потиличник» appear in shop specs.",
-   "conf": "medium",
-   "src": "https://ibis.net.ua/zbroia/details/rushnitsia-caesar-guerini-invictus-i-sporting-kal-12-70-1/"
+   "conf": "medium"
   },
   "choke": {
    "term_local": "чок",
@@ -207,9 +168,7 @@ window.GLOSSARY_I18N.uk = {
     "дульне звуження",
     "звуження"
    ],
-   "note": "«Чок» is universal; «дульне звуження» is the technical term.",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "fixed-choke": {
    "term_local": "фіксований чок",
@@ -217,7 +176,6 @@ window.GLOSSARY_I18N.uk = {
     "незмінне звуження",
     "постійний чок"
    ],
-   "note": "Usage varies; meaning: choke machined into the barrel.",
    "conf": "low"
   },
   "multichoke": {
@@ -226,17 +184,14 @@ window.GLOSSARY_I18N.uk = {
     "мультичок",
     "змінні звуження"
    ],
-   "note": "Rules: «змінних чоків». «Мультичок» is shop/hunter slang.",
-   "conf": "high",
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "conf": "high"
   },
   "choke-key": {
    "term_local": "ключ для чоків",
    "alt": [
     "чоковий ключ"
    ],
-   "conf": "medium",
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "conf": "medium"
   },
   "extended-choke": {
    "term_local": "виносний чок",
@@ -244,7 +199,6 @@ window.GLOSSARY_I18N.uk = {
     "подовжений чок",
     "виносники (розм.)"
    ],
-   "note": "Usage uncertain; shops also write «зовнішній чок».",
    "conf": "low"
   },
   "cylinder": {
@@ -252,8 +206,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "CYL"
    ],
-   "conf": "high",
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "conf": "high"
   },
   "skeet-choke": {
    "term_local": "скіт",
@@ -261,8 +214,7 @@ window.GLOSSARY_I18N.uk = {
     "скітовий чок",
     "SK"
    ],
-   "conf": "medium",
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "conf": "medium"
   },
   "improved-cylinder": {
    "term_local": "1/4",
@@ -272,9 +224,7 @@ window.GLOSSARY_I18N.uk = {
     "модифікований циліндр",
     "IC"
    ],
-   "note": "Range talk uses fractions («чверть»); written sources split between «покращений» and «модифікований» циліндр.",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "modified": {
    "term_local": "півчок",
@@ -282,9 +232,7 @@ window.GLOSSARY_I18N.uk = {
     "напівчок",
     "1/2"
    ],
-   "note": "Both forms in Ukrainian sources.",
-   "conf": "high",
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "conf": "high"
   },
   "improved-modified": {
    "term_local": "3/4",
@@ -293,9 +241,7 @@ window.GLOSSARY_I18N.uk = {
     "модифікований чок",
     "IM"
    ],
-   "note": "Fractions dominate in speech; written forms vary.",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "full-choke": {
    "term_local": "повний чок",
@@ -304,8 +250,7 @@ window.GLOSSARY_I18N.uk = {
     "1/1",
     "F"
    ],
-   "conf": "high",
-   "src": "https://hunter.rv.ua/news/choki-ta-zminni-zvuzhennya-chokes-v-rushnitsyah-klyuchovi-aspekti-dlya-uspishnogo-polyuvannya/"
+   "conf": "high"
   },
   "pattern": {
    "term_local": "осип",
@@ -313,45 +258,36 @@ window.GLOSSARY_I18N.uk = {
     "купчастість (щільність осипу)",
     "розліт дробу"
    ],
-   "note": "«Осип» = the spread pattern; «купчастість» = its density.",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "cartridge": {
    "term_local": "набій",
    "alt": [
     "патрон"
    ],
-   "note": "Both are standard Ukrainian; the Ukrainian competition rules use «патрон», shops and clubs often «набої».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "hull": {
    "term_local": "гільза",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "primer": {
    "term_local": "капсуль",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "powder": {
    "term_local": "порох",
    "alt": [
     "пороховий заряд"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "wad": {
    "term_local": "пиж",
    "alt": [
     "контейнер (пластиковий пиж)"
    ],
-   "note": "Plastic one-piece wad is usually called «контейнер».",
-   "conf": "high",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "high"
   },
   "fibre-wad": {
    "term_local": "фібровий пиж",
@@ -359,7 +295,6 @@ window.GLOSSARY_I18N.uk = {
     "біорозкладний пиж",
     "набої з фіброю"
    ],
-   "note": "Mostly a shop term; usage not well documented.",
    "conf": "low"
   },
   "shot-size": {
@@ -368,9 +303,7 @@ window.GLOSSARY_I18N.uk = {
     "розмір дробу",
     "діаметр дробинок"
    ],
-   "note": "Said as «сьомий/дев’ятий дріб» or «7,5».",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "load-weight": {
    "term_local": "наважка",
@@ -380,17 +313,14 @@ window.GLOSSARY_I18N.uk = {
     "24-ка",
     "28-ка"
    ],
-   "note": "«Наважка», as in the official translation of the rules; loads are also named by grams: «24-ка», «28-ка». The older spelling with «-віс-» is not used.",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "lead-shot": {
    "term_local": "свинцевий дріб",
    "alt": [
     "свинець"
    ],
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "steel-shot": {
    "term_local": "сталевий дріб",
@@ -401,9 +331,7 @@ window.GLOSSARY_I18N.uk = {
   },
   "recoil": {
    "term_local": "віддача",
-   "note": "Colloquially «б’є в плече».",
-   "conf": "medium",
-   "src": "https://fazan.dp.ua/statti/povna-dovidka-po-zastosuvanniu-hladkostvolnoi-zbroi-ta-poiasnennia-pryntsypiv-chastyna-4-ua"
+   "conf": "medium"
   },
   "gun-fit": {
    "term_local": "підгонка рушниці",
@@ -421,7 +349,6 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "відхилення приклада вбік"
    ],
-   "note": "No settled Ukrainian term; interpreters often keep «cast» and explain.",
    "conf": "low"
   },
   "gunsmith": {
@@ -436,18 +363,14 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "навушники"
    ],
-   "note": "Rules: «навушники, вушні затички або інші засоби захисту вух».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "earplugs": {
    "term_local": "беруші",
    "alt": [
     "вушні затички"
    ],
-   "note": "«Беруші» everyday; rules: «вушні затички».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "electronic-ear-muffs": {
    "term_local": "активні навушники",
@@ -461,16 +384,14 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "окуляри"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "shooting-vest": {
    "term_local": "стрілецький жилет",
    "alt": [
     "жилет"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "cartridge-bag": {
    "term_local": "сумка для набоїв",
@@ -481,7 +402,6 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "підсумок"
    ],
-   "note": "Not «патронташ» (that is a belt).",
    "conf": "medium"
   },
   "gun-slip": {
@@ -497,9 +417,7 @@ window.GLOSSARY_I18N.uk = {
     "футляр для зброї",
     "кейс"
    ],
-   "note": "Rules: «закритий футляр для зброї»; on ranges «кейс».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "gun-rack": {
    "term_local": "стійка для рушниць",
@@ -507,9 +425,7 @@ window.GLOSSARY_I18N.uk = {
     "підставка для рушниць",
     "пірамідка"
    ],
-   "note": "Rules: «поміщені в підставку».",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "target": {
    "term_local": "мішень",
@@ -517,9 +433,7 @@ window.GLOSSARY_I18N.uk = {
     "тарілка",
     "тарілочка"
    ],
-   "note": "Rules: «мішень»; on ranges «тарілка/тарілочка».",
-   "conf": "high",
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "conf": "high"
   },
   "standard-target": {
    "term_local": "стандарт",
@@ -527,12 +441,10 @@ window.GLOSSARY_I18N.uk = {
     "стандартна мішень",
     "стандартна тарілка"
    ],
-   "conf": "medium",
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "conf": "medium"
   },
   "midi": {
    "term_local": "міді",
-   "note": "Loanword, no native term.",
    "conf": "medium"
   },
   "mini": {
@@ -540,7 +452,6 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "супер-міні"
    ],
-   "note": "Loanword; go by the millimetres.",
    "conf": "medium"
   },
   "battue": {
@@ -549,9 +460,7 @@ window.GLOSSARY_I18N.uk = {
     "бату",
     "баттю"
    ],
-   "note": "Spelling unsettled: clubs write «Бату», project glossary «батю».",
-   "conf": "medium",
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "conf": "medium"
   },
   "rabbit": {
    "term_local": "заєць",
@@ -559,16 +468,13 @@ window.GLOSSARY_I18N.uk = {
     "кролик",
     "rabbit"
    ],
-   "note": "Owner decision (07.10.2026): «заєць», as the target is called in Ukraine; «кролик» is kept only as a search alias.",
-   "conf": "medium",
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "conf": "medium"
   },
   "rocket-target": {
    "term_local": "рокет",
    "alt": [
     "ракета"
    ],
-   "note": "Rarely used in Ukraine; unsettled.",
    "conf": "low"
   },
   "flash-target": {
@@ -576,8 +482,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "флеш"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "biodegradable-target": {
    "term_local": "біорозкладна мішень",
@@ -593,26 +498,21 @@ window.GLOSSARY_I18N.uk = {
     "метальна машинка",
     "пускова машинка"
    ],
-   "note": "Rules use both «метальна» and «пускова машинка»; on the range just «машинка».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "tower": {
    "term_local": "вишка",
    "alt": [
     "тауер"
    ],
-   "note": "«Вишка» is the usual word; «тауер» is a loan from English.",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "trapper": {
    "term_local": "оператор машинки",
    "alt": [
     "оператор"
    ],
-   "conf": "medium",
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "conf": "medium"
   },
   "sonopull": {
    "term_local": "сонопул",
@@ -620,14 +520,11 @@ window.GLOSSARY_I18N.uk = {
     "голосовий пуск",
     "електронний мікрофон"
    ],
-   "note": "Rules: «система електронного мікрофона»; brand name used colloquially.",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "trajectory": {
    "term_local": "траєкторія",
-   "conf": "high",
-   "src": "https://www.sporting-lviv.com.ua/"
+   "conf": "high"
   },
   "crosser": {
    "term_local": "поперечна мішень",
@@ -641,8 +538,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "на стрільця"
    ],
-   "conf": "medium",
-   "src": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8C%D0%B1%D0%B0"
+   "conf": "medium"
   },
   "going-away": {
    "term_local": "мішень від стрільця",
@@ -656,7 +552,6 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "коса на відхід"
    ],
-   "note": "Not documented in written sources.",
    "conf": "low"
   },
   "quartering-towards": {
@@ -664,7 +559,6 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "коса зустрічна"
    ],
-   "note": "Not documented in written sources.",
    "conf": "low"
   },
   "driven-target": {
@@ -681,7 +575,6 @@ window.GLOSSARY_I18N.uk = {
     "свічка",
     "вертикальна"
    ],
-   "note": "Some shooters call the vertical riser «свічка»; overlaps with springing.",
    "conf": "low"
   },
   "springing-target": {
@@ -697,12 +590,10 @@ window.GLOSSARY_I18N.uk = {
     "дуга",
     "looper"
    ],
-   "note": "The Academy writes «лупер, або дуга»; not a chandelle: names vary between countries.",
    "conf": "low"
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "Англійська назва на майданчику; зазвичай кажуть англійською. Не плутати з французьким «chandelle» (= teal).",
    "conf": "medium"
   },
   "dropping-target": {
@@ -715,16 +606,14 @@ window.GLOSSARY_I18N.uk = {
     "одиночна",
     "сингл"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "double": {
    "term_local": "дуплет",
    "alt": [
     "пара"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "double-on-report": {
    "term_local": "сигнальний дуплет",
@@ -732,9 +621,7 @@ window.GLOSSARY_I18N.uk = {
     "дуплет на постріл",
     "репорт"
    ],
-   "note": "The Ukrainian Sporting Federation translation of the FITASC Compak® Sporting rules (§3.3.1) names it «сигнальний дуплет»; «дуплет на постріл» is also heard.",
-   "conf": "high",
-   "src": "https://usf-shooting.com.ua/wp-content/uploads/2020/06/%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9A-%D0%A1%D0%9F%D0%9E%D0%A0%D0%A2%D0%98%D0%9D%D0%93.pdf"
+   "conf": "high"
   },
   "simultaneous-double": {
    "term_local": "одночасний дуплет",
@@ -742,16 +629,13 @@ window.GLOSSARY_I18N.uk = {
     "синхронний дуплет",
     "сім"
    ],
-   "note": "Rules: duplet = targets «випущені з вікон одночасно».",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "rafale-double": {
    "term_local": "рафаль",
    "alt": [
     "дуплет рафаль"
    ],
-   "note": "Loanword only.",
    "conf": "low"
   },
   "target-presentation": {
@@ -767,16 +651,13 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "упередження"
    ],
-   "note": "«Винос» on ranges; «упередження» in written sources.",
-   "conf": "high",
-   "src": "https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8C%D0%B1%D0%B0"
+   "conf": "high"
   },
   "maintained-lead": {
    "term_local": "постійний винос",
    "alt": [
     "maintained lead"
    ],
-   "note": "Усталеного українського терміна немає; стрільці часто кажуть англійською.",
    "conf": "low"
   },
   "swing-through": {
@@ -785,7 +666,6 @@ window.GLOSSARY_I18N.uk = {
     "swing-through",
     "через мішень"
    ],
-   "note": "Усталеного українського терміна немає; стрільці часто кажуть англійською.",
    "conf": "low"
   },
   "pull-away": {
@@ -794,7 +674,6 @@ window.GLOSSARY_I18N.uk = {
     "pull-away",
     "відрив"
    ],
-   "note": "Усталеного українського терміна немає; стрільці часто кажуть англійською.",
    "conf": "low"
   },
   "hold-point": {
@@ -829,9 +708,7 @@ window.GLOSSARY_I18N.uk = {
     "вкладати рушницю",
     "підйом рушниці до плеча"
    ],
-   "note": "Rules: «підняти рушницю до плеча»; verb «вкладати / вкласти рушницю». One term everywhere: «вкладка».",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "follow-through": {
    "term_local": "продовження руху",
@@ -839,7 +716,6 @@ window.GLOSSARY_I18N.uk = {
     "супровід після пострілу",
     "follow-through"
    ],
-   "note": "In the Academy «проводка» is the swing itself, so it is not used for the follow-through.",
    "conf": "medium"
   },
   "stance": {
@@ -848,9 +724,7 @@ window.GLOSSARY_I18N.uk = {
     "постановка ніг",
     "положення ніг"
    ],
-   "note": "Rules speak of «положення ніг на номері».",
-   "conf": "medium",
-   "src": "https://www.sporting-lviv.com.ua/"
+   "conf": "medium"
   },
   "eye-dominance": {
    "term_local": "домінантність ока",
@@ -897,9 +771,7 @@ window.GLOSSARY_I18N.uk = {
     "холості вкладки",
     "холосте тренування"
    ],
-   "note": "Rules: «холосте тренування».",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "pre-shot-routine": {
    "term_local": "передпостріловий ритуал",
@@ -914,83 +786,69 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "інструктор"
    ],
-   "conf": "high",
-   "src": "https://safari-stend.com/uk/stendovaya-strelba/"
+   "conf": "high"
   },
   "call": {
    "term_local": "виклик мішені",
    "alt": [
     "команда"
    ],
-   "note": "Rules: targets «викликані спортсменом», «попросити мішень». The spoken call word varies by shooter.",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "one": {
    "term_local": "влучання",
    "alt": [
     "уражена мішень"
    ],
-   "note": "Owner decision: uk «влучання»; the referee's call stays as it is said on the stand («one», «dead»). Rules: «уражена мішень».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "zero": {
    "term_local": "промах",
    "alt": [
     "неуражена мішень"
    ],
-   "note": "Owner decision: uk «промах»; the referee's call stays as it is said on the stand («zero», «lost»). Rules: команда «ПРОМАХ».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "visible-piece": {
    "term_local": "видимий уламок",
    "alt": [
     "видима частина"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "no-bird": {
    "term_local": "No Bird",
    "alt": [
     "немає мішені"
    ],
-   "note": "Owner decision: the referee's call stays English «No Bird» in every language, with a short local explanation (uk: «мішень повторюють»). The official Ukrainian command «НЕМАЄ МІШЕНІ» is kept as alt.",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "malfunction": {
    "term_local": "несправність",
    "alt": [
     "несправність рушниці або патрона"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "double-discharge": {
    "term_local": "одночасний постріл з обох стволів",
    "alt": [
     "подвійний постріл"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "refusal": {
    "term_local": "відмова від мішені",
    "alt": [
     "відхилена мішень"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "hang-fire": {
    "term_local": "затяжний постріл",
    "alt": [
     "осічка (misfire)"
    ],
-   "note": "«Осічка» = no shot at all (misfire), not hang fire.",
    "conf": "medium"
   },
   "shooting-stand": {
@@ -998,17 +856,14 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "номер"
    ],
-   "note": "Academy usage: «стрілецьке місце»; for the stations of Compak® Sporting always «номер» (owner decision), never «місце».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "layout": {
    "term_local": "майданчик",
    "alt": [
     "лейаут"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "range": {
    "term_local": "стрільбище",
@@ -1016,9 +871,7 @@ window.GLOSSARY_I18N.uk = {
     "стенд",
     "стрілецький комплекс"
    ],
-   "note": "«Стенд» colloquially = the whole ground.",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "line": {
    "term_local": "лінія",
@@ -1029,61 +882,50 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "серія"
    ],
-   "note": "Rules: «раунд (серія)».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "rotation": {
    "term_local": "порядок стрільби",
    "alt": [
     "черговість"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "squad": {
    "term_local": "група",
    "alt": [
     "група стрільців"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf",
-   "note": "Owner decision: uk «група»; the English word «squad» is not used in Ukrainian texts."
+   "conf": "high"
   },
   "referee": {
    "term_local": "суддя",
    "alt": [
     "рефері"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "chief-referee": {
    "term_local": "головний суддя",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "jury": {
    "term_local": "журі",
    "alt": [
     "суддівська колегія"
    ],
-   "note": "National rules use «ГСК» (головна суддівська колегія) for the organizing panel.",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "score-sheet": {
    "term_local": "протокол",
    "alt": [
     "картка"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "protest": {
    "term_local": "протест",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "appeal": {
    "term_local": "апеляція",
@@ -1094,8 +936,7 @@ window.GLOSSARY_I18N.uk = {
   },
   "shoot-off": {
    "term_local": "перестрілка",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "countback": {
    "term_local": "каунтбек",
@@ -1109,64 +950,54 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "час на підготовку"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "mock-shooting": {
    "term_local": "імітація стрільби",
    "alt": [
     "холосте прицілювання"
    ],
-   "note": "Official Ukrainian rules also say «холосте прицілювання».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "shooting-limit": {
    "term_local": "межа зони стрільби",
    "alt": [
     "межа стрільби"
    ],
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "gun-test": {
    "term_local": "пробний постріл",
    "alt": [
     "пробні постріли"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "practice": {
    "term_local": "офіційне тренування",
    "alt": [
     "тренування"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "yellow-card": {
    "term_local": "жовта картка",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "red-card": {
    "term_local": "червона картка",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "penalty": {
    "term_local": "покарання",
    "alt": [
     "штраф"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "category": {
    "term_local": "категорія",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "veteran": {
    "term_local": "ветерани",
@@ -1180,16 +1011,14 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "збірна"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "entry": {
    "term_local": "реєстрація",
    "alt": [
     "заявка"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "entry-fee": {
    "term_local": "стартовий внесок",
@@ -1203,8 +1032,7 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "наспинний номер"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "prize-giving": {
    "term_local": "нагородження",
@@ -1215,30 +1043,25 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "техніка безпеки"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "gun-handling": {
    "term_local": "поводження зі зброєю",
    "alt": [
     "рушниця відкрита"
    ],
-   "note": "Rules: «рушниця — відкритою», «перенесення рушниць».",
-   "conf": "medium",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "medium"
   },
   "loading": {
    "term_local": "заряджання / розряджання",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "cease-fire": {
    "term_local": "СТОП",
    "alt": [
     "припинити стрільбу"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "quiet-on-stand": {
    "term_local": "тиша на номері",
@@ -1249,25 +1072,21 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "поведінка"
    ],
-   "note": "Rules: «неспортивна поведінка».",
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "dress-code": {
    "term_local": "дрес-код",
    "alt": [
     "форма одягу"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "empties": {
    "term_local": "порожні гільзи",
    "alt": [
     "гільзи"
    ],
-   "conf": "high",
-   "src": "https://mms.gov.ua/storage/app/sites/16/Sport/Pravyla_zmagan/2024/Strilba%20stendova.pdf"
+   "conf": "high"
   },
   "anti-doping": {
    "term_local": "антидопінг",
@@ -1307,7 +1126,6 @@ window.GLOSSARY_I18N.uk = {
    "alt": [
     "quiet eye"
    ],
-   "note": "Research term; the Academy writes «тихе око» (quiet eye).",
    "conf": "medium"
   },
   "self-talk": {
@@ -1574,7 +1392,6 @@ window.GLOSSARY_I18N.uk = {
     "EFP",
     "європейський паспорт на зброю"
    ],
-   "note": "Approved Academy term (owner decision).",
    "conf": "high"
   },
   "jet-lag": {
@@ -1602,8 +1419,7 @@ window.GLOSSARY_I18N.uk = {
   "refusal-to-comply": {
    "term_local": "відмова виконувати вимоги судді",
    "alt": [],
-   "conf": "medium",
-   "note": "Owner decision: «відмова виконувати вимоги судді» (not «відмова підкорятися»)."
+   "conf": "medium"
   },
   "attempt-to-influence": {
    "term_local": "спроба вплинути на суддю",
@@ -1802,7 +1618,6 @@ window.GLOSSARY_I18N.uk = {
     "дріб пройшов позаду",
     "позаду"
    ],
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
    "conf": "medium"
   },
   "miss-in-front": {
@@ -1812,7 +1627,6 @@ window.GLOSSARY_I18N.uk = {
     "дріб пройшов попереду",
     "попереду"
    ],
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
    "conf": "medium"
   },
   "miss-over": {
@@ -1821,7 +1635,6 @@ window.GLOSSARY_I18N.uk = {
     "над мішенню",
     "зверху"
    ],
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
    "conf": "medium"
   },
   "miss-under": {
@@ -1830,8 +1643,87 @@ window.GLOSSARY_I18N.uk = {
     "під мішенню",
     "знизу"
    ],
-   "note": "Where the shot went, as coaches say it; the words of the Academy lessons (faults, follow-through).",
    "conf": "medium"
+  },
+  "tempo": {
+   "term_local": "темп",
+   "conf": "low"
+  },
+  "waiting-position": {
+   "term_local": "місце очікування",
+   "conf": "low"
+  },
+  "cage": {
+   "term_local": "захисна рама",
+   "conf": "low"
+  },
+  "chip": {
+   "term_local": "відколок",
+   "conf": "low"
+  },
+  "checking": {
+   "term_local": "пригальмовування",
+   "conf": "low"
+  },
+  "riding-the-target": {
+   "term_local": "надто довге супроводження мішені",
+   "conf": "low"
+  },
+  "canting": {
+   "term_local": "завал рушниці",
+   "conf": "low"
+  },
+  "late-mount": {
+   "term_local": "запізніла вкладка",
+   "conf": "low"
+  },
+  "transition": {
+   "term_local": "перехід",
+   "conf": "low"
+  },
+  "hand-signal": {
+   "term_local": "жест",
+   "conf": "low"
+  },
+  "shell-catcher": {
+   "term_local": "уловлювач гільз",
+   "conf": "low"
+  },
+  "top-lever": {
+   "term_local": "важіль замка",
+   "conf": "low"
+  },
+  "bead": {
+   "term_local": "мушка",
+   "conf": "low"
+  },
+  "consecutive-interpreting": {
+   "term_local": "послідовний переклад",
+   "conf": "low"
+  },
+  "false-friend": {
+   "term_local": "хибний друг",
+   "conf": "low"
+  },
+  "clock-face": {
+   "term_local": "циферблат",
+   "conf": "low"
+  },
+  "target-line": {
+   "term_local": "лінія польоту мішені",
+   "conf": "low"
+  },
+  "bolting-rabbit": {
+   "term_local": "заєць, що вискакує",
+   "conf": "low"
+  },
+  "manual-release": {
+   "term_local": "ручний запуск",
+   "conf": "low"
+  },
+  "move-mount-shoot": {
+   "term_local": "рух, вкладка, постріл",
+   "conf": "low"
   }
  }
 };

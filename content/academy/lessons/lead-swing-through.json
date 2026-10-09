@@ -44,7 +44,7 @@
   "sources": [],
   "title": {
     "en": "Swing-through: from behind, through the bird",
-    "uk": "Протяжка: з-позаду, крізь мішень"
+    "uk": "Swing-through (протяжка): з-позаду, крізь мішень"
   },
   "summary": {
     "en": "How swing-through works step by step, why you see little or no gap, and which targets it often suits.",
@@ -99,8 +99,8 @@
       "k": "lead-swing-through-p5",
       "t": "p",
       "core": true,
-      "en": "Sources disagree on the name “CPSA method” (CPSA, the Clay Pigeon Shooting Association, is the clay shooting body of England). Some use it for swing-through, while CPSA coaching today is described as teaching pull-away. If a coach says “CPSA method”, ask which one they mean.",
-      "uk": "Джерела розходяться щодо назви «CPSA method» (CPSA, Clay Pigeon Shooting Association, — асоціація стендової стрільби Англії). Одні так називають swing-through, а сучасне навчання CPSA описують як pull-away. Якщо тренер каже «CPSA method», уточніть, який саме метод мають на увазі."
+      "en": "Coaches do not all use the same names for the lead methods. A name taken from a coaching school or an association can mean swing-through for one coach and pull-away for another. If a coach names a method that way, ask which one they mean.",
+      "uk": "Назви методів виносу в тренерів не однакові. Назва за школою чи асоціацією в одного тренера означає swing-through, а в іншого — pull-away. Якщо тренер називає метод так, уточніть, який саме він має на увазі."
     },
     {
       "k": "lead-swing-through-sim",
@@ -209,8 +209,8 @@
     {
       "k": "lead-swing-through-kp5",
       "core": true,
-      "en": "“CPSA method” can mean two different methods: ask which one is meant.",
-      "uk": "«CPSA method» може означати два різні методи: уточнюйте, який саме."
+      "en": "A method named after a school can mean different methods: ask which one is meant.",
+      "uk": "Метод, названий за школою, може означати різні методи: уточнюйте, який саме."
     }
   ],
   "did_you_know": null,
@@ -328,14 +328,14 @@
     "lead-swing-through-delay": "646e110b",
     "lead-swing-through-p3": "5591e8be",
     "lead-swing-through-p4": "56ddd9af",
-    "lead-swing-through-p5": "7af5a14c",
+    "lead-swing-through-p5": "eeb3a018",
     "lead-swing-through-sim": "f3817a86",
     "lead-swing-through-n1": "5b292c5e",
     "lead-swing-through-kp1": "dd1d9624",
     "lead-swing-through-kp2": "c9f0e48f",
     "lead-swing-through-kp3": "21f6b8c9",
     "lead-swing-through-kp4": "0c9a1c39",
-    "lead-swing-through-kp5": "17c6a436",
+    "lead-swing-through-kp5": "ddcd1c94",
     "lead-swing-through-ph1": "bafebb3a",
     "lead-swing-through-ph2": "2d3aa2ff",
     "lead-swing-through-ph3": "da25ee4d",
@@ -348,8 +348,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Overlays, animation caption of 2026-10-07: body.lead-swing-through-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
-    ]
+    "tasks": []
   }
 }

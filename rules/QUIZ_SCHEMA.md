@@ -1,5 +1,9 @@
 # ClayArena rules trainer: question format
 
+> This file lives in `rules/` (outside `docs/`, so GitHub Pages does not publish it) since 09.10.2026; the banks it describes are
+> `docs/rules/data/quiz-<key>.js`. Checks: `bun scripts/check_rules_data.mjs` (unique ids, refs, options, answer index, 10-word
+> FITASC check, no other discipline; DEVELOPERS.md §2 and §4).
+
 One file per discipline: `docs/rules/data/quiz-<key>.js` (UTF-8 JavaScript):
 
 ```js
@@ -39,7 +43,7 @@ thrown") or combinations ("ONE-ZERO", "Zero and No Bird", "ZERO (red card)"). DE
 
 ## Animation (`sim`, optional)
 
-Drawn by the shared module `docs/shared/sims.js` (the same one the Interpreter Academy and the glossary use).
+Drawn by the shared module `docs/shared/sims.js` (the same one the Academy, its Practice game «Рішення судді» and the glossary use).
 
 - `{type: "pair", kind}`: a double. `kind` is `report` (double on report), `simultaneous` or `rafale`
   (rafale exists only in Sporting™, never in a Compak® Sporting question).
@@ -59,7 +63,7 @@ reorder them the same way in all nine overlays. Missing fields fall back to Engl
 ## Answer order
 
 - The trainer (`docs/rules/trainer/index.html`) shuffles the options of every question for each run (true/false stays
-  True, False), so a learner cannot guess the answer by its place. The Interpreter Academy game uses the same bank,
+  True, False), so a learner cannot guess the answer by its place. The Academy Practice game «Рішення судді» (`referees-call` in `content/academy/practice.json`) uses the same bank,
   so the data order should not give the answer away either: spread the correct answer over all positions.
 - `number` options stay in ascending order (24 g, 28 g, 32 g…).
 - `truefalse`: `options` is always `[True, False]`; keep roughly as many true statements as false ones.
@@ -73,7 +77,7 @@ reorder them the same way in all nine overlays. Missing fields fall back to Engl
   not add a frame the rule does not have (for example "on this Compak" when the rule does not say over what period a
   count runs).
 - Our own words only: never copy or closely follow the rulebook wording (no run of 10+ identical words; same check as
-  the rules guide).
+  the rules guide: `bun scripts/check_rules_data.mjs`).
 - Every question stands alone: the trainer shows questions in random order, so never write "the same shooter",
   "later in the round" or "same layout" as a link to another question; say inside the question what happened before.
 - One question per item: a decision question asks one thing ("What is the referee's decision?" or "How can the target
@@ -84,8 +88,8 @@ reorder them the same way in all nine overlays. Missing fields fall back to Engl
   (not two wordings of the same "Zero").
 - Score words follow each rulebook: Sporting™ writes One / Zero / No Bird; Compak® Sporting writes ONE / ZERO / NO BIRD /
   ZERO-ZERO (as in the FITASC Compak rules and in `compak.js`). Use one spelling inside a bank.
-- Terms stay in English (No Bird, report pair, simultaneous pair, referee, jury, squad…); explanations in natural
-  literary Ukrainian and English. Ukrainian terms as in the glossary: дуплет, вкладка / вкладати рушницю, перестрілка,
+- Terms stay in English (No Bird, double on report — glossary headword "Double on report", simultaneous pair, referee, jury, squad…); explanations in natural
+  literary Ukrainian and English. Ukrainian terms as in the glossary: дуплет, сигнальний дуплет (double on report, owner decision 09.10.2026), вкладка / вкладати рушницю, перестрілка,
   squad (the squad of up to 6), дріб; apostrophe ’.
 - Trademarks: "Parcours de Chasse – Sporting™", "Sporting™" and "Compak® Sporting" in page titles, headings and meta.
 - Languages: only ClayArena languages (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt). The restricted country is never

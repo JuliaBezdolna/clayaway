@@ -486,7 +486,7 @@
     {
       "k": "compak-gun-and-call-kp3",
       "en": "Over the time limit, the first time brings a warning and a repeat brings a red card.",
-      "uk": "Перше перевищення ліміту часу — попередження, повторне — червона картка."
+      "uk": "Перше перевищення {{term:firing-time|ліміту часу}} — попередження, повторне — червона картка."
     },
     {
       "k": "sporting-time-and-lateness-kp4",
@@ -864,8 +864,7 @@
   "todo": {
     "tasks": [
       "Referee: neither rulebook says how a late-released target is scored when the shooter fires at it before the No Bird is called. sporting-time-and-lateness-q1 no longer includes firing, and compak-gun-and-call-q2 now asks about the sonopull delay; add a firing case only after the referee confirms the decision.",
-      "Specialist check (certified FITASC referee) of every rule block, then review.status = done.",
-      "Overlays, animation caption of 2026-10-07: body.sporting-time-and-lateness-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl pt hu fi lt. Until then those pages show the generic caption of its kind (ui anim_w_call)."
+      "Specialist check (certified FITASC referee) of every rule block, then review.status = done."
     ]
   }
 }

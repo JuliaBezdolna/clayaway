@@ -9,6 +9,10 @@ Usage:
   python scripts/fitasc_check.py              # report only; exit code 10 if anything changed
   python scripts/fitasc_check.py --download   # also download changed PDFs to rules/pdf/ and extract text
   python scripts/fitasc_check.py --accept     # after rebuilding the guide: write the new state to rules/sources.json
+  python scripts/fitasc_check.py --fetch      # fresh clone: download the PDFs of rules/sources.json missing in rules/pdf/ + their text
+
+rules/pdf/ is not in git (FITASC copyright). The Academy build reads its text (rules/pdf/*.txt, made by pdftotext from Poppler)
+for the "10 words in a row" check (fitasc-verbatim); without it that check is skipped with the warning fitasc-cache-missing.
 """
 import datetime, hashlib, html as htmllib, json, re, subprocess, sys, urllib.request
 from pathlib import Path
@@ -79,8 +83,30 @@ def download(key, info):
     return path
 
 
+def fetch_missing(old):
+    """--fetch (a fresh clone): rules/pdf/ is not in git (FITASC copyright). Download every document of rules/sources.json that is
+    missing here, compare its SHA-256 with the stored one and extract its text (pdftotext, Poppler) for the build's
+    10-words-in-a-row check (scripts/academy/lint.mjs). Never published. Exit code 1 if a file is not the one in sources.json."""
+    differ = 0
+    for key, info in old.items():
+        if key == "categories_page" or "url" not in info:
+            continue
+        pdf = PDF_DIR / info["file"]
+        if pdf.exists() and pdf.with_suffix(".txt").exists():
+            continue
+        got = download(key, dict(info))
+        sha = hashlib.sha256(got.read_bytes()).hexdigest()
+        if info.get("sha256") and sha != info["sha256"]:
+            differ += 1
+            print(f"  WARNING {key}: {info['url']} is not the file of rules/sources.json (sha256 {sha[:12]} != {info['sha256'][:12]}): run the update check")
+        print("  fetched", got)
+    return 1 if differ else 0
+
+
 def main():
     old = json.loads(SOURCES.read_text(encoding="utf-8")) if SOURCES.exists() else {}
+    if "--fetch" in sys.argv:
+        return fetch_missing(old)
     new = current()
     changed = []
     cat = categories_page()

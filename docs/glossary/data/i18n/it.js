@@ -1,4 +1,4 @@
-/* ClayArena glossary — it: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
+/* ClayArena glossary — it: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/it.json, not published); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.it = {
  "lang": "it",
@@ -53,8 +53,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "campo (Compak)"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "line": {
    "term_local": "linea di tiro",
@@ -66,8 +65,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "linea"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "range": {
    "term_local": "campo di tiro",
@@ -77,8 +75,7 @@ window.GLOSSARY_I18N.it = {
     "impianto",
     "poligono"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "shooting-stand": {
    "term_local": "pedana",
@@ -92,9 +89,7 @@ window.GLOSSARY_I18N.it = {
     "postazione",
     "piazzola"
    ],
-   "note": "«Piazzola» nello Sporting FIDASC.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "trap": {
    "term_local": "macchina lanciapiattelli",
@@ -108,8 +103,7 @@ window.GLOSSARY_I18N.it = {
     "macchina",
     "lanciapiattelli"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "tower": {
    "term_local": "torre",
@@ -121,9 +115,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "altana"
    ],
-   "note": "FITAV usa anche «altane».",
-   "conf": "medium",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "medium"
   },
   "trapper": {
    "term_local": "puller",
@@ -132,9 +124,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "addetto al lancio"
    ],
-   "note": "Il regolamento FITASC in italiano usa «puller».",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "sonopull": {
    "term_local": "phonopull",
@@ -147,9 +137,7 @@ window.GLOSSARY_I18N.it = {
     "sgancio a voce",
     "comando vocale"
    ],
-   "note": "FITAV scrive «Phonopull».",
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "fly-over-zone": {
    "term_local": "rettangolo di passaggio (ABCD)",
@@ -185,9 +173,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "bersaglio"
    ],
-   "note": "«Bersaglio» nel linguaggio regolamentare FITAV.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "battue": {
    "term_local": "battuta",
@@ -200,16 +186,13 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "battue"
    ],
-   "note": "Nei regolamenti italiani «battuta».",
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "midi": {
    "term_local": "midi",
    "short": "Piattello più piccolo dello standard, del diametro di 90 mm.",
    "long": "Il midi è un piattello speciale ammesso in entrambe le discipline. Nello Sporting il menu davanti alla pedana deve indicarlo come piattello da 90 mm, così il tiratore sa che cosa arriva. Una misura sbagliata in uscita dalla macchina è No Bird.",
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "mini": {
    "term_local": "mini",
@@ -219,8 +202,7 @@ window.GLOSSARY_I18N.it = {
     "super mini",
     "micro"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "rabbit": {
    "term_local": "lepre",
@@ -230,9 +212,7 @@ window.GLOSSARY_I18N.it = {
     "rabbit",
     "piattello rotolante"
    ],
-   "note": "FITAV dice «lepre», FITASC/FIDASC «rabbit»: entrambi in uso.",
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "flash-target": {
    "term_local": "piattello flash",
@@ -241,8 +221,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "flash"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "zz-target": {
    "term_local": "piattello ZZ (elica)",
@@ -263,8 +242,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "tracciato"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "difficulty-class": {
    "term_local": "classe di difficoltà",
@@ -285,8 +263,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "singolo"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "double": {
    "term_local": "doppio",
@@ -299,9 +276,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "doppietto"
    ],
-   "note": "FITASC IT/FITAV CS: «doppio»; FIDASC/FITAV generali: «doppietto».",
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "double-on-report": {
    "term_local": "doppio allo sparo",
@@ -315,8 +290,7 @@ window.GLOSSARY_I18N.it = {
     "doppietto allo sparo",
     "doppio al colpo di fucile"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "simultaneous-double": {
    "term_local": "doppio simultaneo",
@@ -329,8 +303,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "doppietto simultaneo"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "rafale-double": {
    "term_local": "doppio a raffica",
@@ -343,9 +316,7 @@ window.GLOSSARY_I18N.it = {
     "doppietto a ripetizione",
     "raffica"
    ],
-   "note": "FIDASC: «a ripetizione».",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_tecnico_sporting.pdf"
+   "conf": "high"
   },
   "target-menu": {
    "term_local": "menu",
@@ -354,8 +325,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "ordine di tiro"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "round": {
    "term_local": "serie",
@@ -365,8 +335,7 @@ window.GLOSSARY_I18N.it = {
     "sporting": "Fucile, strozzatore o canna si possono cambiare tra una pedana e l'altra o tra singoli e doppietti.",
     "compak": "Nessun cambio di fucile, strozzatore o canna all'interno di una serie (salvo dopo un malfunzionamento)."
    },
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "target-presentation": {
    "term_local": "presentazione dei piattelli",
@@ -379,8 +348,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "visione dei bersagli"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_tecnico_sporting.pdf"
+   "conf": "high"
   },
   "rotation": {
    "term_local": "rotazione",
@@ -394,8 +362,7 @@ window.GLOSSARY_I18N.it = {
     "turno",
     "ordine di tiro"
    ],
-   "conf": "medium",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "medium"
   },
   "call": {
    "term_local": "«Pronto!»",
@@ -406,8 +373,7 @@ window.GLOSSARY_I18N.it = {
     "«Via!»",
     "chiamata"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "ready-position": {
    "term_local": "fucile sbracciato",
@@ -421,9 +387,7 @@ window.GLOSSARY_I18N.it = {
     "posizione di attesa",
     "fucile non imbracciato"
    ],
-   "note": "FITASC IT: «fucile non imbracciato»; gergo: «sbracciato».",
-   "conf": "high",
-   "src": "https://riccardomonzoni.com/compak-sporting-linee-guida/"
+   "conf": "high"
   },
   "jacket-line": {
    "term_local": "linea sul giubbotto",
@@ -454,8 +418,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "tempo a disposizione"
    ],
-   "conf": "medium",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "medium"
   },
   "mock-shooting": {
    "term_local": "simulazione di tiro",
@@ -465,8 +428,7 @@ window.GLOSSARY_I18N.it = {
     "sporting": "Avvertimento, poi zero sul piattello colpito successivo.",
     "compak": "Vietato fuori dalle postazioni e mentre tira un altro componente della squadra."
    },
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "shooting-limit": {
    "term_local": "limite di tiro",
@@ -478,8 +440,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "L.A.T."
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "refusal": {
    "term_local": "rifiuto del piattello",
@@ -488,8 +449,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "rifiuto"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "gun-test": {
    "term_local": "prova delle armi",
@@ -499,8 +459,7 @@ window.GLOSSARY_I18N.it = {
     "tiri di prova",
     "prova del fucile"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "referee": {
    "term_local": "arbitro",
@@ -513,9 +472,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "direttore di tiro"
    ],
-   "note": "FITAV/FIDASC nelle gare nazionali: «Direttore di tiro».",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "chief-referee": {
    "term_local": "giudice arbitro",
@@ -528,8 +485,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "capo arbitro"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "no-bird": {
    "term_local": "No bird",
@@ -543,9 +499,7 @@ window.GLOSSARY_I18N.it = {
     "no target",
     "da ripetere"
    ],
-   "note": "FITAV nelle norme generali: «NO TARGET» / «DA RIPETERE».",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "malfunction": {
    "term_local": "malfunzionamento",
@@ -559,8 +513,7 @@ window.GLOSSARY_I18N.it = {
     "cattivo funzionamento",
     "inceppamento"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "double-discharge": {
    "term_local": "doppia scarica",
@@ -569,8 +522,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "doppia partenza"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "interruption": {
    "term_local": "interruzione",
@@ -596,8 +548,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "rotto"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "zero": {
    "term_local": "ZERO",
@@ -610,8 +561,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "mancato"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "zero-zero": {
    "term_local": "Zero-Zero",
@@ -629,9 +579,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "referto"
    ],
-   "note": "«Referto» nella traduzione FITASC, «statino» nell'uso FITAV/FIDASC.",
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "shotgun": {
    "term_local": "fucile",
@@ -645,9 +593,7 @@ window.GLOSSARY_I18N.it = {
     "fucile a canna liscia",
     "arma da caccia"
    ],
-   "note": "Regolamenti: «armi con canna ad anima liscia»; in pedana si dice «fucile».",
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "semi-automatic": {
    "term_local": "semiautomatico",
@@ -660,9 +606,7 @@ window.GLOSSARY_I18N.it = {
     "semiauto",
     "automatico"
    ],
-   "note": "In gergo spesso «automatico».",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "gauge": {
    "term_local": "calibro",
@@ -672,8 +616,7 @@ window.GLOSSARY_I18N.it = {
     "cal. 12",
     "cal. 20"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "choke": {
    "term_local": "strozzatore",
@@ -687,9 +630,7 @@ window.GLOSSARY_I18N.it = {
     "strozzatura",
     "choke"
    ],
-   "note": "«Strozzatura» = restringimento; «strozzatore» = tubo avvitabile.",
-   "conf": "high",
-   "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
+   "conf": "high"
   },
   "cartridge": {
    "term_local": "cartuccia",
@@ -702,8 +643,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "munizione"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "shot-size": {
    "term_local": "numero del pallino",
@@ -713,9 +653,7 @@ window.GLOSSARY_I18N.it = {
     "pallino n. 7,5",
     "piombo n. 9"
    ],
-   "note": "In gergo si dice solo «il 7½», «il 9».",
-   "conf": "high",
-   "src": "https://blog.hunting-spot.com/guida-percorso-caccia-lanci-fucili-tecniche-di-sparo"
+   "conf": "high"
   },
   "release-trigger": {
    "term_local": "scatto a rilascio",
@@ -737,8 +675,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "norme di sicurezza"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "gun-handling": {
    "term_local": "fucile aperto",
@@ -747,8 +684,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "maneggio del fucile"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "hearing-protection": {
    "term_local": "protezioni auditive",
@@ -758,9 +694,7 @@ window.GLOSSARY_I18N.it = {
     "protezioni per l'udito",
     "cuffie"
    ],
-   "note": "Termine del regolamento FITASC in italiano.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "safety-glasses": {
    "term_local": "occhiali di protezione",
@@ -769,8 +703,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "occhiali da tiro"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "conduct": {
    "term_local": "comportamento",
@@ -780,8 +713,7 @@ window.GLOSSARY_I18N.it = {
     "regole di condotta",
     "comportamento antisportivo"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "coaching": {
    "term_local": "assistenza tecnica (coaching)",
@@ -792,8 +724,7 @@ window.GLOSSARY_I18N.it = {
    "term_local": "abbigliamento",
    "short": "Le regole sull'abbigliamento dei concorrenti in pedana e durante le cerimonie.",
    "long": "Sono vietati i pantaloncini corti; sono accettati solo bermuda lunghi che terminano non più di 5 cm sopra il ginocchio. Le maglie devono avere almeno le maniche corte e un colletto o il girocollo, e non è ammesso un gilet da tiro senza nulla sotto. I sandali sono vietati per sicurezza, in allenamento e in gara. Alla sfilata di apertura e alla premiazione i componenti delle squadre indossano la divisa della squadra nazionale oppure pantaloni eleganti con giacca blazer, e ogni premiato deve essere presente alla premiazione. Una prima infrazione comporta un avvertimento; se non viene corretta, seguono ulteriori penalità fino all'esclusione da parte della giuria.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "warning": {
    "term_local": "avvertimento",
@@ -808,8 +739,7 @@ window.GLOSSARY_I18N.it = {
     "richiamo",
     "ammonizione"
    ],
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "red-card": {
    "term_local": "cartellino rosso",
@@ -819,8 +749,7 @@ window.GLOSSARY_I18N.it = {
     "esclusione",
     "squalifica"
    ],
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "penalty": {
    "term_local": "penalizzazione",
@@ -830,8 +759,7 @@ window.GLOSSARY_I18N.it = {
     "penalità",
     "sanzione"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "expulsion": {
    "term_local": "espulsione",
@@ -872,8 +800,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "«Appello!»"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "appeal": {
    "term_local": "reclamo scritto alla giuria",
@@ -887,9 +814,7 @@ window.GLOSSARY_I18N.it = {
     "appello",
     "ricorso"
    ],
-   "note": "Con deposito cauzionale.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "appeal-jury": {
    "term_local": "giuria d'appello",
@@ -920,8 +845,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "giuria d'appello"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "technical-commission": {
    "term_local": "commissione tecnica",
@@ -950,9 +874,7 @@ window.GLOSSARY_I18N.it = {
     "squadra",
     "gruppo"
    ],
-   "note": "FITASC/FIDASC: «batteria»; FITAV Compak: «squadra di tiro».",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "group": {
    "term_local": "gruppo (in linea)",
@@ -978,8 +900,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "tiri di allenamento"
    ],
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "competitor-number": {
    "term_local": "pettorale",
@@ -989,8 +910,7 @@ window.GLOSSARY_I18N.it = {
     "dorsale",
     "numero di gara"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "shoot-off": {
    "term_local": "spareggio",
@@ -1005,8 +925,7 @@ window.GLOSSARY_I18N.it = {
     "barrage",
     "morte improvvisa"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "sudden-death": {
    "term_local": "morte improvvisa (sudden death)",
@@ -1025,9 +944,7 @@ window.GLOSSARY_I18N.it = {
     "risalendo le serie",
     "ultima serie"
    ],
-   "note": "FITAV: a parità conta l'ultima serie, poi la penultima.",
-   "conf": "medium",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "medium"
   },
   "team": {
    "term_local": "squadra",
@@ -1036,8 +953,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "rappresentativa"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "category": {
    "term_local": "categoria",
@@ -1050,9 +966,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "qualifica"
    ],
-   "note": "FITAV: «categorie» = livello (Eccellenza, 1ª, 2ª, 3ª); «qualifiche» = Ladies, Junior, Veterani, Master.",
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "junior": {
    "term_local": "Junior",
@@ -1085,13 +999,12 @@ window.GLOSSARY_I18N.it = {
     "veterani",
     "master"
    ],
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "master-category": {
    "term_local": "Master",
    "short": "La categoria d'età FITASC più anziana, dai 73 anni, per uomini e donne.",
-   "long": "La categoria Master comprende uomini e donne dal 1° gennaio dell'anno in cui compiono 73 anni; per il 2027 significa nati prima del 1° gennaio 1955. Una squadra Master ha 3 tiratori di questa categoria; i tiratori Master possono essere selezionati anche per le squadre Veteran, Senior e Men. Non confondete la categoria d'età Master della FITASC con la classe Master del sistema americano NSCA, che dipende dai risultati, né con l'occhio dominante (master eye) nella tecnica."
+   "long": "La categoria Master comprende uomini e donne dal 1° gennaio dell'anno in cui compiono 73 anni; per il 2027 significa nati prima del 1° gennaio 1955. Una squadra Master ha 3 tiratori di questa categoria; i tiratori Master possono essere selezionati anche per le squadre Veteran, Senior e Men. Non confondete la categoria d'età Master della FITASC con una classe di livello, che dipende dai risultati, né con l'occhio dominante (master eye) nella tecnica."
   },
   "hull": {
    "term_local": "bossolo",
@@ -1100,23 +1013,19 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "fondello (la base)"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_tecnico_sporting.pdf"
+   "conf": "high"
   },
   "primer": {
    "term_local": "innesco",
    "short": "Una piccola capsula nel fondello del bossolo che fa scintilla quando il percussore la colpisce e accende la polvere.",
    "long": "L'innesco si trova al centro del fondello metallico del bossolo. Quando il percussore del fucile lo colpisce, la miscela innescante si accende e la fiamma incendia la carica di polvere. Un innesco debole o lento può causare una cilecca o un colpo ritardato. Per questo, dopo un mancato sparo, il fucile non si apre subito: resta puntato in una direzione sicura finché l'arbitro non lo ha controllato. Un'impronta sull'innesco senza che il colpo sia partito è il segno tipico di una cartuccia difettosa o di una percussione debole.",
-   "conf": "high",
-   "src": "https://michcimmino.wordpress.com/2017/10/17/come-e-composta-una-cartuccia-a-pallini/"
+   "conf": "high"
   },
   "powder": {
    "term_local": "polvere",
    "short": "Il propellente che brucia rapidamente e produce i gas che spingono i pallini; la polvere nera è vietata nelle gare FITASC.",
    "long": "Le cartucce moderne usano polvere senza fumo. Brucia in una frazione di secondo, e i gas che produce spingono borra e pallini lungo la canna. Quantità e tipo di polvere influiscono sulla velocità dei pallini e, in parte, sul rinculo; li sceglie il produttore della cartuccia. Il regolamento FITASC per Sporting™ e Compak® Sporting vieta la polvere nera, le cartucce traccianti e le cartucce ricaricate. Conservate le cartucce all'asciutto e lontano dal calore: umidità e temperature elevate peggiorano il comportamento della polvere.",
-   "note": "Polvere nera vietata.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "wad": {
    "term_local": "borra",
@@ -1126,8 +1035,7 @@ window.GLOSSARY_I18N.it = {
     "borra contenitore",
     "borraggio"
    ],
-   "conf": "high",
-   "src": "https://michcimmino.wordpress.com/2017/10/17/come-e-composta-una-cartuccia-a-pallini/"
+   "conf": "high"
   },
   "fibre-wad": {
    "term_local": "borra in feltro",
@@ -1137,8 +1045,7 @@ window.GLOSSARY_I18N.it = {
     "borra in fibra",
     "borra biodegradabile"
    ],
-   "conf": "medium",
-   "src": "https://michcimmino.wordpress.com/2017/10/17/come-e-composta-una-cartuccia-a-pallini/"
+   "conf": "medium"
   },
   "crimp": {
    "term_local": "chiusura (stellare)",
@@ -1153,8 +1060,7 @@ window.GLOSSARY_I18N.it = {
     "carica di pallini",
     "28 grammi"
    ],
-   "conf": "high",
-   "src": "https://blog.hunting-spot.com/guida-percorso-caccia-lanci-fucili-tecniche-di-sparo"
+   "conf": "high"
   },
   "velocity": {
    "term_local": "velocità",
@@ -1165,8 +1071,7 @@ window.GLOSSARY_I18N.it = {
    "term_local": "rinculo",
    "short": "La spinta del fucile contro la spalla allo sparo; dipende da carica, velocità, peso del fucile e calciatura.",
    "long": "Il rinculo è più forte con una carica più pesante e una velocità maggiore dei pallini, e più debole con un fucile più pesante. Un semiautomatico a sottrazione di gas distribuisce la spinta nel tempo, per cui risulta più morbido. La calciatura e una corretta imbracciata contano altrettanto: un fucile ben appoggiato nell'incavo della spalla rincula molto meno di uno appoggiato sul braccio o sull'osso. Un forte rinculo stanca e a poco a poco abitua a sussultare prima del colpo. Per questo cartucce più leggere in allenamento, un buon calciolo e un'imbottitura sulla spalla del gilet sono una scelta sensata, non un segno di debolezza.",
-   "conf": "high",
-   "src": "https://blog.hunting-spot.com/guida-percorso-caccia-lanci-fucili-tecniche-di-sparo"
+   "conf": "high"
   },
   "lead-shot": {
    "term_local": "pallini di piombo",
@@ -1175,8 +1080,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "piombo"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "soft-iron-shot": {
    "term_local": "pallini di ferro dolce",
@@ -1201,8 +1105,7 @@ window.GLOSSARY_I18N.it = {
    "term_local": "rosata",
    "short": "L'impronta che la nuvola di pallini lascia su un bersaglio o su una lastra; contano larghezza e uniformità.",
    "long": "Uscendo dalla volata i pallini si aprono in una nuvola che si allarga e si allunga con la distanza. La rosata è l'immagine che questa nuvola lascia su una superficie piana: quanto è larga e se ha vuoti attraverso cui un piattello potrebbe passare. La larghezza della rosata dipende soprattutto dallo strozzatore: più è aperto, più la rosata è larga a una data distanza. Contano anche la cartuccia, il diametro e il tipo dei pallini. Tradizionalmente la densità della rosata si valuta come percentuale di pallini all'interno di un cerchio di dimensioni stabilite a una distanza fissa, ma i metodi variano tra paesi e produttori.",
-   "conf": "high",
-   "src": "https://www.armimagazine.it/lincidenza-della-strozzatura-sulla-velocita-della-rosata/"
+   "conf": "high"
   },
   "constriction": {
    "term_local": "strozzatura",
@@ -1218,9 +1121,7 @@ window.GLOSSARY_I18N.it = {
     "*****",
     "CL"
    ],
-   "note": "Sistema a stelle italiano.",
-   "conf": "high",
-   "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
+   "conf": "high"
   },
   "fixed-choke": {
    "term_local": "strozzatura fissa",
@@ -1229,8 +1130,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "canne strozzate fisse"
    ],
-   "conf": "medium",
-   "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
+   "conf": "medium"
   },
   "multichoke": {
    "term_local": "strozzatori intercambiabili",
@@ -1244,9 +1144,7 @@ window.GLOSSARY_I18N.it = {
     "multichoke",
     "mobilchoke"
    ],
-   "note": "FITAV: «strozzatori intercambiabili»; «mobilchoke» nome Beretta diventato generico.",
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "choke-key": {
    "term_local": "chiave per strozzatori",
@@ -1285,9 +1183,7 @@ window.GLOSSARY_I18N.it = {
     "cilindrico migliorato",
     "1/4"
    ],
-   "note": "Il gergo usa le stelle.",
-   "conf": "high",
-   "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
+   "conf": "high"
   },
   "light-modified": {
    "term_local": "modified leggero (3/8)",
@@ -1303,8 +1199,7 @@ window.GLOSSARY_I18N.it = {
     "mezza strozzatura",
     "1/2"
    ],
-   "conf": "high",
-   "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
+   "conf": "high"
   },
   "improved-modified": {
    "term_local": "2 stelle",
@@ -1314,8 +1209,7 @@ window.GLOSSARY_I18N.it = {
     "**",
     "3/4"
    ],
-   "conf": "high",
-   "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
+   "conf": "high"
   },
   "full-choke": {
    "term_local": "1 stella",
@@ -1326,8 +1220,7 @@ window.GLOSSARY_I18N.it = {
     "full",
     "piena strozzatura"
    ],
-   "conf": "high",
-   "src": "https://www.iacopofalaschi.it/strozzatori-fucile-canna-liscia/"
+   "conf": "high"
   },
   "star-marks": {
    "term_local": "stelle (marcatura degli strozzatori)",
@@ -1351,8 +1244,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "fucile sovrapposto"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "side-by-side": {
    "term_local": "doppietta",
@@ -1362,20 +1254,16 @@ window.GLOSSARY_I18N.it = {
     "giustapposto",
     "fucile giustapposto"
    ],
-   "note": "«Giustapposto» nei regolamenti; «doppietta» nell'uso. Non confondere con «doppietto» (= coppia di piattelli).",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "pump-action": {
    "term_local": "fucile a pompa",
    "short": "Fucile che si ricarica facendo scorrere avanti e indietro l'astina; vietato dal regolamento FITASC.",
-   "long": "Con un fucile a pompa il tiratore espelle il bossolo e camera una nuova cartuccia facendo scorrere l'astina indietro e avanti dopo ogni colpo. Questi fucili sono diffusi nella caccia e in alcuni altri sport di tiro, ma il regolamento FITASC per Sporting™ e Compak® Sporting li vieta espressamente. Sono ammessi sovrapposti, doppiette e semiautomatici di calibro 12 o inferiore. Se pensate di fare gare, non comprate un fucile a pompa come primo fucile. Le regole di alcune gare di club possono essere diverse, quindi controllate il programma.",
+   "long": "Con un fucile a pompa il tiratore espelle il bossolo e camera una nuova cartuccia facendo scorrere l'astina indietro e avanti dopo ogni colpo. Questi fucili sono diffusi nella caccia, ma il regolamento FITASC per Sporting™ e Compak® Sporting li vieta espressamente. Sono ammessi sovrapposti, doppiette e semiautomatici di calibro 12 o inferiore. Se pensate di fare gare, non comprate un fucile a pompa come primo fucile. Le regole di alcune gare di club possono essere diverse, quindi controllate il programma.",
    "alt": [
     "pompa"
    ],
-   "note": "Escluso nel Percorso di Caccia.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "stock": {
    "term_local": "calcio",
@@ -1384,8 +1272,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "calciatura"
    ],
-   "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/come-e-composto-un-fucile-da-caccia-guida-completa.html"
+   "conf": "high"
   },
   "comb": {
    "term_local": "nasello",
@@ -1395,9 +1282,7 @@ window.GLOSSARY_I18N.it = {
     "cresta del calcio",
     "poggiaguancia"
    ],
-   "note": "Tecnicamente il nasello è la parte anteriore della cresta; nell'uso indica la zona d'appoggio della guancia.",
-   "conf": "medium",
-   "src": "https://www.armietiro.it/glossario-a-c-armi-249"
+   "conf": "medium"
   },
   "receiver": {
    "term_local": "bascula",
@@ -1406,9 +1291,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "carcassa (semiauto)"
    ],
-   "note": "Per il semiautomatico: carcassa e otturatore.",
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "barrel-selector": {
    "term_local": "selettore",
@@ -1417,15 +1300,13 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "selettore delle canne"
    ],
-   "conf": "high",
-   "src": "https://www.armietiro.it/glossario-a-c-armi-249"
+   "conf": "high"
   },
   "fore-end": {
    "term_local": "astina",
    "short": "La parte sotto le canne impugnata dalla mano anteriore; tiene anche le canne unite alla bascula.",
    "long": "L'astina è una parte in legno o materiale sintetico sotto le canne. La mano anteriore la impugna e accompagna il fucile lungo il piattello, quindi la sua forma influisce sulla presa. Sui fucili basculanti blocca anche le canne alla bascula: per smontare il fucile per il trasporto si toglie per prima l'astina. Durante la pulizia passate il panno sul metallo sotto l'astina, dove si raccoglie l'umidità. Alcuni tiratori indossano guanti per proteggere la mano dalle canne calde.",
-   "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/come-e-composto-un-fucile-da-caccia-guida-completa.html"
+   "conf": "high"
   },
   "chamber": {
    "term_local": "camera di scoppio",
@@ -1435,8 +1316,7 @@ window.GLOSSARY_I18N.it = {
     "camera",
     "camera di cartuccia"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_tecnico_sporting.pdf"
+   "conf": "high"
   },
   "rib": {
    "term_local": "bindella",
@@ -1445,8 +1325,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "bindella ventilata"
    ],
-   "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/come-e-composto-un-fucile-da-caccia-guida-completa.html"
+   "conf": "high"
   },
   "ejector": {
    "term_local": "eiettori",
@@ -1456,8 +1335,7 @@ window.GLOSSARY_I18N.it = {
     "espulsori",
     "estrattori (se non espellono)"
    ],
-   "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/come-e-composto-un-fucile-da-caccia-guida-completa.html"
+   "conf": "high"
   },
   "barrel-length": {
    "term_local": "lunghezza delle canne",
@@ -1466,9 +1344,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "lunghezza canne"
    ],
-   "note": "In cm (71, 76, 81).",
-   "conf": "high",
-   "src": "https://blog.hunting-spot.com/guida-percorso-caccia-lanci-fucili-tecniche-di-sparo"
+   "conf": "high"
   },
   "gunsmith": {
    "term_local": "armaiolo",
@@ -1487,8 +1363,7 @@ window.GLOSSARY_I18N.it = {
     "misure del calcio",
     "calciatura"
    ],
-   "conf": "medium",
-   "src": "https://www.cacciaepescabonannini.it/post/tabella-misura-calcio-fucile-consigli-e-prestazioni-.html"
+   "conf": "medium"
   },
   "length-of-pull": {
    "term_local": "lunghezza del calcio",
@@ -1497,9 +1372,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "lunghezza"
    ],
-   "note": "Insieme a piega al nasello / al tallone.",
-   "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/tabella-misura-calcio-fucile-consigli-e-prestazioni-.html"
+   "conf": "high"
   },
   "cast": {
    "term_local": "vantaggio",
@@ -1508,8 +1381,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "deviazione"
    ],
-   "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/tabella-misura-calcio-fucile-consigli-e-prestazioni-.html"
+   "conf": "high"
   },
   "eye-dominance": {
    "term_local": "occhio dominante",
@@ -1518,8 +1390,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "dominanza oculare"
    ],
-   "conf": "high",
-   "src": "https://www.ilbraccoitaliano.net/forum/i-forum-sulle-armi-e-caricamenti/armi-polveri/51266-occhio-dominante"
+   "conf": "high"
   },
   "gun-fitter": {
    "term_local": "esperto di calciatura (gun fitter)",
@@ -1538,8 +1409,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "bocca della canna"
    ],
-   "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/come-e-composto-un-fucile-da-caccia-guida-completa.html"
+   "conf": "high"
   },
   "standard-target": {
    "term_local": "piattello standard",
@@ -1548,8 +1418,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "piattello normale"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "rocket-target": {
    "term_local": "Rocket",
@@ -1570,8 +1439,7 @@ window.GLOSSARY_I18N.it = {
     "traversa",
     "incrociato"
    ],
-   "conf": "medium",
-   "src": "https://www.cacciainfiera.it/il-tiro/il-compak-sporting/"
+   "conf": "medium"
   },
   "quartering-away": {
    "term_local": "diagonale in allontanamento",
@@ -1580,9 +1448,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "diagonale in uscita"
    ],
-   "note": "FITASC IT: «di traverso o mezzo traverso».",
-   "conf": "low",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "low"
   },
   "quartering-towards": {
    "term_local": "diagonale in arrivo",
@@ -1621,7 +1487,6 @@ window.GLOSSARY_I18N.it = {
     "sopra la testa",
     "in battuta"
    ],
-   "note": "«In battuta» richiama la caccia ma si confonde con il piattello battuta.",
    "conf": "low"
   },
   "teal": {
@@ -1632,9 +1497,7 @@ window.GLOSSARY_I18N.it = {
     "tiro a candela",
     "teal"
    ],
-   "note": "In Italia «candela» = salita verticale.",
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "springing-target": {
    "term_local": "frullo (piattello in salita)",
@@ -1643,7 +1506,6 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "frullo"
    ],
-   "note": "«Frullo» richiama la selvaggina che si alza.",
    "conf": "low"
   },
   "looper": {
@@ -1653,9 +1515,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "looper"
    ],
-   "note": "FITAV cita la «parabola» tra i lanci speciali.",
-   "conf": "medium",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "medium"
   },
   "biodegradable-target": {
    "term_local": "piattello biodegradabile",
@@ -1670,8 +1530,7 @@ window.GLOSSARY_I18N.it = {
    "term_local": "anticipo",
    "short": "La distanza a cui il tiratore punta davanti al piattello perché i pallini lo incontrino.",
    "long": "Mentre i pallini viaggiano verso il piattello, il piattello continua a muoversi, quindi al momento dello sparo il fucile deve trovarsi davanti a esso. Quella distanza è l'anticipo. Dipende dalla velocità del piattello, dalla sua distanza e dall'angolo con cui vola: i traversoni lunghi richiedono il massimo anticipo, mentre i piattelli in allontanamento diritti quasi nessuno. Il modo in cui un tiratore percepisce l'anticipo è soggettivo, per questo persone diverse lo descrivono in modo diverso. Esistono diversi metodi di anticipo, anticipo mantenuto (maintained lead), pull-away, swing-through e ambush (tiro d'attesa), e un istruttore vi aiuterà a scegliere il vostro.",
-   "conf": "high",
-   "src": "https://shootingpost.it/come-rompere-piu-piattelli/"
+   "conf": "high"
   },
   "pick-up-point": {
    "term_local": "punto di presa (visiva)",
@@ -1686,8 +1545,7 @@ window.GLOSSARY_I18N.it = {
    "term_local": "punto di rottura",
    "short": "Il punto della traiettoria in cui il tiratore prevede di rompere il piattello.",
    "long": "I tiratori esperti decidono dove romperanno un piattello prima della chiamata. Di solito è la parte della traiettoria in cui il piattello vola nel modo più stabile e prevedibile, lontano dagli ostacoli e all'interno del settore sicuro. Il punto di rottura determina la posizione: i piedi si mettono in modo che il corpo sia rilassato proprio in quel punto. Il piattello va rotto dove l'arbitro può vederlo; una rottura dietro un albero o oltre un limite di tiro non conta. Se un piattello continua a battervi, spesso aiuta cambiare il punto di rottura.",
-   "conf": "medium",
-   "src": "https://shootingpost.it/come-rompere-piu-piattelli/"
+   "conf": "medium"
   },
   "stance": {
    "term_local": "posizione",
@@ -1697,8 +1555,7 @@ window.GLOSSARY_I18N.it = {
     "postura",
     "posizione dei piedi"
    ],
-   "conf": "medium",
-   "src": "https://riccardomonzoni.com/tecnica-di-tiro-nello-sport-del-tiro-a-volo/"
+   "conf": "medium"
   },
   "gun-mount": {
    "term_local": "imbracciata",
@@ -1711,8 +1568,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "imbracciare"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "master-eye": {
    "term_local": "occhio dominante",
@@ -1721,8 +1577,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "occhio direttore"
    ],
-   "conf": "high",
-   "src": "https://www.ilbraccoitaliano.net/forum/i-forum-sulle-armi-e-caricamenti/armi-polveri/51266-occhio-dominante"
+   "conf": "high"
   },
   "cross-dominance": {
    "term_local": "dominanza crociata",
@@ -1759,7 +1614,6 @@ window.GLOSSARY_I18N.it = {
    "term_local": "Pull-away (anticipo in uscita)",
    "short": "Metodo di anticipo: le canne raggiungono il piattello, si muovono con esso e poi lo superano prima del colpo.",
    "long": "Con il pull-away le canne raggiungono il piattello, si muovono con esso per un istante, poi il tiratore accelera, porta le canne avanti fino all'anticipo necessario e spara senza fermarsi. Il metodo è diffuso nello Sporting™ e nel Compak® Sporting perché dà una percezione precisa della velocità del piattello. Il rischio è restare troppo a lungo sul piattello e cominciare a verificare l'anticipo, il che rallenta il fucile. Tutto deve avvenire in un unico movimento fluido.",
-   "note": "Anglicismo; nessun equivalente fisso.",
    "conf": "low"
   },
   "swing-through": {
@@ -1769,7 +1623,6 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "swing-through"
    ],
-   "note": "Anglicismo prevalente.",
    "conf": "low"
   },
   "follow-through": {
@@ -1779,9 +1632,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "proseguire lo swing"
    ],
-   "note": "«Accompagnamento» indica anche lo stile di tiro che segue il piattello.",
-   "conf": "medium",
-   "src": "https://shootingpost.it/come-rompere-piu-piattelli/"
+   "conf": "medium"
   },
   "stopping-the-gun": {
    "term_local": "fermare il fucile",
@@ -1790,8 +1641,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "fermarsi"
    ],
-   "conf": "medium",
-   "src": "https://riccardomonzoni.com/tecnica-di-tiro-nello-sport-del-tiro-a-volo/"
+   "conf": "medium"
   },
   "head-lift": {
    "term_local": "alzare la testa",
@@ -1822,8 +1672,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "routine pre-tiro"
    ],
-   "conf": "medium",
-   "src": "https://shootingpost.it/creare-routine-vincente-tiro-a-volo/"
+   "conf": "medium"
   },
   "warm-up": {
    "term_local": "riscaldamento",
@@ -1841,8 +1690,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "chiamare in bianco"
    ],
-   "conf": "medium",
-   "src": "https://shootingpost.it/come-rompere-piu-piattelli/"
+   "conf": "medium"
   },
   "training-diary": {
    "term_local": "diario di allenamento",
@@ -1857,7 +1705,6 @@ window.GLOSSARY_I18N.it = {
     "allenatore",
     "coach"
    ],
-   "note": "FITAV: «istruttori federali».",
    "conf": "medium"
   },
   "process-goal": {
@@ -1882,8 +1729,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "portafucili"
    ],
-   "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf"
+   "conf": "high"
   },
   "gun-slip": {
    "term_local": "fodero",
@@ -1901,9 +1747,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "sparo ritardato"
    ],
-   "conf": "medium",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf",
-   "note": "'Cilecca' / 'colpo mancato' is a misfire; a delayed shot is 'colpo ritardato'."
+   "conf": "medium"
   },
   "hard-case": {
    "term_local": "valigetta",
@@ -1927,8 +1771,7 @@ window.GLOSSARY_I18N.it = {
     "giubbetto di tiro",
     "giubbino"
    ],
-   "conf": "high",
-   "src": "https://www.fitav.it/wp-content/uploads/documenti/trasparenza/reg-tec-cs-17.pdf"
+   "conf": "high"
   },
   "shoulder-pad": {
    "term_local": "imbottitura della spalla (spallina)",
@@ -1952,8 +1795,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "tappi"
    ],
-   "conf": "high",
-   "src": "https://www.armeriametelli.it/54-cuffie-e-tappi-per-il-tiro-a-volo"
+   "conf": "high"
   },
   "passive-ear-muffs": {
    "term_local": "cuffie passive",
@@ -1967,8 +1809,7 @@ window.GLOSSARY_I18N.it = {
    "alt": [
     "cuffie attive"
    ],
-   "conf": "high",
-   "src": "https://www.armeriametelli.it/54-cuffie-e-tappi-per-il-tiro-a-volo"
+   "conf": "high"
   },
   "cartridge-bag": {
    "term_local": "borsa portacartucce",
@@ -2017,8 +1858,7 @@ window.GLOSSARY_I18N.it = {
    "term_local": "iscrizione",
    "short": "La registrazione di un tiratore a una gara.",
    "long": "Per partecipare a una gara si presenta l'iscrizione entro la scadenza e si paga la quota d'iscrizione. L'iscrizione indica di solito disciplina, categoria, club o paese e, per i grandi eventi, il numero di tessera federale. Dopo la registrazione l'organizzatore forma le squadre per sorteggio e pubblica gli orari di tiro di ogni squadra; seguire il programma è responsabilità del tiratore. Se il vostro fucile ha lo scatto a rilascio, controllate i requisiti del programma. Il tiratore assente il primo giorno del Compak® Sporting in linea viene tolto dall'elenco dal secondo giorno, quindi comunicate all'organizzatore qualsiasi cambiamento.",
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "entry-fee": {
    "term_local": "quota d'iscrizione",
@@ -2032,9 +1872,7 @@ window.GLOSSARY_I18N.it = {
     "iscrizione",
     "servizio campo"
    ],
-   "note": "FITAV separa iscrizione e «servizio campo».",
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "open-ranking": {
    "term_local": "classifica assoluta (open)",
@@ -2050,8 +1888,7 @@ window.GLOSSARY_I18N.it = {
    "term_local": "premiazione",
    "short": "La cerimonia di consegna dei premi alla fine di una gara; negli eventi internazionali i premiati devono essere presenti.",
    "long": "Dopo l'ultima serie e gli spareggi l'organizzatore annuncia i risultati e consegna medaglie, trofei o premi nelle classifiche assoluta, di categoria e a squadre. Secondo il regolamento FITASC, tutti i premiati degli eventi internazionali devono essere presenti alla premiazione durante la cerimonia di chiusura. L'abbigliamento per la cerimonia è la divisa della squadra nazionale oppure pantaloni eleganti con giacca blazer. Anche nelle gare di club restare alla premiazione è una bella tradizione e un segno di rispetto per organizzatori e avversari. Se dovete andare via prima, avvisate l'organizzatore.",
-   "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf"
+   "conf": "high"
   },
   "shooter-profile": {
    "term_local": "profilo del tiratore",
@@ -2135,7 +1972,6 @@ window.GLOSSARY_I18N.it = {
     "canna superiore / inferiore"
    ],
    "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf",
    "short": "Il tubo in cui scorre la rosata di pallini."
   },
   "adjustable-comb": {
@@ -2154,7 +1990,6 @@ window.GLOSSARY_I18N.it = {
     "pistola"
    ],
    "conf": "medium",
-   "src": "https://www.armietiro.it/glossario-a-c-armi-249",
    "short": "La parte del calcio impugnata dalla mano che preme il grilletto."
   },
   "trigger": {
@@ -2163,15 +1998,12 @@ window.GLOSSARY_I18N.it = {
     "scatto",
     "monogrillo selettivo"
    ],
-   "note": "«Scatto» = meccanismo; «grilletto» = la leva.",
    "conf": "high",
-   "src": "https://www.cacciaepescabonannini.it/post/come-e-composto-un-fucile-da-caccia-guida-completa.html",
    "short": "La leva che si preme per sparare."
   },
   "safety-catch": {
    "term_local": "sicura",
    "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf",
    "short": "Il cursore sul fucile che blocca il grilletto."
   },
   "recoil-pad": {
@@ -2180,12 +2012,10 @@ window.GLOSSARY_I18N.it = {
     "calciolo in gomma"
    ],
    "conf": "high",
-   "src": "https://www.armietiro.it/glossario-a-c-armi-249",
    "short": "Calciolo in gomma o gel all'estremità del calcio che attenua il rinculo; cambia anche la lunghezza del calcio."
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "English layout name; shooters usually keep the English word.",
    "conf": "medium",
    "short": "Piattello che sale ripido descrivendo una curva e poi ricade. Da non confondere con la «chandelle» francese, che indica una candela verticale."
   },
@@ -2200,7 +2030,6 @@ window.GLOSSARY_I18N.it = {
   "visible-piece": {
    "term_local": "pezzo visibile",
    "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf",
    "short": "Un piattello conta come colpito se se ne stacca almeno un pezzo visibile."
   },
   "loading": {
@@ -2209,7 +2038,6 @@ window.GLOSSARY_I18N.it = {
     "caricamento"
    ],
    "conf": "high",
-   "src": "https://www.fidasc.it/images/stories/Sporting/2011/Regolamenti/regolamento_internazionale_percorso_di_caccia__2008__ita.pdf",
    "short": "Mettere le cartucce nel fucile solo in pedana e toglierle subito dopo."
   },
   "quiet-on-stand": {
@@ -2226,7 +2054,6 @@ window.GLOSSARY_I18N.it = {
     "bossoli vuoti"
    ],
    "conf": "high",
-   "src": "http://www.fitavcampania.it/media/17083/norme-gen-17.pdf",
    "short": "Bossoli sparati, da raccogliere e non lasciare a terra."
   },
   "move-mount-shoot": {
@@ -2372,12 +2199,12 @@ window.GLOSSARY_I18N.it = {
   "fur-and-feather": {
    "term_local": "pelo e piuma",
    "conf": "low",
-   "short": "Gergo dell'English Sporting per un doppio composto da una lepre e un piattello in aria."
+   "short": "Gergo degli istruttori britannici per un doppio composto da una lepre e un piattello in aria."
   },
   "true-pair": {
    "term_local": "true pair",
    "conf": "low",
-   "short": "Nome dell'English Sporting per il doppio simultaneo: entrambi i piattelli lanciati nello stesso momento."
+   "short": "Il nome usato dagli istruttori britannici per il doppio simultaneo: entrambi i piattelli lanciati nello stesso momento."
   },
   "shell-catcher": {
    "term_local": "parabossoli",
@@ -2427,27 +2254,7 @@ window.GLOSSARY_I18N.it = {
   "gun-up": {
    "term_local": "fucile imbracciato (gun up)",
    "conf": "low",
-   "short": "Partire con il fucile già imbracciato prima della chiamata; ammesso nell'English Sporting, nell'NSCA e nel Compak®, non nello Sporting™ FITASC."
-  },
-  "english-sporting": {
-   "term_local": "English Sporting",
-   "conf": "low",
-   "short": "La forma britannica dello sporting, organizzata in Inghilterra dalla CPSA accanto allo Sporting™ FITASC; ha regole proprie: le coppie sono frequenti e i tiratori spesso partono con il fucile già imbracciato."
-  },
-  "cpsa": {
-   "term_local": "CPSA",
-   "conf": "low",
-   "short": "Clay Pigeon Shooting Association, l'organo che governa il tiro a volo in Inghilterra."
-  },
-  "nsca": {
-   "term_local": "NSCA",
-   "conf": "low",
-   "short": "National Sporting Clays Association, che governa lo Sporting Clays negli Stati Uniti."
-  },
-  "hoa": {
-   "term_local": "HOA (assoluto)",
-   "conf": "low",
-   "short": "Il vincitore assoluto di una gara, indipendentemente da categoria o classe."
+   "short": "Partire con il fucile già imbracciato prima della chiamata; ammesso nel Compak® Sporting, non nel Parcours de Chasse – Sporting™."
   },
   "clock-face": {
    "term_local": "quadrante dell'orologio",

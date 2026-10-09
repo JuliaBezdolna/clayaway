@@ -1,4 +1,4 @@
-/* ClayArena glossary — de: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
+/* ClayArena glossary — de: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/de.json, not published); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.de = {
  "lang": "de",
@@ -53,8 +53,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Parcours"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "line": {
    "term_local": "Linie",
@@ -66,8 +65,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "neues System"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "range": {
    "term_local": "Schießstand",
@@ -78,9 +76,7 @@ window.GLOSSARY_I18N.de = {
     "Schießgelände",
     "Stand"
    ],
-   "note": "FITASC DE 'Schiessgelände'; everyday 'Schießstand'.",
-   "conf": "medium",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "medium"
   },
   "shooting-stand": {
    "term_local": "Standplatz",
@@ -94,8 +90,7 @@ window.GLOSSARY_I18N.de = {
     "Stand",
     "Schützenstand"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "trap": {
    "term_local": "Wurfmaschine",
@@ -109,8 +104,7 @@ window.GLOSSARY_I18N.de = {
     "Maschine",
     "Werfer"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "tower": {
    "term_local": "Turm",
@@ -132,9 +126,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Maschinenbediener"
    ],
-   "note": "Anglicism 'Puller' is used in the FITASC German rules.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "high"
   },
   "sonopull": {
    "term_local": "Sonopull",
@@ -147,9 +139,7 @@ window.GLOSSARY_I18N.de = {
     "akustische Auslösung",
     "Sprachauslösung"
    ],
-   "note": "FITASC Compak (DE): acoustic device releasing the trap on the shooter's voice.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglt_CS_010117_DEU.pdf"
+   "conf": "high"
   },
   "fly-over-zone": {
    "term_local": "Überflugzone (Rechteck ABCD)",
@@ -188,9 +178,7 @@ window.GLOSSARY_I18N.de = {
     "Tontaube",
     "Ziel"
    ],
-   "note": "Official 'Wurfscheibe'; on the range everyone says 'Taube'/'Tontaube' (also AT/CH).",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "battue": {
    "term_local": "Battue",
@@ -204,9 +192,7 @@ window.GLOSSARY_I18N.de = {
     "Segelscheibe",
     "Segeltaube"
    ],
-   "note": "French name and 'Segelscheibe' both used.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "midi": {
    "term_local": "Midi",
@@ -216,8 +202,7 @@ window.GLOSSARY_I18N.de = {
     "Midischeibe",
     "Midi-Taube"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "mini": {
    "term_local": "Mini",
@@ -228,8 +213,7 @@ window.GLOSSARY_I18N.de = {
     "Super Mini",
     "Super-Mini"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "rabbit": {
    "term_local": "Rollhase",
@@ -239,9 +223,7 @@ window.GLOSSARY_I18N.de = {
     "Rabbit",
     "Hase"
    ],
-   "note": "Rules: 'Rollhase'; English 'Rabbit' also current.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "flash-target": {
    "term_local": "Flashscheibe",
@@ -251,8 +233,7 @@ window.GLOSSARY_I18N.de = {
     "Flashwurfscheibe",
     "Flash-Taube"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "zz-target": {
    "term_local": "ZZ-Scheibe (Helice)",
@@ -273,9 +254,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Wurfrichtung"
    ],
-   "note": "Rules use both; 'Wurfrichtung' = the 3-D path as set.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "difficulty-class": {
    "term_local": "Schwierigkeitsklasse",
@@ -297,8 +276,7 @@ window.GLOSSARY_I18N.de = {
     "Einzelziel",
     "Einzeltaube"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "double": {
    "term_local": "Doublette",
@@ -311,9 +289,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Dublette"
    ],
-   "note": "Spelling varies: DSB 'Doublette', FITASC DE 2017 'Dublette'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "high"
   },
   "double-on-report": {
    "term_local": "Doublette auf Schuss",
@@ -327,8 +303,7 @@ window.GLOSSARY_I18N.de = {
     "Dublette auf Schuss",
     "a.S."
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "simultaneous-double": {
    "term_local": "Simultandoublette",
@@ -342,8 +317,7 @@ window.GLOSSARY_I18N.de = {
     "Simultan-Dublette",
     "Simultan"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "rafale-double": {
    "term_local": "Rafaledoublette",
@@ -356,8 +330,7 @@ window.GLOSSARY_I18N.de = {
     "Rafale-Dublette",
     "Rafale"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "high"
   },
   "target-menu": {
    "term_local": "Wurfschema",
@@ -367,8 +340,7 @@ window.GLOSSARY_I18N.de = {
     "Reihenfolge der Scheiben",
     "Programm"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "round": {
    "term_local": "Runde",
@@ -382,9 +354,7 @@ window.GLOSSARY_I18N.de = {
     "Durchgang",
     "Serie"
    ],
-   "note": "FITASC DE 'Runde'; DSB 'Durchgang/Serie' (25 Scheiben).",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "target-presentation": {
    "term_local": "Vorwerfen der Scheiben",
@@ -398,9 +368,7 @@ window.GLOSSARY_I18N.de = {
     "Vorwerfen",
     "Zeigen"
    ],
-   "note": "Official verb 'vorwerfen'; the draft's 'Scheibenvorführung' is not used.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "rotation": {
    "term_local": "Rotation (Schießreihenfolge, Positionswechsel)",
@@ -414,7 +382,6 @@ window.GLOSSARY_I18N.de = {
     "Positionswechsel",
     "Rotation"
    ],
-   "note": "No fixed noun in the rules.",
    "conf": "low"
   },
   "call": {
@@ -427,9 +394,7 @@ window.GLOSSARY_I18N.de = {
     "Ab!",
     "fertig"
    ],
-   "note": "Shooter calls 'Pull', 'Ab' or 'fertig'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "high"
   },
   "ready-position": {
    "term_local": "Jagdanschlag",
@@ -443,9 +408,7 @@ window.GLOSSARY_I18N.de = {
     "jagdlicher Anschlag",
     "Bereitschaftsstellung"
    ],
-   "note": "Opposite of 'Voranschlag' (gun pre-mounted, allowed in Compak).",
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/disziplinen/jagdparcours/"
+   "conf": "high"
   },
   "jacket-line": {
    "term_local": "Westenmarkierung",
@@ -476,8 +439,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Zeitlimit"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "mock-shooting": {
    "term_local": "Zielübungen",
@@ -490,8 +452,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Anschlagsübungen"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "high"
   },
   "shooting-limit": {
    "term_local": "Schussgrenze",
@@ -503,15 +464,13 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Schussbereich"
    ],
-   "conf": "medium",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "medium"
   },
   "refusal": {
    "term_local": "Verweigerung",
    "short": "Nicht auf eine Scheibe schießen, die abgerufen und korrekt geworfen wurde.",
    "long": "Ein Schütze darf nur eine Scheibe ablehnen, die er nicht abgerufen hat. Im Sporting wird eine korrekte Scheibe, auf die der Schütze nicht geschossen hat, mit Null gewertet; bei einer Simultan- oder Rafale-Doublette mit Null und Null. Im Compak wird eine Verweigerung nach 21.5 bestraft: Einzelscheibe Null; erste Scheibe einer Doublette auf Schuss Null, wobei die Doublette wiederholt wird, um die zweite zu werten; Simultandoublette Null-Null.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "gun-test": {
    "term_local": "Probeschuss",
@@ -520,8 +479,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Funktionsschuss"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "referee": {
    "term_local": "Schiedsrichter",
@@ -535,9 +493,7 @@ window.GLOSSARY_I18N.de = {
     "Hauptrichter",
     "Standaufsicht"
    ],
-   "note": "DSB rules call the stand referee 'Hauptrichter'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "chief-referee": {
    "term_local": "Oberschiedsrichter",
@@ -550,8 +506,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Hauptschiedsrichter"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "high"
   },
   "no-bird": {
    "term_local": "No Bird",
@@ -564,9 +519,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Fehlwurf"
    ],
-   "note": "The English call is used in rules and on the range.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "malfunction": {
    "term_local": "Funktionsstörung",
@@ -580,9 +533,7 @@ window.GLOSSARY_I18N.de = {
     "Störung",
     "Fehlfunktion"
    ],
-   "note": "DSB/BDS 'Funktionsstörung'; FITASC DE 'Fehlfunktion'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "double-discharge": {
    "term_local": "Doppeln",
@@ -591,9 +542,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Doppelschuss"
    ],
-   "note": "Rules: 'Doppeln (beide Schüsse fallen zur gleichen Zeit)'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "interruption": {
    "term_local": "Unterbrechung",
@@ -619,9 +568,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Eins"
    ],
-   "note": "FITASC DE scores 'Eins'; DSB writes 'TREFFER'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "zero": {
    "term_local": "Null",
@@ -634,9 +581,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Fehler"
    ],
-   "note": "FITASC DE 'Null'; DSB 'FEHLER'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "zero-zero": {
    "term_local": "Null-Null",
@@ -655,9 +600,7 @@ window.GLOSSARY_I18N.de = {
     "Ergebnisblatt",
     "Startkarte"
    ],
-   "note": "FITASC Compak DE: 'Ergebnisblatt/Ergebnisliste'; BDS 'Startkarte'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglt_CS_010117_DEU.pdf"
+   "conf": "high"
   },
   "shotgun": {
    "term_local": "Flinte",
@@ -671,9 +614,7 @@ window.GLOSSARY_I18N.de = {
     "Schrotflinte",
     "Jagdflinte"
    ],
-   "note": "On ranges simply 'Flinte'; 'Schrotflinte' in general language.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "semi-automatic": {
    "term_local": "Selbstladeflinte",
@@ -686,9 +627,7 @@ window.GLOSSARY_I18N.de = {
     "Halbautomat",
     "Selbstlader"
    ],
-   "note": "FITASC German rules say 'Halbautomaten'; DSB 'halbautomatische Flinten'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "gauge": {
    "term_local": "Kaliber",
@@ -697,9 +636,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Kal. 12"
    ],
-   "note": "Said as 'Kaliber 12' / '12er'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "choke": {
    "term_local": "Choke",
@@ -713,9 +650,7 @@ window.GLOSSARY_I18N.de = {
     "Würgebohrung",
     "Chokes (pl.)"
    ],
-   "note": "Anglicism 'Choke' dominates on ranges; 'Würgebohrung' is the technical/German term.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "cartridge": {
    "term_local": "Patrone",
@@ -728,8 +663,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Schrotpatrone"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "shot-size": {
    "term_local": "Schrotgröße",
@@ -739,9 +673,7 @@ window.GLOSSARY_I18N.de = {
     "Schrotdurchmesser",
     "Schrotnummer"
    ],
-   "note": "Rules give mm (2,0–2,5 mm); shops also use numbers (7,5 / 9).",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "release-trigger": {
    "term_local": "Release-Abzug",
@@ -750,9 +682,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Loslass-Abzug"
    ],
-   "note": "Anglicism dominates. DSB defines it as 'Schuss bricht durch Loslassen des Abzuges'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "safety": {
    "term_local": "Sicherheit",
@@ -761,8 +691,7 @@ window.GLOSSARY_I18N.de = {
    "disciplines": {
     "compak": "Zusätzlich: ein Schusswinkelbegrenzer an jeder Position; eine Maschine hinter den Positionen muss mindestens 4 m höher stehen."
    },
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "gun-handling": {
    "term_local": "Waffenhandhabung",
@@ -772,9 +701,7 @@ window.GLOSSARY_I18N.de = {
     "Flinte gebrochen tragen",
     "Umgang mit der Waffe"
    ],
-   "note": "Rules: 'offen (gebrochen) tragen'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "high"
   },
   "hearing-protection": {
    "term_local": "Gehörschutz",
@@ -784,8 +711,7 @@ window.GLOSSARY_I18N.de = {
     "Kapselgehörschutz",
     "Gehörschutzkappen"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "safety-glasses": {
    "term_local": "Schießbrille",
@@ -794,9 +720,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Schutzbrille"
    ],
-   "note": "FITASC German rules: 'Schiessbrille'; CH spelling 'Schiessbrille'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "conduct": {
    "term_local": "Verhalten",
@@ -806,8 +730,7 @@ window.GLOSSARY_I18N.de = {
     "Verhaltensregeln",
     "Sportlichkeit"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "coaching": {
    "term_local": "Coaching (Betreuung während des Wettkampfs)",
@@ -822,8 +745,7 @@ window.GLOSSARY_I18N.de = {
     "Bekleidungsregeln",
     "Kleiderordnung"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "warning": {
    "term_local": "Verwarnung",
@@ -834,15 +756,13 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Gelbe Karte",
    "short": "Eine Karte, die mit einer Verwarnung für einen ersten Verstoß gezeigt wird.",
    "long": "Im Sporting gibt der Schiedsrichter eine mündliche Verwarnung mit Gelber Karte, wenn ein Schütze nicht die vorgeschriebene Bereitschaftsstellung einnimmt oder die Flinte anschlägt, bevor die Scheibe erscheint; auch Coaching und Verstöße bei leeren Hülsen bringen eine Gelbe Karte. Im Compak werden der erste Regelverstoß, der erste Vorfall mit Flinte oder Munition in einer Serie, Coaching und Verstöße bei leeren Hülsen mit einer Gelben Karte vermerkt. Ein weiterer Verstoß führt dann zu einer Roten Karte.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "red-card": {
    "term_local": "Rote Karte",
    "short": "Eine Karte für einen wiederholten Verstoß nach einer Verwarnung, wobei die Scheibe als Strafe gewertet wird.",
    "long": "Nach der ersten Verwarnung führt jeder weitere Verstoß auf demselben Layout (Sporting) oder Compak zu einer Roten Karte. Die Scheibe wird dann gewertet: Null bei einer Einzelscheibe; Null und No Bird bei einer Doublette auf Schuss; Null und Null bei einer Simultan- oder Rafale-Doublette. Bei einer Compak-Störung auf die zweite Scheibe einer Doublette bleibt das erste Ergebnis bestehen, die zweite ist Null. Im Compak ergibt auch ein zweiter Vorfall gleicher Art mit Flinte oder Munition Null mit Roter Karte.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "penalty": {
    "term_local": "Strafe",
@@ -852,8 +772,7 @@ window.GLOSSARY_I18N.de = {
     "Verwarnung",
     "Scheibenabzug"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "expulsion": {
    "term_local": "Ausschluss (Disqualifikation)",
@@ -894,9 +813,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Einspruch"
    ],
-   "note": "On the stand: raise hand and call 'Einspruch' or 'Protest'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "appeal": {
    "term_local": "Beschwerde",
@@ -910,9 +827,7 @@ window.GLOSSARY_I18N.de = {
     "Berufung",
     "Protest bei der Jury"
    ],
-   "note": "Written, with 'Beschwerdegeld'; 'Berufungsjury' hears appeals.",
-   "conf": "medium",
-   "src": "https://www.fitasc.com/upload/images/Rglts_PCH_01012017_ALL.pdf"
+   "conf": "medium"
   },
   "appeal-jury": {
    "term_local": "Berufungsjury",
@@ -943,8 +858,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Wettkampfjury"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "technical-commission": {
    "term_local": "Technische Kommission",
@@ -972,8 +886,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Gruppe"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "group": {
    "term_local": "Gruppe (in Linie)",
@@ -999,15 +912,13 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "offizielles Training"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/images/Rglt_CS_010117_DEU.pdf"
+   "conf": "high"
   },
   "competitor-number": {
    "term_local": "Startnummer",
    "short": "Die Nummer, die der Schütze während des Wettkampfs auf dem Rücken trägt.",
    "long": "Die Nummer muss auf dem Rücken zwischen Schultern und Taille getragen werden, vollständig sichtbar und komplett, nicht gefaltet oder abgeschnitten. Ein erster Verstoß bringt eine Verwarnung durch den Schiedsrichter; wird er nicht behoben, folgen weitere Strafen bis zum Ausschluss vom Wettkampf durch die Jury. Im Sporting wird ein fehlender Schütze innerhalb einer Minute dreimal mit Namen und Nummer aufgerufen.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "shoot-off": {
    "term_local": "Stechen",
@@ -1020,8 +931,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "KO-Stechen"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "sudden-death": {
    "term_local": "Sudden Death (K.-o.-Stechen)",
@@ -1039,8 +949,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Rückwärtsvergleich"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "team": {
    "term_local": "Mannschaft",
@@ -1049,8 +958,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Team"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "category": {
    "term_local": "Klasse",
@@ -1064,9 +972,7 @@ window.GLOSSARY_I18N.de = {
     "Wettkampfklasse",
     "Kategorie"
    ],
-   "note": "Note: DSB 'Senioren' = older shooters, FITASC 'Senior' = open men's class.",
-   "conf": "medium",
-   "src": "https://www.fitasc.com/upload/images/Rglt_CS_010117_DEU.pdf"
+   "conf": "medium"
   },
   "junior": {
    "term_local": "Junior (Junioren)",
@@ -1103,7 +1009,7 @@ window.GLOSSARY_I18N.de = {
   "master-category": {
    "term_local": "Master",
    "short": "Die älteste FITASC-Altersklasse, ab 73, für Männer und Frauen.",
-   "long": "Master umfasst Männer und Frauen ab dem 1. Januar des Jahres, in dem sie 73 werden; für 2027 heißt das: geboren vor dem 1. Januar 1955. Eine Master-Mannschaft hat 3 Schützen dieser Klasse; Master-Schützen können auch für Veteranen-, Senioren- und Men-Mannschaften ausgewählt werden. Die FITASC-Altersklasse Master nicht mit der Master-Klasse des amerikanischen NSCA-Systems verwechseln, die von den Ergebnissen abhängt, oder mit dem Führungsauge (master eye) in der Technik."
+   "long": "Master umfasst Männer und Frauen ab dem 1. Januar des Jahres, in dem sie 73 werden; für 2027 heißt das: geboren vor dem 1. Januar 1955. Eine Master-Mannschaft hat 3 Schützen dieser Klasse; Master-Schützen können auch für Veteranen-, Senioren- und Men-Mannschaften ausgewählt werden. Die FITASC-Altersklasse Master nicht mit einer Leistungsklasse verwechseln, die von den Ergebnissen abhängt, oder mit dem Führungsauge (master eye) in der Technik."
   },
   "hull": {
    "term_local": "Hülse",
@@ -1112,8 +1018,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Patronenhülse"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "primer": {
    "term_local": "Zündhütchen",
@@ -1138,7 +1043,6 @@ window.GLOSSARY_I18N.de = {
     "Schrotbecher",
     "Plastikbecher"
    ],
-   "note": "Plastic cup wad = 'Schrotbecher'.",
    "conf": "medium"
   },
   "fibre-wad": {
@@ -1149,7 +1053,6 @@ window.GLOSSARY_I18N.de = {
     "Faserzwischenmittel",
     "Fiber-Zwischenmittel"
    ],
-   "note": "Usage varies by brand; check the box label.",
    "conf": "low"
   },
   "crimp": {
@@ -1165,9 +1068,7 @@ window.GLOSSARY_I18N.de = {
     "Schrotvorlage",
     "Schrotladung"
    ],
-   "note": "Rules: 'Schrotladung'; shooters say '24er/28er Vorlage' or '28 Gramm'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "velocity": {
    "term_local": "Geschwindigkeit (Schrotgeschwindigkeit)",
@@ -1178,15 +1079,13 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Rückstoß",
    "short": "Der Stoß der Flinte in die Schulter beim Schuss; er hängt von Vorlage, Geschwindigkeit, Flintengewicht und Schaftpassung ab.",
    "long": "Der Rückstoß ist stärker bei schwererer Vorlage und höherer Schrotgeschwindigkeit und schwächer bei einer schwereren Flinte. Ein gasbetriebener Selbstlader verteilt den Stoß über die Zeit, daher fühlt er sich weicher an. Schaftpassung und korrekter Anschlag sind ebenso wichtig: Eine Flinte, die fest in der Schultertasche sitzt, schlägt weit weniger als eine, die am Arm oder auf dem Knochen liegt. Starker Rückstoß ermüdet und gewöhnt allmählich ein Zucken vor dem Schuss an. Leichtere Patronen im Training, eine gute Schaftkappe und ein Schulterpolster an der Weste sind daher eine vernünftige Wahl, keine Schwäche.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "lead-shot": {
    "term_local": "Bleischrot",
    "short": "Traditioneller schwerer, weicher Schrot; die FITASC-Regeln sind für ihn geschrieben, doch viele Länder und Anlagen schränken ihn ein.",
    "long": "Blei ist schwer, daher hält ein Schrotkorn seine Geschwindigkeit gut, und die Patronen ergeben eine gleichmäßige Deckung. Die FITASC-Regeln für Sporting™ und Compak® Sporting beschreiben Bleischrot: eine Vorlage bis 28 g (+2 %), kugelförmige Schrote von 2,0–2,5 mm. Blei ist jedoch giftig für die Umwelt, besonders für Gewässer und Wasservögel. In der EU ist es seit 2023 verboten, mit Bleischrot in Feuchtgebieten und im Umkreis von 100 m um sie zu schießen, und manche Länder und Anlagen haben strengere Regeln. Gesetze ändern sich, daher vor der Reise das örtliche Recht und die Ordnung der Anlage prüfen.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "soft-iron-shot": {
    "term_local": "Weicheisenschrot",
@@ -1200,7 +1099,6 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Weicheisenschrot"
    ],
-   "note": "Shops: 'stahlschrotgeeignet' (steel-proofed).",
    "conf": "high"
   },
   "low-recoil-cartridge": {
@@ -1217,7 +1115,6 @@ window.GLOSSARY_I18N.de = {
     "Garbe",
     "Trefferbild"
    ],
-   "note": "'Deckung' = pattern density on a pattern plate; 'Garbe' = shot cloud.",
    "conf": "medium"
   },
   "constriction": {
@@ -1258,9 +1155,7 @@ window.GLOSSARY_I18N.de = {
     "Multichoke",
     "Choke-Einsätze"
    ],
-   "note": "DSB: 'wechselbare Choke-Einsätze'; Frankonia: 'Wechselchoke-System'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "choke-key": {
    "term_local": "Chokeschlüssel",
@@ -1279,7 +1174,6 @@ window.GLOSSARY_I18N.de = {
     "Extended Choke",
     "außenliegender Choke"
    ],
-   "note": "English 'Extended' common in catalogues.",
    "conf": "medium"
   },
   "skeet-choke": {
@@ -1300,7 +1194,6 @@ window.GLOSSARY_I18N.de = {
     "Viertelchoke",
     "IC"
    ],
-   "note": "English names and fractions (1/4 etc.) used side by side.",
    "conf": "medium"
   },
   "light-modified": {
@@ -1326,7 +1219,6 @@ window.GLOSSARY_I18N.de = {
     "3/4",
     "Dreiviertelchoke"
    ],
-   "note": "Frankonia lists choke range as '¾–1/1'.",
    "conf": "medium"
   },
   "full-choke": {
@@ -1362,7 +1254,6 @@ window.GLOSSARY_I18N.de = {
     "Bockdoppelflinte",
     "Bock"
    ],
-   "note": "Shops write 'Bockdoppelflinte'; shooters say 'Bockflinte' or just 'Bock'.",
    "conf": "high"
   },
   "side-by-side": {
@@ -1373,20 +1264,17 @@ window.GLOSSARY_I18N.de = {
     "Querflinte",
     "Seite-an-Seite-Flinte"
    ],
-   "note": "'Doppelflinte' usually means side-by-side; 'Querflinte' also used, mostly by hunters.",
    "conf": "medium"
   },
   "pump-action": {
    "term_local": "Vorderschaftrepetierer",
    "short": "Eine Flinte, die durch Vor- und Zurückschieben des Vorderschafts nachgeladen wird; nach den FITASC-Regeln verboten.",
-   "long": "Bei einem Vorderschaftrepetierer wirft der Schütze die Hülse aus und lädt eine neue Patrone, indem er nach jedem Schuss den Vorderschaft zurück- und vorschiebt. Solche Flinten sind bei der Jagd und in manchen anderen Schießsportarten verbreitet, doch die FITASC-Regeln für Sporting™ und Compak® Sporting verbieten sie ausdrücklich. Erlaubt sind Bock-, Doppel- und Selbstladeflinten im Kaliber 12 oder kleiner. Wer an Wettkämpfen teilnehmen will, sollte keinen Vorderschaftrepetierer als erste Flinte kaufen. Bei manchen Vereinsschießen können die Regeln abweichen, daher die Ausschreibung prüfen.",
+   "long": "Bei einem Vorderschaftrepetierer wirft der Schütze die Hülse aus und lädt eine neue Patrone, indem er nach jedem Schuss den Vorderschaft zurück- und vorschiebt. Solche Flinten sind bei der Jagd verbreitet, doch die FITASC-Regeln für Sporting™ und Compak® Sporting verbieten sie ausdrücklich. Erlaubt sind Bock-, Doppel- und Selbstladeflinten im Kaliber 12 oder kleiner. Wer an Wettkämpfen teilnehmen will, sollte keinen Vorderschaftrepetierer als erste Flinte kaufen. Bei manchen Vereinsschießen können die Regeln abweichen, daher die Ausschreibung prüfen.",
    "alt": [
     "Pumpgun",
     "Repetierflinte"
    ],
-   "note": "DSB: 'Vorderschaftrepetierer (sog. Pumpguns)'; not allowed in Sporting/Compak.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "stock": {
    "term_local": "Schaft",
@@ -1415,7 +1303,6 @@ window.GLOSSARY_I18N.de = {
     "System",
     "Verschlussgehäuse"
    ],
-   "note": "'Basküle' for break-action guns; 'Gehäuse/System' for semi-autos.",
    "conf": "high"
   },
   "barrel-selector": {
@@ -1426,22 +1313,19 @@ window.GLOSSARY_I18N.de = {
     "Laufwahlschalter",
     "Laufumschaltung"
    ],
-   "note": "Often combined with the safety ('Sicherungsschieber mit Laufwahl').",
    "conf": "medium"
   },
   "fore-end": {
    "term_local": "Vorderschaft",
    "short": "Der Teil unter den Läufen, den die vordere Hand hält; er hält auch die Läufe an der Basküle.",
    "long": "Der Vorderschaft ist ein Holz- oder Kunststoffteil unter den Läufen. Die vordere Hand hält ihn und führt die Flinte entlang der Scheibe, daher beeinflusst seine Form den Griff. Bei Kipplaufflinten verriegelt er auch die Läufe mit der Basküle: Um die Flinte für den Transport zu zerlegen, nimmt man zuerst den Vorderschaft ab. Beim Reinigen das Metall unter dem Vorderschaft abwischen, wo sich Feuchtigkeit sammelt. Manche Schützen tragen Handschuhe, um die Hand vor heißen Läufen zu schützen.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "chamber": {
    "term_local": "Patronenlager",
    "short": "Der hintere Teil des Laufs, in dem die Patrone sitzt; es hat eine angegebene Länge.",
    "long": "Das Patronenlager ist etwas weiter als die Bohrung, damit eine Patrone hineinpasst. Seine Länge ist auf dem Lauf eingeschlagen, zum Beispiel 70 mm oder 76 mm. Die Länge auf einer Patronenschachtel bezieht sich auf die nach dem Schuss geöffnete Hülse, daher darf sie die Lagerlänge nicht überschreiten: Das Verschießen längerer Patronen ist gefährlich. Beim Wurfscheibenschießen werden meist Patronen 12/70 verwendet. Vor Trockenübungen oder dem Transport immer prüfen, dass die Patronenlager leer sind.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "rib": {
    "term_local": "Laufschiene",
@@ -1451,7 +1335,6 @@ window.GLOSSARY_I18N.de = {
     "Schiene",
     "Visierschiene"
    ],
-   "note": "Shops: '10 mm Laufschiene'.",
    "conf": "high"
   },
   "ejector": {
@@ -1462,7 +1345,6 @@ window.GLOSSARY_I18N.de = {
     "Auswerfer",
     "Hülsenauswerfer"
    ],
-   "note": "'Ejektor' is the usual word for O/U guns.",
    "conf": "high"
   },
   "barrel-length": {
@@ -1491,7 +1373,6 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Schaftlänge",
    "short": "Der Abstand vom Abzug bis zur Mitte der Schaftkappe.",
    "long": "Die Schaftlänge wird vom Abzug bis zur Mitte der Schaftkappe gemessen. Ist der Schaft zu lang, bleibt er beim Anschlagen an der Kleidung hängen und die Flinte wirkt kopflastig; ist er zu kurz, kann der Daumen der Abzugshand an die Nase schlagen und der Rückstoß fühlt sich stärker an. Geändert wird sie mit einer anderen Schaftkappe, Distanzstücken oder durch Kürzen des Schafts. Kinder und Jugendliche brauchen eine kürzere Länge als Erwachsene, die mit dem Wachstum überprüft wird. Das genaue Maß legt ein Trainer oder Schaftmacher fest.",
-   "note": "Frankonia: '375 mm Schaftlänge'.",
    "conf": "high"
   },
   "cast": {
@@ -1507,8 +1388,7 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Augendominanz",
    "short": "Das Auge, das beim Blick mit beiden Augen führt; es beeinflusst, wie man schießt und wie die Flinte angepasst wird.",
    "long": "Wenn wir mit beiden Augen schauen, bevorzugt das Gehirn eines davon, das dominante Auge. Beim Wurfscheibenschießen ist es dasjenige, das entlang der Schiene schauen muss; daher entscheidet die Augendominanz, an welcher Schulter man anschlägt und welche Schränkung der Schaft braucht. Der einfachste Test: Arme ausstrecken, mit den Händen eine kleine Öffnung bilden, mit beiden Augen durch sie auf einen entfernten Gegenstand schauen und abwechselnd ein Auge schließen. Das Auge, das den Gegenstand weiterhin sieht, ist das dominante. Die Dominanz kann teilweise sein und sich mit dem Alter ändern, daher den Test mit einem Trainer wiederholen.",
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/augendominanz/"
+   "conf": "high"
   },
   "gun-fitter": {
    "term_local": "Schaftmacher (Gun Fitter)",
@@ -1527,8 +1407,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Laufmündung"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "standard-target": {
    "term_local": "Standardscheibe",
@@ -1538,8 +1417,7 @@ window.GLOSSARY_I18N.de = {
     "Standardwurfscheibe",
     "Standardtaube"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "rocket-target": {
    "term_local": "Rocket",
@@ -1552,7 +1430,6 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Rocket-Scheibe"
    ],
-   "note": "Usually left in English.",
    "conf": "low"
   },
   "crosser": {
@@ -1563,9 +1440,7 @@ window.GLOSSARY_I18N.de = {
     "querende Taube",
     "Crosser"
    ],
-   "note": "Rules: 'querende Flugbahnen'; coaches: 'Querreiter', also English 'Crosser'.",
-   "conf": "medium",
-   "src": "https://www.flinten-und-buechsen-coach.de/sample-page/"
+   "conf": "medium"
   },
   "quartering-away": {
    "term_local": "schräg gehende Scheibe",
@@ -1593,9 +1468,7 @@ window.GLOSSARY_I18N.de = {
     "ankommende Scheibe",
     "Incomer"
    ],
-   "note": "Rules: 'kommende'/'ankommende'.",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "going-away": {
    "term_local": "gehende Taube",
@@ -1605,9 +1478,7 @@ window.GLOSSARY_I18N.de = {
     "abgehende Scheibe",
     "wegfliegende Scheibe"
    ],
-   "note": "Rules: 'gehende' (FITASC), 'abgehende/wegfliegende' (DSB).",
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "driven-target": {
    "term_local": "überfliegende Taube",
@@ -1617,9 +1488,7 @@ window.GLOSSARY_I18N.de = {
     "Überkopftaube",
     "Driven"
    ],
-   "note": "Rules: 'überfliegende'; 'über Kopf von vorn'.",
-   "conf": "medium",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "medium"
   },
   "teal": {
    "term_local": "Teal",
@@ -1629,9 +1498,7 @@ window.GLOSSARY_I18N.de = {
     "steil aufsteigende Taube",
     "Krickente"
    ],
-   "note": "English 'Teal' established in German usage.",
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/disziplinen/jagdparcours/"
+   "conf": "high"
   },
   "springing-target": {
    "term_local": "aufsteigende Taube",
@@ -1641,9 +1508,7 @@ window.GLOSSARY_I18N.de = {
     "Springer",
     "steigende Scheibe"
    ],
-   "note": "Rules: 'aufsteigende'.",
-   "conf": "medium",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "medium"
   },
   "looper": {
    "term_local": "Looper",
@@ -1652,9 +1517,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Bogentaube"
    ],
-   "note": "English name used.",
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/disziplinen/jagdparcours/"
+   "conf": "high"
   },
   "biodegradable-target": {
    "term_local": "Biologisch abbaubare Scheibe",
@@ -1673,8 +1536,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Vorhaltemaß"
    ],
-   "conf": "high",
-   "src": "https://www.flinten-und-buechsen-coach.de/schiessmethoden/"
+   "conf": "high"
   },
   "pick-up-point": {
    "term_local": "Augenaufnahmepunkt",
@@ -1683,9 +1545,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Aufnahmepunkt"
    ],
-   "note": "Do not confuse with 'Zielaufnahmepunkt' (where the barrel joins the line).",
-   "conf": "medium",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "medium"
   },
   "break-point": {
    "term_local": "Trefferzone",
@@ -1695,8 +1555,7 @@ window.GLOSSARY_I18N.de = {
     "Treffpunkt",
     "Kill-Point"
    ],
-   "conf": "medium",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "medium"
   },
   "stance": {
    "term_local": "Stand",
@@ -1706,8 +1565,7 @@ window.GLOSSARY_I18N.de = {
     "Fußstellung",
     "Standposition"
    ],
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "high"
   },
   "gun-mount": {
    "term_local": "Anschlag",
@@ -1721,8 +1579,7 @@ window.GLOSSARY_I18N.de = {
     "Anschlagbewegung",
     "in Anschlag gehen"
    ],
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "high"
   },
   "master-eye": {
    "term_local": "Führungsauge",
@@ -1731,8 +1588,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "dominantes Auge"
    ],
-   "conf": "high",
-   "src": "https://www.mueller-manching.de/fuehrungsauge-und-haendigkeit/"
+   "conf": "high"
   },
   "cross-dominance": {
    "term_local": "Kreuzdominanz",
@@ -1741,8 +1597,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "gekreuzte Dominanz"
    ],
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/augendominanz/"
+   "conf": "high"
   },
   "hold-point": {
    "term_local": "Waffenhaltepunkt",
@@ -1755,8 +1610,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Haltepunkt"
    ],
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "high"
   },
   "maintained-lead": {
    "term_local": "Maintained Lead",
@@ -1766,9 +1620,7 @@ window.GLOSSARY_I18N.de = {
     "konstanter Vorhalt",
     "Sustained Lead"
    ],
-   "note": "English method names dominate.",
-   "conf": "high",
-   "src": "https://www.flinten-und-buechsen-coach.de/schiessmethoden/"
+   "conf": "high"
   },
   "pull-away": {
    "term_local": "Pull-Away",
@@ -1778,9 +1630,7 @@ window.GLOSSARY_I18N.de = {
     "Wegziehen",
     "Herausziehen"
    ],
-   "note": "English name dominates; also taught as 'CPSA-Methode'.",
-   "conf": "high",
-   "src": "https://www.gaim.com/de/blog/swing-through-pull-away-or-maintained-lead"
+   "conf": "high"
   },
   "swing-through": {
    "term_local": "Swing-Through",
@@ -1790,9 +1640,7 @@ window.GLOSSARY_I18N.de = {
     "Durchschwingen",
     "Überholen"
    ],
-   "note": "English name dominates.",
-   "conf": "high",
-   "src": "https://www.flinten-und-buechsen-coach.de/schiessmethoden/"
+   "conf": "high"
   },
   "follow-through": {
    "term_local": "Nachschwingen",
@@ -1802,9 +1650,7 @@ window.GLOSSARY_I18N.de = {
     "Wegschwingen",
     "Nachhalten"
    ],
-   "note": "Terms vary by coach.",
-   "conf": "medium",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "medium"
   },
   "stopping-the-gun": {
    "term_local": "Abstoppen",
@@ -1814,8 +1660,7 @@ window.GLOSSARY_I18N.de = {
     "Stehenbleiben",
     "Anhalten der Flinte"
    ],
-   "conf": "medium",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "medium"
   },
   "head-lift": {
    "term_local": "Kopfheben (Wange vom Schaft nehmen)",
@@ -1833,7 +1678,6 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Zucken"
    ],
-   "note": "Common hunter/shooter slang for anticipating the shot.",
    "conf": "medium"
   },
   "pre-shot-routine": {
@@ -1867,8 +1711,7 @@ window.GLOSSARY_I18N.de = {
     "Anschlagtraining",
     "Trockenanschlag"
    ],
-   "conf": "medium",
-   "src": "https://www.wurfscheibe.net/einfuehrung/trockentraining/"
+   "conf": "medium"
   },
   "training-diary": {
    "term_local": "Trainingstagebuch",
@@ -1884,8 +1727,7 @@ window.GLOSSARY_I18N.de = {
     "Flintentrainer",
     "Coach"
    ],
-   "conf": "high",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "high"
   },
   "process-goal": {
    "term_local": "Prozessziel",
@@ -1908,9 +1750,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Waffenständer"
    ],
-   "note": "FITASC German: 'Gewehrständer'; DSB: 'Waffenständer'.",
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "gun-slip": {
    "term_local": "Futteral",
@@ -1929,9 +1769,7 @@ window.GLOSSARY_I18N.de = {
    "alt": [
     "Spätzündung"
    ],
-   "note": "'Versager' is a misfire (the cartridge does not fire); a delayed shot is 'Nachbrenner'.",
-   "conf": "medium",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "medium"
   },
   "hard-case": {
    "term_local": "Waffenkoffer",
@@ -1941,7 +1779,6 @@ window.GLOSSARY_I18N.de = {
     "Koffer",
     "Hartschalenkoffer"
    ],
-   "note": "Frankonia: 'ABS Koffer'.",
    "conf": "medium"
   },
   "shooting-vest": {
@@ -1952,8 +1789,7 @@ window.GLOSSARY_I18N.de = {
     "sporting": "Eine kontrastierende Linie 25 cm unterhalb der Schulterachse ist Pflicht.",
     "compak": "Die Compak-Regeln verlangen keine Westenmarkierung."
    },
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "shoulder-pad": {
    "term_local": "Schulterpolster",
@@ -1978,8 +1814,7 @@ window.GLOSSARY_I18N.de = {
     "Gehörschutzstöpsel",
     "Otoplastik (custom)"
    ],
-   "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf"
+   "conf": "high"
   },
   "passive-ear-muffs": {
    "term_local": "Passiver Kapselgehörschutz",
@@ -1999,8 +1834,7 @@ window.GLOSSARY_I18N.de = {
    "term_local": "Patronentasche",
    "short": "Eine robuste Umhängetasche für den Patronenvorrat eines Tages.",
    "long": "Eine Patronentasche fasst mehrere Schachteln, einen Vorrat für eine oder mehrere Serien. Sie wird zwischen den Ständen über der Schulter getragen, und vor jedem Stand werden Patronen in die Westentaschen oder einen Gürtelbeutel umgefüllt. Eine gute Tasche hat einen stabilen Boden, einen breiten Gurt und lässt sich gegen Regen verschließen. Bedenken: 100 Patronen im Kaliber 12 wiegen mehrere Kilogramm, daher nicht mehr mitnehmen als nötig. Bei Wettkämpfen muss der Schütze mit genügend Patronen für die ganze Serie bereit sein.",
-   "conf": "medium",
-   "src": "https://www.wurfscheibe.net/einfuehrung/bewegungsbeschreibung-flintenschiessen/"
+   "conf": "medium"
   },
   "cartridge-pouch": {
    "term_local": "Patronenbeutel (Gürteltasche)",
@@ -2044,8 +1878,7 @@ window.GLOSSARY_I18N.de = {
     "Meldung",
     "Nennung"
    ],
-   "conf": "medium",
-   "src": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Waffenrecht/Schiesssport/bds_Wurfscheiben_WS.pdf?__blob=publicationFile&v=4"
+   "conf": "medium"
   },
   "entry-fee": {
    "term_local": "Startgeld",
@@ -2059,8 +1892,7 @@ window.GLOSSARY_I18N.de = {
     "Startgebühr",
     "Nenngeld"
    ],
-   "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf"
+   "conf": "high"
   },
   "open-ranking": {
    "term_local": "Offene Wertung (Gesamtwertung)",
@@ -2162,7 +1994,6 @@ window.GLOSSARY_I18N.de = {
     "Läufe (pl.)"
    ],
    "conf": "high",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf",
    "short": "Das Rohr, durch das die Schrotgarbe fliegt."
   },
   "adjustable-comb": {
@@ -2171,7 +2002,6 @@ window.GLOSSARY_I18N.de = {
     "verstellbare Schaftbacke",
     "Adjustable Comb"
    ],
-   "note": "Frankonia: 'mit verstellbaren Schaftrücken'.",
    "conf": "high",
    "short": "Ein Schaftrücken, der sich anheben, absenken oder seitlich verschieben lässt, damit das Auge genau entlang der Schiene blickt."
   },
@@ -2190,7 +2020,6 @@ window.GLOSSARY_I18N.de = {
     "Abzugszüngel",
     "Einabzug (single trigger)"
    ],
-   "note": "Abzugszüngel = trigger blade; 'selektiver Einabzug' = single selective trigger.",
    "conf": "high",
    "short": "Hebel, mit dem der Schuss ausgelöst wird."
   },
@@ -2214,7 +2043,6 @@ window.GLOSSARY_I18N.de = {
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "English layout name; shooters usually keep the English word.",
    "conf": "medium",
    "short": "Scheibe, die in einem Bogen steil steigt und dann abfällt. Nicht zu verwechseln mit der französischen „chandelle“, die eine senkrecht steigende Scheibe (Teal) bezeichnet."
   },
@@ -2224,9 +2052,7 @@ window.GLOSSARY_I18N.de = {
     "einfallende Scheibe",
     "Dropper"
    ],
-   "note": "DSB: 'einfallende'.",
    "conf": "medium",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf",
    "short": "Scheibe, die im Fallen beschossen wird."
   },
   "visible-piece": {
@@ -2235,7 +2061,6 @@ window.GLOSSARY_I18N.de = {
     "sichtbares Stück"
    ],
    "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf",
    "short": "Eine Scheibe gilt als getroffen, wenn mindestens ein sichtbares Teil abbricht."
   },
   "loading": {
@@ -2245,7 +2070,6 @@ window.GLOSSARY_I18N.de = {
     "entladen"
    ],
    "conf": "high",
-   "src": "https://www.fitasc.com/upload/reglements/Rglts_PCH_010108_ALL.pdf",
    "short": "Patronen erst am Stand in die Flinte laden und danach wieder herausnehmen."
   },
   "quiet-on-stand": {
@@ -2259,7 +2083,6 @@ window.GLOSSARY_I18N.de = {
     "abgeschossene Hülsen"
    ],
    "conf": "medium",
-   "src": "https://www.dsb.de/fileadmin/DSB.DE/PDF/PDF_2021/2000204_DSB_Teil_03_2021-safe.pdf",
    "short": "Abgeschossene Hülsen; sie werden eingesammelt und nicht auf dem Boden liegen gelassen."
   },
   "move-mount-shoot": {
@@ -2402,12 +2225,12 @@ window.GLOSSARY_I18N.de = {
   "fur-and-feather": {
    "term_local": "Fur and Feather (Hase und Flugscheibe)",
    "conf": "low",
-   "short": "Ausdruck aus dem English Sporting für eine Doublette aus einem Hasen und einer Flugscheibe."
+   "short": "Ausdruck britischer Trainer für eine Doublette aus einem Hasen und einer Flugscheibe."
   },
   "true-pair": {
    "term_local": "True Pair (Simultan-Doublette)",
    "conf": "low",
-   "short": "Bezeichnung im English Sporting für eine Simultan-Doublette: beide Scheiben werden gleichzeitig geworfen."
+   "short": "So nennen britische Trainer eine Simultan-Doublette: beide Scheiben werden gleichzeitig geworfen."
   },
   "shell-catcher": {
    "term_local": "Hülsenfänger",
@@ -2457,27 +2280,7 @@ window.GLOSSARY_I18N.de = {
   "gun-up": {
    "term_local": "Gun up (Voranschlag)",
    "conf": "low",
-   "short": "Mit bereits angeschlagener Flinte vor dem Abruf beginnen; im English Sporting, bei der NSCA und im Compak® erlaubt, im FITASC Sporting™ nicht."
-  },
-  "english-sporting": {
-   "term_local": "English Sporting",
-   "conf": "low",
-   "short": "Die britische Form des Parcoursschießens, in England von der CPSA neben dem FITASC Sporting™ ausgerichtet; sie hat eigene Regeln: Doubletten sind häufig, und Schützen beginnen oft mit bereits angeschlagener Flinte."
-  },
-  "cpsa": {
-   "term_local": "CPSA",
-   "conf": "low",
-   "short": "Clay Pigeon Shooting Association, der Dachverband des Wurfscheibenschießens in England."
-  },
-  "nsca": {
-   "term_local": "NSCA",
-   "conf": "low",
-   "short": "National Sporting Clays Association, die das Sporting Clays in den USA regelt."
-  },
-  "hoa": {
-   "term_local": "HOA (Gesamtsieger)",
-   "conf": "low",
-   "short": "Der Gesamtsieger einer Veranstaltung, unabhängig von Kategorie oder Klasse."
+   "short": "Mit bereits angeschlagener Flinte vor dem Abruf beginnen; im Compak® Sporting erlaubt, im Parcours de Chasse – Sporting™ nicht."
   },
   "clock-face": {
    "term_local": "Zifferblatt (Uhrzeit-Angabe)",
@@ -2497,9 +2300,7 @@ window.GLOSSARY_I18N.de = {
     "Abfangen"
    ],
    "conf": "medium",
-   "short": "Eine Vorhaltemethode, bei der die Mündungen ruhig an einem Punkt vor der Scheibe warten und abgezogen wird, bevor die Scheibe ihn erreicht, sodass sie in den Schuss fliegt.",
-   "note": "German-speaking Sporting/Compak coaches use the English loanword «Spot Shooting» / «Spot-Methode» for this wait-at-the-point method; «Abfangen» appears in older hunting literature for a related snap shot.",
-   "src": "https://www.flinten-und-buechsen-coach.de/schiessmethoden-flinte-swing-through-maintained-lead/"
+   "short": "Eine Vorhaltemethode, bei der die Mündungen ruhig an einem Punkt vor der Scheibe warten und abgezogen wird, bevor die Scheibe ihn erreicht, sodass sie in den Schuss fliegt."
   },
   "instinctive-shooting": {
    "term_local": "instinktives Schießen",

@@ -4153,7 +4153,7 @@ window.RULES.push({
      "page": 27,
      "title_en": "Carrying and storing guns",
      "title_uk": "Перенесення і зберігання рушниць",
-     "summary_en": "Every gun, even unloaded, must be handled with the greatest care. Guns are carried open and unloaded; semi-automatics with the breech open and the muzzle pointing straight up or down. A gun not in use goes upright in a gun rack or a place provided for it. Nobody may touch another competitor's gun without permission.",
+     "summary_en": "Treat every gun with the utmost care, loaded or not. Guns are carried open and unloaded; semi-automatics with the breech open and the muzzle pointing straight up or down. A gun not in use goes upright in a gun rack or a place provided for it. Nobody may touch another competitor's gun without permission.",
      "summary_uk": "З будь-якою рушницею, навіть розрядженою, слід поводитися якнайобережніше. Рушниці переносять відкритими й розрядженими; напівавтомати — з відкритим затвором і стволом, спрямованим прямо вгору або вниз. Рушницю, якою не користуються, ставлять вертикально в стійку або в призначене для цього місце. Торкатися чужої рушниці без дозволу власника заборонено.",
      "points_en": [
       "Carry guns open and unloaded.",

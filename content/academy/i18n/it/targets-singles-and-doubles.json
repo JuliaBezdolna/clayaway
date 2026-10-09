@@ -7,7 +7,7 @@
     "summary": "8c511174",
     "flight-pairs-p1": "de3af0f1",
     "flight-pairs-p2": "4807909e",
-    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p4": "2b3ac612",
     "flight-pairs-p3": "5326e900",
     "targets-singles-and-doubles-cartridges": "9881669e",
     "targets-singles-and-doubles-p6": "563c8328",
@@ -17,7 +17,7 @@
     "flight-pairs-ph1": "9a849839",
     "flight-pairs-ph2": "113027fe",
     "flight-pairs-ph3": "07db0d22",
-    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-ph4": "bc04a541",
     "flight-pairs-kp1": "ef123d9b",
     "flight-pairs-kp2": "3dee0536",
     "flight-pairs-kp3": "dd039d2b",
@@ -27,9 +27,10 @@
     "flight-pairs-q1": "ebe2b5dc",
     "flight-pairs-q2": "f669f8a6",
     "targets-singles-and-doubles-q2": "69c2d15d",
-    "flight-pairs-q3": "424310f9",
+    "flight-pairs-q3": "61892e73",
     "targets-singles-and-doubles-q1": "de200647",
-    "targets-singles-and-doubles-q-two-with-one": "e024bf17"
+    "targets-singles-and-doubles-q-two-with-one": "e024bf17",
+    "flight-pairs-sim": "cd49e005"
   },
   "review": {
     "by": null,
@@ -41,7 +42,7 @@
   "body": {
     "flight-pairs-p1": "Un {{term:single-target|singolo}} è un piattello da una {{term:trap|macchina}}. In entrambe le discipline gli si possono sparare due colpi, quindi se manchi puoi sparare di nuovo con la seconda canna. Un {{term:double|doppio}}, detto anche pair, sono due piattelli che vanno insieme: una sola chiamata, e tiri a entrambi.",
     "flight-pairs-p2": "{{term:double-on-report|Doppio allo sparo}}, detto anche report pair: la chiamata fa partire il primo piattello, e il colpo sparato a esso fa partire il secondo. Nello {{tm:sporting}} il secondo parte da 0 a 3 secondi dopo quel colpo. L'ordine è fisso. «Report» qui indica il rumore dello sparo, non un rapporto scritto.",
-    "flight-pairs-p4": "{{term:simultaneous-double|Doppio simultaneo}}, o «simo» (nell'{{term:english-sporting|English Sporting}} un «{{term:true-pair|true pair}}»): entrambi i piattelli partono nello stesso momento e si possono tirare in qualsiasi ordine. Arrivano da una o due macchine; nel {{tm:compak}} sempre da due macchine diverse.",
+    "flight-pairs-p4": "{{term:simultaneous-double|Doppio simultaneo}}, o «simo» (gli istruttori britannici dicono anche «{{term:true-pair|true pair}}»): entrambi i piattelli partono nello stesso momento e si possono tirare in qualsiasi ordine. Arrivano da una o due macchine; nel {{tm:compak}} sempre da due macchine diverse.",
     "flight-pairs-p3": "Following pair, che la FITASC chiama {{term:rafale-double|rafale}}: due piattelli dalla stessa macchina sulla stessa traiettoria, il secondo parte appena la macchina si è ricaricata. Puoi sparare prima a uno o all'altro. Esiste solo nello {{tm:sporting}}: un doppio nel {{tm:compak}} è allo sparo o simultaneo.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Due cartucce per il doppio, ed entrambe possono essere sparate a un solo piattello. Se un colpo rompe entrambi i piattelli, contano entrambi come colpiti (l'arbitro chiama «one» per ciascuno).",
@@ -50,7 +51,8 @@
     "targets-singles-and-doubles-p6": "Come si contano i doppi, incluso zero-zero e il No Bird in un doppio, è spiegato in {{lesson:rules-doubles}}.",
     "flight-pairs-p6": "Su una pedana {{tm:sporting}} la batteria tira prima i singoli, poi i doppi. Prima di tirare, i doppi simultanei e a raffica vengono lanciati perché i tiratori li vedano (si mostrano al primo tiratore della batteria); i doppi allo sparo non si mostrano.",
     "targets-singles-and-doubles-p5": "Un {{term:layout|campo}} {{tm:sporting}} dà {{fact:targets.sporting-layout-targets}}, e i doppi usano solo piattelli già mostrati come singoli dalla stessa pedana. Anche una {{term:round|serie}} {{tm:compak}} è di 25 piattelli, cinque per pedana, in uno di tre modi: {{fact:targets.compak-station-menus}}.",
-    "targets-singles-and-doubles-tip1": "Prima di chiamare un doppio, molti istruttori suggeriscono di pianificare entrambi i piattelli: quale prima, dove rompere ciascuno, e dove vanno gli occhi per il secondo. Di più in {{lesson:faults-pairs-transition}}."
+    "targets-singles-and-doubles-tip1": "Prima di chiamare un doppio, molti istruttori suggeriscono di pianificare entrambi i piattelli: quale prima, dove rompere ciascuno, e dove vanno gli occhi per il secondo. Di più in {{lesson:faults-pairs-transition}}.",
+    "flight-pairs-sim": "Un piattello, poi i tre doppi: allo sparo, simultaneo e a raffica; guarda quando parte il secondo piattello."
   },
   "note": {},
   "phrases": {
@@ -67,7 +69,7 @@
       "say": "A raffica: dopo il primo torna subito sulla macchina per il secondo."
     },
     "flight-pairs-ph4": {
-      "meaning": "Cinque doppi simultanei lanciati dalla {{term:tower|torre}} — formula dell'English Sporting.",
+      "meaning": "Cinque doppi simultanei lanciati dalla {{term:tower|torre}} — formula degli istruttori britannici.",
       "say": "Doppi simultanei dalla torre, cinque."
     }
   },
@@ -117,7 +119,7 @@
         "c": "Un doppio a raffica",
         "d": "Un doppio simultaneo"
       },
-      "explain": "«True pair» è il nome dell'English Sporting per il doppio simultaneo; «true» non ha niente a che fare con la correttezza."
+      "explain": "«True pair» è il nome che gli istruttori britannici danno al doppio simultaneo; «true» non ha niente a che fare con la correttezza."
     },
     "targets-singles-and-doubles-q1": {
       "q": "Quanti piattelli dà un {{term:layout|campo}} {{tm:sporting}}?",

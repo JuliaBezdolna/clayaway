@@ -1,4 +1,4 @@
-/* ClayArena glossary — lt: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
+/* ClayArena glossary — lt: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/lt.json, not published); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.lt = {
  "lang": "lt",
@@ -10,7 +10,6 @@ window.GLOSSARY_I18N.lt = {
     "šautuvas"
    ],
    "conf": "high",
-   "src": "https://www.vle.lt/straipsnis/saudymas-1/",
    "short": "Lygiavamzdis medžioklinis šautuvas, naudojamas Sporting™ ir Compak® Sporting varžybose.",
    "long": "Galima naudoti bet kurį medžioklinį lygiavamzdį šautuvą, taip pat pusiau automatinį, ne didesnio kaip 12 kalibro ir su ne trumpesniais kaip 66 cm (26 colių) vamzdžiais. Pompiniai šautuvai neleidžiami, o Compak taisyklės draudžia ir trivamzdžius (drilingus). Draudžiami diržai, prie ginklo tvirtinamos mikrokameros ir bet kokie dirbtiniai taikymo prietaisai. Niekas negali liesti kito šaulio šautuvo be leidimo, o du tos pačios grupės šauliai negali naudotis vienu šautuvu. Compak® Sporting šūviai, iššauti iš reikalavimų neatitinkančio šautuvo ar šoviniais prieš patikrinimą, vertinami nuliu.",
    "disciplines": {
@@ -24,7 +23,6 @@ window.GLOSSARY_I18N.lt = {
     "vertikaliai dvejintas lygiavamzdis"
    ],
    "conf": "medium",
-   "src": "https://medzioklezurnalas.lt/lygiavamzdis-ginklas-3-dalis-lygiavamzdziu-tipai",
    "short": "Šautuvas su dviem vienas virš kito esančiais vamzdžiais; dažniausias tipas Sporting™ ir Compak® Sporting.",
    "long": "Vertikalus dvivamzdis turi du vamzdžius vieną virš kito, lūžtamą spyną ir paprastai vieną gaiduką su vamzdžių perjungikliu. Siaura taikymo plokštuma išilgai taikymo juostelės, geras balansas ir patikimumas padarė jį standartu Sporting™ ir Compak® Sporting rungtyse. Abiejuose vamzdžiuose gali būti skirtingi čokai, todėl pirmas ir antras šūvis tinka skirtingiems atstumams. Atlaužtas vertikalus dvivamzdis visiems iš karto rodo, kad jis saugus, ir tai patogu šaudymo vietoje. Tai dažniausias pradedančiojo pirmasis ginklas."
   },
@@ -34,7 +32,6 @@ window.GLOSSARY_I18N.lt = {
     "horizontaliai dvejintas dvivamzdis"
    ],
    "conf": "medium",
-   "src": "https://medzioklezurnalas.lt/lygiavamzdis-ginklas-3-dalis-lygiavamzdziu-tipai",
    "short": "Šautuvas su dviem greta esančiais vamzdžiais; klasikinis medžioklinis ginklas.",
    "long": "Horizontaliame dvivamzdyje vamzdžiai yra greta, todėl taikymo plokštuma platesnė nei vertikaliame. Tai klasikinis medžioklinis šautuvas, dažnai lengvas ir elegantiškas, neretai su dviem gaidukais. FITASC taisyklės leidžia bet kokį medžioklinį šautuvą, išskyrus pompinius, todėl horizontalų dvivamzdį galima naudoti varžybose. Vis dėlto šiuolaikinėse Sporting™ ir Compak® Sporting varžybose jis retas: dauguma šaulių renkasi vertikalų dvivamzdį arba pusiau automatinį šautuvą. Kai kurie šaudo horizontaliu dvivamzdžiu dėl tradicijos arba specialiose klubo varžybų klasėse."
   },
@@ -44,7 +41,6 @@ window.GLOSSARY_I18N.lt = {
     "pusautomatis"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Savaime persikraunantis lygiavamzdis šautuvas, leidžiamas abiejose disciplinose, su ypatingomis elgesio su juo taisyklėmis.",
    "long": "Pusiau automatiniai šautuvai leidžiami, bet į juos galima užtaisyti ne daugiau kaip du šovinius. Jie nešami ir laikomi atidaryta spyna, vamzdžiu tiesiai aukštyn arba žemyn. Jų savininkai, palikę šaudymo vietą, turi surinkti išmestas tūteles ir išmesti jas į dėžę. Compak pusiau automatinis šautuvas taip pat turi turėti įtaisą, neleidžiantį išmestoms tūtelėms trukdyti gretimam šauliui. Su atleidžiamuoju nuleistuku iškrovimas po No Bird reiškia: įjungti saugiklį ir du kartus atitraukti užtaisymo rankenėlę.",
    "disciplines": {
@@ -56,11 +52,9 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "pompinis"
    ],
-   "note": "Draudžiamas sportinge (LSF taisyklės).",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šautuvas, perkraunamas stumdant lovelį pirmyn ir atgal; FITASC taisyklės jį draudžia.",
-   "long": "Su pompiniu šautuvu šaulys po kiekvieno šūvio išmeta tūtelę ir įstato naują šovinį, patraukdamas lovelį atgal ir pirmyn. Tokie šautuvai paplitę medžioklėje ir kai kuriose kitose šaudymo sporto šakose, bet FITASC Sporting™ ir Compak® Sporting taisyklės juos aiškiai draudžia. Leidžiami 12 ar mažesnio kalibro vertikalūs ir horizontalūs dvivamzdžiai bei pusiau automatiniai šautuvai. Jei ketinate dalyvauti varžybose, nepirkite pompinio šautuvo kaip pirmojo ginklo. Kai kurių klubo varžybų taisyklės gali skirtis, todėl pasiskaitykite nuostatus."
+   "long": "Su pompiniu šautuvu šaulys po kiekvieno šūvio išmeta tūtelę ir įstato naują šovinį, patraukdamas lovelį atgal ir pirmyn. Tokie šautuvai paplitę medžioklėje, bet FITASC Sporting™ ir Compak® Sporting taisyklės juos aiškiai draudžia. Leidžiami 12 ar mažesnio kalibro vertikalūs ir horizontalūs dvivamzdžiai bei pusiau automatiniai šautuvai. Jei ketinate dalyvauti varžybose, nepirkite pompinio šautuvo kaip pirmojo ginklo. Kai kurių klubo varžybų taisyklės gali skirtis, todėl pasiskaitykite nuostatus."
   },
   "gauge": {
    "term_local": "kalibras",
@@ -68,7 +62,6 @@ window.GLOSSARY_I18N.lt = {
     "12 kalibras"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Lygiavamzdžio šautuvo vamzdžio kanalo dydis; didžiausias leidžiamas – 12.",
    "long": "Abiejose taisyklėse leidžiami ne didesnio kaip 12 kalibro šautuvai su ne trumpesniais kaip 66 cm vamzdžiais. Todėl mažesni kalibrai leidžiami, bet 28 g švino (+2 %) užtaiso riba taikoma kiekvienam šautuvui."
   },
@@ -78,14 +71,11 @@ window.GLOSSARY_I18N.lt = {
     "vamzdžiai"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Vamzdis, kuriuo skrieja šratai."
   },
   "barrel-length": {
    "term_local": "vamzdžio ilgis",
-   "note": "Taisyklės: ne mažesnis kaip 66 cm.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Vamzdžių ilgis; FITASC reikalauja ne mažiau kaip 66 cm (26 col.), įprasti varžybų šautuvai turi 28, 30 ar 32 colių vamzdžius.",
    "long": "FITASC Sporting™ ir Compak® Sporting taisyklės reikalauja bent 66 cm (26 colių) ilgio vamzdžių. Sportiniai šautuvai dažniausiai turi 28, 30 ar 32 colių vamzdžius (apie 71, 76 ir 81 cm). Ilgesni vamzdžiai juda tolygiau ir geriau laiko liniją; trumpesni yra greitesni ir lengvesni. Suaugusiam pradedančiajam dažnai siūloma 30 colių, o jaunam ar smulkesniam šauliui – trumpesni vamzdžiai. Galutinį sprendimą priimkite su treneriu, nes svarbus ir bendras šautuvo balansas."
   },
@@ -94,7 +84,6 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "ventiliuojama juostelė"
    ],
-   "note": "Dokumentuoto termino nerasta.",
    "conf": "low",
    "short": "Taikymo juostelė išilgai vamzdžių viršaus, dažniausiai ventiliuojama, su mušiu gale.",
    "long": "Taikymo juostelė yra metalinė juosta išilgai viršutinio vamzdžio. Vėdinama juostelė turi angas, kad karštas oras virš vamzdžių mažiau iškreiptų vaizdą. Juostelės gale yra mušis, kartais ir vidurinis mušis. Šaudant į lėkšteles netaikoma išilgai juostelės kaip su šautuvu kulkomis: žiūrite į taikinį, o juostelę matote periferiniu matymu. Kiek juostelės matote atrėmę šautuvą į petį, priklauso nuo skruostinės atramos aukščio ir yra svarbi ginklo pritaikymo dalis."
@@ -122,7 +111,6 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "ginklo korpusas"
    ],
-   "note": "Taisyklėse 'spyna' – pusiau automato mechanizmas.",
    "conf": "low",
    "short": "Metalinis šautuvo blokas su šaudymo mechanizmu, atlaužimo svirtimi ir saugikliu.",
    "long": "Spyna sujungia vamzdžius, buožę ir lovelį. Jos viduje yra šaudymo mechanizmas, o viršuje – atlaužimo svirtis, kuria atlaužiamas lūžtamas šautuvas, ir saugiklis, dažnai sujungtas su vamzdžių perjungikliu. Apačioje gaiduko apsaugoje yra gaidukas. Ant spynos paprastai yra serijos numeris ir patikros žymės, reikalingos dokumentams ir kelionėms. Spynos patys neardykite: mechanizmo priežiūra yra ginklininko darbas."
@@ -130,7 +118,6 @@ window.GLOSSARY_I18N.lt = {
   "stock": {
    "term_local": "buožė",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šautuvo dalis, atremiama į petį ir laikanti skruostą.",
    "long": "Buožė dažniausiai medinė, kartais sintetinė. Jos viršutinis kraštas yra skruostinė atrama, ant kurios guli skruostas, o gale yra buožės padas, kuris remiasi į petį. Buožės matmenys (ilgis, skruostinės atramos aukštis, šoninis išlinkimas) lemia, kur akis yra taikymo juostelės atžvilgiu ir ar šautuvas šauna ten, kur žiūrite. Todėl buožė yra pagrindinis ginklo pritaikymo objektas. Pagal FITASC taisykles šautuvas su atleidžiamu gaiduku (release) turi turėti ant išorinės buožės pusės lipduką su didele raide „R“."
   },
@@ -139,7 +126,6 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "buožės ketera"
    ],
-   "note": "Taisyklėse tik 'reguliuojama atrama'.",
    "conf": "low",
    "short": "Viršutinis buožės kraštas, į kurį remiasi skruostas; nuo jo aukščio priklauso, kur akis yra virš taikymo juostelės.",
    "long": "Skruostinė atrama veikia kaip galinis šautuvo taikiklis: akis atsiduria ten, kur ją pastato skruostas. Per aukšta atrama verčia šautuvą šauti aukštai, per žema – žemai, ir šaulys mato mažiau taikymo juostelės. Daug sportinių šautuvų turi reguliuojamą skruostinę atramą, kurią galima pakelti, nuleisti ar pastumti į šoną. Sporting™ parengties pozicijos taisyklė remiasi aukščiausia buožės dalimi: prieš iškviečiant taikinį jos galinis galas turi likti žemiau linijos ant liemenės, kol taikinys pasirodys. Skruostinę atramą reguliuokite kartu su treneriu ar ginklo pritaikymo specialistu."
@@ -150,7 +136,6 @@ window.GLOSSARY_I18N.lt = {
     "reguliuojama skruostinė atrama"
    ],
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Skruostinė atrama, kurią galima pakelti, nuleisti ar pastumti į šoną, kad akis žiūrėtų tiksliai išilgai taikymo juostos."
   },
   "fore-end": {
@@ -159,7 +144,6 @@ window.GLOSSARY_I18N.lt = {
     "priekinė rankena"
    ],
    "conf": "medium",
-   "src": "https://shootingclub.lt/teisingo-leksteliu-saudymo-mokykla-100100-stendinio-saudymo-vadovelis/",
    "short": "Dalis po vamzdžiais, laikoma priekine ranka; ji taip pat laiko vamzdžius prie spynos.",
    "long": "Lovelis yra medinė ar sintetinė dalis po vamzdžiais. Jį laiko priekinė ranka ir ja veda šautuvą paskui taikinį, todėl jo forma veikia suėmimą. Lūžtamuose šautuvuose jis taip pat pritvirtina vamzdžius prie spynos: išardant šautuvą transportavimui, pirmiausia nuimamas lovelis. Valydami nušluostykite metalą po loveliu, kur kaupiasi drėgmė. Kai kurie šauliai mūvi pirštines, kad apsaugotų ranką nuo karštų vamzdžių."
   },
@@ -176,9 +160,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "nuleistukas"
    ],
-   "note": "Šaulių kalboje 'gaidukas'; 'nuleistukas' – techninis terminas.",
    "conf": "medium",
-   "src": "https://shootingclub.lt/teisingo-leksteliu-saudymo-mokykla-100100-stendinio-saudymo-vadovelis/",
    "short": "Svirtelė, kurią nuspaudus šautuvas iššauna."
   },
   "release-trigger": {
@@ -186,7 +168,6 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "release"
    ],
-   "note": "Dažnai vartojamas anglicizmas 'release'.",
    "conf": "low",
    "short": "Nuleistukas, kuris iššauna jį atleidus, o ne nuspaudus.",
    "long": "Šautuvas su atleidžiamuoju nuleistuku turi turėti įspėjamąjį lipduką su didele raide „R“ ant fluorescencinio fono išorinėje buožės pusėje. Jei šalies šeimininkės įstatymai tarptautinėse varžybose draudžia atleidžiamuosius nuleistukus, tai turi būti nurodyta programoje. Jei No Bird ar kas nors kita sutrukdo šūviui, šaulys laiko nuleistuką nuspaustą ir arba prašo naujo taikinio, arba atidaro šautuvą jį laikydamas (pusiau automatinis: saugiklis įjungiamas ir užtaisymo rankenėlė du kartus atitraukiama), arba praneša teisėjui ir iššauna teisėjo nurodyta saugia kryptimi. Jei No Bird susijęs su antru taikiniu po pirmo šūvio, naudojant sistemą „atleisti, tada nuspausti“, šautuvas tiesiog atidaromas."
@@ -197,7 +178,6 @@ window.GLOSSARY_I18N.lt = {
     "saugos fiksatorius"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šautuvo slankiklis, blokuojantis nuleistuką."
   },
   "barrel-selector": {
@@ -223,9 +203,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "amortizuojantis padas"
    ],
-   "note": "Taisyklėse 'šautuvo buožės padas'.",
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Guminis arba gelinis padas buožės gale, slopinantis atatranką; jis taip pat keičia buožės ilgį."
   },
   "choke": {
@@ -234,9 +212,7 @@ window.GLOSSARY_I18N.lt = {
     "skleistuvas",
     "droselis"
    ],
-   "note": "Šaulių kalboje dominuoja 'čokas'; 'skleistuvas' – žurnalų terminas.",
    "conf": "high",
-   "src": "https://lt.wikipedia.org/wiki/Čokas_(vamzdis)",
    "short": "Nuimamas vamzdžio žiočių susiaurinimas, formuojantis šratų spiečių.",
    "long": "Sportinge nuimamą čoką, kaip ir šautuvą ar vamzdį, serijos metu galima pakeisti tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų, jei dėl to nesusidaro delsimas; šauliui jau esant šaudymo vietoje keisti nieko negalima. Compak keisti šautuvą, čokus ar vamzdžius toje pačioje serijoje draudžiama – tai leidžiama tik tarp serijų, išskyrus gedimo atvejį.",
    "disciplines": {
@@ -250,7 +226,6 @@ window.GLOSSARY_I18N.lt = {
     "neatskiriamas čokas"
    ],
    "conf": "high",
-   "src": "https://www.medzioklezurnalas.lt/keiciami-lygiavamzdzio-skleistuvai-cokai",
    "short": "Gamykloje į vamzdį įdirbtas čokas; pakeisti jį gali tik ginklininkas.",
    "long": "Šautuve su fiksuotu skleistuvu susiaurinimas išdirbtas tiesiai vamzdžių žiočių dalyje, ir kiekvienas vamzdis turi savąjį, pavyzdžiui, 1/4 ir 1/2. Tokių šautuvų yra tarp senesnių modelių ir tarp tam tikrų rungčių ginklų. Jų pranašumas – paprastumas: niekas negali atsilaisvinti ar pasimesti. Trūkumas tas, kad susiaurinimo negalima pakeisti skirtingiems taikiniams. Ginklininkas gali praplatinti fiksuotą skleistuvą arba įsriegti vamzdžius keičiamiems čokams, bet tai negrįžtamas darbas, kurį verta aptarti iš anksto."
   },
@@ -261,7 +236,6 @@ window.GLOSSARY_I18N.lt = {
     "keičiami skleistuvai"
    ],
    "conf": "high",
-   "src": "https://www.medzioklezurnalas.lt/keiciami-lygiavamzdzio-skleistuvai-cokai",
    "short": "Įsukamų čokų sistema: srieginiai čokai įsukami į vamzdžio žiotis.",
    "long": "Šautuve su keičiamais čokais kiekvieno vamzdžio žiotys turi sriegį, o kartu su šautuvu pateikiami keli skirtingo susiaurinimo čokai. Taip vienas šautuvas tinka ir artimiems, ir tolimiems taikiniams. Skirtingų gamintojų sistemos turi skirtingus sriegius ir ilgius, todėl vienos markės čokai paprastai netinka kitai. Niekada nešaukite su tuščiu sriegiu be įsukto čoko: tai gali sugadinti vamzdį. Keitimo taisyklės skiriasi: Sporting™ čoką galima keisti tarp šaudymo vietų arba tarp pavienių taikinių ir dubletų, jei tai nesukelia delsimo, o Compak® Sporting – tik tarp serijų.",
    "disciplines": {
@@ -290,7 +264,6 @@ window.GLOSSARY_I18N.lt = {
     "be čoko"
    ],
    "conf": "medium",
-   "src": "https://www.medzioklezurnalas.lt/keiciami-lygiavamzdzio-skleistuvai-cokai",
    "short": "Vamzdis ar čokas be susiaurinimo; duoda plačiausią šratų spiečių.",
    "long": "Cilindras reiškia nulinį susiaurinimą: vamzdžio kanalas prie žiočių toks pat kaip ir vamzdyje. Šratų debesis pasklinda greičiausiai, todėl spiečius arti platus, o toliau išretėja. Jis renkamasis labai artimiems taikiniams, pavyzdžiui, kai kuriems triušiams ar netoli šaulio iššokantiems taikiniams. Beretta čokuose jis žymimas penkiomis žvaigždutėmis. Daugumai taikinių Sporting™ ir Compak® Sporting šauliai renkasi šiek tiek siauresnius čokus."
   },
@@ -310,7 +283,6 @@ window.GLOSSARY_I18N.lt = {
     "IC"
    ],
    "conf": "medium",
-   "src": "https://www.medzioklezurnalas.lt/keiciami-lygiavamzdzio-skleistuvai-cokai",
    "short": "Silpnas susiaurinimas, apie 0,25 mm (10 thou); Europoje žymimas „1/4“, keturios žvaigždutės.",
    "long": "Ketvirtinis čokas (IC, improved cylinder) yra vienas universaliausių čokų šaudant į lėkšteles. Apie 0,25 mm (apie 10 thou) susiaurinimas duoda platų, bet jau tankesnį nei cilindro spiečių. Jis naudojamas artimiems ir vidutinio atstumo taikiniams; daug Sporting™ ir Compak® Sporting šaulių laiko IC apatiniame vamzdyje kaip pagrindinį. Europoje jis vadinamas 1/4, o Beretta čokuose žymimas keturiomis žvaigždutėmis. Vertės milimetrais priklauso nuo gamintojo."
   },
@@ -321,7 +293,6 @@ window.GLOSSARY_I18N.lt = {
     "M"
    ],
    "conf": "high",
-   "src": "https://lt.wikipedia.org/wiki/Čokas_(vamzdis)",
    "short": "Vidutinis susiaurinimas, apie 0,5 mm (20 thou); „1/2“, trys žvaigždutės.",
    "long": "Pusčokas (M, modified) yra vidutinis čokas. Apie 0,5 mm (apie 20 thou) susiaurinimas išlaiko tankų spiečių vidutinio ir gana tolimo atstumo taikiniams. Europoje jis vadinamas 1/2, o Beretta čokuose žymimas trimis žvaigždutėmis. Daug šaulių M įsuka į viršutinį vamzdį antram, ilgesniam šūviui. Su plieniniais šratais gamintojai dažnai pataria nenaudoti nieko siauresnio už pusčoką; laikykitės savo šautuvo ir čokų instrukcijos."
   },
@@ -331,9 +302,7 @@ window.GLOSSARY_I18N.lt = {
     "vidutinis čokas",
     "IM"
    ],
-   "note": "LT Vikipedijoje 0,75 mm = 'vidutinis čokas'.",
    "conf": "medium",
-   "src": "https://lt.wikipedia.org/wiki/Čokas_(vamzdis)",
    "short": "Stiprus susiaurinimas, apie 0,65–0,75 mm (25–30 thou); „3/4“, dvi žvaigždutės.",
    "long": "Trys ketvirčiai (IM, improved modified) duoda tankų spiečių tolimiems taikiniams. Jo susiaurinimas yra apie 0,65–0,75 mm (25–30 thou); Europoje jis vadinamas 3/4, o Beretta žymi jį dviem žvaigždutėmis. Artimiems taikiniams spiečius siauras ir neatleidžia klaidų, todėl IM sąmoningai renkamasis konkrečiai ilgai trajektorijai. Su plieniniais šratais daug gamintojų nepataria siaurų čokų, tokių kaip IM, nebent čokas specialiai pažymėtas plienui. Tikslios vertės priklauso nuo gamintojo."
   },
@@ -344,7 +313,6 @@ window.GLOSSARY_I18N.lt = {
     "F"
    ],
    "conf": "high",
-   "src": "https://www.medzioklezurnalas.lt/keiciami-lygiavamzdzio-skleistuvai-cokai",
    "short": "Pilnas čokas, apie 0,9–1 mm (35–40 thou); „1/1“, viena žvaigždutė.",
    "long": "Pilnas čokas yra siauriausias iš įprastų lėkštelių čokų. Apie 0,9–1 mm (35–40 thou) susiaurinimas išlaiko šratų debesį tankų dideliu atstumu. Europoje jis žymimas 1/1, o Beretta čokuose – viena žvaigždute. Sporting™ ir Compak® Sporting pilno čoko reikia retai: tik labai tolimiems taikiniams, o artimiems jis duoda per siaurą spiečių. Yra ir dar siauresnių čokų (extra full), bet šaudant į lėkšteles jų beveik niekada neprireikia. Su plieniniais šratais pilnas čokas be gamintojo pritarimo paprastai nenaudojamas."
   },
@@ -354,14 +322,12 @@ window.GLOSSARY_I18N.lt = {
     "šratų pasklidimas"
    ],
    "conf": "medium",
-   "src": "https://www.medzioklezurnalas.lt/keiciami-lygiavamzdzio-skleistuvai-cokai",
    "short": "Šratų spiečiaus pėdsakas taikinyje ar plokštėje; svarbus jo plotis ir tolygumas.",
    "long": "Išlėkę iš vamzdžio žiočių šratai pasklinda debesiu, kuris tolstant platėja ir ilgėja. Šratų spiečius yra vaizdas, kurį šis debesis palieka ant plokščio paviršiaus: koks jis platus ir ar jame yra tarpų, pro kuriuos galėtų prasprūsti taikinys. Spiečiaus plotį daugiausia lemia čokas: kuo atviresnis čokas, tuo platesnis spiečius tam tikru atstumu. Taip pat svarbūs šovinys, šratų numeris ir rūšis. Tradiciškai spiečiaus tankis vertinamas pagal šratų dalį nustatyto dydžio apskritime fiksuotu atstumu, bet metodai skiriasi priklausomai nuo šalies ir gamintojo."
   },
   "cartridge": {
    "term_local": "šovinys",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Lygiavamzdžio šautuvo šovinys; FITASC riboja jo užtaisą, šratus ir konstrukciją.",
    "long": "Šratų užtaisas negali viršyti 28 g švino, leidžiamas nuokrypis +2 %. Šratai turi būti sferiniai, 2,0–2,5 mm skersmens (±0,1 mm). Draudžiami perkrauti šoviniai, sklaidytuvai ar kiti specialūs užtaiso įtaisai, skirtingo dydžio ar kokybės šratų mišiniai, juodasis parakas ir trasuojantys šoviniai. Sportinge teisėjas patikrinimui gali paimti du šovinius – po vieną iš kiekvienos liemenės kišenės. Sportingo šaulys dubletui turi iš viso du šovinius, Compak – po vieną šovinį kiekvienam taikiniui.",
    "disciplines": {
@@ -375,7 +341,6 @@ window.GLOSSARY_I18N.lt = {
     "tūta"
    ],
    "conf": "high",
-   "src": "https://lt.wikipedia.org/wiki/Šratai_(medžioklė)",
    "short": "Šovinio tūtelė: plastikinis ar popierinis vamzdelis su metaliniu dugnu, kuriame laikomos visos šovinio dalys.",
    "long": "Tūtelė yra šovinio korpusas. Vamzdelis dažniausiai plastikinis, rečiau popierinis; apačioje jį uždaro metalinis dugnelis su kapsule. Viduje iš eilės yra parakas, kamštelis ir šratai, o viršų uždaro užsukimas. Tūtelės ilgis turi atitikti šautuvo šovinio lizdą: 12 kalibro šoviniuose, skirtuose šaudyti į lėkšteles, jis dažniausiai yra 70 mm. Po šaudymo tuščios tūtelės metamos į šaudykloje pastatytas talpas, o ne paliekamos žolėje."
   },
@@ -388,7 +353,6 @@ window.GLOSSARY_I18N.lt = {
   "powder": {
    "term_local": "parakas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Greitai degantis parakas, sudarantis dujas, kurios išstumia šratus; juodasis parakas FITASC varžybose draudžiamas.",
    "long": "Šiuolaikiniuose šoviniuose naudojamas bedūmis parakas. Jis sudega per sekundės dalį, o susidariusios dujos stumia kamštelį ir šratus vamzdžiu. Parako kiekis ir rūšis veikia šratų greitį ir iš dalies atatranką; juos parenka šovinių gamintojas. FITASC Sporting™ ir Compak® Sporting taisyklės draudžia juodąjį paraką, trasuojančius ir pakartotinai užtaisytus šovinius. Laikykite šovinius sausai ir toliau nuo karščio: drėgmė ir aukšta temperatūra blogina parako veikimą."
   },
@@ -415,9 +379,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "šratų skersmuo"
    ],
-   "note": "Taisyklės: šratai 2,0–2,5 mm.",
    "conf": "high",
-   "src": "https://lt.wikipedia.org/wiki/Šratai_(medžioklė)",
    "short": "Švininių šratų skersmuo: 2,0–2,5 mm, leidžiamas nuokrypis ±0,1 mm.",
    "long": "Abiejose taisyklėse reikalaujama sferinių švininių šratų, kurių taisyklingas skersmuo – nuo 2,0 iki 2,5 mm, leidžiamas nuokrypis ±0,1 mm. Viename šovinyje maišyti skirtingo dydžio ar kokybės šratus griežtai draudžiama. Bendras užtaisas ribojamas iki 28 g (+2 %)."
   },
@@ -426,9 +388,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "užtaiso svoris"
    ],
-   "note": "Taisyklės: ne daugiau kaip 28 g švino.",
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šratų svoris šovinyje; FITASC leidžia iki 28 g švino, su +2 % nuokrypiu.",
    "long": "Šratų užtaiso svoris ant dėžutės nurodomas gramais, o Didžiojoje Britanijoje ir JAV dažnai uncijomis (1 oz – apie 28 g). FITASC Sporting™ ir Compak® Sporting taisyklės užtaisą riboja iki 28 g švininių šratų su +2 % paklaida. Dažniausi užtaisai šaudant į lėkšteles yra 24 ir 28 g; 21–24 g populiarūs treniruotėse, jaunių ir pradedančiųjų. Sunkesnis užtaisas į spiečių įdeda daugiau šratų, bet ir stipriau spiria, o per dieną su 100–200 šūvių tai vargina. Teisėjas gali patikrinti šaulio šovinius; Compak® Sporting šūviai, iššauti netinkamais šoviniais prieš patikrinimą, vertinami nuliu."
   },
@@ -438,7 +398,6 @@ window.GLOSSARY_I18N.lt = {
     "švinas"
    ],
    "conf": "high",
-   "src": "https://lt.wikipedia.org/wiki/Šratai_(medžioklė)",
    "short": "Tradiciniai sunkūs, minkšti šratai; FITASC taisyklės parašytos jiems, bet daugelis šalių ir šaudyklų juos riboja.",
    "long": "Švinas sunkus, todėl šratas gerai išlaiko greitį, o šoviniai duoda tolygų spiečių. FITASC Sporting™ ir Compak® Sporting taisyklės aprašo švininius šratus: užtaisas iki 28 g (+2 %), apvalūs 2,0–2,5 mm skersmens šratai. Vis dėlto švinas yra toksiškas aplinkai, ypač vandenims ir vandens paukščiams. ES nuo 2023 m. draudžiama šaudyti švininiais šratais šlapynėse ir 100 m atstumu nuo jų, o kai kurios šalys ir šaudyklos turi griežtesnes taisykles. Įstatymai keičiasi, todėl prieš kelionę patikrinkite vietos įstatymus ir šaudyklos taisykles."
   },
@@ -451,7 +410,6 @@ window.GLOSSARY_I18N.lt = {
   "recoil": {
    "term_local": "atatranka",
    "conf": "medium",
-   "src": "https://gunstalk.lt/duk-apie-stendini-saudyma/",
    "short": "Šautuvo stūmis į petį šaunant; jis priklauso nuo užtaiso, greičio, šautuvo svorio ir pritaikymo.",
    "long": "Atatranka stipresnė su sunkesniu užtaisu ir didesniu šratų greičiu, o silpnesnė su sunkesniu šautuvu. Dujinis pusiau automatinis šautuvas stūmį paskirsto laike, todėl jis jaučiamas švelniau. Ne mažiau svarbūs ginklo pritaikymas ir taisyklingas atrėmimas į petį: tvirtai peties duobutėje įsitaisęs šautuvas spiria daug silpniau nei atremtas į ranką ar kaulą. Stipri atatranka vargina ir pamažu išmoko trūktelėti prieš šūvį. Todėl lengvesni šoviniai treniruotėse, geras buožės padas ir peties paminkštinimas ant liemenės yra protingas pasirinkimas, o ne silpnumas."
   },
@@ -494,7 +452,6 @@ window.GLOSSARY_I18N.lt = {
     "ausinės"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Privaloma ausų apsauga visiems, esantiems aikštelėje ar šalia jos.",
    "long": "Šauliai, teisėjai, personalas ir žiūrovai, esantys aikštelėje ar Compak aikštelėje arba šalia jų, privalo dėvėti klausos apsaugą. Šaulys, atvykęs į šaudymo vietą be jos, laikomas nedalyvaujančiu: sportinge taikoma 16.7 straipsnio pavėlavimo ir neatvykimo taisyklė, o Compak jis negali šaudyti. Sportinge vaikai šaudykloje už klubo pastato ribų visada turi dėvėti klausos apsaugą."
   },
@@ -520,7 +477,6 @@ window.GLOSSARY_I18N.lt = {
     "šaudymo akiniai"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Privalomi apsauginiai akiniai šauliams, teisėjams ir personalui.",
    "long": "Sportinge saugos akinius be išimčių privalo dėvėti šauliai, teisėjai, personalas ir visi, esantys arti šaudymo vietos. Compak apsauginius akinius privalo dėvėti dalyviai, teisėjai ir personalas. Šaulys, atvykęs į šaudymo vietą be jų, laikomas nedalyvaujančiu; Compak jis negali šaudyti, o sportinge taikomas 16.7 straipsnis."
   },
@@ -530,7 +486,6 @@ window.GLOSSARY_I18N.lt = {
     "liemenė"
    ],
    "conf": "high",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Šaulio liemenė su kišenėmis šoviniams ir paminkštinimu buožei.",
    "long": "Liemenė yra pirmoji įranga, kurią verta pirkti po akių ir klausos apsaugos. Ji turi dvi dideles kišenes šoviniams, kišenes tuščioms tūtelėms ir čokams bei lygų peties paminkštinimą, į kurį remiasi buožė. Gera liemenė netrukdo atremti šautuvo ir nevaržo judesių. Sporting™ liemenė ar striukė turi turėti kontrastingą liniją 25 cm žemiau pečių ašies parengties pozicijai tikrinti. FITASC taisyklės draudžia dėvėti liemenę ant pliko kūno, o teisėjas patikrinimui gali paimti po vieną šovinį iš dešinės ir kairės kišenės.",
    "disciplines": {
@@ -577,7 +532,6 @@ window.GLOSSARY_I18N.lt = {
     "ginklų stovas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/saudymas/taisykles/",
    "short": "Stovas, į kurį nenaudojami šautuvai statomi vertikaliai.",
    "long": "Šaudyklose prie šaudymo vietų ir klubo pastato yra ginklų stovai. Pagal FITASC taisykles nenaudojamas šautuvas statomas vertikaliai į stovą ar kitą tam skirtą vietą, pusiau automatiniai – atidaryta spyna. Statykite šautuvą atlaužtą ir iškrautą ir niekada nepalikite jo atremto į sieną ar automobilį, nuo kur jis gali nukristi. Neimkite kito žmogaus šautuvo iš stovo be savininko leidimo. Prieš paimdami savąjį įsitikinkite, kad tai tikrai jūsų šautuvas."
   },
@@ -587,9 +541,7 @@ window.GLOSSARY_I18N.lt = {
     "lėkštelė",
     "lėkštutė"
    ],
-   "note": "Šaulių kalboje dažniausiai 'lėkštelė'.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Mašinėlės išmetamas molio (lėkštelės) diskas, kurį šaulys turi sudaužyti.",
    "long": "Leidžiami taikinių tipai: standartinis, triušis, midi, super mini, battue, flash ir ZZ (Compak taisyklėse minimi ir rocket bei kiti). Spalva turi išsiskirti iš fono; dviejų spalvų taikinių nerekomenduojama. Taikinys, išskridęs iš mašinėlės sudužęs, iš ne tos mašinėlės ar ne tos spalvos, yra No Bird. Abiejų taisyklių terminų žodynuose taikinys – tiesiog lėkštelė."
   },
@@ -599,7 +551,6 @@ window.GLOSSARY_I18N.lt = {
     "standartinė lėkštelė"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Įprastas išgaubtas taikinys, maždaug 108–110 mm skersmens, dažniausiai naudojamas.",
    "long": "Standartinis taikinys – tai išgaubtas maždaug 108–110 mm skersmens diskas. Jo skrydį palyginti lengva „perskaityti“, todėl pradedantieji paprastai pradeda nuo jo; 90 mm midi geriau išlaiko greitį. Sporting™ ir Compak® Sporting rungtyse standartas derinamas su specialiaisiais taikiniais, tokiais kaip midi, mini, battue ir triušis; Compak® Sporting sąraše minimas ir rocket. Sporting™ rungtyje kitos spalvos, dydžio ar tipo taikinys, nei nurodyta meniu, yra „kartoti“ (No Bird); Compak® Sporting rungtyje „kartoti“ (No Bird) skelbiama dėl netinkamos spalvos taikinio."
   },
@@ -619,7 +570,6 @@ window.GLOSSARY_I18N.lt = {
     "super mini"
    ],
    "conf": "high",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Mažiausi specialieji taikiniai, paprastai 60 mm skersmens; gamintojai pavadinimus „mini“ ir „super mini“ vartoja skirtingai, todėl žiūrėkite milimetrus taikinių apraše.",
    "long": "Sporting™ taisyklės „super mini“ mini tarp leidžiamų taikinių, bet skersmens nenurodo, o kiekvienos šaudymo vietos taikinių apraše turi būti nurodyti specialieji dydžiai, pavyzdžiui, 90, 70 ir 60 mm. Compak® Sporting taisyklės leidžia bet kokį standartinį ar specialųjį taikinį, taip pat 60 mm. Įprastoje kalboje mini paprastai yra 60 mm, bet kai kuriuose aprašuose nurodomi ir 70 mm taikiniai, o gamintojai pavadinimų nevartoja vienodai. Maži taikiniai atrodo greiti ir toli. Dydį milimetrais skaitykite taikinių apraše ir atidžiai stebėkite parodymą."
   },
@@ -629,7 +579,6 @@ window.GLOSSARY_I18N.lt = {
     "batiu"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Plonas, plokščias taikinys, skrendantis briauna į priekį, apsisukantis ir greitai krentantis.",
    "long": "Battue – vienas iš specialiųjų taikinių, leidžiamų ir sportinge, ir Compak, ir jis turi būti nurodytas taikinių apraše. Dėl plono profilio jį sunku įžiūrėti skrydžio metu. Compak taisyklėse nepatariama battue taikinių naudoti labai trumpoms trajektorijoms.",
    "disciplines": {
@@ -643,7 +592,6 @@ window.GLOSSARY_I18N.lt = {
     "rabbit"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Storas, tvirtas taikinys, riedantis žeme ir imituojantis bėgantį kiškį.",
    "long": "Triušiai leidžiami abiejose disciplinose ir turi būti nurodyti sportingo taikinių apraše. Sportinge į juos, kaip ir į visus taikinius, šaunama šautuvą prisidėjus prie peties; šauti nuo klubo neleidžiama. Abiejose taisyklėse taikomas ypatingas No Bird atvejis: jei triušis prašaunamas pirmu šūviu, o paskui pats sudūžta prieš antrą šūvį, jis išmetamas iš naujo, ir kartojant užskaitomas tik antru šūviu sudaužytas taikinys; sudaužius pirmu šūviu – nulis."
   },
@@ -652,9 +600,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "raketa"
    ],
-   "note": "Taisyklėse paliktas angliškas 'rocket'.",
    "conf": "high",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Specialusis taikinys, minimas Compak® Sporting taikinių sąraše; jo tiksli forma ir skrydis priklauso nuo gamintojo.",
    "long": "Rocket – vienas iš specialiųjų taikinių, kuriuos Compak® Sporting taisyklės mini tarp leidžiamų; Sporting™ sąraše jis atskirai neminimas. Bendros specifikacijos nėra, todėl jo forma ir tai, kaip jis skrenda, priklauso nuo taikinių gamintojo. Kaip ir bet kurį specialųjį taikinį, per pristatymą jį atidžiai stebėkite ir nemanykite, kad jis skrenda kaip standartinis.",
    "disciplines": {
@@ -668,7 +614,6 @@ window.GLOSSARY_I18N.lt = {
     "dūminis taikinys"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Taikinys, kurį pataikius pakyla matomas spalvotų miltelių debesėlis.",
    "long": "Flash taikiniai įrašyti į leidžiamų sportingo taikinių sąrašą. Pataikymo taisyklė tokia pati kaip ir bet kuriam taikiniui: jis turi būti taisyklingai išmestas, šaulys turi šauti pagal taisykles, o nuo taikinio turi atskilti bent vienas matomas gabalėlis arba jis turi būti visiškai ar iš dalies sudaužytas. Compak taisyklės flash taikiniams taiko tą pačią „pataikyta“ taisyklę."
   },
@@ -683,9 +628,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "mėtyklė"
    ],
-   "note": "Taisyklėse 'mašinėlė', enciklopedijoje 'mėtyklė'.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Įrenginys, išmetantis taikinius (lėkšteles).",
    "long": "Mašinėlės būna rankinės, automatinės arba mišrios (Compak – ir pusiau automatinės). Sportinge jos žymimos raidėmis A, B, C, D iš kairės į dešinę, žiūrint iš šaudymo vietos, ir šios raidės nurodomos taikinių apraše bei rezultatų kortelėje. Compak aikštelėje yra 6 mašinėlės, nuo A iki F, kiekviena su raidę rodančiu ženklu; už šaudymo vietų esanti mašinėlė turi būti pakelta bent 4 m. Žemyno ir pasaulio Compak čempionatuose privalomos 48 naujos, tik renginiui sumontuotos mašinėlės.",
    "disciplines": {
@@ -708,7 +651,6 @@ window.GLOSSARY_I18N.lt = {
     "operatorius"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Asmuo, išmetantis taikinius teisėjo signalu.",
    "long": "Sportinge šaulys paprašo taikinio, teisėjas garso signalu perduoda komandą traperiui, ir taikinys turi išskristi per 3 sekundes po to signalo; vėliau išmestas taikinys yra No Bird. Abejodamas dėl sprendimo, teisėjas gali paprašyti traperio patarimo, bet jo nuomonė teisėjo nesaisto. Compak teisėjas abejodamas taip pat gali pasitarti su traperiu."
   },
@@ -718,7 +660,6 @@ window.GLOSSARY_I18N.lt = {
     "Sonopull"
    ],
    "conf": "high",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Balsu valdomas įrenginys, išmetantis taikinį, kai šaulys duoda komandą.",
    "long": "Compak mašinėles galima paleisti rankiniu būdu, nuotoliniu pultu arba sonopull sistema. Sonopull įrenginys turi turėti fiksuotą, nereguliuojamą 0,5 sekundės delsą; rekomenduojama ta pati delsa visose vienos Compak aikštelės mašinėlėse. Compak šaudant linija tarptautinėse varžybose naudojama tik sonopull sistema kartu su FITASC patvirtintu elektroniniu teisėjavimu ir rezultatų skaičiavimu.",
    "disciplines": {
@@ -728,7 +669,6 @@ window.GLOSSARY_I18N.lt = {
   "trajectory": {
    "term_local": "trajektorija",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Kelias, kuriuo taikinys skrenda ore arba rieda žeme.",
    "long": "Sportingo trajektorijos atkartoja laimikį: artėjantis, tolstantis, kertantis, įstrižas, aukštas ir žemas taikinys, atviroje vietoje ar tarp medžių. Ar trajektorija taisyklinga, sprendžia tik teisėjas, ir šis sprendimas neapskundžiamas. Šaudymo vietos teisėjas negali keisti žiuri ar trasų projektuotojų nustatytų trajektorijų, išskyrus atstatymą po mašinėlės gedimo ar išskirtinių oro sąlygų. Kiekvienoje Compak aikštelėje turi būti trys privalomos trajektorijos (iš kairės į dešinę per AB ir CD, iš dešinės į kairę per CD ir AB ir tolstantis taikinys per BC); kitos laisvos, bet turi būti trumpos.",
    "disciplines": {
@@ -748,14 +688,12 @@ window.GLOSSARY_I18N.lt = {
   "incomer": {
    "term_local": "artėjantis taikinys",
    "conf": "high",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Taikinys, skrendantis link šaulio.",
    "long": "Artėjantis taikinys pasirodo priekyje ir skrenda link jūsų, dažnai leisdamasis. Jis atrodo paprastas, bet jį lengva pamesti: vamzdžiai uždengia taikinį, ir šaulys nustoja jį matyti. Todėl dažnai patariama šauti anksti, kol jis dar toli, ir vesti vamzdžius tiksliai jo linija. Jei taikinys praskrenda virš galvos, jis tampa virš galvos skrendančiu taikiniu. Sporting™ taisyklės reikalauja, kad išdėstyme būtų ir artėjančių taikinių."
   },
   "going-away": {
    "term_local": "tolstantis taikinys",
    "conf": "high",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Taikinys, skrendantis tolyn nuo šaulio.",
    "long": "Tolstantis taikinys pasirodo iš šono, iš viršaus ar iš už nugaros ir tolsta, dažnai šiek tiek kildamas ar leisdamasis. Pradedančiajam tai vienas lengviausių taikinių, todėl treniruotės dažnai prasideda nuo jo. Vis dėlto jis greitai tolsta ir mažėja, todėl antras šūvis jau ilgas, ir antrojo vamzdžio čokas turėtų tai įvertinti. Compak® Sporting tolstantis taikinys, kertantis stačiakampio kraštinę BC, yra viena iš trijų privalomų trajektorijų. Dažniausia klaida – šauti virš jau besileidžiančio taikinio."
   },
@@ -792,7 +730,6 @@ window.GLOSSARY_I18N.lt = {
   "springing-target": {
    "term_local": "kylantis taikinys",
    "conf": "medium",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Taikinys, staigiai kylantis įstrižai, kaip nuo žemės pakilęs paukštis.",
    "long": "Kylantis taikinys kyla nuo žemės kampu, kaip iš žolės pakeltas paukštis. Jis greitai praranda greitį ir paskui pradeda kristi, todėl savo kelyje elgiasi labai skirtingai. Kylant veskite šautuvą aukštyn ir šaukite virš jo, prie viršūnės jam beveik nereikia pralenkimo, o leidžiantis šaukite po juo. Nuspręskite iš anksto, kur jį sudaužysite, stebėdami taikinių pristatymą. Compak® Sporting taisyklės kylančius taikinius mini tarp įvairių trajektorijų pavyzdžių."
   },
@@ -808,7 +745,6 @@ window.GLOSSARY_I18N.lt = {
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "English layout name; shooters usually keep the English word.",
    "conf": "medium",
    "short": "Taikinys, staigiai kylantis lanku ir paskui krentantis tolyn. Tai ne prancūziškas „chandelle“, kuris reiškia vertikaliai kylantį taikinį (teal)."
   },
@@ -818,13 +754,11 @@ window.GLOSSARY_I18N.lt = {
     "krentantis"
    ],
    "conf": "medium",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Taikinys, į kurį šaunama jam krentant."
   },
   "single-target": {
    "term_local": "pavienis taikinys",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Vienas vienos mašinėlės išmestas taikinys, į kurį šaulys gali iššauti du šovinius.",
    "long": "Pavienis taikinys gali būti bet kokios rūšies. Kiekvienas pavienis taikinys turi palikti pakankamai laiko dviem šūviams, kad prašovus iš pirmo vamzdžio būtų galima šauti iš antro. Sportinge kiekvienoje aikštelėje yra 15 pavienių taikinių, ir kiekvienoje šaudymo vietoje grupė pirmiausia šaudo pavienius, o tada dubletus, nebent žiuri nusprendžia kitaip. Compak šaudymo vietoje gali būti 5 pavieniai, 3 pavieniai ir dubletas arba 1 pavienis ir du dubletai.",
    "disciplines": {
@@ -838,7 +772,6 @@ window.GLOSSARY_I18N.lt = {
     "dupletas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Du kartu arba vienas po kito išmetami taikiniai, šaudomi kaip vienas vienetas.",
    "long": "Yra trys dubletų rūšys: pagal šūvio garsą, vienalaikis ir (tik sportinge) savaiminis (rafale). Sportinge dubletui šaulys turi du šovinius ir gali abu iššauti į tą patį taikinį; tarp pirmo ir antro taikinio šautuvo padėtis laisva. Compak į kiekvieną dubleto taikinį galima iššauti tik vieną šovinį, o vienoje Compak aikštelėje dubleto tipas visose 5 šaudymo vietose turi būti vienodas; pirmas kiekvieno dubleto taikinys yra paskutinis ankstesnės šaudymo vietos taikinys. Jei vienas šūvis sudaužo abu taikinius, sportinge užskaitoma pataikyta ir pataikyta. Compak rungtyje tai neskaičiuojama kaip du pataikymai: dublete pagal šūvio garsą pirmojo taikinio rezultatas lieka, o dubletas kartojamas dėl antrojo; vienalaikiame dublete skelbiama „kartoti“ ir dubletas kartojamas, o trečią kartą užskaitoma nulis–nulis.",
    "disciplines": {
@@ -852,7 +785,6 @@ window.GLOSSARY_I18N.lt = {
     "dubletas pagal garsą"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Dubletas, kurio antras taikinys išmetamas nuo šūvio į pirmą taikinį garso.",
    "long": "Abu taikiniai išmetami iš vienos ar dviejų mašinėlių; komanda paleidžia pirmą, o šūvis į pirmą – antrą. Sportinge antras taikinys išskrenda per 0–3 sekundes po pirmo šūvio. Sportinge dubletai pagal šūvio garsą pristatymo metu neparodomi, o 3 mašinėlių pozicijoje su 2 dubletais negali būti dviejų dubletų pagal šūvio garsą. Sportingo atkrintamosiose varžybose iki pirmos klaidos toks dubletas vertinamas kaip pora, todėl pataikyta–nulis lygu nulis–pataikyta. Nuobaudos dubletui pagal šūvio garsą paprastai būna nulis pirmam taikiniui ir No Bird antram.",
    "disciplines": {
@@ -863,7 +795,6 @@ window.GLOSSARY_I18N.lt = {
   "simultaneous-double": {
    "term_local": "vienalaikis dubletas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Dubletas, kurio abu taikiniai išmetami tuo pačiu metu.",
    "long": "Abu taikiniai išskrenda kartu po vienos komandos, ir į juos galima šauti bet kuria tvarka. Sportinge jie išmetami iš vienos ar dviejų mašinėlių, Compak – visada iš dviejų skirtingų. Vienalaikiai dubletai parodomi pristatymo metu. Nešovus į vieną be pagrįstos priežasties arba skyrus raudonąją kortelę, vertinama nulis ir nulis. Compak, jei vienas šovinys sudaužo abu taikinius, pirmą ir antrą kartą dubletas yra No Bird ir kartojamas, o trečią kartą vertinamas Zero-Zero.",
    "disciplines": {
@@ -876,9 +807,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "rafale"
    ],
-   "note": "Neįprastas oficialaus vertimo terminas.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Sporting™ dubletas iš dviejų tos pačios mašinėlės taikinių ta pačia trajektorija, vienas po kito.",
    "long": "Savaiminiame (rafale) dublete antras taikinys išskrenda taip greitai, kaip mašinėlės svirtis spėja persikrauti, ir pirmiausia galima šauti į bet kurį taikinį. Pristatymo metu jis parodomas kaip ir vienalaikis dubletas. Nuobaudų ir sutrikimų taisyklės jį vertina kaip vienalaikį dubletą: netaisyklingas taikinys reiškia, kad dubletas kartojamas be rezultato, o raudonosios kortelės nuobauda – nulis ir nulis. Pozicijoje su 3 mašinėlėmis ir 2 dubletais dubletai gali būti vienalaikiai, savaiminiai arba abiejų rūšių.",
    "disciplines": {
@@ -891,7 +820,6 @@ window.GLOSSARY_I18N.lt = {
     "taikinių parodymas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šaudymo vietos taikinių parodymas šauliams prieš jiems šaudant.",
    "long": "Sporting™ rungtyje visos šaudymo vietos trajektorijos parodomos pirmam grupės šauliui, kuris turi stovėti pasirengęs šaudymo vietoje; paprašius kiekvienas taikinys gali būti parodytas dar iki 2 kartų. Dubletai pagal šūvio garsą neparodomi; vienalaikiai ir savaiminiai (rafale) – parodomi, su ne daugiau kaip 2 pakartojimais. Pristatymo metu niekas negali šaudyti ar imituoti šaudymo, o sugedus mašinėlei ar po ilgesnės nei 10 minučių pertraukos šaudymo vietos taikiniai parodomi iš naujo. Compak® Sporting šaudant grupėmis pirmoji dienos grupė taikinius mato vieną kartą, anksti ryte: pavienius nuo A iki F, tada 1–5 šaudymo vietų vienalaikius dubletus; po ilgesnės nei 10 minučių pertraukos šeši pavieniai taikiniai parodomi iš naujo. Šaudant linija kiekvienas naujas šaulys 1-oje šaudymo vietoje mato pirmą savo dubleto taikinį. Abiejose rungtyse pristatymo metu šautuvai lieka atlaužti ir neužtaisyti, o uždaromi tik teisėjui leidus. Compak® Sporting rungtyje šaudymo imitavimas draudžiamas už šaudymo vietų ir tada, kai šaudo kitas grupės narys.",
    "disciplines": {
@@ -902,7 +830,6 @@ window.GLOSSARY_I18N.lt = {
   "target-menu": {
    "term_local": "taikinių aprašas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Lenta šaudymo vietoje, rodanti, iš kurių mašinėlių ir kokia tvarka šaudoma.",
    "long": "Sportinge taikinių aprašas stovi priešais kiekvieną šaudymo vietą, kur šaulys gali jį perskaityti, nurodo mašinėles šaudymo tvarka (pvz., A, B, C) ir turi žymėti specialiuosius taikinius: 90 mm, 70 mm, 60 mm, battue ar triušį. Prieš varžybas teisėjai patikrina, ar mašinėlės užtaisytos pagal aprašą. Compak šaudymo aprašas įskaitomai iškabinamas kiekvienoje šaudymo vietoje; pavieniams taikiniams mašinėlės gali būti naudojamos bet kuria tvarka, o pirmas kiekvieno dubleto taikinys yra paskutinis ankstesnės šaudymo vietos taikinys. FITASC pataria naudoti 40 paruoštų 3 priedo lentelių."
   },
@@ -911,7 +838,6 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "išankstinis taikymas"
    ],
-   "note": "Dokumentuoto sporto termino nerasta.",
    "conf": "low",
    "short": "Atstumas, kuriuo šaulys nukreipia šautuvą prieš taikinį, kad šratai jį pasiektų.",
    "long": "Kol šratai skrenda link taikinio, taikinys toliau juda, todėl šūvio akimirką šautuvas turi būti priešais jį. Šis atstumas yra pralenkimas. Jis priklauso nuo taikinio greičio, atstumo ir kampo, kuriuo jis skrenda: ilgiems kertantiems taikiniams reikia daugiausia pralenkimo, o tiesiai tolstantiems – beveik jokio. Tai, kaip šaulys suvokia pralenkimą, yra subjektyvu, todėl skirtingi žmonės jį apibūdina skirtingai. Yra keli pralenkimo metodai – pastovus pralenkimas (maintained lead), atitraukimas nuo taikinio (pull-away), pravedimas pro taikinį (swing-through) ir šaudymas į tašką (ambush), – ir treneris padės jums pasirinkti savąjį."
@@ -971,7 +897,6 @@ window.GLOSSARY_I18N.lt = {
     "parengtis"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Sporting™ pradinė padėtis: buožė liečia kūną žemiau linijos ant liemenės, kol pasirodo taikinys.",
    "long": "Prieš prašydamas taikinio, sportingo šaulys stovi abiem kojomis šaudymo vietos ribose, buožės kulnas liečia kūną, o aukščiausios buožės dalies galas yra žemiau ant liemenės pažymėtos linijos. Tai galioja bet kokio tipo buožei, taip pat su reguliuojama atrama. Ši padėtis išlaikoma, kol taikinys išmestas ir matomas. Už pirmą pažeidimą skiriamas įspėjimas su geltonąja kortele; už kitą toje pačioje aikštelėje – raudonoji kortelė, o taikinys vertinamas. Dubletuose tarp pirmo ir antro taikinio šautuvą galima laikyti laisvai.",
    "disciplines": {
@@ -985,7 +910,6 @@ window.GLOSSARY_I18N.lt = {
     "ginklo prisidėjimas"
    ],
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Judesys, kuriuo šautuvas priglaudžiamas prie šaulio skruosto ir peties.",
    "long": "Atremiant šautuvas kyla prie veido, skruostas atsigula ant skruostinės atramos, o buožė įsiremia į peties duobutę. Svarbiausia taisyklė: šautuvą kelkite prie skruosto, o ne lenkite galvą prie šautuvo. Atrėmimas kiekvieną kartą turi būti vienodas, nes jis lemia, kur akis yra taikymo juostelės atžvilgiu. Sporting™ šaulys iškviečia taikinį nuleistu šautuvu ir atremia jį tik pasirodžius taikiniui, todėl judesys turi būti greitas ir tikslus. Compak® Sporting taikinį galima iškviesti jau atrėmus šautuvą. Atrėmimas treniruojamas ir be šūvio, su neužtaisytu šautuvu, ten, kur tai leidžiama.",
    "disciplines": {
@@ -1008,7 +932,6 @@ window.GLOSSARY_I18N.lt = {
     "laikysena"
    ],
    "conf": "medium",
-   "src": "https://shootingclub.lt/teisingo-leksteliu-saudymo-mokykla-100100-stendinio-saudymo-vadovelis/",
    "short": "Šaulio pėdų ir kūno padėtis prieš šūvį.",
    "long": "Stovėsena yra kiekvieno šūvio pagrindas. Kojos paprastai statomos maždaug pečių plotyje, priekinė koja šiek tiek priekyje ir labiau apkrauta. Kūnas turi būti atsipalaidavęs ir suktis per klubus, kad šautuvas judėtų kartu su kūnu, o ne vien rankomis. Statykite kojas taip, kad sudaužymo taške kūnas būtų patogiausioje, neutralioje padėtyje, o tada pasisukite atgal į ginklo laikymo tašką. Sporting™ abi kojos turi būti šaudymo vietos kvadrato viduje, o Compak® Sporting šaulį riboja šaudymo kampo ribotuvo rėmas."
   },
@@ -1080,7 +1003,6 @@ window.GLOSSARY_I18N.lt = {
     "instruktorius"
    ],
    "conf": "medium",
-   "src": "https://gunstalk.lt/duk-apie-stendini-saudyma/",
    "short": "Treneris, mokantis šaulį technikos, saugos ir pasiruošimo varžyboms.",
    "long": "Treneris nuo pirmos pamokos ugdo saugius įpročius, tikrina dominuojančią akį, nustato stovėseną ir atrėmimą, padeda pasirinkti šautuvą ir šovinius ir planuoja treniruotes. Klaidas daug lengviau pamatyti iš šalies, todėl net patyrę šauliai dirba su treneriu. FITASC varžybose patarinėti dalyviui šaudymo metu draudžiama: dalyvis gauna geltonąją kortelę, o teisėjas išsiunčia patarinėjantį asmenį iš šaudymo zonos. ClayArena trenerių katalogas padeda rasti trenerį pagal rungtį, o ClayAway turai (rengiami) leis treniruotis su treneriu keliaujant. Pasitikrinkite trenerio kvalifikaciją ir rekomendacijas."
   },
@@ -1090,9 +1012,7 @@ window.GLOSSARY_I18N.lt = {
     "pasiruošęs",
     "mesti"
    ],
-   "note": "Taisyklės: šaulys sušunka „pasiruošęs“ ar „mesti“.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šaulio žodis, pvz., „pull“ ar „ready“, kuriuo jis prašo taikinio.",
    "long": "Sportinge šaulys sušunka „ready“ ar „pull“ (lietuviškai – „pasiruošęs“ ar „mesti“), teisėjas garso signalu perduoda komandą traperiui, ir taikinys turi išskristi per 3 sekundes; vėliau išmestas taikinys yra No Bird. Compak, išmetant rankiniu būdu, taikinys turi išskristi per 0–3 sekundes po komandos; sonopull prideda fiksuotą 0,5 sekundės delsą. Šaulio nepaprašytas taikinys yra No Bird – tai vienintelis taikinys, kurio galima atsisakyti. Prašydamas kito taikinio šaulys sutinka su teisėjo sprendimu dėl ankstesnio."
   },
@@ -1102,7 +1022,6 @@ window.GLOSSARY_I18N.lt = {
     "pataikytas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Taikinys, pagal taisykles įvertintas kaip sudaužytas.",
    "long": "Taikinys yra pataikytas (one), kai jis buvo taisyklingai išmestas, šaulys šovė pagal taisykles (sportinge – taip pat iš 3.1 straipsnio parengties pozicijos), o nuo jo atskilo bent vienas matomas gabalėlis arba jis buvo visiškai ar iš dalies sudaužytas. Tas pats taikoma flash taikiniams. Rezultatų kortelėse pataikymas žymimas X. Bet kuriame sportingo dublete, jei vienas šūvis sudaužo abu taikinius, užskaitoma pataikyta ir pataikyta. Compak blogas oras nieko nekeičia: kiekvienas sudaužytas taikinys yra pataikytas.",
    "disciplines": {
@@ -1113,7 +1032,6 @@ window.GLOSSARY_I18N.lt = {
   "zero": {
    "term_local": "nulis",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Taikinys, pagal taisykles įvertintas kaip prašautas ar prarastas.",
    "long": "Taikinys yra nulis (zero), kai nuo jo neatskyla joks matomas gabalėlis arba matyti tik dulkės ar dūmai. Nulis skiriamas ir tada, kai šaulys be pagrįstos priežasties nešauna į taisyklingą taikinį, atidaro šautuvą ar liečia saugiklį prieš teisėjui patikrinant sutrikimą arba toje pačioje serijoje turi antrą ginklo ar šovinio sutrikimą. Nulis taip pat yra įprasta nuobauda už pakartotinius pažeidimus (raudonoji kortelė). Rezultatų kortelėse prašovimas žymimas O, o Compak teisėjas kiekvieną nulį paskelbia garsiai arba garso signalu, kad šaulys galėtų iškart protestuoti.",
    "disciplines": {
@@ -1124,7 +1042,6 @@ window.GLOSSARY_I18N.lt = {
   "visible-piece": {
    "term_local": "matomas gabalas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Taikinys užskaitomas kaip pataikytas, jei nuo jo atskyla bent vienas matomas gabalėlis."
   },
   "no-bird": {
@@ -1132,9 +1049,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "No bird"
    ],
-   "note": "Taisyklėse 'KARTOTI (angl. No Bird)'.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Teisėjo sprendimas, kad taikinys ar bandymas neužskaitomas ir turi būti pakartotas.",
    "long": "No Bird skelbiamas dėl taikinio (sudužo išmetant, ne ta mašinėlė ar spalva, netaisyklinga trajektorija, išmestas vėliau nei per 3 sekundes po komandos ar signalo, nepaprašytas, šauliui akivaizdžiai sutrukdyta arba teisėjas negali nuspręsti) arba dėl pirmo ginklo ar šovinio sutrikimo serijoje. Pavienis taikinys kartojamas; dubletams taisyklės nurodo, kada kartojamas visas dubletas, o kada pirmo taikinio rezultatas paliekamas. No Bird skelbia tik teisėjas, ir šis sprendimas neapskundžiamas. Į paskelbtą No Bird niekada negalima šauti; taip pasielgus po įspėjimo baudžiama. Compak blogas oras ir taikiniai iš kitos Compak aikštelės niekada nėra No Bird pagrindas.",
    "disciplines": {
@@ -1148,7 +1063,6 @@ window.GLOSSARY_I18N.lt = {
     "šovinio sutrikimas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šautuvo ar šovinio gedimas, sutrukdantis taisyklingam šūviui.",
    "long": "Sutrikimai skaičiuojami kiekvienai 25 taikinių serijai. Už pirmą ginklo ar šovinio sutrikimą serijoje skiriamas įspėjimas ir No Bird; nuo antro toje pačioje serijoje taikiniai nebekartojami, o vertinami nuliu. Po sutrikimo šaulys lieka vietoje, šautuvą laiko nukreiptą į šaudymo zoną, jo neatidaro ir neliečia saugiklio, kol teisėjas jo neapžiūrėjo; kitaip taikinys ar taikiniai – nulis. Sportinge nepataisomą šautuvą galima pakeisti pasiskolintu su savininko sutikimu; Compak šaulys turi dvi minutes jam sutaisyti ar pakeisti ir gali pasiskolinti šautuvą tik iš ne savo grupės šaulio, sutikus savininkui ir teisėjui.",
    "disciplines": {
@@ -1162,14 +1076,12 @@ window.GLOSSARY_I18N.lt = {
     "abu vamzdžiai šauna vienu metu"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šautuvo gedimas, kai abu vamzdžiai iššauna vienu metu.",
    "long": "Jei pavieniam taikiniui ar pirmam dubleto taikiniui abu šūviai įvyksta kartu, teisėjas skelbia No Bird ir nieko neužrašoma. Pavienis taikinys kartojamas; dublete pagal šūvio garsą (pirmam taikiniui), vienalaikiame ar savaiminiame (rafale) dublete kartojamas visas dubletas. Tai laikoma šautuvo gedimu, todėl No Bird skiriamas tik tada, kai tai pirmas sutrikimas serijoje. Dvigubas paleidimas kaip antras sutrikimas vienalaikiame ar savaiminiame dublete vertinamas nulis ir nulis."
   },
   "refusal": {
    "term_local": "taikinio atsisakymas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Nešovimas į taikinį, kurio paprašyta ir kuris išmestas taisyklingai.",
    "long": "Šaulys gali atsisakyti tik to taikinio, kurio neprašė. Sportinge taisyklingas taikinys, į kurį šaulys nešovė, vertinamas nuliu; vienalaikiame ar savaiminiame (rafale) dublete – nulis ir nulis. Compak atsisakymas baudžiamas pagal 21.5: pavieniam – nulis; pirmam dubleto pagal šūvio garsą taikiniui – nulis, o dubletas kartojamas antram įvertinti; vienalaikiam dubletui – nulis-nulis."
   },
@@ -1179,10 +1091,8 @@ window.GLOSSARY_I18N.lt = {
     "pavėluotas šūvis"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/saudymas/taisykles/",
    "short": "Uždelstas šūvis: šovinys iššauna praėjus kuriam laikui po nuleistuko nuspaudimo. Todėl neiššovęs šautuvas iškart neatidaromas.",
-   "long": "Uždelstas šūvis retas, bet pavojingas: nuspaudus gaiduką nieko neįvyksta, o po akimirkos šovinys vis dėlto iššauna. Jei tą akimirką atlaužtumėte šautuvą, tūtelė gali sprogti prie veido ir rankų. Todėl po kiekvieno neiššovimo laikykite šautuvą atremtą į petį arba bent nukreiptą saugia kryptimi ir palaukite; daug instruktorių pataria laukti apie 30 sekundžių. FITASC varžybose po neiššovimo šautuvas neatlaužiamas ir saugiklis neliečiamas, kol jo nepatikrina teisėjas, antraip taikinys laikomas prarastu. Čia saugos ir teisėjavimo taisyklės sutampa.",
-   "note": "'Neiššauna šovinys' is a misfire; a delayed shot is 'uždelstas šūvis'."
+   "long": "Uždelstas šūvis retas, bet pavojingas: nuspaudus gaiduką nieko neįvyksta, o po akimirkos šovinys vis dėlto iššauna. Jei tą akimirką atlaužtumėte šautuvą, tūtelė gali sprogti prie veido ir rankų. Todėl po kiekvieno neiššovimo laikykite šautuvą atremtą į petį arba bent nukreiptą saugia kryptimi ir palaukite; daug instruktorių pataria laukti apie 30 sekundžių. FITASC varžybose po neiššovimo šautuvas neatlaužiamas ir saugiklis neliečiamas, kol jo nepatikrina teisėjas, antraip taikinys laikomas prarastu. Čia saugos ir teisėjavimo taisyklės sutampa."
   },
   "shooting-stand": {
    "term_local": "šaudymo vieta",
@@ -1191,7 +1101,6 @@ window.GLOSSARY_I18N.lt = {
     "aikštelė"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Pažymėta 1 m pločio vieta, kurioje šaulys stovi šaudydamas.",
    "long": "Sportingo šaudymo vieta – 1 m kvadratas arba 1 m skersmens apskritimas, jei įmanoma lygus ir niekada neslidus. Priešais ją pastatytas taikinių aprašas, o šauliui užlipus į ją, šautuvo, čoko ar vamzdžio keisti negalima. Compak aikštelėje yra 5 šaudymo vietos, kiekviena 1 m × 1 m, viena nuo kitos 2–5 m, priekinė linija 4–8 m už kraštinės AD, 3-ioji vieta – jos viduryje; kiekvienoje yra šaudymo kampo ribotuvas. Varžybų šaudymo vietoje šautuvai niekada nebandomi.",
    "disciplines": {
@@ -1205,9 +1114,7 @@ window.GLOSSARY_I18N.lt = {
     "aikštelė",
     "rungtis"
    ],
-   "note": "Šaulių kalboje dažnai 'aikštelė'.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šaudymo vietų ir mašinėlių rinkinys, kuriame sušaudoma viena 25 taikinių serija.",
    "long": "Sportinge aikštelė – tai šaudymo vietų grupė, kurioje šaudoma 25 taikiniai: 15 pavienių ir 5 dubletai. Senojoje sistemoje naudojamos 5 mašinėlės 3 pozicijoms; naujosios sistemos linijose – 4 arba 5 pozicijos. Nacionalinių varžybų aikšteles tvirtina nacionalinė federacija, tarptautinių – FITASC; niekas negali jose treniruotis iki varžybų. Compak šis žodis apima Compak aikštelės mašinėlių nustatymus ir taikinių aprašus; trajektorijas, mašinėles ir aprašus galima keisti tik visiems sušaudžius pilną ratą.",
    "disciplines": {
@@ -1218,14 +1125,12 @@ window.GLOSSARY_I18N.lt = {
   "range": {
    "term_local": "šaudykla",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Visi šaudymo komplekso sportiniai įrenginiai.",
    "long": "Compak terminų žodyne šaudykla reiškia visus sportinius įrenginius, o Compak® Sporting – šios disciplinos įrenginį. Žodis vartojamas ir saugos taisyklėse: šautuvas užtaisomas ir laikomas nukreiptas į šaudymo zoną, ten, kur skrenda taikiniai. Klausos apsauga privaloma visiems, esantiems šaudykloje ar šalia jos."
   },
   "line": {
    "term_local": "linija",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Naujesnis Sporting™ aikštelės tipas, kai 4 arba 5 šaudymo pozicijos stovi greta ir dalijasi mašinėlėmis.",
    "long": "Naujosios sistemos linijoje su 4 pozicijomis trys pozicijos turi po 4 mašinėles, o viena (2-oji arba 3-ioji) – 3 mašinėles; 2 iš 5 dubletų šaudomi 3 mašinėlių pozicijoje. Linijoje su 5 pozicijomis – po 3 mašinėles kiekvienai pozicijai. Pajėgumo lentelėse skaičiuojama 10–13 minučių vienai grupei linijoje; turint 4 linijas po 10 minučių, per dvi dienas galima priimti 336 šaulius, per keturias – iki 816. 3 pozicijų linija su 5 mašinėlėmis kiekvienoje leidžiama tik Grand Prix.",
    "disciplines": {
@@ -1235,7 +1140,6 @@ window.GLOSSARY_I18N.lt = {
   "round": {
    "term_local": "serija",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "25 taikinių vienetas, šaudomas vienoje aikštelėje, linijoje ar Compak aikštelėje.",
    "long": "Abiejose taisyklėse serija – 25 taikiniai. Tarptautinės varžybos – 200 taikinių, t. y. 8 serijos. Ginklo ir šovinių sutrikimai skaičiuojami kiekvienai serijai: už pirmą skiriamas No Bird, už vėlesnius toje pačioje serijoje – nulis. Compak serija – po penkis taikinius kiekvienoje iš penkių šaudymo vietų; serijos metu šautuvo, čoko ar vamzdžio keisti negalima, o trajektorijos ir aprašai keičiami tik po pilno rato. Žiuri nuobauda gali būti visos 25 taikinių serijos atėmimas.",
    "disciplines": {
@@ -1249,7 +1153,6 @@ window.GLOSSARY_I18N.lt = {
     "eilė"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Kintanti tvarka, kuria grupės nariai šaudo kiekvienoje šaudymo vietoje ar keičia vietas.",
    "long": "Sportinge šešių šaulių grupės sudaromos burtų keliu, o šaudymo tvarka keičiasi kiekvienoje šaudymo vietoje ir dubletams. Compak šaudant grupėmis seriją visada pradeda 1-oji šaudymo vieta; kai 5-osios vietos šaulys baigia, jis eina laukti už 1-osios vietos, visi pasislenka per vieną vietą į dešinę, o laukęs šaulys stoja į 1-ąją. Vietos keičiamos atlaužus ir iškrovus šautuvą, o šaulys turi ne daugiau kaip 10 sekundžių paprašyti taikinio po ankstesnės vietos taikinio.",
    "disciplines": {
@@ -1262,9 +1165,7 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "komanda"
    ],
-   "note": "Oficialiame vertime ir 'komanda' – painu.",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Ne daugiau kaip šešių burtų keliu suskirstytų šaulių grupė, šaudanti kartu.",
    "long": "Abiejose taisyklėse grupėje yra ne daugiau kaip 6 šauliai, kurie tą pačią seriją šaudo kartu toje pačioje aikštelėje. Sportinge grupės sudaromos burtų keliu, vienos nacionalinės komandos nariai, kiek įmanoma, paskirstomi į skirtingas grupes, o laikas ir grupės skelbiami iš anksto. Grupės nariai negali kištis į teisėjo sprendimus, nors teisėjas gali paprašyti jų patarimo. Du tos pačios grupės šauliai negali naudotis vienu šautuvu. Tuščios vietos atkrintamųjų varžybų grupėje nepildomos.",
    "disciplines": {
@@ -1275,7 +1176,6 @@ window.GLOSSARY_I18N.lt = {
   "referee": {
    "term_local": "teisėjas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šaudymo vietos pareigūnas, vertinantis kiekvieną taikinį ir prižiūrintis tvarką.",
    "long": "Tarptautinėse varžybose kiekvienas teisėjas pasižada taikyti taisykles sąžiningai ir nešališkai, nepaisyti savo tautybės ir federacijos, stovėti ten, kur geriausiai gali vertinti, sprendimus skelbti garsiai ir aiškiai bei turėti galiojančias taisykles FITASC oficialiomis kalbomis. Tik teisėjas sprendžia, ar taikinys pataikytas ar prašautas, ar trajektorija taisyklinga ir ar taikinys yra No Bird; šių sprendimų negalima perduoti žiuri. Abejodamas teisėjas gali pasitarti su kitu teisėju, traperiu ar šauliais, bet jų nuomonė jo nesaisto. Kiekvienam teisėjui reikia galiojančio nacionalinio pažymėjimo; jo neturintis asmuo gali būti tik teisėjo padėjėjas, iš anksto pritarus žiuri.",
    "disciplines": {
@@ -1286,7 +1186,6 @@ window.GLOSSARY_I18N.lt = {
   "chief-referee": {
    "term_local": "vyriausiasis teisėjas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Vyriausias varžybų teisėjas, turintis tarptautinę FITASC kvalifikaciją.",
    "long": "Sportinge vyriausiajam teisėjui reikia FITASC išduoto tarptautinio pažymėjimo; jis kartu su atsakingais žiuri nariais dalyvauja tvirtinant aikšteles ir paskui instruktuoja kiekvieną šaudymo vietos teisėją. Vyriausiojo teisėjo neišspręstas technines problemas sprendžia žiuri. Compak vyriausiasis teisėjas turi turėti tarptautinę kortelę ir būti FITASC kvalifikuotas kaip vyriausiasis teisėjas; jis gali sustabdyti šaudymą dėl staigios liūties ar audros, o skubiam dviejų žiuri narių sprendimui reikia jo sutikimo.",
    "disciplines": {
@@ -1297,7 +1196,6 @@ window.GLOSSARY_I18N.lt = {
   "jury": {
    "term_local": "žiuri",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Organas, vadovaujantis tarptautinėms varžyboms, nagrinėjantis apeliacijas ir skiriantis nuobaudas.",
    "long": "Žiuri sudaro dalyvaujantys FITASC techninės (sporto) komisijos nariai, po vieną kiekvienos suaugusiųjų ar vyrų komandą registravusios šalies atstovą ir dalyvaujantys FITASC valdymo ar vykdomojo komiteto nariai, nesantys apeliacinėje žiuri; jai pirmininkauja organizuojančios federacijos atstovas (Compak – prezidentas arba organizuojančios federacijos atstovas). Ji sprendžia dalyvaujančių narių balsų dauguma, balsams pasiskirsčius po lygiai lemia pirmininko balsas, o kvorumą sudaro pirmininkas ir bent ketvirtadalis narių. Skubiu atveju gali spręsti du pirmininko paskirti nariai, vėliau sprendimą patvirtinant. Šaudykloje visada turi būti bent du žiuri nariai, o pažeidimą pastebėjęs narys apie jį praneša žiuri, o ne teisėjui.",
    "disciplines": {
@@ -1312,7 +1210,6 @@ window.GLOSSARY_I18N.lt = {
     "protokolas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Oficialus kiekvieno šaulio serijos rezultatų įrašas.",
    "long": "Sportinge rezultatų kortelę pildo teisėjas arba ji pildoma jo priežiūroje, kiekvienoje šaudymo vietoje naudojant kitos spalvos pieštuką; prieš grupei einant toliau teisėjas nufotografuoja kortelę ir pažymi žvaigždute ją nešančio šaulio pavardę. Šauliai patikrina savo rezultatą palikdami kiekvieną šaudymo vietą, o nesutarimą turi iškart pareikšti teisėjui. Compak teisėjas pildo kortelę šaudant grupėmis arba linija rankiniu būdu; naudojant elektronines sistemas, rezultatai rodomi ekrane. Pataikymas – X, prašovimas – O. Compak šaulys turi pasirašyti kortelę kiekvienos serijos pabaigoje; atsisakius pasirašyti, prarandama teisė skųstis.",
    "disciplines": {
@@ -1323,7 +1220,6 @@ window.GLOSSARY_I18N.lt = {
   "protest": {
    "term_local": "protestas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Neatidėliotinas prieštaravimas teisėjo sprendimui šaudymo vietoje.",
    "long": "Nesutinkantis šaulys turi prieštarauti iškart, šaudymo vietoje ir prieš paprašydamas kito taikinio (Compak – kol kitas šaulys nepaprašė), pakeldamas ranką ir sakydamas „protestas“ arba „apeliacija“, ir turi nurodyti priežastį. Teisėjas sustabdo šaudymą. Jei teisėjas tikras, sprendimas iškart patvirtinamas ir yra galutinis; jei abejoja, teisėjas gali pasitarti su kitu teisėju, traperiu ar šauliais, bet paskui jo sprendimas privalomas. Sprendimų dėl pataikymo ar prašovimo, trajektorijos ir No Bird negalima toliau skųsti žiuri."
   },
@@ -1333,7 +1229,6 @@ window.GLOSSARY_I18N.lt = {
     "apeliacinis skundas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Teisėjo sprendimo ginčijimas – pirmiausia šaudymo vietoje, paskui raštu žiuri.",
    "long": "Apeliacija pradedama šaudymo vietoje, iškart, pakeliant ranką ir sakant „apeliacija“ arba „protestas“. Sprendimų, ar taikinys pataikytas, ar jis buvo brokuotas ar nukrypęs nuo trajektorijos, ir sprendimų dėl No Bird negalima perduoti žiuri. Bet kurį kitą teisėjo sprendimą galima apskųsti žiuri raštu su užstatu: sportinge – 40 % dalyvio mokesčio, Compak – tą dieną galiojanti suma. Compak skundas turi būti dėl tos pačios dienos įvykio, o atsisakęs pasirašyti rezultatų kortelę šaulys skųstis negali. Jei žiuri apeliaciją patenkina, ji gali pakeisti sprendimą, duoti teisėjui nurodymus ar jį pakeisti, o užstatas grąžinamas.",
    "disciplines": {
@@ -1344,7 +1239,6 @@ window.GLOSSARY_I18N.lt = {
   "shoot-off": {
    "term_local": "atkrintamosios varžybos",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Papildoma serija lygybei dėl pirmų trijų vietų išspręsti.",
    "long": "Atkrintamosiomis varžybomis sprendžiama tik lygybė dėl pirmų trijų individualių vietų (Compak – ir kiekvienoje kategorijoje). Šaudoma 25 taikinių serija; jei lygybė išlieka, antras etapas šaudomas iki pirmos klaidos. Atkrintamosios varžybos vyksta pagal įprastas taisykles, bet tuščios grupės vietos nepildomos. Jei laikas iš anksto nenustatytas, šauliai turi palaikyti ryšį su žiuri ir būti pasirengę per 15 minučių po iškvietimo; neatvykęs diskvalifikuojamas arba laikomas pasitraukusiu. Dėl išskirtinių priežasčių žiuri gali jas atidėti kitai dienai. Komandoms atkrintamųjų varžybų niekada nebūna.",
    "disciplines": {
@@ -1358,7 +1252,6 @@ window.GLOSSARY_I18N.lt = {
     "count back"
    ],
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Vienodų rezultatų išrikiavimas lyginant rezultatus 8-ajame išdėstyme ar Compak aikštelėje, paskui 7-ajame ir taip toliau iki 1-ojo.",
    "long": "Žemiau trečios vietos atkrintamųjų varžybų nėra: lygūs šauliai užima vienodą vietą ir surašomi skaičiuojant jų rezultatus atbuline tvarka nuo 8-os aikštelės (Compak) iki 1-os. Lygios komandos rikiuojamos pagal narių bendrą rezultatą 8-oje aikštelėje ar Compak; jei vis dar lygu – 7-oje, 6-oje ir t. t. iki 1-os. Komandinių atkrintamųjų varžybų nėra."
   },
@@ -1368,7 +1261,6 @@ window.GLOSSARY_I18N.lt = {
     "15 sekundžių"
    ],
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Ilgiausias laikas, kurį šaulys gali užtrukti prieš prašydamas kito taikinio.",
    "long": "Sportinge šaulys turi ne daugiau kaip 15 sekundžių tarp pavienių taikinių ar tarp dubletų; viršijus pirmiausia skiriamas įspėjimas, o paskui – 12.2 straipsnio nuobaudos. Po galutinio teisėjo sprendimo ginče šaudymas turi būti atnaujintas per 15 sekundžių, kitaip tai laikoma atsisakymu paklusti. Compak riba – 10 sekundžių paprašyti taikinio po to, kai iššauta į ankstesnės šaudymo vietos taikinį; už pirmą pažeidimą skiriamas įspėjimas, įrašomas į rezultatų kortelę, o pakartojus toje pačioje serijoje baudžiama (pavieniam – nulis, dubletui pagal šūvio garsą – nulis / No Bird, vienalaikiam – nulis / nulis). Po galutinio sprendimo Compak šaulys turi tęsti per 10 sekundžių.",
    "disciplines": {
@@ -1379,7 +1271,6 @@ window.GLOSSARY_I18N.lt = {
   "mock-shooting": {
    "term_local": "šaudymo imitavimas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šautuvo prisidėjimas ir vedimas tarsi šaudant, kai tikro taikinio nėra.",
    "long": "Sportinge šaudymo imitavimas draudžiamas ir šaudykloje, ir už jos ribų: už prisidėjimą prieš komandą ir vedimą įsivaizduojama taikinio linija arba netyčinį šūvį skiriamas įspėjimas; paskui pakartojus vertinama nuliu kitam pataikytam taikiniui. Taikinių pristatymo metu šaudyti ar imituoti šaudymą taip pat draudžiama. Compak šaudymo imitavimas neleidžiamas už šaudymo vietų ribų ir tada, kai šaudo kitas grupės narys.",
    "disciplines": {
@@ -1402,7 +1293,6 @@ window.GLOSSARY_I18N.lt = {
     "bandomasis šūvis"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šautuvo veikimo patikrinimas šaunant specialioje bandymų vietoje, niekada – varžybų šaudymo vietoje.",
    "long": "Šaudymo vietoje šautuvų niekada negalima bandyti šaunant. Norintis patikrinti šautuvą šaulys tai daro prieš eidamas į aikštelę, bandymų vietoje prie klubo pastato (sportingas) arba prie ginklų patalpos (Compak), jei tokia įrengta. Žiuri taip pat gali tikrinti šautuvus, šovinius ir taikinius techninėmis priemonėmis."
   },
@@ -1412,7 +1302,6 @@ window.GLOSSARY_I18N.lt = {
     "praktikavimasis"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šaudymas prieš varžybas, kurį taisyklės riboja.",
    "long": "Sportinge niekas negali treniruotis varžybų aikštelėse prieš renginį; treniruotis galima tik kitose šaudyklose. Compak šauliai gali treniruotis su varžybų trajektorijomis, kurios vėliau dar gali būti keičiamos, bet treniruotėms naudojamos trajektorijų nustatymo lentelės turi skirtis nuo varžybų lentelių. Žemyno ir pasaulio Compak čempionatuose oficiali treniruotė prasideda šeštadienį prieš čempionatą, ir iki tol niekas negali treniruotis su čempionato mašinėlėmis.",
    "disciplines": {
@@ -1423,14 +1312,12 @@ window.GLOSSARY_I18N.lt = {
   "yellow-card": {
    "term_local": "geltonoji kortelė",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Kortelė, rodoma kartu su įspėjimu už pirmą pažeidimą.",
    "long": "Sportinge teisėjas skiria žodinį įspėjimą su geltonąja kortele, kai šaulys neužima privalomos parengties pozicijos arba prisideda šautuvą prieš pasirodant taikiniui; geltonoji kortelė skiriama ir už treniravimą bei tūtelių taisyklių pažeidimus. Compak geltonąja kortele žymimas pirmas taisyklės pažeidimas, pirmas ginklo ar šovinio sutrikimas serijoje, treniravimas ir tūtelių taisyklių pažeidimai. Kitas pažeidimas tada užtraukia raudonąją kortelę."
   },
   "red-card": {
    "term_local": "raudonoji kortelė",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Kortelė už pakartotinį pažeidimą po įspėjimo; taikinys įvertinamas kaip nuobauda.",
    "long": "Po pirmo įspėjimo už kiekvieną kitą pažeidimą toje pačioje aikštelėje (sportingas) ar Compak aikštelėje skiriama raudonoji kortelė. Tada taikinys įvertinamas: pavieniam – nulis; dubletui pagal šūvio garsą – nulis ir No Bird; vienalaikiam ar savaiminiam (rafale) dubletui – nulis ir nulis. Esant Compak sutrikimui antram dubleto taikiniui, pirmo rezultatas paliekamas, o antras – nulis. Compak antras to paties tipo ginklo ar šovinio sutrikimas taip pat reiškia nulį su raudonąja kortele."
   },
@@ -1440,14 +1327,12 @@ window.GLOSSARY_I18N.lt = {
     "sankcija"
    ],
    "conf": "high",
-   "src": "http://www.sporting.lt/wp-content/uploads/2018/01/TARPTAUTINĖS-COMPAK-SPORTINGO-TAISYKLĖS.pdf",
    "short": "Sankcija už taisyklių pažeidimą – nuo įspėjimo iki pašalinimo.",
    "long": "Registruodamasis kiekvienas šaulys sutinka su FITASC taisyklėmis ir sankcijomis už jų pažeidimą, teisėjų nurodymų nepaisymą ar jų sprendimų neigimą. Skalė prasideda įspėjimu, toliau – nuobaudos šaudymo vietoje pagal lentelę (raudonoji kortelė, nulis), o už pakartotinius pažeidimus, atsisakymą paklusti ar bandymus paveikti žiuri gali skirti vieno taikinio atėmimą, 25 taikinių serijos atėmimą arba pašalinimą. Už nesusivaldymą, atsisakymą paklusti, bandymą paveikti ar sąmoningą šaudymą į gyvus gyvūnus žiuri, gavusi teisėjo pranešimą, gali šaulį pašalinti iškart."
   },
   "category": {
    "term_local": "kategorija",
    "conf": "high",
-   "src": "https://www.sporting.lt/2026/06/25/lietuvos-sportingo-cempionato-rezultatai/",
    "short": "Atskira amžiaus ir lyties įskaita šalia bendrosios įskaitos; nuo 2027 m. FITASC taiko Junior, Lady, Men, Senior, Veteran ir Master.",
    "long": "Nuo 2027 m. sausio 1 d. FITASC nustato šešias kategorijas Compak® Sporting ir Parcours de Chasse – Sporting™: Junior (13–20), Lady (nuo 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) ir Master (nuo 73, vyrai arba moterys). Amžius skaičiuojamas pagal gimimo metus: nauja kategorija taikoma nuo sausio 1 d. tų metų, kuriais šaulys sulaukia amžiaus, nepriklausomai nuo gimtadienio. Senior yra ne pagrindinė suaugusiųjų kategorija, o 56–65 metų amžiaus grupė; pagrindinė suaugusiųjų kategorija – Men. Kategorijų komandose – po 3 šaulius (sportingo Men komandoje – 4), o į kitos kategorijos komandą atrinktas šaulys turi toje kategorijoje registruotis ir individualiai. Compak lygybė dėl pirmų trijų vietų kiekvienoje kategorijoje sprendžiama atkrintamosiomis varžybomis; kai bendrosios įskaitos atkrintamosiose varžybose dalyvaujantys šauliai priklauso tai pačiai kategorijai, rezultatas galioja ir tai kategorijai. Nacionalinės ir klubų varžybos gali taikyti savo kategorijas, kaip nurodyta programoje.",
    "disciplines": {
@@ -1460,16 +1345,13 @@ window.GLOSSARY_I18N.lt = {
    "alt": [
     "senjoras"
    ],
-   "note": "LSF: 'open ir senjorų', 'veteranų' kategorijos.",
    "conf": "high",
-   "src": "https://www.sporting.lt/2026/06/25/lietuvos-sportingo-cempionato-rezultatai/",
    "short": "FITASC amžiaus kategorija nuo 66 iki 72 metų.",
    "long": "Veteran (pranc. Vétéran) – nuo sausio 1 d. tų metų, kuriais šauliui sukanka 66, iki metų, kuriais sukanka 72, pabaigos; 2027 m. tai gimusieji 1955–1961 m. Veteran komandoje – 3 šauliai iš Veteran ar Master kategorijų. Veteranai taip pat gali būti atrinkti į Senior ir Men komandas ir tada toje kategorijoje registruojasi ir individualiai. Nacionalinės varžybos gali taikyti savo amžiaus ribas."
   },
   "team": {
    "term_local": "komanda",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Nacionalinė komanda, kurios narių rezultatai sudedami komandinei įskaitai.",
    "long": "Komandos rezultatas – jos narių rezultatų suma. Lygybė sprendžiama pagal komandos sumą 8-oje aikštelėje ar Compak, tada 7-oje ir t. t. iki 1-os; komandinių atkrintamųjų varžybų nėra. Tos pačios nacionalinės komandos nariai, kiek įmanoma, paskirstomi į skirtingas grupes. Atidarymo parade komandos nariai dėvi nacionalinės komandos aprangą arba tvarkingas kelnes su švarku. Komandos sudaromos ir pagal kategorijas: Junior, Lady, Men, Senior, Veteran ir Master, po 3 šaulius; tik sportingo Men komandoje – 4."
   },
@@ -1485,7 +1367,6 @@ window.GLOSSARY_I18N.lt = {
     "startinis mokestis"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Mokestis, mokamas norint dalyvauti varžybose.",
    "long": "Dalyvio mokestis apima taikinius, teisėjus ir organizavimą, kartais pietus ar kitas paslaugas. Jo dydis priklauso nuo varžybų lygio ir taikinių skaičiaus; jauniams ir pradedantiesiems dažnai taikomos nuolaidos. Šoviniai paprastai neįskaičiuoti. Sporting™ dalyvio mokestis nustato ir rašytinio protesto žiuri užstatą: jis sudaro 40 % mokesčio. Iš varžybų pašalintam šauliui pinigai negrąžinami.",
    "disciplines": {
@@ -1499,7 +1380,6 @@ window.GLOSSARY_I18N.lt = {
     "numeris"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Numeris, kurį šaulys varžybų metu nešioja ant nugaros.",
    "long": "Numeris turi būti ant nugaros, tarp pečių ir juosmens, gerai matomas ir visas, nesulankstytas ir neapkarpytas. Už pirmą pažeidimą teisėjas skiria įspėjimą; jei neištaisoma, taikomos tolesnės nuobaudos, iki žiuri sprendimu pašalinimo iš varžybų. Sportinge neatvykęs šaulys per vieną minutę tris kartus šaukiamas pavarde ir numeriu."
   },
@@ -1509,7 +1389,6 @@ window.GLOSSARY_I18N.lt = {
     "apdovanojimų ceremonija"
    ],
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Apdovanojimų ceremonija varžybų pabaigoje; tarptautiniuose renginiuose prizininkai privalo dalyvauti.",
    "long": "Po paskutinės serijos ir atkrintamųjų varžybų organizatorius paskelbia rezultatus ir įteikia medalius, taures ar prizus bendrojoje, kategorijų ir komandinėje įskaitoje. Pagal FITASC taisykles visi tarptautinių varžybų prizininkai privalo dalyvauti apdovanojimuose uždarymo ceremonijoje. Ceremonijos apranga – nacionalinės komandos apranga arba dalykinės kelnės su švarku. Net klubo varžybose likti apdovanojimams yra gera tradicija ir pagarbos organizatoriams bei varžovams ženklas. Jei turite išvykti anksčiau, praneškite organizatoriui."
   },
@@ -1519,7 +1398,6 @@ window.GLOSSARY_I18N.lt = {
     "saugumas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Taisyklės, saugančios šaulius, pareigūnus, personalą ir žiūrovus šaudykloje.",
    "long": "Sauga – svarbiausia ir projektuojant aikšteles, ir šaudant. Šautuvai nešami atlaužti ir neužtaisyti, o užtaisomi tik šaudymo vietoje, nukreipti į šaudymo zoną, teisėjui leidus; pusiau automatiniame šautuve – ne daugiau kaip du šoviniai. Prieš apsisukant ar paliekant šaudymo vietą šautuvas atlaužiamas ir išimami visi šoviniai, o pristatymų ir pertraukų metu jis lieka atlaužtas. Po sutrikimo šaulys lieka vietoje ir neatidaro šautuvo, kol teisėjas jo nepatikrina. Šaulys šauna tik savo eilės metu, tik į išmestą taikinį, niekada į kito šaulio taikinį ir niekada sąmoningai į gyvus gyvūnus. Klausos apsauga ir saugos akiniai privalomi, sandalai draudžiami.",
    "disciplines": {
@@ -1532,14 +1410,12 @@ window.GLOSSARY_I18N.lt = {
     "šautuvo nešiojimas atlaužtas"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/saudymas/taisykles/",
    "short": "Kaip šautuvai turi būti nešami, laikomi ir tvarkomi šaudymo vietoje ir už jos.",
    "long": "Su kiekvienu šautuvu, net ir neužtaisytu, elgiamasi labai atsargiai. Šautuvai nešami atlaužti; pusiau automatiniai – atidaryta spyna, vamzdžiu tiesiai aukštyn arba tiesiai žemyn. Diržai neleidžiami. Kai nenaudojami, šautuvai statomi vertikaliai į ginklų stovą ar panašią vietą. Niekas negali liesti kito dalyvio šautuvo be leidimo."
   },
   "loading": {
    "term_local": "užtaisymas / šovinių išėmimas",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Šoviniai į šautuvą dedami tik šaudymo vietoje ir po to išimami."
   },
   "cease-fire": {
@@ -1548,7 +1424,6 @@ window.GLOSSARY_I18N.lt = {
     "STOP"
    ],
    "conf": "medium",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Komanda nedelsiant nutraukti šaudymą: šautuvai atlaužiami ir iškraunami.",
    "long": "Šaudymą sustabdyti gali teisėjas, instruktorius ar bet kas, kas mato pavojų: žmogų ar gyvūną sektoriuje, sugedusią mašinėlę, staigią audrą. Išgirdę komandą iškart nustokite, atlaužkite šautuvą, išimkite šovinius ir laukite leidimo tęsti. Pagal FITASC taisykles bet kokios pertraukos metu šautuvai turi būti atlaužti ir iškrauti, o uždaryti juos galima tik teisėjui leidus. Mokykite šios komandos nuo pirmos pamokos, ypač vaikus. Tikslūs žodžiai ir ženklai skirtingose šaudyklose gali skirtis, todėl išmokite juos saugos instruktažo metu."
   },
@@ -1563,22 +1438,18 @@ window.GLOSSARY_I18N.lt = {
     "etika aikštelėje"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Iš šaulių tikimasi tinkamo elgesio, įskaitant draudimą nesusivaldyti.",
    "long": "Apie šaulį, kuris akivaizdžiai nesusivaldo, pavyzdžiui, numeta šautuvą, vartoja įžeidžiančius žodžius ar smurtauja prieš teisėją ar kitus dalyvius, teisėjas turi kuo skubiau pranešti žiuri. Žiuri tada gali šaulį iškart pašalinti. Elgesio taisyklės taip pat reikalauja šauti tik savo eilės metu, niekada į kito šaulio taikinį ir niekada į gyvus gyvūnus."
   },
   "dress-code": {
    "term_local": "apranga",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Dalyvių aprangos taisyklės šaudymo vietoje ir ceremonijose.",
    "long": "Trumpi šortai draudžiami; leidžiami tik ilgi bermudų tipo šortai, baigiantys ne daugiau kaip 5 cm virš kelio. Viršutiniai drabužiai turi būti bent trumpomis rankovėmis ir su apykakle ar apvalia iškirpte, o šaudymo liemenė ant nuogo kūno neleidžiama. Dėl saugumo sandalai draudžiami ir treniruotėse, ir varžybose. Atidarymo parade ir apdovanojimuose komandų nariai dėvi nacionalinės komandos aprangą arba tvarkingas kelnes su švarku, o kiekvienas prizininkas privalo dalyvauti apdovanojimuose. Už pirmą pažeidimą skiriamas įspėjimas; jei neištaisoma – tolesnės nuobaudos, iki žiuri sprendimu pašalinimo."
   },
   "empties": {
    "term_local": "tuščios tūtelės",
-   "note": "Vartoti 'tūtelės', ne skolinius.",
    "conf": "high",
-   "src": "https://www.sporting.lt/saudymas/taisykles/",
    "short": "Iššautos tūtelės, kurios surenkamos ir nepaliekamos ant žemės."
   },
   "sporting": {
@@ -1587,7 +1458,6 @@ window.GLOSSARY_I18N.lt = {
     "Parcours de Chasse – Sporting™"
    ],
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "FITASC disciplina, imituojanti medžioklės situacijas natūralioje vietovėje išdėstytų šaudymo vietų trasoje.",
    "long": "Sportingas, oficialiai Parcours de Chasse, šaudomas medžiokliniu lygiavamzdžiu šautuvu į virš natūralios vietovės išmetamus taikinius (lėkšteles). Trajektorijos atkartoja žvėrių ir paukščių skrydį ar bėgimą: artėjančius, tolstančius, kertančius ir įstrižus, aukštus ir žemus, atviroje vietoje ar iš dalies paslėptus už medžių. Kiekvienoje aikštelėje – 25 taikiniai: 15 pavienių ir 5 dubletai. Tarptautinės varžybos – 200 taikinių, šaudomų 25 taikinių serijomis. Į gyvus gyvūnus niekada nešaudoma, o sauga ir rūpestis aplinka – svarbiausia."
   },
@@ -1615,7 +1485,6 @@ window.GLOSSARY_I18N.lt = {
   "fitasc": {
    "term_local": "FITASC",
    "conf": "high",
-   "src": "https://www.sporting.lt/wp-content/uploads/2017/12/TARPTAUTINĖS-SPORTINGO-TAISYKLĖS-1-1.pdf",
    "short": "Tarptautinė federacija, valdanti Sporting™ ir Compak® Sporting ir skelbianti jų taisykles.",
    "long": "FITASC – tarptautinė medžioklinio tipo šaudymo disciplinų federacija, kuriai priklauso ir sportingas bei Compak® Sporting. Ji tvirtina tarptautinių varžybų aikšteles, išduoda tarptautinius teisėjų pažymėjimus ir penkerius metus saugo įrašus apie pašalinimus. Šiame vadove naudojamos dabartinės taisyklių redakcijos, galiojančios nuo 2025-01-01. Privalomas tik oficialus FITASC tekstas; ClayArena pateikia savo paprastą santrauką su nuorodomis į šaltinį."
   },
@@ -1881,15 +1750,13 @@ window.GLOSSARY_I18N.lt = {
    "term_local": "senjorai",
    "conf": "low",
    "short": "FITASC amžiaus kategorija nuo 56 iki 65 metų, ne pagrindinė suaugusiųjų kategorija.",
-   "long": "Senior kategorija – nuo sausio 1 d. tų metų, kuriais šauliui sukanka 56, iki metų, kuriais sukanka 65, pabaigos; 2027 m. tai gimusieji 1962–1971 m. Tai spąstai pradedantiesiems ir vertėjams: FITASC Senior reiškia ne suaugusiuosius apskritai, o 56–65 metų amžiaus grupę, o pagrindinė suaugusiųjų kategorija yra Men. Senior komandoje – 3 šauliai iš Senior, Veteran ar Master kategorijų. Kitose sporto šakose, senesniuose rezultatuose ir kai kuriose nacionalinėse programose senior gali reikšti suaugusiuosius apskritai, todėl tikrinkite konkretaus renginio lentelę.",
-   "note": "FITASC age: 56–65 (the age range was in term_local before 08.10.2026)."
+   "long": "Senior kategorija – nuo sausio 1 d. tų metų, kuriais šauliui sukanka 56, iki metų, kuriais sukanka 65, pabaigos; 2027 m. tai gimusieji 1962–1971 m. Tai spąstai pradedantiesiems ir vertėjams: FITASC Senior reiškia ne suaugusiuosius apskritai, o 56–65 metų amžiaus grupę, o pagrindinė suaugusiųjų kategorija yra Men. Senior komandoje – 3 šauliai iš Senior, Veteran ar Master kategorijų. Kitose sporto šakose, senesniuose rezultatuose ir kai kuriose nacionalinėse programose senior gali reikšti suaugusiuosius apskritai, todėl tikrinkite konkretaus renginio lentelę."
   },
   "master-category": {
    "term_local": "Master",
    "conf": "low",
    "short": "Vyriausia FITASC amžiaus kategorija – nuo 73 metų, vyrams ir moterims.",
-   "long": "Master apima vyrus ir moteris nuo sausio 1 d. tų metų, kuriais jiems sukanka 73; 2027 m. tai gimusieji iki 1955 m. sausio 1 d. Master komandoje – 3 šios kategorijos šauliai; Master šauliai taip pat gali būti atrinkti į Veteran, Senior ir Men komandas. FITASC Master amžiaus kategorijos nepainiokite su amerikietiškos NSCA sistemos Master klase, kuri priklauso nuo rezultatų, ar su dominuojančia akimi (master eye) technikoje.",
-   "note": "FITASC age: from 73 (the age range was in term_local before 08.10.2026)."
+   "long": "Master apima vyrus ir moteris nuo sausio 1 d. tų metų, kuriais jiems sukanka 73; 2027 m. tai gimusieji iki 1955 m. sausio 1 d. Master komandoje – 3 šios kategorijos šauliai; Master šauliai taip pat gali būti atrinkti į Veteran, Senior ir Men komandas. FITASC Master amžiaus kategorijos nepainiokite su meistriškumo klase, kuri priklauso nuo rezultatų, ar su dominuojančia akimi (master eye) technikoje."
   },
   "crimp": {
    "term_local": "tūtelės užsukimas",
@@ -2321,12 +2188,12 @@ window.GLOSSARY_I18N.lt = {
   "fur-and-feather": {
    "term_local": "kailis ir plunksna (fur and feather)",
    "conf": "low",
-   "short": "Anglų sportingo žargonas porai iš triušio ir skraidančio taikinio."
+   "short": "Britų trenerių žargonas porai iš triušio ir skraidančio taikinio."
   },
   "true-pair": {
    "term_local": "vienalaikė pora (true pair)",
    "conf": "low",
-   "short": "Anglų sportingo pavadinimas vienalaikiam dubletui: abu taikiniai išmetami tuo pačiu metu."
+   "short": "Taip britų treneriai vadina vienalaikį dubletą: abu taikiniai išmetami tuo pačiu metu."
   },
   "shell-catcher": {
    "term_local": "tūtelių gaudyklė",
@@ -2382,30 +2249,7 @@ window.GLOSSARY_I18N.lt = {
   "gun-up": {
    "term_local": "šautuvas prisidėtas (gun up)",
    "conf": "low",
-   "short": "Pradžia, kai šautuvas prisidėtas jau prieš prašant taikinio; leidžiama anglų sportinge, NSCA ir Compak®, bet ne FITASC Sporting™."
-  },
-  "english-sporting": {
-   "term_local": "anglų sportingas (English Sporting)",
-   "conf": "low",
-   "short": "Britiška sportingo atmaina, kurią Anglijoje rengia CPSA greta FITASC Sporting™; turi savas taisykles: dažni taikinių dubletai, o šauliai dažnai pradeda jau atrėmę šautuvą į petį."
-  },
-  "cpsa": {
-   "term_local": "CPSA",
-   "conf": "low",
-   "short": "Clay Pigeon Shooting Association – Anglijos šaudymo į lėkšteles valdymo organas."
-  },
-  "nsca": {
-   "term_local": "NSCA",
-   "conf": "low",
-   "short": "National Sporting Clays Association – organizacija, valdanti sporting clays Jungtinėse Valstijose."
-  },
-  "hoa": {
-   "term_local": "HOA",
-   "alt": [
-    "High Over All"
-   ],
-   "conf": "low",
-   "short": "Absoliutus renginio nugalėtojas, nepriklausomai nuo kategorijos ar klasės."
+   "short": "Pradžia, kai šautuvas prisidėtas jau prieš prašant taikinio; leidžiama Compak® Sporting, bet ne Parcours de Chasse – Sporting™."
   },
   "clock-face": {
    "term_local": "laikrodžio ciferblatas",

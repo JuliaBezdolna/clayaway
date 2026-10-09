@@ -25,7 +25,14 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -40,7 +47,8 @@
     "interpreter-false-friends-p2": "Słowa liczenia wyniku nie są dosłowne. „Dead” i „kill” znaczą trafienie, bez związku ze śmiercią. „Lost” znaczy chybienie, nie coś zgubionego. „Dropped two” znaczy dwa rzutki chybione. „Straight” w „25 straight” znaczy bezbłędną serię bez żadnego chybienia.",
     "interpreter-false-friends-p3": "Słowa o sprzęcie i miejscu. „Trap” to wyrzutnia, nie pułapka. „Stand” to jedno miejsce do strzelania, {{term:shooting-stand|stanowisko}}, nie cała strzelnica; w {{tm:compak}} takie miejsca nazywa się często numerami. „{{term:peg|Peg}}” to miejsce strzelca. Nazwa pochodzi od numerowanego kołka, którym na polowaniu z nagonki oznacza się miejsce każdego strzelca, więc nie tłumaczcie go jako „kołek”. „Broken gun” to otwarta (złamana) broń. „Pull!” to {{term:call|komenda}}, „{{term:pull-away|pull-away}}” to metoda {{term:lead|wyprzedzenia}}, czyli odejście od rzutka, a „{{term:length-of-pull|length of pull}}” to odległość od spustu do tylnej płytki {{term:stock|kolby}}.",
     "interpreter-false-friends-cards": "„Card” to zarówno {{term:score-sheet|karta wyników}}, jak i żółta czy {{term:red-card|czerwona kartka}}. „On report” znaczy na odgłos strzału, jak w {{term:double-on-report|dublecie po strzale}}. „{{term:squad|Squad}}” to grupa zawodnicza licząca {{fact:rules.squad-max-shooters}}. Wyjazdy ClayAway, które są przygotowywane, będą używać tego słowa też dla podgrupy wyjazdu.",
-    "interpreter-false-friends-p4": "Inne języki mają własne pułapki. Francuskie „chandelle” to rzutek, który wylatuje prawie prosto w górę; po angielsku to {{term:teal|teal}}. To nie angielskie {{term:chandelle|chandelle}} — rzutek, który wznosi się stromo po łuku, a potem spada. Francuskie „en battue” i włoskie „in battuta” znaczą polowanie z nagonki (ang. „driven”), nie rzutek {{term:battue|battue}}. W portugalskim „batida” to rzutek battue, a „de batida” znaczy z nagonki. Przy trafieniu francuski sędzia mówi „Bon”, a włoski „Buono”, a {{term:trapper|operatora wyrzutni}} często nazywa się „pulleur” albo „puller”. Słowa dla grupy też się różnią, więc używajcie tego, które jest w regulaminie danych zawodów."
+    "interpreter-false-friends-p4": "Inne języki mają własne pułapki. Francuskie „chandelle” to rzutek, który wylatuje prawie prosto w górę; po angielsku to {{term:teal|teal}}. To nie angielskie {{term:chandelle|chandelle}} — rzutek, który wznosi się stromo po łuku, a potem spada. Francuskie „en battue” i włoskie „in battuta” znaczą polowanie z nagonki (ang. „driven”), nie rzutek {{term:battue|battue}}. W portugalskim „batida” to rzutek battue, a „de batida” znaczy z nagonki. Przy trafieniu francuski sędzia mówi „Bon”, a włoski „Buono”, a {{term:trapper|operatora wyrzutni}} często nazywa się „pulleur” albo „puller”. Słowa dla grupy też się różnią, więc używajcie tego, które jest w regulaminie danych zawodów.",
+    "interpreter-false-friends-pairs": "{{term:double|Dublety}} mają różne nazwy. „{{term:true-pair|True pair}}” (brytyjskie i amerykańskie) to {{term:simultaneous-double|dublet symultaniczny}} FITASC: oba rzutki wylatują razem. „Report pair” to {{term:double-on-report|dublet po strzale}}: drugi rzutek wypuszcza odgłos waszego pierwszego strzału. „Following pair” to {{term:rafale-double|rafale}} FITASC: dwa rzutki z tej samej {{term:trap|wyrzutni}}, jeden po drugim. „Show pair” to {{term:target-presentation|pokaz}} dubletu przed strzelaniem. „{{term:peg|Peg}}” to {{term:shooting-stand|stanowisko}}, „station” to amerykańskie słowo na stanowisko, a „{{term:cage|cage}}” to rama wokół niego."
   },
   "note": {},
   "phrases": {
@@ -67,6 +75,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "Drugi rzutek wypuszczany jest na odgłos waszego pierwszego strzału.",
       "say": "Drugi — po strzale."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Ćwiczenie treningowe: zaczynać z bronią w ramieniu. Niedozwolone na zawodach FITASC {{tm:sporting}}.",
+      "say": "Na razie ten — z już złożoną bronią."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Oba rzutki wylatują w tym samym momencie (FITASC: dublet symultaniczny).",
+      "say": "To dublet symultaniczny."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Dwa rzutki z tej samej wyrzutni jeden po drugim (FITASC: rafale).",
+      "say": "Rafale z lewej wyrzutni."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Wypuśćcie dublet raz, żeby wszyscy mogli go zobaczyć przed strzelaniem.",
+      "say": "Pokażcie, proszę, dublet."
     }
   },
   "key_points": {
@@ -75,7 +99,8 @@
     "interpreter-false-friends-kp3": "Trap = wyrzutnia; stand = jedno stanowisko; peg = miejsce strzelca; broken gun = otwarta broń",
     "interpreter-false-friends-kp4": "Pull, card, report i squad mają po kilka znaczeń",
     "interpreter-false-friends-kp5": "Francuskie chandelle i „en battue” różnią się od angielskich słów",
-    "interpreter-false-friends-kp6": "„Dusted it” może znaczyć i jedno, i drugie: dopytajcie"
+    "interpreter-false-friends-kp6": "„Dusted it” może znaczyć i jedno, i drugie: dopytajcie",
+    "interpreter-false-friends-kp7": "True pair = symultaniczny; report pair = po strzale; following pair = rafale"
   },
   "did_you_know": null,
   "quiz": {
@@ -108,6 +133,17 @@
         "d": "Rzutek, który rozpada się w pył"
       },
       "explain": "Francuskie „en battue” (włoskie „in battuta”) znaczy polowanie z nagonki; rzutek battue to coś innego."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Brytyjski trener mówi „It’s a true pair”. Jaki jest termin FITASC?",
+      "options": {
+        "a": "Dublet po strzale",
+        "b": "{{term:rafale-double|Dublet rafale}}",
+        "c": "Dublet symultaniczny",
+        "d": "Prawidłowy {{term:double|dublet}}"
+      },
+      "explain": "„True pair” to brytyjska i amerykańska nazwa dwóch rzutków wypuszczonych razem, czyli dubletu symultanicznego FITASC.",
+      "rule_ref": "sporting:ch4-simultaneous-double"
     }
   }
 }

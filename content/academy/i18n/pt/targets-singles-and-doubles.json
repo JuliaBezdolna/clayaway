@@ -8,7 +8,7 @@
     "flight-pairs-p1": "de3af0f1",
     "flight-pairs-p2": "4807909e",
     "flight-pairs-p3": "5326e900",
-    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p4": "2b3ac612",
     "flight-pairs-p6": "8dc7cb7e",
     "flight-pairs-kp1": "ef123d9b",
     "flight-pairs-kp2": "3dee0536",
@@ -18,13 +18,14 @@
     "flight-pairs-ph1": "9a849839",
     "flight-pairs-ph2": "113027fe",
     "flight-pairs-ph3": "07db0d22",
-    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-ph4": "bc04a541",
     "flight-pairs-q1": "ebe2b5dc",
     "flight-pairs-q2": "44dfc09b",
-    "flight-pairs-q3": "424310f9",
+    "flight-pairs-q3": "61892e73",
     "targets-singles-and-doubles-q2": "69c2d15d",
     "targets-singles-and-doubles-q1": "de200647",
-    "targets-singles-and-doubles-q-two-with-one": "e024bf17"
+    "targets-singles-and-doubles-q-two-with-one": "e024bf17",
+    "flight-pairs-sim": "cd49e005"
   },
   "review": {
     "by": null,
@@ -37,8 +38,9 @@
     "flight-pairs-p1": "Um {{term:single-target|simples}} é um prato de uma {{term:trap|máquina}}. Nas duas disciplinas podem disparar-se-lhe dois tiros, por isso uma falha pode ser salva com o segundo cano. Um double (pair) são dois pratos atirados como uma só unidade, depois de um único pedido.",
     "flight-pairs-p2": "{{term:double-on-report|Double ao tiro}}, também chamado report pair: o pedido lança o primeiro prato, e o tiro a esse prato lança o segundo. No {{tm:sporting}} o segundo sai 0 a 3 segundos depois desse tiro. A ordem é fixa. «Report» significa o som do tiro, não um relatório escrito.",
     "flight-pairs-p3": "{{term:rafale-double|Double sucessivo}}, em inglês também following pair: dois pratos da mesma máquina na mesma linha, o segundo tão depressa quanto a máquina recarrega. Pode atirar-se a qualquer um deles primeiro. Só existe no {{tm:sporting}}: um double de {{tm:compak}} é ao tiro ou simultâneo.",
-    "flight-pairs-p4": "{{term:simultaneous-double|Double simultâneo}}, ou «simo» — no {{term:english-sporting|English Sporting}} um «{{term:true-pair|true pair}}»: os dois pratos saem no mesmo instante e podem ser atirados por qualquer ordem. Vêm de uma ou de duas máquinas; no {{tm:compak}} sempre de duas máquinas diferentes.",
-    "flight-pairs-p6": "Num posto de {{tm:sporting}} a esquadra atira primeiro os simples e depois os doubles. Antes do tiro, os doubles simultâneos e rafale são lançados para os atiradores os verem (mostram-se ao primeiro atirador da esquadra); os doubles ao tiro não são mostrados."
+    "flight-pairs-p4": "{{term:simultaneous-double|Double simultâneo}}, ou «simo» — os treinadores britânicos dizem também «{{term:true-pair|true pair}}»: os dois pratos saem no mesmo instante e podem ser atirados por qualquer ordem. Vêm de uma ou de duas máquinas; no {{tm:compak}} sempre de duas máquinas diferentes.",
+    "flight-pairs-p6": "Num posto de {{tm:sporting}} a esquadra atira primeiro os simples e depois os doubles. Antes do tiro, os doubles simultâneos e rafale são lançados para os atiradores os verem (mostram-se ao primeiro atirador da esquadra); os doubles ao tiro não são mostrados.",
+    "flight-pairs-sim": "Um prato e depois os três doubles: ao tiro, simultâneo e rafale; repare quando sai o segundo prato."
   },
   "note": {},
   "phrases": {
@@ -55,7 +57,7 @@
       "say": "Rafale — depois do primeiro, volte logo à máquina para o segundo."
     },
     "flight-pairs-ph4": {
-      "meaning": "Cinco doubles simultâneos lançados da {{term:tower|torre}} — vocabulário do English Sporting.",
+      "meaning": "Cinco doubles simultâneos lançados da {{term:tower|torre}} — vocabulário dos treinadores britânicos.",
       "say": "Doubles simultâneos da torre, cinco."
     }
   },
@@ -95,7 +97,7 @@
         "c": "Um rafale",
         "d": "Um double simultâneo"
       },
-      "explain": "«True pair» é o nome do English Sporting para o double simultâneo; «true» não tem nada a ver com correção."
+      "explain": "«True pair» é o nome que os treinadores britânicos dão ao double simultâneo; «true» não tem nada a ver com correção."
     },
     "targets-singles-and-doubles-q2": {
       "q": "Em que disciplina há doubles em rafale?",

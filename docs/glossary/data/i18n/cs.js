@@ -1,4 +1,4 @@
-/* ClayArena glossary — cs: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
+/* ClayArena glossary — cs: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/cs.json, not published); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.cs = {
  "lang": "cs",
@@ -9,7 +9,6 @@ window.GLOSSARY_I18N.cs = {
     "broková zbraň"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Lovecká zbraň s hladkým vývrtem používaná ve Sporting™ a Compak® Sporting.",
    "long": "Použít lze jakoukoli loveckou brokovnici, včetně samonabíjecích, s ráží nejvýše 12 a hlavněmi dlouhými nejméně 66 cm (26 palců). Pumpy nejsou dovoleny a pravidla Compak zakazují i drilingy. Zakázány jsou řemeny a popruhy, mikrokamery připevněné ke zbrani a jakékoli umělé zaměřovací zařízení. Nikdo se nesmí bez svolení dotknout zbraně jiného střelce a dva střelci téže skupiny se nesmí dělit o jednu zbraň. V Compak® Sporting se výstřely ze zbraně nebo s municí, které neodpovídají pravidlům, vypálené před kontrolou počítají jako nula.",
    "disciplines": {
@@ -22,9 +21,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "broková kozlice"
    ],
-   "note": "Shops write 'broková kozlice'.",
    "conf": "high",
-   "src": "https://cs.wikipedia.org/wiki/Brokovnice",
    "short": "Brokovnice se dvěma hlavněmi nad sebou; nejběžnější typ ve Sporting™ a Compak® Sporting.",
    "long": "Kozlice má dvě hlavně nad sebou, sklopný závěr a obvykle jednu spoušť s voličem hlavní. Úzká záměrná plocha podél lišty, dobré vyvážení a spolehlivost z ní udělaly standard ve Sporting™ a Compak® Sporting. Obě hlavně mohou mít různá zahrdlení, takže první a druhý výstřel se hodí na různé vzdálenosti. Otevřená kozlice všem hned ukazuje, že je bezpečná, což se na stanovišti hodí. Je to nejčastější volba první zbraně pro začátečníka."
   },
@@ -35,7 +32,6 @@ window.GLOSSARY_I18N.cs = {
     "dvouhlavňová brokovnice"
    ],
    "conf": "high",
-   "src": "https://cs.wikipedia.org/wiki/Brokovnice",
    "short": "Brokovnice se dvěma hlavněmi vedle sebe; klasická lovecká zbraň.",
    "long": "U dvojky leží hlavně vedle sebe, takže záměrná plocha je širší než u kozlice. Je to klasická lovecká zbraň, často lehká a elegantní, mnohdy se dvěma spoušťmi. Pravidla FITASC povolují jakoukoli loveckou zbraň kromě opakovacích s posuvným předpažbím, takže dvojku lze použít i na závodech. V moderním Sporting™ a Compak® Sporting je ale vzácná: většina střelců volí kozlici nebo samonabíjecí brokovnici. Někteří střílejí z dvojky kvůli tradici nebo ve zvláštních třídách na klubových závodech."
   },
@@ -45,9 +41,7 @@ window.GLOSSARY_I18N.cs = {
     "poloautomat",
     "poloautomatická zbraň"
    ],
-   "note": "ASAT rules: 'poloautomatické zbraně'.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Samonabíjecí brokovnice, povolená v obou disciplínách se zvláštními pravidly zacházení.",
    "long": "Samonabíjecí brokovnice jsou povoleny, ale smí být nabity nejvýše dvěma náboji. Nosí se a ukládají s otevřeným závěrem a ústím kolmo nahoru nebo dolů. Jejich uživatelé musí po odchodu ze stanoviště sebrat vyhozené nábojnice a dát je do koše. V Compaku musí mít samonabíjecí brokovnice také zařízení, které zabrání tomu, aby vyhazované nábojnice obtěžovaly sousedního střelce. U release spouště znamená vybití po No Bird zajistit zbraň a dvakrát natáhnout napínací páku.",
    "disciplines": {
@@ -61,10 +55,9 @@ window.GLOSSARY_I18N.cs = {
     "pumpovačka",
     "pump-action"
    ],
-   "note": "Colloquially 'pumpa'.",
    "conf": "low",
    "short": "Brokovnice, která se přebíjí posouváním předpažbí dozadu a dopředu; pravidla FITASC ji zakazují.",
-   "long": "U opakovací brokovnice s posuvným předpažbím střelec po každém výstřelu vyhodí nábojnici a zasune nový náboj tím, že posune předpažbí dozadu a dopředu. Takové zbraně jsou běžné při lovu a v některých jiných střeleckých sportech, pravidla FITASC pro Sporting™ a Compak® Sporting je ale výslovně zakazují. Povoleny jsou kozlice, dvojky a samonabíjecí brokovnice ráže 12 nebo menší. Pokud chcete závodit, nekupujte si jako první zbraň opakovačku s posuvným předpažbím. Pravidla na některých klubových závodech se mohou lišit, proto si přečtěte propozice."
+   "long": "U opakovací brokovnice s posuvným předpažbím střelec po každém výstřelu vyhodí nábojnici a zasune nový náboj tím, že posune předpažbí dozadu a dopředu. Takové zbraně jsou běžné při lovu, pravidla FITASC pro Sporting™ a Compak® Sporting je ale výslovně zakazují. Povoleny jsou kozlice, dvojky a samonabíjecí brokovnice ráže 12 nebo menší. Pokud chcete závodit, nekupujte si jako první zbraň opakovačku s posuvným předpažbím. Pravidla na některých klubových závodech se mohou lišit, proto si přečtěte propozice."
   },
   "gauge": {
    "term_local": "ráže",
@@ -73,7 +66,6 @@ window.GLOSSARY_I18N.cs = {
     "dvanáctka"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Ráže brokovnice; největší povolená je 12.",
    "long": "Obě pravidla omezují zbraně na ráži 12 nebo menší, s hlavněmi dlouhými nejméně 66 cm. Menší ráže jsou tedy dovoleny, ale limit náplně 28 g olova (+2 %) platí pro každou zbraň."
   },
@@ -83,7 +75,6 @@ window.GLOSSARY_I18N.cs = {
     "hlavně (pl.)"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Trubka, kterou procházejí broky."
   },
   "barrel-length": {
@@ -92,7 +83,6 @@ window.GLOSSARY_I18N.cs = {
     "délka hlavní"
    ],
    "conf": "high",
-   "src": "https://www.e-myslivost.cz/brokova-kozlice-browning-b725-sporter-12m-x116849",
    "short": "Délka hlavní; FITASC vyžaduje nejméně 66 cm (26 palců), typické závodní zbraně mají 28, 30 nebo 32 palců.",
    "long": "Pravidla FITASC pro Sporting™ a Compak® Sporting vyžadují hlavně dlouhé nejméně 66 cm (26 palců). Sportovní zbraně mívají nejčastěji hlavně 28, 30 nebo 32 palců (asi 71, 76 a 81 cm). Delší hlavně se pohybují plynuleji a lépe drží linii; kratší jsou rychlejší a lehčí. Dospělému začátečníkovi se často doporučuje 30 palců, mladému nebo menšímu střelci kratší hlavně. Konečnou volbu udělejte s trenérem, protože záleží i na celkovém vyvážení zbraně."
   },
@@ -103,7 +93,6 @@ window.GLOSSARY_I18N.cs = {
     "ventilovaná lišta"
    ],
    "conf": "high",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/brokove-kozlice-cz",
    "short": "Zaměřovací lišta podél horní strany hlavní, obvykle ventilovaná, s muškou na konci.",
    "long": "Lišta je kovový pás podél horní hlavně. Ventilovaná lišta má otvory, aby horký vzduch nad hlavněmi méně zkresloval pohled. Na konci lišty je muška, někdy i střední muška. Při střelbě na asfaltové terče se nemíří podél lišty jako u kulovnice: díváte se na terč a lištu vidíte periferním viděním. Kolik lišty vidíte se zalícenou zbraní, závisí na výšce lícnice a je to důležitá součást přizpůsobení pažby."
   },
@@ -113,7 +102,6 @@ window.GLOSSARY_I18N.cs = {
     "ústí"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Přední otvor hlavně, ze kterého vylétají broky. Musí vždy mířit bezpečným směrem.",
    "long": "Ústí je přední konec hlavně a u zbraně s výměnným zahrdlením se do něj šroubuje zahrdlení. První pravidlo bezpečnosti: ústí vždy míří bezpečným směrem, i když jste si jisti, že zbraň není nabitá. Pravidla FITASC vyžadují nosit zbraně otevřené, samonabíjecí se závěrem otevřeným, ústím kolmo nahoru nebo kolmo dolů. Na stanovišti se nabíjí jen s ústím namířeným do střelnice. Nikdy nemiřte ústím na lidi a nikdy se do něj nedívejte."
   },
@@ -123,7 +111,6 @@ window.GLOSSARY_I18N.cs = {
     "komora"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Část v zadní části hlavně, kde leží náboj; má vyznačenou délku.",
    "long": "Nábojová komora je o něco širší než vývrt, aby se do ní vešel náboj. Její délka je vyražena na hlavni, například 70 mm nebo 76 mm. Délka uvedená na krabičce nábojů platí pro nábojnici otevřenou po výstřelu, takže nesmí přesáhnout délku komory: střelba delšími náboji je nebezpečná. Na asfaltové terče se nejčastěji používají náboje 12/70. Před tréninkem naprázdno nebo před převozem vždy zkontrolujte, že jsou komory prázdné."
   },
@@ -133,14 +120,12 @@ window.GLOSSARY_I18N.cs = {
     "pouzdro závěru"
    ],
    "conf": "high",
-   "src": "https://www.e-myslivost.cz/brokova-kozlice-browning-b725-sporter-12m-x116849",
    "short": "Kovový blok zbraně se spoušťovým mechanismem, uzavírací pákou a pojistkou.",
    "long": "Baskule spojuje hlavně, pažbu a předpažbí. Uvnitř je spoušťový mechanismus a nahoře uzávěrová páka, která otevírá sklopnou zbraň, a pojistka, často spojená s voličem hlavní. Dole je spoušť v lučíku. Na baskuli bývá výrobní číslo a zkušební značky, které jsou potřeba pro doklady a cestování. Baskuli sami nerozebírejte: servis mechanismu je práce pro puškaře."
   },
   "stock": {
    "term_local": "pažba",
    "conf": "high",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/brokove-kozlice-cz",
    "short": "Část zbraně, která se opírá o rameno a podpírá tvář.",
    "long": "Pažba bývá dřevěná, někdy z umělé hmoty. Její horní hrana je lícnice, na které leží tvář, a vzadu je botka, která se opírá o rameno. Rozměry pažby (délka, výška lícnice, vyosení) určují, kde je oko vzhledem k liště a zda zbraň střílí tam, kam se díváte. Pažba je proto hlavním předmětem přizpůsobení. Podle pravidel FITASC musí mít zbraň se spouští na uvolnění (release) na vnější straně pažby nálepku s velkým „R“."
   },
@@ -149,9 +134,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "hřbet pažby"
    ],
-   "note": "Shops use 'lícnice' for the comb.",
    "conf": "high",
-   "src": "https://www.e-myslivost.cz/brokova-kozlice-browning-b725-sporter-12m-x116849",
    "short": "Horní hrana pažby, o kterou se opírá tvář; její výška určuje, kde je oko nad lištou.",
    "long": "Lícnice funguje jako zadní mířidlo zbraně: oko je tam, kam ho tvář posadí. Příliš vysoká lícnice způsobí, že zbraň střílí vysoko, příliš nízká, že střílí nízko a střelec vidí méně z lišty. Mnoho sportovních zbraní má nastavitelnou lícnici, kterou lze zvednout, snížit nebo posunout do strany. Ve Sporting™ se pravidlo pohotovostního postoje odvolává na nejvyšší část pažby: před vyvoláním musí její zadní konec zůstat pod čárou na vestě, dokud se neobjeví terč. Lícnici nastavujte spolu s trenérem nebo specialistou na přizpůsobení pažby."
   },
@@ -167,7 +150,6 @@ window.GLOSSARY_I18N.cs = {
   "fore-end": {
    "term_local": "předpažbí",
    "conf": "high",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/brokove-kozlice-cz",
    "short": "Část pod hlavněmi, kterou drží přední ruka; zároveň drží hlavně na baskuli.",
    "long": "Předpažbí je dřevěný nebo plastový díl pod hlavněmi. Drží ho přední ruka a vede zbraň po terči, takže jeho tvar ovlivňuje úchop. U sklopných zbraní zároveň spojuje hlavně se závěrem: při rozkládání na převoz se nejdřív sundává předpažbí. Při čištění otřete kov pod předpažbím, kde se drží vlhkost. Někteří střelci nosí rukavice, aby si chránili ruku před horkými hlavněmi."
   },
@@ -178,7 +160,6 @@ window.GLOSSARY_I18N.cs = {
     "krk pažby"
    ],
    "conf": "high",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/brokove-kozlice-cz",
    "short": "Část pažby, kterou drží ruka na spoušti."
   },
   "trigger": {
@@ -188,7 +169,6 @@ window.GLOSSARY_I18N.cs = {
     "selektivní jednospoušť"
    ],
    "conf": "high",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/brokove-kozlice-cz",
    "short": "Páčka, jejímž stisknutím zbraň vystřelí."
   },
   "release-trigger": {
@@ -196,7 +176,6 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "spoušť na povolení"
    ],
-   "note": "Anglicism; rare in Czech sources.",
    "conf": "low",
    "short": "Spoušť, která vystřelí při uvolnění, nikoli při stisknutí.",
    "long": "Zbraň s release spouští musí mít na vnější straně pažby varovný štítek s velkým 'R' na fluorescenčním podkladu. Pokud zákon pořádající země release spouště na mezinárodním závodě zakazuje, musí to být uvedeno v programu. Pokud No Bird nebo cokoli jiného zabrání výstřelu, střelec drží spoušť stisknutou a buď zavolá nový terč, nebo zbraň otevře se stále drženou spouští (samonabíjecí: zajistit a dvakrát natáhnout napínací páku), nebo informuje rozhodčího a vystřelí bezpečným směrem, který rozhodčí ukáže. Týká-li se No Bird druhého terče po prvním výstřelu u systému release-pull, zbraň se prostě otevře."
@@ -207,7 +186,6 @@ window.GLOSSARY_I18N.cs = {
     "pojistka zbraně"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Posuvník na zbrani, který blokuje spoušť."
   },
   "barrel-selector": {
@@ -226,7 +204,6 @@ window.GLOSSARY_I18N.cs = {
     "vyhazovače nábojnic"
    ],
    "conf": "high",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/brokove-kozlice-cz",
    "short": "Mechanismus, který při otevření zbraně vyhodí vystřelené nábojnice.",
    "long": "Když se sklopná zbraň s vyhazovači po výstřelu otevře, vystřelené nábojnice samy vyletí. Nevystřelené náboje se jen trochu povytáhnou, aby je šlo vyndat rukou. Jednodušší zbraně mají jen vytahovač, který všechny nábojnice povytáhne, ale nevyhodí. Prázdné nábojnice posbírejte a dejte do nádob na střelnici. Při otevírání zbraně držte ruku nad komorami, aby nábojnice nelétaly na sousedy."
   },
@@ -237,7 +214,6 @@ window.GLOSSARY_I18N.cs = {
     "botka pažby"
    ],
    "conf": "high",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/brokove-kozlice-cz",
    "short": "Gumová nebo gelová botka na konci pažby, která tlumí zpětný ráz; mění také délku pažby."
   },
   "choke": {
@@ -247,9 +223,7 @@ window.GLOSSARY_I18N.cs = {
     "choke",
     "zúžení"
    ],
-   "note": "Official 'zahrdlení'; on ranges 'čok/čoky' (from choke).",
    "conf": "high",
-   "src": "https://www.myslivost.cz/Casopis-Myslivost/Myslivost/2005/Listopad---2005/Lovecky-parkur-a-Compak-parkur",
    "short": "Vyjímatelné zúžení u ústí hlavně, které tvaruje obrazec zásahu.",
    "long": "Ve Sporting lze výměnné zahrdlení, stejně jako zbraň nebo hlaveň, vyměnit během položky mezi stanovišti nebo mezi jednotlivými terči a dvojstřely, pokud to nezpůsobí zdržení; jakmile je střelec na stanovišti, žádná výměna není dovolena. V Compaku je výměna zbraně, zahrdlení nebo hlavní v téže položce zakázána a dovolena jen mezi položkami, s výjimkou po poruše.",
    "disciplines": {
@@ -273,7 +247,6 @@ window.GLOSSARY_I18N.cs = {
     "multichoke"
    ],
    "conf": "high",
-   "src": "https://www.e-myslivost.cz/brokova-kozlice-browning-b725-sporter-12m-x116849",
    "short": "Systém výměnných zahrdlení se závitem, která se šroubují do ústí.",
    "long": "U zbraně s výměnným zahrdlením má ústí každé hlavně závit a ke zbrani patří několik zahrdlení s různým zúžením. Jedna zbraň se tak hodí na blízké i vzdálené terče. Systémy různých výrobců mají různé závity a délky, takže zahrdlení jedné značky obvykle nepasují do jiné. Nikdy nestřílejte s prázdným závitem bez zašroubovaného zahrdlení: může to poškodit hlaveň. Pravidla výměny se liší: ve Sporting™ lze zahrdlení vyměnit mezi stanovišti nebo mezi jednotlivými terči a dvojstřely, pokud to nezpůsobí zdržení, v Compak® Sporting jen mezi položkami.",
    "disciplines": {
@@ -287,7 +260,6 @@ window.GLOSSARY_I18N.cs = {
     "klíč na čoky"
    ],
    "conf": "high",
-   "src": "https://www.e-myslivost.cz/brokova-kozlice-browning-b725-sporter-12m-x116849",
    "short": "Nástroj k zašroubování a vyšroubování výměnných zahrdlení.",
    "long": "Klíč na zahrdlení bývá dodáván se zbraní a pasuje jen na zahrdlení vlastního systému. Zahrdlení jím dotáhněte pevně, ale bez velké síly: přetažené zahrdlení jde špatně vyšroubovat a volné se může při střelbě povolit. Kontrolujte dotažení před každým tréninkem a po několika položkách. Prodloužená zahrdlení lze často dotáhnout rukou, klíč je ale dobré mít stejně u sebe. Noste ho v tašce spolu s tukem na zahrdlení."
   },
@@ -308,7 +280,6 @@ window.GLOSSARY_I18N.cs = {
     "C"
    ],
    "conf": "high",
-   "src": "https://cs.wikipedia.org/wiki/Brokovnice",
    "short": "Hlaveň nebo zahrdlení bez zúžení; dává nejširší obrazec zásahu.",
    "long": "Válec znamená nulové zúžení: vývrt u ústí je stejný jako v hlavni. Roj broků se rozptyluje nejrychleji, takže obrazec je na blízko široký a dál řídne. Volí se pro velmi blízké terče, například některé zajíce nebo terče vyskakující blízko střelce. Na zahrdleních Beretta se značí pěti hvězdičkami. Na většinu terčů ve Sporting™ a Compak® Sporting volí střelci o něco užší zahrdlení."
   },
@@ -329,7 +300,6 @@ window.GLOSSARY_I18N.cs = {
     "IC"
    ],
    "conf": "medium",
-   "src": "https://cs.wikipedia.org/wiki/Brokovnice",
    "short": "Lehké zúžení, asi 0,25 mm (10 thou); v Evropě '1/4', čtyři hvězdičky.",
    "long": "Čtvrtinové zahrdlení (IC, improved cylinder) patří k nejuniverzálnějším zahrdlením pro střelbu na asfaltové terče. Zúžení asi 0,25 mm (kolem 10 thou) dává široký obrazec, který je už hustší než u válce. Používá se na blízké a střední terče; mnoho střelců ve Sporting™ a Compak® Sporting má IC ve spodní hlavni jako základ. V Evropě se mu říká 1/4 a na zahrdleních Beretta se značí čtyřmi hvězdičkami. Hodnoty v milimetrech závisejí na výrobci."
   },
@@ -340,7 +310,6 @@ window.GLOSSARY_I18N.cs = {
     "půlka"
    ],
    "conf": "medium",
-   "src": "https://cs.wikipedia.org/wiki/Brokovnice",
    "short": "Střední zúžení, asi 0,5 mm (20 thou); '1/2', tři hvězdičky.",
    "long": "Poloviční zahrdlení (M, modified) je střední zahrdlení. Zúžení asi 0,5 mm (kolem 20 thou) drží obrazec hustý na středních a dost vzdálených terčích. V Evropě se mu říká 1/2 a na zahrdleních Beretta se značí třemi hvězdičkami. Mnoho střelců dává M do horní hlavně na druhý, delší výstřel. S ocelovými broky výrobci často radí nepoužívat nic užšího než poloviční zahrdlení; řiďte se návodem ke své zbrani a zahrdlením."
   },
@@ -350,7 +319,6 @@ window.GLOSSARY_I18N.cs = {
     "3/4"
    ],
    "conf": "medium",
-   "src": "https://cs.wikipedia.org/wiki/Brokovnice",
    "short": "Silné zúžení, asi 0,65–0,75 mm (25–30 thou); '3/4', dvě hvězdičky.",
    "long": "Tříčtvrtinové zahrdlení (IM, improved modified) dává hustý obrazec na vzdálené terče. Jeho zúžení je asi 0,65–0,75 mm (25–30 thou); v Evropě se mu říká 3/4 a Beretta ho značí dvěma hvězdičkami. Na blízké terče je obrazec úzký a neodpouští chyby, proto se IM volí záměrně pro konkrétní dlouhou dráhu. S ocelovými broky mnoho výrobců nedoporučuje úzká zahrdlení jako IM, pokud zahrdlení není pro ocel zvlášť označeno. Přesné hodnoty závisejí na výrobci."
   },
@@ -361,7 +329,6 @@ window.GLOSSARY_I18N.cs = {
     "plný čok"
    ],
    "conf": "medium",
-   "src": "https://cs.wikipedia.org/wiki/Brokovnice",
    "short": "Plné zahrdlení, asi 0,9–1 mm (35–40 thou); '1/1', jedna hvězdička.",
    "long": "Plné zahrdlení je nejužší z běžných zahrdlení pro asfaltové terče. Zúžení asi 0,9–1 mm (35–40 thou) drží roj broků těsný i na velkou vzdálenost. V Evropě se značí 1/1 a na zahrdleních Beretta jednou hvězdičkou. Ve Sporting™ a Compak® Sporting je plné zahrdlení potřeba jen zřídka: jen na velmi vzdálené terče, na blízké dává příliš úzký obrazec. Existují i užší zahrdlení (extra full), střelba na asfaltové terče je ale téměř nikdy nepotřebuje. S ocelovými broky se plné zahrdlení bez souhlasu výrobce obvykle nepoužívá."
   },
@@ -381,7 +348,6 @@ window.GLOSSARY_I18N.cs = {
     "brokový náboj"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Brokový náboj; FITASC omezuje jeho náplň, broky a konstrukci.",
    "long": "Broková náplň nesmí překročit 28 g olova, s tolerancí +2 %. Broky musí být kulové, o průměru 2,0 až 2,5 mm (±0,1 mm). Přebíjené náboje, rozptylovače nebo jiná zvláštní zařízení v náboji, směs broků různých velikostí nebo kvality, černý prach a stopovky jsou zakázány. Ve Sporting si rozhodčí může vzít ke kontrole dva náboje, z každé kapsy vesty jeden. Na dvojstřel má střelec ve Sporting celkem dva náboje; v Compaku jeden náboj na terč.",
    "disciplines": {
@@ -392,7 +358,6 @@ window.GLOSSARY_I18N.cs = {
   "hull": {
    "term_local": "nábojnice",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Nábojnice: plastová nebo papírová trubka s kovovým dnem, ve které jsou všechny části náboje.",
    "long": "Nábojnice je tělo náboje. Trubka bývá plastová, méně často papírová; dole ji uzavírá kovová hlavička se zápalkou. Uvnitř je postupně prach, kontejner a broky a nahoře je nábojnice uzavřena záliskem. Délka nábojnice musí odpovídat nábojové komoře zbraně: u nábojů ráže 12 na asfaltové terče je nejčastěji 70 mm. Prázdné nábojnice po střelbě patří do připravených nádob na střelnici, ne do trávy."
   },
@@ -408,7 +373,6 @@ window.GLOSSARY_I18N.cs = {
     "bezdýmný prach"
    ],
    "conf": "medium",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Výmetná náplň, která rychle hoří a vytváří plyny, jež vytlačí broky; černý prach je na akcích FITASC zakázán.",
    "long": "Moderní náboje používají bezdýmný prach. Hoří zlomek sekundy a plyny, které vytvoří, ženou kontejner a broky hlavní. Množství a druh prachu ovlivňují rychlost broků a zčásti i zpětný ráz; volí je výrobce náboje. Pravidla FITASC pro Sporting™ a Compak® Sporting zakazují černý prach, svítící náboje a přebíjené náboje. Náboje skladujte v suchu a mimo teplo: vlhko a vysoké teploty zhoršují chování prachu."
   },
@@ -418,9 +382,7 @@ window.GLOSSARY_I18N.cs = {
     "plastová ucpávka",
     "ucpávka"
    ],
-   "note": "Plastic 'kontejner' replaced the felt wad in sport loads.",
    "conf": "medium",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/pocty-broku-v-hromadnych-nabojich",
    "short": "Část mezi prachem a broky, která utěsní plyny a vede broky hlavní; plastová nebo plstěná.",
    "long": "Kontejner je mezi prachovou náplní a broky. Brání tomu, aby plyny prorazily mezi broky, a rovnoměrně je tlačí hlavní. Plastový kontejner bývá miska, která broky obaluje a chrání vývrt před třením; u ocelových broků je taková miska nezbytná. Plstěná nebo vláknitá ucpávka se v přírodě rozloží, proto ji mnoho střelnic vyžaduje. Po výstřelu kontejner doletí několik desítek metrů a dopadne na zem, takže jeho typ není jen otázkou balistiky, ale i čistoty střelnice."
   },
@@ -430,7 +392,6 @@ window.GLOSSARY_I18N.cs = {
     "plstěnka"
    ],
    "conf": "medium",
-   "src": "https://www.kdelovit.cz/cz/clanky/myslivecke-strelectvi/pocty-broku-v-hromadnych-nabojich",
    "short": "Ucpávka z vláken nebo plsti, která se v přírodě rozloží; mnohé střelnice ji vyžadují.",
    "long": "Plstěná ucpávka je z lisovaných vláken, lepenky nebo plsti. Na rozdíl od plastového kontejneru se časem rozloží, proto střelnice u polí, lesů nebo vody často povolují jen takové náboje. S olověnými broky funguje dobře; pro ocelové broky jsou potřeba zvláštní náboje, které výrobce s touto ucpávkou výslovně schválil. Náboje s plstěnou ucpávkou mohou mít trochu jiný obrazec zásahu, proto je vyzkoušejte na tréninku před závodem. Požadavky střelnice bývají uvedeny v jejím řádu nebo v propozicích závodu."
   },
@@ -439,9 +400,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "průměr broků"
    ],
-   "note": "Said in mm (2,4 mm).",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Průměr olověných broků: 2,0 až 2,5 mm, tolerance ±0,1 mm.",
    "long": "Obě pravidla vyžadují kulové olověné broky pravidelného průměru mezi 2,0 a 2,5 mm, s tolerancí ±0,1 mm. Míchat v jednom náboji broky různých velikostí nebo kvality je přísně zakázáno. Celková náplň je omezena na 28 g (+2 %)."
   },
@@ -452,7 +411,6 @@ window.GLOSSARY_I18N.cs = {
     "nálož broků"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Hmotnost broků v náboji; FITASC povoluje nejvýše 28 g olova s tolerancí +2 %.",
    "long": "Hmotnost broků je na krabičce uvedena v gramech, v Británii a USA často v uncích (1 oz je asi 28 g). Pravidla FITASC pro Sporting™ a Compak® Sporting omezují náplň na 28 g olověných broků s tolerancí +2 %. Nejběžnější náplně na asfaltové terče jsou 24 a 28 g; 21–24 g je oblíbené na trénink, pro juniory a začátečníky. Těžší náplň dá do roje víc broků, ale také víc kope, což při 100–200 výstřelech za den unavuje. Rozhodčí může náboje střelce zkontrolovat; v Compak® Sporting se výstřely z nevyhovujících nábojů před kontrolou počítají jako nula."
   },
@@ -462,21 +420,18 @@ window.GLOSSARY_I18N.cs = {
     "olovo"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Tradiční těžké, měkké broky; pravidla FITASC jsou psána pro ně, ale mnohé země a střelnice je omezují.",
    "long": "Olovo je těžké, takže brok si dobře drží rychlost a náboje dávají rovnoměrný obrazec zásahu. Pravidla FITASC pro Sporting™ a Compak® Sporting popisují olověné broky: náplň do 28 g (+2 %), kulaté broky o průměru 2,0–2,5 mm. Olovo je ale toxické pro životní prostředí, zvlášť pro vodu a vodní ptáky. V EU je od roku 2023 zakázáno střílet olověnými broky v mokřadech a do 100 m od nich a některé země a střelnice mají přísnější pravidla. Zákony se mění, proto si před cestou ověřte místní zákon i řád střelnice."
   },
   "steel-shot": {
    "term_local": "ocelové broky",
    "conf": "high",
-   "src": "https://www.e-myslivost.cz/brokova-kozlice-browning-b725-sporter-12m-x116849",
    "short": "Bezolovnaté broky, lehčí a tvrdší než olověné; některé střelnice a zákony je vyžadují.",
    "long": "Ocel je asi o třetinu lehčí než olovo stejného objemu a mnohem tvrdší. Ocelový brok proto dřív ztrácí rychlost, drží těsnější obrazec zásahu a víc se odráží od tvrdých povrchů; proto střelnice často omezují velikost ocelových broků a někdy i rychlost nábojů. Ocel potřebuje ochranný plastový nebo zvláštní kontejner, aby nepoškrábala vývrt. Ne každé zahrdlení a ne každá zbraň jsou na ocel stavěné: zkontrolujte označení zahrdlení a návod a v případě pochybností se zeptejte puškaře. Ocel je povinná tam, kde zákon nebo střelnice omezují olovo, například u vody; ověřte si místní pravidla."
   },
   "recoil": {
    "term_local": "zpětný ráz",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Náraz zbraně do ramene při výstřelu; závisí na náplni, rychlosti, hmotnosti zbraně a jejím přizpůsobení.",
    "long": "Zpětný ráz je silnější s těžší náplní a vyšší rychlostí broků a slabší s těžší zbraní. Samonabíjecí brokovnice na odběr plynů rozloží ráz v čase, takže působí měkčeji. Stejně důležité je přizpůsobení pažby a správné zalícení: zbraň pevně opřená v jamce ramene kope mnohem méně než zbraň opřená o paži nebo o kost. Silný zpětný ráz unavuje a postupně učí cuknutí před výstřelem. Lehčí náboje na tréninku, dobrá botka a ramenní vložka ve vestě jsou proto rozumná volba, ne slabost."
   },
@@ -493,7 +448,6 @@ window.GLOSSARY_I18N.cs = {
   "length-of-pull": {
    "term_local": "délka pažby",
    "conf": "medium",
-   "src": "https://strelnicebosice.webnode.cz/zbrane/brokove-zbrane/strelba-z-brokove-zbrane/",
    "short": "Vzdálenost od spouště ke středu botky pažby.",
    "long": "Délka pažby se měří od spouště ke středu botky. Je-li pažba příliš dlouhá, při zalícení zachytává o oblečení a zbraň působí těžkou na předek; je-li příliš krátká, palec ruky na spoušti může narazit do nosu a ráz se zdá silnější. Mění se jinou botkou, podložkami nebo zkrácením pažby. Děti a dospívající potřebují kratší pažbu než dospělí a s růstem se kontroluje. Přesný rozměr určí trenér nebo specialista na přizpůsobení pažby."
   },
@@ -518,9 +472,7 @@ window.GLOSSARY_I18N.cs = {
     "chrániče sluchu",
     "sluchátka"
    ],
-   "note": "ASAT 'ochrana sluchu'; range slang 'sluchátka'.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Povinná ochrana uší pro každého na střelišti nebo v jeho blízkosti.",
    "long": "Střelci, rozhodčí, personál i diváci na střelišti nebo Compaku či v jejich blízkosti musí nosit ochranu sluchu. Střelec, který přijde na stanoviště bez ní, se považuje za nepřítomného: ve Sporting platí pravidlo o pozdním příchodu a nepřítomnosti podle článku 16.7, v Compaku nesmí střílet. Ve Sporting musí děti na střelnici mimo klubovnu vždy nosit ochranu sluchu."
   },
@@ -549,14 +501,12 @@ window.GLOSSARY_I18N.cs = {
     "bezpečnostní brýle"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Povinné ochranné brýle pro střelce, rozhodčí a personál.",
    "long": "Ve Sporting musí ochranné brýle bez výjimky nosit střelci, rozhodčí, personál a každý v blízkosti stanoviště. V Compaku musí ochranné brýle nosit závodníci, rozhodčí a personál. Střelec, který přijde na stanoviště bez nich, se považuje za nepřítomného; v Compaku nesmí střílet a ve Sporting se uplatní článek 16.7."
   },
   "shooting-vest": {
    "term_local": "střelecká vesta",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Střelecká vesta s kapsami na náboje a podložkou pro pažbu.",
    "long": "Vesta je prvním vybavením, které se vyplatí koupit po ochraně očí a sluchu. Má dvě velké kapsy na náboje, kapsy na prázdné nábojnice a zahrdlení a hladkou ramenní vložku, o kterou se opírá pažba. Dobrá vesta nepřekáží při zalícení a neomezuje pohyb. Ve Sporting™ musí mít vesta nebo bunda kontrastní čáru 25 cm pod osou ramen pro kontrolu pohotovostního postoje. Pravidla FITASC zakazují nosit vestu na holé tělo a rozhodčí může ke kontrole vzít po jednom náboji z pravé a levé kapsy.",
    "disciplines": {
@@ -587,9 +537,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "futrál"
    ],
-   "note": "Colloquially 'futrál' (Myslivost).",
    "conf": "medium",
-   "src": "https://www.myslivost.cz/Casopis-Myslivost/Myslivost/2005/Listopad---2005/Lovecky-parkur-a-Compak-parkur",
    "short": "Měkké pouzdro k přenášení zbraně mezi autem a střelnicí.",
    "long": "Pouzdro bývá z látky nebo kůže s měkkou výstelkou a zbraň se do něj vejde složená. Chrání před škrábanci, deštěm a prachem a udržuje přenášení zbraně na stanoviště v pořádku. Na střelnici se zbraň nosí otevřená a vybitá a z pouzdra se vyndává jen na bezpečném místě, ústím nahoru nebo dolů. Pro lety měkké pouzdro obvykle nestačí: letecké společnosti vyžadují pevný uzamykatelný kufr. Pravidla převozu zbraní autem stanoví místní zákon."
   },
@@ -599,14 +547,12 @@ window.GLOSSARY_I18N.cs = {
     "kufr"
    ],
    "conf": "medium",
-   "src": "https://www.e-myslivost.cz/brokova-kozlice-browning-b725-sporter-12m-x116849",
    "short": "Pevný uzamykatelný kufr k přepravě rozložené zbraně, zejména letadlem.",
    "long": "Kufr na zbraň je z hliníku, plastu ABS nebo dřeva a má polstrované přihrádky na hlavně, baskuli s pažbou, předpažbí a zahrdlení. Zbraň v něm cestuje rozložená a kufr se zamyká klíčem nebo kódem. Pro lety většina leteckých společností vyžaduje právě takový kufr a pravidla pro zámky a pro to, kdo má klíče, se v jednotlivých zemích liší. I ve vlastním autě kufr zbraň chrání a pomáhá dodržet místní pravidla přepravy. Nebalte náboje ke zbrani, pokud letecká společnost vyžaduje jejich oddělené balení."
   },
   "gun-rack": {
    "term_local": "stojan na zbraně",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Stojan, do kterého se zbraně staví svisle, když se nepoužívají.",
    "long": "Střelnice mají stojany na zbraně u stanovišť a u klubovny. Podle pravidel FITASC se nepoužívaná zbraň odkládá svisle do stojanu nebo na jiné určené místo, samonabíjecí s otevřeným závěrem. Zbraň vkládejte otevřenou a vybitou a nikdy ji nenechávejte opřenou o zeď nebo o auto, kde může spadnout. Cizí zbraň ze stojanu bez svolení majitele neberte. Než si tu svou vezmete, ujistěte se, že je opravdu vaše."
   },
@@ -616,9 +562,7 @@ window.GLOSSARY_I18N.cs = {
     "asfaltový terč",
     "holub"
    ],
-   "note": "Colloquially 'asfaltový holub'/'holub'.",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Asfaltový terč, který vrhačka vyhodí a střelec ho má rozbít.",
    "long": "Povolené druhy jsou standardní terč, zajíc, midi, super mini, battue, flash a ZZ (Compak uvádí i rocket a další). Barva musí být dobře vidět na pozadí; dvoubarevné terče se nedoporučují. Terč, který vyletí ze stroje rozbitý, z nesprávné vrhačky nebo v nesprávné barvě, je No Bird. Ve slovnících obou pravidel je terč prostě asfaltový holub (clay pigeon)."
   },
@@ -628,14 +572,12 @@ window.GLOSSARY_I18N.cs = {
     "standard"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Obyčejný klenutý terč o průměru asi 108–110 mm, nejběžnější asfaltový terč.",
    "long": "Standardní terč je klenutý kotouč o průměru asi 108–110 mm. Jeho let se čte poměrně snadno, proto s ním začátečníci obvykle začínají; midi o průměru 90 mm si lépe drží rychlost. Ve Sporting™ a Compak® Sporting se standard kombinuje se speciálními terči, jako jsou midi, mini, battue a zajíc; seznam Compak® Sporting uvádí také rocket. Ve Sporting™ je terč jiné barvy, velikosti nebo druhu, než uvádí menu, nový terč (No Bird); v Compak® Sporting je nový terč (No Bird) terč nesprávné barvy."
   },
   "midi": {
    "term_local": "midi",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Terč menší než standardní, o průměru 90 mm.",
    "long": "Midi je zvláštní terč povolený v obou disciplínách. Ve Sporting ho musí menu před stanovištěm uvádět jako terč 90 mm, aby střelec věděl, co přiletí. Nesprávná velikost ze stroje je No Bird."
   },
@@ -646,7 +588,6 @@ window.GLOSSARY_I18N.cs = {
     "super mini"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Nejmenší zvláštní terče, obvykle o průměru 60 mm; výrobci používají „mini“ a „super mini“ různě, proto se řiďte milimetry v menu.",
    "long": "Pravidla Sporting™ uvádějí „super mini“ mezi povolenými terči, ale bez průměru, a menu každého stanoviště musí uvádět zvláštní velikosti, například 90, 70 a 60 mm. Pravidla Compak® Sporting povolují jakýkoli standardní nebo zvláštní terč, včetně 60 mm. V běžné řeči má mini obvykle 60 mm, některá menu ale uvádějí i terče 70 mm a výrobci názvy nepoužívají stejně. Malé terče působí rychle a daleko. Velikost v milimetrech si přečtěte v menu terčů a pozorně sledujte předvedení."
   },
@@ -655,9 +596,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "kachna"
    ],
-   "note": "Shops sell it as 'Kachna / Battue'.",
    "conf": "high",
-   "src": "https://www.falcon-czech.cz/produkty/asfaltove-terce/",
    "short": "Tenký plochý terč, který letí hranou, otáčí se a rychle padá.",
    "long": "Battue je jeden ze zvláštních terčů povolených ve Sporting i Compaku a musí být uveden v menu terčů. Kvůli tenkému profilu se v letu špatně čte. Pravidla Compak nedoporučují terče battue na velmi krátkých drahách.",
    "disciplines": {
@@ -671,15 +610,12 @@ window.GLOSSARY_I18N.cs = {
     "rabbit"
    ],
    "conf": "high",
-   "src": "https://www.falcon-czech.cz/produkty/asfaltove-terce/",
    "short": "Silný, pevný terč kutálený po zemi, který napodobuje běžícího zajíce.",
    "long": "Zajíci jsou povoleni v obou disciplínách a ve Sporting musí být uvedeni v menu. Ve Sporting se na ně, jako na všechny terče, musí střílet se zalícenou zbraní; střelba od boku není dovolena. V obou pravidlech platí zvláštní případ No Bird: je-li zajíc prvním výstřelem minut a pak se sám rozbije před druhým výstřelem, vypustí se znovu a při opakování platí jen rozbití druhým výstřelem; rozbití prvním výstřelem je nula."
   },
   "rocket-target": {
    "term_local": "rocket",
-   "note": "English name kept in ASAT rules.",
    "conf": "medium",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Speciální terč uvedený v seznamu terčů Compak® Sporting; jeho přesný tvar a let závisejí na výrobci.",
    "long": "Rocket je jeden ze speciálních terčů, které pravidla Compak® Sporting uvádějí mezi povolenými; seznam Sporting™ ho zvlášť neuvádí. Společná specifikace neexistuje, takže jeho tvar a to, jak letí, závisejí na výrobci terčů. Jako u každého speciálního terče ho při předvedení pozorně sledujte a nepředpokládejte, že letí jako standard.",
    "disciplines": {
@@ -693,7 +629,6 @@ window.GLOSSARY_I18N.cs = {
     "terč flash"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Terč, který při zásahu uvolní viditelný obláček barevného prášku.",
    "long": "Terče flash patří ve Sporting mezi povolené terče. Pravidlo pro zásah je stejné jako u každého terče: musí být správně vypuštěn, střelec musí střílet v souladu s pravidly a musí odletět alespoň jeden viditelný úlomek nebo musí být terč zcela či částečně rozbit. Pravidla Compak uplatňují na terče flash stejné pravidlo pro 'one'."
   },
@@ -709,7 +644,6 @@ window.GLOSSARY_I18N.cs = {
   "trap": {
    "term_local": "vrhačka",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Stroj, který vrhá asfaltové terče.",
    "long": "Vrhačky mohou být ruční, automatické nebo smíšené (v Compaku i poloautomatické). Ve Sporting se označují písmeny A, B, C, D zleva doprava z pohledu ze stanoviště a tato písmena jsou v menu i ve výsledkovém listu. Compak má 6 vrhaček A až F, každou se štítkem s jejím písmenem; vrhačka za stanovišti musí být zvýšena nejméně o 4 m. Na mistrovstvích kontinentu a světa v Compaku je povinných 48 nových vrhaček instalovaných jen pro tuto akci.",
    "disciplines": {
@@ -723,7 +657,6 @@ window.GLOSSARY_I18N.cs = {
     "vysoká věž"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Zvýšená pozice vrhačky za stanovišti v Compak® Sporting, nejméně 4 m nad nimi.",
    "long": "Vrhačky Compaku lze umístit volně, pokud žádný terč, ani No Bird, nemůže nikoho ohrozit. Vrhačka umístěná za střeleckými pozicemi musí být nejméně o 4 m výš než stanoviště. Povinná vzdalující se dráha přes stranu BC může vycházet z takové věže nebo z vrhačky zapuštěné do země nebo postavené na zemi před stanovišti.",
    "disciplines": {
@@ -746,7 +679,6 @@ window.GLOSSARY_I18N.cs = {
     "fonické vypouštění"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Hlasem ovládané zařízení, které vypustí terč, když střelec zavolá.",
    "long": "V Compaku lze vrhačky spouštět ručně, dálkovým ovladačem nebo fonickým systémem. Fonický systém musí mít pevné zpoždění 0,5 sekundy, které nelze měnit, a doporučuje se stejné zpoždění na všech vrhačkách jednoho Compaku. Při střelbě Compaku v řadě na mezinárodních závodech se používá jen fonický systém spolu s elektronickým rozhodováním a zapisováním výsledků schváleným FITASC.",
    "disciplines": {
@@ -760,7 +692,6 @@ window.GLOSSARY_I18N.cs = {
     "dráha terče"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Dráha, kterou terč sleduje vzduchem nebo po zemi.",
    "long": "Dráhy ve Sporting napodobují zvěř: příletové, vzdalující se, přeletové, šikmé, vysoké i nízké, v otevřeném terénu nebo mezi stromy. O tom, zda je dráha správná, rozhoduje jen rozhodčí a proti tomu se nelze odvolat. Rozhodčí na stanovišti nesmí měnit dráhy nastavené jury nebo staviteli střelišť, kromě opětovného nastavení po poruše vrhačky nebo za výjimečného počasí. Každý Compak musí mít tři povinné dráhy (zleva doprava přes AB a CD, zprava doleva přes CD a AB a vzdalující se terč přes BC); ostatní jsou volné, ale musí zůstat krátké.",
    "disciplines": {
@@ -783,9 +714,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "terč k nám"
    ],
-   "note": "Myslivost: 'příletové terče'.",
    "conf": "medium",
-   "src": "https://www.myslivost.cz/Casopis-Myslivost/Myslivost/2005/Listopad---2005/Lovecky-parkur-a-Compak-parkur",
    "short": "Terč, který letí směrem ke střelci.",
    "long": "Příletový terč se objeví vpředu a letí k vám, často klesá. Vypadá jednoduše, ale snadno se ztratí: hlavně terč zakryjí a střelec ho přestane vidět. Proto se často radí brát ho brzy, dokud je ještě daleko, a vést hlavně přesně po jeho linii. Pokud terč přeletí nad hlavou, stává se z něj terč přes hlavu. Pravidla Sporting™ vyžadují, aby parkur obsahoval i příletové terče."
   },
@@ -795,7 +724,6 @@ window.GLOSSARY_I18N.cs = {
     "terč od nás"
    ],
    "conf": "medium",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Terč, který letí směrem od střelce.",
    "long": "Vzdalující se terč se objeví ze strany, shora nebo zezadu a vzdaluje se, často mírně stoupá nebo klesá. Pro začátečníka patří k nejsnazším terčům, proto jím trénink často začíná. Rychle se ale vzdaluje a zmenšuje, takže druhý výstřel už je dlouhý a zahrdlení ve druhé hlavni by s tím mělo počítat. V Compak® Sporting je vzdalující se terč, který přelétá stranu BC obdélníku, jednou ze tří povinných drah. Nejčastější chybou je výstřel nad terč, který už klesá."
   },
@@ -822,9 +750,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "přelet přes hlavu"
    ],
-   "note": "Myslivost: 'terče přes hlavu od nás'.",
    "conf": "medium",
-   "src": "https://www.myslivost.cz/Casopis-Myslivost/Myslivost/2005/Listopad---2005/Lovecky-parkur-a-Compak-parkur",
    "short": "Vysoký terč, který letí ke střelci a přeletí mu nad hlavou, jako hnaný bažant.",
    "long": "Název pochází z lovu naháněné zvěře, kdy jsou ptáci hnáni přes řadu střelců. Terč letí k vám vysoko a přelétá nad hlavou. Při střelbě se hlavně pohybují zdola nahoru skrz terč a výstřel padne, když hlavně terč zakryjí a zbraň se dostane před něj. Je k tomu potřeba postoj s váhou na přední noze a volný pohyb horní části těla dozadu. Nezaklánějte se příliš: ztráta rovnováhy je typická příčina minutí na těchto terčích."
   },
@@ -834,16 +760,13 @@ window.GLOSSARY_I18N.cs = {
     "vertikál",
     "terč vzhůru"
    ],
-   "note": "Myslivost: 'terče vzhůru (vertikály)'.",
    "conf": "medium",
-   "src": "https://www.myslivost.cz/Casopis-Myslivost/Myslivost/2005/Listopad---2005/Lovecky-parkur-a-Compak-parkur",
    "short": "Terč, který vyletí téměř kolmo vzhůru, jako čírka z vody.",
    "long": "Teal vyskočí téměř kolmo nahoru, nahoře se zastaví a padá. Název pochází od čírky (teal), kachny, která strmě vzlétá z vody. Nejsnáz se rozbíjí u vrcholu, kde se skoro zastaví, ale snadno se zmešká chvíle, kdy začne padat. Když na něj střílíte při stoupání, veďte zbraň vzhůru a střílejte nad něj; při klesání pod něj. Před vyvoláním se vždy rozhodněte, ve které části dráhy ho budete rozbíjet."
   },
   "springing-target": {
    "term_local": "stoupající terč",
    "conf": "medium",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Terč, který prudce šikmo stoupá, jako pták vzlétající ze země.",
    "long": "Stoupající terč vylétá ze země pod úhlem jako pták vyplašený z trávy. Rychle ztrácí rychlost a pak začne padat, takže se po dráze chová dost různě. Při stoupání veďte zbraň vzhůru a střílejte nad něj, u vrcholu skoro nepotřebuje předsazení a při klesání střílejte pod něj. Místo zásahu si určete předem, když sledujete předvedení terčů. Pravidla Compak® Sporting uvádějí stoupající terče mezi příklady pestrých drah."
   },
@@ -852,27 +775,23 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "lopr"
    ],
-   "note": "Myslivost writes 'lopr'.",
    "conf": "low",
    "short": "Terč, který letí obloukem a mění směr.",
    "long": "Looper letí širokým obloukem: stoupá, překlopí se přes vrchol a padá a přitom se pohybuje do strany. Obvykle jde o standardní terč; někteří stavitelé střelišť na takovou dráhu vrhají i battue, který pak při otáčení ukáže plochu. Hlavní obtíží je neustálá změna směru a rychlosti, takže hlavně sledují oblouk, před terčem a pod ním, a nezkracují ho. Mnoho střelců bere looper u vrcholu, kde se pohybuje nejpomaleji. Názvy se v různých zemích liší: chandelle je jiná, strmější dráha a francouzsky mluvící střelci často říkají „chandelle“ terči, který letí téměř kolmo nahoru (teal). Pozorně sledujte předvedení a zvolte jedno místo zásahu."
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "English layout name; shooters usually keep the English word.",
    "conf": "medium",
    "short": "Terč, který prudce stoupá v oblouku a pak odpadá. Nejde o francouzské „chandelle“, které znamená kolmo stoupající teal."
   },
   "dropping-target": {
    "term_local": "padající terč",
    "conf": "medium",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Terč střílený, když padá."
   },
   "single-target": {
    "term_local": "jednotlivý terč",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Jeden terč vypuštěný jednou vrhačkou, na který smí střelec vystřelit dva náboje.",
    "long": "Jednotlivý terč může být jakéhokoli druhu. Každý jednotlivý terč musí nechat dost času na dva výstřely, takže když první hlaveň mine, lze použít druhou. Ve Sporting má každé střeliště 15 jednotlivých terčů a na každém stanovišti skupina střílí nejprve jednotlivé terče a pak dvojstřely, pokud jury nerozhodne jinak. V Compaku může mít stanoviště 5 jednotlivých terčů, 3 jednotlivé a dvojstřel, nebo 1 jednotlivý a dva dvojstřely.",
    "disciplines": {
@@ -885,9 +804,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "dvojterč"
    ],
-   "note": "ASAT 'dvojstřel'; ČMMJ 'dvojterč'.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Dva terče předvedené zároveň nebo po sobě, střílené jako jeden celek.",
    "long": "Existují tři druhy dvojstřelu: na hlášenou, současný a jen ve Sporting následný (rafale). Ve Sporting má střelec na dvojstřel dva náboje a smí oba vystřelit na tentýž terč; mezi prvním a druhým terčem je poloha zbraně volná. V Compaku se na každý terč dvojstřelu smí vystřelit jen jeden náboj a na jednom Compaku musí být druh dvojstřelu stejný na všech 5 stanovištích; prvním terčem každého dvojstřelu je poslední terč předchozího stanoviště. Rozbije-li jeden výstřel oba terče, Sporting zapíše zásah a zásah. V Compaku se nepočítají jako dva zásahy: u dvojstřelu na hlášenou platí výsledek prvního terče a dvojstřel se opakuje kvůli druhému; u současného dvojstřelu jde o nový terč (No Bird) a dvojstřel se opakuje, a potřetí se zapíše nula-nula.",
    "disciplines": {
@@ -901,7 +818,6 @@ window.GLOSSARY_I18N.cs = {
     "na hlášenou"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Dvojstřel, u něhož druhý terč vypustí zvuk výstřelu na první terč.",
    "long": "Oba terče vylétají z jedné nebo dvou vrhaček; zavolání vypustí první a výstřel na první vypustí druhý. Ve Sporting vyletí druhý terč 0 až 3 sekundy po prvním výstřelu. Dvojstřely na hlášenou se ve Sporting při předvedení neukazují a pozice se 3 vrhačkami a 2 dvojstřely nesmí mít dva dvojstřely na hlášenou. V rozstřelu sudden death ve Sporting se dvojstřel na hlášenou počítá jako dvojice, takže zásah-nula se rovná nula-zásah. Sankce u dvojstřelu na hlášenou jsou obvykle nula na první terč a No Bird na druhý.",
    "disciplines": {
@@ -915,7 +831,6 @@ window.GLOSSARY_I18N.cs = {
     "simultánní dvojstřel"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Dvojstřel, u něhož oba terče vyletí ve stejném okamžiku.",
    "long": "Oba terče vyletí zároveň na jedno zavolání a lze je střílet v libovolném pořadí. Ve Sporting vylétají z jedné nebo dvou vrhaček; v Compaku vždy ze dvou různých. Současné dvojstřely se při předvedení ukazují. Nevystřelení na jeden z nich bez platného důvodu nebo sankce červené karty znamená nulu a nulu. Rozbije-li v Compaku jeden náboj oba terče, je dvojstřel No Bird a poprvé i podruhé se opakuje, potřetí se zapíše ZERO-ZERO.",
    "disciplines": {
@@ -928,9 +843,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "rafale"
    ],
-   "note": "ČMMJ names 'na hlášenou, následný, simultální' for parkur doubles; mapping to rafale inferred.",
    "conf": "medium",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Dvojstřel ve Sporting ze dvou terčů ze stejné vrhačky po stejné dráze, jeden po druhém.",
    "long": "U následného dvojstřelu (rafale) letí druhý terč tak rychle, jak rameno vrhačky stihne znovu nabít, a jako první lze střílet kterýkoli z nich. Při předvedení se ukazuje stejně jako současný dvojstřel. Sankce a pravidla pro poruchy s ním zacházejí jako se současným dvojstřelem: nepravidelný terč znamená opakování dvojstřelu bez výsledku a sankce červené karty znamená nulu a nulu. Na pozici se 3 vrhačkami a 2 dvojstřely mohou být dvojstřely současné, následné nebo obojí.",
    "disciplines": {
@@ -943,7 +856,6 @@ window.GLOSSARY_I18N.cs = {
     "ukázka terčů"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Ukázání terčů stanoviště střelcům předtím, než začnou střílet.",
    "long": "Ve Sporting™ se všechny dráhy stanoviště předvádějí prvnímu střelci skupiny, který musí stát připraven na stanovišti; na požádání lze každý terč ukázat ještě nejvýše 2krát. Dvojstřely na hlášenou se neukazují; současné a následné ano, s nejvýše 2 opakováními. Během předvedení nesmí nikdo střílet ani napodobovat střelbu a po poruše vrhačky nebo přerušení delším než 10 minut se terče stanoviště předvádějí znovu. V Compak® Sporting při střelbě ve skupinách vidí první skupina dne terče jednou, brzy ráno: jednotlivé terče A až F, pak současné dvojstřely stanovišť 1 až 5; po přestávce delší než 10 minut se šest jednotlivých terčů předvede znovu. Při střelbě v řadě vidí každý nový střelec na stanovišti 1 první terč svého dvojstřelu. V obou disciplínách zůstávají zbraně během předvedení otevřené a vybité a zavírají se jen se svolením rozhodčího. V Compak® Sporting je napodobování střelby zakázáno mimo stanoviště a v době, kdy střílí jiný člen skupiny.",
    "disciplines": {
@@ -957,7 +869,6 @@ window.GLOSSARY_I18N.cs = {
     "pořadí střelby"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Tabule u stanoviště, která ukazuje, z kterých vrhaček a v jakém pořadí se střílí.",
    "long": "Ve Sporting stojí menu před každým stanovištěm tak, aby ho střelec mohl přečíst, uvádí vrhačky v pořadí střelby (například A, B, C) a musí označit zvláštní terče: 90 mm, 70 mm, 60 mm, battue nebo zajíce. Rozhodčí před závodem kontrolují, že jsou vrhačky nabity podle něj. V Compaku je menu čitelně vyvěšeno na každém stanovišti; jednotlivé terče mohou používat vrhačky v libovolném pořadí a prvním terčem každého dvojstřelu je poslední terč předchozího stanoviště. FITASC doporučuje 40 hotových tabulek z přílohy 3."
   },
@@ -966,9 +877,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "předstih"
    ],
-   "note": "'Předsazení' (Bošice coach page); 'předstih' also heard.",
    "conf": "high",
-   "src": "https://strelnicebosice.webnode.cz/zbrane/brokove-zbrane/strelba-z-brokove-zbrane/",
    "short": "Vzdálenost, o kterou střelec míří před terč, aby se s ním broky setkaly.",
    "long": "Zatímco broky letí k terči, terč se dál pohybuje, takže v okamžiku výstřelu musí být zbraň před ním. Tato vzdálenost je předsazení. Závisí na rychlosti terče, jeho vzdálenosti a úhlu, pod kterým letí: dlouhé přeletové terče potřebují nejvíc předsazení, přímo se vzdalující terče skoro žádné. To, jak střelec předsazení vnímá, je subjektivní, takže ho různí lidé popisují různě. Existuje několik metod předsazení, stálé předsazení (maintained lead), pull-away, swing-through a ambush (střelba do bodu), a trenér vám pomůže zvolit tu vaši."
   },
@@ -977,7 +886,6 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "maintained lead"
    ],
-   "note": "English names used by coaches.",
    "conf": "low",
    "short": "Metoda předsazení, při níž hlavně zůstávají před terčem a v okamžiku výstřelu se pohybují jeho rychlostí, takže odstup se nemění.",
    "long": "Při stálém předsazení najíždějí ústí na linii terče před ním, ne za ním. Nejdřív se pohybují o něco pomaleji než terč, který se tak přibližuje, dokud odstup nevypadá správně; pak se hlavně pohybují rychlostí terče, odstup zůstává stejný a výstřel padne, zatímco se zbraň ještě pohybuje. Často se hodí na vzdálené a předvídatelné terče, například dlouhé přeletové, protože dává čas předsazení přečíst. Typickou chybou je měřit odstup: oko sklouzne na hlavně a zbraň zpomalí nebo se zastaví. Často se popisuje jako metoda, kterou je nejtěžší se naučit; zeptejte se proto trenéra, na které terče se vám hodí."
@@ -987,7 +895,6 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "swing through"
    ],
-   "note": "English names used by coaches.",
    "conf": "low",
    "short": "Způsob předsazení: hlavně začnou za terčem, projedou jím a výstřel padne, když se dostanou před něj.",
    "long": "Při metodě swing-through hlavně začínají za terčem, dohánějí ho rychleji, než se pohybuje, projdou jím a výstřel padne, jakmile se dostanou před něj. Protože se zbraň pohybuje rychleji, předsazení se oku zdá menší. Metoda je přirozená pro terče nad hlavou a pro rychlé, blízké dráhy. Jejím rizikem je přílišná rychlost a minutí vpředu, když pohyb není pod kontrolou. Stejně jako u jiných metod se zbraň musí po výstřelu dál pohybovat."
@@ -997,7 +904,6 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "pull away"
    ],
-   "note": "English names used by coaches.",
    "conf": "low",
    "short": "Způsob předsazení: hlavně se napojí na terč, pohybují se s ním a před výstřelem se od něj odtáhnou dopředu.",
    "long": "Při metodě pull-away se hlavně napojí na terč, chvíli se s ním pohybují a pak střelec zrychlí, vytáhne hlavně dopředu na potřebné předsazení a bez zastavení vystřelí. Metoda je oblíbená ve Sporting™ a Compak® Sporting, protože dává přesný cit pro rychlost terče. Rizikem je jet s terčem příliš dlouho a začít předsazení kontrolovat, což zbraň zpomalí. Vše by mělo proběhnout jedním plynulým pohybem."
@@ -1038,9 +944,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "lovecký postoj"
    ],
-   "note": "Myslivost: 'lovecký postoj' below the line on the vest.",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Výchozí postoj ve Sporting: pažba se dotýká těla pod čárou na vestě, dokud se neobjeví terč.",
    "long": "Před zavoláním stojí střelec ve Sporting oběma nohama uvnitř stanoviště, patka pažby se dotýká těla a zadní část nejvyššího místa pažby je pod čárou vyznačenou na vestě. To platí pro každý typ pažby včetně nastavitelných lícnic. Postoj se drží, dokud terč není vypuštěn a viditelný. První porušení znamená napomenutí se žlutou kartou; další na stejném střelišti znamená červenou kartu a terč se zapíše. U dvojstřelů lze zbraň mezi prvním a druhým terčem držet volně.",
    "disciplines": {
@@ -1054,9 +958,7 @@ window.GLOSSARY_I18N.cs = {
     "nahození zbraně",
     "zalícit"
    ],
-   "note": "Range usage: 'zalícit' (Compak allows pre-mounted gun).",
    "conf": "high",
-   "src": "https://strelnicebosice.webnode.cz/zbrane/brokove-zbrane/strelba-z-brokove-zbrane/",
    "short": "Pohyb, kterým střelec přivede zbraň k tváři a do ramene.",
    "long": "Při zalícení zbraň stoupá k obličeji, tvář dosedne na lícnici a pažba se opře do jamky ramene. Hlavní pravidlo: zbraň neste k tváři, nesklánějte hlavu ke zbrani. Zalícení musí být pokaždé stejné, protože určuje, kde je oko vzhledem k liště. Ve Sporting™ střelec vyvolává terč se sníženou zbraní a lícuje teprve po objevení terče, takže pohyb musí být rychlý a přesný. V Compak® Sporting můžete vyvolat terč se zbraní už zalícenou. Zalícení se nacvičuje i bez výstřelu, s vybitou zbraní, tam kde je to dovoleno.",
    "disciplines": {
@@ -1079,7 +981,6 @@ window.GLOSSARY_I18N.cs = {
     "postoj střelce"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Postavení nohou a těla střelce před výstřelem.",
    "long": "Postoj je základem každého výstřelu. Nohy bývají zhruba na šířku ramen, přední noha mírně vpředu a nese víc váhy. Tělo má být uvolněné a otáčet se v bocích, aby se zbraň pohybovala s tělem, ne jen s pažemi. Nohy postavte tak, aby v místě zásahu bylo tělo v nejpohodlnější, neutrální poloze, a pak se natočte zpět k bodu držení zbraně. Ve Sporting™ musí být obě nohy uvnitř čtverce stanoviště a v Compak® Sporting střelce omezuje rám omezovače úhlu střelby."
   },
@@ -1137,7 +1038,6 @@ window.GLOSSARY_I18N.cs = {
     "zalícení na sucho"
    ],
    "conf": "medium",
-   "src": "https://strelnicebosice.webnode.cz/zbrane/brokove-zbrane/strelba-z-brokove-zbrane/",
    "short": "Nácvik zalícení bez výstřelu, s vybitou a zkontrolovanou zbraní, kde to zákon dovoluje.",
    "long": "Nácvik zalícení naprázdno znamená cvičit zalícení s vybitou a zkontrolovanou zbraní, bez výstřelu. Mnoho trenérů doporučuje pár minut doma, kde to zákon dovoluje, aby se pohyb stal samozřejmým. Před začátkem se ujistěte, že zbraň je vybitá a v místnosti nejsou žádné náboje, a hlavně držte v bezpečném směru. Pokud mačkáte spoušť nenabité zbraně, používejte cvičné náboje (snap caps), které chrání úderníky, jak doporučí trenér nebo puškař. Na střelnici záleží pravidla na disciplíně. Ve Sporting™ není napodobování střelby (zalícení a švih po linii terče) během závodu dovoleno nikde na střelnici. V Compak® Sporting je zakázáno mimo stanoviště a v době, kdy střílí jiný člen skupiny. Ověřte si místní zákon o zacházení se zbraní doma.",
    "disciplines": {
@@ -1164,7 +1064,6 @@ window.GLOSSARY_I18N.cs = {
     "instruktor"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Trenér, který učí střelce technice, bezpečnosti a přípravě na závody.",
    "long": "Trenér od první lekce buduje bezpečné návyky, kontroluje řídicí oko, nastavuje postoj a zalícení, pomáhá vybrat zbraň a náboje a plánuje trénink. Chyby jsou zvenku vidět mnohem snáz, proto i zkušení střelci pracují s trenérem. Na závodech FITASC je koučování závodníka během střelby zakázáno: závodník dostane žlutou kartu a rozhodčí pošle koučující osobu ze střeleckého prostoru. Adresář trenérů na ClayArena pomáhá najít trenéra podle disciplíny a zájezdy ClayAway (připravují se) umožní trénovat s trenérem na cestách. Ověřte si kvalifikaci a reference trenéra."
   },
@@ -1174,9 +1073,7 @@ window.GLOSSARY_I18N.cs = {
     "povel",
     "zavolat terč"
    ],
-   "note": "Calls: 'hop', 'dej', 'pull' (ČMMJ).",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Slovo střelce, například 'pull' nebo 'ready', kterým si žádá terč.",
    "long": "Ve Sporting střelec zavolá 'ready' nebo 'pull', rozhodčí to zvukovým signálem předá obsluze vrhačky a terč musí vyletět do 3 sekund; později vypuštěný terč je No Bird. V Compaku při ručním vypouštění musí terč vyletět 0 až 3 sekundy po zavolání; fonický systém přidává pevné zpoždění 0,5 sekundy. Terč, který střelec nezavolal, je No Bird a je to jediný terč, který lze odmítnout. Zavoláním dalšího terče střelec přijímá rozhodnutí rozhodčího o předchozím."
   },
@@ -1186,9 +1083,7 @@ window.GLOSSARY_I18N.cs = {
     "zasažený terč",
     "jedna"
    ],
-   "note": "ASAT: 'Zasažený terč – BON'; ČMMJ doubles: 'JEDNA'.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Terč hodnocený podle pravidel jako rozbitý.",
    "long": "Terč je 'one' (zásah), když byl správně vypuštěn, střelec střílel v souladu s pravidly (ve Sporting včetně pohotovostního postoje podle článku 3.1) a odletěl alespoň jeden viditelný úlomek nebo byl terč zcela či částečně rozbit. Totéž platí pro terče flash. Ve výsledkových listech se zásah značí X. U každého dvojstřelu ve Sporting dává jeden výstřel, který rozbije oba terče, zásah a zásah. V Compaku špatné počasí nic nemění: každý rozbitý terč je zásah.",
    "disciplines": {
@@ -1202,9 +1097,7 @@ window.GLOSSARY_I18N.cs = {
     "chybený terč",
     "minutý terč"
    ],
-   "note": "ASAT: 'Minutý terč – ZERO'; ČMMJ: 'NULA'.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Terč hodnocený podle pravidel jako minutý nebo ztracený.",
    "long": "Terč je nula (zero), když od něj neodletí žádný viditelný úlomek nebo se objeví jen prach či kouř. Nula je i tehdy, když střelec bez platného důvodu nevystřelí na správný terč, otevře zbraň nebo sáhne na pojistku dřív, než rozhodčí poruchu zkontroluje, nebo má druhou poruchu zbraně či munice v téže položce. Nula je také obvyklým výsledkem sankce za opakovaná porušení (červená karta). Ve výsledkových listech se chyba značí O a v Compaku rozhodčí každou nulu oznámí nahlas nebo zvukovým signálem, aby mohl střelec ihned protestovat.",
    "disciplines": {
@@ -1218,7 +1111,6 @@ window.GLOSSARY_I18N.cs = {
     "viditelný kousek"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Terč se počítá jako zasažený, pokud od něj odletí alespoň jeden viditelný úlomek."
   },
   "no-bird": {
@@ -1227,9 +1119,7 @@ window.GLOSSARY_I18N.cs = {
     "no bird",
     "neplatný terč"
    ],
-   "note": "ASAT: 'Nový terč – NO BIRD'.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Vyhlášení rozhodčího, že terč nebo pokus neplatí a musí se opakovat.",
    "long": "No Bird se vyhlašuje kvůli terči (rozbitý při vypuštění, z nesprávné vrhačky nebo v nesprávné barvě, nepravidelná dráha, vypuštěn později než 3 sekundy po zavolání nebo signálu, nezavolaný, střelec zjevně vyrušen, nebo rozhodčí nemůže rozhodnout) nebo kvůli první poruše zbraně nebo munice v položce. U jednotlivého terče se terč opakuje; u dvojstřelů pravidla určují, kdy se opakuje celý dvojstřel a kdy zůstává první výsledek. No Bird vyhlašuje jen rozhodčí a proti tomuto rozhodnutí se nelze odvolat. Na vyhlášený No Bird se nikdy nestřílí; kdo tak učiní po napomenutí, je potrestán. V Compaku nikdy neopravňuje k No Bird špatné počasí ani terče z jiného Compaku.",
    "disciplines": {
@@ -1244,7 +1134,6 @@ window.GLOSSARY_I18N.cs = {
     "selhání"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Selhání zbraně nebo náboje, které znemožní řádný výstřel.",
    "long": "Poruchy se počítají za položku 25 terčů. První porucha zbraně nebo munice v položce znamená napomenutí a No Bird; od druhé v téže položce se terče místo opakování zapisují jako nula. Po selhání zůstává střelec na místě se zbraní mířící do prostoru střelby, neotvírá ji a nesahá na pojistku, dokud ji rozhodčí nezkontroluje; jinak je terč nebo terče nula. Ve Sporting lze zbraň, kterou nelze opravit, nahradit zapůjčenou se svolením majitele; v Compaku má střelec dvě minuty na opravu nebo výměnu a půjčit si smí jen zbraň od střelce mimo svou skupinu, se souhlasem majitele a rozhodčího.",
    "disciplines": {
@@ -1258,14 +1147,12 @@ window.GLOSSARY_I18N.cs = {
     "dvojvýstřel"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Porucha zbraně, při které vystřelí obě hlavně současně.",
    "long": "Vyšlehnou-li obě rány současně u jednotlivého terče nebo u prvního terče dvojstřelu, rozhodčí vyhlásí No Bird a nic se nezapisuje. U jednotlivého terče se terč opakuje; u prvního terče dvojstřelu na hlášenou, u současného nebo následného dvojstřelu se opakuje celý dvojstřel. Počítá se jako porucha zbraně, takže No Bird je jen při první poruše v položce. Současný výstřel z obou hlavní jako druhá porucha u současného nebo následného dvojstřelu znamená nulu a nulu."
   },
   "refusal": {
    "term_local": "odmítnutí terče",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Nevystřelení na terč, který byl zavolán a správně vypuštěn.",
    "long": "Střelec smí odmítnout jen terč, který nezavolal. Ve Sporting se správný terč, na který střelec nevystřelil, zapíše jako nula; u současného nebo následného dvojstřelu nula a nula. V Compaku se odmítnutí trestá podle bodu 21.5: jednotlivý terč nula; první terč dvojstřelu na hlášenou nula a dvojstřel se opakuje kvůli hodnocení druhého; současný dvojstřel nula-nula."
   },
@@ -1273,10 +1160,8 @@ window.GLOSSARY_I18N.cs = {
    "term_local": "opožděný výstřel",
    "alt": [],
    "conf": "medium",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Opožděný výstřel: náboj vystřelí až chvíli po stisknutí spouště. Proto se zbraň po selhání hned neotvírá.",
-   "long": "Opožděný výstřel je vzácný, ale nebezpečný: po stisku spouště se nic nestane a o chvilku později náboj přece jen vystřelí. Kdybyste zbraň v tu chvíli otevřeli, nábojnice může prasknout u obličeje a rukou. Po každém selhání proto držte zbraň u ramene, nebo aspoň namířenou bezpečným směrem, a čekejte; mnoho instruktorů radí čekat asi 30 sekund. Na závodech FITASC se zbraň po selhání neotevírá a na pojistku se nesahá, dokud ji nezkontroluje rozhodčí, jinak se terč počítá jako ztracený. Bezpečnostní a rozhodcovská pravidla se tu shodují.",
-   "note": "'Selhání náboje' is a misfire; a delayed shot is 'opožděný výstřel'."
+   "long": "Opožděný výstřel je vzácný, ale nebezpečný: po stisku spouště se nic nestane a o chvilku později náboj přece jen vystřelí. Kdybyste zbraň v tu chvíli otevřeli, nábojnice může prasknout u obličeje a rukou. Po každém selhání proto držte zbraň u ramene, nebo aspoň namířenou bezpečným směrem, a čekejte; mnoho instruktorů radí čekat asi 30 sekund. Na závodech FITASC se zbraň po selhání neotevírá a na pojistku se nesahá, dokud ji nezkontroluje rozhodčí, jinak se terč počítá jako ztracený. Bezpečnostní a rozhodcovská pravidla se tu shodují."
   },
   "shooting-stand": {
    "term_local": "střelecké stanoviště",
@@ -1284,7 +1169,6 @@ window.GLOSSARY_I18N.cs = {
     "stanoviště"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Vyznačené místo o šířce 1 m, kde střelec stojí při střelbě.",
    "long": "Stanoviště ve Sporting je čtverec 1 m nebo kruh o průměru 1 m, pokud možno rovný a nikdy kluzký. Před ním stojí menu terčů a zbraň, zahrdlení ani hlaveň se nesmí měnit, jakmile na něm střelec stojí. Compak má 5 stanovišť o rozměru 1 m × 1 m, 2–5 m od sebe, s přední linií 4–8 m za stranou AD a stanovištěm 3 uprostřed; každé má omezovač úhlu střelby (FAL). Na závodním stanovišti se zbraně nikdy nezkoušejí.",
    "disciplines": {
@@ -1297,9 +1181,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "parkur"
    ],
-   "note": "ASAT: 'Střeliště (Compak)' = 5 stands, 25 targets; in Sporting also a group of stands.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Soubor střeleckých stanovišť a vrhaček, který dává jednu položku 25 terčů.",
    "long": "Ve Sporting je střeliště skupina střeleckých stanovišť, která dává 25 terčů: 15 jednotlivých a 5 dvojstřelů. Starý systém používá 5 vrhaček pro 3 pozice; řady nového systému mají 4 nebo 5 pozic. Střeliště pro národní akce schvaluje národní svaz, pro mezinárodní FITASC; nikdo na nich nesmí před akcí trénovat. V Compaku slovo označuje nastavení vrhaček a menu Compaku; dráhy, vrhačky a menu se smí měnit jen poté, co všichni odstřílí celé kolo.",
    "disciplines": {
@@ -1313,7 +1195,6 @@ window.GLOSSARY_I18N.cs = {
     "prostor střelnice"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Všechna sportovní zařízení střelnice.",
    "long": "Ve slovníku pravidel Compak znamená střelnice všechna sportovní zařízení, zatímco Compak Sporting je zařízení pro tuto disciplínu. Slovo se objevuje i v bezpečnostních pravidlech: zbraň se nabíjí a drží ústím 'do prostoru střelby', tedy směrem, kam létají terče. Ochrana sluchu je povinná pro každého na střelnici nebo v její blízkosti."
   },
@@ -1322,9 +1203,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "in line"
    ],
-   "note": "ASAT: 'Compak® v řadě (IN LINE)'.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Novější typ střeliště Sporting, kde 4 nebo 5 střeleckých pozic stojí vedle sebe a sdílejí vrhačky.",
    "long": "Řada nového systému se 4 pozicemi má tři pozice se 4 vrhačkami a jednu (číslo 2 nebo 3) se 3 vrhačkami; 2 z 5 dvojstřelů se střílejí na pozici se 3 vrhačkami. Řada s 5 pozicemi má 3 vrhačky na pozici. Tabulky kapacity počítají s 10–13 minutami na skupinu na řadě; se 4 řadami po 10 minutách zvládne akce 336 střelců za dva dny a až 816 za čtyři dny. Řada se 3 pozicemi po 5 vrhačkách je povolena jen pro Grand Prix.",
    "disciplines": {
@@ -1334,7 +1213,6 @@ window.GLOSSARY_I18N.cs = {
   "round": {
    "term_local": "položka",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Celek 25 terčů střílený na jednom střelišti, řadě nebo střelnici Compak® Sporting.",
    "long": "V obou pravidlech má položka 25 terčů. Mezinárodní závod má 200 terčů, tedy 8 položek. Poruchy zbraně a munice se počítají za položku: první dává No Bird, další v téže položce dávají nulu. V Compaku je položka pět terčů na každém z pěti stanovišť; zbraň, zahrdlení ani hlaveň se v průběhu položky nesmí měnit a dráhy a menu se mění jen po celém kole. Sankcí jury může být ztráta celé položky 25 terčů.",
    "disciplines": {
@@ -1348,7 +1226,6 @@ window.GLOSSARY_I18N.cs = {
     "střídání stanovišť"
    ],
    "conf": "medium",
-   "src": "https://www.myslivost.cz/Casopis-Myslivost/Myslivost/2005/Listopad---2005/Lovecky-parkur-a-Compak-parkur",
    "short": "Měnící se pořadí, ve kterém členové skupiny střílí na každém stanovišti nebo se posouvají mezi stanovišti.",
    "long": "Ve Sporting se šestičlenné skupiny sestavují losem a pořadí střelby se střídá na každém stanovišti i u dvojstřelů. V Compaku ve skupině začíná sérii vždy stanoviště 1; když střelec na stanovišti 5 dostřílí, jde čekat za stanoviště 1, všichni se posunou o jedno stanoviště doprava a čekající střelec vstoupí na stanoviště 1. Stanoviště se mění s otevřenou a vybitou zbraní a střelec má nejvýše 10 sekund na zavolání po terči předchozího stanoviště.",
    "disciplines": {
@@ -1361,9 +1238,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "runda"
    ],
-   "note": "ASAT 'skupina'; ČMMJ/Myslivost also 'runda' (6 shooters).",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Skupina nejvýše šesti střelců sestavená losem, kteří střílejí společně.",
    "long": "V obou pravidlech má skupina nejvýše 6 střelců, kteří střílejí stejnou položku společně na stejné instalaci. Ve Sporting se skupiny sestavují losem, členové jednoho národního družstva se podle možností rozdělí do různých skupin a časy a skupiny se zveřejňují předem. Členové skupiny nesmí zasahovat do rozhodnutí rozhodčího, ale rozhodčí je může požádat o radu. Dva střelci téže skupiny se nesmí dělit o zbraň. Volná místa ve skupině pro rozstřel se nedoplňují.",
    "disciplines": {
@@ -1374,7 +1249,6 @@ window.GLOSSARY_I18N.cs = {
   "referee": {
    "term_local": "rozhodčí",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Činovník na stanovišti, který posuzuje každý terč a udržuje pořádek.",
    "long": "Na mezinárodním závodě každý rozhodčí slibuje, že bude pravidla uplatňovat poctivě a nestranně, nebude brát ohled na vlastní národnost a svaz, bude stát tam, odkud nejlépe posoudí, bude rozhodnutí oznamovat nahlas a zřetelně a bude mít u sebe aktuální pravidla v úředních jazycích FITASC. Jen rozhodčí rozhoduje, zda byl terč zasažen nebo minut, zda je dráha správná a zda jde o No Bird; tato rozhodnutí nelze předložit jury. Při pochybnostech se rozhodčí může poradit s jiným rozhodčím, obsluhou vrhačky nebo střelci, ale jejich názory ho nezavazují. Každý rozhodčí potřebuje platnou národní licenci; kdo ji nemá, smí působit jen jako asistent rozhodčího s předchozím souhlasem jury.",
    "disciplines": {
@@ -1385,7 +1259,6 @@ window.GLOSSARY_I18N.cs = {
   "chief-referee": {
    "term_local": "hlavní rozhodčí",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Vrchní rozhodčí závodu s mezinárodní kvalifikací FITASC.",
    "long": "Ve Sporting potřebuje hlavní rozhodčí mezinárodní licenci vydanou FITASC, podílí se na schvalování střelišť s odpovědnými členy jury a pak instruuje každého rozhodčího na stanovišti. Technické problémy, které hlavní rozhodčí nevyřešil, rozhoduje jury. V Compaku musí mít hlavní rozhodčí (Head Referee) mezinárodní licenci a kvalifikaci hlavního rozhodčího od FITASC; může přerušit střelbu kvůli náhlému lijáku nebo bouři a mimořádné rozhodnutí jury dvěma členy vyžaduje jeho souhlas.",
    "disciplines": {
@@ -1396,7 +1269,6 @@ window.GLOSSARY_I18N.cs = {
   "jury": {
    "term_local": "jury",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Orgán, který řídí mezinárodní závod, projednává odvolání a ukládá sankce.",
    "long": "Jury tvoří přítomní členové technické (sportovní) komise FITASC, po jednom zástupci každého státu, který přihlásil družstvo seniorů nebo mužů, a přítomní členové řídicího nebo výkonného výboru FITASC, kteří nejsou v odvolací jury; předsedá jí zástupce pořádajícího svazu (Compak: prezident nebo zástupce pořádajícího svazu). Rozhoduje většinou přítomných členů, při rovnosti hlasů rozhoduje hlas předsedy, a je usnášeníschopná s předsedou a alespoň čtvrtinou členů. V naléhavém případě mohou rozhodnout dva členové jmenovaní předsedou, s pozdějším schválením. Na střelnici musí být vždy alespoň dva členové jury a člen, který zjistí nesrovnalost, ji hlásí jury, nikoli rozhodčímu.",
    "disciplines": {
@@ -1410,7 +1282,6 @@ window.GLOSSARY_I18N.cs = {
     "výsledková listina"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Oficiální záznam výsledků každého střelce v položce.",
    "long": "Ve Sporting vede výsledkový list rozhodčí nebo ho nechá vést pod svým dohledem, s tužkou jiné barvy pro každé stanoviště; než skupina přejde dál, rozhodčí list vyfotí a označí hvězdičkou jméno střelce, který ho nese. Střelci si při odchodu z každého stanoviště kontrolují výsledek a nesouhlas musí ihned uplatnit u rozhodčího. V Compaku vede list rozhodčí při střelbě ve skupině nebo v řadě s ručním zápisem; s elektronickými systémy se výsledky zobrazují na obrazovce. Zásah je X a chyba O. Střelec v Compaku musí list na konci každé položky podepsat; odmítnutí podpisu ruší právo na stížnost.",
    "disciplines": {
@@ -1421,7 +1292,6 @@ window.GLOSSARY_I18N.cs = {
   "protest": {
    "term_local": "protest",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Okamžitá námitka na stanovišti proti rozhodnutí rozhodčího.",
    "long": "Střelec, který nesouhlasí, musí namítat ihned, na stanovišti a dřív, než zavolá další terč (v Compaku dřív, než zavolá další střelec), zvednutím ruky a slovy 'protest' nebo 'appeal', a musí uvést důvod. Rozhodčí zastaví střelbu. Je-li si rozhodčí jistý, rozhodnutí ihned potvrdí a je konečné; má-li pochybnosti, může se poradit s jiným rozhodčím, obsluhou vrhačky nebo střelci, ale jeho následné rozhodnutí je závazné. Rozhodnutí o zásahu či chybě, o dráze a o No Bird nelze předložit dále jury."
   },
@@ -1431,7 +1301,6 @@ window.GLOSSARY_I18N.cs = {
     "odvolací jury"
    ],
    "conf": "medium",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Napadení rozhodnutí rozhodčího, nejprve na stanovišti a pak písemně u jury.",
    "long": "Odvolání začíná na stanovišti, okamžitě, zvednutím ruky a slovy 'appeal' nebo 'protest'. Rozhodnutí o tom, zda byl terč zasažen, zda byl vadný nebo mimo dráhu, a o No Bird nemohou jít k jury. Proti jakémukoli jinému rozhodnutí rozhodčího se lze písemně odvolat k jury se zálohou: ve Sporting 40 % startovného, v Compaku v částce platné v daný den. V Compaku se stížnost musí týkat události téhož dne a střelec, který odmítl podepsat výsledkový list, si stěžovat nemůže. Pokud jury odvolání vyhoví, může rozhodnutí změnit, rozhodčího poučit nebo vyměnit a záloha se vrací.",
    "disciplines": {
@@ -1443,7 +1312,6 @@ window.GLOSSARY_I18N.cs = {
    "term_local": "rozstřel",
    "alt": [],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Dodatečná položka k rozhodnutí shody o první tři místa.",
    "long": "Rozstřelem se rozhoduje jen shoda o první tři místa jednotlivců (v Compaku i v každé kategorii). Jde o položku 25 terčů; pokud shoda trvá, střílí se druhá fáze systémem sudden death. Rozstřel se řídí běžnými pravidly, ale volná místa ve skupině se nedoplňují. Pokud čas nebyl předem stanoven, střelci musí zůstat v kontaktu s jury a být připraveni do 15 minut od vyvolání; kdo chybí, je diskvalifikován nebo se považuje za odstoupivšího. Jury ho může z výjimečných důvodů odložit na další den. Družstva rozstřel nikdy nestřílejí.",
    "disciplines": {
@@ -1454,14 +1322,12 @@ window.GLOSSARY_I18N.cs = {
   "countback": {
    "term_local": "zpětná kalkulace",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Rozřazení stejných výsledků podle výsledku na 8. střelišti nebo 8. střelnici Compak® Sporting, pak na 7. a tak dále až k 1.",
    "long": "Od čtvrtého místa níže se rozstřel nekoná: střelci se shodným výsledkem jsou hodnoceni stejně a seřadí se zpětným porovnáním výsledků od 8. střeliště (Compaku) k 1. Družstva se shodným výsledkem se řadí podle součtu výsledků členů na 8. střelišti nebo Compaku; pokud shoda trvá, na 7., 6. a tak dále až k 1. Rozstřel družstev neexistuje."
   },
   "firing-time": {
    "term_local": "časový limit",
    "conf": "medium",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Nejdelší doba, kterou smí střelec nechat uplynout, než zavolá další terč.",
    "long": "Ve Sporting má střelec nejvýše 15 sekund mezi jednotlivými terči nebo mezi dvojstřely; při překročení dostane nejprve napomenutí, pak platí sankce podle článku 12.2. Po konečném rozhodnutí rozhodčího ve sporu se musí ve střelbě pokračovat do 15 sekund, jinak se to počítá jako odmítnutí uposlechnout. V Compaku je limit 10 sekund na zavolání poté, co byl odstřílen terč předchozího stanoviště; první porušení je napomenutí zapsané do výsledkového listu a opakování v téže položce se trestá (jednotlivý terč nula, dvojstřel na hlášenou nula / No Bird, současný nula / nula). Po konečném rozhodnutí musí střelec v Compaku pokračovat do 10 sekund.",
    "disciplines": {
@@ -1474,9 +1340,7 @@ window.GLOSSARY_I18N.cs = {
    "alt": [
     "cvičné zamíření"
    ],
-   "note": "ASAT forbids 'střelba na sucho' while another shooter shoots.",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Lícení a švihání zbraní jako při střelbě, bez skutečného terče ve hře.",
    "long": "Ve Sporting je střelba naprázdno zakázána na střelištích i mimo ně: zalícení před zavoláním a švih po představované dráze terče nebo neúmyslný výstřel znamenají napomenutí; poté se opakování trestá nulou na další zasažený terč. Zakázána je i střelba nebo střelba naprázdno během předvedení terčů. V Compaku není střelba naprázdno dovolena mimo střelecká stanoviště ani v době, kdy střílí jiný člen skupiny.",
    "disciplines": {
@@ -1487,7 +1351,6 @@ window.GLOSSARY_I18N.cs = {
   "shooting-limit": {
    "term_local": "hranice střelby",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Hranice, za kterou se rozbitý terč nepočítá.",
    "long": "Je na střelci, aby terče rozbíjel tam, kde je rozhodčí vidí. Rozhodne-li rozhodčí, že terč byl střelen za přirozenou překážkou nebo za hranicí střelby, nelze se proti tomu odvolat. Shrnutí pravidel Sporting nepopisuje, jak se hranice vyznačují; stanoví se pro každé střeliště.",
    "disciplines": {
@@ -1509,7 +1372,6 @@ window.GLOSSARY_I18N.cs = {
     "oficiální trénink"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Střelba před závodem, kterou pravidla omezují.",
    "long": "Ve Sporting nesmí nikdo před akcí trénovat na závodních střelištích; trénink je možný jen na jiných střelnicích. V Compaku smí střelci trénovat na závodních drahách, které se ještě mohou později upravit, ale tabulky nastavení drah použité k tréninku se musí lišit od závodních. Na mistrovstvích kontinentu a světa v Compaku začíná oficiální trénink v sobotu předem a do té doby nesmí nikdo trénovat na vrhačkách mistrovství.",
    "disciplines": {
@@ -1520,14 +1382,12 @@ window.GLOSSARY_I18N.cs = {
   "yellow-card": {
    "term_local": "žlutá karta",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Karta ukázaná s napomenutím za první porušení.",
    "long": "Ve Sporting dává rozhodčí ústní napomenutí doplněné žlutou kartou, když střelec nezaujme předepsaný pohotovostní postoj nebo zalícuje zbraň před objevením terče; žlutou kartu přináší i koučování a porušení pravidel o prázdných nábojnicích. V Compaku se žlutou kartou označuje první porušení pravidla, první porucha zbraně nebo munice v položce, koučování a porušení pravidel o prázdných nábojnicích. Další přestupek pak vede k červené kartě."
   },
   "red-card": {
    "term_local": "červená karta",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Karta za opakované porušení po napomenutí, kdy se terč zapíše jako trest.",
    "long": "Po prvním napomenutí přináší každý další přestupek na stejném střelišti (Sporting) nebo Compaku červenou kartu. Terč se pak zapíše: nula u jednotlivého terče; nula a No Bird u dvojstřelu na hlášenou; nula a nula u současného nebo následného dvojstřelu. Při poruše v Compaku u druhého terče dvojstřelu zůstává první výsledek a druhý je nula. V Compaku dává nulu s červenou kartou také druhá porucha zbraně nebo munice stejného druhu."
   },
@@ -1538,15 +1398,12 @@ window.GLOSSARY_I18N.cs = {
     "postih"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Sankce za porušení pravidel, od napomenutí až po vyloučení.",
    "long": "Přihláškou každý střelec přijímá pravidla FITASC a sankce za jejich porušení, za nerespektování pokynů rozhodčích nebo odmítání jejich rozhodnutí. Stupnice začíná napomenutím, pak následují sankce na stanovišti podle tabulky (červená karta, nula) a za opakované přestupky, odmítnutí uposlechnout nebo pokusy o ovlivnění může jury uložit ztrátu jednoho terče, ztrátu položky 25 terčů nebo vyloučení. Za ztrátu sebeovládání, odmítnutí uposlechnout, ovlivňování nebo úmyslnou střelbu na živá zvířata může jury na základě hlášení rozhodčího vyloučit okamžitě."
   },
   "category": {
    "term_local": "kategorie",
-   "note": "As in FITASC: 'muži (senioři)' 21–55, 'veteráni' 56+ (ČMMJ).",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Samostatné pořadí podle věku a pohlaví vedle absolutního pořadí; od roku 2027 FITASC používá Junior, Lady, Men, Senior, Veteran a Master.",
    "long": "Od 1. ledna 2027 stanoví FITASC pro Compak® Sporting a Parcours de Chasse – Sporting™ šest kategorií: Junior (13–20), Lady (od 13), Men (Homme, 21–55), Senior (56–65), Veteran (66–72) a Master (od 73, muži i ženy). Věk se počítá podle roku narození: nová kategorie platí od 1. ledna roku, v němž střelec věku dosáhne, bez ohledu na datum narozenin. Senior není hlavní kategorie dospělých, ale věková skupina 56–65; hlavní kategorií dospělých je Men. Družstva kategorií mají 3 střelce (družstvo Men ve Sporting má 4) a střelec vybraný do družstva jiné kategorie musí v této kategorii startovat i jako jednotlivec. V Compaku se shoda o první tři místa v každé kategorii rozhoduje rozstřelem; patří-li střelci v rozstřelu absolutního pořadí do stejné kategorie, výsledek platí i pro tuto kategorii. Národní a klubové akce mohou používat vlastní kategorie, uvedené v programu.",
    "disciplines": {
@@ -1560,9 +1417,7 @@ window.GLOSSARY_I18N.cs = {
     "veterán",
     "superveteráni"
    ],
-   "note": "Myslivost also mentions 'superveteráni'.",
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Věková kategorie FITASC od 66 do 72 let.",
    "long": "Veteran (francouzsky Vétéran) trvá od 1. ledna roku, v němž střelec dovrší 66 let, do konce roku, v němž dovrší 72 let; pro rok 2027 to znamená narozené v letech 1955 až 1961. Družstvo Veteran má 3 střelce z kategorií Veteran nebo Master. Veteráni mohou být vybráni i do družstev Senior a Men a pak v této kategorii startují i jako jednotlivci. Národní akce mohou mít vlastní věkové hranice."
   },
@@ -1572,7 +1427,6 @@ window.GLOSSARY_I18N.cs = {
     "tým"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Národní družstvo, jehož členům se výsledky sčítají do pořadí družstev.",
    "long": "Výsledek družstva je součet výsledků jeho členů. Shoda se rozhoduje součtem družstva na 8. střelišti nebo Compaku, pak na 7. a tak dále až k 1.; rozstřel družstev neexistuje. Členové téhož národního družstva se podle možností rozdělí do různých skupin. Při zahajovacím nástupu nosí členové družstva oblečení národního týmu nebo společenské kalhoty se sakem. Družstva se tvoří i podle kategorií: Junior, Lady, Men, Senior, Veteran a Master, po 3 střelcích; jen družstvo Men ve Sporting má 4."
   },
@@ -1582,7 +1436,6 @@ window.GLOSSARY_I18N.cs = {
     "prezentace"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Registrace střelce do závodu.",
    "long": "Abyste se mohli zúčastnit závodu, podáte do uzávěrky přihlášku a zaplatíte startovné. Přihláška obvykle uvádí disciplínu, kategorii, klub nebo zemi a u velkých akcí číslo licence svazu. Po registraci pořadatel losem sestaví skupiny a zveřejní časy střelby každé skupiny; sledovat rozpis je povinností střelce. Pokud má vaše zbraň spoušť na uvolnění (release), zkontrolujte požadavky propozic. Střelec, který chybí první den Compak® Sporting v linii, je od druhého dne vyškrtnut ze seznamu, proto pořadateli hlaste každou změnu."
   },
@@ -1592,7 +1445,6 @@ window.GLOSSARY_I18N.cs = {
     "vklad"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Poplatek za účast v závodě.",
    "long": "Startovné pokrývá terče, rozhodčí a organizaci, někdy i oběd nebo další služby. Jeho výše závisí na úrovni akce a počtu terčů; juniorům a začátečníkům se často nabízejí slevy. Náboje obvykle zahrnuty nejsou. Ve Sporting™ startovné určuje i kauci za písemný protest k jury: činí 40 % startovného. Střelec, který je ze závodu vyloučen, nedostane nic zpět.",
    "disciplines": {
@@ -1603,7 +1455,6 @@ window.GLOSSARY_I18N.cs = {
   "competitor-number": {
    "term_local": "startovní číslo",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Číslo, které střelec nosí během závodu na zádech.",
    "long": "Číslo se musí nosit na zádech, mezi rameny a pasem, celé viditelné a úplné, nepřeložené ani nestřižené. První porušení znamená napomenutí od rozhodčího; pokud se neopraví, následují další sankce až po vyloučení ze závodu rozhodnutím jury. Ve Sporting se chybějící střelec vyvolává jménem a číslem třikrát během jedné minuty."
   },
@@ -1613,14 +1464,12 @@ window.GLOSSARY_I18N.cs = {
     "předání cen"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Ceremoniál předávání cen na konci závodu; na mezinárodních akcích musí být oceněni přítomni.",
    "long": "Po poslední položce a rozstřelech pořadatel vyhlásí výsledky a předá medaile, poháry nebo ceny v absolutním pořadí, v kategoriích a v soutěži družstev. Podle pravidel FITASC se všichni ocenění na mezinárodních akcích musí zúčastnit vyhlášení při závěrečném ceremoniálu. Oblečením na ceremoniál je oblečení národního týmu nebo společenské kalhoty se sakem. I na klubových závodech je zůstat na vyhlášení dobrou tradicí a projevem respektu k pořadatelům a soupeřům. Pokud musíte odejít dřív, dejte vědět pořadateli."
   },
   "safety": {
    "term_local": "bezpečnost",
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Pravidla, která chrání střelce, činovníky, personál a diváky na střelnici.",
    "long": "Bezpečnost je na prvním místě při stavbě střelišť i při střelbě. Zbraně se nosí otevřené a vybité a nabíjejí se jen na stanovišti, ústím do prostoru střelby, po svolení rozhodčího; samonabíjecí brokovnice pojme nejvýše dva náboje. Než se střelec otočí nebo opustí stanoviště, zbraň otevře a vyjme všechny náboje, a během předvedení a přerušení zůstává otevřená. Po selhání zůstává střelec na místě a zbraň neotvírá, dokud ji rozhodčí nezkontroluje. Střelec střílí jen ve svém pořadí, jen na vypuštěný terč, nikdy na terč jiného střelce a nikdy vědomě na živá zvířata. Ochrana sluchu a ochranné brýle jsou povinné a sandály jsou zakázány.",
    "disciplines": {
@@ -1633,7 +1482,6 @@ window.GLOSSARY_I18N.cs = {
     "zlomená zbraň"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Jak se zbraně musí nosit, ukládat a jak se s nimi zachází mimo stanoviště i na něm.",
    "long": "S každou zbraní, i vybitou, se zachází s velkou opatrností. Zbraně se nosí otevřené; samonabíjecí s otevřeným závěrem a ústím kolmo nahoru nebo kolmo dolů. Popruhy a řemeny nejsou dovoleny. Když se nepoužívají, stojí zbraně svisle ve stojanu na zbraně nebo na podobném místě. Nikdo se nesmí bez svolení dotknout zbraně jiného závodníka."
   },
@@ -1644,7 +1492,6 @@ window.GLOSSARY_I18N.cs = {
     "vybít"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Vkládání nábojů do zbraně jen na stanovišti a jejich vyjmutí po střelbě."
   },
   "cease-fire": {
@@ -1653,7 +1500,6 @@ window.GLOSSARY_I18N.cs = {
     "stop"
    ],
    "conf": "medium",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Povel k okamžitému zastavení střelby: zbraně se otevřou a vybijí.",
    "long": "Zastavení střelby může vyhlásit rozhodčí, instruktor nebo kdokoli, kdo vidí nebezpečí: člověka nebo zvíře v prostoru střelby, vadnou vrhačku, náhlou bouři. Když ho uslyšíte, okamžitě přestaňte, otevřete zbraň, vyndejte náboje a počkejte na povolení pokračovat. Podle pravidel FITASC musí být zbraně při každém přerušení otevřené a vybité a zavřít je lze jen se svolením rozhodčího. Tento povel učte od první lekce, zvlášť děti. Přesná slova a signály se mohou mezi střelnicemi lišit, proto se je naučte na bezpečnostní instruktáži."
   },
@@ -1668,7 +1514,6 @@ window.GLOSSARY_I18N.cs = {
     "sportovní chování"
    ],
    "conf": "high",
-   "src": "https://praha56.cmmj.cz/wp-content/uploads/sites/75/2021/09/Strelecky-rad-CMMJ.pdf",
    "short": "Chování, které se od střelců očekává, včetně zákazu ztráty sebeovládání.",
    "long": "Střelce, který zjevně ztratí sebeovládání, například odhodí zbraň, použije urážlivé výrazy nebo je násilný vůči rozhodčímu či jiným závodníkům, musí rozhodčí co nejrychleji nahlásit jury. Jury pak může střelce okamžitě vyloučit. Pravidla chování zahrnují i to, že se střílí jen ve vlastním pořadí, nikdy na terč jiného střelce a nikdy na živá zvířata."
   },
@@ -1678,7 +1523,6 @@ window.GLOSSARY_I18N.cs = {
     "oděv"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Pravidla oblečení pro závodníky na stanovišti a při ceremoniích.",
    "long": "Krátké šortky jsou zakázány; přijímají se jen dlouhé šortky typu bermudy končící nejvýše 5 cm nad kolenem. Horní díl musí mít alespoň krátký rukáv a límeček nebo kulatý výstřih; střelecká vesta na holém těle není dovolena. Sandály jsou z bezpečnostních důvodů zakázány při tréninku i v závodě. Při zahajovacím nástupu a vyhlášení výsledků nosí členové družstev oblečení národního týmu nebo společenské kalhoty se sakem a každý oceněný se musí vyhlášení zúčastnit. První porušení znamená napomenutí; pokud se neopraví, následují další sankce až po vyloučení rozhodnutím jury."
   },
@@ -1688,7 +1532,6 @@ window.GLOSSARY_I18N.cs = {
     "vystřelené nábojnice"
    ],
    "conf": "medium",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Vystřelené nábojnice, které se sbírají a nenechávají na zemi."
   },
   "sporting": {
@@ -1698,7 +1541,6 @@ window.GLOSSARY_I18N.cs = {
     "lovecké kolo"
    ],
    "conf": "medium",
-   "src": "https://www.parcour.cz/",
    "short": "Disciplína FITASC, která napodobuje lovecké situace na okruhu stanovišť rozmístěných v přírodním terénu.",
    "long": "Sporting, oficiálně Parcours de Chasse, se střílí z lovecké brokovnice na asfaltové terče vrhané nad přírodním terénem. Dráhy napodobují let nebo běh zvěře: příletové, vzdalující se, přeletové i šikmé, vysoké i nízké, v otevřeném terénu nebo částečně skryté za stromy. Každé střeliště dává 25 terčů: 15 jednotlivých a 5 dvojstřelů. Mezinárodní závod má 200 terčů v položkách po 25. Na živá zvířata se nikdy nestřílí; bezpečnost a ohled na přírodu jsou na prvním místě."
   },
@@ -1709,7 +1551,6 @@ window.GLOSSARY_I18N.cs = {
     "kompak"
    ],
    "conf": "high",
-   "src": "https://www.parcour.cz/docum/201602/20160217-153732.pdf",
    "short": "Kompaktní disciplína FITASC, střílí se z 5 stanovišť na terče ze 6 vrhaček nad vyznačeným obdélníkem.",
    "long": "Compak Sporting vznikl v roce 1989 a FITASC ho přijala v roce 1991; jeho název a pravidla jsou ochrannou známkou registrovanou FITASC. Jeden Compak má 6 vrhaček označených písmeny A až F a 5 střeleckých stanovišť v řadě. Terče musí létat nad obdélníkem širokým 35–40 m a hlubokým 25 m. Položka má 25 terčů, pět na každém stanovišti, a mezinárodní závod se střílí na osmi Compacích, tedy 200 terčů. Lze ho střílet ve skupině nebo v řadě."
   },
@@ -1728,7 +1569,6 @@ window.GLOSSARY_I18N.cs = {
   "fitasc": {
    "term_local": "FITASC",
    "conf": "high",
-   "src": "https://www.fitasc.com/",
    "short": "Mezinárodní federace, která řídí Sporting a Compak Sporting a vydává jejich pravidla.",
    "long": "FITASC je mezinárodní federace loveckých střeleckých disciplín, mezi něž patří Sporting a Compak Sporting. Schvaluje střeliště pro mezinárodní závody, vydává mezinárodní licence rozhodčích a pět let eviduje vyloučení. Aktuální pravidla použitá v tomto průvodci jsou vydání z 01/01/2025. Závazný je pouze oficiální text FITASC; ClayArena nabízí vlastní shrnutí srozumitelným jazykem s odkazy na zdroj."
   },
@@ -2034,7 +1874,7 @@ window.GLOSSARY_I18N.cs = {
    ],
    "conf": "low",
    "short": "Nejstarší věková kategorie FITASC, od 73 let, pro muže i ženy.",
-   "long": "Master zahrnuje muže a ženy od 1. ledna roku, v němž dovrší 73 let; pro rok 2027 to znamená narozené před 1. lednem 1955. Družstvo Master má 3 střelce této kategorie; střelci Master mohou být vybráni i do družstev Veteran, Senior a Men. Nezaměňujte věkovou kategorii Master FITASC s výkonnostní třídou Master v americkém systému NSCA, která závisí na výsledcích, ani s řídicím okem (master eye) v technice."
+   "long": "Master zahrnuje muže a ženy od 1. ledna roku, v němž dovrší 73 let; pro rok 2027 to znamená narozené před 1. lednem 1955. Družstvo Master má 3 střelce této kategorie; střelci Master mohou být vybráni i do družstev Veteran, Senior a Men. Nezaměňujte věkovou kategorii Master FITASC s výkonnostní třídou, která závisí na výsledcích, ani s řídicím okem (master eye) v technice."
   },
   "crimp": {
    "term_local": "zálisek",
@@ -2539,7 +2379,7 @@ window.GLOSSARY_I18N.cs = {
     "zajíc a pták"
    ],
    "conf": "low",
-   "short": "Slang anglického sportingu pro dvojici složenou ze zajíce a vzdušného terče."
+   "short": "Slang britských trenérů pro dvojici složenou ze zajíce a vzdušného terče."
   },
   "true-pair": {
    "term_local": "true pair",
@@ -2547,7 +2387,7 @@ window.GLOSSARY_I18N.cs = {
     "současný dvojstřel"
    ],
    "conf": "low",
-   "short": "Název současné dvojice v anglickém sportingu: oba terče vyletí ve stejném okamžiku."
+   "short": "Tak říkají britští trenéři současné dvojici: oba terče vyletí ve stejném okamžiku."
   },
   "shell-catcher": {
    "term_local": "lapač nábojnic",
@@ -2618,33 +2458,7 @@ window.GLOSSARY_I18N.cs = {
     "gun up"
    ],
    "conf": "low",
-   "short": "Start se zbraní už zalícenou před zavoláním; dovolen v anglickém sportingu, NSCA a Compak®, ne ve FITASC Sporting™."
-  },
-  "english-sporting": {
-   "term_local": "anglický sporting",
-   "alt": [
-    "English Sporting"
-   ],
-   "conf": "low",
-   "short": "Britská podoba sportingu, kterou v Anglii pořádá CPSA vedle FITASC Sporting™; má vlastní pravidla: běžné jsou dvojice terčů a střelci často začínají se zbraní už v rameni."
-  },
-  "cpsa": {
-   "term_local": "CPSA",
-   "conf": "low",
-   "short": "Clay Pigeon Shooting Association, řídicí orgán brokové střelby na asfaltové terče v Anglii."
-  },
-  "nsca": {
-   "term_local": "NSCA",
-   "conf": "low",
-   "short": "National Sporting Clays Association, která řídí Sporting Clays ve Spojených státech."
-  },
-  "hoa": {
-   "term_local": "HOA",
-   "alt": [
-    "celkový vítěz"
-   ],
-   "conf": "low",
-   "short": "Celkový vítěz akce bez ohledu na kategorii nebo třídu."
+   "short": "Start se zbraní už zalícenou před zavoláním; dovolen v Compak® Sporting, ne v Parcours de Chasse – Sporting™."
   },
   "clock-face": {
    "term_local": "ciferník",

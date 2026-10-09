@@ -365,6 +365,14 @@ section.blk{scroll-margin-top:130px}
   </div>
 </div>
 <main id="app"></main>
+<!-- Without JavaScript the page above stays empty (it is drawn by the script below): this fallback keeps the description and the
+     FITASC trademark line of every footer (CLAUDE.md). In production the tour page is rendered on the server. -->
+<noscript><div style="max-width:760px;margin:24px auto;padding:0 16px;color:#d1d5db;font:15px/1.6 system-ui,sans-serif">
+<h1 style="font-size:22px;color:#f3f4f6">Sample tour: Sologne Week · ClayAway</h1>
+<p><span lang="uk">Приклад: дати, ціни й повідомлення умовні.</span> Sample ClayAway tour page, not a real offer: Parcours de Chasse – Sporting™ and Compak® Sporting at the Sologne Shooting Club with coach Charles Bardou; organizer and interpreter Anna Karpulianskaia.</p>
+<p>This sample needs JavaScript. <a href="../tours/" hreflang="uk" style="color:#34d399">ClayAway</a> · <a href="../concept/" hreflang="uk" style="color:#34d399">spec</a></p>
+<footer style="margin-top:24px;font-size:13px;color:#9ca3af">ClayAway project (to be integrated into ClayArena). Parcours de Chasse – Sporting™ and Compak® Sporting are trademarks of FITASC. Roles in the tour, dates, prices, participants and messages are sample data. <span lang="uk">Фото й відео: ClayArena.</span></footer>
+</div></noscript>
 
 <script>
 /* =====================================================================================================
@@ -414,9 +422,9 @@ const TOURS = {
     chips: ["About","Program","Coach","Organizer","Shooting ground","What's included","Prices","Cancellation","FAQ","Questions"],
     people: [
       {role:"Coach", name:"Markus Leibinger", init:"ML", url:"https://clayarena.com/en/coaches/markus-leibinger-15/",
-       lines:["Germany · Deutscher Schützenbund","Sporting™, Compak® Sporting, Compak InLine","Coaching language: German","Regions: International, Germany"]},
+       lines:["Germany","Sporting™, Compak® Sporting, Compak® Sporting in line","Coaching language: German","Regions: International, Germany"]},
       {role:"Organizer + Interpreter", name:"Lena Weigele", init:"LW", url:"https://clayarena.com/en/shooters/9655/",
-       lines:["Germany · D.S.B. · Ladies","Sporting™ and Compak® Sporting shooter, 13 competitions","Favourite ground: Dornsberg","Sample role: interprets German → English, Italian"]},
+       lines:["Germany · Ladies","Sporting™ and Compak® Sporting shooter, 13 competitions","Favourite ground: Dornsberg","Sample role: interprets German → English, Italian"]},
       {role:"Shooting ground", name:"Dornsberg Shooting Ground", init:"DB", url:"https://clayarena.com/en/stands/66-dornsberg-shooting-ground/",
        lines:["Eigeltingen, Germany","23 stands on lines A–E, ~200 traps","4 Compak® layouts, restaurant, pro shop","Open Wednesday to Saturday"]}
     ],
@@ -465,7 +473,7 @@ const TOURS = {
     chips: ["About","Program","Coach","Organizer","Shooting ground","For guests","What's included","Prices","Cancellation","FAQ","Questions"],
     people: [
       {role:"Coach", name:"Charles Bardou", init:"CB", url:"https://clayarena.com/en/shooters/1789724605508300304/",
-       lines:["France · F.F.B.T.","101 competitions on ClayArena","Sporting™ average accuracy 92.1%, 52 perfect rounds","Coaching language: French","Sample role: ClayArena has his shooter profile, not a coach profile"]},
+       lines:["France","101 competitions on ClayArena","Sporting™ average accuracy 92.1%, 52 perfect rounds","Coaching language: French","Sample role: ClayArena has his shooter profile, not a coach profile"]},
       {role:"Organizer + Interpreter", name:"Anna Karpulianskaia", init:"AK", url:"https://clayarena.com/en/shooters/1763048485011/",
        lines:["France · Ladies","Compak® Sporting and Sporting™ shooter","Sample role: interprets French → Ukrainian"]},
       {role:"Shooting ground", name:"Sologne Shooting Club", init:"SSC", url:"https://clayarena.com/en/stands/15-sologne-shooting-club/",

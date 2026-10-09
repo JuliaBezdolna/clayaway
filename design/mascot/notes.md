@@ -1,5 +1,10 @@
 # Mascot sketch, variant C: yellow Labrador, round cartoon
 
+> **Historical sketch (08.10.2026).** The rules that apply now are in `DEVELOPERS.md` §4j and in `docs/shared/mascot.js` (the master
+> drawing). Where this sketch differs, they win: every person at the stand wears glasses AND ear defenders; the dog is decorative only
+> (`aria-hidden`, never a text substitute, no `alt` text); earmuffs in stand scenes — decided: always; placements — §4j ("think" for an
+> empty search, "point" only on the 404 page, "sleep" for a progress page without lessons, no avatar). Kept for its construction notes.
+
 Files in this folder:
 - `sheet.svg`: the sketch sheet (1600×1000, one file, no external assets). Every body part is a separate shape in `<defs>`.
 - `sheet.png`: headless Chrome render of the sheet.

@@ -4,7 +4,7 @@
   "status": "ready",
   "plan": "keep",
   "level": 2,
-  "minutes": 6,
+  "minutes": 7,
   "disciplines": [
     "sporting",
     "compak"
@@ -27,7 +27,8 @@
   "legacy": {
     "learn": [],
     "interpreter": [
-      "interpreter-false-friends"
+      "interpreter-false-friends",
+      "interpreter-english-sporting-vs-fitasc"
     ]
   },
   "terms": [
@@ -50,7 +51,14 @@
     "chandelle",
     "driven-target",
     "battue",
-    "trapper"
+    "trapper",
+    "true-pair",
+    "simultaneous-double",
+    "rafale-double",
+    "target-presentation",
+    "cage",
+    "gun-up",
+    "ready-position"
   ],
   "rule_refs": [
     {
@@ -84,6 +92,22 @@
     {
       "book": "compak",
       "id": "ch16-squad-group"
+    },
+    {
+      "book": "sporting",
+      "id": "ch3-ready-position"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-simultaneous-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch4-rafale-double"
+    },
+    {
+      "book": "sporting",
+      "id": "ch16-presentation"
     }
   ],
   "facts": [
@@ -145,6 +169,13 @@
       "core": true,
       "en": "A “card” is a {{term:score-sheet|score card}}, or a yellow or red card. “On report” means at the sound of the shot, as in a {{term:double-on-report|double on report}}. A “{{term:squad|squad}}” is the competition group of {{fact:rules.squad-max-shooters}}. ClayAway tours, which are coming soon, will also use the word for a sub-group of a tour.",
       "uk": "«Card» — це і {{term:score-sheet|протокол}}, тобто картка результатів, і жовта чи {{term:red-card|червона картка}}. «On report» — на звук пострілу, як у {{term:double-on-report|сигнальному дуплеті}}, а не «звіт». {{term:squad|«Squad»}} — це стрільці, які разом стріляють раунд: {{fact:rules.squad-max-shooters}}. У турах ClayAway, які готуються, так називатимуть і підгрупу туру."
+    },
+    {
+      "k": "interpreter-false-friends-pairs",
+      "t": "p",
+      "core": true,
+      "en": "Pairs have different names. A “{{term:true-pair|true pair}}” (British and American) is a FITASC {{term:simultaneous-double|simultaneous double}}: both targets leave at the same time. A “report pair” is a {{term:double-on-report|double on report}}: the second target is launched by the sound of your first shot. A “following pair” is a FITASC {{term:rafale-double|rafale}}: two targets from the same trap, one right after the other. A “show pair” is the {{term:target-presentation|presentation}} of a pair before shooting. A “{{term:peg|peg}}” is the {{term:shooting-stand|shooting stand}}, “station” is the American word for a stand, and a “{{term:cage|cage}}” is the frame around it.",
+      "uk": "{{term:double|Дуплети|pl}} мають різні назви. «{{term:true-pair|True pair}}» (британське й американське) — це {{term:simultaneous-double|одночасний дуплет}} FITASC: обидві мішені вилітають разом. «Report pair» — {{term:double-on-report|сигнальний дуплет}}: другу мішень випускає звук вашого першого пострілу. «Following pair» — {{term:rafale-double|рафаль}} FITASC: дві мішені з однієї {{term:trap|машинки}} одна за одною. «Show pair» — {{term:target-presentation|показ}} дуплета перед стрільбою. «{{term:peg|Peg}}» — це {{term:shooting-stand|стрілецьке місце}}, «station» — американське слово для стрілецького місця, а «{{term:cage|cage}}» — рама навколо нього."
     },
     {
       "k": "interpreter-false-friends-p4",
@@ -233,6 +264,58 @@
       "say": {
         "uk": "Друга — за пострілом."
       }
+    },
+    {
+      "k": "interpreter-false-friends-ph7",
+      "speaker": "coach",
+      "core": true,
+      "en": "Pre-mount this one for now.",
+      "meaning": {
+        "en": "Training drill: start with the gun in the shoulder. Not allowed in FITASC {{tm:sporting}} competition.",
+        "uk": "Тренувальна вправа: починати з рушницею в плечі. На змаганнях FITASC {{tm:sporting}} так не можна."
+      },
+      "say": {
+        "uk": "Поки що цю — з уже вкладеною рушницею."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph8",
+      "speaker": "coach",
+      "core": true,
+      "en": "It’s a true pair.",
+      "meaning": {
+        "en": "Both targets leave at the same time (FITASC: simultaneous double).",
+        "uk": "Обидві мішені вилітають одночасно (FITASC: одночасний дуплет)."
+      },
+      "say": {
+        "uk": "Це одночасний дуплет."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph9",
+      "speaker": "coach",
+      "core": true,
+      "en": "Following pair off the left trap.",
+      "meaning": {
+        "en": "Two targets from the same trap one after the other (FITASC: rafale).",
+        "uk": "Дві мішені з однієї машинки одна за одною (FITASC: рафаль)."
+      },
+      "say": {
+        "uk": "Рафаль з лівої машинки."
+      }
+    },
+    {
+      "k": "interpreter-false-friends-ph10",
+      "speaker": "coach",
+      "core": true,
+      "en": "Let’s see a show pair.",
+      "meaning": {
+        "en": "Throw the pair once so everyone can watch it before shooting.",
+        "uk": "Запустіть дуплет один раз, щоб усі подивилися перед стрільбою."
+      },
+      "say": {
+        "uk": "Покажіть, будь ласка, дуплет."
+      }
     }
   ],
   "key_points": [
@@ -270,6 +353,12 @@
       "k": "interpreter-false-friends-kp6",
       "en": "“Dusted it” can mean either: ask",
       "uk": "«Dusted it» може означати і те, і те: перепитайте"
+    },
+    {
+      "k": "interpreter-false-friends-kp7",
+      "core": true,
+      "en": "True pair = simultaneous; report pair = on report; following pair = rafale",
+      "uk": "True pair — одночасний; report pair — на постріл; following pair — рафаль"
     }
   ],
   "did_you_know": null,
@@ -378,7 +467,46 @@
       }
     }
   ],
-  "exam_pool": [],
+  "exam_pool": [
+    {
+      "k": "interpreter-false-friends-q4",
+      "q": {
+        "en": "A British coach says “It’s a true pair.” What is the FITASC term?",
+        "uk": "Британський тренер каже «It’s a true pair». Який термін FITASC?"
+      },
+      "options": [
+        {
+          "k": "a",
+          "term": "double-on-report",
+          "en": "A double on report",
+          "uk": "Сигнальний дуплет"
+        },
+        {
+          "k": "b",
+          "term": "rafale-double",
+          "en": "A rafale double",
+          "uk": "Рафаль"
+        },
+        {
+          "k": "c",
+          "term": "simultaneous-double",
+          "en": "A simultaneous double",
+          "uk": "Одночасний дуплет"
+        },
+        {
+          "k": "d",
+          "en": "A correct double",
+          "uk": "Правильний дуплет"
+        }
+      ],
+      "correct": "c",
+      "explain": {
+        "en": "“True pair” is the British and American name for two targets released together, a FITASC simultaneous double.",
+        "uk": "«True pair» — британська й американська назва двох мішеней, випущених разом, тобто одночасного дуплета FITASC."
+      },
+      "rule_ref": "sporting:ch4-simultaneous-double"
+    }
+  ],
   "evidence": null,
   "h_uk": {
     "title": "93be8a38",
@@ -403,12 +531,21 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "todo": {
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": []
+    "tasks": [
+      "2026-10-09: the paragraph on pair names, the phrases “Pre-mount this one for now.”, “It’s a true pair.”, “Following pair off the left trap.”, “Let’s see a show pair.”, a key point and one exam question came here from interpreter-english-sporting-vs-fitasc, retired by the owner rule “Sporting™ and Compak® Sporting only, no other federation” (SCHEMA.md §2a, §9). Their translations moved with them under new keys (-pairs, -ph7…ph10, -kp7, -q4), so no key names another discipline."
+    ]
   }
 }

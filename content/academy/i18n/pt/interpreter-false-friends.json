@@ -25,7 +25,14 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -39,7 +46,8 @@
     "interpreter-false-friends-p2": "As palavras de pontuação não são literais. «Dead» e «kill» significam acerto, sem nada a ver com morte. «Lost» significa falha, não algo perdido. «Dropped two» significa dois pratos falhados. «Straight» em «25 straight» significa uma série perfeita, sem nenhum prato falhado.",
     "interpreter-false-friends-p3": "Palavras de equipamento e de lugar. Um «{{term:trap|trap}}» é a máquina de lançar, não uma armadilha. Um «stand» é uma única posição de tiro, o {{term:shooting-stand|posto de tiro}}, não o campo de tiro inteiro; no {{tm:compak}} os lugares chamam-se muitas vezes stations. Um «{{term:peg|peg}}» é a posição de tiro. O nome vem da estaca numerada que marca o lugar de cada atirador numa caçada de batida, por isso não o traduza como «estaca». Um «broken gun» é uma arma aberta. «Pull!» é a {{term:call|voz de comando}}, «{{term:pull-away|pull-away}}» é um método de {{term:lead|avanço}} e «{{term:length-of-pull|length of pull}}» é o comprimento da coronha, do {{term:trigger|gatilho}} até à {{term:recoil-pad|chapa de coice}}.",
     "interpreter-false-friends-cards": "Um «card» é tanto a {{term:score-sheet|folha de marcação}} como um {{term:yellow-card|cartão amarelo}} ou um {{term:red-card|cartão vermelho}}. «On report» significa ao som do tiro, como num {{term:double-on-report|double ao tiro}}. Uma «{{term:squad|squad}}» é o grupo de competição de {{fact:rules.squad-max-shooters}}. Os tours ClayAway, que estão a chegar brevemente, usarão também esta palavra para uma subequipa de um tour.",
-    "interpreter-false-friends-p4": "Outras línguas têm as suas próprias armadilhas. A «chandelle» francesa é um prato que sobe quase na vertical, a que o inglês chama {{term:teal|teal}}. Não é a {{term:chandelle|chandelle}} inglesa, um prato que sobe a pique numa curva e depois cai. O francês «en battue» e o italiano «in battuta» significam caça de batida (em inglês «driven»), não o prato {{term:battue|battue}}. Em português, «batida» é o prato battue, e «de batida» significa driven. Para um acerto, um árbitro francês diz «Bon» e um italiano «Buono», e o {{term:trapper|operador da máquina}} é muitas vezes um «pulleur» ou «puller». As palavras para a esquadra também diferem, por isso use a palavra do próprio regulamento da prova."
+    "interpreter-false-friends-p4": "Outras línguas têm as suas próprias armadilhas. A «chandelle» francesa é um prato que sobe quase na vertical, a que o inglês chama {{term:teal|teal}}. Não é a {{term:chandelle|chandelle}} inglesa, um prato que sobe a pique numa curva e depois cai. O francês «en battue» e o italiano «in battuta» significam caça de batida (em inglês «driven»), não o prato {{term:battue|battue}}. Em português, «batida» é o prato battue, e «de batida» significa driven. Para um acerto, um árbitro francês diz «Bon» e um italiano «Buono», e o {{term:trapper|operador da máquina}} é muitas vezes um «pulleur» ou «puller». As palavras para a esquadra também diferem, por isso use a palavra do próprio regulamento da prova.",
+    "interpreter-false-friends-pairs": "Os doubles têm nomes diferentes. Um «{{term:true-pair|true pair}}», em inglês britânico e americano, é um {{term:simultaneous-double|double simultâneo}} da FITASC: os dois pratos saem ao mesmo tempo. Um «report pair» é um {{term:double-on-report|double ao tiro}}: o segundo prato é lançado pelo som do primeiro tiro. Um «following pair» é um {{term:rafale-double|rafale}} da FITASC: dois pratos da mesma {{term:trap|máquina}}, um logo a seguir ao outro. Um «show pair» é a {{term:target-presentation|mostra}} de um double antes do tiro. Um «{{term:peg|peg}}» é o {{term:shooting-stand|posto de tiro}}, «station» é a palavra americana para posto, e uma «{{term:cage|cage}}» é a estrutura à volta dele."
   },
   "note": {},
   "phrases": {
@@ -66,6 +74,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "O segundo prato é lançado pelo som do seu primeiro tiro.",
       "say": "O segundo é ao tiro."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Exercício de treino: começar com a arma no ombro. Não permitido em competição de Sporting™ da FITASC.",
+      "say": "Para já, este com a arma à cara."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Os dois pratos saem ao mesmo tempo (FITASC: double simultâneo).",
+      "say": "É um double simultâneo."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Dois pratos da mesma máquina, um a seguir ao outro (FITASC: rafale).",
+      "say": "Rafale da máquina da esquerda."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Lançar o double uma vez para todos o verem antes do tiro.",
+      "say": "Vamos ver a mostra do double."
     }
   },
   "key_points": {
@@ -74,7 +98,8 @@
     "interpreter-false-friends-kp3": "Trap = máquina; stand = uma posição (posto); peg = o sítio marcado; broken gun = arma aberta",
     "interpreter-false-friends-kp4": "Pull, card, report e squad têm todos mais de um sentido",
     "interpreter-false-friends-kp5": "A chandelle francesa e «en battue» diferem das palavras inglesas",
-    "interpreter-false-friends-kp6": "«Dusted it» pode significar as duas coisas: pergunte"
+    "interpreter-false-friends-kp6": "«Dusted it» pode significar as duas coisas: pergunte",
+    "interpreter-false-friends-kp7": "True pair = simultâneo; report pair = ao tiro; following pair = rafale"
   },
   "quiz": {
     "interpreter-false-friends-q1": {
@@ -106,6 +131,16 @@
         "d": "Um prato partido"
       },
       "explain": "O francês «en battue» (italiano «in battuta») significa caça de batida; o prato batida é outra coisa."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Um treinador britânico diz «It's a true pair.» Qual é o termo da FITASC?",
+      "options": {
+        "a": "Um double ao tiro",
+        "b": "Um double rafale",
+        "c": "Um double simultâneo",
+        "d": "Um double correto"
+      },
+      "explain": "«True pair» é o nome inglês e americano para dois pratos lançados ao mesmo tempo, um double simultâneo da FITASC."
     }
   },
   "summary": "Palavras de tiro que parecem familiares mas significam outra coisa: fumo e pó, palavras de pontuação, «trap», «stand» e «squad», e armadilhas do francês, do italiano e do português."

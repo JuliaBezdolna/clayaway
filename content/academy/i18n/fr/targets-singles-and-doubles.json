@@ -7,7 +7,7 @@
     "summary": "8c511174",
     "flight-pairs-p1": "de3af0f1",
     "flight-pairs-p2": "4807909e",
-    "flight-pairs-p4": "6544c691",
+    "flight-pairs-p4": "2b3ac612",
     "flight-pairs-p3": "5326e900",
     "targets-singles-and-doubles-cartridges": "9881669e",
     "targets-singles-and-doubles-p6": "563c8328",
@@ -17,7 +17,7 @@
     "flight-pairs-ph1": "9a849839",
     "flight-pairs-ph2": "113027fe",
     "flight-pairs-ph3": "07db0d22",
-    "flight-pairs-ph4": "4b3c9b48",
+    "flight-pairs-ph4": "bc04a541",
     "flight-pairs-kp1": "ef123d9b",
     "flight-pairs-kp2": "3dee0536",
     "flight-pairs-kp3": "dd039d2b",
@@ -27,9 +27,10 @@
     "flight-pairs-q1": "ebe2b5dc",
     "flight-pairs-q2": "f669f8a6",
     "targets-singles-and-doubles-q2": "69c2d15d",
-    "flight-pairs-q3": "424310f9",
+    "flight-pairs-q3": "61892e73",
     "targets-singles-and-doubles-q1": "de200647",
-    "targets-singles-and-doubles-q-two-with-one": "e024bf17"
+    "targets-singles-and-doubles-q-two-with-one": "e024bf17",
+    "flight-pairs-sim": "cd49e005"
   },
   "review": {
     "by": null,
@@ -41,7 +42,7 @@
   "body": {
     "flight-pairs-p1": "Un {{term:single-target|simple}} est un plateau issu d'un seul {{term:trap|lanceur}}. Dans les deux disciplines, on peut tirer deux coups sur lui : en cas de premier coup manqué, le second canon permet de retirer. Un {{term:double|doublé}}, en anglais aussi pair, est deux plateaux qui vont ensemble : un seul appel, et vous tirez les deux.",
     "flight-pairs-p2": "{{term:double-on-report|Doublé coup de fusil}}, en anglais aussi report pair : l'appel lance le premier plateau, et le coup tiré sur lui lance le second. En {{tm:sporting}}, le second part de 0 à 3 secondes après ce coup. L'ordre est fixe. « Report » désigne le bruit du coup de feu, pas un rapport écrit.",
-    "flight-pairs-p4": "{{term:simultaneous-double|Doublé simultané}} — « simo » ; en {{term:english-sporting|English Sporting}} un « {{term:true-pair|true pair}} » : les deux plateaux partent au même instant et peuvent être tirés dans n'importe quel ordre. Ils viennent d'un ou deux lanceurs ; en {{tm:compak}}, toujours de deux lanceurs différents.",
+    "flight-pairs-p4": "{{term:simultaneous-double|Doublé simultané}} — « simo » ; les entraîneurs britanniques disent aussi « {{term:true-pair|true pair}} » : les deux plateaux partent au même instant et peuvent être tirés dans n'importe quel ordre. Ils viennent d'un ou deux lanceurs ; en {{tm:compak}}, toujours de deux lanceurs différents.",
     "flight-pairs-p3": "Following pair, que la FITASC appelle {{term:rafale-double|rafale}} : deux plateaux du même lanceur sur la même trajectoire, le second partant dès que le lanceur s'est rechargé. Vous pouvez tirer l'un ou l'autre en premier. Il n'existe qu'en {{tm:sporting}} : un doublé {{tm:compak}} est au coup de fusil ou simultané.",
     "targets-singles-and-doubles-cartridges": {
       "sporting": "Deux cartouches pour le doublé, et les deux peuvent être tirées sur un seul plateau. Si un coup casse les deux plateaux, les deux comptent comme touchés (l'arbitre annonce « un » pour chacun).",
@@ -50,7 +51,8 @@
     "targets-singles-and-doubles-p6": "Comment on compte les doublés, y compris zéro-zéro et un No bird dans un doublé, est expliqué dans {{lesson:rules-doubles}}.",
     "flight-pairs-p6": "Sur un poste {{tm:sporting}}, la planche tire d'abord les simples, puis les doublés. Avant de tirer, les doublés simultanés et rafale sont lancés pour que les tireurs les voient (ils sont montrés au premier tireur de la planche) ; les doublés au coup de fusil ne sont pas montrés.",
     "targets-singles-and-doubles-p5": "Un {{term:layout|parcours}} {{tm:sporting}} donne {{fact:targets.sporting-layout-targets}}, et les doublés n'utilisent que des plateaux déjà montrés en simples depuis le même poste. Un {{term:round|série}} {{tm:compak}} compte aussi 25 plateaux, cinq par pas de tir, selon l'un des trois mélanges : {{fact:targets.compak-station-menus}}.",
-    "targets-singles-and-doubles-tip1": "Avant d'appeler un doublé, beaucoup d'entraîneurs conseillent de planifier les deux plateaux : lequel en premier, où casser chacun, et où portent les yeux pour le second. Plus de détails dans {{lesson:faults-pairs-transition}}."
+    "targets-singles-and-doubles-tip1": "Avant d'appeler un doublé, beaucoup d'entraîneurs conseillent de planifier les deux plateaux : lequel en premier, où casser chacun, et où portent les yeux pour le second. Plus de détails dans {{lesson:faults-pairs-transition}}.",
+    "flight-pairs-sim": "Un plateau, puis les trois doublés : coup de fusil, simultané et rafale ; regardez quand part le second plateau."
   },
   "note": {},
   "phrases": {
@@ -67,7 +69,7 @@
       "say": "Rafale : après le premier, revenez tout de suite vers le lanceur pour le second."
     },
     "flight-pairs-ph4": {
-      "meaning": "Cinq doublés simultanés lancés depuis la tour (formulation du Sporting anglais).",
+      "meaning": "Cinq doublés simultanés lancés depuis la tour (formulation des entraîneurs britanniques).",
       "say": "Doublés simultanés depuis la tour, cinq."
     }
   },
@@ -117,7 +119,7 @@
         "c": "Une rafale",
         "d": "Un doublé simultané"
       },
-      "explain": "« True pair » est le nom du {{term:simultaneous-double|doublé simultané}} dans le Sporting anglais ; « true » n'a rien à voir avec la régularité."
+      "explain": "« True pair » est le nom que les entraîneurs britanniques donnent au {{term:simultaneous-double|doublé simultané}} ; « true » n'a rien à voir avec la régularité."
     },
     "targets-singles-and-doubles-q1": {
       "q": "Combien de plateaux donne un {{term:layout|parcours}} {{tm:sporting}} ?",

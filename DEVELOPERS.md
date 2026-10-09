@@ -6,6 +6,10 @@
 
 > Мова коду й даних — англійська (ідентифікатори, ключі). Тексти інтерфейсу — лише 11 мов сайту ClayArena (en uk de fr it cs pl pt hu fi lt); інших мов не додаємо.
 > Повні ТЗ: `docs/concept/` (тури ClayAway) і `docs/rules-spec/` (правила FITASC, тренажер, глосарій, SEO, легальність).
+> Передача команді (09.10.2026): **`HANDOVER.md`** у корені — що де лежить, повна пересборка, перевірки й відкриті рішення власника (§7).
+> Коментарі в коді, що посилаються на «design §N», — це робочі нотатки власника 10.2026, яких у репозиторії немає; правило, яке стоїть за
+> кожним із них, записано в `content/academy/SCHEMA.md` і в цьому файлі (§4d–§4l). Коди аудиту (R-01, S-04, W-07, legal-01…) — те саме:
+> опис і стан — у тексті поруч або тут; відкритих задач аудиту на 09.10.2026 немає (див. §4e «Практика»).
 
 ---
 
@@ -16,36 +20,108 @@
 | `docs/index.html`, `docs/en/index.html` | **головна проєктів ClayArena** (uk і en, `hreflang`, `noindex, follow`): картки Академія · Правила FITASC · Глосарій · Тури ClayAway; логотип ClayArena панелі веде сюди (§4i) | макет; у продакшені — меню clayarena.com |
 | `docs/tours/` | стартова сторінка ClayAway (uk): що це, посилання на ТЗ і два приклади турів з позначкою «Приклад»; пункт панелі «Тури ClayAway» | макет; у продакшені — каталог турів |
 | `docs/404.html` | «Сторінку не знайдено»: панель, 4 розділи, нова адреса для старих адрес (`id-map.json`, `aliases.json`); мова відвідувача | GitHub Pages; у продакшені — 301 з тих самих мап |
-| `docs/concept/` + `docs/CONCEPT.md` | ТЗ турів ClayAway (ролі, доступи, спілкування, адмінка, гроші, сутності, SEO, легальність) | специфікація |
+| `docs/concept/` + `CONCEPT.md` | ТЗ турів ClayAway (ролі, доступи, спілкування, адмінка, гроші, сутності, SEO, легальність). **Головне — HTML `docs/concept/index.html`** (`/concept/`, noindex); `CONCEPT.md` у корені — коротший Markdown-виклад, поза `docs/` з 09.10.2026 (раніше GitHub Pages віддавав його як звичайний текст, придатний для індексації) | специфікація |
 | `docs/dornsberg/`, `docs/sologne/` | два кліковні приклади туру: сторінка туру, закрита група, кабінет організатора | макет (дані умовні) |
 | `docs/rules/` | довідник правил FITASC: пошук «питання → відповідь», читання за розділами | працює на статичних даних |
 | `docs/rules/sporting/`, `compak/`, `en/…` | статичні SEO-сторінки правил (генеруються) | генерується `scripts/build_seo.mjs` |
 | `docs/rules/trainer/` | тренажер правил (160 питань) | працює на статичних даних |
-| `docs/rules/data/*.js` | дані правил і питань (формати: `SCHEMA.md`, `QUIZ_SCHEMA.md`) | джерело для БД |
+| `docs/rules/data/*.js` | дані правил і питань (формати: `rules/SCHEMA.md`, `rules/QUIZ_SCHEMA.md` — поза `docs/` з 09.10.2026); перевірка — `bun scripts/check_rules_data.mjs` | джерело для БД |
 | `docs/learn/` | **одна «Академія ClayArena»** (див. §4e): застосунок `learn/app/academy.js` + `academy.css`, оболонка й українська головна `learn/index.html`; дані `learn/data/<lang>/catalog.json`, `ui.json`, `phrases.json`, `lessons/<id>.json`, `exams/<route>.json` і `learn/data/languages.json` (де Академія опублікована) пише `scripts/build_academy.mjs` з `content/academy/`; `learn/data/id-map.json` — копія id-map для переадресацій. Старі `learn/data/*.js` і статичні сторінки уроків заморожені до перемикання | застосунок готовий; сторінки й дані генерує `scripts/build_academy.mjs` (§4f) |
-| `docs/interpreter/` | колишня Академія перекладача: `index.html` — постійний переадресатор (noindex) на маршрут «Перекладач» Академії; статичні сторінки `/interpreter/<lang>/<id>/` живуть до перемикання (тоді — заглушки з `id-map.json`); колишні `src/`, `data/` 08.10.2026 перенесено до `archive/legacy-docs/interpreter/` (не публікуються; контент переїхав у `content/academy/`) | переадресація |
-| `content/academy/` | **єдине джерело** об’єднаної «Академії ClayArena» (141 урок-майстер en + uk; один урок знято 08.10.2026, §4k; оверлеї 9 мов, блоки, маршрути, id-map, ids.lock, UI 11 мовами); формат — `content/academy/SCHEMA.md`; поза `docs/`, не публікується як є | створено міграцією `scripts/migrate_academy.mjs`; редагується; статуси уроків і переклади показує `bun scripts/build_academy.mjs --check` (§4f, §4g) |
-| `archive/legacy-docs/` | заморожені старі джерела, перенесені з `docs/` 08.10.2026 (стара Академія `learn/data/*.js`, таблиці законів, Академія перекладача `interpreter/src/**` і `data/*`); **не публікується**, опис — `archive/legacy-docs/README.md` (§4k) | архів міграції; читають лише `check_academy_migration.mjs`, `migrate_academy.mjs` і «страховка переходу» в `build_seo.mjs` |
+| `docs/interpreter/` | колишня Академія перекладача: `index.html` — постійний переадресатор (noindex) на маршрут «Перекладач» Академії; усі старі сторінки `/interpreter/<lang>/` і `/interpreter/<lang>/<id>/` — уже заглушки з `id-map.json` (стан 09.10.2026: `pending` 0); колишні `src/`, `data/` 08.10.2026 перенесено до `archive/legacy-docs/interpreter/` (не публікуються; контент переїхав у `content/academy/`) | переадресація |
+| `content/academy/` | **єдине джерело** об’єднаної «Академії ClayArena» (140 уроків-майстрів en + uk; два уроки знято — 08.10.2026 і 09.10.2026, §4k; оверлеї 9 мов, блоки, маршрути, id-map, ids.lock, UI 11 мовами); формат — `content/academy/SCHEMA.md`; поза `docs/`, не публікується як є | створено міграцією `scripts/migrate_academy.mjs`; редагується; статуси уроків і переклади показує `bun scripts/build_academy.mjs --check` (§4f, §4g) |
+| `archive/` | **не публікується**, опис — `archive/README.md`: `legacy-docs/` — заморожені старі джерела, перенесені з `docs/` 08.10.2026 (стара Академія `learn/data/*.js`, таблиці законів, Академія перекладача `interpreter/src/**` і `data/*`; опис — `archive/legacy-docs/README.md`); `glossary-sources-removed.json` — адреси-джерела місцевих слів глосарію, прибрані з сайту 08.10.2026, бо їхній шлях називав інші дисципліни (§4k) | архів міграції; `legacy-docs` читають лише `check_academy_migration.mjs`, `migrate_academy.mjs` і «страховка переходу» в `build_seo.mjs` |
+| `content/glossary/sources/<lang>.json` | звідки взято місцеве слово кожного терміна глосарію (`src`, примітка редактора `note`); до 09.10.2026 лежало в `docs/glossary/data/i18n/*.js` (§4k) | не публікується, збірка не читає |
 | `docs/glossary/` + `docs/glossary/data/` | глосарій ClayArena: терміни правил (`glossary.js`, `aliases.json`), терміни уроків Академії (`learn_terms.js`), переклади 11 мовами (`i18n/<lang>.js`: як кажуть стрільці + визначення) | генерується `build_seo.mjs` (uk), `build_seo_en.mjs` (en), `build_seo_i18n.mjs` (9 мов) |
 | `docs/rules-spec/` | ТЗ правил / тренажера / глосарію | специфікація |
 | `docs/og/` | картинки прев’ю 1200×630 та іконки | генерується `scripts/make_og.py` |
-| `docs/sitemap.xml`, `docs/robots.txt` | індекс карт сайту: `sitemap-site.xml` (правила, глосарій, тури) + `sitemap-learn-<lang>.xml` (Академія, по мові) | генерується `scripts/build_seo.mjs` + `build_academy.mjs` |
+| `docs/sitemap.xml`, `docs/robots.txt` | `sitemap.xml` — **індекс** карт: `sitemap-site.xml` (**лише глосарій**, 11 мов; правила FITASC свідомо поза sitemap, §4c; тури, ТЗ і приклади турів — noindex) + `sitemap-learn-<lang>.xml` (Академія, по мові) | генерується `scripts/build_seo.mjs` + `build_academy.mjs` |
 | `scripts/fitasc_check.py` + `.github/workflows/fitasc-check.yml` | щотижнева перевірка нових редакцій FITASC | працює |
 | `rules/sources.json` | зафіксовані версії PDF FITASC (URL, дата, розмір, SHA-256) | дані |
 | `rules/pdf/` | локальні PDF і текст FITASC — **не в git** (авторське право FITASC) | локально |
-| `docs/shared/stats.js` + `tools/stats/` | власна анонімна статистика відвідувань: трекер на кожній сторінці; збирач і приватна панель на Google Apps Script (поза `docs/`, не публікується), див. §4h | трекер вимкнений, поки `STATS_ENDPOINT` порожній |
+| `docs/shared/stats.js` + `tools/stats/` | власна анонімна статистика відвідувань: трекер на кожній сторінці; збирач і приватна панель на Google Apps Script (поза `docs/`, не публікується), див. §4h | **увімкнено з 07.10.2026**: у `STATS_ENDPOINT` — адреса збирача власника (кожне відвідування github.io пишеться в його таблицю); порожня константа вимикає трекер; перед переїздом на clayarena.com — спорожнити (§4h) |
 | `docs/shared/mascot.js` | маскот Академії (жовтий лабрадор, без імені): SVG для сторінок і `draw()` для полотна анімацій; англійські бульбашки або мовчки; див. §4j | працює (Академія, глосарій, 404) |
+| `tools/checks/` | перевірки проєкту (Python 3.12 + Playwright, README українською й англійською): `check_safety.py` (безпека анімацій покадрово), `render_frames.py` (кадри для огляду), `check_quiz.py` (тест уроків); §2 | з 09.10.2026 у репозиторії |
+| `HANDOVER.md`, `requirements.txt`, `.gitattributes`, `.github/workflows/checks.yml` | передача команді (відкриті питання, де що лежить); Pillow для `make_og.py`; LF для всіх текстових файлів; перевірки на кожен pull request | 09.10.2026 |
 
-Окремий проєкт **Академія Віки** — репозиторій `fenix-112323/vika-academy` (папка `D:\Project\ClayArena\VikaAcademy`).
+Окремий проєкт **Академія Віки** — репозиторій `fenix-112323/vika-academy` (не частина ClayArena).
 
-## 2. Як запустити локально
+## 2. Як запустити, зібрати й перевірити
 
+**Що встановити** (перевірено 09.10.2026 на Windows 11 і на чистому клоні):
+
+| Інструмент | Версія | Для чого | Примітка |
+|---|---|---|---|
+| Bun | 1.4.2 | `scripts/build_seo.mjs`, `build_academy.mjs`, `check_rules_data.mjs`, `tools/stats/checks/*.mjs` | лише Bun: `Bun.Transpiler` мініфікує `sims.min.js` (без Bun — немініфікована копія й попередження); інша версія Bun може дати інший `sims.min.js` |
+| Python | 3.12 | `make_og.py`, `seo_meta.py`, `fitasc_check.py`, `tools/checks/` | |
+| Pillow | 12.3.0 | `make_og.py` | `python -m pip install -r requirements.txt` |
+| Шрифти Segoe UI | `segoeui.ttf`, `segoeuib.ttf`, `seguibl.ttf` | `make_og.py` | є у Windows (`C:/Windows/Fonts`); на Linux / macOS — змінна `OG_FONTS=<тека з цими файлами>`. Без шрифтів `make_og.py` зупиняється з помилкою й нічого не малює (раніше мовчки малював шрифтом 10 px) |
+| Playwright + Chromium | 1.63.0 | `tools/checks/` | `python -m pip install -r tools/checks/requirements.txt`, потім `python -m playwright install chromium` |
+| Poppler `pdftotext` | будь-яка | `fitasc_check.py --fetch` / `--download` (текст PDF FITASC для перевірки «10 слів поспіль») | необов’язково; без нього — попередження `fitasc-cache-missing`, перевірку пропущено |
+| Мережа | — | лише `fitasc_check.py` | збірки й перевірки працюють офлайн |
+
+**Перегляд:** `python -m http.server 8791 --bind 127.0.0.1 --directory docs` → http://127.0.0.1:8791/ (те саме — конфігурація `site` у `.claude/launch.json`).
+Живий сайт проєкту: https://fenix-112323.github.io/clayaway/ (GitHub Pages, `main /docs`).
+
+**Повна пересборка** (з кореня репозиторію, ~3 хв):
 ```bash
-python -m http.server 8791 --bind 127.0.0.1 --directory docs
+bun scripts/build_seo.mjs && python scripts/make_og.py && python scripts/seo_meta.py
 ```
-Відкрити http://127.0.0.1:8791/ . Збірки: `bun scripts/build_seo.mjs` (разом з Академією, §4f), `python scripts/make_og.py`, `python scripts/seo_meta.py`.
-Порядок після зміни даних правил, глосарія чи уроків: `build_seo.mjs` → `make_og.py` → `seo_meta.py` (повна пересборка: `bun scripts/build_seo.mjs && python scripts/make_og.py && python scripts/seo_meta.py`).
-Пробні збірки — лише в тимчасову теку (`--out <тека>`) або `bun scripts/build_academy.mjs --check` (лише перевірки; невідомий ключ — помилка, а не збірка, §4f); `scripts/build_interpreter*.py` у пересборку не входять (виведено з ужитку, §4a).
+```powershell
+# Windows PowerShell 5.1 (немає &&)
+bun scripts/build_seo.mjs; if ($?) { python scripts/make_og.py }; if ($?) { python scripts/seo_meta.py }
+```
+Спершу `bun scripts/build_academy.mjs --check` (нічого не пише), після — перевірки нижче. `build_seo.mjs` першим ділом перевіряє дані правил
+(`check_rules_data.mjs`), потім будує Академію; помилки обох зупиняють збірку **до** запису. `scripts/build_interpreter*.py` у збірку не
+входять (§4a). Дата збірки потрапляє в ~1600 файлів (`lastmod`, `dateModified`, «оновлено» на сторінках правил, `generated`): щоб
+перезібрати коміт байт у байт іншого дня, задайте `CLAY_BUILD_DATE=YYYY-MM-DD` (перевірки `review-expired` і `law-old` все одно беруть
+справжню сьогоднішню дату). Збірка відтворювана: той самий коміт, та сама версія Bun, ті самі шрифти й та сама дата дають ті самі файли
+(перевірено на чистому клоні 09.10.2026; `.gitattributes` тримає LF у всіх текстових файлах на будь-якій ОС).
+
+**Що пише кожен крок:**
+
+| Крок | Час | Пише |
+|---|---|---|
+| `bun scripts/build_seo.mjs` (спершу `check_rules_data.mjs`, потім `build_academy.mjs`) | ~2–2,5 хв | **Академія** (з `content/academy/`): `docs/learn/**` і `docs/<мова>/learn/**`, `docs/learn/data/<мова>/` (`catalog.json`, `ui.json`, `phrases.json`, `lessons/*.json`, `exams/*.json`), `docs/learn/data/languages.json`, `redirects.json`, `id-map.json`, заглушки `docs/interpreter/**` і знятих та старих id, `docs/sitemap-learn-<мова>.xml`, `docs/og/og-list.json`, `docs/shared/sims-text.js`, `docs/shared/sims.min.js`. Помилка Академії — не пишеться нічого. Далі (`build_seo.mjs`, `build_seo_en.mjs`, `build_seo_i18n.mjs`): **правила** `docs/rules/{sporting,compak}/`, `docs/rules/en/…`, `docs/rules/categories/`, `docs/rules/en/categories/` (усе noindex, доки `FITASC_INDEX = false`); **глосарій** `docs/glossary/**` (uk), `docs/en/glossary/**`, `docs/<9 мов>/glossary/**` і заглушки злитих та знятих термінів (`GLOSSARY_STUBS`); `docs/sitemap.xml` (індекс), `docs/sitemap-site.xml`, `docs/robots.txt`; у **всіх** HTML `docs/` — `sims.js` → `sims.min.js`, `terms.js` перед анімаціями, `nav.js`, вимова й анімація на сторінках термінів |
+| `python scripts/make_og.py` | ~35 с | `docs/og/*.png` (сторінки з `PAGES` + `favicon.png`, `apple-touch-icon.png`), `docs/og/<мова>/learn-*.png` (242 картинки Академії за `og-list.json`); блок `<!-- share-preview -->` (OG + Twitter) у рукописних сторінках |
+| `python scripts/seo_meta.py` | < 1 с | блок `<!-- seo -->` (canonical + JSON-LD) у 7 рукописних сторінках (`index.html`, `en/index.html`, `tours/`, `concept/`, `rules-spec/`, `dornsberg/`, `sologne/`) — **після** `make_og.py` (вставляється перед `<!-- share-preview -->`; без нього скрипт зупиняється з помилкою) |
+| `bun scripts/build_academy.mjs --check` | ~15–35 с | нічого (звіт; `--report <файл>`, `--term-report <тека>` пишуть звіти) |
+| `bun scripts/check_rules_data.mjs` | ~5 с | нічого |
+| `python scripts/fitasc_check.py` | ~10 с, мережа | `rules/update_report.md` при змінах; `--download` — змінені PDF і `.txt` у `rules/pdf/`; `--fetch` — PDF з `rules/sources.json`, яких бракує (новий клон); `--accept` — `rules/sources.json` |
+| Не входять у збірку | | `build_interpreter*.py` (виведено, без `--legacy` не запускаються), `build_laws.py` (пише лише в `archive/`), `migrate_academy.mjs`, `check_academy_migration.mjs` (історичні) |
+
+**Пробна збірка (нічого в `docs/`):** `bun scripts/build_seo.mjs --out <тека>` (відносний чи абсолютний шлях; у порожню теку пишуться лише
+згенеровані файли — заглушки глосарію теж, зі списку `GLOSSARY_STUBS`) · з чернетками Академії: скопіюйте `docs/` у теку й додайте `--draft` ·
+картинки й мета для цієї теки: `python scripts/make_og.py --docs <тека>` і `python scripts/seo_meta.py --docs <тека>` (потрібна повна копія `docs/`) ·
+тест уроків на ній: `python tools/checks/check_quiz.py --site <тека>` (решту файлів перевірка бере з `docs/`).
+
+**Новий клон.** `rules/pdf/` не в git (авторське право FITASC): `python scripts/fitasc_check.py --fetch` завантажує PDF із `rules/sources.json`,
+звіряє SHA-256 і робить текст (`pdftotext`). Без цього перевірка «10 слів поспіль» (`fitasc-verbatim` в Академії, `check_rules_data.mjs`)
+пропускається з попередженням.
+
+**Перевірки перед комітом** (усі нічого не пишуть у `docs/`; вивід — останній рядок):
+
+| Команда | Що перевіряє | Коли | Очікувано |
+|---|---|---|---|
+| `bun scripts/build_academy.mjs --check` | усі перевірки Академії (SCHEMA.md §10: мови, марки, токени термінів, інші дисципліни, текст FITASC, переадресації…) | після будь-якої правки `content/academy/`, глосарію, `sims.js` | `ERRORS (block the build): 0` (попередження — підказки редакторам, §4l) |
+| `bun scripts/check_rules_data.mjs` | дані довідника й тренажера: унікальні id, `refs`, сторінки PDF, варіанти й індекс відповіді, 10 слів поспіль як у FITASC, інші дисципліни | після правки `docs/rules/data/` | `0 errors` |
+| `python tools/checks/check_safety.py` | покадрово (кожні 1/60 с) безпека анімацій `sims.js` + собака `mascot.js`: ніхто перед місцем, стволи не на людей і не на будиночок, захист очей і слуху видно, одна вертикалка, закрита лише на місці; фізика лабораторії (L1); кеш спрайтів = пряме малювання (P1) | після **кожної** зміни `docs/shared/sims.js` або `mascot.js` | `RESULT: OK` (1,5–5 хв) |
+| `python tools/checks/render_frames.py` | кадри всіх анімацій на 720 px і 343 px у `tools/checks/out/frames/` — для огляду очима (стиль, безпека, собака) | разом із попередньою | `RESULT: OK` + огляд кадрів |
+| `python tools/checks/check_quiz.py` | кожен урок кожною мовою в браузері: 3 відповіді, позначки, пояснення мовою сторінки, рядок результату, без стрибка > 20 px, без помилок у консолі; собаки немає на `/rules/`, у тренажері й ТЗ | після збірки Академії | `RESULT: OK` (15–20 хв; швидко: `--langs uk,en --limit 10`; телефон: `--phone`) |
+| `bun tools/stats/checks/check_tracker.mjs`, `check_collector.mjs` | трекер `stats.js` і збирач `Code.gs` з макетами, без мережі (§4h) | після правки `stats.js` чи `Code.gs` | `71 passed, 0 failed` / `94 passed, 0 failed` |
+
+Ці ж перевірки (крім повного тесту уроків — лише uk і en) запускає `.github/workflows/checks.yml` на кожен pull request (windows-latest);
+щотижневу перевірку нових редакцій FITASC — `fitasc-check.yml`. Опис і ключі `tools/checks/` — `tools/checks/README.md` (uk + en).
+**Автоматичних тестів Bun для `docs/shared/progress.js` і JS-переадресатора `/interpreter/` у репозиторії немає** (їх запускали разово
+під час розробки) — перед зміною цих файлів пройдіть вручну чек-лист з §4e «Перевірка».
+
+**Перенесення на clayarena.com.** Адреса сайту `https://fenix-112323.github.io/clayaway/` записана в: `scripts/site_common.mjs` (`BASE` — для
+`build_seo*.mjs` і `build_academy.mjs`, отже й усіх згенерованих сторінок, sitemap, `robots.txt`), `scripts/make_og.py` (`BASE`),
+`scripts/seo_meta.py` (`B`), `docs/learn/app/academy.js` (`PROD_BASE`), рукописних `docs/learn/index.html`, `docs/rules/index.html`,
+`docs/rules/trainer/index.html`, `docs/404.html`, `docs/interpreter/index.html`, `docs/llms.txt` і в тестовому `tools/stats/checks/check_tracker.mjs`
+(а також у виведеному `scripts/build_interpreter_pages.py`). Блоки canonical / OG у `index.html`, `en/`, `tours/`, `concept/`, `rules-spec/`,
+`dornsberg/`, `sologne/` пишуть `make_og.py` і `seo_meta.py`. У продакшені — одна змінна конфігурації, canonical на clayarena.com, 301 з github.io
+(§6). Так само **назва сервісу «ClayAway»**: у статичному проєкті вона написана в текстах (сторінки турів, `nav.js` `NAMES`, тексти прев’ю, ТЗ)
+свідомо, щоб макети читалися; у продакшені — один ключ конфігурації й переклади з нього (правило CLAUDE.md «название в одном месте»).
 
 ## 3. Тури ClayAway → ClayArena
 
@@ -59,7 +135,7 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
 | `TOURS[t].qa` | публічні питання (відкрита зона спілкування), модерація |
 | `TOURS[t].announcements`, `chat` | закрита зона групи — **через існуючі інструменти спілкування ClayArena** |
 | `TOURS[t].participants`, `todo`, `inbox` | `Booking`, `Payment`, задачі кабінету організатора |
-| `MEDIA` | медіа туру: відео ClayArena (cdn.clayarena.com), фото, embed соцмереж |
+| `MEDIA` | медіа туру — **лише ClayArena** (рішення власника 06.10.2026): відео й фото з `cdn.clayarena.com` і сховища ClayArena; Instagram — звичайним посиланням `nofollow`, вбудовування лише після згоди на сторонні cookies (ТЗ турів); немає медіа — нейтральна заглушка |
 | `GLANCE` | блок «The tour at a glance»: спорт / трансфер / кухня / ≤50 км / готель |
 | `MEALS`, `MEALPHOTOS` | `ItineraryItem(type=meal)` з `meal_kind`, `included`, `together`, `venue`, `cuisine_note` |
 
@@ -69,10 +145,19 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
 - **Оплата**: через ClayArena, split-платежі (наприклад Stripe Connect), комісія ClayArena — % від виплати організатору.
 - **Мови**: кожне текстове поле туру — окремо на кожній увімкненій мові; EN обов’язкова.
 - **SEO**: див. ТЗ турів, розділ «SEO, розмітка і прев’ю» (Event + Offer JSON-LD, OG-картинка з обкладинки).
+- **Без JavaScript** макети показують `<noscript>` з описом і рядком про марки FITASC (09.10.2026); у продакшені сторінку туру рендерить сервер.
+- **Профілі людей у макетах** — лише країна й категорія («Germany · Ladies»), без назв національних федерацій (§4k).
 
 ## 4. Довідник правил і тренажер → ClayArena
 
-- Дані: `docs/rules/data/sporting.js`, `compak.js` (книга → розділи → пункти → FAQ), `quiz-*.js` (питання з `refs` на пункти).
+- Дані: `docs/rules/data/sporting.js`, `compak.js` (книга → розділи → пункти → FAQ), `quiz-*.js` (питання з `refs` на пункти), `categories.js`
+  (категорії FITASC → `/rules/categories/`; рядки таблиці мають `id` = id категорії, тож посилання уроків `#junior`, `#lady`… ведуть на рядок).
+  Формати — `rules/SCHEMA.md`, `rules/QUIZ_SCHEMA.md`. **Перевірка — `bun scripts/check_rules_data.mjs`** (з 09.10.2026; її викликає й
+  `build_seo.mjs` і зупиняється до запису): унікальні id пунктів і питань, `faq.refs` і `refs` питань існують і з тієї самої книги, сторінка в межах
+  PDF, 2–4 варіанти й індекс відповіді, переклади `i18n/quiz-<lang>.json` лише для наявних питань, **10 слів поспіль як у тексті FITASC**
+  (summary_en, points_en, title_en, FAQ, питання, варіанти, пояснення — проти англійських регламентів і quick guides у `rules/pdf/*.txt`;
+  французьких текстів у кеші немає) і назви інших дисциплін та федерацій. Перший прогін знайшов один збіг (compak `ch24-carrying`), переписано.
+  У продакшені — та сама перевірка в CI даних правил.
   У БД: `rule_books`, `rule_sections`, `rule_items`, `rule_faq`, `rule_quiz_questions`, `glossary_terms`; поле `edition` для версій.
 - Пошук зараз — клієнтський (TF-IDF-подібний, словник синонімів UA/EN у `docs/rules/index.html`, функції `expand`, `search`).
   Етап 2: `POST /api/rules/ask` → пошук пунктів на сервері → Claude API відповідає **лише** з цих пунктів, з `ref`/сторінками.
@@ -102,8 +187,10 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
 - Майстер-контент (з 08.10.2026 — в `archive/legacy-docs/interpreter/`, поза `docs/`, §4k): `src/missions/*.json` (кожне текстове поле `{en, uk}`), `ui.json`, `terms.json` (терміни 11 мовами з `conf` і `src`), переклади `src/i18n/<lang>.json`.
   Збірка: `python scripts/build_interpreter.py` → `data/<lang>.js` (одна мова на файл, поле за полем запасна англійська) і `data/terms.js`.
 - У БД: `missions`, `lessons` (перекладні поля), `coach_phrases`, `quiz_items`, `terms` + `term_translations` (term, alt, note, confidence, source_url).
-- Прогрес, XP, іспит і сертифікат зараз у `localStorage` (`clayarena-interpreter`) → у продакшені профіль користувача, іспит перевіряє сервер, сертифікат з перевірним ID; позначка в профілі перекладача ClayAway.
-- Симуляції (`flightSim`, `leadLab` в `docs/interpreter/index.html`) — canvas без бібліотек; фізика навчальна (див. ТЗ правил, розділ «Маршрут «Перекладач»», `docs/rules-spec/#interpreter`).
+- Прогрес, XP, іспит і сертифікат (історія: колись `localStorage` `clayarena-interpreter`) тепер — `clayarena-academy` (`docs/shared/progress.js`; старий ключ лише
+  переноситься один раз) → у продакшені профіль користувача, іспит перевіряє сервер, сертифікат з перевірним ID; позначка в профілі перекладача ClayAway.
+- Симуляції (`flightSim`, `leadLab`, сцени на стрілецькому місці) — `docs/shared/sims.js` (історія: колись у `docs/interpreter/index.html`, тепер це
+  переадресатор 6 КБ) — canvas без бібліотек; фізика навчальна (§4b, ТЗ правил `#lab-physics`).
 - Озвучення фраз тренера — Web Speech API (`en-GB`), без зовнішніх сервісів; у продакшені можна замінити записами носіїв.
 
 ## 4b. Спільні модулі і єдині дані (без дублювання)
@@ -115,7 +202,7 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   осічка, вкладка) і `TERM_SIMS` (термін → анімація); `ClaySims.auto()` монтує `[data-clay-sim]` / `[data-clay-term]` на статичних сторінках;
   `ClaySpeak(text)` — вимова англійською (Web Speech API). Тексти й назви термінів — `docs/shared/sims-text.js` (`CLAYSIMS_TEXT`, `CLAYSIMS_TERMS`).
   **Сторінки підключають `docs/shared/sims.min.js`** — мінімізовану копію `sims.js`, яку пише кожна збірка (`minifySims()` у `build_academy.mjs`;
-  ≈ 78 КБ, gzip ≈ 29 КБ замість ≈ 165 КБ з коментарями; малює піксель у піксель так само). Джерело одне — `sims.js` (коментарі для команди):
+  ≈ 78 КБ, gzip ≈ 29 КБ замість ≈ 181 КБ з коментарями (10.2026); малює піксель у піксель так само). Джерело одне — `sims.js` (коментарі для команди):
   правити лише його й перезібрати, `.min`-файл не редагувати. `build_seo.mjs` переводить на `.min` і рукописні сторінки (`docs/learn/index.html`,
   тренажер правил).
   Поведінка (аудит анімацій 10.2026): кнопка ▶ під час показу стає ⏹ «Зупинити» (WCAG 2.2.2), потім ↻ «Ще раз»; автозапуск — один раз, коли на
@@ -198,6 +285,9 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   «пігулки» слів на полотні на телефоні (343 px; вони англійські в усіх мовах) і підписи поза полотном (вкладки, список методів лабораторії —
   «English (local)») усіма 11 мовами на 375 px без горизонтальної прокрутки. Перевірки, що читають пікселі полотна, мають враховувати буфер DPR: піксель
   логічної точки (x, y) — це (x·s, y·s), s = `c._s` (старі перевірки з координатами 720 px з буфером DPR не працюють).
+  **Команди (у репозиторії з 09.10.2026, `tools/checks/README.md`):** `python tools/checks/check_safety.py` (покадрова безпека, L1 — фізика
+  лабораторії: `tf`, `R`, `TR`; P1 — кеш спрайтів; код виходу 1 при будь-якій ваді) і `python tools/checks/render_frames.py` (кадри 720 і 343 px
+  у `tools/checks/out/frames/` для огляду очима). Межі перевірок не послаблювати — виправляти `sims.js`.
 - `docs/shared/terms.js` — **єдиний помічник назв термінів** (`window.ClayTerms`, рішення власника 08.10.2026): професійний термін, названий як
   підпис, — англійською, місцеве слово в дужках («Swing-through (протяжка)»); англійські сторінки — лише англійською. Ним користуються `academy.js`,
   `sims.js`, тренажер правил і збирачі (`build_academy.mjs`, `build_seo*.mjs`). Повністю — §4l.
@@ -227,7 +317,7 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
 ## 4d. Єдина «Академія ClayArena»: джерело контенту `content/academy/`
 
 - Дві академії (для початківців `docs/learn/` і перекладача `docs/interpreter/`) об’єднуються в одну «Академію ClayArena» на `/learn/`
-  (uk у корені, інші мови `/<lang>/learn/`): 13 блоків (теми), 7 маршрутів (для кого), розділ «Практика», 141 урок, 11 мов ClayArena.
+  (uk у корені, інші мови `/<lang>/learn/`): 13 блоків (теми), 7 маршрутів (для кого), розділ «Практика», 140 уроків, 11 мов ClayArena.
   Англійська — майстер-мова і має пріоритет; українська пишеться разом з нею в тому самому файлі; 9 інших мов — оверлеї.
 - Єдине джерело правди — `content/academy/` (поза `docs/`, тому внутрішні нотатки й чернетки не публікуються). Формат майстра й оверлею,
   типи блоків, токени (`{{term:…}}`, `{{tm:sporting}}`, `{{tm:compak}}`, `{{rule:…}}`, `{{lesson:…}}`, `{{fact:id}}` з `facts.json`), перевірки збірки
@@ -245,7 +335,8 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
 - **Від міграції старі джерела `docs/learn/data/*.js` і `docs/interpreter/src/**` заморожені** (08.10.2026 перенесені з `docs/` до `archive/legacy-docs/`,
   §4k; більше не публікуються): усі правки — лише в `content/academy/`. Повторний запуск
   міграції заборонено (`--force` перезаписує правки). Старі сторінки працюють, доки нові уроки не опубліковано: `scripts/build_academy.mjs` (§4f) пише
-  сторінку-переадресацію лише тоді, коли урок-ціль є тією самою мовою (усього 737 із `id-map.json`; на clayarena.com — справжні 301 з `redirects.json`).
+  сторінку-переадресацію лише тоді, коли урок-ціль є тією самою мовою (на 09.10.2026 — 759 заглушок груп A–H з `id-map.json`, усі активні, `pending` 0:
+  жодна стара сторінка вже не «живе»; на clayarena.com — справжні 301 з `redirects.json`).
 - id уроку — постійна адреса (`/learn/<id>/`); блок і порядок задає лише `blocks.json`; id з `ids.lock` не можна прибрати без запису в `id-map.json`;
   слова `topics routes practice progress app data assets` зарезервовані.
 - ⚠ Довідник правил FITASC і тренажер лишаються `noindex` до письмового дозволу FITASC (`FITASC_INDEX = false`, див. 4c). Уроки блоку «Правила» —
@@ -303,7 +394,10 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   фільтр дисципліни, noindex), картки термінів (коробки Лейтнера на пристрої, терміни пройдених уроків із глосарія), розмовник (друк, теж з `phrases.json`),
   «Тренажер правил» (без ↗; назва з `ClayNav.name("trainer")` / ui `rules_trainer`) — посилання `/rules/trainer/?lang=<l>&from=learn` (вимога маршруту «Перші змагання» — `&mode=short`, короткий тест на 10 питань;
   результат читається з `clayarena-trainer`, див. §4), іспити маршрутів, сертифікати.
-  XP за гру не нараховується, поки в `practice.json` `xp: false` (відомі помилки S-01…S-05); «Мій ритуал» — згодом.
+  XP за гру не нараховується, поки в `practice.json` `xp: false` (тоді гра має `known_issues` і показує «XP нараховуватимуть згодом»). Стан 09.10.2026:
+  XP дають 6 з 8 ігор; без XP — розмовник (за задумом) і «Мій ритуал» (згодом). Відомі помилки S-01…S-05 (лабораторія, «Назви траєкторію») і
+  R-02…R-05 («Рішення судді», «Іспит з правил»: назви ClayArena й ключ `clayarena-trainer`; переписане `sp-q071`; самодостатні `cs-q057`, `sp-q023`;
+  перемішування варіантів у тренажері) виправлено й перевірено в коді та даних; `known_issues` порожні.
   **Раунд гри зберігається**, як тест тренажера: `localStorage` `clayarena-academy-round` = `{<гра>: {lang, ts, sig, k, ok, picked, view, items}}`
   (24 год, лише тією мовою; `sig` — фільтри гри, інший фільтр = новий раунд); зі старту гри панель пропонує шлях назад (`ClayNav.setResume`,
   розділ `learn`), тож перехід «Де це в правилах» і повернення продовжують той самий раунд з тим самим питанням. Кінець раунду й «Ще раз» його стирають.
@@ -321,7 +415,8 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   (`nav`) читає підказка панелі `nav.js`. Кожне звернення до сховища — у try/catch; якщо сховище закрите, застосунок працює в пам’яті й каже про це.
   «Перенести прогрес» на `/learn/progress/`: код `1.<base64url deflate>` лише в хеші (`#import=…`), без імені; злиття — правило максимуму.
 - **Мови.** 11 мов ClayArena, перемикач у шапці й список мов у підвалі (та сама сторінка іншою мовою; урок, якого там немає, відкриває свою тему).
-  Рядки інтерфейсу — `content/academy/ui/<lang>.json` (нові ключі поки en + uk, решта мов бере англійську до хвиль перекладу).
+  Рядки інтерфейсу — `content/academy/ui/<lang>.json` (новий ключ спершу en + uk; мова без нього бере англійську з попередженням `ui-fallback`).
+  Стан 09.10.2026: Академія опублікована всіма 11 мовами (140 сторінок уроків кожною), `ui_fallback` порожній у всіх мовах.
 - **`nav.js`.** Один пункт «Академія»: `/learn/` або `/<lang>/learn/` — **лише якщо Академію цією мовою опубліковано** за списком
   `learn/data/languages.json`, який пише збірка (`published`); інакше `/en/learn/` (з `hreflang="en"`). Список читається лише для мов, крім uk/en,
   раз за сесію браузера (`sessionStorage` `clayarena-learn-langs`); поки його немає або файл недоступний — uk → `/learn/`, решта → `/en/learn/`
@@ -331,10 +426,16 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   (посилання панелі мовою `lang`) і подія `claynav:update` після кожного перемальовування (так тренажер оновлює свій «← Академія»).
 - **`/interpreter/`** — постійний переадресатор (noindex, без canonical, OG лишився для старих посилань у месенджерах): `?lang`, `#l/<id>`, `#m/<місія>`,
   `#g/<гра>` → нові адреси тією самою мовою через `id-map.json`; без JS — meta refresh на `/en/learn/routes/interpreter/`. У sitemap його немає.
-- **Перевірка.** Тести Bun для `progress.js` і переадресатора (міграція, XP, значки, сертифікати, перенесення, закрите сховище, усі старі id × 11 мов,
-  короткий тест тренажера проти іспиту) і перевірка в браузері на тимчасовій збірці `build_academy.mjs --out <тека> --draft --base http://127.0.0.1:<порт>/`:
-  головна, урок із підзаголовками `h`, «Перекладіть тренера» і розмовник (лише `phrases.json`), маршрут «Перші змагання» → тренажер
-  `&mode=short` → результат → «← Академія» → вимога виконана; `nav.js` на сторінці мови без Академії веде на `/en/learn/`.
+- **Перевірка.** Автоматично: `python tools/checks/check_quiz.py` — тест кожного уроку кожною мовою в браузері (§2). **Тестів Bun для
+  `progress.js` і переадресатора `/interpreter/` у репозиторії немає**: під час розробки їх запускали разово, у репозиторій вони не потрапили.
+  Тому перед зміною `docs/shared/progress.js`, `docs/interpreter/index.html` чи `docs/404.html` — ручний чек-лист (на тимчасовій збірці
+  `bun scripts/build_seo.mjs --out <тека> --draft` + `python -m http.server`): (1) у чистому профілі браузера покласти в `localStorage` старі
+  `clayarena-learn` і `clayarena-interpreter` (кілька уроків, старий XP, іспит перекладача ≥ 80) → відкрити `/learn/progress/`: уроки перенесено
+  через `id-map.json` один раз, XP не менший за старий, сертифікат «Перекладач» і значок «Академія перекладача 2026»; повторне відкриття нічого
+  не дублює; (2) закрите сховище (приватне вікно з блокуванням) — застосунок працює й каже про це; (3) `/interpreter/?lang=de#l/<старий id>`,
+  `#m/<місія>`, `#g/<гра>` для кількох мов → та сама мова, правильний урок; (4) маршрут «Перші змагання» → тренажер `&mode=short` → результат
+  → «← Академія» → вимога виконана, а XP і значок «Іспит з правил» — лише за іспит; (5) `nav.js` на сторінці мови без Академії веде на `/en/learn/`;
+  (6) головна, урок із підзаголовками `h`, «Перекладіть тренера» і розмовник (лише `phrases.json`). У продакшені — справжні тести для цих модулів.
 
 ## 4f. Збірка Академії: `scripts/build_academy.mjs`
 
@@ -356,7 +457,9 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
 - **Запуск.** Зазвичай — разом із сайтом: `bun scripts/build_seo.mjs`. Академія збирається першою; **її помилки зупиняють усю збірку** (нічого не записується).
   Окремо: `bun scripts/build_academy.mjs --check` (лише перевірки) · `--out <тека> --draft` (перегляд разом із чернетками: noindex, позначка «Чернетка»,
   видно блоки `draft` і завдання автору; у `docs/` така збірка не пише) · `--report <файл.json>` (усі знахідки) · `--base http://127.0.0.1:8791/`
-  (посилання для локального перегляду) · `--own-home` (дозволити переписати рукописну `docs/learn/index.html`).
+  (посилання для локального перегляду) · `--own-home` (дозволити переписати рукописну `docs/learn/index.html`) · `--term-report <тека>` (звіт
+  правила термінів за мовами, §4l) · `--docs-root <тека>` (де шукати старі сторінки, типово `docs`) · `--quiet` (лише підсумок). Повний список —
+  `bun scripts/build_academy.mjs --help`; у `build_seo.mjs`: `--out`, `--skip-academy`, `--draft`, `--quiet`, змінна `CLAY_BUILD_DATE` (§2).
   Повний перегляд сайту з чернетками: скопіювати `docs/` у тимчасову теку й `bun scripts/build_seo.mjs --out <тека> --draft`.
   Зібрати решту сайту, коли в Академії є помилки: `bun scripts/build_seo.mjs --skip-academy` (файли Академії на диску не змінюються).
   **Невідомий ключ нічого не збирає:** `-h` / `--help` друкують список ключів і виходять (код 0); будь-який інший невідомий ключ (опечатка `--chek`)
@@ -377,7 +480,7 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   Неперекладені абзаци без `core` не показуються, внизу — «Ще N абзаців — англійською» з посиланням на en; застарілий абзац уроку з `critical` (безпека,
   правила, антидопінг) показується англійською з позначкою «Переклад оновлюється». Головна, теми, маршрути й Практика мовою X будуються, коли є
   `content/academy/i18n/<X>/_shared.json` (назви блоків, розділів, маршрутів, етапів, ігор, рівнів, значків). Рядки інтерфейсу, яких ще немає в
-  `ui/<X>.json`, беруться англійською з попередженням. hreflang — лише мови, де сторінка є, + `x-default` = en; сторінок відсутніх мов збірка не
+  `ui/<X>.json`, беруться англійською з попередженням (на 09.10.2026 таких немає). hreflang — лише мови, де сторінка є, + `x-default` = en; сторінок відсутніх мов збірка не
   створює й **ніколи не переадресовує на іншу мову**.
 - **Сторінки** відповідають контракту застосунку (§4e): `#acTop`, `main#app` з повним статичним текстом (працює без JavaScript, для пошуковиків
   і прев’ю в месенджерах), `#acFoot`, `#acLive`, `#acToast`, 5 скриптів з `defer` (з `shared/terms.js`). JSON-LD: урок — `LearningResource` + `BreadcrumbList`
@@ -395,8 +498,8 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   Заглушка — миттєвий meta refresh + `location.replace` + canonical на ціль + OG (старі посилання у Viber дають прев’ю), **без noindex**.
   Заглушка з’являється лише тоді, коли сторінка-ціль є тією самою мовою; до того стара сторінка лишається, а пара стоїть у `pending` у `redirects.json`.
   E (`/interpreter/`) і F (`/learn/#…`) — JS-переадресатори застосунку (§4e).
-- **Перехідний період.** Старі сторінки, які ще не замінено (уроки старої Академії, сторінки Академії перекладача), лишаються в `sitemap-learn-<lang>.xml`,
-  а посилання глосарія «Де вивчити» ведуть на них, доки нового уроку немає. `docs/sitemap.xml` тепер — індекс карт. ⚠ У `build_seo.mjs` є тимчасова
+- **Перехідний період.** На 09.10.2026 усі старі сторінки (уроки старої Академії, сторінки Академії перекладача) уже замінено заглушками (`pending` 0);
+  `docs/sitemap.xml` — індекс карт. Лишилася одна страховка, і вона стосується лише термінів глосарію: ⚠ У `build_seo.mjs` є тимчасова
   «страховка»: терміни, яких уроки вже не згадують, але чиї сторінки глосарія опубліковано, беруться зі старих `archive/legacy-docs/learn/data/*.js` (до 08.10.2026 — `docs/learn/data/*.js`) з попередженням —
   їх треба перенести в `docs/glossary/data/learn_terms.js` (+ i18n) до перемикання, тоді страховку можна видалити.
 - **Рукописна головна.** `docs/learn/index.html` — оболонка застосунку (§4e); збірка її не переписує (попередження `home-kept`), головні інших мов пише сама.
@@ -425,10 +528,12 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   рівнів, значків; попередження `shared-missing`). Тоді збірка вносить X у `learn/data/languages.json` → `published`, і пункт «Академія» панелі
   `nav.js` веде на `/<X>/learn/`; до того — на `/en/learn/`.
 - **Рядки інтерфейсу** — `content/academy/ui/<lang>.json` (публікуються як `learn/data/<lang>/ui.json`); бракує рядка — береться англійська з
-  попередженням `ui-fallback` (список — `ui_fallback` у `ui.json`). Нові ключі спершу додаються в en + uk, решта мов — у хвилях перекладу.
+  попередженням `ui-fallback` (список — `ui_fallback` у `ui.json`). Нові ключі спершу додаються в en + uk, решта мов — у хвилях перекладу
+  (стан 09.10.2026: усі 11 мов повні, 140 сторінок уроків кожною мовою, підписи всіх анімацій перекладено).
 - **Порядок роботи:** спершу виправлення аудиту в майстрі (en + uk), потім оновлення 9 оверлеїв — щоб хибний факт не розійшовся 9 мовами.
   Перекладати з **поточної** англійської; копіювати хеш `h` без нового перекладу не можна.
-- **Українська термінологія:** вкладка (gun mount), заєць (rabbit, рішення власника 07.10.2026), дуплет, точка пострілу, точка підхоплення, точка утримання (hold point), провідне око (master eye),
+- **Українська термінологія:** вкладка (gun mount), заєць (rabbit, рішення власника 07.10.2026), сигнальний дуплет (double on report — офіційний
+  переклад правил Compak® Sporting Української федерації спортингу, §3.3.1; рішення власника 09.10.2026; «дуплет на постріл» — запасний варіант у `alt`), дуплет, точка пострілу, точка підхоплення, точка утримання (hold point), провідне око (master eye),
   передпостріловий ритуал, стрілецьке місце (у Compak® Sporting — номер), імітація стрільби, Європейський вогнепальний паспорт, підгонка рушниці,
   наважка (load weight, як в офіційному перекладі правил), шушотаж (chuchotage); апостроф — ’. Слова «squad» не вживаємо (у ClayArena це інше).
 - **Де дивитися стан:** `bun scripts/build_academy.mjs --check` (кількість сторінок кожною мовою, `overlay-stale`, `overlay-orphan`, `ui-fallback`,
@@ -438,6 +543,12 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
 
 Анонімна статистика відвідувань без cookies і без IP-адрес; дані у власній таблиці власника проєкту (Google Sheets);
 посилання на панель статистики ніде не публікується. Сторонніх сервісів аналітики немає. Налаштування для власника — `tools/stats/README.md`.
+
+> **Стан на 09.10.2026: трекер УВІМКНЕНО з 07.10.2026** (коміт `0bd2f8a33`): у `STATS_ENDPOINT` — адреса збирача власника (Apps Script,
+> «Anyone»), тож кожне відвідування сайту на github.io записується в таблицю власника. Публічна лише адреса збирача (вона в коді сайту);
+> адреса панелі — ніде. **Під час передачі / переїзду на clayarena.com:** спорожнити константу (`const STATS_ENDPOINT = "";`) або замінити
+> трекер аналітикою ClayArena з тими самими назвами подій; `tools/stats/` не переносити. Чи виконано перевірку «go / no-go» нижче
+> (кроки 1–3) і чи видалено тестові рядки `stats_check` з аркуша, підтверджує власник (`HANDOVER.md`).
 
 - **Трекер** `docs/shared/stats.js` (ES2018, без залежностей, < 6 КБ; тримати так). Підключається одним динамічним `<script>` з `docs/shared/nav.js`
   (адреса від кореня сайту, як `ROOT`). Константа `STATS_ENDPOINT` угорі файла: порожня = трекер нічого не робить (жодних запитів і слухачів).
@@ -463,7 +574,8 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   `cleanupOldHits()` — видалити рядки старші за `CFG.KEEP_DAYS`. Два розгортання одного скрипта: «Anyone» = адреса збирача (у `STATS_ENDPOINT`),
   «Only myself» = приватна панель. Після зміни коду — нова версія **обох** розгортань (адреси не змінюються).
 - **Перевірки** (без мережі й без Google-акаунта): `bun tools/stats/checks/check_tracker.mjs` — трекер з фальшивими window / navigator
-  (вимкнений режим, DNT/GPC, боти, localhost, поля й обрізання, leave, переходи в Академії, sendBeacon, ліміт 300 записів);
+  (з 09.10.2026 перевірка завжди починає з порожньої адреси й сама підставляє тестову, тож не залежить від живої адреси збирача і не
+  звертається до нього; вимкнений режим, DNT/GPC, боти, localhost, поля й обрізання, leave, переходи в Академії, sendBeacon, ліміт 300 записів);
   `bun tools/stats/checks/check_collector.mjs` — `Code.gs` з макетами `SpreadsheetApp` / `Session` / `ContentService` / `HtmlService` /
   `LockService` / `CacheService` (з TTL ≤ 6 год, витісненням і збоєм) / `Utilities` (валідація, ліміти, денний ліміт через північ за поясом скрипта
   і після закінчення кешу, доступ до панелі, агрегати, екранування, очищення). Запускати після кожної зміни.
@@ -598,10 +710,16 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   додає їх у `learn/data/redirects.json` (на clayarena.com — HTTP 301) і `learn/data/id-map.json` (JS-переадресатори, перенесення прогресу старої
   Академії) та видаляє застарілий файл `learn/data/<lang>/lessons/<id>.json` з виходу (`RETIRED_FILES`). Майстер, 9 оверлеїв і факт, який
   використовував лише цей урок, видалено; з `blocks.json` і `routes.json` id прибрано. У продакшені: ті самі 301 і видалити урок із БД.
-- **Глосарій.** Терміни `skeet-choke`, `olympic-trap`, `skeet` видалено з `learn_terms.js` і всіх `i18n/<lang>.js`; у `aliases.json`:
-  `skeet-choke → choke`, `olympic-trap → sporting`, `skeet → sporting`. `redirectStubs()` у `scripts/build_seo.mjs` перетворює їхні старі сторінки
-  (`/glossary/<id>/`, `/<lang>/glossary/<id>/`) на `noindex`-заглушки до цільового терміна; аліас також не дає «страховці переходу» повернути
-  термін зі старих джерел (тепер `archive/legacy-docs/learn/data/*.js`). Термін **`issf` теж знято** (08.10.2026): `aliases.json` `issf → fitasc`,
+- **Глосарій.** Терміни `olympic-trap`, `skeet` видалено з `learn_terms.js` і всіх `i18n/<lang>.js` (08.10.2026); у `aliases.json`:
+  `olympic-trap → sporting`, `skeet → sporting`. `redirectStubs()` у `scripts/build_seo.mjs` перетворює їхні старі сторінки
+  (`/glossary/<id>/`, `/<lang>/glossary/<id>/`) на `noindex`-заглушки до цільового терміна — і в чистій збірці (порожня `--out`, продакшен):
+  список колись опублікованих і знятих чи злитих id — `GLOSSARY_STUBS` у `build_seo.mjs` (це й карта 301 глосарію; при знятті терміна додати id
+  і туди, і в `aliases.json`). Аліас також не дає «страховці переходу» повернути термін зі старих джерел (тепер `archive/legacy-docs/learn/data/*.js`).
+  **Єдиний виняток — термін `skeet-choke`** (`/glossary/skeet-choke/`, рішення власника 09.10.2026; CLAUDE.md): 08.10.2026 його знімали, 09.10.2026
+  повернуто в `learn_terms.js` і всі 11 `i18n/<lang>.js` — лише про сам чок, який виробники маркують «Skeet» / «SK» (його звуження й де він стоїть
+  у ряду), без опису дисципліни; на нього посилаються `cylinder`, `improved-cylinder`, `constriction`; аліасу `skeet-choke → choke` **немає**
+  (не додавати). Збірка дозволяє назву «Skeet»/«SK» лише в цьому записі глосарію: `CHOKE_NAME` / `noChokeName` у `scripts/build_academy.mjs`
+  (перевірка `other-discipline` для цього терміна прибирає лише слова назви чока, решта тексту перевіряється); в уроках цієї назви немає й не буде. Термін **`issf` теж знято** (08.10.2026): `aliases.json` `issf → fitasc`,
   його сторінки всіма мовами — заглушки на `fitasc`; із `related` терміна `beta-blocker` прибрано. Пов’язані терміни (`related`) і синонім
   `Skeet vest` прибрано; визначення «тихе око», «зрив», «бета-блокатор» переписано без досліджень інших дисциплін і без інших федерацій.
 - **Антидопінг без інших федерацій.** Список WADA забороняє бета-блокатори у стрільбі; у Sporting™ і Compak® Sporting вважаємо їх забороненими —
@@ -609,14 +727,29 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   Джерело WADA лишається; джерела інших федерацій (`mind-anti-doping`, `mind-long-day-energy-sleep`, `travel-jet-lag`) прибрано цілком, назви
   джерел не змінюємо; доказ про добавки (`mind-anti-doping-p9`) тепер — сторінка USADA Supplement Connect. Дослідження кофеїну зі стрільцями
   (`mind-long-day-energy-sleep-p10`) описано як «зі спортсменами-стрільцями (не стендовиками)», без назви дисципліни; назва статті — як є.
-- **Чоки** — за звуженням: cylinder, 1/8 (дуже легке), improved cylinder (1/4), light modified, modified, improved modified, full; назви «Skeet»/«SK» немає.
+- **Чоки** — за звуженням: cylinder, 1/8 (дуже легке), improved cylinder (1/4), light modified, modified, improved modified, full. Назва «Skeet»/«SK» —
+  лише в терміні глосарію `skeet-choke` (виняток вище), в уроках її немає.
+- **Британські й американські версії спорту та їхні організації (знято 09.10.2026, перед передачею):** урок `interpreter-english-sporting-vs-fitasc`
+  («Британські й американські слова проти FITASC») знято за §2a SCHEMA.md: `id-map.json` «learn» → `{"to": "interpreter-false-friends",
+  "retired": "2026-10-09"}`, «interpreter» → `interpreter-false-friends`; заглушки групи H усіма 11 мовами (тепер H = 22); його FITASC-зміст —
+  абзац про назви дуплетів, фрази тренера «Pre-mount this one for now.», «It’s a true pair.», «Following pair off the left trap.», «Let’s see a show pair.»,
+  пункт «Головного» і питання іспиту — перенесено з перекладами 9 мов у `interpreter-false-friends` під новими ключами (`-pairs`, `-ph7…ph10`,
+  `-kp7`, `-q4`). Терміни `english-sporting`, `cpsa`, `nsca`, `hoa` знято (аліаси → `sporting`, `fitasc`, `fitasc`, `scoreboard`; у `GLOSSARY_STUBS`).
+  Тексти уроків `intro-fitasc-and-organisation`, `history-birth-of-sporting`, `competitions-categories-and-shoot-offs`, `flight-rabbit`,
+  `targets-singles-and-doubles`, `lead-pull-away`, `lead-swing-through` (+ 9 оверлеїв), визначення `gun-up`, `true-pair`, `fur-and-feather`, `show-pair`,
+  `master-category`, `sporting` (uk_usage) і `pump-action` («та інших видах стрільби» → лише полювання) — без цих назв; слова британських тренерів
+  (true pair, show pair, fur and feather, gun up, peg) лишаються як «так кажуть британські тренери». Прибрано й джерела (NSSA-NSCA, CPSA,
+  «sporting clays»), назви національних федерацій у профілях прикладів турів (D.S.B., F.F.B.T.) і в таблиці закону Італії (FITAV → «італійська
+  національна федерація дисципліни»). Правило: **жодної стрілецької федерації, крім FITASC**; національні переклади правил FITASC (PZSS, Української
+  федерації спортингу) згадуються лише в редакторських джерелах поза `docs/` (`content/glossary/sources/`).
 - **Слово trap.** Англійською (і в інших мовах, де FITASC так каже) — лише **машинка** та її оператор (trap A, trapper). **Українською жодне слово не
   починається з «трап»**: машинка — «машинка», людина — «оператор машинки» (і в `i18n/uk.js`: `term_local`/`alt`), «трапляється» → «буває», «стається».
   Французькою «ball-trap» не пишемо — «tir aux plateaux» (заголовки глосарію в `scripts/build_seo_i18n.mjs` теж). Яма для машинки перед номерами
   Compak® — «sunk into the ground», не «trench».
-- **Що лишається свідомо** (не текст сайту): id знятого уроку й термінів у `ids.lock`, `id-map.json`, `aliases.json` і в адресах заглушок
-  (без них старі посилання не працюватимуть); посилання-джерела (`src`) у `docs/glossary/data/i18n/*.js`, що вказують, звідки взято місцеве слово;
-  історичний `scripts/migrate_academy.mjs`, архів `content/academy/legacy/modules.json`.
+- **Що лишається свідомо** (не текст сайту): id знятих уроків і термінів у `ids.lock`, `id-map.json`, `aliases.json`, `GLOSSARY_STUBS`, `legacy`
+  майстра і в адресах заглушок (без них старі посилання не працюватимуть); історичний `scripts/migrate_academy.mjs`, архів
+  `content/academy/legacy/modules.json`. Джерела місцевих слів глосарію (`src`) і примітки редакторів (`note`) з 09.10.2026 — у
+  `content/glossary/sources/<lang>.json` (поза `docs/`, не публікується; до того лежали в опублікованих `i18n/*.js`).
 - **Заморожені старі джерела перенесено з `docs/` до `archive/legacy-docs/`** (08.10.2026, `git mv`, байт у байт; опис — `archive/legacy-docs/README.md`):
   `docs/learn/data/*.js` + `laws-*.json` + `SCHEMA.md` → `archive/legacy-docs/learn/data/`, `docs/interpreter/src/**` і `docs/interpreter/data/*` →
   `archive/legacy-docs/interpreter/`. Перед перенесенням перевірено: жодна сторінка, скрипт чи файл даних сайту їх не завантажує (переадресатор
@@ -625,18 +758,22 @@ python -m http.server 8791 --bind 127.0.0.1 --directory docs
   `/interpreter/<lang>/<id>/` (групи B–D) лишаються. Шляхи оновлено в `scripts/check_academy_migration.mjs`, `scripts/migrate_academy.mjs`,
   «страховці переходу» `scripts/build_seo.mjs` (`LEGACY_LEARN`) і в старих `build_interpreter.py`, `build_interpreter_pages.py`, `build_laws.py`
   (жоден із них більше не пише в `docs/`). У `docs/learn/data/` лишилися лише файли збірки (`<lang>/`, `id-map.json`, `redirects.json`, `languages.json`).
-- ⚠ **Рішення власника потрібне:** `src` місцевих слів у `docs/glossary/data/i18n/pl.js`, `fr.js`, `lt.js` (і кілька в `de.js`) — адреси сторінок-джерел,
-  у шляху яких є назви інших дисциплін або федерації (на сторінках не показуються; назви й адреси джерел ми не змінюємо). Замінити джерела
-  (правила FITASC мовою, документи федерацій про Sporting/Compak) чи прибрати `src` і зберігати походження поза `docs/` — вирішує власник.
+- **Джерела місцевих слів глосарію — зроблено.** 08.10.2026 `src`, у шляху яких були назви інших дисциплін, прибрано з сайту (оригінали —
+  `archive/glossary-sources-removed.json`, опис — `archive/README.md`); 09.10.2026 усі `src` і `note` (1115 і 475) перенесено з `docs/glossary/data/i18n/*.js`
+  до `content/glossary/sources/<lang>.json`, бо частина називала інші федерації (FFBT, DSB, FITAV). Збірка їх не читає; міняючи місцеве слово, оновіть
+  і джерело там.
 - **Перевірка збіркою (блокує):** помилка `other-discipline` у `build_academy.mjs` — назва іншої дисципліни у видимому тексті майстрів (en, uk),
   9 оверлеїв, фактів і їхніх перекладів, `_shared.json`, `ui/*.json`, blocks/routes/practice/levels/badges і кожного запису глосарія
   (`glossary.js`, `learn_terms.js`, `i18n/<lang>.js`, `i18n/ui-<lang>.json`). Не перевіряються id, id у токенах, адреси, `src`, `sources` і аліаси.
   Шаблони — `OTHER_DISCIPLINE_RE` у `scripts/academy/lint.mjs` (skeet, olymp/olimp/олімп, down-the-line, double trap, Doppeltrap, universal trench,
   trench, ball-trap, fosse/fossa olimpica/universale, литовське «skitas», DTL і ABT великими літерами, українські слова на «трап», «скіт»/«скит»,
-  а також ISSF / ІССФ / ИССФ і UIT великими літерами); просте англійське «trap»/«trapper» (машинка й оператор) дозволене. Опис — `SCHEMA.md` §9–10.
+  а також ISSF / ІССФ / ИССФ і UIT великими літерами; з 09.10.2026 — «English Sporting», «Sporting Clays» і CPSA, NSCA, NSSA, HOA великими літерами);
+  просте англійське «trap»/«trapper» (машинка й оператор) дозволене; виняток — назва чока в терміні `skeet-choke`. Опис — `SCHEMA.md` §9–10.
+  Довідник правил і банк тренажера перевіряє тими самими шаблонами `bun scripts/check_rules_data.mjs` (§4).
 - **Перевірка вручну:** перед випуском — пошук без урахування регістру по джерелах і пробній збірці (`--out`): skeet, скіт, олімп/olymp/olimp, DTL,
-  double trap, trench, ABT, ISSF/UIT, «та інші дисципліни» (усіма мовами), «трап» на початку українського слова, «trap» лише як машинка. Довідник правил, ТЗ, тури, `llms.txt` і `nav.js` збірка
-  Академії не читає — їх перевіряє лише цей пошук.
+  double trap, trench, ABT, ISSF/UIT, English Sporting / «англійський спортинг» (локальні форми: anglický sporting, Sporting anglais, angol sporting,
+  englantilainen sporting…), Sporting Clays, CPSA, NSCA, NSSA, HOA, назви національних федерацій, «та інші дисципліни» (усіма мовами), «трап» на
+  початку українського слова, «trap» лише як машинка. ТЗ, тури, `llms.txt` і `nav.js` збірки не читають — їх перевіряє лише цей пошук.
 
 ## 4l. Професійні терміни — англійською, місцеве слово в дужках (рішення власника 08.10.2026)
 
@@ -711,16 +848,21 @@ uk «Swing-through (протяжка)», «Pull-away (вихід з мішені
   `overhead` «virš galvos iš nugaros skrendantis taikinys» (були однакові), `ambush` «šaudymas į tašką» («pasala» — військова засідка, тепер в
   `alt`), `looper` «lanku skrendantis taikinys», `senior` «senjorai», `master-category` «Master» (вік — у `note`); cs `maintained-lead`
   «udržované předsazení», `swing-through` «přešvihnutí», `pull-away` «odtažení», `ambush` «čekání na terč» (англійські — в `alt`); pt
-  `swing-through` «vir por trás», `pull-away` «sair do prato»; de `ambush` «Ambush (Abfangen)», `men-category` «Herren», «schräg gehende /
+  `swing-through` «vir por trás», `pull-away` «sair do prato»; de `ambush` «Spot Shooting» (09.10.2026, так кажуть німецькомовні тренери Sporting/Compak;
+  «Abfangen» — в `alt`), `men-category` «Herren», «schräg gehende /
   kommende Scheibe» (прикметник з малої); it `men-category` «uomini» («Homme» — в `alt`); fr `chandelle` «chandelle» (пояснення про хибного друга —
-  у `note`); pl `double-on-report` «dublet po strzale» (термін PZŁ з `note`; «na zawołanie» означало «на команду» — перевірити польському
-  редактору); fr / it — загальні назви з малої літери (68 fr, 71 it; великі лишилися у власних назв і команд: Parcours de Chasse, Percorso di
+  у `note`); «double on report» звірено з національними перекладами правил FITASC (09.10.2026): pl «dublet po strzale» (переклад PZSS; хибне
+  «dublet na zawołanie» = «на команду» виправлено в 11 уроках, глосарії й банку тренажера), cs «dvojstřel na hlášenou», hu «vadászdublé»,
+  uk «сигнальний дуплет» (§4g); fr / it — загальні назви з малої літери (68 fr, 71 it; великі лишилися у власних назв і команд: Parcours de Chasse, Percorso di
   Caccia, Compak…, BON, BUONO, ZÉRO, No bird, категорії Junior, Senior, Master, Dame).
-- Українських місцевих слів ще немає (лише англійська назва) у **32 термінів** (29 без абревіатур CPSA, NSCA, HOA): move-mount-shoot, tempo,
-  waiting-position, show-clear, cage, chip, checking, riding-the-target, poking, canting, late-mount, transition, recovery, hand-signal, target-line,
-  bolting-rabbit, fur-and-feather, true-pair, shell-catcher, top-lever, bead, consecutive-interpreting, false-friend, smoked-it, peg, gun-up, cpsa,
-  nsca, hoa, clock-face, blazed-target, manual-release. Інші 9 мов мають місцеве слово для кожного терміна. Їх додають у
-  `docs/glossary/data/i18n/uk.js` — підписи оновляться самі.
+- Українські місцеві слова (09.10.2026): для 20 із 29 термінів без них додано слова, які вже вживають українські уроки (`conf: low`, позначка в
+  `content/glossary/sources/uk.json`): tempo «темп», waiting-position «місце очікування», cage «захисна рама», chip «відколок», checking
+  «пригальмовування», riding-the-target «надто довге супроводження мішені», canting «завал рушниці», late-mount «запізніла вкладка», transition
+  «перехід», hand-signal «жест», shell-catcher «уловлювач гільз», top-lever «важіль замка», bead «мушка», consecutive-interpreting «послідовний
+  переклад», false-friend «хибний друг», clock-face «циферблат», target-line «лінія польоту мішені», bolting-rabbit «заєць, що вискакує»,
+  manual-release «ручний запуск», move-mount-shoot «рух, вкладка, постріл». Свідомо лише англійською (так кажуть на стенді): show-clear, true-pair,
+  fur-and-feather, smoked-it, peg, gun-up. Без слова ще poking, recovery, blazed-target — вирішує редактор (`HANDOVER.md`). `conf: low` не бере
+  участі в перевірках `term-untokenised` / `term-local-missing`; підтверджене слово — `conf` вище.
 - **Рішення власника (09.10.2026)**: uk `teal` — у глосарії лишається «чирок» (`conf: low`, у `alt` «свічка»), а в тексті уроку
   `targets-special-presentations` — «Тіл», як є; не «вирівнювати».
 
@@ -811,7 +953,10 @@ uk «Swing-through (протяжка)», «Pull-away (вихід з мішені
   пункт «Головного» з `checklist` (друкується в чеклісті маршруту), кожна фраза в `phrases.json` (Практика: розмовник, «Переклади тренера»), кожне
   питання тесту чи іспиту: питання → варіанти (вільний текст — завжди наступна згадка, лише «English», `SEEN` у `quizItem()`) → пояснення після
   питання й усіх варіантів (варіант з `term` — уже згадка: «Rabbit (заєць)»); назви уроків у посиланнях `{{lesson:id}}`, сторінки тем і маршрутів —
-  кожен рядок сам по собі. Назви й короткі описи уроків — **без токенів** (з них беруться `<title>`, og і тексти посилань `{{lesson:id}}`);
+  кожен рядок сам по собі. Назви уроків — **без токенів** (з них беруться `<title>`, og і тексти посилань `{{lesson:id}}`): урок, названий терміном,
+  пише назву вручну як «English (місцеве слово): …» (09.10.2026: `lead-swing-through`, `lead-pull-away`, `lead-maintained`,
+  `lead-ambush-instinctive`, `technique-gun-mount`, `flight-rabbit` у 10 мовах; однакове слово не повторюється — de «Swing-Through: …»), і
+  `term-untokenised` назв не перевіряє. Короткі описи токени мають (стан і відкрите рішення — нижче, «щільність»);
 - блок однієї дисципліни (`disc: sporting | compak`, а також кожна колонка блоку `compare`) згортається для читачів іншої дисципліни («Моя
   дисципліна»): він бачить, що пояснив спільний текст перед ним, але його власні згадки для спільного тексту не рахуються (дочірня `scope`);
 - той самий текст, показаний двічі (HTML сторінки й текст даних), отримує ту саму відповідь (ключ = пункт + номер токена + текст).
@@ -849,22 +994,30 @@ term, text, msg}]}`; uk — `content/academy/lessons/<id>.json`, інші — `c
   токенів.
 Довгі речення (`lint.longSentences()`, лише en і uk): речення може починатися з токена (`{{term:…|Протяжка}}`), тож «{» теж початок речення.
 
-Стан 09.10.2026 після виправлень кроку 2 (дві рецензії: uk/pl/cs/lt і de/fr/it/pt/hu/fi): `--check` — 0 помилок; gloss-dup / untokenised /
+Стан 09.10.2026 (передача): `--check` — 0 помилок; `term-untokenised` — uk 7 (усі в коротких описах, див. «щільність») · de 44 · fr 100 · it 120 ·
+cs 40 · pl 39 · pt 128 · hu 30 · fi 29 · lt 31; `term-grammar` 0 (хибні спрацьовування pl «od … po mistrzostwa» і cs «z baskule» тепер
+виняток у `grammarCheck()`); `term-local-missing` 0; `sim-caption` 0. **Прийнятий залишок:** решта `term-untokenised` — підказки редакторам-носіям
+(звіт `--term-report <тека>` за файлами), а не помилки; частина — хибні збіги (fr «choke» ~ full-choke, it «lunghezza» ~ length-of-pull, виклик
+«One» ~ de «Treffer»). Їх розбирають у наступній хвилі перекладу; до передачі не блокують.
+Попередній стан (після двох рецензій uk/pl/cs/lt і de/fr/it/pt/hu/fi): gloss-dup / untokenised /
 grammar / verb / quiz-giveaway — uk 0/17/0/0/0 · de 0/44/0/0/0 · fr 0/100/0/0/0 · it 0/120/0/0/0 · cs 0/41/1/0/0 · pl 0/42/1/0/0 ·
 pt 0/130/0/0/0 · hu 0/31/0/0/0 · fi 0/30/0/0/0 · lt 0/31/0/0/0 (до виправлень gloss-dup було uk 156 · de 7 · fr 67 · it 37 · cs 116 · pl 54 ·
 pt 29 · hu 92 · fi 106 · lt 144). Решта `term-untokenised` — підказки редакторам (лише впевнені збіги), не помилки; два `term-grammar` — хибні
 спрацьовування (cs «z baskule» = родовий відмінок, pl «od … po mistrzostwa» = знахідний).
 
 **Перевірка.** `bun scripts/build_academy.mjs --check` (0 помилок), тимчасова збірка `bun scripts/build_seo.mjs --out <тека>`, тест уроків у
-headless-браузері (варіанти, пояснення, результат), горизонтальна прокрутка на 375 px, покадрова перевірка безпеки анімацій.
+headless-браузері — `python tools/checks/check_quiz.py` (варіанти, пояснення, результат; `--phone` — 375 px без горизонтальної прокрутки),
+покадрова перевірка безпеки анімацій — `python tools/checks/check_safety.py` (§2).
 У продакшені: той самий помічник у фронтенді й серверних шаблонах (або готове поле `label` з API, як у даних уроку).
 
 ## 5. Легальність (коротко; повністю — ТЗ, блок «Легальність контенту і права»)
 
 - Текст і PDF FITASC не публікуємо; лише власний переказ + посилання `rel="nofollow noopener noreferrer"`.
-- Фото зі сторонніх сайтів (стенди) — у проєкті тимчасово для внутрішнього показу; перед публічним запуском замінити або отримати дозвіл.
-- Фото Wikimedia — з автором і ліцензією в «Photo credits».
-- Реальні люди в прикладах — тільки за згодою; демо-тури `noindex`.
+- Фото й відео — **лише медіа ClayArena** (рішення власника 06.10.2026): `cdn.clayarena.com` і сховище ClayArena, за посиланням; Wikimedia і фото
+  зі сторонніх сайтів не використовуємо; Instagram — звичайним посиланням `nofollow`; немає медіа — нейтральна заглушка.
+- Реальні люди в прикладах — тільки за згодою; демо-тури `noindex`; у профілях — країна й категорія, без назв федерацій.
+- Превʼю (OG + Twitter + картинка 1200×630) має кожна публічна сторінка, **крім `docs/404.html`** (свідомо: noindex, GitHub Pages віддає її за будь-якою
+  відсутньою адресою); заглушки-переадресації несуть OG своєї цілі. Не «виправляти».
 - Статистика відвідувань — анонімна, без cookies і без IP-адрес; дані у власній таблиці власника проєкту; посилання на статистику ніде не публікується (§4h).
 - Маскот Академії — власний оригінальний персонаж ClayArena; ім’я не обране; перед запуском — зворотний пошук зображення і перевірка назви й торговельних марок (§4j).
 
@@ -876,7 +1029,11 @@ headless-браузері (варіанти, пояснення, результ�
 - [ ] Відкрита/закрита зони спілкування на інструментах ClayArena; модерація.
 - [ ] Адмінка організатора і адмінка ClayArena (ТЗ, розділ «Адмінка»).
 - [ ] Багатомовні поля туру; автогенерація OG-картинки; Event/Offer JSON-LD; sitemap.
-- [ ] Перенести довідник правил, тренажер, глосарій на домен ClayArena; canonical на clayarena.com; 301 з github.io.
+- [ ] Перенести довідник правил, тренажер, глосарій на домен ClayArena; canonical на clayarena.com; 301 з github.io (адреса сайту — одна змінна
+      замість місць зі списку §2 «Перенесення на clayarena.com»; 301 — з `learn/data/redirects.json` і `GLOSSARY_STUBS` → `aliases.json`).
+- [ ] Назва сервісу ClayAway — один ключ конфігурації (у макетах вона в текстах свідомо, §2).
+- [ ] Статистика: перед переїздом спорожнити `STATS_ENDPOINT` у `docs/shared/stats.js` (зараз увімкнено, §4h).
+- [ ] CI: `.github/workflows/checks.yml` (перевірки на кожен pull request) — перенести в CI ClayArena; додати справжні тести `progress.js` і переадресатора (§4e).
 - [ ] Академія ClayArena (одна, з маршрутом «Перекладач»): CMS для уроків, блоків, маршрутів і перекладів (статуси §4g), JSON за контрактом
       `content/academy/SCHEMA.md` §8 з API, прогрес, результати тренажера й сертифікати в профілі, серверні сторінки уроків кожною опублікованою мовою (hreflang), 301 з `redirects.json`.
 - [ ] Етап 2 правил: серверний пошук + Claude API (ключ лише на сервері).
@@ -886,3 +1043,19 @@ headless-браузері (варіанти, пояснення, результ�
 - [ ] Аналітика ClayArena замість `docs/shared/stats.js` + `tools/stats/` (ті самі назви подій, без персональних даних).
 - [ ] Маскот (§4j): перенести `docs/shared/mascot.js` як є (або SVG-спрайти з тих самих частин), підключати лише в Академії, глосарії й 404;
       ім’я — після рішення власника і перевірки торговельних марок; бульбашки лишаються англійськими на всіх мовах.
+
+## 7. Відкриті рішення власника (стан 09.10.2026)
+
+Повний список для команди — `HANDOVER.md` (там же фахівці, носії мов і календар перевірок). Коротко, що чекає рішення й де воно перемикається:
+
+| # | Питання | Зараз (типово) | Де міняти |
+|---|---|---|---|
+| 1 | Індексація правил FITASC (довідник, категорії, тренажер, уроки з `index: "fitasc"`, гра «Рішення судді») | `noindex`, поза sitemap і `llms.txt` (рішення 06.10.2026; лише після письмового дозволу FITASC) | `FITASC_INDEX` у `scripts/build_seo.mjs` (§4c) |
+| 2 | Німецька: англійський іменник у середині речення з великої літери? | з малої («ein rabbit (Rollhase)») | `CAP_NOUN_LANGS` у `docs/shared/terms.js` (§4l) |
+| 3 | Одне правило щільності токенів для всіх мов (щоденні слова; токени в коротких описах) | de/fr/it/pt/cs/pl — часто, uk/hu/fi/lt — рідко | оверлеї 9 мов + `UNTOK_SKIP_IDS` у `build_academy.mjs` (§4l) |
+| 4 | Ім’я собаки-маскота | без імені | `mascot.js`, тексти — після перевірки торговельних марок (§4j) |
+| 5 | Українські слова для poking, recovery, blazed-target; підтвердження «чирок» (teal) і 20 нових слів `conf: low` | лише англійською / `conf: low` | `docs/glossary/data/i18n/uk.js` (§4l) |
+| 6 | Джерело для факту `travel.cartridge-box-weight` («близько 1 кг») | оцінка без джерела (попередження `numbers-no-sources`) | `content/academy/facts/travel.json` |
+| 7 | Статистика: чи виконано «go / no-go» (§4h, кроки 1–3) і видалено тестові рядки; коли спорожнити `STATS_ENDPOINT` | увімкнено з 07.10.2026 | `docs/shared/stats.js` (§4h) |
+| 8 | Мова `CLAUDE.md` (інструкції власника, написані російською) перед передачею | як є | перекласти українською / англійською або не передавати разом із репозиторієм |
+| 9 | CI для pull request | `.github/workflows/checks.yml` додано; працює лише на pull request і вручну | вимкнути — видалити файл або Actions у налаштуваннях репозиторію |

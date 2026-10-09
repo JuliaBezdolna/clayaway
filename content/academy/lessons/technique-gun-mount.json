@@ -106,7 +106,7 @@
   ],
   "title": {
     "en": "Gun mount: the gun comes to your face",
-    "uk": "Вкладка: рушниця йде до обличчя"
+    "uk": "Gun mount (вкладка): рушниця йде до обличчя"
   },
   "summary": {
     "en": "How to bring the gun to cheek and shoulder the same way each time, and how the gun position rules differ in {{tm:sporting}} and {{tm:compak}}.",
@@ -502,8 +502,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Overlays, animation caption of 2026-10-07 (rewritten the same day when the lead lab was replaced by the side-view gun-mount scene, sims.js SCENES.mount): body.basics-mount-sim is one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (their old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_mount); the build lists them as the warning sim-caption."
-    ]
+    "tasks": []
   }
 }

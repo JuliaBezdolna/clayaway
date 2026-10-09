@@ -2,7 +2,8 @@
 
 Сервис ClayArena для организованных тренировочных туров: тренер или организатор собирает группу стрелков,
 а стрелок покупает **один пакет**: тренировки на стендах, проживание, трансферы, совместную программу
-и переводчика. Полная концепция и модель данных: [docs/CONCEPT.md](docs/CONCEPT.md).
+и переводчика. Полная концепция и модель данных: ТЗ туров `docs/concept/index.html` (главная версия) и её краткое изложение [CONCEPT.md](CONCEPT.md).
+Передача команде (09.10.2026): [HANDOVER.md](HANDOVER.md) — где что лежит, пересборка, проверки, открытые решения владельца.
 
 ## Названия
 - Сервис: **ClayAway** (выбрано 05.10.2026; папка проекта осталась ClayTour). Слоган: «Clay shooting trips with top coaches».
@@ -34,15 +35,19 @@
 - **Только Parcours de Chasse – Sporting™ и Compak® Sporting** (решение владельца 08.10.2026, повторено трижды): трап, скит, ISSF, олимпийские дисциплины
   и фразы «и другие дисциплины» нигде не упоминаем — ни в уроках, ни в тестах, примерах, глоссарии, ТЗ, данных и адресах источников.
   Слово «trap» допустимо только как машинка по терминологии FITASC (en и другие языки); по-украински — «машинка», «оператор машинки».
-  Единственное исключение — термин глоссария `/glossary/skeet-choke/` (чок Skeet / SK, решение владельца 09.10.2026): только про сам чок, без дисциплины.
+  Единственное исключение — термин глоссария `/glossary/skeet-choke/` (чок Skeet / SK, решение владельца 09.10.2026): только про сам чок, без дисциплины;
+  в уроках это название не используем (сборка разрешает его только в этой записи глоссария, DEVELOPERS.md §4k).
+  Так же нет «English Sporting», «Sporting Clays», CPSA, NSCA, NSSA, HOA и никаких стрелковых федераций, кроме FITASC (с 09.10.2026; слова британских
+  тренеров — true pair, show pair, gun up — можно как «так говорят британские тренеры»).
 - **Термины — по-английски** во всех языковых версиях, местное слово в скобках (решение владельца 08.10.2026): «Swing-through (протяжка)»,
   «Rabbit (заєць)», «Gun mount (вкладка)». Герои анимаций молчат или говорят только по-английски.
 - **Безопасность в рисунках и анимациях**: никого перед стрелковым местом; машинка в укрытии; у всех на месте стрельбы очки и наушники;
-  вне стрелкового места ружьё переломлено и разряжено; рисуем только вертикалки (без полуавтоматов). Проверка — DEVELOPERS.md §4b.
+  вне стрелкового места ружьё переломлено и разряжено; рисуем только вертикалки (без полуавтоматов). Проверка — `python tools/checks/check_safety.py` после любой правки `sims.js` / `mascot.js` (DEVELOPERS.md §2, §4b).
 - Ссылки на сайт и PDF FITASC всегда `rel="nofollow noopener noreferrer"`; PDF и дословный текст FITASC не публикуем (только пересказ + ссылка на страницу).
 - Индексация: страницы **глосария** и **Академии** ClayArena индексируются (свой контент); страницы пересказа правил FITASC (`/rules/`, тренажёр, категории) — `noindex` и вне sitemap и llms.txt до письменного разрешения FITASC (переключатель `FITASC_INDEX` в `scripts/build_seo.mjs`).
   **Решение владельца 06.10.2026: оставить без индексации, решение примут позже.** Не включать без явного решения владельца; во всех описаниях, ТЗ и документах для команды это подчёркивать (причины: построчный пересказ регламента, запрет FITASC на воспроизведение, товарные знаки).
 - **Превью для мессенджеров**: у каждой публичной страницы есть Open Graph + Twitter-разметка и картинка 1200×630 в `docs/og/` (`python scripts/make_og.py`; новую страницу добавить в `PAGES`).
+  Сознательное исключение — `docs/404.html` (noindex, отдаётся по любому отсутствующему адресу); заглушки-переадресации несут превью своей цели.
 - Всё называем **проектом** (не «прототип»): он будет перенесён в ClayArena и доработан программистами.
   Поэтому в коде много комментариев для программистов (что это, откуда данные в продакшене, что делать на сервере),
   а общий путеводитель для них — [DEVELOPERS.md](DEVELOPERS.md).
@@ -72,16 +77,22 @@
   `build_seo.mjs` первым делом вызывает `scripts/build_academy.mjs` (Академия из `content/academy/`); ошибки Академии останавливают всю сборку, ничего не записывается.
   Проверка без записи: `bun scripts/build_academy.mjs --check`; пробная сборка — только во временную папку (`--out <папка>`, с черновиками `--draft`), не в `docs/`.
   `scripts/build_interpreter.py` и `build_interpreter_pages.py` выведены из употребления (без `--legacy` не запускаются) — в пересборку не входят.
+  Перед сборкой `build_seo.mjs` проверяет данные правил (`bun scripts/check_rules_data.mjs`). Проверки перед коммитом: `python tools/checks/check_safety.py`
+  (после любой правки `sims.js` / `mascot.js`), `render_frames.py`, после сборки Академии — `check_quiz.py`; установка и ключи — `tools/checks/README.md`.
+  Версии инструментов (Bun 1.4.2, Python 3.12 + Pillow, шрифты Segoe UI или `OG_FONTS`) и что пишет каждый шаг — DEVELOPERS.md §2.
+  Открытые решения владельца — DEVELOPERS.md §7 и HANDOVER.md.
 - Служебное время в ответах пользователю — Europe/Bratislava.
 
 ## Структура репозитория
-- `docs/CONCEPT.md` — концепция и ТЗ в Markdown.
+- `CONCEPT.md` (корень) — краткое изложение ТЗ туров в Markdown; главная версия — `docs/concept/index.html`. Вне `docs/` (с 09.10.2026), чтобы GitHub Pages не публиковал его.
+  Форматы данных правил — `rules/SCHEMA.md`, `rules/QUIZ_SCHEMA.md` (тоже вне `docs/`).
 - `docs/` — статический сайт для GitHub Pages (Settings → Pages → main /docs):
   `docs/index.html` + `docs/en/index.html` (главная проектов ClayArena, uk/en), `docs/tours/` (стартовая ClayAway), `docs/concept/` (ТЗ),
   `docs/dornsberg/` (пример 1), `docs/sologne/` (пример 2), `docs/404.html` (не найдено: панель, разделы, новый адрес старых адресов).
   Примеры туров — в дизайне ClayArena (тёмная тема, изумрудный акцент), с подписью сервиса **ClayAway**;
   фото и видео подключены по ссылкам с ClayArena (cdn.clayarena.com, хранилище ClayArena), не копируются.
-- `content/academy/` — **единственный источник** «Академии ClayArena» (вне `docs/`, как есть не публикуется): 141 урок-мастер (en + uk; урок о других дисциплинах снят 08.10.2026, адреса ведут на «Як народився Sporting™»),
+- `content/academy/` — **единственный источник** «Академии ClayArena» (вне `docs/`, как есть не публикуется): 140 уроков-мастеров (en + uk; сняты: урок о других дисциплинах 08.10.2026 — адреса ведут на «Як народився Sporting™»; урок «Британські й американські слова
+  проти FITASC» 09.10.2026 — адреса ведут на «Хибні друзі на стрільбищі»),
   оверлеи 9 языков, 13 блоков (`blocks.json`), 7 маршрутов (`routes.json`: Новачок, Перші змагання, Перекладач, Батьки юніора,
   Тренер-початківець, Організатор, Вболівальник і родина), «Практика» (`practice.json`), id-map и `ids.lock`, интерфейс на 11 языках.
   Формат и проверки — `content/academy/SCHEMA.md`. Правки уроков — только здесь; старые исходники прежних академий перенесены в `archive/legacy-docs/` (не публикуются, только для истории).
@@ -89,7 +100,9 @@
   страницы и данные пишет `scripts/build_academy.mjs` (кроме рукописной `docs/learn/index.html`). Путеводитель для программистов — DEVELOPERS.md §4d–4g.
 - `docs/interpreter/` — бывшая Академия переводчика: постоянный переадресатор (noindex) на маршрут «Перекладач»; старые адреса ведут на те же уроки
   на том же языке (`id-map.json`); её старые `src/` и `data/` — в `archive/legacy-docs/`.
-- `archive/` — не публикуется: `legacy-docs/` (замороженные исходники прежних академий), `glossary-sources-removed.json`
-  (источники глоссария, убранные с сайта, потому что их адрес называет другие дисциплины). `design/mascot/` — эскиз маскота.
+- `archive/` — не публикуется (`archive/README.md`): `legacy-docs/` (замороженные исходники прежних академий), `glossary-sources-removed.json`
+  (источники глоссария, убранные с сайта, потому что их адрес называет другие дисциплины). `content/glossary/sources/<lang>.json` — откуда взято
+  местное слово глоссария (`src`, `note`; с 09.10.2026 вне `docs/`). `design/mascot/` — эскиз маскота (исторический; правила — DEVELOPERS.md §4j).
+- `tools/checks/` — проверки проекта (безопасность анимаций, кадры, тест уроков; README uk + en); `.github/workflows/checks.yml` — те же проверки на pull request.
 - Локальный просмотр: `python -m http.server 8791 --bind 127.0.0.1 --directory docs`.
-- Own analytics (anonymous, no cookies, no IP, no third-party services): collector + private dashboard in `tools/stats/` (Google Apps Script, outside `docs/`), endpoint `STATS_ENDPOINT` in `docs/shared/stats.js` (empty = off); the dashboard URL is never published anywhere.
+- Own analytics (anonymous, no cookies, no IP, no third-party services): collector + private dashboard in `tools/stats/` (Google Apps Script, outside `docs/`), endpoint `STATS_ENDPOINT` in `docs/shared/stats.js` (empty = off; live since 07.10.2026 with the owner's collector — empty it before the move to clayarena.com, DEVELOPERS.md §4h); the dashboard URL is never published anywhere.

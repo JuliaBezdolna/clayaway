@@ -25,7 +25,14 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -40,7 +47,8 @@
     "interpreter-false-friends-p2": "Wertungswörter sind nicht wörtlich gemeint. „Dead“ und „kill“ bedeuten Treffer, ohne jeden Bezug zum Tod. „Lost“ bedeutet Fehlschuss, nicht etwas Verlorenes. „Dropped two“ bedeutet, zwei Scheiben wurden verfehlt. „Straight“ in „25 straight“ bedeutet eine fehlerfreie Serie ohne jeden Fehlschuss.",
     "interpreter-false-friends-p3": "Wörter für Ausrüstung und Ort. Ein „{{term:trap|trap}}“ ist keine Falle. Ein „stand“ ist ein einzelner Schießplatz, der {{term:shooting-stand|Standplatz}}, nicht die ganze Anlage; bei {{tm:compak}} heißen die Plätze oft Schießstellen. Ein „{{term:peg|Peg}}“ ist die Schießposition. Der Name kommt vom nummerierten Pfahl, der bei einer Treibjagd den Platz jedes Schützen markiert, übersetzen Sie es also nicht als Pfahl. Eine „broken gun“ ist eine offene Flinte. „Pull!“ ist der {{term:call|Abruf}}, „{{term:pull-away|Pull-Away}}“ ist eine Vorhaltmethode, und „{{term:length-of-pull|length of pull}}“ wird vom {{term:trigger|Abzug}} bis zur {{term:recoil-pad|Schaftkappe}} gemessen.",
     "interpreter-false-friends-cards": "Eine „card“ ist eine {{term:score-sheet|Ergebniskarte}}, aber auch eine Gelbe oder {{term:red-card|Rote Karte}}. „On report“ bedeutet auf den Knall des Schusses, wie bei einer {{term:double-on-report|Doublette auf Schuss}}. Eine „{{term:squad|squad}}“ ist die Wettkampfgruppe von {{fact:rules.squad-max-shooters}}. ClayAway-Touren, die bald starten, werden das Wort auch für eine Untergruppe einer Tour verwenden.",
-    "interpreter-false-friends-p4": "Andere Sprachen haben ihre eigenen Fallen. Das französische „chandelle“ ist eine Scheibe, die fast senkrecht aufsteigt, auf Englisch ein {{term:teal|Teal}}. Es ist nicht die englische {{term:chandelle|Chandelle}}, eine Scheibe, die in einem steilen Bogen aufsteigt und dann fällt. Französisch „en battue“ und italienisch „in battuta“ bedeuten getriebenes Wild (engl. „driven“), nicht die Scheibe namens {{term:battue|Battue}}. Im Portugiesischen ist „batida“ die Battue-Scheibe, während „de batida“ getrieben bedeutet. Für einen Treffer sagt ein französischer Schiedsrichter „Bon“ und ein italienischer „Buono“, und der {{term:trapper|Puller}} heißt oft „pulleur“ oder „puller“. Auch die Wörter für die Rotte sind unterschiedlich, verwenden Sie also das Wort aus dem jeweiligen Regelwerk der Veranstaltung."
+    "interpreter-false-friends-p4": "Andere Sprachen haben ihre eigenen Fallen. Das französische „chandelle“ ist eine Scheibe, die fast senkrecht aufsteigt, auf Englisch ein {{term:teal|Teal}}. Es ist nicht die englische {{term:chandelle|Chandelle}}, eine Scheibe, die in einem steilen Bogen aufsteigt und dann fällt. Französisch „en battue“ und italienisch „in battuta“ bedeuten getriebenes Wild (engl. „driven“), nicht die Scheibe namens {{term:battue|Battue}}. Im Portugiesischen ist „batida“ die Battue-Scheibe, während „de batida“ getrieben bedeutet. Für einen Treffer sagt ein französischer Schiedsrichter „Bon“ und ein italienischer „Buono“, und der {{term:trapper|Puller}} heißt oft „pulleur“ oder „puller“. Auch die Wörter für die Rotte sind unterschiedlich, verwenden Sie also das Wort aus dem jeweiligen Regelwerk der Veranstaltung.",
+    "interpreter-false-friends-pairs": "{{term:double|Doubletten|pl}} haben unterschiedliche Namen. Ein „{{term:true-pair|true pair}}“ (britisch und amerikanisch) ist eine {{term:simultaneous-double|Simultandoublette}} nach FITASC: beide Scheiben starten im selben Moment. Ein „report pair“ ist eine {{term:double-on-report|Doublette auf Schuss}}: Die zweite Scheibe wird durch den Knall Ihres ersten Schusses ausgelöst. Ein „following pair“ ist eine {{term:rafale-double|Rafale}} nach FITASC: zwei Scheiben aus derselben {{term:trap|Wurfmaschine}}, eine direkt nach der anderen. Ein „show pair“ ist das {{term:target-presentation|Vorwerfen}} eines Paares vor dem Schießen. Ein „{{term:peg|peg}}“ ist der {{term:shooting-stand|Standplatz}}, „station“ ist das amerikanische Wort für einen Stand, und ein „{{term:cage|cage}}“ ist der Rahmen darum."
   },
   "note": {},
   "phrases": {
@@ -67,6 +75,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "Die zweite Scheibe wird durch den Knall Ihres ersten Schusses ausgelöst.",
       "say": "Die zweite kommt auf Schuss."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Trainingsübung: mit der Flinte in der Schulter beginnen. Im FITASC-{{tm:sporting}}-Wettkampf nicht erlaubt.",
+      "say": "Diese erst einmal mit Voranschlag."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Beide Scheiben starten gleichzeitig (FITASC: Simultandoublette).",
+      "say": "Das ist eine Simultandoublette."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Zwei Scheiben aus derselben Maschine nacheinander (FITASC: Rafale).",
+      "say": "Rafale aus der linken Maschine."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Die Doublette einmal werfen, damit alle sie vor dem Schießen sehen können.",
+      "say": "Lassen Sie uns die Doublette einmal ansehen."
     }
   },
   "key_points": {
@@ -75,7 +99,8 @@
     "interpreter-false-friends-kp3": "Trap = Maschine; stand = eine einzelne Position; peg = die Stelle; broken gun = offene Flinte",
     "interpreter-false-friends-kp4": "Pull, card, report und squad haben jeweils mehrere Bedeutungen",
     "interpreter-false-friends-kp5": "Französisch chandelle und „en battue“ unterscheiden sich von den englischen Wörtern",
-    "interpreter-false-friends-kp6": "„Dusted it“ kann beides bedeuten: fragen Sie nach"
+    "interpreter-false-friends-kp6": "„Dusted it“ kann beides bedeuten: fragen Sie nach",
+    "interpreter-false-friends-kp7": "True pair = simultan; report pair = auf Schuss; following pair = Rafale"
   },
   "quiz": {
     "interpreter-false-friends-q1": {
@@ -107,6 +132,16 @@
         "d": "Eine Scheibe, die zu Staub zerfällt"
       },
       "explain": "Französisch „en battue“ (italienisch „in battuta“) bedeutet getriebenes Wild; die Battue-Scheibe ist etwas anderes."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Ein britischer Trainer sagt „It's a true pair.“ Wie lautet der FITASC-Begriff?",
+      "options": {
+        "a": "Eine Doublette auf Schuss",
+        "b": "Eine Rafaledoublette",
+        "c": "Eine Simultandoublette",
+        "d": "Eine korrekte Doublette"
+      },
+      "explain": "„True pair“ ist der britische und amerikanische Name für zwei gemeinsam ausgelöste Scheiben, eine {{term:simultaneous-double|Simultandoublette}} nach FITASC."
     }
   }
 }

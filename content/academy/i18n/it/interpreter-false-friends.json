@@ -25,7 +25,14 @@
     "interpreter-false-friends-ph6": "17d1f7d8",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -40,7 +47,8 @@
     "interpreter-false-friends-p2": "Le parole del punteggio non sono letterali. «Dead» e «kill» indicano un piattello colpito, senza alcun legame con la morte. «Lost» indica un errore, non qualcosa che si è perso. «Dropped two» significa due piattelli mancati. «Straight» in «25 straight» indica una serie perfetta, senza errori.",
     "interpreter-false-friends-p3": "Parole su attrezzatura e luoghi. Un «{{term:trap|trap}}» è la macchina lanciapiattelli, non una trappola. Uno «stand» è una singola postazione di tiro, la {{term:shooting-stand|pedana}}, non tutto il campo; nel {{tm:compak}} le postazioni si chiamano spesso stations. Un «{{term:peg|peg}}» è il punto di tiro: il nome viene dal piolo numerato che segna il posto di ogni tiratore in una battuta di caccia, quindi non traducetelo come «piolo». Un «broken gun» è un fucile aperto. «Pull!» è la {{term:call|chiamata}}, «{{term:pull-away|pull-away}}» è un metodo di {{term:lead|anticipo}} e «{{term:length-of-pull|length of pull}}» è la lunghezza del calcio, dal {{term:trigger|grilletto}} al tallone.",
     "interpreter-false-friends-cards": "Una «card» è uno {{term:score-sheet|statino}}, oppure uno {{term:yellow-card|cartellino giallo}} o un {{term:red-card|cartellino rosso}}. «On report» significa al rumore dello sparo, come nel {{term:double-on-report|doppio allo sparo}}. Una «{{term:squad|squad}}» è il gruppo di gara di {{fact:rules.squad-max-shooters}}. Anche i tour ClayAway, che arriveranno presto, useranno questa parola per un sottogruppo del tour.",
-    "interpreter-false-friends-p4": "Le altre lingue hanno le loro trappole. Il francese «chandelle» è un piattello che sale quasi verticale, che in inglese si chiama {{term:teal|teal}}. Non è la {{term:chandelle|chandelle}} inglese, un piattello che sale in una curva ripida e poi scende. Il francese «en battue» e l'italiano «in battuta» indicano la selvaggina spinta (in inglese «driven»), non il piattello {{term:battue|battue}}. In portoghese «batida» è il piattello battue, mentre «de batida» significa spinta. Per un colpo un arbitro francese dice «Bon», uno italiano «Buono», e il {{term:trapper|puller}} è spesso chiamato «pulleur» o «puller». Anche le parole per la squad cambiano, quindi usa quella del regolamento della gara."
+    "interpreter-false-friends-p4": "Le altre lingue hanno le loro trappole. Il francese «chandelle» è un piattello che sale quasi verticale, che in inglese si chiama {{term:teal|teal}}. Non è la {{term:chandelle|chandelle}} inglese, un piattello che sale in una curva ripida e poi scende. Il francese «en battue» e l'italiano «in battuta» indicano la selvaggina spinta (in inglese «driven»), non il piattello {{term:battue|battue}}. In portoghese «batida» è il piattello battue, mentre «de batida» significa spinta. Per un colpo un arbitro francese dice «Bon», uno italiano «Buono», e il {{term:trapper|puller}} è spesso chiamato «pulleur» o «puller». Anche le parole per la squad cambiano, quindi usa quella del regolamento della gara.",
+    "interpreter-false-friends-pairs": "I {{term:double|doppi}} hanno nomi diversi. Un «{{term:true-pair|true pair}}» (britannico e americano) è un {{term:simultaneous-double|doppio simultaneo}} FITASC: entrambi i piattelli partono nello stesso istante. Un «report pair» è un {{term:double-on-report|doppio allo sparo}}: il suono del tuo primo colpo lancia il secondo piattello. Un «following pair» è un {{term:rafale-double|doppio a raffica}} FITASC: due piattelli dalla stessa {{term:trap|macchina}}, uno dopo l'altro. Uno «show pair» è la {{term:target-presentation|presentazione}} del doppio prima di tirare. Un «{{term:peg|peg}}» è la {{term:shooting-stand|pedana}}, «station» è la parola americana per la pedana, e una «{{term:cage|gabbia}}» è il telaio che la racchiude."
   },
   "note": {},
   "phrases": {
@@ -67,6 +75,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "Il secondo piattello parte al rumore del tuo primo colpo.",
       "say": "Il secondo è allo sparo."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Esercizio di allenamento: parti con il fucile già in spalla. Non ammesso in una gara FITASC {{tm:sporting}}.",
+      "say": "Per ora su questo imbraccia prima."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Entrambi i piattelli partono nello stesso momento (FITASC: doppio simultaneo).",
+      "say": "È un doppio simultaneo."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Due piattelli dalla stessa macchina uno dopo l'altro (FITASC: doppio a raffica).",
+      "say": "Raffica dalla macchina di sinistra."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Lancia il doppio una volta perché tutti possano guardarlo prima di tirare.",
+      "say": "Vediamo il doppio in presentazione."
     }
   },
   "key_points": {
@@ -75,7 +99,8 @@
     "interpreter-false-friends-kp3": "Trap = macchina; stand = una singola postazione; peg = il punto; broken gun = fucile aperto",
     "interpreter-false-friends-kp4": "Pull, card, report e squad hanno ciascuno più di un significato",
     "interpreter-false-friends-kp5": "La chandelle francese e «en battue» sono diverse dalle parole inglesi",
-    "interpreter-false-friends-kp6": "«Dusted it» può voler dire l'una o l'altra cosa: chiedi"
+    "interpreter-false-friends-kp6": "«Dusted it» può voler dire l'una o l'altra cosa: chiedi",
+    "interpreter-false-friends-kp7": "True pair = simultaneo; report pair = allo sparo; following pair = a raffica"
   },
   "quiz": {
     "interpreter-false-friends-q1": {
@@ -107,6 +132,16 @@
         "d": "Un piattello rotto"
       },
       "explain": "Il francese «en battue» (l'italiano «in battuta») indica la selvaggina spinta; il piattello battuta è un'altra cosa."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Un istruttore britannico dice «It's a true pair». Qual è il termine FITASC?",
+      "options": {
+        "a": "Un doppio allo sparo",
+        "b": "Un doppio a raffica",
+        "c": "Un doppio simultaneo",
+        "d": "Un doppio regolare"
+      },
+      "explain": "«True pair» è il nome inglese e americano per due piattelli lanciati insieme, un doppio simultaneo FITASC."
     }
   }
 }

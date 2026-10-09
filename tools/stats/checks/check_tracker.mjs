@@ -2,9 +2,12 @@
    Run from the repo root: bun tools/stats/checks/check_tracker.mjs  (or node). Exit code 1 on any failure. */
 import { readFileSync } from "node:fs";
 import vm from "node:vm";
-const SRC = readFileSync(new URL("../../../docs/shared/stats.js", import.meta.url), "utf8");
+const SRC0 = readFileSync(new URL("../../../docs/shared/stats.js", import.meta.url), "utf8");
 const EP = "https://script.google.com/macros/s/TEST/exec";
 const MARK = 'const STATS_ENDPOINT = "";';
+// docs/shared/stats.js carries the live collector address since 07.10.2026. The checks always start from the OFF state (empty endpoint)
+// and put the TEST address in themselves, so they never depend on, and never call, the real collector (handover check 09.10.2026).
+const SRC = SRC0.replace(/const STATS_ENDPOINT = "[^"]*";/, MARK);
 if (!SRC.includes(MARK)) { console.log("FAIL: STATS_ENDPOINT constant not found"); process.exit(1); }
 let fails = 0, passes = 0;
 const ok = (c, msg) => { if (c) passes++; else { fails++; console.log("FAIL:", msg); } };

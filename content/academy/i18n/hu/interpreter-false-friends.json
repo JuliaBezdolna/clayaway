@@ -25,7 +25,14 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -40,7 +47,8 @@
     "interpreter-false-friends-p2": "A pontozási szavak nem szó szerint értendők. A „dead” és a „kill” találatot jelent, és semmi köze a halálhoz. A „lost” hibát jelent, nem valami elveszettet. A „dropped two” azt jelenti, hogy két korongot elhibázott. A „straight” a „25 straight” kifejezésben egy hibátlan sorozatot jelent, nem „egyenest”.",
     "interpreter-false-friends-p3": "Felszerelés- és helyszavak. A „{{term:trap|trap}}” a dobógépet jelenti, nem csapdát. A „stand” egyetlen lövőhelyet jelent, a {{term:shooting-stand|lőállást}}, nem az egész lőteret; {{tm:compak}} esetében a helyeket gyakran számoknak hívják. A „{{term:peg|peg}}” a lövőhelyet jelenti. A név a számozott cövektől ered, amely egy hajtóvadászaton minden lövő helyét jelöli, ezért ne fordítsa „cövek”-nek. A „broken gun” egy nyitott fegyvert jelent. A „Pull!” a {{term:call|korong kérése}}, a „{{term:pull-away|pull-away}}” egy elétartási módszer, és a „{{term:length-of-pull|length of pull}}” a tus hossza, a ravasztól a tusalap lemezig.",
     "interpreter-false-friends-cards": "A „card” lehet {{term:score-sheet|eredménykártya}}, vagy egy sárga vagy {{term:red-card|piros lap}}. Az „on report” a lövés hangjára utal, mint a {{term:double-on-report|vadászdublénál}}. A „{{term:squad|squad}}” a versenyben {{fact:rules.squad-max-shooters}} csoportot jelenti. A hamarosan induló ClayAway túrák is ezt a szót fogják használni egy túra alcsoportjára.",
-    "interpreter-false-friends-p4": "Más nyelveknek is megvannak a saját csapdáik. A francia „chandelle” egy majdnem egyenesen felfelé pattanó korongot jelent, amelyet angolul {{term:teal|teal}}nek hívnak. Ez nem azonos az angol {{term:chandelle|chandelle}}-lel, amely egy ívben meredeken emelkedő, majd leeső korong. A francia „en battue” és az olasz „in battuta” hajtásos vadászatot jelent (angolul „driven”), nem a {{term:battue|battue}} korongot. Portugálul a „batida” a battue korong, míg a „de batida” a hajtásost jelenti. Egy találatra a francia bíró „Bon”-t, az olasz „Buono”-t mond, és a {{term:trapper|pullert}} gyakran „pulleur”-nek vagy „puller”-nek hívják. A rotte szava is eltér, ezért az adott verseny saját szabálykönyvének szavát használja."
+    "interpreter-false-friends-p4": "Más nyelveknek is megvannak a saját csapdáik. A francia „chandelle” egy majdnem egyenesen felfelé pattanó korongot jelent, amelyet angolul {{term:teal|teal}}nek hívnak. Ez nem azonos az angol {{term:chandelle|chandelle}}-lel, amely egy ívben meredeken emelkedő, majd leeső korong. A francia „en battue” és az olasz „in battuta” hajtásos vadászatot jelent (angolul „driven”), nem a {{term:battue|battue}} korongot. Portugálul a „batida” a battue korong, míg a „de batida” a hajtásost jelenti. Egy találatra a francia bíró „Bon”-t, az olasz „Buono”-t mond, és a {{term:trapper|pullert}} gyakran „pulleur”-nek vagy „puller”-nek hívják. A rotte szava is eltér, ezért az adott verseny saját szabálykönyvének szavát használja.",
+    "interpreter-false-friends-pairs": "A {{term:double|dubléknek|pl}} különböző nevei vannak. A „{{term:true-pair|true pair}}” (brit és amerikai) egy FITASC {{term:simultaneous-double|szimultán dublé}}: mindkét korong egyszerre indul. A „report pair” egy {{term:double-on-report|vadászdublé}}: a második korong az első lövés hangjára indul el. A „following pair” egy FITASC {{term:rafale-double|rafale}}: két korong ugyanabból a {{term:trap|dobógépből}}, egymás után. A „show pair” egy dublé {{term:target-presentation|bemutatása}} a lövés előtt. A „{{term:peg|peg}}” a {{term:shooting-stand|lőállás}}, a „station” az amerikai szó a lőállásra, a „{{term:cage|cage}}” pedig a körülötte lévő keret."
   },
   "note": {},
   "phrases": {
@@ -67,6 +75,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "A második korong az első lövés hangjára indul el.",
       "say": "A második a lövés hangjára jön."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Edzésgyakorlat: kezdjen vállba vett fegyverrel. {{tm:sporting}} FITASC versenyen nem megengedett.",
+      "say": "Ezt most kezdje már vállba vett fegyverrel."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Mindkét korong egyszerre indul (FITASC: szimultán dublé).",
+      "say": "Ez egy szimultán dublé."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Két korong ugyanabból a dobógépből, egymás után (FITASC: rafale).",
+      "say": "Rafale a bal dobógépből."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Dobja ki a dublét egyszer, hogy mindenki megnézhesse lövés előtt.",
+      "say": "Mutassa meg, kérem, a dublét."
     }
   },
   "key_points": {
@@ -75,7 +99,8 @@
     "interpreter-false-friends-kp3": "Trap = dobógép; stand = egyetlen lőhely; peg = a lövőhely; broken gun = nyitott fegyver",
     "interpreter-false-friends-kp4": "A pull, a card, a report és a squad mindegyikének több jelentése van",
     "interpreter-false-friends-kp5": "A francia chandelle és az „en battue” eltér az angol szavaktól",
-    "interpreter-false-friends-kp6": "A „dusted it” jelenthet mindkettőt: kérdezzen rá"
+    "interpreter-false-friends-kp6": "A „dusted it” jelenthet mindkettőt: kérdezzen rá",
+    "interpreter-false-friends-kp7": "True pair = szimultán; report pair = vadászdublé; following pair = rafale"
   },
   "quiz": {
     "interpreter-false-friends-q1": {
@@ -107,6 +132,16 @@
         "d": "Egy porrá törő korongra"
       },
       "explain": "A francia „en battue” (olasz „in battuta”) hajtásos vadászatot jelent; a battue korong más dolog."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Egy brit edző azt mondja: „It's a true pair.” Mi a FITASC-kifejezés?",
+      "options": {
+        "a": "Vadászdublé",
+        "b": "Rafale dublé",
+        "c": "Szimultán dublé",
+        "d": "Helyes dublé"
+      },
+      "explain": "A „true pair” a brit és az amerikai neve a két együtt indított korongnak, azaz a FITASC szimultán dublénak."
     }
   }
 }

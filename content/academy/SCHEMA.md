@@ -13,7 +13,10 @@ stubs, sitemaps and the Open Graph list.
 - From now on the old sources are **frozen** until the switch-over release. Edit only `content/academy/`.
 - Do not run the migration again: it refuses when `lessons/` exists, and `--force` would overwrite every edit made here.
 - English is the master language and has priority; Ukrainian is written together with it in the same master file.
-  The 9 other ClayArena languages are overlays that follow later.
+  The 9 other ClayArena languages are overlays.
+- **State on 09.10.2026:** the Academy is published in all 11 languages (140 lesson pages each, home, topics, routes and Practice in
+  every language), with 0 interface strings falling back to English (`ui_fallback` empty) and every animation caption translated.
+  The rules below still apply to every new lesson, key and language wave.
 
 ## 1. Folder layout
 
@@ -22,11 +25,12 @@ content/academy/
   SCHEMA.md                 this file
   blocks.json               13 blocks (topics): the ONLY place where a lesson's block, section and order are set
   routes.json               7 routes (readers): stages, extras ("Хочете глибше"), practice, certificate
-  id-map.json               old ids → new places (redirect groups A–G, routers, progress transfer, 301 list)
+  id-map.json               old ids → new places (redirect groups A–H, routers, progress transfer, 301 list)
   ids.lock                  every id ever published (append only)
   levels.json badges.json practice.json   XP and levels, badges, Practice games registry
   migration.json            what the one-time migration did (counts, warnings)
-  lessons/<id>.json         141 masters: structure + en + uk (142 published; history-olympics-and-world retired 08.10.2026, §2a)
+  lessons/<id>.json         140 masters: structure + en + uk (142 published; retired, §2a: history-olympics-and-world 08.10.2026,
+                            interpreter-english-sporting-vs-fitasc 09.10.2026)
   i18n/<lang>/<id>.json     overlays for de fr it cs pl pt hu fi lt: texts by key + hash of the English source
   i18n/<lang>/_facts.json   translations of the facts (same ids as the tokens; created with the first translated fact)
   i18n/<lang>/_shared.json  titles of blocks, sections, routes, stages, games, levels and badges in that language (§5a)
@@ -60,8 +64,10 @@ content/academy/
 
 ### 2a. Retiring a lesson (taking it off the site)
 
-Used once so far: `history-olympics-and-world`, 08.10.2026 (owner decision: the whole site is about Parcours de Chasse – Sporting™ and
-Compak® Sporting only; no other disciplines anywhere, §9). A retired lesson is not "moved": its text goes, its URL keeps working.
+Used twice so far (owner decision: the whole site is about Parcours de Chasse – Sporting™ and Compak® Sporting only; no other
+disciplines and no other federation anywhere, §9): `history-olympics-and-world` (08.10.2026 → `history-birth-of-sporting`) and
+`interpreter-english-sporting-vs-fitasc` (09.10.2026 → `interpreter-false-friends`: its FITASC-only paragraph on pair names, four
+coach phrases, a key point and an exam question moved there with their translations, under new keys). A retired lesson is not "moved": its text goes, its URL keeps working.
 1. **ids.lock is not touched** (append only): the id stays in `academy` (and in `learn`, if it was an old Academy id).
 2. **id-map.json `learn`:** add `"<id>": {"to": "<nearest lesson>", "retired": "<date>"}` (no `anchor`), and note it in `groups.H`.
    The build sees an id of `ids.lock` "academy" without a master and writes redirect stubs (**group H**) `/<p>learn/<id>/` →
@@ -136,7 +142,7 @@ published; set on everything that came from the Interpreter Academy, which alrea
 | `law` | country law table: `country` (ISO 3166 code in capitals, for example `DE`, `ES`, `CZ`) and `part` (`lead` \| `travel` \| `states`); the data, with its date (`as_of`) and sources, is `laws/<country>.json` |
 | `fact` | card from `facts.json`: `fact: "<id>"` |
 | `evidence` | evidence badge: `level` + `for` |
-| `sim` | animation: `sim: {type, preset, …}` (the `docs/shared/sims.js` registry: `flight`, `lead`, `pair`, `call` = stand scenes `signal`, `signal-late`, `manual`, `sonopull`, `gun-ready`, `gun-early`, `misfire`, `mount` — the side-view gun mount: muzzles first, then the stock to the cheek, “cheek on the comb”); `ready: false` is never published (all migrated animations start false until findings S-01…S-05, S-09 are checked). `en`/`uk` = one line of what to watch, shown under it; the 9 overlay languages show the generic caption `anim_w_<kind>` until `body[<key>]` is translated from the current English (warning `sim-caption`). The first shown animation is placed right after the first paragraph (on a phone, ≤ 560 px, the app puts it just before it, after the summary) |
+| `sim` | animation: `sim: {type, preset, …}` (the `docs/shared/sims.js` registry: `flight`, `lead`, `pair`, `call` = stand scenes `signal`, `signal-late`, `manual`, `sonopull`, `gun-ready`, `gun-early`, `misfire`, `mount` — the side-view gun mount: muzzles first, then the stock to the cheek, “cheek on the comb”); `ready: false` is never published (history: the migrated animations started `false` until findings S-01…S-05, S-09 were checked; since 10.2026 every lesson animation is `ready`). `en`/`uk` = one line of what to watch, shown under it; the 9 overlay languages show the generic caption `anim_w_<kind>` until `body[<key>]` is translated from the current English (warning `sim-caption`). The first shown animation is placed right after the first paragraph (on a phone, ≤ 560 px, the app puts it just before it, after the summary) |
 | `figure` | ClayArena media only, with author and licence |
 | `h` | section heading inside a lesson (`en`/`uk`), shown as `<h2>` on the page and in the app; its `id` is `anchor` when set (give `anchor: "<old id>"` where a merged lesson starts, so old links `#<old id>` land on it), else its key `k` (`#<k>` links to the section). The app still shows types it does not know as a paragraph |
 | `draft` | migration only: text of a merged lesson. `from` = old id; `role` = `title`\|`summary`\|`p`\|`did_you_know`\|`sim`\|`law`; the title block has `anchor: "<old id>"`. **A lesson with any `draft` block or any item with `draft: true` is not published.** The editor keeps the facts, deletes repeats and changes `t` to a real type. |
@@ -201,7 +207,7 @@ The interpreter route contains every lesson with Interpreter Academy text, so ol
 
 **`id-map.json`** — `learn` (merged Academy ids → `{to, anchor}`), `interpreter` (all 63 → `{to}` or `{to, anchor}`),
 `modules` and `missions` (old hash links → `topics/<block>#<section>` or `routes/<route>`), `games` (old game ids → `practice/<game>`),
-`pages`, and `groups` (A–G, 737 stubs). Used for redirect stubs, `redirects.json` (real 301 on clayarena.com), the JS routers of
+`pages`, and `groups` (A–H with counts; on 09.10.2026: A 32, B 242, C 451, D 11, E 1 router, H 22 — 759 in all). Used for redirect stubs, `redirects.json` (real 301 on clayarena.com), the JS routers of
 `/learn/` and `/interpreter/`, the progress transfer and the glossary's "Де вивчити" links. Never redirect to another language.
 
 **`levels.json`, `badges.json`, `practice.json`** — XP rules and levels (no FITASC category words, no "squad"); 55 badges;
@@ -213,15 +219,15 @@ topic prefix (`gunshot-peak-db`, `sporting-jacket-line-25cm`). Every number is c
 
 **`ui/<lang>.json`** — `{lang, strings: {key: text}}` for all 11 languages: the old Academy table (`academy_name`, `footer`, …),
 the headings and column names of the law tables (`law_*`, from the old `law-tables.js`, now in `archive/legacy-docs/learn/data/`, uk/en),
-the Interpreter Academy `ui.json` with its 9 translations, and the new Academy keys (en + uk only for now; the other languages
-fall back to en with a build warning until the translation waves).
+the Interpreter Academy `ui.json` with its 9 translations, and the new Academy keys. New keys are written in en + uk first; a
+language without them falls back to en with a build warning (`ui-fallback`) until its translation (state on 09.10.2026: none missing).
 
 ## 8. CATALOG contract (what the build emits for the app)
 
 Design §7.1: every page is static and complete (text, "Головне", terms, sources and the quiz in `<details>` work without JavaScript);
 `academy.js` only adds progress, quiz, XP, animations, voice and the route context. So the app gets **one light catalog per language**
-plus its interface strings (both read on every page, fetched together; the catalog is about 26 KB gzipped for uk, 135 KB raw, the
-strings about 25 KB raw and cached by the browser), the data of one lesson **on demand**, and the phrase index only on the two phrase
+plus its interface strings (both read on every page, fetched together; for uk in 10.2026 the catalog is about 26 KB gzipped and about 145 KB raw, the
+strings about 33 KB raw, cached by the browser), the data of one lesson **on demand**, and the phrase index only on the two phrase
 games. Nothing is built twice.
 
 **a) `docs/learn/data/<lang>/catalog.json`** — blocks, routes and lesson *cards*, no lesson text, no interface strings:
@@ -347,7 +353,14 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   than FITASC is named** either (owner, again on 08.10.2026): not ISSF, not its old name UIT — e.g. anti-doping says “the WADA list
   prohibits beta-blockers in shooting; it does not name Sporting™ or Compak® Sporting separately, so treat them as prohibited there”
   (WADA stays as the source; sources of other federations are removed whole, a source title is never altered). Chokes are named by constriction (cylinder, 1/8, improved
-  cylinder, …), never after another discipline. The English word **trap** (and *trapper*) is the FITASC word for the **throwing machine** and
+  cylinder, …), never after another discipline — **one exception** (owner decision 09.10.2026): the glossary term `skeet-choke`
+  (/glossary/skeet-choke/) about the choke that makers mark “Skeet” / “SK” (the choke only, never the discipline); lessons do not use
+  that name. The build allows the choke name only in that glossary entry (`CHOKE_NAME` / `noChokeName` in `scripts/build_academy.mjs`).
+  **Other versions of the sport and their bodies** (09.10.2026): no “English Sporting”, “Sporting Clays”, CPSA, NSCA, NSSA or their
+  “HOA” anywhere; the words British coaches use (true pair, show pair, fur and feather, gun up, peg) may appear as “what British
+  coaches say”, never with the name of an organisation or its rules. National federations are not named either (tour mock-ups, law
+  tables, sources); the provenance of glossary words that cites a national translation of the FITASC rules lives outside `docs/`
+  (`content/glossary/sources/<lang>.json`). The English word **trap** (and *trapper*) is the FITASC word for the **throwing machine** and
   its operator (“trap A”, the trapper) and is used only in that meaning; in Ukrainian no word may begin with the Cyrillic spelling of that word (not even the verbs meaning “to happen”; write «буває», «стається»): the machine is
   «машинка», the person «оператор машинки» (also in the glossary `term_local`/`alt`). Checked by the build: error `other-discipline` (§10).
 - **Languages:** only en uk de fr it cs pl pt hu fi lt. No other language code anywhere, no Spanish text. Never use the language of
@@ -379,12 +392,18 @@ How the app (`docs/learn/app/academy.js`, DEVELOPERS.md §4e) reads the parts th
   the term options show their own text of the language like the others (a lone label with brackets would give the answer away). Labels get
   brackets only when every label of the question has a local word to show (“Battue · Midi · Rabbit (заєць)” → all English only). Do not add
   a hand-written gloss to one option only (“One (влучання)” among plain options).
-  Titles and summaries carry no term tokens (they feed `<title>`, og and `{{lesson:id}}` links). Articles: the page prints the English first,
+  Titles carry no term tokens (they feed `<title>`, og and `{{lesson:id}}` links): a lesson named after a term writes its title by
+  hand as “<English> (<local word>): …” in the 10 other languages (uk «Swing-through (протяжка): з-позаду, крізь мішень»; a local
+  word equal to the English is not repeated: de «Swing-Through: …»), and the build does not run `term-untokenised` on titles.
+  Summaries DO render tokens (the meta description shows “swing-through (протяжка)”); de/fr/it/pt/cs/pl use them often, uk/hu/fi/lt
+  rarely — one rule for all languages is an open owner decision (DEVELOPERS.md §7). Articles: the page prints the English first,
   so an article that depends on the next sound agrees with the English word (hu “az organiser (rendező)”); fr treats an English word as
   masculine (“le muzzle (bouche du canon) … il pointe”) unless a feminine analogy is obvious (“une trajectory (trajectoire)”). The article or
   preposition before `{{tm:…}}` is set by the build (it “lo Sporting™ / il Parcours…”, cs “ve / v”, pl “ze / z”). DEVELOPERS.md §4l.
 - **Wording:** plain and cautious (no proven / best / ideal / never outside safety rules): "many coaches suggest", "you can try".
-  A professional term plus a short plain explanation. Ukrainian terms: вкладка (gun mount), заєць (rabbit, owner decision 07.10.2026), дуплет, точка пострілу, точка підхоплення,
+  A professional term plus a short plain explanation. Ukrainian terms: вкладка (gun mount), заєць (rabbit, owner decision 07.10.2026), сигнальний дуплет (double on report: the official
+  Ukrainian translation of the FITASC Compak® Sporting rules, §3.3.1, owner decision 09.10.2026; «дуплет на постріл» as an alternative),
+  дуплет, точка пострілу, точка підхоплення,
   точка утримання (hold point), провідне око (master eye), передпостріловий ритуал, стрілецьке місце (у Compak® — номер),
   імітація стрільби (mock shooting), Європейський вогнепальний паспорт, підгонка рушниці, наважка (load weight, as in the official
   rules translation), шушотаж (chuchotage). Ukrainian apostrophe: ’ (U+2019) everywhere (the build writes it so in every uk output).
@@ -416,7 +435,9 @@ h1, og or description (`trademark`); hreflang to a missing version (`hreflang-de
 `anchor` of the target (`dead-anchor`); `travel-clayaway-tour` must be `index: "preview"` (`clayaway-index`); media only from
 ClayArena with author and licence (`figure-media`); the name of another clay discipline (`other-discipline`, §9: skeet, olymp… / olimp… / олімп…,
 down-the-line, double trap, Doppeltrap, universal trench, trench, ball-trap, fosse/fossa olimpica/universale, Lithuanian
-"skitas", DTL and ABT in capitals, Ukrainian words starting with «трап» and «скіт»/«скит»; also ISSF / ІССФ / ИССФ and UIT in capitals) in the visible text of masters (en, uk),
+"skitas", DTL and ABT in capitals, Ukrainian words starting with «трап» and «скіт»/«скит»; also ISSF / ІССФ / ИССФ and UIT in capitals;
+since 09.10.2026 “English Sporting”, “Sporting Clays” and CPSA, NSCA, NSSA, HOA in capitals; the one exception is the choke name in the
+glossary entry `skeet-choke`, §9) in the visible text of masters (en, uk),
 the 9 overlays, facts and their translations, `_shared.json`, `ui/*.json`, blocks/routes/practice/levels/badges and every glossary
 entry (`glossary.js`, `learn_terms.js`, `i18n/<lang>.js`, `i18n/ui-<lang>.json`); ids, token ids, URLs, `src`, `sources` and
 aliases are not checked. The plain English "trap"/"trapper" (the machine and its operator) is allowed. Patterns:
@@ -427,7 +448,8 @@ files_with_findings, skipped_everyday, files: {<file to edit>: [{type, lesson, i
 `term-gloss-dup` — a token followed by a hand-written bracket that repeats its English name (`{{term:recoil|Віддача}} (recoil)`,
 `(набій; cartridge, shell)`) or the English written right before a token in brackets (`cylinder ({{term:cylinder|циліндр}})`): the page
 prints the English itself, delete the hand-written part; `term-untokenised` — confident hits only: a glossary word of a term (`term_local` /
-`alt`, at least 5 letters) in a lesson text of that language while the lesson has no token of that term in that language — a phrase with word
+`alt`, at least 5 letters) in a lesson text of that language (not in the title, which carries no tokens) while the lesson has no
+token of that term in that language — a phrase with word
 endings, a single word only as the glossary writes it or in a form the lessons already write inside a token of that term; everyday terms
 (`UNTOK_SKIP_IDS`: target, shotgun, coach, referee, safety, …) are only counted (`skipped_everyday`) unless the lesson lists the term in its
 chips; homonyms of a language (`UNTOK_SKIP_WORDS`: uk «приклад» = example, fr “à l'avance”) never count; `term-grammar` (heuristic, check by

@@ -1,12 +1,15 @@
 # ClayArena rules guide: data format
 
+> This file lives in `rules/` (outside `docs/`, so GitHub Pages does not publish it) since 09.10.2026; the data it describes is
+> `docs/rules/data/<key>.js`. Checks: `bun scripts/check_rules_data.mjs` (DEVELOPERS.md §2 and §4).
+
 One file per rulebook: `docs/rules/data/<key>.js` (plain JavaScript, UTF-8):
 
 ```js
 window.RULES = window.RULES || [];
 window.RULES.push({
   key: "sporting",                       // sporting | compak
-  title_en: "Sporting (Parcours de Chasse)", title_uk: "Sporting (Parcours de Chasse)",
+  title_en: "Parcours de Chasse – Sporting™", title_uk: "Parcours de Chasse – Sporting™", // with the FITASC mark, as in the data
   source: {
     publisher: "FITASC",
     doc_title: "International Rules Parcours de Chasse - Sporting",
@@ -42,8 +45,10 @@ Rules:
 - COPYRIGHT: the FITASC rulebooks are FITASC property and may not be reproduced. Never copy paragraphs and never follow
   the rulebook sentence by sentence. Write your own explanation: practical meaning first, keep the numbers, change the
   order and the wording. A direct quote is allowed only if it is very short (under 15 words), essential, and in quotation marks.
-  Check: no run of 10 or more words identical to the rulebook text (n-gram check against the local PDF text in rules/pdf/,
-  EN and FR; see the developer notes). Lists of facts (target types, table letters) are fine.
+  Check: no run of 10 or more words identical to the rulebook text — `bun scripts/check_rules_data.mjs` (also run first by
+  `scripts/build_seo.mjs`, which stops on it) compares summary_en, points_en, title_en, the FAQ and the trainer texts with the
+  local text of the ENGLISH rulebooks and quick guides in rules/pdf/*.txt (not in git; a fresh clone gets it with
+  `python scripts/fitasc_check.py --fetch`, which needs pdftotext). Lists of facts (target types, table letters) are fine.
 - Keep every number, limit, distance, time and penalty exactly as in the rulebook. Do not invent anything; if the text is
   ambiguous or silent, say so in the summary ("the rulebook does not say ...").
 - Cover the whole rulebook: every chapter must have items. Prefer more, smaller items (one rule per item).
@@ -51,9 +56,10 @@ Rules:
 - Languages: only ClayArena languages (en, uk, de, fr, it, cs, pl, pt, hu, fi, lt). The rules guide itself is uk + en.
   The restricted country is never named and its flag is never shown; athletes from it appear only as AIN / Neutral.
 - Ukrainian: correct literary Ukrainian, no surzhyk, apostrophe ’ (U+2019). Sport terms stay in English (Sporting,
-  report pair, no bird, referee, layout, squad…), explained in Ukrainian. Fixed Ukrainian terms (same as the glossary and
+  double on report — glossary headword "Double on report", no bird, referee, layout, squad…), explained in Ukrainian. Fixed Ukrainian terms (same as the glossary and
   both Academies): дуплет (double; not «дублет», «дубль»), вкладка / вкладати рушницю (gun mount; not «вскидання»,
-  «вкидка»), заєць (rabbit, owner decision 07.10.2026), перестрілка (shoot-off), squad (the squad of up to 6; «група» only for the Compak in-line group), дріб (shot).
+  «вкидка»), заєць (rabbit, owner decision 07.10.2026), сигнальний дуплет (double on report: the official Ukrainian translation of the FITASC
+  Compak® Sporting rules, §3.3.1, owner decision 09.10.2026; «дуплет на постріл» as an alternative), перестрілка (shoot-off), squad (the squad of up to 6; «група» only for the Compak in-line group), дріб (shot).
 - Plain and cautious wording: no "always works / guaranteed / best / ideal" claims; a professional term plus a short plain explanation.
 - page = the PDF page number. In the provided .txt the pages are separated by the form-feed character (\f): page N = the N-th chunk.
 - The app answers questions by searching keywords, titles, summaries and the FAQ, so write keywords and FAQ generously, in English and Ukrainian.

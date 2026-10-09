@@ -1,4 +1,4 @@
-/* ClayArena glossary — pl: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
+/* ClayArena glossary — pl: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/pl.json, not published); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.pl = {
  "lang": "pl",
@@ -23,9 +23,7 @@ window.GLOSSARY_I18N.pl = {
     "bock",
     "nadlufka"
    ],
-   "note": "«Bok/bock» (from German) dominates; «nadlufka» is the formal Polish word.",
    "conf": "high",
-   "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Strzelba z dwiema lufami jedna nad drugą; najczęstszy typ w Sporting™ i Compak® Sporting.",
    "long": "Bok ma dwie lufy jedna nad drugą, łamany zamek i zwykle jeden spust z selektorem luf. Wąska płaszczyzna celownicza wzdłuż szyny, dobre wyważenie i niezawodność sprawiły, że stał się standardem w Sporting™ i Compak® Sporting. Obie lufy mogą mieć różne czoki, więc pierwszy i drugi strzał pasują do różnych odległości. Otwarty bok od razu pokazuje wszystkim, że jest bezpieczny, co na stanowisku jest wygodne. To najczęstszy wybór pierwszej broni dla początkującego."
   },
@@ -44,7 +42,6 @@ window.GLOSSARY_I18N.pl = {
     "strzelba półautomatyczna",
     "samopowtarzalna"
    ],
-   "note": "Legal term is «samopowtarzalna».",
    "conf": "medium",
    "short": "Strzelba samopowtarzalna, dozwolona w obu dyscyplinach przy szczególnych zasadach obchodzenia się z nią.",
    "long": "Półautomaty są dozwolone, ale można je ładować najwyżej dwoma nabojami. Przenosi się je i przechowuje z otwartym zamkiem i wylotem lufy skierowanym pionowo w górę lub w dół. Ich użytkownicy muszą po zejściu ze stanowiska zebrać wyrzucone łuski i wrzucić je do pojemnika. W Compaku półautomat musi też mieć urządzenie, które nie pozwala wyrzucanym łuskom przeszkadzać sąsiedniemu zawodnikowi. Przy spuście zwalnianym rozładowanie po No Bird oznacza włączenie bezpiecznika i dwukrotne odciągnięcie rączki zamka.",
@@ -59,7 +56,7 @@ window.GLOSSARY_I18N.pl = {
    ],
    "conf": "medium",
    "short": "Strzelba przeładowywana przesuwaniem czółenka w tył i w przód; zakazana przez przepisy FITASC.",
-   "long": "W pompce zawodnik po każdym strzale wyrzuca łuskę i wprowadza nowy nabój, przesuwając czółenko do tyłu i do przodu. Takie strzelby są popularne na polowaniach i w niektórych innych sportach strzeleckich, ale przepisy FITASC dla Sporting™ i Compak® Sporting wyraźnie ich zabraniają. Dozwolone są boki, dubeltówki i półautomaty w kalibrze 12 lub mniejszym. Jeśli planujesz startować w zawodach, nie kupuj pompki jako pierwszej broni. Zasady na niektórych zawodach klubowych mogą się różnić, więc sprawdź komunikat."
+   "long": "W pompce zawodnik po każdym strzale wyrzuca łuskę i wprowadza nowy nabój, przesuwając czółenko do tyłu i do przodu. Takie strzelby są popularne na polowaniach, ale przepisy FITASC dla Sporting™ i Compak® Sporting wyraźnie ich zabraniają. Dozwolone są boki, dubeltówki i półautomaty w kalibrze 12 lub mniejszym. Jeśli planujesz startować w zawodach, nie kupuj pompki jako pierwszej broni. Zasady na niektórych zawodach klubowych mogą się różnić, więc sprawdź komunikat."
   },
   "gauge": {
    "term_local": "kaliber",
@@ -80,9 +77,7 @@ window.GLOSSARY_I18N.pl = {
   },
   "barrel-length": {
    "term_local": "długość lufy",
-   "note": "Shops give cm or inches (76 cm, 30 in).",
    "conf": "high",
-   "src": "https://www.gunszop.pl/strzelba-bock-browning-b525-sporter-1-kal-1276-76-cm-p-4761.html",
    "short": "Długość luf; FITASC wymaga co najmniej 66 cm (26 cali), typowa broń zawodnicza ma 28, 30 lub 32 cale.",
    "long": "Przepisy FITASC dla Sporting™ i Compak® Sporting wymagają luf o długości co najmniej 66 cm (26 cali). Strzelby sportowe mają najczęściej lufy 28, 30 lub 32 cale (około 71, 76 i 81 cm). Dłuższe lufy prowadzi się płynniej i lepiej trzymają linię; krótsze są szybsze i lżejsze. Dorosłemu początkującemu często proponuje się 30 cali, a młodemu lub drobniejszemu zawodnikowi krótsze lufy. Ostateczny wybór zrób z trenerem, bo liczy się też ogólne wyważenie broni."
   },
@@ -93,7 +88,6 @@ window.GLOSSARY_I18N.pl = {
     "szyna"
    ],
    "conf": "high",
-   "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Pasek celowniczy wzdłuż górnej części luf, zwykle wentylowany, z muszką na końcu.",
    "long": "Szyna celownicza to metalowy pasek wzdłuż górnej lufy. Szyna wentylowana ma otwory, żeby gorące powietrze nad lufami mniej zniekształcało obraz. Na końcu szyny jest muszka, czasem także muszka środkowa. W strzelaniu do rzutków nie celuje się wzdłuż szyny jak z karabinu: patrzysz na rzutek, a szynę widzisz kątem oka. To, ile szyny widzisz przy złożonej broni, zależy od wysokości grzbietu kolby i jest ważną częścią dopasowania."
   },
@@ -115,7 +109,6 @@ window.GLOSSARY_I18N.pl = {
   "receiver": {
    "term_local": "baskila",
    "conf": "high",
-   "src": "https://www.omnisarma.pl/47_107_Co_to_jest_baskila_i_czy_strzelba_ma_komore_zamkowa",
    "short": "Metalowy blok broni z mechanizmem spustowym, dźwignią zamka i bezpiecznikiem.",
    "long": "Baskila łączy lufy, kolbę i czółenko. W środku jest mechanizm spustowy, a na górze dźwignia zamka, która otwiera broń łamaną, oraz bezpiecznik, często połączony z selektorem luf. Pod spodem jest spust w kabłąku. Na baskili zwykle jest numer seryjny i znaki próby potrzebne do dokumentów i podróży. Nie rozbieraj baskili samodzielnie: serwis mechanizmu to praca rusznikarza."
   },
@@ -125,7 +118,6 @@ window.GLOSSARY_I18N.pl = {
     "osada (stock set)"
    ],
    "conf": "high",
-   "src": "https://www.omnisarma.pl/188_051:_Jak_wybrac_/_dopasowac_strzelbe",
    "short": "Część broni, która opiera się o ramię i podpiera policzek.",
    "long": "Kolba jest zwykle drewniana, czasem z tworzywa. Jej górna krawędź to grzbiet kolby, na którym leży policzek, a na tylnym końcu jest stopka, która opiera się o bark. Wymiary kolby (długość, wysokość grzbietu, odchylenie) decydują, gdzie znajduje się oko względem szyny i czy broń strzela tam, gdzie patrzysz. Kolba jest więc głównym przedmiotem dopasowania. Według przepisów FITASC broń ze spustem zwalnianym (release) musi mieć na zewnętrznej stronie kolby naklejkę z dużą literą „R”."
   },
@@ -134,9 +126,7 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "baka"
    ],
-   "note": "«Baka» strictly = cheek piece, but used loosely for the comb.",
    "conf": "medium",
-   "src": "https://www.omnisarma.pl/188_051:_Jak_wybrac_/_dopasowac_strzelbe",
    "short": "Górna krawędź kolby, na której opiera się policzek; jej wysokość decyduje, gdzie oko znajduje się nad szyną.",
    "long": "Grzbiet kolby działa jak tylny przyrząd celowniczy broni: oko jest tam, gdzie ustawi je policzek. Zbyt wysoki grzbiet sprawia, że broń strzela wysoko, zbyt niski — że strzela nisko, a zawodnik widzi mniej szyny. Wiele strzelb sportowych ma regulowany grzbiet, który można podnieść, opuścić lub przesunąć w bok. W Sporting™ zasada pozycji gotowości odnosi się do najwyższej części kolby: przed wywołaniem jej tylny koniec musi pozostać poniżej linii na kamizelce, dopóki rzutek się nie pojawi. Grzbiet ustawiaj razem z trenerem lub specjalistą od dopasowania broni."
   },
@@ -146,7 +136,6 @@ window.GLOSSARY_I18N.pl = {
     "baka regulowana"
    ],
    "conf": "high",
-   "src": "https://gunmonkey.pl/pl/p/Strzelba-Bock-ATA-SP-SPORTER-kal.-1276-czarna-baskila%2C-reg.-baka-l.-76cm.-wym.czoki/6022",
    "short": "Grzbiet kolby, który można podnieść, obniżyć albo przesunąć w bok, tak by oko patrzyło dokładnie wzdłuż szyny."
   },
   "fore-end": {
@@ -154,7 +143,6 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "łoże (przednie)"
    ],
-   "note": "In rifles «łoże» is the whole stock; for shotguns «czółenko».",
    "conf": "medium",
    "short": "Część pod lufami, którą trzyma przednia ręka; utrzymuje też lufy na baskili.",
    "long": "Czółenko to drewniana lub plastikowa część pod lufami. Trzyma je przednia ręka i prowadzi nią broń za rzutkiem, więc jego kształt wpływa na chwyt. W broni łamanej czółenko łączy też lufy z baskilą: aby rozłożyć broń do transportu, najpierw zdejmuje się czółenko. Przy czyszczeniu przetrzyj metal pod czółenkiem, gdzie zbiera się wilgoć. Niektórzy zawodnicy noszą rękawiczki, żeby chronić dłoń przed gorącymi lufami."
@@ -166,7 +154,6 @@ window.GLOSSARY_I18N.pl = {
     "chwyt"
    ],
    "conf": "medium",
-   "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Część kolby trzymana ręką na spuście."
   },
   "trigger": {
@@ -183,7 +170,6 @@ window.GLOSSARY_I18N.pl = {
     "release",
     "spust na puszczenie"
    ],
-   "note": "Rare; the anglicism «release» is likely used.",
    "conf": "low",
    "short": "Spust, który oddaje strzał po puszczeniu, a nie po naciśnięciu.",
    "long": "Broń ze spustem zwalnianym musi mieć po zewnętrznej stronie kolby naklejkę ostrzegawczą z dużą literą „R” na fluorescencyjnym tle. Jeśli prawo kraju gospodarza zakazuje spustów zwalnianych na zawodach międzynarodowych, trzeba to podać w programie. Jeśli No Bird lub coś innego przerwie strzał, zawodnik trzyma spust wciśnięty i albo woła nowy rzutek, albo otwiera broń, nadal go trzymając (półautomat: bezpiecznik włączony i dwukrotne odciągnięcie rączki zamka), albo mówi sędziemu i strzela w bezpiecznym kierunku wskazanym przez sędziego. Jeśli No Bird dotyczy drugiego rzutka po pierwszym strzale w systemie „puść, potem naciśnij”, broń po prostu się otwiera."
@@ -193,9 +179,7 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "zabezpieczenie"
    ],
-   "note": "Polish (PZSS) rules use «zabezpieczenie».",
    "conf": "high",
-   "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Suwak na broni, który blokuje spust."
   },
   "barrel-selector": {
@@ -204,7 +188,6 @@ window.GLOSSARY_I18N.pl = {
     "przełącznik luf"
    ],
    "conf": "medium",
-   "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Przełącznik, często połączony z bezpiecznikiem, który wybiera, z której lufy pada pierwszy strzał.",
    "long": "Większość boków ma jeden spust i selektor, który ustala kolejność strzałów: najpierw dolna lufa, potem górna, albo odwrotnie. Najczęściej selektor jest na przycisku bezpiecznika za dźwignią zamka, ale w niektórych modelach na samym spuście. Kolejność dobiera się do czoków: zwykle najpierw strzela lufa z bardziej otwartym czokiem, do bliższego rzutka. Sprawdzaj selektor przed każdym stanowiskiem: przypadkowo przestawiony selektor to częsta przyczyna nieoczekiwanego pudła."
   },
@@ -215,7 +198,6 @@ window.GLOSSARY_I18N.pl = {
     "wyrzutnik"
    ],
    "conf": "high",
-   "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Mechanizm, który przy otwarciu broni wyrzuca wystrzelone łuski.",
    "long": "Gdy broń łamaną z ejektorami otworzy się po strzale, wystrzelone łuski same wylatują. Niewystrzelone naboje są tylko lekko wysuwane, żeby można je było wyjąć ręką. Prostsze strzelby mają tylko wyciąg, który wysuwa wszystkie łuski, nie wyrzucając ich. Puste łuski zbierz i wrzuć do pojemników na strzelnicy. Otwierając broń, trzymaj dłoń nad komorami, żeby łuski nie leciały na sąsiadów."
   },
@@ -225,7 +207,6 @@ window.GLOSSARY_I18N.pl = {
     "stopka gumowa"
    ],
    "conf": "high",
-   "src": "https://www.omnisarma.pl/188_051:_Jak_wybrac_/_dopasowac_strzelbe",
    "short": "Gumowa lub żelowa stopka na końcu kolby, która łagodzi odrzut; zmienia też długość kolby."
   },
   "choke": {
@@ -234,7 +215,6 @@ window.GLOSSARY_I18N.pl = {
     "zwężenie wylotowe"
    ],
    "conf": "high",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Wymienne zwężenie u wylotu lufy, które kształtuje rozrzut śrutu.",
    "long": "W Sporting™ wymienny czok, podobnie jak broń lub lufę, można w trakcie serii zmienić między stanowiskami albo między rzutkami pojedynczymi a dubletami, jeśli nie powoduje to opóźnienia; gdy zawodnik jest już na stanowisku, zmiana jest niedozwolona. W Compaku zmiana broni, czoków lub luf w tej samej rundzie jest zabroniona i dozwolona tylko między rundami, z wyjątkiem awarii.",
    "disciplines": {
@@ -256,7 +236,6 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "multichoke"
    ],
-   "note": "PZSS rules: «wymiennych czoków».",
    "conf": "high",
    "short": "System gwintowanych czoków wkręcanych w wylot lufy.",
    "long": "W strzelbie z czokami wymiennymi wylot każdej lufy ma gwint, a w zestawie jest kilka czoków o różnym zwężeniu. Jedna broń nadaje się więc i na bliskie, i na dalekie rzutki. Systemy różnych producentów mają różne gwinty i długości, więc czoki jednej marki zwykle nie pasują do innej. Nigdy nie strzelaj z pustym gwintem bez wkręconego czoka: może to uszkodzić lufę. Zasady wymiany się różnią: w Sporting™ czok można zmienić między stanowiskami albo między rzutkami pojedynczymi a dubletami, jeśli nie powoduje to opóźnienia, a w Compak® Sporting tylko między seriami.",
@@ -288,7 +267,6 @@ window.GLOSSARY_I18N.pl = {
     "Cyl"
    ],
    "conf": "high",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Lufa lub czok bez zwężenia; daje najszerszy rozrzut.",
    "long": "Walec oznacza zerowe zwężenie: przewód przy wylocie jest taki sam jak w lufie. Chmura śrutu rozchodzi się najszybciej, więc rozrzut jest szeroki z bliska, a dalej robi się rzadki. Wybiera się go na bardzo bliskie rzutki, na przykład niektóre rabbity albo rzutki wyskakujące blisko zawodnika. Na czokach Beretty oznacza się go pięcioma gwiazdkami. Na większość rzutków w Sporting™ i Compak® Sporting zawodnicy wybierają nieco ciaśniejsze czoki."
   },
@@ -299,7 +277,6 @@ window.GLOSSARY_I18N.pl = {
     "wiercenie skeet"
    ],
    "conf": "medium",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Bardzo słabe zwężenie, około 0,1–0,15 mm (4–6 thou), do najbliższych rzutków.",
    "long": "Czok skeetowy (oznaczenie SK) jest tylko nieco ciaśniejszy od walca: zwężenie około 0,1–0,15 mm (4–6 thou), w europejskim zwyczaju czasem oznaczane jako 1/8. Rozrzut z bliska jest szeroki i wybacza drobne błędy. W Sporting™ i Compak® Sporting używa się go na bliskie rzutki, rabbity i rzutki wyskakujące blisko. Dokładne wartości zależą od producenta."
   },
@@ -310,7 +287,6 @@ window.GLOSSARY_I18N.pl = {
     "1/4"
    ],
    "conf": "medium",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Słabe zwężenie, około 0,25 mm (10 thou); w Europie „1/4”, cztery gwiazdki.",
    "long": "Ćwierćczok (IC, improved cylinder) to jeden z najbardziej uniwersalnych czoków do strzelań do rzutków. Zwężenie około 0,25 mm (ok. 10 thou) daje szeroki rozrzut, gęstszy jednak niż walec. Używa się go na bliskie i średnie rzutki; wielu zawodników Sporting™ i Compak® Sporting ma IC w dolnej lufie jako ustawienie podstawowe. W Europie nazywa się go 1/4, a na czokach Beretty oznacza czterema gwiazdkami. Wartości w milimetrach zależą od producenta."
   },
@@ -321,7 +297,6 @@ window.GLOSSARY_I18N.pl = {
     "1/2"
    ],
    "conf": "medium",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Średnie zwężenie, około 0,5 mm (20 thou); „1/2”, trzy gwiazdki.",
    "long": "Półczok (M, modified) to czok średni. Zwężenie około 0,5 mm (ok. 20 thou) utrzymuje gęsty rozrzut na średnich i dość dalekich rzutkach. W Europie nazywa się go 1/2, a na czokach Beretty oznacza trzema gwiazdkami. Wielu zawodników wkręca M do górnej lufy na drugi, dłuższy strzał. Przy śrucie stalowym producenci często radzą nie stosować nic ciaśniejszego niż półczok; kieruj się instrukcją swojej broni i czoków."
   },
@@ -332,7 +307,6 @@ window.GLOSSARY_I18N.pl = {
     "3/4"
    ],
    "conf": "medium",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Mocne zwężenie, około 0,65–0,75 mm (25–30 thou); „3/4”, dwie gwiazdki.",
    "long": "Czok 3/4 (IM, improved modified) daje gęsty rozrzut na dalekie rzutki. Jego zwężenie to około 0,65–0,75 mm (25–30 thou); w Europie nazywa się go 3/4, a Beretta oznacza go dwiema gwiazdkami. Na bliskich rzutkach rozrzut jest wąski i nie wybacza błędów, dlatego IM wybiera się świadomie na konkretną długą trajektorię. Przy śrucie stalowym wielu producentów odradza ciasne czoki, takie jak IM, chyba że czok jest specjalnie oznaczony do stali. Dokładne wartości zależą od producenta."
   },
@@ -343,7 +317,6 @@ window.GLOSSARY_I18N.pl = {
     "czok"
    ],
    "conf": "high",
-   "src": "https://pl.wikipedia.org/wiki/Czok",
    "short": "Pełny czok, około 0,9–1 mm (35–40 thou); „1/1”, jedna gwiazdka.",
    "long": "Pełny czok jest najciaśniejszym z typowych czoków do rzutków. Zwężenie około 0,9–1 mm (35–40 thou) utrzymuje zwartą chmurę śrutu na dużej odległości. W Europie oznacza się go 1/1, a na czokach Beretty jedną gwiazdką. W Sporting™ i Compak® Sporting pełny czok jest rzadko potrzebny: tylko na bardzo dalekie rzutki, a na bliskich daje zbyt wąski rozrzut. Istnieją jeszcze ciaśniejsze czoki (extra full), ale w strzelaniu do rzutków prawie nigdy nie są potrzebne. Przy śrucie stalowym pełnego czoka zwykle nie używa się bez zgody producenta."
   },
@@ -354,9 +327,7 @@ window.GLOSSARY_I18N.pl = {
     "wiązka śrutu",
     "pokrycie"
    ],
-   "note": "«Skupienie/pokrycie» = density; usage overlaps.",
    "conf": "medium",
-   "src": "https://luska.pl/blog/kolejna-bron-specjalizacja-cz-7-nadlufka-zwana-bokiem",
    "short": "Ślad, jaki chmura śrutu zostawia na celu lub tarczy; liczą się jego szerokość i równomierność.",
    "long": "Po wylocie z lufy śruciny rozchodzą się w chmurę, która z odległością robi się szersza i dłuższa. Rozrzut to obraz, jaki ta chmura zostawia na płaskiej powierzchni: jak jest szeroki i czy ma luki, przez które rzutek mógłby się prześlizgnąć. Szerokość rozrzutu wyznacza głównie czok: im bardziej otwarty czok, tym szerszy rozrzut na danej odległości. Rolę grają też nabój, numer i rodzaj śrutu. Tradycyjnie gęstość rozrzutu ocenia się jako odsetek śrucin w kole o ustalonej wielkości na stałej odległości, ale metody różnią się w zależności od kraju i producenta."
   },
@@ -426,7 +397,6 @@ window.GLOSSARY_I18N.pl = {
     "24 g",
     "28 g"
    ],
-   "note": "PZSS rules: «masa ładunku śrutu».",
    "conf": "medium",
    "short": "Masa śrutu w naboju; FITASC dopuszcza do 28 g ołowiu, z tolerancją +2%.",
    "long": "Naważka śrutu jest podana na pudełku w gramach, a w Wielkiej Brytanii i USA często w uncjach (1 oz to około 28 g). Przepisy FITASC dla Sporting™ i Compak® Sporting ograniczają naważkę do 28 g śrutu ołowianego z tolerancją +2%. Najczęstsze naważki do rzutków to 24 i 28 g; 21–24 g są popularne na treningach, u juniorów i początkujących. Cięższa naważka daje więcej śrucin w chmurze, ale też mocniej kopie, co przy 100–200 strzałach dziennie męczy. Sędzia może sprawdzić naboje zawodnika; w Compak® Sporting strzały oddane niezgodnymi nabojami przed kontrolą liczą się jako zero."
@@ -461,14 +431,12 @@ window.GLOSSARY_I18N.pl = {
     "dopasowanie broni"
    ],
    "conf": "medium",
-   "src": "https://www.omnisarma.pl/188_051:_Jak_wybrac_/_dopasowac_strzelbe",
    "short": "Dopasowanie broni do zawodnika (długość kolby, wysokość grzbietu, odchylenie), żeby strzelała tam, gdzie patrzy oko.",
    "long": "W strzelaniu do rzutków oko działa jak przyrząd celowniczy, więc broń musi się składać tak, by oko za każdym razem było w tym samym miejscu nad szyną. Dopasowanie obejmuje długość kolby, wysokość grzbietu, odchylenie i inne wymiary. Dobrze dopasowana strzelba strzela celniej, mniej bije w bark i policzek i pozwala skupić się na rzutku. Dopasowanie sprawdza się na tarczy do sprawdzania rozrzutu i podczas strzelania z trenerem lub specjalistą. Dzieci rosną, więc dopasowanie młodych zawodników regularnie się weryfikuje."
   },
   "length-of-pull": {
    "term_local": "długość kolby",
    "conf": "high",
-   "src": "https://www.omnisarma.pl/188_051:_Jak_wybrac_/_dopasowac_strzelbe",
    "short": "Odległość od spustu do środka stopki kolby.",
    "long": "Długość kolby mierzy się od spustu do środka stopki. Jeśli kolba jest za długa, przy złożeniu zaczepia o ubranie, a broń wydaje się ciężka z przodu; jeśli za krótka, kciuk ręki na spuście może uderzać w nos, a odrzut wydaje się silniejszy. Zmienia się ją inną stopką, przekładkami albo skróceniem kolby. Dzieci i nastolatki potrzebują krótszej kolby niż dorośli, sprawdzanej w miarę wzrostu. Dokładny wymiar ustala trener lub specjalista od dopasowania broni."
   },
@@ -478,9 +446,7 @@ window.GLOSSARY_I18N.pl = {
     "odchylenie od pionu",
     "cast"
    ],
-   "note": "No single settled term.",
    "conf": "medium",
-   "src": "https://www.omnisarma.pl/188_051:_Jak_wybrac_/_dopasowac_strzelbe",
    "short": "Boczne odchylenie kolby: cast off (w prawo) dla praworęcznych, cast on (w lewo) dla leworęcznych.",
    "long": "Odchylenie kolby to lekkie wygięcie lub przesunięcie kolby w bok, tak by oko dominujące było dokładnie nad szyną, gdy policzek leży na grzbiecie. Dla praworęcznego kolba jest odchylona w prawo (cast off), dla leworęcznego w lewo (cast on). Zwykle to tylko kilka milimetrów i może się różnić przy piętce i przy noskach stopki. Kolby regulowane pozwalają zmienić je bez rzemieślnika. Potrzebne odchylenie zależy od kształtu twarzy i dominacji oka, więc ustala się je podczas dopasowania."
   },
@@ -558,7 +524,6 @@ window.GLOSSARY_I18N.pl = {
     "pokrowiec na broń"
    ],
    "conf": "high",
-   "src": "https://www.pzlow.pl/wp-content/uploads/2023/04/Prawidla-strzeleckie.pdf",
    "short": "Miękki pokrowiec do przenoszenia broni między samochodem a strzelnicą.",
    "long": "Pokrowiec jest zwykle z tkaniny lub skóry z miękką wyściółką, a broń mieści się w nim złożona. Chroni przed zarysowaniami, deszczem i kurzem i pozwala porządnie przenieść broń na stanowisko. Na strzelnicy broń nosi się otwartą i rozładowaną, a z pokrowca wyjmuje tylko w bezpiecznym miejscu, wylotem w górę albo w dół. Do samolotu miękki pokrowiec zwykle się nie nadaje: linie lotnicze wymagają sztywnego, zamykanego futerału. Zasady przewożenia broni samochodem określa lokalne prawo."
   },
@@ -568,7 +533,6 @@ window.GLOSSARY_I18N.pl = {
     "walizka na broń",
     "etui na broń"
    ],
-   "note": "PZSS rules: «zamknięte etui na broń».",
    "conf": "high",
    "short": "Sztywny, zamykany futerał do przewożenia rozłożonej broni, zwłaszcza samolotem.",
    "long": "Futerał jest z aluminium, tworzywa ABS lub drewna i ma wyściełane przegrody na lufy, baskilę z kolbą, czółenko i czoki. Broń podróżuje w nim rozłożona, a futerał zamyka się na klucz lub szyfr. Do samolotu większość linii lotniczych wymaga właśnie takiego futerału, a zasady dotyczące zamków i tego, kto ma klucze, różnią się w zależności od kraju. Nawet we własnym samochodzie futerał chroni broń i pomaga spełnić lokalne przepisy transportu. Nie pakuj nabojów razem z bronią, jeśli linia lotnicza wymaga ich osobnego zapakowania."
@@ -595,7 +559,6 @@ window.GLOSSARY_I18N.pl = {
     "standard"
    ],
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Zwykły, wypukły rzutek o średnicy około 108–110 mm, najczęściej używany.",
    "long": "Rzutek standardowy to wypukły krążek o średnicy około 108–110 mm. Jego lot stosunkowo łatwo odczytać, dlatego początkujący zwykle od niego zaczynają; midi o średnicy 90 mm lepiej utrzymuje prędkość. W Sporting™ i Compak® Sporting standard łączy się z rzutkami specjalnymi, takimi jak midi, mini, battue i rabbit; lista Compak® Sporting wymienia też rocket. W Sporting™ rzutek innego koloru, rozmiaru lub typu niż w menu to NO BIRD; w Compak® Sporting NO BIRD to rzutek w złym kolorze."
   },
@@ -605,7 +568,6 @@ window.GLOSSARY_I18N.pl = {
     "rzutek midi"
    ],
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Rzutek mniejszy od standardowego, o średnicy 90 mm.",
    "long": "Midi to rzutek specjalny dozwolony w obu dyscyplinach. W Sporting™ menu przed stanowiskiem musi oznaczać go jako rzutek 90 mm, żeby zawodnik wiedział, co poleci. Niewłaściwy rozmiar z wyrzutni to No Bird."
   },
@@ -616,9 +578,7 @@ window.GLOSSARY_I18N.pl = {
     "trzmiel",
     "super mini"
    ],
-   "note": "Nickname «trzmiel» reported by a target maker.",
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Najmniejsze rzutki specjalne, zwykle o średnicy 60 mm; producenci różnie używają nazw „mini” i „super mini”, więc kieruj się milimetrami w menu.",
    "long": "Przepisy Sporting™ wymieniają „super mini” wśród dozwolonych rzutków, ale nie podają średnicy, a menu każdego stanowiska musi podawać rozmiary specjalne, na przykład 90, 70 i 60 mm. Przepisy Compak® Sporting dopuszczają każdy rzutek standardowy lub specjalny, także 60 mm. W codziennym użyciu mini ma zwykle 60 mm, ale niektóre menu podają też rzutki 70 mm, a producenci nie używają tych nazw jednakowo. Małe rzutki wydają się szybkie i dalekie. Sprawdzaj rozmiar w milimetrach w menu rzutków i uważnie oglądaj pokaz."
   },
@@ -628,7 +588,6 @@ window.GLOSSARY_I18N.pl = {
     "rzutek battue"
    ],
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Cienki, płaski rzutek, który leci krawędzią, obraca się i szybko opada.",
    "long": "Battue to jeden z rzutków specjalnych dozwolonych zarówno w Sporting™, jak i w Compaku, i musi być podany w menu rzutków. Cienki profil sprawia, że trudno go odczytać w locie. Przepisy Compaku odradzają battue na bardzo krótkich trajektoriach.",
    "disciplines": {
@@ -642,7 +601,6 @@ window.GLOSSARY_I18N.pl = {
     "zając"
    ],
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Gruby, wytrzymały rzutek toczony po ziemi, naśladujący biegnącego zająca.",
    "long": "Rabbity są dozwolone w obu dyscyplinach i muszą być podane w menu Sporting™. W Sporting™, jak do wszystkich rzutków, strzela się do nich z bronią złożoną do ramienia; strzał z biodra jest niedozwolony. W obu regulaminach obowiązuje szczególny przypadek No Bird: jeśli rabbit zostanie chybiony pierwszym strzałem, a potem sam się rozbije przed drugim strzałem, wyrzuca się go ponownie, a przy powtórzeniu liczy się tylko rozbicie drugim strzałem; rozbicie pierwszym strzałem to zero."
   },
@@ -652,7 +610,6 @@ window.GLOSSARY_I18N.pl = {
     "rokiet"
    ],
    "conf": "medium",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Rzutek specjalny wymieniony na liście rzutków Compak® Sporting; jego dokładny kształt i lot zależą od producenta.",
    "long": "Rocket to jeden z rzutków specjalnych, które przepisy Compak® Sporting wymieniają wśród dozwolonych; lista Sporting™ nie wymienia go osobno. Nie ma wspólnej specyfikacji, więc jego kształt i sposób lotu zależą od producenta rzutków. Jak przy każdym rzutku specjalnym, obserwuj go uważnie podczas pokazu i nie zakładaj, że leci jak standard.",
    "disciplines": {
@@ -675,7 +632,6 @@ window.GLOSSARY_I18N.pl = {
     "rzutek ekologiczny"
    ],
    "conf": "medium",
-   "src": "https://www.rzutkistrzeleckie.com/blog/rodzaje-rzutkow-do-strzelania",
    "short": "Rzutek bez paku (smoły), który łatwiej rozkłada się w środowisku.",
    "long": "Klasyczne rzutki są z wapienia lub innego wypełniacza ze spoiwem, tradycyjnie z pakiem, więc ich odłamki długo leżą na ziemi. Rzutki biodegradowalne robi się bez paku, z innymi spoiwami, a ich odłamki z czasem się rozkładają. Wiele strzelnic przechodzi na nie, by chronić glebę, wodę i okolicę. Mogą lecieć i pękać nieco inaczej, więc na nieznanej strzelnicy obejrzyj pokaz. Skład i właściwości zależą od producenta."
   },
@@ -696,7 +652,6 @@ window.GLOSSARY_I18N.pl = {
   "tower": {
    "term_local": "wieża",
    "conf": "medium",
-   "src": "https://www.termedia.pl/doi_ft/10.5114/amsik.2020.97802",
    "short": "Podwyższone miejsce wyrzutni za stanowiskami w Compak® Sporting, co najmniej 4 m nad nimi.",
    "long": "Wyrzutnie w Compaku można ustawiać dowolnie, o ile żaden rzutek, nawet No Bird, nie może nikomu zagrozić. Wyrzutnia ustawiona za stanowiskami strzeleckimi musi być co najmniej 4 m wyżej niż stanowiska. Obowiązkowa trajektoria odlatująca przez bok BC może wychodzić z takiej wieży albo z wyrzutni zagłębionej w ziemi lub stojącej na ziemi przed stanowiskami.",
    "disciplines": {
@@ -718,7 +673,6 @@ window.GLOSSARY_I18N.pl = {
     "system mikrofonowy",
     "zwalnianie głosem"
    ],
-   "note": "PZSS rules: «system mikrofonów».",
    "conf": "medium",
    "short": "Urządzenie uruchamiane głosem, które wyrzuca rzutek, gdy zawodnik zawoła.",
    "long": "W Compaku wyrzutnie można zwalniać ręcznie, pilotem lub przez sonopull. Urządzenie sonopull musi mieć stałe opóźnienie 0,5 sekundy bez możliwości regulacji, a na wszystkich wyrzutniach jednego Compaku zaleca się to samo opóźnienie. W Compaku „in line” na zawodach międzynarodowych używa się tylko sonopull, razem z zatwierdzonym przez FITASC elektronicznym sędziowaniem i liczeniem wyników.",
@@ -817,7 +771,6 @@ window.GLOSSARY_I18N.pl = {
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "English layout name; shooters usually keep the English word.",
    "conf": "medium",
    "short": "Rzutek, który stromo wznosi się po łuku, a potem odpada. To nie francuska „chandelle”, która oznacza pionową świecę (teal)."
   },
@@ -832,7 +785,6 @@ window.GLOSSARY_I18N.pl = {
     "pojedynczy"
    ],
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Jeden rzutek z jednej wyrzutni, do którego zawodnik może oddać dwa strzały.",
    "long": "Rzutek pojedynczy może być dowolnego rodzaju. Każdy rzutek pojedynczy musi dawać dość czasu na dwa strzały, żeby po chybieniu z pierwszej lufy można było użyć drugiej. W Sporting™ każda oś ma 15 rzutków pojedynczych, a na każdym stanowisku grupa strzela najpierw pojedyncze, potem dublety, chyba że jury postanowi inaczej. W Compaku stanowisko może mieć 5 pojedynczych, 3 pojedyncze i dublet albo 1 pojedynczy i dwa dublety.",
    "disciplines": {
@@ -852,9 +804,7 @@ window.GLOSSARY_I18N.pl = {
   },
   "double-on-report": {
    "term_local": "dublet po strzale",
-   "note": "Compak rules: second target released on the shot; PZŁ uses «dublet po strzale» (term_local since 08.10.2026; the earlier «dublet po strzale» means 'on call', which is wrong for 'on report').",
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Dublet, w którym drugi rzutek wyrzuca dźwięk strzału do pierwszego.",
    "long": "Oba rzutki lecą z jednej lub dwóch wyrzutni; zawołanie wyrzuca pierwszy, a strzał do pierwszego wyrzuca drugi. W Sporting™ drugi rzutek wylatuje 0–3 sekundy po pierwszym strzale. W Sporting™ dubletów po strzale nie pokazuje się podczas pokazu, a stanowisko z 3 wyrzutniami i 2 dubletami nie może mieć dwóch dubletów po strzale. W sudden death w Sporting™ dublet po strzale liczy się jako para, więc one-zero równa się zero-one. Kary przy dublecie po strzale to zwykle zero za pierwszy rzutek i No Bird za drugi.",
    "disciplines": {
@@ -868,7 +818,6 @@ window.GLOSSARY_I18N.pl = {
     "dublet jednoczesny"
    ],
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Dublet, w którym oba rzutki są wyrzucane w tym samym momencie.",
    "long": "Oba rzutki wylatują razem na jedno zawołanie i można je strzelać w dowolnej kolejności. W Sporting™ lecą z jednej lub dwóch wyrzutni; w Compaku zawsze z dwóch różnych wyrzutni. Dublety symultaniczne pokazuje się podczas pokazu. Brak strzału do jednego z nich bez uzasadnionego powodu albo kara czerwonej kartki to zero i zero. W Compaku, jeśli jeden nabój rozbije oba rzutki, dublet to No Bird i powtarza się go za pierwszym i drugim razem, a za trzecim liczy się Zero-Zero.",
    "disciplines": {
@@ -891,7 +840,6 @@ window.GLOSSARY_I18N.pl = {
   "target-presentation": {
    "term_local": "pokaz rzutków",
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Pokazanie zawodnikom rzutków ze stanowiska przed strzelaniem.",
    "long": "W Sporting™ wszystkie trajektorie stanowiska pokazuje się pierwszemu zawodnikowi grupy, który musi stać gotowy na stanowisku; na prośbę każdy rzutek można pokazać ponownie do 2 razy. Dubletów po strzale się nie pokazuje; symultaniczne i rafale tak, z najwyżej 2 powtórzeniami. Podczas pokazu nikt nie może strzelać ani symulować strzelania, a po awarii wyrzutni albo przerwie dłuższej niż 10 minut rzutki stanowiska pokazuje się ponownie. W Compak® Sporting przy strzelaniu w grupach pierwsza grupa dnia widzi rzutki raz, wcześnie rano: pojedyncze od A do F, potem dublety symultaniczne stanowisk 1–5; po przerwie dłuższej niż 10 minut sześć rzutków pojedynczych pokazuje się ponownie. „In line” każdy nowy zawodnik na stanowisku 1 widzi pierwszy rzutek swojego dubletu. W obu konkurencjach broń podczas pokazu jest otwarta i rozładowana i zamyka się ją tylko za zgodą sędziego. W Compak® Sporting symulowanie strzelania jest zabronione poza stanowiskami i wtedy, gdy strzela inny członek grupy.",
    "disciplines": {
@@ -902,7 +850,6 @@ window.GLOSSARY_I18N.pl = {
   "target-menu": {
    "term_local": "menu",
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Tablica na stanowisku, która pokazuje, z których wyrzutni i w jakiej kolejności się strzela.",
    "long": "W Sporting™ menu stoi przed każdym stanowiskiem tam, gdzie zawodnik może je przeczytać, podaje wyrzutnie w kolejności strzelania (np. A, B, C) i musi oznaczać rzutki specjalne: 90 mm, 70 mm, 60 mm, battue lub rabbit. Sędziowie przed zawodami sprawdzają, czy wyrzutnie są załadowane zgodnie z nim. W Compaku menu strzelania wywiesza się czytelnie na każdym stanowisku; rzutki pojedyncze mogą korzystać z wyrzutni w dowolnej kolejności, a pierwszy rzutek każdego dubletu to ostatni rzutek poprzedniego stanowiska. FITASC zaleca 40 gotowych tabel z Załącznika 3."
   },
@@ -941,7 +888,6 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "punkt zero"
    ],
-   "note": "Some Polish coaches use «punkt zero» for the hold area.",
    "conf": "medium",
    "short": "Miejsce, w którym zawodnik trzyma wyloty luf w chwili wołania rzutka.",
    "long": "Punkt wyjściowy lufy wybiera się zwykle między punktem podjęcia rzutka a punktem strzału, na linii lotu rzutka lub nieco poniżej. Jeśli wylot luf jest za blisko wyrzutni, rzutek im ucieka i broń musi go gonić; jeśli za daleko, zostaje mało miejsca na ruch razem z rzutkiem, a zawodnik ma skłonność do celowania albo zatrzymania broni. Dobry punkt wyjściowy pozwala ruszyć razem z rzutkiem i płynnie na niego wejść. Dokładne miejsce zależy od rzutka i od twojej metody wyprzedzenia, więc zapytaj trenera. W Sporting™ broń przy wywołaniu jest opuszczona, a w Compak® Sporting zawodnik może trzymać ją już złożoną, ale to, gdzie wskazują lufy, ma znaczenie w obu konkurencjach.",
@@ -983,9 +929,7 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "złożenie"
    ],
-   "note": "PZŁ rules define «złożenie się do strzału».",
    "conf": "high",
-   "src": "https://www.pzlow.pl/wp-content/uploads/2023/04/Prawidla-strzeleckie.pdf",
    "short": "Ruch, który przyprowadza broń do policzka i ramienia zawodnika.",
    "long": "Przy złożeniu się do strzału broń unosi się do twarzy, policzek opiera się na grzbiecie kolby, a kolba wchodzi w zagłębienie barku. Najważniejsza zasada: unoś broń do policzka, nie opuszczaj głowy do broni. Złożenie musi być za każdym razem takie samo, bo decyduje o tym, gdzie znajduje się oko względem szyny. W Sporting™ zawodnik wywołuje rzutek z bronią opuszczoną i składa się dopiero, gdy rzutek się pojawi, więc ruch musi być szybki i dokładny. W Compak® Sporting można wywołać rzutek z bronią już złożoną. Złożenie ćwiczy się też bez strzału, z rozładowaną bronią, tam gdzie jest to dozwolone.",
    "disciplines": {
@@ -1059,7 +1003,6 @@ window.GLOSSARY_I18N.pl = {
     "składanie się"
    ],
    "conf": "medium",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Ćwiczenie składania się bez strzału, z rozładowaną, sprawdzoną bronią, tam gdzie pozwala na to prawo.",
    "long": "Składanie się na sucho to ćwiczenie złożenia się z rozładowaną, sprawdzoną bronią, bez strzału. Wielu trenerów radzi kilka minut w domu, tam gdzie pozwala prawo, by ruch stał się naturalny. Przed rozpoczęciem upewnij się, że broń jest rozładowana i w pomieszczeniu nie ma nabojów, a lufy trzymaj w bezpiecznym kierunku. Jeśli naciskasz spust nienaładowanej broni, używaj zbijaków (snap caps), które chronią iglice, zgodnie z radą trenera albo rusznikarza. Na strzelnicy zasady zależą od konkurencji. W Sporting™ symulowanie strzelania (złożenie się i prowadzenie broni po linii rzutka) w czasie zawodów jest niedozwolone w żadnym miejscu strzelnicy. W Compak® Sporting jest zabronione poza stanowiskami i wtedy, gdy strzela inny członek grupy. Sprawdź lokalne przepisy dotyczące obchodzenia się z bronią w domu.",
    "disciplines": {
@@ -1091,9 +1034,7 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "wywołanie rzutka"
    ],
-   "note": "Compak rules: command «daj».",
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Słowo zawodnika, np. „pull” lub „ready”, którym prosi o rzutek.",
    "long": "W Sporting™ zawodnik woła „ready” lub „pull”, sędzia przekazuje to operatorowi wyrzutni sygnałem dźwiękowym, a rzutek musi wylecieć w ciągu 3 sekund; późniejszy rzutek to No Bird. W Compaku przy ręcznym zwalnianiu rzutek musi wylecieć 0–3 sekundy po zawołaniu; sonopull dodaje stałe opóźnienie 0,5 sekundy. Rzutek, którego zawodnik nie zawołał, to No Bird i jest to jedyny rzutek, który można odrzucić. Zawołanie następnego rzutka oznacza akceptację decyzji sędziego co do poprzedniego."
   },
@@ -1168,7 +1109,6 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "niewypał (misfire)"
    ],
-   "note": "«Niewypał» = misfire, not hang fire.",
    "conf": "medium",
    "short": "Opóźniony wystrzał: nabój odpala chwilę po naciśnięciu spustu. Dlatego broni, która zawiodła, nie otwiera się od razu.",
    "long": "Opóźniony wystrzał zdarza się rzadko, ale jest niebezpieczny: po naciśnięciu spustu nic się nie dzieje, a chwilę później nabój jednak wystrzeliwuje. Gdyby w tym momencie otworzyć broń, łuska może pęknąć przy twarzy i dłoniach. Dlatego po każdym niewypale trzymaj broń przy barku albo przynajmniej skierowaną w bezpieczną stronę i czekaj; wielu instruktorów radzi odczekać około 30 sekund. Na zawodach FITASC po niewypale nie otwiera się broni i nie dotyka bezpiecznika, dopóki nie sprawdzi jej sędzia, w przeciwnym razie rzutek liczy się jako stracony. Zasady bezpieczeństwa i sędziowania są tu zgodne."
@@ -1191,9 +1131,7 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "pole"
    ],
-   "note": "Uncertain for sporting; PZŁ uses «oś» for courses.",
    "conf": "medium",
-   "src": "https://pl.wikipedia.org/wiki/Strzelanie_do_rzutk%C3%B3w",
    "short": "Zestaw stanowisk strzeleckich i wyrzutni, który daje jedną serię 25 rzutków.",
    "long": "W Sporting™ oś to grupa stanowisk strzeleckich dająca 25 rzutków: 15 pojedynczych i 5 dubletów. Stary system to 5 wyrzutni na 3 stanowiska; linie nowego systemu mają 4 lub 5 stanowisk. Osie na zawody krajowe zatwierdza federacja krajowa, na międzynarodowe FITASC; nikt nie może na nich trenować przed zawodami. W Compaku to słowo obejmuje ustawienia wyrzutni i menu danego Compaku; trajektorie, wyrzutnie i menu można zmieniać dopiero po pełnej rundzie strzelanej przez wszystkich.",
    "disciplines": {
@@ -1244,7 +1182,6 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "zmiana"
    ],
-   "note": "PZŁ also «zmiana».",
    "conf": "high",
    "short": "Grupa najwyżej sześciu zawodników, wylosowanych do wspólnego strzelania.",
    "long": "W obu regulaminach grupa liczy najwyżej 6 zawodników, którzy razem strzelają tę samą serię na tej samej instalacji. W Sporting™ grupy tworzy się w drodze losowania, członków jednej reprezentacji w miarę możliwości rozdziela się do różnych grup, a godziny i grupy publikuje się z wyprzedzeniem. Członkowie grupy nie mogą wtrącać się w decyzje sędziego, choć sędzia może poprosić ich o radę. Dwóch zawodników z tej samej grupy nie może dzielić broni. Wolnych miejsc w grupie dogrywkowej się nie uzupełnia.",
@@ -1288,7 +1225,6 @@ window.GLOSSARY_I18N.pl = {
    "alt": [
     "metryczka"
    ],
-   "note": "«Metryczka» used in hunting shoots.",
    "conf": "high",
    "short": "Oficjalny zapis wyników każdego zawodnika w serii.",
    "long": "W Sporting™ sędzia prowadzi kartę wyników albo nadzoruje jej prowadzenie, używając ołówka w innym kolorze na każdym stanowisku; zanim grupa przejdzie dalej, sędzia fotografuje kartę i stawia gwiazdkę przy nazwisku zawodnika, który ją niesie. Zawodnicy sprawdzają swój wynik, schodząc z każdego stanowiska, a niezgodność trzeba od razu zgłosić sędziemu. W Compaku sędzia prowadzi kartę przy strzelaniu w grupach lub ręcznie „in line”; w systemach elektronicznych wyniki pojawiają się na ekranie. Trafienie to X, a chybienie O. Zawodnik w Compaku musi podpisać kartę na koniec każdej rundy; odmowa podpisu odbiera prawo do skargi.",
@@ -1320,7 +1256,6 @@ window.GLOSSARY_I18N.pl = {
     "shoot-off"
    ],
    "conf": "high",
-   "src": "https://www.pzlow.pl/wp-content/uploads/2023/04/Prawidla-strzeleckie.pdf",
    "short": "Dodatkowa seria rozstrzygająca remisy o pierwsze trzy miejsca.",
    "long": "Dogrywką rozstrzyga się tylko remisy o pierwsze trzy miejsca indywidualne (w Compaku także w każdej kategorii). To seria 25 rzutków; jeśli remis trwa, strzela się drugi etap jako sudden death. Dogrywki odbywają się według zwykłych przepisów, ale wolnych miejsc w grupie się nie uzupełnia. Jeśli godzina nie została ustalona wcześniej, zawodnicy muszą być w kontakcie z jury i być gotowi w ciągu 15 minut od wywołania; nieobecny zostaje zdyskwalifikowany lub uznany za wycofanego. Jury może z wyjątkowych powodów przełożyć dogrywkę na następny dzień. Drużyny nigdy nie mają dogrywki.",
    "disciplines": {
@@ -1425,7 +1360,6 @@ window.GLOSSARY_I18N.pl = {
   "veteran": {
    "term_local": "weteran",
    "conf": "high",
-   "src": "https://api.fitasc.com/media/2025-rglt-cs-eng-6825ccbed2a18275696578.pdf",
    "short": "Kategoria wiekowa FITASC od 66 do 72 lat.",
    "long": "Veteran (fr. Vétéran) obejmuje okres od 1 stycznia roku, w którym zawodnik kończy 66 lat, do końca roku, w którym kończy 72 lata; na 2027 rok oznacza to urodzonych w latach 1955–1961. Drużyna Veteran ma 3 zawodników z kategorii Veteran lub Master. Weterani mogą też zostać wybrani do drużyn Senior i Men i wtedy zgłaszają się również indywidualnie w tej kategorii. Zawody krajowe mogą stosować własne granice wieku."
   },
@@ -1799,7 +1733,7 @@ window.GLOSSARY_I18N.pl = {
    "term_local": "master",
    "conf": "low",
    "short": "Najstarsza kategoria wiekowa FITASC, od 73 lat, dla mężczyzn i kobiet.",
-   "long": "Master obejmuje mężczyzn i kobiety od 1 stycznia roku, w którym kończą 73 lata; na 2027 rok oznacza to urodzonych przed 1 stycznia 1955. Drużyna Master ma 3 zawodników tej kategorii; zawodnicy Master mogą też zostać wybrani do drużyn Veteran, Senior i Men. Nie należy mylić kategorii wiekowej Master FITASC z klasą Master amerykańskiego systemu NSCA, która zależy od wyników, ani z okiem dominującym (master eye) w technice."
+   "long": "Master obejmuje mężczyzn i kobiety od 1 stycznia roku, w którym kończą 73 lata; na 2027 rok oznacza to urodzonych przed 1 stycznia 1955. Drużyna Master ma 3 zawodników tej kategorii; zawodnicy Master mogą też zostać wybrani do drużyn Veteran, Senior i Men. Nie należy mylić kategorii wiekowej Master FITASC z klasą sportową, która zależy od wyników, ani z okiem dominującym (master eye) w technice."
   },
   "crimp": {
    "term_local": "zawijka",
@@ -2182,12 +2116,12 @@ window.GLOSSARY_I18N.pl = {
   "fur-and-feather": {
    "term_local": "fur and feather",
    "conf": "low",
-   "short": "Żargon English Sporting na parę złożoną z rabbita i rzutka powietrznego."
+   "short": "Żargon brytyjskich trenerów na parę złożoną z rabbita i rzutka powietrznego."
   },
   "true-pair": {
    "term_local": "true pair",
    "conf": "low",
-   "short": "Nazwa pary symultanicznej w English Sporting: oba rzutki wyrzucane w tym samym momencie."
+   "short": "Tak brytyjscy trenerzy nazywają parę symultaniczną: oba rzutki wyrzucane w tym samym momencie."
   },
   "shell-catcher": {
    "term_local": "łapacz łusek",
@@ -2237,27 +2171,7 @@ window.GLOSSARY_I18N.pl = {
   "gun-up": {
    "term_local": "gun up (broń złożona)",
    "conf": "low",
-   "short": "Start z bronią już złożoną przed zawołaniem; dozwolony w English Sporting, NSCA i Compak®, ale nie w Sporting™ FITASC."
-  },
-  "english-sporting": {
-   "term_local": "English Sporting",
-   "conf": "low",
-   "short": "Brytyjska odmiana sportingu, prowadzona w Anglii przez CPSA obok FITASC Sporting™; ma własne przepisy: często strzela się pary, a zawodnicy często zaczynają z bronią już złożoną."
-  },
-  "cpsa": {
-   "term_local": "CPSA",
-   "conf": "low",
-   "short": "Clay Pigeon Shooting Association, organ zarządzający strzelectwem do rzutków w Anglii."
-  },
-  "nsca": {
-   "term_local": "NSCA",
-   "conf": "low",
-   "short": "National Sporting Clays Association, która zarządza Sporting Clays w Stanach Zjednoczonych."
-  },
-  "hoa": {
-   "term_local": "HOA",
-   "conf": "low",
-   "short": "Zwycięzca klasyfikacji generalnej zawodów, niezależnie od kategorii lub klasy."
+   "short": "Start z bronią już złożoną przed zawołaniem; dozwolony w Compak® Sporting, ale nie w Parcours de Chasse – Sporting™."
   },
   "clock-face": {
    "term_local": "tarcza zegara",

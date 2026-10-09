@@ -25,7 +25,14 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -40,7 +47,8 @@
     "interpreter-false-friends-p2": "Tuloslaskennan sanat eivät ole kirjaimellisia. «Dead» ja «kill» tarkoittavat osumaa, eivät mitään kuolemasta. «Lost» tarkoittaa ohilaukausta, ei jotain kadonnutta. «Dropped two» tarkoittaa, että kaksi kohdetta meni ohi. «Straight» ilmauksessa «25 straight» tarkoittaa virheetöntä sarjaa, jossa yksikään kohde ei mennyt ohi.",
     "interpreter-false-friends-p3": "Välineiden ja paikan sanat. «{{term:trap|Trap}}» on heitinkone, ei ansa. «Stand» on yksi ampumapaikka, {{term:shooting-stand|ampumapaikka}}, ei koko rata; lajissa {{tm:compak}} näitä paikkoja kutsutaan usein asemiksi. «{{term:peg|Peg}}» on ampujan paikka. Nimi tulee numeroidusta paalusta, joka merkitsee joka ampujan paikan ajometsästyksessä, niin ei käännä sitä paaluksi. «Broken gun» tarkoittaa avointa asetta. «Pull!» on {{term:call|kutsu}}, «{{term:pull-away|pull-away}}» on ennakkomenetelmä ja «{{term:length-of-pull|length of pull}}» on tukin pituus, liipaisimesta perälevyyn.",
     "interpreter-false-friends-cards": "«Card» on {{term:score-sheet|tulospöytäkirja}} tai keltainen tai {{term:red-card|punainen kortti}}. «On report» tarkoittaa laukauksen äänestä, niin kuin {{term:double-on-report|laukauksesta lähtevässä kaksoiskiekossa}}, ei «raportti». «{{term:squad|Squad}}» on kilpailuryhmä, jossa on {{fact:rules.squad-max-shooters}}. ClayAway-matkoissa, jotka ovat tulossa, samalla sanalla kutsutaan myös matkan alaryhmää.",
-    "interpreter-false-friends-p4": "Muilla kielillä on omat sudenkuoppansa. Ranskan «chandelle» on kohde, joka ponnahtaa melkein suoraan ylös; englanniksi se on {{term:teal|teal}}. Se ei ole englannin {{term:chandelle|chandelle}}, kohde, joka nousee jyrkästi kaarena ja putoaa sitten. Ranskan «en battue» ja italian «in battuta» tarkoittavat ajometsästystä (englanniksi ”driven”), ei {{term:battue|battue-kiekkoa}}. Portugalissa «batida» on battue-kiekko, kun «de batida» tarkoittaa ajometsästystä. Osumasta ranskalainen tuomari sanoo «Bon» ja italialainen «Buono», ja {{term:trapper|operaattoria}} kutsutaan usein «pulleur» tai «puller». Myös sanat erälle vaihtelevat, niin käytä kilpailun omassa säännöstössä olevaa sanaa."
+    "interpreter-false-friends-p4": "Muilla kielillä on omat sudenkuoppansa. Ranskan «chandelle» on kohde, joka ponnahtaa melkein suoraan ylös; englanniksi se on {{term:teal|teal}}. Se ei ole englannin {{term:chandelle|chandelle}}, kohde, joka nousee jyrkästi kaarena ja putoaa sitten. Ranskan «en battue» ja italian «in battuta» tarkoittavat ajometsästystä (englanniksi ”driven”), ei {{term:battue|battue-kiekkoa}}. Portugalissa «batida» on battue-kiekko, kun «de batida» tarkoittaa ajometsästystä. Osumasta ranskalainen tuomari sanoo «Bon» ja italialainen «Buono», ja {{term:trapper|operaattoria}} kutsutaan usein «pulleur» tai «puller». Myös sanat erälle vaihtelevat, niin käytä kilpailun omassa säännöstössä olevaa sanaa.",
+    "interpreter-false-friends-pairs": "Pareilla on eri nimet. «{{term:true-pair|True pair}}» (brittiläinen ja amerikkalainen) on FITASC:n {{term:simultaneous-double|yhtäaikainen kaksoiskiekko}}: molemmat kohteet lähtevät samalla hetkellä. «Report pair» on {{term:double-on-report|laukauksesta lähtevä kaksoiskiekko}}: toisen kohteen laukaisee ensimmäisen laukauksesi ääni. «Following pair» on FITASC:n {{term:rafale-double|rafale}}: kaksi kohdetta samasta heittimestä, toinen toisensa jälkeen. «Show pair» on parin {{term:target-presentation|näyttö}} ennen ampumista. «{{term:peg|Peg}}» on {{term:shooting-stand|ampumapaikka}}, «station» on amerikkalainen sana ampumapaikalle, ja «{{term:cage|cage}}» on sen ympärillä oleva kehikko."
   },
   "note": {},
   "phrases": {
@@ -67,6 +75,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "Toinen kohde laukaistaan ensimmäisen laukauksesi äänestä.",
       "say": "Toinen — laukauksesta."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Harjoitustehtävä: aloita ase olalla. Ei sallittu FITASC {{tm:sporting}} -kilpailussa.",
+      "say": "Toistaiseksi tämä — ase jo nostettuna."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Molemmat kohteet lähtevät samalla hetkellä (FITASC: yhtäaikainen kaksoiskiekko).",
+      "say": "Tämä on yhtäaikainen kaksoiskiekko."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Kaksi kohdetta samasta heittimestä toinen toisensa jälkeen (FITASC: rafale).",
+      "say": "Rafale vasemmasta heittimestä."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Laukaise pari kerran, jotta kaikki näkevät sen ennen ampumista.",
+      "say": "Näyttäkää pari, kiitos."
     }
   },
   "key_points": {
@@ -75,7 +99,8 @@
     "interpreter-false-friends-kp3": "Trap = kone; stand = yksi ampumapaikka; peg = ampujan paikka; broken gun = avoin ase",
     "interpreter-false-friends-kp4": "Pull, card, report ja squad ovat kaikki monimerkityksisiä",
     "interpreter-false-friends-kp5": "Ranskan chandelle ja «en battue» eroavat englannin sanoista",
-    "interpreter-false-friends-kp6": "«Dusted it» voi tarkoittaa molempia: kysy"
+    "interpreter-false-friends-kp6": "«Dusted it» voi tarkoittaa molempia: kysy",
+    "interpreter-false-friends-kp7": "True pair = yhtäaikainen; report pair = laukauksesta lähtevä; following pair = rafale"
   },
   "quiz": {
     "interpreter-false-friends-q1": {
@@ -107,6 +132,16 @@
         "d": "Kohdetta, joka hajoaa pölyksi"
       },
       "explain": "Ranskan «en battue» (italian «in battuta») tarkoittaa ajometsästystä; battue-kiekko on eri asia."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Brittiläinen valmentaja sanoo «It's a true pair.» Mikä on FITASC:n termi?",
+      "options": {
+        "a": "Laukauksesta lähtevä kaksoiskiekko",
+        "b": "Rafale-kaksoiskiekko",
+        "c": "Yhtäaikainen kaksoiskiekko",
+        "d": "Oikea dupletti"
+      },
+      "explain": "«True pair» on brittiläinen ja amerikkalainen nimi kahdelle yhdessä laukaistulle kohteelle, eli FITASC:n yhtäaikaiselle kaksoiskiekolle."
     }
   }
 }

@@ -85,6 +85,10 @@
     "history-olympics-and-world": {
       "to": "history-birth-of-sporting",
       "retired": "2026-10-08"
+    },
+    "interpreter-english-sporting-vs-fitasc": {
+      "to": "interpreter-false-friends",
+      "retired": "2026-10-09"
     }
   },
   "interpreter": {
@@ -214,7 +218,7 @@
       "to": "interpreter-numbers-and-units"
     },
     "interpreter-english-sporting-vs-fitasc": {
-      "to": "interpreter-english-sporting-vs-fitasc"
+      "to": "interpreter-false-friends"
     },
     "interpreter-session-script": {
       "to": "interpreter-session-script"
@@ -408,12 +412,13 @@
     "H": {
       "from": "/<p>learn/<retired id>/ in all 11 languages (a lesson of this Academy taken off the site: a \"learn\" entry with \"retired\", its id stays in ids.lock; SCHEMA.md §2a)",
       "to": "/<p>learn/<target>/ (same language)",
-      "stubs": 11,
+      "stubs": 22,
       "retired": {
-        "history-olympics-and-world": "2026-10-08: owner decision, the site is about Parcours de Chasse – Sporting™ and Compak® Sporting only"
+        "history-olympics-and-world": "2026-10-08: owner decision, the site is about Parcours de Chasse – Sporting™ and Compak® Sporting only",
+        "interpreter-english-sporting-vs-fitasc": "2026-10-09: owner decision, no other discipline or federation is named (it compared British and American versions of the sport with FITASC); its FITASC words moved to interpreter-false-friends"
       }
     },
-    "total_stubs": 748,
+    "total_stubs": 759,
     "rules": [
       "<p> is empty for uk and '<lang>/' for the other 10 languages.",
       "Never redirect to another language.",

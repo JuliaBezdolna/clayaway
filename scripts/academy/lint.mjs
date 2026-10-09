@@ -87,9 +87,12 @@ export const ltLoanword = text => { const m = String(text || "").match(LT_LOANWO
    so that stem IS matched. Lithuanian "skitas" (+ endings) is matched as a whole word. DTL and ABT only in capitals. The owner also
    removed the federation of the Olympic shooting disciplines from the whole site (08.10.2026: "ISSF, «and other disciplines», …"):
    its abbreviation (ISSF, Cyrillic ІССФ / ИССФ) and its old name UIT (capitals only) are matched too. The build runs it on the
-   texts (not on ids, URLs, src or aliases) of masters, overlays, facts, ui strings and the glossary. */
-export const OTHER_DISCIPLINE_RE = new RegExp(B + "(?:skeet|skit(?:as|o|ui|ą|e)" + E + "|olymp|olimp|олімп|down[- ]the[- ]line|double[- ]?trap|doppel-?trap|universal[- ]trench|ball-trap|fosse olympique|fosse universelle|fossa olimpica|fossa universale|trench|трап|скіт|скит|issf|ІССФ|ИССФ)", "iu");
-const OTHER_DISCIPLINE_CAPS_RE = new RegExp(B + "(?:DTL|ABT|UIT)" + E, "u");
+   texts (not on ids, URLs, src or aliases) of masters, overlays, facts, ui strings and the glossary.
+   Since 09.10.2026 (handover review) also the British and American versions of the sport and their bodies: "English Sporting",
+   "Sporting Clays" (any case) and the abbreviations CPSA, NSCA, NSSA (its skeet association) and HOA (their "High Over All" score) in
+   capitals — SCHEMA.md §9 names no shooting federation other than FITASC. Plain "British coaches" / "some coaches" is fine. */
+export const OTHER_DISCIPLINE_RE = new RegExp(B + "(?:skeet|skit(?:as|o|ui|ą|e)" + E + "|olymp|olimp|олімп|down[- ]the[- ]line|english[- ]sporting|sporting[- ]clays|double[- ]?trap|doppel-?trap|universal[- ]trench|ball-trap|fosse olympique|fosse universelle|fossa olimpica|fossa universale|trench|трап|скіт|скит|issf|ІССФ|ИССФ)", "iu");
+const OTHER_DISCIPLINE_CAPS_RE = new RegExp(B + "(?:DTL|ABT|UIT|CPSA|NSCA|NSSA|HOA)" + E, "u");
 export const otherDiscipline = text => { const s = String(text || ""); const m = s.match(OTHER_DISCIPLINE_RE) || s.match(OTHER_DISCIPLINE_CAPS_RE); return m ? m[0] : null; };
 
 /* ---------- real people (warnings): lessons use fictional people or no names (owner decision) ---------- */

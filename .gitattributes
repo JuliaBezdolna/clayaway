@@ -1,0 +1,13 @@
+# The builds write LF: keep every text file LF on every OS (a Windows clone with core.autocrlf=true would otherwise
+# check out CRLF, and a byte comparison of a fresh build with docs/ would show every generated file as different)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary

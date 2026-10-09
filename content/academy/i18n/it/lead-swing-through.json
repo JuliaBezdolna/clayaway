@@ -10,7 +10,7 @@
     "lead-swing-through-delay": "646e110b",
     "lead-swing-through-p3": "5591e8be",
     "lead-swing-through-p4": "56ddd9af",
-    "lead-swing-through-p5": "7af5a14c",
+    "lead-swing-through-p5": "eeb3a018",
     "lead-swing-through-n1": "5b292c5e",
     "lead-swing-through-ph1": "bafebb3a",
     "lead-swing-through-ph2": "2d3aa2ff",
@@ -20,10 +20,11 @@
     "lead-swing-through-kp2": "c9f0e48f",
     "lead-swing-through-kp3": "21f6b8c9",
     "lead-swing-through-kp4": "0c9a1c39",
-    "lead-swing-through-kp5": "17c6a436",
+    "lead-swing-through-kp5": "ddcd1c94",
     "lead-swing-through-q1": "1b70a4e7",
     "lead-swing-through-q2": "229c9781",
-    "lead-swing-through-q3": "e7ce5191"
+    "lead-swing-through-q3": "e7ce5191",
+    "lead-swing-through-sim": "f3817a86"
   },
   "review": {
     "by": null,
@@ -41,7 +42,8 @@
     "lead-swing-through-delay": "C'è un breve ritardo tra la decisione di sparare e l'uscita del colpo dalle canne. Poiché il fucile si muove più veloce del piattello, in quell'istante le canne avanzano ulteriormente da sole. Per questo premi il grilletto quando vedi poca o nessuna distanza, e la velocità del fucile aggiunge il resto. Il {{term:lead|anticipo}} reale al momento del colpo è maggiore di quello che hai visto.",
     "lead-swing-through-p3": "Punti di forza: è naturale e veloce, e va bene per i principianti. Si adatta ai piattelli vicini e veloci, ai {{term:driven-target|piattelli passanti alti}} — che arrivano verso di te e ti passano sopra la testa —, agli {{term:overhead|piattelli sopra la testa}} da dietro, e ai piattelli irregolari o a sorpresa.",
     "lead-swing-through-p4": "Punti deboli: una finestra molto breve per il grilletto; sui {{term:crosser|traversoni}} lunghi il tiratore può restare senza tempo, perdere la linea o andare oltre; rallentare quando le volate raggiungono il piattello porta a un errore dietro.",
-    "lead-swing-through-p5": "Le fonti non sono d'accordo sul nome «CPSA method» (la CPSA, Clay Pigeon Shooting Association, è l'ente del tiro a volo dell'Inghilterra). Alcuni lo usano per lo swing-through, mentre l'insegnamento CPSA di oggi viene descritto come basato sul pull-away. Se un istruttore dice «CPSA method», chiedigli a quale metodo si riferisce."
+    "lead-swing-through-p5": "Non tutti gli istruttori usano gli stessi nomi per i metodi di anticipo. Un nome preso da una scuola o da un'associazione può indicare lo swing-through per uno e il pull-away per un altro. Se un istruttore chiama così un metodo, chiedigli a quale si riferisce.",
+    "lead-swing-through-sim": "Le canne arrivano da dietro e sparano mentre superano il fronte del piattello; il fermo immagine mostra che l'anticipo reale è più grande di come sembrava."
   },
   "note": {
     "lead-swing-through-n1": "Nell'inglese britannico puoi sentire «bum» invece di «butt». Significa la coda del piattello, quindi traducilo con una parola neutra."
@@ -69,7 +71,7 @@
     "lead-swing-through-kp2": "Fucile più veloce del piattello: coda, corpo, punta, sparo.",
     "lead-swing-through-kp3": "Grilletto mentre le volate passano la parte anteriore; l'anticipo reale è maggiore di quello visto.",
     "lead-swing-through-kp4": "Adatto a piattelli vicini, veloci, passanti alti e a sorpresa; più difficile sui traversoni lunghi.",
-    "lead-swing-through-kp5": "«CPSA method» può indicare due metodi diversi: chiedi a quale ci si riferisce."
+    "lead-swing-through-kp5": "Un nome di metodo preso da una scuola può indicare metodi diversi: chiedi a quale ci si riferisce."
   },
   "quiz": {
     "lead-swing-through-q1": {
@@ -103,6 +105,6 @@
       "explain": "Significa la coda del piattello. Una parola neutra per «coda» mantiene sia il significato sia il ritmo della filastrocca."
     }
   },
-  "title": "Swing-through: da dietro, attraverso il piattello",
+  "title": "Swing-through (anticipo per sorpasso): da dietro, attraverso il piattello",
   "summary": "Come funziona lo swing-through passo per passo, perché si vede poca o nessuna distanza, e a quali piattelli spesso si adatta."
 }

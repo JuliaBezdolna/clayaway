@@ -45,7 +45,7 @@
   "sources": [],
   "title": {
     "en": "Maintained lead: get in front, stay in front",
-    "uk": "Постійний винос: стати попереду і втриматися"
+    "uk": "Maintained lead (постійний винос): стати попереду і втриматися"
   },
   "summary": {
     "en": "How maintained lead works step by step on a crosser, which targets it often suits, and its typical fault: measuring the gap.",
@@ -83,7 +83,7 @@
       "t": "p",
       "core": true,
       "en": "Strengths: precise, little gun movement, quick between targets, and the lead is easy to adjust. It suits consistent, predictable targets: long crossers, steady high targets.",
-      "uk": "Переваги: точність, мало руху рушницею, швидкий перехід між мішенями, винос легко коригувати. Метод пасує стабільним, передбачуваним мішеням: далеким поперечним і рівним високим мішеням."
+      "uk": "Переваги: точність, мало руху рушницею, швидкий перехід між мішенями, {{term:lead|винос}} легко коригувати. Метод пасує стабільним, передбачуваним мішеням: далеким поперечним і рівним високим мішеням."
     },
     {
       "k": "lead-maintained-p4",
@@ -337,8 +337,6 @@
     "audit": [],
     "moves_out": [],
     "moves_in": [],
-    "tasks": [
-      "Overlays, animation caption of 2026-10-07: body.lead-maintained-sim is now one line of what to watch under the animation (shown big after the first paragraph). Translate it in de fr it cs pl lt; translate it again in pt hu fi (the old “Animation: …” text no longer matches). Until then those pages show the generic caption of its kind (ui anim_w_lead)."
-    ]
+    "tasks": []
   }
 }

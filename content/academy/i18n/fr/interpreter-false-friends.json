@@ -25,7 +25,14 @@
     "interpreter-false-friends-kp6": "19cf2f99",
     "interpreter-false-friends-q1": "4fa72f2b",
     "interpreter-false-friends-q2": "d58615b3",
-    "interpreter-false-friends-q3": "3c4d036d"
+    "interpreter-false-friends-q3": "3c4d036d",
+    "interpreter-false-friends-pairs": "25004ee4",
+    "interpreter-false-friends-ph7": "d3f511e4",
+    "interpreter-false-friends-ph8": "eccdc387",
+    "interpreter-false-friends-ph9": "37f10461",
+    "interpreter-false-friends-ph10": "8001d98f",
+    "interpreter-false-friends-kp7": "178537a8",
+    "interpreter-false-friends-q4": "d874fad1"
   },
   "review": {
     "by": null,
@@ -40,7 +47,8 @@
     "interpreter-false-friends-p2": "Les mots du score ne sont pas littéraux. « Dead » et « kill » signifient un plateau touché, sans rapport avec la mort. « Lost » signifie un manqué, pas quelque chose de perdu. « Dropped two » veut dire deux plateaux manqués. « Straight » dans « 25 straight » désigne un {{term:perfect-round|série parfaite}} sans aucun manqué.",
     "interpreter-false-friends-p3": "Mots d'équipement et de lieu. Un « {{term:trap|trap}} » est la machine qui lance les plateaux, pas un piège. Un « stand » est un seul emplacement de tir, le {{term:shooting-stand|poste de tir}}, pas tout le terrain ; en {{tm:compak}} ces emplacements s'appellent souvent des numéros. Un « {{term:peg|peg}} » est la position de tir. Le nom vient du piquet numéroté qui marque la place de chaque tireur lors d'une chasse au gibier rabattu, alors ne le traduisez pas par « piquet ». Un « broken gun » est un fusil ouvert. « Pull! » est le {{term:call|commande}}, « {{term:pull-away|pull-away}} » est une méthode d'avance et « {{term:length-of-pull|length of pull}} » se mesure de la détente au {{term:recoil-pad|plaque de couche}}.",
     "interpreter-false-friends-cards": "Une « card » est un {{term:score-sheet|feuille de marque}}, ou un {{term:yellow-card|carton jaune}} ou rouge. « On report » signifie au bruit du coup de feu, comme dans un {{term:double-on-report|doublé coup de fusil}}. Une « {{term:squad|squad}} » est le groupe de compétition de {{fact:rules.squad-max-shooters}}. Les tours ClayAway, qui arrivent bientôt, emploieront aussi ce mot pour un sous-groupe d'un tour.",
-    "interpreter-false-friends-p4": "D'autres langues ont leurs propres pièges. Le mot français « chandelle » désigne un plateau qui jaillit presque à la verticale, que l'anglais appelle {{term:teal|teal}}. Ce n'est pas le {{term:chandelle|chandelle anglais}}, un plateau qui monte fortement en courbe puis retombe. Le français « en battue » et l'italien « in battuta » signifient le gibier rabattu (en anglais « driven »), pas le plateau {{term:battue|battue}}. En portugais, « batida » désigne le plateau battue, tandis que « de batida » signifie rabattu. Pour un plateau touché, un arbitre français dit « Bon » et un arbitre italien « Buono », et le {{term:trapper|lanceur}} — l'opérateur — est souvent appelé « pulleur » ou « puller ». Les mots pour la planche diffèrent aussi, alors utilisez celui du règlement propre à l'épreuve."
+    "interpreter-false-friends-p4": "D'autres langues ont leurs propres pièges. Le mot français « chandelle » désigne un plateau qui jaillit presque à la verticale, que l'anglais appelle {{term:teal|teal}}. Ce n'est pas le {{term:chandelle|chandelle anglais}}, un plateau qui monte fortement en courbe puis retombe. Le français « en battue » et l'italien « in battuta » signifient le gibier rabattu (en anglais « driven »), pas le plateau {{term:battue|battue}}. En portugais, « batida » désigne le plateau battue, tandis que « de batida » signifie rabattu. Pour un plateau touché, un arbitre français dit « Bon » et un arbitre italien « Buono », et le {{term:trapper|lanceur}} — l'opérateur — est souvent appelé « pulleur » ou « puller ». Les mots pour la planche diffèrent aussi, alors utilisez celui du règlement propre à l'épreuve.",
+    "interpreter-false-friends-pairs": "Les doublés ont des noms différents. Un « {{term:true-pair|true pair}} » (britannique et américain) est un {{term:simultaneous-double|doublé simultané}} FITASC : les deux plateaux partent au même instant. Un « report pair » est un {{term:double-on-report|doublé coup de fusil}} : le second plateau est lancé par le bruit de votre premier tir. Un « following pair » est un {{term:rafale-double|doublé rafale}} FITASC : deux plateaux du même {{term:trap|lanceur}}, l'un juste après l'autre. Un « show pair » est la {{term:target-presentation|présentation}} d'un doublé avant le tir. Un « {{term:peg|peg}} » est le {{term:shooting-stand|poste de tir}}, « station » est le mot américain pour un poste, et une « {{term:cage|cage}} » est le cadre qui l'entoure."
   },
   "note": {},
   "phrases": {
@@ -67,6 +75,22 @@
     "interpreter-false-friends-ph6": {
       "meaning": "Le second plateau est lancé au bruit de votre premier coup.",
       "say": "Le second part au coup de fusil."
+    },
+    "interpreter-false-friends-ph7": {
+      "meaning": "Exercice d'entraînement : commencer avec le fusil à l'épaule. Non autorisé en compétition FITASC {{tm:sporting}}.",
+      "say": "Pour celle-ci, pour l'instant, fusil déjà épaulé."
+    },
+    "interpreter-false-friends-ph8": {
+      "meaning": "Les deux plateaux partent en même temps (FITASC : doublé simultané).",
+      "say": "C'est un doublé simultané."
+    },
+    "interpreter-false-friends-ph9": {
+      "meaning": "Deux plateaux du même lanceur, l'un après l'autre (FITASC : rafale).",
+      "say": "Rafale du lanceur de gauche."
+    },
+    "interpreter-false-friends-ph10": {
+      "meaning": "Lancez le doublé une fois pour que tout le monde le voie avant de tirer.",
+      "say": "Montrez-nous le doublé."
     }
   },
   "key_points": {
@@ -75,7 +99,8 @@
     "interpreter-false-friends-kp3": "Trap = lanceur (machine) ; stand = un seul emplacement ; peg = la place du tireur ; broken gun = fusil ouvert",
     "interpreter-false-friends-kp4": "Pull, card, report et squad ont chacun plusieurs sens",
     "interpreter-false-friends-kp5": "La chandelle française et « en battue » diffèrent des mots anglais",
-    "interpreter-false-friends-kp6": "« Dusted it » peut vouloir dire les deux : demandez"
+    "interpreter-false-friends-kp6": "« Dusted it » peut vouloir dire les deux : demandez",
+    "interpreter-false-friends-kp7": "True pair = simultané ; report pair = coup de fusil ; following pair = rafale"
   },
   "quiz": {
     "interpreter-false-friends-q1": {
@@ -107,6 +132,16 @@
         "d": "Un plateau qui se réduit en poussière"
       },
       "explain": "Le français « en battue » (l'italien « in battuta ») désigne le gibier rabattu ; le {{term:battue|plateau battue}} est autre chose."
+    },
+    "interpreter-false-friends-q4": {
+      "q": "Un entraîneur britannique dit « It's a true pair. » Quel est le terme FITASC ?",
+      "options": {
+        "a": "Un doublé coup de fusil",
+        "b": "Un doublé rafale",
+        "c": "Un doublé simultané",
+        "d": "Un doublé correct"
+      },
+      "explain": "« True pair » est le nom britannique et américain pour deux plateaux lancés ensemble, un {{term:simultaneous-double|doublé simultané}} FITASC."
     }
   }
 }

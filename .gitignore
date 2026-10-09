@@ -2,6 +2,8 @@
 *.txt
 !docs/robots.txt
 !docs/llms.txt
+# Python requirements are text files too: keep them in git
+!requirements.txt
 .env
 __pycache__/
 node_modules/
@@ -12,3 +14,6 @@ rules/pdf/
 
 # stray output of "> nul" from Windows shells
 nul
+
+# outputs of tools/checks (frames, screenshots)
+tools/checks/out/

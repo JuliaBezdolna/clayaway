@@ -41,7 +41,9 @@
     "waiting-position",
     "no-bird",
     "quiet-on-stand",
-    "hearing-protection"
+    "hearing-protection",
+    "electronic-ear-muffs",
+    "passive-ear-muffs"
   ],
   "rule_refs": [
     {
@@ -117,8 +119,8 @@
       "k": "interpreter-position-p2",
       "t": "p",
       "core": true,
-      "en": "Choose the mode for the moment. {{term:consecutive-interpreting|Consecutive interpreting}} (the coach speaks, pauses, you speak) suits the safety briefing, the walk between stands and the debrief. Whispered interpreting, {{term:chuchotage|chuchotage}}, lets the coach keep talking while you whisper into the shooter’s ear from behind. This works with electronic {{term:hearing-protection|hearing protection}}; with passive ear defenders, wait until the gun is open and the shooter can hear you. Whispering is tiring, so alternate the two modes. Agree on a “pause, I’m translating” sign, such as a raised palm.",
-      "uk": "Обирайте режим під ситуацію. Для інструктажу з безпеки, переходів між стрілецькими місцями й розбору пасує {{term:consecutive-interpreting|послідовний переклад}}: тренер говорить, робить паузу, говорите ви. Шепітний переклад, {{term:chuchotage|шушотаж}}, дає тренерові говорити без зупинок, а ви шепочете стрільцеві на вухо ззаду. Так виходить з {{term:electronic-ear-muffs|електронними навушниками}}; зі звичайними навушниками зачекайте, поки рушниця відкрита і стрілець може вас почути. Шепіт виснажує, тож чергуйте обидва режими. Домовтеся про знак «пауза, перекладаю», наприклад підняту долоню."
+      "en": "Choose the mode for the moment. {{term:consecutive-interpreting|Consecutive interpreting}} (the coach speaks, pauses, you speak) suits the safety briefing, the walk between stands and the debrief. Whispered interpreting, {{term:chuchotage|chuchotage}}, lets the coach keep talking while you whisper into the shooter’s ear from behind. This works with {{term:electronic-ear-muffs|electronic hearing protection}}; with passive ear defenders, wait until the gun is open and the shooter can hear you. Whispering is tiring, so alternate the two modes. Agree on a “pause, I’m translating” sign, such as a raised palm.",
+      "uk": "Обирайте режим під ситуацію. Для інструктажу з безпеки, переходів між стрілецькими місцями й розбору пасує {{term:consecutive-interpreting|послідовний переклад}}: тренер говорить, робить паузу, говорите ви. Шепітний переклад, {{term:chuchotage|шушотаж}}, дає тренерові говорити без зупинок, а ви шепочете стрільцеві на вухо ззаду. Так виходить з {{term:electronic-ear-muffs|електронними навушниками}}; зі {{term:passive-ear-muffs|звичайними навушниками}} зачекайте, поки рушниця відкрита і стрілець може вас почути. Шепіт виснажує, тож чергуйте обидва режими. Домовтеся про знак «пауза, перекладаю», наприклад підняту долоню."
     },
     {
       "k": "interpreter-position-p3",
@@ -171,7 +173,7 @@
       "en": "Head on the stock — just whisper it to him, I’ll keep going.",
       "meaning": {
         "en": "Switch to chuchotage and pass the cue on quietly; the coach will not pause. With passive ear defenders, wait until the gun is open.",
-        "uk": "Перейдіть на шушотаж і тихо передайте підказку; тренер не робитиме пауз. Зі звичайними навушниками зачекайте, поки рушниця відкрита."
+        "uk": "Перейдіть на шушотаж і тихо передайте підказку; тренер не робитиме пауз. Зі {{term:passive-ear-muffs|звичайними навушниками}} зачекайте, поки рушниця відкрита."
       },
       "say": {
         "uk": "(пошепки) Щокою на приклад."
@@ -350,7 +352,7 @@
     "title": "1843f92b",
     "summary": "575302e9",
     "interpreter-position-p1": "0d3cb318",
-    "interpreter-position-p2": "c8e0a00e",
+    "interpreter-position-p2": "48ca4843",
     "interpreter-position-p3": "b535f690",
     "interpreter-position-signals": "2a90b6e5",
     "interpreter-position-ph5": "6de3a842",

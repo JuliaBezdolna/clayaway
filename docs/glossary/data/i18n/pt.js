@@ -1,4 +1,4 @@
-/* ClayArena glossary — pt: how shooters say each term (term_local, alt, note, conf = high|medium|low, src); short/long = translated definitions. */
+/* ClayArena glossary — pt: how shooters say each term (term_local, alt, conf = high|medium|low; where each local word comes from — src, note — is in content/glossary/sources/pt.json, not published); short/long = translated definitions. */
 window.GLOSSARY_I18N = window.GLOSSARY_I18N || {};
 window.GLOSSARY_I18N.pt = {
  "lang": "pt",
@@ -9,9 +9,7 @@ window.GLOSSARY_I18N.pt = {
     "caçadeira",
     "arma"
    ],
-   "note": "PT: 'caçadeira' very common in hunting talk; FPTAC rules just say 'arma'. BR: 'espingarda'.",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A espingarda de caça de cano liso usada no Sporting e no Compak.",
    "long": "Pode usar-se qualquer espingarda de caça, incluindo semi-automáticas, com calibre não superior ao 12 e canos com pelo menos 66 cm (26 polegadas). As armas de bomba (pump) não são permitidas, e as regras do Compak também proíbem as drillings. Bandoleiras e correias, microcâmaras fixadas na arma e qualquer dispositivo artificial de pontaria são proibidos. Ninguém pode tocar na arma de outro atirador sem autorização, e dois atiradores da mesma esquadra não podem partilhar uma arma. No Compak® Sporting, os tiros dados com uma arma ou munições não conformes antes de uma inspeção contam zero.",
    "disciplines": {
@@ -25,9 +23,7 @@ window.GLOSSARY_I18N.pt = {
     "espingarda de canos sobrepostos",
     "over-under"
    ],
-   "note": "Same in BR ('sobreposta').",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "Espingarda de dois canos, um sobre o outro; o tipo mais comum no Sporting™ e no Compak® Sporting.",
    "long": "Uma sobreposta tem dois canos um em cima do outro, uma ação basculante e normalmente um só gatilho com seletor de canos. Um plano de mira estreito ao longo da fita, um bom equilíbrio e a fiabilidade fizeram dela o padrão no Sporting™ e no Compak® Sporting. Os dois canos podem levar chokes diferentes, por isso o primeiro e o segundo tiro adaptam-se a distâncias diferentes. Uma sobreposta aberta mostra logo a todos que está segura, o que dá jeito no posto. É a escolha mais comum de primeira arma para um principiante."
   },
@@ -37,9 +33,7 @@ window.GLOSSARY_I18N.pt = {
     "espingarda de canos justapostos",
     "justaposta"
    ],
-   "note": "Formal (hunting manual): 'canos justapostos'; range/shop talk: 'paralela' (PT and BR).",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "Espingarda de dois canos lado a lado; a clássica arma de caça.",
    "long": "Numa paralela os canos ficam lado a lado, por isso o plano de mira é mais largo do que numa sobreposta. É a arma clássica de caça, muitas vezes leve e elegante, frequentemente com dois gatilhos. As regras da FITASC permitem qualquer arma de caça, exceto as de bomba, por isso uma paralela pode ser usada em competição. No Sporting™ e no Compak® Sporting modernos, porém, é rara: a maioria dos atiradores escolhe uma sobreposta ou uma semi-automática. Alguns atiram com paralela por tradição ou em classes especiais nas provas de clube."
   },
@@ -48,9 +42,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "automática"
    ],
-   "note": "Commonly just called 'automática'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Espingarda de carregamento automático, permitida nas duas disciplinas com regras de manuseamento especiais.",
    "long": "As semi-automáticas são permitidas, mas não podem ser carregadas com mais de dois cartuchos. Transportam-se e guardam-se com a culatra aberta e a boca do cano apontada diretamente para cima ou para baixo. Quem as usa tem de apanhar os cartuchos vazios ejetados depois de sair do posto e pô-los no contentor. No Compak, uma semi-automática tem também de ter um dispositivo que impeça os invólucros ejetados de incomodar o atirador vizinho. Com gatilho de libertação, descarregar depois de um No Bird significa engatar a segurança e puxar a alavanca de armar duas vezes para trás.",
    "disciplines": {
@@ -63,20 +55,16 @@ window.GLOSSARY_I18N.pt = {
     "pump",
     "repetição manual"
    ],
-   "note": "FPTAC: 'sistema de bomba ou pump' (forbidden in Compak/Percurso). BR: 'pump'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Espingarda que se recarrega fazendo deslizar o fuste para trás e para a frente; proibida pelas regras da FITASC.",
-   "long": "Numa espingarda de bomba o atirador ejeta o invólucro e introduz um novo cartucho deslizando o fuste para trás e para a frente depois de cada tiro. Estas armas são comuns na caça e nalguns outros desportos de tiro, mas as regras da FITASC para o Sporting™ e o Compak® Sporting proíbem-nas expressamente. São permitidas sobrepostas, paralelas e semi-automáticas de calibre 12 ou inferior. Se tenciona competir, não compre uma espingarda de bomba como primeira arma. As regras de algumas provas de clube podem ser diferentes, por isso consulte o programa."
+   "long": "Numa espingarda de bomba o atirador ejeta o invólucro e introduz um novo cartucho deslizando o fuste para trás e para a frente depois de cada tiro. Estas armas são comuns na caça, mas as regras da FITASC para o Sporting™ e o Compak® Sporting proíbem-nas expressamente. São permitidas sobrepostas, paralelas e semi-automáticas de calibre 12 ou inferior. Se tenciona competir, não compre uma espingarda de bomba como primeira arma. As regras de algumas provas de clube podem ser diferentes, por isso consulte o programa."
   },
   "gauge": {
    "term_local": "calibre",
    "alt": [
     "adarme"
    ],
-   "note": "'Adarme' is the formal PT word; everyone says 'calibre 12'.",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "O diâmetro interior de uma espingarda; o máximo permitido é o calibre 12.",
    "long": "Os dois regulamentos limitam as armas ao calibre 12 ou inferior, com canos de pelo menos 66 cm. São por isso permitidos calibres menores, mas o limite de carga do cartucho de 28 g de chumbo (+2%) aplica-se a todas as armas."
   },
@@ -86,7 +74,6 @@ window.GLOSSARY_I18N.pt = {
     "canos"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O tubo por onde passa o chumbo."
   },
   "barrel-length": {
@@ -95,7 +82,6 @@ window.GLOSSARY_I18N.pt = {
     "comprimento do cano"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O comprimento dos canos; a FITASC exige pelo menos 66 cm (26 pol.), e as armas de competição típicas têm 28, 30 ou 32 pol.",
    "long": "As regras da FITASC para o Sporting™ e o Compak® Sporting exigem canos com pelo menos 66 cm (26 polegadas). As armas de Sporting têm sobretudo canos de 28, 30 ou 32 polegadas (cerca de 71, 76 e 81 cm). Os canos mais compridos movem-se de forma mais suave e mantêm melhor a linha; os mais curtos são mais rápidos e leves. Para um principiante adulto sugerem-se muitas vezes 30 polegadas, e para um atirador jovem ou mais pequeno canos mais curtos. Faça a escolha final com um treinador, porque o equilíbrio geral da arma também conta."
   },
@@ -106,9 +92,7 @@ window.GLOSSARY_I18N.pt = {
     "banda ventilada",
     "fita ventilada"
    ],
-   "note": "Hunting manual: 'fita'; shops/BR also 'banda ventilada'.",
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A fita de pontaria ao longo da parte de cima dos canos, normalmente ventilada, com uma mira na ponta.",
    "long": "A fita é uma tira de metal ao longo do cano de cima. Uma fita ventilada tem aberturas, para que o ar quente sobre os canos deforme menos a imagem. Na ponta da fita fica a mira, por vezes com uma mira intermédia. No tiro aos pratos não se aponta ao longo da fita como numa carabina: olha-se para o prato e vê-se a fita com a visão periférica. A quantidade de fita que se vê com a arma à cara depende da altura da crista e é uma parte importante da adaptação."
   },
@@ -118,7 +102,6 @@ window.GLOSSARY_I18N.pt = {
     "boca"
    ],
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A abertura da frente do cano, por onde sai o chumbo. Tem de estar sempre apontada para uma direção segura.",
    "long": "A boca do cano é a ponta da frente do cano, e numa arma de chokes intermutáveis é aí que se enrosca o choke. A primeira regra de segurança: a boca do cano aponta sempre numa direção segura, mesmo que tenha a certeza de que a arma está descarregada. As regras da FITASC exigem que as armas sejam transportadas abertas, as semi-automáticas com a culatra aberta, com a boca do cano para cima ou para baixo. No posto, só se carrega com a boca do cano virada para o campo de tiro. Nunca aponte a boca do cano a pessoas e nunca olhe para dentro dela."
   },
@@ -128,7 +111,6 @@ window.GLOSSARY_I18N.pt = {
     "câmara do cano"
    ],
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A parte de trás do cano onde fica o cartucho; tem um comprimento marcado.",
    "long": "A câmara é um pouco mais larga do que o interior do cano, para que o cartucho caiba nela. O seu comprimento está gravado no cano, por exemplo 70 mm ou 76 mm. O comprimento indicado na caixa de cartuchos refere-se ao invólucro aberto depois do disparo, por isso não pode ser maior do que a câmara: disparar cartuchos mais compridos é perigoso. No tiro aos pratos usam-se sobretudo cartuchos 12/70. Antes do treino em seco ou do transporte, verifique sempre se as câmaras estão vazias."
   },
@@ -138,16 +120,13 @@ window.GLOSSARY_I18N.pt = {
     "caixa da culatra",
     "culatra"
    ],
-   "note": "'Báscula' for break-action guns; for semi-autos 'caixa da culatra'.",
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "O bloco metálico da arma com o mecanismo de disparo, a alavanca de abertura e a segurança.",
    "long": "A báscula une os canos, a coronha e o fuste. Lá dentro está o mecanismo de disparo e, em cima, a alavanca de abertura, que abre uma arma basculante, e a patilha de segurança, muitas vezes combinada com o seletor de canos. Por baixo está o gatilho, no guarda-mato. A báscula tem normalmente o número de série e as marcas de prova necessárias para os documentos e as viagens. Não desmonte a báscula sozinho: a manutenção do mecanismo é trabalho de armeiro."
   },
   "stock": {
    "term_local": "coronha",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A parte da arma que encosta ao ombro e apoia a face.",
    "long": "A coronha é normalmente de madeira, às vezes sintética. A sua aresta superior é a crista, onde assenta a face, e na ponta de trás está a chapa de coice, que assenta no ombro. As medidas da coronha (comprimento, altura da crista, desvio lateral) decidem onde fica o olho em relação à fita e se a arma atira para onde olha. Por isso a coronha é o principal objeto da adaptação. Segundo as regras da FITASC, uma arma com gatilho de libertação (release) tem de ter um autocolante com um «R» grande no lado de fora da coronha."
   },
@@ -157,9 +136,7 @@ window.GLOSSARY_I18N.pt = {
     "nariz da crista",
     "comb"
    ],
-   "note": "BR fitters say 'nariz' (drop at comb).",
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "O bordo superior da coronha onde assenta a face; a sua altura decide onde fica o olho acima da fita.",
    "long": "A crista funciona como a mira traseira da arma: o olho fica onde a face o põe. Uma crista alta demais faz a arma atirar alto; uma baixa demais faz atirar baixo, e o atirador vê menos fita. Muitas armas de Sporting têm crista regulável, que se pode subir, baixar ou deslocar para o lado. No Sporting™ a regra da arma em baixo refere-se à parte mais alta da coronha: antes de chamar, a sua ponta de trás tem de ficar abaixo da linha do colete até o prato aparecer. Ajuste a crista com um treinador ou um especialista em adaptação de coronhas."
   },
@@ -169,15 +146,12 @@ window.GLOSSARY_I18N.pt = {
     "coronha ajustável",
     "comb ajustável"
    ],
-   "note": "Shops (esp. BR) advertise 'coronha ajustável'.",
    "conf": "medium",
-   "src": "https://www.prohunters.com.br/armas/armas-de-fogo/espingardas-sobrepostasparalelas/espingarda-sobreposta-ata-sp-sporter-coronha-grade-2-ajustavel-cal-1276-76-cm-oxidada",
    "short": "Crista da coronha que se pode subir, baixar ou deslocar para o lado, para que o olho veja exatamente ao longo da fita."
   },
   "fore-end": {
    "term_local": "fuste",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A parte por baixo dos canos onde se apoia a mão da frente; também segura os canos à báscula.",
    "long": "O fuste é uma peça de madeira ou sintética debaixo dos canos. A mão da frente segura-o e conduz a arma ao longo do prato, por isso a sua forma influencia a pega. Nas armas basculantes também prende os canos à báscula: para desmontar a arma para transporte, tira-se primeiro o fuste. Ao limpar, passe um pano no metal debaixo do fuste, onde se acumula humidade. Alguns atiradores usam luvas para proteger a mão dos canos quentes."
   },
@@ -188,7 +162,6 @@ window.GLOSSARY_I18N.pt = {
     "empunhadura"
    ],
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A parte da coronha segura pela mão do gatilho."
   },
   "trigger": {
@@ -197,7 +170,6 @@ window.GLOSSARY_I18N.pt = {
     "mono-gatilho"
    ],
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A peça que se prime para disparar a arma."
   },
   "release-trigger": {
@@ -206,7 +178,6 @@ window.GLOSSARY_I18N.pt = {
     "release",
     "gatilho release"
    ],
-   "note": "Rare; anglicism 'release' dominates.",
    "conf": "low",
    "short": "Gatilho que dispara quando é solto e não quando é premido.",
    "long": "Uma arma com gatilho de libertação tem de ter um autocolante de aviso com um 'R' grande sobre fundo fluorescente no lado exterior da coronha. Se a lei do país anfitrião proibir os gatilhos de libertação numa competição internacional, isso tem de constar do programa. Se um No Bird ou outra coisa impedir o tiro, o atirador mantém o gatilho premido e pede um novo prato, abre a arma mantendo-o premido (semi-automática: segurança engatada e alavanca de armar puxada duas vezes para trás), ou avisa o árbitro e dispara numa direção segura indicada pelo árbitro. Se o No Bird disser respeito ao segundo prato depois do primeiro tiro com um sistema de libertação e depois pressão, a arma é simplesmente aberta."
@@ -217,9 +188,7 @@ window.GLOSSARY_I18N.pt = {
     "segurança",
     "travão"
    ],
-   "note": "FPTAC: 'patilha de segurança'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Patilha da arma que bloqueia o gatilho."
   },
   "barrel-selector": {
@@ -228,9 +197,7 @@ window.GLOSSARY_I18N.pt = {
     "seletor de canos",
     "mecanismo de seleção"
    ],
-   "note": "Manual: 'monogatilho seletivo'. AO90 spelling, the same in Portugal and Brazil.",
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "Interruptor, muitas vezes combinado com a segurança, que escolhe o cano que dispara primeiro.",
    "long": "A maioria das sobrepostas tem um só gatilho e um seletor que define a ordem dos tiros: primeiro o cano de baixo e depois o de cima, ou ao contrário. Na maior parte dos casos o seletor está no botão da patilha de segurança, atrás da alavanca de abertura, mas nalguns modelos está no próprio gatilho. A ordem escolhe-se de acordo com os chokes: normalmente dispara primeiro o cano com o choke mais aberto, para o prato mais próximo. Verifique o seletor antes de cada posto: um seletor mudado sem querer é uma causa frequente de um falhanço inesperado."
   },
@@ -240,9 +207,7 @@ window.GLOSSARY_I18N.pt = {
     "extrator automático",
     "extrator"
    ],
-   "note": "The extrator lifts, the ejetor throws out (AO90 spelling).",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "Mecanismo que expulsa os cartuchos disparados quando se abre a arma.",
    "long": "Quando se abre depois do tiro uma arma basculante com ejetores, os invólucros disparados saltam sozinhos. Os cartuchos não disparados são apenas levantados um pouco, para poderem ser tirados à mão. Armas mais simples têm só extrator, que levanta todos os invólucros sem os projetar. Recolha os invólucros vazios e ponha-os nos recipientes do campo de tiro. Ao abrir a arma, mantenha a mão sobre as câmaras para que os invólucros não voem para os vizinhos."
   },
@@ -253,9 +218,7 @@ window.GLOSSARY_I18N.pt = {
     "soleira",
     "almofada de coice"
    ],
-   "note": "FPTAC: 'chapa de coice'; BR often 'soleira'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Chapa de coice de borracha ou gel na ponta da coronha que amortece o recuo; também altera o comprimento da coronha."
   },
   "choke": {
@@ -264,9 +227,7 @@ window.GLOSSARY_I18N.pt = {
     "choque",
     "estrangulamento"
    ],
-   "note": "Anglicism 'choke' dominates in PT; manual 'estrangulamento'; BR also 'choque'.",
    "conf": "high",
-   "src": "https://armasetiro.pt/index.php/2024/06/27/escolher-o-choke-mais-adequado/",
    "short": "Estrangulamento amovível na boca do cano que dá forma à chumbada.",
    "long": "No Sporting, um choke amovível, tal como a arma ou um cano, pode ser trocado durante uma série entre postos ou entre os simples e os doubles, desde que isso não cause atraso; quando o atirador já está no posto, não é permitida nenhuma troca. No Compak, trocar de arma, de chokes ou de canos durante a mesma série é proibido e só é permitido entre séries, exceto depois de uma avaria.",
    "disciplines": {
@@ -279,9 +240,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "choque fixo"
    ],
-   "note": "Marked with stars (*) on barrels.",
    "conf": "medium",
-   "src": "https://clubedetirolagoadaprata.jimdofree.com/p%C3%A1ginas-de-not%C3%ADcias/sobre-coronha/",
    "short": "Choke maquinado no cano na fábrica; só um armeiro o pode alterar.",
    "long": "Numa arma de choke fixo, o estrangulamento está maquinado diretamente na ponta dos canos, e cada cano tem o seu, por exemplo 1/4 e 1/2. Estas armas encontram-se entre os modelos mais antigos e entre as armas para certas disciplinas. A sua vantagem é a simplicidade: nada se pode soltar nem perder. A desvantagem é que o estrangulamento não pode ser mudado para pratos diferentes. Um armeiro pode abrir um choke fixo ou roscar os canos para chokes intermutáveis, mas é um trabalho irreversível que vale a pena discutir antes."
   },
@@ -294,9 +253,7 @@ window.GLOSSARY_I18N.pt = {
     "chokes desmontáveis",
     "choques cambiáveis"
    ],
-   "note": "FPTAC writes 'mobilchoques'/'mobil choque' (Beretta brand used generically); BR 'choques cambiáveis'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Sistema de chokes roscados que se aparafusam na boca do cano.",
    "long": "Numa arma de chokes intermutáveis, a ponta de cada cano tem rosca e a arma vem com vários chokes de estrangulamento diferente. Assim, uma só arma serve para pratos próximos e afastados. Os sistemas de fabricantes diferentes têm roscas e comprimentos diferentes, por isso os chokes de uma marca normalmente não servem noutra. Nunca dispare com a rosca vazia, sem choke colocado: pode danificar o cano. As regras de troca variam: no Sporting™ pode trocar-se o choke entre postos ou entre simples e doubles se isso não causar atraso, enquanto no Compak® Sporting só entre séries.",
    "disciplines": {
@@ -319,9 +276,7 @@ window.GLOSSARY_I18N.pt = {
     "choke extended",
     "choke exterior"
    ],
-   "note": "Shooters often say just 'extended'.",
    "conf": "medium",
-   "src": "https://armasetiro.pt/index.php/2024/06/27/escolher-o-choke-mais-adequado/",
    "short": "Choke intermutável que sai para fora da boca do cano, com a marcação visível.",
    "long": "Um choke prolongado é mais comprido do que um choke embutido e sai alguns centímetros para lá da boca do cano. O estrangulamento costuma estar marcado na parte saliente, e o serrilhado permite enroscá-lo e desenroscá-lo à mão. Muitos atiradores de Sporting™ e Compak® Sporting preferem-nos porque veem logo qual está montado. Os fabricantes afirmam que um choke mais comprido forma a chumbada de modo mais suave, mas a diferença depende do modelo. Os chokes prolongados têm de corresponder ao sistema de chokes intermutáveis da sua arma."
   },
@@ -333,7 +288,6 @@ window.GLOSSARY_I18N.pt = {
     "sem choke"
    ],
    "conf": "high",
-   "src": "https://armasetiro.pt/index.php/2024/06/27/escolher-o-choke-mais-adequado/",
    "short": "Cano ou choke sem estrangulamento; dá a chumbada mais aberta.",
    "long": "Cilíndrico significa estrangulamento zero: o interior junto à boca é igual ao do resto do cano. A nuvem de chumbo espalha-se mais depressa, por isso a chumbada é larga a curta distância e fica rala mais longe. Escolhe-se para pratos muito próximos, como alguns coelhos ou pratos que saltam perto do atirador. Nos chokes Beretta é marcado com cinco estrelas. Para a maioria dos pratos no Sporting™ e no Compak® Sporting os atiradores escolhem chokes um pouco mais apertados."
   },
@@ -342,7 +296,6 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "choke de skeet"
    ],
-   "note": "Anglicism used as is.",
    "conf": "medium",
    "short": "Estrangulamento muito leve, cerca de 0,1–0,15 mm (4–6 thou), para os pratos mais próximos.",
    "long": "O choke skeet (marcação SK) é apenas um pouco mais apertado do que o cilíndrico: cerca de 0,1–0,15 mm de estrangulamento (4–6 thou), por vezes chamado 1/8 no uso europeu. A chumbada é larga a curta distância e perdoa pequenos erros. No Sporting™ e no Compak® Sporting usa-se para pratos próximos, coelhos e pratos que saltam perto. Os valores exatos dependem do fabricante."
@@ -354,9 +307,7 @@ window.GLOSSARY_I18N.pt = {
     "IC",
     "quatro estrelas (****)"
    ],
-   "note": "Said as 'um quarto'.",
    "conf": "high",
-   "src": "https://armasetiro.pt/index.php/2024/06/27/escolher-o-choke-mais-adequado/",
    "short": "Estrangulamento leve, cerca de 0,25 mm (10 thou); na Europa '1/4', quatro estrelas.",
    "long": "O 1/4 de choke (IC, improved cylinder) é um dos chokes mais versáteis para tiro aos pratos. Um estrangulamento de cerca de 0,25 mm (cerca de 10 thou) dá uma chumbada larga, mas já mais densa do que o cilíndrico. Usa-se em pratos próximos e médios; muitos atiradores de Sporting™ e Compak® Sporting mantêm o IC no cano de baixo como opção de base. Na Europa chama-se 1/4, e nos chokes Beretta é marcado com quatro estrelas. Os valores em milímetros dependem do fabricante."
   },
@@ -368,7 +319,6 @@ window.GLOSSARY_I18N.pt = {
     "três estrelas (***)"
    ],
    "conf": "high",
-   "src": "https://armasetiro.pt/index.php/2024/06/27/escolher-o-choke-mais-adequado/",
    "short": "Estrangulamento médio, cerca de 0,5 mm (20 thou); '1/2', três estrelas.",
    "long": "O 1/2 choke (M, modified) é um choke médio. Um estrangulamento de cerca de 0,5 mm (cerca de 20 thou) mantém a chumbada densa em pratos médios e bastante afastados. Na Europa chama-se 1/2, e nos chokes Beretta é marcado com três estrelas. Muitos atiradores põem o M no cano de cima para o segundo tiro, mais longo. Com chumbo de aço, os fabricantes aconselham muitas vezes a não usar nada mais apertado do que o 1/2; siga o manual da sua arma e dos chokes."
   },
@@ -380,7 +330,6 @@ window.GLOSSARY_I18N.pt = {
     "duas estrelas (**)"
    ],
    "conf": "high",
-   "src": "https://armasetiro.pt/index.php/2024/06/27/escolher-o-choke-mais-adequado/",
    "short": "Estrangulamento apertado, cerca de 0,65–0,75 mm (25–30 thou); '3/4', duas estrelas.",
    "long": "O 3/4 de choke (IM, improved modified) dá uma chumbada densa para pratos afastados. O seu estrangulamento é de cerca de 0,65–0,75 mm (25–30 thou); na Europa chama-se 3/4, e a Beretta marca-o com duas estrelas. Em pratos próximos a chumbada é estreita e não perdoa, por isso o IM é escolhido de propósito para uma trajetória longa concreta. Com chumbo de aço, muitos fabricantes desaconselham chokes apertados como o IM, a não ser que o choke esteja marcado especialmente para aço. Os valores exatos dependem do fabricante."
   },
@@ -391,9 +340,7 @@ window.GLOSSARY_I18N.pt = {
     "choque pleno",
     "uma estrela (*)"
    ],
-   "note": "BR: 'choque pleno/cheio'.",
    "conf": "high",
-   "src": "https://armasetiro.pt/index.php/2024/06/27/escolher-o-choke-mais-adequado/",
    "short": "Choke completo, cerca de 0,9–1 mm (35–40 thou); '1/1', uma estrela.",
    "long": "O full choke é o mais apertado dos chokes comuns para tiro aos pratos. Um estrangulamento de cerca de 0,9–1 mm (35–40 thou) mantém a nuvem de chumbo apertada a longa distância. Na Europa é marcado 1/1, e nos chokes Beretta com uma estrela. No Sporting™ e no Compak® Sporting o full raramente é preciso: só para pratos muito afastados, e nos próximos dá uma chumbada demasiado estreita. Há chokes ainda mais apertados (extra full), mas o tiro aos pratos quase nunca precisa deles. Com chumbo de aço, o full normalmente não se usa sem aprovação do fabricante."
   },
@@ -405,16 +352,13 @@ window.GLOSSARY_I18N.pt = {
     "agrupamento",
     "dispersão"
    ],
-   "note": "PT: 'chumbada'; BR: 'agrupamento/padrão'.",
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "A marca que a nuvem de chumbo deixa num alvo ou numa placa; a largura e a regularidade são importantes.",
    "long": "Depois de sair da boca do cano, os bagos espalham-se numa nuvem que se alarga e alonga com a distância. A chumbada é a imagem que essa nuvem deixa numa superfície plana: a sua largura e se tem falhas por onde um prato poderia passar. A largura da chumbada é definida sobretudo pelo choke: quanto mais aberto o choke, mais larga a chumbada a uma dada distância. O cartucho, o número e o tipo de chumbo também contam. Tradicionalmente, a densidade da chumbada avalia-se pela percentagem de bagos dentro de um círculo de tamanho definido a uma distância fixa, mas os métodos variam entre países e fabricantes."
   },
   "cartridge": {
    "term_local": "cartucho",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "A munição da espingarda; a FITASC limita a sua carga, o chumbo e a construção.",
    "long": "A carga de chumbo não pode exceder 28 g, com uma tolerância de +2%. Os chumbos têm de ser esféricos, com 2,0 a 2,5 mm de diâmetro (±0,1 mm). São proibidos os cartuchos recarregados, os dispersores ou outros dispositivos especiais de carregamento, a mistura de chumbos de tamanhos ou qualidades diferentes, a pólvora negra e os tracejantes. No Sporting, o árbitro pode recolher dois cartuchos para verificação, um de cada bolso do colete. Num double, o atirador de Sporting tem dois cartuchos no total; no Compak, um cartucho por prato.",
    "disciplines": {
@@ -429,7 +373,6 @@ window.GLOSSARY_I18N.pt = {
     "cartucho vazio"
    ],
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/muni%C3%A7%C3%B5es/",
    "short": "O invólucro do cartucho: um tubo de plástico ou cartão com uma base metálica que contém todas as partes do cartucho.",
    "long": "O invólucro é o corpo do cartucho. O tubo é normalmente de plástico, mais raramente de papel; em baixo é fechado por uma base metálica com o fulminante. Lá dentro ficam, por ordem, a pólvora, a bucha e o chumbo, e o topo é fechado pelo fecho em estrela. O comprimento do invólucro tem de corresponder à câmara da arma: nos cartuchos de calibre 12 para tiro aos pratos é quase sempre 70 mm. Depois do tiro, os invólucros vazios vão para os recipientes do campo de tiro e não ficam na relva."
   },
@@ -439,21 +382,18 @@ window.GLOSSARY_I18N.pt = {
     "escorva"
    ],
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/muni%C3%A7%C3%B5es/",
    "short": "Pequena cápsula na base do invólucro que faz faísca quando o percutor lhe bate e inflama a pólvora.",
    "long": "O fulminante fica no centro da base metálica do invólucro. Quando o percutor da arma lhe bate, a mistura iniciadora inflama-se e a chama acende a carga de pólvora. Um fulminante fraco ou lento pode causar uma falha ou um disparo retardado. Por isso, depois de uma falha a arma não se abre logo: fica apontada numa direção segura até o árbitro a verificar. Uma marca no fulminante sem disparo é um sinal típico de cartucho defeituoso ou de pancada fraca do percutor."
   },
   "powder": {
    "term_local": "pólvora",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O propulsor que arde depressa e produz o gás que empurra o chumbo; a pólvora negra é proibida nas provas da FITASC.",
    "long": "Os cartuchos modernos usam pólvora sem fumo. Arde numa fração de segundo e o gás que produz empurra a bucha e o chumbo pelo cano. A quantidade e o tipo de pólvora influenciam a velocidade do chumbo e, em parte, o recuo; quem os escolhe é o fabricante do cartucho. As regras da FITASC para o Sporting™ e o Compak® Sporting proíbem a pólvora negra, os cartuchos traçadores e os cartuchos recarregados. Guarde os cartuchos em local seco e longe do calor: a humidade e as temperaturas altas pioram o comportamento da pólvora."
   },
   "wad": {
    "term_local": "bucha",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/muni%C3%A7%C3%B5es/",
    "short": "A peça entre a pólvora e o chumbo que veda o gás e guia o chumbo pelo cano; de plástico ou de fibra.",
    "long": "A bucha fica entre a carga de pólvora e o chumbo. Impede que o gás passe pelo meio do chumbo e empurra o chumbo de forma uniforme pelo cano. A bucha de plástico é muitas vezes um copo que envolve o chumbo e protege o interior do cano do atrito; com chumbo de aço esse copo é indispensável. Uma bucha de feltro ou de fibra degrada-se na natureza, por isso muitos campos de tiro a exigem. Depois do tiro a bucha voa algumas dezenas de metros e cai no chão, por isso o tipo de bucha não é só uma questão de balística, mas também de limpeza do campo."
   },
@@ -464,7 +404,6 @@ window.GLOSSARY_I18N.pt = {
     "bucha de fibra"
    ],
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/muni%C3%A7%C3%B5es/",
    "short": "Bucha de fibra ou feltro que se decompõe na natureza; muitos campos de tiro exigem-na.",
    "long": "Uma bucha de feltro é feita de fibras prensadas, cartão ou feltro. Ao contrário da bucha de plástico, degrada-se com o tempo, por isso os campos de tiro junto a campos agrícolas, bosques ou água permitem muitas vezes apenas estes cartuchos. Funciona bem com chumbo; com chumbo de aço são precisos cartuchos especiais que o fabricante aprove expressamente com essa bucha. Os cartuchos com bucha de feltro podem dar uma chumbada um pouco diferente, por isso experimente-os no treino antes de uma competição. Os requisitos do campo de tiro costumam constar do seu regulamento ou do programa da prova."
   },
@@ -474,9 +413,7 @@ window.GLOSSARY_I18N.pt = {
     "chumbo nº 7,5",
     "diâmetro do chumbo"
    ],
-   "note": "Smaller number = bigger pellet.",
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/muni%C3%A7%C3%B5es/",
    "short": "O diâmetro dos chumbos: 2,0 a 2,5 mm, tolerância ±0,1 mm.",
    "long": "Os dois regulamentos exigem chumbo esférico de diâmetro regular entre 2,0 e 2,5 mm, com uma tolerância de ±0,1 mm. Misturar num cartucho chumbos de tamanhos ou qualidades diferentes é estritamente proibido. A carga total está limitada a 28 g (+2%)."
   },
@@ -486,9 +423,7 @@ window.GLOSSARY_I18N.pt = {
     "gramagem",
     "28 gramas"
    ],
-   "note": "FPTAC: max 28 g de chumbo.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O peso do chumbo num cartucho; a FITASC permite até 28 g de chumbo, com tolerância de +2%.",
    "long": "A carga vem indicada na caixa em gramas, e no Reino Unido e nos EUA muitas vezes em onças (1 oz são cerca de 28 g). As regras da FITASC para o Sporting™ e o Compak® Sporting limitam a carga a 28 g de chumbo, com uma tolerância de +2%. As cargas mais comuns para tiro aos pratos são 24 e 28 g; 21–24 g são populares no treino, para juniores e principiantes. Uma carga mais pesada põe mais bagos na nuvem, mas também dá mais coice, o que cansa ao longo de um dia de 100–200 tiros. O árbitro pode verificar os cartuchos de um atirador; no Compak® Sporting, os tiros dados com cartuchos não conformes antes da verificação contam zero."
   },
@@ -498,7 +433,6 @@ window.GLOSSARY_I18N.pt = {
     "chumbos"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O chumbo tradicional, pesado e macio; as regras da FITASC estão escritas para ele, mas muitos países e campos de tiro restringem-no.",
    "long": "O chumbo é pesado, por isso um bago mantém bem a velocidade e os cartuchos dão uma chumbada regular. As regras da FITASC para o Sporting™ e o Compak® Sporting descrevem o chumbo: carga até 28 g (+2%), bagos esféricos de 2,0–2,5 mm. No entanto, o chumbo é tóxico para o ambiente, sobretudo para a água e as aves aquáticas. Na UE, desde 2023 é proibido disparar chumbo em zonas húmidas e a menos de 100 m delas, e alguns países e campos de tiro têm regras mais restritas. As leis mudam, por isso antes de viajar verifique a lei local e as regras do campo de tiro."
   },
@@ -518,7 +452,6 @@ window.GLOSSARY_I18N.pt = {
     "coice"
    ],
    "conf": "high",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "O empurrão da arma contra o ombro ao disparar; depende da carga, da velocidade, do peso da arma e da adaptação da coronha.",
    "long": "O recuo é mais forte com uma carga mais pesada e maior velocidade do chumbo, e mais fraco com uma arma mais pesada. Uma semi-automática de gás distribui o empurrão no tempo, por isso parece mais suave. A adaptação da coronha e o gesto correto de pôr a arma à cara contam tanto quanto isso: uma arma bem assente na cavidade do ombro dá muito menos coice do que uma apoiada no braço ou no osso. Um recuo forte cansa e vai ensinando um tique antes do tiro. Por isso, cartuchos mais leves no treino, uma boa chapa de coice e uma almofada de ombro no colete são uma escolha sensata, não uma fraqueza."
   },
@@ -528,16 +461,13 @@ window.GLOSSARY_I18N.pt = {
     "medidas da coronha",
     "gun fit"
    ],
-   "note": "'A coronha atira' is the classic saying.",
    "conf": "medium",
-   "src": "https://clubedetirolagoadaprata.jimdofree.com/p%C3%A1ginas-de-not%C3%ADcias/sobre-coronha/",
    "short": "Ajustar a arma ao atirador (comprimento da coronha, altura da crista, desvio lateral) para que atire para onde o olho olha.",
    "long": "No tiro aos pratos o olho funciona como mira, por isso a arma tem de vir à cara de modo a que o olho fique sempre no mesmo sítio sobre a fita. A adaptação abrange o comprimento da coronha, a altura da crista, o desvio lateral e outras medidas. Uma arma bem adaptada atira com mais precisão, bate menos no ombro e na face e deixa concentrar-se no prato. A adaptação verifica-se numa placa de chumbada e a atirar com um treinador ou um especialista. As crianças crescem, por isso a adaptação dos jovens atiradores é revista com regularidade."
   },
   "length-of-pull": {
    "term_local": "comprimento da coronha",
    "conf": "medium",
-   "src": "https://clubedetirolagoadaprata.jimdofree.com/p%C3%A1ginas-de-not%C3%ADcias/sobre-coronha/",
    "short": "A distância do gatilho ao meio da chapa de coice.",
    "long": "O comprimento da coronha mede-se do gatilho ao meio da chapa de coice. Se a coronha for comprida demais, prende na roupa ao pôr a arma à cara e a arma parece pesada à frente; se for curta demais, o polegar da mão do gatilho pode bater no nariz e o recuo parece mais forte. Altera-se com outra chapa, espaçadores ou encurtando a coronha. Crianças e adolescentes precisam de um comprimento menor do que os adultos, revisto à medida que crescem. A medida exata é definida por um treinador ou um especialista em adaptação de coronhas."
   },
@@ -547,9 +477,7 @@ window.GLOSSARY_I18N.pt = {
     "cast-off",
     "cast-on"
    ],
-   "note": "Anglicisms 'cast-off/cast-on' commonly used.",
    "conf": "medium",
-   "src": "https://clubedetirolagoadaprata.jimdofree.com/p%C3%A1ginas-de-not%C3%ADcias/sobre-coronha/",
    "short": "Desvio lateral da coronha: cast off (para a direita) para destros, cast on (para a esquerda) para canhotos.",
    "long": "O desvio lateral é uma ligeira curvatura ou deslocação da coronha para o lado, para que o olho diretor fique exatamente sobre a fita quando a face assenta na crista. Para um destro a coronha desvia-se para a direita (cast off), para um canhoto para a esquerda (cast on). Normalmente são só alguns milímetros, e podem ser diferentes no calcanhar e na ponta da coronha. As coronhas reguláveis permitem alterá-lo sem um artesão. O desvio necessário depende da forma do rosto e da dominância ocular, por isso define-se durante a adaptação."
   },
@@ -558,9 +486,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "espingardeiro"
    ],
-   "note": "Careful: in FPTAC rules 'armeiro' also means the gun rack.",
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/ca%C3%A7adeiras/",
    "short": "Artesão que verifica, repara e ajusta armas.",
    "long": "Um armeiro faz a manutenção do mecanismo da arma, repara avarias, verifica os canos e pode medir o estrangulamento dos chokes. Também lhe pode dizer se uma arma e os seus chokes servem para chumbo de aço e se uma arma usada é segura antes de a comprar. A adaptação da coronha é muitas vezes feita por um especialista à parte, embora muitos armeiros também a façam. Não desmonte o mecanismo sozinho e não atire com uma arma que se comporte de forma estranha. Nas grandes competições há muitas vezes um armeiro no local."
   },
@@ -570,9 +496,7 @@ window.GLOSSARY_I18N.pt = {
     "abafadores",
     "protetores auriculares"
    ],
-   "note": "BR: 'protetor auricular'. AO90 spelling 'proteções'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Proteção obrigatória dos ouvidos para todos os que estão no percurso ou perto dele.",
    "long": "Atiradores, árbitros, pessoal e espectadores no percurso ou no Compak, ou perto deles, têm de usar proteções auditivas. Um atirador que chegue ao posto sem elas é considerado ausente: no Sporting aplica-se a regra dos atrasados/ausentes do artigo 16.7, e no Compak não pode atirar. No Sporting, as crianças no campo de tiro fora da sede do clube têm de usar sempre proteções auditivas."
   },
@@ -592,7 +516,6 @@ window.GLOSSARY_I18N.pt = {
     "proteções auditivas eletrónicas",
     "abafador ativo"
    ],
-   "note": "BR spelling 'eletrônico'.",
    "conf": "medium",
    "short": "Abafadores que amplificam os sons baixos e cortam instantaneamente o ruído do tiro.",
    "long": "Os abafadores eletrónicos têm microfones e altifalantes: deixam passar e até amplificam sons baixos, como a voz do árbitro ou uma ordem, e reduzem de imediato o estrondo forte de um tiro. Assim pode falar no posto sem tirar a proteção. Custam mais do que os passivos e precisam de pilhas, por isso traga pilhas de reserva. Há também tampões eletrónicos que funcionam da mesma forma. Mesmo com a eletrónica desligada, os bons modelos continuam a funcionar como proteção passiva, mas confirme no manual."
@@ -603,14 +526,12 @@ window.GLOSSARY_I18N.pt = {
     "óculos de tiro"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Óculos de proteção obrigatórios para atiradores, árbitros e pessoal.",
    "long": "No Sporting, os óculos de proteção têm de ser usados, sem exceções, pelos atiradores, árbitros, pessoal e por qualquer pessoa perto de um posto. No Compak, atiradores, árbitros e pessoal têm de usar óculos de proteção. Um atirador que chegue ao posto sem eles é considerado ausente; no Compak não pode atirar, e no Sporting aplica-se o artigo 16.7."
   },
   "shooting-vest": {
    "term_local": "colete de tiro",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Colete de atirador com bolsos para cartuchos e uma almofada para a coronha.",
    "long": "Um colete é o primeiro equipamento que vale a pena comprar depois da proteção dos olhos e dos ouvidos. Tem dois bolsos grandes para cartuchos, bolsos para invólucros vazios e chokes e uma almofada de ombro lisa onde assenta a coronha. Um bom colete não atrapalha o gesto de pôr a arma à cara nem limita os movimentos. No Sporting™ o colete ou o casaco tem de ter uma linha de cor contrastante 25 cm abaixo do eixo dos ombros, para verificar a posição da arma em baixo. As regras da FITASC proíbem usar um colete sem nada por baixo, e o árbitro pode tirar um cartucho de cada um dos bolsos, direito e esquerdo, para verificação.",
    "disciplines": {
@@ -633,7 +554,6 @@ window.GLOSSARY_I18N.pt = {
     "bolsa porta-cartuchos",
     "cartucheira"
    ],
-   "note": "'Cartucheira' is classically a cartridge belt.",
    "conf": "low",
    "short": "Pequena bolsa de cinto para os cartuchos de uma série.",
    "long": "Uma bolsa de cintura usa-se no cinto e leva os cartuchos de uma série, 25 ou um pouco mais. Tem muitas vezes um compartimento separado para os invólucros vazios, para que não fiquem no chão. Dá jeito quando atira sem colete ou quando os bolsos do colete estão cheios. Garanta que não atrapalha o gesto de pôr a arma à cara nem chocalha quando se mexe. No fim, deite os invólucros vazios nos recipientes do campo de tiro."
@@ -663,9 +583,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "suporte de armas"
    ],
-   "note": "FPTAC: 'colocá-la verticalmente num armeiro'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Suporte onde as armas ficam de pé quando não estão a ser usadas.",
    "long": "Os campos de tiro têm armeiros junto aos postos e à sede do clube. Segundo as regras da FITASC, uma arma que não está a ser usada fica na vertical num armeiro ou noutro local previsto, as semi-automáticas com a culatra aberta. Coloque a arma aberta e descarregada, e nunca a deixe encostada a uma parede ou a um carro, onde possa cair. Não tire a arma de outra pessoa do armeiro sem autorização do dono. Antes de pegar na sua, confirme que é mesmo a sua arma."
   },
@@ -674,9 +592,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "prato de barro"
    ],
-   "note": "PT sport is 'tiro aos pratos'; BR 'tiro ao prato'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O disco de barro lançado por uma máquina para o atirador partir.",
    "long": "Os tipos permitidos são o prato normal, o coelho, o midi, o super mini, a batida, o flash e o ZZ (o Compak refere também o rocket e outros). A cor tem de se destacar do fundo; os pratos de duas cores não são aconselhados. Um prato que sai partido da máquina, da máquina errada ou da cor errada é No Bird. Nos glossários dos dois regulamentos, um prato é simplesmente um prato de barro."
   },
@@ -686,7 +602,6 @@ window.GLOSSARY_I18N.pt = {
     "prato standard"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O prato abaulado comum, com cerca de 108–110 mm de diâmetro, o mais usado.",
    "long": "O prato standard é um disco abaulado com cerca de 108–110 mm de diâmetro. O seu voo é relativamente fácil de ler, por isso os principiantes costumam começar por ele; um midi de 90 mm mantém melhor a velocidade. No Sporting™ e no Compak® Sporting, o standard mistura-se com pratos especiais como o midi, o mini, a batida e o coelho; a lista do Compak® Sporting refere também o rocket. No Sporting™, um prato de cor, tamanho ou tipo diferentes dos do menu é NULO; no Compak® Sporting, é NULO um prato da cor errada."
   },
@@ -706,7 +621,6 @@ window.GLOSSARY_I18N.pt = {
     "super mini"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Os pratos especiais mais pequenos, normalmente com 60 mm; os fabricantes usam «mini» e «super mini» de forma diferente, por isso guie-se pelos milímetros do menu.",
    "long": "As regras do Sporting™ incluem o «super mini» entre os pratos permitidos sem indicar o diâmetro, e o menu de cada posto tem de indicar os tamanhos especiais, por exemplo 90, 70 e 60 mm. As regras do Compak® Sporting permitem qualquer prato standard ou especial, incluindo o de 60 mm. No uso corrente, um mini tem normalmente 60 mm, mas alguns menus indicam também pratos de 70 mm, e os fabricantes não usam os nomes da mesma forma. Os pratos pequenos parecem rápidos e distantes. Leia o tamanho em milímetros no menu e observe bem a apresentação."
   },
@@ -715,9 +629,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "battue"
    ],
-   "note": "FPTAC uses 'batida'; don't confuse with 'de batida' (driven).",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato fino e plano que voa de cutelo, vira e cai depressa.",
    "long": "A batida é um dos pratos especiais permitidos no Sporting e no Compak, e tem de constar do menu de pratos. O seu perfil fino torna-a difícil de ler em voo. As regras do Compak desaconselham pratos de batida em trajetórias muito curtas.",
    "disciplines": {
@@ -731,7 +643,6 @@ window.GLOSSARY_I18N.pt = {
     "prato coelho"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato grosso e resistente que rola pelo chão para imitar um coelho a correr.",
    "long": "Os coelhos são permitidos nas duas disciplinas e têm de constar do menu no Sporting. No Sporting, como todos os pratos, atiram-se com a arma ao ombro; disparar à anca não é permitido. Os dois regulamentos preveem um caso especial de No Bird: se um coelho for falhado com o primeiro tiro e depois se partir sozinho antes do segundo tiro, é lançado de novo, e na repetição só conta parti-lo com o segundo tiro; parti-lo com o primeiro tiro dá zero."
   },
@@ -740,7 +651,6 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "prato rocket"
    ],
-   "note": "Anglicism.",
    "conf": "low",
    "short": "Prato especial referido na lista de pratos do Compak® Sporting; a sua forma exata e o seu voo dependem do fabricante.",
    "long": "O rocket é um dos pratos especiais que as regras do Compak® Sporting referem entre os pratos permitidos; a lista do Sporting™ não o refere à parte. Não existe uma especificação comum, por isso a sua forma e a maneira como voa dependem do fabricante. Como com qualquer prato especial, observe-o com atenção durante a mostra e não parta do princípio de que voa como um standard.",
@@ -755,7 +665,6 @@ window.GLOSSARY_I18N.pt = {
     "flash"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato que liberta uma nuvem visível de pó colorido quando é atingido.",
    "long": "Os pratos flash estão entre os pratos permitidos no Sporting. A regra para um prato partido é a mesma de qualquer prato: tem de ter sido lançado corretamente, o atirador tem de ter disparado de acordo com as regras, e tem de se soltar pelo menos um pedaço visível ou o prato tem de ser destruído total ou parcialmente. As regras do Compak aplicam a mesma regra de 'one' aos pratos flash."
   },
@@ -774,9 +683,7 @@ window.GLOSSARY_I18N.pt = {
     "máquina lançadora de pratos",
     "lançador"
    ],
-   "note": "BR also 'lançador'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "A máquina que lança os pratos.",
    "long": "As máquinas podem ser manuais, automáticas ou mistas (no Compak também semi-automáticas). No Sporting identificam-se pelas letras A, B, C, D da esquerda para a direita, vistas do posto, e estas letras aparecem no menu e na folha de marcação. Um Compak tem 6 máquinas, de A a F, cada uma com uma placa com a sua letra; uma máquina atrás dos postos tem de estar pelo menos 4 m acima deles. Nos campeonatos continentais e mundiais de Compak são obrigatórias 48 máquinas novas, instaladas só para a prova.",
    "disciplines": {
@@ -799,9 +706,7 @@ window.GLOSSARY_I18N.pt = {
     "puxador",
     "lançador"
    ],
-   "note": "FPTAC uses French 'pulleur'; colloquially 'puxador' (also BR).",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "A pessoa que solta os pratos ao sinal do árbitro.",
    "long": "No Sporting, o atirador pede o prato, o árbitro transmite o pedido ao pulleur com um sinal sonoro, e o prato tem de sair no máximo 3 segundos depois desse sinal; um prato mais tardio é No Bird. Em caso de dúvida sobre uma decisão, o árbitro pode pedir a opinião do pulleur, mas não fica vinculado a ela. No Compak, o árbitro também pode consultar o pulleur em caso de dúvida."
   },
@@ -812,9 +717,7 @@ window.GLOSSARY_I18N.pt = {
     "comando por voz",
     "telecomando"
    ],
-   "note": "FPTAC: 'sistema do tipo phono-pull'.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Dispositivo ativado pela voz que solta o prato quando o atirador o pede.",
    "long": "No Compak, as máquinas podem ser acionadas à mão, por telecomando ou por phono-pull. Uma caixa phono-pull tem de ter um atraso fixo de 0,5 segundos, que não pode ser regulado, e recomenda-se o mesmo atraso em todas as máquinas de um Compak. No Compak em linha, nas competições internacionais usa-se apenas o phono-pull, juntamente com arbitragem e marcação eletrónicas aprovadas pela FITASC.",
    "disciplines": {
@@ -823,9 +726,7 @@ window.GLOSSARY_I18N.pt = {
   },
   "trajectory": {
    "term_local": "trajetória",
-   "note": "AO90 spelling (Portugal and Brazil).",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O caminho que um prato percorre no ar ou pelo chão.",
    "long": "As trajetórias do Sporting imitam a caça: de entrada, de saída, transversais, em diagonal, altas e baixas, em campo aberto ou entre árvores. Só o árbitro decide se uma trajetória está correta, e dessa decisão não há recurso. O árbitro do posto não pode alterar as trajetórias definidas pelo júri ou pelos traçadores de percurso, a não ser para reacertar uma depois de uma avaria da máquina ou de condições meteorológicas excecionais. Cada Compak tem de incluir três trajetórias obrigatórias (da esquerda para a direita através de AB e CD, da direita para a esquerda através de CD e AB, e um prato de saída através de BC); as restantes são livres, mas têm de ser curtas.",
    "disciplines": {
@@ -840,7 +741,6 @@ window.GLOSSARY_I18N.pt = {
     "de través"
    ],
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Prato que voa de um lado para o outro à frente do atirador.",
    "long": "Um prato transversal atravessa o campo de visão da esquerda para a direita ou da direita para a esquerda. É nele que melhor se vê porque é preciso avanço: se atirar diretamente ao prato, o chumbo passa atrás dele. Quanto mais rápido e afastado o prato, mais avanço precisa. O essencial é um movimento suave da arma ao longo da linha de voo e o acompanhamento depois do tiro. No Compak® Sporting, duas trajetórias transversais, da esquerda para a direita e da direita para a esquerda, estão entre as três obrigatórias em cada Compak."
   },
@@ -851,7 +751,6 @@ window.GLOSSARY_I18N.pt = {
     "de frente"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato que voa em direção ao atirador.",
    "long": "Um prato de entrada aparece à frente e voa na sua direção, muitas vezes a descer. Parece simples, mas é fácil perdê-lo: os canos tapam o prato e o atirador deixa de o ver. Por isso aconselha-se muitas vezes a atirar-lhe cedo, enquanto ainda está longe, e a mover os canos exatamente ao longo da sua linha. Se o prato passar por cima da cabeça, torna-se um prato de batida. As regras do Sporting™ exigem que um percurso inclua também pratos de entrada."
   },
@@ -861,7 +760,6 @@ window.GLOSSARY_I18N.pt = {
     "prato de saída"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato que voa para longe do atirador.",
    "long": "Um prato de saída aparece de lado, de cima ou de trás e afasta-se, muitas vezes a subir ou a descer um pouco. Para um principiante é um dos pratos mais fáceis, por isso o treino começa muitas vezes por ele. No entanto afasta-se e diminui depressa, por isso o segundo tiro já é longo, e o choke do segundo cano deve ter isso em conta. No Compak® Sporting, um prato de saída que atravessa o lado BC do retângulo é uma das três trajetórias obrigatórias. O erro mais comum é atirar por cima de um prato que já está a descer."
   },
@@ -889,9 +787,7 @@ window.GLOSSARY_I18N.pt = {
     "prato de batida",
     "alto de frente"
    ],
-   "note": "FPTAC lists 'de batida' (driven game); not the same as the 'batida' (battue) target.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Prato alto que vem em direção ao atirador e passa por cima dele, como um faisão de batida.",
    "long": "O nome vem da caça de batida, em que as aves são empurradas por cima de uma linha de caçadores. O prato vem na sua direção, alto, e passa por cima da cabeça. Para o partir, os canos sobem de baixo através do prato, e o tiro sai quando o prato fica tapado pelos canos e a arma passa à frente dele. Isto pede uma posição com o peso no pé da frente e liberdade de movimento do tronco para trás. Não se incline demasiado para trás: perder o equilíbrio é uma causa típica de falhanços nestes pratos."
   },
@@ -901,7 +797,6 @@ window.GLOSSARY_I18N.pt = {
     "vertical",
     "ascendente vertical"
    ],
-   "note": "Anglicism.",
    "conf": "low",
    "short": "Prato que sobe quase a direito, como uma marrequinha a levantar da água.",
    "long": "Um teal salta quase na vertical, para lá em cima e cai. O nome vem da marrequinha (teal), um pato que sobe a pique da água. É mais fácil parti-lo perto do topo, onde quase para, mas é fácil perder o momento em que começa a cair. Se atirar quando sobe, leve a arma para cima e atire por cima dele; quando desce, atire por baixo. Antes de chamar, decida sempre em que parte da trajetória o vai partir."
@@ -911,9 +806,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "de salto"
    ],
-   "note": "FPTAC: 'ascendentes'; Percurso: 'de salto'.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato que sobe muito inclinado, como uma ave a levantar do chão.",
    "long": "Um prato ascendente sobe do chão em ângulo, como uma ave levantada da erva. Perde velocidade depressa e depois começa a cair, por isso comporta-se de forma bem diferente ao longo do percurso. Na subida leve a arma para cima e atire por cima dele, perto do topo quase não precisa de avanço, e na descida atire por baixo. Decida antes onde o vai partir, enquanto observa a mostra de pratos. As regras do Compak® Sporting referem pratos ascendentes entre os exemplos de trajetórias variadas."
   },
@@ -923,20 +816,17 @@ window.GLOSSARY_I18N.pt = {
     "looper"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato que faz um arco no ar e muda de direção.",
    "long": "Um prato em arco descreve um arco largo: sobe, passa o topo e cai enquanto se desloca para o lado. Normalmente é um prato standard; alguns montadores de percursos lançam também uma batida (battue) numa linha destas, que então mostra a face ao rodar. A principal dificuldade é a mudança constante de direção e de velocidade, por isso os canos seguem a curva, à frente e por baixo do prato, em vez de a cortar. Muitos atiradores atiram ao looper perto do topo, onde se move mais devagar. Os nomes variam de país para país: a chandelle é outra trajetória, mais íngreme, e os francófonos chamam muitas vezes «chandelle» a um prato que sobe quase na vertical (um teal). Observe com atenção a mostra e escolha um só ponto de tiro."
   },
   "chandelle": {
    "term_local": "chandelle",
-   "note": "English layout name; shooters usually keep the English word.",
    "conf": "medium",
    "short": "Prato que sobe a pique em curva e depois cai. Não confundir com a 'chandelle' francesa, que significa um prato vertical (teal)."
   },
   "dropping-target": {
    "term_local": "descendente",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Prato atirado quando está a cair."
   },
   "single-target": {
@@ -945,7 +835,6 @@ window.GLOSSARY_I18N.pt = {
     "simples"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Um prato lançado por uma máquina, ao qual o atirador pode disparar dois cartuchos.",
    "long": "Um prato simples pode ser de qualquer tipo. Cada prato simples tem de deixar tempo suficiente para dois tiros, para que, se o primeiro cano falhar, se possa usar o segundo. No Sporting, cada percurso tem 15 simples, e em cada posto a esquadra atira primeiro os simples e depois os doubles, salvo decisão diferente do júri. No Compak, um posto pode ter 5 simples, 3 simples e um double, ou 1 simples e dois doubles.",
    "disciplines": {
@@ -958,9 +847,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "dupla"
    ],
-   "note": "FPTAC uses French 'double'; BR also 'dupla'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Dois pratos apresentados juntos ou um a seguir ao outro, atirados como uma unidade.",
    "long": "Há três tipos de double: ao tiro, simultâneo e, só no Sporting, rafale. No Sporting, o atirador tem dois cartuchos para um double e pode disparar os dois ao mesmo prato; entre o primeiro e o segundo prato a posição da arma é livre. No Compak só se pode disparar um cartucho a cada prato de um double, e num mesmo Compak o tipo de double tem de ser igual nos 5 postos; o primeiro prato de cada double é o último prato do posto anterior. Se um só tiro partir os dois pratos, o Sporting marca one e one. No Compak não contam como dois pratos partidos: num double ao tiro, o resultado do primeiro mantém-se e o double repete-se para o segundo; num double simultâneo é NULO e o double repete-se, e à terceira vez marca-se ZERO-ZERO.",
    "disciplines": {
@@ -971,7 +858,6 @@ window.GLOSSARY_I18N.pt = {
   "double-on-report": {
    "term_local": "double ao tiro",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Double em que o segundo prato é lançado pelo som do tiro ao primeiro.",
    "long": "Os dois pratos vêm de uma ou de duas máquinas; o pedido solta o primeiro e o tiro ao primeiro solta o segundo. No Sporting, o segundo prato sai 0 a 3 segundos depois do primeiro tiro. No Sporting, os doubles ao tiro não são mostrados na mostra de pratos, e uma posição de 3 máquinas com 2 doubles não pode ter dois doubles ao tiro. Na morte súbita do Sporting, um double ao tiro conta como um par, por isso one-zero vale o mesmo que zero-one. As penalizações num double ao tiro são normalmente zero no primeiro prato e No Bird no segundo.",
    "disciplines": {
@@ -982,7 +868,6 @@ window.GLOSSARY_I18N.pt = {
   "simultaneous-double": {
    "term_local": "double simultâneo",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Double em que os dois pratos são lançados no mesmo instante.",
    "long": "Os dois pratos saem juntos com um só pedido e podem ser atirados por qualquer ordem. No Sporting vêm de uma ou de duas máquinas; no Compak, sempre de duas máquinas diferentes. Os doubles simultâneos são mostrados na mostra de pratos. Não disparar a um deles sem motivo válido, ou uma penalização de cartão vermelho, dá zero e zero. No Compak, se um cartucho partir os dois pratos, o double é No Bird e é repetido da primeira e da segunda vez, e à terceira é marcado Zero-Zero.",
    "disciplines": {
@@ -996,7 +881,6 @@ window.GLOSSARY_I18N.pt = {
     "rafale"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Double de Sporting com dois pratos da mesma máquina, na mesma trajetória, um a seguir ao outro.",
    "long": "Num double rafale, o segundo prato segue-se tão depressa quanto o braço da máquina recarrega, e qualquer dos pratos pode ser atirado primeiro. É mostrado na mostra de pratos como um double simultâneo. As regras de penalizações e avarias tratam-no como um double simultâneo: um prato irregular significa que o double é repetido sem resultado, e uma penalização de cartão vermelho significa zero e zero. Numa posição com 3 máquinas e 2 doubles, os doubles podem ser simultâneos, rafale ou ambos.",
    "disciplines": {
@@ -1009,7 +893,6 @@ window.GLOSSARY_I18N.pt = {
     "mostra"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Mostrar os pratos de um posto aos atiradores antes de atirarem.",
    "long": "No Sporting™, todas as trajetórias de um posto são mostradas ao primeiro atirador da esquadra, que tem de estar pronto no posto; a pedido, cada prato pode ser mostrado de novo até 2 vezes. Os doubles ao tiro não são mostrados; os simultâneos e os rafale são, com até 2 repetições da mostra. Durante a mostra ninguém pode atirar nem fazer simulacro de tiro, e depois de uma avaria da máquina ou de uma paragem de mais de 10 minutos os pratos do posto são mostrados de novo. No Compak® Sporting por esquadras, a primeira esquadra do dia vê os pratos uma vez, de manhã cedo: os simples de A a F, depois os doubles simultâneos dos postos 1 a 5; depois de uma pausa de mais de 10 minutos, os seis simples voltam a ser mostrados. Em linha, cada novo atirador no posto 1 vê o primeiro prato do seu double. Nas duas disciplinas as armas ficam abertas e descarregadas durante a mostra e só se fecham com autorização do árbitro. No Compak® Sporting, o simulacro de tiro é proibido fora dos postos e enquanto atira outro membro da esquadra.",
    "disciplines": {
@@ -1025,7 +908,6 @@ window.GLOSSARY_I18N.pt = {
     "ordem de tiro aos pratos"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O quadro num posto que mostra que máquinas se atiram e por que ordem.",
    "long": "No Sporting, o menu fica à frente de cada posto, onde o atirador o possa ler, indica as máquinas pela ordem de tiro (por exemplo A, B, C) e tem de assinalar os pratos especiais: 90 mm, 70 mm, 60 mm, batida ou coelho. Antes da competição, os árbitros verificam se as máquinas estão carregadas de acordo com ele. No Compak, o menu de tiro está afixado de forma legível em cada posto; os simples podem usar as máquinas por qualquer ordem, e o primeiro prato de cada double é o último prato do posto anterior. A FITASC aconselha as 40 grelhas já prontas do Anexo 3."
   },
@@ -1035,9 +917,7 @@ window.GLOSSARY_I18N.pt = {
     "desconto",
     "compensação"
    ],
-   "note": "Hunting texts: 'avanço (desconto)'.",
    "conf": "medium",
-   "src": "http://www.apaginadomonteiro.net/como_atirar.htm",
    "short": "A distância a que o atirador aponta à frente do prato para que o chumbo o encontre.",
    "long": "Enquanto o chumbo viaja até ao prato, o prato continua a mover-se, por isso no momento do disparo a arma tem de estar à frente dele. Essa distância é o avanço. Depende da velocidade do prato, da sua distância e do ângulo em que voa: os transversais longos precisam de mais avanço, enquanto os pratos de saída a direito quase não precisam. A forma como um atirador percebe o avanço é subjetiva, por isso pessoas diferentes descrevem-no de maneira diferente. Há vários métodos de avanço, o avanço mantido, o pull-away, o swing e o ambush (tiro de espera), e um treinador ajuda-o a escolher o seu."
   },
@@ -1058,9 +938,7 @@ window.GLOSSARY_I18N.pt = {
     "swing-through",
     "swing"
    ],
-   "note": "'Correr a mão' is the traditional generic term for swinging; 'swing' anglicism common.",
    "conf": "medium",
-   "src": "https://companhiadopastel.webnode.pt/news/muni%C3%A7%C3%B5es/",
    "short": "Método de avanço: os canos começam atrás do prato, passam por ele e disparam ao sair à frente.",
    "long": "No swing os canos começam atrás do prato, alcançam-no mais depressa do que ele se move, passam por ele e o tiro sai assim que ficam à frente. Como a arma se move mais depressa, o avanço parece menor ao olho. O método é natural para pratos por cima da cabeça e para trajetórias rápidas e próximas. O seu risco é a velocidade a mais e um falhanço à frente, se o movimento não for controlado. Como nos outros métodos, a arma tem de continuar a mover-se depois do tiro."
   },
@@ -1070,7 +948,6 @@ window.GLOSSARY_I18N.pt = {
     "arrancar do prato",
     "pull-away"
    ],
-   "note": "Usually the English term.",
    "conf": "low",
    "short": "Método de avanço: os canos juntam-se ao prato, acompanham-no e depois adiantam-se antes do tiro.",
    "long": "No pull-away os canos juntam-se ao prato, acompanham-no por um instante, e depois o atirador acelera, puxa os canos para a frente até ao avanço necessário e dispara sem parar. O método é popular no Sporting™ e no Compak® Sporting porque dá uma noção precisa da velocidade do prato. O risco é acompanhar o prato tempo demais e começar a confirmar o avanço, o que trava a arma. Tudo deve acontecer num só movimento suave."
@@ -1114,9 +991,7 @@ window.GLOSSARY_I18N.pt = {
     "posição de partida",
     "sem pôr a arma à cara"
    ],
-   "note": "FPTAC Percurso: chapa de coice below the line on the colete until the prato appears. Don't use 'posição de espera' (that is the waiting spot in Compak).",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "A posição de partida do Sporting: coronha a tocar o corpo abaixo da linha do colete até o prato aparecer.",
    "long": "Antes de pedir o prato, o atirador de Sporting fica com os dois pés dentro do posto, o talão da coronha a tocar o corpo e a parte de trás do ponto mais alto da coronha abaixo da linha marcada no colete. Isto aplica-se a todos os tipos de coronha, incluindo as de crista ajustável. A posição mantém-se até o prato ser lançado e estar visível. Uma primeira infração dá advertência com cartão amarelo; uma nova no mesmo percurso dá cartão vermelho e o prato é marcado. Nos doubles, entre o primeiro e o segundo prato, a arma pode estar em qualquer posição.",
    "disciplines": {
@@ -1132,7 +1007,6 @@ window.GLOSSARY_I18N.pt = {
     "encarar"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "O movimento que leva a arma à face e ao ombro do atirador.",
    "long": "Ao pôr a arma à cara, a arma sobe até ao rosto, a face assenta na crista e a coronha entra na cavidade do ombro. A regra principal: leve a arma à face, não baixe a cabeça para a arma. O gesto tem de ser sempre igual, porque decide onde fica o olho em relação à fita. No Sporting™ o atirador chama com a arma em baixo e só a leva à cara quando o prato aparece, por isso o movimento tem de ser rápido e preciso. No Compak® Sporting pode chamar com a arma já à cara. Este gesto também se treina sem disparar, com a arma descarregada, onde isso for permitido.",
    "disciplines": {
@@ -1174,7 +1048,6 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "olho dominante"
    ],
-   "note": "AO90 spelling; also 'olho dominante'.",
    "conf": "medium",
    "short": "O olho dominante, que deve olhar ao longo da fita da arma.",
    "long": "No tiro aos pratos atira-se normalmente com os dois olhos abertos, e o olho diretor faz as vezes de mira. Se o olho diretor corresponder ao ombro em que encosta a arma (olho direito, ombro direito), tudo é simples. Se não, o cérebro muda para o outro olho e a arma atira para o lado. É por isso que o treinador verifica o olho diretor logo na primeira aula. Óculos com um pequeno ponto na lente ou fechar um olho ajudam quando a dominância é parcial ou cruzada."
@@ -1201,7 +1074,6 @@ window.GLOSSARY_I18N.pt = {
     "parar a arma"
    ],
    "conf": "medium",
-   "src": "http://www.apaginadomonteiro.net/como_atirar.htm",
    "short": "Erro em que os canos param no momento do tiro e a chumbada passa atrás do prato.",
    "long": "Parar a mão é uma das causas mais comuns de falhanços atrás. Acontece muitas vezes quando o atirador começa a olhar para os canos ou a confirmar o avanço em vez de olhar para o prato, ou quando acompanha o prato tempo demais. De fora parece uma travagem brusca dos canos antes do tiro. O remédio é a concentração no prato, uma posição livre que deixe o corpo rodar e um acompanhamento deliberado depois do tiro. Um treinador atrás de si costuma ver este erro de imediato."
   },
@@ -1258,9 +1130,7 @@ window.GLOSSARY_I18N.pt = {
     "PRONTO",
     "PULL"
    ],
-   "note": "Allowed words per FPTAC: 'PRONTO', 'PULL', 'GO'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "A palavra do atirador, como 'pull' ou 'pronto', que pede o prato.",
    "long": "No Sporting, o atirador diz 'pronto' ou 'pull', o árbitro transmite o pedido ao pulleur com um sinal sonoro e o prato tem de sair no máximo 3 segundos depois; um prato mais tardio é No Bird. No Compak com lançamento manual, o prato tem de sair 0 a 3 segundos depois do pedido; o phono-pull acrescenta um atraso fixo de 0,5 segundos. Um prato que o atirador não pediu é No Bird e é o único prato que pode ser recusado. Pedir o prato seguinte significa aceitar a decisão do árbitro sobre o anterior."
   },
@@ -1270,7 +1140,6 @@ window.GLOSSARY_I18N.pt = {
     "partido"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Um prato marcado como partido segundo as regras.",
    "long": "Um prato é 'one' quando foi lançado corretamente, o atirador disparou de acordo com as regras (no Sporting, incluindo a posição de partida do artigo 3.1) e se soltou pelo menos um pedaço visível ou o prato foi destruído total ou parcialmente. O mesmo se aplica aos pratos flash. Nas folhas de marcação, um prato partido marca-se com X. Em qualquer double de Sporting, um tiro que parta os dois pratos dá one e one. No Compak, o mau tempo não muda nada: todo o prato partido é one.",
    "disciplines": {
@@ -1284,7 +1153,6 @@ window.GLOSSARY_I18N.pt = {
     "falhado"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Um prato marcado como falhado ou perdido segundo as regras.",
    "long": "Um prato é zero quando não se solta dele nenhum pedaço visível, ou quando só aparece pó ou fumo. Também é zero quando o atirador não dispara a um prato correto sem motivo válido, abre a arma ou mexe na patilha de segurança antes de o árbitro verificar uma avaria, ou tem um segundo incidente de arma ou munição na mesma série. Zero é também o resultado habitual das penalizações por infrações repetidas (cartão vermelho). Nas folhas de marcação, um prato falhado marca-se com O, e no Compak o árbitro anuncia cada zero em voz alta ou com um sinal sonoro, para que o atirador possa protestar de imediato.",
    "disciplines": {
@@ -1295,7 +1163,6 @@ window.GLOSSARY_I18N.pt = {
   "visible-piece": {
    "term_local": "pedaço visível",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Um prato conta como partido se se soltar dele pelo menos um pedaço visível."
   },
   "no-bird": {
@@ -1304,9 +1171,7 @@ window.GLOSSARY_I18N.pt = {
     "no bird",
     "prato a repetir"
    ],
-   "note": "FPTAC: 'NULO (NO BIRD)'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "A decisão do árbitro de que um prato ou uma tentativa não conta e tem de ser repetido.",
    "long": "Declara-se No Bird por causa do prato (partido à saída, máquina ou cor errada, trajetória irregular, lançado mais de 3 segundos depois do pedido ou do sinal, não pedido, atirador claramente perturbado, ou o árbitro não consegue decidir) ou por causa da primeira avaria da arma ou das munições numa série. Num prato simples o prato é repetido; nos doubles, as regras dizem quando se repete todo o double e quando se mantém o primeiro resultado. Só o árbitro declara No Bird, e dessa decisão não há recurso. Nunca se dispara a um No Bird declarado; fazê-lo depois de uma advertência é penalizado. No Compak, o mau tempo e os pratos de outro Compak nunca justificam um No Bird.",
    "disciplines": {
@@ -1322,7 +1187,6 @@ window.GLOSSARY_I18N.pt = {
     "avaria"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Uma falha da arma ou do cartucho que impede um tiro regular.",
    "long": "As avarias contam-se por série de 25 pratos. O primeiro incidente de arma ou de munição numa série dá advertência e No Bird; a partir do segundo na mesma série, os pratos contam zero em vez de serem repetidos. Depois de uma falha, o atirador fica no lugar, com a arma apontada para a zona de tiro, sem a abrir nem mexer na patilha de segurança até o árbitro a verificar; caso contrário, o prato ou os pratos contam zero. No Sporting, uma arma que não possa ser reparada pode ser substituída por uma emprestada com o consentimento do dono; no Compak, o atirador tem dois minutos para a reparar ou substituir e só pode pedir emprestada uma arma a alguém de fora do seu grupo, com o acordo do dono e do árbitro.",
    "disciplines": {
@@ -1337,9 +1201,7 @@ window.GLOSSARY_I18N.pt = {
     "disparo simultâneo",
     "dobrar"
    ],
-   "note": "FPTAC wording; no single noun.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Avaria da arma em que os dois canos disparam ao mesmo tempo.",
    "long": "Se os dois tiros partirem juntos num prato simples ou no primeiro prato de um double, o árbitro declara No Bird e nada é registado. Num prato simples o prato é repetido; no primeiro prato de um double ao tiro, num double simultâneo ou num double rafale, repete-se todo o double. Conta como avaria da arma, por isso só é No Bird se for o primeiro incidente da série. Um disparo duplo como segundo incidente num double simultâneo ou rafale dá zero e zero."
   },
@@ -1349,7 +1211,6 @@ window.GLOSSARY_I18N.pt = {
     "recusa"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Não atirar a um prato que foi pedido e lançado corretamente.",
    "long": "O atirador só pode recusar um prato que não pediu. No Sporting, um prato correto a que o atirador não disparou conta zero; num double simultâneo ou rafale, zero e zero. No Compak, a recusa é penalizada segundo o artigo 21.5: prato simples zero; primeiro prato de um double ao tiro zero, com o double repetido para marcar o segundo; double simultâneo zero-zero."
   },
@@ -1358,9 +1219,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "tiro retardado"
    ],
-   "note": "'Falha do cartucho' / 'nega' is a misfire; a delayed shot is 'disparo retardado'.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Tiro retardado: o cartucho dispara algum tempo depois de se premir o gatilho. É por isso que uma arma que falhou não se abre logo.",
    "long": "Um disparo retardado é raro mas perigoso: nada acontece quando se carrega no gatilho e, um instante depois, o cartucho dispara mesmo. Se abrir a arma nesse momento, o invólucro pode rebentar perto da cara e das mãos. Por isso, depois de qualquer falha, mantenha a arma ao ombro, ou pelo menos apontada numa direção segura, e espere; muitos instrutores aconselham esperar cerca de 30 segundos. Nas competições da FITASC, depois de uma falha não se abre a arma nem se toca na patilha de segurança até o árbitro a inspecionar, caso contrário o prato conta como perdido. Aqui as regras de segurança e de arbitragem coincidem."
   },
@@ -1371,7 +1230,6 @@ window.GLOSSARY_I18N.pt = {
     "posto"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O lugar marcado, com 1 m, onde o atirador se coloca para atirar.",
    "long": "Um posto de Sporting é um quadrado de 1 m de lado ou um círculo de 1 m de diâmetro, se possível nivelado e nunca escorregadio. O menu de pratos fica à frente dele, e a arma, o choke ou o cano não podem ser trocados depois de o atirador lá estar. Um Compak tem 5 postos, cada um de 1 m × 1 m, a 2–5 m uns dos outros, com a linha da frente 4–8 m atrás do lado AD e o posto 3 centrado nele; cada um tem um limitador do ângulo de tiro. As armas nunca são ensaiadas num posto de competição.",
    "disciplines": {
@@ -1385,9 +1243,7 @@ window.GLOSSARY_I18N.pt = {
     "stand",
     "campo"
    ],
-   "note": "Compak rules also say 'stand'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Conjunto de postos de tiro e máquinas que dá uma série de 25 pratos.",
    "long": "No Sporting, um percurso é um grupo de postos de tiro que dá 25 pratos: 15 simples e 5 doubles. O sistema antigo usa 5 máquinas para 3 posições; as linhas do sistema novo têm 4 ou 5 posições. Os percursos das provas nacionais são aprovados pela federação nacional e os das provas internacionais pela FITASC; ninguém pode treinar neles antes da prova. No Compak, a palavra abrange as regulações das máquinas e os menus de um Compak; as trajetórias, as máquinas e os menus só podem ser alterados depois de todos terem atirado uma série completa.",
    "disciplines": {
@@ -1403,16 +1259,13 @@ window.GLOSSARY_I18N.pt = {
     "clube de tiro",
     "estande"
    ],
-   "note": "BR: 'estande de tiro'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Todas as instalações desportivas do campo de tiro.",
    "long": "No glossário do Compak, o campo de tiro designa todas as instalações desportivas, enquanto um Compak Sporting é a instalação desta disciplina. A palavra aparece também nas regras de segurança: a arma carrega-se e mantém-se apontada para a zona de tiro, onde voam os pratos. As proteções auditivas são obrigatórias para todos os que estão no campo de tiro ou perto dele."
   },
   "line": {
    "term_local": "linha de tiro",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Tipo de percurso de Sporting mais recente, em que 4 ou 5 posições de tiro ficam lado a lado e partilham as máquinas.",
    "long": "Uma linha do sistema novo com 4 posições tem três posições com 4 máquinas e uma (a n.º 2 ou a n.º 3) com 3 máquinas; 2 dos 5 doubles atiram-se na posição de 3 máquinas. Uma linha com 5 posições tem 3 máquinas por posição. As tabelas de capacidade contam com 10–13 minutos por esquadra numa linha; com 4 linhas a 10 minutos, uma prova pode receber 336 atiradores em dois dias e até 816 em quatro dias. Uma linha de 3 posições com 5 máquinas cada só é permitida num Grand Prix.",
    "disciplines": {
@@ -1425,7 +1278,6 @@ window.GLOSSARY_I18N.pt = {
     "série de 25 pratos"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Unidade de 25 pratos atirada num percurso, numa linha ou num Compak.",
    "long": "Nos dois regulamentos, uma série tem 25 pratos. Uma competição internacional tem 200 pratos, ou seja, 8 séries. As avarias da arma e das munições contam-se por série: a primeira dá No Bird, as seguintes na mesma série dão zero. No Compak, uma série são cinco pratos em cada um dos cinco postos; a arma, o choke ou o cano não podem ser trocados durante a série, e as trajetórias e os menus só mudam depois de uma série completa. Uma penalização do júri pode ser a perda de uma série inteira de 25 pratos.",
    "disciplines": {
@@ -1440,7 +1292,6 @@ window.GLOSSARY_I18N.pt = {
     "mudança de posição"
    ],
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "A ordem variável em que os membros da esquadra atiram em cada posto ou mudam de posto.",
    "long": "No Sporting, as esquadras de seis formam-se por sorteio e a ordem de tiro roda em cada posto e também nos doubles. No Compak por esquadras, o posto 1 começa sempre a série; quando o atirador do posto 5 termina, vai esperar atrás do posto 1, todos avançam um posto para a direita e o atirador em espera entra no posto 1. Muda-se de posto com a arma aberta e descarregada, e o atirador tem no máximo 10 segundos para pedir o prato depois do prato do posto anterior.",
    "disciplines": {
@@ -1455,7 +1306,6 @@ window.GLOSSARY_I18N.pt = {
     "grupo"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Grupo de no máximo seis atiradores, formado por sorteio, que atiram juntos.",
    "long": "Nos dois regulamentos, uma esquadra tem no máximo 6 atiradores que atiram juntos a mesma série na mesma instalação. No Sporting, as esquadras formam-se por sorteio, os membros de uma mesma equipa nacional são distribuídos por esquadras diferentes sempre que possível, e os horários e as esquadras são publicados com antecedência. Os membros da esquadra não podem intervir nas decisões do árbitro, embora o árbitro lhes possa pedir opinião. Dois atiradores da mesma esquadra não podem partilhar uma arma. Os lugares vazios numa esquadra de desempate não são preenchidos.",
    "disciplines": {
@@ -1466,7 +1316,6 @@ window.GLOSSARY_I18N.pt = {
   "referee": {
    "term_local": "árbitro",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O oficial no posto que julga cada prato e mantém a ordem.",
    "long": "Numa competição internacional, cada árbitro compromete-se a aplicar as regras com honestidade e imparcialidade, a esquecer a sua nacionalidade e federação, a colocar-se onde melhor possa julgar, a anunciar as decisões em voz alta e clara e a trazer consigo as regras em vigor nas línguas oficiais da FITASC. Só o árbitro decide se um prato foi partido ou falhado, se uma trajetória está correta e se um prato é No Bird; destas decisões não se pode recorrer ao júri. Em caso de dúvida, o árbitro pode consultar outro árbitro, o pulleur ou os atiradores, mas não fica vinculado à opinião deles. Cada árbitro precisa de um certificado nacional válido; quem não o tiver só pode atuar como árbitro assistente, com aprovação prévia do júri.",
    "disciplines": {
@@ -1491,7 +1340,6 @@ window.GLOSSARY_I18N.pt = {
   "jury": {
    "term_local": "júri",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "O órgão que dirige uma competição internacional, aprecia os recursos e fixa as penalizações.",
    "long": "O júri é composto pelos membros presentes da comissão técnica (desportiva) da FITASC, por um representante de cada país que inscreva uma equipa sénior ou de homens e pelos membros presentes do Comité Diretivo ou Executivo da FITASC que não façam parte do júri de recurso; é presidido pelo representante da federação organizadora (Compak: o Presidente ou o representante da federação organizadora). Decide por maioria dos membros presentes, com voto de qualidade do presidente em caso de empate, e tem quórum com o presidente e pelo menos um quarto dos membros. Em caso de urgência, dois membros designados pelo presidente podem decidir, sujeitos a ratificação posterior. Pelo menos dois membros do júri têm de estar sempre no campo de tiro, e um membro que veja uma irregularidade comunica-a ao júri e não ao árbitro.",
    "disciplines": {
@@ -1506,7 +1354,6 @@ window.GLOSSARY_I18N.pt = {
     "folha de resultados"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O registo oficial dos resultados de cada atirador numa série.",
    "long": "No Sporting, o árbitro faz a folha de marcação, ou manda fazê-la sob a sua supervisão, usando um lápis de cor diferente em cada posto; antes de a esquadra seguir, o árbitro fotografa a folha e marca um asterisco junto ao nome do atirador que a leva. Os atiradores verificam o seu resultado ao sair de cada posto, e qualquer desacordo tem de ser levantado de imediato junto do árbitro. No Compak, o árbitro faz a folha no tiro por esquadras ou em linha com marcação manual; com sistemas eletrónicos, os resultados aparecem num ecrã. Um prato partido é X e um falhado é O. O atirador de Compak tem de assinar a folha no fim de cada série; recusar-se a assinar retira-lhe o direito de reclamar.",
    "disciplines": {
@@ -1519,9 +1366,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "reclamação"
    ],
-   "note": "Shooter raises arm and says 'PROTESTO'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Uma objeção imediata, no posto, a uma decisão do árbitro.",
    "long": "Um atirador que discorde tem de objetar de imediato, no posto e antes de o prato seguinte ser pedido (no Compak, antes de o atirador seguinte pedir), levantando a mão ou o braço e dizendo 'protesto' ou 'recurso', e tem de dar o motivo. O árbitro para o tiro. Se o árbitro tiver a certeza, a decisão é confirmada de imediato e é final; em caso de dúvida, o árbitro pode consultar outro árbitro, o pulleur ou os atiradores, mas a decisão que tomar depois é vinculativa. As decisões sobre partido ou falhado, trajetória e No Bird não podem ser levadas ao júri."
   },
@@ -1531,9 +1376,7 @@ window.GLOSSARY_I18N.pt = {
     "apelar da decisão",
     "reclamação escrita"
    ],
-   "note": "FPTAC: 'apelar ... por escrito, com depósito'.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Contestar uma decisão do árbitro, primeiro no posto e depois por escrito ao júri.",
    "long": "Um recurso começa no posto, de imediato, levantando a mão e dizendo 'recurso' ou 'protesto'. As decisões sobre se um prato foi partido, se tinha defeito ou estava fora da trajetória, e sobre os No Bird, não podem ir ao júri. Qualquer outra decisão do árbitro pode ser objeto de recurso escrito ao júri com uma caução: 40% da taxa de inscrição no Sporting, o valor em vigor no dia no Compak. No Compak, a reclamação tem de dizer respeito a um incidente do mesmo dia, e um atirador que se recusou a assinar a folha de marcação não pode reclamar. Se o júri der razão ao recurso, pode alterar a decisão, instruir ou substituir o árbitro, e a caução é devolvida.",
    "disciplines": {
@@ -1548,7 +1391,6 @@ window.GLOSSARY_I18N.pt = {
     "shoot-off"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Uma série extra para desfazer empates nos três primeiros lugares.",
    "long": "Só os empates nos três primeiros lugares individuais (no Compak também em cada categoria) se resolvem por desempate. É uma série de 25 pratos; se o empate persistir, atira-se uma segunda fase em morte súbita. Os desempates seguem as regras normais, mas os lugares vazios na esquadra não são preenchidos. Se não tiver sido fixada uma hora com antecedência, os atiradores têm de se manter em contacto com o júri e estar prontos até 15 minutos depois de serem chamados; quem estiver ausente é desclassificado ou considerado desistente. O júri pode adiá-lo para o dia seguinte por razões excecionais. As equipas nunca fazem desempate.",
    "disciplines": {
@@ -1561,9 +1403,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "countback"
    ],
-   "note": "FPTAC (teams): 'subindo as pranchadas na ordem inversa do tiro'.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Desempate de resultados iguais comparando os resultados no 8.º percurso ou Compak, depois no 7.º e assim por diante até ao 1.º.",
    "long": "Abaixo do terceiro lugar não há desempate: os atiradores empatados ficam ex aequo e são ordenados contando os resultados para trás, do 8.º percurso (Compak) ao 1.º. As equipas empatadas são ordenadas pela soma dos resultados dos seus membros no 8.º percurso ou Compak; se continuarem empatadas, no 7.º, no 6.º e assim sucessivamente até ao 1.º. Não há desempate por equipas."
   },
@@ -1574,7 +1414,6 @@ window.GLOSSARY_I18N.pt = {
     "limite de tempo"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "O tempo máximo que o atirador pode demorar antes de pedir o prato seguinte.",
    "long": "No Sporting, o atirador tem no máximo 15 segundos entre pratos simples ou entre doubles; ultrapassá-los dá primeiro uma advertência e depois as penalizações do artigo 12.2. Depois da decisão final do árbitro sobre uma contestação, o tiro tem de recomeçar em 15 segundos, ou conta como recusa em obedecer. No Compak, o limite é de 10 segundos para pedir o prato depois de atirado o prato do posto anterior; a primeira infração é uma advertência anotada na folha de marcação, e a reincidência na mesma série é penalizada (simples zero, double ao tiro zero / No Bird, simultâneo zero / zero). Depois de uma decisão final, o atirador de Compak tem de recomeçar em 10 segundos.",
    "disciplines": {
@@ -1585,7 +1424,6 @@ window.GLOSSARY_I18N.pt = {
   "mock-shooting": {
    "term_local": "simulacro de tiro",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Pôr a arma à cara e fazer o swing como se fosse atirar, sem um prato verdadeiro em jogo.",
    "long": "No Sporting, o simulacro de tiro é proibido dentro e fora dos campos de tiro: pôr a arma à cara antes do pedido e fazer o swing pela linha imaginada do prato, ou um disparo involuntário, dá advertência; depois disso, a reincidência é penalizada com zero no prato partido seguinte. Atirar ou fazer simulacro de tiro durante a mostra de pratos também é proibido. No Compak, o simulacro de tiro não é permitido fora dos postos de tiro nem enquanto outro membro da esquadra está a atirar.",
    "disciplines": {
@@ -1600,7 +1438,6 @@ window.GLOSSARY_I18N.pt = {
     "limitadores de ângulo de tiro (L.A.T.)"
    ],
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Limite para lá do qual um prato partido não conta.",
    "long": "Cabe ao atirador partir os pratos onde o árbitro os possa ver. Se o árbitro decidir que um prato foi atirado atrás de um obstáculo natural ou para lá de um limite de tiro, dessa decisão não há recurso. O resumo do Sporting não descreve como se marcam os limites; isso é definido em cada percurso.",
    "disciplines": {
@@ -1614,7 +1451,6 @@ window.GLOSSARY_I18N.pt = {
     "tiro de ensaio"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Verificar se uma arma funciona disparando-a num posto de ensaio próprio, nunca num posto de competição.",
    "long": "Nunca se pode ensaiar uma arma num posto de tiro. Um atirador que queira verificar a arma fá-lo antes de ir para o percurso, no posto de ensaio junto à sede do clube (Sporting) ou perto da armaria (Compak), se existir. O júri também pode testar armas, cartuchos e pratos com equipamento técnico."
   },
@@ -1624,7 +1460,6 @@ window.GLOSSARY_I18N.pt = {
     "treino oficial"
    ],
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Atirar antes da competição, o que as regras restringem.",
    "long": "No Sporting, ninguém pode treinar nos percursos da competição antes da prova; só é possível treinar noutros campos de tiro. No Compak, os atiradores podem treinar nas trajetórias da competição, que ainda podem ser alteradas depois, mas as grelhas usadas no treino têm de ser diferentes das da competição. Nos campeonatos continentais e mundiais de Compak, o treino oficial abre no sábado anterior, e ninguém pode treinar nas máquinas do campeonato antes disso.",
    "disciplines": {
@@ -1637,9 +1472,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "advertência"
    ],
-   "note": "FPTAC texts use 'advertência'.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Cartão mostrado com uma advertência por uma primeira infração.",
    "long": "No Sporting, o árbitro dá uma advertência verbal acompanhada de cartão amarelo quando o atirador não adota a posição de partida exigida ou põe a arma à cara antes de o prato aparecer; dar instruções durante a prova e as infrações relativas aos cartuchos vazios também dão cartão amarelo. No Compak, a primeira infração a uma regra, o primeiro incidente de arma ou munição numa série, as instruções durante a prova e as infrações relativas aos cartuchos vazios são assinalados com cartão amarelo. Uma nova infração leva então a cartão vermelho."
   },
@@ -1656,14 +1489,12 @@ window.GLOSSARY_I18N.pt = {
     "penalidade"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Uma sanção por infringir as regras, desde a advertência até à expulsão.",
    "long": "Ao inscrever-se, cada atirador aceita as regras da FITASC e as sanções por as infringir, por ignorar as ordens dos árbitros ou por rejeitar as suas decisões. A escala começa com uma advertência, segue com as penalizações no posto segundo a tabela (cartão vermelho, zero) e, por reincidência, recusa em obedecer ou tentativas de influenciar, o júri pode aplicar a perda de um prato, a perda de uma série de 25 pratos ou a expulsão. Por perda de autocontrolo, recusa em obedecer, tentativa de influenciar ou tiro deliberado a animais vivos, o júri pode expulsar de imediato com base num relatório do árbitro."
   },
   "category": {
    "term_local": "categoria",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Uma classificação separada por idade e sexo, a par da classificação geral; a partir de 2027 a FITASC usa Júnior, Senhoras, Homens, Sénior, Veterano e Master.",
    "long": "A partir de 1 de janeiro de 2027, a FITASC fixa seis categorias para o Compak® Sporting e o Parcours de Chasse – Sporting™: Júnior (13–20), Senhoras (a partir dos 13), Homens (Homme, 21–55), Sénior (56–65), Veterano (66–72) e Master (a partir dos 73, homens ou mulheres). A idade conta pelo ano de nascimento: uma nova categoria aplica-se a partir de 1 de janeiro do ano em que o atirador atinge a idade, seja qual for o dia de anos. Sénior não é a categoria principal de adultos, mas o escalão dos 56–65 anos; a categoria principal de adultos é Homens. As equipas por categoria têm 3 atiradores (a equipa de Homens no Sporting tem 4), e um atirador selecionado para uma equipa de outra categoria tem também de se inscrever individualmente nessa categoria. No Compak, os empates nos três primeiros lugares de cada categoria decidem-se por desempate; quando os atiradores num desempate da classificação geral pertencem à mesma categoria, o resultado conta também para essa categoria. As provas nacionais e de clube podem usar as suas próprias categorias, conforme o programa.",
    "disciplines": {
@@ -1686,9 +1517,7 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "equipe"
    ],
-   "note": "BR: 'equipe'.",
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Uma equipa nacional cujos resultados dos membros se somam para a classificação por equipas.",
    "long": "Os resultados por equipas são a soma dos resultados dos membros da equipa. Os empates desfazem-se pelo total da equipa no 8.º percurso ou Compak, depois no 7.º e assim por diante até ao 1.º; não há desempate por equipas. Os membros da mesma equipa nacional são distribuídos, tanto quanto possível, por esquadras diferentes. No desfile de abertura, os membros das equipas usam o equipamento da seleção nacional ou calças formais com blazer. Também se formam equipas por categoria: Júnior, Senhoras, Homens, Sénior, Veterano e Master, com 3 atiradores cada; só a equipa de Homens no Sporting tem 4."
   },
@@ -1717,7 +1546,6 @@ window.GLOSSARY_I18N.pt = {
     "número"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "O número usado nas costas do atirador durante a competição.",
    "long": "O dorsal tem de ser usado nas costas, entre os ombros e a cintura, totalmente visível e completo, sem estar dobrado nem cortado. Uma primeira infração dá advertência do árbitro; se não for corrigida, seguem-se outras penalizações, até à exclusão da competição pelo júri. No Sporting, um atirador em falta é chamado pelo nome e pelo número três vezes no espaço de um minuto."
   },
@@ -1727,7 +1555,6 @@ window.GLOSSARY_I18N.pt = {
     "entrega de troféus",
     "premiação"
    ],
-   "note": "BR: 'premiação'.",
    "conf": "medium",
    "short": "A cerimónia de entrega de prémios no fim de uma competição; nas provas internacionais, os premiados têm de estar presentes.",
    "long": "Depois da última série e dos desempates, o organizador anuncia os resultados e entrega medalhas, troféus ou prémios nas classificações geral, por categoria e por equipas. Segundo as regras da FITASC, todos os premiados das provas internacionais têm de estar presentes na entrega de prémios da cerimónia de encerramento. A roupa para a cerimónia é o equipamento da seleção nacional ou calças formais com blazer. Mesmo nas provas de clube, ficar para a entrega de prémios é uma boa tradição e um sinal de respeito pelos organizadores e adversários. Se tiver de sair mais cedo, avise o organizador."
@@ -1738,7 +1565,6 @@ window.GLOSSARY_I18N.pt = {
     "regras de segurança"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "As regras que protegem atiradores, oficiais, pessoal e espectadores no campo de tiro.",
    "long": "A segurança está em primeiro lugar no desenho dos percursos e no tiro. As armas transportam-se abertas e descarregadas e só se carregam no posto, apontadas para a zona de tiro, depois de o árbitro o autorizar; uma semi-automática leva no máximo dois cartuchos. Antes de se virar ou de sair do posto, o atirador abre a arma e retira todos os cartuchos, e durante as mostras e as interrupções a arma fica aberta. Depois de uma falha, o atirador fica no lugar sem abrir a arma até o árbitro a verificar. O atirador só dispara na sua vez, só a um prato lançado, nunca ao prato de outro atirador e nunca, conscientemente, a animais vivos. As proteções auditivas e os óculos de proteção são obrigatórios, e as sandálias são proibidas.",
    "disciplines": {
@@ -1752,7 +1578,6 @@ window.GLOSSARY_I18N.pt = {
     "manejo da arma"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Como as armas devem ser transportadas, guardadas e manuseadas fora e dentro do posto.",
    "long": "Toda a arma, mesmo descarregada, é manuseada com muito cuidado. As armas transportam-se abertas; as semi-automáticas com a culatra aberta e a boca do cano apontada diretamente para cima ou para baixo. Correias e bandoleiras não são permitidas. Quando não estão a ser usadas, as armas ficam de pé num armeiro ou num lugar semelhante. Ninguém pode tocar na arma de outro atirador sem autorização."
   },
@@ -1762,7 +1587,6 @@ window.GLOSSARY_I18N.pt = {
     "carregamento"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Pôr os cartuchos na arma só no posto e retirá-los depois."
   },
   "cease-fire": {
@@ -1780,7 +1604,6 @@ window.GLOSSARY_I18N.pt = {
    "alt": [
     "silêncio"
    ],
-   "note": "FPTAC: only firing commands and answers to the referee allowed.",
    "conf": "low",
    "short": "Não falar com um atirador que está a atirar nem o distrair."
   },
@@ -1790,9 +1613,7 @@ window.GLOSSARY_I18N.pt = {
     "regras de conduta",
     "desportivismo"
    ],
-   "note": "Opposite: 'comportamento anti-desportivo'.",
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "O comportamento esperado dos atiradores, incluindo a proibição de perder o autocontrolo.",
    "long": "Um atirador que perca claramente o autocontrolo, por exemplo atirando a arma ao chão, usando linguagem ofensiva ou sendo violento com um árbitro ou com outros atiradores, tem de ser comunicado pelo árbitro ao júri o mais depressa possível. O júri pode então expulsá-lo de imediato. As regras de conduta abrangem também atirar só na sua vez, nunca ao prato de outro atirador e nunca a animais vivos."
   },
@@ -1802,7 +1623,6 @@ window.GLOSSARY_I18N.pt = {
     "código de vestuário"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "As regras de vestuário dos atiradores no posto e nas cerimónias.",
    "long": "Os calções curtos são proibidos; só se aceitam bermudas compridas que terminem no máximo 5 cm acima do joelho. As camisolas precisam de, pelo menos, manga curta e gola ou decote redondo, e não é permitido um colete de tiro sem nada por baixo. As sandálias são proibidas por segurança, no treino e em competição. No desfile de abertura e na entrega de prémios, os membros das equipas usam o equipamento da seleção nacional ou calças formais com blazer, e todos os premiados têm de estar presentes na entrega de prémios. Uma primeira infração dá advertência; se não for corrigida, seguem-se outras penalizações, até à exclusão pelo júri."
   },
@@ -1813,7 +1633,6 @@ window.GLOSSARY_I18N.pt = {
     "cápsulas"
    ],
    "conf": "high",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Os cartuchos disparados, que se apanham e não se deixam no chão."
   },
   "sporting": {
@@ -1823,7 +1642,6 @@ window.GLOSSARY_I18N.pt = {
     "Parcours de Chasse"
    ],
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/PERCURSO_CACA_FPTAC/RegulamentoPercurso_2016.pdf",
    "short": "Disciplina da FITASC que imita situações de caça num percurso de postos de tiro montados em terreno natural.",
    "long": "O Sporting, oficialmente Parcours de Chasse, atira-se com uma espingarda de caça a pratos lançados sobre terreno natural. As trajetórias imitam o voo ou a corrida da caça: de entrada, de saída, transversais e em diagonal, altas e baixas, em campo aberto ou parcialmente escondidas por árvores. Cada percurso tem 25 pratos: 15 simples e 5 doubles. Uma competição internacional tem 200 pratos, em séries de 25. Nunca se atira a animais vivos, e a segurança e o respeito pelo ambiente estão em primeiro lugar."
   },
@@ -1833,7 +1651,6 @@ window.GLOSSARY_I18N.pt = {
     "Compak"
    ],
    "conf": "medium",
-   "src": "https://www.fptac.pt/Regulamentos/COMPAK_SPORTING_FPTAC/Regulamento_CompakSporting_2019.pdf",
    "short": "Disciplina compacta da FITASC, atirada de 5 postos a pratos de 6 máquinas sobre um retângulo marcado.",
    "long": "O Compak Sporting foi criado em 1989 e adotado pela FITASC em 1991; o nome e as regras são uma marca registada pela FITASC. Um Compak tem 6 máquinas, identificadas de A a F, e 5 postos de tiro em linha. Os pratos têm de voar sobre um retângulo com 35–40 m de largura e 25 m de profundidade. Uma série tem 25 pratos, cinco em cada posto, e uma competição internacional atira-se em oito Compaks, ou seja, 200 pratos. Pode ser atirado por esquadras ou em linha."
   },
@@ -2128,7 +1945,7 @@ window.GLOSSARY_I18N.pt = {
    "term_local": "master",
    "conf": "low",
    "short": "A categoria de idade mais velha da FITASC, a partir dos 73 anos, para homens e mulheres.",
-   "long": "Master abrange homens e mulheres a partir de 1 de janeiro do ano em que fazem 73 anos; para 2027, isso significa nascidos antes de 1 de janeiro de 1955. Uma equipa Master tem 3 atiradores desta categoria; os atiradores Master também podem ser selecionados para as equipas de Veteranos, Sénior e Homens. Não confunda a categoria de idade Master da FITASC com a classe Master do sistema norte-americano NSCA, que depende dos resultados, nem com o olho diretor na técnica."
+   "long": "Master abrange homens e mulheres a partir de 1 de janeiro do ano em que fazem 73 anos; para 2027, isso significa nascidos antes de 1 de janeiro de 1955. Uma equipa Master tem 3 atiradores desta categoria; os atiradores Master também podem ser selecionados para as equipas de Veteranos, Sénior e Homens. Não confunda a categoria de idade Master da FITASC com uma classe de nível, que depende dos resultados, nem com o olho diretor na técnica."
   },
   "crimp": {
    "term_local": "fecho em estrela",
@@ -2556,7 +2373,7 @@ window.GLOSSARY_I18N.pt = {
     "fur and feather"
    ],
    "conf": "low",
-   "short": "Gíria do English Sporting para um par formado por um coelho e um prato aéreo."
+   "short": "Gíria dos treinadores britânicos para um par formado por um coelho e um prato aéreo."
   },
   "true-pair": {
    "term_local": "double simultâneo",
@@ -2564,7 +2381,7 @@ window.GLOSSARY_I18N.pt = {
     "true pair"
    ],
    "conf": "low",
-   "short": "Nome do English Sporting para um par simultâneo: os dois pratos lançados no mesmo instante."
+   "short": "Nome que os treinadores britânicos dão a um par simultâneo: os dois pratos lançados no mesmo instante."
   },
   "shell-catcher": {
    "term_local": "apara-cartuchos",
@@ -2632,30 +2449,7 @@ window.GLOSSARY_I18N.pt = {
     "gun up"
    ],
    "conf": "low",
-   "short": "Começar com a arma já à cara antes do pedido; permitido no English Sporting, na NSCA e no Compak®, mas não no Sporting™ da FITASC."
-  },
-  "english-sporting": {
-   "term_local": "English Sporting",
-   "conf": "low",
-   "short": "A forma britânica do sporting, organizada em Inglaterra pela CPSA a par do Sporting™ FITASC; tem regras próprias: os pares são frequentes e os atiradores começam muitas vezes com a arma já à cara."
-  },
-  "cpsa": {
-   "term_local": "CPSA",
-   "conf": "low",
-   "short": "Clay Pigeon Shooting Association, o organismo que rege o tiro aos pratos em Inglaterra."
-  },
-  "nsca": {
-   "term_local": "NSCA",
-   "conf": "low",
-   "short": "National Sporting Clays Association, que rege o Sporting Clays nos Estados Unidos."
-  },
-  "hoa": {
-   "term_local": "HOA",
-   "alt": [
-    "vencedor geral"
-   ],
-   "conf": "low",
-   "short": "O vencedor geral de uma prova, independentemente da categoria ou da classe."
+   "short": "Começar com a arma já à cara antes do pedido; permitido no Compak® Sporting, mas não no Parcours de Chasse – Sporting™."
   },
   "clock-face": {
    "term_local": "mostrador do relógio",

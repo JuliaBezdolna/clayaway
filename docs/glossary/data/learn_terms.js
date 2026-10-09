@@ -972,8 +972,8 @@ window.GLOSSARY_LEARN = {
    "cat": "Gun",
    "short_uk": "Помпова рушниця, яку перезаряджають рухом цівки вперед-назад; правила FITASC її забороняють.",
    "short_en": "A shotgun reloaded by sliding the fore-end back and forth; banned by the FITASC rules.",
-   "long_uk": "У помповій рушниці стрілець після пострілу рухом цівки назад і вперед викидає гільзу й досилає новий набій. Такі рушниці поширені на полюванні й у деяких інших видах стрільби, але правила FITASC для Sporting™ і Compak® Sporting їх прямо забороняють. Дозволені вертикалки, горизонталки й напівавтомати калібру не більше 12. Якщо ви плануєте змагатися, не купуйте помпову рушницю як першу. Правила окремих клубних змагань можуть відрізнятися, тож перевіряйте програму.",
-   "long_en": "With a pump-action the shooter ejects the case and chambers a new cartridge by sliding the fore-end back and forward after each shot. Such guns are common for hunting and some other shooting sports, but the FITASC rules for Sporting™ and Compak® Sporting expressly ban them. Over-and-unders, side-by-sides and semi-automatics of 12 gauge or smaller are allowed. If you plan to compete, do not buy a pump-action as your first gun. Rules at some club shoots may differ, so check the programme.",
+   "long_uk": "У помповій рушниці стрілець після пострілу рухом цівки назад і вперед викидає гільзу й досилає новий набій. Такі рушниці поширені на полюванні, але правила FITASC для Sporting™ і Compak® Sporting їх прямо забороняють. Дозволені вертикалки, горизонталки й напівавтомати калібру не більше 12. Якщо ви плануєте змагатися, не купуйте помпову рушницю як першу. Правила окремих клубних змагань можуть відрізнятися, тож перевіряйте програму.",
+   "long_en": "With a pump-action the shooter ejects the case and chambers a new cartridge by sliding the fore-end back and forward after each shot. Such guns are common in hunting, but the FITASC rules for Sporting™ and Compak® Sporting expressly ban them. Over-and-unders, side-by-sides and semi-automatics of 12 gauge or smaller are allowed. If you plan to compete, do not buy a pump-action as your first gun. Rules at some club shoots may differ, so check the programme.",
    "uk_usage": "«помпа», «помпова рушниця»",
    "rule_refs": [
     {
@@ -4424,8 +4424,8 @@ window.GLOSSARY_LEARN = {
    "term": "Fur and feather",
    "aka": [],
    "cat": "Targets",
-   "short_uk": "Сленг English Sporting: дуплет із зайця і повітряної мішені.",
-   "short_en": "English Sporting slang for a pair made of a rabbit and an aerial target.",
+   "short_uk": "Сленг британських тренерів: дуплет із зайця і повітряної мішені.",
+   "short_en": "British coaches’ slang for a pair made of a rabbit and an aerial target.",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -4437,8 +4437,8 @@ window.GLOSSARY_LEARN = {
    "term": "True pair",
    "aka": [],
    "cat": "Targets",
-   "short_uk": "Назва одночасного дуплета в English Sporting: обидві мішені вилітають в одну мить.",
-   "short_en": "English Sporting name for a simultaneous pair: both targets released at the same moment.",
+   "short_uk": "Так британські тренери називають одночасний дуплет: обидві мішені вилітають в одну мить.",
+   "short_en": "A word British coaches use for a simultaneous pair: both targets released at the same moment.",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -4569,62 +4569,8 @@ window.GLOSSARY_LEARN = {
    "term": "Gun up",
    "aka": [],
    "cat": "Interpreting",
-   "short_uk": "Старт із рушницею, вкладеною в плече ще до команди; дозволено в English Sporting, NSCA і Compak®, але не у FITASC Sporting™.",
-   "short_en": "Starting with the gun already mounted before the call; allowed in English Sporting, NSCA and Compak®, not in FITASC Sporting™.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
-   "id": "english-sporting",
-   "term": "English Sporting",
-   "aka": [],
-   "cat": "Interpreting",
-   "short_uk": "Британський різновид спортингу, який в Англії проводить CPSA паралельно з FITASC Sporting™; має власні правила: поширені дуплети, а стрільці зазвичай починають із рушницею, уже вкладеною в плече.",
-   "short_en": "The British form of sporting, run in England by the CPSA alongside FITASC Sporting™; it has its own rules: pairs are common and shooters commonly start with the gun already mounted.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": "«English Sporting», «англійський спортинг»"
-  },
-  {
-   "id": "cpsa",
-   "term": "CPSA",
-   "aka": [],
-   "cat": "Interpreting",
-   "short_uk": "Clay Pigeon Shooting Association — керівна організація стендової стрільби в Англії.",
-   "short_en": "Clay Pigeon Shooting Association, the governing body for clay shooting in England.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
-   "id": "nsca",
-   "term": "NSCA",
-   "aka": [],
-   "cat": "Interpreting",
-   "short_uk": "National Sporting Clays Association — організація, що керує Sporting Clays у США.",
-   "short_en": "National Sporting Clays Association, which governs Sporting Clays in the United States.",
-   "long_uk": "",
-   "long_en": "",
-   "related": [],
-   "rule_refs": [],
-   "uk_usage": ""
-  },
-  {
-   "id": "hoa",
-   "term": "HOA",
-   "aka": [
-    "High Over All"
-   ],
-   "cat": "Interpreting",
-   "short_uk": "Абсолютний переможець змагань незалежно від категорії чи класу.",
-   "short_en": "The overall winner of an event, regardless of category or class.",
+   "short_uk": "Старт із рушницею, вкладеною в плече ще до команди; дозволено в Compak® Sporting, але не в Parcours de Chasse – Sporting™.",
+   "short_en": "Starting with the gun already mounted before the call; allowed in Compak® Sporting, not in Parcours de Chasse – Sporting™.",
    "long_uk": "",
    "long_en": "",
    "related": [],
@@ -5678,11 +5624,10 @@ window.GLOSSARY_LEARN = {
    "rule_refs": [],
    "related": [
     "target-presentation",
-    "double",
-    "english-sporting"
+    "double"
    ],
    "learn": [
-    "interpreter-english-sporting-vs-fitasc"
+    "interpreter-false-friends"
    ]
   },
   {

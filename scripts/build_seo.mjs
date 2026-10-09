@@ -13,14 +13,19 @@
 // The ClayArena Academy (content/academy/ → docs/learn/, /<lang>/learn/, redirect stubs, sitemap-learn-<lang>.xml) is built by
 // scripts/build_academy.mjs, called from here FIRST: its errors stop the whole build (nothing is written), and the glossary pages
 // link to its lessons ("Де вивчити"). The old learn pages of build_seo*.mjs and scripts/build_interpreter*.py are retired.
+// Before anything is written, the rules guide and trainer data are checked (scripts/check_rules_data.mjs; errors stop the build).
 // Usage: bun scripts/build_seo.mjs [--out <dir>] [--skip-academy] [--quiet]
-//   --out <dir>       write the site into another folder (a copy of docs/ for a test build; data is read from the repo)
+//   CLAY_BUILD_DATE=YYYY-MM-DD (environment) stamps that date instead of today (reproducible rebuild of a commit)
+//   --out <dir>       write the site into another folder (a copy of docs/ for a test build; data is read from the repo);
+//                     relative or absolute (it is resolved to an absolute path)
 //   --skip-academy    build the rest of the site although the Academy has blocking errors (its files on disk stay unchanged)
 //   --draft           full-site preview with the Academy draft lessons (only together with --out; never into docs/)
 //   -h, --help        print the flags and exit; any other unknown option stops with an error before anything is built
 import { readdirSync, mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
+import { resolve } from "path";
 import { BASE, LANGS, esc, tm, legal } from "./site_common.mjs";
 import { buildAcademy, minifySims } from "./build_academy.mjs";
+import { checkRulesData } from "./check_rules_data.mjs";
 
 // ⚠⚠ FITASC_INDEX — the FITASC rules retelling (guide, rule pages UA/EN, categories, trainer) stays `noindex` and out of the sitemap
 // and llms.txt until FITASC gives WRITTEN permission (CLAUDE.md, rules-spec "Легальність контенту"). Only the project owner sets it
@@ -36,9 +41,16 @@ const ARGS = process.argv.slice(2), argVal = k => { const i = ARGS.indexOf(k); r
     if (ARGS[i] === "--out") { if (i + 1 >= ARGS.length || /^--?[a-z]/i.test(ARGS[i + 1])) { console.error("ERROR: --out needs a folder. Nothing was built.\n" + HELP); process.exit(1); } i++; continue; }
     if (!["--skip-academy", "--quiet", "--draft"].includes(ARGS[i])) { console.error(`ERROR: unknown option ${ARGS[i]}. Nothing was built.\n` + HELP); process.exit(1); }
   } }
-const DOCS = (argVal("--out") || "docs").replace(/\\/g, "/").replace(/\/$/, ""); // site root to write (default docs)
+// Absolute: Bun 1.4 on Windows fails mkdirSync("../x/y", {recursive: true}) on an existing folder with EEXIST, so a relative --out
+// ("--out ../site") crashed after ~2 min with a half-written folder (handover check 09.10.2026).
+const DOCS = resolve(argVal("--out") || "docs").replace(/\\/g, "/"); // site root to write (default docs)
 const SKIP_ACADEMY = ARGS.includes("--skip-academy");
-const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date()); // project time zone (CLAUDE.md)
+// Build date stamped into the pages (sitemap <lastmod>, JSON-LD dateModified, "updated" on the rule pages, "generated" in the data):
+// today in the project time zone (CLAUDE.md). CLAY_BUILD_DATE=YYYY-MM-DD overrides it, so a rebuild on another day can reproduce a
+// commit byte for byte (otherwise ~1600 files change by their date alone). The Academy's date checks (review-expired, law-old) always
+// use the real date (buildAcademy: opt.now).
+const TODAY = /^\d{4}-\d{2}-\d{2}$/.test(process.env.CLAY_BUILD_DATE || "") ? process.env.CLAY_BUILD_DATE
+  : new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Bratislava" }).format(new Date());
 globalThis.window = {};
 await import("../docs/rules/data/sporting.js");
 // Term labels (owner rule 08.10.2026): a professional term named as a label is "English (local)" in every language, English only on
@@ -48,6 +60,10 @@ await import("../docs/shared/terms.js");
 const CT = window.ClayTerms;
 await import("../docs/rules/data/compak.js");
 const BOOKS = Object.fromEntries(window.RULES.map(b => [b.key, b]));
+// Rules guide and trainer data (scripts/check_rules_data.mjs: unique ids, refs, pages, no FITASC text copied word for word, no other
+// discipline): its errors stop the build here, before anything is written.
+{ const r = await checkRulesData({ quiet: ARGS.includes("--quiet") });
+  if (!r.ok) { console.error("STOP: the rules data has errors (listed above), nothing was written. Fix docs/rules/data/ and run again."); process.exit(1); } }
 
 const NAMES = { sporting: "Sporting™", compak: "Compak® Sporting" };
 // esc(), tm() (FITASC trade marks in names and meta) and legal() (© ClayArena footer line, audit W-03): scripts/site_common.mjs
@@ -304,7 +320,7 @@ ${cats.map(c => `<h2>${esc(CAT_UK[c] || c)}</h2><div class="list">${GLOSS.terms.
 // data, redirect stubs, sitemap-learn-<lang>.xml). It runs before anything is written: its errors stop the whole build.
 // --skip-academy runs its checks without writing (the Academy files on disk stay as they are). Its lessons give the glossary
 // pages their "Де вивчити" links (ACADEMY.learnLinks: final ids through id-map.json; old pages until they are replaced).
-const ACADEMY = await buildAcademy({ out: DOCS, fitascIndex: FITASC_INDEX, write: !SKIP_ACADEMY, quiet: ARGS.includes("--quiet"), draft: ARGS.includes("--draft") });
+const ACADEMY = await buildAcademy({ out: DOCS, fitascIndex: FITASC_INDEX, write: !SKIP_ACADEMY, quiet: ARGS.includes("--quiet"), draft: ARGS.includes("--draft"), today: TODAY });
 if (!ACADEMY.ok && !SKIP_ACADEMY) {
   console.error("\nSTOP: the Academy has blocking errors (listed above), nothing was written. Fix them (or set the lesson back to status \"draft\"),"
     + "\nor run `bun scripts/build_seo.mjs --skip-academy` to build the rest of the site without touching the Academy.");
@@ -376,7 +392,7 @@ function categoriesPage() {
   // the category name is the glossary term label (docs/shared/terms.js, owner rule 08.10.2026): "Lady (жінки)", "Junior"; the FITASC
   // French name is added only when it differs from the English ("фр. Dame"). The glossary is the one source of the names (CAT_GLOSS).
   const rows = C.categories.map(c => { const g = GBY[CAT_GLOSS[c.id] || c.id];
-    return `<tr><td><b>${g ? termHtml("uk", g) : esc(c.name_en)}</b>${frOwn(c) ? ` <span class="ref">· фр. ${esc(c.name_fr)}</span>` : ""}</td><td>${c.to_age ? `${c.from_age}–${c.to_age}` : `${c.from_age}+`}</td><td>${esc(c.rule_uk)}</td></tr>`; }).join("");
+    return `<tr id="${esc(c.id)}"><td><b>${g ? termHtml("uk", g) : esc(c.name_en)}</b>${frOwn(c) ? ` <span class="ref">· фр. ${esc(c.name_fr)}</span>` : ""}</td><td>${c.to_age ? `${c.from_age}–${c.to_age}` : `${c.from_age}+`}</td><td>${esc(c.rule_uk)}</td></tr>`; }).join("");
   const teams = (C.teams || []).map(t => `<tr><td><b>${esc(t.team)}</b></td><td>${esc(t.eligible_uk)}</td><td>${esc(String(t.size || ""))}</td><td>${esc(t.note_uk || "")}</td></tr>`).join("");
   const faq = C.categories.map(c => ({ "@type": "Question", name: `Хто такий ${c.name_en} у стендовій стрільбі (FITASC)?`, acceptedAnswer: { "@type": "Answer", text: c.rule_uk } }));
   const ld = [{ "@context": "https://schema.org", "@type": "WebPage", name: title, description: desc, url, inLanguage: "uk", isBasedOn: { "@type": "WebPage", name: "FITASC — Catégories, limites d'âge", url: C.source_url } },
@@ -432,22 +448,32 @@ urls.push(...buildEnglish());
 // Glossary in the other ClayArena languages (when translations exist) (scripts/build_seo_i18n.mjs).
 const { buildI18n } = await import("./build_seo_i18n.mjs");
 urls.push(...(await buildI18n()));
-// Redirect stubs for merged duplicate ids (audit G-06): an old glossary URL that is still on disk but is no longer a term
-// becomes a tiny noindex page that sends visitors (and search engines, via canonical) to the canonical term of the same
-// language. Not in the sitemap. Production: answer these old URLs with an HTTP 301 instead.
+// Redirect stubs for merged duplicate ids (audit G-06): an old glossary URL that is no longer a term becomes a tiny noindex page that
+// sends visitors (and search engines, via canonical) to the canonical term of the same language. Not in the sitemap. Production:
+// answer these old URLs with an HTTP 301 instead (the 301 map = GLOSSARY_STUBS below, each → its aliases.json target).
+// GLOSSARY_STUBS lists every glossary id that WAS a published page and was merged or retired since (aliases.json says where it goes):
+// a clean build (an empty --out folder, or production) writes their stubs from this list. Folders already on disk that are not terms
+// are stubbed too. aliases.json also maps rule-item ids that never had a page ("ammunition" → cartridge): those get no stub.
+// Retiring a glossary term: delete it from learn_terms.js / glossary.js and the 11 i18n files, add "<id>": "<target>" to aliases.json
+// and the id here (DEVELOPERS.md §4k).
+const GLOSSARY_STUBS = ["fly-over-rectangle", "hand-signals", "smoke-ball", "super-mini", // merged duplicates (audit G-06)
+  "issf", "olympic-trap", "skeet",                                                          // other disciplines, retired 08.10.2026
+  "english-sporting", "cpsa", "nsca", "hoa"];                                               // other versions of the sport and their bodies, retired 09.10.2026
 function redirectStubs() {
   const done = [];
   const bases = ["glossary", ...readdirSync(DOCS, { withFileTypes: true }).filter(e => e.isDirectory() && /^[a-z]{2}$/.test(e.name)).map(e => `${e.name}/glossary`)];
   for (const base of bases) {
     const dir = `${DOCS}/${base}`; if (!existsSync(dir)) continue;
-    for (const e of readdirSync(dir, { withFileTypes: true })) {
-      if (!e.isDirectory() || e.name === "data" || GBY[e.name]) continue;
-      const to = rid(e.name), target = GBY[to] && existsSync(`${dir}/${to}/index.html`) ? `${BASE}${base}/${to}/` : `${BASE}${base}/`;
+    const names = new Set(GLOSSARY_STUBS.filter(id => !GBY[id]));
+    for (const e of readdirSync(dir, { withFileTypes: true })) if (e.isDirectory() && e.name !== "data" && !GBY[e.name]) names.add(e.name);
+    for (const name of [...names].sort()) {
+      const to = rid(name), target = GBY[to] && existsSync(`${dir}/${to}/index.html`) ? `${BASE}${base}/${to}/` : `${BASE}${base}/`;
       const lang = base === "glossary" ? "uk" : base.split("/")[0];
-      writeFileSync(`${dir}/${e.name}/index.html`, `<!doctype html>
+      mkdirSync(`${dir}/${name}`, { recursive: true });
+      writeFileSync(`${dir}/${name}/index.html`, `<!doctype html>
 <html lang="${lang}"><head><meta charset="utf-8"><title>ClayArena</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="${target}"><meta http-equiv="refresh" content="0; url=${target}"></head><body><p><a href="${target}">${target}</a></p></body></html>
 `);
-      done.push(`${base}/${e.name}`);
+      done.push(`${base}/${name}`);
     }
   }
   if (done.length) console.log("glossary redirect stubs (merged or removed ids):", done.join(" "));

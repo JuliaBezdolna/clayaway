@@ -18,7 +18,7 @@ window.GLOSSARY = {
    "short_en": "A FITASC discipline that imitates hunting situations on a course of stands laid out over natural terrain.",
    "long_uk": "Sporting (офіційно Parcours de Chasse) стріляють із мисливської рушниці по мішенях, які летять над природною місцевістю. Траєкторії відтворюють політ або біг дичини: на стрільця, від стрільця, поперечні й косі, високі й низькі, на відкритому місці або частково за деревами. Кожен layout дає 25 мішеней: 15 одиночних і 5 дуплетів. Міжнародне змагання — 200 мішеней серіями по 25. По живих тваринах не стріляють, а безпека й турбота про довкілля стоять на першому місці.",
    "long_en": "Sporting, officially Parcours de Chasse, is shot with a hunting shotgun at clay targets thrown over natural ground. Trajectories copy the flight or run of game: incoming, outgoing, crossing and quartering, high and low, in the open or partly hidden by trees. Every layout gives 25 targets, 15 singles and 5 doubles. An international competition is 200 targets in rounds of 25. Live animals are never shot, and safety and care for the environment come first.",
-   "uk_usage": "«спортинг»; часто кажуть «parcours» або «FITASC sporting», щоб відрізнити від англійського English Sporting",
+   "uk_usage": "«спортинг»; часто кажуть «parcours» або «FITASC sporting»",
    "rule_refs": [
     {
      "book": "sporting",
@@ -5576,8 +5576,8 @@ window.GLOSSARY = {
    "cat": "Results",
    "short_uk": "Найстарша вікова категорія FITASC — з 73 років, для чоловіків і жінок.",
    "short_en": "The oldest FITASC age category, from 73, for men and women.",
-   "long_uk": "Master — чоловіки й жінки з 1 січня року, у якому їм виповнюється 73; для 2027 року це народжені до 1 січня 1955 року. Команда Master — 3 стрільці цієї категорії; стрільці Master можуть також входити до команд Veteran, Senior і Men. Не плутайте вікову категорію Master FITASC із класом Master в американській системі NSCA, який залежить від результатів, і з провідним оком (master eye) у техніці.",
-   "long_en": "Master covers men and women from 1 January of the year they turn 73; for 2027 that means born before 1 January 1955. A Master team has 3 shooters of this category; Master shooters may also be selected for Veteran, Senior and Men teams. Do not confuse the FITASC Master age category with the Master class of the American NSCA system, which depends on results, or with the master eye in technique.",
+   "long_uk": "Master — чоловіки й жінки з 1 січня року, у якому їм виповнюється 73; для 2027 року це народжені до 1 січня 1955 року. Команда Master — 3 стрільці цієї категорії; стрільці Master можуть також входити до команд Veteran, Senior і Men. Не плутайте вікову категорію Master FITASC із класом майстерності, який залежить від результатів, і з провідним оком (master eye) у техніці.",
+   "long_en": "Master covers men and women from 1 January of the year they turn 73; for 2027 that means born before 1 January 1955. A Master team has 3 shooters of this category; Master shooters may also be selected for Veteran, Senior and Men teams. Do not confuse the FITASC Master age category with a skill class that depends on results, or with the master eye in technique.",
    "uk_usage": "«Master»",
    "rule_refs": [],
    "source_url": "https://www.fitasc.com/competitions/categories",
